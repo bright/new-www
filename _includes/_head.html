@@ -30,6 +30,9 @@
 {% if page.customCss %}
 <link rel="stylesheet" href="{{ site.url }}/assets/css/{{page.customCss}}.css">
 {% endif %}
+{% if page.layout == 'post' %}
+<link rel="stylesheet" href="{{ site.url }}/assets/css/post.css">
+{% endif %}
 
 <meta http-equiv="cleartype" content="on">
 

@@ -1,17 +1,15 @@
 ---
 ---
 @import "variables";
-@import "vendor/font-awesome/font-awesome";
-@import "vendor/magnific-popup/magnific-popup";
 @import "code";
 
-body.post {
+body {
   // width: 100%;
   section {
-    padding-left: 250px;
-    padding-top: 50px;
     width: 100%;
     article.post {
+        margin-left: 250px;
+        margin-top: 50px;
         max-width: 800px;
     }
     #disqus_thread {
