@@ -1,0 +1,70 @@
+# Authors
+
+adam:
+  name: Adam Bar
+  web: http://notherdev.blogspot.com
+  email: adam.bar@brightinventions.pl
+  bio: "Full Stack Software Enthusiast @ Bright Inventions"
+  avatar: http://brightinventions.pl/assets/adam_small.png
+  twitter: NOtherDev
+  github: NOtherDev
+  stackoverflow: 142827/notherdev
+
+piotr:
+  name: Piotr Mionskowski
+  web: http://miensol.pl
+  email: piotr.mionskowski@brightinventions.pl
+  bio: "TDD fan eager to learn new things"
+  avatar: http://brightinventions.pl/assets/piotr_small.png
+  twitter: miensol
+  github: miensol
+  stackoverflow: 155213/miensol
+
+daniel:
+  name: Daniel Makurat
+  email: daniel.makurat@brightinventions.pl
+  bio: "building apps @ Bright Inventions"
+  avatar: http://brightinventions.pl/assets/daniel_small.png
+  github: danielmakurat
+
+mateusz:
+  name: Mateusz Klimczak
+  email: mateusz.klimczak@brightinventions.pl
+  bio: "Software Engineer @ Bright Inventions"
+  avatar: http://brightinventions.pl/assets/mateuszklimczak_small.png
+  twitter: Klimczak_M
+  github: KlimczakM
+  stackoverflow: 1570496/klimczak-m
+
+michal:
+  name: Michał Łukasiewicz
+  email: michal.lukasiewicz@brightinventions.pl
+  bio: "building apps @ Bright Inventions"
+  avatar: http://brightinventions.pl/assets/michal_small.png
+  twitter: mgamer
+  github: mgamer
+  stackoverflow: 59666/mgamer
+
+mateuszklimek:
+  name: Mateusz Klimek
+  email: mateusz.klimek@brightinventions.pl
+  bio: "Software Engineer @ Bright Inventions"
+  avatar: http://brightinventions.pl/assets/mateuszklimek_small.png
+  github: mklimek
+  stackoverflow: 870674/mklimek
+
+eliasz:
+  name: Eliasz Sawicki
+  web: http://eluss.github.io/
+  email: eliasz.sawicki@brightinventions.pl
+  bio: "Software Engineer @ Bright Inventions"
+  avatar: http://brightinventions.pl/assets/eliasz_small.png
+  github: eluss
+
+kwysocki:
+  name : Kamil Wysocki
+  web : http://k8mil.github.io
+  email : kamil.wysocki@brightinventions.pl
+  bio : "Software Engineer @ Bright Inventions"
+  avatar : http://brightinventions.pl/assets/kamil_small.png
+  github : k8mil

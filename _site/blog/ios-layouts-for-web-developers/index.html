@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<title>iOS layouts for web developers &#8211; Bright Inventions</title>
+<meta name="description" content="Recently I had an opportunity to dive into an iOS development and while I enjoy it, I miss a lot of things from the web development world. I was looking for an iOS begginer guide targeted specifically to the web developers like me, but I haven't found any. This is how the idea for this series of blog posts was born.">
+<meta name="keywords" content="iOS">
+
+  
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="iOS layouts for web developers">
+<meta name="twitter:description" content="Recently I had an opportunity to dive into an iOS development and while I enjoy it, I miss a lot of things from the web development world. I was looking for an iOS begginer guide targeted specifically to the web developers like me, but I haven't found any. This is how the idea for this series of blog posts was born.">
+<meta name="twitter:site" content="@BrightDevs">
+<meta name="twitter:creator" content="@NOtherDev">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/images/logo.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="iOS layouts for web developers">
+<meta property="og:description" content="Recently I had an opportunity to dive into an iOS development and while I enjoy it, I miss a lot of things from the web development world. I was looking for an iOS begginer guide targeted specifically to the web developers like me, but I haven't found any. This is how the idea for this series of blog posts was born.">
+<meta property="og:url" content="/blog/ios-layouts-for-web-developers/">
+<meta property="og:site_name" content="Bright Inventions">
+
+
+
+
+
+<link rel="canonical" href="/blog/ios-layouts-for-web-developers/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Bright Inventions Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700&subset=latin-ext" rel="stylesheet">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="stylesheet" href="/assets/css/post.css">
+
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<link rel="apple-touch-icon" sizes="57x57 60x60 72x72 76x76" href="/images/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="114x114 120x120 144x144 152x152 180x180" href="/images/favicon-192x192.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+
+</head>
+
+<body class="standard post">
+    <div class="container">
+        <header>
+            <h1><a href="/" title="Bright Inventions">Bright Inventions</a></h1>
+
+            <nav>
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul id="main-nav">
+                  
+                  
+                    <li class="item"><a href="/">About Us</a></li>
+                  
+                    <li class="item"><a href="/team.html">Team</a></li>
+                  
+                    <li class="item"><a href="/services.html">Services</a></li>
+                  
+                    <li class="item"><a href="/portfolio.html">Portfolio</a></li>
+                  
+                    <li class="item"><a href="/careers.html">Careers</a></li>
+                  
+                    <li class="item"><a href="/blog/">Blog</a></li>
+                  
+                    <li class="item"><a href="/contact.html">Contact Us</a></li>
+                  
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+          <div id="main" role="main">
+    <article class="post">
+        <h1>iOS layouts for web developers</h1>
+        <hr>
+        <div class="article-wrap">
+            <p>Almost all of my past development experience is centered around the web. Just recently I had an opportunity to dive into an iOS development and while I enjoy it, I miss a lot of things from the web development world. I’ve quickly discovered that applying the techniques and approaches directly from the web is often not possible. Sometimes I had to switch to the different mindset than the one I’m used to. To make things easier, I was looking for an iOS begginer guide targeted specifically to the web developers like me, but I haven’t found any. This is how the idea for this series of blog posts was born.</p>
+
+<p>I’ve tried to go through multiple layout-specific aspects of iOS programming and compare it to the concepts I know from the web. My intention never was to replace Apple’s documentation nor write an extensive guide to iOS - there are better resources for that. I also expected that the reader is already able to use Objective-C or Swift at the syntax level and has the basic knowledge of how iOS generally works. What I hoped to create is more a translation table between the similar concepts on both platforms. As such, and also due my limited iOS experience, it for sure has some deficiencies and simplifications - I’ve treated this write-up as a learning opportunity, too.</p>
+
+<ol>
+  <li>
+    <p><strong><a href="/ios-layouts-for-web-developers-1-basic-building-blocks/">Basic building blocks</a></strong></p>
+
+    <p>The first part looks at the basic building blocks of the view layer in iOS and compares it to what HTML offers. In HTML, everything we can see in the browser is built upon the low-level HTML elements. In iOS for composing views we’re mostly using the UIKit framework and its views and controls. View is a concept on the higher level of abstraction than single HTML element.</p>
+
+    <p>UIKit offers a lot of out-of-box functionality available as controls. All specialized controls are implemented as UIView subclasses. In most cases, controls can’t be treated as an equivalent of HTML elements. Controls conveys both visual and functional aspects - it encapsulates it together in a way more similar to Web Components or widgets than a single HTML tag. However, some HTML elements can be compared quite directly and the post tries to find these analogies.</p>
+  </li>
+  <li>
+    <p><strong><a href="/ios-layouts-for-web-developers-2-control-positioning/">Control positioning</a></strong></p>
+
+    <p>The matter of how and where the controls are drawn on the screen in iOS is complex enough so that it got the separate post only about it, especially that it completely differs from what I knew from the web. The thing that struck me most when I was starting with iOS is that there is no such concept like web’s document flow, giving the controls some default sizes and positions. Controls just don’t show up by default, unless we tell them explicitly where should they go and what size they should take.</p>
+
+    <p>But that kind of positioning is quite directly equivalent to the absolute positioning in the web, with all its deficiencies. We lack flexibility, we have no way to adjust to different screen sizes and we always need to operate in fixed-sized coordinate plane. In the web, we strive not to use absolute positioning and we should try to avoid it in iOS, too. The post shows a few techniques to do so.</p>
+  </li>
+  <li>
+    <p><strong><a href="/ios-layouts-for-web-developers-3-managing-appearance/">Managing the appearance</a></strong></p>
+
+    <p>It was around early 2000s when CSS became ubiquitous in the web world. CSS is now an inseparable part of the web development, there’s virtually no way to do anything without it. Now, it’s 2015 and we’re looking at the iOS layouts. How do we maintain the content vs. presentation separation in iOS? The short answer is - we don’t. There is no direct replacement for CSS concept in iOS.</p>
+
+    <p>I was seriously shocked when I first learned that fact. But the fact is, a lot of iOS community doesn’t care. Most iOS developers go “the Apple way” here and use graphical Interface Builder to design the layout with drag&amp;drop. There are multitude of alternatives - some of them gives us a lot of power, but with the great power comes the great responsibility. Or, sometimes just the great clutter.</p>
+  </li>
+  <li>
+    <p><strong><a href="/ios-layouts-for-web-developers-4-css-properties-replacements/">CSS properties replacements</a></strong></p>
+
+    <p>Next in the series, I’m going through various visual aspects of the iOS controls and seeing how we can set it up, compared to CSS capabilities. The differences are quite significant, given the various positioning models and different approach to textual content.</p>
+  </li>
+  <li>
+    <p><strong><a href="/ios-layouts-for-web-developers-5-events-handling/">Events handling</a></strong></p>
+
+    <p>Finally, I’m looking at the hard topic of events handling. This time I have to admit it is harder when looking from the web perspective. The mobile web promise can’t be fulfilled until the state of the events handling catches up with what iOS offers. Contrary to low-level handling available for the web, events in iOS are approached at multiple levels of abstraction, giving the developer the way to either easily use the system default gestures or alternatively dive down to more complex but more powerful API.</p>
+
+    <p>Both in the web and in iOS we employ event-based models to define and control the interactions between our application and the external world, especially the user. The general idea of listening and reacting to particular events on specific parts of the UI or the whole application is the same on both environments. But the set of events is distinct and the main difference we need to always be aware is there are different ways to interact with the classical web than with the mobile device.</p>
+  </li>
+</ol>
+
+<p>That’s all I have now. As I wrote the series, I found the topic incredibly broad and I don’t even try to address and describe all the possible analogies between both platforms. Also, be aware that these posts are full of possibly broken simplifications and shortcuts - but I think to avoid that I’d need to write something 5 times longer and probably far less readable. Anyway, if you find this material useful and you see the field for improvement, please leave a comment or maybe even <a href="https://github.com/bright/bright.github.io/tree/master/_posts">a pull request</a>. Enjoy!</p>
+
+            <hr />
+            <footer role="contentinfo">
+                <div class="article-author-bottom">
+                    
+  
+
+
+    
+        <img src="http://brightinventions.pl/assets/adam_small.png" class="bio-photo" alt="Adam Bar bio photo">
+    
+
+
+<h3>Adam Bar</h3>
+<p>Full Stack Software Enthusiast @ Bright Inventions</p>
+<a href="http://notherdev.blogspot.com" class="author-social" target="_blank"><i class="fa fa-fw fa-globe"></i> Personal blog</a>
+<a href="mailto:adam.bar@brightinventions.pl" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+<a href="http://twitter.com/NOtherDev" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+
+
+
+
+
+<a href="http://github.com/NOtherDev" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+<a href="http://stackoverflow.com/users/142827/notherdev" class="author-social" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i> Stackoverflow</a>
+
+
+
+
+
+
+
+                </div>
+                <p class="byline"><strong>iOS layouts for web developers</strong> was published on <time datetime="2015-05-27T00:00:00+02:00">May 27, 2015</time>.</p>
+            </footer>
+        </div><!-- /.article-wrap -->
+        
+            <section id="disqus_thread"></section><!-- /#disqus_thread -->
+        
+    </article>
+</div><!-- /#main -->
+
+
+          <div class="clearfix"></div>
+        </section>
+</div>
+
+<footer>
+<div class="outer">
+  <div class="container">
+      <ul class="links">
+          <li>
+              <a href="https://www.facebook.com/Bright.Inventions/" target="_blank" title="Facebook">
+                  <svg viewBox="0 0 96.124 96.123" width="35px" height="35px">
+                      <path fill="#fff" d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                      c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                      c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                      c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+                  </svg>
+              </a>
+          </li>
+
+          <li>
+              <a href="https://twitter.com/BrightDevs" target="_blank" title="Twitter - @BrightDevs">
+                  <svg viewBox="75 75 250 250" width="35px" height="35px">
+                      <path fill="#fff" d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23"/>
+                  </svg>
+              </a>
+          </li>
+
+          <li>
+              <a href="https://www.instagram.com/bright_devs/" target="_blank" title="Instagram - bright_devs">
+                  <svg viewBox="0 0 510 510" width="35px" height="35px">
+                      <path fill="#fff" d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+                      M255,153c56.1,0,102,45.9,102,102c0,56.1-45.9,102-102,102c-56.1,0-102-45.9-102-102C153,198.9,198.9,153,255,153z M63.75,459
+                      C56.1,459,51,453.9,51,446.25V229.5h53.55C102,237.15,102,247.35,102,255c0,84.15,68.85,153,153,153c84.15,0,153-68.85,153-153
+                      c0-7.65,0-17.85-2.55-25.5H459v216.75c0,7.65-5.1,12.75-12.75,12.75H63.75z M459,114.75c0,7.65-5.1,12.75-12.75,12.75h-51
+                      c-7.65,0-12.75-5.1-12.75-12.75v-51c0-7.65,5.1-12.75,12.75-12.75h51C453.9,51,459,56.1,459,63.75V114.75z"/>
+                  </svg>
+              </a>
+          </li>
+
+          <li>
+              <a href="https://github.com/bright" target="_blank" title="GitHub - Bright">
+                  <svg viewBox="0 0 438.549 438.549" width="35px" height="35px">
+                      <path fill="#fff" d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+                      c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+                      c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+                      c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+                      c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+                      c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+                      c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+                      c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+                      c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+                      c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+                      c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+                      c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+                      c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+                      c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+                      c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+                      c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+                      c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+                      c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+                      c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+                      C438.536,184.851,428.728,148.168,409.132,114.573z"/>
+                  </svg>
+              </a>
+          </li>
+      </ul>
+
+      <p>&copy; 2016 Bright Inventions</p>
+  </div>
+</div>
+</footer>
+
+<!-- <script src="/assets/js/main.js"></script> -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-29336006-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- <script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-56513184-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script> -->
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'brightinventions'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+<script src="/assets/js/main.js" charset="utf-8"></script>
+<script type="text/javascript">window.$czater||(function(d,s){var z=$czater=function(c){z._.push(c)},$=z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set._.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');$.src='https://www.czater.pl/assets/modules/chat/js/chat.js';z.t=+new Date;z.tok="c1af44fdd5fad14eba26292e64a9c65d6dc25613";z.domain="https://www.czater.pl/";$.type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script' );</script>
+
+</body>
+
+</html>

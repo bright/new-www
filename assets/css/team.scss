@@ -1,0 +1,54 @@
+---
+---
+@import '_prefix';
+
+.team {
+    .team-founders {
+        > * {
+            float: left;
+        }
+
+        img {
+            margin: .5em;
+
+            &:first-of-type {
+                margin-left: 0;
+            }
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .subheading {
+        padding-left: 4em;
+    }
+}
+
+@media (min-width: 767px) {
+    .team {
+        .team-founders {
+            display: flex;
+
+            img {
+                flex: 1 0 auto;
+                margin: 1em;
+            }
+
+            .team-info {
+                flex: 3 1 auto;
+                margin-left: 2em;
+            }
+        }
+    }
+}
+
+@media (min-width: 1023px) {
+    .team {
+        .team-founders,
+        .team-members {
+            margin-left: 12em; // move away from skewed bar
+            max-width: $max-width;
+        }
+    }
+}

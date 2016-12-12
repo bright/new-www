@@ -1,0 +1,80 @@
+# Site wide configuration
+
+title:            Bright Inventions
+locale:           en_US
+avatar:           /images/logo.png
+
+menu:
+  - url:  /
+    text: About Us
+  - url:  /team.html
+    text: Team
+  - url:  /services.html
+    text: Services
+  - url:  /portfolio.html
+    text: Portfolio
+  - url:  /careers.html
+    text: Careers
+  - url:  /blog/
+    text: Blog
+  - url:  /contact.html
+    text: Contact Us
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        feature:
+        feature_class: jumbotron-bright
+
+# Jekyll configuration
+
+permalink:   /blog/:categories/:title/
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+# Site owner
+owner:
+  name: Bright Inventions
+  bio: "Bright Inventions is a team of excellent developers dedicated to delivering first-rate mobile platforms. Since our founding in 2011 we've worked with clients from a range of industries with diverse requirements always delivering high quality mobile solutions that they can depend on."
+  email: info@brightinventions.pl
+  disqus-shortname: brightinventions
+  twitter: BrightDevs
+  facebook: Bright.Inventions
+  google:
+    plus: #username
+    analytics: 'UA-56513184-1'
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: bright
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: bright_devs
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

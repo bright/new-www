@@ -1,0 +1,26 @@
+---
+---
+@import "variables";
+@import "vendor/font-awesome/font-awesome";
+@import "vendor/magnific-popup/magnific-popup";
+@import "code";
+
+body.post {
+  // width: 100%;
+  section {
+    padding-left: 250px;
+    padding-top: 50px;
+    width: 100%;
+    article.post {
+        max-width: 800px;
+    }
+    #disqus_thread {
+        padding: 0;
+        padding-top: 50px;
+    }
+  }
+
+  img:not(.bio-photo) {
+    max-width: 100%;
+  }
+}

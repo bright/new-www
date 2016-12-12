@@ -1,0 +1,31 @@
+---
+---
+@import  "variables";
+
+.container main {
+    padding-left: 120px;
+
+    > h3 {
+        border-bottom: 1px solid $grey-color;
+        font-size: 36px;
+    }
+
+    > article {
+        margin-bottom: 40px;
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 0 0 10px;
+        }
+
+        .tags {
+            margin: 0;
+            color: #aaaaaa;
+            font-weight: lighter;
+            font-style: italic;
+        }
+    }
+}

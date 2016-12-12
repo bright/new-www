@@ -1,0 +1,56 @@
+---
+---
+@import '_prefix';
+
+.contact {
+    section {
+        min-height: 0;
+    }
+
+    .map {
+        width: calc(100% + 6em);
+        height: 450px;
+        margin-top: 2em;
+        margin-left: -3em;
+        margin-right: -3em;
+        border: 0;
+    }
+
+    address {
+        font-size: larger;
+        font-style: normal;
+        text-align: center;
+    }
+    form {
+        max-width: 60em;
+
+        .form-group {
+            width: 100%;
+            margin: 1em 0;
+
+            > * {
+                width: 100%;
+            }
+        }
+
+        button {
+            float: right;
+        }
+    }
+}
+
+@media (min-width: 767px) {
+    .contact {
+        .map {
+            height: 300px;
+        }
+
+        .subheading {
+            padding-left: 4em;
+        }
+
+        form {
+            margin-left: 8em;
+        }
+    }
+}
