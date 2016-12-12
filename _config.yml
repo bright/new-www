@@ -7,17 +7,17 @@ avatar:           /images/logo.png
 menu:
   - url:  /
     text: About Us
-  - url:  /team.html
+  - url:  /team/
     text: Team
-  - url:  /services.html
+  - url:  /services/
     text: Services
-  - url:  /portfolio.html
+  - url:  /portfolio/
     text: Portfolio
-  - url:  /careers.html
+  - url:  /careers/
     text: Careers
   - url:  /blog/
     text: Blog
-  - url:  /contact.html
+  - url:  /contact/
     text: Contact Us
 
 defaults:
@@ -44,7 +44,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
