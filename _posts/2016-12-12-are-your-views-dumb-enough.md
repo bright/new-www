@@ -6,9 +6,9 @@ comments: true
 author: eliasz
 ---
 
-![Header](/images/are-views-dumb-enough/turbo.jpg){: .center-image}
-
 Hi! As you can see, the title of this post consists of two parts. “Are your views dumb enough” refers to managing code between your classes in project, which is really interesting topic, but there is also a second part — “A way to run your tests without simulator”. Managing your code is pretty straight forward topic and you probably know what to expect from this part, but how do I want to run my tests without simulator? Isn’t a simulator something we really need to test an application? Turns out it is not!
+
+![Header](/images/are-views-dumb-enough/turbo.jpg){: .center-image}
 
 Are your views dumb enough?
 ---
