@@ -67,11 +67,11 @@
 // });
 
 $(function () {
-  $('#nav-icon').click(event => $('nav')[0].classList.toggle('expanded'));
+  $('#nav-icon').click(function (event) {$('nav')[0].classList.toggle('expanded')});
 
-  const setActiveNavItem = (currentPage) => {
-      let mainNav = $('#main-nav');
-      Array.prototype.forEach.call(mainNav.children, (navItem) => {
+  var setActiveNavItem = function (currentPage) {
+      var mainNav = $('#main-nav');
+      Array.prototype.forEach.call(mainNav.children, function (navItem) {
           if (navItem.children[0].getAttribute('href') === currentPage) {
               navItem.classList.add('active');
           } else {
@@ -80,10 +80,10 @@ $(function () {
       });
   };
 
-  const bindOpenableAction = () => {
-      Array.prototype.forEach.call(document.querySelectorAll('.js-openable'), (element) => {
-          element.addEventListener('mouseenter', (event) => {
-              let currentlyOpened = element.parentElement.querySelector('.open');
+  var bindOpenableAction = function () {
+      Array.prototype.forEach.call(document.querySelectorAll('.js-openable'), function (element) {
+          element.addEventListener('mouseenter', function (event) {
+              var currentlyOpened = element.parentElement.querySelector('.open');
               if (currentlyOpened) {
                   currentlyOpened.classList.remove('open');
               }
