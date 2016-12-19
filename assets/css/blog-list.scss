@@ -29,3 +29,9 @@
         }
     }
 }
+
+@media (max-width: 800px) {
+    .container main {
+        padding-left: 10px;
+    }
+}
