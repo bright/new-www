@@ -399,9 +399,12 @@ footer {
 
     .container {
         padding: 1em;
-
+        padding-bottom: 0.6em;
         p {
             margin: 0;
+            width: 180px;
+            float: left;
+            line-height: 31px;
         }
     }
 
@@ -411,12 +414,11 @@ footer {
     }
 
     .links {
-        float: right;
-        margin: -.5em 0 0;
-
+        margin: 0;
+        margin-left: calc(50% - 190px);
         li {
             display: inline-block;
-            padding: 0.25em;
+            padding-right: .5em;
 
             &:before {
                 content: none;
@@ -424,6 +426,7 @@ footer {
         }
     }
 }
+
 @media (min-width: 359px) {
     nav {
         padding: 3em 2em;
@@ -625,7 +628,7 @@ footer {
 
     footer .container {
         padding-left: 8em;
-
+        padding-top: 18px;
         &:before {
             left: 4em;
         }
@@ -642,8 +645,21 @@ footer {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
     .container section .testimonials {
         margin-left: 0;
     }
+    footer {
+        .links {
+            display: none;
+        }
+        .container {
+            padding: 0;
+            padding-bottom: 30px;
+            p {
+                width: auto;
+            }
+        }
+    }
+
 }
