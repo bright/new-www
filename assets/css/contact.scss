@@ -16,6 +16,11 @@
         border: 0;
     }
 
+    .subheading {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     address {
         font-size: larger;
         font-style: normal;
@@ -54,7 +59,7 @@
         }
 
         .subheading {
-            padding-left: 4em;
+            padding-left: 5em;
         }
 
         form {
