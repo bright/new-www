@@ -19,7 +19,7 @@
 
                 <ul id="main-nav">
                   {% assign currentUrl = page.url | replace: 'index.html', '' %}
-                  {% for single in site.menu %}
+                  {% for single in site.data.navigation %}
                     <li class="item{%if single.url == currentUrl %} active{%endif%}"><a href="{{single.url}}">{{single.text}}</a></li>
                   {% endfor %}
                 </ul>
@@ -33,7 +33,7 @@
         </section>
 </div>
 
-<footer>
+<!--<footer>
 <div class="outer">
   <div class="container">
       <p>&copy; 2016 Bright Inventions</p>
@@ -98,8 +98,9 @@
       </ul>
   </div>
 </div>
-</footer>
+</footer>-->
 
+{% include _footer.html %}
 <!-- <script src="/assets/js/main.js"></script> -->
 {% include _scripts.html %}
 </body>

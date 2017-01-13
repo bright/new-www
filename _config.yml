@@ -4,22 +4,6 @@ title:            Bright Inventions
 locale:           en_US
 avatar:           /images/logo.png
 
-menu:
-  - url:  /
-    text: About Us
-  - url:  /team/
-    text: Team
-  - url:  /services/
-    text: Services
-  - url:  /portfolio/
-    text: Portfolio
-  - url:  /careers/
-    text: Careers
-  - url:  /blog/
-    text: Blog
-  - url:  /contact/
-    text: Contact Us
-
 defaults:
   -
     scope:

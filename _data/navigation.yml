@@ -1,7 +1,16 @@
 # Site navigation links
 
-- title: About Us
-  url: http://brightinventions.pl
-
-- title: All Posts
-  url: /posts/
+- url:  /
+  text: About Us
+# - url:  /team/
+#   text: Team
+- url:  /services/
+  text: Services
+- url:  /projects/
+  text: Projects
+- url:  /careers/
+  text: Careers
+- url:  /blog/
+  text: Blog
+- url:  /contact/
+  text: Contact Us
