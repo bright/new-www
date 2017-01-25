@@ -258,7 +258,7 @@ button {
 
 a.button.estimate {
     padding: 1em 4em;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .space-before {
@@ -463,14 +463,14 @@ footer {
             border-right: 50vw solid $black-color;
         }
 
-        &.standard > .container:before {
-            // yellow bars between nav and content
-            @include bars-line();
-            top: $nav-height + 3em;
-            right: 0;
-            left: 13em; // arbitrary number so that it's not visible left of image-hero
-            z-index: -2;
-        }
+        // &.standard > .container:before {
+        //     // yellow bars between nav and content
+        //     @include bars-line();
+        //     top: $nav-height + 3em;
+        //     right: 0;
+        //     left: 13em; // arbitrary number so that it's not visible left of image-hero
+        //     z-index: -2;
+        // }
 
         > .container:after {
             // bottom pictograms bar
@@ -616,6 +616,10 @@ footer {
     }
 
     .about-us {
+        p {
+            font-size: 36px;
+            text-align: center;
+        }
         padding-left: 50px;
     }
 
