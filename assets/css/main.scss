@@ -662,6 +662,14 @@ footer {
 }
 
 @media (max-width: 767px) {
+    a.button.estimate {
+        padding: 0.5em 2em;
+        font-size: 20px;
+    }
+    a.button {
+        padding: 0.5em 2em;
+        font-size: 18px;
+    }
     .container section .testimonials {
         margin-left: 0;
     }
@@ -672,6 +680,7 @@ footer {
         .container {
             padding: 0;
             padding-bottom: 30px;
+            height: 60px;
             p {
                 width: auto;
             }
