@@ -598,15 +598,16 @@ footer {
 
     footer .container {
         padding-left: 6em;
+        height: 90px;
 
-        &:before {
-            @include skewed-line();
-            bottom: -1em;
-            left: 3em;
-            z-index: 2;
-            height: 12em;
-            transform-origin: bottom;
-        }
+        // &:before {
+        //     @include skewed-line();
+        //     bottom: -1em;
+        //     left: 3em;
+        //     z-index: 2;
+        //     height: 12em;
+        //     transform-origin: bottom;
+        // }
     }
 }
 @media (min-width: 1023px) {
@@ -620,8 +621,9 @@ footer {
 
     .image-hero {
         $size: 450px;
-        height: $size - $image-hero-bottom-cut;
-
+        // height: $size - $image-hero-bottom-cut;
+        height: $size;
+        margin-top: 130px;
         > * {
             width: $size;
             height: $size;
