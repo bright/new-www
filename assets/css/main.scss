@@ -428,6 +428,7 @@ footer {
     .links {
         margin: 0;
         margin-left: calc(50% - 190px);
+        padding-top: 18px;
         li {
             display: inline-block;
             padding-right: .5em;
@@ -650,7 +651,7 @@ footer {
 
     footer .container {
         padding-left: 8em;
-        padding-top: 18px;
+        padding-top: 0px;
         &:before {
             left: 4em;
         }
@@ -686,7 +687,7 @@ footer {
         .container {
             padding: 0;
             padding-bottom: 30px;
-            height: 60px;
+            height: 100px;
             p {
                 width: auto;
             }
