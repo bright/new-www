@@ -277,9 +277,14 @@ a.button.estimate {
     clear: both;
 }
 
-.services {
-    .space-before {
-        margin-top: 50px;
+body.services {
+    main {
+        .space-before {
+            margin-top: 50px;
+        }
+        max-width: 500px;
+        margin-left: 20px;
+        float: right;
     }
 }
 
