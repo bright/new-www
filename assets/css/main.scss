@@ -277,6 +277,12 @@ a.button.estimate {
     clear: both;
 }
 
+.services {
+    .space-before {
+        margin-top: 50px;
+    }
+}
+
 .image-hero {
     $padding: 6em;
     float: left;
