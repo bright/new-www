@@ -642,6 +642,12 @@ footer {
         //     transform-origin: bottom;
         // }
     }
+
+
+    .privacy main {
+        padding-top: 0;
+        padding-left: 80px;
+    }
 }
 @media (min-width: 1023px) {
     nav {
