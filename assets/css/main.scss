@@ -282,7 +282,6 @@ body.services {
         .space-before {
             margin-top: 50px;
         }
-        max-width: 500px;
         margin-left: 20px;
         float: right;
     }
@@ -502,6 +501,10 @@ footer {
             background-size: initial;
             background-position-y: 1em;
         }
+
+        &.services main {
+            width: 45%;
+        }
     }
 
     nav {
@@ -643,7 +646,9 @@ footer {
         // }
     }
 
-
+    .services main {
+        width: 45%;
+    }
     .privacy main {
         padding-top: 0;
         padding-left: 80px;
