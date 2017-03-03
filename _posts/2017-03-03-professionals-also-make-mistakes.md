@@ -23,4 +23,4 @@ We have nowadays many IT professionals, but let us think for a second what being
 And one thing more that is worth mentioning. **Professionals do not pretend to be humble.** They are creators. They are proud of what they are doing and it is good. It should be like that. But professionals do not lack self-criticism and in situation when an error occurs they come with humility and will be the first who take the blame and laugh at their own imperfection. And then… create, correct and enhance their code again. 
 
 
-Bibliography: *The Clean Coder. A Code
+Bibliography: *The Clean Coder. A Code of Conduct for Professional Programmers*, Robert C. Martin, Prentice Hall: 2011. 
