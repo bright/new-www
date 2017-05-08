@@ -21,6 +21,10 @@
         padding-top: 0;
     }
 
+    .additionalHeader {
+        margin-left: 0;
+    }
+
     address {
         font-size: larger;
         font-style: normal;
@@ -60,6 +64,10 @@
 
         .subheading {
             padding-left: 5em;
+        }
+
+        .additionalHeader {
+            margin-left: 8em;
         }
 
         form {
