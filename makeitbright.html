@@ -1,0 +1,34 @@
+---
+layout: home
+title: Make it bright
+customCss: contact
+bodyClass: contact
+hideChat: true
+---
+
+<section>
+    <h2 class="subheading black">Question time</h2>
+    <h3 style="margin-left: 8em">Which of SOLID principles is the most significant according to you? And why?</h3>
+    <form action="https://formspree.io/info@brightinventions.pl" method="POST">
+        <input type="hidden" name="_next" value="http://brightinventions.pl/thanks/" />
+        <div class="form-group">
+            <label for="form_name">Name</label>
+            <input type="text" name="name" id="form_name" required autofocus> 
+        </div>
+
+        <div class="form-group">
+            <label for="form_email">Email</label>
+            <input type="email" name="_replyto" id="form_email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="form_message">Answer</label>
+            <textarea name="message" id="form_message" rows="10" required></textarea>
+        </div>
+
+        <div>
+            <!--<div style="float: left; font-style:italic; font-size: 12px;"><a href="/privacy">Privacy policy</a></div>-->
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</section>

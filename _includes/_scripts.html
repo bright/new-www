@@ -32,8 +32,9 @@ ga('send', 'pageview');
   {% include _disqus_comments.html %}
 {% endif %}
 <script src="{{ site.url }}/assets/js/main.js" charset="utf-8"></script>
+{% if page.hideChat == null %}
 <script type="text/javascript" src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/caa43f35de5f1881f244707a964917d2b649b4891fdd5f8596f29fa063df4499.js"></script>
-
+{% endif %}
 <!-- Twitter universal website tag code -->
 <script>
 !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
