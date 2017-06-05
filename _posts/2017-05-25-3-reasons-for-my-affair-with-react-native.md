@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 Reasons for my affair with React-Native
-tags: iOS
+tags: React-Native
 comments: true
 author: eliasz
 ---
