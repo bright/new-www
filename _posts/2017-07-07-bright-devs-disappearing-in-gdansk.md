@@ -16,6 +16,6 @@ Our workshops were focused at **Android development in Kotlin**        -  a prog
 
 One may ask why we decided to tell about programming in Kotlin not in Java. In fact, we assume that **Kotlin is a great Java successor** and we use it in our projects. This is the programming language that has a variety of advantages. Among which there is Java interoperability, type inference, higher-order functions, immutability features, data classes and many others of which all workshops participants can surely tell you now.
 
-Once again thank you guys - we were delighted to meet you!
-
 ![Photo 3](/images/bright-devs-disappearing-in-gdansk/img3.jpg)
+
+Once again thank you guys - we were delighted to meet you!
