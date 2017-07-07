@@ -6,7 +6,7 @@ comments: true
 author: ula
 ---
 
-It was pleasure for us to take part in **Summer Course "DisAPPear in Gdańsk"**. Many thanks for Board of European Students of Technology for inviting us. We could share our knowledge with incredibly clever minds who came to Poland from different European countries. Hopefully, we managed to reveal some secrets about mobile app development to them.
+It was pleasure for us to take part in **Summer Course "DisAPPear in Gdańsk"**. Many thanks to Board of European Students of Technology for inviting us. We could share our knowledge with incredibly clever minds who came to Poland from different European countries. Hopefully, we managed to reveal some secrets about mobile app development to them.
 
 ![Photo 1](/images/bright-devs-disappearing-in-gdansk/img1.jpg)
 
