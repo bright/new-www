@@ -8,7 +8,7 @@ comments: true
 author: adam
 ---
 
-In the first part of [**iOS layouts for web developers** series](/ios-layouts-for-web-developers/) I'll have a look at the basic building blocks of the view layer in iOS and compare it to what HTML offers. First, we need to shift our mindset a bit and accept the fact we need to give up some control (pun intended) over our views to the iOS.
+In the first part of [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/) I'll have a look at the basic building blocks of the view layer in iOS and compare it to what HTML offers. First, we need to shift our mindset a bit and accept the fact we need to give up some control (pun intended) over our views to the iOS.
 
 Elements vs. controls
 ----
@@ -127,4 +127,4 @@ Moreover, thanks to the [`NSAttributedString`](https://developer.apple.com/libra
 
 > `<ins>`, `<del>` <—> `NSAttributedString` with `NSUnderlineStyleAttributeName`
 
-[Next time we’ll try to tackle controls positioning](/ios-layouts-for-web-developers-2-control-positioning/). Stay tuned!
+[Next time we’ll try to tackle controls positioning](/blog/ios-layouts-for-web-developers-2-control-positioning/). Stay tuned!

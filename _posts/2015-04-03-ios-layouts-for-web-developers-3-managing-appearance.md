@@ -8,7 +8,7 @@ comments: true
 author: adam
 ---
 
-This is the third part of the [**iOS layouts for web developers** series](/ios-layouts-for-web-developers/). The [first part was about the controls](/ios-layouts-for-web-developers-1-basic-building-blocks/), the [second about its positioning](/ios-layouts-for-web-developers-2-control-positioning/). Now I’m going to tackle how to approach managing the controls appearance - something that we have CSS for in the web.
+This is the third part of the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/). The [first part was about the controls](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/), the [second about its positioning](/blog/ios-layouts-for-web-developers-2-control-positioning/). Now I’m going to tackle how to approach managing the controls appearance - something that we have CSS for in the web.
 
 CSS equivalent?
 ----
@@ -157,4 +157,4 @@ On the other side there are frameworks that offer their own abstractions on view
 
 I believe that all of these ideas and frameworks are shaping the future of iOS layouts and are worth keeping an eye on it with the hope that someday the native offering of iOS platform in terms of managing the appearance would not be so limited as today.
 
-Next time - more on [how to achieve particular visual effects known from CSS within iOS views](/ios-layouts-for-web-developers-4-css-properties-replacements/).
+Next time - more on [how to achieve particular visual effects known from CSS within iOS views](/blog/ios-layouts-for-web-developers-4-css-properties-replacements/).
