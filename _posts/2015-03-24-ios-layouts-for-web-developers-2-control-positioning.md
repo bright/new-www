@@ -8,7 +8,7 @@ comments: true
 author: adam
 ---
 
-In the [first part](/ios-layouts-for-web-developers-1-basic-building-blocks/) of the [**iOS layouts for web developers** series](/ios-layouts-for-web-developers/) I’ve discussed controls as the basic building blocks that comprises the layout in iOS world and how that compares to HTML. I haven’t tackled anything about how and where these controls are drawn on the screen. The matter is complex enough so that here is the separate post only about it.
+In the [first part](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/) of the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/) I’ve discussed controls as the basic building blocks that comprises the layout in iOS world and how that compares to HTML. I haven’t tackled anything about how and where these controls are drawn on the screen. The matter is complex enough so that here is the separate post only about it.
 
 Let’s start with restating the acknowledgement that my overall goal here is trying to find best analogies to the web development world, not creating an ultimate guide to how those things should generally be done in iOS. Some approaches that are natural in HTML might be considered bad practice or at least not idiomatic in iOS.
 
@@ -40,7 +40,7 @@ For some controls that have natural (intrinsic) size available, like [`UILabel`]
 First take on "responsive” layouts
 ----
 
-Frame-based layout is very limiting, but it was [the simplest thing that could possibly work](http://www.xprogramming.com/Practices/PracSimplest.html), especially given the fact that it was first designed for a single size of a single device - the first-generation iPhone. The need for “responsiveness”, as we like to call it in the web world, was limited to screen rotation. When iPads came, there still weren't many apps that share the same layouts between two form factors. It’s only quite recently, with the introduction of iPhone 5 that was taller than the previous ones and especially with iPhone 6 that comes with two [totally distinct screen resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions), there’s a real push toward having a single layout shared between screen sizes and resolutions - something that is obvious for the modern web development.
+Frame-based layout is very limiting, but it was [the simplest thing that could possibly work](http://wiki.c2.com/?DoTheSimplestThingThatCouldPossiblyWork), especially given the fact that it was first designed for a single size of a single device - the first-generation iPhone. The need for “responsiveness”, as we like to call it in the web world, was limited to screen rotation. When iPads came, there still weren't many apps that share the same layouts between two form factors. It’s only quite recently, with the introduction of iPhone 5 that was taller than the previous ones and especially with iPhone 6 that comes with two [totally distinct screen resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions), there’s a real push toward having a single layout shared between screen sizes and resolutions - something that is obvious for the modern web development.
 
 Before iOS 6 (released in 2012), the only mean of “responsiveness” was the notion of [autoresizing mask](http://www.techpaa.com/2012/05/understanding-uiview-autoresizing.html) accessible via `UIView`’s [`autoresizingMask`](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIView_Class/#//apple_ref/occ/instp/UIView/autoresizingMask) property. It allows to set which dimensions or spacing attributes should be kept and which can be modified on screen size change (rotation, basically). For example, when “flexible width” is set, on rotation, the horizontal margins widths are persisted and the control width takes the rest of available space. When, in turn, “flexible left margin” is set, the width wouldn’t change and the left margin will take all the space that’s still available.
 
@@ -74,4 +74,4 @@ Unfortunately, Adaptive UI is far less flexible than CSS media queries. We have 
 
 > CSS media queries based on screen size <—> partially covered by Adaptive UI trait collection
 
-Next time in the series - [more about CSS equivalents in iOS (or lack of such)](/ios-layouts-for-web-developers-3-managing-appearance).
+Next time in the series - [more about CSS equivalents in iOS (or lack of such)](/blog/ios-layouts-for-web-developers-3-managing-appearance).
