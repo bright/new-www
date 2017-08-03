@@ -19,6 +19,8 @@ Being exhausted is one thing that may make your code suffer from the lack of goo
 
 ![Photo 3](/images/to-code-or-not-to-code/image3.jpg)
 
-And now time to flow. Yeah, we all know that the flow zone is incredible. We are masters of code, we are superheroes. We are working incredibly fast. And I would not dare to say that this flow zone is always something bad. ** But I would dare to suggest here just thinking for a second whether our flow zone is always equal to effective work.** Moderation - that is the key. Sometimes working in high speed is really useful, especially when you are practising, but it might be also worth taking a break and consulting what you are doing with your teammate. Remember that going on unpredictable fast coding rides does not always make you more efficient.
+And now time to flow. Yeah, we all know that the flow zone is incredible. We are masters of code, we are superheroes. We are working incredibly fast. And I would not dare to say that this flow zone is always something bad. **But I would dare to suggest here just thinking for a second whether our flow zone is always equal to effective work.** Moderation - that is the key. Sometimes working in high speed is really useful, especially when you are practising, but it might be also worth taking a break and consulting what you are doing with your teammate. Remember that going on unpredictable fast coding rides does not always make you more efficient.
 
 ![Photo 4](/images/to-code-or-not-to-code/image4.jpg)
+
+Work in such a way, so that you can be always proud of what you are doing. And I can assure you that good results will come.
