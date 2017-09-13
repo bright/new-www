@@ -6,11 +6,13 @@ comments: true
 author: ula
 ---
 Let us assume we work diligently. But does it also mean we work effectively and efficiently? Do we spend eight, seven or (at least) six or five hours a day working conscientiously on our projects? And if someone asked **whether we come into work with the intention to do our job best, would our answer be always YES?**
+
 Economists describe productivity as a measure of output per unit of input. I myself regard the input as our effort to do the tasks - not as well as we can - but in a manner we are expected them to do. And the output? The output is the company growth, its revenue and development as well as the development of its employees. The conclusion is easy - the bigger is your input, the greater output you may expect. Dismally, statistics show that productivity of employees is growing much slower nowadays than it was in the past. In fact, in many cases it is not growing at all - it is plummeting.
 
 ![Photo 1](/images/do-more-with-what-you-have/photo1.jpg)
 
 In a nutshell, **being productive at work is not about being perfect, but much more about improving yourself.** It is about increasing your own, your team’s and your client’s satisfaction. And surely, it is not about spending time blindly completing the tasks. Instead of wasting energy and time on doing things that are completely useless and not necessarily connected with our job, we should stop and think for a second how our job can be done more effectively. And what we can do ourselves to boost our productivity and competency. That is right - ourselves. There is nothing worse than looking for blame for the lack of our efficiency in other people (or things) before checking thoroughly if we really do our job best.
+
 We have huge loads of energy that we can devote to make our daily job better. But it just seems we do not use them in a way we may benefit from the most. **Having a productivity attitude is not an easy task to do, but the payoff is immense. Researchers state that the best companies are the companies with a productivity mindset. These are companies which are 40% more productive than the rest, which brings 30-40% higher profit margins than the rest.**  The idea behind it is simple - if you want the company you are a part of grow fast and develop, make it grow fast and develop.
 
 ![Photo 2](/images/do-more-with-what-you-have/photo2.jpg)
@@ -30,5 +32,6 @@ One may ask, what then productivity rules are. I would say there is no one perfe
 
 ![Photo 3](/images/do-more-with-what-you-have/photo3.jpg)
 
-Do all these tips guarantee that you will be a productive superstar at work? No. But they may help you somehow to find your own way. Everyone may have different rules that will help them keep on track. **We can be procrastinators, we can be lazy or horribly disorganised, but it should never prevent us from being productive and successful. ** We just have to choose our priorities wisely, be disciplined and respect others.
+Do all these tips guarantee that you will be a productive superstar at work? No. But they may help you somehow to find your own way. Everyone may have different rules that will help them keep on track. **We can be procrastinators, we can be lazy or horribly disorganised, but it should never prevent us from being productive and successful.** We just have to choose our priorities wisely, be disciplined and respect others.
+
 And last but surely not least, when we are paid to do a job, no matter what happens we should get it done and we should  always try to do it better than anyone else may.
