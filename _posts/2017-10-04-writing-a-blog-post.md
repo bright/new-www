@@ -8,7 +8,7 @@ tags: blog
 
 Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](https://github.com/bright/new-www).
 
-## Verify you have access to github repository
+# Verify you have access to github repository
 
 1. Open [https://github.com/bright/new-www](https://github.com/bright/new-www/tree/gh-pages/_posts).
 1. Click `Create new file` button. If the button is not there please ask [Ula 🚴‍](https://bright-inventions.slack.com/messages/D3B8FTX71), [Michał](https://bright-inventions.slack.com/messages/D04QP07B4) or [Daniel](https://bright-inventions.slack.com/messages/D04QP10LU) for access.
@@ -18,7 +18,7 @@ Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](http
  - [I know `git`](#git)
  - [I know `git`, `bundler` and other stuff](#git-bundler)
 
-## <a name="web"></a>I can browse web
+# <a name="web"></a>I can browse web
 
 1. Open [https://github.com/bright/new-www](https://github.com/bright/new-www/tree/gh-pages/_posts)
 2. Click `Create new file` and pick a name in format `yyyy-mm-dd-blog-post-title.md` where:
@@ -49,13 +49,13 @@ The `hidden: true` flag removes the post from [the blog page](http://brightinven
 
 When you have replaced `My blog post content.` with your thoughts, findings, article or rambling hit `Preview` button to get a rough idea on how your post is formatted.
 
-If you don't find any obvious mistakes you can `Commit new file` which will add the content so that [someone](https://bright-inventions.slack.com/messages/C3ELVL58F) can review it. The post is going to be available under http://brightinventions.pl/blog/`blog-post-title` url after a minute or so. 
+If you don't find any obvious mistakes you can `Commit new file` which will save the content so that [someone](https://bright-inventions.slack.com/messages/C3ELVL58F) can review it. The post is going to be available under http://brightinventions.pl/blog/`blog-post-title` url after a minute or so. 
 
 If you would like to correct some errors or remove `hidden: true` you can find the file and hit the <button><svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg></button> button e.g. [https://github.com/bright/new-www/blob/gh-pages/_posts/2017-09-13-do-more-with-what-you-have.md](https://github.com/bright/new-www/blob/gh-pages/_posts/2017-09-13-do-more-with-what-you-have.md)
 
 After edits are made hitting the `Commit changes` button will save the changes and publish them soon after. 
 
-## <a name="git"></a>I know `git`
+# <a name="git"></a>I know `git`
 
 1. [Clone the repository](https://github.com/bright/new-www). 
 1. When you have a rough idea what you'd like the post to be about use create a new file under `_drafts` folder named `yyyy-mm-dd-blog-post-title.md` where:
@@ -81,7 +81,7 @@ The `tags:` can have multiple values e.g. `tags: blog programming bright`
 1. Once you are ready to share your content with the world you need to move your blog post file from `_drafts` folder into `_posts` folder. Consider using pull request or hiding the post from listing with `hidden: true` included in [front matter](https://jekyllrb.com/docs/frontmatter/)
 1. If you and your fellow 💍 colleagues are happy with how your brand new, shiny 💎 post looks like then merge the pull request or remove `hidden: true`
 
-## <a name="git-bundler"></a>I know `git`, `bundler` and ~~nerdy~~ techie stuff
+# <a name="git-bundler"></a>I know `git`, `bundler` and ~~nerdy~~ techie stuff
 
 1. [Clone the repository](https://github.com/bright/new-www). 
 1. [Install rvm](https://rvm.io/rvm/install)
