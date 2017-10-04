@@ -26,6 +26,7 @@ Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](http
      - `blog-post-title` is the blog post title e.g. writing-a-blog-post
 
 3. Paste the following content into the edit form:
+
 ```
 ---
 layout: post
@@ -37,6 +38,7 @@ tags: blog
 
 My blog post content.
 ```
+
 The `title:` is self-explanatory nevertheless take special care to use name your content nicely. 
 
 The `author:` section has to have a value defined in [authors.yml](https://github.com/bright/new-www/blob/gh-pages/_data/authors.yml) file. If you are not there **edit the file and send a pull request** or ask [someone](https://bright-inventions.slack.com/messages/C3ELVL58F) to create entry for you. 
@@ -54,11 +56,13 @@ If you would like to correct some errors or remove `hidden: true` you can find t
 After edits are made hitting the `Commit changes` button will save the changes and publish them soon after. 
 
 ## <a name="git"></a>I know `git`
+
 1. [Clone the repository](https://github.com/bright/new-www). 
 1. When you have a rough idea what you'd like the post to be about use create a new file under `_drafts` folder named `yyyy-mm-dd-blog-post-title.md` where:
      - `yyyy`, `mm`, `dd` are published year, month and day of month respectively e.g. 2017-10-04
      - `blog-post-title` is the blog post title e.g. writing-a-blog-post
      - the file starts with the following content:
+
 ```
 ---
 layout: post
@@ -76,7 +80,9 @@ The `tags:` can have multiple values e.g. `tags: blog programming bright`
 3. You can commit and push `_draft` whenever you need. The content is **not going** to be visible on the site.
 1. Once you are ready to share your content with the world you need to move your blog post file from `_drafts` folder into `_posts` folder. Consider using pull request or hiding the post from listing with `hidden: true` included in [front matter](https://jekyllrb.com/docs/frontmatter/)
 1. If you and your fellow 💍 colleagues are happy with how your brand new, shiny 💎 post looks like then merge the pull request or remove `hidden: true`
+
 ## <a name="git-bundler"></a>I know `git`, `bundler` and ~~nerdy~~ techie stuff
+
 1. [Clone the repository](https://github.com/bright/new-www). 
 1. [Install rvm](https://rvm.io/rvm/install)
 1. Install ruby >= 2.x.x
