@@ -39,7 +39,7 @@ tags: blog
 My blog post content.
 ```
 
-The `title:` is self-explanatory nevertheless take special care to use name your content nicely. 
+The `title:` is self-explanatory nevertheless take special care to name your content nicely. 
 
 The `author:` section has to have a value defined in [authors.yml](https://github.com/bright/new-www/blob/gh-pages/_data/authors.yml) file. If you are not there **edit the file and send a pull request** or ask [someone](https://bright-inventions.slack.com/messages/C3ELVL58F) to create entry for you. 
 
