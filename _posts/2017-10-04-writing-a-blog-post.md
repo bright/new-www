@@ -90,3 +90,22 @@ The `tags:` can have multiple values e.g. `tags: blog programming bright`
 1. `bundle exec jekyll s` 👍
 1. Use [jekyll docks](https://jekyllrb.com/) to figure rest out
 1. Consider using pull request for post review 🤓
+
+# Images and stock photos
+
+We all know how a nice picture can enhance post content, decrease bounce rate and attract visitors. Please pay special attention to license of the images your posts include. 
+
+There are services which offer free stock photos:
+
+- [Pexels](https://www.pexels.com/) Free stock photos you can use everywhere. ✓ Free for commercial use ✓ No attribution required 
+- [Pixabay](https://pixabay.com) Over 1,156,004 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required.
+
+To include a picture in your post you can add the image to a folder named after your blog post title e.g. `/images/writing-a-blog-post/`
+
+In order to include the image you can use markdown or html e.g.:
+```
+![Image Title](/images/writing-a-blog-post/pexels-photo-296115.jpeg){: .center-image}
+```
+
+![Image Title](/images/writing-a-blog-post/pexels-photo-296115.jpeg){: .center-image}
+
