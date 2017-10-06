@@ -109,7 +109,12 @@ pawel:
   bio: "Software Engineer @ Bright Inventions"
   avatar: https://brightinventions.pl/images/pawel.jpg
   github: papkie
-  
+
+radek:
+  name: Radek Pieczątkiewicz
+  email: radek.pieczatkiewicz@brightinventions.pl
+  bio: "Software Engineer @ Bright Inventions"
+
 grzesiek:
   name : Grzegorz Cieśla
   email : grzegorz.ciesla@brightinventions.pl
