@@ -43,7 +43,7 @@ The `title:` is self-explanatory nevertheless take special care to name your con
 
 The `author:` section has to have a value defined in [authors.yml](https://github.com/bright/new-www/blob/gh-pages/_data/authors.yml) file. If you are not there **edit the file and send a pull request** or ask [someone](https://bright-inventions.slack.com/messages/C3ELVL58F) to create entry for you. 
 
-The `tags:` can and should have multiple values e.g. `tags: blog programming bright` describing blog post content.
+The `tags:` can and should have multiple keywords e.g. `tags: blog programming bright` describing blog post content. Tags can be specified as a YAML list or a space-separated string.
 
 The `hidden: true` flag removes the post from [the blog page](http://brightinventions.pl/blog/). A page marked with `hidden: true` is still going to be available when you enter its full url into browser address bar (e.g http://brightinventions.pl/blog/do-more-with-what-you-have/). This is useful when you'd like to ask [someone](https://bright-inventions.slack.com/messages/C3ELVL58F) for review. 
 
