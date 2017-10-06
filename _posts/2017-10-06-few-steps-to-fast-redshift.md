@@ -7,11 +7,11 @@ hidden: true
 author: agnieszka
 ---
 
-Do you think a web dashboard which communicates directly with Amazon Redshift and shows tabels, charts, numbers - statistics in general can do good? We believed it is, as long as the dashboard is used by a few users. As this was our case, we decided to give it a go. 
+Do you think a web dashboard which communicates directly with Amazon Redshift and shows tables, charts, numbers - statistics in general can work well? We believed it could, as long as the dashboard is used by a few users. As this was our case, we decided to give it a go. 
 
-As we were developing the dashboard, adding more statistics, more details, more features, it was getting slower and slower. The day has come and a task „improving performance“ appeared and so did doubts if the web page and Redshift can work together effectively.
+As we were developing the dashboard, adding more statistics, more details, more features, it was getting slower and slower. The day has come and a task „improving performance“ appeared and so did doubts if the web page and Redshift can work together efficiently.
 
-The first thought was to add another layer between like OLAP cubes built on top of Redshift or a row database with the most recent data. Supprisinlgy enough my research showed that people actually do build efficient dashboards directly speaking with Redshift, without any intermediate layer. The key is a proper design of the database taking the best of Redshift.
+The first thought was to add another layer as OLAP cubes built on top of Redshift or as a row database with the most recent data. Surprisingly enough my research showed that people actually do build efficient dashboards directly speaking with Redshift, without any intermediate layer. The key is a proper design of the database taking the best of Redshift.
 
 In this blog post I will tell you what I have done to significantly improve the system performance. In general I have taken three steps: 
  - adding a preaggregated table with the most often queried data, 
@@ -29,7 +29,7 @@ The main problems of slow queries were:
 
 **Preaggregated table**
 
-The preaggregated table is a very primitive form of a data mart but well enough in my case. The main features of the table:
+The preaggregated table is a very primitive form of a data mart but good enough in my case. The main features of the table:
  - data taken from both fact tables with a column to distinguish the data – no UNION needed,
  - data aggregated to ensure the minimal needed granularity,
  - the latest names of dimensions elements are included – no window functions needed.
@@ -66,7 +66,7 @@ The simplest solution turned out to be the best one. It gives about 50% better p
 
 Another [article](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-techniques-for-amazon-redshift/) that helped me a lot comes from AWS big data blog and describes ten performance tuning techniques.
 
-I was already familiar with the most of the tips and only two where applying to my case. Nevertheless it is a great article pointing out important improvements accompanied by instructions how to check if you need them and apply them if so.
+I was already familiar with most of the tips and only two where applying to my case. Nevertheless it is a great article pointing out important improvements accompanied by instructions how to check if you need them and apply them if so.
 
 The issues I have found useful in my case:
 Incorrect column encoding (Issue #1) – following the instructions I have applied the proper columns encoding.
