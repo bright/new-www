@@ -129,7 +129,7 @@ Of course this simple script might be further improved and I encourage you to do
 
 The Gradle tasks used for the publication in this example are: `publishApkDevRelease` and `publishApkProdRelease`. Publishing the APKs with them is as simple as running these tasks like this:
 
-{% highlight java %}
+{% highlight bash %}
 gradle publishApkProdRelease
 {% endhighlight %}
 
