@@ -14,9 +14,9 @@ For me, one of the most crucial time savers is the [gradle-play-publisher](http
 
 The Google service account is an account that might be used by your applications to access all the Google APIs, including the ones for Google Play publishing ([Publishing API](https://developers.google.com/android-publisher/#publishing)). This API allows for example to:
 
-    * publish the APK (obviously)
-    * update the app listing (title, descriptions, images, videos, recent changes)
-    * change contact information (e-mail, phone number, website)
+* publish the APK (obviously)
+* update the app listing (title, descriptions, images, videos, recent changes)
+* change contact information (e-mail, phone number, website)
 
 When granting this account the [required permissions](https://github.com/Triple-T/gradle-play-publisher#google-play-service-account), you cannot choose which particular apps it can access - it's either all or nothing. So if you have more than one application on your Google developer account, the service account will be able to reach them all.
 
