@@ -33,4 +33,4 @@ A walking skeleton is different than spike, although the difference is subtle. S
 
 Next time, when running a new project, try to get a walk in your client's shoes. Take into account that he's spending his precious money on a software that might be his only chance to hit the market with the product of his dreams.
 
-**Pay attention to the quality**, but also pay attention to **how the client perceives your job**, because even the most advanced technical solutions, even well communicated, won't change the bad impression when there is no visible progress for a longer time.
+**Pay attention to the quality**, but also pay attention to **how the client perceives your work**, because even the most advanced technical solutions, well communicated, won't change the bad impression when there is no visible progress for a longer time.
