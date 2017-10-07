@@ -14,7 +14,7 @@ defaults:
         feature_class: jumbotron-bright
 
 # Jekyll configuration
-
+url: https://brightinventions.pl/
 permalink:   /blog/:categories/:title/
 highlighter: rouge
 sass:
