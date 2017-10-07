@@ -5,17 +5,17 @@ adam:
   web: https://whatwebcando.today
   email: adam.bar@brightinventions.pl
   bio: "The Web Guy @ Bright Inventions"
-  avatar: http://brightinventions.pl/images/adam_small.jpg
+  avatar: https://brightinventions.pl/images/adam_small.jpg
   twitter: NOtherDev
   github: NOtherDev
   stackoverflow: 142827/notherdev
 
 piotr:
   name: Piotr Mionskowski
-  web: http://miensol.pl
+  web: https://miensol.pl
   email: piotr.mionskowski@brightinventions.pl
   bio: "TDD fan eager to learn new things"
-  avatar: http://brightinventions.pl/images/piotr_small.png
+  avatar: https://brightinventions.pl/images/piotr_small.png
   twitter: miensol
   github: miensol
   stackoverflow: 155213/miensol
@@ -24,14 +24,14 @@ daniel:
   name: Daniel Makurat
   email: daniel.makurat@brightinventions.pl
   bio: "building apps @ Bright Inventions"
-  avatar: http://brightinventions.pl/images/daniel_small.png
+  avatar: https://brightinventions.pl/images/daniel_small.png
   github: danielmakurat
 
 mateusz:
   name: Mateusz Klimczak
   email: mateusz.klimczak@brightinventions.pl
   bio: "Pushing things forward @ Bright Inventions"
-  avatar: http://brightinventions.pl/images/mateuszklimczak_small.png
+  avatar: https://brightinventions.pl/images/mateuszklimczak_small.png
   twitter: Klimczak_M
   github: KlimczakM
   stackoverflow: 1570496/klimczak-m
@@ -40,7 +40,7 @@ michal:
   name: Michał Łukasiewicz
   email: michal.lukasiewicz@brightinventions.pl
   bio: "co-founder @ Bright Inventions"
-  avatar: http://brightinventions.pl/images/michal.jpg
+  avatar: https://brightinventions.pl/images/michal.jpg
   twitter: mgamer
   github: mgamer
   stackoverflow: 59666/mgamer
@@ -49,7 +49,7 @@ mateuszklimek:
   name: Mateusz Klimek
   email: mateusz.klimek@brightinventions.pl
   bio: "Software Engineer @ Bright Inventions"
-  avatar: http://brightinventions.pl/images/mateuszklimek_small.png
+  avatar: https://brightinventions.pl/images/mateuszklimek_small.png
   github: mklimek
   stackoverflow: 870674/mklimek
 
@@ -58,7 +58,7 @@ eliasz:
   web: http://eluss.github.io/
   email: eliasz.sawicki@brightinventions.pl
   bio: "Software Engineer @ Bright Inventions"
-  avatar: http://brightinventions.pl/images/eliasz_small.png
+  avatar: https://brightinventions.pl/images/eliasz_small.png
   github: eluss
 
 kwysocki:
@@ -66,11 +66,11 @@ kwysocki:
   web : http://k8mil.github.io
   email : kamil.wysocki@brightinventions.pl
   bio : "Software Engineer @ Bright Inventions"
-  avatar : http://brightinventions.pl/images/kamil_small.png
+  avatar : https://brightinventions.pl/images/kamil_small.png
   github : k8mil
 
 ula:
   name : Ula Stankiewicz
   email : ula.stankiewicz@brightinventions.pl
   bio : "Employer Branding Specialist @ Bright Inventions"
-  avatar : http://brightinventions.pl/images/ula.jpg
+  avatar : https://brightinventions.pl/images/ula.jpg
