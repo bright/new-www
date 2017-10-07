@@ -3,7 +3,7 @@ layout: post
 title: Few Steps to Fast Redshift
 tags: Redshift performance
 comments: true
-hidden: true
+hidden: false
 author: agnieszka
 ---
 
