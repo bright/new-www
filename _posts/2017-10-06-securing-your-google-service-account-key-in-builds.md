@@ -2,8 +2,8 @@
 layout: post
 title: Securing your Google service account key in builds
 author: azabost
-hidden: true
-tags: blog android build
+hidden: false
+tags: android build
 ---
 
 Establishing a reliable continuous delivery and deployment process is often very important as it might greatly reduce the length of time needed for the validation and verification of the software product. This is also true for Android projects, especially the ones aimed at short time to market.
