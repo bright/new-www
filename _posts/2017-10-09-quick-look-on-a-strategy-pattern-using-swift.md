@@ -39,7 +39,7 @@ The last thing - create a client that uses one of the `ImageRepresentation` stra
 
 ## Usage
 
-https://gist.github.com/k8mil/48ee90472babb961ab789966d7e2ed7a
+<script src="https://gist.github.com/k8mil/48ee90472babb961ab789966d7e2ed7a.js"></script>
 
 ## Conclusions
 
