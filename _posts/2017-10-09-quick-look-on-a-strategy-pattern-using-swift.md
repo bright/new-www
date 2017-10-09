@@ -7,7 +7,6 @@ comments: true
 hidden: true
 ---
 
-# Quick look on a Strategy Pattern using Swift
 ![Image Title](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg){: .center-image}
 
 
