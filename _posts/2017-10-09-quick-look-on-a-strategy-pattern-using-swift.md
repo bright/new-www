@@ -4,7 +4,7 @@ title: Quick look at a Strategy Pattern using Swift
 author: kwysocki
 tags : [iOS, swift, design patterns, strategy pattern]
 comments: true
-hidden: true
+hidden: false
 ---
 
 ![Image Title](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg){: .center-image}
