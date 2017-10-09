@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Quick look at a Strategy Pattern using Swift
+title: 'Design Patterns with Swift: Quick look at a Strategy Pattern'
+excerpt: Let's take a quick look at one of the design patterns that should help us to write a good Object-Oriented code.
 author: kwysocki
 tags : [iOS, swift, design patterns, strategy pattern]
 comments: true
