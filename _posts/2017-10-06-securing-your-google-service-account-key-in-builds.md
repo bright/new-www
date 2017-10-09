@@ -23,6 +23,8 @@ While granting this account the [required permissions](https://github.com/Triple
 Bearing this in mind, you should always protect the service account from abuse. The [documentation](https://developers.google.com/android-publisher/api_usage) also does warn you:
 > We recommend not giving third parties access to any service accounts you may create. We especially recommend not giving access to any private keys for your service account. Doing so provides anonymous access to your account that can be shared with anyone.
 
+![Padlock](/images/securing-your-google-service-account-key-in-builds/padlock-597495_1920.jpg){: .center-image}
+
 # Automatic build deployment #
 
 If you are going to use the Publishing API in your builds, you definitely should take the appropriate measures to keep the service account key secure. Depending on your company policies (e.g. repositories access), the size of your team, your customer needs and policies, you might consider:
@@ -35,7 +37,7 @@ If you are going to use the Publishing API in your builds, you definitely should
 
 # Example #
 
-So how you can _not store the key at all_? Well, I lied a bit. You must store it somewhere, but this example will show you how to store it as a secret value on a build server instead of a repository. This way you don't have to protect the repository itself, but the build server instead. Is it easier? It depends. But it's just one of the methods you can choose.
+So how you can _not store the key at all_? Well, I have lied a bit. You must store it somewhere, but this example will show you how to store it as a secret value on a build server instead of a repository. This way you don't have to protect the repository itself, but the build server instead. Is it easier? It depends. But it's just one of the methods you can choose.
 
 ### Setting a secret value ###
 
