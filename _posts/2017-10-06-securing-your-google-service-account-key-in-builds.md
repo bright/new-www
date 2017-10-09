@@ -6,9 +6,9 @@ hidden: true
 tags: blog android build
 ---
 
-Establishing a reliable continuous delivery and deployment process is often very important as it might greatly reduce the length of time needed for validation and verification of the software product. This is also true for Android projects, especially the ones aimed at short time to market.
+Establishing a reliable continuous delivery and deployment process is often very important as it might greatly reduce the length of time needed for the validation and verification of the software product. This is also true for Android projects, especially the ones aimed at short time to market.
 
-For me, one of the most crucial time savers is the [gradle-play-publisher](https://github.com/Triple-T/gradle-play-publisher) plugin, which allows me to publish the APKs as soon as the build is finished. However, you need the Google service account.
+For me, one of the most crucial time savers is the [gradle-play-publisher](https://github.com/Triple-T/gradle-play-publisher) plugin, which allows me to publish the APKs as soon as the build is finished. However, you need the Google service account for that.
 
 # With great power comes great responsibility #
 
@@ -18,19 +18,19 @@ The Google service account is an account that might be used by your applications
 * update the app listing (title, descriptions, images, videos, recent changes)
 * change contact information (e-mail, phone number, website)
 
-When granting this account the [required permissions](https://github.com/Triple-T/gradle-play-publisher#google-play-service-account), you cannot choose which particular apps it can access - it's either all or nothing. So if you have more than one application on your Google developer account, the service account will be able to reach them all.
+While granting this account the [required permissions](https://github.com/Triple-T/gradle-play-publisher#google-play-service-account), you cannot choose which particular apps it can access - it's either all or nothing. So if you have more than one application on your Google developer account, the service account will be able to reach them all.
 
-Having this in mind, you should always protect the service account from abuse. The [documentation](https://developers.google.com/android-publisher/api_usage) also does warn you:
+Bearing this in mind, you should always protect the service account from abuse. The [documentation](https://developers.google.com/android-publisher/api_usage) also does warn you:
 > We recommend not giving third parties access to any service accounts you may create. We especially recommend not giving access to any private keys for your service account. Doing so provides anonymous access to your account that can be shared with anyone.
 
 # Automatic build deployment #
 
-If you are going to use the Publishing API in your builds, you definitely should take the appropriate actions to keep the service account key secure. Depending on your company policies (e.g. repositories access), the size of your team, your customer needs and policies, you might consider to:
+If you are going to use the Publishing API in your builds, you definitely should take the appropriate measures to keep the service account key secure. Depending on your company policies (e.g. repositories access), the size of your team, your customer needs and policies, you might consider:
 
-* not store the key in the repository
-* store the key in a password-protected archive in the repository
-* store the key in a separate repository
-* not store the key at all (wait, what? see the example below)
+* not storing the key in the repository
+* storing the key in a password-protected archive in the repository
+* storing the key in a separate repository
+* not storing the key at all (wait, what? see the example below)
 * ... etc.
 
 # Example #
@@ -39,7 +39,7 @@ So how you can _not store the key at all_? Well, I lied a bit. You must store i
 
 ### Setting a secret value ###
 
-Most of the automation servers like Jenkins or TeamCity have the ability to store a secret value, which you can use during the build. Whether it is really secure depends on the particular software you use, the build script (which may be printing the secret value to the build logs for example) and the access you give the other people to the infrastructure and build configuration.
+Most of the automation servers like Jenkins or TeamCity have the ability to store a secret value, which you can use during the build. Whether it is really secure depends on the particular software you use, the build script (which may be printing the secret value to the build logs for example) and the access you give other people to the infrastructure and build configuration.
 
 In this example, the secret value is stored on a TeamCity server and it will be available to the build in an environment variable.
 
