@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quick look on a Strategy Pattern using Swift
+title: Quick look at a Strategy Pattern using Swift
 author: kwysocki
 tags : [iOS, swift, design patterns, strategy pattern]
 comments: true
@@ -10,13 +10,13 @@ hidden: true
 ![Image Title](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg){: .center-image}
 
 
-Let's take a quick look on one of the design patterns that should help us to write good Object-Oriented code.
+Let's take a quick look at one of the design patterns that should help us to write a good Object-Oriented code.
 The basic assumption of Strategy Pattern is that you can define many implementations that will conform to the protocol.
 
 Take a look at a simple example that can be used on iOS applications.
 
 
-Firstly create a `protocol` which contains a method. In our case it will be:
+Firstly, create a `protocol` which contains a method. In our case it will be:
 
 ## Define protocol
 
@@ -28,11 +28,11 @@ Ok, most of the iOS apps use an `UIImage` to represent images in applications. T
 
 <script src="https://gist.github.com/k8mil/69fbffb20630cd273ed84a5ee2149f90.js"></script>
 
-Now, as you can see - both classes conforms to an `ImageRepresentation` protocol but they are differ by an implementation. Each class represents different STRATEGY.
+Now, as you can see - both classes conforms to the `ImageRepresentation` protocol but they differ in implementation. Each class represents a different **strategy**.
 
 ## Create client
 
-The last thing - create a client that uses one of the `ImageRepresentation` strategies.
+The last thing - creating a client that uses one of the `ImageRepresentation` strategies.
 
 <script src="https://gist.github.com/k8mil/5b44740021d9bba904cda4de47939e94.js"></script>
 
@@ -43,9 +43,9 @@ The last thing - create a client that uses one of the `ImageRepresentation` stra
 ## Conclusions
 
 The cool thing about Strategy Pattern is that we can change our strategy at runtime.
-While using the Strategy Pattern we definitely conform to "Open-Close" SOLID principle. Our client is open for extensions by changing the strategy without changing client implementation(close for modification). Also, the `ImageRepresenter` with Strategy Pattern included will be easiest to test.
+While using the Strategy Pattern we definitely conform to "Open-Close" SOLID principle. Our client is open for extensions by changing the strategy without changing the client implementation(close for modification). Also, the `ImageRepresenter` with Strategy Pattern included will be easiest to test.
 
-Let's think how above code could look like without Strategy Pattern:
+Let's think how the above code could look like without Strategy Pattern:
 
 ### Using Switch
 
@@ -55,4 +55,4 @@ Let's think how above code could look like without Strategy Pattern:
 
 <script src="https://gist.github.com/k8mil/8c6b66a014629604963b05799ab2a980.js"></script>
 
-Both of this solutions definitely are not on the same line with CleanCode. Also, it might be hard to maintain that kind of code. The switch statement can grow with the next cases - what if we have to handle a 10, 20 or 100 strategies? The second one using multiple functions is also bad because we will continue to duplicating the similar methods to handle each case. This few arguments should convince you to use Strategy Pattern. And last but not least, this two examples breakes the Open-Close principle.
+Both of these solutions definitely are not on the same line with CleanCode. Also, it might be hard to maintain that kind of code. The switch statement can grow with the next cases - what if we had to handle a 10, 20 or 100 strategies? The second one using multiple functions is also bad because we will continue duplicating the similar methods to handle each case. This few arguments should convince you to use Strategy Pattern. And last but not least, this two examples breakes the Open-Close principle.
