@@ -5,7 +5,7 @@ excerpt: Thoughts on management and team building
 author: monika
 tags : [management, team, leadership, Lencioni]
 comments: true
-hidden: true
+hidden: false
 ---
 
 ![Image Title](/images/can-disfunctions-be-bright/team.png){: .center-image}
