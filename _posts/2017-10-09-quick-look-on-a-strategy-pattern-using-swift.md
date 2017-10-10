@@ -57,3 +57,5 @@ Let's think how the above code could look like without Strategy Pattern:
 <script src="https://gist.github.com/k8mil/8c6b66a014629604963b05799ab2a980.js"></script>
 
 Both of these solutions definitely are not on the same line with CleanCode. Also, it might be hard to maintain that kind of code. The switch statement can grow with the next cases - what if we had to handle a 10, 20 or 100 strategies? The second one using multiple functions is also bad because we will continue duplicating the similar methods to handle each case. This few arguments should convince you to use Strategy Pattern. And last but not least, this two examples breakes the Open-Close principle.
+
+This article is cross-posted with my [blog](https://wysockikamil.com/quick-look-on-a-strategy-pattern-using-swift/)
