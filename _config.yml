@@ -15,6 +15,7 @@ defaults:
 
 # Jekyll configuration
 url: https://brightinventions.pl
+github_repo_url: https://github.com/bright/new-www/
 permalink:   /blog/:categories/:title/
 highlighter: rouge
 sass:

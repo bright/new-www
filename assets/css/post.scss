@@ -35,3 +35,17 @@ body {
         }
     }
 }
+
+.meta {
+    &, a {
+        color: $grey-color-light;
+    }
+    
+    .date, .tags, .read-duration {
+        padding-right: 1em;
+    }
+}
+
+.gray-line {
+    color: $grey-color-light;
+}
