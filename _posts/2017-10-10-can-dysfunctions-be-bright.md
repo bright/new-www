@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Can Disfunctions be Bright'
+title: 'Can Dysfunctions be Bright'
 excerpt: Thoughts on management and team building
 author: monika
 tags : [management, team, leadership, Lencioni]
@@ -14,7 +14,7 @@ So your leader comes up with an idea, which you don’t quite agree with -do you
 
 Sometimes debates are raised and last long after the meetings end. It happens that discussions involve at least half of the team and result in many solutions to the problem.
 
-I smile to myself as I recall a brilliant book by Patrick Lencioni “The Five Disfunctions of a Team”.  Lencioni claims that a “Fear of Conflict” is the second disfunction which prevents teams from delivering desired results. It makes people focus on the fear which consumes the whole energy and kills the productivity. Silence driven by fear brings lack of commitment and thus makes the company’s success almost impossible. 
+I smile to myself as I recall a brilliant book by Patrick Lencioni “The Five Dysfunctions of a Team”.  Lencioni claims that a “Fear of Conflict” is the second dysfunction which prevents teams from delivering desired results. It makes people focus on the fear which consumes the whole energy and kills the productivity. Silence driven by fear brings lack of commitment and thus makes the company’s success almost impossible. 
 
 “All great relationships, the ones that last over time, require productive conflict in order to grow. This is true in marriage, parenthood, friendship, and certainly business” (Patrick Lencioni).
 
