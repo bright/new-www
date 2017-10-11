@@ -1,6 +1,3 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 {% if site.owner.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
@@ -13,28 +10,51 @@ ga('create', 'UA-29336006-1', 'auto');
 ga('send', 'pageview');
 
 </script>
-<!-- <script>
-  var _gaq = _gaq || [];
-  var pluginUrl =
- '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-  _gaq.push(['_setAccount', '{{ site.owner.google.analytics }}']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script> -->
 {% endif %}
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
-<script src="{{ site.url }}/assets/js/main.js" charset="utf-8"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var navIcon = document.getElementById('nav-icon');
+    navIcon.addEventListener('click', function () {
+        var firstNav = document.getElementsByTagName('nav')[0];
+        firstNav.classList.toggle('expanded');
+    });
+
+    var setActiveNavItem = function (currentPage) {
+        var mainNav = document.getElementById('main-nav');
+        Array.prototype.forEach.call(mainNav.children, function (navItem) {
+            if (navItem.children[0].getAttribute('href') === currentPage) {
+                navItem.classList.add('active');
+            } else {
+                navItem.classList.remove('active');
+            }
+        });
+    };
+
+    var bindOpenableAction = function () {
+        Array.prototype.forEach.call(document.querySelectorAll('.js-openable'), function (element) {
+            element.addEventListener('mouseenter', function (event) {
+                var currentlyOpened = element.parentElement.querySelector('.open');
+                if (currentlyOpened) {
+                    currentlyOpened.classList.remove('open');
+                }
+                element.classList.toggle('open');
+            });
+        });
+    };
+
+    setActiveNavItem(location.pathname);
+    bindOpenableAction();
+});
+</script>
 {% if page.hideChat == null %}
-<script type="text/javascript" src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/caa43f35de5f1881f244707a964917d2b649b4891fdd5f8596f29fa063df4499.js"></script>
+
+<script type="text/javascript" src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/caa43f35de5f1881f244707a964917d2b649b4891fdd5f8596f29fa063df4499.js" async></script>
 {% endif %}
+
 <!-- Twitter universal website tag code -->
 <script>
 !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
