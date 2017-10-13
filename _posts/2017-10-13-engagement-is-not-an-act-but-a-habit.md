@@ -6,8 +6,6 @@ hidden: false
 tags: engagement productivity self-development teamspirit success 
 ---
 
-**Engagement is not an act, but a habit**
------------------------------------------
 
 Disengaged and burned out employees cost companies every year billions of dollars and can highly affect the success of the business or even result in its failure. **Every employer knows that motivated and committed team values nowadays more than ever.** Yet engagement does not equal to employees' satisfaction or their happiness since someone can come to work every day with a big grin on their face, yet it does not have to mean they work productively on the behalf of the organisation. Someone can be also satisfied with their job, but coming across another offer, will quit it as quickly as one-day notice takes. So engagement is definitely something more than enthusiasm or satisfaction. 
 
