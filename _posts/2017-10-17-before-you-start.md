@@ -9,7 +9,7 @@ tags: blog
 ![Image Title](/images/before-you-start/ux.jpg){: .center-image}
 ## This one is going to be short. And basic.
 
-So let's say you have this great idea for a new app. That, of course, is going to be a real game changer! But before you start your journey to becoming an app proud owner and conquer the world (maybe?), please there are a few things (IMHO) worth taking into account
+So let's say you have this great idea for a new app. That, of course, is going to be a real game changer! But before you start your journey to becoming an app proud owner and conquer the world (maybe?), please there are a few things (IMHO) worth taking into account.
 
 ## Do NOT reinvent the wheel
 <cite>check what’s possible, what’s not, and how it has been done before </cite>
@@ -20,7 +20,7 @@ As for today, there are 3.3 mln apps in Google Play Store and 2.3 mln apps in Ap
 ## We are different
 <cite>thank God for many options to feel unique</cite>
 
-iOS and Android users are not the same users (yes, I know this is a pain but if you want to create comfortable user experience you need to design your app according to iOS and Android guidelines separately)
+iOS and Android users are not the same users (yes, I know this is a pain but if you want to create comfortable user experience you need to design your app according to iOS and Android guidelines separately).
 
 ## Don’t buy, just try
 <cite>you don’t need to buy a nightclub if you like to party</cite>
@@ -37,7 +37,7 @@ You should definitely check those address: <br>
 
 So .... Prototype, prototype, prototype (and you will thank me later)
 
-If you have found this paragraph interesting, you should also check a great book "Lean Startup" by Eric Ries (don't know the guy personally,  but the book is cool)
+If you have found this paragraph interesting, you should also check a great book "Lean Startup" by Eric Ries (don't know the guy personally, but the book is cool).
 
 #### Final word
 <cite>(read this 5 times and start to  create)</cite>
