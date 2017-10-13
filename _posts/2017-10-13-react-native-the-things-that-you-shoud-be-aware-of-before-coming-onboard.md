@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React Native - The things that you shoud be aware of before coming onboard
+title: React Native - The things that you should be aware of before coming onboard
 tags: [React Native, iOS, Android]
 comments: true
 author: eliasz
