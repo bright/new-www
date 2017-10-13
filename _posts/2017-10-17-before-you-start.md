@@ -6,8 +6,7 @@ author: piotr_l
 hidden: true
 tags: blog
 ---
-
-# Before you start
+![Image Title](/images/before-you-start/ux.jpg){: .center-image}
 ## This one is going to be short. And basic.
 
 So let's say you have this great idea for a new app. That, of course, is going to be a real game changer! But before you start your journey to becoming an app proud owner and conquer the world (maybe?), please there are a few things (IMHO) worth taking into account
@@ -17,6 +16,7 @@ So let's say you have this great idea for a new app. That, of course, is going t
 
 As for today, there are 3.3 mln apps in Google Play Store and 2.3 mln apps in App Store. American scientists (sic!) have proven that most of them are inferior,  but there are a few very good apps in the stores, too. My advice is to check how the creator has resolved the problems with UX and UI, and what makes these apps different from the rest.
 
+![Image Title](/images/before-you-start/man.jpg){: .center-image}
 ## We are different
 <cite>thank God for many options to feel unique</cite>
 
