@@ -15,7 +15,7 @@ Nowadays using a production like database in _unit_<sup>[1](#sup-1)</sup> tests 
 
 Spring Boot offers many helpers to make testing application easier. Among many you can use a [`@DataJpaTest`](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html#boot-features-testing-spring-boot-applications-testing-autoconfigured-jpa-test) which by default will configure an in-memory embedded database. You can use a production type database in tests by adding `@AutoConfigureTestDatabase(replace=Replace.NONE)` like so:
 
-```
+```java
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @AutoConfigureTestDatabase(replace=Replace.NONE)
@@ -30,7 +30,7 @@ public class ExampleRepositoryTests {
 The `@DataJpaTest` uses `@Transactional` under the hood. A test is wrapped inside a transaction that is rolled back at the end. This means that when using e.g. Hibernate one needs to pay special attention to how the tested code is written. [As shown in the example](https://docs.spring.io/spring/docs/4.3.11.RELEASE/spring-framework-reference/htmlsingle/#testcontext-tx-enabling-transactions), a manual flush is indeed required:
 
 
-```
+```kotlin
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = TestConfig.class)
 @Transactional
@@ -65,7 +65,7 @@ In tests involving a database I reset its state **before each** test using plain
 
 Let's start with defining a `@Rule` that will be called before each test:
 
-```
+```kotlin
 import org.junit.rules.ExternalResource
 import org.springframework.stereotype.Component
 import javax.sql.DataSource
@@ -92,7 +92,7 @@ We can use the `DatabaseCleanerRule` in a spring enabled test as any other JUnit
 
 Notice that we've delegated the actual important work to `DatabaseCleaner` class defined below. 
 
-```
+```kotlin
 import com.practi.util.iterator
 import org.slf4j.LoggerFactory
 import java.sql.Connection
@@ -171,7 +171,7 @@ Notice that we've defined `tablesToExclude` set that allows us to omit certain t
 
 [The jdbc metadata](https://docs.oracle.com/javase/7/docs/api/java/sql/DatabaseMetaData.html) allows us to introspect schema regardless of the database vendor. The `iterator` is a tiny function that aids consuming iterator like objects:
 
-```
+```kotlin
 inline fun <T> iterator(crossinline next: () -> Boolean, crossinline value: () -> T): AbstractIterator<out T> = object : AbstractIterator<T>() {
     override fun computeNext() {
         if (next()) {
@@ -187,7 +187,7 @@ The `buildClearStatement` constructs a large query that `DELETE`s all rows from 
 
 Last but not least when a `SQLException` is thrown we log the exception accompanied with [`SHOW ENGINE INNODB STATUS`](https://dev.mysql.com/doc/refman/5.7/en/show-engine.html). The status information can hint us about failure reason e.g. another test process executing against the same database or a rogue, runaway thread that locks some rows. 
 
-```
+```kotlin
 private fun engineInnoDbStatus(): String {
     return connectionProvider().use { connection ->
         connection.createStatement().executeQuery("SHOW ENGINE INNODB STATUS ").use {
