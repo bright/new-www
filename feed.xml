@@ -1,5 +1,6 @@
 ---
 sitemap: false
+empty_array: []
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -15,12 +16,24 @@ sitemap: false
   <uri>{{ site.url }}/</uri>
   {% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
 </author>
-{% for post in site.posts limit:20 %}
+
+
+{% assign visible_posts = page.empty_array %}
+
+{% for post in site.posts %}
+  {% unless post.hidden %}
+    {% assign visible_posts = visible_posts | push: post %}
+  {% endunless %} 
+{% endfor %}
+
+{% for post in visible_posts limit:50 %}
+
 {% if post.author %}
   {% assign author = site.data.authors[post.author] %}
 {% else %}
   {% assign author = site.owner %}
 {% endif %}
+
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
   <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
