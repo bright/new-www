@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3D Touch - Peak&Pop feature.
+title: 3D Touch - Peak&amp;Pop feature.
 author: kwysocki
 tags : [iOS, swift, 3d touch]
 comments: true
