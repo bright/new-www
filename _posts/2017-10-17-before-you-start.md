@@ -14,7 +14,7 @@ So let's say you have this great idea for a new app. That, of course, is going t
 ## Do NOT reinvent the wheel
 <cite>check what’s possible, what’s not, and how it has been done before </cite>
 
-As for today, there are 3.3 mln apps in Google Play Store and 2.3 mln apps in App Store. American scientists (sic!) have proven that most of them are inferior,  but there are a few very good apps in the stores, too. My advice is to check how the creator has resolved the problems with UX and UI, and what makes these apps different from the rest.
+As for today, there are 3.3M apps in Google Play Store and 2.3M apps in App Store. American scientists (sic!) have proven that most of them are inferior,  but there are a few very good apps in the stores, too. My advice is to check how the creator has resolved the problems with UX and UI, and what makes these apps different from the rest.
 
 ![Image Title](/images/before-you-start/man.jpg){: .center-image}
 ## We are different
