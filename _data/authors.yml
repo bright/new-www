@@ -102,3 +102,10 @@ piotr_l:
   bio: "Android Developer @ Bright Inventions"
   web: http://exp.flamaster2.com
   avatar: https://brightinventions.pl/images/piotrl.png
+
+pawel:
+  name: Paweł Papkiewicz
+  email: pawel.papkiewicz@brightinventions.pl
+  bio: "Software Engineer @ Bright Inventions"
+  avatar: https://brightinventions.pl/images/pawel.jpg
+  github: papkie
