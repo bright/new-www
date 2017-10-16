@@ -6,6 +6,7 @@
 // @import "vendor/magnific-popup/magnific-popup";
 @import  "normalize";
 @import "_prefix";
+@import "typography";
 
 * {
     box-sizing: border-box;
@@ -198,9 +199,6 @@ section {
         }
     }
 
-    a {
-        color: $black-color;
-    }
 }
 
 main {
