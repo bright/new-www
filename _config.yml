@@ -3,15 +3,14 @@
 title:            Bright Inventions
 locale:           en_US
 avatar:           /images/logo.png
+logo: /images/logo.png
 
 defaults:
   -
     scope:
       path: ""
     values:
-      image:
-        feature:
-        feature_class: jumbotron-bright
+      image: /images/logo.png
 
 # Jekyll configuration
 url: https://brightinventions.pl
@@ -68,3 +67,17 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 paginate: 10
 paginate_path: "/blog/page-:num/"
+
+twitter:
+  username: BrightDevs
+
+facebook:
+  publisher: https://www.facebook.com/Bright.Inventions/
+
+social:
+  name: Bright Inventions
+  links:
+    - https://www.facebook.com/Bright.Inventions/
+    - https://twitter.com/brightdevs
+    - https://www.instagram.com/bright_inventions/
+    - https://stackoverflow.com/jobs/companies/bright-inventions
