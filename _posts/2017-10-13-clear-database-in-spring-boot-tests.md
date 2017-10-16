@@ -167,7 +167,7 @@ class DatabaseCleaner(private val connectionProvider: () -> Connection) {
 }
 ```
 
-Notice that we've defined `tablesToExclude` set that allows us to omit certain tables. This comes handy when you're using a database migration tool that stores its state inside some table(s).
+Notice that we've defined `tablesToExclude` set that allows us to omit certain tables. This comes in handy when you're using a database migration tool that stores its state inside some table(s).
 
 [The JDBC metadata](https://docs.oracle.com/javase/7/docs/api/java/sql/DatabaseMetaData.html) allows us to introspect schema regardless of the database vendor. The `iterator` is a tiny Kotlin function that aids consuming iterator like objects:
 
@@ -185,7 +185,7 @@ inline fun <T> iterator(crossinline next: () -> Boolean, crossinline value: () -
 
 The `buildClearStatement` constructs a large query that `DELETE`s all rows from each relevant table. The example above uses MySQL where it is very easy to disable foreign key checks. This is important since foreign keys would prevent rows to be removed unless we paid special attention to the order of removal. A more generic example of how to deal with referential integrity when clearing a database can be found in the [Respawn project](https://github.com/jbogard/Respawn).
 
-Last but not least when a `SQLException` is thrown we log the exception accompanied with [`SHOW ENGINE INNODB STATUS`](https://dev.mysql.com/doc/refman/5.7/en/show-engine.html). The status information can hint us about failure reason e.g. another test process executing against the same database or a rogue, runaway thread that locks some rows. 
+Last but not least, when a `SQLException` is thrown we log the exception accompanied with [`SHOW ENGINE INNODB STATUS`](https://dev.mysql.com/doc/refman/5.7/en/show-engine.html). The status information can hint us about failure reason e.g. another test process executing against the same database or a rogue, runaway thread that locks some rows. 
 
 ```kotlin
 private fun engineInnoDbStatus(): String {
