@@ -2,7 +2,7 @@
 layout: post
 title: A few things I like about React Native. And a few I don't.
 author: azabost
-hidden: true
+hidden: false
 tags: [React Native, iOS, Android]
 comments: true
 ---
