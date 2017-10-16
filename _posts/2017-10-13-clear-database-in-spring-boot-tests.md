@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to clear database in spring boot tests?
+title: How to clear database in Spring Boot tests?
 tags: tests spring boot database kotlin
 author: piotr
 comments: true
@@ -27,10 +27,10 @@ public class ExampleRepositoryTests {
 
 ``` 
 
-The `@DataJpaTest` uses `@Transactional` under the hood. A test is wrapped inside a transaction that is rolled back at the end. This means that when using e.g. Hibernate one needs to pay special attention to how the tested code is written. [As shown in the example](https://docs.spring.io/spring/docs/4.3.11.RELEASE/spring-framework-reference/htmlsingle/#testcontext-tx-enabling-transactions), a manual flush is indeed required:
+The `@DataJpaTest` uses `@Transactional` under the hood. A test is wrapped inside a transaction that is rolled back at the end. This means that when using e.g. Hibernate one needs to pay special attention to how the tested code is written. [As shown in the Java example below](https://docs.spring.io/spring/docs/4.3.11.RELEASE/spring-framework-reference/htmlsingle/#testcontext-tx-enabling-transactions), a manual flush is indeed required:
 
 
-```kotlin
+```java
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = TestConfig.class)
 @Transactional
@@ -63,7 +63,7 @@ Using `@Transactional` annotation on tests is certainly easy but **I still don't
 
 In tests involving a database I reset its state **before each** test using plain old SQL. This makes the test code less dependent on how a transaction is scoped inside production code. Furthermore, one can easily review the values saved **after a test failure**. It turns out it is easy to write a JUnit `@Rule` or [`BeforeEachCallback`](http://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/extension/BeforeEachCallback.html) that will remove all rows from all tables. Moreover, we can do so without hard coding table names which would increase maintenance cost.
 
-Let's start with defining a `@Rule` that will be called before each test:
+Let's start with defining a `@Rule` in Kotlin in that will be called before each test:
 
 ```kotlin
 import org.junit.rules.ExternalResource
@@ -90,7 +90,7 @@ Consider inspecting `dataSource` to check if we are about to connect to test dat
 
 We can use the `DatabaseCleanerRule` in a spring enabled test as any other JUnit rule e.g. `@Rule @Inject lateinit var cleanerRule: DatabaseCleanerRule`.
 
-Notice that we've delegated the actual important work to `DatabaseCleaner` class defined below. 
+Notice that we've delegated the actual important work to `DatabaseCleaner` class defined in Kotlin below. 
 
 ```kotlin
 import com.practi.util.iterator
@@ -169,7 +169,7 @@ class DatabaseCleaner(private val connectionProvider: () -> Connection) {
 
 Notice that we've defined `tablesToExclude` set that allows us to omit certain tables. This comes handy when you're using a database migration tool that stores its state inside some table(s).
 
-[The jdbc metadata](https://docs.oracle.com/javase/7/docs/api/java/sql/DatabaseMetaData.html) allows us to introspect schema regardless of the database vendor. The `iterator` is a tiny function that aids consuming iterator like objects:
+[The JDBC metadata](https://docs.oracle.com/javase/7/docs/api/java/sql/DatabaseMetaData.html) allows us to introspect schema regardless of the database vendor. The `iterator` is a tiny Kotlin function that aids consuming iterator like objects:
 
 ```kotlin
 inline fun <T> iterator(crossinline next: () -> Boolean, crossinline value: () -> T): AbstractIterator<out T> = object : AbstractIterator<T>() {
@@ -197,7 +197,7 @@ private fun engineInnoDbStatus(): String {
 }
 ```
 
-The above examples show that it is not hard to manually reset the database. I've found that using this approach makes my tests more trustworthy and less coupled to the underlying persistance layer. In fact, we can easily switch e.g. from JPA to `JdbcTemplate` in a performance critical code area without a need to change a test.
+The above examples show that it is not hard to manually reset the database. I've found that using this approach makes my tests more trustworthy and less coupled to the underlying persistence layer. In fact, we can easily switch e.g. from JPA to `JdbcTemplate` in a performance critical code area without a need to change a test.
 
 
 _<sup>1</sup>_<a name="sup-1"></a> Whether it is actually unit or integration test is a different topic.
