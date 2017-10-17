@@ -3,7 +3,7 @@ layout: post
 title: Before you start
 comments: true
 author: piotr_l
-hidden: true
+hidden: false
 tags: blog
 ---
 ![Image Title](/images/before-you-start/ux.jpg){: .center-image}
