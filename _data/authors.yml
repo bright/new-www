@@ -109,3 +109,9 @@ pawel:
   bio: "Software Engineer @ Bright Inventions"
   avatar: https://brightinventions.pl/images/pawel.jpg
   github: papkie
+  
+grzesiek:
+  name : Grzegorz Cieśla
+  email : grzegorz.ciesla@brightinventions.pl
+  bio : "Software Developer @ Bright Inventions"
+  avatar : https://brightinventions.pl/images/grzesiek.png
