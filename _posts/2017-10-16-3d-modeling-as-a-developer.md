@@ -2,7 +2,6 @@
 layout: post
 title: 3d modeling as a developer
 author: pawel
-hidden: true
 tags: ['3d modeling', 'CAD', 'OpenSCAD']
 comments: true
 ---
