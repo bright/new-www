@@ -4,7 +4,7 @@ title: Before you start
 comments: true
 author: piotr_l
 hidden: false
-tags: blog
+tags: [UX, iOS, Android, mobile]
 ---
 ![Image Title](/images/before-you-start/ux.jpg){: .center-image}
 ## This one is going to be short. And basic.
