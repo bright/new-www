@@ -2,7 +2,7 @@
 layout: post
 title: Internship vs Internship
 author: radek
-tags: blog
+tags: ['management', 'success', 'personal development', 'engagement', 'productivity']
 ---
 
 Hello! I’m Radek and I am a programmer. Employed as a full-time software developer at Bright Inventions… last Monday.
