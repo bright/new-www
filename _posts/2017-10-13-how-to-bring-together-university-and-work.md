@@ -6,8 +6,6 @@ hidden: false
 tags: work university time-management
 ---
 
-# How to bring together university and work?
-
 ## How did it start?
 
 I’ve started my adventure at Bright Inventions from a three month summer Internship, but now it’s time to go back to the university. It has got a little bit complicated when it turned out that I have to be in two places at the same time - I have tried bilocation, but unfortunately failed… And sometimes I need to sleep, so even trilocation is wanted.
