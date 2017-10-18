@@ -15,7 +15,7 @@ IOTA's marketing offerings are very prominent. It calls itself "a backbone of Io
 
 First of all, [technically speaking](https://xkcd.com/1475/), contrary to Bitcoin, Ethereum or Hyperledger, it is not a [blockchain-based](https://en.wikipedia.org/wiki/Blockchain) solution, because transactions do not require blocks to be formed nor do they create a single chain of blocks. Instead, each transaction is a separate node in the tree-shaped graph of transactions. Every transaction references two earlier transactions that exist in the tree, confirming its validity (by verifying its [proof-of-work](https://en.wikipedia.org/wiki/Proof-of-work_system)). This directed tree-shaped graph in IOTA is called *the Tangle*.
 
-![IOTA Tangle visualation by David Sonstebo](https://cdn-images-1.medium.com/max/2000/1*bMMGTt8UUIKoVGQCo6VL1g.png)
+![IOTA Tangle visualization by David Sonstebo](https://cdn-images-1.medium.com/max/2000/1*bMMGTt8UUIKoVGQCo6VL1g.png)
 
 This way, at least theoretically, the whole system is self-validating and the approval process is decoupled from any authority and decentralized. It is also a way to [get rid of the transaction fees](https://learn.iota.org/faq/how-can-there-be-no-transaction-fees
 ) - all the nodes participating in the network have the incentive to verify proof-of-works of other transactions because it is required in order to submit own transactions to the network.
@@ -49,4 +49,4 @@ What is important, IOTA cannot serve as an app platform as long as there's no [S
 
 Even if the number of TODO's on the IOTA team's list is long, there are definitely some parts that can be used even today. 
 
-Next time, we'll look into the ways we can interact with the Tangle and the potential use cases we might use IOTA for, even in its current state of maturity.
+[Next time](/blog/getting-started-with-iota), we'll look into the ways we can interact with the Tangle, even in its current state of maturity.
