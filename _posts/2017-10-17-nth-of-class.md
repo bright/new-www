@@ -3,7 +3,7 @@ layout: post
 title: Simulating nth-of-class CSS selector
 tags: css
 comments: true
-hidden: true
+hidden: false
 author: agnieszka
 ---
 My experience with frontend web development is not long yet, nevertheless, I have already got stuck a few times and spend like a few hours trying to find one perfect solution. I reckon that some of them are worth describing. 
