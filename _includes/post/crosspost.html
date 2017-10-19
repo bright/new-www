@@ -7,7 +7,7 @@
 {% endif %}
 {% if crosspost_template %}
   {% assign categories = page.categories | join: '/' %}  
-  {% if categories %}
+  {% if categories != blank and categires != nil %}
     {% assign categories = categories | append: '/' %}
   {% endif %}
   {% assign year = page.date | date: '%Y' %}  
