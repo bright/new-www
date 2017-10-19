@@ -7,6 +7,14 @@
 {% endif %}
 {% if crosspost_template %}
   
+  {% assign year = page.date | date: '%Y' %}  
+  {% assign month = page.date | date: '%m' %}  
+  {% assign day = page.date | date: '%d' %}  
   {% assign url = crosspost_template  %}
+  {% assign url = url | replace: ':year', year %}
+  {% assign url = url | replace: ':month', month %}
+  {% assign url = url | replace: ':day', day %}
+
+  {% assign url = url | replace: ':title', page_url %}
   <p class="crosspost">This article is crossposted with <a href="{{ url }}">author's personal blog</a>.</p>
 {% endif %}
