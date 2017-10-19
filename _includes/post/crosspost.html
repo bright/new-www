@@ -14,7 +14,7 @@
   {% assign url = url | replace: ':year', year %}
   {% assign url = url | replace: ':month', month %}
   {% assign url = url | replace: ':day', day %}
-
+  {% assign page_url = page.url | replace: '/blog/', '' | replace: '/', '' %}
   {% assign url = url | replace: ':title', page_url %}
   <p class="crosspost">This article is crossposted with <a href="{{ url }}">author's personal blog</a>.</p>
 {% endif %}
