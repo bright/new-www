@@ -1,7 +1,7 @@
 {% if page.author %}
 {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = {} %}
 {% endif %}
-{% if page.corsspost %}{% assign crosspost_template = page.crosspost %}{% elsif author.crosspost %}{% assign crosspost_template = author.crosspost %}{% endif %}
+{% if page.corsspost and page.crosspost != true %}{% assign crosspost_template = page.crosspost %}{% elsif author.crosspost %}{% assign crosspost_template = author.crosspost %}{% endif %}
 {% if crosspost_template %}
   {% assign categories = page.categories | join: '/' %}  
   {% if categories %}
