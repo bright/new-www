@@ -19,6 +19,7 @@ piotr:
   twitter: miensol
   github: miensol
   stackoverflow: 155213/miensol
+  crosspost: https://miensol.pl/:categories/:year/:month/:day/:title.html
 
 daniel:
   name: Daniel Makurat
