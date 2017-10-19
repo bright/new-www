@@ -6,11 +6,15 @@
 {% assign crosspost_template = author.crosspost %}
 {% endif %}
 {% if crosspost_template %}
-  
+  {% assign categories = page.categories | join: '/' %}  
+  {% if categories %}
+    {% assign categories = categories | append: '/' %}
+  {% endif %}
   {% assign year = page.date | date: '%Y' %}  
   {% assign month = page.date | date: '%m' %}  
   {% assign day = page.date | date: '%d' %}  
   {% assign url = crosspost_template  %}
+  {% assign url = url | replace: ':categories/', categories %}
   {% assign url = url | replace: ':year', year %}
   {% assign url = url | replace: ':month', month %}
   {% assign url = url | replace: ':day', day %}
