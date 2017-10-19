@@ -5,3 +5,8 @@
 {% if crosspost_template == true %}
 {% assign crosspost_template = author.crosspost %}
 {% endif %}
+{% if crosspost_template %}
+  
+  {% assign url = crosspost_template  %}
+  <p class="crosspost">This article is crossposted with <a href="{{ url }}">author's personal blog</a>.</p>
+{% endif %}
