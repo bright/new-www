@@ -26,23 +26,23 @@ I'm going to create a rectangle consisting of two adjacent triangles varying in 
 ## Step 2: Set up the drawable size ##
 
 {% highlight xml %}
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;vector xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:height="100dp"
     android:width="100dp"
     android:viewportHeight="100"
-    android:viewportWidth="100"&gt;
+    android:viewportWidth="100">
 
-&lt;/vector&gt;
+</vector>
 {% endhighlight %}
 
 The `android:width` and `android:height` properties define the drawable intrinsic size, so it matters mostly when you later use the drawable with `wrap_content` width and height like this:
 
 {% highlight xml %}
-&lt;ImageView
+<ImageView
         android:src="@drawable/rectangle"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" /&gt;
+        android:layout_height="wrap_content" />
 {% endhighlight %}
 
 The `android:viewportWidth` and `android:viewportHeight` properties are more important for us as they define the canvas size for drawing our paths.
@@ -58,9 +58,9 @@ Please note the coordinates &mdash; the top-left corner of the canvas is (0,0) a
 You can draw a path by adding a `path` inside the `vector`:
 
 {% highlight xml %}
-&lt;path
+<path
     android:fillColor="[your color (e.g. from resources or RGB Hex)]"
-    android:pathData="[SVG path commands]" /&gt;
+    android:pathData="[SVG path commands]" />
 {% endhighlight %}
 
 We need the following SVG commands here:
@@ -86,18 +86,18 @@ It's also worth noting that if you use the same command multiple times in a row,
 Let's put this in the drawable file:
 
 {% highlight xml %}
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;vector xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:height="100dp"
     android:width="100dp"
     android:viewportHeight="100"
-    android:viewportWidth="100"&gt;
+    android:viewportWidth="100">
 
-    &lt;path
+    <path
         android:fillColor="@color/triangle_red_light"
-        android:pathData="M 0,0 L 100,0 0,100 z" /&gt;
+        android:pathData="M 0,0 L 100,0 0,100 z" />
 
-&lt;/vector&gt;
+</vector>
 {% endhighlight %}
 
 We can see the triangle in the preview panel:
@@ -117,24 +117,24 @@ so the path command is: `M 100,0 L 0,100 100,100 z`
 The resulting XML now looks like this:
 
 {% highlight xml %}
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;vector xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:height="100dp"
     android:width="100dp"
     android:viewportHeight="100"
-    android:viewportWidth="100"&gt;
+    android:viewportWidth="100">
 
-    &lt;path
+    <path
         android:name="dark_triangle"
         android:fillColor="@color/triangle_red_dark"
-        android:pathData="M 100,0 L 0,100 100,100 z" /&gt;
+        android:pathData="M 100,0 L 0,100 100,100 z" />
 
-    &lt;path
+    <path
         android:name="light_triangle"
         android:fillColor="@color/triangle_red_light"
-        android:pathData="M 0,0 L 100,0 0,100 z" /&gt;
+        android:pathData="M 0,0 L 100,0 0,100 z" />
 
-&lt;/vector&gt;
+</vector>
 {% endhighlight %}
 
 Hint: you can name the paths so it's easier to find them later if your drawable gets more complicated.
@@ -147,20 +147,20 @@ Hint: you can name the paths so it's easier to find them later if your drawable 
 Now we can use the drawable. As you can see, it can be easily scaled by using the `android:layout_width`, `android:layout_height` and `android:scaleType` properties.
 
 {% highlight xml %}
-&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"&gt;
+    android:layout_height="match_parent">
 
-    &lt;ImageView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/rectangle" /&gt;
+        app:srcCompat="@drawable/rectangle" />
 
-&lt;/LinearLayout&gt;
+</LinearLayout>
 {% endhighlight %}
 
 ![Final layout](/images/creating-simple-drawables-in-android-studio/layout.png){: .center-image }
