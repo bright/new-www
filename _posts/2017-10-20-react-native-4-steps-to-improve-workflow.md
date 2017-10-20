@@ -11,7 +11,7 @@ author: eliasz
 
 "A developer needs tools that support her/his workflow to be fully productive". Well, I guess that this statement fits to any profession that you can think of. It is really important for me to feel that the environment that I'm working in really supports my flow and works well with my approach to software development. That's why today I'd like to share a number of things that boost my productivity while creating mobile app in React Native.
 
-The following list has been prepared by a developer that comes from the native iOS background. If you have web background, then these things won't be as revolutionary as they are for a developer with pure mobile experience ;)
+The following list has been prepared by a developer that comes from the native iOS background. If you have web background, then these things won't be as revolutionary as they are for a developer with pure mobile experience. ;)
 
 ## 1. [TypeScript](https://www.typescriptlang.org/)
 If your background is development in Swift, Kotlin or other "mobile" language and you move to the JavaScript world, then I wouldn't be surprised if you missed the support that Swift/Kotlin have in the IDE or simply, you would like to use a strongly-typed language again. "JavaScript that scales." is a statement that you will find while entering TypeScript's home page. TypeScript is a superset of JavaScript that will allow you to achive better code completion, strong typing, add interfaces to your code etc. However, you have to keep in mind that TypeScript will not force you to adapt new coding conventions instantly. It's up to you in terms of how you decide to configure it. In the end, the output can be much more pleasant than writing pure JavaScript.  
@@ -38,4 +38,4 @@ Having ability to easily work with an isolated UI in the application and work on
 
 What are the things that improve your workflow? I'd be glad to hear about them!
 
-*This article is cross-posted with my [my personal blog](https://eliaszsawicki.com/).*
+*This article is cross-posted with [my personal blog](https://eliaszsawicki.com/).*
