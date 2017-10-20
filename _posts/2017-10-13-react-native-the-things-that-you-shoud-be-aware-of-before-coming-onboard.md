@@ -74,4 +74,4 @@ Setting up a React Native project can be a daunting thing... It would be really 
 These points should not discourage you to enter the world of React Native. They should make you be aware of some problems, so that you can better prepare for them. So far I've had a great experience with it and I'm really looking forward to seeing how this technology evolves in the future.  
 Well... you should surely avoid React Native if you don't want to experience the feeling of longing after coming back to native development. When you come back, there will be many things that you won't feel comfortable with after trying React Native ;)
 
-*This article is cross-posted with my [my personal blog](https://eliaszsawicki.com/).*
+*This article is cross-posted with [my personal blog](https://eliaszsawicki.com/).*
