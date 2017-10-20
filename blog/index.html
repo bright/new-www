@@ -6,40 +6,49 @@ tags: [bright inventions, blog, mobile apps, iOS, android]
 customCss: blog-list
 ---
 <main>
-  {% for post in paginator.posts %}
-    <!-- {% unless post.next %}
-    <h3>{{ post.date | date: '%Y' }}</h3>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-        <h3>{{ post.date | date: '%Y' }}</h3>
-      {% endif %}
-    {% endunless %} -->
+    {% for post in paginator.posts %}
 
     <article>
-      {% if post.link %}
-        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-      {% else %}
-        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncate: 400 }}</p>
-        {% include _tags.html %}
-      {% endif %}
-    </article>
-  {% endfor %}
+        {% if post.link %}
+        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a
+                href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+        {% else %}
 
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-  </div>
+        {% assign author = site.data.authors[post.author] %}
+        <div class="byline">
+            <img src="{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo" width="46px">
+            <div class="post-metadata">
+                <div class="author">{{ author.name }}</div>
+                <div class="details">
+                    <span class="date">{{ post.date | date: "%B %e, %Y"  }}</span>
+                    <span>
+                        {% if post.tags %}{{ post.tags | join: ", " }}{% endif %}
+                    </span>
+                </div>
+            </div>
+        </div>
+        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+
+        <p>{{ post.excerpt | strip_html | truncate: 1000 }}</p>
+        <div class="read-more">
+            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">Read more</a>
+        </div>
+        {% endif %}
+    </article>
+    {% endfor %}
+
+    <!-- Pagination links -->
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% else %}
+        <span class="previous">Previous</span>
+        {% endif %}
+        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% else %}
+        <span class="next ">Next</span>
+        {% endif %}
+    </div>
 </main>
