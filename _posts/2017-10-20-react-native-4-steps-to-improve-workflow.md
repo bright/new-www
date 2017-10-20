@@ -20,7 +20,7 @@ Do not be afraid to try TypeScript. It is transpiled to JavaScript code that loo
 ## 2. [Storybook](https://github.com/storybooks/storybook)
 I cannot emphasize strongly enough how much I love storybooks. This single tool itself can greatly improve your workflow on UI parts of your application. Storybook allows you to create stories in which you prepare prefilled UI elements with data that could possibly show up there during normal app life time. Later, within a few seconds you can easily go through all stories that you've described and see how they look on your device / emulator without the need of going through all of these states in normal app flow which takes much longer time.
 
-This is an tiny example of a single story, however if you develop a normal app, you will surely have much more of them which may cover all of possible UI states for your components.
+This is a tiny example of a single story, however if you develop a normal app, you will surely have much more of them which may cover all of possible UI states for your components.
 
 ![](/images/react-native-a-better-workflow/story.gif){: .center-image}
 
