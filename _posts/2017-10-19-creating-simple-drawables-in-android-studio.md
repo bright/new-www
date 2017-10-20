@@ -167,5 +167,5 @@ Now we can use the drawable. As you can see, it can be easily scaled by using th
 
 ### Further reading ###
 
-* https://developer.android.com/training/material/drawables.html#VectorDrawables
-* https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html
+* [https://developer.android.com/training/material/drawables.html#VectorDrawables](https://developer.android.com/training/material/drawables.html#VectorDrawables)
+* [https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html](https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html)
