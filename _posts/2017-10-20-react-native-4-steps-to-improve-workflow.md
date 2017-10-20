@@ -2,7 +2,6 @@
 layout: post
 title: React Native - 4 steps to improve your workflow as a mobile developer
 tags: [React Native, iOS, Android]
-hidden: true
 comments: true
 author: eliasz
 ---
