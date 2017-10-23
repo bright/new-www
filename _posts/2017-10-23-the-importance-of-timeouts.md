@@ -70,7 +70,7 @@ X-Application-Context: application
 ```
 An application health API, like the one in our example, is often hooked into external monitoring software. The monitor asks the target application about its health in regular intervals e.g. every 5 seconds. 
 
-## Shooting yourself in foot
+## Shooting yourself in the foot
 
 The above example has an issue that can kill production server. More importantly, other metrics that are usually monitored e.g. CPU and memory usage will not warn about upcoming, dreadful service stall. The application will also not suffer from an enormous number of requests or emails being sent.
 
