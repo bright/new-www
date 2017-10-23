@@ -106,6 +106,6 @@ Just to recap here is a short and incomplete list of cases where a timeout shoul
 - a database query, statement
 - a database pool interaction
 - a thread pool interaction
-- an API client e.g. http, soap, smtp
+- an API client e.g. HTTP, SOAP, SMTP
 
 I will describe how to deal with the cases in the following posts.
