@@ -6,6 +6,7 @@ hidden: false
 tags: server request timeout query resiliency spring boot
 comments: true
 crosspost: true
+image: /images/the-importance-of-timeouts/man-clock.jpeg
 ---
 
 [Timeouts](https://en.wikipedia.org/wiki/Timeout_(computing)) are not an exciting thing to talk about. They do not add immediately perceivable value. They are difficult to ~~guess~~ get right and force one to [consider problems that are hard to solve](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance#Byzantine_Generals.27_Problem). In fact, in my experience, the timeout is only ever considered when our software stops working or is about to. That is an enormous shame since, in my opinion, carefully applied timeouts can vastly improve software resiliency. 
