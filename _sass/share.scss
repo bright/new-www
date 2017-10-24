@@ -1,5 +1,14 @@
 /* All buttons */
+
+.share-post-wrapper .native-share {
+    float: right;
+}
+
 .share-post {
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 1em;
+
     .share-buttons {
         display: inline;
     }

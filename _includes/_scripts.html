@@ -48,6 +48,23 @@ ga('send', 'pageview');
 
     setActiveNavItem(location.pathname);
     bindOpenableAction();
+
+    var $share = document.querySelector('.share-post-wrapper');
+    if (navigator.share && $share && '{{ page.title }}') {
+        var $shareButton = document.createElement('button');
+        $shareButton.setAttribute('type', 'button');
+        $shareButton.setAttribute('class', 'native-share');
+        $shareButton.innerText = 'Share';
+        $shareButton.addEventListener('click', function () {
+            navigator.share({
+                title: '{{ page.title }}',
+                url: '{{ site.url }}{{ site.baseurl }}{{ page.url }}'
+            });
+        });
+
+        $share.innerHTML = '';
+        $share.appendChild($shareButton);
+    }
 });
 </script>
 {% if page.hideChat == null %}

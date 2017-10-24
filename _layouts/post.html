@@ -10,11 +10,11 @@ customCss: post
         <hr class="gray-line">
         <div class="article-wrap">
             {{ content }}
-            <hr />
-            <div role="banner" class="share-post">
-                Share on {% include post/share.html %}
+
+            <div role="banner" class="share-post-wrapper">
+                <div class="share-post">Share on {% include post/share.html %}</div>
             </div>
-            <hr />
+
             <footer role="contentinfo">
                 <div class="article-author-bottom">
                     {% include _author-bio.html %}
