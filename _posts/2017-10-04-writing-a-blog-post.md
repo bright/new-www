@@ -109,3 +109,34 @@ In order to include the image you can use markdown or html e.g.:
 
 ![Image Title](/images/writing-a-blog-post/pexels-photo-296115.jpeg){: .center-image}
 
+# Crossposting
+
+If you include `crosspost: https://my-blog-post/:category/:year/:month/:day` in your `authors.yml` section. Then you can set `crosspost: true` to add a link to your blog.
+
+Example:
+
+`authors.yml`:
+
+```
+piotr:
+  crosspost: https://miensol.pl/:categories/:year/:month/:day/:title.html
+  ...
+```
+
+
+`2017-10-23-the-importance-of-timeouts.mdl`:
+
+```
+---
+layout: post
+title: The importance of timeouts
+author: piotr
+hidden: false
+tags: server request timeout query resiliency spring boot
+comments: true
+crosspost: true
+image: /images/the-importance-of-timeouts/man-clock.jpeg
+---
+```
+
+
