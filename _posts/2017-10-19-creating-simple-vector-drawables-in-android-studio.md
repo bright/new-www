@@ -3,7 +3,7 @@ layout: post
 title: Creating simple vector drawables in Android Studio
 image: /images/creating-simple-drawables-in-android-studio/desk-office-pen-ruler.jpg
 author: azabost
-hidden: true
+hidden: false
 crosspost: true
 tags: [Android]
 comments: true
