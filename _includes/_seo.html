@@ -1,1 +1,6 @@
 {% seo %}
+
+{% if page.image %}
+<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+{% endif %}
+
