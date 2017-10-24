@@ -4,6 +4,7 @@ title: React Native - 4 steps to improve your workflow as a mobile developer
 tags: [React Native, iOS, Android]
 comments: true
 author: eliasz
+image: /images/react-native-a-better-workflow/happy.jpeg
 ---
 
 ![Header](/images/react-native-a-better-workflow/happy.jpeg){: .center-image}
