@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Creating simple vector drawables in Android Studio
+image: /images/creating-simple-drawables-in-android-studio/desk-office-pen-ruler.jpg
 author: azabost
 hidden: true
+crosspost: true
 tags: [Android]
 comments: true
 ---
@@ -12,6 +14,8 @@ Using vector drawables is often much better than bitmap images for two reasons: 
 Sometimes I find it useful to create vector drawables by hand in Android Studio using [SVG paths](https://www.w3.org/TR/SVG/paths.html).
 
 If you are not yet familiar with it, let me show you an example.
+
+![Image](/images/creating-simple-drawables-in-android-studio/desk-office-pen-ruler.jpg){: .center-image }
 
 # Example #
 

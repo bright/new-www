@@ -78,6 +78,7 @@ azabost:
   web: https://azabost.com
   github: azabost
   stackoverflow: 6761823/andrzej-zabost
+  crosspost: https://azabost.com/:title
 
 ula:
   name : Ula Stankiewicz

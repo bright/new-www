@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Securing your Google service account key in builds
+image: /images/securing-your-google-service-account-key-in-builds/padlock-597495_1920.jpg
 author: azabost
+crosspost: true
 hidden: false
 tags: android build
 ---
@@ -154,5 +156,3 @@ Now, having this process configured, you can safely delete the Google service ac
 # Summary #
 
 Protecting the service account key may be challenging, but it's very important and worth considering. You should assess the options you have, their pros and cons, the risks and profits. Keep in mind that any level of protection is better than no protection at all.
-
-*This article is cross-posted with [my personal blog](https://azabost.com)*
