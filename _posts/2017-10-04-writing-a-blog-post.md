@@ -109,6 +109,21 @@ In order to include the image you can use markdown or html e.g.:
 
 ![Image Title](/images/writing-a-blog-post/pexels-photo-296115.jpeg){: .center-image}
 
+**When you use an image in the blog post please set the path to the `image` in the front-matter like so:**
+
+`2017-10-23-the-importance-of-timeouts.md`:
+
+```
+---
+layout: post
+...
+image: /images/the-importance-of-timeouts/man-clock.jpeg
+...
+---
+```
+
+This will make share page pick up the image 👍
+
 # Crossposting
 
 If you include `crosspost: https://my-blog-post/:category/:year/:month/:day` in your `authors.yml` section. Then you can set `crosspost: true` to add a link to your blog.
@@ -124,7 +139,7 @@ piotr:
 ```
 
 
-`2017-10-23-the-importance-of-timeouts.mdl`:
+`2017-10-23-the-importance-of-timeouts.md`:
 
 ```
 ---
