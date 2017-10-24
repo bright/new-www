@@ -11,6 +11,10 @@ customCss: post
         <div class="article-wrap">
             {{ content }}
             <hr />
+            <div role="banner" class="share-post">
+                Share on {% include post/share.html %}
+            </div>
+            <hr />
             <footer role="contentinfo">
                 <div class="article-author-bottom">
                     {% include _author-bio.html %}
