@@ -21,9 +21,7 @@ Spring Boot offers many helpers to make testing application easier. Among many y
 @DataJpaTest
 @AutoConfigureTestDatabase(replace=Replace.NONE)
 public class ExampleRepositoryTests {
-
     // ...
-
 }
 
 ``` 
