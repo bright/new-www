@@ -3,7 +3,7 @@ layout: post
 title: Writing a blog post
 author: piotr
 hidden: true
-tags: blog
+tags: blog jekyll github
 ---
 
 Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](https://github.com/bright/new-www).
