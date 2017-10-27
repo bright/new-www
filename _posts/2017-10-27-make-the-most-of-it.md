@@ -28,7 +28,7 @@ So if we experience a poor work quality and feel there is something wrong with o
 
 ![](/images/tomatoes/table-meetings.jpg)
 
-**Meetings.** Take part in these that you can benefit from. If you feel that spending another minute participating in a particular discussion will not give you any asset, do not feel obliged to be there. **Meetings are essential part of every organisation, but only these run effectively should be an essential part of your day.** So if you have a chance to avoid spending two hours fruitlessly in a conference room, just leave, and devote this time to boosting your productivity instead. Leaving a non-compulsory meeting as long as we find it futile, is not missing business savour-vive but taking care of your goals. 
+**Meetings.** Take part in these that you can benefit from. If you feel that spending another minute participating in a particular discussion will not give you any asset, do not feel obliged to be there. **Meetings are essential part of every organisation, but only these run effectively should be an essential part of your day.** So if you have a chance to avoid spending two hours fruitlessly in a conference room, just leave, and devote this time to boosting your productivity instead. Leaving a non-compulsory meeting as long as we find it futile, is not missing business savour-vivre but taking care of your goals. 
 
 Another situation that may prove unavailing are disagreements. Feeling an argument leads to nowhere, let it go. It is time-consuming, energy-consuming and just pointless. The sooner you realise that, the better for you. 
 
