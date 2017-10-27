@@ -177,7 +177,7 @@ inhibit_all_warnings!
 target 'MyAppTarget' do
  use_frameworks!
 
- # Pods for CIM
+ # Pods for MyApp
  podd 'SnapKit' # <------- should fail because of `podd`
  pod 'Result'
 end
