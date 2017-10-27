@@ -254,7 +254,7 @@ Here is how a message with customized `default_payloads` looks like:
 
 #### 👉  `success`
 
-You can also define if that message will be successful or not. Success messages can be used if your app is successfully uploaded to iTunesConnect or many more cases. But I prefer to use success for only that case. Because I think I don't need to know about every successful build or every successful test run. All above examples are instances  when `success` parameter was set to `true` (it is done by default.).
+You can also define if that message will be successful or not. Among other cases, success messages can be used if your app is successfully uploaded to iTunesConnect.
 
 Second option is to set `success` to `false`, and then a message will look a bit different:
 
