@@ -44,7 +44,7 @@ We all shall remember that frenzy of work should not take away our health. **Rec
 
 ![](/images/tomatoes/pomodoro.jpg)
 
-And now let us come back to tomatoes. **Pomodro Technique is a popular time management approach in which you divide work into blocks of time. Typically you work for 25 minutes (this is your pomodoro “tomato” session) followed by a 5-minute break.** During each pomodoro session we should be fully focused on our task. There is no space for distractions of any kind like social media, talking with your colleagues or answering phone. Our motivation should push us to finish the task and avoid interruptions. At the beginning of each pomodoro session we choose a task we would like to pay our attention to. After four sessions it is advisable to refresh mind and take a longer 20-minute break. Does it always work? It may not, but if you have not tried, it is still worth giving a go.
+And now let focus on tomatoes. **Pomodro Technique is a popular time management approach in which you divide work into blocks of time. Typically you work for 25 minutes (this is your pomodoro “tomato” session) followed by a 5-minute break.** During each pomodoro session we should be fully focused on our task. There is no space for distractions of any kind like social media, talking with your colleagues or answering phone. Our motivation should push us to finish the task and avoid interruptions. At the beginning of each pomodoro session we choose a task we would like to pay our attention to. After four sessions it is advisable to refresh mind and take a longer 20-minute break. Does it always work? It may not, but if you have not tried, it is still worth giving a go.
 
 **Day has 24 hours. You can spend it doing whatever you want.**
 
