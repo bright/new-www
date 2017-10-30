@@ -20,7 +20,7 @@ Fastlane is a powerful engine which handles a number of tasks like: dealing with
 
 # 💪 Motivation 💪
 
-At Bright Inventions, I'm working on a few projects. Every project that we start, we start with a few basic steps: create a new repository, basic application setup and most important... Continuous Integration path. On iOS applications, it starts with  installing the Fastlane, creating some lanes in Fastfile, then pushing changes to our new repository. Next step is configuring a new TeamCity(a service that we are using for CI) with a new agent machine for the project. And after that... our CI build service is ready to collect changes from the repository and trigger a build for our clients, or just build the application and run our unit/UI tests to check if everything works fine.
+At Bright Inventions, I'm working on a several projects. Every project that we start, we start with a few basic steps: create a new repository, basic application setup and most important... Continuous Integration path. On iOS applications, it starts with  installing the Fastlane, creating some lanes in Fastfile, then pushing changes to our new repository. Next step is configuring a new TeamCity   (a service that we are using for CI) with a new agent machine for the project. And after that... our CI build service is ready to collect changes from the repository and trigger a build for our clients, or just build the application and run our unit/UI tests to check if everything works fine.
 
 But what if something went wrong...
 
@@ -325,7 +325,7 @@ I ❤️  Fastlane tool. It helps all developers to save a lot of time during de
 
 >In software engineering, continuous integration (CI) is the practice of merging all developer working copies to a shared mainline several times a day.
 
-It is 100% true, but for me, it is also a state when I as a developer can be notified by CI agent about successes and errors without specially checking them before pushing changes to the repository. But don't get me wrong. I don't recommend committing and pushing without compiling(because our CI agent inform us when something fails). I'm talking about a situation when you have a number of projects that contain a number of tests (Yes, I assume you're writing tests 😉). And I think you don't want to run them every time before you push new changes to the repository. That's why, you configure the whole CI stuff to avoid it. Let CI agent do it for you. In most cases all the tests will succeed 😉), so you can work continuously. But if somehow tests fail - let the CI agent ping you on a Slack 😉
+It is 100% true, but for me, it is also a state when I as a developer can be notified by CI agent about successes and errors without specially checking them before pushing changes to the repository. But don't get me wrong. I don't recommend committing and pushing without compiling (because our CI agent inform us when something fails). I'm talking about a situation when you have a number of projects that contain a number of tests (Yes, I assume you're writing tests 😉). And I think you don't want to run them every time before you push new changes to the repository. That's why, you configure the whole CI stuff to avoid it. Let CI agent do it for you. In most cases all the tests will succeed 😉), so you can work continuously. But if somehow tests fail - let the CI agent ping you on a Slack.    😉
 Another thing is that, you can be informed about good things like: successfully uploaded `.ipa` to TestFlight.
 
 
