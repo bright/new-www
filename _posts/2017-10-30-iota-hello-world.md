@@ -1,16 +1,16 @@
 ---
 layout: post
 title: IOTA - Hello World
-excerpt: TODO
+excerpt: The most mature client library we can use for IOTA is a JavaScript one called iota.lib.js. Let's see what we can use it for.
 tags: IOTA blockchain cryptocurrency
 comments: true
-hidden: true
 author: adam
+image: /images/iota/attach-tangle.jpg
 ---
 
 Previously in the IOTA series we've looked into [the assumptions of this promising cryptocurrency system](/blog/iota-new-kid-in-cryptocurrency-town/) and we've [connected to the network with our own node](/blog/getting-started-with-iota/). It's high time to interact with IOTA programatically.
 
-IOTA nodes (or, actually, as the creators of the system prefer to call it - IOTA Reference Implementations) expose an HTTP API that we can interact with and - unlike most of the IOTA's ecosystem - has an [actual documentation](https://iota.readme.io/v1.2.0/reference) available. But while it is be indispensable to look into this reference, we'll rather use the client libraries to talk to our node. 
+IOTA nodes (or, actually, as the creators of the system prefer to call it - IOTA Reference Implementations) expose an HTTP API that we can interact with and - unlike most of the IOTA's ecosystem - has an [actual documentation](https://iota.readme.io/v1.2.0/reference) available. But while it is indispensable to look into this reference, we'll rather use the client libraries to talk to our node. 
 
 There are [three official client libraries](https://iota.readme.io/docs/overview) out there at the moment and the most mature one is apparently the one we'd like to use - a JavaScript one called [iota.lib.js](https://github.com/iotaledger/iota.lib.js). It is basically a wrapper for the API endpoints.
 
@@ -28,7 +28,7 @@ const iota = new IOTA({
 })
 ```
 
-Now let's see what does our node tell us about itself using [`getNodeInfo`](https://iota.readme.io/v1.2.0/reference#getnodeinfo) call. All the API calls adhere to the clumsy Node.JS [callback passing convention](https://www.joyent.com/node-js/production/design/errors):
+Now let's see what our node tells us about itself using [`getNodeInfo`](https://iota.readme.io/v1.2.0/reference#getnodeinfo) call. All the API calls adhere to the clumsy Node.JS [callback passing convention](https://www.joyent.com/node-js/production/design/errors):
 
 ```javascript
 iota.api.getNodeInfo((error, nodeInfo) => {
@@ -52,7 +52,7 @@ In order to claim the ownership of a given address, we need to have the seed it 
 cat /dev/urandom | LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1
 ```
 
-Now, the thing we got back, looking similar to `FNCWNXJWJIVDGPRWNZYKOMKNIIATPPDKEVCZEWSZTEVIWJFCOUV9PJD9AUCEVQLFEAI9UBUAVQKVEBLKN`, is our seed. We're responsible for storing it securely and privately, because it gives a full access to all the addresses (wallets) we'll create using it.
+Now, the thing we got back, looking similar to `FNCWNXJWJIVDGPRWNZYKOMKNIIATPPDKEVCZEWSZTEVIWJFCOUV9PJD9AUCEVQLFEAI9UBUAVQKVEBLKN`, is our seed. We're responsible for storing it securely and privately because it gives a full access to all the addresses (wallets) we'll create using it.
 
 To actually generate the address we can use to send transactions to, let's use our API:
 
@@ -69,7 +69,7 @@ iota.api.getNewAddress(seed, (error, address) => {
 
 ## Spending the tokens
 
-We're now ready to submit our first transaction, or - how the API calls it - the transfer. Apart of the monetary value (which can be zero), we can attach a message to our transaction. The message needs to be [tryte-encoded](https://learn.iota.org/faq/trytes-and-trits) - we don't need to care much about it fortunately as we have a helper method for this task: [`iota.utils.toTrytes`](https://github.com/iotaledger/iota.lib.js#totrytes).
+We're now ready to submit our first transaction, or - how the API calls it - the transfer. Apart from the monetary value (which can be zero), we can attach a message to our transaction. The message needs to be [tryte-encoded](https://learn.iota.org/faq/trytes-and-trits) - we don't need to care much about it fortunately as we have a helper method for this task: [`iota.utils.toTrytes`](https://github.com/iotaledger/iota.lib.js#totrytes).
 
 The code to send our transaction to the IOTA's tangle is as follows:
 
@@ -104,11 +104,11 @@ iota.api.sendTransfer(seed, Depth, MinWeightMagnitude, transfers, options, (erro
 })
 ```
 
-We need to specify where do we send our tokens with message to and which of (our) wallets the tokens come from (if we're sending non-zero value). In the response, we get a `transaction` object for each `transfer` object we've submitted. 
+We need to specify where we send our tokens with message to and which of (our) wallets the tokens come from (if we're sending non-zero value). In the response, we get a `transaction` object for each `transfer` object we've submitted. 
 
 ![Attaching to the IOTA's Tangle](/images/iota/attach-tangle.jpg)
 
-If we're lucky, we should be able to get the transacton's `hash` property, paste it at one of [the online Tangle viewers](https://thetangle.org) and see the details of our transaction. It will be most probably in the "Pending" state. This means the transaction was properly attached to the Tangle, although it wasn't yet validated by another transactions in the Tangle tree and we need to wait a bit. Normally it gets into "Confirmed" state within few minutes and we can call it a day.
+If we're lucky, we should be able to get the transaction's `hash` property, paste it at one of [the online Tangle viewers](https://thetangle.org) and see the details of our transaction. It will be most probably in the "Pending" state. This means the transaction was properly attached to the Tangle, although it wasn't yet validated by other transactions in the Tangle tree and we need to wait a bit. Normally it gets into "Confirmed" state within a few minutes and we can call it a day.
 
 But we might be not that lucky and our transaction might get attached to the part of the tree that will never be validated, either because there were too many tips in the Tangle tree waiting for validation so that it gets "forgotten" by the tip selection algorithm (the tip selection algorithm is biased towards the transactions from the top of the tree) or it happened to get attached to the subtree that yielded incorrect. 
 
@@ -128,6 +128,6 @@ iota.api.getLatestInclusion([hash], (error, inclusionStates) => {
 })
 ```
 
-This procedure might look strange, as we're actually adding more and more duplicates to the Tangle - replay transaction is a separate transaction. We now probably need to track the "inclusion state" (status) of both the original and the replay transaction. We also need to replay it once again in case it doesn't get validated within few minutes. All this comes with the cost of issuing a new transaction, but this is actually beneficial to the IOTA network as a whole, because by doing this we're confirming another pair of transactions. And there are double-spending validation schemes implemented that ensures only one of the transactions will be finally confirmed.
+This procedure might look strange, as we're actually adding more and more duplicates to the Tangle - replay transaction is a separate transaction. We now probably need to track the "inclusion state" (status) of both the original and the replay transaction. We also need to replay it once again in case it doesn't get validated within a few minutes. All this comes with the cost of issuing a new transaction, but this is actually beneficial to the IOTA network as a whole because by doing this we're confirming another pair of transactions. And there are double-spending validation schemes implemented that ensures only one of the transactions will be finally confirmed.
 
 

@@ -64,4 +64,4 @@ After this is done, try calling [`getNeighbors`](https://iota.readme.io/v1.2.0/r
 
 There is also the wallet client app (also called "light node"), but its use is restricted to token trading. It requires a connection to the existing node's HTTP API (this one exposed via port defined in `PORT` - 14265 in my example). But we're geeks, we care about tech stuff more than about trading 🤓.
 
-Speaking of the node's HTTP API again. If it's there, we might also use it directly on our own, right? Sure we can. Stay tuned for the next post in the series where we'll submit a Hello World transaction to IOTA from a Node.JS application.
+Speaking of the node's HTTP API again. If it's there, we might also use it directly on our own, right? Sure we can. Stay tuned for [the next post in the series](/blog/iota-hello-world/) where we'll submit a Hello World transaction to IOTA from a Node.JS application.
