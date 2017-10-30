@@ -1,37 +1,36 @@
 ---
 layout: post
-title: The human side of programming
+title: The human side of software development
 tags: []
 comments: true
 author: eliasz
 ---
 
 Getting into the world of software development can be a really demanding task. Introducing clean code, providing tests to your solution, using the right tool for the job, keeping up with latest trends... these are all things that you were most probably told about at the time that you barely entered the development world.  
-But it seems that many people tend to neglect the side of development that hasn't got too much to do with machinces, however in the long run should be even more important to you as a developer.  
+But it seems that many people tend to neglect the side of development that hasn't got too much to do with machinces, however in the long run should be even more important to you as a developer.   
+
+Beware! This post is full of my opinions and I base it on my experience - you may not agree with everything that I write below.  
 
 
-- Impostor syndrome  
-As a developer (especially newcomer), you may often feel that your contributions to the project could be easily replaced by someone else who would surely do it faster and better. You may also feel that you've somehow cheated the interview process and it's just a matter of time before they find out that you are not qualified for the job. If you've actually achieved something, then well... maybe it was just... pure luck?  
-It was a long time before I discovered, that this kind of feeling has psychological background and is something that many people suffer from. But a pure knowledge of the fact, that the whole thing has a psychological background will not magically remove all of your doubts. Please remember, that maybe the fact that a certain person is able to do a task faster is caused by the fact that he has more experience than you. Maybe the other person has already completed a certain task before? For a developer, learning is a common process of doing things and nobody will expect you to know everything upfront.
+## Impostor syndrome  
+As a developer (especially newcomer), you may often feel that your contributions to the project could be easily replaced by someone else who would surely do it faster and better. You may also feel that you've somehow cheated the interview process and it's just a matter of time before "they" find out that you are not qualified for the job. If you've actually achieved something, then well... maybe it was just... pure luck?  
+It was a long time before I discovered, that this kind of feeling has psychological background and is something that many people suffer from. But a pure knowledge of the fact, that the whole thing has a psychological background will not magically remove all of your doubts. Please remember, that maybe the situation in which a certain person is able to do a task faster is caused by the fact that one has more experience than you. Maybe the other person has already completed a similar task before? For a developer, learning is a common process of doing things and nobody will expect you to know everything upfront.  
+But this kind of feeling is not exclusive for newcomers. Even if you have a decent experience in yor field of interest, you may still feel that you're part of one big fraud.   
+It's really hard to overcome this kind of feeling on your own and in my opinion there is a huge responsibility on people around you to help you deal with this. So if you face this kind of problem, try to find environment that will support you and will build up your self-confidence. And if you do not suffer from this kind of problem, then bear in mind that people will usually not come to you and tell you that they feel insecure. So don't wait until one comes for help. Be helpful, take part in creating culture that will be supportive for others and if you feel that someone is doing good job, then say it. A word of appreciation is always always welcome.  
 
-- Stress 
-it's normal if you're responsible for something important, but is it ok if you're doing something that is not that harmful when broken?
+## Stress  
+Long time ago, when I was much younger, it was the first time that I've heard a statement that stress is a disease of 21st century. I have to admin, that at that time, it wasn't really something that I could relate to. But now I can clearly see the problem.  
+There are many different opinions on working under stress. Some people claim that this is fine for them and that it actually makes them more productive in the long run. Others say, that they do not really care about stress and it does not affect them in any way. But there is also a high number of people (involving me) who claim that working under stress causes more harm than good.   
+For a long period of time I really thought that I was kind of "immune" to stress, however now I can admit, that sometimes it's just really hard to notice how stress affects your life, especially if it sneaks in gradually. You may not feel it instantly, but people around you will surely notice that something is wrong. And do I need to tell you that stress can heavily affect your health?  
+If someone creates a stessful environment just because one wants to get more "productivity" out of you, then let me tell you that this is an abuse. There is no good reason for someone to make you uncomfortable while working. And if someone hopes for faster and better quality work, then again... Pressure is surely not the way and will most often result with the opposite.  
+If you think about creating healthy, long term relationship with people that you want to enjoy working with, then please remember that there are also other motivators than stress.  
+If you think that working under stress is fine, then let me ask you a question. Would you like to create a stressful environment for people that you care about? Do you think that it would benefit them? Maybe they would be more creative if pressed hard enough? If the answer is no, then why do ignore this impact on yourself?
 
-- Social media
-It's easy to get driven by a socialmedia flow of people posting their latest achievement. 
-
-- Working over hours
-There are times that it may help, but in most cases this is a wrong way
-
-- Estimations
+## Work-Life balance  
+When I was starting my career as a software developer I was really surprised when I saw people walking out of office at 3 o'clock and being unavailable until the next day. How could they possibly ignore and not respond to all these important emails that arrived while they were out? What if there was an estimation that expected a task to be finished by yesterday? Shouldn't they sacrifice part of their free time to close the task ASAP?  
+Well... Being always available is not a reason to be pround. Doing overhours is not a heroic act. How often did you have a situation in which after coming back to an issue in the morning, you instantly solved the problem that you were struggling with the day before? This clearly shows us the importance of having a fresh mind, being well rested and feeling good in general. The fact that you cannot directly measure how much these things improve the quality of your work doesn't mean that you should ignore it.  
+Instead of working until your full capacity is reached, I would rather recommend you to clearly limit the time that you spend working every day. If you know that you have to finish everything by a certain time, then you will value your working hours much more and you will use them more wisely. The same refers to your side projects - sometimes it's much better to say "I have 2 hours to work on this task today" than sacrifice your whole evening to it. There is a "law" saying that work will always fill the time that you have available for it.  
+So protect your free time and spend it with your family, friends or simply relaxing on your own. Remember that more is not always better.
 
 
-// What can I do?
-
-- Shut access to mail
-
-- Close your day 
-
-- Find people that will support you
-
-I know that the points that I've mentioned may barely touch the surface of the whole topic. // more awareness
+I know that points that I've mentioned may barely touch the surface of the iceberg, but I hope that they will make you more aware that software development is not only about programming. It's also about people. As developers we are responsible for raising a culture around us that will allow others to grow and make them feel valuable.
