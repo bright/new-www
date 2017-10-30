@@ -9,11 +9,12 @@ comments: true
 
 There are more pleasant things to do in iOS development than setting up and testing the in-app purchases. The process is laborious and requires thorough testing, especially that in-app purchases are crucial from business perspective.
 
+
 ## iTunes Connect configuration - part 1
 
 **This tutorial is based on auto-renewable subscriptions, but you can configure any other in-app purchase in a very similar way.**
 
-To set up in-app purchase follow the steps below:
+To set up the in-app purchases follow the steps below:
 
 1. Log in to [iTunes Connect](https://itunesconnect.apple.com).
 
@@ -45,7 +46,7 @@ To set up in-app purchase follow the steps below:
 
 8. Click **Set Starting Price** to select the default currency and price (you must chose from pricing tiers), prices for other countries are calculated automatically.
 
-9. Now you can select a different price for individual territories. After you save changes you'll notice that you price is kept as pricing tier:
+9. Now you can select a different price for individual territories. After you save changes you'll notice that your price is kept as pricing tier:
 
     ![image](/images/working-with-ios-in-app-purchases/pricing-tier.png)
 
@@ -53,9 +54,9 @@ To set up in-app purchase follow the steps below:
 
 11. Now you need to add at least one **Localization** to your subscription group. Save changes and select the group you've created in step 6 on the left pane. Fill **Subscription Group Display Name** and optionally set **Custom Name** if your app name if different than your service or publication name. Keep in mind that those values will be visible to the users.
 
-As you've probably noticed, we've skipped the **Review Information** section in product details. To fill up this section we first need to make an App Store call from our application in order to continue the configuration phase.
+As you've probably noticed, we've skipped the **Review Information** section on product details page. To fill up this section we first need to make an App Store call from our application in order to complete the configuration phase.
 
-**If you won't be able to fetch the purchasable products you've configured please note that it can take even a few hours for your products to register in iTunes Connect.**
+Remember to complete filling your Agreements, Tax, and Banking info in iTunes Connect. You can find it on iTunes Connect main page or in the dropdown on top left corner of the page.
 
 ## Setting up a test account
 
@@ -72,6 +73,7 @@ You need to create a sandbox test account in order to test the in-app purchases.
 4. Click **+** icon and fill test account details. Keep the credentials.
 
     You can use a fake email address for testing (an easy one), but **Apple might send you an e-mail to verify the test account** and using fake account you won't be able to do that so you'll need to create another one because purchases from unverified account will always fail.
+
 
 ## Project configuration
 
@@ -93,15 +95,127 @@ And it's finally time for some coding!
 
 ## Code
 
-(code in Swift)
+First, you need to import the `StoreKit` in your class:
 
-X.
+```swift
+import StoreKit
+```
+
+Before making any other action you should check whether user can make payments. If he can't, parental control might be turned on.
+
+```swift
+SKPaymentQueue.canMakePayments()
+```
+
+In order to make purchases you need to download purchasable products first:
+
+```swift
+private let kOneMonthSubscriptionId = "com.reversed.domain.onemonth"
+
+func loadProducts() {
+    let identifiers = Set([kOneMonthSubscriptionId])
+    let request = SKProductsRequest(productIdentifiers: identifiers)
+    request.delegate = self
+    request.start()
+}
+```
+
+Loaded products will be available in `productsRequest` method of `SKProductsRequestDelegate` delegate. To handle the store delegate methods your class needs to implement `SKProductsRequestDelegate`. You can wrap this up in an extension:
+
+```swift
+extension SubscriptionService: SKProductsRequestDelegate {
+
+  func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
+    if response.products.count > 0 {
+      print("Purchasable products available!")
+      // 1. Save the SKProduct's so you could let user make a purchase
+      // 2. Update the UI - it lets you change the product prices without updating the app
+    } else {
+      print("No purchasable products available.")
+      // This might happen when your product identifiers are incorrect or your in-app purchases products weren't processed on iTunes Connect yet
+    }
+  }
+
+}
+```
+
+If you won't be able to fetch the purchasable products you've configured please note that **it can take even up to few hours** for your products to register in iTunes Connect.
+
+Now you can let user make a purchase. Remember to lock the UI with a loader until the process is finished to avoid double calls and to make sure that user knows that something is going on.
+
+```swift
+func purchase(product : SKProduct) {
+    let payment = SKPayment(product: product)
+    SKPaymentQueue.defaultQueue().addTransactionObserver(self)
+    SKPaymentQueue.defaultQueue().addPayment(payment)
+}
+```
+
+The result of the transaction is handled in `paymentQueue` method of `SKProductsRequestDelegate` delegate. Let's grow our extension:
+
+```swift
+extension SubscriptionService: SKProductsRequestDelegate {
+  // (...)
+
+  func paymentQueue(queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
+        for transaction in transactions {
+            switch transaction.transactionState {
+            case .Purchasing:
+                print("The payment is being processed.")
+            case .Purchased:
+                print("Payment processed successfully.")
+                // Add your logic
+            case .Restored:
+                print("Payment restored successfully.")
+                // Add your logic - it'll happen when your products could be restored (e.g. non-consumable products)
+            case .Failed:
+                if transaction.error?.code == SKErrorPaymentCancelled {
+                    print("User cancelled the payment.")
+                    break;
+                }
+                print("Payment failed with error: \(transaction.error ?? "")")
+                // Handle the error
+            case .Deferred:
+                print("Payment is waiting for outside action.")
+            }
+        }
+    }
+
+}
+```
+
+Remember to restore purchasable products that can be restored before letting user to make a purchase call because he won't be able to buy it again anyway.
+
+## Testing
+
+To complete the configuration process you need to make sure that your payments are working and make a screenshot for the App Store review process. This is both easy and tricky so lets follow the steps below:
+
+1. Sign out of you current Apple ID:
+
+    a) Open your iPhone's **Settings**.
+
+    b) Go to **iTunes & App Stores**.
+
+    c) Select your email address and select **Sign Out**.
+
+    Do not sign in using sandbox account - you won't be able to do that.
+
+2. Run your app and trigger an in-app purchase.
+
+3. You'll be prompted to provide an Apple ID. Use the **sandbox account** credentials and continue.
+
+4. The payment info dialog will be presented. Make a screenshot of your screen (hold power/sleep and home buttons simultaneously).
+
+![image](/images/working-with-ios-in-app-purchases/purchase-test.jpg)
+
+**You must test the in-app purchases on real device. Purchases will always fail on iOS simulator.**
+
 
 ## iTunes Connect configuration - part 2
 
 Since you already have implemented the in-app purchases and took a screenshot of a system dialog when connecting to the App Store API, you can finally finish the iTunes Connect configuration.
 
-Go back to your in-app purchase details page on iTunes Connect (My Apps->Your app->Features->In-App Purchases->Your purchase) and scroll down to **Review Information**.
+Go back to your in-app purchase details page on **iTunes Connect** (My Apps->Your app->Features->In-App Purchases->Your purchase) and scroll down to **Review Information**.
 
 Upload the screenshot and enter the credentials of the sandbox account you've used in **Review Notes**.
 
@@ -109,13 +223,10 @@ Upload the screenshot and enter the credentials of the sandbox account you've us
 
 Save changes and make sure that the **Availability** of your in-app purchase is set to **Cleared for Sale** (on the top of the page).
 
+![image](/images/working-with-ios-in-app-purchases/cleared-for-sale.png)
+
 Remember that your **first in-app purchase must be submitted with a new app version**. Once your binary has been uploaded and your first in-app purchase has ben submitted for review, additional in-app purchases can be submitted from the In-App Purchases section.
 
-## Testing
-
-// todo
-
-// note about switching store, if necessary
 
 ## Server-side subscription validation
 
@@ -125,10 +236,11 @@ To validate user's subscription server-side you'll need a **Shared Secret**. You
 
 ![image](/images/working-with-ios-in-app-purchases/shared-secret.png)
 
+Shared Secret, together with receipt details that you'll receive after completing an in-app purchase, will allow backend application to verify wether subscription is still valid or not.
 
 
 ## Be meticulous
 
-(summary)
+As you have probably noticed, **setting up in-app purchases is arduous**. It's worth investing time in meticulous step-by-step configuration to avoid unnecessary unpleasantness during the process.
 
 By the way, do you know, that even if you flow those instructions, **your iOS app might be rejected?** [Follow this blog post to find out why](https://brightinventions.pl/blog/dont-let-your-ios-app-be-rejected/).
