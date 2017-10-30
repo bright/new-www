@@ -28,13 +28,15 @@ To set up the in-app purchases follow the steps below:
 
     Each type has a specific use case so make sure you read the descriptions fist.
 
+    If you can't see auto-renewable subscription you either haven't accepted updated `Apple Developer Program License Agreement` or you haven't completed filling Agreements, Tax, and Banking info on iTunes Connect.
+
 5. **Assuming you've selected Auto-Renewable Subscription**, provide the **Reference Name** and **Product ID**.
 
     a) The reference name is used on iTunes Connect and in Sales and Trends reports only. It won't be displayed in the App Store, so it can be anything you like.
 
     b) Product ID must be unique, so it's recommended to use your app reversed domain with a subscription name, for example: `com.reversed.domain.onemonth`.
 
-6. Select **Create New Subscription Group** or chose already existing group, if any.
+6. Select **Create New Subscription Group** or choose already existing group, if any.
 
     All auto-renewable subscription must be part of a group. Users can only subscribe to one subscription in a group a time, but they can change to another subscription in the same group. This allows users to upgrade or downgrade subscription without paying twice for the same service.
 
@@ -44,7 +46,7 @@ To set up the in-app purchases follow the steps below:
 
     ![image](/images/working-with-ios-in-app-purchases/subscription-duration.png)
 
-8. Click **Set Starting Price** to select the default currency and price (you must chose from pricing tiers), prices for other countries are calculated automatically.
+8. Click **Set Starting Price** to select the default currency and price (you must choose from pricing tiers), prices for other countries are calculated automatically.
 
 9. Now you can select a different price for individual territories. After you save changes you'll notice that your price is kept as pricing tier:
 
@@ -56,7 +58,7 @@ To set up the in-app purchases follow the steps below:
 
 As you've probably noticed, we've skipped the **Review Information** section on product details page. To fill up this section we first need to make an App Store call from our application in order to complete the configuration phase.
 
-Remember to complete filling your Agreements, Tax, and Banking info in iTunes Connect. You can find it on iTunes Connect main page or in the dropdown on top left corner of the page.
+Remember to complete filling your Agreements, Tax, and Banking info on iTunes Connect. You can find it on iTunes Connect main page or in the dropdown on top left corner of the page.
 
 ## Setting up a test account
 
@@ -139,7 +141,7 @@ extension SubscriptionService: SKProductsRequestDelegate {
 }
 ```
 
-If you won't be able to fetch the purchasable products you've configured please note that **it can take even up to few hours** for your products to register in iTunes Connect.
+If you won't be able to fetch the purchasable products you've configured please note that **it can take even up to few hours** for your products to register on iTunes Connect.
 
 Now you can let user make a purchase. Remember to lock the UI with a loader until the process is finished to avoid double calls and to make sure that user knows that something is going on.
 
