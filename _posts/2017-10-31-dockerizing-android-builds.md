@@ -76,7 +76,7 @@ yes | sdkmanager --licenses
 
 The main advantage of this approach is that it doesn't require you to maintain a list of license strings for echoing. Nevertheless you must run it again if the license strings get changed with an SDK update. The only drawback is that you don't know _a priori_ what you are going to accept and it may be a bit more troublesome to compare your local licenses with the ones on the build machine without a direct access to it.
 
-![Docker](/images/dockerizing-android-builds/docker.svg){: .center-image}
+![Docker](/images/dockerizing-android-builds/container-1574239_1920.jpg){: .center-image}
 
 # Wrapping it in a Docker container #
 
