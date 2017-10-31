@@ -7,6 +7,8 @@ hidden: true
 author: eliasz
 ---
 
+![image](/images/human-side-of-software-development/human-side.jpeg)
+
 Getting into the world of software development can be a really demanding task. Introducing clean code, providing tests to your solution, using the right tool for the job, keeping up with latest trends... these are all things that you were most probably told about at the time that you barely knew what programming was.  
 It seems that many people tend to neglect the side of development that hasn't got too much to do with machines, however in the long run should be at least as important for you as all technical skills.
 
@@ -26,6 +28,9 @@ If we think about creating a healthy, long term relationship with people that yo
 If someone claims that working under stress is fine, then let me ask you a question - would you like to create a stressful environment for people that you care about? Do you think that they would benefit from that? Maybe they would be more creative if pressed hard enough? If the answer is no, then why do you ignore this impact on yourself?
 
 ## Work-Life balance  
+
+![image](/images/human-side-of-software-development/balance.jpeg)
+
 When I was starting my career as a software developer I was really surprised when I saw people walking out of office at 3 o'clock and being unavailable until the next day. How could they possibly ignore and not respond to all these important emails that arrived while they were out? What if there was an expectation of a task being finished by yesterday? Shouldn't they sacrifice part of their free time to close the task ASAP?  
 Well... Being always available is not a reason to be proud of. Doing over hours is also not a heroic act. Take a moment and think - how often have you had a situation in which after coming back to an issue in the morning, you instantly solved the problem that you were struggling with the day before? This clearly shows us the importance of having a fresh mind, being well rested and feeling good in general. The fact that you cannot directly measure how much these things improve the quality of your work doesn't mean that you should ignore it.  
 Instead of working until your full capacity is reached, I would rather recommend clearly limiting the time that you spend working every day. If you know that you have to finish everything by a certain time, then you will value your working hours much more and you will use them more wisely. The same refers to your side projects - sometimes it's much better to say "I have 2 hours to work on this task today" than sacrifice your whole evening to it. There is a "law" saying that work will always fill the time that you have available for it.  
@@ -33,4 +38,6 @@ So protect your free time and spend it with your family, friends or simply relax
 
 
 ## Conclusion
-I know that points that I've mentioned here may barely touch the surface of the iceberg, but I hope that they will make you more aware of the fact that software development is not only about programming - it's also about people. In the end it's us who build the software development community. As developers we are responsible for raising a culture around us that will allow others to grow and make them feel valuable.
+I know that points that I've mentioned here may barely touch the surface of the iceberg, but I hope that they will make you more aware of the fact that software development is not only about programming - it's also about people. In the end it's us who build the software development community. As developers we are responsible for raising a culture around us that will allow others to grow and make them feel valuable.  
+
+*This article is cross-posted with [my personal blog](https://eliaszsawicki.com/).*
