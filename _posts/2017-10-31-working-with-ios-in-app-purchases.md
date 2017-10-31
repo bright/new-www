@@ -142,7 +142,7 @@ extension SubscriptionService: SKProductsRequestDelegate {
 
 If you aren't able to fetch the purchasable products you've configured, please note that **it can take even up to few hours** for your products to be registered on iTunes Connect.
 
-Now you can let user make a purchase. Remember to lock the UI with a loader until the process is finished to avoid double calls and to make sure that user knows that something is going on.
+Now you can let users make a purchase. Remember to lock the UI with a loader until the process is finished to avoid double calls and to make sure that users know that something is going on.
 
 ```swift
 func purchase(product : SKProduct) {
@@ -185,11 +185,11 @@ extension SubscriptionService: SKProductsRequestDelegate {
 }
 ```
 
-Remember to restore purchasable products that can be restored before letting user to make a purchase call because he won't be able to buy it again anyway.
+Remember to restore purchasable products that can be restored before letting users to make a purchase call because they won't be able to buy it again anyway.
 
 ## Testing
 
-To complete the configuration process you need to make sure that your payments are working and take a screenshot for the App Store review process. This is both easy and tricky so lets follow the steps below:
+To complete the configuration process you need to make sure that your payments are working and take a screenshot for the App Store review process. This is both easy and tricky so let's follow the steps below:
 
 1. Sign out of you current Apple ID:
 
@@ -244,4 +244,4 @@ Shared Secret, together with receipt details that you'll receive after completin
 
 As you have probably noticed, **setting up in-app purchases is arduous**. Yet it's worth investing time in a meticulous step-by-step configuration to avoid unnecessary unpleasantness during the process.
 
-By the way, do you know, that even if you follow these instructions, **your iOS app might be rejected?** [Follow this blog post to find out why](https://brightinventions.pl/blog/dont-let-your-ios-app-be-rejected/).
+By the way, do you know, that even if you follow these instructions, **your iOS app might be rejected?** [Check out this blog post to find out why](https://brightinventions.pl/blog/dont-let-your-ios-app-be-rejected/).
