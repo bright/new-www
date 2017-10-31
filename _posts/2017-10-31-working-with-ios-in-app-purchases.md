@@ -62,7 +62,7 @@ Remember to complete filling your Agreements, Tax, and Banking info on iTunes Co
 
 ## Setting up a test account
 
-You need to create a sandbox test account in order to test the in-app purchases.
+In order to test in the in-app purchases you need to create a sandbox test account.
 
 1. Log in to [iTunes Connect](https://itunesconnect.apple.com).
 
@@ -227,7 +227,7 @@ Save changes and make sure that the **Availability** of your in-app purchase is 
 
 ![image](/images/working-with-ios-in-app-purchases/cleared-for-sale.png)
 
-Remember that your **first in-app purchase must be submitted with a new app version**. Once your binary has been uploaded and your first in-app purchase has ben submitted for review, additional in-app purchases can be submitted from the In-App Purchases section.
+Keep in mind that your **first in-app purchase must be submitted with a new app version**. Once your binary has been uploaded and your first in-app purchase has ben submitted for review, additional in-app purchases can be submitted from the In-App Purchases section.
 
 
 ## Server-side subscription validation
