@@ -5,7 +5,7 @@ author: piotr
 hidden: false
 tags: database timeout jdbc query transaction
 comments: true
-crosspost: false
+crosspost: true
 image: /images/database-timeouts/database-files.jpg
 ---
 
