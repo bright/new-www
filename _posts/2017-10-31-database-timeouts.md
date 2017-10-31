@@ -2,7 +2,7 @@
 layout: post
 title: Database timeouts
 author: piotr
-hidden: true
+hidden: false
 tags: database timeout jdbc query transaction
 comments: true
 crosspost: false
