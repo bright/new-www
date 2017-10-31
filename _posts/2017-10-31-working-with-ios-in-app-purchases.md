@@ -2,12 +2,11 @@
 layout: post
 title: Working with iOS in-app purchases
 author: mateusz
-hidden: true
 tags: ['ios', 'in-app purchases', 'itunes connect', 'subscriptions', 'swift']
 comments: true
 ---
 
-There are more pleasant things to do in iOS development than setting up and testing the in-app purchases. The process is laborious and requires thorough testing, especially that in-app purchases are crucial from business perspective.
+There are more pleasant things to do in iOS development than setting up and testing in-app purchases. The process is laborious and requires thorough testing, especially that in-app purchases are crucial from a business perspective.
 
 
 ## iTunes Connect configuration - part 1
@@ -26,7 +25,7 @@ To set up the in-app purchases follow the steps below:
 
     ![image](/images/working-with-ios-in-app-purchases/in-app-purchases.png)
 
-    Each type has a specific use case so make sure you read the descriptions fist.
+    Each type has a specific use case so make sure you read the descriptions first.
 
     If you can't see auto-renewable subscription you either haven't accepted updated `Apple Developer Program License Agreement` or you haven't completed filling Agreements, Tax, and Banking info on iTunes Connect.
 
@@ -36,9 +35,9 @@ To set up the in-app purchases follow the steps below:
 
     b) Product ID must be unique, so it's recommended to use your app reversed domain with a subscription name, for example: `com.reversed.domain.onemonth`.
 
-6. Select **Create New Subscription Group** or choose already existing group, if any.
+6. Select **Create New Subscription Group** or choose an already existing group, if any.
 
-    All auto-renewable subscription must be part of a group. Users can only subscribe to one subscription in a group a time, but they can change to another subscription in the same group. This allows users to upgrade or downgrade subscription without paying twice for the same service.
+    All auto-renewable subscriptions must be a part of a group. Users can only subscribe to one subscription in a group a time, but they can change to another subscription in the same group. This allows users to upgrade or downgrade a subscription without paying twice for the same service.
 
     **Subscription Group Reference Name**, same as the reference name, is used on iTunes Connect and in Sales and Trends reports only.
 
@@ -54,9 +53,9 @@ To set up the in-app purchases follow the steps below:
 
 10. Add at least one **Localization** including **Subscription Display Name** and **Description**, preferably for all languages you support. Those values will be visible to the users, so make sure they sound trustworthy.
 
-11. Now you need to add at least one **Localization** to your subscription group. Save changes and select the group you've created in step 6 on the left pane. Fill **Subscription Group Display Name** and optionally set **Custom Name** if your app name if different than your service or publication name. Keep in mind that those values will be visible to the users.
+11. Now you need to add at least one **Localization** to your subscription group. Save changes and select the group you've created in step 6 on the left pane. Fill **Subscription Group Display Name** and optionally set **Custom Name** if your app name is different than your service or publication name. Keep in mind that those values will be visible to the users.
 
-As you've probably noticed, we've skipped the **Review Information** section on product details page. To fill up this section we first need to make an App Store call from our application in order to complete the configuration phase.
+As you've probably noticed, we've skipped the **Review Information** section on the product details page. To fill up this section we first need to make an App Store call from our application in order to complete the configuration phase.
 
 Remember to complete filling your Agreements, Tax, and Banking info on iTunes Connect. You can find it on iTunes Connect main page or in the dropdown on top left corner of the page.
 
@@ -72,9 +71,9 @@ In order to test in the in-app purchases you need to create a sandbox test accou
 
     ![image](/images/working-with-ios-in-app-purchases/sandbox-user.png)
 
-4. Click **+** icon and fill test account details. Keep the credentials.
+4. Click **+** icon and fill the test account details. Keep the credentials.
 
-    You can use a fake email address for testing (an easy one), but **Apple might send you an e-mail to verify the test account** and using fake account you won't be able to do that so you'll need to create another one because purchases from unverified account will always fail.
+    You can use a fake email address for testing (an easy one), but **Apple might send you an email to verify the test account** and by using a fake account you won't be able to do that so you'll need to create another one because purchases from an unverified account will always fail.
 
 
 ## Project configuration
@@ -141,7 +140,7 @@ extension SubscriptionService: SKProductsRequestDelegate {
 }
 ```
 
-If you won't be able to fetch the purchasable products you've configured please note that **it can take even up to few hours** for your products to register on iTunes Connect.
+If you aren't able to fetch the purchasable products you've configured, please note that **it can take even up to few hours** for your products to be registered on iTunes Connect.
 
 Now you can let user make a purchase. Remember to lock the UI with a loader until the process is finished to avoid double calls and to make sure that user knows that something is going on.
 
@@ -190,7 +189,7 @@ Remember to restore purchasable products that can be restored before letting use
 
 ## Testing
 
-To complete the configuration process you need to make sure that your payments are working and make a screenshot for the App Store review process. This is both easy and tricky so lets follow the steps below:
+To complete the configuration process you need to make sure that your payments are working and take a screenshot for the App Store review process. This is both easy and tricky so lets follow the steps below:
 
 1. Sign out of you current Apple ID:
 
@@ -200,22 +199,22 @@ To complete the configuration process you need to make sure that your payments a
 
     c) Select your email address and select **Sign Out**.
 
-    Do not sign in using sandbox account - you won't be able to do that.
+    Do not sign in using a sandbox account - you won't be able to do that.
 
 2. Run your app and trigger an in-app purchase.
 
 3. You'll be prompted to provide an Apple ID. Use the **sandbox account** credentials and continue.
 
-4. The payment info dialog will be presented. Make a screenshot of your screen (hold power/sleep and home buttons simultaneously).
+4. The payment info dialog will be presented. Take a screenshot of your screen (hold power/sleep and home buttons simultaneously).
 
 ![image](/images/working-with-ios-in-app-purchases/purchase-test.jpg)
 
-**You must test the in-app purchases on real device. Purchases will always fail on iOS simulator.**
+**You must test the in-app purchases on a real device. Purchases will always fail on iOS simulator.**
 
 
 ## iTunes Connect configuration - part 2
 
-Since you already have implemented the in-app purchases and took a screenshot of a system dialog when connecting to the App Store API, you can finally finish the iTunes Connect configuration.
+Since you have already implemented the in-app purchases and taken a screenshot of a system dialog while connecting to the App Store API, you can finally finish the iTunes Connect configuration.
 
 Go back to your in-app purchase details page on **iTunes Connect** (My Apps->Your app->Features->In-App Purchases->Your purchase) and scroll down to **Review Information**.
 
@@ -227,22 +226,22 @@ Save changes and make sure that the **Availability** of your in-app purchase is 
 
 ![image](/images/working-with-ios-in-app-purchases/cleared-for-sale.png)
 
-Keep in mind that your **first in-app purchase must be submitted with a new app version**. Once your binary has been uploaded and your first in-app purchase has ben submitted for review, additional in-app purchases can be submitted from the In-App Purchases section.
+Keep in mind that your **first in-app purchase must be submitted with a new app version**. Once your binary has been uploaded and your first in-app purchase has been submitted for a review, additional in-app purchases can be submitted from the In-App Purchases section.
 
 
 ## Server-side subscription validation
 
-You can verify whether user's subscription is still valid outside the app. It's especially useful when your application is also available on other platforms with separate store like Android, and you decide to make your user pay only once, per account, not per platform.
+You can verify whether user's subscription is still valid outside the app. It's especially useful when your application is also available on other platforms with separate store like Android, and you decide to make your user pay only once per account, not per platform.
 
-To validate user's subscription server-side you'll need a **Shared Secret**. You can find it in your app's In-App Purchases list (My Apps->Your app->Features->In-App Purchases), click **App-Specific Shared Secret** to open a dialog with the secret. If necessary, click **Generate Shared Secret**.
+To validate the user's subscription server-side you'll need a **Shared Secret**. You can find it in your app's In-App Purchases list (My Apps->Your app->Features->In-App Purchases), click **App-Specific Shared Secret** to open a dialog with the secret. If necessary, click **Generate Shared Secret**.
 
 ![image](/images/working-with-ios-in-app-purchases/shared-secret.png)
 
-Shared Secret, together with receipt details that you'll receive after completing an in-app purchase, will allow backend application to verify wether subscription is still valid or not.
+Shared Secret, together with receipt details that you'll receive after completing the in-app purchase, will allow backend application to verify whether user's subscription is still valid or not.
 
 
 ## Be meticulous
 
-As you have probably noticed, **setting up in-app purchases is arduous**. It's worth investing time in meticulous step-by-step configuration to avoid unnecessary unpleasantness during the process.
+As you have probably noticed, **setting up in-app purchases is arduous**. Yet it's worth investing time in a meticulous step-by-step configuration to avoid unnecessary unpleasantness during the process.
 
-By the way, do you know, that even if you flow those instructions, **your iOS app might be rejected?** [Follow this blog post to find out why](https://brightinventions.pl/blog/dont-let-your-ios-app-be-rejected/).
+By the way, do you know, that even if you follow these instructions, **your iOS app might be rejected?** [Follow this blog post to find out why](https://brightinventions.pl/blog/dont-let-your-ios-app-be-rejected/).
