@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Call(), Apply() and Bind() Methods in JavaScript.
+title: Call(), Apply() and Bind() Methods in JavaScript
 author: monika
 tags: ['javascript', 'bind', 'apply', 'call']
 hidden: true
@@ -47,7 +47,7 @@ myCarDetails()
 
 Well, this won’t work as the “this” will be now assigned to the global context which doesn’t have neither the registrationNumber nor the brand property. 
 
-##The Bind() Method
+## The Bind() Method
 
 For such cases we can use the ECMAScript 5 bind() method of the Function.prototype property. This means bind() can be used by every single function. 
 
@@ -80,7 +80,7 @@ var myCarDetails = car.displayDetails.bind(car, "Vivian")
 ```
 
 
-##Call() and Apply() methods
+## Call() and Apply() methods
 
 Similar but slightly different usage provide the call() and apply() methods which also belong to the Function.prototype property. 
 
