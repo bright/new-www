@@ -178,7 +178,7 @@ RUN sdkmanager 'extras;google;google_play_services'
 
 ## NDK ##
 
-As I don't use the NDK in my applications at the moment, I can't be 100% sure about all the requirements (please let me know if you have some more experience), but during a simple test with an empty NDK-enabled project I have already found some gotchas:
+As I don't use the [NDK](https://developer.android.com/ndk/index.html) in my applications at the moment, I can't be 100% sure about all the requirements (please let me know if you have some more experience), but during a simple test with an empty NDK-enabled project I have already found some gotchas:
 
 * NDK bundle must be installed manually with `sdkmanager ndk-bundle` (Gradle didn't install it automatically for me).
 * When you are testing the Dockerized build locally, leaving the `app/.externalNativeBuild` directory from previous builds will make the build command fail due to wrong NDK location path (e.g. in the generated `ninja` and `CMakeCache` files).
