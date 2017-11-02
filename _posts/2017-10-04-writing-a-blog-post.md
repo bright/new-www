@@ -96,7 +96,11 @@ The `tags:` can have multiple values e.g. `tags: blog programming bright`
 We all know how a nice picture can enhance post content, decrease bounce rate and attract visitors. Please pay special attention to license of the images your posts include. 
 
 There are services which offer free stock photos:
-
+- [Hacker news list](https://news.ycombinator.com/item?id=15602538)
+  - [Stock snap](https://stocksnap.io/)
+  - [Free images](http://www.free-images.cc/)
+  - [Unsplash](https://unsplash.com/)
+  - and many more...
 - [Pexels](https://www.pexels.com/) Free stock photos you can use everywhere. ✓ Free for commercial use ✓ No attribution required 
 - [Pixabay](https://pixabay.com) Over 1,156,004 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required.
 
