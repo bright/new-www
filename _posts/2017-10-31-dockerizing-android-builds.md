@@ -4,7 +4,7 @@ title: Dockerizing Android builds
 image: /images/dockerizing-android-builds/container-1574239_1920.jpg
 author: azabost
 crosspost: true
-hidden: true
+hidden: false
 tags: android build docker
 ---
 
@@ -44,11 +44,11 @@ Downloading some of the SDK packages may require to accept a separate license(s)
 Accept? (y/N):
 ```
 
-Unfortunately, the tool doesn't provide any parameter to automatically answer "yes", so it might be inconvenient when you try to automate this process. Thankfuflly, there are some ways to overcome this problem.
+Unfortunately, the tool doesn't provide any parameter to automatically answer "yes", so it might be inconvenient when you try to automate this process. Thankfully, there are some ways to overcome this problem.
 
 ### Solution 1: Copy accepted license agreements to the build machine ###
 
-Every time you accept a license (using either Android Studio or command line), a license string is appended to a specific file located in `licenses/` subdirectory of Android SDK. Once accepted, you may install more packages covered by the same license without additional prompts. Moreover, Gradle build can automatically download missing SDK packages as long as the corresponding licese agreements have already been accepted.
+Every time you accept a license (using either Android Studio or command line), a license string is appended to a specific file located in `licenses/` subdirectory of Android SDK. Once accepted, you may install more packages covered by the same license without additional prompts. Moreover, Gradle build can automatically download missing SDK packages as long as the corresponding license agreements have already been accepted.
 
 This gives us an opportunity to get the accepted license files from the developer's computer and copy them to another machine, enabling the builds. This approach was also described in the [Android user guide](https://developer.android.com/studio/intro/update.html#download-with-gradle).
 
@@ -139,7 +139,7 @@ docker build -t my-sdk-image .
 
 ## Running the build ##
 
-Now we can run a new container based on the built image. The container will need an access to your Android project sources and the simpliest way is to mount the sources directory using the `-v` flag.
+Now we can run a new container based on the built image. The container will need an access to your Android project sources and the simplest way is to mount the sources directory using the `-v` flag.
 
 Please also keep in mind that you probably have the `local.properties` file in your project directory which specifies the SDK location (overriding the `ANDROID_HOME` environment variable). I usually add this file to the `.gitignore` so in the continuous integration environment this file does not exist as it is not included in the repository. When you are testing the Dockerized builds locally, you can just remove or temporarily rename that file.
 
