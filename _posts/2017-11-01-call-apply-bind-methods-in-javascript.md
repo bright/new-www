@@ -3,7 +3,7 @@ layout: post
 title: Call(), Apply() and Bind() Methods in JavaScript.
 author: monika
 tags: ['javascript', 'bind', 'apply', 'call']
-hidden: false
+hidden: true
 comments: true
 ---
 
