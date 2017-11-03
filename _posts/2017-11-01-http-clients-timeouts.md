@@ -13,11 +13,11 @@ We have already touched upon [the importance of timeouts]({% post_url 2017-10-23
 
 ![Waiting](/images/http-client-timeouts/waiting.jpg)
 
-## HttpURLConnection
+## HttpURLConnection timeouts
 
-[HttpURLConnection](https://docs.oracle.com/javase/7/docs/api/java/net/HttpURLConnection.html) available since JDK 1.1 has gained the ability to timeout its network communication in version JDK 5. The 2 available timeouts [`setConnectionTimeout`](https://docs.oracle.com/javase/7/docs/api/java/net/URLConnection.html#setConnectTimeout(int)), [`setReadTimeout`](https://docs.oracle.com/javase/7/docs/api/java/net/URLConnection.html#setReadTimeout(int)) control how long to wait until connection is established and how long to wait for a data from the server respectively. The default values are **infinite ‼️**. 
+[`HttpURLConnection`](https://docs.oracle.com/javase/7/docs/api/java/net/HttpURLConnection.html) available since JDK 1.1 has gained the ability to timeout its network communication in version JDK 5. The 2 available timeouts [`setConnectionTimeout`](https://docs.oracle.com/javase/7/docs/api/java/net/URLConnection.html#setConnectTimeout(int)), [`setReadTimeout`](https://docs.oracle.com/javase/7/docs/api/java/net/URLConnection.html#setReadTimeout(int)) control how long to wait until connection is established and how long to wait for a data from the server respectively. The default values are **infinite ‼️**. 
 
-## Apache HttpClient
+## Apache HttpClient timeouts
 
 [HttpClient](https://hc.apache.org/httpcomponents-client-4.5.x/index.html) from Apache HttpComponents suite has been a standard choice for http communication. It is a mature project, with rich API that fills many `HttpURLConnection` shortcomings e.g. connection pooling. Many of the APIs have been deprecated e.g. `DefaultHttpClient`, `org.apache.http.params.CoreConnectionPNames` hence one needs to be careful when setting the timeouts they fallback to system defined socket level defaults. 
 
@@ -74,7 +74,7 @@ All `connectTimeout`, `readTimeout` and `writeTimeout` default to **10 seconds**
 
 ## XMLHttpRequest and Fetch API timeouts
 
-`XMLHttpRequest` is the standard foundation of network communication of Web application for over 10 years now. Nowadays it is being replaced with Fetch API but it still is, and will continue, the most popular for couple of years. There is only a single `timeout` configuration available in [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout):
+`XMLHttpRequest` is the standard foundation of network communication of Web application for over 10 years now. Nowadays it is being replaced with Fetch API but it still is, and will continue to be, the most popular for couple of years. There is only a single `timeout` configuration available in [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout):
 
 > The XMLHttpRequest.timeout property is an unsigned long representing the number of milliseconds a request can take before automatically being terminated. The default value is 0, which means there is no timeout.
 
@@ -82,7 +82,7 @@ All `connectTimeout`, `readTimeout` and `writeTimeout` default to **10 seconds**
 
 Since the default value is not configured we should diligently set the timeout in our code! It may be tempting to think that client side timeout is not so important compared to the one on the server. This is a questionable attitude to say the least. We need to keep in mind that there is a hard limit on the number of connections a browser will make to a single domain which is very important if we use **HTTP 1.***. When we reach maximum number of concurrently opened connections, any new `XMLHttpRequest` is going to be queued indefinitely. The limit value varies in browsers and the [recent RCF](https://tools.ietf.org/html/rfc7230#section-6.4) relaxes it. **HTTP/2** alleviates the issue [with connection multiplexing](http://qnimate.com/what-is-multiplexing-in-http2/) nonetheless its adoption is still low. According to w3techs it used [by about 20% as of today](https://w3techs.com/technologies/details/ce-http2/all/all). The timeout value used in `XMLHttpRequest` is even more important in Single Page Applications. In SPAs the `XMLHttpRequest` without a timeout can live for as long as server and intermediate network parties allow effectively blocking all subsequent network calls.
 
-[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is meant to replace `XMLHttpRequest`. It is thus sad that the ability to timeout a request has not yet made it into [the standard](https://fetch.spec.whatwg.org/). **Currently there is no way to enforce a timeout**. There are couple of github issues active: [Add timeout option](https://github.com/whatwg/fetch/issues/20#issuecomment-323740783), [Add option to reject the fetch promise automatically after a certain time elapsed](https://github.com/whatwg/fetch/issues/179). 
+[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is meant to replace `XMLHttpRequest`. It is thus sad that the ability to timeout a request has not yet made it into [the standard](https://fetch.spec.whatwg.org/). **Currently there is no way to enforce a timeout**. There are couple of GitHub issues active: [Add timeout option](https://github.com/whatwg/fetch/issues/20#issuecomment-323740783), [Add option to reject the fetch promise automatically after a certain time elapsed](https://github.com/whatwg/fetch/issues/179). 
 
 ## URLSession timeouts
 
