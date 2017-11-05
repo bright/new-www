@@ -2,10 +2,10 @@
 layout: post
 title: HTTP client timeouts
 author: piotr
-hidden: true
+hidden: false
 tags: http timeout network rest api
 comments: true
-crosspost: false
+crosspost: true
 image: /images/http-client-timeouts/waiting.jpg
 ---
 
@@ -80,9 +80,22 @@ All `connectTimeout`, `readTimeout` and `writeTimeout` default to **10 seconds**
 
 **Default is infinite ‼️**
 
-Since the default value is not configured we should diligently set the timeout in our code! It may be tempting to think that client side timeout is not so important compared to the one on the server. This is a questionable attitude to say the least. We need to keep in mind that there is a hard limit on the number of connections a browser will make to a single domain which is very important if we use **HTTP 1.***. When we reach maximum number of concurrently opened connections, any new `XMLHttpRequest` is going to be queued indefinitely. The limit value varies in browsers and the [recent RCF](https://tools.ietf.org/html/rfc7230#section-6.4) relaxes it. **HTTP/2** alleviates the issue [with connection multiplexing](http://qnimate.com/what-is-multiplexing-in-http2/) nonetheless its adoption is still low. According to w3techs it used [by about 20% as of today](https://w3techs.com/technologies/details/ce-http2/all/all). The timeout value used in `XMLHttpRequest` is even more important in Single Page Applications. In SPAs the `XMLHttpRequest` without a timeout can live for as long as server and intermediate network parties allow effectively blocking all subsequent network calls.
+Since the default value is not configured we should diligently set the timeout in our code! It may be tempting to think that client side timeout is not so important compared to the one on the server. This is a questionable attitude to say the least. We need to keep in mind that there is a hard limit on the number of connections a browser will make to a single domain which is very important if we use **HTTP 1.***. When we reach maximum number of concurrently opened connections, any new `XMLHttpRequest` is going to be queued indefinitely. The limit value varies in browsers and the [recent RCF](https://tools.ietf.org/html/rfc7230#section-6.4) relaxes it. **HTTP/2** alleviates the issue [with connection multiplexing](http://qnimate.com/what-is-multiplexing-in-http2/) nonetheless its adoption is still low. According to w3techs it is [about 20% as of today](https://w3techs.com/technologies/details/ce-http2/all/all). The timeout value used in `XMLHttpRequest` is even more important in Single Page Applications. In SPAs the `XMLHttpRequest` without a timeout can live for as long as server and intermediate network parties allow effectively blocking all subsequent network calls.
 
-[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is meant to replace `XMLHttpRequest`. It is thus sad that the ability to timeout a request has not yet made it into [the standard](https://fetch.spec.whatwg.org/). **Currently there is no way to enforce a timeout**. There are couple of GitHub issues active: [Add timeout option](https://github.com/whatwg/fetch/issues/20#issuecomment-323740783), [Add option to reject the fetch promise automatically after a certain time elapsed](https://github.com/whatwg/fetch/issues/179). 
+[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is meant to replace `XMLHttpRequest`. It is thus sad that the ability to timeout a request has not yet made it into [the standard](https://fetch.spec.whatwg.org/). **Currently there is no standard way to enforce a timeout**. There are couple of GitHub issues active: [Add timeout option](https://github.com/whatwg/fetch/issues/20#issuecomment-323740783), [Add option to reject the fetch promise automatically after a certain time elapsed](https://github.com/whatwg/fetch/issues/179) that go over potential solutions. There was a proposal for [cancelable promises](https://github.com/tc39/proposal-cancelable-promises) which had been withdrawn after [lots of discussion and lack of consensus](https://github.com/tc39/proposal-cancelable-promises/issues/70). A brand new way [has recently been implemented by Edge and Firefox](https://developers.google.com/web/updates/2017/09/abortable-fetch) allows one to timeout a Fetch API call 🎉 through [the DOM standardized `AbortController`](https://dom.spec.whatwg.org/#aborting-ongoing-activities). Hopefully it will get into the Fetch API standard soon.
+
+```javascript
+const controller = new AbortController();
+const signal = controller.signal;
+
+setTimeout(() => controller.abort(), 5000);
+
+fetch(url, { signal }).then(response => {
+  return response.text();
+}).then(text => {
+  console.log(text);
+});
+```
 
 ## URLSession timeouts
 
