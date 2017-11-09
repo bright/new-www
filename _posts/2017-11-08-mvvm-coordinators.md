@@ -60,6 +60,8 @@ A pure fact that you start using `MVVM` and `Coordinators` will not instantly ma
 Ok, so how do I use `MVVM`? How do I keep my `VM` clean? How do I use coordinators? Jump on board and let's see an example.  
 I have to admit, that when I was putting my first leg into iOS development, I considered `ViewModel` as an object that holds values that my view presents. At that point I did not see that much value in using `ViewModels`. What changed my point of view is the approach that you can read about on [Microsoft patterns and practices](https://msdn.microsoft.com/en-us/library/hh848246.aspx). The core information for me was the fact that the `View` layer in Microsoft's approach was represented as `XAML` (quote: "with a limited code-behind that does not contain business logic"). Ok... So does it mean, that `ViewModel` is not only about holding values represented by our views? Can it also contain logic that drives these views? YES! Following this approach on iOS, advocates that you should keep your view layer simple and passive (which in case of MVVM would be both UIView and UIViewController) and move the logic to `ViewModel`. This is the first step that allows us to reach better testability and move our code far away from `UIKit`.
 
+Is MVVM the best choice you can do? No - it's MVC with logic moved from VC to VM.
+
 ## Coordinator  
 
 ## Dependency Injection With Coordinators  
