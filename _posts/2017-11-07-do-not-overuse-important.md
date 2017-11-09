@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Important: do not overuse !important!
+title: "Important: do not overuse !important!"
 tags: css important html stylesheet
 comments: true
 hidden: true
