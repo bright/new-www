@@ -9,13 +9,13 @@ hidden: true
 image: /images/node-logging.jpeg
 ---
 
-One of the most basic kind of logging every backend application should have is a trace logging of all incoming HTTP requests. Yet, it's not easy to make it right and useful. Most of the backends we create at Bright nowadays are Node.JS applications based on [Express](https://expressjs.com/). Although there is a [plethora of libraries](https://www.npmjs.com/search?q=logging) that are to handle logging for you, we would not be ourselves if we haven't tried to build something on our own (even if only for the sake of knowing the internals better). Let me show you what we learned and what we do to ensure our logs are meaningful and useful.
+One of the most basic kind of logging every backend application should have is a trace logging of all incoming HTTP requests. Yet it's not easy to make it right and useful. Most of the backends we create at Bright nowadays are Node.JS applications based on [Express](https://expressjs.com/). Although there is a [plethora of libraries](https://www.npmjs.com/search?q=logging) that are to handle logging for you, we would not be ourselves if we haven't tried to build something on our own (even if only for the sake of knowing the internals better). Let me show you what we have learned and what we do to ensure our logs are meaningful and useful.
 
 ## Log both requests and responses
 
-The processing of an incoming HTTP request might consist of many tasks we want our backend to do, including database queries, third party service calls and all kinds of data processing. By the nature of Node.JS, Express processes it asynchronously. The incoming data and the outgoing result of the HTTP request being processed are also decoupled in the Node's `http` module's code via the separation of [`ClientRequest`](https://nodejs.org/api/http.html#http_class_http_clientrequest) from [`ServerResponse`](https://nodejs.org/api/http.html#http_class_http_serverresponse) objects. 
+The processing of an incoming HTTP request might consist of many tasks we want our backend to do including database queries, third party service calls and all kinds of data processing. By the nature of Node.JS, Express processes it asynchronously. The incoming data and the outgoing result of the HTTP request being processed are also decoupled in the Node's `http` module's code via the separation of [`ClientRequest`](https://nodejs.org/api/http.html#http_class_http_clientrequest) from [`ServerResponse`](https://nodejs.org/api/http.html#http_class_http_serverresponse) objects. 
 
-These are the reasons we should always care about the beginning and the end of the processing pipeline separately and log both of them. In Express, it's easy to use [middlewares](https://expressjs.com/en/guide/using-middleware.html) to stow into the beginning of the processing and execute our logging code there. Let's start with this simplistic approach:
+These are the reasons we should always care about the beginning and the end of the processing pipeline separately and log both of them. In Express it's easy to use [middlewares](https://expressjs.com/en/guide/using-middleware.html) to stow into the beginning of the processing and execute our logging code there. Let's start with this simplistic approach:
 
 ```typescript
 const logRequestStart = (req: Request, res: Response, next: NextFunction) => {
@@ -46,11 +46,11 @@ const logRequestStart = (req: Request, res: Response, next: NextFunction) => {
 app.use(logRequestStart)
 ```
 
-Note we now attach a function as a subscriber for `finish` event emitted by our HTTP response object. It logs the status code and message (`200 OK`, `404 Not Found` etc.) and the length of the response body. Although it might be tempting initially to log the whole response data, it will normally be too long to be useful and might not be welcomed by our privacy savvy users if we keep their private data included in the responses in the plain text logs. And if we're only interested in the general outcome of our request, we should better communicate it [via HTTP status code](http://racksburg.com/choosing-an-http-status-code/), anyway.
+Note we now attach a function as a subscriber to `finish` event emitted by our HTTP response object. It logs the status code and message (`200 OK`, `404 Not Found` etc.) and the length of the response body. Although it might be tempting initially to log the whole response data, it will normally be too long to be useful and might not be welcomed by our privacy savvy users if we keep their private data included in the responses in the plain text logs. And if we're only interested in the general outcome of our request, we should better communicate it [via HTTP status code](http://racksburg.com/choosing-an-http-status-code/), anyway.
 
 ## When the request is finished?
 
-The code above has (at least) one problem. Not all the responses actually finish - when the request is aborted by the client or internal unhandled error is thrown, `ServerResponse` emits `close` and `error` events accordingly, instead, and we should also subscribe on them. The culprit here is, though, we can't expect `res.statusCode` to be set properly in these cases. This itself is rather obvious, given the fact that the processing was abruptly interrupted for some reason. What is surprising, though, is that when we actually read it anyway, for example assuming that `statusCode` will be undefined or falsy, we get `200` (success status code) instead. This tricked us in the past, because if we logged it as-is, when reading the logs afterwards we might overlook the fact that the request definitely wasn't that successful. I'd argue that this was a rather strange design decision of Node's `http` module creators to set the `statusCode` to 200 initially and let it be overwritten in case of unsuccessful responses - if the outcome is not yet known, it should not falsely indicate it is successful.
+The code above has (at least) one problem. Not all the responses actually finish - when the request is aborted by the client or internal unhandled error is thrown, `ServerResponse` emits `close` and `error` events accordingly, instead, and we should also subscribe on them. The problem here is, though, we can't expect `res.statusCode` to be set properly in these cases. This itself is rather obvious, given the fact that the processing was abruptly interrupted for some reason. What is surprising, though, is that when we actually read it anyway, for example assuming that `statusCode` will be undefined or falsy, we get `200` (success status code) instead. This tricked us in the past because if we logged it as-is, while reading the logs afterwards we might overlook the fact that the request definitely wasn't that successful. I'd argue that this was a rather strange design decision of Node's `http` module creators to set the `statusCode` to 200 initially and let it be overwritten in case of unsuccessful responses - if the outcome is not yet known, it should not falsely indicate it is successful.
 
 The code that handles these cases correctly might look as follows:
 
@@ -103,15 +103,15 @@ app.use(logRequestStart)
 
 Two more things to note here. 
 
-First is that as both successful (2xx) and gracefully unsuccessful (4xx and handled 5xx) are going through the "ordinary" `finish` event route, I added the code to determine what is the most correct console logger level to be used. It has a little effect on the plain text logs output, but when looking at the terminal of the application running it dev, warnings and errors are colored red so they catch the attention more easily.
+First is that as both successful (2xx) and gracefully unsuccessful (4xx and handled 5xx) are going through the "ordinary" `finish` event route, I added the code to determine what the most correct console logger level to be used is. It has a little effect on the plain text logs output, but while looking at the terminal of the application running it dev, warnings and errors are colored red so they catch the attention more easily.
 
-Second is the `cleanup` function that ensures no hanging listeners exists and regardless of which code path is taken, all the listeners are cleared and nothing prevents correct garbage collection.
+Second is the `cleanup` function that ensures no hanging listeners exist and regardless of which code path is taken, all the listeners are cleared and nothing prevents correct garbage collection.
 
 ## Correlate your requests with responses
 
-We're doing well in logging both ends of our pipeline so far, but it's very far from usefulness if our request start logs are not at all correlated with response end logs. When we process many requests simultaneously, we have no way to figure out how long the request processing took or what was the URL requested for an unsuccessful response. Let's fix it by generating a transient identifier for the request being processed and ensuring it is included in all the log entries we create. 
+We're doing well in logging both ends of our pipeline so far, but it's very far from usefulness if our request start logs are not at all correlated with response end logs. When we process many requests simultaneously, we have no way to figure out how long the request processing took or what the URL requested for an unsuccessful response was. Let's fix it by generating a transient identifier for the request being processed and ensuring it is included in all the log entries we create. 
 
-We do it by running a middleware that adds our custom property to the request object and sets its value to the token generated by [`gen-uid`](https://www.npmjs.com/package/gen-uid) library, although the way we generate the value is not important at all and you might use any other method that provides a value that is unique enough to distinguish a single particular request from another ones.
+We do it by running a middleware that adds our custom property to the request object and sets its value to the token generated by [`gen-uid`](https://www.npmjs.com/package/gen-uid) library although the way we generate the value is not important at all and you might use any other method that provides a value that is unique enough to distinguish a single particular request from another ones.
 
 ```typescript
 import {token} from 'gen-uid'
@@ -169,7 +169,7 @@ const enhanceRequestWithMetadata = (req: ApiRequest, res: Response, next: NextFu
 }
 ```
 
-In order to remove the repetition when logging these things, let's introduce a wrapper for the Console API that automatically prepends all the messages with all the relevant metadata, always in the same way, to ensure our logs are both readable for humans and processable by the machines.
+In order to remove the repetition while logging these things, let's introduce a wrapper for the Console API that automatically prepends all the messages with all the relevant metadata, always in the same way, to ensure our logs are both readable for humans and processable by the machines.
 
 ```typescript
 export interface Logger {
