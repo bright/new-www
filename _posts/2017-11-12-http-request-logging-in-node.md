@@ -1,11 +1,10 @@
 ---
 layout: post
 title: HTTP request logging in Node.JS
-excerpt: One of the most basic kind of logging every backend application should have is a trace logging of all incoming HTTP requests. Yet, it's not easy to make it right and useful. Let me show you what we learned and what we do to ensure our logs are meaningful and useful.
+excerpt: One of the most basic kind of logging every backend application should have is a trace logging of all incoming HTTP requests. Yet it's not easy to make it right and useful. Let me show you what we have learned and what we do to ensure our logs are meaningful and useful.
 tags: [node.js, logging]
 comments: true
 author: adam
-hidden: true
 image: /images/node-logging.jpeg
 ---
 
