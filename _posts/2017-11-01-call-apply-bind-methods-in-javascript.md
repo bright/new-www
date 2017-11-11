@@ -7,7 +7,7 @@ hidden: true
 comments: true
 ---
 
-Working with JavaScript 'this' keyword can be tricky. Not knowing the background rules may end up with the famous “it doesn’t work and I don’t know why”. It’s good to know the theory before putting things into practice. ['call()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Function/apply), ['apply()'] (https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Function/call) and ['bind()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) methods can come in handy while setting the 'this' value.
+Working with JavaScript 'this' keyword can be tricky. Not knowing the background rules may end up with the famous “it doesn’t work and I don’t know why”. It’s good to know the theory before putting things into practice. ['call()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Function/call),  ['apply()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Function/apply)  and ['bind()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) methods can come in handy while setting the 'this' value.
 
 
 ## Basic rules worth remembering:
