@@ -9,7 +9,7 @@ hidden: true
 image: /images/teamcity-for-ios-project/title_image.jpg
 ---
 
-Hi! Today topic will be about [TeamCity](https://www.jetbrains.com/teamcity/) and how to provide continuous integration in your iOS project.
+Hi! Today's topic will be about [TeamCity](https://www.jetbrains.com/teamcity/) and how to provide continuous integration in your iOS project.
 
 ![title image](/images/teamcity-for-ios-project/title_image.jpg)
 
