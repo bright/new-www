@@ -7,8 +7,10 @@ tags: ['android', 'react-native', 'java', 'platform specific']
 
 Using custom native components in react native is common thing, so sooner or later you may have to write some functionality in native language and use it in your application. Let me show you some simple example how to do that.
 
-### One: write proof of concept in separate application
-Our simple android-specific app will show the user information when headset is plugged in or out. It involves several native interactions:
+![toy model](/images/putting-native-in-rn/toymodel.JPG)
+
+### First prepare code in separate application
+We start with creating simple native application. In this example our app will show the user information when headset is plugged in or out. It involves several native interactions:
 * app lifecycle interaction while registering or unregistering listeners
 * sending and receiving data via intents
 * showing informations by toasts
@@ -31,7 +33,8 @@ private final BroadcastReceiver mHeadsetPlugReceiver = new BroadcastReceiver() {
 };
 ~~~~
 
-Remembering reference to application context may be skipped here, because we can always call `getApplicationContext` method within our Activity. `BroadcastReceiver` is an abstract class and describes behaviour on receiving informations via Intent.
+Remembering reference to application context is not always necessary, as long as we can call `getApplicationContext` method within our Activity. Let's keep it now because we will modify it later.   
+`BroadcastReceiver` is an abstract class and describes behaviour on receiving informations via Intent.
 
 Registering listener looks like this:
 
@@ -81,7 +84,7 @@ protected List<ReactPackage> getPackages() {
 }
 ```
 
-Application written in react-native is build like any other android application, but react-native packages are added in real time and it is specified here. You may write any native code and link it here, but you have to add it as `ReactPackage` and initialize it in `getPackages` method. Will need two files: package and module.
+Application written in react-native is build like any other android application, but react-native packages are added in real time and it is specified here. You may write any native code and link it here, but you have to add it as `ReactPackage` and initialize it in `getPackages` method. Will need two files: _package_ and _module_.
 
 First create package file that implements `com.facebook.react.ReactPackage` interface. It's got three methods and it's basic implementation looks like this:
 
