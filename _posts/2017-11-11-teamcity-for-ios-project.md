@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'TeamCity for iOS project'
-excerpt: 'Hi! Today's topic will be about TeamCity and how to provide continuous integration in your iOS project.'
+excerpt: "Hi! Today's topic will be about TeamCity and how to provide continuous integration in your iOS project."
 author: kwysocki
 tags : [iOS, swift, Fastlane, TeamCity, continuous integration]
 comments: true
