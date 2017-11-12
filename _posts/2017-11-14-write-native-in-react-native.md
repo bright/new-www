@@ -2,6 +2,7 @@
 layout: post
 title: Putting native in react native on android
 author: radek
+hidden: true
 tags: ['android', 'react-native', 'java', 'platform specific']
 ---
 
