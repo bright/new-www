@@ -66,7 +66,7 @@ protected void onDestroy() {
 }
 ```
 
-That's it, that is what we're going to work with. App looks like this when plugging the headset in:
+That's it, that is what we're going to work with. App shows simple message when plugging the headset in:
 
 ![native app](/images/putting-native-in-rn/screenshot1.png)
 
