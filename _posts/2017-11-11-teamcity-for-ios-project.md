@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 'TeamCity for iOS project'
-excerpt: 'Hi! Today topic will be about TeamCity and how to provide continuous integration in your iOS project.'
+excerpt: 'Hi! Today's topic will be about TeamCity and how to provide continuous integration in your iOS project.'
 author: kwysocki
 tags : [iOS, swift, Fastlane, TeamCity, continuous integration]
 comments: true
-hidden: true
+hidden: false
 image: /images/teamcity-for-ios-project/title_image.jpg
 ---
 
@@ -170,7 +170,7 @@ click `Save` and your first step is ready!
 I also added another command line build step called `Build and tests` which will run command:
 
 ```
-bundle exec fastalne build_and_test
+bundle exec fastlane build_and_test
 ```
 
 *`build_and_test` is the name of the lane in `Fastfile`. If you're not familiar with Fastlane, please have a look at  this. It's a great tool [Fastlane](https://fastlane.tools)*
