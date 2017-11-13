@@ -180,6 +180,6 @@ contract('TestContract', (accounts) => {
 });
 ```
 
-For more information it's definitely worth visit [truffle docs](https://truffle.readthedocs.io/en/beta/)
+For more information it's definitely worth to visit [truffle docs](https://truffle.readthedocs.io/en/beta/)
 
 Hope you liked it! :) 
