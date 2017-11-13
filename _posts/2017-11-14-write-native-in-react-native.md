@@ -3,7 +3,7 @@ layout: post
 title: Putting native in React Native on Android
 author: radek
 hidden: true
-tags: ['android', 'React Native', 'java', 'platform specific']
+tags: ['android', 'react native', 'java', 'platform specific']
 ---
 
 Using custom native components in React Native is a common thing, so sooner or later you may have to write some functionality in a native language and use it in your application. Let me show you some simple example how to do that.
@@ -87,7 +87,7 @@ protected List<ReactPackage> getPackages() {
 
 An application written in React Native is built like any other Android application, but React Native packages are added at runtime and it is specified here. You may write any native code and link it here, but you have to add it as `ReactPackage` and initialize it in `getPackages` method. Will need two files: _package_ and _module_.
 
-First, create a package file that implements `com.facebook.react.ReactPackage` interface. It's got three methods and its basic implementation looks like this:
+First, create a package file that implements `com.facebook.react.ReactPackage` interface. It's got two methods and its basic implementation looks like this:
 
 ```java
 public class MyHeadsetLibPackager implements ReactPackage {
