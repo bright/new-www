@@ -19,7 +19,7 @@ We start with creating simple native application. In this example our app will s
 
 Assuming you are familiar with creating native android applications example below will be very easy. Our app use one activity with simple  layout, that later is gonna be irrelevant. Start with private field that will be used with our activity:
 
-~~~~
+~~~~java
 private Context mContext;
 
 private final BroadcastReceiver mHeadsetPlugReceiver = new BroadcastReceiver() {
@@ -39,7 +39,7 @@ Remembering reference to application context is not always necessary, as long as
 
 Registering listener looks like this:
 
-```
+```java
 private void registerBroadcastReceiver() {
     IntentFilter filter = new IntentFilter();
     filter.addAction(Intent.ACTION_HEADSET_PLUG);
@@ -51,14 +51,14 @@ private void registerBroadcastReceiver() {
 
 In `onCreate` method save reference to application context and register broadcast receiver:
 
-```
+```java
 mContext = this;
 registerBroadcastReceiver();
 ```
 
 At the end, following clean coding principles, unregister receiver when closing application using Activity's `unregisterReceiver` method:
 
-```
+```java
 @Override
 protected void onDestroy() {
     unregisterReceiver(mHeadsetPlugReceiver);
@@ -76,7 +76,7 @@ Let's use it in our RN project!
 ### /react-project/android
 In your react project directory there is an `android` folder. It's structure looks like every android project and you may open it with Android Studio for convenient navigation. Source files are under `/app/src/main/java/{some}/{packages}/` and here we will add our code. We will have to pack our functionality in a specific way. Check `MainApplication.java` file first. It's extending `Application` class and implements `ReactApplication` interface. Take a look at `getPackages` method:
 
-```
+```java
 @Override
 protected List<ReactPackage> getPackages() {
   return Arrays.<ReactPackage>asList(
@@ -89,7 +89,7 @@ Application written in react-native is build like any other android application,
 
 First create package file that implements `com.facebook.react.ReactPackage` interface. It's got three methods and it's basic implementation looks like this:
 
-```
+```java
 public class MyHeadsetLibPackager implements ReactPackage {
 
     @Override
@@ -116,14 +116,14 @@ public class MyHeadsetLibPackager implements ReactPackage {
 
 The most important part is to initialize module in `createNativeModules` method:
 
-```
+```java
 modules.add(new MyHeadsetLibModule(reactContext));
 ```
 
 `MyHeadsetLibModule` is how we name our second class. It will contain all functionality of our library. It is necessary to extend `com.facebook.react.bridge.ReactContextBaseJavaModule` class for that.
 
 
-```
+```java
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -173,7 +173,7 @@ All lifecycle functionality implement here. Then in the constructor register lis
 Last thing to make our module visible is to override `getName` method. It should be returning name of our module, like that:
 
 
-```
+```java
 @Override
 public String getName() {
     return "MyHeadsetLibModule";
@@ -182,7 +182,7 @@ public String getName() {
 
 Following all these guidelines final form of our module rewritten from activity looks like this:
 
-```
+```java
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -249,7 +249,7 @@ public class MyHeadsetLibModule extends ReactContextBaseJavaModule implements Li
 ### Exposing methods to JS
 What if we would like to register `BroadcastReceiver` not on application start, but later, and invoke it from react-native module in Type-Script? Here comes `@ReactMehod` annotation. Just add method with it to your module class:
 
-```
+```java
 @ReactMethod
 public void startTrackingAudioJackPlug() {
     registerBroadcastReceiver();
@@ -258,13 +258,13 @@ public void startTrackingAudioJackPlug() {
 
 Now in any typescript file we can import it from react-native:
 
-```
+```js
 import { NativeModules } from 'react-native'
 ```
 
 and use calling it directly from NativeModules object:
 
-```
+```js
 (...)
 NativeModules.MyHeadsetLibModule.startTrackingAudioJackPlug()
 (...)
@@ -274,7 +274,7 @@ NativeModules.MyHeadsetLibModule.startTrackingAudioJackPlug()
 ### Getting callback from native module
 Last modification - let the message about plugging headset will be displayed not by native toast, but some react-native alert. To do so we have to emit information about plugging headset from native module to JS module. In native code add this:
 
-```
+```java
 reactContext
     .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
     .emit(eventName, params);
@@ -285,7 +285,7 @@ reactContext
 
 Now just register listener in JS module to receive emitted message. Import `DeviceEventEmitter` from `'react-native'` and add this code in `componentDidMount` method:
 
-```
+```js
 DeviceEventEmitter.addListener('CustomNameOfTheEvent', function(e: Event) {
 
     /*
