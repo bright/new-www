@@ -2,7 +2,6 @@
 layout: post
 title: Mastering LED with BASIC wirelessly
 tags: ["BASIC", "esp8266", "esp-12", "LED", "electronics"]
-hidden: true
 comments: true
 author: pawel
 ---
