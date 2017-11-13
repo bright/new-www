@@ -3,7 +3,7 @@ layout: post
 title: "Important: do not overuse !important"
 tags: css important html stylesheet
 comments: true
-hidden: true
+hidden: false
 author: agnieszka
 image: /images/do-not-overuse-important/important.jpg
 ---
@@ -30,7 +30,7 @@ This is quite obvious - the last rule takes it all.
 p { 
     color: red;
 }
-P { 
+p { 
     color: blue;
 }
 ```
@@ -64,7 +64,7 @@ In my opinion it is important to understand the specificity and know why one sel
 
 **3. Inline styles**
 
-Inline styles are the ones defined directly in your HTML tag. They always beat any other CSS declaration. Sometimes you may find the specificity presented as a four digit number where the thousand’s digit is for the inline styles (just as in the calculator previously mentioned), but I personally prefer to treat the inline styles separately. Actually you should avoid inline styles, as they break separation of concerns rule. HTML should organize the content and CSS should take care of the content’s presentation.
+Inline styles are the ones defined directly in your HTML tag. They always beat any other CSS declaration. Sometimes you may find the specificity presented as a four digit number where the thousand’s digit is for the inline styles (just as in the calculator previously mentioned), but I personally prefer to treat the inline styles separately.
 
 
 **4. The `!important` flag** 
