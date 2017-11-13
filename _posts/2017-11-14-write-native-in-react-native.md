@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Putting native in react native on android
+title: Putting native in React Native on Android
 author: radek
 hidden: true
-tags: ['android', 'react-native', 'java', 'platform specific']
+tags: ['android', 'React Native', 'java', 'platform specific']
 ---
 
-Using custom native components in react native is common thing, so sooner or later you may have to write some functionality in native language and use it in your application. Let me show you some simple example how to do that.
+Using custom native components in React Native is common thing, so sooner or later you may have to write some functionality in native language and use it in your application. Let me show you some simple example how to do that.
 
 ![toy model](/images/putting-native-in-rn/toymodel.JPG)
 
@@ -17,7 +17,7 @@ We start with creating simple native application. In this example our app will s
 * showing informations by toasts
 * using application context
 
-Assuming you are familiar with creating native android applications example below will be very easy. Our app use one activity with simple  layout, that later is gonna be irrelevant. Start with private field that will be used with our activity:
+Assuming you are familiar with creating native Android applications example below will be very easy. Our app use one activity with simple  layout, that later is gonna be irrelevant. Start with private field that will be used with our activity:
 
 ~~~~java
 private Context mContext;
@@ -74,7 +74,7 @@ Let's use it in our RN project!
 
 
 ### /react-project/android
-In your react project directory there is an `android` folder. It's structure looks like every android project and you may open it with Android Studio for convenient navigation. Source files are under `/app/src/main/java/{some}/{packages}/` and here we will add our code. We will have to pack our functionality in a specific way. Check `MainApplication.java` file first. It's extending `Application` class and implements `ReactApplication` interface. Take a look at `getPackages` method:
+In your React project directory there is an `android` folder. It's structure looks like every Android project and you may open it with Android Studio for convenient navigation. Source files are under `/app/src/main/java/{some}/{packages}/` and here we will add our code. We will have to pack our functionality in a specific way. Check `MainApplication.java` file first. It's extending `Application` class and implements `ReactApplication` interface. Take a look at `getPackages` method:
 
 ```java
 @Override
@@ -85,9 +85,9 @@ protected List<ReactPackage> getPackages() {
 }
 ```
 
-Application written in react-native is build like any other android application, but react-native packages are added in real time and it is specified here. You may write any native code and link it here, but you have to add it as `ReactPackage` and initialize it in `getPackages` method. Will need two files: _package_ and _module_.
+Application written in React Native is build like any other Android application, but React Native packages are added in runtime and it is specified here. You may write any native code and link it here, but you have to add it as `ReactPackage` and initialize it in `getPackages` method. Will need two files: _package_ and _module_.
 
-First create package file that implements `com.facebook.react.ReactPackage` interface. It's got three methods and it's basic implementation looks like this:
+First create package file that implements `com.facebook.react.ReactPackage` interface. It's got three methods and its basic implementation looks like this:
 
 ```java
 public class MyHeadsetLibPackager implements ReactPackage {
@@ -99,11 +99,6 @@ public class MyHeadsetLibPackager implements ReactPackage {
         modules.add(new MyHeadsetLibModule(reactContext));
 
         return modules;
-    }
-
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
     }
 
     @Override
@@ -247,7 +242,7 @@ public class MyHeadsetLibModule extends ReactContextBaseJavaModule implements Li
 
 
 ### Exposing methods to JS
-What if we would like to register `BroadcastReceiver` not on application start, but later, and invoke it from react-native module in Type-Script? Here comes `@ReactMehod` annotation. Just add method with it to your module class:
+What if we would like to register `BroadcastReceiver` not on application start, but later, and invoke it from React Native module in TypeScript? Here comes `@ReactMehod` annotation. Just add method with it to your module class:
 
 ```java
 @ReactMethod
@@ -256,7 +251,7 @@ public void startTrackingAudioJackPlug() {
 }
 ```
 
-Now in any typescript file we can import it from react-native:
+Now in any TypeScript file we can import it from `react-native`:
 
 ```js
 import { NativeModules } from 'react-native'
@@ -272,7 +267,7 @@ NativeModules.MyHeadsetLibModule.startTrackingAudioJackPlug()
 
 
 ### Getting callback from native module
-Last modification - let the message about plugging headset will be displayed not by native toast, but some react-native alert. To do so we have to emit information about plugging headset from native module to JS module. In native code add this:
+Last modification - let the message about plugging headset will be displayed not by native toast, but some React Native alert. To do so we have to emit information about plugging headset from native module to JS module. In native code add this:
 
 ```java
 reactContext
