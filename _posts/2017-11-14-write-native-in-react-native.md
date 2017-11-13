@@ -6,18 +6,18 @@ hidden: true
 tags: ['android', 'React Native', 'java', 'platform specific']
 ---
 
-Using custom native components in React Native is common thing, so sooner or later you may have to write some functionality in native language and use it in your application. Let me show you some simple example how to do that.
+Using custom native components in React Native is a common thing, so sooner or later you may have to write some functionality in a native language and use it in your application. Let me show you some simple example how to do that.
 
 ![toy model](/images/putting-native-in-rn/toymodel.JPG)
 
 ### First prepare code in separate application
-We start with creating simple native application. In this example our app will show the user information when headset is plugged in or out. It involves several native interactions:
+We start with creating a simple native application. In this example, our app will show the user information when the headset is plugged in or out. It involves several native interactions:
 * app lifecycle interaction while registering or unregistering listeners
 * sending and receiving data via intents
-* showing informations by toasts
+* showing information by toasts
 * using application context
 
-Assuming you are familiar with creating native Android applications example below will be very easy. Our app use one activity with simple  layout, that later is gonna be irrelevant. Start with private field that will be used with our activity:
+Assuming you are familiar with creating native Android applications example below will be very easy. Our app uses one activity with simple a layout, that later is gonna be irrelevant. Start with the private fields that will be used with our activity:
 
 ~~~~java
 private Context mContext;
@@ -35,7 +35,7 @@ private final BroadcastReceiver mHeadsetPlugReceiver = new BroadcastReceiver() {
 ~~~~
 
 Remembering reference to application context is not always necessary, as long as we can call `getApplicationContext` method within our Activity. Let's keep it now because we will modify it later.   
-`BroadcastReceiver` is an abstract class and describes behaviour on receiving informations via Intent.
+`BroadcastReceiver` is an abstract class and describes behavior on receiving informations via Intent.
 
 Registering listener looks like this:
 
@@ -49,7 +49,7 @@ private void registerBroadcastReceiver() {
 
 `registerReceiver` method is an Activity's method and may be invoked on Context class object.
 
-In `onCreate` method save reference to application context and register broadcast receiver:
+In `onCreate` method save the reference to application context and register broadcast receiver:
 
 ```java
 mContext = this;
@@ -66,7 +66,7 @@ protected void onDestroy() {
 }
 ```
 
-That's it, that is what we're going to work with. App shows simple message when plugging the headset in:
+That's it, that is what we're going to work with. The app shows a simple message when plugging the headset in:
 
 ![native app](/images/putting-native-in-rn/screenshot1.png)
 
@@ -74,7 +74,7 @@ Let's use it in our RN project!
 
 
 ### /react-project/android
-In your React project directory there is an `android` folder. It's structure looks like every Android project and you may open it with Android Studio for convenient navigation. Source files are under `/app/src/main/java/{some}/{packages}/` and here we will add our code. We will have to pack our functionality in a specific way. Check `MainApplication.java` file first. It's extending `Application` class and implements `ReactApplication` interface. Take a look at `getPackages` method:
+In your React project directory, there is an `android` folder. Its structure looks like every Android project and you may open it with Android Studio for convenient navigation. Source files are under `/app/src/main/java/{some}/{packages}/` and here we will add our code. We will have to pack our functionality in a specific way. Check `MainApplication.java` file first. It's extending `Application` class and implements `ReactApplication` interface. Take a look at `getPackages` method:
 
 ```java
 @Override
@@ -85,9 +85,9 @@ protected List<ReactPackage> getPackages() {
 }
 ```
 
-Application written in React Native is build like any other Android application, but React Native packages are added in runtime and it is specified here. You may write any native code and link it here, but you have to add it as `ReactPackage` and initialize it in `getPackages` method. Will need two files: _package_ and _module_.
+An application written in React Native is built like any other Android application, but React Native packages are added at runtime and it is specified here. You may write any native code and link it here, but you have to add it as `ReactPackage` and initialize it in `getPackages` method. Will need two files: _package_ and _module_.
 
-First create package file that implements `com.facebook.react.ReactPackage` interface. It's got three methods and its basic implementation looks like this:
+First, create a package file that implements `com.facebook.react.ReactPackage` interface. It's got three methods and its basic implementation looks like this:
 
 ```java
 public class MyHeadsetLibPackager implements ReactPackage {
@@ -138,7 +138,7 @@ public class MyHeadsetLibModule extends ReactContextBaseJavaModule {
 
 ```
 
-Last thing necessary to compile project is add dependency to `/app/build.gradle`
+Last thing necessary to compile project is to add dependency to `/app/build.gradle`
 
 ```
 dependencies {
@@ -165,7 +165,7 @@ Right now nowhere. But just implement `LifecycleEventListener` in your module cl
 
 All lifecycle functionality implement here. Then in the constructor register listener with `reactContext.addLifecycleEventListener(this)` and... done. Our module behaves like activity now.
 
-Last thing to make our module visible is to override `getName` method. It should be returning name of our module, like that:
+The last thing to make our module visible is to override `getName` method. It should be returning the name of our module, like that:
 
 
 ```java
@@ -251,7 +251,7 @@ public void startTrackingAudioJackPlug() {
 }
 ```
 
-Now in any TypeScript file we can import it from `react-native`:
+Now in any TypeScript file, we can import it from `react-native`:
 
 ```js
 import { NativeModules } from 'react-native'
@@ -278,7 +278,7 @@ reactContext
 1. `eventName` is `String` object and identifies emitted message   
 2. `params` is `WritableMap` object and contains parameters in simple key-value collection
 
-Now just register listener in JS module to receive emitted message. Import `DeviceEventEmitter` from `'react-native'` and add this code in `componentDidMount` method:
+Now just register listener in JS module to receive the emitted message. Import `DeviceEventEmitter` from `'react-native'` and add this code in `componentDidMount` method:
 
 ```js
 DeviceEventEmitter.addListener('CustomNameOfTheEvent', function(e: Event) {
