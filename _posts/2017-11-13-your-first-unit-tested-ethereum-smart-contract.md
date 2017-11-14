@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Your first unit tested smart contract
+title: Your first unit tested Ethereum Smart Contract
 author: daniel
 hidden: false
 tags: smartcontract ethereum blockchain truffle web3js parity unittests
