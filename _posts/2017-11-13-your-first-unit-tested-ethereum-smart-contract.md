@@ -10,11 +10,7 @@ The goal of that blog post is to provide you with the exact steps how to start c
 
 # My toolbox
 
-While writing this article I was using Parity 1.7.8-stable (Parity/v1.7.8-stable-d5fcf3b-20171025/x86_64-macos/rustc1.21.0) as a Ethereum client. You can find an installation guide on this site: [Parity - fast, light, and robust Ethereum client](https://github.com/paritytech/parity) or if you are on macOSX, please follow instructions described in the next paragraph. 
-
-On the following site you can find Parity packages: `https://d1h4xl4cr1h0mo.cloudfront.net/`. Please keep in mind that if a new version of parity is released, then usually old packages are deleted.
-
-All the code that was generated during that post creation you can find here [smart-contract repo](https://github.com/bright/smart-contract)
+While writing this article I was using Parity 1.7.8-stable (Parity/v1.7.8-stable-d5fcf3b-20171025/x86_64-macos/rustc1.21.0) as a Ethereum client. You can find an installation guide on this site: [Parity - fast, light, and robust Ethereum client](https://github.com/paritytech/parity) or if you are on macOSX or Debian based Linux, please follow instructions described in the next paragraphs. 
 
 # Installing parity on macOSX
 
@@ -29,6 +25,15 @@ and now the parity installation:
 ```
 brew tap paritytech/paritytech
 brew install parity --stable
+```
+
+# Installing parity on Linux
+
+Almost all parity packages you can find here: `https://github.com/paritytech/parity/releases`. To install on Debian based Linux you will need wget and dpkg. Below as an example installation of parity 1.7.9-stable:
+
+```
+wget https://parity-downloads-mirror.parity.io/v1.7.9/x86_64-unknown-linux-gnu/parity_1.7.9_amd64.deb
+sudo dpkg -i parity_1.7.9_amd64.deb
 ```
 
 # Starting parity
@@ -181,5 +186,7 @@ contract('TestContract', (accounts) => {
 ```
 
 For more information it's definitely worth to visiting [truffle docs](https://truffle.readthedocs.io/en/beta/)
+
+All the code that was generated during that post creation you can find here [smart-contract repo](https://github.com/bright/smart-contract)
 
 Hope you have liked it! :) 
