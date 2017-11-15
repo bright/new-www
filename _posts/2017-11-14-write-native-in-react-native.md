@@ -5,18 +5,18 @@ author: radek
 tags: ['android', 'react native', 'java', 'platform specific']
 ---
 
-Using custom native components in React Native is a common thing, so sooner or later you may have to write some functionality in a native language and use it in your application. Let me show you some simple example how to do that.
+Using custom native components in React Native is a common thing, so sooner or later you may have to write some functionality in a native language and use it in your application. Let me show you a simple example how to do that.
 
 ![toy model](/images/putting-native-in-rn/toymodel.JPG)
 
-### First prepare code in separate application
+### First prepare code in a separate application
 We start with creating a simple native application. In this example, our app will show the user information when the headset is plugged in or out. It involves several native interactions:
 * app lifecycle interaction while registering or unregistering listeners
 * sending and receiving data via intents
 * showing information by toasts
 * using application context
 
-Assuming you are familiar with creating native Android applications example below will be very easy. Our app uses one activity with simple a layout, that later is gonna be irrelevant. Start with the private fields that will be used with our activity:
+Assuming you are familiar with creating native Android applications, the example below will be very easy. Our app uses one activity with a simple layout, that later is going to be irrelevant. Start with the private fields that will be used with our activity:
 
 ~~~~java
 private Context mContext;
@@ -33,8 +33,8 @@ private final BroadcastReceiver mHeadsetPlugReceiver = new BroadcastReceiver() {
 };
 ~~~~
 
-Remembering reference to application context is not always necessary, as long as we can call `getApplicationContext` method within our Activity. Let's keep it now because we will modify it later.   
-`BroadcastReceiver` is an abstract class and describes behavior on receiving informations via Intent.
+Remembering a reference to your application context is not always necessary, as long as we can call `getApplicationContext` method within our Activity. Let's keep it now because we will modify it later.   
+`BroadcastReceiver` is an abstract class and describes behavior on receiving information via Intent.
 
 Registering listener looks like this:
 
@@ -48,14 +48,14 @@ private void registerBroadcastReceiver() {
 
 `registerReceiver` method is an Activity's method and may be invoked on Context class object.
 
-In `onCreate` method save the reference to application context and register broadcast receiver:
+In `onCreate` method save the reference to the application context and register broadcast receiver:
 
 ```java
 mContext = this;
 registerBroadcastReceiver();
 ```
 
-At the end, following clean coding principles, unregister receiver when closing application using Activity's `unregisterReceiver` method:
+In the end, following clean coding principles, unregister receiver when closing your application using Activity's `unregisterReceiver` method:
 
 ```java
 @Override
@@ -65,7 +65,7 @@ protected void onDestroy() {
 }
 ```
 
-That's it, that is what we're going to work with. The app shows a simple message when plugging the headset in:
+That's it, that is what we're going to work on. The app shows a simple message while plugging the headset in:
 
 ![native app](/images/putting-native-in-rn/screenshot1.png)
 
@@ -86,7 +86,7 @@ protected List<ReactPackage> getPackages() {
 
 An application written in React Native is built like any other Android application, but React Native packages are added at runtime and it is specified here. You may write any native code and link it here, but you have to add it as `ReactPackage` and initialize it in `getPackages` method. Will need two files: _package_ and _module_.
 
-First, create a package file that implements `com.facebook.react.ReactPackage` interface. It's got two methods and its basic implementation looks like this:
+First create a package file that implements `com.facebook.react.ReactPackage` interface. It's got two methods and its basic implementation looks like this:
 
 ```java
 public class MyHeadsetLibPackager implements ReactPackage {
@@ -114,7 +114,7 @@ The most important part is to initialize module in `createNativeModules` method:
 modules.add(new MyHeadsetLibModule(reactContext));
 ```
 
-`MyHeadsetLibModule` is how we name our second class. It will contain all functionality of our library. It is necessary to extend `com.facebook.react.bridge.ReactContextBaseJavaModule` class for that.
+`MyHeadsetLibModule` is how we name our second class. It will contain all functionalities of our library. It is necessary to extend `com.facebook.react.bridge.ReactContextBaseJavaModule` class for that.
 
 
 ```java
@@ -137,7 +137,7 @@ public class MyHeadsetLibModule extends ReactContextBaseJavaModule {
 
 ```
 
-Last thing necessary to compile project is to add dependency to `/app/build.gradle`
+Last thing necessary to compile a project is to add dependency to `/app/build.gradle`
 
 ```
 dependencies {
@@ -150,10 +150,11 @@ dependencies {
 
 
 ### Moving from activity
-Now we can implement everything as we did in our activity. Just mind two consequences of moving from `Activity` to `ReactContextBaseJavaModule`. First:   
+Now we can implement everything as we did in our activity. Just mind two consequences of moving from `Activity` to `ReactContextBaseJavaModule`.
 
+First:   
 **Who's got the context?**   
-From now we can not call activity's methods like `registerReceiver` just like that. We also can not access application's context by calling `getApplicationContext`. That's why in the module's constructor we get `ReactContext` instance. All activity's methods will be called from it.
+From now we cannot call activity's methods like `registerReceiver` just like that. We also cannot access the application's context by calling `getApplicationContext`. That's why, in the module's constructor we get `ReactContext` instance. All activity's methods will be called from it.
 
 Second:   
 **Where are the lifecycle methods?**   
@@ -162,7 +163,7 @@ Right now nowhere. But just implement `LifecycleEventListener` in your module cl
 * `void onHostPause()`   
 * `void onHostDestroy()`   
 
-All lifecycle functionality implement here. Then in the constructor register listener with `reactContext.addLifecycleEventListener(this)` and... done. Our module behaves like activity now.
+All lifecycle functionalities implement here. Then in the constructor register listener with `reactContext.addLifecycleEventListener(this)` and... done. Our module behaves like activity now.
 
 The last thing to make our module visible is to override `getName` method. It should be returning the name of our module, like that:
 
@@ -174,7 +175,7 @@ public String getName() {
 }
 ```
 
-Following all these guidelines final form of our module rewritten from activity looks like this:
+Following all these guidelines a final form of our module rewritten from activity looks like this:
 
 ```java
 
@@ -241,7 +242,7 @@ public class MyHeadsetLibModule extends ReactContextBaseJavaModule implements Li
 
 
 ### Exposing methods to JS
-What if we would like to register `BroadcastReceiver` not on application start, but later, and invoke it from React Native module in TypeScript? Here comes `@ReactMehod` annotation. Just add method with it to your module class:
+What if we would like to register `BroadcastReceiver` not on the application start, but later, and invoke it from React Native module in TypeScript? Here comes `@ReactMehod` annotation. Just add a method with it to your module class:
 
 ```java
 @ReactMethod
@@ -259,9 +260,7 @@ import { NativeModules } from 'react-native'
 and use calling it directly from NativeModules object:
 
 ```js
-(...)
 NativeModules.MyHeadsetLibModule.startTrackingAudioJackPlug()
-(...)
 ```
 
 
@@ -291,4 +290,4 @@ DeviceEventEmitter.addListener('CustomNameOfTheEvent', function(e: Event) {
 })
 ```
 
-That's it. We just implemented native functionality with bidirectional communication.
+That's it. We have just implemented a native functionality with bidirectional communication.
