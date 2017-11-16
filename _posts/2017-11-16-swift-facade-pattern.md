@@ -9,9 +9,9 @@ hidden: true
 image: /images/swift-facade-pattern/facade.jpg
 ---
 
-## About the pattern
-
 ![diagram](/images/swift-facade-pattern/facade.jpg)
+
+## About the pattern
 
 Facade pattern is one of the Structural Patterns. The main aim of it is to hide the complexity of system, class or logic and provide a simple interface  - use your system easier.
 Commonly Facade is implemented in a way that one class is related to other classes which are representing a system logic. Please look at the diagram:
