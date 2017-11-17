@@ -2,7 +2,7 @@
 layout: post
 title: How not to get crazy?
 author: grzesiek
-hidden: true
+hidden: false
 tags: technology addiction
 ---
 
