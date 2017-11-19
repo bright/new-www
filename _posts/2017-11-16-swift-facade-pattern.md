@@ -83,7 +83,7 @@ class PathProvider {
 
 Ok, so at the moment we have two classes with some logic inside. Now it's time to create a facade for it!
 
-![let's do this](./swift-facade-pattern/do_this.gif)
+![let's do this](/images/swift-facade-pattern/do_this.gif)
 
 Create a class called `ImageSaverFacade` :
 
