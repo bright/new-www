@@ -5,7 +5,7 @@ excerpt: 'Facade pattern is one of the Structural Patterns. The main aim of it i
 author: kwysocki
 tags : [iOS, swift, design patterns, facade pattern]
 comments: true
-hidden: true
+hidden: false
 image: /images/swift-facade-pattern/facade.jpg
 ---
 
@@ -24,36 +24,62 @@ As you can see, there is one class called `Facade` which separates the logic fro
 
 Let's imagine a simple scenario. You have already created a great app called `Super-Photo`. One of the core features of your app is saving/converting images with `JPEG` or `PNG` extension. In order to do this you want to save `UIImage` representation in two ways. One is saving it as a `PNG` type, the second is saving it as a `JPEG` file type.
 
-Firstly, you will need to create  two classes that will handle a photo saving with each extension:
+Fistly, in order to handle our image types and possible errors in our code - it will be nice to have two enums that will make our code cleaner and more readable.
 
 ```swift
-class JPEGImageSaver {
-   func save(image: UIImage, to path: URL, compressionQuality: CGFloat = 1.0) -> Bool {
-       guard let imageData = UIImageJPEGRepresentation(image, compressionQuality) else { return false }
-       do {
-           try imageData.write(to: path)
-           return true
-       } catch {
-           return false
-       }
-   }
+enum ImageSaverError: Error {
+    case couldNotCreateDestinationPath
+    case couldNotCreateJPEGDataFromImage
+    case couldNotCreatePNGDataFromImage
+    case couldNotSaveImageInDestinationPath
 }
 
-class PNGImageSaver {
-   func save(image: UIImage, to path: URL) -> Bool {
-       guard let imageData = UIImagePNGRepresentation(image) else { return false }
-       do {
-           try imageData.write(to: path)
-           return true
-       } catch {
-           return false
-       }
-   }
+enum ImageType {
+    case png
+    case jpeg(compressionQuality: CGFloat)
 }
 ```
 
-As you've noticed, our `JPEGImageSaver` takes `image`, `path` and `compressionQuality` parameters and saves the image as a `JPEG` representation to a destination path.
-`PNGImageSaver` does the same thing but it only takes `image` and `path` parameter.
+On the next step you will need to create a class that will handle a data providing for each photo extension:
+
+```swift
+class ImageDataProvider {
+    func data(from image: UIImage, type: ImageType) throws -> Data {
+        switch type {
+        case .jpeg(let compressionQuality):
+            return try jpegData(from: image, compressionQuality: compressionQuality)
+        case .png:
+            return try pngData(from: image)
+        }
+    }
+
+    private func pngData(from image: UIImage) throws -> Data {
+        guard let imageData = UIImagePNGRepresentation(image) else { throw ImageSaverError.couldNotCreateJPEGDataFromImage }
+        return imageData
+    }
+
+    private func jpegData(from image: UIImage, compressionQuality: CGFloat) throws -> Data {
+        guard let imageData = UIImageJPEGRepresentation(image, compressionQuality) else { throw ImageSaverError.couldNotCreatePNGDataFromImage }
+        return imageData
+    }
+}
+```
+
+As you've noticed, our `ImageDataProvider` takes `image` and `type` parameters and creates the image data with proper extension `JPEG` or `PNG`.
+
+The last step is to create class which is needed to save `UIImage`. So let's name it a `PathProvider`. 
+
+```swift
+class PathProvider {
+    func createDestinationPath(fileName: String) throws -> URL {
+        guard let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
+            throw ImageSaverError.couldNotCreateDestinationPath
+        }
+        let destinationPath = path.appendingPathComponent("\(fileName)")
+        return destinationPath
+    }
+}
+```
 
 Ok, so at the moment we have two classes with some logic inside. Now it's time to create a facade for it!
 
@@ -63,56 +89,45 @@ Create a class called `ImageSaverFacade` :
 
 ```swift
 class ImageSaverFacade {
-   private let pngImageSaver = PNGImageSaver()
-   private let jpegImageSaver = JPEGImageSaver()
+    private let pathProvider = PathProvider()
+    private let dataProvider = ImageDataProvider()
 
-   init() {
-   }
-
-   @discardableResult
-   func saveAsJPEG(image: UIImage, fileName: String, compressionQuality: CGFloat = 1.0) -> Bool {
-       guard let destinationPath = createDestinationPath(fileName: fileName) else {
-           return false
-       }
-       return jpegImageSaver.save(image: image, to: destinationPath, compressionQuality: compressionQuality)
-   }
-
-   @discardableResult
-   func saveAsPNG(image: UIImage, fileName: String) -> Bool {
-       guard let destinationPath = createDestinationPath(fileName: fileName) else {
-           return false
-       }
-       return pngImageSaver.save(image: image, to: destinationPath)
-   }
-
-   private func createDestinationPath(fileName: String) -> URL? {
-       guard let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
-           print("Could not create destinationPath")
-           return nil
-       }
-       return path.appendingPathComponent("\(fileName)")
-   }
+    func save(image: UIImage, type: ImageType, fileName: String, overwrite: Bool) throws {
+        let destinationURL = try pathProvider.createDestinationPath(fileName: fileName)
+        let imageData = try dataProvider.data(from: image, type: type)
+        let writingOptions: Data.WritingOptions = overwrite ? (.atomic) : (.withoutOverwriting)
+        try imageData.write(to: destinationURL, options: writingOptions)
+    }
 }
 ```
 
-Our `ImageSaverFacade` class has two private objects of `PNGImageSaver` and `JPEGImageSaver` class. Because the client doesn't need to know anything about logic inside, the only thing which `ImageSaverFacade` exposes to a public is two methods:
+Our `ImageSaverFacade` class has two private objects of `PathProvider` and `ImageDataProvider` class. Because the client doesn't need to know anything about logic inside, the only thing which `ImageSaverFacade` exposes to a public is one method:
 
-* `func saveAsPNG(image: UIImage, fileName: String) -> Bool`
-* `func saveAsJPEG(image: UIImage, fileName: String, compressionQuality: CGFloat = 1.0)`
+* `func save(image: UIImage, type: ImageType, fileName: String, overwrite: Bool) throws`
 
-These are two things that our client should care about.
+This method is the only thing that our client should care about.
 
-Now let's move on to the facade client part:
+Now let's move on to the facade usage part:
 
 ```swift
-let image: UIImage = UIImage(named: "some_super_image")
 let imageSaver = ImageSaverFacade()
-imageSaver.saveAsPNG(image: image, fileName: "name_of_file")
-imageSaver.saveAsJPEG(image: image, fileName: "name_of_file", compressionQuality: 0.5)
+let image = UIImage(named: "my_image")!
+do {
+    try imageSaver.save(image: image, type: .png, fileName: "my_file_name", overwrite: true)
+} catch  {
+    //handle Error
+}
+// or
+do {
+    try imageSaver.save(image: image, type: .jpeg(compressionQuality: 1.0), fileName: "my_file_name", overwrite: false)
+} catch  {
+    //handle Error
+}
 ```
 
-As you can see, it is super easy to save `UIImage` as `PNG` or `JPEG` using our `ImageSaverFacade`. Only thing to do is to choose the correct method.
 
 ## Conclusion
 
-Facade design pattern can be used in many cases. Facade creates for you a simple gateway to a complicated system. By using Facade Pattern you will definitely make your code simpler to understand and read.
+Please notice that our facade covers logic associated with `Data` providing and creating a valid `URL` for file destination. And because of that, it is super easy to save `UIImage` as `PNG` or `JPEG` using our `ImageSaverFacade`. Only thing to do is to pass the correct parameters to facade method.
+
+Facade design pattern can be used in many cases. Facade creates for you a simple gateway to a complicated system. By using it you will definitely make your code simpler to understand and read.
