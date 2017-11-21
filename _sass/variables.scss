@@ -39,11 +39,11 @@ $danger				: #C64537;
 $info				  : #308cbc;
 
 // Links
-$linkcolor 		    : darken($info, 30);
+$linkcolor 		    : $info;
 $link-color       : $linkcolor;
-$linkcolorhover 	: lighten($linkcolor, 30);
-$linkcolorvisited : lighten($linkcolor, 20);
-$linkcolorfocus 	: lighten($linkcolor, 30);
+$linkcolorhover 	: lighten($linkcolor, 20);
+$linkcolorvisited : lighten($linkcolor, 10);
+$linkcolorfocus 	: lighten($linkcolor, 20);
 
 // Media Queries
 $micro            : "only screen and (min-width: 30em)";
