@@ -3,7 +3,7 @@ layout: post
 title: Request timeouts in Spring MVC
 author: piotr
 hidden: true
-tags: spring mvc spring-boot thread timeout
+tags: spring mvc spring-boot thread-pool timeout
 comments: true
 crosspost: false
 image: /images/database-timeouts/database-files.jpg
@@ -18,9 +18,11 @@ A typical servlet container will use one or more thread pools to handle a reques
 - Undertow: `server.undertow.worker-threads` controlling [`WORKER_TASK_CORE_THREADS`](http://undertow.io/undertow-docs/undertow-docs-1.2.0/listeners.html) with a default of [`availableProcessors() * 8`](Math.max(Runtime.getRuntime().availableProcessors(), 2))
 - Jetty: There is no Spring configuration property available currently. One can customize the Jetty Thread Pool through code and jetty specific configuration though. The default maximum number of worker threads is 200.
 
- ### What happens when the request processing thread pool is full?
+![Thread pool](/images/thread-pool-timeouts/thread-pool.jpg)
 
- Once the request processing thread pool is full, the servlet container will typically queue the requests. The queue is processed by the request processing thread pool. Queueing up requests is consuming server memory and sockets thus there typically is a limit after which a new incoming request is going to be immediately rejected.
+## What happens when the request processing thread pool is empty?
+
+ Once the request processing thread pool is empty, the servlet container will typically queue the requests. The queue is processed by the request processing thread pool. Queueing up requests is consuming server memory and sockets thus there typically is a limit after which a new incoming request is going to be immediately rejected.
 
 - Tomcat: `server.tomcat.accept-count` Maximum queue length for incoming connection requests when all possible request processing threads are in use. [The default value is 100](https://tomcat.apache.org/tomcat-8.5-doc/config/http.html).
 - Undertow: As far as I can tell by default the requests will be queued and the only bound is system capacity. There is [Request Limiting Handler](http://undertow.io/undertow-docs/undertow-docs-1.2.0/#built-in-handlers) available though that allows configuring maximum concurrent requests as well as maximum queue size. 
@@ -44,9 +46,9 @@ A typical servlet container will use one or more thread pools to handle a reques
 </Configure>
 ```
 
-Queuing requests is necessary in the most commons scenarios to handle temporary spikes in load. For example, if your application can handle 100 requests per second, and if you can allow it one minute to recover from excessive high load, you can set the queue capacity to 60*100=6000.
+Queuing requests is necessary in the most commons scenarios to handle temporary spikes in load. For example, if your application can handle 100 requests per second, and if you can allow it to recover from one minute of excessive high load, you can set the queue capacity to 60*100=6000.
 
-### How is the request processing thread pool related to timeouts
+## How is the request processing thread pool related to timeouts?
 
 Let us assume that the thread pool (max) size is 100 and that on average a request takes 1 second to process. In such server we can thus handle 100 requests per second (rps). Any requests over the rps limit is going to be queued. Now imagine we have a single type of request that for some reason takes much longer to process than usual e.g. 120 seconds due to some dependent service issue. When such request is processed, it will first block subsequent requesting processing threads until all of them are _busy waiting_. Depending on the limit of queue size and system capacity our server will soon start rejecting **all new requests**. It is worth noting that the _slow_ requests are also going to be put in queue after thread pool capacity is reached. 
 
@@ -68,4 +70,6 @@ _AFAIK the valve only applies to requests that did start processing by the threa
 
 - In Spring MVC there is no way to configure a timeout unless you use [async method](https://spring.io/guides/gs/async-method/). With async method one can use `spring.mvc.async.request-timeout=` to set amount of time (in milliseconds) before asynchronous request handling times out. However, using Async Servlet with Spring MVC requires changing the controller methods return types.
 
+## There is no standard request timeout configuration
 
+There are only couple of options available to set encompass request handling with a timeout. This is partially due to historical reasons. The servlet container specification did not consider timeouts until Async Servlet was defined. Another reason is that the there is no way [to safely _stop_ a thread](https://docs.oracle.com/javase/1.5.0/docs/guide/misc/threadPrimitiveDeprecation.html) that a framework could use. The application code needs to cooperate to safely terminate the request handling execution. In the next post we will show how to add a request timeout to a Spring MVC application.
