@@ -15,7 +15,7 @@ Last time we reviewed [how to configure HTTP client timeouts]({% post_url 2017-1
 
 A typical servlet container will use one or more thread pools to handle a request. In particular one of the thread pools is used to execute the Spring MVC part of request handling. Let us call this thread pool the request worker thread pool. The request worker thread pool will have a default maximum size:
 - Tomcat: `server.tomcat.max-threads` controlling [`maxThreads`](https://tomcat.apache.org/tomcat-8.5-doc/config/http.html) with a default of 200
-- Undertow: `server.undertow.worker-threads` controlling [`WORKER_TASK_CORE_THREADS`](http://undertow.io/undertow-docs/undertow-docs-1.2.0/listeners.html) with a default of [`availableProcessors() * 8`](Math.max(Runtime.getRuntime().availableProcessors(), 2))
+- Undertow: `server.undertow.worker-threads` controlling [`WORKER_TASK_CORE_THREADS`](http://undertow.io/undertow-docs/undertow-docs-1.2.0/listeners.html) with a default of [`availableProcessors() * 8`](https://github.com/undertow-io/undertow/blob/b6a87a4b4a467b297363c46747c344faaee15ded/core/src/main/java/io/undertow/Undertow.java#L419)
 - Jetty: There is no Spring configuration property available currently. One can customize the Jetty Thread Pool through code and jetty specific configuration though. The default maximum number of worker threads is 200.
 
 ![Thread pool](/images/thread-pool-timeouts/thread-pool.jpg)
