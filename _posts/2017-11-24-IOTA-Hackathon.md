@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IOTA Hackathon
-excerpt:One may ask if it is a real fun spending two days in front of computer with a bunch of strangers. The example of IOTA Hackathon shows that it is indeed. 
+excerpt: One may ask if it is a real fun spending two days in front of computer with a bunch of strangers. The example of IOTA Hackathon shows that it is indeed. 
 author: ula
 hidden: true
 tags: IOTA hackathon cryptocurrency teamwork
