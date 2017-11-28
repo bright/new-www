@@ -81,7 +81,7 @@ class TimeoutController {
 }
 ```
 
-The `TimeoutController` will sleep for an amount of time given in a parameter. Let's simulate a short request with using [`httpie`](https://httpie.org/):
+The `TimeoutController` will sleep for an amount of time given in a parameter. Let's simulate a short request with [`httpie`](https://httpie.org/):
 
 ```bash
 http :8080/timeout timeoutInMillis==2000
