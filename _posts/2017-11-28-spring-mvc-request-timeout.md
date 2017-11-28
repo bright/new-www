@@ -15,7 +15,7 @@ image: /images/spring-mvc-request-timeout/late.jpg
 
 ## Request timeout Servlet Filter
 
-Without further ado let us dive right into a sample filter implementation.
+Without further ado let us dive right into a sample filter implementation in Kotlin:
 
 ```kotlin
 @Component
@@ -57,7 +57,7 @@ The above code declares a Servlet Filter that will interrupt thread processing a
 
 ## Testing request timeout Servlet Filter
 
-For the test purposes let us create a simple Spring Boot MVC application:
+For the test purposes let us create a simple Spring Boot MVC application written in Kotlin:
 
 ```kotlin
 @SpringBootApplication
