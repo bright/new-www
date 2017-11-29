@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing `cloudform` - tame your AWS CloudFormation templates
+title: Introducing cloudform - tame your AWS CloudFormation templates
 excerpt: Whatever we do here in Bright Inventions, we deeply care about automation, traceability and repeatability. This is why, whenever we do anything at the backend, we define our infrastructure as code with the great help of AWS CloudFormation. The problem is that our template file grows quickly and becomes hard to maintain. This is how `cloudform` - a TypeScript-based imperative way to define AWS CloudFormation templates -  was born.
 tags: AWS CloudFormation open-source
 comments: true
@@ -19,9 +19,9 @@ The problem is, though, that unless our project is really simple, our template f
 
 ![Is this how your AWS CloudFormation templates looks like?](/images/cloudform/blackboard.jpg)
 
-## Enter `cloudform`
+## Enter cloudform
 
-Our typical template file was too large. It was too verbose and repetitive. It was error-prone and hard to grasp. It was messy. But all was not lost - the template is just a plain old JSON, anyway. This is how [`cloudform`](https://www.npmjs.com/package/cloudform) was born. Cloudform is a TypeScript-based imperative way to define AWS CloudFormation templates. With `cloudform` you can use all the powers of TypeScript to define the elements of your infrastructure and let the library take care of generating that monstrous JSON file out of it.
+Our typical template file was too large. It was too verbose and repetitive. It was error-prone and hard to grasp. It was messy. But all was not lost - the template is just a plain old JSON, anyway. This is how [`cloudform`](https://www.npmjs.com/package/cloudform) was born. It is a TypeScript-based imperative way to define AWS CloudFormation templates. With `cloudform` you can use all the powers of TypeScript to define the elements of your infrastructure and let the library take care of generating that monstrous JSON file out of it.
 
 So, for example, to define a [VPC](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html), instead of writing this lengthy and hairy piece of JSON:
 
@@ -96,7 +96,7 @@ With `cloudform`'s syntax our ~2.5k lines of JSON was reduced to ~1k lines of Ty
 
 ## Getting started & usage
 
-You're probably already eager to test it out, so let's jump to the crux of the matter. The package is obviously available for you on npm:
+You're probably already eager to test it out, so let's jump to the crux of the matter. The package is obviously available for you on `npm`. Type the following:
 
 `npm install --save-dev cloudform`
 
@@ -140,7 +140,7 @@ Now, run the binary that was installed for you specifying the path to your templ
 
 And if no compilation errors happen, `template.out` is now a JSON file ready to be used within CloudFormation.
 
-## What `cloudform` is not
+## What cloudform is not
 
 I can feel your excitement already 😆, but let's be clear what `cloudform` does and what it out of its scope. Basically it translates the TypeScript code into the JSON object as-is. Whatever you put in your TypeScript, as long as it compiles, will be included in the generated file. There is no validation or any domain-level checks implemented - if you reference the resource, parameter or condition that does not exists or use a nonsensical value for a parameter, `cloudform` will not warn you today (CloudFormation will do most probably). 
 
