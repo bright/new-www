@@ -4,7 +4,6 @@ title: Introducing cloudform – tame your AWS CloudFormation templates
 excerpt: Whatever we do here in Bright Inventions, we deeply care about automation, traceability and repeatability. This is why, whenever we do anything at the backend, we define our infrastructure as code with the great help of AWS CloudFormation. The problem is that our template file grows quickly and becomes hard to maintain. This is how `cloudform` – a TypeScript-based imperative way to define AWS CloudFormation templates –  was born.
 tags: AWS CloudFormation open-source
 comments: true
-hidden: true
 author: adam
 image: /images/cloudform/blackboard.jpg
 ---
@@ -130,7 +129,7 @@ cloudform({
 })
 ```
 
-The simple convention is used here – all the AWS types' namespaces are available directly as exports from the `cloudfront` package. All the resources within this package are available inside. This way `EC2.VPC` object from our example translates into `AWS::EC2::VPC` type we can find [in CloudFormation documentation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html). All the properties also match one-to-one, including casing. This API-level compliance is guaranteed to hold true because the `cloudform`'s types are generated from the [AWS-provided schema definition file](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-resource-specification.html).
+The simple convention is used here – all the AWS types' namespaces are available directly as exports from the `cloudform` package. All the resources within this package are available inside. This way `EC2.VPC` object from our example translates into `AWS::EC2::VPC` type we can find [in CloudFormation documentation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html). All the properties also match one-to-one, including casing. This API-level compliance is guaranteed to hold true because the `cloudform`'s types are generated from the [AWS-provided schema definition file](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-resource-specification.html).
 
 See also [the example included in the repository](https://github.com/bright/cloudform/blob/master/example/example.ts).
 
