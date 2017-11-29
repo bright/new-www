@@ -3,7 +3,7 @@ layout: post
 title: Children and programming
 tags: programming developer book lilavati
 comments: true
-hidden: true
+hidden: false
 author: agnieszka
 image: /images/children-and-programming/children.jpg
 ---
@@ -12,7 +12,7 @@ Recently, when I was waiting for my nephew at school, I was looking at the adver
 
 ![Image](/images/children-and-programming/children.jpg){: .center-image}
 
-When I read the notice more carefully, it turned out that <cite>programming</cite> for the youngest children is mostly about logical thinking, cause - effect concepts and problems solving. These might be reckoned as the basics of programming as well as the basics of mathematics actually. And it was the moment when I realized that I had also started learning <cite>programming</cite> early in the primary school!
+When I read the notice more carefully, it turned out that <cite>programming</cite> for the youngest children is mostly about logical thinking, cause-effect concepts and problems solving. These might be reckoned as the basics of programming as well as the basics of mathematics actually. And it was the moment when I realized that I had also started learning <cite>programming</cite> early in the primary school!
 
 First thing I would like to mention is a contest you might know as it is worldwide. And if you are Polish I’m pretty sure you once took part in it or at least have heard about it. Some of you maybe event won some prize :) <cite>Kangourou</cite> contest held by <cite>Kangourou sans Frontières</cite> association aimed at promoting mathematics among young people. **The key competence tested by it is logical combination, not just pure knowledge of formulas**. The basics of programming, right?
 
