@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Introducing cloudform - tame your AWS CloudFormation templates
-excerpt: Whatever we do here in Bright Inventions, we deeply care about automation, traceability and repeatability. This is why, whenever we do anything at the backend, we define our infrastructure as code with the great help of AWS CloudFormation. TODO
-tags: AWS, CloudFormation, open-source
+title: Introducing `cloudform` - tame your AWS CloudFormation templates
+excerpt: Whatever we do here in Bright Inventions, we deeply care about automation, traceability and repeatability. This is why, whenever we do anything at the backend, we define our infrastructure as code with the great help of AWS CloudFormation. The problem is that our template file grows quickly and becomes hard to maintain. This is how `cloudform` - a TypeScript-based imperative way to define AWS CloudFormation templates -  was born.
+tags: AWS CloudFormation open-source
 comments: true
 hidden: true
 author: adam
@@ -19,9 +19,9 @@ The problem is, though, that unless our project is really simple, our template f
 
 ![Is this how your AWS CloudFormation templates looks like?](/images/cloudform/blackboard.jpg)
 
-## Enter cloudform
+## Enter `cloudform`
 
-It was too large. It was too verbose and repetitive. It was error-prone and hard to grasp. It was messy. But all was not lost - this is just a plain old JSON anyway. This is how [cloudform](https://www.npmjs.com/package/cloudform) was born. Cloudform is a TypeScript-based imperative way to define AWS CloudFormation templates. With cloudform, you can use all the powers of TypeScript to define the elements of our infrastructure and let the library take care of generating the monstrous JSON file out of it.
+Our typical template file was too large. It was too verbose and repetitive. It was error-prone and hard to grasp. It was messy. But all was not lost - the template is just a plain old JSON, anyway. This is how [`cloudform`](https://www.npmjs.com/package/cloudform) was born. Cloudform is a TypeScript-based imperative way to define AWS CloudFormation templates. With `cloudform` you can use all the powers of TypeScript to define the elements of your infrastructure and let the library take care of generating that monstrous JSON file out of it.
 
 So, for example, to define a [VPC](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html), instead of writing this lengthy and hairy piece of JSON:
 
@@ -87,12 +87,12 @@ Note what I have done here:
 1. Instead of complex `Fn::FindInMap` object traversing, I use TypeScript-level objects directly. <small>Yes, it results in a different entry in the template, but functionally it's equivalent.</small>
 1. I also simplified the construction of key-value pairs used in `Tags`. Strongly-typed one-liner instead of verbose 4 lines.
 
-But this is not the end. With cloudform (and actually, with TypeScript) we can go further:
+But this is not the end. With `cloudform` (or actually with TypeScript) we can go further:
 1. Nothing stops us from using TypeScript-level variables, functions or conditions to build up our objects from reusable, configurable parts.
 1. We can split the template definition into multiple files.
 1. We can apply all the available refactoring techniques to keep our definitions tidy and easy to use.
 
-With cloudform's syntax our ~2.5k lines of JSON was reduced to ~1k lines of TypeScript object definitions.
+With `cloudform`'s syntax our ~2.5k lines of JSON was reduced to ~1k lines of TypeScript object definitions.
 
 ## Getting started & usage
 
@@ -100,9 +100,9 @@ You're probably already eager to test it out, so let's jump to the crux of the m
 
 `npm install --save-dev cloudform`
 
-Now we need to define our template. Let's have a separate directory for it, so that it doesn't mix with our production or test code. It would also suggest we may break the file into smaller chunks and use standard imports to link it together. Maybe `cloudformation/index.ts`?
+Now we need to define our template. Let's have a separate directory for it, so that it doesn't mix with our production or test code. It would also suggest we may break the file into smaller chunks and use standard [imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to link it together. Maybe `cloudformation/index.ts`?
 
-This file needs to end with `cloudform` function call, so that the tool picks our template up correctly. It gets an object that consists of everything that CloudFormation template might consist of. 
+This file needs to end with `cloudform` function call, so that the tool picks our template up correctly. It takes an object that consists of everything that CloudFormation template might consist of. 
 
 ```typescript
 import cloudform, {Fn, Refs, EC2, StringParameter, ResourceTag} from "cloudform"
@@ -130,7 +130,7 @@ cloudform({
 })
 ```
 
-The simple convention is used here - all the AWS types' namespaces are available directly as exports from the `cloudfront` package. All the resources within this package are available inside. This way `EC2.VPC` object from our example translates into `AWS::EC2::VPC` type we can find [in CloudFormation documentation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html). All the properties also match 1:1. This API-level compliance is guaranteed to hold true because the cloudform's types are generated from the [AWS-provided schema definition file](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-resource-specification.html).
+The simple convention is used here - all the AWS types' namespaces are available directly as exports from the `cloudfront` package. All the resources within this package are available inside. This way `EC2.VPC` object from our example translates into `AWS::EC2::VPC` type we can find [in CloudFormation documentation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpc.html). All the properties also match one-to-one, including casing. This API-level compliance is guaranteed to hold true because the `cloudform`'s types are generated from the [AWS-provided schema definition file](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-resource-specification.html).
 
 See also [the example included in the repository](https://github.com/bright/cloudform/blob/master/example/example.ts).
 
@@ -138,15 +138,19 @@ Now, run the binary that was installed for you specifying the path to your templ
 
 `cloudform cloudformation/index.ts > template.out`
 
-And if no compilation errors happen, `template.out` is now a JSON ready to be used within CloudFormation.
+And if no compilation errors happen, `template.out` is now a JSON file ready to be used within CloudFormation.
 
-## What cloudform is not
+## What `cloudform` is not
 
-I can feel your excitement already 😆, but let's be clear what cloudform does and what it out of its scope. Basically it translates the TypeScript code into the JSON object as-is. Whatever you put in your TypeScript, as long as it compiles, will be included in the generated file. There is no validation or any domain-level checks implemented - if you reference the resource, parameter or condition that does not exists or use a nonsensical value for a parameter, cloudform will not warn you today (CloudFormation will do most probably). The goal of this package is not to create a full-blown DSL for CloudFormation. It is rather to get the most value out of TypeScript features, so if any more complex checks are to be implemented, it would most probably be about things that TypeScript can verify compile-time. If you need a full validation, there are some specialized tools out there already (see for example [`cfn-lint`](https://www.npmjs.com/package/cfn-lint) or [`cfn-check`](https://www.npmjs.com/package/cfn-check)), so it might have sense to chain it after cloudform.
+I can feel your excitement already 😆, but let's be clear what `cloudform` does and what it out of its scope. Basically it translates the TypeScript code into the JSON object as-is. Whatever you put in your TypeScript, as long as it compiles, will be included in the generated file. There is no validation or any domain-level checks implemented - if you reference the resource, parameter or condition that does not exists or use a nonsensical value for a parameter, `cloudform` will not warn you today (CloudFormation will do most probably). 
+
+The goal of this package is not to create a full-blown DSL for CloudFormation. It is rather to get the most value out of TypeScript features, so if any more complex checks are to be implemented, it would most probably be about things that TypeScript can verify compile-time. If you need a full validation, there are some specialized tools out there already (see for example [`cfn-lint`](https://www.npmjs.com/package/cfn-lint) or [`cfn-check`](https://www.npmjs.com/package/cfn-check)), so it might have sense to chain it after `cloudform`.
+
+Note also that `cloudform` does not attempt to interact with your AWS stack in any way, nor reading neither writing - no credentials are needed. It makes it 100% safe to experiment with. All the stack interactions (i.e. deployment) are outside of the scope of this tool.
 
 ## What's next?
 
-The package sources are MIT-licenced, [available on GitHub](https://github.com/bright/cloudform). If you find something is missing or invalid in cloudform, feel free to open an issue on GitHub or - even better - contribute yourself.
+The package source code is MIT-licenced, [available on GitHub](https://github.com/bright/cloudform). If you find that something is missing or invalid in `cloudform`, feel free to open an issue on GitHub or - even better - contribute yourself!
 
 Stay tuned for few more examples and recipes how to build template generation into your Continuous Delivery workflow.
 
