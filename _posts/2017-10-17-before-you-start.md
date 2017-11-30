@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Before you start
-comments: true
+comments: false
 author: piotr_l
-hidden: false
+hidden: true
 tags: [UX, iOS, Android, mobile]
 ---
 ![Image Title](/images/before-you-start/ux.jpg){: .center-image}
