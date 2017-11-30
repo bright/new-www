@@ -141,7 +141,7 @@ And if no compilation errors happen, `template.out` is now a JSON file ready to 
 
 ## What cloudform is not
 
-I can feel your excitement already 😆, but let's be clear what `cloudform` does and what it out of its scope. Basically it translates the TypeScript code into the JSON object as-is. Whatever you put in your TypeScript, as long as it compiles, will be included in the generated file. There is no validation or any domain-level checks implemented – if you reference the resource, parameter or condition that does not exists or use a nonsensical value for a parameter, `cloudform` will not warn you today (CloudFormation will do most probably). 
+I can feel your excitement already 😆, but let's be clear what `cloudform` does and what is out of its scope. Basically it translates the TypeScript code into the JSON object as-is. Whatever you put in your TypeScript, as long as it compiles, will be included in the generated file. There is no validation or any domain-level checks implemented – if you reference a resource, parameter or condition that does not exists or use a nonsensical value for a parameter, `cloudform` will not warn you today (CloudFormation will do most probably). 
 
 The goal of this package is not to create a full-blown DSL for CloudFormation. It is rather to get the most value out of TypeScript features, so if any more complex checks are to be implemented, it would most probably be about things that TypeScript can verify compile-time. If you need a full validation, there are some specialized tools out there already (see for example [`cfn-lint`](https://www.npmjs.com/package/cfn-lint) or [`cfn-check`](https://www.npmjs.com/package/cfn-check)), so it might have sense to chain it after `cloudform`.
 
