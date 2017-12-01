@@ -24,7 +24,7 @@ We have also another tradition called Lunch Roulette, I suppose liked by everyon
 
 ![](https://lh3.googleusercontent.com/-lxu7gLdT8gg/WiE2q3eINWI/AAAAAAAAAeI/2ENM6mVi1YIJe1occATMsU9FdrogIcErgCLcBGAs/s0/knowledgeeee.jpg)
 
-Knowledge sharing is always about team’s input. Less experienced employees should not be afraid of showing their perspective on the problem. Getting feedback especially for them might be extremely significant. There is nothing worse that the lack of information that prevents you from moving on with a project. That is why creating habits for sharing knowledge should be an indispensable part for successful company management. Yet the responsibility for creating this kind of habits should be taken by the whole team. We should all encourage each other to express our views, ask questions and share our experience.
+Knowledge sharing is always about team’s input. Less experienced employees should not be afraid of showing their perspective on the problem. Getting feedback especially for them might be extremely significant. There is nothing worse than the lack of information that prevents you from moving on with a project. That is why creating habits for sharing knowledge should be an indispensable part for successful company management. Yet the responsibility for creating this kind of habits should be taken by the whole team. We should all encourage each other to express our views, ask questions and share our experience.
 
 **Because in the end, as The Beatles sang - *the love you take is always equal to the love you make*. The rule is simple. If we do not share our knowledge, let us not expect that others will.**
 
