@@ -14,7 +14,7 @@ One of the most basic kind of logging every backend application should have is a
 
 The processing of an incoming HTTP request might consist of many tasks we want our backend to do including database queries, third party service calls and all kinds of data processing. By the nature of Node.JS, Express processes it asynchronously. The incoming data and the outgoing result of the HTTP request being processed are also decoupled in the Node's `http` module's code via the separation of [`ClientRequest`](https://nodejs.org/api/http.html#http_class_http_clientrequest) from [`ServerResponse`](https://nodejs.org/api/http.html#http_class_http_serverresponse) objects. 
 
-These are the reasons we should always care about the beginning and the end of the processing pipeline separately and log both of them. In Express it's easy to use [middlewares](https://expressjs.com/en/guide/using-middleware.html) to stow into the beginning of the processing and execute our logging code there. Let's start with this simplistic approach:
+These are the reasons we should always care about the beginning and the end of the processing pipeline separately and log both of them. In Express it's easy to use [middlewares](https://expressjs.com/en/guide/using-middleware.html) to stow into the beginning of the processing and execute our logging code there. Let's start with this simplistic approach, written in TypeScript:
 
 ```typescript
 const logRequestStart = (req: Request, res: Response, next: NextFunction) => {
@@ -29,7 +29,7 @@ It's definitely missing a lot of general identification stuff to be useful, but 
 
 ![Node.JS logging](/images/node-logging.jpeg)
 
-How about logging the other end of the processing pipeline? We have no generic way to attach a middleware to the end of processing and appending the `logRequestEnd` middleware manually at the end of each route definition would be very repetitive and cumbersome. But fortunately, `ServerResponse` is an [`EventEmitter`](https://nodejs.org/api/events.html#events_class_eventemitter) - it emits the events when it's finished and we can subscribe with our code there. Here is our updated code:
+How about logging the other end of the processing pipeline? We have no generic way to attach a middleware to the end of processing and appending the `logRequestEnd` middleware manually at the end of each route definition would be very repetitive and cumbersome. But fortunately, `ServerResponse` is an [`EventEmitter`](https://nodejs.org/api/events.html#events_class_eventemitter) - it emits the events when it's finished and we can subscribe with our code there. Here is our updated code (TypeScript again):
 
 ```typescript
 const logRequestStart = (req: Request, res: Response, next: NextFunction) => {
@@ -51,7 +51,7 @@ Note we now attach a function as a subscriber to `finish` event emitted by our H
 
 The code above has (at least) one problem. Not all the responses actually finish - when the request is aborted by the client or internal unhandled error is thrown, `ServerResponse` emits `close` and `error` events accordingly, instead, and we should also subscribe on them. The problem here is, though, we can't expect `res.statusCode` to be set properly in these cases. This itself is rather obvious, given the fact that the processing was abruptly interrupted for some reason. What is surprising, though, is that when we actually read it anyway, for example assuming that `statusCode` will be undefined or falsy, we get `200` (success status code) instead. This tricked us in the past because if we logged it as-is, while reading the logs afterwards we might overlook the fact that the request definitely wasn't that successful. I'd argue that this was a rather strange design decision of Node's `http` module creators to set the `statusCode` to 200 initially and let it be overwritten in case of unsuccessful responses - if the outcome is not yet known, it should not falsely indicate it is successful.
 
-The code that handles these cases correctly might look as follows:
+The TypeScript code that handles these cases correctly might look as follows:
 
 ```typescript
 const getLoggerForStatusCode = (statusCode: number) => {
