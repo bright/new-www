@@ -4,6 +4,7 @@ title: Engagement is not an act, but a habit
 author: ula
 hidden: false
 tags: engagement productivity self-development teamspirit success 
+image: /images/engagement/engagement.jpg
 ---
 
 
