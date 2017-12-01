@@ -13,7 +13,7 @@ Sounds great, isn't it? Yes, but it's necessary to understand how push notificat
 
 ## iOS 10 novelties
 
-iOS 10, in addition to short text message, playing a notification sound, and setting a budge number on the app's icon, has expanded iOS push notifications capabilities with:
+iOS 10, in addition to short text message, playing a notification sound, and setting a badge number on the app's icon, has expanded iOS push notifications capabilities with:
 
 - **media attachments** (images, gifs, audio, video),
 - expanding detail view with **3D Touch**,
@@ -27,7 +27,7 @@ This allows developers to increase push notifications quality and get even more 
 
 ## The server
 
-Push notifications **are sent from the server** to `Apple Push Notification service` directed to one or more specific devices that has registered to the `APNs`. This means that we need to set up a server that will gather mobile **devices tokens** and use them to send push notifications through `APNs`. It might sound quite complicated, but don't worry, there are plenty of ready-made solutions that can be used, even for free.
+Push notifications are sent on `Apple Push Notification service` (APNs) behalf, directed to one or more specific devices that has registered to the APNs. To achieve that we need to set up a server that will gather mobile **devices tokens** and use them to send push notifications through APNs. It might sound quite complicated, but don't worry, there are plenty of ready-made solutions that can be used, even for free.
 
 Lets glance on the most popular services that support both iOS and Android:
 
@@ -39,22 +39,22 @@ Each of these services offers also other features like analytics, A/B testing, c
 
 Note that using a 3rd party service has its **downsides**, like:
 
-- If you decide to switch to **your own server**, you'll need to communicate with the service you've used instead of the `APNS` directly, or you'll have to reconfigure your mobile app.
+- If you decide to switch to **your own server**, you'll need to communicate with the service you've used instead of the APNs directly, or you'll have to reconfigure your mobile app.
 - You must be aware, that your data is sent through servers that you don't control, so it might concern you regarding your data protection policy.
 - Some services are **free until you reach some limit**, for example, Mixpanel lets you create only [up to 1000 user profiles for free](https://mixpanel.com/pricing/#people). It might be expensive if your app becomes popular.
 - When a service is being closed down, you have limited time to migrate to another provider. Such situation has already happened with a very popular platform for mobile developers maintained by Facebook called **Parse**, which was [shut down on January, 2017](http://blog.parse.com/announcements/moving-on). The project is now [open source](http://docs.parseplatform.org) and you can set it up on your own machine, but you can't use it out of the box anymore.
 
 ## Firebase
 
-For purpose of this post we'll use the [`Firebase Cloud Messaging`](https://firebase.google.com). It's an interesting solution, especially that on I/O 2016 Google have turned Firebase into an unified mobile platform, that has replaced the `Google Cloud Platform` as the default solution for handling push notifications on Android. This means that we can use the same service for sending push notifications on both platforms, while using the default implementation on Android.
+For purpose of this post we'll use the [`Firebase Cloud Messaging`](https://firebase.google.com) (FCM). It's an interesting solution, especially that on I/O 2016 Google have turned Firebase into an unified mobile platform, that has replaced the `Google Cloud Platform` as the default solution for handling push notifications on Android. This means that we can use the same service for sending push notifications on both platforms, while using the default implementation on Android.
 
-`FCM` inherits `GCM`'s core infrastructure, but simplifies the client development. `GCM` is still supported but all new client-side features will be available on `FCM` only. `Firebase Cloud Messaging` uses the `Apple Push Notification service` to send messages to your iOS app.
+FCM inherits GCM's core infrastructure, but simplifies the client development. GCM is still supported but all new client-side features will be available on FCM only. `Firebase Cloud Messaging` uses the `Apple Push Notification service` to send messages to your iOS app.
 
 ## Certificates
 
-First, we need to generate `APNs SSL Certificate` or `APNs Authentication Key` to allow our notification server (Firebase) to connect to the `APNs`.
+First, we need to generate `APNs SSL Certificate` or `APNs Authentication Key` to allow our notification server (Firebase) to connect to the APNs.
 
-Configuration with auth keys is recommended as they are the more current method for sending notifications to iOS, but they might be problematic since they are bigger. This happened to me when I wanted to upload Base64 coded auth key to the AWS using Cloud Formation configuration.
+Configuration with auth keys is recommended as they are the more current method for sending notifications to iOS, but they might be problematic since they are bigger. This happened to me when I wanted to upload Base64-coded auth key to the AWS using Cloud Formation configuration.
 
 #### To enable push notifications service in application identifier:
 
@@ -150,7 +150,7 @@ if #available(iOS 10.0, *) {
 
 ## Device token
 
-`APNs` device token allows you to target notification messages to the particular instance of the app. It rarely changes, but you can't assume that it won't happen, because the token may change when:
+APNs device token allows you to target notification messages to the particular instance of the app. It rarely changes, but you can't assume that it won't happen, because the token may change when:
 
 - The user reinstalls the app
 
@@ -160,11 +160,20 @@ if #available(iOS 10.0, *) {
 
 If you handle push notifications manually, you need to upload and refresh the device token on your own, so you'd have to implement server logic to store tokens and determine whether the token sent is new. If you're using Firebase SDK and you haven't disabled **method swizzling** (the process of changing the implementation of an existing selector) then you don't have to do that, Firebase will handle it for you.
 
+When handling device tokens manually, you need to remember that device token is not a string, it's 32 bytes of opaque data that needs to be decoded. You can do that in the following way:
+
+```swift
+func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+    let token = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
+    print(token)
+}
+```
+
 ## Testing
 
-It might be quite troublesome to test push notifications because you **can't do that on iOS simulator** and you need to make sure that it works correctly on each build configuration. You can send yourself a push notification from [Firebase Console](https://console.firebase.google.com) (GROW->Notifications->NEW MESSAGE on the left pane) but you'll have to target all users unless you have some segments or [topics](https://firebase.google.com/docs/cloud-messaging/ios/topic-messaging) defined. Another way to target notification is to provide `FCM` registration token that you'll receive in `messaging:didReceiveRegistrationToken` callback of the `FIRMessaging` delegate after every token refresh and on each app startup.
+It might be quite troublesome to test push notifications because you **can't do that on iOS simulator** and you need to make sure that it works correctly on each build configuration. You can send yourself a push notification from [Firebase Console](https://console.firebase.google.com) (GROW->Notifications->NEW MESSAGE on the left pane) but you'll have to target all users unless you have some segments or [topics](https://firebase.google.com/docs/cloud-messaging/ios/topic-messaging) defined. Another way to target notification is to provide FCM registration token that you'll receive in `messaging:didReceiveRegistrationToken` callback of the `FIRMessaging` delegate after every token refresh and on each app startup.
 
-There is also a very useful command line tool called [Houston](https://github.com/nomad/houston) that lets you send push notifications directly to `APNs` with a single command:
+There is also a very useful command line tool called [Houston](https://github.com/nomad/houston) that lets you send push notifications directly to APNs with a single command:
 
 ```bash
 apn push "device-token" -c /path/to/cert.pem -m "Hello from the command line! "
@@ -188,7 +197,7 @@ openssl pkcs12 -in cert.p12 -out cert.pem -nodes -clcerts
 
 Background update notifications, often referred as silent notifications, were introduced in iOS 7 to provide a way to wake up an app so that it could refresh its data in the background. It's very useful to improve user experience and prevent displaying outdated information when user launches the app.
 
-Since silent notifications are meant to refresh data in background, `APNs` treats them as low priority and may throttle their delivery if the total number of notifications becomes excessive. The limits are dynamic and can change based on conditions, but you should not send more than a few notifications per hour.
+Since silent notifications are meant to refresh data in background, APNs treats them as low priority and may throttle their delivery if the total number of notifications becomes excessive. The limits are dynamic and can change based on conditions, but you should not send more than a few notifications per hour.
 
 To support a background update notifications, make sure that the payload's `aps` dictionary includes the `content-available` key with a value of `1`. You also need to enable **Remote notifications** background mode in your project settings (Capabilities->Background Modes):
 
