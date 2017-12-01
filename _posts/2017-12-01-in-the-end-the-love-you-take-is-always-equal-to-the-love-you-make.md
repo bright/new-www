@@ -1,15 +1,14 @@
 ---
 layout: post
 title: In the end, the love you take is always equal to the love you make
-excerpt: Elen Musk once said that leadership does not depend nowadays on the number of patents companies have, but on the ability to hire talented people who know how to make the most of the knowledge and skills they have. Knowledge and patents themselves should be open source. 
-Knowledge sharing is the process in which the main role is always played by people. It is about collaborative learning where everyone contribute to drive a real value. By sharing our individual experiences, know-how and skills with others we really learn a lot and gain new perspectives.
+excerpt: Elon Musk once said that leadership does not depend nowadays on the number of patents companies have, but on the ability to hire talented people who know how to make the most of the knowledge and skills they have. Knowledge and patents themselves should be open source. Knowledge sharing is the process in which the main role is always played by people. It is about collaborative learning where everyone contribute to drive a real value. By sharing our individual experiences, know-how and skills with others we really learn a lot and gain new perspectives.
 author: ula
 hidden: false
 tags: knowledge productivity success teamwork
 image: /lh3.googleusercontent.com/-lxu7gLdT8gg/WiE2q3eINWI/AAAAAAAAAeI/2ENM6mVi1YIJe1occATMsU9FdrogIcErgCLcBGAs/s0/knowledgeeee.jpg
 ---
 
-Elen Musk once said that leadership does not depend nowadays on the number of patents companies have, but on the ability to hire talented people who know how to make the most of the knowledge and skills they have. Knowledge and patents themselves should be open source. 
+Elon Musk once said that leadership does not depend nowadays on the number of patents companies have, but on the ability to hire talented people who know how to make the most of the knowledge and skills they have. Knowledge and patents themselves should be open source. 
 
 Knowledge sharing is the process in which the main role is always played by people. It is about collaborative learning where everyone contribute to drive a real value. By sharing our individual experiences, know-how and skills with others we really learn a lot and gain new perspectives.
 
