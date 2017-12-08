@@ -6,7 +6,7 @@ In this post I want to focus on pedometer events and how to handle it.'
 author: kwysocki
 tags : [iOS, swift, CoreMotion, pedometer, tutorial]
 comments: true
-hidden: true
+hidden: false
 image: /images/coremotion-pedometer-swift/footsteps.jpg
 ---
 
