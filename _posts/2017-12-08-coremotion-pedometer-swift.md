@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'CoreMotion closer look at pedometer'
+title: 'Implementing a simple pedometer using Swift'
 excerpt: 'Core Motion is well-known iOS framework. As we could read in [docs](https://developer.apple.com/documentation/coremotion) it process accelerometer, gyroscope, pedometer environemnt-related events.
 In this post I want to focus on pedometer events and how to handle it.'
 author: kwysocki
@@ -12,8 +12,14 @@ image: /images/coremotion-pedometer-swift/footsteps.jpg
 
 ![footsteps image](/images/coremotion-pedometer-swift/footsteps.jpg)
 
-Core Motion is a well-known iOS framework. As we could read in [docs](https://developer.apple.com/documentation/coremotion) it processes accelerometer, gyroscope, pedometer environment-related events.
-In this post I want to focus on the pedometer events and how to handle them .
+Ok... but what the pedometer is? Here you have a wikipedia definition:
+
+>A pedometer is a device, usually portable and electronic or electromechanical, that counts each step a person takes by detecting the motion of the person's hands or hips.
+
+and YES, you can create your own pedometer using iOS framework called CoreMotion.
+
+CoreMotion is a well-known iOS framework. As we could read in [docs](https://developer.apple.com/documentation/coremotion) it processes accelerometer, gyroscope, pedometer environment-related events.
+In this post I want to focus on the pedometer events and how to handle them.
 
 ## Overview
 
@@ -67,7 +73,7 @@ As we can read in [Apple docs](https://developer.apple.com/documentation/coremot
 >Important
 >An iOS app linked on or after iOS 10.0 must include usage description keys in its Info.plist file for the types of data it needs. Failure to include these keys will cause the app to crash. To >access motion and fitness data specifically, it must include NSMotionUsageDescription.
 
-So add to your `info.plis` `NSMotionUsageDescription` key modifying plain file:
+So add to your `info.plist` `NSMotionUsageDescription` key modifying plain file:
 
 ```xml
 <key>NSMotionUsageDescription</key>
