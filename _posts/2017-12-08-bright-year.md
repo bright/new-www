@@ -5,6 +5,7 @@ excerpt: There is nothing more important than people at work who support you, wh
 author: ula
 hidden: false
 tags: teamspirit engagement trust success
+image: https://lh3.googleusercontent.com/-kcqb89XnL-Q/Wip5awbzBoI/AAAAAAAAAe0/lzNnC8KXGkYIWeSweHPfYQSEcr4YtIUpwCLcBGAs/s0/photo-1455849318743-b2233052fcff.jpeg
 ---
 
 It is almost the end of the year and for me it is also a kind of anniversary.  
