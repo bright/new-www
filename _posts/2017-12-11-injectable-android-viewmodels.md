@@ -41,7 +41,7 @@ A `ViewModelProvider.Factory` interface defines only one method:
 <T extends ViewModel> T create(@NonNull Class<T> modelClass);
 {% endhighlight %}
 
-As you can see, it takes the class of the view model and it must return the its instance.
+As you can see, it takes the class of a view model and it must return its instance.
 
 In order to use a single simple and universal factory (which is the main point of this post) for all the view models we need to create a map of `Provider`s for every view model class. When I was analysing the mentioned Google's sample I didn't know how the map generation works and it wasn't very easy to understand so I'm going to exaplain it a little more here to save you the trouble.
 
@@ -61,7 +61,7 @@ Note: Dagger generates Java sources and that's why we must remember about the va
 
 > error: [dagger.android.AndroidInjector.inject(T)] java.util.Map<java.lang.Class<? extends android.arch.lifecycle.ViewModel>,? extends javax.inject.Provider<android.arch.lifecycle.ViewModel>> cannot be provided without an @Provides-annotated method.
 
-This map's entries consist of a key - a class of any view model and a value - a `Provider` of any view model. Obviously, we must feed the map with the corresponding `Provider`s for every view model, e.g. `ViewModelA -> Provider<ViewModelA>`. With such map the factory will be able to easily return an instance of any view model with all its dependencies fulfilled by Dagger.
+This map's entries consist of a key - a class of any view model and a value - a `Provider` of any view model. Obviously, we must feed the map with the corresponding `Provider` for every view model, e.g. `Class<ViewModelA> -> Provider<ViewModelA>`. With such map the factory will be able to easily return an instance of any view model with all its dependencies fulfilled by Dagger.
 
 In order to generate the map we need two elements: a map key definition and a module with view model _bindings_.
 
@@ -149,7 +149,7 @@ abstract class ViewModelModule {
 }
 {% endhighlight %}
 
-## Obtaining view model ##
+## Obtaining view models ##
 
 In the activity you can now inject the factory:
 
