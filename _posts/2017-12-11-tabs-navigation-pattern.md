@@ -294,7 +294,7 @@ While calculating how much to scale the tab, we need to define how far away (`di
 
 That's it, sliding tabs ready to use!
 
-![Slide Penguin GIF](https://media1.tenor.com/images/886aa324935400367da95a141e16d316/tenor.gif)
+![Slide Penguin GIF](/images/radek/sliding_penguin.gif)
 
 
 
