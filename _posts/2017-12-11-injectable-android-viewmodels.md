@@ -18,7 +18,7 @@ I think the fact that Google has decided to help developers by creating their ow
 
 A few months before its release I was wondering what's the best approach to introduce the MVP or MVVM pattern on Android. I have tested or reviewed a few libs on GitHub and none of them seemed good enough for me - either due to their limitations or a huge amount of boilerplate code they required. Also the way they were implemented and the number of reported bugs were not encouraging.
 
-I was envoius of the simple approach the iOS developers have - they can instantiate a view controller on their own and pass a view model directly to it (e.g. via the constructor). The iOS system also doesn't kill the view controller when the screen orientation changes so it doesn't have to obtain the view model again and, at the same time, the view model gets destroyed with the view controller when it's not needed anymore (provided that you don't hold another reference to it).
+I was envious of the simple approach the iOS developers have - they can instantiate a view controller on their own and pass a view model directly to it (e.g. via the constructor). The iOS system also doesn't kill the view controller when the screen orientation changes so it doesn't have to obtain the view model again and, at the same time, the view model gets destroyed with the view controller when it's not needed anymore (provided that you don't hold another reference to it).
 
 But on Android you start with an activity component and you can't prepare the view model outside of its lifecycle easily. Also storing the reference to the view model only in the activity which gets destroyed on every configuration change (like screen orientation) will destroy the view model as well and it's not convenient. If you would like the view model to survive, you would have to hold a reference to it somewhere else but then another problems arise e.g. how to clean the view model when it's not needed anymore or how to make every activity of the same class to use different view model instance.
 
@@ -26,7 +26,7 @@ The Google's `ViewModel` was designed to help with such issues. Unfortunately, i
 
 # Injectable ViewModels #
 
-Before we begin to play with the code I wanted to add that I have Googled other people's approaches to view model injections and I didn't like them too much because of the significant amount of the boilerplate code (e.g. writing a separate view model factory per view model). The best one, which my example is based on, comes from the [Google's samples repository](https://github.com/googlesamples/android-architecture-components/tree/master/GithubBrowserSample). I have simplified some parts of it and rewritten it in Kotlin.
+Before we begin to play with the code I wanted to add that I have googled other people's approaches to view model injections and I didn't like them too much because of the significant amount of the boilerplate code (e.g. writing a separate view model factory per view model). The best one, which my example is based on, comes from the [Google's samples repository](https://github.com/googlesamples/android-architecture-components/tree/master/GithubBrowserSample). I have simplified some parts of it and rewritten it in Kotlin.
 
 _Note: you can access the whole code used in this example [on GitHub](https://github.com/azabost/simple-mvvm-example)._
 
