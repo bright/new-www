@@ -4,17 +4,19 @@ title: Tabs - navigation pattern on Android
 author: radek
 tags: ['android', 'tabs', 'layout', 'user interface', 'customization']
 ---
-Proper organizing content in your Android application may be achieved with wide range of layouts and widgets. Today I'd like to focus on tabs, that is what components are dedicated to use tabs in application, what are key principles in using them and how to customize it's view.
+Proper content organizing in your Android application may be achieved with wide range of layouts and widgets. Today I'd like to focus on tabs, that is what components are dedicated to use tabs in application, what are key principles in using them and how to customize it's view.
+
+![Folder Tabs Img](/images/radek/folder_tabs.jpg)
 
 ## Basic concept
 
-// intro todo
+Tabs are the pattern so common and simple, it exceeds mobile or web apps design. To avoid overusing it though we need some clarification about it's usage.
 
-What is it for?
+###### What is it for?
 
 Key feature is to make user aware of alternate views and give the ability to frequent switching between them. It may help to organize data sets (music > rock, pop, jazz, swing) or views with similar aspect (music > all, recent, recommended).
 
-What is it NOT for?
+###### What is it NOT for?
 
 Apps with deep navigation structure or apps with single core functionality. It might not be easy to classify the application like that, but it won't fit in most cases.
 
@@ -22,8 +24,8 @@ If we are starting to design tab layout, first let's define some principles that
 
 > Each tab should be equally important
 
-Sometimes it might be a little confusing, but try to bring it to the basics. There's a little example:
-Good usage: Horrors, Comedies, Thrillers, Drama
+Sometimes it might be a little confusing, but try to bring it to the basics. There's a little example:   
+Good usage: Horrors, Comedies, Thrillers, Drama   
 Bad usage: Blog, Store, Contact Us, About
 
 > Follow layout principles
@@ -37,8 +39,6 @@ It may be problematic in two cases. One is size of the tab, which should be simi
 
 
 The concept above should be pretty general and mostly applies not only to the Android apps. From now on let's write some code! And this is going to be very Android-specific ;)
-
-
 
 ## Default usage
 
@@ -102,7 +102,7 @@ myTabLayout.addTab(tab)
 
 Fun part is to finally add some more interesting view of our tabs instead of using only text. Let's combine the text with some nice images! Like this:
 
-[image]
+![single tab](/images/radek/tab.png)
 
 Define round background for our image under `res/drawable`:
 
@@ -158,11 +158,11 @@ myTabLayout.addTab(myTabLayout.newTab().setCustomView(tab))
 
 
 
-##Little fancy customization
+## Little fancy customization
 
 In the end I'd like to share with you my concept of TabLayout view, feel free to take same inspiration. Here's how it's gonna look like:
 
-![SlideLayout](path)
+![SlideLayout gif capture](path/todo)
 
 To achieve that we'll need to override some TabLayout functionality! This is what we gonna start with:
 
@@ -298,7 +298,7 @@ That's it, sliding tabs ready to use!
 
 
 
-Full code you can find on [my github](https://github.com/user/project). It contains even more functionality with scrolling and docking tabs in the center. Feel free to test it, use it and modify it!
+Full code you can find on [my github](todo). It contains even more functionality with scrolling and docking tabs in the center. Feel free to test it, use it and modify it!
 
 #### References:
 
