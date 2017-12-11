@@ -13,14 +13,13 @@ Proper content organizing in your Android application may be achieved with wide 
 Tabs are the pattern so common and simple, it exceeds mobile or web apps design. To avoid overusing it though we need some clarification about it's usage.
 
 ###### What is it for?
-
 Key feature is to make user aware of alternate views and give the ability to frequent switching between them. It may help to organize data sets (music > rock, pop, jazz, swing) or views with similar aspect (music > all, recent, recommended).
 
 ###### What is it NOT for?
-
 Apps with deep navigation structure or apps with single core functionality. It might not be easy to classify the application like that, but it won't fit in most cases.
 
 If we are starting to design tab layout, first let's define some principles that we will follow. It might be important to say it before starting the implementation and keep it in mind.
+
 
 > Each tab should be equally important
 
@@ -28,15 +27,15 @@ Sometimes it might be a little confusing, but try to bring it to the basics. The
 Good usage: Horrors, Comedies, Thrillers, Drama   
 Bad usage: Blog, Store, Contact Us, About
 
+
 > Follow layout principles
 
 Even if we are going to customize our view, there's some points that we'll never break. I know you might disagree with some, but in my opinion these are what keeps the layout clear and understandable for the user. First of all, present tabs as a single row, either horizontal or vertical. Second, always highlight selected tab, so the user knows where he is in the app. Third, do not nest the tabs. Fourth, adjust tab name or view to it's content, so to the photos section lead tab with name "photos", not e.g. "recording".
 
+
 > Keep consistent design of the tabs
 
 It may be problematic in two cases. One is size of the tab, which should be similar for each one. You should be avoiding long descriptions in the tab, because it is easier to adjust size of one-word tabs to each others. Second is if you decide to use something more than text tabs, like with images for example, you should keep the pattern for each one and do not combine image tabs with text tabs. It brings unnecessary mess.
-
-
 
 The concept above should be pretty general and mostly applies not only to the Android apps. From now on let's write some code! And this is going to be very Android-specific ;)
 
@@ -155,8 +154,6 @@ tab.tabImage.setImageResource(R.drawable.dog)
 tab.tabText.text = "DOG"
 myTabLayout.addTab(myTabLayout.newTab().setCustomView(tab))
 ```
-
-
 
 ## Little fancy customization
 
