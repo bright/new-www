@@ -34,7 +34,7 @@ _Note: you can access the whole code used in this example [on GitHub](https://gi
 
 The default library's factory instantiates view models using empty constructors. Of course we can't use it as we are going to create the view models with non-empty constructors, passing the dependencies obtained from Dagger.
 
-A `ViewModelProvider.Factory` interface defines only one method:
+The `ViewModelProvider.Factory` interface defines only one method:
 
 {% highlight java %}
 @NonNull
@@ -57,7 +57,7 @@ which can be translated to Kotlin as:
 
 `Map<Class<out ViewModel>, @JvmSuppressWildcards Provider<ViewModel>>`
 
-Note: Dagger generates Java sources and that's why we must remember about the variance differences between Java and Kotlin ([generics docs](https://kotlinlang.org/docs/reference/generics.html), [Java to Kotlin interoperability docs](https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html)) which could be troublesome if you don't use the `@JvmSuppressWildcards` annotation, resulting in this error:
+_Note: Dagger generates Java sources and that's why we must remember about the variance differences between Java and Kotlin ([generics docs](https://kotlinlang.org/docs/reference/generics.html), [Java to Kotlin interoperability docs](https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html)) which could be troublesome if you don't use the `@JvmSuppressWildcards` annotation, resulting in this error:_
 
 > error: [dagger.android.AndroidInjector.inject(T)] java.util.Map<java.lang.Class<? extends android.arch.lifecycle.ViewModel>,? extends javax.inject.Provider<android.arch.lifecycle.ViewModel>> cannot be provided without an @Provides-annotated method.
 
@@ -98,7 +98,7 @@ abstract class ViewModelModule {
 }
 {% endhighlight %}
 
-Note: you may want to read the `Binds` [docs](https://google.github.io/dagger/api/2.13/dagger/Binds.html), `IntoMap` [docs](https://google.github.io/dagger/api/2.13/dagger/multibindings/IntoMap.html) and multibindings [docs](https://google.github.io/dagger/multibindings.html).
+_Note: you may want to read the `Binds` [docs](https://google.github.io/dagger/api/2.13/dagger/Binds.html), `IntoMap` [docs](https://google.github.io/dagger/api/2.13/dagger/multibindings/IntoMap.html) and multibindings [docs](https://google.github.io/dagger/multibindings.html)._
 
 ### Using the map in the factory ###
 
