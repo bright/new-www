@@ -38,7 +38,7 @@ A `ViewModelProvider.Factory` interface defines only one method:
 
 {% highlight java %}
 @NonNull
-&lt;T extends ViewModel&gt; T create(@NonNull Class&lt;T&gt; modelClass);
+<T extends ViewModel> T create(@NonNull Class<T> modelClass);
 {% endhighlight %}
 
 As you can see, it takes the class of the view model and it must return the its instance.
@@ -76,7 +76,7 @@ import kotlin.reflect.KClass
 @Target(AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.RUNTIME)
 @MapKey
-annotation class ViewModelKey(val value: KClass&lt;out ViewModel&gt;)
+annotation class ViewModelKey(val value: KClass<out ViewModel>)
 {% endhighlight %}
 
 And then we can use it in a module like below.
@@ -113,11 +113,11 @@ import javax.inject.Singleton
 
 @Singleton
 class InjectingViewModelFactory @Inject constructor(
-        private val viewModelProviders: Map&lt;Class&lt;out ViewModel&gt;, @JvmSuppressWildcards Provider&lt;ViewModel&gt;&gt;
+        private val viewModelProviders: Map<Class<out ViewModel>, @JvmSuppressWildcards Provider<ViewModel>>
 ) : ViewModelProvider.Factory {
 
     @Suppress("UNCHECKED_CAST")
-    override fun &lt;T : ViewModel&gt; create(modelClass: Class&lt;T&gt;): T {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
         val provider = viewModelProviders[modelClass]
                 ?: viewModelProviders.entries.first { modelClass.isAssignableFrom(it.key) }.value
 
