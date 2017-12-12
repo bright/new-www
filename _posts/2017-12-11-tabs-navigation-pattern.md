@@ -5,50 +5,44 @@ author: radek
 hidden: true
 tags: ['android', 'tabs', 'layout', 'user interface', 'customization']
 ---
-Proper content organizing in your Android application may be achieved with a wide range of layouts and widgets. Today I'd like to focus on tabs, that is what components are dedicated to using tabs in an application, what are key principles in using them and how to customize its view.
-
+Proper content organizing in your Android application may be achieved with a wide range of layouts and widgets. Today I'd like to focus on tabs, that is what components are dedicated to using tabs in an application, what are key principles in using them and how to customize its view.   
 ![Folder Tabs Img](/images/radek/folder_tabs.jpg)
 
 ## Basic concept
+Tabs are the pattern so common and simple, it exceeds mobile or web apps design. To avoid overusing it though we need some clarification about its usage.   
 
-Tabs are the pattern so common and simple, it exceeds mobile or web apps design. To avoid overusing it though we need some clarification about its usage.
+**What is it for?**   
+The key feature is to make a user aware of alternate views and give the ability to frequent switching between them. It may help to organize data sets (music > rock, pop, jazz, swing) or views with similar aspect (music > all, recent, recommended).   
 
-###### What is it for?
-The key feature is to make a user aware of alternate views and give the ability to frequent switching between them. It may help to organize data sets (music > rock, pop, jazz, swing) or views with similar aspect (music > all, recent, recommended).
-
-###### What is it NOT for?
+**What is it NOT for?**   
 Apps with deep navigation structure or apps with single core functionality. It might not be easy to classify the application like that, but it won't fit in most cases.
 
-If we are starting to design tab layout, first let's define some principles that we will follow. It might be important to say it before starting the implementation and keep it in mind.
-
+If we are starting to design tab layout, first let's define some principles that we will follow. It might be important to say it before starting the implementation and keep it in mind.   
 
 > Each tab should be equally important
 
 Sometimes it might be a little confusing, but try to bring it to the basics. There's a little example:   
 Good usage: Horrors, Comedies, Thrillers, Drama   
-Bad usage: Blog, Store, Contact Us, About
-
+Bad usage: Blog, Store, Contact Us, About   
 
 > Follow layout principles
 
-Even if we are going to customize our view, there are some points that we'll never break. I know you might disagree with some, but in my opinion, these are what keeps the layout clear and understandable for the user. First of all, present tabs as a single row, either horizontal or vertical. Second, always highlight selected tab, so the user knows where he is in the app. Third, do not nest the tabs. Fourth, adjust tab name or view to its content, so to the photos section lead tab with name "photos", not e.g. "recording".
-
+Even if we are going to customize our view, there are some points that we'll never break. I know you might disagree with some, but in my opinion, these are what keeps the layout clear and understandable for the user. First of all, present tabs as a single row, either horizontal or vertical. Second, always highlight selected tab, so the user knows where he is in the app. Third, do not nest the tabs. Fourth, adjust tab name or view to its content, so to the photos section lead tab with name "photos", not e.g. "recording".   
 
 > Keep consistent design of the tabs
 
 It may be problematic in two cases. One is the size of the tab, which should be similar to each one. You should be avoiding long descriptions in the tab because it is easier to adjust a size of one-word tabs to each other. Second is if you decide to use something more than text tabs, like with images, for example, you should keep the pattern for each one and do not combine image tabs with text tabs. It brings unnecessary mess.
 
-The concept above should be pretty general and mostly applies not only to the Android apps. From now on let's write some code! And this is going to be very Android-specific ;)
+The concept above should be pretty general and mostly applies not only to the Android apps. From now on let's write some code! And this is going to be very Android-specific!
 
 ## Default usage
-
-First, for using ` android.support.design.widget.TabLayout` add design support dependency to `build.gradle`:
+First, for using `android.support.design.widget.TabLayout` add design support dependency to `build.gradle`:   
 
 ```
 compile 'com.android.support:design:__NEWEST_VERSION_HERE__'
 ```
 
-Then we can define TabLayout into layout XML. The very basic usage of TabLayout is to use it as any other view container:
+Then we can define TabLayout into layout XML. The very basic usage of TabLayout is to use it as any other view container:   
 
 ```xml
 <android.support.design.widget.TabLayout
@@ -160,7 +154,7 @@ myTabLayout.addTab(myTabLayout.newTab().setCustomView(tab))
 
 In the end, I'd like to share with you my concept of a TabLayout view, feel free to take some inspiration. Here's how it's gonna look like:
 
-![SlideLayout gif capture](path/todo)
+![TODO GIF](path/todo)
 
 To achieve that we'll need to override some TabLayout functionality! This is what we gonna start with:
 
