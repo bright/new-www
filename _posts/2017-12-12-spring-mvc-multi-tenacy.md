@@ -168,7 +168,6 @@ class CommandInvocableHandlerMethod(private val handlerMethod: HandlerMethod,
         val nativeRequest = request?.getNativeRequest(HttpServletRequest::class.java)
 
         // If the response has already set error status code tomcat will not wait for async result
-        // not sure how we should only handle DispatcherType.REQUEST
         return if (nativeRequest != null && nativeRequest.dispatcherType == DispatcherType.REQUEST) {
             val callSuper = Callable {
                 super.doInvoke(*(args ?: emptyArray()))
