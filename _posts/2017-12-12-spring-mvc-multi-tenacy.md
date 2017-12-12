@@ -9,7 +9,7 @@ crosspost: false
 image: /images/spring-mvc-multi-tenancy/feeding-animals.jpg
 ---
 
-One of our clients aims to replace an old, often DOS based, point of sale systems with a cloud based, SaaS modeled solution. [At BrightInventions]({{ site.url }}) we have developed all required components including AWS based back-end processing requests originating from multiple clients. Each business that uses the SaaS point of sale can be considered a tenant in a multi-tenant environment. There many aspects involved when developing multi-tenant application with [data isolation and partitioning being the most discussed topic](http://blog.memsql.com/database-multi-tenancy-in-the-cloud-and-beyond/). However, today I would like to focus on computational and resource isolation aspect. 
+One of our clients aims to replace old, often DOS based, point of sale systems with a cloud based, SaaS modeled solution. [At BrightInventions]({{ site.url }}) we have developed all required components including AWS based back-end processing requests originating from multiple clients. Each business that uses the SaaS point of sale can be considered a tenant in a multi-tenant environment. There many aspects involved when developing multi-tenant application with [data isolation and partitioning being the most discussed topic](http://blog.memsql.com/database-multi-tenancy-in-the-cloud-and-beyond/). However, today I would like to focus on computational and resource isolation aspect. 
 
 ![Multiple consumers](/images/spring-mvc-multi-tenancy/feeding-animals.jpg)
 
@@ -35,15 +35,15 @@ server {
 }
 ```
 
-The above would only allow up to 10 request per second from the same IP address. Any request that comes in at higher rate would be queued up to specified capacity (`burst=20`). Any request above the limit would get rejected with 503. 
+The above would only allow up to 10 request per second from the same IP address. Any request that comes in at higher rate would be queued up to specified capacity (`burst=20`). Any request above the limit would get rejected with 503 status code. 
 
 The nginx approach is battle tested and fairly easy to apply. Instead of using IP address it would be better to group requests by a tenant identifier. However, it may not be easy to determine exactly which tenant is making the request unless the information is easily available in the request headers. For that matter it is good to consider sending the API client identification using a custom HTTP header. For instance if the API client provides `X-Tenant-Id: tenant.1` you can use it as `limit_req_zone $http_x_tenant_id zone=mylimit:10m rate=10r/s;`. When using JWT, you often can determine _who_ is making the request by parsing the `Authorization` header value. 
 
 ## Spring MVC request rate limit
 
-It is often not feasible to apply the request rate limit at the reverse proxy level. In such scenario we can apply the limit inside Spring MVC application. The first solution that comes to mind is to apply create a [Servlet Filter](http://www.oracle.com/technetwork/java/filters-137243.html). [There are serveral solutions](https://stackoverflow.com/questions/10127472/servlet-filter-very-simple-rate-limiting-filter-allowing-bursts) available including a [DoSFilter that is part of Jetty project](https://www.eclipse.org/jetty/javadoc/9.4.7.v20170914/org/eclipse/jetty/servlets/DoSFilter.html).
+It is often not feasible to apply the request rate limit at the reverse proxy level. In such scenario we can apply the limit inside Spring MVC application. For start one can try suing [Servlet Filter](http://www.oracle.com/technetwork/java/filters-137243.html). [There are several solutions](https://stackoverflow.com/questions/10127472/servlet-filter-very-simple-rate-limiting-filter-allowing-bursts) available including a [DoSFilter that is part of Jetty project](https://www.eclipse.org/jetty/javadoc/9.4.7.v20170914/org/eclipse/jetty/servlets/DoSFilter.html).
 
-Using a ready-made Servlet Filter is often sufficient expecially when the existing customization options suit our needs. In case of our client however we wanted the limits to depend on the size of the client. In other words the more service you buy, the more resources are available to you. Morover I wanted to have a have fine-grained controll at **a controller action** level. To my surprise such behavior was not easy to accomplish using [AsyncHandlerInterceptor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/AsyncHandlerInterceptor.html). However I did find a way to achieve a desired result using a mix of extensivility points and hacks. 
+Using a ready-made Servlet Filter is often sufficient especially when the available customization options suit our needs. In case of our client however, we wanted the limits to depend on the _size_ of the client. In other words the more service you buy, the more resources are available to you. Moreover, I wanted to have a have fine-grained control at **a controller action** level. To my surprise such behavior was not easy to accomplish using [AsyncHandlerInterceptor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/AsyncHandlerInterceptor.html). Fortunately I did find a way to achieve a desired result using a mix of extensibility points and hacks. 
 
 The first step is to customize [`RequestMappingHandlerAdapter`](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.html) used by Spring MVC to transform `@RequestMapping` annotation into handler classes. The following configuration class in Kotlin achieves just that:
 
@@ -148,7 +148,7 @@ class RateLimitingRequestMappingHandlerAdapter(private val reactiveRequestComman
 }
 ```
 
-Inside of `createInvocableHandlerMethod` we get the configuration for the `handlerMethod` deterimed by Spring MVC. The `handlerMethod` denotes a controller action. Then we decide if we should use the rate limitting handler or fallback to the default one. In case we need to apply rate limiting we switch the invocation to use custom `CommandInvocableHandlerMethod`:
+Inside of `createInvocableHandlerMethod` we get the configuration for the `handlerMethod` determined by Spring MVC. The `handlerMethod` denotes a controller action. Then we decide if we should use the rate limiting handler or fallback to the default one. In case we need to apply rate limiting we switch the invocation to use custom `CommandInvocableHandlerMethod`:
 
 ```kotlin
 class CommandInvocableHandlerMethod(private val handlerMethod: HandlerMethod,
@@ -245,6 +245,6 @@ class OptionalCallable(private val inner: RequestHandlerJob) : Callable<Optional
 }
 ```
 
-The `ThreadPoolPropertiesCalculator` calculates how concurrent threads and how big the requests queue should be for particular tenant or tenants group. Then for each tenat group, in particular a single tenant, we create a `TenantTaskCoordinator` responsible for calculating and enforcing limits on concurrently handled requests. Further down we decorate the `Callable` representing the actual request handling with security delegation, locale configuration and request attributes setup. Finally, we ask the `TenantTaskCoordinator` to execute the decorated job with a configured timeout.
+The `ThreadPoolPropertiesCalculator` calculates how concurrent threads and how big the requests queue should be for particular tenant or tenants group. Then for each tenant group, in particular a single tenant, we create a `TenantTaskCoordinator` responsible for calculating and enforcing limits on concurrently handled requests. Further down we decorate the `Callable` representing the actual request handling with security delegation, locale configuration and request attributes setup. Finally, we ask the `TenantTaskCoordinator` to execute the decorated job with a configured timeout.
 
 The last piece of the puzzle, namely `TenantTaskCoordinator` requires a separate blog post so stay tuned.
