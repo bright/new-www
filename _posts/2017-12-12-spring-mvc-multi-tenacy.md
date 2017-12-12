@@ -9,7 +9,7 @@ crosspost: false
 image: /images/spring-mvc-multi-tenancy/feeding-animals.jpg
 ---
 
-One of our clients aims to replace old, often DOS based, point of sale systems with a cloud based, SaaS modeled solution. [At BrightInventions]({{ site.url }}) we have developed all required components including AWS based back-end processing requests originating from multiple clients. Each business that uses the SaaS point of sale can be considered a tenant in a multi-tenant environment. There many aspects involved when developing multi-tenant application with [data isolation and partitioning being the most discussed topic](http://blog.memsql.com/database-multi-tenancy-in-the-cloud-and-beyond/). However, today I would like to focus on computational and resource isolation aspect. 
+One of our clients aims to replace old, often DOS based, point of sale systems with a cloud based, SaaS modeled solution. [At Bright Inventions]({{ site.url }}) we have developed all required components including AWS based back-end processing requests originating from multiple clients. Each business that uses the SaaS point of sale can be considered a tenant in a multi-tenant environment. There many aspects involved when developing multi-tenant application with [data isolation and partitioning being the most discussed topic](http://blog.memsql.com/database-multi-tenancy-in-the-cloud-and-beyond/). However, today I would like to focus on computational and resource isolation aspect. 
 
 ![Multiple consumers](/images/spring-mvc-multi-tenancy/feeding-animals.jpg)
 
