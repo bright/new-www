@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Injectable Android ViewModels
-image: /images/injectable-android-viewmodels/cog-wheels-2125181_1920.jpg
+image: /images/injectable-android-viewmodels/syringe-1884758_1920.jpg
 author: azabost
 crosspost: true
 hidden: true
@@ -23,6 +23,8 @@ I was envious of the simple approach the iOS developers have - they can instanti
 But on Android you start with an activity component and you can't prepare the view model outside of its lifecycle easily. Also storing the reference to the view model only in the activity which gets destroyed on every configuration change (like screen orientation) will destroy the view model as well and it's not convenient. If you would like the view model to survive, you would have to hold a reference to it somewhere else but then another problems arise e.g. how to clean the view model when it's not needed anymore or how to make every activity of the same class to use a different view model instance.
 
 The Google's `ViewModel` was designed to help with such issues. Unfortunately, it still needs to be created during the activity lifecycle but with several Dagger tweaks you can easily inject any view model's dependencies to it.
+
+![Injection](/images/injectable-android-viewmodels/syringe-1884758_1920.jpg){: .center-image}
 
 # Injectable ViewModels #
 
@@ -175,3 +177,7 @@ class MainViewModel @Inject constructor(
     ...
 }
 {% endhighlight %}
+
+If it seems too complicated to you, please take a look at the diagram below. It may help you to see the big picture.
+
+![Diagram](/images/injectable-android-viewmodels/diagram.png){: .center-image}
