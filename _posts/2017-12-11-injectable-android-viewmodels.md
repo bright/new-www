@@ -16,11 +16,11 @@ If you haven't read about the latest [Android Architecture Components libraries]
 
 I think the fact that Google has decided to help developers by creating their own library for supporting the MVVM pattern on the Android platform was a really good move.
 
-A few months before its release I was wondering what's the best approach to introduce the MVP or MVVM pattern on Android. I have tested or reviewed a few libs on GitHub and none of them seemed good enough for me - either due to their limitations or a huge amount of boilerplate code they required. Also the way they were implemented and the number of reported bugs were not encouraging.
+A few months before its release I was wondering what was the best approach to introduce the MVP or MVVM pattern on Android. I have tested or reviewed a few libs on GitHub and none of them seemed good enough for me - either due to their limitations or a huge amount of boilerplate code they required. Also the way they were implemented and the number of reported bugs were not encouraging.
 
 I was envious of the simple approach the iOS developers have - they can instantiate a view controller on their own and pass a view model directly to it (e.g. via the constructor). The iOS system also doesn't kill the view controller when the screen orientation changes so it doesn't have to obtain the view model again and, at the same time, the view model gets destroyed with the view controller when it's not needed anymore (provided that you don't hold another reference to it).
 
-But on Android you start with an activity component and you can't prepare the view model outside of its lifecycle easily. Also storing the reference to the view model only in the activity which gets destroyed on every configuration change (like screen orientation) will destroy the view model as well and it's not convenient. If you would like the view model to survive, you would have to hold a reference to it somewhere else but then another problems arise e.g. how to clean the view model when it's not needed anymore or how to make every activity of the same class to use different view model instance.
+But on Android you start with an activity component and you can't prepare the view model outside of its lifecycle easily. Also storing the reference to the view model only in the activity which gets destroyed on every configuration change (like screen orientation) will destroy the view model as well and it's not convenient. If you would like the view model to survive, you would have to hold a reference to it somewhere else but then another problems arise e.g. how to clean the view model when it's not needed anymore or how to make every activity of the same class to use a different view model instance.
 
 The Google's `ViewModel` was designed to help with such issues. Unfortunately, it still needs to be created during the activity lifecycle but with several Dagger tweaks you can easily inject any view model's dependencies to it.
 
@@ -32,7 +32,7 @@ _Note: you can access the whole code used in this example [on GitHub](https://gi
 
 ## Simple factory ##
 
-The default library's factory instantiates view models using empty constructors. Of course we can't use it as we are going to create the view models with non-empty constructors, passing the dependencies obtained from Dagger.
+The default library's factory instantiates view models using empty constructors. Of course, we can't use it as we are going to create the view models with non-empty constructors, passing the dependencies obtained from Dagger.
 
 The `ViewModelProvider.Factory` interface defines only one method:
 
@@ -43,11 +43,11 @@ The `ViewModelProvider.Factory` interface defines only one method:
 
 As you can see, it takes the class of a view model and it must return its instance.
 
-In order to use a single simple and universal factory (which is the main point of this post) for all the view models we need to create a map of `Provider`s for every view model class. When I was analysing the mentioned Google's sample I didn't know how the map generation works and it wasn't very easy to understand so I'm going to exaplain it a little more here to save you the trouble.
+In order to use a single simple and universal factory (which is the main point of this post) for all the view models we need to create a map of `Provider`s for every view model class. While I was analysing the mentioned Google's sample I didn't know how the map generation works and it wasn't very easy to understand so I'm going to exaplain it a little more here to save you the trouble.
 
 ### Generating the map ###
 
-If you have already used Dagger you might have also noticed the code it generates. Most of that code are the `Component`s, `Provider`s, `Factory`s etc. The `Provider` is an object which *provides* the instances of some class (`Factory` is also a `Provider`).
+If you have already used Dagger, you might have also noticed the code it generates. Most of that code are the `Component`s, `Provider`s, `Factory`s etc. The `Provider` is an object which *provides* the instances of some class (`Factory` is also a `Provider`).
 
 The `MapKey` annotation ([docs](https://google.github.io/dagger/api/2.13/dagger/MapKey.html)) lets you generate a map of objects provided by Dagger or the `Provider`s of those objects. In our example we will need the following map:
 
@@ -61,7 +61,7 @@ _Note: Dagger generates Java sources and that's why we must remember about the v
 
 > error: [dagger.android.AndroidInjector.inject(T)] java.util.Map<java.lang.Class<? extends android.arch.lifecycle.ViewModel>,? extends javax.inject.Provider<android.arch.lifecycle.ViewModel>> cannot be provided without an @Provides-annotated method.
 
-This map's entries consist of a key - a class of any view model and a value - a `Provider` of any view model. Obviously, we must feed the map with the corresponding `Provider` for every view model, e.g. `Class<ViewModelA> -> Provider<ViewModelA>`. With such map the factory will be able to easily return an instance of any view model with all its dependencies fulfilled by Dagger.
+This map's entries consist of a key - a class of any view model and a value - a `Provider` of any view model. Obviously, we must feed the map with the corresponding `Provider`s for every view model, e.g. `ViewModelA -> Provider<ViewModelA>`. With such a map the factory will be able to easily return an instance of any view model with all its dependencies fulfilled by Dagger.
 
 In order to generate the map we need two elements: a map key definition and a module with view model _bindings_.
 
