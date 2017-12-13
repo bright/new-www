@@ -65,7 +65,7 @@ This map's entries consist of a key - a class of any view model and a value - a 
 
 In order to generate the map we need two elements: a map key definition and a module with view model _bindings_.
 
-The map key definition may look like this:
+The map key definition is an annotation type which has a single member whose type is the map key type. It may look like this:
 
 {% highlight kotlin %}
 import android.arch.lifecycle.ViewModel
@@ -97,6 +97,8 @@ abstract class ViewModelModule {
     abstract fun bindMainViewModel(mainViewModel: MainViewModel): ViewModel
 }
 {% endhighlight %}
+
+`@Binds` methods are a drop-in replacement for `@Provides` methods that simply return an injected parameter. Combining it with `@IntoMap` and our key (`@ViewModelKey`) will put a provider of the returned object into the map under the key specified by the key annotation's parameter. In this case the `Provider<MainViewModel>` instance will be put under the `MainViewModel::class` key. Kotlin will also translate the `KClass` into `Class` for Java compatibility.
 
 _Note: you may want to read the `Binds` [docs](https://google.github.io/dagger/api/2.13/dagger/Binds.html), `IntoMap` [docs](https://google.github.io/dagger/api/2.13/dagger/multibindings/IntoMap.html) and multibindings [docs](https://google.github.io/dagger/multibindings.html)._
 
