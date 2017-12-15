@@ -151,5 +151,5 @@ Note also that `cloudform` does not attempt to interact with your AWS stack in a
 
 The package source code is MIT-licensed, [available on GitHub](https://github.com/bright/cloudform). If you find out that something is missing or invalid in `cloudform`, feel free to open an issue on GitHub or – even better – contribute yourself!
 
-Stay tuned for a few more examples and recipes how to build template generation into your Continuous Delivery workflow.
+In the follow-up post I'm sharing [a few more examples and recipes](https://brightinventions.pl/blog/aws-cloudformation-patterns-practices-cloudform/) how to build template generation into your Continuous Delivery workflow.
 

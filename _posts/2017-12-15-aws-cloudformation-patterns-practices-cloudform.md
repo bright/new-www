@@ -1,15 +1,14 @@
 ---
 layout: post
 title: AWS CloudFormation patterns & practices with cloudform
-excerpt: Recently we introduced cloudform – our open-source library that allows managing AWS CloudFormation template files through TypeScript. Its core value proposition is to cope with the massive JSON files in a sane and familiar way – to treat it as any other TypeScript code we have in our project. But what does it actually mean? Let's see at some examples where this path can lead us to.
+excerpt: Recently we introduced cloudform – our open-source library that allows for managing AWS CloudFormation template files through TypeScript. Its core value proposition is to cope with the massive JSON files in a sane and familiar way – to treat it as any other TypeScript code we have in our project. But what does it actually mean? Let's look at some examples to check where this path can lead us to.
 tags: AWS CloudFormation open-source
 comments: true
-hidden: true
 author: adam
 image: /images/cloudform/mindmap.jpg
 ---
 
-Recently we introduced [`cloudform`](https://brightinventions.pl/blog/introducing-cloudform-tame-aws-cloudformation-templates/) – our [open-source library](https://www.npmjs.com/package/cloudform) that allows managing [AWS CloudFormation](https://aws.amazon.com/cloudformation/) template files through TypeScript. Its core value proposition is to cope with the massive JSON files in a sane and familiar way – to treat it as any other TypeScript code we have in our project. But what does it actually mean? Let's see at some examples where this path can lead us to.
+Recently we introduced [`cloudform`](https://brightinventions.pl/blog/introducing-cloudform-tame-aws-cloudformation-templates/) – our [open-source library](https://www.npmjs.com/package/cloudform) that allows for managing [AWS CloudFormation](https://aws.amazon.com/cloudformation/) template files through TypeScript. Its core value proposition is to cope with the massive JSON files in a sane and familiar way – to treat it as any other TypeScript code we have in our project. But what does it actually mean? Let's look at some examples to check where this path can lead us to.
 
 Just as a recap, the basic `cloudform` usage allows us to replace the lengthy and verbose JSON definition of AWS CloudFormation resource, like this:
 
@@ -171,7 +170,7 @@ cloudform({
 
 ## Get rid of static FindInMap
 
-It often makes sense to have some common configuration values grouped together and possibly different depending on some parameter, for example deployment environment like staging vs. production. In pure JSON template, we can use [`Fn::FindInMap`](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-findinmap.html) to reach the desired value where it is needed. We need to pass all the keys as a path to our value, possibly using parameter references (`Ref`) or other variables. But if our path is static, with `cloudform` we might get rid of verbose map accessing and replace it with native TypeScript object instead.
+It often makes sense to have some common configuration values grouped together and possibly different depending on some parameter, for example a deployment environment like staging vs. production. In a pure JSON template we can use [`Fn::FindInMap`](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-findinmap.html) to reach the desired value where it is needed. We need to pass all the keys as a path to our value, possibly using parameter references (`Ref`) or other variables. But if our path is static, with `cloudform` we might get rid of verbose map accessing and replace it with a native TypeScript object instead.
 
 So instead of:
 
@@ -221,7 +220,7 @@ cloudform({
 
 Nobody likes large source files. And complex environment definitions tend to grow large. In pure JSON, we are not able to split the file easily. There is an option to [import external snippets](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/create-reusable-transform-function-snippets-and-add-to-your-template-with-aws-include-transform.html), but it requires the snippet to be located on S3. Kind of cumbersome if we want to properly keep our infrastructure in source control and be serious in our [infrastructure-as-code approach](https://www.infoq.com/code-infrastructure).
 
-With `cloudform` we are in the TypeScript world and nothing should stop us from treating parts of our template as TypeScript modules that can be imported into the final template. It might make sense to separate our networking stack module from instances module and from database module etc. – where each module might keep all the resources logically bound together – database access-related security groups might be defined together with the database, but ECS-related security groups might be defined together with the containers.
+With `cloudform` we are in the TypeScript world and nothing should stop us from treating parts of our template as TypeScript modules that can be imported into the final template. It might make sense to separate our networking stack module from the instances module and from the database module etc. – where each module might keep all the resources logically bound together – database access-related security groups might be defined together with the database, but ECS-related security groups might be defined together with the containers.
 
 Let's look at the database module example, `database.ts`:
 
@@ -254,9 +253,9 @@ cloudform({
 })
 ```
 
-## Forget about the actual JSON at all
+## Forget the actual JSON at all
 
-With all the `cloudform` goodies around, we might forget about the existence of the JSON file within our sources. It might make sense to generate it on the fly as a part of our build or deployment process. How about adding the template generation task to our NPM scripts:
+With all the `cloudform` goodies around, we might forget the existence of the JSON file within our sources. It might make sense to generate it on the fly as a part of our build or deployment process. How about adding the template generation task to our NPM scripts:
 
 ```json
 {
