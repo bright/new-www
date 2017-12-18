@@ -3,6 +3,7 @@ layout: post
 title: Working with iOS push notifications
 author: mateusz
 tags: ['ios', 'push notifications', 'firebase', 'swift']
+image: /images/working-with-ios-push-notifications/1_2ngvD9Tqp3TXjdWwVDMqEQ.jpeg
 comments: true
 ---
 
