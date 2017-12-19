@@ -4,7 +4,7 @@ title: Injectable Android ViewModels
 image: /images/injectable-android-viewmodels/syringe-1884758_1920.jpg
 author: azabost
 crosspost: true
-hidden: true
+hidden: false
 tags: android kotlin dagger viewmodel mvvm
 ---
 
