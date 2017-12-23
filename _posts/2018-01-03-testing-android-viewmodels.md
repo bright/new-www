@@ -32,7 +32,7 @@ It's also worth noting that the Activity and the Fragments use the same instance
 
 Normally `MainViewModel` uses a `GitHubClient` implementation that calls the GitHub API using [Retrofit](https://github.com/square/retrofit) HTTP client. In tests you would probably prefer to either mock the server (e.g. with [MockWebServer](https://github.com/square/okhttp/tree/master/mockwebserver)) or just the `GitHubClient` implementation so that it won't make the calls at all. In this example I'm going to use the latter aproach (but testing the calls to a mocked server is also a good idea and you can do it separately).
 
-### `MockGitHubClient` ###
+### Mock API client ###
 
 The mocked implementation of the `GitHubClient` is very simple. It's constructor accepts a response it should return, an optional error it should throw instead of the response and a scheduler so that we can control the exact moment the data/error is returned. The error and the response are mutable properties so we can adjust them just before calling `getRepo` method.
 
