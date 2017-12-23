@@ -33,7 +33,7 @@ The workshops and presentations were prepared by experienced professionals from 
 
 ![image](/images/polish-tech-night/berlin-workshops2.jpg)
 
-The Evening part attracted crowds including numerous business people, startups and venture capital partners as well as people associated with the investment and technology world in Berlin. There were 7 interesting pitches presenting some original ideas born in Polish startups. No to mention the networking part afterwards, which lasted until late evening hours.
+The Evening part attracted crowds including numerous business people, startups and venture capital partners as well as people associated with the investment and technology world in Berlin. There were 7 interesting pitches presenting some original ideas born in Polish startups. Not to mention the networking part afterwards, which lasted until late evening hours.
 
 ![image](/images/polish-tech-night/berlin-evening-event.jpg)
 
