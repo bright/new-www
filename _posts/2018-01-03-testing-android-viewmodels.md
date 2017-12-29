@@ -148,3 +148,7 @@ fun getRepoShouldShowProgress() {
     progressObserver.assertValueSequence(listOf(true, false))
 }
 {% endhighlight %}
+
+# Conclusion #
+
+As you can see, using `ViewModel`s and RxJava `Observable`s gives a very simple way to write unit tests for your code. I believe this great possibility will also encourage you to extract the business logic from the Android application components like Activities so that it can be tested without using instrumented tests or mocking the platform (e.g. with Robolectric).
