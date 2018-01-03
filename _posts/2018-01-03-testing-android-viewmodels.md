@@ -4,6 +4,7 @@ title: Testing Android ViewModels
 image: /images/testing-android-viewmodels/stethoscope.jpg
 author: azabost
 crosspost: true
+comments: true
 hidden: false
 tags: android kotlin viewmodel mvvm unit tests
 ---
