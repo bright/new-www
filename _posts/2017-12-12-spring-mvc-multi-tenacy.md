@@ -246,4 +246,4 @@ class OptionalCallable(private val inner: RequestHandlerJob) : Callable<Optional
 
 The `ThreadPoolPropertiesCalculator` calculates how concurrent threads and how big the requests queue should be for particular tenant or tenants group. Then for each tenant group, in particular a single tenant, we create a `TenantTaskCoordinator` responsible for calculating and enforcing limits on concurrently handled requests. Further down we decorate the `Callable` representing the actual request handling with security delegation, locale configuration and request attributes setup. Finally, we ask the `TenantTaskCoordinator` to execute the decorated job with a configured timeout.
 
-The last piece of the puzzle, namely `TenantTaskCoordinator` requires a separate blog post so stay tuned.
+The last piece of the puzzle, namely `TenantTaskCoordinator` requires [a separate blog post]({% post_url 2018-01-04-multi-tenancy-task-scheduler %}) so stay tuned.
