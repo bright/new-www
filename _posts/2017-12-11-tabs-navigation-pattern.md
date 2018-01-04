@@ -154,7 +154,7 @@ myTabLayout.addTab(myTabLayout.newTab().setCustomView(tab))
 
 In the end, I'd like to share with you my concept of a TabLayout view, feel free to take some inspiration. Here's how it's gonna look like:
 
-![TODO GIF](path/todo)
+![Sliding Layout GIF](/images/radek/tablayout.gif)
 
 To achieve that we'll need to override some TabLayout functionality! This is what we gonna start with:
 
@@ -290,7 +290,7 @@ That's it, sliding tabs ready to use!
 
 
 
-The full code you can find on [my github](todo). It contains even more functionality with scrolling and docking tabs in the center. Feel free to test it, use it and modify it!
+The full code you can find on [my github](https://github.com/pieczatek/tablayout-tutorial). It contains even more functionality with scrolling and docking tabs in the center. Feel free to test it, use it and modify it!
 
 #### References:
 
