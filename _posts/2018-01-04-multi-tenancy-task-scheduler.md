@@ -2,10 +2,10 @@
 layout: post
 title: Multi tenancy task scheduler
 author: piotr
-hidden: true
+hidden: false
 tags: spring mvc spring-boot multi-tenant reactive reactor
 comments: true
-crosspost: false
+crosspost: true
 image: /images/multi-tenancy-task-scheduler/sorting.jpg
 ---
 
@@ -53,7 +53,7 @@ Our entry point into `TenantTaskCoordinator` is a single method `fun <T : Any> e
     }
 ```
 
-The first step is to return `Mono<T>` which is simply done wih [`Mono.create`](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#create-java.util.function.Consumer-). The `sink` we get passed is used to control the outcome observed from outside. It also allows for registering an [`onCancel`](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/MonoSink.html#onCancel-reactor.core.Disposable-) callback invoked when upstream cancels its subscription. 
+The first step is to return `Mono<T>` which is simply done with [`Mono.create`](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#create-java.util.function.Consumer-). The `sink` we get passed is used to control the outcome observed from outside. It also allows for registering an [`onCancel`](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/MonoSink.html#onCancel-reactor.core.Disposable-) callback invoked when upstream cancels its subscription. 
 
 The `_workInProgressWasDecremented` is used to guard and decrement the `currentWorkInProgressCounter` in a thread safe fashion. We first check whether we have immediately exceeded maximum number of queued jobs. If the threshold is reached, we notify the observer about the error with [`outsideSink.error`](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/MonoSink.html#error-java.lang.Throwable-). 
 
@@ -107,7 +107,7 @@ The most important and tricky to figure out part is to correctly process jobs. I
     }
 ```
 
-First, we filter tasks that are already cancelled. Then, we use [`flatMap`](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#flatMap-java.util.function.Function-int-int-) overload to process tasks with given maximum concurrency. The `flatMap` callback delegates most of the work to the mentioned `Task` instance. The `onErrorReturn` effectively suppresses any errors that might occur during `task` execution. Let's see how the inner `Task` class looks like:
+First, we filter out tasks that are already cancelled. Then, we use [`flatMap`](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#flatMap-java.util.function.Function-int-int-) overload to process tasks with given maximum concurrency. The `flatMap` callback delegates most of the work to the mentioned `Task` instance. The `onErrorReturn` effectively suppresses any errors that might occur during `task` execution. Let's see how the inner `Task` class looks like:
 
 ```kotlin
 private data class Task(val name: String,
