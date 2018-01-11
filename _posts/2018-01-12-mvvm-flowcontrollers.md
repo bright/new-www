@@ -20,9 +20,8 @@ Starting iOS development is usually connected with learning basic patterns that 
 Yes! It's the worst of all! It causes Massive ViewControllers to appear over your app... Jokes aside...  
 
 No, it's not. I was really glad when I've recently read post ["Much ado about iOS app architecture" ](http://aplus.rs/2017/much-ado-about-ios-app-architecture/). I cannot say that I fully agree with everything that is being said there, but there were parts that I can surely identify myself with. Why was I glad to read this? Because of this sentence:  
-```
+
 "No one is forcing you to implement multiple DataSources in one Controller. To initiate network calls in viewDidLoad. To parse JSONs in UIViewController. To hard-wire Views with Singleton instances."  
-```
 
 Many developers blame `MVC` for it's horrible mess and chaos which in fact... is created by developers themselves. If you lack discipline, then even `VIPER` will not help you. Certain patterns may make it easier to structure the code properly and keep it clean, but it's always up to you whether you keep the discipline or not.
 
@@ -236,9 +235,9 @@ Following the way of MVVM + FlowControllers has helped me a lot in separating/or
 If you have never used similar approach for your apps, then I'd fully encourage you to try it!
 
 Would you like to learn more about this topic? Check these out:  
-Improve your iOS Architecture with FlowControllers - http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/  
-Swift By Sundell - "Boy, I have a lot of thoughts on this", with special guest Soroush Khanlou - https://www.swiftbysundell.com/podcast/10  
-Coordinators – Soroush Khanlou - https://www.youtube.com/watch?v=a1g3k3NObkE
+[Improve your iOS Architecture with FlowControllers](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/)  
+[Swift By Sundell - "Boy, I have a lot of thoughts on this", with special guest Soroush Khanlou](https://www.swiftbysundell.com/podcast/10)  
+[Coordinators – Soroush Khanlou](https://www.youtube.com/watch?v=a1g3k3NObkE)
 
 
 
