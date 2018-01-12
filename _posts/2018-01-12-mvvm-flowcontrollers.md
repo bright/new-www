@@ -8,13 +8,13 @@ hidden: true
 excerpt: There are many different approaches to building an iOS application. MVC, MVP, MVVM, VIPER, Redux... You name others. I've been writing iOS apps for some time now, and I noticed that MVVM + FlowControllers approach works pretty well for me. In this post I'd like to focus on "WHY?" I use it over other approaches, "HOW?" I use it in my apps.
 ---
 
-There are many different approaches to building an iOS application. MVC, MVP, MVVM, VIPER, Redux... You name others. I've been writing iOS apps for some time now, and I noticed that MVVM + FlowControllers approach works pretty well for me.
-In this post I'd like to focus on `WHY?` I use it over other approaches and `HOW?` I use it in my apps.
+There are many different approaches to building an iOS application. MVC (Model View Controller), MVP (Model View Presenter), MVVM (Model View ViewModel), VIPER (View Interactor Presenter Entity Routing), Redux... You name others. I've been writing iOS apps for some time now, and I noticed that MVVM + FlowControllers approach works pretty well for me.
+In this post I'd like to focus on "Why?" I use it over other approaches and "How?" I use it in my apps.
 
-# WHY?  
+# Why?  
 
 ## The beginning
-Starting iOS development is usually connected with learning basic patterns that you can use to solve problems that you will run into while struggling to create your first screens in the app. Most probably, the first pattern that will take care of your views and logic behind them, will be `MVC` which is very popular among iOS developers (but not only them). This is mostly caused by the fact that Apple highly promotes this pattern across the `UIKit` framework and code examples that you can find in their tutorials.
+Starting iOS development is usually connected with learning basic patterns that you can use to solve problems that you will run into while struggling to create your first screens in the app. Most probably, the first pattern that will take care of your views and logic behind them, will be MVC which is very popular among iOS developers (but not only them). This is mostly caused by the fact that Apple highly promotes this pattern across the `UIKit` framework and code examples that you can find in their tutorials.
 
 ## Is MVC bad?
 Yes! It's the worst of all! It causes Massive ViewControllers to appear over your app... Jokes aside...  
@@ -23,20 +23,20 @@ No, it's not. I was really glad when I've recently read post ["Much ado about iO
 
 "No one is forcing you to implement multiple DataSources in one Controller. To initiate network calls in viewDidLoad. To parse JSONs in UIViewController. To hard-wire Views with Singleton instances."  
 
-Many developers blame `MVC` for it's horrible mess and chaos which in fact... is created by developers themselves. If you lack discipline, then even `VIPER` will not help you. Certain patterns may make it easier to structure the code properly and keep it clean, but it's always up to you whether you keep the discipline or not.
+Many developers blame MVC for it's horrible mess and chaos which in fact... is created by developers themselves. If you lack discipline, then even VIPER will not help you. Certain patterns may make it easier to structure the code properly and keep it clean, but it's always up to you whether you keep the discipline or not.
 
-Should I use `MVC` if it is not that bad in the end? If I was a skilled consultant I should probably say "it depends". `MVC` obviously has it's own pros and cons and I bet you can find many great articles that will help you to make up your mind.
+Should I use MVC if it is not that bad in the end? If I was a skilled consultant I should probably say "it depends". MVC obviously has it's own pros and cons and I bet you can find many great articles that will help you to make up your mind.
 
 ## Why MVVM?  
-If `MVC` is not that bad, then what are my motives for following the `MVVM` path? Just to name a few of them:  
+If MVC is not that bad, then what are my motives for following the MVVM path? Just to name a few of them:  
 - Allows me to move a big portion of my code far away from `UIKit` ([Which gives ability to test this code faster - as macOS frameworks ](https://eliaszsawicki.com/are-your-views-dumb-enough/)).  
 - Allows me to test the logic that drives my views easier.  
 - It works really well with reactive programming approaches (but you don't need to use them to benefit from MVVM)  
 
-So now, after adopting the principles of `MVVM` pattern, I'm able to have my passive views (as dumb as possible) and my logic that drives my views which is also separated from the UIKit.  
+So now, after adopting the principles of MVVM pattern, I'm able to have my passive views (as dumb as possible) and my logic that drives my views which is also separated from the UIKit.  
 
-Why not going any further with the division approach that patterns like `VIPER` target really well? Well... you can do that. I've never used `VIPER` in a big project before (I'd be glad to hear your opinion on this!), however, I'd say that these kind of patterns could be an easy overikill for a small/medium sized apps.  
-I feel that `MVVM` works really well if you want to keep your solutions easy to understand while having an ability to easily test your code and have a nice separation from UIKit-dependant parts of your code.
+Why not going any further with the division approach that patterns like VIPER target really well? Well... you can do that. I've never used VIPER in a big project before (I'd be glad to hear your opinion on this!), however, I'd say that these kind of patterns could be an easy overikill for a small/medium sized apps.  
+I feel that MVVM works really well if you want to keep your solutions easy to understand while having an ability to easily test your code and have a nice separation from UIKit-dependant parts of your code.
 
 ## FlowControllers  
 What are the motives for using them?  
@@ -48,7 +48,7 @@ Well... It's always good to ask a question - Is it a problem? If you're working 
 
 ## The discipline
 
-A pure fact that you start using `MVVM` and `FlowControllers` will not instantly make your code base clean. Guess what? You can still end up with `Massive ViewModels`! It's up to you whether you keep yourself tight and organize your code well.
+A pure fact that you start using MVVM and `FlowControllers` will not instantly make your code base clean. Guess what? You can still end up with `Massive ViewModels`! It's up to you whether you keep yourself tight and organize your code well.
 
 
 
@@ -56,10 +56,10 @@ A pure fact that you start using `MVVM` and `FlowControllers` will not instantly
 
 
 ## MVVM
-Ok, so how do I use `MVVM`? How do I keep my `ViewModels` clean? How do I use `FlowControllers`? Jump on board and let's see a quick example that will allow us to see the concept in use.  
-I have to admit, that when I was putting my first leg into iOS development, I considered `ViewModel` as an object that holds values which will be displayed by a view. At that point I did not see that much value in using `ViewModels`. What changed my point of view is the approach that you can read about on [Microsoft patterns and practices](https://msdn.microsoft.com/en-us/library/hh848246.aspx). The core information for me was the fact that the `View` layer in Microsoft's approach was represented as `XAML` (quote: "with a limited code-behind that does not contain business logic"). Ok... So does it mean, that `ViewModel` is not only about holding values represented by our views? Can it also contain logic that drives these views? YES! Following this approach on iOS, it encourages you to keep your view layer simple (which in case of MVVM would be both `UIView` and `UIViewController`) and move the logic to `ViewModel`. This is the first step that allows us to reach better testability and move our code far away from `UIKit`.
+Ok, so how do I use MVVM? How do I keep my `ViewModels` clean? How do I use `FlowControllers`? Jump on board and let's see a quick example that will allow us to see the concept in use.  
+I have to admit, that when I was putting my first leg into iOS development, I considered `ViewModel` as an object that holds values which will be displayed by a view. At that point I did not see that much value in using `ViewModels`. What changed my point of view is the approach that you can read about on [Microsoft patterns and practices](https://msdn.microsoft.com/en-us/library/hh848246.aspx). The core information for me was the fact that the `View` layer in Microsoft's approach was represented as XAML (quote: "with a limited code-behind that does not contain business logic"). Ok... So does it mean, that `ViewModel` is not only about holding values represented by our views? Can it also contain logic that drives these views? YES! Following this approach on iOS, it encourages you to keep your view layer simple (which in case of MVVM would be both `UIView` and `UIViewController`) and move the logic to `ViewModel`. This is the first step that allows us to reach better testability and move our code far away from `UIKit`.
 
-Let's go step by step through a quick example of a `MVVM` pattern used together with `FlowController`. 
+Let's go step by step through a quick example of a MVVM pattern used together with `FlowController`. 
 
 Let's start with `AppDelegate`. What do we have here?
 
@@ -86,7 +86,7 @@ Let's start with `AppDelegate`. What do we have here?
 
 }
 ```
-The first thing that is important is that I create my `MainFlowController` which will be responsible for controlling my applications flow. The only dependency that I pass here is my main navigation controller that is the root controller of my main window. I've also seen different approaches that pass `UIWindow` to a flowController directly, however if you do not need it, then I prefere to have this "lighter" object that has more defined responsibility.
+The first thing that is important is that I create my `MainFlowController` which will be responsible for controlling my application flow. The only dependency that I pass here is my main navigation controller that is the root controller of my main window. I've also seen different approaches that pass `UIWindow` to a flowController directly, however if you do not need it, then I prefere to have this "lighter" object that has more defined responsibility.
 
 What about the `MainFlowController` itself? 
 
@@ -178,7 +178,7 @@ class EntryViewController: UIViewController {
 }
 ```
 
-In my case, `ViewController` is part of `View` layer in `MVVM`. What happens here is: 
+In my case, `ViewController` is part of `View` layer in MVVM. What happens here is: 
 - Binding `ViewModels` output to UI components
 - Invoke methods from `ViewModel`
 - If needed, passing lifecycle methods to `ViewModel`
@@ -202,7 +202,7 @@ class EntryDefaultViewModel: EntryViewModel {
     private let userFetcher: UserFetcher
     private var mutableUserName: MutableProperty<String?> = MutableProperty(nil)
     lazy var userName: Property<String?> = Property(self.mutableUserName)
-    var onUserNameSelected: ((String)->Void)?
+    weak var onUserNameSelected: ((String)->Void)?
     
     // injecting dependencies to your viewModel 
     init(userFetcher: UserFetcher) {
