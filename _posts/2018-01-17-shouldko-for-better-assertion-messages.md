@@ -42,7 +42,7 @@ class MoneyTests {
     val usd = Currency.getInstance("USD")
 
     @Test
-    fun `can add`() {
+    fun can_add() {
         val usd100 = Money(100.toBigDecimal(), usd)
         val usd50 = Money(50.toBigDecimal(), usd)
 
@@ -70,7 +70,7 @@ class MoneyTests {
     val usd = Currency.getInstance("USD")
 
     @Test
-    fun `can add`() {
+    fun can_add() {
         val usd100 = Money(100.toBigDecimal(), usd)
         val usd50 = Money(50.toBigDecimal(), usd)
 
