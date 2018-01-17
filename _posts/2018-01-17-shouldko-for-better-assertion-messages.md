@@ -72,9 +72,9 @@ class MoneyTests {
     @Test
     fun `can add`() {
         val usd100 = Money(100.toBigDecimal(), usd)
-        val usd40 = Money(50.toBigDecimal(), usd)
+        val usd50 = Money(50.toBigDecimal(), usd)
 
-        (usd100 + usd40).amount.shouldEqual(150.toBigDecimal())
+        (usd100 + usd50).amount.shouldEqual(150.toBigDecimal())
     }
 }
 ```
@@ -82,7 +82,7 @@ class MoneyTests {
 In my opinion [ShouldKO's](https://github.com/miensol/shouldko) assertion syntax improves readability. However, this is not where [ShouldKO](https://github.com/miensol/shouldko) main improvement is. Follow the improved assertion message:
 
 ```
-java.lang.AssertionError: (usd100 + usd40).amount 
+java.lang.AssertionError: (usd100 + usd50).amount 
 Expected: <150>
      but: was <160>
 ```
