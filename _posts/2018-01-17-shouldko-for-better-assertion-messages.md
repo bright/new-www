@@ -16,7 +16,7 @@ Most of us write tests these days. Whether they are unit, integration, end-to-en
 
 # Hamcrest 
 
-I think [Hamcreset](http://hamcrest.org/) is the most popular assertion library available in Java and Kotlin ecosystem. Let us look at an oversimplified example of [`Money`](https://martinfowler.com/bliki/ValueObject.html) class:
+I think [Hamcrest](http://hamcrest.org/) is the most popular assertion library available in Java and Kotlin ecosystem. Let us look at an oversimplified example of [`Money`](https://martinfowler.com/bliki/ValueObject.html) class:
 
 ```kotlin
 import java.math.BigDecimal
