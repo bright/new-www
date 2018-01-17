@@ -10,7 +10,7 @@ image: /images/shouldko-1/search.jpg
 ---
 
 
-Most of us write tests these days. Whether they are unit, integration, end-to-end or performance tests once written we often do not go back to them until they fail. It thus vital to have a clear assertion message when the test fails.
+Most of us write tests these days. Whether they are unit, integration, end-to-end or performance tests once written we often do not go back to them until they fail. It is thus vital to have a clear assertion message when a test fails.
 
 ![search](/images/shouldko-1/search.jpg)
 
@@ -24,9 +24,12 @@ import java.util.*
 
 data class Money(val amount: BigDecimal, val currency: Currency) {
     operator fun plus(other: Money): Money {
-        if (currency != other.currency) throw IllegalArgumentException("Cannot add $this to $other. Currencies must match.")
+        if (currency != other.currency) {
+            throw IllegalArgumentException("Cannot add $this to $other. Currencies must match.")
+        }
 
-        return copy(amount = amount + other.amount + 10.0.toBigDecimal()) // an accidentally introduced bug 😈
+        val newAmount = amount + other.amount + 10.0.toBigDecimal()) // an accidentally introduced bug 😈
+        return copy(amount = newAmount)
     }
 }
 ```
@@ -59,7 +62,7 @@ Let's see how we can improve on that.
 
 # ShouldKO: better assertion messages for Kotlin
 
-[ShouldKO](https://github.com/miensol/shouldko) is a simple library I've come up with that improves the assertion messages. Its idea is based on assertion libraries available in .NET e.g. [shouldy](https://github.com/shouldly/shouldly). Let us see how the tests looks like using ShouldKO:
+[ShouldKO](https://github.com/miensol/shouldko) is a simple library I've come up with that improves the assertion messages. Its idea is based on assertion libraries available in .NET e.g. [Shouldly](https://github.com/shouldly/shouldly). Let us see how the tests looks like using ShouldKO:
 
 ```kotlin
 class MoneyTests {
@@ -75,7 +78,7 @@ class MoneyTests {
 }
 ```
 
-In my opinion this syntax improves readability. However, this is not where ShouldKO main improvement is. Let us see the improved assertion message:
+In my opinion ShouldKO's assertion syntax improves readability. However, this is not where ShouldKO main improvement is. Follow the improved assertion message:
 
 ```
 java.lang.AssertionError: (usd100 + usd40).amount 
