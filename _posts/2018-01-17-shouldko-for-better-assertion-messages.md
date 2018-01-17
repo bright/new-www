@@ -28,7 +28,8 @@ data class Money(val amount: BigDecimal, val currency: Currency) {
             throw IllegalArgumentException("Cannot add $this to $other. Currencies must match.")
         }
 
-        val newAmount = amount + other.amount + 10.0.toBigDecimal()) // an accidentally introduced bug 😈
+        // an accidentally introduced bug 😈
+        val newAmount = amount + other.amount + 10.0.toBigDecimal()
         return copy(amount = newAmount)
     }
 }
