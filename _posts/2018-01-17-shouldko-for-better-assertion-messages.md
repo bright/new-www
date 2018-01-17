@@ -35,7 +35,7 @@ data class Money(val amount: BigDecimal, val currency: Currency) {
 }
 ```
 
-Image we write a test for the [`plus`](https://kotlinlang.org/docs/reference/operator-overloading.html) operator using [JUnit](http://junit.org/junit5/) and [Hamcrest](http://hamcrest.org/):
+Imagine we write a test for the [`plus`](https://kotlinlang.org/docs/reference/operator-overloading.html) operator using [JUnit](http://junit.org/junit5/) and [Hamcrest](http://hamcrest.org/):
 
 ```
 class MoneyTests {
