@@ -62,7 +62,7 @@ Let's see how we can improve on that.
 
 # ShouldKO: better assertion messages for Kotlin
 
-[ShouldKO](https://github.com/miensol/shouldko) is a simple library I've come up with that improves the assertion messages. Its idea is based on assertion libraries available in .NET e.g. [Shouldly](https://github.com/shouldly/shouldly). Let us see how the tests looks like using ShouldKO:
+[ShouldKO](https://github.com/miensol/shouldko) is a simple library I've come up with that improves the assertion messages. Its idea is based on assertion libraries available in .NET e.g. [Shouldly](https://github.com/shouldly/shouldly). Let us see how the tests looks like using [ShouldKO](https://github.com/miensol/shouldko):
 
 ```kotlin
 class MoneyTests {
@@ -78,7 +78,7 @@ class MoneyTests {
 }
 ```
 
-In my opinion ShouldKO's assertion syntax improves readability. However, this is not where ShouldKO main improvement is. Follow the improved assertion message:
+In my opinion [ShouldKO's](https://github.com/miensol/shouldko) assertion syntax improves readability. However, this is not where [ShouldKO](https://github.com/miensol/shouldko) main improvement is. Follow the improved assertion message:
 
 ```
 java.lang.AssertionError: (usd100 + usd40).amount 
@@ -86,11 +86,11 @@ Expected: <150>
      but: was <160>
 ```
 
-ShouldKO incorporates a source code line with assertion into the assertion message itself. This comes really handy when we have multiple lines with assertions that form a one logical condition. This is a small thing, but can greatly improve debugging test issues especially when all we have is a log file produced by a test run.
+[ShouldKO](https://github.com/miensol/shouldko) incorporates a source code line with assertion into the assertion message itself. This comes really handy when we have multiple lines with assertions that form a one logical condition. This is a small thing, but can greatly improve debugging test issues especially when all we have is a log file produced by a test run.
 
 ## Installation of ShouldKO
 
-ShouldKO is currently available on [Jitpack](https://jitpack.io/). You need to first add Jitpack to your repositories:
+[ShouldKO](https://github.com/miensol/shouldko) is currently available on [Jitpack](https://jitpack.io/). You need to first add Jitpack to your repositories:
 
 ```groovy
 repositories {
@@ -105,4 +105,4 @@ And include the library in your tests e.g.:
 testImplementation 'com.github.miensol.shouldko:hamcrest:v0.1.0'
 ```
 
-ShouldKO's Hamcrest library allows for using any Hamcrest matcher.
+[ShouldKO's](https://github.com/miensol/shouldko) Hamcrest library allows for using any Hamcrest matcher.
