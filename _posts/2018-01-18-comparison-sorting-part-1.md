@@ -4,7 +4,7 @@ title: Comparison sorting part 1
 tags: [sorting, algorithm, bubble, insertion, selection, gnome, cocktail]
 comments: true
 author: grzesiek
-hidden: true
+hidden: false
 excerpt: Sorting data is one of the most important tasks that computers have been doing since they were invented. Over those years developers have found many ways of doing it. 
 ---
 
@@ -27,17 +27,16 @@ A very simple algorithm, usually the first one that young programmer learns. Its
 
 ```kotlin
 fun bubbleSort(array: IntArray) {
-   var index = array.size-1
-   var temp: Int
-   for(i in 0..index) {
-       for(j in 1..index) {
+   var maxIndex = array.size-1
+   for(i in 0..maxIndex) {
+       for(j in 1..maxIndex) {
            if(array[j-1] > array[j]) {
-               temp = array[j-1]
+               var temp = array[j-1]
                array[j-1] = array[j]
                array[j] = temp
            }
        }
-       index--
+       maxIndex--
    }
 }
 ```
@@ -49,11 +48,10 @@ Another basic algorithm. What it does is taking all elements one by one and putt
 
 ```kotlin
 fun insertionSort(array: IntArray) {
-   val index = array.size-1
-   var temp: Int
+   val maxIndex = array.size-1
    var j: Int
-   for(i in 1..index) {
-       temp = array[i]
+   for(i in 1..maxIndex) {
+       var temp = array[i]
        j = i - 1
        while(j >= 0 && array[j] > temp) {
            array[j+1] = array[j]
@@ -71,23 +69,22 @@ As its name suggests it selects the smallest element of the collection and puts 
 
 ```kotlin
 fun selectionSort(array: IntArray) {
-   val number = array.size-1
+   val maxIndex = array.size-1
    var minimum: Int
-   var index: Int
-   var temp: Int
-   for(i in 0..number) {
+   var indexOfMinimum: Int
+   for(i in 0..maxIndex) {
        minimum = array[i]
-       index = i
-       for(j in i+1..number) {
+       indexOfMinimum = i
+       for(j in i+1..maxIndex) {
            if(array[j] < minimum) {
                minimum = array[j]
-               index = j
+               indexOfMinimum = j
            }
        }
-       if(i != index) {
-           temp = array[i]
-           array[i] = array[index]
-           array[index] = temp
+       if(i != indexOfMinimum) {
+           var temp = array[i]
+           array[i] = array[indexOfMinimum]
+           array[indexOfMinimum] = temp
        }
    }
 }
@@ -100,14 +97,13 @@ It’s like combining insertion with bubble sort. We check every element in a si
 
 ```kotlin
 fun gnomeSort(array: IntArray) {
-   val index = array.size-1
+   val maxIndex = array.size-1
    var pos = 0
-   var temp: Int
-   while(pos < index) {
+   while(pos < maxIndex) {
        if(pos == 0 || array[pos] >= array[pos-1]){
            pos++
        } else {
-           temp = array[pos]
+           var temp = array[pos]
            array[pos] = array[pos - 1]
            array[pos - 1] = temp
            pos--
@@ -123,24 +119,23 @@ It’s also called bidirectional bubble sort - going forward it compares element
 
 ```kotlin
 fun cocktailSort(array: IntArray) {
-   var index = array.size-1
-   var temp: Int
-   for(i in 0..index) {
-       for(j in 1..index) {
+   var maxIndex = array.size-1
+   for(i in 0..maxIndex) {
+       for(j in 1..maxIndex) {
            if(array[j-1] > array[j]) {
-               temp = array[j-1]
+               var temp = array[j-1]
                array[j-1] = array[j]
                array[j] = temp
            }
        }
-       for(g in index downTo 1) {
+       for(g in maxIndex downTo 1) {
            if(array[g-1] > array[g]) {
-               temp = array[g-1]
+               var temp = array[g-1]
                array[g-1] = array[g]
                array[g] = temp
            }
        }
-       index--
+       maxIndex--
    }
 }
 ```
@@ -151,31 +146,31 @@ So, now when we’re done with the code, let’s look at the results.
 **Sample #1:** 100 arrays of 1000 integer numbers:
 
 ```
-Avg of bubble sort: 3.388
-Avg of insertion sort: 0.407
-Avg of selection sort: 0.4
-Avg of gnome sort: 2.07
-Avg of cocktail sort: 5.729
+Avg of bubble sort: 1.59
+Avg of insertion sort: 0.18
+Avg of selection sort: 0.38
+Avg of gnome sort: 1.08
+Avg of cocktail sort: 1.65
 ```
 
 **Sample #2:** 100 arrays of 10000 integer numbers:
 
 ```
-Avg of bubble sort: 393.34
-Avg of insertion sort: 38.57
-Avg of selection sort: 38.77
-Avg of gnome sort: 316.04
-Avg of cocktail sort: 643.56
+Avg of bubble sort: 156.39
+Avg of insertion sort: 13.01
+Avg of selection sort: 30.25
+Avg of gnome sort: 104.22
+Avg of cocktail sort: 169.53
 ```
 
 Increasing the amount of data 10 times has caused these time multiplications: 
 
 ```
-Bubble: ~116 times longer
-Insertion: ~95 times longer
-Selection: ~97 times longer
-Gnome: ~115 times longer
-Cocktail: ~112 times longer
+Bubble: ~98 times longer
+Insertion: ~72 times longer
+Selection: ~79 times longer
+Gnome: ~97 times longer
+Cocktail: ~103 times longer
 ```
 
 
@@ -185,4 +180,4 @@ As we can see for all algorithms increasing the amount of data 10 times has caus
 That’s all for this part. Soon I will prepare the comparison of algorithms from group 2.
 
 
-**PS.** This post has assured me of one thing - Internet lies. Most sources say that comb sort average- and worst-case complexity is n^2, but my tests prove different. After a long research I have even found a book which says  about nlog(n) complexity. You could read more about that soon. 
+**PS.** This post has assured me of one thing - Internet lies. Most sources say that comb sort average- and worst-case complexity is n^2, but my tests prove different. After a long research I have even found a book which says about nlog(n) complexity. You could read more about that soon. 
