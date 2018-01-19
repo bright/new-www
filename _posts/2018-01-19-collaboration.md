@@ -6,7 +6,7 @@ hidden: false
 tags: collaboration success team cooperation 
 ---
 
-Not everyone is an extrovert, and for sure not every programmer is, but companies are created by teams, and this is a team who is the most responsible for running the company effectively. If team members do not collaborate, there is barely no chance to turn your idea into a successful business. 
+Not everyone is an extrovert, and for sure not every programmer is, but companies are created by teams, and it is the team that takes the greatest responsibility for running the company effectively. If team members do not collaborate, there is very little chance your business will succeed. 
 
 The work of a programmer is not as predictable as many people may suppose. The fact that programmers work with machines does not mean that there is no place for relationships and collaboration. Yet working with other people is much more difficult than working with machines, especially if you have to work with people quite closely on everyday basis. 
 
