@@ -16,6 +16,6 @@ And they learn mostly by pair programming, which is not only the most efficient 
 
 There are surely times while working alone is the right thing to do, especially when you have to think deeply about the problem or when the task is trivial enough to do it on your own. But always keep in mind that the fact you work better alone does not mean that the whole team works better. 
 
-It is good to be passionate about what we do,  but it is also good to keep an eye on the goals of people who are around us. Cooperation and collaboration with colleagues, managers, sales people, business analysts, clients etc., is necessary to create a successful business and effective work environment. We should always think how the company we work for may benefit from what we do. Our job is to keep the business alive. And we should do it by working with other people, by working with each other not by burying ourselves in the “tomb of technology.” Professionals do not do that. 
+It is good to be passionate about what we do,  but it is also good to keep an eye on the goals of people who are around us. Cooperation and collaboration with colleagues, managers, sales people, business analysts, clients etc., is necessary to create a successful business and effective work environment. We should always think how the company we work for may benefit from what we do. Our job is to keep the business alive. And we should do it by working with other people, by working with each other, not by burying ourselves in the “tomb of technology.” Professionals do not do that. 
 
 
