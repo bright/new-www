@@ -140,6 +140,7 @@ I've come across a few common usages of the placeholders, e.g.:
 <provider
     android:name="android.support.v4.content.FileProvider"
     android:authorities="${fileProvider}"
+    ... >
     ...
 </provider>
 {% endhighlight %}
