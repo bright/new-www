@@ -8,7 +8,7 @@ comments: true
 hidden: true
 tags: android gradle manifest
 ---
-# What are they #
+# What are they? #
 
 [Android Manifest placeholders](https://developer.android.com/studio/build/manifest-build-variables.html) allow you to put variables into the Manifest that is otherwise completely static. Why would you need such functionality? Actually, it depends on your projects. It's probably most useful when you have multiple [build variants](https://developer.android.com/studio/build/build-variants.html) with different Manifest configurations.
 
@@ -66,7 +66,7 @@ While using multiple Manifest files gives the best flexibility (you can change l
 
 So instead of using multiple files I always strive to use some variables. In order to use a variable in the Manifest we must specify it in the `manifestPlaceholders` property in Gradle. We can do this in several places, e.g.:
 
-##### default config #####
+* default config
 
 {% highlight groovy %}
 android {
@@ -77,7 +77,7 @@ android {
 }
 {% endhighlight %}
 
-##### product flavor #####
+* product flavor
 
 {% highlight groovy %}
 android {
@@ -97,7 +97,7 @@ android {
 }
 {% endhighlight %}
 
-##### build type #####
+* build type
 
 {% highlight groovy %}
 android {
@@ -128,21 +128,20 @@ Then we can use the variables in the Manifest simply by putting the variable nam
 
 I've come across a few common usages of the placeholders, e.g.:
 
-* enabling/disabling application components and meta-data, including the ones that come with dependencies (like Firebase)
+* enabling/disabling [application components](https://developer.android.com/guide/components/index.html) and meta-data, including the ones that come with your app's dependencies
 
 {% highlight xml %}
 <service
     android:name=".firebase.FcmIdService"
     android:enabled="${pushNotifications}">
-{% endhighlight %}
+    ...
+</service>
 
-or
-
-{% highlight xml %}
 <provider
     android:name="android.support.v4.content.FileProvider"
     android:authorities="${fileProvider}"
     ...
+</provider>
 {% endhighlight %}
 
 * overriding screen orientation in portrait-only apps so that you can rotate it in debug builds which may be useful when looking for lifecycle related memory leaks
