@@ -5,7 +5,7 @@ image: /images/android-manifest-placeholders/placeholder.png
 author: azabost
 crosspost: true
 comments: true
-hidden: true
+hidden: false
 tags: android gradle manifest
 ---
 # What are they? #
@@ -14,7 +14,7 @@ tags: android gradle manifest
 
 # Multiple Manifests #
 
-Of course the easiest way to configure Manifest per build variant is to place a separate `AndroidManifest.xml` file in the variant-specific source directory. For example let's say we have an `app` module with [flavor dimension](https://developer.android.com/studio/build/build-variants.html#flavor-dimensions) called `features` with two flavors: `paid` and `free`. In Gradle file it could look like this:
+Of course, the easiest way to configure Manifest per build variant is to place a separate `AndroidManifest.xml` file in the variant-specific source directory. For example let's say we have an `app` module with [flavor dimension](https://developer.android.com/studio/build/build-variants.html#flavor-dimensions) called `features` with two flavors: `paid` and `free`. In Gradle file it could look like this:
 
 {% highlight groovy %}
 android {
