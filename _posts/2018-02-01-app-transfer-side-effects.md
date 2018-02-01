@@ -9,7 +9,7 @@ comments: true
 
 When the time you are selling your long-developed application comes, or you are about to make a great deal and buy some fancy app you probably do not bother about the transition process. Although Apple has [described the steps in details](https://help.apple.com/itunes-connect/developer/#/deved688524f), you should consider potential consequences before starting the transition.
 
-You should also make sure that the application [meets all criteria](https://help.apple.com/itunes-connect/developer/#/devaf27784ff) and **is eligible for the transfer**. What is most important, the app must have had at least version that has been released to the App Store and no version of the app were using an **iCloud entitlement** or a **Passbook entitlement**.
+You should also make sure that the application [meets all criteria](https://help.apple.com/itunes-connect/developer/#/devaf27784ff) and **is eligible for the transfer**. What is most important, the app must have had at least one version that has been released to the App Store and no version of the app used an **iCloud entitlement** or a **Passbook entitlement**.
 
 ## Backup data
 
@@ -37,6 +37,6 @@ Additionally, if an app is a part of a cross-app **Multiplayer Compatibility Mat
 
 Processing the app transfer can take up to two business days. During this time you will not be able to edit the app metadata, rights, pricing, and in-app purchases, so you should make sure you will not need any urgent changes during this time.
 
-Transferring the app is **unnoticeable to the users** and properly prepared should not affect them in any way. However you should update the **terms of service** and the **data protection** conditions so they match the new owner policies. 
+Transferring the app is **unnoticeable to the users** and properly prepared should not affect them in any way. However you should update the **terms of service** and the **data protection** conditions so they match the new owner policies.
 
-Transferring an application to another account is not difficult, but it requires to understand the process and make some preparations, especially if you are using push notifications, keychain, Apple Pay, auto-renewable subscriptions or when your application is a part of cross-app Multiplayer Compatibility Matrix or app bundles.
+Transferring an application to another account is not difficult, but it is required to understand the process and make some preparations, especially if you are using push notifications, keychain, Apple Pay, auto-renewable subscriptions or when your application is a part of cross-app Multiplayer Compatibility Matrix or app bundles.
