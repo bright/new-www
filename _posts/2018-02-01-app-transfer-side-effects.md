@@ -2,7 +2,6 @@
 layout: post
 title: Side effects of transferring iOS application
 author: mateusz
-hidden: true
 tags: ['itunes connect', 'app store', 'ios', 'certificates']
 comments: true
 ---
@@ -23,7 +22,7 @@ If your application uses any of these features, you need to take some additional
 
 - **Auto-renewable subscriptions** - if an app uses this kind of subscriptions, then probably something [verifies their validity](https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1) (e.g. backend). To make sure that the recipients will be able to validate subscriptions during the transition, the initiator needs to generate an app-specific shared secret **before** initiating a transfer and share the code with the recipients so they could set up their own validation. Once the app transfer is complete, the recipients should generate a new shared secret so the users outside the organization had no longer access to it.
 
-- **Apple Pay** - the merchant ID is not transferred along with the app. The transaction continues to be successful as long as the original certificates are valid. While submitting an update, the recipients need to generate a new merchant ID.
+- **Apple Pay** - the merchant ID is not transferred along with the app. The transaction continues to be successful as long as the original certificates are valid. While submitting an update, the recipients need to generate a neaw merchant ID.
 
 - **Keychain** - while submitting the first update after the transition you will receive an email warning about **Potential Loss of Keychain Access**. After the app transition the Team ID changes so the application-identifier turns from `[old-team].pl.brightinventions.app` into `[new-team].pl.brightinventions.app`, which results in a loss of keychain access. After users update their app, it will not find an authentication token and ask for a re-login. Keychain sharing also continues to work only until the app is updated and needs to be replaced with a keychain group created by the recipients.
 
