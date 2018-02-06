@@ -2,10 +2,10 @@
 layout: post
 title: How to publish a library to a Maven repository with the maven-publish plugin
 author: piotr
-hidden: true
+hidden: false
 tags: maven jcenter jvm  gradle kotlin
 comments: true
-crosspost: false
+crosspost: true
 image: /images/publish-library/announce.jpg
 ---
 
