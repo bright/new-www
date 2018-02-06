@@ -34,7 +34,7 @@ For the [`com.jfrog.bintray`](https://github.com/bintray/gradle-bintray-plugin) 
 
 # Define Maven publishing
 
-The [`com.jfrog.bintray`](https://github.com/bintray/gradle-bintray-plugin#step-7-define-artifacts-to-be-uploaded-to-bintray) plugin relies on properly defined [Maven Publications](https://docs.gradle.org/current/userguide/publishing_maven.html). The Gradle DSL allows us to define them easily based on project properties e.g.
+The [`com.jfrog.bintray`](https://github.com/bintray/gradle-bintray-plugin#step-7-define-artifacts-to-be-uploaded-to-bintray) plugin relies on properly defined [Maven Publications](https://docs.gradle.org/current/userguide/publishing_maven.html). The Gradle DSL allows us to define them easily basing on project properties e.g.
 
 ```groovy
 publishing {
