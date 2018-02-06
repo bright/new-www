@@ -135,7 +135,7 @@ afterEvaluate {
 
 # Travis build
 
-Every project should have at least some form of [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration). For open source software there are at least couple of free build servers available. [Travis](https://travis-ci.org) is probably the most popular one. For gradle project Tarvis will by default call `build`. If you would like to upload the build artifacts to Bintray whenever successful build completes you need to add a line to `script` section of the `.travis.yml` like so:
+Every project should have at least some form of [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration). For open source software there are at least couple of free build servers available. [Travis](https://travis-ci.org) is probably the most popular one. For gradle project Travis will by default call `build`. If you would like to upload the build artifacts to Bintray whenever successful build completes you need to add a line to `script` section of the `.travis.yml` like so:
 
 ```yaml
 script:
@@ -147,7 +147,7 @@ Obviously the Bintray credentials need to be configured as well which can be don
 
 ![TravisCI environment configuration](/images/publish-library/travis-configure.png)
 
-Now, the Gradle git plugin will create a development version and publish it to Bintray on every Tarvis build.
+Now, the Gradle git plugin will create a development version and publish it to Bintray on every Travis build.
 
 # Tag to release
 
