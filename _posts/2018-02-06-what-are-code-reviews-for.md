@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What are Code Reviews for?
-excerpt: It is often said that Code Reviews are by far the most effective way to identify bugs in the software. However, it is easy to notice that the "code review" term is a bit overloaded and it might mean different things to different people.
+excerpt: It is often said that Code Reviews are by far the most effective way to identify bugs in software. However, it is easy to notice that the "code review" term is a bit overloaded and it might mean different things to different people.
 tags: code-review
 comments: true
 author: adam
@@ -9,11 +9,11 @@ hidden: true
 image: /images/people-office-group-team.jpg
 ---
 
-It is often said that Code Reviews are by far the most effective way to identify bugs in the software. However, it is easy to notice that the "code review" term is a bit overloaded and it might mean different things to different people. At Bright Inventions we are still learning how to take the most out of this practice (like everyone in our industry, right?) and we have already went through few stages of our approach to code review. Let me share a few thoughts about it. 
+It is often said that Code Reviews are by far the most effective way to identify bugs in software. However, it is easy to notice that the "code review" term is a bit overloaded and it might mean different things to different people. At Bright Inventions we are still learning how to take the most out of this practice (like everyone in our industry, right?) and we have already gone through few stages of our approach to code review. Let me share a few thoughts about it. 
 
 ## Is Code Review about semicolons?
 
-The simplest association one may have with Code Review is that it is all about the consistent code style – to ensure the code is formatted well, all spaces are replaced with tabs or all tabs are replaced with spaces, there are semicolons everywhere or there is no semicolons anywhere etc. While this is the simplest kind of thing that reviewers might look at, these things are too easy to waste our time on it and it should be handled by automated tools like shared IDE formatting settings ([easy in JetBrains IDEs](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html)) or static code analyzers like [ESLint](https://eslint.org/) or [TSLint](https://palantir.github.io/tslint/) plugged into our Continuous Integration environment.
+The simplest association one may have with Code Review is that it is all about the consistent code style – to ensure the code is formatted well, all spaces are replaced with tabs or all tabs are replaced with spaces, there are semicolons everywhere or there are no semicolons anywhere, etc. While this is the simplest kind of thing that reviewers might look at, these things are too easy to waste our time on it and it should be handled by automated tools like shared IDE formatting settings ([available for example in JetBrains IDEs](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html)) or static code analyzers like [ESLint](https://eslint.org/) or [TSLint](https://palantir.github.io/tslint/) plugged into our Continuous Integration environment.
 
 There are obviously cases that automated tools are unable to identify so we should look for these within Code Reviews, but having unified and consistent code style is definitely not the only way we can benefit from doing Code Reviews. We should definitely look deeper.
 
@@ -65,6 +65,6 @@ The best summary of how the Code Review might look like that is in line with my 
 >
 > Is anything here a re-implementation of existing functionality the developer may not be aware of?
 
-What is also inevitable when trying to make Code Review an integral part of our process is that we should expect every team member to participate. And this participation should have equal status – Code Review is not about the more senior developer serving as a gatekeeper for junior's code. It's also about junior reviewing senior's code with the same sense of seriousness.
+What is also inevitable when trying to make Code Review an integral part of our process is that we should expect every team member to participate. And this participation should have equal status – Code Review is not about the more senior developer serving as a gatekeeper for junior's code. It's also about junior reviewing senior's code with the same sense of seriousness. And if a junior is intimidated when asked to comment on the senior's code – just think: is there any better way to make a progress than reading a good code? And seniors are not unerring – when the less experienced person needs to ask questions to understand the code in question, maybe it's not that good after all?
 
 Last but not least, a successfully finished Code Review should become a part of our [definition of done](https://www.scrum.org/resources/scrum-glossary) - unless the code was reviewed and accepted by another team member(s), we can't move on and mark it as completed or treat it as finished. It should be treated on the equal rights with writing unit tests – not an optional addition we fancy from time to time, but a thing that – when missing – causes a warning flag to be raised.
