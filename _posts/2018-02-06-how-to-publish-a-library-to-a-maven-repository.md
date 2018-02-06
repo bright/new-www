@@ -30,7 +30,7 @@ allprojects {
 }
 ```
 
-For the [`com.jfrog.bintray`](https://github.com/bintray/gradle-bintray-plugin) plugin, used later on, to work nicely with Maven artifacts we need to apply additional Gralde plugin. The [`maven-publish`](https://docs.gradle.org/current/userguide/publishing_maven.html) which provides ability to publish artifacts in Maven format. All we need to do is to `apply plugin: 'maven-publish'` in the main project.
+For the [`com.jfrog.bintray`](https://github.com/bintray/gradle-bintray-plugin) plugin, used later on, to work nicely with Maven artifacts we need to apply additional Gralde plugin. This additional piece is the [`maven-publish`](https://docs.gradle.org/current/userguide/publishing_maven.html) plugin which provides ability to publish artifacts in Maven format. All we need to do is to `apply plugin: 'maven-publish'` in the main project.
 
 # Define Maven publishing
 
