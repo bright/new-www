@@ -9,13 +9,15 @@ hidden: true
 image: /images/people-office-group-team.jpg
 ---
 
-It is often said that Code Reviews are by far the most effective way to identify bugs in software. However, it is easy to notice that the "code review" term is a bit overloaded and it might mean different things to different people. At Bright Inventions we are still learning how to take the most out of this practice (like everyone in our industry, right?) and we have already gone through few stages of our approach to code review. Let me share a few thoughts about it. 
+It is [often said](https://blog.codinghorror.com/code-reviews-just-do-it/) that Code Reviews are by far the most effective way to identify bugs in software. However, it is easy to notice that the "code review" term is a bit overloaded and it might mean different things to different people. At [Bright Inventions](https://brightinventions.pl) we are still learning how to take the most out of this practice (like everyone in our industry, right?) and we have already gone through few stages of our approach to code review. Let me share a few thoughts about it. 
 
 ## Is Code Review about semicolons?
 
 The simplest association one may have with Code Review is that it is all about the consistent code style – to ensure the code is formatted well, all spaces are replaced with tabs or all tabs are replaced with spaces, there are semicolons everywhere or there are no semicolons anywhere, etc. While this is the simplest kind of thing that reviewers might look at, these things are too easy to waste our time on it and it should be handled by automated tools like shared IDE formatting settings ([available for example in JetBrains IDEs](https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html)) or static code analyzers like [ESLint](https://eslint.org/) or [TSLint](https://palantir.github.io/tslint/) plugged into our Continuous Integration environment.
 
 There are obviously cases that automated tools are unable to identify so we should look for these within Code Reviews, but having unified and consistent code style is definitely not the only way we can benefit from doing Code Reviews. We should definitely look deeper.
+
+![What are Code Reviews for?](/images/people-office-group-team.jpg)
 
 Code Review is an ideal chance to:
 
@@ -27,7 +29,9 @@ Code Review is an ideal chance to:
 
 ## It's also about longevity
 
-All of these aspects are contributing to the overall project quality and it's obvious that the projects that present generally higher quality are easier (and cheaper) to maintain. But there is more. One of the problem we tend to struggle is about [code ownership](https://martinfowler.com/bliki/CodeOwnership.html). When each team member works on the clearly isolated tasks, there is very little intersection between code written by different people and code ownership silos are created. It means that it's hard for other person to take over the task in case of that necessity. And that kind of necessities happen all the time – people might get sick, they may go on vacations or they just move on to other tasks, other projects or other jobs, so no ownership silos should happen in a healthy project.
+All of these aspects are contributing to the overall project quality and it's obvious that the projects that present generally higher quality are easier (and cheaper) to maintain. But there is more. 
+
+One of the problem we tend to struggle is about [code ownership](https://martinfowler.com/bliki/CodeOwnership.html). When each team member works on the clearly isolated tasks, there is very little intersection between code written by different people and code ownership silos are created. It means that it's hard for other person to take over the task in case of that necessity. And that kind of necessities happen all the time – people might get sick, they may go on vacations or they just move on to other tasks, other projects or other jobs, so no ownership silos should happen in a healthy project.
 
 How is Code Review related with this problem? By continuous Code Review happening as an integral part of the development process, we're ensuring that there is no line of code that wasn't seen by another team member. Code Review might be an enabler for collective code ownership, support code reuse and help the team establish a general shared knowledge about the codebase. The team is then also able to identify cases such as the overlapping or conflicting features, missing features or just ensure everyone on the board understands the problem domain and the tasks on hand the same way. And this leads us directly to the next thought:
 
@@ -35,7 +39,7 @@ How is Code Review related with this problem? By continuous Code Review happenin
 
 What if we take the idea even further and put much more emphasis on the "Review" part of the Code Review than on the "Code" part? Given that we already spend time talking together and looking at what we've done, maybe it also makes sense to think if the piece of code we've just written is the thing we should have done in the first place. Maybe, for feature consistency, it should be written differently? Maybe it is not needed at all as the task might be already accomplished somewhere else in the product we're building? Maybe we missed an important requirements update? Or maybe the requirements were not clear enough and we've just assumed too much based on it so we need to take a step back and figure out what are the goals and expectations for the given task first?
 
-Taking this idea even further, let me throw the question – how much of the work that is normally attributed to the QA part of the software development process (and possibly to the dedicated SQA people) can be done within the (Code) Review? How many bugs and deficiencies can be identified earlier? And – as a result – how regular Code Reviews influence the development cost? Can it actually make it lower despite the time we need to invest it? My unquantified gut feeling is that it's worth it.
+Taking this idea even further, let me throw the question – how much of the work that is normally attributed to the QA part of the software development process (and possibly to the dedicated SQA people) can be done within the (Code) Review? How many bugs and deficiencies can be identified earlier? And – as a result – how regular Code Reviews influence the development cost? Can it actually make it lower despite the time we need to invest in? My unquantified gut feeling is that it's worth it.
 
 ## How should Code Review look like?
 
