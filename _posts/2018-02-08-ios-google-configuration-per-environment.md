@@ -66,7 +66,7 @@ cp "${SRCROOT}/src/Resources/GoogleServiceInfoPlists/GoogleService-Info-$CONFIGU
 
 `SRCROOT` is also predefined and it points to the project location.
 
-Note that `src/GoogleService-Info.plist` must be added to target **Copy Bundle Resources** build phase, while resources Google configuration files not necessarily.
+Note that `src/GoogleService-Info.plist` must be added to target **Copy Bundle Resources** build phase, while Google configuration files to be copied from resources not necessarily.
 
 #### Caution!
 
