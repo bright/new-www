@@ -91,7 +91,7 @@ fun addConst(number: Long): Long {
 
 As you can see, the framework gives us the required repetitions count as a parameter and it's our job to actually run the code in a loop.
 
-_Side note: the current Spanner version (as of Feb 2, 2018) requires benchmark classes' and methods' modifiers to be exacly `java.lang.reflect.Modifier.PUBLIC` so you can't run final-by-default Kotlin code without additional `open` annotation. That's why I use my [forked version](https://github.com/azabost/spanner) with this behavior changed accordingly._
+_Side note: the current Spanner version (as of Feb 2, 2018) requires benchmark classes' and methods' modifiers to be exacly `java.lang.reflect.Modifier.PUBLIC` so you can't run final-by-default Kotlin code without additional `open` modifier. That's why I use my [forked version](https://github.com/azabost/spanner) with this behavior changed accordingly._
 
 Spanner can also upload your benchmark results to [https://microbenchmarks.appspot.com](https://microbenchmarks.appspot.com) either anonymously or with a given API key.
 
