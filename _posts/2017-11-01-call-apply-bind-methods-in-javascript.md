@@ -3,7 +3,7 @@ layout: post
 title: call(), apply() and bind() Methods in JavaScript
 author: monika
 tags: ['javascript', 'bind', 'apply', 'call']
-hidden: true
+hidden: false
 comments: true
 ---
 
