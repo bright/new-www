@@ -2,10 +2,10 @@
 layout: post
 title: Working with Chrome Extensions
 excerpt: Chrome Extensions can make your life easier whenever you want to add a new feature to the Chrome Browser. Working with extensions is quite easy. It’s just the good old JavaScript code and not much more. There are however few things worth taking into consideration while working with the extensions.
-tags: ['Chrome Extensions', 'Chrome']
+tags: ['Chrome Extensions', 'Chrome', 'JavaScript']
 author: monika
 comments: true
-hidden: true
+hidden: false
 ---
 
 Chrome Extensions can make your life easier whenever you want to add a script to the Chrome Browser. Working with extensions is quite easy. It’s just the good old JavaScript code and not much more. There are, however, a few things worth taking into consideration while working with the extensions.
