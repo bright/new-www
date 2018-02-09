@@ -177,7 +177,7 @@ export class BigBossParent extends React.Component<BigBossProps, BigBossState> {
 
     async onFetchNumbers() {
         // if we fetched numbers before, then we won't do it again
-        const hasDataOrPendingRequest = // check pending request && data existance
+        const hasDataOrPendingRequest = // check pending request && data existence
         if (!hasDataOrPendingRequest) {
             const numbers = await fetchNumbers() // this is my imaginary function that will provide me with numbers
             this.setState({ numbers })
@@ -201,7 +201,7 @@ With `Redux` you will be able to:
 - Write tests for your application's state changes in easier way as you can test it decoupled from the UI part.
 - Use unified way of changing this state (via `Actions` and `Reducers`), which comes in handy when the project grows and you need to move around it.
 
-Keep in mind that `Redux` is not a must and you do not need to use it for your application if you don't feel that you need it! - (You Might Not Need Redux)[https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367]
+Keep in mind that `Redux` is not a must and you do not need to use it for your application if you don't feel that you need it! - [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
 But let's assume that we would like to introduce `Redux` to our example and keep numbers in this unified `Store`.
 There are many approaches to how we can do it. The approach that is widely used and I personally like is connecting your main parent `components` with `Store` (in our case this would be `BigBossParent`) and then pass the required data to its children via their `props`. This way rendered children are not aware of any `Redux` magic and if we decide to drop `Redux` at some point, then our all "dumber" (not connected to store) components would not require any changes.
 
