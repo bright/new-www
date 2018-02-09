@@ -4,7 +4,7 @@ title: From React to React-Redux in a few steps
 tags: [React, Redux]
 comments: true
 author: eliasz
-hidden: false
+hidden: true
 excerpt:
 ---
 
