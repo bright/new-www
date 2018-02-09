@@ -95,7 +95,7 @@ export class FatComponent extends React.Component<Props, State> {
 ```
 
 But what if our `FatComponent` does not have this data instantly and would need to download it?
-Let's use a `fetchNumbers` method in `componentWillMount`.
+Let's use a `fetchNumbers` method in `componentDidMount`.
 
 ``` jsx
 interface Props {}
@@ -110,7 +110,7 @@ export class FatComponent extends React.Component<Props, State> {
     }
 
     // async await - https://javascript.info/async-await
-    async componentWillMount() {
+    async componentDidMount() {
         const numbers = await fetchNumbers() // this is my imaginary function that will provide me with numbers
         this.setState({ numbers })
     }
@@ -129,10 +129,10 @@ export class FatComponent extends React.Component<Props, State> {
 ```
 
 Ok, so we have a component that knows how to fetch numbers and display them in `SimpleComponents`. Great!
-But what if we want to reuse our `FatComponent` and present nubers from different source?
+But what if we want to reuse our `FatComponent` and present numbers from different source?
 What if we did not want to fetch the data everytime our component mounts? - After all we fetched this data once and we could use it in future.
 What if we want to use different initial array?
-In order to do this, we could add parameters to `FatComponent` and pass them from a parent that renders our `FatCompnent`.
+In order to do this, we could add parameters to `FatComponent` and pass them from a parent that renders our `FatComponent`.
 
 ``` jsx
 
@@ -149,8 +149,8 @@ interface State {
 export class FatComponent extends React.Component<Props, State> {
 
     // async await is no longer needed here as we tell our parent to load data for us.
-    componentWillMount() {
-        this.props.fetchNumbers()
+    componentDidMount() {
+        this.props.refreshNumbers()
     }
 
     render() {
@@ -177,7 +177,8 @@ export class BigBossParent extends React.Component<BigBossProps, BigBossState> {
 
     async onFetchNumbers() {
         // if we fetched numbers before, then we won't do it again
-        if (this.state.numbers.length === 0) {
+        const hasDataOrPendingRequest = // check pending request && data existance
+        if (!hasDataOrPendingRequest) {
             const numbers = await fetchNumbers() // this is my imaginary function that will provide me with numbers
             this.setState({ numbers })
         }
@@ -191,20 +192,18 @@ export class BigBossParent extends React.Component<BigBossProps, BigBossState> {
 
 ```
 
-Now if render logic in our `BigBossParent` changes and it will conditionally render `FatComponent` we will run into situation where
-`onFetchNumbers` will be called multiple times. The catch here is that our `BigBossParent` is pretty smart, so it won't download new data, but reuse the old array.
+Now if render logic in our `BigBossParent` changes and it will conditionally render `FatComponent` we will run into situation where `onFetchNumbers` will be called multiple times. The catch here is that our `BigBossParent` is pretty smart, so it won't download new data, but reuse the old array.
 But then agian. If at some point we decide to `unmount` `BigBossParent` then we will lose the state that is kept there and we will have to fetch it once again.
 If we want to avoid this, we could move the state to... You guessed it! Another parent.
-And this is where `Redux` comes with help to us. `Redux` provides us with way to keep our application's state in one unified "parent" called `Store` that will keep
-the our data and provide it to the components that we render.
+And this is where `Redux` comes with help to us. `Redux` provides us with way to keep our application's state in one unified "parent" called `Store` that will provide it to the components that we render.
 With `Redux` you will be able to:
 - Keep your application state in one place - `Store`
 - Write tests for your application's state changes in easier way as you can test it decoupled from the UI part.
 - Use unified way of changing this state (via `Actions` and `Reducers`), which comes in handy when the project grows and you need to move around it.
 
-Keep in mind that `Redux` is not a must and you do not need to use it for your application if you don't feel that you need it!
+Keep in mind that `Redux` is not a must and you do not need to use it for your application if you don't feel that you need it! - (You Might Not Need Redux)[https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367]
 But let's assume that we would like to introduce `Redux` to our example and keep numbers in this unified `Store`.
-There are many approaches to how we can do it. The approach that is widely used and I personally like is connecting your most bottom `components` with `Store` (in our case this would be `BigBossParent`) and then pass the required data to its children via their `props`. This way rendered children are not aware of any `Redux` magic and if we decide to drop `Redux` at some point, then our all "dumber" (not connected to store) components would not require any changes.
+There are many approaches to how we can do it. The approach that is widely used and I personally like is connecting your main parent `components` with `Store` (in our case this would be `BigBossParent`) and then pass the required data to its children via their `props`. This way rendered children are not aware of any `Redux` magic and if we decide to drop `Redux` at some point, then our all "dumber" (not connected to store) components would not require any changes.
 
 How would we approach connecting our `BigBossParent` to store (Place in `Redux` where data is kept?
 First of all, we need to specify the input props of `BigBossParent` just as we did with `FatComponent`.
