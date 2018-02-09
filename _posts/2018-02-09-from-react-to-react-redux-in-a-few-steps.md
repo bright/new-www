@@ -4,18 +4,18 @@ title: From React to React-Redux in a few steps
 tags: [React, Redux]
 comments: true
 author: eliasz
-hidden: true
+hidden: false
 excerpt:
 ---
 
-In this post I'm going to focus on connecting `React` components with `Redux`. If you are just starting out with `React + Redux` or you already worked with these before, but want to make this concept a bit clearer then feel invited to read this post till the end ;)
+In this post I'm going to focus on connecting `React` components with `Redux`. If you are just starting out with `React + Redux` or you have already worked with these before, but want to make this concept a bit clearer then feel invited to read this post till the end ;)
 
-If you would like to get a bit more undersanding of the flow in Redux, you can take a look at my previous [post about how I understand the Redux architecture](http://eliaszsawicki.com/story-of-redux/).
+If you would like to get a bit more understanding of the flow in Redux, you can take a look at my previous [post about how I understand the Redux architecture](http://eliaszsawicki.com/story-of-redux/).
 
 ## Before we introduce Redux
 
-Before we dive into `Redux` let's take a look at simple `React` component. How does it look like?
-Just to make it a bit more clearer - let's use TypeScript with interfaces to show what `props` (input data) do we expect in the component.
+Before we dive into `Redux` let's take a look at simple `React` component. What does it look like?
+Just to make it a bit clearer - let's use TypeScript with interfaces to show what `props` (input data) do we expect in the component.
 
 ``` jsx
 interface Props {
@@ -36,7 +36,7 @@ export class SimpleComponent extends React.Component<Props, State> {
 }
 ```
 
-This component takes two input parameters - `title` and `numbers`. If we want to display it in our application we need to pass these manually. For example:
+This component takes two input parameters - `title` and `numbers`. If we want to display it in our application, we need to pass these manually. For example:
 
 ``` jsx
 <SimpleComponent title='Test' numbers={[1,2,3,4]}/>
@@ -130,9 +130,9 @@ export class FatComponent extends React.Component<Props, State> {
 
 Ok, so we have a component that knows how to fetch numbers and display them in `SimpleComponents`. Great!
 But what if we want to reuse our `FatComponent` and present numbers from different source?
-What if we did not want to fetch the data everytime our component mounts? - After all we fetched this data once and we could use it in future.
-What if we want to use different initial array?
-In order to do this, we could add parameters to `FatComponent` and pass them from a parent that renders our `FatComponent`.
+What if we do not want to fetch the data everytime our component mounts? - After all we can fetch this data once and we can use it in future.
+What if we want to use a different initial array?
+In order to do this we could add parameters to `FatComponent` and pass them from a parent that renders our `FatComponent`.
 
 ``` jsx
 
@@ -192,20 +192,19 @@ export class BigBossParent extends React.Component<BigBossProps, BigBossState> {
 
 ```
 
-Now if render logic in our `BigBossParent` changes and it will conditionally render `FatComponent` we will run into situation where `onFetchNumbers` will be called multiple times. The catch here is that our `BigBossParent` is pretty smart, so it won't download new data, but reuse the old array.
-But then agian. If at some point we decide to `unmount` `BigBossParent` then we will lose the state that is kept there and we will have to fetch it once again.
+Now if render logic in our `BigBossParent` changes and it will conditionally render `FatComponent` we will run into a situation where `onFetchNumbers` will be called multiple times. The catch here is that our `BigBossParent` is pretty smart, so it won't download any new data but reuse the old array.
+But then again. If at some point we decide to `unmount` `BigBossParent`, then we will lose the state that is kept there and we will have to fetch it once again.
 If we want to avoid this, we could move the state to... You guessed it! Another parent.
-And this is where `Redux` comes with help to us. `Redux` provides us with way to keep our application's state in one unified "parent" called `Store` that will provide it to the components that we render.
+And this is where `Redux` comes with help to us. `Redux` provides us with a way to keep our application's state in one unified "parent" called `Store` that will provide it to the components that we render.
 With `Redux` you will be able to:
 - Keep your application state in one place - `Store`
-- Write tests for your application's state changes in easier way as you can test it decoupled from the UI part.
-- Use unified way of changing this state (via `Actions` and `Reducers`), which comes in handy when the project grows and you need to move around it.
+- Write tests for your application's state changes in an easier way as you can test it decoupled from the UI part.
+- Use a unified way of changing this state (via `Actions` and `Reducers`), which comes in handy when the project grows and you need to move around it.
 
-Keep in mind that `Redux` is not a must and you do not need to use it for your application if you don't feel that you need it! - [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367)
-But let's assume that we would like to introduce `Redux` to our example and keep numbers in this unified `Store`.
-There are many approaches to how we can do it. The approach that is widely used and I personally like is connecting your main parent `components` with `Store` (in our case this would be `BigBossParent`) and then pass the required data to its children via their `props`. This way rendered children are not aware of any `Redux` magic and if we decide to drop `Redux` at some point, then our all "dumber" (not connected to store) components would not require any changes.
+Keep in mind that `Redux` is not a must and you do not need to use it for your application if you don't feel that you need it! - [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367). But let's assume that we would like to introduce `Redux` to our example and keep numbers in this unified `Store`.
+There are many approaches to how we can do it. The approach that is widely used and I personally like is connecting your main parent `components` with `Store` (in our case this would be `BigBossParent`) and then pass the required data to its children via their `props`. This way the rendered children are not aware of any `Redux` magic and if we decide to drop `Redux` at some point, then our all "dumber" (not connected to store) components would not require any changes.
 
-How would we approach connecting our `BigBossParent` to store (Place in `Redux` where data is kept?
+How would we approach connecting our `BigBossParent` to store (Place in `Redux` where data is kept)?
 First of all, we need to specify the input props of `BigBossParent` just as we did with `FatComponent`.
 Just as before, we move the things that we do not want to control to `BigBossProps` and we hope that a thing that renders this component will
 take care of them and give it to use.
@@ -233,10 +232,10 @@ export const connectedComponent = ... // we will get to this later
 ```
 
 But what will be in charge of rendering our `BigBossParent`? We will render it in our applications "root" which will be connected to `Redux`.
-Let's imagine that this `div` here is the root of our app. The first thing that will be presented here is a `Provider`.
-Provider, `createStore` is available through `react-redux` package and it will be responsible for providing components renderd inside it with a way
+Let's imagine that this `div` here is the root of our app. The first thing that will be presented here is `Provider`.
+Provider, `createStore` is available through `react-redux` package and it will be responsible for providing components rendered inside it with a way
 to connect with the main application `store`. We will be able to get the state from it and apply changes to it (Let's focus on "getting" the state now).
-Provider will receive one parameter - a store that will be created with a `reducer` (let's not focus on them right now).
+Provider will receive one parameter - a store which will be created with a `reducer` (let's not focus on them right now).
 ``` html
     <div>
         <Provider store={createStore(reducer)}>
@@ -248,7 +247,7 @@ Provider will receive one parameter - a store that will be created with a `reduc
 ```
 
 Just before we move to our `BigBossParent` component, let's define an interface for our state in the application.
-What I mean is that every time that we get the state from the store (that we created with `createStore(reducers)`, we expect that it will be of `ApplicationState` type.
+What I mean is that every time that we get the state from the store (that we created with `createStore(reducers)`), we expect that it will be of `ApplicationState` type.
 
 ``` js
 interface ApplicationState {
@@ -276,19 +275,19 @@ class BigBossParent extends React.Component<BigBossProps, BigBossState> {
     }
 }
 
-// This method will receive the application state in first parameter
+// This method will receive the application state in a first parameter
 // its job is to take the part of the application state that BigBossParent is interested in and return it
-// In this method we would like to exactly match the props that BigBossParent expects, however we will not care about
+// In this method we would like to exactly match the props that BigBossParent expects, however, we will not care about
 // methods. (We will not provide refreshNumbers method through mapStateToPros)
 function mapStateToProps(state: ApplicationState) {
-    // this method will return object has "numbers" with value of numbers that are kept in our application state
+    // this method will return object has "numbers" with a value of numbers that are kept in our application state
     return {
         numbers: state.numbers
     }
 }
 
-// This method will receive dispatch method as first parameter
-// The dispatch will allow us to send actions to store.
+// This method will receive dispatch method as a first parameter
+// The dispatch will allow us to send actions to the store.
 // (if this concept is unfamiliar to you, please take a look at Redux documentation or my previous post - http://eliaszsawicki.com/story-of-redux/ )
 function mapDispatchToProps(dispatch: Redux.Dispatch) {
     return {
@@ -304,11 +303,11 @@ function mapDispatchToProps(dispatch: Redux.Dispatch) {
 export const connectedComponent = connect(mapStateToProps, mapDispatchToProps)(BigBossParent)
 ```
 
-Let's take a quick look at a `Reducer`. Do you remember that we passed it as our `createStore` parameter?
-`Reducer` is a function that takes in two parameters - `state` and `action` and returns new `state`.
+Let's take a quick look at `Reducer`. Do you remember that we have passed it as our `createStore` parameter?
+`Reducer` is a function that takes in two parameters - `state` and `action` and returns a new `state`.
 
 ``` js
-const DefaultState = { numbers: [] } // if we do not have state yet (start of the app), we need to provide a default one
+const DefaultState = { numbers: [] } // if we do not have a state yet (start of the app), we need to provide a default one
 function reducer(state: ApplicationState = DefaultState, action: Action): ApplicationState {
     switch (action.type) {
         case 'UPDATE_NUMBERS': // This is the action type that we sent from our BigBossParent component.
@@ -319,7 +318,7 @@ function reducer(state: ApplicationState = DefaultState, action: Action): Applic
 }
 ```
 
-In really simplified case we will have one reducer that handles our whole state, but in bigger apps we will have combined reducers that only take a part of the application state as first parameter. The part that they know how to handle.
+In really simplified case we will have one reducer that handles our whole state, but in bigger apps we will have combined reducers that only take a part of the application state as a first parameter. The part that they know how to handle.
 `UPDATE_NUMBERS` is the action type that we sent from our BigBossParent component. Let's take a look at `mapDispatchToProps` once again:
 
 ``` js
@@ -341,11 +340,11 @@ store.dispatch({
         })
     }
 ```
-This way we send an action to our store. Store receives the action, then passes application state and this action to reducers (In our case this is a reducer mentioned above). It sees that the action type matches the one it handles - `UPDATE_NUMBERS` and creates
-a new state accordingly. In our case it will apply the numbers sent as action's payload. After it's done, the new state is returned and applied to `store`.
+This way we send an action to our store. Store receives the action and then passes both application state and this action to reducers (In our case this is a reducer mentioned above). It sees that the action type matches the one it handles - `UPDATE_NUMBERS` and creates
+a new state accordingly. In our case it will apply the numbers sent as an action's payload. After it's done, the new state is returned and applied to the `store`.
 This will now be the new state of our application. At the time that we receive this new state, our `BigBossParent` will be updated (mapping functions will be invoked again).
 
-And this is how you go from plan `React` to `React-Redux` ;)
+And this is how you go from a `React` to `React-Redux` ;)
 If you have any comments, please share them below!
 
 
