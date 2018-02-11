@@ -5,7 +5,7 @@ image: /images/microbenchmarking-on-android/hourglass-2910948_1280.jpg
 author: azabost
 crosspost: true
 comments: true
-hidden: true
+hidden: false
 tags: android java kotlin benchmark
 ---
 
@@ -15,7 +15,7 @@ Since Kotlin becomes more and more popular, especially amongst Android developer
 
 Microbenchmarking is just micro-scale benchmarking :-) It's about measuring the performance of something really "small" that may take just micro- or nanoseconds, like calling a function or iterating over a collection.
 
-I really recommend to read [this wiki page on GitHub](https://github.com/google/caliper/wiki/JavaMicrobenchmarks) as it summarizes a few very important aspects of microbenchmarking, including its fallibility and some possible reasons why you could ever consider doing it.
+I really recommend to read [this wiki page on GitHub](https://github.com/google/caliper/wiki/JavaMicrobenchmarks) as it summarizes a few very important aspects of microbenchmarking, including its fallibility and some possible reasons why you could ever consider doing it. It also explains why you should actually avoid writing microbenchmarks as there are only a few reasonable excuses for doing it (mostly when you develop a performance-critical library or framework).
 
 ![Hourglass](/images/microbenchmarking-on-android/hourglass-2910948_1280.jpg){: .center-image}
 
@@ -23,7 +23,7 @@ I really recommend to read [this wiki page on GitHub](https://github.com/google/
 
 Writing a microbenchmark can be as simple as running some piece of code in a loop and measuring the time. You can also use one of the existing frameworks which have some useful features like the possibility to easily configure the way your benchmarks will be executed.
 
-Unfortunately, if you are willing to perform the tests on Android, you can't use probably the most advanced library, [JMH](http://openjdk.java.net/projects/code-tools/jmh/), as it uses some part of the Java API not available in Android API.
+Unfortunately, if you are willing to perform the tests on Android, you can't use probably the most advanced library, [JMH](http://openjdk.java.net/projects/code-tools/jmh/), as it uses some part of the Java API not available in Android API. This fact might discourage you from using Android platform for your benchmarks but you should bear in mind ART and Dalvik have significantly different characteristics from the JVM so optimizing code for JVM may be pessimizing it for Android (take a look at [this commit in Gson library](https://github.com/google/gson/commit/084047d80b582317f382536604373cafa14583a4)).
 
 ## Manual measurements ##
 
@@ -97,12 +97,17 @@ Spanner can also upload your benchmark results to [https://microbenchmarks.appsp
 
 ![Spanner results](/images/microbenchmarking-on-android/spanner-result.png){: .center-image}
 
-# Common mistakes and measurement issues #
+# What could possibly go wrong? #
 
-<!-- Oracle guide -->
-<!-- Caliper guide -->
-<!-- Subsequent executions will be faster thanks to JIT -->
+It's very easy to get horribly misleading results, especially if you don't follow some rules when writing microbenchmarks. For example, [this article](http://www.oracle.com/technetwork/articles/java/architect-benchmarking-2266277.html) by Julien Page shows how benchmarks may be optimized by the JVM so that the results become meaningless. A few criteria of a good benchmark have also been defined on [this Caliper wiki page](https://github.com/google/caliper/wiki/JavaMicrobenchmarkReviewCriteria). And in [this example](https://github.com/melix/jmh-gradle-example/blob/master/src/jmh/java/org/openjdk/jmh/samples/JMHSample_11_Loops.java) Cédric Champeau proves why it's so important to use the right tool for measurements (like JMH).
+
+Of course there are more issues that may happen, e.g.:
+
+* garbage collection occurring during the measurements,
+* temporarily increased CPU usage by other apps,
+* JIT compiler making your code run faster each time,
+* unavoidable CPU throttling.
 
 # Conclusion #
 
-<!--  -->
+Microbenchmarking is an interesting topic and I'm glad I could practice it myself and learn about it. As I've already mentioned, it's not something you should do on your daily basis, but still, I think it's worth reading about it and trying it out just to expand your horizons.
