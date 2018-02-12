@@ -129,7 +129,7 @@ class UsersControllerTests {
 
 # Notes on in-memory implementation
 
-The `EntityQueries` interface above is obviously a simplified version. The most important missing piece is the ability to save some entities. However, this is not a hard thing to implement in our in-memory implementation. We can for instance make use of the fact that all of our entities use JPA Persistance annotations to find the field marked with `@Id` and generate and assign it based on the contents of the `entities` variable. Another approach is to mark all entities with a dedicated interface e.g.
+The `EntityQueries` interface above is obviously a simplified version. The most important missing piece is the ability to save entities. However, this is not a hard thing to implement given the in-memory implementation. We can, for instance, make use of the fact that all of our entities are marked JPA Persistance annotations to find a field marked with `@Id`, generate the id and assign it based on the contents of the `entities` variable. Another approach is to mark all entities with a dedicated interface e.g.
 
 ```kotlin
 interface HasId<TId> {
