@@ -148,3 +148,5 @@ fun <TEntity:HasId<Long>> save(entity:TEntity) {
     entities += entity
 }
 ```
+
+Following the above approach we can easily add missing operations e.g. to remove an entity and that in turn allows us to write even more tests that run fully in-memory.
