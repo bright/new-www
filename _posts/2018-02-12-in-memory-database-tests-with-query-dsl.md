@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In memory database tests with Querydsl
+title: In-memory database tests with Querydsl
 author: piotr
 hidden: true
 tags: kotlin querydsl hibernate jpa database
@@ -28,7 +28,7 @@ val user = queryFactory.query()
     .fetchOne()
 ```
 
-One important option available is the [Collections](https://github.com/querydsl/querydsl/tree/master/querydsl-collections) module that offers an integration to POJO collections and beans. The following example in Kotlin shows how a list of users can be queried in a similar way:
+One important option available is the [Collections](https://github.com/querydsl/querydsl/tree/master/querydsl-collections) module that offers an integration to POJO collections and beans. The following example in Kotlin shows how a list of users can be queried:
 
 ```kotlin
 val users = listOf(userAlan, userBob, userAlice)
@@ -76,7 +76,7 @@ class QueryDslDomainQueryFactory(private val queryFactory: JPAQueryFactory) : En
 }
 ```
 
-The above let's us use the `EntityQueries` interface instead of JPA in e.g. Spring controllers like so:
+The above lets us use the `EntityQueries` interface instead of JPA in e.g. Spring controllers like so:
 
 ```kotlin
 @RestController
@@ -86,9 +86,11 @@ class UsersController(private val queries:EntityQueries) {
 }
 ```
 
-# Using EntityQueries abstraction in tests
+We no longer need to define [separate repository interfaces](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods) that get _magically_ implemented and slow us down in tests 🎉.
 
-We can use Spring test helpers to ease writing tests involving an application context that lets us inject e.g. `UsersController` instance to invoke its methods. However, such tests are comparatively very slow to start and thus cause the feedback loop to be much slower. Fortunately ou `EntityQueries` abstraction is very easy to implement using POJO in memory collections.
+# Using in-memory database in tests
+
+We can use Spring test helpers to ease writing tests involving an application context that lets us inject e.g. `UsersController` instance to invoke its methods. However, such tests are comparatively very slow to start and thus cause the feedback loop to be much slower. Fortunately ou `EntityQueries` abstraction is very easy to implement using POJO in-memory collections.
 
 ```kotlin
 class InMemoryEntityQueries : QueriesBase(), EntityQueries {
@@ -106,7 +108,7 @@ class InMemoryEntityQueries : QueriesBase(), EntityQueries {
 }
 ```
 
-The above implementation looks almost exactly the same as the production one. We can of course try to extract the common code to make things more DRY. However, the most important observation is that we delegate to Querydsl implementation for the important filtering and ordering logic. This can increase our confidence that the fake implementation behaves the same as production one with only difference being the actual entity storage. 
+The above implementation looks almost exactly the same as the production one. We can of course try to extract the common code to make things more DRY. However, the most important observation is that we delegate to Querydsl implementation for the important filtering and ordering logic. This can increase our confidence that the fake implementation behaves the same as production one with only difference being the actual entity storage.
 
 Given the above implementation we can now easily replace the `UsersController` dependency and instantiate it as a regular POJO:
 
@@ -125,3 +127,24 @@ class UsersControllerTests {
 }
 ```
 
+# Notes on in-memory implementation
+
+The `EntityQueries` interface above is obviously a simplified version. The most important missing piece is the ability to save some entities. However, this is not a hard thing to implement in our in-memory implementation. We can for instance make use of the fact that all of our entities use JPA Persistance annotations to find the field marked with `@Id` and generate and assign it based on the contents of the `entities` variable. Another approach is to mark all entities with a dedicated interface e.g.
+
+```kotlin
+interface HasId<TId> {
+    var id: TId
+}
+```
+
+An entity implementing `HasId` could be checked in the `save` method of the in-memory implementation and assigned with a unique identifier e.g.:
+
+```kotlin
+fun <TEntity:HasId<Long>> save(entity:TEntity) {
+    val entities = entities.getOrPut(entity.javaClass, { mutableListOf<TEntity>() }) as List<TEntity>
+    if(entity.id == null){
+        entity.id = (entities.map { it.id }.max() ?: 0) + 1
+    }
+    entities += entity
+}
+```
