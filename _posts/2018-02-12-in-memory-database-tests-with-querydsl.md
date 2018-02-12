@@ -119,7 +119,7 @@ class UsersControllerTests {
 
     @Test
     fun canFindByEmail(){
-        db.entities[User::class.java] =  listOf(User(email = "ala@gmail.com), User(email = "ola@gmail.com"))
+        db.entities[User::class.java] =  listOf(User(email = "ala@gmail.com"), User(email = "ola@gmail.com"))
 
         controller.getByEmail("ola@gmail.com").email.shouldEqual("ola@gmail.com")
         controller.getByEmail("peter@gmail.com").shouldEqual(null)
