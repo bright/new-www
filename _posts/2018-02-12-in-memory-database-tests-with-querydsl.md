@@ -90,7 +90,7 @@ We no longer need to define [separate repository interfaces](https://docs.spring
 
 # Using in-memory database in tests
 
-We can use Spring test helpers to ease writing tests involving an application context that lets us inject e.g. `UsersController` instance to invoke its methods. However, such tests are comparatively very slow to start and thus cause the feedback loop to be much slower. Fortunately ou `EntityQueries` abstraction is very easy to implement using POJO in-memory collections.
+We can use Spring test helpers to ease writing tests involving an application context that lets us inject e.g. `UsersController` instance to invoke its methods. However, such tests are, comparatively, very slow to run and thus cause the feedback loop to be much slower. Fortunately the `EntityQueries` abstraction is very easy to implement using POJO in-memory collections.
 
 ```kotlin
 class InMemoryEntityQueries : QueriesBase(), EntityQueries {
