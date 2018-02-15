@@ -5,12 +5,12 @@ author: radek
 hidden: true
 tags: ['android', 'UI', 'chart', 'CSV']
 comments: true
-image: /images/radek/chart_mobile.jpeg
+image: /images/radek/chart_mobile.jpg
 ---
 
 If you ever needed to add a chart to your Android app you certainly heard about [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) by [PhilJay](https://github.com/PhilJay). If not, consider use this powerful library. Let me show you how easy it is to start!
 
-![header img](/images/radek/chart_mobile.jpeg)
+![header img](/images/radek/chart_mobile.jpg)
 
 ### Goal
 The goal is to build a simple app written in `Kotlin` which displays linear chart with static data. To make it a little bit more interesting we're going to provide data with `.csv` file. It is very simple format for storing table-based data in form of text files where values are separated with comas (Coma Separated Values). We'll use [`OpenCSV`](http://opencsv.sourceforge.net/) library to parse it.
