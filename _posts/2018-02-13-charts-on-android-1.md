@@ -103,7 +103,7 @@ val bananaData = Parser.toDataSet(streamBananas.reader())
 
 Finaly our data looks a little bit more friendly. Time to make a chart!
 
-### Line Chart properties
+### Apply data
 
 Add LineChart view to your layout, for example:
 ``` xml
@@ -157,31 +157,33 @@ lineChart.data = LineData(
 That's it, chart is set up with data!
 ![chart one](/images/radek/chart_ugly.png)
 
-### Make me beautiful
-
+### Make me beautiful - LineChart properties
+Chart layout configuration is very flexible. I'll show you some basic properties, the rest you may find in [documentation](https://github.com/PhilJay/MPAndroidChart/wiki). They are separated between dataset-specific and chart-specific.
 
 ##### Tune up data sets
 
-`colors.xml`
+First add some colors to the resource `colors.xml` file in order to make banana look a little bit more like <span style="color:#ffe100">banana</span> and yogurt like <span style="color:#0085c7">yogurt</span>.
+
 ``` xml
 <color name="banana">#ffe100</color>
 <color name="yogurt">#0085c7</color>
 ```
-
+We'll configure each of the `LineDataSet` object the same way, but with different color. Check out method below with the comments:
 
 ``` kotlin
 private fun configureSetLayout(set: LineDataSet, color: Int) {
 
-    set.color = color
-    set.fillColor = color
-    set.setDrawCircles(false)
-    set.mode = LineDataSet.Mode.CUBIC_BEZIER
-    set.setDrawFilled(true)
-    set.fillAlpha = 50 // 0-255
+    set.color = color                         // color of the line
+    set.setDrawFilled(true)                   // fill the space between line and chart bottom
+    set.fillColor = color                     // color of the fill
+    set.setDrawCircles(false)                 // disable drawing circles over each Entry point
+    set.mode = LineDataSet.Mode.CUBIC_BEZIER  // round the line
+    set.fillAlpha = 50                        // make fill transparent with alpha (0-255)
 
 }
 ```
 
+Now apply configuration to each dataset:
 
 ``` kotlin
 val bananaColor = resources.getColor(R.color.banana, null)
@@ -193,6 +195,18 @@ configureSetLayout(yogurtDataSet, yogurtColor)
 
 ##### Tune up chart
 
+You may configure chart behaviour in many ways. Default setting allows the user to scale the chart with pinching and scroll it. Since our dataset conatains ~700 records let's leave the ability to scale the chart along the axis X and only block the ability to scale it along axis Y. Also remove description from right bottom corner and highlighting values. Like that:
+
+``` kotlin
+lineChart.description.isEnabled = false
+
+lineChart.isHighlightPerTapEnabled = false
+lineChart.isHighlightPerDragEnabled = false
+lineChart.isScaleYEnabled = false
+```
+
+Works more intuitive already. Now notice that description above top X axis are float values. They doesn't say much unfortunately. It would be better if they mark year's change every 52 weeks! To achieve this use `IAxisValueFormatter`. It looks like this:
+
 ``` kotlin
 inner class MyAxisFormatter : IAxisValueFormatter {
     override fun getFormattedValue(value: Float, axis: AxisBase?): String {
@@ -201,17 +215,20 @@ inner class MyAxisFormatter : IAxisValueFormatter {
     }
 }
 ```
+Means that it will display value only if is divisible by `52`. And then maps the value to corresponding year (with starting year set to 2004). We need also proper granularity so there won't be any grid between years.
 
 ``` kotlin
 lineChart.xAxis.valueFormatter = MyAxisFormatter()
 lineChart.xAxis.granularity = 52f
 ```
+ Also who needs Y axis on both sides? Disable one of them:
+ ``` Kotlin
+ lineChart.axisRight.isEnabled = false
+ ```
 
-``` kotlin
-lineChart.isHighlightPerTapEnabled = false
-lineChart.isHighlightPerDragEnabled = false
-lineChart.isScaleYEnabled = false
-```
+ Boom! That's it! Looks nice and data is clear. Pinch to zoom, swipe right and left to get through all these years and finally check when frozen yogurt beats banana bread in google searches!  
+![chart two](/images/radek/chart_bjutiful.png)  
+Oh, looks like every year around summer! Who would know.
 
 ### Refs:
 [Wiki](https://github.com/PhilJay/MPAndroidChart/wiki) & [Issues](https://github.com/PhilJay/MPAndroidChart/issues)
