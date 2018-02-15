@@ -10,6 +10,8 @@ image: /images/radek/chart_mobile.jpeg
 
 If you ever needed to add a chart to your Android app you certainly heard about [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) by [PhilJay](https://github.com/PhilJay). If not, consider use this powerful library. Let me show you how easy it is to start!
 
+![header img](/images/radek/chart_mobile.jpeg)
+
 ### Goal
 The goal is to build a simple app written in `Kotlin` which displays linear chart with static data. To make it a little bit more interesting we're going to provide data with `.csv` file. It is very simple format for storing table-based data in form of text files where values are separated with comas (Coma Separated Values). We'll use [`OpenCSV`](http://opencsv.sourceforge.net/) library to parse it.
 
@@ -96,7 +98,7 @@ class Parser {
 ```
 Static method builds list of `FoodSearch` records based on provided `Reader`. You can get reader from fileStream, which is provided with activity resources. Looks like this:
 
-``` Kotlin
+``` kotlin
 val streamBananas = resources.openRawResource(R.raw.banana_bread)
 val bananaData = Parser.toDataSet(streamBananas.reader())
 ```
@@ -124,7 +126,7 @@ How to manage data now?
 
 Take a look at the code now:
 
-``` Kotlin
+``` kotlin
 
 private fun getEntriesFromCSV(rawResId: Int, label: String): LineDataSet {
 
@@ -144,7 +146,7 @@ private fun getEntriesFromCSV(rawResId: Int, label: String): LineDataSet {
 
 This function and Parser from previous paragraph creates DataSet from `csv` resource. Now simply call it for each `csv` file and create `LineData`:
 
-``` Kotlin
+``` kotlin
 val bananaDataSet = getEntriesFromCSV(R.raw.banana_bread, "Banana Bread")
 val yogurtDataSet = getEntriesFromCSV(R.raw.frozen_yogurt, "Frozen Yogurt")
 
@@ -222,7 +224,7 @@ lineChart.xAxis.valueFormatter = MyAxisFormatter()
 lineChart.xAxis.granularity = 52f
 ```
  Also who needs Y axis on both sides? Disable one of them:
- ``` Kotlin
+ ``` kotlin
  lineChart.axisRight.isEnabled = false
  ```
 
