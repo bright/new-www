@@ -43,7 +43,7 @@ banana-bread,/m/04cym9,2004-04,27
 ...
 ```
 
-There are `676` in both datasets. Values are normalised, so `value` is between `0` and `100`, where `0` is lowest number of searches, `100` is the largest, and the rest are calculated proportionally.
+There are `676` records in both datasets. Values are normalised, so `value` is between `0` and `100`, where `0` is lowest number of searches, `100` is the largest, and the rest are calculated proportionally.
 
 Put `banana_bread.csv` & `frozen_yogurt.csv` under `/app/res/raw` directory in your project.
 
@@ -103,7 +103,7 @@ val streamBananas = resources.openRawResource(R.raw.banana_bread)
 val bananaData = Parser.toDataSet(streamBananas.reader())
 ```
 
-Finaly our data looks a little bit more friendly. Time to make a chart!
+Finally our data looks a little bit more friendly. Time to make a chart!
 
 ### Apply data
 
@@ -122,9 +122,8 @@ How to manage data now?
 1. Parse your data from csv file to list of any data objects representing single point on the chart - DONE!
 2. Map list of data objects to list of `Entry` objects
 3. Create `LineDataSet` from list of entries and label, like "Banana Bread"
-4. Each set use as an argument to create `LineData` object. Voila.
+4. Use each of sets as an argument to create `LineData` object. Voila.
 
-Take a look at the code now:
 
 ``` kotlin
 
@@ -144,7 +143,7 @@ private fun getEntriesFromCSV(rawResId: Int, label: String): LineDataSet {
 }
 ```
 
-This function and Parser from previous paragraph creates DataSet from `csv` resource. Now simply call it for each `csv` file and create `LineData`:
+This function and Parser from previous paragraph creates `LineDataSet` from `csv` resource. Now simply call it for each `csv` file and create `LineData`:
 
 ``` kotlin
 val bananaDataSet = getEntriesFromCSV(R.raw.banana_bread, "Banana Bread")
@@ -160,7 +159,7 @@ That's it, chart is set up with data!
 ![chart one](/images/radek/chart_ugly.png)
 
 ### Make me beautiful - LineChart properties
-Chart layout configuration is very flexible. I'll show you some basic properties, the rest you may find in [documentation](https://github.com/PhilJay/MPAndroidChart/wiki). They are separated between dataset-specific and chart-specific.
+Time to add some colors and spices. Chart layout configuration is very flexible. I'll show you some basic properties, the rest you may find in the [documentation](https://github.com/PhilJay/MPAndroidChart/wiki). Props are separated between dataset-specific and chart-specific.
 
 ##### Tune up data sets
 
@@ -197,7 +196,7 @@ configureSetLayout(yogurtDataSet, yogurtColor)
 
 ##### Tune up chart
 
-You may configure chart behaviour in many ways. Default setting allows the user to scale the chart with pinching and scroll it. Since our dataset conatains ~700 records let's leave the ability to scale the chart along the axis X and only block the ability to scale it along axis Y. Also remove description from right bottom corner and highlighting values. Like that:
+You may configure chart behaviour in many ways. Default setting allows the user to scale the chart with pinching and scroll it. Since our dataset contains ~700 records let's leave the ability to scale the chart along the axis X and only block the ability to scale it along axis Y. Also remove description from right bottom corner and highlighting values by tapping. Like that:
 
 ``` kotlin
 lineChart.description.isEnabled = false
@@ -228,7 +227,7 @@ lineChart.xAxis.granularity = 52f
  lineChart.axisRight.isEnabled = false
  ```
 
- Boom! That's it! Looks nice and data is clear. Pinch to zoom, swipe right and left to get through all these years and finally check when frozen yogurt beats banana bread in google searches!  
+ Boom! That's it! Looks nice and presenting the data clearly. Pinch to zoom, swipe right and left to get through all these years and finally check when frozen yogurt beats banana bread in google searches!  
 ![chart two](/images/radek/chart_bjutiful.png)  
 Oh, looks like every year around summer! Who would know.
 
