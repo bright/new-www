@@ -6,7 +6,7 @@ hidden: false
 tags: productivity effectiveness recovering 
 ---
 
-Who would not like to be successful and manage their time wisely to have it for anything and for anyone? We all would. But to do that we should focus on our life for a bit longer than few seconds and think which elements of it make us less effective, and in consequence less happy. We should focus on recovering.
+Who would not like to be successful and manage their time wisely to have it for everything and for everyone? We all would. But to do that we should focus on our life for a bit longer than few seconds and think which elements of it make us less effective, and in consequence less happy. We should focus on recovering.
 
 If we decide to recover, we should always keep in mind that our life is not a sprint. Real success is growing slowly and sustainably. Every step is well-planned and make us closer to our goal. So let us project it attentively. It will leave us stronger and more single-minded than ever. 
 
@@ -18,7 +18,7 @@ Grumbling, moaning, criticising. We very often demotivate ourselves just by comp
 
 **2) Obstinacy** 
 
-Our ideas are not always the best ones. Flexibility and open-mindedness are two things people pay most for these days. Let us not stick to our original plan just because it is original and it is ours. Stubbornly following own plan while someone more experienced is saying that we shall change it would lead us nowhere. Obstinacy does not help here.
+Our ideas are not always the best ones. Flexibility and open-mindedness are two things people pay most for these days. Let us not stick to our original plan just because it is original and it is ours. Stubbornly following own plan while someone is suggesting a change would lead us nowhere. Obstinacy does not help, it just closes our mind. 
 
 **3) Humility and Gratitude** 
 
