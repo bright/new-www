@@ -2,13 +2,12 @@
 layout: post
 title: Your first chart in Android App with CSV parser
 author: radek
-hidden: true
 tags: ['android', 'UI', 'chart', 'CSV']
 comments: true
 image: /images/radek/chart_mobile.jpg
 ---
 
-If you ever needed to add a chart to your Android app you certainly heard about [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) by [PhilJay](https://github.com/PhilJay). If not, consider use this powerful library. Let me show you how easy it is to start!
+If you ever needed to add a chart to your Android app you certainly heard about [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) by [PhilJay](https://github.com/PhilJay). If not, consider using this powerful library. Let me show you how easy it is to start!
 
 ![header img](/images/radek/chart_mobile.jpg)
 
@@ -18,14 +17,14 @@ The goal is to build a simple app written in `Kotlin` which displays linear char
 ### Dependencies
 
 First add dependencies to gradle files.
-```
+``` groovy
 allprojects {
     repositories {
         ...
         maven { url "https://jitpack.io" }
 ```
 
-```
+``` groovy
 dependencies {
     ...
     implementation "com.github.PhilJay:MPAndroidChart:v3.0.3"
@@ -58,9 +57,7 @@ data class FoodSearch(
         val googleTopic: String,
         val week_id: String,
         val value: Int
-) {
-    override fun toString(): String = "$id::$googleTopic::$week_id::$value"
-}
+)
 ```
 
 ### How to parse it?
@@ -129,11 +126,13 @@ How to manage data now?
 
 private fun getEntriesFromCSV(rawResId: Int, label: String): LineDataSet {
 
-    val stream = resources.openRawResource(rawResId)
-    val data = Parser.toDataSet(stream.reader())
+    var data: List<FoodSearch>? = null
+    resources.openRawResource(rawResId).use { stream ->
+        data = Parser.toDataSet(stream.reader())
+    }
     val entries: MutableList<Entry> = ArrayList()
 
-    data.mapIndexed { index, foodSearch ->
+    data?.mapIndexed { index, foodSearch ->
         entries.add(
                 Entry(index.toFloat(), foodSearch.value.toFloat(), foodSearch)
         )
