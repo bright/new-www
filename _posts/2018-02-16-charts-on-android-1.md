@@ -12,7 +12,7 @@ If you ever needed to add a chart to your Android app you certainly heard about 
 ![header img](/images/radek/chart_mobile.jpg)
 
 ### Goal
-The goal is to build a simple app written in `Kotlin` which displays linear chart with static data. To make it a little bit more interesting we're going to provide data with `.csv` file. It is very simple format for storing table-based data in form of text files where values are separated with comas (Coma Separated Values). We'll use [`OpenCSV`](http://opencsv.sourceforge.net/) library to parse it.
+The goal is to build a simple app written in Kotlin which displays linear chart with static data. To make it a little bit more interesting we're going to provide data with `.csv` file. It is very simple format for storing table-based data in form of text files where values are separated with commas (Comma Separated Values). We'll use [`OpenCSV`](http://opencsv.sourceforge.net/) library to parse it.
 
 ### Dependencies
 
@@ -32,7 +32,7 @@ dependencies {
 ```
 
 ### Raw Data Set
-Find some data, for example from [_here_](kaggle.com/datasets). I chose [_food searches on google_](https://www.kaggle.com/GoogleNewsLab/food-searches-on-google-since-2004) set and cut it a little to display comparison of two searches: `banana bread` and `frozen yogurt`. File looks like this:
+Find some data, for example from [_here_](https://www.kaggle.com/datasets). I chose [_food searches on Google_](https://www.kaggle.com/GoogleNewsLab/food-searches-on-google-since-2004) set and cut it a little to display comparison of two searches: `banana bread` and `frozen yogurt`. File looks like this:
 ``` csv
 id,googleTopic,week_id,value
 banana-bread,/m/04cym9,2004-01,30
@@ -93,7 +93,7 @@ class Parser {
     }
 }
 ```
-Static method builds list of `FoodSearch` records based on provided `Reader`. You can get reader from fileStream, which is provided with activity resources. Looks like this:
+Static method builds list of `FoodSearch` records based on provided `Reader`. You can get reader from `fileStream`, which is provided with activity resources. Looks like this:
 
 ``` kotlin
 val streamBananas = resources.openRawResource(R.raw.banana_bread)
@@ -104,7 +104,7 @@ Finally our data looks a little bit more friendly. Time to make a chart!
 
 ### Apply data
 
-Add LineChart view to your layout, for example:
+Add `LineChart` view to your layout, for example:
 ``` xml
 <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/lineChart"
@@ -215,7 +215,7 @@ inner class MyAxisFormatter : IAxisValueFormatter {
     }
 }
 ```
-Means that it will display value only if is divisible by `52`. And then maps the value to corresponding year (with starting year set to 2004). We need also proper granularity so there won't be any grid between years.
+Means that it will display value only if is divisible by 52. And then maps the value to corresponding year (with starting year set to 2004). We need also proper granularity so there won't be any grid between years.
 
 ``` kotlin
 lineChart.xAxis.valueFormatter = MyAxisFormatter()
@@ -226,7 +226,7 @@ lineChart.xAxis.granularity = 52f
  lineChart.axisRight.isEnabled = false
  ```
 
- Boom! That's it! Looks nice and presenting the data clearly. Pinch to zoom, swipe right and left to get through all these years and finally check when frozen yogurt beats banana bread in google searches!  
+ Boom! That's it! Looks nice and presenting the data clearly. Pinch to zoom, swipe right and left to get through all these years and finally check when frozen yogurt beats banana bread in Google searches!  
 ![chart two](/images/radek/chart_bjutiful.png)  
 Oh, looks like every year around summer! Who would know.
 
