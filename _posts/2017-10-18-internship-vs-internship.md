@@ -2,6 +2,7 @@
 layout: post
 title: Internship vs Internship
 author: radek
+comments: true
 tags: ['management', 'success', 'personal development', 'engagement', 'productivity']
 ---
 

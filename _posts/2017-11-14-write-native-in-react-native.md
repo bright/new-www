@@ -2,6 +2,7 @@
 layout: post
 title: Putting native in React Native on Android
 author: radek
+comments: true
 tags: ['android', 'react native', 'java', 'platform specific']
 image: /images/putting-native-in-rn/toymodel.JPG
 ---
