@@ -5,7 +5,7 @@ image: /images/implementing-in-app-language-change/communication.jpg
 author: azabost
 crosspost: true
 comments: true
-hidden: true
+hidden: false
 tags: android java kotlin language dagger
 ---
 
@@ -15,7 +15,7 @@ Android resolves language- and culture-specific resources based on the system lo
 
 # The big picture #
 
-Before I start with the code, let me explain how this whole mechanism will work like.
+Before I start with the code, let me explain how this whole mechanism will work.
 
 I'm going to translate all the strings visible on the current application screen during the lifecycle callbacks (e.g. `Activity.onResume()` and `Fragment.onResume()`). This approach is easy to implement and understand and it currently covers all my needs. I won't try to force the app to translate itself magically. This means some overhead in the code for re-initializing all the texts and views which need to be translated.
 
@@ -36,20 +36,16 @@ object LocaleCodes {
     const val GERMAN = "de"
 }
 
-enum class Language {
-    English,
-    German,
-    Polish;
+enum class Language(val locale: Locale) {
+    English(Locale(LocaleCodes.ENGLISH)),
+    German(Locale(LocaleCodes.GERMAN)),
+    Polish(Locale(LocaleCodes.POLISH));
 
     companion object {
         val DEFAULT = English
 
-        fun fromLocale(locale: Locale): Language = when (locale.language) {
-            Locale(LocaleCodes.GERMAN).language -> German
-            Locale(LocaleCodes.ENGLISH).language -> English
-            Locale(LocaleCodes.POLISH).language -> Polish
-            else -> DEFAULT
-        }
+        fun fromLocale(locale: Locale): Language =
+                values().firstOrNull { it.locale.language == locale.language } ?: DEFAULT
     }
 }
 ```
@@ -176,19 +172,19 @@ class LocalizationModule {
     @IntoMap
     @LanguageKey(Language.English)
     fun providesEnglishResources(context: Context): Resources =
-        getLocalizedResources(context, Locale(LocaleCodes.ENGLISH))
+        getLocalizedResources(context, Language.English.locale)
 
     @Provides
     @IntoMap
     @LanguageKey(Language.Polish)
     fun providesPolishResources(context: Context): Resources =
-        getLocalizedResources(context, Locale(LocaleCodes.POLISH))
+        getLocalizedResources(context, Language.Polish.locale)
 
     @Provides
     @IntoMap
     @LanguageKey(Language.German)
     fun providesGermanResources(context: Context): Resources =
-        getLocalizedResources(context, Locale(LocaleCodes.GERMAN))
+        getLocalizedResources(context, Language.German.locale)
 
     private fun getLocalizedResources(context: Context, locale: Locale): Resources {
         val conf = Configuration(context.resources.configuration)
