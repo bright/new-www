@@ -115,9 +115,9 @@ As you can see above, the `ECSMainCluster` is mostly a declaration. What follows
 ```
 
 The first important property is the `ImageId` which uses [Amazon ECS-optimized Linux AMI ID](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html). Next we have a security group that adds rules for incoming traffic on application ports. Next we have `IamInstanceProfile` which references an instance profile `ECSHostEC2InstanceProfile` that in turn [assumes a role policy required by the ECS Agent](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/instance_IAM_role.html) to deploy and configure containers.
-Inside `UserData` we define a simple shell script that provides the cluster references to the ECS Agent. I will omit `ECSHostEC2Role` definition since [it is well described in the documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/instance_IAM_role.html).
+Inside `UserData` we define a simple shell script that informs ECS Agent about the cluster it is running in. I will omit `ECSHostEC2Role` definition since [it is well described in the documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/instance_IAM_role.html).
 
-With the above we are now ready to deploy an ECS Cluster through CloudFormation template. However, a cluster without containers does not provide any value. 
+With the above we are now ready to deploy an ECS Cluster through CloudFormation template. However, a cluster without containers is pretty meaningless. 
 
 # ECS Service and Task definition
 
