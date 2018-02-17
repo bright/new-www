@@ -29,12 +29,8 @@ At [Bright Inventions](https://brightinventions.pl/) we often use CloudFormation
     "Type": "AWS::AutoScaling::AutoScalingGroup",
     "Properties": {
         "VPCZoneIdentifier": [
-            {
-                "Ref": "PrivateASubnet"
-            },
-            {
-                "Ref": "PrivateBSubnet"
-            }
+            { "Ref": "PrivateASubnet" },
+            { "Ref": "PrivateBSubnet" }
         ],
         "LaunchConfigurationName": {
             "Ref": "ContainerHostInstances"
@@ -63,7 +59,7 @@ At [Bright Inventions](https://brightinventions.pl/) we often use CloudFormation
 }
 ```
 
-As you can see above, the `ECSMainCluster` is mostly a declaration. What follows is an auto scaling group that will launch EC2 instances with a specified `LaunchConfigurationName` named `ContainerHostInstances` defined below.
+As you can see above, the `ECSMainCluster` is mostly a declaration. What follows is an auto scaling group that will launch and manage EC2 instances. The `VPCZoneIdentifier` lists 2 VPC subnets created in separate availability zones. This is vital for availability as it causes the EC2 instances to run on physically separate hardware. The specified `LaunchConfigurationName` named `ContainerHostInstances` details how the EC2 instance should look like.
 
 ```json
 "ContainerHostInstances": {
