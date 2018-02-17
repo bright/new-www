@@ -121,7 +121,7 @@ With the above we are now ready to deploy an ECS Cluster through CloudFormation 
 
 # ECS Service and Task definition
 
-In AWS lingo [an ECS Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html) describes a minimal configuration required to deploy and run a Task Definition. A [Task Definition](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html) in turn describes how to configure and run a set of containers that for a single logical component.
+In AWS lingo [an ECS Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html) describes a minimal configuration required to deploy and run a Task Definition. A [Task Definition](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html) in turn describes how to configure and run a set of containers that form a single logical component.
 
 ```json
 "EmailSenderService": {
