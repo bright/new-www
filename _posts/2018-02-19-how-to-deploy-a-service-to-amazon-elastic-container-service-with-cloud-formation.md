@@ -2,7 +2,7 @@
 layout: post
 title: How to deploy a service to Amazon Elastic Container Service with CloudFormation?
 author: piotr
-hidden: true
+hidden: false
 tags: aws ecs cloudformation zuul 
 comments: true
 crosspost: true
