@@ -71,3 +71,5 @@ Another alternative is [Native Navigation](http://airbnb.io/native-navigation), 
 ## My weapon of choice
 
 Personally, I find the possibility to use 100% platform native navigation in the React Native apps **the most valuable**, which is a reason why I chose [React Native Navigation](https://github.com/wix/react-native-navigation). Although I gave [React Navigation](https://github.com/react-navigation/react-navigation) a shot, I missed `UIViewController`s methods like `viewWillDisappear(_:)` or `viewDidAppear(_:)` and the truly native felling when navigating between screens. However, if you prefer a pure JavaScript library and you are not so bound to the native platform feeling, you have at least two alternatives to try out.
+
+Regardless of which option you choose, you need to be aware that they are only 3rd party libraries and they might not work in your scenario or they may contain bugs. We had to fork and change React Native Navigation three times to avoid some problems and even though these are already resolved in the main repository, you might encounter something new.
