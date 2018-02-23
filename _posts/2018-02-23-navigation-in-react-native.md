@@ -4,7 +4,7 @@ title: Navigation in React Native
 author: mateusz
 tags: ['react native', 'navigation']
 comments: true
-hidden: true
+image: /images/navigation-in-react-native/navigation-1.jpeg
 ---
 
 Navigation between screens is probably one of the very first concerns you will have while creating a React Native app. Once you start, you might be surprised that there is no built-in, fully featured navigation that will work on both platforms. Although [React Native recommends](https://facebook.github.io/react-native/docs/navigation.html) using [React Navigation](https://reactnavigation.org), you will quickly discover that this library is purely based on JavaScript and it does not directly use the native navigation APIs on iOS and Android. And as [another library says](https://github.com/wix/react-native-navigation#quick-links), if you are trying to deliver a user experience that is on par with the best native apps out there, you simply cannot compromise on JS-based components trying to fake the real thing.
@@ -29,7 +29,7 @@ If you are rather a mobile than a web developer, sooner or later you will look f
 
 [React Native Router](https://github.com/aksonov/react-native-router-flux) is based on React Navigation but provides a different API to interact with it. It allows you to define scene transitions in one central location without having to pass navigator objects around and is easily accessible anywhere in a code.
 
-Latest [beta version - 4](https://github.com/aksonov/react-native-router-flux), among other changes, introduces Mob-X-powered navigation state machine that separates navigation logic from presentation.
+Latest [beta version - 4](https://github.com/aksonov/react-native-router-flux), among other changes, introduces drawer support and Mob-X-powered navigation state machine that separates navigation logic from presentation.
 
 ## React Native Navigation by Wix
 

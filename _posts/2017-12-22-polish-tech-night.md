@@ -4,6 +4,7 @@ title: Polish Tech Night
 author: mateusz
 tags: ['startups', 'venture capital', 'berlin']
 comments: true
+image: /images/polish-tech-night/event-logo.png
 ---
 
 During my four-day trip to Berlin I had a pleasure to participate in the 3rd edition of [Polish Tech Night](https://polishtechnight.com) as a member of  group led by [Gdański Inkubator Przdsiębiorczości Starter](http://www.inkubatorstarter.pl). Polish Tech Night is an event connecting Polish tech startups with German ecosystem, combined with numerous workshops on the plenty of subjects like business cooperation, venture capitals, or law aspects of running a company in Germany.
