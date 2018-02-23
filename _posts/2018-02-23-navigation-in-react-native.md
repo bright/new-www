@@ -19,21 +19,21 @@ When you finish [configuration](https://reactnavigation.org/docs/getting-started
 
 You can find a simple example of React Navigation on [this Expo snack](https://snack.expo.io/@react-navigation/our-first-navigate).
 
-React Navigation has out-of-the-box Redux and deep linking support which together with well-written documentation and vibrate community makes it a reasonable choice for implementing navigation in your app.
+React Navigation has out-of-the-box Redux and deep linking support which together with a well-written documentation and a vibrate community makes it a reasonable choice for implementing the navigation in your app.
 
 #### Problem
 
-If you are rather a mobile than a web developer, sooner or later you will look for some callback after or before leaving a screen, something similar to `viewWillAppear(_:)` and other `UIViewController` methods. Although you can use `onNavigateStateChange` on the root screen and compare previous and current state to deduce which screen has been hidden but it is nothing like what you would find in `UIViewController`.
+If you are rather a mobile than a web developer, sooner or later you will look for some callback after or before leaving a screen, something similar to `viewWillAppear(_:)` and other `UIViewController` methods. Although you can use `onNavigateStateChange` on the root screen and compare the previous and current state to deduce which screen has been hidden but it is nothing like what you would find in `UIViewController`.
 
 ## React Native Router
 
 [React Native Router](https://github.com/aksonov/react-native-router-flux) is based on React Navigation but provides a different API to interact with it. It allows you to define scene transitions in one central location without having to pass navigator objects around and is easily accessible anywhere in a code.
 
-Latest [beta version - 4](https://github.com/aksonov/react-native-router-flux), among other changes, introduces drawer support and Mob-X-powered navigation state machine that separates navigation logic from presentation.
+The latest [beta version - 4](https://github.com/aksonov/react-native-router-flux), among other changes, introduces drawer support and Mob-X-powered navigation state machine that separates the navigation logic from the presentation layer.
 
 ## React Native Navigation by Wix
 
-Another popular navigation library is [React Native Navigation](https://github.com/wix/react-native-navigation) developed by Wix. Its greatest advantage is 100% native platform navigation covered by cross-platform interface with out-of-the-box Redux support.
+Another popular navigation library is [React Native Navigation](https://github.com/wix/react-native-navigation) developed by Wix. Its greatest advantage is 100% native platform navigation covered by the cross-platform interface with out-of-the-box Redux support.
 
 You need to configure this package separately for [iOS](https://wix.github.io/react-native-navigation/#/installation-ios) and [Android](https://wix.github.io/react-native-navigation/#/installation-android) which includes linking iOS libraries, updating iOS headers search paths, extending `SplashActivity` instead of `ReactActivity` in Android `MainActivity` and a couple of additional steps that are described in details in the documentation. After you finish that, you only need to [register all your app's screens](https://wix.github.io/react-native-navigation/#/usage) and start the app. Voilà!
 
@@ -64,12 +64,12 @@ Version 2 is written in test-driven development (TDD) which makes accepting pull
 
 ![image](/images/navigation-in-react-native/navigation-2.jpeg)
 
-If you are aiming only iOS, you may consider using a build-in [NavigatorIOS](https://facebook.github.io/react-native/docs/navigation.html#navigatorios) which is a wrapper around the native [`UINavigationController`](https://developer.apple.com/documentation/uikit/uinavigationcontroller) component. However, if plan to target any other platform in the future, you should consider using any other solution from the beginning.
+If you are aiming for iOS only, you may consider using a build-in [NavigatorIOS](https://facebook.github.io/react-native/docs/navigation.html#navigatorios) which is a wrapper around the native [`UINavigationController`](https://developer.apple.com/documentation/uikit/uinavigationcontroller) component. However, if you plan to target any other platform in the future, you should consider using any other solution from the beginning.
 
-Another alternative is [Native Navigation](http://airbnb.io/native-navigation), which is a project developed by Airbnb, one of most-mentioned React Native adaptors. Native Navigation is currently in beta state and its authors discourage production usage of this library until it reaches a stable version, you can follow the roadmap to 1.0 [here](http://airbnb.io/native-navigation/docs/roadmap.html). The biggest challenge facing the Aribnb while decoupling this library from their internal navigation infrastructure is to accomplish the high level of extensibility, which requires them a lot of code refactoring and testing. This package doesn't have deep linking support yet and the documentation is incomplete so you should consider using any other library in a serious project.
+Another alternative is [Native Navigation](http://airbnb.io/native-navigation), which is a project developed by Airbnb, one of the most-mentioned React Native adaptors. Native Navigation is currently in beta state and its authors discourage production usage of this library until it reaches a stable version, you can follow the roadmap to 1.0 [here](http://airbnb.io/native-navigation/docs/roadmap.html). The biggest challenge facing the Aribnb while decoupling this library from their internal navigation infrastructure is to accomplish the high level of extensibility, which requires them a lot of code refactoring and testing. This package doesn't have deep linking support yet and the documentation is incomplete so you should consider using any other library in a serious project.
 
 ## My weapon of choice
 
-Personally, I find the possibility to use 100% platform native navigation in the React Native apps **the most valuable**, which is a reason why I chose [React Native Navigation](https://github.com/wix/react-native-navigation). Although I gave [React Navigation](https://github.com/react-navigation/react-navigation) a shot, I missed `UIViewController`s methods like `viewWillDisappear(_:)` or `viewDidAppear(_:)` and the truly native felling when navigating between screens. However, if you prefer a pure JavaScript library and you are not so bound to the native platform feeling, you have at least two alternatives to try out.
+Personally, I find the possibility of using 100% platform native navigation in the React Native apps **the most valuable**, which is a reason why I choose [React Native Navigation](https://github.com/wix/react-native-navigation). Although I gave [React Navigation](https://github.com/react-navigation/react-navigation) a shot, I missed `UIViewController`s methods like `viewWillDisappear(_:)` or `viewDidAppear(_:)` and the truly native felling when navigating between screens. However, if you prefer a pure JavaScript library and you are not so bound to the native platform feeling, you have at least two alternatives to try out.
 
-Regardless of which option you choose, you need to be aware that they are only 3rd party libraries and they might not work in your scenario or they may contain bugs. We had to fork and change React Native Navigation three times to avoid some problems and even though these are already resolved in the main repository, you might encounter something new.
+Regardless of which option you choose, you need to be aware of the fact that those are only 3rd party libraries and they might not work in your scenario or they may contain bugs. We had to fork and change React Native Navigation three times to avoid some problems and even though they have been already resolved in the main repository, you might encounter something new.
