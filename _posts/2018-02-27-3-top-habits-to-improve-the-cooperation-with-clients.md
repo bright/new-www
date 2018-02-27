@@ -4,7 +4,7 @@ title: 3 top habits to improve the cooperation with clients
 tags: [habits, cooperation, planning]
 comments: true
 author: eliasz
-hidden: false
+hidden: true
 excerpt:
 ---
 
