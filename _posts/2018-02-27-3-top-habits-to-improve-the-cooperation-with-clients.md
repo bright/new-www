@@ -43,7 +43,7 @@ Our role as developers should not be limited just to the implementation of a tas
 
 "We don't have the login system in the app." - Does this app require a logged user to use its content? No? Then maybe there are more critical things to work on?
 "This design of custom control for a date selection would look great in the app!" - Maybe a standard component will be a much better choice in this case and will take a few days less to implement?
-Investing more work into a feature `A` means that you will not be able to invest this time into a feature `B` - in the end, maybe there are more important tasks to be done? Keep in mind that it's not only about finding faster/cheaper solutions for the problems. Sometimes adding more work will allow us to provide a better solution that will benefit us in the long run. It's all about making your clients aware of the implementation cost and pros and cons of each solution. It may turn out that the alternative solution is a much better choice for them compared to what they initially wanted.
+Investing more work into a feature `A` means that you will not be able to invest this time into a feature `B` - in the end, maybe there are more important tasks to be done? Keep in mind that it's not only about finding faster/cheaper solutions for the problems. Sometimes it’s just the opposite - adding more work will allow us to provide a better solution that will benefit us in the long run. It's all about making your clients aware of the implementation cost and pros and cons of each solution. It may turn out that the alternative solution is a much better choice for them compared to what they initially wanted.
 
 # 3. Frequent synchronization
 
