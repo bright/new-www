@@ -6,7 +6,10 @@ comments: true
 author: eliasz
 hidden: true
 excerpt:
+image: /images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg
 ---
+
+![clients](/images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg)
 
 There is always a room for improvement regarding the service that we deliver to our clients.
 In this post I write about 3 habits that I consider really helpful in order to work effectively with clients.  
@@ -23,6 +26,9 @@ Our your early estimates may be much different from the reality, however we shou
 Breaking tasks into smaller assignments will not only make it easier to estimate, but it also might show you the details that are not visible on the first sight. This will allow you to warn your clients about possible problems much earlier.
 
 ### Update your estimates
+
+![correct](/images/3-habits-to-improve-cooperation-wth-clients/correct.jpg)
+
 We <b>must</b> be prepared that the reality will diverge from our original estimates - in the end, this is why they are called <b>estimates</b>, not commitments.
 With this approach it will be much more natural to inform your clients about possible delays. Keep in mind that if you have an estimate for 2 weeks of work and after 5 days you notice that you will not make it - do not wait until the last moment with this information. The time that you notice the issue should be a time that you update your clients so that they can adjust their plans accordingly. You should not treat the act of updating estimations as sign of failure - in the end these are... well... estimations!
 
@@ -41,6 +47,8 @@ Our role as developers should not be limited just to implementation of a task. I
 Investing more work into a feature `A` means that you will not be able to invest this time into a feature `B` - in the end, maybe there are more important tasks to be done? Keep in mind that it's not only about finding faster/cheaper solutions for the problems. Sometimes adding more work will allow us to provide a better solution that will benefit us in the long run. It's all about making your clients aware of the implementation cost, pros and conds of each solution it may turn out that the alternative solution is a much better choice for them compared to what they initially wanted.
 
 # 3. Frequent synchronization
+
+![synchronization](/images/3-habits-to-improve-cooperation-wth-clients/synchronization.jpeg)
 
 If you're working with clients (especially remotely), it is really important to make them aware of what happens with the time that goes into the development of their product. That's why a frequent synchronization is a key to good cooperation with your clients. If you have a CI system, make your test builds available so that your client always knows about latest changes. You don't have one? Make builds yourself, but please remember to keep your clients up to date with the progress.
 You can also schedule a quick meetings with your clients and update them with your progress. This may lead to situations in which your clients find out that they would like to update the initial requirements. Keep in mind it's usually much better to do it now than at the time that all work if finished - In the end it's our role to provide our clients with the software that fits their needs.
