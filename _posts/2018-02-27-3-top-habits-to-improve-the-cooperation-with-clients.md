@@ -9,10 +9,10 @@ excerpt:
 image: /images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg
 ---
 
-![clients](/images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg)
-
 There is always a room for improvement regarding the service that we deliver to our clients.
 In this post I describe 3 habits that I consider really helpful in order to work effectively with clients.  
+
+![clients](/images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg)
 
 # 1. Estimating
 
