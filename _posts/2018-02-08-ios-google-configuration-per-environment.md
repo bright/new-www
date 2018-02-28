@@ -16,13 +16,13 @@ To set up multiple environments in iOS application I use **build configurations*
 - Stage - signed application connecting to the Stage backend for early TestFlight testing.
 - Prod - signed application connecting to the production backend, published to the store after UAT (User Acceptance Testing) on TestFlight.
 
-You can define build configurations in the project settings ([PROJECT]->Info).
+You can define build configurations in the project settings ([PROJECT]→Info).
 
 ![image](/images/ios-google-configuration-per-environment/build-configurations.png)
 
 #### User-Defined settings
 
-Build configurations let you easily use different **User-Defined settings** for each configuration. You can define these at the bottom of target build settings ([TARGET]->Build Settings).
+Build configurations let you easily use different **User-Defined settings** for each configuration. You can define these at the bottom of target build settings ([TARGET]→Build Settings).
 
 ![image](/images/ios-google-configuration-per-environment/user-defined-settings-1.png)
 
