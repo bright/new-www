@@ -12,7 +12,7 @@ Default iOS build configurations, **Debug** and **Release**, might be enough for
 
 ## Build configurations
 
-To manage build configuration go to project settings ([PROJECT]->Info):
+To manage build configuration go to Xcode project settings ([PROJECT]->Info):
 
 ![image](/images/react-native-custom-ios-build-configurations/project-target.png)
 
