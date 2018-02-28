@@ -4,7 +4,6 @@ title: Different iOS build configurations than Debug and Release in React Native
 author: mateusz
 tags: ['react native', 'ios', 'build configurations']
 comments: true
-hidden: true
 image: /images/react-native-custom-ios-build-configurations/build-configurations.png
 ---
 
@@ -12,7 +11,7 @@ Default iOS build configurations, **Debug** and **Release**, might be enough for
 
 ## Build configurations
 
-To manage build configuration go to Xcode project settings ([PROJECT]->Info):
+To manage build configuration go to Xcode project settings ([PROJECT]→Info):
 
 ![image](/images/react-native-custom-ios-build-configurations/project-target.png)
 
@@ -40,7 +39,7 @@ Unfortunately, this will fail for any Release-based configuration with error say
 
 > AppDelegate.m:2:9: 'React/RCTBundleURLProvider.h' file not found
 
-We need to add missing **Header Search Paths** and **Library Search Paths** in target build settings ([TARGET]->Build Settings) for new Release build configurations.
+We need to add missing **Header Search Paths** and **Library Search Paths** in target build settings ([TARGET]→Build Settings) for new Release build configurations.
 
 ![image](/images/react-native-custom-ios-build-configurations/build-settings-search-paths.png)
 
@@ -64,6 +63,6 @@ Now you can start the app in specified build configuration:
 
 ## Every cloud has a silver lining
 
-Defining iOS build configurations different than Debug and Release in React Native can be really frustrating without any previous experience. However, with little guidance it can be quick and painless process.
+Defining iOS build configurations different than Debug and Release in React Native can be really frustrating without any previous experience. However, with little guidance, it can be a quick and painless process.
 
 If you are interested how to set up different Google configurations for each build configuration I recommend you [reading this tutorial](https://brightinventions.pl/blog/ios-google-configuration-per-environment). Although it is written for native development, you can **set up Run Scripts exactly the same in React Native**.
