@@ -13,8 +13,6 @@ In the [previous post](https://brightinventions.pl/blog/charts-on-android-1/) I 
 ![tuning](/images/radek/tuning.jpg)
 
 
-## Custom DataSet
-
 ## Live Data
 
 ## Custom tap chart event handling
@@ -47,3 +45,43 @@ Why? In short adventure with chart's viewport I came across one problematic issu
 Displayed value is the mentioned "other view" that does not know about the offset change, so edge values are cut. Keep this in mind modifying viewport! For more viewport modifications check out the project's [wiki page](https://github.com/PhilJay/MPAndroidChart/wiki/Modifying-the-Viewport).
 
 ## Drawable Values
+
+If you need to mark any value in some special way you may define `Entry`'s `icon` property. It's an instance of a `Drawable` class, so it's very easy to layout the icon in resource file and then apply  it to the Entry. In our example let's mark with red dot each value that differs from the previous one more than *15* to see every bigger "jump" on the chart.
+
+Define any drawable resource, for example 20x20 red oval:
+``` xml
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <size android:width="20dp" android:height="20dp" />
+    <solid android:color="#ff0000" />
+</shape>
+```
+
+Now add some code to `getEntriesFromCSV` method. Before adding new `Entry` to an array, add the Drawable as the icon's property if the point fulfills the condition:
+
+``` kotlin
+
+data?.mapIndexed { index, foodSearch ->
+    val entry = Entry(index.toFloat(), foodSearch.value.toFloat(), foodSearch)
+
+    if (index != 0 && (foodSearch.value > data?.get(index - 1)!!.value + 15 ||
+                    foodSearch.value < data?.get(index - 1)!!.value - 15)) {
+
+        val icon = resources.getDrawable(R.drawable.ic_balloon, null)
+        entry.icon = icon
+    }
+
+    entries.add(entry)
+}
+
+```
+
+In order to see the icons, set the *drawIcons* flag to `true` on each `DataSet` object:
+
+``` kotlin
+bananaDataSet.setDrawIcons(true)
+yogurtDataSet.setDrawIcons(true)
+```
+
+Thank's to that icons are displayed over specified entries:
+
+![icons over values](/images/radek/chart_icons_1.png)
