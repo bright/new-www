@@ -21,7 +21,7 @@ Normally, all the non-nullable properties in Kotlin classes must be properly ini
 * with a getter,
 * with a delegate.
 
-But if your property is lifecycle-driven (e.g. a reference to a button which gets inflated during Android Activity lifecycle) or it is initialized through dependency injection, you cannot supply a non-null initializer and you must declare its type as nullable. This in turn will require you to use null checks every time you reference the property, which may be a bit inconvenient. Especially if you are absolutely sure the property will get initialized at some point, before you access it for the first time.
+But if your property is lifecycle-driven (e.g. a reference to a button which gets inflated during Android Activity lifecycle) or it is initialized through dependency injection, you cannot supply a non-null initializer and you must declare its type as nullable. This in turn will require you to use null checks every time you reference the property, which may be a bit inconvenient, especially if you are absolutely sure the property will get initialized at some point, before you access it for the first time.
 
 Kotlin has a simple solution for such scenario, allowing you to mark the property with the `lateinit` modifier. Thanks to this, you can have a non-nullable type so that you don't have to check if it's `null` when referencing it. Of course, if you access the property before initialization, you'll get an `UninitializedPropertyAccessException`.
 
@@ -83,7 +83,7 @@ class MainActivity : BaseActivity() {
 }
 ```
 
-At some point the app was enhanced with saving user session so that the user doesn't have to log in manually again when the app is launched again. Guess what? `LoginFragment` has been skipped, `MainActivity` has started and the app crashed with `UninitializedPropertyAccessException`.
+At some point the app was enhanced with saving user session so that the user doesn't have to provide credentials every time the app is launched. Guess what? `LoginFragment` has been skipped, `MainActivity` has started and the app has crashed with `UninitializedPropertyAccessException`.
 
 Looks like typical Java `NullPointerException` issue? Yes, this is exactly the same problem, just the name of the exception has changed.
 
