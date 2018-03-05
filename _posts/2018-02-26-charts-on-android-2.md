@@ -15,18 +15,41 @@ In the [previous post](https://brightinventions.pl/blog/charts-on-android-1/) I 
 
 ## Live Data
 
+> MPAndroidChart does not offically support realtime data, ***however** (...)*
+
+As long as we keep reference to the specific `DataSet` object, we are able to add and remove entries dynamically. It might be result of syncing data from the internet or partial progress some asynchronous task - doesn't matter. Let's add random entry on button click.
+
+``` kotlin
+val rand = Random()
+bananaDataSet.addEntry(Entry(bananaDataSet.entryCount.toFloat(), rand.nextFloat() * 100))
+yogurtDataSet.addEntry(Entry(yogurtDataSet.entryCount.toFloat(), rand.nextFloat() * 100))
+```
+
+When modyfing data set, BOTH `LineData` object and chart need to be notified about it. Invoke `notifyDataChanged` method on them, then simply invalidate chart like you would with any other view element.
+
+``` kotlin
+lineChart.data.notifyDataChanged()
+lineChart.notifyDataSetChanged()
+lineChart.invalidate()
+```
+
+I recommend you to check out other ways of updating chart date described in the [docs](https://github.com/PhilJay/MPAndroidChart/wiki/Dynamic-&-Realtime-Data).
+
+
 ## Custom tap chart event handling
+
+
 
 ## Viewport
 
 Let's say you want to put readability aside, remove labels and axises with all that white spaces and make pure chart view fill the screen. Labels/ axis configuration is obvious, just disable them:
 
 ``` kotlin
-    lineChart.axisLeft.isEnabled = false
-    lineChart.axisRight.isEnabled = false
-    lineChart.xAxis.isEnabled = false
-    lineChart.description.isEnabled = false
-    lineChart.legend.isEnabled = false
+lineChart.axisLeft.isEnabled = false
+lineChart.axisRight.isEnabled = false
+lineChart.xAxis.isEnabled = false
+lineChart.description.isEnabled = false
+lineChart.legend.isEnabled = false
 ```
 Unfortunately it does not make the job done. As you can see below there are still space between chart and parent view left.
 
