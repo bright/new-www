@@ -13,29 +13,6 @@ In the [previous post](https://brightinventions.pl/blog/charts-on-android-1/) I 
 ![tuning](/images/radek/tuning.jpg)
 
 
-## Live Data
-
-> MPAndroidChart does not offically support realtime data, ***however** (...)*
-
-As long as we keep reference to the specific `DataSet` object, we are able to add and remove entries dynamically. It might be result of syncing data from the internet or partial progress some asynchronous task - doesn't matter. Let's add random entry on button click.
-
-``` kotlin
-val rand = Random()
-bananaDataSet.addEntry(Entry(bananaDataSet.entryCount.toFloat(), rand.nextFloat() * 100))
-yogurtDataSet.addEntry(Entry(yogurtDataSet.entryCount.toFloat(), rand.nextFloat() * 100))
-```
-
-When modyfing data set, BOTH `LineData` object and chart need to be notified about it. Invoke `notifyDataChanged` method on them, then simply invalidate chart like you would with any other view element.
-
-``` kotlin
-lineChart.data.notifyDataChanged()
-lineChart.notifyDataSetChanged()
-lineChart.invalidate()
-```
-
-I recommend you to check out other ways of updating chart date described in the [docs](https://github.com/PhilJay/MPAndroidChart/wiki/Dynamic-&-Realtime-Data).
-
-
 ## Custom tap chart event handling
 
 Library provides default highlight values flow on tap or drag. You may want to handle it by yourself, so get familiar with `OnChartValueSelectedListener`. It contains 2 methods:
@@ -61,6 +38,28 @@ lineChart.setOnChartValueSelectedListener(object : OnChartValueSelectedListener 
 ![highlight chart](/images/radek/chart_highlight.png)
 
 If you want to display some view over selected Entry you may take advantage of the `Highlight` object in the `onValueSelected` method and get Entry's coordinates on the screen by accsessing `xPx` and `yPx`properties and set them to the view.
+
+## Live Data
+
+> MPAndroidChart does not offically support realtime data, ***however** (...)*
+
+As long as we keep reference to the specific `DataSet` object, we are able to add and remove entries dynamically. It might be result of syncing data from the internet or partial progress some asynchronous task - doesn't matter. Let's add random entry on button click.
+
+``` kotlin
+val rand = Random()
+bananaDataSet.addEntry(Entry(bananaDataSet.entryCount.toFloat(), rand.nextFloat() * 100))
+yogurtDataSet.addEntry(Entry(yogurtDataSet.entryCount.toFloat(), rand.nextFloat() * 100))
+```
+
+When modyfing data set, BOTH `LineData` object and chart need to be notified about it. Invoke `notifyDataChanged` method on them, then simply invalidate chart like you would with any other view element.
+
+``` kotlin
+lineChart.data.notifyDataChanged()
+lineChart.notifyDataSetChanged()
+lineChart.invalidate()
+```
+
+I recommend you to check out other ways of updating chart date described in the [docs](https://github.com/PhilJay/MPAndroidChart/wiki/Dynamic-&-Realtime-Data).
 
 ## Viewport
 
