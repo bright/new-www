@@ -55,11 +55,15 @@ Add an entry to **Library Search Paths** for each new Release build configuratio
 
 ![image](/images/react-native-custom-ios-build-configurations/library-search-paths.png)
 
-Now you can start the app in specified build configuration:
+**Next, do the same for all Test targets**, otherwise the command will still fail.
+
+Eventually, you can start the app with specified build configuration:
 
 ```react-native run-ios --configuration Stage```
 
-**Remember do to the same for Test target otherwise this command will fail.**
+and it should run without any problems.
+
+One might wonder why this is needed when we only change build configuration name and it was already working for Release. **React Native supports Debug and Release build configurations out of the box**, while any other configuration needs to be set up manually.
 
 ## Every cloud has a silver lining
 
