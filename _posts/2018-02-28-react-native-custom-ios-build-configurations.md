@@ -31,7 +31,7 @@ The steps presented above steps are enough to set up new build configurations in
 
 ## Problems in React Native
 
-Remember to check that your TypeScript code has compiled (if any) and that the packager is running. To start the iOS app in React Native with build configuration specified you can simply run:
+To start the iOS app with build configuration specified in React Native you can simply run:
 
 ```react-native run-ios --configuration Stage```
 
