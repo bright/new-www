@@ -38,7 +38,29 @@ I recommend you to check out other ways of updating chart date described in the 
 
 ## Custom tap chart event handling
 
+Library provides default highlight values flow on tap or drag. You may want to handle it by yourself, so get familiar with `OnChartValueSelectedListener`. It contains 2 methods:
+- `onNothingSelected`
+- `onValueSelected`
 
+`onValueSelected` provides `Entry` object which gives you access to the data, that is `FoodSearch` in our case. Let's  use it to something simple, like displaying some info in the toast, to see how it works:
+
+``` kotlin
+lineChart.isHighlightPerTapEnabled = true
+
+lineChart.setOnChartValueSelectedListener(object : OnChartValueSelectedListener {
+
+    override fun onNothingSelected() {}
+
+    override fun onValueSelected(e: Entry, h: Highlight) {
+        val yearWeek = (e.data as FoodSearch).week_id
+        Toast.makeText(baseContext, "date: $yearWeek", Toast.LENGTH_SHORT).show()
+    }
+})
+```
+
+![highlight chart](/images/radek/chart_highlight.png)
+
+If you want to display some view over selected Entry you may take advantage of the `Highlight` object in the `onValueSelected` method and get Entry's coordinates on the screen by accsessing `xPx` and `yPx`properties and set them to the view.
 
 ## Viewport
 
