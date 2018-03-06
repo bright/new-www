@@ -196,6 +196,6 @@ The last part is to define a [Private Hosted Zone](https://docs.aws.amazon.com/R
 }
 ```
 
-The `PrivateHostedZone` merely defines the name of the domain which we will use for addressing ECS services running inside our VPC. It is recomended to use a domain name that you control so that a mistake in the DNS configuration will not cause your services to call an address that you do not own. The `ServiceALoadBalancerDNSRecord` defines a CNAME that uses `PrivateApiLoadBalancer` AWS assigned DNS name. This way the lookup for `service-a.in.example.com` will effectively resolve to multiple IPs in different availability zones.
+The `PrivateHostedZone` merely defines the name of the domain which we will use for addressing ECS services running inside our VPC. It is recommended to use a domain name that you control so that a mistake in the DNS configuration will not cause your services to call an address that you do not own. The `ServiceALoadBalancerDNSRecord` defines a CNAME that uses `PrivateApiLoadBalancer` AWS assigned DNS name. This way the lookup for `service-a.in.example.com` will effectively resolve to multiple IPs in different availability zones.
 
-With the above configuration in place we can call an HTTP API exposed privately be a load balanced service running inside VPC on ECS cluster using the most natural way i.e. a DNS name.
+With the above configuration in place we can call an HTTP API exposed privately by a load balanced service running inside VPC on ECS cluster using the most natural way i.e. a DNS name.
