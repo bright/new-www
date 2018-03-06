@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to call a load balanced ecs service?
+title: How to call a load balanced ECS service?
 author: piotr
 hidden: true
 tags: aws ecs cloudformation elb cloudform
@@ -9,7 +9,7 @@ crosspost: true
 image: /images/ecs-service/containers.jpeg
 ---
 
-A service running ECS can call plethora of AWS APIs. It can read messages from queues, publish messages to SNS topics, query a database. These are all valid ways to communicate with the service. However, often the most appropriate way is to call the service by an HTTP API. In this post I'll describe how to configure an ECS service running inside VPC so that other services can call its API.
+A service running [ECS](https://aws.amazon.com/ecs/) can call plethora of AWS APIs. It can read messages from queues, publish messages to [SNS](https://aws.amazon.com/sns/) topics, query a database. These are all valid ways to communicate with the service. However, often the most appropriate way is to call the service by an HTTP API. In this post I'll describe how to configure an ECS service running inside VPC so that other services can call its API.
 
 ![containers](/images/ecs-service/containers.jpeg)
 
