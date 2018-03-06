@@ -2,7 +2,7 @@
 layout: post
 title: How to call a load balanced ECS service?
 author: piotr
-hidden: true
+hidden: false
 tags: aws ecs cloudformation elb cloudform
 comments: true
 crosspost: true
