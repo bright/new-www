@@ -15,7 +15,7 @@ A service running [ECS](https://aws.amazon.com/ecs/) can call plethora of AWS AP
 
 # Deploy an ECS service to multiple hosts
 
-Whenever we care about availability of a service running inside AWS, we need to have it running in at least 2 availability zones. For that reason when defining the ECS Cluster Auto Scaling Group we need to specify at least to VPC Subnets running in different availability zones.
+Whenever we care about availability of a service running inside AWS, we need to have it running in at least 2 availability zones. For that reason when defining the ECS Cluster Auto Scaling Group we need to specify at least 2 VPC Subnets running in different availability zones.
 
 ```json
 "ECSMainCluster": {
