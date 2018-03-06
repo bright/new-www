@@ -11,6 +11,8 @@ image: /images/ecs-service/containers.jpeg
 
 A service running ECS can call plethora of AWS APIs. It can read messages from queues, publish messages to SNS topics, query a database. These are all valid ways to communicate with the service. However, often the most appropriate way is to call the service by an HTTP API. In this post I'll describe how to configure an ECS service running inside VPC so that other services can call its API.
 
+![containers](/images/ecs-service/containers.jpeg)
+
 # Deploy an ECS service to multiple hosts
 
 Whenever we care about availability of a service running inside AWS, we need to have it running in at least 2 availability zones. For that reason when defining the ECS Cluster Auto Scaling Group we need to specify at least to VPC Subnets running in different availability zones.
