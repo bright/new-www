@@ -2,7 +2,7 @@
 layout: post
 title: Adding features to your chart on Android
 author: radek
-hidden: true
+hidden: false
 tags: ['android', 'chart', 'live data', 'dynamic data']
 comments: true
 image: /images/radek/tuning.jpg
