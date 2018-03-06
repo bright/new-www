@@ -9,12 +9,11 @@ crosspost: true
 image: /images/ecs-service/containers.jpeg
 ---
 
-A service running ECS can call plethora of AWS APIs. It can read messages from queues, publish messages to SNS topics, query a database. These are all valid ways to communicate with the service. However, often the most appropriate way is to call the service through an HTTP API exposed by it. In this post I'll describe how to configure a ECS service running inside VPC so that other services can call its API.
-
+A service running ECS can call plethora of AWS APIs. It can read messages from queues, publish messages to SNS topics, query a database. These are all valid ways to communicate with the service. However, often the most appropriate way is to call the service by an HTTP API. In this post I'll describe how to configure an ECS service running inside VPC so that other services can call its API.
 
 # Deploy an ECS service to multiple hosts
 
-Whenever we care about availability of a service running inside AWS, we need to have it running in at least 2 availability zones. For that reason when defining the ECS Cluster Auto Scaling Group we need to specficy at least to VPC Subnets running in different availability zones.
+Whenever we care about availability of a service running inside AWS, we need to have it running in at least 2 availability zones. For that reason when defining the ECS Cluster Auto Scaling Group we need to specify at least to VPC Subnets running in different availability zones.
 
 ```json
 "ECSMainCluster": {
@@ -51,7 +50,7 @@ Whenever we care about availability of a service running inside AWS, we need to 
 }
 ```
 
-Notice how we are using 2 private subnets as `VPCZoneIdentifier`. The `MinSize` is also set to 2 which will cause both availability zones to have at least 1 instance running. For brevity the subnet defnitions are not included.
+Notice how we are using 2 private subnets as `VPCZoneIdentifier`. The `MinSize` is also set to 2 which will cause both availability zones to have at least 1 instance running. For brevity subnets and VPC definitions are not included.
 
 The `ServiceA` deployed in `ECSMainCluster` is also specifying that at it has [`DesiredCount`](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html) of 2 which instructs ECS to have at least 2 instances of the service running. The [`LoadBalancers`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-loadbalancers) and [`Role`](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-role) attributes are required for the load balanced setup. The `ECSServiceRole` must allow the ECS agent to make calls to the load balancer API. The `LoadBalancers` reference [an ALB target group](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html) to which the running ECS task should be added.
 
