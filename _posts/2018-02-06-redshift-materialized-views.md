@@ -3,7 +3,7 @@ layout: post
 title: Redshift Materialized Views
 tags: redshift
 comments: true
-hidden: true
+hidden: false
 author: agnieszka
 image: /images/redshift-materialized-views/image1.jpg
 ---
