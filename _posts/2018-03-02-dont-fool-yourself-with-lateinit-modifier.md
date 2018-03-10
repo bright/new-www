@@ -121,7 +121,7 @@ TBD
 
 // Init just before `startActivityForResult` and access it in `onActivityResult`
 
-## Don't #3: mutabiltiy ##
+## Don't #3: mutability ##
 
 TBD
 
