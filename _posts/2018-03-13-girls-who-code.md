@@ -3,7 +3,7 @@ layout: post
 title: "#girlswhocode"
 tags: redshift
 comments: true
-hidden: true
+hidden: false
 author: agnieszka
 image: /images/girls-who-code/image1.jpg
 ---
