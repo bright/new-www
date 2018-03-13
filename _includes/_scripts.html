@@ -17,6 +17,7 @@ ga('send', 'pageview');
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
+
     var navIcon = document.getElementById('nav-icon');
     navIcon.addEventListener('click', function () {
         var firstNav = document.getElementsByTagName('nav')[0];
@@ -68,8 +69,21 @@ ga('send', 'pageview');
 });
 </script>
 {% if page.hideChat == null %}
+<script>
 
-<script type="text/javascript" src="//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/caa43f35de5f1881f244707a964917d2b649b4891fdd5f8596f29fa063df4499.js" async></script>
+    function addAsyncScript(src){
+        script = document.createElement("script");
+        script.setAttribute("type", "text/javascript");
+        script.setAttribute("src", src);
+        script.setAttribute('async','');
+        return document.getElementsByTagName("head")[0].appendChild(script);
+    }
+
+    document.addEventListener('load', function () {
+        addAsyncScript('//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/caa43f35de5f1881f244707a964917d2b649b4891fdd5f8596f29fa063df4499.js')
+    });
+
+</script>
 {% endif %}
 
 <!-- Twitter universal website tag code -->
