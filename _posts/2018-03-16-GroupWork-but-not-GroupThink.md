@@ -3,7 +3,7 @@ layout: post
 title: GroupWork, but not GroupThink
 author: ula 
 hidden: false
-tags: groupwork, teamwork, creativity, success 
+tags: groupwork teamwork creativity success 
 image: /images/group_thinking.jpeg
 ---
 
