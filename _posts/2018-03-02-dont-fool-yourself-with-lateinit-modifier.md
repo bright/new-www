@@ -3,6 +3,7 @@ layout: post
 title: Don't fool yourself with lateinit modifier
 image: /images/dont-fool-yourself-with-lateinit-modifier/risk_inside.jpg
 author: azabost
+date: 2018-03-19
 crosspost: true
 comments: true
 hidden: true
