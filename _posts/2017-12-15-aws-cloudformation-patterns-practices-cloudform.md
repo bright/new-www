@@ -103,7 +103,7 @@ But if we reference this kind of value several times, we can just save it as a T
 ```typescript
 const envAppName = Fn.Join('-', ['app-name-', Fn.Ref('DeployEnv')])
 
-cloudform({
+export default cloudform({
     // ...
     ParameterValueSomewhereInResources: envAppName
 })
@@ -158,7 +158,7 @@ const defineQueue = (name: string) => {
     })
 }
 
-cloudform({
+export default cloudform({
     Resources: {
         Queue1: defineQueue("first"),
         Queue2: defineQueue("second"),
@@ -209,7 +209,7 @@ const NetworkingConfig = {
     }
 }
 
-cloudform({
+export default cloudform({
     Resources: new EC2.VPC({
         CidrBlock: NetworkingConfig.VPC.CIDR
     })
@@ -248,7 +248,7 @@ And its usage within the actual template:
 ```typescript
 import databaseResources from './database'
 
-cloudform({
+export default cloudform({
   Resources: Object.assign({}, databaseResources, /* and possibly more */)
 })
 ```

@@ -89,6 +89,7 @@ Note what I have done here:
 But this is not the end. With `cloudform` (or actually with TypeScript) we can go further:
 1. Nothing stops us from using TypeScript-level variables, functions or conditions to build up our objects from reusable, configurable parts.
 1. We can split the template definition into multiple files.
+1. We can get rid of all the magic strings using an object that predefines the resource names and reference it from the actual template.
 1. We can apply all the available refactoring techniques to keep our definitions tidy and easy to use.
 
 With `cloudform`'s syntax our ~2.5k lines of JSON was reduced to ~1k lines of TypeScript object definitions.
@@ -101,12 +102,12 @@ You're probably already eager to test it out, so let's jump to the crux of the m
 
 Now we need to define our template. Let's have a separate directory for it, so that it doesn't mix with our production or test code. It would also suggest we may break the file into smaller chunks and use standard [imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to link it together. Maybe `cloudformation/index.ts`?
 
-This file needs to end with `cloudform` function call, so that the tool picks our template up correctly. It takes an object that consists of everything that CloudFormation template might consist of. 
+This file needs to export the result of `cloudform` function call, so that the tool picks our template up correctly. It takes an object that consists of everything that CloudFormation template might consist of. 
 
 ```typescript
 import cloudform, {Fn, Refs, EC2, StringParameter, ResourceTag} from "cloudform"
 
-cloudform({
+export default cloudform({
     Description: 'My template',
     Parameters: {
         DeployEnv: new StringParameter({
