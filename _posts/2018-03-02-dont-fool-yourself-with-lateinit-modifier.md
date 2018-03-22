@@ -3,10 +3,10 @@ layout: post
 title: Don't fool yourself with lateinit modifier
 image: /images/dont-fool-yourself-with-lateinit-modifier/risk_inside.jpg
 author: azabost
-date: 2018-03-19
+date: 2018-03-22
 crosspost: true
 comments: true
-hidden: true
+hidden: false
 tags: android kotlin
 ---
 
@@ -28,11 +28,11 @@ But if your property is lifecycle-driven (e.g. a reference to a button which get
 
 Kotlin has a simple solution for such a scenario, allowing you to mark the property with the `lateinit` modifier. Thanks to this you can have a non-nullable type so that you don't have to check if it's `null` while referencing it. Of course, if you access the property before initialization, you'll get an `UninitializedPropertyAccessException`.
 
-# Dos and dont's #
+# Lateinits vs nullables #
 
 The described possibility, despite being a great feature, may also be tempting to overuse in places where the initialization is not so certain (e.g. conditional or just _too late_), making the code less null-aware, less predictable and more like Java, thus - naturally - you might be doubtful if certain usages are right or not. So here's my rule of thumb that I use when making decision if particular variable should be `lateinit` or just nullable. It's very subjective and it tends to change with time so feel free to share your own experiences in comments.
 
-## Do #1: beginning of a lifecycle ##
+## Lateinit #1: beginning of a lifecycle ##
 
 You can intialize properties when your classes' lifecycle-beginning methods get invoked, e.g. `Activity.onCreate()`. It's a common case if you use a dependency injection framework like [Dagger](https://google.github.io/dagger/).
 
@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
 
 Otherwise you would get an `IllegalStateException` saying that system services are not available to Activities before `onCreate()`.
 
-You can also avoid `this` reference to escape during object construction [for thread-safety](https://wiki.sei.cmu.edu/confluence/display/java/TSM01-J.+Do+not+let+the+this+reference+escape+during+object+construction):
+You can also avoid the `this` reference escape during object construction [for thread-safety](https://wiki.sei.cmu.edu/confluence/display/java/TSM01-J.+Do+not+let+the+this+reference+escape+during+object+construction):
 
 ```kotlin
 class MyActivity : AppCompatActivity() {
@@ -96,9 +96,9 @@ class MyActivity : AppCompatActivity() {
 }
 ```
 
-## Do #2: fail-fast approach ##
+## Lateinit #2: fail-fast approach ##
 
-You can prefer to write a code that is designed to fail as soon as possible and stop normal operation rather than attempt to continue a flawed process. An extreme case could be crashing the app so that you can detect failures early. It can be especially useful in situations where the code is straightforward and predictable.
+You may prefer to write a code that is designed to fail as soon as possible and stop normal operation rather than attempt to continue a flawed process. An extreme case could be crashing the app so that you can detect failures early. It can be especially useful in situations where the code is straightforward and predictable.
 
 For example, let's imagine an Activity that uses `MediaPlayer` to play music. It might look like this:
 
@@ -138,7 +138,7 @@ On the other hand, the code is clear and simple and it's not too hard to test it
 
 ![Risk inside](/images/dont-fool-yourself-with-lateinit-modifier/risk_inside.jpg){: .center-image}
 
-## Don't #1: crash-free approach ##
+## Nullable #1: crash-free approach ##
 
 There might be cases when you would like to avoid crashing the app at all cost, even if something is not going to work properly. It doesn't mean that using `lateinit` like in the previous "fail-fast" example must end up with a crash as you can catch the exceptions, but I think it's quite common to choose between these two extremes: either let the app crash and don't mind catching the exceptions or avoid crashing using nullable variables.
 
@@ -181,7 +181,7 @@ So this time, if we don't get any `mediaUri`, we just don't play the music. The 
 _Note: since Kotlin 1.2 you can use `.isInitialized` on a reference to a `lateinit` property, but it may render your code even more unreadable and it has some limitations (see [the docs](https://kotlinlang.org/docs/reference/properties.html)):_
 > This check is only available for the properties that are lexically accessible, i.e. declared in the same type or in one of the outer types, or at top level in the same file.
 
-## Don't #2: very late initialization ##
+## Nullable #2: very late initialization ##
 
 I've seen a piece of code that was "remembering" a clicked list item data in a `lateinit` variable, starting another Activity with `startActivityForResult()` and finally, when it has finished and `onActivityResult()` was called, the "remembered" value was read and used (and I was quite surprised it hasn't been lost in the meantime).
 
