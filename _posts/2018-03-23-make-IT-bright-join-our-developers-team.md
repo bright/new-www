@@ -2,7 +2,7 @@
 layout: post
 title: Make IT Bright - Join our Developer's Team 
 author: ula 
-hidden: true
+hidden: false
 tags: Blockchain, mobile, job, web, IoT 
 image: /images/make_it_bright.JPG
 ---
