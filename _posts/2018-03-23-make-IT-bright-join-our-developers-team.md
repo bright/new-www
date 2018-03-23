@@ -31,7 +31,7 @@ So, are you ready to apply and join our Bright Team? If so, let us look what we 
 -   focus on self-improvement and learning
 -   have analytical thinking skills and always try to understand the source of a problem before they decide on a solution
 -   are fluent in English
--   have a very good knowledge and understanding of at least **ONE** of the following programming languages: Java, JavaScript, TypeScript, Kotlin, Swift, Objective-C or Angular (depending on a job position and your experience)
+-   have a very good knowledge and understanding of at least **ONE** of the following programming languages: Java, JavaScript, TypeScript, Kotlin, Swift or Objective-C (depending on a job position and your experience)
 -   have exceptional communicative skills and are not afraid of expressing their views 
 -   are familiar with TDD and BDD practices as well as Agile methodology
 
