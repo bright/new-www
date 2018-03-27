@@ -37,4 +37,4 @@ So, are you ready to apply and join our Bright Team? If so, let us look what we 
 
 … if you meet all the above criteria, we will be happy to hear from you and get to know you better!
 
-In case you have more questions or some doubts - you can always drop us a line at [jobs@brightinventions.pl](mailto:jobs@brightinventions.pl) or just contact me directly at [ula@brightinventions.pl](mailto:ula@brightinventions.pl) or +48 690 934 140 :)
+In case you have more questions or some doubts - you can contact me directly at [ula@brightinventions.pl](mailto:ula@brightinventions.pl) or +48 690 934 140 :)
