@@ -20,7 +20,7 @@ Contrary to many other platforms (including iOS), you don't need any particular 
 
 # Java and Kotlin #
 
-You can start developing Android apps with Java, which is one of the most popular languages of all time. I wouldn't be surprised if you had a chance to use it before. It's stable and it's well known. But if would like to get something fresh, shiny, unbelievably useful, flexible and full of features, here it is: [Kotlin](https://developer.android.com/kotlin/index.html). It will take your code to a whole new level, still being fully interoperable with Java APIs. Google already provides code snippets in the Android guides written in Kotlin.
+You can start developing Android apps with Java, which is one of the most popular languages of all time. I wouldn't be surprised if you had a chance to use it before. It's stable and it's well known. But if you would like to get something fresh, shiny, unbelievably useful, flexible and full of features, here it is: [Kotlin](https://developer.android.com/kotlin/index.html). It will take your code to a whole new level, still being fully interoperable with Java APIs. Google already provides code snippets in the Android guides written in Kotlin.
 
 # Projects with benefits #
 
