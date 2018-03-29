@@ -6,7 +6,7 @@ author: azabost
 date: 2018-03-29
 crosspost: true
 comments: true
-hidden: true
+hidden: false
 tags: android
 ---
 
