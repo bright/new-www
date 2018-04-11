@@ -9,11 +9,11 @@ crosspost: true
 image: /images/kotlin/kotlin-logo.png
 ---
 
-Nowadays I mostly code in [Kotlin programming language](https://kotlinlang.org/). I got interested in it when I started working on a Java 7 codebase and quickly got fed up with the language. At Bright Inventions we often use TypeScript for both back-end, front-end and mobile development so I though I would share some thoughts and tips for TypeScript learned from Kotlin development. In particular this post is about constant variables.
+Nowadays I mostly code in [Kotlin programming language](https://kotlinlang.org/). I got interested in it when I started working on a Java 7 codebase and quickly got fed up with the language. At Bright Inventions we often use TypeScript for both back-end, front-end and mobile development so I though I would share some thoughts and tips for TypeScript learned when using Kotlin. In particular this post is about constant variables.
 
 ## Use `const` whenever possible
 
-[Using immutable variables](https://hackernoon.com/5-benefits-of-immutable-objects-worth-considering-for-your-next-project-f98e7e85b6ac) aids reasoning about flow and state of a program. It often also makes compiler able to provide more intelligent hints especially when dealing with nullable types.
+[Using immutable variables](https://hackernoon.com/5-benefits-of-immutable-objects-worth-considering-for-your-next-project-f98e7e85b6ac) aids reasoning about flow and state of a program. It helps compiler to provide more intelligent hints especially when dealing with nullable types.
 
 In Kotlin a `val` keyword denotes a variable which value does not change after initialization e.g.:
 
