@@ -2,7 +2,7 @@
 layout: post
 title: TypeScript tips from Kotlin developer - const
 author: piotr
-hidden: true
+hidden: false
 tags: TypeScript Kotlin const immutability
 comments: true
 crosspost: true
