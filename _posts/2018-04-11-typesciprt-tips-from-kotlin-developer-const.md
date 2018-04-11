@@ -9,7 +9,7 @@ crosspost: true
 image: /images/kotlin/kotlin-logo.png
 ---
 
-Nowadays I mostly code in [Kotlin programming language](https://kotlinlang.org/). I got interested in it when I started working on a Java 7 codebase and quickly got fed up with the language. At Bright Inventions we often use TypeScript for both back-end, front-end and mobile development so I though I would share some thoughts and tips for TypeScript learned when using Kotlin. In particular this post is about constant variables.
+Nowadays I mostly code in [Kotlin programming language](https://kotlinlang.org/). I got interested in it when I started working on a Java 7 codebase and quickly got fed up with the language. At [Bright Inventions](https://brightinventions.pl) we often use TypeScript for both back-end, front-end and mobile development so I though I would share some thoughts and tips for TypeScript learned when using Kotlin. In particular this post is about constant variables.
 
 ## Use `const` whenever possible
 
