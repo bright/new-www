@@ -73,4 +73,9 @@ if (parsed.firstName !== firstName || parsed.lastName !== lastName) {
 }
 ```
 
-You may have spotted the bug. Chances are though, especially if you are like me, that after long hours when the coffee level in your blood drops substantially below the required level, it will take long minutes to figure out the cause. There is a very easy remedy though. With `firstName` and `lastName` declared as constant variables the compiler catches the bug for us!
+You may have spotted the bug. Chances are though, especially if you are like me, that after long hours when the coffee level in your blood drops substantially below the required level, it will take long minutes to figure out the cause. There is a very easy remedy though. With `firstName` and `lastName` declared as constant variables the compiler catches bugs for us:
+
+```typescript
+lastName = parts[0] // Error: Cannot assign 'lastName' because it is a constant or a read-only property
+firstName = parts[1] // Error: Cannot assign 'firstName' because it is a constant or a read-only property
+```
