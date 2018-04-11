@@ -39,8 +39,8 @@ y = 30 // Error: Cannot assign to 'y' because it is constant or read-only proper
 The first way in which compiler gets smarter when we use `const` is null checks. When you enable [`strictNullChecks`](https://www.typescriptlang.org/docs/handbook/compiler-options.html), which you should, both Kotlin and TypeScript compiler understand if something can or cannot be null.
 
 ```typescript
-const firstName: string | null = getFirstName();
-let lastName: string | null = getLastName();
+const firstName: string | null = getFirstName()
+let lastName: string | null = getLastName()
 
 if (firstName !== null && lastName !== null) {
     setTimeout(() => {
