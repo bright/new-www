@@ -36,7 +36,7 @@ y = 30 // Error: Cannot assign to 'y' because it is constant or read-only proper
 
 ## Compilers love `const`
 
-The first way in which compiler gets smarter when we use `const` is null checks. When you enable [`strictNullChecks`](https://www.typescriptlang.org/docs/handbook/compiler-options.html), which you should, both Kotlin and TypeScript compiler understands if something can or cannot be null.
+The first way in which compiler gets smarter when we use `const` is null checks. When you enable [`strictNullChecks`](https://www.typescriptlang.org/docs/handbook/compiler-options.html), which you should, both Kotlin and TypeScript compiler understand if something can or cannot be null.
 
 ```TypeScript
 const firstName: string | null = getFirstName();
@@ -60,7 +60,7 @@ let lastName: string = person.lastName
 
 const parsed = parseFormData((data: {name: string }) => {
     let first: string | null, last: string | null
-    const parts = data.name.split(' ')
+    let parts = data.name.split(' ')
     lastName = parts[0]
     firstName = parts[1]
     return { firstName: first, lastName: last }
