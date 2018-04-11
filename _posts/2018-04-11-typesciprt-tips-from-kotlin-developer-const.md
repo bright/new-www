@@ -50,9 +50,11 @@ if (firstName !== null && lastName !== null) {
 }
 ```
 
+In first 2 lines we declare `firstName` and `lastName` as holding `string` or `null`. The variables are initialized with helper functions `getFirstName` and `getLastName`. After we check that `firstName` and `lastName` are **definitely not null** we fire some async function. We can safely use `firstName.length`. However, when we use `lastName.length` the compiler complains with `Object is possibly 'null'` error. This is because it is possible that in between the null check and the `console.log` statement _something_ could change the `lastName` value. We might know that this is not true just by looking at the code. The compiler however, cannot be 100% sure in all cases. Thankfully we have `const` and we can share our knowledge with the compiler.
+
 ## Compilers catch bugs with `const`
 
-Because `const` and `val` can only be assigned once compilers can prevent another class of bugs. Take a look at the code example blow. There is a bug 🐛 that could easily be avoided had we used `const` instead of `let`.
+Because `const` and `val` can only be assigned once, compilers can prevent another class of bugs. Take a look at the code example blow. There is a bug 🐛 that could easily be avoided had we used `const` instead of `let`.
 
 ```typescript
 let firstName: string = person.firstName
@@ -71,4 +73,4 @@ if (parsed.firstName !== firstName || parsed.lastName !== lastName) {
 }
 ```
 
-You have probably spotted the bug. Chances are though, especially if you are like me, that after long hours when the coffee level in your blood drops substantially below the required level, it will take long minutes to figure out the cause. There is a very easy remedy though. With `firstName` and `lastName` declared as constant variables the compiler catches the bug for us!
+You may have spotted the bug. Chances are though, especially if you are like me, that after long hours when the coffee level in your blood drops substantially below the required level, it will take long minutes to figure out the cause. There is a very easy remedy though. With `firstName` and `lastName` declared as constant variables the compiler catches the bug for us!
