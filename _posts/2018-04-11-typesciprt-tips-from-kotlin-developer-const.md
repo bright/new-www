@@ -27,7 +27,7 @@ y = 30 // Error: Val cannot be reassigned
 
 In [TypeScript](https://www.typescriptlang.org/) such situation is handled with `const`:
 
-```TypeScript
+```typescript
 const x: number // Error: 'const' declarations must be initialized
 const y: number = 3
 
@@ -38,7 +38,7 @@ y = 30 // Error: Cannot assign to 'y' because it is constant or read-only proper
 
 The first way in which compiler gets smarter when we use `const` is null checks. When you enable [`strictNullChecks`](https://www.typescriptlang.org/docs/handbook/compiler-options.html), which you should, both Kotlin and TypeScript compiler understand if something can or cannot be null.
 
-```TypeScript
+```typescript
 const firstName: string | null = getFirstName();
 let lastName: string | null = getLastName();
 
@@ -54,7 +54,7 @@ if(firstName !== null && lastName !== null) {
 
 Because `const` and `val` can only be assigned once compilers can prevent another class of bugs. Take a look at the code example blow. There is a bug 🐛 that could easily be avoided had we used `const` instead of `let`.
 
-```TypeScript
+```typescript
 let firstName: string = person.firstName
 let lastName: string = person.lastName
 
