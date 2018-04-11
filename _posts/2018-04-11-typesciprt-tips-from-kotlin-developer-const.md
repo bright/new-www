@@ -42,7 +42,7 @@ The first way in which compiler gets smarter when we use `const` is null checks.
 const firstName: string | null = getFirstName();
 let lastName: string | null = getLastName();
 
-if(firstName !== null && lastName !== null) {
+if (firstName !== null && lastName !== null) {
     setTimeout(() => {
         console.log(firstName.length)
         console.log(lastName.length) // Error: Object is possibly 'null'
