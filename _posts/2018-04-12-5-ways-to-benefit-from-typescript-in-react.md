@@ -187,7 +187,14 @@ As we have previously seen, TypeScript ensures the keys of the object we pass to
 
 ![TypeScript is unable to specify down setState parameter types](/images/react-ts/event-generic.png)￼￼￼
 
-The best workaround we’ve found so far is to satisfy the `setState` call by ensuring the full state is always passed (including the expected modifications). It is actually taking advantage of a bit separate React’s feature than partial state update, but should behave the same way:
+We may work around it with type cast to inform TypeScript compiler what is the range of values we might potentially expect from `event.currentTarget.name` (assuming `State` describes the state of our component). The `keyof State` construct informs the compiler that the strings there may only be those that are defined by `State` interface structure:
+
+```
+<input type="text" name="firstName" 
+       onChange={e => this.setState({[e.currentTarget.name as keyof State]: e.currentTarget.value})}/>
+```
+
+Or, alternatively, if we want to avoid type casts, we may satisfy the `setState` call by ensuring the full state is always passed (including the expected modifications). It is actually taking advantage of a bit separate React’s feature than partial state update, but should behave the same way:
 
 ```html
 <input type="text" name="firstName" 
