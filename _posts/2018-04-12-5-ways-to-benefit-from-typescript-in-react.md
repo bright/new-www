@@ -5,7 +5,6 @@ excerpt: TypeScript in React projects provides us with all the goodies of type c
 tags: React TypeScript web
 comments: true
 author: adam
-hidden: true
 image: /images/react-ts/props-immutable.png
 ---
 
@@ -19,7 +18,7 @@ npm install --save-dev @types/react @types/react-dom
 
 ## The basics – Components
 
-The components in React are in most cases an ES6 classes that extend React-provided `Component` class. TypeScript is adding two generic arguments to this base class definition – first one defines what our props are and the second is for the local component’s state.
+The components in React are in most cases ES6 classes that extend React-provided `Component` class. TypeScript is adding two generic arguments to this base class definition – the first one defines what our props are and the second is for the local component’s state.
 
 ```typescript
 interface HelloProps {
@@ -71,13 +70,13 @@ this.state.inner.stuff = "this does not compile anymore"
 
 ### `setState` correctness
 
-Another class of errors we’re automatically protected from is when we call `setState` with invalid object. The first parameter of this function is defined with rather cryptic type declaration:
+Another class of errors we’re automatically protected from is when we call `setState` with an invalid object. The first parameter of this function is defined with a rather cryptic type declaration:
 
 ```typescript
 state: ((prevState: Readonly<S>, props: P) => (Pick<S, K> | S | null)) | (Pick<S, K> | S | null),
 ```
 
-But, decomposing it, it means we either need to pass a function that returns `Pick<S, K> | S | null` or return it directly. And that `Pick<S, K> | S | null` thing is – reading backwards – either `null`, full state object itself (`S`) or an object with a subset of the state’s keys ([`Pick<S, K>`](https://www.typescriptlang.org/docs/handbook/advanced-types.html#mapped-types)). Long story short, we are unable to pass the new state value object that doesn’t match our state definition. Here is the error that the TypeScript compiler gives us instead:
+But when reading piece by piece it tells us we either need to pass a function that returns `Pick<S, K> | S | null` or return it directly. And that `Pick<S, K> | S | null` thing is – reading backwards – either `null`, full state object itself (`S`) or an object with a subset of the state’s keys ([`Pick<S, K>`](https://www.typescriptlang.org/docs/handbook/advanced-types.html#mapped-types)). To cut the long story short, we are unable to pass the new state value object that doesn’t match our state definition. Here is the error that the TypeScript compiler gives us instead:
 
 ![State correctness is enforced](/images/react-ts/state-correctness.png)￼￼
 
@@ -112,11 +111,11 @@ Input.propTypes = {
 }
 ```
 
-But let’s stop and think for a moment what we’re trying to achieve here. Doesn’t TypeScript give us similar level of type safety with much more convenience already? I find [using PropTypes not needed anymore](https://dbushell.com/2017/04/19/typescript-instead-of-react-proptypes/) at all.
+But let’s stop and think for a moment what we’re trying to achieve here. Doesn’t TypeScript give us a similar level of type safety with much more convenience already? I find [using PropTypes not needed anymore](https://dbushell.com/2017/04/19/typescript-instead-of-react-proptypes/) at all.
  
 ## Events
 
-Our next stop in the React world that might make use of stronger typing is around Events system. We take care of events every time we want our component to react to user actions. Let’s see at our simplistic `Input` component once again:
+Our next stop in the React world that might make use of stronger typing is around Events system. We take care of events every time we want our component to react to user actions. Let’s see our simplistic `Input` component once again:
 
 ```typescript
 interface InputProps {
@@ -139,7 +138,7 @@ Unfortunately, this seems to be not the event we should care about:
 
 ![React does not use native HTML events](/images/react-ts/event-native.png)￼￼
 ￼
-This rather verbose error gives as the expected type of event, above anything else – see its last line. The event object passed by React is actually typed as `ChangeEvent<HTMLInputElement>` and this type seems not to extend the HTML built-in `Event` type. This is intentional because React doesn’t use the HTML events directly – it uses [Synthetic Events](https://reactjs.org/docs/events.html) wrappers instead.
+This rather verbose error gives us the expected type of an event, above anything else – see its last line. The event object passed by React is actually typed as `ChangeEvent<HTMLInputElement>` and this type seems not to extend the HTML built-in `Event` type. This is intentional because React doesn’t use the HTML events directly – it uses [Synthetic Events](https://reactjs.org/docs/events.html) wrappers instead.
 
 When we change our `Event` type definition to the synthetic event type determined by both event type and element type, we are fine:
 
@@ -147,19 +146,19 @@ When we change our `Event` type definition to the synthetic event type determine
 onChanged: (event: React.ChangeEvent<HTMLInputElement>) => void
 ```
 
-This gives us the best possible confidence level for what can we expect to get as an argument. It horribly reduces the flexibility, though. We can no longer have the same change handler for events fired on multiple types of HTML Elements (for example, `<input>` and `<select>`:
+This gives us the best possible confidence level for what we can expect to get as an argument. It horribly reduces the flexibility, though. We can no longer have the same change handler for events fired on multiple types of HTML Elements (for example, `<input>` and `<select>`:
 
 ![Events on different HTML elements are not compatible](/images/react-ts/event-incompatible.png)￼￼￼
 
-We got an error indicating near the end that `HTMLSelectElement` is not assignable to `HTMLInputElement`. Well, it is not, indeed, and our handler was defined to accept the former only and we’re unable to reuse that handler directly. Similar problem occurs if we want to attach the same handler to the events of multiple types (i.e. change, click, mouse interaction etc.) – `ChangeEvent<T>` and `MouseEvent<T>` are not compatible.
+We got an error indicating near the end that `HTMLSelectElement` is not assignable to `HTMLInputElement`. Well, it is not, indeed, and our handler was defined to accept the former only and we’re unable to reuse that handler directly. A similar problem occurs if we want to attach the same handler to the events of multiple types (i.e. change, click, mouse interaction etc.) – `ChangeEvent<T>` and `MouseEvent<T>` are not compatible.
 
-Fortunately, TypeScript provides a decent set of type system features that might help us here. First, we can use the common ancestor event type instead of the specific `ChangeEvent` – `SyntheticEvent` is a good fit. The generic parameter that describes the type of element we handle our even on is more troublesome. We might try with `HTMLElement` base type and in some cases it will suffice. But my usual case for the generic event handling is to handle multiple form elements and access its value attributes. Apparently there is no common type for all form elements that defines the `value` attribute. We have at least two ways to work around it. First, the mercy of [union types](http://www.typescriptlang.org/docs/handbook/advanced-types.html#union-types) where we can specify an alternative of types we want to handle and its common attributes will be freely available: 
+Fortunately, TypeScript provides a decent set of type system features that might help us here. First, we can use the common ancestor event type instead of the specific `ChangeEvent` – `SyntheticEvent` is a good fit. The generic parameter that describes the type of element we handle our even on is more troublesome. We might try with a `HTMLElement` base type and in some cases it will suffice. But my usual case for the generic event handling is to handle multiple form elements and access its value attributes. Apparently there is no common type for all form elements that defines the `value` attribute. We have at least two ways to work around it. First, the mercy of [union types](http://www.typescriptlang.org/docs/handbook/advanced-types.html#union-types) where we can specify an alternative of types we want to handle and its common attributes will be freely available: 
 
 ```typescript
 onGenericEvent: (event: React.SyntheticEvent<HTMLSelectElement | HTMLInputElement>) => void
 ```
 
-This is nice and explicit, although it doesn’t scale well if we want to handle more than few elements at once. The second solution uses [structural type compatibility](https://basarat.gitbooks.io/typescript/docs/types/type-compatibility.html#structural) – yet another extremely neat TypeScript’s type system functionality that allows us to define and compare types by its structure only. If our case is to read a value of `value` attribute of the handled element’s only, we might state it explicitly in our handler type definition:
+This is nice and explicit, although it doesn’t scale well if we want to handle more than few elements at once. The second solution uses the [structural type compatibility](https://basarat.gitbooks.io/typescript/docs/types/type-compatibility.html#structural) – yet another extremely neat TypeScript’s type system functionality that allows us to define and compare types by its structure only. If our case is to read a value of `value` attribute of the handled element’s only, we might state it explicitly in our handler type definition:
 
 ```typescript
 onGenericEvent: (event: React.SyntheticEvent<{value: string}>) => void
@@ -194,7 +193,7 @@ We may work around it with type cast to inform TypeScript compiler what is the r
        onChange={e => this.setState({[e.currentTarget.name as keyof State]: e.currentTarget.value})}/>
 ```
 
-Or, alternatively, if we want to avoid type casts, we may satisfy the `setState` call by ensuring the full state is always passed (including the expected modifications). It is actually taking advantage of a bit separate React’s feature than partial state update, but should behave the same way:
+Or, alternatively, if we want to avoid type casts, we may satisfy the `setState` call by ensuring the full state is always passed (including the expected modifications). It is actually taking advantage of a bit separate React’s feature than the partial state update, but should behave the same way:
 
 ```html
 <input type="text" name="firstName" 
@@ -205,7 +204,7 @@ Note I’m using not-yet-standard [object spread operator](https://github.com/tc
 
 ## What’s more?
 
-As you might already notice, all the HTML elements has its attributes mapped into `HTML*Element` types we can benefit from whenever we’re operating on the elements. Similarly, good subset of the CSS properties are mapped into the `CSSProperties` interface that defines all the predefined values the particular CSS property might use. This might be useful to use if we use any form of the [inline styles](https://reactjs.org/docs/dom-elements.html#style) in our components. It would provide proper code completion and in some cases ensure validation of our CSS definitions:
+As you might have already noticed, all the HTML elements have its attributes mapped into `HTML*Element` types we can benefit from whenever we’re operating on the elements. Similarly, a good subset of the CSS properties are mapped into the `CSSProperties` interface that defines all the predefined values the particular CSS property might use. This might be useful to use if we use any form of the [inline styles](https://reactjs.org/docs/dom-elements.html#style) in our components. It would provide a proper code completion and in some cases ensure the validation of our CSS definitions:
 ￼
 ![TypeScript helps with CSS validity](/images/react-ts/css-properties.png)￼￼￼
 
