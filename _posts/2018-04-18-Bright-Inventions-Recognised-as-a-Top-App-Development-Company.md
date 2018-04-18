@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bright Inventions Recognised as a Top App Development Company
+image: /images/clutch_1.png
 author: ula
 hidden: false
 tags: Clutch mobile web Blockchain
