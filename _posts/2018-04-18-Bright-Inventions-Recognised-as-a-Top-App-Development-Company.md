@@ -3,7 +3,7 @@ layout: post
 title: Bright Inventions Recognised as a Top App Development Company
 author: ula
 hidden: false
-tags: Clutch mobile apps development Blockchain
+tags: Clutch mobile web Blockchain
 ---
 
 [Clutch](https://clutch.co/profile/bright-inventions) is a ratings and reviews research-based firm in Washington, D.C., which conducts phone interviews with our past clients to evaluate our level of performance. Our clients have rated us with 4.8 out of 5 stars! This high level of quality is important to our clients and even more important to us here at Bright Inventions.
