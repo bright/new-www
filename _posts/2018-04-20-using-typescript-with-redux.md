@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Using TypeScript with Redux
-excerpt: Let's follow the typical path the front-end project take nowadays and add Redux into our Redux + TypeScript application. TypeScript is a powerful beast that we can employ to make our Redux code not only type safe, but also much cleaner and more readable.
+excerpt: Let's follow the typical path the front-end project takes nowadays and add Redux into our React+TypeScript application. TypeScript is a powerful beast that we can employ to make our Redux code not only type safe, but also much cleaner and more readable.
 tags: React TypeScript web
 comments: true
 author: adam
-hidden: true
 image: /images/react-ts/redux-ts.png
 ---
 
-Recently we've checked [what benefits TypeScript adds in our React project](https://brightinventions.pl/blog/5-ways-to-benefit-from-typescript-in-react/). Let's now follow the typical path the front-end project take nowadays and add [Redux](https://brightinventions.pl/blog/from-react-to-react-redux-in-a-few-steps/) into the mix. Unfortunately, by default Redux is not really type safe as it is in most cases presented as [switches over actions with arbitrary payloads](https://redux.js.org/introduction/core-concepts). But TypeScript is a powerful beast and with a bit of care we can make our Redux code not only type safe, but also much cleaner and more readable.
+Recently we've checked [what benefits TypeScript adds in our React project](https://brightinventions.pl/blog/5-ways-to-benefit-from-typescript-in-react/). Let's now follow the typical path the front-end project takes nowadays and add [Redux](https://brightinventions.pl/blog/from-react-to-react-redux-in-a-few-steps/) into the mix. Unfortunately, by default Redux is not really type safe as it is in most cases presented as [switches over actions with arbitrary payloads](https://redux.js.org/introduction/core-concepts). But TypeScript is a powerful beast and with a bit of care we can make our Redux code not only type safe, but also much cleaner and more readable.
 
 ![Redux + TypeScript](/images/react-ts/redux-ts.png){: .center-image}
 
@@ -48,7 +47,7 @@ interface AppState {
 
 Note that `AppState`'s properties are optional as the state might initially be empty and we need to handle it in our code and thus reflect it in our type definition.
 
-So far so good. Now Actions – it initially look like this:
+So far so good. Now Actions – they initially look like this:
                     
 ```javascript
 { type: 'ADD_TODO', text: 'Go to swimming pool' }
@@ -56,7 +55,7 @@ So far so good. Now Actions – it initially look like this:
 { type: 'SET_VISIBILITY_FILTER', filter: 'SHOW_ALL' }
 ```
 
-Let's for now use the typing provided by [`redux` library itself](https://github.com/reactjs/redux/blob/master/index.d.ts), specifically `AnyAction` that only enforces `type` property to be set:
+Let's for now use the typing provided by [`redux` library itself](https://github.com/reactjs/redux/blob/master/index.d.ts), specifically `AnyAction` that only enforces the `type` property to be set:
 
 ```typescript
 const actions: AnyAction[] = [
@@ -140,7 +139,7 @@ function todoApp(state: AppState = {}, action: AnyAction): AppState {
 }
 ```
 
-Note that all reducers, regardless on which level they exist, share the same generic signature:
+Note that all reducers, regardless of on which level they exist, share the same generic signature:
 
 ```typescript
 type Reducer<S> = (state: S, action: AnyAction) => S;
@@ -150,7 +149,7 @@ This is exactly the type that the built-in Redux typings provide, so we can use 
 
 ## Can we do more?
 
-All we did so far was to add the basic type definitions that could prevent us from a set of typos. But looking at the reducers, we're far from an actual type safety as `AnyAction`-typed actions – as this `any` in the name suggests – does not give the TypeScript compiler any clue what payload the particular action type actually carry. We might still make a typo when accessing action's payload properties, assume its wrong type or use properties of action of another type by mistake and TypeScript has no tool to warn us in this case:
+All we have done so far was to add the basic type definitions that could prevent us from a set of typos. But looking at the reducers, we're far from an actual type safety as `AnyAction`-typed actions – as this `any` in the name suggests – does not give the TypeScript compiler any clue what payload the particular action type actually carries. We might still make a typo while accessing action's payload properties, assume its wrong type or use the properties of action of another type by mistake and TypeScript has no tool to warn us in this case:
 
 ```typescript
 function visibilityFilter(state: VisibilityFilter = 'SHOW_ALL', action: AnyAction): VisibilityFilter {
@@ -162,7 +161,7 @@ function visibilityFilter(state: VisibilityFilter = 'SHOW_ALL', action: AnyActio
 }
 ```
 
-But hope is not lost yet. TypeScript has a powerful feature of [Discriminated Unions](https://basarat.gitbooks.io/typescript/docs/types/discriminated-unions.html) and even though this name sounds like some kind of organization of social minority, it might help us a lot here.
+But all hope is not lost yet. TypeScript has a powerful feature of [Discriminated Unions](https://basarat.gitbooks.io/typescript/docs/types/discriminated-unions.html) and even though this name sounds like some kind of organization of a social minority, it might help us a lot here.
 
 Let's create detailed type definitions for each kind of action we support:
 
@@ -183,7 +182,7 @@ interface SetVisibilityFilterAction extends Action {
 }
 ```
 
-Note that we extend Redux-provided `Action` now which only specifies a `type` property. `AnyAction` type we used before permits any property to exist in its implementations, so it defeats our desired type safety. Another interesting bit here is that we specify `type` property with a literal, making it a good candidate for the discriminator of our discriminated union. Here is the union itself:
+Note that we extend Redux-provided `Action` now which only specifies a `type` property. `AnyAction` type we used before permits any property to exist in its implementations, so it defeats our desired type safety. Another interesting bit here is that we specify the `type` property with a literal, making it a good candidate for the discriminator of our discriminated union. Here is the union itself:
 
 ```typescript
 type TodoAppAction = AddTodoAction | ToggleTodoAction | SetVisibilityFilterAction
@@ -232,7 +231,7 @@ A victory for humanity, isn't it?
 
 ## Connected Components
 
-One more place we might feel betrayed by Redux is where it actually [binds into React components](https://redux.js.org/basics/usage-with-react). Let's use a bit simplified example from Redux guide again:
+One more place we might feel betrayed by Redux is where it actually [binds into React components](https://redux.js.org/basics/usage-with-react). Let's use a bit simplified example from the Redux guide again:
 
 ```jsx
 import { connect } from 'react-redux'
@@ -292,7 +291,7 @@ This works fine, but this way we can't go further into `mapStateToProps` or `map
 
 ![Workaround on mapStateToProps might help a bit](/images/react-ts/mapprops-partial-typo.png){: .center-image}
 
-Note we don't have a proper type for `ownProps` here, too, and "for convenience" we used `any`. Also, this approach lets us return `onClick` property here which we clearly expect to be returned only from `mapDispatchToProps` in this case. Let's be explicit about it and split our props into three separate types: one for own props (passed from the parent component), one for state-based props and one for dispatch-based props:
+Note we don't have a proper type for `ownProps` here, too, and "for convenience" we used `any`. Also, this approach let us return `onClick` property here which we clearly expect to be returned only from `mapDispatchToProps` in this case. Let's be explicit about it and split our props into three separate types: one for own props (passed from the parent component), one for state-based props and one for dispatch-based props:
 
 ```typescript
 interface LinkOwnProps {
@@ -328,4 +327,4 @@ const mapDispatchToProps = (dispatch: Dispatch<AppState>, ownProps: LinkOwnProps
 }
 ```
 
-For me type safety given by proper TypeScript definitions made Redux great again. How about you?
+For me the type safety given by proper TypeScript definitions made Redux great again. How about you?

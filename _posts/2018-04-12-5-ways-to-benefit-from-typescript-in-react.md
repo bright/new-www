@@ -208,5 +208,5 @@ As you might have already noticed, all the HTML elements have its attributes map
 ￼
 ![TypeScript helps with CSS validity](/images/react-ts/css-properties.png)￼￼￼
 
-I hope you already feel that TypeScript can offer a lot of benefits to your React codebase, even though we’ve just touched the iceberg tip. 
+I hope you already feel that TypeScript can offer a lot of benefits to your React codebase, even though we’ve just touched the iceberg tip. In the [next post](https://brightinventions.pl/blog/using-typescript-with-redux/) we'll add Redux into the mix and see how TypeScript can help us there, too.
 
