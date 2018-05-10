@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reasons to Join Bright 
+excerpt:Bright Inventions is a great place to push your career to the next level. We offer a friendly work environment, challenging projects, meaningful development and flexibility, which is not so easy to find under one roof in other companies. But above all, we offer a team that consists of great people. 
 author: ula
 hidden: false
 image: /images/bright_team.png
