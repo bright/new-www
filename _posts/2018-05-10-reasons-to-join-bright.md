@@ -2,7 +2,7 @@
 layout: post
 title: Reasons to Join Bright 
 author: ula
-hidden: true
+hidden: false
 image: /images/bright_team.png
 tags: team professionalism software Blockchain mobile web 
 ---
