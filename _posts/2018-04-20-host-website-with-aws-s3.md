@@ -3,7 +3,7 @@ layout: post
 title: Host your react-redux website with AWS S3
 image: /images/host-website-with-aws-s3/www.png
 author: agnieszka
-hidden: true
+hidden: false
 tags: react redux aws amazon s3
 ---
 
@@ -60,11 +60,11 @@ Select `Use this bucket to host a website` checkbox. Provide the name of the fil
 
 ![](/images/host-website-with-aws-s3/index.png){: .center-image}
 
-There is one more thing, which is react-redux specific. If you try to access some resource directly, you will get an error like below: 
+There is one more thing, which is specific for apps using browser's history API (for example a react-router app). If you try to access some resource directly, you will get an error like below: 
 
 ![](/images/host-website-with-aws-s3/404.png){: .center-image}
 
-This is because the app is not static enough :) Say you want to access `http://s3-hosted-website.brightinventions.pl.s3-website.eu-central-1.amazonaws.com/users`. AWS will not find the resource `users` directly (as a static resource in the bucket does not exist) and therefore will show an error. This is why it’s a good idea to set the `index.html` as the `Error document` as well. Now, instead of presenting the error page, AWS will redirect to the `index.html` and the app can route you successfully to the desired page.
+This is because the app is not static enough :) Say you want to access `http://s3-hosted-website.brightinventions.pl.s3-website.eu-central-1.amazonaws.com/users`. AWS will not find the resource `users` directly (as a static resource in the bucket does not exist) and therefore will show an error. This is why it’s a good idea to set the `index.html` as the `Error document` as well. Now, instead of presenting the error page, AWS will redirect to the `index.html` and the app can route you successfully to the desired page. This will, however, redirect all errors into the app, so we should make sure to handle them inside the app.
 
 ![](/images/host-website-with-aws-s3/error.png){: .center-image}
 
