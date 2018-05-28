@@ -6,12 +6,12 @@ hidden: true
 tags: aws cloudformation lambda cloudform
 comments: true
 crosspost: true
-image: /images/lambda/lambda.png
+image: /images/express-js.webp
 ---
 
 In this post we will see how to convert an existing express application to AWS Lambda. This can help reduce AWS bill even by an order of magnitude. We will also use [cloudform](https://github.com/bright/cloudform) to describe the CloudFormation stack.
 
-![lambda](/images/lambda/lambda.png)
+![lambda](/images/express-js.webp)
 
 ## An express app
 
@@ -65,7 +65,7 @@ The `main` function is called by the AWS Lambda Node.js runtime. Note that we've
 
 ## Deploy the express app to AWS Lambda
 
-I already showed [how we can deploy lambda with cloudform]({% post_url 2018-03-12-deploy-lambda-with-cloudformation %}). We will use the previous example as a base:
+I already showed [how we can deploy lambda with cloudform]({% post_url 2018-03-11-deploy-lambda-with-cloudformation %}). We will use the previous example as a base:
 
 ```typescript
 import cloudform, { Lambda, IAM, Fn, ApiGateway, Refs,  } from 'cloudform';
@@ -190,7 +190,7 @@ Content-Length: 15
 Content-Type: application/json; charset=utf-8
 Date: Mon, 28 May 2018 19:58:13 GMT
 Via: 1.1 XXXXXXXXXXXXX.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: XXXXXXXXXXXXX-XXXXXXXXXXXXX==
+X-Amz-Cf-Id: XXXXXXXXXXXXX==
 X-Amzn-Trace-Id: Root=1-5b0c5f54-806e190d437c7d31a4a0d4ba
 X-Cache: Miss from cloudfront
 etag: W/"f-sHigu4BMVa0IJ0LR3NDJ5y8l4sc"
@@ -216,8 +216,8 @@ Connection: keep-alive
 Content-Length: 41
 Content-Type: application/json; charset=utf-8
 Date: Mon, 28 May 2018 20:00:31 GMT
-Via: 1.1 3b14001c94de06c6d9e0fbf3d55a7626.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: mnjtbmQLeMY282hB7m15aqSeMisUrUez7DbFrbRupe_30mt_GJkSeA==
+Via: 1.1 XXXXXXXXXXXXX.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XXXXXXXXXXXXX==
 X-Amzn-Trace-Id: Root=1-5b0c5fdf-802178cceb5160684ef2cc34
 X-Cache: Miss from cloudfront
 etag: W/"29-SKqhJThIfjmVId6IIeTilD7Mkk0"
