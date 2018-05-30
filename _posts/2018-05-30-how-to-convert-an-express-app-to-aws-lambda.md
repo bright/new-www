@@ -5,7 +5,7 @@ author: piotr
 hidden: true
 tags: aws cloudformation lambda cloudform
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/2018/05/29/how-to-convert-an-express-app-to-aws-lambda.html'
 image: /images/express-js.webp
 ---
 
