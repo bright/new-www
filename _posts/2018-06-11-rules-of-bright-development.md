@@ -3,7 +3,7 @@ layout: post
 title: Rules of Bright Development
 excerpt: Every year we work at Bright on many mobile and web development projects. It is a challenge to build a good quality software in an agile way and at the same time solve all potential problems and keep your workflow under control, but we do that. In fact, we manage to do that thanks to applying some important rules. Check below what makes our work bright and effective.
 author: ula
-hidden: true
+hidden: false
 image: /images/bright_rules.jpg
 tags: code-review TDD SOLID mobile web software 
 ---
@@ -15,17 +15,17 @@ We have a team consisting of great talented developers who create good code, but
 
 **2. Pair programming**
 
-We like working together and we take advantage of that not only while doing code review, but also in pair programming. And pair programming is like an instant code review. Two programmers from our team are working on the same task and on the same machine swapping their roles. It is a great opportunity to come up with new fresh  ideas and find some solutions much faster than while working alone. We also do not stuck with a problem for a long time and we catch errors faster. The fact that two experienced developers are engaged in the task at the same time makes our work really efficient and reduces the probability of making mistakes. It may also speed up some urgent tasks on the sprint.
+We like working together and we take advantage of that not only while doing code review, but also in pair programming. And pair programming is like an instant code review. Two programmers from our team are working on the same task and on the same machine swapping their roles. It is a great opportunity to come up with new fresh  ideas and find some solutions much faster than while working alone. We also do not get stuck with a problem for a long time and we catch errors faster. The fact that two experienced developers are engaged in the task at the same time makes our work really efficient and reduces the probability of making mistakes. It may also speed up some urgent tasks on the sprint.
 
 What is more, pair programming is extremely practical and useful for our new employees. While on boarding a new staff a more experienced developer can pair with a trainee to effectively and fluently share knowledge connected either with a project or generally programming skills.
 
 **3. Continuous integration**
 
-We are great advocates of Continuous integration (CI). Our code is integrated into a shared repository several times a day. By a regular integration, we can detect errors quickly and make sure that every push is in a good state. If the commit fails to move to the next step, we can immediately find a problem and fix it. Thanks to the frequent integration we can spend more time on building features instead of debugging. We do not have to wait and watch to find out if our code is going to work.
+We are great advocates of Continuous integration (CI). Our code is integrated into a shared repository several times a day. By a regular integration, we can detect errors quickly and make sure that every push is in a good state. If the commit fails to move to the next step, we can immediately find a problem and fix it. Thanks to the frequent integration we can spend more time on building features instead of debugging. 
 
 **4. TDD**
 
-We believe that Test Driven Development is a good way of providing high quality software. Applying TDD methodology makes creating  maintainable readable code and reducing bugs much easier. At first we always try to write unit tests to check particular segments and then the code itself. It prevents us from creating unnecessary code and helps to specify precise features that should be implemented in the project. And even if TDD takes at first much time and effort from us, over the time this process results in great benefits for our clients. 
+We believe that Test Driven Development is a good way of providing high-quality software. Applying TDD methodology makes creating  maintainable readable code and reducing bugs much easier. At first, we always try to write unit tests to check particular segments and then the code itself. It prevents us from creating unnecessary code and helps to specify precise features that should be implemented in the project. And even if TDD takes at first much time and effort from us, over the time this process results in great benefits for our clients. 
 
 **5. SOLID**
 
@@ -37,7 +37,7 @@ As project management tools we use mainly either JIRA or Trello depending on our
 
 **7. Time tracking**
 
-To track the time and current workflowIt we use Mite. It is important for us to know how much time we spend on a given task or a project, especially considering the fact we use mainly the time and material model and our clients are charged only for developers’ service. Apart from that we have our own private file in which we can see what kind of projects are assigned to particular people and how long they take part in them. It facilitates our planning process a lot. 
+To track the time and current workflow we use Mite. It is important for us to know how much time we spend on a given task or a project, especially considering the fact we use mainly the time and material model and our clients are charged only for developers’ service. Apart from that we have our own private file in which we can see what kind of projects are assigned to particular people and how long they take part in them. It facilitates our planning process a lot. 
 
 **8. Communication**
 
