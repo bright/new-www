@@ -17,7 +17,7 @@ We have a team consisting of great talented developers who create good code, but
 
 We like working together and we take advantage of that not only while doing code review, but also in pair programming. And pair programming is like an instant code review. Two programmers from our team are working on the same task and on the same machine swapping their roles. It is a great opportunity to come up with new fresh  ideas and find some solutions much faster than while working alone. We also do not get stuck with a problem for a long time and we catch errors faster. The fact that two experienced developers are engaged in the task at the same time makes our work really efficient and reduces the probability of making mistakes. It may also speed up some urgent tasks on the sprint.
 
-What is more, pair programming is extremely practical and useful for our new employees. While on boarding a new staff a more experienced developer can pair with a trainee to effectively and fluently share knowledge connected either with a project or generally programming skills.
+What is more, pair programming is extremely practical and useful for our new employees. While onboarding new staff a more experienced developer can pair with a trainee to effectively and fluently share knowledge connected either with a project or generally programming skills.
 
 **3. Continuous integration**
 
