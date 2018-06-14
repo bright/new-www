@@ -9,7 +9,7 @@ hidden: false
 tags: android kotlin viewmodel mvvm unit tests
 ---
 
-In my [previous post](https://brightinventions.pl/blog/injectable-android-viewmodels/) I described how to implement injectable Android view models using Dagger and [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel.html) library from [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/index.html). In this post I will show a simple way to unit test the view model created then. You can find the full code in the same repository as previously [on GitHub](https://github.com/azabost/simple-mvvm-example).
+In my [previous post](https://brightinventions.pl/blog/injectable-android-viewmodels/) I described how to implement injectable Android view models using Dagger and [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel.html) library from [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/index.html). In this post I will show a simple way to unit test the view model created then. You can find the full code in the same repository as previously [on GitHub](https://github.com/azabost/simple-mvvm-example/tree/7b051fd7a16853e3d9655767a887d9a830133d2d).
 
 # The structure #
 
@@ -54,6 +54,8 @@ class MockGitHubClient(
     }
 }
 {% endhighlight %}
+
+_Note: it can also be implemented using Mockito - you can find the updated version on GitHub._
 
 ### Setting things up ###
 
