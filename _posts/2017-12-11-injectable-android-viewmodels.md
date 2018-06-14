@@ -28,9 +28,11 @@ The Google's `ViewModel` was designed to help with such issues. Unfortunately, i
 
 # Injectable ViewModels #
 
-Before we begin to play with the code I wanted to add that I have googled other people's approaches to view model injections and I didn't like them too much because of the significant amount of the boilerplate code (e.g. writing a separate view model factory per view model). The best one, which my example is based on, comes from the [Google's samples repository](https://github.com/googlesamples/android-architecture-components/tree/master/GithubBrowserSample). I have simplified some parts of it and rewritten it in Kotlin.
+Before we begin to play with the code I wanted to add that I have googled other people's approaches to view model injections and I didn't like them too much because of the significant amount of the boilerplate code (e.g. writing a separate view model factory per view model). The ~~best one~~ _(not any more - read the note below)_, which my example is based on, comes from the [Google's samples repository](https://github.com/googlesamples/android-architecture-components/tree/master/GithubBrowserSample). I have simplified some parts of it and rewritten it in Kotlin.
 
 _Note: you can access the whole code used in this example [on GitHub](https://github.com/azabost/simple-mvvm-example/tree/7b051fd7a16853e3d9655767a887d9a830133d2d)._
+
+_Another note: if you would like to read about a newer solution for injecting ViewModels which I find better, [click here](https://brightinventions.pl/blog/android-viewmodel-injections-revisited/)._
 
 ## Simple factory ##
 
