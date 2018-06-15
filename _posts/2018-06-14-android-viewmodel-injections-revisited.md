@@ -10,15 +10,15 @@ hidden: true
 tags: android
 ---
 
-In one of my previous posts (which you can find [here](https://brightinventions.pl/blog/injectable-android-viewmodels/)) I have described how to implement a ViewModel factory that was able to provide ViewModels with their dependencies injected, e.g. an API client, and it was good enough for me at that time. Later on, thanks to Piotr, we've found out even better and simpler approach with an additional possibility of injecting Activity- or Fragment-dependant data into ViewModels.
+In one of [my previous posts](https://brightinventions.pl/blog/injectable-android-viewmodels/) I have described how to implement a ViewModel factory that was able to provide ViewModels with their dependencies injected, e.g. an API client, and it was good enough for me at that time. Later on, thanks to [Piotr](https://miensol.pl/), we've found out even better and simpler approach with an additional possibility of injecting Activity- or Fragment-dependant data into ViewModels.
 
 ![Vaccine](/images/android-viewmodel-injections-revisited/vaccine.jpg){: .center-image}
 
 # Simpler factory #
 
-Previously, we've created a singleton factory that was supplied with a map of `ViewModel`-based classes and their respective `Provider`s. It required us to create a custom `ViewModelKey` annotation and use Dagger to generate the map using `IntoMap` bindings. It didn't require a lot of boilerplate code compared to some other solutions I've seen at that time, but it wasn't perfect either.
+Previously, we've created a singleton factory that was supplied with a map of `ViewModel`-based classes and their respective `Provider`s. It required us to create a custom `ViewModelKey` annotation and use Dagger to generate the map using `IntoMap` bindings. It didn't require a lot of boilerplate code compared to some other solutions I saw at that time, but it wasn't perfect either.
 
-On the contrary, the new solution is based on a generic ViewModel factory class which instances are created for each Activity or Fragment instance.
+On the contrary, the new solution is based on a generic ViewModel factory class of which instances are created for each Activity or Fragment instance.
 
 ``` kotlin
 import android.arch.lifecycle.ViewModel
@@ -64,11 +64,24 @@ class MainActivity : BaseActivity() {
 }
 ```
 
-As you can see, there is much less code and personally I think it's also easier to understand.
+As you can see, there is much less code and personally I think it's also easier to understand. To make it even more concise, we can add an extension function in the `BaseActivity` class like this:
+
+```kotlin
+abstract class BaseActivity : AppCompatActivity() {
+    // ...
+
+    inline fun <reified T : ViewModel> ViewModelFactory<T>.get(): T =
+        ViewModelProviders.of(this@BaseActivity, this).get(T::class.java)
+}
+```
+
+Then, we can get a ViewModel with just: `vm = vmFactory.get()`
+
+Analogically, we can add a similar function for Fragments.
 
 # More possibilities #
 
-One of the issues we've had was that the singleton factory holding a map of ViewModel providers with their dependencies was generated _a priori_, therefore everything needed to be known at the very beginning. It wouldn't let us to inject anything coming from a more narrow scope, e.g. Activity's extras or Fragment's arguments.
+One of the issues we've had was that the singleton factory holding a map of ViewModel providers was widely scoped, therefore it wouldn't let us inject anything coming from a more narrow scope, e.g. Activity's extras or Fragment's arguments.
 
 Creating a new factory each time makes it possible. In order to achieve this, we need an additional module that knows how to obtain the dependencies. For example:
 
