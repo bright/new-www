@@ -3,10 +3,10 @@ layout: post
 title: Android ViewModel injections revisited
 image: /images/android-viewmodel-injections-revisited/vaccine.jpg
 author: azabost
-date: 2018-06-14
+date: 2018-06-18
 crosspost: true
 comments: true
-hidden: true
+hidden: false
 tags: android
 ---
 
