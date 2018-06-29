@@ -3,7 +3,7 @@ layout: post
 title: Self code review
 image: /images/self-code-review/image.jpg
 author: agnieszka
-hidden: true
+hidden: false
 tags: code review
 ---
 
