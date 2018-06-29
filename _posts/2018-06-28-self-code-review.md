@@ -43,4 +43,4 @@ Then I read the code again, taking the big picture this time. The aim is to chec
 Once I have committed and pushed, the last step is to check if the code compiles and the tests are green on the CI server.
 
 
-Do I apply this routine each and every time? Of course not, we all know scenarios of delivering a feature as soon as possible. Does this routine prevent me from checking some fishy code in? Well, commits like `Fix typos` or `Remove “only” from tests` still happen :) But after all, we are only humans and we all make mistakes. And the teammate code review is just irreplaceable :)
+Do I apply this routine each and every time? Does this routine prevent me from checking some fishy code in? Of course not, we all know scenarios of delivering a feature as soon as possible or just a little change which surely does not require all these steps. Commits like `Fix typos` or `Remove “only” from tests` still happen :) But after all, we are only humans and we all make mistakes. And the teammate code review is just irreplaceable :)
