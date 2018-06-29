@@ -25,14 +25,16 @@ I actually quite like a strict approach when warnings prevent compilation. But t
 
 Just run all tests and see if they are green. This is also the time for some framework-specific checks, e.g. `mocha` requires to append `only()` to test methods to run a specific subset of the tests. Of course you need to remove it before commiting :) Do you know any other frameworks’ features which are likely to produce this kind of leftovers?
 
-**4. The code review itself.**
+**4. The code review itself**
 
 I usually list all the files that have changed and then read them carefully one by one, paying special attention to the following elements (the similarity to an ordinary code review process is not accidental :) ).
 
-* All the little things that make the code cleaner like all the shortands or smart methods that modern languages have (to name a few: Kotlin’s `isNullOrEmpty` or Scala's `getOrElse`). IDEs give lots of such hints, we just need to make use of them.
+* All the little things that make the code cleaner like all the shorthands or smart methods that modern languages have (to name a few: Kotlin’s `isNullOrEmpty` or Scala's `getOrElse`). IDEs give lots of such hints, we just need to make use of them.
 * Spelling - typos make the code messy :)
 * Rethink the names of classes, variables and so on. Are they meaningful enough? Or maybe too verbose?
 * Any too complicated constructions like long computations or nested conditions? If I have just written it and still do not get the sense at first glance, maybe there is a way to make it cleaner?
+
+IDEs make this kind of reading easier. In the code editing window you have the changed lines marked so you know which ones to focus on at most. I know some of us use the diff window for this purpose. I usually prefer the more gentle way of highlighting the differences, but that’s quite personal - try both and decide which is the best for you. Or just combine them.
 
 **5. The big picture**
 
