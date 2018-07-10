@@ -4,7 +4,7 @@ title: Selecting the right partner to build your MVP
 author: michal
 hidden: false
 tags: mvp startup outsourcing software
-image:/images/bright_team.JPG
+image: /images/bright_team.JPG
 comments: true
 ---
 
