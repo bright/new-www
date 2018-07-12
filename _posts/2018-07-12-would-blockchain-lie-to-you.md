@@ -6,7 +6,6 @@ hidden: false
 image: /images/Blockchain_workshops.jpg
 tags: Blockchain Ethereum Truffle Node.js MainNet
 ---
-
 Some people are sitting on a beach in summer, and some are learning Blockchain. Can you do both at the same time? The answer is YES. :)
 
 Last week together with Rafał and Tomek from [Baltic Data Science](http://balticdatascience.com/) we took part in Technology Summer Course [“Would AI lie to you?”](https://www.best.eu.org/event/details.jsp?activity=e6s71su) organised by BEST Group Gdansk and Gdansk University of Technology.  We were running workshops about Blockchain for young clever minds from all over Europe who came to Gdańsk to start off their adventure with AI and cryptography. During the workshops not only did they have a great opportunity to learn valuable skills from experienced developers, but also they got a chance to see what work at BDS and Bright Inventions looks like on a daily basis.
