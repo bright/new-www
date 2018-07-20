@@ -3,6 +3,7 @@ layout: post
 title: Collaboration
 author: ula
 hidden: false
+image: /images/collaboration.png
 tags: collaboration success team cooperation 
 ---
 
