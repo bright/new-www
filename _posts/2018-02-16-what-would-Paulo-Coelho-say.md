@@ -3,6 +3,7 @@ layout: post
 title: What would Paulo Coelho say
 author: ula
 hidden: false
+image: /images/thank_you.jpg
 tags: productivity effectiveness recovering 
 ---
 
