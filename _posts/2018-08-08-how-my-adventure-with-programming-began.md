@@ -4,7 +4,7 @@ title: How My Adventure with Programming Began
 author: ula
 hidden: false
 tags: career IT team programming motivation
-image: /images/bright_team.JPG
+image: /images/bright_team-compressor.jpg
 ---
 I have asked 3 devs working with me at Bright Inventions about the beginning of their programming career, first challenges and what they like most about their job.  Discover their stories and take a look inside our Bright Team.
 
@@ -81,4 +81,4 @@ Who said I like programming? And know completely serious - I am not sure - it is
 
 To be continued. 
 
-PS. If you have any questions, for example about how we work or what we do, you can alwyas drop me a line at ula@brightinventions.pl 
+PS. If you have any questions, for example about how we work or what we do, you can alwyas drop me a line at ula@brightinventions.pl  
