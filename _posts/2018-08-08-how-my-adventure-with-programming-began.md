@@ -26,7 +26,7 @@ Solving problems - that is what I value most. If I can solve a real problem and 
 
  **Do you believe that professionalism in programming means learning all your life?**
 
-It depends. Generally, if we want to develop and be up-to-date with all tech news, the process of learning is something fundamental. It is also something what I try to do, and at the same time it is something that keeps me motivated and pleased with my job. But I can imagine also a person specialising in some niche legacy technology and makes that his/her market value and competitive edge since no one els wants to do it. And I know such stories.
+It depends. Generally, if we want to develop and be up-to-date with all tech news, the process of learning is something fundamental. It is also something what I try to do, and at the same time it is something that keeps me motivated and pleased with my job. But I can imagine also a person specialising in some niche legacy technology and makes that his/her market value and competitive edge since no one else wants to do it. And I know such stories.
 
 **What do you value most about working at Bright Inventions?**
 
