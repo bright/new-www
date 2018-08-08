@@ -81,4 +81,5 @@ Who said I like programming? And know completely serious - I am not sure - it is
 
 To be continued. 
 
-PS. If you have any questions, for example about how we work or what we do, you can alwyas drop me a line at ula@brightinventions.pl  
+PS. If you want to see more of our BRIGHT TEAM, visit [our Instagram profile](https://www.instagram.com/bright_inventions/) and be with us on daily basis. :)
+
