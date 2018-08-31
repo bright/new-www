@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How My Adventure with Programming Began
+title: How Their Adventure with Programming Began
 author: ula
 hidden: false
 tags: career IT team programming motivation
@@ -8,7 +8,7 @@ image: /images/bright_team-compressor.jpg
 ---
 I have asked 3 devs, Adam, Agnieszka and Radek, who work with me at Bright Inventions about the beginning of their programming career, first challenges and what they like most about their job. Discover their stories and take a look inside our Bright Team.
 
-## Adam Bar, Full Stack Developer, [\[WhatWebCanDoToday\]](https://whatwebcando.today/)
+## Adam, Full Stack Developer, [\[WhatWebCanDoToday\]](https://whatwebcando.today/)
 
 **How did your adventure with programming begin?**
 
@@ -32,7 +32,7 @@ It depends. Generally, if we want to develop and be up-to-date with all tech new
 
 I think that Bright is a place where we deal with a wide spectrum of tasks and at the same time everyone feels an integral part of a team  - you know that without you the project may not be successful. We have a holistic view on projects in general. Our task is to make things good not only from our own narrow perspective, but also from the client's one. We respect each other's job and we know that cooperation is the key. Apart from that I really like the lack of formal structure and non-corporate style of working. And one more thing - we can express our opinion about everything. There are no taboo topics. And I find it cool.
 
-## Agnieszka Olszewska, Full Stack Developer
+## Agnieszka, Full Stack Developer
 
 **How did your adventure with programming begin?**
 
@@ -54,7 +54,7 @@ I like the fact that when you are into programming, you do not have to invest lo
 
 Personally, I like most our calm and peaceful environment. There is nothing like some strange  pressure. Even when there is a situation when we make a mistake and something goes wrong, we keep calm. There is no noxious atmosphere. No one is shouting at you or nagging you. We all know that there are tasks to do and we always try to do them as well as we can.
 
-## Radek Pieczątkiewicz, Mobile Developer
+## Radek, Mobile Developer
 
 **How did your adventure with programming begin?**
 
