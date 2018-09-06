@@ -23,15 +23,15 @@ There is some truth in this humorous aphorism, if we create a false belief that 
 
 Follow these steps before assuming there is nothing else we can do:
 - Make any call
-  - Even if use cannot use the real endpoint, there are plenty of services that lets you mock the API ([mocky](https://www.mocky.io), [mockable](https://www.mockable.io), [fakejson](https://fakejson.com) and others)
-- Handle errors:
-  - Beyond handling unknown errors sometimes we expect some, especially when making synchronous calls (email is taken, password is incorrect, etc.)
+  - Even if you cannot use the real endpoint, there are plenty of services that lets you mock the API ([mocky](https://www.mocky.io), [mockable](https://www.mockable.io), [fakejson](https://fakejson.com) and others)
+- Handle errors
+  - Beyond handling unknown errors, sometimes we expect some specific errors, especially when making synchronous calls (email is taken, password is incorrect, etc.)
 - Check the Internet connection before making synchronous call
 - Show loader during synchronous call
 - Show placeholder if there is no data fetched
 - Check if asynchronous call stops when user leaves the screen
   - Make sure there are no memory leaks
-- Make sure that you do not modify the UI from background thread
+- Make sure that you do not modify the UI from the background thread
 
 Additionally, you can:
 - Test if the signals have been called (if you use e.g. Rx)
@@ -41,10 +41,7 @@ If you think about the feature for a long time, other ideas can come to your min
 
 ## You can do more
 
-Czy mogę zrobić coś jeszcze?
-- jeżeli backend jest implementowany przez nas, to możemy zaproponować backend developerowi strukturę requestów/responsów (json) oraz przykładowe kody błędów
-- pozwoli to lepiej zrozumieć problem oraz wszystkie stany w jakich może znaleźć się ekran/aplikacja
-- a backend developer napewno doceni ułatwienie w postaci gotowych struktur danych
+If only the API is developed by our backend team we can do even more. Since we know what do we expect to get from the endpoint, and what data we have to provide, we can prepare an example request and response (even including error codes) on our own. Thinking about the API will help us understand the problem better and the backend developer for sure will appreciate our effort.
 
 ## Do your best
 
