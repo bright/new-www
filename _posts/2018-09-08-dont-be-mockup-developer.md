@@ -5,12 +5,12 @@ author: mateusz
 tags: ['android', 'ios', 'programming practices']
 comments: true
 hidden: true
-image: /images/react-native-custom-ios-build-configurations/build-configurations.png
+image: /images/dont-be-mockup-developer/workspace.jpg
 ---
 
 Many times as a mobile developer I had to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the Definition of Done ([here I'll add a link to my post in progress about DoD]) but it does not mean that I have implemented the UI only.
 
-![Workspace](/images/dont-be-mockup-developer/workspace.jpg)
+![Workspace image](/images/dont-be-mockup-developer/workspace.jpg)
 
 ## Ninety-ninety rule
 
@@ -19,15 +19,16 @@ One might think that without the API work on certain features can only be limite
 [Ninety-ninety rule](https://en.wikipedia.org/wiki/Ninety-ninety_rule) says:
 >The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
 
-There is a lot of truth in this humorous aphorism, if we create a false belief that the application is "almost ready", we obscure the project progress.
+There is a lot of truth in this humorous aphorism. If we create a false belief that the application is "almost ready", we obscure the project progress.
 
 ## What can I do?
 
 Follow these steps before assuming there is nothing else you can do:
 - Make any call
   - Even if you cannot use the real endpoint, there are plenty of services that lets you mock the API ([mocky](https://www.mocky.io), [mockable](https://www.mockable.io), [fakejson](https://fakejson.com) and others)
+  - Making a call instead of showing an alert or using predefined data will draw your attention to completely new problems
 - Handle errors
-  - Beyond handling unknown errors, sometimes we expect specific errors, especially when making synchronous calls (email is taken, password is incorrect, etc.)
+  - Beyond general errors, sometimes we expect specific errors, especially when making synchronous calls (email is taken, password is incorrect, etc.)
 - Check the Internet connection before making synchronous call
 - Show loader during synchronous call
 - Show placeholder if there is no data fetched
@@ -45,7 +46,7 @@ The more you think about the feature, the more ideas will come to your mind.
 
 The work we can do does not have to be limited to the code only. Since we know what we expect to get from the endpoint, and what data we have to provide, we can prepare an example request and response structures on our own. We can also prepare a list of suggested error codes that we can already handle in the app. Prototyping the API will help us understand the problem better and the backend developer for sure will appreciate our effort.
 
-![Prototyping](/images/dont-be-mockup-developer/prototyping.jpg)
+![Shacking hands image](/images/dont-be-mockup-developer/support.jpg)
 
 ## Do your best
 
