@@ -8,9 +8,9 @@ hidden: true
 image: /images/dont-be-mockup-developer/workspace.jpg
 ---
 
-I have often heard that something is "almost ready". According to the [Ninety-Ninety rule](https://brightinventions.pl/blog/dont-be-mockup-developer/#ninety-ninety-rule), 90% of the code is implemented in 90% of the project time and the remaining 10% of the code ("almost ready" features) can take even the same amount of time which will lead to massive project delays.
+I have often heard that something is "almost ready". According to the [Ninety-Ninety rule](https://brightinventions.pl/blog/dont-be-mockup-developer/#ninety-ninety-rule), 90% of the code is implemented during 90% of the project time and the remaining 10% of the code ("almost ready" features) can take even the same amount of time which will lead to massive project delays.
 
-For this reason, I find determining the Definition of Done crucial for every project. Otherwise, you can only hum the Project Manager song:
+For this reason, I find determining the Definition of Done and sticking to it crucial for every project. Otherwise, you can only hum the Sad Project Manager song:
 >What is done?
 >
 >Devs don't hurt me
@@ -19,7 +19,11 @@ For this reason, I find determining the Definition of Done crucial for every pro
 >
 >No more
 
+![Annoyed programmer](/images/definition-of-done/annoyed-programmer.jpg)
+
 ## There is no single definition
+
+Definition of Done should be determined at the beginning of the project.
 
 DoD in agile...
 
