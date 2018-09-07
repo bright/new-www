@@ -52,4 +52,4 @@ The work we can do does not have to be limited to the code only. Since we know w
 
 Being a good programmer is not just about writing code. We solve real-world problems which make us responsible for the work we do. Implementing a feature which is a simple click dummy is only postponing the effort that has to be done anyway and misleads the stakeholders about the project progress.
 
-And remember that if we create the UI only, we are not better than mockup tools, but these are faster and cheaper.
+And remember, that if we create the UI only, we are not better than mockup tools, but these are faster and cheaper.
