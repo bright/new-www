@@ -8,7 +8,7 @@ hidden: true
 image: /images/dont-be-mockup-developer/workspace.jpg
 ---
 
-Many times as a mobile developer I had to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the Definition of Done ([here I'll add a link to my post in progress about DoD]) but it does not mean that I have implemented the UI only.
+Many times as a mobile developer I had to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the [Definition of Done](https://brightinventions.pl/blog/definition-of-done) but it does not mean that I have implemented the UI only.
 
 ![Workspace image](/images/dont-be-mockup-developer/workspace.jpg)
 
@@ -52,4 +52,4 @@ The work we can do does not have to be limited to the code only. Since we know w
 
 Being a good programmer is not just about writing code. We solve real-world problems which make us responsible for the work we do. Implementing a feature which is a simple click dummy is only postponing the effort that has to be done anyway and misleads the stakeholders about the project progress.
 
-And remember, that if we create the UI only, we are not better than mockup tools, but these are faster and cheaper.
+And remember, if we create the UI only, we are not better than mockup tools, but these are faster and cheaper.
