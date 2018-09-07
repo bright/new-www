@@ -8,13 +8,13 @@ hidden: true
 image: /images/dont-be-mockup-developer/workspace.jpg
 ---
 
-Many times as a mobile developer I had to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the [Definition of Done](https://brightinventions.pl/blog/definition-of-done) but it does not mean that I have implemented the UI only.
+Many times as a mobile developer I have to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the [Definition of Done](https://brightinventions.pl/blog/definition-of-done) but it does not mean that I have implemented the UI only.
 
 ![Workspace image](/images/dont-be-mockup-developer/workspace.jpg)
 
 ## Ninety-ninety rule
 
-One might think that without the API work on certain features can only be limited to building the UI. The main problem with such approach is that we live in a false belief that we have done everything we could and we mislead the whole team that the feature is "almost ready". When the API is done and we start integration in the app we suddenly realise that there is still plenty of work to do and we need much more time to finish the feature.
+One might think that without the API our work on certain features can only be limited to building the UI. The main problem with such an approach is that we live in a false belief that we have done everything we could and we mislead the whole team that the feature is "almost ready". When the API is done and we start an integration in the app we suddenly realise that there is still plenty of work to do and we need much more time to finish the feature.
 
 [Ninety-ninety rule](https://en.wikipedia.org/wiki/Ninety-ninety_rule) says:
 >The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time.
@@ -25,10 +25,10 @@ There is a lot of truth in this humorous aphorism. If we create a false belief t
 
 Follow these steps before assuming there is nothing else you can do:
 - Make any call
-  - Even if you cannot use the real endpoint, there are plenty of services that lets you mock the API ([mocky](https://www.mocky.io), [mockable](https://www.mockable.io), [fakejson](https://fakejson.com) and others)
-  - Making a call instead of showing an alert or using predefined data will draw your attention to completely new problems
+  - Even if you cannot use the real endpoint, there are plenty of services that let you mock the API ([mocky](https://www.mocky.io), [mockable](https://www.mockable.io), [fakejson](https://fakejson.com) and others)
+  - Making a call instead of showing an alert or using some predefined data will draw your attention to completely new problems
 - Handle errors
-  - Beyond general errors, sometimes we expect specific errors, especially when making synchronous calls (email is taken, password is incorrect, etc.)
+  - Beyond general errors, sometimes we expect some specific errors, especially while making synchronous calls (email is taken, password is incorrect, etc.)
 - Check the Internet connection before making synchronous call
 - Show loader during synchronous call
 - Show placeholder if there is no data fetched
@@ -38,7 +38,7 @@ Follow these steps before assuming there is nothing else you can do:
 
 Additionally, you can:
 - Test if the signals have been called (if you use e.g. Rx)
-- Test the view state (if the loader was hidden after successful API call, etc.)
+- Test the view state (if the loader was hidden after a successful API call, etc.)
 
 The more you think about the feature, the more ideas will come to your mind.
 
@@ -50,6 +50,6 @@ The work we can do does not have to be limited to the code only. Since we know w
 
 ## Do your best
 
-Being a good programmer is not just about writing code. We solve real-world problems which make us responsible for the work we do. Implementing a feature which is a simple click dummy is only postponing the effort that has to be done anyway and misleads the stakeholders about the project progress.
+Being a good programmer is not just about writing code. We solve real-life problems which make us responsible for the work we do. Implementing a feature which is a simple click dummy is only postponing the effort that has to be made anyway and misleads the stakeholders about the project progress.
 
 And remember, if we create the UI only, we are not better than mockup tools, but these are faster and cheaper.
