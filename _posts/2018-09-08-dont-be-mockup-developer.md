@@ -10,6 +10,8 @@ image: /images/react-native-custom-ios-build-configurations/build-configurations
 
 Many times as a mobile developer I had to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the Definition of Done ([here I'll add a link to my post in progress about DoD]) but it does not mean that I have implemented the UI only.
 
+![Workspace](/images/dont-be-mockup-developer/workspace.jpg)
+
 ## Ninety-ninety rule
 
 One might think that without the API work on certain features can only be limited to building the UI. The main problem with such approach is that we live in a false belief that we have done everything we could and we mislead the whole team that the feature is "almost ready". When the API is done and we start integration in the app we suddenly realise that there is still plenty of work to do and we need much more time to finish the feature.
@@ -42,6 +44,8 @@ The more you think about the feature, the more ideas will come to your mind.
 ## Support the backend
 
 The work we can do does not have to be limited to the code only. Since we know what we expect to get from the endpoint, and what data we have to provide, we can prepare an example request and response structures on our own. We can also prepare a list of suggested error codes that we can already handle in the app. Prototyping the API will help us understand the problem better and the backend developer for sure will appreciate our effort.
+
+![Prototyping](/images/dont-be-mockup-developer/prototyping.jpg)
 
 ## Do your best
 
