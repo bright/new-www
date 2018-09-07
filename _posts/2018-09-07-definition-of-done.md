@@ -8,7 +8,7 @@ hidden: true
 image: /images/dont-be-mockup-developer/workspace.jpg
 ---
 
-Intro...
+I have often heard that sometimes is "almost ready". 
 
 Project manager song:
 >What is done?
