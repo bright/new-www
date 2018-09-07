@@ -12,7 +12,7 @@ Many times as a mobile developer I have to work on apps without the API ready th
 
 ![Workspace image](/images/dont-be-mockup-developer/workspace.jpg)
 
-## Ninety-ninety rule<a id="ninety-ninety"></a>
+## Ninety-ninety rule
 
 One might think that without the API our work on certain features can only be limited to building the UI. The main problem with such an approach is that we live in a false belief that we have done everything we could and we mislead the whole team that the feature is "almost ready". When the API is done and we start an integration in the app we suddenly realise that there is still plenty of work to do and we need much more time to finish the feature.
 
@@ -29,10 +29,10 @@ Follow these steps before assuming there is nothing else you can do:
   - Making a call instead of showing an alert or using some predefined data will draw your attention to completely new problems
 - Handle errors
   - Beyond general errors, sometimes we expect some specific errors, especially while making synchronous calls (email is taken, password is incorrect, etc.)
-- Check the Internet connection before making a synchronous call
-- Show a loader during a synchronous call
+- Check the Internet connection before making the synchronous call
+- Show a loader during the synchronous call
 - Show a placeholder if there is no data fetched
-- Check if asynchronous call stops when user leaves the screen
+- Check if the asynchronous call stops when user leaves the screen
   - Make sure there are no memory leaks
 - Make sure that you do not modify the UI from the background thread
 
