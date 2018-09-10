@@ -8,7 +8,7 @@ hidden: true
 image: /images/definition-of-done/dictionary.jpg
 ---
 
-I have often heard that something is "almost ready". This term is vague and brings more confusion than information. According to the [Ninety-Ninety rule](https://brightinventions.pl/blog/dont-be-mockup-developer/#ninety-ninety-rule), 90% of the code is implemented during 90% of the project time and the remaining 10% of the code ("almost ready" features) can take even the same amount of time which would lead to massive project delays.
+I have often heard that something is "almost ready". This term is vague and brings more confusion than information. According to the [Ninety-Ninety rule](https://brightinventions.pl/blog/dont-be-mockup-developer/#ninety-ninety-rule), 90% of the code is implemented during 90% of the project time and the remaining 10% of the code ("almost ready features") can take even the same amount of time which would lead to massive project delays.
 
 For this reason, I find determining the Definition of Done and sticking to this crucial for every project. Otherwise, you can only hum the Sad Project Manager song:
 >What is done?
@@ -56,4 +56,4 @@ Bear in mind that stages depend on many factors like the peer review process, te
 
 ![Happy image](/images/definition-of-done/happy.jpg)
 
-Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays he can communicate it well to stakeholders. In case of any obstacles, the project manager can respond quickly and simplify the development process. On the other hand, the developer does not have the feeling of prolonged work time because it is divided into clear phases.
+Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays he can communicate it well to stakeholders. In case of any obstacles, the project manager can respond quickly and simplify the development process. On the other hand, developers do not have the stressful feeling of prolonged work time because it is divided into clear phases. No more "almost ready features" is beneficial to the whole team and it allows you to notice the problems that occur much earlier.
