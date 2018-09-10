@@ -4,7 +4,6 @@ title: Don't be a mockup developer
 author: mateusz
 tags: ['android', 'ios', 'programming practices']
 comments: true
-hidden: true
 image: /images/dont-be-mockup-developer/workspace.jpg
 ---
 

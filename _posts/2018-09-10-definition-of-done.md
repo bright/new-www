@@ -21,9 +21,7 @@ For this reason, I find determining the Definition of Done and sticking to this 
 
 ## There is no single definition
 
-Definition of Done should be determined at the beginning of the project
-
-DoD in agile...
+Definition of Done should be determined at the beginning of each project.
 
 ![Dictionary image](/images/definition-of-done/dictionary.jpg)
 
@@ -56,4 +54,4 @@ Bear in mind that stages depend on many factors like the peer review process, te
 
 ![Happy image](/images/definition-of-done/happy.jpg)
 
-Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays he can communicate it well to stakeholders. In case of any obstacles, the project manager can respond quickly and simplify the development process. On the other hand, developers do not have the stressful feeling of prolonged work time because it is divided into clear phases. No more "almost ready features" is beneficial to the whole team and it allows you to notice the problems that occur much earlier.
+Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays he can communicate it well to stakeholders. In case of any obstacles, the project manager can respond quickly and facilitate the development process. On the other hand, developers do not have the stressful feeling of prolonged work over the feature because it is divided into clear phases. No more "almost ready features" is beneficial to the whole team as it reduces misunderstandings and allows you to notice the problems that occur much earlier.
