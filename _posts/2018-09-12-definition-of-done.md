@@ -10,7 +10,7 @@ image: /images/definition-of-done/dictionary.jpg
 
 I have often heard that something is "almost ready". This term is vague and brings more confusion than information. According to the [Ninety-Ninety rule](https://brightinventions.pl/blog/dont-be-mockup-developer/#ninety-ninety-rule), 90% of the code is implemented during 90% of the project time and the remaining 10% of the code ("almost ready features") can take even the same amount of time which would lead to massive project delays.
 
-For this reason, determining the Definition of Done is crucial for every project. Otherwise, you can only hum the Sad Project Manager song:
+Incomplete work has a tendency to mount up, and without visibility of how much effort truly remains, the deficit can quickly get out of hand. For this reason, determining the Definition of Done is crucial for every project. Otherwise, you can only hum the Sad Project Manager song:
 >What is done?
 >
 >Devs don't hurt me
@@ -23,7 +23,7 @@ For this reason, determining the Definition of Done is crucial for every project
 
 Definition of Done (DoD) is a list of features and activities that add verifiable/demonstrable value to the product. It can be also defined as a list of steps that has to be completed in order to finish a feature. Verifying the Definition of Done will ensure that you are delivering features that are truly done, not only in terms of functionality but in terms of quality as well.
 
-Preparing a single DoD that suits every situation is impossible. Each team should collaborate and come up with the definition that suits its unique environment. TODO
+Preparing a single DoD that suits every situation is impossible. Each team should collaborate and come up with the definition that suits its unique environment. First, you should define the artifacts that need to be delivered to the end customer (applications, documentation, release notes, etc.). Then, considering current context and capability, you should decide which activities can be completed in each Sprint. Some criteria may not be mandatory (like considering analytics or internationalization) depending on the context. For a Scrum purist, these should not be included in the Definition of Done. In my opinion, optional criteria help the team to remember about requirements that have to be met in certain situations.
 
 ![Dictionary image](/images/definition-of-done/dictionary.jpg)
 
@@ -65,12 +65,10 @@ Example feature stages I use:
   - Passed acceptance tests
   - Can be immediately deployed to the production environment
 
-Bear in mind that feature stages may depend on many factors like peer review process, application environments, deployment process, acceptance testing and the way we cooperate with the client. They are never fixed and should be determined for each project individually.
+Bear in mind that feature stages may depend on many factors like peer review process, application environments, deployment process, acceptance testing and the way you cooperate with the client. They are never fixed and should be determined for each project individually.
 
 ## Win-Win
 
 ![Happy image](/images/definition-of-done/happy.jpg)
 
-Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays he can communicate it well to stakeholders. In case of any obstacles, the project manager can respond quickly and facilitate the development process. On the other hand, developers do not have the stressful feeling of prolonged work over the feature because it is divided into clear phases. No more "almost ready features" is beneficial to the whole team as it reduces misunderstandings and allows you to notice the problems that occur much earlier.
-
-TODO QUALITY!
+Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays he can communicate it well to stakeholders. In case of any obstacles, he can respond quickly and facilitate the development process. On the other hand, developers do not have the stressful feeling of prolonged work over the feature because it is divided into clear phases. Definition of done ensures that you are delivering features that are truly done at the appropriate level of quality.
