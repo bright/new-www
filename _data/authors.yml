@@ -125,3 +125,10 @@ grzesiek:
   email : grzegorz.ciesla@brightinventions.pl
   bio : "Software Developer @ Bright Inventions"
   avatar : https://brightinventions.pl/images/grzesiek.png
+
+ivan:
+  name: Ivan Menshykov
+  email: ivan.menshykov@brightinventions.pl
+  bio: "Software Developer @ Bright Inventions"
+  github: janczer
+
