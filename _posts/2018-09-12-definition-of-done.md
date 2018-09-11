@@ -21,13 +21,13 @@ Incomplete work has a tendency to mount up, and without visibility of how much e
 
 ## There is no single definition
 
-Definition of Done (DoD) is a list of features and activities that add verifiable/demonstrable value to the product. It can be also defined as a list of steps that has to be completed in order to finish a feature. Verifying the Definition of Done will ensure that you are delivering features that are truly done, not only in terms of functionality but in terms of quality as well.
+The Definition of Done (DoD) is a list of features and activities that add verifiable/demonstrable value to the product. It can be also defined as a list of steps that has to be completed in order to finish a feature. Verifying the Definition of Done will ensure that you are delivering features that are truly done, not only in terms of functionality but in terms of quality as well.
 
-Preparing a single DoD that suits every situation is impossible. Each team should collaborate and come up with the definition that suits its unique environment. First, you should define the artifacts that need to be delivered to the end customer (applications, documentation, release notes, etc.). Then, considering current context and capability, you should decide which activities can be completed in each Sprint. Some criteria may not be mandatory (like considering analytics or internationalization) depending on the context. For a Scrum purist, such optional criteria should not be included in the Definition of Done. In my opinion, they help the team to remember about the requirements that have to be met in certain situations.
+Preparing a single DoD that suits every situation is impossible. Each team should collaborate and come up with the definition that suits its unique environment. First, you should define the artifacts that need to be delivered to the end customer (applications, documentation, release notes, etc.). Then, considering the current context and capability, you should decide which activities can be completed in each Sprint. Some criteria may not be mandatory (like considering analytics or internationalization) depending on the context. For a Scrum purist, such optional criteria should not be included in the Definition of Done. In my opinion, they help the team to remember about the requirements that have to be met in certain situations.
 
 ![Dictionary image](/images/definition-of-done/dictionary.jpg)
 
-Definition of Done does not only apply to the features/stories. According to the [Scrum Alliance](https://www.scrumalliance.org/community/articles/2008/september/what-is-definition-of-done-%28dod%29), teams may have a different DoD at various levels:
+The Definition of Done does not only apply to the features/stories. According to the [Scrum Alliance](https://www.scrumalliance.org/community/articles/2008/september/what-is-definition-of-done-%28dod%29), teams may have a different DoD at various levels:
 >- Definition of Done for a feature (story or product backlog item)
 >
 >- Definition of Done for a sprint (collection of features developed within a sprint)
@@ -36,9 +36,9 @@ Definition of Done does not only apply to the features/stories. According to the
 
 ## Feature stages
 
-In the projects I run, features/stories are broken down into stages with criteria for each step. To satisfy the Definition of Done all stages has to be completed and all the criteria met. It is key to deliver a high-quality product that follows the industry standards. Describing the feature stages ensures that everyone on the team knows exactly what is expected of everything the team delivers. It also allows me to verify at what stage the feature really is, and if it stays for too long at some phase, it is a signal that something might be wrong.
+In the projects I run, features/stories are broken down into stages with criteria for each step. To satisfy the Definition of Done all stages have to be completed and all the criteria met. It is key to deliver a high-quality product that follows the industry standards. Describing the feature stages ensures that everyone in the team knows exactly what is expected of everything the team delivers. It also allows me to verify at what stage the feature really is, and if it stays for too long at some phase, it is a signal that something might be wrong.
 
-Example feature stages I use:
+The example feature stages I use:
 1. Open
   - Waiting for assignment
 1. In progress
@@ -71,4 +71,4 @@ Bear in mind that feature stages may depend on many factors like peer review pro
 
 ![Happy image](/images/definition-of-done/happy.jpg)
 
-Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays, he can communicate it well to stakeholders. In case of any obstacles, he can respond quickly and facilitate the development process. On the other hand, developers do not have the stressful feeling of prolonged work over the feature because it is divided into clear phases. Definition of done ensures that you are delivering features that are truly done at the appropriate level of quality.
+Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays, he can communicate it well to stakeholders. In case of any obstacles, he can respond quickly and facilitate the development process. On the other hand, developers do not have the stressful feeling of prolonged work over the feature because it is divided into clear phases. The Definition of done ensures that you are delivering features that are truly done at the appropriate level of quality.
