@@ -4,10 +4,11 @@ title: Using WebAssembly with React
 author: ivan
 tags: React JavaScript WASM WebAssembly
 hidden: true
+image: /images/use-wasm-with-reactjs/fractal_example1.png
 ---
 
 WebAssembly (WASM) is a binary format for the executable code in the browsers.
-In this article, we will create a simple web application using react library. Write and compile to WASM a part of our JavaScript code. And after that link it to the application.
+In this article, we will create a simple web application using react library, write and compile to WASM a part of our JavaScript code and after that link it to the application.
 
 We need a minimal application with a react library. I don't describe how to create it from scratch, you can read about it in the article [The minimal React + Webpack 4 + Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/). The application in this [repository](https://github.com/rwieruch/minimal-react-webpack-babel-setup) is enough for our needs.
 
