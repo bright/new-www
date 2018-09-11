@@ -8,9 +8,9 @@ image: /images/use-wasm-with-reactjs/fractal_example1.png
 ---
 
 WebAssembly (WASM) is a binary format for the executable code in the browsers.
-In this article, we will create a simple web application using react library, write and compile to WASM a part of our JavaScript code and after that link it to the application.
+In this article, we will create a simple web application using React library, write and compile to WASM a part of our JavaScript code and after that link it to the application.
 
-We need a minimal application with a react library. I don't describe how to create it from scratch, you can read about it in the article [The minimal React + Webpack 4 + Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/). The application in this [repository](https://github.com/rwieruch/minimal-react-webpack-babel-setup) is enough for our needs.
+We need a minimal application with a React library. I don't describe how to create it from scratch, you can read about it in the article [The minimal React + Webpack 4 + Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/). The application in this [repository](https://github.com/rwieruch/minimal-react-webpack-babel-setup) is enough for our needs.
 
 ## Preparing
 
@@ -32,7 +32,7 @@ After that you can go to [http://localhost:8080](http://localhost:8080) and chec
 
 ## Create canvas component
 
-The next thing we should do is to create a new react component with canvas and add the function to drawing.
+The next thing we should do is to create a new React component with canvas and add the function to drawing.
 
 For our new component we can create the new file:
 
@@ -47,14 +47,6 @@ And put in it this code:
 import React, {Component} from "react";
 
 class Canvas extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      width: props.width,
-      height: props.height,
-    };
-  }
 
   componentDidMount() {
     let canvas = this.refs.canvas.getContext('2d');
@@ -63,7 +55,7 @@ class Canvas extends Component {
 
   render() {
     return (
-        <canvas ref="canvas"  width={this.state.width} height={this.state.height}/>
+        <canvas ref="canvas" width={this.props.width} height={this.props.height}/>
     )
   }
 }
@@ -142,8 +134,8 @@ componentDidMount() {
   let panY = 1.25;
   let maxIter = 100;
   
-  for (var x = 10; x < this.state.height; x++)  {
-    for (var y = 10; y < this.state.width; y++)  {
+  for (let x = 10; x < this.props.height; x++)  {
+    for (let y = 10; y < this.props.width; y++)  {
       let m = this.mandelIter(x/mag - panX, y/mag - panY, maxIter);
       canvas.fillStyle = (m === 0) ? '#000' : 'hsl(0, 100%, ' + m + '%)'; 
       canvas.fillRect(x, y, 1,1);
@@ -216,8 +208,8 @@ componentDidMount() {
     let panY = 1.25;
     let maxIter = 100;
     
-    for (var x = 10; x < this.state.height; x++)  {
-      for (var y = 10; y < this.state.width; y++)  {
+    for (let x = 10; x < this.props.height; x++)  {
+      for (let y = 10; y < this.props.width; y++)  {
         // let m = this.mandelIter(x/mag - panX, y/mag - panY, maxIter);
         let m = mandelIterWASM(x/mag - panX, y/mag - panY, maxIter);
         canvas.fillStyle = (m === 0) ? '#000' : 'hsl(0, 100%, ' + m + '%)'; 
