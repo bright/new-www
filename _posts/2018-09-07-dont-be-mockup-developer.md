@@ -45,7 +45,7 @@ The more you think about the feature, the more ideas will come to your mind.
 
 The work we can do does not have to be limited to the code only. Since we know what we expect to get from the endpoint, and what data we have to provide, we can prepare an example request and response structures on our own. We can also prepare a list of suggested error codes that we can already handle in the app. Prototyping the API will help us understand the problem better and the backend developer for sure will appreciate our effort.
 
-![Shacking hands image](/images/dont-be-mockup-developer/support.jpg)
+![Shaking hands image](/images/dont-be-mockup-developer/support.jpg)
 
 ## Do your best
 
