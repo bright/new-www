@@ -4,7 +4,6 @@ title: Definition of Done
 author: mateusz
 tags: ['programming practices', 'project management']
 comments: true
-hidden: true
 image: /images/definition-of-done/dictionary.jpg
 ---
 
