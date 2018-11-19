@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Don't let your mind steal your time
-excerpt: Procrastination can often make our lives miserable. It  steals our time, money, and first of all satisfaction. 
-So, what can we do not to let this powerful thief steal the greatness of our life? One may think it is not a question for me since I am quite disciplined and I rather do not face such problems. The reality is a bit different. Of course, I usually have a schedule that I follow, but apart from that I apply also a few rules that help me stay focused and engaged.
+excerpt: Procrastination can often make our lives miserable. It  steals our time, money, and first of all satisfaction. So, what can we do not to let this powerful thief steal the greatness of our life? One may think it is not a question for me since I am quite disciplined and I rather do not face such problems. The reality is a bit different. Of course, I usually have a schedule that I follow, but apart from that I apply also a few rules that help me stay focused and engaged.
 author: ula
 hidden: false
 tags: productivity tips procrastination work
