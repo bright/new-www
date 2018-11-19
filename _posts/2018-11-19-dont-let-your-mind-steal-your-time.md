@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Don't let your mind steal your time
+excerpt: Procrastination can often make our lives miserable. It  steals our time, money, and first of all satisfaction. 
+So, what can we do not to let this powerful thief steal the greatness of our life? One may think it is not a question for me since I am quite disciplined and I rather do not face such problems. The reality is a bit different. Of course, I usually have a schedule that I follow, but apart from that I apply also a few rules that help me stay focused and engaged.
 author: ula
 hidden: false
 tags: productivity tips procrastination work
@@ -8,7 +10,7 @@ image: /images/do_it_now.jpg
 ---
 Josh Billings, or if you prefer - Henry Wheeler Shaw, said once that "the greatest thief this world has ever produced is procrastination, and he is still at large". I am rather a well-organised person and I try not to delay anything. To be honest, there are rarely moments that I put off things that I have to do. Sometimes I just prioritise and do other things first. I just do not like a feeling when there are some open ideas floating around in my mind. I have to clear it as soon as possible. But many of us do not posses this inner drive. Procrastination can often make our lives miserable. It  steals our time, money, and first of all satisfaction. 
 
-**So, what can we do not to let this powerful thief steal the greatness of our life ?** One may think it is not a question for me since I am quite disciplined and I rather do not face such problems. The reality is a bit different. Of course, I usually have a schedule that I follow, but apart from that I apply also a few rules that help me stay focused and engaged.
+**So, what can we do not to let this powerful thief steal the greatness of our life?** One may think it is not a question for me since I am quite disciplined and I rather do not face such problems. The reality is a bit different. Of course, I usually have a schedule that I follow, but apart from that I apply also a few rules that help me stay focused and engaged.
 
 ⭐️ I try to do firstly tasks that may be not so enjoyable, but they still have to be done. In that way things that I really want to do are done later and become a kind of reward for doing hard stuff first.
 
