@@ -5,6 +5,7 @@ excerpt: Even though in Bright Inventions we use a number of technologies and wo
 tags: git
 comments: true
 author: adam
+hidden: true
 image: /images/git/wild-merges.png
 ---
 
