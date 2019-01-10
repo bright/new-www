@@ -17,7 +17,7 @@ It is quite convenient to create build configurations in your IDE. I personally 
 
 Go to `Edit configuration` window and add a new `React Native` configuration. Call it `Run iOS` or whatever is meaningful to you. As a `Target Platform` choose `iOS`. We can use either a physical device or a simulator to run the app on. 
 * To install the app on a physical device set `Arguments` property to`--device="MyDevice"`. The name of your device you can find and edit in `Settings` -> `General` -> `About` -> `Name`. 
-* To install and run the app on a simulator set `Arguments` property to  `--simulator="iPhone X"` (or any other iPhone model you want to test on). The simulator is shipped with Xcode and you need a Mac to run it. To manage simulated devices, open Xcode, go to `Window` -> `Devices and Simulators`. 
+* To install and run the app on a simulator set `Arguments` property to  `--simulator="iPhone X"` (or any other device with iOS you want to test on). The simulator is shipped with Xcode and you need a Mac to run it. To manage simulated devices, open Xcode, go to `Window` -> `Devices and Simulators`. 
 * If you leave the `Arguments` property empty, it will attempt to install the app on any connected device.
 
 You can also include your `.env` file in the `Environment` property as follows: `ENVFILE=.env.staging`.
@@ -28,7 +28,7 @@ Creating the run configuration for Android is pretty similar. Add another `React
 
 **Hot Reloading**
 
-Now that we can run the React Native app, there is a handy option, you may want to enable: `Hot Reading`. To enable it, open the in-all developer menu with `CMD + D` (iPhone simulator), or `CMD + M` (Android emulator), or shake gesture (physical device). Hot reloading will reflect any changes you make in the JavaScript code right away in the running app. This means you won’t need to reload your app. There is also another option available: `Live reloading`. It will reload your app anytime you change the code, which means you will lose the current app state.
+Now that we can run the React Native app, there is a handy option, you may want to enable: `Hot Reloading`. To enable it, open the in-app developer menu with `CMD + D` (iPhone simulator), or `CMD + M` (Android emulator), or shake gesture (physical device). Hot reloading will reflect any changes you make in the JavaScript code right away in the running app. This means you won’t need to reload your app. There is also another option available: `Live reloading`. It will reload your app anytime you change the code, which means you will lose the current app state.
 
 **Inspector**
 
@@ -41,10 +41,10 @@ Now we are almost ready to debug the JavaScript code. Put some breakpoints and r
 
 **Debug native code**
 
-While developing a React Native app, most often you are focused on the JavaScript code, but you cannot forget that the native code is still there under the hood. Sooner or later, you will probably need to dive deep into it. Here is the way how to debug the native code inside a react native app.
+While developing a React Native app, most often you are focused on the JavaScript code, but you cannot forget that the native code is still there under the hood. Sooner or later, you will probably need to dive deep into it. Here is the way how to debug the native code inside a React Native app.
 
-1. Run your react native app (on a device or an emulator/simulator).
-2. Open the native subproject of your react native app (probably placed in `android` or `ios` directory) in Android Studio or Xcode.
+1. Run your React Native app (on a device or an emulator/simulator).
+2. Open the native subproject of your React Native app (probably placed in `android` or `ios` directory) in Android Studio or Xcode.
 3. Attach to the process:
     * In Android Studio open `Attach debugger to Android process`, check `Show all processes` and choose the device that your app is running on.
     * In Xcode open `Debug` -> `Attach to Process` and choose your app process (it will likely be named as your app).
