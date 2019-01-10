@@ -139,3 +139,10 @@ agnieszka_h:
   bio: "Sales Manager @ Bright Inventions"
   avatar: https://brightinventions.pl/images/agnieszka_h.jpg
 
+patryk:
+  name: Patryk Huzarski
+  email: patryk.huzarski@brightinventions.pl
+  bio: "Software Developer @ Bright Inventions"
+  avatar: https://brightinventions.pl/images/patryk_huzarski.jpg
+  twitter: pathuzarski
+  github: phuzarski
