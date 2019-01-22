@@ -1,10 +1,10 @@
 ---
 layout: post
 title: N ways to debug React Native app
-image: /images/n-ways-to-debug-rn/react-native-logo.png
+image: /images/n-ways-to-debug-rn/image1.png
 author: agnieszka
-hidden: true
-tags: react-native
+hidden: false
+tags: react-native debug android ios react native
 ---
 
 React Native is an abstraction over the native code, which allows us to have one code base for multiple platforms. Sounds great, right? Not everybody though is so enthusiastic about this approach. One of the reasons might be troublesome running and debugging the JavaScript code. In this blog post you may find a short tutorial on how to debug your app on Android and iOS, on a physical device or a simulator/emulator, the JavaScript code and the native one.
