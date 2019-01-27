@@ -130,8 +130,7 @@ We are going to create two additional function components: **Header** and **Logi
 **Dashboard** which actually does not use it, just passed it down to **Header** which uses the value from the user state and passes it as well to **LoginInfo** which also renders the name of the user.
 This approach is ok, but we have to pass a user through a bunch of components (in our case Dashboard which doesn't care about it). 
 
-One way to make it looks better is to use `useContext` hook, to create a new context. It takes a default value, and return an object that we’ll call Context with two properties. 
-This has a `<Context.Consumer>` and `<Context.Provider>`. 
+One way to make it looks better is to use `createContext`, to create a new context. It takes a default value, and return an object that we’ll call Context with two properties. 
 So let's create and export the Context object:
 
 ```
