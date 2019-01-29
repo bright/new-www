@@ -42,7 +42,7 @@ useEffect
 useContext
 ```
 
-React has introduced even more, but they are more complicated and should be described separately:
+React has introduced even more, but the following features are more complicated and should be described separately:
 
 ```
 useReducer
@@ -130,7 +130,7 @@ We are going to create two additional function components: **Header** and **Logi
 **Dashboard** which actually does not use it, just passed it down to **Header** which uses the value from the user state and passes it as well to **LoginInfo** which also renders the name of the user.
 This approach is ok, but we have to pass a user through a bunch of components (in our case Dashboard which doesn't care about it). 
 
-One way to make it looks better is to use `createContext`, to create a new context. It takes a default value, and return an object that we’ll call Context with two properties. 
+One way to make it looks better is to use `createContext`, to create a new context and returns the current context value, as given by the nearest context provider for the given context. 
 So let's create and export the Context object:
 
 ```
@@ -156,14 +156,14 @@ class App extends Component {
        const {user} = this.state
        return (
            <Context.Provider value={user}>
-               <Dashboard user={user}/>
+               <Dashboard />
            </Context.Provider>
        );
    }
 }
 export default App;
 ```
-Right now, we use `useContext` hook and wrap our Context, which the value is a value passed from the Provider (our index). Let's assign in to user variable.
+Right now, we use `useContext` hook and wrap our Context, where the value is a value passed from the Provider (our index). Let's assign in to user variable.
 ```
 import React, { useContext } from 'react'
 import LoginInfo from './LoginInfo'
@@ -174,7 +174,7 @@ const Header = () => {
     return (
         <div>
             <h1>Welcome {user}</h1>
-            <LoginInfo user={user}/>
+            <LoginInfo />
         </div>
 
     )
@@ -197,7 +197,7 @@ const LoginInfo = () => {
 export default LoginInfo
 ```
 
-In **LoginInfo** and **Header** now we have prop user as a value, so we can remove the unnecessary prop from the Dashboard which one don’t use it at all. 
+In **LoginInfo** and **Header** now we have prop user as a value, so we can remove the unnecessary prop from the Dashboard which doesn't use it at all. 
 
 
 # React Hooks restrictions #
@@ -208,6 +208,6 @@ Although it looks nicely, it's really good to know about Hooks:
 
 # Class base component will be no more support? #
 
-I think that Hooks and class base components still will be useful. Documentation says that **"There are no plans to remove classes from React"** and they definitely do not recommend rewriting everything into Hooks. It's individual and you should decide whether use Hooks or Classes.
+I think that Hooks and class base components will be still useful. The documentation says that **"There are no plans to remove classes from React"** and they definitely do not recommend rewriting everything into Hooks. It's individual and you should decide whether use Hooks or Classes.
 
 Hooks are great feature in React. Personally, I'm waiting when it will be available in the stable release.
