@@ -22,7 +22,7 @@ npm start
 ```
 
 Now, we have initialized React application.
-Please, make sure that to use the react-hooks you have installed proper version (the version which I will use is `16.7.0-alpha.2`) for today it’s the newest version of React.
+Please, make sure that to use the React-Hooks you have installed proper version (the version which I will use is `16.7.0-alpha.2`) for today it’s the newest version of React.
 
 If you want to know, which version you are using, please use the command: 
 
@@ -56,7 +56,7 @@ useLayoutEffect
 
 ### useState
 
-Now, you can add state to a functional component. We don't need to write a seperate class for that.
+Now, you can add state to a functional component. We don't need to write a separate class for that.
 Let's create a simple counter state-less component and add first Hook.
 
 ```
@@ -77,7 +77,7 @@ The way it works, you can pass the initial state as a first argument, in my case
 ```
 const [count, setCount] = useState(0);
 ```
-The useState hook returns an array. The first entry of the array is the the current value of the state, at this point it will be 0. The second entry of the array is a function to update the state.
+The `useState` Hook returns an array. The first entry of the array is the the current value of the state, at this point it will be 0. The second entry of the array is a function to update the state.
 
 Now, we can pass the current value of the state and function for update the state:
 
@@ -97,7 +97,7 @@ export const Counter = () => {
 
 ### useEffect
 
-Hook as ability to avoid the side effects from the function component. It is almost the same like well-known componentDidMount and componentDidUpdate.
+Hook as ability to avoid the side effects from the function component. It is almost the same like well-known `componentDidMount` and `componentDidUpdate`.
 
 So, simply we wll import and add it to our Counter, and pass an anonymous function as a first argument:
 
@@ -111,7 +111,7 @@ useEffect(() => {
 
 For now, the text `hello from useEffect` will render every time when we change the current value of checkbox (so every time when function flushes changes to the DOM including the first render). 
 
-The real power of useEffect is that we can pass a second optional argument, which is an array. Then we can specify that we want to invoke this effect only in the situation when we change the count value.
+The real power of `useEffect` is that we can pass a second optional argument, which is an array. Then we can specify that we want to invoke this effect only in the situation when we change the count value.
 
 ```
 useEffect(() => {
@@ -119,19 +119,19 @@ useEffect(() => {
 }, [count])
 ```
 
-Now, the **useEffect will be called only in case that the state of the count will change**. Cool, right?
+Now, the `useEffect` **will be called only in case that the state of the count will change**. Cool, right?
 
 ### useContext
 
 Imagine, the problem is that the name and surname of user from an index file is passed down as a prop to the components. 
 
-We are going to create two additional function components: **Header** and **LoginInfo**. The components will only render the value passed as a `prop` from the `Dashboard`.
+We are going to create two additional function components: `Header` and `LoginInfo`. The components will only render the value passed as a `prop` from the `Dashboard`.
 
-**Dashboard** which actually does not use it, just passed it down to **Header** which uses the value from the user state and passes it as well to **LoginInfo** which also renders the name of the user.
-This approach is ok, but we have to pass a user through a bunch of components (in our case Dashboard which doesn't care about it). 
+`Dashboard` which actually does not use it, just passed it down to `Header` which uses the value from the user state and passes it as well to `LoginInfo` which also renders the name of the user.
+This approach is ok, but we have to pass a user through a bunch of components (in our case `Dashboard` which doesn't care about it). 
 
 One way to make it looks better is to use `createContext`, to create a new context and returns the current context value, as given by the nearest context provider for the given context. 
-So let's create and export the Context object:
+So let's create and export the `Context` object:
 
 ```
 import React from 'react'
@@ -163,7 +163,7 @@ class App extends Component {
 }
 export default App;
 ```
-Right now, we use `useContext` hook and wrap our Context, where the value is a value passed from the Provider (our index). Let's assign in to user variable.
+Right now, we use `useContext` Hook and wrap our Context, where the value is a value passed from the Provider (our index). Let's assign in to user variable.
 ```
 import React, { useContext } from 'react'
 import LoginInfo from './LoginInfo'
@@ -182,7 +182,7 @@ const Header = () => {
 
 export default Header
 ```
-The situation will be the same for the **LoginInfo**. We declare a value `user` by using `useContext` hook and the value is a value passed from the Provider (our index).
+The situation will be the same for the `LoginInfo`. We declare a value `user` by using `useContext` Hook and the value is a value passed from the Provider (our index).
 ```
 import React, { useContext } from 'react'
 import Context from './Context'
@@ -197,7 +197,7 @@ const LoginInfo = () => {
 export default LoginInfo
 ```
 
-In **LoginInfo** and **Header** now we have prop user as a value, so we can remove the unnecessary prop from the Dashboard which doesn't use it at all. 
+In `LoginInfo` and `Header` now we have prop user as a value, so we can remove the unnecessary prop from the `Dashboard` which doesn't use it at all. 
 
 
 # React Hooks restrictions #
