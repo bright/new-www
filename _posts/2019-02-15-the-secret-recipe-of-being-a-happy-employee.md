@@ -16,7 +16,7 @@ But we are not left alone in our battle for job satisfaction. If you want to enj
 
 💤  Maybe it would be a cliché, but sleep is really important. Try to sleep at least 7 hours a day not to feel irritated, impatient or depressed at work. Sleeping longer might be also a boost for your creativity. When you are sleep-deprived, you might have more trouble refocusing on the task at hand after a disruption, compared with someone who is well rested. Getting enough sleep is also the key for memorising what we have learnt during the day.
 
-💧  Drink water. Dehydration - even if small - may lead to really harmful effects. A body water loss of 1-2% may result in decrease of your physical and mental capability. A body water loss of 5% may limit your work efficiency by 30%. So if you feel sleepy or defocused, drink a glass of water. As coffee might be helpful only ion the short term. 
+💧  Drink water. Dehydration - even if small - may lead to really harmful effects. A body water loss of 1-2% may result in decrease of your physical and mental capability. A body water loss of 5% may limit your work efficiency by 30%. So, if you feel sleepy or defocused, drink a glass of water as coffee might be helpful only in the short term. 
 
 🚴Exercise regularly. Researchers would say - at least three times a week, but even a daily stroll makes a difference. Physical activity improves concentration and sharpen your memory. You can also learn faster and lower stress levels. People who exercise regularly can cope with difficult and challenging situations more easily.  If you want to know how it works, take a look [here](http://www.brainblogger.com/2017/10/24/the-most-important-thing-we-can-do-for-our-brain-exercise/). 
 
