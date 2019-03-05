@@ -154,3 +154,11 @@ szymek:
   bio: "Software Developer @ Bright Inventions"
   avatar: https://brightinventions.pl/images/szymon_miloch.jpg
   github: milszym
+
+
+kasia:
+  name: Kasia Łukasiewicz
+  email: katarzyna.lukasiewicz@brightinventions.pl
+  bio: "Project Manager @ Bright Inventions"
+  avatar: https://brightinventions.pl/images/kasia_lukasiewicz.jpg
+  github: bufta
