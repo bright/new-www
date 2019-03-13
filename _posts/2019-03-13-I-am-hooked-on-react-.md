@@ -3,11 +3,11 @@ layout: post
 title: I am hooked on React
 image: /images/I-am-hooked-on-react/intro.jpg
 author: patryk
-hidden: true
+hidden: false
 tags: React JavaScript Hooks 
 ---
 
-React has introduced a new feature which allows you to use state and other React feature without writing class, upcoming [Hooks](https://reactjs.org/docs/hooks-overview.html), a new proposal in React 16.7.0, which are going to blow your socks off and enable our stateless function component does more than even before!
+React has introduced a new feature which allows you to use state and other React feature without writing class, upcoming [Hooks](https://reactjs.org/docs/hooks-overview.html), a new proposal in React 16.8.0, which are going to blow your socks off and enable our stateless function component does more than even before!
 
 ![](/images/I-am-hooked-on-react/intro.jpg){: .center-image}
 
@@ -22,7 +22,7 @@ npm start
 ```
 
 Now, we have initialized React application.
-Please, make sure that to use the React-Hooks you have installed proper version (the version which I will use is `16.7.0-alpha.2`) for today it’s the newest version of React.
+Please, make sure that to use the React-Hooks you have installed proper version (the version which I will use is `16.8.0`) for today it’s the newest version of React.
 
 If you want to know, which version you are using, please use the command: 
 
@@ -210,4 +210,4 @@ Although it looks nicely, it's really good to know about Hooks:
 
 I think that Hooks and class base components will be still useful. The documentation says that **"There are no plans to remove classes from React"** and they definitely do not recommend rewriting everything into Hooks. It's individual and you should decide whether use Hooks or Classes.
 
-Hooks are great feature in React. Personally, I'm waiting when it will be available in the stable release.
+Hooks are great feature in React. Personally, I'm using it after stable version release.
