@@ -3,7 +3,7 @@ layout: post
 title: Are we ready for deep learning on mobile devices?
 author: radeks
 hidden: true
-tags:[ 'android', 'ios', 'mobile', 'tensorflow', 'deep learning', 'machine learning', 'ml kit']
+tags: ['android', 'ios', 'mobile', 'tensorflow', 'deep learning', 'machine learning', 'ml kit']
 ---
 
 
