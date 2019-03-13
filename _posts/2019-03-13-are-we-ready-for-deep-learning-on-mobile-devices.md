@@ -3,13 +3,14 @@ layout: post
 title: Are we ready for deep learning on mobile devices?
 author: radeks
 hidden: true
+image: /images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg
 tags: ['android', 'ios', 'mobile', 'tensorflow', 'deep learning', 'machine learning', 'ml kit']
 ---
 
 
 Due to the rapid growth of deep learning possibilities, lots of smart people do their best to create more and more sophisticated algorithms that beat human’s performance in many areas. Luckily, a great chunk of their work is throw open and waits for you to harness it in some fancy way. 
 
-![](images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg)
+![](/images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg)
 
 One way to take advantage of it is to make an inference of a pre-trained model in an environment that has plentiful data sources like mobile phones and their sensors. You can wonder why even bother with the inference on mobile app if you can easily make use of the internet connection and send data back and forth but you've probably already noticed that it is not very power efficient solution. What's more convincing is that because we make an inference on mobile then we can work offline and that also leads to low latency. Last but not least is privacy, sometimes we just don't want to send any data outside.
 
