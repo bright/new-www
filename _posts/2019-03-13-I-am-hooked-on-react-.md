@@ -210,4 +210,4 @@ Although it looks nicely, it's really good to know about Hooks:
 
 I think that Hooks and class base components will be still useful. The documentation says that **"There are no plans to remove classes from React"** and they definitely do not recommend rewriting everything into Hooks. It's individual and you should decide whether use Hooks or Classes.
 
-Hooks are great feature in React. Personally, I'm waiting when it will be available in the stable release.
+Hooks are great feature in React. Personally, I'm using it after stable version release.
