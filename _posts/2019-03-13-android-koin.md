@@ -4,7 +4,7 @@ layout: post
 title: Android - Koin DI
 author: szymek
 hidden: true
-tags: blog
+tags: blog android koin DI dagger mobiledev mobile
 ---
 
 ## Koin
