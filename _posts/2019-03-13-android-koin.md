@@ -48,7 +48,7 @@ And that's it! The `WeatherProvider` singleton is ready to use.
 
 You can also bind `WeatherProvider` per Activity which will depend on its lifecycle or create a special scope for your needs opened and closed whenever you want.
 
-For more information visit thei [Getting Started](https://insert-koin.io/docs/1.0/getting-started/introduction/) section
+For more information visit official [Getting Started](https://insert-koin.io/docs/1.0/getting-started/introduction/) section.
 
 ## Summary
 Koin has a great Kotlin feeling, dsl syntax, no annotations, no boilerplate and is pretty easy to implement. The other important thing are - errors. Koin provides us with clean and reasonable error logs. If you make a mistake in your implementation it's really effortless to localize and fix a problem. You can even bind your own logger to it while initializing.
