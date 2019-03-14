@@ -144,7 +144,7 @@ find a lot of help on StackOverflow already,
 - Hot Reload - it actually helps :D.
 
 **Things I hate in Flutter**
-- .yaml files - I've spend some time trying to fix a simple bug, which was caused by one additional white-space. 
+- .yaml files - I've spent some time trying to fix a simple bug, which was caused by one additional white-space. 
 When you add image, you need to specify it in `pubspec.yaml` file and I've made a typo there. Fortunately, [online validators](http://www.yamllint.com/) came to the rescue,
 - ending each Widget's argument's with comma - after adding the last argument of a Widget, you should end it with `,`. 
 Otherwise the code will be badly / ugly formatted. This sometimes leads to the code which in the end looks like this:
@@ -155,7 +155,7 @@ Otherwise the code will be badly / ugly formatted. This sometimes leads to the c
   ),
 );
 ```
-- ending lines with a semicolon - after getting used to Kotlin, it's really annoying I have to add this `;` again (but that's more of a Dart thing I guess).
+- ending lines with a semicolon - after getting used to Kotlin, it's really annoying that I have to add the semicolons again (but that's more of a Dart thing I guess).
 
 **Should I use it?**
 
