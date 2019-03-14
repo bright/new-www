@@ -155,8 +155,7 @@ Otherwise the code will be badly / ugly formatted. This sometimes leads to the c
   ),
 );
 ```
-- ending lines with a semicolon - after getting used to Kotlin, it's really annoying I have to add this `;` again. 
-(but that's more of a Dart thing I guess)
+- ending lines with a semicolon - after getting used to Kotlin, it's really annoying I have to add this `;` again (but that's more of a Dart thing I guess).
 
 **Should I use it?**
 
