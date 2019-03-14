@@ -8,23 +8,23 @@ tags: ['android', 'ios', 'mobile', 'tensorflow', 'deep learning', 'machine learn
 ---
 
 
-Due to the rapid growth of deep learning possibilities, lots of smart people do their best to create more and more sophisticated algorithms that beat human’s performance in many areas. Luckily, a great chunk of their work is throw open and waits for you to harness it in some fancy way. 
+Due to the rapid growth of deep learning possibilities, lots of smart people do their best to create more and more sophisticated algorithms that beat human’s performance in many areas. Luckily, a great chunk of their [work](https://arxiv.org/list/cs.LG/recent "repository with lots of papers") is throw open and waits for you to harness it in some fancy way. 
 
 ![](/images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg)
 
-One way to take advantage of it is to make an inference of a pre-trained model in an environment that has plentiful data sources like mobile phones and their sensors. You can wonder why even bother with the inference on mobile app if you can easily make use of the internet connection and send data back and forth but you've probably already noticed that it is not very power efficient solution. What's more convincing is that because we make an inference on mobile then we can work offline and that also leads to low latency. Last but not least is privacy, sometimes we just don't want to send any data outside.
+One way to take advantage of it is to make an inference of a pre-trained model in an environment that has plentiful data sources like mobile phones and their sensors. You can wonder why even bother with the inference on mobile app if you can easily make use of the internet connection and send data back and forth but sooner or later you'll notice that it is not very power efficient solution. What's more convincing is that because we make an inference on mobile then we can work offline and that also leads to low latency. Last but not least is privacy, sometimes we just don't want to send any data outside.
 
 Unfortunately, on mobile devices there are also a few flawings.  Most important ones are relatively little computer power and tight memory constraints that prevents from the effective usage (or usage at all) of heavy models. 
 
 ## TensorFlow Lite for rescue!
 
-With TensorFlow Lite you can easily use your model on wide variety of devices like Android, iOS or Raspberry Pi. But hold on until you get to know how TensorFlow speeds up some  time consuming tasks. It uses FlatBuffer - a cross-platform library which allows to access serialized data without prior parsing and with preserving data structures that effect at unbelievable speed that is close to a raw struct access.  
+With [TensorFlow Lite](https://www.tensorflow.org/lite) you can easily use your model on wide variety of devices like Android, iOS or Raspberry Pi. Hold on until you get to know how TensorFlow speeds up some  time consuming tasks. It uses [FlatBuffer](https://google.github.io/flatbuffers/) - a cross-platform library which allows to access serialized data without prior parsing and with preserving data structures that effect at unbelievable speed that is close to a raw struct access.  
 
-Another thing is an extra kernel optimization for NEON on ARM. Besides it may leverage speed by a direct GPU integration or Android Neural Network API. 
+Another thing is an extra kernel optimization for NEON on ARM. Besides it may leverage speed by a direct GPU integration or [Android Neural Network API](https://developer.android.com/ndk/guides/neuralnetworks). 
 
-Next crucial component is a post-training quantization that enables to reduce a model size in tandem with 3x lower latency with a minimal impoverishment of accuracy. 
+Next crucial component is a [post-training quantization](https://www.tensorflow.org/lite/performance/post_training_quantization) that enables to reduce a model size in tandem with 3x lower latency with a minimal impoverishment of accuracy. 
 
-What’s more, at  TensorFlow Dev Summit 2019 we could get to know about some rapidly broadening use cases of TensorFlow Lite and also about making an inference even faster. 
+What’s more, at  [TensorFlow Dev Summit 2019](https://www.youtube.com/watch?v=DKosV_-4pdQ) we could get to know about some rapidly broadening use cases of TensorFlow Lite and also about making an inference even faster. 
 
 TensorFlow Lite has been already enhancing a lot of apps that you've probably taken advantage of with features like a portrait mode on android camera, *Hey Google* in Google Assistant or just Google Photos.
 
