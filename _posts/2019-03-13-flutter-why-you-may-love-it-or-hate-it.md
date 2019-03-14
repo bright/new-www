@@ -160,8 +160,7 @@ Otherwise the code will be badly / ugly formatted. This sometimes leads to the c
 **Should I use it?**
 
 Everything depends on a scope of a project. If you want to develop multi platform application by yourself it's easier to use
-a cross-platform method, rather than writing native code for each one. Choosing between Flutter and ReactNative / NativeScript
-depends on you. Thanks to the constant development, it seems to me that it can outrun his competitors, but it hasn't done it yet.
+a cross-platform method, rather than writing native code for each one. Choosing between Flutter and React Native / NativeScript depends on you. Thanks to the constant development, it seems to me that it can outrun his competitors, but it hasn't done it yet.
 You also need to bare in mind that cross-platform methods always lack some features. It is highly probable that for the
 very specific task, you would have to add some native code. Fortunately, it's also not so hard to do with Flutter. 
 
