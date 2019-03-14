@@ -11,7 +11,9 @@ Flutter is a new Google's framework for creating cross-platform applications. So
 basic tutorial for creating apps with Flutter. I'll just present my first impression of things that have made me love and hate
 Flutter after a few hours of having fun with it.
   
-![](/images/flutter-why-you-may-love-it-or-hate-it/flutter-logo.png){: .center-image}
+<p align="center">
+  <img src="/images/flutter-why-you-may-love-it-or-hate-it/flutter-logo.png">
+</p>
 
 **Dart**
 
