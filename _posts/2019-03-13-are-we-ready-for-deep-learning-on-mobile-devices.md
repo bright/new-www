@@ -12,7 +12,7 @@ Due to the rapid growth of deep learning possibilities, lots of smart people do 
 
 ![](/images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg)
 
-One way to take advantage of it is to make an inference of a pre-trained model in an environment that has plentiful data sources like mobile phones and their sensors. You can wonder why even bother with the inference on mobile app if you can easily make use of the internet connection and send data back and forth but sooner or later you'll notice that it is not very power efficient solution. What's more convincing is that because we make an inference on mobile then we can work offline and that also leads to low latency. Last but not least is privacy, sometimes we just don't want to send any data outside.
+One way to take advantage of it is to make an inference of a pre-trained model in an environment that has plentiful data sources like mobile phones and their sensors. You can wonder why even bother with the inference on mobile app if you can easily make use of the internet connection and send data back and forth but we have to keep in mind that it is not very power efficient solution. What's more convincing is that because we make an inference on mobile then we can work offline and that also leads to low latency. Last but not least is privacy, sometimes we just don't want to send any data outside.
 
 Unfortunately, on mobile devices there are also a few flawings.  Most important ones are relatively little computer power and tight memory constraints that prevents from the effective usage (or usage at all) of heavy models. 
 
