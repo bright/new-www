@@ -3,7 +3,7 @@ layout: post
 title: Flutter - why you may love it or hate it
 author: lukasz
 image: /images/flutter-why-you-may-love-it-or-hate-it/flutter-logo.png
-hidden: true
+hidden: false
 tags: flutter dart android cross-platform
 ---
 
