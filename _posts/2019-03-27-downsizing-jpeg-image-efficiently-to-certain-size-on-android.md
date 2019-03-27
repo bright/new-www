@@ -12,6 +12,8 @@ tags: ['android', 'jpeg', 'image', 'compression', 'downsize', 'size']
 
 Downsizing an image is a common task and it seems to be quite simple: you have an image and you want it to take up less storage space, preferably `n` KB (either _exactly_ `n` or _at most_ `n`). A lot of developers have to do something like this for various reasons, either to limit the network payload or just to save the disk space so that the app's data doesn't consume it too much.
 
+![Compression](/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/stress.jpg){: .center-image}
+
 A very simple solution to that problem, especially if we are in a hurry, is using an arbitrary image size in pixels that we _think_ should be small enough to meet our disk size criteria. But in the case of a JPEG format the compressed size of an image just cannot be guessed that easily unless we make some assumptions regarding the compression efficiency. For example, a very easy yet ineffective file size estimation might look like this:
 
 1. Let's say we want to downscale our JPEG image file to 100 KB.
@@ -27,7 +29,7 @@ So in the next step we search for a quick advice on the web and find out the JPE
 1. Using some image editor like GIMP, change its size to 600 x 512 px.
 1. Export it to a JPEG file with the quality factor equal to 95 (more on this factor later).
 
-![Test image with a quality factor 95](/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/650_512_95.jpg){: .center-image}
+![Test image with a quality factor 95](/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/600_512_95.jpg){: .center-image}
 
 When I did this, the resulting file size was 167 KB, which is 67% bigger than what we wanted.
 
@@ -37,7 +39,7 @@ OK, let's try with a different quality factor. But how do we pick a good one? Us
 1. Apply a "Neon" filter (`Filters -> Edge-Detect -> Neon...`) with Radius set to 15.00 and Amount set to 0.10.
 1. Export it to a JPEG file with the quality set to 80.
 
-![Test image with a neon filter and a quality factor 80](/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/650_512_80_neon.jpg){: .center-image}
+![Test image with a neon filter and a quality factor 80](/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/600_512_80_neon.jpg){: .center-image}
 
 And now I have got a file that takes up 136 KB. The conclusion is simple: using the specific image dimensions and quality factor there is no guarantee the resulting file will be of a certain size.
 
