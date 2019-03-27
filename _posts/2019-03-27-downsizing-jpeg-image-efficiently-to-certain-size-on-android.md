@@ -16,7 +16,7 @@ Downsizing an image is a common task and it seems to be quite simple: you have a
 
 A very simple solution to that problem, especially if we are in a hurry, is using an arbitrary image size in pixels that we _think_ should be small enough to meet our disk size criteria. But in the case of a JPEG format the compressed size of an image just cannot be guessed that easily unless we make some assumptions regarding the compression efficiency. For example, a very easy yet ineffective file size estimation might look like this:
 
-1. Let's say we want to downscale our JPEG image file to 100 KB.
+1. Let's say we want to downsize our JPEG image file to 100 KB.
 1. Let's assume the worst case scenario is that the JPEG compression doesn't save any space.
 1. Let's assume we store each pixel in the same way Android loads `Bitmap` with `BitmapFactory` by default, i.e. using `ARGB_8888` coding so that each pixel takes 4 bytes.
 1. In order to take up at most 100 KB the image has to consist of `100 * 1024 / 4 = 25 600` pixels. For example it might be 200 x 128 px.
