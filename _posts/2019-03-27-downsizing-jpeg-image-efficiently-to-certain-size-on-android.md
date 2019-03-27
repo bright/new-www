@@ -18,7 +18,7 @@ A very simple solution to that problem, especially if we are in a hurry, is usin
 
 1. Let's say we want to downsize our JPEG image file to 100 KB.
 1. Let's assume the worst case scenario is that the JPEG compression doesn't save any space.
-1. Let's assume we store each pixel in the same way Android loads `Bitmap` with `BitmapFactory` by default, i.e. using `ARGB_8888` coding so that each pixel takes 4 bytes.
+1. Let's assume we store each pixel in the same way Android loads `Bitmap` with `BitmapFactory` by default, i.e. using `ARGB_8888` coding so that each pixel takes up 4 bytes.
 1. In order to take up at most 100 KB the image has to consist of `100 * 1024 / 4 = 25 600` pixels. For example it might be 200 x 128 px.
 
 An image of such a small size might be used for an avatar at best.
@@ -31,7 +31,7 @@ So in the next step we search for a quick advice on the web and find out the JPE
 
 ![Test image with a quality factor 95](/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/600_512_95.jpg){: .center-image}
 
-When I did this, the resulting file size was 167 KB, which is 67% bigger than what we wanted.
+When I did this, the resulting file size was 167 KB, which is 67% more than what we wanted.
 
 OK, let's try with a different quality factor. But how do we pick a good one? Using 90 I have got a 114 KB file and using 80 it was 76 KB. So we immediately think that using the quality factor equal to 80 or so and a fixed dimensions like 600 x 512 px is a way to go. Although it might work in many scenarios, this assumption is wrong. Let's prove it by conducting yet another experiment:
 
