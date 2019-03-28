@@ -71,4 +71,4 @@ So, let's summarize what we know:
 * It's hard to tell what exactly the JPEG compression is going to do with our image in terms of its disk size.
 * Both of the simple approaches described above are pretty bad. The first one requires making a blind assumptions about the compression, while the second one requires a lot of resources and creates a risk of the OOM errors.
 
-What about you? Do you use some kind of a proven solution that would give predictable results while maintaining such an efficiency that is acceptable on a mobile device? Please let me know in the comments. In the coming post(s), I will show you how I have overecome this problem after a series of experiments (spoiler: my solution is not perfect though). Stay tuned!
+What about you? Do you use some kind of a proven solution that would give predictable results while maintaining such an efficiency that is acceptable on a mobile device? Please let me know in the comments. In the coming post(s), I will show you how I have overcome this problem after a series of experiments (spoiler: my solution is not perfect though). Stay tuned!
