@@ -31,7 +31,7 @@ So, in the next step we search for a quick advice on the web and find out the JP
 
 <img style="display: block; margin-left: auto; margin-right: auto; width: 50%" alt="Test image with a quality factor 95" src="/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/600_512_95.jpg" />
 
-When I did this, the resulting file size was 167 KB, which is 67% more than what we wanted.
+When I did this, the image was downsized from about 2.6 MB to 167 KB so it takes 67% more than what we wanted.
 
 OK, let's try with a different quality factor. But how do we pick a good one? Using 90 I have got a 114 KB file and using 80 it was 76 KB. So, we immediately think that using the quality factor equal to 80 or so and a fixed dimensions like 600 x 512 px is a way to go. Although it might work in many scenarios, this assumption is wrong. Let's prove it by conducting yet another experiment:
 
@@ -64,7 +64,7 @@ Now, let's get back to our main problem and consider another easy yet ineffectiv
 
 Such a solution has the potential to give the best possible results. Being able to just try everything in a loop (or two) might solve our problem almost perfectly. But what about the performance and resource consumption, especially taking into account the Android platform?
 
-Firstly, loading the full resolution source image into the memory is quite risky. If the image is large enough, this operation might produce [OOM error](https://developer.android.com/reference/java/lang/OutOfMemoryError) right away. Secondly, compressing that image multiple times uses both time, CPU (and thus battery) and it makes our storage last shorter (see: [Flash Drive Lifespan *is* a Problem](http://www.cs.technion.ac.il/~dan/papers/fbrick-hotos-2017.pdf)).
+Firstly, loading the full resolution source image into the memory is quite risky. If the image is large enough, this operation might produce [OutOfMemoryError](https://developer.android.com/reference/java/lang/OutOfMemoryError) right away. Secondly, compressing that image multiple times uses both time, CPU (and thus battery) and it makes our storage last shorter (see: [Flash Drive Lifespan *is* a Problem](http://www.cs.technion.ac.il/~dan/papers/fbrick-hotos-2017.pdf)).
 
 So, let's summarize what we know:
 
