@@ -2,7 +2,7 @@
 layout: post
 title: Traits of a great side project
 author: olo
-hidden: true
+hidden: false
 tags: programming after-hours motivation
 ---
 
