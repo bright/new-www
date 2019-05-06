@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Image classification with TensorFlow Lite on Android
