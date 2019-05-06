@@ -33,7 +33,7 @@ Next step is to get a model for image classification problem. One way is to crea
 
 ![](images/image-classification-tensorflowlite-android/kite.jpg)
 
-### Dig into code
+### Dive into the code
 
 In order to make use of the prepared model, we need to somehow import it into code. Let's use `tf.lite.Interpreter` as  our interface for the model. 
 
