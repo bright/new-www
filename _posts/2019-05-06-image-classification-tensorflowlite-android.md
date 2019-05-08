@@ -3,23 +3,24 @@ layout: post
 title: Image classification with TensorFlow Lite on Android
 author: radeks
 hidden: true
+image: /images/image-classification-tensorflowlite-android/surf1.jpg
 tags: ['android', 'tensorflow lite', 'deep learning', 'image classification']
 ---
 
-As I've already listed in my recent [blog post]([https://brightinventions.pl/blog/are-we-ready-for-deep-learning-on-mobile-devices/](https://brightinventions.pl/blog/are-we-ready-for-deep-learning-on-mobile-devices/)) there are lots of advantages in making inference directly on a mobile device instead of using cloud solutions. Because of mobile devices' computation limitations we can't migrate all of the available models to work on mobile. Unfortunately, plenty of them won't work on mobile devices but that's fine because often we don't need these heavy models on mobile devices. In this blog post, we will create a simple android application that will take advantage of [MobileNetV2]([https://arxiv.org/abs/1801.04381](https://arxiv.org/abs/1801.04381)) that was pre-trained on ImageNet.
+As I've already listed in my recent [blog post](https://brightinventions.pl/blog/are-we-ready-for-deep-learning-on-mobile-devices/) there are lots of advantages of making inference directly on a mobile device instead of using cloud solutions. Because of mobile devices' computation limitations, we can't migrate all of the available models to work on mobile. Unfortunately, plenty of them won't work on mobile devices but that's fine because we often don't need these heavy models on mobile devices. In this blog post, we will create a simple Android application that will take advantage of [MobileNetV2](https://arxiv.org/abs/1801.04381) that was pre-trained on ImageNet.
 
-![](images/image-classification-tensorflowlite-android/surf1.jpg)
+![](/images/image-classification-tensorflowlite-android/surf1.jpg)
 
 
 ## Let's make our hands dirty...
 
-In our android app project, we need to add TFLite [dependency](implementation 'org.tensorflow:tensorflow-lite:1.13.1') to `build.gradle` file. 
+In our Android app project we need to add TFLite [dependency](implementation 'org.tensorflow:tensorflow-lite:1.13.1') to `build.gradle` file. 
 
 ```
 implementation 'org.tensorflow:tensorflow-lite:1.13.1'
 ```
 
-and undermentioned snippet to prevent from compressing the model.
+and the undermentioned snippet to prevent compressing the model.
 
 ```  
 aaptOptions {  
@@ -28,15 +29,15 @@ aaptOptions {
 }
 ```
 
-Next step is to get a model for image classification problem. One way is to create your own or take pre-trained from [here]([https://www.tensorflow.org/lite/guide/hosted_models] (https://www.tensorflow.org/lite/guide/hosted_models)) and put it to `assets` folder. We will be using customized pre-trained MobileNetV2 that I've created for the sake of this demo. Our model will be able to or at least it should distinguish 🌊 _kitesurfing, windsurfing_, and _surfing_ 🏄‍♂️.  You can download this model as well as labels from my [git repository]([https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification/tree/master/app/src/main/assets](https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification/tree/master/app/src/main/assets)).
+The next step is to get a model for the image classification problem. One way is to create your own or take pre-trained one from [here](https://www.tensorflow.org/lite/guide/hosted_models) and put it to the `assets` folder. We will be using customized pre-trained MobileNetV2 that I've created for the sake of this demo. Our model will be able to or at least it should distinguish 🌊 _kitesurfing, windsurfing_, and _surfing_ 🏄‍♂️.  You can download this model as well as labels from my [git repository](https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification/tree/master/app/src/main/assets).
 
-![](images/image-classification-tensorflowlite-android/kite.jpg)
+![](/images/image-classification-tensorflowlite-android/kite.jpg)
 
 ### Dive into the code
 
-In order to make use of the prepared model, we need to somehow import it into code. Let's use `tf.lite.Interpreter` as  our interface for the model. 
+In order to make use of the prepared model we need to somehow import it into code. Let's use `tf.lite.Interpreter`   interface for the model. 
 
-You can setup interpreter in many ways, one recommended on [TF website]([https://www.tensorflow.org/lite/models/image_classification/android](https://www.tensorflow.org/lite/models/image_classification/android)) is to make use of `MappedByteBuffer`.
+You can set up an interpreter in many ways, one recommended on [TF website](https://www.tensorflow.org/lite/models/image_classification/android) is to make use of `MappedByteBuffer`.
 
 ```kotlin
 @Throws(IOException::class)  
@@ -58,7 +59,7 @@ and then...
 
 Unfortunately using `MappedByteBuffer` as an argument is already deprecated and will be deleted in future releases but you can solve this problem by delivering ByteBuffer instead and it is as simple as invoking `.asReadOnlyBuffer()` on `loadModelFile` method.
 
-Next step is to read file with labels. You can easily grab them with:
+Next step is to read the file with labels. You can easily grab them with:
 
 ```kotlin
 @Throws(IOException::class)  
@@ -81,7 +82,7 @@ The last thing is to create a method that will take an image as an argument and 
 fun recognize(bitmap: Bitmap): List<Recognition>{
 ```
 
-Because our model expects exact input shape (224x224 pixels) we need to rescale delivered bitmap to fit into these constraints. 
+Because our model expects the exact input shape (224x224 pixels) we need to rescale a delivered bitmap to fit into these constraints. 
 
 ```kotlin
 	val scaledBitmap =  Bitmap.createScaledBitmap(bitmap, MODEL_INPUT_SIZE, MODEL_INPUT_SIZE, false)
@@ -101,7 +102,7 @@ Next, we need to create byteBuffer of appropriate size that will be passed as an
 	    .apply { order(ByteOrder.nativeOrder()) } // force device's native order (BIG_ENDIAN or LITTLE_ENDIAN)
 ```    
 
-And load `byteByffer` with image date as _floating point numbers_. In order to decode color (ignoring alpha) in each pixel on bitmap we need to mask the least significant 8 bits and its multiple.
+And load `byteByffer` with the image data as _floating point numbers_. In order to decode color (ignoring alpha) in each pixel on a bitmap, we need to mask the least significant 8 bits and its multiple.
 
 ```kotlin
 	val pixelValues = IntArray(MODEL_INPUT_SIZE * MODEL_INPUT_SIZE)  
@@ -119,7 +120,7 @@ And load `byteByffer` with image date as _floating point numbers_. In order to d
 ```
 
 
-Finally, we can pass _byteBuffer_ to the model. The interpreter expects for second argument container for results and it is _array_ of _float arrays_ (_array_ for each image and each one will contain _float array_ of probabilities).
+Finally, we can pass _byteBuffer_ to the model. The interpreter expects for the second argument container for results and it is _array_ of _float arrays_ (_array_ for each image and each one will contain _float array_ of probabilities).
 
 ```kotlin
 	val results = Array(BATCH_SIZE) { FloatArray(labels.size) }
@@ -128,7 +129,7 @@ Finally, we can pass _byteBuffer_ to the model. The interpreter expects for seco
 }
 ```
 
-Last step is to bond probability with proper class.
+The last step is to bond probability with a proper class.
 
 ```kotlin
 private fun parseResults(result: Array<FloatArray>): List<Recognition> {  
@@ -156,16 +157,19 @@ data class Recognition(
 }
 ```
 
-###### Don't forget that there are many things you should consider to make it work well i.e. handling camera orientation or using post-training quantization if you need higher speed with a bit lower accuracy and lighter.
+###### Don't forget that there are many things you should consider to make it work well i.e. handling a camera orientation or using post-training quantization if you need higher speed with a bit lower accuracy and lighter.
 
-## It's showtime!
+## It’s showtime!
 
-Above code is minimalistic version for getting TFLite solving for us _image classification_ problem. With provided model you can successfully classify all photos that are in this blog post. 📸 
-
-
+The above code is a minimalistic version for getting TFLite solving for us _image classification_ problem. With the provided model you can successfully classify all photos that are in this blog post. 📸 
 
 
-![](images/image-classification-tensorflowlite-android/windsurf.jpg)
 
 
-You can find demo [here]([https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification](https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification)).
+![](/images/image-classification-tensorflowlite-android/windsurf.jpg)
+
+
+You can find the demo [here](https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification).
+
+
+
