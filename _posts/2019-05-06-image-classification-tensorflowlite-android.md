@@ -15,7 +15,7 @@ As I've already listed in my recent [blog post](https://brightinventions.pl/blog
 
 ## Let's make our hands dirty...
 
-In our Android app project we need to add TFLite [dependency](implementation 'org.tensorflow:tensorflow-lite:1.13.1') to `build.gradle` file. 
+In our Android app project we need to add TFLite dependency to `build.gradle` file. 
 
 ```
 implementation 'org.tensorflow:tensorflow-lite:1.13.1'
@@ -46,7 +46,7 @@ private fun getModelByteBuffer(assetManager: AssetManager, modelPath: String): M
     val fileDescriptor = assetManager.openFd(modelPath)  
     val inputStream = FileInputStream(fileDescriptor.fileDescriptor)  
     val fileChannel = inputStream.channel  
-	val startOffset = fileDescriptor.startOffset  
+    val startOffset = fileDescriptor.startOffset  
     val declaredLength = fileDescriptor.declaredLength  
     return fileChannel.map(FileChannel.MapMode.READ_ONLY, startOffset, declaredLength) 
 }
@@ -55,7 +55,7 @@ private fun getModelByteBuffer(assetManager: AssetManager, modelPath: String): M
 and then...
 
 ```kotlin
-	model = Interpreter(loadModelFile(activity))
+model = Interpreter(loadModelFile(activity))
 ```
 
 Unfortunately using `MappedByteBuffer` as an argument is already deprecated and will be deleted in future releases but you can solve this problem by delivering ByteBuffer instead and it is as simple as invoking `.asReadOnlyBuffer()` on `loadModelFile` method.
@@ -138,7 +138,7 @@ private fun parseResults(result: Array<FloatArray>): List<Recognition> {
     val recognitions = mutableListOf<Recognition>()  
   
     labels.forEachIndexed { index, label ->  
-    val probability = result[0][index]  
+        val probability = result[0][index]  
         recognitions.add(Recognition(label, probability))  
     }  
   
