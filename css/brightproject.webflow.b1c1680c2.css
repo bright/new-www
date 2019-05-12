@@ -6993,5 +6993,5 @@ a {
 }
 
 .w-webflow-badge {
-  display: none;
+  display: none !important;
 }
