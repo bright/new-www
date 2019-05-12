@@ -7,7 +7,7 @@ comments: true
 author: piotr
 ---
 
-Nowadays it's getting harder and harder to build a meaningful app and not rely on [Google Play Services](https://developer.android.com/google/play-services/index.html) to aid us in some commonly required features such as [maps](http://developer.android.com/google/play-services/maps.html), better [location provider](https://developer.android.com/google/play-services/location.html), [geo fencing](http://developer.android.com/training/location/geofencing.html) and so much more. Unfortunately up until now the library shipped as a giant monolith ripping us from [one third of dex method limit](http://jakewharton.com/play-services-is-a-monolith/). For curious reader here's are method counts in couple of versions:
+Nowadays it's getting harder and harder to build a meaningful app and not rely on [Google Play Services](https://developer.android.com/google/play-services/.html) to aid us in some commonly required features such as [maps](http://developer.android.com/google/play-services/maps.html), better [location provider](https://developer.android.com/google/play-services/location.html), [geo fencing](http://developer.android.com/training/location/geofencing.html) and so much more. Unfortunately up until now the library shipped as a giant monolith ripping us from [one third of dex method limit](http://jakewharton.com/play-services-is-a-monolith/). For curious reader here's are method counts in couple of versions:
 
 | Version       | Method Count  |
 | ------------: | ------------: |
@@ -20,7 +20,7 @@ and [a full breakdown](https://gist.github.com/miensol/c6ac03fa4f6f52441992).
 
 ## Google Play Services 6.5 granular dependency management
 
-Today Google has made the awaited, more than usual, version of their [SDK available](https://developer.android.com/google/play-services/index.html). With the update apart from new features you can finally depend only on a subset of enormous API. Here's a table from documentation along with [dex method counts](https://github.com/mihaip/dex-method-counts):
+Today Google has made the awaited, more than usual, version of their [SDK available](https://developer.android.com/google/play-services/.html). With the update apart from new features you can finally depend only on a subset of enormous API. Here's a table from documentation along with [dex method counts](https://github.com/mihaip/dex-method-counts):
 
 | API Name       | Gradle depdenency | Dex method count
 | ------------- |:-------------:| -----: |

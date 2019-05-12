@@ -55,7 +55,7 @@ So far so good. Now Actions – they initially look like this:
 { type: 'SET_VISIBILITY_FILTER', filter: 'SHOW_ALL' }
 ```
 
-Let's for now use the typing provided by [`redux` library itself](https://github.com/reactjs/redux/blob/master/index.d.ts), specifically `AnyAction` that only enforces the `type` property to be set:
+Let's for now use the typing provided by [`redux` library itself](https://github.com/reactjs/redux/blob/master/.d.ts), specifically `AnyAction` that only enforces the `type` property to be set:
 
 ```typescript
 const actions: AnyAction[] = [

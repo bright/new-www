@@ -58,7 +58,7 @@ Select the `Properties` tab and the `Static website hosting` box.
 
 Select `Use this bucket to host a website` checkbox. Provide the name of the file which is a starting point of your app, usually it is `index.html`. The app is ready and you can access it with the link from the top of the box.
 
-![](/images/host-website-with-aws-s3/index.png){: .center-image}
+![](/images/host-website-with-aws-s3/.png){: .center-image}
 
 There is one more thing, which is specific for apps using browser's history API (for example a react-router app). If you try to access some resource directly, you will get an error like below: 
 

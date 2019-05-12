@@ -136,7 +136,7 @@ UITraitCollection *traitCollection = [UITraitCollection
 
 Appearance might be compared to CSS limited to elements only (no per-class or per-id definitions), with basic hierarchies and basic media queries support. However, the distance to the full-blown CSS equivalent is quite large. There is no way to apply appearance definitions to the selected subset of elements of a given type, like we do using CSS classes. There is no way to represent other types of relationships between controls than ancestor-descendant (`whenContainedIn`) - we need to forget about the selectors we know from CSS like siblings, direct children, n-th of type and so on. Moreover, when we have multiple ancestor-descendant relationships defined, [the first one encountered (most generic) is used](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/), while in CSS the most specific one is used, allowing us to specify our styles from the general definitions to the specialized ones going down the elements tree.
 
-> CSS definitions on HTML elements <—> [UIAppearance](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/index.html#//apple_ref/doc/uid/TP40012857-UIView-SW16) definitions
+> CSS definitions on HTML elements <—> [UIAppearance](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/.html#//apple_ref/doc/uid/TP40012857-UIView-SW16) definitions
 
 > CSS definitions on HTML element hierarchies <—> UIAppearance definitions with `whenContainedIn` overloads; limited
 

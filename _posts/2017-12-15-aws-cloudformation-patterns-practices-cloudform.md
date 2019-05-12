@@ -259,7 +259,7 @@ With all the `cloudform` goodies around, we might forget the existence of the JS
 
 ```json
 {
-  "generate-aws-template": "cloudform cloudformation/index.ts > .build/template.out",
+  "generate-aws-template": "cloudform cloudformation/.ts > .build/template.out",
   "deploy": "npm run generate-aws-template && <proceed with deployment using .build/template.out>"
 }
 ```

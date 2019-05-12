@@ -19,7 +19,7 @@ We have already touched upon [the importance of timeouts]({% post_url 2017-10-23
 
 ## Apache HttpClient timeouts
 
-[HttpClient](https://hc.apache.org/httpcomponents-client-4.5.x/index.html) from Apache HttpComponents suite has been a standard choice for http communication. It is a mature project, with rich API that fills many `HttpURLConnection` shortcomings e.g. connection pooling. Many of the APIs have been deprecated e.g. `DefaultHttpClient`, `org.apache.http.params.CoreConnectionPNames` hence one needs to be careful when setting the timeouts they fallback to system defined socket level defaults. 
+[HttpClient](https://hc.apache.org/httpcomponents-client-4.5.x/.html) from Apache HttpComponents suite has been a standard choice for http communication. It is a mature project, with rich API that fills many `HttpURLConnection` shortcomings e.g. connection pooling. Many of the APIs have been deprecated e.g. `DefaultHttpClient`, `org.apache.http.params.CoreConnectionPNames` hence one needs to be careful when setting the timeouts they fallback to system defined socket level defaults. 
 
 There are 3 timeouts settings available:
 

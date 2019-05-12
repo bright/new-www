@@ -100,7 +100,7 @@ You're probably already eager to test it out, so let's jump to the crux of the m
 
 `npm install --save-dev cloudform`
 
-Now we need to define our template. Let's have a separate directory for it, so that it doesn't mix with our production or test code. It would also suggest we may break the file into smaller chunks and use standard [imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to link it together. Maybe `cloudformation/index.ts`?
+Now we need to define our template. Let's have a separate directory for it, so that it doesn't mix with our production or test code. It would also suggest we may break the file into smaller chunks and use standard [imports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) to link it together. Maybe `cloudformation/.ts`?
 
 This file needs to export the result of `cloudform` function call, so that the tool picks our template up correctly. It takes an object that consists of everything that CloudFormation template might consist of. 
 
@@ -136,7 +136,7 @@ See also [the example included in the repository](https://github.com/bright/clou
 
 Now, run the binary that was installed for you specifying the path to your template sources root. The library will print the JSON to the stdout, so you might want to pipe it to the file somewhere:
 
-`cloudform cloudformation/index.ts > template.out`
+`cloudform cloudformation/.ts > template.out`
 
 And if no compilation errors happen, `template.out` is now a JSON file ready to be used within CloudFormation.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: N ways to debug React Native app
-image: /images/n-ways-to-debug-rn/image1.png
+image: /images/n-ways-to-debug-rn/image1.jpeg
 author: agnieszka
 hidden: false
 tags: react-native debug android ios react native

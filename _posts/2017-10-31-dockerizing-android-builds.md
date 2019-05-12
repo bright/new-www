@@ -17,7 +17,7 @@ The easiest way to build an Android app is to use Android Studio, but how one ca
 ## Android command line tools ##
 
 Google provides a separate package of command line tools needed for building an application. The same tools are included with Android Studio, so you may be already familiar with some of them.
-The package is available at the [Android Studio downloads page](https://developer.android.com/studio/index.html#downloads) under the _Get just the command line tools_ section. Since Docker images are Linux-based, we will use the Linux package, e.g. [sdk-tools-linux-3859397.zip](https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip).
+The package is available at the [Android Studio downloads page](https://developer.android.com/studio/.html#downloads) under the _Get just the command line tools_ section. Since Docker images are Linux-based, we will use the Linux package, e.g. [sdk-tools-linux-3859397.zip](https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip).
 
 ## sdkmanager ##
 
@@ -178,7 +178,7 @@ RUN sdkmanager 'extras;google;google_play_services'
 
 ## NDK ##
 
-As I don't use the [NDK](https://developer.android.com/ndk/index.html) in my applications at the moment, I can't be 100% sure about all the requirements (please let me know if you have some more experience), but during a simple test with an empty NDK-enabled project I have already found some gotchas:
+As I don't use the [NDK](https://developer.android.com/ndk/.html) in my applications at the moment, I can't be 100% sure about all the requirements (please let me know if you have some more experience), but during a simple test with an empty NDK-enabled project I have already found some gotchas:
 
 * NDK bundle must be installed manually with `sdkmanager ndk-bundle` (Gradle didn't install it automatically for me).
 * When you are testing the Dockerized build locally, leaving the `app/.externalNativeBuild` directory from previous builds will make the build command fail due to wrong NDK location path (e.g. in the generated `ninja` and `CMakeCache` files).

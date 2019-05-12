@@ -128,7 +128,7 @@ Then we can use the variables in the Manifest simply by putting the variable nam
 
 I've come across a few common usages of the placeholders, e.g.:
 
-* enabling/disabling [application components](https://developer.android.com/guide/components/index.html) and meta-data, including the ones that come with your app's dependencies
+* enabling/disabling [application components](https://developer.android.com/guide/components/.html) and meta-data, including the ones that come with your app's dependencies
 
 {% highlight xml %}
 <service

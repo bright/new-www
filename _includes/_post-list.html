@@ -1,0 +1,39 @@
+<div class="w-dyn-list">
+    <div class="collection-list-4 w-dyn-items">
+        {% for post in paginator.posts %}
+        <div class="collection-item-6 w-dyn-item">
+            <div class="div-block-16">
+                <div class="w-layout-grid grid-18">
+                    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="w-inline-block">
+                        <div class="div-block-17"><h3 class="heading-16">{{ post.title }}</h3>
+                            <p class="paragraph-13">{{ post.tags | join: ', ' }}</p>
+                            <p class="paragraph-14">{{ post.excerpt | strip_html | truncate: 1000 }}</p></div>
+                    </a>
+                    <img width="182"
+                         src="{{ site.url }}/{{ post.image }}" alt
+                         class="image-27"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="w-pagination-wrapper">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="w-pagination-previous previous">
+            <svg class="w-pagination-previous-icon" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 12 12"
+                 transform="translate(0, 1)">
+                <path fill="none" stroke="currentColor" fill-rule="evenodd" d="M8 10L4 6l4-4"/>
+            </svg>
+            <div class="w-inline-block">Previous</div>
+        </a>
+        {% endif %}
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="w-pagination-next next">
+            <div class="text-block-25 w-inline-block">Next</div>
+            <svg class="w-pagination-next-icon icon-7" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 12 12"
+                 transform="translate(0, 1)">
+                <path fill="none" stroke="currentColor" fill-rule="evenodd" d="M4 2l4 4-4 4"/>
+            </svg>
+        </a>
+        {% endif %}
+    </div>
+</div>

@@ -15,7 +15,7 @@ Box model & controlling controls spacing
 
 There was [a lot of confusion](http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug) in the past in the web world around the box model, i.e. whether the size of an element should be calculated including or excluding its padding and border sizes. Finally, by default, the HTML element size excludes padding and borders (unless we decide to change that using `box-sizing` CSS property). How does it work in iOS?
 
-Paddings and margins are not useful at all within frame-based positioning - you place the content where you place it, full stop. In the constraints-based layouts (auto layout), though, paddings and margins make a lot of sense. In most cases in iOS these concepts are known as [inset and outset](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIKitDataTypesReference/index.html#//apple_ref/c/tdef/UIEdgeInsets) and are actually a single value - we get the margin (outset) effect when we use negative value, padding (inset) for positive.
+Paddings and margins are not useful at all within frame-based positioning - you place the content where you place it, full stop. In the constraints-based layouts (auto layout), though, paddings and margins make a lot of sense. In most cases in iOS these concepts are known as [inset and outset](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIKitDataTypesReference/.html#//apple_ref/c/tdef/UIEdgeInsets) and are actually a single value - we get the margin (outset) effect when we use negative value, padding (inset) for positive.
 
 > CSS padding <—> inset, -outset
 
@@ -42,7 +42,7 @@ There is one more thing specific to iOS layouts and controls sizing that should 
 Other positioning aspects
 ----
 
-**Overflow** is used in the web to control what happens when the content in the element is larger than the element’s expected dimensions. When no dimensions is set, the elements grow with the content, so no overflow applied. Otherwise, [one of the tree options](https://css-tricks.com/the-css-overflow-property/) applies - either the excess content is visible outside the element’s dimensions (`overflow: visible`, the default), cut off and invisible (`overflow: hidden`) or the scrollbars are added to the side of a control to enable scrolling independent from the main window (`overflow: scroll` and `overflow: auto`). The two first options are represented directly in iOS with [`clipsToBounds` property of `UIView`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/clipsToBounds) - when set to `YES`, the content is clipped (cut off), the default is `NO`, like in the web. There is no direct replacement for automatic scrolls - in case we need that, we need to take care of it manually, creating an additional [`UIScrollView`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIScrollView_Class/).
+**Overflow** is used in the web to control what happens when the content in the element is larger than the element’s expected dimensions. When no dimensions is set, the elements grow with the content, so no overflow applied. Otherwise, [one of the tree options](https://css-tricks.com/the-css-overflow-property/) applies - either the excess content is visible outside the element’s dimensions (`overflow: visible`, the default), cut off and invisible (`overflow: hidden`) or the scrollbars are added to the side of a control to enable scrolling independent from the main window (`overflow: scroll` and `overflow: auto`). The two first options are represented directly in iOS with [`clipsToBounds` property of `UIView`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/.html#//apple_ref/occ/instp/UIView/clipsToBounds) - when set to `YES`, the content is clipped (cut off), the default is `NO`, like in the web. There is no direct replacement for automatic scrolls - in case we need that, we need to take care of it manually, creating an additional [`UIScrollView`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIScrollView_Class/).
 
 > `overflow: visible` <—> `clipsToBounds = NO`
 
@@ -54,14 +54,14 @@ Other positioning aspects
 
 > `z-index` CSS property <—> `layer.zPosition`, exposed through `bringSubviewToFront` and `sendSubviewToBack`
 
-Most of the **display** CSS property, as known in the web, doesn’t have a lot of sense in iOS layouts, as there is no distinction between inline and block elements and there’s no document flow, as we’ve already learned. The only `display` value that makes any sense for iOS is `none` that allows to hide the element without actually removing it from the view. The `UIView`’s property for this purpose is conveniently called [`hidden`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/hidden).
+Most of the **display** CSS property, as known in the web, doesn’t have a lot of sense in iOS layouts, as there is no distinction between inline and block elements and there’s no document flow, as we’ve already learned. The only `display` value that makes any sense for iOS is `none` that allows to hide the element without actually removing it from the view. The `UIView`’s property for this purpose is conveniently called [`hidden`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/.html#//apple_ref/occ/instp/UIView/hidden).
 
 > `display: none` <—> `hidden`
 
 Backgrounds
 ----
 
-In iOS, there is concise [`backgroundColor`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/backgroundColor) property that encapsulates most of background styling, much like `background` in CSS. At a first glance, it seems to be simple and intended for setting plain-colored backgrounds. But it’s actually much more powerful than that. `UIColor` class can be initialized using [`colorWithPatternImage` method](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIColor_Class/#//apple_ref/occ/clm/UIColor/colorWithPatternImage:) that takes an `UIImage` instance and the “color” it creates is actually an image that can fill our view’s background with repetition - however strange it might sound. In case we need more control over stretching, repetition etc., we need to defer to “manual” way. We need to add `UIImageView` as a subview to our view and ensure it is displayed at the bottom on Z-axis.
+In iOS, there is concise [`backgroundColor`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/.html#//apple_ref/occ/instp/UIView/backgroundColor) property that encapsulates most of background styling, much like `background` in CSS. At a first glance, it seems to be simple and intended for setting plain-colored backgrounds. But it’s actually much more powerful than that. `UIColor` class can be initialized using [`colorWithPatternImage` method](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIColor_Class/#//apple_ref/occ/clm/UIColor/colorWithPatternImage:) that takes an `UIImage` instance and the “color” it creates is actually an image that can fill our view’s background with repetition - however strange it might sound. In case we need more control over stretching, repetition etc., we need to defer to “manual” way. We need to add `UIImageView` as a subview to our view and ensure it is displayed at the bottom on Z-axis.
 
 > `background-color` CSS property <—> `backgroundColor` with plain color
 
@@ -78,7 +78,7 @@ Text properties
 
 As we discussed in [the first post](/ios-layouts-for-web-developers-1-basic-building-blocks/) the textual content in iOS may appear only within specialized controls like [`UILabel`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UILabel_Class/) or controls supporting [`NSAttributedString`](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSAttributedString_Class/) textual values.
 
-`NSAttributesString` has [plenty of options](https://developer.apple.com/library/ios/documentation/UIKit/Reference/NSAttributedString_UIKit_Additions/index.html#//apple_ref/doc/constant_group/Character_Attributes) for customizing text appearance, ranging from colors, through underlines and strikethroughs, to effects such as strokes and shadows. Some of the properties are encapsulated within [`NSParagraphStyle`](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/ApplicationKit/Classes/NSParagraphStyle_Class/index.html) available under `NSParagraphStyleAttributeName` key in the attributed string.
+`NSAttributesString` has [plenty of options](https://developer.apple.com/library/ios/documentation/UIKit/Reference/NSAttributedString_UIKit_Additions/.html#//apple_ref/doc/constant_group/Character_Attributes) for customizing text appearance, ranging from colors, through underlines and strikethroughs, to effects such as strokes and shadows. Some of the properties are encapsulated within [`NSParagraphStyle`](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/ApplicationKit/Classes/NSParagraphStyle_Class/.html) available under `NSParagraphStyleAttributeName` key in the attributed string.
 
 > `font` CSS properties combined <—> `NSAttributedString` with `NSFontAttributeName`
 
@@ -121,13 +121,13 @@ Fancy effects
 
 Some of the “fancy” text effects like text shadows or strokes are available through `NSAttributedString` we’ve just gone through. There are few more available, though. I think “fancy effects" is not a perfect heading, anyway, but I needed a place to describe few more properties that are available in iOS and are well-known in CSS but I couldn’t fit it anywhere else. So here we go:
 
-> `opacity` CSS property <—> [`alpha`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/alpha)
+> `opacity` CSS property <—> [`alpha`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/.html#//apple_ref/occ/instp/UIView/alpha)
 
 > `animation` CSS properties family <—> whole bunch of `UIView`’s [specialized methods](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/ViewPG_iPhoneOS/AnimatingViews/AnimatingViews.html)
 
 > `border-radius` CSS property for &lt;input&gt; <—> `UITextField`’s [`borderStyle`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITextField_Class/#//apple_ref/occ/instp/UITextField/borderStyle) set to `UITextBorderStyleRoundedRect`
 
-> `border-radius` CSS property in general <—> [`layer.cornerRadius`](https://developer.apple.com/library/mac/documentation/GraphicsImaging/Reference/CALayer_class/index.html#//apple_ref/occ/instp/CALayer/cornerRadius)
+> `border-radius` CSS property in general <—> [`layer.cornerRadius`](https://developer.apple.com/library/mac/documentation/GraphicsImaging/Reference/CALayer_class/.html#//apple_ref/occ/instp/CALayer/cornerRadius)
 
 
 That’s all I found useful and worth mentioning here, but of course the full list of styling-related features of UIKit, and especially when going down to CALayers is vast, likewise the full list of features in CSS, so I don’t think it’s even feasible to cover everything here.

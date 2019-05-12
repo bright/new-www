@@ -64,10 +64,10 @@ export default Canvas;
 
 This component creates canvas using parameters from `props` and after that you should see a black rectangle in canvas.
 
-For rendering the new component we can add it to `src/index.js`:
+For rendering the new component we can add it to `src/.js`:
 
 ```javascript
-// src/index.js
+// src/.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 

@@ -10,7 +10,7 @@ tags: android kotlin dagger viewmodel mvvm
 
 In the following post I'm going to show a simple (almost boilerplate-free) yet powerful implementation of the view models dependency injection on Android using Dagger.
 
-If you haven't read about the latest [Android Architecture Components libraries](https://developer.android.com/topic/libraries/architecture/index.html), the MVVM pattern and the [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel.html) class yet, please read it first as I don't explain it here.
+If you haven't read about the latest [Android Architecture Components libraries](https://developer.android.com/topic/libraries/architecture/.html), the MVVM pattern and the [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel.html) class yet, please read it first as I don't explain it here.
 
 # The Android weaknesses #
 
