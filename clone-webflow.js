@@ -112,7 +112,11 @@ async function downloadWebsite() {
             new ChangeTextResourcePlugin(async ({ resource }) => {
                 const resourceText = resource.getText();
                 if (resource.isHtml()) {
-                    return frontMatter + resourceText
+                    const body = cheerio.load(resourceText)('body');
+                    while (body.children().last().is('script') || body.children().last().html() === "") {
+                        body.children().last().remove();
+                    }
+                    return frontMatter + body.html()
                 } else {
                     return resourceText;
                 }
@@ -123,6 +127,7 @@ async function downloadWebsite() {
 }
 
 const frontMatter = `---
+layout: default
 ---
 
 `;
@@ -130,7 +135,9 @@ const frontMatter = `---
 async function main() {
     const result = await downloadWebsite();
 
-    const blog$ = cheerio.load(await readFile(path.join(targetPath, 'blog.html'), 'utf-8'), { decodeEntities: false });
+    const blogPath = path.join(targetPath, 'blog.html');
+    const blogContent = await readFile(blogPath, 'utf-8');
+    const blog$ = cheerio.load(blogContent.substr(frontMatter.length), { decodeEntities: false });
 
     const _postList = await readFile(path.join('_includes', '_post-list.html'), 'utf-8');
 
@@ -140,7 +147,7 @@ async function main() {
 
     blog$('.w-dyn-list').replaceWith(html);
 
-    await writeFile(path.join('blog', 'index.html'), blog$.html())
+    await writeFile(blogPath, frontMatter + blog$('body').html())
 }
 
 
