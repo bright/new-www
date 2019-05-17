@@ -23,7 +23,7 @@ Changing our visual identity was a true breath of fresh air. One would say that 
 
 ![](/images/rebranding_colors.png)
 
-The rebranding includes a redesign of the company’s logo, graphics, website, communications and correspondence. Bright Inventions' new brand assets apart from the logo include a simplified black-and-white symbol of letter  "b"  with a hint of innovation reflected in an orange square, along with other visual communications that utilise simple iconic graphics to convey complex solutions in an understandable way.
+The rebranding includes a redesign of the company’s logo, graphics, website, communications and correspondence. Bright Inventions' new brand assets include a simplified black-and-white logo and symbol with a hint of innovation reflected in an orange square, along with other visual communications that utilise simple iconic graphics to convey complex solutions in an understandable way.
 
 ![enter image description here](/images/rebranding_WE_DELIVER.png)
 
