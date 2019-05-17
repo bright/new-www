@@ -15,7 +15,7 @@ We have come a long way since our brand was founded in 2012. We have learned a l
 
 We figured out that a new logo would fit best since we want to create and grow the company based on the original foundations and goals we had in mind when Bright Inventions was started. **We wanted to show who we are and how we began.** We brainstormed, argued, persuaded each other, negotiated, discussed, debated, and we really did have loads of awesome ideas. And after several months we reached a consensus, all in favour of keeping our core values and coming back to the roots. That is how our new-old logo came into existence.
 
-![enter image description here](https://lh3.googleusercontent.com/1KnrxkU25sg9Awiq2BM1xiUi9YYfUglzLfszaXluQY4Ij2uNIYCfwOiqr2-XsxicCHgfTmUEJoZH "Bright_logo_history")
+![enter image description here](/images/logo_history.png)
 
 Looking at our current logo you can notice an orange square which also used to be a part of our first logo in history. Orange is linked with energy and optimism that you can always feel when you meet our team.
 
