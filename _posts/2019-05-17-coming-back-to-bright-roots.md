@@ -21,7 +21,7 @@ Looking at our current logo you can notice an orange square which also used to b
 
 Changing our visual identity was a true breath of fresh air. One would say that we have made a bold decision to put together the shades of orange, green and purple. But it is like putting together all fundamental values we represent. We balance ambition with flexibility because what matters is the final result. We work together to bring our passions and expertise to make Bright Inventions the best place it can be. And above all we love what we do and the people around us. In fact, we believe that happy people are more motivated, efficient and creative, so we bring a positive attitude to everything we do. It’s good for you, for the team, and for our customers.
 
-![](https://lh3.googleusercontent.com/7Efb4MUKPnDnTG9ljgoG-YLgMr9hS0RD0363tnl-aZoKztVcYVKDMhBF3JNBcwukK1E6a-uehVkG "branding_colours")
+![](/images/rebranding_colors.png)
 
 The rebranding includes a redesign of the company’s logo, graphics, website, communications and correspondence. Bright Inventions' new brand assets apart from the logo include a simplified black-and-white symbol of letter  "b"  with a hint of innovation reflected in an orange square, along with other visual communications that utilise simple iconic graphics to convey complex solutions in an understandable way.
 
