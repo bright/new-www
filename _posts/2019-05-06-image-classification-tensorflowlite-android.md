@@ -3,7 +3,7 @@ layout: post
 title: Image classification with TensorFlow Lite on Android
 author: radeks
 crosspost: true
-hidden: true
+hidden: false
 image: /images/image-classification-tensorflowlite-android/surf1.jpg
 tags: ['android', 'tensorflow lite', 'deep learning', 'image classification']
 ---
