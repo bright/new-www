@@ -3,7 +3,7 @@ layout: post
 title: Image classification with TensorFlow Lite on Android
 author: radeks
 crosspost: true
-hidden: true
+hidden: false
 image: /images/image-classification-tensorflowlite-android/surf1.jpg
 tags: ['android', 'tensorflow lite', 'deep learning', 'image classification']
 ---
@@ -163,14 +163,11 @@ data class Recognition(
 ## It’s showtime!
 
 The above code is a minimalistic version for getting TFLite solving for us _image classification_ problem. With the provided model you can successfully classify all photos that are in this blog post. 📸 
-
+You can find the demo [here](https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification).
 
 
 
 ![](/images/image-classification-tensorflowlite-android/windsurf.jpg)
-
-
-You can find the demo [here](https://github.com/ares97/tflitedemo-mobilenetv2-imagenet-classification).
 
 
 
