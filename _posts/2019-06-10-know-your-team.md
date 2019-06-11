@@ -19,15 +19,15 @@ We all know that working together on a project is not everything. In order to bu
 
 Know Your Team is a tool where we can ask questions, give recognition and feedback, express our complaints or say what can be done to make our company a better place. We talk there about our company culture, work organisation, time management and we also share there updates on our work progress. Everything is done on weekly basis without redundant breaks. Speaking bluntly, it is the tool which helps you stay up-to-date with your team’s life and build (in consequence also improve) our relationships.
 
-1.**Heartbeat Checkins**
+1. Heartbeat Checkins
 
 Sharing work/progress updates with the team is something we can do every Monday by answering  a simple question "What are you working on?". It does not only save time and energy, but also gives each and every team member an opportunity to be on the same page of current issues and projects.  And it also gives an opportunity to talk about some interesting key points later during a coffee break or lunch.
 
-2.**Culture questions**
+2. Culture questions
 
 Each Wednesday we get one question to uncover how the team feels about the work and culture. At times we add our own questions and we can also take advantage of a huge base of questions suggested by managers from other companies.  In this way we are able to work on our company culture all the time and learn something new every week. If there is a problem, we can handle it immediately. Culture questions encourage the team to raise all the issues smoothly and embrace transparency. 
 
-3.**Social questions**
+3. Social questions
 
 On Fridays we have social non-work-related questions such as “what is your favourite ice-cream flavour" or “what is your best childhood memory” or just how happy your are at the moment. Having a strong relationships at work drives employee engagement, but it does not happen automatically. Building strong coworker relationships takes time and effort. It is not only about work itself. Real team is not only a bunch of individuals working together, it is a group of people who like each other, have similar values and feel that they are an integral part of your organisation. 
 
