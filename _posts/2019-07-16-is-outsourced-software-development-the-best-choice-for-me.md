@@ -20,7 +20,7 @@ Here’s a breakdown that might just solve your dilemma between in-house vs. out
 
 This might be a good solution if you’re looking to develop a simple project that won’t need ongoing, complex maintenance.
 
-You might hit the jackpot by working with freelancers who come highly recommended by someone you know or a reputable online commustnity. From a pragmatic point of view, working with such a person might also be cost-effective.
+You might hit the jackpot by working with freelancers who come highly recommended by someone you know or a reputable online community. From a pragmatic point of view, working with such a person might also be cost-effective.
 
 You’ll also quickly notice that top-rated freelancers are some of the most insightful, enthusiastic developers in the game. No wonder – doing project-based work for diverse clients requires them to be inventive and stay informed if they want to stand out on the market.
 
