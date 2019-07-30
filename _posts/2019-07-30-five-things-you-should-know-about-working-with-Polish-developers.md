@@ -3,7 +3,7 @@ layout: post
 title: Five things you should know about working with Polish developers
 author: ula 
 hidden: false
-extract: Let us be honest: outsourcing your software development to a different company or – even more so – country, is always a huge step. So, it is natural that you want to look into every possible option. Now, given that you have come across this post, we are assuming you are at least a little intrigued with what it is like to work with Polish developers. Are they really as good as they say? How easy is it to communicate with them in English? What about their work ethics? Wonder no more!
+extract: Outsourcing your software development to a different company or – even more so – country, is always a huge step. So, it is natural that you want to look into every possible option. Now, given that you have come across this post, we are assuming you are at least a little intrigued with what it is like to work with Polish developers. Are they really as good as they say? How easy is it to communicate with them in English? What about their work ethics? Wonder no more!
 tags: ['software development', Poland, outsourcing, 'software house' ]
 ---
 
