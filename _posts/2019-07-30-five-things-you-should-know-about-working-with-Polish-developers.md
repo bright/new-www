@@ -22,18 +22,19 @@ Poles were only two points short from the top two countries on the list, China a
 
 Also, here’s a much more tangible representation of their skillset – this [Cyberpunk 2077 trailer](https://www.youtube.com/watch?v=qIcTM8WXFjk&has_verified=1) by Polish game developer CD Projekt Red shows you just how insanely good Polish tech people are.
 
-  ### 2. Polish people speak English very well
+### 2. Polish people speak English very well
   
 I am sure you have read some dreadful stories about how outsourcing to a foreign country can be a real nightmare, as you might end up working with a team that barely speaks any English. This won’t be your worry if you choose to work with [a software house from Poland](https://brightinventions.pl/). English is by far the most widely spoken foreign language in the country (a huge factor being that you can only graduate from high school if you pass a foreign language exam).
 
 Take a look at Poland’s [English Proficiency Index](https://www.ef.pl/epi/compare/regions/pl/cn/)), as compared to Russia and China (so, the other two countries on the HackerRank podium):
 
 ![](/images/English_proficiency_Index_Poland_China.png)
+
 ![](/images/English_Proficiency_Index_Poland_Russia.png)
 
  Bear in mind that these statistics show Poland as a whole – not just the IT crowd. Looks encouraging, doesn’t it?
 
-  ### 3. Polish developers are known for strong work ethics
+### 3. Polish developers are known for strong work ethics
 
 There’s no better way to put this than in the words of the [European Committee](https://ec.europa.eu/eures/main.jsp?catId=2789&countryId=PL&acro=lmi&lang=en&regionId=PL0&nuts2Code=%20&nuts3Code=&regionName=National%20Level): “Poland's greatest asset is its people. What stands out is their ambition, motivation to learn, high work ethics, loyalty and rare entrepreneurial spirit”. This is clearly reflected in the way Polish developers work, prioritize, as well as in their understanding of the word “done”.
 
@@ -41,7 +42,7 @@ You’ll also notice that Polish developers don’t give up on challenging tasks
 
 There are thousands of global companies with significant business operation units located in Poland. These include, for instance, JP Morgan Chase, Google, Uber, Goldman Sachs, EY and McKinsey & Company, among many, many others. This also means that many programmers at Polish software houses have previously worked and gained experience at these and other multinational organisations.
 
-  ### 4. Poland is GDPR compliant – meaning, your data is safe and sound
+### 4. Poland is GDPR compliant – meaning, your data is safe and sound
 
 Safety is another crucial point you can cross off from your potential worries’ list. Being part of the EU, Polish software companies are GDPR-compliant and the data you disclose to them is protected on all fronts (to demonstrate, here’s an example of our own [privacy policy](https://brightinventions.pl/privacy-policy/) at Bright Inventions).
 
