@@ -41,6 +41,7 @@ layout: default
                 <div class="div-block-52">
                     <div class="text-block-14">{% include post/read_duration.html %}</div>
                     <div class="text-block-13">{% if page.tags %}{{ page.tags | join: ', ' }}{% endif %}</div>
+                    <div class="text-block-13 date">{% include post/date.html %}{{ time }}</div>
                 </div>
             </div>
             <h1 class="heading-17">{{ page.title }}</h1>
