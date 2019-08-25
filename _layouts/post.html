@@ -49,6 +49,9 @@ layout: default
             </div>
             {% include post/crosspost.html %}
         </div>
+        {% if site.owner.disqus-shortname and page.comments == true %}
+        <section id="disqus_thread"></section><!-- /#disqus_thread -->
+        {% endif %}
     </div>
 </div>
 <div class="container-32 w-container"><a href="javascript: history.go(-1)" class="backbutton w-inline-block"><img
