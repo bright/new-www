@@ -1,0 +1,9 @@
+{% for job in site.jobs %}
+<div class="w-dyn-item">
+    <a href="{{ job.url }}" class="link-block-5 w-inline-block">
+        <h1 class="heading-6">{{ job.title }}</h1>
+        <div class="text-block-5">{{ job.hours }}</div>
+        <div class="text-block-6">{{ job.salary }}</div>
+    </a>
+</div>
+{% endfor %}

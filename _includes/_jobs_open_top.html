@@ -1,0 +1,11 @@
+{% for job in site.jobs limit:3 %}
+<div class="collection-item-2 w-dyn-item">
+    <a href="{{ job.url }}" class="link-block-12 w-inline-block">
+        <img src="{{ site.url }}/images/3squares_white.svg" width="22" alt class="image-42">
+        <h1 class="job_heading_collection">{{ job.title }}</h1>
+        <div class="text-block-3">{{ job.hours }}</div>
+        <div class="text-block-4">{{ job.salary }}</div>
+    </a>
+    <a href="{{ site.url }}/apply-for-job" class="apply_job_button w-button">apply</a>
+</div>
+{% endfor %}

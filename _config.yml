@@ -81,3 +81,7 @@ social:
     - https://twitter.com/brightdevs
     - https://www.instagram.com/bright_inventions/
     - https://stackoverflow.com/jobs/companies/bright-inventions
+
+collections:
+  jobs:
+    output: true

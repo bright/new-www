@@ -1,0 +1,32 @@
+<div class="div-block-18">
+    {% assign author = site.data.authors[page.author] %}
+    <!--            {% if page.image %}-->
+    <!--            <img src="{{ site.url }}/{{ page.image }}"-->
+    <!--                 alt class="image-21">-->
+    <!--            {% endif %}-->
+    <div class="div-block-49">
+        <div class="div-block-51">
+            {% if author.avatar %}
+            <img width="65" src="{{ author.avatar }}" alt="{{ author.name }} bio photo" class="image-23">
+            {% endif %}
+
+            <div class="div-block-50">
+                <div class="text-block-11">{{ author.name }}</div>
+                <div class="text-block-12">{{ author.bio }}</div>
+            </div>
+        </div>
+        <div class="div-block-52">
+            <div class="text-block-14">{% include post/read_duration.html %}</div>
+            <div class="text-block-13">{% if page.tags %}{{ page.tags | join: ', ' }}{% endif %}</div>
+            <div class="text-block-13 date">{% include post/date.html %}{{ time }}</div>
+        </div>
+    </div>
+    <h1 class="heading-17">{{ page.title }}</h1>
+    <div class="rich-text-block-5 w-richtext">
+        {{ content }}
+    </div>
+    {% include post/crosspost.html %}
+</div>
+{% if site.owner.disqus-shortname and page.comments == true %}
+<section id="disqus_thread"></section><!-- /#disqus_thread -->
+{% endif %}
