@@ -15,13 +15,14 @@ const actionTypes = {
         anchors.each((ix, element) => {
             const anchor = $(element);
             let href = anchor.attr("href");
-            if (href && !/^(https?|mailto|javascript|blob):/.test(href)) {
+            if (href && !/^(https?:|mailto:|javascript:|blob:|#)/.test(href)) {
                 href = `{{ site.url }}/${href}`;
                 anchor.attr("href", href)
             }
 
             if (href && /\.html$/.test(href)) {
-                href = href.replace(".html", "");
+                href = href.replace("index.html", "")
+                    .replace(".html", "");
                 anchor.attr("href", href)
             }
         });
@@ -70,7 +71,7 @@ const actionTypes = {
             frontmatter: `layout: default`
         };
 
-        let layoutContent = $.html(match.children(), extractHtmlOptions);
+        let layoutContent = match.html()
         if (match.attr('class')) { // preserve class of matched element but change tag to div if body
             if (match.is('body')) {
                 match.each((index, element) => {
@@ -89,7 +90,7 @@ ${frontMatter.frontmatter}
 ${layoutContent}`
         };
     },
-    removeElement: async function({selector}, context){
+    removeElement: async function ({ selector }, context) {
         const $ = cheerio.load(context.content, extractHtmlOptions);
         const match = $(selector);
         match.remove();

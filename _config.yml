@@ -85,3 +85,5 @@ social:
 collections:
   jobs:
     output: true
+  projects:
+    output: true
