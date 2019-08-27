@@ -3,6 +3,7 @@ title: ePOS and RMS
 description: 'Our service included creating an intelligent point-of-sale application which runs on iPads. The application is widely used in Israel and since 2016 has been successfully entering European market. We were responsible for providing: backend server, web application a set of mobile applications including the main POS app, customer facing application, self-checkout application. In addition to development we are still taking care of the management, testing and the maintenance of the system.'           
 image: /images/practi-main.png
 layout: details_projects
+redirect_from: /epos-and-retail-management-system
 ---
 
 <div class="div-block-project_mainfeature">
