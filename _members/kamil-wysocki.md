@@ -1,5 +1,5 @@
 ---
-id: kwysocki
+author_id: kwysocki
 slug: kwysocki
 title: Kamil
 name: Kamil Wysocki

@@ -1,5 +1,5 @@
 ---
-id: alisa
+author_id: alisa
 slug: alisa
 title: Meet Alisa
 name: Alisa Kashytska

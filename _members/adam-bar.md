@@ -1,5 +1,5 @@
 ---
-id: adam
+author_id: adam
 slug: adam
 title: Meet Adam
 name: Adam Bar

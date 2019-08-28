@@ -1,5 +1,5 @@
 ---
-id: szymek
+author_id: szymek
 slug: szymek
 title: Meet Szymon
 name: Szymon Miloch

@@ -1,5 +1,5 @@
 ---
-id: radeks
+author_id: radeks
 slug: radeks
 title: Meet Radek
 name: Radosław Słowiński

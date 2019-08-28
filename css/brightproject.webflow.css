@@ -158,7 +158,7 @@ a {
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
   text-align: center;
 }
 
@@ -227,7 +227,7 @@ a {
 }
 
 .nav-link {
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .nav-link:hover {
@@ -254,7 +254,7 @@ a {
   background-image: url('../images/b-67_gradient4.png');
   background-position: 0px 0px;
   background-size: cover;
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
 }
 
@@ -316,7 +316,7 @@ a {
 }
 
 .nav-link-4 {
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #f7931e;
   font-weight: 700;
 }
@@ -438,7 +438,7 @@ a {
 }
 
 .nav-link-7 {
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .nav-linkmenu {

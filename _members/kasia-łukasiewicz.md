@@ -1,5 +1,5 @@
 ---
-id: kasia
+author_id: kasia
 slug: kasia
 title: Meet Kasia
 name: Kasia Łukasiewicz

@@ -1,5 +1,5 @@
 ---
-id: bartekr
+author_id: bartekr
 slug: bartekr
 title: Meet Bartek
 name: Bartek Rozwarski

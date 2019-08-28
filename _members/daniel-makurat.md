@@ -1,5 +1,5 @@
 ---
-id: daniel
+author_id: daniel
 slug: daniel
 title: Meet Daniel
 name: Daniel Makurat

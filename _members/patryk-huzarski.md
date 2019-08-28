@@ -1,5 +1,5 @@
 ---
-id: patryk
+author_id: patryk
 slug: patryk
 title: Meet Patryk
 name: Patryk Huzarski

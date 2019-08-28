@@ -1,5 +1,5 @@
 ---
-id: mateuszklimek
+author_id: mateuszklimek
 slug: mateuszklimek
 title: Meet Mateusz
 name: Mateusz Klimek

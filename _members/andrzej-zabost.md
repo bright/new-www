@@ -1,5 +1,5 @@
 ---
-id: azabost
+author_id: azabost
 slug: azabost
 title: Meet Andrzej
 name: Andrzej Zabost

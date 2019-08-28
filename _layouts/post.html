@@ -6,8 +6,8 @@ layout: default
 
 <div class="section-14">
     <div class="w-container">
-        <div class="div-block-18">
-            {% assign author = site.members | where: "id", page.author | first %}
+        <div class="div-block-18 blog-post">
+            {% assign author = site.members | where: "author_id", page.author | first %}
 <!--            {% if page.image %}-->
 <!--            <img src="{{ site.url }}/{{ page.image }}"-->
 <!--                 alt class="image-21">-->

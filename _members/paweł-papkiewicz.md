@@ -1,5 +1,5 @@
 ---
-id: pawel
+author_id: pawel
 slug: pawel
 title: Paweł
 name: Paweł Papkiewicz

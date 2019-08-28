@@ -1,5 +1,5 @@
 ---
-id: lukasz
+author_id: lukasz
 slug: lukasz
 title: Meet Łukasz
 name: Łukasz Reszetow

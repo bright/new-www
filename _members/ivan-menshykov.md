@@ -1,5 +1,5 @@
 ---
-id: ivan
+author_id: ivan
 slug: ivan
 title: Meet Ivan
 name: Ivan Menshykov

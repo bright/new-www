@@ -1,5 +1,5 @@
 ---
-id: michal
+author_id: michal
 slug: michal
 title: Meet Michał
 name: Michał Łukasiewicz

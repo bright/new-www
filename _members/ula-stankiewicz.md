@@ -1,5 +1,5 @@
 ---
-id: ula
+author_id: ula
 slug: ula
 title: Meet Ula
 name: Ula Stankiewicz

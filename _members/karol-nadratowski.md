@@ -1,5 +1,5 @@
 ---
-id: karoln
+author_id: karoln
 slug: karoln
 title: Meet Karol
 name: Karol Nadratowski

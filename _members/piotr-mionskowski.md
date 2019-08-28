@@ -1,5 +1,5 @@
 ---
-id: piotr
+author_id: piotr
 slug: piotr
 title: Piotr
 name: Piotr Mionskowski

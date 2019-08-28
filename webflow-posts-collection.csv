@@ -12,7 +12,7 @@ Name,Slug,Created On,Updated On,Published On,Post Body,Post Summary,Main Image,T
 {%- endfor -%}
 {%- for post in visible_posts -%}
 {%- if post.author -%}
-  {%- assign author = site.members | where: "id", page.author | first -%}
+  {%- assign author = site.members | where: "author_id", page.author | first -%}
 {%- else -%}
   {%- assign author = site.owner -%}
 {%- endif -%}

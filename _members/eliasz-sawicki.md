@@ -1,5 +1,5 @@
 ---
-id: eliasz
+author_id: eliasz
 slug: eliasz
 title: Eliasz
 name: Eliasz Sawicki

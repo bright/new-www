@@ -1,5 +1,5 @@
 ---
-id: piotr_l
+author_id: piotr_l
 slug: piotr_l
 title: Piotr
 name: Piotr Łupiński

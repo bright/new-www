@@ -1,5 +1,5 @@
 ---
-id: marcink
+author_id: marcink
 slug: marcink
 title: Meet Marcin
 name: Marcin Kwiatkowski

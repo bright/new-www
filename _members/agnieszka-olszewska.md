@@ -1,5 +1,5 @@
 ---
-id: agnieszka
+author_id: agnieszka
 slug: agnieszka
 title: Meet Agnieszka
 name: Agnieszka Olszewska

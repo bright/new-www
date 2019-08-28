@@ -1,5 +1,5 @@
 ---
-id: olo
+author_id: olo
 slug: olo
 title: Aleksander
 name: Aleksander Wielgórski

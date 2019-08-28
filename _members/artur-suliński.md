@@ -1,5 +1,5 @@
 ---
-id: arturs
+author_id: arturs
 slug: arturs
 title: Meet Artur
 name: Artur Suliński

@@ -1,5 +1,5 @@
 ---
-id: monika
+author_id: monika
 slug: monika
 title: Monika
 name: Monika Niegrzybowska

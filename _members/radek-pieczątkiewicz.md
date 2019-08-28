@@ -1,5 +1,5 @@
 ---
-id: radek
+author_id: radek
 slug: radek
 title: Meet Radek
 name: Radek Pieczątkiewicz

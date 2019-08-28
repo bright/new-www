@@ -1,5 +1,5 @@
 ---
-id: grzesiek
+author_id: grzesiek
 slug: grzesiek
 title: Meet Grzegorz
 name: Grzegorz Cieśla

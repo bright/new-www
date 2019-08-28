@@ -1,5 +1,5 @@
 ---
-id: mateusz
+author_id: mateusz
 slug: mateusz
 title: Meet Mateusz
 name: Mateusz Klimczak
