@@ -91,3 +91,5 @@ collections:
   members:
     output: true
     permalink: /about-us/:title
+
+simple_form_api_token: 678fce754c519d81606f78fc7ae53a36
