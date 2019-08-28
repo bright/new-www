@@ -1,4 +1,4 @@
-{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif
+{% if page.author %} {% assign author = site.members | where: "id", page.author | first %}{% else %}{% assign author = site.owner %} {% endif
 %}
 
 <ul class="share-buttons">

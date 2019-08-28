@@ -1,5 +1,5 @@
 {% if page.author %}
-{% assign author = site.data.authors[page.author] %}{% else %}{% assign author = {} %}
+{% assign author = site.members | where: "id", page.author | first %}{% else %}{% assign author = {} %}
 {% endif %}
 {% if page.crosspost %}{% assign crosspost_template = page.crosspost %}{% endif %}
 {% if crosspost_template == true %}

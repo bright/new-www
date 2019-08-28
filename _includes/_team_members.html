@@ -1,0 +1,12 @@
+{% for member in site.members %}
+{% unless member.ex %}
+<div class="collection-item-4 w-dyn-item w-col w-col-3">
+    <div class="div-block-11 div-block-13">
+        <a href="{{ member.url }}" class="link-block-4 w-inline-block">
+            <img width="100" src="{{ member.avatar | absolute_url }}" alt="{{ member.name }}" class="team_photo">
+            <h1 class="team_name">{{ member.short_name }}</h1>
+        </a>
+    </div>
+</div>
+{% endunless %}
+{% endfor %}

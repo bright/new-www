@@ -1,5 +1,5 @@
 <div class="div-block-18">
-    {% assign author = site.data.authors[page.author] %}
+    {% assign author = site.members | where: "id", page.author | first %}
     <!--            {% if page.image %}-->
     <!--            <img src="{{ site.url }}/{{ page.image }}"-->
     <!--                 alt class="image-21">-->

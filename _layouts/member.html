@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% include _top_navigation.html %}
+
+<div>
+    <div class="container-23 w-container">
+        <div class="div-block-14">
+            <div class="w-layout-grid grid-15"><img width="262" src="{{ page.avatar | absolute_url }}" alt
+                                                    class="image-7">
+                <div><h1 class="heading-2 teammembers">{{ page.short_name }}</h1>
+                    <div class="rich-text-block-2 w-richtext">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-container"><a href="javascript: history.go(-1)" class="backbutton w-inline-block"><img
+            src="{{ site.url }}/images/arrow-back.svg" width="30" alt>
+        <div class="text-block-26">Back</div>
+    </a></div>
+</div>
+
+{% include _footer.html %}
