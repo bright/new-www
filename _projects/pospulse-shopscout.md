@@ -24,8 +24,11 @@ redirect_from: /pospulse-shopscout
 <div class="rich-text-project_mainfeature w-richtext" markdown="1">
 
 **iOS:** Objective-C, Reactive Cocoa, geolocation
+
 **Android:** Java, low-end devices support, performance optimization, off-line support
+
 **Backend:** Ruby on Rails, Google Cloud, Chef
+
 **Web:** Angular, Highcharts
 
 </div>
