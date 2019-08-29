@@ -23,8 +23,11 @@ redirect_from: /epos-and-retail-management-system
 <div class="rich-text-project_mainfeature w-richtext" markdown="1">
 
 **iOS:** Objective-C, Swift, ReactiveCocoa
+
 **Android:** Kotlin, AndroidX
+
 **Backend:** Kotlin, Java, Node.js, Docker, AWS, MySQL, PostgreSQL
+
 **Frontend:** Angular, Babel, Elastic Beanstalk, Docker
 
 </div>
