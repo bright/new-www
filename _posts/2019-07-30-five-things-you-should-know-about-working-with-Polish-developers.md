@@ -53,5 +53,4 @@ Poland is ideally located if you want a team who’s available regardless whethe
 
 So, for instance, if you want to schedule your sprint planning call during your morning coffee at 9 a.m., EST, your developers will just have finished lunch, with 3 p.m. on the clock.
 
-
 **Hopefully, we have answered at least some of the questions you may have about working with Polish developers. If there is anything else you would like to know, reach us out. We would love to tell you more!**
