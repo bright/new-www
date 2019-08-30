@@ -5,40 +5,29 @@ description: choose a long-term IT partner who will help ypu create a reliable s
 ---
 
 <div>
-    <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="c580002b-9f94-1c00-b7e4-e5af8321f4c1"
-         class="navbar-5 navbar_on_photo w-nav">
-        <div class="container-4 w-container"><a href="{{ site.url }}/" class="w-nav-brand"><img
-                src="{{ site.url }}/images/5c597db37cfe14a8e24f4a0f_bright_inventions_logo_500-01.png" width="175" alt class="image-4"></a>
-            <nav role="navigation" class="nav-menu-4 w-nav-menu"><a href="{{ site.url }}/about-us" class="nav-linkmenu w-nav-link">About Us</a><a
-                    href="{{ site.url }}/what-we-offer" class="nav-linkmenu w-nav-link">What We offer</a><a href="{{ site.url }}/projects"
-                                                                                                            class="nav-linkmenu w-nav-link">Projects</a><a
-                    href="{{ site.url }}/career" class="nav-linkmenu w-nav-link">Careers</a><a href="{{ site.url }}/blog"
-                                                                                               class="nav-linkmenu w-nav-link">Blog</a><a
-                    href="{{ site.url }}/start-project" class="start-s-project-button w-button w--current">contact us</a></nav>
-            <div class="menu-button w-nav-button">
-                <div class="icon-5 w-icon-nav-menu"></div>
-            </div>
-        </div>
-    </div>
+    {% include _top_navigation.html %}
 </div>
 <div class="section-15">
-    <div class="w-container"><h1 class="starttprojectheading">need help with your project?</h1>
+    <div class="w-container">
+        <h1 class="starttprojectheading">need help with your project?</h1>
         <div class="form-block w-form">
-            <form id="wf-form-start-project-form" name="wf-form-start-project-form" data-name="start project form" class="brightform" action="https://getsimpleform.com/messages?form_api_token={{ site.simple_form_api_token }}" method="post"><label for="name-2"
-                                                                                                                                             class="field-label">Name</label><input
-                    type="text" class="text-field contact-form w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="i.e. Aretha Franklin"
-                    id="name-2" required><label for="email-2" class="field-label-2">Email Address</label><input type="email" class="text-field-2 w-input"
-                                                                                                                maxlength="256" name="email-2"
-                                                                                                                data-name="Email 2"
-                                                                                                                placeholder="name@example.com" id="email-2"
-                                                                                                                required><label
-                    class="field-label-3">Message</label><textarea id="field-2" name="field-2" maxlength="5000" placeholder="tell us about your project"
-                                                                   data-name="Field 2" required class="textarea w-input"></textarea>
-                <div class="checkbox-field w-checkbox"><input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" required
-                                                              class="checkbox check58 w-checkbox-input"><label for="checkbox"
-                                                                                                               class="checkbox-label checklsbel58 w-form-label">I
-                    accept the <a href="{{ site.url }}/privacy-policy" target="_blank"><strong class="bold-text-2">Privacy Policy</strong></a></label></div>
-                <input type="submit" value="Submit" data-wait="Hold on! Almost there!" class="submit-button start-s-project-button submit w-button"></form>
+            <form class="brightform" data-form-type="start-a-project" action="#">
+                <label for="name-2" class="field-label">Name</label>
+                <input type="text" class="text-field contact-form w-input" maxlength="256" name="name" data-name="Name 2" placeholder="i.e. Aretha Franklin"
+                       id="name-2" required>
+                <label for="email-2" class="field-label-2">Email Address</label>
+                <input type="email" class="text-field-2 w-input" maxlength="256" name="email" data-name="Email 2" placeholder="name@example.com" id="email-2"
+                       required>
+                <label class="field-label-3">Message</label>
+                <textarea id="field-2" name="message" maxlength="5000" placeholder="tell us about your project" data-name="Field 2" required
+                          class="textarea w-input"></textarea>
+                <label class="w-checkbox checkbox-field">
+                    <input type="checkbox" id="checkbox" name="accept-policy" value="yes" data-name="Checkbox" required
+                           class="w-checkbox-input checkbox check58">
+                    <span for="checkbox" class="checkbox-label checklsbel58 w-form-label">I accept the <a href="{{ site.url }}/privacy-policy" target="_blank">
+                        <strong class="bold-text-2">Privacy Policy</strong></a></span></label>
+                <input type="submit" value="submit" data-wait="Hold on! Almost there!" class="submit-button start-s-project-button submit w-button">
+            </form>
             <div class="success-message w-form-done">
                 <div class="text-block-22">Thank you! Your submission has been received!</div>
             </div>
@@ -46,64 +35,16 @@ description: choose a long-term IT partner who will help ypu create a reliable s
                 <div class="text-block-23">Oops! Something went wrong while submitting the form.</div>
             </div>
         </div>
-        <a href="javascript: history.go(-1)" class="backbutton w-inline-block"><img src="{{ site.url }}/fonts/5cc1abc4f13cce312b2d40be_arrow%20back.svg"
-                                                                                    width="30" alt>
+        <a href="javascript: history.go(-1)" class="backbutton w-inline-block"><img src="{{ site.url }}/images/arrow-back.svg" width="30" alt>
             <div class="text-block-26">Back</div>
         </a></div>
 </div>
-<div class="footer_section">
-    <div class="container-29 w-container">
-        <div class="div-block-44 divblock_footer">
-            <div><a href="{{ site.url }}/" class="w-inline-block"><img src="{{ site.url }}/images/5c597db37cfe14a8e24f4a0f_bright_inventions_logo_500-01.png"
-                                                                       width="185" alt class="image-35"></a></div>
-            <div class="html-embed w-embed w-script">
-                <script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script>
-                <div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="1" data-height="50" data-clutchcompany-id="32656"></div>
-            </div>
-            <div class="divblock_footer address">
-                <div class="div-block-45"><img src="{{ site.url }}/fonts/5c8a1f9b2bece9f7101fc00a_location_purple.svg" alt class="image-13">
-                    <p class="paragraph-9">ul. Jana Matejki 12, <br>80-232 Gda&#x144;sk</p></div>
-                <div class="div-block-46"><img src="{{ site.url }}/fonts/5c8a1fafcac69e0051f6bd7f_email_purple.svg" width="22" alt class="image-34">
-                    <p class="paragraph-9">info@brightinventions.pl</p></div>
-            </div>
-        </div>
-        <div class="div-block-44 divblock_footer divblock_check_project check">
-            <div><p class="paragraph-9 check-project">our latest project</p></div>
-            <a href="{{ site.url }}/projects" class="link-block-8 w-inline-block"><img
-                    src="{{ site.url }}/fonts/5c88d83b590edafb034a2b52_motivo_illustration4.svg" width="245" alt class="image-36 latestproject"></a></div>
-        <div class="div-block-44 divblock_footer divblock_check_project"><p class="paragraph-9 check-project">services</p><a href="{{ site.url }}/what-we-offer"
-                                                                                                                             class="w-inline-block"><h1
-                class="footer_linkingtext morespace firstlink">web development</h1></a><a href="{{ site.url }}/what-we-offer" class="w-inline-block"><h1
-                class="footer_linkingtext morespace">mobile development</h1></a><a href="{{ site.url }}/what-we-offer" class="w-inline-block"><h1
-                class="footer_linkingtext morespace">consulting services</h1></a><a href="{{ site.url }}/what-we-offer" class="w-inline-block"><h1
-                class="footer_linkingtext">UX/UI design</h1></a></div>
-        <div class="div-block-44 divblock_footer divblock_check_project"><p class="paragraph-9 check-project">sitemap</p><a href="{{ site.url }}/about-us"
-                                                                                                                            class="w-inline-block"><h1
-                class="footer_linkingtext morespace firstlink">about us</h1></a><a href="{{ site.url }}/what-we-offer" class="w-inline-block"><h1
-                class="footer_linkingtext morespace">what we offer</h1></a><a href="{{ site.url }}/projects" class="w-inline-block"><h1
-                class="footer_linkingtext morespace">projects</h1></a><a href="{{ site.url }}/career" class="w-inline-block"><h1 class="footer_linkingtext">
-            careers</h1></a><a href="{{ site.url }}/blog" class="w-inline-block"><h1 class="footer_linkingtext">blog</h1></a></div>
-    </div>
-    <div class="container-30 w-container">
-        <div class="w-layout-grid grid-11 largeicons"><a id="w-node-01f6e29c874d-e29c871b" href="https://www.facebook.com/Bright.Inventions/"
-                                                         class="w-inline-block"><img src="{{ site.url }}/fonts/5c8a24dacac69e7b63f6c439_facebook.svg" width="38"
-                                                                                     alt class="social-icon"></a><a id="w-node-01f6e29c874f-e29c871b"
-                                                                                                                    href="https://twitter.com/BrightDevs"
-                                                                                                                    class="w-inline-block"><img
-                src="{{ site.url }}/fonts/5c8a24fdb9cbd1656495732e_twitter.svg" width="38" alt class="social-icon"></a><a id="w-node-01f6e29c8751-e29c871b"
-                                                                                                                          href="https://www.linkedin.com/company/bright-inventions/"
-                                                                                                                          class="w-inline-block"><img
-                src="{{ site.url }}/fonts/5c8a2577b9cbd1bce0957432_linkedIn.svg" width="38" alt class="image-17 social-icon"></a><a
-                id="w-node-01f6e29c8753-e29c871b" href="https://www.instagram.com/bright_inventions/" class="w-inline-block"><img
-                src="{{ site.url }}/fonts/5c8a25c235905d0236642f65_instagram.svg" width="38" alt class="image-18"></a><a id="w-node-01f6e29c8755-e29c871b"
-                                                                                                                         href="https://github.com/bright"
-                                                                                                                         class="w-inline-block"><img
-                src="{{ site.url }}/fonts/5c8a25e2cac69e35f3f6c5f8_GitHub.svg" width="38" alt class="image-16"></a></div>
-        <div class="div-block-15"><h1 class="footer_linkingtext morespace all-rights-reserved bright">&#xA9; 2019 Bright Inventions. All rights reserved.</h1>
-            <div class="text-block-10">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will
-                assume that you are happy with it.
-            </div>
-            <a href="{{ site.url }}/privacy-policy" target="_blank" class="link-2">Privacy Policy</a></div>
-    </div>
-</div><!--[if lte IE 9]>
-<script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+{% include _footer.html %}
+
+
+<!-- [if lte IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+<!-- Start Cookie Script -->
+
+<!-- End Cookie Script -->
+
