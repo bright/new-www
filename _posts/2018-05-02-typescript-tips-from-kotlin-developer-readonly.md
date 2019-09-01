@@ -2,7 +2,6 @@
 layout: post
 title: TypeScript tips from Kotlin developer - readonly
 author: piotr
-hidden: true
 tags: TypeScript Kotlin readonly immutability
 comments: true
 crosspost: false
