@@ -18,5 +18,5 @@ redirect_from: /piotr
 layout: member
 ---
 
-A Man Dancing with the Code. Piotr is a real full stack developer with over 12 years of professional experience. Backend APIs, distributed systems, databases are only some among his main fields of interests. Always up-to-date. Always focused. Always asking "Why?".
+A Man Dancing with the Code. Piotr is a real full stack developer with over 12 years of professional experience. Backend APIs, distributed systems, infrastracture, databases are only some among his main fields of interests. Always up-to-date. Always focused. Always asking "Why?".
 
