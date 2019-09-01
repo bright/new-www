@@ -19,7 +19,7 @@ Simple positioning
 
 ![Simple positioning](/images/simple-positioning.png)
 
-{% highlight swift%}
+```swift
 
 func pureLayout() {
     box.autoPinEdge(toSuperviewEdge: .top, withInset: 50)
@@ -177,7 +177,7 @@ Updating constraint's constant
 
 ![ScrollView positioning](/images/move.gif)
 
-{% highlight swift%}
+```swift
 
 var buttonLeftConstraint: NSLayoutConstraint?
 
