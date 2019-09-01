@@ -35,16 +35,16 @@ I wrote [app](https://play.google.com/store/apps/details?id=com.everytap&hl=en) 
 # How to use it?
 
 Add `FrameVideoView` to layout:
-{% highlight xml %}
+```xml
   <mateuszklimek.framevideoview.FrameVideoView
     android:id="@+id/frame_video_view"
     android:layout_width="@dimen/video_width"
     android:layout_height="@dimen/video_height"
   />
-{% endhighlight %}
+```
 
 find its instance in `Activity` and call corresponding methods in `onResume` and `onPause`:
-{% highlight java %}
+```java
 public class SampleActivity extends Activity {
 
   private FrameVideoView videoView;
@@ -71,18 +71,18 @@ public class SampleActivity extends Activity {
       super.onPause();
     }
   }
-  {% endhighlight %}
+  ```
 
 If you want to execute method for particular implementation eg. `seekTo()` from `VideoView` you can call it like that:
-{% highlight java %}
+```java
   frameVideoView.asVideoView().seekTo(x);
-{% endhighlight %}
+```
 but before, it's better to check what type of implementation is used:
-{% highlight java %}
+```java
 if(videoView.getImplType() == VIDEO_VIEW){
     frameVideoView.asVideoView().seekTo(x);
 }
-{% endhighlight %}
+```
 
 
   <br />

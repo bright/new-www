@@ -12,22 +12,22 @@ A lot of things have been changed out there but in this blog post I want to cove
 
 # Retrofit 1.x - old way
 In Retrofit 1.x we just call:
-{% highlight java %}
+```java
 	adapter.setLogLevel(RestAdapter.LogLevel.FULL)
-{% endhighlight %}
+```
 
 # Retrofit 2.x - new way
 In Retrofit 2 you should use [HttpLoggingInterceptor](https://github.com/square/okhttp/blob/master/okhttp-logging-interceptor/src/main/java/com/squareup/okhttp/logging/HttpLoggingInterceptor.java).
 
 Add dependency to `build.gradle`:
 
-{% highlight groovy %}
+```groovy
 compile 'com.squareup.okhttp:logging-interceptor:2.6.0'
-{% endhighlight %}
+```
 
 Create `Retrofit` object like follow:
 
-{% highlight java %}
+```java
 	OkHttpClient client = new OkHttpClient();
 	HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
 	interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
@@ -41,7 +41,7 @@ Create `Retrofit` object like follow:
 
 
 	return retrofit.create(ApiClient.class);
-{% endhighlight %}
+```
 `RetrofitAdapter` doesn't exsist any longer, we have `Retrofit` class instead. <br/>
 The big change is that [OkHttp](http://square.github.io/okhttp/) is required now and set as dependency for Retrofit.<br/>
 The instance of `OkHttpClient` is the place where you should set up logging.

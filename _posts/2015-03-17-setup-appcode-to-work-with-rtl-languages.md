@@ -11,10 +11,10 @@ author: mateuszklimek
 How to make iOS Simulator work with Right-To-Left languages when it's started from AppCode?
 # Answer
 Paste these two parameters:
-{% highlight xml %}
+```xml
 -AppleTextDirection YES 
 -NSForceRightToLeftWritingDirection YES
-{% endhighlight %}
+```
 into `program arguments' in Run/Debug Configuration.
 <br/><br/>
 ![appcode-rtl-config]({{site.url}}/images/appcode-rtl-config.png)

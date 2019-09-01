@@ -14,37 +14,37 @@ Recently I got a bit tired with Angular's quirks and intricacies. To freshen up,
 
 One of the features I like most in ES6 is [destructuring](http://www.2ality.com/2015/01/es6-destructuring.html). It introduces a convenient syntax for getting multiple values from arrays or objects in a single step, i.e. do the following:
 
-{% highlight JavaScript %}
+```JavaScript
 let [lat, lng] = [54.4049, 18.5763];
 console.log(lat); // 54.4049
 console.log(lng); // 18.5763
-{% endhighlight %}
+```
 
 or like this:
 
-{% highlight JavaScript %}
+```JavaScript
 let source = { first: 1, second: 2 };
 let { first, second } = source;
 console.log(first, second); // 1, 2
-{% endhighlight %}
+```
 
 What is even nicer, it works fine in a function definition, too, making it a great replacement for the [config object pattern](http://christianheilmann.com/2008/05/23/script-configuration/), where instead of providing the large number of parameters, some of them potentially optional, we provide a single plain configuration object and read all the relevant options from the inside the object provided. So, with ES6 destructuring (+default parameters support), instead of this:
 
-{% highlight JavaScript %}
+```JavaScript
 function configurable(config) {
     var option1 = config.option1 || 123;
     var option2 = config.option2 || 'abc';
     // the actual code starts here...
 }
-{% endhighlight %}
+```
 
 we can move all that read-config-and-apply-default-if-needed stuff directly as a parameter:
 
-{% highlight JavaScript %}
+```JavaScript
 function configurable({ option1 = 123, option2 = 'abc' }) {
     // the actual code from the very beginning...
 }
-{% endhighlight %}
+```
 
 The code is equivalent and the change doesn't require any changes at the caller side.
 
@@ -54,17 +54,17 @@ We can use destructuring to provide Angular-like experience for receiving the de
 
 Here is how it can look from the dependencies consumer side:
 
-{% highlight JavaScript %}
+```JavaScript
 function iHaveDependencies({ dependency1, dependency2 }) {
     // use dependency1 & dependency2
 }
-{% endhighlight %}
+```
 
 Whenever we invoke the `iHaveDependencies` function, we need to pass it a single parameter containing the object with `dependency1` and `dependency2` keys, but possibly also with others. Nothing prevents us from passing the object with all the possible dependencies there (a container).
 
 So the last thing is to ensure we have one available whenever we create the objects (or invoke the functions):
 
-{% highlight JavaScript %}
+```JavaScript
 // possibly create it once and keep it for a long time
 let container = { 
   dependency1: createDependency1(),
@@ -75,7 +75,7 @@ let container = {
 
 // use our "container" to resolve dependencies
 iHaveDependencies(container);
-{% endhighlight %}
+```
 
 That's all. The destructuring mechanism will take care of populating `dependency1` and `dependency2` variables within our function seamlessly. 
 

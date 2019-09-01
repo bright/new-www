@@ -15,14 +15,14 @@ Error reporting providers are getting more and more popular. There are plenty of
 
 Crashlytics let's you not only report [uncaught exceptions](http://developer.android.com/reference/java/lang/Thread.html#setDefaultUncaughtExceptionHandler(java.lang.Thread.UncaughtExceptionHandler)) but also handled errors with additional information provided by log entries:
 
-{% highlight java %}
+```java
 try {
   Crashlytics.log(Log.INFO, "HomeActivity", "Make request");
   makeRequest();
 }catch(RuntimeException ex){
   Crashlytics.log(Log.ERROR, "HomeActivity", "Error making request " + ex);
 }
-{% endhighlight %}
+```
 
 This will print messages to logcat as well as well as well as make them available in Crashlytics dashboard.
 
@@ -30,7 +30,7 @@ This will print messages to logcat as well as well as well as make them availabl
 
 I've already explained why [I don't like this approach to logging](/introducing-slf4android/). Thankfully with [slf4android](https://github.com/bright/slf4android) it's really easy to replace a default logcat appender with a `CrashlyticsLoggerHandler`:
 
-{% highlight java %}
+```java
 public class CrashlyticsLoggerHandler extends Handler {
   MessageValueSupplier messageValueSupplier = new MessageValueSupplier();
 
@@ -49,15 +49,15 @@ public class CrashlyticsLoggerHandler extends Handler {
   @Override
   public void flush() {}
 }
-{% endhighlight %}
+```
 
 All that is left is to add the handler to root logger in your custom application `onCreate` method:
 
-{% highlight java %}
+```java
 LoggerConfiguration.configuration()
   .removeRootLogcatHandler()
   .addHandlerToRootLogger(new CrashlyticsLoggerHandler());
-{% endhighlight %}
+```
 
 From now on all log messages will go through Crashlytics API and couple of last log entries will be available next to crash report details in dashboard.
 

@@ -16,7 +16,7 @@ The first thing I thought was to get some sort of responses from the server and 
 This approach was the simplest way to make my parser work with proper data without any mocking stuff.
 After a while I prepared simple test which was ready to read json from the file:
 
-{% highlight java %}
+```java
  @Test
 public void parserShouldHasInvalidStateIfResponseHasMissingField() throws Exception {
 	Parser parser = new Parser();
@@ -25,17 +25,17 @@ public void parserShouldHasInvalidStateIfResponseHasMissingField() throws Except
 	parser.parse(json);
 	assertThat(parser.getState(), equalTo(State.INVALID));
 }
-{% endhighlight %}
+```
 
 
 Where method `getFileFromPath` is:
-{% highlight java %}
+```java
 public static File getFileFromPath(Object obj, String fileName) {
 	ClassLoader classLoader = obj.getClass().getClassLoader();
 	URL resource = classLoader.getResource(fileName);
 	return new File(resource.getPath());
 }
-{% endhighlight %}
+```
 
 
 Unfortunately if you put *response_with_missing_field.json* directly in the sources directory or any other, `getResources()` returns `null`. <br/>
@@ -50,7 +50,7 @@ Let's play with *gradle* a bit to make it work.
  	![test-directory-structure]({{site.url}}/images/test-directory-structure.png)
 
  3. Create `gradle` task to copy resources into classes directory to make them visible for classloader `getResources()` method:
-{% highlight groovy %}
+```groovy
 
 android{
   ...
@@ -62,7 +62,7 @@ task copyResDirectoryToClasses(type: Copy){
 }
 
 assembleDebug.dependsOn(copyResDirectoryToClasses)
-{% endhighlight %}
+```
  Run unit test from Android Studio by <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F10</kbd> on whole class or specific test method.<br/>
  Now you should be able to get the `File` reference to the resource.
 

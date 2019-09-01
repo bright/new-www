@@ -37,7 +37,7 @@ Normally `MainViewModel` uses a `GitHubClient` implementation that calls the Git
 
 The mocked implementation of the `GitHubClient` is very simple. Its constructor accepts a response it should return, an optional error it should throw instead of the response and a scheduler so that we can control the exact moment the data/error is returned. The error and the response are mutable properties so we can adjust them just before calling `getRepo` method.
 
-{% highlight kotlin %}
+```kotlin
 import com.azabost.simplemvvm.net.response.RepoResponse
 import io.reactivex.Observable
 import io.reactivex.Scheduler
@@ -53,7 +53,7 @@ class MockGitHubClient(
         return response.subscribeOn(scheduler).observeOn(scheduler)
     }
 }
-{% endhighlight %}
+```
 
 _Note: it can also be implemented using Mockito - you can find the updated version on GitHub._
 
@@ -72,7 +72,7 @@ They are initialized in the `setup` method.
 
 `TestScheduler` controls the time when `MockGitHubClient` emits responses so that we can defer it and test what happens before the subscription completes (e.g. the progress animation should be still visible).
 
-{% highlight kotlin %}
+```kotlin
 class MainViewModelTests {
     lateinit var vm: MainViewModel
     lateinit var gitHubClient: MockGitHubClient
@@ -97,7 +97,7 @@ class MainViewModelTests {
         showDataObserver = TestObserver.create()
         vm.showData.subscribe(showDataObserver)
     }
-{% endhighlight %}
+```
 
 ## Writing some tests ##
 
@@ -107,7 +107,7 @@ Below you can find three simple examples.
 
 Test if positive response from the API triggers `showData` `Observable` and stores the data for later usage in the `data` variable.
 
-{% highlight kotlin %}
+```kotlin
 @Test
 fun getRepoShouldShowData() {
     val data = RepoResponse(12345)
@@ -119,7 +119,7 @@ fun getRepoShouldShowData() {
     showDataObserver.assertValueCount(1)
     vm.data.shouldEqual(data)
 }
-{% endhighlight %}
+```
 
 _Note: the `shouldEqual` method comes from [ShouldKO](https://github.com/miensol/shouldko) which I really recommend but you can use any assertions you like._
 
@@ -127,7 +127,7 @@ _Note: the `shouldEqual` method comes from [ShouldKO](https://github.com/miensol
 
 Test if HTTP exception triggers `error` `Observable` with the HTTP-specific error message.
 
-{% highlight kotlin %}
+```kotlin
 @Test
 fun getRepoErrorShouldShowHttpError() {
     gitHubClient.error = HttpErrors.getHttpException(404)
@@ -135,13 +135,13 @@ fun getRepoErrorShouldShowHttpError() {
     vm.getRepo("any", "thing")
     errorObserver.assertValue(HttpErrors.DEFAULT_HTTP_ERROR_MESSAGE)
 }
-{% endhighlight %}
+```
 
 ### Example 3 ###
 
 Test if calling `getRepo` triggers `progress` `Observable` twice so that it should tell the view to show the loader and then to hide it.
 
-{% highlight kotlin %}
+```kotlin
 @Test
 fun getRepoShouldShowProgress() {
     vm.getRepo("any", "thing")
@@ -150,7 +150,7 @@ fun getRepoShouldShowProgress() {
     testScheduler.triggerActions()
     progressObserver.assertValueSequence(listOf(true, false))
 }
-{% endhighlight %}
+```
 
 # Conclusion #
 

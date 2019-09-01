@@ -10,7 +10,7 @@ author: daniel
 
 If you need to implement Android ListView with sections like in iOS world then the code below can help you with that. The first thing you need is to implement two View providers, one for section view and second for section entry view. To do that you just have to create a class that implements ListViewWithSectionsAdapter.ViewProvider<T> interface, example below.
 
-{% highlight Java %}
+```Java
 
 public class ProfileSectionViewProvider implements ListViewWithSectionsAdapter.ViewProvider<BasicUserProfileSection> {
 
@@ -26,11 +26,11 @@ public View getView(int position, View convertView, ViewGroup parent, BasicUserP
     return v;
     }
 }
-{% endhighlight %}
+```
 
 Another thing you have to implement is DataProvider:
 
-{% highlight Java %}
+```Java
 ListViewWithSectionsAdapter.DataProvider dataProvider = new ListViewWithSectionsAdapter.DataProvider() {
     @Override
     public List<Object> getSections() {
@@ -46,12 +46,12 @@ ListViewWithSectionsAdapter.DataProvider dataProvider = new ListViewWithSections
             return entries;
         }
     }
-{% endhighlight %}
+```
 
 Then you need to create an instance of ListViewWithSectionsAdapter class and assing that to ListView as adapter:
-{% highlight Java %}
+```Java
 listView.setAdapter(new ListViewWithSectionsAdapter(getActivity(), dataProvider, new ProfileSectionViewProvider(), new ProfileEntryViewProvider()));
-{% endhighlight %}
+```
 
 That's all. 
 

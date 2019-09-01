@@ -11,21 +11,21 @@ Every now and then you have a bug that is hard to reproduce or only happens on c
 ## Logging frameworks
 That's why it's so important to create log entries easily. The default solution that comes with Android by means of [`Log`](http://developer.android.com/reference/android/util/Log.html) is the most commonly used. However for me it's really  the least pleasant to use:
 
-{% highlight java %}
+```java
 Log.e("MyTag", "Failed to download " + url +  "due to occurred " + ex);
-{% endhighlight %}
+```
 
 I really don't like that I have to specify a tag each time I need to log something. Moreover having to concatenate strings seems tedious and error prone.
 
 ### Logging with `java.util.logging`
 Another alternative that is available by default on android is packaged inside `java.util.logging.*`. And here's an example of how to use it:
 
-{% highlight java %}
+```java
     private static final Logger LOG = Logger.getLogger(MyActivity.class.getName());
     // and then
     LOG.log(Level.FINE, "Starting activity {0} saved instance {1}", new Object[]{this, savedInstanceState});
 
-{% endhighlight %}
+```
 
 You're able to use [`MessageFormatter`](http://developer.android.com/reference/java/text/MessageFormat.html) style to format log entries. However no variable arguments method overload makes it both harder to read and write. More importantly **by default** if you use above statement the message **will not be printed anywhere**. It's easy to [fix](http://stackoverflow.com/questions/4561345/how-to-configure-java-util-logging-on-android) when you know where to look for.
 
@@ -44,28 +44,28 @@ It's a tiny wrapper around [slf4j api](http://www.slf4j.org/) baked by the `java
 
 To use this little gem you'll need to add [`http://bright.github.io/maven-repo/`](http://bright.github.io/maven-repo/) to repository list:
 
-{% highlight groovy %}
+```groovy
 repositories {
     maven {
         url "http://bright.github.io/maven-repo/"
     }
 }
-{% endhighlight %}
+```
 
 and then declare a dependency inside a module:
 
-{% highlight groovy %}
+```groovy
 dependencies {
     compile('pl.brightinventions:slf4android:0.0.4@aar'){
       transitive = true
     }
     //other dependencies
 }
-{% endhighlight %}
+```
 
 As with any slf4j compatible implementation using slf4android looks like this:
 
-{% highlight java %}
+```java
 class HomeActivity extends Activity {
     private static final Logger LOG = LoggerFactory.getLogger(HomeActivity.class.getSimpleName());
 
@@ -75,23 +75,23 @@ class HomeActivity extends Activity {
         LOG.debug("Hello from {} saved instance state {}", this, savedInstanceState);
     }
 }
-{% endhighlight %}
+```
 
 ### Logging to a file
 To print messages to a separate file just add:
 
-{% highlight java %}
+```java
 LoggerConfiguration.configuration().addHandlerToLogger("", LoggerConfiguration.fileLogHandler(this));
-{% endhighlight %}
+```
 
 inside your custom `android.app.Application` `onCreate` method. This will create rotated log files inside `context.getApplicationInfo().dataDir` with a name derived from `context.getPackageName()` and a default message pattern `%date %level [%thread] %name - %message%newline`
 
 ### More features
 `slf4android` let's you register custom message patterns and configure logging level - although the api for that is still rough around the edges. It also features a simple (and not well tested) mechanism for error reporting that, when enabled, will display a `Dialog` prompting tester to notify developer through email whenever an error is encountered. You can enable it with:
 
-{% highlight java %}
+```java
 LoggerConfiguration.configuration().notifyDeveloperWithLogcatDataHandler(applicationContext, "developer.address@domain.com")
-{% endhighlight %}
+```
 
 and receive emails with attached logcat output which comes handy during development.
 

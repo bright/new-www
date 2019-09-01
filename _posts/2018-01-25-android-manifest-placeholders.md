@@ -16,7 +16,7 @@ tags: android gradle manifest
 
 Of course, the easiest way to configure Manifest per build variant is to place a separate `AndroidManifest.xml` file in the variant-specific source directory. For example let's say we have an `app` module with [flavor dimension](https://developer.android.com/studio/build/build-variants.html#flavor-dimensions) called `features` with two flavors: `paid` and `free`. In Gradle file it could look like this:
 
-{% highlight groovy %}
+```groovy
 android {
     ...
     buildTypes {
@@ -37,7 +37,7 @@ android {
         }
     }
 }
-{% endhighlight %}
+```
 
 This enables us to use different source sets, including Manifest files. If we would like to separate `paid` and `free` configurations, we could place different Manifests in the following project directories:
 
@@ -68,18 +68,18 @@ So instead of using multiple files I always strive to use some variables. In ord
 
 * default config
 
-{% highlight groovy %}
+```groovy
 android {
     ...
     defaultConfig {
         manifestPlaceholders.screenOrientation = "unspecified"
     }
 }
-{% endhighlight %}
+```
 
 * product flavor
 
-{% highlight groovy %}
+```groovy
 android {
     ...
     flavorDimensions "features"
@@ -95,11 +95,11 @@ android {
         }
     }
 }
-{% endhighlight %}
+```
 
 * build type
 
-{% highlight groovy %}
+```groovy
 android {
     ...
     buildTypes {
@@ -110,7 +110,7 @@ android {
         debug {...}
     }
 }
-{% endhighlight %}
+```
 
 _Note #1: `manifestPlaceholders` object is just a `Map<String, Object>` so you can also use its other methods like `containsKey()` etc._
 
@@ -118,11 +118,11 @@ _Note #2: You can also specify all the values at once by assigning a map like th
 
 Then we can use the variables in the Manifest simply by putting the variable name in curly brackets and using a dollar sign like this:
 
-{% highlight xml %}
+```xml
 <activity
     android:name=".MyActivity"
     android:screenOrientation="${screenOrientation}" />
-{% endhighlight %}
+```
 
 # Applications #
 
@@ -130,7 +130,7 @@ I've come across a few common usages of the placeholders, e.g.:
 
 * enabling/disabling [application components](https://developer.android.com/guide/components/.html) and meta-data, including the ones that come with your app's dependencies
 
-{% highlight xml %}
+```xml
 <service
     android:name=".firebase.FcmIdService"
     android:enabled="${pushNotifications}">
@@ -143,34 +143,34 @@ I've come across a few common usages of the placeholders, e.g.:
     ... >
     ...
 </provider>
-{% endhighlight %}
+```
 
 * overriding screen orientation in portrait-only apps so that you can rotate it in debug builds which may be useful when looking for lifecycle related memory leaks
 
-{% highlight xml %}
+```xml
 <activity
     android:name=".MyActivity"
     android:screenOrientation="${screenOrientation}" />
-{% endhighlight %}
+```
 
 * using different deep links configuration
 
-{% highlight xml %}
+```xml
 <intent-filter>
     <action android:name="android.intent.action.VIEW"/>
     <category android:name="android.intent.category.DEFAULT"/>
     <category android:name="android.intent.category.BROWSABLE"/>
     <data android:scheme="app" android:host="${deepLinkHost}" />
 </intent-filter>
-{% endhighlight %}
+```
 
 * removing `SYSTEM_ALERT_WINDOW` permission from React Native based release builds (this seems quite hacky though; you can find the original issue [here (link)](https://stackoverflow.com/questions/45170025/cant-use-manifest-placeholders-to-remove-a-permission))
 
-{% highlight xml %}
+```xml
 <uses-permission android:name="${excludeDebugPermissionName}" tools:node="remove" />
-{% endhighlight %}
+```
 
-{% highlight groovy %}
+```groovy
 buildTypes {
     release {
         ...
@@ -181,7 +181,7 @@ buildTypes {
         manifestPlaceholders.excludeDebugPermissionName = "fake.name"
     }
 }
-{% endhighlight %}
+```
 
 But there are much more possibilities, e.g. I can think of an app that uses different launcher activities.
 

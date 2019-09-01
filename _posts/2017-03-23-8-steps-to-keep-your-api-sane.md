@@ -48,11 +48,11 @@ If we instead allow for adding new stuff to the existing API version incremental
 
 Another good practice while designing the API response for future extensibility is not to return standalone primitive values like numbers or strings directly. By doing so we're closing the possibility to add another property to the response object without releasing the new API version - if our clients don't expect an object, the backend can't return one. So even if the request is to get just - let's say - an access token, let's return it as 
 
-{% highlight json %}
+```json
 {
   "accessToken": "d34d-b33f"
 }
-{% endhighlight %}
+```
 
 instead of `d34d-b33f` string directly.
 

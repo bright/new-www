@@ -57,14 +57,14 @@ func anchorLayout() {
     longer.heightAnchor.constraint(equalToConstant: 40).isActive = true
 }
 
-{% endhighlight %}
+```
 
 Inside UIScrollView
 ---
 
 ![ScrollView positioning](/images/Scroll.gif)
 
-{% highlight swift %}
+```swift
 
 func pureLayout() {
     scrollView.autoPinEdgesToSuperviewEdges(with: .zero)
@@ -113,14 +113,14 @@ func anchorLayout() {
 }
 
 
-{% endhighlight %}
+```
 
 UIScrollView with a surprise
 ---
 
 ![ScrollView positioning](/images/ScrollViewSurprise.gif)
 
-{% highlight swift %}
+```swift
 
 func pureLayout() {
     scrollView.autoPinEdgesToSuperviewEdges(with: .zero)
@@ -170,7 +170,7 @@ func anchorLayout() {
     longer.heightAnchor.constraint(equalToConstant: 200).isActive = true
 }
 
-{% endhighlight %}
+```
 
 Updating constraint's constant
 ---
@@ -216,7 +216,7 @@ func animate() {
     }
 }
 
-{% endhighlight %}
+```
 
 Conclusion
 ---

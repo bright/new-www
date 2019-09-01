@@ -10,14 +10,14 @@ Today I'll tell you about an `Action` type that is available in ReactiveCocoa 4.
 
 `Action` is pretty straightforward, It takes input, does some work and returns output. Moreover, it can fail and provide us with an `Error` type. Let's look at creation of a simple `action` that takes `Int` as an input and returns `String` or `NSError` if it fails.
 
-{% highlight swift %}
+```swift
 let action = Action<Int, String, NSError>({ (number) -> SignalProducer<String, NSError> in
   return SignalProducer<Void, NSError> {observer, disposable in
     observer.sendNext("Number is \(number)")
     observer.sendCompleted()
   }
 })
-{% endhighlight %}
+```
 
 Execution
 ===
@@ -25,15 +25,15 @@ How do we execute it? In order to do that we have to perform two steps.
 
 Create Producer
 ---
-{% highlight swift %}
+```swift
 let producer = action.apply(5)
-{% endhighlight %}
+```
 `Apply` method will return a `SignalProducer` with `Action's` output as value (`String`) and error of `ActionError` type. `ActionError` is an enum that can be either `NotEnabled` or `ProducerError`. `ProducerError` is a wrapper around error type that specify in our `Action`.
 
 Execute
 ---
 
-{% highlight swift %}
+```swift
 prodcuer.startWithSignal { (signal, disposable ) in
   signal.observeNext({ (value) in
     print("\(value)")
@@ -42,14 +42,14 @@ prodcuer.startWithSignal { (signal, disposable ) in
     print("\(actionError)")
   })
 }
-{% endhighlight %}
+```
 Actual execution happens when we start a `Signal` from received `SignalProducer`. If we don't do it, nothing will happen.
 
 Repeating action
 ---
 Remember the `observer.sendCompleted()` part in our action's `SignalProducer`? It is really important, in fact we need to provide any terminating `Event` when we want to finish executing our `Action`. If we do not do that, any `Signal` started from `SignalProducer` will immediately receive `NotEnabled` error and we won't receive any values.
 
-{% highlight swift %}
+```swift
 let action = Action<Int, String, NSError>({ (number) -> SignalProducer<String, NSError> in
   return SignalProducer<String, NSError> {observer, disposable in
     observer.sendNext("Number is \(number)")
@@ -80,7 +80,7 @@ prodcuer.startWithSignal { (signal, _ ) in
     print("2 - \(actionError)")
   })
 }
-{% endhighlight %}
+```
 
 Reveived output: "`1 - Number is 5`" and "`2 - NotEnabled`".  
 We receive this output because of the fact that when we try to execute our action second time, our first execution hasn't completed yet.
@@ -93,7 +93,7 @@ What's the difference? Let's have a look.
 
 Action's values
 ---
-{% highlight swift %}
+```swift
 let action = Action<Int, String, NSError>({ (number) -> SignalProducer<String, NSError> in
     return SignalProducer<String, NSError> {observer, disposable in
         observer.sendNext("Number is \(number)")
@@ -109,13 +109,13 @@ action.values.observe { (event) in
 }
 
 action.apply(5).startWithSignal { (_ , _ ) in }
-{% endhighlight %}
+```
 Output: "`Value: Next Number is 5`" and "`Value: COMPLETED`"  
 Our values signal is of type `Signal<Output, NoError>`, so you won't get any errors here. If any terminating `Event` occurs during `Action's` execution, you'll receive `COMPLETED` event.
 
 Action's errors
 ---
-{% highlight swift %}
+```swift
 let action = Action<Int, String, NSError>({ (number) -> SignalProducer<String, NSError> in
     return SignalProducer<String, NSError> {observer, disposable in
         observer.sendNext("Number is \(number)")
@@ -131,14 +131,14 @@ action.errors.observe { (event) in
 }
 
 action.apply(5).startWithSignal { (_ , _ ) in }
-{% endhighlight %}
+```
 
 Output: "`Error: Next Error Domain=1 Code=1 "(null)"`" and "`Error: COMPLETED`"  
 Errors' signal is of type `Signal<Error, NoError>` so you can focus on observing errors that occur during `Action's` execution. Keep in mind, that you don't use `observeFailed` method to observe errors, as they come with `NEXT` events. After `Action's` execution is finished, signal will receive `COMPLETED` event.
 
 Action's events
 ---
-{% highlight swift %}
+```swift
 let action = Action<Int, String, NSError>({ (number) -> SignalProducer<String, NSError> in
     return SignalProducer<String, NSError> {observer, disposable in
         observer.sendNext("Number is \(number)")
@@ -154,7 +154,7 @@ action.events.observe { (event) in
 }
 
 action.apply(5).startWithSignal { (_ , _ ) in }
-{% endhighlight %}
+```
 Output: "`Event: NEXT NEXT Number is 5`", "`Event: NEXT FAILED Error Domain=1 Code=1 ("null")`" and "`Event: COMPLETED`"  
 Third option is to observe signal of ALL `events`. This signal is of type `Signal<Event<Output, Error>, NoError>`. It means, that you will receive ALL `events` as next values, even terminating.  
 I have to say that this output is a bit confusing. What is "`Event: NEXT NEXT Number is 5`"? Why do we get double `NEXT` here? Let's go step by step here.

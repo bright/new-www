@@ -13,16 +13,16 @@ I had to solve a seemingly trivial bug in an angularjs based application that tu
 
 The bug report stated that *"Clicking on a label causes page reload"*. That should be an easy one I thought to myself and openeded chrome inspector to see a structure of DOM. Here's a simplified version of markup:
 
-{% highlight html %}
+```html
 <a  href="" ng-click="anchorAction($event)" ng-controller="ActionCtrl">
   Anchor
   <span ng-click="childAction($event)">
   A child
   </span>
 </a>
-{% endhighlight %}
+```
 
-{% highlight javascript %}
+```javascript
 module.controller('ActionCtrl', function($scope){
   $scope.anchorAction = function($event){
     console.log('anchorAction');
@@ -32,7 +32,7 @@ module.controller('ActionCtrl', function($scope){
     console.log('childAction');
   };
 });
-{% endhighlight %}
+```
 
 My intention was to have different behaviour when an anchor or a span element is clicked. Just as in the example above when `a` is clicked `anchorAction` should be printed whereas the same event triggered on `span` should **only** print `childAction`.
 Interestingly the actual behaviour is different.

@@ -44,17 +44,17 @@ Today Google has made the awaited, more than usual, version of their [SDK availa
 
 For me the biggest win is that in one of the apps we are actively developing granular dependency declaration means with a simple change from
 
-{% highlight groovy %}
+```groovy
 compile 'com.google.android.gms:play-services:6.1.71'
-{% endhighlight %}
+```
 
 to
 
-{% highlight groovy %}
+```groovy
 compile 'com.google.android.gms:play-services-maps:6.5.87'
 compile 'com.google.android.gms:play-services-location:6.5.87'
 compile 'com.google.android.gms:play-services-base:6.5.87'
-{% endhighlight %}
+```
 
  I no longer have to run [Proguard](http://proguard.sourceforge.net/) during development. No wonder my build time just improved by 15 seconds.
 

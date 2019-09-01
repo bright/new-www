@@ -22,27 +22,27 @@ It's looks like this:<br /><br />
 
 Let's code.<br />
 All dependencies we need:
-{% highlight groovy %}
+```groovy
 dependencies {
     compile 'com.android.support:appcompat-v7:21.0.0'
     compile 'com.android.support:palette-v7:21.0.0'
     compile 'com.squareup.picasso:picasso:2.4.0'
 }
-{% endhighlight %}
+```
 as you can see Google split android.support and put Palette as separate lib (similar to [RecyclerView](http://developer.android.com/reference/android/support/v7/widget/RecyclerView.html) and [CardView](http://developer.android.com/reference/android/support/v7/widget/CardView.html)). I used [Picasso](http://square.github.io/picasso/) to simple load images from web.
 
 Next, define AppTheme with parent as `Theme.AppCombat`. You can also specify `colorPrimary` and `accentColor` which are used by framework to color surface background of widgets such as text fields, checkboxes etc.
-{% highlight xml %}
+```xml
 <style name="AppTheme" parent="Theme.AppCompat">
   <item name="colorPrimary">@color/black</item>
 </style>
 <color name="black">#000000</color>
-{% endhighlight %}
+```
 
 Apply style to application:
-{% highlight xml %}
+```xml
 <application android:theme="@style/AppTheme" />
-{% endhighlight %}
+```
 
 <br />
 App has two activities. First `MainActvity` extends `ActionBarActivity` so framework will show window with `ActionBar` (see first screenshot with GridView).  `ImageActivity` is just `Activity`, so by default window will be rendered without `ActionBar`. But look at other screenshots, they have an `ActionBar`, but wait... actually it's `Toolbar`!
@@ -50,7 +50,7 @@ App has two activities. First `MainActvity` extends `ActionBarActivity` so frame
 `Toolbar` is more flexible (easier to customize) **standard** `View`, so you can put it everywhere in layout, multiple times... and it still can act as `ActionBar` (see [setActionBar](https://developer.android.com/reference/android/app/Activity.html#setActionBar(android.widget.Toolbar)))
 
 Let's look at the layout file:
-{% highlight xml %}
+```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:background="@color/black"
@@ -74,11 +74,11 @@ Let's look at the layout file:
         />
 
 </LinearLayout>
-{% endhighlight %}
+```
 It's simple. Nothing special here, except using of `Toolbar`.
 
 Finally we can use `Pallete` to extract prominent colors from image and change style of `Toolbar` at runtime.
-{% highlight java %}
+```java
 final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 final ImageView image = (ImageView) findViewById(R.id.image);
 target = new Target() {
@@ -98,7 +98,7 @@ target = new Target() {
 Picasso.with(this)
         .load(getIntent().getStringExtra("url"))
         .into(target);
-{% endhighlight %}
+```
 Look at the screenshots, I think they look pretty well and we didn't need a graphic designer to choose correct colors ;)
 
 <br />

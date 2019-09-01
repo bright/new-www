@@ -16,7 +16,7 @@ Unfortunately, there is no "replace" operation we could use on `<select>` value 
 
 I have worked around that wrapping my DOM element with a tiny wrapper that keeps the raw value and exposes it for ShareJS transformations while still trying to update the original element's DOM:
 
-{% highlight JavaScript %}
+```JavaScript
 var rawValue = innerElem.value;
 var elem = {
     get value () {
@@ -27,18 +27,18 @@ var elem = {
         innerElem.value = v;
     }
 };
-{% endhighlight %}
+```
 
 ShareJS also doesn't attach itself to `change` event, typical for `<select>` element - it specializes in keyboard events. So I have to attach on my own and rely the event to the underlying ShareJS implementation, faking the event of type that is handled by the library - I've chosen the mysterious `textInput` event.
 
 Here is the full code as Gist: [ShareJS attachSelect](https://gist.github.com/NOtherDev/9e713cfd68d6da9a174a). It adds a new function to the `Doc` prototype, allowing calling it in the same way we're calling ShareJS native `attachTextarea`:  
 
-{% highlight JavaScript %}
+```JavaScript
 if (elem.tagName.toLowerCase() === 'select') {
     doc.attachSelect(elem);
 } else {
     doc.attachTextarea(elem);
 }
-{% endhighlight %}
+```
 
 Feel free to use the code, I hope someone finds that useful.

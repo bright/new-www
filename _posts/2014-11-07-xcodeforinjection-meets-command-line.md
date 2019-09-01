@@ -16,9 +16,9 @@ There’s also one other problem. I really hate the alert message that appears i
 
 So many issues with such a great tool. Happily I managed to create a small gem that makes it all easier. It’s called [Injection Helper](https://github.com/bright/injection-helper) and you can install it by executing:
 
-{% highlight Bash %}
+```Bash
 gem install injection-helper
-{% endhighlight %}
+```
 
 
 Here’s what you can do with it.

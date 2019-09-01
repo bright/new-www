@@ -18,7 +18,7 @@ It's common to free any resources when you exit a screen in your application. Th
 
 Let's take a look at how to work with disposables.
 
-{% highlight swift %}
+```swift
 
 // public variable accessible from outside of class
 var producer: SignalProducer<String, NoError>
@@ -58,12 +58,12 @@ init() {
   }
 }
 
-{% endhighlight %}
+```
 
 What will happen here?
 Producer does not start it's work until `startWithValues` is called. After that, we have to actions scheduled that will send us values `1` and `2`. They will also perform some heavy calculations. After two seconds, I decide that I'm not interested in any results, so I dispose received `disposable` and I will not receive any updates in `startWithValues` block anymore. However, work in producer has been already scheduled. That's why I put the `if` statement checking if someone is still interested in producer's work. If not, I will not perform that.
 
-{% highlight swift %}
+```swift
 
 var disposables = CompositeDisposable()
 
@@ -75,7 +75,7 @@ deinit {
   disposables.dispose()
 }
 
-{% endhighlight %}
+```
 
 In this example, Let's imagine that you create your `disposables` variable at the time you initialize your class. Then, when you start observing any signals, you add each `disposable` to your container. You can dispose them any time you want, but most often, you will do it at the time that you dealloc your controller, so you can add this code to `deinit`.
 
@@ -85,7 +85,7 @@ Working with closures
 ---
 Disposables are one important thing that will lead you to memory management heaven. Next things that you have to remember about when working with ReactiveSwift is to manage relationships in closures that you pass to observers. When you do anything with a `self` variable in such closure, you create a retain cycle, as you hold strong reference to `self`. Controller holds a closure and closure holds controller. No way that they will be released any time soon. To have a weak reference to `self`, you can add `[weak self]` or `[unowned self]` to such closure. If you do not add one of those statements, your `disposables.dispose()` in `deinit` method will not be even reached, as controller will not be deinitialized.
 
-{% highlight swift %}
+```swift
 
 // weak reference, but we bet that self will not be nil
 disposables += signal.observe {[unowned self] values in
@@ -104,7 +104,7 @@ deinit {
   disposable.dispose()
 }
 
-{% endhighlight %}
+```
 
 What is the difference between `[weak self]` and `[unowned self]` you ask?
 When you use `[weak self]`, you tell your closure, that it is possible that `self` could be `nil` at some point. I usually put a `guard let` statement at the beginning of this kind of closure, so if `self` is nil, I don't continue with any operations.

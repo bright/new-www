@@ -20,9 +20,9 @@ Then the aha! moment came. I can just play with [`NSAttributedString`](https://d
 
 There are multiple ways how to do that. We decided to [add `FontAwesome.otf` definition file as a resource to our project](http://luciancancescu.blogspot.com/2015/03/how-to-integrate-fontawesome-in-your.html), because all I need is just to be able do the following:
 
-{% highlight Objective-C %}
+```Objective-C
 [UIFont fontWithName:@"FontAwesome" size:18.0f];
-{% endhighlight %}
+```
 
 You might prefer to choose one of the [available CocoaPods](http://cocoapods.org/?q=font%20awesome) that esentially deal with the same thing, often with additional capabilities or sugar like enumeration for all the icons.
 
@@ -38,7 +38,7 @@ I decided to use the basic `fa-star` icon (`\uf005`) and manipulate with the col
 
 Now I need to create two formattings - first that represents the highlighted stars that will be black in my case and the second for the not highlighted ones - light gray, let's say. `NSAttributedString` expects me to provide the dictionaries with the appropriate options. Here they are:
 
-{% highlight Objective-C %}
+```Objective-C
 UIFont *fontAwesome = [UIFont fontWithName:@"FontAwesome" size:18.0f];
 NSDictionary *activeStarFormatting = @{
     NSFontAttributeName : fontAwesome, 
@@ -48,11 +48,11 @@ NSDictionary *inactiveStarFormatting = @{
     NSFontAttributeName : fontAwesome, 
     NSForegroundColorAttributeName : [UIColor lightGrayColor]
 };
-{% endhighlight %}
+```
 
 Now, all I need is to build the actual string by iterating the appropriate number of times, first adding the highlighted stars, then filling with the inactive ones up to the expected number of stars.
 
-{% highlight Objective-C %}
+```Objective-C
 const NSInteger filledStars = 2;
 const NSInteger maxStars = 3;
 
@@ -67,13 +67,13 @@ for (; i < maxStars; ++i) {
     [attString appendAttributedString:[[NSAttributedString alloc] 
         initWithString:@" \uf005 " attributes:inactiveStarFormatting]];
 }
-{% endhighlight %}
+```
 
 ## Enjoy!
 
 Now it's just a matter of wrapping it in a nice function:
 
-{% highlight Objective-C %}
+```Objective-C
 + (NSAttributedString *)starRatingWith:(NSInteger)filledStars
                             outOfTotal:(NSInteger)totalStars {
     UIFont *fontAwesome = [UIFont fontWithName:@"FontAwesome" size:18.0f];
@@ -100,14 +100,14 @@ Now it's just a matter of wrapping it in a nice function:
 
     return attString;
 }
-{% endhighlight %}
+```
 
 To use it, we now just need an ordinary `UILabel`:
 
-{% highlight Objective-C %}
+```Objective-C
 UILabel *starRating = [UILabel new];
 starRating.attributedText = [self starRatingWith:2 outOfTotal:3];
-{% endhighlight %}
+```
 
 And here is the result:
 

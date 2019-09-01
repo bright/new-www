@@ -53,7 +53,7 @@ In this example, the secret value is stored on a TeamCity server and it will be 
 
 There are plenty of ways you can read the environment variable during the build. This example uses a Gradle task to generate a file containing the key needed by the `gradle-play-publisher` plugin before the publication.
 
-{% highlight groovy %}
+```groovy
 apply plugin: 'com.android.application'
 apply plugin: 'com.github.triplet.play'
 
@@ -118,7 +118,7 @@ android {
     }
     // other config ...
 }
-{% endhighlight %}
+```
 
 The way it works is pretty straightforward:
 
@@ -133,9 +133,9 @@ Of course this simple script might be further improved and I encourage you to do
 
 The Gradle tasks used for the publication in this example are: `publishApkDevRelease` and `publishApkProdRelease`. Publishing the APKs with them is as simple as running these tasks like this:
 
-{% highlight bash %}
+```bash
 gradle publishApkProdRelease
-{% endhighlight %}
+```
 
 And you can see in the logs that it works:
 

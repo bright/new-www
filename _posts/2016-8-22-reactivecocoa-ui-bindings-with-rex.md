@@ -11,7 +11,7 @@ If you are binding your view model with UI layer, Rex will let you do it much ea
 
 UIButton
 ---
-{% highlight swift %}
+```swift
 let cocoaAction = CocoaAction(action) { _ in }
 
 //without Rex
@@ -19,11 +19,11 @@ button.addTarget(cocoaAction, action: CocoaAction.selector, forControlEvents: .T
 
 //with Rex extensions
 button.rex_pressed.value = cocoaAction
-{% endhighlight %}
+```
 
 UITextField, UILabel, MutableProperty
 ---
-{% highlight swift %}
+```swift
 var titleValue = MutableProperty<String?>(nil)
 
 //without Rex
@@ -40,7 +40,7 @@ titleValue.producer.startWithNext {
 titleValue <~ textField.rex_text
 titleLabel.rex_text <~ titleValue
 titleLabel.rex_hidden <~ titleValue.producer.map({ $0?.characters.count < 5 })
-{% endhighlight %}
+```
 
 You can clearly see that `Rex` makes our bindings much easier to read and understand. These are just examples, but you can find much more interesting properties like `rex_selectedSegmentIndex` for `UISegmentedControl` or `rex_on` for `UISwitch`. Moreover, `Rex` comes with some handy signal transformations, so go check it out!
 

@@ -29,7 +29,7 @@ Unfortunately, if you are willing to perform the tests on Android, you can't use
 
 The simplest way to measure the execution time of some code block is to call it large number of times in a loop like below:
 
-{% highlight kotlin %}
+```kotlin
 fun measure() {
     val reps: Long = 1_000_000
 
@@ -54,7 +54,7 @@ fun measure() {
 fun addConst(number: Long): Long {
     return 5 + number
 }
-{% endhighlight %}
+```
 
 In this example we benchmark the `addConst` function. If you are new to microbenchmarking, I bet you have a few questions.
 
@@ -74,7 +74,7 @@ Another way to benchmark the code is to use a dedicated framework like [Spanner]
 
 Putting configuration matters aside, the benchmark function may look like this:
 
-{% highlight kotlin %}
+```kotlin
 @Benchmark
 fun addConstTest(reps: Long): Long {
     var sum = 0L
@@ -87,7 +87,7 @@ fun addConstTest(reps: Long): Long {
 fun addConst(number: Long): Long {
     return 5 + number
 }
-{% endhighlight %}
+```
 
 As you can see, the framework gives us the required repetitions count as a parameter and it's our job to actually run the code in a loop.
 

@@ -45,7 +45,7 @@ to improve your app using the one of the three main features of 3D Touch.
 
   and by code:
 
-{% highlight xml %}
+```xml
 <key>UIApplicationShortcutItems</key>
 <array>
 	<dict>
@@ -65,7 +65,7 @@ to improve your app using the one of the three main features of 3D Touch.
 		<string>Title with system icon</string>
 	</dict>
 </array>
-{% endhighlight %}
+```
 
 ***Final result***
 
@@ -80,18 +80,18 @@ Ok, now move to `AppDelegate` class and let's deal with the application's shortc
 #### 1.Override and implement `UIApplicationDelegate` method.
 
 Let's focus on this method:
-{% highlight swift %}
+```swift
 func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Swift.Void)
-{% endhighlight %}
+```
 
 That method is called every time when the application shortcut is pressed. You don't have to worry about your application state. If your app is in background mode it just wakes up your app and triggers `performActionFor` method. But if the application is terminated the app cycle will be `didLauchWithOptions` and then `performActionFor shortcutItem` will be called.
 Of course, you can take the application shortcut in `didLauchWithOptions` method by:
 
-{% highlight swift %}
+```swift
 if let shortcutItem = launchOptions?[UIApplicationLaunchOptionsShortcutItemKey] as? UIApplicationShortcutItem {
   //deal with it here
 }
-{% endhighlight %}
+```
 
 before it triggers the `performActionFor` method.
 
@@ -99,7 +99,7 @@ before it triggers the `performActionFor` method.
 
 It's time to write some code here. So let's assume that your `AppDelegate` class includes these two methods:
 
-{% highlight swift %}
+```swift
 func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Swift.Void) {
     handleShortcut(shortcutItem)
 }
@@ -107,24 +107,24 @@ func application(_ application: UIApplication, performActionFor shortcutItem: UI
 private func handleShortcut(_ item: UIApplicationShortcutItem) {
 
 }
-{% endhighlight %}
+```
 
 Did you remember the `UIApplicationShortcutItemType`? Value for this key is very useful to identify what application shortcut was tapped.
 But on the `Info.plist` file it occurs as a `String` type and I strongly advise against comparing the string in their pure form.
 Very helpful here might be `Enum` type. So create the enum.
 
-{% highlight swift %}
+```swift
 enum ApplicationShortcutTypes: String {
     case redApple = "show-red-apple"
     case greenApple = "show-green-apple"
 }
-{% endhighlight %}
+```
 
 I think comparing types using enum is a much better way to identify what type of shortcut was tapped.
 
 Now get back to the `handleShortcut` method:
 
-{% highlight swift %}
+```swift
 private func handleShortcut(_ item: UIApplicationShortcutItem) {
     guard let actionType = ApplicationShortcutTypes(rawValue: item.type) else {
         return
@@ -136,7 +136,7 @@ private func handleShortcut(_ item: UIApplicationShortcutItem) {
       showRedAppleViewController()
     }
 }
-{% endhighlight %}
+```
 
 The effect of implementation will look like this:
 
@@ -159,14 +159,14 @@ UIApplication.sharedApplication().shortcutItems?.append(UIMutableApplicationShor
 
 to remove:
 
-{% highlight swift %}
+```swift
 if let shortcutItem = UIApplication.sharedApplication().shortcutItems?.filter({ $0.type == "my-dynamic-shortcut" }).first {
     guard let index = UIApplication.sharedApplication().shortcutItems?.indexOf(shortcutItem) else {
       return
     }
     UIApplication.sharedApplication().shortcutItems?.removeAtIndex(index)
 }
-{% endhighlight %}
+```
 
 # Conclusion
 

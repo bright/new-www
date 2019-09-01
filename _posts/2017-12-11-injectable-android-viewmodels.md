@@ -40,10 +40,10 @@ The default library's factory instantiates view models using empty constructors.
 
 The `ViewModelProvider.Factory` interface defines only one method:
 
-{% highlight java %}
+```java
 @NonNull
 <T extends ViewModel> T create(@NonNull Class<T> modelClass);
-{% endhighlight %}
+```
 
 As you can see, it takes the class of a view model and it must return its instance.
 
@@ -71,7 +71,7 @@ In order to generate the map we need two elements: a map key definition and a mo
 
 The map key definition is an annotation type which has a single member whose type is the map key type. It may look like this:
 
-{% highlight kotlin %}
+```kotlin
 import android.arch.lifecycle.ViewModel
 import dagger.MapKey
 import kotlin.reflect.KClass
@@ -81,11 +81,11 @@ import kotlin.reflect.KClass
 @Retention(AnnotationRetention.RUNTIME)
 @MapKey
 annotation class ViewModelKey(val value: KClass<out ViewModel>)
-{% endhighlight %}
+```
 
 And then we can use it in a module like below.
 
-{% highlight kotlin %}
+```kotlin
 import android.arch.lifecycle.ViewModel
 import com.azabost.simplemvvm.ui.main.MainViewModel
 import dagger.Binds
@@ -100,7 +100,7 @@ abstract class ViewModelModule {
     @ViewModelKey(MainViewModel::class)
     abstract fun bindMainViewModel(mainViewModel: MainViewModel): ViewModel
 }
-{% endhighlight %}
+```
 
 `@Binds` methods are a drop-in replacement for `@Provides` methods that simply return an injected parameter. Combining it with `@IntoMap` and our key (`@ViewModelKey`) will put a provider of the returned object into the map under the key specified by the key annotation's parameter. In this case the `Provider<MainViewModel>` instance will be put under the `MainViewModel::class` key. Kotlin will also translate the `KClass` into `Class` for Java compatibility.
 
@@ -110,7 +110,7 @@ _Note: you may want to read the `Binds` [docs](https://google.github.io/dagger/a
 
 The view model factory which uses the generated map will be as simple as this:
 
-{% highlight kotlin %}
+```kotlin
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
 import javax.inject.Inject
@@ -130,11 +130,11 @@ class InjectingViewModelFactory @Inject constructor(
         return provider.get() as T
     }
 }
-{% endhighlight %}
+```
 
 And we can also add it to the same Dagger module:
 
-{% highlight kotlin %}
+```kotlin
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
 import com.azabost.simplemvvm.ui.main.MainViewModel
@@ -153,32 +153,32 @@ abstract class ViewModelModule {
     @Binds
     abstract fun bindViewModelFactory(factory: InjectingViewModelFactory): ViewModelProvider.Factory
 }
-{% endhighlight %}
+```
 
 ## Obtaining view models ##
 
 In the activity you can now inject the factory:
 
-{% highlight kotlin %}
+```kotlin
 @Inject
 lateinit var vmFactory: ViewModelProvider.Factory
-{% endhighlight %}
+```
 
 and use it to obtain the view model:
 
-{% highlight kotlin %}
+```kotlin
 val vm = ViewModelProviders.of(this, vmFactory).get(MainViewModel::class.java)
-{% endhighlight %}
+```
 
 Don't forget to annotate your view model's constructor with `@Inject`:
 
-{% highlight kotlin %}
+```kotlin
 class MainViewModel @Inject constructor(
         private val gitHubClient: GitHubClient
 ) : ViewModel(), MainVM, LoadingVM, DataVM {
     ...
 }
-{% endhighlight %}
+```
 
 If it seems too complicated to you, please take a look at the diagram below. It may help you to see the big picture.
 

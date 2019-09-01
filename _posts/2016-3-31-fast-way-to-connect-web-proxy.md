@@ -19,11 +19,11 @@ Seems to be pretty good case to automate it :)
 
 I wanted to have a simple switcher which allows quickly enabling or disabling the proxy connection.<br/> 
 The solution I made is based on a static global variable. <br/>
-{% highlight java %}
+```java
 public class DevFeatureToggle{
     public static final boolean PROXY_ENABLED = true;
 }
-{% endhighlight %}
+```
 
 If the flag is set to `true` the app connects to the web proxy automatically.<br/>
 You earned a few things here:
@@ -39,7 +39,7 @@ You earned a few things here:
 
 Add this task on the top of `build.gradle`:
 
-{% highlight groovy %}
+```groovy
 
 ext{
     proxy = 'cannot.get.buildmachine.local.ip'
@@ -55,14 +55,14 @@ task getBuildMachineLocalIp() {
     project.ext.proxy = stdout.toString().trim()
     println "build machine local ip: " + project.ext.proxy
 }
-{% endhighlight %}
+```
 It gets local *IP* address of your desktop build machine and store it in `project.ext.proxy`.<br/>
 Remember to replace `ifconfig` command with proper `ipconfig` if your build machine is running Windows.<br/>
 You have to also ensure that `en1` is the interface used to connect to the same wifi network as Android device.
 
 Now, make above task depended on `preBuild` Android's task to run it on the beginning of the build process:
 
-{% highlight groovy %}
+```groovy
 android{
     defaultConfig{
         buildConfigField 'String', 'BUILD_MACHINE_LOCAL_IP', '\"' + project.ext.proxy + "\""
@@ -74,12 +74,12 @@ dependencies{
 
 preBuild.dependsOn getBuildMachineLocalIp
 
-{% endhighlight %}
+```
 I made one more thing here. <br/>
 Copied value of `project.ext.proxy` to `BuildConfig.BUILD_MACHINE_LOCAL_IP` to have access to *IP* address in code.
 
 The last part is to set up our proxy for *HTTP* client.
-{% highlight java %}
+```java
 
 private void setProxy(OkHttpClient client) {
     if (FeatureToggle.PROXY_ENABLED && BuildConfig.BUILD_TYPE.equals("debug")) {
@@ -96,7 +96,7 @@ setProxy(client);
 /*
 use client as you wish eg. with Retrofit
 */
-{% endhighlight %}
+```
 There's simple `if` statement which enables proxy when flag is active.<br/>
 Probably, you don't want to have the proxy connection for release builds so I also check build type here.<br/>
 The last thing is to set up *CA* certificate of the web proxy to make *HTTP* connections visible on it. <br/>

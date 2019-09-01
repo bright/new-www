@@ -30,7 +30,7 @@ Events in iOS are approached at multiple levels of abstraction, giving the devel
 
 The simpler layer available are [gesture recognizers](https://developer.apple.com/library/prerelease/ios/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/GestureRecognizer_basics/GestureRecognizer_basics.html#//apple_ref/doc/uid/TP40009541-CH2-SW2). Views can have multiple gesture recognizers attached, each configured to detect a particular, possibly complex gesture like pinching ([`UIPinchGestureRecognizer`](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIPinchGestureRecognizer_Class/.html#//apple_ref/occ/cl/UIPinchGestureRecognizer)) or finger rotation ([`UIRotationGestureRecognizer`](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIRotateGestureRecognizer_Class/.html#//apple_ref/occ/cl/UIRotationGestureRecognizer)). When the gesture is detected, the recognizer calls its target - the callback we defined when setting the recognizer up:
 
-{% highlight Objective-C %}
+```Objective-C
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -43,7 +43,7 @@ The simpler layer available are [gesture recognizers](https://developer.apple.co
 - (void)respondToDoubleTapGesture:(id)sender {
     // react on double tap event here
 }
-{% endhighlight %}
+```
 
 There’s no direct analogy available for complex gestures in the web world. Mobile browser apps often have their own handling for such a gestures, not even passing the raw gesture to the web app currently opened. For example, when pinching the website on the mobile device, it is zoomed in or out [without the web app being notified](http://stackoverflow.com/questions/995914/catch-browsers-zoom-event-in-javascript) about that event directly. The solution to handle complex gestures in mobile web is to defer to 3rd-party libraries that employ the low-level handling mechanisms to emulate the gesture events. Examples are [Hammer.js](http://hammerjs.github.io/) or [Touchy](https://github.com/hotstudio/touchy).
 
@@ -54,7 +54,7 @@ Simple events simplified even more
 
 For simpler events that do not require complex “recognizing” of movements pattern and consist just a single interaction, like tap, there is simplified mechanism available in iOS via `UIControl`'s [`addTarget:action:forControlEvents:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIControl_Class/.html#//apple_ref/occ/instm/UIControl/addTarget:action:forControlEvents:) method, where we specify callbacks for particular events directly in the control:
 
-{% highlight Objective-C %}
+```Objective-C
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -67,7 +67,7 @@ For simpler events that do not require complex “recognizing” of movements pa
 - (void)respondToTapGesture:(id)sender {
     // react on tap event here
 }
-{% endhighlight %}
+```
 
 The web analogy here is pretty clear - it’s like adding an event listener to the DOM element, either directly using [`element.addEventListener` API](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) or through convenient libraries like [jQuery and its `on` function](http://api.jquery.com/on/) etc.
 

@@ -28,7 +28,7 @@ How to handle style definitions then?
 
 When we decide not to go “the Apple way” and abandon Interface Builder striving for something that allows style definitions reuse and separation, our simplest alternative is to [create everything directly in the code](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/ViewLoadingandUnloading/ViewLoadingandUnloading.html#//apple_ref/doc/uid/TP40007457-CH10-SW36), instantiating the controls “manually", setting its properties like colors, setting its frame or Auto Layout constraints and finally adding it to the superview, like this:
 
-{% highlight Objective-C %}
+```Objective-C
 - (void)loadView {
     [super loadView];
 
@@ -56,13 +56,13 @@ When we decide not to go “the Apple way” and abandon Interface Builder striv
                                        multiplier:1
                                          constant:20]];
 }
-{% endhighlight %}
+```
 
 For complex screens, it quickly grows to hundreds of lines of imperative and repetitive code that is inherently very declarative in its real nature. It hurts me every time I assign properties like `font` and `backgroundColor` etc. It feels just like I’d be putting `<font face=“Arial” color=“red”>` in my HTML markup and it’s already more than 10 years ago when I did so the last time. It’s like that human flesh visible outside.
 
 One simple strategy we can employ is to enclose our repeatable patterns of style and layout definitions, very remotely equivalent to our CSS classes, as a static method somewhere or as [a category on `UIView`](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/CustomizingExistingClasses/CustomizingExistingClasses.html):
 
-{% highlight Objective-C %}
+```Objective-C
 @implementation UILabel (Layout)
 
 + (UILabel *)bigRedLabel {
@@ -93,11 +93,11 @@ One simple strategy we can employ is to enclose our repeatable patterns of style
 }
 
 @end
-{% endhighlight %}
+```
 
 Now we can use it whenever we want our new control to look like the other:
 
-{% highlight Objective-C %}
+```Objective-C
 - (void)loadView {
     [super loadView];
 
@@ -107,32 +107,32 @@ Now we can use it whenever we want our new control to look like the other:
     [self.view addSubview:testView];
     [testView placeInTopLeftCornerOf:self.view];
 }
-{% endhighlight %}
+```
 
 Apple proposal - appearance proxies
 ----
 
 The issue of style definitions reuse was also approached by Apple within UIKit, albeit quite differently than in CSS. There’s a concept called [appearance](http://nshipster.com/uiappearance/). It allows us to define selected style properties of the controls once per the application, ensuring any customization we do is applied consistently across the app. We can define that all the buttons (`UIButton` instances) that we use in our app should have gray background:
 
-{% highlight Objective-C %}
+```Objective-C
 [UIButton appearance].backgroundColor = [UIColor grayColor];
-{% endhighlight %}
+```
 
 We can restrict our customization scope to controls contained within another specific container control, for example to all `UIBarButtonItem`s within `UIToolbar`:
 
-{% highlight Objective-C %}
+```Objective-C
 [UIBarButtonItem appearanceWhenContainedIn:[UIToolbar class], nil]
     .tintColor = [UIColor blackColor];
-{% endhighlight %}
+```
 
 Also, we can optionally make our appearance definitions dependent on the screen dimensions and orientations, using `UITraitCollection`s we’ve discussed [in the previous part of the series](/ios-layouts-for-web-developers-2-control-positioning/#the-real-responsiveness?):
 
-{% highlight Objective-C %}
+```Objective-C
 UITraitCollection *traitCollection = [UITraitCollection
     traitCollectionWithHorizontalSizeClass:UIUserInterfaceSizeClassCompact];
 [UIImageView appearanceForTraitCollection:traitCollection]
     .tintColor = [UIColor redColor];
-{% endhighlight %}
+```
 
 Appearance might be compared to CSS limited to elements only (no per-class or per-id definitions), with basic hierarchies and basic media queries support. However, the distance to the full-blown CSS equivalent is quite large. There is no way to apply appearance definitions to the selected subset of elements of a given type, like we do using CSS classes. There is no way to represent other types of relationships between controls than ancestor-descendant (`whenContainedIn`) - we need to forget about the selectors we know from CSS like siblings, direct children, n-th of type and so on. Moreover, when we have multiple ancestor-descendant relationships defined, [the first one encountered (most generic) is used](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/), while in CSS the most specific one is used, allowing us to specify our styles from the general definitions to the specialized ones going down the elements tree.
 

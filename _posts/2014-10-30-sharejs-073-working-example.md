@@ -16,12 +16,12 @@ Anyway, I was able to figure out what I need to change to have the simple demo r
 
 On **server-side**, I’m running CoffeeScript WebSocket server, almost like in [the original sample](https://github.com/share/ShareJS/blob/master/examples/ws.coffee). I just needed few changes in order to have it running with [Connect 3](https://github.com/senchalabs/connect#readme) - logging and static serving middlewares are no longer included in Connect out of the box, so I used [`morgan`](https://github.com/expressjs/morgan) and [`serve-static`](https://github.com/expressjs/serve-static), respectively. Here is the only changed part around Connect middlewares initialization:
 
-{% highlight CoffeeScript %}
+```CoffeeScript
 app = connect()
 app.use morgan()
 app.use '/srv', serveStatic sharejs.scriptsDir
 app.use serveStatic "#{__dirname}/app”
-{% endhighlight %}
+```
 
 Go here for full Gist: [ShareJS 0.7.3 server-side code](https://gist.github.com/NOtherDev/f288b939d19499060e1b).
 
@@ -29,16 +29,16 @@ I’m exposing client JavaScript libraries provided with ShareJS under `/srv` pa
 
 **Client-side** was a bit harder. Running the original code from the main ShareJS.org website wasn’t successful.
 
-{% highlight JavaScript %}
+```JavaScript
 sharejs.open('blag', 'text', function(error, doc) {
   var elem = document.getElementById('pad');
   doc.attach_textarea(elem);
 });
-{% endhighlight %}
+```
 
 It tries to call `sharejs.open` function, which yields “`TypeError: undefined is not a function`” error for a simple reason - there is no longer “`open`” function on `sharejs` global variable. Fiddling around, I found an example that is using more verbose call like this:
 
-{% highlight JavaScript %}
+```JavaScript
 var ws = new WebSocket('ws://127.0.0.1:7007');
 var share = new sharejs.Connection(ws);
 var doc = share.get('blag', 'doc');
@@ -51,11 +51,11 @@ doc.whenReady(function () {
     var elem = document.getElementById('pad');
     doc.attachTextarea(elem);
 });
-{% endhighlight %}
+```
 
 Seemed legitimate and didn’t fail immediately, but I was getting "`Operation was rejected (Document already exists). Trying to rollback change locally.`” error message anytime except the first time. The code was calling `doc.create('text')` every time and that was clearly wrong, I should get `doc.type` pre-populated somehow. The solution is to subscribe to the document first and move checking the type and creating when needed to the function called after the document is ready - like this:
 
-{% highlight JavaScript %}
+```JavaScript
 var ws = new WebSocket('ws://127.0.0.1:7007');
 var share = new sharejs.Connection(ws);
 var doc = share.get('blag', 'doc');
@@ -69,7 +69,7 @@ doc.whenReady(function () {
     var elem = document.getElementById('pad');
     doc.attachTextarea(elem);
 });
-{% endhighlight %}
+```
 
 See the full Gist: [ShareJS 0.7.3 client-side code](https://gist.github.com/NOtherDev/2ea2bb111c00282e7617).
 
