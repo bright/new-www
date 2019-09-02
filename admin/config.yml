@@ -52,3 +52,15 @@ collections:
       - {label: "Stack Overflow", name: "stackoverflow", widget: "string"}
       - {label: "Full description", name: "body", widget: "markdown"}
       - {label: "Redirect from", name: "redirect_from", widget: "string"}
+  - name: "jobs" # Used in routes, e.g., /admin/collections/blog
+    label: "Jobs" # Used in the UI
+    folder: "_jobs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "details_jobs"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Hours", name: "hours", widget: "string"}
+      - {label: "Salary", name: "salary", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Redirect from", name: "redirect_from", widget: "string"}
