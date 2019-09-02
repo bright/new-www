@@ -15,7 +15,6 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - label: "Author"
@@ -23,4 +22,10 @@ collections:
         widget: "select"
         options: {% for member in site.members %} {% unless member.ex %}
           - { label: {{ member.name }}, value: {{ member.author_id }} } {% endunless %} {% endfor %}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: true
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
