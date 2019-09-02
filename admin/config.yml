@@ -1,3 +1,5 @@
+---
+---
 backend:
   name: github
   repo: bright/new-www
@@ -13,9 +15,12 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Hidden", name: "hidden", widget: "boolean", default: "false"}
+      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Tags", name: "tags", widget: "select", create: "true", selectFrom: {collection: "posts", field: "tags"}}
-      - {label: "Author", name: "author", widget: "select", selectFrom: {collection: "members", field: "id"}}
+      - label: "Author"
+        name: "author"
+        widget: "select"
+        options: {% for member in site.members %} {% unless member.ex %}
+          - { label: {{ member.name }}, value: {{ member.author_id }} } {% endunless %} {% endfor %}
       - {label: "Body", name: "body", widget: "markdown"}
