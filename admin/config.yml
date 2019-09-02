@@ -39,6 +39,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "member"}
       - {label: "Author id", name: "author_id", widget: "string"}
+      - {label: "No longer with us", name: "ex", widget: "boolean", default: false}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Short Name", name: "short_name", widget: "string"}
