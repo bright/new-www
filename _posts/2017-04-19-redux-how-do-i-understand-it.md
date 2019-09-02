@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redux - How do I understand it?
-tags: Architecture
+tags: [Architecture]
 comments: true
 author: eliasz
 ---

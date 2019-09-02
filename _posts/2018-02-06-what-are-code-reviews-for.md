@@ -2,7 +2,7 @@
 layout: post
 title: What are Code Reviews for?
 excerpt: It is often said that Code Reviews are by far the most effective way to identify bugs in software. However, it is easy to notice that the "code review" term is a bit overloaded and it might mean different things to different people.
-tags: code-review
+tags: [code-review]
 comments: true
 author: adam
 image: /images/people-office-group-team.jpg

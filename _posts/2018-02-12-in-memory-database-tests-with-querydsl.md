@@ -3,7 +3,7 @@ layout: post
 title: In-memory database tests with Querydsl
 author: piotr
 hidden: false
-tags: kotlin querydsl hibernate jpa database
+tags: [kotlin, querydsl, hibernate, jpa, database]
 comments: true
 crosspost: true
 image: /images/querydsl-tests/test.jpg

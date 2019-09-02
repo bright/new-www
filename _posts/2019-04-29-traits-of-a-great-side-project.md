@@ -3,7 +3,7 @@ layout: post
 title: Traits of a great side project
 author: olo
 hidden: false
-tags: programming after-hours motivation
+tags: [programming, after-hours, motivation]
 ---
 
 Have you ever wondered why there are people who always have a constant drive to "make things"? While you may seem tired and bored of a long day at work, they just can't stand waiting to leave the office in a great mood just to do tons of other stuff.

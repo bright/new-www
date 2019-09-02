@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PureLayout vs NSLayoutAnchor - Great confrontation
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

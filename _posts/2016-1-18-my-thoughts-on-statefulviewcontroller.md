@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My thoughts on - StatefulViewController
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

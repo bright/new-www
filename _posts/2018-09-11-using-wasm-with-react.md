@@ -2,7 +2,7 @@
 layout: post
 title: Using WebAssembly with React
 author: ivan
-tags: React JavaScript WASM WebAssembly
+tags: [React, JavaScript, WASM, WebAssembly]
 image: /images/use-wasm-with-reactjs/fractal_example1.png
 ---
 

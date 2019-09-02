@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Heartbeat button
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

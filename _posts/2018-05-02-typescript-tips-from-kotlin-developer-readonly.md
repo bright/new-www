@@ -2,7 +2,7 @@
 layout: post
 title: TypeScript tips from Kotlin developer - readonly
 author: piotr
-tags: TypeScript Kotlin readonly immutability
+tags: [TypeScript, Kotlin, readonly, immutability]
 comments: true
 crosspost: false
 image: /images/kotlin/kotlin-logo.png

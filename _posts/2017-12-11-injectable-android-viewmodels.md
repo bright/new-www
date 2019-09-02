@@ -5,7 +5,7 @@ image: /images/injectable-android-viewmodels/syringe-1884758_1920.jpg
 author: azabost
 crosspost: true
 hidden: false
-tags: android kotlin dagger viewmodel mvvm
+tags: [android, kotlin, dagger, viewmodel, mvvm]
 ---
 
 In the following post I'm going to show a simple (almost boilerplate-free) yet powerful implementation of the view models dependency injection on Android using Dagger.

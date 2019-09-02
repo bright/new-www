@@ -4,7 +4,7 @@ title: Collaboration
 author: ula
 hidden: false
 image: /images/collaboration.png
-tags: collaboration success team cooperation 
+tags: [collaboration, success, team, cooperation] 
 ---
 
 Not everyone is an extrovert, and for sure not every programmer is, but companies are created by teams, and it is the team that takes the greatest responsibility for running the company effectively. If team members do not collaborate, there is very little chance your business will succeed. 

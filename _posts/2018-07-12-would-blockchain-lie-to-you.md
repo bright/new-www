@@ -5,7 +5,7 @@ excerpt: Our vision at Bright has always been to share and transfer knowledge to
 author: ula
 hidden: false
 image: /images/Blockchain_workshops.jpg
-tags: Blockchain Ethereum Truffle Node.js MainNet
+tags: [Blockchain, Ethereum, Truffle, Node.js, MainNet]
 ---
 Some people are sitting on a beach in summer, and some are learning Blockchain. Can you do both at the same time? The answer is YES. :)
 

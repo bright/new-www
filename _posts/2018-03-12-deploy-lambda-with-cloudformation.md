@@ -3,7 +3,7 @@ layout: post
 title: How to deploy Lambda function with CloudFormation?
 author: piotr
 hidden: false
-tags: aws cloudformation lambda cloudform
+tags: [aws, cloudformation, lambda, cloudform]
 comments: true
 crosspost: https://miensol.pl/2018/03/11/deploy-lambda-with-cloudformation.html
 image: /images/lambda/lambda.png

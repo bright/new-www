@@ -3,7 +3,7 @@ layout: post
 title: How to convert an express app to AWS Lambda?
 author: piotr
 hidden: false
-tags: aws cloudformation lambda cloudform
+tags: [aws, cloudformation, lambda, cloudform]
 comments: true
 crosspost: 'https://miensol.pl/2018/05/29/how-to-convert-an-express-app-to-aws-lambda.html'
 image: /images/express-js.webp

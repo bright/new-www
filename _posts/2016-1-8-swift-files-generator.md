@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swift files generator
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

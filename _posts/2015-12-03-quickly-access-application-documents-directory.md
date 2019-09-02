@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quickly access Documents Directory for the iOS Simulator
-tags: iOS
+tags: [iOS]
 comments: true
 author: michal
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fetching contacts with CNContactStore
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

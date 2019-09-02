@@ -3,7 +3,7 @@ layout: post
 title: HTTP client timeouts
 author: piotr
 hidden: false
-tags: http timeout network rest api
+tags: [http, timeout, network, rest, api]
 comments: true
 crosspost: true
 image: /images/http-client-timeouts/waiting.jpg

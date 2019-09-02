@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It might be worth it
-tags: iOS
+tags: [iOS]
 comments: false
 author: michal
 ---

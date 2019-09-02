@@ -3,7 +3,7 @@ layout: post
 title: Bright Inventions Remains a Top Developer in Poland
 author: ula
 hidden: false
-tags: Clutch mobile web digital apps  
+tags: ["Clutch", "mobile", "web", "digital", "apps"]  
 image: /images/Developers_Poland_2018.png
 ---
 As a digital business development agency, Bright Inventions specializes in the development of mobile applications. By providing our clients with smart web and backend solutions, along with mobile app construction services, we hope to equip our clients with the resources they need to come out on top in their respective industries. 

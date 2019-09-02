@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A fast way to connect to the web proxy
-tags: android
+tags: [android]
 comments: true
 author: mateuszklimek
 ---

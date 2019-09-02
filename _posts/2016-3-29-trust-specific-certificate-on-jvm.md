@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trust specific certificate on JVM-based platforms
-tags: jvm java android
+tags: [jvm, java, android]
 comments: true
 author: mateuszklimek
 ---

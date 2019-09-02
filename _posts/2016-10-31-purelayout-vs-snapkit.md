@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PureLayout vs SnapKit - Great confrontation
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

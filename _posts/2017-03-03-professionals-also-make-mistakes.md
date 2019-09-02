@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Professionals also make mistakes
-tags: coding programming selfdevelopment
+tags: [coding, programming, selfdevelopment]
 comments: true
 author: ula
 ---

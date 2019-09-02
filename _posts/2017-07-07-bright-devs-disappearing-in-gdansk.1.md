@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bright Devs disAPPearing in Gdańsk
-tags: programming coding workshops
+tags: [programming, coding, workshops]
 comments: true
 author: ula
 ---

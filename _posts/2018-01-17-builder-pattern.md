@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Builder pattern in Kotlin
-tags: kotlin builder pattern
+tags: [kotlin, builder, pattern]
 comments: true
 hidden: true
 author: agnieszka

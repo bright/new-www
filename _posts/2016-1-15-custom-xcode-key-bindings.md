@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Custom XCode key bindings  
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

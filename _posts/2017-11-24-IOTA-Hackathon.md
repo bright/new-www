@@ -4,7 +4,7 @@ title: IOTA Hackathon
 excerpt: One may ask if it is a real fun spending two days in front of computer with a bunch of strangers. The example of IOTA Hackathon shows that it is indeed. 
 author: ula
 hidden: false
-tags: IOTA hackathon cryptocurrency teamwork
+tags: [IOTA, hackathon, cryptocurrency, teamwork]
 ---
 
 Last weekend we had pleasure to co-organise and take part in IOTA Hackathon, the event during which software developers from all over Europe came to put to test IOTA Platform with different use cases. IOTA Hackathon was held from 17 to 19 November and was sponsored by [IOTA](https://iota.org/), [Baltic Data Science](http://balticdatascience.com/) (blockchain and big data service), [Datarella](http://datarella.com/) (blockchain and big data consultancy) and [Bright Inventions](https://twitter.com/BrightDevs). 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#girlswhocode"
-tags: redshift
+tags: [redshift]
 comments: true
 hidden: false
 author: agnieszka

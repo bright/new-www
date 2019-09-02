@@ -3,7 +3,7 @@ layout: post
 title: How to deploy smart contract
 author: daniel
 hidden: true
-tags: smartcontract ethereum deploy web3js parity
+tags: [smartcontract, ethereum, deploy, web3js, parity]
 ---
 
 # Deploying smart contracts

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To code or not to code
-tags: programming coding work-life balance
+tags: [programming, coding, work-life, balance]
 comments: true
 author: ula
 ---

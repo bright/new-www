@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do or do not. There is no try. 
-tags: programming coding teamwork
+tags: [programming, coding, teamwork]
 comments: true
 image: /images/do-or-do-not-there-is-no-try/photo1.jpg
 author: ula

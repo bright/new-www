@@ -4,7 +4,7 @@ title: Bright Year
 excerpt: There is nothing more important than people at work who support you, who help you, who share their knowledge and experience with you, and who come to work with a big smile on their face. And I have this kind of people around me. I suppose it is the most incredible motivation that anyone would like to have. Seeing clever, full of passion and energy people every day in the morning can really give you an extra kick. 
 author: ula
 hidden: false
-tags: teamspirit engagement trust success
+tags: [teamspirit, engagement, trust, success]
 image: https://lh3.googleusercontent.com/-kcqb89XnL-Q/Wip5awbzBoI/AAAAAAAAAe0/lzNnC8KXGkYIWeSweHPfYQSEcr4YtIUpwCLcBGAs/s0/photo-1455849318743-b2233052fcff.jpeg
 ---
 

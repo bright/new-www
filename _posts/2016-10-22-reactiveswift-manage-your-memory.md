@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ReactiveSwift - Manage your memory!
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

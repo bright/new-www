@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Desymbolicate crash reports from the command line
-tags: iOS
+tags: [iOS]
 comments: true
 author: michal
 ---

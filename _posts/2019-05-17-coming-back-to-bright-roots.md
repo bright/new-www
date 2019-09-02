@@ -5,7 +5,7 @@ author: ula
 extract: Probably you have noticed that we gave our brand a face lift. We are excited to finally unveil our new look, and we want to tell you all about it. The rebranding includes a redesign of the company’s logo, graphics, website, communications and correspondence. Our new brand assets include a simplified, black-and-white logo with a hint of innovation reflected in an orange square, along with other visual communications that utilise simple iconic graphics to convey complex solutions in an understandable way.
 image: /images/rebranding_announcement.png
 hidden: false
-tags: rebranding logo communication 
+tags: [rebranding, logo, communication] 
 ---
 Probably you have noticed that we gave our brand a face lift. We are excited to finally unveil our new look, and we want to tell you all about it.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Logging with Retrofit 2
-tags: android
+tags: [android]
 comments: true
 author: mateuszklimek
 ---

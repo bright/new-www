@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redshift Materialized Views
-tags: redshift
+tags: [redshift]
 comments: true
 hidden: false
 author: agnieszka

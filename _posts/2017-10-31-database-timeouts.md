@@ -3,7 +3,7 @@ layout: post
 title: Database timeouts
 author: piotr
 hidden: false
-tags: database timeout jdbc query transaction
+tags: [database, timeout, jdbc, query, transaction]
 comments: true
 crosspost: true
 image: /images/database-timeouts/database-files.jpg

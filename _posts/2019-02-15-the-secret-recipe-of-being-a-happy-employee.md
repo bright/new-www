@@ -5,7 +5,7 @@ extract: Our job satisfaction depends not only on whether we like what we do or 
 author: ula
 image: /images/happy_employee.png
 hidden: false
-tags: productivity job satisfaction distractions 
+tags: [productivity, job, satisfaction, distractions] 
 ---
 
 It happens quite often that we go with the flow and let our day be controlled by such things like notifications, emails, distractions from colleagues or countless meetings. But we often do not realise to what extent they all may affect our work and life, in general. 

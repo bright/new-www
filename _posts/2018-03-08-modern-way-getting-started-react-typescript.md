@@ -2,7 +2,7 @@
 layout: post
 title: The modern way of getting started with React and TypeScript
 excerpt: One of the prerequisites for a healthy and sustainable tech stack that reduces the risk of our project quickly getting obsolete is a tooling and automation around the mundane chores. Out of the tools fatigue JavaScript world suffered few months back the new generation solution was born at Facebook for React.
-tags: React TypeScript web
+tags: [React, TypeScript, web]
 comments: true
 author: adam
 hidden: false

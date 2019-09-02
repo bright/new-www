@@ -3,7 +3,7 @@ layout: post
 title: Use ShouldKO for better assertion messages 
 author: piotr
 hidden: false
-tags: junit hamcreset kotlin assertion tests
+tags: [junit, hamcreset, kotlin, assertion, tests]
 comments: true
 crosspost: true
 image: /images/shouldko-1/search.jpg

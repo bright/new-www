@@ -4,7 +4,7 @@ title: Host your react-redux website with AWS S3
 image: /images/host-website-with-aws-s3/www.png
 author: agnieszka
 hidden: false
-tags: react redux aws amazon s3
+tags: [react, redux, aws, amazon, s3]
 ---
 
 Hosting a static website with AWS S3 is a nice and fast way to show your react-redux app to the world. In this blog post I will guide you through this simple process.

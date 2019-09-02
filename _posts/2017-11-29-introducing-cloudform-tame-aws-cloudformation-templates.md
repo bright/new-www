@@ -2,7 +2,7 @@
 layout: post
 title: Introducing cloudform – tame your AWS CloudFormation templates
 excerpt: Whatever we do here in Bright Inventions, we deeply care about automation, traceability and repeatability. This is why, whenever we do anything at the backend, we define our infrastructure as code with the great help of AWS CloudFormation. The problem is that our template file grows quickly and becomes hard to maintain. This is how cloudform – a TypeScript-based imperative way to define AWS CloudFormation templates – was born.
-tags: AWS CloudFormation open-source
+tags: [AWS, CloudFormation, open-source]
 comments: true
 author: adam
 image: /images/cloudform/blackboard.jpg

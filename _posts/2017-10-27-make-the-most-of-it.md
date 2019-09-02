@@ -5,7 +5,7 @@ excerpt: 'Some people can achieve much more during the same time than the others
 author: ula
 hidden: false
 image: /images/tomatoes/table-meetings.jpg
-tags: time management productivity priorities 
+tags: [time, management, productivity, priorities] 
 ---
 Day has 24 hours. You can spend it doing whatever you want. 
 

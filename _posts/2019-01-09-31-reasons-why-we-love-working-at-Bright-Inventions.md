@@ -4,7 +4,7 @@ title: 31 reasons why we love working at Bright Inventions
 excerpt: I am always saying that the future of work is all about people, the people feeling connected to the culture of their company and the vision of their organisation.  Job is much more than a pay cheque. It is a place you go to improve your skill set, contribute to the greater good, and collaborate with other awesome people. And that is the case of our bright success. We are surrounded by Bright People every day.
 author: ula
 hidden: false
-tags: team success independence trust
+tags: [team, success, independence, trust]
 image: /images/31_RES_FB.png
 ---
 Back at my desk I am looking at a challenging, but at the same time rewarding and amazing 2018.  A new office, the team tripled in size, being among [Top App Developers in Poland on Clutch](https://brightinventions.pl/blog/Bright-Inventions-Remains-A-Top-Developer-In-Poland/) and among [Top 20 App Development Companies in Poland according to AppFutura](https://www.appfutura.com/blog/top-20-mobile-app-development-companies-in-poland-november-2018/), [international networking](https://brightinventions.pl/blog/bright-networking-time/), more industry leading partnership agreements and our entry into new Blockchain and AI world. What a year.

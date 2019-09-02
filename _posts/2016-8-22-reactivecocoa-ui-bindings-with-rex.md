@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ReactiveCocoa UI bindings with Rex
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

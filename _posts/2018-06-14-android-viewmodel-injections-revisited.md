@@ -7,7 +7,7 @@ date: 2018-06-18
 crosspost: true
 comments: true
 hidden: false
-tags: android
+tags: [android]
 ---
 
 In one of [my previous posts](https://brightinventions.pl/blog/injectable-android-viewmodels/) I have described how to implement a ViewModel factory that was able to provide ViewModels with their dependencies injected, e.g. an API client, and it was good enough for me at that time. Later on, thanks to [Piotr](https://miensol.pl/), we've found out even better and simpler approach with an additional possibility of injecting Activity- or Fragment-dependant data into ViewModels.

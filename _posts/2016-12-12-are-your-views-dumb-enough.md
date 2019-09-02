@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Are your views dumb enough? — A way to run your tests without simulator
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

@@ -5,7 +5,7 @@ extract: As software consultants with specialties in mobile apps and the Interne
 image: /images/Clutch_We_Deliver.png
 author: ula
 hidden: false
-tags: Clutch IoT mobile web software 
+tags: [Clutch, IoT, mobile, web, software] 
 ---
 As software consultants with specialties in mobile apps and the Internet of things, Bright Inventions has mastered the entire delivery process, making our clients’ dreams an easy, successful reality. While technology around us keeps [transforming](https://www.forbes.com/sites/forbescommunicationscouncil/2019/04/08/disrupt-or-be-disrupted-seven-steps-to-digital-transformation/#94254765f20b) and testing the limits of what we can achieve, our team remains committed to transparency, engagement, and success on behalf our clients, our products, and our service.
 

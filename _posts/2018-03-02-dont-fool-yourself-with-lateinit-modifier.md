@@ -7,7 +7,7 @@ date: 2018-03-22
 crosspost: true
 comments: true
 hidden: false
-tags: android kotlin
+tags: [android, kotlin]
 ---
 
 Kotlin language provides a nice and clean way to handle nullable variables in code so that it is less error prone. Unless you do it all wrong, of course.

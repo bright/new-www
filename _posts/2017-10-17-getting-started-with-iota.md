@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with IOTA
 excerpt: Although the plans of IOTA are great, currently the project is in its incubation phase, with the majority of the most attractive features not yet ready to use. But this shouldn't stop us from playing with what we already have today. Let's play!
-tags: IOTA blockchain cryptocurrency
+tags: [IOTA, blockchain, cryptocurrency]
 comments: true
 author: adam
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Multi tenancy task scheduler
 author: piotr
 hidden: false
-tags: spring mvc spring-boot multi-tenant reactive reactor
+tags: [spring, mvc, spring-boot, multi-tenant, reactive, reactor]
 comments: true
 crosspost: true
 image: /images/multi-tenancy-task-scheduler/sorting.jpg

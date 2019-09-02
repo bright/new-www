@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 tips for iOS Calabash beginners
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Writing a blog post
 author: piotr
 hidden: true
-tags: blog jekyll github
+tags: [blog, jekyll, github]
 ---
 
 Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](https://github.com/bright/new-www).
@@ -33,7 +33,7 @@ layout: post
 title: A human readable title of post
 author: piotr
 hidden: true
-tags: blog
+tags: [blog]
 ---
 
 My blog post content.
@@ -69,7 +69,7 @@ layout: post
 title: A human readable title of post
 author: piotr
 hidden: true
-tags: blog
+tags: [blog]
 ---
 
 ```
@@ -145,13 +145,13 @@ piotr:
 
 `2017-10-23-the-importance-of-timeouts.md`:
 
-```
+```yaml
 ---
 layout: post
 title: The importance of timeouts
 author: piotr
 hidden: false
-tags: server request timeout query resiliency spring boot
+tags: [server, request, timeout, query, resiliency, spring, boot]
 comments: true
 crosspost: true
 image: /images/the-importance-of-timeouts/man-clock.jpeg

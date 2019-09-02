@@ -3,7 +3,7 @@ layout: post
 title: How to bring together university and work?
 author: grzesiek
 hidden: false
-tags: work university time-management
+tags: [work, university, time-management]
 ---
 
 ## How did it start?

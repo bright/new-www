@@ -2,7 +2,7 @@
 layout: post
 title: AWS CloudFormation patterns & practices with cloudform
 excerpt: Recently we introduced cloudform – our open-source library that allows for managing AWS CloudFormation template files through TypeScript. Its core value proposition is to cope with the massive JSON files in a sane and familiar way – to treat it as any other TypeScript code we have in our project. But what does it actually mean? Let's look at some examples to check where this path can lead us to.
-tags: AWS CloudFormation open-source
+tags: [AWS, CloudFormation, open-source]
 comments: true
 author: adam
 image: /images/cloudform/mindmap.jpg

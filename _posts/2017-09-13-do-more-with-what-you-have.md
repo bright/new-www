@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do More with What You Have
-tags: productivity programming business
+tags: [productivity, programming, business]
 comments: true
 author: ula
 ---

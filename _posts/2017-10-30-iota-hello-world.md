@@ -2,7 +2,7 @@
 layout: post
 title: IOTA - Hello World
 excerpt: The most mature client library we can use for IOTA is a JavaScript one called iota.lib.js. Let's see what we can use it for.
-tags: IOTA blockchain cryptocurrency
+tags: [IOTA, blockchain, cryptocurrency]
 comments: true
 author: adam
 image: /images/iota/attach-tangle.jpg

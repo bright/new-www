@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ReactiveCocoa 4 - Action
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

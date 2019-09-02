@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simulating nth-of-class CSS selector
-tags: css
+tags: [css]
 comments: true
 hidden: false
 author: agnieszka

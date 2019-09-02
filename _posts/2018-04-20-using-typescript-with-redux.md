@@ -2,7 +2,7 @@
 layout: post
 title: Using TypeScript with Redux
 excerpt: Let's follow the typical path the front-end project takes nowadays and add Redux into our React+TypeScript application. TypeScript is a powerful beast that we can employ to make our Redux code not only type safe, but also much cleaner and more readable.
-tags: React TypeScript web
+tags: [React, TypeScript, web]
 comments: true
 author: adam
 image: /images/react-ts/redux-ts.png

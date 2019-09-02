@@ -5,7 +5,7 @@ excerpt: Bright Inventions is a great place to push your career to the next leve
 author: ula
 hidden: false
 image: /images/bright_team.png
-tags: team professionalism software Blockchain mobile web 
+tags: [team, professionalism, software, Blockchain, mobile, web] 
 ---
 
 Bright Inventions is a great place to push your career to the next level. We offer a friendly work environment, challenging projects, meaningful development and flexibility, which is not so easy to find under one roof in other companies. But above all, we offer a team that consists of great people for whom work is something more than a place you come to every morning  and leave after 8 hours. We are a team of professionals who are not afraid of new challenges and who are also not afraid of making mistakes. Our company is built on the flat structure. Each and every person has a real impact on the choices we make regarding not only the stack we use, but also our everyday habits and the whole development. So if you would like to be surrounded by smart and likeable people who will help you develop and broaden your skills and career, Bright Inventions is a place for you.

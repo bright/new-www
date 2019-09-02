@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data transfer between Apple Watch and iPhone
-tags: iOS
+tags: [iOS]
 comments: true
 author: eliasz
 ---

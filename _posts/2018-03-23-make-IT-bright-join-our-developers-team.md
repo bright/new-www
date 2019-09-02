@@ -3,7 +3,7 @@ layout: post
 title: Make IT Bright - Join our Developer's Team 
 author: ula 
 hidden: false
-tags: Blockchain mobile job team 
+tags: [Blockchain, mobile, job, team] 
 image: /images/make_it_bright.JPG
 ---
 

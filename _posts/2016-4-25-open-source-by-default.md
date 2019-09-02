@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Open source by default
-tags: OpenSource
+tags: [OpenSource]
 comments: true
 author: eliasz
 ---

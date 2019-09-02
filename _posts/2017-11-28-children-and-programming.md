@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Children and programming
-tags: programming developer book lilavati
+tags: [programming, developer, book, lilavati]
 comments: true
 hidden: false
 author: agnieszka

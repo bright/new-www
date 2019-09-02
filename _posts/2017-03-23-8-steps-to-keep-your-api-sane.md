@@ -2,7 +2,7 @@
 layout: post
 title: 8 steps to keep your API sane
 excerpt: It is pretty well known what a backward compatibility means for our APIs - once something was deployed to production and used by the users, we may not change its behavior or break its contracts. It’s far less obvious what a forward compatibility is, even though it is equally important for our APIs longevity and maintainability.
-tags: api design
+tags: [api, design]
 comments: true
 author: adam
 ---
