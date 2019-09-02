@@ -9,7 +9,7 @@ bio: Project Manager @ Bright Inventions
 avatar: https://brightinventions.pl/images/kasia_lukasiewicz.jpg
 github: bufta
 description: An Agile romantic with a scientific mind and a zeal for learning
-redirect_from: /kasia
+redirect_from: ["/kasia", "/kasia/"]
 layout: member
 ---
 

@@ -14,7 +14,7 @@ stackoverflow: 155213/miensol
 crosspost: https://miensol.pl/:categories/:year/:month/:day/:title.html
 descrption: Ask him anything from mobile to backend through Blockchain and Big Data, he is
   our programming genie
-redirect_from: /piotr
+redirect_from: ["/piotr", "/piotr/"]
 layout: member
 ---
 

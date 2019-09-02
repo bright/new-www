@@ -9,7 +9,7 @@ bio: Software Engineer @ Bright Inventions
 avatar: /images/agnieszka_olszewska.jpg
 layout: member
 description: O naszej Agnieszce
-redirect_from: /agnieszka-o
+redirect_from: ["/agnieszka-o", "/agnieszka-o/"]
 
 ---
 

@@ -7,7 +7,7 @@ short_name: Bartek
 email: bartek.rozwarski@brightinventions.pl
 avatar: https://brightinventions.pl/images/bartek.jpg
 description: His true love is Swift and iOS
-redirect_from: /bartek
+redirect_from: ["/bartek", "/bartek/"]
 layout: member
 ---
 

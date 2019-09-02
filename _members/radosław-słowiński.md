@@ -11,7 +11,7 @@ crosspost: https://ares97.github.io/
 twitter: aresss97
 description: Android developer passionate about deep learning. Recently fascinated by
   Spring Boot.
-redirect_from: /radek-s
+redirect_from: ["/radek-s", "/radek-s/"]
 layout: member
 ---
 

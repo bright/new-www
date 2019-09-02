@@ -52,7 +52,7 @@ collections:
       - {label: "Github", name: "github", widget: "string"}
       - {label: "Stack Overflow", name: "stackoverflow", widget: "string"}
       - {label: "Full description", name: "body", widget: "markdown"}
-      - {label: "Redirect from", name: "redirect_from", widget: "string"}
+      - {label: "Redirect from", name: "redirect_from", widget: "list", allow_add: true}
   - name: "jobs" # Used in routes, e.g., /admin/collections/blog
     label: "Jobs" # Used in the UI
     folder: "_jobs" # The path to the folder where the documents are stored
@@ -64,7 +64,7 @@ collections:
       - {label: "Hours", name: "hours", widget: "string"}
       - {label: "Salary", name: "salary", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Redirect from", name: "redirect_from", widget: "string"}
+      - {label: "Redirect from", name: "redirect_from", widget: "list", allow_add: true}
   - name: "projects" # Used in routes, e.g., /admin/collections/blog
     label: "Projects" # Used in the UI
     folder: "_projects" # The path to the folder where the documents are stored
@@ -76,4 +76,4 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Redirect from", name: "redirect_from", widget: "string"}
+      - {label: "Redirect from", name: "redirect_from", widget: "list", allow_add: true}

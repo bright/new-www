@@ -7,7 +7,7 @@ short_name: Alisa
 email: alisa.kashytska@brightinventions.pl
 avatar: https://brightinventions.pl/images/alisa_kashytska.jpg
 description: Our UX designer will make your app easy to understand and usable
-redirect_from: /alisa
+redirect_from: ["/alisa", "/alisa/"]
 layout: member
 ---
 

@@ -9,7 +9,7 @@ bio: Software Developer @ Bright Inventions
 avatar: /images/grzegorz_ciesla.jpg
 descrption: Our backend developer who drinks yerba all day and solves difficult problems
   with Blockchain
-redirect_from: /grzegorz
+redirect_from: ["/grzegorz", "/grzegorz/"]
 layout: member
 ---
 

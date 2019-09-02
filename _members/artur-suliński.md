@@ -7,7 +7,7 @@ short_name: Artur
 email: artur.sulinski@brightinventions.pl
 avatar: /images/artur.jpg
 description: iOS application development is his second ego
-redirect_from: /artur
+redirect_from: ["/artur", "/artur/"]
 layout: member
 ---
 

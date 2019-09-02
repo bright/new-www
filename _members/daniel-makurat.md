@@ -9,7 +9,7 @@ bio: building apps @ Bright Inventions
 avatar: /images/daniel_makurat.jpg
 github: danielmakurat
 description: Co-founder of Bright Inventions and senior fullstack developer
-redirect_from: /daniel-makurat
+redirect_from: ["/daniel-makurat", "/daniel-makurat/"]
 layout: member
 ---
 

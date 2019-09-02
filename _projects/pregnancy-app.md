@@ -3,7 +3,7 @@ title: Pregnancy App
 description: Bright Inventions was engaged to create an Android and iOS version of application as well as internal content managemnt system. The app is dedicated to women during pregnancy. It tracks their baby's growth week-by-week and gives users personalized updates about their pregnancy progress. Mumies-to-be can find there professional tips for eating healthy and exercising as well as follow a blog specially prepared by a panel of specialists.
 image: /images/pregnancy-app-main.png
 layout: details_projects
-redirect_from: /pregnancy-app
+redirect_from: ["/pregnancy-app", "/pregnancy-app/"]
 ---
 
 <div class="div-block-project_mainfeature">

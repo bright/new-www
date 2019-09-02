@@ -11,7 +11,7 @@ twitter: pathuzarski
 github: phuzarski
 description: Started programming adventure at the age of 12 and since then he has been
   experimenting with different technologies
-redirect_from: /patryk
+redirect_from: ["/patryk", "/patryk/"]
 layout: member
 ---
 

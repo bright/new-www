@@ -14,7 +14,7 @@ crosspost: https://azabost.com/:title
 description: Looking for someone who understands Android in and out? You've found it.
   Andrzej is our Android development lead. Always up to date with deep
   understanding of Android ecosystem and inner workings.
-redirect_from: /andrzej
+redirect_from: ["/andrzej", "/andrzej/"]
 layout: member
 ---
 

@@ -9,7 +9,7 @@ bio: Android Developer @ Bright Inventions
 avatar: https://brightinventions.pl/images/lukasz.jpg
 description: Android developer, a great Kotlin fan and Automatic Control and Robotics
   post-graduate
-redirect_from: /lukasz
+redirect_from: ["/lukasz", "/lukasz/"]
 layout: member
 ---
 

@@ -7,7 +7,7 @@ short_name: Marcin
 email: marcin.kwiatkowski@brightinventions.pl
 avatar: https://brightinventions.pl/images/marcin_kwiatkowski.jpg
 description: Full stack developer who can't resist learning new technologies
-redirect_from: /marcin
+redirect_from: ["/marcin", "/marcin/"]
 layout: member
 ---
 

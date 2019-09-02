@@ -11,7 +11,7 @@ twitter: Klimczak_M
 github: KlimczakM
 stackoverflow: 1570496/klimczak-m
 description: iOS lover keen on Android development and project management
-redirect_from: /mateusz
+redirect_from: ["/mateusz", "/mateusz/"]
 layout: member
 ---
 

@@ -9,7 +9,7 @@ bio: Software Developer @ Bright Inventions
 github: janczer
 avatar: https://brightinventions.pl/images/ivan_small.png
 description: JavaScript enthusiast
-redirect_from: /ivan
+redirect_from: ["/ivan", "/ivan/"]
 layout: member
 ---
 

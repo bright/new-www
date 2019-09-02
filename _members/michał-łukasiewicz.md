@@ -11,7 +11,7 @@ twitter: mgamer
 github: mgamer
 stackoverflow: 59666/mgamer
 description: Co-founder of Bright Inventions and fullstack mobile developer
-redirect_from: /michal-lukasiewicz
+redirect_from: ["/michal-lukasiewicz", "/michal-lukasiewicz/"]
 layout: member
 ---
 

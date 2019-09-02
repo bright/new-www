@@ -13,7 +13,7 @@ github: NOtherDev
 stackoverflow: 142827/notherdev
 layout: member
 description: Web technologies specialist. Author of https://whatwebcando.today/
-redirect_from: /adam
+redirect_from: ["/adam", "/adam/"]
 
 ---
 

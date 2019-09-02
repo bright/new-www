@@ -8,7 +8,7 @@ email: ula.stankiewicz@brightinventions.pl
 bio: Employer Branding Specialist @ Bright Inventions
 avatar: https://brightinventions.pl/images/ula_stankiewicz.jpg
 description: employer branding specialist and social media enthusiast
-redirect_from: /ula
+redirect_from: ["/ula", "/ula/"]
 layout: member
 ---
 
