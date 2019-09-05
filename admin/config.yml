@@ -3,6 +3,7 @@ backend:
   repo: bright/new-www
   branch: gh-pages
   base_url: https://github-auth.brightinventions.pl
+publish_mode: editorial_workflow
 media_folder: "images"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
