@@ -2,7 +2,36 @@
 layout: default
 ---
 {% include _top_navigation.html %}
-
+{% assign same_as = "" | split: ', ' %}
+{% if page.twitter %}
+{% capture url %}"https://twitter.com/{{ page.twitter }}"{% endcapture %}
+{% assign same_as = same_as | push: url %}
+{% endif %}
+{% if page.github %}
+{% capture url %}"https://github.com/{{ page.github }}"{% endcapture %}
+{% assign same_as = same_as | push: url %}
+{% endif %}
+{% if page.stackoverflow %}
+{% capture url %}"https://stackoverflow.com/users/{{ page.stackoverflow }}"{% endcapture %}
+{% assign same_as = same_as | push: url %}
+{% endif %}
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "{{ page.name }}",
+    "url": "{{ page.web }}",
+    "image": "{{ page.avatar | absolute_url }}",
+    "jobTitle": "{{ page.bio }}",
+    "sameAs": [
+    {{ same_as | join: ',' }}
+    ],
+    "worksFor": {
+    "@type": "Organization",
+    "name": "Bright Inventions"
+    }
+    }
+</script>
 <div>
     <div class="container-23 w-container">
         <div class="div-block-14">
