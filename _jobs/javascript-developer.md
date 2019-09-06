@@ -2,7 +2,10 @@
 title: JavaScript Developer
 layout: details_jobs
 hours: Full-time
+employment_type: FULL_TIME
 salary: 8,000 zł - 16,000 zł / month
+salary_min: 8000
+salary_max: 16000
 redirect_from: ["/javascript-developer", "/javascript-developer/"]
 ---
 

@@ -3,7 +3,43 @@ layout: default
 ---
 
 {% include _top_navigation.html %}
-
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "JobPosting",
+        "title": "{{ page.title }}",
+        "description": "{{ page.content }}",
+        "hiringOrganization" : {
+            "@type": "Organization",
+            "name": "Bright Inventions",
+            "sameAs": "https://brightinventions.pl/"
+        },
+        "industry": "Software",
+        "employmentType": "{{ page.employment_type | default: 'OTHER' }}",
+    {% if page.salary_min %}
+        "baseSalary": {
+          "@type": "MonetaryAmount",
+          "currency": "PLN",
+          "value": {
+            "@type": "QuantitativeValue",
+            "minValue": {{ page.salary_min }},
+            "maxValue": {{ page.salary_max }},
+            "unitText": "MONTH"
+          }
+        },
+    {% endif %}
+        "jobLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Matejki 12",
+                "addressLocality": "Gdańsk",
+                "postalCode": "80-232",
+                "addressCountry": "PL"
+            }
+        }
+    }
+</script>
 <div class="section-17">
     <div class="container-26 w-container"><h1 class="heading-20">{{ page.title }}</h1>
         <div class="text-block-15">{{ page.hours }}</div>
