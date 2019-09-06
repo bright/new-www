@@ -4,35 +4,7 @@ layout: default
 
 {% include _top_navigation.html %}
 {% assign author = site.members | where: "author_id", page.author | first %}
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "{{ page.title }}",
-        "description": "{{ page.excerpt | strip_html }}",
-    {% if page.image %}
-        "image": {
-            "@type": "ImageObject",
-            "url": "{{ page.image | absolute_url }}"
-        },
-    {% endif %}
-        "author": {
-            "@type": "Person",
-            "name": "{{ author.name }}"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Bright Inventions",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://brightinventions.pl/images/logo.png",
-                "width": 157,
-                "height": 60
-            }
-        },
-        "datePublished": "{{ page.date }}"
-    }
-</script>
+
 
 <div class="section-14">
     <div class="w-container">
@@ -73,5 +45,34 @@ layout: default
         src="{{ site.url }}/fonts/5cc1abc4f13cce312b2d40be_arrow%20back.svg" width="30" alt>
     <div class="text-block-26">Back</div>
 </a></div>
-
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ page.title }}",
+        "description": "{{ page.excerpt | strip_html }}",
+    {% if page.image %}
+    "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.image | absolute_url }}"
+    },
+    {% endif %}
+    "author": {
+    "@type": "Person",
+    "name": "{{ author.name }}"
+    },
+    "publisher": {
+    "@type": "Organization",
+    "name": "Bright Inventions",
+    "logo": {
+    "@type": "ImageObject",
+    "url": "https://brightinventions.pl/images/logo-small.png",
+    "width": 157,
+    "height": 60
+    }
+    },
+    "datePublished": "{{ page.date }}"
+    }
+</script>
+{% include _fake_ratings_tag.html %}
 {% include _footer.html %}

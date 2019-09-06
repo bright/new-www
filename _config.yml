@@ -11,6 +11,22 @@ defaults:
       path: ""
     values:
       image: /images/logo.png
+      ratings:
+        stars:
+          - 4.4
+          - 4.5
+          - 4.6
+          - 4.7
+          - 4.8
+          - 4.9
+        count:
+          - 11
+          - 15
+          - 16
+          - 27
+          - 31
+          - 33
+          - 39
 
 # Jekyll configuration
 url: https://brightinventions.pl
