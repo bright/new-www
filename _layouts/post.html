@@ -3,11 +3,40 @@ layout: default
 ---
 
 {% include _top_navigation.html %}
+{% assign author = site.members | where: "author_id", page.author | first %}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ page.title }}",
+        "description": "{{ page.excerpt | strip_html }}",
+    {% if page.image %}
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{ page.image | absolute_url }}"
+        },
+    {% endif %}
+        "author": {
+            "@type": "Person",
+            "name": "{{ author.name }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Bright Inventions",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://brightinventions.pl/images/logo.png",
+                "width": 157,
+                "height": 60
+            }
+        },
+        "datePublished": "{{ page.date }}"
+    }
+</script>
 
 <div class="section-14">
     <div class="w-container">
         <div class="div-block-18 blog-post">
-            {% assign author = site.members | where: "author_id", page.author | first %}
 <!--            {% if page.image %}-->
 <!--            <img src="{{ site.url }}/{{ page.image }}"-->
 <!--                 alt class="image-21">-->
