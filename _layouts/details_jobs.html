@@ -8,6 +8,8 @@ layout: default
         "@context": "https://schema.org/",
         "@type": "JobPosting",
         "title": "{{ page.title }}",
+"datePosted": "{{ page.date }}",
+"validThrough": "2021-12-31",
         "description": "{{ page.content }}",
         "hiringOrganization" : {
             "@type": "Organization",
@@ -35,7 +37,8 @@ layout: default
                 "streetAddress": "Matejki 12",
                 "addressLocality": "Gdańsk",
                 "postalCode": "80-232",
-                "addressCountry": "PL"
+                "addressCountry": "PL",
+"addressRegion": "pomorskie"
             }
         }
     }
