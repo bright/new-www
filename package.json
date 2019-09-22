@@ -2,6 +2,8 @@
   "name": "bright-blog",
   "private": true,
   "devDependencies": {
+    "bulma": "^0.7.5",
+    "bulma-carousel": "^4.0.4",
     "website-scraper": "^4.0.1",
     "cheerio": "^1.0.0-rc.3",
     "rimraf": "^2.6.3",
@@ -23,6 +25,7 @@
   },
   "scripts": {
     "serve": "bundle exec jekyll serve --incremental",
-    "update-template": "node $NODE_DEBUG_OPTION ./update-template.js --template-zip '/Users/piotr/Downloads/brightproject.webflow (1).zip' --config '/Users/piotr/Downloads/brightproject.webflow (1)/webflow-config.json'"
+    "update-template": "node $NODE_DEBUG_OPTION ./update-template.js --template-zip '/Users/piotr/Downloads/brightproject.webflow (1).zip' --config '/Users/piotr/Downloads/brightproject.webflow (1)/webflow-config.json'",
+    "postinstall": "cp -r ./node_modules/bulma* _sass/"
   }
 }
