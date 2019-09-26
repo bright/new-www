@@ -41,19 +41,19 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "member"}
       - {label: "Author id", name: "author_id", widget: "string"}
       - {label: "No longer with us", name: "ex", widget: "boolean", default: false}
-      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string", hint: "URL path"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Short Name", name: "short_name", widget: "string"}
       - {label: "Email", name: "email", widget: "string"}
       - {label: "Bio", name: "bio", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Website", name: "web", widget: "string"}
-      - {label: "Avatar", name: "avatar", widget: "image"}
-      - {label: "Twitter", name: "twitter", widget: "string"}
-      - {label: "Github", name: "github", widget: "string"}
-      - {label: "Stack Overflow", name: "stackoverflow", widget: "string"}
+      - {label: "Website", name: "web", widget: "string", required: false}
+      - {label: "Avatar", name: "avatar", widget: "image", required: false}
+      - {label: "Twitter", name: "twitter", widget: "string", required: false}
+      - {label: "Github", name: "github", widget: "string", required: false}
+      - {label: "Stack Overflow", name: "stackoverflow", widget: "string", required: false}
       - {label: "Full description", name: "body", widget: "markdown"}
-      - {label: "Redirect from", name: "redirect_from", widget: "list", allow_add: true}
+      - {label: "Redirect from", name: "redirect_from", widget: "list", allow_add: true, required: false}
   - name: "jobs" # Used in routes, e.g., /admin/collections/blog
     label: "Jobs" # Used in the UI
     folder: "_jobs" # The path to the folder where the documents are stored
