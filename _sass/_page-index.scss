@@ -2,9 +2,12 @@
 @import "bulma-carousel/src/sass/index";
 
 .page-index {
-  .title {
-    font-size: 80px;
-    font-weight: 700;
+  @include desktop {
+    .title {
+      font-size: 80px;
+      line-height: 150%;
+      font-weight: 700;
+    }
   }
 
   .hero {

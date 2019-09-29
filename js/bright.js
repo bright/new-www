@@ -19,6 +19,7 @@
         const doneNode = findRelative(form, '.form-success');
         const failNode = findRelative(form, '.form-error');
         const submitButton = form.querySelector('[type=submit]');
+
         function showDone() {
             doneNode.style.display = 'block';
             failNode.style.display = 'none';
@@ -59,7 +60,7 @@
         if ($navbarBurgers.length > 0) {
 
             // Add a click event on each of them
-            $navbarBurgers.forEach( el => {
+            $navbarBurgers.forEach(el => {
                 el.addEventListener('click', () => {
 
                     // Get the target from the "data-target" attribute
@@ -74,5 +75,48 @@
             });
         }
 
+    });
+
+    function urlWithSearchParams(searchParams) {
+        return window.location.protocol + "//" + window.location.host + window.location.pathname + '?' + searchParams.toString();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const tabSets = document.querySelectorAll('.tabs[data-tabs-content]');
+        tabSets.forEach(tabSet => {
+            const contentSelector = tabSet.getAttribute("data-tabs-content");
+            const tabsParamName = `tabs[${contentSelector}]`;
+            const tabContents = document.querySelectorAll(contentSelector);
+            const tabs = tabSet.querySelectorAll('ul>li');
+            let urlParams = null;
+
+            function selectTabAtIndex(index) {
+                tabs.forEach((tab, ix) => {
+                    tab.classList.toggle("is-active", ix === index);
+                    tabContents.item(ix).classList.toggle("is-hidden", ix !== index);
+                });
+                if (urlParams) {
+                    urlParams.set(tabsParamName, index);
+                    const newUrl = urlWithSearchParams(urlParams);
+                    window.history.replaceState({ path: newUrl }, '', newUrl);
+                }
+            }
+
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', () => selectTabAtIndex(index))
+            });
+
+            let selectedIndex = 0;
+            try {
+                urlParams = new URLSearchParams(window.location.search);
+                const indexParam = urlParams.get(tabsParamName);
+                if (indexParam) {
+                    selectedIndex = parseInt(indexParam, 10);
+                }
+            } catch (e) {
+            }
+
+            selectTabAtIndex(selectedIndex);
+        });
     });
 }());

@@ -12,14 +12,18 @@
 @import "bulma/sass/components/level";
 @import "bulma/sass/components/card";
 @import "bulma/sass/components/media";
-
+@import "bulma/sass/components/tabs";
 
 @import "bulma/sass/form/all";
 
 //@import "bulma/bulma";
 
-@import "page-index";
-@import "carousel";
 @import "form-submit";
 @import "typography";
+
+@import "helpers";
+
+@import "page-index";
+@import "team-members";
+@import "carousel";
 @import "footer";
