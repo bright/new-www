@@ -4,7 +4,9 @@
     {% include _head.html %}
 </head>
 <body class="layout-{{ page.layout }} page-{{ page.class }}">
+{% include _top_navigation.html %}
 {{ content }}
+{% include _footer.html %}
 {% include _scripts.html %}
 </body>
 </html>

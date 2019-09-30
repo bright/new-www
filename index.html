@@ -5,8 +5,6 @@ description: The best custom software development company in Poland. Through mob
 class: index
 ---
 
-{% include _top_navigation.html %}
-
 <section class="hero is-dark we-deliver">
     <div class="hero-body">
         <div class="container">
@@ -76,16 +74,7 @@ class: index
             <div class="columns is-multiline">
                 {% for project in site.projects limit: 6 %}
                 <div class="column is-one-third">
-                    <div class="card">
-                        <div class="card-content has-text-centered">
-                            <a href="{{ project.url }}">
-                                <figure class="image is-inline-block">
-                                    <img src="{{ project.image | absolute_url }}" alt="{{ project.title }}">
-                                </figure>
-                                <h2 class="is-size-5 has-text-black has-text-weight-bold">{{ project.title }}</h2>
-                            </a>
-                        </div>
-                    </div>
+                    {% include _project_card.html project=project %}
                 </div>
                 {% endfor %}
             </div>
@@ -205,5 +194,3 @@ class: index
         <div class="form-error has-text-warning is-size-4">Oops! Something went wrong while submitting the form.</div>
     </div>
 </section>
-
-{% include _footer.html %}
