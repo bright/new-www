@@ -10,12 +10,18 @@
   flex-direction: column;
 }
 
+.image.is-100x100 {
+  width: 100px;
+  height: 100px;
+}
+
+
 .image.is-150x150 {
   width: 150px;
   height: 150px;
 }
 
-.image.is-100x100 {
-  width: 100px;
-  height: 100px;
+.image.is-256x256 {
+  width: 256px;
+  height: 256px;
 }

@@ -4,23 +4,19 @@ layout: default
 
 {% include _top_navigation.html %}
 
-<div>
-    <div class="container-23 w-container">
-        <div class="div-block-14">
-            <div class="w-layout-grid grid-15"><img width="262" src="{{ page.avatar | absolute_url }}" alt
-                                                    class="image-7">
-                <div><h1 class="heading-2 teammembers">{{ page.short_name }}</h1>
-                    <div class="rich-text-block-2 w-richtext">
-                        {{ content }}
-                    </div>
-                </div>
+<div class="container">
+    <article class="section">
+        <div class="level">
+            <figure class="level-left image is-256x256">
+                <img src="{{ page.avatar | absolute_url }}" alt="{{ page.name }}">
+            </figure>
+            <div class="section">
+                <h1 class="title">{{page.short_name}}</h1>
+                <p>{{content}}</p>
             </div>
         </div>
-    </div>
-    <div class="w-container"><a href="javascript: history.go(-1)" class="backbutton w-inline-block"><img
-            src="{{ site.url }}/images/arrow-back.svg" width="30" alt>
-        <div class="text-block-26">Back</div>
-    </a></div>
+        {% include _back_button.html url="/about-us?tabs.tab-content=2" label="Team" %}
+    </article>
 </div>
 
 
@@ -54,5 +50,7 @@ layout: default
         }
     }
 </script>
+
 {% include _fake_ratings_tag.html %}
+
 {% include _footer.html %}

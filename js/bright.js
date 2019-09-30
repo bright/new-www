@@ -85,7 +85,7 @@
         const tabSets = document.querySelectorAll('.tabs[data-tabs-content]');
         tabSets.forEach(tabSet => {
             const contentSelector = tabSet.getAttribute("data-tabs-content");
-            const tabsParamName = `tabs[${contentSelector}]`;
+            const tabsParamName = `tabs${contentSelector}`;
             const tabContents = document.querySelectorAll(contentSelector);
             const tabs = tabSet.querySelectorAll('ul>li');
             let urlParams = null;
