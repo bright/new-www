@@ -5,3 +5,11 @@ address {
 .is-normal {
   font-style: normal !important;
 }
+
+@include desktop {
+  .title {
+    font-size: 70px;
+    line-height: 150%;
+    font-weight: 700;
+  }
+}
