@@ -1,20 +1,18 @@
 (function () {
+    function findRelative(element, selector) {
+        do {
+            const target = element.querySelector(selector)
+            if (target) {
+                return target
+            }
+            element = element.parentNode;
+        } while (element);
+        return null;
+    }
 
     document.addEventListener('submit', function (e) {
         const form = e.target;
         const formType = form.dataset.formType;
-
-        function findRelative(element, selector) {
-            do {
-                const target = element.querySelector(selector)
-                if (target) {
-                    return target
-                }
-                element = element.parentNode;
-            } while (element);
-            return null;
-        }
-
 
         const doneNode = findRelative(form, '.form-success');
         const failNode = findRelative(form, '.form-error');
@@ -46,9 +44,17 @@
                 body: new FormData(form),
             }).then(showDone, showFail)
         }
-    }, true)
+    }, true);
 
-
+    document.addEventListener('change', (event)=> {
+        const fileInput = event.target;
+        if(fileInput.type === 'file'){
+            const fileNameElement = findRelative(fileInput, '.file-label .file-name');
+            if(fileNameElement){
+                fileNameElement.innerText = fileInput.value;
+            }
+        }
+    });
     // navbar
     // https://bulma.io/documentation/components/navbar/#navbar-burger
     document.addEventListener('DOMContentLoaded', () => {
