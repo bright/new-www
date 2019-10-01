@@ -1,87 +1,70 @@
 ---
 layout: default
 title: Career
+class: career
 ---
 
-
-<div class="section-5 careersection">
-  <div class="w-container">
-    {% include _top_navigation.html %}
-  </div><img src="blob:https://webflow.com/5a26b4d5-819b-4d9e-b4c1-4812d894a88a" alt>
-  <div class="container-24 w-container">
-    <h1 class="heading2 career">we hire bright people</h1>
-  </div>
-  <div class="container-11 w-container">
-    <div class="collection-list-wrapper-3 w-dyn-list">
-      <div class="collection-list w-dyn-items">
-        {% include _jobs_open_top.html %}
-      </div>
-
-    </div><a href="#open-positions" class="link-block-13 w-inline-block"><img src="{{ site.url }}/images/arrow-more.svg" width="30" alt><p class="paragraph-17">see all</p></a></div>
-  <div class="container-16 w-container"></div>
-</div>
-<div>
-  <div class="container-12 w-container">
-    <h1 class="main-heading careerheading">what we practise</h1>
-    <div class="w-row">
-      <div class="w-col w-col-4">
-        <div class="div-block-2 div-block-serv_home"><img src="{{ site.url }}/images/design.svg" width="127" alt class="image-10">
-          <p class="paragraph-4">in-house design</p>
-        </div>
-      </div>
-      <div class="w-col w-col-4">
-        <div class="div-block-3 div-block-serv_home"><img src="{{ site.url }}/images/code-review.svg" width="127" alt class="image-10">
-          <p class="paragraph-4">code review (Upsource)</p>
-        </div>
-      </div>
-      <div class="w-col w-col-4">
-        <div class="div-block-4 div-block-serv_home"><img src="{{ site.url }}/images/pairProgramming.svg" width="127" alt class="image-10">
-          <p class="paragraph-4">pair programming</p>
-        </div>
-      </div>
-    </div>
-    <div class="columns-6 w-row">
-      <div class="w-col w-col-4">
-        <div class="div-block-5 div-block-serv_home"><img src="{{ site.url }}/images/testdrivenenvironment.svg" width="127" alt class="image-10">
-          <p class="paragraph-4">test-driven development</p>
-        </div>
-      </div>
-      <div class="w-col w-col-4">
-        <div class="div-block-6 div-block-serv_home"><img src="{{ site.url }}/images/continuousintegration.svg" width="127" alt class="image-10">
-          <p class="paragraph-4">continuous integration (TeamCity)</p>
-        </div>
-      </div>
-      <div class="w-col w-col-4">
-        <div class="div-block-7 div-block-serv_home"><img src="{{ site.url }}/images/oneOnOne.svg" width="127" alt class="image-10">
-          <p class="paragraph-4">one-on-one meetings</p>
-        </div>
-      </div>
+<section class="hero is-dark we-hire">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">We hire bright people</h1>
+      {% include _jobs_open_top.html %}
     </div>
   </div>
-</div>
-<div class="section-6">
-  <div class="container-13 w-container">
-    <h1 class="heading-5 heading-brightminds">bright minds, bright solutions</h1>
-  </div>
-</div>
-<div id="open-positions">
-  <div class="w-container">
-    <h1 class="main-heading careerheading">open positions</h1>
-    <div class="div-block-8">
-      <div class="collection-list-wrapper-2 w-dyn-list">
-        <div class="collection-list-5 w-dyn-items">
-          {% include _jobs_open_all.html %}
-        </div>
+</section>
 
+<div class="container">
+  <article class="section">
+    <h2 class="title has-text-dark">What we practice?</h2>
+    <div class="columns is-multiline">
+
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-128x128 is-inline-block"><img src="/images/design.svg" alt="in house design"></figure>
+        <p>in house design</p>
       </div>
+
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-128x128 is-inline-block"><img src="/images/code-review.svg" alt="code review"></figure>
+        <p>code review (Upsource)</p>
+      </div>
+
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-128x128 is-inline-block"><img src="/images/pairProgramming.svg" alt="pair programming"></figure>
+        <p>pair programming</p>
+      </div>
+
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-128x128 is-inline-block"><img src="/images/testdrivenenvironment.svg" alt="TDD"></figure>
+        <p>test driven development</p>
+      </div>
+
+
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-128x128 is-inline-block"><img src="/images/continuousintegration.svg" alt="CI/CD"></figure>
+        <p>continuous integration and delivery</p>
+      </div>
+
+
+      <div class="column is-one-third has-text-centered">
+        <figure class="image is-128x128 is-inline-block"><img src="/images/oneOnOne.svg" alt="one on one"></figure>
+        <p>one on one meetings</p>
+      </div>
+
     </div>
-  </div>
+  </article>
 </div>
-{% include _footer.html %}
 
+<section class="hero is-dark bright-minds">
+  <div class="container has-text-centered is-flex has-items-centered">
+    <h2 class="title">
+      bright minds, bright solutions
+    </h2>
+  </div>
+</section>
 
-<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-<!-- Start Cookie Script -->
-
-<!-- End Cookie Script -->
-
+<div class="container">
+  <article class="section">
+    <h2 class="title">Open positions</h2>
+    {% include _jobs_open_all.html %}
+  </article>
+</div>
