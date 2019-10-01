@@ -2,16 +2,30 @@
 layout: default
 ---
 
-{% include _top_navigation.html %}
+<div class="container">
+    <article class="section">
+        <h1 class="title has-text-dark has-text-weight-bold">{{ page.title }}</h1>
+        <div class="content">
+            <h3 class="has-text-grey has-text-weight-bold">{{ page.hours }}</h3>
+            <h3 class="has-text-primary has-text-weight-bold">Salary: {{ page.salary }}</h3>
+        </div>
+        <div class="content">{{ content }}</div>
+        <div class="content">
+            <a href="/apply-for-job" class="button is-primary">Apply</a>
+        </div>
+        {% include _back_button.html url="/career#open-positions" label="Open positions" %}
+    </article>
+</div>
+
 <script type="application/ld+json">
     {
         "@context": "https://schema.org/",
         "@type": "JobPosting",
         "title": "{{ page.title }}",
-"datePosted": "{{ site.time }}",
-"validThrough": "2021-12-31",
+        "datePosted": "{{ site.time }}",
+        "validThrough": "2021-12-31",
         "description": "{{ page.content }}",
-        "hiringOrganization" : {
+        "hiringOrganization": {
             "@type": "Organization",
             "name": "Bright Inventions",
             "sameAs": "https://brightinventions.pl/"
@@ -43,16 +57,4 @@ layout: default
         }
     }
 </script>
-<div class="section-17">
-    <div class="container-26 w-container"><h1 class="heading-20">{{ page.title }}</h1>
-        <div class="text-block-15">{{ page.hours }}</div>
-        <div class="text-block-17">{{ page.salary }}</div>
-        <div class="rich-text-block-6 w-richtext">
-            {{ content }}
-        </div>
-        <a href="{{ site.url }}/apply-for-job" class="apply_job_button specific-job w-button">apply</a>
-        <a href="javascript: history.go(-1)" class="backbutton w-inline-block"><img src="{{ site.url }}/images/arrow-back.svg" width="30" alt><div class="text-block-26">Back</div></a>
-    </div>
-</div>
 
-{% include _footer.html %}
