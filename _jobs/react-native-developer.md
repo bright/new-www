@@ -11,8 +11,9 @@ We are all about teamwork, self-development and doing what we like in the best p
 
 What can you expect after joining our team? 
 
-**Exciting projects. Personal growth. Positive and supportive team. Responsibility.** \
+**Exciting projects. Personal growth. Positive and supportive team. Responsibility.** 
 **And some perks, of course. :)** 
+
 
 **YOUR JOB WILL INCLUDE:** 
 
