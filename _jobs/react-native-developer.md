@@ -3,9 +3,8 @@ layout: details_jobs
 title: 'React Native Developer '
 hours: Full-time
 salary: '10,000 zł - 15,000 zł / month'
-redirect_from:
-  - /react native-developer
-  - /react native-developer/
+salary_min: 10000
+salary_max: 15000
 ---
 We are all about teamwork, self-development and doing what we like in the best possible way. We support and share responsibility with the members of our team. We encourage the diversity of thought.
 
@@ -14,8 +13,7 @@ What can you expect after joining our team?
 **Exciting projects. Personal growth. Positive and supportive team. Responsibility.** 
 **And some perks, of course. :)** 
 
-
-**YOUR JOB WILL INCLUDE:** 
+## Your job will include: 
 
 * creating high-quality React Native applications 
 * participating in software code reviews
@@ -23,7 +21,7 @@ What can you expect after joining our team?
 * supporting less experienced developers at improving their skills
 * improving internal mobile development processes
 
-**WHAT WE EXPECT FROM YOU:**
+## What we expect from you:
 
 * at least 3 years of solid commercial programming experience, including min. 1 year in RN development
 * good understanding of the most popular React Native libraries
@@ -35,11 +33,11 @@ What can you expect after joining our team?
 * the ability to work independently as well as in a team 
 * communicative level of English (both written and spoken) 
 
-**NICE TO HAVE:** 
+## Nice to have:
 
 * experience with OCR (Optical Character Recognition) 
 
-**BENEFITS AND PERKS:** 
+## Benefits and perks: 
 
 * making key project decisions by dealing directly with the clients
 * attractive salary (10-15k PLN monthly) together with 20-26 paid days of annual leave
