@@ -59,7 +59,7 @@ useLayoutEffect
 Now, you can add state to a functional component. We don't need to write a separate class for that.
 Let's create a simple counter state-less component and add first Hook.
 
-```
+```jsx
 export const Counter = () => {
    return (
        <div>
@@ -81,7 +81,7 @@ The `useState` Hook returns an array. The first entry of the array is the the cu
 
 Now, we can pass the current value of the state and function for update the state:
 
-```
+```jsx
 export const Counter = () => {
    const [count, setCount] = useState(0);
    return (
@@ -101,7 +101,7 @@ Hook as ability to avoid the side effects from the function component. It is alm
 
 So, simply we wll import and add it to our Counter, and pass an anonymous function as a first argument:
 
-```
+```jsx
 const [count, setCount] = useState(0);
 const [checked, changeCheckbox] = useState(true)
 useEffect(() => {
@@ -113,7 +113,7 @@ For now, the text `hello from useEffect` will render every time when we change t
 
 The real power of `useEffect` is that we can pass a second optional argument, which is an array. Then we can specify that we want to invoke this effect only in the situation when we change the count value.
 
-```
+```jsx
 useEffect(() => {
    console.log('hello from useEffect')
 }, [count])
@@ -133,7 +133,7 @@ This approach is ok, but we have to pass a user through a bunch of components (i
 One way to make it looks better is to use `createContext`, to create a new context and returns the current context value, as given by the nearest context provider for the given context. 
 So let's create and export the `Context` object:
 
-```
+```jsx
 import React from 'react'
 const Context = React.createContext()
 export default Context
@@ -142,7 +142,7 @@ export default Context
 In our index app, we are importing the Context and wrap the whole main page component with `<Context.Provider>` and pass the user value from state as a prop. Now, we have an access to all of the 
 Context consumers to the value from state and we don’t need to pass it through the components as a prop.
 
-```
+```jsx
 import React, { Component } from 'react';
 import './App.css';
 import { Dashboard } from "./Dashboard";
@@ -164,7 +164,7 @@ class App extends Component {
 export default App;
 ```
 Right now, we use `useContext` Hook and wrap our Context, where the value is a value passed from the Provider (our index). Let's assign in to user variable.
-```
+```jsx
 import React, { useContext } from 'react'
 import LoginInfo from './LoginInfo'
 import Context from './Context'
@@ -183,7 +183,7 @@ const Header = () => {
 export default Header
 ```
 The situation will be the same for the `LoginInfo`. We declare a value `user` by using `useContext` Hook and the value is a value passed from the Provider (our index).
-```
+```jsx
 import React, { useContext } from 'react'
 import Context from './Context'
 

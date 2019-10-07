@@ -1,3 +1,1 @@
-{% if post.tags %}
-  <h4 class="tags"><i class="fa fa-tags"></i> {{ post.tags | join: ", " }}</h4>
-{% endif %}
+<p class="tags {{ include.class }}">{% for tag in include.tags %}<span class="tag">{{tag}}</span> {% endfor %}</p>

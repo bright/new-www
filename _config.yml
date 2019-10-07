@@ -32,22 +32,33 @@ defaults:
 url: https://brightinventions.pl
 github_repo_url: https://github.com/bright/new-www/
 permalink:   /blog/:categories/:title/
-highlighter: rouge
+
 sass:
   sass_dir: _sass
   style: compressed
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
 
+guess_lang: true
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: jsx
+    guess_lang: true
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 

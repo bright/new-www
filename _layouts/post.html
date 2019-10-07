@@ -1,50 +1,54 @@
 ---
 layout: default
+class: blog-post
 ---
 
-{% include _top_navigation.html %}
 {% assign author = site.members | where: "author_id", page.author | first %}
 
-
-<div class="section-14">
-    <div class="w-container">
-        <div class="div-block-18 blog-post">
-<!--            {% if page.image %}-->
-<!--            <img src="{{ site.url }}/{{ page.image }}"-->
-<!--                 alt class="image-21">-->
-<!--            {% endif %}-->
-            <div class="div-block-49">
-                <div class="div-block-51">
-                    {% if author.avatar %}
-                    <img width="65" src="{{ author.avatar }}" alt="{{ author.name }} bio photo" class="image-23">
-                    {% endif %}
-
-                    <div class="div-block-50">
-                        <div class="text-block-11">{{ author.name }}</div>
-                        <div class="text-block-12">{{ author.bio }}</div>
-                    </div>
-                </div>
-                <div class="div-block-52">
-                    <div class="text-block-14">{% include post/read_duration.html %}</div>
-                    <div class="text-block-13">{% if page.tags %}{{ page.tags | join: ', ' }}{% endif %}</div>
-                    <div class="text-block-13 date">{% include post/date.html %}{{ time }}</div>
+<div class="container">
+    <article class="section">
+        <div class="columns is-vcentered">
+            <div class="column is-half">
+                <a href="{{ author.url }}">
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-64x64"><img src="{{ author.avatar | absolute_url }}" alt="{{ author.name }} bio photo" class="is-rounded"></p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4 class="title has-text-dark">{{ author.name }}</h4>
+                                <p class="subtitle is-6">{{ author.bio }}</p>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            <div class="column has-text-right">
+                <div class="content has-text-grey-light">
+                    <p class="has-text-primary">{% include post/read_duration.html %}</p>
+                    {% include _tags.html tags=page.tags class='has-justify-content-flex-end' %}
+                    <p>{% include post/date.html date=page.date updated=page.updated %}</p>
                 </div>
             </div>
-            <h1 class="heading-17">{{ page.title }}</h1>
-            <div class="rich-text-block-5 w-richtext">
-                {{ content }}
-            </div>
-            {% include post/crosspost.html %}
         </div>
+
+        <h1 class="title">{{page.title}}</h1>
+        <div class="content">
+            {{content}}
+        </div>
+
+        {% include _back_button.html url="/blog" label="Blog" %}
+
+        {% include post/crosspost.html %}
+
         {% if site.owner.disqus-shortname and page.comments == true %}
         <section id="disqus_thread"></section><!-- /#disqus_thread -->
         {% endif %}
-    </div>
+
+    </article>
 </div>
-<div class="container-32 w-container"><a href="javascript: history.go(-1)" class="backbutton w-inline-block"><img
-        src="{{ site.url }}/fonts/5cc1abc4f13cce312b2d40be_arrow%20back.svg" width="30" alt>
-    <div class="text-block-26">Back</div>
-</a></div>
+
+
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",

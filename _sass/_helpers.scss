@@ -2,9 +2,26 @@
   align-items: center;
 }
 
-.has-content-justified-center {
+.has-justify-content-center {
   justify-content: center;
 }
+
+.has-justify-content-space-between {
+  justify-content: space-between;
+}
+
+.has-justify-content-flex-end {
+  justify-content: flex-end;
+  &.tags {
+    .tag:not(:last-child) {
+      margin-right: 0;
+    }
+    .tag:not(:first-child) {
+      margin-left: .5rem;
+    }
+  }
+}
+
 
 .has-direction-column {
   flex-direction: column;

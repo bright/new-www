@@ -65,6 +65,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Hours", name: "hours", widget: "string"}
       - {label: "Salary", name: "salary", widget: "string"}
+      - {label: "Salary Min", name: "salary_min", widget: "number", required: false}
+      - {label: "Salary Max", name: "salary_max", widget: "number", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Redirect from", name: "redirect_from", widget: "list", allow_add: true}
   - name: "projects" # Used in routes, e.g., /admin/collections/blog

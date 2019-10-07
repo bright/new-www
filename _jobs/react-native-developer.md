@@ -1,11 +1,12 @@
 ---
-layout: details_jobs
+layout: job
 title: 'React Native Developer '
 hours: Full-time
 salary: '10,000 zł - 15,000 zł / month'
 salary_min: 10000
 salary_max: 15000
 ---
+
 We are all about teamwork, self-development and doing what we like in the best possible way. We support and share responsibility with the members of our team. We encourage the diversity of thought.
 
 What can you expect after joining our team? 
