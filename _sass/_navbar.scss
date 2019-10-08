@@ -7,6 +7,14 @@ $navbar-item-img-max-height: 67px;
   height: 175/388*148px;
 }
 
+.navbar-brand {
+  .is-hidden-desktop {
+    margin-left: auto;
+  }
+  .navbar-burger {
+    margin-left: 0;
+  }
+}
 .navbar-item {
   text-transform: uppercase;
 
