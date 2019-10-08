@@ -3,16 +3,27 @@ $navbar-item-img-max-height: 67px;
 @import "bulma/sass/components/navbar";
 
 .navbar-logo {
-  width: 175px;
-  height: 175/388*148px;
+  $baseWidth: 175px;
+  width: $baseWidth;
+
+  @include mobile {
+    width: $baseWidth / 2;
+  }
 }
 
 .navbar-brand {
   .is-hidden-desktop {
     margin-left: auto;
   }
-  .navbar-burger {
-    margin-left: 0;
+  @include tablet {
+    .navbar-burger {
+      margin-left: 0;
+    }
+  }
+  @include mobile {
+    .navbar-burger {
+      margin-left: 0;
+    }
   }
 }
 .navbar-item {
