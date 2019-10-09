@@ -9,9 +9,11 @@ salary_max: 16000
 redirect_from: ["/android-developer", "/android-developer/"]
 ---
 
-We are looking for an experienced Android Developer who will be the part of our talented and ambitious mobile development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies. 
+We create the TEAM of over 30 bright people: software developers, UX/UI designers and process managers who  design and develop mobile & web applications, IoT systems and Blockchain products for clients from UK, Germany, Norway, Israel , USA and Sweden. Among others, we are proud to have supported Finebite, SmartHelp, AirHelp, Datarella, etventure and the world's top food delivery company Just Eat. 
 
-The system is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system. 
+What can you expect after joining our team? 
+
+Exciting projects. Personal growth. Positive and supportive team. Responsibility. And some perks, of course. :) 
 
 ## Your job will include:
 
