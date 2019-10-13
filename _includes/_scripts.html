@@ -43,9 +43,9 @@
         }
     });
 </script>
+
 {% if page.hideChat == null %}
 <script>
-
     function addAsyncScript(src) {
         script = document.createElement("script");
         script.setAttribute("type", "text/javascript");
@@ -54,8 +54,8 @@
         return document.getElementsByTagName("head")[0].appendChild(script);
     }
 
-    document.addEventListener('load', function () {
-        addAsyncScript('//userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/caa43f35de5f1881f244707a964917d2b649b4891fdd5f8596f29fa063df4499.js')
+    document.addEventListener('DOMContentLoaded', function () {
+        addAsyncScript('https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/caa43f35de5f1881f244707a964917d2b649b4891fdd5f8596f29fa063df4499.js')
     });
 
 </script>
