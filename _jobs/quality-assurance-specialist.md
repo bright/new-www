@@ -1,8 +1,8 @@
 ---
-layout: job
+layout: details_jobs
 title: Quality Assurance Specialist
 hours: Full-time
-salary: '6000 PLN - 9000 PLN B2B '
+salary: '6,000 - 9,000 PLN + VAT (B2B) '
 salary_min: ''
 ---
 We founded Bright Inventions to create the place where we can do challenging things without superfluous micromanaging and red tape, where we feel responsible for the things we do, and where we can learn something new every day. 
