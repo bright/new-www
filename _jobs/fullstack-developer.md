@@ -3,7 +3,7 @@ layout: details_jobs
 title: 'Fullstack Developer '
 hours: Full-time
 salary: 10000- 16000 PLN + VAT (B2B)
-salary_min: -1
+salary_min: ''
 redirect_from:
   - /fullstack-developer
   - /fullstack-developer/
