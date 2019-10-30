@@ -1,5 +1,5 @@
 ---
-layout: details_jobs
+layout: job
 title: Quality Assurance Specialist
 hours: Full-time
 salary: '6 000 - 9 000 PLN + VAT (B2B) '
