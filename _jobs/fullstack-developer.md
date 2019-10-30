@@ -3,7 +3,7 @@ layout: details_jobs
 title: 'Fullstack Developer '
 hours: Full-time
 salary: 10000- 16000 PLN + VAT (B2B)
-salary_min: ''
+salary_min: -1
 redirect_from:
   - /fullstack-developer
   - /fullstack-developer/
@@ -12,7 +12,6 @@ We are looking for an experienced Fullstack Developer who will be the part of ou
 
 The system is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system. 
 
-****
 
 **YOUR JOB WILL INCLUDE:** 
 
@@ -22,8 +21,6 @@ The system is widely used in Israel and since 2016 has been successfully enterin
 * direct contact with clients and advising in their decision making process 
 * knowledge sharing with the rest of a team
 * improving internal software development and delivery processes
-
-****
 
 **WHAT WE EXPECT FROM YOU:**
 
@@ -40,8 +37,6 @@ The system is widely used in Israel and since 2016 has been successfully enterin
 
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker 
-
-****
 
 **BENEFITS AND PERKS:** 
 
