@@ -1,10 +1,10 @@
 ---
 layout: job
-title: iOS Developer
+title: Senior iOS Developer
 hours: Full-time
-salary: '8,000 zł - 16,000 zł / month'
-salary_min: 8000
-salary_max: 16000
+salary: 11 000 - 15 000 PLN (B2B)
+salary_min: 11000
+salary_max: 15000
 redirect_from:
   - /ios-developer
   - /ios-developer/
@@ -13,11 +13,9 @@ We are looking for an experienced passionate iOS Developer to develop and enhanc
 
 Sounds exciting? Apply. Working with us apart from technically challenging projects means no management overhead, experienced team, following best practices such as Code Review, Pair programming or Continuous integration, and having a real impact on the work you do and the stack you use. 
 
-
-
 **YOUR DUTIES AND RESPONSIBILITIES:**  
 
-* creating high-quality iOS applications \
+* creating high-quality iOS applications 
 * participating in software code reviews
 * working closely with project manager & graphic designer to execute an idea from concept to delivery 
 * taking the lead role in projects and solving the most challenging technical issues
