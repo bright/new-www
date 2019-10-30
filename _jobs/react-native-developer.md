@@ -2,11 +2,10 @@
 layout: job
 title: 'React Native Developer '
 hours: Full-time
-salary: '10,000 zł - 15,000 zł / month'
-salary_min: 10000
-salary_max: 15000
+salary: '8 000 - 12 000 PLN + VAT (B2B) '
+salary_min: 8000
+salary_max: 12000
 ---
-
 We are all about teamwork, self-development and doing what we like in the best possible way. We support and share responsibility with the members of our team. We encourage the diversity of thought.
 
 What can you expect after joining our team? 
@@ -14,7 +13,7 @@ What can you expect after joining our team?
 **Exciting projects. Personal growth. Positive and supportive team. Responsibility.** 
 **And some perks, of course. :)** 
 
-## Your job will include: 
+## Your job will include:
 
 * creating high-quality React Native applications 
 * participating in software code reviews
@@ -38,17 +37,17 @@ What can you expect after joining our team?
 
 * experience with OCR (Optical Character Recognition) 
 
-## Benefits and perks: 
+## Benefits and perks:
 
 * making key project decisions by dealing directly with the clients
-* attractive salary (10-15k PLN monthly) together with 20-26 paid days of annual leave
+* 20-26 days of paid annual leave
+* business contract depending on your needs (UoP is also an option) 
 * flexible working hours (we start between 7.00 and 10.00 a.m.)
-* business contract depending on your needs (Permanent Contract is also an option) 
 * MacBook and additional accessories to your computer 
-* totally free MultiSport card and private healthcare package
+* MultiSport card and private healthcare package
 * individual self-development budget 
 * Bright Day once a month during which you can do non-project stuff 
 * Bright lunches sponsored by the company
-* teambuilding events once a quarter
+* team retreats once a quarter
 * office in the center of Gdańsk (Wrzeszcz). We provide a parking card. 
 * birthday cakes and more ;)
