@@ -9,7 +9,6 @@ We are looking for an experienced Fullstack Developer who will be the part of ou
 
 The system is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system. 
 
-
 ## Your job will include:
 
 * creating high-quality backend and frontend applications 
@@ -19,7 +18,7 @@ The system is widely used in Israel and since 2016 has been successfully enterin
 * knowledge sharing with the rest of a team
 * improving internal software development and delivery processes
 
-## What we expect from you: 
+## What we expect from you:
 
 * at least 4 years of commercial programming experience 
 * very good working knowledge and deep understanding of Java and Spring framework
@@ -30,15 +29,15 @@ The system is widely used in Israel and since 2016 has been successfully enterin
 * the ability to work independently as well as in a team 
 * communicative level of English (both written and spoken) 
 
-## Nice to have: 
+## Nice to have:
 
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker 
 
-## Benefits and perks: 
+## Benefits and perks:
 
 * working on a big project in one of the best software development companies in Poland 
-* attractive salary (11-18k PLN monthly) together with 20-26 paid days of annual leave  
+* attractive salary (10-16k PLN monthly) together with 20-26 paid days of annual leave  
 * working in a modern software development TEAM 
 * flexible working hours (you can come to work between 7.00 and 10.00 a.m.) 
 * office in the center of Gdańsk Wrzeszcz - we provide you with a parking space 
