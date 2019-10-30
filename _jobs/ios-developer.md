@@ -2,7 +2,7 @@
 layout: job
 title: Senior iOS Developer
 hours: Full-time
-salary: 11 000 - 15 000 PLN (B2B)
+salary: 11 000 - 15 000 PLN + VAT (B2B)
 salary_min: 11000
 salary_max: 15000
 redirect_from:
