@@ -2,7 +2,7 @@
 layout: job
 title: 'Fullstack Developer '
 hours: Full-time
-salary: 10000- 16000 PLN + VAT (B2B)
+salary: 10 000- 16 000 PLN + VAT (B2B)
 salary_min: ''
 ---
 We are looking for an experienced Fullstack Developer who will be the part of our talented and ambitious backend and web development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies.
