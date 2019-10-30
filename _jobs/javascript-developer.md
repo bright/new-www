@@ -2,7 +2,7 @@
 layout: job
 title: Frontend Developer
 hours: Full-time
-salary: '8,000 zł - 12,000 zł / month'
+salary: 8 000 - 12 000 PLN + VAT (B2B)
 salary_min: 8000
 salary_max: 12000
 redirect_from:
@@ -39,14 +39,10 @@ As you can see we are looking now for a skilled Frontend Developer for whom codi
 * knowledge and understanding of Java/Kotlin 
 * experience with mobile development 
 
-
-
 ## Benefits and perks:
 
-* salary adequate to your skills (8-12k net, B2B)
 * business contract depending on your needs (UoP is also an option)
 * working in one of the best software development companies in Poland 
-* friendly and supporting TEAM 
 * MacBook and additional accessories to your computer 
 * flexible working hours (you can come to work between 7.00 and 10.00 a.m.) 
 * well-equipped office in the center of Gdańsk Wrzeszcz (we provide you with a parking card) 
