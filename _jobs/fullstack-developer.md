@@ -37,6 +37,7 @@ The system is widely used in Israel and since 2016 has been successfully enterin
 ## Benefits and perks:
 
 * working on a big project in one of the best software development companies in Poland 
+* business contract depending on your needs (UoP is also an option)
 * attractive salary (10-16k PLN monthly) together with 20-26 paid days of annual leave  
 * working in a modern software development TEAM 
 * flexible working hours (you can come to work between 7.00 and 10.00 a.m.) 
