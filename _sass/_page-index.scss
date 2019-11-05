@@ -25,7 +25,7 @@
   }
 
   .we-deliver {
-    background-image: url(/images/b-67_gradient4.png);
+    background-image: url("#{$images-url-base}/images/b-67_gradient4.png?resize.imageType=jpeg");
     background-color: $dark;
     background-position: 0 0;
     background-size: cover;
@@ -50,7 +50,7 @@
   }
 
   .bright-minds {
-    background-image: url(/images/b-552_light_purple.jpg);
+    background-image: url("#{$images-url-base}/images/b-552_light_purple.jpg?resize.imageType=jpeg");
     background-size: cover;
     background-position: 0 0;
     background-attachment: fixed;

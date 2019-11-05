@@ -1,0 +1,35 @@
+{
+  "name": "image-resizing",
+  "version": "0.1.0",
+  "bin": {
+    "image-resizing": "bin/image-resizing.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "AWS_PROFILE=bright cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.15.0",
+    "@types/jest": "^24.0.18",
+    "@types/aws-lambda": "^8.10.34",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "aws-cdk": "^1.15.0",
+    "ts-node": "^8.1.0",
+    "typescript": "rc"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.15.0",
+    "@aws-cdk/aws-cloudfront": "^1.15.0",
+    "@aws-cdk/aws-lambda": "^1.15.0",
+    "@aws-cdk/aws-certificatemanager": "^1.15.0",
+    "@aws-cdk/aws-route53": "^1.15.0",
+    "@aws-cdk/core": "^1.15.0",
+    "@types/node": "^12.12.4",
+    "@types/lodash": "^4.14.144",
+    "@types/sharp": "^0.23.0",
+    "source-map-support": "^0.5.9"
+  }
+}
