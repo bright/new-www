@@ -1,6 +1,6 @@
 ---
 layout: job
-title: 'Performance Marketing Specialist '
+title: 'Digital Marketing Specialist '
 hours: 'Full time '
 salary: 5000 - 7000 PLN + VAT (B2B)
 salary_min: 5000
@@ -11,8 +11,9 @@ We founded Bright Inventions to create the place where we can do challenging thi
 
 ## Your responsibilities:
 
-* creating, optimizing and analyzing SEM/performance/paid marketing campaigns and ads
-* optimizing the performance of our website and conversion paths
+* building and implementing the digital strategy
+* creating marketing materials as well as optimising and analysing SEM and paid marketing campaigns and ads
+* optimising the performance of our website and conversion paths
 * social media analysis
 * measuring and reporting on the effectiveness 
 
