@@ -34,7 +34,7 @@ We founded Bright Inventions to create the place where we can do challenging thi
 * flat structure without micromanaging 
 * business contract depending on your needs (UoP is also an option)
 * MacBook and additional accessories to your computer
-* MultiSport card and private health care packagem
+* MultiSport card and private health care package
 * flexible working hours and a possibility of partial remote work
 * individual growth budget for your educational plan
 * team retreats, birthday cakes and sponsored lunches :)
