@@ -38,4 +38,4 @@ We founded Bright Inventions to create the place where we can do challenging thi
 * individual growth budget for your educational plan
 * team retreats, birthday cakes and sponsored lunches :)
 
-In case you have some questions, drop us at jobs@brightinventions.pl .
+In case you have some questions, drop us a line at jobs@brightinventions.pl
