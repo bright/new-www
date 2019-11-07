@@ -9,16 +9,12 @@ published: true
 ---
 We founded Bright Inventions to create the place where we can do challenging things without superfluous micromanaging and red tape, where we feel responsible for the things we do, and where we can learn something new every day. If you want to create this place with us, take a look below and apply! 
 
-
-
 ## Your responsibilities:
 
 * creating, optimizing and analyzing SEM/performance/paid marketing campaigns and ads
 * optimizing the performance of our website and conversion paths
 * social media analysis
 * measuring and reporting on the effectiveness 
-
-
 
 ## What we expect from you:
 
@@ -30,11 +26,11 @@ We founded Bright Inventions to create the place where we can do challenging thi
 * good command of English (both written and spoken) 
 * the ability to work as an individual as well as in a team 
 
-
-
 ## What we offer:
 
 * opportunity to take part in creating innovative software development products
+* a real impact on the growth of the company 
+* flat structure without micromanaging 
 * business contract depending on your needs (UoP is also an option)
 * MacBook and additional accessories to your computer
 * MultiSport card and private health care packagem
