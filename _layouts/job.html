@@ -24,7 +24,7 @@ layout: default
         "title": "{{ page.title }}",
         "datePosted": "{{ site.time }}",
         "validThrough": "2021-12-31",
-        "description": "{{ page.content }}",
+        "description": "{{ page.content | strip_html | smartify }}",
         "hiringOrganization": {
             "@type": "Organization",
             "name": "Bright Inventions",
