@@ -19,7 +19,7 @@ We founded Bright Inventions to create the place where we can do challenging thi
 
 ## What we expect from you:
 
-* at least 1 year of B2B performance marketing experience
+* at least 1 year of B2B digital marketing experience
 * experience with tools such as Facebook Ads Manager, Google Ads, Twitter Ads, LinkedIn Ads, Google Tag Manager, Google Analytics etc.
 * excellent analytical skills and strong data-oriented approach 
 * knowledge of the latest trends in digital marketing
