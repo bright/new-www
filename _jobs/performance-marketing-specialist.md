@@ -2,9 +2,9 @@
 layout: job
 title: 'Digital Marketing Specialist '
 hours: 'Full time '
-salary: 5000 - 7000 PLN + VAT (B2B)
+salary: 5000 - 8000 PLN + VAT (B2B)
 salary_min: 5000
-salary_max: 7000
+salary_max: 8000
 published: true
 ---
 We founded Bright Inventions to create the place where we can do challenging things without superfluous micromanaging and red tape, where we feel responsible for the things we do, and where we can learn something new every day. If you want to create this place with us, take a look below and apply! 
