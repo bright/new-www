@@ -18,9 +18,9 @@ On 3-4 Dec we will be attending FinTech Connect, the UK's leading fintech confer
 
 **If you are heading over to London, make sure you visit us at ExCeL London, the booth F30, and chat with our team.** 
 
-**If you would like to book a meeting with our technical team who will attend the event, please send us an email to mateusz@bright.dev** 
+**If you would like to book a meeting with our technical team who will attend the event, please send us an email to** [**mateusz@bright.dev** ](mailto:mateusz@bright.dev)
 
-## **Who we are** 
+## **Who we are**
 
 Bright Inventions is a consultancy and software development studio based in Gdańsk, Poland. Throughout the years, we’ve made a name for ourselves in a whole array of services, including idea consulting, product design, software development, IoT and Blockchain.
 
