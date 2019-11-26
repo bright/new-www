@@ -18,7 +18,7 @@ On 3-4 Dec we will be attending FinTech Connect, the UK's leading fintech confer
 
 **If you are heading over to London, make sure you visit us at ExCeL London, the booth F30, and chat with our team.** 
 
-**If you would like to book a meeting with our technical team who will attend the event, please send us an email to mateusz@bright.dev.** 
+**If you would like to book a meeting with our technical team who will attend the event, please send us an email to mateusz@bright.dev** 
 
 ## **Who we are** 
 
@@ -42,4 +42,4 @@ When a potential customer turns to us with an idea, we put our hearts and souls 
 
 This all comes down to the fact that “Bright Inventions” is more than just our brand name. It’s also a term that truly reflects who we are and what we do.
 
-**Come visit us at booth F30 and let’s create software that matters!**
+**If you are looking for a long-term partner who will help you build reliable and scalable software systems, talk to our team and find out more about how we work. Remember that your project is our project - we always share with you ideas for the best possible outcomes.**
