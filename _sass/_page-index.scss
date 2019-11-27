@@ -25,14 +25,32 @@
   }
 
   .we-deliver {
-    background-image: url("#{$images-url-base}/images/b-67_gradient4.png?resize.imageType=jpeg");
-    background-color: $dark;
-    background-position: 0 0;
-    background-size: cover;
+    background-color: $white;
+    .title {
+      margin-bottom: 1em;
+    }
+    .title {
+      span {
+        color: $primary;
+      }
+    }
+    .is-ula-with-andrzej-background {
+      //background-position: 0 40%;
+      //background-size: contain;
+      //background-repeat: no-repeat;
+      //background-image: url(/images/ula_with_andrzej.jpg);
+      //height: 975px;
+    }
+
+    .fintech-image {
+      width: 150px;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
   }
 
   .hero-body h1 {
-    color: $dark;
+    color: $black;
   }
 
   .experts-in {

@@ -6,6 +6,10 @@
   justify-content: center;
 }
 
+.has-justify-content-start {
+  justify-content: start;
+}
+
 .has-justify-content-space-between {
   justify-content: space-between;
 }
@@ -30,6 +34,11 @@
 .image.is-100x100 {
   width: 100px;
   height: 100px;
+}
+
+.image.is-128x64 {
+  width: 128px;
+  height: 64px;
 }
 
 
