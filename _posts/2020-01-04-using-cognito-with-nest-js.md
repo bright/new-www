@@ -17,25 +17,22 @@ published: false
 
 AWS Cognito simplified the authentication, authorization and user management for you. In this post, I will try to present how we can use this authentication service with your mobile app, website and manage users.
 
-
-![](/images/using-cognito-with-nest-js/cognito_logo.png)
-
 # Initial work #
 To get started with AWS Cognito We need to create a user pool. The user pool is a container that AWS Cognito uses to manage and hold users identify.
 
-![](/images/using-cognito-with-nest-js/user_pool_1.png)
+![](/images/using-cognito-with-nest-js/user_pool_1_resized.png)
 
 We are going to start with Create User Pool. In my case, I don’t have user pools, so I’m going to create one.
 
-![](/images/using-cognito-with-nest-js/user_pool_2.png)
+![](/images/using-cognito-with-nest-js/user_pool_2_resized.png)
 
-Here you are given two options to select from, lets select `Review defaults`. Make sure to provide a pool name as well.
+Here you are given two options to select from, lets select *Review defaults*. Make sure to provide a pool name as well.
 
 Next, we need to create an app client. The app client is the client that our NestJS server will be communicating with. Make sure to tick Enable sign-in API for server-based authentication for our NodeJS server access Cognito user pool for authentication. App clients can be created after the generation of user pools as well. So if you forgot to add an app client when the creation of the user pool does not worry, you can create a new one again.
 
 Let's take a look at the overview of the settings, it should look like mine
 
-![](/images/using-cognito-with-nest-js/user_pool_overview.png)
+![](/images/using-cognito-with-nest-js/user_pool_overview_resized.png)
 
 # Creating TypeScript NestJS Server #
 
@@ -47,13 +44,13 @@ I describe using npm to install packages, including the Nest CLI. Install the CL
 
 So, We are adding the Nest CLI package globally
 
-```
+```text
 npm install -g @nestjs/cli
 ```
 
 To create, build and run a new basic Nest project in development mode, go to the folder that should be the parent of your new project, and run the following commands:
 
-```
+```text
 nest new simple-app
 cd simple-app
 npm run start:dev
@@ -76,9 +73,11 @@ nest generate controller auth
 nest generate module auth
 nest generate service auth
 ```
+
 The Nest CLI automatically will generate the auth folder with files and add it to the existing app module.
 
 The nest step is to add a package to help us reach the Cognito SDK which will be going to use for requests to Cognito API
+
 ```npm install amazon-cognito-identity-js --save```
 
 In `auth.service` we define the `CognitoUserPool` bu giving generated `userPoolId`, `appClientId`. For safety reasons, it's good to store them in the config file. Then I've added the function for `register` and `authenticate`. 
@@ -215,11 +214,13 @@ export interface AuthCredentialsDto {
 For token validation, we are going used to extra features from `nestJS`. For this purpose, we are using `Guards`. 
 
 We are going to start from install required packages:
-```
+
+```text
 npm i --save @nestjs/jwt @nestjs/passport passport passport-jwt
 ```
 
 Then, we are going to create a file called `jwt.strategy.ts` and add the following code:
+
 ```
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { PassportStrategy } from '@nestjs/passport';
@@ -248,6 +249,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
   }
 }
 ```
+
 Following code extend the `PassportStrategy` package and grab the Baerer token from headers and pass it to function `validate`. 
 
 Our function `validate` uses the `handler` to decode the `jwt token`. The handler is the implementation to verify `JWT Token` with Cognito.
@@ -364,6 +366,7 @@ const handler = async (request: ClaimVerifyRequest): Promise<ClaimVerifyResult> 
 
 export {handler};
 ``` 
+
 In case, you want to check the decoded jwt you can check [this](https://jwt.io/) out. More about verifying JWT in Cognito User Pool you can find [here.](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html)
 
 When you want to use the `Authentication Guard`. Guards have a single responsibility. They determine whether a given request will be handled by the route handler or not, depending on certain conditions (like permissions, roles, ACLs, etc.) present at run-time. This is often referred to as authorization. Authorization (and its cousin, authentication, with which it usually collaborates) has typically been handled by middleware in traditional Express applications. Middleware is a fine choice for authentication, since things like token validation and attaching properties to the request object are not strongly connected with a particular route context (and its metadata).
@@ -376,7 +379,7 @@ The above code is a minimalistic version for NestJS authentication using Cognito
 
 ### 1. Register
 
-I used `Postman` to send the request. In @Body I included email, password, name. The created successful response will contain
+I used `Postman` to send the request. In *@Body* I included email, password, name. The created successful response will contain
 
 ![](/images/using-cognito-with-nest-js/register.png)
 
@@ -385,19 +388,21 @@ Then we can check also in our app in Cognito that the User has been created:
 ![](/images/using-cognito-with-nest-js/registered_cognito.png)
 
 ### 2. Authenticate
-Again, in @Body I sent the required password and user field. If I prepared the correct data I will receive the user payload
+Again, in *@Body* I sent the required password and user field. If I prepared the correct data I will receive the user payload
 
-![](/images/using-cognito-with-nest-js/login.png)
+![](/images/using-cognito-with-nest-js/login_resized.png)
 
 ### 3. Validation
 
 For test purposes, I have added the `Guard` for the demo route. When I didn't include the `Authorization` header with a token the server will throw `UnauthorizedException` and in the client, I will receive
+
 ```
 {
     "statusCode": 401,
     "error": "Unauthorized"
 }
 ```
+
 When We add in proper format token `Bearer {token}` the `Guard` which will determine that the token is valid or not, and will allow the route to handle the request.
 
 ## Summary
