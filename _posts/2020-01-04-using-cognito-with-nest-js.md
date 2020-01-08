@@ -15,72 +15,73 @@ comments: true
 published: false
 ---
 
-AWS Cognito simplified the authentication, authorization and user management for you. In this post, I will try to present how we can use this authentication service with your mobile app, website and manage users.
+AWS Cognito simplified the authentication, authorization and user management for you. In this post I will try to present how we can use this authentication service with your mobile app, website, and manage users.
+
+
+![](/images/using-cognito-with-nest-js/cognito_logo.png)
 
 # Initial work #
 To get started with AWS Cognito We need to create a user pool. The user pool is a container that AWS Cognito uses to manage and hold users identify.
 
-![](/images/using-cognito-with-nest-js/user_pool_1_resized.png)
+![](/images/using-cognito-with-nest-js/user_pool_1.png)
 
-We are going to start with Create User Pool. In my case, I don’t have user pools, so I’m going to create one.
+We are going to start with Create User Pool. In my case I don’t have user pools, so I’m going to create one.
 
-![](/images/using-cognito-with-nest-js/user_pool_2_resized.png)
+![](/images/using-cognito-with-nest-js/user_pool_2.png)
 
-Here you are given two options to select from, lets select *Review defaults*. Make sure to provide a pool name as well.
+Here you are given two options to select from, let's select `Review defaults`. Make sure to provide a pool name as well.
 
-Next, we need to create an app client. The app client is the client that our NestJS server will be communicating with. Make sure to tick Enable sign-in API for server-based authentication for our NodeJS server access Cognito user pool for authentication. App clients can be created after the generation of user pools as well. So if you forgot to add an app client when the creation of the user pool does not worry, you can create a new one again.
+Next, we need to create an app client. The app client is the client that our NestJS server will be communicating with. Make sure to tick Enable sign-in API for server-based authentication for our NodeJS server access Cognito user pool for authentication. App clients can be created after the generation of user pools as well. So, if you forget to add an app client when the creation of the user pool - do not worry, you can create a new one again.
 
-Let's take a look at the overview of the settings, it should look like mine
+Let's take a look at the overview of the settings, it should look like mine.
 
-![](/images/using-cognito-with-nest-js/user_pool_overview_resized.png)
+![](/images/using-cognito-with-nest-js/user_pool_overview.png)
 
 # Creating TypeScript NestJS Server #
 
-Ok, once we have completed the first part of the post which was created a User Pool in Amazon Cognito we can switch to create the NestJS server which will use the Amazon Cognito user pool to authenticate users.
+Ok, once we have completed the first part of the post which was creating a User Pool in Amazon Cognito, we can switch to creating the NestJS server which will use the Amazon Cognito user pool to authenticate users.
 
 The easiest way to set up the environment is to run commands to initialize the Nest app and allow us to install the required packages.
 
 I describe using npm to install packages, including the Nest CLI. Install the CLI globally using the `npm install -g` command (see the note above for details about global installs).
 
-So, We are adding the Nest CLI package globally
+So, we are adding the Nest CLI package globally:
 
-```text
+```
 npm install -g @nestjs/cli
 ```
 
-To create, build and run a new basic Nest project in development mode, go to the folder that should be the parent of your new project, and run the following commands:
+To create, build and run a new basic Nest project in the development mode, go to the folder that should be the parent of your new project, and run the following commands:
 
-```text
+```
 nest new simple-app
 cd simple-app
 npm run start:dev
 ```
 
-In your browser, open `http://localhost:3000` to see a new application running. The app will automatically recompile and reload when you change any of the source files.
+In your browser open `http://localhost:3000` to see a new application running. The app will automatically recompile and reload when you change any of the source files.
 
 # Implement authentication #
 
-We are going to implement three functions in our NodeJS server application authenticate the user:
+We are going to implement three functions in our NodeJS server application that authenticate the user:
 * Sign in
 * Sign up
 * Token Validation (bonus, as an Authentication middleware)
-For each function, we will need separate API endpoints in our server as well. Let’s create an `auth.controller` to handle incoming requests.
+For each function we will need separate API endpoints in our server as well. Let’s create an `auth.controller` to handle incoming requests.
 
-For that purpose, we are going to use `NestCLI` to generate the `auth.module`, `auth.controller` and `auth.service`.
+For that purpose we are going to use `NestCLI` to generate the `auth.module`, `auth.controller` and `auth.service`.
 
 ```
 nest generate controller auth
 nest generate module auth
 nest generate service auth
 ```
-
 The Nest CLI automatically will generate the auth folder with files and add it to the existing app module.
 
-The nest step is to add a package to help us reach the Cognito SDK which will be going to use for requests to Cognito API
-
+The next step is to add a package to help us reach the Cognito SDK which will be going to be used for requests to Cognito API
 ```npm install amazon-cognito-identity-js --save```
 
-In `auth.service` we define the `CognitoUserPool` bu giving generated `userPoolId`, `appClientId`. For safety reasons, it's good to store them in the config file. Then I've added the function for `register` and `authenticate`. 
+In `auth.service` we define the `CognitoUserPool` by giving generated `userPoolId`, `appClientId`. For safety reasons, it's good to store them in the config file. Then I've added the function for `register` and `authenticate`. 
 
 ```
 import { AuthConfig } from './auth.config';
@@ -194,7 +195,7 @@ I have added two endpoints:
 * register - the `AuthCredentialsDto` will use register user in Cognito,
 * authenticate - which will the `AuthCredentialsDto` and authenticate User in Cognito. 
 
-###### Please note that in Cognito we add requirements that password should have at least 8 characters, in my example, I added validation at the controller level.
+###### Please note that in Cognito we add requirements accodring to which password should have at least 8 characters, in my example, I have added some validation at the controller level.
 
 Our interface declaration looks like:
 ```
@@ -211,16 +212,14 @@ export interface AuthCredentialsDto {
 ```
 
 ## Bonus: Token Validation
-For token validation, we are going used to extra features from `nestJS`. For this purpose, we are using `Guards`. 
+For token validation we are going to use extra features from `nestJS`. For this purpose we are using `Guards`. 
 
 We are going to start from install required packages:
-
-```text
+```
 npm i --save @nestjs/jwt @nestjs/passport passport passport-jwt
 ```
 
-Then, we are going to create a file called `jwt.strategy.ts` and add the following code:
-
+Then we are going to create a file called `jwt.strategy.ts` and add the following code:
 ```
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { PassportStrategy } from '@nestjs/passport';
@@ -249,10 +248,9 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
   }
 }
 ```
+The following code extend the `PassportStrategy` package and grab the Baerer token from the headers and pass it to the function `validate`. 
 
-Following code extend the `PassportStrategy` package and grab the Baerer token from headers and pass it to function `validate`. 
-
-Our function `validate` uses the `handler` to decode the `jwt token`. The handler is the implementation to verify `JWT Token` with Cognito.
+Our function `validate` uses the `handler` to decode the `jwt token`. The handler is the implementation of verifying `JWT Token` with Cognito.
 
 ```
 import {promisify} from 'util';
@@ -366,8 +364,7 @@ const handler = async (request: ClaimVerifyRequest): Promise<ClaimVerifyResult> 
 
 export {handler};
 ``` 
-
-In case, you want to check the decoded jwt you can check [this](https://jwt.io/) out. More about verifying JWT in Cognito User Pool you can find [here.](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html)
+In case you want to check the decoded jwt you can check [this](https://jwt.io/) out. More about verifying JWT in Cognito User Pool you can find [here.](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html)
 
 When you want to use the `Authentication Guard`. Guards have a single responsibility. They determine whether a given request will be handled by the route handler or not, depending on certain conditions (like permissions, roles, ACLs, etc.) present at run-time. This is often referred to as authorization. Authorization (and its cousin, authentication, with which it usually collaborates) has typically been handled by middleware in traditional Express applications. Middleware is a fine choice for authentication, since things like token validation and attaching properties to the request object are not strongly connected with a particular route context (and its metadata).
 
@@ -379,7 +376,7 @@ The above code is a minimalistic version for NestJS authentication using Cognito
 
 ### 1. Register
 
-I used `Postman` to send the request. In *@Body* I included email, password, name. The created successful response will contain
+I used `Postman` to send the request. In @Body I included email, password, name. A created successful response will contain:
 
 ![](/images/using-cognito-with-nest-js/register.png)
 
@@ -388,28 +385,26 @@ Then we can check also in our app in Cognito that the User has been created:
 ![](/images/using-cognito-with-nest-js/registered_cognito.png)
 
 ### 2. Authenticate
-Again, in *@Body* I sent the required password and user field. If I prepared the correct data I will receive the user payload
+Again, in @Body I sent the required password and the user field. If I prepare the correct data, I will receive the user payload:
 
-![](/images/using-cognito-with-nest-js/login_resized.png)
+![](/images/using-cognito-with-nest-js/login.png)
 
 ### 3. Validation
 
-For test purposes, I have added the `Guard` for the demo route. When I didn't include the `Authorization` header with a token the server will throw `UnauthorizedException` and in the client, I will receive
-
+For the test purposes I have added the `Guard` for the demo route. If I don't include the `Authorization` header with a token, the server will throw `UnauthorizedException` and in the client I will receive:
 ```
 {
     "statusCode": 401,
     "error": "Unauthorized"
 }
 ```
-
-When We add in proper format token `Bearer {token}` the `Guard` which will determine that the token is valid or not, and will allow the route to handle the request.
+When we add in a proper format the token `Bearer {token}` the `Guard` which will determine that the token is valid or not, and will allow the route to handle the request.
 
 ## Summary
 
-I think that more and more developers will use the IaaS (infrastructure as a service) and move logic outside the backend. What is great, in AWS you can also move all the logic with verifying the JWT to `Lambda` which can be triggered before sign-up and authentication (we can customize these workflows in user pool settings).
+I think that more and more developers will use the IaaS (infrastructure as a service) and move logic outside the backend. What is great, in AWS you can also move all the logic with verifying the JWT to `Lambda` which can be triggered before sign-up and authentication (we can customize these workflows in the user pool settings).
 
-Cognito is a great service from AWS. I'm using it when I have the opportunity to use it.
+Cognito is a great service from AWS. I'm using it always when I have an opportunity to do it.
 
 
 
