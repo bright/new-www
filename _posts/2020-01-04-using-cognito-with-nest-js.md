@@ -10,9 +10,9 @@ tags:
   - backend
   - nestjs
   - nodejs
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 ---
 
 AWS Cognito simplified the authentication, authorization and user management for you. In this post I will try to present how we can use this authentication service with your mobile app, website, and manage users.
