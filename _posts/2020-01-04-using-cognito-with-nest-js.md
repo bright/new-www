@@ -20,11 +20,11 @@ AWS Cognito simplified the authentication, authorization and user management for
 # Initial work #
 To get started with AWS Cognito We need to create a user pool. The user pool is a container that AWS Cognito uses to manage and hold users identify.
 
-![](/images/using-cognito-with-nest-js/user_pool_1_resized.png)
+![](/images/using-cognito-with-nest-js/user_pool_1.png)
 
 We are going to start with Create User Pool. In my case I don’t have user pools, so I’m going to create one.
 
-![](/images/using-cognito-with-nest-js/user_pool_2_resized.png)
+![](/images/using-cognito-with-nest-js/user_pool_2.png)
 
 Here you are given two options to select from, let's select *Review defaults*. Make sure to provide a pool name as well.
 
@@ -32,7 +32,7 @@ Next, we need to create an app client. The app client is the client that our Nes
 
 Let's take a look at the overview of the settings, it should look like mine.
 
-![](/images/using-cognito-with-nest-js/user_pool_overview_resized.png)
+![](/images/using-cognito-with-nest-js/user_pool_overview.png)
 
 # Creating TypeScript NestJS Server #
 
@@ -390,7 +390,7 @@ Then we can check also in our app in Cognito that the User has been created:
 ### 2. Authenticate
 Again, in @Body I sent the required password and the user field. If I prepare the correct data, I will receive the user payload:
 
-![](/images/using-cognito-with-nest-js/login_resized.png)
+![](/images/using-cognito-with-nest-js/login.png)
 
 ### 3. Validation
 
