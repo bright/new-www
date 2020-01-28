@@ -5,7 +5,7 @@ hours: 'Full time '
 salary: '5000 - 8000 PLN + VAT (B2B) '
 salary_min: 5000
 salary_max: 8000
-published: true
+published: false
 ---
 We are looking for a highly motivated individual with an interest in sales and marketing to assist our team in increasing client interest and improve sales cycle. If you have a result-oriented approach, send your CV and join our Bright Team where everyone is an important and integral part of the company, not an anonymous entity. 
 
