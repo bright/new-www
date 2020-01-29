@@ -1,5 +1,6 @@
 ---
 layout: job
+date: 2018-10-01
 title: Frontend Developer
 hours: Full-time
 salary: 8 000 - 12 000 PLN + VAT (B2B)
