@@ -27,7 +27,7 @@ Bright Inventions is a place where innovative individuals and companies can turn
 * you will share knowledge with the rest of the team
 * you will improve internal web development processes  
 
-## What You Can Find Here 
+## What We Offer  
 
 * flat structure with no management overhead
 * working with experienced, ambitious and positive team
