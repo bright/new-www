@@ -1,5 +1,6 @@
 <div class="open-positions ">
-    {% for job in site.jobs %}
+    {% assign jobs = site.jobs | sort: 'order' %}
+    {% for job in jobs %}
     <p class="open-position">
         <a href="{{ job.url | absolute_url }}">
             <div class="has-text-dark has-text-weight-bold is-size-3">{{ job.title }}</div>

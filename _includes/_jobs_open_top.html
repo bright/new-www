@@ -1,5 +1,6 @@
 <div class="level open-positions-top">
-    {% for job in site.jobs limit:3 %}
+    {% assign jobs = site.jobs | sort: 'order' %}
+    {% for job in jobs limit:3 %}
     <div class="level-item">
         <div>
             <a href="{{ job.url | absolute_url }}">
