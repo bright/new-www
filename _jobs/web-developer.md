@@ -1,6 +1,6 @@
 ---
 layout: job
-date: 2018-10-01
+date: 2019-01-30
 title: Web Developer
 hours: Full-time
 salary: 8 000 - 15 000 PLN + VAT (B2B)
