@@ -19,13 +19,13 @@ We are a software development and consultancy studio based in Gdańsk, Poland. S
 
 Bright Inventions is a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients. 
 
-## What You Will Do 
+## In This Role You Will 
 
-* you will create high-quality web applications 
-* you will participate in software code reviews
-* you will have a direct contact with clients and advise in their decision making process 
-* you will share knowledge with the rest of the team
-* you will improve internal web development processes  
+* create high-quality web applications 
+* participate in software code reviews
+* have a direct contact with clients and advise in their decision making process 
+* share knowledge with the rest of the team
+* improve internal web development processes  
 
 ## What We Offer  
 
@@ -51,7 +51,7 @@ Bright Inventions is a place where innovative individuals and companies can turn
 * excellent problem solving and analytical thinking skills
 * very good command of English (both written and spoken)
 
-## What We Would Also Appreciate
+## We Would Also Appreciate If You Have 
 
 * familiarity with AWS or other Cloud providers
 * experience with development in Node.js and PostgreSQL
