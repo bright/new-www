@@ -1,6 +1,6 @@
 ---
 layout: job
-date: 2018-09-01
+date: 2017-09-01
 title: 'Content Writer '
 hours: 'Full time '
 salary: '5000 - 8000 PLN + VAT (B2B) '
