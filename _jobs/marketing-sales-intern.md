@@ -4,6 +4,7 @@ layout: job
 hours: Full-time / Part-time
 salary: to be specified
 redirect_from: ["/marketing-sales-intern", "/marketing-sales-intern/"]
+order: 6
 published: false
 ---
 

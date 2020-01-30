@@ -4,6 +4,7 @@ title: Sales Executive
 hours: Full-time / Part-time
 salary: to be specified
 published: false
+order: 7
 redirect_from:
   - /sales-executive
   - /sales-executive/

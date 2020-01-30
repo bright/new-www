@@ -6,6 +6,7 @@ hours: 'Full time '
 salary: '5000 - 8000 PLN + VAT (B2B) '
 salary_min: 5000
 salary_max: 8000
+order: 5
 published: true
 ---
 We're seeking an experienced Content Writer who will help us create captivating content for our brand. In this role, you will have the opportunity to work on assignments that make a positive difference in the IT industry. 

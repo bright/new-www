@@ -108,6 +108,7 @@ social:
 collections:
   jobs:
     output: true
+    sort_by: order
   projects:
     output: true
   members:

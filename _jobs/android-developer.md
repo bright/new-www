@@ -5,6 +5,7 @@ hours: Full-time
 salary: '14 000 - 18 000 PLN + VAT (B2B) '
 salary_min: 14000
 salary_max: 18000
+order: 3
 redirect_from:
   - /android-developer
   - /android-developer/

@@ -5,6 +5,7 @@ hours: Full-time
 salary: 10 000 - 15 000 PLN + VAT (B2B)
 salary_min: 10000
 salary_max: 15000
+order: 2
 redirect_from:
   - /ios-developer
   - /ios-developer/

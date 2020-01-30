@@ -6,6 +6,7 @@ hours: Full-time
 salary: 8 000 - 15 000 PLN + VAT (B2B)
 salary_min: 8000
 salary_max: 12000
+order: 1
 redirect_from:
   - /javascript-developer
   - /javascript-developer/
