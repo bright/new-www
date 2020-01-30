@@ -59,4 +59,4 @@ Bright Inventions is a place where innovative individuals and companies can turn
 * familiarity with Agile and Lean methodologies
 
 
-In case you have some questions - drop a line to ula@bright.dev :)  
+In case you have some questions - drop a line to ula@bright.dev 
