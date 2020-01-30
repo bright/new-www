@@ -15,7 +15,7 @@ Hi! We are really happy that you are here and that you want to join our team.
 
 ## Who We Are 
 
-We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012, we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
 
 Bright Inventions is a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients. 
 
@@ -57,6 +57,7 @@ Bright Inventions is a place where innovative individuals and companies can turn
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker
 * familiarity with Agile and Lean methodologies
+
 
 
 In case you have some questions - drop a line to ula@bright.dev 
