@@ -10,21 +10,40 @@ redirect_from:
   - /android-developer
   - /android-developer/
 ---
+## Who We Are  
+
+We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+
 We founded Bright Inventions to create the place where we can do challenging things without superfluous micromanaging and red tape, where we feel responsible for the things we do, and where we can learn something new every day.
 
 What can you expect after joining our team? 
 
-Exciting projects. Personal growth. Positive and supportive team. Responsibility. And some perks, of course. :) 
+Exciting projects. Positive and supportive team. Responsibility. And for sure professional growth. 
 
-## Your job will include:
+## What You Will Do 
 
-* creating high-quality Android applications
-* participating in software code reviews
-* direct contact with clients and advising in their decision making process
-* knowledge sharing with the rest of a team
-* improving internal Android development processes 
+* create high-quality Android applications
+* participate in software code reviews
+* have a direct contact with clients and advise in their decision making process
+* take part in knowledge sharing with the rest of a team
+* improve internal Android development processes 
 
-## What we expect from you:
+## What You Will Find At Bright
+
+* flat structure with no management overhead
+* ambitious and positive people 
+* dynamic growth and space for self-development
+* business contract depending on your needs (you choose if it’s B2B or UoP)
+* MultiSport card and private medical package
+* good equipment: MacBook, one or two screens and additional accessories
+* flexible working hours (we come to work between 7.00 and 10.00 a.m.)
+* good localisation: Gdańsk Wrzeszcz with a parking space nearby
+* an office library with the professional books that help you grow
+* Bright Day once a month during which you can do non-project stuff
+* Bright Lunches for you and your colleague sponsored by the company
+* team retreats once a quarter, Birthday cakes and occassional surprises
+
+## What We Are Looking For
 
 * at least 4 years of commercial programming experience
 * familiarity with Android changes from KitKat to Q
@@ -37,22 +56,9 @@ Exciting projects. Personal growth. Positive and supportive team. Responsibility
 * the ability to work independently as well as in a team
 * communicative level of English (both written and spoken) 
 
-## Nice to have:
+## We Would Also Appreciate If You Are 
 
-* familiarity with and understanding of Kotlin coroutines, Kotlin serialization and Data Binding 
+* have experience and understand Kotlin coroutines, Kotlin serialization and Data Binding 
 
-## Benefits and perks:
 
-* working in one of the best software development companies in Poland
-* business contract depending on your needs (UoP is also an option)
-* MacBook and additional accessories to your computer
-* flexible working hours (you can come to work between 7.00 and 10.00 a.m.)
-* well-equipped office in the center of Gdańsk Wrzeszcz (we provide you with a parking card)
-* Multisport card and private health care
-* Bright Lunches for you and your colleague sponsored by the company
-* an office library and internal developer's coffee talks
-* time for blogging each week (https://brightinventions.pl/blog/)
-* Bright Day once a month during which you can do non-project stuff
-* team retreats once a quarter, birthday cakes and more 
-
-In case you have some questions, drop us a line here or at jobs@brightinventions.pl .
+In case you have any questions, contact ula@bright.dev 
