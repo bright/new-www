@@ -41,7 +41,7 @@ Bright Inventions is a place where innovative individuals and companies can turn
 * an office library with the professional books that help you grow 
 * Bright Day once a month during which you can do non-project stuff 
 * Bright Lunches for you and your colleague sponsored by the company 
-* team retreats once a quarte, Birthday cakes and occassional suprises 
+* team retreats once a quarter, Birthday cakes and occassional surprises 
 
 ## What We Are Looking For
 
