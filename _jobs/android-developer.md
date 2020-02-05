@@ -56,7 +56,7 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * the ability to work independently as well as in a team
 * communicative level of English (both written and spoken) 
 
-## We Would Also Appreciate If You Are 
+## We Would Also Appreciate If You 
 
 * have experience and understand Kotlin coroutines, Kotlin serialization and Data Binding 
 
