@@ -1,7 +1,7 @@
 ---
 layout: job
 title: 'Office & HR Assistant '
-hours: Full time/ part time
+hours: Full-time/ part-time
 salary: '3500 - 4500 PLN gross (UoP) '
 published: true
 order: 2
