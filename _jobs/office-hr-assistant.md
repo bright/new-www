@@ -10,8 +10,8 @@ order: 2
 
 Bright Inventions is a place where innovative individuals and companies can turn to develop their ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
 
-We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.\
-\
+We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+
 **In This Role You Will**
 
 * provide administrative support: prepare necessary hiring documents, make photocopies, fax contracts etc.
@@ -23,7 +23,6 @@ We are a software development and consultancy studio based in Gdańsk, Poland. S
 * partner with HR Manager to update and maintain office policies as necessary
 * assist in new employees contracts preparation by collecting and providing relevant data
 * plan in-house or off-site activities such as team parties, celebrations, and workshops
-
 
 
 **What We Offer**
@@ -41,8 +40,7 @@ We are a software development and consultancy studio based in Gdańsk, Poland. S
 * Bright Lunches for you and your colleague sponsored by the company
 * team retreats once a quarter, Birthday cakes and occasional surprises
 
-**\
-What We Are Looking For**
+**What We Are Looking For**
 
 * strong organisational skills and attention to details
 * positive attitude to the world and people around
@@ -55,6 +53,7 @@ What We Are Looking For**
 **We Would Also Appreciate If You Have**
 
 * work experience in a similar role
+
 
 
 
