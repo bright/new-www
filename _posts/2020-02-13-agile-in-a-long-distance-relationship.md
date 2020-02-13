@@ -9,7 +9,7 @@ tags:
   - project management
   - JIRA
   - communication
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
