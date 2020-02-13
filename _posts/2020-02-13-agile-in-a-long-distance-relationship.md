@@ -39,6 +39,7 @@ In general, it’s good to make notes and share documents but in distributed tea
 
 ### Meetings
 
+
 #### 1. Standups, plannings
 
 If your team or a client is in a remote location, most of your meetings will also need to take place remotely. In general, it’s best if everyone is connecting in the same way. If there’s a single person behind the keyboard on one side, it can be an excluding experience if on the other side there’s a shared camera and a room full of people. If you expect everyone to be engaged on the same democratic level, make sure that everyone joins on the same terms.
