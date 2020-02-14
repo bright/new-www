@@ -2,7 +2,7 @@
 layout: post
 title: Agile in a long-distance relationship
 date: 2020-02-13T10:29:27.306Z
-image: /images/KASIA_AgileInALongDistanceRelationshipL.png
+image: /images/KASIA_AgileInALongDistanceRelationship_L.png
 author: kasia
 tags:
   - Agile
