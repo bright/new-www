@@ -15,7 +15,7 @@ published: true
 ---
 Agile stands for building relationships- within the team, with the client. It even advocates working in one room, cooperating closely. But what if our beloved team member decides to move to Sri Lanka? Or the client found the perfect team for the project, just it happens to be situated three time-zones away? Should we give up? Should we just do something that doesn’t care about closeness, like [the waterfall](<https://en.wikipedia.org/wiki/Waterfall_model>) then (please don’t)?
 
-With most relationships, the distance doesn’t help. They say [that absence makes the heart grow fonder](<(<https://www.technologyreview.com/s/602131/data-mining-reveals-first-evidence-that-absence-really-does-make-the-heart-grow-fonder>) , but I guess that absence in a business setting is rarely helpful. But here’s the fact: [most agile teams are distributed nowadays](<https://www.stateofagile.com/#ufh-i-521251909-13th-annual-state-of-agile-report/473508>) . 90% of the projects I was a part of were the distributed kind. So here I am, your agile relationship advisor, sharing our experiences with building agile long-distance relationships that thrived despite the physical distance. And then hopefully you’d be able to live happily ever and after. Or at least until the end of the maintenance period.
+With most relationships, the distance doesn’t help. They say [that absence makes the heart grow fonder](<https://www.technologyreview.com/s/602131/data-mining-reveals-first-evidence-that-absence-really-does-make-the-heart-grow-fonder>), but I guess that absence in a business setting is rarely helpful. But here’s the fact: [most agile teams are distributed nowadays](<https://www.stateofagile.com/#ufh-i-521251909-13th-annual-state-of-agile-report/473508>) . 90% of the projects I was a part of were the distributed kind. So here I am, your agile relationship advisor, sharing our experiences with building agile long-distance relationships that thrived despite the physical distance. And then hopefully you’d be able to live happily ever and after. Or at least until the end of the maintenance period.
 
 ### Communication
 
@@ -23,7 +23,7 @@ As communication forms the basis of the agile approach (and relationships), the 
 
 #### 1. Language
 
-Unless you’re lucky enough,the possibility is that in a distributed team/client setting, you won’t be using your mother language. Or it will be the other team members/client who will need to switch. That might come at a price of not being able to clearly formulate your thoughts and being misunderstood. The ideal solution to that would be to improve the language skills. But in the meantime the first step would be to acknowledge the problem and be empathetic. Rephrasing the most important parts of the conversation (i.e. “Just to make sure, what you are saying is….” or “So you just proposed that we should…”) is always helpful. Building a common glossary so you ensure that you talk about the same things makes it a lot easier as well.
+Unless you’re lucky enough, the possibility is that in a distributed team/client setting, you won’t be using your mother language. Or it will be the other team members/client who will need to switch. That might come at a price of not being able to clearly formulate your thoughts and being misunderstood. The ideal solution to that would be to improve the language skills. But in the meantime the first step would be to acknowledge the problem and be empathetic. Rephrasing the most important parts of the conversation (i.e. “Just to make sure, what you are saying is….” or “So you just proposed that we should…”) is always helpful. Building a common glossary so you ensure that you talk about the same things makes it a lot easier as well.
 
 #### 2. Culture
 
@@ -31,7 +31,7 @@ By cultural differences I mean both the more noticeable as well as the subtle on
 
 #### 3. Time-zones
 
-Time is non-negotiable I’m afraid and you can only work around it. While arranging meetings during the shared waking hours seems like a no-brainer, it’s good to remember to always specify what it means “ready by the end of the day” or “you’ll be able to test this tomorrow”.
+Time is non-negotiable, I’m afraid, and you can only work around it. While arranging meetings during the shared waking hours seems like a no-brainer, it’s good to remember to always specify what it means “ready by the end of the day” or “you’ll be able to test this tomorrow”.
 
 ### Sharing is caring
 
