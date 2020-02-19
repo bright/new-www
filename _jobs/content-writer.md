@@ -15,6 +15,7 @@ We're seeking an experienced Content Writer who will help us create captivating 
 
 ## Your responsibilities: 
 
+* create copy in excellent English with the ease of a native speaker
 * creating engaging SEO optimised content such as blog posts, articles, topic pages 
 * implementing best content marketing practices to enhance the distribution of created content
 * selecting adequate graphics 
