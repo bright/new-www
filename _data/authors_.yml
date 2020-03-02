@@ -132,9 +132,9 @@ ivan:
   bio: "Software Developer @ Bright Inventions"
   github: janczer
   avatar : https://brightinventions.pl/images/ivan_small.png
-  
+
 agnieszka_h:
-  name: Agnieszka Hayashida 
+  name: Agnieszka Hayashida
   email: agnieszka.hayashida@brightinventions.pl
   bio: "Sales Manager @ Bright Inventions"
   avatar: https://brightinventions.pl/images/agnieszka_h.jpg
@@ -146,7 +146,7 @@ patryk:
   avatar: https://brightinventions.pl/images/patryk_huzarski.jpg
   twitter: pathuzarski
   github: phuzarski
-  
+
 
 szymek:
   name: Szymon Miloch
@@ -162,15 +162,15 @@ kasia:
   bio: "Project Manager @ Bright Inventions"
   avatar: https://brightinventions.pl/images/kasia_lukasiewicz.jpg
   github: bufta
-  
-  
+
+
 lukasz:
   name: Łukasz Reszetow
   email: lukasz.reszetow@brightinventions.pl
   bio: "Android Developer @ Bright Inventions"
   avatar: https://brightinventions.pl/images/lukasz.jpg
 
-  
+
 radeks:
   name: Radosław Słowiński
   email: radek.slowinski@brightinventions.pl
@@ -185,10 +185,10 @@ olo:
   bio: "Software Engineer @ Bright Inventions"
   avatar: https://brightinventions.pl/images/aleksander_wielgorski.jpeg
   github: olo2552
-  
+
 tomek:
   name: Tomasz Gęsior
   email: tomasz.gesior@brightinventions.pl
   bio: "Blockchain Developer"
-  avatar: https://brightinventions.pl/images/aleksander_wielgorski.jpeg
+  avatar: https://brightinventions.pl/images/tomek.jpeg
   github: tgesior
