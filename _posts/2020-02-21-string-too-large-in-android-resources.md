@@ -82,5 +82,3 @@ Surprisingly, the build process does not fail when it happens.
 If you use a build system like Jenkins, TeamCity or QuickBuild, you should be able to configure the build to fail when such a log message is detected. In case of TeamCity, it's about adding a failure condition like below.
 
 ![Failure condition](/images/string-too-large/failure_condition.png)
-
-*The bungee photo used in this post was published by Jeffrey Grospe on Unsplash. Thank you!*
