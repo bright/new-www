@@ -3,7 +3,7 @@ crosspost: true
 layout: post
 title: Watch out for large strings crashing your Android app
 date: 2020-02-21T00:00:00.000Z
-image: /images/string-too-large/bungee.jpg
+image: /images/andrzej_watchout-copy.png
 author: azabost
 tags:
   - android
@@ -12,7 +12,7 @@ tags:
   - aapt
   - apk
   - crash
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
