@@ -1,7 +1,7 @@
 ---
 layout: post
 title: P2P in Hyperledger Fabric
-image: /images/string-too-large/bungee.jpg
+image: /images/p2p-in-hyperledger-fabric/tomek-p2p-in-hyperledger.png
 author: tomek
 date: 2020-02-14
 comments: true
@@ -33,7 +33,7 @@ message HelloResponse {
 
 On the server side, the server implements interface and runs a gRPC server to handle the client calls. On the client side, the client has a stub (referred to as just a client in some languages) that provides the same methods as the server.
 
-![Grpc graph](/images/p2p-in-hyperledger-fabric/grpc-graph.png)
+![Grpc graph](/images/p2p-in-hyperledger-fabric/grcp-graph.png)
 
 Due to the fact that gRCP uses proto buffers, the server may be written in a different language than the client (for now it supports 10 programming languages).
 
@@ -146,5 +146,6 @@ async handlePutState(collection, key, value, channel_id, txId) {
     return await this._askPeerAndListen(msg, 'PutState');
 }
 ```
+
 
 This message is sent via gRPC request to the defined peers in our connection profile, and now we can start listening to the proposal responses!
