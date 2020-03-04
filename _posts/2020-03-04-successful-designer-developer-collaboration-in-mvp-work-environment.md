@@ -32,9 +32,9 @@ Whether you are a designer or a developer, make sure you always listen to the ot
 
 ## Ask
 
-#### There is no stupid questions in a positive environment
+#### There are no stupid questions in a positive environment
 
-Positive atmosphere enhances productivity. Usually building MVP requires a high paced working process which might ricochete at team with stress and feeling pressure especially before meeting the deadlines. What can be worse than confusion and misconception while trying to work fast? Any misunderstanding increases tension in working relations and slows down the process. Therefore, it is significant to ensure that the designer and developer teams are  working in a friendly environment, are positive and respectful towards each other and are comfortable with asking questions, which discards misunderstandings and results in delivering product faster and with less stress.
+Positive atmosphere enhances productivity. Usually building MVP requires a high paced working process which might ricochet at team with stress and feeling pressure especially before meeting the deadlines. What can be worse than confusion and misconception while trying to work fast? Any misunderstanding increases tension in working relations and slows down the process. Therefore, it is significant to ensure that the designer and developer teams are  working in a friendly environment, are positive and respectful towards each other and are comfortable with asking questions, which discards misunderstandings and results in delivering product faster and with less stress.
 
 Asking questions might not be that easy for everyone. Some people hesitate to acknowledge that they do not understand something in order not to be perceived as someone who slows down the working process with their questions. Nevertheless, asking the right question at the right moment might expose the problem from a different perspective and show that the initial concept was not right and the change is needed. That is why it is important to maintain positive working relations in which there are no stupid questions, as raising queries can eliminate misunderstandings, lead to discussions and delivery of better MVP.  So, don’t be afraid of asking questions and do not hesitate to answer the same questions again and again till the mutual understanding is reached.
 
