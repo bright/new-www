@@ -1,7 +1,7 @@
 ---
 layout: post
 title: P2P in Hyperledger Fabric
-image: /images/p2p-in-hyperledger-fabric/tomek-p2p-in-hyperledger.png
+image: /images/tomek-p2p-in-hyperledger.png
 author: tomek
 date: 2020-02-14
 comments: true
