@@ -15,7 +15,7 @@ We are looking for an experienced passionate iOS Developer to develop and enhanc
 Sounds exciting? Apply. Working with us apart from technically challenging projects means no management overhead, experienced team, following best practices such as Code Review, Pair programming or Continuous integration, and having a real impact on the work you do and the stack you use. 
 
 
-**In This Role You Will**  
+## In This Role You Will 
 
 * create high-quality iOS applications 
 * participate in software code reviews 
@@ -24,7 +24,7 @@ Sounds exciting? Apply. Working with us apart from technically challenging proje
 * improve internal iOS development processes
 
 
-**What We Offer** 
+## What We Offer
 
 * flat structure with no management overhead 
 * working in [one of the best software development companies in Poland ](https://brightinventions.pl/blog/Bright-Inventions-Remains-A-Top-Developer-In-Poland/)
@@ -40,7 +40,7 @@ Sounds exciting? Apply. Working with us apart from technically challenging proje
 * team retreats once a quarter
 * lunches sponsored by the company, birthday cakes and more  :) 
 
-**What We Are Looking For:** 
+## What We Are Looking For 
 
 * passion for programming and self-improvement
 * positive attitude  
@@ -52,7 +52,7 @@ Sounds exciting? Apply. Working with us apart from technically challenging proje
 * the ability to work independently as well as in a team 
 * communicative level of English (both written and spoken) 
 
-**WE WOULD ALSO APPRECIATE IF YOU KNOW**
+## We Would Also Appreciate If You Are Familiar With
 
 * Objective-C
 * Agile methodologies
