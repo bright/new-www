@@ -1,7 +1,7 @@
 ---
 layout: project
 title: SmartHelp
-image: /images/31_reasons_why_we_like_working_at_Bright_Inventions.png
+image: /images/smarthelp_mobile.png
 description: >-
   An emergency service app that allows users to easily call for help and provide
   relevant authorities with personal information, exact location, and incident
