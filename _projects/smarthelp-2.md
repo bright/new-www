@@ -32,7 +32,7 @@ Web: React, Nest.js, Leaflet, Socket.io
 
 SmartHelp is a holistic solution offering emergency services to anyone who’s found themselves in need of critical help. The app operates in Norway, and makes it nearly effortless for users to answer the three questions emergency centers ask before they send a rescue team – ‘where’, ‘what’, and ‘who’.
 
-![](/images/smarthelp_laptop_720.jpg)
+![](/images/smarthelp_laptop_720.jpg){: .center-image}
 
 The first step (“where are you?”) is done by streamlining the user’s location to a map-centric emergency call center. Secondly, the user answers the\
 “what is it?” question by clicking on the symbol that depicts the type of emergency (fire, police, or medical assistance). Next, he/she is connected to the rescue center via call or chat. The third question (“who are you?”) is automatically answered with pre-defined personal information such as name, address, and existing medical conditions. All this allows the emergency call handler to share the user’s details with the rescue team.
