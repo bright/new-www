@@ -1,12 +1,17 @@
 ---
 layout: post
 title: P2P in Hyperledger Fabric
+date: 2020-02-14T15:21:07.486Z
 image: /images/tomek-p2p-in-hyperledger.png
 author: tomek
-date: 2020-02-14
+tags:
+  - blockchain
+  - grpc
+  - hyperledger
+  - blog
+hidden: false
 comments: true
-hidden: true
-tags: ['blockchain', 'grpc', 'hyperledger', 'blog']
+published: true
 ---
 
 Due to the modular and plug-and-play architecture hyperledger fabric implements a peer-to-peer protocol based on **gRPC and proto buffers** which allows for bi-directional stream-based messaging. We will examine the individual elements of the protocol and the examples of messages sent in the Hyperlegder network.
