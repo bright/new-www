@@ -1,6 +1,6 @@
 ---
 layout: job
-title: Senior Android Developer
+title: Android Developer
 hours: Full-time
 salary: '10 000 - 15 000 PLN + VAT (B2B) '
 salary_min: 14000
@@ -45,7 +45,7 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 
 ## What We Are Looking For
 
-* at least 4 years of commercial programming experience
+* at least 1-2 years of commercial programming experience
 * familiarity with Android changes from KitKat to Q
 * very good knowledge and deep understanding of Kotlin/Java
 * good understanding of the most popular Google libraries
