@@ -208,7 +208,7 @@ Now you could check the changes on [http://localhost:3000/](http://localhost:300
 
 ![Result with balance](/images/connect-to-substrate-nestjs/result2.png)
 
-All code you can find in this repository: https://github.com/janczer/substrate-nestjs
+All code you can find in this repository: [https://github.com/janczer/substrate-nestjs](https://github.com/janczer/substrate-nestjs)
 
 That next?
 
