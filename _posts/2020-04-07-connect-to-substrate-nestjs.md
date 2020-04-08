@@ -2,7 +2,6 @@
 layout: post
 title: Connecting to substrate blockchain from NestJS
 date: 2020-04-07T10:41:51.004Z
-image: /images/alisa_desdevcollaboration-copy.png
 author: ivan
 tags:
   - blockchain
@@ -54,7 +53,9 @@ Please, add this library to dependency:
 yarn add @polkadot/api
 ```
 
-And add necessary imports to `app.service.ts` file:
+To work with this library please set flag `esModuleInterop` to `true` in `tsconfig.json` file and restart the dev server.
+
+Now you can add necessary imports to `app.service.ts` file:
 
 ```
 import { ApiPromise, WsProvider, Keyring } from '@polkadot/api';
@@ -141,7 +142,7 @@ async getHello(): Promise<string> {
     Node name: ${data.nodeName}<br/>
     Node version: ${data.nodeVersion}<br/>
     Number of latest block: ${data.headerNumber}<br/>
-    Now: ${new Date(data.now.toNumber()).toISOString()}<br />
+    Now: ${new Date(Number(data.now.toString())).toISOString()}<br />
   `;
 }
 ```
@@ -196,7 +197,7 @@ async getHello(): Promise<string> {
     Node name: ${data.nodeName}<br/>
     Node version: ${data.nodeVersion}<br/>
     Number of latest block: ${data.headerNumber}<br/>
-    Now: ${new Date(data.now.toNumber()).toISOString()}<br />
+    Now: ${new Date(Number(data.now.toString())).toISOString()}<br />
     Balance: ${data.balance}
   `;
 }
@@ -206,6 +207,8 @@ async getHello(): Promise<string> {
 Now you could check the changes on [http://localhost:3000/](http://localhost:3000/):
 
 ![Result with balance](/images/connect-to-substrate-nestjs/result2.png)
+
+All code you can find in this repository: https://github.com/janczer/substrate-nestjs
 
 That next?
 
