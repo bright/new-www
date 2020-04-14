@@ -19,7 +19,7 @@ It looks now that no one was prepared for the pandemic and no one was ready to s
 
 ### Find your working space
 
-Finding a quiet space which will put you in a working mood is detrimental. It does not matter if it is a well-equipped computer desk, a kitchen table, or a sofa in your living room. In such a place you should be comfortable and there should not be any destruction. It is a good idea to make it resemble your working space at the office. You can put a cup of coffee at your desk, a notebook, pens or pencils etc. If  you have no opportunity to surround yourself with physical things which remind you of your office space, you may turn on the music which gets you in a productive mode, whichever that works for you. Remember that everything is very individual.
+Finding a quiet space which will put you in a working mood is essential. It does not matter if it is a well-equipped computer desk, a kitchen table, or a sofa in your living room. In such a place you should be comfortable and there should not be any destruction. It is a good idea to make it resemble your working space at the office. You can put a cup of coffee at your desk, a notebook, pens or pencils etc. If  you have no opportunity to surround yourself with physical things which remind you of your office space, you may turn on the music which gets you in a productive mode, whichever that works for you. Remember that everything is very individual.
 
 ### Planning and deadlines
 
