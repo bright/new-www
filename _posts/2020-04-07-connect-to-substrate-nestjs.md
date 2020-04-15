@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Connecting to substrate blockchain from NestJS
+title: Connecting to the Substrate blockchain from NestJS
 date: 2020-04-07T10:41:51.004Z
+image: /images/ivan_substrateblockchain-copy.png
 author: ivan
 tags:
   - blockchain
@@ -10,10 +11,9 @@ tags:
   - substrate
 hidden: true
 comments: true
+published: true
 ---
-
-
-## Create sample NestJS project
+## Create a sample NestJS project
 
 First of all, we should create a NestJS project.
 Please use the [nest-cli](https://github.com/nestjs/nest-cli) to generate the project template:
@@ -23,7 +23,7 @@ nest new substrate-nests
 cd substrate-nests
 ```
 
-This commands generate for us sample project with one module and generate code for one GET API endpoint:
+This commands generate for us a sample project with one module and generate code for one GET API endpoint:
 
 ```sh
 src
@@ -46,7 +46,7 @@ This command runs dev server and now you can see text *Hello World!* if you open
 
 ### Preparation
 
-To connect to substrate node we will be using library [polkadot-js](https://github.com/polkadot-js).
+To connect to the substrate node we will be using the library [polkadot-js](https://github.com/polkadot-js).
 Please, add this library to dependency:
 
 ```sh
@@ -61,15 +61,15 @@ Now you can add necessary imports to `app.service.ts` file:
 import { ApiPromise, WsProvider, Keyring } from '@polkadot/api';
 ```
 
-The next thing we should set the URL where our node exists.
-Please add these lines after import section in `app.service.ts` file:
+The next thing we should set is the URL where our node exists.
+Please add these lines after the import section in `app.service.ts` file:
 
 ```
 const SUBSTRATE_URL = 'wss://dev-node.substrate.dev:9944';
 // const SUBSTRATE_URL = 'ws://127.0.0.1:9944'; // if you have substrate install locally you can use this address
 ```
 
-We are going to connect to substrate node in `onModuleInit` lifecycle function. It allows us to connect to the node after module initialized.
+We are going to connect to the substrate node in `onModuleInit` lifecycle function. It allows us to connect to the node after module initialized.
 
 ```
 @Injectable()
@@ -84,7 +84,7 @@ export class AppService implements OnModuleInit { // class should implement OnMo
   }
 ```
 
-After restart you could see our message in logs:
+After the restart you could see our message in logs:
 
 ```
 [Nest] 6701   - 04/07/2020, 1:21:02 PM   [NestFactory] Starting Nest application...
@@ -96,7 +96,7 @@ After restart you could see our message in logs:
 
 ### Getting data
 
-For test purposes, we will get the chain name, node name, version, number of the latest block and the current timestamp.
+For the test purposes, we will get the chain name, node name, version, the number of the latest block and the current timestamp.
 For this let's create the new function in `AppService` class:
 
 ```
@@ -105,9 +105,9 @@ async getSimpleData() {
 }
 ```
 
-The first line in function `getSimpleData` waits until our connection to substrate node will be ready.
+The first line in the function `getSimpleData` waits until our connection to substrate node will be ready.
 
-Now we can add code to get data:
+Now we can add code to get the data:
 
 ```
 async getSimpleData() {
@@ -147,15 +147,15 @@ async getHello(): Promise<string> {
 }
 ```
 
-Here we just create a simple response with collected data.
-After the server successfully restarted you can open [http://localhost:3000/](http://localhost:3000/) and see the result:
+Here we just create a simple response with the collected data.
+After the server has successfully restarted you can open [http://localhost:3000/](http://localhost:3000/) and see the result:
 
 ![Result](/images/connect-to-substrate-nestjs/result.png)
 
 
 The next thing that we can do is getting the balance of some account.
 
-Please add to function `getSimpleData` this lines:
+Please add to the function `getSimpleData` the following lines:
 
 ```
   const ADDR = '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY';
@@ -178,14 +178,14 @@ Please add to function `getSimpleData` this lines:
 }
 ```
 
-Address `5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY` it is a predefined address for testing purpose.
-If you are creating substrate chain from [tutorial](https://substrate.dev/docs/en/tutorials/creating-your-first-substrate-chain/) then you will have this account.
+The address `5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY`  is a predefined address for testing purpose.
+If you are creating a substrate chain from the [tutorial](https://substrate.dev/docs/en/tutorials/creating-your-first-substrate-chain/) then you will have this account.
 
-Depende of that version of substate node you are trying to connect the function `account()` can be not defined.
+Depends on what version of substate node you are trying to connect the function `account()` can be not defined.
 In this case please use function `freeBalance()`. 
-Function `freeBalance` is depreciated, for now, please read more about it in [polkadot FAQ](https://polkadot.js.org/api/start/FAQ.html#my-chain-does-not-support-system-account-queries).
+The function `freeBalance` is depreciated, for now, please read more about it in [polkadot FAQ](https://polkadot.js.org/api/start/FAQ.html#my-chain-does-not-support-system-account-queries).
 
-Also, we need to update `AppController`. Please add the line `Balance: ${data.balance}` to returned template literal:
+Also, we need to update `AppController`. Please add the line `Balance: ${data.balance}` to the returned template literal:
 
 ```
 @Get()
@@ -210,10 +210,10 @@ Now you could check the changes on [http://localhost:3000/](http://localhost:300
 
 All code you can find in this repository: [https://github.com/janczer/substrate-nestjs](https://github.com/janczer/substrate-nestjs)
 
-That next?
+What next?
 
 You could take a look of polkadot API: [polkadot-js/api](https://polkadot.js.org/api/start/)
 
-If you haven't run the node locally you can try this tutorial: [Creating Your First Substrate Chain](https://substrate.dev/docs/en/tutorials/creating-your-first-substrate-chain/)
+If you haven't run the node locally, you can try this tutorial: [Creating Your First Substrate Chain](https://substrate.dev/docs/en/tutorials/creating-your-first-substrate-chain/)
 
-After that, you can try to write your first contract: [ink! Smart Contracts Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
+After that you can try to write your first contract: [ink! Smart Contracts Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
