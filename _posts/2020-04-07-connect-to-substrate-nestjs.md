@@ -65,7 +65,7 @@ The next thing we should set is the URL where our node exists.
 Please add these lines after the import section in `app.service.ts` file:
 
 ```
-const SUBSTRATE_URL = 'wss://dev-node.substrate.dev:9944';
+const SUBSTRATE_URL = 'wss://dev-node.substrate.dev:9944'; // dev node of substrate blockchain
 // const SUBSTRATE_URL = 'ws://127.0.0.1:9944'; // if you have substrate install locally you can use this address
 ```
 
@@ -178,7 +178,7 @@ Please add to the function `getSimpleData` the following lines:
 }
 ```
 
-The address `5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY`  is a predefined address for testing purpose.
+The address `5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY` is a predefined test account for testing purpose.
 If you are creating a substrate chain from the [tutorial](https://substrate.dev/docs/en/tutorials/creating-your-first-substrate-chain/) then you will have this account.
 
 Depends on what version of substate node you are trying to connect the function `account()` can be not defined.
@@ -186,6 +186,7 @@ In this case please use function `freeBalance()`.
 The function `freeBalance` is depreciated, for now, please read more about it in [polkadot FAQ](https://polkadot.js.org/api/start/FAQ.html#my-chain-does-not-support-system-account-queries).
 
 Also, we need to update `AppController`. Please add the line `Balance: ${data.balance}` to the returned template literal:
+The `Balance` is a [Pallet](https://substrate.dev/docs/en/development/module/#what-is-a-pallet) defines a cryptocurrency for blockchain.
 
 ```
 @Get()
