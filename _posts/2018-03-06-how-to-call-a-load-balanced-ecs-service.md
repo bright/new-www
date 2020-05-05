@@ -5,7 +5,7 @@ author: piotr
 hidden: false
 tags: [aws, ecs, cloudformation, elb, cloudform]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/how-to-call-a-load-balanced-ecs-service/'
 image: /images/ecs-service/containers.jpeg
 ---
 

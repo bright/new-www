@@ -5,7 +5,7 @@ author: piotr
 hidden: false
 tags: [junit, hamcreset, kotlin, assertion, tests]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/shouldko-for-better-assertion-messages/'
 image: /images/shouldko-1/search.jpg
 ---
 

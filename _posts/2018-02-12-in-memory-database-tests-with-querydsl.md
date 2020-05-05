@@ -5,7 +5,8 @@ author: piotr
 hidden: false
 tags: [kotlin, querydsl, hibernate, jpa, database]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/in-memory-database-tests-with-querydsl/'
+crosspost_canonical: true
 image: /images/querydsl-tests/test.jpg
 ---
 

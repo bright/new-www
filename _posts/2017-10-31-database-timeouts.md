@@ -5,7 +5,8 @@ author: piotr
 hidden: false
 tags: [database, timeout, jdbc, query, transaction]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/database-timeouts/'
+crosspost_canonical: true
 image: /images/database-timeouts/database-files.jpg
 ---
 

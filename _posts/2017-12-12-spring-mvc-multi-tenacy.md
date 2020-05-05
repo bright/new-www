@@ -5,7 +5,7 @@ author: piotr
 hidden: false
 tags: [spring, mvc, spring-boot, multi-tenant, reactive, reactor]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/spring-mvc-multi-tenacy/'
 image: /images/spring-mvc-multi-tenancy/feeding-animals.jpg
 ---
 

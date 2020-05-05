@@ -5,7 +5,8 @@ author: piotr
 hidden: false
 tags: [server, request, timeout, query, resiliency, spring boot]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/the-importance-of-timeouts/'
+crosspost_canonical: true
 image: /images/the-importance-of-timeouts/man-clock.jpeg
 ---
 

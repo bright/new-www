@@ -5,7 +5,7 @@ author: piotr
 hidden: false
 tags: [http, timeout, network, rest, api]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/http-client-timeouts/'
 image: /images/http-client-timeouts/waiting.jpg
 ---
 

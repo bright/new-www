@@ -3,6 +3,8 @@ layout: post
 title: Handling different user types in Android application
 date: '2015-07-12 23:40'
 author: piotr
+crosspost: 'https://miensol.pl/handling-different-user-types-in-android-application/'
+crosspost_canonical: true
 tags:
   - android
 ---

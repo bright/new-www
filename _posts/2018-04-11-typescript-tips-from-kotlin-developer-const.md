@@ -5,7 +5,7 @@ author: piotr
 hidden: false
 tags: [TypeScript, Kotlin, const, immutability]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/typescript-tips-from-kotlin-developer-const/'
 image: /images/kotlin/kotlin-logo.png
 ---
 

@@ -5,7 +5,7 @@ date: 2015-06-30
 tags: [android]
 comments: true
 author: piotr
-
+crosspost: 'https://miensol.pl/maintaining-current-user-information-in-android/'
 ---
 
 Every but trivial android application needs to maintain information about current user - regardless if he has authenticated or not. While this may sound easy there are still at least handful of ways one can do it - in this article I'm going to explore couple of them.

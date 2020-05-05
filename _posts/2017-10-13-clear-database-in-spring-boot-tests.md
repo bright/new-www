@@ -5,7 +5,8 @@ tags: [tests, spring boot, database, kotlin]
 author: piotr
 comments: true
 hidden: false
-crosspost: true
+crosspost: 'https://miensol.pl/clear-database-in-spring-boot-tests/'
+crosspost_canonical: true
 ---
 
 Nowadays using a production like database in _unit_<sup>[1](#sup-1)</sup> tests is a common practice. Calling a real database can increase our confidence that a tested code actually works. Having said that a database, by its very nature, brings external state into a test that will affect its behavior, hence we need to pay special attention to prepare the test execution. There are couple of ways to handle the database state in tests and I'm going to describe an approach I like most.

@@ -5,6 +5,7 @@ date: 2015-01-25 17:00:00
 tags: [html, javascript]
 comments: true
 author: piotr
+crosspost: 'https://miensol.pl/anchor-child-element-click/'
 ---
 
 I had to solve a seemingly trivial bug in an angularjs based application that turned out to be more interesting than usual.

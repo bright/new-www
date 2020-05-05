@@ -5,7 +5,8 @@ author: piotr
 hidden: false
 tags: [spring, mvc, spring-boot, multi-tenant, reactive, reactor]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/multi-tenancy-task-scheduler/'
+crosspost_canonical: true
 image: /images/multi-tenancy-task-scheduler/sorting.jpg
 ---
 

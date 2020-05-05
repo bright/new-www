@@ -5,7 +5,7 @@ author: piotr
 hidden: false
 tags: [spring, mvc, spring-boot, request, timeout]
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/spring-mvc-thread-pool-timeouts/'
 image: /images/spring-mvc-request-timeout/late.jpg
 ---
 

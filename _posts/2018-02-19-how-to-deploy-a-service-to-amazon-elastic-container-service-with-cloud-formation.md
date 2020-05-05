@@ -5,7 +5,7 @@ author: piotr
 hidden: false
 tags: [aws, ecs, cloudformation, zuul] 
 comments: true
-crosspost: true
+crosspost: 'https://miensol.pl/how-to-deploy-a-service-to-amazon-elastic-container-service-with-cloud-formation/'
 image: /images/ecs-service/containers.jpeg
 ---
 

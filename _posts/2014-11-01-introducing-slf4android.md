@@ -4,6 +4,8 @@ title: "Introducing slf4android - a simple slf4j implementation for android"
 date: 2014-11-01
 tags: ["android"]
 author: piotr
+crosspost: 'https://miensol.pl/introducing-slf4android/'
+crosspost_canonical: true
 ---
 
 Every now and then you have a bug that is hard to reproduce or only happens on certain phones or android versions. The thing that really comes handy in such case is a detailed application log. That's why it's so important to take time to add useful log entries in every non trivial part of the codebase. At the very minimum you'll want to log any errors.
