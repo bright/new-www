@@ -10,7 +10,6 @@ order: 4
 ---
 We are looking for a **DevOps Engineer** who would like to work with our experienced and ambitious development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies.
 
-\
 The system is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
 
 ### **Your Job Will Include**
