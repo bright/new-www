@@ -8,7 +8,8 @@ salary_max: 14000
 published: true
 order: 4
 ---
-We are looking for a **DevOps Engineer** who would like to work with our experienced and ambitious development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies.\
+We are looking for a **DevOps Engineer** who would like to work with our experienced and ambitious development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies.
+
 \
 The system is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
 
@@ -36,9 +37,7 @@ The system is widely used in Israel and since 2016 has been successfully enterin
 * Bright Lunches for you and your colleague sponsored by the company
 * team retreats once a quarter, Birthday cakes and occasional surprises
 
-
-
-### What We Expect From You 
+### What We Expect From You
 
 * good knowledge and experience with AWS cloud services
 * experience with reliable multi-region architectures
@@ -48,11 +47,9 @@ The system is widely used in Israel and since 2016 has been successfully enterin
 * the ability to work independently as well as in a team
 * communicative level of English (both written and spoken)
 
-### Nice to Have 
+### Nice to Have
 
 * knowledge of TypeScript or Java/Kotlin
 * experience with Terraform or aws-cdk
-
-
 
 In case you have some questions, please contact directly ula@bright.dev
