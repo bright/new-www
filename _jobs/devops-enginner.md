@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "DevOps Enginner "
+title: "DevOps Engineer "
 hours: Full-time
 salary: "10 000 - 14 000 PLN + VAT (B2B) "
 salary_min: 10000
