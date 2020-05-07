@@ -46,5 +46,6 @@ Most of people crave for self-development, aim high and want to succeed. If the 
 
 Good managers should care about the atmosphere at work. And what is even more important, good managers are motivated managers. People who can disperse negative vibes from their employees. The seventh sin of demotivation is a negative attitude, the negative attitude that may bring down the whole team. If you have negative people in your team, take them aside and talk privately how they can improve their approach. Everyone may have a bad day, but in the end it is the positive atmosphere people need.
 
+### And what do we want
 
 We all want to feel that we are doing something vital and significant at our work. It is invaluably important for employees to feel that they are the backbone of the company, and that they are attached to something bigger than themselves. Inform your employees about the company’s goals, mission, coming changes, about new projects or new prospects. Remember that you are not the only manager here. Each employee is a manger of their work and their life. Your company is every day managed by dozens of people. Its success depends on them, and it is good if they can feel it. Stress the value of your team. Always.
