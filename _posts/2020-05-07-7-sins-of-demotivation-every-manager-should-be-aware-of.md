@@ -16,7 +16,7 @@ published: true
 ---
 Being a team manager is quite a challenge nowadays as your team is usually a bunch of people with different personality traits, different life experience, different needs, priorities and often a different attitude to life. And what is more important, being a manager means being cautious enough to make these people work effectively together, and being careful enough not to omit the moment of potential crisis that would not be able to be undone anymore.
 
-I sometimes meet managers who do not see people but only numbers. Don’t be this kind of manager, the manager who doesn’t have time to speak with their employees and who doesn’t care about their job satisfaction. Be the manager who can see what motivates and demotivates people you work with. Be the manager who is aware of the consequences of demotivation at work and who can help the employees feel fully engaged. Be the manager who is aware of 6 sins of demotivation.
+I sometimes meet managers who do not see people but only numbers. Don’t be this kind of manager, the manager who doesn’t have time to speak with their employees and who doesn’t care about their job satisfaction. Be the manager who can see what motivates and demotivates people you work with. Be the manager who is aware of the consequences of demotivation at work and who can help the employees feel fully engaged. Be the manager who is aware of 7 sins of demotivation.
 
 ### Sin 1: The lack of appreciation
 
