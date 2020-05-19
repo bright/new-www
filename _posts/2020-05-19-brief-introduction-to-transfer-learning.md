@@ -1,18 +1,23 @@
 ---
+crosspost: true
 layout: post
 title: Brief introduction to transfer learning
-author: radeks
-crosspost: true
-hidden: true
+date: 2020-05-19T11:37:33.224Z
 image: /images/brief-introduction-to-transfer-learning/top.png
-tags: ['deep learning', 'image classification', 'transfer learning']
+author: radeks
+tags:
+  - deep learning
+  - image classification
+  - transfer learning
+hidden: true
+comments: true
+published: true
 ---
-
 In this item, I want to share with you the core idea behind transfer learning. We will solve a simple classification problem where we will try to correctly classify surfing, windsurfing, and kitesurfing but you can easily solve different problems relying on described steps
 
 ![](/images/brief-introduction-to-transfer-learning/1.jpg)
 
-Transfer learning is a very important and broad research problem and in general, it relies on transferring domain knowledge from one solved task to another unsolved one (but somehow related to the solved task). Let's consider following educational example - let's say you know how to ride a bike and you'd like to learn how to ride a scooter then it should be easier as there are some common principles like knowing that probably you should hold handlebar.  Another example - if you know how to code then probably you are capable of fixing your auntie's computer, right? 
+Transfer learning is a very important and broad research problem and in general, it relies on transferring domain knowledge from one solved task to another unsolved one (but somehow related to the solved task). We may consider the following educational example - let's say you know how to ride a bike and you'd like to learn how to ride a scooter then it should be easier as there are some common principles like knowing that probably you should hold handlebar.  Another example - if you know how to code then probably you are capable of fixing your auntie's computer, right? 
 
 Here we will focus on the usage of transfer learning in computer vision problems. We will take advantage of one of the models with clever architectures (ResNet, MobileNet, Inception, etc.) that were trained on ImageNet dataset. ImageNet consists of enormous amount of images and each labeled with one of 1000 classes of various kind (e.g. `black widow` , `cassette player`  or `containership` but I can't see anything related to `surfing`). Those models are doing extremely well in dealing with recognizing classes on the provided image. Using pre-trained models would be especially beneficial when you have a very limited dataset - it may be even impossible to get a well-performing network from scratch. We can say that such models consist of 2 parts - feature extractor and classifier - we want to utilize feature extractor and replace classifier as we will classify 3 different classes instead of 1000. We want to keep feature extractor, especially first layers due to way convolutional layers work - they learn hierarchical representation and that means first layer will learn to find very general features like vertical or horizontal lines, next layers may learn something more complex like circles and so on. The last layers will be most elaborate and that's fine as long as our problem is similar to problem solved with a pre-trained model, if not then still we can benefit from such model by for example unfreezing some fraction of the layers.
 
@@ -22,7 +27,7 @@ Here we will focus on the usage of transfer learning in computer vision problems
 
 We need to create a dataset that will be used for solving our problem. If you don't have a dataset then you can just google for some of the widely available crawlers fetching images from google images or rely on services for that like Microsoft's `Bing Image Search API` ([great tutorial on creating dataset](https://www.pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/)).I'll go with Bing Image Search API.
 
-I've fetched 90 images of windsurfing, 82 of kitesurfing, and 98 of surfing. They are separated The number of images of each class isn't equal but overall that's good enough.
+I've fetched 90 images of windsurfing, 82 of kitesurfing, and 98 of surfing. They are separated. The number of images of each class isn't equal but overall that's good enough.
 
  I've stored them accordingly in `dataset/windsurfing`, `dataset/kitesurfing`, `dataset/surfing`. 
 
@@ -116,8 +121,6 @@ history = model.fit_generator(train_generator,
 Train the network for a few epochs and check how validation loss and accuracy behave in order to prevent overfitting. Dataset is pretty small and after 10 epochs model reaches ~90% of validation accuracy. 
 
 One of the further improvements you can do is to unfreeze some of the layers and train a model for a few more epochs.
-
- 
 
 Then save your model to file so you can use it later. 
 
