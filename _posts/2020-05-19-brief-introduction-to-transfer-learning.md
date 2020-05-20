@@ -134,5 +134,5 @@ I highly encourage you to take advantage of created model and use it in your and
 ```python
 converter = tf.lite.TFLiteConverter.from_keras_model_file("blog_model.h5")
 tflite_model = converter.convert()
-open("blog_model.tflite", "wb").write(tflite_model)
+open("blog_model.h5", "wb").write(tflite_model)
 ```
