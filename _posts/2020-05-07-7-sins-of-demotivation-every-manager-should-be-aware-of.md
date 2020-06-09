@@ -20,7 +20,7 @@ I sometimes meet managers who do not see people but only numbers. Don’t be thi
 
 ### Sin 1: The lack of appreciation
 
-Not everyone needs or likes to be appreciated by a manger every day. I would even say that there are people (probably a few, but still) who don’t care about social relations at work at all. They come to work every day and the only thing they expect is to get salary on time. Yet the majority of people want something more. They work hard and have a strong need to feel appreciated for what they do. When the manager doesn’t see their effort, they feel frustrated, angry or upset, and in the end just demotivated. Don’t be a manager who doesn’t recognise the effort of your team.
+Not everyone needs or likes to be appreciated by a manager every day. I would even say that there are people (probably a few, but still) who don’t care about social relations at work at all. They come to work every day and the only thing they expect is to get salary on time. Yet the majority of people want something more. They work hard and have a strong need to feel appreciated for what they do. When the manager doesn’t see their effort, they feel frustrated, angry or upset, and in the end just demotivated. Don’t be a manager who doesn’t recognise the effort of your team.
 
 ### Sin 2: The lack of sense
 
