@@ -1,50 +1,49 @@
 ---
 layout: job
-title: 'Fullstack Developer '
+title: "Fullstack Developer "
 hours: Full-time
-salary: 10 000- 16 000 PLN + VAT (B2B)
-order: 4
-salary_min: ''
+salary: 10 000- 15 000 PLN + VAT (B2B)
+salary_min: ""
+published: true
+order: 2
 ---
-We are looking for an experienced Fullstack Developer who will be the part of our talented and ambitious backend and web development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies.
+We create a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach we can focus entirely on creating exceptional software for our clients. 
 
-The system is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system. 
+**What We Offer**
 
-## Your job will include:
+* working on the international projects for such organisation as BMW, United Nations, Parity 
+* flat structure with no management overhead
+* working with experienced, ambitious and positive team
+* space for self-development
+* business contract depending on your needs: B2B or UoP
+* MultiSport card and private medical package
+* good equipment: MacBook, one or two screens and additional accessories
+* flexible working hours (we come to work between 7.00 and 10.00 a.m.)
+* good localisation: Gdańsk Wrzeszcz with a parking space nearby
+* Bright Day once a month during which you can do non-project stuff
+* team retreats once a quarter, Birthday cakes and occasional surprises
 
-* creating high-quality backend and frontend applications 
-* development and maintenance of the system infrastructure 
-* participating in code reviews 
-* direct contact with clients and advising in their decision making process 
-* knowledge sharing with the rest of a team
-* improving internal software development and delivery processes
+**In This Role You Will**
 
-## What we expect from you:
+* create high-quality web and backend applications
+* participate in software code reviews
+* have a direct contact with clients and advise in their decision making process
+* share knowledge with the rest of the team
+* improve internal web development processes
 
-* at least 4 years of commercial programming experience 
-* very good working knowledge and deep understanding of Java and Spring framework
-* good knowledge and understanding of Kotlin 
-* experience with databases, in particular MySQL 
-* familiarity with AWS or other Cloud providers
-* excellent problem solving and analytical thinking skills 
-* the ability to work independently as well as in a team 
-* communicative level of English (both written and spoken) 
+**\
+What We Are Looking For**
 
-## Nice to have:
+* at least 2-3 years of commercial programming experience
+* very good working knowledge and deep understanding of TypeScript/JavaScript
+* good practical experience with development in Node.js
+* experience with development in React
+* experience with databases, in particular PostgreSQL
+* excellent problem solving and analytical thinking skills
+* very good command of English (both written and spoken)
 
-* experience with development in Node.js and PostgreSQL
-* familiarity with Docker 
+**\
+We Would Also Appreciate If You Have**
 
-## Benefits and perks:
-
-* working on a big project in one of the best software development companies in Poland 
-* business contract depending on your needs (UoP is also an option)
-* attractive salary (10-16k PLN monthly) together with 20-26 paid days of annual leave  
-* working in a modern software development TEAM 
-* flexible working hours (you can come to work between 7.00 and 10.00 a.m.) 
-* office in the center of Gdańsk Wrzeszcz - we provide you with a parking space 
-* possibility of taking part in IT events and conferences
-* time for blogging each week (https://brightinventions.pl/blog/)  
-* Multisport card 
-* Bright Lunches for you and your colleague sponsored by the company 
-* team retreats once a quarter, birthday cakes and more  :)
+* familiarity with Docker
+* familiarity with Agile and Lean methodologies
