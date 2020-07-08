@@ -31,7 +31,7 @@ We create a place where innovative individuals and companies can turn to develop
 * share knowledge with the rest of the team
 * improve internal web development processes
 
-What We Are Looking For**
+**What We Are Looking For**
 
 * at least 2-3 years of commercial programming experience
 * very good working knowledge and deep understanding of TypeScript/JavaScript
@@ -41,7 +41,7 @@ What We Are Looking For**
 * excellent problem solving and analytical thinking skills
 * very good command of English (both written and spoken)
 
-We Would Also Appreciate If You Have**
+**We Would Also Appreciate If You Have**
 
 * familiarity with Docker
 * familiarity with Agile and Lean methodologies
