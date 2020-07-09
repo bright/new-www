@@ -33,7 +33,7 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * create high-quality Blockchain products
 * participate in software code reviews
 * have a direct contact with clients 
-* share knowledge about Blockchain (especially) Substrate with the rest of the team
+* share knowledge about Blockchain (especially Substrate) with the rest of the team
 * improve internal software development processes
 
 **What We Are Looking For**
