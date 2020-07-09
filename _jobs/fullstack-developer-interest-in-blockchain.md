@@ -6,6 +6,13 @@ salary: 10 000 - 15 000 PLN + VAT, B2B
 published: true
 order: 3
 ---
+We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+
+We founded Bright Inventions to create the place where we can do challenging things without superfluous micromanaging and red tape, where we feel responsible for the things we do, and where we can learn something new every day.
+
+What can you expect after joining our team?
+
+Exciting projects. Positive and supportive team. Responsibility. And for sure professional growth.
 
 **What We Offer**
 
@@ -31,15 +38,15 @@ order: 3
 
 **What We Are Looking For**
 
-*at least 2-3 years of commercial programming experience
-*very good working knowledge and deep understanding of TypeScript/JavaScript
-*good practical experience with development in Node.js
-*experience with development in React
-*experience with databases, in particular PostgreSQL
-*excellent problem solving and analytical thinking skills
-*very good command of English (both written and spoken)
+* at least 2 years of commercial programming experience with TypeScript/JavaScript 
+* an ability to understand the business requirements of projects 
+* interest in Blockchain technologies 
+* experience with development in Node.js
+* experience with databases, in particular PostgreSQL
+* excellent problem solving and analytical thinking skills
+* very good command of English (both written and spoken)
 
 **We Would Also Appreciate if You Have**
 
-* familiarity with 
+* familiarity with development in React 
 * familiarity with Agile and Lean methodologies
