@@ -2,14 +2,14 @@
 layout: post
 title: Why would you use Substrate?
 author: agnieszka
-hidden: true
-image: /images/why-would-you-use-substrate/icon-parity-substrate.png
+hidden: false
+image: /images/why-would-you-use-substrate/top.png
 tags: ['substrate', 'parity', 'blockchain']
 ---
 
 Substrate is a framework to build blockchains. People behind Substrate had built many blockchains before and noticed that they had to do the same hard work over and over again. Thus they tried to create a framework which would make deploying a blockchain as easy as can be. At the same time they wanted it to be as generic as possible, so that a developer can customize it to their needs.
 
-![](/images/why-would-you-use-substrate/blockchain.png)
+![](/images/why-would-you-use-substrate/1.png)
 
 Before we dive into Substrate, let’s take a look at what the blockchain itself is.
 
@@ -39,7 +39,7 @@ There are also other algorithms to find the consensus like Proof of Stake or Pro
 
 Now that you know why you could use blockchain among other datastores, we can take a look on why you may choose Substrate over other blockchain implementations.
 
-![](/images/why-would-you-use-substrate/icon-parity-substrate.png)
+![](/images/why-would-you-use-substrate/2.png)
 
 We can say that Substrate is built of two parts: the core and the runtime.
 
