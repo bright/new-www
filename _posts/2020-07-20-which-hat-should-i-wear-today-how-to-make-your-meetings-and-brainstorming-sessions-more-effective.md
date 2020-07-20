@@ -105,13 +105,16 @@ The last but not the least - the blue “thinking” hat. de Bono compare the bl
 
 *What have we found out so far?*
 
-The Six Hats method helps explore the meeting's subject fully. It gives us a kind of roadmap that we can follow while searching for a solution. If there are different views and perspectives, we have the blue hat whose role is to lay out what is possible and not possible to make a final decision. The blue hat thinker defines a focus i.e the main task of your thinking session. All people involved in the session to make the final decision go though the same process - they go through facts (white hat), feelings (red hat), pros (yellow hat), cons (black hat), new ideas (green hat). We deal with each of these separately with no need for justification.  de Bono’s method by the usage of hats simplifies the whole decision-making process and makes it more accessible and effective to everyone. The method is not only simple to understand, but also simple to use. If you find it useful and interesting, please read on and check also the links below with some practical examples : 
+*The Six Thinking Hats* method helps explore the meeting's subject fully. It gives us a kind of roadmap that we can follow while searching for a solution. If there are different views and perspectives, we have the blue hat whose role is to lay out what is possible and not possible to make a final decision. The blue hat thinker defines a focus i.e the main task of your thinking session. All people involved in the session to make the final decision go though the same process - they go through facts (white hat), feelings (red hat), pros (yellow hat), cons (black hat), new ideas (green hat). We deal with each of these separately with no need for justification.  de Bono’s method by the usage of hats simplifies the whole decision-making process and makes it more accessible and effective to everyone. The method is not only simple to understand, but also simple to use. If you find it useful and interesting, please read on and check also the links below with some practical examples : 
 
 <https://www.storyboardthat.com/articles/b/six-thinking-hats-examples>
+
 <https://www.mindtools.com/pages/article/newTED_07.html>
+
 <https://study.com/academy/lesson/de-bonos-six-thinking-hats-summary-examples.html>
 
 And here you can find more about other effective brainstorming techniques that you can easily apply at your team meetings: 
 
-<https://business.tutsplus.com/articles/top-brainstorming-techniques--cms-27181>\
+<https://business.tutsplus.com/articles/top-brainstorming-techniques--cms-27181>
+
 <https://blog.hubspot.com/marketing/creative-exercises-better-than-brainstorming>
