@@ -14,7 +14,7 @@ hidden: false
 comments: true
 published: true
 ---
-There are[ lots of efficient brainstorming techniques for teams](https://www.wework.com/ideas/worklife/effective-brainstorming-techniques) such as visualisation-based method, step-ladder technique, mind mapping, rapid ideation and many others. All of them can create a large space from which to pull the best ideas and make your meetings successful, but today I would like to focus on one method that I haven;t known before and yet I’ve found these basic rules really meaningful and effective. 
+There are[ lots of efficient brainstorming techniques for teams](https://www.wework.com/ideas/worklife/effective-brainstorming-techniques) such as visualisation-based method, step-ladder technique, mind mapping, rapid ideation and many others. All of them can create a large space from which to pull the best ideas and make your meetings successful, but today I would like to focus on one method that I haven't known before and I have found really meaningful and effective - *The Six Thinking Hats* method by de Bono.
 
 I heard about [Edward de Bono](https://www.edwddebono.com/) a few years ago, but it wasn’t sooner than last year that I decided to dive into his thinking method for the first time. de Bono showed me what the effective thinking process may look like and how to make it more creative than ever. His method prevents our minds from jumping directly to conclusions. Instead it guides us, considers multiple options, and provides a sense of hope and freedom.
 
