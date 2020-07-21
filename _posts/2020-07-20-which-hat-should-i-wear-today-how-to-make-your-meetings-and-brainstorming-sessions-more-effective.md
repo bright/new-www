@@ -14,11 +14,11 @@ hidden: false
 comments: true
 published: true
 ---
-There are[ lots of efficient brainstorming techniques for teams](https://www.wework.com/ideas/worklife/effective-brainstorming-techniques) such as visualisation-based method, step-ladder technique, mind mapping, rapid ideation and many others. All of them can create a large space from which to pull the best ideas and make your meetings successful, but today I would like to focus on one method that I haven't known before and I have found really meaningful and effective - *The Six Thinking Hats* method by de Bono.
+There are[ lots of efficient brainstorming techniques for teams](https://www.wework.com/ideas/worklife/effective-brainstorming-techniques) such as visualisation-based method, step-ladder technique, mind mapping, rapid ideation and many others. All of them can create a large space from which to pull the best ideas and make your meetings successful, but today I would like to focus on one method that I have found really meaningful and effective - *The Six Thinking Hats* method by de Bono.
 
 I heard about [Edward de Bono](https://www.edwddebono.com/) a few years ago, but it wasn’t sooner than last year that I decided to dive into his thinking method for the first time. de Bono showed me what the effective thinking process may look like and how to make it more creative than ever. His method prevents our minds from jumping directly to conclusions. Instead it guides us, considers multiple options, and provides a sense of hope and freedom.
 
-*The Six Thinking Hats* method gives us a kind of instruction on how to request a certain type of thinking while seeking for a solution to our problem. The method can make a futile argument into a fruitful discussion. Usually, we act like that - when someone share what we think - we agree, when they don’t - we disagree, and when we disagree, the whole communication sometime stops. While using de Bono’s technique we have to take a particular stand in each stage of thinking process and get rid of emotional way of proving our case while still being able to express our emotions. de Bono assumes that we are all capable to see different perspectives and he compares that to wearing different hats. We can put on one hat and take off another. We do not identify with hats themselves. Each hat gives us just a different perspective on the problem we are discussing. All six hats have different colours and each colour presents a different perspective. Below I will try to give you a brief description of each of them: 
+*The Six Thinking Hats* method gives us a kind of instruction on how to request a certain type of thinking while seeking for a solution to our problem. The method can make a futile argument into a fruitful discussion. Usually, we act like that - when someone share what we think - we agree, when they don’t - we disagree, and when we disagree, the whole communication sometime stops. While using de Bono’s technique we have to take a particular stand in each stage of thinking process and get rid of emotional way of proving our case while still being able to express our emotions. de Bono assumes that we are all capable to see different perspectives and he compares that to wearing different hats. We can put on one hat and take off another. We do not identify with hats themselves. Each hat gives us just a different perspective on the problem we are discussing. All six hats have different colours and each colour presents a different perspective. Below I will try to give you a brief description of each of them.
 
 ### **WHITE HAT**
 
@@ -104,7 +104,7 @@ The last but not the least - the blue “thinking” hat. de Bono compare the bl
 
 *What have we found out so far?*
 
-*The Six Thinking Hats* method helps explore the meeting's subject fully. It gives us a kind of roadmap that we can follow while searching for a solution. If there are different views and perspectives, we have the blue hat whose role is to lay out what is possible and not possible to make a final decision. The blue hat thinker defines a focus i.e the main task of your thinking session. All people involved in the session to make the final decision go though the same process - they go through facts (white hat), feelings (red hat), pros (yellow hat), cons (black hat), new ideas (green hat). We deal with each of these separately with no need for justification.  de Bono’s method by the usage of hats simplifies the whole decision-making process and makes it more accessible and effective to everyone. The method is not only simple to understand, but also simple to use. If you find it useful and interesting, please read on and check also the links below with some practical examples : 
+*The Six Thinking Hats* method helps explore the meeting's subject fully. It gives us a kind of roadmap that we can follow while searching for a solution. If there are different views and perspectives, we have the blue hat whose role is to lay out what is possible and not possible to make a final decision. The blue hat thinker defines a focus i.e the main task of your thinking session. All people involved in the session go though the same process to make the final decision - they go through facts (white hat), feelings (red hat), pros (yellow hat), cons (black hat), new ideas (green hat). We deal with each of these separately with no need for justification.  de Bono’s method by the usage of hats simplifies the whole decision-making process and makes it more accessible and effective to everyone. The method is not only simple to understand, but also simple to use. If you find it useful and interesting, please read on and check also the links below with some practical examples : 
 
 <https://www.storyboardthat.com/articles/b/six-thinking-hats-examples>
 
@@ -112,8 +112,10 @@ The last but not the least - the blue “thinking” hat. de Bono compare the bl
 
 <https://study.com/academy/lesson/de-bonos-six-thinking-hats-summary-examples.html>
 
-And here you can find more about other effective brainstorming techniques that you can easily apply at your team meetings: 
+And here you can find more about other effective brainstorming techniques that you can easily apply in your team meetings: 
 
 <https://business.tutsplus.com/articles/top-brainstorming-techniques--cms-27181>
 
 <https://blog.hubspot.com/marketing/creative-exercises-better-than-brainstorming>
+
+To ensure that everyone involved understands the objective of the meeting, it is good to have a roadmap to follow. Which one you choose depends on your  purpose, your team and the outcome you want to achieve. Your team meetings can be always fun and effective. But please don't forget to enjoy the thinking and brainstorming process itself. There is nothing more powerful than watching a group of people creating new ideas, the people who want to grow and develop their ability of critical thinking.
