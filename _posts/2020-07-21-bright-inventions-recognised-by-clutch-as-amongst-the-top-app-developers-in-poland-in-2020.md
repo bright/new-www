@@ -29,4 +29,4 @@ In his review, he praised the full-cycle development services we built for his r
 
 "We were pleased with their proactive approach and their genuine desire to see the success of the platform. They were constantly looking for ways to improve, and ensured that we had proper tracking tools and no potential scalability issues.” – Adam Pachucki
 
-We’re incredibly grateful to Clutch and all our satisfied clients! And we wan to say thank you to everyone who has helped us get this far.
+We’re incredibly grateful to Clutch and all our satisfied clients! And we want to say thank you to everyone who has helped us get this far.
