@@ -74,7 +74,7 @@ The yellow “thinking” hat is the opposite of the black hat. It helps to coun
 
 ### **GREEN HAT**
 
-The green hat is the energy hat. Under the green hat we put forward new ideas.  It encourage us to be even more creative. Our goal is to find new fresh solutions. It doesn’t have to involve logical thinking, the vital part is just the process of continual new concepts. Let yourself to have insane nonstandard ideas. Sky is the limit. The green hat is definitely the most creative part off the whole de Bono process. It produces loads of ideas and possibilities. Sometime you may even not have enough time to consider them all. With the green hat we demand an effort, we demand time for generating new ideas. 
+The green hat is the energy hat. Under the green hat we put forward new ideas.  It encourage us to be even more creative. Our goal is to find new fresh solutions. It doesn’t have to involve logical thinking, the vital part is just the process of continual new concepts. Let yourself have insane nonstandard ideas. Sky is the limit. The green hat is definitely the most creative part off the whole de Bono process. It produces loads of ideas and possibilities. Sometime you may even not have enough time to consider them all. With the green hat we demand an effort, we demand time for generating new ideas. 
 
 *Where does it take me?* 
 
