@@ -2,7 +2,7 @@
 layout: post
 title: Which hat should I wear today? How to make your team meetings more effective
 date: 2020-07-20T18:59:26.608Z
-image: /images/brainstorming.jpeg
+image: /images/artboard-–-9final-–-9.png
 author: ula
 tags:
   - brainstorming
