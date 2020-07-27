@@ -7,7 +7,7 @@ image: /images/erc20-substrate-nest-example/image1.png
 tags: ['substrate', 'parity', 'blockchain', 'nest', 'nestjs', 'smart contract', 'erc20', 'cryptocurrency']
 ---
 
-In this blog post I will guide you through the process of implementing an ERC20 token with use of a smart contract on a Substrate node and accessing it from a NestJS application. If you would like to get a basic concept of what blockchain, Substrate or smart contracts are you may check our [previous blog post](https://brightinventions.pl/blog/why-would-you-use-substrate/).
+In this blog post I will guide you through the process of implementing an ERC20 token with use of a smart contract on a Substrate node and accessing it from a NestJS application. If you would like to get a basic concept of what blockchain, Substrate or smart contracts are you may check our [previous blog post](https://brightinventions.pl/blog/why-would-you-use-substrate/). NestJS is a framework for building Node.js applications, to get the basics you can visit it's [documentation website](https://docs.nestjs.com/).
 
 You can access the [working project on GitHub](https://github.com/aolszewska/substrate-erc20-nestjs)
 
@@ -19,7 +19,7 @@ To be able to deploy a smart contract to the node, we need to add the Contracts 
 
 ## Run the Substrate node
 
-If you decided to omit adding a Contracts Pallet on your own, you need to build the node:
+If you decided to omit adding a Contracts Pallet on your own, you need to build the node. `cargo` is a package manager for Rust, which you should already have on your computer after completing *Create your first substrate chain* tutorial.
 
 ```shell
 cargo build --release
@@ -242,10 +242,10 @@ call(as: 'tx', message: string, value: BN | number, gasLimit: BN | number, ...pa
 * `as` - `tx` string value is used for a transaction call. For a read-only request we can use `rpc`. 
 * `message` - name of the smart contract’s function we want to call.
 * `value` - you can transfer some basic units alongside sending a transansaction, but we will not use it, so the value will always be 0.
-* `gasLimit` - the maximum value of gas this call can charge your account. With an RPC call, we still need to provide a valid value, but as nothing is actually stored on-chain, you will not be charged.
+* `gasLimit` - the maximum value of gas this call can charge your account. Every transaction call of a smart contract is in general charged with a gas fee for the computational resources used. With an RPC call, we still need to provide a valid gas limit value, but as nothing is actually stored on-chain, you will not be charged. Previously, you were to define a conversion rate between the gas price and the Substrate currency for the Contracts Pallet (which is also the case for Ethereum smart contracts). Now it is fixed: `1 gas = 1 weight = 1 ps`. `weight` is a unit used in Substrate Runtime development to set the fee for calling the functions and `ps` is one pico second of execution on the reference system.
 * `params` - parameters to pass to the smart contract’s function we want to call.
 
-This function creates a `ContractCall`, which exposes a `send()` function:
+The `call()` function creates a `ContractCall`, which exposes a `send()` function:
 
 ```javascript
 send(account: IKeyringPair | string | AccountId | Address): ContractCallResultSubscription<ApiType, CallType>;
