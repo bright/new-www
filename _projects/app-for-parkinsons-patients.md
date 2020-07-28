@@ -2,13 +2,12 @@
 layout: project
 title: App for Parkinson's Patients
 image: /images/cover1-.jpg
-description: "App for Parkinson's Patients "
+description: An app that serves as a personal digital diary for patients
+  suffering from Parkinson’s disease. The app lets users easily record their
+  symptoms, track the intake of prescribed drugs, and get a general overview of
+  their health.
 published: true
 ---
-![]()
-
-An app that serves as a personal digital diary for patients suffering from Parkinson’s disease. The app lets users easily record their symptoms, track the intake of prescribed drugs, and get a general overview of their health. 
-
 ### Main features:
 
 * Tracking physical response to standard and experimental therapy
