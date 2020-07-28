@@ -112,7 +112,7 @@ The last but not the least - the blue “thinking” hat. de Bono compare the bl
 
 <https://study.com/academy/lesson/de-bonos-six-thinking-hats-summary-examples.html>
 
-And here you can find more other effective brainstorming techniques that you can easily apply in your team meetings: 
+And here you can find other effective brainstorming techniques that you can easily apply in your team meetings: 
 
 <https://business.tutsplus.com/articles/top-brainstorming-techniques--cms-27181>
 
