@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Finebite (prev. Everytap) "
-image: /images/foodapp_ingredients.png
+image: /images/foodloyaltyapp_4web.png
 description: >
   Finebite (prev. Everytap) is the leading loyalty and online reservation
   program in Poland
@@ -36,7 +36,7 @@ Apart from an online reservation feature, Finebite also currently offers a truly
 
 Now, if that doesn’t make you feel a sudden urge for dining out, we don’t know what does!
 
-![](/images/foodloyaltyapp_4web.png)
+![]()
 
 ### Goal
 
