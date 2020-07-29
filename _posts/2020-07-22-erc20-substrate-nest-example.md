@@ -9,13 +9,13 @@ tags: ['substrate', 'parity', 'blockchain', 'nest', 'nestjs', 'smart contract', 
 
 In this blog post I will guide you through the process of implementing an ERC20 token with use of a smart contract on a Substrate node and accessing it from a NestJS application. If you would like to get a basic concept of what blockchain, Substrate or smart contracts are you may check our [previous blog post](https://brightinventions.pl/blog/why-would-you-use-substrate/). NestJS is a framework for building Node.js applications, to get the basics you can visit it's [documentation website](https://docs.nestjs.com/).
 
-You can access the [working project on GitHub](https://github.com/aolszewska/substrate-erc20-nestjs)
+You can access the [working project on GitHub](https://github.com/bright/substrate-erc20-nestjs)
 
 ## Substrate node
 
 First of all we need a local substrate node. To have it on your computer it is best to complete the [Create your first substrate chain tutorial from substrate.dev](https://substrate.dev/docs/en/tutorials/create-your-first-substrate-chain/).
 
-To be able to deploy a smart contract to the node, we need to add the Contracts Pallet. To do it, please complete the [Add a pallet to your runtime tutorial](https://substrate.dev/docs/en/tutorials/add-a-pallet-to-your-runtime/). If you would like to skip this part, clone [this tutorial's repo](https://github.com/aolszewska/substrate-erc20-nestjs) instead of the Substrate Node Template repo.
+To be able to deploy a smart contract to the node, we need to add the Contracts Pallet. To do it, please complete the [Add a pallet to your runtime tutorial](https://substrate.dev/docs/en/tutorials/add-a-pallet-to-your-runtime/). If you would like to skip this part, clone [this tutorial's repo](https://github.com/bright/substrate-erc20-nestjs) instead of the Substrate Node Template repo.
 
 ## Run the Substrate node
 
@@ -49,7 +49,7 @@ ERC20 is the Ethereum token standard used for Ethereum Smart Contracts. It defin
 
 To build your own ERC20 token contract you can complete another tutorial available [here](https://substrate.dev/substrate-contracts-workshop/#/). The first part will guide you through the basics of a smart contract creation. The second part is strictly focused on the ERC20 token implementation.
 
-If you decide to skip this part, you can get the code from the [repository for this tutorial](https://github.com/aolszewska/substrate-erc20-nestjs).
+If you decide to skip this part, you can get the code from the [repository for this tutorial](https://github.com/bright/substrate-erc20-nestjs).
 
 ## Deploy contract to the chain
 
