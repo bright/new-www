@@ -29,6 +29,8 @@ published: true
 
 When you’re a cyclist winter months is when your next season performance is decided. Give up to the elements and you’re done. Or... build your own indoor training system with Motivo. The app offers Interactive training plans and workouts for indoor cycling. Motivo makes sure you're getting the best results from a turbo training or spinning with full Wahoo KICKR Erg mode support.
 
+![](/images/motivobackground.jpg)
+
 ### Goal
 
 Daniel Bachini and Alain Ritchie, two London based cycling professionals, approached Bright Inventions in the late Summer of 2014 with the idea for a mobile training platform that would help cyclists like themselves in staying fit during the off season months.
@@ -39,13 +41,17 @@ A major challenge during the development phase was to ensure seamless integratio
 
 Bright Inventions was engaged in the ideation process and took full responsibility for the software part.
 
-### Process 
+### Process
 
 A very ambitious timeline called for a highly optimised approach to the development. From the day zero a dedicated small team has been assigned to work on the Wahoo Fitness integration aspects. In parallel, two workshops with the customer representatives (held in Gdansk and London) led to the identification of the features supporting key business needs and the creation of prioritised requirements spec. It was clear from the beginning that some of the lower priority features wouldn’t make it to the first version of the product.
+
+![](/images/motivo_mockup5-2.8.1.jpg)
 
 A semi-professional internal Motivo Cycling Team was established and tasked with testing the alpha and beta versions of the upcoming product. They took on the challenge of including the Motivo app in their daily training, often doing extra exercises just to validate the app. In retrospect, the product would have never happened if it hadn’t been for the feedback collected from the Motivo Cycling Team.
 
 A highly iterative approach was taken with regards to user interface. Two most important screens (calendar and workout) were designed in a few different variations and the experiments conducted with the cyclist team helped decide on the one finally picked for the public release.
+
+![](/images/motivo_mockup1.2.2.jpg)
 
 ### Result
 
