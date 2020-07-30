@@ -36,7 +36,7 @@ Apart from an online reservation feature, Finebite also currently offers a truly
 
 Now, if that doesn’t make you feel a sudden urge for dining out, we don’t know what does!
 
-![]()
+![](/images/dining-out.jpeg)
 
 ### Goal
 
@@ -56,6 +56,8 @@ We knew that we needed to integrate the app not only with Google Maps and Facebo
 We decided to turn to iBeacon – a Bluetooth-based technology. For this purpose, we integrated with an iBeacon service offered by Estimote. Once introduced into the app, it became possible to trigger notifications to users as they entered or passed restaurants. iBeacon technology also enabled users to collect and spend points at partner venues via the app.
 
 For backend, our developers chose Ruby-on-Rails – specifically, they worked with MongoDB and Heroku.  The product design team was also engaged in the process – we equipped the app with plenty of custom animations and UI effects, designed to help navigate the app. 
+
+![](/images/foodapp_ingredients.png)
 
 ### Launch
 
