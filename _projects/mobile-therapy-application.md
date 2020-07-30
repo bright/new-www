@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Therapy Application
+title: Mobile Therapy App
 image: /images/therapio1_4web.png
 description: An app that supports patients going through physiotherapy, speech
   therapy, or occupational therapy in getting back to health.
