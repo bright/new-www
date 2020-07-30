@@ -32,9 +32,11 @@ Dependency injection: CocoaPods
 Deployment: Teamcity, Fastlane
 Tests: Nimble, Quick
 
-### About 
- 
+### About
+
 When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day. 
+
+![](/images/vcare-_mockup-3_700.jpg)
 
 ### Goal
 
@@ -44,7 +46,7 @@ Firstly, vCare wanted to make their healthcare solution available to facilities 
 Secondly, the vCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
 
 ### Process
- 
+
 Our design team’s goal was to create intuitive, reliable mobile apps that would make it easy to register medicine administration and view historical records for each patient. It was absolutely crucial that anyone using the app knew whether a given resident had already taken his/her medication, and had the option to add a note on the patient’s profile. 
 
 To further increase the security of home care residents, the software also needed to include a supervisor approval feature for any significant change in treatment applied by a member of staff. 
@@ -54,6 +56,10 @@ For updating the Android app, our developers worked in Kotlin, and applied Room 
 
 For iOS, we chose to work in Swift, and – among others – applied Cocoa Pods for dependency injection, Nimble and Quick for running tests, and Teamcity and Fastlane for deployment. 
 
+![](/images/vcare-_mockup-4_700.jpg)
+
 ### Result
 
-The iOS and updated Android apps have been available on the market since XXXX. We are currently approaching the end of the maintenance period, and are already in the talks on a whole round of new features for both applications.
+The iOS and updated Android apps have been available on the market since 2019. We are currently approaching the end of the maintenance period, and are already in the talks on a whole round of new features for both applications.
+
+![]()
