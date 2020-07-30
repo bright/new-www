@@ -23,7 +23,6 @@ published: true
 * iOS:Objective-C
 * Web: AngularJS, Highcharts
 * Backend: Ruby on Rails, Heroku
-* ## Main tech elements
 
 ### About
 
