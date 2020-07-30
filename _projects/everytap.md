@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Finebite (prev. Everytap) "
+title: Finebite/Everytap
 image: /images/foodloyaltyapp_4web.png
 description: >
   Finebite (prev. Everytap) is the leading loyalty and online reservation
