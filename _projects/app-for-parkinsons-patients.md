@@ -1,6 +1,6 @@
 ---
 layout: project
-title: App for Parkinson's Patients
+title: Mobile Solution for Parkinson's Patients
 image: /images/tulipa_mockup1.2.2-copy.png
 description: An app that serves as a personal digital diary for patients
   suffering from Parkinson’s disease. The app lets users easily record their
