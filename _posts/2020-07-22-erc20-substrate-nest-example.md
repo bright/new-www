@@ -3,7 +3,7 @@ layout: post
 title: Develop your own cryptocurrency with Substrate
 author: agnieszka
 hidden: true
-image: /images/erc20-substrate-nest-example/image1.png
+image: /images/erc20-substrate-nest-example/top.png
 tags: ['substrate', 'parity', 'blockchain', 'nest', 'nestjs', 'smart contract', 'erc20', 'cryptocurrency']
 ---
 
@@ -624,5 +624,6 @@ We have run a local Substrate node with the Contracts Pallet added. We have impl
 ## What's next?
 
 In the next part of this tutorial we will:
+* look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS
 * query the chain from NestJS to get the events emmited by the smart contract
 * deploy the smart contract from NestJS.
