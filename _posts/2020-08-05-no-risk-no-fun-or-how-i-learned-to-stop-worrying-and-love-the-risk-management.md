@@ -51,7 +51,7 @@ Listing all of the users and roles can be a great start - much like with the use
 
 “As a result of < definite cause >,
 
-<uncertain event> may occur,
+< uncertain event > may occur,
 
 which would lead to < effect on objective(s) >”
 
