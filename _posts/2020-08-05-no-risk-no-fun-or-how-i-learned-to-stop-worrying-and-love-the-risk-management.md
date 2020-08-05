@@ -55,6 +55,7 @@ Listing all of the users and roles can be a great start - much like with the use
 
 which would lead to <effect on objective(s)>”
 
+
 #### For example:
 
 “As a result of a lost internet connection, data about the drugs dosage might not be refreshed for a long time, which would lead to wrong drug dispensation.”
