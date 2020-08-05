@@ -49,11 +49,11 @@ When is the right time to organize such a meeting? If you’re using Scrum, such
 
 Listing all of the users and roles can be a great start - much like with the user stories. Reverse user stories if you like. You can also start with the functionalities of the system. Actually, one of my favourite techniques are Hazard (or [Abuser](https://medium.com/@jimvdwaal/abuser-stories-thinking-like-a-hacker-ed7999b507c8)) stories. They can follow a pattern like:
 
-“As a result of <definite cause>,
+“As a result of < definite cause >,
 
 <uncertain event> may occur,
 
-which would lead to <effect on objective(s)>”
+which would lead to < effect on objective(s) >”
 
 
 #### For example:
