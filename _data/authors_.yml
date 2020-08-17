@@ -192,3 +192,9 @@ tomek:
   bio: "Blockchain Developer @ Bright Inventions"
   avatar: https://brightinventions.pl/images/tomek.jpeg
   github: tgesior
+
+maciek:
+  name: Maciej Seleman
+  email: maciej.seleman@brightinventions.pl
+  bio: "QA specialist @ Bright Inventions"
+  avatar: https://brightinventions.pl/images/maciejseleman.jpeg
