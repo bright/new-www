@@ -3,7 +3,7 @@ layout: post
 title: What do test automation and karaoke have in common?
 author: maciej
 image: /images/automationkaraoke/forja2-mx-r2kxuoOFtHY-unsplash.jpg
-hidden: true
+hidden: false
 tags: [automation][testing][QA][karaoke]
 ---
 
