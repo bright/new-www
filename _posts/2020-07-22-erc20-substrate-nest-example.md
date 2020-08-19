@@ -35,7 +35,7 @@ Purge the chain and run it in development mode with the following commands:
 ./target/release/node-template --dev
 ```
 
-To make sure your chain is up and running you can use the [Polkadot JS App](https://polkadot.js.org/apps). To run the app you need a Chromium based browser (other browsers will not allow you to connect to the local node). Go to the *Settings* tab, choose *General*. In the *remote node/endpoint to connect to* field choose the local node.
+To make sure your chain is up and running you can use the [Polkadot JS App](https://polkadot.js.org/apps). To run the app you need a Chromium based browser (other browsers will not allow you to connect to the local node). You can expand the list of available chains by clicking on the Substrate logo in the upper left corner. Choose the *Local Node*.
 
 ![](/images/erc20-substrate-nest-example/image7.png)
 
@@ -45,17 +45,23 @@ To see if the Contracts Pallet was successfully added, check that you have the *
 
 ## ERC20 token Smart Contract
 
-ERC20 is the Ethereum token standard used for Ethereum Smart Contracts. It defines an interface for a simple cryptocurrency. Users can transfer tokens they own or allow another users to transfer some amount of tokens on their behalf.
+ERC20 is the Ethereum token standard used for Ethereum Smart Contracts. It defines an interface for a simple cryptocurrency. Users can transfer tokens they own or allow other users to transfer some amount of tokens on their behalf.
 
 To build your own ERC20 token contract you can complete another tutorial available [here](https://substrate.dev/substrate-contracts-workshop/#/). The first part will guide you through the basics of a smart contract creation. The second part is strictly focused on the ERC20 token implementation.
 
 If you decide to skip this part, you can get the code from the [repository for this tutorial](https://github.com/bright/substrate-erc20-nestjs).
 
-## Deploy contract to the chain
+## Build the contract
 
-Once you have the code of ERC20 ready you need to build and deploy it to the Substrate chain. If you have completed the tutorial from the previous point, you probably are already familiar with the process.
+Once you have the code of ERC20 ready you need to build and deploy it to the Substrate chain. If you have completed the tutorial from the previous point, you probably are already familiar with the process. If you haven't but still wish to build the contract on your own, you will need to install the ink! command line utility. You can also skip it and use the `.wasm` binary and metadata files uploaded to [this post's repository](https://github.com/bright/substrate-erc20-nestjs/tree/master/smart-contract/target) and go straight to deploying the contract to the chain.
 
-Build the contract with the following command, which will create a `wasm` file.
+Install the ink! command line utility.
+
+```shell
+cargo install cargo-contract --vers 0.6.2 --force
+```
+
+Build the contract with the following command, which will create a `.wasm` file.
 
 ```shell
 cargo +nightly contract build
@@ -67,15 +73,22 @@ Generate metadata json file, which describes the smart contract.
 cargo +nightly contract generate-metadata
 ```
 
-To deploy the contract, check the [*Deploying your contract* chapter from the tutorial](https://substrate.dev/substrate-contracts-workshop/#/0/deploying-your-contract).
+## Deploy contract to the chain
+
+To deploy the contract, check the [*Deploying your contract* chapter from the tutorial](https://substrate.dev/substrate-contracts-workshop/#/0/deploying-your-contract). When creating an instance of the contract, we need to pass the initial supply value, i.e. `1 000 000`. 
 
 ## Connecting from NestJS app
 
 Now we are ready to communicate with our smart contract. There are several ways to do this. One obvious way would be to use the [Polkadot JS App](https://polkadot.js.org/apps). This is a great way to play with your contract and explore it. Another way would be to clone the Parity’s [Substrate Front End Template](https://github.com/substrate-developer-hub/substrate-front-end-template) from GitHub, run it and adapt to your needs. We will however connect from NestJS. It would enable us to wrap the calls to the blockchain with some user friendly stuff as well as store any additional descriptive information, which we shouldn’t put on-chain.
 
-Check our previous blog post describing in details how to [connect to a Substrate node](https://brightinventions.pl/blog/connect-to-substrate-nestjs/) and query it for some basic data. Here is a shortcut.
+Check our previous blog post describing in detail how to [connect to a Substrate node](https://brightinventions.pl/blog/connect-to-substrate-nestjs/) and query it for some basic data. Here is a shortcut.
 
-Create a new NestJS project.
+First of all we need to create a new NestJS project. If you do not have the Nest CLI installed you can check the docs [here](https://docs.nestjs.com/cli/overview) or just install it with a following command:
+```shell
+npm install -g @nestjs/cli
+```
+
+Now you can create a new project.
 
 ```shell
 nest new substrate-nests
@@ -108,6 +121,8 @@ Add Polkadot `api-contract` library to interact with the Contracts Pallet.
 ```shell
 yarn add @polkadot/api-contract
 ```
+
+It is also possible that you will need another version of Node.js. You can use [Node Version Manager](https://github.com/nvm-sh/nvm) to manage different versions.
 
 ## Connect to the node
 
@@ -150,7 +165,7 @@ this.api = await ApiPromise.create({
     });
 ```
 
-We will now create a `PromiseContract` object from `api-contract` library. This object is tightly connected with the contract we have created so we need some more information about it. We need the contract address. To get it visit [Polkadot JS App](https://polkadot.js.org/apps). Select *Contracts* from the main menu, then select the *Contracts* tab. Clicking on the image next to the contract name (here it is ERC20.WASM (INSTANCE)) will copy the contract’s address to clipboard.
+We will now create a `PromiseContract` object from the `api-contract` library. This object is tightly connected with the contract we have created so we need some more information about it. We need the contract address. To get it visit [Polkadot JS App](https://polkadot.js.org/apps). Select *Contracts* from the main menu, then select the *Contracts* tab. Clicking on the image next to the contract name (here it is ERC20.WASM (INSTANCE)) will copy the contract’s address to clipboard.
 
 ![](/images/erc20-substrate-nest-example/image5.png)
 
@@ -242,7 +257,7 @@ call(as: 'tx', message: string, value: BN | number, gasLimit: BN | number, ...pa
 * `as` - `tx` string value is used for a transaction call. For a read-only request we can use `rpc`. 
 * `message` - name of the smart contract’s function we want to call.
 * `value` - you can transfer some basic units alongside sending a transansaction, but we will not use it, so the value will always be 0.
-* `gasLimit` - the maximum value of gas this call can charge your account. Every transaction call of a smart contract is in general charged with a gas fee for the computational resources used. With an RPC call, we still need to provide a valid gas limit value, but as nothing is actually stored on-chain, you will not be charged. Previously, you were to define a conversion rate between the gas price and the Substrate currency for the Contracts Pallet (which is also the case for Ethereum smart contracts). Now it is fixed: `1 gas = 1 weight = 1 ps`. `weight` is a unit used in Substrate Runtime development to set the fee for calling the functions and `ps` is one pico second of execution on the reference system.
+* `gasLimit` - the maximum value of gas this call can charge your account. Every transaction call of a smart contract is in general charged with a gas fee for the computational resources used. With an RPC call, we still need to provide a valid gas limit value, but as nothing is actually stored on-chain, you will not be charged. Previously, you were to define a conversion rate between the gas price and the Substrate currency for the Contracts Pallet (which is also the case for Ethereum smart contracts). Now it is fixed: `1 gas = 1 weight = 1 ps`. `weight` is a unit used in Substrate Runtime development to set the fee for calling the functions and `ps` is one picosecond of execution on the reference system.
 * `params` - parameters to pass to the smart contract’s function we want to call.
 
 The `call()` function creates a `ContractCall`, which exposes a `send()` function:
@@ -267,9 +282,9 @@ async totalSupply() {
   }
 ```
 
-An important note on the gas limit value. Each currency value (i.e. gas value) is a decimal stored as an integer with a fixed and known number of decimal places (in Substrate Node Template it is 6 by default). Polkadot JS App wraps that for you, so that you would pass 1 000 000 as the gas limit in the UI. When using the api, remember to always add the six additional zeros for the decimal places.
+An important note on the gas limit value. When you were initializing the contract with Polkadot JS App, maximum gas limit of 1 000 000 was enough. Here we pass six more zeros. This is because under the hood Polkadot JS App multiplies the value of gas limit by 10^6. Polkadot JS App uses JS `BigNumber` type instead of regular `number`. This is however a topic for another story.
 
-Now we can create a controller to expose the function. In `src` directory create a file `balances.controller.ts`. Set the controller route, inject `ContractService` and create a function `totalSupply` decorated with `@Get` which calls the `contractService.totalSupply()` function.
+Now we can create a controller to expose the function. In the `src` directory create a file `balances.controller.ts`. Set the controller route, inject `ContractService` and create a function `totalSupply` decorated with `@Get` which calls the `contractService.totalSupply()` function.
 
 ```javascript
 // src/balances.controller.ts
@@ -311,7 +326,7 @@ You can now check the result in a browser.
 
 ![](/images/erc20-substrate-nest-example/image4.png)
 
-When I have deployed my smart contract through the Polkadot JS App, I set the init supply to 1 000 000. Again, here we have the additional six zeros for the decimal places.
+When I have deployed my smart contract through the Polkadot JS App, I set the init supply to 1 000 000. Each currency value is a decimal stored as an integer with a fixed and known number of decimal places (in Substrate Node Template it is 15 by default). Polkadot JS App wraps that for you in the input field, so that I have indeed initialised the contract with one million of units. However, when querying the smart contract through the Polkadot JS App or using the api we always get the additional 15 decimal zeros.
 
 ## Balance of an account
 
@@ -495,7 +510,7 @@ The `balances.controller.ts` file should look like this now:
 import { Body, Controller, Get, HttpCode, Param, Put } from '@nestjs/common';
 import { ContractService } from './contract.service';
  
-// accounts list to easily intercact with the API
+// accounts list to easily interact with the API
 const accounts = {
   ALICE: '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY',
   BOB: '5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty',
@@ -532,6 +547,18 @@ export class BalancesController {
   }
 }
 ``` 
+
+Let's now do some transfers. We can use [Postman](https://www.postman.com/) for this.
+
+We will transfer some units to Bob. As we sign all transactions as Alice, she will be the sender. We need to create a `PUT` request at `http://localhost:3000/balances` url and pass two body parameters: `to: BOB` and `value: 1000000000000000000` (again, we have the 15 decimal zeros here, so we actually transfer 1 000 units).
+
+![](/images/erc20-substrate-nest-example/image8.png)
+
+Now let's check again the balances (I omit the decimal zeros here so that the numbers are more readable):
+* total balance (http://localhost:3000/balances)[http://localhost:3000/balances] - should not change and still be 1 000 000
+* Alice's balance (http://localhost:3000/balances/ALICE)[http://localhost:3000/balances/ALICE] - should be reduced by 1 000 to 999000
+* Bob's balance (http://localhost:3000/balances/BOB)[http://localhost:3000/balances/BOB] - should be 1 000.
+
 ## Approval
 
 We can now add the functions needed for the approval feature. There are two transactions to be handled: approving another account to make transfers for us up to a fixed amount and transferring on behalf. We can also query the chain for the allowances. Let's add three functions to the `ContractService` class.
@@ -557,11 +584,11 @@ async transferFrom(from: string, to: string, value: number) {
 To expose the allowance feature we can create another controller.
 
 ```javascript
-// src/allowances.controlle.ts
+// src/allowances.controller.ts
 import { Body, Controller, Get, HttpCode, Post, Query } from '@nestjs/common';
 import { ContractService } from './contract.service';
 
-// accounts list to easily intercact with the API
+// accounts list to easily interact with the API
 const accounts = {
   ALICE: '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY',
   BOB: '5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty',
@@ -617,13 +644,47 @@ interface TransferDto {
   }
 ```
 
+We would like to allow Alice to send 200 units on behalf of Bob. Such a transaction should be signed by Bob, but our app does not enable choosing a signer. Let's then switch to [Polkadot JS App](https://polkadot.js.org/apps). Go to *Contracts* page, choose *Contracts* tab and click the *execute* button on the contract. Change the account, so that we will call the contract functions from Bob's account. Choose `approve` as a message to send. Choose Alice as a spender and set the value to 200 (no decimal zeros here!). Click the *Call* button, sign and submit the transaction (make sure that Bob is the signer).
+
+![](/images/erc20-substrate-nest-example/image10.png)
+
+We can check the allowance in the browser [http://localhost:3000/allowances?owner=BOB&spender=ALICE](http://localhost:3000/allowances?owner=BOB&spender=ALICE) to be 200.
+
+Now let's go back to Postman and let Alice make a transfer from Bob's to Charlie's wallet. Remember to add the decimal zeros and to transfer less than the approved value. I decided to transfer 110.
+
+![](/images/erc20-substrate-nest-example/image9.png)
+
+We can now confirm that:
+
+* [http://localhost:3000/balances/CHARLIE](http://localhost:3000/balances/CHARLIE) - Charlie's balance is 110
+* [http://localhost:3000/balances/ALICE](http://localhost:3000/balances/ALICE) - Alice's balance is still 999000
+* [http://localhost:3000/balances/BOB](http://localhost:3000/balances/BOB) - Bob's balance is reduced by 110 and now it's 890
+* [http://localhost:3000/allowances?owner=BOB&spender=ALICE](http://localhost:3000/allowances?owner=BOB&spender=ALICE) - the approval is also reduced by 110 and now it's 90.
+
+We can also use our api to allow Bob to transfer 100 units on behalf of Alice. We can create a POST request in Postman at `http://localhost:3000/allowances` url and pass two body parameters: `sender: BOB` and `value: 100000000000000000` (again, we have the 15 decimal zeros).
+
+![](/images/erc20-substrate-nest-example/image11.png)
+
+We can check the allowance in the browser [http://localhost:3000/allowances?owner=ALICE&spender=BOB](http://localhost:3000/allowances?owner=ALICE&spender=BOB) to be 100. 
+
+We can now let Bob make a transfer of 30 units from Alice's to Dave's wallet using the Polkadot JS App:
+
+![](/images/erc20-substrate-nest-example/image12.png)
+
+We can now confirm that:
+
+* [http://localhost:3000/balances/DAVE](http://localhost:3000/balances/DAVE) - Dave's balance is 30
+* [http://localhost:3000/balances/ALICE](http://localhost:3000/balances/ALICE) - Alice's balance is reduced by 30 and it's 998970
+* [http://localhost:3000/balances/BOB](http://localhost:3000/balances/BOB) - Bob's balance is is still 890
+* [http://localhost:3000/allowances?owner=ALICE&spender=BOB](http://localhost:3000/allowances?owner=ALICE&spender=BOB) - the approval is also reduced by 30 and now it's 70.
+
+
 ## Summary
 
-We have run a local Substrate node with the Contracts Pallet added. We have implemented an ERC20 token smart contract and deployed it to the Substrate node. Finally we have created a simple NestJS app to interact with the smart contract.
+We have run a local Substrate node with the Contracts Pallet added. We have implemented an ERC20 token smart contract and deployed it to the Substrate node. Finally we have created a simple NestJS app to interact with the smart contract and tested it.
 
 ## What's next?
 
 In the next part of this tutorial we will:
 * look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS
-* query the chain from NestJS to get the events emmited by the smart contract
-* deploy the smart contract from NestJS.
+* query the chain from NestJS to get the events emitted by the smart contract and runtime module.
