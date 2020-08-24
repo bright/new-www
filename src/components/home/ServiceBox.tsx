@@ -3,6 +3,10 @@ import styled from "styled-components"
 
 const Container = styled.div`
   padding: 4rem;
+
+  @media (max-width: 375px) {
+    padding: 0.5rem;
+  }
 `
 
 const ServiceBoxIcon = styled.div`

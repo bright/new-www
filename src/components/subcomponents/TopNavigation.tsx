@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 
 const NavbarStart = styled.div`
@@ -12,6 +12,8 @@ const NavbarItem = styled.a`
 `
 
 export const TopNavigation = () => {
+  const [showMenu, setShowMenu] = useState(false)
+
   return (
     <nav
       className="navbar is-fixed-top"
@@ -27,20 +29,13 @@ export const TopNavigation = () => {
             />
           </a>
 
-          <div className="navbar-item is-expanded is-hidden-desktop">
-            <div className="buttons">
-              <a className="button is-primary" href="/start-project">
-                <strong>Estimate project</strong>
-              </a>
-            </div>
-          </div>
-
           <a
             role="button"
-            className="navbar-burger burger"
+            className={"navbar-burger burger " + (showMenu ? "is-active" : "")}
             aria-label="menu"
             aria-expanded="false"
             data-target="#topNavBar"
+            onClick={() => setShowMenu(!showMenu)}
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -48,7 +43,10 @@ export const TopNavigation = () => {
           </a>
         </div>
 
-        <div id="topNavBar" className="navbar-menu">
+        <div
+          id="topNavBar"
+          className={"navbar-menu " + (showMenu ? "is-active" : "")}
+        >
           <NavbarStart className="navbar-start">
             <NavbarItem className="navbar-item is-expanded" href="/about-us">
               why us

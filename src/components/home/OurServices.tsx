@@ -15,28 +15,28 @@ const OurServices: React.FC = () => {
           <ServiceBox
             icon={<WebDevelopmentIcon />}
             title="web development"
-            description="In our projects we rely on a rich technology stack including JavaScript, CSS. HTML, Java, Node.js, AWS, MySQL, PostgreSQL and more."
+            description="We provide a wide range of custom full stack web development services. We rely on a rich technology stack, including JavaScript, CSS, HTML, Java, Node.js, AWS, MySQL, PostgreSQL, and more."
           />
         </div>
         <div className="column is-half">
           <ServiceBox
             icon={<MobileAppDevelopmentIcon />}
-            title="mobile app development"
-            description="Our app development team with a perfect command of Swift as well as Java and Kotlin offers native mobile development for iOS and Android."
+            title="mobile development"
+            description="We offer native mobile app development for iOS and Android. Our app development team has broad experience in building applications in Swift, Java, and Kotlin."
           />
         </div>
         <div className="column is-half">
           <ServiceBox
             icon={<ProductDesignIcon />}
             title="product design"
-            description="Our design team can help your idea come into being with the most impactful practices and tech tools."
+            description="You can count on our expertise in interface analysis, animation design, UX and UI design, root cause analysis, and more. We have worked on design projects of all sizes."
           />
         </div>
         <div className="column is-half">
           <ServiceBox
             icon={<BlockchainIcon />}
             title="blockchain"
-            description="In many our projects we use blockchain technology, which ensures the best safety practices bla bla bla"
+            description="Our team has a vast experience in blockchain projects, including the development of a solution for a global humanitarian organization. Blockchain technology is what we’re really good at!"
           />
         </div>
         <div className="column is-full has-text-centered">

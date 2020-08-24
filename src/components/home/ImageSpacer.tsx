@@ -10,10 +10,10 @@ const Container = styled.div`
   justify-content: space-between;
 `
 const ImageContainer = styled.div`
-  width: 20%;
-  height: 200px;
+  width: 25%;
+  height: 300px;
   overflow: hidden;
-  margin: 15px;
+  margin: 10px;
 `
 const Image = styled.img`
   object-fit: cover;
@@ -27,7 +27,7 @@ const images = [
   "images/b-88Light.jpg",
   "images/bright_rules.jpg",
   "images/team_small.jpg",
-  "images/ula_with_andrzej.jpg",
+  // "images/ula_with_andrzej.jpg"3
 ]
 
 const ImageSpacer: React.FC = () => {

@@ -1,4 +1,4 @@
-import { useStaticQuery, Link } from "gatsby"
+import { useStaticQuery, Link, graphql } from "gatsby"
 import React, { FC } from "react"
 import styled from "styled-components"
 import { Button, Section, SectionTitle } from "../shared"
@@ -25,7 +25,7 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
           }
         }
         sort: { fields: fileAbsolutePath, order: DESC }
-        limit: 2
+        limit: 4
       ) {
         edges {
           post: node {
@@ -66,15 +66,17 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
 
   return (
     <Section>
-      <SectionTitle className="is-size-3">most popular blog posts</SectionTitle>
-      <div className="columns">
+      <SectionTitle className="is-size-3">
+        here’s what’s new on our blog
+      </SectionTitle>
+      <div className="columns is-multiline is-12">
         {posts.map(({ post }) => {
           const { author } = authors.find(
             ({ author }) => author.author_id === post.frontmatter.author
           )
           console.log(author)
           return (
-            <div className="column">
+            <div className="column is-6">
               <PopularBlogPostBox
                 author={author.name}
                 authorId={author.author_id}
@@ -94,7 +96,7 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
       </div>
       <ButtonContainer className="has-text-centered">
         <Link to="/blog">
-          <Button>more blog posts</Button>
+          <Button>read more</Button>
         </Link>
       </ButtonContainer>
     </Section>

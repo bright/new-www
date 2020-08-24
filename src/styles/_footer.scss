@@ -2,5 +2,14 @@
   height: 40px;
 }
 .footer {
-  background: #000000;
+  background-color: #000000 !important;
+  color: white !important;
+  .subtitle {
+    color: white !important;
+  }
+  a {
+    &:hover {
+      color: $bright-orange !important;
+    }
+  }
 }

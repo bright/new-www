@@ -27,6 +27,7 @@
 .we-deliver {
   background-color: $white;
   .title {
+    margin-top: 0.75em;
     margin-bottom: 1em;
   }
   .title {
@@ -69,4 +70,15 @@
   border-radius: 0;
   box-shadow: none;
   margin-bottom: 2rem;
+}
+
+.button.estimate {
+  font-family: titling-gothic-fb, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: black;
+  width: 100%;
+  // letter-spacing: 0.2em;
+  border-radius: 0;
+  margin: 6em 0;
 }

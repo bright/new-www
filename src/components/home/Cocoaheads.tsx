@@ -1,16 +1,18 @@
 import React, { FC } from "react"
-import { Section, SectionTitle, Button } from "../shared.tsx"
-import { ButtonInverted } from "../shared"
+import { ButtonInverted, Section, SectionTitle } from "../shared"
 
 export interface CocoaheadsProps {}
 
 const Cocoaheads: FC<CocoaheadsProps> = props => {
   return (
-    <Section className="has-background-black has-text-centered">
+    <Section
+      className="has-background-black has-text-centered"
+      style={{ padding: "6em 0" }}
+    >
       <SectionTitle className="is-size-3 has-text-white">
-        we are a co-host of Cocoaheads Tricity
+        we combine technical knowledge with deep agile experience
       </SectionTitle>
-      <ButtonInverted>when is next meeting?</ButtonInverted>
+      <ButtonInverted>workshops</ButtonInverted>
     </Section>
   )
 }

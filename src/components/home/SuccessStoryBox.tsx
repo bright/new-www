@@ -4,7 +4,7 @@ import styled from "styled-components"
 const Container = styled.div`
   border: 1px solid #d3d3d3;
   width: 100%;
-  height: 400px;
+  max-height: 400px;
   padding: 2em;
 `
 
@@ -24,6 +24,7 @@ const SuccessStoryBox: FC<SuccessStoryBoxProps> = props => {
   return (
     <Container>
       <Title>{props.title}</Title>
+      <img src={props.image} />
     </Container>
   )
 }

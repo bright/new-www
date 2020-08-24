@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import variables from "../styles/variables"
 
 export const Button = styled.button`
   border: 1px solid black;
@@ -13,19 +14,21 @@ export const Button = styled.button`
   padding: 0.5rem 1rem;
   font-size: 18px;
   cursor: pointer;
+
+  &:hover {
+    color: ${variables.brightOrange};
+    border-color: ${variables.brightOrange};
+  }
+
+  &.hover-white:hover {
+    color: #fff;
+    border-color: #fff;
+  }
 `
-export const ButtonInverted = styled.button`
+export const ButtonInverted = styled(Button)`
   border: 1px solid white;
   background: black;
-  font-family: titling-gothic-fb, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0px;
   color: #fff;
-  opacity: 1;
-  padding: 0.5rem 1rem;
-  font-size: 18px;
-  cursor: pointer;
 `
 
 export const SectionTitle = styled.h3`

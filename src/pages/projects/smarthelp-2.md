@@ -8,6 +8,7 @@ description: >
   details.
 published: true
 slug: "/projects/smarthelp/"
+homepage: true
 ---
 
 ## Main features

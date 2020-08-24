@@ -15,13 +15,12 @@ const ProductIdea: FC<ProductIdeaProps> = props => {
         let’s talk about your product idea
       </SectionTitle>
       <SectionDescription className="column is-8 is-offset-2 mb-6 has-text-left">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur.
+        Have an idea for a groundbreaking software project, but don’t know where
+        to start? Or maybe you’re looking for software development experts to
+        help take your product to the next level? We’ll be more than happy to
+        discuss how we can help your business succeed!
       </SectionDescription>
-      <Button className="has-background-primary">
+      <Button className="has-background-primary hover-white">
         request a consulatation
       </Button>
     </Section>
