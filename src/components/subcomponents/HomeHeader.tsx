@@ -95,7 +95,7 @@ const HomeHeader = () => {
                     </IndicatorInactive>
                   )
                 }}
-                renderArrowPrev={onClickHandler => (
+                renderArrowPrev={onClickHandler => 
                   <Arrow style={{ left: 15 }}>
                     <BackArrow onClick={onClickHandler} />
                   </Arrow>

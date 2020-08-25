@@ -8,7 +8,7 @@ const ClutchContainer = styled.div`
 `
 
 const ClutchItem = styled.div`
-  height: 128px;
+  height: 150px;
 
   @media (max-width: 768px) {
     height: 100px;

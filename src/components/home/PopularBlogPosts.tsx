@@ -5,7 +5,7 @@ import { Button, Section, SectionTitle } from "../shared"
 import PopularBlogPostBox from "../subcomponents/PopularBlogPostBox"
 
 const ButtonContainer = styled.div`
-  margin-top: 6rem;
+  margin-top: 3.5rem;
 `
 
 export interface PopularBlogPostsProps {}

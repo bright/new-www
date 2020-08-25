@@ -22,7 +22,7 @@ const ServiceBoxIcon = styled.div`
 
 const ServiceBoxTitle = styled.div`
   text-align: center;
-  font-family: titling-gothic-fb, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.2rem;

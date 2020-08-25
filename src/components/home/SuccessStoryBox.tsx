@@ -12,7 +12,7 @@ const Container = styled.div`
 
 const Title = styled.h3`
   text-align: center;
-  font-family: titling-gothic-fb, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   color: black;
 `

@@ -23,7 +23,7 @@ const Image = styled.figure`
 
 const PopularBlogPostBoxContainer = styled.div`
   width: 100%;
-  height: 500px;
+  height: 520px;
   border: 1px solid #d3d3d3;
   margin-bottom: 1em !important;
   @media (max-width: 480px) {
@@ -50,8 +50,11 @@ const TagsContainer = styled.div`
 
 const Title = styled.div`
   margin: 1em 0;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
-  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  /* letter-spacing: 1px; */
 `
 
 export interface PopularBlogPostBoxProps {
