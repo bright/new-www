@@ -1,6 +1,15 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 
+const NavContainer = styled.nav`
+  @media (min-width: 1024px, max-width: 1440px) {
+    font-size: 12px;
+  }
+  @media (min-width: 1440px) {
+    padding: 0 2em;
+  }
+`
+
 const NavbarStart = styled.div`
   flex: 1;
 `
@@ -22,7 +31,7 @@ export const TopNavigation = () => {
   const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <nav
+    <NavContainer
       className="navbar is-fixed-top"
       role="navigation"
       aria-label="main navigation"
@@ -85,6 +94,6 @@ export const TopNavigation = () => {
           </div>
         </div>
       </div>
-    </nav>
+    </NavContainer>
   )
 }

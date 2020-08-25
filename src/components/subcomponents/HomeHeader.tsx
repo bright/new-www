@@ -42,6 +42,7 @@ const HomeHeader = () => {
           frontmatter: { layout: { eq: "project" }, published: { ne: false } }
         }
         limit: 6
+        sort: { order: ASC, fields: frontmatter___order }
       ) {
         edges {
           node {
@@ -64,7 +65,10 @@ const HomeHeader = () => {
         <div className="container">
           <div className="columns">
             <div className="column">
-              <h1 className="title mt-6 is-size-1">
+              <h1 className="title mt-6 is-hidden-mobile">
+                let's create software that <span>matters</span>
+              </h1>
+              <h1 className="title mt-6 is-size-1 is-hidden-tablet">
                 let's create software that <span>matters</span>
               </h1>
             </div>

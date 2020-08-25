@@ -1,7 +1,13 @@
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Button, Section, SectionTitle } from "../shared"
 import SuccessStoryBox from "./SuccessStoryBox"
+import styled from "styled-components"
+
+const ButtonContainer = styled.div`
+  margin-top: 2em;
+  margin-bottom: 4em;
+`
 
 const SuccessStories: React.FC = () => {
   const query = useStaticQuery(graphql`
@@ -11,6 +17,7 @@ const SuccessStories: React.FC = () => {
           frontmatter: { layout: { eq: "project" }, published: { ne: false } }
         }
         limit: 6
+        sort: { order: ASC, fields: frontmatter___order }
       ) {
         edges {
           node {
@@ -43,9 +50,9 @@ const SuccessStories: React.FC = () => {
             <SuccessStoryBox title={post.title} image={post.image} />
           </div>
         ))}
-        <div className="column is-full has-text-centered">
+        <ButtonContainer className="column is-full has-text-centered">
           <Button>view more</Button>
-        </div>
+        </ButtonContainer>
       </div>
     </Section>
   )

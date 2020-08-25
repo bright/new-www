@@ -14,7 +14,9 @@ import TwitterIconBlack from "../../assets/twitter_black.svg"
 const IconsContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-right: 1em;
+  &.padded-right {
+    padding-right: 4em;
+  }
   a {
     /* margin-right: 1em; */
     display: inline-block;
@@ -28,9 +30,10 @@ const IconsContainer = styled.div`
 `
 export const SocialIcons: React.FC<{
   blackIcons?: boolean
-}> = ({ blackIcons }) => {
+  className?: string
+}> = ({ blackIcons, className }) => {
   return (
-    <IconsContainer className="column is-12">
+    <IconsContainer className={"column is-12 " + className}>
       <a className="is-link" href="https://www.facebook.com/Bright.Inventions/">
         <figure className="image is-24x24">
           {blackIcons ? <FacebookIconBlack /> : <FacebookIcon />}

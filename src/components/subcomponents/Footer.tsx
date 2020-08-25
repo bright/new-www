@@ -44,7 +44,11 @@ const LinkContainer = styled.div`
     p {
       color: #fff;
       opacity: 75%;
+      font-size: 14px;
     }
+  }
+  h6 {
+    margin-left: 1em;
   }
 `
 
@@ -57,6 +61,7 @@ const IconHolder = styled.div`
     margin-left: 1em;
     color: #fff;
     opacity: 75%;
+    font-size: 14px;
     a {
       color: #fff;
     }
@@ -78,7 +83,7 @@ export const Footer = () => {
                 <LogoWhite style={{ width: "180px" }} />
               </a>
             </LogoContainer>
-            <SocialIcons />
+            <SocialIcons className="padded-right" />
             {/* 
             <div
               className="clutch-widget content"
@@ -101,35 +106,9 @@ export const Footer = () => {
           </div> */}
 
           <LinkContainer className="column is-hidden-mobile">
-            <h5 className="subtitle is-size-5 has-text-weight-bold">
-              services
-            </h5>
-            <p className="content">
-              <a className="" href="/what-we-offer">
-                web development
-              </a>
-            </p>
-            <p className="content">
-              <a className="" href="/what-we-offer">
-                mobile development
-              </a>
-            </p>
-            <p className="content">
-              <a className="" href="/what-we-offer">
-                consulting services
-              </a>
-            </p>
-            <p className="content">
-              <a className="" href="/what-we-offer">
-                UX/UI design
-              </a>
-            </p>
-          </LinkContainer>
-
-          <LinkContainer className="column is-hidden-mobile">
-            <h5 className="subtitle is-size-5 has-text-weight-bold">
-              success stories
-            </h5>
+            <h6 className="subtitle is-size-6 has-text-weight-bold">
+              explore more
+            </h6>
             <p className="content">
               <a className="" href="/about-us">
                 about us
@@ -157,10 +136,36 @@ export const Footer = () => {
             </p>
           </LinkContainer>
 
+          <LinkContainer className="column is-hidden-mobile">
+            <h6 className="subtitle is-size-6 has-text-weight-bold">
+              services
+            </h6>
+            <p className="content">
+              <a className="" href="/what-we-offer">
+                web development
+              </a>
+            </p>
+            <p className="content">
+              <a className="" href="/what-we-offer">
+                mobile development
+              </a>
+            </p>
+            <p className="content">
+              <a className="" href="/what-we-offer">
+                consulting services
+              </a>
+            </p>
+            <p className="content">
+              <a className="" href="/what-we-offer">
+                UX/UI design
+              </a>
+            </p>
+          </LinkContainer>
+
           <LinkContainer className="column">
-            <h5 className="subtitle is-size-5 has-text-weight-bold is-hidden-mobile">
+            <h6 className="subtitle is-size-6 has-text-weight-bold is-hidden-mobile">
               contact
-            </h5>
+            </h6>
             <IconHolder>
               <div className="left">
                 <LocationIcon />

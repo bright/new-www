@@ -4,6 +4,11 @@ import styled from "styled-components"
 import BackArrowWhite from "../../assets/backArrowWhite.svg"
 import NextArrowWhite from "../../assets/nextArrowWhite.svg"
 
+const CarouselBackground = styled.div`
+  background: black;
+  color: white;
+`
+
 const CarouselContainer = styled.div`
   background: black;
   color: white;
@@ -68,65 +73,73 @@ const ArrowWhite = styled(Arrow)`
   top: calc(50% - 30px);
 `
 
+const CarouselText = styled.p`
+  padding: 0 2em;
+`
+
 const Ratings = () => {
   return (
-    <CarouselContainer>
-      <CarouselTitle>rating 4,9 on Clutch</CarouselTitle>
-      <CarouselBlack
-        className="carousel"
-        showStatus={false}
-        infiniteLoop
-        renderIndicator={(onClickHandler, isSelected) => {
-          if (isSelected) {
-            return <IndicatorActive className="white">&#x2022;</IndicatorActive>
-          }
-          return (
-            <IndicatorInactive className="white" onClick={onClickHandler}>
-              &#x2022;
-            </IndicatorInactive>
-          )
-        }}
-        renderArrowPrev={onClickHandler => (
-          <ArrowWhite style={{ left: 15 }}>
-            <BackArrowWhite onClick={onClickHandler} />
-          </ArrowWhite>
-        )}
-        renderArrowNext={onClickHandler => (
-          <ArrowWhite style={{ right: 15 }}>
-            <NextArrowWhite onClick={onClickHandler} />
-          </ArrowWhite>
-        )}
-      >
-        <div className="carousel-item has-text-centered">
-          <p className="content is-size-4 is-size-7-touch">
-            "(...) they delivered results very fast and were always very
-            flexible. This is good for a startup, since we have feature requests
-            that sometimes come on very short notice."
-          </p>
-          <div className="content author has-text-weight-bold">
-            CTO, Survey Firm, Berlin
+    <CarouselBackground>
+      <CarouselContainer className="container">
+        <CarouselTitle>rating 4,9 on Clutch</CarouselTitle>
+        <CarouselBlack
+          className="carousel"
+          showStatus={false}
+          infiniteLoop
+          renderIndicator={(onClickHandler, isSelected) => {
+            if (isSelected) {
+              return (
+                <IndicatorActive className="white">&#x2022;</IndicatorActive>
+              )
+            }
+            return (
+              <IndicatorInactive className="white" onClick={onClickHandler}>
+                &#x2022;
+              </IndicatorInactive>
+            )
+          }}
+          renderArrowPrev={onClickHandler => (
+            <ArrowWhite style={{ left: 15 }}>
+              <BackArrowWhite onClick={onClickHandler} />
+            </ArrowWhite>
+          )}
+          renderArrowNext={onClickHandler => (
+            <ArrowWhite style={{ right: 15 }}>
+              <NextArrowWhite onClick={onClickHandler} />
+            </ArrowWhite>
+          )}
+        >
+          <div className="carousel-item has-text-centered">
+            <CarouselText className="content is-size-4 is-size-7-touch px-6">
+              "(...) they delivered results very fast and were always very
+              flexible. This is good for a startup, since we have feature
+              requests that sometimes come on very short notice."
+            </CarouselText>
+            <div className="content author has-text-weight-bold">
+              CTO, Survey Firm, Berlin
+            </div>
           </div>
-        </div>
-        <div className="carousel-item has-text-centered">
-          <p className="content is-size-4 is-size-7-touch mb-6">
-            "Besides being extremely proficient in their field, they care about
-            our business and want us to succeed."
-          </p>
-          <div className="content author has-text-weight-bold">
-            Founder, Retail Management System, London
+          <div className="carousel-item has-text-centered">
+            <CarouselText className="content is-size-4 is-size-7-touch mb-6">
+              "Besides being extremely proficient in their field, they care
+              about our business and want us to succeed."
+            </CarouselText>
+            <div className="content author has-text-weight-bold">
+              Founder, Retail Management System, London
+            </div>
           </div>
-        </div>
-        <div className="carousel-item has-text-centered">
-          <p className="content is-size-4 is-size-7-touch mb-6">
-            "They actually care a lot about the design. You had to be almost
-            perfect, and that was fine with us."
-          </p>
-          <div className="content author has-text-weight-bold ">
-            Co-founder, Everytap, Poland
+          <div className="carousel-item has-text-centered">
+            <CarouselText className="content is-size-4 is-size-7-touch mb-6">
+              "They actually care a lot about the design. You had to be almost
+              perfect, and that was fine with us."
+            </CarouselText>
+            <div className="content author has-text-weight-bold ">
+              Co-founder, Everytap, Poland
+            </div>
           </div>
-        </div>
-      </CarouselBlack>
-    </CarouselContainer>
+        </CarouselBlack>
+      </CarouselContainer>
+    </CarouselBackground>
   )
 }
 

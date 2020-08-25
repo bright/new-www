@@ -21,6 +21,9 @@
 .success-stories {
   .hero-body {
     padding-bottom: 6em;
+    @media (max-width: 768px) {
+      padding-bottom: 0;
+    }
   }
 }
 

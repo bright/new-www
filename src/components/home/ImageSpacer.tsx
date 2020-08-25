@@ -33,10 +33,10 @@ const Image = styled.img`
 `
 
 const images = [
-  "images/bright_team.JPG",
-  "images/b-88Light.jpg",
-  "images/bright_rules.jpg",
-  "images/team_small.jpg",
+  "images/imagespacer/1.png",
+  "images/imagespacer/2.png",
+  "images/imagespacer/3.png",
+  "images/imagespacer/4.png",
   // "images/ula_with_andrzej.jpg"3
 ]
 

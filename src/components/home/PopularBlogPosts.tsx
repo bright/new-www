@@ -66,9 +66,7 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
 
   return (
     <Section>
-      <SectionTitle className="is-size-3">
-        here’s what’s new on our blog
-      </SectionTitle>
+      <SectionTitle className="is-size-3">what’s new on our blog</SectionTitle>
       <div className="columns is-multiline is-12">
         {posts.map(({ post }) => {
           const { author } = authors.find(
@@ -85,6 +83,7 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
                 image={post.frontmatter.image}
                 readTime={post.timeToRead}
                 url={post.fields.slug}
+                title={post.frontmatter.title}
                 key={"post" + post.frontmatter.title}
               >
                 {post.id}
