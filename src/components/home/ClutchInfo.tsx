@@ -4,10 +4,16 @@ import styled from "styled-components"
 const ClutchContainer = styled.div`
   padding: 3rem 0rem;
   display: flex;
+  justify-content: center;
 `
 
 const ClutchItem = styled.div`
-  height: 100px;
+  height: 128px;
+
+  @media (max-width: 768px) {
+    height: 100px;
+  }
+
   img {
     height: 100%;
     width: 100%;
@@ -19,7 +25,6 @@ export interface ClutchInfoProps {}
 
 const ClutchInfo: FC<ClutchInfoProps> = props => {
   return (
-    // <div className="container">
     <ClutchContainer>
       <ClutchItem>
         <img src="/images/clutch/Poland_B2B_Companies_2019.png" />
@@ -37,7 +42,6 @@ const ClutchInfo: FC<ClutchInfoProps> = props => {
         <img src="/images/clutch/appfutura-badge.png" />
       </ClutchItem>
     </ClutchContainer>
-    // </div>
   )
 }
 

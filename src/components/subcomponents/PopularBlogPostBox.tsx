@@ -9,10 +9,11 @@ const DetailsContainer = styled.div`
 
 const Image = styled.figure`
   height: 300px;
+  border-bottom: 1px solid #d3d3d3;
+
   @media (max-width: 480px) {
     height: 200px;
   }
-  border-bottom: 1px solid #d3d3d3;
   img {
     height: 100%;
     width: 100%;
@@ -26,7 +27,7 @@ const PopularBlogPostBoxContainer = styled.div`
   border: 1px solid #d3d3d3;
   margin-bottom: 1em !important;
   @media (max-width: 480px) {
-    height: 450px;
+    height: auto;
   }
 
   &:hover {
