@@ -26,7 +26,6 @@ const SuccessStories: React.FC = () => {
       }
     }
   `)
-  console.log(query)
   const posts: Array<{
     image: string
     layout: string
@@ -40,7 +39,7 @@ const SuccessStories: React.FC = () => {
       <SectionTitle className="is-size-3">success stories</SectionTitle>
       <div className="columns is-multiline">
         {posts.map(post => (
-          <div className="column is-6">
+          <div className="column is-6" key={"post" + post.title}>
             <SuccessStoryBox title={post.title} image={post.image} />
           </div>
         ))}

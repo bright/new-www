@@ -74,9 +74,8 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
           const { author } = authors.find(
             ({ author }) => author.author_id === post.frontmatter.author
           )
-          console.log(author)
           return (
-            <div className="column is-6">
+            <div className="column is-6" key={post.frontmatter.title}>
               <PopularBlogPostBox
                 author={author.name}
                 authorId={author.author_id}

@@ -9,7 +9,7 @@ export interface ClutchInfoProps {}
 const ClutchInfo: FC<ClutchInfoProps> = props => {
   return (
     <Section>
-      <ClutchContainer className="columns">
+      <ClutchContainer className="columns is-mobile">
         <div className="column">
           <img src="/images/clutch/Poland_B2B_Companies_2019.png" />
         </div>
@@ -19,10 +19,10 @@ const ClutchInfo: FC<ClutchInfoProps> = props => {
         <div className="column">
           <img src="/images/clutch/Developers_Poland_2018.png" />
         </div>
-        <div className="column">
+        <div className="column is-hidden-mobile">
           <img src="/images/clutch/Web_Developers_Poland_2018.png" />
         </div>
-        <div className="column">
+        <div className="column is-hidden-mobile">
           <img src="/images/clutch/appfutura-badge.png" />
         </div>
       </ClutchContainer>

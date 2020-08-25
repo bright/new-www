@@ -10,7 +10,7 @@ const IconsContainerPadding = styled.div`
 
 export const SocialIconsSpaced = () => {
   return (
-    <IconsContainerPadding>
+    <IconsContainerPadding className="is-hidden-tablet">
       <SocialIcons blackIcons={true} />
     </IconsContainerPadding>
   )

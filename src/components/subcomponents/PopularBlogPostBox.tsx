@@ -9,6 +9,9 @@ const PopularBlogPostBoxContainer = styled.div`
   border: 1px solid #d3d3d3;
   padding: 1em;
   margin-bottom: 1em !important;
+  @media (max-width: 480px) {
+    height: 400px;
+  }
 `
 
 const Tag = styled.div`
@@ -43,7 +46,6 @@ export interface PopularBlogPostBoxProps {
 }
 
 const PopularBlogPostBox: FC<PopularBlogPostBoxProps> = props => {
-  console.log(props)
   return (
     <PopularBlogPostBoxContainer className="columns is-multiline">
       <div className="column is-half">
@@ -70,7 +72,7 @@ const PopularBlogPostBox: FC<PopularBlogPostBoxProps> = props => {
       <div className="column is-half has-text-right">{props.readTime} mins</div>
       <div className="column is-full">
         {props.tags.map(tag => (
-          <Tag>{tag}</Tag>
+          <Tag key={tag + Math.random()}>{tag}</Tag>
         ))}
       </div>
       <Link to={props.url}>

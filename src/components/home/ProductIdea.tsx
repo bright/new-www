@@ -10,7 +10,7 @@ export interface ProductIdeaProps {}
 
 const ProductIdea: FC<ProductIdeaProps> = props => {
   return (
-    <Section className="has-background-primary has-text-centered columns">
+    <Section className="has-background-primary has-text-centered ">
       <SectionTitle className="is-size-3">
         let’s talk about your product idea
       </SectionTitle>

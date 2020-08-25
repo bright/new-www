@@ -26,18 +26,11 @@ const IconsContainer = styled.div`
     }
   }
 `
-
-const IconsContainerPadding = styled.div`
-  padding: 0 2em;
-  color: black;
-  fill: black;
-`
-
 export const SocialIcons: React.FC<{
   blackIcons?: boolean
 }> = ({ blackIcons }) => {
   return (
-    <IconsContainer className="column">
+    <IconsContainer className="column is-12">
       <a className="is-link" href="https://www.facebook.com/Bright.Inventions/">
         <figure className="image is-24x24">
           {blackIcons ? <FacebookIconBlack /> : <FacebookIcon />}

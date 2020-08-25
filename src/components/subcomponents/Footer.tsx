@@ -3,24 +3,32 @@ import styled from "styled-components"
 import EmailIcon from "../../assets/email_white.svg"
 import LocationIcon from "../../assets/location_white.svg"
 import LogoWhite from "../../assets/logo_white_2.svg"
-import { SocialIconsSpaced } from "./SocialIconsSpaced"
+import { SocialIcons } from "./SocialIcons"
+
+const FooterContainer = styled.footer`
+  padding: 0;
+`
 
 const TopFooter = styled.div`
   /* margin-bottom: 5em; */
   padding: 3em 5em 4em;
   font-size: 16px;
+  @media (max-width: 480px) {
+    padding: 3em 1.5em 4em;
+  }
 `
 
 const BottomFooter = styled.div`
-  width: calc(100% + 3rem);
+  width: calc(100%);
   background: white;
   color: black;
-  margin: 0 -1.5rem -6rem;
-  height: 150px;
+  /* margin: 0 -1.5rem -6rem; */
+  min-height: 150px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2em 3em;
   a {
     display: block;
     color: #000;
@@ -40,18 +48,37 @@ const LinkContainer = styled.div`
   }
 `
 
+const IconHolder = styled.div`
+  display: flex;
+  margin-bottom: 2em;
+  padding: 0 0.75em;
+  align-items: center;
+  .right {
+    margin-left: 1em;
+    color: #fff;
+    opacity: 75%;
+    a {
+      color: #fff;
+    }
+  }
+`
+
+const LogoContainer = styled.figure`
+  padding: 0 0.75em;
+`
+
 export const Footer = () => {
   return (
-    <footer className="footer">
+    <FooterContainer className="footer">
       <TopFooter>
         <div className="columns">
           <div className="column">
-            <figure className="content image is-64x64">
+            <LogoContainer className="content image">
               <a href="/">
                 <LogoWhite style={{ width: "180px" }} />
               </a>
-            </figure>
-            <SocialIconsSpaced />
+            </LogoContainer>
+            <SocialIcons />
             {/* 
             <div
               className="clutch-widget content"
@@ -130,33 +157,29 @@ export const Footer = () => {
             </p>
           </LinkContainer>
 
-          <LinkContainer className="column is-hidden-mobile">
-            <h5 className="subtitle is-size-5 has-text-weight-bold">contact</h5>
-            <address className="level content">
-              <div className="level-left ">
-                <span className="icon">
-                  <LocationIcon />
-                </span>
-                <div className="content">
-                  <p>
-                    ul. Jana Matejki 12, <br />
-                    80-232 Gdańsk
-                  </p>
-                </div>
+          <LinkContainer className="column">
+            <h5 className="subtitle is-size-5 has-text-weight-bold is-hidden-mobile">
+              contact
+            </h5>
+            <IconHolder>
+              <div className="left">
+                <LocationIcon />
               </div>
-            </address>
-            <div className="content level">
-              <div className="level-left">
-                <span className="icon">
-                  <EmailIcon />
-                </span>
-                <div className="content">
-                  <a href="mailto:info@brightinventions.pl?subject=bright%20mail">
-                    info@brightinventions.pl
-                  </a>
-                </div>
+              <div className="right">
+                ul. Jana Matejki 12, <br />
+                80-232 Gdańsk
               </div>
-            </div>
+            </IconHolder>
+            <IconHolder>
+              <div className="left">
+                <EmailIcon />
+              </div>
+              <div className="right">
+                <a href="mailto:info@brightinventions.pl?subject=bright%20mail">
+                  info@brightinventions.pl
+                </a>
+              </div>
+            </IconHolder>
           </LinkContainer>
         </div>
       </TopFooter>
@@ -173,6 +196,6 @@ export const Footer = () => {
           </a>
         </div>
       </BottomFooter>
-    </footer>
+    </FooterContainer>
   )
 }
