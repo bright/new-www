@@ -1,3 +1,4 @@
+import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
@@ -5,7 +6,6 @@ import styled from "styled-components"
 import BackArrow from "../../assets/backArrowBlack.svg"
 import NextArrow from "../../assets/nextArrowBlack.svg"
 import ProjectCard, { ProjectGraphql } from "./ProjectCard"
-import { useStaticQuery, graphql } from "gatsby"
 
 const IndicatorActive = styled.li`
   color: black;
@@ -95,7 +95,7 @@ const HomeHeader = () => {
                     </IndicatorInactive>
                   )
                 }}
-                renderArrowPrev={onClickHandler => 
+                renderArrowPrev={onClickHandler => (
                   <Arrow style={{ left: 15 }}>
                     <BackArrow onClick={onClickHandler} />
                   </Arrow>
