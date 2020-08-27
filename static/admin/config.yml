@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: bright/new-www
-  branch: gh-pages
+  branch: gatsby
   base_url: https://github-auth.brightinventions.pl
 publish_mode: editorial_workflow
 site_url: https://brightinventions.pl/
@@ -10,7 +10,7 @@ media_folder: 'images'
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Blog' # Used in the UI
-    folder: 'src/pages/posts' # The path to the folder where the documents are stored
+    folder: 'src/pages/blog' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -45,7 +45,7 @@ collections:
         }
   - name: 'members' # Used in routes, e.g., /admin/collections/blog
     label: 'Members' # Used in the UI
-    folder: 'src/pages/members' # The path to the folder where the documents are stored
+    folder: 'src/pages/about-us' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: name

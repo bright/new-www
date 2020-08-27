@@ -20,7 +20,7 @@ const Container = styled.div`
 `
 
 const Image = styled.figure`
-  height: 600px;
+  height: 450px;
   margin-bottom: 1em;
 
   img {

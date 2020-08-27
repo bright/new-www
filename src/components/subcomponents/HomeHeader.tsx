@@ -44,10 +44,10 @@ const Arrow = styled.div`
 `
 
 const HomeTitle = styled.h1`
-  margin-top: 1.4em;
+  margin-top: 1.1em;
   margin-bottom: 1em;
-  font-size: 115px;
-  line-height: 115px;
+  font-size: 100px;
+  line-height: 100px;
 `
 
 const HomeTitleMobile = styled(HomeTitle)`

@@ -71,3 +71,5 @@ yarn-error.log
 node_modules
 *.swp
 *.vim
+
+.cache
