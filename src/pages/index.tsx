@@ -23,7 +23,7 @@ const IndexPage = ({
   return (
     <Layout className="page-index">
       <HomeHeader />
-      <SocialIconsSpaced />
+      {/* <SocialIconsSpaced /> */}
       <OurServices />
       <ImageSpacer />
       <SuccessStories />

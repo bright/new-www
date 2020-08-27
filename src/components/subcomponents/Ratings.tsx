@@ -45,6 +45,8 @@ const IndicatorActive = styled.li`
   font-size: 4em;
   display: inline-block;
   margin-top: 2em;
+  position: relative;
+  left: -0.125em;
 
   &.white {
     color: white;

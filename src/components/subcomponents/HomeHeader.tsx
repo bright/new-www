@@ -7,12 +7,23 @@ import BackArrow from "../../assets/backArrowBlack.svg"
 import NextArrow from "../../assets/nextArrowBlack.svg"
 import ProjectCard, { ProjectGraphql } from "./ProjectCard"
 
+const CarouselContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+const StyledCarousel = styled(Carousel)`
+  /* height: 500px; */
+  width: 400px;
+`
+
 const IndicatorActive = styled.li`
   color: black;
   font-size: 4em;
   display: inline-block;
   margin-top: 2em;
-
+  position: relative;
+  left: -0.125em;
   &.white {
     color: white;
   }
@@ -26,7 +37,7 @@ const IndicatorInactive = styled(IndicatorActive)`
 const Arrow = styled.div`
   position: absolute;
   z-index: 2;
-  top: calc(50% - 15px);
+  top: calc(50% - 5.5em);
   cursor: pointer;
   display: inline-block;
   margin: 0 -1em;
@@ -64,24 +75,31 @@ const HomeHeader = () => {
       <div className="hero-body">
         <div className="container">
           <div className="columns">
-            <div className="column">
-              <h1 className="title mt-6 is-hidden-mobile">
-                let's create software that <span>matters</span>
-              </h1>
-              <h1 className="title mt-6 is-size-1 is-hidden-tablet">
+            <div className="column is-hidden-mobile">
+              <h1 className="title mt-6">
                 let's create software that <span>matters</span>
               </h1>
             </div>
             <div className="column is-hidden-tablet">
+              <h1 className="title mt-6 is-size-1">
+                let's create software that <span>matters</span>
+              </h1>
+            </div>
+            <div className="column is-hidden-tablet">
+              Through mobile apps and complex backend systems to emerging
+              technology solutions we are creating success stories for startups,
+              consultancy agencies as well as mid-size organisations
+            </div>
+            <div className="column is-hidden-tablet">
               <div className="buttons">
                 <a className="button estimate is-primary" href="/start-project">
-                  <strong>estimate project</strong>
+                  <strong>let's talk</strong>
                 </a>
               </div>
             </div>
 
-            <div className="column is-two-fifths is-hidden-mobile">
-              <Carousel
+            <CarouselContainer className="column is-two-fifths is-hidden-mobile has-text-centered">
+              <StyledCarousel
                 showStatus={false}
                 showThumbs={false}
                 infiniteLoop
@@ -116,8 +134,8 @@ const HomeHeader = () => {
                     />
                   </div>
                 ))}
-              </Carousel>
-            </div>
+              </StyledCarousel>
+            </CarouselContainer>
           </div>
         </div>
       </div>
