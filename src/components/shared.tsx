@@ -43,6 +43,7 @@ export const SectionTitle = styled.h3`
   letter-spacing: 0px;
   color: #000000;
   text-align: center;
+  margin-top: 2em;
   margin-bottom: 2em;
 `
 

@@ -9,6 +9,7 @@ import { Button, ButtonContainer, Section, SectionTitle } from "../shared"
 import ServiceBox from "./ServiceBox"
 
 const SectionTitleNarrow = styled(SectionTitle)`
+  margin-top: 0;
   margin-bottom: 0;
 `
 

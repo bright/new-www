@@ -5,6 +5,7 @@ import BackButton from "../components/subcomponents/BackButton"
 import DateFormatter from "../components/subcomponents/Date"
 import DisqusComments from "../components/subcomponents/DisqusComments"
 import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
+import { getFileNameOnly } from "../helpers/pathHelpers"
 
 export default function Template(props: {
   data: {
@@ -22,6 +23,7 @@ export default function Template(props: {
         image: string
       }
       timeToRead: number
+      fileAbsolutePath: string
     }
     allMarkdownRemark: {
       nodes: Array<{
@@ -96,7 +98,10 @@ export default function Template(props: {
                   &nbsp;
                   <a
                     className="has-text-grey-light"
-                    href="/admin/#/collections/blog/entries/{ entry_path }"
+                    href={
+                      "/admin/#/collections/blog/entries/" +
+                      getFileNameOnly(markdownRemark.fileAbsolutePath)
+                    }
                   >
                     Edit
                   </a>
@@ -179,6 +184,7 @@ export const pageQuery = graphql`
         image
       }
       timeToRead
+      fileAbsolutePath
     }
     allMarkdownRemark(filter: { frontmatter: { author_id: { ne: null } } }) {
       nodes {
