@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import DateFormatter from "./Date"
+import { deleteTimestampFromUrl } from "../../helpers/pathHelpers"
 
 const DetailsContainer = styled.div`
   padding: 2em;
@@ -72,7 +73,7 @@ export interface PopularBlogPostBoxProps {
 const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
   return (
     <PopularBlogPostBoxContainer>
-      <Link to={props.url}>
+      <Link to={deleteTimestampFromUrl(props.url)}>
         <Image className="image">
           <img src={props.image} />
         </Image>

@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
 import "../styles/_blog.scss"
+import { deleteTimestampFromUrl } from "../helpers/pathHelpers"
 
 interface PageContext {
   currentPage: 2
@@ -37,7 +38,10 @@ const BlogPage: React.FC<{
               excerpt: node.excerpt,
             }
             return (
-              <a href={post.slug} className="blog-post-list-item">
+              <a
+                href={deleteTimestampFromUrl(post.slug)}
+                className="blog-post-list-item"
+              >
                 <div className="card">
                   <div className="card-content">
                     <div className="level is-hidden-tablet">

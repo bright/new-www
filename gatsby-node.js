@@ -70,7 +70,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       return
     }
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      const name = node.fileAbsolutePath.split("/").pop().replace(".md", "")
+      const name = node.fileAbsolutePath
+        .split("/")
+        .pop()
+        .replace(".md", "")
+        .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, "")
       createPage({
         path: path + "/" + name,
         component: template,
