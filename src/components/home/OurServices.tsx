@@ -1,15 +1,23 @@
+import { Link } from "gatsby"
 import React from "react"
+import styled from "styled-components"
 import BlockchainIcon from "../../assets/blockchain.svg"
 import MobileAppDevelopmentIcon from "../../assets/mobileAppDevelopment.svg"
 import ProductDesignIcon from "../../assets/productDesign.svg"
 import WebDevelopmentIcon from "../../assets/webDevelopment.svg"
-import { Button, Section, SectionTitle } from "../shared"
+import { Button, ButtonContainer, Section, SectionTitle } from "../shared"
 import ServiceBox from "./ServiceBox"
+
+const SectionTitleNarrow = styled(SectionTitle)`
+  margin-bottom: 0;
+`
 
 const OurServices: React.FC = () => {
   return (
     <Section>
-      <SectionTitle className="is-size-3">our services</SectionTitle>
+      <SectionTitleNarrow className="is-size-3">
+        our services
+      </SectionTitleNarrow>
       <div className="columns is-multiline">
         <div className="column is-half">
           <ServiceBox
@@ -39,9 +47,11 @@ const OurServices: React.FC = () => {
             description="Our team has a vast experience in blockchain projects, including the development of a solution for a global humanitarian organization. Blockchain technology is what we’re really good at!"
           />
         </div>
-        <div className="column is-full has-text-centered">
-          <Button>learn more</Button>
-        </div>
+        <ButtonContainer className="column is-full has-text-centered">
+          <Link to="/what-we-offer">
+            <Button>learn more</Button>
+          </Link>
+        </ButtonContainer>
       </div>
     </Section>
   )

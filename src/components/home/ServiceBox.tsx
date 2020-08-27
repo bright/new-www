@@ -22,13 +22,14 @@ const ServiceBoxIcon = styled.div`
 
 const ServiceBoxTitle = styled.div`
   text-align: center;
-  font-family: Montserrat, sans-serif;
+  font-family: "SuisseIntl Black", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.2rem;
   letter-spacing: 0px;
   color: #000000;
-  margin: 0 0 1em;
+  margin-bottom: 2em;
+  margin-top: 1em;
 `
 
 const ServiceBoxDescription = styled.div`

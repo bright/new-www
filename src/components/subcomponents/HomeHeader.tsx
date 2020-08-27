@@ -37,10 +37,23 @@ const IndicatorInactive = styled(IndicatorActive)`
 const Arrow = styled.div`
   position: absolute;
   z-index: 2;
-  top: calc(50% - 5.5em);
+  top: calc(50% - 3.5em);
   cursor: pointer;
   display: inline-block;
   margin: 0 -1em;
+`
+
+const HomeTitle = styled.h1`
+  margin-top: 1.4em;
+  margin-bottom: 1em;
+  font-size: 115px;
+  line-height: 115px;
+`
+
+const HomeTitleMobile = styled(HomeTitle)`
+  margin-top: 0;
+  font-size: 55px;
+  line-height: 55px;
 `
 
 const HomeHeader = () => {
@@ -76,14 +89,14 @@ const HomeHeader = () => {
         <div className="container">
           <div className="columns">
             <div className="column is-hidden-mobile">
-              <h1 className="title mt-6">
+              <HomeTitle className="title mt-6">
                 let's create software that <span>matters</span>
-              </h1>
+              </HomeTitle>
             </div>
             <div className="column is-hidden-tablet">
-              <h1 className="title mt-6 is-size-1">
+              <HomeTitleMobile className="title mt-6">
                 let's create software that <span>matters</span>
-              </h1>
+              </HomeTitleMobile>
             </div>
             <div className="column is-hidden-tablet">
               Through mobile apps and complex backend systems to emerging

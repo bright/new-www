@@ -2,10 +2,14 @@ import React from "react"
 import styled from "styled-components"
 import variables from "../styles/variables"
 
+export const ButtonContainer = styled.div`
+  /* margin-bottom: 2em; */
+`
+
 export const Button = styled.button`
   border: 1px solid black;
   background: white;
-  font-family: Montserrat, sans-serif;
+  font-family: "SuisseIntl Black", sans-serif;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0px;
@@ -33,9 +37,9 @@ export const ButtonInverted = styled(Button)`
 
 export const SectionTitle = styled.h3`
   text-align: left;
-  font-family: Montserrat, sans-serif;
+  font-family: "SuisseIntl Black";
   font-style: normal;
-  font-weight: 700;
+  font-weight: normal;
   letter-spacing: 0px;
   color: #000000;
   text-align: center;

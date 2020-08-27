@@ -50,7 +50,7 @@ const TagsContainer = styled.div`
 
 const Title = styled.div`
   margin: 1em 0;
-  font-family: Montserrat, sans-serif;
+  font-family: "SuisseIntl Black", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;

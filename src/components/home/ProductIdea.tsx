@@ -1,6 +1,7 @@
+import { Link } from "gatsby"
 import React, { FC } from "react"
-import { Button, Section, SectionTitle } from "../shared"
 import styled from "styled-components"
+import { Button, Section, SectionTitle } from "../shared"
 
 const SectionDescription = styled.div`
   margin-bottom: 4em;
@@ -25,9 +26,11 @@ const ProductIdea: FC<ProductIdeaProps> = props => {
         help take your product to the next level? We’ll be more than happy to
         discuss how we can help your business succeed!
       </SectionDescription>
-      <Button className="has-background-primary hover-white">
-        request a consulatation
-      </Button>
+      <Link to="/start-project">
+        <Button className="has-background-primary hover-white">
+          request a consulatation
+        </Button>
+      </Link>
     </Section>
   )
 }

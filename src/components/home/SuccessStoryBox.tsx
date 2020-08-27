@@ -8,11 +8,15 @@ const Container = styled.div`
   padding: 2em;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
+  }
 `
 
 const Title = styled.h3`
   text-align: center;
-  font-family: Montserrat, sans-serif;
+  font-family: "SuisseIntl Black", sans-serif;
   font-style: normal;
   color: black;
 `
@@ -35,11 +39,12 @@ const Image = styled.figure`
 export interface SuccessStoryBoxProps {
   image: string
   title: string
+  slug: string
 }
 
 const SuccessStoryBox: FC<SuccessStoryBoxProps> = props => {
   return (
-    <Container>
+    <Container onClick={() => (window.location.href = props.slug)}>
       <Title>{props.title}</Title>
       <Image className="image">
         <img src={props.image} />

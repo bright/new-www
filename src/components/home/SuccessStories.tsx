@@ -1,8 +1,8 @@
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
+import styled from "styled-components"
 import { Button, Section, SectionTitle } from "../shared"
 import SuccessStoryBox from "./SuccessStoryBox"
-import styled from "styled-components"
 
 const ButtonContainer = styled.div`
   margin-top: 2em;
@@ -47,11 +47,17 @@ const SuccessStories: React.FC = () => {
       <div className="columns is-multiline">
         {posts.map(post => (
           <div className="column is-6" key={"post" + post.title}>
-            <SuccessStoryBox title={post.title} image={post.image} />
+            <SuccessStoryBox
+              title={post.title}
+              image={post.image}
+              slug={post.slug}
+            />
           </div>
         ))}
         <ButtonContainer className="column is-full has-text-centered">
-          <Button>view more</Button>
+          <Link to="/projects">
+            <Button>view more</Button>
+          </Link>
         </ButtonContainer>
       </div>
     </Section>

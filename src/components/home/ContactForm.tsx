@@ -1,6 +1,15 @@
 import React, { FC, useState } from "react"
-import { Section, SectionTitle, Button } from "../shared"
-import { sendMail, FormType } from "../../helpers/mail"
+import styled from "styled-components"
+import { FormType, sendMail } from "../../helpers/mail"
+import { Button, Section, SectionTitle } from "../shared"
+
+const Form = styled.form`
+  margin-bottom: 2em;
+`
+
+const SpacedButton = styled(Button)`
+  margin-top: 1em;
+`
 
 export interface ContactFormProps {}
 
@@ -41,7 +50,7 @@ const ContactForm: FC<ContactFormProps> = props => {
       <SectionTitle className="is-size-3">get in touch</SectionTitle>
       <div className="columns">
         <div className="column is-6 is-offset-3">
-          <form data-form-type="contact" action="#" onSubmit={onFormSubmit}>
+          <Form data-form-type="contact" action="#" onSubmit={onFormSubmit}>
             <div className="field">
               <div className="control">
                 <input
@@ -98,31 +107,33 @@ const ContactForm: FC<ContactFormProps> = props => {
                   <a
                     href="/privacy-policy"
                     target="_blank"
-                    className="has-text-primary"
+                    className="has-text-black"
                   >
-                    Privacy Policy
+                    <b>
+                      <u>Privacy Policy</u>
+                    </b>
                   </a>
                 </label>
               </div>
             </div>
             <div className="field">
               <div className="control has-text-centered">
-                <Button
+                <SpacedButton
                   type="submit"
                   disabled={!(checkedRules && name && email && message)}
                 >
                   submit
-                </Button>
+                </SpacedButton>
               </div>
             </div>
-          </form>
+          </Form>
           {success && (
-            <div className="has-text-success is-size-4">
+            <div className="is-size-6">
               Thank you! Your submission has been received!
             </div>
           )}
           {error && (
-            <div className="has-text-warning is-size-4">
+            <div className="is-size-6">
               Oops! Something went wrong while submitting the form.
             </div>
           )}

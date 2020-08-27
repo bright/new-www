@@ -5,6 +5,7 @@ const Container = styled.div`
   width: 100vw;
   left: 0%;
   overflow: hidden;
+  margin: 2em 0;
 `
 
 const ImagesContainer = styled.div`

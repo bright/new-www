@@ -30,10 +30,6 @@
 .we-deliver {
   background-color: $white;
   .title {
-    margin-top: 0.75em;
-    margin-bottom: 1em;
-  }
-  .title {
     span {
       color: $primary;
     }
@@ -55,9 +51,9 @@
 
 .hero-body h1 {
   color: $black;
-  font-family: Montserrat, sans-serif;
+  font-family: "SuisseIntl Black";
   font-style: normal;
-  font-weight: 700;
+  font-weight: normal;
 }
 
 .carousel {
@@ -76,9 +72,9 @@
 }
 
 .button.estimate {
-  font-family: Montserrat, sans-serif;
+  font-family: "SuisseIntl Black";
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   color: black;
   width: 100%;
   // letter-spacing: 0.2em;

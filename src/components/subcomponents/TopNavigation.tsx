@@ -27,6 +27,12 @@ const NavbarItem = styled.a`
   }
 `
 
+const EstimateProjectText = styled.strong`
+  font-family: "SuisseIntl Black";
+  font-style: normal;
+  font-weight: normal;
+`
+
 export const TopNavigation = () => {
   const [showMenu, setShowMenu] = useState(false)
 
@@ -88,7 +94,7 @@ export const TopNavigation = () => {
           <div className="navbar-item">
             <div className="buttons">
               <a className="button is-primary" href="/start-project">
-                <strong>estimate project</strong>
+                <EstimateProjectText>estimate project</EstimateProjectText>
               </a>
             </div>
           </div>
