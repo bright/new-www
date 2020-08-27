@@ -1,6 +1,6 @@
-import React from "react"
-import { Disqus, CommentCount } from "gatsby-plugin-disqus"
 import { graphql, useStaticQuery } from "gatsby"
+import { Disqus } from "gatsby-plugin-disqus"
+import React from "react"
 
 const DisqusComments = ({ title }) => {
   const data = useStaticQuery(graphql`
@@ -16,7 +16,10 @@ const DisqusComments = ({ title }) => {
 
   const disqusConfig = {
     identifier: data.site.siteMetadata.disqusShortname,
-    url: `${data.site.siteMetadata.siteUrl + location.pathname}`,
+    url: `${
+      data.site.siteMetadata.siteUrl +
+      (typeof window !== "undefined" && window.location.pathname)
+    }`,
     title: title,
   }
 
