@@ -8,6 +8,16 @@ module.exports = {
     siteUrl: "https://brightinventions.pl/",
   },
   plugins: [
+    // Make sure this plugin is first in the array of plugins
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-29336006-1",
+        // this option places the tracking script into the head of the DOM
+        head: true,
+        // other options
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-typescript",
     "gatsby-plugin-sass",
