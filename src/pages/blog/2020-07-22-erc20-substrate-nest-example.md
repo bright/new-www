@@ -15,7 +15,7 @@ tags:
   - cryptocurrency
 hidden: true
 comments: true
-published: false
+published: true
 ---
 In this blog post I will guide you through the process of implementing an ERC20 token with use of a smart contract on a Substrate node and accessing it from a NestJS application. If you would like to get a basic concept of what blockchain, Substrate or smart contracts are you may check our [previous blog post](https://brightinventions.pl/blog/why-would-you-use-substrate/). NestJS is a framework for building Node.js applications, to get the basics you can visit it's [documentation website](https://docs.nestjs.com/).
 
