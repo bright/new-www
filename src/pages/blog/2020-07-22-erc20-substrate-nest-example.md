@@ -1,12 +1,22 @@
 ---
 layout: post
 title: Develop your own cryptocurrency with Substrate
-author: agnieszka
-hidden: true
+date: 2020-09-01T18:25:43.483Z
 image: /images/erc20-substrate-nest-example/top.png
-tags: ['substrate', 'parity', 'blockchain', 'nest', 'nestjs', 'smart contract', 'erc20', 'cryptocurrency']
+author: agnieszka
+tags:
+  - substrate
+  - parity
+  - blockchain
+  - nest
+  - nestjs
+  - smart contract
+  - erc20
+  - cryptocurrency
+hidden: true
+comments: true
+published: false
 ---
-
 In this blog post I will guide you through the process of implementing an ERC20 token with use of a smart contract on a Substrate node and accessing it from a NestJS application. If you would like to get a basic concept of what blockchain, Substrate or smart contracts are you may check our [previous blog post](https://brightinventions.pl/blog/why-would-you-use-substrate/). NestJS is a framework for building Node.js applications, to get the basics you can visit it's [documentation website](https://docs.nestjs.com/).
 
 You can access the [working project on GitHub](https://github.com/bright/substrate-erc20-nestjs/tree/part1)
@@ -35,19 +45,19 @@ Purge the chain and run it in development mode with the following commands:
 ./target/release/node-template --dev
 ```
 
-To make sure your chain is up and running you can use the [Polkadot JS App](https://polkadot.js.org/apps). To run the app you need a Chromium based browser (other browsers will not allow you to connect to the local node). You can expand the list of available chains by clicking on the Substrate logo in the upper left corner. Choose the *Local Node*.
+To make sure your chain is up and running you can use the [Polkadot JS App](https://polkadot.js.org/apps). To run the app you need a Chromium based browser (other browsers will not allow you to connect to the local node). You can expand the list of available chains by clicking on the Substrate logo in the upper left corner. Expand *DEVELOPMENT* list and choose the *Local Node*.
 
-![](/images/erc20-substrate-nest-example/image7.png)
+![](/static/images/screenshot-2020-09-01-at-20.29.16.png)
 
-To see if the Contracts Pallet was successfully added, check that you have the *Contracts* tab available.
+To see if the Contracts Pallet was successfully added, check that you have the *Contracts -> Developer* page available.
 
-![](/images/erc20-substrate-nest-example/image1.png)
+![](/static/images/screenshot-2020-09-01-at-20.32.02.png)
 
 ## ERC20 token Smart Contract
 
 ERC20 is the Ethereum token standard used for Ethereum Smart Contracts. It defines an interface for a simple cryptocurrency. Users can transfer tokens they own or allow other users to transfer some amount of tokens on their behalf.
 
-To build your own ERC20 token contract you can complete another tutorial available [here](https://substrate.dev/substrate-contracts-workshop/#/). The first part will guide you through the basics of a smart contract creation. The second part is strictly focused on the ERC20 token implementation.
+To build your own ERC20 token contract you can complete another tutorial available [here](https://substrate.dev/substrate-contracts-workshop/#/). The first part will guide you through the basics of smart contract creation. The second part is strictly focused on the ERC20 token implementation.
 
 If you decide to skip this part, you can get the code from the [repository for this tutorial](https://github.com/bright/substrate-erc20-nestjs/tree/part1).
 
@@ -79,11 +89,12 @@ To deploy the contract, check the [*Deploying your contract* chapter from the tu
 
 ## Connecting from NestJS app
 
-Now we are ready to communicate with our smart contract. There are several ways to do this. One obvious way would be to use the [Polkadot JS App](https://polkadot.js.org/apps). This is a great way to play with your contract and explore it. Another way would be to clone the Parity’s [Substrate Front End Template](https://github.com/substrate-developer-hub/substrate-front-end-template) from GitHub, run it and adapt to your needs. We will however connect from NestJS. It would enable us to wrap the calls to the blockchain with some user friendly stuff as well as store any additional descriptive information, which we shouldn’t put on-chain.
+Now we are ready to communicate with our smart contract. There are several ways to do this. One obvious way would be to use the [Polkadot JS App](https://polkadot.js.org/apps). This is a great way to play with your contract and explore it. Another way would be to clone the Parity’s [Substrate Front End Template](https://github.com/substrate-developer-hub/substrate-front-end-template) from GitHub, run it, and adapt to your needs. We will however connect from NestJS. It would enable us to wrap the calls to the blockchain with some user-friendly stuff as well as store any additional descriptive information, which we shouldn’t put on-chain.
 
 Check our previous blog post describing in detail how to [connect to a Substrate node](https://brightinventions.pl/blog/connect-to-substrate-nestjs/) and query it for some basic data. Here is a shortcut.
 
-First of all we need to create a new NestJS project. If you do not have the Nest CLI installed you can check the docs [here](https://docs.nestjs.com/cli/overview) or just install it with a following command:
+First of all, we need to create a new NestJS project. If you do not have the Nest CLI installed you can check the docs [here](https://docs.nestjs.com/cli/overview) or just install it with a following command:
+
 ```shell
 npm install -g @nestjs/cli
 ```
@@ -146,7 +157,7 @@ const SUBSTRATE_URL = 'ws://127.0.0.1:9944';
 const wsProvider = new WsProvider(SUBSTRATE_URL);
 ```
 
-Next we will create the `ApiPromise` object using the web socket provider. We need to declare a class scoped variable:
+Next, we will create the `ApiPromise` object using the web socket provider. We need to declare a class scoped variable:
 
 ```javascript
 private api: ApiPromise;
@@ -165,9 +176,9 @@ this.api = await ApiPromise.create({
     });
 ```
 
-We will now create a `PromiseContract` object from the `api-contract` library. This object is tightly connected with the contract we have created so we need some more information about it. We need the contract address. To get it visit [Polkadot JS App](https://polkadot.js.org/apps). Select *Contracts* from the main menu, then select the *Contracts* tab. Clicking on the image next to the contract name (here it is ERC20.WASM (INSTANCE)) will copy the contract’s address to clipboard.
+We will now create a `PromiseContract` object from the `api-contract` library. This object is tightly connected with the contract we have created so we need some more information about it. We need the contract address. To get it, visit [Polkadot JS App](https://polkadot.js.org/apps). Select *Developer -> Contracts* from the main menu, then select the *Contracts* tab. Clicking on the image next to the contract name (here it is ERC20.WASM (INSTANCE)) will copy the contract’s address to clipboard.
 
-![](/images/erc20-substrate-nest-example/image5.png)
+![](/static/images/screenshot-2020-09-01-at-20.35.53.png)
 
 We can put it in a constant:
 
@@ -188,12 +199,14 @@ Add a property to your `tsconfig.json` file to enable importing JSON files.
 ```
 
 Declare class variables:
+
 ```javascript
 private abi: Abi;
 private apiContract: PromiseContract;
 ```
 
 Instantiate the objects:
+
 ```javascript
 const abiJSONobj = (<any>metadata);
 this.abi = new Abi(this.api.registry, abiJSONobj);
@@ -201,11 +214,13 @@ this.apiContract = new PromiseContract(this.api, this.abi, ERC20);
 ```
 
 We can also wait until we are connected to the node.
+
 ```javascript
 await this.api.isReady;
 ```
 
 What we have done so far should look somehow like the following:
+
 ```javascript
 // src/contract.service.ts
 import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
@@ -254,9 +269,9 @@ call(as: 'rpc', message: string, value: BN | number, gasLimit: BN | number, ...p
 call(as: 'tx', message: string, value: BN | number, gasLimit: BN | number, ...params: any[]): ContractCall<ApiType, 'tx'>;
 ```
 
-* `as` - `tx` string value is used for a transaction call. For a read-only request we can use `rpc`. 
+* `as` - `tx` string value is used for a transaction call. For a read-only request, we can use `rpc`. 
 * `message` - name of the smart contract’s function we want to call.
-* `value` - you can transfer some basic units alongside sending a transansaction, but we will not use it, so the value will always be 0.
+* `value` - you can transfer some basic units alongside sending a transaction, but we will not use it, so the value will always be 0.
 * `gasLimit` - the maximum value of gas this call can charge your account. Every transaction call of a smart contract is in general charged with a gas fee for the computational resources used. With an RPC call, we still need to provide a valid gas limit value, but as nothing is actually stored on-chain, you will not be charged. Previously, you were to define a conversion rate between the gas price and the Substrate currency for the Contracts Pallet (which is also the case for Ethereum smart contracts). Now it is fixed: `1 gas = 1 weight = 1 ps`. `weight` is a unit used in Substrate Runtime development to set the fee for calling the functions and `ps` is one picosecond of execution on the reference system.
 * `params` - parameters to pass to the smart contract’s function we want to call.
 
@@ -282,7 +297,7 @@ async totalSupply() {
   }
 ```
 
-An important note on the gas limit value. When you were initializing the contract with Polkadot JS App, maximum gas limit of 1 000 000 was enough. Here we pass six more zeros. This is because under the hood Polkadot JS App multiplies the value of gas limit by 10^6. Polkadot JS App uses JS `BigNumber` type instead of regular `number`. This is however a topic for another story.
+An important note on the gas limit value. When you were initializing the contract with Polkadot JS App, maximum gas limit of 1 000 000 was enough. Here we pass six more zeros. This is because under the hood Polkadot JS App multiplies the value of gas limit by 10^6.
 
 Now we can create a controller to expose the function. In the `src` directory create a file `balances.controller.ts`. Set the controller route, inject `ContractService` and create a function `totalSupply` decorated with `@Get` which calls the `contractService.totalSupply()` function.
 
@@ -326,7 +341,7 @@ You can now check the result in a browser.
 
 ![](/images/erc20-substrate-nest-example/image4.png)
 
-When I have deployed my smart contract through the Polkadot JS App, I set the init supply to 1 000 000. Each currency value is a decimal stored as an integer with a fixed and known number of decimal places (in Substrate Node Template it is 15 by default). Polkadot JS App wraps that for you in the input field, so that I have indeed initialised the contract with one million of units. However, when querying the smart contract through the Polkadot JS App or using the api we always get the additional 15 decimal zeros.
+When I have deployed my smart contract through the Polkadot JS App, I set the init supply to 1 000 000. Each currency value is a decimal stored as an integer with a fixed and known number of decimal places (in Substrate Node Template it is 15 by default). Polkadot JS App wraps that for you in the input field, so that I have indeed initialized the contract with one million units. However, when querying the smart contract through the Polkadot JS App or using the api we always get the additional 15 decimal zeros.
 
 ## Balance of an account
 
@@ -386,7 +401,7 @@ async transfer(to: string, value: number) {
   }
 ```
 
-As a result of this function we get the extrinsic hash. It is not the block hash, because the transaction was yet only submitted to the transaction query. Extrinsic hash alone is not unique over the chain, so we would prefer to know the block hash. `apiContract.call()` function does not expose a parameter to pass a callback function to observe the events. Therefore we will use a function from the basic polkadot api this time.
+As a result of this function, we get the extrinsic hash. It is not the block hash, because the transaction was yet only submitted to the transaction query. The extrinsic hash alone is not unique over the chain, so we would prefer to know the block hash. `apiContract.call()` function does not expose a parameter to pass a callback function to observe the events. Therefore we will use a function from the basic Polkadot api this time.
 
 ```javascript
 call: AugmentedSubmittable<(dest: LookupSource | Address | AccountId | AccountIndex | string | Uint8Array, value: Compact<BalanceOf> | AnyNumber | Uint8Array, gasLimit: Compact<Gas> | AnyNumber | Uint8Array, data: Bytes | string | Uint8Array) => SubmittableExtrinsic<ApiType>>;
@@ -403,21 +418,22 @@ await this.api.tx.contracts.call(ERC20, 0, 1000000000000, this.abi.messages.tran
 ```
 
 We submit to the result and log it. We will see three events logged: 
+
 * an event upon transaction creation
 * an event with status `InBlock` and a block hash when the transaction is included in a block
 * an event with status `Finalized` when the transaction is finalized.
 
-A finalized transaction does not mean a successful transaction. It only means that processing of a transaction has finished. We can check in [Polkadot JS App](https://polkadot.js.org/apps) if the transaction is successful. Go to *Explorer* section and paste the transaction hash in the upper left corner input `block hash or number to query`.
+A finalized transaction does not mean a successful transaction. It only means that the processing of a transaction has finished. We can check in [Polkadot JS App](https://polkadot.js.org/apps) if the transaction is successful. Go to *Network* -> *Explorer* page and paste the transaction hash in the upper left corner input `block hash or number to query`.
 
-![](/images/erc20-substrate-nest-example/image6.png)
+![](/static/images/screenshot-2020-09-01-at-20.56.18.png)
 
-You can explore the block details
+You can explore the block details.
 
-![](/images/erc20-substrate-nest-example/image3.png)
+![](/static/images/screenshot-2020-09-01-at-20.57.29.png)
 
-On the right side you can see the events emitted by the smart contract. The last one says `ExtrinsicSuccess`, so we know the transaction was successful. You can try to submit a transaction with `gasLimit = 0`. Once the transaction is finalized, view its details. You can see the `ExtrinsicFailed` event.
+On the right side, you can see the events emitted by the smart contract. The last one says `ExtrinsicSuccess`, so we know the transaction was successful. You can try to submit a transaction with `gasLimit = 0`. Once the transaction is finalized, view its details. You can see the `ExtrinsicFailed` event.
 
-![](/images/erc20-substrate-nest-example/image2.png)
+![](/static/images/screenshot-2020-09-01-at-20.58.38.png)
 
 The `contract.service.ts` file should look like this now:
 
@@ -546,7 +562,7 @@ export class BalancesController {
     await this.contractService.transfer(accounts[transferDto.to], transferDto.value);
   }
 }
-``` 
+```
 
 Let's now do some transfers. We can use [Postman](https://www.postman.com/) for this.
 
@@ -555,9 +571,10 @@ We will transfer some units to Bob. As we sign all transactions as Alice, she wi
 ![](/images/erc20-substrate-nest-example/image8.png)
 
 Now let's check again the balances (I omit the decimal zeros here so that the numbers are more readable):
-* total balance (http://localhost:3000/balances)[http://localhost:3000/balances] - should not change and still be 1 000 000
-* Alice's balance (http://localhost:3000/balances/ALICE)[http://localhost:3000/balances/ALICE] - should be reduced by 1 000 to 999000
-* Bob's balance (http://localhost:3000/balances/BOB)[http://localhost:3000/balances/BOB] - should be 1 000.
+
+* total balance (http://localhost:3000/balances)\[http://localhost:3000/balances] - should not change and still be 1 000 000
+* Alice's balance (http://localhost:3000/balances/ALICE)\[http://localhost:3000/balances/ALICE] - should be reduced by 1 000 to 999000
+* Bob's balance (http://localhost:3000/balances/BOB)\[http://localhost:3000/balances/BOB] - should be 1 000.
 
 ## Approval
 
@@ -644,11 +661,11 @@ interface TransferDto {
   }
 ```
 
-We would like to allow Alice to send 200 units on behalf of Bob. Such a transaction should be signed by Bob, but our app does not enable choosing a signer. Let's then switch to [Polkadot JS App](https://polkadot.js.org/apps). Go to *Contracts* page, choose *Contracts* tab and click the *execute* button on the contract. Change the account, so that we will call the contract functions from Bob's account. Choose `approve` as a message to send. Choose Alice as a spender and set the value to 200 (no decimal zeros here!). Click the *Call* button, sign and submit the transaction (make sure that Bob is the signer).
+We would like to allow Alice to send 200 units on behalf of Bob. Such a transaction should be signed by Bob, but our app does not enable choosing a signer. Let's then switch to [Polkadot JS App](https://polkadot.js.org/apps). Go to *Developer* -> *Contracts* page, choose *Contracts* tab and click the *execute* button on the contract. Change the account, so that we will call the contract functions from Bob's account. Choose `approve` as a message to send. Choose Alice as a spender and set the value to 200 (no decimal zeros here!). Click the *Call* button, sign and submit the transaction (make sure that Bob is the signer).
 
 ![](/images/erc20-substrate-nest-example/image10.png)
 
-We can check the allowance in the browser [http://localhost:3000/allowances?owner=BOB&spender=ALICE](http://localhost:3000/allowances?owner=BOB&spender=ALICE) to be 200.
+We can check the allowance in the browser <http://localhost:3000/allowances?owner=BOB&spender=ALICE> to be 200.
 
 Now let's go back to Postman and let Alice make a transfer from Bob's to Charlie's wallet. Remember to add the decimal zeros and to transfer less than the approved value. I decided to transfer 110.
 
@@ -656,16 +673,16 @@ Now let's go back to Postman and let Alice make a transfer from Bob's to Charlie
 
 We can now confirm that:
 
-* [http://localhost:3000/balances/CHARLIE](http://localhost:3000/balances/CHARLIE) - Charlie's balance is 110
-* [http://localhost:3000/balances/ALICE](http://localhost:3000/balances/ALICE) - Alice's balance is still 999000
-* [http://localhost:3000/balances/BOB](http://localhost:3000/balances/BOB) - Bob's balance is reduced by 110 and now it's 890
-* [http://localhost:3000/allowances?owner=BOB&spender=ALICE](http://localhost:3000/allowances?owner=BOB&spender=ALICE) - the approval is also reduced by 110 and now it's 90.
+* <http://localhost:3000/balances/CHARLIE> - Charlie's balance is 110
+* <http://localhost:3000/balances/ALICE> - Alice's balance is still 999000
+* <http://localhost:3000/balances/BOB> - Bob's balance is reduced by 110 and now it's 890
+* <http://localhost:3000/allowances?owner=BOB&spender=ALICE> - the approval is also reduced by 110 and now it's 90.
 
 We can also use our api to allow Bob to transfer 100 units on behalf of Alice. We can create a POST request in Postman at `http://localhost:3000/allowances` url and pass two body parameters: `sender: BOB` and `value: 100000000000000000` (again, we have the 15 decimal zeros).
 
 ![](/images/erc20-substrate-nest-example/image11.png)
 
-We can check the allowance in the browser [http://localhost:3000/allowances?owner=ALICE&spender=BOB](http://localhost:3000/allowances?owner=ALICE&spender=BOB) to be 100. 
+We can check the allowance in the browser <http://localhost:3000/allowances?owner=ALICE&spender=BOB> to be 100. 
 
 We can now let Bob make a transfer of 30 units from Alice's to Dave's wallet using the Polkadot JS App:
 
@@ -673,18 +690,17 @@ We can now let Bob make a transfer of 30 units from Alice's to Dave's wallet usi
 
 We can now confirm that:
 
-* [http://localhost:3000/balances/DAVE](http://localhost:3000/balances/DAVE) - Dave's balance is 30
-* [http://localhost:3000/balances/ALICE](http://localhost:3000/balances/ALICE) - Alice's balance is reduced by 30 and it's 998970
-* [http://localhost:3000/balances/BOB](http://localhost:3000/balances/BOB) - Bob's balance is is still 890
-* [http://localhost:3000/allowances?owner=ALICE&spender=BOB](http://localhost:3000/allowances?owner=ALICE&spender=BOB) - the approval is also reduced by 30 and now it's 70.
-
+* <http://localhost:3000/balances/DAVE> - Dave's balance is 30
+* <http://localhost:3000/balances/ALICE> - Alice's balance is reduced by 30 and it's 998970
+* <http://localhost:3000/balances/BOB> - Bob's balance is is still 890
+* <http://localhost:3000/allowances?owner=ALICE&spender=BOB> - the approval is also reduced by 30 and now it's 70.
 
 ## Summary
 
-We have run a local Substrate node with the Contracts Pallet added. We have implemented an ERC20 token smart contract and deployed it to the Substrate node. Finally we have created a simple NestJS app to interact with the smart contract and tested it.
+We have run a local Substrate node with the Contracts Pallet added. We have implemented an ERC20 token smart contract and deployed it to the Substrate node. Finally, we have created a simple NestJS app to interact with the smart contract and tested it.
 
 ## What's next?
 
 In the next part of this tutorial we will:
-* look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS
-* query the chain from NestJS to get the events emitted by the smart contract and runtime module.
+
+* look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS.
