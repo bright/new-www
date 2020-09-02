@@ -13,7 +13,7 @@ tags:
   - smart contract
   - erc20
   - cryptocurrency
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
