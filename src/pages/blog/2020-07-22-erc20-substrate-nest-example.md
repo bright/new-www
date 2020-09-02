@@ -51,7 +51,7 @@ To make sure your chain is up and running you can use the [Polkadot JS App](http
 
 To see if the Contracts Pallet was successfully added, check that you have the *Contracts -> Developer* page available.
 
-![](/static/images/screenshot-2020-09-01-at-20.32.02.png)
+![](/images/screenshot-2020-09-01-at-20.32.02.png)
 
 ## ERC20 token Smart Contract
 
@@ -178,7 +178,7 @@ this.api = await ApiPromise.create({
 
 We will now create a `PromiseContract` object from the `api-contract` library. This object is tightly connected with the contract we have created so we need some more information about it. We need the contract address. To get it, visit [Polkadot JS App](https://polkadot.js.org/apps). Select *Developer -> Contracts* from the main menu, then select the *Contracts* tab. Clicking on the image next to the contract name (here it is ERC20.WASM (INSTANCE)) will copy the contract’s address to clipboard.
 
-![](/static/images/screenshot-2020-09-01-at-20.35.53.png)
+![](/images/screenshot-2020-09-01-at-20.35.53.png)
 
 We can put it in a constant:
 
@@ -425,15 +425,15 @@ We submit to the result and log it. We will see three events logged:
 
 A finalized transaction does not mean a successful transaction. It only means that the processing of a transaction has finished. We can check in [Polkadot JS App](https://polkadot.js.org/apps) if the transaction is successful. Go to *Network* -> *Explorer* page and paste the transaction hash in the upper left corner input `block hash or number to query`.
 
-![](/static/images/screenshot-2020-09-01-at-20.56.18.png)
+![](/images/screenshot-2020-09-01-at-20.56.18.png)
 
 You can explore the block details.
 
-![](/static/images/screenshot-2020-09-01-at-20.57.29.png)
+![](/images/screenshot-2020-09-01-at-20.57.29.png)
 
 On the right side, you can see the events emitted by the smart contract. The last one says `ExtrinsicSuccess`, so we know the transaction was successful. You can try to submit a transaction with `gasLimit = 0`. Once the transaction is finalized, view its details. You can see the `ExtrinsicFailed` event.
 
-![](/static/images/screenshot-2020-09-01-at-20.58.38.png)
+![](/images/screenshot-2020-09-01-at-20.58.38.png)
 
 The `contract.service.ts` file should look like this now:
 
