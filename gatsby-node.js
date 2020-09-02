@@ -69,14 +69,23 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       reporter.panicOnBuild(`Error while running GraphQL query.`)
       return
     }
+    console.log(result.data.allMarkdownRemark.edges)
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       const name = node.fileAbsolutePath
         .split("/")
         .pop()
         .replace(".md", "")
         .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, "")
+      console.log({
+        path: path + "/" + (node.frontmatter.slug || name),
+        component: template,
+        context: {
+          // additional data can be passed via context
+          fileAbsolutePath: node.fileAbsolutePath,
+        },
+      })
       createPage({
-        path: path + "/" + name,
+        path: path + "/" + (node.frontmatter.slug || name),
         component: template,
         context: {
           // additional data can be passed via context
@@ -100,6 +109,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     `${__dirname}/src/templates/PostTemplate.tsx`
   )
   await preparePage("post", "blog", postTemplate)
+
+  const aboutUsTemplate = require.resolve(
+    `${__dirname}/src/templates/AboutUsTemplate.tsx`
+  )
+  await preparePage("member", "about-us", aboutUsTemplate)
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
