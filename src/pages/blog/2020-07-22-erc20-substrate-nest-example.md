@@ -47,7 +47,7 @@ Purge the chain and run it in development mode with the following commands:
 
 To make sure your chain is up and running you can use the [Polkadot JS App](https://polkadot.js.org/apps). To run the app you need a Chromium based browser (other browsers will not allow you to connect to the local node). You can expand the list of available chains by clicking on the Substrate logo in the upper left corner. Expand *DEVELOPMENT* list and choose the *Local Node*.
 
-![](/static/images/screenshot-2020-09-01-at-20.29.16.png)
+![](/images/screenshot-2020-09-01-at-20.29.16.png)
 
 To see if the Contracts Pallet was successfully added, check that you have the *Contracts -> Developer* page available.
 
