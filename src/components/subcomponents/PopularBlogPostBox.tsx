@@ -24,7 +24,7 @@ const Image = styled.figure`
 
 const PopularBlogPostBoxContainer = styled.div`
   width: 100%;
-  height: 520px;
+  height: 460px;
   border: 1px solid #d3d3d3;
   margin-bottom: 1em !important;
   @media (max-width: 480px) {
@@ -36,17 +36,22 @@ const PopularBlogPostBoxContainer = styled.div`
   }
 `
 
-const Tag = styled.div`
-  display: inline-block;
-  font-size: 12px;
-  background: black;
-  color: white;
-  margin-right: 0.5em;
-  padding: 0.125em 0.5em;
+const DateContainer = styled.div`
+  font-size: 14px;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
 `
 
 const TagsContainer = styled.div`
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
 `
 
 const Title = styled.div`
@@ -54,7 +59,7 @@ const Title = styled.div`
   font-family: "SuisseIntl Black", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   /* letter-spacing: 1px; */
 `
 
@@ -79,14 +84,17 @@ const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
         </Image>
       </Link>
       <DetailsContainer>
-        <TagsContainer>
-          {props.tags.map(tag => (
-            <Tag key={tag + Math.random()}>{tag}</Tag>
-          ))}
-        </TagsContainer>
-        <span className="is-size-7">
-          <DateFormatter date={props.date} />
-        </span>
+        <div className="columns is-mobile is-4 is-variable">
+          <DateContainer className="column is-narrow">
+            <DateFormatter date={props.date} />
+          </DateContainer>
+          <TagsContainer className="column">
+            {props.tags.join(", ")}
+            {/* {props.tags.map(tag => (
+              <Tag key={tag + Math.random()}>{tag}</Tag>
+            ))} */}
+          </TagsContainer>
+        </div>
         <Title>{props.title}</Title>
       </DetailsContainer>
     </PopularBlogPostBoxContainer>
