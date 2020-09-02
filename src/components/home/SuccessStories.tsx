@@ -28,29 +28,37 @@ const SuccessStories: React.FC = () => {
               slug
               published
             }
+            fields {
+              slug
+            }
           }
         }
       }
     }
   `)
   const posts: Array<{
-    image: string
-    layout: string
-    published: boolean | null
-    slug: string
-    title: string
-  }> = query.allMarkdownRemark.edges.map(v => v.node.frontmatter)
-
+    frontmatter: {
+      image: string
+      layout: string
+      published: boolean | null
+      slug: string
+      title: string
+    }
+    fields: {
+      slug
+    }
+  }> = query.allMarkdownRemark.edges.map(v => v.node)
+  console.log(query)
   return (
     <Section>
       <SectionTitle className="is-size-3">success stories</SectionTitle>
       <div className="columns is-multiline">
         {posts.map(post => (
-          <div className="column is-6" key={"post" + post.title}>
+          <div className="column is-6" key={"post" + post.frontmatter.title}>
             <SuccessStoryBox
-              title={post.title}
-              image={post.image}
-              slug={post.slug}
+              title={post.frontmatter.title}
+              image={post.frontmatter.image}
+              slug={post.fields.slug}
             />
           </div>
         ))}

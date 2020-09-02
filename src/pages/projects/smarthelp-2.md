@@ -7,7 +7,7 @@ description: >
   relevant authorities with personal information, exact location, and incident
   details.
 published: true
-slug: "/projects/smarthelp/"
+slug: "smarthelp/"
 homepage: true
 ---
 

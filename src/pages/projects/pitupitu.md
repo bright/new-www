@@ -3,7 +3,7 @@ title: PituPitu
 description: Pitu Pitu is a popular party app that allows users to find best parties in Polish main cities such as Tricity, Warsaw, Cracow, Poznan or Wroclaw. Users can easily locate night shops, public transport, places to eat and sleep. The app has a heavily customized look and feel. We developed both iPhone and Android versions of the app.
 image: /images/pitupitu-main.png
 layout: project
-slug: "/projects/pitupitu/"
+slug: "pitupitu/"
 ---
 
 ## Main features:
