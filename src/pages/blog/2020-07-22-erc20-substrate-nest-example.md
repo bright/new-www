@@ -19,7 +19,7 @@ published: true
 ---
 In this blog post I will guide you through the process of implementing an ERC20 token with use of a smart contract on a Substrate node and accessing it from a NestJS application. If you would like to get a basic concept of what blockchain, Substrate or smart contracts are you may check our [previous blog post](https://brightinventions.pl/blog/why-would-you-use-substrate/). NestJS is a framework for building Node.js applications, to get the basics you can visit it's [documentation website](https://docs.nestjs.com/).
 
-You can access the [working project on GitHub](https://github.com/bright/substrate-erc20-nestjs/tree/part1)
+You can access the [working project on GitHub](https://github.com/bright/substrate-erc20-nestjs/tree/part1).
 
 ## Substrate node
 
@@ -45,7 +45,7 @@ Purge the chain and run it in development mode with the following commands:
 ./target/release/node-template --dev
 ```
 
-To make sure your chain is up and running you can use the [Polkadot JS App](https://polkadot.js.org/apps). To run the app you need a Chromium based browser (other browsers will not allow you to connect to the local node). You can expand the list of available chains by clicking on the Substrate logo in the upper left corner. Expand *DEVELOPMENT* list and choose the *Local Node*.
+To make sure your chain is up and running you can use the [Polkadot JS Apps](https://polkadot.js.org/apps). To run the app you need a Chromium based browser (other browsers will not allow you to connect to the local node). You can expand the list of available chains by clicking on the Substrate logo in the upper left corner. Expand *DEVELOPMENT* list and choose the *Local Node*.
 
 ![](/images/screenshot-2020-09-01-at-20.29.16.png)
 
@@ -89,7 +89,7 @@ To deploy the contract, check the [*Deploying your contract* chapter from the tu
 
 ## Connecting from NestJS app
 
-Now we are ready to communicate with our smart contract. There are several ways to do this. One obvious way would be to use the [Polkadot JS App](https://polkadot.js.org/apps). This is a great way to play with your contract and explore it. Another way would be to clone the Parity’s [Substrate Front End Template](https://github.com/substrate-developer-hub/substrate-front-end-template) from GitHub, run it, and adapt to your needs. We will however connect from NestJS. It would enable us to wrap the calls to the blockchain with some user-friendly stuff as well as store any additional descriptive information, which we shouldn’t put on-chain.
+Now we are ready to communicate with our smart contract. There are several ways to do this. One obvious way would be to use the [Polkadot JS Apps](https://polkadot.js.org/apps). This is a great way to play with your contract and explore it. Another way would be to clone the Parity’s [Substrate Front End Template](https://github.com/substrate-developer-hub/substrate-front-end-template) from GitHub, run it, and adapt to your needs. We will however connect from NestJS. It would enable us to wrap the calls to the blockchain with some user-friendly stuff as well as store any additional descriptive information, which we shouldn’t put on-chain.
 
 Check our previous blog post describing in detail how to [connect to a Substrate node](https://brightinventions.pl/blog/connect-to-substrate-nestjs/) and query it for some basic data. Here is a shortcut.
 
@@ -176,7 +176,7 @@ this.api = await ApiPromise.create({
     });
 ```
 
-We will now create a `PromiseContract` object from the `api-contract` library. This object is tightly connected with the contract we have created so we need some more information about it. We need the contract address. To get it, visit [Polkadot JS App](https://polkadot.js.org/apps). Select *Developer -> Contracts* from the main menu, then select the *Contracts* tab. Clicking on the image next to the contract name (here it is ERC20.WASM (INSTANCE)) will copy the contract’s address to clipboard.
+We will now create a `PromiseContract` object from the `api-contract` library. This object is tightly connected with the contract we have created so we need some more information about it. We need the contract address. To get it, visit [Polkadot JS Apps](https://polkadot.js.org/apps). Select *Developer -> Contracts* from the main menu, then select the *Contracts* tab. Clicking on the image next to the contract name (here it is ERC20.WASM (INSTANCE)) will copy the contract’s address to clipboard.
 
 ![](/images/screenshot-2020-09-01-at-20.35.53.png)
 
@@ -297,7 +297,7 @@ async totalSupply() {
   }
 ```
 
-An important note on the gas limit value. When you were initializing the contract with Polkadot JS App, maximum gas limit of 1 000 000 was enough. Here we pass six more zeros. This is because under the hood Polkadot JS App multiplies the value of gas limit by 10^6.
+An important note on the gas limit value. When you were initializing the contract with Polkadot JS Apps, maximum gas limit of 1 000 000 was enough. Here we pass six more zeros. This is because under the hood Polkadot JS Apps multiplies the value of gas limit by 10^6.
 
 Now we can create a controller to expose the function. In the `src` directory create a file `balances.controller.ts`. Set the controller route, inject `ContractService` and create a function `totalSupply` decorated with `@Get` which calls the `contractService.totalSupply()` function.
 
@@ -341,7 +341,7 @@ You can now check the result in a browser.
 
 ![](/images/erc20-substrate-nest-example/image4.png)
 
-When I have deployed my smart contract through the Polkadot JS App, I set the init supply to 1 000 000. Each currency value is a decimal stored as an integer with a fixed and known number of decimal places (in Substrate Node Template it is 15 by default). Polkadot JS App wraps that for you in the input field, so that I have indeed initialized the contract with one million units. However, when querying the smart contract through the Polkadot JS App or using the api we always get the additional 15 decimal zeros.
+When I have deployed my smart contract through the Polkadot JS Apps, I set the init supply to 1 000 000. Each currency value is a decimal stored as an integer with a fixed and known number of decimal places (in Substrate Node Template it is 15 by default). Polkadot JS Apps wraps that for you in the input field, so that I have indeed initialized the contract with one million units. However, when querying the smart contract through the Polkadot JS Apps or using the api we always get the additional 15 decimal zeros.
 
 ## Balance of an account
 
@@ -423,7 +423,7 @@ We submit to the result and log it. We will see three events logged:
 * an event with status `InBlock` and a block hash when the transaction is included in a block
 * an event with status `Finalized` when the transaction is finalized.
 
-A finalized transaction does not mean a successful transaction. It only means that the processing of a transaction has finished. We can check in [Polkadot JS App](https://polkadot.js.org/apps) if the transaction is successful. Go to *Network* -> *Explorer* page and paste the transaction hash in the upper left corner input `block hash or number to query`.
+A finalized transaction does not mean a successful transaction. It only means that the processing of a transaction has finished. We can check in [Polkadot JS Apps](https://polkadot.js.org/apps) if the transaction is successful. Go to *Network* -> *Explorer* page and paste the transaction hash in the upper left corner input `block hash or number to query`.
 
 ![](/images/screenshot-2020-09-01-at-20.56.18.png)
 
@@ -661,7 +661,7 @@ interface TransferDto {
   }
 ```
 
-We would like to allow Alice to send 200 units on behalf of Bob. Such a transaction should be signed by Bob, but our app does not enable choosing a signer. Let's then switch to [Polkadot JS App](https://polkadot.js.org/apps). Go to *Developer* -> *Contracts* page, choose *Contracts* tab and click the *execute* button on the contract. Change the account, so that we will call the contract functions from Bob's account. Choose `approve` as a message to send. Choose Alice as a spender and set the value to 200 (no decimal zeros here!). Click the *Call* button, sign and submit the transaction (make sure that Bob is the signer).
+We would like to allow Alice to send 200 units on behalf of Bob. Such a transaction should be signed by Bob, but our app does not enable choosing a signer. Let's then switch to [Polkadot JS Apps](https://polkadot.js.org/apps). Go to *Developer* -> *Contracts* page, choose *Contracts* tab and click the *execute* button on the contract. Change the account, so that we will call the contract functions from Bob's account. Choose `approve` as a message to send. Choose Alice as a spender and set the value to 200 (no decimal zeros here!). Click the *Call* button, sign and submit the transaction (make sure that Bob is the signer).
 
 ![](/images/erc20-substrate-nest-example/image10.png)
 
@@ -684,7 +684,7 @@ We can also use our api to allow Bob to transfer 100 units on behalf of Alice. W
 
 We can check the allowance in the browser <http://localhost:3000/allowances?owner=ALICE&spender=BOB> to be 100. 
 
-We can now let Bob make a transfer of 30 units from Alice's to Dave's wallet using the Polkadot JS App:
+We can now let Bob make a transfer of 30 units from Alice's to Dave's wallet using the Polkadot JS Apps:
 
 ![](/images/erc20-substrate-nest-example/image12.png)
 
