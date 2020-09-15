@@ -33,17 +33,17 @@ cargo build --release
 
 We will be using the smart contract from the previous part. You will probably need to *forget* the old smart contract instance and the wasm file in the Polkadot JS Apps (it is no longer available on-chain thus still visible in the UI). Go to *Developer* -> *Contracts* page. In the *Contracts* tab use the bin button next to the contract instance to forget the contract.
 
-![](/images/erc20-substrate-nest-example-part2/image8.png)
+![](/images/cryptocurrency-with-substrate-2-image8.png)
 
 In the *Code* tab use the bin button next to the code hash to forget the code.
 
-![](/images/erc20-substrate-nest-example-part2/image9.png)
+![](/images/cryptocurrency-with-substrate-2-image9.png)
 
 Now you can upload the code again and deploy the smart contract. Don't forget to update the smart contract address in the NestJS app if needed.
 
 ## ERC20 token in Runtime
 
-We will go through the code of the substrate runtime pallet available in [this posts repo](https://github.com/bright/substrate-erc20-nestjs/tree/part2/substrate-node-template/pallets/erc20). We will explore the storage items, dispatchable functions, events and errors. In parts the code is based on the Substrate Runtime cookbook [basic token implementation](https://substrate.dev/recipes/3-entrees/basic-token.html). If you want to get a deeper understanding of developing your own runtime modules I recommend starting off with the [Build a PoE Decentralized Application](https://substrate.dev/docs/en/tutorials/build-a-dapp/). (Substrate Collectables Workshop)[https://www.shawntabrizi.com/substrate-collectables-workshop/#/] is also a great tutorial. Even though it bases on an older version of the Substrate Node Template, it gives a good understanding of Rust and Substrate modules principals.
+We will go through the code of the substrate runtime pallet available in [this posts repo](https://github.com/bright/substrate-erc20-nestjs/tree/part2/substrate-node-template/pallets/erc20). We will explore the storage items, dispatchable functions, events and errors. In parts the code is based on the Substrate Runtime cookbook [basic token implementation](https://substrate.dev/recipes/basic-token.html). If you want to get a deeper understanding of developing your own runtime modules I recommend starting off with the [Build a PoE Decentralized Application](https://substrate.dev/docs/en/tutorials/build-a-dapp/). [Substrate Collectables Workshop](https://www.shawntabrizi.com/substrate-collectables-workshop/#/) is also a great tutorial. Even though it bases on an older version of the Substrate Node Template, it gives a good understanding of Rust and Substrate modules principals.
 
 The code we are going to focus on is placed in an erc20 pallet in the `lib.rs` [file](https://github.com/bright/substrate-erc20-nestjs/blob/part2/substrate-node-template/pallets/erc20/src/lib.rs). The pallet is called `erc20` and this is how we can access it from Polkadot JS API.
 
@@ -73,7 +73,7 @@ With the declared storage items we will be able to query the module for the tota
 
 You can already play with your pallet with [Polkadot JS Apps](https://polkadot.js.org/apps). Go to the *Developer* -> *Chain State* page, *Storage* tab. Select `erc20` pallet in the left dropdown. In the right dropdown, you can now see the getter functions. As we have not initialized the token yet, you will get `false` as a result of `init()` and zeros for the other functions.
 
-![](/images/erc20-substrate-nest-example-part2/image7.png)
+![](/images/cryptocurrency-with-substrate-2-image7.png)
 
 ### Functions
 
@@ -156,31 +156,31 @@ In the very last line of the `init` function, we emit an `Initialized` event wit
 
 Let's now initialize our token. We will use [Polkadot JS Apps](https://polkadot.js.org/apps) to call the function. Go to *Developer* -> *Extrinsics* page. Choose an account to create a token with. Choose the `erc20` and `init(tital_supply)` extrinsic to submit. Fill in the `total_supply` value.
 
-![](/images/erc20-substrate-nest-example-part2/image1.png)
+![](/images/cryptocurrency-with-substrate-2-image1.png)
 
 Sign and submit the transaction. You can see some events showing up in the upper right corner. One of them is the `Initialized` event.
 
-![](/images/erc20-substrate-nest-example-part2/image2.png)
+![](/images/cryptocurrency-with-substrate-2-image2.png)
 
 We can also view the details of the event in the *Network* -> *Explorer* page.
 
-![](/images/erc20-substrate-nest-example-part2/image3.png)
+![](/images/cryptocurrency-with-substrate-2-image3.png)
 
 In the *recent events* block you can see the `erc20.Initialized` event. Just below the name, you can see the description from the comments. When you expand it, you can see the sender account. On the right side of the event, you can see the block number and the extrinsic number, here it is `4-1`. You can click on it and explore the block.
 
-![](/images/erc20-substrate-nest-example-part2/image4.png)
+![](/images/cryptocurrency-with-substrate-2-image4.png)
 
 We can now try to initialize the token once again. As we were expecting, an `AlreadyInitialized` error showed up.
 
-![](/images/erc20-substrate-nest-example-part2/image5.png)
+![](/images/cryptocurrency-with-substrate-2-image5.png)
 
 We can also view the details of the error in the *Network* -> *Explorer* page. It will not however show up in the recent events table, so you need to check the last few blocks manually to find the one with the error.
 
-![](/images/erc20-substrate-nest-example-part2/image6.png)
+![](/images/cryptocurrency-with-substrate-2-image6.png)
 
 You can again see the `type` of the error as the `AlreadyInitialized` we have declared in the code. The `details` field is a description from the comment.
 
-You can now check the values again in the *Chain state* page.
+You can now check the values of `init` and `totalSupply` again in the *Chain state* page.
 
 ## Polkadot JS API
 
@@ -190,6 +190,7 @@ First of all, we will create an interface for an erc20 service which declares al
 
 ```typescript
 // src/erc20.interface.ts
+
 export interface Erc20 {
   totalSupply();
   balanceOf(who: string);
@@ -214,7 +215,6 @@ import metadata from "./metadata.json";
 const SUBSTRATE_URL = 'ws://127.0.0.1:9944'
 export const ERC20 = '5DhP1rd5AEZCeZY77Zttbt293rX6tX4QnqEajEMd5i1QKsnB'
 
-// accounts list to easily intercact with the API
 // accounts list to easily intercact with the API
 export const ACCOUNTS = {
   ALICE: {
@@ -355,6 +355,7 @@ export class RuntimeService implements Erc20 {
 
 ```typescript
 // src/app.module.ts
+
 @Module({
   imports: [],
   controllers: [AppController, BalancesController, AllowancesController],
@@ -367,6 +368,7 @@ To use the new service in the controllers, we will make some changes in them. To
 
 ```typescript
 // src/balances.controller.ts
+
 @Controller(':service/balances')
 export class BalancesController {
   tokenService: Erc20;
@@ -420,9 +422,9 @@ async transfer(sender: string, to: string, value: number) {
 }
 ```
 
-Let's send a PUT request at `http://localhost:3000/contract/balances` to transfer some amount from Alice to Bob and review the logs. 
+Let's send a PUT request at `http://localhost:3000/runtime/balances` to transfer some tokens from Alice to Bob and review the logs. 
 
-![](/images/erc20-substrate-nest-example-part2/image10.png)
+![](/images/cryptocurrency-with-substrate-2-image10.png)
 
 We will see three results: an empty one upon transaction creation, one with `InBlock` status when the transaction was included in a block and one with `Finalized` status when the transaction was finalized and cannot be forked off the chain. The transaction gets finalized even if bussines logic fails (i.e. you try to transfer more funds than you poses). When you look at the second logged message, you can find an `event` object which includes events and errors emitted by the runtime functions.
 
@@ -465,6 +467,7 @@ In the `data` array we have information about the error. The `Module` object has
 * `index` - the index of a module defined in the `Runtime` enum. You can find it in runtime's `lib.rs` file in `construct_runtime` macro:
 ```rust
 // substrate-node-template/runtime/src/lib.rs
+
 construct_runtime!(
 	pub enum Runtime where
 		Block = Block,
@@ -490,6 +493,7 @@ construct_runtime!(
 
 ```rust
 // substrate-node-template/pallets/erc20/src/lib.rs
+
 decl_error! {
     pub enum Error for Module<T: Trait> {
         /// Attempted to initialize the token after it had already been initialized.
@@ -548,6 +552,7 @@ We also need to change the `AllowancesController` to use the `RuntimeService`.
 
 ```typescript
 // src/allowances.controller.ts
+
 @Controller(':token/allowances')
 export class AllowancesController {
   tokenService: Erc20;
@@ -559,11 +564,11 @@ export class AllowancesController {
 
 We can now let Alice approve Charlie to make some transfers on behalf of her.
 
-![](/images/erc20-substrate-nest-example-part2/image11.png)
+![](/images/cryptocurrency-with-substrate-2-image11.png)
 
-If everything goes as it should, Charli can now send some tokens from Alice to Bob.
+If everything goes as it should, Charlie can now send some tokens from Alice to Bob.
 
-![](/images/erc20-substrate-nest-example-part2/image12.png)
+![](/images/cryptocurrency-with-substrate-2-image12.png)
 
 Unfortunately, such a transfer produces `Internal server error `. It should say something like `1010: Invalid Transaction: Inability to pay some fees (e.g. account balance too low)`. It could look like we have some bug and try to transfer tokens from Charlie's account, which is empty for now. However, the reason is a little different. By default, for transaction fees Substrate uses the token from `Balances` pallet. In Polkadot JS Apps you *Accounts* -> *Accounts* page you can see each account's balance represented in the `Balaces` pallet's tokens. When you start a pure chain in development mode Alice and Bob are the only accounts minted with some tokens.
 
@@ -571,6 +576,7 @@ First of all, we need to fix our code to respond gently when an error occurs. Th
 
 ```typescript
 // src/balances.controller.ts
+
 @Put()
   @HttpCode(202)
   async transfer(@Body() transferDto: TransferDto) {
@@ -590,11 +596,11 @@ First of all, we need to fix our code to respond gently when an error occurs. Th
 
 Let's try to send the request again and confirm that we get the `400` response instead of `500`.
 
-![](/images/erc20-substrate-nest-example-part2/image13.png)
+![](/images/cryptocurrency-with-substrate-2-image13.png)
 
 Now we can transfer some basic Substrate tokens from Alice do Charlie, to let him pay a transaction fee. Go to Polkadot JS Apps and choose *Accounts* -> *Accounts* page. Click `send` button in Alice's row and transfer 10 units from Alice do Charlie.
 
-![](/images/erc20-substrate-nest-example-part2/image14.png)
+![](/images/cryptocurrency-with-substrate-2-image14.png)
 
 Charlie can finally send 100 tokens from Alice to Bob. We can check that the approval was reduced by 100 and now it is 100. Charlie can try to transfer another 150 tokens from Alice to Bob. We should receive an event with the `InsufficientApprovedFunds` error.
 
