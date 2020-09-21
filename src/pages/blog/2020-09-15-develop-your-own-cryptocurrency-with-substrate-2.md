@@ -17,13 +17,13 @@ hidden: true
 comments: true
 published: false
 ---
-This is the second part of a series where we are implementing an ERC20 token with Substrate node and accessing it from a NestJS application. The first part is available [here](https://brightinventions.pl/blog/erc20-substrate-nest-example/). In this part, we will have a glimpse of the implementation of the ERC20 token using Substrate Runtime. We will also access it from a NestJS app.
+This is the second part of a series where we are implementing an ERC20 token with a Substrate node and accessing it from a NestJS application. The first part is available [here](https://brightinventions.pl/blog/erc20-substrate-nest-example/). In this part, we will have a glimpse of the implementation of the ERC20 token using Substrate Runtime. We will also access it from a NestJS app.
 
 You can access the [working project on GitHub](https://github.com/bright/substrate-erc20-nestjs/tree/part2)
 
 ## Before we start
 
-Before we start, build the node, purge the chain and run it in development mode.
+Before we start, build the node, purge the chain, and run it in development mode.
 
 ```shell
 cargo build --release
@@ -43,9 +43,9 @@ Now you can upload the code again and deploy the smart contract. Don't forget to
 
 ## ERC20 token in Runtime
 
-We will go through the code of the substrate runtime pallet available in [this posts repo](https://github.com/bright/substrate-erc20-nestjs/tree/part2/substrate-node-template/pallets/erc20). We will explore the storage items, dispatchable functions, events and errors. In parts the code is based on the Substrate Runtime cookbook [basic token implementation](https://substrate.dev/recipes/basic-token.html). If you want to get a deeper understanding of developing your own runtime modules I recommend starting off with the [Build a PoE Decentralized Application](https://substrate.dev/docs/en/tutorials/build-a-dapp/). [Substrate Collectables Workshop](https://www.shawntabrizi.com/substrate-collectables-workshop/#/) is also a great tutorial. Even though it bases on an older version of the Substrate Node Template, it gives a good understanding of Rust and Substrate modules principals.
+We will go through the code of the substrate runtime pallet available in [this posts repo](https://github.com/bright/substrate-erc20-nestjs/tree/part2/substrate-node-template/pallets/erc20). We will explore the storage items, dispatchable functions, events, and errors. In parts, the code is based on the Substrate Runtime cookbook [basic token implementation](https://substrate.dev/recipes/basic-token.html). If you want to get a deeper understanding of developing your own runtime modules I recommend starting off with the [Build a PoE Decentralized Application](https://substrate.dev/docs/en/tutorials/build-a-dapp/). [Substrate Collectables Workshop](https://www.shawntabrizi.com/substrate-collectables-workshop/#/) is also a great tutorial. Even though it bases on an older version of the Substrate Node Template, it gives a good understanding of Rust and Substrate modules principals.
 
-The code we are going to focus on is placed in an erc20 pallet in the `lib.rs` [file](https://github.com/bright/substrate-erc20-nestjs/blob/part2/substrate-node-template/pallets/erc20/src/lib.rs). The pallet is called `erc20` and this is how we can access it from Polkadot JS API.
+The code we are going to focus on is placed in an `erc20` pallet in the `lib.rs` [file](https://github.com/bright/substrate-erc20-nestjs/blob/part2/substrate-node-template/pallets/erc20/src/lib.rs). The pallet is called `erc20` and this is how we can access it from Polkadot JS API.
 
 ### Storage items
 
@@ -69,7 +69,7 @@ Let's break down the `BalanceOf` item declaration.
 * `get(fn balance_of)` - this is a getter function you, as a **developer**, can use inside this module. You can now access the value in two ways: the default one `<BalanceOf<T>>::get(accountId)` and with the getter function `Self::balance_of(accountId)`.
 * `map hasher(blake2_128_concat) T::AccountId => u64` - a storage item can be a simple value or some more complex structure like for example a map. We can also assign some initial value as in the `TotalSupply` item definition: `u64 = 0`.
 
-With the declared storage items we will be able to query the module for the total supply of the token (`TotalSupply`), a balance of any account (`BalanceOf`) and allowance of a pair of accounts (`Allowance`). The `Init` item will tell us if the token is already initialized. 
+With the declared storage items we will be able to query the module for the total supply of the token (`TotalSupply`), a balance of any account (`BalanceOf`), and allowance of a pair of accounts (`Allowance`). The `Init` item will tell us if the token is already initialized. 
 
 You can already play with your pallet with [Polkadot JS Apps](https://polkadot.js.org/apps). Go to the *Developer* -> *Chain State* page, *Storage* tab. Select `erc20` pallet in the left dropdown. In the right dropdown, you can now see the getter functions. As we have not initialized the token yet, you will get `false` as a result of `init()` and zeros for the other functions.
 
@@ -90,7 +90,7 @@ decl_module! {
 }
 ```
 
-As you can see, we have all the functions known from the smart contract implementation: `transfer` for transferring owned tokens, `approve` to allow someone to transfer our tokens and `transfer_from` to transfer tokens on behalf.
+As you can see, we have all the functions known from the smart contract implementation: `transfer` for transferring owned tokens, `approve` to allow someone to transfer our tokens, and `transfer_from` to transfer tokens on behalf.
 
 There is also an additional `init` function, which we will cover in a moment.
 
@@ -113,7 +113,7 @@ decl_event! {
 
 ### Errors
 
-As we said earlier, a transaction can be finalized thus failed. As we are not allowed to panic in a runtime function, we use errors to reflect the failure in a gentle manner. Errors are defined in the `decl_error` macro. Again, you can use the documentation comments to describe the events.
+As we said earlier, a transaction should be finalized thus failed. As, by design, we are not allowed to panic in a runtime function, we use errors to reflect the failure in a gentle manner. Errors are defined in the `decl_error` macro. Again, you can use the documentation comments to describe the events.
 
 ```rust
 decl_error! {
@@ -186,7 +186,7 @@ You can now check the values of `init` and `totalSupply` again in the *Chain sta
 
 Let's now switch to our backend app and try to call some runtime functions. We will start off from where we have finished the last part. We have a service for calling smart contract's functions and two controllers: for balances and approvals. We will create another service and switch between the two services in the controllers.
 
-First of all, we will create an interface for an erc20 service which declares all the functions we need. We will also add a sender to each function, which creates a blockchain transaction (`transfer`, `approve` and `transferFrom`). This will let us choose an account to send and sign a transaction with.
+First of all, we will create an interface for an ERC20 service which declares all the functions we need. We will also add a sender to each function, which creates a blockchain transaction (`transfer`, `approve`, and `transferFrom`). This will let us choose an account to send and sign a transaction with.
 
 ```typescript
 // src/erc20.interface.ts
@@ -391,7 +391,7 @@ Let's now implement the functions in our Runtime service. To implement the `tota
 * `module` - this is the name of the module we want to access, i.e. `erc20` module we have just created.
 * `section` - a function we want to call (always in `camelCase` although in Rust we declared the functions in `snke_case`).
 
-To get the total supply of our token we will use `api.query.erc20.totalSupply()` function, await for the result and return it.
+To get the total supply of our token we will use `api.query.erc20.totalSupply()` function, await for the result, and return it.
 
 ```typescript
 async totalSupply() {
@@ -413,7 +413,7 @@ Run the backend app with `yarn start:dev` command and check the results in the b
 
 ### Transfer tokens
 
-It is time to make a transaction and transfer some tokens. We will use `api.tx.erc20.transfer()` function. We need to pass three parameters: the transaction sender, the receiver and the value. Once the transaction is created we need to sign and send it. To sign the transaction we will use the KeyringPair we have created earlier in the PolkadotApiService. We can also submit to the results to view them.
+It is time to make a transaction and transfer some tokens. We will use `api.tx.erc20.transfer()` function. We need to pass three parameters: the transaction sender, the receiver, and the value. Once the transaction is created we need to sign and send it. To sign the transaction we will use the KeyringPair we have created earlier in the PolkadotApiService. We can also submit to the results to view them.
 
 ```typescript
 async transfer(sender: string, to: string, value: number) {
@@ -426,7 +426,7 @@ Let's send a PUT request at `http://localhost:3000/runtime/balances` to transfer
 
 ![](/images/cryptocurrency-with-substrate-2-image10.png)
 
-We will see three results: an empty one upon transaction creation, one with `InBlock` status when the transaction was included in a block and one with `Finalized` status when the transaction was finalized and cannot be forked off the chain. The transaction gets finalized even if bussines logic fails (i.e. you try to transfer more funds than you poses). When you look at the second logged message, you can find an `event` object which includes events and errors emitted by the runtime functions.
+We will see three results: an empty one upon transaction creation, one with `InBlock` status when the transaction was included in a block, and one with `Finalized` status when the transaction was finalized and cannot be forked off the chain. The transaction gets finalized even if business logic fails (i.e. you try to transfer more funds than you poses). When you look at the second logged message, you can find an `event` object which includes events and errors emitted by the runtime functions.
 
 ```json
 "event": {
@@ -570,9 +570,9 @@ If everything goes as it should, Charlie can now send some tokens from Alice to 
 
 ![](/images/cryptocurrency-with-substrate-2-image12.png)
 
-Unfortunately, such a transfer produces `Internal server error `. It should say something like `1010: Invalid Transaction: Inability to pay some fees (e.g. account balance too low)`. It could look like we have some bug and try to transfer tokens from Charlie's account, which is empty for now. However, the reason is a little different. By default, for transaction fees Substrate uses the token from `Balances` pallet. In Polkadot JS Apps you *Accounts* -> *Accounts* page you can see each account's balance represented in the `Balaces` pallet's tokens. When you start a pure chain in development mode Alice and Bob are the only accounts minted with some tokens.
+Unfortunately, such a transfer produces `Internal server error `. It should say something like `1010: Invalid Transaction: Inability to pay some fees (e.g. account balance too low)`. It could look like we have some bug and try to transfer tokens from Charlie's account, which is empty for now. However, the reason is a little different. By default, for transaction fees Substrate uses the token from `Balances` pallet. In Polkadot JS Apps you *Accounts* -> *Accounts* page you can see each account's balance represented in the `Balances` pallet's tokens. When you start a pure chain in development mode Alice and Bob are the only accounts minted with some tokens.
 
-First of all, we need to fix our code to respond gently when an error occurs. The simples way would be to add a `try-catch` block in the `BalancesController` function for transferring and throw an `HttpException` in the `catch` block.
+First of all, we need to fix our code to respond gently when an error occurs. The simplest way would be to add a `try-catch` block in the `BalancesController` function for transferring and throw an `HttpException` in the `catch` block.
 
 ```typescript
 // src/balances.controller.ts
@@ -606,4 +606,4 @@ Charlie can finally send 100 tokens from Alice to Bob. We can check that the app
 
 ## Summary
 
-In this blog post we have looked through the implementation of Erc20 token in Substrate Runtime module. We have also created a NestJS app that reads data exposed by the module, calls the dispatchable functions and shows the emitted events and errors.
+In this blog post, we have looked through the implementation of the ERC20 token in a Substrate Runtime module. We have also created a NestJS app that reads data exposed by the module, calls the dispatchable functions and shows the emitted events and errors.
