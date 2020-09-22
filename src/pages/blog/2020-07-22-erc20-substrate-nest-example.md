@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Develop your own cryptocurrency with Substrate
+title: Develop your own cryptocurrency with Substrate PART 1
 date: 2020-09-01T18:25:43.483Z
 image: /images/erc20-substrate-nest-example/top.png
 author: agnieszka
