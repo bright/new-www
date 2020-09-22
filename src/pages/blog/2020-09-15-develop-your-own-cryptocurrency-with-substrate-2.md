@@ -13,7 +13,7 @@ tags:
   - erc20
   - cryptocurrency
   - rust
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
