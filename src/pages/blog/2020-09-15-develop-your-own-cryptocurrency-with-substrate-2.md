@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Develop your own cryptocurrency with Substrate 2
+title: Develop your own cryptocurrency with Substrate Part 2
 date: 2020-09-14T18:36:27.941Z
 image: /static/images/cryptocurrency_with_substrate1.png
 author: agnieszka
