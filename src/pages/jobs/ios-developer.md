@@ -5,10 +5,11 @@ hours: Full-time
 salary: 10 000 - 15 000 PLN + VAT (B2B)
 salary_min: 10000
 salary_max: 15000
-order: 2
 redirect_from:
   - /ios-developer
   - /ios-developer/
+published: true
+order: 4
 ---
 We are looking for an experienced passionate iOS Developer to develop and enhance innovative and robust iOS application for one of our main clients. The application is a part of an intelligent point-of-sale application which runs on iPads. The product is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend server, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system. 
 
