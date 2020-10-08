@@ -1,19 +1,20 @@
-import { graphql } from "gatsby"
-import React from "react"
-import "react-responsive-carousel/lib/styles/carousel.min.css"
-import ClutchInfo from "../components/home/ClutchInfo"
-import Cocoaheads from "../components/home/Cocoaheads"
-import ContactForm from "../components/home/ContactForm"
-import ImageSpacer from "../components/home/ImageSpacer"
-import OurServices from "../components/home/OurServices"
-import PopularBlogPosts from "../components/home/PopularBlogPosts"
-import ProductIdea from "../components/home/ProductIdea"
-import SuccessStories from "../components/home/SuccessStories"
-import Layout from "../components/layout"
-import HomeHeader from "../components/subcomponents/HomeHeader"
-import { SocialIconsSpaced } from "../components/subcomponents/SocialIconsSpaced"
-import "../styles/_page-index.scss"
-import Ratings from "../components/subcomponents/Ratings"
+import {graphql} from 'gatsby'
+import React from 'react'
+
+import ClutchInfo from '../components/home/ClutchInfo'
+import Cocoaheads from '../components/home/Cocoaheads'
+import ContactForm from '../components/home/ContactForm'
+import ImageSpacer from '../components/home/ImageSpacer'
+import OurServices from '../components/home/OurServices'
+import PopularBlogPosts from '../components/home/PopularBlogPosts'
+import ProductIdea from '../components/home/ProductIdea'
+import SuccessStories from '../components/home/SuccessStories'
+import {Page} from '../layout/Page'
+import HomeHeader from '../components/subcomponents/HomeHeader'
+import Ratings from '../components/subcomponents/Ratings'
+
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import '../styles/_page-index.scss'
 
 const IndexPage = ({
   data: {
@@ -21,9 +22,8 @@ const IndexPage = ({
   },
 }) => {
   return (
-    <Layout className="page-index">
+    <Page className="page-index">
       <HomeHeader />
-      {/* <SocialIconsSpaced /> */}
       <OurServices />
       <ImageSpacer />
       <SuccessStories />
@@ -33,7 +33,7 @@ const IndexPage = ({
       <PopularBlogPosts />
       <Cocoaheads />
       <ContactForm />
-    </Layout>
+    </Page>
   )
 }
 
