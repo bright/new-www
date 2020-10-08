@@ -1,5 +1,6 @@
 import { graphql } from 'gatsby'
-import React from 'react'
+import React, {useState} from 'react'
+import classNames from 'classnames'
 
 import Layout from '../components/layout'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
@@ -14,6 +15,23 @@ const ProjectsPage = ({
       .map(({ node: { frontmatter } }: {node: {frontmatter: ProjectGraphql}}) => frontmatter)
       .filter((project: ProjectGraphql) => project.published)
 
+  const allTags: string[] = []
+  projects.forEach(project => (project.tags || []).forEach(tag => {
+    if (!allTags.includes(tag)) {
+      allTags.push(tag)
+    }
+  }))
+
+  const [selectedTags, setSelectedTags] = useState<string[]>([])
+
+  const selectTag = (tag: string) => {
+    if (selectedTags.includes(tag)) {
+      setSelectedTags(selectedTags.filter(selectedTag => selectedTag !== tag))
+    } else {
+      setSelectedTags([...selectedTags, tag])
+    }
+  }
+
   return (
     <Layout>
       <HelmetWrapper
@@ -27,6 +45,21 @@ const ProjectsPage = ({
             there are solutions supporting eco-driving, application for
             sportsmen, POS cash register, system supporting answering calls to
             emergency numbers and many others.
+          </div>
+          <div className='buttons'>
+            {allTags.length > 0 && (
+                <div className={classNames('button', {['is-black']: selectedTags.length === 0})}
+                     onClick={() => setSelectedTags([])}>
+                  all
+                </div>
+            )}
+            {allTags.map(tag => (
+                <div key={tag}
+                     className={classNames('button', {['is-black']: selectedTags.includes(tag)})}
+                     onClick={() => selectTag(tag)}>
+                  {tag}
+                </div>
+            ))}
           </div>
           <div>
             <div className='columns is-multiline'>
