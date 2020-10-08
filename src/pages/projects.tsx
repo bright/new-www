@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 
-import Layout from "../components/layout"
+import Layout from '../components/layout'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import ProjectCard, {ProjectGraphql} from '../components/subcomponents/ProjectCard'
 
