@@ -2,9 +2,11 @@
   "name": "bright-website",
   "private": true,
   "dependencies": {
+    "@types/classnames": "^2.2.10",
     "@types/react-helmet": "^5.0.15",
     "@types/styled-components": "^5.1.0",
     "babel-plugin-styled-components": "^1.10.7",
+    "classnames": "^2.2.6",
     "gatsby": "^2.20.25",
     "gatsby-image": "^2.3.4",
     "gatsby-plugin-disqus": "^1.1.6",
