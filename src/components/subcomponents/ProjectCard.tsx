@@ -7,6 +7,7 @@ export interface ProjectGraphql {
   image: string
   layout: string
   published: string
+  tags: string[]
 }
 
 interface ProjectCardProps {
