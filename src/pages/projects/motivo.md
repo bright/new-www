@@ -5,6 +5,7 @@ image: /images/projects/motivo.png
 layout: project
 slug: "motivo/"
 published: true
+tags: []
 order: 4
 ---
 

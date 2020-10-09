@@ -4,6 +4,8 @@ description: 'POSpulse is the leading crowd based Shopper Insights Intelligence 
 image: /images/pospulse-shopscout-main.png
 layout: project
 slug: "pospulse-shopscout/"
+published: false
+tags: []
 ---
 
 ## Main features:

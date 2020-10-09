@@ -8,9 +8,8 @@ description: >
   industry events. From a dashboard that lets you easily track progress on
   trade-related tasks, to comprehensive budget management, financial reporting,
   and hotel bookings – xpomaker introduces a whole new fair planning standard!
-tags:
-  - backend
 published: true
+tags: []
 ---
 ### Main features
 

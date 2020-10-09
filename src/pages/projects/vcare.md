@@ -8,6 +8,7 @@ description: >
   available for both iOS and Android, assists in proper medication
   administration for facility residents.
 published: true
+tags: []
 ---
 ### Main features
 

@@ -4,6 +4,8 @@ description: Bright Inventions was engaged to create an Android and iOS version 
 image: /images/projects/keleya.png
 layout: project
 slug: "pregnancy-app/"
+published: false
+tags: []
 order: 5
 ---
 

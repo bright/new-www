@@ -4,6 +4,8 @@ description: Pitu Pitu is a popular party app that allows users to find best par
 image: /images/pitupitu-main.png
 layout: project
 slug: "pitupitu/"
+published: false
+tags: []
 ---
 
 ## Main features:

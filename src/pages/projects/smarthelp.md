@@ -4,8 +4,8 @@ description: SmartHelp is a holistic solution for emergency services in Norway. 
 image: /images/projects/smarthelp.png
 layout: project
 redirect_from: ["/smarthelp", "/smarthelp/"]
-publisdhed: false
-tags: mobile, iOS, Android, backend
+published: false
+tags: [mobile, iOS, Android, backend]
 order: 6
 ---
 
