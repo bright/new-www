@@ -63,11 +63,17 @@ const ProjectsPage = ({
           </div>
           <div>
             <div className='columns is-multiline'>
-              {projects.map((project) => (
-                <div className='column is-one-third' key={project.title}>
-                    <ProjectCard project={project} />
-                </div>
-              ))}
+              {projects
+                  .filter((project) =>
+                      selectedTags.length === 0 ||
+                      (project.tags && selectedTags.every(tag => project.tags.includes(tag)))
+                  )
+                  .map((project) => (
+                    <div className='column is-one-third' key={project.title}>
+                        <ProjectCard project={project} />
+                    </div>
+                  ))
+              }
             </div>
           </div>
         </div>
