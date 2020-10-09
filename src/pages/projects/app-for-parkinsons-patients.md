@@ -7,7 +7,7 @@ description: An app that serves as a personal digital diary for patients
   symptoms, track the intake of prescribed drugs, and get a general overview of
   their health.
 published: true
-tags: []
+tags: [mobile, iOS, Android, backend]
 order: 1
 ---
 
