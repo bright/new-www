@@ -16,6 +16,7 @@ const ProjectsPage = ({
   const projects: ProjectGraphql[] = edges
       .map(({ node: { frontmatter } }: {node: {frontmatter: ProjectGraphql}}) => frontmatter)
       .filter((project: ProjectGraphql) => project.published)
+      .sort((a: ProjectGraphql, b: ProjectGraphql) => (a.order || 99) - (b.order || 99))
 
   const allTags: string[] = []
   projects.forEach(project => (project.tags || []).forEach(tag => {
@@ -96,6 +97,7 @@ export const pageQuery = graphql`
             published
             tags
             slug
+            order
           }
         }
       }

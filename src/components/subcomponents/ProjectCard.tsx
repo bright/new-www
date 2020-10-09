@@ -9,6 +9,7 @@ export interface ProjectGraphql {
   image: string
   layout: string
   published: string
+  order?: number
   tags: string[]
 }
 
