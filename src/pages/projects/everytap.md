@@ -4,6 +4,8 @@ description: Everytap is a Polish startup now backed by TVN Ventures VC. We not 
 image: /images/projects/foodloyality.png
 layout: project
 slug: "everytap/"
+published: false
+tags: []
 order: 2
 ---
 

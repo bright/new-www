@@ -4,6 +4,8 @@ description: For one of our clients we developed a health application which util
 image: /images/projects/therapio.png
 layout: project
 slug: "mobile-therapy-application/"
+published: false
+tags: []
 order: 3
 ---
 
