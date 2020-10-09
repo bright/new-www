@@ -4,6 +4,7 @@ description: Motivo is an iOS indoor cycling app that offers a complete personal
 image: /images/projects/motivo.png
 layout: project
 slug: "motivo/"
+published: true
 order: 4
 ---
 
