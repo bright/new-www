@@ -87,6 +87,7 @@ export const pageQuery = graphql`
             layout
             published
             tags
+            slug
           }
         }
       }
