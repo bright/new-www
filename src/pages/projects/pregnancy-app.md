@@ -4,7 +4,7 @@ description: Your way to a healthy & relaxed pregnancy and safe birth experience
 image: /images/projects/keleya.png
 layout: project
 published: true 
-tags: iOS, Android, mobile 
+tags: [iOS, Android, mobile]
 slug: "pregnancy-app/"
 order: 5
 ---
