@@ -8,6 +8,8 @@ description: >
   details.
 published: true
 slug: "smarthelp/"
+redirect_from: ["/smarthelp", "/smarthelp/"]
+tags: mobile, Android, iOS, backend, custom software development
 homepage: true
 ---
 
