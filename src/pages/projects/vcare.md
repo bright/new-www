@@ -7,8 +7,13 @@ description: >
   United Kingdom monitor and maintain their residents’ health. The app,
   available for both iOS and Android, assists in proper medication
   administration for facility residents.
+tags:
+  - iOS
+  - Android
+  - mobile
+  - ""
+slug: vCare/
 published: true
-tags: []
 ---
 ### Main features
 
@@ -23,14 +28,28 @@ tags: []
 ### Skills
 
 Android: Kotlin, Navigation Library
+
+
 Database: Room 
+
+
 Dependency Injection: Dagger
+
+
 Asynchronous programming: Coroutines
 
 iOS: Swift
+
+
 Database: Disk
+
+
 Dependency injection: CocoaPods
+
+
 Deployment: Teamcity, Fastlane
+
+
 Tests: Nimble, Quick
 
 ### About
