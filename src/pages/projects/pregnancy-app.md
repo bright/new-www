@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Pregnancy App
-image: /static/images/keleya2_2.jpg
+image: /images/keleya2_2.jpg
 description: Your way to a healthy & relaxed pregnancy and safe birth experience
 tags:
   - iOS
