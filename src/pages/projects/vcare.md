@@ -11,7 +11,6 @@ tags:
   - iOS
   - Android
   - mobile
-  - ""
 slug: vCare/
 published: true
 ---
