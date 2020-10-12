@@ -31,7 +31,7 @@ published: true
 
 When you’re a cyclist winter months is when your next season performance is decided. Give up to the elements and you’re done. Or... build your own indoor training system with Motivo. The app offers Interactive training plans and workouts for indoor cycling. Motivo makes sure you're getting the best results from a turbo training or spinning with full Wahoo KICKR Erg mode support.
 
-![](/static/images/motivo-2.png)
+![](/images/motivo-2.png)
 
 ## Goal
 
@@ -51,7 +51,7 @@ A semi-professional internal Motivo Cycling Team was established and tasked with
 
 A highly iterative approach was taken with regards to user interface. Two most important screens (calendar and workout) were designed in a few different variations and the experiments conducted with the cyclist team helped decide on the one finally picked for the public release.
 
-![](/static/images/motivo-1.png)
+![](/images/motivo-1.png)
 
 ## Launch
 
