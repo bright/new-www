@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Mobile Therapy Application
-image: /static/images/therapio_2-screeny_700 copy.jpg
+image: /images/therapio_2-screeny_700 copy.jpg
 description: An app that supports patients going through physiotherapy, speech
   therapy, or occupational therapy in getting back to health.
 tags:
@@ -37,12 +37,12 @@ published: true
 At some point in our lives, either we ourselves or our loved ones will require physiotherapy to get back on our feet. However, there are many factors that influence whether this will be a stress-free and effective process.\
 With this in mind, our client created an app that supports therapists and patients on their way to a fast (and lasting!) recovery.
 
-![](/static/images/therapio_scren-3_700 copy.jpg)
+![](/images/therapio_scren-3_700 copy.jpg)
 
 ## Goal
 
-Our client, a product design agency and an early-stage project incubator, has turned to us with a ready-to-implement idea for an app. Before reaching out to Bright Inventions, they had already spent months validating their concept by observing physiotherapy sessions. This resulted in a comprehensive plan for an app that would solve the biggest challenges patients and therapists face.\
-\
+Our client, a product design agency and an early-stage project incubator, has turned to us with a ready-to-implement idea for an app. Before reaching out to Bright Inventions, they had already spent months validating their concept by observing physiotherapy sessions. This resulted in a comprehensive plan for an app that would solve the biggest challenges patients and therapists face.
+
 **These include**
 
 * Limited time therapists have for each patient
@@ -60,7 +60,7 @@ Our client also had a high-fidelity wireframe of the app, and entrusted us with 
 
 \- An admin panel for therapists.
 
-![](/static/images/therapio1_4web.png)
+![](/images/therapio1_4web.png)
 
 ## Process
 
