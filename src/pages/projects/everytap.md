@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Finebite (Everytap) "
-image: /static/images/foodapp_ingredients.png
+image: /images/foodapp_ingredients.png
 description: |
   The leading loyalty and online reservation program in Poland
 tags:
