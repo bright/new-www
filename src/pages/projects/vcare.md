@@ -27,28 +27,21 @@ published: true
 
 ### Skills
 
-Android: Kotlin, Navigation Library
-
+**Android:** Kotlin, Navigation Library
 
 Database: Room 
 
-
 Dependency Injection: Dagger
-
 
 Asynchronous programming: Coroutines
 
-iOS: Swift
-
+**iOS:** Swift
 
 Database: Disk
 
-
 Dependency injection: CocoaPods
 
-
 Deployment: Teamcity, Fastlane
-
 
 Tests: Nimble, Quick
 
