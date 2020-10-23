@@ -27,6 +27,8 @@
     flex-grow: 1;
 
     .item {
+      display: flex;
+      align-items: center;
       position: relative;
       justify-content: center;
 
