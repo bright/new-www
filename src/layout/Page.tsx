@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import classNames from 'classnames'
 
-import {Footer} from './Footer'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
-import {TopNavigation} from '../components/subcomponents/TopNavigation'
+import {Footer} from './Footer'
+import {TopNavigation} from './TopNavigation'
 
 import styles from './Page.module.scss'
 import '../styles/main.scss'
