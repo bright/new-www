@@ -23,7 +23,7 @@ export const Page: React.FC<{ className?: string }> = ({children, className}) =>
                 description="The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more."
             />
             <TopNavigation path={currentPath} toggled={setMobileMenuOpened} />
-            ---{children}
+            {children}
             <Footer />
         </div>
     )

@@ -24,17 +24,21 @@ type Props = {
 }
 
 export const TopNavigation: React.FC<Props> = ({path, toggled}) => {
-  const [showMenu, setShowMenu] = useState(false)
+  const [menuOpened, setMenuOpened] = useState(false)
 
   const toggleMenu = () => {
-    const newValue = !showMenu
-    setShowMenu(newValue)
-    toggled(newValue)
+    // const newValue = !showMenu
+    // setShowMenu(newValue)
+    // toggled(newValue)
   }
+
+  // return (
+  //     <nav className={classNames('navbar is-fixed-top', styles.container, {[styles.opened]: menuOpened})}
+  // )
 
   return (
     <nav
-      className={classNames('navbar is-fixed-top', styles.container, {[styles.opened]: showMenu})}
+      className={classNames('navbar is-fixed-top', styles.container, {[styles.opened]: menuOpened})}
       role="navigation"
       aria-label="main navigation"
     >
@@ -45,7 +49,7 @@ export const TopNavigation: React.FC<Props> = ({path, toggled}) => {
 
         <a
           role="button"
-          className={"navbar-burger burger " + (showMenu ? "is-active" : "")}
+          className={"navbar-burger burger " + (menuOpened ? "is-active" : "")}
           aria-label="menu"
           aria-expanded="false"
           data-target="#topNavBar"
@@ -57,7 +61,7 @@ export const TopNavigation: React.FC<Props> = ({path, toggled}) => {
         </a>
       </div>
 
-      <div id="topNavBar" className={"navbar-menu " + (showMenu ? "is-active" : "")}>
+      <div id="topNavBar" className={"navbar-menu " + (menuOpened ? "is-active" : "")}>
 
         <div className={classNames('navbar-start', styles.navbarItems)}>
           {TopMenu.map(menuElement => (

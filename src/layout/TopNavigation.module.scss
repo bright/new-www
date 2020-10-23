@@ -1,3 +1,5 @@
+@import "../styles/variables";
+
 .container {
   .navbarItems {
     flex: 1;
@@ -8,7 +10,7 @@
       color: black;
 
       & > a {
-        font-size: 1.1rem;
+        font-family: 'SuisseIntl Black', Lato, sans-serif;
         border: 0;
 
         &.current {
@@ -17,9 +19,13 @@
         }
 
         &.estimate {
-          font-family: 'SuisseIntl Black';
           font-style: normal;
           font-weight: normal;
+        }
+
+        &:hover {
+          background-color: #fafafa;
+          color: $primary;
         }
       }
 
@@ -38,7 +44,7 @@
   .container {
     .navbarItems {
       .item a {
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
     }
   }

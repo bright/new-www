@@ -2,7 +2,7 @@ import { graphql } from 'gatsby'
 import React, {useState} from 'react'
 import classNames from 'classnames'
 
-import Layout from '../components/layout'
+import {Page} from '../layout/Page'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import ProjectCard, {ProjectGraphql} from '../components/subcomponents/ProjectCard'
 
@@ -36,7 +36,7 @@ const ProjectsPage = ({
   }
 
   return (
-    <Layout>
+    <Page>
       <HelmetWrapper
         title='Projects'
         description='About our software development projects'
@@ -81,7 +81,7 @@ const ProjectsPage = ({
           </div>
         </div>
       </div>
-    </Layout>
+    </Page>
   )
 }
 
