@@ -31,6 +31,9 @@
       align-items: center;
       position: relative;
       justify-content: center;
+      font-family: "SuisseIntl Black";
+      font-style: normal;
+      font-weight: normal;
 
       span {
         padding: 0.4rem 0.8rem;
@@ -94,6 +97,7 @@
 
     :global(#topNavBar) {
       display: flex;
+      overflow: auto;
       flex-direction: column;
       text-align: center;
       position: fixed;
@@ -102,7 +106,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      transition: all 0.3s ease-in;
+      transition: transform 0.3s ease-in;
       transform: translateY(-100%);
       z-index: 1;
 
@@ -116,7 +120,9 @@
 
         span {
           display: inline-block;
-          transform: translateY(40%);
+          position: relative;
+          top: 50%;
+          transform: translateY(-90%);
         }
       }
     }
