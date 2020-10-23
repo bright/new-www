@@ -1,0 +1,8 @@
+@media (max-width: 1024px) {
+  :global(.layout-container) {
+    &.menuOpened {
+      overflow: hidden;
+      max-height: calc(100vh - 5.5rem);
+    }
+  }
+}
