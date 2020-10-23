@@ -1,6 +1,6 @@
 import React from "react"
 import "../styles/main.scss"
-import { Footer } from "./subcomponents/Footer"
+import { Footer } from "../layout/Footer"
 import HelmetWrapper from "./subcomponents/HelmetWrapper"
 import { TopNavigation } from "./subcomponents/TopNavigation"
 
