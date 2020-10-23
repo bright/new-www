@@ -1,10 +1,12 @@
-import React from "react"
-import "../styles/main.scss"
-import { Footer } from "../layout/Footer"
-import HelmetWrapper from "./subcomponents/HelmetWrapper"
-import { TopNavigation } from "./subcomponents/TopNavigation"
+import React from 'react'
 
-const Layout: React.FC<{ className?: string }> = ({ children, className }) => {
+import {Footer} from './Footer'
+import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
+import {TopNavigation} from '../components/subcomponents/TopNavigation'
+
+import '../styles/main.scss'
+
+export const Page: React.FC<{ className?: string }> = ({ children, className }) => {
   return (
     <div className={"layout-container " + className}>
       <HelmetWrapper
@@ -14,10 +16,6 @@ const Layout: React.FC<{ className?: string }> = ({ children, className }) => {
       <TopNavigation />
       {children}
       <Footer />
-      {/* {% include _footer.html %}
-{% include _scripts.html %} */}
     </div>
   )
 }
-
-export default Layout

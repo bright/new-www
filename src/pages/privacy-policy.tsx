@@ -1,10 +1,11 @@
-import React from "react"
-import Layout from "../components/layout"
-import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
+import React from 'react'
+
+import {Page} from '../layout/Page'
+import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 
 const PrivacyPolicy = () => {
   return (
-    <Layout>
+    <Page>
       <HelmetWrapper
         title="Privacy policy"
         description="All the necessary information about the data we collect and process when you use our website."
@@ -363,7 +364,7 @@ const PrivacyPolicy = () => {
           </div>
         </article>
       </div>
-    </Layout>
+    </Page>
   )
 }
 

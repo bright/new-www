@@ -5,10 +5,11 @@
 // redirect_from: ["/estimate", "/estimate/"]
 // ---
 
-import React, { useState, useCallback } from "react"
-import Layout from "../components/layout"
-import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
-import { sendMail, FormType } from "../helpers/mail"
+import React, {useState} from 'react'
+
+import {Page} from '../layout/Page'
+import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
+import {FormType, sendMail} from '../helpers/mail'
 
 const StartProjectPage: React.FC = () => {
   const [name, setName] = useState("")
@@ -44,7 +45,7 @@ const StartProjectPage: React.FC = () => {
   }
 
   return (
-    <Layout>
+    <Page>
       <HelmetWrapper
         title="Estimate a project"
         description="Estimate your project based on a description and technologies"
@@ -112,7 +113,7 @@ const StartProjectPage: React.FC = () => {
                   value={message}
                   onChange={e => setMessage(e.target.value)}
                   className="textarea"
-                ></textarea>
+                />
               </div>
             </div>
             <div className="field">
@@ -163,7 +164,7 @@ const StartProjectPage: React.FC = () => {
           )}
         </div>
       </section>
-    </Layout>
+    </Page>
   )
 }
 

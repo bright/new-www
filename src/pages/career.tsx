@@ -4,15 +4,16 @@
 // class: career
 // ---
 
-import React from "react"
-import Layout from "../components/layout"
-import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
-import JobsOpenAll from "../components/subcomponents/JobsOpenAll"
-import JobsOpenTop from "../components/subcomponents/JobsOpenTop"
+import React from 'react'
+
+import {Page} from '../layout/Page'
+import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
+import JobsOpenAll from '../components/subcomponents/JobsOpenAll'
+import JobsOpenTop from '../components/subcomponents/JobsOpenTop'
 
 const CareerPage: React.FC = () => {
   return (
-    <Layout className="page-career">
+    <Page className="page-career">
       <HelmetWrapper title="Career" />
       <section className="hero is-dark we-hire">
         <div className="hero-body">
@@ -86,7 +87,7 @@ const CareerPage: React.FC = () => {
           <JobsOpenAll />
         </article>
       </div>
-    </Layout>
+    </Page>
   )
 }
 

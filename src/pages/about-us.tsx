@@ -1,12 +1,13 @@
-import React, { useState } from "react"
-import Layout from "../components/layout"
-import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
-import TeamMembers from "../components/subcomponents/TeamMembers"
+import React, {useState} from 'react'
+
+import {Page} from '../layout/Page'
+import TeamMembers from '../components/subcomponents/TeamMembers'
+import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 
 const AboutUsPage = () => {
   const [currentTab, setCurrentTab] = useState(0)
   return (
-    <Layout>
+    <Page>
       <HelmetWrapper
         title="About us - our values, team and approach"
         description="Information about our team, core values, business process"
@@ -242,7 +243,7 @@ const AboutUsPage = () => {
           )}
         </section>
       </div>
-    </Layout>
+    </Page>
   )
 }
 
