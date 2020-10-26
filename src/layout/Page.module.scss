@@ -1,0 +1,11 @@
+@import "../styles/mixins";
+@import "../styles/variables";
+
+@include mobile() {
+  :global(.layout-container) {
+    &.menuOpened {
+      overflow: hidden;
+      max-height: calc(100vh - #{$navbar-height});
+    }
+  }
+}

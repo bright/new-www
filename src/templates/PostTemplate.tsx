@@ -1,11 +1,12 @@
-import { graphql } from "gatsby"
-import React from "react"
-import Layout from "../components/layout"
-import BackButton from "../components/subcomponents/BackButton"
-import DateFormatter from "../components/subcomponents/Date"
-import DisqusComments from "../components/subcomponents/DisqusComments"
-import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
-import { getFileNameOnly } from "../helpers/pathHelpers"
+import {graphql} from 'gatsby'
+import React from 'react'
+
+import {Page} from '../layout/Page'
+import BackButton from '../components/subcomponents/BackButton'
+import DateFormatter from '../components/subcomponents/Date'
+import DisqusComments from '../components/subcomponents/DisqusComments'
+import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
+import {getFileNameOnly} from '../helpers/pathHelpers'
 
 export default function Template(props: {
   data: {
@@ -51,7 +52,7 @@ export default function Template(props: {
   }).frontmatter
 
   return (
-    <Layout>
+    <Page>
       <HelmetWrapper title={page.title}></HelmetWrapper>
 
       <div className="container">
@@ -166,7 +167,7 @@ export default function Template(props: {
         `,
         }}
       />
-    </Layout>
+    </Page>
   )
 }
 export const pageQuery = graphql`

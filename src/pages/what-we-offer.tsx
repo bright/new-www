@@ -3,13 +3,14 @@
 // title:
 // description:
 // ---
-import React from "react"
-import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
-import Layout from "../components/layout"
+import React from 'react'
+
+import {Page} from '../layout/Page'
+import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 
 const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
-    <Layout>
+    <Page>
       <HelmetWrapper
         title="Mobile and Web Development Services"
         description="About our software development services"
@@ -146,7 +147,7 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
           </div>
         </section>
       </div>
-    </Layout>
+    </Page>
   )
 }
 

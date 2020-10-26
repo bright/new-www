@@ -1,9 +1,11 @@
-import { graphql } from "gatsby"
-import React from "react"
-import Layout from "../components/layout"
-import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
-import "../styles/_blog.scss"
-import { deleteTimestampFromUrl } from "../helpers/pathHelpers"
+import {graphql} from 'gatsby'
+import React from 'react'
+
+import {Page} from '../layout/Page'
+import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
+import {deleteTimestampFromUrl} from '../helpers/pathHelpers'
+
+import '../styles/_blog.scss'
 
 interface PageContext {
   currentPage: 2
@@ -22,7 +24,7 @@ const BlogPage: React.FC<{
   pageContext,
 }) => {
   return (
-    <Layout className="page-blog-list">
+    <Page className="page-blog-list">
       <HelmetWrapper
         title="Blog"
         description="Ideas about software development, practices. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more."
@@ -131,7 +133,7 @@ const BlogPage: React.FC<{
           </div>
         </section>
       </div>
-    </Layout>
+    </Page>
   )
 }
 

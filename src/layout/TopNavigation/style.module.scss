@@ -1,0 +1,130 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.container {
+  display: flex;
+  height: $navbar-height;
+  transition: box-shadow 0.3s ease-in;
+
+  &.hasShadow {
+    box-shadow: 0 4px 8px rgba(10,10,10,.05);
+  }
+
+  .brand {
+    width: 175px;
+
+    .logo.small {
+      display: none;
+    }
+  }
+
+  .burger {
+    display: none;
+  }
+
+  :global(#topNavBar) {
+    display: flex;
+    flex-grow: 1;
+
+    .item {
+      display: flex;
+      align-items: center;
+      position: relative;
+      justify-content: center;
+      font-family: "SuisseIntl Black";
+      font-style: normal;
+      font-weight: normal;
+
+      span {
+        padding: 0.4rem 0.8rem;
+      }
+
+      &:global(.is-primary) {
+        span {
+          background-color: $primary;
+        }
+        &:hover {
+          color: $white;
+        }
+      }
+
+      &.current {
+        span {
+          color: $white;
+          background-color: $black;
+        }
+        &:hover, &:hover span {
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+@include mobile() {
+  .container {
+    .brand {
+      width: 65px;
+      padding: 1rem 0.5rem 0.5rem 0.5rem;
+      z-index: 5;
+
+      .logo {
+        &.big {
+          display: none;
+        }
+
+        &.small {
+          display: block;
+        }
+      }
+    }
+
+    .burger {
+      display: block;
+      z-index: 5;
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      right: 0;
+      height: $navbar-height;
+      background-color: $white;
+      z-index: 3;
+    }
+
+    :global(#topNavBar) {
+      display: flex;
+      overflow: auto;
+      flex-direction: column;
+      text-align: center;
+      position: fixed;
+      background-color: $white;
+      top: calc(#{$navbar-height} - 1px);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: transform 0.3s ease-in;
+      transform: translateY(-100%);
+      z-index: 1;
+
+      &:global(.is-active) {
+        transform: translateY(0%);
+      }
+
+      .item {
+        font-size: 24px;
+        max-height: 100px;
+
+        span {
+          display: inline-block;
+          position: relative;
+          top: 50%;
+          transform: translateY(-90%);
+        }
+      }
+    }
+  }
+}

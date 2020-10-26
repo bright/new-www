@@ -1,7 +1,8 @@
-import React, { useState, useRef } from "react"
-import Layout from "../components/layout"
-import BackButton from "../components/subcomponents/BackButton"
-import { sendMail, FormType } from "../helpers/mail"
+import React, {useRef, useState} from 'react'
+
+import {Page} from '../layout/Page'
+import BackButton from '../components/subcomponents/BackButton'
+import {FormType, sendMail} from '../helpers/mail'
 
 const ApplyForJobPage: React.FC = () => {
   const [name, setName] = useState("")
@@ -47,7 +48,7 @@ const ApplyForJobPage: React.FC = () => {
   }
 
   return (
-    <Layout>
+    <Page>
       <div className="container">
         <form className="section" data-form-type="job" onSubmit={onFormSubmit}>
           <div className="field">
@@ -156,7 +157,7 @@ const ApplyForJobPage: React.FC = () => {
           <BackButton label="Open positions" url="/career#open-positions" />
         </form>
       </div>
-    </Layout>
+    </Page>
   )
 }
 
