@@ -4,6 +4,7 @@ import classNames from 'classnames'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import {Footer} from './Footer'
 import {TopNavigation} from './TopNavigation'
+import {isBrowser} from '../utils'
 
 import styles from './Page.module.scss'
 import '../styles/main.scss'
@@ -13,10 +14,10 @@ export const Page: React.FC<{ className?: string }> = ({children, className}) =>
     const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
 
     useEffect(() => {
-        if (window) {
+        if (isBrowser()) {
             setCurrentPath(window.location.pathname)
         }
-    }, [window && window.location.pathname])
+    }, [isBrowser() && window.location.pathname])
 
     return (
         <div className={classNames('layout-container', className, {[styles.menuOpened]: mobileMenuOpened})}>
