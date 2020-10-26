@@ -13,8 +13,10 @@ export const Page: React.FC<{ className?: string }> = ({children, className}) =>
     const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
 
     useEffect(() => {
-        setCurrentPath(window.location.pathname)
-    }, [window.location.pathname])
+        if (window) {
+            setCurrentPath(window.location.pathname)
+        }
+    }, [window && window.location.pathname])
 
     return (
         <div className={classNames('layout-container', className, {[styles.menuOpened]: mobileMenuOpened})}>
