@@ -25,6 +25,7 @@
   :global(#topNavBar) {
     display: flex;
     flex-grow: 1;
+    margin-left: 0;
 
     .item {
       display: flex;
@@ -37,6 +38,10 @@
 
       span {
         padding: 0.4rem 0.8rem;
+      }
+
+      &:hover {
+        background-color: transparent;
       }
 
       &:global(.is-primary) {
@@ -61,22 +66,28 @@
   }
 }
 
+@include tablet() {
+  .container :global(#topNavBar) {
+    margin-left: 12rem;
+  }
+}
+
 @include mobile() {
   .container {
     .brand {
-      width: 65px;
-      padding: 1rem 0.5rem 0.5rem 0.5rem;
+      //width: 65px;
+      //padding: 1rem 0.5rem 0.5rem 0.5rem;
       z-index: 5;
 
-      .logo {
-        &.big {
-          display: none;
-        }
-
-        &.small {
-          display: block;
-        }
-      }
+      //.logo {
+      //  &.big {
+      //    display: none;
+      //  }
+      //
+      //  &.small {
+      //    display: block;
+      //  }
+      //}
     }
 
     .burger {
@@ -109,6 +120,7 @@
       transition: transform 0.3s ease-in;
       transform: translateY(-100%);
       z-index: 1;
+      margin-left: 0;
 
       &:global(.is-active) {
         transform: translateY(0%);
