@@ -3,6 +3,7 @@
 
 .header {
   background-color: $white;
+  user-select: none;
 
   .title {
     margin-top: 1.1em;
