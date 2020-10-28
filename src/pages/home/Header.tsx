@@ -9,7 +9,7 @@ import styles from './Header.module.scss'
 
 const Header = () => {
   const {allMarkdownRemark: { edges }} = useStaticQuery(GQL)
-  const carouselItems = (edges || []).map((e: any) => e.node.frontmatter)
+  const carouselItems = edges ? edges.map((e: any) => e.node.frontmatter) : []
 
   return (
     <section className={classNames('hero', styles.header)}>
@@ -18,7 +18,7 @@ const Header = () => {
           <div className='columns'>
             <HeaderTitle />
             <div className={classNames('column is-two-fifths is-hidden-mobile has-text-centered', styles.carouselContainer)}>
-              <HeaderCarousel items={carouselItems} />
+              {carouselItems.length && <HeaderCarousel items={carouselItems} />}
             </div>
           </div>
         </div>
