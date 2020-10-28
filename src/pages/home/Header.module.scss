@@ -1,0 +1,62 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.header {
+  background-color: $white;
+  user-select: none;
+
+  .title {
+    margin-top: 1.1em;
+    margin-bottom: 1em;
+    font-size: 100px;
+    line-height: 100px;
+
+    span {
+      color: $primary;
+    }
+  }
+
+  .carouselContainer {
+    display: flex;
+    justify-content: center;
+
+    .carousel {
+      width: 400px;
+
+      .indicator {
+        color: black;
+        font-size: 4em;
+        display: inline-block;
+        margin-top: 2em;
+        position: relative;
+        left: -0.125em;
+
+        &.white {
+          color: white;
+        }
+
+        &:not(.active) {
+          cursor: pointer;
+          opacity: 0.42;
+        }
+      }
+
+      .arrow {
+        position: absolute;
+        z-index: 2;
+        top: calc(50% - 3.5em);
+        cursor: pointer;
+        display: inline-block;
+        margin: 0 -1em;
+      }
+    }
+  }
+}
+
+@include mobile() {
+  .header .title {
+    margin-top: 0;
+    font-size: 55px;
+    line-height: 55px;
+  }
+}

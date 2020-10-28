@@ -10,7 +10,7 @@ import OurServices from '../components/home/OurServices'
 import PopularBlogPosts from '../components/home/PopularBlogPosts'
 import ProductIdea from '../components/home/ProductIdea'
 import SuccessStories from '../components/home/SuccessStories'
-import HomeHeader from '../components/subcomponents/HomeHeader'
+import Header from './home/Header'
 import Ratings from '../components/subcomponents/Ratings'
 
 import '../styles/_page-index.scss'
@@ -23,7 +23,7 @@ const IndexPage = ({
 }) => {
   return (
     <Page className="page-index">
-      <HomeHeader />
+      <Header />
       {/* <SocialIconsSpaced /> */}
       <OurServices />
       <ImageSpacer />
