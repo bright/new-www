@@ -47,29 +47,19 @@ export const Footer = () => {
               explore more
             </h6>
             <p className='content'>
-              <a className='' href='/about-us'>
-                about us
-              </a>
+              <a href='/about-us'>about us</a>
             </p>
             <p className='content'>
-              <a className='' href='/what-we-offer'>
-                what we offer
-              </a>
+              <a href='/what-we-offer'>what we offer</a>
             </p>
             <p className='content'>
-              <a className='' href='/projects'>
-                projects
-              </a>
+              <a href='/projects'>projects</a>
             </p>
             <p className='content'>
-              <a className='' href='/career'>
-                career
-              </a>
+              <a href='/career'>career</a>
             </p>
             <p className='content'>
-              <a className='' href='/blog'>
-                blog
-              </a>
+              <a href='/blog'>blog</a>
             </p>
           </div>
 
@@ -78,24 +68,16 @@ export const Footer = () => {
               services
             </h6>
             <p className='content'>
-              <a className='' href='/what-we-offer'>
-                web development
-              </a>
+              <a href='/what-we-offer'>web development</a>
             </p>
             <p className='content'>
-              <a className='' href='/what-we-offer'>
-                mobile development
-              </a>
+              <a href='/what-we-offer'>mobile development</a>
             </p>
             <p className='content'>
-              <a className='' href='/what-we-offer'>
-                consulting services
-              </a>
+              <a href='/what-we-offer'>consulting services</a>
             </p>
             <p className='content'>
-              <a className='' href='/what-we-offer'>
-                UX/UI design
-              </a>
+              <a href='/what-we-offer'>UX/UI design</a>
             </p>
           </div>
 

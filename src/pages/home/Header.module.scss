@@ -54,9 +54,34 @@
 }
 
 @include mobile() {
-  .header .title {
-    margin-top: 0;
-    font-size: 55px;
-    line-height: 55px;
+  .header {
+    height: calc(100vh - #{$navbar-height});
+
+    :global(.hero-body) :global(.container) {
+      height: 100%;
+
+      :global(.columns) {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        :global(.column) {
+          display: flex;
+          flex-grow: 1;
+          align-items: center;
+
+          :global(.buttons) {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .title {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 55px;
+      line-height: 55px;
+    }
   }
 }

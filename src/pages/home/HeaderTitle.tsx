@@ -11,15 +11,15 @@ const HeaderTitle = () => {
           let's create software that <span>matters</span>
         </h1>
       </div>
-      <div className='column is-hidden-tablet'>
-        Through mobile apps and complex backend systems to emerging
-        technology solutions we are creating success stories for startups,
-        consultancy agencies as well as mid-size organisations
-      </div>
+      {/*<div className='column is-hidden-tablet'>*/}
+      {/*  Through mobile apps and complex backend systems to emerging*/}
+      {/*  technology solutions we are creating success stories for startups,*/}
+      {/*  consultancy agencies as well as mid-size organisations*/}
+      {/*</div>*/}
       <div className='column is-hidden-tablet'>
         <div className='buttons'>
           <a className='button estimate is-primary' href='/start-project'>
-            <strong>let's talk</strong>
+            <strong>estimate project</strong>
           </a>
         </div>
       </div>

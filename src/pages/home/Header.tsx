@@ -9,7 +9,7 @@ import styles from './Header.module.scss'
 
 const Header = () => {
   const {allMarkdownRemark: { edges }} = useStaticQuery(GQL)
-  const carouselItems = edges.map((e: any) => e.node.frontmatter)
+  const carouselItems = (edges || []).map((e: any) => e.node.frontmatter)
 
   return (
     <section className={classNames('hero', styles.header)}>
