@@ -48,7 +48,7 @@ const HeaderCarousel: React.FC<Props> = ({items}) => {
             renderIndicator={indicator}
             renderArrowPrev={arrowPrev}
             renderArrowNext={arrowNext}>
-            {items.map((item, index) => (
+            {(items || []).map((item, index) => (
                 <div key={index + 'project'}>
                     <ProjectCard project={item as ProjectGraphql} invertTitle={true}/>
                 </div>
