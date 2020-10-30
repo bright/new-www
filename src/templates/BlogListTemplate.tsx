@@ -3,26 +3,23 @@ import React from 'react'
 
 import {Page} from '../layout/Page'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
-import {deleteTimestampFromUrl} from '../helpers/pathHelpers'
+import {BlogFeed} from './blog/feed'
+import {GQLData} from '../models/gql'
+import {createBlogPosts} from '../models/creator'
 
 import '../styles/_blog.scss'
 
-interface PageContext {
-  currentPage: 2
-  limit: 10
-  numPages: 21
-  skip: 10
+interface Props {
+  data: GQLData
+  pageContext: {
+    currentPage: 2
+    limit: 10
+    numPages: 21
+    skip: 10
+  }
 }
 
-const BlogPage: React.FC<{
-  data: any
-  pageContext: PageContext
-}> = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-  pageContext,
-}) => {
+const BlogPage: React.FC<Props> = ({data, pageContext,}) => {
   return (
     <Page className="page-blog-list">
       <HelmetWrapper
@@ -33,47 +30,7 @@ const BlogPage: React.FC<{
       <div className="container">
         <section className="section">
           <h1 className="title has-text-dark">Bright Devs Blog</h1>
-          {edges.map(({ node }) => {
-            const post = {
-              ...node.fields,
-              ...node.frontmatter,
-              excerpt: node.excerpt,
-            }
-            return (
-              <a
-                href={deleteTimestampFromUrl(post.slug)}
-                className="blog-post-list-item"
-              >
-                <div className="card">
-                  <div className="card-content">
-                    <div className="level is-hidden-tablet">
-                      <figure className="image is-flex has-items-centered">
-                        <img src={post.image} alt={post.title} />
-                      </figure>
-                    </div>
-                    <div className="level content">
-                      <div>
-                        <h2 className="title">{post.title}</h2>
-                        <p className="tags">
-                          {post.tags.map(tag => (
-                            <span className="tag">{tag}</span>
-                          ))}
-                        </p>
-                        <p>{post.excerpt}</p>
-                      </div>
-                      <div className="level-right is-hidden-mobile">
-                        <div>
-                          <figure className="image is-256x256 is-flex has-items-centered">
-                            <img src={post.image} alt={post.title} />
-                          </figure>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            )
-          })}
+          <BlogFeed posts={createBlogPosts(data)} />
           <div className="is-flex has-justify-content-space-between">
             {pageContext.currentPage > 1 && (
               <a

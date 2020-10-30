@@ -1,20 +1,12 @@
 import React from 'react'
 import classNames from 'classnames'
 
+import {ProjectModel} from '../../models/gql'
+
 import styles from './ProjectCard.module.scss'
 
-export interface ProjectGraphql {
-    title: string
-    slug: string
-    image: string
-    layout: string
-    published: string
-    order?: number
-    tags: string[]
-}
-
 interface ProjectCardProps {
-    project: ProjectGraphql
+    project: ProjectModel
     invertTitle?: boolean
 }
 

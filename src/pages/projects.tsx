@@ -4,19 +4,14 @@ import classNames from 'classnames'
 
 import {Page} from '../layout/Page'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
-import ProjectCard, {ProjectGraphql} from '../components/subcomponents/ProjectCard'
+import ProjectCard from '../components/subcomponents/ProjectCard'
+import {createProjects} from '../models/creator'
+import {GQLData} from '../models/gql'
 
 import styles from './projects.module.scss'
 
-const ProjectsPage = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
-  const projects: ProjectGraphql[] = edges
-      .map(({ node: { frontmatter } }: {node: {frontmatter: ProjectGraphql}}) => frontmatter)
-      .filter((project: ProjectGraphql) => project.published)
-      .sort((a: ProjectGraphql, b: ProjectGraphql) => (a.order || 99) - (b.order || 99))
+const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
+  const projects = createProjects(data)
 
   const allTags: string[] = []
   projects.forEach(project => (project.tags || []).forEach(tag => {
