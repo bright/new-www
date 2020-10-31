@@ -3,23 +3,17 @@ import React from 'react'
 
 import {Page} from '../layout/Page'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
-import {BlogFeed} from './blog/feed'
+import {BlogFeed} from './blog/Feed'
 import {GQLData} from '../models/gql'
 import {createBlogPosts} from '../models/creator'
-
-import '../styles/_blog.scss'
+import {PageContext, Paging} from './blog/Paging'
 
 interface Props {
   data: GQLData
-  pageContext: {
-    currentPage: 2
-    limit: 10
-    numPages: 21
-    skip: 10
-  }
+  pageContext: PageContext
 }
 
-const BlogPage: React.FC<Props> = ({data, pageContext,}) => {
+const BlogPage: React.FC<Props> = ({data, pageContext}) => {
   return (
     <Page className="page-blog-list">
       <HelmetWrapper
@@ -31,63 +25,7 @@ const BlogPage: React.FC<Props> = ({data, pageContext,}) => {
         <section className="section">
           <h1 className="title has-text-dark">Bright Devs Blog</h1>
           <BlogFeed posts={createBlogPosts(data)} />
-          <div className="is-flex has-justify-content-space-between">
-            {pageContext.currentPage > 1 && (
-              <a
-                href={
-                  "/blog/" +
-                  (pageContext.currentPage - 1 > 1
-                    ? pageContext.currentPage - 1
-                    : "")
-                }
-                className="button"
-              >
-                <span className="icon">
-                  <svg
-                    className="w-pagination-previous-icon"
-                    height="12px"
-                    width="12px"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 12 12"
-                    transform="translate(0, 1)"
-                  >
-                    <path
-                      fill="none"
-                      stroke="currentColor"
-                      fillRule="evenodd"
-                      d="M8 10L4 6l4-4"
-                    />
-                  </svg>
-                </span>
-                <span>Previous</span>
-              </a>
-            )}
-            {pageContext.numPages > pageContext.currentPage && (
-              <a
-                href={"/blog/" + (pageContext.currentPage + 1)}
-                className="button"
-              >
-                <span>Next</span>
-                <span className="icon">
-                  <svg
-                    className="w-pagination-next-icon icon-7"
-                    height="12px"
-                    width="12px"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 12 12"
-                    transform="translate(0, 1)"
-                  >
-                    <path
-                      fill="none"
-                      stroke="currentColor"
-                      fillRule="evenodd"
-                      d="M4 2l4 4-4 4"
-                    />
-                  </svg>
-                </span>
-              </a>
-            )}
-          </div>
+          <Paging {...pageContext} />
         </section>
       </div>
     </Page>

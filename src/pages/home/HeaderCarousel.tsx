@@ -2,7 +2,8 @@ import React from 'react'
 import classNames from 'classnames'
 import {Carousel} from 'react-responsive-carousel'
 
-import ProjectCard, {ProjectGraphql} from '../../components/subcomponents/ProjectCard'
+import ProjectCard from '../../components/subcomponents/ProjectCard'
+import {ProjectModel} from '../../models/gql'
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import BackArrow from '../../assets/backArrowBlack.svg'
@@ -11,7 +12,7 @@ import styles from './Header.module.scss'
 
 
 interface Props {
-    items: ProjectGraphql[]
+    items: ProjectModel[]
 }
 
 const HeaderCarousel: React.FC<Props> = ({items}) => {
@@ -50,7 +51,7 @@ const HeaderCarousel: React.FC<Props> = ({items}) => {
             renderArrowNext={arrowNext}>
             {(items || []).map((item, index) => (
                 <div key={index + 'project'}>
-                    <ProjectCard project={item as ProjectGraphql} invertTitle={true}/>
+                    <ProjectCard project={item as ProjectModel} invertTitle={true}/>
                 </div>
             ))}
         </Carousel>
