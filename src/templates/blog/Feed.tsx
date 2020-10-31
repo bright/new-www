@@ -25,9 +25,7 @@ const Post: React.FC<{post: BlogPostModel}> = ({post}) => {
 
     return (
         <div className={styles.entry} onClick={redirect}>
-            <div className={styles.image}>
-                <img src={post.image} alt={post.title}/>
-            </div>
+            <div className={styles.image}><img src={post.image} alt={post.title}/></div>
             <div className={styles.content}>
                 <div className={styles.postInfo}>
                     <div className={styles.date}>{formatDate(new Date(post.date), 'MMM, d yyyy')}</div>
