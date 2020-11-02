@@ -1,0 +1,10 @@
+.paging {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+
+  span:last-of-type {
+    flex-grow: 1;
+    text-align: right;
+  }
+}

@@ -1,4 +1,3 @@
-import {graphql} from 'gatsby'
 import React from 'react'
 
 import {Page} from '../layout/Page'
@@ -16,11 +15,7 @@ import Ratings from '../components/subcomponents/Ratings'
 import '../styles/_page-index.scss'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
-const IndexPage = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
+export default () => {
   return (
     <Page className="page-index">
       <Header />
@@ -37,28 +32,3 @@ const IndexPage = ({
     </Page>
   )
 }
-
-export const pageQuery = graphql`
-  {
-    allMarkdownRemark(
-      filter: {
-        frontmatter: { layout: { eq: "project" }, published: { ne: false } }
-      }
-      limit: 6
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            image
-            layout
-            slug
-            published
-          }
-        }
-      }
-    }
-  }
-`
-
-export default IndexPage
