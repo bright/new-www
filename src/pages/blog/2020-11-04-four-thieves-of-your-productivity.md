@@ -26,7 +26,7 @@ What is surprising (or maybe not at all) is the fact that some people can still 
 
 Let's take a closer look at each and every piece. 
 
-**THE ABILITY TO SAY NO**
+**THE INABILITY TO SAY NO**
 
 It’s not easy either to say no at work or in private life . But the point is to realise that this “no” is a vital part of achieving the hight level of productivity and success. When we are saying no to something, at the same time we are saying yes to something else. And the clue is to realise which thing out of these two is just more important.
 
