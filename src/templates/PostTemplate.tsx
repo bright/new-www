@@ -53,7 +53,14 @@ export default function Template(props: {
 
     return (
         <Page>
-            <HelmetWrapper title={page.title}/>
+            <HelmetWrapper title={page.title} description={markdownRemark.excerpt}>
+                <meta property="og:title" content={markdownRemark.frontmatter.title} />
+                <meta property="og:description" content={markdownRemark.excerpt} />
+                <meta property="og:type" content="article" />
+                <meta property="article:published_time" content={markdownRemark.frontmatter.date} />
+                <meta property="article:author" content={markdownRemark.frontmatter.author} />
+                <meta property="og:image" content={props.data.site.siteMetadata.siteUrl + markdownRemark.frontmatter.image} />
+            </HelmetWrapper>
 
             <div className="container">
                 <article className="section">
@@ -129,44 +136,6 @@ export default function Template(props: {
                     <DisqusComments title={page.title}/>
                 </article>
             </div>
-
-            <script
-                type='application/ld+json'
-                dangerouslySetInnerHTML={{
-                    __html: `
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "${page.title}",
-      "description": "${page.excerpt}",
-  ${
-    page.image &&
-    `
-  "image": {
-    "@type": "ImageObject",
-    "url": "${props.data.site.siteMetadata.siteUrl}${page.image}"
-    },
-  `
-  }
-  "author": {
-  "@type": "Person",
-  "name": "${author.name}"
-  },
-  "publisher": {
-  "@type": "Organization",
-  "name": "Bright Inventions",
-  "logo": {
-  "@type": "ImageObject",
-  "url": "https://brightinventions.pl/images/logo-small.png",
-  "width": 157,
-  "height": 60
-  }
-  },
-  "datePublished": "${page.date}"
-  }
-        `,
-        }}
-      />
     </Page>
   )
 }
