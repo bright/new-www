@@ -10,9 +10,8 @@ const HelmetWrapper: React.FC<HelmetWrapperProps> = props => {
   return (
     <Helmet>
       <title>{props.title} | Bright Inventions</title>
-      {props.description && (
-        <meta name="description" content={props.description} />
-      )}
+      {props.description && <meta name="description" content={props.description} />}
+      {props.children}
     </Helmet>
   )
 }
