@@ -56,6 +56,8 @@ export default function Template(props: {
             <HelmetWrapper title={page.title} description={markdownRemark.excerpt}>
                 <meta property="og:title" content={markdownRemark.frontmatter.title} />
                 <meta property="og:description" content={markdownRemark.excerpt} />
+                <meta property="og:url" content={props.data.site.siteMetadata.siteUrl + props.path} />
+                <meta property="og:site_name" content="Bright Inventions" />
                 <meta property="og:type" content="article" />
                 <meta property="article:published_time" content={markdownRemark.frontmatter.date} />
                 <meta property="article:author" content={markdownRemark.frontmatter.author} />
