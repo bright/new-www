@@ -4,7 +4,7 @@ title: Brief introduction to transfer learning
 author: radeks
 crosspost: true
 hidden: false
-image: /images/brief-introduction-to-transfer-learning/top.png
+image: /images/brief-introduction-to-transfer-learning/brief-introduction-to-transfer-learning:top.jpg
 tags: ['deep learning', 'image classification', 'transfer learning']
 ---
 
