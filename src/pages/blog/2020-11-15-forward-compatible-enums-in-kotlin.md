@@ -1,4 +1,5 @@
 ---
+crosspost: true
 layout: post
 title: Forward compatible enums in Kotlin
 date: 2020-11-15T20:00:00.000Z
@@ -9,7 +10,6 @@ tags:
   - kotlin
   - serialization
   - forward compatibility
-crosspost: true
 hidden: true
 comments: true
 published: false
@@ -235,7 +235,5 @@ will make your life much easier.
 _Note: codified version `1.1` uses `kotlinx.serialization` version
 `0.20.0`. Support for version `1.0.0` and later is coming soon._
 
-_Image by <a
-href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2933016">Gerd
-Altmann</a> from <a
-href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2933016">Pixabay</a>_
+_Image by [Gerd
+Altmann](https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2933016) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2933016)_
