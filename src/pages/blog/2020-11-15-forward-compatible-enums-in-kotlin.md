@@ -236,4 +236,4 @@ _Note: codified version `1.1` uses `kotlinx.serialization` version
 `0.20.0`. Support for version `1.0.0` and later is coming soon._
 
 _Image by [Gerd
-Altmann](https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2933016) from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2933016)_
+Altmann](https://pixabay.com/users/geralt-9301/) from [Pixabay](https://pixabay.com/)_
