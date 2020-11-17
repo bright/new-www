@@ -2,7 +2,7 @@
 crosspost: true
 layout: post
 title: Forward compatible enums in Kotlin
-date: 2020-11-15T20:00:00.000Z
+date: 2020-11-17T18:49:00.000Z
 image: /images/forward-compatible-enums-in-kotlin/turn-on-2933016_1280.jpg
 author: azabost
 tags:
@@ -10,9 +10,9 @@ tags:
   - kotlin
   - serialization
   - forward compatibility
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 ---
 A few years ago Adam outlined
 [8 steps to keep your API sane](https://brightinventions.pl/blog/8-steps-to-keep-your-api-sane)
