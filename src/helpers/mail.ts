@@ -12,6 +12,7 @@ export async function sendMail(
   },
   formType: FormType
 ) {
+  console.log(data)
   const formData = new FormData()
   for (const key in data) {
     if (data.hasOwnProperty(key)) {
@@ -19,7 +20,6 @@ export async function sendMail(
       formData.append(key, element.value)
     }
   }
-
   if (formType === "contact" || formType === "start-a-project") {
     return fetch(
       "https://prod-38.northeurope.logic.azure.com/workflows/1d03b23263424a8a8bef4287c5c50add/triggers/manual/paths/invoke/contact?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=uAHDF64Wovfav_yXqKz2l2m_MZ-f9kAzDx6i49kDGq0",

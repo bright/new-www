@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 interface BackButtonProps {
   url: string
@@ -7,12 +8,12 @@ interface BackButtonProps {
 
 const BackButton: React.FC<BackButtonProps> = props => {
   return (
-    <a href={props.url} className="button is-white">
+    <Link to={props.url} className="button is-white">
       <span className="icon is-small">
         <img src="/images/arrow-back.svg" />
       </span>{" "}
       <span>{props.label}</span>
-    </a>
+    </Link>
   )
 }
 

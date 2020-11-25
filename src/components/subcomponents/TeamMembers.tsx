@@ -1,6 +1,61 @@
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
+import styled from "styled-components"
 
+const TeamMember = styled.article`
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  color: black;
+  width: 100%;
+  min-width: 364px;
+  max-width: 364px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  && a {
+    display: grid;
+    gap: 1.675rem;
+    color: black;
+    p {
+      margin: 0;
+    }
+
+    div {
+      display: grid;
+      gap: 10px;
+      padding-bottom: 42px;
+      p strong {
+        font-size: 2rem;
+        line-height: 39px;
+      }
+      p:nth-child(2) {
+        font-size: 1.25rem;
+        line-height: 24px;
+      }
+      p:last-child {
+        font-size: 1.125rem;
+        line-height: 22px;
+        color: #131214;
+        opacity: 0.75;
+      }
+    }
+  }
+  && figure {
+    margin: 0;
+    img {
+      width: 100%;
+    }
+  }
+`
+const Container = styled.div`
+  display: flex;
+  max-width: 1650px;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 4rem;
+  margin-bottom: 122px;
+`
 const TeamMembers = () => {
   const {
     allMarkdownRemark: { nodes },
@@ -16,36 +71,35 @@ const TeamMembers = () => {
             author_id
             name
             short_name
+            bio
+            hobby
           }
         }
       }
     }
   `)
   return (
-    <div className="columns is-multiline team-members">
+    <Container>
       {nodes.map(v => {
         const member = v.frontmatter
         return (
-          <div className="column team-member">
-            <a
-              href={"/about-us/" + member.author_id}
-              className="is-flex has-items-centered has-direction-column"
-            >
-              <figure className="image is-100x100 container">
-                <img
-                  className="is-rounded"
-                  src={member.avatar}
-                  alt={member.name}
-                />
+          <TeamMember>
+            <Link to={"/about-us/" + member.author_id}>
+              <figure>
+                <img src={member.avatar} alt={member.name} />
               </figure>
-              <p className="is-size-5 has-text-weight-bold">
-                {member.short_name}
-              </p>
-            </a>
-          </div>
+              <div>
+                <p>
+                  <strong>{member.short_name}</strong>
+                </p>
+                <p>{member.bio}</p>
+                <p>{member?.hobby}</p>
+              </div>
+            </Link>
+          </TeamMember>
         )
       })}
-    </div>
+    </Container>
   )
 }
 

@@ -1,8 +1,8 @@
-import React, {useRef, useState} from 'react'
+import React, { useRef, useState } from "react"
 
-import {Page} from '../layout/Page'
-import BackButton from '../components/subcomponents/BackButton'
-import {FormType, sendMail} from '../helpers/mail'
+import { Page } from "../layout/Page"
+import BackButton from "../components/subcomponents/BackButton"
+import { FormType, sendMail } from "../helpers/mail"
 
 const ApplyForJobPage: React.FC = () => {
   const [name, setName] = useState("")
