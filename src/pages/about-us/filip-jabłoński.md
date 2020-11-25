@@ -1,13 +1,13 @@
 ---
 layout: member
-author_id: filip jablonski
+author_id: fjablonski
 ex: false
 slug: filip
 name: Filip Jabłoński
 short_name: Filip
 email: filip.jablonski@brightinventions.pl
 bio: "iOS developer @ Bright Inventions "
-description: iOS programmer 
+description: iOS programmer
 avatar: /images/filip_jablonski.jpeg
 published: true
 ---
