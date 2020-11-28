@@ -1,11 +1,24 @@
 ---
 layout: post
 title: Rules of Bright Development
-excerpt: Every year we work at Bright on many mobile and web development projects. It is a challenge to build a good quality software in an agile way and at the same time solve all potential problems and keep your workflow under control, but we do that. In fact, we manage to do that thanks to applying some important rules. Check below what makes our work bright and effective.
+excerpt: >-
+  Every year we work at Bright on many mobile and web development projects. It
+  is a challenge to build a good quality software in an agile way and at the
+  same time solve all potential problems and keep your workflow under control,
+  but we do that. In fact, we manage to do that thanks to applying some
+  important rules. Check below what makes our work bright and effective.
 author: ula
 hidden: false
 image: /images/bright_rules.jpg
-tags: [code-review, TDD, SOLID, mobile, web, software] 
+tags:
+  - code-review
+  - TDD
+  - SOLID
+  - mobile
+  - web
+  - software
+date: '2018-06-10T22:00:00.000Z'
+published: true
 ---
 Every year we work at Bright Inventions on many mobile and web development projects. It is a challenge to build a good quality software in an agile way and at the same time solve all potential problems and keep your workflow under control, but we do that. In fact, we manage to do that thanks to applying some important rules. Check below what makes our work bright and effective.
 

@@ -5,8 +5,11 @@ image: /images/creating-simple-drawables-in-android-studio/desk-office-pen-ruler
 author: azabost
 hidden: false
 crosspost: true
-tags: [Android]
+tags:
+  - Android
 comments: true
+date: '2017-10-18T22:00:00.000Z'
+published: true
 ---
 
 Using vector drawables is often much better than bitmap images for two reasons: they scale without losing definition and you need only one asset file which fits all screen densities.

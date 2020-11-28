@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Anchor child element click"
-date: 2015-01-25 17:00:00
-tags: [html, javascript]
+title: Anchor child element click
+date: 2015-01-25T17:00:00.000Z
+tags:
+  - html
+  - javascript
 comments: true
 author: piotr
+published: true
 ---
 
 I had to solve a seemingly trivial bug in an angularjs based application that turned out to be more interesting than usual.

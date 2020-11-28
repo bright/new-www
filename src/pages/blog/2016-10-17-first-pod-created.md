@@ -2,8 +2,13 @@
 layout: post
 title: My first Cocoapod created
 author: kwysocki
-tags : [iOS, swift, cocoapods]
+tags:
+  - iOS
+  - swift
+  - cocoapods
 comments: true
+date: '2016-10-16T22:00:00.000Z'
+published: true
 ---
 
 

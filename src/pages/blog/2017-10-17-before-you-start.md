@@ -4,7 +4,13 @@ title: Before you start
 comments: false
 author: piotr_l
 hidden: true
-tags: [UX, iOS, Android, mobile]
+tags:
+  - UX
+  - iOS
+  - Android
+  - mobile
+date: '2017-10-16T22:00:00.000Z'
+published: true
 ---
 ![Image Title](/images/before-you-start/ux.jpg){: .center-image}
 ## This one is going to be short. And basic.

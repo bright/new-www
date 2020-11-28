@@ -1,11 +1,15 @@
 ---
 layout: post
 title: From React to React-Redux in a few steps
-tags: [React, Redux]
+tags:
+  - React
+  - Redux
 comments: true
 author: eliasz
 hidden: false
-excerpt:
+excerpt: null
+date: '2018-02-08T23:00:00.000Z'
+published: true
 ---
 
 In this post I'm going to focus on connecting `React` components with `Redux`. If you are just starting out with `React + Redux` or you have already worked with these before, but want to make this concept a bit clearer then feel invited to read this post till the end ;)

@@ -2,9 +2,24 @@
 layout: post
 title: Bright Networking Time
 author: agnieszka_h
-excerpt: Networking gives you the chance to connect with new highly influential people easily, people who wouldn’t connect with you just through a cold email or a LinkedIn invitation. It’s a chance where you can build long term business relationships and to strengthen the relationship with old connections which could formulate into business growth. Not only can you build new connections but also the ability to gain new knowledge and receive advice that you were not able to get a hold off. Some people feel stressed, nervous about networking and speaking to new people, don’t be, just be yourself and have fun.
+excerpt: >-
+  Networking gives you the chance to connect with new highly influential people
+  easily, people who wouldn’t connect with you just through a cold email or a
+  LinkedIn invitation. It’s a chance where you can build long term business
+  relationships and to strengthen the relationship with old connections which
+  could formulate into business growth. Not only can you build new connections
+  but also the ability to gain new knowledge and receive advice that you were
+  not able to get a hold off. Some people feel stressed, nervous about
+  networking and speaking to new people, don’t be, just be yourself and have
+  fun.
 hidden: false
-tags: [networking, business, startups, cooperation] 
+tags:
+  - networking
+  - business
+  - startups
+  - cooperation
+date: '2018-12-18T23:00:00.000Z'
+published: true
 ---
 
 Networking is an extremely important part in business as it allows us to build relationships with people we know or have met for the first time. It allows us to understand the market opportunities, improve our communication skills, make great friends and build business opportunities and investment in the long term. During my first months at Bright Inventions, I have spent a lot of time attending educational and inspiring conferences and trade shows in London. Which are worth visiting? Let us take a look.

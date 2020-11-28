@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Fetching contacts with CNContactStore
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2016-02-04T23:00:00.000Z'
+published: true
 ---
  
 Since iOS 9.0 we have a new nice method of fetching and saving contacts - CNContactStore!

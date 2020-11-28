@@ -1,11 +1,18 @@
 ---
 layout: post
-excerpt: "Since version 1.1 of Android Gradle Plugin we can run unit test on a local JVM on our development machine. In this article I'll demonstrate how to make local resources available in unit test case."
-title: "Using the file resources in Android POJO unit test"
-modified: 2015-04-13
-tags: [android, unit-testing]
+excerpt: >-
+  Since version 1.1 of Android Gradle Plugin we can run unit test on a local JVM
+  on our development machine. In this article I'll demonstrate how to make local
+  resources available in unit test case.
+title: Using the file resources in Android POJO unit test
+modified: 2015-04-13T00:00:00.000Z
+tags:
+  - android
+  - unit-testing
 comments: true
 author: mateuszklimek
+date: '2015-04-12T22:00:00.000Z'
+published: true
 ---
 Since version 1.1 of Android Gradle Plugin we can run unit test on a local JVM on our development machine. It's still [experimental](http://tools.android.com/tech-docs/unit-testing-support) feature but I've found it's fully usable.<br/>
 Finally Android developers have lighweight build-in tool for unit testing :)<br />

@@ -1,11 +1,16 @@
 ---
 layout: post
-excerpt: "In the fourth post in the iOS layouts for web developers series it's time for something more lightweight. We’ll go through various visual aspects of the controls and see how we can set it up, compared to CSS."
-title: "iOS layouts for web developers #4 - CSS properties replacements"
-date: 2015-04-10
-tags: [iOS]
+excerpt: >-
+  In the fourth post in the iOS layouts for web developers series it's time for
+  something more lightweight. We’ll go through various visual aspects of the
+  controls and see how we can set it up, compared to CSS.
+title: 'iOS layouts for web developers #4 - CSS properties replacements'
+date: 2015-04-10T00:00:00.000Z
+tags:
+  - iOS
 comments: true
 author: adam
+published: true
 ---
 
 This is the fourth post in the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/). The previous ones were about [the controls](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/), [control positioning](/blog/ios-layouts-for-web-developers-2-control-positioning/) and [managing the appearance](/blog/ios-layouts-for-web-developers-3-managing-appearance/). This time something more lightweight, I hope. We’ll go through various visual aspects of the controls and see how we can set it up, compared to CSS. Let’s start with the basics - margin and padding.

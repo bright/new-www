@@ -1,11 +1,17 @@
 ---
 layout: post
-title: 'Can Dysfunctions be Bright'
+title: Can Dysfunctions be Bright
 excerpt: Thoughts on management and team building
 author: monika
-tags : [management, team, leadership, Lencioni]
+tags:
+  - management
+  - team
+  - leadership
+  - Lencioni
 comments: true
 hidden: false
+date: '2017-10-09T22:00:00.000Z'
+published: true
 ---
 
 ![Image Title](/images/can-disfunctions-be-bright/team.png){: .center-image}

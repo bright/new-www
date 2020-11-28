@@ -1,9 +1,12 @@
 ---
 layout: post
 title: ReactiveCocoa 4 - Signal
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2016-01-28T23:00:00.000Z'
+published: true
 ---
 
 Today, let's take a look at basic aspect of ReactiveCocoa - Signal.

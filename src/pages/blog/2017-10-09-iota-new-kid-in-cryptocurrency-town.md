@@ -1,10 +1,20 @@
 ---
 layout: post
 title: IOTA - a new kid in the cryptocurrency town
-excerpt: At Bright Inventions, we always try to keep focus on the bleeding-edge technologies and innovations. We are especially interested in cryptocurrencies and its prospective wide usage in the industry, not only as a payment method. We already have some experience with Ethereum and Hyperledger as a Blockchain-based app platform, so we were curious what can IOTA offer.
-tags: ['iota', 'blockchain', 'cryptocurrency']
+excerpt: >-
+  At Bright Inventions, we always try to keep focus on the bleeding-edge
+  technologies and innovations. We are especially interested in cryptocurrencies
+  and its prospective wide usage in the industry, not only as a payment method.
+  We already have some experience with Ethereum and Hyperledger as a
+  Blockchain-based app platform, so we were curious what can IOTA offer.
+tags:
+  - iota
+  - blockchain
+  - cryptocurrency
 comments: true
 author: adam
+date: '2017-10-08T22:00:00.000Z'
+published: true
 ---
 
 At Bright Inventions, we always try to keep focus on the bleeding-edge technologies and innovations. We are especially interested in cryptocurrencies and its prospective wide usage in the industry, not only as a payment method. We already have some experience with [Ethereum](https://www.ethereum.org/) and [Hyperledger](https://www.hyperledger.org/) as a Blockchain-based app platform, so we were curious what can [IOTA](http://iota.org/) offer.

@@ -1,11 +1,21 @@
 ---
 layout: post
-title: Would Blockchain lie to you? 
-excerpt: Our vision at Bright has always been to share and transfer knowledge to other aspiring minds who are eager to take their skills to the next level and BEST Summer Technology Course was a great way to do it.
+title: Would Blockchain lie to you?
+excerpt: >-
+  Our vision at Bright has always been to share and transfer knowledge to other
+  aspiring minds who are eager to take their skills to the next level and BEST
+  Summer Technology Course was a great way to do it.
 author: ula
 hidden: false
 image: /images/Blockchain_workshops.jpg
-tags: [Blockchain, Ethereum, Truffle, Node.js, MainNet]
+tags:
+  - Blockchain
+  - Ethereum
+  - Truffle
+  - Node.js
+  - MainNet
+date: '2018-07-11T22:00:00.000Z'
+published: true
 ---
 Some people are sitting on a beach in summer, and some are learning Blockchain. Can you do both at the same time? The answer is YES. :)
 

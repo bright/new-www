@@ -1,9 +1,14 @@
 ---
 layout: post
 title: Professionals also make mistakes
-tags: [coding, programming, selfdevelopment]
+tags:
+  - coding
+  - programming
+  - selfdevelopment
 comments: true
 author: ula
+date: '2017-03-02T23:00:00.000Z'
+published: true
 ---
 
 We have nowadays many IT professionals, but let us think for a second what being an IT professional actually means. Is it only about being very good at programming? Is it about taking care of your code every night and day? Or maybe it is about wearing a suit and taking part in all possible IT events? In fact, being very good at programming is not enough to call yourself a professional developer. Professionalism needs something more than that. It is not only about being very good. Being a professional involves having great skills, but I dare to sat that not only skills are important here. 

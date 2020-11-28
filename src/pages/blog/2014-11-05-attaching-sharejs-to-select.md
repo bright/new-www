@@ -1,11 +1,19 @@
 ---
 layout: post
-excerpt: "One thing that I found missing in ShareJS library was the possibility to attach live concurrent editing to HTML &lt;select&gt; element. Out of the box it works only with text fields - &lt;input&gt; and &lt;textarea&gt;. Here is the workaround."
+excerpt: >-
+  One thing that I found missing in ShareJS library was the possibility to
+  attach live concurrent editing to HTML &lt;select&gt; element. Out of the box
+  it works only with text fields - &lt;input&gt; and &lt;textarea&gt;. Here is
+  the workaround.
 title: Attaching ShareJS to select HTML element
-modified: 2014-11-05
-tags: [sharejs, javascript]
+modified: 2014-11-05T00:00:00.000Z
+tags:
+  - sharejs
+  - javascript
 comments: true
 author: adam
+date: '2014-11-04T23:00:00.000Z'
+published: true
 ---
 
 One thing that I found missing in [ShareJS](http://sharejs.org/) library was the possibility to attach live concurrent editing to HTML `<select>` element. Out of the box it works only with text fields - `<input>` and `<textarea>` using `doc.attachTextarea(elem)` function.

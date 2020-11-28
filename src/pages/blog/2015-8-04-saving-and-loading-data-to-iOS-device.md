@@ -1,9 +1,12 @@
 ---
 layout: post
 title: NSKeyedArchiver/Unarchiver
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2015-08-03T22:00:00.000Z'
+published: true
 ---
 Lately I've spent some time wrtiting an app for myself. It is supposed to let you create tasks, mark them as done/undone and then track your progress. I've called it "Habit Tracker" and it is available
 <a href="https://github.com/Eluss/HabitTracker" target="_blank">here</a>. While writing this utility I came across a few interesting issues and this blogpost will cover one of them.

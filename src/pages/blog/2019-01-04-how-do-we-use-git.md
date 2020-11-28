@@ -1,11 +1,20 @@
 ---
 layout: post
-title:  How do we use Git at Bright Inventions?
-excerpt: Even though at Bright Inventions we use a number of technologies and work on multiple software stacks, we have a few practices that are common and widely accepted across all projects and stacks. One of these things is how we use source control, namely Git. Some parts of our workflow is highly subjective and some might even be regarded as controversial or suboptimal. Let me guide you through our process and explain some of our rationales.
-tags: [git]
+title: How do we use Git at Bright Inventions?
+excerpt: >-
+  Even though at Bright Inventions we use a number of technologies and work on
+  multiple software stacks, we have a few practices that are common and widely
+  accepted across all projects and stacks. One of these things is how we use
+  source control, namely Git. Some parts of our workflow is highly subjective
+  and some might even be regarded as controversial or suboptimal. Let me guide
+  you through our process and explain some of our rationales.
+tags:
+  - git
 comments: true
 author: adam
 image: /images/git/wild-merges.png
+date: '2019-01-03T23:00:00.000Z'
+published: true
 ---
 
 Even though at Bright Inventions we use a number of technologies and work on multiple software stacks, we have a few practices that are common and widely accepted across all projects and stacks. One of these things is how we use source control, namely Git. Some parts of our workflow is highly subjective and some might even be regarded as controversial or suboptimal. Let me guide you through our process and explain some of our rationales.

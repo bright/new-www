@@ -3,8 +3,13 @@ layout: post
 title: iOS deep linking
 author: mateusz
 hidden: true
-tags: ['ios', 'deep linking', 'swift']
+tags:
+  - ios
+  - deep linking
+  - swift
 comments: true
+date: '2018-01-01T23:00:00.000Z'
+published: true
 ---
 
 // Intro

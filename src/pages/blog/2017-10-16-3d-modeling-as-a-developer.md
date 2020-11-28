@@ -2,8 +2,13 @@
 layout: post
 title: 3d modeling as a developer
 author: pawel
-tags: ['3d modeling', 'CAD', 'OpenSCAD']
+tags:
+  - 3d modeling
+  - CAD
+  - OpenSCAD
 comments: true
+date: '2017-10-15T22:00:00.000Z'
+published: true
 ---
 As a developer, 3d modeling was something that I had always wanted to&nbsp;try since it was something that I needed to visualize the final product or to create prototypes in my DIY projects. For a long time I've been searching for a perfect CAD, but none of them were ideal for&nbsp;me.
 During one of my talks with a colleague of mine, he mentioned something about TinkerCAD, Fusion360 and OpenSCAD. The last one immediately got my attention as it had "open" in its name. I asked him to elaborate on that but "that's geeky stuff" was all that he said. I've decided then to look it up since I had a feeling that it might be something for me...

@@ -4,8 +4,13 @@ title: A few things I like about React Native. And a few I don't.
 author: azabost
 hidden: false
 crosspost: true
-tags: [React Native, iOS, Android]
+tags:
+  - React Native
+  - iOS
+  - Android
 comments: true
+date: '2017-10-15T22:00:00.000Z'
+published: true
 ---
 
 React Native is still a hot topic at the company. After spending some time with it, many of us have some thoughts and I think there is still a lot to say about it so I would like to share some of my observations and feelings.

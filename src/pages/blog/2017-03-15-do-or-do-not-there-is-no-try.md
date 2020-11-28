@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Do or do not. There is no try. 
-tags: [programming, coding, teamwork]
+title: Do or do not. There is no try.
+tags:
+  - programming
+  - coding
+  - teamwork
 comments: true
 image: /images/do-or-do-not-there-is-no-try/photo1.jpg
 author: ula
+date: '2017-03-14T23:00:00.000Z'
+published: true
 ---
 
 LUKE:  Master, moving stones around is one thing. This is totally different!  

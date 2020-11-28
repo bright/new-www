@@ -1,11 +1,18 @@
 ---
 layout: post
-excerpt: "Continuing the series of posts that looks into the iOS world from the web developer perspective. In the second post we're discussing multiple approaches to setting up where and how the controls on iOS are displayed and how it differs from HTML document flow."
-title: "iOS layouts for web developers #2 - control positioning"
-modified: 2015-03-24
-tags: [iOS]
+excerpt: >-
+  Continuing the series of posts that looks into the iOS world from the web
+  developer perspective. In the second post we're discussing multiple approaches
+  to setting up where and how the controls on iOS are displayed and how it
+  differs from HTML document flow.
+title: 'iOS layouts for web developers #2 - control positioning'
+modified: 2015-03-24T00:00:00.000Z
+tags:
+  - iOS
 comments: true
 author: adam
+date: '2015-03-23T23:00:00.000Z'
+published: true
 ---
 
 In the [first part](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/) of the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/) I’ve discussed controls as the basic building blocks that comprises the layout in iOS world and how that compares to HTML. I haven’t tackled anything about how and where these controls are drawn on the screen. The matter is complex enough so that here is the separate post only about it.

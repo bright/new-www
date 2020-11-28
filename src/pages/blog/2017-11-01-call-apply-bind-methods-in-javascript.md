@@ -1,10 +1,16 @@
 ---
 layout: post
-title: call(), apply() and bind() Methods in JavaScript
+title: 'call(), apply() and bind() Methods in JavaScript'
 author: monika
-tags: ['javascript', 'bind', 'apply', 'call']
+tags:
+  - javascript
+  - bind
+  - apply
+  - call
 hidden: false
 comments: true
+date: '2017-10-31T23:00:00.000Z'
+published: true
 ---
 
 Working with JavaScript 'this' keyword can be tricky. Not knowing the background rules may end up with the famous “it doesn’t work and I don’t know why”. It’s good to know the theory before putting things into practice. ['call()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Function/call),  ['apply()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Function/apply)  and ['bind()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) methods can come in handy while setting the 'this' value.

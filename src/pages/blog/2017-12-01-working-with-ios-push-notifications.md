@@ -2,9 +2,15 @@
 layout: post
 title: Working with iOS push notifications
 author: mateusz
-tags: ['ios', 'push notifications', 'firebase', 'swift']
+tags:
+  - ios
+  - push notifications
+  - firebase
+  - swift
 image: /images/working-with-ios-push-notifications/1_2ngvD9Tqp3TXjdWwVDMqEQ.jpeg
 comments: true
+date: '2017-11-30T23:00:00.000Z'
+published: true
 ---
 
 Push notifications, also known as remote notifications, are a tremendously useful feature of mobile applications. They can be used for sending users marketing offers, increase users engagement by providing a personalised content, implementing a chat or even triggering some action to be performed in the background. And what's really useful, users don't have to keep their app opened.

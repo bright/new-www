@@ -5,7 +5,9 @@ image: /images/self-code-review/image.jpg
 author: agnieszka
 hidden: false
 tags:
-    - code review
+  - code review
+date: '2018-06-27T22:00:00.000Z'
+published: true
 ---
 
 Once I was a child my parents were convincing me that it was  worth double checking both my homework as well as tests before handing them in, to catch errors and fix them. It soon became a habit for me. The habit that once evaluated into a self code review process :)

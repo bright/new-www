@@ -1,14 +1,28 @@
 ---
 layout: post
-title: 'Slack + Fastlane = ❤️. About one of Continuous Integration puzzles.'
-excerpt: 'Professional development process consists of many puzzles. Some of these puzzles can be: unit testing, choosing good architecture, clean code, continuous integration and many  more.
-In this post I will focus on one of these puzzles - Continuous Integration(CI). An integral part of CI in iOS Development process is a great tool called Fastlane.
-Fastlane is a powerful engine which handles a number of tasks like - dealing with code signing, creating `.ipa` files, generating screenshots to AppStore and much more. One of the cool feature of Fastlane is a Slack integration - and this is what I wanted to write about.'
+title: Slack + Fastlane = ❤️. About one of Continuous Integration puzzles.
+excerpt: >-
+  Professional development process consists of many puzzles. Some of these
+  puzzles can be: unit testing, choosing good architecture, clean code,
+  continuous integration and many  more. In this post I will focus on one of
+  these puzzles - Continuous Integration(CI). An integral part of CI in iOS
+  Development process is a great tool called Fastlane. Fastlane is a powerful
+  engine which handles a number of tasks like - dealing with code signing,
+  creating `.ipa` files, generating screenshots to AppStore and much more. One
+  of the cool feature of Fastlane is a Slack integration - and this is what I
+  wanted to write about.
 author: kwysocki
-tags : [iOS, swift, fastlane, slack, continuous integration]
+tags:
+  - iOS
+  - swift
+  - fastlane
+  - slack
+  - continuous integration
 comments: true
 hidden: false
 image: /images/slack-fastlane/puzzle.jpg
+date: '2017-10-25T22:00:00.000Z'
+published: true
 ---
 
 ![Image with puzzle](/images/slack-fastlane/puzzle.jpg){: .center-image}

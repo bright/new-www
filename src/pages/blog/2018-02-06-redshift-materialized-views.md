@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Redshift Materialized Views
-tags: [redshift]
+tags:
+  - redshift
 comments: true
 hidden: false
 author: agnieszka
 image: /images/redshift-materialized-views/image1.jpg
+date: '2018-02-05T23:00:00.000Z'
+published: true
 ---
 
 It is often convenient to create a view upon your normalized schema to join and aggregate the data, especially when it requires a complicated query.

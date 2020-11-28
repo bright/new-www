@@ -1,13 +1,19 @@
 ---
 layout: post
-excerpt: "VideoView is the most straightforward way to show video content in layout. <br />
-It took a few lines of code to setup and show for example mp4 file. <br />
-It's fine when you don't care about UX too much, but when you do, things are going to be annoying."
+excerpt: >-
+  VideoView is the most straightforward way to show video content in layout. <br
+  /> It took a few lines of code to setup and show for example mp4 file. <br />
+  It's fine when you don't care about UX too much, but when you do, things are
+  going to be annoying.
 title: How to avoid flickering and black screen issues when using VideoView?
-modified: 2015-01-11
-tags: [android, videoview]
+modified: 2015-01-11T00:00:00.000Z
+tags:
+  - android
+  - videoview
 comments: true
 author: mateuszklimek
+date: '2015-01-10T23:00:00.000Z'
+published: true
 ---
 
 VideoView is the most straightforward way to show video content in layout. <br />

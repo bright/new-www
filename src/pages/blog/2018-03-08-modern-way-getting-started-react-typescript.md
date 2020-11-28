@@ -1,12 +1,21 @@
 ---
 layout: post
 title: The modern way of getting started with React and TypeScript
-excerpt: One of the prerequisites for a healthy and sustainable tech stack that reduces the risk of our project quickly getting obsolete is a tooling and automation around the mundane chores. Out of the tools fatigue JavaScript world suffered few months back the new generation solution was born at Facebook for React.
-tags: [React, TypeScript, web]
+excerpt: >-
+  One of the prerequisites for a healthy and sustainable tech stack that reduces
+  the risk of our project quickly getting obsolete is a tooling and automation
+  around the mundane chores. Out of the tools fatigue JavaScript world suffered
+  few months back the new generation solution was born at Facebook for React.
+tags:
+  - React
+  - TypeScript
+  - web
 comments: true
 author: adam
 hidden: false
 image: /images/react-ts/cra-ts.png
+date: '2018-03-07T23:00:00.000Z'
+published: true
 ---
 
 One of the prerequisites for a healthy and sustainable tech stack that reduces the risk of our project quickly getting obsolete is a tooling and automation around the mundane chores. Few months back the JavaScript world suffered from the tools fatigue when the brand new solutions to the build and configuration automation problem popped up daily, each with its own learning curve.

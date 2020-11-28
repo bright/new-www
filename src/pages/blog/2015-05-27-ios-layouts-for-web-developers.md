@@ -1,11 +1,18 @@
 ---
 layout: post
-excerpt: "Recently I had an opportunity to dive into an iOS development and while I enjoy it, I miss a lot of things from the web development world. I was looking for an iOS begginer guide targeted specifically to the web developers like me, but I haven't found any. This is how the idea for this series of blog posts was born."
-title: "iOS layouts for web developers"
-date: 2015-05-27
-tags: [iOS]
+excerpt: >-
+  Recently I had an opportunity to dive into an iOS development and while I
+  enjoy it, I miss a lot of things from the web development world. I was looking
+  for an iOS begginer guide targeted specifically to the web developers like me,
+  but I haven't found any. This is how the idea for this series of blog posts
+  was born.
+title: iOS layouts for web developers
+date: 2015-05-27T00:00:00.000Z
+tags:
+  - iOS
 comments: true
 author: adam
+published: true
 ---
 
 Almost all of my past development experience is centered around the web. Just recently I had an opportunity to dive into an iOS development and while I enjoy it, I miss a lot of things from the web development world. I've quickly discovered that applying the techniques and approaches directly from the web is often not possible. Sometimes I had to switch to the different mindset than the one I'm used to. To make things easier, I was looking for an iOS begginer guide targeted specifically to the web developers like me, but I haven't found any. This is how the idea for this series of blog posts was born.

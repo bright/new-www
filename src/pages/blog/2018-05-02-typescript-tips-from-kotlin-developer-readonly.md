@@ -2,10 +2,16 @@
 layout: post
 title: TypeScript tips from Kotlin developer - readonly
 author: piotr
-tags: [TypeScript, Kotlin, readonly, immutability]
+tags:
+  - TypeScript
+  - Kotlin
+  - readonly
+  - immutability
 comments: true
 crosspost: false
 image: /images/kotlin/kotlin-logo.png
+date: '2018-05-01T22:00:00.000Z'
+published: true
 ---
 
 Last time I wrote about using [`const` in TypeScript]({% post_url 2018-04-11-typescript-tips-from-kotlin-developer-const %}). This time I will focus on another TypeScript keyword that aids immutability: `readonly`.

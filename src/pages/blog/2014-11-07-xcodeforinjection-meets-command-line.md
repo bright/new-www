@@ -1,11 +1,21 @@
 ---
 layout: post
-excerpt: "Meet Injection Helper, a small utility for making InjectionForXcode more friendly to use. Get rid of superfluous messages and a flood of XCode windows opened any time you patch/revert your project."
+excerpt: >-
+  Meet Injection Helper, a small utility for making InjectionForXcode more
+  friendly to use. Get rid of superfluous messages and a flood of XCode windows
+  opened any time you patch/revert your project.
 title: InjectionForXcode meets command line
-modified: 2014-11-07
-tags: [ios, appcode, xcode, injectionforxcode, gem]
+modified: 2014-11-07T00:00:00.000Z
+tags:
+  - ios
+  - appcode
+  - xcode
+  - injectionforxcode
+  - gem
 comments: true
 author: michal
+date: '2014-11-06T23:00:00.000Z'
+published: true
 ---
 
 I find [InjectionForXcode](http://injectionforxcode.com/) to be an indispensable tool in my daily iOS development. It works brilliantly but generates a lot of noise that I just couldn’t cope with.

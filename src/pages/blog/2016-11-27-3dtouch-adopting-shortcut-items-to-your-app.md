@@ -2,8 +2,13 @@
 layout: post
 title: 3D Touch - Adopting shortcut items to your app.
 author: kwysocki
-tags : [iOS, swift, 3d touch]
+tags:
+  - iOS
+  - swift
+  - 3d touch
 comments: true
+date: '2016-11-26T23:00:00.000Z'
+published: true
 ---
 
 With the beginning of the iPhone 6s, Apple has introduced a 3D Touch mechanism which is very cool thing. The 3D Touch is also available on

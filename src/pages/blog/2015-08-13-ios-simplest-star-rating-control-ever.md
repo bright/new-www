@@ -1,11 +1,18 @@
 ---
 layout: post
 title: 'iOS: The simplest star rating control ever'
-date: 2015-08-13
-tags: [iOS]
+date: 2015-08-13T00:00:00.000Z
+tags:
+  - iOS
 comments: true
 author: adam
-excerpt: "Recently I needed to show the simple rating control in one of our iOS apps - the typical row of stars, few leftmost highlighted, the more highlighted, the better the rating is. My first thoughts were wandering around star images one after another, the hell with positioning with frames or multitude of Auto Layout constraints. Nah. I ended up with something much easier and elegant."
+excerpt: >-
+  Recently I needed to show the simple rating control in one of our iOS apps -
+  the typical row of stars, few leftmost highlighted, the more highlighted, the
+  better the rating is. My first thoughts were wandering around star images one
+  after another, the hell with positioning with frames or multitude of Auto
+  Layout constraints. Nah. I ended up with something much easier and elegant.
+published: true
 ---
 
 Recently I had a need to show the simple rating control in one of our iOS apps - the typical row of stars, few leftmost highlighted, the more highlighted, the better the rating is - something as obvious as this:

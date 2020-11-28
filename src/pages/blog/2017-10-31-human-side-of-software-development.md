@@ -1,10 +1,21 @@
 ---
 layout: post
 title: The human side of software development
-tags: [culture, career, stress]
+tags:
+  - culture
+  - career
+  - stress
 comments: true
 author: eliasz
-excerpt: Getting into the world of software development can be a really demanding task. Introducing clean code, providing tests to your solution, using the right tool for the job, keeping up with latest trends... these are all things that you were most probably told about at the time that you barely knew what programming was. It seems that many people tend to neglect the side of development that hasn't got too much to do with machines...
+excerpt: >-
+  Getting into the world of software development can be a really demanding task.
+  Introducing clean code, providing tests to your solution, using the right tool
+  for the job, keeping up with latest trends... these are all things that you
+  were most probably told about at the time that you barely knew what
+  programming was. It seems that many people tend to neglect the side of
+  development that hasn't got too much to do with machines...
+date: '2017-10-30T23:00:00.000Z'
+published: true
 ---
 
 ![image](/images/human-side-of-software-development/human-side.jpeg)

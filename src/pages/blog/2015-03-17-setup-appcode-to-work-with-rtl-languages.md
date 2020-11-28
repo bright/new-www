@@ -1,11 +1,16 @@
 ---
 layout: post
-excerpt: "How to make iOS Simulator work with Right-To-Left languages when it's started from AppCode?"
-title: "Setup AppCode to start Simulator in RTL mode"
-modified: 2015-03-17
-tags: [iOS]
+excerpt: >-
+  How to make iOS Simulator work with Right-To-Left languages when it's started
+  from AppCode?
+title: Setup AppCode to start Simulator in RTL mode
+modified: 2015-03-17T00:00:00.000Z
+tags:
+  - iOS
 comments: true
 author: mateuszklimek
+date: '2015-03-16T23:00:00.000Z'
+published: true
 ---
 # Question
 How to make iOS Simulator work with Right-To-Left languages when it's started from AppCode?

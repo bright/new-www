@@ -1,11 +1,22 @@
 ---
 layout: post
-excerpt: "People around the world are waiting for Google to push Lollipop to theirs smartphones. Material Design completely changed the appearance of Android, and did it right. Material Design is really beautiful. But who says we have to wait to see Material.Theme in action? Most of features has been packed into android-support-library. Use it and build app with material for pre-lollipop devices."
-title: Playing with Material Design, Toolbar and Palette
-modified: 2014-11-11
-tags: [android, materialdesign, android-support-library]
+excerpt: >-
+  People around the world are waiting for Google to push Lollipop to theirs
+  smartphones. Material Design completely changed the appearance of Android, and
+  did it right. Material Design is really beautiful. But who says we have to
+  wait to see Material.Theme in action? Most of features has been packed into
+  android-support-library. Use it and build app with material for pre-lollipop
+  devices.
+title: 'Playing with Material Design, Toolbar and Palette'
+modified: 2014-11-11T00:00:00.000Z
+tags:
+  - android
+  - materialdesign
+  - android-support-library
 comments: true
 author: mateuszklimek
+date: '2014-11-10T23:00:00.000Z'
+published: true
 ---
 
 Since Android L(ollipop) was presented in June at [Google I/O](https://www.youtube.com/watch?v=wtLJPvx7-ys), only two devices on market can run it officially. Nexus 6 and Nexus 9 were released a week ago, and these two guys are ready to go with most recent system from Google, but what about other devices? My Nexus 5 still tryin update everyday, but still no effects :)

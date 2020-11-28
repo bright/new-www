@@ -1,9 +1,12 @@
 ---
 layout: post
 title: My thoughts on - Whisper
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2016-01-12T23:00:00.000Z'
+published: true
 ---
 
 Lately I've come across a nice pod which makes in-app messaging easier and decided to give it a quick look. I've created a test project in order to see how the pod behaves and my first impression was... "That was easy!". If you want to find out how to use this pod, check out Hyperoslo's [github](https://github.com/hyperoslo/Whisper), which shows how easy it is to start sending your messages!

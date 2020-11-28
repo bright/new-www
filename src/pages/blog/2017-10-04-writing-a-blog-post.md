@@ -3,7 +3,12 @@ layout: post
 title: Writing a blog post
 author: piotr
 hidden: true
-tags: [blog, jekyll, github]
+tags:
+  - blog
+  - jekyll
+  - github
+date: '2017-10-03T22:00:00.000Z'
+published: true
 ---
 
 Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](https://github.com/bright/new-www).

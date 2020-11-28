@@ -3,8 +3,15 @@ layout: post
 title: Walking skeleton
 author: mateusz
 hidden: false
-tags: ['agile', 'project management', 'continuous integration', 'continuous delivery', 'spike']
+tags:
+  - agile
+  - project management
+  - continuous integration
+  - continuous delivery
+  - spike
 comments: true
+date: '2017-10-05T22:00:00.000Z'
+published: true
 ---
 
 ## What satisfies your client?

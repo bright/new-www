@@ -2,9 +2,13 @@
 layout: post
 title: Navigation in React Native
 author: mateusz
-tags: ['react native', 'navigation']
+tags:
+  - react native
+  - navigation
 comments: true
 image: /images/navigation-in-react-native/navigation-1.jpeg
+date: '2018-02-22T23:00:00.000Z'
+published: true
 ---
 
 Navigation between screens is probably one of the very first concerns you will have while creating a React Native app. Once you start, you might be surprised that there is no built-in, fully featured navigation that will work on both platforms. Although [React Native recommends](https://facebook.github.io/react-native/docs/navigation.html) using [React Navigation](https://reactnavigation.org), you will quickly discover that this library is purely based on JavaScript and it does not directly use the native navigation APIs on iOS and Android. And as [another library says](https://github.com/wix/react-native-navigation#quick-links), if you are trying to deliver a user experience that is on par with the best native apps out there, you simply cannot compromise on JS-based components trying to fake the real thing.

@@ -3,10 +3,17 @@ layout: post
 title: In-memory database tests with Querydsl
 author: piotr
 hidden: false
-tags: [kotlin, querydsl, hibernate, jpa, database]
+tags:
+  - kotlin
+  - querydsl
+  - hibernate
+  - jpa
+  - database
 comments: true
 crosspost: true
 image: /images/querydsl-tests/test.jpg
+date: '2018-02-11T23:00:00.000Z'
+published: true
 ---
 
 Writing tests is an important skill of a software engineer. I used to write lots of very focused, narrow unit tests. However, I often found such tests to hinder refactoring and barely help in catching regressions. Whether such issues were caused by my poor design choices or are intrinsic to unit tests is not the focus of this post. However, the fact is that nowadays I tend to write more coarse-grained, integration style tests. There is one downside to such approach: speed. For instance, using Hibernate with a full fledged database is relatively slow compared to using a fake repository implementation. Today I write about abstracting the database access using [Querydsl](http://www.querydsl.com/) in a way that aids testing.

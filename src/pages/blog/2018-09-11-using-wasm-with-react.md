@@ -2,8 +2,14 @@
 layout: post
 title: Using WebAssembly with React
 author: ivan
-tags: [React, JavaScript, WASM, WebAssembly]
+tags:
+  - React
+  - JavaScript
+  - WASM
+  - WebAssembly
 image: /images/use-wasm-with-reactjs/fractal_example1.png
+date: '2018-09-10T22:00:00.000Z'
+published: true
 ---
 
 WebAssembly (WASM) is a binary format for the executable code in the browsers.

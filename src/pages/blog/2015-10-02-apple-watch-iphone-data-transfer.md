@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Data transfer between Apple Watch and iPhone
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2015-10-01T22:00:00.000Z'
+published: true
 ---
 
 Today's post will cover basic data transfer between your iPhone app and Apple Watch app.

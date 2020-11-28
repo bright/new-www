@@ -5,10 +5,10 @@ date: 2020-04-14T08:16:57.897Z
 image: /images/alisa_creativityonquarantine-copy.png
 author: alisa
 tags:
-  - "design"
-  - "graphic"
-  - "inspiration"
-  - "isolation"
+  - design
+  - graphic
+  - inspiration
+  - isolation
 hidden: false
 comments: true
 published: true

@@ -1,11 +1,19 @@
 ---
 layout: post
-title: 'Simplistic JavaScript dependency injection with ES6 destructuring'
-date: 2015-08-24
-tags: [JavaScript, ES6]
+title: Simplistic JavaScript dependency injection with ES6 destructuring
+date: 2015-08-24T00:00:00.000Z
+tags:
+  - JavaScript
+  - ES6
 comments: true
 author: adam
-excerpt: "Recently I got a bit tired with Angular's quirks and intricacies. To freshen up, I'm playing with framework-less JavaScript (Vanilla JS). I'm also getting more and more used to ES6 features. One of the outcomes by now is the idea for the Dependency Injection approach that stays simplistic, decoupled from any framework and still convenient to consume."
+excerpt: >-
+  Recently I got a bit tired with Angular's quirks and intricacies. To freshen
+  up, I'm playing with framework-less JavaScript (Vanilla JS). I'm also getting
+  more and more used to ES6 features. One of the outcomes by now is the idea for
+  the Dependency Injection approach that stays simplistic, decoupled from any
+  framework and still convenient to consume.
+published: true
 ---
 
 Recently I got a bit tired with Angular's quirks and intricacies. To freshen up, I'm playing with framework-less JavaScript ([Vanilla JS](http://vanilla-js.com/)). I'm also getting more and more used to ES6 features. One of the outcomes by now is the idea for the [Dependency Injection](http://www.martinfowler.com/articles/injection.html) approach that stays simplistic, decoupled from any framework and still convenient to consume.

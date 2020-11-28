@@ -2,8 +2,14 @@
 layout: post
 title: Make your development better. Use the proxy.
 author: kwysocki
-tags : [iOS, swift, proxy, web]
+tags:
+  - iOS
+  - swift
+  - proxy
+  - web
 comments: true
+date: '2016-11-08T23:00:00.000Z'
+published: true
 ---
 
 ![](https://github.com/kamwysoc/kamwysoc.github.io/blob/master/assets/posts/charles/head.jpeg?raw=true)

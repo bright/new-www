@@ -1,11 +1,21 @@
 ---
 layout: post
 title: A sky full of Agile
-extract: Everybody seems to be doing Agile these days. Start-ups do it, big organisations do it, all the cool companies do it. That’s even how autonomous cars are being developed - the agile way. Even though it’s been agreed that ‘there’s no silver bullet’ in software development, well, apparently there must be and it’s Agile. Right? 
+extract: >-
+  Everybody seems to be doing Agile these days. Start-ups do it, big
+  organisations do it, all the cool companies do it. That’s even how autonomous
+  cars are being developed - the agile way. Even though it’s been agreed that
+  ‘there’s no silver bullet’ in software development, well, apparently there
+  must be and it’s Agile. Right?
 author: kasia
 image: /images/a-sky-full-of-agile/agile_team.jpeg
 hidden: false
-tags: ['agile', 'programming practices', 'project management'] 
+tags:
+  - agile
+  - programming practices
+  - project management
+date: '2019-03-04T23:00:00.000Z'
+published: true
 ---
 
 

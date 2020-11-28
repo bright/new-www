@@ -4,7 +4,13 @@ title: Flutter - why you may love it or hate it
 author: lukasz
 image: /images/flutter-why-you-may-love-it-or-hate-it/flutter-logo.png
 hidden: false
-tags: [flutter, dart, android, cross-platform]
+tags:
+  - flutter
+  - dart
+  - android
+  - cross-platform
+date: '2019-03-17T23:00:00.000Z'
+published: true
 ---
 
 Flutter is a new Google's framework for creating cross-platform applications. So far, I haven't tried to create any cross-platform projects so I wanted to give it a try. This won't be a next

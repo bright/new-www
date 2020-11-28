@@ -3,7 +3,16 @@ layout: post
 title: Android - Koin DI
 author: szymek
 hidden: false
-tags: [blog, android, koin, DI, dagger, mobiledev, mobile]
+tags:
+  - blog
+  - android
+  - koin
+  - DI
+  - dagger
+  - mobiledev
+  - mobile
+date: '2019-03-20T23:00:00.000Z'
+published: true
 ---
 
 In Android injecting parameters, managing component's lifecycle and creating various scopes is difficult and crucial, but fortunately, we've got [DI (Dependency Injection)](https://en.wikipedia.org/wiki/Dependency_injection) technique for the rescue.

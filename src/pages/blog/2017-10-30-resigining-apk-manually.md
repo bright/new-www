@@ -3,7 +3,13 @@ layout: post
 title: Signing APK file manually
 author: radek
 hidden: true
-tags: ['android', 'signing', 'apk', 'application publishing']
+tags:
+  - android
+  - signing
+  - apk
+  - application publishing
+date: '2017-10-29T23:00:00.000Z'
+published: true
 ---
 
 Either you upload your app first time or update it, the application has to fulfill several requirements before it will be uploaded to the store (check [upload](https://support.google.com/googleplay/android-developer/answer/113469) and [update](https://support.google.com/googleplay/android-developer/answer/113476) requirements list). In this post let’s focus on signing an application.

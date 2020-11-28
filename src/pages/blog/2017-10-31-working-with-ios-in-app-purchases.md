@@ -2,8 +2,15 @@
 layout: post
 title: Working with iOS in-app purchases
 author: mateusz
-tags: ['ios', 'in-app purchases', 'itunes connect', 'subscriptions', 'swift']
+tags:
+  - ios
+  - in-app purchases
+  - itunes connect
+  - subscriptions
+  - swift
 comments: true
+date: '2017-10-30T23:00:00.000Z'
+published: true
 ---
 
 There are more pleasant things to do in iOS development than setting up and testing in-app purchases. The process is laborious and requires thorough testing, especially that in-app purchases are crucial from a business perspective.

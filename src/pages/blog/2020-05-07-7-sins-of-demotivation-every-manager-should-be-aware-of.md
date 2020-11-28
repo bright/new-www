@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "7 sins of demotivation every manager should be aware of "
+title: '7 sins of demotivation every manager should be aware of '
 date: 2020-05-07T07:21:03.566Z
 image: /images/ula_7sinsdemotivation.png
 author: ula

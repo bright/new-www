@@ -1,11 +1,20 @@
 ---
 layout: post
 title: My motives for MVVM + FlowControllers path
-tags: [iOS, Swift]
+tags:
+  - iOS
+  - Swift
 comments: true
 author: eliasz
 hidden: false
-excerpt: There are many different approaches to building an iOS application. MVC, MVP, MVVM, VIPER, Redux... And surely, you can name many others. I've been writing iOS apps for some time now, and I have noticed that MVVM + FlowControllers approach works pretty well for me. In this post I'd like to focus on "WHY?" I use it over other approaches, "HOW?" I use it in my apps.
+excerpt: >-
+  There are many different approaches to building an iOS application. MVC, MVP,
+  MVVM, VIPER, Redux... And surely, you can name many others. I've been writing
+  iOS apps for some time now, and I have noticed that MVVM + FlowControllers
+  approach works pretty well for me. In this post I'd like to focus on "WHY?" I
+  use it over other approaches, "HOW?" I use it in my apps.
+date: '2018-01-11T23:00:00.000Z'
+published: true
 ---
 
 ![Header](/images/mvvm-flowcontrollers/mvvm-flowcontrollers.jpeg){: .center-image}

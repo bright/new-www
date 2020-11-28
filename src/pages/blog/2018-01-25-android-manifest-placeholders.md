@@ -6,7 +6,12 @@ author: azabost
 crosspost: true
 comments: true
 hidden: false
-tags: [android, gradle, manifest]
+tags:
+  - android
+  - gradle
+  - manifest
+date: '2018-01-24T23:00:00.000Z'
+published: true
 ---
 # What are they? #
 

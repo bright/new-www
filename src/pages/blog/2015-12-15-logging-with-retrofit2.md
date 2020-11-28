@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Logging with Retrofit 2
-tags: [android]
+tags:
+  - android
 comments: true
 author: mateuszklimek
+date: '2015-12-14T23:00:00.000Z'
+published: true
 ---
 
 Retrofit has been updated to 2.0 version.<br/>

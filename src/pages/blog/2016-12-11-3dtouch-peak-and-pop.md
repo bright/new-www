@@ -2,8 +2,13 @@
 layout: post
 title: 3D Touch - Peak&amp;Pop feature.
 author: kwysocki
-tags : [iOS, swift, 3d touch]
+tags:
+  - iOS
+  - swift
+  - 3d touch
 comments: true
+date: '2016-12-10T23:00:00.000Z'
+published: true
 ---
 
 In my previous post I wrote about adopting UIApplicationShortcutItems in your app. Now it's time to implement Peak&Pop - a feature provided by 3d Touch.

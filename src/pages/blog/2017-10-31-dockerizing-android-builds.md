@@ -5,7 +5,12 @@ image: /images/dockerizing-android-builds/container-1574239_1920.jpg
 author: azabost
 crosspost: true
 hidden: false
-tags: [android, build, docker]
+tags:
+  - android
+  - build
+  - docker
+date: '2017-10-30T23:00:00.000Z'
+published: true
 ---
 
 Docker is a great container platform that helps building a true independence between applications, infrastructure and developers. It provides an isolation which supports building modern continuous integration environments with ease and at low cost.

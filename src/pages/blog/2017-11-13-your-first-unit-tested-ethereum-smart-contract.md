@@ -3,7 +3,16 @@ layout: post
 title: Your first unit tested Ethereum Smart Contract
 author: daniel
 hidden: false
-tags: [smartcontract, ethereum, blockchain, truffle, web3js, parity, unittests]
+tags:
+  - smartcontract
+  - ethereum
+  - blockchain
+  - truffle
+  - web3js
+  - parity
+  - unittests
+date: '2017-11-12T23:00:00.000Z'
+published: true
 ---
 
 The goal of that blog post is to provide you with the exact steps how to start creating your first unit tested smart contract. 

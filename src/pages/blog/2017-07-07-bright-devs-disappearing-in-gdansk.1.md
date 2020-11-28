@@ -1,9 +1,14 @@
 ---
 layout: post
 title: Bright Devs disAPPearing in Gdańsk
-tags: [programming, coding, workshops]
+tags:
+  - programming
+  - coding
+  - workshops
 comments: true
 author: ula
+date: '2017-07-06T22:00:00.000Z'
+published: true
 ---
 
 It was pleasure for us to take part in **Summer Course "DisAPPear in Gdańsk"**. Many thanks to Board of European Students of Technology for inviting us. We could share our knowledge with incredibly clever minds who came to Poland from different European countries. Hopefully, we managed to reveal some secrets about mobile app development to them.

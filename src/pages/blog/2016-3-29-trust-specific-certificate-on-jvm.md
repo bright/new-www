@@ -1,9 +1,14 @@
 ---
 layout: post
 title: Trust specific certificate on JVM-based platforms
-tags: [jvm, java, android]
+tags:
+  - jvm
+  - java
+  - android
 comments: true
 author: mateuszklimek
+date: '2016-03-28T22:00:00.000Z'
+published: true
 ---
 
 I wrote simple helper which allow loading specific certificate to [SSLContext](https://docs.oracle.com/javase/7/docs/api/javax/net/ssl/SSLContext.html).<br/>

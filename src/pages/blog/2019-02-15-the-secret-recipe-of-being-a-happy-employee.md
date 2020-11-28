@@ -1,11 +1,24 @@
 ---
 layout: post
 title: The secret recipe of being a happy employee
-extract: Our job satisfaction depends not only on whether we like what we do or not. It depends greatly on our daily habits outside the workplace environment. It is not only determined by our knowledge, skills or competences, but also by our time and energy management, proper planning, prioritising and by our physical and mental capabilities. In fact, our job happiness depends substantially on the habit of mind we cultivate and everyday habits we are building all the time. 
+extract: >-
+  Our job satisfaction depends not only on whether we like what we do or not. It
+  depends greatly on our daily habits outside the workplace environment. It is
+  not only determined by our knowledge, skills or competences, but also by our
+  time and energy management, proper planning, prioritising and by our physical
+  and mental capabilities. In fact, our job happiness depends substantially on
+  the habit of mind we cultivate and everyday habits we are building all the
+  time.
 author: ula
 image: /images/happy_employee.png
 hidden: false
-tags: [productivity, job, satisfaction, distractions] 
+tags:
+  - productivity
+  - job
+  - satisfaction
+  - distractions
+date: '2019-02-14T23:00:00.000Z'
+published: true
 ---
 
 It happens quite often that we go with the flow and let our day be controlled by such things like notifications, emails, distractions from colleagues or countless meetings. But we often do not realise to what extent they all may affect our work and life, in general. 

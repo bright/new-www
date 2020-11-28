@@ -1,10 +1,17 @@
 ---
 layout: post
-title: Engagement is not an act, but a habit 
+title: 'Engagement is not an act, but a habit'
 author: ula
 hidden: false
-tags: [engagement, productivity, self-development, teamspirit, success] 
+tags:
+  - engagement
+  - productivity
+  - self-development
+  - teamspirit
+  - success
 image: /images/engagement/engagement.jpg
+date: '2017-10-12T22:00:00.000Z'
+published: true
 ---
 
 

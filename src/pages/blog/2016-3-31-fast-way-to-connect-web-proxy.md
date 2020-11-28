@@ -1,9 +1,12 @@
 ---
 layout: post
 title: A fast way to connect to the web proxy
-tags: [android]
+tags:
+  - android
 comments: true
 author: mateuszklimek
+date: '2016-03-30T22:00:00.000Z'
+published: true
 ---
 
 Configuring Android device to connect to the web proxy running on development build machine is tedious.

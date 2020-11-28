@@ -1,11 +1,17 @@
 ---
 layout: post
-excerpt: "Time to finish the iOS layouts for web developers series with the post about events. Both the web and iOS employ similar ideas, but the set of events is distinct and we need to be aware there are different ways to interact with the classical web than with the mobile device."
-title: "iOS layouts for web developers #5 - events handling"
-date: 2015-05-21
-tags: [iOS]
+excerpt: >-
+  Time to finish the iOS layouts for web developers series with the post about
+  events. Both the web and iOS employ similar ideas, but the set of events is
+  distinct and we need to be aware there are different ways to interact with the
+  classical web than with the mobile device.
+title: 'iOS layouts for web developers #5 - events handling'
+date: 2015-05-21T00:00:00.000Z
+tags:
+  - iOS
 comments: true
 author: adam
+published: true
 ---
 
 Time to finish the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/) with the post about events. Earlier in the series you might read about [the controls](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/), [control positioning](/blog/ios-layouts-for-web-developers-2-control-positioning/), [managing the appearance](/blog/ios-layouts-for-web-developers-3-managing-appearance/) and [CSS properties replacements](/blog/ios-layouts-for-web-developers-4-css-properties-replacements/).

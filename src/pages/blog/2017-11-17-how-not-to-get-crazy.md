@@ -3,7 +3,11 @@ layout: post
 title: How not to get crazy?
 author: grzesiek
 hidden: false
-tags: ["technology", "addiction"]
+tags:
+  - technology
+  - addiction
+date: '2017-11-16T23:00:00.000Z'
+published: true
 ---
 
 We live in XXI century, our lives have become easier thanks to lots of inventions. But have you ever thought about our addiction to technology? It has got to every part of my life and I haven’t even realized that. I wake up thanks to an alarm clock on my mobile phone, during breakfast I check the news on my notebook and all the time I look at my electronic clock to check the time. At university I use PC in laboratories, lecturers show us what they do on their own computers using projectors. I am a programmer, so at work I write new code or read the old one - all using the computer and staring at the display. At the weekends in the evenings it’s all the same because my life revolves around computers.

@@ -3,9 +3,21 @@ layout: post
 title: Is outsourced software development the best choice for me?
 author: daniel
 hidden: false
-extract: If you’re reading this article, then it’s likely that you’re just about to make one of the most detrimental decisions in the history of your company – choosing the right team to work on your software project. Perhaps, not a single line of code has yet been written; alternatively, you’re looking to expand your software development workforce. So, whom will you be best off with – freelancers, an in-house team, or maybe a software house?
+extract: >-
+  If you’re reading this article, then it’s likely that you’re just about to
+  make one of the most detrimental decisions in the history of your company –
+  choosing the right team to work on your software project. Perhaps, not a
+  single line of code has yet been written; alternatively, you’re looking to
+  expand your software development workforce. So, whom will you be best off with
+  – freelancers, an in-house team, or maybe a software house?
 image: /images/Daniel_software development.png
-tags: ['software development', Poland, outsourcing, 'software house' ]  
+tags:
+  - software development
+  - Poland
+  - outsourcing
+  - software house
+date: '2019-07-15T22:00:00.000Z'
+published: true
 ---
 
 If you’re reading this article, then it’s likely that you’re just about to make one of the most detrimental decisions in the history of your company – choosing the right team to work on your software project.

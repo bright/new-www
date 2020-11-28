@@ -1,9 +1,12 @@
 ---
 layout: post
 title: ReactiveCocoa 4 - SignalProducer
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2016-01-24T23:00:00.000Z'
+published: true
 ---
 
 Today we will take a look at SignalProducer class which is provided with ReactiveCocoa 4.

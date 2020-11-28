@@ -1,9 +1,15 @@
 ---
 layout: post
 title: To code or not to code
-tags: [programming, coding, work-life, balance]
+tags:
+  - programming
+  - coding
+  - work-life
+  - balance
 comments: true
 author: ula
+date: '2017-08-02T22:00:00.000Z'
+published: true
 ---
 Is there always a good moment to code? Have you ever asked yourself this kind of question? Have you ever felt that maybe you should take a break instead of writing a code, but you choose to code?
 

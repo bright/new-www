@@ -2,9 +2,14 @@
 layout: post
 title: Don't be a mockup developer
 author: mateusz
-tags: ['android', 'ios', 'programming practices']
+tags:
+  - android
+  - ios
+  - programming practices
 comments: true
 image: /images/dont-be-mockup-developer/workspace.jpg
+date: '2018-09-06T22:00:00.000Z'
+published: true
 ---
 
 Many times as a mobile developer I have to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the [Definition of Done](https://brightinventions.pl/blog/definition-of-done) but it does not mean that I have implemented the UI only.

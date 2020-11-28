@@ -1,9 +1,12 @@
 ---
 layout: post
 title: PureLayout vs NSLayoutAnchor - Great confrontation
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2016-11-05T23:00:00.000Z'
+published: true
 ---
 
 Last week I've made basic comparison between two libraries that will help you layout your interfaces - PureLayout and SnapKit. You can find this comparison [here](https://eliaszsawicki.com/purelayout-vs-snapkit/). Today I'd lake to take the same examples and see how they work with `NSLayoutAnchor`. `NSLayoutAnchor` is available to us since iOS 9 and provides us with a new way of creating your constraints. If you do not like creating `NSLayoutConstraints` using it's initializers or visual format, and do not want any external dependencies for your layout, then `NSLayoutAnchor` is for you!

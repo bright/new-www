@@ -1,11 +1,22 @@
 ---
 layout: post
-title: Make the Most of It 
-excerpt: 'Some people can achieve much more during the same time than the others. The secret may lie in their time management. It is not an innate skill we are born with. I suppose I am learning it constantly by doing regular updates in my to-do list. By managing our time effectively we do not only complete tasks much faster, but also work smarter while not being overloaded and burnt out.'
+title: Make the Most of It
+excerpt: >-
+  Some people can achieve much more during the same time than the others. The
+  secret may lie in their time management. It is not an innate skill we are born
+  with. I suppose I am learning it constantly by doing regular updates in my
+  to-do list. By managing our time effectively we do not only complete tasks
+  much faster, but also work smarter while not being overloaded and burnt out.
 author: ula
 hidden: false
 image: /images/tomatoes/table-meetings.jpg
-tags: [time, management, productivity, priorities] 
+tags:
+  - time
+  - management
+  - productivity
+  - priorities
+date: '2017-10-26T22:00:00.000Z'
+published: true
 ---
 Day has 24 hours. You can spend it doing whatever you want. 
 

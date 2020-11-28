@@ -1,13 +1,23 @@
 ---
 layout: post
-title: 'Implementing a simple pedometer using Swift'
-excerpt: 'Core Motion is well-known iOS framework. As we could read in [docs](https://developer.apple.com/documentation/coremotion) it process accelerometer, gyroscope, pedometer environemnt-related events.
-In this post I want to focus on pedometer events and how to handle it.'
+title: Implementing a simple pedometer using Swift
+excerpt: >-
+  Core Motion is well-known iOS framework. As we could read in
+  [docs](https://developer.apple.com/documentation/coremotion) it process
+  accelerometer, gyroscope, pedometer environemnt-related events. In this post I
+  want to focus on pedometer events and how to handle it.
 author: kwysocki
-tags : [iOS, swift, CoreMotion, pedometer, tutorial]
+tags:
+  - iOS
+  - swift
+  - CoreMotion
+  - pedometer
+  - tutorial
 comments: true
 hidden: false
 image: /images/coremotion-pedometer-swift/footsteps.jpg
+date: '2017-12-07T23:00:00.000Z'
+published: true
 ---
 
 ![footsteps image](/images/coremotion-pedometer-swift/footsteps.jpg)

@@ -1,9 +1,17 @@
 ---
 layout: post
-title: "[CocoaHeads Tricity] Automate your iOS deployment a bit"
-tags: [iOS, CocoaHeads, GYP, generate-ios, automation, TeamCity]
+title: '[CocoaHeads Tricity] Automate your iOS deployment a bit'
+tags:
+  - iOS
+  - CocoaHeads
+  - GYP
+  - generate-ios
+  - automation
+  - TeamCity
 comments: true
 author: michal
+date: '2015-05-31T22:00:00.000Z'
+published: true
 ---
 
 Here come the slides from a talk I gave at the last [Cocoaheads Tricity](https://www.facebook.com/CocoaHeadsTricity) meeting. It's titled "Automate your iOS deployment a bit"

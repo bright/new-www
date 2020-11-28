@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Quickly access Documents Directory for the iOS Simulator
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: michal
+date: '2015-12-02T23:00:00.000Z'
+published: true
 ---
 
 Let me share a small trick that I use to quickly navigate to documents directory for an iOS application that runs in the simulator.

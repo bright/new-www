@@ -1,9 +1,14 @@
 ---
 layout: post
 title: React Native - The things that you should be aware of before coming onboard
-tags: [React Native, iOS, Android]
+tags:
+  - React Native
+  - iOS
+  - Android
 comments: true
 author: eliasz
+date: '2017-10-12T22:00:00.000Z'
+published: true
 ---
 
 ![Header](/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/header.jpeg){: .center-image}

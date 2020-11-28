@@ -1,9 +1,12 @@
 ---
 layout: post
 title: 3 Reasons for my affair with React-Native
-tags: [React-Native]
+tags:
+  - React-Native
 comments: true
 author: eliasz
+date: '2017-05-24T22:00:00.000Z'
+published: true
 ---
 
 ![Header](/images/3-reasons-for-my-affair-with-react-native/love_hands.jpg)

@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Heartbeat button
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2016-01-31T23:00:00.000Z'
+published: true
 ---
 
 Hi! Today I will show you how to create a simple heart button that will simulate a heartbeat upon each tap. You can find an example project on my [Github](https://github.com/Eluss/HeartbeatDemo.git).

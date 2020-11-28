@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "#girlswhocode"
-tags: [redshift]
+title: '#girlswhocode'
+tags:
+  - redshift
 comments: true
 hidden: false
 author: agnieszka
 image: /images/girls-who-code/image1.jpg
+date: '2018-03-12T23:00:00.000Z'
+published: true
 ---
 
 Last week I attended a climbing competition dedicated for girls only to celebrate the international women’s day. It was held quite far away from my home town and on my way back I was wondering why I was so excited to attend a climbing competition for women and at the very same time I am so sceptical about any girls-only programming events.

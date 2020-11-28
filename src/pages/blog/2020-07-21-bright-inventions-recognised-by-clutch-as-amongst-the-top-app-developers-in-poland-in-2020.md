@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Bright Inventions recognised by Clutch as amongst the Top App Developers
-  in Poland in 2020
+title: >-
+  Bright Inventions recognised by Clutch as amongst the Top App Developers in
+  Poland in 2020
 date: 2020-07-21T05:31:11.261Z
 image: /images/artboard-–-9final-–-15.png
 author: ula

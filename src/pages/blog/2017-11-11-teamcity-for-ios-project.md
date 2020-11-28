@@ -1,12 +1,21 @@
 ---
 layout: post
-title: 'TeamCity for iOS project'
-excerpt: "Hi! Today's topic will be about TeamCity and how to provide continuous integration in your iOS project."
+title: TeamCity for iOS project
+excerpt: >-
+  Hi! Today's topic will be about TeamCity and how to provide continuous
+  integration in your iOS project.
 author: kwysocki
-tags : [iOS, swift, Fastlane, TeamCity, continuous integration]
+tags:
+  - iOS
+  - swift
+  - Fastlane
+  - TeamCity
+  - continuous integration
 comments: true
 hidden: false
 image: /images/teamcity-for-ios-project/title_image.jpg
+date: '2017-11-10T23:00:00.000Z'
+published: true
 ---
 
 Hi! Today's topic will be about [TeamCity](https://www.jetbrains.com/teamcity/) and how to provide continuous integration in your iOS project.

@@ -1,10 +1,14 @@
 ---
 layout: post
 title: Few Steps to Fast Redshift
-tags: [Redshift, performance]
+tags:
+  - Redshift
+  - performance
 comments: true
 hidden: false
 author: agnieszka
+date: '2017-10-05T22:00:00.000Z'
+published: true
 ---
 
 Do you think a web dashboard which communicates directly with Amazon Redshift and shows tables, charts, numbers - statistics in general,can work well? We believe it can, as long as the dashboard is used by a few users. As this was our case, we have decided to give it a go. 

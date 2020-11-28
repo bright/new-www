@@ -2,8 +2,15 @@
 layout: post
 title: Don’t let your iOS app be rejected
 author: mateusz
-tags: ['ios', 'in-app purchases', 'subscriptions', 'apple', 'review process']
+tags:
+  - ios
+  - in-app purchases
+  - subscriptions
+  - apple
+  - review process
 comments: true
+date: '2017-10-12T22:00:00.000Z'
+published: true
 ---
 
 While implementing in-app purchases, especially **auto-renewable subscriptions**, there is a good chance your app will be rejected during a review process if you don’t follow the guidelines exactly. How can you avoid unnecessary trouble?

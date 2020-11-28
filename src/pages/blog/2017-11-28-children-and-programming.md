@@ -1,11 +1,17 @@
 ---
 layout: post
 title: Children and programming
-tags: [programming, developer, book, lilavati]
+tags:
+  - programming
+  - developer
+  - book
+  - lilavati
 comments: true
 hidden: false
 author: agnieszka
 image: /images/children-and-programming/children.jpg
+date: '2017-11-27T23:00:00.000Z'
+published: true
 ---
 
 Recently, when I was waiting for my nephew at school, I was looking at the advertisements around not to get too bored. To my surprise there were as many advertisements about lessons of programming as about some sport classes. They all aimed at the youngest children - the first grades of primary school. I was sitting there and wondering **how it is possible to teach children how to write a code in any programming language when they cannot write in Polish yet**. Hey, they can barely read! 

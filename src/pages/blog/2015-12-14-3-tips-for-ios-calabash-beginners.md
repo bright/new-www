@@ -1,9 +1,12 @@
 ---
 layout: post
 title: 3 tips for iOS Calabash beginners
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2015-12-13T23:00:00.000Z'
+published: true
 ---
 
 Have you ever felt that your app needs UI tests? Are you tired of checking behaviours of your application again and again? Consider using Calabash!

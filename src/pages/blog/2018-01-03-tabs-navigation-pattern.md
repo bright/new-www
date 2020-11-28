@@ -3,7 +3,15 @@ layout: post
 title: Tabs - navigation pattern on Android
 author: radek
 comments: true
-tags: ['android', 'tabs', 'tablayout', 'layout', 'user interface', 'customization']
+tags:
+  - android
+  - tabs
+  - tablayout
+  - layout
+  - user interface
+  - customization
+date: '2018-01-02T23:00:00.000Z'
+published: true
 ---
 Proper content organisation in your Android application may be achieved with a wide range of layouts and widgets. Today I'd like to focus on tabs that is what kind of components are dedicated to using tabs in an application, what are the key principles in using them and how to customize their view.   
 ![Folder Tabs Img](/images/radek/folder_tabs.jpg)

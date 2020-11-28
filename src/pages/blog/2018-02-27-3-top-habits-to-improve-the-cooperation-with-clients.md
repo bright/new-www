@@ -1,12 +1,17 @@
 ---
 layout: post
 title: 3 top habits to improve the cooperation with clients
-tags: [habits, cooperation, planning]
+tags:
+  - habits
+  - cooperation
+  - planning
 comments: true
 author: eliasz
 hidden: false
-excerpt:
+excerpt: null
 image: /images/3-habits-to-improve-cooperation-wth-clients/clients.jpeg
+date: '2018-02-26T23:00:00.000Z'
+published: true
 ---
 
 There is always a room for improvement regarding the service that we deliver to our clients.

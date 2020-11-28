@@ -3,11 +3,14 @@ layout: post
 title: Don't fool yourself with lateinit modifier
 image: /images/dont-fool-yourself-with-lateinit-modifier/risk_inside.jpg
 author: azabost
-date: 2018-03-22
+date: 2018-03-22T00:00:00.000Z
 crosspost: true
 comments: true
 hidden: false
-tags: [android, kotlin]
+tags:
+  - android
+  - kotlin
+published: true
 ---
 
 Kotlin language provides a nice and clean way to handle nullable variables in code so that it is less error prone. Unless you do it all wrong, of course.

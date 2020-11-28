@@ -2,9 +2,15 @@
 layout: post
 title: Your first chart in Android App with CSV parser
 author: radek
-tags: ['android', 'UI', 'chart', 'CSV']
+tags:
+  - android
+  - UI
+  - chart
+  - CSV
 comments: true
 image: /images/radek/chart_mobile.jpg
+date: '2018-02-15T23:00:00.000Z'
+published: true
 ---
 
 If you have ever needed to add a chart to your Android app, you certainly have heard about [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) by [PhilJay](https://github.com/PhilJay). If not, consider using this powerful library. Let me show you how easy it is to start!

@@ -3,10 +3,17 @@ layout: post
 title: HTTP client timeouts
 author: piotr
 hidden: false
-tags: [http, timeout, network, rest, api]
+tags:
+  - http
+  - timeout
+  - network
+  - rest
+  - api
 comments: true
 crosspost: true
 image: /images/http-client-timeouts/waiting.jpg
+date: '2017-11-04T23:00:00.000Z'
+published: true
 ---
 
 We have already touched upon [the importance of timeouts]({% post_url 2017-10-23-the-importance-of-timeouts %}) and described most important [related JDBC knobs]({% post_url 2017-10-31-database-timeouts %}). The next aspect of timeouts I would like to focus on is using API clients. Specifically HTTP clients which are by far the most popular. We will review couple of popular HTTP client libraries and their configuration regarding timeouts. 

@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Open source by default
-tags: [OpenSource]
+tags:
+  - OpenSource
 comments: true
 author: eliasz
+date: '2016-04-24T22:00:00.000Z'
+published: true
 ---
 
 Using open source code in projects is a common thing. I do it. Most of us do.

@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Simulating nth-of-class CSS selector
-tags: [css]
+tags:
+  - css
 comments: true
 hidden: false
 author: agnieszka
 image: /images/nth-of-class/image1.jpeg
+date: '2017-10-16T22:00:00.000Z'
+published: true
 ---
 My experience with frontend web development is not long yet, nevertheless, I have already got stuck a few times and spend like a few hours trying to find one perfect solution. I reckon that some of them are worth describing. 
 

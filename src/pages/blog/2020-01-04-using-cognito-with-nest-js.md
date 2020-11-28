@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Using AWS Cognito with NestJS'
+title: Using AWS Cognito with NestJS
 date: 2020-01-04T20:05:28.083Z
 image: /images/using-cognito-with-nest-js/amazon-cognito.png
 author: patryk

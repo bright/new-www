@@ -1,9 +1,12 @@
 ---
 layout: post
 title: ReactiveCocoa 4 - Action
-tags: [iOS]
+tags:
+  - iOS
 comments: true
 author: eliasz
+date: '2016-08-06T22:00:00.000Z'
+published: true
 ---
 
 Today I'll tell you about an `Action` type that is available in ReactiveCocoa 4.

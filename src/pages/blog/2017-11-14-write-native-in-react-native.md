@@ -3,8 +3,14 @@ layout: post
 title: Putting native in React Native on Android
 author: radek
 comments: true
-tags: ['android', 'react native', 'java', 'platform specific']
+tags:
+  - android
+  - react native
+  - java
+  - platform specific
 image: /images/putting-native-in-rn/toymodel.JPG
+date: '2017-11-13T23:00:00.000Z'
+published: true
 ---
 
 Using custom native components in React Native is a common thing, so sooner or later you may have to write some functionality in a native language and use it in your application. Let me show you a simple example how to do that.

@@ -1,11 +1,23 @@
 ---
 layout: post
 title: Comparison sorting part 1
-tags: [sorting, algorithm, bubble, insertion, selection, gnome, cocktail]
+tags:
+  - sorting
+  - algorithm
+  - bubble
+  - insertion
+  - selection
+  - gnome
+  - cocktail
 comments: true
 author: grzesiek
 hidden: false
-excerpt: Sorting data is one of the most important tasks that computers have been doing since they were invented. Over those years developers have found many ways of doing it. 
+excerpt: >-
+  Sorting data is one of the most important tasks that computers have been doing
+  since they were invented. Over those years developers have found many ways of
+  doing it.
+date: '2018-01-17T23:00:00.000Z'
+published: true
 ---
 
 Sorting data is one of the most important tasks that computers have been doing since they were invented. Over those years developers have found many ways of doing it. Some of these ways are quite fast, others involve  interesting methods and finally there are some which are practically useless, but still it is better to know more than to know less, so it’s better to learn them  in free time.

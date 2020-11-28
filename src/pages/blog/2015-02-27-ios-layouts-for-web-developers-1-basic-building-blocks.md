@@ -1,11 +1,18 @@
 ---
 layout: post
-excerpt: "In the first part of iOS layouts for web developers series I'll have a look at the basic building blocks of the view layer in iOS and compare it to what HTML offers. First, we need to shift our mindset a bit and accept the fact we need to give up some control over our views to the iOS."
-title: "iOS layouts for web developers #1 - basic building blocks"
-modified: 2015-02-27
-tags: [iOS]
+excerpt: >-
+  In the first part of iOS layouts for web developers series I'll have a look at
+  the basic building blocks of the view layer in iOS and compare it to what HTML
+  offers. First, we need to shift our mindset a bit and accept the fact we need
+  to give up some control over our views to the iOS.
+title: 'iOS layouts for web developers #1 - basic building blocks'
+modified: 2015-02-27T00:00:00.000Z
+tags:
+  - iOS
 comments: true
 author: adam
+date: '2015-02-26T23:00:00.000Z'
+published: true
 ---
 
 In the first part of [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/) I'll have a look at the basic building blocks of the view layer in iOS and compare it to what HTML offers. First, we need to shift our mindset a bit and accept the fact we need to give up some control (pun intended) over our views to the iOS.

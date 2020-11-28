@@ -2,8 +2,13 @@
 layout: post
 title: How to use different Google configurations for each build config
 author: mateusz
-tags: ['ios', 'xcode', 'build configurations']
+tags:
+  - ios
+  - xcode
+  - build configurations
 comments: true
+date: '2018-02-07T23:00:00.000Z'
+published: true
 ---
 
 If you have ever used [Google Sign-In](https://developers.google.com/identity/sign-in/ios/start), [Firebase](https://firebase.google.com/docs/ios/), or [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3/) for iOS, you should be familiar with a `GoogleService-Info.plist` configuration file. Using property list files instead of setting every required property manually in code is convenient, especially while using more than one Google service at once and the configuration grows. But have you ever wondered how  this can be adjusted to multiple environments?

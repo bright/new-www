@@ -1,13 +1,21 @@
 ---
 layout: post
 title: Downsizing a JPEG image efficiently to a certain size in KB on Android
-image: /images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/stress.jpg
+image: >-
+  /images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/stress.jpg
 author: azabost
-date: 2019-03-27
+date: 2019-03-27T00:00:00.000Z
 crosspost: true
 comments: true
 hidden: true
-tags: ['android', 'jpeg', 'image', 'compression', 'downsize', 'size']
+tags:
+  - android
+  - jpeg
+  - image
+  - compression
+  - downsize
+  - size
+published: true
 ---
 
 Downsizing an image is a common task and it seems to be quite simple: you have an image and you want it to take up less storage space, preferably `n` KB (either _exactly_ `n` or _at most_ `n`). A lot of developers have to do something like this for various reasons, either to limit the network payload or just to save the disk space so that the app's data doesn't consume it too much.

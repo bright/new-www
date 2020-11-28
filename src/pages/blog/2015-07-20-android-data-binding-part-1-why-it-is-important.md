@@ -7,6 +7,7 @@ categories:
 tags:
   - android
 author: piotr
+published: true
 ---
 
 Android application code often suffers from being more verbose than it could be. As libraries such as [Android Annotations](http://androidannotations.org/) and [ButterKnife](http://jakewharton.github.io/butterknife/) have shown that's only partially due to tediousness of Java. The [recently](https://events.google.com/io2015/schedule?sid=128c9f91-b6d4-e411-b87f-00155d5066d7) announced [Android Data Binding](https://developer.android.com/tools/data-binding/guide.html) library can remove at least part of the boilerplate code we need to write. Since I've always liked [Presentation Model pattern (MVVM)](http://martinfowler.com/eaaDev/PresentationModel.html) this is very dear to my heart. However just getting rid of a tedious code is not the main reason I'm so happy to see the new API. Let's recap on common issues developer faces on Android and then I'll show how using mentioned patterns with new offering from Google can mitigate them.

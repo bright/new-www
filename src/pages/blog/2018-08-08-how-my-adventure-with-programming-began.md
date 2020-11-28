@@ -3,8 +3,15 @@ layout: post
 title: How Their Adventure with Programming Began
 author: ula
 hidden: false
-tags: [career, IT, team, programming, motivation]
+tags:
+  - career
+  - IT
+  - team
+  - programming
+  - motivation
 image: /images/bright_team-compressor.jpg
+date: '2018-08-07T22:00:00.000Z'
+published: true
 ---
 I have asked 3 devs, Adam, Agnieszka and Radek, who work with me at Bright Inventions about the beginning of their programming career, first challenges and what they like most about their job. Discover their stories and take a look inside our Bright Team.
 

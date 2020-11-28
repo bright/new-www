@@ -1,10 +1,19 @@
 ---
 layout: post
 title: Getting started with IOTA
-excerpt: Although the plans of IOTA are great, currently the project is in its incubation phase, with the majority of the most attractive features not yet ready to use. But this shouldn't stop us from playing with what we already have today. Let's play!
-tags: [IOTA, blockchain, cryptocurrency]
+excerpt: >-
+  Although the plans of IOTA are great, currently the project is in its
+  incubation phase, with the majority of the most attractive features not yet
+  ready to use. But this shouldn't stop us from playing with what we already
+  have today. Let's play!
+tags:
+  - IOTA
+  - blockchain
+  - cryptocurrency
 comments: true
 author: adam
+date: '2017-10-16T22:00:00.000Z'
+published: true
 ---
 
 In the [previous post](/blog/iota-new-kid-in-cryptocurrency-town/) we took a first glance at [IOTA](http://iota.org/) ledger. Although the plans are great, currently the project is in its incubation phase, with the majority of the most attractive features not yet ready to use. But this shouldn't stop us from playing with what we already have today.

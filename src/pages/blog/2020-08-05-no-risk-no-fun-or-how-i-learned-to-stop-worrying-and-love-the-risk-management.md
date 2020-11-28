@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "No risk, no fun or: How I learned to stop worrying and love the risk
-  management."
+title: >-
+  No risk, no fun or: How I learned to stop worrying and love the risk
+  management.
 date: 2020-08-05T12:34:37.084Z
 image: /images/riskmanagement2-–-4.png
 author: kasia

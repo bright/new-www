@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Creating an UIImage using ImageIdentifiers
-tags : [iOS, swift]
-comments : true
+tags:
+  - iOS
+  - swift
+comments: true
 author: kwysocki
+date: '2016-04-02T22:00:00.000Z'
+published: true
 ---
 
 Hi! In my first post I want to share with you some cool tip which I watched in 'Swift in Practice - Apple WWDC 2015' Alex Migicovsky presentation about using UIImages in Swift project.

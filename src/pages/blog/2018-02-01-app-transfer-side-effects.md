@@ -2,9 +2,15 @@
 layout: post
 title: Side effects of transferring iOS application
 author: mateusz
-tags: ['itunes connect', 'app store', 'ios', 'certificates']
+tags:
+  - itunes connect
+  - app store
+  - ios
+  - certificates
 comments: true
 image: /images/app-transfer-side-effects/hairy-hand.jpg
+date: '2018-01-31T23:00:00.000Z'
+published: true
 ---
 
 When the time you are selling your long-developed application comes, or you are about to take over an app, you probably do not bother about the transition process. Although Apple has [described the steps in details](https://help.apple.com/itunes-connect/developer/#/deved688524f), you should consider potential consequences before starting the transition.

@@ -1,12 +1,21 @@
 ---
 layout: post
 title: 'Design Patterns with Swift: Facade pattern'
-excerpt: 'Facade pattern is one of the Structural Patterns. The main aim of it is to hide the complexity of system, class or logic and provide a simple interface  - use your system easier.'
+excerpt: >-
+  Facade pattern is one of the Structural Patterns. The main aim of it is to
+  hide the complexity of system, class or logic and provide a simple interface 
+  - use your system easier.
 author: kwysocki
-tags : [iOS, swift, design patterns, facade pattern]
+tags:
+  - iOS
+  - swift
+  - design patterns
+  - facade pattern
 comments: true
 hidden: false
 image: /images/swift-facade-pattern/facade.jpg
+date: '2017-11-15T23:00:00.000Z'
+published: true
 ---
 
 ![facade image](/images/swift-facade-pattern/facade.jpg)

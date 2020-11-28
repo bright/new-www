@@ -5,7 +5,16 @@ author: radeks
 hidden: false
 crosspost: true
 image: /images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg
-tags: ['android', 'ios', 'mobile', 'tensorflow', 'deep learning', 'machine learning', 'ml kit']
+tags:
+  - android
+  - ios
+  - mobile
+  - tensorflow
+  - deep learning
+  - machine learning
+  - ml kit
+date: '2019-03-24T23:00:00.000Z'
+published: true
 ---
 
 

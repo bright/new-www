@@ -2,9 +2,14 @@
 layout: post
 title: Different iOS build configurations than Debug and Release in React Native
 author: mateusz
-tags: ['react native', 'ios', 'build configurations']
+tags:
+  - react native
+  - ios
+  - build configurations
 comments: true
 image: /images/react-native-custom-ios-build-configurations/build-configurations.png
+date: '2018-02-27T23:00:00.000Z'
+published: true
 ---
 
 Default iOS build configurations, **Debug** and **Release**, might be enough for the beginning, but sooner or later you will probably need to extend the number of build configurations in your app. While this is pretty straightforward in native development, unfortunately, it is not in React Native.
