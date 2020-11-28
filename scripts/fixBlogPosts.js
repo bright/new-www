@@ -1,27 +1,54 @@
-const {readdirSync, readFileSync, writeFileSync} = require('fs')
-const {execSync} = require('child_process')
+const {readFileSync, writeFileSync} = require('fs')
 const matter = require('gray-matter')
 
-const DIR_TO_BLOG_POSTS = './src/pages/blog/'
+const COLOR = require('./utils/colors')
+const {DIR_TO_BLOG_POSTS, getPosts, getAuthorNames} = require('./utils/fetch')
 
-readdirSync(DIR_TO_BLOG_POSTS).forEach(fileName => {
+const postsProblems = {}
+const authorNames = getAuthorNames()
+
+getPosts().forEach(fileName => {
+    const problems = []
     const [year, month, day, ...title] = fileName.split('-')
     const content = readFileSync(DIR_TO_BLOG_POSTS + fileName, 'utf-8')
+    console.log(COLOR.log, `[LOG]`, COLOR.reset, ` Parsing file ${fileName}`)
 
     if (year && month && day && title.length && typeof content === 'string') {
-        console.log("\n", `[LOG] Parsing file ${fileName}`)
         const {data, content: post} = matter(content)
-        let {date, published} = data
+        let {date, published, image, author} = data
 
         if (!date) {
-            console.log(`[WARNING] No date specified for entry.`)
-            date = new Date(+year, month - 1, +day).toISOString()
-            writeFileSync(DIR_TO_BLOG_POSTS + fileName, matter.stringify(post, {...data, date, published: !!published}))
+            problems.push([COLOR.warning, `[WARN]`, COLOR.reset, ` No date specified for entry. `, COLOR.log, `[FIXED]`, COLOR.reset].join(''))
+            date = new Date(parseInt(year), month - 1, parseInt(day)).toISOString()
         }
-
-        // const {layout, title, extract, excerpt, crosspost, image, author, tags, hidden, comments, ...restData} = data
-        // console.log(`Y: ${year}, M: ${month}, D: ${day}, DATA: `, date, restData)
+        if (!image) {
+            problems.push(
+                (published
+                    ? [COLOR.error, `[ERR]`, COLOR.reset, ` Entry has no image and is published.`]
+                    : [COLOR.warning, `[WARN]`, COLOR.reset, ` Entry has no image.`]
+                ).join('')
+            )
+        }
+        if (!author || !authorNames.includes(author)) {
+            problems.push([COLOR.error, `[ERR]`, COLOR.reset, ` No author matching post author ID.`].join(''))
+        }
+        writeFileSync(DIR_TO_BLOG_POSTS + fileName, matter.stringify(post, {...data, date, published: !!published}))
     } else {
-        console.error(`[ERROR] Couldn't parse file ${fileName}`)
+        problems.push([COLOR.error, `[ERR]`, COLOR.reset, ` Couldn't parse file ${fileName}`].join(''))
+    }
+
+    postsProblems[fileName] = problems
+})
+
+console.log("\n\n", COLOR.log, 'RESULTS:', COLOR.reset)
+
+Object.entries(postsProblems).forEach(([fileName, problems]) => {
+    if (problems && Array.isArray(problems) && problems.length) {
+        console.log('  ', COLOR.log, fileName, COLOR.reset)
+        problems.forEach(info => (
+            console.log('      ', info)
+        ))
     }
 })
+
+console.log(COLOR.log, 'END', COLOR.reset)
