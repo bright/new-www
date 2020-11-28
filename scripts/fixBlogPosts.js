@@ -37,13 +37,28 @@ getPosts().forEach(fileName => {
         problems.push([COLOR.error, `[ERR]`, COLOR.reset, ` Couldn't parse file ${fileName}`].join(''))
     }
 
-    postsProblems[fileName] = problems
+    if (problems.length > 0) {
+        postsProblems[fileName] = problems
+    }
 })
 
-console.log("\n\n", COLOR.log, 'RESULTS:', COLOR.reset)
+const counter = [0, 0, 0]
+Object.entries(postsProblems).forEach(([fileName, problems]) => {
+    if (problems && Array.isArray(problems)) {
+        counter[0] ++
+        counter[1] += problems.filter(problem => problem.includes('[WARN]')).length
+        counter[2] += problems.filter(problem => problem.includes('[ERR]')).length
+    }
+})
+
+console.log("\n\n", COLOR.log, `RESULTS:`, COLOR.reset)
+console.log("  - ", `files:    `, COLOR.log, counter[0].toString(), COLOR.reset)
+console.log("  - ", `warnings: `, COLOR.warning, counter[1].toString(), COLOR.reset)
+console.log("  - ", `errors:   `, COLOR.error, counter[2].toString(), COLOR.reset)
+console.log("\n")
 
 Object.entries(postsProblems).forEach(([fileName, problems]) => {
-    if (problems && Array.isArray(problems) && problems.length) {
+    if (problems && Array.isArray(problems)) {
         console.log('  ', COLOR.log, fileName, COLOR.reset)
         problems.forEach(info => (
             console.log('      ', info)
