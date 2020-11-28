@@ -9,6 +9,7 @@ import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import {getFileNameOnly} from '../helpers/pathHelpers'
 
 export default function Template(props: {
+    path: string
     data: {
         markdownRemark: {
             html: string
@@ -49,7 +50,7 @@ export default function Template(props: {
 
     const author = allMarkdownRemark.nodes.find(({frontmatter: userData}) => {
         return userData.author_id === page.author
-    }).frontmatter
+    })!.frontmatter
 
     return (
         <Page>
@@ -68,25 +69,7 @@ export default function Template(props: {
                 <article className="section">
                     <div className="columns is-vcentered">
                         <div className="column is-half">
-                            <a href={'/about-us/' + author.author_id}>
-                                <article className="media">
-                                    <figure className="media-left">
-                                        <p className="image is-64x64">
-                                            <img
-                                                src={author.avatar}
-                                                alt={author.name + ' bio photo'}
-                                                className="is-rounded"
-                                            />
-                                        </p>
-                                    </figure>
-                                    <div className="media-content">
-                                        <div className="content">
-                                            <h4 className="title has-text-dark">{author.name}</h4>
-                                            <p className="subtitle is-6">{author.bio}</p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
+                            <AuthorData {...author} />
                         </div>
                         <div className="column has-text-right">
                             <div className="content has-text-grey-light">
@@ -141,6 +124,41 @@ export default function Template(props: {
     </Page>
   )
 }
+
+interface AuthorDataProps {
+    author_id?: string
+    avatar?: string
+    name?: string
+    bio?: string
+}
+const AuthorData: React.FC<AuthorDataProps> = ({author_id, avatar, name, bio}) => {
+    const LinkComponent = author_id ? 'a' : 'span'
+
+    return (
+        <LinkComponent {...(author_id ? {...{href: '/about-us/' + author_id}} : {})}>
+            <article className="media">
+                {avatar && (
+                    <figure className="media-left">
+                        <p className="image is-64x64">
+                            <img
+                                src={avatar}
+                                alt={name + ' bio photo'}
+                                className="is-rounded"
+                            />
+                        </p>
+                    </figure>
+                )}
+                <div className="media-content">
+                    <div className="content">
+                        <h4 className="title has-text-dark">{name}</h4>
+                        <p className="subtitle is-6">{bio}</p>
+                    </div>
+                </div>
+            </article>
+        </LinkComponent>
+    )
+}
+
 export const pageQuery = graphql`
   query($fileAbsolutePath: String!) {
     markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
