@@ -1,12 +1,32 @@
-// ---
-// layout: default
-// title:
-// description:
-// ---
-import React from 'react'
+import React from "react"
+import styled from "styled-components"
+import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
+import OurDevelopmentAreas from "../components/whatWeDo/OurDevelopmentAreas"
+import WorkshopsBanner from "../components/whatWeDo/WorkshopsBanner"
+import { Page } from "../layout/Page"
 
-import {Page} from '../layout/Page'
-import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
+const TopParagraphContainer = styled.div({
+  display: "flex",
+  justifyContent: "center",
+
+  width: "100%",
+  paddingTop: "64px",
+  paddingBottom: "100px",
+})
+
+const TopParagraphTextWrapper = styled.div({
+  font: "normal normal normal 22px/40px Lato",
+  textAlign: "left",
+  maxWidth: "956px",
+
+  letterSpacing: "0px",
+  color: "#131214",
+  opacity: 0.75,
+})
+
+const DevelopmentAreasContainer = styled.div({
+  display: "flex",
+})
 
 const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
@@ -15,18 +35,27 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
         title="Mobile and Web Development Services"
         description="About our software development services"
       />
-      <div className="container">
+      <TopParagraphContainer>
+        <TopParagraphTextWrapper>
+          We offer custom software development for organizations of all shapes
+          and sizes – from emerging startups, mid-sized companies and
+          consultancy agencies, to renowned NGOs and international
+          organizations. Our clients come from multiple industries, including
+          FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
+        </TopParagraphTextWrapper>
+      </TopParagraphContainer>
+      <OurDevelopmentAreas />
+      <WorkshopsBanner />
+      {/* <div className="container">
         <section className="section">
-          <h1 className="title has-text-dark has-text-weight-bold">
-            our services
-          </h1>
           <div className="content">
             <p>
-              Through mobile apps and complex backend systems to emerging
-              technology solutions we are creating success stories for startups,
-              consultancy agencies as well as mid-size organisations across
-              multiple industries including FinTech, Blockchain, HealthTech,
-              Retail, Logistics and more.
+              We offer custom software development for organizations of all
+              shapes and sizes – from emerging startups, mid-sized companies and
+              consultancy agencies, to renowned NGOs and international
+              organizations. Our clients come from multiple industries,
+              including FinTech, Blockchain, HealthTech, Retail, Logistics, and
+              more.
             </p>
             <div className="level content">
               <div className="level-left">
@@ -146,7 +175,7 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </Page>
   )
 }
