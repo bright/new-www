@@ -106,7 +106,7 @@ export default function Template(props: {
 
                     <h1 className='title'>{page.title}</h1>
                     <div
-                        className='content'
+                        className='content is-family-secondary'
                         dangerouslySetInnerHTML={{__html: html}}
                     />
 
