@@ -8,9 +8,9 @@ tags:
   - detox
   - react native
   - CI
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 ---
 
 You finally did it! New functionality is ready to be deployed. This new feature will revolutionize the market, will give tons of new users and another few millions on your account. Fantastic feeling, isn't it? Once the app is in store, you start to rub your hands. But what is that your app ranting suddenly goes down, people are frustrated, because you broke one of the other core functionalities by accident. Sweaty and stressed, you start to debug. Thankfully it is easy to fix. Few more click and updated version lands in a store. Sigh... that was too close if there was something that could prevent such situations in the future.
@@ -96,6 +96,8 @@ And then Start Build.
 ![Start schedule](/images/bitrise_loves_detox/run_build.png)
 
 Congrats! You just become an owner of a project with its CI!
+
+![End Result](/images/bitrise_loves_detox/end_result.png)
 
 Now you're not afraid to face new features, and the word "quality" gets a new meaning.
 
