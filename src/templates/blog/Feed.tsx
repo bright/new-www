@@ -4,7 +4,6 @@ import formatDate from 'date-fns/format'
 import {deleteTimestampFromUrl} from '../../helpers/pathHelpers'
 import {BlogPostModel} from '../../models/gql'
 
-import BlogPostDummyImage from '../../assets/blog_post_dummy.png'
 import styles from './Feed.module.scss'
 
 interface Props {
@@ -26,7 +25,7 @@ const Post: React.FC<{post: BlogPostModel}> = ({post}) => {
 
     return (
         <div className={styles.entry} onClick={redirect}>
-            <div className={styles.image}><img src={post.image || BlogPostDummyImage} alt={post.title}/></div>
+            <div className={styles.image}><img src={post.image} alt={post.title}/></div>
             <div className={styles.content}>
                 <div className={styles.postInfo}>
                     <div className={styles.date}>{formatDate(new Date(post.date), 'MMM, d yyyy')}</div>
