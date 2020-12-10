@@ -1,0 +1,54 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.achievements {
+  background-color: $black;
+  margin: 0 -2rem;
+  padding: 6rem 1rem;
+
+  :global(.columns) {
+    justify-content: center;
+    text-align: center;
+
+    .number {
+      font-family: "Montserrat", Lato, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 3rem;
+      color: $white;
+    }
+
+    .label {
+      font-family: "Montserrat", Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      color: $white;
+      opacity: 0.76;
+    }
+  }
+}
+
+@include mobile() {
+  .achievements {
+    margin: 0;
+    padding: 3rem 0;
+
+    .number {
+      font-family: "Montserrat", Lato, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 3rem;
+      color: $white;
+    }
+
+    .label {
+      font-family: "Montserrat", Lato, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      color: $white;
+      opacity: 0.76;
+    }
+  }
+}

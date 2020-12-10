@@ -3,7 +3,7 @@ import classNames from 'classnames'
 
 import styles from './Header.module.scss'
 
-const Header = () => {
+export const Header = () => {
     return (
         <section className={classNames('hero', styles.header)}>
             <div className='hero-body'>
@@ -27,5 +27,3 @@ const Header = () => {
         </section>
     )
 }
-
-export default Header
