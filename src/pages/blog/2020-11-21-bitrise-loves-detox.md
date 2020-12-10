@@ -3,7 +3,7 @@ layout: post
 title: Bitrise Loves Detox
 date: 2020-11-21T17:35:00.000Z
 author: fjablonski
-image: /images/BitrisLovesDetox_byFilip.png
+image: /images/Bitrise Loves Detox.png
 tags:
   - bitrise
   - detox
