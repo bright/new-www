@@ -6,6 +6,8 @@ import {BlogPostModel} from '../../models/gql'
 
 import styles from './Feed.module.scss'
 
+const BlogPostDummyUrl = '/images/dummy/blog_post.png'
+
 interface Props {
     posts: BlogPostModel[]
 }
@@ -25,7 +27,7 @@ const Post: React.FC<{post: BlogPostModel}> = ({post}) => {
 
     return (
         <div className={styles.entry} onClick={redirect}>
-            <div className={styles.image}><img src={post.image} alt={post.title}/></div>
+            <div className={styles.image}><img src={post.image || BlogPostDummyUrl} alt={post.title}/></div>
             <div className={styles.content}>
                 <div className={styles.postInfo}>
                     <div className={styles.date}>{formatDate(new Date(post.date), 'MMM, d yyyy')}</div>
