@@ -3,6 +3,7 @@ layout: post
 title: Bitrise Loves Detox
 date: 2020-11-21T17:35:00.000Z
 author: fjablonski
+image: /images/BitrisLovesDetox_byFilip.png
 tags:
   - bitrise
   - detox
@@ -13,7 +14,7 @@ comments: true
 published: true
 ---
 
-You finally did it! New functionality is ready to be deployed. This new feature will revolutionize the market, will give tons of new users and another few millions on your account. Fantastic feeling, isn't it? Once the app is in store, you start to rub your hands. But what is that your app ranting suddenly goes down, people are frustrated, because you broke one of the other core functionalities by accident. Sweaty and stressed, you start to debug. Thankfully it is easy to fix. Few more click and updated version lands in a store. Sigh... that was too close if there was something that could prevent such situations in the future.
+You finally did it! New functionality is ready to be deployed. This new feature will revolutionize the market, will give tons of new users and other few millions on your account. Fantastic feeling, isn't it? Once the app is in store, you start to rub your hands. But what if your app ranting suddenly goes down, people are frustrated because you have broken one of the other core functionalities by accident. Sweaty and stressed, you start to debug. Thankfully it is easy to fix. A few more clicks and the updated version lands in a store. Sigh... that was too close if there was something that could prevent such situations in the future.
 
 Please welcome Bitrise and Detox! Bitrise is a CI/CD  service with a Mobile-First approach, while Detox is a tool that allows you to create an E2E test with the Gray Box approach to React Native. I will show how nice and easy you can launch tests written with Detox on Bitrise.
 
