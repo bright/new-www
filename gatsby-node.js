@@ -132,3 +132,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    module: {
+      rules: [{
+        test: /\.(gif|jpg|png)$/,
+        use: {
+          loader: "file-loader",
+        },
+      }],
+    }
+  })
+}
