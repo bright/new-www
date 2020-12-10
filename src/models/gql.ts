@@ -1,12 +1,17 @@
 export type Tag = string
 
+export interface Node {
+    frontmatter: any
+}
+
 export interface Edge {
     node: any
 }
 
 export interface GQLData {
     allMarkdownRemark: {
-        edges: Edge[]
+        nodes?: Node[],
+        edges?: Edge[]
     }
 }
 
@@ -31,4 +36,11 @@ export interface ProjectModel {
     published: string
     order?: number
     tags: Tag[]
+}
+
+export interface AuthorModel {
+    name: string
+    short_name: string
+    avatar: string
+    author_id: string
 }

@@ -48,7 +48,6 @@ const SuccessStories: React.FC = () => {
       slug
     }
   }> = query.allMarkdownRemark.edges.map(v => v.node)
-  console.log(query)
   return (
     <Section>
       <SectionTitle className="is-size-3">success stories</SectionTitle>

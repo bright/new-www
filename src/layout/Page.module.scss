@@ -2,13 +2,12 @@
 @import "../styles/variables";
 
 .page {
-  margin: 0 2rem;
-  overflow: hidden;
+  padding: 0 2rem;
 }
 
 @include mobile() {
   .page {
-    margin: 0;
+    padding: 0;
 
     &.menuOpened {
       overflow: hidden;
