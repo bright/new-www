@@ -2,56 +2,56 @@
 layout: job
 title: "Backend developer "
 hours: Full-time
-salary: 10 000-15 000 PLN + VAT (B2B)
-salary_min: 10000
-salary_max: 15000
+salary: 14 000-18 000 PLN + VAT (B2B)
+salary_min: 14000
+salary_max: 18000
 published: true
 order: 1
 ---
-## Who We Are 
+## Who We Are
 
-We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis. And what would you do? We need you to develop and enhance innovative and robust backend application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market. We are responsible here for providing: backend server, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
 
-Bright Inventions is a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
+Sounds exciting? We hope it does. 🙂 Remember that apart from technically challenging projects you will find at Bright Inventions a flat structure with no management overhead, experienced team, best practices such as Code Review, Pair programming or Continuous integration, and what is more important - you will have a real impact on the work you do and the stack you use.
 
-## In This Role You Will 
+## In This Role You Will
 
 * create high-quality backend applications
 * participate in software code reviews
 * have a direct contact with clients and advise in their decision making process
 * share knowledge with the rest of the team
 * improve internal web development processes
-  
+
 ## What We Offer
-  
-* work on the international project of the existing intelligent point-of-sale in cooperation with one of the world’s top food ordering companies
-* flat structure with no management overhead
+
+* opportunity to work on the international ePOS project in cooperation with one of the world’s top food ordering companies
+* flat structure and a real impact on the company growth 
 * working with experienced, ambitious and positive team
-* space for self-development
-* business contract depending on your needs (you choose if it’s B2B or UoP)
-* MultiSport card and private medical package
+* space for self-development and time every week to write blog posts 🙂
+* business contract depending on your needs (you decide whether it is B2B or UoP)
+* office library - instead of buying professional books we buy them for you 
+* MultiSport card and private medical package fully covered by the company 
 * good equipment: MacBook, one or two screens and additional accessories
-* flexible working hours (we come to work between 7.00 and 10.00 a.m.)
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby
+* flexible working hours (you can come to work between 7.00 and 10.00 a.m.)
+* good localisation: Gdańsk Wrzeszcz with a parking space nearby 
 * Bright Day once a month during which you can do non-project stuff
-* Bright Lunches for you and your colleague sponsored by the company
-* team retreats once a quarter, Birthday cakes and occassional surprises
+* team retreats once a quarter and regular sport classes 
+* bright rituals such as birthday cakes, bright kudos, brights donuts and other occasional surprises 
 
 ## What We Are Looking For
 
-* at least 1-2 years of commercial programming experience
+* at least 3-4 years of commercial programming experience (preferably of course in backend or fullstack) 
+* excellent problem solving and analytical thinking skills
 * very good working knowledge and deep understanding of Java and Spring framework
 * good knowledge and understanding of Kotlin
 * experience with databases, in particular MySQL
 * familiarity with AWS or other Cloud providers
-* excellent problem solving and analytical thinking skills
-* very good command of English (both written and spoken)
+* very good command of English (both written and spoken))
 
 ## We Would Also Appreciate If You Have
 
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker
 * familiarity with Agile and Lean methodologies
-
 
 In case you have some questions - drop a line to ula@bright.dev
