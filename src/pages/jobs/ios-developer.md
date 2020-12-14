@@ -1,7 +1,7 @@
 ---
 layout: job
 title: iOS Developer
-hours: Full-time
+hours: full-time
 salary: 13 000 - 17 000 PLN + VAT (B2B)
 salary_min: 13000
 salary_max: 17000
