@@ -1,8 +1,10 @@
 ---
 layout: job
-title: Fullstack developer (interest in Blockchain)
+title: "Fullstack developer "
 hours: full-time
-salary: 10 000 - 15 000 PLN + VAT, B2B
+salary: 14 000 - 18 000 PLN + VAT, B2B
+salary_min: 14000
+salary_max: 18000
 published: true
 order: 3
 ---
@@ -16,7 +18,7 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 
 **What We Offer**
 
-* working on the international projects for United Nations and Parity organisations
+* working on the international projects for such organisations as United Nations and Parity
 * flat structure with no management overhead
 * working with experienced, ambitious and positive team
 * space for self-development
@@ -27,18 +29,18 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * good localisation: Gdańsk Wrzeszcz with a parking space nearby
 * Bright Day once a month during which you can do non-project stuff
 * team retreats once a quarter, Birthday cakes and occasional surprises
-  
+
 **In This Role You Will**
 
-* create high-quality Blockchain products
+* create high-quality web applications 
 * participate in software code reviews
 * have a direct contact with clients 
-* share knowledge about Blockchain (especially Substrate) with the rest of the team
+* share your knowledge and experience with the rest of the team
 * improve internal software development processes
 
 **What We Are Looking For**
 
-* at least 2 years of commercial programming experience with TypeScript/JavaScript 
+* at least 3 years of commercial programming experience with TypeScript/JavaScript 
 * an ability to understand the business requirements of projects 
 * interest in Blockchain technologies 
 * experience with development in Node.js
@@ -49,4 +51,5 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 **We Would Also Appreciate if You Have**
 
 * familiarity with development in React 
-* familiarity with Agile and Lean methodologies
+* familiarity with Agile and Lean methodologies\
+* interest in Blockchain (especially Substrate)
