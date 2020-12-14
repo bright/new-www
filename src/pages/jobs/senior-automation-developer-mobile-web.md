@@ -6,7 +6,6 @@ salary: "14 000 - 18 000 PLN + VAT (B2B) "
 salary_min: 14000
 salary_max: 18000
 published: true
-order: 6
 ---
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
 
