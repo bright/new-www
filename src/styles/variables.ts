@@ -3,6 +3,7 @@ export default {
   blackTextColor: "#131214",
   blackBannerBackground: "#131214",
   white: "#ffffff",
+  black: "#000000",
 
   textFont: "Lato",
   headerFont: "Montserrat",

@@ -36,7 +36,6 @@ const ParagraphTextWrapper = styled.div({
   maxWidth: "955px",
 
   color: variables.blackTextColor,
-  opacity: 0.75,
 
   padding: "10px",
 })
