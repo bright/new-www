@@ -1,8 +1,8 @@
 ---
 layout: job
 title: Android Developer
-hours: Full-time
-salary: "10 000 - 15 000 PLN + VAT (B2B) "
+hours: full-time
+salary: "14 000 - 18 000 PLN + VAT (B2B) "
 salary_min: 14000
 salary_max: 18000
 redirect_from:
@@ -11,7 +11,7 @@ redirect_from:
 published: true
 order: 3
 ---
-## Who We Are  
+## Who We Are
 
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
 
@@ -21,7 +21,7 @@ What can you expect after joining our team?
 
 Exciting projects. Positive and supportive team. Responsibility. And for sure professional growth. 
 
-## What You Will Do 
+## What You Will Do
 
 * create high-quality Android applications
 * participate in software code reviews
@@ -42,24 +42,25 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * an office library with the professional books that help you grow
 * Bright Day once a month during which you can do non-project stuff
 * Bright Lunches for you and your colleague sponsored by the company
-* team retreats once a quarter, Birthday cakes and occassional surprises
+* team retreats once a quarter, Birthday cakes and occasional surprises
 
 ## What We Are Looking For
 
-* at least 1-2 years of commercial programming experience
+* passion for programming, self-improvement, new technologies
+* positive attitude :)
+* problem solving attitude and analytical thinking skills
+* at least 2-3 years of commercial programming experience
 * familiarity with Android changes from KitKat to Q
 * very good knowledge and deep understanding of Kotlin/Java
 * good understanding of the most popular Google libraries
 * familiarity with Continuous Integration and other process automation tools
-* passion for programming, self-improvement, new technologies
-* problem solving attitude and analytical thinking skills
-* familiarity with Agile methodologies
 * the ability to work independently as well as in a team
-* communicative level of English (both written and spoken) 
+* communicative level of English (both written and spoken)
 
-## We Would Also Appreciate If You 
+## We Would Also Appreciate If You
 
-* have experience and understand Kotlin coroutines, Kotlin serialization and Data Binding 
+* have experience and understand Kotlin coroutines, Kotlin serialisation and Data Binding
 
 
-In case you have any questions, contact ula@bright.dev 
+
+In case you have any questions, contact ula@bright.dev
