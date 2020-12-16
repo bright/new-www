@@ -1,13 +1,17 @@
 @import "../styles/mixins";
 @import "../styles/variables";
 
-.page {
-  padding: 0 2rem;
+.page > section {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @include mobile() {
   .page {
-    padding: 0;
+    & > section {
+      padding-left: 0;
+      padding-right: 0;
+    }
 
     &.menuOpened {
       overflow: hidden;

@@ -4,12 +4,12 @@ import {Page} from '../layout/Page'
 import {Header} from './home/Header'
 import {Achievements} from './home/Achievements'
 import {Carousel} from './home/Carousel'
+import {OurServices} from './home/OurServices'
 
 import ClutchInfo from '../components/home/ClutchInfo'
 import Cocoaheads from '../components/home/Cocoaheads'
 import ContactForm from '../components/home/ContactForm'
 import ImageSpacer from '../components/home/ImageSpacer'
-import OurServices from '../components/home/OurServices'
 import PopularBlogPosts from '../components/home/PopularBlogPosts'
 import ProductIdea from '../components/home/ProductIdea'
 import SuccessStories from '../components/home/SuccessStories'
@@ -23,8 +23,9 @@ export default () => {
             <Header/>
             <Achievements/>
             <Carousel />
-
+            <Achievements/>{/* TAGS COMPONENT */}
             <OurServices/>
+
             <ImageSpacer/>
             <SuccessStories/>
             <Ratings/>
