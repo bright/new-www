@@ -1,0 +1,38 @@
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+
+  .carousel {
+    .indicator {
+      color: black;
+      font-size: 4em;
+      display: inline-block;
+      margin-top: 2em;
+      position: relative;
+      left: -0.125em;
+
+      &.white {
+        color: white;
+      }
+
+      &:not(.active) {
+        cursor: pointer;
+        opacity: 0.42;
+      }
+    }
+
+    .arrow {
+      position: absolute;
+      z-index: 2;
+      top: calc(50% - 3.5em);
+      cursor: pointer;
+      display: inline-block;
+      margin: 0 -1em;
+    }
+
+    :global(.control-dots) {
+      margin: -1rem 0;
+    }
+  }
+}
