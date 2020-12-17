@@ -16,6 +16,8 @@ const Indicator = styled.li({
 
   marginLeft: "7px",
   marginRight: "7px",
+
+  cursor: "pointer",
 })
 
 const IndicatorSymbol = styled.div<{ selected: boolean }>(({ selected }) => ({
