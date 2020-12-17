@@ -8,6 +8,7 @@ import WebDevelopment from "../../assets/webDevelopment.svg"
 import AgileWorkshops from "../../assets/agileWorkshops.svg"
 import CustomSoftwareDevelopment from "../../assets/customSoftwareDevelopment.svg"
 import variables from "../../styles/variables"
+import { Link } from "gatsby"
 
 const DevelopmentAreasWrapper = styled.div({
   display: "flex",
@@ -93,10 +94,6 @@ const DevelopmentAreaContainer = styled.div({
 
 const GoToContainer = styled.div({
   marginTop: "18px",
-
-  ["@media screen and (max-width: 768px)"]: {
-    display: "none",
-  },
 })
 
 const OurDevelopmentAreas = () => {
@@ -108,14 +105,19 @@ const OurDevelopmentAreas = () => {
             <WebDevelopment />
             <Title>web development</Title>
           </SectionTitle>
-          <SectionText>
-            We provide a wide range of custom full stack web development
-            services. We rely on a rich technology stack, including JavaScript,
-            CSS, HTML, Java, Node.js, AWS, MySQL, PostgreSQL, and more.
-          </SectionText>
-          <GoToContainer>
-            <RightArrow />
-          </GoToContainer>
+          <Link to="/our-areas/web-development">
+            <SectionText>
+              We provide a wide range of custom full stack web development
+              services. We rely on a rich technology stack, including
+              JavaScript, CSS, HTML, Java, Node.js, AWS, MySQL, PostgreSQL, and
+              more.
+            </SectionText>
+          </Link>
+          <Link to="/our-areas/web-development">
+            <GoToContainer>
+              <RightArrow />
+            </GoToContainer>
+          </Link>
         </DevelopmentAreaContainer>
 
         <DevelopmentAreaContainer>
@@ -123,14 +125,18 @@ const OurDevelopmentAreas = () => {
             <MobileAppDevelopment />
             <Title>mobile app development</Title>
           </SectionTitle>
-          <SectionText>
-            We offer native mobile app development for iOS and Android. Our app
-            development team has broad experience in building applications in
-            Swift, Java, and Kotlin.
-          </SectionText>
-          <GoToContainer>
-            <RightArrow />
-          </GoToContainer>
+          <Link to="/our-areas/mobile-app-development">
+            <SectionText>
+              We offer native mobile app development for iOS and Android. Our
+              app development team has broad experience in building applications
+              in Swift, Java, and Kotlin.
+            </SectionText>
+          </Link>
+          <Link to="/our-areas/mobile-app-development">
+            <GoToContainer>
+              <RightArrow />
+            </GoToContainer>
+          </Link>
         </DevelopmentAreaContainer>
 
         <DevelopmentAreaContainer>
@@ -138,14 +144,18 @@ const OurDevelopmentAreas = () => {
             <ProductDesign />
             <Title>product design</Title>
           </SectionTitle>
-          <SectionText>
-            You can count on our expertise in interface analysis, animation
-            design, UX and UI design, root cause analysis, and more. We have
-            worked on design projects of all sizes.
-          </SectionText>
-          <GoToContainer>
-            <RightArrow />
-          </GoToContainer>
+          <Link to="/our-areas/product-design">
+            <SectionText>
+              You can count on our expertise in interface analysis, animation
+              design, UX and UI design, root cause analysis, and more. We have
+              worked on design projects of all sizes.
+            </SectionText>
+          </Link>
+          <Link to="/our-areas/product-design">
+            <GoToContainer>
+              <RightArrow />
+            </GoToContainer>
+          </Link>
         </DevelopmentAreaContainer>
 
         <DevelopmentAreaContainer>
@@ -153,14 +163,18 @@ const OurDevelopmentAreas = () => {
             <Blockchain />
             <Title>blockchain</Title>
           </SectionTitle>
-          <SectionText>
-            Our team has a vast experience in blockchain projects, including the
-            development of a solution for a global humanitarian organization.
-            Blockchain technology is what we’re really good at!
-          </SectionText>
-          <GoToContainer>
-            <RightArrow />
-          </GoToContainer>
+          <Link to="/our-areas/blockchain">
+            <SectionText>
+              Our team has a vast experience in blockchain projects, including
+              the development of a solution for a global humanitarian
+              organization. Blockchain technology is what we’re really good at!
+            </SectionText>
+          </Link>
+          <Link to="/our-areas/blockchain">
+            <GoToContainer>
+              <RightArrow />
+            </GoToContainer>
+          </Link>
         </DevelopmentAreaContainer>
 
         <DevelopmentAreaContainer>
@@ -168,28 +182,37 @@ const OurDevelopmentAreas = () => {
             <CustomSoftwareDevelopment />
             <Title>custom software development</Title>
           </SectionTitle>
-          <SectionText>
-            Custom software development is where our development team truly
-            shines! We recognize that all businesses are unique and that many …
-          </SectionText>
-          <GoToContainer>
-            <RightArrow />
-          </GoToContainer>
+          <Link to="/our-areas/custom-software-development">
+            <SectionText>
+              Custom software development is where our development team truly
+              shines! We recognize that all businesses are unique and that many
+              …
+            </SectionText>
+          </Link>
+          <Link to="/our-areas/custom-software-development">
+            <GoToContainer>
+              <RightArrow />
+            </GoToContainer>
+          </Link>
         </DevelopmentAreaContainer>
 
         <DevelopmentAreaContainer>
-          <SectionTitle>
+          <SectionTitle iconMobileWidth="52px" iconMobileHeight="65px">
             <AgileWorkshops />
             <Title>agile workshops</Title>
           </SectionTitle>
-          <SectionText>
-            Our customers come from all sorts of industries and disciplines,
-            both technical and non-technical. However, regardless of their
-            backgroun …
-          </SectionText>
-          <GoToContainer>
-            <RightArrow />
-          </GoToContainer>
+          <Link to="/our-areas/agile-workshops">
+            <SectionText>
+              Our customers come from all sorts of industries and disciplines,
+              both technical and non-technical. However, regardless of their
+              backgroun …
+            </SectionText>
+          </Link>
+          <Link to="/our-areas/agile-workshops">
+            <GoToContainer>
+              <RightArrow />
+            </GoToContainer>
+          </Link>
         </DevelopmentAreaContainer>
       </DevelopmentAreasContainer>
     </DevelopmentAreasWrapper>
