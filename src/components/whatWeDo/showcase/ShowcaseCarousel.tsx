@@ -9,13 +9,23 @@ import { ProjectModel } from "../../../models/gql"
 import variables from "../../../styles/variables"
 import CarouselCard from "./CarouselCard"
 
-const Indicator = styled.li<{ selected?: boolean }>({
+const Indicator = styled.li({
   color: variables.black,
   fontSize: "28px",
   display: "inline-block",
-  marginTop: "20px",
-  position: "relative",
+
+  marginLeft: "7px",
+  marginRight: "7px",
 })
+
+const IndicatorSymbol = styled.div<{ selected: boolean }>(({ selected }) => ({
+  backgroundColor: variables.blackBannerBackground,
+  opacity: selected ? 1 : 0.42,
+  width: "8px",
+  height: "8px",
+  border: `1px solid ${variables.blackBannerBackground}`,
+  borderRadius: "50%",
+}))
 
 const CarouselWrapper = styled.div({
   marginBottom: "105px",
@@ -33,6 +43,10 @@ const CarouselWrapper = styled.div({
   },
 })
 
+const SliderButton = styled.div({
+  cursor: "pointer",
+})
+
 const ShowcaseCarousel = () => {
   const {
     allMarkdownRemark: { edges },
@@ -43,22 +57,22 @@ const ShowcaseCarousel = () => {
 
   const indicator = (onClickHandler: any, isSelected: boolean) => {
     return (
-      <Indicator selected={isSelected} onClick={!isSelected && onClickHandler}>
-        &#x2022;
+      <Indicator onClick={!isSelected && onClickHandler}>
+        <IndicatorSymbol selected={isSelected} />
       </Indicator>
     )
   }
 
   const arrowPrev = (onClickHandler: any) => (
-    <div>
+    <SliderButton>
       <BackArrow onClick={onClickHandler} />
-    </div>
+    </SliderButton>
   )
 
   const arrowNext = (onClickHandler: any) => (
-    <div>
+    <SliderButton>
       <NextArrow onClick={onClickHandler} />
-    </div>
+    </SliderButton>
   )
 
   return (

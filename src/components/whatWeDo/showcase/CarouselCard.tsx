@@ -57,6 +57,7 @@ const Image = styled.img({
   objectFit: "contain",
   height: "100%",
   width: "100%",
+  maxWidth: "500px",
 })
 
 const GoToContainer = styled.div({
