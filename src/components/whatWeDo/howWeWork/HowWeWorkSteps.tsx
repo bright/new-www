@@ -1,9 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 import WhatWeDoArrows from "../../../assets/whatWeDoArrows.svg"
-import WebDevelopment from "../../../assets/webDevelopment.svg"
+import ProjectDevelopment from "../../../assets/projectDevelopment.svg"
+import SoftwareDevelopment from "../../../assets/softwareDevelopment.svg"
+import RequirementsElicitation from "../../../assets/requirmentsElicitation.svg"
+import ProductDesign from "../../../assets/productDesignWithArrow.svg"
+import QualityAssurance from "../../../assets/qualityAssurance.svg"
+import Ideation from "../../../assets/ideation.svg"
+import Maintenance from "../../../assets/maintenance.svg"
 import variables from "../../../styles/variables"
-import ProductDesign from "../../../assets/productDesign.svg"
 
 const Container = styled.div({
   marginTop: "25px",
@@ -19,14 +24,14 @@ const Container = styled.div({
 })
 
 const ContentWrapper = styled.div({
-  maxWidth: "955px",
+  maxWidth: "1240px",
 
   display: "flex",
   flexDirection: "column",
   alignItems: "flex-start",
 
-  // {/* TODO: when Alisa provides an image use it as a background */}
-  //       {/* <WhatWeDoArrows /> */}
+  // TODO
+  // backgroundImage: "url(/images/whatWeDoArrows.svg)",
 })
 
 const SectionTitle = styled.div({
@@ -39,6 +44,8 @@ const SectionTitle = styled.div({
 })
 
 const Title = styled.div({
+  maxWidth: "955px",
+
   fontWeight: "bold",
   marginTop: "36px",
 
@@ -65,7 +72,7 @@ const HowWeWorkSteps = () => {
     <Container>
       <ContentWrapper>
         <SectionTitle>
-          <WebDevelopment />
+          <Ideation />
           <Title>Ideation</Title>
         </SectionTitle>
         <Description>
@@ -79,7 +86,7 @@ const HowWeWorkSteps = () => {
         </Description>
 
         <SectionTitle>
-          <WebDevelopment />
+          <RequirementsElicitation />
           <Title>Requirements elicitation</Title>
         </SectionTitle>
         <Description>
@@ -91,7 +98,7 @@ const HowWeWorkSteps = () => {
         </Description>
 
         <SectionTitle>
-          <WebDevelopment />
+          <ProjectDevelopment />
           <Title>Project development</Title>
         </SectionTitle>
         <Description>
@@ -115,7 +122,7 @@ const HowWeWorkSteps = () => {
         </Description>
 
         <SectionTitle>
-          <WebDevelopment />
+          <SoftwareDevelopment />
           <Title>Software development</Title>
         </SectionTitle>
         <Description>
@@ -127,7 +134,7 @@ const HowWeWorkSteps = () => {
         </Description>
 
         <SectionTitle>
-          <WebDevelopment />
+          <QualityAssurance />
           <Title>Quality assurance</Title>
         </SectionTitle>
         <Description>
@@ -138,7 +145,7 @@ const HowWeWorkSteps = () => {
         </Description>
 
         <SectionTitle>
-          <WebDevelopment />
+          <Maintenance />
           <Title>Maintenance</Title>
         </SectionTitle>
         <Description>
