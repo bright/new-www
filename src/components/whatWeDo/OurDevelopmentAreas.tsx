@@ -13,6 +13,8 @@ import { Link } from "gatsby"
 const DevelopmentAreasWrapper = styled.div({
   display: "flex",
   justifyContent: "center",
+
+  width: "100%",
 })
 
 const DevelopmentAreasContainer = styled.div({
@@ -29,7 +31,6 @@ const SectionTitle = styled.div<{
 }>(({ iconMobileWidth, iconMobileHeight }) => ({
   display: "flex",
   flexDirection: "column",
-  width: "100%",
   alignItems: "center",
 
   ["@media screen and (max-width: 768px)"]: {
@@ -75,7 +76,7 @@ const SectionText = styled.div({
 })
 
 const DevelopmentAreaContainer = styled.div({
-  flexBasis: "100%",
+  // flexBasis: "100%",
   flexGrow: 0,
   flexShrink: 1,
 

@@ -1,6 +1,7 @@
 import React, { FC, useState } from "react"
 import styled from "styled-components"
 import { FormType, sendMail } from "../../../helpers/mail"
+import variables from "../../../styles/variables"
 import { Button, Section, SectionTitle } from "../../shared"
 
 const ContainerWrapper = styled.div({
@@ -8,6 +9,10 @@ const ContainerWrapper = styled.div({
   justifyContent: "center",
 
   marginTop: "185px",
+  marginBottom: "185px",
+
+  paddingLeft: "20px",
+  paddingRight: "20px",
 
   ["@media screen and (max-width: 768px)"]: {
     display: "none",
@@ -38,28 +43,61 @@ const Form = styled.form({
   marginTop: "55px",
 })
 
-const SpacedButton = styled(Button)``
+const SubmitButton = styled.button({
+  fontSize: "18px",
+  lineHeight: "22px",
+  fontFamily: variables.headerFont,
+  fontWeight: "bold",
+
+  color: variables.white,
+  backgroundColor: variables.blackBannerBackground,
+
+  height: "54px",
+  width: "230px",
+
+  padding: "15px 82px",
+})
 
 const InputLabel = styled.div({
-  font: "normal normal normal 16px/40px Lato",
+  fontSize: "16px",
+  lineHeight: "40px",
+
+  fontFamily: variables.textFont,
+  color: variables.blackTextColor,
+
+  marginBottom: "8px",
 })
 
 const TextInput = styled.input({
   height: "64px",
   width: "445px",
-  font: "normal normal 600 16px/40px Lato",
-  color: "#131214",
+
+  fontSize: "16px",
+  lineHeight: "40px",
+  fontFamily: variables.textFont,
+
+  color: variables.blackTextColor,
+  opacity: 0.56,
+
   padding: "20px",
-  border: "1px solid #131214",
+  border: `1px solid ${variables.blackTextColor}`,
 })
 
 const SingleSelect = styled.select({
   height: "64px",
   width: "100%",
-  font: "normal normal 600 16px/40px Lato",
-  color: "#131214",
-  padding: "20px",
-  border: "1px solid #131214",
+
+  fontSize: "16px",
+  lineHeight: "40px",
+
+  fontFamily: variables.textFont,
+  color: variables.blackTextColor,
+  opacity: 0.55,
+
+  padding: "23px",
+  border: `1px solid ${variables.blackTextColor}`,
+
+  marginBottom: "64px",
 })
 
 const DoubleInputsRow = styled.div({
@@ -68,6 +106,25 @@ const DoubleInputsRow = styled.div({
   flexGrow: 1,
 
   flexWrap: "wrap",
+  marginBottom: "64px",
+})
+
+const IdeaTextArea = styled.textarea({
+  height: "228px",
+  maxWidth: "100%",
+  width: "100%",
+
+  fontSize: "16px",
+  lineHeight: "19px",
+  fontFamily: variables.textFont,
+
+  color: variables.black,
+  opacity: 0.54,
+
+  padding: "20px",
+
+  border: `1px solid ${variables.blackTextColor}`,
+
   marginBottom: "64px",
 })
 
@@ -187,6 +244,10 @@ const WhatWeDoForm = () => {
             onChange={e => setService(e.target.value)}
             required
           >
+            <option value="" disabled selected hidden>
+              Pick what service you need
+            </option>
+
             <option value="web_development">web development</option>
             <option value="mobile_app_development">
               mobile app development
@@ -199,19 +260,34 @@ const WhatWeDoForm = () => {
             <option value="agile_workshops">agile workshops</option>
           </SingleSelect>
 
-          <div className="field">
-            <div className="control">
-              <textarea
-                name="message"
-                value={message}
-                onChange={e => setMessage(e.target.value)}
-                maxLength={5000}
-                placeholder="Message"
-                required
-                className="textarea"
-              ></textarea>
-            </div>
-          </div>
+          <InputLabel>Idea / Project</InputLabel>
+          <IdeaTextArea
+            name="message"
+            value={message}
+            onChange={e => setMessage(e.target.value)}
+            maxLength={5000}
+            placeholder="Describe your project"
+            required
+          />
+
+          <InputLabel>How did you find out about us?</InputLabel>
+          <SingleSelect
+            name="source"
+            value={source}
+            onChange={e => setSource(e.target.value)}
+            required
+            style={{ width: "50%" }}
+          >
+            <option value="" disabled selected hidden>
+              Select how did you find about us
+            </option>
+
+            <option value="social_media">
+              Social media (LinkedIn, Facebook, Instagram)
+            </option>
+            <option value="other">other</option>
+          </SingleSelect>
+
           <div className="field">
             <div className="control">
               <label className="checkbox">
@@ -236,17 +312,15 @@ const WhatWeDoForm = () => {
               </label>
             </div>
           </div>
-          <div className="field">
-            <div className="control has-text-centered">
-              <SpacedButton
-                type="submit"
-                disabled={!(checkedRules && name && email && message)}
-              >
-                submit
-              </SpacedButton>
-            </div>
-          </div>
+
+          <SubmitButton
+            type="submit"
+            disabled={!(checkedRules && name && email && message)}
+          >
+            submit
+          </SubmitButton>
         </Form>
+
         {success && (
           <div className="is-size-6">
             Thank you! Your submission has been received!
