@@ -11,9 +11,10 @@ tags:
   - backend
   - custom software development
 order: 3
-slug: mobile-therapy-application/
+slug: projects/mobile-therapy-application/
 published: true
 ---
+
 ## Main features:
 
 * Therapist module (user panel)
@@ -24,11 +25,11 @@ published: true
 
 ## Skills:
 
-**iOS:** Swift, RxSwift, Alamofire 
+**iOS:** Swift, RxSwift, Alamofire
 
-**Android:** Kotlin, RxJava, Retrofit, Dagger 
+**Android:** Kotlin, RxJava, Retrofit, Dagger
 
-**Backend:** Node.js, Typescript, PostgreSQL, AWS Services 
+**Backend:** Node.js, Typescript, PostgreSQL, AWS Services
 
 **Frontend:** React, Typescript
 
