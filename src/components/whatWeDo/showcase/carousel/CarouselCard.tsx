@@ -3,12 +3,13 @@ import styled from "styled-components"
 import { ProjectModel } from "../../../../models/gql"
 import variables from "../../../../styles/variables"
 import RightArrow from "../../../../assets/rightArrow.svg"
+import { Link } from "gatsby"
 
 interface CarouselCardProps {
   project: ProjectModel
 }
 
-const Container = styled.div({
+const Container = styled(Link)({
   marginTop: "105px",
 
   display: "flex",
@@ -72,8 +73,7 @@ const GoToContainer = styled.div({
 
 const CarouselCardProps: React.FC<CarouselCardProps> = ({ project }) => {
   return (
-    <Container>
-      {/* <a href={project.slug}> */}
+    <Container to={project.slug}>
       <ProjectDescriptionWrapper>
         <Title>{project.title}</Title>
         <Description>{project.description}</Description>
