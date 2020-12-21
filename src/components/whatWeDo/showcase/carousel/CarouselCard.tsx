@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
-import { ProjectModel } from "../../../models/gql"
-import variables from "../../../styles/variables"
-import RightArrow from "../../../assets/rightArrow.svg"
+import { ProjectModel } from "../../../../models/gql"
+import variables from "../../../../styles/variables"
+import RightArrow from "../../../../assets/rightArrow.svg"
 
 interface CarouselCardProps {
   project: ProjectModel
@@ -21,6 +21,7 @@ const ProjectDescriptionWrapper = styled.div({
 
   display: "flex",
   flexDirection: "column",
+  flexWrap: "wrap",
 })
 
 const Title = styled.div({
@@ -58,6 +59,10 @@ const Image = styled.img({
   height: "100%",
   width: "100%",
   maxWidth: "500px",
+
+  ["@media screen and (max-width: 768px)"]: {
+    maxWidth: "200px",
+  },
 })
 
 const GoToContainer = styled.div({

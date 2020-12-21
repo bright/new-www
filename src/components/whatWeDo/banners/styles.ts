@@ -30,7 +30,7 @@ export const Button = styled.button`
     border-color: #fff;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 100%;
   },
 `
@@ -46,12 +46,12 @@ export const Container = styled.div({
   alignItems: "center",
 
   marginTop: "185px",
-  ["@media screen and (max-width: 768px)"]: {
+  ["@media screen and (max-width: 767px)"]: {
     marginTop: "99px",
     height: "292px",
     textAlign: "center",
-    padding: "0px 18px",
   },
+  padding: "0px 20px",
 })
 
 export const ContentWrapper = styled.div({
@@ -70,7 +70,7 @@ export const Text = styled.div({
   lineHeight: "48px",
   fontFamily: variables.headerFont,
 
-  ["@media screen and (max-width: 768px)"]: {
+  ["@media screen and (max-width: 767px)"]: {
     fontSize: "22px",
     lineHeight: "26px",
   },

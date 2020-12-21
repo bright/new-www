@@ -1,8 +1,21 @@
-import React, { FC, useState } from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import { FormType, sendMail } from "../../../helpers/mail"
-import variables from "../../../styles/variables"
-import { Button, Section, SectionTitle } from "../../shared"
+import {
+  Description,
+  DoubleInputsRow,
+  ErrorMessage,
+  Form,
+  Header,
+  IdeaTextArea,
+  Label,
+  PrivacyPolicyCheckbox,
+  PrivacyPolicyCheckboxContainer,
+  SingleSelect,
+  SubmitButton,
+  SuccessMessage,
+  TextInput,
+} from "./styles"
 
 const ContainerWrapper = styled.div({
   display: "flex",
@@ -14,7 +27,7 @@ const ContainerWrapper = styled.div({
   paddingLeft: "20px",
   paddingRight: "20px",
 
-  ["@media screen and (max-width: 768px)"]: {
+  ["@media screen and (max-width: 767px)"]: {
     display: "none",
   },
 })
@@ -28,106 +41,6 @@ const Container = styled.div({
   color: "#131214",
 })
 
-const Header = styled.div({
-  font: "normal normal 800 40px/49px Montserrat",
-  color: "#000000",
-})
-
-const Description = styled.div({
-  font: "normal normal normal 22px/40px Lato",
-
-  marginTop: "55px",
-})
-
-const Form = styled.form({
-  marginTop: "55px",
-})
-
-const SubmitButton = styled.button({
-  fontSize: "18px",
-  lineHeight: "22px",
-  fontFamily: variables.headerFont,
-  fontWeight: "bold",
-
-  color: variables.white,
-  backgroundColor: variables.blackBannerBackground,
-
-  height: "54px",
-  width: "230px",
-
-  padding: "15px 82px",
-})
-
-const InputLabel = styled.div({
-  fontSize: "16px",
-  lineHeight: "40px",
-
-  fontFamily: variables.textFont,
-  color: variables.blackTextColor,
-
-  marginBottom: "8px",
-})
-
-const TextInput = styled.input({
-  height: "64px",
-  width: "445px",
-
-  fontSize: "16px",
-  lineHeight: "40px",
-  fontFamily: variables.textFont,
-
-  color: variables.blackTextColor,
-  opacity: 0.56,
-
-  padding: "20px",
-  border: `1px solid ${variables.blackTextColor}`,
-})
-
-const SingleSelect = styled.select({
-  height: "64px",
-  width: "100%",
-
-  fontSize: "16px",
-  lineHeight: "40px",
-
-  fontFamily: variables.textFont,
-  color: variables.blackTextColor,
-  opacity: 0.55,
-
-  padding: "23px",
-  border: `1px solid ${variables.blackTextColor}`,
-
-  marginBottom: "64px",
-})
-
-const DoubleInputsRow = styled.div({
-  display: "flex",
-  flexDirection: "row",
-  flexGrow: 1,
-
-  flexWrap: "wrap",
-  marginBottom: "64px",
-})
-
-const IdeaTextArea = styled.textarea({
-  height: "228px",
-  maxWidth: "100%",
-  width: "100%",
-
-  fontSize: "16px",
-  lineHeight: "19px",
-  fontFamily: variables.textFont,
-
-  color: variables.black,
-  opacity: 0.54,
-
-  padding: "20px",
-
-  border: `1px solid ${variables.blackTextColor}`,
-
-  marginBottom: "64px",
-})
-
 const WhatWeDoForm = () => {
   const [name, setName] = useState<string>("")
   const [email, setEmail] = useState<string>("")
@@ -135,9 +48,11 @@ const WhatWeDoForm = () => {
   const [phone, setPhone] = useState<string>("")
   const [budget, setBudget] = useState<string>("")
 
-  const [service, setService] = useState<string>("")
+  const [service, setService] = useState<string>("DEFAULT")
   const [message, setMessage] = useState<string>("")
-  const [source, setSource] = useState<string>("")
+
+  const [source, setSource] = useState<string>("DEFAULT")
+
   const [checkedRules, setCheckedRules] = useState(false)
 
   const [success, setSuccess] = useState(false)
@@ -151,7 +66,10 @@ const WhatWeDoForm = () => {
     sendMail(
       {
         name: wrapValue(name),
+        phone: wrapValue(phone),
         email: wrapValue(email),
+        budget: wrapValue(budget),
+        source: wrapValue(source),
         message: wrapValue(message),
       },
       FormType.contact
@@ -183,7 +101,7 @@ const WhatWeDoForm = () => {
         <Form data-form-type="contact" action="#" onSubmit={onFormSubmit}>
           <DoubleInputsRow>
             <div style={{ marginRight: "64px" }}>
-              <InputLabel>Name / Company</InputLabel>
+              <Label>Name / Company</Label>
               <TextInput
                 type="text"
                 maxLength={256}
@@ -196,7 +114,7 @@ const WhatWeDoForm = () => {
             </div>
 
             <div>
-              <InputLabel>Email</InputLabel>
+              <Label>Email</Label>
               <TextInput
                 type="email"
                 maxLength={256}
@@ -211,7 +129,7 @@ const WhatWeDoForm = () => {
 
           <DoubleInputsRow>
             <div style={{ marginRight: "64px" }}>
-              <InputLabel>Phone</InputLabel>
+              <Label>Phone</Label>
               <TextInput
                 type="text"
                 maxLength={256}
@@ -224,12 +142,12 @@ const WhatWeDoForm = () => {
             </div>
 
             <div>
-              <InputLabel>Budget</InputLabel>
+              <Label>Budget</Label>
               <TextInput
                 type="text"
                 maxLength={256}
                 name="budget"
-                value={email}
+                value={budget}
                 onChange={e => setBudget(e.target.value)}
                 placeholder="Budget"
                 required
@@ -237,14 +155,14 @@ const WhatWeDoForm = () => {
             </div>
           </DoubleInputsRow>
 
-          <InputLabel>Service</InputLabel>
+          <Label>Service</Label>
           <SingleSelect
             name="service"
             value={service}
             onChange={e => setService(e.target.value)}
             required
           >
-            <option value="" disabled selected hidden>
+            <option value="DEFAULT" hidden>
               Pick what service you need
             </option>
 
@@ -260,7 +178,7 @@ const WhatWeDoForm = () => {
             <option value="agile_workshops">agile workshops</option>
           </SingleSelect>
 
-          <InputLabel>Idea / Project</InputLabel>
+          <Label>Idea / Project</Label>
           <IdeaTextArea
             name="message"
             value={message}
@@ -270,7 +188,7 @@ const WhatWeDoForm = () => {
             required
           />
 
-          <InputLabel>How did you find out about us?</InputLabel>
+          <Label>How did you find out about us?</Label>
           <SingleSelect
             name="source"
             value={source}
@@ -278,7 +196,7 @@ const WhatWeDoForm = () => {
             required
             style={{ width: "50%" }}
           >
-            <option value="" disabled selected hidden>
+            <option value="DEFAULT" hidden>
               Select how did you find about us
             </option>
 
@@ -288,30 +206,26 @@ const WhatWeDoForm = () => {
             <option value="other">other</option>
           </SingleSelect>
 
-          <div className="field">
-            <div className="control">
-              <label className="checkbox">
-                <input
-                  type="checkbox"
-                  name="accept-policy"
-                  value="yes"
-                  required
-                  onChange={e => setCheckedRules(e.currentTarget.checked)}
-                  checked={checkedRules}
-                />
-                &nbsp;I accept the&nbsp;
-                <a
-                  href="/privacy-policy"
-                  target="_blank"
-                  className="has-text-black"
-                >
-                  <b>
-                    <u>Privacy Policy</u>
-                  </b>
-                </a>
-              </label>
-            </div>
-          </div>
+          <PrivacyPolicyCheckboxContainer>
+            <PrivacyPolicyCheckbox
+              type="checkbox"
+              name="accept-policy"
+              value="yes"
+              required
+              onChange={e => setCheckedRules(e.currentTarget.checked)}
+              checked={checkedRules}
+            />
+            &nbsp;I accept the&nbsp;
+            <a
+              href="/privacy-policy"
+              target="_blank"
+              className="has-text-black"
+            >
+              <b>
+                <u>Privacy Policy</u>
+              </b>
+            </a>
+          </PrivacyPolicyCheckboxContainer>
 
           <SubmitButton
             type="submit"
@@ -322,14 +236,14 @@ const WhatWeDoForm = () => {
         </Form>
 
         {success && (
-          <div className="is-size-6">
+          <SuccessMessage>
             Thank you! Your submission has been received!
-          </div>
+          </SuccessMessage>
         )}
         {error && (
-          <div className="is-size-6">
+          <ErrorMessage>
             Oops! Something went wrong while submitting the form.
-          </div>
+          </ErrorMessage>
         )}
       </Container>
     </ContainerWrapper>
