@@ -33,7 +33,7 @@ const SectionTitle = styled.div<{
   flexDirection: "column",
   alignItems: "center",
 
-  ["@media screen and (max-width: 768px)"]: {
+  ["@media screen and (max-width: 767px)"]: {
     svg: {
       width: iconMobileWidth,
       height: iconMobileHeight,
@@ -49,7 +49,7 @@ const Title = styled.div({
   lineHeight: "27px",
   fontFamily: variables.headerFont,
 
-  ["@media screen and (max-width: 768px)"]: {
+  ["@media screen and (max-width: 767px)"]: {
     fontSize: "18px",
     lineHeight: "22px",
     marginTop: "30px",
@@ -67,7 +67,7 @@ const SectionText = styled.div({
 
   color: variables.blackTextColor,
 
-  ["@media screen and (max-width: 768px)"]: {
+  ["@media screen and (max-width: 767px)"]: {
     fontSize: "16px",
     lineHeight: "28px",
     marginTop: "30px",
@@ -76,7 +76,6 @@ const SectionText = styled.div({
 })
 
 const DevelopmentAreaContainer = styled.div({
-  // flexBasis: "100%",
   flexGrow: 0,
   flexShrink: 1,
 
@@ -88,7 +87,7 @@ const DevelopmentAreaContainer = styled.div({
 
   padding: "10px",
 
-  ["@media screen and (min-width: 768px)"]: {
+  ["@media screen and (min-width: 767px)"]: {
     flexBasis: "50%",
   },
 })

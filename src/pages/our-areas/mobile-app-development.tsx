@@ -1,11 +1,10 @@
 import { Link } from "gatsby"
 import React from "react"
-import BackArrow from "../../assets/backArrowBlack.svg"
+import BackArrow from "../../assets/backArrow.svg"
 import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
 import Contact from "../../components/whatWeDo/contact/Contact"
 import { Page } from "../../layout/Page"
 import { Container, ContentWrapper, Paragraph, Title } from "./styles"
-
 
 const MobileAppDevelopment = () => {
   return (

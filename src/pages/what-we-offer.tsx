@@ -22,7 +22,7 @@ const ParagraphContainer = styled.div({
 const TopParagraphContainer = styled(ParagraphContainer)({
   paddingTop: "64px",
 
-  ["@media screen and (max-width: 768px)"]: {
+  ["@media screen and (max-width: 767px)"]: {
     display: "none",
   },
 })
@@ -41,7 +41,7 @@ const ParagraphTextWrapper = styled.div({
 })
 
 const RatingsContainer = styled.div({
-  ["@media screen and (max-width: 768px)"]: {
+  ["@media screen and (max-width: 767px)"]: {
     display: "none",
   },
 })

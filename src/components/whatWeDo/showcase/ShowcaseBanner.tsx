@@ -21,6 +21,8 @@ const ContentContainer = styled.div({
   justifyContent: "flex-start",
 
   flexWrap: "wrap",
+
+  padding: "0px 20px",
 })
 
 const Pill = styled.div({
