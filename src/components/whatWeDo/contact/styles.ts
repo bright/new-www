@@ -43,10 +43,6 @@ export const Label = styled.div({
 })
 
 export const TextInput = styled.input({
-  ["@media screen and (max-width: 840px)"]: {
-    display: "none",
-  },
-
   height: "70px",
   width: "445px",
 
