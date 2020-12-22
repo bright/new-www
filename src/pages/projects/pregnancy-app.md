@@ -8,9 +8,10 @@ tags:
   - Android
   - mobile
 order: 5
-slug: pregnancy-app/
+slug: projects/pregnancy-app/
 published: true
 ---
+
 ## Main tech elements
 
 * Apple and Android in app purchases
@@ -26,7 +27,7 @@ published: true
 
 ## Intro
 
-Keleya supports mothers-to-be by offering them ways to stay fit and eat healthy during their nine-month journey. The curated content is personalised based on the user interests. Each week brings a new set of exercises, recipes and tips. 
+Keleya supports mothers-to-be by offering them ways to stay fit and eat healthy during their nine-month journey. The curated content is personalised based on the user interests. Each week brings a new set of exercises, recipes and tips.
 
 ![](/images/keleja1 copy.jpg)
 
@@ -36,7 +37,7 @@ The agency behind Keleya had worked with Bright Inventions in the past on severa
 
 Once the need for the product was confirmed Bright Inventions got engaged. We kicked things off with a workshop in Berlin to understand the expectations and the required technical assets needed to be created. Luckily, two of the people engaged in the product from Bright Inventions side, were at the time fathers-to-be, closely supporting their partners and seeing the need for a product like Keleya firsthand.
 
-The development process was all about empathy. Building a product like this requires an immense amount of understanding of the user needs. No user interface element can be confusing, unclear or hard to use. An application like Keleya needs to make things easy, obvious and fun. It also needs to build trust. 
+The development process was all about empathy. Building a product like this requires an immense amount of understanding of the user needs. No user interface element can be confusing, unclear or hard to use. An application like Keleya needs to make things easy, obvious and fun. It also needs to build trust.
 
 As Bright Inventions worked on the technical side of things (backend system, iOS and Android apps) the agency side handled the creation of the videos and recipes that were to be made available in the app for the paying customers.
 
@@ -47,6 +48,6 @@ Technical challenges lied primarily in ensuring the parity of features across pl
 
 ## Launch
 
-The application launched for iOS and Android at the same time to the positive reviews of the first users.  With the help of the agency’s marketing team a solid user-base has been achieved in a relatively short amount of time.
+The application launched for iOS and Android at the same time to the positive reviews of the first users. With the help of the agency’s marketing team a solid user-base has been achieved in a relatively short amount of time.
 
 Keleya has spun out as a separate company and started to build their own internal development team. Bright Inventions supported in all of those efforts, helping to pick the right engineers and with all of the knowledge transfer.

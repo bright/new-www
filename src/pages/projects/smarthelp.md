@@ -12,12 +12,13 @@ tags:
   - Android
   - backend
 order: 6
-slug: smarthelp/
+slug: projects/smarthelp/
 redirect_from:
   - /smarthelp
   - /smarthelp/
 published: true
 ---
+
 ## Main features
 
 * Websocket communication

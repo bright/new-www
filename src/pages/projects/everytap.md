@@ -9,9 +9,10 @@ tags:
   - Android
   - mobile
 order: 2
-slug: everytap/
+slug: projects/everytap/
 published: true
 ---
+
 ## Main tech elements
 
 * Highly polished user interface

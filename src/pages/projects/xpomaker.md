@@ -9,9 +9,10 @@ description: >
   trade-related tasks, to comprehensive budget management, financial reporting,
   and hotel bookings – xpomaker introduces a whole new fair planning standard!
 published: true
-slug: "xpomaker/"
+slug: "projects/xpomaker/"
 tags: [frontend, backend]
 ---
+
 ### Main features
 
 * Creation of new fair projects

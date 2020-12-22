@@ -10,7 +10,7 @@ tags:
   - iOS
   - custom software development
 order: 4
-slug: motivo/
+slug: projects/motivo/
 published: true
 ---
 ## Main features: 
