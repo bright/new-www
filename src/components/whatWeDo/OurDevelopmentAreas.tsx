@@ -203,9 +203,9 @@ const OurDevelopmentAreas = () => {
           </SectionTitle>
           <Link to="/our-areas/agile-workshops">
             <SectionText>
-              Our customers come from all sorts of industries and disciplines,
-              both technical and non-technical. However, regardless of their
-              backgroun …
+              We'll be more than delighted to organise Agile workshops for you
+              and your team and help you quickly get a grasp of this leading
+              project management methodology brings to the table.
             </SectionText>
           </Link>
           <Link to="/our-areas/agile-workshops">
