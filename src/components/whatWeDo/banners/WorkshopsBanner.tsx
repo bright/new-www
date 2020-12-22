@@ -18,7 +18,7 @@ const WorkshopsBanner = () => {
     <Container>
       <ContentWrapper>
         <Text>we combine technical knowledge with deep agile experience</Text>
-        <Button>workshops</Button>
+        {/* <Button>workshops</Button> */}
       </ContentWrapper>
     </Container>
   )

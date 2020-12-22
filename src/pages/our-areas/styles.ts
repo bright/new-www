@@ -12,10 +12,18 @@ export const Container = styled.div({
 })
 
 export const ContentWrapper = styled.div({
-  maxWidth: "955px",
+  maxWidth: "995px",
 
   display: "flex",
   flexDirection: "column",
+})
+
+export const DescriptionWrapper = styled.div({
+  display: "flex",
+  flexDirection: "column",
+
+  padding: "0 20px",
+  
 })
 
 export const Title = styled.div({
@@ -29,6 +37,14 @@ export const Title = styled.div({
   textAlign: "left",
 
   marginBottom: "20px",
+})
+
+export const SubTitle = styled(Title)({
+  fontSize: "32px",
+  lineHeight: "40px",
+
+  marginTop: "105px",
+  marginBottom: "0px",
 })
 
 export const Paragraph = styled.div({

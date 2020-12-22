@@ -4,7 +4,13 @@ import BackArrow from "../../assets/backArrow.svg"
 import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
 import Contact from "../../components/whatWeDo/contact/Contact"
 import { Page } from "../../layout/Page"
-import { Container, ContentWrapper, Paragraph, Title } from "./styles"
+import {
+  Container,
+  ContentWrapper,
+  DescriptionWrapper,
+  Paragraph,
+  Title,
+} from "./styles"
 
 const Blockchain = () => {
   return (
@@ -16,18 +22,26 @@ const Blockchain = () => {
 
       <Container>
         <ContentWrapper>
-          <Title>
-            {/* TODO Replace arrow image when I got one from Alisa */}
-            <Link to="/what-we-offer">
-              <BackArrow style={{ marginRight: "30px" }} />
-            </Link>
-            blockchain
-          </Title>
-          <Paragraph>
-            Our team has a vast experience in blockchain projects, including the
-            development of a solution for a global humanitarian organization.
-            Blockchain technology is what we’re really good at!
-          </Paragraph>
+          <DescriptionWrapper>
+            <Title>
+              <Link to="/what-we-offer">
+                <BackArrow style={{ marginRight: "30px" }} />
+              </Link>
+              blockchain
+            </Title>
+            <Paragraph>
+              Blockchain is an area we’re especially proud of being experts in –
+              not only because it’s a groundbreaking technology, but also
+              because of its global, humanitarian impact. We’re honored to have
+              been entrusted with a major Blockchain for social impact project –
+              a global food assistance program that helps wire cash to some of
+              the most impoverished communities in the world.
+            </Paragraph>
+            <Paragraph>
+              Do you have a blockchain technology project to discuss? Reach out
+              and and we’ll happily schedule a call!
+            </Paragraph>
+          </DescriptionWrapper>
 
           <Contact />
         </ContentWrapper>

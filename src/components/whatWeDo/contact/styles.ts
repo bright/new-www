@@ -59,7 +59,7 @@ export const TextInput = styled.input({
 
 export const SingleSelect = styled.select({
   height: "70px",
-  width: "100%",
+  width: "445px",
 
   fontSize: "16px",
   lineHeight: "40px",
@@ -85,7 +85,7 @@ export const DoubleInputsRow = styled.div({
 
 export const IdeaTextArea = styled.textarea({
   height: "228px",
-  maxWidth: "100%",
+  maxWidth: "955px",
   width: "100%",
 
   fontSize: "16px",

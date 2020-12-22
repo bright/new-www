@@ -24,8 +24,7 @@ const ContainerWrapper = styled.div({
   marginTop: "185px",
   marginBottom: "185px",
 
-  paddingLeft: "20px",
-  paddingRight: "20px",
+  padding: "0 20px",
 
   ["@media screen and (max-width: 767px)"]: {
     display: "none",
@@ -33,7 +32,7 @@ const ContainerWrapper = styled.div({
 })
 
 const Container = styled.div({
-  maxWidth: "955px",
+  maxWidth: "995px",
 
   display: "flex",
   flexDirection: "column",
@@ -90,12 +89,10 @@ const WhatWeDoForm = () => {
       <Container>
         <Header>let’s talk about your product idea</Header>
         <Description>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          Have an idea for a groundbreaking software project, but don't know
+          where to start? Or maybe you're looking for software development
+          experts to help take your product to the next level? We'll be more
+          than happy to discuss how we can help your business succeed!
         </Description>
 
         <Form data-form-type="contact" action="#" onSubmit={onFormSubmit}>
@@ -141,7 +138,7 @@ const WhatWeDoForm = () => {
               />
             </div>
 
-            <div>
+            {/* <div>
               <Label>Budget</Label>
               <TextInput
                 type="text"
@@ -152,31 +149,34 @@ const WhatWeDoForm = () => {
                 placeholder="Budget"
                 required
               />
+            </div> */}
+
+            <div>
+              <Label>Service</Label>
+              <SingleSelect
+                name="service"
+                value={service}
+                onChange={e => setService(e.target.value)}
+                required
+              >
+                <option value="DEFAULT" hidden>
+                  Pick what service you need
+                </option>
+
+                <option value="web_development">web development</option>
+                <option value="mobile_app_development">
+                  mobile app development
+                </option>
+                <option value="product_design">product design</option>
+                <option value="blockchain">blockchain</option>
+                <option value="custom_software_development">
+                  custom software development
+                </option>
+                <option value="agile_workshops">agile workshops</option>
+                <option value="other">other</option>
+              </SingleSelect>
             </div>
           </DoubleInputsRow>
-
-          <Label>Service</Label>
-          <SingleSelect
-            name="service"
-            value={service}
-            onChange={e => setService(e.target.value)}
-            required
-          >
-            <option value="DEFAULT" hidden>
-              Pick what service you need
-            </option>
-
-            <option value="web_development">web development</option>
-            <option value="mobile_app_development">
-              mobile app development
-            </option>
-            <option value="product_design">product design</option>
-            <option value="blockchain">blockchain</option>
-            <option value="custom_software_development">
-              custom software development
-            </option>
-            <option value="agile_workshops">agile workshops</option>
-          </SingleSelect>
 
           <Label>Idea / Project</Label>
           <IdeaTextArea
@@ -194,7 +194,7 @@ const WhatWeDoForm = () => {
             value={source}
             onChange={e => setSource(e.target.value)}
             required
-            style={{ width: "50%" }}
+            style={{ width: "100%", maxWidth: "445px" }}
           >
             <option value="DEFAULT" hidden>
               Select how did you find about us
@@ -203,6 +203,8 @@ const WhatWeDoForm = () => {
             <option value="social_media">
               Social media (LinkedIn, Facebook, Instagram)
             </option>
+            <option value="referral">Referral</option>
+            <option value="google">Google</option>
             <option value="other">other</option>
           </SingleSelect>
 

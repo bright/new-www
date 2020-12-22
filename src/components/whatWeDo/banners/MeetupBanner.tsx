@@ -18,7 +18,7 @@ const MeetupBanner = () => {
     <Container>
       <ContentWrapper>
         <Text>we are a co-host of the Cocoaheads Tricity</Text>
-        <Button>when is next meet-up?</Button>
+        {/* <Button>when is next meet-up?</Button> */}
       </ContentWrapper>
     </Container>
   )
