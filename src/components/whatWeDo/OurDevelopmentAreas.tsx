@@ -184,9 +184,10 @@ const OurDevelopmentAreas = () => {
           </SectionTitle>
           <Link to="/our-areas/custom-software-development">
             <SectionText>
-              Custom software development is where our development team truly
-              shines! We recognize that all businesses are unique and that many
-              …
+              Our custom software serves the unique processes of your business,
+              solves particular problems and makes your workflows more
+              efficient. We help you throughout all of the software delivery
+              phases.
             </SectionText>
           </Link>
           <Link to="/our-areas/custom-software-development">
