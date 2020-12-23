@@ -11,7 +11,7 @@ import {
   Paragraph,
   SubTitle,
   Title,
-} from "./styles"
+} from "../../components/whatWeDo/ourDevelopmentAreas/styles"
 
 const MobileAppDevelopment = () => {
   return (

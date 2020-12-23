@@ -10,7 +10,7 @@ import {
   Paragraph,
   Title,
   DescriptionWrapper,
-} from "./styles"
+} from "../../components/whatWeDo/ourDevelopmentAreas/styles"
 
 const ProductDesign = () => {
   return (
