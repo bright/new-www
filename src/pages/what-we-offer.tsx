@@ -28,8 +28,8 @@ const TopParagraphContainer = styled(ParagraphContainer)({
 })
 
 const ParagraphTextWrapper = styled.div({
-  fontSize: "22px",
-  lineHeight: "40px",
+  fontSize: "16px",
+  lineHeight: "28px",
   fontFamily: variables.textFont,
 
   textAlign: "left",

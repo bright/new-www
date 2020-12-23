@@ -67,7 +67,7 @@ const WhatWeDoForm = () => {
         name: wrapValue(name),
         phone: wrapValue(phone),
         email: wrapValue(email),
-        budget: wrapValue(budget),
+        // budget: wrapValue(budget),
         source: wrapValue(source),
         message: wrapValue(message),
       },

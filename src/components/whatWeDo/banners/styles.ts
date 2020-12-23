@@ -68,6 +68,7 @@ export const ContentWrapper = styled.div({
 export const Text = styled.div({
   fontSize: "40px",
   lineHeight: "48px",
+  fontWeight: 800,
   fontFamily: variables.headerFont,
 
   ["@media screen and (max-width: 767px)"]: {

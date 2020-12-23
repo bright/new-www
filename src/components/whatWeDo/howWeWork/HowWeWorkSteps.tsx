@@ -64,8 +64,8 @@ const Description = styled.div({
 
   color: variables.blackTextColor,
   textAlign: "left",
-  fontSize: "22px",
-  lineHeight: "40px",
+  fontSize: "16px",
+  lineHeight: "28px",
   fontFamily: variables.textFont,
 })
 

@@ -2,12 +2,18 @@ import styled from "styled-components"
 import variables from "../../../styles/variables"
 
 export const Header = styled.div({
-  font: "normal normal 800 40px/49px Montserrat",
+  fontSize: "36px",
+  lineHeight: "42px",
+  fontWeight: 800,
+  fontFamily: variables.headerFont,
+
   color: "#000000",
 })
 
 export const Description = styled.div({
-  font: "normal normal normal 22px/40px Lato",
+  fontSize: "16px",
+  lineHeight: "28px",
+  fontFamily: variables.textFont,
 
   marginTop: "55px",
 })
@@ -33,7 +39,7 @@ export const SubmitButton = styled.button({
 })
 
 export const Label = styled.div({
-  fontSize: "16px",
+  fontSize: "12px",
   lineHeight: "40px",
 
   fontFamily: variables.textFont,
@@ -43,7 +49,7 @@ export const Label = styled.div({
 })
 
 export const TextInput = styled.input({
-  height: "70px",
+  height: "48px",
   width: "445px",
 
   fontSize: "16px",
@@ -55,10 +61,12 @@ export const TextInput = styled.input({
 
   padding: "20px",
   border: `1px solid ${variables.blackTextColor}`,
+
+  marginBottom: "40px",
 })
 
 export const SingleSelect = styled.select({
-  height: "70px",
+  height: "48px",
   width: "445px",
 
   fontSize: "16px",
@@ -71,7 +79,7 @@ export const SingleSelect = styled.select({
   padding: "23px",
   border: `1px solid ${variables.blackTextColor}`,
 
-  marginBottom: "64px",
+  marginBottom: "40px",
 })
 
 export const DoubleInputsRow = styled.div({
@@ -80,7 +88,6 @@ export const DoubleInputsRow = styled.div({
   flexGrow: 1,
 
   flexWrap: "wrap",
-  marginBottom: "64px",
 })
 
 export const IdeaTextArea = styled.textarea({
@@ -99,7 +106,7 @@ export const IdeaTextArea = styled.textarea({
 
   border: `1px solid ${variables.blackTextColor}`,
 
-  marginBottom: "64px",
+  marginBottom: "40px",
 })
 
 export const PrivacyPolicyCheckboxContainer = styled.div({
@@ -115,8 +122,8 @@ export const PrivacyPolicyCheckboxContainer = styled.div({
 })
 
 export const PrivacyPolicyCheckbox = styled.input({
-  height: "40px",
-  width: "40px",
+  height: "30px",
+  width: "30px",
   marginRight: "19px",
 })
 

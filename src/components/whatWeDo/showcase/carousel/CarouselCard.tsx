@@ -26,9 +26,9 @@ const ProjectDescriptionWrapper = styled.div({
 })
 
 const Title = styled.div({
-  fontSize: "40px",
-  lineHeight: "49px",
-  fontWeight: "bold",
+  fontSize: "36px",
+  lineHeight: "42px",
+  fontWeight: 800,
 
   fontFamily: variables.headerFont,
 
