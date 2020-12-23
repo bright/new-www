@@ -1,12 +1,12 @@
-import React from 'react'
-import {graphql} from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
-import {Page} from '../layout/Page'
-import BackButton from '../components/subcomponents/BackButton'
+import { Page } from "../layout/Page"
+import BackButton from "../components/subcomponents/BackButton"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
-}) {
+}: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
@@ -26,7 +26,7 @@ export default function Template({
               <p dangerouslySetInnerHTML={{ __html: html }}></p>
             </div>
           </div>
-          <BackButton url="/about-us" label="About us" />
+          <BackButton url="/about-us/team" label="About us" />
         </article>
       </div>
       {/* 
