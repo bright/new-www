@@ -28,8 +28,8 @@ export const ContentWrapper = styled.div({
 export const ParagraphTextWrapper = styled.div({
   marginTop: "55px",
 
-  fontSize: "22px",
-  lineHeight: "40px",
+  fontSize: "16px",
+  lineHeight: "28px",
   fontFamily: "Lato",
   textAlign: "left",
 

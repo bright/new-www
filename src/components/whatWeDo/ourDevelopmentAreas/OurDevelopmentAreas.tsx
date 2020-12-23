@@ -61,8 +61,8 @@ const SectionText = styled.div({
 
   textAlign: "left",
 
-  fontSize: "22px",
-  lineHeight: "40px",
+  fontSize: "16px",
+  lineHeight: "28px",
   fontFamily: variables.textFont,
 
   color: variables.blackTextColor,
@@ -85,7 +85,7 @@ const DevelopmentAreaContainer = styled.div({
   flexDirection: "column",
   alignItems: "center",
 
-  padding: "10px",
+  padding: "10px 20px",
 
   ["@media screen and (min-width: 767px)"]: {
     flexBasis: "50%",
@@ -96,13 +96,21 @@ const GoToContainer = styled.div({
   marginTop: "18px",
 })
 
+const ImageContainer = styled.div({
+  svg: {
+    transform: "scale(0.7)",
+  },
+})
+
 const OurDevelopmentAreas = () => {
   return (
     <DevelopmentAreasWrapper>
       <DevelopmentAreasContainer>
         <DevelopmentAreaContainer>
           <SectionTitle iconMobileWidth="71px" iconMobileHeight="67px">
-            <WebDevelopment />
+            <ImageContainer>
+              <WebDevelopment />
+            </ImageContainer>
             <Title>web development</Title>
           </SectionTitle>
           <Link to="/our-areas/web-development">
@@ -122,7 +130,9 @@ const OurDevelopmentAreas = () => {
 
         <DevelopmentAreaContainer>
           <SectionTitle iconMobileWidth="74px" iconMobileHeight="63px">
-            <MobileAppDevelopment />
+            <ImageContainer>
+              <MobileAppDevelopment />
+            </ImageContainer>
             <Title>mobile app development</Title>
           </SectionTitle>
           <Link to="/our-areas/mobile-app-development">
@@ -141,7 +151,9 @@ const OurDevelopmentAreas = () => {
 
         <DevelopmentAreaContainer>
           <SectionTitle iconMobileWidth="63px" iconMobileHeight="64px">
-            <ProductDesign />
+            <ImageContainer>
+              <ProductDesign />
+            </ImageContainer>
             <Title>product design</Title>
           </SectionTitle>
           <Link to="/our-areas/product-design">
@@ -160,7 +172,9 @@ const OurDevelopmentAreas = () => {
 
         <DevelopmentAreaContainer>
           <SectionTitle iconMobileWidth="76px" iconMobileHeight="78px">
-            <Blockchain />
+            <ImageContainer>
+              <Blockchain />
+            </ImageContainer>
             <Title>blockchain</Title>
           </SectionTitle>
           <Link to="/our-areas/blockchain">
@@ -179,7 +193,9 @@ const OurDevelopmentAreas = () => {
 
         <DevelopmentAreaContainer>
           <SectionTitle iconMobileWidth="52px" iconMobileHeight="65px">
-            <CustomSoftwareDevelopment />
+            <ImageContainer>
+              <CustomSoftwareDevelopment />
+            </ImageContainer>
             <Title>custom software development</Title>
           </SectionTitle>
           <Link to="/our-areas/custom-software-development">
@@ -199,7 +215,9 @@ const OurDevelopmentAreas = () => {
 
         <DevelopmentAreaContainer>
           <SectionTitle iconMobileWidth="52px" iconMobileHeight="65px">
-            <AgileWorkshops />
+            <ImageContainer>
+              <AgileWorkshops />
+            </ImageContainer>
             <Title>agile workshops</Title>
           </SectionTitle>
           <Link to="/our-areas/agile-workshops">
