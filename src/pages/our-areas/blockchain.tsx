@@ -10,7 +10,7 @@ import {
   DescriptionWrapper,
   Paragraph,
   Title,
-} from "./styles"
+} from "../../components/whatWeDo/ourDevelopmentAreas/styles"
 
 const Blockchain = () => {
   return (
