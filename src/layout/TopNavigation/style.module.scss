@@ -5,6 +5,7 @@
   display: flex;
   height: $navbar-height;
   transition: box-shadow 0.3s ease-in;
+  padding: 0 2rem;
 
   &.hasShadow {
     box-shadow: 0 4px 8px rgba(10,10,10,.05);
@@ -12,6 +13,7 @@
 
   .brand {
     width: 175px;
+    flex-shrink: 0;
 
     .logo.small {
       display: none;
@@ -67,27 +69,18 @@
 }
 
 @include tablet() {
-  .container :global(#topNavBar) {
-    margin-left: 12rem;
+  .container {
+    :global(#topNavBar) {
+      margin-left: 10%;
+    }
   }
 }
 
 @include mobile() {
   .container {
     .brand {
-      //width: 65px;
-      //padding: 1rem 0.5rem 0.5rem 0.5rem;
+      // width: 65px;
       z-index: 5;
-
-      //.logo {
-      //  &.big {
-      //    display: none;
-      //  }
-      //
-      //  &.small {
-      //    display: block;
-      //  }
-      //}
     }
 
     .burger {

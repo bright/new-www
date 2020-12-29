@@ -20,7 +20,7 @@ export const Page: React.FC<{ className?: string }> = ({children, className}) =>
     }, [isBrowser() && window.location.pathname])
 
     return (
-        <div className={classNames('layout-container', className, {[styles.menuOpened]: mobileMenuOpened})}>
+        <div className={classNames('layout-container', styles.page, className, {[styles.menuOpened]: mobileMenuOpened})}>
             <HelmetWrapper
                 title="Software Development Company"
                 description="The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more."

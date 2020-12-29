@@ -1,13 +1,18 @@
 export type Tag = string
 
+export interface Node {
+    frontmatter: any
+}
+
 export interface Edge {
-  node: any
+    node: any
 }
 
 export interface GQLData {
-  allMarkdownRemark: {
-    edges: Edge[]
-  }
+    allMarkdownRemark: {
+        nodes?: Node[],
+        edges?: Edge[]
+    }
 }
 
 export interface BlogPostModel {
@@ -32,4 +37,11 @@ export interface ProjectModel {
   order?: number
   tags: Tag[]
   description: string
+}
+
+export interface AuthorModel {
+    name: string
+    short_name: string
+    avatar: string
+    author_id: string
 }

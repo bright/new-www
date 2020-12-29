@@ -8,9 +8,10 @@ import styles from './ProjectCard.module.scss'
 interface ProjectCardProps {
     project: ProjectModel
     invertTitle?: boolean
+    isAnchor?: boolean
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({project, invertTitle}) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({project, invertTitle, isAnchor}) => {
     const Title = () => (
         <span className={classNames('is-size-5 has-text-black has-text-weight-bold', styles.title)}>
             {project.title}
@@ -23,24 +24,23 @@ const ProjectCard: React.FC<ProjectCardProps> = ({project, invertTitle}) => {
         </figure>
     )
 
-    return (
-        <a className={classNames('card-content', styles.container)} href={project.slug}>
-            {invertTitle
-                ? (
-                    <React.Fragment>
-                        <Image />
-                        <Title />
-                    </React.Fragment>
-                )
-                : (
-                    <React.Fragment>
-                        <Title />
-                        <Image />
-                    </React.Fragment>
-                )
-            }
-        </a>
-    )
+    const Content = () => invertTitle
+            ? (
+                <React.Fragment>
+                    <Image />
+                    <Title />
+                </React.Fragment>
+            )
+            : (
+                <React.Fragment>
+                    <Title />
+                    <Image />
+                </React.Fragment>
+            )
+
+    return isAnchor
+        ? <a className={classNames('card-content', styles.container)} href={project.slug}><Content /></a>
+        : <div className={classNames('card-content', styles.container)}><Content /></div>
 }
 
 export default ProjectCard

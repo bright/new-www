@@ -1,54 +1,29 @@
-import { graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
 import classNames from 'classnames'
 
-import HeaderTitle from './HeaderTitle'
-import HeaderCarousel from './HeaderCarousel'
-
 import styles from './Header.module.scss'
 
-const Header = () => {
-  const {allMarkdownRemark: { edges }} = useStaticQuery(GQL)
-  const carouselItems = edges ? edges.map((e: any) => e.node.frontmatter) : []
-
-  return (
-    <section className={classNames('hero', styles.header)}>
-      <div className='hero-body'>
-        <div className='container'>
-          <div className='columns'>
-            <HeaderTitle />
-            <div className={classNames('column is-two-fifths is-hidden-mobile has-text-centered', styles.carouselContainer)}>
-              {carouselItems.length && <HeaderCarousel items={carouselItems} />}
+export const Header = () => {
+    return (
+        <section className={classNames('hero', styles.header)}>
+            <div className='hero-body'>
+                <div className='container'>
+                    <div className='columns'>
+                        <div className='column'>
+                            <h1 className={classNames('title mt-6', styles.title)}>
+                                let's create software that <span>matters</span>
+                            </h1>
+                        </div>
+                        <div className='column is-hidden-tablet'>
+                            <div className='buttons'>
+                                <a className='button estimate is-primary' href='/start-project'>
+                                    <strong>estimate project</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
+        </section>
+    )
 }
-
-const GQL = graphql`
-    {
-      allMarkdownRemark(
-        filter: {
-          frontmatter: { layout: { eq: "project" }, published: { ne: false } }
-        }
-        limit: 6
-        sort: { order: ASC, fields: frontmatter___order }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              title
-              image
-              layout
-              slug
-              published
-            }
-          }
-        }
-      }
-    }
-  `
-
-export default Header

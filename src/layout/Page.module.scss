@@ -1,8 +1,18 @@
 @import "../styles/mixins";
 @import "../styles/variables";
 
+.page > section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 @include mobile() {
-  :global(.layout-container) {
+  .page {
+    & > section {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     &.menuOpened {
       overflow: hidden;
       max-height: calc(100vh - #{$navbar-height});
