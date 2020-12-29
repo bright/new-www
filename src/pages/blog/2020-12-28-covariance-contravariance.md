@@ -2,8 +2,8 @@
 layout: post
 title: Covariance & Contravariance
 date: 2020-12-28T12:12:12.000Z
-author: wojciech
 image: /images/Bitrise Loves Detox.png
+author: wojciech
 tags:
   - typescript
   - types
@@ -14,8 +14,7 @@ hidden: true
 comments: true
 published: false
 ---
-
-Covariance and contravariance - two buzzwords from a programming language's word, what does they mean?
+Covariance and contravariance - two buzzwords from a programming language's world, what does they mean?
 
 This topic is not so straightforward so let's start with an intuitive example from life with a little of mathematical knowledge. Think about a vehicle and a motorbike. Vehicle is a superset for a motorbike and motorbike is a subset for a vehicle.
 
@@ -42,6 +41,7 @@ const motorbike: Motorbike = { ... }
 const expectVehicle: Vehicle = motorbike      // OK
 const expectMotorbike: Motorbike = vehicle  // Error
 ```
+
 Before we jump into covariance and contravariance let's introduce one more concept - **HOT** which stays for higher order type. HOT is an abstract that takes type as an argument and returns another type. **Generics types are HOT.**
 
 ```typescript
@@ -61,9 +61,8 @@ const complexMotorbike: ExampleHOT<Motorbike> = { ... }
 
 We use HOT as a kind of function that creates complex types based on simple types provided as a parameter (also known as component). Covariant and contravariant are characteristics describing specific HOTs:
 
-- Covariance - is a characteristic of HOT, which says that relation between subtypes of given type is similar to the relation between subtypes of component.
-
-- Contravariance - is a characteristic of HOT, which says that relation between subtypes of given type is inverted to the relation between subtypes of component.
+* Covariance - is a characteristic of HOT, which says that relation between subtypes of given type is similar to the relation between subtypes of component.
+* Contravariance - is a characteristic of HOT, which says that relation between subtypes of given type is inverted to the relation between subtypes of component.
 
 <p align="center">
   <img src="/images/covariance-contravariance/graph-2.png" alt="Second-graph"/>
@@ -71,9 +70,8 @@ We use HOT as a kind of function that creates complex types based on simple type
 
 In typescript:
 
-- Type which function takes is contravariant
-
-- Type which function returns is covariant
+* Type which function takes is contravariant
+* Type which function returns is covariant
 
 To better understand those terms let me create more complex graph and typescript code as a description
 
