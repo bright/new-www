@@ -7,6 +7,7 @@ import {BlogFeed} from './blog/Feed'
 import {GQLData} from '../models/gql'
 import {createBlogPosts} from '../models/creator'
 import {PageContext, Paging} from './blog/Paging'
+import { HideTablet, PageDescription, Section } from "../pages/shared"
 
 interface Props {
   data: GQLData
@@ -22,11 +23,18 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
       />
 
       <div className="container">
-        <section className="section">
-          <h1 className="title has-text-dark">Bright Devs Blog</h1>
+        <Section>
+          <HideTablet>
+            <PageDescription>
+              Get up-to-date news on Bright Inventions. Discover all the
+              latest about technologies we use, solutions we create and
+              our culture. Because we believe that knowledge sharing is
+              important not only inside the team.
+            </PageDescription>
+          </HideTablet>
           <BlogFeed posts={createBlogPosts(data)} />
           <Paging {...pageContext} />
-        </section>
+        </Section>
       </div>
     </Page>
   )

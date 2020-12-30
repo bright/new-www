@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import variables from '../../styles/variables'
 
 export const HideTablet = styled.div({
   ["@media screen and (max-width: 767px)"]: {
@@ -6,8 +7,25 @@ export const HideTablet = styled.div({
   },
 })
 
+export const PageDescription = styled.div({
+  display: "flex",
+  justifyContent: "center",
+  width: "100%",
+  paddingTop: "30px",
+  paddingBottom: "10px",
+  margin: "0 auto 2rem",
+
+  fontSize: "16px",
+  lineHeight: "28px",
+  fontFamily: variables.textFont,
+  textAlign: "left",
+  maxWidth: "955px",
+  color: variables.blackTextColor,
+  padding: "10px",
+})
+
 export const Section = styled.section`
-  padding: 0 1.5rem;
+  padding: 4rem 1.5rem 1rem;
 `
 
 export const SectionTitle = styled.h3`

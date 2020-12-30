@@ -14,6 +14,19 @@ const Container = styled.div`
     max-width: 960px;
 `
 
+const Title = styled.h1`
+    font-size: 3rem;
+`
+
+const Content = styled.div`
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  letter-spacing: 1;
+  line-height: 2;
+`
+
 export default function Template(props: {
     path: string
     data: {
@@ -110,8 +123,8 @@ export default function Template(props: {
                         </div>
                     </div>
 
-                    <h1 className='title'>{page.title}</h1>
-                    <div
+                    <Title className='title'>{page.title}</Title>
+                    <Content
                         className='content is-family-secondary'
                         dangerouslySetInnerHTML={{__html: html}}
                     />

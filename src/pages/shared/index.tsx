@@ -18,5 +18,6 @@ export const MoreButton: React.FC<MoreButtonProps> = ({ href, text, children }) 
 }
 
 export const HideTablet = Styled.HideTablet
+export const PageDescription = Styled.PageDescription
 export const Section = Styled.Section
 export const SectionTitle = Styled.SectionTitle
