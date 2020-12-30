@@ -2,6 +2,7 @@ import React from 'react'
 import classNames from 'classnames'
 
 import {ProjectModel} from '../../models/gql'
+import {routeLinks} from '../../config/routing'
 
 import styles from './ProjectCard.module.scss'
 
@@ -24,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({project, invertTitle}) => {
     )
 
     return (
-        <a className={classNames('card-content', styles.container)} href={project.slug}>
+        <a className={classNames('card-content', styles.container)} href={`${routeLinks.projects}/${project.slug}`}>
             {invertTitle
                 ? (
                     <React.Fragment>

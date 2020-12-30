@@ -8,7 +8,7 @@ tags:
   - Android
   - mobile
 order: 5
-slug: projects/pregnancy-app/
+slug: pregnancy-app
 published: true
 ---
 

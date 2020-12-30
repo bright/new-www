@@ -12,7 +12,7 @@ tags:
   - Android
   - backend
 order: 1
-slug: projects/Solution for Parkinson's Patients/
+slug: solution-for-parkinsons-patients
 published: true
 ---
 

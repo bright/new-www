@@ -1,4 +1,4 @@
-.container {
+footer.container {
   padding: 0;
 
   .top {
@@ -50,10 +50,9 @@
   }
 
   .bottom {
-    width: calc(100%);
     background: white;
     color: black;
-    /* margin: 0 -1.5rem -6rem; */
+    margin: 0 -1.5rem;
     min-height: 150px;
     text-align: center;
     display: flex;

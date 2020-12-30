@@ -3,7 +3,7 @@ title: Credit Card Reader
 description: Credit Card Reader is one the leading payments solutions in Israel that lets small business opperate quick payments. We built both iOS and Android version of the application and successfully faced the challange of integration with various custom hardware, including magnetic card swipers.
 image: images/easycard-main.png
 layout: project
-slug: projects/credit-card-reader
+slug: credit-card-reader
 published: false
 tags: []
 ---

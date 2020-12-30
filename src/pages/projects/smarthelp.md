@@ -12,7 +12,7 @@ tags:
   - Android
   - backend
 order: 6
-slug: projects/smarthelp/
+slug: smarthelp
 redirect_from:
   - /smarthelp
   - /smarthelp/

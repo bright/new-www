@@ -9,7 +9,7 @@ tags:
   - Android
   - mobile
 order: 2
-slug: projects/everytap/
+slug: everytap
 published: true
 ---
 

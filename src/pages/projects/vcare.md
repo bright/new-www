@@ -11,7 +11,7 @@ tags:
   - iOS
   - Android
   - mobile
-slug: projects/vCare/
+slug: vCare
 published: true
 ---
 

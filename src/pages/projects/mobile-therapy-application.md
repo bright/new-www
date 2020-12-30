@@ -11,7 +11,7 @@ tags:
   - backend
   - custom software development
 order: 3
-slug: projects/mobile-therapy-application/
+slug: mobile-therapy-application
 published: true
 ---
 
