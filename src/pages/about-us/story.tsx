@@ -1,5 +1,6 @@
 import React from "react"
-import AboutUsPage from "./index"
+
+import AboutUsPage from "../about-us"
 import { FlashbackComponent } from "../../components/about-us/flashback-section/flashback"
 import { WorkshopComponent } from "../../components/about-us/workshop-section/workshop"
 import { FormComponent } from "../../components/about-us/form-section/form"

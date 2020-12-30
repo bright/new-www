@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react"
 import { Page } from "../layout/Page"
 import BackButton from "../components/subcomponents/BackButton"
 import { FormType, sendMail } from "../helpers/mail"
+import { routeLinks } from "../config/routing"
 
 const ApplyForJobPage: React.FC = () => {
   const [name, setName] = useState("")
@@ -130,7 +131,7 @@ const ApplyForJobPage: React.FC = () => {
                 checked={checkedRules}
               />
               &nbsp; I accept the{" "}
-              <a href="/privacy-policy" target="_blank">
+              <a href={routeLinks.privacyPolicy} target="_blank">
                 Privacy Policy
               </a>
             </label>
@@ -154,7 +155,7 @@ const ApplyForJobPage: React.FC = () => {
               </p>
             )}
           </div>
-          <BackButton label="Open positions" url="/career#open-positions" />
+          <BackButton label="Open positions" url={`${routeLinks.career}#open-positions`} />
         </form>
       </div>
     </Page>

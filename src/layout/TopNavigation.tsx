@@ -4,6 +4,7 @@ import classNames from "classnames"
 import { Logo } from "./TopNavigation/Logo"
 import { Burger } from "./TopNavigation/Burger"
 import { List } from "./TopNavigation/List"
+import { routeLinks } from "../config/routing"
 
 import styles from "./TopNavigation/style.module.scss"
 
@@ -14,16 +15,12 @@ export interface MenuElement {
 }
 
 const TopMenu: MenuElement[] = [
-  { link: "/about-us/story", title: "why us" },
-  { link: "/what-we-offer", title: "what we do" },
-  { link: "/projects", title: "case studies" },
-  { link: "/career", title: "career" },
-  { link: "/blog", title: "blog" },
-  {
-    link: "/start-project",
-    title: "estimate project",
-    className: classNames("is-primary", styles.estimate),
-  },
+  { link: `${routeLinks.aboutUs}/story`, title: "why us" },
+  { link: routeLinks.whatWeOffer, title: "what we do" },
+  { link: routeLinks.projects, title: "case studies" },
+  { link: routeLinks.career, title: "career" },
+  { link: routeLinks.blog, title: "blog" },
+  { link: routeLinks.startProject, title: "estimate project", className: classNames("is-primary", styles.estimate)},
 ]
 
 type Props = {

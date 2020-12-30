@@ -8,6 +8,7 @@ import DateFormatter from '../components/subcomponents/Date'
 import DisqusComments from '../components/subcomponents/DisqusComments'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import {getFileNameOnly} from '../helpers/pathHelpers'
+import { routeLinks } from "../config/routing"
 
 const Container = styled.div`
     max-width: 960px;
@@ -116,7 +117,7 @@ export default function Template(props: {
                     />
 
                     {/* {% include _back_button.html url='/blog' label='Blog' %} */}
-                    <BackButton url='/blog' label='Blog'/>
+                    <BackButton url={routeLinks.blog} label='Blog'/>
 
                     {/* {% include post/crosspost.html %} */}
 
@@ -140,7 +141,7 @@ const AuthorData: React.FC<AuthorDataProps> = ({author_id, avatar, name, bio}) =
     const LinkComponent = author_id ? 'a' : 'span'
 
     return (
-        <LinkComponent {...(author_id ? {...{href: '/about-us/' + author_id}} : {})}>
+        <LinkComponent {...(author_id ? {...{href: `${routeLinks.aboutUs}/author_id`}} : {})}>
             <article className="media">
                 {avatar && (
                     <figure className="media-left">

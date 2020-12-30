@@ -2,6 +2,7 @@ import React, { FC, useState } from "react"
 import styled from "styled-components"
 import { FormType, sendMail } from "../../helpers/mail"
 import { Button, Section, SectionTitle } from "../shared"
+import { routeLinks } from '../../config/routing'
 
 const Form = styled.form`
   margin-bottom: 2em;
@@ -105,7 +106,7 @@ const ContactForm: FC<ContactFormProps> = props => {
                   />
                   &nbsp;I accept the&nbsp;
                   <a
-                    href="/privacy-policy"
+                    href={routeLinks.privacyPolicy}
                     target="_blank"
                     className="has-text-black"
                   >

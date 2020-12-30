@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { getUrlForAbsolutePath } from "../../helpers/pathHelpers"
+import { routeLinks } from "../../config/routing"
 
 interface Job {
   title: string
@@ -58,7 +59,7 @@ const JobsOpenTop: React.FC = () => {
       <div className="level-item">
         <div>
           <a
-            href="/career#open-positions"
+            href={`${routeLinks.career}#open-positions`}
             className="has-text-weight-bold has-text-white"
           >
             <figure className="image is-24x24">

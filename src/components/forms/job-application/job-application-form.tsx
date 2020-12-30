@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react"
+import React from "react"
 import { TextField } from "../fields/text-field"
 import { Form } from "./job-application-form.styled"
 import { BlackButton } from "../../about-us/about-us.styled"
@@ -6,6 +6,7 @@ import { UploadField } from "../fields/upload-field"
 import { CheckboxField } from "../fields/checkbox-field"
 import { Link } from "gatsby"
 import { useApplicationForm } from "./utils"
+import { routeLinks } from '../../../config/routing'
 
 export function JobApplicationForm() {
   const { value, handleChange, handleSubmit } = useApplicationForm()
@@ -47,7 +48,7 @@ export function JobApplicationForm() {
       >
         I accept the{" "}
         <strong>
-          <Link to="/privacy-policy">Privacy Policy</Link>
+          <Link to={routeLinks.privacyPolicy}>Privacy Policy</Link>
         </strong>
       </CheckboxField>
       <BlackButton type="submit">submit</BlackButton>

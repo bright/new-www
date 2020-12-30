@@ -6,6 +6,7 @@ import {SocialIcons} from '../components/subcomponents/SocialIcons'
 import EmailIcon from '../assets/email_white.svg'
 import LocationIcon from '../assets/location_white.svg'
 import LogoWhite from '../assets/logo_white_2.svg'
+import { routeLinks } from '../config/routing'
 
 import styles from './Footer.module.scss'
 
@@ -47,19 +48,19 @@ export const Footer = () => {
               explore more
             </h6>
             <p className='content'>
-              <a href='/about-us'>about us</a>
+              <a href={routeLinks.aboutUs}>about us</a>
             </p>
             <p className='content'>
-              <a href='/what-we-offer'>what we offer</a>
+              <a href={routeLinks.whatWeOffer}>what we offer</a>
             </p>
             <p className='content'>
-              <a href='/projects'>projects</a>
+              <a href={routeLinks.projects}>projects</a>
             </p>
             <p className='content'>
-              <a href='/career'>career</a>
+              <a href={routeLinks.career}>career</a>
             </p>
             <p className='content'>
-              <a href='/blog'>blog</a>
+              <a href={routeLinks.blog}>blog</a>
             </p>
           </div>
 
@@ -68,16 +69,16 @@ export const Footer = () => {
               services
             </h6>
             <p className='content'>
-              <a href='/what-we-offer'>web development</a>
+              <a href={routeLinks.whatWeOffer}>web development</a>
             </p>
             <p className='content'>
-              <a href='/what-we-offer'>mobile development</a>
+              <a href={routeLinks.whatWeOffer}>mobile development</a>
             </p>
             <p className='content'>
-              <a href='/what-we-offer'>consulting services</a>
+              <a href={routeLinks.whatWeOffer}>consulting services</a>
             </p>
             <p className='content'>
-              <a href='/what-we-offer'>UX/UI design</a>
+              <a href={routeLinks.whatWeOffer}>UX/UI design</a>
             </p>
           </div>
 
@@ -115,7 +116,7 @@ export const Footer = () => {
           We use cookies to ensure that we give you the best experience on our
           website. If you continue to use this site we will assume that you are
           happy with it.
-          <a href='/privacy-policy' className='has-text-black-bis'>
+          <a href={routeLinks.privacyPolicy} className='has-text-black-bis'>
             Privacy Policy
           </a>
         </div>
