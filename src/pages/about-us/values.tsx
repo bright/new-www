@@ -1,6 +1,7 @@
 import React from "react"
-import AboutUsPage from "./index"
 import styled from "styled-components"
+
+import AboutUsPage from "../about-us"
 import ResponsibilityIcon from "../../assets/responsibility.svg"
 import FlexibilityIcon from "../../assets/flexibility.svg"
 import TeamworkIcon from "../../assets/teamwork.svg"

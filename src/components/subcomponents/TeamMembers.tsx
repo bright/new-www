@@ -1,6 +1,7 @@
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
 import styled from "styled-components"
+import { routeLinks } from '../../config/routing'
 
 const TeamMember = styled.article`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -84,7 +85,7 @@ const TeamMembers = () => {
         const member = v.frontmatter
         return (
           <TeamMember>
-            <Link to={"/about-us/" + member.author_id}>
+            <Link to={`${routeLinks.aboutUs}/${member.author_id}`}>
               <figure>
                 <img src={member.avatar} alt={member.name} />
               </figure>

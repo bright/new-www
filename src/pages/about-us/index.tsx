@@ -1,9 +1,11 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import { Page } from "../../layout/Page"
 import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
-import { Link } from "gatsby"
+import { routeLinks } from "../../config/routing"
 import { Tabs } from "../../components/about-us/about-us.styled"
+
 const tabs = [
   { label: "our story", path: "story" },
   { label: "core values", path: "values" },
@@ -22,7 +24,7 @@ const AboutUsPage: React.FC = ({ children }) => (
           {tabs.map(tab => (
             <Link
               activeClassName="is-active"
-              to={`/about-us/${tab.path}`}
+              to={`${routeLinks.aboutUs}/${tab.path}`}
               partiallyActive
               key={tab.label}
             >

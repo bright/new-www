@@ -10,6 +10,7 @@ import React, {useState} from 'react'
 import {Page} from '../layout/Page'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import {FormType, sendMail} from '../helpers/mail'
+import { routeLinks } from '../config/routing'
 
 const StartProjectPage: React.FC = () => {
   const [name, setName] = useState("")
@@ -129,7 +130,7 @@ const StartProjectPage: React.FC = () => {
                   />
                   &nbsp;I accept the&nbsp;
                   <a
-                    href="/privacy-policy"
+                    href={routeLinks.privacyPolicy}
                     target="_blank"
                     className="has-text-primary"
                   >

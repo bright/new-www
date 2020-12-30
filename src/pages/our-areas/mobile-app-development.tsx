@@ -4,6 +4,7 @@ import BackArrow from "../../assets/backArrow.svg"
 import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
 import Contact from "../../components/whatWeDo/contact/Contact"
 import { Page } from "../../layout/Page"
+import { routeLinks } from "../../config/routing"
 import {
   Container,
   ContentWrapper,
@@ -25,7 +26,7 @@ const MobileAppDevelopment = () => {
         <ContentWrapper>
           <DescriptionWrapper>
             <Title>
-              <Link to="/what-we-offer">
+              <Link to={routeLinks.whatWeOffer}>
                 <BackArrow style={{ marginRight: "30px" }} />
               </Link>
               mobile app development

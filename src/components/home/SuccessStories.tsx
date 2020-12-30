@@ -3,6 +3,7 @@ import React from "react"
 import styled from "styled-components"
 import { Button, Section, SectionTitle } from "../shared"
 import SuccessStoryBox from "./SuccessStoryBox"
+import { routeLinks } from "../../config/routing"
 
 const ButtonContainer = styled.div`
   margin-top: 2em;
@@ -63,7 +64,7 @@ const SuccessStories: React.FC = () => {
           </div>
         ))}
         <ButtonContainer className="column is-full has-text-centered">
-          <Link to="/projects">
+          <Link to={routeLinks.projects}>
             <Button>view more</Button>
           </Link>
         </ButtonContainer>

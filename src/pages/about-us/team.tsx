@@ -1,8 +1,8 @@
 import React from "react"
-import TeamMembers from "../../components/subcomponents/TeamMembers"
-import AboutUsPage from "./index"
 import styled from "styled-components"
-import ContactForm from "../../components/home/ContactForm"
+
+import AboutUsPage from "../about-us"
+import TeamMembers from "../../components/subcomponents/TeamMembers"
 import { FormComponent } from "../../components/about-us/form-section/form"
 
 const Caption = styled.p`

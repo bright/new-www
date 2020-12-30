@@ -16,6 +16,7 @@ import {
   SuccessMessage,
   TextInput,
 } from "./styles"
+import { routeLinks } from '../../../config/routing'
 
 const ContainerWrapper = styled.div({
   display: "flex",
@@ -219,7 +220,7 @@ const WhatWeDoForm = () => {
             />
             &nbsp;I accept the&nbsp;
             <a
-              href="/privacy-policy"
+              href={routeLinks.privacyPolicy}
               target="_blank"
               className="has-text-black"
             >
