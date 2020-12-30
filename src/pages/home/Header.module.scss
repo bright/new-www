@@ -2,8 +2,12 @@
 @import "../../styles/mixins";
 
 .header {
+  min-height: calc(100vh - #{$navbar-height});
   background-color: $white;
   user-select: none;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
   .title {
     margin-top: 1.1em;
@@ -15,48 +19,10 @@
       color: $primary;
     }
   }
-
-  .carouselContainer {
-    display: flex;
-    justify-content: center;
-
-    .carousel {
-      width: 400px;
-
-      .indicator {
-        color: black;
-        font-size: 4em;
-        display: inline-block;
-        margin-top: 2em;
-        position: relative;
-        left: -0.125em;
-
-        &.white {
-          color: white;
-        }
-
-        &:not(.active) {
-          cursor: pointer;
-          opacity: 0.42;
-        }
-      }
-
-      .arrow {
-        position: absolute;
-        z-index: 2;
-        top: calc(50% - 3.5em);
-        cursor: pointer;
-        display: inline-block;
-        margin: 0 -1em;
-      }
-    }
-  }
 }
 
 @include mobile() {
   .header {
-    height: calc(100vh - #{$navbar-height});
-
     :global(.hero-body) :global(.container) {
       height: 100%;
 
