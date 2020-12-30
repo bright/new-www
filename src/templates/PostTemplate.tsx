@@ -1,5 +1,6 @@
 import {graphql} from 'gatsby'
 import React from 'react'
+import styled from "styled-components"
 
 import {Page} from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
@@ -8,6 +9,10 @@ import DisqusComments from '../components/subcomponents/DisqusComments'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import {getFileNameOnly} from '../helpers/pathHelpers'
 import { routeLinks } from "../config/routing"
+
+const Container = styled.div`
+    max-width: 960px;
+`
 
 export default function Template(props: {
     path: string
@@ -66,7 +71,7 @@ export default function Template(props: {
                 <meta property="og:image" content={props.data.site.siteMetadata.siteUrl + markdownRemark.frontmatter.image} />
             </HelmetWrapper>
 
-            <div className="container">
+            <Container className="container">
                 <article className="section">
                     <div className="columns is-vcentered">
                         <div className="column is-half">
@@ -121,7 +126,7 @@ export default function Template(props: {
                     {/* {% endif %} */}
                     <DisqusComments title={page.title}/>
                 </article>
-            </div>
+            </Container>
     </Page>
   )
 }
