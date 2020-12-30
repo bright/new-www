@@ -1,5 +1,3 @@
-import { routeLinks } from "./src/config/routing"
-
 const path = require("path")
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
@@ -33,7 +31,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const numPages = Math.ceil(posts.length / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? routeLinks.blog : `${routeLinks.blog}/${i + 1}`,
+      path: i === 0 ? `'/blog` : `/blog/${i + 1}`,
       component: path.resolve("./src/templates/BlogListTemplate.tsx"),
       context: {
         limit: postsPerPage,
