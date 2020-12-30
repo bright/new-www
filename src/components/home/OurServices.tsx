@@ -7,6 +7,7 @@ import ProductDesignIcon from "../../assets/productDesign.svg"
 import WebDevelopmentIcon from "../../assets/webDevelopment.svg"
 import { Button, ButtonContainer, Section, SectionTitle } from "../shared"
 import ServiceBox from "./ServiceBox"
+import { routeLinks } from "../../config/routing"
 
 const SectionTitleNarrow = styled(SectionTitle)`
   margin-top: 0;
@@ -49,7 +50,7 @@ const OurServices: React.FC = () => {
           />
         </div>
         <ButtonContainer className="column is-full has-text-centered">
-          <Link to="/what-we-offer">
+          <Link to={routeLinks.whatWeOffer}>
             <Button>learn more</Button>
           </Link>
         </ButtonContainer>

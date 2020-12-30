@@ -35,3 +35,11 @@ export interface ProjectModel {
   tags: Tag[]
   description: string
 }
+
+export interface AuthorModel {
+  name: string
+  short_name: string
+  avatar: string
+  author_id: string
+}
+\

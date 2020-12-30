@@ -7,6 +7,7 @@ import DateFormatter from '../components/subcomponents/Date'
 import DisqusComments from '../components/subcomponents/DisqusComments'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import {getFileNameOnly} from '../helpers/pathHelpers'
+import { routeLinks } from "../config/routing"
 
 export default function Template(props: {
     path: string
@@ -135,7 +136,7 @@ const AuthorData: React.FC<AuthorDataProps> = ({author_id, avatar, name, bio}) =
     const LinkComponent = author_id ? 'a' : 'span'
 
     return (
-        <LinkComponent {...(author_id ? {...{href: '/about-us/' + author_id}} : {})}>
+        <LinkComponent {...(author_id ? {...{href: `${routeLinks.aboutUs}/author_id`}} : {})}>
             <article className="media">
                 {avatar && (
                     <figure className="media-left">

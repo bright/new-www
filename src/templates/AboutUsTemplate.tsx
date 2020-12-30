@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import { Page } from "../layout/Page"
 import BackButton from "../components/subcomponents/BackButton"
+import { routeLinks } from "../config/routing"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -26,7 +27,7 @@ export default function Template({
               <p dangerouslySetInnerHTML={{ __html: html }}></p>
             </div>
           </div>
-          <BackButton url="/about-us/team" label="About us" />
+          <BackButton url={`${routeLinks.aboutUs}/team`} label="About us" />
         </article>
       </div>
       {/* 
