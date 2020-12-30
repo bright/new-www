@@ -5,7 +5,7 @@ import { routeLinks } from '../../config/routing'
 
 import styles from './Header.module.scss'
 
-const Header = () => {
+export const Header = () => {
   return (
     <section className={classNames(styles.header)}>
       <div className='hero-body'>
@@ -29,5 +29,3 @@ const Header = () => {
     </section>
   )
 }
-
-export default Header

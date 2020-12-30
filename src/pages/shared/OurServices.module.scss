@@ -1,0 +1,36 @@
+:global(.container) {
+  padding: 2rem 0;
+
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0;
+    color: #000000;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+
+  .service {
+    padding: 1rem 3rem;
+
+    .icon {
+      transform: scale(0.7);
+      text-align: center;
+    }
+
+    .title {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+
+    .description {
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      padding: 0 2rem;
+    }
+  }
+}

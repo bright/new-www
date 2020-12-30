@@ -9,7 +9,10 @@ export interface Edge {
 }
 
 export interface GQLData {
-  allMarkdownRemark: { nodes: Node[] } | { edges: Edge[] }
+  allMarkdownRemark: {
+    nodes?: Node[],
+    edges: Edge[],
+  }
 }
 
 export interface BlogPostModel {
@@ -34,4 +37,11 @@ export interface ProjectModel {
   order?: number
   tags: Tag[]
   description: string
+}
+
+export interface AuthorModel {
+  name: string
+  short_name: string
+  avatar: string
+  author_id: string
 }

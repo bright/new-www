@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import variables from "../../../styles/variables"
+import variables from "../../styles/variables"
 
 const Container = styled.div({
   height: "345px",
@@ -45,7 +45,7 @@ const Pill = styled.div({
   marginBottom: "9px",
 })
 
-const ShowcaseBanner = () => {
+export const TechnologyTags = () => {
   return (
     <Container>
       <ContentContainer>
@@ -69,5 +69,3 @@ const ShowcaseBanner = () => {
     </Container>
   )
 }
-
-export default ShowcaseBanner
