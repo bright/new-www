@@ -2,6 +2,7 @@ import React from 'react'
 import classNames from 'classnames'
 
 import {ProjectModel} from '../../models/gql'
+import {routeLinks} from '../../config/routing'
 
 import styles from './ProjectCard.module.scss'
 
@@ -39,7 +40,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({project, invertTitle, isAnchor
             )
 
     return isAnchor
-        ? <a className={classNames('card-content', styles.container)} href={project.slug}><Content /></a>
+        ? <a className={classNames('card-content', styles.container)} href={`${routeLinks.projects}/${project.slug}`}><Content /></a>
         : <div className={classNames('card-content', styles.container)}><Content /></div>
 }
 

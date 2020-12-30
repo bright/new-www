@@ -10,7 +10,7 @@ media_folder: 'static/images'
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Blog' # Used in the UI
-    folder: 'src/pages/blog' # The path to the folder where the documents are stored
+    folder: 'src/mdData/blog' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -19,45 +19,21 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Featured Image', name: 'image', widget: 'image' }
-      - label: 'Author'
-        name: 'author'
-        widget: 'relation'
-        collection: 'members'
-        searchFields: ['name']
-        valueField: 'author_id'
-        displayFields: ['name', 'author_id']
-      - label: 'Tags'
-        name: 'tags'
-        widget: 'list'
-        allow_add: true
+      - { label: 'Author', name: 'author', widget: 'relation', collection: 'members', searchFields: ['name'], valueField: 'author_id', displayFields: ['name', 'author_id']}
+      - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
       - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false }
-      - {
-          label: 'Comments',
-          name: 'comments',
-          widget: 'boolean',
-          default: true,
-        }
-      - {
-          label: 'Published',
-          name: 'published',
-          widget: 'boolean',
-          default: true,
-        }
+      - { label: 'Comments', name: 'comments', widget: 'boolean', default: true }
+      - { label: 'Published', name: 'published', widget: 'boolean', default: true }
   - name: 'members' # Used in routes, e.g., /admin/collections/blog
     label: 'Members' # Used in the UI
-    folder: 'src/pages/about-us' # The path to the folder where the documents are stored
+    folder: 'src/mdData/members' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: name
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'member' }
       - { label: 'Author id', name: 'author_id', widget: 'string' }
-      - {
-          label: 'No longer with us',
-          name: 'ex',
-          widget: 'boolean',
-          default: false,
-        }
+      - { label: 'No longer with us', name: 'ex', widget: 'boolean', default: false }
       - { label: 'Slug', name: 'slug', widget: 'string', hint: 'URL path' }
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Short Name', name: 'short_name', widget: 'string' }
@@ -74,7 +50,7 @@ collections:
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
   - name: 'jobs' # Used in routes, e.g., /admin/collections/blog
     label: 'Jobs' # Used in the UI
-    folder: 'src/pages/jobs' # The path to the folder where the documents are stored
+    folder: 'src/mdData/jobs' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -82,45 +58,15 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Hours', name: 'hours', widget: 'string' }
       - { label: 'Salary', name: 'salary', widget: 'string' }
-      - {
-          label: 'Salary Min',
-          name: 'salary_min',
-          widget: 'number',
-          required: false,
-        }
-      - {
-          label: 'Salary Max',
-          name: 'salary_max',
-          widget: 'number',
-          required: false,
-        }
+      - { label: 'Salary Min', name: 'salary_min', widget: 'number', required: false }
+      - { label: 'Salary Max', name: 'salary_max', widget: 'number', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - {
-          label: 'Redirect from',
-          name: 'redirect_from',
-          widget: 'list',
-          allow_add: true,
-          required: false,
-        }
-      - {
-          label: 'Published',
-          name: 'published',
-          widget: 'boolean',
-          default: true,
-        }
-      - {
-          label: 'Order',
-          name: 'order',
-          widget: 'number',
-          required: true,
-          valueType: 'int',
-          min: 1,
-          step: 1,
-          default: 1,
-        }
+      - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
+      - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+      - { label: 'Order', name: 'order', widget: 'number', required: true, valueType: 'int', min: 1, step: 1, default: 1, }
   - name: 'projects' # Used in routes, e.g., /admin/collections/blog
     label: 'Projects' # Used in the UI
-    folder: 'src/pages/projects' # The path to the folder where the documents are stored
+    folder: 'src/mdData/projects' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
