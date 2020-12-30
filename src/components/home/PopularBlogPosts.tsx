@@ -3,6 +3,7 @@ import React, { FC } from "react"
 import styled from "styled-components"
 import { Button, Section, SectionTitle } from "../shared"
 import PopularBlogPostBox from "../subcomponents/PopularBlogPostBox"
+import { routeLinks } from '../../config/routing'
 
 const ButtonContainer = styled.div`
   margin-top: 3.5rem;
@@ -93,7 +94,7 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
         })}
       </div>
       <ButtonContainer className="has-text-centered">
-        <Link to="/blog">
+        <Link to={routeLinks.blog}>
           <Button>read more</Button>
         </Link>
       </ButtonContainer>

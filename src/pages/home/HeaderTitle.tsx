@@ -1,6 +1,8 @@
 import React from 'react'
 import classNames from 'classnames'
 
+import { routeLinks } from '../../config/routing'
+
 import styles from './Header.module.scss'
 
 const HeaderTitle = () => {
@@ -18,7 +20,7 @@ const HeaderTitle = () => {
       {/*</div>*/}
       <div className='column is-hidden-tablet'>
         <div className='buttons'>
-          <a className='button estimate is-primary' href='/start-project'>
+          <a className='button estimate is-primary' href={routeLinks.startProject}>
             <strong>estimate project</strong>
           </a>
         </div>

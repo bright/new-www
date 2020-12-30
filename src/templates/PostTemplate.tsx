@@ -112,7 +112,7 @@ export default function Template(props: {
                     />
 
                     {/* {% include _back_button.html url='/blog' label='Blog' %} */}
-                    <BackButton url='/blog' label='Blog'/>
+                    <BackButton url={routeLinks.blog} label='Blog'/>
 
                     {/* {% include post/crosspost.html %} */}
 

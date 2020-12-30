@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React, { FC } from "react"
 import styled from "styled-components"
 import { Button, Section, SectionTitle } from "../shared"
+import { routeLinks } from '../../config/routing'
 
 const SectionDescription = styled.div`
   margin-bottom: 4em;
@@ -26,7 +27,7 @@ const ProductIdea: FC<ProductIdeaProps> = props => {
         help take your product to the next level? We’ll be more than happy to
         discuss how we can help your business succeed!
       </SectionDescription>
-      <Link to="/start-project">
+      <Link to={routeLinks.startProject}>
         <Button className="has-background-primary hover-white">
           request a consulatation
         </Button>

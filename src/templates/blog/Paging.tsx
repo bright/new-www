@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {ArrowLeft, ArrowRight} from '../../helpers/icons'
+import { routeLinks } from '../../config/routing'
 
 import styles from './Paging.module.scss'
 
@@ -12,8 +13,8 @@ export interface PageContext {
 }
 
 export const Paging: React.FC<PageContext> = (pageContext) => {
-    const prevHref =  `/blog/${pageContext.currentPage - 1 > 1 ? pageContext.currentPage - 1 : ''}`
-    const nextHref =  `/blog/${pageContext.currentPage + 1}`
+    const prevHref =  `${routeLinks.blog}/${pageContext.currentPage - 1 > 1 ? pageContext.currentPage - 1 : ''}`
+    const nextHref =  `${routeLinks.blog}/${pageContext.currentPage + 1}`
 
     return (
         <div className={styles.paging}>
