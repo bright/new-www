@@ -1,14 +1,14 @@
 import React from 'react'
 import classNames from 'classnames'
 
-import {MoreButton} from './MoreButton'
+import {MoreButton, SectionTitle} from './index'
 import BlockchainIcon from '../../assets/blockchain.svg'
 import MobileAppDevelopmentIcon from '../../assets/mobileAppDevelopment.svg'
 import ProductDesignIcon from '../../assets/productDesign.svg'
 import WebDevelopmentIcon from '../../assets/webDevelopment.svg'
 import { routeLinks } from '../../config/routing'
 
-import styles from './OurServices.module.scss'
+import styles from './ourServices/OurServices.module.scss'
 
 const services = [
   {
@@ -36,7 +36,7 @@ const services = [
 export const OurServices: React.FC = () => {
   return (
     <section className='container has-text-black'>
-      <div className={styles.title}>our services</div>
+      <SectionTitle>our services</SectionTitle>
       <div className='columns is-multiline'>
         {services.map(service => (
           <div className={classNames('column is-half', styles.service)}>

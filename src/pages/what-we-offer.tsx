@@ -6,7 +6,7 @@ import Banners from "../components/whatWeDo/banners/Banners"
 import Contact from "../components/whatWeDo/contact/Contact"
 import HowWeWork from "../components/whatWeDo/howWeWork/HowWeWork"
 import OurDevelopmentAreas from "../components/whatWeDo/ourDevelopmentAreas/OurDevelopmentAreas"
-import { HideTablet } from './shared/TabletHide'
+import { HideTablet } from './shared'
 import { TechnologyTags } from './shared/TechnologyTags'
 import { Carousel } from './shared/Carousel'
 import { Page } from "../layout/Page"
