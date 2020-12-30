@@ -1,9 +1,8 @@
 import React from 'react'
-import { useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import { Carousel as RCarousel } from 'react-responsive-carousel'
 import styled from 'styled-components'
 
-import GQL from './carousel/Carousel.gql'
 import { ProjectModel } from '../../models/gql'
 import CarouselCard from './carousel/CarouselCard'
 import Indicator from './carousel/Indicator'
@@ -75,3 +74,28 @@ export const Carousel = () => {
     </CarouselWrapper>
   )
 }
+
+const GQL = graphql`
+  {
+    allMarkdownRemark(
+      filter: {
+        frontmatter: { layout: { eq: "project" }, published: { ne: false } }
+      }
+      limit: 6
+      sort: { order: ASC, fields: frontmatter___order }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            image
+            layout
+            slug
+            published
+            description
+          }
+        }
+      }
+    }
+  }
+`

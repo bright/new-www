@@ -1,14 +1,13 @@
 import React from 'react'
-import { useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
-import GQL from './Achievements.gql'
 import { createAuthors } from '../../models/creator'
 
 import styles from './Achievements.module.scss'
 import { GQLData } from '../../models/gql'
 
 export const Achievements = () => {
-  // const authors = createAuthors(useStaticQuery(GQL) as GQLData)
+  const authors = createAuthors(useStaticQuery(GQL) as GQLData)
 
   const elements = [
     { number: (new Date()).getFullYear() - 2008, label: 'Years' },
@@ -33,3 +32,21 @@ export const Achievements = () => {
     </section>
   )
 }
+
+const GQL = graphql`
+    query {
+      allMarkdownRemark(
+        filter: { frontmatter: { ex: { ne: true }, author_id: { ne: null } } }
+        sort: { fields: frontmatter___author_id }
+      ) {
+        nodes {
+          frontmatter {
+            avatar
+            author_id
+            name
+            short_name
+          }
+        }
+      }
+    }
+  `

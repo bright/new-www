@@ -1,9 +1,8 @@
-import { useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
 
 import { MoreButton, Section, SectionTitle } from '../shared'
 import SuccessStoryBox from './SuccessStoryBox'
-import GQL from './Projects.gql'
 import { routeLinks } from '../../config/routing'
 
 export const Projects: React.FC = () => {
@@ -17,9 +16,9 @@ export const Projects: React.FC = () => {
       title: string
     }
     fields: {
-      slug
+      slug: string
     }
-  }> = edges.map(v => v.node)
+  }> = edges.map((v: any) => v.node)
 
   return (
     <Section>
@@ -39,3 +38,30 @@ export const Projects: React.FC = () => {
     </Section>
   )
 }
+
+const GQL = graphql`
+  {
+      allMarkdownRemark(
+        filter: {
+          frontmatter: { layout: { eq: "project" }, published: { ne: false } }
+        }
+        limit: 6
+        sort: { order: ASC, fields: frontmatter___order }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              image
+              layout
+              slug
+              published
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+`
