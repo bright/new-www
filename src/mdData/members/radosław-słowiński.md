@@ -6,7 +6,7 @@ name: Radosław Słowiński
 short_name: Radosław
 email: radek.slowinski@brightinventions.pl
 bio: Software Engineer @ Bright Inventions
-avatar: https://brightinventions.pl/images/radoslaw.jpg
+avatar: /images/members/radoslaw.jpg
 crosspost: https://ares97.github.io/
 twitter: aresss97
 description: Android developer passionate about deep learning. Recently fascinated by

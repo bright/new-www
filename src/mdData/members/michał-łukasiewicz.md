@@ -6,7 +6,7 @@ name: Michał Łukasiewicz
 short_name: Michał
 email: michal.lukasiewicz@brightinventions.pl
 bio: co-founder @ Bright Inventions
-avatar: /images/michał_łukasiewicz.jpg
+avatar: /images/members/michał_łukasiewicz.jpg
 twitter: mgamer
 github: mgamer
 stackoverflow: 59666/mgamer

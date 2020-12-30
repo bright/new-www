@@ -6,7 +6,7 @@ name: Szymon Miloch
 short_name: Szymon
 email: szymon.miloch@brightinventions.pl
 bio: Software Developer @ Bright Inventions
-avatar: https://brightinventions.pl/images/szymon_miloch.jpg
+avatar: /images/members/szymon_miloch.jpg
 github: milszym
 descrption: Android magician with a skillset from web tehcnologies
 redirect_from: ["/szymon", "/szymon/"]

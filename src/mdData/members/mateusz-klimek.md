@@ -6,7 +6,7 @@ name: Mateusz Klimek
 short_name: Mateusz
 email: mateusz.klimek@brightinventions.pl
 bio: Software Engineer @ Bright Inventions
-avatar: https://brightinventions.pl/images/mateuszklimek_small.png
+avatar: /images/members/mateuszklimek.png
 github: mklimek
 stackoverflow: 870674/mklimek
 description: iOS lover keen on Android development and project management

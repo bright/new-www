@@ -5,7 +5,7 @@ title: Meet Bartek
 name: Bartek Rozwarski
 short_name: Bartek
 email: bartek.rozwarski@brightinventions.pl
-avatar: https://brightinventions.pl/images/bartek.jpg
+avatar: /images/members/bartek.jpg
 description: His true love is Swift and iOS
 redirect_from: ["/bartek", "/bartek/"]
 layout: member

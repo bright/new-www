@@ -6,7 +6,7 @@ name: Andrzej Zabost
 short_name: Andrzej
 email: andrzej.zabost@brightinventions.pl
 bio: Android Developer @ Bright Inventions
-avatar: /images/andrzej_zabost.jpg
+avatar: /images/members/andrzej_zabost.jpg
 web: https://azabost.com
 github: azabost
 stackoverflow: 6761823/andrzej-zabost

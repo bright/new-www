@@ -6,7 +6,7 @@ name: Grzegorz Cieśla
 short_name: Grzegorz
 email: grzegorz.ciesla@brightinventions.pl
 bio: Software Developer
-avatar: /images/grzegorz_ciesla.jpg
+avatar: /images/members/grzegorz_ciesla.jpg
 descrption: Our backend developer who drinks yerba all day and solves difficult problems
   with Blockchain
 redirect_from: ["/grzegorz", "/grzegorz/"]

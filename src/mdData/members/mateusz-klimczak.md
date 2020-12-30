@@ -6,7 +6,7 @@ name: Mateusz Klimczak
 short_name: Mateusz
 email: mateusz.klimczak@brightinventions.pl
 bio: Pushing things forward @ Bright Inventions
-avatar: /images/mateusz_klimczak.jpg
+avatar: /images/members/mateusz_klimczak.jpg
 twitter: Klimczak_M
 github: KlimczakM
 stackoverflow: 1570496/klimczak-m

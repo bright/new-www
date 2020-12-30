@@ -5,7 +5,7 @@ title: Meet Karol
 name: Karol Nadratowski
 short_name: Karol
 email: karol.nadratowski@brightinventions.pl
-avatar: https://brightinventions.pl/images/karol_nadratowski.jpg
+avatar: /images/members/karol_nadratowski.jpg
 description: An ambitious young iOS developer and one of the most ardent Swift lovers
 redirect_from: ["/karol", "/karol/"]
 layout: member

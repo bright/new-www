@@ -5,7 +5,7 @@ title: Meet Tomek
 name: Tomasz Gęsior
 short_name: Tomasz
 email: tomasz.gesior@brightinventions.pl
-avatar: https://brightinventions.pl/images/tomek.jpeg
+avatar: /images/members/tomek.jpeg
 description: Blockchain developer 
 redirect_from: ["/tomek", "/tomek/"]
 layout: member

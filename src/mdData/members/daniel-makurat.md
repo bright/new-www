@@ -6,7 +6,7 @@ name: Daniel Makurat
 short_name: Daniel
 email: daniel.makurat@brightinventions.pl
 bio: building apps @ Bright Inventions
-avatar: /images/daniel_makurat.jpg
+avatar: /images/members/daniel_makurat.jpg
 github: danielmakurat
 description: Co-founder of Bright Inventions and senior fullstack developer
 redirect_from: ["/daniel-makurat", "/daniel-makurat/"]

@@ -1,16 +1,13 @@
 ---
+layout: member
 author_id: lukasz
+ex: false
 slug: lukasz
-title: Meet Łukasz
 name: Łukasz Reszetow
 short_name: Łukasz
 email: lukasz.reszetow@brightinventions.pl
-bio: Android Developer @ Bright Inventions
-avatar: https://brightinventions.pl/images/lukasz.jpg
-description: Android developer, a great Kotlin fan and Automatic Control and Robotics
-  post-graduate
-redirect_from: ["/lukasz", "/lukasz/"]
-layout: member
+bio: Android developer @ Bright Inventions
+description: Android programmer
+avatar: /images/members/lukasz.jpg
 ---
-
-Android developer, a great Kotlin fan and Automatic Control and Robotics post-graduate. Always open for new ideas and constructive criticism. Hobbies? All kinds of sport (karate, running, swimming, skiing and others). Music lover.
+Always open for new ideas and constructive criticism. That is Łukasz - our Android developer. A great Kotlin fan and a running enthusiast. 🏃🏻

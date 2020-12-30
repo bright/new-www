@@ -7,7 +7,7 @@ short_name: Piotr
 web: https://miensol.pl
 email: piotr.mionskowski@brightinventions.pl
 bio: TDD fan eager to learn new things
-avatar: /images/piotr_mionskowski.jpg
+avatar: /images/members/piotr_mionskowski.jpg
 twitter: miensol
 github: miensol
 stackoverflow: 155213/miensol

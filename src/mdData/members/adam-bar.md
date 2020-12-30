@@ -9,7 +9,7 @@ email: adam.bar@brightinventions.pl
 bio: The Web Guy @ Bright Inventions
 description: 'Web technologies specialist. Author of https://whatwebcando.today/'
 web: 'https://whatwebcando.today'
-avatar: /images/adam_bar.jpg
+avatar: /images/members/adam_bar.jpg
 twitter: NOtherDev
 github: NOtherDev
 stackoverflow: 142827/notherdev

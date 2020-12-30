@@ -6,7 +6,7 @@ name: Maciej Seleman
 short_name: Maciej
 email: maciej.seleman@brightinventions.pl
 bio: QA Specialist @ Bright Inventions
-avatar: https://brightinventions.pl/images/maciejseleman.jpeg
+avatar: /images/members/maciejseleman.jpeg
 description: quality assurance specialist
 layout: member
 ---

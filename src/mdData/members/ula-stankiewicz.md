@@ -6,7 +6,7 @@ name: Ula Stankiewicz
 short_name: Ula
 email: ula.stankiewicz@brightinventions.pl
 bio: HR & Marketing Manager @ Bright Inventions
-avatar: https://brightinventions.pl/images/ula_stankiewicz.jpg
+avatar: /images/members/ula_stankiewicz.jpg
 description: HR & Marketing manager
 redirect_from: ["/ula", "/ula/"]
 layout: member

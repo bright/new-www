@@ -5,7 +5,7 @@ title: Meet Marcin
 name: Marcin Kwiatkowski
 short_name: Marcin
 email: marcin.kwiatkowski@brightinventions.pl
-avatar: https://brightinventions.pl/images/marcin_kwiatkowski.jpg
+avatar: /images/members/marcin_kwiatkowski.jpg
 description: Full stack developer who can't resist learning new technologies
 redirect_from: ["/marcin", "/marcin/"]
 layout: member
