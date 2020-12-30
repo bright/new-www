@@ -32,7 +32,7 @@
       align-items: center;
       position: relative;
       justify-content: center;
-      font-family: "SuisseIntl Black";
+      font-family: "Montserrat", sans-serif;
       font-style: normal;
       font-weight: normal;
 
@@ -45,6 +45,8 @@
       }
 
       &:global(.is-primary) {
+        font-weight: bold;
+
         span {
           background-color: $primary;
         }

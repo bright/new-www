@@ -1,12 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 import HelmetWrapper from "../components/subcomponents/HelmetWrapper"
-import Ratings from "../components/subcomponents/Ratings"
+import Ratings from "./shared/Ratings"
 import Banners from "../components/whatWeDo/banners/Banners"
 import Contact from "../components/whatWeDo/contact/Contact"
 import HowWeWork from "../components/whatWeDo/howWeWork/HowWeWork"
 import OurDevelopmentAreas from "../components/whatWeDo/ourDevelopmentAreas/OurDevelopmentAreas"
-import Showcase from "../components/whatWeDo/showcase/Showcase"
+import { HideTablet } from './shared'
+import { TechnologyTags } from './shared/TechnologyTags'
+import { Carousel } from './shared/Carousel'
 import { Page } from "../layout/Page"
 import variables from "../styles/variables"
 
@@ -40,12 +42,6 @@ const ParagraphTextWrapper = styled.div({
   padding: "10px",
 })
 
-const RatingsContainer = styled.div({
-  ["@media screen and (max-width: 767px)"]: {
-    display: "none",
-  },
-})
-
 const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
     <Page>
@@ -67,11 +63,11 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
       <Banners />
       <HowWeWork />
 
-      <Showcase />
-
-      <RatingsContainer>
+      <HideTablet>
+        <TechnologyTags />
+        <Carousel />
         <Ratings />
-      </RatingsContainer>
+      </HideTablet>
 
       <Contact />
     </Page>
