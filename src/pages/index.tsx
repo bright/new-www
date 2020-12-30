@@ -8,7 +8,7 @@ import {Carousel} from './shared/Carousel'
 import {TechnologyTags} from './shared/TechnologyTags'
 import {OurServices} from './shared/OurServices'
 import {ImageSpacer} from './shared/ImageSpacer'
-import {Projects} from './home/Projects'
+// import {Projects} from './home/Projects'
 import Ratings from './shared/Ratings'
 
 import ContactForm from '../components/home/ContactForm'
@@ -28,7 +28,7 @@ export default () => {
       </HideTablet>
       <OurServices />
       <ImageSpacer />
-      <Projects />
+      <SuccessStories />
       <Ratings />
 
       <PopularBlogPosts />{/* blog posts */}
