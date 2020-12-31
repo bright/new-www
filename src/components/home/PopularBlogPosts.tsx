@@ -1,7 +1,7 @@
-import { useStaticQuery, Link, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import React, { FC } from "react"
 import styled from "styled-components"
-import { Button, Section, SectionTitle } from "../shared"
+import { MoreButton, Section, SectionTitle } from "../shared"
 import PopularBlogPostBox from "../subcomponents/PopularBlogPostBox"
 import { routeLinks } from '../../config/routing'
 
@@ -69,9 +69,9 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
     <Section>
       <SectionTitle className="is-size-3">what’s new on our blog</SectionTitle>
       <div className="columns is-multiline is-12">
-        {posts.map(({ post }) => {
+        {posts.map(({ post }: any) => {
           const { author } = authors.find(
-            ({ author }) => author.author_id === post.frontmatter.author
+            ({ author }: any) => author.author_id === post.frontmatter.author
           )
           return (
             <div className="column is-6" key={post.frontmatter.title}>
@@ -94,9 +94,7 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
         })}
       </div>
       <ButtonContainer className="has-text-centered">
-        <Link to={routeLinks.blog}>
-          <Button>read more</Button>
-        </Link>
+        <MoreButton href={routeLinks.blog}>read more</MoreButton>
       </ButtonContainer>
     </Section>
   )

@@ -6,14 +6,13 @@ import {Header} from '../components/home/Header'
 import {Achievements} from '../components/home/Achievements'
 import {Carousel} from '../components/shared/Carousel'
 import {TechnologyTags} from '../components/shared/TechnologyTags'
-import {OurServices} from '../components/shared/OurServices'
+import {OurServices} from '../components/home/OurServices'
 import {ImageSpacer} from '../components/shared/ImageSpacer'
-// import {Projects} from './home/Projects'
+import {Projects} from '../components/home/Projects'
 import Ratings from '../components/shared/Ratings'
+import {Contact} from '../components/shared/Contact'
 
-import ContactForm from '../components/home/ContactForm'
 import PopularBlogPosts from '../components/home/PopularBlogPosts'
-import SuccessStories from '../components/home/SuccessStories'
 
 import '../styles/_page-index.scss'
 
@@ -28,11 +27,11 @@ export default () => {
       </HideTablet>
       <OurServices />
       <ImageSpacer />
-      <SuccessStories />
+      <Projects />
       <Ratings />
 
       <PopularBlogPosts />{/* blog posts */}
-      <ContactForm />{/* form */}
+      <Contact />
     </Page>
   )
 }

@@ -33,8 +33,8 @@ export const Projects: React.FC = () => {
             />
           </div>
         ))}
-        <MoreButton href={routeLinks.projects}>view more</MoreButton>
       </div>
+      <MoreButton href={routeLinks.projects}>view more</MoreButton>
     </Section>
   )
 }

@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import BackArrow from "../../assets/backArrow.svg"
 import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
-import Contact from "../../components/whatWeDo/contact/Contact"
+import {Contact} from "../../components/shared/Contact"
 import { Page } from "../../layout/Page"
 import { routeLinks } from "../../config/routing"
 import {

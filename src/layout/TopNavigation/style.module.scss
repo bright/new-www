@@ -5,6 +5,7 @@
   display: flex;
   height: $navbar-height;
   transition: box-shadow 0.3s ease-in;
+  padding: 0 2rem;
 
   &.hasShadow {
     box-shadow: 0 4px 8px rgba(10,10,10,.05);
@@ -42,6 +43,11 @@
 
       &:hover {
         background-color: transparent;
+      }
+
+      &:last-child {
+        flex-grow: 0;
+        padding-right: 0;
       }
 
       &:global(.is-primary) {

@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import variables from "../../../styles/variables"
+import { Button as ButtonBase } from '../../whatWeDo/banners/styles'
 
 export const Header = styled.div({
   fontSize: "36px",
@@ -27,6 +28,7 @@ export const SubmitButton = styled.button({
   lineHeight: "22px",
   fontFamily: variables.headerFont,
   fontWeight: "bold",
+  cursor: 'pointer',
 
   color: variables.white,
   backgroundColor: variables.blackBannerBackground,
@@ -36,6 +38,11 @@ export const SubmitButton = styled.button({
 
   marginTop: "110px",
   padding: "15px 82px",
+
+  ['&:disabled']: {
+    cursor: 'default',
+    backgroundColor: 'grey',
+  }
 })
 
 export const Label = styled.div({
@@ -76,7 +83,6 @@ export const SingleSelect = styled.select({
   color: variables.blackTextColor,
   opacity: 0.55,
 
-  padding: "23px",
   border: `1px solid ${variables.blackTextColor}`,
 
   marginBottom: "40px",
@@ -142,4 +148,12 @@ export const ErrorMessage = styled(SubmitMessage)({
 
 export const SuccessMessage = styled(SubmitMessage)({
   color: "green",
+})
+
+export const Button = styled(ButtonBase)({
+  height: "48px",
+  borderColor: "#000000",
+  color: "#000000",
+
+  fontWeight: "normal",
 })

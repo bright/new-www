@@ -7,6 +7,12 @@ export const HideTablet = styled.div({
   },
 })
 
+export const HideDesktop = styled.div({
+  ["@media screen and (min-width: 768px)"]: {
+    display: "none",
+  },
+})
+
 export const PageDescription = styled.div({
   display: "flex",
   justifyContent: "center",
@@ -25,7 +31,7 @@ export const PageDescription = styled.div({
 })
 
 export const Section = styled.section`
-  padding: 4rem 1.5rem 1rem;
+  padding: 4rem 2rem 1rem;
 `
 
 export const SectionTitle = styled.h3`
