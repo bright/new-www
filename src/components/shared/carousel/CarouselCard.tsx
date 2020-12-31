@@ -33,11 +33,11 @@ const Title = styled.div({
   lineHeight: '42px',
   fontWeight: 800,
 
-  fontFamily: variables.headerFont,
+  fontFamily: variables.font.title.family,
 
   textAlign: 'left',
 
-  color: variables.blackTextColor
+  color: variables.color.text
 })
 
 const Description = styled.div({
@@ -46,11 +46,11 @@ const Description = styled.div({
   fontSize: '20px',
   lineHeight: '40px',
 
-  fontFamily: variables.textFont,
+  fontFamily: variables.font.text.family,
 
   textAlign: 'left',
 
-  color: variables.blackTextColor
+  color: variables.color.text
 })
 
 const ImageWrapper = styled.figure({

@@ -30,9 +30,9 @@ export const Title = styled.div({
   fontWeight: "bold",
   fontSize: "32px",
   lineHeight: "39px",
-  fontFamily: variables.headerFont,
+  fontFamily: variables.font.title.family,
 
-  color: variables.blackTextColor,
+  color: variables.color.text,
 
   textAlign: "left",
 
@@ -50,9 +50,9 @@ export const SubTitle = styled(Title)({
 export const Paragraph = styled.div({
   fontSize: "22px",
   lineHeight: "40px",
-  fontFamily: variables.textFont,
+  fontFamily: variables.font.text.family,
 
-  color: variables.blackTextColor,
+  color: variables.color.text,
 
   marginTop: "50px",
 })

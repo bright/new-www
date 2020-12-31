@@ -47,7 +47,7 @@ const Title = styled.div({
 
   fontSize: "22px",
   lineHeight: "27px",
-  fontFamily: variables.headerFont,
+  fontFamily: variables.font.title.family,
 
   ["@media screen and (max-width: 767px)"]: {
     fontSize: "18px",
@@ -63,9 +63,9 @@ const SectionText = styled.div({
 
   fontSize: "16px",
   lineHeight: "28px",
-  fontFamily: variables.textFont,
+  fontFamily: variables.font.text.family,
 
-  color: variables.blackTextColor,
+  color: variables.color.text,
 
   ["@media screen and (max-width: 767px)"]: {
     fontSize: "16px",

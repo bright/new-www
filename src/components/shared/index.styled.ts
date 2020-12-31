@@ -63,10 +63,10 @@ export const PageDescription = styled.div({
 
   fontSize: "16px",
   lineHeight: "28px",
-  fontFamily: variables.textFont,
+  fontFamily: variables.font.text.family,
   textAlign: "left",
   maxWidth: "955px",
-  color: variables.blackTextColor,
+  color: variables.color.text,
   padding: "10px",
 })
 
