@@ -2,9 +2,9 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
 import { createAuthors } from '../../models/creator'
+import { GQLData } from '../../models/gql'
 
 import styles from './Achievements.module.scss'
-import { GQLData } from '../../models/gql'
 
 export const Achievements = () => {
   const authors = createAuthors(useStaticQuery(GQL) as GQLData)

@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
 
 import { MoreButton, Section, SectionTitle } from '../shared'
-import SuccessStoryBox from './SuccessStoryBox'
+import SuccessStoryBox from './/SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
 
 export const Projects: React.FC = () => {

@@ -7,7 +7,7 @@ import {BlogFeed} from './blog/Feed'
 import {GQLData} from '../models/gql'
 import {createBlogPosts} from '../models/creator'
 import {PageContext, Paging} from './blog/Paging'
-import { HideTablet, PageDescription, Section } from "../pages/shared"
+import { HideTablet, PageDescription, Section } from "../components/shared"
 
 interface Props {
   data: GQLData

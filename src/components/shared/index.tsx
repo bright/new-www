@@ -21,3 +21,4 @@ export const HideTablet = Styled.HideTablet
 export const PageDescription = Styled.PageDescription
 export const Section = Styled.Section
 export const SectionTitle = Styled.SectionTitle
+export const Button = Styled.Button

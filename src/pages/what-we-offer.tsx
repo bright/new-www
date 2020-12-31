@@ -1,13 +1,13 @@
 import React from 'react'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
-import Ratings from './shared/Ratings'
+import Ratings from '../components/shared/Ratings'
 import Banners from '../components/whatWeDo/banners/Banners'
 import Contact from '../components/whatWeDo/contact/Contact'
 import HowWeWork from '../components/whatWeDo/howWeWork/HowWeWork'
 import OurDevelopmentAreas from '../components/whatWeDo/ourDevelopmentAreas/OurDevelopmentAreas'
-import { HideTablet, PageDescription, Section } from './shared'
-import { TechnologyTags } from './shared/TechnologyTags'
-import { Carousel } from './shared/Carousel'
+import { HideTablet, PageDescription, Section } from '../components/shared'
+import { TechnologyTags } from '../components/shared/TechnologyTags'
+import { Carousel } from '../components/shared/Carousel'
 import { Page } from '../layout/Page'
 
 const WhatWeOfferPage: React.FocusEventHandler = () => {
