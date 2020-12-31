@@ -1,6 +1,8 @@
 import styled from "styled-components"
 import variables from "../../../styles/variables"
 
+const {color} = variables
+
 export const Button = styled.button`
   width: 230px;
   height: 54px;
@@ -21,8 +23,8 @@ export const Button = styled.button`
   cursor: pointer;
 
   &:hover {
-    color: ${variables.brightOrange};
-    border-color: ${variables.brightOrange};
+    color: ${color.primary};
+    border-color: ${color.primary};
   }
 
   &.hover-white:hover {
