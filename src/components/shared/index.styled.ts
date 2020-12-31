@@ -15,6 +15,7 @@ export const HideDesktop = styled.div({
 
 export const Section = styled.section`
   padding: 6rem 2rem;
+  color: ${variables.color.text}
   
   @media (${variables.device.mobile}) {
     padding: 2rem 0.5rem 1rem;
@@ -26,16 +27,30 @@ export const SectionBlack = styled(Section)`
   color: ${variables.color.white}
 `
 
-export const SectionTitle = styled.h3`
+export const TitleBase = `
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 2rem;
   letter-spacing: 0;
-  color: #000000;
   text-align: center;
-  margin-top: 3em;
-  margin-bottom: 2em;
+`
+
+export const SectionTitle = styled.h3`
+  ${TitleBase};
+  font-size: 2rem;
+  margin: 1em 0 3rem;
+`
+
+export const TextTitle = styled.div`
+  ${TitleBase};
+  margin: 1em 0;
+  font-size: 1.2rem;
+`
+
+export const TextRegular = styled.div`
+  font-family: ${variables.font.text.family};
+  font-size: ${variables.font.text.size};
+  line-height: 2rem;
 `
 
 export const PageDescription = styled.div({

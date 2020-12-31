@@ -27,3 +27,5 @@ export const PageDescription = Styled.PageDescription
 export const Section = Styled.Section
 export const SectionBlack = Styled.SectionBlack
 export const SectionTitle = Styled.SectionTitle
+export const TextTitle = Styled.TextTitle
+export const TextRegular = Styled.TextRegular

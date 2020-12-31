@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
 
 import { MoreButton, Section, SectionTitle } from '../shared'
-import SuccessStoryBox from './/SuccessStoryBox'
+import SuccessStoryBox from './SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
 
 export const Projects: React.FC = () => {
@@ -22,16 +22,16 @@ export const Projects: React.FC = () => {
 
   return (
     <Section>
-      <SectionTitle>our services</SectionTitle>
-      <div className="columns is-multiline">
+      <SectionTitle>success stories</SectionTitle>
+      <div className="columns is-multiline has-justify-content-center">
         {posts.map(post => (
-          <div className="column is-6" key={'post' + post.frontmatter.title}>
             <SuccessStoryBox
+              className="column is-6"
+              key={'post' + post.frontmatter.title}
               title={post.frontmatter.title}
               image={post.frontmatter.image}
               slug={post.fields.slug}
             />
-          </div>
         ))}
       </div>
       <MoreButton href={routeLinks.projects}>view more</MoreButton>

@@ -5,6 +5,7 @@ import { Page } from "../../layout/Page"
 import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
 import { routeLinks } from "../../config/routing"
 import { Tabs } from "../../components/about-us/about-us.styled"
+import { Section } from '../../components/shared'
 
 const tabs = [
   { label: "our story", path: "story" },
@@ -18,7 +19,7 @@ const AboutUsPage: React.FC = ({ children }) => (
       title="About us - our values, team and approach"
       description="Information about our team, core values, business process"
     />
-    <section>
+    <Section>
       <div data-tabs-content=".tab-content" className="container">
         <Tabs>
           {tabs.map(tab => (
@@ -36,7 +37,7 @@ const AboutUsPage: React.FC = ({ children }) => (
         </Tabs>
       </div>
       {children}
-    </section>
+    </Section>
   </Page>
 )
 

@@ -1,6 +1,8 @@
 import React, { FC } from "react"
 import styled from "styled-components"
 
+import { Section, SectionTitle } from '../shared'
+
 const ClutchContainer = styled.div`
   padding: 3rem 0rem;
   display: flex;
@@ -25,7 +27,7 @@ export interface ClutchInfoProps {}
 
 const ClutchInfo: FC<ClutchInfoProps> = props => {
   return (
-    <ClutchContainer>
+    <Section>
       <ClutchItem>
         <img src="/images/clutch/Poland_B2B_Companies_2019.png" />
       </ClutchItem>
@@ -41,7 +43,7 @@ const ClutchInfo: FC<ClutchInfoProps> = props => {
       <ClutchItem className="is-hidden-mobile">
         <img src="/images/clutch/appfutura-badge.png" />
       </ClutchItem>
-    </ClutchContainer>
+    </Section>
   )
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 
-import {MoreButton, SectionTitle} from '../shared'
+import {MoreButton, Section, SectionTitle, TextTitle, TextRegular} from '../shared'
 import BlockchainIcon from '../../assets/blockchain.svg'
 import MobileAppDevelopmentIcon from '../../assets/mobileAppDevelopment.svg'
 import ProductDesignIcon from '../../assets/productDesign.svg'
@@ -35,18 +35,18 @@ const services = [
 
 export const OurServices: React.FC = () => {
   return (
-    <section className='container has-text-black'>
+    <Section className='has-text-centered'>
       <SectionTitle>our services</SectionTitle>
-      <div className='columns is-multiline'>
+      <div className='columns is-multiline has-justify-content-center'>
         {services.map(service => (
           <div className={classNames('column is-half', styles.service)}>
             <div className={styles.icon}><service.icon /></div>
-            <div className={styles.title}>{service.title}</div>
-            <div className={styles.description}>{service.description}</div>
+            <TextTitle>{service.title}</TextTitle>
+            <TextRegular>{service.description}</TextRegular>
           </div>
         ))}
       </div>
       <MoreButton href={routeLinks.whatWeOffer}>learn more</MoreButton>
-    </section>
+    </Section>
   )
 }

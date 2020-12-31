@@ -5,10 +5,6 @@ import { MoreButton, Section, SectionTitle } from "../shared"
 import PopularBlogPostBox from "../subcomponents/PopularBlogPostBox"
 import { routeLinks } from '../../config/routing'
 
-const ButtonContainer = styled.div`
-  margin-top: 3.5rem;
-`
-
 export interface PopularBlogPostsProps {}
 
 const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
@@ -93,9 +89,7 @@ const PopularBlogPosts: FC<PopularBlogPostsProps> = props => {
           )
         })}
       </div>
-      <ButtonContainer className="has-text-centered">
-        <MoreButton href={routeLinks.blog}>read more</MoreButton>
-      </ButtonContainer>
+      <MoreButton href={routeLinks.blog}>read more</MoreButton>
     </Section>
   )
 }
