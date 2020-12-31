@@ -6,27 +6,27 @@ import styled from 'styled-components'
 import { ProjectModel } from '../../models/gql'
 import CarouselCard from './carousel/CarouselCard'
 import Indicator from './carousel/Indicator'
+import { Section, HideTablet } from './index'
+import { pxToRem } from '../../styles/variables'
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import BackArrowImage from '../../assets/backArrowBlack.svg'
 import NextArrowImage from '../../assets/nextArrowBlack.svg'
 
-const CarouselWrapper = styled.div({
-  marginBottom: '105px',
+const CarouselWrapper = styled(Section)`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
-  display: 'flex',
-  flexDirection: 'row',
-  justifyContent: 'center',
+  .carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
-  '.carousel': {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-
-    maxWidth: '1730px',
-    width: '100%'
+    max-width: ${pxToRem(1730)};
+    width: 100%;
   }
-})
+`
 
 const SliderButton = styled.div({
   cursor: 'pointer',
@@ -56,22 +56,24 @@ export const Carousel = () => {
     : []
 
   return (
-    <CarouselWrapper>
-      <RCarousel
-        showStatus={false}
-        showThumbs={false}
-        infiniteLoop
-        renderIndicator={Indicator}
-        renderArrowPrev={PreviousArrow}
-        renderArrowNext={NextArrow}
-      >
-        {(carouselItems || []).map(item => (
-          <div key={item.title}>
-            <CarouselCard project={item as ProjectModel}/>
-          </div>
-        ))}
-      </RCarousel>
-    </CarouselWrapper>
+    <HideTablet>{/* @todo: currently styles are not prepared to show on mobile devices */}
+      <CarouselWrapper>
+        <RCarousel
+          showStatus={false}
+          showThumbs={false}
+          infiniteLoop
+          renderIndicator={Indicator}
+          renderArrowPrev={PreviousArrow}
+          renderArrowNext={NextArrow}
+        >
+          {(carouselItems || []).map(item => (
+            <div key={item.title}>
+              <CarouselCard project={item as ProjectModel}/>
+            </div>
+          ))}
+        </RCarousel>
+      </CarouselWrapper>
+    </HideTablet>
   )
 }
 

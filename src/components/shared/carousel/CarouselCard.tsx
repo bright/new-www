@@ -13,7 +13,7 @@ interface CarouselCardProps {
 }
 
 const Container = styled(Link)({
-  marginTop: '105px',
+  marginTop: '35px',
 
   display: 'flex',
   flexDirection: 'row',

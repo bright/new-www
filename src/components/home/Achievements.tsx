@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import { createAuthors } from '../../models/creator'
 import { GQLData } from '../../models/gql'
+import { SectionBlack } from '../shared'
 
 import styles from './Achievements.module.scss'
 
@@ -18,7 +19,7 @@ export const Achievements = () => {
   ]
 
   return (
-    <section className={styles.achievements}>
+    <SectionBlack className={styles.achievements}>
       <div className='container'>
         <div className='columns'>
           {elements.map(({ number, label }) => (
@@ -29,7 +30,7 @@ export const Achievements = () => {
           ))}
         </div>
       </div>
-    </section>
+    </SectionBlack>
   )
 }
 

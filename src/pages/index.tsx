@@ -1,7 +1,6 @@
 import React from 'react'
 
 import {Page} from '../layout/Page'
-import {HideTablet} from '../components/shared'
 import {Header} from '../components/home/Header'
 import {Achievements} from '../components/home/Achievements'
 import {Carousel} from '../components/shared/Carousel'
@@ -21,10 +20,8 @@ export default () => {
     <Page className="page-index">
       <Header />
       <Achievements />
-      <HideTablet>
-          <Carousel />
-          <TechnologyTags />
-      </HideTablet>
+      <Carousel />
+      <TechnologyTags />
       <OurServices />
       <ImageSpacer />
       <Projects />

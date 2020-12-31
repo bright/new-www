@@ -2,11 +2,7 @@
 @import "../../styles/mixins";
 
 .achievements {
-  background-color: $black;
-
   :global(.container) {
-    padding: 6rem 1rem;
-
     :global(.columns) {
       justify-content: center;
       text-align: center;
@@ -34,8 +30,6 @@
 @include mobile() {
   .achievements {
     :global(.container) {
-      padding: 3rem 0;
-
       .number {
         font-family: "Montserrat", Lato, sans-serif;
         font-style: normal;
