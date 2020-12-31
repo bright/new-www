@@ -4,6 +4,8 @@ import styled from "styled-components"
 const Container = styled.div`
   border: 1px solid #d3d3d3;
   width: 100%;
+  max-width: 550px;
+  margin: 1rem;
   /* height: 350px; */
   padding: 2em;
   display: flex;
@@ -40,11 +42,12 @@ export interface SuccessStoryBoxProps {
   image: string
   title: string
   slug: string
+  className?: string
 }
 
 const SuccessStoryBox: FC<SuccessStoryBoxProps> = props => {
   return (
-    <Container onClick={() => (window.location.href = props.slug)}>
+    <Container onClick={() => (window.location.href = props.slug)} className={props.className}>
       <Title>{props.title}</Title>
       <Image className="image">
         <img src={props.image} />

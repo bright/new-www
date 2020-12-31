@@ -3,7 +3,7 @@ import styled from "styled-components"
 import variables from "../../../styles/variables"
 
 const Container = styled.li({
-  color: variables.black,
+  color: variables.color.black,
   fontSize: "28px",
   display: "inline-block",
 
@@ -14,11 +14,11 @@ const Container = styled.li({
 })
 
 const Symbol = styled.div<{ selected: boolean }>(({ selected }) => ({
-  backgroundColor: variables.blackBannerBackground,
+  backgroundColor: variables.color.text,
   opacity: selected ? 1 : 0.42,
   width: "8px",
   height: "8px",
-  border: `1px solid ${variables.blackBannerBackground}`,
+  border: `1px solid ${variables.color.text}`,
   borderRadius: "50%",
 }))
 

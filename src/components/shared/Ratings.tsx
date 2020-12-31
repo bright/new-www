@@ -1,43 +1,24 @@
 import React from "react"
 import { Carousel } from "react-responsive-carousel"
 import styled from "styled-components"
+
+import {SectionBlack, SectionTitle} from './index'
 import BackArrowWhite from "../../assets/backArrowWhite.svg"
 import NextArrowWhite from "../../assets/nextArrowWhite.svg"
 
-const CarouselBackground = styled.div`
-  background: black;
-  color: white;
-`
-
 const CarouselContainer = styled.div`
-  background: black;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media (min-width: 480px) {
-    padding: 3em 1em 0;
-  }
+  margin-bottom: -4rem;
+
   .carousel-item {
     padding: 0 1em;
   }
-`
-const CarouselTitle = styled.h1`
-  font-family: "SuisseIntl Black", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  @media (max-width: 480px) {
-    font-size: 24px;
-    padding: 2em 1em 0;
-  }
-`
-
-const CarouselBlack = styled(Carousel)`
-  background: black;
   .control-dots {
     bottom: -3em;
   }
+`
+
+const SectionTitleSlim = styled(SectionTitle)`
+  margin: 0;
 `
 
 const IndicatorActive = styled.li`
@@ -81,10 +62,10 @@ const CarouselText = styled.p`
 
 const Ratings = () => {
   return (
-    <CarouselBackground>
+    <SectionBlack>
       <CarouselContainer className="container">
-        <CarouselTitle>rating 4,9 on Clutch</CarouselTitle>
-        <CarouselBlack
+        <SectionTitleSlim>rating 4,9 on Clutch</SectionTitleSlim>
+        <Carousel
           className="carousel"
           showStatus={false}
           infiniteLoop
@@ -139,9 +120,9 @@ const Ratings = () => {
               Co-founder, Everytap, Poland
             </div>
           </div>
-        </CarouselBlack>
+        </Carousel>
       </CarouselContainer>
-    </CarouselBackground>
+    </SectionBlack>
   )
 }
 

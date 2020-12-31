@@ -2,12 +2,13 @@ import React from 'react'
 import classNames from 'classnames'
 
 import { routeLinks } from '../../config/routing'
+import { Section } from '../shared'
 
 import styles from './Header.module.scss'
 
 export const Header = () => {
   return (
-    <section className={classNames(styles.header)}>
+    <Section className={classNames(styles.header)}>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
@@ -26,6 +27,6 @@ export const Header = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   )
 }

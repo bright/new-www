@@ -1,24 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 import variables from "../../styles/variables"
-
-const Container = styled.div({
-  height: "345px",
-  width: "100%",
-
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-
-  backgroundColor: variables.blackBannerBackground,
-})
+import { HideTablet, SectionBlack } from './index'
 
 const ContentContainer = styled.div({
   maxWidth: "1545px",
 
   display: "flex",
   flexDirection: "row",
-  justifyContent: "flex-start",
+  justifyContent: "center",
 
   flexWrap: "wrap",
 
@@ -31,8 +21,8 @@ const Pill = styled.div({
 
   textAlign: "center",
   fontSize: "18px",
-  fontFamily: variables.headerFont,
-  color: variables.white,
+  fontFamily: variables.font.title.family,
+  color: variables.color.white,
 
   display: "flex",
   justifyContent: "center",
@@ -47,25 +37,27 @@ const Pill = styled.div({
 
 export const TechnologyTags = () => {
   return (
-    <Container>
-      <ContentContainer>
-        <Pill>Android</Pill>
-        <Pill>iOS</Pill>
-        <Pill>Kotlin</Pill>
-        <Pill>C#</Pill>
-        <Pill>Java</Pill>
-        <Pill>Spring</Pill>
-        <Pill>Kotlin</Pill>
-        <Pill>TypeScript</Pill>
-        <Pill>React</Pill>
-        <Pill>Angular</Pill>
-        <Pill>Node.js</Pill>
-        <Pill>NestJS</Pill>
-        <Pill>MySQL</Pill>
-        <Pill>PostgreSQL</Pill>
-        <Pill>Swift</Pill>
-        <Pill>AWS</Pill>
-      </ContentContainer>
-    </Container>
+    <HideTablet>
+      <SectionBlack>
+        <ContentContainer>
+          <Pill>Android</Pill>
+          <Pill>iOS</Pill>
+          <Pill>Kotlin</Pill>
+          <Pill>C#</Pill>
+          <Pill>Java</Pill>
+          <Pill>Spring</Pill>
+          <Pill>Kotlin</Pill>
+          <Pill>TypeScript</Pill>
+          <Pill>React</Pill>
+          <Pill>Angular</Pill>
+          <Pill>Node.js</Pill>
+          <Pill>NestJS</Pill>
+          <Pill>MySQL</Pill>
+          <Pill>PostgreSQL</Pill>
+          <Pill>Swift</Pill>
+          <Pill>AWS</Pill>
+        </ContentContainer>
+      </SectionBlack>
+    </HideTablet>
   )
 }

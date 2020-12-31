@@ -1,13 +1,15 @@
 import styled from "styled-components"
+import variables from '../../styles/variables'
 
 export const FlashbackContainer = styled.div<{ length: number }>`
   && {
     margin-top: 100px;
-    margin-bottom: 186px;
+    margin-bottom: 5rem;
     text-align: center;
     display: grid;
     gap: 105px 0;
     justify-content: center;
+    
     .images {
       display: grid;
       gap: 2.1875rem;
@@ -64,6 +66,7 @@ export const WorkshopContainer = styled.div`
   background: black;
   color: white;
   padding: 105px 0;
+  
   .container {
     font-weight: bolder;
     font-size: 2.5rem;
@@ -95,24 +98,24 @@ export const FormContainer = styled.div`
 `
 
 export const Tabs = styled.ul`
-  margin: auto;
-  margin-top: 8rem;
+  margin: 2rem auto;
   display: grid;
   justify-content: start;
   justify-items: start;
   grid-auto-flow: column;
-  margin-bottom: 4rem;
   max-width: 960px;
   gap: 5.6875rem;
+  
   a {
-    font-family: Montserrat;
+    font-family: ${variables.font.title.family};
     user-select: none;
     cursor: pointer;
-    font-size: 28px;
-    line-height: 44px;
-    color: var(--black-100);
+    font-size: ${variables.font.title.size};
+    line-height: 2rem;
+    color: ${variables.color.text};
     opacity: 0.75;
     font-weight: normal;
+    
     &.is-active {
       opacity: 1;
       font-weight: bold;

@@ -53,20 +53,20 @@ const Title = styled.div({
 
   fontSize: "22px",
   lineHeight: "27px",
-  fontFamily: variables.headerFont,
+  fontFamily: variables.font.title.family,
 
-  color: variables.blackTextColor,
+  color: variables.color.text,
 })
 
 const Description = styled.div({
   maxWidth: "955px",
   marginTop: "50px",
 
-  color: variables.blackTextColor,
+  color: variables.color.text,
   textAlign: "left",
   fontSize: "16px",
   lineHeight: "28px",
-  fontFamily: variables.textFont,
+  fontFamily: variables.font.text.family,
 })
 
 const HowWeWorkSteps = () => {

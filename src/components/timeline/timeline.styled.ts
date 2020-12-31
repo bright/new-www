@@ -84,6 +84,8 @@ export const Wrapper = styled.div<{
     }
   }
   @media (max-width: 601px) {
+    margin-top: 4rem;
+  
     & > .my-container {
       display: grid;
       grid-template-columns: auto 1fr;
@@ -93,6 +95,7 @@ export const Wrapper = styled.div<{
       }
       .separator {
         grid-area: timeline;
+        margin: 0 15px 0 5px;
       }
       .left:not(.active),
       .right:not(.active) {
