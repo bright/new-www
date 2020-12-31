@@ -8,7 +8,7 @@ const ContentContainer = styled.div({
 
   display: "flex",
   flexDirection: "row",
-  justifyContent: "flex-start",
+  justifyContent: "center",
 
   flexWrap: "wrap",
 
