@@ -12,11 +12,11 @@ export const story: readonly Story[] = [
     position: "Right",
     images: [
       {
-        src: "/images/michal.jpg",
+        src: "/images/members/michał_łukasiewicz.jpg",
         alt: "Michał Łukasiewicz",
       },
       {
-        src: "/images/daniel_makurat.jpg",
+        src: "/images/members/daniel_makurat.jpg",
         alt: "Daniel Makurat",
       },
     ],
