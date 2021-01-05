@@ -82,6 +82,8 @@
 
 @include mobile() {
   .container {
+    padding: 0;
+
     .brand {
       //width: 65px;
       //padding: 1rem 0.5rem 0.5rem 0.5rem;
