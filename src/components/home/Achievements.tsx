@@ -11,10 +11,10 @@ export const Achievements = () => {
   const authors = createAuthors(useStaticQuery(GQL) as GQLData)
 
   const elements = [
-    { number: (new Date()).getFullYear() - 2008, label: 'Years' },
-    { number: 300, label: 'Projects' },
-    { number: 167, label: 'Clients' },
-    { number: 52, label: 'Team' },
+    { number: (new Date()).getFullYear() - 2012, label: 'Years' },
+    { number: 53, label: 'Projects' },
+    { number: 40, label: 'Clients' },
+    { number: 59, label: 'Team' },
     //{ number: authors.length, label: 'Team' }, --- @todo: should be uncommented after making all members
   ]
 
