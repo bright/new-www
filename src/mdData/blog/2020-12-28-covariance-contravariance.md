@@ -76,15 +76,15 @@ We use HOT as a kind of function that creates complex types based on simple type
   <img src="/images/covariance-contravariance/graph-2.png" alt="Second-graph"/>
 </p>
 
-In typescript:
+In TypeScript:
 
-- Type which function takes is contravariant
+- Type which function takes as parameter is contravariant
 
 - Type which function returns is covariant
 
 ### Step 3 - Complex Example
 
-To better understand those terms let me create more complex graph and typescript code as a description
+To better understand those terms let me create more complex graph and TypeScript code as a description
 
 <p align="center">
   <img src="/images/covariance-contravariance/graph-3.png" alt="Third-graph"/>
