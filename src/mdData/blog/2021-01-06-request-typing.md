@@ -114,11 +114,12 @@ type PlayerTypeOptionalTwo = {
 // types PlayerTypeReadonlyOne and PlayerTypeReadonlyTwo are equivalent
 const player5: PlayerTypeReadonlyOne = { hp: 1, name: "One", position: [1, 1] }
 const player6: PlayerTypeReadonlyTwo = { hp: 2, name: "Tne", position: [2, 2] }
+
 // types PlayerTypeOptional and PlayerTypeOptionalTwo are equivalent
 const player7: PlayerTypeOptionalTwo = {position: [2, 2]}
 ```
 
-As an alternative if you use interface `SomeInterface` instead of type you can use a combination of `Readonly<SomeInterface>`, `Required<SomeInterface>`
+As an alternative if you use interface `SomeInterface` instead of type you can use a combination of `Readonly<SomeInterface>`, `Required<SomeInterface>`.
 
 ### Conclusion
 
