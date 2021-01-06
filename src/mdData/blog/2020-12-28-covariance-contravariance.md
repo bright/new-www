@@ -15,7 +15,11 @@ comments: true
 published: false
 ---
 
-Covariance and contravariance - two buzzwords from a programming language's word, what does they mean?
+### Introduction
+
+Covariance and contravariance - two buzzwords from a programming language's world, what do they mean? Let's find out in three steps!
+
+### Step 1 - Sets
 
 This topic is not so straightforward so let's start with an intuitive example from life with a little of mathematical knowledge. Think about a vehicle and a motorbike. Vehicle is a superset for a motorbike and motorbike is a subset for a vehicle.
 
@@ -42,6 +46,9 @@ const motorbike: Motorbike = { ... }
 const expectVehicle: Vehicle = motorbike      // OK
 const expectMotorbike: Motorbike = vehicle  // Error
 ```
+
+### Step 2 - HOT concept
+
 Before we jump into covariance and contravariance let's introduce one more concept - **HOT** which stays for higher order type. HOT is an abstract that takes type as an argument and returns another type. **Generics types are HOT.**
 
 ```typescript
@@ -74,6 +81,8 @@ In typescript:
 - Type which function takes is contravariant
 
 - Type which function returns is covariant
+
+### Step 3 - Complex Example
 
 To better understand those terms let me create more complex graph and typescript code as a description
 
@@ -111,3 +120,7 @@ let contravariantSUV: Contravariant<SUV> = { ... }
 contravariantCar = contravariantVehicle  // OK 
 contravariantCar = contravariantSUV      // Error
 ```
+
+### Conclusion
+
+The goal of this text is to introduce and explain mechanics that rule in the world of static typing. This knowledge could be very helpful in organizing functions, data structures, and their interfaces that make static typing possible. This subject lies at the root of languages with types, so it is essential to understand them completely.
