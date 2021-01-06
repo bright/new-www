@@ -21,7 +21,7 @@ TypeScript, this code should be typed safely. There are multiple ways to do so. 
 
 ### Prerequisite
 
-Let's imagine a player from game:
+Let's imagine a player entity from a game:
 
 ```typescript
 // Create a type for our object
