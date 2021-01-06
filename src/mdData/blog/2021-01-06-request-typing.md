@@ -65,7 +65,7 @@ const postPlayer = (data: PlayerType | PlayerInterface) => { }
 // Example of "keyof" operator
 type PlayerTypeKeys = keyof PlayerType // "hp" | "name" | "position"
 
-// Copy of Player type with "?" beeing added - this will change object properties to be optional
+// Copy of PlayerType type with "?" beeing added - this will change object properties to be optional
 type PlayerTypeOptional = {
   [K in keyof PlayerType]?: PlayerType[K]
 }
