@@ -9,7 +9,7 @@ interface Job {
   url: string
 }
 
-const JobsOpenAll: React.FC<{pathOrigin: string}> = ({pathOrigin}) => {
+const JobsOpenAll: React.FC<{pathOrigin?: string}> = ({pathOrigin = ''}) => {
   const {
     allMarkdownRemark: { edges },
   } = useStaticQuery(graphql`
