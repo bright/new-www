@@ -42,7 +42,7 @@ const JobsOpenTop: React.FC = () => {
         return (
           <div className="level-item">
             <div>
-              <a href={getJobPath(fileAbsolutePath)}>
+              <a href={`jobs${getJobPath(fileAbsolutePath)}`}>
                 <h3 className="has-text-white has-text-weight-bold">
                   {job.title}
                 </h3>
