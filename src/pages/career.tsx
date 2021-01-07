@@ -11,7 +11,7 @@ import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import JobsOpenAll from '../components/subcomponents/JobsOpenAll'
 import JobsOpenTop from '../components/subcomponents/JobsOpenTop'
 
-const CareerPage: React.FC = () => {
+const CareerPage: React.FC = (props) => {
   return (
     <Page className="page-career">
       <HelmetWrapper title="Career" />
@@ -19,7 +19,7 @@ const CareerPage: React.FC = () => {
         <div className="hero-body">
           <div className="container">
             <h1 className="title">we hire bright people</h1>
-            <JobsOpenTop />
+            <JobsOpenTop pathOrigin={props.location.origin} />
           </div>
         </div>
       </section>
@@ -84,7 +84,7 @@ const CareerPage: React.FC = () => {
           <h2 className="title" id="open-positions">
             open positions
           </h2>
-          <JobsOpenAll />
+          <JobsOpenAll pathOrigin={props.location.origin} />
         </article>
       </div>
     </Page>

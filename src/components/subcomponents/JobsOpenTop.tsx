@@ -10,7 +10,7 @@ interface Job {
   url: string
 }
 
-const JobsOpenTop: React.FC = () => {
+const JobsOpenTop: React.FC<{pathOrigin: string}> = ({pathOrigin}) => {
   const {
     allMarkdownRemark: { edges },
   } = useStaticQuery(graphql`
@@ -42,7 +42,7 @@ const JobsOpenTop: React.FC = () => {
         return (
           <div className="level-item">
             <div>
-              <a href={`jobs${getJobPath(fileAbsolutePath)}`}>
+              <a href={`${pathOrigin}/jobs${getJobPath(fileAbsolutePath)}`}>
                 <h3 className="has-text-white has-text-weight-bold">
                   {job.title}
                 </h3>

@@ -9,7 +9,7 @@ interface Job {
   url: string
 }
 
-const JobsOpenAll: React.FC = () => {
+const JobsOpenAll: React.FC<{pathOrigin: string}> = ({pathOrigin}) => {
   const {
     allMarkdownRemark: { edges },
   } = useStaticQuery(graphql`
@@ -41,7 +41,7 @@ const JobsOpenAll: React.FC = () => {
         return (
           <p className="open-position">
             <a
-              href={`jobs${getJobPath(fileAbsolutePath)}`}
+              href={`${pathOrigin}/jobs${getJobPath(fileAbsolutePath)}`}
               className="has-text-dark"
             >
               <div className="has-text-dark has-text-weight-bold is-size-3">
