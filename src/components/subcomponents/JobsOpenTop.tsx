@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import { getUrlForAbsolutePath } from "../../helpers/pathHelpers"
+import { getJobPath } from "../../helpers/pathHelpers"
 import { routeLinks } from "../../config/routing"
 
 interface Job {
@@ -42,7 +42,7 @@ const JobsOpenTop: React.FC = () => {
         return (
           <div className="level-item">
             <div>
-              <a href={getUrlForAbsolutePath(fileAbsolutePath)}>
+              <a href={getJobPath(fileAbsolutePath)}>
                 <h3 className="has-text-white has-text-weight-bold">
                   {job.title}
                 </h3>

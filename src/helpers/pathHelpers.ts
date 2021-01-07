@@ -2,6 +2,10 @@ export const getUrlForAbsolutePath = (path: string) => {
   return path.split("pages").pop().replace(".md", "")
 }
 
+export const getJobPath = (path: string) => {
+  return 'jobs' + path.split('jobs').pop().replace('.md', '')
+}
+
 export const getFileNameOnly = (path: string) => {
   return path.split("/").pop().replace(".md", "")
 }
