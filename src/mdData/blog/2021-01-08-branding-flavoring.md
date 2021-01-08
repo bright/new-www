@@ -22,7 +22,7 @@ first element's type. Sometimes this behaviour may allow us to write erroneous c
 
 ### Example
 
-Let's imagine a function which calculates candy price based on their weight and pricePerUnit per unit:
+Let's imagine a function which calculates candy price based on their weight and price per unit:
 
 ```typescript
 // Create a type for our candy
