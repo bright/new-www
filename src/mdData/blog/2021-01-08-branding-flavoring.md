@@ -16,13 +16,13 @@ published: false
 
 ### Introduction
 
-TypeScript's language mainly uses structural typing. In structural typing, an element is considered to be compatible 
+TypeScript language mainly uses structural typing. In structural typing, an element is considered to be compatible 
 with another if, for each feature within the second element's type, a corresponding and identical feature exists in the 
 first element's type. Sometimes this behaviour may allow us to write erroneous code. 
 
 ### Example
 
-Let's imagine a function which calculates candy pricePerUnit based on their weight and pricePerUnit per unit:
+Let's imagine a function which calculates candy price based on their weight and pricePerUnit per unit:
 
 ```typescript
 // Create a type for our candy
