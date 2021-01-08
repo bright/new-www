@@ -16,7 +16,7 @@ published: false
 
 ### Introduction
 
-As a developer you will very often perform POST and PATCH request to API from your frontend app. When you use
+As a developers we often perform POST and PATCH requests to API from our frontend apps. When we use
 TypeScript, this code should be typed safely. There are multiple ways to do so. Let's analyze one of them!
 
 ### Prerequisite
@@ -31,7 +31,7 @@ type PlayerType = {
   position: [number, number]
 }
 
-// Alternatively you can use interface:
+// Alternatively we can use interface:
 interface PlayerInterface {
   hp: number
   name: string
@@ -54,7 +54,7 @@ const patchPlayer = (data: any) => {
 ### Safe typing
 
 Leaving type `any` can lead application to behave erroneous moreover we do not benefit from TypeScript static type
-checking. **Avoid** leaving `any` in your code - there is probably a better solution!
+checking. **Avoid** leaving `any` in code - there is probably a better solution!
 
 Statically typed functions arguments could look like this:
 
@@ -96,7 +96,8 @@ patchPlayer(player4)    // OK
 
 ### Additional info
 
-Similarly to adding optional ("?") modificator on `PlayerType` we can add by "+" (you can omit that sign) or remove by "-" (this sign is required) readonly modificator:
+Similarly to adding optional ("?") modificator on `PlayerType` we can add by "+" (this sign can be omitted) or 
+remove by "-" (this sign is required) readonly modificator:
 
 ```typescript
 type PlayerTypeReadonlyOne = {
@@ -119,8 +120,10 @@ const player6: PlayerTypeReadonlyTwo = { hp: 2, name: "Two", position: [2, 2] }
 const player7: PlayerTypeOptionalTwo = { position: [2, 2] }
 ```
 
-As an alternative if you use interface `SomeInterface` instead of type you can use a combination of `Readonly<SomeInterface>`, `Required<SomeInterface>`.
+As an alternative while using interface `SomeInterface` instead of type we can use a combination of 
+`Readonly<SomeInterface>`, `Required<SomeInterface>`.
 
 ### Conclusion
 
-Proper API typing increase benefits from TypeScript static type checking and makes your development safer. Knowledge on how to work with types or interfaces can help you find a way to do so in a DRY way!
+Proper API typing increase benefits from TypeScript static type checking and makes our development safer. Knowledge on 
+how to work with types or interfaces can help us find a way to do so in a DRY way!
