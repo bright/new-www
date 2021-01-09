@@ -18,7 +18,7 @@ published: false
 
 TypeScript language mainly uses structural typing. In structural typing, an element is considered to be compatible 
 with another if, for each feature within the second element's type, a corresponding and identical feature exists in the 
-first element's type. Sometimes this behaviour may allow us to write erroneous code. 
+first element's type. Sometimes this behavior may allow us to write erroneous code. 
 
 ### Example
 
@@ -32,7 +32,7 @@ type Candy = {
 }
 
 // Create a function from our example
-const calcuateCandyPrice = (candy: Candy) => candy.pricePerUnit * candy.weight
+const calculateCandyPrice = (candy: Candy) => candy.pricePerUnit * candy.weight
 
 // Create a type with similar structure to type Candy
 type Veggie = {
@@ -45,12 +45,12 @@ declare const candyDrops: Candy
 declare const broccolis: Veggie
 
 // Is this function safely typed? 
-calcuateCandyPrice(candyDrops)                          // OK 
-calcuateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // OK 
-calcuateCandyPrice(broccolis)                           // OK 
+calculateCandyPrice(candyDrops)                          // OK 
+calculateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // OK 
+calculateCandyPrice(broccolis)                           // OK 
 ```
 
-TypeScript compiler does not throw an error, even though we as a programmes see that this behaviour may not be desired. 
+TypeScript compiler does not throw an error, even though we as programmes see that this behavior may not be desired. 
 This problem can be solved by nominal typing. Nominal typing means that two variables are type-compatible if and only if 
 their declarations name the same type. TypeScript unfortunately does not have such a syntax feature. There are some 
 methods which we can use to omit that problem. 
@@ -73,14 +73,14 @@ type Veggie = {
   weight: number
 }
 
-const calcuateCandyPrice = (candy: Candy) => candy.pricePerUnit * candy.weight
+const calculateCandyPrice = (candy: Candy) => candy.pricePerUnit * candy.weight
 
 declare const candyDrops: Candy
 declare const broccolis: Veggie
 
-calcuateCandyPrice(candyDrops)                          // OK 
-calcuateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // Error
-calcuateCandyPrice(broccolis)                           // Error
+calculateCandyPrice(candyDrops)                          // OK 
+calculateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // Error
+calculateCandyPrice(broccolis)                           // Error
 ```
 
 We can also create generic type for our branding: 
@@ -119,7 +119,7 @@ const brandProperty = candyDrops.__brand // OK
 
 2. A raw object passed to the function as an argument stopped working
 ```typescript
-calcuateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // Error
+calculateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // Error
 ```
 
 ### Flavoring
@@ -141,14 +141,14 @@ type Veggie = {
   weight: number
 }
 
-const calcuateCandyPrice = (candy: Candy) => candy.pricePerUnit * candy.weight
+const calculateCandyPrice = (candy: Candy) => candy.pricePerUnit * candy.weight
 
 declare const candyDrops: Candy
 declare const broccolis: Veggie
 
-calcuateCandyPrice(candyDrops)                          // OK 
-calcuateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // OK
-calcuateCandyPrice(broccolis)                           // Error
+calculateCandyPrice(candyDrops)                          // OK 
+calculateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // OK
+calculateCandyPrice(broccolis)                           // Error
 ```
 
 We can also create generic type for our flavoring:
