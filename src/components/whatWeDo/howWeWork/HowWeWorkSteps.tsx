@@ -9,6 +9,7 @@ import QualityAssurance from "../../../assets/qualityAssurance.svg"
 import Ideation from "../../../assets/ideation.svg"
 import Maintenance from "../../../assets/maintenance.svg"
 import variables from "../../../styles/variables"
+import { TextRegular, TextTitle } from "../../shared"
 
 const Container = styled.div({
   marginTop: "25px",
@@ -17,10 +18,6 @@ const Container = styled.div({
   display: "flex",
   justifyContent: "center",
   width: "100%",
-
-  ["@media screen and (max-width: 767px)"]: {
-    display: "none",
-  },
 })
 
 const ContentWrapper = styled.div({
@@ -45,28 +42,19 @@ const SectionTitle = styled.div({
   marginTop: "50px",
 })
 
-const Title = styled.div({
+const Title = styled(TextTitle)({
   maxWidth: "955px",
-
-  fontWeight: "bold",
   marginTop: "36px",
-
-  fontSize: "22px",
-  lineHeight: "27px",
-  fontFamily: variables.font.title.family,
 
   color: variables.color.text,
 })
 
-const Description = styled.div({
+const Description = styled(TextRegular)({
   maxWidth: "955px",
   marginTop: "50px",
 
   color: variables.color.text,
   textAlign: "left",
-  fontSize: "16px",
-  lineHeight: "28px",
-  fontFamily: variables.font.text.family,
 })
 
 const HowWeWorkSteps = () => {

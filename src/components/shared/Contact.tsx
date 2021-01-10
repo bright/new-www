@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
+import { routeLinks } from "../../config/routing"
 import { FormType, sendMail } from "../../helpers/mail"
 import {
   Button,
@@ -13,11 +14,9 @@ import {
   SingleSelect,
   SubmitButton,
   SuccessMessage,
-  TextInput,
+  TextInput
 } from "./contact/styles"
-import { HideDesktop, HideTablet, SectionTitle, TextRegular }from './index'
-import { routeLinks } from '../../config/routing'
-import variables from '../../styles/variables'
+import { HideDesktop, HideTablet, SectionTitle, TextRegular } from "./index"
 
 const ContainerWrapper = styled.div({
   display: "flex",
@@ -32,8 +31,6 @@ const Container = styled.div({
 
   display: "flex",
   flexDirection: "column",
-
-  color: variables.color.text,
 })
 
 export const Contact = () => {

@@ -11,7 +11,7 @@ import {
   DescriptionWrapper,
   Paragraph,
   Title,
-} from "../../components/whatWeDo/ourDevelopmentAreas/styles"
+} from "../../components/whatWeDo/ourDevelopmentAreas/subpagesStyles"
 
 const CustomSoftwareDevelopment = () => {
   return (
