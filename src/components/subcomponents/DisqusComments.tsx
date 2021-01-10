@@ -1,25 +1,19 @@
-import { graphql, useStaticQuery } from "gatsby"
 import { Disqus } from "gatsby-plugin-disqus"
 import React from "react"
 
-const DisqusComments = ({ title }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          siteUrl
-          disqusShortname
-        }
-      }
-    }
-  `)
+interface DisqusCommentsProps {
+  id: string
+  title: string
+}
+
+const DisqusComments: React.FC<DisqusCommentsProps> = ({ id, title }) => {
+  if (typeof window === "undefined") {
+    return null
+  }
 
   const disqusConfig = {
-    identifier: data.site.siteMetadata.disqusShortname,
-    url: `${
-      data.site.siteMetadata.siteUrl +
-      (typeof window !== "undefined" && window.location.pathname)
-    }`,
+    identifier: id,
+    url: window.location.origin + window.location.pathname,
     title: title,
   }
 
