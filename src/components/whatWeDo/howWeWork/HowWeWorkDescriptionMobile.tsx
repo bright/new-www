@@ -1,18 +1,13 @@
 import React from "react"
 import styled from "styled-components"
+import { TextRegular } from "../../shared"
 
 const Container = styled.div({
-  color: "#131214",
-
   marginTop: "74px",
 
   display: "flex",
   justifyContent: "center",
   width: "100%",
-
-  ["@media screen and (min-width: 768px)"]: {
-    display: "none",
-  },
 })
 
 export const ContentWrapper = styled.div({
@@ -23,16 +18,10 @@ export const ContentWrapper = styled.div({
   alignItems: "flex-start",
 })
 
-export const ParagraphTextWrapper = styled.div({
-  fontFamily: "Lato",
+export const ParagraphTextWrapper = styled(TextRegular)({
   textAlign: "left",
 
-  letterSpacing: "0px",
-  color: "#131214",
-
   marginTop: "0px",
-  fontSize: "16px",
-  lineHeight: "28px",
   padding: "0 18px",
 })
 
