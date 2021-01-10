@@ -142,6 +142,10 @@ const SubmitMessage = styled.div({
   marginTop: "30px",
 })
 
+export const RequiredMessage = styled(Label)({
+  marginTop: "30px",
+})
+
 export const ErrorMessage = styled(SubmitMessage)({
   color: "red",
 })
