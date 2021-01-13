@@ -25,7 +25,7 @@ export const SectionTitleContainer = styled.div<{
   flexDirection: "column",
   alignItems: "center",
 
-  [`@media screen and (${variables.device.mobile})`]: {
+  [`@media screen and (max-width: 767px)`]: {
     svg: {
       width: iconMobileWidth,
       height: iconMobileHeight,
@@ -36,7 +36,7 @@ export const SectionTitleContainer = styled.div<{
 export const Title = styled(TextTitle)({
   marginTop: "36px",
 
-  [`@media screen and (${variables.device.mobile})`]: {
+  [`@media screen and (max-width: 767px)`]: {
     marginTop: "30px",
   },
 })
@@ -47,7 +47,7 @@ export const SectionText = styled(TextRegular)({
   marginTop: "60px",
   textAlign: "left",
 
-  [`@media screen and (${variables.device.mobile})`]: {
+  [`@media screen and (max-width: 767px)`]: {
     marginTop: "30px",
     textAlign: "center",
   },
@@ -65,7 +65,7 @@ export const DevelopmentAreaContainer = styled.div({
 
   padding: "10px 20px",
 
-  [`@media screen and (${variables.device.desktop})`]: {
+  [`@media screen and (min-width: 767px)`]: {
     flexBasis: "50%",
   },
 })
