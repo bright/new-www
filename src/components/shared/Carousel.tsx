@@ -1,17 +1,14 @@
-import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
+import React from 'react'
 import { Carousel as RCarousel } from 'react-responsive-carousel'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import styled from 'styled-components'
-
+import BackArrowImage from '../../assets/backArrowBlack.svg'
+import NextArrowImage from '../../assets/nextArrowBlack.svg'
 import { ProjectModel } from '../../models/gql'
 import CarouselCard from './carousel/CarouselCard'
 import Indicator from './carousel/Indicator'
-import { Section, HideTablet } from './index'
-import { pxToRem } from '../../styles/variables'
-
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import BackArrowImage from '../../assets/backArrowBlack.svg'
-import NextArrowImage from '../../assets/nextArrowBlack.svg'
+import { Section } from './index'
 
 const CarouselWrapper = styled(Section)`
   display: flex;
@@ -21,59 +18,73 @@ const CarouselWrapper = styled(Section)`
   .carousel {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
     align-items: center;
 
-    max-width: ${pxToRem(1730)};
     width: 100%;
+  }
+
+  .slider-wrapper {
+    margin: 0;
+    width: 80%;
+
+    @media (max-width: 1400px) {
+      width: 70%;
+    }
+
+    @media (max-width: 1200px) {
+      width: 800px;
+    }
+
+    @media (max-width: 950px) {
+      width: 600px;
+    }
   }
 `
 
 const SliderButton = styled.div({
   cursor: 'pointer',
-  position: 'absolute',
   zIndex: 2,
-  top: 'calc(50% - 3.5em)',
-  display: 'inline-block',
-  margin: '0 -1em'
 })
 
 const PreviousArrow = (onClickHandler: () => void) => (
-  <SliderButton>
-    <BackArrowImage onClick={onClickHandler}/>
+  <SliderButton style={{ marginRight: '4em' }}>
+    <BackArrowImage onClick={onClickHandler} />
   </SliderButton>
 )
 
 const NextArrow = (onClickHandler: () => void) => (
   <SliderButton>
-    <NextArrowImage onClick={onClickHandler}/>
+    <NextArrowImage onClick={onClickHandler} />
   </SliderButton>
 )
 
 export const Carousel = () => {
-  const { allMarkdownRemark: { edges } } = useStaticQuery(GQL)
+  const {
+    allMarkdownRemark: { edges },
+  } = useStaticQuery(GQL)
   const carouselItems: ProjectModel[] = edges
     ? edges.map((e: any) => e.node.frontmatter)
     : []
 
   return (
-    <HideTablet>{/* @todo: currently styles are not prepared to show on mobile devices */}
-      <CarouselWrapper>
-        <RCarousel
-          showStatus={false}
-          showThumbs={false}
-          infiniteLoop
-          renderIndicator={Indicator}
-          renderArrowPrev={PreviousArrow}
-          renderArrowNext={NextArrow}
-        >
-          {(carouselItems || []).map(item => (
-            <div key={item.title}>
-              <CarouselCard project={item as ProjectModel}/>
-            </div>
-          ))}
-        </RCarousel>
-      </CarouselWrapper>
-    </HideTablet>
+    <CarouselWrapper>
+      <RCarousel
+        showStatus={false}
+        showThumbs={false}
+        infiniteLoop
+        renderIndicator={Indicator}
+        renderArrowPrev={PreviousArrow}
+        renderArrowNext={NextArrow}
+      >
+        {(carouselItems || []).map(item => (
+          <div key={item.title}>
+            <CarouselCard project={item} />
+          </div>
+        ))}
+      </RCarousel>
+    </CarouselWrapper>
   )
 }
 
