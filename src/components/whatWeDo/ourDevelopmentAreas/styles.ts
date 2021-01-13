@@ -64,7 +64,7 @@ export const DevelopmentAreaContainer = styled.div({
   flexDirection: 'column',
   alignItems: 'center',
 
-  padding: '10px 10px',
+  padding: '10px 30px',
 
   [`@media screen and (min-width: 767px)`]: {
     flexBasis: '50%',

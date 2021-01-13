@@ -1,38 +1,39 @@
-import React from "react"
-import styled from "styled-components"
-import variables from "../../styles/variables"
+import React from 'react'
+import styled from 'styled-components'
+import variables from '../../styles/variables'
 import { HideTablet, SectionBlack } from './index'
 
 const ContentContainer = styled.div({
-  maxWidth: "1545px",
+  maxWidth: '1545px',
 
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "center",
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'center',
 
-  flexWrap: "wrap",
+  flexWrap: 'wrap',
 
-  padding: "0px 20px",
+  padding: '0px 20px',
+  margin: 'auto',
 })
 
 const Pill = styled.div({
-  border: "1px solid rgba(212,212,212,0.75)",
-  height: "42px",
+  border: '1px solid rgba(212,212,212,0.75)',
+  height: '42px',
 
-  textAlign: "center",
-  fontSize: "18px",
+  textAlign: 'center',
+  fontSize: '18px',
   fontFamily: variables.font.title.family,
   color: variables.color.white,
 
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
 
-  padding: "0px 18px",
-  marginRight: "24px",
+  padding: '0px 18px',
+  marginRight: '24px',
 
-  marginTop: "9px",
-  marginBottom: "9px",
+  marginTop: '9px',
+  marginBottom: '9px',
 })
 
 export const TechnologyTags = () => {
