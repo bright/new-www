@@ -3,16 +3,16 @@ layout: post
 title: Covariance & Contravariance
 date: 2020-12-28T12:12:12.000Z
 author: wojciech
-image: /images/Bitrise Loves Detox.png
+image: /images/covariance_contravariance.png
 tags:
   - typescript
   - types
   - sets
   - math
   - vehicles
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 ---
 
 ### Introduction
