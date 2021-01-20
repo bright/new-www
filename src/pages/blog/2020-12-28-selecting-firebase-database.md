@@ -34,21 +34,23 @@ you will decide, that none of those is for you and unfortunately, you have to cr
 * You don't have to worry about hardware.
 * Lots of documentation, and community help.
 
-###  Cons:
+### Cons:
 
 * Limited querying possibilities
 * Migration to own server & backend might be problematic. There are tools, to help you do that, but it requires some work.
 * Pricing and limitations! If your app gets bigger, firebase databases costs might be much higher, than hosting your own server. 
   What is more, there are some limitations to stored data sizes, but it is pretty high, and nothing to worry about at first. 
 
-## *Realtime database*
+## *Realtime Database*
 
 Let's start with the original database. RD is a NoSQL cloud database, updated in a realtime with great offline support. Data itself is stored as a JSON Object.
 There are no tables, rows or records. Everything is stored in a form of a JSON tree. Every time, you add new data to it, it creates a new node in existing structure 
 with an associated key, which you can provide on your own, or it can be generated automatically. In the [firebase documentation](https://firebase.google.com/docs/database/web/structure-data)
-you can find great examples, how to properly structurize it, to prevent unwanted downloading of redundant data. 
+you can find great examples, how to properly structurize it, to prevent unwanted downloading of redundant data. \
+\
+Example of a data tree:
 
-\[ZDJĘCIE PRZYKLADOWYCH DANYCH W REALTIME DATABASE]
+![](/static/images/realtime_database_example.png "Realtime Database data example")
 
 RD provides support for many useful database mechanisms like data validation, defining indexes or setting security rules to define who has access to what. 
 
@@ -58,7 +60,9 @@ Similar to its predecessor, CF is a NoSQL cloud database, with similar key capab
 It is not stored in a form of a JSON tree. Instead, the data is stored in documents, which are organized into collections. Document contains set of key-value pairs. 
 Each document, can contain subcollections, so nesting data is pretty simple. 
 
-\[ZDJĘCIE PRZYKLADOWYCH DANYCH W CLOUD FIRESTORE]
+Example of collection with documents and nested data:
+
+![](/static/images/cloud_firestore_example.png "Cloud firestore data example")
 
 ## *Choosing a proper database*
 
