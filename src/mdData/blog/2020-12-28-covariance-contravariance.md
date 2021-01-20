@@ -3,7 +3,7 @@ layout: post
 title: Covariance & Contravariance
 date: 2020-12-28T12:12:12.000Z
 author: wojciech
-image: /images/covariance_contravariance.png
+image: /static/images/covariance_contravariance.png
 tags:
   - typescript
   - types
