@@ -7,6 +7,7 @@ import variables from '../../../styles/variables'
 import { routeLinks } from '../../../config/routing'
 
 import RightArrow from '../../../assets/rightArrow.svg'
+import { SectionTitle, TextRegular } from '..'
 
 interface CarouselCardProps {
   project: ProjectModel
@@ -17,78 +18,64 @@ const Container = styled(Link)({
 
   display: 'flex',
   flexDirection: 'row',
-  justifyContent: 'center'
+  justifyContent: 'center',
 })
 
 const ProjectDescriptionWrapper = styled.div({
-  maxWidth: '580px',
+  flex: 1,
 
   display: 'flex',
   flexDirection: 'column',
-  flexWrap: 'wrap'
+  flexWrap: 'wrap',
 })
 
-const Title = styled.div({
-  fontSize: '36px',
-  lineHeight: '42px',
-  fontWeight: 800,
-
-  fontFamily: variables.font.title.family,
-
+const Title = styled(SectionTitle)({
   textAlign: 'left',
-
-  color: variables.color.text
+  color: variables.color.text,
 })
 
-const Description = styled.div({
+const Description = styled(TextRegular)({
   marginTop: '55px',
-
-  fontSize: '20px',
-  lineHeight: '40px',
-
-  fontFamily: variables.font.text.family,
-
   textAlign: 'left',
-
-  color: variables.color.text
+  color: variables.color.text,
 })
 
 const ImageWrapper = styled.figure({
-  height: '450px',
-  display: 'inline-block'
+  display: 'inline-block',
+
+  flex: 1,
 })
 
 const Image = styled.img({
   objectFit: 'contain',
-  height: '100%',
+  height: '450px',
   width: '100%',
-  maxWidth: '500px',
 
   ['@media screen and (max-width: 768px)']: {
-    maxWidth: '200px'
-  }
+    maxWidth: '200px',
+  },
 })
 
 const GoToContainer = styled.div({
-  marginTop: '35px',
-  alignSelf: 'flex-start'
+  margin: '35px 0',
+  alignSelf: 'flex-start',
 })
 
-const CarouselCardProps: React.FC<CarouselCardProps> = ({ project }) => {
+const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
   return (
     <Container to={`${routeLinks.projects}/${project.slug}`}>
       <ProjectDescriptionWrapper>
         <Title>{project.title}</Title>
         <Description>{project.description}</Description>
         <GoToContainer>
-          <RightArrow/>
+          <RightArrow />
         </GoToContainer>
       </ProjectDescriptionWrapper>
       <ImageWrapper>
-        <Image src={project.image} alt={project.title}/>
+        <Image src={project.image} alt={project.title} />
       </ImageWrapper>
     </Container>
   )
 }
 
-export default CarouselCardProps
+export default CarouselCard

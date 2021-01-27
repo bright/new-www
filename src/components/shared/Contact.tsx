@@ -1,10 +1,12 @@
 import React, { useState } from "react"
 import styled from "styled-components"
+import { routeLinks } from "../../config/routing"
 import { FormType, sendMail } from "../../helpers/mail"
 import {
   Button,
   DoubleInputsRow,
   ErrorMessage,
+  RequiredMessage,
   Form,
   IdeaTextArea,
   Label,
@@ -13,11 +15,9 @@ import {
   SingleSelect,
   SubmitButton,
   SuccessMessage,
-  TextInput,
+  TextInput
 } from "./contact/styles"
-import { HideDesktop, HideTablet, SectionTitle, TextRegular }from './index'
-import { routeLinks } from '../../config/routing'
-import variables from '../../styles/variables'
+import { HideDesktop, HideTablet, SectionTitle, TextRegular } from "./index"
 
 const ContainerWrapper = styled.div({
   display: "flex",
@@ -32,8 +32,6 @@ const Container = styled.div({
 
   display: "flex",
   flexDirection: "column",
-
-  color: variables.color.text,
 })
 
 export const Contact = () => {
@@ -51,6 +49,7 @@ export const Contact = () => {
   const [checkedRules, setCheckedRules] = useState(false)
 
   const [success, setSuccess] = useState(false)
+  const [valid, setValid] = useState<boolean>()
   const [error, setError] = useState(false)
 
   const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -80,6 +79,10 @@ export const Contact = () => {
       })
   }
 
+  const checkValid = () => {
+    setValid(!(checkedRules && name && email && message))
+  }
+
   return (
     <HideTablet>
       <ContainerWrapper>
@@ -96,7 +99,7 @@ export const Contact = () => {
             <Form data-form-type="contact" action="#" onSubmit={onFormSubmit}>
               <DoubleInputsRow>
                 <div style={{ marginRight: "64px" }}>
-                  <Label>Name / Company</Label>
+                  <Label>Name / Company *</Label>
                   <TextInput
                     type="text"
                     maxLength={256}
@@ -109,7 +112,7 @@ export const Contact = () => {
                 </div>
 
                 <div>
-                  <Label>Email</Label>
+                  <Label>Email *</Label>
                   <TextInput
                     type="email"
                     maxLength={256}
@@ -124,7 +127,7 @@ export const Contact = () => {
 
               <DoubleInputsRow>
                 <div style={{ marginRight: "64px" }}>
-                  <Label>Phone</Label>
+                  <Label>Phone *</Label>
                   <TextInput
                     type="text"
                     maxLength={256}
@@ -155,12 +158,10 @@ export const Contact = () => {
                     name="service"
                     value={service}
                     onChange={e => setService(e.target.value)}
-                    required
                   >
                     <option value="DEFAULT" hidden>
                       Pick what service you need
                     </option>
-
                     <option value="web_development">web development</option>
                     <option value="mobile_app_development">
                       mobile app development
@@ -176,7 +177,7 @@ export const Contact = () => {
                 </div>
               </DoubleInputsRow>
 
-              <Label>Idea / Project</Label>
+              <Label>Idea / Project *</Label>
               <IdeaTextArea
                 name="message"
                 value={message}
@@ -191,7 +192,6 @@ export const Contact = () => {
                 name="source"
                 value={source}
                 onChange={e => setSource(e.target.value)}
-                required
                 style={{ width: "100%", maxWidth: "445px" }}
               >
                 <option value="DEFAULT" hidden>
@@ -224,12 +224,16 @@ export const Contact = () => {
                   <b>
                     <u>Privacy Policy</u>
                   </b>
-                </a>
+                </a> *
               </PrivacyPolicyCheckboxContainer>
+
+              <RequiredMessage>
+                * - fields required
+              </RequiredMessage>
 
               <SubmitButton
                 type="submit"
-                disabled={!(checkedRules && name && email && message)}
+                onClick={checkValid}
               >
                 submit
               </SubmitButton>
@@ -239,6 +243,11 @@ export const Contact = () => {
               <SuccessMessage>
                 Thank you! Your submission has been received!
               </SuccessMessage>
+            )}
+            {valid === false && (
+              <ErrorMessage>
+                Please, complete missing information
+              </ErrorMessage>
             )}
             {error && (
               <ErrorMessage>

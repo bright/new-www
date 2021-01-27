@@ -1,7 +1,7 @@
-import { graphql, useStaticQuery } from "gatsby"
-import React from "react"
-import { getUrlForAbsolutePath } from "../../helpers/pathHelpers"
-import { routeLinks } from "../../config/routing"
+import { graphql, useStaticQuery } from 'gatsby'
+import React from 'react'
+import { getJobPath } from '../../helpers/pathHelpers'
+import { routeLinks } from '../../config/routing'
 
 interface Job {
   title: string
@@ -10,7 +10,9 @@ interface Job {
   url: string
 }
 
-const JobsOpenTop: React.FC = () => {
+const JobsOpenTop: React.FC<{ pathOrigin?: string }> = ({
+  pathOrigin = '',
+}) => {
   const {
     allMarkdownRemark: { edges },
   } = useStaticQuery(graphql`
@@ -19,6 +21,7 @@ const JobsOpenTop: React.FC = () => {
         filter: {
           frontmatter: { layout: { eq: "job" }, published: { eq: true } }
         }
+        limit: 4
       ) {
         edges {
           node {
@@ -36,34 +39,37 @@ const JobsOpenTop: React.FC = () => {
   const jobs = edges.map(v => v.node)
 
   return (
-    <div className="level open-positions-top">
+    <div
+      className='is-flex is-flex-direction-row open-positions-top'
+      style={{ flexWrap: 'wrap' }}
+    >
       {jobs.map(edge => {
         const { frontmatter: job, fileAbsolutePath } = edge
         return (
-          <div className="level-item">
+          <div className='level-item' style={{ padding: '0 1em' }}>
             <div>
-              <a href={getUrlForAbsolutePath(fileAbsolutePath)}>
-                <h3 className="has-text-white has-text-weight-bold">
+              <a href={`${pathOrigin}/jobs${getJobPath(fileAbsolutePath)}`}>
+                <h3 className='has-text-white has-text-weight-bold'>
                   {job.title}
                 </h3>
-                <div className="has-text-grey">{job.hours}</div>
-                <div className="has-text-primary">{job.salary}</div>
+                <div className='has-text-grey'>{job.hours}</div>
+                <div className='has-text-primary'>{job.salary}</div>
               </a>
-              <a href="/apply-for-job" className="button is-primary">
+              <a href='/apply-for-job' className='button is-primary'>
                 Apply
               </a>
             </div>
           </div>
         )
       })}
-      <div className="level-item">
+      <div className='level-item' style={{ margin: 'auto' }}>
         <div>
           <a
             href={`${routeLinks.career}#open-positions`}
-            className="has-text-weight-bold has-text-white"
+            className='has-text-weight-bold has-text-white'
           >
-            <figure className="image is-24x24">
-              <img src="/images/arrow-more.svg" alt="See all" />
+            <figure className='image is-24x24'>
+              <img src='/images/arrow-more.svg' alt='See all' />
             </figure>
             See all
           </a>

@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { SectionTitle, TextRegular } from "../../shared"
 
 const Container = styled.div({
   color: "#131214",
@@ -9,10 +10,6 @@ const Container = styled.div({
   display: "flex",
   justifyContent: "center",
   width: "100%",
-
-  ["@media screen and (max-width: 767px)"]: {
-    display: "none",
-  },
 })
 
 export const ContentWrapper = styled.div({
@@ -25,24 +22,15 @@ export const ContentWrapper = styled.div({
   padding: "0px 20px",
 })
 
-export const ParagraphTextWrapper = styled.div({
+export const ParagraphTextWrapper = styled(TextRegular)({
   marginTop: "55px",
 
-  fontSize: "16px",
-  lineHeight: "28px",
-  fontFamily: "Lato",
   textAlign: "left",
 
-  letterSpacing: "0px",
   color: "#131214",
 })
 
-export const ParagraphHeader = styled.div({
-  fontSize: "28px",
-  lineHeight: "40px",
-  fontFamily: "Montserrat",
-  fontWeight: "bold",
-
+export const ParagraphHeader = styled(SectionTitle)({
   marginTop: "105px",
 })
 

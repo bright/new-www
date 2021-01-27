@@ -12,7 +12,7 @@ import {
   Paragraph,
   SubTitle,
   Title,
-} from "../../components/whatWeDo/ourDevelopmentAreas/styles"
+} from "../../components/whatWeDo/ourDevelopmentAreas/subpagesStyles"
 
 const MobileAppDevelopment = () => {
   return (

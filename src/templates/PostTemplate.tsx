@@ -71,6 +71,8 @@ export default function Template(props: {
         return userData.author_id === page.author
     })!.frontmatter
 
+    const slug = props.path.replace(/^(\/blog\/)/,'')
+
     return (
         <Page>
             <HelmetWrapper title={page.title} description={markdownRemark.excerpt}>
@@ -137,7 +139,7 @@ export default function Template(props: {
                     {/* {% if site.owner.disqus-shortname and page.comments == true %} */}
                     {/* <section id='disqus_thread'></section><!-- /#disqus_thread --> */}
                     {/* {% endif %} */}
-                    <DisqusComments title={page.title}/>
+                    <DisqusComments id={slug} title={page.title}/>
                 </article>
             </Container>
     </Page>

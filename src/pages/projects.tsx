@@ -5,6 +5,7 @@ import classNames from 'classnames'
 import {Page} from '../layout/Page'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import ProjectCard from '../components/subcomponents/ProjectCard'
+import {Section, PageDescription} from '../components/shared'
 import {createProjects} from '../models/creator'
 import {GQLData} from '../models/gql'
 
@@ -37,13 +38,13 @@ const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
         description='About our software development projects'
       />
       <div className='container'>
-        <div className={classNames('section', styles.info)}>
-          <div className='content'>
+        <Section className={styles.info}>
+          <PageDescription>
             Since 2012 we have realized many innovative projects among which
             there are solutions supporting eco-driving, application for
             sportsmen, POS cash register, system supporting answering calls to
             emergency numbers and many others.
-          </div>
+          </PageDescription>
           <div className='buttons'>
             {allTags.length > 0 && (
                 <div className={classNames('button', styles.filter, {['is-black']: selectedTags.length === 0})}
@@ -59,8 +60,8 @@ const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
                 </div>
             ))}
           </div>
-        </div>
-        <div className='section'>
+        </Section>
+        <Section>
           <div className='columns is-multiline'>
             {projects
                 .filter((project) =>
@@ -74,7 +75,7 @@ const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
                 ))
             }
           </div>
-        </div>
+        </Section>
       </div>
     </Page>
   )

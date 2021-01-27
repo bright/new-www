@@ -19,7 +19,7 @@ const CareerPage: React.FC = () => {
         <div className="hero-body">
           <div className="container">
             <h1 className="title">we hire bright people</h1>
-            <JobsOpenTop />
+            <JobsOpenTop pathOrigin={typeof window !== "undefined" ? window.location.origin : ''} />
           </div>
         </div>
       </section>
@@ -84,7 +84,7 @@ const CareerPage: React.FC = () => {
           <h2 className="title" id="open-positions">
             open positions
           </h2>
-          <JobsOpenAll />
+          <JobsOpenAll pathOrigin={typeof window !== "undefined" ? window.location.origin : ''} />
         </article>
       </div>
     </Page>

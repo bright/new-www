@@ -81,7 +81,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `your-disqus-shortname`,
+        shortname: `brightinventions`,
       },
     },
     {

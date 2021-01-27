@@ -1,58 +1,82 @@
-import styled from "styled-components"
-import variables from "../../../styles/variables"
+import styled from 'styled-components'
+import { TextRegular, TextTitle } from '../../shared'
+import variables from '../../../styles/variables'
 
-export const Container = styled.div({
-  marginTop: "90px",
-  marginBottom: "90px",
+export const DevelopmentAreasWrapper = styled.div({
+  display: 'flex',
+  justifyContent: 'center',
 
-  width: "100%",
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "center",
+  width: '100%',
 })
 
-export const ContentWrapper = styled.div({
-  maxWidth: "995px",
-
-  display: "flex",
-  flexDirection: "column",
+export const DevelopmentAreasContainer = styled.div({
+  display: 'flex',
+  justifyContent: 'space-around',
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  maxWidth: '1344px',
 })
 
-export const DescriptionWrapper = styled.div({
-  display: "flex",
-  flexDirection: "column",
+export const SectionTitleContainer = styled.div<{
+  iconMobileWidth: string
+  iconMobileHeight: string
+}>(({ iconMobileWidth, iconMobileHeight }) => ({
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
 
-  padding: "0 20px",
-  
+  [`@media screen and (max-width: 767px)`]: {
+    svg: {
+      width: iconMobileWidth,
+      height: iconMobileHeight,
+    },
+  },
+}))
+
+export const Title = styled(TextTitle)({
+  marginTop: '36px',
+
+  [`@media screen and (max-width: 767px)`]: {
+    marginTop: '30px',
+  },
 })
 
-export const Title = styled.div({
-  fontWeight: "bold",
-  fontSize: "32px",
-  lineHeight: "39px",
-  fontFamily: variables.font.title.family,
-
+export const SectionText = styled(TextRegular)({
   color: variables.color.text,
 
-  textAlign: "left",
+  marginTop: '60px',
+  textAlign: 'left',
+  padding: '0 10px',
 
-  marginBottom: "20px",
+  [`@media screen and (max-width: 767px)`]: {
+    marginTop: '30px',
+    textAlign: 'center',
+  },
 })
 
-export const SubTitle = styled(Title)({
-  fontSize: "32px",
-  lineHeight: "40px",
+export const DevelopmentAreaContainer = styled.div({
+  flexGrow: 0,
+  flexShrink: 1,
 
-  marginTop: "105px",
-  marginBottom: "0px",
+  marginTop: '65px',
+
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+
+  padding: '10px 30px',
+
+  [`@media screen and (min-width: 767px)`]: {
+    flexBasis: '50%',
+  },
 })
 
-export const Paragraph = styled.div({
-  fontSize: "22px",
-  lineHeight: "40px",
-  fontFamily: variables.font.text.family,
+export const GoToContainer = styled.div({
+  marginTop: '18px',
+})
 
-  color: variables.color.text,
-
-  marginTop: "50px",
+export const ImageContainer = styled.div({
+  svg: {
+    transform: 'scale(0.7)',
+  },
 })

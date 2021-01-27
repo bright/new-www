@@ -1,5 +1,7 @@
 import React from "react"
 import styled from "styled-components"
+import { TextTitle } from "../../shared"
+import variables from "../../../styles/variables"
 
 const Container = styled.div({
   marginTop: "99px",
@@ -12,10 +14,6 @@ const Container = styled.div({
 
   justifyContent: "center",
   alignItems: "center",
-
-  ["@media screen and (min-width: 768px)"]: {
-    display: "none",
-  },
 })
 
 const ProcessImage = styled.img({
@@ -24,15 +22,10 @@ const ProcessImage = styled.img({
   paddingRight: "18px",
 })
 
-const Header = styled.div({
+const Header = styled(TextTitle)({
   textAlign: "center",
 
-  fontSize: "22px",
-  lineHeight: "26px",
-  fontFamily: "Montserrat",
-  fontWeight: "bold",
-
-  color: "#000000",
+  color: variables.color.black,
 })
 
 const HowWeWorkStepsMobile = () => {

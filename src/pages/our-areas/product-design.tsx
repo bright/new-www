@@ -11,7 +11,7 @@ import {
   Paragraph,
   Title,
   DescriptionWrapper,
-} from "../../components/whatWeDo/ourDevelopmentAreas/styles"
+} from "../../components/whatWeDo/ourDevelopmentAreas/subpagesStyles"
 
 const ProductDesign = () => {
   return (
