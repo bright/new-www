@@ -13,9 +13,8 @@ const Container = styled.div`
   &:hover {
     box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
   }
-  
   @media screen and (max-width: 767px) {
-    margin: 1rem 0;
+      margin: 1rem 0;
   }
 `
 
