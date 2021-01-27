@@ -10,20 +10,23 @@ import {ImageSpacer} from '../components/shared/ImageSpacer'
 import {Projects} from '../components/home/Projects'
 import Ratings from '../components/shared/Ratings'
 import {Contact} from '../components/shared/Contact'
+import { HideTablet } from '../components/shared'
 
 import PopularBlogPosts from '../components/home/PopularBlogPosts'
 
 import '../styles/_page-index.scss'
-
 export default () => {
   return (
     <Page className="page-index">
       <Header />
       <Achievements />
-      <Carousel />
+      <HideTablet>
+        <Carousel />
+      </HideTablet>
       <TechnologyTags />
       <OurServices />
       <ImageSpacer />
+
       <Projects />
       <Ratings />
 

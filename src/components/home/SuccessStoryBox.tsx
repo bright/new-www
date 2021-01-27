@@ -6,13 +6,16 @@ const Container = styled.div`
   width: 100%;
   max-width: 550px;
   margin: 1rem;
-  /* height: 350px; */
   padding: 2em;
   display: flex;
   flex-direction: column;
   cursor: pointer;
   &:hover {
     box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
+  }
+  
+  @media screen and (max-width: 767px) {
+    margin: 1rem 0;
   }
 `
 
