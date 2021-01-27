@@ -1,6 +1,5 @@
 import React, { FC } from "react"
 import styled from "styled-components"
-import variables from '../../styles/variables'
 
 const Container = styled.div`
   border: 1px solid #d3d3d3;
@@ -14,8 +13,8 @@ const Container = styled.div`
   &:hover {
     box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
   }
-  @media (${variables.device.mobile}) {
-    margin: 1rem auto;
+  @media screen and (max-width: 767px) {
+      margin: 1rem 0;
   }
 `
 
