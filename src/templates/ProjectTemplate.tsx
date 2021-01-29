@@ -14,7 +14,7 @@ const Title = styled.h1`
 `
 
 const Content = styled.div`
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
@@ -34,11 +34,8 @@ export default function Template({
           <Title className='title'>
             {frontmatter.title}
           </Title>
-          <p className="content">{frontmatter.description}</p>
-          <Content
-            className="content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          <Content className="content">{frontmatter.description}</Content>
+          <Content className="content" dangerouslySetInnerHTML={{ __html: html }}/>
           <BackButton url="/projects" label="Projects" />
         </article>
       </Container>

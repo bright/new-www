@@ -19,7 +19,7 @@ const Title = styled.h1`
 `
 
 const Content = styled.div`
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
