@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Backend developer "
+title: "Backend Developer "
 hours: full-time
 salary: 14 000-18 000 PLN + VAT (B2B)
 salary_min: 14000
