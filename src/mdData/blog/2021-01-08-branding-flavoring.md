@@ -3,15 +3,15 @@ layout: post
 title: Branding & Flavoring
 date: 2021-01-08T12:12:12.000Z
 author: wojciech
-image: /images/Bitrise Loves Detox.png
+image: /images/branding_and_flavoring.png
 tags:
   - typescript
   - types
   - candies
   - veggies
-hidden: true 
+hidden: false 
 comments: true 
-published: false
+published: true
 ---
 
 ### Introduction

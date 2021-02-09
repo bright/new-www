@@ -3,15 +3,15 @@ layout: post
 title: Request typing
 date: 2021-01-06T12:12:12.000Z
 author: wojciech
-image: /images/Bitrise Loves Detox.png
+image: /images/request_typing.png
 tags:
   - typescript
   - types
   - API
   - frontend
-hidden: true 
+hidden: false 
 comments: true 
-published: false
+published: true
 ---
 
 ### Introduction
