@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Senior Frontend developer "
+title: "Senior Frontend Developer "
 hours: full-time
 salary: 16 000 - 20 000 PLN + VAT (B2B)
 salary_min: 16000
