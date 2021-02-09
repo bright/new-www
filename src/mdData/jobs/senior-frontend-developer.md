@@ -1,12 +1,12 @@
 ---
 layout: job
-title: "Frontend developer "
+title: "Senior Frontend developer "
 hours: full-time
-salary: 12 000 - 16 000 PLN + VAT (B2B)
-salary_min: 12000
-salary_max: 16000
+salary: 16 000 - 20 000 PLN + VAT (B2B)
+salary_min: 16000
+salary_max: 20000
 published: true
-order: 5
+order: 1
 ---
 ## Who We Are
 
@@ -41,18 +41,15 @@ Bright Inventions is a place where innovative individuals and companies can turn
 
 ## What We Are Looking For
 
-* positive attitude 
-* excellent problem solving and analytical thinking skills
 * at least 3-4 years of commercial programming experience
 * very good working knowledge and deep understanding of JavaScript/TypeScript
-* understanding of HTML and CSS
-* experience with development in React
+* solid experience with development in React
 * very good command of Polish & English (both written and spoken)
+* positive attitude as well as excellent problem solving and analytical thinking skills
 
 ## We Would Also Appreciate If You Have
 
 * familiarity with AWS or other Cloud providers
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker
-* familiarity with Agile and Lean methodologies
 
