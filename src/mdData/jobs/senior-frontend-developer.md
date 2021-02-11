@@ -20,7 +20,7 @@ Bright Inventions is a place where innovative individuals and companies can turn
 * working with experienced, ambitious and positive team. There are 50 of us. We're growing in a sustainable way. 
 * dynamic growth and space for self-development. You have an impact on the key project decisions and tech stack. 
 * business contract depending on your needs. Both B2B and Permanent contract (UoP) are possible. 
-* 20-26 paid days off (odpoczynek też jest ważny :) ) 
+* 20-26 paid days off 
 * MultiSport card and private medical package
 * good equipment: MacBook, one or two screens and additional accessories
 * flexible working hours (we come to work between 7.00 and 10.00 a.m.)
@@ -41,7 +41,7 @@ Bright Inventions is a place where innovative individuals and companies can turn
 
 ## What We Are Looking For
 
-* at least 3-4 years of commercial programming experience
+* at least 4-5 years of commercial programming experience
 * very good working knowledge and deep understanding of JavaScript/TypeScript
 * solid experience with development in React
 * very good command of Polish & English (both written and spoken)
