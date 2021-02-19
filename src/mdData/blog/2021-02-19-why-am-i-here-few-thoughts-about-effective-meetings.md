@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why am I here? Afew thoughts about effective meetings
+title: Why am I here? A few thoughts about effective meetings
 date: 2021-02-19T13:27:31.798Z
 image: /images/team_meetings.jpg
 author: kasia g
