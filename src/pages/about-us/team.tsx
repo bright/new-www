@@ -6,7 +6,7 @@ import TeamMembers from "../../components/subcomponents/TeamMembers"
 import { FormComponent } from "../../components/about-us/form-section/form"
 import {TextRegular} from '../../components/shared'
 
-const Caption = styled.p`
+const Caption = styled.div`
   &&& {
     max-width: 960px;
     margin: auto auto 105px;

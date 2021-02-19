@@ -6,9 +6,7 @@ import { routeLinks } from '../../config/routing'
 const TeamMember = styled.article`
   border: 1px solid rgba(0, 0, 0, 0.125);
   color: black;
-  width: 100%;
-  min-width: 364px;
-  max-width: 364px;
+  flex-basis: 25%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -44,6 +42,18 @@ const TeamMember = styled.article`
     margin: 0;
     img {
       width: 100%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    && {
+      flex-basis: 42%;
+    }
+  }
+
+  @media (max-width: 601px) {
+    && {
+      flex-basis: 80%;
     }
   }
 `
@@ -84,7 +94,7 @@ const TeamMembers = () => {
       {nodes.map(v => {
         const member = v.frontmatter
         return (
-          <TeamMember>
+          <TeamMember key={member.author_id}>
             <Link to={`${routeLinks.aboutUs}/${member.author_id}`}>
               <figure>
                 <img src={member.avatar} alt={member.name} />
