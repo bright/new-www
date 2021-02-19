@@ -1,9 +1,9 @@
 ---
 layout: member
-author_id: kasia
-slug: kasia
+author_id: kasia g
+slug: kasia g
 name: Katarzyna Gałka
-short_name: Kasia
+short_name: Katarzyna
 email: katarzyna.galka@brightinventions.pl
 bio: Project Manager @ Bright Inventions
 avatar: /images/members/katarzyna_galka.jpg
