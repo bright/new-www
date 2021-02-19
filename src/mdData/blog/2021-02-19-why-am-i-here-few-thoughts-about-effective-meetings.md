@@ -2,7 +2,7 @@
 layout: post
 title: Why am I here? - few thoughts about effective meetings
 date: 2021-02-19T13:27:31.798Z
-image: /static/images/team_meetings.jpg
+image: /images/team_meetings.jpg
 author: kasia g
 tags:
   - project management
