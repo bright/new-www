@@ -1,4 +1,4 @@
-import {graphql} from 'gatsby'
+import { graphql } from "gatsby"
 import React from 'react'
 import styled from "styled-components"
 
@@ -7,6 +7,7 @@ import BackButton from '../components/subcomponents/BackButton'
 import DateFormatter from '../components/subcomponents/Date'
 import DisqusComments from '../components/subcomponents/DisqusComments'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
+import {AuthorData} from './post/AuthorData'
 import {getFileNameOnly} from '../helpers/pathHelpers'
 import { routeLinks } from "../config/routing"
 
@@ -144,40 +145,6 @@ export default function Template(props: {
             </Container>
     </Page>
   )
-}
-
-interface AuthorDataProps {
-    author_id?: string
-    avatar?: string
-    name?: string
-    bio?: string
-}
-const AuthorData: React.FC<AuthorDataProps> = ({author_id, avatar, name, bio}) => {
-    const LinkComponent = author_id ? 'a' : 'span'
-
-    return (
-        <LinkComponent {...(author_id ? {...{href: `${routeLinks.aboutUs}/author_id`}} : {})}>
-            <article className="media">
-                {avatar && (
-                    <figure className="media-left">
-                        <p className="image is-64x64">
-                            <img
-                                src={avatar}
-                                alt={name + ' bio photo'}
-                                className="is-rounded"
-                            />
-                        </p>
-                    </figure>
-                )}
-                <div className="media-content">
-                    <div className="content">
-                        <h4 className="title has-text-dark">{name}</h4>
-                        <p className="subtitle is-6">{bio}</p>
-                    </div>
-                </div>
-            </article>
-        </LinkComponent>
-    )
 }
 
 export const pageQuery = graphql`
