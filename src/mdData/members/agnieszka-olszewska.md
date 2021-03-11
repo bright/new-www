@@ -5,7 +5,7 @@ title: Meet Agnieszka
 name: Agnieszka Olszewska
 short_name: Agnieszka
 email: agnieszka.olszewska@brightinventions.pl
-bio: Software Engineer @ Bright Inventions
+bio: Fullstack Developer
 avatar: /images/members/agnieszka_olszewska.jpg
 layout: member
 description: O naszej Agnieszce
