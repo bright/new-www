@@ -7,7 +7,7 @@ short_name: Ivan
 email: ivan.menshykov@brightinventions.pl
 bio: Fullstack developer 
 github: janczer
-avatar: /images/members/ivan.png
+avatar: /images/members/ivan.jpg
 description: JavaScript enthusiast
 redirect_from: ["/ivan", "/ivan/"]
 layout: member
