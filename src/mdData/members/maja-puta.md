@@ -5,7 +5,7 @@ slug: maja
 name: Maja Puta
 short_name: Maja
 email: maja.puta@brightinventions.pl
-bio: 'Junior Account Manager at Bright Inventions '
+bio: Junior QA Specialist
 description: 'sales, marketing, social media, startups '
 avatar: /images/members/maja_puta.jpg
 ---
