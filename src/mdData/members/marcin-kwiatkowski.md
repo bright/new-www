@@ -8,6 +8,7 @@ email: marcin.kwiatkowski@brightinventions.pl
 avatar: /images/members/marcin_kwiatkowski.jpg
 description: Full stack developer who can't resist learning new technologies
 redirect_from: ["/marcin", "/marcin/"]
+ex: true
 layout: member
 ---
 
