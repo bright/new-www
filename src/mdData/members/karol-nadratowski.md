@@ -8,6 +8,7 @@ email: karol.nadratowski@brightinventions.pl
 avatar: /images/members/karol_nadratowski.jpg
 description: An ambitious young iOS developer and one of the most ardent Swift lovers
 redirect_from: ["/karol", "/karol/"]
+ex: true
 layout: member
 ---
 
