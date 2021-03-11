@@ -12,6 +12,7 @@ descrption: Our backend developer who drinks yerba all day and solves difficult 
 redirect_from: ["/grzegorz", "/grzegorz/"]
 layout: member
 published: false
+es: true
 hobby: Running enthusiast
 ---
 
