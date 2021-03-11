@@ -82,6 +82,7 @@ const TeamMembers = () => {
             author_id
             name
             short_name
+            slug
             bio
             hobby
           }
@@ -95,7 +96,7 @@ const TeamMembers = () => {
         const member = v.frontmatter
         return (
           <TeamMember key={member.author_id}>
-            <Link to={`${routeLinks.aboutUs}/${member.author_id}`}>
+            <Link to={`${routeLinks.aboutUs}/${member.slug || member.author_id}`}>
               <figure>
                 <img src={member.avatar} alt={member.name} />
               </figure>
