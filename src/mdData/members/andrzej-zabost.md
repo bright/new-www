@@ -5,7 +5,7 @@ title: Meet Andrzej
 name: Andrzej Zabost
 short_name: Andrzej
 email: andrzej.zabost@brightinventions.pl
-bio: Android Developer @ Bright Inventions
+bio: Senior Android developer
 avatar: /images/members/andrzej_zabost.jpg
 web: https://azabost.com
 github: azabost
