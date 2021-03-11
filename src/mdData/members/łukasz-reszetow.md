@@ -7,6 +7,6 @@ short_name: Łukasz
 email: lukasz.reszetow@brightinventions.pl
 bio: Android developer @ Bright Inventions
 description: Android programmer
-avatar: /images/members/lukasz.jpg
+avatar: /images/members/lukasz_reszetow.jpg
 ---
 Always open for new ideas and constructive criticism. That is Łukasz - our Android developer. A great Kotlin fan and a running enthusiast. 🏃🏻
