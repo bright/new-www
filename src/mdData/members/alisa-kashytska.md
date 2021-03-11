@@ -5,6 +5,7 @@ title: Meet Alisa
 name: Alisa Kashytska
 short_name: Alisa
 email: alisa.kashytska@brightinventions.pl
+bio: Product Designer
 avatar: /images/members/alisa_kashytska.jpg
 description: Our UX designer will make your app easy to understand and usable
 redirect_from: ["/alisa", "/alisa/"]
