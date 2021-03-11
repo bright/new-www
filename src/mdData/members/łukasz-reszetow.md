@@ -1,7 +1,6 @@
 ---
 layout: member
 author_id: lukasz
-ex: false
 slug: lukasz
 name: Łukasz Reszetow
 short_name: Łukasz

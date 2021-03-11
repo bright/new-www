@@ -1,7 +1,6 @@
 ---
 layout: member
 author_id: wojciech
-ex: false
 slug: wojciech
 name: Wojciech Baczyński
 short_name: Wojciech

@@ -1,7 +1,6 @@
 ---
 layout: member
 author_id: fjablonski
-ex: false
 slug: filip
 name: Filip Jabłoński
 short_name: Filip

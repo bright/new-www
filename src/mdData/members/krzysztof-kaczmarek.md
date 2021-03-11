@@ -1,7 +1,6 @@
 ---
 layout: member
 author_id: krzysiek
-ex: false
 slug: krzysiek
 name: Krzysztof Kaczmarek
 short_name: Krzysiek

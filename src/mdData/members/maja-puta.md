@@ -1,7 +1,6 @@
 ---
 layout: member
 author_id: maja
-ex: false
 slug: maja
 name: Maja Puta
 short_name: Maja

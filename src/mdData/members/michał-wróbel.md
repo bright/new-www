@@ -1,7 +1,6 @@
 ---
 layout: member
 author_id: michał
-ex: false
 slug: michał
 name: Michał Wróbel
 short_name: 'Michał '
