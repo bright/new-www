@@ -3,9 +3,9 @@ author_id: szymek
 slug: szymek
 title: Meet Szymon
 name: Szymon Miloch
-short_name: Szymon
+short_name: Szymek
 email: szymon.miloch@brightinventions.pl
-bio: Software Developer @ Bright Inventions
+bio: Android & Web developer 
 avatar: /images/members/szymon_miloch.jpg
 github: milszym
 descrption: Android magician with a skillset from web tehcnologies
