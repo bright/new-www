@@ -5,7 +5,7 @@ slug: lukasz
 name: Łukasz Reszetow
 short_name: Łukasz
 email: lukasz.reszetow@brightinventions.pl
-bio: Android developer @ Bright Inventions
+bio: Android developer
 description: Android programmer
 avatar: /images/members/lukasz_reszetow.jpg
 ---
