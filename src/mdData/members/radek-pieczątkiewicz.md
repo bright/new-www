@@ -5,7 +5,7 @@ title: Meet Radek
 name: Radek Pieczątkiewicz
 short_name: Radek
 email: radek.pieczatkiewicz@brightinventions.pl
-bio: Software Engineer @ Bright Inventions
+bio: Android developer 
 avatar: /images/members/radek_pieczątkiewicz.jpg
 description: Specialising in Kotlin on Android
 redirect_from: ["/radek-p", "/radek-p/"]
