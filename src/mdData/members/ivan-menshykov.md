@@ -5,7 +5,7 @@ title: Meet Ivan
 name: Ivan Menshykov
 short_name: Ivan
 email: ivan.menshykov@brightinventions.pl
-bio: Software Developer @ Bright Inventions
+bio: Fullstack developer 
 github: janczer
 avatar: /images/members/ivan.png
 description: JavaScript enthusiast
@@ -13,4 +13,4 @@ redirect_from: ["/ivan", "/ivan/"]
 layout: member
 ---
 
-Linux fan and open source freak. At Bright Inventions responsible for backend projects. Interested in drawing pixel art and DYI stuff. Lives in Poland since February 2015. After relocating from Ukraine he decided to settle in lovely Tricity.
+Open source fan and zero-waste true believer. At Bright Inventions responsible for full stack projects. He has a many hobbies like drawing, woodworking, DIY things and gardening. 
