@@ -12,6 +12,7 @@ twitter: aresss97
 description: Android developer passionate about deep learning. Recently fascinated by
   Spring Boot.
 redirect_from: ["/radek-s", "/radek-s/"]
+ex: true
 layout: member
 ---
 
