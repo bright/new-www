@@ -212,5 +212,13 @@
     "bio": "Blockchain Developer @ Bright Inventions",
     "avatar": "https://brightinventions.pl/images/tomek.jpeg",
     "github": "tgesior"
+  },
+  {
+    "id": "patryksz",
+    "name": "Patryk Szlagowski",
+    "email": "patryk.szlagowski@brightinventions.pl",
+    "bio": "Backend Developer @ Bright Inventions",
+    "avatar": "https://brightinventions.pl/images/patryk_szlagowski.jpg",
+    "github": "patryksz"
   }
 ]
