@@ -3,7 +3,7 @@ layout: member
 author_id: kasia g
 slug: kasia g
 name: Katarzyna Gałka
-short_name: Katarzyna
+short_name: Kasia
 email: katarzyna.galka@brightinventions.pl
 bio: Project manager 
 avatar: /images/members/katarzyna_galka.jpg
