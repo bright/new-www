@@ -1,13 +1,22 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from 'react'
+import { graphql } from 'gatsby'
+import styled from 'styled-components'
 
-import { Page } from "../layout/Page"
-import BackButton from "../components/subcomponents/BackButton"
-import { routeLinks } from "../config/routing"
+import { Page } from '../layout/Page'
+import BackButton from '../components/subcomponents/BackButton'
+import { routeLinks } from '../config/routing'
+import { HideDesktop, HideTablet } from '../components/shared'
+
+export const ImageMobile = styled.img`
+  display: block !important;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 256px;
+`
 
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
-}: any) {
+                                   data // this prop will be injected by the GraphQL query below.
+                                 }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
@@ -15,19 +24,30 @@ export default function Template({
       <div className="container">
         <article className="section">
           <div className="level">
-            <figure className="level-left image is-256x256">
-              <img
-                className="is-rounded"
-                src={frontmatter.avatar}
-                alt={frontmatter.name}
-              />
-            </figure>
+            <HideTablet>
+              <figure className="level-left image is-256x256">
+                <img
+                  className="is-rounded"
+                  src={frontmatter.avatar}
+                  alt={frontmatter.name}
+                />
+              </figure>
+            </HideTablet>
+            <HideDesktop>
+              <figure className="level-left">
+                <ImageMobile
+                  className="is-rounded"
+                  src={frontmatter.avatar}
+                  alt={frontmatter.name}
+                />
+              </figure>
+            </HideDesktop>
             <div className="section">
               <h1 className="title">{frontmatter.short_name}</h1>
               <p dangerouslySetInnerHTML={{ __html: html }}></p>
             </div>
           </div>
-          <BackButton url={`${routeLinks.aboutUs}/team`} label="About us" />
+          <BackButton url={`${routeLinks.aboutUs}/team`} label="About us"/>
         </article>
       </div>
       {/* 
