@@ -15,7 +15,8 @@ export const HideDesktop = styled.div({
 
 export const Section = styled.section`
   padding: 6rem 2rem;
-  color: ${variables.color.text} @media (${variables.device.mobile}) {
+  color: ${variables.color.text};
+  @media ${variables.device.mobile} {
     padding: 2rem 0.5rem 1rem;
   }
 `

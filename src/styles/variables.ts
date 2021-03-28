@@ -18,7 +18,7 @@ export default {
   },
 
   device: {
-    mobile: `max-width: ${deviceSize.tablet} - 1px`,
+    mobile: `screen and (max-width: ${deviceSize.tablet -1}px)`,
     desktop: `min-width: ${deviceSize.tablet}`,
   },
 

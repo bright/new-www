@@ -70,7 +70,7 @@ export const WorkshopContainer = styled.div`
   .container {
     font-weight: bolder;
     font-size: 2.5rem;
-    font-family: "SuisseIntl Black";
+    font-family: "SuisseIntl Black", sans-serif;
     max-width: 960px;
     display: grid;
     gap: 55px 0;
@@ -99,12 +99,12 @@ export const FormContainer = styled.div`
 
 export const Tabs = styled.ul`
   margin: 2rem auto;
-  display: grid;
+  display: flex;
   justify-content: start;
   justify-items: start;
   grid-auto-flow: column;
   max-width: 960px;
-  gap: 5.6875rem;
+  gap: 10%;
   
   a {
     font-family: ${variables.font.title.family};
