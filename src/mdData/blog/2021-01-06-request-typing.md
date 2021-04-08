@@ -2,22 +2,20 @@
 layout: post
 title: Request typing
 date: 2021-01-06T12:12:12.000Z
-author: wojciech
 image: /images/request_typing.png
+author: wojciech
 tags:
   - typescript
   - types
   - API
   - frontend
-hidden: false 
-comments: true 
+hidden: false
+comments: true
 published: true
 ---
-
 ### Introduction
 
-As a developers we often perform POST and PATCH requests to API from our frontend apps. When we use
-TypeScript, this code should be typed safely. There are multiple ways to do so. Let's analyze one of them!
+As developers we often perform POST and PATCH requests to API from our frontend apps. When we use TypeScript, this code should be typed safely. There are multiple ways to do so. Let's analyze one of them!
 
 ### Prerequisite
 
