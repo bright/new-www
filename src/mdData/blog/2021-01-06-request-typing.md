@@ -29,7 +29,7 @@ type PlayerType = {
   position: [number, number]
 }
 
-// Alternatively we can use interface:
+// We can also use interface:
 interface PlayerInterface {
   hp: number
   name: string
