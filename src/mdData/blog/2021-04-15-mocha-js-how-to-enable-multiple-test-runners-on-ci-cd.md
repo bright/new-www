@@ -14,9 +14,9 @@ tags:
   - mocha
   - ci
   - cd
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 ---
 One of our projects is running automated tests on CI/CD AzurePipelines. 
 
