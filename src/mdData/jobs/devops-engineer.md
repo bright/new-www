@@ -2,9 +2,9 @@
 layout: job
 title: "DevOps Engineer "
 hours: Full-time
-salary: "10 000 - 14 000 PLN + VAT (B2B) "
-salary_min: 10000
-salary_max: 14000
+salary: "12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)"
+salary_min: 12000
+salary_max: 15000
 published: true
 order: 4
 ---
