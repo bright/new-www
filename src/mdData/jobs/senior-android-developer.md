@@ -2,9 +2,9 @@
 layout: job
 title: Senior Android Developer
 hours: full-time
-salary: "14 000 - 18 000 PLN + VAT (B2B) "
-salary_min: 14000
-salary_max: 18000
+salary: "16 000 - 20 000 PLN + VAT (B2B) or 13 300 - 16 600 PLN gross (UoP)"
+salary_min: 16000
+salary_max: 20000
 redirect_from:
   - /android-developer
   - /android-developer/
