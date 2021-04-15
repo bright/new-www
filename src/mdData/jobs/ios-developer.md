@@ -2,9 +2,9 @@
 layout: job
 title: iOS Developer
 hours: full-time
-salary: 13 000 - 17 000 PLN + VAT (B2B)
-salary_min: 13000
-salary_max: 17000
+salary: 12 000 - 14 000 PLN + VAT (B2B) or 10 000 - 11 700 PLN gross (UoP)
+salary_min: 12000
+salary_max: 14000
 redirect_from:
   - /ios-developer
   - /ios-developer/
@@ -22,21 +22,6 @@ Sounds exciting? Apply. Working with us apart from technically challenging proje
 * share knowledge with the rest of a team
 * improve internal iOS development processes
 
-## What We Offer
-
-* having an impact on the key project decisions and tech stack 
-* attractive salary (13-17k PLN monthly) together with 20-26 paid days off
-* flexible working hours (we start work between 7.00 and 10.00 a.m.)  
-* business contract depending on your needs; Permanent Contract (UoP) is also possible 
-* MacBook and additional accessories to your computer 
-* totally free MultiSport card and private healthcare package
-* an office library - instead of buying professional books we buy them for you :) 
-* an opportunity to develop personal brand on our blog. You have 2 hours each week for creating blog posts.  (https://brightinventions.pl/blog/)  
-* Bright Day once a month during which you can do non-project stuff 
-* mentoring programme that helps you develop your skills and extend knowledge 
-* quarter teambuilding events and sport classes with a professional coach 
-* bright rituals such as birthday cakes, bright kudos or bright donuts   
-
 ## What We Are Looking For
 
 * passion for programming and self-improvement
@@ -49,10 +34,24 @@ Sounds exciting? Apply. Working with us apart from technically challenging proje
 * the ability to work independently as well as in a team
 * communicative level of Polish & English (both written and spoken)
 
-
 ## We Would Also Appreciate If You Are Familiar With
 
 * Objective-C
 * Agile methodologies
+
+## What We Offer
+
+* having an impact on the key project decisions and tech stack 
+* attractive salary together with 20-26 paid days off both on B2B and UoP 
+* flexible working hours (we start work between 7.00 and 10.00 a.m.)  
+* business contract depending on your needs 
+* MacBook and additional accessories to your computer 
+* totally free MultiSport card and private healthcare package
+* an office library - instead of buying professional books we buy them for you :) 
+* an opportunity to develop personal brand on our blog. You have 2 hours each week for creating blog posts.  (https://brightinventions.pl/blog/)  
+* Bright Day once a month during which you can do non-project stuff 
+* mentoring programme that helps you develop your skills and extend knowledge 
+* quarter teambuilding events and sport classes with a professional coach 
+* bright rituals such as birthday cakes, bright kudos or bright donuts   
 
 In case you have some questions - contact ula@brightinventions.pl
