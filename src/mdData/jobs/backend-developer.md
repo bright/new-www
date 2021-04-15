@@ -1,10 +1,10 @@
 ---
 layout: job
-title: "Backend Developer "
+title: "Senior Backend Developer "
 hours: full-time
-salary: 14 000-18 000 PLN + VAT (B2B)
-salary_min: 14000
-salary_max: 18000
+salary: 16 000-22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
+salary_min: 16000
+salary_max: 22000
 published: true
 order: 1
 ---
@@ -22,21 +22,6 @@ Sounds exciting? We hope it does. 🙂 Remember that apart from technically chal
 * share knowledge with the rest of the team
 * improve internal web development processes
 
-## What We Offer
-
-* opportunity to work on the international ePOS project in cooperation with one of the world’s top food ordering companies
-* flat structure and a real impact on the company growth 
-* working with experienced, ambitious and positive team
-* space for self-development and time every week to write blog posts 🙂
-* business contract depending on your needs (you decide whether it is B2B or UoP)
-* office library - instead of buying professional books we buy them for you 
-* MultiSport card and private medical package fully covered by the company 
-* good equipment: MacBook, one or two screens and additional accessories
-* flexible working hours (you can come to work between 7.00 and 10.00 a.m.)
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby 
-* Bright Day once a month during which you can do non-project stuff
-* team retreats once a quarter and regular sport classes 
-* bright rituals such as birthday cakes, bright kudos, brights donuts and other occasional surprises 
 
 ## What We Are Looking For
 
@@ -53,5 +38,21 @@ Sounds exciting? We hope it does. 🙂 Remember that apart from technically chal
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker
 * familiarity with Agile and Lean methodologies
+
+## What We Offer
+
+* opportunity to work on the international ePOS project in cooperation with one of the world’s top food ordering companies
+* flat structure and a real impact on the company growth 
+* working with experienced, ambitious and positive team
+* space for self-development and time every week to write blog posts 🙂
+* business contract depending on your needs. B2B includes 20-26 paid days off. 
+* office library - instead of buying professional books we buy them for you 
+* MultiSport card and private medical package fully covered by the company 
+* good equipment: MacBook, one or two screens and additional accessories
+* flexible working hours (you can come to work between 7.00 and 10.00 a.m.)
+* good localisation: Gdańsk Wrzeszcz with a parking space nearby 
+* Bright Day once a month during which you can do non-project stuff
+* team retreats once a quarter and regular sport classes 
+* bright rituals such as birthday cakes, bright kudos, brights donuts and other occasional surprises 
 
 In case you have some questions - drop a line to ula@bright.dev
