@@ -46,14 +46,23 @@ const JobsOpenTop: React.FC<{ pathOrigin?: string }> = ({
       {jobs.map(edge => {
         const { frontmatter: job, fileAbsolutePath } = edge
         return (
-          <div className='level-item' style={{ padding: '0 1em' }}>
+          <div
+            className='level-item'
+            style={{ padding: '0 1em' }}
+            key={job.title}
+          >
             <div>
               <a href={`${pathOrigin}/jobs${getJobPath(fileAbsolutePath)}`}>
                 <h3 className='has-text-white has-text-weight-bold'>
                   {job.title}
                 </h3>
                 <div className='has-text-grey'>{job.hours}</div>
-                <div className='has-text-primary'>{job.salary}</div>
+                <div
+                  className='has-text-primary'
+                  style={{ wordBreak: 'break-all', maxWidth: '280px' }}
+                >
+                  {job.salary}
+                </div>
               </a>
               <a href='/apply-for-job' className='button is-primary'>
                 Apply

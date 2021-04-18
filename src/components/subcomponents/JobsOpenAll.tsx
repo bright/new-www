@@ -1,6 +1,6 @@
-import { graphql, useStaticQuery } from "gatsby"
-import React from "react"
-import { getJobPath } from "../../helpers/pathHelpers"
+import { graphql, useStaticQuery } from 'gatsby'
+import React from 'react'
+import { getJobPath } from '../../helpers/pathHelpers'
 
 interface Job {
   title: string
@@ -9,7 +9,9 @@ interface Job {
   url: string
 }
 
-const JobsOpenAll: React.FC<{pathOrigin?: string}> = ({pathOrigin = ''}) => {
+const JobsOpenAll: React.FC<{ pathOrigin?: string }> = ({
+  pathOrigin = '',
+}) => {
   const {
     allMarkdownRemark: { edges },
   } = useStaticQuery(graphql`
@@ -35,22 +37,22 @@ const JobsOpenAll: React.FC<{pathOrigin?: string}> = ({pathOrigin = ''}) => {
   const jobs = edges.map(v => v.node)
 
   return (
-    <div className="open-positions ">
+    <div className='open-positions'>
       {jobs.map(edge => {
         const { frontmatter: job, fileAbsolutePath } = edge
         return (
-          <p className="open-position">
+          <div className='open-position' key={job.title}>
             <a
               href={`${pathOrigin}/jobs${getJobPath(fileAbsolutePath)}`}
-              className="has-text-dark"
+              className='has-text-dark'
             >
-              <div className="has-text-dark has-text-weight-bold is-size-3">
+              <div className='has-text-dark has-text-weight-bold is-size-3'>
                 {job.title}
               </div>
-              <div className="has-text-grey">{job.hours}</div>
-              <div className="has-text-primary">{job.salary}</div>
+              <div className='has-text-grey'>{job.hours}</div>
+              <div className='has-text-primary'>{job.salary}</div>
             </a>
-          </p>
+          </div>
         )
       })}
     </div>
