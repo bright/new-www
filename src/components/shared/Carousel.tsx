@@ -15,6 +15,10 @@ const CarouselWrapper = styled(Section)`
   flex-direction: row;
   justify-content: center;
 
+  @media (max-width: 767px) {
+    padding: 1rem 0rem;
+  }
+
   .carousel {
     display: flex;
     flex-direction: row;
@@ -40,18 +44,36 @@ const CarouselWrapper = styled(Section)`
     @media (max-width: 950px) {
       width: 600px;
     }
+
+    @media (max-width: 767px) {
+      width: 250px;
+    }
   }
 `
 
-const SliderButton = styled.div({
-  cursor: 'pointer',
-  zIndex: 2,
-})
+const SliderButton = styled.div`
+  cursor: pointer;
+  z-index: 2;
+
+  @media (max-width: 767px) {
+    svg {
+      width: 10px;
+    }
+  }
+`
+
+const PreviousSliderButton = styled(SliderButton)`
+  margin-right: 4em;
+
+  @media (max-width: 767px) {
+    margin-right: 1em;
+  }
+`
 
 const PreviousArrow = (onClickHandler: () => void) => (
-  <SliderButton style={{ marginRight: '4em' }}>
+  <PreviousSliderButton>
     <BackArrowImage onClick={onClickHandler} />
-  </SliderButton>
+  </PreviousSliderButton>
 )
 
 const NextArrow = (onClickHandler: () => void) => (

@@ -2,7 +2,7 @@ import React from 'react'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import Ratings from '../components/shared/Ratings'
 import Banners from '../components/whatWeDo/banners/Banners'
-import {Contact} from '../components/shared/Contact'
+import { Contact } from '../components/shared/Contact'
 import HowWeWork from '../components/whatWeDo/howWeWork/HowWeWork'
 import OurDevelopmentAreas from '../components/whatWeDo/ourDevelopmentAreas/OurDevelopmentAreas'
 import { HideTablet, PageDescription, Section } from '../components/shared'
@@ -14,8 +14,8 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
     <Page>
       <HelmetWrapper
-        title="Mobile and Web Development Services"
-        description="About our software development services"
+        title='Mobile and Web Development Services'
+        description='About our software development services'
       />
       <HideTablet>
         <Section>
@@ -29,17 +29,15 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
         </Section>
       </HideTablet>
 
-      <OurDevelopmentAreas/>
-      <Banners/>
-      <HowWeWork/>
+      <OurDevelopmentAreas />
+      <Banners />
+      <HowWeWork />
 
-      <HideTablet>
-        <TechnologyTags/>
-        <Carousel/>
-        <Ratings/>
-      </HideTablet>
+      <TechnologyTags />
+      <Carousel />
+      <Ratings />
 
-      <Contact/>
+      <Contact />
     </Page>
   )
 }
