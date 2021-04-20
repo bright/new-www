@@ -1,7 +1,7 @@
 ---
 layout: project
 title: POSPulse & ShopScout
-image: /static/images/pos_mockup.png
+image: /images/pos_mockup.png
 description: A solution that allows FMCG companies and retail chains to verify
   if products are properly displayed on shelves by asking consumers to perform
   paid quality checks while in-store.
@@ -34,7 +34,7 @@ Traditionally, stores needed to engage staff in such quality monitoring checks.
 
 POSPulse relieves them of this burden by engaging consumers who use the ShopScount app. Namely, companies can set specific tasks (such as, for instance, asking clients to take a photo of shampoo at a specific chain store). They can also be asked to fill in a user survey. To confirm that an assignment has been completed properly, the user needs to submit a product photo that includes localization data. For each finalized assignment, the user receives a financial reward.
 
-![app for FMCG](/static/images/pos_mockups.png)
+![app for FMCG](/images/pos_mockups.png)
 
 ## Goal
 
