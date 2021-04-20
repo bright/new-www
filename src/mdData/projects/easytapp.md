@@ -8,7 +8,7 @@ tags:
   - iOS
   - Android
   - mobile
-order: 9
+order: ""
 slug: easytapp
 published: true
 ---
