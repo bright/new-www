@@ -26,7 +26,7 @@ Currently we are looking for a Junior Android Developer to join our team. We wan
 * understanding of Agile methodology 
 * testing experience 
 
-**WHAT YOU WILL DO **
+**WHAT YOU WILL DO**
 
 * create high-quality Android applications 
 * participate in software code reviews
