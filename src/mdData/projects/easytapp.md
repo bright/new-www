@@ -10,7 +10,7 @@ tags:
   - mobile
 order: 9
 slug: easytapp
-published: false
+published: true
 ---
 ## Main features:
 
