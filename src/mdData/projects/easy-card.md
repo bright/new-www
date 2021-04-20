@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Card Reader
-image: /static/images/card_reader_mockup.png
+image: /images/card_reader_mockup.png
 description: An app that allows businesses to charge credit cards without a
   payment terminal.
 tags:
@@ -32,7 +32,7 @@ When we first started our cooperation, the clients already had an up-and-running
 
 The goal was to allow the end-user to attach a separate device to their phone via a mini-jack or lightening/USB-C, that would allow reading the data stored on the card’s magnetic stripe.  This required the right technical approach towards decoding the information stored on the card.
 
-![cashless transactions app](/static/images/card_reader_mockups.png)
+![cashless transactions app](/images/card_reader_mockups.png)
 
 ## Process
 
