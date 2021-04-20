@@ -3,48 +3,51 @@ layout: job
 title: 'Senior Fullstack Developer '
 hours: Full-time
 salary: 16 000- 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
+salary_min: 16000
+salary_max: 22000
+published: true 
 order: 4
-salary_min: ''
 ---
-We are looking for an experienced Senior Fullstack Developer who will be the part of our talented and ambitious backend and web development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies.
+We are a team of talented senior developers who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
 
-The system is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system. 
+**WHAT WE DO**
 
-## Your job will include
+We specialize in mobile and web applications, system integrations and IoT devices. We have also experience with Ethereum and Hyperledger as a Blockchain-based app platform. Since the establishment in 2012 our services have been found superior in Germany, Norway, the Netherlands and Israel.  
 
-* creating high-quality backend and frontend applications 
-* development and maintenance of the system infrastructure 
-* participating in code reviews 
-* direct contact with clients and advising in their decision making process 
-* knowledge sharing with the rest of a team
-* improving internal software development and delivery processes
+We are looking now for a **Full Stack Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical and programming skills. So, if you have:
 
-## What we expect from you
+* problem solving attitude and open mind,
+* positive approach to work, 
+* at least 3-4 years of commercial programming experience,
+* very good knowledge of TypeScript/JavaScript, Node.js and React, 
+* and communicative level of English (written and spoken), 
 
-* at least 4 years of commercial programming experience 
-* very good working knowledge and deep understanding of Java and Spring framework
-* good knowledge and understanding of Kotlin 
-* experience with databases, in particular MySQL 
-* familiarity with AWS or other Cloud providers
-* excellent problem solving and analytical thinking skills 
-* the ability to work independently as well as in a team 
-* communicative level of English (both written and spoken) 
+send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
 
-## Nice to have
 
-* experience with development in Node.js and PostgreSQL
-* familiarity with Docker 
+**HOW WE WORK**
 
-## Benefits and perks
+Our team decide which technologies we use in projects. We pay special attention to selecting the appropriate technology stack that will not only support the client’s solution, but will also give us opportunities to develop and grow.
 
-* working on a big project in one of the best software development companies in Poland 
-* business contract depending on your needs (UoP is also an option)
-* attractive salary (10-16k PLN monthly) together with 20-26 paid days of annual leave  
-* working in a modern software development TEAM 
-* flexible working hours (you can come to work between 7.00 and 10.00 a.m.) 
-* office in the center of Gdańsk Wrzeszcz - we provide you with a parking space 
-* possibility of taking part in IT events and conferences
-* time for blogging each week (https://brightinventions.pl/blog/)  
-* Multisport card 
-* Bright Lunches for you and your colleague sponsored by the company 
-* team retreats once a quarter, birthday cakes and more  :)
+_CORE PROGRAMMING LANGUAGES:_  TypeScript, JavaScript, Kotlin, Swift, Java 
+
+_PLATFORMS:_ iOS, Android, Web, Backend, Blockchain
+
+_METHODOLOGIES:_ Pair Programming, TDD, Continuous integration, Code review
+
+**WHAT WE OFFER**
+
+* great team of professionals 
+* working on the international projects for such organisation as United Nations or Parity 
+* flat structure with no management overhead
+* flexible working hours (we start between 7.00 and 10.00 a.m.)
+* space for self-development and mentoring program 
+* MultiSport card and private medical package 
+* company library - we buy professional boosk for you 
+* good equipment: MacBook, one/two screens and additional accessories
+* Bright Day once a month during which you can do non-project stuff
+* regular sport classes and bord games Fridays 
+* good localisation if you want to work in the office: Gdańsk Wrzeszcz with a parking space nearby 
+* team retreats once a quarter, Birthday cakes and occasional surprises
+
+**HOPE TO SEE YOU SOON ON OUR BRIGHT BOARD! 🙂**
