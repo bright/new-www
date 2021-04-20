@@ -2,9 +2,9 @@
 layout: job
 title: Senior Automation Developer (Mobile&Web)
 hours: full-time
-salary: "14 000 - 18 000 PLN + VAT (B2B) "
-salary_min: 14000
-salary_max: 18000
+salary: "17 000 - 23 000 PLN + VAT (B2B) or 14 200 - 19 100 PLN (UoP)"
+salary_min: 17000
+salary_max: 23000
 published: true
 ---
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
@@ -36,7 +36,8 @@ The project we will need your support at first is Practi - all-in-one operating 
 * flexible working hours (you can come to work between 7.00 and 10.00 a.m.)
 * good localisation: Gdańsk Wrzeszcz with a parking space nearby
 * Bright Day once a month during which you can do non-project stuff
-* team retreats once a quarter and regular sport classes
+* regular sport classes and board games Fridays 
+* team retreats once a quarter 
 * bright rituals such as birthday cakes, bright kudos, brights donuts and other occasional surprises
 
 ## Requirements
@@ -52,3 +53,5 @@ The project we will need your support at first is Practi - all-in-one operating 
 * experience in a frequent release environment and in complex systems that are made up of interconnected products. 
 * analytical mind and problem-solving attitude 
 * excellent communication skills both in Polish and in English 
+
+**HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
