@@ -8,8 +8,8 @@ import React from 'react'
 
 import {Page} from '../layout/Page'
 import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
-import JobsOpenAll from '../components/subcomponents/JobsOpenAll'
-import JobsOpenTop from '../components/subcomponents/JobsOpenTop'
+import JobsOpenAll from './career/JobsOpenAll'
+import JobsOpenTop from './career/JobsOpenTop'
 
 const CareerPage: React.FC = () => {
   return (

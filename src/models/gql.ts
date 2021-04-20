@@ -45,3 +45,10 @@ export interface AuthorModel {
   avatar: string
   author_id: string
 }
+
+export interface JobModel {
+  hours: string
+  salary: string
+  title: string
+  url: string
+}

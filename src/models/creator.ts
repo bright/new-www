@@ -1,4 +1,4 @@
-import { BlogPostModel, ProjectModel, GQLData, AuthorModel } from "./gql"
+import { BlogPostModel, ProjectModel, GQLData, AuthorModel, JobModel } from "./gql"
 
 export const createBlogPosts = (data: GQLData): BlogPostModel[] => (
   (data.allMarkdownRemark.edges || []).map(({ node }) => ({
@@ -19,4 +19,9 @@ export const createProjects = (data: GQLData): ProjectModel[] => (
 export const createAuthors = (data: GQLData): AuthorModel[] => (
   (data.allMarkdownRemark.nodes || [])
     .map(({ frontmatter }: { frontmatter: AuthorModel }) => frontmatter)
+)
+
+export const createJobs = (data: GQLData): JobModel[] => (
+  (data.allMarkdownRemark.edges || [])
+    .map(({ node: { frontmatter, fileAbsolutePath } }: { node: { frontmatter: JobModel, fileAbsolutePath: string } }) => ({...frontmatter, url: fileAbsolutePath}))
 )
