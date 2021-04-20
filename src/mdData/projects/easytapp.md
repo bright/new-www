@@ -1,7 +1,7 @@
 ---
 layout: project
 title: EasyTapp
-image: /static/images/easytap_1_mockup1.png
+image: /images/easytap_1_mockup1.png
 description: An app that allowed users to receive real estate and car sales’
   offers based on their real-time location (through iBeacon technology).
 tags:
@@ -12,28 +12,28 @@ order: 9
 slug: easytapp
 published: true
 ---
-## Main features:
+## Main features
 
 * Browsing through residential and car listings (with photos)
 * Defining search parameters for items and locations
 * Adding real estate and automotive listings to users’ ‘Favourites’ lists
 
-## Skills:
+## Skills
 
 * Objective-c,
 * iBeacon technology
 
-## Intro:
+## Intro
 
 EasyTapp was an iOS and Android app that allowed users to browse through real estate and automotive listings. The app triggered push notifications on users’ phones in real time, as they were passing by a residential property or car that were up for sale.
 
-## Goal:
+## Goal
 
 When Bright Inventions first started working on the project, the company already had an operational backend and ready-to-implement designs for the user interface. They now needed a reliable mobile development partner to bring their iOS and Android apps to life. 
 
 Firstly, the goal was to allow users to browse through, filter, and save car and real estate listings to their ‘Favourites’ lists. Secondly, EasyTapp founders wanted to help sellers bring attention to their offers by leveraging user location data. Namely, they wanted the app to trigger push notifications on users’ screens, informing them that they were in the vicinity of a car or real estate that were up for sale on the EasyTapp platform.
 
-![easytapp mobile app development](/static/images/easytap_quartet1_copy.png)
+![easytapp mobile app development](/images/easytap_quartet1_copy.png)
 
 ## Process:
 
