@@ -1,11 +1,15 @@
 ---
-title: EasyTapp
-description: EasyTapp is an iOS & Android application available in the Dutch market which thanks to iBeacon technology informs users about local offers (houses, cars, etc.) when they pass by. The applications is optimized for low battery usage while working in the background. We were responsible for creating both application versions - iOS and Android
-image: /images/easytapp-main.png
 layout: project
+title: EasyTapp
+image: /images/easytapp-main.png
+description: An app that allowed users to receive real estate and car sales’
+  offers based on their real-time location (through iBeacon technology).
+tags:
+  - iOS
+  - Android
+  - mobile
 slug: easytapp
 published: false
-tags: []
 ---
 
 ## Main features:
