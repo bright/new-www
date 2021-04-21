@@ -15,14 +15,13 @@ order: 1
 slug: solution-for-parkinsons-patients
 published: true
 ---
-
 ### Main features:
 
-- Tracking physical response to standard and experimental therapy
-- Medication reminder
-- Accessibility – an easy way of adding medical information by patients with movement disorders
-- Advances statistics and reports for physicians
-- Gamification of the app
+* Tracking physical response to standard and experimental therapy
+* Medication reminder
+* Accessibility – an easy way of adding medical information by patients with movement disorders
+* Advances statistics and reports for physicians
+* Gamification of the app
 
 ### Skills:
 
@@ -36,7 +35,7 @@ Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
 Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
 
-![](/images/tulipa_k-copy.jpg)
+![App for Parkinson's Patients](/images/tulipa_k-copy.jpg)
 
 ### Goal
 
@@ -46,13 +45,13 @@ Before reaching out to us, our clients had already designed a high-fidelity wire
 
 And so, Bright Inventions was entrusted with the implementation of the entire system – the development of two apps (iOS and Android), as well as the entire backend.
 
-![](/images/tulipa_mockup1.2.2-copy.jpg)
+![App for Parkinson's Patients](/images/tulipa_mockup1.2.2-copy.jpg)
 
 ### Process
 
 There were several challenges that we needed to address. Firstly, the app had to be inclusive of patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the interface needed to be legible, highly-intuitive, and minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
 
-![](/images/tulipa_mockup-2.8.1-copy.jpg)
+![App for Parkinson's Patients](/images/tulipa_mockup-2.8.1-copy.jpg)
 
 During software development, our team noticed many features in the GUI which were too complex for such a user group. We then proposed a simpler solution for each, which was met with a positive response and was given a green light by the client.
 
@@ -68,4 +67,4 @@ Altogether, our on the project work lasted for 5 months and was divided into two
 
 Upon the decision of the party that owned the app (so, our client’s client), the project was put on hold. At the moment, the next steps aren’t known, and the app isn’t available for download publicly.
 
-![](/images/tulipa-_mockup1-4.2-copy.jpg)
+![App for Parkinson's Patients](/images/tulipa-_mockup1-4.2-copy.jpg)
