@@ -14,14 +14,13 @@ order: 3
 slug: mobile-therapy-application
 published: true
 ---
-
 ## Main features:
 
 * Therapist module (user panel)
 * Patient module (user panel)
 * Data tracking system
 * Custom animations
-*  Background connection between patient's and therapist's devices
+* Background connection between patient's and therapist's devices
 
 ## Skills:
 
@@ -38,7 +37,7 @@ published: true
 At some point in our lives, either we ourselves or our loved ones will require physiotherapy to get back on our feet. However, there are many factors that influence whether this will be a stress-free and effective process.\
 With this in mind, our client created an app that supports therapists and patients on their way to a fast (and lasting!) recovery.
 
-![](/images/therapio_scren-3_700 copy.jpg)
+![Mobile Therapy App](/images/therapio_scren-3_700 copy.jpg)
 
 ## Goal
 
@@ -61,7 +60,7 @@ Our client also had a high-fidelity wireframe of the app, and entrusted us with 
 
 \- An admin panel for therapists.
 
-![](/images/therapio1_4web.png)
+![Mobile Therapy App](/images/therapio1_4web.png)
 
 ## Process
 
