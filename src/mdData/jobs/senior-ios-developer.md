@@ -16,7 +16,7 @@ We specialize in mobile and web applications, system integrations and IoT device
 
 We are looking for an experienced **Senior iOS Developer** who understands Swift & iOS SDK really well and who would like to develop and enhance innovative iOS ePOS application for one of our main clients. The application is an intelligent point-of-sale widely used in the chain of restaurants and supermarkets in Israel and since 2016 successfully entering European market. To find out more about the project itself take a look HERE. 
 
-**WHAT YOU WILL DO **
+**WHAT YOU WILL DO**
 
 * enhance a high-quality iOS ePOs application from the retail sector
 * participate in software code reviews
@@ -25,7 +25,7 @@ We are looking for an experienced **Senior iOS Developer** who understands Swift
 * share your knowledge with the rest of a team
 * improve internal iOS development processes
 
-**WHAT WE ARE LOOKING FOR **
+**WHAT WE ARE LOOKING FOR**
 
 * at least 4-5 years of commercial programming experience 
 * very good knowledge and deep understanding of Swift, iOS SDK, CocoaTouch
@@ -42,7 +42,7 @@ We are looking for an experienced **Senior iOS Developer** who understands Swift
 * experience with DataDog, Carthage, CocoaPods and PureLayout
 * good knowledge of Objective-C 
 
-**WHAT YOU WILL FIND IF YOU DECIDE TO JOIN US **
+**WHAT YOU WILL FIND IF YOU DECIDE TO JOIN US**
 
 * flat structure & continuous feedback culture 
 * dynamic growth and mentoring programme 
