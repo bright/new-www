@@ -10,4 +10,4 @@ bio: Digital Marketing Specialist
 description: Digital Marketing Specialist
 published: true
 ---
-Easy-going and eager to learn new things. Loves to explain complex issues with simple words. Privately, she loves escape rooms, cooperation board games and Premier League.
+Easy-going and eager to learn new things. Loves to explain complex issues with simple words. Privately, she loves escape rooms, cooperative board games and Premier League.
