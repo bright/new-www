@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Pregnancy App
-image: /static/images/pregnancy_app1.jpg
+image: /images/pregnancy_app1.jpg
 description: Your way to a healthy & relaxed pregnancy and safe birth experience
 tags:
   - iOS
@@ -28,7 +28,7 @@ published: true
 
 Keleya supports mothers-to-be by offering them ways to stay fit and eat healthy during their nine-month journey. The curated content is personalised based on the user interests. Each week brings a new set of exercises, recipes and tips.
 
-![Pregnancy App](/static/images/pregnancy_app2.jpg)
+![Pregnancy App](/images/pregnancy_app2.jpg)
 
 ## Process
 
@@ -43,7 +43,7 @@ As Bright Inventions worked on the technical side of things (backend system, iOS
 A large part of the work was around building a solution that adapts the content to the users. By observing users' interactions with the provided recipes and workouts (i.e. what they marked as favourite, what they cooked, etc.) the system adjusts the material to personalise the experience.\
 Technical challenges lied primarily in ensuring the parity of features across platforms and deep integration with the system calendar. Events had to be automatically added to the calendar, synchronised across user devices and scheduled push notification had to be triggered at the appropriate times.
 
-![Pregnancy App](/static/images/pregnancy_app3.jpg)
+![Pregnancy App](/images/pregnancy_app3.jpg)
 
 ## Launch
 
