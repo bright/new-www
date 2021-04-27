@@ -8,11 +8,12 @@ description: >
   industry events. From a dashboard that lets you easily track progress on
   trade-related tasks, to comprehensive budget management, financial reporting,
   and hotel bookings – xpomaker introduces a whole new fair planning standard!
-published: true
+tags:
+  - frontend
+  - backend
 slug: xpomaker
-tags: [frontend, backend]
+published: true
 ---
-
 ### Main features
 
 * Creation of new fair projects
@@ -35,13 +36,13 @@ For many industries, participating in fairs lies at the heart of business, and i
 
 So, how do you stay on top of all this without worrying about organizational chaos and deadlines? Here’s where xpomaker comes into play.
 
-![](/images/xpomaker-_mockup-3_700.jpg)
+![A trade fair planning software](/images/xpomaker-_mockup-3_700.jpg)
 
 ### Goal
 
 The Founders of xpomaker were looking for an experienced product design team who would translate the general vision for the software into a user-friendly, visually-appealing product. When our paths first crossed, they had already been cooperating with a consulting company that helped determine the necessary UX features and user expectations. While our cooperation initially started off with an interface design project, we were quickly asked to rebrand and redesign the entire app – including taking care of frontend and backend adjustments.
 
-![](/images/xpomaker-_mockup-8_700.jpg)
+![A trade fair planning software](/images/xpomaker-_mockup-8_700.jpg)
 
 ### Process
 
@@ -57,7 +58,7 @@ After our work on the interface design had finished, xpomaker engaged us in a re
 
 After the rebranding phase of our cooperation when the name and the visual identity of the company had changed, our team redesigned the entire app and refine the software accordingly.
 
-![](/images/xpomaker-_mockup-2_700.jpg)
+![A trade fair planning software](/images/xpomaker-_mockup-2_700.jpg)
 
 ### Result
 
