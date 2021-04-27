@@ -50,7 +50,7 @@ export default function Template({
           <BackButton url={`${routeLinks.aboutUs}/team`} label="About us"/>
         </article>
       </div>
-      {/* 
+      {/*
 
 <script type="application/ld+json">
     {% assign same_as = "" | split: ', ' %}
@@ -95,6 +95,7 @@ export const pageQuery = graphql`
         slug
         title
         description
+        name  
       }
     }
   }
