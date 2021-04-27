@@ -12,7 +12,6 @@ order: 2
 slug: everytap
 published: true
 ---
-
 ## Main tech elements
 
 * Highly polished user interface
@@ -51,7 +50,7 @@ Back in 2014, the founders have entrusted us with developing an app that would r
 
 With this idea in mind, the founders have asked for our assistance in verifying the concept against the market and building two native apps for iOS and Android. The app was to leverage users’ geolocalization to show personalized deals at nearby restaurants and allow them to collect loyalty points upon payment.
 
-![](/images/foodapp_trio2.png)
+![Restaurant reservation app](/images/foodapp_trio2.png)
 
 ## Process
 
