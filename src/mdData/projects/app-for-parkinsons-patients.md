@@ -35,7 +35,7 @@ Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
 Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
 
-![App for Parkinson's Patients](/static/images/app_for_parkinson_patients2.png)
+![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
 
 ### Goal
 
@@ -45,13 +45,13 @@ Before reaching out to us, our clients had already designed a high-fidelity wire
 
 And so, Bright Inventions was entrusted with the implementation of the entire system – the development of two apps (iOS and Android), as well as the entire backend.
 
-![App for Parkinson's Patients](/static/images/app_for_parkinson_patients3.png)
+![App for Parkinson's Patients](/images/app_for_parkinson_patients3.png)
 
 ### Process
 
 There were several challenges that we needed to address. Firstly, the app had to be inclusive of patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the interface needed to be legible, highly-intuitive, and minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
 
-![App for Parkinson's Patients](/static/images/app_for_parkinson_patients1.png)
+![App for Parkinson's Patients](/images/app_for_parkinson_patients1.png)
 
 During software development, our team noticed many features in the GUI which were too complex for such a user group. We then proposed a simpler solution for each, which was met with a positive response and was given a green light by the client.
 
@@ -67,4 +67,4 @@ Altogether, our on the project work lasted for 5 months and was divided into two
 
 Upon the decision of the party that owned the app (so, our client’s client), the project was put on hold. At the moment, the next steps aren’t known, and the app isn’t available for download publicly.
 
-![App for Parkinson's Patients](/static/images/app_for_parkinson_patients4.png)
+![App for Parkinson's Patients](/images/app_for_parkinson_patients4.png)
