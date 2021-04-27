@@ -11,7 +11,6 @@ order: 5
 slug: pregnancy-app
 published: true
 ---
-
 ## Main tech elements
 
 * Apple and Android in app purchases
@@ -29,7 +28,7 @@ published: true
 
 Keleya supports mothers-to-be by offering them ways to stay fit and eat healthy during their nine-month journey. The curated content is personalised based on the user interests. Each week brings a new set of exercises, recipes and tips.
 
-![](/images/keleja1 copy.jpg)
+![Pregnancy App](/images/keleja1 copy.jpg)
 
 ## Process
 
@@ -44,7 +43,7 @@ As Bright Inventions worked on the technical side of things (backend system, iOS
 A large part of the work was around building a solution that adapts the content to the users. By observing users' interactions with the provided recipes and workouts (i.e. what they marked as favourite, what they cooked, etc.) the system adjusts the material to personalise the experience.\
 Technical challenges lied primarily in ensuring the parity of features across platforms and deep integration with the system calendar. Events had to be automatically added to the calendar, synchronised across user devices and scheduled push notification had to be triggered at the appropriate times.
 
-![](/images/keleja2 copy.jpg)
+![Pregnancy App](/images/keleja2 copy.jpg)
 
 ## Launch
 
