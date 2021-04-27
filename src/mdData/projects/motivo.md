@@ -13,7 +13,7 @@ order: 4
 slug: motivo
 published: true
 ---
-## Main features: 
+## Main features:
 
 * Wahoo Fitness Integration
 * Apple In app purchases
@@ -31,7 +31,7 @@ published: true
 
 When you’re a cyclist winter months is when your next season performance is decided. Give up to the elements and you’re done. Or... build your own indoor training system with Motivo. The app offers Interactive training plans and workouts for indoor cycling. Motivo makes sure you're getting the best results from a turbo training or spinning with full Wahoo KICKR Erg mode support.
 
-![](/images/motivo-2.png)
+![Cycling Workouts Mobile App](/images/motivo-2.png)
 
 ## Goal
 
@@ -43,7 +43,7 @@ A major challenge during the development phase was to ensure seamless integratio
 
 Bright Inventions was engaged in the ideation process and took full responsibility for the software part.
 
-## Process 
+## Process
 
 A very ambitious timeline called for a highly optimised approach to the development. From the day zero a dedicated small team has been assigned to work on the Wahoo Fitness integration aspects. In parallel, two workshops with the customer representatives (held in Gdansk and London) led to the identification of the features supporting key business needs and the creation of prioritised requirements spec. It was clear from the beginning that some of the lower priority features wouldn’t make it to the first version of the product.
 
@@ -51,7 +51,7 @@ A semi-professional internal Motivo Cycling Team was established and tasked with
 
 A highly iterative approach was taken with regards to user interface. Two most important screens (calendar and workout) were designed in a few different variations and the experiments conducted with the cyclist team helped decide on the one finally picked for the public release.
 
-![](/images/motivo-1.png)
+![Cycling Workouts Mobile App](/images/motivo-1.png)
 
 ## Launch
 
