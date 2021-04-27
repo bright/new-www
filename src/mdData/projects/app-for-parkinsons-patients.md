@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Solution for Parkinson's Patients
-image: /static/images/app_for_parkinson_patients1.png
+image: /images/app_for_parkinson_patients1.png
 description: An app that serves as a personal digital diary for patients
   suffering from Parkinson’s disease. The app lets users easily record their
   symptoms, track the intake of prescribed drugs, and get a general overview of
