@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Mobile Therapy Application
-image: /static/images/mobile_therapy_app1.jpg
+image: /images/mobile_therapy_app1.jpg
 description: An app that supports patients going through physiotherapy, speech
   therapy, or occupational therapy in getting back to health.
 tags:
@@ -37,7 +37,7 @@ published: true
 At some point in our lives, either we ourselves or our loved ones will require physiotherapy to get back on our feet. However, there are many factors that influence whether this will be a stress-free and effective process.\
 With this in mind, our client created an app that supports therapists and patients on their way to a fast (and lasting!) recovery.
 
-![Mobile Therapy App](/static/images/mobile_therapy_app2.jpg)
+![Mobile Therapy App](/images/mobile_therapy_app2.jpg)
 
 ## Goal
 
@@ -60,7 +60,7 @@ Our client also had a high-fidelity wireframe of the app, and entrusted us with 
 
 \- An admin panel for therapists.
 
-![Mobile Therapy App](/static/images/mobile_therapy_app3.jpg)
+![Mobile Therapy App](/images/mobile_therapy_app3.jpg)
 
 ## Process
 
