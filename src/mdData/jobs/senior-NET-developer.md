@@ -9,17 +9,17 @@ published: true
 order: 1
 ---
 
-**Who We Are** 
+## **Who We Are** 
 
 We are a team of talented senior developers from Gdańsk who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
 
 We specialize in mobile and web applications, system integrations and IoT devices. We have also experience with Ethereum and Hyperledger as a Blockchain-based app platform. Since the establishment in 2012 our services have been found superior in Germany, Norway, the Netherlands and Israel.  
 
-**Project and Role** 
+## **Project and Role** 
 
 We are looking for an experienced Senior .NET Developer who would like to develop for one of our clients a healthcare software solution that helps care homes all over the United Kingdom monitor and maintain their residents’ health. You can find out more about the vCare system [HERE](https://brightinventions.pl/projects/vCare). The app is available for both iOS and Android and assists in proper medication administration for facility residents. Now we are enhancing the existing system with some new advanced functionalities. 
 
-**What We Are Looking For**
+## **What We Are Looking For**
 
 * at least 3-4 years of commercial programming experience 
 * very good working knowledge and deep understanding of .NET 3.1 - 5.0
@@ -30,11 +30,11 @@ We are looking for an experienced Senior .NET Developer who would like to develo
 * positive attitude and open mind 
 * very good command of English (both written and spoken)
 
-**We Would Also Appreciate If You Have**
+## **We Would Also Appreciate If You Have**
 
 * familiarity with Agile methodologies 
 
-**What We Offer**
+## **What We Offer**
 
 * opportunity to work on the healthcare software solution 
 * flat structure and a real impact on the company growth 
@@ -50,4 +50,4 @@ We are looking for an experienced Senior .NET Developer who would like to develo
 * board games Fridays 
 * bright rituals such as birthday cakes, bright kudos, brights donuts and other occasional surprises 
 
-**HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
+## **HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
