@@ -74,9 +74,3 @@ export const DevelopmentAreaContainer = styled.div({
 export const GoToContainer = styled.div({
   marginTop: '18px',
 })
-
-export const ImageContainer = styled.div({
-  svg: {
-    transform: 'scale(0.7)',
-  },
-})

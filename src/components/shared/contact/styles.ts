@@ -22,6 +22,10 @@ export const Description = styled.div({
 
 export const Form = styled.form({
   marginTop: '55px',
+
+  ['@media screen and (max-width: 767px)']: {
+    marginTop: '35px',
+  },
 })
 
 export const SubmitButton = styled.button({
@@ -44,6 +48,10 @@ export const SubmitButton = styled.button({
     cursor: 'default',
     backgroundColor: 'grey',
   },
+
+  ['@media screen and (max-width: 767px)']: {
+    marginTop: '50px',
+  },
 })
 
 export const Label = styled.div({
@@ -58,7 +66,8 @@ export const Label = styled.div({
 
 export const TextInput = styled.input({
   height: '48px',
-  width: '445px',
+  maxWidth: '445px',
+  width: '100%',
 
   fontSize: '16px',
   lineHeight: '40px',
@@ -71,11 +80,16 @@ export const TextInput = styled.input({
   border: `1px solid ${variables.color.text}`,
 
   marginBottom: '40px',
+
+  ['@media screen and (max-width: 767px)']: {
+    marginBottom: '10px',
+  },
 })
 
 export const SingleSelect = styled.select({
   height: '48px',
-  width: '445px',
+  maxWidth: '445px',
+  width: '100%',
 
   fontSize: '16px',
   lineHeight: '40px',
@@ -89,6 +103,11 @@ export const SingleSelect = styled.select({
   marginBottom: '40px',
 
   paddingLeft: '20px',
+
+  ['@media screen and (max-width: 767px)']: {
+    width: '100%',
+    marginBottom: '10px',
+  },
 })
 
 export const DoubleInputsRow = styled.div({
@@ -98,6 +117,17 @@ export const DoubleInputsRow = styled.div({
 
   flexWrap: 'wrap',
 })
+
+export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(
+  ({ leftSide }) => ({
+    marginRight: leftSide ? '64px' : 0,
+    width: '45%',
+    ['@media screen and (max-width: 767px)']: {
+      width: '100%',
+      marginRight: 0,
+    },
+  })
+)
 
 export const IdeaTextArea = styled.textarea({
   height: '228px',
@@ -116,6 +146,10 @@ export const IdeaTextArea = styled.textarea({
   border: `1px solid ${variables.color.text}`,
 
   marginBottom: '40px',
+
+  ['@media screen and (max-width: 767px)']: {
+    marginBottom: '10px',
+  },
 })
 
 export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({

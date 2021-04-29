@@ -8,6 +8,7 @@ import { routeLinks } from '../../../config/routing'
 
 import RightArrow from '../../../assets/rightArrow.svg'
 import { SectionTitle, TextRegular } from '..'
+import { HideTablet } from '../index.styled'
 
 interface CarouselCardProps {
   project: ProjectModel
@@ -19,6 +20,10 @@ const Container = styled(Link)({
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'center',
+
+  ['@media screen and (max-width: 767px)']: {
+    flexDirection: 'column',
+  },
 })
 
 const ProjectDescriptionWrapper = styled.div({
@@ -32,10 +37,11 @@ const ProjectDescriptionWrapper = styled.div({
 const Title = styled(SectionTitle)({
   textAlign: 'left',
   color: variables.color.text,
+  marginBottom: '0px',
 })
 
 const Description = styled(TextRegular)({
-  marginTop: '55px',
+  marginTop: '25px',
   textAlign: 'left',
   color: variables.color.text,
 })
@@ -53,6 +59,7 @@ const Image = styled.img({
 
   ['@media screen and (max-width: 768px)']: {
     maxWidth: '200px',
+    height: '100%',
   },
 })
 
@@ -67,9 +74,11 @@ const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
       <ProjectDescriptionWrapper>
         <Title>{project.title}</Title>
         <Description>{project.description}</Description>
-        <GoToContainer>
-          <RightArrow />
-        </GoToContainer>
+        <HideTablet>
+          <GoToContainer>
+            <RightArrow />
+          </GoToContainer>
+        </HideTablet>
       </ProjectDescriptionWrapper>
       <ImageWrapper>
         <Image src={project.image} alt={project.title} />
