@@ -1,18 +1,17 @@
 ---
 layout: post
 title: Builder pattern in Kotlin
+date: 2018-01-16T23:00:00.000Z
+image: /images/builder-pattern-in-kotlin/builder.jpeg
+author: agnieszka
 tags:
   - kotlin
   - builder
   - pattern
-comments: true
 hidden: true
-author: agnieszka
-image: /images/builder-pattern-in-kotlin/builder.jpeg
-date: '2018-01-16T23:00:00.000Z'
+comments: true
 published: true
 ---
-
 Builder pattern might be used in regular code, but I personally find it the most useful in tests. This is where you need to create objects which on one hand need to meet certain circumstances and on the other hand  you do not want to be bothered with other parameters. The builder pattern is the answer.
 
 ![Image](/images/builder-pattern-in-kotlin/builder.jpeg){: .center-image}
@@ -125,7 +124,7 @@ Creating another `build` method for every case you can think of is a waste of ti
 
 You will know the second condition is met if you can name the `build` method with the domain specific language :)
 
-**Koltin Named And Default Arguments**
+**Kotlin Named And Default Arguments**
 
 There is another approach I’ve come along recently which made me realize I was using Java approach poorly adapted in Kotlin. You can make a great use of Kotlin default arguments as well as named arguments in the constructor. You can read the whole story [here](https://praveer09.github.io/technology/2015/12/26/writing-test-data-builders-made-easy-with-kotlin) or move on to an example.
 
