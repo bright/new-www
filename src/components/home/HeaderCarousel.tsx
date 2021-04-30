@@ -8,7 +8,7 @@ import {ProjectModel} from '../../models/gql'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import BackArrow from '../../assets/backArrowBlack.svg'
 import NextArrow from '../../assets/nextArrowBlack.svg'
-import styles from './Header.module.scss'
+import * as styles from './Header.module.scss'
 
 interface Props {
     items: ProjectModel[]

@@ -1,7 +1,7 @@
 import React  from 'react'
 import classNames from 'classnames'
 
-import styles from './style.module.scss'
+import * as styles from './style.module.scss'
 
 export const Logo: React.FC = () => {
     return (

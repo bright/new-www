@@ -6,7 +6,7 @@ import {Footer} from './Footer'
 import {TopNavigation} from './TopNavigation'
 import {isBrowser} from '../utils'
 
-import styles from './Page.module.scss'
+import * as styles from './Page.module.scss'
 import '../styles/main.scss'
 
 export const Page: React.FC<{ className?: string }> = ({children, className}) => {

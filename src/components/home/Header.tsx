@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import { routeLinks } from '../../config/routing'
 import { Section } from '../shared'
 
-import styles from './Header.module.scss'
+import * as styles from './Header.module.scss'
 
 export const Header = () => {
   return (

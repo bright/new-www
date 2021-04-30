@@ -9,7 +9,7 @@ import {Section, PageDescription} from '../components/shared'
 import {createProjects} from '../models/creator'
 import {GQLData} from '../models/gql'
 
-import styles from './projects.module.scss'
+import * as styles from './projects.module.scss'
 
 const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
   const projects = createProjects(data)
