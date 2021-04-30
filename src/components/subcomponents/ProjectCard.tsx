@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import {ProjectModel} from '../../models/gql'
 import {routeLinks} from '../../config/routing'
 
-import styles from './ProjectCard.module.scss'
+import * as styles from './ProjectCard.module.scss'
 
 interface ProjectCardProps {
     project: ProjectModel

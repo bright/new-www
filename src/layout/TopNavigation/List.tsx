@@ -3,7 +3,7 @@ import classNames from "classnames"
 
 import { MenuElement } from "../TopNavigation"
 
-import styles from "./style.module.scss"
+import * as styles from "./style.module.scss"
 import { Link } from "gatsby"
 
 type Props = {

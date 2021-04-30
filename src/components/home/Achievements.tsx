@@ -5,7 +5,7 @@ import { createAuthors } from '../../models/creator'
 import { GQLData } from '../../models/gql'
 import { SectionBlack } from '../shared'
 
-import styles from './Achievements.module.scss'
+import * as styles from './Achievements.module.scss'
 
 export const Achievements = () => {
   const authors = createAuthors(useStaticQuery(GQL) as GQLData)

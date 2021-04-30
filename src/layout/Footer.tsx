@@ -8,7 +8,7 @@ import LocationIcon from '../assets/location_white.svg'
 import LogoWhite from '../assets/logo_white_2.svg'
 import { routeLinks } from '../config/routing'
 
-import styles from './Footer.module.scss'
+import * as styles from './Footer.module.scss'
 
 export const Footer = () => {
   return (

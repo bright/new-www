@@ -4,7 +4,7 @@ import formatDate from 'date-fns/format'
 import {deleteTimestampFromUrl} from '../../helpers/pathHelpers'
 import {BlogPostModel} from '../../models/gql'
 
-import styles from './Feed.module.scss'
+import * as styles from './Feed.module.scss'
 
 const BlogPostDummyUrl = '/images/dummy/blog_post.png'
 

@@ -3,7 +3,7 @@ import React from 'react'
 import {ArrowLeft, ArrowRight} from '../../helpers/icons'
 import { routeLinks } from '../../config/routing'
 
-import styles from './Paging.module.scss'
+import * as styles from './Paging.module.scss'
 
 export interface PageContext {
     currentPage: 2

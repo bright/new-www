@@ -6,7 +6,7 @@ import { Burger } from "./TopNavigation/Burger"
 import { List } from "./TopNavigation/List"
 import { routeLinks } from "../config/routing"
 
-import styles from "./TopNavigation/style.module.scss"
+import * as styles from "./TopNavigation/style.module.scss"
 
 export interface MenuElement {
   title: string

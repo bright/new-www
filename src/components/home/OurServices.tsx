@@ -8,7 +8,7 @@ import ProductDesignIcon from '../../assets/productDesign.svg'
 import WebDevelopmentIcon from '../../assets/webDevelopment.svg'
 import { routeLinks } from '../../config/routing'
 
-import styles from './ourServices/OurServices.module.scss'
+import * as styles from './ourServices/OurServices.module.scss'
 
 const services = [
   {
