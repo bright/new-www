@@ -21,8 +21,9 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-typescript",
     "gatsby-plugin-sass",
-    "gatsby-transformer-sharp",
+    "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     "gatsby-transformer-json",
     {
       resolve: "gatsby-plugin-manifest",
