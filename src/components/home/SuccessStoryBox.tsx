@@ -1,5 +1,6 @@
 import React, { FC } from "react"
 import styled from "styled-components"
+import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 
 const Container = styled.div`
   border: 1px solid #d3d3d3;
@@ -41,7 +42,7 @@ const Image = styled.figure`
 `
 
 export interface SuccessStoryBoxProps {
-  image: string
+  image: IGatsbyImageData
   title: string
   slug: string
   className?: string
@@ -52,7 +53,7 @@ const SuccessStoryBox: FC<SuccessStoryBoxProps> = props => {
     <Container onClick={() => (window.location.href = props.slug)} className={props.className}>
       <Title>{props.title}</Title>
       <Image className="image">
-        <img src={props.image} />
+        <GatsbyImage image={getImage(props.image)!} alt={props.title} />
       </Image>
     </Container>
   )

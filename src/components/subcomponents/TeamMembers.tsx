@@ -2,6 +2,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import { routeLinks } from '../../config/routing'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 const TeamMember = styled.article`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -78,7 +79,11 @@ const TeamMembers = () => {
       ) {
         nodes {
           frontmatter {
-            avatar
+            avatar {
+                childImageSharp {
+                    gatsbyImageData
+                }
+            }
             author_id
             name
             short_name
@@ -98,7 +103,7 @@ const TeamMembers = () => {
           <TeamMember key={member.author_id}>
             <Link to={`${routeLinks.aboutUs}/${member.slug || member.author_id}`}>
               <figure>
-                <img src={member.avatar} alt={member.name} />
+                <GatsbyImage image={getImage(member.avatar)!} alt={member.name} />
               </figure>
               <div>
                 <p>

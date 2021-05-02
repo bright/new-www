@@ -30,7 +30,7 @@ export default () => {
       <Projects />
       <Ratings />
 
-      <PopularBlogPosts />{/* blog posts */}
+      <PopularBlogPosts />
       <Contact />
     </Page>
   )

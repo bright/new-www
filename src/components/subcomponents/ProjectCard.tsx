@@ -5,6 +5,7 @@ import {ProjectModel} from '../../models/gql'
 import {routeLinks} from '../../config/routing'
 
 import * as styles from './ProjectCard.module.scss'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 interface ProjectCardProps {
     project: ProjectModel
@@ -20,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({project, invertTitle}) => {
 
     const Image = () => (
         <figure className={classNames('image is-inline-block', styles.imageWrap)}>
-            <img src={project.image} alt={project.title}/>
+            <GatsbyImage image={getImage(project.image)!} alt={project.title}/>
         </figure>
     )
 

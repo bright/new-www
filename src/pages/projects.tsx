@@ -88,7 +88,11 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
-            image
+            image {
+                childImageSharp {
+                    gatsbyImageData
+                }
+            }
             layout
             published
             tags

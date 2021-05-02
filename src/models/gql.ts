@@ -1,3 +1,5 @@
+import { IGatsbyImageData } from 'gatsby-plugin-image'
+
 export type Tag = string
 
 export interface Node {
@@ -23,7 +25,7 @@ export interface BlogPostModel {
   date: string
   slug: string
   excerpt: string
-  image: string
+  image: IGatsbyImageData
   tags: Tag[]
   title: string
 }
@@ -31,7 +33,7 @@ export interface BlogPostModel {
 export interface ProjectModel {
   title: string
   slug: string
-  image: string
+  image: IGatsbyImageData
   layout: string
   published: string
   order?: number

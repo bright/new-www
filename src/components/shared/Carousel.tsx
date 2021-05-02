@@ -123,7 +123,11 @@ const GQL = graphql`
         node {
           frontmatter {
             title
-            image
+            image {
+                childImageSharp {
+                    gatsbyImageData
+                }
+            }
             layout
             slug
             published

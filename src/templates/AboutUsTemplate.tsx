@@ -6,6 +6,7 @@ import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
 import { HideDesktop, HideTablet } from '../components/shared'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 export const ImageMobile = styled.img`
   display: block !important;
@@ -26,9 +27,9 @@ export default function Template({
           <div className="level">
             <HideTablet>
               <figure className="level-left image is-256x256">
-                <img
+                <GatsbyImage
                   className="is-rounded"
-                  src={frontmatter.avatar}
+                  image={frontmatter.avatar}
                   alt={frontmatter.name}
                 />
               </figure>
@@ -91,7 +92,11 @@ export const pageQuery = graphql`
       html
       frontmatter {
         short_name
-        avatar
+        avatar {
+            childImageSharp {
+                gatsbyImageData
+            }
+        }
         slug
         title
         description

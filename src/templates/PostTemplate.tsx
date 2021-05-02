@@ -68,12 +68,7 @@ export default function Template(props: {
     const {markdownRemark, allMarkdownRemark} = props.data // data.markdownRemark holds your post data
     const {frontmatter: page, html} = markdownRemark
 
-    const author = allMarkdownRemark.nodes.find(({frontmatter: userData}) => {
-        return userData.author_id === page.author
-    })!.frontmatter
-
     const slug = props.path.replace(/^(\/blog\/)/,'')
-
     return (
         <Page>
             <HelmetWrapper title={page.title} description={markdownRemark.excerpt}>
@@ -83,7 +78,6 @@ export default function Template(props: {
                 <meta property="og:site_name" content="Bright Inventions" />
                 <meta property="og:type" content="article" />
                 <meta property="article:published_time" content={markdownRemark.frontmatter.date} />
-                <meta property="article:author" content={markdownRemark.frontmatter.author} />
                 <meta property="og:image" content={props.data.site.siteMetadata.siteUrl + markdownRemark.frontmatter.image} />
             </HelmetWrapper>
 
@@ -91,7 +85,7 @@ export default function Template(props: {
                 <article className="section">
                     <div className="columns is-vcentered">
                         <div className="column is-half">
-                            <AuthorData {...author} />
+                            <AuthorData author_id={page.author} />
                         </div>
                         <div className="column has-text-right">
                             <div className="content has-text-grey-light">
@@ -159,22 +153,14 @@ export const pageQuery = graphql`
         author
         tags
         date
-        image
+        image {
+            absolutePath
+        }
       }
       timeToRead
       fileAbsolutePath
     }
-    allMarkdownRemark(filter: { frontmatter: { author_id: { ne: null } } }) {
-      nodes {
-        frontmatter {
-          author_id
-          avatar
-          bio
-          name
-          web
-        }
-      }
-    }
+   
     site {
       siteMetadata {
         siteUrl

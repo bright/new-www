@@ -3,6 +3,7 @@ import React from "react"
 import styled from "styled-components"
 import DateFormatter from "./Date"
 import { deleteTimestampFromUrl } from "../../helpers/pathHelpers"
+import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image'
 
 const DetailsContainer = styled.div`
   padding: 2em;
@@ -64,13 +65,9 @@ const Title = styled.div`
 `
 
 export interface PopularBlogPostBoxProps {
-  author: string
-  authorId: string
-  avatar: string
-  readTime: number
   date: string
   tags: string[]
-  image: string
+  image: IGatsbyImageData
   url: string
   title: string
 }
@@ -80,7 +77,7 @@ const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
     <PopularBlogPostBoxContainer>
       <Link to={deleteTimestampFromUrl(props.url)}>
         <Image className="image">
-          <img src={props.image} />
+          <GatsbyImage image={props.image}  alt={props.title}/>
         </Image>
       </Link>
       <DetailsContainer>
@@ -90,9 +87,6 @@ const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
           </DateContainer>
           <TagsContainer className="column">
             {props.tags.join(", ")}
-            {/* {props.tags.map(tag => (
-              <Tag key={tag + Math.random()}>{tag}</Tag>
-            ))} */}
           </TagsContainer>
         </div>
         <Title>{props.title}</Title>

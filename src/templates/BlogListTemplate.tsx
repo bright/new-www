@@ -62,7 +62,11 @@ export const pageQuery = graphql`
           frontmatter {
             excerpt
             comments
-            image
+            image {
+                childImageSharp {
+                    gatsbyImageData
+                }
+            }
             author
             author_id
             title

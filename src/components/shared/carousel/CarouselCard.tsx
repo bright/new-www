@@ -9,6 +9,7 @@ import { routeLinks } from '../../../config/routing'
 import RightArrow from '../../../assets/rightArrow.svg'
 import { SectionTitle, TextRegular } from '..'
 import { HideTablet } from '../index.styled'
+import { GatsbyImage, getImage, getSrc } from 'gatsby-plugin-image'
 
 interface CarouselCardProps {
   project: ProjectModel
@@ -52,8 +53,8 @@ const ImageWrapper = styled.figure({
   flex: 1,
 })
 
-const Image = styled.img({
-  objectFit: 'contain',
+const imageStyle = {
+  objectFit: 'contain' as 'contain',
   height: '450px',
   width: '100%',
 
@@ -61,7 +62,7 @@ const Image = styled.img({
     maxWidth: '200px',
     height: '100%',
   },
-})
+};
 
 const GoToContainer = styled.div({
   margin: '35px 0',
@@ -81,7 +82,9 @@ const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
         </HideTablet>
       </ProjectDescriptionWrapper>
       <ImageWrapper>
-        <Image src={project.image} alt={project.title} />
+        <GatsbyImage
+          style={imageStyle}
+          image={getImage(project.image)!} alt={project.title} />
       </ImageWrapper>
     </Container>
   )

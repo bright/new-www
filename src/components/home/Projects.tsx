@@ -4,12 +4,13 @@ import React from 'react'
 import { MoreButton, Section, SectionTitle } from '../shared'
 import SuccessStoryBox from './SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
+import { IGatsbyImageData } from 'gatsby-plugin-image'
 
 export const Projects: React.FC = () => {
   const { allMarkdownRemark: { edges } } = useStaticQuery(GQL)
   const posts: Array<{
     frontmatter: {
-      image: string
+      image: IGatsbyImageData
       layout: string
       published: boolean | null
       slug: string
@@ -52,7 +53,11 @@ const GQL = graphql`
           node {
             frontmatter {
               title
-              image
+              image {
+                  childImageSharp {
+                      gatsbyImageData
+                  }
+              }
               layout
               slug
               published

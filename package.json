@@ -23,6 +23,8 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-json": "^3.4.0",
     "gatsby-transformer-remark": "^3.2.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-remark-images": "^5.1.0",
     "mini-css-extract-plugin": "1.5.0",
     "netlify-cms-app": "^2.14.47",
     "node-sass": "^4.14.1",
