@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Container = styled.div`
   width: 100vw;
@@ -33,10 +34,10 @@ const Image = styled.img`
 `
 
 const images = [
-  "images/imagespacer/1.png",
-  "images/imagespacer/2.png",
-  "images/imagespacer/3.png",
-  "images/imagespacer/4.png",
+ <StaticImage src="../../../static/images/imagespacer/1.png" alt={'image spacer 1'} />,
+ <StaticImage src="../../../static/images/imagespacer/2.png" alt={'image spacer 2'} />,
+ <StaticImage src="../../../static/images/imagespacer/3.png" alt={'image spacer 3'} />,
+ <StaticImage src="../../../static/images/imagespacer/4.png" alt={'image spacer 4'} />,
 ]
 
 export const ImageSpacer: React.FC = () => {
@@ -44,8 +45,8 @@ export const ImageSpacer: React.FC = () => {
     <Container>
       <ImagesContainer>
         {images.map(image => (
-          <ImageContainer key={image}>
-            <Image src={image} />
+          <ImageContainer key={image.key}>
+            {image}
           </ImageContainer>
         ))}
       </ImagesContainer>
