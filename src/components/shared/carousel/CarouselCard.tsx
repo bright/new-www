@@ -83,7 +83,7 @@ const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
       </ProjectDescriptionWrapper>
       <ImageWrapper>
         <GatsbyImage
-          style={imageStyle}
+          imgStyle={imageStyle}
           image={getImage(project.image)!} alt={project.title} />
       </ImageWrapper>
     </Container>
