@@ -120,8 +120,6 @@ Second way is much simpler, just right-click on the request and select the `Enab
 
 After adding the SSL Proxying for our host server, perform request again.
 
-![](/assets/posts/charles/ssl_request_screen.png)
-
 As you can see right now we're able to see the `RC`(response code) of the request. Here it is 200(OK). Also we know that our request was `GET` type. Let's take a look at the request and response body.
 
 In the request body, we have some information about Request type, language, and encoding. Also, you can find here some information about Cookies.
