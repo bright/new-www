@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react"
-import classNames from "classnames"
+import React, { useEffect, useState } from 'react'
+import classNames from 'classnames'
 
-import { Logo } from "./TopNavigation/Logo"
-import { Burger } from "./TopNavigation/Burger"
-import { List } from "./TopNavigation/List"
-import { routeLinks } from "../config/routing"
+import { Logo } from './TopNavigation/Logo'
+import { Burger } from './TopNavigation/Burger'
+import { List } from './TopNavigation/List'
+import { routeLinks } from '../config/routing'
 
-import * as styles from "./TopNavigation/style.module.scss"
+import * as styles from './TopNavigation/style.module.scss'
 
 export interface MenuElement {
   title: string
@@ -15,12 +15,12 @@ export interface MenuElement {
 }
 
 const TopMenu: MenuElement[] = [
-  { link: `${routeLinks.aboutUs}/story`, title: "why us" },
-  { link: routeLinks.whatWeOffer, title: "what we do" },
-  { link: routeLinks.projects, title: "case studies" },
-  { link: routeLinks.career, title: "career" },
-  { link: routeLinks.blog, title: "blog" },
-  { link: routeLinks.startProject, title: "estimate project", className: classNames("is-primary", styles.estimate)},
+  { link: `${routeLinks.aboutUs}/story`, title: 'why us' },
+  { link: routeLinks.whatWeOffer, title: 'what we do' },
+  { link: routeLinks.projects, title: 'case studies' },
+  { link: routeLinks.career, title: 'career' },
+  { link: routeLinks.blog, title: 'blog' },
+  { link: routeLinks.startProject, title: 'estimate project', className: classNames('is-primary', styles.estimate) }
 ]
 
 type Props = {
@@ -33,13 +33,17 @@ export const TopNavigation: React.FC<Props> = ({ path, toggled }) => {
   const [isScrolledDown, setIsScrolledDown] = useState(false)
 
   useEffect(() => {
-    document.addEventListener("scroll", () => {
+    const scrollListener = () => {
       if (window.scrollY > 10 && !isScrolledDown) {
         setIsScrolledDown(true)
       } else {
         setIsScrolledDown(false)
       }
-    })
+    }
+    document.addEventListener('scroll', scrollListener)
+    return () => {
+      document.removeEventListener('scroll', scrollListener)
+    }
   }, [])
 
   const toggleMenu = () => {
@@ -50,15 +54,15 @@ export const TopNavigation: React.FC<Props> = ({ path, toggled }) => {
 
   return (
     <nav
-      className={classNames("navbar is-fixed-top", styles.container, {
-        [styles.hasShadow]: isScrolledDown,
+      className={classNames('navbar is-fixed-top', styles.container, {
+        [styles.hasShadow]: isScrolledDown
       })}
-      role="navigation"
-      aria-label="main navigation"
+      role='navigation'
+      aria-label='main navigation'
     >
       <Logo />
       <Burger opened={menuOpened} toggle={toggleMenu} />
-      <List opened={menuOpened} elements={TopMenu} currentPath={path || ""} />
+      <List opened={menuOpened} elements={TopMenu} currentPath={path || ''} />
     </nav>
   )
 }

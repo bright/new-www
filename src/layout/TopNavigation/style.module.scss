@@ -74,12 +74,6 @@
   }
 }
 
-@include tablet() {
-  .container :global(#topNavBar) {
-    margin-left: 12rem;
-  }
-}
-
 @include mobile() {
   .container {
     padding: 0;

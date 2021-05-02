@@ -25,7 +25,6 @@ const Post: React.FC<{post: BlogPostModel}> = ({post}) => {
     const redirect = () => {
         window.location.href = deleteTimestampFromUrl(post.slug)
     }
-    debugger;
     return (
         <div className={styles.entry} onClick={redirect}>
             <div className={styles.image}><GatsbyImage image={getImage(post.image)} alt={post.title}/></div>
