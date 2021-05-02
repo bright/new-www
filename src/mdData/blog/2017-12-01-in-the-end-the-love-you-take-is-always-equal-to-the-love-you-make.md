@@ -18,7 +18,7 @@ tags:
   - success
   - teamwork
 image: >-
-  /lh3.googleusercontent.com/-lxu7gLdT8gg/WiE2q3eINWI/AAAAAAAAAeI/2ENM6mVi1YIJe1occATMsU9FdrogIcErgCLcBGAs/s0/knowledgeeee.jpg
+  https://lh3.googleusercontent.com/-lxu7gLdT8gg/WiE2q3eINWI/AAAAAAAAAeI/2ENM6mVi1YIJe1occATMsU9FdrogIcErgCLcBGAs/s0/knowledgeeee.jpg
 date: '2017-11-30T23:00:00.000Z'
 published: true
 ---
