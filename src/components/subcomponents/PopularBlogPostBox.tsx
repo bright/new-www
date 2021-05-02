@@ -3,7 +3,7 @@ import React from "react"
 import styled from "styled-components"
 import DateFormatter from "./Date"
 import { deleteTimestampFromUrl } from "../../helpers/pathHelpers"
-import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 
 const DetailsContainer = styled.div`
   padding: 2em;
@@ -77,7 +77,7 @@ const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
     <PopularBlogPostBoxContainer>
       <Link to={deleteTimestampFromUrl(props.url)}>
         <Image className="image">
-          <GatsbyImage image={props.image}  alt={props.title}/>
+          <GatsbyImage image={getImage(props.image)!}  alt={props.title}/>
         </Image>
       </Link>
       <DetailsContainer>
