@@ -26,7 +26,6 @@ export default function TeamPage() {
             build engagement and loyalty.
           </TextRegular>
         </Caption>
-        {/* {% include _team_members.html %} */}
         <TeamMembers />
         <FormComponent />
       </div>

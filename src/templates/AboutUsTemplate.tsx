@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { CSSProperties } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 
@@ -6,20 +6,21 @@ import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
 import { HideDesktop, HideTablet } from '../components/shared'
-import { GatsbyImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
-export const ImageMobile = styled.img`
-  display: block !important;
-  margin: 0 auto;
-  width: 70%;
-  max-width: 256px;
-`
+const gatsbyStyle: CSSProperties = {
+  display: 'block !important',
+  margin: '0 auto',
+  width: '70%',
+  maxWidth: '256px'
+}
 
 export default function Template({
                                    data // this prop will be injected by the GraphQL query below.
                                  }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  const avatarImage = getImage(frontmatter.avatar)!
   return (
     <Page>
       <div className="container">
@@ -29,16 +30,16 @@ export default function Template({
               <figure className="level-left image is-256x256">
                 <GatsbyImage
                   className="is-rounded"
-                  image={frontmatter.avatar}
+                  image={avatarImage}
                   alt={frontmatter.name}
                 />
               </figure>
             </HideTablet>
             <HideDesktop>
-              <figure className="level-left">
-                <ImageMobile
-                  className="is-rounded"
-                  src={frontmatter.avatar}
+              <figure className="level-left" style={gatsbyStyle}>
+                <GatsbyImage
+                  imgClassName="is-rounded"
+                  image={avatarImage}
                   alt={frontmatter.name}
                 />
               </figure>

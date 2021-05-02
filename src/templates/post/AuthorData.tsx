@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { routeLinks } from '../../config/routing'
 import { graphql, useStaticQuery } from 'gatsby'
-import Helmet from 'react-helmet'
+import { HelmetMetaAuthor } from '../../HelmetMetaAuthor'
 
 interface AuthorDataProps {
   author_id?: string
@@ -64,11 +64,4 @@ export const AuthorData: React.FC<AuthorDataProps> = ({ author_id }) => {
       </article>
     </LinkComponent>
   )
-}
-
-const HelmetMetaAuthor = (props: { author: string | undefined }) => {
-  const author = props.author
-  return author ? (<></>) : <Helmet>
-    <meta property='article:author' content={author} />
-  </Helmet>
 }
