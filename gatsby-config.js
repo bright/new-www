@@ -122,7 +122,7 @@ module.exports = {
         protocol: 'https',
         hostname: 'brightinventions.pl',
         region: 'eu-central-1',
-        verbose: true
+        acl: null
       }
     }
   ]
