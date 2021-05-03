@@ -5,7 +5,7 @@ author: radeks
 crosspost: true
 hidden: false
 image: >-
-  /images/brief-introduction-to-transfer-learning/brief-introduction-to-transfer-learning:top.jpg
+  /images/brief-introduction-to-transfer-learning/brief-introduction-to-transfer-learning-top.jpg
 tags:
   - deep learning
   - image classification
