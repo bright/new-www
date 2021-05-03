@@ -52,7 +52,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --prefix-paths",
+    "build": "gatsby build --prefix-paths --log-pages",
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public",
     "deploy-s3": "gatsby-plugin-s3 deploy",
