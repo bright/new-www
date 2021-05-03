@@ -121,8 +121,7 @@ module.exports = {
         bucketName: 'brightinventions-pl-website-content',
         protocol: 'https',
         hostname: 'brightinventions.pl',
-        region: 'eu-central-1',
-        acl: null
+        region: 'eu-central-1'
       }
     }
   ]
