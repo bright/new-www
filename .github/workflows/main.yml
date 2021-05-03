@@ -21,6 +21,11 @@ jobs:
         with:
           name: ${{ github.sha }}-content.zip
           path: content.zip
+      - name: Archive .cache/s3.config.json
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ github.sha }}-s3.config.json
+          path: .cache/s3.config.json
 #  deploy-gh-pages:
 #    runs-on: ubuntu-latest
 #    steps:
@@ -43,6 +48,11 @@ jobs:
         with:
           name: ${{ github.sha }}-content.zip
           path: content.zip
+      - name: Download .cache/s3.config.json
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ github.sha }}-s3.config.json
+          path: .cache/s3.config.json
       - run: 7z x content.zip public/
       - run: yarn install
       - run: yarn run deploy-s3
