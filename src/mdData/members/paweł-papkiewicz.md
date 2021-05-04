@@ -5,7 +5,7 @@ title: Paweł
 name: Paweł Papkiewicz
 short_name: Paweł
 email: pawel.papkiewicz@brightinventions.pl
-bio: Fullstack developer
+bio: Fullstack Developer
 avatar: /images/members/paweł_papkiewicz.jpg
 github: papkie
 layout: member
