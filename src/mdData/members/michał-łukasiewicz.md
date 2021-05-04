@@ -5,7 +5,7 @@ title: Meet Michał
 name: Michał Łukasiewicz
 short_name: Michał
 email: michal.lukasiewicz@brightinventions.pl
-bio: Co-founder & Senior iOS developer 
+bio: Co-founder & Senior iOS Developer 
 avatar: /images/members/michał_łukasiewicz.jpg
 twitter: mgamer
 github: mgamer
