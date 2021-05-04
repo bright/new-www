@@ -14,6 +14,8 @@ published: true
 ---
 **I am not a developer. However, it’s not like I came to a software development company from a completely different world. Before joining Bright Inventions I was working at an online marketplace company that had an in-house web and mobile development team. The IT world wasn't such a new thing to me. So I thought… Find out 4 things that surprised me about working at a software development agency.**
 
+![working at software consulting studio ](/static/images/4thingsthatsurprisedme.png)
+
 ## 1. Slack is the new email
 
 I love Slack. I was introduced to it a few years ago and I fell in love with it instantly. Although, I think that the Slack team should work harder on GIF finder feature… Nevertheless, I simply love Slack. However, here at [Bright Inventions](https://brightinventions.pl) they loooove Slack! We have over 80 channels regarding everything: our passions, work, self-development and of course… food ordering! My favourite channels are: #todayilearned, #bright-kudos and #random – because there is no Slack without some random stories ;) What struck me the most is that I barely use email anymore. My gmail is practically empty! I remember like 5 years ago email was the most important tool to communicate in and outside the team. Recently, I’ve realised how that has changed. And you know what? I love it! 
