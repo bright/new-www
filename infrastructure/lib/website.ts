@@ -1,7 +1,12 @@
 import * as cdk from '@aws-cdk/core'
 import { CfnOutput } from '@aws-cdk/core'
 import { Bucket } from '@aws-cdk/aws-s3'
-import { CloudFrontWebDistribution, OriginAccessIdentity, ViewerCertificate } from '@aws-cdk/aws-cloudfront'
+import {
+  CloudFrontWebDistribution,
+  OriginAccessIdentity,
+  OriginProtocolPolicy,
+  ViewerCertificate
+} from '@aws-cdk/aws-cloudfront'
 import { Effect, PolicyStatement, User } from '@aws-cdk/aws-iam'
 import { domainNames } from './domain-names'
 import { Certificate } from '@aws-cdk/aws-certificatemanager'
@@ -27,9 +32,17 @@ export class Website extends cdk.Stack {
 
     bucket.grantReadWrite(user)
 
+    // required for static website hosting
+    bucket.grantPublicAccess()
+
     user.addToPolicy(new PolicyStatement({
       actions: ['s3:PutBucketWebsite'],
       resources: [bucket.bucketArn],
+      effect: Effect.ALLOW
+    }))
+    user.addToPolicy(new PolicyStatement({
+      actions: ['s3:PutObjectAcl'],
+      resources: [bucket.bucketArn, bucket.arnForObjects("*")],
       effect: Effect.ALLOW
     }))
 
@@ -37,9 +50,12 @@ export class Website extends cdk.Stack {
 
     const webDistribution = new CloudFrontWebDistribution(this, 'distribution', {
       originConfigs: [{
-        s3OriginSource: {
-          s3BucketSource: bucket,
-          originAccessIdentity: originAccessIdentity
+        // we don't use s3 origin as gatsby-s3-deploy features will not work
+        // however if we don't use gatsby-s3-deploy server side redirects
+        // we can get this to work by mapping 403 and 401 in CF to index.html
+        customOriginSource: {
+          domainName: bucket.bucketWebsiteDomainName,
+          originProtocolPolicy: OriginProtocolPolicy.HTTP_ONLY
         },
         behaviors: [{
           isDefaultBehavior: true
