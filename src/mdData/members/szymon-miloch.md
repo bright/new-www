@@ -5,7 +5,7 @@ title: Meet Szymon
 name: Szymon Miloch
 short_name: Szymek
 email: szymon.miloch@brightinventions.pl
-bio: Android & Web developer 
+bio: Android & Web Developer 
 avatar: /images/members/szymon_miloch.jpg
 github: milszym
 descrption: Android magician with a skillset from web tehcnologies
