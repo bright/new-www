@@ -2,7 +2,7 @@
 layout: post
 title: 4 things that surprised me when I joined a software development company
 date: 2021-05-04T08:13:06.170Z
-image: /static/images/4thingsthatsurprisedme.png
+image: /images/4thingsthatsurprisedme.png
 author: izabela
 tags:
   - teamwork
