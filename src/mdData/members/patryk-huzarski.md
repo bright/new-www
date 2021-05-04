@@ -5,7 +5,7 @@ title: Meet Patryk
 name: Patryk Huzarski
 short_name: Patryk
 email: patryk.huzarski@brightinventions.pl
-bio: Software Developer @ Bright Inventions
+bio: Software Developer
 avatar: /images/members/patryk_huzarski.jpg
 twitter: pathuzarski
 github: phuzarski
