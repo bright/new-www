@@ -2,7 +2,7 @@
 layout: post
 title: 4 things that surprised me when I joined a software development company
 date: 2021-05-04T08:13:06.170Z
-image: /images/4thingsthatsurprisedme.png
+image: /static/images/4thingsthatsurprisedme.png
 author: izabela
 tags:
   - teamwork
@@ -14,7 +14,7 @@ published: true
 ---
 **I am not a developer. However, it’s not like I came to a software development company from a completely different world. Before joining Bright Inventions I was working at an online marketplace company that had an in-house web and mobile development team. The IT world wasn't such a new thing to me. So I thought… Find out 4 things that surprised me about working at a software development agency.**
 
-![working at software consulting studio ](/images/4thingsthatsurprisedme.png)
+![working at software consulting studio ](/static/images/izabela_4thingsthatsurprisedme.png)
 
 ## 1. Slack is the new email
 
