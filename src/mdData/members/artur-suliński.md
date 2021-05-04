@@ -5,7 +5,7 @@ title: Meet Artur
 name: Artur Suliński
 short_name: Artur
 email: artur.sulinski@brightinventions.pl
-bio: iOS developer 
+bio: iOS Developer 
 avatar: /images/members/artur.jpg
 description: iOS application development is his second ego
 redirect_from: ["/artur", "/artur/"]
