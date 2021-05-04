@@ -5,7 +5,7 @@ title: Meet Mateusz
 name: Mateusz Klimczak
 short_name: Mateusz
 email: mateusz.klimczak@brightinventions.pl
-bio: Technical leader & Project manager 
+bio: Technical Leader & Project Manager 
 avatar: /images/members/mateusz_klimczak.jpg
 twitter: Klimczak_M
 github: KlimczakM
