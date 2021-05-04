@@ -6,7 +6,7 @@ name: Wojciech Baczyński
 short_name: Wojciech
 email: wojciech.baczynski@bright.dev
 bio: Fullstack Developer 
-description: Fullstack developer
+description: Fullstack Developer
 avatar: /images/members/wojciech_baczynski.jpg
 published: true
 ---
