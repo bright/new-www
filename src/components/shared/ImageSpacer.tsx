@@ -44,8 +44,8 @@ export const ImageSpacer: React.FC = () => {
   return (
     <Container>
       <ImagesContainer>
-        {images.map(image => (
-          <ImageContainer key={image.key}>
+        {images.map((image, index) => (
+          <ImageContainer key={index}>
             {image}
           </ImageContainer>
         ))}

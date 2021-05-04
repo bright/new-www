@@ -68,6 +68,7 @@ const Ratings = () => {
         <Carousel
           className="carousel"
           showStatus={false}
+          showThumbs={false}
           infiniteLoop
           renderIndicator={(onClickHandler, isSelected) => {
             if (isSelected) {

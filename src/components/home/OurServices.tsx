@@ -38,8 +38,8 @@ export const OurServices: React.FC = () => {
     <Section className='has-text-centered'>
       <SectionTitle>our services</SectionTitle>
       <div className='columns is-multiline has-justify-content-center'>
-        {services.map(service => (
-          <div className={classNames('column is-half', styles.service)}>
+        {services.map((service, index) => (
+          <div className={classNames('column is-half', styles.service)} key={index}>
             <div className={styles.icon}><service.icon /></div>
             <TextTitle>{service.title}</TextTitle>
             <TextRegular>{service.description}</TextRegular>
