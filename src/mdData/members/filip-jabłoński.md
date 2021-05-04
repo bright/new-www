@@ -5,7 +5,7 @@ slug: filip
 name: Filip Jabłoński
 short_name: Filip
 email: filip.jablonski@brightinventions.pl
-bio: Senior iOS developer
+bio: Senior iOS Developer
 description: iOS programmer
 avatar: /images/members/filip_jablonski.jpg
 published: true
