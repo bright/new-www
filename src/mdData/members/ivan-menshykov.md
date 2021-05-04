@@ -5,7 +5,7 @@ title: Meet Ivan
 name: Ivan Menshykov
 short_name: Ivan
 email: ivan.menshykov@brightinventions.pl
-bio: Fullstack developer 
+bio: Fullstack Developer 
 github: janczer
 avatar: /images/members/ivan.jpg
 description: JavaScript enthusiast
