@@ -90,7 +90,10 @@ export const pageQuery = graphql`
             title
             image {
                 childImageSharp {
-                    gatsbyImageData
+                    gatsbyImageData(
+                        height: 900,
+                        layout: CONSTRAINED
+                    )
                 }
             }
             layout

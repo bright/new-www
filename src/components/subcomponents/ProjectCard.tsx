@@ -19,11 +19,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({project, invertTitle}) => {
         </span>
     )
 
-    const Image = () => (
-        <figure className={classNames('image is-inline-block', styles.imageWrap)}>
-            <GatsbyImage image={getImage(project.image)!} alt={project.title}/>
-        </figure>
-    )
+    const Image = () => {
+        return (
+          <figure className={classNames('image is-inline-block', styles.imageWrap)}>
+              <GatsbyImage className={styles.imageWrap} imgStyle={{objectFit: 'contain'}} image={getImage(project.image)!} alt={project.title} />
+          </figure>
+        )
+    }
 
     return (
         <a className={classNames('card-content', styles.container)} href={`${routeLinks.projects}/${project.slug}`}>
