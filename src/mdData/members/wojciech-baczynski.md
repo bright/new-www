@@ -5,7 +5,7 @@ slug: wojciech
 name: Wojciech Baczyński
 short_name: Wojciech
 email: wojciech.baczynski@bright.dev
-bio: Fullstack developer 
+bio: Fullstack Developer 
 description: Fullstack developer
 avatar: /images/members/wojciech_baczynski.jpg
 published: true
