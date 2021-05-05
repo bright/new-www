@@ -2,7 +2,7 @@
 layout: post
 title: CloudWatch Insights - how to find context of the requests?
 date: 2021-05-05T12:29:03.781Z
-image: /static/images/request_typing.png
+image: /images/joan-gamell-xu1l22iuknc-unsplash.jpg
 author: rafal h
 tags:
   - tips&tricks
