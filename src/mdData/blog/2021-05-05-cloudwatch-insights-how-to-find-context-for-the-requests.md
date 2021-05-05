@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CloudWatch Insights - how to find context of the multiple requests?
+title: CloudWatch Insights - how to find context of multiple requests?
 date: 2021-05-05T15:22:52.864Z
 image: /images/joan-gamell-xu1l22iuknc-unsplash.jpg
 author: rafal h
@@ -13,9 +13,9 @@ hidden: true
 comments: true
 published: true
 ---
-So recently I was searching through our application logs. The task was to extract only given lines of the logs for some of the requests with the bigger context (ex. errors in the external provider system with the original request). For our app, we are using [CloudWatch](https://aws.amazon.com/cloudwatch/) to store the logs. I have used [CloudWatch Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) as out of the box tool to analyze them. 
+Recently I was searching through our application logs. The task was to extract extra context for a group of requests (ex. errors in the external provider system with the original request). For our app, we are using [CloudWatch](https://aws.amazon.com/cloudwatch/) to store the logs. I have used [CloudWatch Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) as out of the box tool to analyze them. 
 
-Our logs have a format like: 
+Our logs have a format like below, with each console output in a separate line: 
 
 ```
 2021-02-06T13:38:31.730Z info [some request id 1; some user id 1] Some external provider error message
