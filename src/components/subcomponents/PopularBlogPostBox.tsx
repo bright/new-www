@@ -16,7 +16,7 @@ const Image = styled.figure`
   @media (max-width: 480px) {
     height: 200px;
   }
-  img {
+  .gatsby-image-wrapper {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -77,7 +77,7 @@ const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
     <PopularBlogPostBoxContainer>
       <Link to={deleteTimestampFromUrl(props.url)}>
         <Image className="image">
-          <GatsbyImage image={getImage(props.image)!}  alt={props.title}/>
+          <GatsbyImage imgStyle={{objectFit: 'cover', width: '100%', height: '100%'}} image={getImage(props.image)!}  alt={props.title}/>
         </Image>
       </Link>
       <DetailsContainer>
