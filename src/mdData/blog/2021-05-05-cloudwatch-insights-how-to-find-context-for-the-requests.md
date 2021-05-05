@@ -9,9 +9,9 @@ tags:
   - aws
   - cloudwatch
   - logs
-hidden: false
+hidden: true
 comments: true
-published: false
+published: true
 ---
 So recently I was searching through our application logs to extract only given lines of the logs for some of the requests (ex. errors in external provider with bigger context - original request type or other info). For our app, we are using [CloudWatch](https://aws.amazon.com/cloudwatch/) to store the logs. I have used [CloudWatch Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) as out of the box tool to analyze them. 
 
