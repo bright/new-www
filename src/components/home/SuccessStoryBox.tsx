@@ -1,6 +1,7 @@
-import React, { FC } from "react"
-import styled from "styled-components"
+import React, { FC } from 'react'
+import styled from 'styled-components'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
+import { Link } from 'gatsby'
 
 const Container = styled.div`
   border: 1px solid #d3d3d3;
@@ -11,11 +12,13 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   cursor: pointer;
+
   &:hover {
     box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
   }
+
   @media screen and (max-width: 767px) {
-      margin: 1rem 0;
+    margin: 1rem 0;
   }
 `
 
@@ -34,7 +37,7 @@ const Image = styled.figure`
     height: 150px;
   }
 
-  img {
+  .gatsby-image-wrapper {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -50,11 +53,14 @@ export interface SuccessStoryBoxProps {
 
 const SuccessStoryBox: FC<SuccessStoryBoxProps> = props => {
   return (
-    <Container onClick={() => (window.location.href = props.slug)} className={props.className}>
-      <Title>{props.title}</Title>
-      <Image className="image">
-        <GatsbyImage image={getImage(props.image)!} alt={props.title} />
-      </Image>
+    <Container className={props.className}>
+      <Link to={props.slug}>
+        <Title>{props.title}</Title>
+        <Image className='image'>
+          <GatsbyImage imgStyle={{ objectFit: 'contain', height: '100%', width: '100%' }} image={getImage(props.image)!}
+                       alt={props.title} />
+        </Image>
+      </Link>
     </Container>
   )
 }
