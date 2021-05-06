@@ -9,7 +9,7 @@ tags:
   - aws
   - cloudwatch
   - logs
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
