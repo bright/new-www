@@ -2,7 +2,7 @@
 layout: post
 title: App development pivots that prove the MVP works
 date: 2021-05-11T06:56:43.419Z
-image: /images/izabela_blog_appdevelopmentpivots.png
+image: /static/images/blogpost_appdevelopmentpivots.png
 author: izabela
 tags:
   - MVP
@@ -14,9 +14,7 @@ published: true
 ---
 **You have an idea for an app and are determined to develop it? Congratulations! But what if your idea had to be modified and your solution would need to pivot? Check out why many popular apps and web solutions had to change to make a success.** <br>
 
-
-
-![App pivots MVP](/images/izabela_blog_appdevelopmentpivots_illustration.png)
+![App pivots MVP](/static/images/blogpost_appdevelopmentpivots.png)
 
 When you take first steps on the road of app development, you have to make a very important choice. You can develop every feature that you have imagined for your web or mobile app or you can just develop the necessary features to know the user's feedback and decide what’s next. 
 
@@ -41,7 +39,6 @@ Developing all the features that you have imagined for your app may not only be 
 ## Adapting to market trends
 
 **Netflix** is the best example of the perfect response to the market changes. Netflix started as an online rental platform for DVD movies that were mailed to American households. Eventually, Netflix transformed into a digital content service. As you know, they don’t just gather content, they create their own movies and TV series. They pivoted their product following or even starting marketing trends.
-
 
 <br>
 Idea for a software solution is only the beginning. It needs to be verified and sometimes modified to succeed. That is why building MVPs takes a major role in creating the final and successful product. 
