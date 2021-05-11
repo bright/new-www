@@ -2,7 +2,7 @@
 layout: post
 title: App development pivots that prove the MVP works
 date: 2021-05-11T06:56:43.419Z
-image: /static/images/izabela_blog_appdevelopmentpivots.png
+image: /images/izabela_blog_appdevelopmentpivots.png
 author: izabela
 tags:
   - MVP
