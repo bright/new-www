@@ -16,7 +16,7 @@ published: true
 
 
 
-![App pivots MVP](/static/images/izabela_blog_appdevelopmentpivots_illustration.png)
+![App pivots MVP](/images/izabela_blog_appdevelopmentpivots_illustration.png)
 
 When you take first steps on the road of app development, you have to make a very important choice. You can develop every feature that you have imagined for your web or mobile app or you can just develop the necessary features to know the user's feedback and decide what’s next. 
 
