@@ -125,7 +125,9 @@ const GQL = graphql`
             title
             image {
                 childImageSharp {
-                    gatsbyImageData
+                    gatsbyImageData(
+                        height: 500
+                    )
                 }
             }
             layout
