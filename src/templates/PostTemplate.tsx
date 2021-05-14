@@ -12,12 +12,10 @@ import { routeLinks } from '../config/routing'
 import { BlogPostStructuredData } from '../BlogPostStructuredData'
 import { getSrc, IGatsbyImageData } from 'gatsby-plugin-image'
 import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks'
-import { MetaImage } from '../meta/HelmetOgImage'
 import Helmet from 'react-helmet'
-import { MetaOgUrl } from '../meta/MetaOgUrl'
-import { MetaSiteName } from '../meta/MetaSiteName'
-import { MetaTitle } from '../meta/MetaTitle'
-import { MetaDescription } from '../meta/MetaDescription'
+import { descriptionOrDefault } from '../meta/meta-description'
+import { resolveUrl } from '../meta/resolve-url'
+import { siteMetadata } from '../../gatsby-config'
 
 const Container = styled.div`
   max-width: 960px;
@@ -28,7 +26,7 @@ const Title = styled.h1`
 `
 
 const Content = styled.div`
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
@@ -77,17 +75,34 @@ export default function Template(props: {
   const { frontmatter: page, html } = markdownRemark
 
   const slug = props.path.replace(/^(\/blog\/)/, '')
+  const title = markdownRemark.frontmatter.title
   return (
     <Page>
       <Helmet>
-        <MetaTitle title={markdownRemark.frontmatter.title} />
-        <MetaDescription description={markdownRemark.excerpt} />
-        <MetaSiteName />
-        <MetaOgUrl path={props.path} />
+        <title>{title} | Bright Inventions</title>
+        {title && <meta property='og:title' content={title} />}
+        <meta
+          name='description'
+          content={descriptionOrDefault(markdownRemark.excerpt)}
+        />
+        <meta
+          property='og:description'
+          content={descriptionOrDefault(markdownRemark.excerpt)}
+        />
+        <meta property='og:site_name' content={siteMetadata.title} />
+        <meta property='og:url' content={resolveUrl(props.path)} />
 
         <meta property='og:type' content='article' />
-        <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
-        <MetaImage imageUrl={getSrc(markdownRemark.frontmatter.image)} />
+        <meta
+          property='article:published_time'
+          content={markdownRemark.frontmatter.date}
+        />
+        {markdownRemark.frontmatter.image && (
+          <meta
+            property='og:image'
+            content={getSrc(markdownRemark.frontmatter.image)}
+          />
+        )}
       </Helmet>
 
       <Container className='container'>
@@ -110,9 +125,7 @@ export default function Template(props: {
                 </p>
 
                 <p>
-                  {page.date && (
-                    <DateFormatter date={page.date} />
-                  )}
+                  {page.date && <DateFormatter date={page.date} />}
                   &nbsp;
                   <a
                     className='has-text-grey-light'
@@ -142,45 +155,44 @@ export default function Template(props: {
           <DisqusComments id={slug} title={page.title} />
         </article>
       </Container>
-      <BlogPostStructuredData author_id={page.author}
-                              excerpt={page.excerpt}
-                              path={props.path}
-                              publishedOn={page.date}
-                              title={page.title}
-                              image={page.image}
-
+      <BlogPostStructuredData
+        author_id={page.author}
+        excerpt={page.excerpt}
+        path={props.path}
+        publishedOn={page.date}
+        title={page.title}
+        image={page.image}
       />
     </Page>
   )
 }
 
 export const pageQuery = graphql`
-    query($fileAbsolutePath: String!) {
-        markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
-            html
-            excerpt
-            frontmatter {
-                slug
-                title
-                description
-                author
-                tags
-                date
-                image {
-                    childImageSharp {
-                        gatsbyImageData
-                    }
-                }
-            }
-            timeToRead
-            fileAbsolutePath
+  query($fileAbsolutePath: String!) {
+    markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
+      html
+      excerpt
+      frontmatter {
+        slug
+        title
+        description
+        author
+        tags
+        date
+        image {
+          childImageSharp {
+            gatsbyImageData
+          }
         }
-
-        site {
-            siteMetadata {
-                siteUrl
-            }
-        }
+      }
+      timeToRead
+      fileAbsolutePath
     }
-`
 
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
+  }
+`
