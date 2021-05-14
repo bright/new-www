@@ -2,10 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { Page } from "../../layout/Page"
-import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
 import { routeLinks } from "../../config/routing"
 import { Tabs } from "../../components/about-us/about-us.styled"
 import { Section } from '../../components/shared'
+import { HelmetTitleDescription } from '../../meta/HelmetTitleDescription'
 
 const tabs = [
   { label: "our story", path: "story" },
@@ -15,7 +15,7 @@ const tabs = [
 
 const AboutUsPage: React.FC = ({ children }) => (
   <Page>
-    <HelmetWrapper
+    <HelmetTitleDescription
       title="About us - our values, team and approach"
       description="Information about our team, core values, business process"
     />

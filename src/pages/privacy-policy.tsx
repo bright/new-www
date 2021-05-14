@@ -1,12 +1,12 @@
 import React from 'react'
 
 import {Page} from '../layout/Page'
-import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 const PrivacyPolicy = () => {
   return (
     <Page>
-      <HelmetWrapper
+      <HelmetTitleDescription
         title="Privacy policy"
         description="All the necessary information about the data we collect and process when you use our website."
       />

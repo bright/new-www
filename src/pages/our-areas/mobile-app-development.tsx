@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
 import BackArrow from "../../assets/backArrow.svg"
-import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
 import {Contact} from "../../components/shared/Contact"
 import { Page } from "../../layout/Page"
 import { routeLinks } from "../../config/routing"
@@ -13,11 +12,12 @@ import {
   SubTitle,
   Title,
 } from "../../components/whatWeDo/ourDevelopmentAreas/subpagesStyles"
+import { HelmetTitleDescription } from '../../meta/HelmetTitleDescription'
 
 const MobileAppDevelopment = () => {
   return (
     <Page>
-      <HelmetWrapper
+      <HelmetTitleDescription
         title="Mobile Development Services"
         description="About our mobile development services"
       />

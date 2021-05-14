@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Software Development Company',
-    description:
-      'The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more.',
+    title: 'Bright Inventions',
+    description: 'The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more.',
     author: 'Bright team',
     disqusShortname: 'brightinventions',
     siteUrl: 'https://brightinventions.pl/'

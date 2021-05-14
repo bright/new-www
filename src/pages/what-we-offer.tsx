@@ -1,5 +1,4 @@
 import React from 'react'
-import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import Ratings from '../components/shared/Ratings'
 import Banners from '../components/whatWeDo/banners/Banners'
 import { Contact } from '../components/shared/Contact'
@@ -9,11 +8,12 @@ import { HideTablet, PageDescription, Section } from '../components/shared'
 import { TechnologyTags } from '../components/shared/TechnologyTags'
 import { Carousel } from '../components/shared/Carousel'
 import { Page } from '../layout/Page'
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
     <Page>
-      <HelmetWrapper
+      <HelmetTitleDescription
         title='Mobile and Web Development Services'
         description='About our software development services'
       />

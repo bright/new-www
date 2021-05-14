@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
 import BackArrow from "../../assets/backArrow.svg"
-import HelmetWrapper from "../../components/subcomponents/HelmetWrapper"
 import {Contact} from "../../components/shared/Contact"
 import { Page } from "../../layout/Page"
 import { routeLinks } from "../../config/routing"
@@ -12,11 +11,12 @@ import {
   Paragraph,
   Title,
 } from "../../components/whatWeDo/ourDevelopmentAreas/subpagesStyles"
+import { HelmetTitleDescription } from '../../meta/HelmetTitleDescription'
 
 const Blockchain = () => {
   return (
     <Page>
-      <HelmetWrapper
+      <HelmetTitleDescription
         title="Web Development Services"
         description="About our software development services"
       />

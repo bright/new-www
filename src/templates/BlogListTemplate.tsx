@@ -2,12 +2,12 @@ import {graphql} from 'gatsby'
 import React from 'react'
 
 import {Page} from '../layout/Page'
-import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import {BlogFeed} from './blog/Feed'
 import {GQLData} from '../models/gql'
 import {createBlogPosts} from '../models/creator'
 import {PageContext, Paging} from './blog/Paging'
 import { HideTablet, PageDescription, Section } from "../components/shared"
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 interface Props {
   data: GQLData
@@ -17,7 +17,7 @@ interface Props {
 const BlogPage: React.FC<Props> = ({data, pageContext}) => {
   return (
     <Page className="page-blog-list">
-      <HelmetWrapper
+      <HelmetTitleDescription
         title="Blog"
         description="Ideas about software development, practices. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more."
       />

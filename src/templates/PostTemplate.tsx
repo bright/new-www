@@ -6,13 +6,18 @@ import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import DateFormatter from '../components/subcomponents/Date'
 import DisqusComments from '../components/subcomponents/DisqusComments'
-import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import { AuthorData } from './post/AuthorData'
 import { getFileNameOnly } from '../helpers/pathHelpers'
 import { routeLinks } from '../config/routing'
 import { BlogPostStructuredData } from '../BlogPostStructuredData'
 import { getSrc, IGatsbyImageData } from 'gatsby-plugin-image'
 import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks'
+import { MetaImage } from '../meta/HelmetOgImage'
+import Helmet from 'react-helmet'
+import { MetaOgUrl } from '../meta/MetaOgUrl'
+import { MetaSiteName } from '../meta/MetaSiteName'
+import { MetaTitle } from '../meta/MetaTitle'
+import { MetaDescription } from '../meta/MetaDescription'
 
 const Container = styled.div`
   max-width: 960px;
@@ -70,19 +75,20 @@ export default function Template(props: {
 }) {
   const { markdownRemark, allMarkdownRemark } = props.data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
-  console.log('markdownRemark', markdownRemark)
+
   const slug = props.path.replace(/^(\/blog\/)/, '')
   return (
     <Page>
-      <HelmetWrapper title={page.title} description={markdownRemark.excerpt}>
-        <meta property='og:title' content={markdownRemark.frontmatter.title} />
-        <meta property='og:description' content={markdownRemark.excerpt} />
-        <meta property='og:url' content={props.data.site.siteMetadata.siteUrl + props.path} />
-        <meta property='og:site_name' content='Bright Inventions' />
+      <Helmet>
+        <MetaTitle title={markdownRemark.frontmatter.title} />
+        <MetaDescription description={markdownRemark.excerpt} />
+        <MetaSiteName />
+        <MetaOgUrl path={props.path} />
+
         <meta property='og:type' content='article' />
         <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
-        <meta property='og:image' content={getSrc(markdownRemark.frontmatter.image)} />
-      </HelmetWrapper>
+        <MetaImage imageUrl={getSrc(markdownRemark.frontmatter.image)} />
+      </Helmet>
 
       <Container className='container'>
         <article className='section'>

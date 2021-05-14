@@ -3,13 +3,13 @@ import React, {useState} from 'react'
 import classNames from 'classnames'
 
 import {Page} from '../layout/Page'
-import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import ProjectCard from '../components/subcomponents/ProjectCard'
 import {Section, PageDescription} from '../components/shared'
 import {createProjects} from '../models/creator'
 import {GQLData} from '../models/gql'
 
 import * as styles from './projects.module.scss'
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
   const projects = createProjects(data)
@@ -33,7 +33,7 @@ const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
 
   return (
     <Page>
-      <HelmetWrapper
+      <HelmetTitleDescription
         title='Projects'
         description='About our software development projects'
       />

@@ -7,14 +7,14 @@
 import React from 'react'
 
 import {Page} from '../layout/Page'
-import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import JobsOpenAll from './career/JobsOpenAll'
 import JobsOpenTop from './career/JobsOpenTop'
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 const CareerPage: React.FC = () => {
   return (
     <Page className="page-career">
-      <HelmetWrapper title="Career" />
+      <HelmetTitleDescription title="Career" />
       <section className="hero is-dark we-hire">
         <div className="hero-body">
           <div className="container">

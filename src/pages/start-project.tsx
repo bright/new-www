@@ -8,13 +8,13 @@
 import React from 'react'
 
 import {Page} from '../layout/Page'
-import HelmetWrapper from '../components/subcomponents/HelmetWrapper'
 import { Contact } from '../components/shared/Contact'
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 const StartProjectPage: React.FC = () => {
   return (
     <Page>
-      <HelmetWrapper
+      <HelmetTitleDescription
         title="Estimate a project"
         description="Estimate your project based on a description and technologies"
       />
