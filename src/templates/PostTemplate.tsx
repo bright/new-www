@@ -81,27 +81,15 @@ export default function Template(props: {
       <Helmet>
         <title>{title} | Bright Inventions</title>
         {title && <meta property='og:title' content={title} />}
-        <meta
-          name='description'
-          content={descriptionOrDefault(markdownRemark.excerpt)}
-        />
-        <meta
-          property='og:description'
-          content={descriptionOrDefault(markdownRemark.excerpt)}
-        />
+        <meta name='description' content={descriptionOrDefault(markdownRemark.excerpt)} />
+        <meta property='og:description' content={descriptionOrDefault(markdownRemark.excerpt)} />
         <meta property='og:site_name' content={siteMetadata.title} />
         <meta property='og:url' content={resolveUrl(props.path)} />
 
         <meta property='og:type' content='article' />
-        <meta
-          property='article:published_time'
-          content={markdownRemark.frontmatter.date}
-        />
+        <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
         {markdownRemark.frontmatter.image && (
-          <meta
-            property='og:image'
-            content={getSrc(markdownRemark.frontmatter.image)}
-          />
+          <meta property='og:image' content={getSrc(markdownRemark.frontmatter.image)} />
         )}
       </Helmet>
 
@@ -113,9 +101,7 @@ export default function Template(props: {
             </div>
             <div className='column has-text-right'>
               <div className='content has-text-grey-light'>
-                <p className='has-text-primary'>
-                  {markdownRemark.timeToRead} min
-                </p>
+                <p className='has-text-primary'>{markdownRemark.timeToRead} min</p>
                 <p className='tags has-justify-content-flex-end'>
                   {page.tags.map((tag, index) => (
                     <span className='tag' key={'tag-' + index}>
@@ -129,10 +115,7 @@ export default function Template(props: {
                   &nbsp;
                   <a
                     className='has-text-grey-light'
-                    href={
-                      '/admin/#/collections/blog/entries/' +
-                      getFileNameOnly(markdownRemark.fileAbsolutePath)
-                    }
+                    href={'/admin/#/collections/blog/entries/' + getFileNameOnly(markdownRemark.fileAbsolutePath)}
                   >
                     Edit
                   </a>
@@ -143,10 +126,7 @@ export default function Template(props: {
           </div>
 
           <Title className='title'>{page.title}</Title>
-          <Content
-            className='content is-family-secondary'
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          <Content className='content is-family-secondary' dangerouslySetInnerHTML={{ __html: html }} />
 
           <BackButton url={routeLinks.blog} label='Blog' />
 
