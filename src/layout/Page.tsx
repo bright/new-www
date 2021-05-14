@@ -36,7 +36,7 @@ export const Page: React.FC<{ className?: string }> = ({
         description='The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more.'
       />
       <Helmet>
-        <meta property='og:image' content={brightLogoShortBlack} />
+        <meta property='og:image' content={resolveUrl(brightLogoShortBlack)} />
         <meta property='og:url' content={resolveUrl('/')} />
       </Helmet>
       <TopNavigation path={currentPath} toggled={setMobileMenuOpened} />
