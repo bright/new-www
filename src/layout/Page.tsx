@@ -10,6 +10,7 @@ import '../styles/main.scss'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import Helmet from 'react-helmet'
 import { brightLogoShortBlack } from '../meta/bright-logo'
+import { resolveUrl } from '../meta/resolve-url'
 
 export const Page: React.FC<{ className?: string }> = ({
                                                          children,
@@ -36,6 +37,7 @@ export const Page: React.FC<{ className?: string }> = ({
       />
       <Helmet>
         <meta property='og:image' content={brightLogoShortBlack} />
+        <meta property='og:url' content={resolveUrl('/')} />
       </Helmet>
       <TopNavigation path={currentPath} toggled={setMobileMenuOpened} />
       {children}

@@ -1,5 +1,5 @@
 import React from 'react'
 
-import b_logo from '../../static/images/b_logo_black.svg'
+import b_logo from 'url-loader?limit=0!../../static/images/b_logo_black.svg'
 
 export const brightLogoShortBlack = b_logo
