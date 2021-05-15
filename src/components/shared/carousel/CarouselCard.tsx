@@ -60,7 +60,7 @@ const imageStyle = {
 
 const GoToContainer = styled.div({
   margin: '35px 0',
-  alignSelf: 'flex-start',
+  textAlign: 'start'
 })
 
 const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
