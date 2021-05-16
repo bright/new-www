@@ -8,6 +8,10 @@ import {createBlogPosts} from '../models/creator'
 import {PageContext, Paging} from './blog/Paging'
 import { HideTablet, PageDescription, Section } from "../components/shared"
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import Helmet from 'react-helmet'
+import { resolveUrl } from '../meta/resolve-url'
+// @ts-ignore
+import blogPostDefaultImage from '../../static/images/dummy/blog_post.png'
 
 interface Props {
   data: GQLData
@@ -21,6 +25,9 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
         title="Blog"
         description="Ideas about software development, practices. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more."
       />
+      <Helmet>
+        <meta property="og:image" content={resolveUrl(blogPostDefaultImage)}/>
+      </Helmet>
 
       <div className="container">
         <Section>
