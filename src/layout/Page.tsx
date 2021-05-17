@@ -11,6 +11,7 @@ import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import Helmet from 'react-helmet'
 import { brightLogoShortBlack, fbCompatibleBrightLogoShortBlack } from '../meta/bright-logo'
 import { resolveUrl } from '../meta/resolve-url'
+import { useLocation } from '@reach/router'
 
 export const Page: React.FC<{ className?: string }> = ({
                                                          children,
@@ -18,6 +19,8 @@ export const Page: React.FC<{ className?: string }> = ({
                                                        }) => {
   const [currentPath, setCurrentPath] = useState<string>()
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
+
+  const { pathname } = useLocation()
 
   useEffect(() => {
     if (isBrowser()) {
@@ -37,7 +40,7 @@ export const Page: React.FC<{ className?: string }> = ({
       />
       <Helmet>
         <meta property='og:image' content={resolveUrl(fbCompatibleBrightLogoShortBlack)} />
-        <meta property='og:url' content={resolveUrl('/')} />
+        <meta property='og:url' content={resolveUrl(pathname)} />
       </Helmet>
       <TopNavigation path={currentPath} toggled={setMobileMenuOpened} />
       {children}

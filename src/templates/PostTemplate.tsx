@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby'
 import React from 'react'
+import { useLocation } from '@reach/router';
 import styled from 'styled-components'
-
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import DateFormatter from '../components/subcomponents/Date'
@@ -73,7 +73,7 @@ export default function Template(props: {
 }) {
   const { markdownRemark, allMarkdownRemark } = props.data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
-
+  const { pathname } = useLocation()
   const slug = props.path.replace(/^(\/blog\/)/, '')
   const title = markdownRemark.frontmatter.title
   return (
@@ -84,8 +84,7 @@ export default function Template(props: {
         <meta name='description' content={descriptionOrDefault(markdownRemark.excerpt)} />
         <meta property='og:description' content={descriptionOrDefault(markdownRemark.excerpt)} />
         <meta property='og:site_name' content={siteMetadata.title} />
-        <meta property='og:url' content={resolveUrl(props.path)} />
-
+        <meta property='og:url' content={resolveUrl(pathname)} />
         <meta property='og:type' content='article' />
         <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
         {markdownRemark.frontmatter.image && (
