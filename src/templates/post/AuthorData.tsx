@@ -1,57 +1,29 @@
-import React, { useMemo } from 'react'
+import React, { ReactNode, useMemo } from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { routeLinks } from '../../config/routing'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
 import { HelmetMetaAuthor } from '../../HelmetMetaAuthor'
+import { useAuthors } from '../../use-authors/use-authors'
 
 interface AuthorDataProps {
-  author_id?: string
-  avatar?: string
-  name?: string
-  bio?: string
+  authorId?: string
 }
 
-export const AuthorData: React.FC<AuthorDataProps> = ({ author_id }) => {
-  const authors = useStaticQuery(graphql`
-      {
-          allMarkdownRemark(filter: { frontmatter: { author_id: { ne: null } } }) {
-              nodes {
-                  frontmatter {
-                      author_id
-                      avatar {
-                          childImageSharp {
-                              gatsbyImageData(
-                                  width: 64
-                              )
-                          }
-                      }
-                      bio
-                      name
-                      web
-                  }
-              }
-          }
-      }
-  `)
-  const { avatar, bio, name, web } = useMemo(() => {
-    return authors.allMarkdownRemark.nodes.find(({ frontmatter }: { frontmatter: { author_id: string } }) => {
-      return frontmatter.author_id === author_id
-    })!.frontmatter
-  }, [author_id])
-  const LinkComponent = author_id ? 'a' : 'span'
+export const AuthorData: React.FC<AuthorDataProps> = ({ authorId }) => {
+  const [{ avatar, name, bio }] = authorId ? useAuthors({ authorId, avatarSize: { width: 64 } }) : []
+
+  const LinkComponent = authorId
+    ? (props: { children?: ReactNode }) => <Link to={`${routeLinks.aboutUs}/${authorId}`}>{props.children}</Link>
+    : (props: { children?: ReactNode }) => <span>{props.children}</span>
 
   return (
-    <LinkComponent {...(author_id ? { ...{ href: `${routeLinks.aboutUs}/${author_id}` } } : {})}>
+    <LinkComponent>
       <HelmetMetaAuthor author={name} />
       <article className='media'>
         {avatar && (
           <figure className='media-left'>
             <p className='image is-64x64'>
-              <GatsbyImage
-                image={getImage(avatar)!}
-                alt={name + ' bio photo'}
-                className='is-rounded'
-              />
+              <GatsbyImage image={getImage(avatar)!} alt={name + ' bio photo'} className='is-rounded' />
             </p>
           </figure>
         )}

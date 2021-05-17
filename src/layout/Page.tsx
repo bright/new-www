@@ -20,7 +20,6 @@ export const Page: React.FC<{ className?: string }> = ({
 
   const { pathname } = useLocation()
 
-
   return (
     <div
       className={classNames('layout-container', className, {

@@ -96,7 +96,7 @@ export default function Template(props: {
         <article className='section'>
           <div className='columns is-vcentered'>
             <div className='column is-half'>
-              <AuthorData author_id={page.author} />
+              <AuthorData authorId={page.author} />
             </div>
             <div className='column has-text-right'>
               <div className='content has-text-grey-light'>
