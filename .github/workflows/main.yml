@@ -61,9 +61,6 @@ jobs:
           deploy-branch: gh-pages
   deploy-s3:
     runs-on: ubuntu-18.04
-    env:
-      AWS_REGION: 'eu-central-1'
-      AWS_DEFAULT_REGION: 'eu-central-1'
     needs:
       - build
     steps:
@@ -100,6 +97,8 @@ jobs:
           AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
       - run: yarn run invalidate-cf-cache
         env:
+          AWS_REGION: 'eu-central-1'
+          AWS_DEFAULT_REGION: 'eu-central-1'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
