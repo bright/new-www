@@ -89,7 +89,7 @@ export default function Template(props: {
         <meta property='og:type' content='article' />
         <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
         {markdownRemark.frontmatter.image && (
-          <meta property='og:image' content={getSrc(markdownRemark.frontmatter.image)} />
+          <meta property='og:image' content={resolveUrl(getSrc(markdownRemark.frontmatter.image)!)} />
         )}
       </Helmet>
 
