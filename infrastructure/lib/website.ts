@@ -72,7 +72,8 @@ export class Website extends cdk.Stack {
       resources: [Arn.format({
         resource: 'distribution',
         service: 'cloudfront',
-        resourceName: webDistribution.distributionId
+        resourceName: webDistribution.distributionId,
+        region: ''
       }, this)]
     }))
 
