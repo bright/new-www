@@ -1,0 +1,2 @@
+(self.webpackChunkbright_website=self.webpackChunkbright_website||[]).push([[930],{6009:function(e,t,n){"use strict";n.r(t);var c=n(7294),i=n(844),r=n(8490),s=n(307);t.default=function(){return c.createElement(i.T,null,c.createElement(r.Z,{title:"Estimate a project",description:"Estimate your project based on a description and technologies"}),c.createElement("section",{className:"section"},c.createElement(s.r,null)))}}}]);
+//# sourceMappingURL=component---src-pages-start-project-tsx-ef6dbbb80eba14619b28.js.map
