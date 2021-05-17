@@ -1,7 +1,8 @@
 import * as cdk from '@aws-cdk/core'
-import { CfnOutput } from '@aws-cdk/core'
+import { Arn, CfnOutput } from '@aws-cdk/core'
 import { Bucket } from '@aws-cdk/aws-s3'
 import {
+  CfnDistribution,
   CloudFrontWebDistribution,
   OriginAccessIdentity,
   OriginProtocolPolicy,
@@ -65,6 +66,15 @@ export class Website extends cdk.Stack {
         aliases: domainNames
       })
     })
+
+    user.addToPolicy(new PolicyStatement({
+      actions: ['cloudfront:CreateInvalidation'],
+      resources: [Arn.format({
+        resource: 'distribution',
+        service: 'cloudfront',
+        resourceName: webDistribution.distributionId
+      }, this)]
+    }))
 
     new CfnOutput(this, 'DistributionId', {
       value: webDistribution.distributionId
