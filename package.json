@@ -55,7 +55,7 @@
     "build": "gatsby build --prefix-paths --log-pages",
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public",
-    "deploy-s3": "gatsby-plugin-s3 deploy",
+    "deploy-s3": "gatsby-plugin-s3 deploy && aws cloudfront create-invalidation --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID} --paths '/*'",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "serve": "gatsby serve",

@@ -69,5 +69,9 @@ export class Website extends cdk.Stack {
     new CfnOutput(this, 'DistributionId', {
       value: webDistribution.distributionId
     })
+
+    new CfnOutput(this, 'DistributionDomainName', {
+      value: webDistribution.distributionDomainName
+    })
   }
 }
