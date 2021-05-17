@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -40,7 +40,7 @@ jobs:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
           CI: true
   deploy-gh-pages:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     needs:
       - build
     steps:
@@ -60,7 +60,7 @@ jobs:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
   deploy-s3:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     env:
       AWS_REGION: 'eu-central-1'
       AWS_DEFAULT_REGION: 'eu-central-1'
