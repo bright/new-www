@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: kasia g
-slug: kasia g
+slug: kasia-g
 name: Katarzyna Gałka
 short_name: Kasia
 email: katarzyna.galka@brightinventions.pl

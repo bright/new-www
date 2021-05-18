@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: krzysiek h
-slug: krzysiek h
+slug: krzysiek-h
 name: Krzysiek Hinc
 short_name: Krzysiek
 email: krzysiek.hinc@brightinventions.pl

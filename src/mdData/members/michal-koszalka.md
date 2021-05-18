@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: michal k
-slug: michal k
+slug: michal-k
 name: Michał Koszałka 
 short_name: Michał 
 email: michal.koszalka@brightinventions.pl

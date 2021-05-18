@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: patryk sz
-slug: patryk sz
+slug: patryk-sz
 name: Patryk Szlagowski
 short_name: Patryk
 email: patryk.szlagowskia@brightinventions.pl

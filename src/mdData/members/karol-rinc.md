@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: karol r
-slug: karol r
+slug: karol-r
 name: Karol Rinc
 short_name: Karol
 email: karol.rinc@brightinventions.pl

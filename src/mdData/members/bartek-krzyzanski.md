@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: bartek k
-slug: bartek k
+slug: bartek-k
 name: Bartek Krzyżański
 short_name: Bartek
 email: bartek.krzyzanski@brightinventions.pl
