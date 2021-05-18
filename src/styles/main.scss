@@ -1,5 +1,5 @@
 @import "variables";
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Lato&display=swap");
 
 @import "bulma/sass/utilities/all";
 @import "bulma/sass/base/all";
@@ -36,7 +36,6 @@
 
 @import "fonts";
 
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .layout-container {
   margin-top: $navbar-height;
