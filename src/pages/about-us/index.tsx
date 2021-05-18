@@ -25,7 +25,7 @@ const AboutUsPage: React.FC = ({ children }) => (
           {tabs.map(tab => (
             <Link
               activeClassName="is-active"
-              to={`${routeLinks.aboutUs}/${tab.path}`}
+              to={routeLinks.aboutUs({page: tab.path})}
               partiallyActive
               key={tab.label}
             >

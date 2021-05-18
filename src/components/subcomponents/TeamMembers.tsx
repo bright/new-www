@@ -3,6 +3,7 @@ import React from "react"
 import styled from "styled-components"
 import { routeLinks } from '../../config/routing'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { useAuthors } from '../../use-authors/use-authors'
 
 const TeamMember = styled.article`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -69,45 +70,20 @@ const Container = styled.div`
   margin-bottom: 122px;
 `
 const TeamMembers = () => {
-  const {
-    allMarkdownRemark: { nodes },
-  } = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark(
-        filter: { frontmatter: { ex: { ne: true }, author_id: { ne: null } } }
-        sort: { fields: frontmatter___author_id }
-      ) {
-        nodes {
-          frontmatter {
-            avatar {
-                childImageSharp {
-                    gatsbyImageData
-                }
-            }
-            author_id
-            name
-            short_name
-            slug
-            bio
-            hobby
-          }
-        }
-      }
-    }
-  `)
+  const members = useAuthors()
+
   return (
     <Container>
-      {nodes.map(v => {
-        const member = v.frontmatter
+      {members.map(member => {
         return (
-          <TeamMember key={member.author_id}>
-            <Link to={`${routeLinks.aboutUs}/${member.slug || member.author_id}`}>
+          <TeamMember key={member.authorId}>
+            <Link to={routeLinks.aboutUs(member)}>
               <figure>
                 <GatsbyImage image={getImage(member.avatar)!} alt={member.name} />
               </figure>
               <div>
                 <p>
-                  <strong>{member.short_name}</strong>
+                  <strong>{member.shortName}</strong>
                 </p>
                 <p>{member.bio}</p>
                 <p>{member?.hobby}</p>

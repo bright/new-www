@@ -5,24 +5,24 @@ interface AuthorsFrontmatterItem {
   avatar: IGatsbyImageData
   bio: string
   name: string
+  short_name: string
+  hobby: string | undefined
   web: string | undefined
-}
-
-export interface Author {
-  authorId: string
-  name: string
-  bio: string
-  avatar: IGatsbyImageData
 }
 
 function toAuthor(frontmatter: AuthorsFrontmatterItem) {
   return {
     authorId: frontmatter.author_id,
     bio: frontmatter.bio,
+    web: frontmatter.web,
     avatar: frontmatter.avatar,
     name: frontmatter.name,
+    shortName: frontmatter.short_name,
+    hobby: frontmatter.hobby,
   }
 }
+
+export type Author = ReturnType<typeof toAuthor>
 
 export function toAuthors(queryResult: AuthorsFrontmatterQueryResult): Author[] {
   return queryResult.allMarkdownRemark.nodes.map(({ frontmatter }) => toAuthor(frontmatter))

@@ -15,7 +15,7 @@ export interface MenuElement {
 }
 
 const TopMenu: MenuElement[] = [
-  { link: `${routeLinks.aboutUs}/story`, title: 'why us' },
+  { link: routeLinks.aboutUs({page: 'story'}), title: 'why us' },
   { link: routeLinks.whatWeOffer, title: 'what we do' },
   { link: routeLinks.projects, title: 'case studies' },
   { link: routeLinks.career, title: 'career' },

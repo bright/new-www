@@ -22,7 +22,7 @@ export const Footer = () => {
               </a>
             </div>
             <SocialIcons className='padded-right' />
-            {/* 
+            {/*
             <div
               className='clutch-widget content'
               data-url='https://widget.clutch.co'
@@ -48,7 +48,7 @@ export const Footer = () => {
               explore more
             </h6>
             <p className='content'>
-              <a href={routeLinks.aboutUs}>about us</a>
+              <a href={routeLinks.aboutUs()}>about us</a>
             </p>
             <p className='content'>
               <a href={routeLinks.whatWeOffer}>what we offer</a>

@@ -49,7 +49,7 @@ export default function Template({
               <p dangerouslySetInnerHTML={{ __html: html }}></p>
             </div>
           </div>
-          <BackButton url={`${routeLinks.aboutUs}/team`} label="About us"/>
+          <BackButton url={routeLinks.aboutUs({page: 'team'})} label="About us"/>
         </article>
       </div>
       {/*

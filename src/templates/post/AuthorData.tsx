@@ -13,7 +13,7 @@ export const AuthorData: React.FC<AuthorDataProps> = ({ authorId }) => {
   const [{ avatar, name, bio }] = authorId ? useAuthors({ authorId, avatarSize: { width: 64 } }) : []
 
   const LinkComponent = authorId
-    ? (props: { children?: ReactNode }) => <Link to={`${routeLinks.aboutUs}/${authorId}`}>{props.children}</Link>
+    ? (props: { children?: ReactNode }) => <Link to={routeLinks.aboutUs({ authorId })}>{props.children}</Link>
     : (props: { children?: ReactNode }) => <span>{props.children}</span>
 
   return (
