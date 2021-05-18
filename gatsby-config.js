@@ -127,6 +127,10 @@ module.exports = {
         hostname: 'brightinventions.pl',
         region: 'eu-central-1'
       }
+    },
+    {
+      resolve: 'gatsby-plugin-force-trailing-slashes',
+      options: {}
     }
   ]
 }

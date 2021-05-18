@@ -21,6 +21,7 @@
     "gatsby-plugin-styled-components": "^4.4.0",
     "gatsby-plugin-typescript": "^3.4.0",
     "gatsby-plugin-s3": "^0.3.8",
+    "gatsby-plugin-force-trailing-slashes": "^1.0.5",
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-json": "^3.4.0",
     "gatsby-transformer-remark": "^3.2.0",
