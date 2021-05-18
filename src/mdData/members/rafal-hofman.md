@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: rafal h
-slug: rafal h
+slug: rafal-h
 name: Rafał Hofman
 short_name: Rafał
 email: rafal.hofman@brightinventions.pl
