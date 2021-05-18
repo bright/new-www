@@ -11,11 +11,6 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <script
-          type="text/javascript"
-          src="https://widget.clutch.co/static/js/widget.js"
-          async
-        ></script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
