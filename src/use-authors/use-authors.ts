@@ -11,7 +11,7 @@ function toAuthorsFilter(props: UseAuthorsParams) {
   if (props.authorId) {
     return (author: Author) => props.authorId === author.authorId
   }
-  return () => false
+  return () => true
 }
 
 export const useAuthors = (props: UseAuthorsParams = {}) => {
