@@ -13,9 +13,12 @@ const useAuthorsAvatars64Query: () => AuthorsFrontmatterQueryResult = () =>
                 gatsbyImageData(width: 64)
               }
             }
-            bio
             name
-            web
+            short_name
+            slug
+            bio
+            hobby
+            ex
           }
         }
       }

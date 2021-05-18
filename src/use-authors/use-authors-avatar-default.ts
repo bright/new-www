@@ -21,6 +21,7 @@ const useAuthorsAvatarsDefaultQuery: () => AuthorsFrontmatterQueryResult = () =>
             slug
             bio
             hobby
+            ex
           }
         }
       }

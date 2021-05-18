@@ -8,6 +8,7 @@ interface AuthorsFrontmatterItem {
   short_name: string
   hobby: string | undefined
   web: string | undefined
+  ex: boolean | undefined
 }
 
 function toAuthor(frontmatter: AuthorsFrontmatterItem) {
@@ -19,6 +20,7 @@ function toAuthor(frontmatter: AuthorsFrontmatterItem) {
     name: frontmatter.name,
     shortName: frontmatter.short_name,
     hobby: frontmatter.hobby,
+    ex: frontmatter.ex
   }
 }
 

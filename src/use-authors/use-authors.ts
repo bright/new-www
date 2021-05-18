@@ -7,11 +7,11 @@ type UseAuthorsParams = {
   avatarSize?: { width: 64 }
 }
 
-function toAuthorsFilter(props: UseAuthorsParams) {
+function toAuthorsFilter(props: UseAuthorsParams): (author: Author) => boolean {
   if (props.authorId) {
     return (author: Author) => props.authorId === author.authorId
   }
-  return () => true
+  return ({ ex }) => !ex
 }
 
 export const useAuthors = (props: UseAuthorsParams = {}) => {
@@ -20,10 +20,10 @@ export const useAuthors = (props: UseAuthorsParams = {}) => {
   switch (props.avatarSize?.width) {
     case 64:
       data = useAuthorsAvatars64()
-      break;
+      break
     default:
       data = useAuthorsAvatarsDefault()
-      break;
+      break
   }
 
   const authorsFilter = toAuthorsFilter(props)
