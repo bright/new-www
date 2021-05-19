@@ -42,14 +42,26 @@ published: true
    * This stage **helps to eliminate other mistakes** that we weren’t aware of till this point. During this phase we can even come to the conclusion that our app is too difficult for users or users would use it differently than was expected.
 3. **Building the MVP (Minimum Viable Product)** 
 
-   According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **MVP is the minimal version of the product/service including only crucial features.**
+   (4-20 weeks)
 
-   Developing crucial features helps to reduce time to market and prevent app owners from spending too much money for the product that hasn’t been verified by the market yet. 
+   * According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **MVP is the minimal version of the product/service including only crucial features.**
+   * Developing crucial features helps to reduce time to market and prevent app owners from spending too much money for the product that hasn’t been verified by the market yet. 
+   * MVP development works closely with the agile methodology.
+   * Business trends and technologies transform every day so **developing MVPs helps quickly enter the market** and easily adapt to any possible business or technical changes. 
+   * MVP is also an opportunity to meet first technical challenges that could have been missed during prototyping phase such as: accessing geo location in the background or handling bluetooth communication with other devices.
+   * Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
+4. **App Development & Maintenance**
 
-   MVP development works closely with the agile methodology.
+   (Infinity – usually)
 
-   Business trends and technologies transform every day so **developing MVPs helps quickly enter the market** and easily adapt to any possible business or technical changes. 
+   * Congrats, you’ve made it! :)
+   * At this stage, a software development company regularly deploys some new features to production.
+   * **Every change in the product will affect your users.** Thus at this stage the priority for developers is to maintain the app stability. All development updates should be tested in a staging environment.
+   * The crucial part is to analyze users’ behavior to see how they respond to new features.
+   * Also, at this stage mobile app developers have to regularly update the apps to cope with the Android and iOS changes.
+   * It’s a constant challenge of developing our product to give more and more satisfaction to the users. :)
 
-   MVP is also an opportunity to meet first technical challenges that could have been missed during prototyping phase such as: accessing geo location in the background or handling bluetooth communication with other devices.
+Now you know more about the most important app development stages. Remember that the final flow always depends on the project. Not every step is required. Nothing is set in stone in the app development world.
 
-   Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
+Do you want to kick off your app development process? 
+[Estimate project](https://brightinventions.pl/start-project)
