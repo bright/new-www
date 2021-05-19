@@ -20,6 +20,8 @@ published: true
 
 1. **App Idea**
 
+   ![idea for na app](/static/images/1_idea.png)
+
    * Even the most unique idea doesn’t guarantee success. This is only the beginning.
    * **This phase helps quickly verify if the idea has some business potential.** For example, creating another weather app may not be a profitable option.
    * Also, during this stage, you can start looking for a suitable software development company.
@@ -27,6 +29,8 @@ published: true
    * This stage helps to answer another big question – how much would my app cost? If the idea is too expensive to develop, you can modify it or even just give up on it.
    * Ideation is a significant time for product designers. During workshops with the client, designers can better understand the whole solution. This brings us to the Prototyping phase.
 2. **App Prototyping**
+
+   ![App prototyping](/static/images/2_app_prototyping.png)
 
    (1-4 weeks)
 
@@ -42,6 +46,8 @@ published: true
    * This stage **helps to eliminate other mistakes** that we weren’t aware of till this point. During this phase we can even come to the conclusion that our app is too difficult for users or users would use it differently than was expected.
 3. **Building the MVP (Minimum Viable Product)** 
 
+   ![Building the MVP](/static/images/3_mvp.png)
+
    (4-20 weeks)
 
    * According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **MVP is the minimal version of the product/service including only crucial features.**
@@ -51,6 +57,8 @@ published: true
    * MVP is also an opportunity to meet first technical challenges that could have been missed during prototyping phase such as: accessing geo location in the background or handling bluetooth communication with other devices.
    * Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
 4. **App Development & Maintenance**
+
+   ![App Development & Maintenance](/static/images/4_app_development_-_maintenance.png)
 
    (Infinity – usually)
 
@@ -64,4 +72,6 @@ published: true
 Now you know more about the most important app development stages. Remember that the final flow always depends on the project. Not every step is required. Nothing is set in stone in the app development world.
 
 Do you want to kick off your app development process? 
+
+
 [Estimate project](https://brightinventions.pl/start-project)
