@@ -2,7 +2,7 @@
 layout: post
 title: What are the stages of app development?
 date: 2021-05-19T10:00:56.280Z
-image: /static/images/blogpost_stagesofappdevelopment.png
+image: /images/blogpost_stagesofappdevelopment.png
 author: izabela
 tags:
   - app
@@ -20,7 +20,7 @@ published: true
 
 1. **App Idea**
 
-   ![idea for na app](/static/images/1_idea.png)
+   ![idea for na app](/images/1_idea.png)
 
    * Even the most unique idea doesn’t guarantee success. This is only the beginning.
 
@@ -31,7 +31,7 @@ published: true
    * Ideation is a significant time for product designers. During workshops with the client, designers can better understand the whole solution. This brings us to the Prototyping phase.
 2. **App Prototyping**
 
-   ![App prototyping](/static/images/2_app_prototyping.png)
+   ![App prototyping](/images/2_app_prototyping.png)
 
    (1-4 weeks)
 
@@ -48,7 +48,7 @@ published: true
    * This stage **helps to eliminate other mistakes** that we weren’t aware of till this point. During this phase we can even come to the conclusion that our app is too difficult for users or users would use it differently than was expected.
 3. **Building the MVP (Minimum Viable Product)** 
 
-   ![Building the MVP](/static/images/3_mvp.png)
+   ![Building the MVP](/images/3_mvp.png)
 
    (4-20 weeks)
 
@@ -61,7 +61,7 @@ published: true
    * Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
 4. **App Development & Maintenance**
 
-   ![App Development & Maintenance](/static/images/4_app_development_-_maintenance.png)
+   ![App Development & Maintenance](/images/4_app_development_-_maintenance.png)
 
    (Infinity – usually)
 
