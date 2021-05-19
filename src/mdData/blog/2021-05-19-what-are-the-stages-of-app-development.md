@@ -75,7 +75,7 @@ published: true
 
 Now you know more about the most important app development stages. Remember that the final flow always depends on the project. Not every step is required. Nothing is set in stone in the app development world.
 
-Do you want to kick off your app development process? 
+**Do you want to kick off your app development process?** 
 
 [Estimate project](https://brightinventions.pl/start-project)
 
