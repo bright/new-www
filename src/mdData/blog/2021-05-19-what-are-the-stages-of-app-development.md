@@ -2,7 +2,7 @@
 layout: post
 title: What are the stages of app development?
 date: 2021-05-19T10:00:56.280Z
-image: /static/images/blogpost_stagesofappdevelopment.png
+image: /images/blogpost_stagesofappdevelopment.png
 author: izabela
 tags:
   - app
