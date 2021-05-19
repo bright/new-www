@@ -80,6 +80,6 @@ Now you know more about the most important app development stages. Remember that
 
 **Do you want to kick off your app development process?** 
 
-<center>[Estimate project](https://brightinventions.pl/start-project)</center>
+[Estimate project](https://brightinventions.pl/start-project)
 
 Co-authors: Mateusz Klimczak (Technical Leader & Project Manager @ Bright Inventions) and Alisa Kashytska (Product Designer @ Bright Inventions)
