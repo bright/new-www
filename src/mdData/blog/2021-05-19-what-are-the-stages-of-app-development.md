@@ -6,6 +6,10 @@ image: /static/images/blogpost_stagesofappdevelopment.png
 author: izabela
 tags:
   - app
+  - development
+  - wireframes
+  - mockups
+  - prototypes
 hidden: false
 comments: true
 published: true
@@ -26,4 +30,26 @@ published: true
 
    (1-4 weeks)
 
-   The stage when a product **designer creates the first visual representation of the idea**.
+   * The stage when a product **designer creates the first visual representation of the idea**.
+   * Prototyping phase contains 3 stages: **wireframes, mockups, prototypes**. 
+   * **Wireframes are very simple designs** (even drawn on a piece of paper) that show the basic application flow. They are just a structure – a backbone of the product that may not be contextually full.
+   * There are two types of wireframes:
+
+     * **Low fidelity wireframes** – help understand the structure of the product/service and make sure the client and the team are on the same page.
+     * **High fidelity wireframes** – help understand the structure and feel of the product/service. They can be presented to stakeholders and first user testers.  
+   * Then come mockups that derive from high fidelity wireframes. **Mockups ensure the client that all requirements are met**. Also, provide developers with all the info about UI elements.
+   * After the mockups stage, it’s **finally time for prototypes**. They are basic clickable mockups or wireframes without any backend. The product designer creates mockups especially to show testers how the solutions might work. This is the moment when the idea starts to be something present, something that we can click on and engage with.
+   * This stage **helps to eliminate other mistakes** that we weren’t aware of till this point. During this phase we can even come to the conclusion that our app is too difficult for users or users would use it differently than was expected.
+3. **Building the MVP (Minimum Viable Product)** 
+
+   According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **MVP is the minimal version of the product/service including only crucial features.**
+
+   Developing crucial features helps to reduce time to market and prevent app owners from spending too much money for the product that hasn’t been verified by the market yet. 
+
+   MVP development works closely with the agile methodology.
+
+   Business trends and technologies transform every day so **developing MVPs helps quickly enter the market** and easily adapt to any possible business or technical changes. 
+
+   MVP is also an opportunity to meet first technical challenges that could have been missed during prototyping phase such as: accessing geo location in the background or handling bluetooth communication with other devices.
+
+   Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
