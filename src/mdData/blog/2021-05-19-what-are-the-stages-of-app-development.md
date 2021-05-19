@@ -18,7 +18,7 @@ published: true
 
 **Web or mobile app development steps and timelines**
 
-1. **App Idea**
+1. ## **App Idea**
 
    ![idea for na app](/images/1_idea.png)
 
@@ -28,11 +28,11 @@ published: true
    * Software development companies often conduct workshops with the client to discuss the idea and its potential.
    * This stage helps to answer another big question – how much would my app cost? If the idea is too expensive to develop, you can modify it or even just give up on it.
    * Ideation is a significant time for product designers. During workshops with the client, designers can better understand the whole solution. This brings us to the Prototyping phase.
-2. **App Prototyping**
-
-   ![App prototyping](/images/2_app_prototyping.png)
+2. ## **App Prototyping**
 
    (1-4 weeks)
+
+   ![App prototyping](/images/2_app_prototyping.png)
 
    * The stage when a product **designer creates the first visual representation of the idea**.
    * Prototyping phase contains 3 stages: **wireframes, mockups, prototypes**. 
@@ -44,11 +44,11 @@ published: true
    * Then come mockups that derive from high fidelity wireframes. **Mockups ensure the client that all requirements are met**. Also, provide developers with all the info about UI elements.
    * After the mockups stage, it’s **finally time for prototypes**. They are basic clickable mockups or wireframes without any backend. The product designer creates mockups especially to show testers how the solutions might work. This is the moment when the idea starts to be something present, something that we can click on and engage with.
    * This stage **helps to eliminate other mistakes** that we weren’t aware of till this point. During this phase we can even come to the conclusion that our app is too difficult for users or users would use it differently than was expected.
-3. **Building the MVP (Minimum Viable Product)** 
-
-   ![Building the MVP](/images/3_mvp.png)
+3. ## **Building the MVP (Minimum Viable Product)** 
 
    (4-20 weeks)
+
+   ![Building the MVP](/images/3_mvp.png)
 
    * According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **[MVP](https://brightinventions.pl/blog/4-things-we-love-about-building-mvps/) is the minimal version of the product/service including only crucial features.**
    * Developing crucial features helps to reduce time to market and prevent app owners from spending too much money for the product that hasn’t been verified by the market yet. 
@@ -56,11 +56,11 @@ published: true
    * Business trends and technologies transform every day so **developing MVPs helps quickly enter the market** and easily adapt to any possible business or technical changes. 
    * MVP is also an opportunity to meet first technical challenges that could have been missed during prototyping phase such as: accessing geo location in the background or handling bluetooth communication with other devices.
    * Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
-4. **App Development & Maintenance**
-
-   ![App Development & Maintenance](/images/4_app_development_-_maintenance.png)
+4. ## **App Development & Maintenance**
 
    (Infinity – usually)
+
+   ![App Development & Maintenance](/images/4_app_development_-_maintenance.png)
 
    * Congrats, you’ve made it! :)
    * At this stage, a software development company regularly deploys some new features to production.
