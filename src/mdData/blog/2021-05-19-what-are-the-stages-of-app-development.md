@@ -2,7 +2,7 @@
 layout: post
 title: What are the stages of app development?
 date: 2021-05-19T10:00:56.280Z
-image: /images/blogpost_stagesofappdevelopment.png
+image: /static/images/blogpost_stagesofappdevelopment.png
 author: izabela
 tags:
   - app
@@ -20,10 +20,9 @@ published: true
 
 1. **App Idea**
 
-   ![idea for na app](/images/1_idea.png)
+   ![idea for na app](/static/images/1_idea.png)
 
    * Even the most unique idea doesn’t guarantee success. This is only the beginning.
-
    * **This phase helps quickly verify if the idea has some business potential.** For example, creating another weather app may not be a profitable option.
    * Also, during this stage, you can start looking for a suitable software development company.
    * Software development companies often conduct workshops with the client to discuss the idea and its potential.
@@ -31,12 +30,11 @@ published: true
    * Ideation is a significant time for product designers. During workshops with the client, designers can better understand the whole solution. This brings us to the Prototyping phase.
 2. **App Prototyping**
 
-   ![App prototyping](/images/2_app_prototyping.png)
+   ![App prototyping](/static/images/2_app_prototyping.png)
 
    (1-4 weeks)
 
    * The stage when a product **designer creates the first visual representation of the idea**.
-
    * Prototyping phase contains 3 stages: **wireframes, mockups, prototypes**. 
    * **Wireframes are very simple designs** (even drawn on a piece of paper) that show the basic application flow. They are just a structure – a backbone of the product that may not be contextually full.
    * There are two types of wireframes:
@@ -48,12 +46,11 @@ published: true
    * This stage **helps to eliminate other mistakes** that we weren’t aware of till this point. During this phase we can even come to the conclusion that our app is too difficult for users or users would use it differently than was expected.
 3. **Building the MVP (Minimum Viable Product)** 
 
-   ![Building the MVP](/images/3_mvp.png)
+   ![Building the MVP](/static/images/3_mvp.png)
 
    (4-20 weeks)
 
-   * According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **MVP is the minimal version of the product/service including only crucial features.**
-
+   * According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **[MVP](https://brightinventions.pl/blog/4-things-we-love-about-building-mvps/) is the minimal version of the product/service including only crucial features.**
    * Developing crucial features helps to reduce time to market and prevent app owners from spending too much money for the product that hasn’t been verified by the market yet. 
    * MVP development works closely with the agile methodology.
    * Business trends and technologies transform every day so **developing MVPs helps quickly enter the market** and easily adapt to any possible business or technical changes. 
@@ -61,12 +58,11 @@ published: true
    * Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
 4. **App Development & Maintenance**
 
-   ![App Development & Maintenance](/images/4_app_development_-_maintenance.png)
+   ![App Development & Maintenance](/static/images/4_app_development_-_maintenance.png)
 
    (Infinity – usually)
 
    * Congrats, you’ve made it! :)
-
    * At this stage, a software development company regularly deploys some new features to production.
    * **Every change in the product will affect your users.** Thus at this stage the priority for developers is to maintain the app stability. All development updates should be tested in a staging environment.
    * The crucial part is to analyze users’ behavior to see how they respond to new features.
@@ -78,7 +74,5 @@ Now you know more about the most important app development stages. Remember that
 **Do you want to kick off your app development process?** 
 
 [Estimate project](https://brightinventions.pl/start-project)
-
-
 
 Co-authors: Mateusz Klimczak (Technical Leader & Project Manager @ Bright Inventions) and Alisa Kashytska (Product Designer @ Bright Inventions)
