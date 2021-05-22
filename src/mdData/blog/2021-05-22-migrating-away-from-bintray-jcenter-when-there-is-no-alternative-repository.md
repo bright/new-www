@@ -300,10 +300,7 @@ Then I copied all the files from Gradle cache to `libs` using the
 following command:
 
 ```bash
-for f in $(find /Users/azabost/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker/dexmaker/2.21.0 -type f)
-do
-    cp -v $f libs/com/linkedin/dexmaker/dexmaker/2.21.0/.
-done
+find ~/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker/dexmaker/2.21.0 -type f -exec cp -v {} libs/com/linkedin/dexmaker/dexmaker/2.21.0 \;
 ```
 
 which printed this output:
