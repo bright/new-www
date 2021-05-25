@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Traits of a great side project
+date: 2019-04-28T22:00:00.000Z
+image: /static/images/work-731198_1920.jpg
 author: olo
-hidden: false
 tags:
   - programming
   - after-hours
   - motivation
-date: '2019-04-28T22:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
 
