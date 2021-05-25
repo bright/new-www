@@ -2,7 +2,7 @@
 layout: post
 title: Android - Koin DI
 date: 2019-03-20T23:00:00.000Z
-image: /static/images/android.jpeg
+image: /images/android.jpeg
 author: szymek
 tags:
   - blog
