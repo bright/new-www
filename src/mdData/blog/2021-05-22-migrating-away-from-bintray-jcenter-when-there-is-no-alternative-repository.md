@@ -19,7 +19,7 @@ published: true
 # TL;DR version #
 
 If you can't find a library (Maven dependency) you need for your project
-after Bintray/JCenter (or other similar service) shutdown, but you still
+after Bintray/JCenter (or another similar service) shutdown, but you still
 have it in your local Gradle cache, you can easily set up your own local
 Maven repository with that library as a replacement and keep the files
 for as long as you need (see
@@ -32,7 +32,7 @@ paragraphs for the details).
 
 A few months ago JFrog
 [announced it is sunsetting](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/)
-some of their services, including Bintray and JCenter, where a lot of
+some of its services, including Bintray and JCenter, where a lot of
 dependencies are hosted. According to
 [MvnRepository](https://mvnrepository.com/), there are
 [841,529 indexed jars](https://mvnrepository.com/repos/jcenter) on
@@ -64,7 +64,7 @@ simply switch over to a different Maven repository (preferably, Maven
 Central). What they usually don't mention is that you can consider
 yourself really lucky if you succeed.
 
-In many cases you will find it impossible to switch over for some
+In many cases, you will find it impossible to switch over for some
 reason, e.g. either there is no other Maven repository hosting the
 libraries you need, or it will turn out the library authors planned a
 migration only for the newer or upcoming releases of their libraries.
@@ -72,7 +72,7 @@ Sometimes updating the dependency version doesn't cause much trouble,
 especially if it's your direct dependency you are familiar with and if
 it's backward compatible. It becomes much harder when these dependencies
 are transitive or when their newer versions turn out to require a lot of
-additional work on the client side.
+additional work on the client's side.
 
 When I reviewed all the unresolvable dependencies, it became clear to me
 it's not going to be like a walk in the park but quite the opposite.
@@ -169,7 +169,7 @@ Kotlin mocking library,
 [MockK](https://github.com/mockk/mockk/)), you won't be able to simply
 change the version somewhere in your Gradle config file.
 
-In order to update a transitive dependency version, you can use the
+To update a transitive dependency version, you can use the
 [constrains](https://docs.gradle.org/6.8.3/userguide/dependency_constraints.html)
 like:
 
@@ -201,11 +201,11 @@ allprojects {
 
 Unfortunately, the story doesn't end here. Updating the dependencies may
 lead to further issues. Some of them may be mutually incompatible while
-other will require updating some parts of the code in your project which
-can take a lot of effort. Moreover, it may turn out the library author
-doesn't maintain it anymore or simply didn't have enough time to upload
-it to a different Maven repository like Maven Central (which, by the
-way,
+others will require updating some parts of the code in your project
+which can take a lot of effort. Moreover, it may turn out the library
+author doesn't maintain it anymore or simply didn't have enough time to
+upload it to a different Maven repository like Maven Central (which, by
+the way,
 [is said to be very strict in terms of validation](https://github.com/linkedin/dexmaker/issues/172)).
 
 In all these cases you may need to keep the current dependency version
