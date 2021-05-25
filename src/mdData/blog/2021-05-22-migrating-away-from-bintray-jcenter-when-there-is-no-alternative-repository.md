@@ -148,10 +148,10 @@ that:
 - this particular version, i.e. `2.21.0`, is hosted only on JCenter;
 - a newer version, `2.28.1`, is hosted on Maven Central.
 
-![dexmaker-2.21.0](/static/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.21.0.png
+![dexmaker-2.21.0](/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.21.0.png
 "Dexmaker 2.21.0 is hosted only on JCenter")
 
-![dexmaker-2.28.1](/static/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.28.1.png
+![dexmaker-2.28.1](/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.28.1.png
 "Dexmaker 2.28.1 is hosted on Maven Central")
 
 In this case, you can't use any other Maven repository to get the
