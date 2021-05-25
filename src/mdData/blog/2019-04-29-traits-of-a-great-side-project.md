@@ -2,7 +2,7 @@
 layout: post
 title: Traits of a great side project
 date: 2019-04-28T22:00:00.000Z
-image: /static/images/work-731198_1920.jpg
+image: /images/work-731198_1920.jpg
 author: olo
 tags:
   - programming
