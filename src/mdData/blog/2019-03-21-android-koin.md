@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Android - Koin DI
+date: 2019-03-20T23:00:00.000Z
+image: /static/images/android.jpeg
 author: szymek
-hidden: false
 tags:
   - blog
   - android
@@ -11,7 +12,8 @@ tags:
   - dagger
   - mobiledev
   - mobile
-date: '2019-03-20T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
 
