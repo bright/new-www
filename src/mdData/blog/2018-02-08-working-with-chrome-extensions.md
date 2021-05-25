@@ -6,7 +6,7 @@ excerpt: Chrome Extensions can make your life easier whenever you want to add a
 layout: post
 title: Working with Chrome Extensions
 date: 2018-02-07T23:00:00.000Z
-image: /static/images/technology-791029_1920.jpg
+image: /images/technology-791029_1920.jpg
 author: monika
 tags:
   - Chrome Extensions
