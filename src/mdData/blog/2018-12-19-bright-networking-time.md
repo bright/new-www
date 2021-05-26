@@ -11,7 +11,7 @@ excerpt: Networking gives you the chance to connect with new highly influential
 layout: post
 title: Bright Networking Time
 date: 2018-12-18T23:00:00.000Z
-image: /static/images/london.jpg
+image: /images/london.jpg
 author: agnieszka_h
 tags:
   - networking
