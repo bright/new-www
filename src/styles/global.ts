@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+require("prismjs/themes/prism-solarizedlight.css")
 
 export const GlobalStyle = createGlobalStyle` 
 :root {

@@ -18,14 +18,14 @@ published: true
 First of all, we should create a NestJS project.
 Please use the [nest-cli](https://github.com/nestjs/nest-cli) to generate the project template:
 
-```
+```shell
 nest new substrate-nests
 cd substrate-nests
 ```
 
 This commands generate for us a sample project with one module and generate code for one GET API endpoint:
 
-```sh
+```shell
 src
 ├── app.controller.spec.ts
 ├── app.controller.ts
@@ -49,7 +49,7 @@ This command runs dev server and now you can see text *Hello World!* if you open
 To connect to the substrate node we will be using the library [polkadot-js](https://github.com/polkadot-js).
 Please, add this library to dependency:
 
-```sh
+```shell
 yarn add @polkadot/api
 ```
 
@@ -57,21 +57,21 @@ To work with this library please set flag `esModuleInterop` to `true` in `tsconf
 
 Now you can add necessary imports to `app.service.ts` file:
 
-```
+```typescript
 import { ApiPromise, WsProvider, Keyring } from '@polkadot/api';
 ```
 
 The next thing we should set is the URL where our node exists.
 Please add these lines after the import section in `app.service.ts` file:
 
-```
+```typescript
 const SUBSTRATE_URL = 'wss://dev-node.substrate.dev:9944'; // dev node of substrate blockchain
 // const SUBSTRATE_URL = 'ws://127.0.0.1:9944'; // if you have substrate install locally you can use this address
 ```
 
 We are going to connect to the substrate node in `onModuleInit` lifecycle function. It allows us to connect to the node after module initialized.
 
-```
+```typescript
 @Injectable()
 export class AppService implements OnModuleInit { // class should implement OnModuleInit interface
   private api: ApiPromise;
@@ -86,7 +86,7 @@ export class AppService implements OnModuleInit { // class should implement OnMo
 
 After the restart you could see our message in logs:
 
-```
+```shell
 [Nest] 6701   - 04/07/2020, 1:21:02 PM   [NestFactory] Starting Nest application...
 [Nest] 6701   - 04/07/2020, 1:21:02 PM   [InstanceLoader] AppModule dependencies initialized +13ms
 [Nest] 6701   - 04/07/2020, 1:21:02 PM   [RoutesResolver] AppController {/}: +5ms
@@ -99,7 +99,7 @@ After the restart you could see our message in logs:
 For the test purposes, we will get the chain name, node name, version, the number of the latest block and the current timestamp.
 For this let's create the new function in `AppService` class:
 
-```
+```typescript
 async getSimpleData() {
   await this.api.isReady;
 }
@@ -109,7 +109,7 @@ The first line in the function `getSimpleData` waits until our connection to sub
 
 Now we can add code to get the data:
 
-```
+```typescript
 async getSimpleData() {
   await this.api.isReady;
 
@@ -132,7 +132,7 @@ async getSimpleData() {
 After we create this function we could change our endpoint's code to respond with this data.
 Please update the function `getHello` in `AppController` with this code:
 
-```
+```typescript
 @Get()
 async getHello(): Promise<string> {
   const data = await this.appService.getSimpleData();
@@ -157,7 +157,7 @@ The next thing that we can do is getting the balance of some account.
 
 Please add to the function `getSimpleData` the following lines:
 
-```
+```typescript
   const ADDR = '5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY';
   const now = await this.api.query.timestamp.now();
 
@@ -188,7 +188,7 @@ The function `freeBalance` is depreciated, for now, please read more about it in
 Also, we need to update `AppController`. Please add the line `Balance: ${data.balance}` to the returned template literal:
 The `Balance` is a [Pallet](https://substrate.dev/docs/en/development/module/#what-is-a-pallet) defines a cryptocurrency for blockchain.
 
-```
+```typescript
 @Get()
 async getHello(): Promise<string> {
   const data = await this.appService.getSimpleData();
