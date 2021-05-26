@@ -1,6 +1,12 @@
 ---
+excerpt: Sorting data is one of the most important tasks that computers have
+  been doing since they were invented. Over those years developers have found
+  many ways of doing it.
 layout: post
 title: Comparison sorting part 1
+date: 2018-01-17T23:00:00.000Z
+image: /static/images/laptop.jpg
+author: grzesiek
 tags:
   - sorting
   - algorithm
@@ -9,14 +15,8 @@ tags:
   - selection
   - gnome
   - cocktail
-comments: true
-author: grzesiek
 hidden: false
-excerpt: >-
-  Sorting data is one of the most important tasks that computers have been doing
-  since they were invented. Over those years developers have found many ways of
-  doing it.
-date: '2018-01-17T23:00:00.000Z'
+comments: true
 published: true
 ---
 
