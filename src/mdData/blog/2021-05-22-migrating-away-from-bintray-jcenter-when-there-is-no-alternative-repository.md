@@ -2,7 +2,7 @@
 crosspost: true
 layout: post
 title: Migrating away from Bintray/JCenter when there is no alternative repository
-date: 2021-05-22T23:00:00.000Z
+date: 2021-05-26T12:01:21.342Z
 image: /images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/elephant-3522487_1280.jpg
 author: azabost
 tags:
@@ -11,7 +11,14 @@ tags:
   - android
   - kotlin
   - java
-hidden: true
+  - bintray
+  - jcenter
+  - migration
+  - jar
+  - dependency
+  - cache
+  - repository
+hidden: false
 comments: true
 published: true
 ---
