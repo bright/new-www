@@ -9,7 +9,7 @@ extract: Outsourcing your software development to a different company or – eve
 layout: post
 title: 5 things you should know about working with Polish developers
 date: 2019-07-29T22:00:00.000Z
-image: /static/images/office.jpg
+image: /images/office.jpg
 author: ula
 tags:
   - software development
