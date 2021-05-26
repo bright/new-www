@@ -1,48 +1,48 @@
 ---
+extract: Outsourcing your software development to a different company or – even
+  more so – country, is always a huge step. So, it is natural that you want to
+  look into every possible option. Now, given that you have come across this
+  post, we are assuming you are at least a little intrigued with what it is like
+  to work with Polish developers. Are they really as good as they say? How easy
+  is it to communicate with them in English? What about their work ethics?
+  Wonder no more!
 layout: post
 title: 5 things you should know about working with Polish developers
+date: 2019-07-29T22:00:00.000Z
+image: /static/images/office.jpg
 author: ula
-hidden: false
-extract: >-
-  Outsourcing your software development to a different company or – even more so
-  – country, is always a huge step. So, it is natural that you want to look into
-  every possible option. Now, given that you have come across this post, we are
-  assuming you are at least a little intrigued with what it is like to work with
-  Polish developers. Are they really as good as they say? How easy is it to
-  communicate with them in English? What about their work ethics? Wonder no
-  more!
 tags:
   - software development
   - Poland
   - outsourcing
   - software house
-date: '2019-07-29T22:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
-
 Let us be honest: outsourcing your software development to a different company or – even more so – country, is always a huge step. So, it is natural that you want to look into every possible option. Now, given that you have come across this post,  we are assuming you are at least a little intrigued with what it is like to work with Polish developers. Are they really as good as they say? How easy is it to communicate with them in English? What about their work ethics? Wonder no more!
 
 We have created a list of five things you may have always wanted to know about Polish developers, but were too afraid to ask. Let us take a look. 
 
-### 1. Polish developers are some of the best in the world 
+### 1. Polish developers are some of the best in the world
 
 Have you ever heard of a site called [HackerRank](https://www.hackerrank.com/)? It’s where hundreds of thousands of developers from all around the world test their skills by completing various coding challenges. The results of HackerRank’s [Programming Olympics](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/) say it all: Polish developers took third place (an average score from across all types of tech challenges in areas such as algorithms, Java, data structures, and many others).
 
-![](/images/Best_developers_HackerRank.png)
+![Polish software developers](/images/Best_developers_HackerRank.png)
 
 Poles were only two points short from the top two countries on the list, China and Russia. So, who knows what the next round of the Olympics might bring?
 
 Also, here’s a much more tangible representation of their skillset – this [Cyberpunk 2077 trailer](https://www.youtube.com/watch?v=qIcTM8WXFjk&has_verified=1) by Polish game developer CD Projekt Red shows you just how insanely good Polish tech people are.
 
 ### 2. Polish people speak English very well
-  
+
 I am sure you have read some dreadful stories about how outsourcing to a foreign country can be a real nightmare, as you might end up working with a team that barely speaks any English. This won’t be your worry if you choose to work with [a software house from Poland](https://brightinventions.pl/). English is by far the most widely spoken foreign language in the country (a huge factor being that you can only graduate from high school if you pass a foreign language exam).
 
 Take a look at Poland’s [English Proficiency Index](https://www.ef.pl/epi/compare/regions/pl/cn/)), as compared to Russia and China (so, the other two countries on the HackerRank podium):
 
-![](/images/English_proficiency_Index_Poland_China.png)
+![Polish software developers](/images/English_proficiency_Index_Poland_China.png)
 
-![](/images/English_Proficiency_Index_Poland_Russia.png)
+![Polish software developers](/images/English_Proficiency_Index_Poland_Russia.png)
 
  Bear in mind that these statistics show Poland as a whole – not just the IT crowd. Looks encouraging, doesn’t it?
 
