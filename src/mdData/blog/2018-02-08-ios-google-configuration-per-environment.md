@@ -8,7 +8,7 @@ tags:
   - ios
   - xcode
   - build configurations
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
