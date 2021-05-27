@@ -2,7 +2,7 @@
 layout: post
 title: How to use different Google configurations for each build config
 date: 2018-02-07T23:00:00.000Z
-image: /static/images/laptop-software-developer.jpg
+image: /images/laptop-software-developer.jpg
 author: mateusz
 tags:
   - ios
