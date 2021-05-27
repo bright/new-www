@@ -1,14 +1,15 @@
 ---
+excerpt: null
 layout: post
 title: From React to React-Redux in a few steps
+date: 2018-02-08T23:00:00.000Z
+image: /static/images/laptop-programming.jpg
+author: eliasz
 tags:
   - React
   - Redux
-comments: true
-author: eliasz
 hidden: false
-excerpt: null
-date: '2018-02-08T23:00:00.000Z'
+comments: true
 published: true
 ---
 
