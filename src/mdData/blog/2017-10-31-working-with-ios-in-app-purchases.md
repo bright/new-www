@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Working with iOS in-app purchases
+date: 2017-10-30T23:00:00.000Z
+image: /static/images/internet-ios.jpg
 author: mateusz
 tags:
   - ios
@@ -8,8 +10,8 @@ tags:
   - itunes connect
   - subscriptions
   - swift
+hidden: false
 comments: true
-date: '2017-10-30T23:00:00.000Z'
 published: true
 ---
 
