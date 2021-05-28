@@ -8,7 +8,7 @@ excerpt: There is nothing more important than people at work who support you,
 layout: post
 title: Bright Year
 date: 2017-12-07T23:00:00.000Z
-image: /static/images/photo-passion.jpeg
+image: /images/photo-passion.jpeg
 author: ula
 tags:
   - teamspirit
