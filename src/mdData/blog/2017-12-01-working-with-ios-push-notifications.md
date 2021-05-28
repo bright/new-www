@@ -2,7 +2,7 @@
 layout: post
 title: Working with iOS push notifications
 date: 2017-11-30T23:00:00.000Z
-image: /static/images/iphone.jpg
+image: /images/iphone.jpg
 author: mateusz
 tags:
   - ios
