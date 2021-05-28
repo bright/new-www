@@ -2,7 +2,7 @@
 layout: post
 title: Mastering LED with BASIC wirelessly
 date: 2017-10-28T22:00:00.000Z
-image: /static/images/startup-espbasic.jpg
+image: /images/startup-espbasic.jpg
 author: pawel
 tags:
   - BASIC
