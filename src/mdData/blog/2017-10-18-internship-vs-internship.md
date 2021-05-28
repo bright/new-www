@@ -2,7 +2,7 @@
 layout: post
 title: Internship vs Internship
 date: 2017-10-17T22:00:00.000Z
-image: /static/images/thumbs-up.jpg
+image: /images/thumbs-up.jpg
 author: radek
 tags:
   - management
