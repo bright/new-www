@@ -2,7 +2,7 @@
 layout: post
 title: Tabs - navigation pattern on Android
 date: 2018-01-02T23:00:00.000Z
-image: /static/images/technology-android.jpg
+image: /images/technology-android.jpg
 author: radek
 tags:
   - android
