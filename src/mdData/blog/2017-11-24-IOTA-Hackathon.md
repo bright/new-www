@@ -5,7 +5,7 @@ excerpt: One may ask if it is a real fun spending two days in front of computer
 layout: post
 title: IOTA Hackathon
 date: 2017-11-23T23:00:00.000Z
-image: /static/images/bright-1847006_1920.jpg
+image: /images/bright-1847006_1920.jpg
 author: ula
 tags:
   - IOTA
