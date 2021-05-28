@@ -8,7 +8,7 @@ excerpt: Getting into the world of software development can be a really
 layout: post
 title: The human side of software development
 date: 2017-10-30T23:00:00.000Z
-image: /static/images/human-side.jpeg
+image: /images/human-side.jpeg
 author: eliasz
 tags:
   - culture
