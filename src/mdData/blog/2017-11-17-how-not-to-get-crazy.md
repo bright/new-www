@@ -2,7 +2,7 @@
 layout: post
 title: How not to get crazy?
 date: 2017-11-16T23:00:00.000Z
-image: /static/images/how.png
+image: /images/how.png
 author: grzesiek
 tags:
   - technology
