@@ -1,15 +1,17 @@
 ---
 layout: post
 title: Internship vs Internship
+date: 2017-10-17T22:00:00.000Z
+image: /static/images/thumbs-up.jpg
 author: radek
-comments: true
 tags:
   - management
   - success
   - personal development
   - engagement
   - productivity
-date: '2017-10-17T22:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
 
