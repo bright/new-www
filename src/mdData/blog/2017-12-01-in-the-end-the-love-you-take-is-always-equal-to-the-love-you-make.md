@@ -1,28 +1,26 @@
 ---
-layout: post
-title: 'In the end, the love you take is always equal to the love you make'
-excerpt: >-
-  Elon Musk once said that leadership does not depend nowadays on the number of
-  patents companies have, but on the ability to hire talented people who know
-  how to make the most of the knowledge and skills they have. Knowledge and
-  patents themselves should be open source. Knowledge sharing is the process in
-  which the main role is always played by people. It is about collaborative
+excerpt: Elon Musk once said that leadership does not depend nowadays on the
+  number of patents companies have, but on the ability to hire talented people
+  who know how to make the most of the knowledge and skills they have. Knowledge
+  and patents themselves should be open source. Knowledge sharing is the process
+  in which the main role is always played by people. It is about collaborative
   learning where everyone contribute to drive a real value. By sharing our
   individual experiences, know-how and skills with others we really learn a lot
   and gain new perspectives.
+layout: post
+title: In the end, the love you take is always equal to the love you make
+date: 2017-11-30T23:00:00.000Z
+image: /static/images/hand-teamwork.jpg
 author: ula
-hidden: false
 tags:
   - knowledge
   - productivity
   - success
   - teamwork
-image: >-
-  https://lh3.googleusercontent.com/-lxu7gLdT8gg/WiE2q3eINWI/AAAAAAAAAeI/2ENM6mVi1YIJe1occATMsU9FdrogIcErgCLcBGAs/s0/knowledgeeee.jpg
-date: '2017-11-30T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
-
 Elon Musk once said that leadership does not depend nowadays on the number of patents companies have, but on the ability to hire talented people who know how to make the most of the knowledge and skills they have. Knowledge and patents themselves should be open source. 
 
 Knowledge sharing is the process in which the main role is always played by people. It is about collaborative learning where everyone contribute to drive a real value. By sharing our individual experiences, know-how and skills with others we really learn a lot and gain new perspectives.
@@ -37,9 +35,8 @@ We have also another tradition called Lunch Roulette, I suppose liked by everyon
 
 **Coming back to coffee - apart from coffee breaks we have also Coffee Talks -  a bit more organised knowledge sharing sessions.** You just have to choose a date and a topic for discussion in advance, send an invitation to your colleagues and that is it - grab your coffee, go to the conference room and steal the show. The topics of our Coffee Talks are really diversified. Sometimes they are connected with something we are working on, technologies we use (or would like to use), obstacles that we have come across or solutions that we have worked. Coffee Talks are often just a headway for longer discussions and they do not have to be fully technology related, as long as there are people that can benefit from them. And believe me or not, there is always something new and useful that each of us finds out. 
 
-![](https://lh3.googleusercontent.com/-lxu7gLdT8gg/WiE2q3eINWI/AAAAAAAAAeI/2ENM6mVi1YIJe1occATMsU9FdrogIcErgCLcBGAs/s0/knowledgeeee.jpg)
+![teamwork](https://lh3.googleusercontent.com/-lxu7gLdT8gg/WiE2q3eINWI/AAAAAAAAAeI/2ENM6mVi1YIJe1occATMsU9FdrogIcErgCLcBGAs/s0/knowledgeeee.jpg)
 
 Knowledge sharing is always about team’s input. Less experienced employees should not be afraid of showing their perspective on the problem. Getting feedback especially for them might be extremely significant. There is nothing worse than the lack of information that prevents you from moving on with a project. That is why creating habits for sharing knowledge should be an indispensable part for successful company management. Yet the responsibility for creating this kind of habits should be taken by the whole team. We should all encourage each other to express our views, ask questions and share our experience.
 
 **Because in the end, as The Beatles sang - *the love you take is always equal to the love you make*. The rule is simple. If we do not share our knowledge, let us not expect that others will.**
-
