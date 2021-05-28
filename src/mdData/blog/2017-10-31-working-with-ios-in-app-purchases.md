@@ -2,7 +2,7 @@
 layout: post
 title: Working with iOS in-app purchases
 date: 2017-10-30T23:00:00.000Z
-image: /static/images/internet-ios.jpg
+image: /images/internet-ios.jpg
 author: mateusz
 tags:
   - ios
