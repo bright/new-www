@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Your first unit tested Ethereum Smart Contract
+date: 2017-11-12T23:00:00.000Z
+image: /static/images/laptop-2.jpg
 author: daniel
-hidden: false
 tags:
   - smartcontract
   - ethereum
@@ -11,7 +12,8 @@ tags:
   - web3js
   - parity
   - unittests
-date: '2017-11-12T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
 
