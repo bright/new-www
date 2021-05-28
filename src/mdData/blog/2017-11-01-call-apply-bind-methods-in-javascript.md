@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 'call(), apply() and bind() Methods in JavaScript'
+title: call(), apply() and bind() Methods in JavaScript
+date: 2017-10-31T23:00:00.000Z
+image: /static/images/javascript.jpg
 author: monika
 tags:
   - javascript
@@ -9,7 +11,6 @@ tags:
   - call
 hidden: false
 comments: true
-date: '2017-10-31T23:00:00.000Z'
 published: true
 ---
 
