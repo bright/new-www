@@ -1,15 +1,16 @@
 ---
 layout: post
 title: Working with iOS push notifications
+date: 2017-11-30T23:00:00.000Z
+image: /static/images/iphone.jpg
 author: mateusz
 tags:
   - ios
   - push notifications
   - firebase
   - swift
-image: /images/working-with-ios-push-notifications/1_2ngvD9Tqp3TXjdWwVDMqEQ.jpeg
+hidden: false
 comments: true
-date: '2017-11-30T23:00:00.000Z'
 published: true
 ---
 
