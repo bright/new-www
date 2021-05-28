@@ -1,12 +1,14 @@
 ---
 layout: post
 title: How not to get crazy?
+date: 2017-11-16T23:00:00.000Z
+image: /static/images/how.png
 author: grzesiek
-hidden: false
 tags:
   - technology
   - addiction
-date: '2017-11-16T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
 
