@@ -15,14 +15,14 @@ const SectionTitleEx = styled(SectionTitle)`
 
 const OurWork: React.FC = () => {
   return (
-    <div className='container'>
-      <SectionEx>
-        <SectionTitleEx>what we have worked on</SectionTitleEx>
-        <HideTablet>
+    <HideTablet>
+      <div className='container'>
+        <SectionEx>
+          <SectionTitleEx>what we have worked on</SectionTitleEx>
           <Carousel />
-        </HideTablet>
-      </SectionEx>
-    </div>
+        </SectionEx>
+      </div>
+    </HideTablet>
   )
 }
 

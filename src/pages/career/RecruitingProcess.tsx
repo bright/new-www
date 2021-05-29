@@ -2,34 +2,65 @@ import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
 import { Section, SectionTitle } from '../../components/shared'
+import variables from '../../styles/variables'
 
 const Columns = styled.div`
   .column {
     position: relative;
     margin: 1rem 2rem;
     
-    &:not(.is-half) {
-      &:not(:nth-child(n+4)):after {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: -3rem;
-        width: 1.2rem;
-        height: 0.8rem;
-        content: '';
-        background-image: url('/images/career/arrow.svg');
-        background-size: cover;
-      }
-
-      figure {
-        height: 6rem;
-      }
+    &:not(.is-half):after {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -3rem;
+      width: 1.2rem;
+      height: 0.8rem;
+      content: '';
+      background-image: url('/images/career/arrow.svg');
+      background-size: cover;
+    }
+    &:nth-child(n+4):after {
+      display: none;
     }
 
+    figure {
+      height: 6rem;
+    }
+    
+    &.is-half figure {
+      height: 14rem;
+    }
+    
     p {
       margin-top: 1rem;
       font-size: 0.8rem;
       font-weight: 700;
+    }
+  }
+
+  @media ${variables.device.mobile} {
+    && {
+      .column {
+        margin-bottom: 3rem;
+        
+        &:after {
+          display: block;
+          top: unset;
+          bottom: -2rem;
+          transform: translateX(-50%) rotate(90deg);
+          left: 50%;
+          right: unset;
+        }
+        
+        figure {
+          height: auto;
+
+          img {
+            width: 10rem;
+          }
+        }
+      }
     }
   }
 `
