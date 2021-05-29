@@ -4,6 +4,10 @@ import styled from 'styled-components'
 import { HideTablet, Section, SectionTitle } from '../../components/shared'
 import { Carousel } from '../../components/shared/Carousel'
 
+const SectionEx = styled(Section)`
+  margin-bottom: 0;
+`
+
 const SectionTitleEx = styled(SectionTitle)`
   margin-top: 3rem;
   margin-bottom: 0;
@@ -12,12 +16,12 @@ const SectionTitleEx = styled(SectionTitle)`
 const OurWork: React.FC = () => {
   return (
     <div className='container'>
-      <Section>
+      <SectionEx>
         <SectionTitleEx>what we have worked on</SectionTitleEx>
         <HideTablet>
           <Carousel />
         </HideTablet>
-      </Section>
+      </SectionEx>
     </div>
   )
 }

@@ -32,10 +32,10 @@ const WhatWePractice: React.FC = () => {
         <div className='container'>
           <SectionTitle>what we practice</SectionTitle>
 
-              <div className="columns is-multiline">
+              <div className='columns is-multiline'>
                 {blocks.map(block => (
-                  <Column className="column is-one-third has-text-centered">
-                    <figure className="image is-inline-block">
+                  <Column key={block.title} className='column is-one-third has-text-centered'>
+                    <figure className='image is-inline-block'>
                       <img src={block.image} alt={block.title} />
                     </figure>
                     <p>{block.title}</p>

@@ -22,6 +22,10 @@ export const ImagesHorizontal = styled(Images)`
     flex-wrap: wrap-reverse;
     height: auto;
     justify-content: center;
+    
+    & > * {
+      flex-basis: 90%;
+    }
   }
 `
 
