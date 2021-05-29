@@ -16,6 +16,7 @@ import Helmet from 'react-helmet'
 import { descriptionOrDefault } from '../meta/meta-description'
 import { resolveUrl } from '../meta/resolve-url'
 import { siteMetadata } from '../../gatsby-config'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Container = styled.div`
   max-width: 960px;
@@ -90,12 +91,8 @@ export default function Template(props: {
         <meta property='og:url' content={resolveUrl(pathname)} />
         <meta property='og:type' content='article' />
         <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
-        {image && (
-          <meta property='og:image' content={resolveUrl(getSrc(image)!)} />
-        )}
-        {canonicalUrl && (
-          <link rel='canonical' href={canonicalUrl} />
-        )}
+        {image && <meta property='og:image' content={resolveUrl(getSrc(image)!)} />}
+        {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
       </Helmet>
 
       <Container className='container'>
@@ -135,7 +132,13 @@ export default function Template(props: {
 
           <BackButton url={routeLinks.blog} label='Blog' />
 
-          {/* {% include post/crosspost.html %} */}
+          {canonicalUrl && (
+            <section>
+              <OutboundLink href={canonicalUrl} style={{ fontStyle: 'italic' }}>
+                This article was originally published on author's blog
+              </OutboundLink>
+            </section>
+          )}
 
           <DisqusComments id={slug} title={page.title} />
         </article>
@@ -164,7 +167,7 @@ export const pageQuery = graphql`
         author
         tags
         date
-        canonicalUrl  
+        canonicalUrl
         image {
           childImageSharp {
             gatsbyImageData
