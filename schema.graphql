@@ -582,6 +582,7 @@ type MarkdownRemarkFrontmatter {
     author_id: String
     avatar: File
     bio: String
+    canonicalUrl: String
     categories: [String]
     comments: Boolean
     date(
@@ -675,8 +676,8 @@ type Query {
     markdownRemark(children: NodeFilterListInput, excerpt: StringQueryOperatorInput, excerptAst: JSONQueryOperatorInput, fields: MarkdownRemarkFieldsFilterInput, fileAbsolutePath: StringQueryOperatorInput, frontmatter: MarkdownRemarkFrontmatterFilterInput, headings: MarkdownHeadingFilterListInput, html: StringQueryOperatorInput, htmlAst: JSONQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, parent: NodeFilterInput, rawMarkdownBody: StringQueryOperatorInput, tableOfContents: StringQueryOperatorInput, timeToRead: IntQueryOperatorInput, wordCount: MarkdownWordCountFilterInput): MarkdownRemark
     site(buildTime: DateQueryOperatorInput, children: NodeFilterListInput, host: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, parent: NodeFilterInput, pathPrefix: StringQueryOperatorInput, polyfill: BooleanQueryOperatorInput, port: IntQueryOperatorInput, siteMetadata: SiteSiteMetadataFilterInput): Site
     siteBuildMetadata(buildTime: DateQueryOperatorInput, children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, parent: NodeFilterInput): SiteBuildMetadata
-    siteFunction(absoluteCompiledFilePath: StringQueryOperatorInput, apiRoute: StringQueryOperatorInput, children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, matchPath: StringQueryOperatorInput, originalFilePath: StringQueryOperatorInput, parent: NodeFilterInput, relativeCompiledFilePath: StringQueryOperatorInput): SiteFunction
-    sitePage(children: NodeFilterListInput, component: StringQueryOperatorInput, componentChunkName: StringQueryOperatorInput, componentPath: StringQueryOperatorInput, context: SitePageContextFilterInput, id: StringQueryOperatorInput, internal: InternalFilterInput, internalComponentName: StringQueryOperatorInput, isCreatedByStatefulCreatePages: BooleanQueryOperatorInput, matchPath: StringQueryOperatorInput, parent: NodeFilterInput, path: StringQueryOperatorInput, pluginCreator: SitePluginFilterInput, pluginCreatorId: StringQueryOperatorInput): SitePage
+    siteFunction(absoluteCompiledFilePath: StringQueryOperatorInput, children: NodeFilterListInput, functionRoute: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, matchPath: StringQueryOperatorInput, originalAbsoluteFilePath: StringQueryOperatorInput, originalRelativeFilePath: StringQueryOperatorInput, parent: NodeFilterInput, pluginName: StringQueryOperatorInput, relativeCompiledFilePath: StringQueryOperatorInput): SiteFunction
+    sitePage(children: NodeFilterListInput, component: StringQueryOperatorInput, componentChunkName: StringQueryOperatorInput, context: SitePageContextFilterInput, id: StringQueryOperatorInput, internal: InternalFilterInput, internalComponentName: StringQueryOperatorInput, isCreatedByStatefulCreatePages: BooleanQueryOperatorInput, matchPath: StringQueryOperatorInput, parent: NodeFilterInput, path: StringQueryOperatorInput, pluginCreator: SitePluginFilterInput, pluginCreatorId: StringQueryOperatorInput): SitePage
     sitePlugin(browserAPIs: StringQueryOperatorInput, children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, name: StringQueryOperatorInput, nodeAPIs: StringQueryOperatorInput, packageJson: SitePluginPackageJsonFilterInput, parent: NodeFilterInput, pluginFilepath: StringQueryOperatorInput, pluginOptions: SitePluginPluginOptionsFilterInput, resolve: StringQueryOperatorInput, ssrAPIs: StringQueryOperatorInput, version: StringQueryOperatorInput): SitePlugin
 }
 
@@ -766,13 +767,15 @@ type SiteEdge {
 
 type SiteFunction implements Node {
     absoluteCompiledFilePath: String!
-    apiRoute: String!
     children: [Node!]!
+    functionRoute: String!
     id: ID!
     internal: Internal!
     matchPath: String
-    originalFilePath: String!
+    originalAbsoluteFilePath: String!
+    originalRelativeFilePath: String!
     parent: Node
+    pluginName: String!
     relativeCompiledFilePath: String!
 }
 
@@ -816,7 +819,6 @@ type SitePage implements Node {
     children: [Node!]!
     component: String!
     componentChunkName: String!
-    componentPath: String
     context: SitePageContext
     id: ID!
     internal: Internal!
@@ -938,24 +940,33 @@ type SitePluginPackageJsonPeerDependencies {
 type SitePluginPluginOptions {
     allExtensions: Boolean
     anonymize: Boolean
+    backgroundColor: String
     background_color: String
     base64Width: Int
+    bucketName: String
     cacheDigest: String
     cache_busting_mode: String
     createLinkInHead: Boolean
     crossOrigin: String
     defaultQuality: Int
+    disableBgImage: Boolean
+    disableBgImageOnAlpha: Boolean
     display: String
     displayName: Boolean
     entryLimit: Int
     failOnError: Boolean
     fileName: Boolean
     head: Boolean
+    hostname: String
     icon: String
     include_favicon: Boolean
     isTSX: Boolean
     jsxPragma: String
     legacy: Boolean
+    linkImagesToOriginal: Boolean
+    loading: String
+    markdownCaptions: Boolean
+    maxWidth: Int
     minify: Boolean
     name: String
     namespace: String
@@ -964,21 +975,29 @@ type SitePluginPluginOptions {
     path: String
     pathCheck: Boolean
     plugins: [SitePluginPluginOptionsPlugins]
+    protocol: String
     pure: Boolean
+    quality: Int
     query: String
+    region: String
     respectDNT: Boolean
     short_name: String
     shortname: String
+    showCaptions: Boolean
+    sizeByPixelDensity: Boolean
     start_url: String
     staticFolderName: String
     stripMetadata: Boolean
     theme_color: String
     theme_color_in_head: Boolean
+    tracedSVG: Boolean
     trackingId: String
     transpileTemplateLiterals: Boolean
+    withWebp: Boolean
 }
 
 type SitePluginPluginOptionsPlugins {
+    browserAPIs: [String]
     id: String
     name: String
     nodeAPIs: [String]
@@ -989,7 +1008,19 @@ type SitePluginPluginOptionsPlugins {
 }
 
 type SitePluginPluginOptionsPluginsPluginOptions {
+    backgroundColor: String
+    disableBgImage: Boolean
+    disableBgImageOnAlpha: Boolean
+    linkImagesToOriginal: Boolean
+    loading: String
+    markdownCaptions: Boolean
+    maxWidth: Int
+    quality: Int
+    showCaptions: Boolean
+    sizeByPixelDensity: Boolean
     staticFolderName: String
+    tracedSVG: Boolean
+    withWebp: Boolean
 }
 
 type SiteSiteMetadata {
@@ -1410,6 +1441,7 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___avatar___sourceInstanceName
     childMarkdownRemark___frontmatter___avatar___uid
     childMarkdownRemark___frontmatter___bio
+    childMarkdownRemark___frontmatter___canonicalUrl
     childMarkdownRemark___frontmatter___categories
     childMarkdownRemark___frontmatter___comments
     childMarkdownRemark___frontmatter___date
@@ -1695,6 +1727,7 @@ enum FileFieldsEnum {
     childrenMarkdownRemark___frontmatter___avatar___sourceInstanceName
     childrenMarkdownRemark___frontmatter___avatar___uid
     childrenMarkdownRemark___frontmatter___bio
+    childrenMarkdownRemark___frontmatter___canonicalUrl
     childrenMarkdownRemark___frontmatter___categories
     childrenMarkdownRemark___frontmatter___comments
     childrenMarkdownRemark___frontmatter___date
@@ -2236,6 +2269,7 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___avatar___sourceInstanceName
     frontmatter___avatar___uid
     frontmatter___bio
+    frontmatter___canonicalUrl
     frontmatter___categories
     frontmatter___comments
     frontmatter___date
@@ -2627,7 +2661,6 @@ enum SiteFieldsEnum {
 
 enum SiteFunctionFieldsEnum {
     absoluteCompiledFilePath
-    apiRoute
     children
     children___children
     children___children___children
@@ -2667,6 +2700,7 @@ enum SiteFunctionFieldsEnum {
     children___parent___internal___type
     children___parent___parent___children
     children___parent___parent___id
+    functionRoute
     id
     internal___content
     internal___contentDigest
@@ -2677,7 +2711,8 @@ enum SiteFunctionFieldsEnum {
     internal___owner
     internal___type
     matchPath
-    originalFilePath
+    originalAbsoluteFilePath
+    originalRelativeFilePath
     parent___children
     parent___children___children
     parent___children___children___children
@@ -2716,6 +2751,7 @@ enum SiteFunctionFieldsEnum {
     parent___parent___internal___type
     parent___parent___parent___children
     parent___parent___parent___id
+    pluginName
     relativeCompiledFilePath
 }
 
@@ -2761,7 +2797,6 @@ enum SitePageFieldsEnum {
     children___parent___parent___id
     component
     componentChunkName
-    componentPath
     context___currentPage
     context___fileAbsolutePath
     context___limit
@@ -2879,24 +2914,33 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginFilepath
     pluginCreator___pluginOptions___allExtensions
     pluginCreator___pluginOptions___anonymize
+    pluginCreator___pluginOptions___backgroundColor
     pluginCreator___pluginOptions___background_color
     pluginCreator___pluginOptions___base64Width
+    pluginCreator___pluginOptions___bucketName
     pluginCreator___pluginOptions___cacheDigest
     pluginCreator___pluginOptions___cache_busting_mode
     pluginCreator___pluginOptions___createLinkInHead
     pluginCreator___pluginOptions___crossOrigin
     pluginCreator___pluginOptions___defaultQuality
+    pluginCreator___pluginOptions___disableBgImage
+    pluginCreator___pluginOptions___disableBgImageOnAlpha
     pluginCreator___pluginOptions___display
     pluginCreator___pluginOptions___displayName
     pluginCreator___pluginOptions___entryLimit
     pluginCreator___pluginOptions___failOnError
     pluginCreator___pluginOptions___fileName
     pluginCreator___pluginOptions___head
+    pluginCreator___pluginOptions___hostname
     pluginCreator___pluginOptions___icon
     pluginCreator___pluginOptions___include_favicon
     pluginCreator___pluginOptions___isTSX
     pluginCreator___pluginOptions___jsxPragma
     pluginCreator___pluginOptions___legacy
+    pluginCreator___pluginOptions___linkImagesToOriginal
+    pluginCreator___pluginOptions___loading
+    pluginCreator___pluginOptions___markdownCaptions
+    pluginCreator___pluginOptions___maxWidth
     pluginCreator___pluginOptions___minify
     pluginCreator___pluginOptions___name
     pluginCreator___pluginOptions___namespace
@@ -2905,24 +2949,32 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___path
     pluginCreator___pluginOptions___pathCheck
     pluginCreator___pluginOptions___plugins
+    pluginCreator___pluginOptions___plugins___browserAPIs
     pluginCreator___pluginOptions___plugins___id
     pluginCreator___pluginOptions___plugins___name
     pluginCreator___pluginOptions___plugins___nodeAPIs
     pluginCreator___pluginOptions___plugins___pluginFilepath
     pluginCreator___pluginOptions___plugins___resolve
     pluginCreator___pluginOptions___plugins___version
+    pluginCreator___pluginOptions___protocol
     pluginCreator___pluginOptions___pure
+    pluginCreator___pluginOptions___quality
     pluginCreator___pluginOptions___query
+    pluginCreator___pluginOptions___region
     pluginCreator___pluginOptions___respectDNT
     pluginCreator___pluginOptions___short_name
     pluginCreator___pluginOptions___shortname
+    pluginCreator___pluginOptions___showCaptions
+    pluginCreator___pluginOptions___sizeByPixelDensity
     pluginCreator___pluginOptions___start_url
     pluginCreator___pluginOptions___staticFolderName
     pluginCreator___pluginOptions___stripMetadata
     pluginCreator___pluginOptions___theme_color
     pluginCreator___pluginOptions___theme_color_in_head
+    pluginCreator___pluginOptions___tracedSVG
     pluginCreator___pluginOptions___trackingId
     pluginCreator___pluginOptions___transpileTemplateLiterals
+    pluginCreator___pluginOptions___withWebp
     pluginCreator___resolve
     pluginCreator___ssrAPIs
     pluginCreator___version
@@ -3037,24 +3089,33 @@ enum SitePluginFieldsEnum {
     pluginFilepath
     pluginOptions___allExtensions
     pluginOptions___anonymize
+    pluginOptions___backgroundColor
     pluginOptions___background_color
     pluginOptions___base64Width
+    pluginOptions___bucketName
     pluginOptions___cacheDigest
     pluginOptions___cache_busting_mode
     pluginOptions___createLinkInHead
     pluginOptions___crossOrigin
     pluginOptions___defaultQuality
+    pluginOptions___disableBgImage
+    pluginOptions___disableBgImageOnAlpha
     pluginOptions___display
     pluginOptions___displayName
     pluginOptions___entryLimit
     pluginOptions___failOnError
     pluginOptions___fileName
     pluginOptions___head
+    pluginOptions___hostname
     pluginOptions___icon
     pluginOptions___include_favicon
     pluginOptions___isTSX
     pluginOptions___jsxPragma
     pluginOptions___legacy
+    pluginOptions___linkImagesToOriginal
+    pluginOptions___loading
+    pluginOptions___markdownCaptions
+    pluginOptions___maxWidth
     pluginOptions___minify
     pluginOptions___name
     pluginOptions___namespace
@@ -3063,25 +3124,45 @@ enum SitePluginFieldsEnum {
     pluginOptions___path
     pluginOptions___pathCheck
     pluginOptions___plugins
+    pluginOptions___plugins___browserAPIs
     pluginOptions___plugins___id
     pluginOptions___plugins___name
     pluginOptions___plugins___nodeAPIs
     pluginOptions___plugins___pluginFilepath
+    pluginOptions___plugins___pluginOptions___backgroundColor
+    pluginOptions___plugins___pluginOptions___disableBgImage
+    pluginOptions___plugins___pluginOptions___disableBgImageOnAlpha
+    pluginOptions___plugins___pluginOptions___linkImagesToOriginal
+    pluginOptions___plugins___pluginOptions___loading
+    pluginOptions___plugins___pluginOptions___markdownCaptions
+    pluginOptions___plugins___pluginOptions___maxWidth
+    pluginOptions___plugins___pluginOptions___quality
+    pluginOptions___plugins___pluginOptions___showCaptions
+    pluginOptions___plugins___pluginOptions___sizeByPixelDensity
     pluginOptions___plugins___pluginOptions___staticFolderName
+    pluginOptions___plugins___pluginOptions___tracedSVG
+    pluginOptions___plugins___pluginOptions___withWebp
     pluginOptions___plugins___resolve
     pluginOptions___plugins___version
+    pluginOptions___protocol
     pluginOptions___pure
+    pluginOptions___quality
     pluginOptions___query
+    pluginOptions___region
     pluginOptions___respectDNT
     pluginOptions___short_name
     pluginOptions___shortname
+    pluginOptions___showCaptions
+    pluginOptions___sizeByPixelDensity
     pluginOptions___start_url
     pluginOptions___staticFolderName
     pluginOptions___stripMetadata
     pluginOptions___theme_color
     pluginOptions___theme_color_in_head
+    pluginOptions___tracedSVG
     pluginOptions___trackingId
     pluginOptions___transpileTemplateLiterals
+    pluginOptions___withWebp
     resolve
     ssrAPIs
     version
@@ -3404,6 +3485,7 @@ input MarkdownRemarkFrontmatterFilterInput {
     author_id: StringQueryOperatorInput
     avatar: FileFilterInput
     bio: StringQueryOperatorInput
+    canonicalUrl: StringQueryOperatorInput
     categories: StringQueryOperatorInput
     comments: BooleanQueryOperatorInput
     date: DateQueryOperatorInput
@@ -3503,13 +3585,15 @@ input SiteFilterInput {
 
 input SiteFunctionFilterInput {
     absoluteCompiledFilePath: StringQueryOperatorInput
-    apiRoute: StringQueryOperatorInput
     children: NodeFilterListInput
+    functionRoute: StringQueryOperatorInput
     id: StringQueryOperatorInput
     internal: InternalFilterInput
     matchPath: StringQueryOperatorInput
-    originalFilePath: StringQueryOperatorInput
+    originalAbsoluteFilePath: StringQueryOperatorInput
+    originalRelativeFilePath: StringQueryOperatorInput
     parent: NodeFilterInput
+    pluginName: StringQueryOperatorInput
     relativeCompiledFilePath: StringQueryOperatorInput
 }
 
@@ -3530,7 +3614,6 @@ input SitePageFilterInput {
     children: NodeFilterListInput
     component: StringQueryOperatorInput
     componentChunkName: StringQueryOperatorInput
-    componentPath: StringQueryOperatorInput
     context: SitePageContextFilterInput
     id: StringQueryOperatorInput
     internal: InternalFilterInput
@@ -3607,24 +3690,33 @@ input SitePluginPackageJsonPeerDependenciesFilterListInput {
 input SitePluginPluginOptionsFilterInput {
     allExtensions: BooleanQueryOperatorInput
     anonymize: BooleanQueryOperatorInput
+    backgroundColor: StringQueryOperatorInput
     background_color: StringQueryOperatorInput
     base64Width: IntQueryOperatorInput
+    bucketName: StringQueryOperatorInput
     cacheDigest: StringQueryOperatorInput
     cache_busting_mode: StringQueryOperatorInput
     createLinkInHead: BooleanQueryOperatorInput
     crossOrigin: StringQueryOperatorInput
     defaultQuality: IntQueryOperatorInput
+    disableBgImage: BooleanQueryOperatorInput
+    disableBgImageOnAlpha: BooleanQueryOperatorInput
     display: StringQueryOperatorInput
     displayName: BooleanQueryOperatorInput
     entryLimit: IntQueryOperatorInput
     failOnError: BooleanQueryOperatorInput
     fileName: BooleanQueryOperatorInput
     head: BooleanQueryOperatorInput
+    hostname: StringQueryOperatorInput
     icon: StringQueryOperatorInput
     include_favicon: BooleanQueryOperatorInput
     isTSX: BooleanQueryOperatorInput
     jsxPragma: StringQueryOperatorInput
     legacy: BooleanQueryOperatorInput
+    linkImagesToOriginal: BooleanQueryOperatorInput
+    loading: StringQueryOperatorInput
+    markdownCaptions: BooleanQueryOperatorInput
+    maxWidth: IntQueryOperatorInput
     minify: BooleanQueryOperatorInput
     name: StringQueryOperatorInput
     namespace: StringQueryOperatorInput
@@ -3633,21 +3725,29 @@ input SitePluginPluginOptionsFilterInput {
     path: StringQueryOperatorInput
     pathCheck: BooleanQueryOperatorInput
     plugins: SitePluginPluginOptionsPluginsFilterListInput
+    protocol: StringQueryOperatorInput
     pure: BooleanQueryOperatorInput
+    quality: IntQueryOperatorInput
     query: StringQueryOperatorInput
+    region: StringQueryOperatorInput
     respectDNT: BooleanQueryOperatorInput
     short_name: StringQueryOperatorInput
     shortname: StringQueryOperatorInput
+    showCaptions: BooleanQueryOperatorInput
+    sizeByPixelDensity: BooleanQueryOperatorInput
     start_url: StringQueryOperatorInput
     staticFolderName: StringQueryOperatorInput
     stripMetadata: BooleanQueryOperatorInput
     theme_color: StringQueryOperatorInput
     theme_color_in_head: BooleanQueryOperatorInput
+    tracedSVG: BooleanQueryOperatorInput
     trackingId: StringQueryOperatorInput
     transpileTemplateLiterals: BooleanQueryOperatorInput
+    withWebp: BooleanQueryOperatorInput
 }
 
 input SitePluginPluginOptionsPluginsFilterInput {
+    browserAPIs: StringQueryOperatorInput
     id: StringQueryOperatorInput
     name: StringQueryOperatorInput
     nodeAPIs: StringQueryOperatorInput
@@ -3662,7 +3762,19 @@ input SitePluginPluginOptionsPluginsFilterListInput {
 }
 
 input SitePluginPluginOptionsPluginsPluginOptionsFilterInput {
+    backgroundColor: StringQueryOperatorInput
+    disableBgImage: BooleanQueryOperatorInput
+    disableBgImageOnAlpha: BooleanQueryOperatorInput
+    linkImagesToOriginal: BooleanQueryOperatorInput
+    loading: StringQueryOperatorInput
+    markdownCaptions: BooleanQueryOperatorInput
+    maxWidth: IntQueryOperatorInput
+    quality: IntQueryOperatorInput
+    showCaptions: BooleanQueryOperatorInput
+    sizeByPixelDensity: BooleanQueryOperatorInput
     staticFolderName: StringQueryOperatorInput
+    tracedSVG: BooleanQueryOperatorInput
+    withWebp: BooleanQueryOperatorInput
 }
 
 input SitePluginSortInput {

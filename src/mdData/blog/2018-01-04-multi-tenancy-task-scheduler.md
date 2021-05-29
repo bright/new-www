@@ -15,6 +15,7 @@ crosspost: true
 image: /images/multi-tenancy-task-scheduler/sorting.jpg
 date: '2018-01-03T23:00:00.000Z'
 published: true
+canonicalUrl: 'https://miensol.pl/multi-tenancy-task-scheduler/'
 ---
 
 [Last time I showed]({% post_url 2017-12-12-spring-mvc-multi-tenacy %}) how to extend Spring default request handler adapter so that we are able to schedule or reject incoming requests. The goal of the `TenantTaskCoordinator` is to:

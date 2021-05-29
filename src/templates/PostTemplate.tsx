@@ -1,6 +1,6 @@
 import { graphql } from 'gatsby'
 import React from 'react'
-import { useLocation } from '@reach/router';
+import { useLocation } from '@reach/router'
 import styled from 'styled-components'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
@@ -49,6 +49,7 @@ export default function Template(props: {
         date: string
         excerpt: string
         image: FileNode
+        canonicalUrl: string
       }
       timeToRead: number
       fileAbsolutePath: string
@@ -76,6 +77,8 @@ export default function Template(props: {
   const { pathname } = useLocation()
   const slug = props.path.replace(/^(\/blog\/)/, '')
   const title = markdownRemark.frontmatter.title
+  const image = markdownRemark.frontmatter.image
+  const canonicalUrl = markdownRemark.frontmatter.canonicalUrl
   return (
     <Page>
       <Helmet>
@@ -87,8 +90,11 @@ export default function Template(props: {
         <meta property='og:url' content={resolveUrl(pathname)} />
         <meta property='og:type' content='article' />
         <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
-        {markdownRemark.frontmatter.image && (
-          <meta property='og:image' content={resolveUrl(getSrc(markdownRemark.frontmatter.image)!)} />
+        {image && (
+          <meta property='og:image' content={resolveUrl(getSrc(image)!)} />
+        )}
+        {canonicalUrl && (
+          <link rel='canonical' href={canonicalUrl} />
         )}
       </Helmet>
 
@@ -158,6 +164,7 @@ export const pageQuery = graphql`
         author
         tags
         date
+        canonicalUrl  
         image {
           childImageSharp {
             gatsbyImageData
