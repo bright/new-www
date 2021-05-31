@@ -7,13 +7,13 @@ import variables from '../../styles/variables'
 const Columns = styled.div`
   .column {
     position: relative;
-    margin: 1rem 2rem;
+    padding: 1rem 2rem;
     
     &:not(.is-half):after {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      right: -3rem;
+      right: 0;
       width: 1.2rem;
       height: 0.8rem;
       content: '';
@@ -24,16 +24,17 @@ const Columns = styled.div`
       display: none;
     }
 
-    figure {
-      height: 6rem;
+    figure img {
+      max-height: 8rem;
+      object-fit: contain;
     }
     
-    &.is-half figure {
-      height: 14rem;
+    &.is-half figure img {
+      max-height: 15rem;
     }
     
     p {
-      margin-top: 1rem;
+      margin-top: 2rem;
       font-size: 0.8rem;
       font-weight: 700;
     }
@@ -79,7 +80,7 @@ const RecruitingProcess: React.FC = () => {
 
       <Columns className='columns is-multiline has-justify-content-center'>
         {blocks.map((block, index) => (
-          <div key={block.title} className='column is-one-forth has-text-centered'>
+          <div key={block.title} className='column is-one-quarter has-text-centered'>
             <figure className='image is-inline-block'>
               <img src={block.image} alt={block.title} />
             </figure>

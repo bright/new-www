@@ -17,7 +17,7 @@ import RecruitingProcess from './career/RecruitingProcess'
 import OurWork from './career/OurWork'
 import Benefits from './career/Benefits'
 import Traits from './career/Traits'
-import { FormComponent } from '../components/about-us/form-section/form'
+import Form from './career/Form'
 
 const CareerPage: React.FC = () => {
   return (
@@ -41,25 +41,16 @@ const CareerPage: React.FC = () => {
       <div className='container'>
         <Description />
         <Offers />
+        <RecruitingProcess />
       </div>
 
-      <RecruitingProcess />
       <WhatWePractice />
       <OurWork />
 
       <Traits />
       <Benefits />
 
-      <div className='container'>
-        <FormComponent
-          title={'didn’t find a suitable position for you?'}
-          description={(
-            <>
-              Our recruitment demand is constantly changing. Drop us a line at <a href={'mailto:ula@bright.dev'}>ula@bright.dev</a>, or submit your CV and we will contact you when a position inline with your competences becomes available.
-            </>
-          )}
-        />
-      </div>
+      <Form />
     </Page>
   )
 }

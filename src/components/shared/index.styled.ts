@@ -21,9 +21,15 @@ export const Section = styled.section`
     padding: 2rem 0.5rem 1rem;
   }
 `
+
 export const SectionBlack = styled(Section)`
   background-color: ${variables.color.text};
   color: ${variables.color.white};
+`
+
+export const SectionInner = styled.div`
+  max-width: 955px;
+  margin: 0 auto;
 `
 
 export const TitleBase = `
@@ -63,6 +69,10 @@ export const PageTitle = styled.h1`
 
   & > span {
     color: ${variables.color.primary};
+  }
+  
+  @media ${variables.device.mobile} {
+    font-size: 2.5rem;
   }
 `
 

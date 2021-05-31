@@ -1,10 +1,13 @@
-import React  from 'react'
+import React, {useMemo}  from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 import { routeLinks } from '../../config/routing'
 import { getJobPath } from '../../helpers/pathHelpers'
 import { JobModel } from '../../models/gql'
 import variables from '../../styles/variables'
+
+import arrowImg from '../../../static/images/career/arrow.svg'
 
 const Job = styled.div`
   &:not(:last-child) {
@@ -12,7 +15,7 @@ const Job = styled.div`
   }
 
   @media ${variables.device.mobile} {
-    margin: 0 2rem;
+    margin: 0 0.5rem;
   }
 `
 
@@ -51,6 +54,12 @@ const Info = styled.div`
   }
 `
 
+const Arrow = styled.img`
+  margin: 1rem 0;
+  width: 1.2rem;
+  cursor: pointer;
+`
+
 const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
   return (
     <>
@@ -62,6 +71,9 @@ const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
             <div>{job.hours}</div>
             <div>Gdańsk</div>
           </Info>
+          <Link to={routeLinks.jobs + getJobPath(job.url)}>
+            <Arrow src={arrowImg} alt='show job details' />
+          </Link>
         </Job>
       ))}
     </>
