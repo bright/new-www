@@ -2,7 +2,7 @@
 layout: project
 title: Pregnancy App
 image: /images/pregnancy_app1.jpg
-description: Your way to a healthy & relaxed pregnancy and safe birth experience
+description: Your way to a healthy & relaxed pregnancy and safe birth experience.
 tags:
   - iOS
   - Android
