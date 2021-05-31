@@ -14,13 +14,13 @@ export const HideDesktop = styled.div({
 })
 
 export const Section = styled.section`
-  padding: 6rem 2rem;
+  padding: 2rem 2rem 6rem 2rem;
   color: ${variables.color.text};
+
   @media ${variables.device.mobile} {
     padding: 2rem 0.5rem 1rem;
   }
 `
-
 export const SectionBlack = styled(Section)`
   background-color: ${variables.color.text};
   color: ${variables.color.white};
@@ -50,6 +50,20 @@ export const TextRegular = styled.div`
   font-family: ${variables.font.text.family};
   font-size: ${variables.font.text.size};
   line-height: 2rem;
+`
+
+export const PageTitle = styled.h1`
+  ${TitleBase};
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 3.375rem;
+  font-weight: 800;
+  line-height: 4rem;
+  text-align: center;
+
+  & > span {
+    color: ${variables.color.primary};
+  }
 `
 
 export const PageDescription = styled(TextRegular)({

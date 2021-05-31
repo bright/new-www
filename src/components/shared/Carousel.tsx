@@ -82,7 +82,11 @@ const NextArrow = (onClickHandler: () => void) => (
   </SliderButton>
 )
 
-export const Carousel = () => {
+type CarouselProps = {
+  wrapperClassName?: string
+}
+
+export const Carousel: React.FC<CarouselProps> = ({wrapperClassName}) => {
   const {
     allMarkdownRemark: { edges },
   } = useStaticQuery(GQL)
@@ -91,7 +95,7 @@ export const Carousel = () => {
     : []
 
   return (
-    <CarouselWrapper>
+    <CarouselWrapper className={wrapperClassName}>
       <RCarousel
         showStatus={false}
         showThumbs={false}

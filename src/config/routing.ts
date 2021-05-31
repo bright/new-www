@@ -12,6 +12,7 @@ export const routeLinks = {
   projects: '/projects',
   career: '/career',
   blog: '/blog',
+  jobs: '/jobs',
   startProject: '/start-project',
   privacyPolicy: '/privacy-policy',
 }

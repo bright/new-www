@@ -3,14 +3,15 @@ import { Link } from 'gatsby'
 import * as Styled from './index.styled'
 
 interface MoreButtonProps {
+  onClick?: (e: MouseEvent) => void
   href?: string
   text?: string
   isSubmit?: boolean
   disabled?: boolean
 }
 
-export const MoreButton: React.FC<MoreButtonProps> = ({ href, text, disabled, isSubmit, children }) => {
-  const Btn = () => <button type={isSubmit ? 'submit' : 'button'} disabled={disabled}>{text || children}</button>
+export const MoreButton: React.FC<MoreButtonProps> = ({ onClick, href, text, disabled, isSubmit, children }) => {
+  const Btn = () => <button type={isSubmit ? 'submit' : 'button'} disabled={disabled} onClick={onClick}>{text || children}</button>
   return (
     <Styled.Button className={'column is-full has-text-centered'}>
       {href
@@ -23,6 +24,7 @@ export const MoreButton: React.FC<MoreButtonProps> = ({ href, text, disabled, is
 
 export const HideTablet = Styled.HideTablet
 export const HideDesktop = Styled.HideDesktop
+export const PageTitle = Styled.PageTitle
 export const PageDescription = Styled.PageDescription
 export const Section = Styled.Section
 export const SectionBlack = Styled.SectionBlack
