@@ -2,9 +2,8 @@
 layout: project
 title: Motivo
 image: /images/projects/motivo.png
-description: |-
-  Motivo Cycling - Turbo Training and Indoor Cycling Workouts
-  your own personal cycling coach
+description: Motivo Cycling – Turbo Training and Indoor Cycling Workouts. Your
+  own personal cycling coach.
 tags:
   - mobile
   - iOS
