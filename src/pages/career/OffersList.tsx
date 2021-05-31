@@ -51,10 +51,10 @@ const Info = styled.div`
   }
 `
 
-const OffersList: React.FC<{jobs: JobModel[]}> = ({jobs = []}) => {
+const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
   return (
     <>
-      {jobs.map(job => (
+      {(jobs || []).map(job => (
         <Job>
           <Title href={routeLinks.jobs + getJobPath(job.url)}>{job.title}</Title>
           <Info>
