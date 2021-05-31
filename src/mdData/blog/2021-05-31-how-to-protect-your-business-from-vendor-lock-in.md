@@ -15,6 +15,8 @@ published: true
 ---
 **Have you ever felt trapped in a “relationship” with the original vendor? Let’s talk about vendor lock-in in the software development community and the ways to avoid it.**
 
+![vendor lock-in software developement](/static/images/cyber-security-3400657_1920.jpg)
+
 ## How to define vendor lock-in?
 
 Vendor lock-in is a situation when a customer is dependent on a vendor. This term works for various industries. In the software development world, it is often related to the fact that **a** **client is practically tied to the software development provider and infrastructure** provided by a software vendor. There are cases when clients don’t even have access to the code or cloud services.
