@@ -2,7 +2,7 @@
 layout: post
 title: How to protect your business from vendor lock-in?
 date: 2021-05-31T06:29:54.316Z
-image: /static/images/cyber-security-3400657_1920.jpg
+image: /images/cyber-security-3400657_1920.jpg
 author: izabela
 tags:
   - vendor
@@ -15,7 +15,7 @@ published: true
 ---
 **Have you ever felt trapped in a “relationship” with the original vendor? Let’s talk about vendor lock-in in the software development community and the ways to avoid it.**
 
-![vendor lock-in software developement](/static/images/cyber-security-3400657_1920.jpg)
+![vendor lock-in software developement](/images/cyber-security-3400657_1920.jpg)
 
 ## How to define vendor lock-in?
 
