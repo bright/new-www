@@ -10,6 +10,10 @@ const ImagesBase = styled.div`
     display: flex;
     gap: 2rem;
     flex-grow: 1;
+    
+    @media ${variables.device.mobile} {
+      gap: 1rem;
+    }
   }
 `
 
@@ -46,6 +50,7 @@ export const ImagesVertical = styled(ImagesBase)`
 
   @media ${variables.device.mobile} {
     flex-direction: row;
+    max-width: 90%;
   }
 `
 

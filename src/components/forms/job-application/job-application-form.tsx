@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useCallback } from 'react'
 import { TextField } from "../fields/text-field"
 import { Form } from "./job-application-form.styled"
 import { BlackButton } from "../../about-us/about-us.styled"
@@ -16,13 +16,21 @@ export interface FormProps {
   textLabel?: string
   textPlaceholder?: string
   uploadLabel?: string
+  onSubmit?: () => void
 }
 
 export const JobApplicationForm: React.FC<FormProps> = (props) => {
   const { value, handleChange, handleSubmit } = useApplicationForm()
-  const {nameLabel, namePlaceholder, mailLabel, mailPlaceholder, textLabel, textPlaceholder, uploadLabel} = props
+  const {nameLabel, namePlaceholder, mailLabel, mailPlaceholder, textLabel, textPlaceholder, uploadLabel, onSubmit} = props
+
+  const submit = useCallback((event) => {
+    event.preventDefault()
+    onSubmit && onSubmit()
+    handleSubmit(event)
+  }, [])
+
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={submit}>
       <div>
         <TextField
           required

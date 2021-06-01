@@ -68,10 +68,10 @@ const Columns = styled.div`
 
 const RecruitingProcess: React.FC = () => {
   const blocks = useMemo(() => ([
-    {image: '/images/career/recruiting/cv_review.png', title: 'cv review'},
-    {image: '/images/career/recruiting/interview.png', title: 'interview'},
-    {image: '/images/career/recruiting/skills_evaluation.png', title: 'skills evaluation'},
-    {image: '/images/career/recruiting/technical_interview.png', title: 'technical interview'},
+    {image: '/images/career/recruiting/cv_review.png', title: 'CV screening'},
+    {image: '/images/career/recruiting/interview.png', title: 'interview (technical part & non-technical part)'},
+    {image: '/images/career/recruiting/skills_evaluation.png', title: 'programming task'},
+    {image: '/images/career/recruiting/technical_interview.png', title: 'skills evaluation and feedback'},
   ]), [])
 
   return (

@@ -24,32 +24,53 @@ const Title = styled.a`
   color: ${variables.color.black};
   font-weight: 700;
   font-size: 1.1rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 0.6rem;
 `
 
 const Info = styled.div`
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-  
   & > div {
     position: relative;
 
-    &:first-child:after,
-    &:nth-child(2):after {
+    &:last-child span {
+      position: relative;
+      display: inline-block;
+      margin-right: 2rem;
+      text-transform: lowercase;
+      font-weight: 500;
+    }
+    
+    &:last-child span:after,
+    &:first-child div:first-child:after {
       position: absolute;
       top: 50%;
       right: -1.3rem;
       transform: translateY(-55%);
-      content: '|';
-    }
-    &:first-child:after {
       font-size: 2rem;
       content: '•';
     }
     
-    & > div:not(:last-child) {
-      margin-bottom: 1rem;
+    &:first-child div {
+      display: inline-block;
+      
+      &:first-child {
+        position: relative;
+        margin-right: 2rem;
+
+        &:after {
+          font-size: inherit;
+          content: '|';
+        }
+      }
+    }
+    
+    @media ${variables.device.mobile} {
+      &:first-child div {
+        display: block;
+        
+        &:first-child:after {
+          content: none;
+        }
+      }
     }
   }
 `
@@ -68,8 +89,7 @@ const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
           <Title href={routeLinks.jobs + getJobPath(job.url)}>{job.title}</Title>
           <Info>
             <div>{job.salary.split(' or ').map(salary => <div>{salary}</div>)}</div>
-            <div>{job.hours}</div>
-            <div>Gdańsk</div>
+            <div><span>{job.hours}</span>Gdańsk</div>
           </Info>
           <Link to={routeLinks.jobs + getJobPath(job.url)}>
             <Arrow src={arrowImg} alt='show job details' />

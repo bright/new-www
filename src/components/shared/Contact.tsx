@@ -29,7 +29,6 @@ const ContainerWrapper = styled.div({
 
 const Container = styled.div({
   maxWidth: '995px',
-
   display: 'flex',
   flexDirection: 'column',
 })
