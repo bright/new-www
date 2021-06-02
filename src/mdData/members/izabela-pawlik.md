@@ -8,7 +8,7 @@ short_name: Izabela
 email: izabela.pawlik@brightinventions.pl
 bio: Digital Marketing Specialist
 description: Digital Marketing Specialist
-avatar: /images/izabela.jpeg
+avatar: /static/images/izabela.jpg
 published: false
 ---
-Easy-going and eager to learn new things. Loves to explain complex issues with simple words. Privately, she loves escape rooms, cooperative board games and Premier League.
+Data-driven marketing specialist. Easy-going and eager to learn new things. Loves to explain complex issues with simple words. Privately, she enjoys escape rooms, cooperative board games and Premier League.
