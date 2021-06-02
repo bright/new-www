@@ -12,6 +12,7 @@ const Block = styled.div`
   position: relative;
   display: inline-block;
   width: calc(50% - 2rem);
+  min-height: 10rem;
   margin: 1rem 1rem;
   font-size: 0;
   
