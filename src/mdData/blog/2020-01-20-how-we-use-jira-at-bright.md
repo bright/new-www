@@ -40,7 +40,7 @@ A workflow is where you define the statuses that different types of issues can b
 
 ### 3. Issues structure
 
-  	To organise the project’s features we usually use the standard Epics > User Stories > Tasks > Subtasks + Bugs structure. While Epics and User Stories focus mostly on the functional aspects, (from the user’s perspective), Tasks and Subtasks concern the development effort needed to implement a given feature.   Jira treats User Stories and Tasks as the same level kind of issue types and both can have sub-tasks. Nevertheless, there’s no hierarchy relation between the two types. In some bigger projects we lacked an additional level of hierarchy thus we created a custom relation Requires/Is required by that can be formed between a User Story and a Task (a User Story requires a specific Task to be implemented).
+To organise the project’s features we usually use the standard Epics > User Stories > Tasks > Subtasks + Bugs structure. While Epics and User Stories focus mostly on the functional aspects, (from the user’s perspective), Tasks and Subtasks concern the development effort needed to implement a given feature.   Jira treats User Stories and Tasks as the same level kind of issue types and both can have sub-tasks. Nevertheless, there’s no hierarchy relation between the two types. In some bigger projects we lacked an additional level of hierarchy thus we created a custom relation Requires/Is required by that can be formed between a User Story and a Task (a User Story requires a specific Task to be implemented).
 
 ### 4. Issue layout
 
