@@ -6,7 +6,7 @@ name: Patryk Huzarski
 short_name: Patryk
 email: patryk.huzarski@brightinventions.pl
 bio: Software Developer
-avatar: /images/members/patryk_huzarski.jpg
+avatar: /images/patrykh_500.png
 twitter: pathuzarski
 github: phuzarski
 description: Started programming adventure at the age of 12 and since then he has been
