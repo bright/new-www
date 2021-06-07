@@ -7,7 +7,7 @@ short_name: Wojciech
 email: wojciech.baczynski@bright.dev
 bio: Fullstack Developer 
 description: Fullstack Developer
-avatar: /images/members/wojciech_baczynski.jpg
+avatar: /images/wojciech2.png
 published: true
 ---
 Eager to learn new technologies and develop soft skills. Focused on the business aspect of software development. Loves order both in code and life. Fan of sailing and scrabble.
