@@ -30,7 +30,7 @@ As one customer added, “**Bright Inventions’ practical approach** to project
 
 “**Creative problem-solving and a commitment to their clients make Bright Inventions a great partner**,” emphasized a second happy client. “Besides being extremely proficient in their field, **they care about our business and want us to succeed**. They also like to be challenged and are open to experimentation. Even if they’ve never used a certain technology, **they’ll give it a try and do their best**.”
 
-![enter image description here](https://lh3.googleusercontent.com/jP6Tltiat8PytaoZJ2c_0MGQcqickjy2iJ9bWtxE7g-EKLy5xYVwCNFIoPROoaOzQiu5bPWgmAxU "We Deliver on Clutch"){: .center-image}
+![enter image description here](https://lh3.googleusercontent.com/jP6Tltiat8PytaoZJ2c_0MGQcqickjy2iJ9bWtxE7g-EKLy5xYVwCNFIoPROoaOzQiu5bPWgmAxU "We Deliver on Clutch")
 
 The Manifest and Visual Objects, the sister companies of Clutch, echoed such praise for our work, which means a great deal to our team as we continue striving for progress.
 

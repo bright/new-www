@@ -31,7 +31,7 @@ I had only one problem there - drivers. Windows 10 is a bit too strict about dri
 On your WiFi AP list should appear one more network called like `ESP AA:BB:CC:DD:EE:FF`. Just connect to it, discover device's IP (it should be `192.168.4.1`) and put it into the browser.
 Your eyes should see something like this:
 
-![Screen 1](/images/mastering-led-with-basic-wirelessly/screen1.png){: .center-image}
+![Screen 1](/images/mastering-led-with-basic-wirelessly/screen1.png)
 
 In `SETTINGS` tab you can configure ESP to connect to your home wifi, setup OTA url (eg. url to BASIC file hosted on GitHub)
 
@@ -47,7 +47,7 @@ print "Hello World"
 
 Then `Save` file and `[RUN]` the code.
 
-![Screen 2](/images/mastering-led-with-basic-wirelessly/screen2.png){: .center-image}
+![Screen 2](/images/mastering-led-with-basic-wirelessly/screen2.png)
 
 Yeah! It was easy. But if you want to put one more `print`, you will see garbage (`<hr>` tag) above your text. Quickly look into documentation and you should find out there also `wprint` function, that put text on screen without any additional code.
 
@@ -96,7 +96,7 @@ Next x
 
 This code lasts after 60 seconds. Let's make it infinite!
 
-![Blinky](/images/mastering-led-with-basic-wirelessly/blink.gif){: .center-image}
+![Blinky](/images/mastering-led-with-basic-wirelessly/blink.gif)
 
 ```
 variable = 0

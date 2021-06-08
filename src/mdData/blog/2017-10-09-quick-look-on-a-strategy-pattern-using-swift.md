@@ -16,7 +16,7 @@ date: '2017-10-08T22:00:00.000Z'
 published: true
 ---
 
-![Image Title](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg){: .center-image}
+![Image Title](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg)
 
 
 Let's take a quick look at one of the design patterns that should help us to write a good Object-Oriented code.

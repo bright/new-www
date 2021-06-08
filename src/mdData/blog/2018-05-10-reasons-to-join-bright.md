@@ -43,4 +43,4 @@ If you would like to give us a try, or juts in case you have more questions or s
 
 **HOPE TO SEE YOU SOON! :)**
 
-![](/images/bright_team.png){: .center-image}
+![](/images/bright_team.png)

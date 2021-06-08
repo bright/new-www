@@ -49,5 +49,5 @@ But we are not left alone in our battle for job satisfaction. If you want to enj
 
 We often create our own limits of being happy, the limits we are often not aware of. That is why, cultivating positive mindset and practising fresh behaviours is so important to change our destructive routine. Train on maintaining focus, time management, adaptability, etc. It will help you stay productive in any disruptive and changing work environment. Acknowledge the real challenges and face them. And last but not least, ask for support if you need it. Remember that there is a direct connection between staying focused and productive and being an engaged employee. And when we are engaged, we feel also more motivated, confident and happy. 
 
-![Happy Employee](/images/happy_employee.png){: .center-image}
+![Happy Employee](/images/happy_employee.png)
 

@@ -16,7 +16,7 @@ published: true
 
 You have created your CSS rule and found out that it didn’t take a desired effect. You checked the CSS selector and HTML code again to check if they correspond. Or you just opened the developer console in your browser, inspected the element and checked if your CSS rule was  present in the styles list. It turns out that it is there, but the declarations are strikethrough. This means you have just encountered some kind of CSS specificity issue. You could just add the `!important` flag to your declarations and have it done. Is it a good solution? Never. I do not say you should never use `!important` though. What I really want to say is that you should never use `!important` if you are not aware of the consequences.
 
-![Image](/images/do-not-overuse-important/important.jpg){: .center-image}
+![Image](/images/do-not-overuse-important/important.jpg)
 
 First things first. If more than one selector applies to a certain HTML element, there is the order taken to decide which particular style to apply:
 

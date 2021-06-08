@@ -65,7 +65,7 @@ While using multiple Manifest files gives the best flexibility (you can change l
 * changing anything requires editing every file,
 * comparing multiple files and finding differences is not convenient.
 
-![Placeholder](/images/android-manifest-placeholders/placeholder.png){: .center-image}
+![Placeholder](/images/android-manifest-placeholders/placeholder.png)
 
 # Using placeholders #
 

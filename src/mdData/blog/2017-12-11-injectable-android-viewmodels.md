@@ -31,7 +31,7 @@ But on Android you start with an activity component and you can't prepare the vi
 
 The Google's `ViewModel` was designed to help with such issues. Unfortunately, it still needs to be created during the activity lifecycle but with several Dagger tweaks you can easily inject any view model's dependencies to it.
 
-![Injection](/images/injectable-android-viewmodels/syringe-1884758_1920.jpg){: .center-image}
+![Injection](/images/injectable-android-viewmodels/syringe-1884758_1920.jpg)
 
 # Injectable ViewModels #
 
@@ -189,4 +189,4 @@ class MainViewModel @Inject constructor(
 
 If it seems too complicated to you, please take a look at the diagram below. It may help you to see the big picture.
 
-![Diagram](/images/injectable-android-viewmodels/diagram.png){: .center-image}
+![Diagram](/images/injectable-android-viewmodels/diagram.png)

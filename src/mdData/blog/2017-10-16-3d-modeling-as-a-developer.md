@@ -21,7 +21,7 @@ OpenSCAD is a small (approx. 25 MB) but powerful CAD that lets us design using i
 2. Preview
 3. Console
 
-![Screen 1](/images/3d-modeling-as-a-developer/screen1.png){: .center-image}
+![Screen 1](/images/3d-modeling-as-a-developer/screen1.png)
 
 The best in openSCAD is its simplicity. All you need to know are a few shapes and functions, and that's all. This [cheat sheet](http://www.openscad.org/cheatsheet/) might come in handy as all the important knowledge is included in it.
 
@@ -63,13 +63,13 @@ cylinder(h=2, r=5);
 
 `center` parameter is not obligatory. It moves center of our shape to [0,0,0].
 
-![Screen 2](/images/3d-modeling-as-a-developer/screen2.png){: .center-image}
+![Screen 2](/images/3d-modeling-as-a-developer/screen2.png)
 
 &nbsp;
 
 You should name all the parameters. If you don't, it's more likely that you will make a mistake. If you called a previous function with two parameters but without names: `cylinder(2, 5);`, the result would be following:
 
-![Screen 3](/images/3d-modeling-as-a-developer/screen3.png){: .center-image}
+![Screen 3](/images/3d-modeling-as-a-developer/screen3.png)
 
 So what is happening?
 
@@ -93,7 +93,7 @@ union() {
 }
 ```
 
-![Screen 4](/images/3d-modeling-as-a-developer/screen4.png){: .center-image}
+![Screen 4](/images/3d-modeling-as-a-developer/screen4.png)
 
 Cube with gap in the middle:
 
@@ -105,7 +105,7 @@ difference() {
 }
 ```
 
-![Screen 5](/images/3d-modeling-as-a-developer/screen5.png){: .center-image}
+![Screen 5](/images/3d-modeling-as-a-developer/screen5.png)
 
 And... we've encountered a glitch here. We have a hole in the middle of our cube, but because the width of the first cube equals the width of the second cube, we have walls with width 0. In preview it may be a bit distracting, but if we render it (F6 or Design > Render) it should disappear.
 The second way is to make subtracted shape a bit wider.
@@ -127,7 +127,7 @@ intersection() {
 }
 ```
 
-![Screen 6](/images/3d-modeling-as-a-developer/screen6.png){: .center-image}
+![Screen 6](/images/3d-modeling-as-a-developer/screen6.png)
 
 It is possible to wrap operations in operations. For example, at first `rotate` cube and then subtract it from another one.
 
@@ -138,7 +138,7 @@ difference() {
 }
 ```
 
-![Screen 7](/images/3d-modeling-as-a-developer/screen7.png){: .center-image}
+![Screen 7](/images/3d-modeling-as-a-developer/screen7.png)
 
 There can be a useful debug function. Just put hash `#` before the operation:
 
@@ -149,7 +149,7 @@ difference() {
 }
 ```
 
-![Screen 8](/images/3d-modeling-as-a-developer/screen8.png){: .center-image}
+![Screen 8](/images/3d-modeling-as-a-developer/screen8.png)
 
 Feel free to try other operations and transformations.
 
@@ -185,7 +185,7 @@ difference() {
 }
 ```
 
-![Screen 9](/images/3d-modeling-as-a-developer/screen9.png){: .center-image}
+![Screen 9](/images/3d-modeling-as-a-developer/screen9.png)
 
 
 ## And others...

@@ -20,7 +20,7 @@ In my [previous post](https://brightinventions.pl/blog/injectable-android-viewmo
 
 # The structure #
 
-![Structure](/images/testing-android-viewmodels/structure.svg){: .center-image}
+![Structure](/images/testing-android-viewmodels/structure.svg)
 
 The `MainViewModel` view model exposes three [RxJava](https://github.com/ReactiveX/RxJava) `Observable`s which Activity (`MainActivity`) subscribes to in order to receive notifications, e.g. to display an error message. There is also the `getRepo` function that triggers fetching some data from the GitHub API and the `data` variable that stores the fetched data.
 
@@ -32,7 +32,7 @@ It's also worth noting that the Activity and the Fragments use the same instance
 
 `ViewModelProviders.of(activity, vmFactory).get(...)`
 
-![Stethoscope](/images/testing-android-viewmodels/stethoscope.jpg){: .center-image}
+![Stethoscope](/images/testing-android-viewmodels/stethoscope.jpg)
 
 # Testing #
 

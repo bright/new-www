@@ -30,7 +30,7 @@ While granting this account the [required permissions](https://github.com/Triple
 Bearing this in mind, you should always protect the service account from abuse. The [documentation](https://developers.google.com/android-publisher/api_usage) also does warn you:
 > We recommend not giving third parties access to any service accounts you may create. We especially recommend not giving access to any private keys for your service account. Doing so provides anonymous access to your account that can be shared with anyone.
 
-![Padlock](/images/securing-your-google-service-account-key-in-builds/padlock-597495_1920.jpg){: .center-image}
+![Padlock](/images/securing-your-google-service-account-key-in-builds/padlock-597495_1920.jpg)
 
 # Automatic build deployment #
 
@@ -52,7 +52,7 @@ Most of the automation servers like Jenkins or TeamCity have the ability to stor
 
 In this example, the secret value is stored on a TeamCity server and it will be available to the build in an environment variable.
 
-![TeamCity secret value](/images/securing-your-google-service-account-key-in-builds/tc_secret_value.png){: .center-image}
+![TeamCity secret value](/images/securing-your-google-service-account-key-in-builds/tc_secret_value.png)
 
 ### Reading the key in a build ###
 
