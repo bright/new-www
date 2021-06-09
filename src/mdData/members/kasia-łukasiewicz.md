@@ -6,7 +6,7 @@ name: Kasia Łukasiewicz
 short_name: Kasia
 email: katarzyna.lukasiewicz@brightinventions.pl
 bio: Senior Project Manager
-avatar: /images/members/kasia_lukasiewicz.jpg
+avatar: /images/kasia_l2.2.png
 github: bufta
 description: An Agile romantic with a scientific mind and a zeal for learning
 redirect_from: ["/kasia", "/kasia/"]
