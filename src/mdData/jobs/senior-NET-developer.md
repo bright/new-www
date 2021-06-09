@@ -5,7 +5,7 @@ hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
 salary_min: 16000
 salary_max: 22000
-published: true
+published: false
 order: 1
 ---
 
