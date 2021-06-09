@@ -1,8 +1,8 @@
 ---
 layout: member
-author_id: michal-l
+author_id: michal-lem
 ex: false
-slug: michal-l
+slug: michal-lem
 name: Michał Lemke
 short_name: "Michał "
 email: michal.lemke@brightinventions.pl
