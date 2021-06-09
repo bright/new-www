@@ -2,7 +2,7 @@
 layout: post
 title: How to find and implement a team improvement technique of your dreams. Or not.
 date: 2020-10-06T11:40:09.578Z
-image: /static/images/5mugs_kasia_blog-01.png
+image: /images/5mugs_kasia_blog-01.png
 author: kasia
 tags:
   - agile
