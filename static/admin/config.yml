@@ -7,12 +7,13 @@ publish_mode: editorial_workflow
 site_url: https://brightinventions.pl/
 logo_url: https://brightinventions.pl/images/logo.png
 media_folder: 'static/images'
+pubilc_folder: '/images'
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Blog' # Used in the UI
     folder: 'src/mdData/blog' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    path: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front IllegalAccessExceptionmatter
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
