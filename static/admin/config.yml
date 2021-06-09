@@ -7,7 +7,7 @@ publish_mode: editorial_workflow
 site_url: https://brightinventions.pl/
 logo_url: https://brightinventions.pl/images/logo.png
 media_folder: 'static/images'
-pubilc_folder: '/images'
+public_folder: '/images'
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Blog' # Used in the UI
