@@ -8,7 +8,7 @@ short_name: Cezary
 email: cezary.graban@brightinventions.pl
 bio: Android Developer
 description: Android Developer
-avatar: /images/cezary2.png
+avatar: /images/cezary2_team.png
 published: true
 ---
 Mostly self-taught Android Developer. He studied civil engineering but decided to drop out of his studies because he didn't want to sit by the desk in his job all day, and that's why he decided to become Mobile Developer. 
