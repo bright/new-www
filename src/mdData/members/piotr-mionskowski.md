@@ -7,7 +7,7 @@ short_name: Piotr
 web: https://miensol.pl
 email: piotr.mionskowski@brightinventions.pl
 bio: Partner, Team Leader, Technology Evangelist
-avatar: /images/piotr_m.jpg
+avatar: /images/piotr_m2_team.png
 twitter: miensol
 github: miensol
 stackoverflow: 155213/miensol
