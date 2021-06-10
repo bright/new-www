@@ -58,7 +58,7 @@ You **pay only for the real time spent on the project and the resources** (mater
 
 ## Hybrid pricing model for software development:
 
-* Software development studio presents the fixed price but for a smaller piece of the software development cake.
+* Software development studio presents the fixed price but for a smaller piece of the software development cake. 🙂
 * The fixed price contains the job planned to do within the sprint (usually sprint lasts 2 weeks).
 * Before each sprint there is a planning meeting with the client and software development company. Both sides establish what needs to be done during the upcoming sprint.
 * According to that software development company creates a budget proposal. When the client accepts it, they know what is going to be delivered within the next 2 weeks and how much it will cost.
