@@ -8,7 +8,7 @@ short_name: Sławek
 email: slawek.kopaczewski@brightinventions.pl
 bio: Fullstack Developer
 description: Fullstack Developer
-avatar: /images/slawek2.jpg
+avatar: /images/slawek2_team.png
 published: true
 ---
 Fullstack developer fascinated about the whole JavaScript ecosystem. TypeScript enthusiast. Always focused on self-improvement and client needs. Loves volleyball, gym, wandering and cycling.
