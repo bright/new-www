@@ -8,7 +8,7 @@ short_name: Klaudiusz
 email: klaudiusz.wachowiak@brightinventions.pl
 bio: "Backend Developer "
 description: "Backend Developer "
-avatar: /images/klaudiusz.jpg
+avatar: /images/klaudiusz_2_team.png
 published: true
 ---
 Backend Developer with over 3 years of experience in Java. After hours loves to conquer the city and more wild areas. His other passions are cooking and sports.
