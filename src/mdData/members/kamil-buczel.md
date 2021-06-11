@@ -8,7 +8,7 @@ short_name: "Kamil "
 email: kamil.buczel@brightinventions.pl
 bio: iOS Developer
 description: iOS Developer
-avatar: /images/kamil2_2.png
+avatar: /images/kamil2_team2.png
 published: true
 ---
 iOS Developer
