@@ -10,7 +10,7 @@ import { Page } from '../layout/Page'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import { PageTitle, Section } from '../components/shared'
 import WhatWePractice from './career/WhatWePractice'
-import Images from './career/Images'
+import HeaderImages from './career/HeaderImages'
 import Description from './career/Description'
 import Offers from './career/Offers'
 import RecruitingProcess from './career/RecruitingProcess'
@@ -36,7 +36,7 @@ const CareerPage: React.FC = () => {
         </Section>
       </div>
 
-      <Images />
+      <HeaderImages />
 
       <div className='container'>
         <Description />

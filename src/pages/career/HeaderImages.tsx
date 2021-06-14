@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import { StaticImage } from 'gatsby-plugin-image'
 
 import { Section } from '../../components/shared'
-import { StaticImage } from 'gatsby-plugin-image'
 import variables from '../../styles/variables'
 
 const ImagesBase = styled.div`
@@ -54,19 +54,19 @@ export const ImagesVertical = styled(ImagesBase)`
   }
 `
 
-const Images: React.FC = () => {
+const HeaderImages: React.FC = () => {
   return (
     <Section>
         <ImagesHorizontal>
-          <StaticImage src="../../../static/images/career/image1.png" alt={'Career at Bright Inventions'} />
+          <StaticImage src="../../../static/images/career/header/image1.png" alt={'Career at Bright Inventions'} />
           <ImagesVertical>
-            <StaticImage src="../../../static/images/career/image2.png" alt={'Software developer career Poland'} />
-            <StaticImage src="../../../static/images/career/image3.png" alt={'Software developer career Poland'} />
+            <StaticImage src="../../../static/images/career/header/image2.png" alt={'Software developer career Poland'} />
+            <StaticImage src="../../../static/images/career/header/image3.png" alt={'Software developer career Poland'} />
           </ImagesVertical>
-          <StaticImage src="../../../static/images/career/image4.png" alt={'Career at Bright Inventions'} />
+          <StaticImage src="../../../static/images/career/header/image4.png" alt={'Career at Bright Inventions'} />
         </ImagesHorizontal>
     </Section>
   )
 }
 
-export default Images
+export default HeaderImages
