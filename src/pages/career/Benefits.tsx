@@ -4,10 +4,6 @@ import styled from 'styled-components'
 import { Section, SectionTitle } from '../../components/shared'
 import variables from '../../styles/variables'
 
-import imgFacebook from './../../../static/images/social/facebook.svg'
-import imgLinkedIn from './../../../static/images/social/linkedIn.svg'
-import imgPinterest from './../../../static/images/social/pinterest.svg'
-
 const Block = styled.div`
   position: relative;
   display: inline-block;
@@ -96,9 +92,9 @@ const Benefits: React.FC = () => {
 
         <BlockSmall className='is-pulled-right'>
           <span>Follow us on:</span>
-          <a target='_blank' href={'https://www.linkedin.com/company/bright-inventions/'}><img src={imgLinkedIn} alt={'LinkedIn'} /></a>
-          <a target='_blank' href={'https://www.facebook.com/bright.inventions/'}><img src={imgFacebook} alt={'Facebook'} /></a>
-          <a target='_blank' href={'https://www.instagram.com/bright_inventions/'}><img src={imgPinterest} alt={'Pinterest'} /></a>
+          <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'><img src='/images/social/facebook.svg' alt='LinkedIn' /></a>
+          <a target='_blank' href='https://www.facebook.com/bright.inventions/'><img src='/images/social/linkedIn.svg' alt='Facebook' /></a>
+          <a target='_blank' href='https://www.instagram.com/bright_inventions/'><img src='/images/social/pinterest.svg' alt='Pinterest' /></a>
         </BlockSmall>
         {blocks.map((block, index) => (
           <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>

@@ -1,4 +1,4 @@
-import React, {useMemo}  from 'react'
+import React  from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
@@ -6,8 +6,6 @@ import { routeLinks } from '../../config/routing'
 import { getJobPath } from '../../helpers/pathHelpers'
 import { JobModel } from '../../models/gql'
 import variables from '../../styles/variables'
-
-import arrowImg from '../../../static/images/career/arrow.svg'
 
 const Job = styled.div`
   &:not(:last-child) {
@@ -19,12 +17,15 @@ const Job = styled.div`
   }
 `
 
-const Title = styled.a`
+const Title = styled.span`
   display: block;
-  color: ${variables.color.black};
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 0.6rem;
+  
+  & > a {
+    color: ${variables.color.black};
+  }
 `
 
 const Info = styled.div`
@@ -86,13 +87,15 @@ const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
     <>
       {(jobs || []).map(job => (
         <Job>
-          <Title href={routeLinks.jobs + getJobPath(job.url)}>{job.title}</Title>
+          <Title>
+            <Link to={routeLinks.jobs + getJobPath(job.url)}>{job.title}</Link>
+          </Title>
           <Info>
             <div>{job.salary.split(' or ').map(salary => <div>{salary}</div>)}</div>
             <div><span>{job.hours}</span>Gdańsk</div>
           </Info>
           <Link to={routeLinks.jobs + getJobPath(job.url)}>
-            <Arrow src={arrowImg} alt='show job details' />
+            <Arrow src='/images/career/arrow.svg' alt='show job details' />
           </Link>
         </Job>
       ))}
