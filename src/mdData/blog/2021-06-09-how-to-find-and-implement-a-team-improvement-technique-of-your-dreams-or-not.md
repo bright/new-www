@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to find and implement a team improvement technique of your dreams. Or not.
-date: 2020-10-06T11:40:09.578Z
+date: 2021-06-09T11:40:09.578Z
 image: /images/blogpost_www_kasia_5mugs.png
 author: kasia
 tags:
