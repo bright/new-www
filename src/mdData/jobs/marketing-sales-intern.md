@@ -1,5 +1,6 @@
 ---
 title: Marketing/Sales Intern
+subtitle:
 layout: job
 hours: Full-time / Part-time
 salary: to be specified

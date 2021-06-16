@@ -19,13 +19,16 @@ const Job = styled.div`
 
 const Title = styled.span`
   display: block;
-  font-weight: 700;
-  font-size: 1.1rem;
   margin-bottom: 0.6rem;
-  
   & > a {
+    font-weight: 700;
+    font-size: 1.5rem;
     color: ${variables.color.black};
   }
+`
+
+const Subtitle = styled.span`
+  color: ${variables.color.primary}
 `
 
 const Info = styled.div`
@@ -89,6 +92,7 @@ const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
         <Job>
           <Title>
             <Link to={routeLinks.jobs + getJobPath(job.url)}>{job.title}</Link>
+            <Subtitle>{job.subtitle}</Subtitle>
           </Title>
           <Info>
             <div>{job.salary.split(' or ').map(salary => <div>{salary}</div>)}</div>

@@ -52,5 +52,6 @@ export interface JobModel {
   hours: string
   salary: string
   title: string
+  subtitle?: string
   url: string
 }

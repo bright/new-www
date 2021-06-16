@@ -27,12 +27,14 @@ const jobsQuery = graphql`
       filter: {
         frontmatter: { layout: { eq: "job" }, published: { eq: true } }
       }
-      limit: 3
+      limit: 3,
+      sort: {fields: [frontmatter___order]}
     ) {
       edges {
         node {
           frontmatter {
             title
+            subtitle
             salary
             hours
           }

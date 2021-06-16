@@ -1,6 +1,7 @@
 ---
 layout: job
 title: Sales Executive
+subtitle:
 hours: Full-time / Part-time
 salary: to be specified
 published: false

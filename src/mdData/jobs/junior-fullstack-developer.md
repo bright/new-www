@@ -1,6 +1,7 @@
 ---
 layout: job
 title: "Junior Fullstack Developer "
+subtitle:
 hours: full-time
 salary: 5000 - 9000 + VAT (B2B) or 4150 - 7500 PLN gross (UoP) 
 salary_min: 4150

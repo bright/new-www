@@ -57,6 +57,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'job' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
       - { label: 'Hours', name: 'hours', widget: 'string' }
       - { label: 'Salary', name: 'salary', widget: 'string' }
       - { label: 'Salary Min', name: 'salary_min', widget: 'number', required: false }

@@ -627,6 +627,7 @@ type MarkdownRemarkFrontmatter {
     short_name: String
     slug: String
     stackoverflow: String
+    subtitle: String
     tags: [String]
     title: String
     twitter: String
@@ -946,6 +947,7 @@ type SitePluginPluginOptions {
     bucketName: String
     cacheDigest: String
     cache_busting_mode: String
+    className: String
     createLinkInHead: Boolean
     crossOrigin: String
     defaultQuality: Int
@@ -970,6 +972,7 @@ type SitePluginPluginOptions {
     minify: Boolean
     name: String
     namespace: String
+    offsetY: Int
     output: String
     pageTransitionDelay: Int
     path: String
@@ -1004,17 +1007,20 @@ type SitePluginPluginOptionsPlugins {
     pluginFilepath: String
     pluginOptions: SitePluginPluginOptionsPluginsPluginOptions
     resolve: String
+    ssrAPIs: [String]
     version: String
 }
 
 type SitePluginPluginOptionsPluginsPluginOptions {
     backgroundColor: String
+    className: String
     disableBgImage: Boolean
     disableBgImageOnAlpha: Boolean
     linkImagesToOriginal: Boolean
     loading: String
     markdownCaptions: Boolean
     maxWidth: Int
+    offsetY: Int
     quality: Int
     showCaptions: Boolean
     sizeByPixelDensity: Boolean
@@ -1506,6 +1512,7 @@ enum FileFieldsEnum {
     childMarkdownRemark___frontmatter___short_name
     childMarkdownRemark___frontmatter___slug
     childMarkdownRemark___frontmatter___stackoverflow
+    childMarkdownRemark___frontmatter___subtitle
     childMarkdownRemark___frontmatter___tags
     childMarkdownRemark___frontmatter___title
     childMarkdownRemark___frontmatter___twitter
@@ -1792,6 +1799,7 @@ enum FileFieldsEnum {
     childrenMarkdownRemark___frontmatter___short_name
     childrenMarkdownRemark___frontmatter___slug
     childrenMarkdownRemark___frontmatter___stackoverflow
+    childrenMarkdownRemark___frontmatter___subtitle
     childrenMarkdownRemark___frontmatter___tags
     childrenMarkdownRemark___frontmatter___title
     childrenMarkdownRemark___frontmatter___twitter
@@ -2396,6 +2404,7 @@ enum MarkdownRemarkFieldsEnum {
     frontmatter___short_name
     frontmatter___slug
     frontmatter___stackoverflow
+    frontmatter___subtitle
     frontmatter___tags
     frontmatter___title
     frontmatter___twitter
@@ -2920,6 +2929,7 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___bucketName
     pluginCreator___pluginOptions___cacheDigest
     pluginCreator___pluginOptions___cache_busting_mode
+    pluginCreator___pluginOptions___className
     pluginCreator___pluginOptions___createLinkInHead
     pluginCreator___pluginOptions___crossOrigin
     pluginCreator___pluginOptions___defaultQuality
@@ -2944,6 +2954,7 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___minify
     pluginCreator___pluginOptions___name
     pluginCreator___pluginOptions___namespace
+    pluginCreator___pluginOptions___offsetY
     pluginCreator___pluginOptions___output
     pluginCreator___pluginOptions___pageTransitionDelay
     pluginCreator___pluginOptions___path
@@ -2955,6 +2966,7 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___plugins___nodeAPIs
     pluginCreator___pluginOptions___plugins___pluginFilepath
     pluginCreator___pluginOptions___plugins___resolve
+    pluginCreator___pluginOptions___plugins___ssrAPIs
     pluginCreator___pluginOptions___plugins___version
     pluginCreator___pluginOptions___protocol
     pluginCreator___pluginOptions___pure
@@ -3095,6 +3107,7 @@ enum SitePluginFieldsEnum {
     pluginOptions___bucketName
     pluginOptions___cacheDigest
     pluginOptions___cache_busting_mode
+    pluginOptions___className
     pluginOptions___createLinkInHead
     pluginOptions___crossOrigin
     pluginOptions___defaultQuality
@@ -3119,6 +3132,7 @@ enum SitePluginFieldsEnum {
     pluginOptions___minify
     pluginOptions___name
     pluginOptions___namespace
+    pluginOptions___offsetY
     pluginOptions___output
     pluginOptions___pageTransitionDelay
     pluginOptions___path
@@ -3130,12 +3144,14 @@ enum SitePluginFieldsEnum {
     pluginOptions___plugins___nodeAPIs
     pluginOptions___plugins___pluginFilepath
     pluginOptions___plugins___pluginOptions___backgroundColor
+    pluginOptions___plugins___pluginOptions___className
     pluginOptions___plugins___pluginOptions___disableBgImage
     pluginOptions___plugins___pluginOptions___disableBgImageOnAlpha
     pluginOptions___plugins___pluginOptions___linkImagesToOriginal
     pluginOptions___plugins___pluginOptions___loading
     pluginOptions___plugins___pluginOptions___markdownCaptions
     pluginOptions___plugins___pluginOptions___maxWidth
+    pluginOptions___plugins___pluginOptions___offsetY
     pluginOptions___plugins___pluginOptions___quality
     pluginOptions___plugins___pluginOptions___showCaptions
     pluginOptions___plugins___pluginOptions___sizeByPixelDensity
@@ -3143,6 +3159,7 @@ enum SitePluginFieldsEnum {
     pluginOptions___plugins___pluginOptions___tracedSVG
     pluginOptions___plugins___pluginOptions___withWebp
     pluginOptions___plugins___resolve
+    pluginOptions___plugins___ssrAPIs
     pluginOptions___plugins___version
     pluginOptions___protocol
     pluginOptions___pure
@@ -3512,6 +3529,7 @@ input MarkdownRemarkFrontmatterFilterInput {
     short_name: StringQueryOperatorInput
     slug: StringQueryOperatorInput
     stackoverflow: StringQueryOperatorInput
+    subtitle: StringQueryOperatorInput
     tags: StringQueryOperatorInput
     title: StringQueryOperatorInput
     twitter: StringQueryOperatorInput
@@ -3696,6 +3714,7 @@ input SitePluginPluginOptionsFilterInput {
     bucketName: StringQueryOperatorInput
     cacheDigest: StringQueryOperatorInput
     cache_busting_mode: StringQueryOperatorInput
+    className: StringQueryOperatorInput
     createLinkInHead: BooleanQueryOperatorInput
     crossOrigin: StringQueryOperatorInput
     defaultQuality: IntQueryOperatorInput
@@ -3720,6 +3739,7 @@ input SitePluginPluginOptionsFilterInput {
     minify: BooleanQueryOperatorInput
     name: StringQueryOperatorInput
     namespace: StringQueryOperatorInput
+    offsetY: IntQueryOperatorInput
     output: StringQueryOperatorInput
     pageTransitionDelay: IntQueryOperatorInput
     path: StringQueryOperatorInput
@@ -3754,6 +3774,7 @@ input SitePluginPluginOptionsPluginsFilterInput {
     pluginFilepath: StringQueryOperatorInput
     pluginOptions: SitePluginPluginOptionsPluginsPluginOptionsFilterInput
     resolve: StringQueryOperatorInput
+    ssrAPIs: StringQueryOperatorInput
     version: StringQueryOperatorInput
 }
 
@@ -3763,12 +3784,14 @@ input SitePluginPluginOptionsPluginsFilterListInput {
 
 input SitePluginPluginOptionsPluginsPluginOptionsFilterInput {
     backgroundColor: StringQueryOperatorInput
+    className: StringQueryOperatorInput
     disableBgImage: BooleanQueryOperatorInput
     disableBgImageOnAlpha: BooleanQueryOperatorInput
     linkImagesToOriginal: BooleanQueryOperatorInput
     loading: StringQueryOperatorInput
     markdownCaptions: BooleanQueryOperatorInput
     maxWidth: IntQueryOperatorInput
+    offsetY: IntQueryOperatorInput
     quality: IntQueryOperatorInput
     showCaptions: BooleanQueryOperatorInput
     sizeByPixelDensity: BooleanQueryOperatorInput
