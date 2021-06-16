@@ -1,46 +1,34 @@
 ---
 layout: job
 title: "Senior Frontend Developer "
-subtitle: "ONGOING"
 hours: full-time
-salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
+salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
 salary_min: 16000
 salary_max: 22000
 published: true
 order: 1
+subtitle: ONGOING
 ---
 ## Who We Are
 
-We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
 
-Bright Inventions is a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
+Bright Inventions is a place where innovative individuals and companies can turn to develop ideas, grow and create successful solutions in a clever and agile way. Through this approach, we can focus entirely on creating exceptional and fully working software for our clients.
 
-## What We Offer 
+As a Senior Frontend Developer you will build the powerful frontend applications that will impact how [PRACTI by Just Eat (Pyszne.pl)](https://www.practi.co.uk/) shapes the retail world. The system integrates with online delivery platforms, manages website for the restaurants, take orders, process payments and manages everything else from the very own virtual Back Office. 
 
-* flat structure with no management overhead. Our founders develop projects together with us on daily basis.  
-* working with experienced, ambitious and positive team. There are 50 of us. We're growing in a sustainable way. 
-* dynamic growth and space for self-development. You have an impact on the key project decisions and tech stack. 
-* business contract depending on your needs. Both B2B and Permanent contract (UoP) are possible. 
-* 20-26 paid days off 
-* MultiSport card and private medical package
-* good equipment: MacBook, one or two screens and additional accessories
-* flexible working hours (we come to work between 7.00 and 10.00 a.m.)
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby 
-* an office library with the professional books that help you grow - instead of buying books we buy them for you 
-* Bright Day once a month during which you can do non-project stuff
-* team retreats once a quarter and sport classes run by a professional coach. We take care of your health and good mood. :) 
-* bright rituals such as birthday cakes, bright coffee meetings, bright kudos 
-
+As a growing team with business focus, we need strong engineers with diverse perspectives to help us shape solutions and scale the team.
 
 ## In This Role You Will
 
 * create high-quality web applications
-* participate in software code reviews
-* have a direct contact with clients and advise in their decision making process
+* provide leadership on cross-functional projects
+* partner closely with product management, infrastructure, and UI specialists 
+* advise clients in their decision making process
 * share knowledge with the rest of the team
 * improve internal web development processes
 
-## What We Are Looking For
+## Your Skills & Experience 
 
 * at least 4-5 years of commercial programming experience
 * very good working knowledge and deep understanding of JavaScript/TypeScript
@@ -53,4 +41,23 @@ Bright Inventions is a place where innovative individuals and companies can turn
 * familiarity with AWS or other Cloud providers
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker
+
+## What We Offer
+
+* real impact on the company growth and implemented solutions
+* continuous feedback culture
+* business contract depending on your needs (B2B includes 20-26 paid days off)
+* mentoring programme and regular 1:1 meetings
+* office library with professional books and individual training budget
+* free MultiSport card and private medical care
+* good equipment: MacBook, one/ two screens and additional accessories
+* flexible working hours and remote work possibility
+* Bright Day once a month during which you can do non-project stuff
+* regular sport classes with a professional coach (running, swimming & biking)
+* free English classes
+* Friday yoga and board games evenings 
+* team buildings parties once a quarter and weekly lunches
+
+This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it! 🙂
+
 
