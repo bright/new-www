@@ -1,11 +1,13 @@
 ---
 layout: job
 title: "Junior Android Developer "
+subtitle: "ONGOING"
 hours: full-time
-salary: 5 000- 8 000 PLN + VAT (B2B) or 4200 - 6700 PLN gross (UoP/Umowa zlecenie) 
+salary: 5 000- 9 000 PLN + VAT (B2B) or 4150 - 7500 PLN gross (UoP/Umowa zlecenie) 
 salary_min: 5000
-salary_max: 8000
+salary_max: 9000
 published: true
+order: 9
 ---
 Bright Inventions is a young dynamic software company established in 2012 in Gdańsk. We specialise in mobile and web applications, Blockchain and IoT devices.  We support a wide variety of clients coming from such sectors  as FinTech, Health, Automotive, Commerce/Shopping and others. Since 2012 we have learnt the value of interesting technically challenging projects and become quite picky in terms of the ones we select.
 
