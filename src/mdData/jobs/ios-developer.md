@@ -1,7 +1,7 @@
 ---
 layout: job
 title: iOS Developer
-subtitle: "OPENING"
+subtitle: "OPENING SOON"
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
