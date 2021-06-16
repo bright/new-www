@@ -1,13 +1,13 @@
 ---
 layout: job
 title: "DevOps Engineer "
-subtitle:
+subtitle: ONGOING 
 hours: Full-time
 salary: "12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)"
 salary_min: 12000
 salary_max: 15000
 published: true
-order: 4
+order: 10
 ---
 We are looking for a **DevOps Engineer** who would like to work with our experienced and ambitious development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies.
 
