@@ -1,13 +1,13 @@
 ---
 layout: job
 title: "Junior Fullstack Developer "
-subtitle:
+subtitle: "ONGOING"
 hours: full-time
 salary: 5000 - 9000 + VAT (B2B) or 4150 - 7500 PLN gross (UoP) 
 salary_min: 4150
 salary_max: 9000
 published: true
-order: 5
+order: 6
 ---
 
 ## Who We Are
