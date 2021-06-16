@@ -1,13 +1,13 @@
 ---
 layout: job
 title: "Senior iOS Developer "
-subtitle:
+subtitle: "OPENING SOON"
 hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
 salary_min: 16000
 salary_max: 22000
 published: true
-order: 1
+order: 11
 ---
 We are a team of talented senior developers from Gdańsk who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
 
