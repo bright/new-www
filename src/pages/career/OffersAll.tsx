@@ -12,13 +12,15 @@ const jobsQuery = graphql`
       filter: {
         frontmatter: { layout: { eq: "job" }, published: { eq: true } }
       }
-      skip: 3
+      skip: 3,
+      sort: {fields: [frontmatter___order]}
     ) {
       edges {
         node {
           frontmatter {
             title
             salary
+            subtitle
             hours
           }
           fileAbsolutePath
