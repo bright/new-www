@@ -1,13 +1,13 @@
 ---
 layout: job
 title: "Frontend Developer "
-subtitle: ""
+subtitle: "ONGOING"
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP) 
 salary_min: 12000
 salary_max: 15000
 published: true
-order: 1
+order: 5
 ---
 ## Who We Are
 
