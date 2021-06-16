@@ -96,7 +96,7 @@ const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
           </Title>
           <Info>
             <div>{job.salary.split(' or ').map(salary => <div>{salary}</div>)}</div>
-            <div><span>{job.hours}</span>Gdańsk</div>
+            <div><span>{job.hours}</span>Gdańsk/remote(</div>
           </Info>
           <Link to={routeLinks.jobs + getJobPath(job.url)}>
             <Arrow src='/images/career/arrow.svg' alt='show job details' />
