@@ -89,13 +89,13 @@ const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
   return (
     <>
       {(jobs || []).map(job => (
-        <Job>
+        <Job key={job.title}>
           <Title>
             <Link to={routeLinks.jobs + getJobPath(job.url)}>{job.title}</Link>
             <Subtitle>{job.subtitle}</Subtitle>
           </Title>
           <Info>
-            <div>{job.salary.split(' or ').map(salary => <div>{salary}</div>)}</div>
+            <div>{job.salary.split(' or ').map((salary,ix) => <div key={ix}>{salary}</div>)}</div>
             <div><span>{job.hours}</span>Gdańsk/remote</div>
           </Info>
           <Link to={routeLinks.jobs + getJobPath(job.url)}>
