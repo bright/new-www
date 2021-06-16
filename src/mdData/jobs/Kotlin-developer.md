@@ -1,13 +1,13 @@
 ---
 layout: job
 title: "Java/Kotlin Developer "
-subtitle:
+subtitle: "ONGOING"
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP) 
 salary_min: 10000
 salary_max: 15000
 published: true
-order: 4
+order: 2
 ---
 ## Who We Are
 
