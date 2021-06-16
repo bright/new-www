@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Android Developer
-subtitle:
+subtitle: "ONGOING"
 hours: full-time
 salary: "16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)"
 salary_min: 16000
@@ -10,7 +10,7 @@ redirect_from:
   - /android-developer
   - /android-developer/
 published: true
-order: 3
+order: 4
 ---
 ## Who We Are
 
