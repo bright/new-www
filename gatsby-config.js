@@ -46,28 +46,28 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/mdData/projects`,
+        path: `${__dirname}/mdData/projects`,
         name: `md-projects`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/mdData/members`,
+        path: `${__dirname}/mdData/members`,
         name: `md-members`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/mdData/jobs`,
+        path: `${__dirname}/mdData/jobs`,
         name: `md-jobs`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/mdData/blog`,
+        path: `${__dirname}/mdData/blog`,
         name: `md-jobs`
       }
     },
