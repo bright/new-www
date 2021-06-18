@@ -11,7 +11,7 @@ public_folder: '/images'
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Blog' # Used in the UI
-    folder: 'mdData/blog' # The path to the folder where the documents are stored
+    folder: 'content/blog' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front IllegalAccessExceptionmatter
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -26,7 +26,7 @@ collections:
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
   - name: 'members' # Used in routes, e.g., /admin/collections/blog
     label: 'Members' # Used in the UI
-    folder: 'mdData/members' # The path to the folder where the documents are stored
+    folder: 'content/members' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: name
@@ -50,7 +50,7 @@ collections:
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
   - name: 'jobs' # Used in routes, e.g., /admin/collections/blog
     label: 'Jobs' # Used in the UI
-    folder: 'mdData/jobs' # The path to the folder where the documents are stored
+    folder: 'content/jobs' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -67,7 +67,7 @@ collections:
       - { label: 'Order', name: 'order', widget: 'number', required: true, valueType: 'int', min: 1, step: 1, default: 1, }
   - name: 'projects' # Used in routes, e.g., /admin/collections/blog
     label: 'Projects' # Used in the UI
-    folder: 'mdData/projects' # The path to the folder where the documents are stored
+    folder: 'content/projects' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter

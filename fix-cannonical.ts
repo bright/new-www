@@ -16,7 +16,7 @@ async function answer(question: string): Promise<string> {
 }
 
 async function main() {
-  const basePath = pathJoin(__dirname, 'src', 'mdData', 'blog')
+  const basePath = pathJoin(__dirname, 'content', 'blog')
   const blogPostsFiles = await readdir(basePath)
 
   const blogPosts = await Promise.all(
