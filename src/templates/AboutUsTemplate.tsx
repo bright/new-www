@@ -20,6 +20,9 @@ export default function Template({
                                  }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  if(!html){
+    debugger;
+  }
   const avatarImage = getImage(frontmatter.avatar)!
   return (
     <Page>
