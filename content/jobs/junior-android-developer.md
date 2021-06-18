@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Junior Android Developer "
-subtitle: "ONGOING"
+subtitle: "OPENING SOON"
 hours: full-time
 salary: 5 000- 9 000 PLN + VAT (B2B) or 4150 - 7500 PLN gross (UoP/Umowa zlecenie) 
 salary_min: 5000
