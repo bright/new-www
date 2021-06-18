@@ -48,7 +48,7 @@ export default function Template({
             </HideDesktop>
             <div className="section">
               <h1 className="title">{frontmatter.short_name}</h1>
-              <p dangerouslySetInnerHTML={{ __html: html }}></p>
+              <div dangerouslySetInnerHTML={{ __html: html }} />
             </div>
           </div>
           <BackButton url={routeLinks.aboutUs({page: 'team'})} label="About us"/>
