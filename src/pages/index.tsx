@@ -12,7 +12,7 @@ import Ratings from '../components/shared/Ratings'
 import {Contact} from '../components/shared/Contact'
 import { HideTablet } from '../components/shared'
 
-import PopularBlogPosts from '../components/home/PopularBlogPosts'
+import { PopularBlogPosts } from '../components/home/PopularBlogPosts'
 
 import '../styles/_page-index.scss'
 export default () => {

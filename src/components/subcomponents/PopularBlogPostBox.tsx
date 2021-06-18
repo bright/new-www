@@ -25,7 +25,7 @@ const Image = styled.figure`
 
 const PopularBlogPostBoxContainer = styled.div`
   width: 100%;
-  height: 460px;
+  height: 100%;
   border: 1px solid #d3d3d3;
   margin-bottom: 1em !important;
   @media (max-width: 480px) {
@@ -56,7 +56,9 @@ const TagsContainer = styled.div`
 `
 
 const Title = styled.div`
-  margin: 1em 0;
+  margin-top: 1em;
+  margin-right: 0;
+  margin-left: 0;
   font-family: "SuisseIntl Black", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -72,7 +74,7 @@ export interface PopularBlogPostBoxProps {
   title: string
 }
 
-const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
+export const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
   return (
     <PopularBlogPostBoxContainer>
       <Link to={deleteTimestampFromUrl(props.url)}>
@@ -94,5 +96,3 @@ const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
     </PopularBlogPostBoxContainer>
   )
 }
-
-export default PopularBlogPostBox
