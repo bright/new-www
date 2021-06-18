@@ -2,6 +2,7 @@ import React, { FC } from 'react'
 import styled from 'styled-components'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
+import { routeLinks } from '../../config/routing'
 
 const Container = styled.div`
   border: 1px solid #d3d3d3;
@@ -54,7 +55,7 @@ export interface SuccessStoryBoxProps {
 const SuccessStoryBox: FC<SuccessStoryBoxProps> = props => {
   return (
     <Container className={props.className}>
-      <Link to={props.slug}>
+      <Link to={routeLinks.projects + '/' + props.slug}>
         <Title>{props.title}</Title>
         <Image className='image'>
           <GatsbyImage imgStyle={{ objectFit: 'contain', height: '100%', width: '100%' }} image={getImage(props.image)!}

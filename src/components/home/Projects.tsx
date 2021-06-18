@@ -8,7 +8,7 @@ import { IGatsbyImageData } from 'gatsby-plugin-image'
 
 export const Projects: React.FC = () => {
   const { allMarkdownRemark: { edges } } = useStaticQuery(GQL)
-  const posts: Array<{
+  const projects: Array<{
     frontmatter: {
       image: IGatsbyImageData
       layout: string
@@ -25,13 +25,13 @@ export const Projects: React.FC = () => {
     <Section>
       <SectionTitle>success stories</SectionTitle>
       <div className="columns is-multiline has-justify-content-center">
-        {posts.map(post => (
+        {projects.map((project, ix) => (
             <SuccessStoryBox
               className="column is-6"
-              key={'post' + post.frontmatter.title}
-              title={post.frontmatter.title}
-              image={post.frontmatter.image}
-              slug={post.fields.slug}
+              key={ix}
+              title={project.frontmatter.title}
+              image={project.frontmatter.image}
+              slug={project.frontmatter.slug}
             />
         ))}
       </div>
