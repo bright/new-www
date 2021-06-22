@@ -19,7 +19,7 @@ published: true
 
 ## OWASP rules must be a security bible
 
-[OWASP Top Web Application Security Risks](https://owasp.org/www-project-top-ten/) **is a must-follow guide for every web developer** (and mobile as well). When you hire [a software development company](https://brightinventions.pl), make sure that they are not only familiar with OWASP but also follow it.
+[OWASP Top Web Application Security Risks](https://owasp.org/www-project-top-ten/) **is a must-follow guide for every web developer** (and mobile as well). When you hire a [software development company](https://brightinventions.pl), make sure that they are not only familiar with OWASP but also follow it.
 
 ## Ensure that developers use security automation
 
@@ -31,13 +31,13 @@ Also, your development team should know how to **manage secrets**. They should f
 
 When it comes to software security (especially infrastructure security) the best practice is clear: **don’t reinvent the wheel**. Just use tools given by cloud providers.
 
-Let’s take AWS as an example. It provides a few tools worth mentioning. One of them is  **Web Application Firewall (WAF)** which helps to secure our apps from web exploits and bots. Another one is K**ey Management Service (KMS)** that helps to manage your keys used to encrypt data. Also, it is reasonable to use **AWS Secrets Manager** which enables you to manage secret values safely, API keys, and other secret data. Developers who use AWS stack should deeply know these tools. 
+Let’s take AWS as an example. It provides a few tools worth mentioning. One of them is  **Web Application Firewall (WAF)** which helps to secure our apps from web exploits and bots. Another one is **Key Management Service (KMS)** that helps to manage your keys used to encrypt data. Also, it is reasonable to use **AWS Secrets Manager** which enables you to manage secret values safely, API keys, and other secret data. Developers who use AWS stack should deeply know these tools. 
 
 Of course, using those tools may be costly. Yet it is better to pay for security tools than deal with financial and branding repercussions that often follow the security breach. 
 
 ## Conduct regular infrastructure reconnaissance scans
 
-When your software is developed and you’ve met all the requirements mentioned earlier, it’s time to consider **infrastructure reconnaissance scans**. Your developer team should do scans regularly to double-check if your system has vulnerabilities related to issues such as: v**arious code injections, broken authentication or some sensitive data exposure**. In order to do that you can use tools like **Burp Suite** which allows for the request manipulation. Another important tool is **Shodan** that browses for open port, software and used dependencies vulnerability. Also, a significant part is to do reconnaissance infrastructure via certificat search engines like **crt.sh**.
+When your software is developed and you’ve met all the requirements mentioned earlier, it’s time to consider **infrastructure reconnaissance scans**. Your developer team should do scans regularly to double-check if your system has vulnerabilities related to issues such as: **various code injections, broken authentication or some sensitive data exposure**. In order to do that you can use tools like **Burp Suite** which allows for the request manipulation. Another important tool is **Shodan** that browses for open port, software and used dependencies vulnerability. Also, a significant part is to do reconnaissance infrastructure via certificate search engines like **crt.sh**.
 
 ## Follow the local law
 
