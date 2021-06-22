@@ -47,6 +47,6 @@ Following security rules **helps to meet legal requirements**. A great example i
 
 As you can see, **app development security isn’t a secret knowledge** possessed by elites. In the end, the most important fact is just to **follow the security guides** and **execute the best possible security work** from the developer team. 
 
-Are you looking for a software consulting studio? [Estimate your project!](https://brightinventions.pl/start-project)
+### Are you looking for a software consulting studio? [Estimate your project!](https://brightinventions.pl/start-project)
 
 Co-author: Rafał Hofman, Fullstack Developer @ Bright Inventions
