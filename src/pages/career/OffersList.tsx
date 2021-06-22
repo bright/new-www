@@ -91,8 +91,7 @@ const OffersList: React.FC<{jobs?: JobModel[]}> = ({jobs}) => {
       {(jobs || []).map(job => (
         <Job>
           <Title>
-            <Link to={routeLinks.jobs + getJobPath(job.url)}>{job.title}</Link>
-            <Subtitle>{job.subtitle}</Subtitle>
+            <Link to={routeLinks.jobs + getJobPath(job.url)}>{job.title}</Link> <Subtitle>{job.subtitle}</Subtitle>
           </Title>
           <Info>
             <div>{job.salary.split(' or ').map(salary => <div>{salary}</div>)}</div>
