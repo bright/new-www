@@ -15,6 +15,8 @@ published: true
 ---
 **Are you going to hire a software development agency? Make sure that it will take care of your app security. Learn about best practices for software security. Be aware of what to expect from your developers’ team.**
 
+![app security](/images/security-apps.jpg)
+
 ## OWASP rules must be a security bible
 
 [OWASP Top Web Application Security Risks](https://owasp.org/www-project-top-ten/) **is a must-follow guide for every web developer** (and mobile as well). When you hire [a software development company](https://brightinventions.pl), make sure that they are not only familiar with OWASP but also follow it.
