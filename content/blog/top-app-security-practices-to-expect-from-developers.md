@@ -17,7 +17,7 @@ published: true
 
 ## OWASP rules must be a security bible
 
-[OWASP Top Web Application Security Risks](https://owasp.org/www-project-top-ten/) **is a must-follow guide for every web developer** (and mobile as well). When you hire a software development company, make sure that they are not only familiar with OWASP but also follow it.
+[OWASP Top Web Application Security Risks](https://owasp.org/www-project-top-ten/) **is a must-follow guide for every web developer** (and mobile as well). When you hire [a software development company](https://brightinventions.pl), make sure that they are not only familiar with OWASP but also follow it.
 
 ## Ensure that developers use security automation
 
@@ -45,6 +45,6 @@ Following security rules **helps to meet legal requirements**. A great example i
 
 As you can see, **app development security isn’t a secret knowledge** possessed by elites. In the end, the most important fact is just to **follow the security guides** and **execute the best possible security work** from the developer team. 
 
-Are you looking for [a software consulting studio](https://brightinventions.pl)? [Estimate your project!](https://brightinventions.pl/start-project)
+Are you looking for a software consulting studio? [Estimate your project!](https://brightinventions.pl/start-project)
 
 Co-author: Rafał Hofman, Fullstack Developer @ Bright Inventions
