@@ -21,7 +21,6 @@ const Traits: React.FC = () => {
           <SectionTitleEx>teamwork, responsibility and positive mindset</SectionTitleEx>
           <TextRegular>
             We believe that bright ideas and bright products come out of bright minds.
-            The success of projects we do is completely sustained by our team and values we are committed to.
             We work together making the most of experience and expertise we have.
           </TextRegular>
 
