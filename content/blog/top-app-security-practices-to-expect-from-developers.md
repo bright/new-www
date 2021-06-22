@@ -31,7 +31,7 @@ Also, your development team should know how to **manage secrets**. They should f
 
 When it comes to software security (especially infrastructure security) the best practice is clear: **don’t reinvent the wheel**. Just use tools given by cloud providers.
 
-Let’s take AWS as an example. It provides a few tools worth mentioning. One of them is  **Web Application Firewall (WAF)** which helps to secure our apps from web exploits and bots. Another one is **Key Management Service (KMS)** that helps to manage your keys used to encrypt data. Also, it is reasonable to use **AWS Secrets Manager** which enables you to manage secret values safely, API keys, and other secret data. Developers who use AWS stack should deeply know these tools. 
+Let’s take AWS as an example. It provides a few tools worth mentioning. One of them is **Web Application Firewall (WAF)** which helps to secure our apps from web exploits and bots. Another one is **Key Management Service (KMS)** that helps to manage your keys used to encrypt data. Also, it is reasonable to use **AWS Secrets Manager** which enables you to manage secret values safely, API keys, and other secret data. Developers who use AWS stack should deeply know these tools. 
 
 Of course, using those tools may be costly. Yet it is better to pay for security tools than deal with financial and branding repercussions that often follow the security breach. 
 
