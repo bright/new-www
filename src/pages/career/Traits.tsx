@@ -26,8 +26,7 @@ const Traits: React.FC = () => {
 
           <TextTitle>Teamwork</TextTitle>
           <TextRegular>
-            It is only through teamwork that we achieve brightness. We are committed to helping our customers by
-            working together with equal parts of humility and ambition. We know each others’ strengths and we also can
+            It is only through teamwork that we achieve brightness. We know each others’ strengths and we also can
             ask for help when we need. We work together to bring our passions and expertise to make Bright Inventions
             the best place it can be.
           </TextRegular>
@@ -35,15 +34,13 @@ const Traits: React.FC = () => {
           <TextTitle>Responsibility</TextTitle>
           <TextRegular>
             We support and share responsibility with the members of our team. We also actively take responsibility
-            for our own self-development. Integrity, thoughtfulness and a sense of urgency is a crucial and elemental
-            part of our success. Everything is everyone’s responsibility and we own our collective results together.
+            for our own self-development. Everything is everyone’s responsibility and we own our collective results together.
           </TextRegular>
 
           <TextTitle>Positive attitude</TextTitle>
           <TextRegular>
             We love what we do and the people around us. In fact, we believe that happy people are more motivated,
-            efficient and creative, so we bring a positive attitude to everything we do. It’s good for you, for the
-            team, and for our customers.
+            efficient and creative, so we bring a positive attitude to everything we do.
           </TextRegular>
 
           <TextTitle>Flexibility</TextTitle>
@@ -55,10 +52,9 @@ const Traits: React.FC = () => {
 
           <TextTitle>Client orientation</TextTitle>
           <TextRegular>
-            We are only successful if our clients are - and that drives everything we do. Clients trust us to
-            build things that work and we take that seriously. Our team will overcome obstacles, find solutions
+            We are only successful if our clients are - and that drives everything we do. Our team will overcome obstacles, find solutions
             and deliver results on time. Every action we take enables our clients to make a bigger impact on
-            the world
+            the world.
           </TextRegular>
         </SectionInner>
       </Section>
