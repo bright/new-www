@@ -20,12 +20,6 @@ published: true
 * Bespoke user interface
 * Advanced animations
 
-## Skills:
-
-* **iOS:** Objective-C
-* **Web:** AngularJS, Highcharts
-* **Backend:** Ruby on Rails, Heroku
-
 ## Intro
 
 When you’re a cyclist winter months is when your next season performance is decided. Give up to the elements and you’re done. Or... build your own indoor training system with Motivo. The app offers Interactive training plans and workouts for indoor cycling. Motivo makes sure you're getting the best results from a turbo training or spinning with full Wahoo KICKR Erg mode support.
