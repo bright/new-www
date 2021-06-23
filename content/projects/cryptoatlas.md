@@ -12,7 +12,7 @@ tags:
   - backend
 order: 12
 slug: cryptocurrency-platfrom
-published: true
+published: false
 ---
 ## Main features:
 
