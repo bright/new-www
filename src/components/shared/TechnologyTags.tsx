@@ -64,7 +64,7 @@ export const TechnologyTags = () => {
         <Pill>Android</Pill>
         <Pill>iOS</Pill>
         <Pill>Kotlin</Pill>
-        <Pill>Blockchain/Pill>
+        <Pill>Blockchain</Pill>
         <Pill>Java</Pill>
         <Pill>Spring</Pill>
         <Pill>Kotlin</Pill>
