@@ -6,6 +6,9 @@ image: /images/yoga-stretching-.jpeg
 author: ula
 tags:
   - wellbeing
+  - work-life balance
+  - productivity
+  - HR 
 hidden: false
 comments: true
 published: true
