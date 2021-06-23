@@ -10,7 +10,7 @@ tags:
   - cryptocurrency
   - frontend
   - backend
-order: ""
+order: 12
 slug: cryptocurrency-platfrom
 published: true
 ---
