@@ -19,11 +19,6 @@ published: true
 * In-depth user behaviour analytics
 * A/B testing 
 
-## Skills:
-
-* **iOS and Android:** React Native, Redux, Typescript, Gradle (Android), Fastlane (iOS), Firebase
-* **Backend:** Typescript, Node.js 
-
 ## Intro
 
 Keleya supports mothers-to-be by offering them ways to stay fit and eat healthy during their nine-month journey. The curated content is personalised based on the user interests. Each week brings a new set of exercises, recipes and tips.
@@ -40,7 +35,9 @@ The development process was all about empathy. Building a product like this requ
 
 As Bright Inventions worked on the technical side of things (backend system, iOS and Android apps) the agency side handled the creation of the videos and recipes that were to be made available in the app for the paying customers.
 
-A large part of the work was around building a solution that adapts the content to the users. By observing users' interactions with the provided recipes and workouts (i.e. what they marked as favourite, what they cooked, etc.) the system adjusts the material to personalise the experience.\
+A large part of the work was around building a solution that adapts the content to the users. By observing users' interactions with the provided recipes and workouts (i.e. what they marked as favourite, what they cooked, etc.) the system adjusts the material to personalise the experience.
+
+\
 Technical challenges lied primarily in ensuring the parity of features across platforms and deep integration with the system calendar. Events had to be automatically added to the calendar, synchronised across user devices and scheduled push notification had to be triggered at the appropriate times.
 
 ![Pregnancy App](/images/pregnancy_app3.jpg)
