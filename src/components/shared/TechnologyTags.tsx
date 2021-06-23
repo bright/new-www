@@ -64,7 +64,7 @@ export const TechnologyTags = () => {
         <Pill>Android</Pill>
         <Pill>iOS</Pill>
         <Pill>Kotlin</Pill>
-        <Pill>C#</Pill>
+        <Pill>Blockchain/Pill>
         <Pill>Java</Pill>
         <Pill>Spring</Pill>
         <Pill>Kotlin</Pill>
@@ -77,6 +77,9 @@ export const TechnologyTags = () => {
         <Pill>PostgreSQL</Pill>
         <Pill>Swift</Pill>
         <Pill>AWS</Pill>
+        <Pill>Bluetooth</Pill>
+        <Pill>iBeacon</Pill>
+        <Pill>IoT</Pill>
       </ContentContainer>
     </SectionBlackContainer>
   )
