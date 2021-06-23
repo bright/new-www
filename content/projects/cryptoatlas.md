@@ -16,17 +16,23 @@ published: true
 ---
 ## Main features:
 
-Homepage feed aggregating news from other social media platforms, followed communities and influencers
-Building communities
-Integrations with Twitter, Medium & Youtube
-Direct messages
-AMA sessions with influencers
+* Homepage feed aggregating news from other social media platforms, followed communities and influencers
+
+* Building communities
+
+* Integrations with Twitter, Medium & Youtube
+
+* Direct messages
+
+* AMA sessions with influencers
 
 ## Skills:
 
-FrontEnd: React + TypeScript
-Backend: NestJS, TypeORM, PostgreSQL
-Deployment: Docker + Amazon Web Services (AWS)
+* FrontEnd: React + TypeScript
+
+* Backend: NestJS, TypeORM, PostgreSQL
+
+* Deployment: Docker + Amazon Web Services (AWS)
 
 ## About
 
