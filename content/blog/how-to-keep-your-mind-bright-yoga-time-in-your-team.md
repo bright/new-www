@@ -8,7 +8,7 @@ tags:
   - wellbeing
   - work-life balance
   - productivity
-  - HR 
+  - HR
 hidden: false
 comments: true
 published: true
@@ -22,6 +22,8 @@ One of the most common complaints connected with desk jobs is back pain. [Accord
 ### \#2  Improved Stress Resilience
 
 Chronic stress can take a toll not only on your physical and mental health but your relationships as well, both in private life and at work. Fortunately, yoga is great for building stress resilience. The challenge and unpredictability in yoga can teach your brain how to flexibly adapt to changes, the changes that are nowadays a common part of our daily  life. And how does it happen? Trying a new pose requires our brain to get out of the comfort zone and to solve a kind of “problem”. This activity creates some new connections in the brain that make it more adaptable to change in general. Ta da! We have novelty here and repetition (we practise the same pose), which makes those new connections stronger.  The better your brain is at adapting to change, the easier it becomes to deal with stress. Each time we are on the mat it is good to examine how we respond to frustration and uncertainty. It may be a reflection of the reactions to some similar unpredictable and stressful situations at our work. [Check a few yoga poses to calm down anxiety and reduce stress. ](https://www.yogajournal.com/poses/yoga-by-benefit/anxiety/)
+
+![](/images/yoga-desk-poses-.jpeg)
 
 ### \#3  Increased Energy
 
