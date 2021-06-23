@@ -28,24 +28,13 @@ published: true
 * Geolocation
 * Reverse geocoding
 
-## Skills
-
-iOS: Objective-C/Swift, ReactiveCocoa
-
-Android: Kotlin, RxAndroid, Dagger, Retrofit
-
-Backend: Node.js, Nest.js, PostgreSQL
-
-Web: React, Nest.js, Leaflet, Socket.io
-
 ## About
 
 SmartHelp is a holistic solution offering emergency services to anyone who’s found themselves in need of critical help. The app operates in Norway, and makes it nearly effortless for users to answer the three questions emergency centers ask before they send a rescue team – ‘where’, ‘what’, and ‘who’.
 
 ![An emergency service app ](/images/smarthelp.png)
 
-The first step (“where are you?”) is done by streamlining the user’s location to a map-centric emergency call center. Secondly, the user answers the\
-“what is it?” question by clicking on the symbol that depicts the type of emergency (fire, police, or medical assistance). Next, he/she is connected to the rescue center via call or chat. The third question (“who are you?”) is automatically answered with pre-defined personal information such as name, address, and existing medical conditions. All this allows the emergency call handler to share the user’s details with the rescue team.
+The first step (“where are you?”) is done by streamlining the user’s location to a map-centric emergency call center. Secondly, the user answers the “what is it?” question by clicking on the symbol that depicts the type of emergency (fire, police, or medical assistance). Next, he/she is connected to the rescue center via call or chat. The third question (“who are you?”) is automatically answered with pre-defined personal information such as name, address, and existing medical conditions. All this allows the emergency call handler to share the user’s details with the rescue team.
 
 The app also covers situations, when the user is in no condition to communicate with the emergency center back and forth. This is done with the use of one of the app’s flag features –**SmartButton**.
 
