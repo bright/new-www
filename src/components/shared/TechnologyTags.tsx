@@ -67,7 +67,6 @@ export const TechnologyTags = () => {
         <Pill>Blockchain</Pill>
         <Pill>Java</Pill>
         <Pill>Spring</Pill>
-        <Pill>Kotlin</Pill>
         <Pill>TypeScript</Pill>
         <Pill>React</Pill>
         <Pill>Angular</Pill>
