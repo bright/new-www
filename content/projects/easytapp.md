@@ -3,7 +3,7 @@ layout: project
 title: EasyTapp
 image: /images/easytap_1_mockup1.png
 description: An app that allowed users to receive real estate and car sales’
-  offers based on their real-time location (through iBeacon technology).
+  offers based on their real-time location.
 tags:
   - iOS
   - Android
