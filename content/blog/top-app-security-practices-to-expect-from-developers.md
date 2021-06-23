@@ -8,7 +8,6 @@ tags:
   - security
   - mobile
   - app
-  - ""
 hidden: false
 comments: true
 published: true
