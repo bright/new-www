@@ -2,7 +2,7 @@
 layout: post
 title: "How to keep your mind bright? Yoga time in your team "
 date: 2021-06-23T07:27:05.511Z
-image: /images/yoga-stretching-.jpeg
+image: /images/yoga_bright.png
 author: ula
 tags:
   - wellbeing
