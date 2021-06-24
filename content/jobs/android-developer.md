@@ -1,9 +1,9 @@
 ---
 layout: job
 title: Android Developer
-subtitle: "ONGOING"
+subtitle: ONGOING
 hours: full-time
-salary: "12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)"
+salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
 salary_max: 15000
 redirect_from:
@@ -24,7 +24,7 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 
 ## What You Will Do
 
-* create high-quality Android application for a Zero Warte company with reusable products 
+* create high-quality Android application for a Zero Waste company with reusable products 
 * participate in software code reviews
 * have a direct contact with clients and advise in their decision making process
 * take part in knowledge sharing with the rest of a team
@@ -59,7 +59,5 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 ## We Would Also Appreciate If You
 
 * have experience and understand Kotlin coroutines, Kotlin serialisation and Data Binding
-
-
 
 In case you have any questions, contact ula@bright.dev
