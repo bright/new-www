@@ -10,9 +10,9 @@ tags:
   - cryptocurrency
   - frontend
   - backend
-order: 12
+order: 4
 slug: cryptocurrency-platfrom
-published: false
+published: true
 ---
 ## Main features:
 
