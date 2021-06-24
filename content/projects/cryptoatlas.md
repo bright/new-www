@@ -1,7 +1,7 @@
 ---
 layout: project
 title: CryptoAtlas
-image: /images/cryptocurrency_square.png
+image: /images/cryptoportal2.png
 description: CryptoAtlas is a social platform connecting people passionate about
   cryptocurrency. Cryptocurrency world has never had an online platform
   dedicated exclusively to the community. That is the first and only place where
