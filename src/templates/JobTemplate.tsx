@@ -4,6 +4,7 @@ import {graphql} from 'gatsby'
 import {Page} from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from "../config/routing"
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -12,6 +13,10 @@ export default function Template({
   const { frontmatter: page, html } = markdownRemark
   return (
     <Page>
+      <HelmetTitleDescription
+        title={page.title}
+        description={page.subtitle ?? page.salary}
+      />
       <div className="container">
         <article className="section">
           <h1 className="title has-text-dark has-text-weight-bold">
