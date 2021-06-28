@@ -2,6 +2,7 @@
 layout: job
 title: 'Senior Fullstack Developer '
 subtitle: "ONGOING"
+description: We are looking now for a Full Stack Developer who has already had experience with web development and knows how to build Cloud Platform projects.
 hours: Full-time
 salary: 16 000- 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
 salary_min: 16000
