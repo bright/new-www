@@ -2,6 +2,7 @@
 layout: job
 title: "Senior Backend Developer "
 subtitle: "ONGOING"
+description: We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.
 hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
 salary_min: 16000
