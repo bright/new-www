@@ -18,6 +18,8 @@ published: true
 
 ## **Web or mobile app development steps and timelines**
 
+Check out all the steps on the road to a successful app launch and maintenance.
+
 ## **App Idea**
 
 ![idea for na app](/images/1_idea.png)
