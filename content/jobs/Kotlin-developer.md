@@ -2,6 +2,7 @@
 layout: job
 title: "Java/Kotlin Developer "
 subtitle: "ONGOING"
+description: We are looking for an experienced Java/Kotlin Developer who would like to develop and enhance an innovative backend application for one of our main clients. 
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP) 
 salary_min: 10000
