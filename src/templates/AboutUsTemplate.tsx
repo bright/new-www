@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import { HideDesktop, HideTablet } from '../components/shared'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
@@ -26,7 +27,7 @@ export default function Template({
     <Page>
       <HelmetTitleDescription
         title={page.title}
-        description={page.short_name}
+        description={page.bio}
       />
       <div className="container">
         <article className="section">
