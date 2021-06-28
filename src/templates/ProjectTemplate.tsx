@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 import {Page} from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
+import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 const Container = styled.div`
     max-width: 960px;
@@ -29,6 +30,12 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Page>
+
+      <HelmetTitleDescription
+        title={frontmatter.title}
+        description={frontmatter.description}
+      />
+
       <Container className="container">
         <article className="section">
           <Title className='title'>
