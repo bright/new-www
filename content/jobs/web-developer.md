@@ -3,6 +3,7 @@ layout: job
 date: 2019-01-30
 title: Web Developer
 subtitle:
+description: We are looking for a Web Developer who would like to work with our experienced and ambitious development team.
 hours: Full-time
 salary: 8 000 - 15 000 PLN + VAT (B2B)
 salary_min: 8000
