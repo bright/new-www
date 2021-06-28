@@ -2,7 +2,7 @@
 layout: job
 title: Sales Executive
 subtitle:
-description:
+description: We are looking for a highly motivated individual with an interest in sales and marketing to assist our team in increasing client interest and improve sales cycle.
 hours: Full-time / Part-time
 salary: to be specified
 published: false
