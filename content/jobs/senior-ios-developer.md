@@ -2,6 +2,7 @@
 layout: job
 title: "Senior iOS Developer "
 subtitle: "OPENING SOON"
+description: We are looking for an experienced Senior iOS Developer who understands Swift & iOS SDK and who would like to develop innovative iOS ePOS application.
 hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
 salary_min: 16000
