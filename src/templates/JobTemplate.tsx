@@ -15,7 +15,7 @@ export default function Template({
     <Page>
       <HelmetTitleDescription
         title={page.title}
-        description={page.description page.salary}
+        description={page.description}
       />
       <div className="container">
         <article className="section">
