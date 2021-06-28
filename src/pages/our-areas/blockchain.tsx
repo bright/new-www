@@ -17,7 +17,7 @@ const Blockchain = () => {
   return (
     <Page>
       <HelmetTitleDescription
-        title="Web Development Services"
+        title="Blockchain development | Bright Inventions"
         description="About our software development services"
       />
 
