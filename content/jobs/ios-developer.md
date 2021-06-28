@@ -2,6 +2,7 @@
 layout: job
 title: iOS Developer
 subtitle: "OPENING SOON"
+description: We are looking for an experienced passionate iOS Developer to develop and enhance innovative and robust iOS application for one of our main clients.
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
