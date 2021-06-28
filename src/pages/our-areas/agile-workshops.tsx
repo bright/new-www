@@ -17,7 +17,7 @@ const AgileWorkshops = () => {
   return (
     <Page>
       <HelmetTitleDescription
-        title="Agile workshops | Bright Inventions"
+        title="Agile Workshops"
         description="About our software development services"
       />
 
