@@ -1,7 +1,7 @@
 ---
 title: Marketing/Sales Intern
 subtitle:
-description:
+description: We are looking for a highly motivated individual with an interest in sales and marketing. 
 layout: job
 hours: Full-time / Part-time
 salary: to be specified
