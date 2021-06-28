@@ -24,6 +24,10 @@ export default function Template({
   const avatarImage = getImage(frontmatter.avatar)!
   return (
     <Page>
+      <HelmetTitleDescription
+        title={page.title}
+        description={page.short_name}
+      />
       <div className="container">
         <article className="section">
           <div className="level">
