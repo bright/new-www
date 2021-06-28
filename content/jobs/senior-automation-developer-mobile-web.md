@@ -2,6 +2,7 @@
 layout: job
 title: Senior Automation Developer (Mobile & Web)
 subtitle: "OPENING SOON"
+description: We are looking for Senior Automation Developer - Mobile and Web who will take on the challenge of building our automation infrastructure from scratch. 
 hours: full-time
 salary: "17 000 - 23 000 PLN + VAT (B2B) or 14 200 - 19 100 PLN (UoP)"
 salary_min: 17000
