@@ -24,7 +24,7 @@ const CareerPage: React.FC = () => {
     <Page className="page-career">
       <HelmetTitleDescription
         title="Career"
-        description='we are looking for passionate, positive and bright people'
+        description='We are looking for passionate, positive and bright people. Apply!'
       />
 
       <div className='container'>
