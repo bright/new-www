@@ -8,7 +8,6 @@ import {TextRegular} from '../../components/shared'
 
 const Caption = styled.div`
   &&& {
-    max-width: 960px;
     margin: auto auto 105px;
     font-size: 1.375rem;
     line-height: 40px;
