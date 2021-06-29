@@ -26,8 +26,8 @@ export default function Template({
   return (
     <Page>
       <HelmetTitleDescription
-        title={page.title}
-        description={page.bio}
+        title={frontmatter.title}
+        description={frontmatter.bio}
       />
       <div className="container">
         <article className="section">
@@ -52,7 +52,7 @@ export default function Template({
             </HideDesktop>
             <div className="section">
               <h1 className="title">{frontmatter.short_name}</h1>
-              <div dangerouslySetInnerHTML={{ __html: html }} />
+              <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
             </div>
           </div>
           <BackButton url={routeLinks.aboutUs({page: 'team'})} label="About us"/>
