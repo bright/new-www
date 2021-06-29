@@ -16,9 +16,9 @@ hidden: false
 comments: true
 published: true
 ---
-We are thrilled to be able to finally share with you the news that our proposal for a Treasury based web app was accepted as a part of the Web3 Foundation (W3F) grants program. We are happy and grateful to be able to get the support for our work from such a dynamic and knowledgeable community. Our first milestone has been completed and approved so in this blogpost, we’d like to share details about what you might expect from the finished product as well as some technical solutions that we’re especially excited about. 
+We are thrilled to be able to finally share with you the news that our proposal for a Treasury based web app was accepted as a part of the [Web3 Foundation (W3F) grants program](https://web3.foundation/grants/). We are happy and grateful to be able to get the support for our work from such a dynamic and knowledgeable community. Our first milestone has been completed and approved so in this blogpost, we’d like to share details about what you might expect from the finished product as well as some technical solutions that we’re especially excited about. 
 
-Please welcome **Bright Treasury** - a standalone web application (along with a PWA representation) that **will allow performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks**, and hopefully encourage more people to get involved in these blockchain communities.
+Please welcome **Bright Treasury** - a standalone web application (along with a PWA representation) that **will allow performing basic actions on the Treasury and Bounties modules of [Polkadot](https://polkadot.network/) and [Kusama](https://kusama.network/) [Substrate](https://substrate.dev/) networks**, and hopefully encourage more people to get involved in these blockchain communities.
 
 ## **Why Bright Treasury?**
 
@@ -29,8 +29,6 @@ At Bright Inventions, we’ve been following blockchain development since its ea
 The W3F grants program seemed like the perfect opportunity to bring together our passion for getting to know blockchain better and delivering something of value to the community at the same time. Web3 Foundation funds research and development teams building the technology stack of the decentralized web. It was established in Zug, Switzerland by Ethereum co-founder and former CTO Gavin Wood. Polkadot is the Foundation's flagship project.
 
 The main goals that we wanted to achieve with this project are:
-
-
 
 * an intuitive proposal submission flow, with a clear indication of a proposal idea being subject to community discussion, before submitting the actual proposal to blockchain and committing with bond funds 
 * one place for following the submitted proposals, their status and the results of motions
@@ -49,10 +47,8 @@ Although our main fields are web and mobile solutions, we are keen on blockchain
 
 With the next release we plan to expand the main flow. The Ideas and the Proposals features will have the discussion functionality added and it will also be possible to add them to multiple networks at once as the "representation of multiple blockchain networks" feature will also be implemented at this stage. What is more, an overview of the treasury statistics will be presented for each network respectively, with the UI adapting to the network’s colour scheme. 
 
-Next in line will be the introduction of the bounties mechanism. Users will be able to add and browse through bounties, vote for the curators and check the current status. The nominated curators will be able to accept (or reject) the invitation to curate a bounty and manage the bounty’s details. Additionally, in this milestone we plan to add a basic integration with Polkassembly. It will be possible to see the description of a proposal/bounty published on Polkassembly. We will also include the history feature based on the data from Polkassembly, which would allow users to browse through closed proposals and bounties, in addition to in-app ideas.
+Next in line will be the introduction of the bounties mechanism. Users will be able to add and browse through bounties, vote for the curators and check the current status. The nominated curators will be able to accept (or reject) the invitation to curate a bounty and manage the bounty’s details. Additionally, in this milestone we plan to add a basic integration with [Polkassembly](https://polkadot.polkassembly.io/). It will be possible to see the description of a proposal/bounty published on Polkassembly. We will also include the history feature based on the data from Polkassembly, which would allow users to browse through closed proposals and bounties, in addition to in-app ideas.
 
 We can’t wait to share the finished product with you and to get your feedback. Fingers crossed you will like it as much as we do. We hope that this is just the beginning of our adventure with Bright Treasury and we already have a lot of ideas for the next features, so stay tuned!
-
- 
 
 Learn more about Web3 Foundation by visiting their [website](https://web3.foundation/), and stay up to date with the latest developments by following them on [Medium](https://medium.com/web3foundation) or [Twitter](https://twitter.com/web3foundation).
