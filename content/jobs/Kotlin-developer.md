@@ -12,7 +12,7 @@ description: We are looking for an experienced Java/Kotlin Developer who would
   like to develop and enhance an innovative backend application for one of our
   main clients.
 ---
-## Who We Are
+### Who We Are
 
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide. Bright Inventions is a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
 
