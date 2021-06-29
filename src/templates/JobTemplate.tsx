@@ -5,6 +5,7 @@ import {Page} from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from "../config/routing"
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -17,7 +18,7 @@ export default function Template({
         title={page.title}
         description={page.description}
       />
-      <div className="container">
+      <ConstrainedWidthContainer className="container">
         <article className="section">
           <h1 className="title has-text-dark has-text-weight-bold">
             {page.title}
@@ -36,7 +37,7 @@ export default function Template({
           </div>
           <BackButton label="Open positions" url={`${routeLinks.career}#open-positions`} />
         </article>
-      </div>
+      </ConstrainedWidthContainer>
 
       {/* <script type="application/ld+json">
     {

@@ -17,10 +17,7 @@ import { descriptionOrDefault } from '../meta/meta-description'
 import { resolveUrl } from '../meta/resolve-url'
 import { siteMetadata } from '../../gatsby-config'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
-
-const Container = styled.div`
-  max-width: 960px;
-`
+import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 
 const Title = styled.h1`
   font-size: 3rem;
@@ -95,7 +92,7 @@ export default function Template(props: {
         {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
       </Helmet>
 
-      <Container className='container'>
+      <ConstrainedWidthContainer className='container'>
         <article className='section'>
           <div className='columns is-vcentered'>
             <div className='column is-half'>
@@ -142,7 +139,7 @@ export default function Template(props: {
 
           <DisqusComments id={slug} title={page.title} />
         </article>
-      </Container>
+      </ConstrainedWidthContainer>
       <BlogPostStructuredData
         author_id={page.author}
         excerpt={page.excerpt}
