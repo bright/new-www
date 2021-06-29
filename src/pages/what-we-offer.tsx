@@ -14,12 +14,15 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
     <Page>
       <HelmetTitleDescription
-        title='Mobile and Web Development Services'
-        description='About our software development services'
+        title='What We Do'
+        description='About our software development services.'
       />
       <HideTablet>
         <Section>
-          <PageDescription>
+           <PageTitle>
+             what we do
+           </PageTitle>
+           <PageDescription>
             We offer custom software development for organizations of all shapes and sizes – from emerging startups,
             mid-sized companies and consultancy agencies, to renowned NGOs and international organizations. Our clients
             come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
