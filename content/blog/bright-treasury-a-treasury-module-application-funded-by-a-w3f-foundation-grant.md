@@ -3,7 +3,7 @@ layout: post
 title: Bright Treasury - a Treasury module application funded by a W3F
   Foundation grant
 date: 2021-06-29T09:12:47.495Z
-image: /images/web3-treasuryapp.png
+image: /images/blogpost_www_treasury.png
 author: kasia
 tags:
   - blockchain
