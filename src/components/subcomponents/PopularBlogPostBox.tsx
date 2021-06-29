@@ -55,11 +55,10 @@ const TagsContainer = styled.div`
   padding-bottom: 0;
 `
 
-const Title = styled.div`
+const Title = styled.h2`
   margin-top: 1em;
   margin-right: 0;
   margin-left: 0;
-  font-family: "SuisseIntl Black", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
