@@ -5,12 +5,11 @@ import {
   CloudFrontWebDistribution,
   OriginAccessIdentity,
   OriginProtocolPolicy,
-  ViewerCertificate,
+  ViewerCertificate
 } from '@aws-cdk/aws-cloudfront'
 import { Effect, PolicyStatement, User } from '@aws-cdk/aws-iam'
 import { domainNames } from './domain-names'
 import { Certificate } from '@aws-cdk/aws-certificatemanager'
-import { LambdaDestination } from '@aws-cdk/aws-s3-notifications/lib/lambda'
 import { NodejsFunction } from '@aws-cdk/aws-lambda-nodejs'
 import { join as pathJoin } from 'path'
 import { Runtime } from '@aws-cdk/aws-lambda'
@@ -92,17 +91,25 @@ export class Website extends cdk.Stack {
       },
     })
 
+    const scheduleRate = Duration.days(1)
+
     const notifyOn404 = new NodejsFunction(this, 'notify-on-404', {
       runtime: Runtime.NODEJS_14_X,
       entry: pathJoin(__dirname, 'notify-on-404.ts'),
-      handler: 'find404InS3AccessLogCreated',
+      handler: 'find404InS3OnSchedule',
+      timeout: Duration.minutes(1),
       environment: {
         BUCKET_NAME: accessLogs.bucketName,
-        BUCKET_KEYS_PREFIX: `${cloudfrontAccessLogPrefix}/${webDistribution.distributionId}.`
+        BUCKET_KEYS_PREFIX: `${cloudfrontAccessLogPrefix}/${webDistribution.distributionId}.`,
+        SCHEDULE_RATE_MINUTES: scheduleRate.toMinutes().toString()
       }
     })
 
-
+    notifyOn404.addToRolePolicy(new PolicyStatement({
+      effect: Effect.ALLOW,
+      actions: ['ses:SendEmail'],
+      resources: ['*']
+    }))
 
     accessLogs.grantRead(notifyOn404)
 
@@ -113,7 +120,7 @@ export class Website extends cdk.Stack {
     //       prefix: cloudfrontAccessLogPrefix,
     //     })
     new Rule(this, 'Parse Access Logs', {
-      schedule: Schedule.rate(Duration.minutes(1)),
+      schedule: Schedule.rate(scheduleRate),
       targets: [new LambdaFunction(notifyOn404)],
     })
 
