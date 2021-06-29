@@ -67,11 +67,9 @@ export const WorkshopContainer = styled.div`
   color: white;
   padding: 105px 0;
   
-  .container {
-    font-weight: bolder;
+  h2 {
+    font-weight: 800;
     font-size: 2.5rem;
-    font-family: "SuisseIntl Black", sans-serif;
-    max-width: 960px;
     display: grid;
     gap: 55px 0;
     justify-items: start;
@@ -79,7 +77,6 @@ export const WorkshopContainer = styled.div`
 `
 
 export const FormContainer = styled.div`
-  max-width: 960px;
   margin: 11.625rem auto 6.25rem;
   && .section {
     padding: 0;
