@@ -14,15 +14,6 @@ const Title = styled.h1`
     font-size: 3rem;
 `
 
-const Content = styled.div`
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.125rem;
-  letter-spacing: 1;
-  line-height: 2;
-`
-
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -41,8 +32,8 @@ export default function Template({
           <Title className='title'>
             {frontmatter.title}
           </Title>
-          <Content className="content">{frontmatter.description}</Content>
-          <Content className="content" dangerouslySetInnerHTML={{ __html: html }}/>
+          <div className="content">{frontmatter.description}</div>
+          <div className="content" dangerouslySetInnerHTML={{ __html: html }}/>
           <BackButton url="/projects" label="Projects" />
         </article>
       </Container>
