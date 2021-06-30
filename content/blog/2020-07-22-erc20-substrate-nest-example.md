@@ -703,4 +703,4 @@ We have run a local Substrate node with the Contracts Pallet added. We have impl
 
 In the next part of this tutorial we will:
 
-* look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS.
+* [look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS.](https://brightinventions.pl/blog/develop-your-own-cryptocurrency-with-substrate-2/)
