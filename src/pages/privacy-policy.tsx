@@ -314,8 +314,8 @@ const PrivacyPolicy = () => {
               </li>
               <li>
                 Mozilla Firefox{" "}
-                <a href="https://support.mozilla.org/en-US/kb/exp/enable-and-disable-cookies-website-preferences">
-                  https://support.mozilla.org/en-US/kb/exp/enable-and-disable-cookies-website-preferences
+                <a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer">
+                  https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer
                 </a>
               </li>
               <li>
@@ -357,7 +357,7 @@ const PrivacyPolicy = () => {
             </p>
             <p>
               For more information on how Google uses your data, please view:{" "}
-              <a href="https://support.google.com/analytics/answer/6004245.">
+              <a href="https://support.google.com/analytics/answer/6004245">
                 https://support.google.com/analytics/answer/6004245.
               </a>
             </p>
