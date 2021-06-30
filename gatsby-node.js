@@ -1,7 +1,7 @@
 const path = require("path")
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
   const result = await graphql(
     `
       {
@@ -113,6 +113,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     `${__dirname}/src/templates/AboutUsTemplate.tsx`
   )
   await preparePage("member", "about-us", aboutUsTemplate)
+
+  createRedirect({
+    fromPath: "/jobs",
+    toPath: "/career"
+  })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
