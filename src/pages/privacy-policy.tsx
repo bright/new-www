@@ -361,7 +361,14 @@ const PrivacyPolicy = () => {
                 https://support.google.com/analytics/answer/6004245.
               </a>
             </p>
-          </div>
+            <p>
+              5. We use Facebook Pixel to track conversions and measure return on investment of Facebook Ads. Facebook Pixel is an analytics tool by which we can measure your interactions with content on Our Website. When navigating between individual websites, Facebook Pixel provides us with JavaScript tags (libraries) to log information about the page you visited, for example the page URL. Facebook Pixel JavaScript libraries use HTTP cookie files to "remember" what you did on previous pages and how you used Our Website. No personal information is collect as a result of using Facebook pixel. 
+              <br>
+                You can manage your Off-Facebook Activity. To do this, please click on the link: 
+                <a href="https://www.facebook.com/off_facebook_activity/">
+                  https://www.facebook.com/off_facebook_activity/
+               </br>
+            </div>
         </article>
       </div>
     </Page>
