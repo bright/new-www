@@ -366,8 +366,10 @@ const PrivacyPolicy = () => {
               <br>
                 You can manage your Off-Facebook Activity. To do this, please click on the link: 
                 <a href="https://www.facebook.com/off_facebook_activity/">
-                  https://www.facebook.com/off_facebook_activity/
+                https://www.facebook.com/off_facebook_activity/
+                </a>
                </br>
+            </p>
             </div>
         </article>
       </div>
