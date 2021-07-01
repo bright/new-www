@@ -57,7 +57,7 @@ export const pageQuery = graphql`
           hidden: { ne: true }
         }
       }
-      sort: { fields: fileAbsolutePath, order: DESC }
+      sort: { fields: frontmatter___date, order: DESC }
       skip: $skip
       limit: $limit
     ) {

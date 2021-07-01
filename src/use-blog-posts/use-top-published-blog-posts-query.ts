@@ -14,7 +14,7 @@ export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResul
                 hidden: { ne: true } 
             } 
         }
-        sort: { fields: fileAbsolutePath, order: DESC }
+        sort: { fields: frontmatter___date, order: DESC }
         limit: 4
       ) {
         posts: nodes {
