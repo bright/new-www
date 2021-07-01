@@ -102,10 +102,14 @@ async function* parseEntries(objects: S3.Object[]) {
   }
 }
 
+function uriPath(entry: CloudFrontLogEntry) {
+  return entry['cs-uri-stem']
+}
+
 function shouldIgnore(entry: CloudFrontLogEntry) {
   const ignoreUserAgent = ['PetalBot'].some(ignorable => entry['cs-user-agent']?.includes(ignorable) == true)
-  const ignorePath = ['favicon', 'robots.txt', 'wp-includes'].some(
-    ignorable => entry['cs-uri-stem']?.includes(ignorable) == true
+  const ignorePath = ['favicon', 'robots.txt', 'wp-includes', '/.svn/', '/.git/', '/wp-login.php'].some(
+    ignorable => uriPath(entry)?.includes(ignorable) == true
   )
   return ignoreUserAgent || ignorePath
 }
@@ -147,7 +151,7 @@ async function sendNotificationEmail(notFoundEntries: CloudFrontLogEntry[]) {
         ToAddresses: [
           'piotr.mionskowski@brightinventions.pl',
           'ula.stankiewicz@brightinventions.pl',
-          'izabela.pawlik@brightinventions.pl'
+          'izabela.pawlik@brightinventions.pl',
         ],
       },
       FromEmailAddress: 'piotr@brightinventions.pl',
@@ -174,5 +178,7 @@ export const find404InS3OnSchedule: ScheduledHandler = async event => {
 
   const notFoundEntries = await findNotFoundEntriesInAccessLogs(filesToCheck)
 
-  await sendNotificationEmail(notFoundEntries)
+  if (notFoundEntries.length > 0) {
+    await sendNotificationEmail(notFoundEntries)
+  }
 }
