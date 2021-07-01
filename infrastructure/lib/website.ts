@@ -1,5 +1,5 @@
 import * as cdk from '@aws-cdk/core'
-import { Arn, CfnOutput, Duration } from '@aws-cdk/core'
+import { Arn, CfnOutput, Duration, RemovalPolicy } from '@aws-cdk/core'
 import { Bucket } from '@aws-cdk/aws-s3'
 import {
   CloudFrontWebDistribution,
@@ -62,7 +62,10 @@ export class Website extends cdk.Stack {
 
     const certificate = Certificate.fromCertificateArn(this, 'certificate', props.certificateArn)
 
-    const accessLogs = new Bucket(this, 'access-logs')
+    const accessLogs = new Bucket(this, 'Access Logs', {
+      removalPolicy: RemovalPolicy.DESTROY,
+      bucketName: 'brightinventions-pl-access-logs'
+    })
     const cloudfrontAccessLogPrefix = 'brightinventions-pl/cloudfront'
 
     const webDistribution = new CloudFrontWebDistribution(this, 'distribution', {
