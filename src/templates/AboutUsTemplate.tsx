@@ -26,7 +26,7 @@ export default function Template({
   return (
     <Page>
       <HelmetTitleDescription
-        title={frontmatter.title}
+        title={`Meet ${frontmatter.short_name}`}
         description={frontmatter.bio}
       />
       <div className="container">
