@@ -14,8 +14,8 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
     <Page>
       <HelmetTitleDescription
-        title='Mobile and Web Development Services'
-        description='About our software development services'
+        title='What We Offer'
+        description='We specialise in Mobile App Development, IoT Development, Blockchain and Product Design. Contact us!'
       />
       <HideTablet>
         <Section>
