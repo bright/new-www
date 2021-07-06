@@ -35,7 +35,7 @@ const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
     <Page>
       <HelmetTitleDescription
         title='Projects'
-        description='About our software development projects'
+        description='We’ve developed web and mobile applications for clients from UK, Germany, Netherlands, Norway, Israel and more.'
       />
       <div className='container'>
         <Section className={styles.info}>
