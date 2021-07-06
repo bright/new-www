@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: ivan
-ex: false
+ex: true
 slug: ivan
 name: Ivan Menshykov
 short_name: Ivan
