@@ -44,7 +44,7 @@ Following security rules **helps to meet legal requirements**. A great example i
 
 ## The key to successful app development security
 
-As you can see, **app development security isn’t a secret knowledge** possessed by elites. In the end, the most important fact is just to **follow the security guides** and **execute the best possible security work** from the developer team. 
+As you can see, **app development security isn’t a secret knowledge** possessed by elites. In the end, the most important fact is just to **follow the [security guides](https://owasp.org/www-pdf-archive/OWASP_Application_Security_Verification_Standard_4.0-en.pdf)** and **execute the best possible security work** from the developer team. 
 
 **Are you looking for a software consulting studio? [Estimate your project!](https://brightinventions.pl/start-project)**
 
