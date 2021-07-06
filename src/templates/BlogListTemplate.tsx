@@ -22,7 +22,7 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
   return (
     <Page className="page-blog-list">
       <HelmetTitleDescription
-        title="Blog"
+        title="Blog about web & mobile app development"
         description="Ideas about software development, practices. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more."
       />
       <Helmet>
