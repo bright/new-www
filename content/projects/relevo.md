@@ -11,7 +11,7 @@ tags:
   - mobile
   - app
 order: 3
-slug: ecofriendly-app
+slug: eco-friendly-app
 published: true
 ---
 ## Main features:
