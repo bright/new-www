@@ -14,6 +14,10 @@ order: 4
 slug: cryptocurrency-platfrom
 published: true
 ---
+
+
+![cryptocurrency social platform](/images/cryptocurrency_platform.png)
+
 ## Main features:
 
 * Homepage feed aggregating news from other social media platforms, followed communities and influencers
@@ -31,8 +35,6 @@ published: true
 ## About
 
 Cryptocurrency world has never had an online platform dedicated exclusively to the community. Our client from Italy wanted to change that. We offered our services and helped to build [CryptoAtlas](https://www.cryptoatlas.io) that would not only aggregate cryptocurrency news from platforms like Twitter or Youtube but also deliver its own content provided by the top crypto opinion leaders.
-
-![cryptocurrency social platform](/images/cryptocurrency_platform.png)
 
 ## Goal
 
