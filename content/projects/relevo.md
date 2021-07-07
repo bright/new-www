@@ -14,6 +14,10 @@ order: 3
 slug: eco-friendly-app
 published: true
 ---
+
+
+![mobile app development](/images/relevo.png)
+
 ## Main features:
 
 * Panel for restaurants
@@ -35,7 +39,7 @@ published: true
 
 Relevo is free, eco-friendly, and smart. We all see how plastic tableware took over our lives, especially during the pandemic. Now it might be more possible than ever to change that. We are proud to be a part of this change!
 
-![mobile app development](/images/relevo.png)
+![relevo app development](/images/relevoiphone_oranage.png)
 
 ## Goal
 
@@ -46,8 +50,6 @@ Relevo and Bright Inventions’ priority has been to increase the scalability & 
 The founders of Relevo were looking for an experienced software development company that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
 
 We are in the process of rewriting the whole backend using technologies such as Node.js, NestJS and AWS. Also, we take care of the frontend part – developing a panel for restaurants allowing for managing the app users’ activity as well as an admin panel. 
-
-![relevo app development](/images/relevoiphone_oranage.png)
 
 ## Result
 
