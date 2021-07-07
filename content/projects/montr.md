@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Montr
-image: /images/montr_main2.png
+image: /images/montr_www_main.png
 description: An app platform that enables digitizing mobile reporting. It is
   flexible, easy to use and integrates with other platforms. It helps you to
   build with no code the digitized surveys for end-users.
