@@ -21,6 +21,8 @@ published: true
 * Integration with online food delivery services
 * Payment system
 
+![mobile app development](/images/relevo.png)
+
 ## Skills:
 
 **Fullstack:** Node.js, NestJS, React, MySQL 
@@ -34,8 +36,6 @@ published: true
 [Relevo](https://www.gorelevo.de) is a German startup founded in 2020. It offers Android and iOS applications. Relevo works with restaurants (mainly in Munich and Berlin) that are eager to offer reusable packages for takeout. Thanks to the app users can scan a QR code on the reusable package and take their food in an eco-friendly tableware. We just have to remember to give back the packaging to the partner restaurant within 2 weeks. And then the next person can use it again.
 
 Relevo is free, eco-friendly, and smart. We all see how plastic tableware took over our lives, especially during the pandemic. Now it might be more possible than ever to change that. We are proud to be a part of this change!
-
-![mobile app development](/images/relevo.png)
 
 ## Goal
 
