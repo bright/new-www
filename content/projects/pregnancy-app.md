@@ -11,6 +11,10 @@ order: 5
 slug: pregnancy-app
 published: true
 ---
+
+
+![Pregnancy App](/images/pregnancy_app2.jpg)
+
 ## Main tech elements
 
 * Apple and Android in app purchases
@@ -22,8 +26,6 @@ published: true
 ## Intro
 
 Keleya supports mothers-to-be by offering them ways to stay fit and eat healthy during their nine-month journey. The curated content is personalised based on the user interests. Each week brings a new set of exercises, recipes and tips.
-
-![Pregnancy App](/images/pregnancy_app2.jpg)
 
 ## Process
 
