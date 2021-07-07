@@ -3,7 +3,9 @@ layout: project
 title: Mobile Therapy Application
 image: /images/mobile_therapy_app1.jpg
 description: An app that supports patients going through physiotherapy, speech
-  therapy, or occupational therapy in getting back to health.
+  therapy, or occupational therapy in getting back to health. It offers
+  therapists an easy way to customize plans for each patient and book in the
+  calendar exercise sessions.
 tags:
   - Android
   - iOS
@@ -14,6 +16,8 @@ order: 3
 slug: mobile-therapy-application
 published: true
 ---
+![Healthcare app development](/images/therapy_app_mockup.png)
+
 ## Main features:
 
 * Therapist module (user panel)
