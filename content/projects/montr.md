@@ -40,7 +40,7 @@ published: true
 
 [Montr](https://montr.nl/en/business-apps/) is a web solution that helps to digitize the company work. The app can be easily customised according to the user's business needs. Montr helps to create and share digital questionnaires, reports and surveys. It is a perfect tool for companies that provide inspections and audits. Also, this is the first dedicated app for the social care team.
 
-![mobile app development](/images/montr_mobile_ap.png)
+![mobile app development](/images/montr_smartphone_mockup.png)
 
 ## Goal
 
