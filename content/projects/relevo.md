@@ -3,9 +3,9 @@ layout: project
 title: Relevo
 image: /images/relevo_main.png
 description: Around 1 million plastic food containers are used in Germany per
-  hour! [Relevo](https://www.gorelevo.de) offers a green alternative. It is a
-  smart reusable system that fights plastic waste. Relevo is a perfect example
-  of the software solution that starts the real change.
+  hour! Relevo offers a green alternative. It is a smart reusable system that
+  fights plastic waste. Relevo is a perfect example of the software solution
+  that starts the real change.
 tags:
   - relevo
   - mobile
