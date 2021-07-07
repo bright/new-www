@@ -15,6 +15,10 @@ order: 1
 slug: solution-for-parkinsons-patients
 published: true
 ---
+
+
+![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
+
 ### Main features:
 
 * Tracking physical response to standard and experimental therapy
@@ -34,8 +38,6 @@ Backend: Node.js, Typescript, PostgreSQL, AWS Services
 ### About
 
 Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
-
-![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
 
 ### Goal
 
