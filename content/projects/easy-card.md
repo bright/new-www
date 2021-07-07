@@ -11,6 +11,10 @@ tags:
 slug: credit-card-reader
 published: true
 ---
+
+
+![cashless transactions app](/images/card_reader_mockups.png)
+
 ## Main features
 
 * Integration with an external card reader
@@ -32,8 +36,6 @@ When we first started our cooperation, the clients already had an up-and-running
 
 The goal was to allow the end-user to attach a separate device to their phone via a mini-jack or lightening/USB-C, that would allow reading the data stored on the card’s magnetic stripe.  This required the right technical approach towards decoding the information stored on the card.
 
-![cashless transactions app](/images/card_reader_mockups.png)
-
 ## Process
 
 Initially, Bright Inventions was entrusted with the development of the iOS app only. However, as we proceeded with our cooperation, we have also been assigned with bringing the Android app to the market.
@@ -44,4 +46,4 @@ The third challenge our mobile app developers tackled was ensuring that the app 
 
 ## Result
 
-The application was successfully delivered and launched in both Google Play and the iOS App Store. The app is present on the market and used by  a whole range of customers, however, new features aren’t being currently developed.
+The application was successfully delivered and launched in both Google Play and the iOS App Store. The app is present on the market and used by a whole range of customers, however, new features aren’t being currently developed.
