@@ -12,6 +12,8 @@ tags:
 slug: pospulse-shopscout
 published: true
 ---
+![FMCG app development](/images/pos_2_mockup.png)
+
 ## Main features
 
 **POSPulse**
