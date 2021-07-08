@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Pregnancy App
-image: /images/pregnancy_app1.jpg
+image: /images/pregnancy_app1.png
 description: Your way to a healthy & relaxed pregnancy and safe birth experience.
 tags:
   - iOS
@@ -11,9 +11,7 @@ order: 5
 slug: pregnancy-app
 published: true
 ---
-
-
-![Pregnancy App](/images/pregnancy_app2.jpg)
+![Pregnancy App](/images/pregnancy_app2.png)
 
 ## Main tech elements
 
@@ -42,10 +40,10 @@ A large part of the work was around building a solution that adapts the content 
 \
 Technical challenges lied primarily in ensuring the parity of features across platforms and deep integration with the system calendar. Events had to be automatically added to the calendar, synchronised across user devices and scheduled push notification had to be triggered at the appropriate times.
 
-![Pregnancy App](/images/pregnancy_app3.jpg)
+![Pregnancy App](/images/pregnancy_app1.png)
 
 ## Launch
 
-The application launched for iOS and Android at the same time to the positive reviews of the first users. With the help of the agency’s marketing team a solid user-base has been achieved in a relatively short amount of time.
+The application was launched for iOS and Android at the same time to the positive reviews of the first users. With the help of the agency’s marketing team a solid user-base has been achieved in a relatively short amount of time.
 
 Keleya has spun out as a separate company and started to build their own internal development team. Bright Inventions supported in all of those efforts, helping to pick the right engineers and with all of the knowledge transfer.
