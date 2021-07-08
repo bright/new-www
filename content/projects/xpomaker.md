@@ -1,7 +1,7 @@
 ---
 layout: project
 title: xpomaker
-image: /images/xpomaker.png
+image: /images/xpomaker_dashboard.png
 description: >
   xpomaker (prev. FairView) is a trade fair planning software that
   revolutionizes the way companies prepare and organize all assets needed for
@@ -14,7 +14,7 @@ tags:
 slug: xpomaker
 published: true
 ---
-![A trade fair planning software](/images/xpomaker-_mockup-3_700.jpg)
+![A trade fair planning software](/images/xpomaker_dashboard2.png)
 
 ## Main features
 
@@ -38,7 +38,7 @@ For many industries, participating in fairs lies at the heart of business, and i
 
 So, how do you stay on top of all this without worrying about organizational chaos and deadlines? Here’s where xpomaker comes into play.
 
-![A trade fair planning software](/images/xpomaker-_mockup-8_700.jpg)
+![A trade fair planning software](/images/xpomaker_dashboard.png)
 
 ## Goal
 
@@ -57,8 +57,6 @@ All of these steps allowed us to deliver a solution that is both functional and 
 After our work on the interface design had finished, xpomaker engaged us in a rebranding project they had been working on. The scope of our work included applying all necessary software development adjustments on the frontend and backend of the app.
 
 After the rebranding phase of our cooperation when the name and the visual identity of the company had changed, our team redesigned the entire app and refine the software accordingly.
-
-![A trade fair planning software](/images/xpomaker-_mockup-2_700.jpg)
 
 ## Result
 
