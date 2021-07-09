@@ -1,7 +1,7 @@
 ---
 layout: project
 title: vCare
-image: /images/vcare_4web.png
+image: /images/vcare-_mockup-3_700.jpg
 description: >
   vCare is a healthcare software solution that helps care homes all over the
   United Kingdom monitor and maintain their residents’ health. The app,
@@ -48,7 +48,7 @@ Tests: Nimble, Quick
 
 When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
-![A healthcare app](/images/vcare-_mockup-3_700.jpg)
+![A healthcare app](/images/vcare_4web copy.png)
 
 ### Goal
 
