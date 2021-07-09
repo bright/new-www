@@ -14,6 +14,8 @@ tags:
 slug: vCare
 published: true
 ---
+![vcare healthcare app](/images/vcare_4web copy.png)
+
 ### Main features
 
 * Managing list of care home patients 
@@ -48,7 +50,7 @@ Tests: Nimble, Quick
 
 When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
-![A healthcare app](/images/vcare_4web copy.png)
+![heathcare software development](/images/vcare-_mockup-3_700.jpg)
 
 ### Goal
 
@@ -73,5 +75,3 @@ For iOS, we chose to work in Swift, and – among others – applied Cocoa Pods 
 ### Result
 
 The iOS and updated Android apps have been available on the market since 2019. We are currently approaching the end of the maintenance period, and are already in the talks on a whole round of new features for both applications.
-
-![]()
