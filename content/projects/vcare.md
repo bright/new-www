@@ -50,7 +50,7 @@ Tests: Nimble, Quick
 
 When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
-![heathcare software development](/images/vcare-_mockup-3_700.jpg)
+![A healthcare app](/images/vcare-_mockup-4_700.jpg)
 
 ### Goal
 
@@ -69,8 +69,6 @@ Our designers worked on the redesign and incorporation of these and several othe
 For updating the Android app, our developers worked in Kotlin, and applied Room library for the database, Dagger for dependency injection, and Coroutines for asynchronous programming.
 
 For iOS, we chose to work in Swift, and – among others – applied Cocoa Pods for dependency injection, Nimble and Quick for running tests, and Teamcity and Fastlane for deployment.
-
-![A healthcare app](/images/vcare-_mockup-4_700.jpg)
 
 ### Result
 
