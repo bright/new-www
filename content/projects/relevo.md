@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Relevo
-image: /images/relevo_main.png
+image: /images/ecofriendly_app_main3.png
 description: Around 1 million plastic food containers are used in Germany per
   hour! Relevo offers a green alternative. It is a smart reusable system that
   fights plastic waste. Relevo is a perfect example of the software solution
@@ -14,8 +14,6 @@ order: 3
 slug: eco-friendly-app
 published: true
 ---
-
-
 ![mobile app development](/images/relevo.png)
 
 ## Main features:
@@ -39,7 +37,7 @@ published: true
 
 Relevo is free, eco-friendly, and smart. We all see how plastic tableware took over our lives, especially during the pandemic. Now it might be more possible than ever to change that. We are proud to be a part of this change!
 
-![relevo app development](/images/relevoiphone_oranage.png)
+![relevo app development](/images/ecofriendly_app_main3.png)
 
 ## Goal
 
