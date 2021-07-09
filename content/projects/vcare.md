@@ -14,7 +14,7 @@ tags:
 slug: vCare
 published: true
 ---
-![vcare healthcare app](/images/vcare_4web copy.png)
+![vcare healthcare app](/images/dashboard_vcare.png)
 
 ### Main features
 
