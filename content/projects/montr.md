@@ -6,9 +6,9 @@ description: An app platform that enables digitizing mobile reporting. It is
   flexible, easy to use and integrates with other platforms. It helps you to
   build with no code the digitized surveys for end-users.
 tags:
-  - montr
   - app
-  - platfrom
+  - backend
+  - frontend
 order: 4
 slug: app-digitized-surveys
 published: true
