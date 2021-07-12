@@ -11,7 +11,7 @@ order: 5
 slug: pregnancy-app
 published: true
 ---
-![Pregnancy App](/images/pregnancy_app2.png)
+![Pregnancy App](/images/pregnancy_phone_mockups_1_3.png)
 
 ## Main tech elements
 
