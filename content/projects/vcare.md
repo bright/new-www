@@ -14,7 +14,7 @@ tags:
 slug: vCare
 published: true
 ---
-![vcare healthcare app](/images/dashboard_vcare.png)
+![vcare healthcare app](/images/vcare-_mockup-1.png)
 
 ### Main features
 
@@ -50,7 +50,7 @@ Tests: Nimble, Quick
 
 When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
-![A healthcare app](/images/vcare-_mockup-4_700.jpg)
+![A healthcare app](/images/vcare_app.png)
 
 ### Goal
 
