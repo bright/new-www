@@ -1,7 +1,7 @@
 ---
 layout: project
 title: SmartHelp
-image: /images/projects/smarthelp.png
+image: /images/smarthelp_main.png
 description: >
   An emergency service app that allows users to easily call for help and provide
   relevant authorities with personal information, exact location, and incident
