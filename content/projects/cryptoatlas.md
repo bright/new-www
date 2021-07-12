@@ -7,7 +7,6 @@ description: CryptoAtlas is a social platform connecting people passionate about
   dedicated exclusively to the community. That is the first and only place where
   you can find crypto news, communities and leaders.
 tags:
-  - cryptocurrency
   - frontend
   - backend
 order: 4
