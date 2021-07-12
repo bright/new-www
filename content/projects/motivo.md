@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Motivo
-image: /images/projects/motivo.png
+image: /images/motivo_main.png
 description: Turbo Training and Indoor Cycling Workouts. An app that is your own
   personal cycling coach. It offers Interactive training plans and workouts for
   indoor cycling. It was launched in the UK. The idea for the app came from
