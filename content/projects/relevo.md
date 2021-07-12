@@ -10,7 +10,7 @@ tags:
   - mobile
   - app
   - backend
-  - fronten
+  - frontend
   - Android
   - iOS
 order: 3
