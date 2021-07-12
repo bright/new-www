@@ -7,9 +7,12 @@ description: Around 1 million plastic food containers are used in Germany per
   fights plastic waste. Relevo is a perfect example of the software solution
   that starts the real change.
 tags:
-  - relevo
   - mobile
   - app
+  - backend
+  - frontend
+  - Android
+  - iOS
 order: 3
 slug: eco-friendly-app
 published: true
