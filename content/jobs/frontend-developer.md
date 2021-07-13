@@ -1,22 +1,27 @@
 ---
 layout: job
 title: "Frontend Developer "
-subtitle: "ONGOING"
-description: We are looking for a Frontend Developer who would like to work with our experienced and ambitious development team.
+subtitle: ONGOING
 hours: full-time
-salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP) 
+salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
 salary_max: 15000
 published: true
 order: 5
+description: We are looking for a Frontend Developer who would like to work with
+  our experienced and ambitious development team.
 ---
+![](/images/joinus_frontendteam.png)
+
+![]()
+
 ## Who We Are
 
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
 
 Bright Inventions is a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
 
-## Project 
+## Project
 
 Innovative and robust ePOS application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market. We are responsible here for providing: backend server, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
 
@@ -42,8 +47,8 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker
 
-## What We Offer 
-  
+## What We Offer
+
 * space for self-development
 * continuous feedback culture
 * regular 1:1 meetings and participation in the mentoring programme 
@@ -58,4 +63,8 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * team retreats once a quarter
 * bright rituals such as birthday cakes, bright coffee meetings, bright kudos 
 
-**HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
+## Recruitment Process
+
+![](/images/recruitment-process.png)
+
+### **HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
