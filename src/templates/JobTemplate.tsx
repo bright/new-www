@@ -6,6 +6,24 @@ import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from "../config/routing"
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
+import styled from 'styled-components'
+
+const SalaryHeading = styled.h5`
+  &:last-child {
+    margin-bottom: 0;  
+  } 
+`
+
+const Salary: React.FC<{salary: string}> = ({salary}) => {
+  const salaryParts = salary.split('or').map(sal => sal.trim())
+  if(salaryParts.length > 1){
+    return salaryParts.map((sal, ix) => {
+      return <SalaryHeading className="has-text-weight-normal" key={ix}>{sal}</SalaryHeading>
+    })
+  }
+
+  return <SalaryHeading className="has-text-weight-normal">{salaryParts[0]!}</SalaryHeading>
+}
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -23,11 +41,16 @@ export default function Template({
           <h1 className="title has-text-dark has-text-weight-bold">
             {page.title}
           </h1>
-          <div className="content">
-            <h3 className="has-text-grey has-text-weight-bold">{page.hours}</h3>
-            <h3 className="has-text-primary has-text-weight-bold">
-              Salary: {page.salary}
-            </h3>
+          <div className="content columns">
+            <div className="column">
+              {page.hours && <h4 className="has-text-grey">{page.hours}</h4>}
+              <SalaryHeading className="has-text-primary">
+                Salary
+              </SalaryHeading>
+            </div>
+            <div className="column is-full">
+              <Salary salary={page.salary} />
+            </div>
           </div>
           <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
           <div className="content">
