@@ -153,7 +153,7 @@ private func startUpdating() {
 }
 ```
 
-<img src="/images/coremotion-pedometer-swift/steps-demo.gif" alt="demo" width="300">
+![usage demo](/images/coremotion-pedometer-swift/steps-demo.gif)
 
 ## Conclusion
 
