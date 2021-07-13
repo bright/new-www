@@ -17,7 +17,7 @@ published: false
 ---
 ![airhelp mobile app development](/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
-########### *It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+###### *It is not a real implemented design. It is a mockup example created for the purpose of case study.*
 
 ## Main features:
 
@@ -32,7 +32,7 @@ In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup wit
 
 ![airhelp mobile app development](/images/flight_compensation_app_mockup4.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
-*It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+###### *It is not a real implemented design. It is a mockup example created for the purpose of case study.*
 
 ## Goal
 
@@ -40,7 +40,7 @@ The main goal was to create a mobile-friendly tool for users that want to file a
 
 ![airhelp mobile app development](/images/flight_compensation_app_mockup3.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
-*It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+###### *It is not a real implemented design. It is a mockup example created for the purpose of case study.*
 
 ## Result
 
