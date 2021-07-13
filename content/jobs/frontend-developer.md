@@ -11,10 +11,6 @@ order: 5
 description: We are looking for a Frontend Developer who would like to work with
   our experienced and ambitious development team.
 ---
-![](/images/joinus_frontendteam.png)
-
-![]()
-
 ## Who We Are
 
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
@@ -67,8 +63,4 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 
 ![](/images/recruitment-process.png)
 
-
-
-
-
-### **HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
+## **HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
