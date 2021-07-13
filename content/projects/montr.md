@@ -11,7 +11,7 @@ tags:
   - frontend
 order: 4
 slug: app-digitized-surveys
-published: true
+published: false
 ---
 ![Montr app development](/images/montr_company_panel.png)
 
