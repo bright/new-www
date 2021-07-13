@@ -1,10 +1,9 @@
 ---
 layout: job
 title: Senior Android Developer
-subtitle: "ONGOING"
-description: We are looking for a Senior Android Developer who would like to work with our experienced and ambitious development team.
+subtitle: ONGOING
 hours: full-time
-salary: "16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)"
+salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
 salary_min: 16000
 salary_max: 22000
 redirect_from:
@@ -12,7 +11,11 @@ redirect_from:
   - /android-developer/
 published: true
 order: 4
+description: We are looking for a Senior Android Developer who would like to
+  work with our experienced and ambitious development team.
 ---
+![](/images/android-team.png)
+
 ## Who We Are
 
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
@@ -62,6 +65,8 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 
 * have experience and understand Kotlin coroutines, Kotlin serialisation and Data Binding
 
+## Recruitment Process
 
+![](/images/recruitment-process.png)
 
 In case you have any questions, contact ula@bright.dev
