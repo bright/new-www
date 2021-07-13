@@ -17,6 +17,8 @@ published: false
 ---
 ![airhelp mobile app development](/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
+It is not a real implemented design. It is a mockup example created for the purpose of case study.
+
 ## Main features:
 
 * Dynamic and UX friendly survey
@@ -29,6 +31,8 @@ published: false
 In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup with a mission to educate passengers about their rights. AirHelp came to us with a basic version of their iOS app and expected us to rewrite it. We developed an MVP version of the app taking care of the backend. We helped AirHelp to launch a new version of the app in the AppStore. In the meantime, the client had time to build an in-house development team that could pursue the project in the future.
 
 ![airhelp mobile app development](/images/flight_compensation_app_mockup4.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
+
+It is not a real implemented design. It is a mockup example created for the purpose of case study.
 
 ## Goal
 
