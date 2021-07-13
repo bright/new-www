@@ -33,7 +33,7 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * share knowledge with the rest of the team
 * improve internal software development processes
 
-# What We Are Looking For
+## What We Are Looking For
 
 * at least 2 years of commercial programming experience
 * very good working knowledge and deep understanding of JavaScript/TypeScript
@@ -66,5 +66,9 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 ## Recruitment Process
 
 ![](/images/recruitment-process.png)
+
+
+
+
 
 ### **HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
