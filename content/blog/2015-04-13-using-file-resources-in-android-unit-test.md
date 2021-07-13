@@ -1,22 +1,23 @@
 ---
-layout: post
-excerpt: >-
-  Since version 1.1 of Android Gradle Plugin we can run unit test on a local JVM
-  on our development machine. In this article I'll demonstrate how to make local
-  resources available in unit test case.
-title: Using the file resources in Android POJO unit test
+excerpt: Since version 1.1 of Android Gradle Plugin we can run unit test on a
+  local JVM on our development machine. In this article I'll demonstrate how to
+  make local resources available in unit test case.
 modified: 2015-04-13T00:00:00.000Z
+layout: post
+title: Using the file resources in Android POJO unit test
+date: 2015-04-12T22:00:00.000Z
+image: /images/desktop-android-unit-test.jpg
+author: mateuszklimek
 tags:
   - android
   - unit-testing
+hidden: false
 comments: true
-author: mateuszklimek
-date: '2015-04-12T22:00:00.000Z'
 published: true
 ---
 Since version 1.1 of Android Gradle Plugin we can run unit test on a local JVM on our development machine. It's still [experimental](http://tools.android.com/tech-docs/unit-testing-support) feature but I've found it's fully usable.<br/>
 Finally Android developers have lighweight build-in tool for unit testing :)<br />
-The times when we need [third party](http://robolectric.org/configuring/) libraries to test unit classes *quickly* seems to be gone :)  
+The times when we need [third party](http://robolectric.org/configuring/) libraries to test unit classes *quickly* seems to be gone :)\
 <br/>
 I had to implement a parser which operates on JSON data returned from REST API. <br/>
 The first thing I thought was to get some sort of responses from the server and put them in local files.
@@ -34,8 +35,8 @@ public void parserShouldHasInvalidStateIfResponseHasMissingField() throws Except
 }
 ```
 
-
 Where method `getFileFromPath` is:
+
 ```java
 public static File getFileFromPath(Object obj, String fileName) {
 	ClassLoader classLoader = obj.getClass().getClassLoader();
@@ -44,21 +45,19 @@ public static File getFileFromPath(Object obj, String fileName) {
 }
 ```
 
-
 Unfortunately if you put *response_with_missing_field.json* directly in the sources directory or any other, `getResources()` returns `null`. <br/>
 After quick research I realized the reason was the apk doesn't contain any resource file at all. 
 So it's going to be problem with build tool which ignores the resource. 
 
 Let's play with *gradle* a bit to make it work.
 
- 1. Ensure you're using at least [Android Gradle Plugin version 1.1](http://tools.android.com/tech-docs/unit-testing-support). Follow the link to set up Android Studio correctly. 
- 2. Create test directory. Put unit test classes in java directory and put your resources file in res directory. Android Studio should mark them like follow: 
+1. Ensure you're using at least [Android Gradle Plugin version 1.1](http://tools.android.com/tech-docs/unit-testing-support). Follow the link to set up Android Studio correctly. 
+2. Create test directory. Put unit test classes in java directory and put your resources file in res directory. Android Studio should mark them like follow: 
 
- 	![test-directory-structure]({{site.url}}/images/test-directory-structure.png)
+   ![test-directory-structure](/images/test-directory-structure.png)
+3. Create `gradle` task to copy resources into classes directory to make them visible for classloader `getResources()` method:
 
- 3. Create `gradle` task to copy resources into classes directory to make them visible for classloader `getResources()` method:
 ```groovy
-
 android{
   ...
 }
@@ -70,9 +69,8 @@ task copyResDirectoryToClasses(type: Copy){
 
 assembleDebug.dependsOn(copyResDirectoryToClasses)
 ```
+
  Run unit test from Android Studio by <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F10</kbd> on whole class or specific test method.<br/>
  Now you should be able to get the `File` reference to the resource.
 
-
 See this post on my [personal blog](http://mklimek.github.io/using-file-resources-in-android-unit-test/).
-
