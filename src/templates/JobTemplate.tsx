@@ -15,7 +15,7 @@ const SalaryHeading = styled.h5`
 `
 
 const Salary: React.FC<{salary: string}> = ({salary}) => {
-  const salaryParts = salary.split('or').map(sal => sal.trim())
+  const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
   if(salaryParts.length > 1){
     return salaryParts.map((sal, ix) => {
       return <SalaryHeading className="has-text-weight-normal" key={ix}>{sal}</SalaryHeading>
