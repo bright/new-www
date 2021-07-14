@@ -135,7 +135,7 @@ Then save your model to file so you can use it later.
 tf.keras.models.save_model(model, "blog_model.h5")
 ```
 
-I highly encourage you to take advantage of created model and use it in your android application ([check out my tutorial on that](https://brightinventions.pl/blog/image-classification-tensorflowlite-android/)). To transform such model to be mobile friendly convert it to TensorFlow Lite and you are ready to go. However [most of architectures can't be used directly on mobile devices](https://brightinventions.pl/blog/are-we-ready-for-deep-learning-on-mobile-devices/) due to lack of support for some operators as well as memory constraints but if you go with some that are simple enough or were intended for embedded devices like MobileNet then it shouldn't be a problem.
+I highly encourage you to take advantage of created model and use it in your android application ([check out my tutorial on that](/blog/image-classification-tensorflowlite-android/)). To transform such model to be mobile friendly convert it to TensorFlow Lite and you are ready to go. However [most of architectures can't be used directly on mobile devices](/blog/are-we-ready-for-deep-learning-on-mobile-devices/) due to lack of support for some operators as well as memory constraints but if you go with some that are simple enough or were intended for embedded devices like MobileNet then it shouldn't be a problem.
 
 ```python
 converter = tf.lite.TFLiteConverter.from_keras_model_file("blog_model.h5")

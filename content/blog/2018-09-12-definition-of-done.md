@@ -11,7 +11,7 @@ date: '2018-09-11T22:00:00.000Z'
 published: true
 ---
 
-I have often heard that something is "almost ready". This term is vague and brings more confusion than information. According to the [Ninety-Ninety rule](https://brightinventions.pl/blog/dont-be-mockup-developer/#ninety-ninety-rule), 90% of the code is implemented during 90% of the project time and the remaining 10% of the code ("almost ready features") can take even the same amount of time which would lead to massive project delays.
+I have often heard that something is "almost ready". This term is vague and brings more confusion than information. According to the [Ninety-Ninety rule](/blog/dont-be-mockup-developer/#ninety-ninety-rule), 90% of the code is implemented during 90% of the project time and the remaining 10% of the code ("almost ready features") can take even the same amount of time which would lead to massive project delays.
 
 Incomplete work has a tendency to mount up, and without visibility of how much effort truly remains, the deficit can quickly get out of hand. For this reason, determining the Definition of Done is crucial for every project. Otherwise, you can only hum the Sad Project Manager song:
 >What is done?

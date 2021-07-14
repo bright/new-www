@@ -17,7 +17,7 @@ date: '2018-04-19T22:00:00.000Z'
 published: true
 ---
 
-Recently we've checked [what benefits TypeScript adds in our React project](https://brightinventions.pl/blog/5-ways-to-benefit-from-typescript-in-react/). Let's now follow the typical path the front-end project takes nowadays and add [Redux](https://brightinventions.pl/blog/from-react-to-react-redux-in-a-few-steps/) into the mix. Unfortunately, by default Redux is not really type safe as it is in most cases presented as [switches over actions with arbitrary payloads](https://redux.js.org/introduction/core-concepts). But TypeScript is a powerful beast and with a bit of care we can make our Redux code not only type safe, but also much cleaner and more readable.
+Recently we've checked [what benefits TypeScript adds in our React project](/blog/5-ways-to-benefit-from-typescript-in-react/). Let's now follow the typical path the front-end project takes nowadays and add [Redux](/blog/from-react-to-react-redux-in-a-few-steps/) into the mix. Unfortunately, by default Redux is not really type safe as it is in most cases presented as [switches over actions with arbitrary payloads](https://redux.js.org/introduction/core-concepts). But TypeScript is a powerful beast and with a bit of care we can make our Redux code not only type safe, but also much cleaner and more readable.
 
 ![Redux + TypeScript](/images/react-ts/redux-ts.png)
 

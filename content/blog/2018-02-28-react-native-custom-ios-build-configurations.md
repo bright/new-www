@@ -74,4 +74,4 @@ One might wonder why this is needed when we only change build configuration name
 
 Defining iOS build configurations different than Debug and Release in React Native can be really frustrating without any previous experience. However, with a little guidance, it can be a quick and painless process.
 
-If you are interested in how to set up different Google configurations for each build configuration I recommend you [reading this tutorial](https://brightinventions.pl/blog/ios-google-configuration-per-environment). Although it is written for native development, you can **set up Run Scripts exactly the same in React Native**.
+If you are interested in how to set up different Google configurations for each build configuration I recommend you [reading this tutorial](/blog/ios-google-configuration-per-environment). Although it is written for native development, you can **set up Run Scripts exactly the same in React Native**.

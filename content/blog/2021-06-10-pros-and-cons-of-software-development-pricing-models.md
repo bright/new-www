@@ -67,7 +67,7 @@ You **pay only for the real time spent on the project and the resources** (mater
 
 What is the best pricing model for you? Let us know in the comments!
 
-Click, if you are looking for a [software development studio](https://brightinventions.pl/start-project).
+Click, if you are looking for a [software development studio](/start-project).
 
 
 

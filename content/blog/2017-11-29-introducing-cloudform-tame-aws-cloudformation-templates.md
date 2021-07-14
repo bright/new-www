@@ -19,7 +19,7 @@ date: '2017-11-28T23:00:00.000Z'
 published: true
 ---
 
-Whatever we do here in [Bright Inventions](https://brightinventions.pl/), we deeply care about automation, traceability and repeatability. This is why we embraced the DevOps-related practices like [Continuous Delivery](https://brightinventions.pl/blog/teamcity-for-ios-project/) or [containerization](https://brightinventions.pl/blog/dockerizing-android-builds/), we are careful about properly set up [logging](https://brightinventions.pl/blog/http-request-logging-in-node/) and monitoring, we know our stuff when it comes to [reliability and resiliency](https://brightinventions.pl/blog/the-importance-of-timeouts/). This is also why, whenever we do anything at the backend, we define our [infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) with the great help of [AWS CloudFormation](https://aws.amazon.com/cloudformation/).
+Whatever we do here in [Bright Inventions](/), we deeply care about automation, traceability and repeatability. This is why we embraced the DevOps-related practices like [Continuous Delivery](/blog/teamcity-for-ios-project/) or [containerization](/blog/dockerizing-android-builds/), we are careful about properly set up [logging](/blog/http-request-logging-in-node/) and monitoring, we know our stuff when it comes to [reliability and resiliency](/blog/the-importance-of-timeouts/). This is also why, whenever we do anything at the backend, we define our [infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) with the great help of [AWS CloudFormation](https://aws.amazon.com/cloudformation/).
 
 ## Why should I care?
 
@@ -163,5 +163,5 @@ Note also that `cloudform` does not attempt to interact with your AWS stack in a
 
 The package source code is MIT-licensed, [available on GitHub](https://github.com/bright/cloudform). If you find out that something is missing or invalid in `cloudform`, feel free to open an issue on GitHub or – even better – contribute yourself!
 
-In the follow-up post I'm sharing [a few more examples and recipes](https://brightinventions.pl/blog/aws-cloudformation-patterns-practices-cloudform/) how to build template generation into your Continuous Delivery workflow.
+In the follow-up post I'm sharing [a few more examples and recipes](/blog/aws-cloudformation-patterns-practices-cloudform/) how to build template generation into your Continuous Delivery workflow.
 

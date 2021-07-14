@@ -44,7 +44,7 @@ And often you don't even know if the issue was fixed or not &mdash; it's not men
 
 ### Debugging ###
 
-Eliasz has already mentioned some of our debugging experience in [his post](https://brightinventions.pl/blog/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/), but let me put my two cents in.
+Eliasz has already mentioned some of our debugging experience in [his post](/blog/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/), but let me put my two cents in.
 
 * The app might be much slower while debugging (in fact, it slows down when you enable the *dev* mode, which is needed for debugging). Before we switched to a different navigation library, navigating from one screen to another was taking up to 2 minutes (!).
 * Accessing the In-App Developer Menu on a device is a pain. If you are using an emulator, you can bring the developer menu up with a keyboard shortcut, but on a device you use a shake gesture. Now, just imagine yourself shaking a tablet like tens times a day (or even more). There are no refunds for broken devices.

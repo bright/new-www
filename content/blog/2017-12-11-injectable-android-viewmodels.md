@@ -39,7 +39,7 @@ Before we begin to play with the code I wanted to add that I have googled other 
 
 _Note: you can access the whole code used in this example [on GitHub](https://github.com/azabost/simple-mvvm-example/tree/7b051fd7a16853e3d9655767a887d9a830133d2d)._
 
-_Another note: if you would like to read about a newer solution for injecting ViewModels which I find better, [click here](https://brightinventions.pl/blog/android-viewmodel-injections-revisited/)._
+_Another note: if you would like to read about a newer solution for injecting ViewModels which I find better, [click here](/blog/android-viewmodel-injections-revisited/)._
 
 ## Simple factory ##
 

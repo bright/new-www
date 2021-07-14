@@ -77,7 +77,7 @@ No developer wants to work for a company that will terminate his or her contract
 
 This being, you must take into account the costs surrounding monthly salary, training, equipment, tools, insurance, benefits...you see where I’m heading with this, right? You need to offer your employees everything that will make them want to stay with your company and keep turning down all incoming job offers.
 
-To summarize – if money and permanent employment contracts aren’t an issue, in-house devs might be your thing. Otherwise, if you’ve got a complex project, but prefer not to take on all the in-house commitment, [an experienced software house](https://brightinventions.pl/what-we-offer/) should be your go-to solution.
+To summarize – if money and permanent employment contracts aren’t an issue, in-house devs might be your thing. Otherwise, if you’ve got a complex project, but prefer not to take on all the in-house commitment, [an experienced software house](/what-we-offer/) should be your go-to solution.
 
 Speaking of…
 
@@ -97,7 +97,7 @@ Another unbeatable perk?
 
 Software houses will give you a helping hand if your project development strategy isn’t set in stone yet.
 
-This includes: getting help with [determining MVP](https://brightinventions.pl/blog/mistakes-startups-make-when-developing-their-mobile-product/), making the best technology decisions, determining technical requirements, sprint planning, and so much more.
+This includes: getting help with [determining MVP](/blog/mistakes-startups-make-when-developing-their-mobile-product/), making the best technology decisions, determining technical requirements, sprint planning, and so much more.
 
 With a contract in place, everything is also regulated by the law. This means that – even if you outsource to a company in a foreign country – you may rest assured that any data that you make available to your external team is protected.
 
@@ -111,5 +111,5 @@ So, if you’re shifting from a different team to a software house for the first
 
 We could go on and on about the ins and outs of working with a software house like ours, and we’d be delighted to tell you all about it.
 
-If you’d like to hear more, [reach out to us](https://brightinventions.pl/start-project/) – we’d love to discuss how we can help your business!
+If you’d like to hear more, [reach out to us](/start-project/) – we’d love to discuss how we can help your business!
 

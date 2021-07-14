@@ -36,7 +36,7 @@ Also, here’s a much more tangible representation of their skillset – this [C
 
 ### 2. Polish people speak English very well
 
-I am sure you have read some dreadful stories about how outsourcing to a foreign country can be a real nightmare, as you might end up working with a team that barely speaks any English. This won’t be your worry if you choose to work with [a software house from Poland](https://brightinventions.pl/). English is by far the most widely spoken foreign language in the country (a huge factor being that you can only graduate from high school if you pass a foreign language exam).
+I am sure you have read some dreadful stories about how outsourcing to a foreign country can be a real nightmare, as you might end up working with a team that barely speaks any English. This won’t be your worry if you choose to work with [a software house from Poland](/). English is by far the most widely spoken foreign language in the country (a huge factor being that you can only graduate from high school if you pass a foreign language exam).
 
 Take a look at Poland’s [English Proficiency Index](https://www.ef.pl/epi/compare/regions/pl/cn/)), as compared to Russia and China (so, the other two countries on the HackerRank podium):
 
@@ -56,7 +56,7 @@ There are thousands of global companies with significant business operation unit
 
 ### 4. Poland is GDPR compliant – meaning, your data is safe and sound
 
-Safety is another crucial point you can cross off from your potential worries’ list. Being part of the EU, Polish software companies are GDPR-compliant and the data you disclose to them is protected on all fronts (to demonstrate, here’s an example of our own [privacy policy](https://brightinventions.pl/privacy-policy/) at Bright Inventions).
+Safety is another crucial point you can cross off from your potential worries’ list. Being part of the EU, Polish software companies are GDPR-compliant and the data you disclose to them is protected on all fronts (to demonstrate, here’s an example of our own [privacy policy](/privacy-policy/) at Bright Inventions).
 
 When you work with Polish software houses, your data is kept secure both by advanced tech, as well as a legal team who works themselves to the bone to keep your data and software protected, 24/7. And now last, but not least…
 

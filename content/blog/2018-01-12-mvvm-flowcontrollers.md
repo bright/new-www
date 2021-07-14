@@ -37,7 +37,7 @@ Should I use MVC if it is not that bad in the end? If I was a skilled consultant
 
 ## Why MVVM?  
 If MVC is not that bad, then what are my motives for following the MVVM path? Just to name a few of them:  
-- It allows me to move a big portion of my code far away from `UIKit` ([Which gives an ability to test this code faster - as macOS frameworks ](https://brightinventions.pl/blog/are-your-views-dumb-enough/)).  
+- It allows me to move a big portion of my code far away from `UIKit` ([Which gives an ability to test this code faster - as macOS frameworks ](/blog/are-your-views-dumb-enough/)).  
 - It allows me to test the logic that drives my views easier.  
 - It works really well with reactive programming approaches (but you don't need to use them to benefit from MVVM)  
 

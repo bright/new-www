@@ -35,7 +35,7 @@ It’s one thing to take Steve Jobs’ advice about hiring people who are smarte
 
 So how do we make sure this doesn’t happen?
 
-What we recommend is hiring either a [highly-experienced software house](https://brightinventions.pl/) or an in-house CTO and product owner who will report to you and oversee product development.
+What we recommend is hiring either a [highly-experienced software house](/) or an in-house CTO and product owner who will report to you and oversee product development.
 
 To sum up – stay in the loop, be inquisitive, and entrust quality assurance to your product and tech leaders who know the rules of the game deeply.
 

@@ -15,7 +15,7 @@ published: true
 
 In this post I'm going to focus on connecting `React` components with `Redux`. If you are just starting out with `React + Redux` or you have already worked with these before, but want to make this concept a bit clearer then feel invited to read this post till the end ;)
 
-If you would like to get a bit more understanding of the flow in Redux, you can take a look at my previous [post about how I understand the Redux architecture](https://brightinventions.pl/blog/redux-how-do-i-understand-it/).
+If you would like to get a bit more understanding of the flow in Redux, you can take a look at my previous [post about how I understand the Redux architecture](/blog/redux-how-do-i-understand-it/).
 
 ## Before we introduce Redux
 

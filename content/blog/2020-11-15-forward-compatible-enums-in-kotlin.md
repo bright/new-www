@@ -15,7 +15,7 @@ comments: true
 published: true
 ---
 A few years ago Adam outlined
-[8 steps to keep your API sane](https://brightinventions.pl/blog/8-steps-to-keep-your-api-sane)
+[8 steps to keep your API sane](/blog/8-steps-to-keep-your-api-sane)
 in his blog post which I really recommend if you haven't seen it yet.
 The second step there, "be liberal in what the app accepts", is quite a
 specific one because it is applicable not only to the backend side of

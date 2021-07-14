@@ -49,7 +49,7 @@ The STRING_TOO_LARGE issue is pretty easy to reproduce and may happen to you qui
 
 *I recommend generating such a long string using some kind of [lorem ipsum generator](https://www.lipsum.com/) rather than writing it yourself 8-)*
 
-But if you want to crash your app in a way I have mentioned above, it will be a little more complex. You still have to add a string that large but this time try to put it into the [vector drawable](https://brightinventions.pl/blog/creating-simple-vector-drawables-in-android-studio/) `android:pathData` attribute.
+But if you want to crash your app in a way I have mentioned above, it will be a little more complex. You still have to add a string that large but this time try to put it into the [vector drawable](/blog/creating-simple-vector-drawables-in-android-studio/) `android:pathData` attribute.
 
 *Having vector drawables with very long paths is not recommended and Android Studio or lint should warn you about it, but there is no warning when you exceed the above mentioned limit in a string resource.*     
 

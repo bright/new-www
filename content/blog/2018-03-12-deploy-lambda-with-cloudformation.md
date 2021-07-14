@@ -16,7 +16,7 @@ published: true
 canonicalUrl: 'https://miensol.pl/deploy-lambda-with-cloudformation/'
 ---
 
-Serverless deployments are popular these days. With a minimal cost you can have your own code wait and respond to various events. AWS Lambda, Azure Functions are just 2 examples of serverless offering from the biggest cloud providers. For a long time I had thought about them only in the context of ad-hoc setups not suitable for a long term development. This was until I found out that you can, with a little effort, version and deploy the serverless API just as a traditional back-end. In this post I am going to show how to deploy AWS Lambda functions with the help of the tool [Adam](https://adambar.pl/) created at [Bright Inventions](https://brightinventions.pl/) called [cloudform](https://github.com/bright/cloudform).
+Serverless deployments are popular these days. With a minimal cost you can have your own code wait and respond to various events. AWS Lambda, Azure Functions are just 2 examples of serverless offering from the biggest cloud providers. For a long time I had thought about them only in the context of ad-hoc setups not suitable for a long term development. This was until I found out that you can, with a little effort, version and deploy the serverless API just as a traditional back-end. In this post I am going to show how to deploy AWS Lambda functions with the help of the tool [Adam](https://adambar.pl/) created at [Bright Inventions](/) called [cloudform](https://github.com/bright/cloudform).
 
 ![Lambda function](/images/lambda/lambda.png)
 

@@ -52,4 +52,4 @@ And here is what we get – almost the same thing as before, but with TSX (TypeS
 
 But what if we outgrow the offerings of `create-react-app` and we need to dig down into the webpack bundler or jest test runner's shenanigans? It is possible, but unfortunately, in this case we need to say goodbye to the nice and clean abstraction that shielded us from dealing with ~30 direct dependencies and ~12 configuration files. When we run `npm run eject` command, our project gets rewritten to include all of this directly and we can no longer `npm update` our development environment as a single dependency. We should definitely know what we are doing before we decide to do so. And in most cases, until we start having non-standard requirements for the build process, we should not need to do it.
 
-In the [next post](https://brightinventions.pl/blog/5-ways-to-benefit-from-typescript-in-react/) we'll see how we can benefit from having TypeScript support in our React app.
+In the [next post](/blog/5-ways-to-benefit-from-typescript-in-react/) we'll see how we can benefit from having TypeScript support in our React app.

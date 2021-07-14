@@ -51,4 +51,4 @@ You may never feel the need to change your software development company. Still, 
 
 **Are you looking for a software development company?**
 
-[Estimate project](https://brightinventions.pl/start-project)
+[Estimate project](/start-project)

@@ -253,4 +253,4 @@ Shared Secret, together with receipt details that you'll receive after completin
 
 As you have probably noticed, **setting up in-app purchases is arduous**. Yet it's worth investing time in a meticulous step-by-step configuration to avoid unnecessary unpleasantness during the process.
 
-By the way, do you know, that even if you follow these instructions, **your iOS app might be rejected?** [Check out this blog post to find out why](https://brightinventions.pl/blog/dont-let-your-ios-app-be-rejected/).
+By the way, do you know, that even if you follow these instructions, **your iOS app might be rejected?** [Check out this blog post to find out why](/blog/dont-let-your-ios-app-be-rejected/).

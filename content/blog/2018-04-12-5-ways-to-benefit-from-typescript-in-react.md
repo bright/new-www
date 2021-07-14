@@ -17,7 +17,7 @@ date: '2018-04-11T22:00:00.000Z'
 published: true
 ---
 
-In the [recent post](https://brightinventions.pl/blog/modern-way-getting-started-react-typescript/) we discussed how we can start a new React project with TypeScript to benefit from all the goodies of type checks and eliminate the whole class of errors and typos from our codebase. Now let’s see how we can apply TypeScript-based type definitions into our React project to get most of it.
+In the [recent post](/blog/modern-way-getting-started-react-typescript/) we discussed how we can start a new React project with TypeScript to benefit from all the goodies of type checks and eliminate the whole class of errors and typos from our codebase. Now let’s see how we can apply TypeScript-based type definitions into our React project to get most of it.
 
 To get started, as with every library we want to have the TypeScript support for, we need to grab the type definitions first. As usual, the way to do it is using the [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) project and run:
 
@@ -217,5 +217,5 @@ As you might have already noticed, all the HTML elements have its attributes map
 ￼
 ![TypeScript helps with CSS validity](/images/react-ts/css-properties.png)￼￼￼
 
-I hope you already feel that TypeScript can offer a lot of benefits to your React codebase, even though we’ve just touched the iceberg tip. In the [next post](https://brightinventions.pl/blog/using-typescript-with-redux/) we'll add Redux into the mix and see how TypeScript can help us there, too.
+I hope you already feel that TypeScript can offer a lot of benefits to your React codebase, even though we’ve just touched the iceberg tip. In the [next post](/blog/using-typescript-with-redux/) we'll add Redux into the mix and see how TypeScript can help us there, too.
 

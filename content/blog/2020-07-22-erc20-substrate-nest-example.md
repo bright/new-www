@@ -17,7 +17,7 @@ hidden: false
 comments: true
 published: true
 ---
-In this blog post I will guide you through the process of implementing an ERC20 token with use of a smart contract on a Substrate node and accessing it from a NestJS application. If you would like to get a basic concept of what blockchain, Substrate or smart contracts are you may check our [previous blog post](https://brightinventions.pl/blog/why-would-you-use-substrate/). NestJS is a framework for building Node.js applications, to get the basics you can visit it's [documentation website](https://docs.nestjs.com/).
+In this blog post I will guide you through the process of implementing an ERC20 token with use of a smart contract on a Substrate node and accessing it from a NestJS application. If you would like to get a basic concept of what blockchain, Substrate or smart contracts are you may check our [previous blog post](/blog/why-would-you-use-substrate/). NestJS is a framework for building Node.js applications, to get the basics you can visit it's [documentation website](https://docs.nestjs.com/).
 
 You can access the [working project on GitHub](https://github.com/bright/substrate-erc20-nestjs/tree/part1).
 
@@ -91,7 +91,7 @@ To deploy the contract, check the [*Deploying your contract* chapter from the tu
 
 Now we are ready to communicate with our smart contract. There are several ways to do this. One obvious way would be to use the [Polkadot JS Apps](https://polkadot.js.org/apps). This is a great way to play with your contract and explore it. Another way would be to clone the Parity’s [Substrate Front End Template](https://github.com/substrate-developer-hub/substrate-front-end-template) from GitHub, run it, and adapt to your needs. We will however connect from NestJS. It would enable us to wrap the calls to the blockchain with some user-friendly stuff as well as store any additional descriptive information, which we shouldn’t put on-chain.
 
-Check our previous blog post describing in detail how to [connect to a Substrate node](https://brightinventions.pl/blog/connect-to-substrate-nestjs/) and query it for some basic data. Here is a shortcut.
+Check our previous blog post describing in detail how to [connect to a Substrate node](/blog/connect-to-substrate-nestjs/) and query it for some basic data. Here is a shortcut.
 
 First of all, we need to create a new NestJS project. If you do not have the Nest CLI installed you can check the docs [here](https://docs.nestjs.com/cli/overview) or just install it with a following command:
 
@@ -703,4 +703,4 @@ We have run a local Substrate node with the Contracts Pallet added. We have impl
 
 In the next part of this tutorial we will:
 
-* [look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS.](https://brightinventions.pl/blog/develop-your-own-cryptocurrency-with-substrate-2/)
+* [look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS.](/blog/develop-your-own-cryptocurrency-with-substrate-2/)

@@ -18,7 +18,7 @@ published: true
 
 When you take first steps on the road of app development, you have to make a very important choice. You can develop every feature that you have imagined for your web or mobile app or you can just develop the necessary features to know the user's feedback and decide what’s next. 
 
-At Bright Inventions [we often recommend the second option called MVP](https://brightinventions.pl/blog/4-things-we-love-about-building-mvps) (Minimum Viable Product). MVPs are low-cost products that you can show to early adopters and receive first feedback. Thanks to that investors don’t risk too much and can quickly check if the MVP has a business potential. Why is that important? Because **sometimes MVP shows that your product should pivot**. Although app pivoting feels scary, it isn’t such a unique thing. It was done by the greatest ones. 
+At Bright Inventions [we often recommend the second option called MVP](/blog/4-things-we-love-about-building-mvps) (Minimum Viable Product). MVPs are low-cost products that you can show to early adopters and receive first feedback. Thanks to that investors don’t risk too much and can quickly check if the MVP has a business potential. Why is that important? Because **sometimes MVP shows that your product should pivot**. Although app pivoting feels scary, it isn’t such a unique thing. It was done by the greatest ones. 
 
 What are the top reasons to pivot?
 
@@ -45,4 +45,4 @@ Idea for a software solution is only the beginning. It needs to be verified and 
 
 **Do you want to build a MVP?** 
 
-[Estimate project](https://brightinventions.pl/start-project/)
+[Estimate project](/start-project/)

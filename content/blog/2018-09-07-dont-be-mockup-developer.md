@@ -12,7 +12,7 @@ date: '2018-09-06T22:00:00.000Z'
 published: true
 ---
 
-Many times as a mobile developer I have to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the [Definition of Done](https://brightinventions.pl/blog/definition-of-done) but it does not mean that I have implemented the UI only.
+Many times as a mobile developer I have to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the [Definition of Done](/blog/definition-of-done) but it does not mean that I have implemented the UI only.
 
 ![Workspace image](/images/dont-be-mockup-developer/workspace.jpg)
 
