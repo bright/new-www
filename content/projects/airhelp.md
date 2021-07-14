@@ -13,7 +13,7 @@ tags:
   - iOS
   - backend
 slug: airhelp
-published: false
+published: true
 ---
 ![airhelp mobile app development](/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
