@@ -1,44 +1,38 @@
 ---
 layout: job
 title: "DevOps Engineer "
-subtitle: "ONGOING"
-description: We are looking for a DevOps Engineer who would like to work with our experienced and ambitious development team.
+subtitle: ONGOING
 hours: Full-time
-salary: "12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)"
+salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
 salary_max: 15000
 published: true
 order: 10
+description: We are looking for a DevOps Engineer who would like to work with
+  our experienced and ambitious development team.
 ---
-We are looking for a **DevOps Engineer** who would like to work with our experienced and ambitious development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system to accommodate over 25 thousand new Android-based point-of-sales devices in cooperation with one of the world's top food ordering companies.
+![](/images/backendteam_bright-inventions.png)
 
-The system is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
+We are a[ team of talented developers, designers, managers and marketers  from Gdańsk who value and apply the policy of trust and continuous feedbac](https://brightinventions.pl/about-us/team/)k. We focus on cutting-edge technologies, innovations, and try to find simple structure in complex things.
 
-### **Your Job Will Include**
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
-* managing processes related to continuous delivery pipeline
-* helping with the system scalability and reliability improvement
-* direct contact with clients and advising in their decision making process
-* knowledge sharing with the rest of a team
-* keeping systems secure and up-to-date
-* taking care of cloud platform security
+## about the role
 
-### What We Offer
+We are looking for a **DevOps Engineer** who would like to work with our experienced and ambitious development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system widely used in Israel and since 2016 successfully entering European market. 
 
-* work on the international project of the existing intelligent point-of-sale in cooperation with one of the world’s top food ordering companies
-* flat structure with no management overhead
-* working with experienced, ambitious and positive team
-* space for self-development
-* business contract depending on your needs (you choose if it’s B2B or UoP)
-* MultiSport card and private medical package
-* good equipment: MacBook, one or two screens and additional accessories
-* flexible working hours (we come to work between 7.00 and 10.00 a.m.)
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby
-* Bright Day once a month during which you can do non-project stuff
-* Bright Lunches for you and your colleague sponsored by the company
-* team retreats once a quarter, Birthday cakes and occasional surprises
+We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
 
-### What We Expect From You
+## what you will do
+
+* manage processes related to continuous delivery pipeline
+* help with the system scalability and reliability improvement
+* have a direct contact with clients and advise in their decision making process
+* share knowledge with the rest of an an engineering team
+* keep systems secure and up-to-date
+* take care of the cloud platform security
+
+## what we'd like to see
 
 * good knowledge and experience with AWS cloud services
 * experience with reliable multi-region architectures
@@ -46,11 +40,36 @@ The system is widely used in Israel and since 2016 has been successfully enterin
 * experience in building continuous delivery pipelines
 * good scripting skills
 * the ability to work independently as well as in a team
-* communicative level of English (both written and spoken)
+* very good communication skills in English (both written and spoken)
 
-### Nice to Have
+## nice-to-haves
 
 * knowledge of TypeScript or Java/Kotlin
 * experience with Terraform or aws-cdk
 
-In case you have some questions, please contact directly ula@bright.dev
+## what you will find at Bright Inventions
+
+* international projects and cooperation with one of the world’s top food ordering brands
+* flat structure and great impact on the key project decisions 
+* huge space for self-development 
+* mentoring programme and regular 1:1 meetings 
+* business contract depending on your needs (you choose if it’s B2B or UoP)
+* MultiSport card and private medical package
+* good equipment: MacBook, one or two screens and additional accessories
+* flexible working hours and remote work possibility 
+* good localisation: Gdańsk Wrzeszcz with a parking space nearby
+* Bright Day once a month for non-project stuff
+* English classes with business focus 
+* weekly sport classes and in-house yoga time 
+* quarter team retreats and lunch roulette initiative 
+* board games evenings
+
+## recruitment process
+
+![](/images/recruitment-process.png)
+
+Sounds interesting? Don't hesitate and apply! 
+
+If in doubt, please contact directly ula@bright.dev. She would be happy to help!
+
+## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🧡 
