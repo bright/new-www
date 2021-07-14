@@ -12,49 +12,55 @@ description: We are looking for an experienced Java/Kotlin Developer who would
   like to develop and enhance an innovative backend application for one of our
   main clients.
 ---
-## Who We Are
+![](/images/backendteam_bright-inventions.png)
 
-We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide. Bright Inventions is a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
+We are a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
 
-## What We Do
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. Each of us has an impact. Currently, we are a family of 60 multidisciplinary specialists working together to design and deliver the best products to our clients. 
 
-We specialize in mobile and web applications, system integrations and IoT devices. We have also experience with Ethereum and Hyperledger as a Blockchain-based app platform. Since the establishment our services have been found superior in Germany, Norway, the Netherlands and Israel.  
+At Bright Inventions you'll be part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that matters in today’s world. 
 
-We are looking for an experienced Java/Kotlin Developer who would like to develop and enhance innovative and robust backend application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market in cooperation with one of the world’s top food ordering companies (PRACTI by JustEat) . The project's team involves now 25 talented and experienced developers.
+## about the job
 
-## What We Are Looking For
+We are looking for an experienced Java/Kotlin Developer who would like to develop and enhance innovative and robust backend application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market in cooperation with one of the world’s top food ordering companies ([PRACTI by JustEa](https://www.practi.co.uk/)t). The project's team involves now 25 talented and experienced developers.
 
-* at least 2-3 years of commercial programming experience 
+## preferred qualifications and skills
+
+* at least 3-4 years of commercial programming experience 
+* at least 2 years of backend development in Java/Kotlin
 * very good working knowledge and deep understanding of Kotlin/Java
 * working experience with Spring framework
-* experience with databases, in particular MySQL
-* good problem solving and analytical thinking skills
+* experience with databases, in particular MySQL/PostgreSQL/Redshift
+* very good problem solving and analytical thinking skills
 * positive attitude and open mind 
-* very good command of Polish & English (both written and spoken)
+* advanced communication skills in both Polish & English 
 
-## We Should Also Appreciate If You Have
+## nice to have
 
 * familiarity with AWS or other Cloud providers
 * familiarity with Agile methodologies 
 
-## What We Offer
+## what you will find at Bright Inventions
 
 * real impact on the company growth and implemented solutions
-* continuous feedback culture 
-* business contract depending on your needs (B2B includes 20-26 paid days off) 
-* mentoring programme and regular 1:1 meetings 
-* office library with professional books and individual training budget 
-* MultiSport card and free private medical care 
+* continuous feedback culture and regular 1:1 meetings 
+* 20-26 paid days off + extra days for Polish bank holidays 
+* mentoring programme and great space for self-development 
+* office library with an extra budget for professional books
+* individual learning/educational budget 
+* MultiSport card and private medical package 
 * good equipment: MacBook, one/ two screens and additional accessories
 * flexible working hours and remote work possibility 
-* Bright Day once a month during which you can do non-project stuff
-* regular sport classes with a professional coach (running, swimming & biking) 
+* Bright Day once a month for non-project stuff
+* weekly sport classes with a professional coach 
 * free English classes 
-* team buildings parties once a quarter and weekly lunches 
+* quarter team buildings events
+* board games evenings, Friday yoga and lunch roulette initiative 
 
-IF YOU WANT TO SEE A BIGGER PART OF PUR BRIGHT LIFE, CLICK HERE! 🙂
-IF YOU ALREADY WANT TO APPLY AND JOIN OUR BRIGHT TEAM, LEAVE YOUR CV!
-
-
+## recruitment process 
 
 ![](/images/recruitment-process.png)
+
+Do you want to be a part of our Bright Team? Apply! 
+
+If in doubt, feel free to ask a question at jobs@bright.dev. 
