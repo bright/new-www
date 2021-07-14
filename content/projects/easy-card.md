@@ -15,6 +15,8 @@ published: true
 
 ![cashless transactions app](/images/card_reader_mockups.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ## Main features
 
 * Integration with an external card reader
