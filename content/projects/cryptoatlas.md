@@ -17,6 +17,8 @@ published: true
 
 ![cryptocurrency social platform](/images/cryptocurrency_platform.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ## Main features:
 
 * Homepage feed aggregating news from other social media platforms, followed communities and influencers
