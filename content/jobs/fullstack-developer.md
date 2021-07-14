@@ -1,55 +1,70 @@
 ---
 layout: job
-title: 'Senior Fullstack Developer '
-subtitle: "ONGOING"
-description: We are looking now for a Full Stack Developer who has already had experience with web development and knows how to build Cloud Platform projects.
+title: "Senior Node.js Developer "
+subtitle: ONGOING
 hours: Full-time
-salary: 16 000- 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP) 
+salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
 salary_min: 16000
 salary_max: 22000
-published: true 
+published: true
 order: 7
+description: We are looking now for a Full Stack Developer who has already had
+  experience with web development and knows how to build Cloud Platform
+  projects.
 ---
+![](/images/frontendteam_bright-inventions.png)
+
 We are a team of talented senior developers who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
 
-**WHAT WE DO**
+At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
-We specialize in mobile and web applications, system integrations and IoT devices. We have also experience with Ethereum and Hyperledger as a Blockchain-based app platform. Since the establishment in 2012 our services have been found superior in Germany, Norway, the Netherlands and Israel.  
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
-We are looking now for a **Full Stack Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical and programming skills. So, if you have:
+## job description
 
-* problem solving attitude and open mind,
-* positive approach to work, 
-* at least 3-4 years of commercial programming experience,
-* very good knowledge of TypeScript/JavaScript, Node.js and React, 
-* and communicative level of English (written and spoken), 
+We are looking now for a  **Senior Node.js Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
 
-send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
+## what we would like to see
 
+* at least 3-4 years of commercial programming experience (including min. 2 years in backend development) 
+* very good knowledge of TypeScript/JavaScript
+* deep working experience with Node.js 
+* strong problem solving attitude and open mind
+* positive approach to work and new challenges  
+* advanced level of English (written and spoken)
 
-**HOW WE WORK**
+## how we work
 
 Our team decide which technologies we use in projects. We pay special attention to selecting the appropriate technology stack that will not only support the client’s solution, but will also give us opportunities to develop and grow.
 
-_CORE PROGRAMMING LANGUAGES:_  TypeScript, JavaScript, Kotlin, Swift, Java 
+*CORE PROGRAMMING LANGUAGES:*  TypeScript, JavaScript, Kotlin, Swift, Java 
 
-_PLATFORMS:_ iOS, Android, Web, Backend, Blockchain
+*PLATFORMS:* iOS, Android, Frontend, Backend, Blockchain
 
-_METHODOLOGIES:_ Pair Programming, TDD, Continuous integration, Code review
+*METHODOLOGIES:* Pair Programming, TDD, Continuous integration, Code review
 
-**WHAT WE OFFER**
+## what you will find in our Bright Team
 
-* great team of professionals 
-* working on the international projects for such organisation as United Nations or Parity 
-* flat structure with no management overhead
-* flexible working hours (we start between 7.00 and 10.00 a.m.)
-* space for self-development and mentoring program 
-* MultiSport card and private medical package 
-* company library - we buy professional boosk for you 
-* good equipment: MacBook, one/two screens and additional accessories
-* Bright Day once a month during which you can do non-project stuff
-* regular sport classes and bord games Fridays 
-* good localisation if you want to work in the office: Gdańsk Wrzeszcz with a parking space nearby 
-* team retreats once a quarter, Birthday cakes and occasional surprises
+* international projects for such organisation as United Nations or Parity 
+* flat structure and a great impact on the key project decisions 
+* flexible schedule and remote work possibility 
+* mentoring program and regular 1:1 meetings 
+* continuous feedback culture and open communication
+* MultiSport and private medical package 
+* company library with an extra budget for professional books 
+* good equipment: MacBook and additional accessories
+* Bright Day once a month for non-project stuff
+* weekly sport classes and in-house yoga time  
+* office in Gdańsk Wrzeszcz with a parking space nearby 
+* team retreats once a quarter and lunch roulette initiative 
+* board games evenings 
 
-**HOPE TO SEE YOU SOON ON OUR BRIGHT BOARD! 🙂**
+## recruitment process
+
+![](/images/recruitment-process.png)
+
+Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
+
+In case you have any questions, drop a line at jobs@bright.dev. 
+
+## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON!🧡
