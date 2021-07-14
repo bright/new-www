@@ -71,8 +71,7 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * Bright Day once a month for non-project stuff
 * sport classes every week and yoga afternoons on Fridays 
 * English classes in small groups and business focus 
-* team building events once a quarter
-* extra budget for lunches every week 
+* team building events once a quarter and bright lunch initiative every week 
 
 ## recruitment process
 
