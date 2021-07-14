@@ -30,7 +30,7 @@ Sounds exciting? We hope it does. 🧡
 
 * create high-quality backend applications
 * participate in software code reviews
-*
+* provide leadership on cross-functional projects
 * have a direct contact with clients and advise in their decision making process
 * share knowledge with the rest of the team
 * improve internal web development processes
@@ -76,4 +76,4 @@ Do you want to be a part of our Bright Team? Apply!
 
 In case you have any questions, contact ula@bright.dev. 
 
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! ⛵️ 
+## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! ⛵️
