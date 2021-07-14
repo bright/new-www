@@ -19,6 +19,8 @@ published: true
 
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ### Main features:
 
 * Tracking physical response to standard and experimental therapy
@@ -49,11 +51,15 @@ And so, Bright Inventions was entrusted with the implementation of the entire sy
 
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients3.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ### Process
 
 There were several challenges that we needed to address. Firstly, the app had to be inclusive of patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the interface needed to be legible, highly-intuitive, and minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
 
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients1.png)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 During software development, our team noticed many features in the GUI which were too complex for such a user group. We then proposed a simpler solution for each, which was met with a positive response and was given a green light by the client.
 
@@ -70,3 +76,5 @@ Altogether, our on the project work lasted for 5 months and was divided into two
 Upon the decision of the party that owned the app (so, our client’s client), the project was put on hold. At the moment, the next steps aren’t known, and the app isn’t available for download publicly.
 
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients4.png)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
