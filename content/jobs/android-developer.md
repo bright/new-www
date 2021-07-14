@@ -2,7 +2,6 @@
 layout: job
 title: Android Developer
 subtitle: ONGOING
-description: We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide.
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
@@ -12,8 +11,13 @@ redirect_from:
   - /android-developer/
 published: true
 order: 6
+description: We are a software development and consultancy studio based in
+  Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses
+  worldwide.
 ---
-## Who We Are
+![](/images/android-team.png)
+
+## who we are
 
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
 
@@ -23,7 +27,7 @@ What can you expect after joining our team?
 
 Exciting projects. Positive and supportive team. Responsibility. And for sure professional growth. 
 
-## What You Will Do
+## what you will do
 
 * create high-quality Android application for a Zero Waste company with reusable products 
 * participate in software code reviews
@@ -31,7 +35,23 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * take part in knowledge sharing with the rest of a team
 * improve internal Android development processes 
 
-## What You Will Find At Bright
+## what we are looking for
+
+* at least 2-3 years of commercial programming experience
+* min. 2 years of experience in Android development 
+* familiarity with Android changes from KitKat to Q
+* very good knowledge and deep understanding of Kotlin
+* good understanding of the most popular Google libraries
+* familiarity with Continuous Integration and other process automation tools
+* strong problem solving and analytical thinking skills
+* positive attitude
+* very good communication skills both in English and Polish 
+
+## we would also appreciate
+
+* your experience and understanding of Kotlin coroutines, Kotlin serialisation and Data Binding
+
+## what you will find in our Bright Team
 
 * real impact on the company growth and implemented solutions
 * continuous feedback culture 
@@ -41,24 +61,15 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * MultiSport card and free private medical care 
 * good equipment: MacBook, one/ two screens and additional accessories
 * flexible working hours and remote work possibility 
-* Bright Day once a month during which you can do non-project stuff
+* Bright Day once a month for non-project stuff
 * regular sport classes with a professional coach (running, swimming & biking) 
 * free English classes 
 * team buildings parties once a quarter and weekly lunches 
 
-## What We Are Looking For
+## recruitment process
 
-* problem solving attitude and analytical thinking skills
-* at least 2-3 years of commercial programming experience
-* familiarity with Android changes from KitKat to Q
-* very good knowledge and deep understanding of Kotlin
-* good understanding of the most popular Google libraries
-* familiarity with Continuous Integration and other process automation tools
-* positive attitude
-* communicative level of English (both written and spoken)
+![](/images/recruitment-process.png)
 
-## We Would Also Appreciate If You
-
-* have experience and understand Kotlin coroutines, Kotlin serialisation and Data Binding
+Hope to see you on our Bright board soon.  🧡 
 
 In case you have any questions, contact ula@bright.dev
