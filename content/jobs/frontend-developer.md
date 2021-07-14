@@ -11,17 +11,17 @@ order: 5
 description: We are looking for a Frontend Developer who would like to work with
   our experienced and ambitious development team.
 ---
-## Who We Are
+![](/images/frontendteam_bright-inventions.png)
 
-We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+At[ Bright Inventions](https://brightinventions.pl/about-us/team/) you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
 
-Bright Inventions is a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
 
-## Project
+## what you'll work on 
 
 Innovative and robust ePOS application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market. We are responsible here for providing: backend server, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
 
-## In This Role You Will
+## what you will do
 
 * create high-quality frontend applications 
 * participate in software code reviews
@@ -29,38 +29,41 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * share knowledge with the rest of the team
 * improve internal software development processes
 
-## What We Are Looking For
+## what we are looking for 
 
-* at least 2 years of commercial programming experience
+* at least 2-3 years of commercial programming experience (including min. 2 years in frontend development) 
 * very good working knowledge and deep understanding of JavaScript/TypeScript
 * experience with development in React
 * very good command of Polish & English (both written and spoken)
-* positive attitude as well as excellent problem solving and analytical thinking skills
+* positive attitude
+* excellent problem solving and analytical thinking skills
 
-## We Would Also Appreciate If You Have
+## we would also appreciate if you have
 
 * familiarity with AWS or other Cloud providers
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker
 
-## What We Offer
+## what we offer 
 
-* space for self-development
+* great space for self-development
 * continuous feedback culture
-* regular 1:1 meetings and participation in the mentoring programme 
-* business contract depending on your needs (on both B2B and Permanent contract we have 20-26 paid days off + days off for Polish bank holidays) 
-* MultiSport card and private medical package PZU Zdrowie fully coverd by us 
-* good equipment: MacBook, one/two screens and additional accessories
-* flexible working hours (we start work between 7.00 and 10.00 a.m.)
-* good localisation and open office (Gdańsk Wrzeszcz, parking space nearby) 
-* an office library - we buy professional books that help you grow 
-* Bright Day once a month during which you can do non-project stuff
-* regular sport classes (running, biking, swimming) and board games Fridays 
-* team retreats once a quarter
-* bright rituals such as birthday cakes, bright coffee meetings, bright kudos 
+* mentoring programme and regular 1:1 meetings 
+* 20-26 paid days off + Polish bank holidays regardless of the contract type 
+* MultiSport card and private medical package (PZU Zdrowie)
+* good equipment: MacBook and additional accessories
+* flexible working hours and remote work possibility 
+* good localisation and office in Gdańsk Wrzeszcz with a parking space nearby
+* an office library with extra budget for professional books that help you grow 
+* Bright Day once a month for non-project stuff
+* regular sport classes (running, biking, swimming)
+* board games Fridays 
+* team retreats once a quarter and weekly lunch roulette initiative 
 
-## Recruitment Process
+## recruitment process
 
 ![](/images/recruitment-process.png)
 
-## **HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🙂**
+## **HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! **
+
+In case you have any questions, drop us a line at jobs@bright.dev. We would be happy to help! 
