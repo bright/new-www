@@ -17,6 +17,8 @@ published: true
 ---
 ![food app development](/images/foodapp_pumpkin.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ## Main tech elements
 
 * Highly polished user interface
@@ -41,6 +43,8 @@ Bright Inventions has worked on the ideation and development of both platforms, 
 
 ![food app development](/images/foodapp_spinach.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ## About
 
 As of late 2019, the service is present in 3 countries – 7 biggest cities in Poland, as well as Berlin and Lviv, and features over 400 partner restaurants.
@@ -58,6 +62,8 @@ Back in 2014, the founders have entrusted us with developing an app that would r
 With this idea in mind, the founders have asked for our assistance in verifying the concept against the market and building two native apps for iOS and Android. The app was to leverage users’ geolocalization to show personalized deals at nearby restaurants and allow them to collect loyalty points upon payment.
 
 ![Restaurant reservation app](/images/foodapp_trio2.png)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 ## Process
 
