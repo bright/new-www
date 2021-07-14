@@ -22,7 +22,7 @@ At Bright Inventions you'll be part of [a group of talented, ambitious and posit
 
 ## about the job
 
-We are looking for an experienced Java/Kotlin Developer who would like to develop and enhance innovative and robust backend application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market in cooperation with one of the world’s top food ordering companies ([PRACTI by JustEa](https://www.practi.co.uk/)t). The project's team involves now 25 talented and experienced developers.
+We are looking for an experienced Java/Kotlin Developer who would like to develop and enhance innovative and robust backend application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market in cooperation with one of the world’s top food ordering companies ([PRACTI by JustEat](https://www.practi.co.uk/)). The project's team involves now 25 talented and experienced developers.
 
 ## preferred qualifications and skills
 
@@ -57,10 +57,10 @@ We are looking for an experienced Java/Kotlin Developer who would like to develo
 * quarter team buildings events
 * board games evenings, Friday yoga and lunch roulette initiative 
 
-## recruitment process 
+## recruitment process
 
 ![](/images/recruitment-process.png)
 
 Do you want to be a part of our Bright Team? Apply! 
 
-If in doubt, feel free to ask a question at jobs@bright.dev. 
+If in doubt, feel free to ask a question at jobs@bright.dev.
