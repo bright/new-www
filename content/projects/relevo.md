@@ -19,6 +19,8 @@ published: true
 ---
 ![mobile app development](/images/relevo.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ## Main features:
 
 * Panel for restaurants
@@ -41,6 +43,8 @@ published: true
 Relevo is free, eco-friendly, and smart. We all see how plastic tableware took over our lives, especially during the pandemic. Now it might be more possible than ever to change that. We are proud to be a part of this change!
 
 ![relevo app development](/images/ecofriendly_app_main3.png)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 ## Goal
 
