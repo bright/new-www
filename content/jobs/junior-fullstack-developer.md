@@ -1,23 +1,27 @@
 ---
 layout: job
 title: "Junior Fullstack Developer "
-subtitle: "ONGOING"
-description: We are looking for a Junior Fullstack Developer to join our team. We want to offer you an opportunity to work with modern frameworks and tools.
+subtitle: "OPENING SOON "
 hours: full-time
-salary: 5000 - 9000 + VAT (B2B) or 4150 - 7500 PLN gross (UoP) 
+salary: 5000 - 9000 + VAT (B2B) or 4150 - 7500 PLN gross (UoP)
 salary_min: 4150
 salary_max: 9000
 published: true
 order: 6
+description: We are looking for a Junior Fullstack Developer to join our team.
+  We want to offer you an opportunity to work with modern frameworks and tools.
 ---
+![](/images/frontendteam_bright-inventions.png)
 
-## Who We Are
+Bright Inventions is a young dynamic software company established in 2012 in Gdańsk. We specialise in mobile and web applications, Blockchain and IoT devices. We support a wide variety of clients coming from such sectors  as FinTech, Health, Automotive, Commerce/Shopping and others. Since 2012 we have learnt the value of interesting technically challenging projects and become quite picky in terms of the ones we select.
 
-Bright Inventions is a young dynamic software company established in 2012 in Gdańsk. We specialise in mobile and web applications, Blockchain and IoT devices.  We support a wide variety of clients coming from such sectors  as FinTech, Health, Automotive, Commerce/Shopping and others. Since 2012 we have learnt the value of interesting technically challenging projects and become quite picky in terms of the ones we select.
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
-Currently we are looking for a Junior Fullstack Developer to join our team. We want to offer you an opportunity to work with modern frameworks and tools. Working with us means flat structure with no management overhead,  experienced team, following best practices such as Code Review, Pair programming or Continuous integration, and having a real impact on the projects you do and the stack you use.  If it sound interesting to you, apply and get on board!
+## job description
 
-## What We Expect From You 
+Currently we are looking for **a Junior Fullstack Developer** to join our team. We want to offer you an opportunity to work with modern frameworks and tools. Working with us means flat structure with no management overhead,  experienced team, following best practices such as **Code Review, Pair programming or Continuous integration**, and learn from the best. If it sound interesting, apply and get on board!
+
+## what we would like to see
 
 * passion for programming and new technologies
 * willingness to learn and develop in web development 
@@ -28,27 +32,30 @@ Currently we are looking for a Junior Fullstack Developer to join our team. We w
 * problem solving attitude and analytical thinking skills 
 * communicative level of English (both written and spoken) 
 
-## Nice to Have
+## nice to have
 
 * understanding of Agile methodology 
 * testing experience
 
-## What We Offer 
+## what you will find in our Bright Team
 
 * job among skilled developers who love to share knowledge and experiment with new technologies
 * work environment with the main focus on self-development 
-* unique mentoring programme
-* continuous feedback culture 
+* unique mentoring programme and 1:1 meetings 
+* continuous feedback culture and open communication
+* transparent career path 
 * MacBook and additional accessories to your computer 
-* flexible working hours (you can come to work between  7.00 and 10.00 a.m.) 
-* business contract depending on your needs (UoP/Umowa zlecenie is also an option) 
+* flexible working hours and a remote work possibility 
+* 20-26 paid days off + Polish bank holidays 
 * well-equipped office in the center of Gdańsk Wrzeszcz (we provide a parking card)
-* an office library, internal workshops, and an access to paid content 
+* an office library with an extra budget for professional books 
+* internal workshops and an access to paid content 
 * private health care and MultiSport card
-* sport classes and stretching/yoga classes 
-* board games Fridays and team building events 
+* weekly sport classes and stretching/yoga in-house time 
+* board games Fridays and quarter team building events 
 
-SEND YOUR APPLICATION AND JOIN OUR BRIGHT TEAM SOON! 🙂
+## recruitment process
 
+![](/images/recruitment-process.png)
 
-
+In case you have sny questions, drop us a line at jobs@bright.dev. We would be happy to help! 🧡
