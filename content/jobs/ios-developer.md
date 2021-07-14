@@ -1,8 +1,7 @@
 ---
 layout: job
 title: iOS Developer
-subtitle: "OPENING SOON"
-description: We are looking for an experienced passionate iOS Developer to develop and enhance innovative and robust iOS application for one of our main clients.
+subtitle: OPENING SOON
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
@@ -12,12 +11,23 @@ redirect_from:
   - /ios-developer/
 published: true
 order: 10
+description: We are looking for an experienced passionate iOS Developer to
+  develop and enhance innovative and robust iOS application for one of our main
+  clients.
 ---
-We are looking for an experienced passionate iOS Developer to develop and enhance innovative and robust iOS application for one of our main clients. The application is a part of an intelligent point-of-sale application which runs on iPads. The product is widely used in Israel and since 2016 has been successfully entering European market. We are responsible for providing: backend server, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system. 
+![](/images/iosteam-bright-inventions.png)
 
-Sounds exciting? Apply. Working with us apart from technically challenging projects means no management overhead, experienced team, following best practices such as Code Review, Pair programming or Continuous integration, and having a real impact on the work you do and the stack you use. 
+At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and build software that really matters in today’s world. 
 
-## In This Role You Will
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
+
+## about the job
+
+We are looking for **an experienced passionate iOS Developer** whose main goal is to build high quality mobile applications for the clients from such industries as FinTech, Retail, Health, Ecommerce, Logistics or Fitness. 
+
+Working with us means not only technically challenging projects, but also no management overhead, experienced team, following best practices such as Code Review, Pair programming or Continuous integration, and having a real impact on the work you do and the stack you use. 
+
+## in this role you will
 
 * create high-quality iOS applications 
 * participate in software code reviews 
@@ -25,36 +35,42 @@ Sounds exciting? Apply. Working with us apart from technically challenging proje
 * share knowledge with the rest of a team
 * improve internal iOS development processes
 
-## What We Are Looking For
+## what we are looking for
 
-* passion for programming and self-improvement
-* positive attitude
-* at least 3-4 years of commercial programming experience
+* at least 3-4 years of commercial programming experience (including min. 2 years in iOS development) 
 * very good knowledge and deep understanding of Swift
 * good understanding of the most popular Apple frameworks
 * familiarity with Continuous Integration and other process automation tools
-* problem solving attitude and analytical thinking skills
+* strong problem solving and analytical thinking skills
+* positive attitude and desire to learn more 
 * the ability to work independently as well as in a team
-* communicative level of Polish & English (both written and spoken)
+* very good communication skills both in English and Polish 
 
-## We Would Also Appreciate If You Are Familiar With
+## nice-to-haves
 
-* Objective-C
-* Agile methodologies
+* working experience with Objective-C
+* familiarity with Agile methodologies
 
-## What We Offer
+## joining Bright Inventions means
 
-* having an impact on the key project decisions and tech stack 
-* attractive salary together with 20-26 paid days off both on B2B and UoP 
-* flexible working hours (we start work between 7.00 and 10.00 a.m.)  
-* business contract depending on your needs 
-* MacBook and additional accessories to your computer 
-* totally free MultiSport card and private healthcare package
-* an office library - instead of buying professional books we buy them for you :) 
-* an opportunity to develop personal brand on our blog. You have 2 hours each week for creating blog posts.  (https://brightinventions.pl/blog/)  
-* Bright Day once a month during which you can do non-project stuff 
-* mentoring programme that helps you develop your skills and extend knowledge 
-* quarter teambuilding events and sport classes with a professional coach 
-* bright rituals such as birthday cakes, bright kudos or bright donuts   
+* having an impact on the key project decisions 
+* 20-26 paid days off + Polish bank holidays regardless of the contract type 
+* flexible working hours and remote work possibility  
+* mentoring programme and regular 1:1 meetings
+* continuous feedback culture based in trust and open communication 
+* transparent career path 
+* good equipment: MacBook and additional accessories to your computer 
+* MultiSport and private healthcare package
+* an office library with an extra budget for professional books 
+* Bright Day once a month for non-project stuff 
+* quarter team building events 
+* weekly sport classes together with in-house yoga time 
+* Friday board games evenings and lunch roulette initiative 
 
-In case you have some questions - contact ula@brightinventions.pl
+## recruitment process
+
+![](/images/recruitment-process.png)
+
+In case you have any questions, let us know! We'd be happy to help.
+
+Just drop a line ta jobs@bright.dev. 
