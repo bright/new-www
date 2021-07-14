@@ -14,6 +14,8 @@ published: true
 ---
 ![FMCG app development](/images/pos_2_mockup.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ## Main features
 
 **POSPulse**
@@ -37,6 +39,8 @@ Traditionally, stores needed to engage staff in such quality monitoring checks.
 POSPulse relieves them of this burden by engaging consumers who use the ShopScount app. Namely, companies can set specific tasks (such as, for instance, asking clients to take a photo of shampoo at a specific chain store). They can also be asked to fill in a user survey. To confirm that an assignment has been completed properly, the user needs to submit a product photo that includes localization data. For each finalized assignment, the user receives a financial reward.
 
 ![app for FMCG](/images/pos_mockups.png)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 ## Goal
 
