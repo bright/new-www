@@ -18,6 +18,8 @@ published: true
 ---
 ![Healthcare app development](/images/therapy_app_mockup.png)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ## Main features:
 
 * Therapist module (user panel)
@@ -43,6 +45,8 @@ With this in mind, our client created an app that supports therapists and patien
 
 ![Mobile Therapy App](/images/mobile_therapy_app2.jpg)
 
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
 ## Goal
 
 Our client, a product design agency and an early-stage project incubator, has turned to us with a ready-to-implement idea for an app. Before reaching out to Bright Inventions, they had already spent months validating their concept by observing physiotherapy sessions. This resulted in a comprehensive plan for an app that would solve the biggest challenges patients and therapists face.
@@ -65,6 +69,8 @@ Our client also had a high-fidelity wireframe of the app, and entrusted us with 
 \- An admin panel for therapists.
 
 ![Mobile Therapy App](/images/mobile_therapy_app3.jpg)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 ## Process
 
