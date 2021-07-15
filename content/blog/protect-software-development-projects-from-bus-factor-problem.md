@@ -8,7 +8,7 @@ tags:
   - startup
   - software development
   - project management
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
