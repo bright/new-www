@@ -4,13 +4,14 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 import { Section } from '../../components/shared'
 import variables from '../../styles/variables'
+import { IStaticImageProps } from 'gatsby-plugin-image/dist/src/components/static-image.server'
 
 const ImagesBase = styled.div`
   & {
     display: flex;
     gap: 2rem;
     flex-grow: 1;
-    
+
     @media ${variables.device.mobile} {
       gap: 1rem;
     }
@@ -20,16 +21,16 @@ const ImagesBase = styled.div`
 export const ImagesHorizontal = styled(ImagesBase)`
   flex-direction: row;
   height: 39.5rem;
-  
+
   & > * {
     flex-basis: 37.5%;
   }
-  
+
   @media ${variables.device.mobile} {
     flex-wrap: wrap-reverse;
     height: auto;
     justify-content: center;
-    
+
     & > * {
       flex-basis: 90%;
     }
@@ -39,11 +40,11 @@ export const ImagesHorizontal = styled(ImagesBase)`
 export const ImagesVertical = styled(ImagesBase)`
   flex-direction: column;
   flex-basis: 25%;
-  
+
   & > * {
     flex-grow: 1;
   }
-  
+
   & > div:last-child img {
     object-position: 80% 0;
   }
@@ -57,14 +58,14 @@ export const ImagesVertical = styled(ImagesBase)`
 const HeaderImages: React.FC = () => {
   return (
     <Section>
-        <ImagesHorizontal>
-          <StaticImage src="../../../static/images/career/header/image1.png" alt={'Career at Bright Inventions'} />
-          <ImagesVertical>
-            <StaticImage src="../../../static/images/career/header/image2.png" alt={'Software developer career Poland'} />
-            <StaticImage src="../../../static/images/career/header/image3.png" alt={'Software developer career Poland'} />
-          </ImagesVertical>
-          <StaticImage src="../../../static/images/career/header/image4.png" alt={'Career at Bright Inventions'} />
-        </ImagesHorizontal>
+      <ImagesHorizontal>
+        <StaticImage objectFit={'contain'}  src='../../../static/images/career/header/image1.png' alt={'Career at Bright Inventions'} />
+        <ImagesVertical>
+          <StaticImage objectFit={'contain'}  src='../../../static/images/career/header/image2.png' alt={'Software developer career Poland'} />
+          <StaticImage objectFit={'contain'}  src='../../../static/images/career/header/image3.png' alt={'Software developer career Poland'} />
+        </ImagesVertical>
+        <StaticImage objectFit={'contain'}  src='../../../static/images/career/header/image4.png' alt={'Career at Bright Inventions'} />
+      </ImagesHorizontal>
     </Section>
   )
 }
