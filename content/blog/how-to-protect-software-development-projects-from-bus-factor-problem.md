@@ -8,11 +8,13 @@ tags:
   - startup
   - software development
   - project management
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
 **Do you know what a bus factor is? Should it be a nightmare for startups that build in-house teams or hire a software development agency? Check out the best practices to protect the development projects from the bus factor risk.**
+
+![bus factor](/images/blogpost_izabela_bus_in_post-01.png)
 
 ## What is a bus factor?
 
