@@ -7,7 +7,7 @@ salary: 5000 - 9000 + VAT (B2B) or 4150 - 7500 PLN gross (UoP)
 salary_min: 4150
 salary_max: 9000
 published: true
-order: 6
+order: 10
 description: We are looking for a Junior Fullstack Developer to join our team.
   We want to offer you an opportunity to work with modern frameworks and tools.
 ---
