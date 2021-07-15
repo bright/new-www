@@ -7,7 +7,7 @@ hours: full-time
 salary: "17 000 - 23 000 PLN + VAT (B2B) or 14 200 - 19 100 PLN (UoP)"
 salary_min: 17000
 salary_max: 23000
-published: true
+published: false
 orser: 12
 ---
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
