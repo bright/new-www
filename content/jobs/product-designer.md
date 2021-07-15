@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Product Designer "
-subtitle: "Product designer "
+subtitle: ONGOING
 hours: full-time
 salary: 8000 - 12 000 PLN + VAT (B2B) | 6700 - 10 000 PLN gross (UoP)
 salary_min: 8000
