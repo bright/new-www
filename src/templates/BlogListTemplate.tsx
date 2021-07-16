@@ -12,6 +12,7 @@ import Helmet from 'react-helmet'
 import { resolveUrl } from '../meta/resolve-url'
 // @ts-ignore
 import blogPostDefaultImage from '../../static/images/dummy/blog_post.png'
+import { PageTitle } from '../components/shared/index.styled'
 
 interface Props {
   data: GQLData
@@ -31,6 +32,7 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
 
       <div className="container">
         <Section>
+          <PageTitle>Blog about web & mobile app development</PageTitle>
           <HideTablet>
             <PageDescription>
               Get up-to-date news on Bright Inventions. Discover all the
