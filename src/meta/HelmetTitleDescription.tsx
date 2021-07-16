@@ -8,11 +8,13 @@ interface HelmetTitleDescriptionProps {
   description?: string
 }
 
-export const HelmetTitleDescription: React.FC<HelmetTitleDescriptionProps> = ({title, description}) => {
+const htmlAttributes = { lang: 'en' }
+
+export const HelmetTitleDescription: React.FC<HelmetTitleDescriptionProps> = ({ title, description }) => {
   return (
     // please note that Helmet does not support nesting higher order components like so
     // <Helmet><MetaTitle title={whatever}></Helmet>
-    <Helmet defaultTitle={siteTitle}>
+    <Helmet defaultTitle={siteTitle} htmlAttributes={htmlAttributes}>
       <title>{title} | Bright Inventions</title>
       {title && <meta property='og:title' content={title} />}
       <meta name='description' content={descriptionOrDefault(description)} />
