@@ -32,7 +32,7 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
 
       <div className="container">
         <Section>
-          <PageTitle>blog about web & mobile app development</PageTitle>
+          <PageTitle>blog about web<br/>& mobile app development</PageTitle>
           <HideTablet>
             <PageDescription>
               Get up-to-date news on Bright Inventions. Discover all the
