@@ -32,14 +32,14 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
 
       <div className="container">
         <Section>
-          <PageTitle>blog about <br/>software development</PageTitle>
+          <PageTitle>blog about<br/> software development</PageTitle>
           <HideTablet>
             <!--- <PageDescription>
               Get up-to-date news on Bright Inventions. Discover all the
               latest about technologies we use, solutions we create and
               our culture. Because we believe that knowledge sharing is
               important not only inside the team.
-            </PageDescription>---> 
+            </PageDescription> ---> 
           </HideTablet>
           <BlogFeed posts={createBlogPosts(data)} />
           <Paging {...pageContext} />
