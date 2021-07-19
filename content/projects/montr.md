@@ -11,7 +11,7 @@ tags:
   - frontend
 order: 4
 slug: app-digitized-surveys
-published: false
+published: true
 ---
 ![web app development](/images/digitizing_mobile_reporting.png)
 
