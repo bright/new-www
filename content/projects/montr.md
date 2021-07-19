@@ -61,4 +61,4 @@ What is more, the web app needed to be responsive and work well both on desktop 
 
 ## Result
 
-Currently, the app is used by end-users in the Netherlands to perform various types of questionnaire-based investigations. We take care of the maintenance and bug fixes, with some new features being introduced every now and then.
+Currently, the app is used by end-users to perform various types of questionnaire-based investigations. We take care of the maintenance and bug fixes, with some new features being introduced every now and then.
