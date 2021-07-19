@@ -13,7 +13,7 @@ order: 4
 slug: app-digitized-surveys
 published: false
 ---
-![Montr app development](/images/montr_company_panel.png)
+![mobile app development](/images/montr_company_panel.png)
 
 ## Main features:
 
@@ -38,7 +38,7 @@ published: false
 
 ## About
 
-[Montr](https://montr.nl/en/business-apps/) is a web solution that helps to digitize the company work. The app can be easily customised according to the user's business needs. Montr helps to create and share digital questionnaires, reports and surveys. It is a perfect tool for companies that provide inspections and audits. Also, this is the first dedicated app for the social care team.
+Montr is a web solution that helps to digitize the company work. The app can be easily customised according to the user's business needs. Montr helps to create and share digital questionnaires, reports and surveys. It is a perfect tool for companies that provide inspections and audits. Also, this is the first dedicated app for the social care team.
 
 ![mobile app development](/images/montr_smartphone_mockup.png)
 
@@ -46,7 +46,7 @@ published: false
 
 The goal of Montr software development process was to build a solution that would be flexible, easy to adjust and available offline mode for users. Our aim was to develop a UX friendly no-code workflow that helped to create digital questionnaires or surveys by users to end-users in a convenient and quick way. For example, a real-estate agency could create a questionnaire for a client to establish what property they would like to buy.
 
-![software development](/images/montr_mockuppng.png)
+![mobile app development](/images/montr_mockuppng.png)
 
 ## Process
 
