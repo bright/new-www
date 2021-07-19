@@ -71,4 +71,4 @@ As a growing team with business focus, we need strong engineers with diverse per
 
 This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it! 
 
-In case you have any questions, drop a lin to ula@bright.dev.
+In case you have any questions, drop a line to ula@bright.dev.
