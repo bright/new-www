@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Montr
+title: Digitised questionnaires
 image: /images/montr_www_main.png
 description: An app platform that enables digitizing mobile reporting. It is
   flexible, easy to use and integrates with other platforms. It helps you to
@@ -13,7 +13,7 @@ order: 4
 slug: app-digitized-surveys
 published: false
 ---
-![mobile app development](/images/montr_company_panel.png)
+![web app development](/images/montr_company_panel.png)
 
 ## Main features:
 
