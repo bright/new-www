@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Digitised questionnaires
+title: Digitized questionnaires
 image: /images/montr_www_main.png
 description: An app platform that enables digitizing mobile reporting. It is
   flexible, easy to use and integrates with other platforms. It helps you to
@@ -40,13 +40,13 @@ published: false
 
 This is a web solution that helps to digitize the company work. The app can be easily customised according to the user's business needs. It helps to create and share digital questionnaires, reports and surveys. It is a perfect tool for companies that provide inspections and audits. Also, this is the first dedicated app for the social care team.
 
-![mobile app development](/images/montr_smartphone_mockup.png)
+![web app development](/images/montr_smartphone_mockup.png)
 
 ## Goal
 
 The goal of the software development process was to build a solution that would be flexible, easy to adjust and available offline mode for users. Our aim was to develop a UX friendly no-code workflow that helped to create digital questionnaires or surveys by users to end-users in a convenient and quick way. For example, a real-estate agency could create a questionnaire for a client to establish what property they would like to buy.
 
-![mobile app development](/images/montr_mockuppng.png)
+![web app development](/images/montr_mockuppng.png)
 
 ## Process
 
