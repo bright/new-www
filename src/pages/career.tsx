@@ -24,14 +24,14 @@ const CareerPage: React.FC = () => {
     <Page className="page-career">
       <HelmetTitleDescription
         title="Career"
-        description='We are looking for passionate, positive and bright people. Apply!'
+        description='We like people with bright minds! Join software development company from Gdańsk.'
       />
 
       <div className='container'>
         <Section>
           <PageTitle>
-            we are looking for passionate,<br/>
-            positive and <span>bright</span> people
+            we like people<br/>
+            with <span>bright</span> minds
           </PageTitle>
         </Section>
       </div>
