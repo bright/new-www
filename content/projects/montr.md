@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Digitized questionnaires
+title: Digitized Questionnaires
 image: /images/digitizing_mobile_reporting_main2.png
 description: An app platform that enables digitizing mobile reporting. It is
   flexible, easy to use and integrates with other platforms. It helps you to
