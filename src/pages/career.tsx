@@ -30,8 +30,7 @@ const CareerPage: React.FC = () => {
       <div className='container'>
         <Section>
           <PageTitle>
-            we like people<br/>
-            with <span>bright</span> minds
+            we like people with <span>bright</span> minds
           </PageTitle>
         </Section>
       </div>
