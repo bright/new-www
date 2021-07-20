@@ -24,7 +24,7 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
     <Page className="page-blog-list">
       <HelmetTitleDescription
         title="Blog about web & mobile app development"
-        description="Ideas about software development, practices. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more."
+        description="Articles about software development, agile and project management. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more."
       />
       <Helmet>
         <meta property="og:image" content={resolveUrl(blogPostDefaultImage)}/>
@@ -32,7 +32,7 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
 
       <div className="container">
         <Section>
-          <PageTitle>blog about<br/> software development</PageTitle>
+          <PageTitle>what's new<br/> on our blog</PageTitle>
           <HideTablet>
             {/*<PageDescription>*/}
             {/*  Get up-to-date news on Bright Inventions. Discover all the*/}
