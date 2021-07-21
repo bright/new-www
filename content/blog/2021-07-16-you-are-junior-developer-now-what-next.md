@@ -8,7 +8,7 @@ tags:
   - software development
   - team work
   - communication
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
