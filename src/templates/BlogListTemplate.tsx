@@ -32,7 +32,7 @@ const BlogPage: React.FC<Props> = ({data, pageContext}) => {
 
       <div className="container">
         <Section>
-          <PageTitle>brightdevs blog</PageTitle>
+          <PageTitle> <span>bright</span> devs blog</PageTitle>
           <HideTablet>
             {/*<PageDescription>*/}
             {/*  Get up-to-date news on Bright Inventions. Discover all the*/}
