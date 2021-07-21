@@ -2,7 +2,7 @@
 layout: post
 title: You are a junior developer now. What's next?
 date: 2021-06-16T07:10:00.371Z
-image: /images/blogpost_www_iza_pricingmodels.png
+image: /images/love-to-learn.jpg
 author: ivan
 tags:
   - software development
@@ -10,7 +10,7 @@ tags:
   - communication
 hidden: true
 comments: true
-published: false
+published: true
 ---
 
 You have worked hard and get your first job in an IT company as a junior developer? First of all congratulation from the bottom of my heart 💓, you deserve it!
