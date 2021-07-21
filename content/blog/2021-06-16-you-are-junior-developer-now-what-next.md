@@ -36,7 +36,7 @@ I think you get the idea what situations I am talking about. As you can see, you
 
 I have asked product managers in my team two questions "What do you expect from a junior developer?" and "How she or he could help you with a project?":
 
-[**Kasia Łukasiewicz:**](https://www.linkedin.com/in/katarzyna-%C5%82ukasiewicz-b473901aa/)
+[**Katarzyna Łukasiewicz:**](https://www.linkedin.com/in/katarzyna-%C5%82ukasiewicz-b473901aa/)
 
 > **"What do you expect from a junior developer?"**
 >
@@ -45,6 +45,16 @@ I have asked product managers in my team two questions "What do you expect from 
 > **"What value can she or he add to the project?"**
 >
 > There's no reason why a junior dev wouldn't bring some important value, just as any other team member. What is more, sometimes asking the right questions, even without knowing the answers yet, can in the end lead to a solution. I think that by being open, non judgemental, and by feeling responsible for the product, a junior dev can quickly build her or his position in a team. I'd say - broaden your technological knowledge, learn from your more experienced colleagues and remember that your attitude and soft skills are just as important.
+
+[**Katarzyna Gałka:**](https://www.linkedin.com/in/katarzyna-ga%C5%82ka-339706192/)
+
+> **"What do you expect from a junior developer?"**
+>
+> Open mind, positive attitude and a LOT of questions. There is nothing worse than not telling “I need your help” and spending hours on the topic without any result. I always encourage developers to ask questions. Maybe they will not get the straight forward answer on how the issue should be solved but just the direction what they should search for. Basically - trust the team - we want to help you.
+
+> **"What value can she or he add to the project?"**
+>
+> Each time new person joins the team the dynamic of the team changes. Team waits for your fresh angle on our project, your questions can give us some topics to think about. This is also a great opportunity for a team to identify the lacks in the documentation. There will be obviously also some small tasks that you are able to do which will bring the whole team closer to achieve our goals.
 
 [**Mateusz Klimczak**:](https://www.linkedin.com/in/klimczak-mateusz/):
 
