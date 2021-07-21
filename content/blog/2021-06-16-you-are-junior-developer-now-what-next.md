@@ -13,30 +13,28 @@ comments: true
 published: false
 ---
 
-You have worked hard and get your first job in an IT company as a junior developer. First of all congratulation from my heart 💓, you deserve it!
+You have worked hard and get your first job in an IT company as a junior developer? First of all congratulation from the bottom of my heart 💓, you deserve it!
 
-But now you are wondering, what's next? Should you develop your skills and one day become an architect or maybe you want to be a team leader?
+But now you are probably wondering, what's next? How do the first days look for junior developers?
 
-But let's focus for now on the present daily routine.
-How do the first days look for junior developers?
+First day be like. Greetings with a team, onboarding meeting with a team leader (manager, HR), unpacking your laptop, installing all programs that you need, logging in to your company email, etc. But will you have an opportunity to code some new bright features? Probably not today. But very soon. 
 
-First day be like. Greetings with a team, onboarding meeting with a team leader (manager, HR), unpacking your laptop, installing all programs that you need, logging in to your company email, etc. But will you have an opportunity to code some new bright features? Not really, sorry about that. 😔
+Second day. One of your team member sends you an email with the link to a repository. Cool! Clone the repository, install dependencies, run the application... or wait, you have to update to config file. Ok. Ask about it your teammate, she or he said "Let's take a look at this after standup". Standup. After standup you get this config file. Finally you could run the application. What's next? Coding? Not yet. Your team leader may say "Please, go through the code base, and if you have any questions, please ask".
 
-Second day. One of your team member sends you an email with the link to a repository. Cool! Clone the repository, install dependencies, run the application... or wait, you have to update to config file. Ok. Ask about it your teammate, she or he said "Let's take a look at this after standup". Standup. After standup you get this config file. Finally you could run the application. What's next? Coding? Sorry, not again. Your team leader said "Please, go through the code base, and if you have any questions, please ask".
-
-Third day. You have read some code but the code base is huge. You ask some questions, but you want to write a code, right? Ok, you get the ticket in Jira created specially for you. I believe this is some bug. You fixed it. Send a pull request. Forget about the test. Update. And ...the pull request accepted. 💪🥳 Congratulations! You first commit in the code base.
+Third day. You have read some code but the code base is huge. You ask some questions, but you want to write a code, right? Ok, you get the ticket in Jira created specially for you. I believe this is some bug. You fixed it. Send a pull request. Forget about the test. Update. And ...the pull request accepted. 💪🥳 Congratulations! Your first commit in the code base.
 
 Next days look pretty much the same but you are getting more context about the application and getting more complex tickets.
 
-But now in this routine you have to work on your soft skills as well to handle the situations like:
+But now you have to work on your soft skills as well to handle the situations like:
 
-- You have a ticket and deadline very next day but it depends on another team member's work, and she or he is not finished yet.
-- You estimate the ticket for 3 days but on the second day you can see the problem and it trusn out thta it may take one week.
+- You have a ticket and deadline very next day but it depends on another team member's work, and she or he has not finished yet.
+- You estimate the ticket for 3 days but on the second day you can see a problem and it turned out that it may take one week.
 - In your pull request the reviewer adds a comment and you do not agree with it.
-- You sent a pull request one week ago and still no one has taken a look at it.
+- You sent a pull request one week ago and it is still not accepted. 
 
-I think you get the idea what situations I am talking about. As you can see, it is nothing about coding. Because often everyone in the team is very good at coding but lacking some soft skills.
-I have asked Product Managers in my company two questions "What do you expect from a junior developer?" and "How she or he could help you with a project?":
+I think you get the idea what situations I am talking about. As you can see, your first days will be not only about coding. It will be also about working on your soft skills. 
+
+I have asked product managers in my team two questions "What do you expect from a junior developer?" and "How she or he could help you with a project?":
 
 [**Kasia Łukasiewicz:**](https://www.linkedin.com/in/katarzyna-%C5%82ukasiewicz-b473901aa/)
 
