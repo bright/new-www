@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You are a junior developer now. What's next?
-date: 2021-06-16T07:10:00.371Z
+date: 2021-07-16T07:10:00.371Z
 image: /images/love-to-learn.jpg
 author: ivan
 tags:
