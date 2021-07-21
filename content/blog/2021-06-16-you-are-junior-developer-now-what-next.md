@@ -54,7 +54,7 @@ I have asked product managers in my team two questions "What do you expect from 
 
 > **"What value can she or he add to the project?"**
 >
-> Each time new person joins the team the dynamic of the team changes. Team waits for your fresh angle on our project, your questions can give us some topics to think about. This is also a great opportunity for a team to identify the lacks in the documentation. There will be obviously also some small tasks that you are able to do which will bring the whole team closer to achieve our goals.
+> Each time new person joins the team the dynamic of the team changes. Team waits for your fresh angle on our project, your questions can give us some topics to think about. This is also a great opportunity for the team to identify some lacks in the documentation. There will be obviously also some small tasks that you are able to do which will bring the whole team closer to achieve the goal.
 
 [**Mateusz Klimczak**:](https://www.linkedin.com/in/klimczak-mateusz/):
 
