@@ -13,11 +13,11 @@ hidden: false
 comments: true
 published: true
 ---
-### Introduction
+## Introduction
 
 As developers we often perform POST and PATCH requests to API from our frontend apps. When we use TypeScript, this code should be typed safely. There are multiple ways to do so. Let's analyze one of them!
 
-### Prerequisite
+## Prerequisite
 
 Let's imagine a player entity from a game:
 
@@ -49,7 +49,7 @@ const patchPlayer = (data: any) => {
 }
 ```
 
-### Safe typing
+## Safe typing
 
 Leaving type `any` can lead application to behave erroneous moreover we do not benefit from TypeScript static type
 checking. **Avoid** leaving `any` in code - there is probably a better solution!
@@ -92,7 +92,7 @@ patchPlayer(player3)    // OK
 patchPlayer(player4)    // OK
 ```
 
-### Additional info
+## Additional info
 
 Similarly to adding optional ("?") modificator on `PlayerType` we can add by "+" (this sign can be omitted) or 
 remove by "-" (this sign is required) readonly modificator:
@@ -121,7 +121,7 @@ const player7: PlayerTypeOptionalTwo = { position: [2, 2] }
 As an alternative while using interface `SomeInterface` instead of type we can use a combination of 
 `Readonly<SomeInterface>`, `Required<SomeInterface>`.
 
-### Conclusion
+## Conclusion
 
 Proper API typing increase benefits from TypeScript static type checking and makes our development safer. Knowledge on 
 how to work with types or interfaces can help us find a way to do so in a DRY way!
