@@ -24,7 +24,7 @@ the API but also, if not the most, the clients of that API.
 I cannot stress enough the importance of that rule in the "offline
 first" apps. Let's take a look at some example.
 
-# Example: 9GAG post tags #
+## Example: 9GAG post tags
 
 This is a screenshot where you can see a part of the tags list from the
 9GAG Android app.
@@ -38,7 +38,8 @@ Android, we could use the
 [string resource XML files for translations](https://developer.android.com/guide/topics/resources/localization)
 like this:
 
-_src/main/res/values/strings.xml_
+*src/main/res/values/strings.xml*
+
 ```xml
 <resources>
     <string name="tag_music">Music</string>
@@ -46,7 +47,8 @@ _src/main/res/values/strings.xml_
 </resources>
 ```
 
-_src/main/res/values-pl/strings.xml_
+*src/main/res/values-pl/strings.xml*
+
 ```xml
 <resources>
     <string name="tag_music">Muzyka</string>
@@ -84,7 +86,7 @@ val postTagsNames = post.tags.map {
 }
 ```
 
-## Forward incompatible enums ##
+## Forward incompatible enums
 
 Let's assume we use
 [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization)
@@ -108,7 +110,7 @@ will get the following exception:
 kotlinx.serialization.SerializationException: com.example.9gag.posts.PostTag does not contain element with name 'BOOKS'
 ```
 
-### Fallback enum value ###
+### Fallback enum value
 
 While searching for a solution to this problem, we may find other people
 implementing custom serializers with a dedicated "fallback enum value"
@@ -125,6 +127,7 @@ enum class PostTag(@StringRes val nameRes: Int) {
     FALLBACK(R.string.tag_fallback)
 }
 ```
+
 As a result, the app will treat all the unknown enum values as the
 fallback value. I think it's better than nothing as it allows the app to
 handle the unknown values somehow, e.g. by ignoring them, but it's not
@@ -149,7 +152,7 @@ Of course, there are much more negative consequences possibly caused by
 losing the original enum values, especially if we consider other types
 of apps and features, but let's focus on solving the problem first.
 
-## Forward compatibility of enums with [codified](https://github.com/bright/codified) ##
+## Forward compatibility of enums with [codified](https://github.com/bright/codified)
 
 We came up with a better solution over a year ago, and it has been
 working really well since then. In short, instead of using a fallback
@@ -173,6 +176,7 @@ to the
 [codified library](https://github.com/bright/codified) is:
 
 * implement `Codified<String>` interface in enum class
+
   ```kotlin
   enum class PostTag(
       override val code: String, // allows using a custom string instead of enum's name
@@ -183,10 +187,12 @@ to the
   }
   ```
 * declare the serializer object
+
   ```kotlin
   object PostTagCodifiedSerializer : KSerializer<CodifiedEnum<PostTag, String>> by codifiedEnumSerializer()
   ```
 * use the serializer wherever we want
+
   ```kotlin
   @Serializable
   data class Post(
@@ -200,6 +206,7 @@ When we deserialize the `Post` object from JSON and access the `tags`
 property, we can:
 
 * map all the known values to their translated names:
+
   ```kotlin
   val knownPostTagsNames = post.tags
       .mapNotNull { it.knownOrNull() }
@@ -207,6 +214,7 @@ property, we can:
   ```
 * check if the particular enum value is known or not and handle all the
   possible cases
+
   ```kotlin
   val tag: CodifiedEnum<PostTag, String> // = ... get one from post.tags
   when (tag) {
@@ -225,15 +233,15 @@ We can easily create the enum wrapper for any known `PostTag`:
 We can also create a wrapper for an unknown value and preserve the
 provided string code: `"BOOKS".codifiedEnum<PostTag>()`
 
-# Conclusion #
+## Conclusion
 
 If you want to keep your API sane and create offline first applications,
 you should consider the forward compatibility of your enums. Check out
 [codified](https://github.com/bright/codified) and give it a try - it
 will make your life much easier.
 
-_Note: codified version `1.1` uses `kotlinx.serialization` version
-`0.20.0`. Support for version `1.0.0` and later is coming soon._
+*Note: codified version `1.1` uses `kotlinx.serialization` version
+`0.20.0`. Support for version `1.0.0` and later is coming soon.*
 
-_Image by [Gerd
-Altmann](https://pixabay.com/users/geralt-9301/) from [Pixabay](https://pixabay.com/)_
+*Image by [Gerd
+Altmann](https://pixabay.com/users/geralt-9301/) from [Pixabay](https://pixabay.com/)*
