@@ -26,7 +26,7 @@ What is surprising (or maybe not at all) is the fact that some people can still 
 
 Let's take a closer look at each and every piece. 
 
-**THE INABILITY TO SAY NO**
+## **THE INABILITY TO SAY NO**
 
 It’s not easy either to say no at work or in private life . But the point is to realise that this “no” is a vital part of achieving the hight level of productivity and success. When we are saying no to something, at the same time we are saying yes to something else. And the clue is to realise which thing out of these two is just more important.
 
@@ -34,19 +34,19 @@ If we want to concentrate on one thing, we have to say no to another one. To ach
 
 And remember that being assertive is nothing bad. Just do it smart.
 
-**BAD HEALTH HABITS**
+## **BAD HEALTH HABITS**
 
 If we could not manage our energy resources well, we would not also manage our productivity well. Losing energy may lead either to losing motivation or burning out too early. And it happens very often. We work till late hours, sleep little, eat unhealthy, skip physical exercises. 
 
 Imagine a car with a rattling engine, with no headlights or poor tires. Would it go as effectively as one which is well-maintained? Our body is like this car. If you want to get somewhere and literally don’t break down, you have to be in a good physical and mental state. So take care about yourself. Eat healthy, exercise regularly, sleep well. Organize your daily life in such a way that you will have time both for work and regeneration or relaxation. Don’t forget about “me time”. Spending time on work or with others is important, but spending time with yourself is equally important. Make plans with yourself and search for pleasure.
 
-**THE FEAR OF CHAOS**
+## **THE FEAR OF CHAOS**
 
 Chaos – the word itself sounds ominous, much less everything it leads to. The disorder and unpredictability created by chaos may feel uneasy at first, but it’s simply a byproduct of focusing intently on ONE THING. It’s something that naturally happens because instead of struggling to juggle everything, you decide to attend only to what really matters. You can compare the tasks you are going to delegate or schedule to the rubber balls that having been dropped just bounce around, but fially they will fall down. 
 
 The only way to achieve great things through focus is by letting the smaller stuff slide. We should not be afraid of the chaos our action may create. You may even find letting the chaos happen quite liberating when you do not run back and forth trying to keep everything in order. 
 
-**ENVIRONMENT DOESN’T SUPPORT YOUR GOALS**
+## **ENVIRONMENT DOESN’T SUPPORT YOUR GOALS**
 
 What is around you, heavily influences your actions, decisions and the ability to focus. When the physical environment is full of distractions and does not support your goals, working toward them is an uphill battle.
 
