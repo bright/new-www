@@ -22,8 +22,7 @@ hidden: false
 comments: true
 published: true
 ---
-
-# TL;DR version #
+## TL;DR version
 
 If you can't find a library (Maven dependency) you need for your project
 after Bintray/JCenter (or another similar service) shutdown, but you still
@@ -35,7 +34,7 @@ and
 [Setting up a local Maven repository](#setting-up-a-local-maven-repository)
 paragraphs for the details).
 
-# Just a little context #
+## Just a little context
 
 A few months ago JFrog
 [announced it is sunsetting](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/)
@@ -46,7 +45,7 @@ dependencies are hosted. According to
 JCenter and its popularity has been increasing very rapidly over the
 recent years 🚀
 
-## A surprising turn of events ##
+## A surprising turn of events
 
 Bintray and JCenter shutdown was planned on May 1st, 2021, although on
 April 27th, JFrog updated their original announcement, stating that they
@@ -63,7 +62,7 @@ decided it would be better to simply migrate away from both Bintray and
 JCenter. So I tried, and I failed quite miserably at first, which lead
 me to an uncommon solution to this problem.
 
-## Theory vs practice ##
+## Theory vs practice
 
 When you read some blog posts and articles about the planned
 Bintray/JCenter shutdown and migration paths, they all claim you can
@@ -84,7 +83,7 @@ additional work on the client's side.
 When I reviewed all the unresolvable dependencies, it became clear to me
 it's not going to be like a walk in the park but quite the opposite.
 
-# How to find all the missing dependencies at once #
+## How to find all the missing dependencies at once
 
 Even though I was still able to build my project locally thanks to
 Gradle cache, the automated continuous integration builds on TeamCity
@@ -109,18 +108,18 @@ dependencies quickly:
 
 Explanation:
 
-- `:app:dependencies` simply lists all the projects dependencies since
+* `:app:dependencies` simply lists all the projects dependencies since
   `app` is the main application module,
-- `grep FAILED` filters the output so that only the unresolvable
+* `grep FAILED` filters the output so that only the unresolvable
   dependencies are printed,
-- `grep -v "project :"` filters out the unnecessary module dependencies
+* `grep -v "project :"` filters out the unnecessary module dependencies
   in a
   [multi-project build](https://docs.gradle.org/current/userguide/multi_project_builds.html)
   which could also be reported as `FAILED`.
 
-_You will probably see some duplicated entries in the console output, so
+*You will probably see some duplicated entries in the console output, so
 you may want to try getting rid of them with some additional commands
-etc., but it was good enough for me._
+etc., but it was good enough for me.*
 
 The output may look like this (first 10 lines):
 
@@ -137,7 +136,7 @@ The output may look like this (first 10 lines):
 |    |    |    +--- com.google.android:flexbox:1.0.0 FAILED
 ```
 
-# How to find your dependencies in other Maven repositories #
+## How to find your dependencies in other Maven repositories
 
 Now, knowing which dependencies you miss, you can use a service like
 [MvnRepository](https://mvnrepository.com/) to see if there are other
@@ -152,23 +151,21 @@ you will see
 [on this page](https://mvnrepository.com/artifact/com.linkedin.dexmaker/dexmaker/2.21.0)
 that:
 
-- this particular version, i.e. `2.21.0`, is hosted only on JCenter;
-- a newer version, `2.28.1`, is hosted on Maven Central.
+* this particular version, i.e. `2.21.0`, is hosted only on JCenter;
+* a newer version, `2.28.1`, is hosted on Maven Central.
 
-![dexmaker-2.21.0](/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.21.0.png
-"Dexmaker 2.21.0 is hosted only on JCenter")
+![dexmaker-2.21.0](/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.21.0.png "Dexmaker 2.21.0 is hosted only on JCenter")
 
-![dexmaker-2.28.1](/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.28.1.png
-"Dexmaker 2.28.1 is hosted on Maven Central")
+![dexmaker-2.28.1](/images/migrating-away-from-bintray-jcenter-when-there-is-no-alternative-repository/dexmaker-2.28.1.png "Dexmaker 2.28.1 is hosted on Maven Central")
 
 In this case, you can't use any other Maven repository to get the
 current dependency version, but you can try to update it.
 
-_By the way, Dexmaker maintainers stated they won't migrate the older
+*By the way, Dexmaker maintainers stated they won't migrate the older
 version
-[here](https://github.com/linkedin/dexmaker/issues/172)._
+[here](https://github.com/linkedin/dexmaker/issues/172).*
 
-# How to enforce a transitive dependency version #
+## How to enforce a transitive dependency version
 
 Since, in most cases, Dexmaker is not going to be your direct
 dependency, but a transitive one (in my case it is used by a popular
@@ -204,7 +201,7 @@ allprojects {
 }
 ```
 
-# Dependencies I couldn't find elsewhere #
+## Dependencies I couldn't find elsewhere
 
 Unfortunately, the story doesn't end here. Updating the dependencies may
 lead to further issues. Some of them may be mutually incompatible while
@@ -222,14 +219,14 @@ reading 🙂.
 I decided to keep the following dependencies which I couldn't find
 anywhere else:
 
-- `com.datadoghq:dd-sdk-android:1.5.1` (direct)
-- `com.savvi.datepicker:rangepicker:1.3.0` (direct)
-- `com.google.android:flexbox:1.0.0` (transitive)
-- `com.android.volley:volley:1.1.1` (transitive)
-- `com.linkedin.dexmaker:dexmaker:2.21.0` (transitive)
-- `com.sunmi:printerlibrary:1.0.13` (direct)
+* `com.datadoghq:dd-sdk-android:1.5.1` (direct)
+* `com.savvi.datepicker:rangepicker:1.3.0` (direct)
+* `com.google.android:flexbox:1.0.0` (transitive)
+* `com.android.volley:volley:1.1.1` (transitive)
+* `com.linkedin.dexmaker:dexmaker:2.21.0` (transitive)
+* `com.sunmi:printerlibrary:1.0.13` (direct)
 
-# Finding the cached dependencies in Gradle cache #
+## Finding the cached dependencies in Gradle cache
 
 Thankfully, Gradle caches the dependencies locally, so I was able to
 find all of them easily. By default, you should check your user's home
@@ -262,7 +259,7 @@ Now you need just a few additional steps to preserve these precious
 files in your VCS for as long as you need and share them with your
 teammates.
 
-# Setting up a local Maven repository #
+## Setting up a local Maven repository
 
 You can use any directory you want as a Maven repository using a Gradle
 snippet like this one:
@@ -275,7 +272,7 @@ repositories {
 }
 ```
 
-_(You may want to put it inside `allProjects { ... }` block.)_
+*(You may want to put it inside `allProjects { ... }` block.)*
 
 As a result, the `libs` directory in the root project's directory will
 be searched for the dependencies just like all the other Maven
@@ -297,7 +294,7 @@ As you can see, I mapped my Gradle cache structure into Maven repository
 layout like this:
 
 | Gradle cache                         | Maven repository      |
-|:-------------------------------------|:----------------------|
+| ------------------------------------ | --------------------- |
 | ~/.gradle/caches/modules-2/files-2.1 | libs                  |
 | com.linkedin.dexmaker                | com/linkedin/dexmaker |
 | dexmaker                             | dexmaker              |
@@ -323,8 +320,7 @@ and that's how Dexmaker 2.21.0 became a part of the Git repository.
 After repeating this process for all the other missing dependencies, I
 was able to build the project successfully again 🎉
 
-
-_Featured image by
-[Luroka](https://pixabay.com/users/luroka-9240270/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3522487)
+*Featured image by
+[Luroka](https://pixabay.com/users/luroka-9240270/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3522487)
 from
-[Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3522487)_
+[Pixabay](https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3522487)*
