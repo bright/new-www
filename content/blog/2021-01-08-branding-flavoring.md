@@ -2,25 +2,24 @@
 layout: post
 title: Branding & Flavoring
 date: 2021-01-08T12:12:12.000Z
-author: wojciech
 image: /images/branding_and_flavoring.png
+author: wojciech
 tags:
   - typescript
   - types
   - candies
   - veggies
-hidden: false 
-comments: true 
+hidden: false
+comments: true
 published: true
 ---
-
-### Introduction
+## Introduction
 
 TypeScript language mainly uses structural typing. In structural typing, an element is considered to be compatible 
 with another if, for each feature within the second element's type, a corresponding and identical feature exists in the 
 first element's type. Sometimes this behavior may allow us to write erroneous code. 
 
-### Example
+## Example
 
 Let's imagine a function which calculates candy price based on their weight and price per unit:
 
@@ -55,7 +54,7 @@ This problem can be solved by nominal typing. Nominal typing means that two vari
 their declarations name the same type. TypeScript unfortunately does not have such a syntax feature. There are some 
 methods which we can use to omit that problem. 
 
-### Branding
+## Branding
 
 Branding concept is a technique in which we add a unique field which will make our type differ from another types. 
 What is important we do not need to assign any value there because it only exists for TypeScript compiler. 
@@ -113,16 +112,18 @@ const candyIdFrom = fromCandyID(candyIdTo)    // string
 Bear in mind that branding has got two cons:
 
 1. Compiler allow us to read `__brand` property
+
 ```typescript
 const brandProperty = candyDrops.__brand // OK 
 ```
 
 2. A raw object passed to the function as an argument stopped working
+
 ```typescript
 calculateCandyPrice({ pricePerUnit: 1000, weight: 20 })  // Error
 ```
 
-### Flavoring
+## Flavoring
 
 Flavoring concept is a technique in which we add a unique **optional** field which will make our type differ from another 
 types. This difference between *branding* and *flavoring* allow us to pass a raw object as an argument to the function. 
@@ -162,7 +163,7 @@ type Veggie = Flavor<{ pricePerUnit: number, weight: number }, "Veggie">
 
 We do not need to cast primitive values manually using this technique.
 
-### Conclusion
+## Conclusion
 
 To sum up those two techniques - it is commonly used that if we use *branding* and *flavoring* we use *branding* for 
 primitive types while *flavoring* for objects. We can use 
