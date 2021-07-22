@@ -33,11 +33,11 @@ cargo build --release
 
 We will be using the smart contract from the previous part. You will probably need to *forget* the old smart contract instance and the wasm file in the Polkadot JS Apps (it is no longer available on-chain thus still visible in the UI). Go to *Developer* -> *Contracts* page. In the *Contracts* tab use the bin button next to the contract instance to forget the contract.
 
-![](/images/cryptocurrency-with-substrate-2-image8.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image8.png)
 
 In the *Code* tab use the bin button next to the code hash to forget the code.
 
-![](/images/cryptocurrency-with-substrate-2-image9.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image9.png)
 
 Now you can upload the code again and deploy the smart contract. Don't forget to update the smart contract address in the NestJS app if needed.
 
@@ -73,7 +73,7 @@ With the declared storage items we will be able to query the module for the tota
 
 You can already play with your pallet with [Polkadot JS Apps](https://polkadot.js.org/apps). Go to the *Developer* -> *Chain State* page, *Storage* tab. Select `erc20` pallet in the left dropdown. In the right dropdown, you can now see the getter functions. As we have not initialized the token yet, you will get `false` as a result of `init()` and zeros for the other functions.
 
-![](/images/cryptocurrency-with-substrate-2-image7.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image7.png)
 
 ### Functions
 
@@ -156,27 +156,27 @@ In the very last line of the `init` function, we emit an `Initialized` event wit
 
 Let's now initialize our token. We will use [Polkadot JS Apps](https://polkadot.js.org/apps) to call the function. Go to *Developer* -> *Extrinsics* page. Choose an account to create a token with. Choose the `erc20` and `init(tital_supply)` extrinsic to submit. Fill in the `total_supply` value.
 
-![](/images/cryptocurrency-with-substrate-2-image1.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image1.png)
 
 Sign and submit the transaction. You can see some events showing up in the upper right corner. One of them is the `Initialized` event.
 
-![](/images/cryptocurrency-with-substrate-2-image2.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image2.png)
 
 We can also view the details of the event in the *Network* -> *Explorer* page.
 
-![](/images/cryptocurrency-with-substrate-2-image3.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image3.png)
 
 In the *recent events* block you can see the `erc20.Initialized` event. Just below the name, you can see the description from the comments. When you expand it, you can see the sender account. On the right side of the event, you can see the block number and the extrinsic number, here it is `4-1`. You can click on it and explore the block.
 
-![](/images/cryptocurrency-with-substrate-2-image4.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image4.png)
 
 We can now try to initialize the token once again. As we were expecting, an `AlreadyInitialized` error showed up.
 
-![](/images/cryptocurrency-with-substrate-2-image5.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image5.png)
 
 We can also view the details of the error in the *Network* -> *Explorer* page. It will not however show up in the recent events table, so you need to check the last few blocks manually to find the one with the error.
 
-![](/images/cryptocurrency-with-substrate-2-image6.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image6.png)
 
 You can again see the `type` of the error as the `AlreadyInitialized` we have declared in the code. The `details` field is a description from the comment.
 
@@ -283,7 +283,6 @@ Register the new service in the app module.
   providers: [AppService, PolkadotApiService, ContractService],
 })
 export class AppModule { }
-
 ```
 
 Change the `ContractService` to implement the `Erc20` interface. Remove the `OnModuleInit` interface and the corresponding function. Inject the `PolkadotApiService` and use its `api`, `apiContract`, `abi` variables instead of the local ones. Change the transaction sender from fixed `alice` to the one chosen by a user. In the contract calls, which do not create a transaction (like `totalSupply`) we still need to pass some account, just as we need to pass the gas limit. The account will not however be charged, so let's stick to Alice in those cases.
@@ -361,7 +360,6 @@ export class RuntimeService implements Erc20 {
   controllers: [AppController, BalancesController, AllowancesController],
   providers: [AppService, PolkadotApiService, ContractService, RuntimeService],
 })
-
 ```
 
 To use the new service in the controllers, we will make some changes in them. To easily interact with the API and dynamically choose between the runtime and smart contract services add a `:service` param in the controller's path. Add a `tokenService` variable which we will assign the selected service to. Change the constructor to inject both services and the request and assign the `tokenService` with a proper service instance.
@@ -384,6 +382,7 @@ export class BalancesController {
 Let's now implement the functions in our Runtime service. To implement the `totalSupply()` function, we will use the `ApiPromise` object from `polkadotApiService`. The api is structured as `api.<type>.<module>.<section>`.
 
 * `type` - this is the type of a call we want to make. There are a few types:
+
   * `const` - for accessing runtime constants.
   * `rpc` - this is the backbone for the transmission of data to and from the node. The following API endpoints just wrap RPC calls, providing information in the encoded format as expected by the node.
   * `query` - for reading the current chain state.
@@ -424,7 +423,7 @@ async transfer(sender: string, to: string, value: number) {
 
 Let's send a PUT request at `http://localhost:3000/runtime/balances` to transfer some tokens from Alice to Bob and review the logs. 
 
-![](/images/cryptocurrency-with-substrate-2-image10.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image10.png)
 
 We will see three results: an empty one upon transaction creation, one with `InBlock` status when the transaction was included in a block, and one with `Finalized` status when the transaction was finalized and cannot be forked off the chain. The transaction gets finalized even if business logic fails (i.e. you try to transfer more funds than you poses). When you look at the second logged message, you can find an `event` object which includes events and errors emitted by the runtime functions.
 
@@ -465,6 +464,7 @@ Let's now try to make a transfer for a larger amount than we possess. To make su
 In the `data` array we have information about the error. The `Module` object has two elements: 
 
 * `index` - the index of a module defined in the `Runtime` enum. You can find it in runtime's `lib.rs` file in `construct_runtime` macro:
+
 ```rust
 // substrate-node-template/runtime/src/lib.rs
 
@@ -564,13 +564,13 @@ export class AllowancesController {
 
 We can now let Alice approve Charlie to make some transfers on behalf of her.
 
-![](/images/cryptocurrency-with-substrate-2-image11.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image11.png)
 
 If everything goes as it should, Charlie can now send some tokens from Alice to Bob.
 
-![](/images/cryptocurrency-with-substrate-2-image12.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image12.png)
 
-Unfortunately, such a transfer produces `Internal server error `. It should say something like `1010: Invalid Transaction: Inability to pay some fees (e.g. account balance too low)`. It could look like we have some bug and try to transfer tokens from Charlie's account, which is empty for now. However, the reason is a little different. By default, for transaction fees Substrate uses the token from `Balances` pallet. In Polkadot JS Apps you *Accounts* -> *Accounts* page you can see each account's balance represented in the `Balances` pallet's tokens. When you start a pure chain in development mode Alice and Bob are the only accounts minted with some tokens.
+Unfortunately, such a transfer produces `Internal server error`. It should say something like `1010: Invalid Transaction: Inability to pay some fees (e.g. account balance too low)`. It could look like we have some bug and try to transfer tokens from Charlie's account, which is empty for now. However, the reason is a little different. By default, for transaction fees Substrate uses the token from `Balances` pallet. In Polkadot JS Apps you *Accounts* -> *Accounts* page you can see each account's balance represented in the `Balances` pallet's tokens. When you start a pure chain in development mode Alice and Bob are the only accounts minted with some tokens.
 
 First of all, we need to fix our code to respond gently when an error occurs. The simplest way would be to add a `try-catch` block in the `BalancesController` function for transferring and throw an `HttpException` in the `catch` block.
 
@@ -592,15 +592,15 @@ First of all, we need to fix our code to respond gently when an error occurs. Th
       throw new HttpException(err.message, HttpStatus.BAD_REQUEST)
     }
   }
-  ```
+```
 
 Let's try to send the request again and confirm that we get the `400` response instead of `500`.
 
-![](/images/cryptocurrency-with-substrate-2-image13.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image13.png)
 
 Now we can transfer some basic Substrate tokens from Alice do Charlie, to let him pay a transaction fee. Go to Polkadot JS Apps and choose *Accounts* -> *Accounts* page. Click `send` button in Alice's row and transfer 10 units from Alice do Charlie.
 
-![](/images/cryptocurrency-with-substrate-2-image14.png)
+![cryptocurrency in substrate](/images/cryptocurrency-with-substrate-2-image14.png)
 
 Charlie can finally send 100 tokens from Alice to Bob. We can check that the approval was reduced by 100 and now it is 100. Charlie can try to transfer another 150 tokens from Alice to Bob. We should receive an event with the `InsufficientApprovedFunds` error.
 
