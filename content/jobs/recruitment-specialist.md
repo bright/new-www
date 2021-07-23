@@ -15,11 +15,14 @@ Bright Inventions was founded in 2012 in Gdańsk, Poland. Since then we have bui
 \
 At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world.
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.\
-\
-**about the role **We are looking for a Recruitment Specialist to undertake all hiring activities, from advertising open roles to sourcing, interviewing candidates and closing hires. This role includes connecting with potential candidates online and offline, screening applications and supporting hiring manager while maintaining a positive candidate experience.
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
-**what we would like to see** 
+## \
+about the role 
+
+We are looking for a Recruitment Specialist to undertake all hiring activities, from advertising open roles to sourcing, interviewing candidates and closing hires. This role includes connecting with potential candidates online and offline, screening applications and supporting hiring manager while maintaining a positive candidate experience.
+
+## **what we would like to see** 
 
 * 1+ year of experience in HR sector (preferably in the recruiting or sourcing team) 
 * knowledge of sourcing techniques on social media and other professional websites 
@@ -30,12 +33,12 @@ We support and share responsibility with the members of our team. We also active
 * ability to work independently as well as a part o the team 
 * very good command of Polish and English (both written and spoken)
 
-\
+## \
 **nice to have** 
 
 * BSc in Human Resources Management, Psychology or relevant field
 
-\
+## \
 **your job will include** 
 
 * publishing compelling and competitive job offers in various portals
@@ -45,7 +48,7 @@ We support and share responsibility with the members of our team. We also active
 * maintaining proper documentation of applicants within the recruiting process
 * support hiring  best practices and taking part in Employer Branding initiatives
 
-\
+## \
 **what you will find in our Bright Team** 
 
 * real impact on the company growth and space for self-development 
@@ -62,7 +65,7 @@ We support and share responsibility with the members of our team. We also active
 * Friday yoga and board games evenings
 * team buildings parties once a quarter and weekly bright lunch initiative
 
-**recruitment process** 
+## **recruitment process** 
 
 ![](/images/recruitment-process.png)
 
