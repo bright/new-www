@@ -11,18 +11,17 @@ order: 5
 ---
 ![](/images/brightteam_passion.png)
 
-Bright Inventions was founded in 2012 in Gdańsk, Poland. Since then we have built software solutions for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more. \
-\
+Bright Inventions was founded in 2012 in Gdańsk, Poland. Since then we have built software solutions for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more. 
+
 At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world.
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
-## \
-about the role 
+## about the role 
 
 We are looking for a Recruitment Specialist to undertake all hiring activities, from advertising open roles to sourcing, interviewing candidates and closing hires. This role includes connecting with potential candidates online and offline, screening applications and supporting hiring manager while maintaining a positive candidate experience.
 
-## **what we would like to see** 
+## what we would like to see
 
 * 1+ year of experience in HR sector (preferably in the recruiting or sourcing team) 
 * knowledge of sourcing techniques on social media and other professional websites 
@@ -33,13 +32,11 @@ We are looking for a Recruitment Specialist to undertake all hiring activities, 
 * ability to work independently as well as a part o the team 
 * very good command of Polish and English (both written and spoken)
 
-## \
-**nice to have** 
+## nice to have
 
 * BSc in Human Resources Management, Psychology or relevant field
 
-## \
-**your job will include** 
+## your job will include
 
 * publishing compelling and competitive job offers in various portals
 * sourcing and screening potential hires, scheduling interviews and executing interviews with the support of Hiring Manager
@@ -48,8 +45,7 @@ We are looking for a Recruitment Specialist to undertake all hiring activities, 
 * maintaining proper documentation of applicants within the recruiting process
 * support hiring  best practices and taking part in Employer Branding initiatives
 
-## \
-**what you will find in our Bright Team** 
+## what you will find in our Bright Team
 
 * real impact on the company growth and space for self-development 
 * continuous feedback culture and regular 1:1 meetings 
@@ -65,7 +61,7 @@ We are looking for a Recruitment Specialist to undertake all hiring activities, 
 * Friday yoga and board games evenings
 * team buildings parties once a quarter and weekly bright lunch initiative
 
-## **recruitment process** 
+## recruitment process 
 
 ![](/images/recruitment-process.png)
 
