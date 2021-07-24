@@ -1,17 +1,23 @@
 import React, { ReactNode, useMemo } from 'react'
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import { routeLinks } from '../../config/routing'
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import { HelmetMetaAuthor } from '../../HelmetMetaAuthor'
 import { useAuthors } from '../../use-authors/use-authors'
 
-interface AuthorDataProps {
+export interface AuthorDataProps {
   authorId?: string
 }
 
-export const AuthorData: React.FC<AuthorDataProps> = ({ authorId }) => {
-  const [{ avatar, name, bio, slug }] = authorId ? useAuthors({ authorId, avatarSize: { width: 64 } }) : []
-
+export function AuthorsView(
+  {
+    authorId,
+    slug,
+    name,
+    avatar,
+    bio
+  }: { authorId: string | undefined, slug: string | undefined, name: string, avatar: IGatsbyImageData, bio: string }
+) {
   const LinkComponent = authorId
     ? (props: { children?: ReactNode }) => <Link to={routeLinks.aboutUs({ authorId, slug })}>{props.children}</Link>
     : (props: { children?: ReactNode }) => <span>{props.children}</span>
@@ -36,4 +42,9 @@ export const AuthorData: React.FC<AuthorDataProps> = ({ authorId }) => {
       </article>
     </LinkComponent>
   )
+}
+
+export const AuthorData: React.FC<AuthorDataProps> = ({ authorId }) => {
+  const [{ avatar, name, bio, slug }] = authorId ? useAuthors({ authorId, avatarSize: { width: 64 } }) : []
+  return AuthorsView({ authorId: authorId, slug: slug, name: name, avatar: avatar, bio: bio })
 }
