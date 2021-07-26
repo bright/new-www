@@ -22,7 +22,7 @@ Here are 3 easy tips to a successful collaboration in MVP environment:
 
 ## Listen
 
-#### Listen with the intent to understand, not with the intent to reply
+### Listen with the intent to understand, not with the intent to reply
 
 Stephen R. Covey in his book, [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change](https://www.goodreads.com/work/quotes/6277-the-7-habits-of-highly-effective-people) has stated that most of us do not really listen in order to understand, as when our interlocutor explains their idea we do not listen till the end of their sentence, at the very moment we are preparing our reply and we are thinking of what we want to tell our interlocutor. This way we are focusing on what we want to say, not hearing the other party.
 
@@ -32,7 +32,7 @@ Whether you are a designer or a developer, make sure you always listen to the ot
 
 ## Ask
 
-#### There are no stupid questions in a positive environment
+### There are no stupid questions in a positive environment
 
 Positive atmosphere enhances productivity. Usually building MVP requires a high paced working process which might ricochet at team with stress and feeling pressure especially before meeting the deadlines. What can be worse than confusion and misconception while trying to work fast? Any misunderstanding increases tension in working relations and slows down the process. Therefore, it is significant to ensure that the designer and developer teams are  working in a friendly environment, are positive and respectful towards each other and are comfortable with asking questions, which discards misunderstandings and results in delivering product faster and with less stress.
 
@@ -40,10 +40,10 @@ Asking questions might not be that easy for everyone. Some people hesitate to ac
 
 ## Adjust
 
-#### MVP is about adopting to a change
+### MVP is about adopting to a change
 
 Building MVP means to be constantly ready for a change. Successful MVPs use a **User-Centered Design** approach which follows user needs on all stages of the project. That includes some frequent user testing sessions that help understand if the features we design and build are really needed and if user appreciates them. After such user testing, most often, the product requires some adjustments. At times these changes do not only result in making buttons more eminent, but even in giving up one feature in favour of another, or so much as rethinking the whole concept. So, designer-developer tandem should be ready as for small modifications, as well as for bigger conceptual alterations of the product. 
 
-### In conclusion
+## In conclusion
 
 Undoubtedly, as designer-developer being a part of MVP process is an amazing experience as you get to see the birth of a product and provide the ideas which can change it. You also can learn volumes from the user feedback, make small adjustments, or rethink the whole concept of an output. However, the success of MVP also depends on the designer-developer ability to cooperate with each other. Remember not only to listen to the other party but also hear what that party has to say. Don’t be afraid of asking questions, and don’t be reluctant to answer the same questions again and again. And particularly, do not get attached to already created solutions, be prepared to frequent changes, modifications and alterations. Trying to follow these tips may bring you and your team to a positive, friendly MVP working environment.
