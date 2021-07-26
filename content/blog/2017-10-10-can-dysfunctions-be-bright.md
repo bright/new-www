@@ -1,20 +1,20 @@
 ---
+excerpt: Thoughts on management and team building
 layout: post
 title: Can Dysfunctions be Bright
-excerpt: Thoughts on management and team building
+date: 2017-10-09T22:00:00.000Z
+image: /images/team.png
 author: monika
 tags:
   - management
   - team
   - leadership
   - Lencioni
-comments: true
 hidden: false
-date: '2017-10-09T22:00:00.000Z'
+comments: true
 published: true
 ---
-
-![Image Title](/images/can-disfunctions-be-bright/team.png)
+![teambuilding](/images/can-disfunctions-be-bright/team.png)
 
 So your leader comes up with an idea, which you don’t quite agree with -do you speak up or remain silent? Maybe you’re a leader and wonder whether the silence of your team mates is golden.
 
@@ -26,4 +26,4 @@ I smile to myself as I recall a brilliant book by Patrick Lencioni “The Five D
 
 Conflict is generally good for the team, but often feels uncomfortable and especially difficult for a leader who should generally promote and reward it.  Team members should be protected from harm and feel secure to share their thoughts and opinions. Debate are often messy and it may look like a leader is failing by losing the control over a team. A fearless debate is however a precondition to a true commitment. When team including the leader overcome the uncomfortable conflict bias, the organisation reaches the next level. According to Lencioni this is just a half way to the company’s success. This step however is a difficult one. 
 
-So is silence golden? Not necessarily, but I will be happy if you disagree. 
+So is silence golden? Not necessarily, but I will be happy if you disagree.
