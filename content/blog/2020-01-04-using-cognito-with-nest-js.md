@@ -14,17 +14,17 @@ hidden: false
 comments: true
 published: true
 ---
-
 AWS Cognito simplified the authentication, authorization and user management for you. In this post I will try to present how we can use this authentication service with your mobile app, website, and manage users.
 
-# Initial work #
+## Initial work
+
 To get started with AWS Cognito We need to create a user pool. The user pool is a container that AWS Cognito uses to manage and hold users identify.
 
-![](/images/using-cognito-with-nest-js/user_pool_1.png)
+![AWS](/images/using-cognito-with-nest-js/user_pool_1.png)
 
 We are going to start with Create User Pool. In my case I don’t have user pools, so I’m going to create one.
 
-![](/images/using-cognito-with-nest-js/user_pool_2.png)
+![AWS](/images/using-cognito-with-nest-js/user_pool_2.png)
 
 Here you are given two options to select from, let's select *Review defaults*. Make sure to provide a pool name as well.
 
@@ -32,9 +32,9 @@ Next, we need to create an app client. The app client is the client that our Nes
 
 Let's take a look at the overview of the settings, it should look like mine.
 
-![](/images/using-cognito-with-nest-js/user_pool_overview.png)
+![AWS](/images/using-cognito-with-nest-js/user_pool_overview.png)
 
-# Creating TypeScript NestJS Server #
+## Creating TypeScript NestJS Server
 
 Ok, once we have completed the first part of the post which was creating a User Pool in Amazon Cognito, we can switch to creating the NestJS server which will use the Amazon Cognito user pool to authenticate users.
 
@@ -58,13 +58,14 @@ npm run start:dev
 
 In your browser open `http://localhost:3000` to see a new application running. The app will automatically recompile and reload when you change any of the source files.
 
-# Implement authentication #
+## Implement authentication
 
 We are going to implement three functions in our NodeJS server application that authenticate the user:
+
 * Sign in
 * Sign up
 * Token Validation (bonus, as an Authentication middleware)
-For each function we will need separate API endpoints in our server as well. Let’s create an `auth.controller` to handle incoming requests.
+  For each function we will need separate API endpoints in our server as well. Let’s create an `auth.controller` to handle incoming requests.
 
 For that purpose we are going to use *NestCLI* to generate the `auth.module`, `auth.controller` and `auth.service`.
 
@@ -78,7 +79,7 @@ The Nest CLI automatically will generate the auth folder with files and add it t
 
 The next step is to add a package to help us reach the Cognito SDK which will be going to be used for requests to Cognito API
 
-```npm install amazon-cognito-identity-js --save```
+`npm install amazon-cognito-identity-js --save`
 
 In `auth.service` we define the *CognitoUserPool* by giving generated `userPoolId`, `appClientId`. For safety reasons, it's good to store them in the config file. Then I've added the function for `register` and `authenticate`. 
 
@@ -191,6 +192,7 @@ export class AuthController {
 ```
 
 I have added two endpoints:
+
 * register - API endpoint to register user
 * authenticate - API endpoint to authenticate user 
 
@@ -212,6 +214,7 @@ export interface AuthCredentialsDto {
 ```
 
 ## Bonus: Token Validation
+
 For token validation we are going to use extra features from *NestJS*. For this purpose we are using *Guards*. 
 
 We are going to start from install required packages:
@@ -250,6 +253,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
   }
 }
 ```
+
 The following code extend the *PassportStrategy* package and grab the *Baerer token* from the headers and pass it to the function `validate`. 
 
 Our function `validate` uses the `handler` to decode the `jwt token`. The handler is the implementation of verifying *JWT Token* with Cognito.
@@ -365,7 +369,7 @@ const handler = async (request: ClaimVerifyRequest): Promise<ClaimVerifyResult> 
 };
 
 export {handler};
-``` 
+```
 
 In case you want to check the decoded jwt you can check [this](https://jwt.io/) out. More about verifying JWT in Cognito User Pool you can find [here.](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-verifying-a-jwt.html)
 
@@ -381,16 +385,17 @@ The above code is a minimalistic version for NestJS authentication using Cognito
 
 I used *Postman* to send the request. In *@Body* I included email, password, name. A created successful response will contain:
 
-![](/images/using-cognito-with-nest-js/register.png)
+![AWS](/images/using-cognito-with-nest-js/register.png)
 
 Then we can check also in our app in Cognito that the User has been created:
 
-![](/images/using-cognito-with-nest-js/registered_cognito.png)
+![AWS](/images/using-cognito-with-nest-js/registered_cognito.png)
 
 ### 2. Authenticate
+
 Again, in @Body I sent the required password and the user field. If I prepare the correct data, I will receive the user payload:
 
-![](/images/using-cognito-with-nest-js/login.png)
+![AWS](/images/using-cognito-with-nest-js/login.png)
 
 ### 3. Validation
 
@@ -410,6 +415,3 @@ When we add in a proper format the token *Bearer {token}* the *Guard* which will
 I think that more and more developers will use the IaaS (infrastructure as a service) and move logic outside the backend. What is great, in AWS you can also move all the logic with verifying the JWT to *LAMBDA* which can be triggered before sign-up and authentication (we can customize these workflows in the user pool settings).
 
 Cognito is a great service from AWS. I'm using it always when I have an opportunity to do it.
-
-
-
