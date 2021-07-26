@@ -1,25 +1,25 @@
 ---
+crosspost: true
 layout: post
 title: How to clear database in Spring Boot tests?
+date: 2017-10-12T22:00:00.000Z
+image: /images/bright_team-compressor.jpg
+author: piotr
 tags:
   - tests
   - spring boot
   - database
   - kotlin
-author: piotr
-comments: true
 hidden: false
-crosspost: true
-date: '2017-10-12T22:00:00.000Z'
+comments: true
 published: true
-canonicalUrl: 'https://miensol.pl/clear-database-in-spring-boot-tests/'
+canonicalUrl: https://miensol.pl/clear-database-in-spring-boot-tests/
 ---
-
-Nowadays using a production like database in _unit_<sup>[1](#sup-1)</sup> tests is a common practice. Calling a real database can increase our confidence that a tested code actually works. Having said that a database, by its very nature, brings external state into a test that will affect its behavior, hence we need to pay special attention to prepare the test execution. There are couple of ways to handle the database state in tests and I'm going to describe an approach I like most.
+Nowadays using a production like database in *unit*<sup>[1](#sup-1)</sup> tests is a common practice. Calling a real database can increase our confidence that a tested code actually works. Having said that a database, by its very nature, brings external state into a test that will affect its behavior, hence we need to pay special attention to prepare the test execution. There are couple of ways to handle the database state in tests and I'm going to describe an approach I like most.
 
 ![Database](/images/clear-database-in-spring-boot-tests/disk.jpg)
 
-# Problems with Spring Boot Transactional tests
+## Problems with Spring Boot Transactional tests
 
 Spring Boot offers many helpers to make testing application easier. Among many you can use a [`@DataJpaTest`](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html#boot-features-testing-spring-boot-applications-testing-autoconfigured-jpa-test) which by default will configure an in-memory embedded database. You can use a production type database in tests by adding `@AutoConfigureTestDatabase(replace=Replace.NONE)` like so:
 
@@ -30,11 +30,9 @@ Spring Boot offers many helpers to make testing application easier. Among many y
 public class ExampleRepositoryTests {
     // ...
 }
-
-``` 
+```
 
 The `@DataJpaTest` uses `@Transactional` under the hood. A test is wrapped inside a transaction that is rolled back at the end. This means that when using e.g. Hibernate one needs to pay special attention to how the tested code is written. [As shown in the Java example below](https://docs.spring.io/spring/docs/4.3.11.RELEASE/spring-framework-reference/htmlsingle/#testcontext-tx-enabling-transactions), a manual flush is indeed required:
-
 
 ```java
 @RunWith(SpringRunner.class)
@@ -58,14 +56,14 @@ public class HibernateUserRepositoryTests {
 ```
 
 Using `@Transactional` annotation on tests is certainly easy but **I still don't use it** for the following reasons:
-- The production code is using transactions with different scope.
-- It is easy to forget about a flush and thus have false positive in test.
-- On failure and when debugging it is hard to see what values were actually saved in db.
-- It is much harder to write tests of production code that requires a transaction to be committed. 
-- The test code needs to be more tightly coupled to production code and [we all know that it hinders refactoring](http://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html).
 
+* The production code is using transactions with different scope.
+* It is easy to forget about a flush and thus have false positive in test.
+* On failure and when debugging it is hard to see what values were actually saved in db.
+* It is much harder to write tests of production code that requires a transaction to be committed. 
+* The test code needs to be more tightly coupled to production code and [we all know that it hinders refactoring](http://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html).
 
-# Cleaning database with SQL
+## Cleaning database with SQL
 
 In tests involving a database I reset its state **before each** test using plain old SQL. This makes the test code less dependent on how a transaction is scoped inside production code. Furthermore, one can easily review the values saved **after a test failure**. It turns out it is easy to write a JUnit `@Rule` or [`BeforeEachCallback`](http://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/extension/BeforeEachCallback.html) that will remove all rows from all tables. Moreover, we can do so without hard coding table names which would increase maintenance cost.
 
@@ -92,6 +90,7 @@ class DatabaseCleanerRule(private val dataSource: DataSource) : ExternalResource
     }
 }
 ```
+
 Consider inspecting `dataSource` to check if we are about to connect to test database and **not one used for development.** It is very easy to use incorrect Spring Profile and wipe out your development data. Ask me how I know?
 
 We can use the `DatabaseCleanerRule` in a spring enabled test as any other JUnit rule e.g. `@Rule @Inject lateinit var cleanerRule: DatabaseCleanerRule`.
@@ -205,5 +204,4 @@ private fun engineInnoDbStatus(): String {
 
 The above examples show that it is not hard to manually reset the database. I've found that using this approach makes my tests more trustworthy and less coupled to the underlying persistence layer. In fact, we can easily switch e.g. from JPA to `JdbcTemplate` in a performance critical code area without a need to change a test.
 
-
-_<sup>1</sup>_<a name="sup-1"></a> Whether it is actually unit or integration test is a different topic.
+*<sup>1</sup>*<a name="sup-1"></a> Whether it is actually unit or integration test is a different topic.
