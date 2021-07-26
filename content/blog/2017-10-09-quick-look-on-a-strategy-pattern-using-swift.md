@@ -1,29 +1,26 @@
 ---
+excerpt: Let's take a quick look at one of the design patterns that should help
+  us to write a good Object-Oriented code.
 layout: post
-title: 'Design Patterns with Swift: Quick look at a Strategy Pattern'
-excerpt: >-
-  Let's take a quick look at one of the design patterns that should help us to
-  write a good Object-Oriented code.
+title: "Design Patterns with Swift: Quick look at a Strategy Pattern"
+date: 2017-10-08T22:00:00.000Z
+image: /images/strategy.jpeg
 author: kwysocki
 tags:
   - iOS
   - swift
   - design patterns
   - strategy pattern
-comments: true
 hidden: false
-date: '2017-10-08T22:00:00.000Z'
+comments: true
 published: true
 ---
-
-![Image Title](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg)
-
+![design patterns](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg)
 
 Let's take a quick look at one of the design patterns that should help us to write a good Object-Oriented code.
 The basic assumption of Strategy Pattern is that you can define many implementations that will conform to the protocol.
 
 Take a look at a simple example that can be used on iOS applications.
-
 
 Firstly, create a `protocol` which contains a method. In our case it will be:
 
