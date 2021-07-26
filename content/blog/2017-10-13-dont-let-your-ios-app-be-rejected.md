@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Don’t let your iOS app be rejected
+date: 2017-10-12T22:00:00.000Z
+image: /images/no-1532789_1920.jpg
 author: mateusz
 tags:
   - ios
@@ -8,8 +10,8 @@ tags:
   - subscriptions
   - apple
   - review process
+hidden: false
 comments: true
-date: '2017-10-12T22:00:00.000Z'
 published: true
 ---
 
