@@ -1,19 +1,19 @@
 ---
 layout: post
 title: Walking skeleton
+date: 2017-10-05T22:00:00.000Z
+image: /images/skeleton.jpeg
 author: mateusz
-hidden: false
 tags:
   - agile
   - project management
   - continuous integration
   - continuous delivery
   - spike
+hidden: false
 comments: true
-date: '2017-10-05T22:00:00.000Z'
 published: true
 ---
-
 ## What satisfies your client?
 
 Do you know what really makes your client satisfied? Tons of unit tests? Advanced integration tests running on every machine using Docker? Dozens of thousands of lines of a well-formatted, clean code? Or maybe a new open source library that every programmer is talking about? Actually, none of them.
@@ -30,7 +30,7 @@ Instead of starting a project with a Sprint 0 when you set up everything, config
 
 This technique is called a **walking skeleton**. It was first referred by Vic Basili in his paper [“Iterative Enhancement: A Practical Technique for Software Development“](http://www.cs.umd.edu/~basili/publications/journals/J04.pdf) from 1975. Walking skeleton won’t use the final architecture, but it should link together the main architectural components.
 
-![image1](/images/walking-skeleton/skeleton.jpg)
+![walking skeleton](/images/walking-skeleton/skeleton.jpg)
 
 The walking skeleton is not complete, it doesn’t have any “flesh”. It’s missing functionality, which is built along with the infrastructure incrementally, over time. You can consider it as an outline of your concept that is executable and shippable.
 
