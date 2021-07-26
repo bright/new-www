@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What most startup owners fail to get about mobile development '
+title: "What most startup owners fail to get about mobile development "
 date: 2019-09-17T08:05:05.904Z
 image: /images/failtoget2.png
 author: michal
@@ -20,14 +20,14 @@ Anyone who’s ever run a tech company would answer in a heartbeat that it’s e
 
 With the above in mind, we’ve put together a list of things startup founders often fail to understand about mobile app development. If you take the points below to heart, you’ll be much closer not only to reaching your project milestones but also becoming a tech leader your employees will look up to for years to come. Let’s take a look.
 
-### 1. Being the captain of the ship
+## 1. Being the captain of the ship
 
 There’s no other way to achieve product milestones than by effective teamwork. Now, while no ship would make it to dock if not for the crew, neither would it without a captain who treads the path. Putting the naval analogy aside, a good startup owner isn’t ‘just’ someone who had a great app idea and managed to excite and gather people around it.
 He/she also has to be someone who oversees the big picture, is eager to take in new ideas, but also executes the higher-level visions. 
 
 Which is closely related to...
 
-### 2. Finding the balance between trust and supervision
+## 2. Finding the balance between trust and supervision
 
 We’re going to be completely honest here – if you give your team the authority to make all decisions completely on their own, then you’re steeping on thin ice.
 
@@ -39,7 +39,7 @@ What we recommend is hiring either a [highly-experienced software house](/) or a
 
 To sum up – stay in the loop, be inquisitive, and entrust quality assurance to your product and tech leaders who know the rules of the game deeply.
 
-### 3. Making sure you’re not hopelessly stuck on the original idea – welcoming (and spotting) good change
+## 3. Making sure you’re not hopelessly stuck on the original idea – welcoming (and spotting) good change
 
 Making sure you don’t derail from project goals should not be mistaken with stubbornly denying the need to re-think and optimize the initial plan. That’s how some of the world’s leading apps came to life!
 
@@ -50,7 +50,7 @@ In the end, such an iterative approach to product development is what helps star
 
 Last, but least...
 
-### 4. Understanding both business AND app performance metrics
+## 4. Understanding both business AND app performance metrics
 
 Business and technical decisions are forever intertwined when it comes to mobile app development (something worth memorizing by heart).
 
@@ -60,7 +60,7 @@ Huge mistake!
 
 App analytics’ tools will tell you miles about your app’s usability, popularity, and (as a result) monetizability. That’s potentially way more that the ratings and comments left on your AppStore profile. Some of the insights you can expect include learning how many users return to your app after their first use, how much time they spend per each session, and where and when they tend to drop out. Remember – once your app is up and running, you need to keep tracing all data to ensure your software remains profitable.
 
-### Summary
+## Summary
 
 We hope that, by reading this post, you’ve just learned a thing or two on successful startup development! Incorporate these tips into your day-to-day work and remember – never stop learning. That’s what separates great founders from the good.
 
