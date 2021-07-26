@@ -1,10 +1,10 @@
 ---
+crosspost: true
 layout: post
 title: Are we ready for deep learning on mobile devices?
-author: radeks
-hidden: false
-crosspost: true
+date: 2019-03-24T23:00:00.000Z
 image: /images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg
+author: radeks
 tags:
   - android
   - ios
@@ -13,14 +13,13 @@ tags:
   - deep learning
   - machine learning
   - ml kit
-date: '2019-03-24T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
-
-
 Due to the rapid growth of deep learning possibilities, lots of smart people do their best to create more and more sophisticated algorithms that beat human’s performance in many areas. Luckily, a great chunk of their [work](https://arxiv.org/list/cs.LG/recent "repository with lots of papers") is throw open and waits for you to harness it in some fancy way. 
 
-![](/images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg)
+![mobile](/images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg)
 
 One way to take advantage of it is to make an inference of a pre-trained model in an environment that has plentiful data sources like mobile phones and their sensors. You can wonder why even bother with the inference on mobile app if you can easily make use of the internet connection and send data back and forth but we have to keep in mind that it is not very power efficient solution. What's more convincing is that because we make an inference on mobile then we can work offline and that also leads to low latency. Last but not least is privacy, sometimes we just don't want to send any data outside.
 
@@ -44,5 +43,5 @@ Let’s now sum up the whole process of using TensorFlow model on mobile device.
 * Convert the model into .tflite format
 * Save the converted model on your device
 * Load the model and make an inference
- 
-As you can see you can make it work by following four main steps. Yet there are lots of opportunities behind machine learning and deep learning in particular, so why not to take advantage of it. There is a whole bunch of things to cover but I’m sure that’s worth your time. With such great tools like TensorFlow/Keras and TensorFlow Lite you can deploy your current model to mobile devices much easier than it was possible before. Stay tuned for next posts about creating Android app with TensorFlow Lite! 
+
+As you can see you can make it work by following four main steps. Yet there are lots of opportunities behind machine learning and deep learning in particular, so why not to take advantage of it. There is a whole bunch of things to cover but I’m sure that’s worth your time. With such great tools like TensorFlow/Keras and TensorFlow Lite you can deploy your current model to mobile devices much easier than it was possible before. Stay tuned for next posts about creating Android app with TensorFlow Lite!
