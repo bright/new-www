@@ -1,22 +1,22 @@
 ---
 layout: post
 title: I am hooked on React
+date: 2019-03-12T23:00:00.000Z
 image: /images/I-am-hooked-on-react/intro.jpg
 author: patryk
-hidden: false
 tags:
   - React
   - JavaScript
   - Hooks
-date: '2019-03-12T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
-
 React has introduced a new feature which allows you to use state and other React feature without writing class, upcoming [Hooks](https://reactjs.org/docs/hooks-overview.html), a new proposal in React 16.8.0, which are going to blow your socks off and enable our stateless function component does more than even before!
 
-![](/images/I-am-hooked-on-react/intro.jpg)
+![React](/images/I-am-hooked-on-react/intro.jpg)
 
-# Initial work #
+## Initial work
 
 The easiest way to setup environment for learning React with Hooks is run:
 
@@ -31,13 +31,13 @@ Please, make sure that to use the React-Hooks you have installed proper version 
 
 If you want to know, which version you are using, please use the command: 
 
-```npm info react```
+`npm info react`
 
 In case you want to update your react and react-dom please use the command: 
 
-```npm i react@next react-dom@next```
+`npm i react@next react-dom@next`
 
-# React Hooks #
+## React Hooks
 
 In this post we are going to focus on 3 basic Hooks in React:
 
@@ -57,7 +57,6 @@ useRef
 useImperativeMethods
 useLayoutEffect
 ```
-
 
 ### useState
 
@@ -79,9 +78,11 @@ export const Counter = () => {
 It's the simple Counter. Our counter will increase and decrease the value if user presses Button `onClick` event.
 
 The way it works, you can pass the initial state as a first argument, in my case it will be count equal 0. 
+
 ```
 const [count, setCount] = useState(0);
 ```
+
 The `useState` Hook returns an array. The first entry of the array is the the current value of the state, at this point it will be 0. The second entry of the array is a function to update the state.
 
 Now, we can pass the current value of the state and function for update the state:
@@ -98,7 +99,6 @@ export const Counter = () => {
    )
 }
 ```
-
 
 ### useEffect
 
@@ -168,7 +168,9 @@ class App extends Component {
 }
 export default App;
 ```
+
 Right now, we use `useContext` Hook and wrap our Context, where the value is a value passed from the Provider (our index). Let's assign in to user variable.
+
 ```jsx
 import React, { useContext } from 'react'
 import LoginInfo from './LoginInfo'
@@ -187,7 +189,9 @@ const Header = () => {
 
 export default Header
 ```
+
 The situation will be the same for the `LoginInfo`. We declare a value `user` by using `useContext` Hook and the value is a value passed from the Provider (our index).
+
 ```jsx
 import React, { useContext } from 'react'
 import Context from './Context'
@@ -204,14 +208,14 @@ export default LoginInfo
 
 In `LoginInfo` and `Header` now we have prop user as a value, so we can remove the unnecessary prop from the `Dashboard` which doesn't use it at all. 
 
-
-# React Hooks restrictions #
+## React Hooks restrictions
 
 Although it looks nicely, it's really good to know about Hooks:
+
 * Hooks can be only called from React function component,
 * Hooks should be only called on the top level. Don't call them inside loops, conditions or nested functions. By following this rule, you ensure that Hooks are called in the same order each time as component renders. That's what allows React to correctly preserve the state of Hooks between multiple `useState` and `useEffect` calls. (For more if you are curious, good explain is [here](https://reactjs.org/docs/hooks-rules.html#explanation)).
 
-# Class base component will be no more support? #
+## Class base component will be no more support?
 
 I think that Hooks and class base components will be still useful. The documentation says that **"There are no plans to remove classes from React"** and they definitely do not recommend rewriting everything into Hooks. It's individual and you should decide whether use Hooks or Classes.
 
