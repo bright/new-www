@@ -20,7 +20,7 @@ I heard about [Edward de Bono](https://www.edwddebono.com/) a few years ago, but
 
 *The Six Thinking Hats* method gives us a kind of instruction on how to request a certain type of thinking while seeking for a solution to our problem. The method can make a futile argument into a fruitful discussion. Usually, we act like that - when someone share what we think - we agree, when they don’t - we disagree, and when we disagree, the whole communication sometime stops. While using de Bono’s technique we have to take a particular stand in each stage of thinking process and get rid of emotional way of proving our case while still being able to express our emotions. de Bono assumes that we are all capable to see different perspectives and he compares that to wearing different hats. We can put on one hat and take off another. We do not identify with hats themselves. Each hat gives us just a different perspective on the problem we are discussing. All six hats have different colours and each colour presents a different perspective. Below I will try to give you a brief description of each of them.
 
-### **WHITE HAT**
+## **WHITE HAT**
 
 While “wearing” a white thinking hat we should collect neutral information and analyse the gathered data to reach a fact-based solution. de Bono even says that when wearing the white hat thinkers ghouls imitate a computer which gives facts and figures when it asked. We use only precise data, number or reports. We have to find gaps and look for ways to fill them with appropriate information. We have to be neutral and objective - white colour here identifies neutrality. During meetings or brainstorm sessions you yourself may wear a white hat or just ask someone else to put it on or take it off.  You may find the following questions useful: 
 
@@ -34,7 +34,7 @@ While “wearing” a white thinking hat we should collect neutral information a
 
 *Are there potential existing solutions that we can use to solve this problem?*
 
-### **RED HAT**
+## **RED HAT**
 
 The red hat is responsible for emotional thinking, feelings and a subjective perception. The red hat allows emotions dominate. We should wear the red hat when we want our reactions to an idea flow freely and easily. The red hat’s primary goal is to bring to mind proposals intuitively on the basis of thinker’s personal feelings and hunches. The red hat is very open-minded and seeks to identify and clarify other people’s feelings. It provided us with a convenient way to switch on or switch off our emotional mode in a way which is acceptable for the rest of the group. We do not have to justify our feelings or look for any logical assumptions.  The questions that may help you think more effectively from a red hat’s perspective are: 
 
@@ -46,7 +46,7 @@ The red hat is responsible for emotional thinking, feelings and a subjective per
 
 *Intuitively, is this the right solution to this problem?*
 
-### **BLACK HAT**
+## **BLACK HAT**
 
 The black hat is used to expose flaws and potential weaknesses as well as dangers of  the proposed ideas. It is the hat that according to de Bono is used the most often. It is the hat of caution and carefulness. The black hat is essential to keep you from jumping headfirst into a possible disaster. Sometimes the black hat is called a logical pessimist. When putting on the black hat our goal is to be skeptical and focused on risks. It helps us decrease the chances of making a poor decision, but it shouldn’t prevent us from finding a good solution. It just allows us to use our critical ability to the fullest.  Some extra black hat’s questions are: 
 
@@ -60,7 +60,7 @@ The black hat is used to expose flaws and potential weaknesses as well as danger
 
 *Will it be acceptable?*
 
-### **YELLOW HAT**
+## **YELLOW HAT**
 
 The yellow “thinking” hat is the opposite of the black hat. It helps to counterbalance the judgmental thinking of the pessimistic black hat and focuses on positive aspects of  solutions. While wearing the yellow hat we should turn on our insatiable curiosity and optimism. It is the moment when we are real entrepreneurs who see benefits that other people can’t notice. We can use our logic and experience, but we don’t have to resign from our dreams and hope. We think positively about possible solutions and it motivates us to be more and more constructive. The yellow hat thinker  is concerned with positive assessment and with making things happen. Effectiveness is the goal of yellow hat thinking. 
 
@@ -72,7 +72,7 @@ The yellow “thinking” hat is the opposite of the black hat. It helps to coun
 
 *What are the long-term benefits of this action?*
 
-### **GREEN HAT**
+## **GREEN HAT**
 
 The green hat is the energy hat. Under the green hat we put forward new ideas.  It encourage us to be even more creative. Our goal is to find new fresh solutions. It doesn’t have to involve logical thinking, the vital part is just the process of continual new concepts. Let yourself have insane nonstandard ideas. Sky is the limit. The green hat is definitely the most creative part off the whole de Bono process. It produces loads of ideas and possibilities. Sometime you may even not have enough time to consider them all. With the green hat we demand an effort, we demand time for generating new ideas. 
 
@@ -86,7 +86,7 @@ The green hat is the energy hat. Under the green hat we put forward new ideas.  
 
 *Is there any other explanations?*
 
-### **BLUE HAT**
+## **BLUE HAT**
 
 The last but not the least - the blue “thinking” hat. de Bono compare the blue hat to the orchestra conductor who makes sure that all the musicians do their best and everything what should be done is done at the right time. The blue hat presents the purpose of the thinking, meeting, brainstorming session. If you are wearing the blue hat, you are an observer, a leader, a facilitator who keeps the discipline and checks if people stick to the relevant issues. The blue hat thinker can comments on what she/he observes and every now an then gives an overview of what has been happening and what has been achieved. While wearing the blue hat you control the thinking process and organise the thinking itself. You define the problem and determine the tasks which should be carried out through the discussion. 
 
