@@ -11,8 +11,6 @@ order: 3
 ---
 ![](/images/brightteam_passion.png)
 
-
-
 At Bright Inventions you'll be part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that matters in today’s world. 
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. Each of us has an impact. Currently, we are a family of 60 multidisciplinary specialists working together to design and deliver the best products to our clients. 
@@ -64,4 +62,4 @@ As a Junior Recruitment Specialist you will support us in the main recruitment a
 
 ![](/images/recruitment-process.png)
 
-In case you have any questions, drop a line to [ula@bright.dev](mailto:ula@bright.dev) and gran the opportunity to becomes a part of a great Bright Team! 🧡
+In case you have any questions, drop a line to [ula@bright.dev](mailto:ula@bright.dev) and grab the opportunity to become a part of our Bright Team! 🧡
