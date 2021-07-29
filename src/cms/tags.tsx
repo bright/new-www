@@ -42,7 +42,7 @@ function toTagValue(tag: Tag) {
 }
 
 export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
-  const tags = Array.from(props.value).map((val, ix) => toTag(val as string, ix))
+  const tags = Array.from(props.value ?? []).map((val, ix) => toTag(val as string, ix))
 
   function onAdd(newTag: Tag) {
     const updatedTags = tags.concat([newTag])

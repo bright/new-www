@@ -8,7 +8,7 @@ export const BlogPostPreview: React.FC<PreviewTemplateComponentProps> = props =>
 
   const data = entry.get('data')
 
-  const tags: string[] = Array.from(data.get('tags'))
+  const tags: string[] = Array.from(data.get('tags') ?? [])
   const date = data.get('date')
   const author = data.get('author')
   const canonicalUrl = data.get('canonicalUrl')
