@@ -14,7 +14,7 @@ published: true
 
 ![](/images/healthcare_in_post2.png)
 
-Healthcare tech has to be customized from the very beginning. That’s why c**ustom healthcare software development** is the key to the successful launch of a product.
+Healthcare tech has to be customized from the very beginning. That’s why **custom healthcare software development** is the key to the successful launch of a product.
 
 ## What is custom healthcare software development?
 
