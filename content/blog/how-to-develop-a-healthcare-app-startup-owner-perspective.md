@@ -1,5 +1,7 @@
 ---
 author: izabela
+tags:
+  - business
 date: 2021-07-30T07:48:44.080Z
 title: How to develop a healthcare app (startup owner perspective)
 layout: post
