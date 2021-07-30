@@ -14,7 +14,7 @@ published: true
 
 ![](/images/healthcare_in_post2.png)
 
-Healthcare tech has to be customized from the very beginning. That’s why c**ustom healthcare software development** is the key to the successful launch of a product.
+Healthcare tech has to be customized from the very beginning. That’s why **custom healthcare software development** is the key to the successful launch of a product.
 
 ## What is custom healthcare software development?
 
@@ -61,7 +61,7 @@ Check out our other blog post, if you want to [know more about software developm
 
 A typical flow for healthcare software development looks pretty similar to the one presented above. However, when you work on a healthcare solution **the prototyping phase is even more crucial** and time-consuming. 
 
-It is the phase **you have to turn users’ expectations into a prototype** even if users don’t know how to name their needs. ;) For healthcare, it is essential because you have to understand the condition of patients that you create a product for. Also, you need to establish a different approach for doctors, medical staff, or other healthcare representatives that may be a part of this project. It is rare that a healthcare solution has only one target group. Often you develop software for patients and doctors and every part of the product may be different for them. Features, UI and UX design should reflect the research of your target groups. Usually, the product will look completely different for doctors and patients.
+It is the phase **you have to turn users’ expectations into a prototype** even if users don’t know how to name their needs. 😉  For healthcare, it is essential because you have to understand the condition of patients that you create a product for. Also, you need to establish a different approach for doctors, medical staff, or other healthcare representatives that may be a part of this project. It is rare that a healthcare solution has only one target group. Often you develop software for patients and doctors and every part of the product may be different for them. Features, UI and UX design should reflect the research of your target groups. Usually, the product will look completely different for doctors and patients.
 
 ## How much does it cost to build a healthcare application?
 
