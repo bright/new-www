@@ -27,7 +27,7 @@ Most of our projects are based either on Scrum or Kanban approach, depending on 
 
 A workflow is where you define the statuses that different types of issues can be in as well as the transitions between them. While Jira is equipped with multiple ready to use workflow schemes, for different project development approaches, the experience we gained along the way, helped us to build a few of our own schemes. Each project board can have one workflow assigned to it. These are the dance steps for your issues to perform on the dance-Board.  The first thing to consider are the states a particular issue can be in during the project. The basic workflow for our project Boards includes the following set of states :
 
-![Jira boards](/images/Jira Boards 1.png)
+![Jira boards](/images/jira_boards_1.png)
 
 * To Do (or Selected for Development in Kanban projects). -> an issue should be handled in the nearest future, be it a Sprint or just a priority-based schedule. Issues do not have to be assigned to anyone specific at this stage. In Progress -> a developer has started to work on the issue
 * On Hold -> for an external reason, the work on a specific issue had to be put on hold. It can be because of a lacking API or a need to wait for some information from the Client. 
