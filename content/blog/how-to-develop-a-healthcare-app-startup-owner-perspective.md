@@ -3,11 +3,14 @@ author: izabela
 date: 2021-07-30T07:25:23.815Z
 title: How to develop a healthcare app (startup owner perspective)
 layout: post
+image: /images/blogpost_www_healthcare_2.png
 hidden: false
 comments: true
 published: true
 ---
 **Are you planning to develop healthcare software? Or maybe you have an idea for a healthcare app and don’t know what to do next? This is a guide for startups and entrepreneurs that want to be a part of the health tech movement.**
+
+![custom healthcare software development](/images/healthcare_in_post2.png)
 
 Healthcare tech has to be customized from the very beginning. That’s why **custom healthcare software development** is the key to the successful launch of a product.
 
