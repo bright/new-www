@@ -21,9 +21,9 @@ jobs:
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-v3-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-v2-
+            ${{ runner.os }}-yarn-v3-
       - name: Gatsby Cache
         id: gatsby-cache-build
         uses: actions/cache@v2
@@ -31,9 +31,9 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ runner.os }}-gatsby-build-v2-${{ github.run_id }}
+          key: ${{ runner.os }}-gatsby-build-v3-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-build-v2-
+            ${{ runner.os }}-gatsby-build-v3-
       - run: yarn install
       - run: yarn run build
         env:
@@ -56,9 +56,9 @@ jobs:
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-v2-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-v3-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-v2-
+            ${{ runner.os }}-yarn-v3-
       - name: Caching Gatsby
         id: gatsby-cache-build
         uses: actions/cache@v2
@@ -66,9 +66,9 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ runner.os }}-gatsby-build-v2-${{ github.run_id }}
+          key: ${{ runner.os }}-gatsby-build-v3-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-build-v2-
+            ${{ runner.os }}-gatsby-build-v3-
       - run: yarn install
       - run: yarn run deploy-s3
         env:
