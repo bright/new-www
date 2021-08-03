@@ -30,6 +30,8 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Bluetooth Thermometer
 
+![Bluetooth Thermometer](/images/blogpost_www_thermometer.png)
+
 * Another healthcare device that has become crucial during the pandemic.
 * Modern thermometer devices not only read a patient's temperature remotely but also send the data to the app that evaluates them.
 * This is another device which, connected to the app via Bluetooth, enables a telehealth remote patient monitoring.
