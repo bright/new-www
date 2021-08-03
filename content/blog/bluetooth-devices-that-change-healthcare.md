@@ -45,6 +45,8 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Spirometer
 
+![Spirometer](/images/blogpost_www_spirometer.png)
+
 * It measures the volume of air inhaled and exhaled by human’s lungs.
 * It’s another device that helps to diagnose COVID-19 infection. 
 * Apart from that, it tests lung functionality, reasons for shortness of breath and other issues related to breathing.
@@ -53,11 +55,15 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Stethoscope
 
+![Stethoscope](/images/blogpost_www_stethoscope.png)
+
 * Known as the number one of doctor’s gadgets, it can now be used remotely by other caregivers at care homes and nursing homes. 
 * It enables real-time and remote medical examinations that don’t have to be conducted by doctors. Caregivers not only can record a patient’s beating heart but even “broadcast” it live to the doctor.
 * Digital stethoscopes gather a very unique set of data which must be verified by doctors. Bluetooth connection enables transferring the data to an app which analyses them and informs a doctor about the results. 
 
 ### Wearable continuous monitoring devices
+
+![Wearable continuous monitoring device](/images/blogpost_www_continuous_monitoring_device.png)
 
 * That’s the future of remote patient monitoring. 
 * Patients wear a device for example on their arm and doctors as well as caregivers can monitor the vital signs in real-time, 24 hours a day.
