@@ -20,7 +20,7 @@ Healthcare tech has to be customized from the very beginning. That’s why **cus
 
 It’s all truly about **flexibility and adapting to users' needs**. No matter how cliche that sounds. If you build an app for Parkinson’s patients, you simply cannot sit on the sofa and think about how it is to be a Parkinson’s patient. You have to talk to patients, meet with them, and get some constant feedback from them and their doctors. That is custom software development of a healthcare app in a nutshell. 
 
-Custom healthcare software development is also about **researching the new technologies and hardware**, and finding a way to utilize them for the patient's sake. Hardware is a huge part of healthcare app development. There are more and more Bluetooth devices that may assist patients and doctors.
+Custom healthcare software development is also about **researching the new technologies and hardware**, and finding a way to utilize them for the patient's sake. Hardware is a huge part of healthcare app development. There are more and more [Bluetooth devices that may assist patients and doctors](/blog/bluetooth-devices-that-change-healthcare/).
 
 ## What is a perfect healthcare software development team?  
 
