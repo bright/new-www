@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: dominik
-ex: false
+ex: true
 slug: dominik
 name: Dominik Szeremeta
 short_name: Dominik
