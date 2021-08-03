@@ -17,6 +17,8 @@ COVID-19 pandemic has shown that telemedicine is crucial in answering [future me
 
 ## Examples of healthcare devices
 
+Check out devices that are part of the digital transformation in healthcare.
+
 ### Pulse oximeter
 
 ![Pulse oximeter](/images/blogpost_www_pulse_oximeter.png)
