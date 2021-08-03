@@ -1,5 +1,8 @@
 ---
 author: izabela
+tags:
+  - devlopment
+  - business
 date: 2021-08-03T06:50:18.274Z
 title: Bluetooth devices that change healthcare
 layout: post
