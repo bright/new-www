@@ -1,26 +1,25 @@
 ---
-layout: post
-title: Implementing in-app language change
-image: /images/implementing-in-app-language-change/communication.jpg
-author: azabost
 crosspost: true
-comments: true
-hidden: false
+author: azabost
 tags:
   - android
   - java
   - kotlin
   - language
   - dagger
-date: '2018-02-14T23:00:00.000Z'
+date: 2018-02-14T23:00:00.000Z
+title: Implementing in-app language change
+layout: post
+image: /images/implementing-in-app-language-change/communication.jpg
+hidden: false
+comments: true
 published: true
 ---
-
 Android resolves language- and culture-specific resources based on the system locale setting. This is a desired behavior that makes perfect sense. Despite it's officially not encouraged you may still need to write an app that allows the user to change its language without leaving it. In this article I will show you one of the possible ways to implement such feature.
 
 ![Communication](/images/implementing-in-app-language-change/communication.jpg)
 
-# The big picture #
+## The big picture
 
 Before I start with the code, let me explain how this whole mechanism will work.
 
@@ -32,11 +31,11 @@ The following diagram illustrates the flow of getting a localized string by Acti
 
 The flow involves `StringLocalization` object which has a map containing all the available `Resources` and that uses `AppSettings` to get current language that was set by the user.
 
-# Storing user preferences #
+## Storing user preferences
 
 To keep the chosen language between app restarts, we will store the preference in `SharedPreferences`. But first, let's declare an enum class to represent our languages and an object with locale codes to avoid hardcoding values in various places.
 
-``` kotlin
+```kotlin
 object LocaleCodes {
     const val ENGLISH = "en"
     const val POLISH = "pl"
@@ -61,7 +60,7 @@ Additionally, the enum class has a static `DEFAULT` value and `fromLocale` funct
 
 Now, let's implement a class for storing user preferences:
 
-``` kotlin
+```kotlin
 interface AppSettings {
     var currentLanguage: Language
 }
@@ -129,7 +128,7 @@ Getting the language is a bit more complicated, especially when the app is launc
 
 We will use Dagger to inject `SharedPrefAppSettings` implementation of the `AppSettings` interface thanks to this simple module:
 
-``` kotlin
+```kotlin
 @Module
 class AppSettingsModule {
     @Provides
@@ -139,7 +138,7 @@ class AppSettingsModule {
 }
 ```
 
-# Initializing locale-specific resources #
+## Initializing locale-specific resources
 
 In order to access resources defined for a specific locale, we need to do the following:
 
@@ -150,7 +149,7 @@ In order to access resources defined for a specific locale, we need to do the fo
 
 so the code can look like this:
 
-``` kotlin
+```kotlin
 val conf = Configuration(context.resources.configuration)
 conf.setLocale(Locale(LocaleCodes.ENGLISH))
 val localizedContext = context.createConfigurationContext(conf)
@@ -161,7 +160,7 @@ Now we can generate a map of resources for each language. As usual, there are pl
 
 First, let's define a `LanguageKey` annotation so that we can have a map with `Language` enum keys:
 
-``` kotlin
+```kotlin
 @MustBeDocumented
 @Target(AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.RUNTIME)
@@ -171,7 +170,7 @@ annotation class LanguageKey(val value: Language)
 
 Next, we use it to generate multiple `Resources`:
 
-``` kotlin
+```kotlin
 @Module
 class LocalizationModule {
 
@@ -204,11 +203,11 @@ class LocalizationModule {
 
 And voila, we can now inject `Map<Language, Resources>` with Dagger.
 
-# Providing string resources #
+## Providing string resources
 
 Finally, it's time to add a helper class that will provide string resources from the generated map.
 
-``` kotlin
+```kotlin
 @Singleton
 class StringsLocalization @Inject constructor(
         private val settings: AppSettings,
@@ -238,18 +237,17 @@ class StringsLocalization @Inject constructor(
 }
 
 class ResourcesNotFoundException(message: String) : RuntimeException(message)
-
 ```
 
 Both `AppSettings` (i.e. `SharedPrefAppSettings`) and the resources map will be injected by Dagger.
 You can see the `getString()` method that takes string resource ID, just like the regular `Activity.getString()` method. It will get the language from `AppSettings` and use it to retrieve the proper `Resources` from the map. If the map doesn't contain anything at that language key for some reason, we will use `getFallbackResources()` method as a last resort before failing to provide a string.
 
-# Making it work #
+## Making it work
 
 All we have to do now is to inject `StringsLocalization` object into the Activities and Fragments and use it to translate whatever we need.
 But first, let's write a helper interface to make this task less boilerplate:
 
-``` kotlin
+```kotlin
 interface HasStringsLocalization {
     val stringsLocalization: StringsLocalization
 }
@@ -260,7 +258,7 @@ fun HasStringsLocalization.getLocalizedString(@StringRes stringId: Int): String 
 
 So now we can access strings with `getLocalizedString` easily like this:
 
-``` kotlin
+```kotlin
 class WelcomeActivity : AppCompatActivity(), HasStringsLocalization {
 
     @Inject
@@ -276,7 +274,6 @@ class WelcomeActivity : AppCompatActivity(), HasStringsLocalization {
         // and more...
     }
 }
-
 ```
 
-_Side note: I skipped some code here to make the example shorter and more readable. The full implementation could involve some kind of injection with Dagger, layout inflation, etc._
+*Side note: I skipped some code here to make the example shorter and more readable. The full implementation could involve some kind of injection with Dagger, layout inflation, etc.*
