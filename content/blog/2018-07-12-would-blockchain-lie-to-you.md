@@ -2,10 +2,6 @@
 excerpt: Our vision at Bright has always been to share and transfer knowledge to
   other aspiring minds who are eager to take their skills to the next level and
   BEST Summer Technology Course was a great way to do it.
-layout: post
-title: Would Blockchain lie to you?
-date: 2018-07-11T22:00:00.000Z
-image: /images/Blockchain_workshops.jpg
 author: ula
 tags:
   - Blockchain
@@ -13,6 +9,10 @@ tags:
   - Truffle
   - Node.js
   - MainNet
+date: 2018-07-11T22:00:00.000Z
+title: Would Blockchain lie to you?
+layout: post
+image: /images/Blockchain_workshops.jpg
 hidden: false
 comments: true
 published: true
@@ -29,4 +29,4 @@ Later on we focused on some coding hands-on experience - working with Node.js in
 
 We are glad that we could inspire others and at the same point got inspired by them in turn. It’s an essential part of our company culture.
 
-![](/images/Blockchain_workshops.jpg)
+![blockchain](/images/Blockchain_workshops.jpg)
