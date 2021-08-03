@@ -1,35 +1,34 @@
 ---
-layout: post
-title: How to use different Google configurations for each build config
-date: 2018-02-07T23:00:00.000Z
-image: /images/laptop-software-developer.jpg
 author: mateusz
 tags:
   - ios
   - xcode
   - build configurations
+date: 2018-02-07T23:00:00.000Z
+title: How to use different Google configurations for each build config
+layout: post
+image: /images/laptop-software-developer.jpg
 hidden: false
 comments: true
 published: true
 ---
-
 If you have ever used [Google Sign-In](https://developers.google.com/identity/sign-in/ios/start), [Firebase](https://firebase.google.com/docs/ios/), or [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3/) for iOS, you should be familiar with a `GoogleService-Info.plist` configuration file. Using property list files instead of setting every required property manually in code is convenient, especially while using more than one Google service at once and the configuration grows. But have you ever wondered how  this can be adjusted to multiple environments?
 
 ## Environments
 
 To set up multiple environments in iOS application I use **build configurations**. By default, every iOS app has two build configurations: Debug and Release. In our projects we usually have three:
 
-- Develop - application for developers with debug enabled, usually connecting to the Stage backend.
-- Stage - signed application connecting to the Stage backend for early TestFlight testing.
-- Prod - signed application connecting to the production backend, published to the store after UAT (User Acceptance Testing) on TestFlight.
+* Develop - application for developers with debug enabled, usually connecting to the Stage backend.
+* Stage - signed application connecting to the Stage backend for early TestFlight testing.
+* Prod - signed application connecting to the production backend, published to the store after UAT (User Acceptance Testing) on TestFlight.
 
-You can define build configurations in the project settings ([PROJECT]→Info).
+You can define build configurations in the project settings (\[PROJECT]→Info).
 
 ![image](/images/ios-google-configuration-per-environment/build-configurations.png)
 
-#### User-Defined settings
+### User-Defined settings
 
-Build configurations let you easily use different **User-Defined settings** for each configuration. You can define these at the bottom of target build settings ([TARGET]→Build Settings).
+Build configurations let you easily use different **User-Defined settings** for each configuration. You can define these at the bottom of target build settings (\[TARGET]→Build Settings).
 
 ![image](/images/ios-google-configuration-per-environment/user-defined-settings-1.png)
 
@@ -64,9 +63,9 @@ Fortunately, you can add new **Run Script Phase** to target Build Phases that wi
 
 The script is really simple and it only copies a plist file from Resources using a predefined `CONFIGURATION` variable that points to the build configuration. In the build configurations listed above, it replaces `GoogleService-Info.plist` file content with one of the following files stored in Resources:
 
-- GoogleService-Info-Develop.plist
-- GoogleService-Info-Stage.plist
-- GoogleService-Info-Prod.plist
+* GoogleService-Info-Develop.plist
+* GoogleService-Info-Stage.plist
+* GoogleService-Info-Prod.plist
 
 ```bash
 cp "${SRCROOT}/src/Resources/GoogleServiceInfoPlists/GoogleService-Info-$CONFIGURATION.plist" "${SRCROOT}/src/GoogleService-Info.plist"
@@ -76,7 +75,7 @@ cp "${SRCROOT}/src/Resources/GoogleServiceInfoPlists/GoogleService-Info-$CONFIGU
 
 Note that `src/GoogleService-Info.plist` must be added to target **Copy Bundle Resources** build phase, while Google configuration files to be copied from resources not necessarily.
 
-#### Caution!
+### Caution!
 
 The Run Script that updates `GoogleServiceInfo.plist` file must be dragged **before Copy Bundle Resources** phase. Otherwise, it will not work because the default Google configuration file will be used.
 
