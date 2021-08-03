@@ -1,28 +1,27 @@
 ---
-layout: post
-title: Android ViewModel injections revisited
-image: /images/android-viewmodel-injections-revisited/vaccine.jpg
-author: azabost
-date: 2018-06-18T00:00:00.000Z
 crosspost: true
-comments: true
-hidden: false
+author: azabost
 tags:
   - android
+date: 2018-06-18T00:00:00.000Z
+title: Android ViewModel injections revisited
+layout: post
+image: /images/android-viewmodel-injections-revisited/vaccine.jpg
+hidden: false
+comments: true
 published: true
 ---
-
 In one of [my previous posts](/blog/injectable-android-viewmodels/) I have described how to implement a ViewModel factory that was able to provide ViewModels with their dependencies injected, e.g. an API client, and it was good enough for me at that time. Later on, thanks to [Piotr](https://miensol.pl/), we've found out even better and simpler approach with an additional possibility of injecting Activity- or Fragment-dependant data into ViewModels.
 
 ![Vaccine](/images/android-viewmodel-injections-revisited/vaccine.jpg)
 
-# Simpler factory #
+## Simpler factory
 
 Previously, we've created a singleton factory that was supplied with a map of `ViewModel`-based classes and their respective `Provider`s. It required us to create a custom `ViewModelKey` annotation and use Dagger to generate the map using `IntoMap` bindings. It didn't require a lot of boilerplate code compared to some other solutions I saw at that time, but it wasn't perfect either.
 
 On the contrary, the new solution is based on a generic ViewModel factory class of which instances are created for each Activity or Fragment instance.
 
-``` kotlin
+```kotlin
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
 import dagger.Lazy
@@ -81,7 +80,7 @@ Then, we can get a ViewModel with just: `vm = vmFactory.get()`
 
 Analogically, we can add a similar function for Fragments.
 
-# More possibilities #
+## More possibilities
 
 One of the issues we've had was that the singleton factory holding a map of ViewModel providers was widely scoped, therefore it wouldn't let us inject anything coming from a more narrow scope, e.g. Activity's extras or Fragment's arguments.
 
