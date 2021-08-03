@@ -1,11 +1,11 @@
 ---
-layout: post
-title: Why healthcare software development is not a future?
-date: 2021-07-27T08:48:40.738Z
-image: /images/blogpost_www_healthcare.png
 author: izabela
 tags:
   - business
+date: 2021-07-27T08:48:40.738Z
+title: Why healthcare software development is not a future?
+layout: post
+image: /images/blogpost_www_healthcare.png
 hidden: false
 comments: true
 published: true
@@ -37,8 +37,8 @@ These statistics show the top directions that healthcare has to follow.
 
 ## Are you ready to respond with a healthcare solution?
 
-Do you have an idea for a healthcare app? Now is the time for custom software development. This is the way to make your idea a worthwhile tool that could assist medical staff and patients around the world. Customization and flexibility are crucial in this unique process. Learn more about healthcare custom software development.
+Do you have an idea for a healthcare app? Now is the time for custom software development. This is the way to make your idea a worthwhile tool that could assist medical staff and patients around the world. Customization and flexibility are crucial in this unique process. Learn more about [healthcare custom software development](/blog/how-to-develop-a-healthcare-app-startup-owner-perspective/).
 
 **Are you looking for a healthcare software development company?** You’ve come to the right place!
 
-[Estimate your healthcare project](https://brightinventions.pl/start-project)
+[Estimate your healthcare project](/start-project)
