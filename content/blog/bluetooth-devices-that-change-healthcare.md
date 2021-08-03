@@ -38,6 +38,8 @@ Check out devices that are part of the digital transformation in healthcare.
 
 ### Sphygmomanometer
 
+![Sphygmomanometer](/images/blogpost_www_sphygmomanometer.png)
+
 * It is a well-known blood pressure monitor.
 * Modern versions of these devices can connect to the app which enables sending the data about blood pressure to the medical staff.
 
