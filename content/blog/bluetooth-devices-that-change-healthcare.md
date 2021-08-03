@@ -3,6 +3,7 @@ author: izabela
 date: 2021-08-03T06:50:18.274Z
 title: Bluetooth devices that change healthcare
 layout: post
+image: /images/blogpost_www_healthcare2.5.png
 hidden: false
 comments: true
 published: true
