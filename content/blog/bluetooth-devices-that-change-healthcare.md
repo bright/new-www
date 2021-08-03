@@ -13,6 +13,8 @@ published: true
 ---
 **Technology is essential to support patients and medical staff in managing chronic diseases. Learn more about healthcare diagnostics devices that shape the future of telehealth.**
 
+![healthcare diagnostics devices](/images/blogpost_www_healthcare2.5.png)
+
 ## What is the role of mobile devices in healthcare? 
 
 There are lots of devices that we have seen at doctor’s offices that – thanks to Bluetooth connection and dedicated applications – have turned into **patient’s remote monitoring systems**. Also, healthcare startups create more and more **wearable healthcare devices** that enable continuous monitoring of patients. 
