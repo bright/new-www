@@ -20,7 +20,7 @@ The pandemic has shown how medical care systems in most countries around the glo
 
 ## Software and wearable devices in healthcare are the key
 
-Telehealth remote patient monitoring is not a convenience, it is a demand. And it’s not referring only to online doctor consultations that we’ve experienced during a recent pandemic. We are talking about software that enables a remote management of patients’ conditions by a doctor. The software and modern devices make it possible to monitor one’s condition and react when medical assistance is needed. Also, patients get tools to manage their conditions. For example, they check their blood pressure at home, upload results via an app and the doctor gets the information in real-time. 
+[Telehealth remote patient monitoring](/blog/bluetooth-devices-that-change-healthcare/) is not a convenience, it is a demand. And it’s not referring only to online doctor consultations that we’ve experienced during a recent pandemic. We are talking about software that enables a remote management of patients’ conditions by a doctor. The software and modern devices make it possible to monitor one’s condition and react when medical assistance is needed. Also, patients get tools to manage their conditions. For example, they check their blood pressure at home, upload results via an app and the doctor gets the information in real-time. 
 
 ## It’s now or never for healthcare tech
 
