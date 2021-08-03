@@ -19,6 +19,8 @@ COVID-19 pandemic has shown that telemedicine is crucial in answering [future me
 
 ### Pulse oximeter
 
+![Pulse oximeter](/images/blogpost_www_pulse_oximeter.png)
+
 * It monitors the oxygen saturation of the patient’s blood.
 * It displays the percentage of blood loaded with oxygen.
 * The device has become popular during the pandemic because it is a fast and simple method to calculate the risk of COVID-19 infection.
