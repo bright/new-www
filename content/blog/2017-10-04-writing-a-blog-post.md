@@ -1,35 +1,34 @@
 ---
-layout: post
-title: Writing a blog post
 author: piotr
-hidden: true
 tags:
   - blog
   - jekyll
   - github
-date: '2017-10-03T22:00:00.000Z'
+date: 2017-10-03T22:00:00.000Z
+title: Writing a blog post
+layout: post
+hidden: true
 published: true
 ---
-
 Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](https://github.com/bright/new-www).
 
-# Verify you have access to github repository
+## Verify you have access to github repository
 
 1. Open [https://github.com/bright/new-www](https://github.com/bright/new-www/tree/gh-pages/_posts).
-1. Click `Create new file` button. If the button is not there please ask [Ula 🚴‍](https://bright-inventions.slack.com/messages/D3B8FTX71), [Michał](https://bright-inventions.slack.com/messages/D04QP07B4) or [Daniel](https://bright-inventions.slack.com/messages/D04QP10LU) for access.
-
+2. Click `Create new file` button. If the button is not there please ask [Ula 🚴‍](https://bright-inventions.slack.com/messages/D3B8FTX71), [Michał](https://bright-inventions.slack.com/messages/D04QP07B4) or [Daniel](https://bright-inventions.slack.com/messages/D04QP10LU) for access.
 3. If you have access to the repository pick your way:
- - [I can browse the web](#web)
- - [I know `git`](#git)
- - [I know `git`, `bundler` and other stuff](#git-bundler)
 
-# <a name="web"></a>I can browse web
+* [I can browse the web](#web)
+* [I know `git`](#git)
+* [I know `git`, `bundler` and other stuff](#git-bundler)
+
+## <a name="web"></a>I can browse web
 
 1. Open [https://github.com/bright/new-www](https://github.com/bright/new-www/tree/gh-pages/_posts)
 2. Click `Create new file` and pick a name in format `yyyy-mm-dd-blog-post-title.md` where:
-     - `yyyy`, `mm`, `dd` are published year, month and day of month respectively e.g. 2017-10-04
-     - `blog-post-title` is the blog post title e.g. writing-a-blog-post
 
+   * `yyyy`, `mm`, `dd` are published year, month and day of month respectively e.g. 2017-10-04
+   * `blog-post-title` is the blog post title e.g. writing-a-blog-post
 3. Paste the following content into the edit form:
 
 ```
@@ -60,13 +59,14 @@ If you would like to correct some errors or remove `hidden: true` you can find t
 
 After edits are made hitting the `Commit changes` button will save the changes and publish them soon after. 
 
-# <a name="git"></a>I know `git`
+## <a name="git"></a>I know `git`
 
 1. [Clone the repository](https://github.com/bright/new-www). 
-1. When you have a rough idea what you'd like the post to be about use create a new file under `_drafts` folder named `yyyy-mm-dd-blog-post-title.md` where:
-     - `yyyy`, `mm`, `dd` are published year, month and day of month respectively e.g. 2017-10-04
-     - `blog-post-title` is the blog post title e.g. writing-a-blog-post
-     - the file starts with the following content:
+2. When you have a rough idea what you'd like the post to be about use create a new file under `_drafts` folder named `yyyy-mm-dd-blog-post-title.md` where:
+
+   * `yyyy`, `mm`, `dd` are published year, month and day of month respectively e.g. 2017-10-04
+   * `blog-post-title` is the blog post title e.g. writing-a-blog-post
+   * the file starts with the following content:
 
 ```
 ---
@@ -76,42 +76,44 @@ author: piotr
 hidden: true
 tags: [blog]
 ---
-
 ```
 
 Note that the `author:` section has to have a value defined in [authors.yml](https://github.com/bright/new-www/blob/gh-pages/_data/authors.yml) file. If you are not there **edit the file and send a pull request**. 
 The `tags:` can have multiple values e.g. `tags: blog programming bright`
 
 3. You can commit and push `_draft` whenever you need. The content is **not going** to be visible on the site.
-1. Once you are ready to share your content with the world you need to move your blog post file from `_drafts` folder into `_posts` folder. Consider using pull request or hiding the post from listing with `hidden: true` included in [front matter](https://jekyllrb.com/docs/frontmatter/)
-1. If you and your fellow 💍 colleagues are happy with how your brand new, shiny 💎 post looks like then merge the pull request or remove `hidden: true`
+4. Once you are ready to share your content with the world you need to move your blog post file from `_drafts` folder into `_posts` folder. Consider using pull request or hiding the post from listing with `hidden: true` included in [front matter](https://jekyllrb.com/docs/frontmatter/)
+5. If you and your fellow 💍 colleagues are happy with how your brand new, shiny 💎 post looks like then merge the pull request or remove `hidden: true`
 
-# <a name="git-bundler"></a>I know `git`, `bundler` and ~~nerdy~~ techie stuff
+## <a name="git-bundler"></a>I know `git`, `bundler` and ~~nerdy~~ techie stuff
 
 1. [Clone the repository](https://github.com/bright/new-www). 
-1. [Install rvm](https://rvm.io/rvm/install)
-1. Install ruby >= 2.x.x
-1. `bundle install`
-1. `bundle exec jekyll s` 👍
-1. Use [jekyll docks](https://jekyllrb.com/) to figure rest out
-1. Consider using pull request for post review 🤓
+2. [Install rvm](https://rvm.io/rvm/install)
+3. Install ruby >= 2.x.x
+4. `bundle install`
+5. `bundle exec jekyll s` 👍
+6. Use [jekyll docks](https://jekyllrb.com/) to figure rest out
+7. Consider using pull request for post review 🤓
 
-# Images and stock photos
+## Images and stock photos
 
 We all know how a nice picture can enhance post content, decrease bounce rate and attract visitors. Please pay special attention to license of the images your posts include. 
 
 There are services which offer free stock photos:
-- [Hacker news list](https://news.ycombinator.com/item?id=15602538)
-  - [Stock snap](https://stocksnap.io/)
-  - [Free images](http://www.free-images.cc/)
-  - [Unsplash](https://unsplash.com/)
-  - and many more...
-- [Pexels](https://www.pexels.com/) Free stock photos you can use everywhere. ✓ Free for commercial use ✓ No attribution required 
-- [Pixabay](https://pixabay.com) Over 1,156,004 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required.
+
+* [Hacker news list](https://news.ycombinator.com/item?id=15602538)
+
+  * [Stock snap](https://stocksnap.io/)
+  * [Free images](http://www.free-images.cc/)
+  * [Unsplash](https://unsplash.com/)
+  * and many more...
+* [Pexels](https://www.pexels.com/) Free stock photos you can use everywhere. ✓ Free for commercial use ✓ No attribution required 
+* [Pixabay](https://pixabay.com) Over 1,156,004 high quality photos, illustrations, and vector graphics. Free for commercial use. No attribution required.
 
 To include a picture in your post you can add the image to a folder named after your blog post title e.g. `/images/writing-a-blog-post/`
 
 In order to include the image you can use markdown or html e.g.:
+
 ```
 ![Image Title](/images/writing-a-blog-post/pexels-photo-296115.jpeg)
 ```
@@ -133,7 +135,7 @@ image: /images/the-importance-of-timeouts/man-clock.jpeg
 
 This will make share page pick up the image 👍
 
-# Crossposting
+## Crossposting
 
 If you include `crosspost: https://my-blog-post/:category/:year/:month/:day` in your `authors.yml` section. Then you can set `crosspost: true` to add a link to your blog.
 
@@ -146,7 +148,6 @@ piotr:
   crosspost: https://miensol.pl/:categories/:year/:month/:day/:title.html
   ...
 ```
-
 
 `2017-10-23-the-importance-of-timeouts.md`:
 
@@ -162,5 +163,3 @@ crosspost: true
 image: /images/the-importance-of-timeouts/man-clock.jpeg
 ---
 ```
-
-
