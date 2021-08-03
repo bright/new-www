@@ -1,32 +1,28 @@
 ---
-layout: post
-title: >-
-  How to deploy a service to Amazon Elastic Container Service with
-  CloudFormation?
+crosspost: true
 author: piotr
-hidden: false
 tags:
   - aws
   - ecs
   - cloudformation
   - zuul
-comments: true
-crosspost: true
+date: 2018-02-18T23:00:00.000Z
+title: How to deploy a service to Amazon Elastic Container Service with
+  CloudFormation?
+layout: post
 image: /images/ecs-service/containers.jpeg
-date: '2018-02-18T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
-canonicalUrl: >-
-  https://miensol.pl/how-to-deploy-a-service-to-amazon-elastic-container-service-with-cloud-formation/
+canonicalUrl: https://miensol.pl/how-to-deploy-a-service-to-amazon-elastic-container-service-with-cloud-formation/
 ---
-
 Containers are becoming the standard way of deploying software. Every cloud vendor now offers one or multiple ways to run containers on their platform. Most of our clients uses AWS to host their SaaS solution. As part of a new development for one of our clients we have decided to move away from [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html) and embrace containers. Amazon [Elastic Container Service](https://aws.amazon.com/ecs/) is an orchestration service that supports Docker containers and is generally available for over a year. Given our small development team it seemed like the best choice since it takes away most of the cluster management headaches. In this post I will describe how we deploy a container to ECS using [CloudFormation](https://aws.amazon.com/cloudformation/).
 
 ![containers](/images/ecs-service/containers.jpeg)
 
-# ECS Cluster definition
+## ECS Cluster definition
 
 At [Bright Inventions](/) we often use CloudFormation for infrastructure configuration since it allows us to version and track changes easily. The first piece of infrastructure we need is an [ECS cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_clusters.html). A cluster is a logical group of tasks/containers running inside ECS. In particular, since we will be using [EC2 Launch Type](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html), a cluster can also be though of as a group of EC2 instances with an ECS Agent installed.
-
 
 ```json
 "ECSMainCluster": {
@@ -129,7 +125,7 @@ Inside `UserData` we define a shell script that informs ECS Agent about the clus
 
 With the above we are now ready to deploy an ECS Cluster through CloudFormation template. However, a cluster without containers is pretty meaningless.
 
-# ECS Service and Task definition
+## ECS Service and Task definition
 
 In AWS lingo [an ECS Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_services.html) describes a minimal configuration required to deploy and run a Task Definition. A [Task Definition](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html) in turn describes how to configure and run a set of containers that form a single logical component.
 
@@ -183,4 +179,3 @@ The `EmailSenderService` is pretty straightforward to understand. The `EmailSend
 Next we have the `LogConfiguration` that pushes containers logs to the `EmailSenderLogsGroup` CloudWatch Log Group so that we can can inspect them through AWS Console. The `PortMappings` lists ports exposed by a running container. Note that we have not defined the host port and it will get assigned automatically. This is important when running multiple instances of the same container. I'll describe it in a bit more detail in the next post. Last but not least the `Environment` section lists environment variables passed to the container instances on startup. Here we are referencing a `DeployEnv` stack parameter that allows us to inform the application running inside the container about the current deployment environment e.g. staging vs production.
 
 As you can see above it takes couple of steps to use CloudFormation to deploy a container to ECS. It is true that it requires more configuration than Elastic Beanstalk. However, it allows for better utilization of EC2 instances and an uniform approach to deployment and configuration regardless of the application technology used inside the container. Moreover it is more future proof as with few adjustments it should be possible to switch to [Fargate Launch Mode](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html). Using this mode releases us from the burden of EC2 ECS cluster management tasks. Deploying more services and tasks will require separate CloudFormation resource definitions. However, with the help of [cloudform](/blog/introducing-cloudform-tame-aws-cloudformation-templates/) it easy keep the CloudFormation template DRY.
-
