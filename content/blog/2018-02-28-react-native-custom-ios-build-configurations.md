@@ -1,22 +1,21 @@
 ---
-layout: post
-title: Different iOS build configurations than Debug and Release in React Native
 author: mateusz
 tags:
   - react native
   - ios
   - build configurations
-comments: true
+date: 2018-02-27T23:00:00.000Z
+title: Different iOS build configurations than Debug and Release in React Native
+layout: post
 image: /images/react-native-custom-ios-build-configurations/build-configurations.png
-date: '2018-02-27T23:00:00.000Z'
+comments: true
 published: true
 ---
-
 Default iOS build configurations, **Debug** and **Release**, might be enough for the beginning, but sooner or later you will probably need to extend the number of build configurations in your app. While this is pretty straightforward in native development, unfortunately, it is not in React Native.
 
 ## Build configurations
 
-To manage build configuration go to Xcode the project settings ([PROJECT]→Info):
+To manage build configuration go to Xcode the project settings (\[PROJECT]→Info):
 
 ![image](/images/react-native-custom-ios-build-configurations/project-target.png)
 
@@ -24,11 +23,11 @@ You can easily add a new build configuration by **duplicating an existing one**.
 
 ![image](/images/react-native-custom-ios-build-configurations/build-configurations.png)
 
-#### Debug vs Release
+### Debug vs Release
 
 Debug configuration builds the complete symbolic debug information without any code optimizations to facilitate debugging applications. In Release configuration code execution is optimized and symbolic information is not included in build which results in a smaller size of the final executable. Release builds will execute faster although due to compiler optimizations you can expect differences in memory layout or initialization which might result in so-called "Release-only" bugs.
 
-#### Run build configuration
+### Run build configuration
 
 The steps presented above steps are enough to set up new build configurations in a native development. To run the app in build configuration open **scheme** and change Run build configuration:
 
@@ -38,25 +37,25 @@ The steps presented above steps are enough to set up new build configurations in
 
 To start the iOS app with build configuration specified in React Native you can simply run:
 
-```react-native run-ios --configuration Stage```
+`react-native run-ios --configuration Stage`
 
 Unfortunately, this will fail for any Release-based configuration with an error saying that it cannot find `RCTBundleURLProvider` in AppDelegate:
 
 > AppDelegate.m:2:9: 'React/RCTBundleURLProvider.h' file not found
 
-We need to add missing **Header Search Paths** and **Library Search Paths** in the target build settings ([TARGET]→Build Settings) for new Release build configurations.
+We need to add missing **Header Search Paths** and **Library Search Paths** in the target build settings (\[TARGET]→Build Settings) for new Release build configurations.
 
 ![image](/images/react-native-custom-ios-build-configurations/build-settings-search-paths.png)
 
 Add an entry to **Headers Search Paths** for each new Release build configuration:
 
-```$(BUILD_DIR)/Release-$(PLATFORM_NAME)/include```
+`$(BUILD_DIR)/Release-$(PLATFORM_NAME)/include`
 
 ![image](/images/react-native-custom-ios-build-configurations/header-search-paths.png)
 
 Add an entry to **Library Search Paths** for each new Release build configuration:
 
-```$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)```
+`$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)`
 
 ![image](/images/react-native-custom-ios-build-configurations/library-search-paths.png)
 
@@ -64,7 +63,7 @@ Add an entry to **Library Search Paths** for each new Release build configuratio
 
 Eventually, you can start the app with specified build configuration:
 
-```react-native run-ios --configuration Stage```
+`react-native run-ios --configuration Stage`
 
 and it should run without any problems.
 
