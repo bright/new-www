@@ -29,7 +29,7 @@ The healthcare software developers within the team should be mid and senior deve
 ### Healthcare software developers should:
 
 * Have **experience** in software development. Mid and senior developers are must-haves.
-* **Be open** to testnot only their code but also the whole approach.
+* **Be open** to test not only their code but also the whole approach.
 * Think forward and always try to **predict a possible outcome** and risk of the technical path that they are willing to choose.
 * Be a part of **the team of experts that know each other well**, have worked on various projects together, and enjoy working with each other.
 * Pay huge attention to **code review, testing and QA**. Healthcare software projects should include more time spending on QAs compared to regular software development processes.
@@ -55,7 +55,7 @@ MVP (Minimum Viable Product) is the first minimal version of the product that in
 
 When you launch a health app, your adventure has really just begun. Now it’s time for constant development, adding new features, receiving feedback, and reacting to any bugs. 
 
-Check out our other blog post, if you want to [know more about software development stages](https://brightinventions.pl/blog/what-are-the-stages-of-app-development/).
+Check out our other blog post, if you want to [know more about software development stages](/blog/what-are-the-stages-of-app-development/).
 
 ## Software development phases in health tech
 
@@ -69,4 +69,4 @@ When it comes to custom healthcare app development every part of the process has
 
 Are you looking for a **healthcare software development company**? You’ve come to the right place!
 
-[Estimate your healthcare project](https://brightinventions.pl/start-project)
+[Estimate your healthcare project](/start-project)
