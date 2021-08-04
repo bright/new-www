@@ -45,13 +45,13 @@ Also known as lecturing the client. If you know the domain well, thoughtful advi
 
 This is an issue of a bit different character. While being kind is crucial, too much humble courtesy can change the message you wish to convey. **Something important can be perceived as much less serious, because you painted it as such**. In general, think twice before using phrases like “no worries if not”, “it’s not a problem at all” - is it not, really? If it’s a small issue or you can tackle something in a breeze, go ahead. If something is crucial or you will spend a night over fixing something, be honest about it. Do not put yourself in the lost position from the start. Finding a balance between politeness and assertiveness is the key.
 
-![source: https://www.newyorker.com/humor/daily-shouts/no-worries-if-not](/images/noworries.png "no worries")
+![no worries](/images/1_lobanova_no_worries.jpeg "no worries")
 
-source: [New Yorker magazine](https://www.newyorker.com/humor/daily-shouts/no-worries-if-not)
+*source:* Natalya Lobanova,* [New Yorker magazine](https://www.newyorker.com/humor/daily-shouts/no-worries-if-not)*
 
 ## **5. “no”**
 
-It’s when you communicate but in a way a grumpy old man would. For “Do you know when I can expect this feature to be finished?” he’d answer “no”, for “Will I be able to test this on Friday?” he’d answer “don’t know”. It’s good to answer clearly and honestly, however adding some more information is how you show appreciation and understanding to the person you are talking to. Otherwise you may come across as someone who doesn’t care, even if you actually do. Always think about what you would like to know in such situations. When your car breaks down and a mechanic is working on it, you would appreciate knowing how serious the fix will be and what is currently going on with your precious car. 
+It’s when you communicate but in a way a grumpy old man would. For “*Do you know when I can expect this feature to be finished?*” he’d answer “*no*”, for “*Will I be able to test this on Friday?*” he’d answer “*don’t know*”. It’s good to answer clearly and honestly, however adding some more information is how you show appreciation and understanding to the person you are talking to. Otherwise you may come across as someone who doesn’t care, even if you actually do. **Always think about what you would like to know in such situations**. When your car breaks down and a mechanic is working on it, you would appreciate knowing how serious the fix will be and what is currently going on with your precious car. 
 
 Which brings us to...
 
@@ -60,8 +60,6 @@ Which brings us to...
 When [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck) tweeted back in 2015 that [“the \*craft\* programming begins with empathy, not formatting or languages or tools or algorithms or data structures”](https://twitter.com/kentbeck/status/566255102067871744) it struck a note. Some people agreed with passion, while others felt there’s something gimmicky about it, because what about hard work and discipline, and a bunch of other crucial elements. However, since then **the idea of empathy as an important skill for the programmers** has been explored and it is much less controversial now.
 
 For some people empathy comes naturally. Equipped with other supporting personality traits, they intuitively feel other people’s emotions without thinking about it too much. For others it can be more challenging. **It doesn’t help that most of us haven't been taught empathy at school the way we were taught math, so we didn’t think of it as something one should learn**. However this is exactly the case - regardless of the intuitive, let’s call it in-born empathy, empathy as such is actually a skill that we can and should practice. If not for anything else, then at least for the sake of the systems that we create. 
-
-
 
 We all have good times and bad times, I know I’ve had my share struggling with all of the issues from this post now and then. It’s impossible to be your open and positive self 24/7 but trying your best is the goal. 
 
