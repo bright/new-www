@@ -5,7 +5,7 @@ tags:
 date: 2016-01-31T23:00:00.000Z
 title: Heartbeat button
 layout: post
-image: /images/heartbeat-inactive.png
+image: /images/heart-baloon.webp
 comments: true
 published: true
 ---
