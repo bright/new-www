@@ -24,8 +24,10 @@ In my experience, this is the most common problem and I could stop at it really.
 There’s usually this feeling **“Maybe they won’t notice, maybe it’s not that important”** - if you get it, it’s a wonderful indication that **indeed, they WILL and yes, it IS**. For starters, YOU did notice that it might be an issue. Think about the most common situations when you struggle to communicate, it will be easier to speak up the next time when you spot them. If it’s usually about the estimations (when you already know you won’t make it in time but say nothing), then next time try to push yourself to talk before the actual deadline apocalypse. I still struggle with this sometimes but realising it’s a problem is already a step forward.  
 
 Another reason might be that you just didn’t pay enough attention to know what and when to say. It happens and it’s ok, unless you spend the whole meeting scrolling through cat memes.
-
-![grumnpy cat](/images/grumpy2.gif "grumpy cat")
+<div style="text-align:center" markdown="1">
+<img src="/images/grumpy2.gif" alt="grumpy")
+</div>
+<div style="text-align:left">
 
 Again, **admitting to drifting off for a while and asking to repeat the last sentence** (just not the whole meeting because cat memes) is better than staying mute, praying to not be asked about anything. 
 
@@ -36,16 +38,22 @@ And to reassure you - **over communication is never a big mistake that escalates
 It’s good to know your crowd. You wouldn’t go into details of AWS cloud formation templates on your first date (that’s a known faux-pas, leave it for the second date). Getting all technical at a high level feature discussion would not bring the positive attention it otherwise might, for example during the Sprint planning or devs meeting. **Think about what’s interesting and useful to know for the person you talk to**. Even though it might seem that fireworks of technical terms will show your knowledge, people feel safer if they actually understand what’s going on and can trust you.
 
 ## 3. **“This feature makes no sense”**
-
-![stupid pointless](/images/stupid_pointless.gif "stupid pointless")
+</div>
+<div style="text-align:center" markdown="1">
+<img src="/images/stupid_pointless.gif" alt="stupid pointless")
+</div>
+<div style="text-align:left">
 
 Also known as lecturing the client. If you know the domain well, thoughtful advice is usually welcomed as that’s why you’re here for probably. However, never tell the users what they “really” need, contradicting their requirements, even when you have the best intentions. Help them think about their expectations but do not dictate your ideas upfront. **It’s good to ask a lot of questions if something doesn’t feel right, making sure you understand it correctly before criticising**. Sometimes asking the right questions will be enough to make your point. If you’re still unsure, announcing the fact that your point of view might differ from the client’s but leaving the details until you figure out how to present them might be a good idea.
 
 ## **4. “No worries if not!”**
 
 This is an issue of a bit different character. While being kind is crucial, too much humble courtesy can change the message you wish to convey. **Something important can be perceived as much less serious, because you painted it as such**. In general, think twice before using phrases like “no worries if not”, “it’s not a problem at all” - is it not, really? If it’s a small issue or you can tackle something in a breeze, go ahead. If something is crucial or you will spend a night over fixing something, be honest about it. Do not put yourself in the lost position from the start. Finding a balance between politeness and assertiveness is the key.
-
-![no worries](/images/1_lobanova_no_worries.jpeg "no worries")
+</div>
+<div style="text-align:center">
+<img src="/images/1_lobanova_no_worries.jpeg" width="500" alt="no worries")
+</div>
+<div style="text-align:left">
 
 *source:* Natalya Lobanova,* [New Yorker magazine](https://www.newyorker.com/humor/daily-shouts/no-worries-if-not)*
 
@@ -64,3 +72,4 @@ For some people empathy comes naturally. Equipped with other supporting personal
 We all have good times and bad times, I know I’ve had my share struggling with all of the issues from this post now and then. It’s impossible to be your open and positive self 24/7 but trying your best is the goal. 
 
 **Both empathy and communication can and should be practised. They’re not elusive parts of one’s character - they are skills.** Skills that become increasingly important in the way developers and other IT professionals work. Practice them any way you can. No worries if not! But please do ;)
+</div>
