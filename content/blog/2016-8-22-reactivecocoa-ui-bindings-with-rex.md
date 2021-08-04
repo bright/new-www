@@ -1,11 +1,12 @@
 ---
-layout: post
-title: ReactiveCocoa UI bindings with Rex
+author: eliasz
 tags:
   - iOS
+date: 2016-08-21T22:00:00.000Z
+title: ReactiveCocoa UI bindings with Rex
+layout: post
+image: /images/bright_team-compressor.jpg
 comments: true
-author: eliasz
-date: '2016-08-21T22:00:00.000Z'
 published: true
 ---
 Today, we will take a closer look at [Rex](https://github.com/RACCommunity/Rex) - ReactiveCocoa extensions. I find Rex pretty helpful when working with ReactiveCocoa, especially creating UI bindings.
