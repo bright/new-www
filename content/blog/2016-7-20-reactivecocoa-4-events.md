@@ -1,11 +1,12 @@
 ---
-layout: post
-title: ReactiveCocoa 4 - Events
+author: eliasz
 tags:
   - iOS
+date: 2016-07-19T22:00:00.000Z
+title: ReactiveCocoa 4 - Events
+layout: post
+image: /images/laptop-2.jpg
 comments: true
-author: eliasz
-date: '2016-07-19T22:00:00.000Z'
 published: true
 ---
 
