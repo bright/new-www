@@ -1,11 +1,12 @@
 ---
-layout: post
-title: Fetching contacts with CNContactStore
+author: eliasz
 tags:
   - iOS
+date: 2016-02-04T23:00:00.000Z
+title: Fetching contacts with CNContactStore
+layout: post
+image: /images/laptop-2.jpg
 comments: true
-author: eliasz
-date: '2016-02-04T23:00:00.000Z'
 published: true
 ---
  
