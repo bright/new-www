@@ -1,11 +1,12 @@
 ---
-layout: post
-title: Redux - How do I understand it?
+author: eliasz
 tags:
   - Architecture
+date: 2017-04-18T22:00:00.000Z
+title: Redux - How do I understand it?
+layout: post
+image: /images/header.jpeg
 comments: true
-author: eliasz
-date: '2017-04-18T22:00:00.000Z'
 published: true
 ---
 
