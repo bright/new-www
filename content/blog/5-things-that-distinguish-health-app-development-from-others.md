@@ -5,7 +5,7 @@ tags:
 date: 2021-08-09T07:00:10.034Z
 title: 5 things that distinguish health app development from others
 layout: post
-image: /images/healthcare_app.png
+image: /images/blogpost_www_healthcareapp.png
 hidden: false
 comments: true
 published: true
@@ -14,7 +14,7 @@ published: true
 
 Health apps are a part of digital healthcare transformation that affects the future of global healthcare. **Health apps support patients and medical staff in managing their daily duties and tasks.** They often help patients manage their chronic disease and support nurses and doctors in their daily work. They are important tools which can really facilitate people’s life and health habits, but we have to keep in mind that compared to medical apps they don’t **have an ability to directly influence the patient’s medical state**.
 
-![healthcare app](/images/blogpost_www_healthcareapp.png)
+![healthcare app](/images/healthcare_in_post5.png)
 
 ## Healthcare and medical apps – understanding the difference
 
