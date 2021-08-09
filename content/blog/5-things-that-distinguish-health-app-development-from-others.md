@@ -30,9 +30,9 @@ Although – compared to medical software development – the pressure is lower,
 
 ‘Hold on! Security is important in every case’, some would say. And that’s true. However, the consequences of the data breach of a health app that stores medical information are often bigger. In terms of health apps, security bugs can result in leaking fragile information regarding the state of patients, their health history or taken medicine. The stake is simply higher than when it comes to, for example, developing apps that help you find the right restaurant.
 
-### 2. Offsite mode
+### 2. Offline mode
 
-If you think that offsite mode is so not 2021, then you may be surprised. Health apps need to be treated a little bit differently. For example, when you plan to build an app for hospital doctors which shows the medical history of their patients, you need to make sure that they have access to the data at every time in every possible place around the whole hospital. Doctors cannot risk the patients’ safety using an app that wouldn’t operate without the internet. The data has to be synchronised as soon as users have an internet connection.
+If you think that offline mode is so not 2021, then you may be surprised. Health apps need to be treated a little bit differently. For example, when you plan to build an app for hospital doctors which shows the medical history of their patients, you need to make sure that they have access to the data at every time in every possible place around the whole hospital. Doctors cannot risk the patients’ safety using an app that wouldn’t operate without the internet. The data has to be synchronised as soon as users have an internet connection.
 
 ### 3. Greater risk behind every update
 
