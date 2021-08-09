@@ -10,6 +10,8 @@ hidden: false
 comments: true
 published: true
 ---
+**What are health applications? What makes healthcare app development unique? Find out!**
+
 ## What are healthcare apps?
 
 Health apps are a part of digital healthcare transformation that affects the future of global healthcare. **Health apps support patients and medical staff in managing their daily duties and tasks.** They often help patients manage their chronic disease and support nurses and doctors in their daily work. They are important tools which can really facilitate people’s life and health habits, but we have to keep in mind that compared to medical apps they don’t **have an ability to directly influence the patient’s medical state**.
@@ -20,7 +22,7 @@ Health apps are a part of digital healthcare transformation that affects the fut
 
 Although this article focuses on healthcare apps, we should establish the main differences between healthcare and medical apps. Healthcare and medical software both support the well-being of the patient and the efficiency of medical workers. However, **medical apps have a bigger influence on patients’ state or life** in some cases. A great example may be medical apps that manage the heart pacemakers. Any problem with the software may directly affect the user’s/patient’s life. That is why, medical apps have to be certified and approved by the national authorities.
 
-## 5 factors that make health app development unique
+## 5 factors that make healthcare app development unique
 
 Although – compared to medical software development – the pressure is lower, healthcare startups still have to take these factors into consideration:
 
