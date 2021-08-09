@@ -10,7 +10,7 @@ hidden: false
 comments: true
 published: true
 ---
-**What are health applications? What makes healthcare app development unique? Find out!**
+**What makes healthcare app development special? Find out 5 unique factors of healthcare application development.**
 
 ## What are healthcare apps?
 
