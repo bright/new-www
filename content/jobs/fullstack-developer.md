@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Senior Node.js Developer "
+title: "Senior Fullstack Developer "
 subtitle: ONGOING
 hours: Full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
@@ -22,7 +22,7 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description
 
-We are looking now for a  **Senior Node.js Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
+We are looking now for a  **Senior Fullstack Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
 
 ## what we would like to see
 
@@ -32,6 +32,11 @@ We are looking now for a  **Senior Node.js Developer** who has already had exper
 * strong problem solving attitude and open mind
 * positive approach to work and new challenges  
 * advanced level of English (written and spoken)
+
+## we would also appreciate if you have
+
+* familiarity with AWS or other Cloud providers
+* experience with development in React 
 
 ## how we work
 
