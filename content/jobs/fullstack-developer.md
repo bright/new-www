@@ -22,7 +22,7 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description
 
-We are looking now for a  **Senior Node.js Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
+We are looking now for a  **Senior Fullstack Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
 
 ## what we would like to see
 
