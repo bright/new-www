@@ -8,7 +8,7 @@ import {
   ViewerCertificate
 } from '@aws-cdk/aws-cloudfront'
 import { Effect, PolicyStatement, User } from '@aws-cdk/aws-iam'
-import { domainNames } from './domain-names'
+import { productionDomainNames, stagingDomainNames } from './domain-names'
 import { Certificate } from '@aws-cdk/aws-certificatemanager'
 import { NodejsFunction } from '@aws-cdk/aws-lambda-nodejs'
 import { join as pathJoin } from 'path'
@@ -19,63 +19,73 @@ import { LambdaFunction } from '@aws-cdk/aws-events-targets'
 
 interface WebsiteProps {
   certificateArn: string
+  prefix?: string
 }
 
 export class Website extends cdk.Stack {
   constructor(scope: cdk.Construct, props: WebsiteProps) {
-    super(scope, 'BrightInventionsPl')
+    super(scope,  'BrightInventionsPl')
 
     const originAccessIdentity = new OriginAccessIdentity(this, 'cloudfront access')
     const user = new User(this, 'GithubPagesDeploymentUser', {
       userName: 'brightinventions-pl-deployer',
     })
 
-    const bucket = new Bucket(this, 'bucket', {
+    const productionBucket = new Bucket(this, 'bucket', {
       bucketName: 'brightinventions-pl-website-content',
     })
 
-    bucket.addLifecycleRule({
-      expiration: Duration.days(30),
+    const stagingBucket = new Bucket(this, 'staging-bucket', {
+      bucketName: 'brightinventions-pl-website-content-staging',
+      removalPolicy: RemovalPolicy.DESTROY
     })
 
-    bucket.grantRead(originAccessIdentity)
+    const buckets = [productionBucket, stagingBucket]
 
-    bucket.grantReadWrite(user)
-
-    // required for static website hosting
-    bucket.grantPublicAccess()
-
-    user.addToPolicy(
-      new PolicyStatement({
-        actions: ['s3:PutBucketWebsite'],
-        resources: [bucket.bucketArn],
-        effect: Effect.ALLOW,
+    buckets.forEach(bucket => {
+      bucket.addLifecycleRule({
+        expiration: Duration.days(30),
       })
-    )
-    user.addToPolicy(
-      new PolicyStatement({
-        actions: ['s3:PutObjectAcl'],
-        resources: [bucket.bucketArn, bucket.arnForObjects('*')],
-        effect: Effect.ALLOW,
-      })
-    )
+
+      bucket.grantRead(originAccessIdentity)
+
+      bucket.grantReadWrite(user)
+
+      // required for static website hosting
+      bucket.grantPublicAccess()
+
+      user.addToPolicy(
+        new PolicyStatement({
+          actions: ['s3:PutBucketWebsite'],
+          resources: [bucket.bucketArn],
+          effect: Effect.ALLOW,
+        })
+      )
+      user.addToPolicy(
+        new PolicyStatement({
+          actions: ['s3:PutObjectAcl'],
+          resources: [bucket.bucketArn, bucket.arnForObjects('*')],
+          effect: Effect.ALLOW,
+        })
+      )
+    })
 
     const certificate = Certificate.fromCertificateArn(this, 'certificate', props.certificateArn)
 
     const accessLogs = new Bucket(this, 'Access Logs', {
       removalPolicy: RemovalPolicy.DESTROY,
-      bucketName: 'brightinventions-pl-access-logs'
+      bucketName: 'brightinventions-pl-access-logs',
     })
     const cloudfrontAccessLogPrefix = 'brightinventions-pl/cloudfront'
 
-    const webDistribution = new CloudFrontWebDistribution(this, 'distribution', {
+    const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
       originConfigs: [
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
           // however if we don't use gatsby-s3-deploy server side redirects
           // we can get this to work by mapping 403 and 401 in CF to index.html
           customOriginSource: {
-            domainName: bucket.bucketWebsiteDomainName,
+            domainName: productionBucket.bucketWebsiteDomainName,
             originProtocolPolicy: OriginProtocolPolicy.HTTP_ONLY,
           },
           behaviors: [
@@ -86,13 +96,42 @@ export class Website extends cdk.Stack {
         },
       ],
       viewerCertificate: ViewerCertificate.fromAcmCertificate(certificate, {
-        aliases: domainNames,
+        aliases: productionDomainNames,
       }),
       loggingConfig: {
         bucket: accessLogs,
         prefix: cloudfrontAccessLogPrefix,
       },
     })
+
+
+    const stagingWebDistribution = new CloudFrontWebDistribution(this, 'staging-distribution', {
+      originConfigs: [
+        {
+          // we don't use s3 origin as gatsby-s3-deploy features will not work
+          // however if we don't use gatsby-s3-deploy server side redirects
+          // we can get this to work by mapping 403 and 401 in CF to index.html
+          customOriginSource: {
+            domainName: stagingBucket.bucketWebsiteDomainName,
+            originProtocolPolicy: OriginProtocolPolicy.HTTP_ONLY,
+          },
+          behaviors: [
+            {
+              isDefaultBehavior: true,
+            },
+          ],
+        },
+      ],
+      viewerCertificate: ViewerCertificate.fromAcmCertificate(certificate, {
+        aliases: stagingDomainNames,
+      }),
+      loggingConfig: {
+        bucket: accessLogs,
+        prefix: cloudfrontAccessLogPrefix,
+      },
+    })
+
+    stagingWebDistribution.node.addDependency(productionWebDistribution)
 
     const scheduleRate = Duration.days(1)
 
@@ -103,16 +142,18 @@ export class Website extends cdk.Stack {
       timeout: Duration.minutes(1),
       environment: {
         BUCKET_NAME: accessLogs.bucketName,
-        BUCKET_KEYS_PREFIX: `${cloudfrontAccessLogPrefix}/${webDistribution.distributionId}.`,
-        SCHEDULE_RATE_MINUTES: scheduleRate.toMinutes().toString()
-      }
+        BUCKET_KEYS_PREFIX: `${cloudfrontAccessLogPrefix}/${productionWebDistribution.distributionId}.`,
+        SCHEDULE_RATE_MINUTES: scheduleRate.toMinutes().toString(),
+      },
     })
 
-    notifyOn404.addToRolePolicy(new PolicyStatement({
-      effect: Effect.ALLOW,
-      actions: ['ses:SendEmail'],
-      resources: ['*']
-    }))
+    notifyOn404.addToRolePolicy(
+      new PolicyStatement({
+        effect: Effect.ALLOW,
+        actions: ['ses:SendEmail'],
+        resources: ['*'],
+      })
+    )
 
     accessLogs.grantRead(notifyOn404)
 
@@ -135,7 +176,16 @@ export class Website extends cdk.Stack {
             {
               resource: 'distribution',
               service: 'cloudfront',
-              resourceName: webDistribution.distributionId,
+              resourceName: productionWebDistribution.distributionId,
+              region: '',
+            },
+            this
+          ),
+          Arn.format(
+            {
+              resource: 'distribution',
+              service: 'cloudfront',
+              resourceName: stagingWebDistribution.distributionId,
               region: '',
             },
             this
@@ -144,12 +194,20 @@ export class Website extends cdk.Stack {
       })
     )
 
-    new CfnOutput(this, 'DistributionId', {
-      value: webDistribution.distributionId,
+    new CfnOutput(this, 'ProductionDistributionId', {
+      value: productionWebDistribution.distributionId,
     })
 
-    new CfnOutput(this, 'DistributionDomainName', {
-      value: webDistribution.distributionDomainName,
+    new CfnOutput(this, 'StagingDistributionId', {
+      value: stagingWebDistribution.distributionId,
+    })
+
+    new CfnOutput(this, 'ProductionDistributionDomainName', {
+      value: productionWebDistribution.distributionDomainName,
+    })
+
+    new CfnOutput(this, 'StagingDistributionDomainName', {
+      value: stagingWebDistribution.distributionDomainName,
     })
   }
 }

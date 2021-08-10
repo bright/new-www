@@ -14,7 +14,7 @@ new CloudFrontCertificates(app)
 // https://miensol.pl/cloudfront-custom-domain-https/
 
 new Website(app, {
-  certificateArn: 'arn:aws:acm:us-east-1:339594496974:certificate/25970e69-39e2-4e6d-9c83-7081e40c40a0'
+  certificateArn: 'arn:aws:acm:us-east-1:339594496974:certificate/22e6ab03-13e4-4541-9094-128a8024c5f8'
 })
 
 const tags = Tags.of(app)
