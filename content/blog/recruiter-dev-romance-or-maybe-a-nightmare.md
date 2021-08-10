@@ -62,7 +62,7 @@ When I was starting my recruitment career in IT industry despite the fact that I
 
 I am not ashamed of the fact that I was googling almost everything, reading tech blogs, or asking my colleagues-developers to explain what deployment was or how Node.js framework worked. I was taking notes, checking software tools and reading Uncle Bob’s literature. I was learning and I am still doing that. And to be honest I think being a professional is about learning our all life.
 
-I think there are many recruiters who really know the difference between Java and JavaScript. ;) For me it does not matter if I am interviewing a developer, a marketing specialist, a sales manager, a builder or a doctor. I just do not underestimate. So, please do the same. Do not follow popular stereotypes of HR people. Believe me or not, good recruiters are well-prepared to every process regardless of the industry or a seniority level of the role they are searching for.
+I think there are many recruiters who really know the difference between Java and JavaScript.🙃 For me it does not matter if I am interviewing a developer, a marketing specialist, a sales manager, a builder or a doctor. I just do not underestimate. So, please do the same. Do not follow popular stereotypes of HR people. Believe me or not, good recruiters are well-prepared to every process regardless of the industry or a seniority level of the role they are searching for.
 
 ## #6 Oh well, being a single is not so bad
 
