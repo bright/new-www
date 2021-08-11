@@ -39,7 +39,7 @@ I have really no idea what we did wrong. Or maybe it was stress. Yet I am not su
 </div>
 <div style="text-align:left">
 
-I know that interviews might be hard, stressful and even exhausting, but we should respect each other’s time and even if you are experiencing some emotional tension or strain, just tell your recruiter about it. It is natural you do not know each other and may feel little anxious, but let us not spoil a date before it event starts.
+I know that interviews might be hard, stressful and even exhausting, but we should respect each other’s time and even if you are experiencing some emotional tension or strain, just tell your recruiter about it. You do not know each other and it is natural you may feel little anxious, but let us not spoil a date before it event starts.
 
 My brief advice here is - please think twice before you agree to take part in the interview and if you are a recruiter - please think twice before you invite someone for an interview. Let us not waste each other’s time and [give it to someone special](https://www.youtube.com/watch?v=E8gmARGvPlI). 
 
