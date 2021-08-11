@@ -5,7 +5,8 @@ export const createBlogPosts = (data: GQLData): BlogPostModel[] => (
     ...node.frontmatter,
     id: node.id,
     slug: node.fields.slug,
-    excerpt: node.excerpt
+    excerpt: node.excerpt,
+    tags: node.tags ?? []
   } as BlogPostModel))
 )
 
