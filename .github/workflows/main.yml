@@ -37,9 +37,16 @@ jobs:
             ${{ runner.os }}-gatsby-build-v3-
       - run: yarn install
       - run: yarn run build
+        if: ${{ github.ref == 'refs/heads/gatsby' }}
         env:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
           CI: true
+      - run: yarn run build
+        if: ${{ github.ref == 'refs/heads/staging' }}
+        env:
+          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+          CI: true
+          DEPLOY_S3_BUCKET_NAME: 'brightinventions-pl-website-content-staging'
   deploy-s3:
     runs-on: ubuntu-latest
     needs:
