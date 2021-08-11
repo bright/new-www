@@ -51,7 +51,7 @@ I really like the analogy between a recruitment process and dating. But the pote
 
 ## #4 [Love is gone](https://www.youtube.com/watch?v=YjFmUFNSZpE)
 
-So, your dream candidate is here. Let us called him John. He has just started a new perfect job in your company. You feel you are the best recruiter in the universe, you feel you can move the recruiting mountains, you won again. The new hire is over the moon, a new place seems to be amazing, great people, an exciting project, but… a week after week John feels worse, less motivated, a bit sad. **And I think that is the situation I find  personally the biggest nightmare. Or at least I used to.** 
+So, your dream candidate is here. Let us call him John. He has just started a new perfect job in your company. You feel you are the best recruiter in the universe, you feel you can move the recruiting mountains, you won again. The new hire is over the moon, a new place seems to be amazing, great people, an exciting project, but… a week after week John feels worse, less motivated, a bit sad. **And I think that is the situation I find  personally the biggest nightmare. Or at least I used to.** 
 
 Both you and candidates put a lot of energy in starting and developing every relation. You believe it may last forever. You believe that you have found a perfect chance for someone to take up their career to the next level, and now everything is almost gone. What did you do wrong? Where did you make a mistake? You were trying really hard, you were honest, you were transparent. But you failed. 
 
