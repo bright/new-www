@@ -1,5 +1,10 @@
 ---
 author: ula
+tags:
+  - recruitment
+  - HR
+  - teamwork
+  - communication
 date: 2021-08-10T19:30:23.854Z
 title: "Recruiter-Dev Romance. Or Maybe a Nightmare? "
 layout: post
