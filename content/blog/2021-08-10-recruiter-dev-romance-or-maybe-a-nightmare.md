@@ -41,7 +41,7 @@ I have really no idea what we did wrong. Or maybe it was stress. Yet I am not su
 
 I know that interviews might be hard, stressful and even exhausting, but we should respect each other’s time and even if you are experiencing some emotional tension or strain, just tell your recruiter about it. You do not know each other and it is natural you may feel little anxious, but let us not spoil a date before it event starts.
 
-My brief advice here is - please think twice before you agree to take part in the interview and if you are a recruiter - please think twice before you invite someone for an interview. Let us not waste each other’s time and [give it to someone special](https://www.youtube.com/watch?v=E8gmARGvPlI). 
+My brief advice here is - please think twice before you agree to take part in the interview and if you are a recruiter - please think twice before you invite someone for an interview. Let us not waste each other’s time and [give it to someone special](https://www.youtube.com/watch?v=E8gmARGvPlI). 😉
 
 ## #3 Sorry, I have met someone else
 
@@ -51,13 +51,13 @@ I really like the analogy between a recruitment process and dating. But the pote
 
 ## #4 [Love is gone](https://www.youtube.com/watch?v=YjFmUFNSZpE)
 
-So, your dream candidate is here. Let us call him John. He has just started a new perfect job in your company. You feel you are the best recruiter in the universe, you feel you can move the recruiting mountains, you won again. The new hire is over the moon, a new place seems to be amazing, great people, an exciting project, but… a week after week John feels worse, less motivated, a bit sad. **And I think that is the situation I find  personally the biggest nightmare. Or at least I used to.** 
+So, your dream candidate is here. Let us call him John. He has just started a new perfect job in your company. You feel you are the best recruiter in the universe, you feel you can move the recruiting mountains, you won again. The new hire is over the moon, a new place seems to be amazing, great people, an exciting project, but… a week after week John feels worse, less motivated, a bit sad. **And I think that is the situation I find personally the biggest nightmare. Or at least I used to.** 
 
 Both you and candidates put a lot of energy in starting and developing every relation. You believe it may last forever. You believe that you have found a perfect chance for someone to take up their career to the next level, and now everything is almost gone. What did you do wrong? Where did you make a mistake? You were trying really hard, you were honest, you were transparent. But you failed. 
 
 What I have learned in my life so far is that not every love relationship will stand the test of time either private or professional one. With some people we will create a real team whereas others may leave after a few weeks or months because they find out that it is not a place they are searching for or we may just discover they are not people we are looking for. The delusion of a perfect match disappears. The love is just gone. 
 
-I used to experience quite hard every failure of this kind, but I have also learnt that each and every goodbye is a good moment for switching on an auto-reflection mode and think if we really did our best. Maybe we fell in love with an inappropriate person? Maybe it was just a cognitive bias? Or maybe we made a decision under pressure? 
+I used to experience quite hard every failure of this kind, but I have also learnt that each and every goodbye is a good moment for switching on an auto-reflection mode and thinkinh if we really did our best. Maybe we fell in love with an inappropriate person? Maybe it was just a cognitive bias? Or maybe we made a decision under pressure? 
 
 Were we really open and sincere about the company’s expectations and requirements? Did we present a team, a project and potential tasks and challenges just like they are? The auto-reflection should be applied in every phase of the recruitment process, after every meeting, after every conversation. And if we as recruiters feel that we were over-the-top, we should always make this right. The sooner the better. 
 
