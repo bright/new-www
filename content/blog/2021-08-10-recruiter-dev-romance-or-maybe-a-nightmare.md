@@ -81,7 +81,7 @@ If you are missing empathy, you are lacking emotional intelligence and you just 
 
 When I started writing this blog post I was not sure what it would be about. And for sure I did not expect it to be so long (sorry for that 🥲). But I can see every now and then people, both candidates and recruiters, who are not happy about the recruitment processes they lead or take part in. And well, my job is also not perfect as you probably may have already known. Not every person I talk to turns out to be an ideal new hire. But I want to encourage you to think about what the real reasons for this whole recruiting unhappiness and dissatisfaction are. 
 
-Are recruiters dumb? Or are developers really such douche bags as some recruiters say? I think that we should always treat other people as we would like to be treated ourselves. That is my philosophy and probably it works because I still like and believe in people and I still have a mission to do. 
+Are recruiters really dumb? Or are developers such douche bags as some recruiters say? I think that we should always treat other people as we would like to be treated ourselves. That is my philosophy and probably it works because I still like and believe in people and I still have a mission to do. 
 
 
 
