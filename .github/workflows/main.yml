@@ -76,20 +76,20 @@ jobs:
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.PRODUCTION_AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.PRODUCTION_CLOUDFRONT_DISTRIBUTION_ID }}
       - run: yarn run invalidate-cf-cache
         if: ${{ github.ref == 'refs/heads/gatsby' }}
         env:
           AWS_REGION: 'eu-central-1'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.PRODUCTION_AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.PRODUCTION_CLOUDFRONT_DISTRIBUTION_ID }}
       - run: yarn run deploy-s3
         if: ${{ github.ref == 'refs/heads/staging' }}
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.STAGING_AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.STAGING_CLOUDFRONT_DISTRIBUTION_ID }}
           SITE_URL: 'https://staging.brightinventions.pl/'
           DEPLOY_S3_BUCKET_NAME: 'brightinventions-pl-website-content-staging'
       - run: yarn run invalidate-cf-cache
@@ -98,5 +98,5 @@ jobs:
           AWS_REGION: 'eu-central-1'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.STAGING_AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+          AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.STAGING_CLOUDFRONT_DISTRIBUTION_ID }}
 
