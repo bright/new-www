@@ -145,4 +145,18 @@ export const story: readonly Story[] = [
     subheading: "",
     content: `The team is growing. There are 58 Bright People on board.`,
   },
+  {
+    position: "Left",
+    images: [],
+    logos: [
+      {
+        src:
+          "/images/bright-treasury.png",
+        alt: "Bright Treasury",
+      },
+    ],
+    heading: "2021",
+    subheading: "",
+    content: `We started to work on Bright Treasury – our original app dedicated to Substrate Blockchain networks.,
+     },
 ] as const
