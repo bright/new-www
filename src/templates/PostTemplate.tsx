@@ -182,7 +182,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           canonicalUrl={page.canonicalUrl}
 
           fileAbsolutePath={markdownRemark.fileAbsolutePath}
-          tags={page.tags}
+          tags={page.tags ?? []}
           timeToRead={markdownRemark.timeToRead}
         />
 
