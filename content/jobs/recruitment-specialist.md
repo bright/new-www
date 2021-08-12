@@ -23,7 +23,7 @@ We are looking for a Recruitment Specialist to undertake all hiring activities, 
 
 ## your job will include
 
-* partner with a Hiring Manager in meeting all the current recruitment needs
+* partner with a HR Manager in meeting all the current recruitment needs
 * conduct interviews and ensure a positive candidate experience with regular communication throughout the process
 * screen and evaluate candidates for tech qualification and cultural fit, including reviewing applications, making hiring recommendations and providing a meaningful feedback and recommendations on candidates to Hiring Managers
 * actively identify new possibilities of attracting new candidates through social media, networking or IT events 
