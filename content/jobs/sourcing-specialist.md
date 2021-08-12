@@ -17,7 +17,7 @@ We support and share responsibility with the members of our team. We also active
 
 ## about the role
 
-We are looking for a determined, positive and talented Sourcing Specialist who would like to support us in developing our team with new bright technical talents. This role includes connecting with potential candidates online and offline, screening applications and supporting hiring manager while maintaining a positive candidate experience.
+We are looking for a determined, positive and talented Sourcing Specialist who would like to support us in developing our team with new bright technical talents. This role includes connecting with potential candidates online and offline, screening applications and supporting the whole recruitment team while maintaining a positive candidate experience.
 
 ## what you will do
 
@@ -60,6 +60,6 @@ We are looking for a determined, positive and talented Sourcing Specialist who w
 
 ## recruitment process
 
-![](/images/recruitment-process.png)
+![](/images/recruitment-process-non-tech.png)
 
 In case you have any questions, drop a line to [ula@bright.dev](mailto:ula@bright.dev) and grab the opportunity to become a part of our Bright Team! 🧡
