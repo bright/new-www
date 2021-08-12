@@ -19,11 +19,11 @@ At Bright Inventions you'll be part of a group of talented, ambitious and positi
 
 ## about the role
 
-We are looking for a Recruitment Specialist to undertake all hiring activities, from advertising open roles to sourcing, interviewing candidates and closing hires. This role includes connecting with potential candidates online and offline, screening applications and supporting hiring manager while maintaining a positive candidate experience.
+We are looking for a Recruitment Specialist to undertake all hiring activities, from advertising open roles to sourcing, interviewing candidates and closing hires. This role includes connecting with potential candidates online and offline, screening applications and supporting an HR manager while maintaining a positive candidate experience.
 
 ## your job will include
 
-* partner with a HR Manager in meeting all the current recruitment needs
+* partner with an HR Manager in meeting all the current recruitment needs
 * conduct interviews and ensure a positive candidate experience with regular communication throughout the process
 * screen and evaluate candidates for tech qualification and cultural fit, including reviewing applications, making hiring recommendations and providing a meaningful feedback and recommendations on candidates to Hiring Managers
 * actively identify new possibilities of attracting new candidates through social media, networking or IT events 
@@ -65,6 +65,6 @@ We are looking for a Recruitment Specialist to undertake all hiring activities, 
 
 ## recruitment process
 
-![](/images/recruitment-process.png)
+![](/images/recruitment-process-non-tech.png)
 
 In case you have any questions, drop a line to [ula@bright.dev](mailto:ula@bright.dev) and grab the opportunity to be a part of our Bright Team! 🧡
