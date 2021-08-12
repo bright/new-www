@@ -26,7 +26,7 @@ As a Junior Recruitment Specialist you will support us in the main recruitment a
 * networking in professional IT groups and social media communities 
 * regular reporting and tracking progress of recruitment projects
 * maintaining proper documentation of applicants within the recruiting process
-* providing continuous support for a hiring manager in current recruitment priorities 
+* providing continuous support for a HR manager in current recruitment priorities 
 
 ## what we would like to see
 
@@ -60,6 +60,6 @@ As a Junior Recruitment Specialist you will support us in the main recruitment a
 
 ## recruitment process
 
-![](/images/recruitment-process.png)
+![](/images/recruitment-process-non-tech.png)
 
 In case you have any questions, drop a line to [ula@bright.dev](mailto:ula@bright.dev) and grab the opportunity to become a part of our Bright Team! 🧡
