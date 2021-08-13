@@ -1,11 +1,12 @@
 ---
-layout: post
-title: PureLayout vs NSLayoutAnchor - Great confrontation
+author: eliasz
 tags:
   - iOS
+date: 2016-11-05T23:00:00.000Z
+title: PureLayout vs NSLayoutAnchor - Great confrontation
+layout: post
+image: /images/laptop-programming.jpg
 comments: true
-author: eliasz
-date: '2016-11-05T23:00:00.000Z'
 published: true
 ---
 
