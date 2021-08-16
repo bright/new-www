@@ -7,7 +7,6 @@ import { FormContainer } from '../about-us.styled'
 import { routeLinks } from '../../../config/routing'
 import { TextRegular } from '../../shared'
 import { SuccessMessage } from '../../shared/contact/styles'
-import variables from '../../../styles/variables'
 
 interface Props extends FormProps {
   title?: React.ReactNode
@@ -18,35 +17,21 @@ interface Props extends FormProps {
 
 const Title = styled.h2`
   margin-bottom: 3rem;
-  margin-top: 2.6875rem;
-  font-size: 2.5rem;
-  text-align: center;
-
-  @media ${variables.device.mobile} {
-    margin-top: 2rem;
-    font-size: 1.375rem;
-    text-align: left;
-  }
 `
 
 const Description = styled(TextRegular)`
   margin-bottom: 2rem;
-
-  @media ${variables.device.mobile} {
-    margin-bottom: 4rem;
-    font-size: 1rem;
-    text-align: left;
-  }
 `
 
-export const FormComponent: React.FC<Props> = props => {
+export const FormComponent: React.FC<Props> = (props) => {
   const [success, setSuccess] = useState(false)
   const {
     style,
     className,
     title = (
       <>
-        want to be part of a bright a story? drop us a line or check <Link to={routeLinks.career}>open positions</Link>
+        want to be part of a bright a story? drop us a line or check{" "}
+        <Link to={routeLinks.career}>open positions</Link>
       </>
     ),
     description,
@@ -57,7 +42,11 @@ export const FormComponent: React.FC<Props> = props => {
       <Title>{title}</Title>
       {description && <Description>{description}</Description>}
       <JobApplicationForm {...formProps} onSubmit={() => setSuccess(true)} />
-      {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>}
+      {success && (
+        <SuccessMessage>
+          Thank you! Your submission has been received!
+        </SuccessMessage>
+      )}
     </FormContainer>
   )
 }

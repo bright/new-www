@@ -11,20 +11,13 @@ interface MoreButtonProps {
 }
 
 export const MoreButton: React.FC<MoreButtonProps> = ({ onClick, href, text, disabled, isSubmit, children }) => {
-  const Btn = () => (
-    <button type={isSubmit ? 'submit' : 'button'} disabled={disabled} onClick={onClick}>
-      {text || children}
-    </button>
-  )
+  const Btn = () => <button type={isSubmit ? 'submit' : 'button'} disabled={disabled} onClick={onClick}>{text || children}</button>
   return (
     <Styled.Button className={'column is-full has-text-centered'}>
-      {href ? (
-        <Link to={href}>
-          <Btn />
-        </Link>
-      ) : (
-        <Btn />
-      )}
+      {href
+        ? <Link to={href}><Btn/></Link>
+        : <Btn/>
+      }
     </Styled.Button>
   )
 }
@@ -39,6 +32,3 @@ export const SectionInner = Styled.SectionInner
 export const SectionTitle = Styled.SectionTitle
 export const TextTitle = Styled.TextTitle
 export const TextRegular = Styled.TextRegular
-export const CustomContainer = Styled.CustomContainer
-export const CustomPageTitle = Styled.CustomPageTitle
-export const CustomConstrainedWidthContainer = Styled.CustomConstrainedWidthContainer

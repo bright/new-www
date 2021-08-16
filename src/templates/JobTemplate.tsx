@@ -1,212 +1,28 @@
 import React from 'react'
-import { graphql } from 'gatsby'
-import { BlackButton } from '../components/about-us/about-us.styled'
-import { Page } from '../layout/Page'
+import {graphql} from 'gatsby'
+
+import {Page} from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
-import { routeLinks } from '../config/routing'
+import { routeLinks } from "../config/routing"
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
-import RecruitingProcess from '../pages/career/RecruitingProcess'
+import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import styled from 'styled-components'
-import { CustomPageTitle, CustomConstrainedWidthContainer, SectionInner } from '../components/shared/index'
-import { FormComponent } from '../components/about-us/form-section/form'
-import variables from '../styles/variables'
 
 const SalaryHeading = styled.h5`
-  margin: 1.5rem 0;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  text-align: center;
-`
-const SalaryWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-
-  & > div {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
-    opacity: 0.75;
-    color: #000;
-    flex-basis: 50%;
-    &:last-of-type {
-      padding-left: 1rem;
-    }
-    &:first-of-type {
-      position: relative;
-      text-align: end;
-
-      &:after {
-        font-size: inherit;
-        content: '|';
-        margin-left: 1rem;
-      }
-    }
-  }
-  @media ${variables.device.mobile} {
-    display: block;
-    & > div {
-      &:first-of-type {
-        &:after {
-          content: '';
-        }
-      }
-    }
-  }
-`
-const HoursWraper = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.375rem;
-  line-height: 1.75rem;
-  padding-top: 0.75rem;
-
-  > h4 {
-    position: relative;
-    flex-basis: 50%;
-    color: #000;
-    opacity: 0.75;
-    text-align: end;
-    font-family: inherit;
-    line-height: inherit;
-    font-weight: 700;
-    margin-right: 1rem;
-    &:after {
-      position: absolute;
-      top: 50%;
-      right: -1.3rem;
-      transform: translateY(-55%);
-      font-size: 1rem;
-      content: '•';
-    }
-  }
-  > span {
-    margin-left: 1rem;
-    flex-basis: 50%;
-  }
-`
-const RecruitingProcessWrappers = styled.div`
-  padding: 0 5rem;
-  @media ${variables.device.mobile} {
-    padding: 0 2.8rem;
-  }
-`
-const JobBlackButton = styled(BlackButton)`
-  display: block;
-  margin: 0 auto;
-`
-const JobBackButton = styled(BackButton)`
-  display: block;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  font-weight: 900;
-  color: #000;
-
-  & > span {
-    margin-left: 1.125rem;
-    font-size: 1.125rem;
-    line-height: 1.375rem;
-  }
-`
-const JobSectionInner = styled(SectionInner)`
-  & > .content {
-    h2 {
-      margin-bottom: 4rem;
-      margin-top: 6.5rem;
-      font-size: 2rem;
-      line-height: 2.5rem;
-      color: #000;
-      text-align: center;
-    }
-    p {
-      font-size: 1.375rem;
-      line-height: 2.5rem;
-    }
-    ul > li {
-      position: relative;
-      margin-bottom: 3rem;
-      list-style: none;
-      font-size: 1.375rem;
-      line-height: 2rem;
-      color: #000;
-      opacity: 0.75;
-      &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: -47.5px;
-        transform: translateY(-50%);
-        width: 20px;
-        height: 20px;
-        background-image: url('/images/ok.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-      }
-    }
-    @media ${variables.device.mobile} {
-      p {
-        font-size: 1rem;
-        line-height: 1.75rem;
-      }
-      h2 {
-        margin-bottom: 2.25rem;
-        margin-top: 4rem;
-        font-size: 1.375rem;
-        line-height: 1.7rem;
-      }
-      ul > li {
-        margin-bottom: 2.875rem;
-        font-size: 1rem;
-        line-height: 1.75rem;
-        &:before {
-          left: calc(-47.5px + 18px);
-        }
-      }
-    }
-  }
-`
-const JobFormComponent = styled(FormComponent)`
-  overflow-x: hidden;
-  @media ${variables.device.mobile} {
-    & > h2 {
-      text-align: center;
-      margin-top: 0;
-      margin-bottom: 1.875rem;
-    }
-    & button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      text-align: center;
-      font-weight: 700;
-    }
-  }
+  &:last-child {
+    margin-bottom: 0;  
+  } 
 `
 
-const Salary: React.FC<{ salary: string }> = ({ salary }) => {
+const Salary: React.FC<{salary: string}> = ({salary}) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
-  if (salaryParts.length > 1) {
+  if(salaryParts.length > 1){
     return salaryParts.map((sal, ix) => {
-      const salaryType = sal.match(/(UoP)|(B2B)/)
-      if (salaryType !== null) {
-        const salaryValue = salaryType.index && sal.slice(0, salaryType.index - 1)
-        return (
-          <div>
-            {salaryValue} (<span className='has-text-weight-bold'>{salaryType[0]}</span>)
-          </div>
-        )
-      } else {
-        return <div>{sal}</div>
-      }
+      return <SalaryHeading className="has-text-weight-normal" key={ix}>{sal}</SalaryHeading>
     })
   }
 
-  return <SalaryHeading className='has-text-weight-normal'>{salaryParts[0]!}</SalaryHeading>
+  return <SalaryHeading className="has-text-weight-normal">{salaryParts[0]!}</SalaryHeading>
 }
 
 export default function Template({
@@ -214,48 +30,37 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
-  console.log(markdownRemark)
   return (
     <Page>
-      <HelmetTitleDescription title={page.title} description={page.description} />
-      <CustomConstrainedWidthContainer>
-        <CustomPageTitle>{page.title}</CustomPageTitle>
-
-        <SalaryHeading className='has-text-primary'>{page.subtitle}</SalaryHeading>
-        <SalaryWrapper>
-          <Salary salary={page.salary} />
-        </SalaryWrapper>
-        <HoursWraper>
-          {page.hours && <h4>{page.hours}</h4>}
-          <span> Gdańsk/remote</span>
-        </HoursWraper>
-        <JobBlackButton type='submit'>join</JobBlackButton>
-
-        <JobSectionInner>
-          <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
-        </JobSectionInner>
-        <RecruitingProcessWrappers>
-          <RecruitingProcess />
-        </RecruitingProcessWrappers>
-        <SectionInner>
-          <JobFormComponent
-            style={{ marginTop: '0' }}
-            title={'submit your application'}
-            description={
-              <>
-                You can either use our form below or send your application directly via email{' '}
-                <a href={'mailto:ula@bright.dev'}>ula@bright.dev</a>, Feel free to ask any questions on the position and
-                the project.
-              </>
-            }
-            namePlaceholder={'Enter name here'}
-            mailPlaceholder={'name@mail.com'}
-            textPlaceholder={'Let us know what would you like to do @ bright inventions'}
-            uploadLabel={'Upload '}
-          />
-        </SectionInner>
-        <JobBackButton label='back to career' url={`${routeLinks.career}`} arrowColor='orange' />
-      </CustomConstrainedWidthContainer>
+      <HelmetTitleDescription
+        title={page.title}
+        description={page.description}
+      />
+      <ConstrainedWidthContainer className="container">
+        <article className="section">
+          <h1 className="title has-text-dark has-text-weight-bold">
+            {page.title}
+          </h1>
+          <div className="content columns">
+            <div className="column">
+              {page.hours && <h4 className="has-text-grey">{page.hours}</h4>}
+              <SalaryHeading className="has-text-primary">
+                Salary
+              </SalaryHeading>
+            </div>
+            <div className="column is-full">
+              <Salary salary={page.salary} />
+            </div>
+          </div>
+          <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
+          <div className="content">
+            <a href="/apply-for-job" className="button is-primary">
+              Apply
+            </a>
+          </div>
+          <BackButton label="Open positions" url={`${routeLinks.career}#open-positions`} />
+        </article>
+      </ConstrainedWidthContainer>
 
       {/* <script type="application/ld+json">
     {
@@ -310,8 +115,6 @@ export const pageQuery = graphql`
         title
         salary
         description
-        subtitle
-        hours
       }
     }
   }

@@ -18,48 +18,30 @@ import OurWork from './career/OurWork'
 import Benefits from './career/Benefits'
 import Traits from './career/Traits'
 import Form from './career/Form'
-import { CustomContainer } from '../components/shared/index.styled'
-import styled from 'styled-components'
-import variables from '../styles/variables'
-
-export const SectionCareerTitle = styled(Section)`
-  padding: 3rem 2rem 3rem 2rem;
-
-  @media ${variables.device.mobile} {
-    padding: 3rem 2rem 0rem 2rem;
-  }
-`
-const PageTitleCareer = styled(PageTitle)`
-  @media ${variables.device.mobile} {
-    font-size: 2rem;
-  }
-`
 
 const CareerPage: React.FC = () => {
   return (
-    <Page className='page-career'>
+    <Page className="page-career">
       <HelmetTitleDescription
-        title='Career'
+        title="Career"
         description='We like people with bright minds! Join software development company from Gdańsk.'
       />
 
       <div className='container'>
-        <SectionCareerTitle className='career-title'>
-          <PageTitleCareer>
+        <Section>
+          <PageTitle>
             we like people with <span>bright</span> minds
-          </PageTitleCareer>
-        </SectionCareerTitle>
+          </PageTitle>
+        </Section>
       </div>
 
-      <CustomContainer>
-        <HeaderImages />
-      </CustomContainer>
+      <HeaderImages />
 
-      <CustomContainer>
+      <div className='container'>
         <Description />
         <Offers />
         <RecruitingProcess />
-      </CustomContainer>
+      </div>
 
       <WhatWePractice />
       <OurWork />

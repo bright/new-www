@@ -1,17 +1,17 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import {graphql} from 'gatsby'
 import styled from 'styled-components'
 
-import { Page } from '../layout/Page'
+import {Page} from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 const Container = styled.div`
-  max-width: 960px;
+    max-width: 960px;
 `
 
 const Title = styled.h1`
-  font-size: 3rem;
+    font-size: 3rem;
 `
 
 export default function Template({
@@ -21,14 +21,20 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Page>
-      <HelmetTitleDescription title={frontmatter.title} description={frontmatter.description} />
 
-      <Container className='container'>
-        <article className='section'>
-          <Title className='title'>{frontmatter.title}</Title>
-          <div className='content'>{frontmatter.description}</div>
-          <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
-          <BackButton url='/projects' label='Projects' />
+      <HelmetTitleDescription
+        title={frontmatter.title}
+        description={frontmatter.description}
+      />
+
+      <Container className="container">
+        <article className="section">
+          <Title className='title'>
+            {frontmatter.title}
+          </Title>
+          <div className="content">{frontmatter.description}</div>
+          <div className="content" dangerouslySetInnerHTML={{ __html: html }}/>
+          <BackButton url="/projects" label="Projects" />
         </article>
       </Container>
     </Page>

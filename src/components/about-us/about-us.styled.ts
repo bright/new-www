@@ -82,8 +82,11 @@ export const FormContainer = styled.div`
     padding: 0;
   }
   h2 {
-    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    font-weight: 800;
     color: black;
+    margin-bottom: 6.25rem;
     a {
       color: inherit;
       text-decoration: underline;

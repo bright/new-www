@@ -12,7 +12,6 @@ export function useApplicationForm() {
   const handleSubmit = useCallback(
     event => {
       event.preventDefault()
-      console.log(value);
       handleSendMail(value)
     },
     [value]
@@ -25,10 +24,10 @@ export function useApplicationForm() {
         : event.target.type === "file"
         ? event.target.files
         : event.target.value
-        setValue(state => ({
-          ...state,
-          [event.target.name]: value,
-        }))
+    setValue(state => ({
+      ...state,
+      [event.target.name]: value,
+    }))
   }, [])
   return {
     value,
@@ -54,7 +53,5 @@ function handleSendMail(data: Record<string, any>) {
       }),
       {}
     )
-
-    console.log(_data)
   return sendMail(_data, FormType.job)
 }

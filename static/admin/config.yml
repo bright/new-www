@@ -14,15 +14,7 @@ collections:
     folder: 'content/blog' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front IllegalAccessExceptionmatter
-      - {
-          label: 'Author',
-          name: 'author',
-          widget: 'relation',
-          collection: 'members',
-          searchFields: ['name'],
-          valueField: 'author_id',
-          displayFields: ['name', 'author_id'],
-        }
+      - { label: 'Author', name: 'author', widget: 'relation', collection: 'members', searchFields: ['name'], valueField: 'author_id', displayFields: ['name', 'author_id']}
       - { label: 'Tags', name: 'tags', widget: 'tags' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -65,8 +57,6 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'job' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
-      - { label: 'ImageJob', name: 'imagejob', widget: 'image' }
-      - { label: 'Image-Alt-Job', name: 'image-alt-job', widget: string }
       - { label: 'Hours', name: 'hours', widget: 'string' }
       - { label: 'Salary', name: 'salary', widget: 'string' }
       - { label: 'Salary Min', name: 'salary_min', widget: 'number', required: false }
@@ -74,16 +64,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
-      - {
-          label: 'Order',
-          name: 'order',
-          widget: 'number',
-          required: true,
-          valueType: 'int',
-          min: 1,
-          step: 1,
-          default: 1,
-        }
+      - { label: 'Order', name: 'order', widget: 'number', required: true, valueType: 'int', min: 1, step: 1, default: 1, }
   - name: 'projects' # Used in routes, e.g., /admin/collections/blog
     label: 'Projects' # Used in the UI
     folder: 'content/projects' # The path to the folder where the documents are stored
@@ -96,16 +77,7 @@ collections:
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
-      - {
-          label: 'Order',
-          name: 'order',
-          widget: 'number',
-          required: false,
-          valueType: 'int',
-          min: 1,
-          step: 1,
-          default: 99,
-        }
+      - { label: 'Order', name: 'order', widget: 'number', required: false, valueType: 'int', min: 1, step: 1, default: 99 }
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
