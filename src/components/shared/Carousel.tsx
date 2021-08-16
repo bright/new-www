@@ -29,6 +29,15 @@ const CarouselWrapper = styled(Section)`
     width: 100%;
   }
 
+  &.carousel__career {
+    .carousel {
+      justify-content: space-between;
+    }
+    .slider-wrapper {
+      width: 100%;
+    }
+  }
+
   .slider-wrapper {
     margin: 0;
     width: 80%;
@@ -86,13 +95,11 @@ type CarouselProps = {
   wrapperClassName?: string
 }
 
-export const Carousel: React.FC<CarouselProps> = ({wrapperClassName}) => {
+export const Carousel: React.FC<CarouselProps> = ({ wrapperClassName }) => {
   const {
     allMarkdownRemark: { edges },
   } = useStaticQuery(GQL)
-  const carouselItems: ProjectModel[] = edges
-    ? edges.map((e: any) => e.node.frontmatter)
-    : []
+  const carouselItems: ProjectModel[] = edges ? edges.map((e: any) => e.node.frontmatter) : []
 
   return (
     <CarouselWrapper className={wrapperClassName}>
@@ -117,9 +124,7 @@ export const Carousel: React.FC<CarouselProps> = ({wrapperClassName}) => {
 const GQL = graphql`
   {
     allMarkdownRemark(
-      filter: {
-        frontmatter: { layout: { eq: "project" }, published: { ne: false } }
-      }
+      filter: { frontmatter: { layout: { eq: "project" }, published: { ne: false } } }
       limit: 6
       sort: { order: ASC, fields: frontmatter___order }
     ) {
@@ -128,11 +133,9 @@ const GQL = graphql`
           frontmatter {
             title
             image {
-                childImageSharp {
-                    gatsbyImageData(
-                        height: 500
-                    )
-                }
+              childImageSharp {
+                gatsbyImageData(height: 500)
+              }
             }
             layout
             slug

@@ -32,7 +32,7 @@ const ProjectDescriptionWrapper = styled.div({
 
   display: 'flex',
   flexDirection: 'column',
-  flexWrap: 'wrap'
+  flexWrap: 'wrap',
 })
 
 const Title = styled(SectionTitle)({
@@ -56,11 +56,11 @@ const imageStyle = {
     maxWidth: '200px',
     height: '100%',
   },
-};
+}
 
 const GoToContainer = styled.div({
   margin: '35px 0',
-  textAlign: 'start'
+  textAlign: 'start',
 })
 
 const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
@@ -71,13 +71,12 @@ const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
         <Description>{project.description}</Description>
         <HideTablet>
           <GoToContainer>
-            <RightArrow />
+            Read more
+            {/* <RightArrow /> */}
           </GoToContainer>
         </HideTablet>
       </ProjectDescriptionWrapper>
-      <GatsbyImage
-        imgStyle={imageStyle}
-        image={getImage(project.image)!} alt={project.title} />
+      <GatsbyImage imgStyle={imageStyle} image={getImage(project.image)!} alt={project.title} />
     </Container>
   )
 }

@@ -4,12 +4,15 @@ export const Form = styled.form`
   display: grid;
   grid-gap: 4rem;
   button {
-    justify-self: start;
+    justify-self: center;
   }
   & > div:first-child {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
+  }
+  input :focus-visible {
+    outline: 1px solid #000;
   }
   strong a {
     text-decoration: underline;
