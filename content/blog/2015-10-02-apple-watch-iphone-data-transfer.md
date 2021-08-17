@@ -1,11 +1,12 @@
 ---
-layout: post
-title: Data transfer between Apple Watch and iPhone
+author: eliasz
 tags:
   - iOS
+date: 2015-10-01T22:00:00.000Z
+title: Data transfer between Apple Watch and iPhone
+layout: post
+image: /images/iphone.jpg
 comments: true
-author: eliasz
-date: '2015-10-01T22:00:00.000Z'
 published: true
 ---
 
