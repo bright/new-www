@@ -7,7 +7,8 @@ name: Izabela Pawlik
 short_name: Izabela
 email: izabela.pawlik@brightinventions.pl
 bio: Digital Marketing Specialist
-description: Digital Marketing Specialist
+description: Digital Marketing Specialist sharing information about software
+  development practices and people at Bright Inventions.
 avatar: /images/izabela2.png
 published: false
 ---
