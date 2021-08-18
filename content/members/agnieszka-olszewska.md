@@ -7,7 +7,8 @@ name: Agnieszka Olszewska
 short_name: Agnieszka O.
 email: agnieszka.olszewska@brightinventions.pl
 bio: Fullstack Developer
-description: O naszej Agnieszce
+description: Agnieszka is a Fullstack Developer experienced in developing
+  blockchain solutions.
 avatar: /images/members/agnieszka_olszewska.jpg
 redirect_from:
   - /agnieszka-o
