@@ -4,10 +4,10 @@ author_id: michal-lem
 ex: false
 slug: michal-lem
 name: Michał Lemke
-short_name: "Michał "
+short_name: Michał L.
 email: michal.lemke@brightinventions.pl
 bio: DevOps Engineer
-description: DevOps Engineer
+description: DevOps Engineer at Bright Inventions.
 avatar: /images/michał_lem_2_team.png
 published: true
 ---
