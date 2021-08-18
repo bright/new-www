@@ -4,7 +4,7 @@ author_id: agnieszka
 ex: false
 slug: agnieszka
 name: Agnieszka Olszewska
-short_name: Agnieszka
+short_name: Agnieszka O.
 email: agnieszka.olszewska@brightinventions.pl
 bio: Fullstack Developer
 description: O naszej Agnieszce
