@@ -8,7 +8,7 @@ short_name: Agata
 email: agata.piwko@brightinventions.pl
 bio: Social Media Specialist
 description: Agata is a passionate Social Media Specialist. She shows daily work
-  at Bright Inventions and our team's passions and interests.
+  at Bright Inventions and our team's passions. and interests.
 avatar: /images/agata2.png
 published: true
 ---
