@@ -4,10 +4,11 @@ author_id: bartosz
 ex: false
 slug: bartosz-sz
 name: Bartosz Szafran
-short_name: Bartek
+short_name: Bartek Sz.
 email: bartosz.szafran@brightinventions.pl
 bio: Senior Frontend Developer
-description: Senior Frontend Developer
+description: Senior Frontend Developer developing software solutions for the
+  retail industry.
 avatar: /images/members/bartosz_szafran.jpg
 published: true
 ---
