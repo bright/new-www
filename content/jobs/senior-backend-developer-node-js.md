@@ -9,17 +9,17 @@ salary_max: 22000
 published: true
 order: 4
 ---
+![](/images/frontendteam_bright-inventions.png)
+
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
-## [](https://brightinventions.pl/jobs/backend-developer#about-the-role)about the role & project 
+## [](https://brightinventions.pl/jobs/backend-developer#about-the-role)about the role & project
 
 We are looking for **an experienced Backend Developer** who understands **TypeScript & Node.js** really well and who would like to **work with AWS on daily basis**.
 
 And what would you do? Develop and enhance innovative Card Tracking System based on web and mobile applications created to distribute debit cards and other payment instruments to people in critical situations in Asia and Africa. 
-
-The system is developed on two platforms. The web application is used mainly to display logs of the events and current cards' statuses. Mobile application (on Android) enables scanning the cards, sending them between offices and distributing them to beneficiaries. 
 
 The system was launched in 2020 in one of the countries in the Near East and it will be released soon in other countries in Asia and Africa. We constantly develop new features, offer maintenance and assist the client in launching the product in other countries. Therefore our focus remains on unifying the system so it could be adjusted to other countries' regulations. This project is a very rewarding experience for our team and we are extremely happy to develop it with the client.
 
@@ -36,10 +36,10 @@ The system was launched in 2020 in one of the countries in the Near East and it 
 
 * at least 4-5 years of commercial programming experience (including min. 3 years in backend development)
 * excellent problem solving and analytical thinking skills
-* very good working knowledge and deep understanding of TypeScript/JavaScript 
-* experience with Node.js 
-* experience with databases, in particular MySQL/PostgreSQL
-* familiarity with AWS or other Cloud providers
+* very good working knowledge and deep understanding of **TypeScript/JavaScript** 
+* solid experience with development in **Node.js** 
+* experience with **databases, in particular MySQL/PostgreSQL**
+* familiarity with **AWS** or other Cloud providers
 * advanced communications kills in English (both written and spoken))
 
 ## [](https://brightinventions.pl/jobs/backend-developer#we-would-also-appreciate-if-you-have)we would also appreciate if you have
@@ -48,9 +48,9 @@ The system was launched in 2020 in one of the countries in the Near East and it 
 
 ## [](https://brightinventions.pl/jobs/backend-developer#why-join-our-bright-inventions-team)what you will find in our Bright Team 🧡
 
-* opportunity to work on the international project for a global humanitarian organisation 
+* opportunity to work on the **international project for a global humanitarian organisation** 
 * flat structure and a real impact on the company growth
-* mentoring programme and regular 1:1 meetings
+* **mentoring programme** and regular 1:1 meetings
 * best practices such as Code Review, Pair programming or Continuous integration
 * 20-26 paid days off + extra days for Polish bank holidays regardless of the contract type
 * office library with an extra budget for professional books
