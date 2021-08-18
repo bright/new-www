@@ -4,10 +4,10 @@ author_id: radek
 ex: false
 slug: radek
 name: Radek Pieczątkiewicz
-short_name: Radek
+short_name: Radek P.
 email: radek.pieczatkiewicz@brightinventions.pl
 bio: Android Developer
-description: Specialising in Kotlin on Android
+description: Developer specialising in Kotlin on Android.
 avatar: /images/radekp4.png
 redirect_from:
   - /radek-p
