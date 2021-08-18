@@ -3,7 +3,7 @@ layout: job
 title: "Backend Developer (Node.js) "
 subtitle: ONGOING
 hours: full-time
-salary: 12 000 - 15 000 PLN + VAT (B2B) 10 000 - 12 500 PLN gross (UoP)
+salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 10000
 salary_max: 15000
 published: true
