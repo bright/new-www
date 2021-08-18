@@ -7,7 +7,8 @@ name: Artur Suliński
 short_name: Artur
 email: artur.sulinski@brightinventions.pl
 bio: iOS Developer
-description: iOS application development is his second ego
+description: iOS application development is his second ego. Swift and Apple
+  lover. Interested in Blockchain.
 avatar: /images/arturs_2.png
 redirect_from:
   - /artur
