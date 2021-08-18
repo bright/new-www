@@ -4,10 +4,10 @@ author_id: piotr_r
 ex: false
 slug: piotr-r
 name: Piotr Rutka
-short_name: Piotr
+short_name: Piotr R.
 email: piotr.rutka@brightinventions.pl
 bio: Android Developer
-description: Android Developer
+description: Android Developer and IoT expert.
 avatar: /images/piotr_r2_team.png
 published: true
 ---
