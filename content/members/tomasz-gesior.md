@@ -15,5 +15,4 @@ redirect_from:
 published: false
 title: Meet Tomek
 ---
-
-Fullstack deveeloper with passion for blockchain.
+Fullstack Developer with passion for blockchain.
