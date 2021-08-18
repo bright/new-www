@@ -7,7 +7,7 @@ name: Karol Nadratowski
 short_name: Karol N.
 email: karol.nadratowski@brightinventions.pl
 bio: "iOS Developer "
-description: An ambitious young iOS developer and one of the most ardent Swift lovers
+description: An ambitious young iOS developer and one of the most ardent Swift lovers.
 avatar: /images/members/karol_nadratowski.jpg
 redirect_from:
   - /karol
