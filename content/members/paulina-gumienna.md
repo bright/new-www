@@ -7,7 +7,7 @@ name: Paulina Gumienna
 short_name: Paulina
 email: paulina.gumienna@brightinventions.pl
 bio: Frontend Developer
-description: Frontend Developer building software solutions for the retail industry.
+description: Frontend Developer building retail software solutions.
 avatar: /images/paulina2_team.png
 published: true
 ---
