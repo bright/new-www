@@ -4,10 +4,10 @@ author_id: kamil-b
 ex: false
 slug: kamil-b
 name: Kamil Buczel
-short_name: "Kamil "
+short_name: Kamil B.
 email: kamil.buczel@brightinventions.pl
 bio: iOS Developer
-description: iOS Developer
+description: Experienced iOS Developer building software solutions for the retail industry.
 avatar: /images/kamil2_team2.png
 published: true
 ---
