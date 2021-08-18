@@ -7,7 +7,8 @@ name: Magda Sadowska
 short_name: Magda
 email: magda.sadowska@brightinventions.pl
 bio: Office & HR Assistant
-description: Office & HR Assistant
+description: Office & HR Assistant providing administrative and HR support and
+  helps to run an office.
 avatar: /images/magda3_1.png
 published: true
 ---
