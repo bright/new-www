@@ -7,7 +7,7 @@ name: Maja Puta
 short_name: Maja
 email: maja.puta@brightinventions.pl
 bio: Junior QA Specialist
-description: Junior QA Specialist at Bright Inventions.
+description: Junior Quality Assurance Specialist at Bright Inventions.
 avatar: /images/members/maja_puta.jpg
 published: true
 ---
