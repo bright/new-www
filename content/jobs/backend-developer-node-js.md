@@ -21,20 +21,20 @@ We are looking now for a **Backend Developer** who has already had experience 
 
 ## about the project
 
-Card Tracking System is an application developed for a global International Humanitarian Organisation. The solution is supposed to be used by the organisation units in different countries (right now in Lebanon) to support distributing payment instruments to programme beneficiaries. Using those cards they can buy the food at local markets. The system consists of a web application used mainly to display logs of the events and current cards' statuses and and Android mobile application which allows for scanning the cards, sending them between offices and distributing them to beneficiaries. 
+Card Tracking System is **an application developed for a global International Humanitarian Organisation**. The solution is supposed to be used by the organisation units in different countries (right now in Lebanon) to support distributing payment instruments to programme beneficiaries. Using those cards they can buy the food at local markets. The system consists of a web application used mainly to display logs of the events and current cards' statuses and and Android mobile application which allows for scanning the cards, sending them between offices and distributing them to beneficiaries. 
 
 ## [](https://brightinventions.pl/jobs/fullstack-developer#what-we-would-like-to-see)preferred qualifications and skills
 
 * at least 3 years of commercial programming experience (including min. 2 years in backend development)
-* very good knowledge of TypeScript/JavaScript
-* deep working experience with Node.js
+* very good knowledge of **TypeScript/JavaScript**
+* deep working experience with **Node.js**
 * strong problem solving attitude and open mind
 * positive approach to work and new challenges
 * very good level of English (written and spoken)
 
-## nice to have 
+## nice to have
 
-* familiarity with AWS or other Cloud providers
+* familiarity with **AWS or other Cloud providers**
 * experience with development in NestJS
 
 ## [](https://brightinventions.pl/jobs/fullstack-developer#what-you-will-find-in-our-bright-team)what you will find in our Bright Team 🧡
