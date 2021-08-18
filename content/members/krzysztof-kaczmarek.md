@@ -4,10 +4,10 @@ author_id: krzysiek
 ex: true
 slug: krzysiek
 name: Krzysztof Kaczmarek
-short_name: Krzysiek
+short_name: Krzysiek K.
 email: krzysztof.kaczmarek@brightinventions.pl
 bio: Senior iOS Developer
-description: iOS Developer, Swift enthusiast, tech geek
+description: iOS Developer, Swift enthusiast and tech geek.
 avatar: /images/members/krzysztof_kaczmarek.jpg
 published: false
 ---
