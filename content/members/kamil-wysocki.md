@@ -1,17 +1,19 @@
 ---
-author_id: kwysocki
-slug: kwysocki
-title: Kamil
-name: Kamil Wysocki
-short_name: Kamil
-web: https://wysockikamil.com
-email: kamil.wysocki@brightinventions.pl
-bio: Software Engineer @ Bright Inventions
-avatar: /images/members/kamil.png
-github: kamwysoc
-twitter: kamwysoc
-stackoverflow: 5433235/k8mil
-ex: true
 layout: member
+author_id: kwysocki
+ex: true
+slug: kwysocki
+name: Kamil Wysocki
+short_name: Kamil W.
+email: kamil.wysocki@brightinventions.pl
+bio: Software Engineer
+description: Software Engineer at Bright Inventions.
+web: https://wysockikamil.com
+avatar: /images/members/kamil.png
+twitter: kamwysoc
+github: kamwysoc
+stackoverflow: 5433235/k8mil
+published: false
+title: Kamil
 ---
-
+Software Engineer
