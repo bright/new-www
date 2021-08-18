@@ -6,7 +6,7 @@ slug: cezary
 name: Cezary Graban
 short_name: Cezary
 email: cezary.graban@brightinventions.pl
-bio: Android Developer
+bio: Mobile Developer specialised in building Android solutions.
 description: Android Developer
 avatar: /images/cezary2_team.png
 published: true
