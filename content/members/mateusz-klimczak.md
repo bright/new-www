@@ -19,6 +19,4 @@ redirect_from:
 published: false
 title: Meet Mateusz
 ---
-
-Passionate about agile software craftsmanship. At work focused not only on writing clean code but also on teamwork and soft skills development. iOS lover keen on Android development and project management. Privately, a great fan of fantasy books and geek humour.
-
+Passionate about agile software craftsmanship. At work focused not only on writing clean code but also on teamwork and soft skills development. iOS lover keen on Android development and project management. Motivated, goal-driven senior mobile software developer passionate about building software that boosts business growth. Privately, a great fan of fantasy books and geek humour.
