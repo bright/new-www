@@ -16,4 +16,4 @@ redirect_from:
 published: true
 title: Meet Agnieszka
 ---
-She strongly believes that experience is gained by learning and perseverance regardless of your title. She used to think that backend with data modelling is her only love. Now exploring new challenges in web frontend and mobile apps. Privately, a mum of a lovely daughter and a climbing lover.
+Agnieszka can't bear standing still. She strongly believes that experience is gained by learning and perseverance regardless of your title. She used to think that backend with data modelling is her only love. Now exploring new challenges in web frontend and mobile apps. On top of that, she is a blockchain expert. Privately, a mum of a lovely daughter and a climbing lover.
