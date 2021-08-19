@@ -133,7 +133,6 @@ module.exports = {
         enableIdentityWidget: true,
         publicPath: `admin`,
         htmlTitle: `Content Manager`,
-        htmlFavicon: `path/to/favicon`,
         includeRobots: false,
       }
     },
