@@ -90,6 +90,7 @@ export const PageDescription = styled(TextRegular)({
   padding: "10px",
 })
 
+
 export const Button = styled.div`
   & button {
     border: 1px solid black;
@@ -104,5 +105,44 @@ export const Button = styled.div`
     font-size: 1rem;
     cursor: pointer;
     margin-top: 3rem;
+  }
+`
+export const CustomContainer = styled.div`
+  max-width: 1714px;
+  margin: auto;
+
+  /* @media ${variables.device.mobile} {
+    max-width: calc(100% - 18px);
+  } */
+`
+export const CustomPageTitle = styled.h1`
+  ${TitleBase};
+  display: block;
+  font-family: Montserrat, sans-serif;
+  font-size: 3.375rem;
+  font-weight: 800;
+  line-height: 4.125rem;
+  text-align: center;
+  color: #000000;
+
+  & > span {
+    color: ${variables.color.primary};
+  }
+  
+  @media ${variables.device.mobile} {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.44rem ;
+    text-align: left;
+  }
+`
+export const CustomConstrainedWidthContainer = styled.div`
+  max-width: 1854px;
+  margin: 0 auto;
+  padding: 3.3rem 0;
+
+  @media ${variables.device.mobile} {
+    max-width: calc(100% - 18px);
+    margin: 0 auto;
   }
 `

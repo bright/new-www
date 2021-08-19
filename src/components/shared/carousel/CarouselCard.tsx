@@ -16,51 +16,64 @@ interface CarouselCardProps {
 }
 
 const Container = styled(Link)({
-  marginTop: '35px',
-
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'center',
+  alignItems: 'center',
 
   ['@media screen and (max-width: 767px)']: {
-    flexDirection: 'column',
+    flexDirection: 'column-reverse',
   },
 })
 
 const ProjectDescriptionWrapper = styled.div({
-  flex: 1,
-
+  flexBasis: '50%',
   display: 'flex',
   flexDirection: 'column',
-  flexWrap: 'wrap'
+  flexWrap: 'wrap',
 })
 
 const Title = styled(SectionTitle)({
   textAlign: 'left',
   color: variables.color.text,
   marginBottom: '0px',
+  fontWeight: '900',
+  ['@media screen and (max-width: 767px)']: {
+    fontSize: '18px',
+  },
 })
 
 const Description = styled(TextRegular)({
-  marginTop: '25px',
+  marginTop: '3.5rem',
   textAlign: 'left',
-  color: variables.color.text,
+  fontSize: '20px',
+  color: 'var(--black-200)',
+  ['@media screen and (max-width: 767px)']: {
+    marginTop: '1.125rem',
+    fontSize: '16px',
+  },
 })
 
 const imageStyle = {
-  objectFit: 'contain' as 'contain',
-  height: '450px',
+  objectFit: 'cover' as 'cover',
+  height: '100%',
   width: '100%',
 
   ['@media screen and (max-width: 768px)']: {
     maxWidth: '200px',
     height: '100%',
   },
-};
+}
 
 const GoToContainer = styled.div({
-  margin: '35px 0',
-  textAlign: 'start'
+  marginTop: '2rem',
+  textAlign: 'start',
+  fontSize: '1.125rem',
+  fontWeight: '900',
+  ['@media screen and (max-width: 768px)']: {
+    marginTop: '1.125rem',
+    marginBottom: '4rem',
+  },
 })
 
 const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
@@ -69,15 +82,12 @@ const CarouselCard: React.FC<CarouselCardProps> = ({ project }) => {
       <ProjectDescriptionWrapper>
         <Title>{project.title}</Title>
         <Description>{project.description}</Description>
-        <HideTablet>
-          <GoToContainer>
-            <RightArrow />
-          </GoToContainer>
-        </HideTablet>
+        <GoToContainer>
+          Read more
+          {/* <RightArrow /> */}
+        </GoToContainer>
       </ProjectDescriptionWrapper>
-      <GatsbyImage
-        imgStyle={imageStyle}
-        image={getImage(project.image)!} alt={project.title} />
+      <GatsbyImage imgStyle={imageStyle} image={getImage(project.image)!} alt={project.title} />
     </Container>
   )
 }
