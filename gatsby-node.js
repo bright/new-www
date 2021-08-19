@@ -133,7 +133,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
-const globImporter = require('node-sass-glob-importer')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 exports.onCreateWebpackConfig = ({
