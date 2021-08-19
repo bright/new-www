@@ -11,4 +11,4 @@ description: Android Developer and IoT expert.
 avatar: /images/piotr_r2_team.png
 published: true
 ---
-Open for extraordinary people and extraordinary solutions. Business experience he has, taught him one thing – to believe in what you do. Android Developer who invests his free time in travel, playing drums and mastering Spanish. 
+Open for extraordinary people and extraordinary solutions. Business experience he has, taught him one thing – to believe in what you do. Telecommunication graduate, keen on working with many complicated gadgets and devices used in Bright office. Developer who invests his free time in travel, playing drums and mastering Spanish.
