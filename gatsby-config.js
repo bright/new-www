@@ -133,7 +133,6 @@ module.exports = {
         enableIdentityWidget: true,
         publicPath: `admin`,
         htmlTitle: `Content Manager`,
-        includeRobots: false,
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
