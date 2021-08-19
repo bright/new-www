@@ -133,52 +133,15 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
-exports.onCreateWebpackConfig = ({
-  stage,
-  rules,
-  loaders,
-  plugins,
-  actions,
-  getConfig
-}) => {
-  actions.replaceWebpackConfig({
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
     resolve: {
-      modules: [path.resolve(__dirname, "src"), "node_modules"],
-    },
-    module: {
-      rules: [
-        {
-          test:/\.(s*)css$/,
-          resolve: {
-            extensions: ['.scss', '.sass'],
-          },
-          use: [
-            'style-loader!css-loader',
-            {
-              loader: MiniCssExtractPlugin.loader(),
-              options: {
-                importer: globImporter(),
-              }
-            },
-            {
-              loader: 'sass-loader',
-              options: {
-                importer: globImporter(),
-              }
-            },
-          ],
-        },
-      ],
-    },
-    plugins: [
-      new MiniCssExtractPlugin({
-        // Options similar to the same options in webpackOptions.output
-        // both options are optional
-        filename: isDevelopment ? '[name].css' : '[name].[hash].css',
-        chunkFilename: isDevelopment ? '[id].css' : '[id].[hash].css'
-      }),
-    ]
-  })
-}
+      alias: {
+        path: require.resolve("path-browserify")
+      },
+      fallback: {
+        fs: false
+      }
+    }
+  });
+};
