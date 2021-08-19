@@ -7,7 +7,7 @@ name: Tomasz Scharmach
 short_name: Tomasz
 email: tomasz.scharmach
 bio: Backend Developer
-description: Backend Developer
+description: Backend Developer. He enjoys challenges and problem-solving.
 avatar: /images/tomek_sz.png
 published: true
 ---
