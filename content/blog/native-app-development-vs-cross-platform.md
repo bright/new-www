@@ -57,3 +57,7 @@ When you build hybrid apps, you have to make compromises to meet “the expectat
 In the end, choosing hybrid app development means that you are choosing to go with another provider, another dependency. You have to wait for your provider to react to updates in Android or iOS API. In the meantime, native teams have a chance to be ahead of you already upgrading their code. 
 
 What’s your opinion about native versus hybrid [app development](/our-areas/mobile-app-development)? Which side are you on? Let us know in the comments!
+
+
+
+Co-author: Technical Leader & Project Manager
