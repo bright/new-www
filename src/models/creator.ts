@@ -1,14 +1,16 @@
 import { BlogPostModel, ProjectModel, GQLData, AuthorModel, JobModel } from "./gql"
 
-export const createBlogPosts = (data: GQLData): BlogPostModel[] => (
-  (data.allMarkdownRemark.edges || []).map(({ node }) => ({
-    ...node.frontmatter,
-    id: node.id,
-    slug: node.fields.slug,
-    excerpt: node.excerpt,
-    tags: node.tags ?? []
-  } as BlogPostModel))
-)
+export const createBlogPosts = (data: GQLData): BlogPostModel[] =>
+  (data.allMarkdownRemark.edges || []).map(({ node }) => {
+      const base = node.frontmatter
+      return {
+      ...base,
+      id: node.id,
+      slug: node.fields.slug,
+      excerpt: node.excerpt,
+      tags: base.tags ?? [],
+    } as BlogPostModel
+  })
 
 export const createProjects = (data: GQLData): ProjectModel[] => (
   (data.allMarkdownRemark.edges || [])
