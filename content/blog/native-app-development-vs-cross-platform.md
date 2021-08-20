@@ -10,6 +10,8 @@ published: true
 ---
 **What is the difference between a hybrid app and native one? Is native app development dying? Ultimately, which mobile approach is better? Let’s look closely at the mobile battle between native and hybrid apps. And find out on which corner we are.** 😎
 
+![native vs hybrid app](/images/native_hybrid_application.jpg)
+
 ## What is the difference between hybrid and native app development?
 
 **Native app development refers to building an app exclusively for one mobile system.** So, you develop an app only for iOS or Android. You use native technologies dedicated to that process such as **Java or Kotlin for Android** and **Swift or Objective-C for iOS**.
@@ -22,7 +24,7 @@ As many say time and money run the world, so the hybrid app development process 
 
 **Nevertheless, is building hybrid apps really a low-budget and effective process?** Is it the truth that native app development is over? 
 
-It’s time to come clean. 😅 **At Bright Inventions, we specialise in developing mobile apps with native technologies. We use Swift and Kotlin languages.** Nevertheless, our team has tried building hybrid apps (using React Native) in a couple of projects, and after gaining that experience **we decided to stick with the native app development**. In our opinion building hybrid apps may seem to be easier and cheaper at first sight but when you look at the bigger picture, it might cause some problems that you may have not anticipated at the beginning.
+It’s time to come clean. 😅 **At [Bright Inventions](https://brightinventions.pl), we specialise in developing mobile apps with native technologies. We use Swift and Kotlin languages.** Nevertheless, our team has tried building hybrid apps (using React Native) in a couple of projects, and after gaining that experience **we decided to stick with the native app development**. In our opinion building hybrid apps may seem to be easier and cheaper at first sight but when you look at the bigger picture, it might cause some problems that you may have not anticipated at the beginning.
 
 Of course, this is our perspective and we know that every development team can have a different approach. Let us explain why we prefer native development over hybrid one.
 
