@@ -10,7 +10,7 @@ hidden: true
 comments: true
 published: true
 ---
-**We are delighted to announce that Bright Inventions has been ranked as one of the Top 40 [Blockchain Development Companies](https://www.designrush.com/agency/blockchain-development-companies) by DesignRush.**
+**We are delighted to announce that Bright Inventions has been ranked as one of the Top 40 <a target="_blank" href="https://www.designrush.com/agency/blockchain-development-companies">Blockchain Development Companies</a> by DesignRush.**
 
 ![top blockchain companies](/images/blogpost_bestblockchaincompanies.png)
 
