@@ -60,4 +60,4 @@ What’s your opinion about native versus hybrid [app development](/our-areas/mo
 
 
 
-Co-author: Technical Leader & Project Manager
+Co-author: Mateusz Klimczak, Technical Leader & Project Manager
