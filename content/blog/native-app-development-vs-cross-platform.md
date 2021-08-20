@@ -26,7 +26,7 @@ As many say time and money run the world, so the hybrid app development process 
 
 **Nevertheless, is building hybrid apps really a low-budget and effective process?** Is it the truth that native app development is over? 
 
-It’s time to come clean. 😅 **At [Bright Inventions](https://brightinventions.pl), we specialise in developing mobile apps with native technologies. We use Swift and Kotlin languages.** Nevertheless, our team has tried building hybrid apps (using React Native) in a couple of projects, and after gaining that experience **we decided to stick with the native app development**. In our opinion building hybrid apps may seem to be easier and cheaper at first sight but when you look at the bigger picture, it might cause some problems that you may have not anticipated at the beginning.
+It’s time to come clean. 😅 **At Bright Inventions, we specialise in developing mobile apps with native technologies. We use Swift and Kotlin languages.** Nevertheless, our team has tried building hybrid apps (using React Native) in a couple of projects, and after gaining that experience **we decided to stick with the native app development**. In our opinion building hybrid apps may seem to be easier and cheaper at first sight but when you look at the bigger picture, it might cause some problems that you may have not anticipated at the beginning.
 
 Of course, this is our perspective and we know that every development team can have a different approach. Let us explain why we prefer native development over hybrid one.
 
@@ -56,4 +56,4 @@ When you build hybrid apps, you have to make compromises to meet “the expectat
 
 In the end, choosing hybrid app development means that you are choosing to go with another provider, another dependency. You have to wait for your provider to react to updates in Android or iOS API. In the meantime, native teams have a chance to be ahead of you already upgrading their code. 
 
-What’s your opinion about native versus hybrid app development? Which side are you on? Let us know in the comments!
+What’s your opinion about native versus hybrid [app development](https://brightinventions.pl/our-areas/mobile-app-development)? Which side are you on? Let us know in the comments!
