@@ -18,7 +18,7 @@ published: true
 
 **Native app development refers to building an app exclusively for one mobile system.** So, you develop an app only for iOS or Android. You use native technologies dedicated to that process such as **Java or Kotlin for Android** and **Swift or Objective-C for iOS**.
 
-**Cross-platform mobile app development takes place when you build one common system for Android and iOS.** In order to do that you use frameworks that translate JavaScript into native components underneath your code. As a result, they transform your code into a solution for Android and iOS as well. One of the most popular frameworks are: **Flutter (by Google) and React Native (by Facebook)**.
+**Cross-platform mobile app development takes place when you build one common system for Android and iOS.** In order to do that you use frameworks that transform your code into a solution for Android and iOS as well. One of the most popular frameworks are: **Flutter (by Google) and React Native (by Facebook)**.
 
 ## Is native app development dying?
 
@@ -57,7 +57,5 @@ When you build hybrid apps, you have to make compromises to meet “the expectat
 In the end, choosing hybrid app development means that you are choosing to go with another provider, another dependency. You have to wait for your provider to react to updates in Android or iOS API. In the meantime, native teams have a chance to be ahead of you already upgrading their code. 
 
 What’s your opinion about native versus hybrid [app development](/our-areas/mobile-app-development)? Which side are you on? Let us know in the comments!
-
-
 
 Co-author: Mateusz Klimczak, Technical Leader & Project Manager
