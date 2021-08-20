@@ -28,7 +28,7 @@ export const Page: React.FC<{ className?: string }> = ({
     >
       <HelmetTitleDescription
         title='Software Development Company'
-        description='The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more.'
+        description='Top custom software development company in Poland specialising in mobile & web apps, Blockchain and IoT. We create success stories for startups, digital agencies and mid-sized organisations from such industries as FinTech, Healthcare or Retail.'
       />
       <Helmet>
         <meta property='og:image' content={resolveUrl(fbShareImage)} />
