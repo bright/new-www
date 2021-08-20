@@ -7,7 +7,7 @@ tags:
 date: 2021-07-16T07:10:00.371Z
 title: You are a junior developer now. What's next?
 layout: post
-image: /images/junior_developer_learn.jpeg
+image: /images/junior_developer_learn.png
 hidden: false
 comments: true
 published: true
