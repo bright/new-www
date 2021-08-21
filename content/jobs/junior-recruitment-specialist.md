@@ -3,7 +3,7 @@ layout: job
 title: "Junior Recruitment Specialist "
 subtitle: ONGOING
 hours: full-time
-salary: 4250 - 6650 PLN + VAT (B2B) or 3509 - 5500 PLN gross (UoP)
+salary: 4250 - 6650 PLN + VAT (B2B) 3509 - 5500 PLN gross (UoP)
 salary_min: 3500
 salary_max: 6650
 published: false

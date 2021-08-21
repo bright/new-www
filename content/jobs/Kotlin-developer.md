@@ -2,8 +2,6 @@
 layout: job
 title: "Java/Kotlin Developer "
 subtitle: ONGOING
-imagejob: /images/multidisciplinary-team-bright-inventions.png
-image-alt-job: team
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 10000
@@ -14,7 +12,7 @@ description: We are looking for an experienced Java/Kotlin Developer who would
   like to develop and enhance an innovative backend application for one of our
   main clients.
 ---
-![]()
+![](/images/backendteam_bright-inventions.png)
 
 We are a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
 
@@ -61,7 +59,7 @@ We are looking for an experienced Java/Kotlin Developer who would like to develo
 
 ## recruitment process
 
-![]()
+![](/images/recruitment-process.png)
 
 Do you want to be a part of our Bright Team? Apply! 
 

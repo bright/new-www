@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Senior Backend Developer (Java/Kotlin) "
+title: "Senior Backend Developer "
 subtitle: ONGOING
 hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)

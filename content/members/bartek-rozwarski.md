@@ -4,10 +4,10 @@ author_id: bartekr
 ex: true
 slug: bartekr
 name: Bartek Rozwarski
-short_name: Bartek R.
+short_name: Bartek
 email: bartek.rozwarski@brightinventions.pl
 bio: iOS Developer
-description: iOS Developer. His true love is Swift and iOS.
+description: His true love is Swift and iOS
 avatar: /images/members/bartek.jpg
 redirect_from:
   - /bartek

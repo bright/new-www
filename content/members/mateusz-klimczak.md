@@ -1,22 +1,19 @@
 ---
-layout: member
 author_id: mateusz
-ex: false
 slug: mateusz
+title: Meet Mateusz
 name: Mateusz Klimczak
 short_name: Mateusz
 email: mateusz.klimczak@brightinventions.pl
-bio: Technical Leader & Project Manager
-description: Technical Leader & Project Manager. iOS lover keen on Android
-  development and project management.
+bio: Technical Leader & Project Manager 
 avatar: /images/members/mateusz_klimczak.jpg
 twitter: Klimczak_M
 github: KlimczakM
 stackoverflow: 1570496/klimczak-m
-redirect_from:
-  - /mateusz
-  - /mateusz/
-published: false
-title: Meet Mateusz
+description: iOS lover keen on Android development and project management
+redirect_from: ["/mateusz", "/mateusz/"]
+layout: member
 ---
-Passionate about agile software craftsmanship. At work focused not only on writing clean code but also on teamwork and soft skills development. iOS lover keen on Android development and project management. Motivated, goal-driven senior mobile software developer passionate about building software that boosts business growth. Privately, a great fan of fantasy books and geek humour.
+
+Passionate about agile software craftsmanship. At work focused not only on writing clean code but also on teamwork and soft skills development. iOS lover keen on Android development and project management. Privately, a great fan of fantasy books and geek humour.
+

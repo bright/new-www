@@ -7,8 +7,7 @@ name: Alisa Kashytska
 short_name: Alisa
 email: alisa.kashytska@brightinventions.pl
 bio: Product Designer
-description: Our Product Designer will make your app easy to understand and
-  usable. We follow every UX & UI design trend!
+description: Our UX designer will make your app easy to understand and usable
 avatar: /images/members/alisa_kashytska.jpg
 redirect_from:
   - /alisa

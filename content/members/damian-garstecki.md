@@ -7,7 +7,7 @@ name: Damian Garstecki
 short_name: Damian
 email: damian.garstecki@brightinventions.pl
 bio: Backend Developer
-description: Backend Developer devoted to Java and Kotlin languages.
+description: Backend Developer
 avatar: /images/damian2_team.png
 published: true
 ---

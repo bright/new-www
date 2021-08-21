@@ -4,10 +4,10 @@ author_id: maciej-n
 ex: false
 slug: maciej-n
 name: "Maciej Nawrocki "
-short_name: Maciej N.
+short_name: Maciej
 email: maciej.nawrocki@brightinventions.pl
 bio: Backend Developer
-description: Backend Developer building software solutions for the retail industry.
+description: Backend Developer
 avatar: /images/maciej_n_2_team.png
 published: true
 ---

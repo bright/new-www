@@ -1,25 +1,44 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
-import { routeLinks } from "../../config/routing"
+import { routeLinks } from '../../config/routing'
 import { PageDescription, Section, SectionInner } from '../../components/shared'
+import styled from 'styled-components'
+import variables from '../../styles/variables'
+
+const WrapperDesc = styled.section`
+  .career-desc {
+    @media ${variables.device.mobile} {
+      padding: 2rem 1.125rem 1rem;
+    }
+  }
+`
+
+export const PageDescriptionCareer = styled(PageDescription)`
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 1.375rem;
+
+  @media ${variables.device.mobile} {
+    font-size: 1rem;
+  }
+`
 
 const Description: React.FC = () => {
   return (
-    <Section>
-      <SectionInner>
-        <PageDescription>
+    <WrapperDesc>
+      <SectionInner className='career-desc'>
+        <PageDescriptionCareer>
           <span>
-            <Link to={routeLinks.aboutUs({page: 'team'})}>Our team</Link> consists of talented, positive and
-            committed people who work on international projects and enjoy what they do on daily basis.
+            <Link to={routeLinks.aboutUs({ page: 'team' })}>Our team</Link> consists of talented, positive and committed
+            people who work on international projects and enjoy what they do on daily basis.
           </span>
-        </PageDescription>
-        <PageDescription>
+        </PageDescriptionCareer>
+        <PageDescriptionCareer>
           If you value team work, responsibility and you would like to create software solutions that really matter in
           the current world, get to know us better and apply!
-        </PageDescription>
+        </PageDescriptionCareer>
       </SectionInner>
-    </Section>
+    </WrapperDesc>
   )
 }
 

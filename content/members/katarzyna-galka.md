@@ -4,7 +4,7 @@ author_id: kasia g
 ex: false
 slug: kasia-g
 name: Katarzyna Gałka
-short_name: Kasia G.
+short_name: Kasia
 email: katarzyna.galka@brightinventions.pl
 bio: Project Manager
 description: Project Manager

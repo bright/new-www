@@ -4,11 +4,10 @@ author_id: maciej-k
 ex: false
 slug: maciej-k
 name: Maciej Królik
-short_name: Maciej K.
+short_name: Maciej
 email: maciej.krolik@brightinventions.pl
 bio: Android Developer
-description: Android Developer. Kotlin expert but eager to experiment with other
-  interesting technologies.
+description: Android Developer
 avatar: /images/maciej_k2_team.png
 published: true
 ---

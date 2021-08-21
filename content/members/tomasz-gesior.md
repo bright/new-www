@@ -1,18 +1,15 @@
 ---
-layout: member
 author_id: tomek
-ex: true
 slug: tomek
-name: Tomasz Gęsior
-short_name: Tomasz G.
-email: tomasz.gesior@brightinventions.pl
-bio: Blockchain Developer
-description: Blockchain Developer
-avatar: /images/members/tomek.jpeg
-redirect_from:
-  - /tomek
-  - /tomek/
-published: false
 title: Meet Tomek
+name: Tomasz Gęsior
+short_name: Tomasz
+email: tomasz.gesior@brightinventions.pl
+avatar: /images/members/tomek.jpeg
+description: Blockchain developer 
+redirect_from: ["/tomek", "/tomek/"]
+ex: true
+layout: member
 ---
-Fullstack Developer with passion for blockchain.
+
+Fullstack deveeloper with passion for blockchain.

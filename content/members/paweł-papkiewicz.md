@@ -4,7 +4,7 @@ author_id: pawel
 ex: true
 slug: pawel
 name: Paweł Papkiewicz
-short_name: Paweł P.
+short_name: Paweł
 email: pawel.papkiewicz@brightinventions.pl
 bio: Fullstack Developer
 description: Fullstack Developer

@@ -7,7 +7,7 @@ name: Krzysztof Serocki
 short_name: Krzysztof
 email: krzysztof.serocki@brightinventions.pl
 bio: Android Developer
-description: Android Developer at Bright Inventions.
+description: Android Developer
 avatar: /images/krzysiek_s_2_team.png
 published: true
 ---

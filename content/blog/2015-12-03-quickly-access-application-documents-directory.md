@@ -1,12 +1,11 @@
 ---
-author: michal
+layout: post
+title: Quickly access Documents Directory for the iOS Simulator
 tags:
   - iOS
-date: 2015-12-02T23:00:00.000Z
-title: Quickly access Documents Directory for the iOS Simulator
-layout: post
-image: /images/internet-ios.jpg
 comments: true
+author: michal
+date: '2015-12-02T23:00:00.000Z'
 published: true
 ---
 

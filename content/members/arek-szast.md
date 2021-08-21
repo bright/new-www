@@ -7,8 +7,7 @@ name: Arek Szast
 short_name: Arek
 email: arkadiusz.szast@brightinventions.pl
 bio: Backend Developer
-description: Backend Developer that started his journey from Java and Kotlin but
-  is not scared of the frontend part too.
+description: Backend Developer
 avatar: /images/arek2.png
 published: true
 ---

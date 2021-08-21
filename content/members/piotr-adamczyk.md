@@ -4,7 +4,7 @@ author_id: piotr-a
 ex: false
 slug: piotr-a
 name: Piotr Adamczyk
-short_name: Piotr A.
+short_name: Piotr
 email: piotr.adamczyk@brightinventions.pl
 bio: Backend Developer
 description: Backend Developer

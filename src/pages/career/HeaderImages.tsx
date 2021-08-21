@@ -9,7 +9,7 @@ import { IStaticImageProps } from 'gatsby-plugin-image/dist/src/components/stati
 const ImagesBase = styled.div`
   & {
     display: flex;
-    gap: 2rem;
+    gap: 3.5rem;
     flex-grow: 1;
 
     @media ${variables.device.mobile} {
@@ -20,53 +20,105 @@ const ImagesBase = styled.div`
 
 export const ImagesHorizontal = styled(ImagesBase)`
   flex-direction: row;
-  height: 39.5rem;
+  height: 55rem;
 
   & > * {
-    flex-basis: 37.5%;
+    flex-basis: 20%;
+    &.gatsby-image-wrapper-constrained {
+      border: 1px solid #d3d3d3;
+    }
   }
 
   @media ${variables.device.mobile} {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     height: auto;
     justify-content: center;
 
     & > * {
-      flex-basis: 90%;
+      flex-basis: 50%;
+    }
+    & > *:nth-child(5) {
+      display: none;
     }
   }
 `
 
 export const ImagesVertical = styled(ImagesBase)`
   flex-direction: column;
-  flex-basis: 25%;
+  flex-basis: 20%;
 
   & > * {
     flex-grow: 1;
-  }
-
-  & > div:last-child img {
-    object-position: 80% 0;
+    height: 50%;
+    &.gatsby-image-wrapper-constrained {
+      border: 1px solid #d3d3d3;
+    }
   }
 
   @media ${variables.device.mobile} {
-    flex-direction: row;
-    max-width: 90%;
+    max-width: 50%;
+    flex-basis: 45%;
   }
 `
+export const SectionCareerTitle = styled(Section)`
+  padding: 2rem 2rem 4.5rem 2rem;
 
+  @media ${variables.device.mobile} {
+    padding: 3.5rem 1.125rem 4.5rem 1.125rem;
+  }
+`
 const HeaderImages: React.FC = () => {
   return (
-    <Section>
+    <SectionCareerTitle className='career-images'>
       <ImagesHorizontal>
-        <StaticImage objectFit={'contain'}  src='../../../static/images/career/header/image1.png' alt={'Career at Bright Inventions'} />
         <ImagesVertical>
-          <StaticImage objectFit={'contain'}  src='../../../static/images/career/header/image2.png' alt={'Software developer career Poland'} />
-          <StaticImage objectFit={'contain'}  src='../../../static/images/career/header/image3.png' alt={'Software developer career Poland'} />
+          <StaticImage
+            objectFit={'cover'}
+            src='../../../static/images/career/header/image1.png'
+            alt={'Career at Bright Inventions'}
+          />
+          <StaticImage
+            objectFit={'cover'}
+            src='../../../static/images/career/header/image5.png'
+            alt={'Software developer career Poland'}
+          />
         </ImagesVertical>
-        <StaticImage objectFit={'contain'}  src='../../../static/images/career/header/image4.png' alt={'Career at Bright Inventions'} />
+        <StaticImage
+          objectFit={'cover'}
+          src='../../../static/images/career/header/image2.png'
+          alt={'Software developer career Poland'}
+        />
+        <ImagesVertical>
+          <StaticImage
+            objectFit={'cover'}
+            src='../../../static/images/career/header/image6.png'
+            alt={'Career at Bright Inventions'}
+          />
+          <StaticImage
+            objectFit={'cover'}
+            src='../../../static/images/career/header/image3.png'
+            alt={'Software developer career Poland'}
+          />
+        </ImagesVertical>
+        <StaticImage
+          objectFit={'cover'}
+          src='../../../static/images/career/header/image4.png'
+          alt={'Career at Bright Inventions'}
+        />
+        <ImagesVertical>
+          <StaticImage
+            objectFit={'cover'}
+            src='../../../static/images/career/header/image7.png'
+            alt={'Career at Bright Inventions'}
+          />
+          <StaticImage
+            objectFit={'cover'}
+            src='../../../static/images/career/header/image8.png'
+            alt={'Software developer career Poland'}
+          />
+        </ImagesVertical>
       </ImagesHorizontal>
-    </Section>
+    </SectionCareerTitle>
   )
 }
 

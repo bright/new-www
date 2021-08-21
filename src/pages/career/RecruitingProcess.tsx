@@ -4,38 +4,62 @@ import styled from 'styled-components'
 import { Section, SectionTitle } from '../../components/shared'
 import variables from '../../styles/variables'
 
+const RecruitingTitle = styled(SectionTitle)`
+  margin-bottom: 4rem;
+  @media ${variables.device.mobile} {
+    font-size: 1.375rem;
+  }
+`
+
 const Columns = styled.div`
   .column {
     position: relative;
     padding: 1rem 2rem;
-    
+
     &:not(.is-half):after {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
       right: 0;
-      width: 1.2rem;
-      height: 0.8rem;
+      width: 1.5rem;
+      height: 1.1rem;
       content: '';
       background-image: url('/images/career/arrow.svg');
       background-size: cover;
     }
-    &:nth-child(n+4):after {
+    &:nth-of-type(3) figure img {
+      padding-top: 20px;
+    }
+    &:nth-child(n + 4):after {
       display: none;
+    }
+    &:first-of-type {
+      padding-left: 0;
+    }
+    &:nth-of-type(4) {
+      padding-right: 0;
+    }
+    &:last-of-type {
+      padding: 5.375rem 0 5.625rem 0;
+    }
+    &:last-of-type p {
+      font-size: 1.75rem;
+      margin-top: 4.25rem;
     }
 
     figure img {
-      max-height: 8rem;
+      max-height: 14.875rem;
       object-fit: contain;
     }
-    
+
     &.is-half figure img {
-      max-height: 15rem;
+      width: 100%;
+      max-height: 58.25rem;
     }
-    
+
     p {
       margin-top: 2rem;
-      font-size: 0.8rem;
+      font-size: 1.375rem;
       font-weight: 700;
     }
   }
@@ -43,8 +67,9 @@ const Columns = styled.div`
   @media ${variables.device.mobile} {
     && {
       .column {
-        margin-bottom: 3rem;
-        
+        margin-bottom: 4.5625rem;
+        padding: 0;
+
         &:after {
           display: block;
           top: unset;
@@ -53,13 +78,13 @@ const Columns = styled.div`
           left: 50%;
           right: unset;
         }
-        
+
         figure {
           height: auto;
-
-          img {
-            width: 10rem;
-          }
+          margin: 0 auto;
+        }
+        p {
+          font-size: 1.125rem;
         }
       }
     }
@@ -67,16 +92,19 @@ const Columns = styled.div`
 `
 
 const RecruitingProcess: React.FC = () => {
-  const blocks = useMemo(() => ([
-    {image: '/images/career/recruiting/cv_review.png', title: 'CV screening'},
-    {image: '/images/career/recruiting/interview.png', title: 'interview (technical part & non-technical part)'},
-    {image: '/images/career/recruiting/skills_evaluation.png', title: 'programming task'},
-    {image: '/images/career/recruiting/technical_interview.png', title: 'skills evaluation and feedback'},
-  ]), [])
+  const blocks = useMemo(
+    () => [
+      { image: '/images/career/recruiting/cv_review.png', title: 'CV screening' },
+      { image: '/images/career/recruiting/interview.png', title: 'interview (technical part & non-technical part)' },
+      { image: '/images/career/recruiting/skills_evaluation.png', title: 'programming task' },
+      { image: '/images/career/recruiting/technical_interview.png', title: 'skills evaluation and feedback' },
+    ],
+    []
+  )
 
   return (
     <Section>
-      <SectionTitle>recruiting process</SectionTitle>
+      <RecruitingTitle>recruiting process</RecruitingTitle>
 
       <Columns className='columns is-multiline has-justify-content-center'>
         {blocks.map((block, index) => (
@@ -84,7 +112,9 @@ const RecruitingProcess: React.FC = () => {
             <figure className='image is-inline-block'>
               <img src={block.image} alt={block.title} />
             </figure>
-            <p>{index+1}. {block.title}</p>
+            <p>
+              {index + 1}. {block.title}
+            </p>
           </div>
         ))}
         <div className='column is-half has-text-centered'>

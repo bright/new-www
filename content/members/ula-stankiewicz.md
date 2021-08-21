@@ -1,18 +1,15 @@
 ---
-layout: member
 author_id: ula
-ex: false
 slug: ula
+title: Meet Ula
 name: Ula Stankiewicz
 short_name: Ula
 email: ula.stankiewicz@brightinventions.pl
 bio: HR & Marketing Manager
-description: HR & Marketing Manager. People-centered, positive and scrutinous.
 avatar: /images/ula2_team.png
-redirect_from:
-  - /ula
-  - /ula/
-published: true
-title: Meet Ula
+description: HR & Marketing manager
+redirect_from: ["/ula", "/ula/"]
+layout: member
 ---
-People-centered, positive and scrutinous. Ula is a philologist and social media enthusiast. She is always the first one in the office, every morning. She believes in success through self-developing, hard work and dedication. She loves working with people and changing their life for the better. After hours English teacher, bike addict and amateur chocolate taster.
+
+People-centered, positive and scrutinous. Ula is a philologist and social media enthusiast. She believes in success through self-developing, hard work and dedication. After hours English teacher, bike addict and amateur chocolate taster.

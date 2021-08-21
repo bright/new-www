@@ -1,12 +1,11 @@
 ---
-author: michal
+layout: post
+title: Desymbolicate crash reports from the command line
 tags:
   - iOS
-date: 2015-10-18T22:00:00.000Z
-title: Desymbolicate crash reports from the command line
-layout: post
-image: /images/laptop-software-developer.jpg
 comments: true
+author: michal
+date: '2015-10-18T22:00:00.000Z'
 published: true
 ---
 

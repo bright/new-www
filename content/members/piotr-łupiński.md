@@ -1,21 +1,17 @@
 ---
-descrption: Ask him anything from mobile to backend through Blockchain and Big
-  Data, he is our programming genie
-layout: member
 author_id: piotr_l
-ex: true
 slug: piotr_l
+title: Piotr
 name: Piotr Łupiński
-short_name: Piotr Ł.
+short_name: Piotr
 email: piotr.lupinski@brightinventions.pl
-bio: Android Developer
-description: Android Developer at Bright Inventions
+bio: Android Developer @ Bright Inventions
 web: http://exp.flamaster2.com
 avatar: /images/members/piotrl.png
-redirect_from:
-  - /piotr
-  - /piotr/
-published: false
-title: Piotr
+descrption: Ask him anything from mobile to backend through Blockchain and Big Data, he is
+  our programming genie
+redirect_from: ["/piotr", "/piotr/"]
+ex: true
+layout: member
 ---
-Android Developer
+

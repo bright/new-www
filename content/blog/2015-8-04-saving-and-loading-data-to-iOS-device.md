@@ -5,7 +5,6 @@ tags:
 date: 2015-08-03T22:00:00.000Z
 title: NSKeyedArchiver/Unarchiver
 layout: post
-image: /images/people-office-group-team.jpg
 comments: true
 published: true
 ---

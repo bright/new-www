@@ -4,7 +4,7 @@ author_id: ula-su
 ex: false
 slug: ula-su
 name: Ula Subkowska
-short_name: Ula S.
+short_name: Ula
 email: urszula.subkowska@brightinventions.pl
 bio: "Backend Developer "
 description: "Backend Developer "

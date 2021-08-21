@@ -7,8 +7,8 @@ name: Filip Jabłoński
 short_name: Filip
 email: filip.jablonski@brightinventions.pl
 bio: Senior iOS Developer
-description: Senior iOS Developer developing software solutions for the retail industry.
+description: iOS programmer
 avatar: /images/filip2.png
 published: true
 ---
-Filip is an iOS programmer since 2013 and immediately has got involved in this platform. He is also trying his hand on Xamarin and React Native. He loves coworking and facing up new challenges. Lego and board games fan. A chief play organizer for his child. Living with a dog, a cat and a hamster under one roof gives him a lot of unexpected fun.
+Filip is an iOS programmer since 2013 and immediately has got involved in this platform. He is also trying his hand on Xamarin and React Native. He loves coworking and facing up new challenges. Lego and board games fan. A chief play organizer for his child.

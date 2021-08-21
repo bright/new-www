@@ -31,12 +31,13 @@ export async function sendMail(
   }
 
   if (formType === "job") {
-    return fetch(
-      "https://prod-50.northeurope.logic.azure.com/workflows/ebe3138deb79483499fece1fdb88d591/triggers/manual/paths/invoke/job?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=ZFCcJhp_9FTFToWYjRfl4uoeqGDQOS-_4z0TpVjAgUk",
-      {
-        method: "POST",
-        body: formData,
-      }
-    )
+    console.log(formData);
+    // return fetch(
+    //   "https://prod-50.northeurope.logic.azure.com/workflows/ebe3138deb79483499fece1fdb88d591/triggers/manual/paths/invoke/job?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=ZFCcJhp_9FTFToWYjRfl4uoeqGDQOS-_4z0TpVjAgUk",
+    //   {
+    //     method: "POST",
+    //     body: formData,
+    //   }
+    // )
   }
 }
