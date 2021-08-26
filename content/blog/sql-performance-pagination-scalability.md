@@ -22,4 +22,4 @@ Which option we should choose? As always in computer science - it depends :)
 
 Let me know how do you use pagination and if you ever had any performance issues related to that.
 
-P.S Remember that pagination needs deterministic order and do include `ORDER BY` in your queries ;)
+P.S Remember that pagination needs deterministic order and do include `ORDER BY` in your queries when needed ;)
