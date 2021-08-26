@@ -1,5 +1,11 @@
 ---
 author: rafal h
+tags:
+  - sql
+  - performance
+  - pagination
+  - development
+  - tips&tricks
 date: 2021-08-26T07:39:58.352Z
 title: SQL Performance - pagination scalability
 layout: post
