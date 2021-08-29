@@ -1,10 +1,10 @@
-import React from "react"
-import styled from "styled-components"
+import React from 'react'
+import styled from 'styled-components'
 
-import AboutUsPage from "../about-us"
-import TeamMembers from "../../components/subcomponents/TeamMembers"
-import { FormComponent } from "../../components/about-us/form-section/form"
-import {TextRegular} from '../../components/shared'
+import AboutUsPage from '../about-us'
+import TeamMembers from '../../components/subcomponents/TeamMembers'
+import { FormComponent } from '../../components/about-us/form-section/form'
+import { TextRegular } from '../../components/shared'
 
 const Caption = styled.div`
   &&& {
@@ -16,13 +16,12 @@ const Caption = styled.div`
 export default function TeamPage() {
   return (
     <AboutUsPage>
-      <div className="tab-content content">
-        <Caption className="container">
+      <div className='tab-content content'>
+        <Caption className='container'>
           <TextRegular>
-            We are a team of skilled and talented specialists: mobile, web and
-            backend developers, UI and UX designers, product managers and
-            marketers, who understand what makes bright digital products that
-            build engagement and loyalty.
+            We are a team of skilled and talented specialists: mobile, web and backend developers, UI and UX designers,
+            product managers and marketers, who understand what makes bright digital products that build engagement and
+            loyalty.
           </TextRegular>
         </Caption>
         <TeamMembers />
