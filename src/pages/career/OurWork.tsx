@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { HideTablet, Section, SectionTitle, CustomContainer } from '../../components/shared'
+import { HideTablet, Section, SectionTitle, CustomContainer, CustomSection } from '../../components/shared'
 import { Carousel } from '../../components/shared/Carousel'
 import variables from '../../styles/variables'
 
@@ -23,12 +23,12 @@ const SectionTitleEx = styled(SectionTitle)`
 
 const OurWork: React.FC = () => {
   return (
-    <CustomContainer>
-      <SectionEx>
+    <CustomSection>
+      <CustomContainer>
         <SectionTitleEx>what we have worked on</SectionTitleEx>
         <Carousel wrapperClassName='carousel__career' />
-      </SectionEx>
-    </CustomContainer>
+      </CustomContainer>
+    </CustomSection>
   )
 }
 

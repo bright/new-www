@@ -1,12 +1,12 @@
 import React from 'react'
 
-import { Section, SectionInner } from '../../components/shared'
+import { CustomSection, Section, SectionInner } from '../../components/shared'
 import { FormComponent } from '../../components/about-us/form-section/form'
 
 const Form: React.FC = () => {
   return (
     <div className='container'>
-      <Section>
+      <CustomSection>
         <SectionInner>
           <FormComponent
             style={{ marginTop: '1rem' }}
@@ -24,7 +24,7 @@ const Form: React.FC = () => {
             uploadLabel={'Upload '}
           />
         </SectionInner>
-      </Section>
+      </CustomSection>
     </div>
   )
 }

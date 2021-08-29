@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import styled from 'styled-components'
 
-import { Section, SectionTitle } from '../../components/shared'
+import { CustomSection, Section, SectionTitle } from '../../components/shared'
 import { CustomContainer } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
 
@@ -138,7 +138,7 @@ const Benefits: React.FC = () => {
 
   return (
     <CustomContainer>
-      <Section className='is-clearfix'>
+      <CustomSection className='is-clearfix'>
         <SectionBenefitsTitle>
           our life is also <span className='has-text-primary'>bright</span>
         </SectionBenefitsTitle>
@@ -168,7 +168,7 @@ const Benefits: React.FC = () => {
             see {expanded ? 'less' : 'more'}
           </span>
         </BlockSmall>
-      </Section>
+      </CustomSection>
     </CustomContainer>
   )
 }

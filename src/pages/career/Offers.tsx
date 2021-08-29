@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
-import { Section, SectionInner, MoreButton, SectionTitle } from '../../components/shared'
+import { SectionInner, MoreButton, SectionTitle, CustomSection } from '../../components/shared'
 import { createJobs } from '../../models/creator'
 import OffersList from './OffersList'
 import OffersAll from './OffersAll'
@@ -25,13 +25,13 @@ const Offers: React.FC = () => {
   const [showAll, setShowAll] = useState(false)
 
   return (
-    <Section id='open-positions'>
+    <CustomSection id='open-positions'>
       <ParagraphHeader>job offers</ParagraphHeader>
       <SectionInner>
         <OffersList jobs={createJobs(useStaticQuery(jobsQuery))} />
         {showAll ? <OffersAll /> : <MoreButton onClick={() => setShowAll(true)}>view all job offers</MoreButton>}
       </SectionInner>
-    </Section>
+    </CustomSection>
   )
 }
 

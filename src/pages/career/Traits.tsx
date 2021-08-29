@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Section, SectionInner, SectionTitle, TextRegular } from '../../components/shared'
+import { CustomSection, Section, SectionInner, SectionTitle, TextRegular } from '../../components/shared'
 import variables from '../../styles/variables'
 // import { TextRegular } from './../../components/shared/index'
 
@@ -46,7 +46,7 @@ const TextRegularTraits = styled(TextRegular)`
 const Traits: React.FC = () => {
   return (
     <div className='container'>
-      <Section>
+      <CustomSection>
         <SectionInner>
           <SectionTitleEx>teamwork, responsibility and positive mindset</SectionTitleEx>
           <TextRegularTraits>
@@ -88,7 +88,7 @@ const Traits: React.FC = () => {
             bigger impact on the world.
           </TextRegularTraits>
         </SectionInner>
-      </Section>
+      </CustomSection>
     </div>
   )
 }
