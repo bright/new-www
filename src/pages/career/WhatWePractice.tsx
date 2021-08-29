@@ -49,7 +49,7 @@ const WhatWePractice: React.FC = () => {
   const blocks = useMemo(
     () => [
       { image: '/images/career/practice/agile_meth.svg', title: 'agile methodology' },
-      { image: '/images/career/practice/test-driven_development.svg', title: 'code review (Upsource)' },
+      { image: '/images/career/practice/code_review.svg', title: 'code review (Upsource)' },
       { image: '/images/career/practice/pair_programming.svg', title: 'pair programming' },
       { image: '/images/career/practice/mentoring.svg', title: 'mentoring' },
       { image: '/images/career/practice/continuous_integration.svg', title: 'continuous integration and delivery' },
