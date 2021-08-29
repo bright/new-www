@@ -1,27 +1,25 @@
+import { margin } from 'polished'
 import React from 'react'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { SectionBlack } from './index'
+import { CustomContainer } from './index.styled'
 
 const SectionBlackContainer = styled(SectionBlack)`
-  padding: 3rem 1.5rem;
+  padding: 6rem 8rem;
 
   @media ${variables.device.mobile} {
-    padding: 2rem 0.5rem;
+    padding: 4rem 1.875rem;
   }
 `
 
 const ContentContainer = styled.div({
-  maxWidth: '1545px',
-
   display: 'flex',
   flexDirection: 'row',
-  justifyContent: 'center',
-
+  justifyContent: 'space-between',
   flexWrap: 'wrap',
-
-  padding: '0px 20px',
   margin: 'auto',
+  maxWidth: '1714px',
 
   ['@media screen and (max-width: 767px)']: {
     justifyContent: 'flex-start',
@@ -30,11 +28,11 @@ const ContentContainer = styled.div({
 })
 
 const Pill = styled.div({
-  border: '1px solid rgba(212,212,212,0.75)',
-  height: '42px',
+  border: '1px solid rgba(211, 211, 211, .47)',
 
   textAlign: 'center',
-  fontSize: '18px',
+  fontSize: '22px',
+  lineHeight: '27px',
   fontFamily: variables.font.title.family,
   color: variables.color.white,
 
@@ -42,44 +40,47 @@ const Pill = styled.div({
   justifyContent: 'center',
   alignItems: 'center',
 
-  padding: '0px 18px',
-  marginRight: '24px',
+  padding: '16px 18px',
+  marginRight: '10px',
 
   marginTop: '9px',
   marginBottom: '9px',
+  ['&:last-of-type']: {
+    marginRight: '0px',
+  },
 
   ['@media screen and (max-width: 767px)']: {
-    fontSize: '12px',
-    height: '32px',
-    padding: '0px 10px',
+    fontSize: '18px',
+    lineHeight: '27px',
+    padding: '13px 16px',
 
-    margin: '6px 12px 6px 0px',
+    margin: '0px 18px 18px 0px',
+    ['&:nth-of-type(8)']: {
+      marginRight: '0px',
+    },
   },
 })
 
 export const TechnologyTags = () => {
   return (
     <SectionBlackContainer>
-      <ContentContainer>
-        <Pill>Android</Pill>
-        <Pill>iOS</Pill>
-        <Pill>Kotlin</Pill>
-        <Pill>Blockchain</Pill>
-        <Pill>Java</Pill>
-        <Pill>Spring</Pill>
-        <Pill>TypeScript</Pill>
-        <Pill>React</Pill>
-        <Pill>Angular</Pill>
-        <Pill>Node.js</Pill>
-        <Pill>NestJS</Pill>
-        <Pill>MySQL</Pill>
-        <Pill>PostgreSQL</Pill>
-        <Pill>Swift</Pill>
-        <Pill>AWS</Pill>
-        <Pill>Bluetooth</Pill>
-        <Pill>iBeacon</Pill>
-        <Pill>IoT</Pill>
-      </ContentContainer>
+      <CustomContainer>
+        <ContentContainer>
+          <Pill>Java</Pill>
+          <Pill>Kotlin</Pill>
+          <Pill>Spring</Pill>
+          <Pill>TypeScript</Pill>
+          <Pill>JavaScript</Pill>
+          <Pill>React</Pill>
+          <Pill>Node.js</Pill>
+          <Pill>NestJS</Pill>
+          <Pill>Swift</Pill>
+          <Pill>RXJava</Pill>
+          <Pill>AWS</Pill>
+          <Pill>PostgreSQL</Pill>
+          <Pill>MySQL</Pill>
+        </ContentContainer>
+      </CustomContainer>
     </SectionBlackContainer>
   )
 }
