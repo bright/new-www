@@ -8,16 +8,25 @@ interface MoreButtonProps {
   text?: string
   isSubmit?: boolean
   disabled?: boolean
+  className?: string
 }
 
-export const MoreButton: React.FC<MoreButtonProps> = ({ onClick, href, text, disabled, isSubmit, children }) => {
+export const MoreButton: React.FC<MoreButtonProps> = ({
+  onClick,
+  href,
+  text,
+  disabled,
+  isSubmit,
+  children,
+  className,
+}) => {
   const Btn = () => (
-    <button type={isSubmit ? 'submit' : 'button'} disabled={disabled} onClick={onClick}>
+    <button type={isSubmit ? 'submit' : 'button'} disabled={disabled} onClick={onClick} className={className}>
       {text || children}
     </button>
   )
   return (
-    <Styled.Button className={'column is-full has-text-centered'}>
+    <Styled.Button className={'column is-full has-text-centered '}>
       {href ? (
         <Link to={href}>
           <Btn />
@@ -42,3 +51,8 @@ export const TextRegular = Styled.TextRegular
 export const CustomContainer = Styled.CustomContainer
 export const CustomPageTitle = Styled.CustomPageTitle
 export const CustomConstrainedWidthContainer = Styled.CustomConstrainedWidthContainer
+export const CustomSection = Styled.CustomSection
+export const CustomSectionTitle = Styled.CustomSectionTitle
+export const CustomTextTitle = Styled.CustomTextTitle
+export const CustomTextRegular = Styled.CustomTextRegular
+export const Button = Styled.Button

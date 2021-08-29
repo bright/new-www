@@ -108,7 +108,7 @@ export const Button = styled.div`
   }
 `
 export const CustomContainer = styled.div`
-  max-width: 1714px;
+  max-width: 1650px;
   margin: auto;
 
   /* @media ${variables.device.mobile} {
@@ -142,7 +142,44 @@ export const CustomConstrainedWidthContainer = styled.div`
   padding: 3.3rem 0;
 
   @media ${variables.device.mobile} {
-    max-width: calc(100% - 18px);
+    max-width: calc(100% - 36px);
     margin: 0 auto;
+    padding: 4rem 0 5rem 0;
   }
+`
+export const CustomSection = styled.section`
+  padding: 2rem 2rem 6rem 2rem;
+  color: ${variables.color.text};
+
+  @media ${variables.device.mobile} {
+    padding: 2rem 1.125rem 1rem;
+  }
+`
+export const CustomSectionTitle = styled.h3`
+  ${TitleBase};
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 3.06rem;
+  margin: 9.625rem 0 6.56rem;
+  color: #000000;
+
+  @media ${variables.device.mobile} {
+  font-size: 1.375rem;
+  line-height: 1.6875rem;
+  font-weight: 900;
+  margin: 5.125rem 0 4rem
+  }
+`
+export const CustomTextTitle = styled.div`
+  ${TitleBase};
+  margin: 1em 0;
+  font-size: 1.375rem;
+  font-weight: bold;
+  line-height: 1.6875rem;
+`
+export const CustomTextRegular = styled.div`
+  font-family: ${variables.font.text.family};
+  font-size: 1.375rem;
+  line-height: 2.5rem;
+  opacity: .75;
 `
