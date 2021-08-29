@@ -30,6 +30,7 @@ export const Form = styled.form({
 })
 
 export const SubmitButton = styled.button({
+  display: 'block',
   fontSize: '18px',
   lineHeight: '22px',
   fontFamily: variables.font.title.family,
@@ -42,7 +43,7 @@ export const SubmitButton = styled.button({
   height: '54px',
   width: '230px',
 
-  marginTop: '110px',
+  margin: '0 auto',
   padding: '15px 82px',
 
   ['&:disabled']: {
@@ -181,10 +182,12 @@ const SubmitMessage = styled.div({
   fontFamily: variables.font.text.family,
 
   marginTop: '30px',
+  
 })
 
 export const RequiredMessage = styled(Label)({
   marginTop: '30px',
+  marginBottom: '105px',
 })
 
 export const ErrorMessage = styled(SubmitMessage)({

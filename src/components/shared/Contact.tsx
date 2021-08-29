@@ -17,7 +17,7 @@ import {
   SuccessMessage,
   TextInput,
 } from './contact/styles'
-import { SectionTitle, TextRegular } from './index'
+import { TextRegular, CustomSectionTitle } from './index'
 
 const ContainerWrapper = styled.div({
   display: 'flex',
@@ -84,12 +84,11 @@ export const Contact = () => {
   return (
     <ContainerWrapper>
       <Container>
-        <SectionTitle>let’s talk about your product idea</SectionTitle>
+        <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
         <TextRegular>
-          Have an idea for a groundbreaking software project, but don't know
-          where to start? Or maybe you're looking for software development
-          experts to help take your product to the next level? We'll be more
-          than happy to discuss how we can help your business succeed!
+          Have an idea for a groundbreaking software project, but don't know where to start? Or maybe you're looking for
+          software development experts to help take your product to the next level? We'll be more than happy to discuss
+          how we can help your business succeed!
         </TextRegular>
 
         <Form data-form-type='contact' action='#' onSubmit={onFormSubmit}>
@@ -137,23 +136,15 @@ export const Contact = () => {
 
             <DoubleInputsRowEntry>
               <Label>Service</Label>
-              <SingleSelect
-                name='service'
-                value={service}
-                onChange={e => setService(e.target.value)}
-              >
+              <SingleSelect name='service' value={service} onChange={e => setService(e.target.value)}>
                 <option value='DEFAULT' hidden>
                   Pick what service you need
                 </option>
                 <option value='web_development'>web development</option>
-                <option value='mobile_app_development'>
-                  mobile app development
-                </option>
+                <option value='mobile_app_development'>mobile app development</option>
                 <option value='product_design'>product design</option>
                 <option value='blockchain'>blockchain</option>
-                <option value='custom_software_development'>
-                  custom software development
-                </option>
+                <option value='custom_software_development'>custom software development</option>
                 <option value='agile_workshops'>agile workshops</option>
                 <option value='other'>other</option>
               </SingleSelect>
@@ -181,9 +172,7 @@ export const Contact = () => {
               Select how did you find about us
             </option>
 
-            <option value='social_media'>
-              Social media (LinkedIn, Facebook, Instagram)
-            </option>
+            <option value='social_media'>Social media (LinkedIn, Facebook, Instagram)</option>
             <option value='referral'>Referral</option>
             <option value='google'>Google</option>
             <option value='other'>other</option>
@@ -199,11 +188,7 @@ export const Contact = () => {
               checked={checkedRules}
             />
             &nbsp;I accept the&nbsp;
-            <a
-              href={routeLinks.privacyPolicy}
-              target='_blank'
-              className='has-text-black'
-            >
+            <a href={routeLinks.privacyPolicy} target='_blank' className='has-text-black'>
               <b>
                 <u>Privacy Policy</u>
               </b>
@@ -218,19 +203,9 @@ export const Contact = () => {
           </SubmitButton>
         </Form>
 
-        {success && (
-          <SuccessMessage>
-            Thank you! Your submission has been received!
-          </SuccessMessage>
-        )}
-        {valid === false && (
-          <ErrorMessage>Please, complete missing information</ErrorMessage>
-        )}
-        {error && (
-          <ErrorMessage>
-            Oops! Something went wrong while submitting the form.
-          </ErrorMessage>
-        )}
+        {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>}
+        {valid === false && <ErrorMessage>Please, complete missing information</ErrorMessage>}
+        {error && <ErrorMessage>Oops! Something went wrong while submitting the form.</ErrorMessage>}
       </Container>
     </ContainerWrapper>
   )
