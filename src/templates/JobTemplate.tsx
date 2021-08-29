@@ -17,6 +17,9 @@ const SalaryHeading = styled.h5`
   font-weight: 600;
   line-height: 1.5rem;
   text-align: center;
+  @media ${variables.device.mobile} {
+    margin: 1rem 0;
+  }
 `
 const SalaryWrapper = styled.div`
   display: flex;
@@ -45,11 +48,18 @@ const SalaryWrapper = styled.div`
   }
   @media ${variables.device.mobile} {
     display: block;
+    margin: 0 auto;
     & > div {
+      font-size: 1.125rem;
+      text-align: center;
       &:first-of-type {
+        text-align: center;
         &:after {
           content: '';
         }
+      }
+      &:last-of-type {
+        padding-left: 0;
       }
     }
   }
@@ -62,6 +72,7 @@ const HoursWraper = styled.div`
   font-size: 1.375rem;
   line-height: 1.75rem;
   padding-top: 0.75rem;
+  padding-bottom: 4.3rem;
 
   > h4 {
     position: relative;
@@ -86,6 +97,9 @@ const HoursWraper = styled.div`
     margin-left: 1rem;
     flex-basis: 50%;
   }
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+  }
 `
 const RecruitingProcessWrappers = styled.div`
   padding: 0 5rem;
@@ -96,6 +110,12 @@ const RecruitingProcessWrappers = styled.div`
 const JobBlackButton = styled(BlackButton)`
   display: block;
   margin: 0 auto;
+  @media ${variables.device.mobile} {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0.8125rem 0;
+  }
 `
 const JobBackButton = styled(BackButton)`
   display: block;
@@ -169,6 +189,30 @@ const JobSectionInner = styled(SectionInner)`
     }
   }
 `
+const TechnologyWrapper = styled.div`
+  padding-bottom: 4rem;
+  & > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+
+    & > li {
+      margin-bottom: 0.5625rem;
+      font-size: 1.375rem;
+      font-weight: 600;
+      line-height: 1.687;
+      color: #131214;
+      padding: 1rem 1.125rem;
+      border: 1px solid rgba(211, 211, 211, 0.47);
+      @media ${variables.device.mobile} {
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+      }
+    }
+  }
+`
 const JobFormComponent = styled(FormComponent)`
   overflow-x: hidden;
   @media ${variables.device.mobile} {
@@ -220,15 +264,21 @@ export default function Template({
       <HelmetTitleDescription title={page.title} description={page.description} />
       <CustomConstrainedWidthContainer>
         <CustomPageTitle>{page.title}</CustomPageTitle>
-
         <SalaryHeading className='has-text-primary'>{page.subtitle}</SalaryHeading>
         <SalaryWrapper>
           <Salary salary={page.salary} />
         </SalaryWrapper>
         <HoursWraper>
           {page.hours && <h4>{page.hours}</h4>}
-          <span> Gdańsk/remote</span>
+          <span>Gdańsk</span>
         </HoursWraper>
+        <TechnologyWrapper>
+          <ul>
+            <li>Java</li>
+            <li>Kotlin</li>
+          </ul>
+        </TechnologyWrapper>
+
         <JobBlackButton type='submit'>join</JobBlackButton>
 
         <JobSectionInner>
@@ -237,9 +287,10 @@ export default function Template({
         <RecruitingProcessWrappers>
           <RecruitingProcess />
         </RecruitingProcessWrappers>
+
         <SectionInner>
           <JobFormComponent
-            style={{ marginTop: '0' }}
+            style={{ marginTop: '0', marginBottom: '5rem' }}
             title={'submit your application'}
             description={
               <>
