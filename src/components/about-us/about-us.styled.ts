@@ -49,6 +49,7 @@ export const FlashbackContainer = styled.div<{ length: number }>`
 
 export const Button = styled.button`
   all: unset;
+  box-sizing: border-box;
   padding: 1rem 4rem;
   border: 1px solid #000;
   background: #fff;
