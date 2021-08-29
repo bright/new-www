@@ -71,6 +71,34 @@ collections:
       - { label: 'Salary', name: 'salary', widget: 'string' }
       - { label: 'Salary Min', name: 'salary_min', widget: 'number', required: false }
       - { label: 'Salary Max', name: 'salary_max', widget: 'number', required: false }
+      - { label: 'Working Time', name: 'working time', widget: 'select', options: ['full time', 'part time'] }
+      - {
+          label: 'Technology',
+          name: 'technology',
+          widget: 'select',
+          multiple: true,
+          options:
+            [
+              'Android',
+              'iOS',
+              'Kotlin',
+              'Blockchain',
+              'Java',
+              'Spring',
+              'TypeScript',
+              'React',
+              'Angular',
+              'Node.js',
+              'NestJS',
+              'MySQL',
+              'PostgreSQL',
+              'Swift',
+              'AWS',
+              'Bluetooth',
+              'iBeaconIoT',
+            ],
+        }
+      - { label: 'Button', name: 'button', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
@@ -84,6 +112,7 @@ collections:
           step: 1,
           default: 1,
         }
+
   - name: 'projects' # Used in routes, e.g., /admin/collections/blog
     label: 'Projects' # Used in the UI
     folder: 'content/projects' # The path to the folder where the documents are stored
