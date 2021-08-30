@@ -148,7 +148,7 @@ export const CustomConstrainedWidthContainer = styled.div`
   }
 `
 export const CustomSection = styled.section`
-  padding: 2rem 2rem 6rem 2rem;
+  padding: 2rem 2rem 0 2rem;
   color: ${variables.color.text};
 
   @media ${variables.device.mobile} {
