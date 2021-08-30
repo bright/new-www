@@ -62,6 +62,12 @@ export const InvertedButton = styled(Button)`
 `
 export const BlackButton = styled(InvertedButton)`
   border: none;
+  transition: all 0.25s;
+  &:hover {
+    background: ${variables.color.primary};
+    color: #fff;
+    filter: invert(0%); 
+  }
 `
 export const WorkshopContainer = styled.div`
   background: black;
