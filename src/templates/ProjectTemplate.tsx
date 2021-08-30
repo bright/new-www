@@ -28,7 +28,7 @@ export default function Template({
           <Title className='title'>{frontmatter.title}</Title>
           <div className='content'>{frontmatter.description}</div>
           <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
-          <BackButton url='/projects' label='Projects' />
+          <BackButton url='/projects' label='Projects' arrowColor={''} className={''} />
         </article>
       </Container>
     </Page>
