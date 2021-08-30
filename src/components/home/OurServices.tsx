@@ -49,7 +49,14 @@ const OurSerwicesTextRegular = styled(CustomTextRegular)`
 `
 
 const ServiceLink = styled(Link)`
-  
+  .servicesbutton {
+    padding: 1rem 4rem;
+    font-size: ${variables.font.customtext.sizeButton};
+    line-height: 1.375rem;
+    @media ${variables.device.mobile} {
+      width: 100%;
+      padding: 1rem 0;
+    }
   }
 `
 const services = [
