@@ -29,10 +29,10 @@ export const MoreButton: React.FC<MoreButtonProps> = ({
     <Styled.Button className={'column is-full has-text-centered '}>
       {href ? (
         <Link to={href}>
-          <Btn className={className} />
+          <Btn />
         </Link>
       ) : (
-        <Btn className={className} />
+        <Btn />
       )}
     </Styled.Button>
   )
