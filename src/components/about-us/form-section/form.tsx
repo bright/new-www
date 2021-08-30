@@ -8,6 +8,8 @@ import { routeLinks } from '../../../config/routing'
 import { TextRegular } from '../../shared'
 import { SuccessMessage } from '../../shared/contact/styles'
 import variables from '../../../styles/variables'
+import { JobApplicationModal } from '../../forms/job-application/job-application-modal'
+import { CustomTextRegular } from '../../shared/index.styled'
 
 interface Props extends FormProps {
   title?: React.ReactNode
@@ -39,8 +41,19 @@ const Description = styled(TextRegular)`
   }
 `
 
+const SuccesMessage = styled(CustomTextRegular)`
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+  }
+`
+
 export const FormComponent: React.FC<Props> = props => {
   const [success, setSuccess] = useState(false)
+
+  const closeModal = () => {
+    setSuccess(false)
+  }
+
   const {
     style,
     className,
@@ -57,7 +70,14 @@ export const FormComponent: React.FC<Props> = props => {
       <Title>{title}</Title>
       {description && <Description>{description}</Description>}
       <JobApplicationForm {...formProps} onSubmit={() => setSuccess(true)} />
-      {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>}
+      {success && (
+        <JobApplicationModal modalState={success} closeModal={closeModal} title={'Thanks for submitting'}>
+          <SuccesMessage>
+            Congrats! Your application was successfully submitted. You’ll receive email with the confirmation. Thank
+            you!
+          </SuccesMessage>
+        </JobApplicationModal>
+      )}
     </FormContainer>
   )
 }

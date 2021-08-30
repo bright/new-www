@@ -8,15 +8,17 @@ export function useApplicationForm() {
     message: "",
     cv: null,
     policy: false,
+    source: "",
   })
   const handleSubmit = useCallback(
     event => {
       event.preventDefault()
+      value.source = window.location.href;
+      handleSendMail(value)
     },
     [value]
   )
   const handleChange = useCallback(event => {
-    console.log("x")
     event.persist()
     const value =
       event.target.type === "checkbox"
@@ -62,6 +64,5 @@ function handleSendMail(data: Record<string, any>) {
       }),
       {}
     )
-
   return sendMail(_data, FormType.job)
 }
