@@ -25,6 +25,8 @@ export const UploadFieldContainer = styled.label`
   cursor: pointer;
   input {
     opacity: 0;
+    top: 0;
+    left: 0;
     position: absolute;
     pointer-events: none;
   }
@@ -74,4 +76,24 @@ export const CheckboxFieldContainer = styled.label`
   svg {
     stroke: #fff;
   }
+`
+
+export const  AttachmentUploaded = styled.div`
+width: fit-content;
+margin-top: 2.25rem;
+padding: 0 1.125rem;
+border: 1px solid rgba(136, 136, 136, .66);
+& span {
+ font-size: 1.125rem;
+ line-height: 2.5rem;
+ word-break: break-all;
+ color:var(--black);
+}
+ & button {
+   padding-left: 1.125rem;
+   font-size: 1.125rem;
+   text-transform: uppercase;
+   border: none;
+   background-color: transparent;
+ }
 `

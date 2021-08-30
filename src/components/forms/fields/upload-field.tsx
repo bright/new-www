@@ -1,6 +1,6 @@
-import React, { ChangeEvent } from "react"
-import { UploadFieldContainer } from "./fields.styled"
-import { UploadIcon } from "../../icons/Upload.icon"
+import React, { ChangeEvent } from 'react'
+import { UploadFieldContainer } from './fields.styled'
+import { UploadIcon } from '../../icons/Upload.icon'
 
 interface Props {
   label?: string
@@ -8,6 +8,7 @@ interface Props {
   required?: boolean
   name?: string
   onChange?(event: ChangeEvent): void
+  onClick?(event: MouseEvent): void
 }
 const DEFAULT_CHILDREN = (
   <>
@@ -19,7 +20,7 @@ export function UploadField({ children, ...props }: Props) {
   return (
     <UploadFieldContainer>
       <span>{children || DEFAULT_CHILDREN}</span>
-      <input type="file" {...props} />
+      <input type='file' {...props} />
     </UploadFieldContainer>
   )
 }

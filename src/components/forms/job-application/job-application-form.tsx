@@ -8,6 +8,7 @@ import { Link } from 'gatsby'
 import { useApplicationForm } from './utils'
 import { routeLinks } from '../../../config/routing'
 import { UploadIcon } from '../../icons/Upload.icon'
+import { AttachmentUploaded } from '../fields/fields.styled'
 
 export interface FormProps {
   nameLabel?: string
@@ -38,7 +39,6 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     onSubmit && onSubmit()
     handleSubmit(event)
   }, [])
-
   return (
     <Form onSubmit={submit}>
       <div>
@@ -70,15 +70,18 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       /> */}
       <div>
         <p>Upload your resume / CV / cover letter / portfolio</p>
-        <UploadField required onChange={handleChange} name='cv'>
+        <UploadField required onChange={handleChange} name='cv' onClick={e => (e.target.value = null)}>
           <UploadIcon />
           {uploadLabel}
         </UploadField>
         <div>
           {value.cv && (
-            <div>
-              value.cv[0].name <button onChange={handleChange}>x</button>
-            </div>
+            <AttachmentUploaded>
+              <span>{value.cv[0].name}</span>{' '}
+              <button onClick={handleChange} name='clearCv'>
+                x
+              </button>
+            </AttachmentUploaded>
           )}
         </div>
       </div>
