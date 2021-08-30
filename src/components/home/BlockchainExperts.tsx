@@ -13,7 +13,12 @@ import variables from '../../styles/variables'
 
 const BlockchainExpertsTextRegural = styled(CustomTextRegular)`
   font-size: 1.25rem;
+  line-height: 2.5rem;
   text-align: center;
+  @media ${variables.device.mobile} {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
 `
 
 const ButtonBlockchainExperts = styled.div`
@@ -23,6 +28,36 @@ const ButtonBlockchainExperts = styled.div`
     font-size: ${variables.font.customtext.sizeButton};
     line-height: 1.375rem;
     padding: 1rem 4rem;
+    @media ${variables.device.mobile} {
+      font-size: ${variables.font.customtext.sizeMobile};
+      width: 100%;
+      white-space: nowrap;
+      padding: 1rem 0;
+    }
+  }
+  .column {
+    padding: 0;
+  }
+`
+const ImageWrapper = styled.div`
+  .about-img {
+    margin-right: auto;
+    margin-left: auto;
+    &:first-of-type {
+      display: block;
+      margin-top: 4rem;
+      max-width: 350px;
+    }
+  }
+
+  @media ${variables.device.mobile} {
+    .about-img {
+      &:first-of-type {
+        margin-top: 2.75rem;
+        margin-bottom: 2.375rem;
+        max-width: 230px;
+      }
+    }
   }
 `
 
@@ -38,24 +73,24 @@ export const BlockchainExperts = () => {
             as well. Meet Bright Treasury – our original app built to support blockchain Substrate community.
           </BlockchainExpertsTextRegural>
         </SectionInner>
-        <StaticImage
-          src=''
-          alt=''
-          placeholder='blurred'
-          layout='fixed'
-          width={200}
-          height={200}
-          className='about-img'
-        />
-        <StaticImage
-          src=''
-          alt=''
-          placeholder='blurred'
-          layout='fixed'
-          width={200}
-          height={200}
-          className='about-img'
-        />
+        <ImageWrapper>
+          <StaticImage
+            src='../../../static/images/brightTreasuryLogo.svg'
+            alt=''
+            placeholder='blurred'
+            layout='constrained'
+            width={344}
+            className='about-img'
+          />
+          <StaticImage
+            src='../../../static/images/projects2.png'
+            alt=''
+            placeholder='blurred'
+            layout='constrained'
+            width={1475}
+            className='about-img'
+          />
+        </ImageWrapper>
         <ButtonBlockchainExperts>
           <MoreButton className='btn'>estimate blockchain project</MoreButton>
         </ButtonBlockchainExperts>
