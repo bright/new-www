@@ -9,12 +9,24 @@ export function useApplicationForm() {
     cv: null,
     policy: false,
     source: "",
+    isError: false,
+    isSubmitted: false,
   })
   const handleSubmit = useCallback(
     event => {
       event.preventDefault()
       value.source = window.location.href;
-      handleSendMail(value)
+      handleSendMail(value).then(res => {
+        setValue(state => ({
+          ...state,
+          isSubmitted: true,
+        }))
+      }).catch(err => {
+        setValue(state => ({
+          ...state,
+          isError: true,
+        }))
+      })
     },
     [value]
   )

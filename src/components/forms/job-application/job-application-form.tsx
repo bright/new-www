@@ -1,4 +1,5 @@
 import React, { useCallback } from 'react'
+import styled from 'styled-components'
 import { TextField } from '../fields/text-field'
 import { Form } from './job-application-form.styled'
 import { BlackButton } from '../../about-us/about-us.styled'
@@ -9,6 +10,9 @@ import { useApplicationForm } from './utils'
 import { routeLinks } from '../../../config/routing'
 import { UploadIcon } from '../../icons/Upload.icon'
 import { AttachmentUploaded } from '../fields/fields.styled'
+import { JobApplicationModal } from './job-application-modal'
+import { CustomTextRegular } from '../../shared'
+import variables from '../../../styles/variables'
 
 export interface FormProps {
   nameLabel?: string
@@ -20,6 +24,22 @@ export interface FormProps {
   uploadLabel?: string
   onSubmit?: () => void
 }
+
+const SuccesMessage = styled(CustomTextRegular)`
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+  }
+`
+
+const ErrorMessage = styled(CustomTextRegular)`
+  background: #e50000;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+`
 
 export const JobApplicationForm: React.FC<FormProps> = props => {
   const { value, handleChange, handleSubmit } = useApplicationForm()
@@ -34,11 +54,16 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     onSubmit,
   } = props
 
+  const closeModal = () => {
+    value.isSubmitted = false
+  }
+
   const submit = useCallback(event => {
     event.preventDefault()
     onSubmit && onSubmit()
     handleSubmit(event)
   }, [])
+
   return (
     <Form onSubmit={submit}>
       <div>
@@ -92,6 +117,19 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         </strong>
       </CheckboxField>
       <BlackButton type='submit'>submit</BlackButton>
+      {value.isSubmitted && (
+        <JobApplicationModal modalState={value.isSubmitted} closeModal={closeModal} title={'Thanks for submitting'}>
+          <SuccesMessage>
+            Congrats! Your application was successfully submitted. You’ll receive email with the confirmation. Thank
+            you!
+          </SuccesMessage>
+        </JobApplicationModal>
+      )}
+      {value.isError && (
+        <ErrorMessage>
+          <p>Your application wasn’t submitted. Please try again.</p>
+        </ErrorMessage>
+      )}
     </Form>
   )
 }
