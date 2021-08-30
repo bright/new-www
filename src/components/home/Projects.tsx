@@ -1,13 +1,73 @@
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, Link, useStaticQuery } from 'gatsby'
 import React from 'react'
-
-import { MoreButton, Section, SectionTitle } from '../shared'
+import { CustomContainer, CustomSection, CustomSectionTitle, MoreButton, Section, SectionTitle } from '../shared'
 import SuccessStoryBox from './SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
 import { IGatsbyImageData } from 'gatsby-plugin-image'
+import styled from 'styled-components'
+import variables from '../../styles/variables'
+
+const ProjectCustomSection = styled(CustomSection)`
+  padding-bottom: 11.625rem;
+  @media ${variables.device.mobile} {
+    padding-bottom: 5.125rem;
+  }
+`
+
+const BlockSmall = styled.div`
+  width: calc(50% - 2rem);
+  border: 1px solid ${variables.color.border};
+  height: 9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1rem;
+  gap: 2rem;
+  font-size: 1rem;
+
+  span {
+    flex-grow: 1;
+    font-size: ${variables.font.customtext.size};
+    color: #131214;
+  }
+
+  img {
+    width: 2rem;
+  }
+
+  @media ${variables.device.mobile} {
+    width: 100%;
+    min-height: auto;
+    height: auto;
+    padding: 1.5rem;
+    font-size: 0.75rem;
+    margin: 0 auto;
+
+    span {
+      font-size: 0.75rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+`
+const ProjectsLink = styled(Link)`
+  font-size: ${variables.font.customtext.size};
+  line-height: 1.6875rem;
+  font-weight: 700;
+  color: var(--black);
+  @media ${variables.device.mobile} {
+    font-size: ${variables.font.customtext.sizeMobile};
+  }
+`
 
 export const Projects: React.FC = () => {
-  const { allMarkdownRemark: { edges } } = useStaticQuery(GQL)
+  const {
+    allMarkdownRemark: { edges },
+  } = useStaticQuery(GQL)
   const projects: Array<{
     frontmatter: {
       image: IGatsbyImageData
@@ -22,51 +82,68 @@ export const Projects: React.FC = () => {
   }> = edges.map((v: any) => v.node)
 
   return (
-    <Section>
-      <SectionTitle>success stories</SectionTitle>
-      <div className="columns is-multiline has-justify-content-center">
-        {projects.map((project, ix) => (
-            <SuccessStoryBox
-              className="column is-6"
-              key={ix}
-              title={project.frontmatter.title}
-              image={project.frontmatter.image}
-              slug={project.frontmatter.slug}
-            />
-        ))}
-      </div>
-      <MoreButton href={routeLinks.projects}>view more</MoreButton>
-    </Section>
+    <CustomContainer>
+      <ProjectCustomSection>
+        <CustomSectionTitle>success stories</CustomSectionTitle>
+        <div className='is-clearfix'>
+          <BlockSmall className='is-pulled-right'>
+            <span>visit our online portfolio::</span>
+            <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
+              <img src='/images/social/facebook.svg' alt='LinkedIn' />
+            </a>
+            <a target='_blank' href='https://www.facebook.com/bright.inventions/'>
+              <img src='/images/social/linkedIn.svg' alt='Facebook' />
+            </a>
+            <a target='_blank' href='https://www.instagram.com/bright_inventions/'>
+              <img src='/images/social/pinterest.svg' alt='Pinterest' />
+            </a>
+          </BlockSmall>
+
+          {projects.map((project, ix, title) => (
+            <>
+              <SuccessStoryBox
+                key={ix}
+                title={project.frontmatter.title}
+                image={project.frontmatter.image}
+                slug={project.frontmatter.slug}
+                className={`is-pulled-${ix % 2 ? 'right' : 'left'}`}
+              />
+            </>
+          ))}
+          <BlockSmall className='is-pulled-left'>
+            <ProjectsLink to={routeLinks.projects}>see all case studies</ProjectsLink>
+          </BlockSmall>
+        </div>
+      </ProjectCustomSection>
+    </CustomContainer>
   )
 }
 
 const GQL = graphql`
   {
-      allMarkdownRemark(
-        filter: {
-          frontmatter: { layout: { eq: "project" }, published: { ne: false } }
-        }
-        limit: 6
-        sort: { order: ASC, fields: frontmatter___order }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              title
-              image {
-                  childImageSharp {
-                      gatsbyImageData
-                  }
+    allMarkdownRemark(
+      filter: { frontmatter: { layout: { eq: "project" }, published: { ne: false } } }
+      limit: 6
+      sort: { order: ASC, fields: frontmatter___order }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            image {
+              childImageSharp {
+                gatsbyImageData
               }
-              layout
-              slug
-              published
             }
-            fields {
-              slug
-            }
+            layout
+            slug
+            published
+          }
+          fields {
+            slug
           }
         }
       }
     }
+  }
 `
