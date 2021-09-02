@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-What I value in life are **honesty and transparency.*** I really encourage people I work with to voice their opinions, ideas or disappointments and to ask a lot of questions. When someone does not ask, I assume everything is clear. Guessing and overinterpretating are not my things. And I think that rumours, gossiping or internal tittle-tattles are not the way strong, responsible and supporting teams are built. If a company really wants to grow, employees should be open to tell the truth and hear the truth about themselves. It doesn’t matter if we talk with our boss, manager or colleague, being honest is an important step towards integrity. 
+What I value in life are **honesty and transparency.**** I really encourage people I work with to voice their opinions, ideas or disappointments and to ask a lot of questions. When someone does not ask, I assume everything is clear. Guessing and overinterpretating are not my things. And I think that rumours, gossiping or internal tittle-tattles are not the way strong, responsible and supporting teams are built. If a company really wants to grow, employees should be open to tell the truth and hear the truth about themselves. It doesn’t matter if we talk with our boss, manager or colleague, being honest is an important step towards integrity. 
 
 But creating an atmosphere and culture in the workplace that foster such behaviours is demanding and it may involve many arduous, difficult and sometimes even unpleasant conversations. **We all know that talking about one’s flaws or areas which need improvement is hard, but it also empowers the team to step up and fix the appearing problems. And to my view it is a key feature of mature and responsible teams.**
 
@@ -59,10 +59,10 @@ We should perceive feedback as a method of self-development, both as an individu
 
 Let us face it - no one likes bullsh**. If you slipped up, would you like that people in your team pretend they didn't see anything? If you performed not very well, would you like your manager didn't say a word? If you asked your colleagus for honest feedback, would you expect them to say only positive things just because they like you? 
 
-Feedback makes us grow. Sometimes it is positive, sometimes it is not. Don’t give people bulsh** just because you are afraid of telling the truth. If you work in a mature environment, everyone will appreciate knowing that they can do something better. Otherwise we would all get stuck in our pinky imaginary world of ego-satisfaction, fakery and adulation. 
+**Feedback makes us grow. Sometimes it is positive, sometimes it is not. Don’t give people bulsh** just because you are afraid of telling the truth.** If you work in a mature environment, everyone will appreciate knowing that they can do something better. Otherwise we would all get stuck in our pinky imaginary world of ego-satisfaction, fakery and adulation. 
 
 
 
-** In fact there are also a few other things I value in life. 😉
+* In fact there are also a few other things I value in life. 😉
 
 *** Kudos for [Jurgen Appelo and Management 3.0 style](https://jurgenappelo.com/management-30/). 
