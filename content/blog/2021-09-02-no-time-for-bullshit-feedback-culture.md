@@ -59,7 +59,7 @@ We should perceive feedback as a method of self-development, both as an individu
 
 Let us face it - no one likes bullsh**. If you slipped up, would you like that people in your team pretend they didn't see anything? If you performed not very well, would you like your manager didn't say a word? If you asked your colleagus for honest feedback, would you expect them to say only positive things just because they like you? 
 
-Feedback makes us grow. Sometimes it is positive, sometimes it is not. Don’t give people blush** just because you are afraid of telling the truth. If you work in a mature environment, everyone will appreciate knowing that they can do something better. Otherwise we would all get stuck in our pinky imaginary world of ego-satisfaction, fakery and adulation. 
+Feedback makes us grow. Sometimes it is positive, sometimes it is not. Don’t give people bulsh** just because you are afraid of telling the truth. If you work in a mature environment, everyone will appreciate knowing that they can do something better. Otherwise we would all get stuck in our pinky imaginary world of ego-satisfaction, fakery and adulation. 
 
 
 
