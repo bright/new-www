@@ -5,7 +5,7 @@
   display: flex;
   height: $navbar-height;
   transition: box-shadow 0.3s ease-in;
-  padding: 0 2rem;
+  padding: 0.375rem 2rem 0;
 
   &.hasShadow {
     box-shadow: 0 4px 8px rgba(10,10,10,.05);
