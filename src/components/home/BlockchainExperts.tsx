@@ -10,6 +10,9 @@ import {
 import styled from 'styled-components'
 import { MoreButton } from './../shared/index'
 import variables from '../../styles/variables'
+import { Link } from 'gatsby'
+import { routeLinks } from '../../config/routing'
+import { Projects } from './Projects'
 
 const BlockchainExpertsTextRegural = styled(CustomTextRegular)`
   font-size: 1.25rem;
@@ -28,6 +31,10 @@ const ButtonBlockchainExperts = styled.div`
     font-size: ${variables.font.customtext.sizeButton};
     line-height: 1.375rem;
     padding: 1rem 4rem;
+    &:hover {
+      background-color: var(--orange-200);
+      border: 1px solid transparent;
+    }
     @media ${variables.device.mobile} {
       font-size: ${variables.font.customtext.sizeMobile};
       width: 100%;
@@ -73,26 +80,30 @@ export const BlockchainExperts = () => {
             as well. Meet Bright Treasury – our original app built to support blockchain Substrate community.
           </BlockchainExpertsTextRegural>
         </SectionInner>
-        <ImageWrapper>
-          <StaticImage
-            src='../../../static/images/brightTreasuryLogo.svg'
-            alt=''
-            placeholder='blurred'
-            layout='constrained'
-            width={344}
-            className='about-img'
-          />
-          <StaticImage
-            src='../../../static/images/projects2.png'
-            alt=''
-            placeholder='blurred'
-            layout='constrained'
-            width={1475}
-            className='about-img'
-          />
-        </ImageWrapper>
+        <Link to='/projects/bright-treasury'>
+          <ImageWrapper>
+            <StaticImage
+              src='../../../static/images/brightTreasuryLogo.svg'
+              alt=''
+              placeholder='blurred'
+              layout='constrained'
+              width={344}
+              className='about-img'
+            />
+            <StaticImage
+              src='../../../static/images/projects2.png'
+              alt=''
+              placeholder='blurred'
+              layout='constrained'
+              width={1475}
+              className='about-img'
+            />
+          </ImageWrapper>
+        </Link>
         <ButtonBlockchainExperts>
-          <MoreButton className='btn'>estimate blockchain project</MoreButton>
+          <Link to={routeLinks.startProject}>
+            <MoreButton className='btn'>estimate blockchain project</MoreButton>
+          </Link>
         </ButtonBlockchainExperts>
       </CustomContainer>
     </CustomSection>
