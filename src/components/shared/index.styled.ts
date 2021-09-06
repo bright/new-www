@@ -97,14 +97,19 @@ export const Button = styled.div`
     background: white;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 0;
     color: #000000;
     opacity: 1;
-    padding: 0.5rem 2.2rem;
-    font-size: 1rem;
+    padding: 1rem 4rem;
+    font-size: 1.125rem;
     cursor: pointer;
     margin-top: 3rem;
+    transition: all .3s ease-out;
+    &:hover {
+      color: #ffffff;
+      background: #000000;
+    }
   }
 `
 export const CustomContainer = styled.div`
