@@ -89,17 +89,14 @@ export const Projects: React.FC = () => {
           <BlockSmall className='is-pulled-right'>
             <span>visit our online portfolio::</span>
             <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
-              <img src='/images/social/facebook.svg' alt='LinkedIn' />
+              <img src='/images/success-story-home-page/behance.svg' alt='LinkedIn' />
             </a>
             <a target='_blank' href='https://www.facebook.com/bright.inventions/'>
-              <img src='/images/social/linkedIn.svg' alt='Facebook' />
-            </a>
-            <a target='_blank' href='https://www.instagram.com/bright_inventions/'>
-              <img src='/images/social/pinterest.svg' alt='Pinterest' />
+              <img src='/images/success-story-home-page/icon2.svg' alt='Facebook' />
             </a>
           </BlockSmall>
 
-          {projects.map((project, ix, title) => (
+          {projects.map((project, ix) => (
             <>
               <SuccessStoryBox
                 key={ix}
