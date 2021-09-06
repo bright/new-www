@@ -51,7 +51,6 @@ export const UploadFieldContainer = styled.label`
 
 export const CheckboxFieldContainer = styled.label`
   display: flex;
-  gap: 1.1875rem;
   align-items: center;
   font-size: 1.25rem;
   line-height: 1.5rem;
@@ -65,6 +64,7 @@ export const CheckboxFieldContainer = styled.label`
     display: grid;
     justify-items: center;
     align-items: center;
+    margin-right: 1.1875rem;
   }
   input {
     position: absolute;
