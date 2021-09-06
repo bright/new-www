@@ -13,6 +13,7 @@ import { AttachmentUploaded } from '../fields/fields.styled'
 import { JobApplicationModal } from './job-application-modal'
 import { CustomTextRegular } from '../../shared'
 import variables from '../../../styles/variables'
+import { useState } from 'react'
 
 export interface FormProps {
   nameLabel?: string
@@ -40,6 +41,13 @@ const ErrorMessage = styled(CustomTextRegular)`
     text-align: center;
   }
 `
+const Loader = styled.div`
+  margin: auto;
+  width: 3rem;
+  height: 3rem;
+  border-left-color: var(--orange-200);
+  border-width: 5px;
+`
 
 export const JobApplicationForm: React.FC<FormProps> = props => {
   const { value, handleChange, handleSubmit } = useApplicationForm()
@@ -58,14 +66,14 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     value.isSubmitted = false
   }
 
-  const submit = useCallback(event => {
+  const submit = useCallback((event, data) => {
     event.preventDefault()
     onSubmit && onSubmit()
-    handleSubmit(event)
+    handleSubmit(event, data)
   }, [])
 
   return (
-    <Form onSubmit={submit}>
+    <Form onSubmit={e => submit(e, value)}>
       <div>
         <TextField
           required
@@ -116,7 +124,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           <Link to={routeLinks.privacyPolicy}>Privacy Policy</Link>
         </strong>
       </CheckboxField>
-      <BlackButton type='submit'>submit</BlackButton>
+      {value.isSending ? <Loader className='loader'></Loader> : <BlackButton type='submit'>submit</BlackButton>}
       {value.isSubmitted && (
         <JobApplicationModal modalState={value.isSubmitted} closeModal={closeModal} title={'Thanks for submitting'}>
           <SuccesMessage>

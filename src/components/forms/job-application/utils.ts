@@ -11,46 +11,52 @@ export function useApplicationForm() {
     source: "",
     isError: false,
     isSubmitted: false,
+    isSending: false,
   })
-  const handleSubmit = useCallback(
-    event => {
+  const handleSubmit = (event: Event , data:any ) => {
+    setValue(state => ({
+      ...state,
+      isSending: true,
+    }))
       event.preventDefault()
-      value.source = window.location.href;
-      handleSendMail(value).then(res => {
+      data.source = window.location.href;
+      handleSendMail(data).then(res => {
         setValue(state => ({
           ...state,
           isSubmitted: true,
+          isSending: false,
         }))
       }).catch(err => {
         setValue(state => ({
           ...state,
           isError: true,
+          isSending: false,
         }))
       })
-    },
-    [value]
-  )
+    }
+
   const handleChange = useCallback(event => {
     event.persist()
     const value =
       event.target.type === "checkbox"
         ? event.target.checked
         : event.target.type === "file"
-        ? event.target.files
-        : event.target.value;
+          ? event.target.files
+          : event.target.value;
 
-        if(event.target.name == "clearCv") {
-          setValue(state => ({
-            ...state,
-            cv: null,
-          }))
-        } else {
-          setValue(state => ({
-            ...state,
-            [event.target.name]: value,
-          }))
-        }
-        
+    if (event.target.name == "clearCv") {
+      setValue(state => ({
+        ...state,
+        cv: null,
+      }))
+    } else {
+      setValue(state => {
+        return ({
+        ...state,
+        [event.target.name]: value,
+      })})
+    }
+
   }, [])
   return {
     value,
@@ -74,7 +80,7 @@ function handleSendMail(data: Record<string, any>) {
         ...object,
         [field.key]: { value: field.value, fileName: field.fileName },
       }),
-      {}
+      { }
     )
   return sendMail(_data, FormType.job)
 }
