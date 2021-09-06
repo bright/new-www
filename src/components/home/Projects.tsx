@@ -24,17 +24,22 @@ const BlockSmall = styled.div`
   align-items: center;
   padding: 2rem;
   margin: 1rem;
-  gap: 2rem;
   font-size: 1rem;
 
   span {
     flex-grow: 1;
     font-size: ${variables.font.customtext.size};
     color: #131214;
+    margin-right: 2rem;
   }
-
-  img {
-    width: 2rem;
+  & a {
+    margin-right: 2rem;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    img {
+      width: 2rem;
+    }
   }
 
   @media ${variables.device.mobile} {

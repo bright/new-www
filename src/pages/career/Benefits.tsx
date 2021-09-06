@@ -70,15 +70,21 @@ const BlockSmall = styled(Block)`
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  gap: 2rem;
   font-size: 1rem;
 
   span {
     flex-grow: 1;
+    margin-right: 2rem;
   }
 
-  img {
-    width: 2rem;
+  & a {
+    margin-right: 2rem;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    img {
+      width: 2rem;
+    }
   }
 
   .more {
