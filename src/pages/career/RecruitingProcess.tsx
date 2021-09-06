@@ -68,7 +68,7 @@ const Columns = styled.div`
     && {
       .column {
         margin-bottom: 4.5625rem;
-        padding: 0;
+        padding: 0 1.125rem;
 
         &:after {
           display: block;
