@@ -9,11 +9,16 @@ import { IStaticImageProps } from 'gatsby-plugin-image/dist/src/components/stati
 const ImagesBase = styled.div`
   & {
     display: flex;
-    gap: 3.5rem;
+    --gap: 3.5rem;
     flex-grow: 1;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+    width: calc(100% + var(--gap));
 
     @media ${variables.device.mobile} {
-      gap: 1rem;
+      --gap: 1rem;
+    }
+    & > * :not(.image-veritical) {
+      margin: var(--gap) 0 0 var(--gap);
     }
   }
 `
@@ -24,7 +29,7 @@ export const ImagesHorizontal = styled(ImagesBase)`
 
   & > * {
     flex-basis: 20%;
-    &.gatsby-image-wrapper-constrained {
+    &.big-image {
       border: 1px solid #d3d3d3;
     }
   }
@@ -35,7 +40,7 @@ export const ImagesHorizontal = styled(ImagesBase)`
     justify-content: center;
 
     & > * {
-      flex-basis: 50%;
+      flex-basis: 45%;
     }
     & > *:nth-child(5) {
       display: none;
@@ -50,8 +55,12 @@ export const ImagesVertical = styled(ImagesBase)`
   & > * {
     flex-grow: 1;
     height: 50%;
-    &.gatsby-image-wrapper-constrained {
+
+    &.image-veritical {
       border: 1px solid #d3d3d3;
+      &.image-veritical:not(:last-of-type) {
+        margin-bottom: var(--gap);
+      }
     }
   }
 
@@ -76,45 +85,53 @@ const HeaderImages: React.FC = () => {
             objectFit={'cover'}
             src='../../../static/images/career/header/image1.png'
             alt={'Career at Bright Inventions'}
+            className='image-veritical'
           />
           <StaticImage
             objectFit={'cover'}
             src='../../../static/images/career/header/image5.png'
             alt={'Software developer career Poland'}
+            className='image-veritical'
           />
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
           src='../../../static/images/career/header/image2.png'
           alt={'Software developer career Poland'}
+          className='big-image'
         />
         <ImagesVertical>
           <StaticImage
             objectFit={'cover'}
             src='../../../static/images/career/header/image6.png'
             alt={'Career at Bright Inventions'}
+            className='image-veritical'
           />
           <StaticImage
             objectFit={'cover'}
             src='../../../static/images/career/header/image3.png'
             alt={'Software developer career Poland'}
+            className='image-veritical'
           />
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
           src='../../../static/images/career/header/image4.png'
           alt={'Career at Bright Inventions'}
+          className='big-image'
         />
         <ImagesVertical>
           <StaticImage
             objectFit={'cover'}
             src='../../../static/images/career/header/image7.png'
             alt={'Career at Bright Inventions'}
+            className='image-veritical'
           />
           <StaticImage
             objectFit={'cover'}
             src='../../../static/images/career/header/image8.png'
             alt={'Software developer career Poland'}
+            className='image-veritical'
           />
         </ImagesVertical>
       </ImagesHorizontal>
