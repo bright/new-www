@@ -20,11 +20,16 @@ const HeroSectionWrapper = styled.section`
 const ImagesBase = styled.div`
   & {
     display: flex;
-    gap: 3.5rem;
+    --gap: 3.5rem;
     flex-grow: 1;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+    width: calc(100% + var(--gap));
 
     @media ${variables.device.mobile} {
-      gap: 1rem;
+      --gap: 1rem;
+    }
+    & > * :not(.image-veritical) {
+      margin: var(--gap) 0 0 var(--gap);
     }
   }
 `
@@ -35,7 +40,7 @@ export const ImagesHorizontal = styled(ImagesBase)`
 
   & > * {
     flex-basis: 20%;
-    &.gatsby-image-wrapper-constrained {
+    &.big-image {
       border: 1px solid #d3d3d3;
     }
   }
@@ -46,7 +51,7 @@ export const ImagesHorizontal = styled(ImagesBase)`
     justify-content: center;
 
     & > * {
-      flex-basis: 50%;
+      flex-basis: 45%;
     }
     & > *:nth-child(5) {
       display: none;
@@ -61,8 +66,11 @@ export const ImagesVertical = styled(ImagesBase)`
   & > * {
     flex-grow: 1;
     height: 50%;
-    &.gatsby-image-wrapper-constrained {
+    &.image-veritical {
       border: 1px solid #d3d3d3;
+      &.image-veritical:not(:last-of-type) {
+        margin-bottom: var(--gap);
+      }
     }
   }
 
@@ -110,22 +118,54 @@ const HeroHeaderImages: React.FC = () => {
                 objectFit={'cover'}
                 src='../../../static/images/hero-header/Agnieszka.png'
                 alt={'Agnieszka'}
+                className='image-veritical'
               />
-              <StaticImage objectFit={'cover'} src='../../../static/images/hero-header/Mateusz.png' alt={'Mateusz'} />
+              <StaticImage
+                objectFit={'cover'}
+                src='../../../static/images/hero-header/Mateusz.png'
+                alt={'Mateusz'}
+                className='image-veritical'
+              />
             </ImagesVertical>
-            <StaticImage objectFit={'cover'} src='../../../static/images/hero-header/Łukasz.png' alt={'Łukasz'} />
+            <StaticImage
+              objectFit={'cover'}
+              src='../../../static/images/hero-header/Łukasz.png'
+              alt={'Łukasz'}
+              className='big-image'
+            />
             <ImagesVertical>
               <StaticImage
                 objectFit={'cover'}
                 src='../../../static/images/hero-header/paulina_passion.png'
                 alt={'Paulina'}
+                className='image-veritical'
               />
-              <StaticImage objectFit={'cover'} src='../../../static/images/hero-header/Szymon.png' alt={'Szymon'} />
+              <StaticImage
+                objectFit={'cover'}
+                src='../../../static/images/hero-header/Szymon.png'
+                alt={'Szymon'}
+                className='image-veritical'
+              />
             </ImagesVertical>
-            <StaticImage objectFit={'cover'} src='../../../static/images/hero-header/iza gut.png' alt={'Iza'} />
+            <StaticImage
+              objectFit={'cover'}
+              src='../../../static/images/hero-header/iza gut.png'
+              alt={'Iza'}
+              className='big-image'
+            />
             <ImagesVertical>
-              <StaticImage objectFit={'cover'} src='../../../static/images/hero-header/Piotr.png' alt={'Piotr'} />
-              <StaticImage objectFit={'cover'} src='../../../static/images/hero-header/Wojtek.png' alt={'Wojtek'} />
+              <StaticImage
+                objectFit={'cover'}
+                src='../../../static/images/hero-header/Piotr.png'
+                alt={'Piotr'}
+                className='image-veritical'
+              />
+              <StaticImage
+                objectFit={'cover'}
+                src='../../../static/images/hero-header/Wojtek.png'
+                alt={'Wojtek'}
+                className='image-veritical'
+              />
             </ImagesVertical>
           </ImagesHorizontal>
         </Link>
