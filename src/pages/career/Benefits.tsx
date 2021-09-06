@@ -146,13 +146,13 @@ const Benefits: React.FC = () => {
         <BlockSmall className='is-pulled-right'>
           <span>Follow us on:</span>
           <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
-            <img src='/images/social/facebook.svg' alt='LinkedIn' />
+            <img src='/images/social/linkedIn.svg' alt='LinkedIn' />
           </a>
           <a target='_blank' href='https://www.facebook.com/bright.inventions/'>
-            <img src='/images/social/linkedIn.svg' alt='Facebook' />
+            <img src='/images/social/facebook.svg' alt='Facebook' />
           </a>
           <a target='_blank' href='https://www.instagram.com/bright_inventions/'>
-            <img src='/images/social/pinterest.svg' alt='Pinterest' />
+            <img src='/images/social/instagram.svg' alt='Instagram' />
           </a>
         </BlockSmall>
         {blocks.map((block, index) => (
