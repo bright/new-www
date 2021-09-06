@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import { routeLinks } from '../../config/routing'
 import { FormType, sendMail } from '../../helpers/mail'
+import variables from '../../styles/variables'
+import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 import {
   DoubleInputsRow,
   DoubleInputsRowEntry,
-  ErrorMessage,
   Form,
   IdeaTextArea,
   Label,
@@ -18,6 +19,7 @@ import {
   TextInput,
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
+import { CustomTextRegular } from './index.styled'
 
 const ContainerWrapper = styled.div({
   display: 'flex',
@@ -32,6 +34,29 @@ const Container = styled.div({
   display: 'flex',
   flexDirection: 'column',
 })
+
+const SuccesMessage = styled(CustomTextRegular)`
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+  }
+`
+
+const ErrorMessage = styled(CustomTextRegular)`
+  background: #e50000;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+`
+const Loader = styled.div`
+  margin: auto;
+  width: 3rem;
+  height: 3rem;
+  border-left-color: var(--orange-200);
+  border-width: 5px;
+`
 
 export const Contact = () => {
   const [name, setName] = useState<string>('')
@@ -48,10 +73,13 @@ export const Contact = () => {
   const [checkedRules, setCheckedRules] = useState(false)
 
   const [success, setSuccess] = useState(false)
+  const [isSending, setIsSending] = useState<boolean>(false)
   const [valid, setValid] = useState<boolean>()
   const [error, setError] = useState(false)
 
   const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    setIsSending(true)
+
     e.preventDefault()
     const wrapValue = (value: any) => ({
       value,
@@ -69,16 +97,23 @@ export const Contact = () => {
       .then(() => {
         setError(false)
         setSuccess(true)
+        setIsSending(false)
       })
       .catch(err => {
         console.error(err)
         setError(true)
         setSuccess(false)
+        setIsSending(false)
       })
   }
 
+  const closeModal = () => {
+    setSuccess(false)
+  }
+
   const checkValid = () => {
-    setValid(!(checkedRules && name && email && message))
+    const isValid: boolean = checkedRules && name && email && message ? true : false
+    setValid(isValid)
   }
 
   return (
@@ -198,14 +233,36 @@ export const Contact = () => {
 
           <RequiredMessage>* - fields required</RequiredMessage>
 
-          <SubmitButton type='submit' onClick={checkValid}>
-            submit
-          </SubmitButton>
+          {isSending ? (
+            <Loader className='loader'></Loader>
+          ) : (
+            <SubmitButton type='submit' onClick={checkValid}>
+              submit
+            </SubmitButton>
+          )}
         </Form>
-
-        {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>}
+        {success && (
+          <JobApplicationModal
+            modalState={success}
+            closeModal={closeModal}
+            title={'Thanks for submitting'}
+            link='/'
+            linkLabel='back to home page'
+          >
+            <SuccesMessage>
+              Congrats! Your application was successfully submitted. You’ll receive email with the confirmation. Thank
+              you!
+            </SuccesMessage>
+          </JobApplicationModal>
+        )}
+        {error && (
+          <ErrorMessage>
+            <p>Your application wasn’t submitted. Please try again.</p>
+          </ErrorMessage>
+        )}
+        {/* {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>} */}
         {valid === false && <ErrorMessage>Please, complete missing information</ErrorMessage>}
-        {error && <ErrorMessage>Oops! Something went wrong while submitting the form.</ErrorMessage>}
+        {/* {error && <ErrorMessage>Oops! Something went wrong while submitting the form.</ErrorMessage>} */}
       </Container>
     </ContainerWrapper>
   )

@@ -55,12 +55,14 @@ const ModalHeader = styled.div`
 
 export interface ModalProps {
   title?: string
+  link?: string
+  linkLabel?: string
   closeModal?: () => void
   modalState?: boolean
 }
 
 export const JobApplicationModal: React.FC<ModalProps> = props => {
-  const { modalState, closeModal, title, children } = props
+  const { modalState, closeModal, title, link, linkLabel, children } = props
 
   if (!modalState) {
     return null
@@ -76,7 +78,7 @@ export const JobApplicationModal: React.FC<ModalProps> = props => {
         <ModalBody className='modal-card-body'>
           <div className='content'>{children}</div>
         </ModalBody>
-        <BackButton url='/career' label='back to career' arrowColor={'orange'} className={''} onClick={closeModal} />
+        <BackButton url={link!} label={linkLabel!} arrowColor={'orange'} className={''} onClick={closeModal} />
       </ModalCard>
     </ModalWrapper>
   )

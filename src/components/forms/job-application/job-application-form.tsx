@@ -126,7 +126,13 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       </CheckboxField>
       {value.isSending ? <Loader className='loader'></Loader> : <BlackButton type='submit'>submit</BlackButton>}
       {value.isSubmitted && (
-        <JobApplicationModal modalState={value.isSubmitted} closeModal={closeModal} title={'Thanks for submitting'}>
+        <JobApplicationModal
+          modalState={value.isSubmitted}
+          closeModal={closeModal}
+          title={'Thanks for submitting'}
+          link='/career'
+          linkLabel='back to career'
+        >
           <SuccesMessage>
             Congrats! Your application was successfully submitted. You’ll receive email with the confirmation. Thank
             you!
