@@ -15,7 +15,7 @@ At Bright Inventions you'll be an important part of [a group of talented, ambit
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
-## about the role 
+## about the role
 
 As a member of our QA team, you will maintain a high quality of our iOS, Android apps as well as web applications. You will own major features and work closely with one or more of our agile teams. This position supports mainly manual testing activities including collaborating with the product owners and engineers to define testing needs and priorities, creating test plans, scripts and strategies for new product initiatives as well as improving user experience while optimising our software development life cycle. The drive to introduce automated test is more than welcome.
 
@@ -67,8 +67,10 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 
 ## recruitment process
 
-✅ interview (technical & non-technical part) 
-✅ skills evaluation and feedback 
+✅ interview (technical & non-technical part) \
+
+✅ skills evaluation and feedback \
+
 ✅ congrats! you are a part of our Bright Team!
 
-In case you have any questions, drop us a line at jobs@brightinvebntions.pl. We will be happy to get back to you! 
+In case you have any questions, drop us a line at jobs@brightinvebntions.pl. We will be happy to get back to you!
