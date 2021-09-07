@@ -7,6 +7,7 @@ import variables from '../../styles/variables'
 
 const WrapperDesc = styled.section`
   .career-desc {
+    padding: 0 2rem;
     @media ${variables.device.mobile} {
       padding: 2rem 1.125rem 1rem;
     }

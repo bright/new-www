@@ -110,9 +110,12 @@ const JobTitle = styled(Title)`
   font-size: 2rem;
   font-weight: 900;
   display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 0;
 
   @media ${variables.device.mobile} {
     font-size: 1.125rem;
+    margin-right: 0.625rem;
   }
 `
 
@@ -120,11 +123,9 @@ const JobSubtitle = styled(Subtitle)`
   font-size: 1.25rem;
   font-weight: 600;
   display: inline-block;
-  margin-left: 1rem;
 
   @media ${variables.device.mobile} {
     font-size: 1rem;
-    margin-left: 0.625rem;
   }
 `
 const JobInfo = styled.div`

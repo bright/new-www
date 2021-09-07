@@ -16,7 +16,7 @@ const HeroSectionTitle = styled(CustomSectionTitle)`
 const HeroBlog = styled.section`
   & .hero-blog.columns {
     margin: 0;
-    padding-top: 2rem;
+    padding: 2rem 2rem 0 2rem;
     & .hero-blog.column {
       padding: 0 2rem 4rem 2rem;
       &:nth-of-type(even) {

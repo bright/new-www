@@ -6,7 +6,7 @@ import { SectionBlack } from './index'
 import { CustomContainer } from './index.styled'
 
 const SectionBlackContainer = styled(SectionBlack)`
-  padding: 6rem 8rem;
+  padding: 6rem 2rem;
 
   @media ${variables.device.mobile} {
     padding: 4rem 1.875rem;
@@ -16,10 +16,10 @@ const SectionBlackContainer = styled(SectionBlack)`
 const ContentContainer = styled.div({
   display: 'flex',
   flexDirection: 'row',
-  justifyContent: 'space-between',
+  justifyContent: 'flex-start',
   flexWrap: 'wrap',
   margin: 'auto',
-  maxWidth: '1714px',
+  maxWidth: '1650px',
 
   ['@media screen and (max-width: 767px)']: {
     justifyContent: 'flex-start',
