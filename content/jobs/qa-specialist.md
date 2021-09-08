@@ -34,7 +34,6 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 * experience with DB testing (MySQL, PostgreSQL), performance testing and API testing (Postman, Charles Swagger, REST, Charles) 
 * experience with most effective QA tools
 * good knowledge of testing methodologies and test cases specification & execution
-* practical knowledge of test automation
 * solid knowledge of CI and CD 
 * strong problem solving and analytical skills
 * ability to work independently as well as in a team
@@ -43,9 +42,8 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 ## we would also appreciate if you have 
 
 * basic knowledge of at least one programming language: JavaScript, Java, Kotlin 
-* experience with AWS or other Cloud providers  
+* practical knowledge of test automation 
 * familiarity with JIRA
-* drive to introduce automated tests 
 
 ## what you will find in our Bright Team 🧡
 
