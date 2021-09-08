@@ -18,21 +18,9 @@ published: true
 
 ![junior software developer](/images/junior_dev_jedrzej.png)
 
-The age he wrote his first line of code: 20
-
-Experience in building commercial software: over a year
-
 ![junior software developer](/images/junior_dev_lukasz.png)
 
-The age he wrote his first line of code: 19
-
-Experience in building commercial software: almost a year
-
 ![junior software developer](/images/junior_dev_pawel.png)
-
-The age he wrote his first line of code: 17
-
-Experience in building commercial software: 6 months
 
 ## Let’s now answer some popular questions about junior software development career
 
