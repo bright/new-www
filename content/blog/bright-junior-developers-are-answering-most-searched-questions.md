@@ -16,7 +16,7 @@ published: true
 
 ## Bright junior developers who are going to answer the questions are:
 
-Meet Jędrzej, Łukasz and Paweł – Junior Fullstack Developers from Bright Inventions. They develop their tech skills using TypeScript, React and Node.js.
+Meet Paweł, Jędrzej and Łukasz – Junior Fullstack Developers from Bright Inventions. They develop their tech skills using TypeScript, React and Node.js.
 
 ![junior software developers](/images/bright_inventions_junior_developers.png)
 
