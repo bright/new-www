@@ -93,11 +93,11 @@ export const Projects: React.FC = () => {
         <div className='is-clearfix'>
           <BlockSmall className='is-pulled-right'>
             <span>visit our online portfolio:</span>
-            <a target='_blank' href='https://www.behance.net/BrightInventions'>
-              <img src='/images/success-story-home-page/behance.svg' alt='LinkedIn' />
+            <a target='_blank' href='https://www.behance.net/BrightInventions/'>
+              <img src='/images/success-story-home-page/behance.svg' alt='Behance' />
             </a>
-            <a target='_blank' href='https://dribbble.com/Bright_Inventions'>
-              <img src='/images/success-story-home-page/icon2.svg' alt='Facebook' />
+            <a target='_blank' href='https://dribbble.com/Bright_Inventions/'>
+              <img src='/images/success-story-home-page/icon2.svg' alt='Dribbble' />
             </a>
           </BlockSmall>
 
