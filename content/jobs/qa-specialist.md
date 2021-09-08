@@ -26,7 +26,9 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 * working with the team to secure high quality of the delivery
 * performing test design and analysis
 * making suggestions for changes and improvements to projects
-* enhancing testing procedures
+* optimisation of testing processes
+* risk assessment
+* maintenance of documentation
 
 ## preferred skills & qualifications
 
