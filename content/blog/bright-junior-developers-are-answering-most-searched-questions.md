@@ -5,8 +5,9 @@ tags:
   - communication
   - team building
 date: 2021-09-08T08:01:19.875Z
-title: Bright junior developers are answering most searched questions
+title: Bright Junior Developers Are Answering Most Searched Questions
 layout: post
+image: /images/junior_software_developers.png
 hidden: false
 comments: true
 published: true
@@ -14,8 +15,6 @@ published: true
 **Do you want to find a job as a junior software developer? Check out how to start a career in the software development industry. Get some insights from junior devs who are a part of our Bright Inventions team.**
 
 ## Bright junior developers who are going to answer the questions are:
-
-
 
 ![junior developer](/images/junior_dev_jedrzej.png)
 
@@ -87,54 +86,44 @@ Paweł:
 
 > Naturally, studying Computer Science is helpful but it doesn’t guarantee a job in IT. The most important factor during a recruitment process is to have your own software development projects. So, if you study, use this time as an opportunity to develop projects. When you do it as a part of your classes or as a graduating project then probably it is easier to motivate. Use studies as an opportunity to build projects. If you don’t know what to build, don’t overthink it. Try to do a clone of a very popular app like Facebook. By saying “do a clone” I don’t mean simply duplicating a Facebook app. Treat Facebook as an example with a list of features and based on that develop your own product. 
 
+Jędrzej: 
 
+> It’s great to have your own projects as well as projects which were made with others. It shows that you know how to cooperate with people and you’ve had a chance to develop soft skills as well.
 
-Jędrzej: It’s great to have your own projects as well as projects which were made with others. It shows that you know how to cooperate with people and you’ve had a chance to develop soft skills as well.
+Łukasz: 
 
+> The very popular tip is to think about the problem which could be addressed by tech and create a solution that solves it. However, this approach is not essential to succeed during the recruitment process. You are not judged by your business ideas. As a software developer you are supposed to turn ideas into working products. It is a shame to waste time thinking about ideas instead of focusing on technological aspects of the product.
 
+## What does a junior developer do?
 
-Łukasz: The very popular tip is to think about the problem which could be addressed by tech and create a solution that solves it. However, this approach is not essential to succeed during the recruitment process. You are not judged by your business ideas. As a software developer you are supposed to turn ideas into working products. It is a shame to waste time thinking about ideas instead of focusing on technological aspects of the product.
+Paweł: 
 
+> First days at the software development company are all about knowing the project, reading and understanding the documentation and checking end-points. In the first days your job is to truly understand how the product you will be working on works. :)
 
+Łukasz: 
 
-What does a junior developer do?
+> I love the fact that even though I am a junior developer I feel like a full-fledged member of a team. Despite being a less experienced developer in the team I am assigned to some important and demanding tasks, too. I don’t do minor and repetitive coding as many would probably think. I get complex tasks and the team is fully aware that this is a challenge for me and I may ask questions on the way. Yet I learn a lot during that process. Also, it is great that my voice matters as well. I have to make some project-related decisions while programming. Thanks to all of that I feel that I contribute to the project.
 
+Jędrzej: 
 
+> As Łukasz said, it is important to feel like a full member of a team. That helps to build self-confidence even though in the beginning your work pace will be slow. Yet you will see the improvement day by day. It’s important to feel the support of your team. If you don’t know something, there are people nearby who will help you. 
 
-Paweł: First days at the software development company are all about knowing the project, reading and understanding the documentation and checking end-points. In the first days your job is to truly understand how the product you will be working on works. :)
+## Can I become a developer without a degree?
 
+Jędrzej: 
 
+> Yes, you can. A degree isn’t everything. However, it depends on the company recruitment policy. There may be companies that will reject your resume during the CV screening phase because of the lack of a diploma. However, it may not matter if you get to the interview part. Diplomas don't speak there, you do.
 
-Łukasz: I love the fact that even though I am a junior developer I feel like a full-fledged member of a team. Despite being a less experienced developer in the team I am assigned to some important and demanding tasks, too. I don’t do minor and repetitive coding as many would probably think. I get complex tasks and the team is fully aware that this is a challenge for me and I may ask questions on the way. Yet I learn a lot during that process. Also, it is great that my voice matters as well. I have to make some project-related decisions while programming. Thanks to all of that I feel that I contribute to the project.
+Paweł: 
 
+> It’s nice to have a college education but I think that it isn’t necessary.
 
+Łukasz: 
 
-Jędrzej: As Łukasz said, it is important to feel like a full member of a team. That helps to build self-confidence even though in the beginning your work pace will be slow. Yet you will see the improvement day by day. It’s important to feel the support of your team. If you don’t know something, there are people nearby who will help you. 
+> If you don’t have a degree, you may have a little more difficult task. You have to be prepared to work harder on proving that you have the expected knowledge. In general Computer Studies are useful. However, you shouldn’t do them only for a degree. You should try to get as much as you can during your studies. 
 
+## What is expected from a junior developer?
 
+That’s actually a question that our Project Managers have already answered and you can check it out [here](/blog/you-are-junior-developer-now-what-next/). 
 
-Can I become a developer without a degree?
-
-
-
-Jędrzej: Yes, you can. A degree isn’t everything. However, it depends on the company recruitment policy. There may be companies that will reject your resume during the CV screening phase because of the lack of a diploma. However, it may not matter if you get to the interview part. Diplomas don't speak there, you do.
-
-
-
-Paweł: It’s nice to have a college education but I think that it isn’t necessary.
-
-
-
-Łukasz: If you don’t have a degree, you may have a little more difficult task. You have to be prepared to work harder on proving that you have the expected knowledge. In general Computer Studies are useful. However, you shouldn’t do them only for a degree. You should try to get as much as you can during your studies. 
-
-
-
-What is expected from a junior developer?
-
-
-
-That’s actually a question that our Project Managers have already answered and you can check it out [here](https://brightinventions.pl/blog/you-are-junior-developer-now-what-next/). 
-
-
-
-Do you have any questions about starting a career as a junior software developer? Let us know in the comments! Check out our [open positions](https://brightinventions.pl/career) as well.
+Do you have any questions about starting a career as a junior software developer? Let us know in the comments! Check out our [open positions](/career) as well.
