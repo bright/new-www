@@ -111,7 +111,7 @@ const HeroHeaderImages: React.FC = () => {
         <HeroSectionTitle>
           meet <span>bright</span> team
         </HeroSectionTitle>
-        <Link to={routeLinks.aboutUs()}>
+        <Link to={routeLinks.aboutUs({ page: 'team' })}>
           <ImagesHorizontal>
             <ImagesVertical>
               <StaticImage
