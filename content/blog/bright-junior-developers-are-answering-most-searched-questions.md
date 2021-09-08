@@ -16,19 +16,19 @@ published: true
 
 ## Bright junior developers who are going to answer the questions are:
 
-![junior developer](/images/junior_dev_jedrzej.png)
+![junior software developer](/images/junior_dev_jedrzej.png)
 
 The age he wrote his first line of code: 20
 
 Experience in building commercial software: over a year
 
-![junior developer](/images/junior_dev_lukasz.png)
+![junior software developer](/images/junior_dev_lukasz.png)
 
 The age he wrote his first line of code: 19
 
 Experience in building commercial software: almost a year
 
-![junior developer](/images/junior_dev_pawel.png)
+![junior software developer](/images/junior_dev_pawel.png)
 
 The age he wrote his first line of code: 17
 
@@ -98,7 +98,7 @@ Jędrzej:
 
 Paweł: 
 
-> First days at the software development company are all about knowing the project, reading and understanding the documentation and checking end-points. In the first days your job is to truly understand how the product you will be working on works. :)
+> First days at the software development company are all about knowing the project, reading and understanding the documentation and checking end-points. In the first days your job is to truly understand how the product you will be working on works. 🙂
 
 Łukasz: 
 
