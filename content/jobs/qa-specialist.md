@@ -27,7 +27,6 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 * performing test design and analysis
 * making suggestions for changes and improvements to projects
 * enhancing testing procedures
-* writing automated tests
 
 ## preferred skills & qualifications
 
@@ -47,6 +46,7 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 * experience with AWS or other Cloud providers 
 * experience in QA lead position 
 * familiarity with JIRA
+* drive to introduce automated tests 
 
 ## what you will find in our Bright Team 🧡
 
@@ -67,9 +67,9 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 
 ## recruitment process
 
-✅ interview (technical & non-technical part) \
+✅ interview (technical & non-technical part) 
 
-✅ skills evaluation and feedback \
+✅ skills evaluation and feedback 
 
 ✅ congrats! you are a part of our Bright Team!
 
