@@ -43,8 +43,7 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 ## we would also appreciate if you have 
 
 * basic knowledge of at least one programming language: JavaScript, Java, Kotlin 
-* experience with AWS or other Cloud providers 
-* experience in QA lead position 
+* experience with AWS or other Cloud providers  
 * familiarity with JIRA
 * drive to introduce automated tests 
 
