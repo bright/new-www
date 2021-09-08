@@ -114,6 +114,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   )
   await preparePage("member", "about-us", aboutUsTemplate)
 
+  createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
