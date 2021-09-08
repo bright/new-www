@@ -9,7 +9,7 @@ import variables from '../../styles/variables'
 
 const CarouselContainer = styled.div`
   /* margin-bottom: -4rem; */
-  padding: 0 6.4375rem;
+  padding: 0;
   .carousel {
     max-width: 1650px;
     margin: 0 auto;
@@ -30,8 +30,10 @@ const CarouselContainer = styled.div`
     font-family: 'Lato', sans-serif;
     text-align: left;
     & > p {
+      width: 90%;
+      max-width: 956px;
       padding: 0;
-      margin: 0;
+      margin: 0 auto;
       font-size: 1.75rem;
       opacity: 0.74;
       line-height: 2.125rem;

@@ -45,14 +45,14 @@ const HeroBlog = styled.section`
   @media ${variables.device.mobile} {
     & .hero-blog.columns {
       margin: 0;
-      padding-top: 0;
+      padding: 0 1.125rem;
       & .hero-blog.column {
-        padding: 0.59rem 1.125rem 0.59rem;
+        padding: 0.59rem 0 0.59rem;
         &:nth-of-type(even) {
-          padding-right: 1.125rem;
+          padding-right: 0;
         }
         &:nth-of-type(odd) {
-          padding-left: 1.125rem;
+          padding-left: 0;
         }
         &:nth-of-type(1) {
           padding-top: 0;

@@ -92,7 +92,7 @@ export const Projects: React.FC = () => {
         <CustomSectionTitle>success stories</CustomSectionTitle>
         <div className='is-clearfix'>
           <BlockSmall className='is-pulled-right'>
-            <span>visit our online portfolio::</span>
+            <span>visit our online portfolio:</span>
             <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
               <img src='/images/success-story-home-page/behance.svg' alt='LinkedIn' />
             </a>

@@ -52,7 +52,8 @@ export const SubmitButton = styled.button({
   },
 
   ['@media screen and (max-width: 767px)']: {
-    marginTop: '50px'
+    marginTop: '50px',
+    width: '100%'
   }
 })
 
