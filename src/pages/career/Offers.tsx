@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
 import { graphql,  useStaticQuery } from 'gatsby'
 
 import { Section, SectionInner, MoreButton } from '../../components/shared'
@@ -8,14 +8,21 @@ import OffersAll from './OffersAll'
 
 const Offers: React.FC = () => {
   const [showAll, setShowAll] = useState(false)
+  const queryResult = useMemo(() => useStaticQuery(jobsQuery), [jobsQuery])
+  const queryCount = useMemo(() => {
+    const { allMarkdownRemark: { totalCount } } = queryResult
+    return totalCount
+  }, [queryResult])
 
   return (
     <Section id='open-positions'>
       <SectionInner>
-        <OffersList jobs={createJobs(useStaticQuery(jobsQuery))}/>
-        {showAll
-          ? <OffersAll />
-          : <MoreButton onClick={() => setShowAll(true)}>view all job offers</MoreButton>}
+        <OffersList jobs={createJobs(queryResult)}/>
+        {(queryCount > 3) && (
+          showAll
+            ? <OffersAll />
+            : <MoreButton onClick={() => setShowAll(true)}>view all job offers</MoreButton>
+        )}
       </SectionInner>
     </Section>
   )
@@ -30,6 +37,7 @@ const jobsQuery = graphql`
       limit: 3,
       sort: {fields: [frontmatter___order]}
     ) {
+      totalCount
       edges {
         node {
           frontmatter {
