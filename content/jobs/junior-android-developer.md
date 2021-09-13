@@ -6,7 +6,7 @@ hours: full-time
 salary: 5 000- 9 000 PLN + VAT (B2B) or 4150 - 7500 PLN gross (UoP/Umowa zlecenie)
 salary_min: 5000
 salary_max: 9000
-published: true
+published: false
 order: 9
 description: We are looking for a Junior Android Developer to join our team. We
   want to offer you an opportunity to work with modern frameworks and tools.
