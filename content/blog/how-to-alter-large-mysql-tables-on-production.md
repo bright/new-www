@@ -7,7 +7,7 @@ tags:
   - schema
   - database
   - production
-date: 2021-09-13T12:27:46.233Z
+date: 2021-09-13T12:32:37.975Z
 title: How to alter large MySQL tables on production?
 layout: post
 image: /images/patrykblogpost_tables2.png
