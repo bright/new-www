@@ -83,53 +83,55 @@ const HeaderImages: React.FC = () => {
         <ImagesVertical>
           <StaticImage
             objectFit={'cover'}
-            src='../../../static/images/career/header/image1.png'
+            src='../../../static/images/career/header/Daniel_career_kolaz.png'
             alt={'Career at Bright Inventions'}
             className='image-veritical'
           />
           <StaticImage
             objectFit={'cover'}
-            src='../../../static/images/career/header/image5.png'
+            src='../../../static/images/career/header/Robert_Career_kolaz.png'
             alt={'Software developer career Poland'}
             className='image-veritical'
           />
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
-          src='../../../static/images/career/header/image2.png'
+          src='../../../static/images/career/header/Radek_Career_kolaz.png'
           alt={'Software developer career Poland'}
+          quality={100}
+          height={820}
           className='big-image'
         />
         <ImagesVertical>
           <StaticImage
             objectFit={'cover'}
-            src='../../../static/images/career/header/image6.png'
+            src='../../../static/images/career/header/Gosia_career_kolaz.png'
             alt={'Career at Bright Inventions'}
             className='image-veritical'
           />
           <StaticImage
             objectFit={'cover'}
-            src='../../../static/images/career/header/image3.png'
+            src='../../../static/images/career/header/Piotr_Career_kolaz.png'
             alt={'Software developer career Poland'}
             className='image-veritical'
           />
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
-          src='../../../static/images/career/header/image4.png'
+          src='../../../static/images/career/header/Kasia_career_kolaz.png'
           alt={'Career at Bright Inventions'}
           className='big-image'
         />
         <ImagesVertical>
           <StaticImage
             objectFit={'cover'}
-            src='../../../static/images/career/header/image7.png'
+            src='../../../static/images/career/header/Maciej_S._Career_kolaz.png'
             alt={'Career at Bright Inventions'}
             className='image-veritical'
           />
           <StaticImage
             objectFit={'cover'}
-            src='../../../static/images/career/header/image8.png'
+            src='../../../static/images/career/header/Agata_Career_kolaz.png'
             alt={'Software developer career Poland'}
             className='image-veritical'
           />

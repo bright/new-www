@@ -68,6 +68,9 @@ export const ImagesVertical = styled(ImagesBase)`
     height: 50%;
     &.image-veritical {
       border: 1px solid #d3d3d3;
+      & > img {
+        object-position: 50% 20%;
+      }
       &.image-veritical:not(:last-of-type) {
         margin-bottom: var(--gap);
       }
@@ -116,53 +119,61 @@ const HeroHeaderImages: React.FC = () => {
             <ImagesVertical>
               <StaticImage
                 objectFit={'cover'}
-                src='../../../static/images/hero-header/Agnieszka.png'
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/Agnieszka_Homepage_kolaz.png'
                 alt={'Agnieszka'}
                 className='image-veritical'
               />
               <StaticImage
                 objectFit={'cover'}
-                src='../../../static/images/hero-header/Mateusz.png'
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/Mateusz_Homepage_kolaz.png'
                 alt={'Mateusz'}
                 className='image-veritical'
               />
             </ImagesVertical>
             <StaticImage
               objectFit={'cover'}
-              src='../../../static/images/hero-header/Łukasz.png'
+              objectPosition={'50% 20%'}
+              src='../../../static/images/hero-header/Lukasz_Homepage_kolaz.png'
               alt={'Łukasz'}
               className='big-image'
             />
             <ImagesVertical>
               <StaticImage
                 objectFit={'cover'}
-                src='../../../static/images/hero-header/paulina_passion.png'
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/Paulina_homepage_kolaz.png'
                 alt={'Paulina'}
                 className='image-veritical'
               />
               <StaticImage
                 objectFit={'cover'}
-                src='../../../static/images/hero-header/Szymon.png'
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/Szymek_Homepage_kolaz.png'
                 alt={'Szymon'}
                 className='image-veritical'
               />
             </ImagesVertical>
             <StaticImage
               objectFit={'cover'}
-              src='../../../static/images/hero-header/iza gut.png'
+              objectPosition={'50% 20%'}
+              src='../../../static/images/hero-header/Iza_Homepage_kolaz.png'
               alt={'Iza'}
               className='big-image'
             />
             <ImagesVertical>
               <StaticImage
                 objectFit={'cover'}
-                src='../../../static/images/hero-header/Piotr.png'
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/PiotrR_Homepage_kolaz.png'
                 alt={'Piotr'}
                 className='image-veritical'
               />
               <StaticImage
                 objectFit={'cover'}
-                src='../../../static/images/hero-header/Wojtek.png'
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/Wojtek_Homepage_kolaz.png'
                 alt={'Wojtek'}
                 className='image-veritical'
               />

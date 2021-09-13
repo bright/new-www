@@ -56,7 +56,8 @@ export default {
       sizeOurServicesMobile:pxToRem(16),
       sizeBlogTags:pxToRem(18),
       sizeBlogTagsMobile:pxToRem(12),
-      sizeButton:pxToRem(18)
+      sizeButton:pxToRem(18),
+      sizeAuthor:pxToRem(32)
     },
   }
 }

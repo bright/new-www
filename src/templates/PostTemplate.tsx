@@ -172,15 +172,11 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         <PostArticleContent
           title={page.title}
           date={page.date}
-
           contentView={props.contentView}
           html={markdownRemark.html}
-
           authorsView={props.authorsView}
           author={page.author}
-
           canonicalUrl={page.canonicalUrl}
-
           fileAbsolutePath={markdownRemark.fileAbsolutePath}
           tags={page.tags ?? []}
           timeToRead={markdownRemark.timeToRead}
