@@ -6,7 +6,7 @@ hours: full-time
 salary: 5000 - 8000 PLN + VAT (B2B) or 4150 - 6650 PLN gross (UoP)
 salary_min: 4150
 salary_max: 8000
-published: true
+published: false
 order: 11
 ---
 ![Bright Team ](/images/brightteam_passion.png)
