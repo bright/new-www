@@ -47,8 +47,8 @@
     .title {
       margin-top: 0;
       margin-bottom: 0;
-      font-size: 51px;
-      line-height: 65px;
+      font-size: clamp(2.3125rem, -0.6662rem + 14.8936vw, 3.1875rem);
+      line-height: clamp(3.1875rem, 0.2088rem + 14.8936vw, 4.0625rem);;
     }
   }
 }
