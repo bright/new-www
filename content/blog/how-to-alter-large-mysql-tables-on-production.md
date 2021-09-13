@@ -17,7 +17,7 @@ published: true
 ---
 ## Introduction
 
-In this tutorial, we are going to learn, how to update structure of the large tables on production environment, without causing delays, locks, and downtime
+In this tutorial, we are going to learn, how to update the structure of the large tables on the production environment, without causing delays, locks, and downtime
 
 ## Large table
 
@@ -54,7 +54,7 @@ This is by far the easiest and best approach if it works.
 
 In order to perform the change, we need to ensure that migration will be as lightest as possible.
 
-Determine what kind of application's activities are related to the table you want to edit - examine the logs that are leading to some operations on the table in order to find the best timeframe to alter the schema. In our case, it was about the night hours:
+Determine what kind of application's activities are related to the table you want to edit - examine the logs that are leading to some operations on the table to find the best timeframe to alter the schema. In our case, it was about the night hours:
 
 ![night hours time frame](/images/screenshot-2021-09-13-at-14.14.27.png "night hours time frame")
 
@@ -62,7 +62,7 @@ Determine what kind of application's activities are related to the table you wan
 
 It is important to update the table without interruption. You need to remember that the process can take hours.
 It’s a good practice to start the migration from some remote shell.
-By doing this, even if your network connection fail, you will be able to connect to the shell and attach to the screen again, without stopping the execution.
+By doing this, even if your network connection fails, you will be able to connect to the shell and attach to the screen again, without stopping the execution.
 Moreover, it's worth to consider using Unix' [screen](https://linuxize.com/post/how-to-use-linux-screen/) program
 
 Here is an example of the command:
@@ -88,3 +88,5 @@ After the whole data is copied, the tool is swapping the tables and removing the
 ## Summary
 
 In this post, you learned how to alter your table during the productional application's lifecycle.
+
+In our case, the update of the entire table took 12hours of processing, ends successfully without causing any downtime
