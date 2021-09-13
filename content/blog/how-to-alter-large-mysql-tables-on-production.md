@@ -1,6 +1,13 @@
 ---
 author: patryk sz
-date: 2021-09-13T11:26:52.568Z
+tags:
+  - mysql
+  - percona
+  - alter
+  - schema
+  - database
+  - production
+date: 2021-09-13T12:27:46.233Z
 title: How to alter large MySQL tables on production?
 layout: post
 image: /images/patrykblogpost_tables2.png
