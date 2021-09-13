@@ -1,13 +1,13 @@
 ---
 layout: job
 title: "Product Designer "
-subtitle: ONGOING
+subtitle: OPENING SOON 
 hours: full-time
 salary: 8000 - 12 000 PLN + VAT (B2B) or 6700 - 10 000 PLN gross (UoP)
 salary_min: 8000
 salary_max: 12000
 published: true
-order: 6
+order: 10
 ---
 ![](/images/multidisciplinary-team-bright-inventions.png)
 
