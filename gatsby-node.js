@@ -89,6 +89,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         component: template,
         context: {
           // additional data can be passed via context
+          slug: node.frontmatter.slug,
           fileAbsolutePath: node.fileAbsolutePath,
         },
       })
