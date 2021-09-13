@@ -20,7 +20,7 @@ export function UploadField({ children, ...props }: Props) {
   return (
     <UploadFieldContainer>
       <span>{children || DEFAULT_CHILDREN}</span>
-      <input type='file' {...props} />
+      <input type='file' {...props} style={{ display: 'none' }} />
     </UploadFieldContainer>
   )
 }

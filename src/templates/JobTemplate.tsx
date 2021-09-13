@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import { BlackButton } from '../components/about-us/about-us.styled'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
@@ -278,8 +278,9 @@ export default function Template({
             <li>Kotlin</li>
           </ul>
         </TechnologyWrapper>
-
-        <JobBlackButton type='submit'>join</JobBlackButton>
+        <Link to='#jobform'>
+          <JobBlackButton type='submit'>join</JobBlackButton>
+        </Link>
 
         <JobSectionInner>
           <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
@@ -288,7 +289,7 @@ export default function Template({
           <RecruitingProcess />
         </RecruitingProcessWrappers>
 
-        <SectionInner>
+        <SectionInner id='jobform'>
           <JobFormComponent
             style={{ marginTop: '0', marginBottom: '5rem' }}
             title={'submit your application'}
