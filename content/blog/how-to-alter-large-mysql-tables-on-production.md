@@ -6,7 +6,7 @@ layout: post
 image: /images/patrykblogpost_tables2.png
 hidden: true
 comments: true
-published: false
+published: true
 ---
 ## Introduction
 
