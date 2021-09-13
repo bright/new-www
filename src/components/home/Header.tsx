@@ -12,6 +12,13 @@ const HeroWrapper = styled.div`
   @media ${variables.device.mobile} {
     max-width: 347px;
   }
+
+  @media ${variables.device.mobile} {
+    & .title {
+      font-size: clamp(2.3125rem, -0.6662rem + 14.8936vw, 3.1875rem);
+      line-height: clamp(3.1875rem, 0.2088rem + 14.8936vw, 4.0625rem);
+    }
+  }
 `
 const HeroBody = styled.div`
   padding: 0 19rem 0 6.5rem;
