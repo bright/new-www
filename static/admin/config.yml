@@ -24,6 +24,26 @@ collections:
           displayFields: ['name', 'author_id'],
           multiple: true,
         }
+      - {
+          label: 'SecondAuthor',
+          name: 'author',
+          widget: 'relation',
+          collection: 'members',
+          searchFields: ['name'],
+          valueField: 'author_id',
+          displayFields: ['name', 'author_id'],
+          multiple: true,
+        }
+      - {
+          label: 'ThirdAuthor',
+          name: 'author',
+          widget: 'relation',
+          collection: 'members',
+          searchFields: ['name'],
+          valueField: 'author_id',
+          displayFields: ['name', 'author_id'],
+          multiple: true,
+        }
       - { label: 'Tags', name: 'tags', widget: 'tags' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -51,6 +71,7 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Website', name: 'web', widget: 'string', required: false }
       - { label: 'Avatar', name: 'avatar', widget: 'image', required: false }
+      - { label: 'AvatarHover', name: 'avatar_hover', widget: 'image', required: false }
       - { label: 'Twitter', name: 'twitter', widget: 'string', required: false }
       - { label: 'Github', name: 'github', widget: 'string', required: false }
       - { label: 'Stack Overflow', name: 'stackoverflow', widget: 'string', required: false }
