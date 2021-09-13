@@ -13,6 +13,7 @@ import { AttachmentUploaded } from '../fields/fields.styled'
 import { JobApplicationModal } from './job-application-modal'
 import { CustomTextRegular } from '../../shared'
 import variables from '../../../styles/variables'
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import { useState } from 'react'
 
 export interface FormProps {
@@ -67,6 +68,12 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
   }
 
   const submit = useCallback((event, data) => {
+    console.log(window.location.href)
+    trackCustomEvent({
+      category: 'Form Button',
+      action: 'Click',
+      label: window.location.href,
+    })
     event.preventDefault()
     onSubmit && onSubmit()
     handleSubmit(event, data)
