@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-What I value in life are **honesty and transparency.**** I really encourage people I work with to voice their opinions, ideas or disappointments and to ask a lot of questions. When someone does not ask, I assume everything is clear. Guessing and overinterpretating are not my things. And I think that rumours, gossiping or internal tittle-tattles are not the way strong, responsible and supporting teams are built. If a company really wants to grow, employees should be open to tell the truth and hear the truth about themselves. It doesn’t matter if we talk with our boss, manager or colleague, being honest is an important step towards integrity. 
+What I value in life are **honesty and transparency.**** I really encourage people I work with to voice their opinions, ideas or disappointments and to ask a lot of questions. When someone does not ask, I assume everything is clear. Guessing and overinterpreting are not my things. And I think that rumours, gossiping or internal tittle-tattles are not the way strong, responsible and supporting teams are built. If a company really wants to grow, employees should be open to tell the truth and hear the truth about themselves. It doesn’t matter if we talk with our boss, manager or colleague, being honest is an important step towards integrity. 
 
 But creating an atmosphere and culture in the workplace that foster such behaviours is demanding and it may involve many arduous, difficult and sometimes even unpleasant conversations. **We all know that talking about one’s flaws or areas which need improvement is hard, but it also empowers the team to step up and fix the appearing problems. And to my view it is a key feature of mature and responsible teams.**
 
