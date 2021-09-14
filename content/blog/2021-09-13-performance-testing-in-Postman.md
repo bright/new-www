@@ -1,14 +1,14 @@
 ---
-layout: post
-title: Performance testing in Postman
-date: 2021-09-13T12:10:00.371Z
-image: /images/graphstock.jpeg
 author: maciej
 tags:
   - postman
   - performance
   - testing
   - stress
+date: 2021-09-13T12:10:00.371Z
+title: Performance testing in Postman
+layout: post
+image: /images/graph_performance_blog.png
 hidden: false
 comments: true
 published: true
