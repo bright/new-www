@@ -8,7 +8,7 @@ tags:
 date: 2021-09-02
 title: No Time for Bullsh**. Feedback Culture.
 layout: post
-image: /images/feedback_culture_blog.jpeg
+image: /images/blog_feedback_culture.png
 hidden: false
 comments: true
 published: true
