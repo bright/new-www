@@ -3,9 +3,9 @@ layout: job
 title: "QA Specialist "
 subtitle: ONGOING
 hours: full-time
-salary: 7000 - 11 500 PLN + VAT (B2B) or 5900 - 9500 PLN gross (UoP)
+salary: 7000 - 12 000 PLN + VAT (B2B) or 5900 - 10 000 PLN gross (UoP)
 salary_min: 5900
-salary_max: 11500
+salary_max: 12 000
 published: true
 order: 3
 ---
