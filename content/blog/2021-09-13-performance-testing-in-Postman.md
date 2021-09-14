@@ -11,7 +11,7 @@ tags:
   - stress
 hidden: true
 comments: true
-published: false
+published: true
 ---
 **Performance testing is a great way to find out how stable, fast and reliable our application or site is. Evaluating responsiveness, defining possible bottlenecks and checking how the software handles the expected (and more importantly, the unexpected) errors are integral parts of quality assurance. When I discuss performance testing, the usual suggestions I hear are Jmeter, LoadNinja, Gatling etc. And while I consider all of the aforementioned very good shouts, there is sometimes a need to run performance tests immediately, without researching solutions, coding and training testers to use cumbersome tools. On numerous occasions, I have found Postman to be the remedy to such a problem.**
 
