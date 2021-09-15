@@ -44,9 +44,13 @@ This is by far the easiest and best approach if it works.
 
 "if it works" - because in some cases - i.e. you have *FTS index* created - you will be not able to do so
 
-#### Use Percona Tools to update the table
+#### Use Percona Toolkit to update the table
 
-[pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/3.0/pt-online-schema-change.html) allows you to alter a table’s structure without blocking reads or writes.
+In the case mentioned above, if you have an FTS index created over the table, there is a need to perform the migration some other way. The other way, in this case, is [Percona Toolkit](https://www.percona.com/software/database-tools/percona-toolkit):
+
+> Percona Toolkit is a collection of advanced open source command-line tools, developed and used by the Percona technical staff, that are engineered to perform a variety of MySQL®, MariaDB®, MongoDB®, and PostgreSQL server and system tasks that are too difficult or complex to perform manually
+
+In our scenario, [pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/3.0/pt-online-schema-change.html) allows you to alter a table’s structure without blocking reads or writes. In the following paragraphs, I described how it works.
 
 **Do not use this tool before reading its documentation and checking your backups carefully**
 
@@ -54,7 +58,9 @@ This is by far the easiest and best approach if it works.
 
 In order to perform the change, we need to ensure that migration will be as lightest as possible.
 
-Determine what kind of application's activities are related to the table you want to edit - examine the logs that are leading to some operations on the table to find the best timeframe to alter the schema. In our case, it was about the night hours:
+Determine what kind of application's activities are related to the table you want to edit - examine the logs that are leading to some operations on the table to find the best timeframe to alter the schema.
+
+In our case, it was about the night hours. We checked the traffic for the application in the last two weeks' perspective.
 
 ![night hours time frame](/images/screenshot-2021-09-13-at-14.14.27.png "night hours time frame")
 
@@ -63,9 +69,23 @@ Determine what kind of application's activities are related to the table you wan
 It is important to update the table without interruption. You need to remember that the process can take hours.
 It’s a good practice to start the migration from some remote shell.
 By doing this, even if your network connection fails, you will be able to connect to the shell and attach to the screen again, without stopping the execution.
-Moreover, it's worth to consider using Unix' [screen](https://linuxize.com/post/how-to-use-linux-screen/) program
+Moreover, it's worth to consider using Unix' [screen](https://linuxize.com/post/how-to-use-linux-screen/) program:
 
-Here is an example of the command:
+```
+$ screen -S percona-processing
+```
+
+Once you created the screen, you are able to reattach to it later (ie. after network connection crash):
+
+```
+$ screen -ls
+There is a screen on:
+	41303.percona-processing	(Attached)
+1 Socket in /var/folders/7g/45p5bfln4k3384t7wcvyrhqh0000gn/T/.screen.
+$ screen -R 41303
+```
+
+Here is an example of the altering command:
 
 ```
 $ pt-online-schema-change \
@@ -89,4 +109,4 @@ After the whole data is copied, the tool is swapping the tables and removing the
 
 In this post, you learned how to alter your table during the productional application's lifecycle.
 
-In our case, the update of the entire table took 12hours of processing, ends successfully without causing any downtime
+In our case, the update of the entire table took 12hours of processing, ends successfully without causing any downtime.
