@@ -23,7 +23,7 @@ Another type of performance testing is stress testing - when we gradually increa
 Spike testing is a subtype of stress testing that focuses on the performance of the app under huge load volumes in a short period. Those ‘spikes’ should be created either between periods of usual production load (imitating the production environment) or no load at all.
 All types of testing help in defining problems and effectively, improving the quality of the end product. The essential task is to adjust the type of testing used to the questions we want to answer.
 
-![testing models](/images/testingModelsPostman.png)
+ ![testing models](/images/testingModelsPostman.png)
 
 ## Constant rush
 
