@@ -42,7 +42,6 @@ Jędrzej – Junior Fullstack Developer:
 
 > Usually the first job interview feels like a collision with a wall. And that is normal. Take lessons from that experience, remember what recruiters asked you, what they expected from you. Every next interview will be better.
 
-## \
 **Don’t start from a remote job**
 
 Jędrzej: 
@@ -60,8 +59,6 @@ Jędrzej:
 Paweł: 
 
 > It will be fine. Stress isn’t your friend. Really.
-
-
 
 That’s it for now from our junior developers. Good luck with finding your first software development job! 
 
