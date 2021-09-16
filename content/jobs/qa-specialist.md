@@ -9,7 +9,7 @@ salary_max: 12 000
 published: true
 order: 3
 ---
-![](/images/brightteam_passion.png)
+![QA Specialist](/images/brightteam_passion.png)
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
@@ -72,4 +72,4 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 
 ✅ congrats! you are a part of our Bright Team!
 
-In case you have any questions, drop us a line at jobs@brightinvebntions.pl. We will be happy to get back to you!
+In case you have any questions, drop us a line at jobs@brightinventions.pl. We will be happy to get back to you!
