@@ -13,6 +13,8 @@ published: true
 ---
 **We have asked junior developers at Bright Inventions what advice they would give to someone who is looking for the first job in the software development world. Check out their tips for future developers!**
 
+![tips from junior software developers](/images/8_tips_from_junior_developers.png)
+
 ## Show that you want to learn
 
 Paweł – Junior Fullstack Developer: 
