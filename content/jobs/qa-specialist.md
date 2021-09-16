@@ -72,4 +72,4 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 
 ✅ congrats! you are a part of our Bright Team!
 
-In case you have any questions, drop us a line at jobs@brightinvebntions.pl. We will be happy to get back to you!
+In case you have any questions, drop us a line at jobs@brightinventions.pl. We will be happy to get back to you!
