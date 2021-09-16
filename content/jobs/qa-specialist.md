@@ -32,7 +32,7 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 
 ## preferred skills & qualifications
 
-* practical experience of a software development testing, both web and mobile 
+* practical experience of software development testing, both web and mobile 
 * experience with DB testing (MySQL, PostgreSQL), performance testing and API testing (Postman, Charles Swagger, REST, Charles) 
 * experience with most effective QA tools
 * good knowledge of testing methodologies and test cases specification & execution
