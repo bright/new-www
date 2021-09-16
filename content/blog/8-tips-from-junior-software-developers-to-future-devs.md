@@ -1,5 +1,8 @@
 ---
 author: izabela
+tags:
+  - development
+  - inspiration
 date: 2021-09-16T08:26:08.425Z
 title: 8 tips from junior software developers to future devs
 layout: post
