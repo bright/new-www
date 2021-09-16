@@ -6,6 +6,7 @@ tags:
 date: 2021-09-16T08:26:08.425Z
 title: 8 tips from junior software developers to future devs
 layout: post
+image: /images/8_tips_from_junior_developers.png
 hidden: false
 comments: true
 published: true
@@ -42,7 +43,7 @@ Jędrzej – Junior Fullstack Developer:
 
 > Usually the first job interview feels like a collision with a wall. And that is normal. Take lessons from that experience, remember what recruiters asked you, what they expected from you. Every next interview will be better.
 
-**Don’t start from a remote job**
+## **Don’t start from a remote job**
 
 Jędrzej: 
 
