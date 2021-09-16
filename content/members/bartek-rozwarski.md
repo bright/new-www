@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: bartekr
-ex: false
+ex: true
 slug: bartekr
 name: Bartek Rozwarski
 short_name: Bartek R.
