@@ -41,12 +41,14 @@ jobs:
         env:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
           CI: true
+          GATSBY_ACTIVE_ENV: production
       - run: yarn run build
         if: ${{ github.ref == 'refs/heads/staging' }}
         env:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
           CI: true
           DEPLOY_S3_BUCKET_NAME: 'brightinventions-pl-website-content-staging'
+          GATSBY_ACTIVE_ENV: staging
   deploy-s3:
     runs-on: ubuntu-latest
     needs:
@@ -84,6 +86,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.PRODUCTION_CLOUDFRONT_DISTRIBUTION_ID }}
+          GATSBY_ACTIVE_ENV: production
       - run: yarn run invalidate-cf-cache
         if: ${{ github.ref == 'refs/heads/gatsby' }}
         env:
@@ -99,6 +102,7 @@ jobs:
           AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.STAGING_CLOUDFRONT_DISTRIBUTION_ID }}
           SITE_URL: 'https://staging.brightinventions.pl/'
           DEPLOY_S3_BUCKET_NAME: 'brightinventions-pl-website-content-staging'
+          GATSBY_ACTIVE_ENV: staging
       - run: yarn run invalidate-cf-cache
         if: ${{ github.ref == 'refs/heads/staging' }}
         env:
