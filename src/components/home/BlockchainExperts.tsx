@@ -91,7 +91,7 @@ export const BlockchainExperts = () => {
               className='about-img'
             />
             <StaticImage
-              src='../../../static/images/projects2.png'
+              src='../../../static/images/Treasury_www_LargeSize.png'
               alt=''
               placeholder='blurred'
               layout='constrained'

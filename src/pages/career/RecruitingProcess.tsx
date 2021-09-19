@@ -100,8 +100,11 @@ const RecruitingProcess: React.FC = () => {
     () => [
       { image: '/images/career/recruiting/cv_review.png', title: 'CV screening' },
       { image: '/images/career/recruiting/interview.png', title: 'interview (technical part & non-technical part)' },
-      { image: '/images/career/recruiting/skills_evaluation.png', title: 'programming task' },
-      { image: '/images/career/recruiting/technical_interview.png', title: 'skills evaluation and feedback' },
+      { image: '/images/career/recruiting/Programming_task.png', title: 'programming task' },
+      {
+        image: '/images/career/recruiting/skills evaluation and feedback.png',
+        title: 'skills evaluation and feedback',
+      },
     ],
     []
   )
