@@ -20,6 +20,7 @@ import {
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomTextRegular } from './index.styled'
+import { type } from './../../use-blog-posts/blog-post-frontmatter-query-result'
 
 const ContainerWrapper = styled.div({
   display: 'flex',
@@ -157,7 +158,7 @@ export const Contact = () => {
 
           <DoubleInputsRow>
             <DoubleInputsRowEntry leftSide>
-              <Label>Phone *</Label>
+              <Label>Phone </Label>
               <TextInput
                 type='text'
                 maxLength={256}
@@ -165,7 +166,6 @@ export const Contact = () => {
                 value={phone}
                 onChange={e => setPhone(e.target.value)}
                 placeholder='(+55) 555 555 555'
-                required
               />
             </DoubleInputsRowEntry>
 

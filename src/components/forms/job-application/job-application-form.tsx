@@ -15,6 +15,7 @@ import { CustomTextRegular } from '../../shared'
 import variables from '../../../styles/variables'
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import { useState } from 'react'
+import { type } from './../../../use-blog-posts/blog-post-frontmatter-query-result'
 
 export interface FormProps {
   nameLabel?: string
@@ -68,7 +69,6 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
   }
 
   const submit = useCallback((event, data) => {
-    console.log(window.location.href)
     trackCustomEvent({
       category: 'Form Button',
       action: 'Click',
@@ -97,6 +97,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           value={value.email}
           onChange={handleChange}
           name='email'
+          type='email'
         />
       </div>
       {/* <TextField

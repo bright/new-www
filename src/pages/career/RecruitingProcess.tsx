@@ -6,6 +6,10 @@ import variables from '../../styles/variables'
 
 const RecruitingTitle = styled(SectionTitle)`
   margin-bottom: 4rem;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  font-weight: 800;
+
   @media ${variables.device.mobile} {
     font-size: 1.375rem;
   }
