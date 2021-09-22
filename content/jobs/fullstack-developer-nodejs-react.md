@@ -11,6 +11,7 @@ salary_max: 15000
 working time: full time
 technology:
   - TypeScript
+  - JavaScript
   - Node.js
   - React
   - AWS
