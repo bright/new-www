@@ -56,10 +56,6 @@ Currently we are looking for a Junior Android Developer to join our team. We wan
 * board games Fridays 
 * quarter team building  events and weekly bright lunch initiatives 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
-
 In case you have any questions, drop us a line to jobs@bright.dev .  \
 We would be happy to help! 
 

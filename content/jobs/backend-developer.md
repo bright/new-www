@@ -68,9 +68,6 @@ Sounds exciting? We hope it does. 🧡
 * weekly sport classes and Friday in-house yoga time 
 * board games evenings and weekly lunch roulette initiative 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
 
 Do you want to be a part of our Bright Team? Apply! 
 

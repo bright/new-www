@@ -60,9 +60,6 @@ The goal of the app s to make support accessible and affordable to everyone. Sha
 * quarter team buildings events
 * board games evenings, Friday yoga and lunch roulette initiative
 
-## recruitment process
-
-![](/images/recruitment-process.png)
 
 This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it! 
 

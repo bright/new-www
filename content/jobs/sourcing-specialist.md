@@ -58,8 +58,5 @@ We are looking for a determined, positive and talented Sourcing Specialist who w
 * Friday yoga and board games evenings
 * team buildings parties once a quarter and weekly bright lunch initiative
 
-## recruitment process
-
-![](/images/recruitment-process-non-tech.png)
 
 In case you have any questions, drop a line to [ula@bright.dev](mailto:ula@bright.dev) and grab the opportunity to become a part of our Bright Team! 🧡

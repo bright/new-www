@@ -64,9 +64,6 @@ We are responsible for providing: backend infrastructure, web application, a set
 * quarter team retreats and lunch roulette initiative 
 * board games evenings
 
-## recruitment process
-
-![](/images/recruitment-process.png)
 
 Sounds interesting? Don't hesitate and apply! 
 

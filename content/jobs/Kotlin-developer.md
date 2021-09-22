@@ -57,9 +57,6 @@ We are looking for an experienced Java/Kotlin Developer who would like to develo
 * quarter team buildings events
 * board games evenings, Friday yoga and lunch roulette initiative 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
 
 Do you want to be a part of our Bright Team? Apply! 
 

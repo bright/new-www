@@ -68,10 +68,6 @@ We are looking for an experienced **Senior iOS Developer** who understands Swift
 * board games evenings and weekly lunch roulette initiative 
 * quarter team building events 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
-
 Sounds like a perfect job? Don't hesitate and apply! 
 
 

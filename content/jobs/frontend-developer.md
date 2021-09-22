@@ -61,10 +61,6 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * board games Fridays 
 * team retreats once a quarter and weekly lunch roulette initiative 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
-
 ## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON!
 
 In case you have any questions, drop us a line at jobs@bright.dev. We would be happy to help! 

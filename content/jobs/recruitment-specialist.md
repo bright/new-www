@@ -63,8 +63,5 @@ We are looking for a Recruitment Specialist to undertake all hiring activities, 
 * Friday yoga and board games evenings
 * team buildings parties once a quarter and weekly bright lunch initiative
 
-## recruitment process
-
-![](/images/recruitment-process-non-tech.png)
 
 In case you have any questions, drop a line to [ula@bright.dev](mailto:ula@bright.dev) and grab the opportunity to be a part of our Bright Team! 🧡
