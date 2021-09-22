@@ -66,9 +66,6 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * free English classes 
 * team buildings parties once a quarter and weekly lunches 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
 
 Hope to see you on our Bright board soon.  🧡 
 
