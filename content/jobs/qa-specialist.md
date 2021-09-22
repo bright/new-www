@@ -2,10 +2,17 @@
 layout: job
 title: "QA Specialist "
 subtitle: ONGOING
+imagejob: /images/qa_and_brightteam.png
+image-alt-job: QA Team Bright Inventions
 hours: full-time
 salary: 7000 - 12 000 PLN + VAT (B2B) or 5900 - 10 000 PLN gross (UoP)
 salary_min: 5900
 salary_max: 12 000
+working time: full time
+technology:
+  - Java
+  - Kotlin
+button: Join QA Team
 published: true
 order: 3
 ---
