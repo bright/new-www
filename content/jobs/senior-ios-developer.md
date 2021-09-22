@@ -10,9 +10,12 @@ salary_min: 16000
 salary_max: 22000
 working time: full time
 technology:
-  - iOS
   - Swift
-button: Join iOS Team
+  - iOS SDK 
+  - Cocoa Touch 
+  - Swift Package Manager
+  - Realm
+button: join our iOS team
 published: true
 order: 11
 description: We are looking for an experienced Senior iOS Developer who
