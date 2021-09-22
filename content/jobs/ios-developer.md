@@ -67,10 +67,6 @@ Working with us means not only technically challenging projects, but also no man
 * weekly sport classes together with in-house yoga time 
 * Friday board games evenings and lunch roulette initiative 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
-
 In case you have any questions, let us know! We'd be happy to help.
 
 Just drop a line ta jobs@bright.dev. 
