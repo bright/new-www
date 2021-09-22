@@ -11,7 +11,7 @@ salary_max: 15000
 working time: full time
 technology:
   - Kotlin
-button: Join Android Team
+button: join Android team
 redirect_from:
   - /android-developer
   - /android-developer/
