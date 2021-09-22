@@ -10,9 +10,11 @@ salary_min: 16000
 salary_max: 22000
 working time: full time
 technology:
-  - Android
+  - Android SDK 
+  - Android Studio
   - Kotlin
-button: Join Kotlin Team
+  - Kotlin Coroutines 
+button: join our Kotlin team
 redirect_from:
   - /android-developer
   - /android-developer/
@@ -33,8 +35,6 @@ What can you expect after joining our team?
 
 Exciting projects. Positive and supportive team. Responsibility. And for sure professional growth. 
 
-
-
 ## your role will include
 
 * creating high-quality Android applications
@@ -42,8 +42,6 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * direct contact with clients and advising in their decision making process
 * knowledge sharing and mentoring with the rest of a team
 * improving internal Android development processes 
-
-
 
 ## preferred qualifications
 
