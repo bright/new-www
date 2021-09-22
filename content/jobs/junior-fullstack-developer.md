@@ -11,8 +11,10 @@ salary_max: 9000
 working time: full time
 technology:
   - TypeScript
+  - JavaScript
   - Node.js
-button: Join Fullstack Team
+  - React
+button: join our fullstack team
 published: true
 order: 10
 description: We are looking for a Junior Fullstack Developer to join our team.
