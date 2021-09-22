@@ -142,8 +142,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           linkLabel='back to career'
         >
           <SuccesMessage>
-            Congrats! Your application was successfully submitted. You’ll receive email with the confirmation. Thank
-            you!
+            Congrats! Your application was successfully submitted.
           </SuccesMessage>
         </JobApplicationModal>
       )}
