@@ -273,10 +273,10 @@ export default function Template({
           <span>Gdańsk</span>
         </HoursWraper>
         <TechnologyWrapper>
-          <ul>
+          {/* <ul>
             <li>Java</li>
             <li>Kotlin</li>
-          </ul>
+          </ul> */}
         </TechnologyWrapper>
         <Link to='#jobform'>
           <JobBlackButton type='submit'>join</JobBlackButton>
