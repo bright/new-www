@@ -10,7 +10,6 @@ salary_min: 12000
 salary_max: 15000
 working time: full time
 technology:
-  - Android
   - Kotlin
 button: Join Android Team
 redirect_from:
