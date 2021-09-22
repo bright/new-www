@@ -73,10 +73,6 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * English classes in small groups and business focus 
 * team building events once a quarter and bright lunch initiative every week 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
-
 
 
 In case you have any questions, contact ula@bright.dev
