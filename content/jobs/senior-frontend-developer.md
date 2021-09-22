@@ -11,8 +11,9 @@ salary_max: 22000
 working time: full time
 technology:
   - TypeScript
-  - Node.js
-button: Join Frontend Team
+  - JavaScript
+  - React
+button: join our frontend team
 published: true
 order: 1
 description: We are looking for a Senior Frontend Developer who would like to
