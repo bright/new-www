@@ -64,10 +64,6 @@ Our team decide which technologies we use in projects. We pay special attention 
 * team retreats once a quarter and lunch roulette initiative 
 * board games evenings 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
-
 Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
 
 In case you have any questions, drop a line at jobs@bright.dev. 
