@@ -16,7 +16,7 @@ technology:
   - AWS
   - PostgreSQL
   - MySQL
-button: join backend team
+button: join our backend team
 published: true
 order: 2
 description: We are looking for an experienced Java/Kotlin Developer who would
