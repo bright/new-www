@@ -250,8 +250,7 @@ export const Contact = () => {
             linkLabel='back to home page'
           >
             <SuccesMessage>
-              Congrats! Your application was successfully submitted. You’ll receive email with the confirmation. Thank
-              you!
+              Congrats! You have successfully submitted the form. We will get back to you asap.
             </SuccesMessage>
           </JobApplicationModal>
         )}
