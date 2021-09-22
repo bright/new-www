@@ -10,9 +10,12 @@ salary_min: 5900
 salary_max: 12 000
 working time: full time
 technology:
-  - Java
-  - Kotlin
-button: Join QA Team
+  - Appium/Espresso
+  - DB testing
+  - API Testing
+  - ISTQB
+  - CI/CD
+button: join our QA team
 published: true
 order: 3
 ---
