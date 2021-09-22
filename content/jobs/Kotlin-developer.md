@@ -12,7 +12,11 @@ working time: full time
 technology:
   - Java
   - Kotlin
-button: Join Backend Team
+  - Spring
+  - AWS
+  - PostgreSQL
+  - MySQL
+button: join backend team
 published: true
 order: 2
 description: We are looking for an experienced Java/Kotlin Developer who would
