@@ -11,9 +11,10 @@ salary_max: 22000
 working time: full time
 technology:
   - TypeScript
+  - JavaScript
   - Node.js
   - React
-button: Join Fullstack Team
+button: join our fullstack team
 published: true
 order: 7
 description: We are looking now for a Full Stack Developer who has already had
