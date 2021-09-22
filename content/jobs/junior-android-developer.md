@@ -2,10 +2,17 @@
 layout: job
 title: "Junior Android Developer "
 subtitle: OPENING SOON
+imagejob: /images/android-team.png
+image-alt-job: Android Team Bright Inventions
 hours: full-time
 salary: 5 000- 9 000 PLN + VAT (B2B) or 4150 - 7500 PLN gross (UoP/Umowa zlecenie)
 salary_min: 5000
 salary_max: 9000
+working time: full time
+technology:
+  - Android
+  - Kotlin
+button: Join Android Team
 published: false
 order: 9
 description: We are looking for a Junior Android Developer to join our team. We
