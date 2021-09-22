@@ -67,9 +67,6 @@ We are seeking a talented and creative **Product designer** who will focus on 
 
 If you want to feel our Bright Spirit more, check [our Instagram profile](https://www.instagram.com/bright_inventions/?hl=en). 🧡
 
-## recruitment process
-
-![](/images/recruitment-process.png)
 
 Do you want to be a part of our Bright Team? Apply! 
 
