@@ -2,19 +2,24 @@
 layout: job
 title: "Fullstack Developer (Node.js + React) "
 subtitle: ONGOING
+imagejob: /images/frontendteam_bright-inventions.png
+image-alt-job: TypeScript Team
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
 salary_max: 15000
+working time: full time
+technology:
+  - TypeScript
+  - Node.js
+  - React
+  - AWS
+button: "join our TypeScript team "
 published: true
 order: 1
-description: We are looking for a Fullstack Developer (Node.js + React) who would like to
-  work with our experienced and ambitious development team.
+description: We are looking for a Fullstack Developer (Node.js + React) who
+  would like to work with our experienced and ambitious development team.
 ---
-![](/images/frontendteam_bright-inventions.png)
-
-![]()
-
 At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
@@ -37,7 +42,7 @@ The goal of the app s to make support accessible and affordable to everyone. Sha
 * positive attitude and open mind
 * very good communication skills both in Polish & English
 
-## we would also appreciate if you have 
+## we would also appreciate if you have
 
 * experience with React development 
 * familiarity with AWS or other Cloud providers
@@ -59,7 +64,6 @@ The goal of the app s to make support accessible and affordable to everyone. Sha
 * free English classes
 * quarter team buildings events
 * board games evenings, Friday yoga and lunch roulette initiative
-
 
 This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it! 
 
