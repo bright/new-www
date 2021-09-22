@@ -10,9 +10,13 @@ salary_min: 12000
 salary_max: 15000
 working time: full time
 technology:
-  - iOS
   - Swift
-button: Join iOS Team
+  - iOS SDK 
+  - Cocoa Touch
+  - Realm 
+  - ReactiveSwift
+  - Swift Package Manager
+button: join our iOS team
 redirect_from:
   - /ios-developer
   - /ios-developer/
