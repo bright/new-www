@@ -109,7 +109,7 @@ export default function Template({
               <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
             </SectionInner>
           </AuthorWrapper>
-          {edges.length > 0 && <CustomSectionTitle>blog post by {frontmatter.short_name} </CustomSectionTitle>}
+          {edges.length > 0 && <CustomSectionTitle>blog posts by {frontmatter.short_name} </CustomSectionTitle>}
           <BlogFeed posts={createBlogPosts(data)} numToSliced={numToSliced} />
           {(() => {
             if (edges.length > 6 && numToSliced > 6) {
