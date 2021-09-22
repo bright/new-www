@@ -11,8 +11,10 @@ salary_max: 15000
 working time: full time
 technology:
   - TypeScript
+  - JavaScript
   - React
-button: Join Frontend Team
+  - RWD
+button: join our frontend team
 published: true
 order: 5
 description: We are looking for a Frontend Developer who would like to work with
