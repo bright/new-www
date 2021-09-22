@@ -6,6 +6,11 @@ hours: full-time
 salary: 8000 - 12 000 PLN + VAT (B2B) or 6700 - 10 000 PLN gross (UoP)
 salary_min: 8000
 salary_max: 12000
+technology:
+- UI
+- UX
+- Adobe XD/Sketch/Figma
+button: join our Bright team
 published: true
 order: 10
 ---
