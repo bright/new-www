@@ -17,9 +17,9 @@ published: true
 
 ![eco-friendly apps](/images/blogpost_eko_apps.png)
 
-## 1.Too Good To Go
+## 1. Too Good To Go
 
-We all have done it – throw away food that is still edible. It is also a dreadful yet daily reality for the representatives of the retail and restaurant industries. For example, the restaurants in the United States alone generate even [33 billion pounds of food waste](https://foodprint.org/issues/the-problem-of-food-waste/) each year. [The app “Too Good To Go”](https://toogoodtogo.com/en-us) helps to save the food with a close date of expiration from shops and restaurants. Users can “rescue meals” by purchasing them at a great price with the app. Thanks to apps like “Too Good To Go”, food that was supposed to be trash gets a new home and a happy stomach. ;)
+We all have done it – throw away food that is still edible. It is also a dreadful yet daily reality for the representatives of the retail and restaurant industries. For example, the restaurants in the United States alone generate even [33 billion pounds of food waste](https://foodprint.org/issues/the-problem-of-food-waste/) each year. [The app “Too Good To Go”](https://toogoodtogo.com/en-us) helps to save the food with a close date of expiration from shops and restaurants. Users can “rescue meals” by purchasing them at a great price with the app. Thanks to apps like “Too Good To Go”, food that was supposed to be trash gets a new home and a happy stomach. 😉
 
 ## 2. Relevo
 
