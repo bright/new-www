@@ -1,6 +1,5 @@
 ---
-author:
-  - izabela
+author: izabela
 tags:
   - business
   - development
