@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { BlackButton } from '../components/about-us/about-us.styled'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
@@ -231,6 +232,15 @@ const JobFormComponent = styled(FormComponent)`
     }
   }
 `
+const ImageWrapper = styled.div`
+  @media ${variables.device.mobile} {
+    width: auto;
+    overflow-x: scroll;
+    & > .about-img {
+      width: 1000px;
+    }
+  }
+`
 
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
@@ -259,6 +269,9 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
   console.log(markdownRemark)
+  const technology = page.technology.map(tech => <li key={tech}>{tech}</li>)
+  console.log(technology)
+  const image = getImage(page.imagejob)
   return (
     <Page>
       <HelmetTitleDescription title={page.title} description={page.description} />
@@ -269,18 +282,18 @@ export default function Template({
           <Salary salary={page.salary} />
         </SalaryWrapper>
         <HoursWraper>
-          {page.hours && <h4>{page.hours}</h4>}
+          {page.working_time && <h4>{page.working_time}</h4>}
           <span>Gdańsk</span>
         </HoursWraper>
         <TechnologyWrapper>
-          {/* <ul>
-            <li>Java</li>
-            <li>Kotlin</li>
-          </ul> */}
+          <ul>{technology}</ul>
         </TechnologyWrapper>
         <Link to='#jobform'>
-          <JobBlackButton type='submit'>join</JobBlackButton>
+          <JobBlackButton type='submit'>{page.button}</JobBlackButton>
         </Link>
+        <ImageWrapper>
+          <GatsbyImage image={image} alt={page.image_alt_job} className='about-img' quality='100' />
+        </ImageWrapper>
 
         <JobSectionInner>
           <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
@@ -363,7 +376,15 @@ export const pageQuery = graphql`
         salary
         description
         subtitle
-        hours
+        working_time
+        technology
+        button
+        image_alt_job
+        imagejob {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }
