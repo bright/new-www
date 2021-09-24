@@ -19,7 +19,7 @@ order: 1
 description: We are looking for a Senior Frontend Developer who would like to
   work with our experienced and ambitious development team.
 ---
-![](/images/frontendteam_bright-inventions.png)
+
 
 ![]()
 
