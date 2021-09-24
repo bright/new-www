@@ -19,7 +19,7 @@ button: join our QA team
 published: true
 order: 3
 ---
-![QA Specialist](/images/brightteam_passion.png)
+
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
