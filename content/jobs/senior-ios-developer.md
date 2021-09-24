@@ -22,7 +22,7 @@ description: We are looking for an experienced Senior iOS Developer who
   understands Swift & iOS SDK and who would like to develop innovative iOS ePOS
   application.
 ---
-![](/images/iosteam-bright-inventions.png)
+
 
 
 
