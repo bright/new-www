@@ -21,7 +21,7 @@ description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
   projects.
 ---
-![](/images/frontendteam_bright-inventions.png)
+
 
 We are a team of talented senior developers who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
 
