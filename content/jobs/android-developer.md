@@ -24,7 +24,7 @@ description: We are a software development and consultancy studio based in
   Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses
   worldwide.
 ---
-![Android Team](/images/android-team.png)
+
 
 ## who we are
 
