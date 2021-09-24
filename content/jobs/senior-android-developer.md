@@ -23,7 +23,7 @@ order: 4
 description: We are looking for a Senior Android Developer who would like to
   work with our experienced and ambitious development team.
 ---
-![](/images/android-team.png)
+
 
 ## who we are
 
