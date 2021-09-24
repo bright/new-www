@@ -9,7 +9,7 @@ salary_max: 6650
 published: false
 order: 3
 ---
-![](/images/brightteam_passion.png)
+
 
 At Bright Inventions you'll be part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that matters in today’s world. 
 
