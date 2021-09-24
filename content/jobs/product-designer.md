@@ -14,7 +14,6 @@ button: join our Bright team
 published: true
 order: 10
 ---
-![](/images/multidisciplinary-team-bright-inventions.png)
 
 Do you enjoy solving complex business problems in a fast-paced and collaborative environment? Do you love creating hight-quality UX experience in apps from mobile, web and Blockchain space? [At Bright Inventions you'll be part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that matters in today’s world. ](https://brightinventions.pl/about-us/team/)
 
