@@ -1,12 +1,18 @@
 ---
-author: izabela tags:
-
-- business
-- development
-- inspiration date: 2021-09-23T07:15:31.638Z title: 5 Apps that Build Your Green Habits layout: post image:
-  /images/blogpost_eko_apps.png hidden: false comments: true published: true
-
+author: izabela
+tags:
+  - business
+  - development
+  - inspiration
+date: 2021-09-23T07:15:31.638Z
+title: 5 Apps that Build Your Green Habits
+layout: post
+image: /images/blogpost_eko_apps.png
+hidden: false
+comments: true
+published: true
 ---
+
 **The climate change outcomes make many of us wonder what we can do to lead a more sustainable life. As always
 technology provides us with various possibilities. Check out 5 apps that in different ways can help to make eco-friendly
 decisions.**
