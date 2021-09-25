@@ -265,13 +265,15 @@ const Salary: React.FC<{ salary: string }> = ({ salary }) => {
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
-}) {
+}: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
-  console.log(markdownRemark)
-  const technology = page.technology.map(tech => <li key={tech}>{tech}</li>)
-  console.log(technology)
-  const image = getImage(page.imagejob)
+
+  const technologies = page.technology
+
+  const listTechnologies = technologies?.map(technology => <li key={technology}>{technology}</li>)
+
+  const image = getImage(page.imagejob)!
   return (
     <Page>
       <HelmetTitleDescription title={page.title} description={page.description} />
@@ -286,22 +288,21 @@ export default function Template({
           <span>Gdańsk</span>
         </HoursWraper>
         <TechnologyWrapper>
-          <ul>{technology}</ul>
+          <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
         </TechnologyWrapper>
-        <Link to='#jobform'>
+
+        <a href='#jobform'>
           <JobBlackButton type='submit'>{page.button}</JobBlackButton>
-        </Link>
+        </a>
         <ImageWrapper>
           <GatsbyImage image={image} alt={page.image_alt_job} className='about-img' quality='100' />
         </ImageWrapper>
-
         <JobSectionInner>
           <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
         </JobSectionInner>
         <RecruitingProcessWrappers>
           <RecruitingProcess />
         </RecruitingProcessWrappers>
-
         <SectionInner id='jobform'>
           <JobFormComponent
             style={{ marginTop: '0', marginBottom: '5rem' }}
