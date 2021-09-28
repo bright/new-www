@@ -2,15 +2,18 @@
 layout: job
 title: "DevOps Engineer "
 subtitle: ONGOING
+imagejob: /images/multidisciplinary-team-bright-inventions.png
+image-alt-job: Bright Inventions team
 hours: Full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
 salary_min: 12000
 salary_max: 15000
-technology: 
-- AWS
-- Kubernetes
-- Continuos Delivery
-- Java/Kotlin
+working time: full time
+technology:
+  - AWS
+  - Kubernetes
+  - Continuos Delivery
+  - Java/Kotlin
 button: join our Bright team
 published: true
 order: 7
