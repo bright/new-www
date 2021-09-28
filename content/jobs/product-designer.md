@@ -2,6 +2,8 @@
 layout: job
 title: "Product Designer "
 subtitle: OPENING SOON 
+imagejob: /images/multidisciplinary-team-bright-inventions.png
+image-alt-job: Bright Inventions team
 hours: full-time
 salary: 8000 - 12 000 PLN + VAT (B2B) or 6700 - 10 000 PLN gross (UoP)
 salary_min: 8000
