@@ -27,6 +27,7 @@ description: We are looking for an experienced passionate iOS Developer to
   clients.
 ---
 
+![]()
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and build software that really matters in today’s world. 
 
