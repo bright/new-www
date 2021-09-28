@@ -2,6 +2,8 @@
 layout: job
 title: Recruitment Specialist
 subtitle: OPENING SOON
+imagejob: /images/multidisciplinary-team-bright-inventions.png
+image-alt-job: Bright Inventions team
 hours: full-time
 salary: 6100 - 10 250 PLN + VAT (B2B) or 5000 - 8500 PLN gross (UoP)
 salary_min: 4998
