@@ -17,7 +17,7 @@ order: 7
 description: We are looking for a DevOps Engineer who would like to work with
   our experienced and ambitious development team.
 ---
-
+## who we are 
 
 We are a[ team of talented developers, designers, managers and marketers  from Gdańsk who value and apply the policy of trust and continuous feedbac](https://brightinventions.pl/about-us/team/)k. We focus on cutting-edge technologies, innovations, and try to find simple structure in complex things.
 
