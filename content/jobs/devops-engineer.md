@@ -22,7 +22,7 @@ description: We are looking for a DevOps Engineer who would like to work with
 ---
 ## who we are
 
-We are a t[eam of talented developers, designers, managers and marketers from Gdańsk who value and apply the policy of trust and continuous feedback](/about-us/team/). We focus on cutting-edge technologies, innovations, and try to find simple structure in complex things.
+We are a [team of talented developers, designers, managers and marketers from Gdańsk who value and apply the policy of trust and continuous feedback](/about-us/team/). We focus on cutting-edge technologies, innovations, and try to find simple structure in complex things.
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
