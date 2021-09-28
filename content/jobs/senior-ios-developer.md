@@ -23,8 +23,7 @@ description: We are looking for an experienced Senior iOS Developer who
   application.
 ---
 
-
-
+![]()
 
 We are a team of talented senior developers from Gdańsk who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
 
