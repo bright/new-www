@@ -16,6 +16,7 @@ published: true
 order: 5
 ---
 
+![]()
 
 We are a place where innovative individuals and companies can turn to develop ideas without tedious bureaucracy and formalities. Through this approach, we can focus entirely on creating exceptional software for our clients.
 
