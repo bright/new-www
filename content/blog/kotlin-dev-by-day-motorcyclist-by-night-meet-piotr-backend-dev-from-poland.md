@@ -51,7 +51,7 @@ Apart from that, **a great advantage is checked exceptions**. In Kotlin we don�
 
 ## What’s ahead of you in software development?
 
-I still learn and will be learning. I try to do it systematically. Of course, it doesn’t always go as planned. Sometimes I need to have some extra rest after a day at work or simply go to ride on my motorcycle. Yet I’ve bought courses that I wanna go through. I have also made a list of things I want to learn. The problem is that this list is still growing. 😉  Right now I am doing an architectural course, then I plan to do a course about testing and after that about the legacy projects. This is the plan for a few next months. 
+**I still learn and will be learning.** I try to do it systematically. Of course, it doesn’t always go as planned. Sometimes I need to have some extra rest after a day at work or simply go to ride on my motorcycle. Yet I’ve bought courses that I wanna go through. I have also made a list of things I want to learn. The problem is that this list is still growing. 😉  **Right now I am doing an architectural course, then I plan to do a course about testing and after that about the legacy projects. This is the plan for a few next months.** 
 
 ![Backend Developer at Bright Inventions](/images/brightstorypiotr4.png)
 
