@@ -33,6 +33,8 @@ My professional career started by joining extra Java classes at my college. Duri
 
 The job market in Koszalin wasn’t big enough so I was open to relocation. At that time I was choosing between two cities in Poland: Poznań and Gdańsk. Poznań was actually my number one option at that time because I had a family living nearby so I was visiting Poznań quite regularly. Gdańsk was a second option. I was considering this city because my close friend lived there. So I started to look for a job in these cities. I had a few interviews when I bumped into Bright Inventions. When I was applying, about 40 people worked at Bright Inventions (now over 60). And I was leaving a corporate company that had more than 1000 employees. Honestly, I was scared that this new company would be too small for me. I wasn’t sure if this was the right fit but I decided to join Bright Inventions. Now, after almost a year of working here, I see that being a part of a small company has a very important advantage. You have a greater influence on things happening at your project and at the company itself.
 
+![Backend Developer at Bright Inventions](/images/brightstory_piotr2.png)
+
 ## What do you do at Bright Inventions?
 
 I came as a Java developer knowing that I had to learn Kotlin because this is the language we are using at Bright Inventions. I quickly understood why Kolin is better. Kotlin has lots of benefits that aren’t in Java. It makes coding simpler. Now after a year of writing in Kotlin I wouldn’t like to come back to Java.
