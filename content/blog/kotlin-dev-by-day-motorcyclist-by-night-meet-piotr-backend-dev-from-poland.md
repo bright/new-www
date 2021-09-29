@@ -19,7 +19,7 @@ published: true
 
 ## Why did you decide to become a programmer?
 
-Because I was spending lots of time on my computer. ;) When I was younger I wanted to study law, but when I found out that I had to pass Matura exams on Polish, History and Civics – I simply knew that was not for me.
+Because I was spending lots of time on my computer. 😉  When I was younger I wanted to study law, but when I found out that I had to pass Matura exams on Polish, History and Civics – I simply knew that was not for me.
 
 ## Why backend?
 
