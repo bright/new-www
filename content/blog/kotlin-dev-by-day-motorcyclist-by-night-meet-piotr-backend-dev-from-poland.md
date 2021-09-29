@@ -41,6 +41,8 @@ I came as a Java developer knowing that I had to learn Kotlin because this is th
 
 I work on a project dedicated to the hospitality industry. I am a part of a team that is delivering Android applications used by thousands of restaurants in Israel and a couple of European countries. Working with an international client gives the best opportunity to speak, write and learn in English. Before joining Bright Inventions my English skills were fine but now there are definitely more than that. Everyday communication in English obviously makes a difference.
 
+![Backend Developer at Bright](/images/brightstorypiotr3.png)
+
 ## So, you love Kotlin now. If I asked you to mention top 3 benefits of Kotlin, what would they be?
 
 **One of the benefits is** **fewer NullPointerExceptions**. In Kotlin we have to declare if a variable can be nullable or not. In Java, we don’t have the possibility to do that. So in Kotlin, we have much fewer null checks and I would say fewer NullPointerExceptions.
