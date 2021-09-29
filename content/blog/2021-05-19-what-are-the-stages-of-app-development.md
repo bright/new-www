@@ -1,15 +1,17 @@
 ---
-layout: post
-title: What are the stages of app development?
-date: 2021-05-19T10:00:56.280Z
-image: /images/blogpost_stagesofappdevelopment.png
 author: izabela
+secondAuthor: mateusz
+thirdAuthor: alisa
 tags:
   - app
   - development
   - wireframes
   - mockups
   - prototypes
+date: 2021-05-19T10:00:56.280Z
+title: What are the stages of app development?
+layout: post
+image: /images/blogpost_stagesofappdevelopment.png
 hidden: false
 comments: true
 published: true
