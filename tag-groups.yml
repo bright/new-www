@@ -1,23 +1,74 @@
 groups:
   - name: development
     tags:
-      - software development
+      - Backend:
+        - AWS
+        - Nodejs
+        - Nestjs
+      - Frontend:
+        - Typescript
+      - iOS
+      - Android:
+        - Kotlin
+   
+      - QA:
+       - Testing
+      - Software development
       - Kotlin
       - Typescript
       - Web
-  - name: business
-    groups:
-      - Development
+      - Mysql
+      - Database
+      - Testing
+      - SQL
+      - xss
+      - js
+      - Kotlin
+      - Java
+      - App
       - Mobile
-  - name: blockchain
+      - AWS
+      - Javascript
+      - React native
+      - image classification
+      - Nodejs
+      - Nestjs
+      - Mobile development
+      - Programming
+      - IoT
+      - Git
+      - IT
+      - Code review
+      - Code-review
+      - Web
+      - Redshift
+  - name: Business
+    tags:
+      - Startup
+      - MVP
+      - B2B
+      - Startups
+  - name: Blockchain
+    tags:
+      - Substrate
+  - name: Design
+    tags:
+      - Mockups
+  - name: Inspiration
+    tags:
+      - Redshift
+  - name: Project management
     tags:
       - Communication
-  - name: design
-    tags:
-      - Communication
-  - name: inspiration
-    tags:
-      - Communication
-  - name: project management
-    tags:
-      - Communication
+      - Team building
+      - HR
+      - Recruitment
+      - Soft skills
+      - Agile
+      - Productivity
+      - Teamwork
+      - Motivation
+      - Cooperation
+      
+      
+      
