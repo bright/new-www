@@ -1,18 +1,23 @@
 groups:
-  - name: Development
+  - name: development
     tags:
       - software development
       - Kotlin
       - Typescript
-  - name: Mobile
-    tags:
-      - iOS
-      - Android
       - Web
-  - name: Software
+  - name: business
     groups:
       - Development
       - Mobile
-  - name: Business
+  - name: blockchain
+    tags:
+      - Communication
+  - name: design
+    tags:
+      - Communication
+  - name: inspiration
+    tags:
+      - Communication
+  - name: project management
     tags:
       - Communication
