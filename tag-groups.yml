@@ -5,8 +5,11 @@ groups:
         - Backend
         - AWS
         - Nodejs
+        - Node.js
         - Nestjs
         - Database
+        - SQL
+        - Mysql
       - Frontend:
         - Frontend
         - Typescript
