@@ -2,17 +2,23 @@ groups:
   - name: development
     tags:
       - Backend:
+        - Backend
         - AWS
         - Nodejs
         - Nestjs
+        - Database
       - Frontend:
+        - Frontend
         - Typescript
-      - iOS
+        - CSS
+        - HTML
+      - iOS:
+        - iOS
       - Android:
         - Kotlin
-   
       - QA:
        - Testing
+      - Development
       - Software development
       - Kotlin
       - Typescript
@@ -30,8 +36,9 @@ groups:
       - AWS
       - Javascript
       - React native
-      - image classification
+      - Image classification
       - Nodejs
+      - Node.js
       - Nestjs
       - Mobile development
       - Programming
@@ -42,23 +49,44 @@ groups:
       - Code-review
       - Web
       - Redshift
+      - Algorithm
+      - Spring
+      - Technology
+      - CSS
+      - HTML
+      - HTTP
+      - Electronics
+      - Server
+      - CAD
+      - Performance
+      - API
+      - Architecture
+      - iOS
+      - Android
   - name: Business
     tags:
+      - Business
       - Startup
       - MVP
       - B2B
       - Startups
   - name: Blockchain
     tags:
+      - Blockchain
       - Substrate
+      - Cryptocurrency
   - name: Design
     tags:
+      - Design
       - Mockups
   - name: Inspiration
-    tags:
+    tags: 
+      - Career
       - Redshift
+      - Self-development
   - name: Project management
     tags:
+      - Project management
       - Communication
       - Team building
       - HR
@@ -69,6 +97,10 @@ groups:
       - Teamwork
       - Motivation
       - Cooperation
+      - Teamspirit
+      - Time-management
+      - Team
+     
       
       
       
