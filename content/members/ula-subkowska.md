@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: ula-su
-ex: false
+ex: true
 slug: ula-su
 name: Ula Subkowska
 short_name: Ula
