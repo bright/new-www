@@ -10,7 +10,7 @@ const useAuthorsAvatars64Query: () => AuthorsFrontmatterQueryResult = () =>
             author_id
             avatar {
               childImageSharp {
-                gatsbyImageData(width: 64)
+                gatsbyImageData(width: 87)
               }
             }
             name

@@ -19,6 +19,23 @@ import { siteMetadata } from '../../gatsby-config'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import { PostTags } from '../PostTags'
+import variables from '../styles/variables'
+
+const AuthorsSection = styled.article`
+  padding: 3rem 1.5rem;
+  & .author-container {
+    padding-top: 2rem;
+  }
+  & .author-container > div:not(:last-of-type) {
+    margin-right: 1.3125rem;
+    @media ${variables.device.mobile} {
+      margin-right: 1.125rem;
+    }
+  }
+  @media ${variables.device.mobile} {
+    padding: 0 1.125rem;
+  }
+`
 
 const Title = styled.h1`
   font-size: 3rem;
@@ -48,6 +65,8 @@ export type PostTemplateProps = {
         title: string
         description: string
         author: string
+        secondAuthor: string
+        thirdAuthor: string
         tags: string[]
         date: string
         excerpt: string
@@ -62,7 +81,12 @@ export type PostTemplateProps = {
 
 type TimeInMinutes = number
 
-type PostAuthorsProps = { author: string; authorsView?: (props: AuthorDataProps) => JSX.Element }
+type PostAuthorsProps = {
+  secondAuthor?: string
+  author: string
+  thirdAuthor?: string
+  authorsView?: (props: AuthorDataProps) => JSX.Element
+}
 type PostContentProps = { contentView: () => JSX.Element } | { html: string; contentView: undefined }
 
 type PostArticleContentProps = PostAuthorsProps &
@@ -80,10 +104,21 @@ type PostArticleContentProps = PostAuthorsProps &
 
 export const PostArticleContent = (props: PostArticleContentProps) => {
   const authors = props.authorsView?.({ authorId: props.author }) ?? <AuthorData authorId={props.author} />
+  const secondAuthorView = props.secondAuthor
+    ? props.authorsView?.({ authorId: props.secondAuthor }) ?? <AuthorData authorId={props.secondAuthor} />
+    : null
+  const thirdAuthorView = props.thirdAuthor
+    ? props.authorsView?.({ authorId: props.thirdAuthor }) ?? <AuthorData authorId={props.thirdAuthor} />
+    : null
   return (
-    <article className='section'>
+    <AuthorsSection>
       <div className='columns is-vcentered'>
-        <div className='column is-half'>{authors}</div>
+        <div className='is-flex author-container'>
+          <div>{authors}</div>
+          <div>{secondAuthorView && secondAuthorView}</div>
+          <div>{thirdAuthorView && thirdAuthorView}</div>
+        </div>
+
         <div className='column has-text-right'>
           <div className='content has-text-grey-light'>
             <p className='has-text-primary'>{props.timeToRead} min</p>
@@ -119,7 +154,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
           </OutboundLink>
         </section>
       )}
-    </article>
+    </AuthorsSection>
   )
 }
 
@@ -176,6 +211,8 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           html={markdownRemark.html}
           authorsView={props.authorsView}
           author={page.author}
+          secondAuthor={page.secondAuthor}
+          thirdAuthor={page.thirdAuthor}
           canonicalUrl={page.canonicalUrl}
           fileAbsolutePath={markdownRemark.fileAbsolutePath}
           tags={page.tags ?? []}
@@ -200,6 +237,8 @@ export const pageQuery = graphql`
         title
         description
         author
+        secondAuthor
+        thirdAuthor
         tags
         date
         canonicalUrl
