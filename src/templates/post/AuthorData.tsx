@@ -17,14 +17,18 @@ const AuthorArticle = styled.article`
 
   & figure {
     & .is-rounded {
-      border-radius: 180px;
-      border: 1px solid #d3d3d3;
       height: 87px;
       width: 87px;
+      overflow: hidden;
       transition: all 0.3s;
-      & :hover {
-        border: 1px solid #f7931e;
+      & .image {
+        border-radius: 180px;
+        border: 1px solid #d3d3d3;
+        & :hover {
+          border: 1px solid #f7931e;
+        }
       }
+
       @media ${variables.device.mobile} {
         height: 51px;
         width: 51px;
@@ -94,7 +98,12 @@ export function AuthorsView({
         {avatar && (
           <figure className=''>
             <p className='image is-87x87'>
-              <GatsbyImage image={getImage(avatar)!} alt={name + ' bio photo'} className='is-rounded' />
+              <GatsbyImage
+                image={getImage(avatar)!}
+                alt={name + ' bio photo'}
+                className='is-rounded'
+                imgClassName='image'
+              />
             </p>
           </figure>
         )}
