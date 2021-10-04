@@ -13,7 +13,7 @@ tags:
   - product design
   - IoT
   - custom software development
-  - ehealth
+  - eHealth
 slug: vCare
 published: true
 ---
