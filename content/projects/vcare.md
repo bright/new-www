@@ -8,10 +8,12 @@ description: >
   available for both iOS and Android, assists in proper medication
   administration for facility residents.
 tags:
-  - iOS
-  - Android
-  - mobile
+  - mobile app
+  - web app
+  - product design
+  - IoT
   - custom software development
+  - ehealth
 slug: vCare
 published: true
 ---
