@@ -5,9 +5,9 @@ image: /images/card_reader_mockup.png
 description: An app that allows businesses to charge credit cards without a
   payment terminal.
 tags:
-  - iOS
-  - Android
-  - mobile
+  - mobile app
+  - custom software development
+  - fintech
 slug: credit-card-reader
 published: true
 ---
