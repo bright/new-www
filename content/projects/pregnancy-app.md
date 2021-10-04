@@ -4,9 +4,9 @@ title: Pregnancy App
 image: /images/pregnancy_app1.png
 description: Your way to a healthy & relaxed pregnancy and safe birth experience.
 tags:
-  - iOS
-  - Android
-  - mobile
+  - mobile app
+  - custom software development
+  - eHealth
 order: 5
 slug: pregnancy-app
 published: true
