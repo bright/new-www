@@ -8,9 +8,9 @@ description: >
   originated from a very popular loyalty app – Everytap to become a whole new
   service.
 tags:
-  - iOS
-  - Android
-  - mobile
+  - mobile app
+  - custom software development
+  - retail & restaurant
 order: 2
 slug: everytap
 published: true
