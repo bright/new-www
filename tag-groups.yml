@@ -1,26 +1,32 @@
 groups:
   - name: development
-    tags:
-      - Backend:
-        - Backend
-        - AWS
-        - Nodejs
-        - Node.js
-        - Nestjs
-        - Database
-        - SQL
-        - Mysql
-      - Frontend:
-        - Frontend
-        - Typescript
-        - CSS
-        - HTML
-      - iOS:
-        - iOS
-      - Android:
+     groups:
+      - name: Backend
+        tags:
+          - Backend
+          - AWS
+          - Nodejs
+          - Node.js
+          - Nestjs
+          - Database
+          - SQL
+          - Mysql
+      - name: Frontend
+        tags:
+          - Frontend
+          - Typescript
+          - CSS
+          - HTML
+      - name: iOS
+        tags:
+          - iOS
+      - name: Android
+        tags:
         - Kotlin
-      - QA:
-       - Testing
+      - name: QA
+        tags:
+          - Testing
+    tags:
       - Development
       - Software development
       - Kotlin
@@ -83,7 +89,7 @@ groups:
       - Design
       - Mockups
   - name: Inspiration
-    tags: 
+    tags:
       - Career
       - Redshift
       - Self-development
