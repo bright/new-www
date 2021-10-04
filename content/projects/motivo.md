@@ -7,8 +7,7 @@ description: Turbo Training and Indoor Cycling Workouts. An app that is your own
   indoor cycling. It was launched in the UK. The idea for the app came from
   cycling professionals.
 tags:
-  - mobile
-  - iOS
+  - mobile app
   - custom software development
 order: 4
 slug: motivo
