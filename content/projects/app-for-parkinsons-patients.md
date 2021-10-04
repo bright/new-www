@@ -7,10 +7,10 @@ description: An app that serves as a personal digital diary for patients
   symptoms, track the intake of prescribed drugs, and get a general overview of
   their health.
 tags:
-  - mobile
-  - iOS
-  - Android
-  - backend
+  - mobile app
+  - MVP
+  - custom software development
+  - eHealth
 order: 1
 slug: solution-for-parkinsons-patients
 published: true
