@@ -7,10 +7,7 @@ description: An app that supports patients going through physiotherapy, speech
   therapists an easy way to customize plans for each patient and book in the
   calendar exercise sessions.
 tags:
-  - Android
-  - iOS
-  - mobile
-  - backend
+  - mobile app
   - custom software development
 order: 3
 slug: mobile-therapy-application
