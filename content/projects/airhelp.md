@@ -9,9 +9,9 @@ description: AirHelp mobile application lets you check if your flight is
   application that was just leading to the web page right after completing a
   couple of steps to a native technology.
 tags:
-  - mobile
-  - iOS
-  - backend
+  - mobile app
+  - MVP
+  - custom software development
 slug: airhelp
 published: true
 ---
