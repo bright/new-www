@@ -7,11 +7,11 @@ description: "A web application that will support members of Substrate
   grants. This is Bright Inventions’s original solution which is funded by Web3
   Foundation (W3F) grant."
 tags:
+  - web app
+  - product design
+  - MVP
   - blockchain
-  - app
-  - frontend
-  - backend
-  - custom software development
+  - fintech
 order: 3
 slug: bright-treasury
 published: true
