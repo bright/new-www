@@ -6,9 +6,9 @@ description: A solution that allows FMCG companies and retail chains to verify
   if products are properly displayed on shelves by asking consumers to perform
   paid quality checks while in-store.
 tags:
-  - iOS
-  - Android
-  - mobile
+  - mobile app
+  - custom software development
+  - retail & restaurant
 slug: pospulse-shopscout
 published: true
 ---
