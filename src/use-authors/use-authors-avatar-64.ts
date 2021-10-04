@@ -12,7 +12,7 @@ const useAuthorsAvatars64Query: () => AuthorsFrontmatterQueryResult = () =>
               childImageSharp {
                 gatsbyImageData(
                   width: 87
-                  height: 87
+                  
                 )
               }
             }

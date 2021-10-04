@@ -24,6 +24,8 @@ const AuthorArticle = styled.article`
       & .image {
         border-radius: 180px;
         border: 1px solid #d3d3d3;
+        max-height: 87px;
+        object-position: 50% 15%;
         & :hover {
           border: 1px solid #f7931e;
         }
