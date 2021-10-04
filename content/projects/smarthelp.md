@@ -8,10 +8,13 @@ description: >
   details. It guides users during emergency situations. The app is available in
   Norway.
 tags:
-  - mobile
-  - iOS
-  - Android
-  - backend
+  - mobile app
+  - web app
+  - product design
+  - MVP
+  - IoT
+  - custom software development
+  - eHealth
 order: 6
 slug: smarthelp
 redirect_from:
