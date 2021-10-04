@@ -1,6 +1,6 @@
 groups:
   - name: development
-     groups:
+    groups:
       - name: Backend
         tags:
           - Backend
@@ -22,7 +22,7 @@ groups:
           - iOS
       - name: Android
         tags:
-        - Kotlin
+          - Kotlin
       - name: QA
         tags:
           - Testing
