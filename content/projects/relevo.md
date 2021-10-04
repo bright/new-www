@@ -9,7 +9,6 @@ description: Around 1 million plastic food containers are used in Germany per
 tags:
   - mobile app
   - web app
-  - backend
   - MVP
   - custom software development
   - retail & restaurant
