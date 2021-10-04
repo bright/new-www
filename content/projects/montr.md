@@ -6,9 +6,12 @@ description: An app platform that enables digitizing mobile reporting. It is
   flexible, easy to use and integrates with other platforms. It helps you to
   build with no code the digitized surveys for end-users.
 tags:
-  - app
-  - backend
-  - frontend
+  - web app
+  - product design
+  - MVP
+  - IoT
+  - custom software development
+  - fintech
 order: 4
 slug: app-digitized-surveys
 published: true
