@@ -1,7 +1,10 @@
 groups:
+  # /blog -> All tags, event not listed
   - name: development
+    # /blog/topics/development
     groups:
       - name: Backend
+        # /blog/topics/development/Backend
         tags:
           - Backend
           - AWS
@@ -12,20 +15,26 @@ groups:
           - SQL
           - Mysql
       - name: Frontend
+        # /blog/topics/development/Frontend
         tags:
           - Frontend
           - Typescript
           - CSS
           - HTML
       - name: iOS
+        # /blog/topics/development/iOS
         tags:
           - iOS
       - name: Android
+        # /blog/topics/development/Android
         tags:
           - Kotlin
       - name: QA
+        # /blog/topics/development/QA
         tags:
           - Testing
+        # when QA and Android selected
+        # /blog/topics/development/QA-Android
     tags:
       - Development
       - Software development
