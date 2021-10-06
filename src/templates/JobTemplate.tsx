@@ -310,7 +310,7 @@ export default function Template({
             description={
               <>
                 You can either use our form below or send your application directly via email{' '}
-                <a href={'mailto:ula@bright.dev'}>ula@bright.dev</a>, Feel free to ask any questions on the position and
+                <a href={'mailto:ula@bright.dev'}>ula@bright.dev</a>. Feel free to ask any questions on the position and
                 the project.
               </>
             }
