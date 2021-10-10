@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby'
 import { AuthorsFrontmatterQueryResult, toAuthors } from './authors-frontmatter-query-result'
 
-const useAuthorsAvatars64Query: () => AuthorsFrontmatterQueryResult = () =>
+const useAuthorsAvatars120Query: () => AuthorsFrontmatterQueryResult = () =>
   useStaticQuery(graphql`
     {
       allMarkdownRemark(filter: { frontmatter: { author_id: { ne: null } } }) {
@@ -11,7 +11,7 @@ const useAuthorsAvatars64Query: () => AuthorsFrontmatterQueryResult = () =>
             avatar {
               childImageSharp {
                 gatsbyImageData(
-                  width: 87
+                  width: 120
                   
                 )
               }
@@ -28,4 +28,4 @@ const useAuthorsAvatars64Query: () => AuthorsFrontmatterQueryResult = () =>
     }
   `)
 
-export const useAuthorsAvatars64 = () => toAuthors(useAuthorsAvatars64Query())
+export const useAuthorsAvatars120 = () => toAuthors(useAuthorsAvatars120Query())

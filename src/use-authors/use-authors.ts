@@ -1,10 +1,10 @@
 import { Author } from './authors-frontmatter-query-result'
-import { useAuthorsAvatars64 } from './use-authors-avatar-64'
+import { useAuthorsAvatars120 } from './use-authors-avatar-120'
 import { useAuthorsAvatarsDefault } from './use-authors-avatar-default'
 
 type UseAuthorsParams = {
   authorId?: string
-  avatarSize?: { width: 64 }
+  avatarSize?: { width: 120 }
 }
 
 function toAuthorsFilter(props: UseAuthorsParams): (author: Author) => boolean {
@@ -18,8 +18,8 @@ export const useAuthors = (props: UseAuthorsParams = {}) => {
   let data: Author[]
 
   switch (props.avatarSize?.width) {
-    case 64:
-      data = useAuthorsAvatars64()
+    case 120:
+      data = useAuthorsAvatars120()
       break
     default:
       data = useAuthorsAvatarsDefault()

@@ -21,19 +21,21 @@ const AuthorArticle = styled.article`
       width: 87px;
       overflow: hidden;
       transition: all 0.3s;
+      @media ${variables.device.mobile} {
+        height: 51px;
+        width: 51px;
+      }
       & .image {
         border-radius: 180px;
         border: 1px solid #d3d3d3;
         max-height: 87px;
         object-position: 50% 15%;
+        @media ${variables.device.mobile} {
+          max-height: 51px;
+        }
         & :hover {
           border: 1px solid #f7931e;
         }
-      }
-
-      @media ${variables.device.mobile} {
-        height: 51px;
-        width: 51px;
       }
     }
   }
@@ -64,9 +66,19 @@ const AuthorArticle = styled.article`
     }
   }
 `
+const SingleAuthorArticle = styled.article`
+  & .single-image {
+    width: 64px;
+    height: 96px;
+  }
+  & .media-content {
+    align-self: flex-end;
+  }
+`
 
 export interface AuthorDataProps {
   authorId?: string
+  isSingleAuthor?: boolean
 }
 
 export function AuthorsView({
@@ -74,47 +86,73 @@ export function AuthorsView({
   slug,
   name,
   avatar,
+  isSingleAuthor,
   bio,
 }: {
   authorId: string | undefined
   slug: string | undefined
   name: string
+  isSingleAuthor: boolean | undefined
   avatar: IGatsbyImageData
   bio: string
 }) {
   const LinkComponent = authorId
     ? (props: { children?: ReactNode }) => <Link to={routeLinks.aboutUs({ authorId, slug })}>{props.children}</Link>
     : (props: { children?: ReactNode }) => <span>{props.children}</span>
-
   return (
     <LinkComponent>
       <HelmetMetaAuthor author={name} />
-      <AuthorArticle>
-        <div className='media-content'>
-          <div className='content'>
-            <h4 className='name'>{name}</h4>
-            <p className='subtitle is-6 bio'>{bio}</p>
+      {isSingleAuthor ? (
+        <SingleAuthorArticle className='media'>
+          {avatar && (
+            <figure className='media-left'>
+              <p className='single-image'>
+                <GatsbyImage image={getImage(avatar)!} alt={name + ' bio photo'} className='is-rounded' />
+              </p>
+            </figure>
+          )}
+          <div className='media-content'>
+            <div className='content'>
+              <h4 className='title has-text-dark'>{name}</h4>
+              <p className='subtitle is-6'>{bio}</p>
+            </div>
           </div>
-        </div>
+        </SingleAuthorArticle>
+      ) : (
+        <AuthorArticle>
+          <div className='media-content'>
+            <div className='content'>
+              <h4 className='name'>{name}</h4>
+              <p className='subtitle is-6 bio'>{bio}</p>
+            </div>
+          </div>
 
-        {avatar && (
-          <figure className=''>
-            <p className='image is-87x87'>
-              <GatsbyImage
-                image={getImage(avatar)!}
-                alt={name + ' bio photo'}
-                className='is-rounded'
-                imgClassName='image'
-              />
-            </p>
-          </figure>
-        )}
-      </AuthorArticle>
+          {avatar && (
+            <figure className=''>
+              <p className='image is-87x87'>
+                <GatsbyImage
+                  image={getImage(avatar)!}
+                  alt={name + ' bio photo'}
+                  className='is-rounded'
+                  imgClassName='image'
+                />
+              </p>
+            </figure>
+          )}
+        </AuthorArticle>
+      )}
     </LinkComponent>
   )
 }
 
-export const AuthorData: React.FC<AuthorDataProps> = ({ authorId }) => {
-  const [{ avatar, name, bio, slug }] = authorId ? useAuthors({ authorId, avatarSize: { width: 64 } }) : []
-  return AuthorsView({ authorId: authorId, slug: slug, name: name, avatar: avatar, bio: bio })
+export const AuthorData: React.FC<AuthorDataProps> = ({ authorId, isSingleAuthor }) => {
+  const [{ avatar, name, bio, slug }] = authorId ? useAuthors({ authorId, avatarSize: { width: 120 } }) : []
+  return AuthorsView({
+    authorId: authorId,
+    slug: slug,
+    name: name,
+    avatar: avatar,
+    bio: bio,
+    isSingleAuthor: isSingleAuthor,
+  })
 }

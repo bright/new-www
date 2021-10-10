@@ -103,7 +103,10 @@ type PostArticleContentProps = PostAuthorsProps &
   }
 
 export const PostArticleContent = (props: PostArticleContentProps) => {
-  const authors = props.authorsView?.({ authorId: props.author }) ?? <AuthorData authorId={props.author} />
+  console.log(!props.secondAuthor && !props.thirdAuthor)
+  const authors = props.authorsView?.({ authorId: props.author }) ?? (
+    <AuthorData authorId={props.author} isSingleAuthor={!props.secondAuthor && !props.thirdAuthor} />
+  )
   const secondAuthorView = props.secondAuthor
     ? props.authorsView?.({ authorId: props.secondAuthor }) ?? <AuthorData authorId={props.secondAuthor} />
     : null
