@@ -2,6 +2,9 @@
 author: izabela
 secondAuthor: izabela
 thirdAuthor: izabela
+tags:
+  - inspiration
+  - business
 date: 2021-10-11T12:05:51.967Z
 title: Hybrid Work – How to Do It Right?
 layout: post
