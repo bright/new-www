@@ -19,7 +19,7 @@ published: true
 
 ## Hot desks are always ready
 
-We organised a couple of hot desks for team members that do not visit the office regularly. Desks have a plate that indicates it is in fact a bright hot desk. :) So everyone knows immediately where to sit. Of course, when someone goes to an office at least a couple of days in the week they have their own desks which are not occupied by others. 
+We organised a couple of hot desks for team members that do not visit the office regularly. Desks have a plate that indicates it is in fact a bright hot desk. 🙂  So everyone knows immediately where to sit. Of course, when someone goes to an office at least a couple of days in the week they have their own desks which are not occupied by others. 
 
 Our hot desks are organised in a way that you are able to quickly sit down, turn on the laptop and start your day. Simply because all desks have a power strip, monitor and HDMI cable so one can quickly connect a laptop and do not worry about anything. If somebody forgets a laptop charger, one can easily use another stored in the office exclusively for that situation.
 
@@ -37,7 +37,7 @@ Friday is a huge day for bright people. Not only because of the upcoming weekend
 
 ## Sharing the same passions after work
 
-Working together is one thing but when you have a chance to share the same passions with your colleagues – that brings your work experience to the next level. At Bright Inventions, we cooperate with a professional triathlete – Bartosz Banach who conducts workouts for our team. People are free to choose if they want to join running, swimming or MTB workouts that Bartosz organises for us. Our workouts are a great opportunity to stay healthy & active plus obviously to meet each other. What is more, Bartosz helps to reach our private training goals. Recently a few members of our team ran in the marathons! But do not worry, we also have some after-work activities that do not require physical work. ;) For example, bright board game lovers meet regularly at the office to roll some dice.
+Working together is one thing but when you have a chance to share the same passions with your colleagues – that brings your work experience to the next level. At Bright Inventions, we cooperate with a professional triathlete – Bartosz Banach who conducts workouts for our team. People are free to choose if they want to join running, swimming or MTB workouts that Bartosz organises for us. Our workouts are a great opportunity to stay healthy & active plus obviously to meet each other. What is more, Bartosz helps to reach our private training goals. Recently a few members of our team ran in the marathons! But do not worry, we also have some after-work activities that do not require physical work. 😉  For example, bright board game lovers meet regularly at the office to roll some dice.
 
 ## Integration meetings
 
