@@ -7,13 +7,13 @@ groups:
         # /blog/topics/development/Backend
         tags:
           - Backend
-          - AWS
+          - aWS
           - Nodejs
           - Node.js
           - Nestjs
-          - Database
-          - SQL
-          - Mysql
+          - database
+          - sql
+          - mysql
       - name: Frontend
         # /blog/topics/development/Frontend
         tags:
@@ -29,6 +29,7 @@ groups:
         # /blog/topics/development/Android
         tags:
           - Kotlin
+          - kotlin
       - name: QA
         # /blog/topics/development/QA
         tags:
@@ -80,16 +81,19 @@ groups:
       - API
       - Architecture
       - iOS
+      - ios
       - Android
+      - android
   - name: Business
     tags:
       - Business
       - Startup
       - MVP
       - B2B
-      - Startups
+      - startups
   - name: Blockchain
     tags:
+      - blockchain
       - Blockchain
       - Substrate
       - Cryptocurrency
@@ -105,14 +109,15 @@ groups:
   - name: Project management
     tags:
       - Project management
-      - Communication
+      - communication
       - Team building
       - HR
-      - Recruitment
+      - recruitment
       - Soft skills
       - Agile
+      - agile
       - Productivity
-      - Teamwork
+      - teamwork
       - Motivation
       - Cooperation
       - Teamspirit
