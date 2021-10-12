@@ -4,6 +4,7 @@ title: Top app security practices to expect from developers
 date: 2021-06-22T08:09:07.016Z
 image: /images/security-apps.jpg
 author: izabela
+secondAuthor: rafal h
 tags:
   - security
   - mobile
