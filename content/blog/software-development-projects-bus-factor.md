@@ -4,6 +4,7 @@ title: How to protect software development projects from bus factor problem
 date: 2021-07-15T07:31:54.979Z
 image: /images/blogpost_www_izabela_bus.png
 author: izabela
+secondAuthor: mateusz
 tags:
   - startup
   - software development
