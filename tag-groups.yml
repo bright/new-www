@@ -95,6 +95,7 @@ groups:
       - ios
       - Android
       - android
+      - OpenSource
   - name: Business
     tags:
       - business
