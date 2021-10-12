@@ -10,7 +10,7 @@ layout: post
 image: /images/happy_anniversary_piotrek.png
 hidden: false
 comments: true
-published: false
+published: true
 ---
 Huh, it’s been 2 years at Bright Inventions now. It was quite long but passed quite fast (that’s what she said). 
 
