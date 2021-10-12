@@ -1,7 +1,5 @@
 ---
 author: izabela
-secondAuthor: izabela
-thirdAuthor: izabela
 tags:
   - inspiration
   - business
