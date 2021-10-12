@@ -7,6 +7,7 @@ tags:
 date: 2021-10-12T06:35:07.176Z
 title: The 3 Important Things I Learned During My 2 Years at Bright Inventions
 layout: post
+image: /images/happy-anniversary.jpg
 hidden: false
 comments: true
 published: false
