@@ -4,6 +4,7 @@ title: Pros and cons of software development pricing models
 date: 2021-06-10T07:49:01.293Z
 image: /images/blogpost_www_iza_pricingmodels.png
 author: izabela
+secondAuthor: mateusz
 tags:
   - software development
   - pricing model
@@ -69,6 +70,3 @@ What is the best pricing model for you? Let us know in the comments!
 
 Click, if you are looking for a [software development studio](/start-project).
 
-
-
-Co-author: Mateusz Klimczak (Technical Leader & Project Manager @ Bright Inventions).
