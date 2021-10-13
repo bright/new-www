@@ -2,6 +2,7 @@
 layout: post
 title: Reactive Cocoa presented on CocoaHeads Tricity
 date: 2014-12-21T00:00:00.000Z
+image: /images/cocoaheads_presentation.png
 tags:
   - iOS
   - ReactiveCocoa
