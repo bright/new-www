@@ -6,6 +6,7 @@ excerpt: >-
   controls and see how we can set it up, compared to CSS.
 title: 'iOS layouts for web developers #4 - CSS properties replacements'
 date: 2015-04-10T00:00:00.000Z
+image: /images/b-88Light-p-1080.jpeg
 tags:
   - iOS
 comments: true
