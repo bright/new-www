@@ -8,6 +8,7 @@ tags:
 comments: true
 author: mateusz
 date: '2015-03-31T22:00:00.000Z'
+image: /images/wooden-wheel.png
 published: true
 ---
 
