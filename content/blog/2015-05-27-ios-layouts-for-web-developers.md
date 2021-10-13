@@ -8,6 +8,7 @@ excerpt: >-
   was born.
 title: iOS layouts for web developers
 date: 2015-05-27T00:00:00.000Z
+image: /images/more_productivity.jpeg
 tags:
   - iOS
 comments: true
