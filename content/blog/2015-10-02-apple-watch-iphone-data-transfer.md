@@ -6,6 +6,7 @@ tags:
 comments: true
 author: eliasz
 date: '2015-10-01T22:00:00.000Z'
+image: /images/iphone-6-apple-ios-iphone-50603.jpeg
 published: true
 ---
 
