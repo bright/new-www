@@ -16,6 +16,7 @@ tags:
 comments: true
 author: mateuszklimek
 date: '2014-11-10T23:00:00.000Z'
+image: /images/software_development.jpg
 published: true
 ---
 
