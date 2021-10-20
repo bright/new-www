@@ -11,7 +11,7 @@ title: Bringing Science and Business together. Meet Kasia, a Project Manager and
   an Academic Teacher
 layout: post
 image: /images/brightstory_kasia_main.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
