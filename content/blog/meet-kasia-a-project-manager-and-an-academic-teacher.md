@@ -21,9 +21,9 @@ published: true
 
 ## What did you study?
 
-I studied Computer Studies at Gdańsk University of Technology and went right after that to PhD studies. I actually didn’t know what I wanted to do after graduating high school. I was passionate about many different fields. I was in a multidisciplinary class at my high school in Olsztyn and wrote extended Matura exams from subjects like English, Polish and Physics. So I had a few career paths in my mind. 
+I studied Computer Science at Gdańsk University of Technology and went right after that to PhD studies. I actually didn’t know what I wanted to do after graduating high school. I was passionate about many different fields. I was in a multidisciplinary class at my high school in Olsztyn and wrote extended Matura exams from subjects like English, Polish and Physics. So I had a few career paths in my mind. 
 
-During high school I made a few websites so I had a very romantic yet naive vision of what being a programmer would look like. So I applied to Computer Studies at Gdańsk University of Technology. I did it just to see if I could get in. In the meantime, I got into English Philology studies. I was about to go there but then I got the news that I got into Computer Studies as well. Eventually, I chose that faculty. **I figured that studying at the University of Technology would force me to leave my comfort zone and it just seemed to be exciting.**
+During high school I made a few websites so I had a very romantic yet naive vision of what being a programmer would look like. So I applied to Computer Science at Gdańsk University of Technology. I did it just to see if I could get in. In the meantime, I got into English Philology studies. I was about to go there but then I got the news that I got into Computer Science as well. Eventually, I chose that faculty. **I figured that studying at the University of Technology would force me to leave my comfort zone and it just seemed to be exciting.**
 
 ## How do you recall your studies?
 
