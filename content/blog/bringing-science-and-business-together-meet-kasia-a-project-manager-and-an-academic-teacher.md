@@ -93,7 +93,7 @@ Now, most of the companies declare that they follow the Agile methods but the pr
 
 Yet still, what specific tasks do they have during the day?\
 \
-Obviously, it depends on the company. Usually scrum masters should be up to date with Jira or other task boards used in the team. They have to investigate tasks which are stuck for too long in the backlog or do not have all requirements to be done. Scrum masters often contact clients to explain questionable things. They make sure that there are no time conflicts disturbing the sprint flow. For example, they should notice when too many team members plan to go on vacations at the same time. Apart from that, scrum masters motivate the team and make sure that they remember about estimations and finishing their tasks. However, when the team is working efficiently and the flow is flawless scrum masters do not interfere. They just observe and help to maintain the status quo. To sum up, scrum masters mostly speak and talk during the day. :)
+Obviously, it depends on the company. Usually scrum masters should be up to date with Jira or other task boards used in the team. They have to investigate tasks which are stuck for too long in the backlog or do not have all requirements to be done. Scrum masters often contact clients to explain questionable things. They make sure that there are no time conflicts disturbing the sprint flow. For example, they should notice when too many team members plan to go on vacations at the same time. Apart from that, scrum masters motivate the team and make sure that they remember about estimations and finishing their tasks. However, when the team is working efficiently and the flow is flawless scrum masters do not interfere. They just observe and help to maintain the status quo. To sum up, scrum masters mostly speak and talk during the day. 😉
 
 **At Bright Inventions, we have a different approach to the Scrum Master role. First of all, we do not use this name. To be fair with Agile definitions we use the term Project Managers, who in our projects are mostly Scrum Masters but with a bit bigger responsibilities.** They are also responsible for the project budget and business aspects of the project. What is more, at Bright Inventions PMs support clients in the product owner process. So we help clients, if they need our assistance, to follow the Agile flow.
 
@@ -120,6 +120,8 @@ Let us not forget about meetings in person. They are highly recommended. At Brig
 I have two school age children. So my number one priority is spending time with them. Besides, I ride a bike as often as I can. Before the pandemics, I was attending yoga and pilates classes. Pandemics took that away from me. I did not want to exercise at home and actually felt like I needed to leave the house and get some fresh air. I thought of cycling as an opportunity to spend active time outside the home. I sat on the bike, started to ride, the air struck me and suddenly everything changed. I felt the freedom which I really needed after weeks of staying at home. Then I started to train mountain terrain cycling. I loved to ride, and riding MTBs gave me a chance to do it in lots of beautiful places. Even when pilates and yoga places were reopened and I started to train both again I did not give up MTB. I love it, it gives me oxygen, so much space and beautiful views. 
 
 
+
+Join Kasia! 😎 Check out [career opportunities at Bright Inventions](https://brightinventions.pl/career)!
 
 
 
