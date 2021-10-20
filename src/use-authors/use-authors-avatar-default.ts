@@ -16,6 +16,11 @@ const useAuthorsAvatarsDefaultQuery: () => AuthorsFrontmatterQueryResult = () =>
                 gatsbyImageData
               }
             }
+            avatar_hover {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
             name
             short_name
             slug

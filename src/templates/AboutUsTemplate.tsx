@@ -78,11 +78,10 @@ const AuthorBackButton = styled(BackButton)`
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }: any) {
-  console.log(data)
   const { markdownRemark, allMarkdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const { edges } = allMarkdownRemark
-  const avatarImage = getImage(frontmatter.avatar)!
+  const avatarImage = getImage(frontmatter.avatar_hover)!
 
   const [showAll, setShowAll] = useState(false)
   const [numToSliced, setNumToSliced] = useState(6)
@@ -163,6 +162,11 @@ export const pageQuery = graphql`
       frontmatter {
         short_name
         avatar {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+        avatar_hover {
           childImageSharp {
             gatsbyImageData
           }

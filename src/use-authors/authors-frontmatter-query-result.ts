@@ -3,6 +3,7 @@ import { IGatsbyImageData } from 'gatsby-plugin-image'
 interface AuthorsFrontmatterItem {
   author_id: string
   avatar: IGatsbyImageData
+  avatar_hover: IGatsbyImageData
   bio: string
   name: string
   short_name: string
@@ -18,6 +19,7 @@ function toAuthor(frontmatter: AuthorsFrontmatterItem) {
     bio: frontmatter.bio,
     web: frontmatter.web,
     avatar: frontmatter.avatar,
+    avatar_hover:frontmatter.avatar_hover,
     name: frontmatter.name,
     shortName: frontmatter.short_name,
     hobby: frontmatter.hobby,
