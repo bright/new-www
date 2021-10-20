@@ -9,7 +9,8 @@ date: 2021-10-20T09:22:39.425Z
 title: Bringing Science and Business together. Meet Kasia, a Project Manager and
   an Academic Teacher
 layout: post
-hidden: false
+image: /images/brightstory_kasia_main.png
+hidden: true
 comments: true
 published: true
 ---
@@ -37,7 +38,7 @@ During my college time, I found my first job in software development. I was a ju
 
 So I wanted to find my first job as a junior project manager. In the final year of my college, around 2010, I was at an interview for that position in a huge corporation and I heard from the interviewer something that was supposed to be advice from “the older colleague”. I was told that my resume is perfectly fine but still they wouldn’t hire me because no IT team will listen to a little girl like me. The interviewer just told me directly that he wouldn’t hire me because of my gender. After that I came to the conclusion (maybe wrongly) that there must be more people in this industry like that man and there is really no place for me on the business side of software development. So I decided to go to PhD studies to explore the academic side of project management.
 
-Some would say that the academic world is even more “male-oriented” but that wasn’t the case at the Department of Software Engineering at Gdańsk University of Technology. What is more important in the academic world – by every research stands facts, not gender. Therefore it felt like a perfect place for me. No one would say I didn’t belong here. 
+Some would say that the academic world is even more “male-oriented” but that wasn’t the case at the Department of Software Engineering at Gdańsk University of Technology. **What is more important in the academic world – by every research stands facts, not gender.** Therefore it felt like a perfect place for me. No one would say I didn’t belong here. 
 
 I worked on my PhD dissertation about method of selection programming practices for safety-critical software development projects. The goal of my research was to develop an approach aimed at facilitating the introduction of a more agile approach to the software development process while maintaining compliance with the required safety standards and regulations. As a result I presented the AgileSafe method which supports a hybrid approach to software development based on the tailored practices and to support continuous monitoring of conformance to the mandatory regulatory requirements.
 
