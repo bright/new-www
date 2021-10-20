@@ -63,7 +63,7 @@ At the beginning of my job as a lecturer, I could see that students weren’t so
 
 ## What does the female students’ situation at IT look like? Can you see that there are more women studying than there used to be?
 
-I admit that there are more women at Computer Studies than compared to my student’s times. Yet there are not enough of them. I still conduct lab work with groups containing only men. **I have worked at Gdańsk University of Technology for 11 years and am still waiting for a meaningful change to happen.** The problem is that there are much fewer college applications submitted by women. So it is not (as some would think) that women don’t get to the studies, many don’t even try to pursue this path. So again **the issue is about making girls aware from an early age that they can become engineers if they want to**. Girls just should feel free to do it as men do. In my view, they still don’t have that feeling.
+I admit that there are more women at Computer Science than compared to my student’s times. Yet there are not enough of them. I still conduct lab work with groups containing only men. **I have worked at Gdańsk University of Technology for 11 years and am still waiting for a meaningful change to happen.** The problem is that there are much fewer college applications submitted by women. So it is not (as some would think) that women don’t get to the studies, many don’t even try to pursue this path. So again **the issue is about making girls aware from an early age that they can become engineers if they want to**. Girls just should feel free to do it as men do. In my view, they still don’t have that feeling.
 
 ## On what projects do you work at Bright Inventions?
 
