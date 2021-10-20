@@ -31,6 +31,8 @@ In the first year my group had a wide spectrum of knowledge. There were people w
 
 It is worth mentioning that **studying IT is strongly connected to the perception that you are entering the men’s world**. It is still very blocking for women. Before I started to study there I never thought that I didn't belong somewhere. Yet in my first year I started to hear these questions from other male students: What are you doing here? Why are you here? It was really confusing that my presence is surprising to somebody. I will never forget that feeling.
 
+![Kasia Łukasiewicz - Senior Project Manager at Bright Inventions](/images/kasia_meeting.jpeg)
+
 ## Why did you turn your interests into product management and Agile?
 
 When I was starting my student’s adventure I felt like I was about to become a mini hacker and learn how to code. I didn’t even know that there were fields like project management and that you study that. As soon as it came up in the class I was intrigued by it. After the third year, we had to choose our majors and I decided to take the one which had the most project management classes. I think that **I liked this multidisciplinary area that combines two worlds together: code and human relations**. Also, I love to have contact with people and cooperate with them so I felt that this is for me. It was really intuitive and it struck me that I could do it for a living.
