@@ -11,7 +11,16 @@ import { BlackButton } from '../about-us/about-us.styled'
 import { CustomContainer } from '../../components/shared/index'
 
 const HeroSectionWrapper = styled.section`
-  padding: 2rem 2rem 11.625rem;
+  padding: 2rem 15rem 11.625rem;
+  @media ${variables.device.desktop} {
+    padding: 0 15rem 7.25rem;
+  }
+  @media ${variables.device.laptop} {
+    padding: 0 6rem 7.25rem;
+  }
+  @media ${variables.device.tablet} {
+    padding: 0 2.25rem 5.125rem;
+  }
   @media ${variables.device.mobile} {
     padding: 0 1.125rem 5.125rem;
   }
@@ -24,13 +33,19 @@ const ImagesBase = styled.div`
     flex-grow: 1;
     margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
     width: calc(100% + var(--gap));
-
-    @media ${variables.device.mobile} {
-      --gap: 1rem;
+    @media ${variables.device.tablet} {
+      --gap: 2.4375rem;
     }
     & > * :not(.image-veritical) {
       margin: var(--gap) 0 0 var(--gap);
     }
+  }
+
+  @media ${variables.device.mobile} {
+    --gap: 1rem;
+  }
+  & > * :not(.image-veritical) {
+    margin: var(--gap) 0 0 var(--gap);
   }
 `
 
@@ -44,14 +59,25 @@ export const ImagesHorizontal = styled(ImagesBase)`
       border: 1px solid #d3d3d3;
     }
   }
-
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tablet} {
     flex-wrap: wrap;
     height: auto;
     justify-content: center;
 
     & > * {
+      flex-basis: 33%;
+    }
+    & > *:nth-child(n + 4) {
+      display: none;
+    }
+  }
+
+  @media ${variables.device.mobile} {
+    & > * {
       flex-basis: 45%;
+    }
+    & > *:nth-child(n + 4) {
+      display: block;
     }
     & > *:nth-child(5) {
       display: none;

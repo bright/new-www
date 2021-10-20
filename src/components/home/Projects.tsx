@@ -9,6 +9,17 @@ import variables from '../../styles/variables'
 
 const ProjectCustomSection = styled(CustomSection)`
   padding-bottom: 11.625rem;
+  @media ${variables.device.laptop} {
+    padding-bottom: 7.25rem;
+    & .success-story-wrapper {
+      & > div:nth-child(odd) {
+        margin-right: 0;
+      }
+      & > div:nth-child(even) {
+        margin-left: 0;
+      }
+    }
+  }
   @media ${variables.device.mobile} {
     padding-bottom: 5.125rem;
   }
@@ -23,8 +34,15 @@ const BlockSmall = styled.div`
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  margin: 1rem;
+  margin: 2rem;
   font-size: 1rem;
+  &:last-of-type {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  &:first-of-type {
+    margin-right: 0;
+  }
 
   span {
     flex-grow: 1;
@@ -41,7 +59,26 @@ const BlockSmall = styled.div`
       width: 2rem;
     }
   }
+  @media ${variables.device.laptop} {
+    width: calc(50% - 1.75rem);
+    margin: 1.75rem;
+  }
+  @media ${variables.device.tablet} {
+    width: 100%;
+    min-height: auto;
+    height: auto;
+    padding: 1.5rem;
+    font-size: 0.75rem;
+    margin: 0 auto;
 
+    span {
+      font-size: 0.75rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
   @media ${variables.device.mobile} {
     width: 100%;
     min-height: auto;
@@ -87,37 +124,35 @@ export const Projects: React.FC = () => {
   }> = edges.map((v: any) => v.node)
 
   return (
-    <CustomContainer>
-      <ProjectCustomSection>
-        <CustomSectionTitle>success stories</CustomSectionTitle>
-        <div className='is-clearfix'>
-          <BlockSmall className='is-pulled-right'>
-            <span>visit our online portfolio:</span>
-            <a target='_blank' href='https://www.behance.net/BrightInventions/'>
-              <img src='/images/success-story-home-page/behance.svg' alt='Behance' />
-            </a>
-            <a target='_blank' href='https://dribbble.com/Bright_Inventions/'>
-              <img src='/images/success-story-home-page/icon2.svg' alt='Dribbble' />
-            </a>
-          </BlockSmall>
+    <ProjectCustomSection>
+      <CustomSectionTitle>success stories</CustomSectionTitle>
+      <div className='is-clearfix success-story-wrapper'>
+        <BlockSmall className='is-pulled-right'>
+          <span>visit our online portfolio:</span>
+          <a target='_blank' href='https://www.behance.net/BrightInventions/'>
+            <img src='/images/success-story-home-page/behance.svg' alt='Behance' />
+          </a>
+          <a target='_blank' href='https://dribbble.com/Bright_Inventions/'>
+            <img src='/images/success-story-home-page/icon2.svg' alt='Dribbble' />
+          </a>
+        </BlockSmall>
 
-          {projects.map((project, ix) => (
-            <>
-              <SuccessStoryBox
-                key={ix}
-                title={project.frontmatter.title}
-                image={project.frontmatter.image}
-                slug={project.frontmatter.slug}
-                className={`is-pulled-${ix % 2 ? 'right' : 'left'}`}
-              />
-            </>
-          ))}
-          <BlockSmall className='is-pulled-left'>
-            <ProjectsLink to={routeLinks.projects}>see all case studies</ProjectsLink>
-          </BlockSmall>
-        </div>
-      </ProjectCustomSection>
-    </CustomContainer>
+        {projects.map((project, ix) => (
+          <>
+            <SuccessStoryBox
+              key={ix}
+              title={project.frontmatter.title}
+              image={project.frontmatter.image}
+              slug={project.frontmatter.slug}
+              className={`is-pulled-${ix % 2 ? 'right' : 'left'}`}
+            />
+          </>
+        ))}
+        <BlockSmall className='is-pulled-left'>
+          <ProjectsLink to={routeLinks.projects}>see all case studies</ProjectsLink>
+        </BlockSmall>
+      </div>
+    </ProjectCustomSection>
   )
 }
 

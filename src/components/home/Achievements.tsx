@@ -7,13 +7,19 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 
 const AchievementsSectionBlack = styled(SectionBlack)`
-  padding: 6.19rem 2rem 8.625rem 2rem;
+  padding: 6.19rem 15rem 8.625rem;
+  @media ${variables.device.laptop} {
+    padding: 6rem 11.125rem;
+  }
+  @media ${variables.device.tablet} {
+    padding: 6rem 11.125rem;
+  }
   @media ${variables.device.mobile} {
     padding: 6rem 0rem;
   }
 `
 const AchievementsWrapper = styled.div`
-  max-width: 1248px;
+  max-width: 1440px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,7 +30,35 @@ const AchievementsWrapper = styled.div`
     justify-content: center;
     align-items: center;
   }
+  @media ${variables.device.desktop} {
+    max-width: 1440px;
+  }
+  @media ${variables.device.laptop} {
+    max-width: 1080px;
+  }
+  @media ${variables.device.tablet} {
+    max-width: 448px;
+    flex-wrap: wrap;
+    & > div {
+      padding-bottom: 7.32rem;
+      flex: 1 1 50%;
+      &:nth-of-type(even) {
+        & > div {
+          align-self: flex-end;
+        }
+      }
+      & > div {
+          align-self: flex-start;
+      
+        }
+       
+      &:nth-of-type(n + 3) {
+        padding-bottom: 0;
+      }
+      
+    }
   @media ${variables.device.mobile} {
+    max-width:248px ;
     flex-wrap: wrap;
     & > div {
       padding-bottom: 7.32rem;

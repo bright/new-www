@@ -8,6 +8,9 @@ import variables from '../../styles/variables'
 
 const HeroSectionTitle = styled(CustomSectionTitle)`
   margin: 11.625rem 0 4.56rem;
+  @media ${variables.device.laptop} {
+    margin: 7.25rem 0 5.1875rem;
+  }
 
   @media ${variables.device.mobile} {
     margin: 5.125rem 0 4rem;
@@ -27,6 +30,38 @@ const HeroBlog = styled.section`
       }
     }
   }
+  @media ${variables.device.laptop} {
+      & .hero-blog.columns {
+        margin: 0;
+        padding: 0 6rem;
+        & .hero-blog.column {
+          padding: 0 1.78125rem 3.5625rem;
+        }
+      }
+    }
+  @media ${variables.device.tablet} {
+    width: 100%;
+      & .hero-blog.columns {
+        margin: 0;
+        padding: 0 2.25rem;
+        & .hero-blog.column {
+          width: 100%;
+          padding: 0 0 3.5625rem;
+        }
+      }
+    }
+    @media ${variables.device.mobile} {
+      width: 100%;
+      & .hero-blog.columns {
+        margin: 0;
+        padding: 0 1.125rem;
+        & .hero-blog.column {
+          padding: 0 0 3.5625rem;
+        }
+      }
+    }
+    }
+  
   & a > .btn {
     margin-top: 1.8125rem;
     margin-bottom: 1.25rem;
@@ -38,28 +73,7 @@ const HeroBlog = styled.section`
       background-color: #000;
       color: #fff;
     }
-    @media ${variables.device.mobile} {
-      width: 100%;
-    }
-  }
-  @media ${variables.device.mobile} {
-    & .hero-blog.columns {
-      margin: 0;
-      padding: 0 1.125rem;
-      & .hero-blog.column {
-        padding: 0.59rem 0 0.59rem;
-        &:nth-of-type(even) {
-          padding-right: 0;
-        }
-        &:nth-of-type(odd) {
-          padding-left: 0;
-        }
-        &:nth-of-type(1) {
-          padding-top: 0;
-        }
-      }
-    }
-  }
+  
 `
 
 export const PopularBlogPosts: FC = () => {

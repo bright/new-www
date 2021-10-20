@@ -56,3 +56,4 @@ export const CustomSectionTitle = Styled.CustomSectionTitle
 export const CustomTextTitle = Styled.CustomTextTitle
 export const CustomTextRegular = Styled.CustomTextRegular
 export const Button = Styled.Button
+export const CustomSectionInner = Styled.CustomSectionInner

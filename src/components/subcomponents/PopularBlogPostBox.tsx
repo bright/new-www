@@ -17,7 +17,7 @@ const Image = styled.figure`
   height: 300px;
   border-bottom: 1px solid #d3d3d3;
 
-  @media (max-width: 480px) {
+  @media ${variables.device.mobile} {
     height: 200px;
   }
   .gatsby-image-wrapper {
@@ -32,7 +32,7 @@ const PopularBlogPostBoxContainer = styled.div`
   height: 100%;
   border: 1px solid #d3d3d3;
 
-  @media (max-width: 480px) {
+  @media (max-width: 991px) {
     height: auto;
   }
 
@@ -49,6 +49,9 @@ const DateContainer = styled.div`
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
+  @media ${variables.device.laptop} {
+    font-size: 1rem;
+  }
   @media ${variables.device.mobile} {
     font-size: ${variables.font.customtext.sizeBlogTagsMobile};
   }
@@ -61,6 +64,9 @@ const TagsContainer = styled.div`
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
+  @media ${variables.device.laptop} {
+    font-size: 1rem;
+  }
   @media ${variables.device.mobile} {
     font-size: ${variables.font.customtext.sizeBlogTagsMobile};
   }
@@ -75,6 +81,14 @@ const Title = styled.h2`
   font-size: ${variables.font.customtitle.sizeBlogTitle};
   color: var(--black);
   /* letter-spacing: 1px; */
+  @media ${variables.device.laptop} {
+    margin-top: 0;
+    font-size: 1.5625rem;
+  }
+  @media ${variables.device.tablet} {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
   @media ${variables.device.mobile} {
     margin-top: 0;
     font-size: ${variables.font.customtitle.sizeBlogTitleMobile};

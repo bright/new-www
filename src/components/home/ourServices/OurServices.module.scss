@@ -36,11 +36,10 @@
     }
   }
 }
-
-@include mobile() {
+@include tablet() {
   .title {
     font-weight: 900;
-    font-size: 1.375rem;
+    font-size: 1.5625rem;
   }
   .seviceswrapper {
     .service {
@@ -57,5 +56,20 @@
       }
     }
   }
-  
+}
+@include mobile() {
+  .title {
+    font-weight: 900;
+    font-size: 1.375rem;
   }
+  .seviceswrapper {
+    .service {
+      flex-basis: 100%;
+      font-size: 1.375rem;
+      padding: 0 0 4rem 0;
+       
+      }
+    }
+  }
+  
+  

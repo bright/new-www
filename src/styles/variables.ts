@@ -2,8 +2,11 @@ const basePx = 16
 export const pxToRem = (px: number) => `${px / basePx}rem`
 
 const deviceSize = {
-  mobile: 480,
-  tablet: 768
+  mobile: 580,
+  tablet: 991,
+  laptop: 1540,
+  desktop: 1920,
+
 }
 
 export default {
@@ -14,12 +17,16 @@ export default {
   size: {
     mobile: `${deviceSize.mobile}px`,
     tablet: `${deviceSize.tablet}px`,
+    laptop: `${deviceSize.laptop}px`,
+    desktop: `${deviceSize.desktop}px`,
     navHeight: '4.6rem'
   },
 
   device: {
-    mobile: `screen and (max-width: ${deviceSize.tablet -1}px)`,
-    desktop: `min-width: ${deviceSize.tablet}`,
+    mobile: `screen and (max-width: ${deviceSize.mobile +1}px)`,
+    tablet: `screen and (max-width: ${deviceSize.tablet +1}px)`,
+    laptop: `screen and (max-width: ${deviceSize.laptop +1}px)`,
+    desktop: `screen and (max-width: ${deviceSize.desktop +1}px)`,
   },
 
   color: {

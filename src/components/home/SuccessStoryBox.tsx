@@ -9,16 +9,30 @@ const Container = styled.div`
   border: 1px solid #d3d3d3;
   width: calc(50% - 2rem);
   min-height: 10rem;
-  margin: 1rem 1rem;
+  margin: 2rem 2rem;
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  &:nth-child(odd) {
+    margin-right: 0rem;
+  }
+  &:nth-child(even) {
+    margin-left: 0rem;
+  }
 
   &:hover {
     box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
   }
+  @media ${variables.device.laptop} {
+    width: calc(50% - 1.75rem);
+    margin: 1.75rem;
 
-  @media screen and (max-width: 767px) {
+    &:nth-last-of-type(2) {
+      margin-bottom: 0rem;
+    }
+  }
+
+  @media ${variables.device.tablet} {
     margin: 0.5625rem 0;
     width: 100%;
     &:nth-child(7) {
@@ -44,7 +58,15 @@ const Image = styled.figure`
   margin-top: 1em;
   height: 600px;
 
-  @media (max-width: 768px) {
+  @media ${variables.device.laptop} {
+    height: 488px;
+  }
+
+  @media ${variables.device.tablet} {
+    height: 486px;
+    width: 100%;
+  }
+  @media ${variables.device.mobile} {
     height: 243px;
   }
 

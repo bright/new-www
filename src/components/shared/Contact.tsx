@@ -27,14 +27,21 @@ const ContainerWrapper = styled.div({
   justifyContent: 'center',
   marginBottom: '105px',
 
-  padding: '0 20px',
+  padding: '0 18px',
+  ['@media screen and (max-width: 768px)']: {
+    padding: '0 36px',
+  },
 })
 
-const Container = styled.div({
-  maxWidth: '995px',
-  display: 'flex',
-  flexDirection: 'column',
-})
+const Container = styled.div`
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+
+  @media ${variables.device.laptop} {
+    max-width: 800px;
+  }
+`
 
 const SuccesMessage = styled(CustomTextRegular)`
   @media ${variables.device.mobile} {
@@ -57,6 +64,19 @@ const Loader = styled.div`
   height: 3rem;
   border-left-color: var(--orange-200);
   border-width: 5px;
+`
+const HeroTextInput = styled(TextInput)`
+  @media ${variables.device.tablet} {
+    width: 100%;
+    max-width: 100%;
+  }
+`
+const HeroSingleSelect = styled(SingleSelect)`
+  max-width: 445px;
+  @media ${variables.device.tablet} {
+    width: 100%;
+    max-width: 100%;
+  }
 `
 
 export const Contact = () => {
@@ -131,7 +151,7 @@ export const Contact = () => {
           <DoubleInputsRow>
             <DoubleInputsRowEntry leftSide>
               <Label>Name / Company *</Label>
-              <TextInput
+              <HeroTextInput
                 type='text'
                 maxLength={256}
                 name='name'
@@ -144,7 +164,7 @@ export const Contact = () => {
 
             <DoubleInputsRowEntry>
               <Label>Email *</Label>
-              <TextInput
+              <HeroTextInput
                 type='email'
                 maxLength={256}
                 name='email'
@@ -159,7 +179,7 @@ export const Contact = () => {
           <DoubleInputsRow>
             <DoubleInputsRowEntry leftSide>
               <Label>Phone </Label>
-              <TextInput
+              <HeroTextInput
                 type='text'
                 maxLength={256}
                 name='phone'
@@ -171,7 +191,7 @@ export const Contact = () => {
 
             <DoubleInputsRowEntry>
               <Label>Service</Label>
-              <SingleSelect name='service' value={service} onChange={e => setService(e.target.value)}>
+              <HeroSingleSelect name='service' value={service} onChange={e => setService(e.target.value)}>
                 <option value='DEFAULT' hidden>
                   Pick what service you need
                 </option>
@@ -182,7 +202,7 @@ export const Contact = () => {
                 <option value='custom_software_development'>custom software development</option>
                 <option value='agile_workshops'>agile workshops</option>
                 <option value='other'>other</option>
-              </SingleSelect>
+              </HeroSingleSelect>
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
@@ -197,11 +217,11 @@ export const Contact = () => {
           />
 
           <Label>How did you find out about us?</Label>
-          <SingleSelect
+          <HeroSingleSelect
             name='source'
             value={source}
             onChange={e => setSource(e.target.value)}
-            style={{ width: '100%', maxWidth: '445px' }}
+            style={{ width: '100%' }}
           >
             <option value='DEFAULT' hidden>
               Select how did you find about us
@@ -211,7 +231,7 @@ export const Contact = () => {
             <option value='referral'>Referral</option>
             <option value='google'>Google</option>
             <option value='other'>other</option>
-          </SingleSelect>
+          </HeroSingleSelect>
 
           <PrivacyPolicyCheckboxContainer>
             <PrivacyPolicyCheckbox

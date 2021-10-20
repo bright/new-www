@@ -153,14 +153,26 @@ export const CustomConstrainedWidthContainer = styled.div`
   }
 `
 export const CustomSection = styled.section`
-  padding: 2rem 2rem 4rem 2rem;
+  padding: 2rem 15rem 4rem 15rem;
   color: ${variables.color.text};
+
+  @media ${variables.device.desktop} {
+    padding: 0rem 15rem 0rem;
+  }
+  
+  @media ${variables.device.laptop} {
+    padding: 0rem 6rem 0rem;
+  }
+
+  @media ${variables.device.tablet} {
+    padding: 0rem 2.25rem 0rem;
+  }
 
   @media ${variables.device.mobile} {
     padding: 2rem 1.125rem 1rem;
   }
 `
-export const CustomSectionTitle = styled.h3`
+export const CustomSectionTitle = styled.h2`
   ${TitleBase};
   font-size: 2.5rem;
   font-weight: 800;
@@ -168,10 +180,16 @@ export const CustomSectionTitle = styled.h3`
   margin: 9.625rem 0 6.56rem;
   color: #000000;
 
+  @media ${variables.device.laptop} {
+  font-size: 2.125rem;
+  line-height: 2.625rem;
+  font-weight: 900;
+  margin: 7.25rem 0 5.1875rem
+  }
+
   @media ${variables.device.mobile} {
   font-size: 1.375rem;
   line-height: 1.6875rem;
-  font-weight: 900;
   margin: 5.125rem 0 4rem
   }
 `
@@ -187,4 +205,9 @@ export const CustomTextRegular = styled.div`
   font-size: 1.375rem;
   line-height: 2.5rem;
   opacity: .75;
+`
+export const CustomSectionInner = styled(SectionInner)`
+@media ${variables.device.laptop}{
+  max-width: 745px;
+}
 `

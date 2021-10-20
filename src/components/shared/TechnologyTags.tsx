@@ -6,7 +6,13 @@ import { SectionBlack } from './index'
 import { CustomContainer } from './index.styled'
 
 const SectionBlackContainer = styled(SectionBlack)`
-  padding: 6rem 2rem;
+  padding: 6rem 15rem;
+  @media ${variables.device.laptop} {
+    padding: 4rem 6rem;
+  }
+  @media ${variables.device.tablet} {
+    padding: 4rem 2.25rem;
+  }
 
   @media ${variables.device.mobile} {
     padding: 4rem 1.875rem;
@@ -65,7 +71,7 @@ export const TechnologyTags = () => {
   return (
     <SectionBlackContainer>
       <CustomContainer>
-          <ContentContainer>
+        <ContentContainer>
           <Pill>iOS</Pill>
           <Pill>Kotlin</Pill>
           <Pill>Blockchain</Pill>

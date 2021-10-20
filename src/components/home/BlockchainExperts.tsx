@@ -3,9 +3,9 @@ import { StaticImage } from 'gatsby-plugin-image'
 import {
   CustomContainer,
   CustomSection,
+  CustomSectionInner,
   CustomSectionTitle,
   CustomTextRegular,
-  SectionInner,
 } from '../shared/index.styled'
 import styled from 'styled-components'
 import { MoreButton } from './../shared/index'
@@ -18,6 +18,10 @@ const BlockchainExpertsTextRegural = styled(CustomTextRegular)`
   font-size: 1.25rem;
   line-height: 2.5rem;
   text-align: center;
+  @media ${variables.device.laptop} {
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+  }
   @media ${variables.device.mobile} {
     font-size: 1rem;
     line-height: 1.75rem;
@@ -73,13 +77,13 @@ export const BlockchainExperts = () => {
     <CustomSection>
       <CustomContainer>
         <CustomSectionTitle>we are blockchain experts</CustomSectionTitle>
-        <SectionInner>
+        <CustomSectionInner>
           <BlockchainExpertsTextRegural>
             We have experience in developing blockchain projects in Ethereum and Substrate. We believe that blockchain
             is the technology of the future that’s why we’ve developed our original project for blockchain enthusiasts
             as well. Meet Bright Treasury – our original app built to support blockchain Substrate community.
           </BlockchainExpertsTextRegural>
-        </SectionInner>
+        </CustomSectionInner>
         <Link to='/projects/bright-treasury'>
           <ImageWrapper>
             <StaticImage

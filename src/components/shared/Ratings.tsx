@@ -7,6 +7,19 @@ import BackArrowWhite from '../../assets/backArrowWhite.svg'
 import NextArrowWhite from '../../assets/nextArrowWhite.svg'
 import variables from '../../styles/variables'
 
+const CarouselSectionBlack = styled(SectionBlack)`
+  padding: 2rem 15rem 6rem 15rem;
+  @media ${variables.device.laptop} {
+    padding: 2rem 6rem 6rem 6rem;
+  }
+  @media ${variables.device.tablet} {
+    padding: 2rem 2.25rem 6rem 2.25rem;
+  }
+  @media ${variables.device.mobile} {
+    padding: 2rem 1.125rem 6rem 1.125rem;
+  }
+`
+
 const CarouselContainer = styled.div`
   /* margin-bottom: -4rem; */
   padding: 0;
@@ -25,18 +38,23 @@ const CarouselContainer = styled.div`
       max-width: 956px;
     }
   }
-  .carousel-item {
+  .carousel .carousel-item {
     padding: 0;
     font-family: 'Lato', sans-serif;
     text-align: left;
     & > p {
       width: 90%;
-      max-width: 956px;
+      max-width: 800px;
       padding: 0;
       margin: 0 auto;
       font-size: 1.75rem;
       opacity: 0.74;
       line-height: 2.125rem;
+      @media ${variables.device.laptop} {
+        max-width: 600px;
+        font-size: 1.375rem;
+        line-height: 1.6875rem;
+      }
     }
     & .author {
       margin: 6.5625rem 0 8.5rem;
@@ -48,7 +66,7 @@ const CarouselContainer = styled.div`
   }
   @media ${variables.device.mobile} {
     padding: 0 0.625rem;
-    .carousel-item {
+    & .carousel .carousel-item {
       padding: 0 2.125rem;
       & > p {
         font-size: 1rem;
@@ -67,6 +85,12 @@ const SectionTitleSlim = styled(SectionTitle)`
   margin-bottom: 3.44rem;
   font-size: ${variables.font.customtitle.size};
   line-height: 3rem;
+  @media ${variables.device.laptop} {
+    margin-bottom: 1.875rem;
+    margin-top: 2rem;
+    font-size: 2.125rem;
+    line-height: 2.625rem;
+  }
   @media ${variables.device.mobile} {
     margin-bottom: 1.875rem;
     margin-top: 2rem;
@@ -121,7 +145,7 @@ const CarouselText = styled.p`
 
 const Ratings = () => {
   return (
-    <SectionBlack>
+    <CarouselSectionBlack>
       <CarouselContainer>
         <SectionTitleSlim>rating 4,9 on Clutch</SectionTitleSlim>
         <Carousel
@@ -171,7 +195,7 @@ const Ratings = () => {
           </div>
         </Carousel>
       </CarouselContainer>
-    </SectionBlack>
+    </CarouselSectionBlack>
   )
 }
 

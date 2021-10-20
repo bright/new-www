@@ -24,6 +24,15 @@ const OurTextTitle = styled(CustomTextTitle)`
     color: ${variables.color.primary};
     transition: color 300ms;
   }
+  @media ${variables.device.laptop} {
+    padding-top: 0;
+    text-align: center;
+    font-size: 1.5625rem;
+    margin: 1.6875rem 0 3rem;
+  }
+  @media ${variables.device.tablet} {
+    margin: 1.6875rem 0 3rem;
+  }
   @media ${variables.device.mobile} {
     padding-top: 0;
     text-align: center;
@@ -40,6 +49,11 @@ const OurSerwicesTextRegular = styled(CustomTextRegular)`
   text-align: left;
   color: var(--black-200);
   overflow: hidden;
+  @media ${variables.device.tablet} {
+    padding-top: 0;
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+  }
   @media ${variables.device.mobile} {
     padding-top: 0;
     text-align: center;
