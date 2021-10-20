@@ -16,6 +16,8 @@ published: true
 ---
 **Emerging from the academic world she successfully mixes theoretical knowledge with business reality. During her over 10 years of academic career she has taught thousands of programmers that soft skills are not an option but simply a must. Let us talk with Kasia – Senior Project Manager at Bright Inventions.**
 
+![Kasia - Senior Project Manager](/images/blogpost_brightstory_kasia_collage.png)
+
 ## What did you study?
 
 I studied Computer Studies at Gdańsk University of Technology and went right after that to PhD studies. I actually didn’t know what I wanted to do after graduating high school. I was passionate about many different fields. I was in a multidisciplinary class at my high school in Olsztyn and wrote extended Matura exams from subjects like English, Polish and Physics. So I had a few career paths in my mind. 
@@ -41,6 +43,8 @@ So I wanted to find my first job as a junior project manager. In the final year 
 Some would say that the academic world is even more “male-oriented” but that wasn’t the case at the Department of Software Engineering at Gdańsk University of Technology. **What is more important in the academic world – by every research stands facts, not gender.** Therefore it felt like a perfect place for me. No one would say I didn’t belong here. 
 
 I worked on my PhD dissertation about method of selection programming practices for safety-critical software development projects. The goal of my research was to develop an approach aimed at facilitating the introduction of a more agile approach to the software development process while maintaining compliance with the required safety standards and regulations. As a result I presented the AgileSafe method which supports a hybrid approach to software development based on the tailored practices and to support continuous monitoring of conformance to the mandatory regulatory requirements.
+
+![Kasia Łukasiewicz - Senior Project Manager at Bright Inventions](/images/blogpost_www_brightstory_kasia_q3.png)
 
 ## Eventually, you joined the business side of software development becoming a member of Bright Inventions team. What made you change your mind?
 
@@ -70,6 +74,8 @@ The greatest issue is the lack of communication between vendor and client. That 
 
 The steak is even higher when we develop safety-oriented products. Let us say that the product we developed does not meet the radiation norm then we might cause a real danger. That is why the Agile approach is becoming more and more popular. Because they make cooperation with the client more efficient. These methods engage the client in the process, help to save time and obviously money. So it definitely attracts business.
 
+![Kasia Łukasiewicz - quote about project management](/images/blogpost_www_brightstory_kasia_q1.png)
+
 ## How can a company introduce Agile to the team?
 
 **The most natural implementations of Agile have their origins from the team itself, not the management.** Nowadays it is probably often pushed by the management because Agile and Scrum are catchy and every company wants to be associated with them. Yet good transformations come from grass-roots. 
@@ -77,6 +83,8 @@ The steak is even higher when we develop safety-oriented products. Let us say th
 In big corporations, Agile is usually first implemented within a small team. After the trial, they analyze results and implement the new approach in other teams. Ideally, the whole company should be engaged in the process from the beginning but that is a rare situation. 
 
 Now, most of the companies declare that they follow the Agile methods but the problem is that it does not function properly for them. Everyone wants to boast that they are an Agile oriented company. The problem is a lack of clue what to do when it does not work. Many people cannot change their mindset, they do not see the value behind Agile. They hate that client’s requirements are changing, that it interferes with their work. Not everyone can be open to change from tomorrow. It requires time. **The whole software development community should build the awareness of why it is okay to change requirements and that clients will always be making changes and we need to accept that.**
+
+![Agile implementation](/images/blogpost_www_brightstory_kasia_q2.png)
 
 ## I want to ask you a question that I regularly find scrolling through social media feeds. What do scrum masters do from 9 to 5?
 
