@@ -8,10 +8,20 @@ export const routeLinks = {
     }
     return `/about-us/${params.page}/`
   },
+  blogTags(params?: { tag: string, tagGroups: string} ) {
+    if (!params) {
+      return `/blog/`
+    }
+    if ('tag' in params) {
+      return `/blog/${params.tag ?? ''}/`
+    }
+    return `/blog/${params.tag}/`
+  },
   whatWeOffer: '/what-we-offer',
   projects: '/projects',
   career: '/career',
   blog: '/blog',
+  blog1: '/blog/:xd/:xs',
   jobs: '/jobs',
   startProject: '/start-project',
   privacyPolicy: '/privacy-policy',
