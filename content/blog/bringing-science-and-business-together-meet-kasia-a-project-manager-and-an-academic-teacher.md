@@ -87,4 +87,36 @@ Obviously, it depends on the company. Usually scrum masters should be up to date
 
 **At Bright Inventions, we have a different approach to the Scrum Master role. First of all, we do not use this name. To be fair with Agile definitions we use the term Project Managers, who in our projects are mostly Scrum Masters but with a bit bigger responsibilities.** They are also responsible for the project budget and business aspects of the project. What is more, at Bright Inventions PMs support clients in the product owner process. So we help clients, if they need our assistance, to follow the Agile flow.
 
-**What are some examples of wrong implementations of Agile?**
+## What are some examples of wrong implementations of Agile?
+
+**The studies* show that there are still scrum teams without a scrum master.** That is the most shocking thing for me. Another problem is that **teams do not have stand-ups** because they believe that communicating via Slack is enough. What is more, we often can see a misusing of terms. For example, the fact that the team works on Jira which gives them some kind of backlog does not mean that they follow an Agile approach. 
+
+As I mentioned before we are very cautious at Bright Inventions. We follow Agile but we do not give scrum master titles. On the other hand, some companies give this title to people who are not really doing scrum master’s jobs. Agile tells us that **we should not focus on the job titles but on our role in the process**. Unfortunately, sometimes titles go before the actual job. 
+
+Also, sometimes people just focus on listing all agile buzzwords like they were crossing them off the list without further reflection. We have reviews – checked. We have a backlog – checked. Great, so we are nailing Agile. Yet in reality, we do not focus on **the core of Agile – developing solutions that give value to our client.** 
+
+## Hybrid work – how did it change your daily cooperation & communication with the team and general social dynamics?
+
+Hybrid work has definitely influenced a daily work. In my view, spontaneous communication in the office like casual talk in the kitchen is very important. When we work at home we sometimes hesitate to write a message to somebody about a worrying issue. When this person sits in the same room then we can just bring out the subject passing next to them. And it often turns out that this issue is very important and should be resolved asap. Now **project managers have a bigger challenge to maintain that casual, spontaneous level of communication and engagement in the project**.
+
+## And how to achieve that without scheduling a couple of calls for a day?
+
+I think that **the crucial project manager's job is to diversify the communication**. We have to use written communication as well. Yet we should not only write to each other when something does not work but also about other issues just like we were in the kitchen office and casually discussing the project. I think that writing on Slack or other communicators is important as well as calls with the team. Some people do not feel comfortable on the call and they rather write replies. It might be easier to get answers from them this way. **So project managers have to juggle with different communication platforms to give every member of the team a way to express themselves.** PMs have to also create messages that include a call to action, encouraging people to reply. It helps to engage them in the process. Sitting at home might build a feeling that we are somewhere far away so we can only focus on our tasks in Jira and don’t look at the project from the whole team's perspective. 
+
+Let us not forget about meetings in person. They are highly recommended. At Bright Inventions people are free to choose if they want to work from home or the office. Still, we do not want them to feel that all they do is interact with avatars, so we organise quarterly integration meetings to give an opportunity to meet the rest of the team in person.
+
+## How do you spend your free time?
+
+I have two school age children. So my number one priority is spending time with them. Besides, I ride a bike as often as I can. Before the pandemics, I was attending yoga and pilates classes. Pandemics took that away from me. I did not want to exercise at home and actually felt like I needed to leave the house and get some fresh air. I thought of cycling as an opportunity to spend active time outside the home. I sat on the bike, started to ride, the air struck me and suddenly everything changed. I felt the freedom which I really needed after weeks of staying at home. Then I started to train mountain terrain cycling. I loved to ride, and riding MTBs gave me a chance to do it in lots of beautiful places. Even when pilates and yoga places were reopened and I started to train both again I did not give up MTB. I love it, it gives me oxygen, so much space and beautiful views. 
+
+
+
+
+
+*Learn more about scrum master’s role in Agile teams:
+
+<https://medium.com/serious-scrum/lets-do-scrum-but-without-a-scrum-master-why-does-it-happen-41f31b3c1596>
+
+<https://www.researchgate.net/publication/346934975_Spearheading_Agile_The_Role_of_the_Scrum_Master_in_Agile_Projects>
+
+<https://scrumorg-website-prod.s3.amazonaws.com/drupal/2019-02/2019%20Scrum%20Master%20Trends%20%282019-02-06%29.pdf>
