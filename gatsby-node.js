@@ -1,4 +1,8 @@
 const path = require("path")
+const _ = require('lodash');
+const fs = require("fs")
+const yaml = require("js-yaml")
+
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
@@ -39,6 +43,75 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         numPages,
         currentPage: i + 1,
       },
+    })
+  })
+  const ymlDocTags = yaml.load(fs.readFileSync("./content/tag-groups.yml", "utf-8"))
+  ymlDocTags.groups.forEach(async (tag) => {
+    const tagsToFilter = JSON.stringify(tag.tags);
+    const tagsResult = await graphql(
+      `
+      {
+        allMarkdownRemark(
+          filter: {frontmatter: {layout: {eq: "post"}, 
+          tags: {in: ${tagsToFilter}}}}
+          sort: {fields: [frontmatter___date], order: DESC}
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+            }
+          }
+        }
+      }
+      `
+    )
+    const posts = tagsResult.data.allMarkdownRemark.edges
+    const postsPerPage = 10
+    const numPages = Math.ceil(posts.length / postsPerPage)
+    Array.from({ length: numPages }).forEach((item, i) => {
+      createPage({
+        path: `/blog/${_.kebabCase(tag.name)}/${i + 1}`,
+        component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
+        context: {
+          groupTags: tag.tags,
+          tag: tag.name,
+          baseURI: `/blog/${_.kebabCase(tag.name)}`,
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          currentPage: i + 1,
+        },
+      })
+    })
+    
+    createPage({
+      path: `/blog/${_.kebabCase(tag.name)}`,
+      matchPath: `/blog/${_.kebabCase(tag.name)}/*`,
+      component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
+      context: {
+        groupTags: tag.tags,
+        tag: tag.name,
+        baseURI: `/blog/${_.kebabCase(tag.name)}`,
+        limit: 1000,
+        skip: 0,
+      },
+    })
+    
+    tag.groups?.forEach((subTag) => {
+      createPage({
+        path: `/blog/${_.kebabCase(tag.name)}/${_.kebabCase(subTag.name)}`,
+        component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
+        context: {
+          groupTags: subTag.tags,
+          tag: tag.name,
+          baseURI: `/blog/${_.kebabCase(tag.name)}`,
+          limit: 1000,
+          skip: 0,
+        },
+      });
     })
   })
 
@@ -94,6 +167,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       })
     })
   }
+
 
   const projectTemplate = require.resolve(
     `${__dirname}/src/templates/ProjectTemplate.tsx`
