@@ -9,7 +9,7 @@ tags:
 comments: true
 hidden: false
 author: agnieszka
-image: /images/children-and-programming/children.jpg
+image: /images/children_programming.png
 date: '2017-11-27T23:00:00.000Z'
 published: true
 ---
