@@ -10,7 +10,7 @@ tags:
   - cloudform
 comments: true
 crosspost: 'https://miensol.pl/2018/05/29/how-to-convert-an-express-app-to-aws-lambda.html'
-image: /images/express-js.webp
+image: /images/laptop-programming.jpg
 date: '2018-05-29T22:00:00.000Z'
 published: true
 canonicalUrl: 'https://miensol.pl/how-to-convert-an-express-app-to-aws-lambda/'
