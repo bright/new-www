@@ -7,7 +7,7 @@ tags:
   - venture capital
   - berlin
 comments: true
-image: /images/polish-tech-night/event-logo.png
+image: /images/blog_polish_tech_night.png
 date: '2017-12-21T23:00:00.000Z'
 published: true
 ---
