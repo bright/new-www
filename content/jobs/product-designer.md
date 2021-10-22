@@ -15,6 +15,7 @@ technology:
 button: join our Bright team
 published: true
 order: 10
+description: We are seeking a talented and creative Product designer who will focus on ensuring a first-class user experience across products we do. Apply!
 ---
 ![]()
 
