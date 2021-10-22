@@ -17,7 +17,7 @@ const AboutUsPage: React.FC = ({ children }) => (
   <Page>
     <HelmetTitleDescription
       title="About us - our values, team and approach"
-      description="Information about our team, core values, business process"
+      description="All you need to know about our software development team."
     />
     <Section>
       <div data-tabs-content=".tab-content" className="container">
