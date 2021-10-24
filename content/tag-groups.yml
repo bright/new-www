@@ -19,7 +19,7 @@ groups:
         # /blog/topics/development/Frontend
         tags:
           - Frontend
-          - Typescript
+          - typescript
           - CSS
           - HTML
       - name: iOS
