@@ -46,14 +46,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
   const ymlDocTags = yaml.load(fs.readFileSync("./content/tag-groups.yml", "utf-8"))
+  // const tags = result.data.tagsGroup.group;
   ymlDocTags.groups.forEach(async (tag) => {
-    const tagsToFilter = JSON.stringify(tag.tags);
-    const tagsResult = await graphql(
+    const searchTags = JSON.stringify(tag.tags);
+    const result = await graphql(
       `
       {
         allMarkdownRemark(
           filter: {frontmatter: {layout: {eq: "post"}, 
-          tags: {in: ${tagsToFilter}}}}
+          tags: {in: ${searchTags}}}}
           sort: {fields: [frontmatter___date], order: DESC}
           limit: 1000
         ) {
@@ -68,17 +69,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       }
       `
     )
-    const posts = tagsResult.data.allMarkdownRemark.edges
+    const posts = result.data.allMarkdownRemark.edges
     const postsPerPage = 10
     const numPages = Math.ceil(posts.length / postsPerPage)
     Array.from({ length: numPages }).forEach((item, i) => {
       createPage({
-        path: `/blog/${_.kebabCase(tag.name)}/${i + 1}`,
+        path: `/blog/${_.kebabCase(tag.name.toLowerCase())}/${i + 1}`,
         component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
         context: {
           groupTags: tag.tags,
           tag: tag.name,
-          baseURI: `/blog/${_.kebabCase(tag.name)}`,
           limit: postsPerPage,
           skip: i * postsPerPage,
           numPages,
@@ -87,33 +87,52 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       })
     })
     
-    createPage({
-      path: `/blog/${_.kebabCase(tag.name)}`,
-      matchPath: `/blog/${_.kebabCase(tag.name)}/*`,
-      component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
-      context: {
-        groupTags: tag.tags,
-        tag: tag.name,
-        baseURI: `/blog/${_.kebabCase(tag.name)}`,
-        limit: 1000,
-        skip: 0,
-      },
-    })
+    if(tag.groups) {
+      tag.groups.forEach(async (subTag) => {
+        const searchTags = JSON.stringify(subTag.tags);
+        const result = await graphql(
+          `
+          {
+            allMarkdownRemark(
+              filter: {frontmatter: {layout: {eq: "post"}, 
+              tags: {in: ${searchTags}}}}
+              sort: {fields: [frontmatter___date], order: DESC}
+              limit: 1000
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+              }
+            }
+          }
+        }
+        `
+        )
+        const posts = result.data.allMarkdownRemark.edges
+        const postsPerPage = 10
+        const numPages = Math.ceil(posts.length / postsPerPage)
+        Array.from({ length: numPages }).forEach((item, i) => {
+          createPage({
+            path: `/blog/${_.kebabCase(tag.name.toLowerCase())}/${_.kebabCase(subTag.name.toLowerCase())}/${i + 1}`,
+            component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
+            context: {
+              groupTags: subTag.tags,
+              tag: tag.name,
+              subTag: subTag.name,
+              limit: postsPerPage,
+              skip: i * postsPerPage,
+              numPages,
+              currentPage: i + 1,
+            },
+          })
+        })
+      })
+    }
     
-    tag.groups?.forEach((subTag) => {
-      createPage({
-        path: `/blog/${_.kebabCase(tag.name)}/${_.kebabCase(subTag.name)}`,
-        component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
-        context: {
-          groupTags: subTag.tags,
-          tag: tag.name,
-          baseURI: `/blog/${_.kebabCase(tag.name)}`,
-          limit: 1000,
-          skip: 0,
-        },
-      });
-    })
   })
+
 
   const preparePage = async (layout, path, template) => {
     const result = await graphql(`
