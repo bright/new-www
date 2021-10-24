@@ -14,6 +14,7 @@ import { resolveUrl } from '../meta/resolve-url'
 import blogPostDefaultImage from '../../static/images/dummy/blog_post.png'
 import { PageTitle } from '../components/shared/index.styled'
 import BlogTagsAll from './blog/BlogTagsAll'
+import { routeLinks } from '../config/routing'
 
 interface Props {
   data: GQLData
@@ -37,17 +38,18 @@ const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
             {' '}
             <span>bright</span> devs blog
           </PageTitle>
-          <BlogTagsAll activeTag='' />
+          <BlogTagsAll activeTag='' activeSubTag='' />
           <HideTablet>
             {/*<PageDescription>*/}
             {/*  Get up-to-date news on Bright Inventions. Discover all the*/}
             {/*  latest about technologies we use, solutions we create and*/}
             {/*  our culture. Because we believe that knowledge sharing is*/}
             {/*  important not only inside the team.*/}
-            {/*</PageDescription> */}
+            {/*</import { routeLinks } from './../config/routing';
+PageDescription> */}
           </HideTablet>
           <BlogFeed posts={createBlogPosts(data)} />
-          <Paging pageContext={pageContext} isSelectedTags={false} />
+          <Paging pageContext={pageContext} baseURI={`${routeLinks.blog}/`} />
         </Section>
       </div>
     </Page>

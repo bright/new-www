@@ -15,6 +15,7 @@ import blogPostDefaultImage from '../../static/images/dummy/blog_post.png'
 import { PageTitle } from '../components/shared/index.styled'
 import BlogTagsAll from './blog/BlogTagsAll'
 import tagsTree from '../../content/tag-groups.yml'
+import { routeLinks } from '../config/routing'
 
 interface Props {
   data: GQLData
@@ -22,26 +23,6 @@ interface Props {
 }
 
 const BlogTagsPage: React.FC<Props> = ({ data, pageContext, ...props }) => {
-  const [comboTagsArr, setComboTagsArr] = useState([])
-  const [subTagsList, setSubTagsList] = useState([])
-
-  useEffect(() => {
-    const subTagsParams = props.params[Object.keys(props.params)[0]]
-    const comboTagsArr = subTagsParams?.split('-')
-    if (comboTagsArr && comboTagsArr.length > 0) {
-      setSubTagsList(subTagsParams ? comboTagsArr : [])
-      const tags = tagsTree.groups.filter(el => el.name.toLowerCase() == pageContext.tag.toLowerCase())
-      if (tags[0].groups) {
-        const subTags = tags[0].groups.filter(el =>
-          comboTagsArr.some(item => item.toLowerCase() == el.name.toLowerCase())
-        )
-        const subTagsArr = []
-        subTags.map(el => el.tags.forEach(item => m.push(item)))
-        setComboTagsArr(subTagsArr)
-      }
-    }
-  }, [])
-
   return (
     <Page className='page-blog-list'>
       <HelmetTitleDescription
@@ -59,7 +40,7 @@ const BlogTagsPage: React.FC<Props> = ({ data, pageContext, ...props }) => {
             <span>bright</span> devs blog tags
           </PageTitle>
 
-          <BlogTagsAll params={pageContext.tag} subTagsList={subTagsList} pageContext={pageContext} />
+          <BlogTagsAll activeTag={pageContext.tag} activeSubTag={pageContext.subTag} />
           {/*<PageDescription>*/}
           {/*  Get up-to-date news on Bright Inventions. Discover all the*/}
           {/*  latest about technologies we use, solutions we create and*/}
@@ -69,8 +50,17 @@ const BlogTagsPage: React.FC<Props> = ({ data, pageContext, ...props }) => {
 PageDescription> import { useEffect, useState } from 'react';
 */}
 
-          <BlogFeed posts={createBlogPosts(data)} comboTagsArr={comboTagsArr} />
-          {pageContext.numPages && <Paging pageContext={pageContext} isSelectedTags={true} />}
+          <BlogFeed posts={createBlogPosts(data)} />
+          {pageContext.numPages > 1 && (
+            <Paging
+              pageContext={pageContext}
+              baseURI={
+                pageContext.subTag
+                  ? `${routeLinks.blogTags({ tag: pageContext.tag })}${pageContext.subTag.toLowerCase()}/`
+                  : `${routeLinks.blogTags({ tag: pageContext.tag })}`
+              }
+            />
+          )}
         </Section>
       </div>
     </Page>

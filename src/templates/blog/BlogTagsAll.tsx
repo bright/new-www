@@ -73,12 +73,13 @@ const TagsSelect = styled.select`
   }
 `
 
-const BlogTagsAll = ({ activeTag, subTagsList, pageContext, ...props }) => {
+const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
   const [names, setNames] = useState([])
   const [tags, setTags] = useState([])
   const [width, setWidth] = useState(window.innerWidth)
-  const breakpoint = 480
-  const [value, setValue] = useState('')
+  const breakpoint = 769
+  const [tagValue, setTagValue] = useState('')
+  const [subTagValue, setSubTagValue] = useState('')
 
   useEffect(() => {
     const hendleResizeWindow = () => setWidth(window.innerWidth)
@@ -94,44 +95,45 @@ const BlogTagsAll = ({ activeTag, subTagsList, pageContext, ...props }) => {
 
     setNames(currentGroupNames)
     setTags(currentGroupTagsNames)
+
+    setTagValue(`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}`)
+    if (activeSubTag) {
+      setSubTagValue(`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}${activeSubTag.toLowerCase()}`)
+    }
     return () => {
       window.removeEventListener('resize', hendleResizeWindow)
     }
   }, [])
-
+  const kebabCase = string =>
+    string
+      .replace(/([a-z])([A-Z])/g, '$1-$2')
+      .replace(/\s+/g, '-')
+      .toLowerCase()
   if (width < breakpoint) {
-    const handleOnChange = e => {
-      window.location = `${e.target.value}1`
+    const handleOnChange = ({ target }) => {
+      const { value } = target
+      if (value == routeLinks.blog) {
+        window.location = routeLinks.blog
+      } else {
+        window.location = `${value}1`
+      }
     }
 
     const handleOnChangeSubTags = ({ target }) => {
       const { value } = target
-      if (subTagsList.filter(item => item.toLowerCase() == value.toLowerCase()).length > 0) {
-        window.location.href = `${window.location.href.replace(value.toLowerCase() + '-', '')}`
-      } else {
-        if (subTagsList.length > 0) {
-          window.location.href = `${window.location.href}${value.toLowerCase()}-`
-        } else {
-          window.location.href = `${pageContext.baseURI}/${value.toLowerCase()}-`
-        }
-      }
+      window.location = `${value}/1`
     }
 
     return (
       <>
-        <TagsSelect value={value} onChange={handleOnChange}>
-          {activeTag ? (
-            <option value='' disabled={true}>
-              asdasdas
-            </option>
-          ) : null}
+        <TagsSelect value={tagValue} onChange={handleOnChange}>
+          <option value={routeLinks.blog}>all areas</option>
           {names &&
-            names.map(el => {
+            names.map((el, i) => {
+              const kebabCaseTag = kebabCase(el.toLowerCase())
+
               return (
-                <option
-                  value={routeLinks.blogTags({ tag: el.toLowerCase() })}
-                  selected={el.toLowerCase() == activeTag ? true : false}
-                >
+                <option key={el + '-' + i} value={routeLinks.blogTags({ tag: kebabCaseTag })}>
                   {el.toLowerCase()}
                 </option>
               )
@@ -139,10 +141,19 @@ const BlogTagsAll = ({ activeTag, subTagsList, pageContext, ...props }) => {
         </TagsSelect>
 
         {tags.length > 0 ? (
-          <TagsSelect onChange={handleOnChangeSubTags}>
-            {tags.map(el => (
-              <option value={el.toLowerCase()}> {el}</option>
-            ))}
+          <TagsSelect value={subTagValue} onChange={handleOnChangeSubTags}>
+            <option value={`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}1`}>All </option>
+
+            {tags.map((el, i) => {
+              const kebabCaseTag = kebabCase(activeTag)
+              const kebabCaseSubTag = kebabCase(el.toLowerCase())
+              return (
+                <option key={el + '-' + i} value={`${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}`}>
+                  {' '}
+                  {el}
+                </option>
+              )
+            })}
           </TagsSelect>
         ) : null}
       </>
@@ -151,40 +162,44 @@ const BlogTagsAll = ({ activeTag, subTagsList, pageContext, ...props }) => {
   return (
     <>
       <TagsWrapper>
+        <li>
+          <TagsLink className={!activeTag ? 'is-active' : ''} to={routeLinks.blog}>
+            all areas
+          </TagsLink>
+        </li>
         {names &&
-          names.map(el => (
-            <li>
-              <TagsLink
-                className={activeTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}
-                to={`${routeLinks.blogTags({ tag: el.toLowerCase() })}1`}
-              >
-                {el}
-              </TagsLink>
-            </li>
-          ))}
+          names.map(el => {
+            const kebabCaseTag = kebabCase(el.toLowerCase())
+
+            return (
+              <li>
+                <TagsLink
+                  className={activeTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}
+                  to={`${routeLinks.blogTags({ tag: kebabCaseTag })}1`}
+                >
+                  {el.toLowerCase()}
+                </TagsLink>
+              </li>
+            )
+          })}
       </TagsWrapper>
       {tags.length > 0 ? (
         <SubTagsWrapper>
-          {tags.map(el => (
-            <li
-              className={
-                subTagsList.filter(item => item.toLowerCase() == el.toLowerCase()).length > 0 ? 'is-active' : ''
-              }
-            >
-              {' '}
-              <Link
-                to={
-                  subTagsList.filter(item => item.toLowerCase() == el.toLowerCase()).length > 0
-                    ? `${window.location.href.replace(el.toLowerCase() + '-', '')}`
-                    : subTagsList.length > 0
-                    ? `${window.location.href}${el.toLowerCase()}-`
-                    : `${pageContext.baseURI}/${el.toLowerCase()}-`
-                }
-              >
-                {el}
-              </Link>
-            </li>
-          ))}
+          <li className={!activeSubTag ? 'is-active' : ''}>
+            {' '}
+            <Link to={`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}1`}>All</Link>
+          </li>
+          {tags.map(el => {
+            const kebabCaseTag = kebabCase(activeTag)
+            const kebabCaseSubTag = kebabCase(el.toLowerCase())
+
+            return (
+              <li className={activeSubTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}>
+                {' '}
+                <Link to={`${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}/1`}>{el}</Link>
+              </li>
+            )
+          })}
         </SubTagsWrapper>
       ) : null}
     </>

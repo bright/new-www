@@ -2,8 +2,39 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 1.5rem;
+  margin: 6.5625rem 20%;
 
-  span:last-of-type {
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    span {
+
+
+      a {
+        margin-right: 1rem;
+        &.button.is-active {
+          background: #131214;
+        }
+     
+      }
+      
+      a.button.is-active {
+        background: #131214;
+        color: red;
+      }
+      
+    }
+  }
+
+  span.is-active {
+    a {
+      background: red;
+    }
+  }
+
+  & > span:last-of-type {
     flex-grow: 1;
     text-align: right;
   }

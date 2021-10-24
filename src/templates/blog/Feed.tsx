@@ -12,42 +12,20 @@ const BlogPostDummyUrl = '/images/dummy/blog_post.png'
 interface Props {
   posts: BlogPostModel[]
   numToSliced?: Number
-  comboTagsArr?: [String]
 }
 
-export const BlogFeed = ({ posts, numToSliced, comboTagsArr }: Props) => {
+export const BlogFeed = ({ posts, numToSliced }: Props) => {
   return (
     <div className={styles.feed}>
       {posts.map((post, index) => {
         if (numToSliced) {
           if (index < numToSliced) {
-            if (comboTagsArr && comboTagsArr.length > 0) {
-              const isFoundMatchingTags = post.tags.some(r => comboTagsArr.includes(r))
-
-              if (isFoundMatchingTags) {
-                return <Post key={post.id} post={post} />
-              } else {
-                return
-              }
-            } else {
-              return <Post key={post.id} post={post} />
-            }
+            return <Post key={post.id} post={post} />
           } else {
-            return
+            return <></>
           }
         } else {
-          if (comboTagsArr && comboTagsArr.length > 0) {
-            const isFoundMatchingTags = post.tags.some(r =>
-              comboTagsArr.some(el => el.toLowerCase() == r.toLowerCase())
-            )
-            if (isFoundMatchingTags) {
-              return <Post key={post.id} post={post} />
-            } else {
-              return
-            }
-          } else {
-            return <Post key={post.id} post={post} />
-          }
+          return <Post key={post.id} post={post} />
         }
       })}
     </div>

@@ -11,35 +11,35 @@ export interface PageContext {
   numPages: 21
   skip: 10
   tag?: String
-  baseURI?: String
+  subTag?: String
 }
 
 export interface PagingProps {
   pageContext: PageContext
-  isSelectedTags: boolean
+  baseURI: String
 }
 
-export const Paging: React.FC<PagingProps> = ({ pageContext, isSelectedTags }) => {
+export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
   const { currentPage, numPages, tag } = pageContext
 
-  const prevHref = isSelectedTags
-    ? `${routeLinks.blogTags({ tag: tag?.toLowerCase() })}${currentPage - 1 > 1 ? currentPage - 1 : ''}`
-    : `${routeLinks.blog}/${currentPage - 1 > 1 ? currentPage - 1 : ''}`
+  const prevHref = `${baseURI}${currentPage - 1 > 1 ? currentPage - 1 : ''}`
+  // const prevHref = isSelectedTags
+  //   ? `${routeLinks.blogTags({ tag: tag?.toLowerCase() })}${currentPage - 1 > 1 ? currentPage - 1 : ''}`
+  //   : `${routeLinks.blog}/${currentPage - 1 > 1 ? currentPage - 1 : ''}`
 
-  const nextHref = isSelectedTags
-    ? `${routeLinks.blogTags({ tag: tag?.toLowerCase() })}${currentPage + 1}`
-    : `${routeLinks.blog}/${currentPage + 1}`
+  const nextHref = `${baseURI}${currentPage + 1}`
+  // const nextHref = isSelectedTags
+  //   ? `${routeLinks.blogTags({ tag: tag?.toLowerCase() })}${currentPage + 1}`
+  //   : `${routeLinks.blog}/${currentPage + 1}`
 
   const renderPageNumbers = () => {
     const pageNumbers = []
     for (let i = 1; i < numPages + 1; i++) {
       if (((i < currentPage + 3 || i == numPages) && i > currentPage - 1) || i == 1) {
-        const pageNumberHref = isSelectedTags
-          ? `${routeLinks.blogTags({ tag: tag.toLowerCase() })}${i}`
-          : `${routeLinks.blog}/${i}`
+        const pageNumberHref = `${baseURI}${i}`
         const pageNumbersComponent = (
           <span>
-            <a href={pageNumberHref} className='button'>
+            <a href={pageNumberHref} className={pageContext.currentPage == i ? 'button is-active' : 'button'}>
               <span>{i}</span>
             </a>
           </span>
@@ -54,16 +54,14 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, isSelectedTags }) =
   return (
     <div className={styles.paging}>
       <span>
-        <a href={prevHref} className='button'>
-          <ArrowLeft />
-          <span>Previous</span>
+        <a href={prevHref} className={pageContext.currentPage > 1 ? 'button' : 'button is-shadow'}>
+          <span>back</span>
         </a>
       </span>
-      {numPagesNumber.map(el => el)}
+      <div>{numPagesNumber.map(el => el)}</div>
       <span>
         <a href={nextHref} className='button'>
-          <span>Next</span>
-          <ArrowRight />
+          <span>next</span>
         </a>
       </span>
     </div>
