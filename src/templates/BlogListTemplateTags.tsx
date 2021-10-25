@@ -16,6 +16,7 @@ import { PageTitle } from '../components/shared/index.styled'
 import BlogTagsAll from './blog/BlogTagsAll'
 import tagsTree from '../../content/tag-groups.yml'
 import { routeLinks } from '../config/routing'
+import { kebabCase } from '../helpers/pathHelpers'
 
 interface Props {
   data: GQLData
@@ -23,6 +24,8 @@ interface Props {
 }
 
 const BlogTagsPage: React.FC<Props> = ({ data, pageContext, ...props }) => {
+  const kebabCaseTag = pageContext.tag && kebabCase(pageContext.tag.toLowerCase())
+  const kebabCaseSubTag = pageContext.subTag && kebabCase(pageContext.subTag.toLowerCase())
   return (
     <Page className='page-blog-list'>
       <HelmetTitleDescription
@@ -56,8 +59,8 @@ PageDescription> import { useEffect, useState } from 'react';
               pageContext={pageContext}
               baseURI={
                 pageContext.subTag
-                  ? `${routeLinks.blogTags({ tag: pageContext.tag })}${pageContext.subTag.toLowerCase()}/`
-                  : `${routeLinks.blogTags({ tag: pageContext.tag })}`
+                  ? `${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}/`
+                  : `${routeLinks.blogTags({ tag: kebabCaseTag })}`
               }
             />
           )}
