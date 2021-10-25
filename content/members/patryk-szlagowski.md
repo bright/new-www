@@ -5,7 +5,7 @@ ex: false
 slug: patryk-sz
 name: Patryk Szlagowski
 short_name: Patryk
-email: patryk.szlagowskia@brightinventions.pl
+email: patryk.szlagowski@brightinventions.pl
 bio: Senior Backend Developer
 description: Senior Backend Developer
 avatar: /images/members/patryk_szlagowski.jpg
