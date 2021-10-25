@@ -3,6 +3,8 @@
   justify-content: flex-end;
   margin-top: 1.5rem;
   margin: 6.5625rem 20%;
+   
+
 
   div {
     width: 100%;
@@ -10,29 +12,14 @@
     justify-content: center;
 
     span {
-
-
       a {
         margin-right: 1rem;
-        &.button.is-active {
-          background: #131214;
-        }
-     
       }
-      
-      a.button.is-active {
-        background: #131214;
-        color: red;
-      }
-      
+    
     }
   }
 
-  span.is-active {
-    a {
-      background: red;
-    }
-  }
+
 
   & > span:last-of-type {
     flex-grow: 1;
