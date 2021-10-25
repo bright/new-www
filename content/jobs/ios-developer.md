@@ -33,11 +33,11 @@ At Bright Inventions you'll be an important part of [a group of talented, ambiti
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
 
-## about the job
+## about the role 
 
-We are looking for **an experienced passionate iOS Developer** whose main goal is to build high quality mobile applications for the clients from such industries as FinTech, Retail, Health, Ecommerce, Logistics or Fitness. 
+We are looking for an experienced passionate iOS Developer whose main goal will be to build high quality mobile applications for the client from a construction industry in Germany.
 
-Working with us means not only technically challenging projects, but also no management overhead, experienced team, following best practices such as Code Review, Pair programming or Continuous integration, and having a real impact on the work you do and the stack you use. 
+The application will automatically keep track of details such as all the contracts, project proposals as well as warranty requests, and payment processing. It will be also used for tasks management and it will include scheduling, budgeting, timesheets, and more.
 
 ## in this role you will
 
