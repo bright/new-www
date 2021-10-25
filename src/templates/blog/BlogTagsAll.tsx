@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import styled from 'styled-components'
+import { kebabCase } from '../../helpers/pathHelpers'
 
 const TagsWrapper = styled.ul`
   display: flex;
@@ -95,20 +96,17 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
 
     setNames(currentGroupNames)
     setTags(currentGroupTagsNames)
-
-    setTagValue(`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}`)
+    const kebabCaseTag = activeTag && kebabCase(activeTag.toLowerCase())
+    const kebabCaseSubTag = activeSubTag && kebabCase(activeSubTag.toLowerCase())
+    setTagValue(`${routeLinks.blogTags({ tag: kebabCaseTag })}`)
     if (activeSubTag) {
-      setSubTagValue(`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}${activeSubTag.toLowerCase()}`)
+      setSubTagValue(`${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}`)
     }
     return () => {
       window.removeEventListener('resize', handleResizeWindow)
     }
   }, [])
-  const kebabCase = string =>
-    string
-      .replace(/([a-z])([A-Z])/g, '$1-$2')
-      .replace(/\s+/g, '-')
-      .toLowerCase()
+
   if (width < breakpoint) {
     const handleOnChange = ({ target }) => {
       const { value } = target
