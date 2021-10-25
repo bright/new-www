@@ -37,7 +37,7 @@ The application will automatically keep track of details such as all the contrac
 
 ## what you will do
 
-* enhance a high-quality iOS ePOs application from the retail sector
+* enhance a high-quality iOS application from the construction sector
 * participate in software code reviews
 * work closely with project managers and product owners (in English) 
 * take the lead role in project and solve the most challenging technical issues
