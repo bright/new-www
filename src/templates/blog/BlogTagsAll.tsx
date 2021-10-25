@@ -76,14 +76,14 @@ const TagsSelect = styled.select`
 const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
   const [names, setNames] = useState([])
   const [tags, setTags] = useState([])
-  const [width, setWidth] = useState(window.innerWidth)
-  const breakpoint = 769
   const [tagValue, setTagValue] = useState('')
   const [subTagValue, setSubTagValue] = useState('')
+  const breakpoint = 769
+  const [width, setWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : breakpoint)
 
   useEffect(() => {
-    const hendleResizeWindow = () => setWidth(window.innerWidth)
-    window.addEventListener('resize', hendleResizeWindow)
+    const handleResizeWindow = () => setWidth(window.innerWidth)
+    window.addEventListener('resize', handleResizeWindow)
     const { groups } = tagsTree
     const currentGroupNames = groups.map(el => el.name)
     const currentGroupTags = groups.filter(el => el.name == activeTag)
@@ -101,7 +101,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
       setSubTagValue(`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}${activeSubTag.toLowerCase()}`)
     }
     return () => {
-      window.removeEventListener('resize', hendleResizeWindow)
+      window.removeEventListener('resize', handleResizeWindow)
     }
   }, [])
   const kebabCase = string =>
