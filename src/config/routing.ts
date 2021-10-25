@@ -8,7 +8,7 @@ export const routeLinks = {
     }
     return `/about-us/${params.page}/`
   },
-  blogTags(params?: { tag: string, tagGroups: string} ) {
+  blogTags(params?: { tag: string } ) {
     if (!params) {
       return `/blog/`
     }
