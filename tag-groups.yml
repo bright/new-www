@@ -20,8 +20,15 @@ groups:
         tags:
           - Frontend
           - Typescript
+          - TypeScript
+          - typescript
           - CSS
+          - css
           - HTML
+          - html
+          - xss
+          - javascript
+          - JavaScript
       - name: iOS
         # /blog/topics/development/iOS
         tags:
@@ -37,6 +44,10 @@ groups:
         tags:
           - testing
           - QA
+          - unit tests
+          - tests
+          - code-review
+          - code review
         # when QA and Android selected
         # /blog/topics/development/QA-Android
     tags:
