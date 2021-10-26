@@ -36,6 +36,7 @@ groups:
         # /blog/topics/development/QA
         tags:
           - testing
+          - QA
         # when QA and Android selected
         # /blog/topics/development/QA-Android
     tags:
