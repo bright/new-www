@@ -19,9 +19,16 @@ groups:
         # /blog/topics/development/Frontend
         tags:
           - Frontend
+          - Typescript
+          - TypeScript
           - typescript
           - CSS
+          - css
           - HTML
+          - html
+          - xss
+          - javascript
+          - JavaScript
       - name: iOS
         # /blog/topics/development/iOS
         tags:
@@ -36,6 +43,11 @@ groups:
         # /blog/topics/development/QA
         tags:
           - testing
+          - QA
+          - unit tests
+          - tests
+          - code-review
+          - code review
         # when QA and Android selected
         # /blog/topics/development/QA-Android
     tags:
@@ -65,7 +77,7 @@ groups:
       - Image classification
       - Nodejs
       - node.js
-      - Node.js
+      - Node.js  
       - nestjs
       - Mobile development
       - programming
