@@ -2,13 +2,19 @@ import React from 'react'
 
 import { ArrowLeft, ArrowRight } from '../../helpers/icons'
 import { routeLinks } from '../../config/routing'
-
+import { useWindowSize } from '../../components/utils/use-WindowSize'
 import * as styles from './Paging.module.scss'
 import styled from 'styled-components'
 import { usePagination, DOTS } from './use-pagination/use-pagination'
 import classnames from 'classnames'
+import variables from '../../styles/variables'
 
 const PagingWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  margin: 6.5625rem 20%;
+
   & > span > .button:first-of-type {
     width: 5.125rem;
   }
@@ -24,6 +30,7 @@ const PagingWrapper = styled.div`
     justify-content: center;
     position: relative;
     vertical-align: top;
+    margin-right: 1rem;
 
     & span {
       font-size: 1.375rem;
@@ -42,13 +49,63 @@ const PagingWrapper = styled.div`
     color: #131214;
     filter: opacity(0.4);
   }
-  & div > .dots {
+  & div {
+    width: 100%;
     display: flex;
-    align-items: flex-end;
-    margin: 0 2.3125rem 0 1.3125rem;
-    font-size: 1.375rem;
-    font-weight: 600;
-    color: #131214;
+    justify-content: center;
+    & > .dots {
+      display: flex;
+      align-items: flex-end;
+      margin: 0 2.3125rem 0 1.3125rem;
+      font-size: 1.375rem;
+      font-weight: 600;
+      color: #131214;
+    }
+  }
+  @media ${variables.device.tablet} {
+    height: 7.1875rem;
+    width: 100%;
+    margin: 5rem 0;
+    justify-content: space-between;
+    flex-direction: column;
+    & .arrowwrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      & > span > .button:first-of-type {
+        width: 5.125rem;
+      }
+    }
+    & div {
+      flex-grow: 1;
+      justify-content: center;
+
+      & span {
+        &:last-of-type .button {
+          margin-right: 0;
+        }
+        & .button {
+          width: 2rem;
+          height: 2rem;
+          margin-right: 0.6875rem;
+
+          & span {
+            font-size: 1rem;
+          }
+        }
+      }
+      & .dots {
+        margin: 0 1.75rem 0 1.0625rem;
+        font-size: 1rem;
+        align-items: flex-start;
+      }
+    }
+    & > span {
+      align-self: flex-end;
+      & .button {
+        margin-right: 0;
+      }
+    }
   }
 `
 export interface PageContext {
@@ -74,12 +131,53 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
     pageSize: 10,
   })
 
-  const prevHref = `${baseURI}${currentPage - 1 > 1 ? currentPage - 1 : ''}`
+  const prevHref = !tag && currentPage <= 2 ? baseURI : `${baseURI}${currentPage - 1}`
 
   const nextHref = `${baseURI}${currentPage + 1}`
+  const { width } = useWindowSize()
+  const breakpoint = 991
+  if (width < breakpoint) {
+    return (
+      <PagingWrapper>
+        <div>
+          {paginationRange &&
+            paginationRange.map((pageNumber: any, i: any) => {
+              if (pageNumber === DOTS) {
+                return (
+                  <span key={pageNumber} className='pagination-item dots'>
+                    &#8230;
+                  </span>
+                )
+              }
+              const pageNumberHref = !tag && i == 0 ? baseURI : `${baseURI}${pageNumber}`
+              return (
+                <span key={pageNumber}>
+                  <a href={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
+                    <span>{pageNumber}</span>
+                  </a>
+                </span>
+              )
+            })}
+        </div>
+        <div className='arrowwrapper'>
+          {' '}
+          <span>
+            <a href={prevHref} className={pageContext.currentPage > 1 ? 'button is-shadow' : 'button'}>
+              <span>back</span>
+            </a>
+          </span>
+          <span>
+            <a href={nextHref} className='button'>
+              <span>next</span>
+            </a>
+          </span>
+        </div>
+      </PagingWrapper>
+    )
+  }
 
   return (
-    <PagingWrapper className={styles.paging}>
+    <PagingWrapper>
       <span>
         <a href={prevHref} className={pageContext.currentPage > 1 ? 'button is-shadow' : 'button'}>
           <span>back</span>
@@ -89,12 +187,18 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
         {paginationRange &&
           paginationRange.map((pageNumber: any, i: any) => {
             if (pageNumber == DOTS) {
-              return <span className='pagination-item dots'>&#8230;</span>
+              return (
+                <span key={pageNumber} className='pagination-item dots'>
+                  &#8230;
+                </span>
+              )
             }
             const pageNumberHref = !tag && i == 0 ? baseURI : `${baseURI}${pageNumber}`
+            console.log(currentPage)
+            console.log(i)
             return (
-              <span>
-                <a href={pageNumberHref} className={currentPage == i + 1 ? 'button is-active' : 'button'}>
+              <span key={pageNumber}>
+                <a href={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
                   <span>{pageNumber}</span>
                 </a>
               </span>
