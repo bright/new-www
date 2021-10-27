@@ -40,7 +40,7 @@ const BlogTagsPage: React.FC<Props> = ({ data, pageContext, ...props }) => {
         <Section>
           <PageTitle>
             {' '}
-            <span>bright</span> devs blog tags
+            <span>bright</span> devs blog
           </PageTitle>
 
           <BlogTagsAll activeTag={pageContext.tag} activeSubTag={pageContext.subTag} />
