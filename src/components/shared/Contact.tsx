@@ -41,6 +41,9 @@ const Container = styled.div`
   @media ${variables.device.laptop} {
     max-width: 800px;
   }
+  @media ${variables.device.tabletXL} {
+    max-width: 824px;
+  }
 `
 
 const SuccesMessage = styled(CustomTextRegular)`

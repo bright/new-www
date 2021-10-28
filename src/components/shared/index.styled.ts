@@ -164,6 +164,10 @@ export const CustomSection = styled.section`
     padding: 0rem 6rem 0rem;
   }
 
+  @media ${variables.device.tabletXL} {
+    padding: 0rem 9rem 0rem;
+  }
+
   @media ${variables.device.tablet} {
     padding: 0rem 2.25rem 0rem;
   }
@@ -207,7 +211,13 @@ export const CustomTextRegular = styled.div`
   opacity: .75;
 `
 export const CustomSectionInner = styled(SectionInner)`
+
 @media ${variables.device.laptop}{
   max-width: 745px;
 }
+@media ${variables.device.tabletXL}{
+  max-width: 824px;
+}
+
+
 `

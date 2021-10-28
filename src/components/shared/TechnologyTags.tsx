@@ -10,6 +10,9 @@ const SectionBlackContainer = styled(SectionBlack)`
   @media ${variables.device.laptop} {
     padding: 4rem 6rem;
   }
+  @media ${variables.device.tabletXL} {
+    padding: 4rem 9rem;
+  }
   @media ${variables.device.tablet} {
     padding: 4rem 2.25rem;
   }

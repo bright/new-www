@@ -11,6 +11,9 @@ const AchievementsSectionBlack = styled(SectionBlack)`
   @media ${variables.device.laptop} {
     padding: 6rem 11.125rem;
   }
+  @media ${variables.device.tabletXL} {
+    padding: 6rem 9rem;
+  }
   @media ${variables.device.tablet} {
     padding: 6rem 11.125rem;
   }
@@ -35,6 +38,9 @@ const AchievementsWrapper = styled.div`
   }
   @media ${variables.device.laptop} {
     max-width: 1080px;
+  }
+  @media ${variables.device.tabletXL} {
+    max-width: 992px;
   }
   @media ${variables.device.tablet} {
     max-width: 448px;

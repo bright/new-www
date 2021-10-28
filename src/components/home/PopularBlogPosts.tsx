@@ -39,6 +39,15 @@ const HeroBlog = styled.section`
         }
       }
     }
+    @media ${variables.device.tabletXL} {
+      & .hero-blog.columns {
+        margin: 0;
+        padding: 0 9rem;
+        & .hero-blog.column {
+          padding: 0 1.4375rem 2.875rem;
+        }
+      }
+    }
   @media ${variables.device.tablet} {
     width: 100%;
       & .hero-blog.columns {

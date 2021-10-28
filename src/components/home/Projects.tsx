@@ -63,6 +63,10 @@ const BlockSmall = styled.div`
     width: calc(50% - 1.75rem);
     margin: 1.75rem;
   }
+  @media ${variables.device.tabletXL} {
+    width: calc(50% - 1.41rem);
+    margin: 1.41rem;
+  }
   @media ${variables.device.tablet} {
     width: 100%;
     min-height: auto;

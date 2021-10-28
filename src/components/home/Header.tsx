@@ -9,15 +9,18 @@ import variables from '../../styles/variables'
 
 const HeroWrapper = styled.div`
   max-width: 1449px;
-  color: #0A0A0A;
+  color: #0a0a0a;
   @media ${variables.device.desktop} {
     max-width: 1438px;
   }
   @media ${variables.device.laptop} {
     max-width: 1237px;
   }
+  @media ${variables.device.tabletXL} {
+    max-width: 992px;
+  }
   @media ${variables.device.tablet} {
-    max-width: 681px;
+    max-width: 904px;
   }
   @media ${variables.device.mobile} {
     max-width: 347px;
@@ -27,27 +30,34 @@ const HeroWrapper = styled.div`
       font-size: 8.0625rem;
       line-height: 8.5rem;
       margin: 0;
-      
     }
-  @media ${variables.device.laptop} {
-    & > div > .title {
-      font-size: 6.9375rem;
-      line-height: 7.3125rem;
-      margin: 0;
+    @media ${variables.device.laptop} {
+      & > div > .title {
+        font-size: 6.9375rem;
+        line-height: 7.3125rem;
+        margin: 0;
+      }
     }
-  }
-  @media ${variables.device.tablet} {
-    & > div > .title {
-      font-size: 6.25rem;
-      line-height: 7.3125rem;
-      margin: 0;
+    @media ${variables.device.tabletXL} {
+      & > div > .title {
+        font-size: 5.5625rem;
+        line-height: 7.25rem;
+        margin: 0;
+      }
     }
-  }
+    @media ${variables.device.tablet} {
+      & > div > .title {
+        font-size: 6.25rem;
+        line-height: 7.3125rem;
+        margin: 0;
+      }
+    }
 
-  @media ${variables.device.mobile} {
-    & > div > .title {
-      font-size: clamp(2.3125rem, -0.6662rem + 14.8936vw, 3.1875rem);
-      line-height: clamp(3.1875rem, 0.2088rem + 14.8936vw, 4.0625rem);
+    @media ${variables.device.mobile} {
+      & > div > .title {
+        font-size: clamp(2.3125rem, -0.6662rem + 14.8936vw, 3.1875rem);
+        line-height: clamp(3.1875rem, 0.2088rem + 14.8936vw, 4.0625rem);
+      }
     }
   }
 `

@@ -18,6 +18,9 @@ const HeroSectionWrapper = styled.section`
   @media ${variables.device.laptop} {
     padding: 0 6rem 7.25rem;
   }
+  @media ${variables.device.tabletXL} {
+    padding: 0 9rem 5.125rem;
+  }
   @media ${variables.device.tablet} {
     padding: 0 2.25rem 5.125rem;
   }
@@ -33,9 +36,16 @@ const ImagesBase = styled.div`
     flex-grow: 1;
     margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
     width: calc(100% + var(--gap));
-    @media ${variables.device.tablet} {
-      --gap: 2.4375rem;
+    @media ${variables.device.tabletXL} {
+      --gap: 2rem;
     }
+    & > * :not(.image-veritical) {
+      margin: var(--gap) 0 0 var(--gap);
+    }
+  }
+  @media ${variables.device.tablet} {
+    --gap: 2.4375rem;
+
     & > * :not(.image-veritical) {
       margin: var(--gap) 0 0 var(--gap);
     }
@@ -43,9 +53,10 @@ const ImagesBase = styled.div`
 
   @media ${variables.device.mobile} {
     --gap: 1rem;
-  }
-  & > * :not(.image-veritical) {
-    margin: var(--gap) 0 0 var(--gap);
+
+    & > * :not(.image-veritical) {
+      margin: var(--gap) 0 0 var(--gap);
+    }
   }
 `
 
@@ -59,9 +70,17 @@ export const ImagesHorizontal = styled(ImagesBase)`
       border: 1px solid #d3d3d3;
     }
   }
+  @media ${variables.device.laptop} {
+    height: calc(666px + var(--gap));
+    justify-content: center;
+  }
+  @media ${variables.device.tabletXL} {
+    height: calc(530px + var(--gap));
+    justify-content: center;
+  }
   @media ${variables.device.tablet} {
-    flex-wrap: wrap;
-    height: auto;
+    flex-wrap: nowrap;
+    height: calc(632px + var(--gap));
     justify-content: center;
 
     & > * {
@@ -73,11 +92,20 @@ export const ImagesHorizontal = styled(ImagesBase)`
   }
 
   @media ${variables.device.mobile} {
+    flex-wrap: wrap;
+    height: auto;
+
     & > * {
-      flex-basis: 45%;
+      flex-basis: calc(50% - var(--gap));
     }
     & > *:nth-child(n + 4) {
       display: block;
+    }
+    & > :nth-child(3) {
+      order: 2;
+    }
+    & > :nth-child(4) {
+      order: 1;
     }
     & > *:nth-child(5) {
       display: none;
@@ -94,6 +122,7 @@ export const ImagesVertical = styled(ImagesBase)`
     height: 50%;
     &.image-veritical {
       border: 1px solid #d3d3d3;
+
       & > img {
         object-position: 50% 20%;
       }
@@ -101,11 +130,6 @@ export const ImagesVertical = styled(ImagesBase)`
         margin-bottom: var(--gap);
       }
     }
-  }
-
-  @media ${variables.device.mobile} {
-    max-width: 50%;
-    flex-basis: 45%;
   }
 `
 export const SectionCareerTitle = styled(Section)`

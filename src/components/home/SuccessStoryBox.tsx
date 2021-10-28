@@ -32,6 +32,15 @@ const Container = styled.div`
     }
   }
 
+  @media ${variables.device.tabletXL} {
+    width: calc(50% - 1.41rem);
+    margin: 1.41rem;
+
+    &:nth-last-of-type(2) {
+      margin-bottom: 0rem;
+    }
+  }
+
   @media ${variables.device.tablet} {
     margin: 0.5625rem 0;
     width: 100%;
@@ -49,7 +58,12 @@ const Title = styled.h3`
   font-style: normal;
   font-weight: 700;
   color: black;
+  @media ${variables.device.tabletXL} {
+    padding-top: 2rem;
+    font-size: 1.5625rem;
+  }
   @media ${variables.device.mobile} {
+    padding-top: 3rem;
     font-size: ${variables.font.customtitle.sizeSuccesTitleStoryMobile};
   }
 `
@@ -60,6 +74,9 @@ const Image = styled.figure`
 
   @media ${variables.device.laptop} {
     height: 488px;
+  }
+  @media ${variables.device.tabletXL} {
+    height: 388px;
   }
 
   @media ${variables.device.tablet} {

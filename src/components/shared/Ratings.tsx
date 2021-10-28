@@ -12,6 +12,9 @@ const CarouselSectionBlack = styled(SectionBlack)`
   @media ${variables.device.laptop} {
     padding: 2rem 6rem 6rem 6rem;
   }
+  @media ${variables.device.tabletXL} {
+    padding: 2rem 9rem 6rem 9rem;
+  }
   @media ${variables.device.tablet} {
     padding: 2rem 2.25rem 6rem 2.25rem;
   }
