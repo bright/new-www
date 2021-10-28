@@ -2,7 +2,7 @@ import React from 'react'
 
 import { ArrowLeft, ArrowRight } from '../../helpers/icons'
 import { routeLinks } from '../../config/routing'
-import { useWindowSize } from '../../components/utils/use-WindowSize'
+import { useWindowSize } from '../../components/utils/use-windowsize'
 import * as styles from './Paging.module.scss'
 import styled from 'styled-components'
 import { usePagination, DOTS } from './use-pagination/use-pagination'
