@@ -78,3 +78,7 @@ At the end, please ask yourself these questions:
 **As a software engineer** have you happened to stick so hard to acceptance criteria that you missed some meaningful details in your implementation?
 
 **As a project manager**, have you come across non-supportive, acceptance-criteria-oriented devs? How did you approach the lack of reason in their attitude?
+
+
+
+Photo by [Pierre Châtel-Innocenti](https://unsplash.com/@chatelp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
