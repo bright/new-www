@@ -7,12 +7,14 @@ tags:
 date: 2021-10-28T09:00:11.831Z
 title: How to mount a lamp like a pragmatist?
 layout: post
-image: /images/pierre-chatel-innocenti-pxozstdazeu-unsplash.jpg
+image: /images/blog_post_lamp_development.png
 hidden: false
 comments: true
 published: true
 ---
-### The Bad Example
+![mounting lamp](/images/blog_post_lamp_development.png)
+
+## The Bad Example
 
 Imagine a character called Jack who hires an electrician to have a ceiling lamp mounted.
 
@@ -34,7 +36,7 @@ In that story Jack is the project manager and Mr Electrician is the orthodox, ac
 
 Such a situation is a project manager’s nightmare. The role of a project manager is to receive, digest and broadcast signals between people of different worlds. From developers, through upper management up to customers. They physically cannot point out every single thing to be done and hold the dev by hand to make sure everything in his implementation makes sense. **They want to trust the developers, have faith in their common sense and rely on their technical, but also user-oriented expertise**.
 
-### The Good Example
+## The Good Example
 
 Since we have covered the nightmare scenario, let’s now imagine a more pragmatic and professional approach to mounting the lamp.
 
@@ -48,7 +50,7 @@ Jack was absolutely stunned by the professionalism and complexity of the advice 
 
 The result of Mr Pragmatic’s work was a beautifully lit and safely wired room.
 
-### The Analysis
+## The Analysis
 
 Why was Mr Pragmatic's approach so much more valuable to Jack?
 
@@ -67,7 +69,7 @@ Following Mr’s Pragmatic attitude you will gain lots of trust from your Projec
 
 >  “The skill I value the most in developers is the ability to take a look at the product as a whole, beyond the Jira tasks” - Kasia, Project Manager at Bright Inventions
 
-### The Summary
+## The Summary
 
 **The professional developer takes responsibility for fulfilling a high level, abstract need, he supports the manager to achieve his needs**. A pragmatic approach is to take a holistic view on the idea, the concept, the issue that you are working on. Change perspective, think like a specialist, but then like a plain, ignorant user. Do not blindly follow the acceptance criteria of your task. Fulfil them, but make sure they sit well within the system. Verify all the flows around your new feature - do they still make sense? Should they be aligned? Think about the future of this feature - is it likely to be extended? Does the codebase allow that? Should you propose a refactoring for that module? Be courageous, accept the fact that the business thinking is intrinsically entangled into developers' work routine. **Do not only do the coding, but take responsibility for the functionalities.**
 
@@ -76,3 +78,7 @@ At the end, please ask yourself these questions:
 **As a software engineer** have you happened to stick so hard to acceptance criteria that you missed some meaningful details in your implementation?
 
 **As a project manager**, have you come across non-supportive, acceptance-criteria-oriented devs? How did you approach the lack of reason in their attitude?
+
+
+
+Photo by [Pierre Châtel-Innocenti](https://unsplash.com/@chatelp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
