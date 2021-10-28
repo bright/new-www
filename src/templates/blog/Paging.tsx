@@ -8,6 +8,7 @@ import styled from 'styled-components'
 import { usePagination, DOTS } from './use-pagination/use-pagination'
 import classnames from 'classnames'
 import variables from '../../styles/variables'
+import { any, number } from 'prop-types'
 
 const PagingWrapper = styled.div`
   display: flex;
@@ -47,7 +48,7 @@ const PagingWrapper = styled.div`
   & .is-shadow {
     border: 1px solid #131214;
     color: #131214;
-    filter: opacity(0.4);
+    filter: opacity(0.2);
   }
   & div {
     width: 100%;
@@ -132,7 +133,7 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
   })
 
   const prevHref = !tag && currentPage <= 2 ? baseURI : `${baseURI}${currentPage - 1}`
-
+  const lastPage = paginationRange[paginationRange?.length - 1]
   const nextHref = `${baseURI}${currentPage + 1}`
   const { width } = useWindowSize()
   const breakpoint = 991
@@ -162,12 +163,12 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
         <div className='arrowwrapper'>
           {' '}
           <span>
-            <a href={prevHref} className={pageContext.currentPage > 1 ? 'button is-shadow' : 'button'}>
+            <a href={prevHref} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
               <span>back</span>
             </a>
           </span>
           <span>
-            <a href={nextHref} className='button'>
+            <a href={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
               <span>next</span>
             </a>
           </span>
@@ -179,7 +180,7 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
   return (
     <PagingWrapper>
       <span>
-        <a href={prevHref} className={pageContext.currentPage > 1 ? 'button is-shadow' : 'button'}>
+        <a href={prevHref} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
           <span>back</span>
         </a>
       </span>
@@ -206,7 +207,7 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
           })}
       </div>
       <span>
-        <a href={nextHref} className='button'>
+        <a href={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
           <span>next</span>
         </a>
       </span>
