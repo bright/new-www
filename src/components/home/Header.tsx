@@ -10,6 +10,12 @@ import variables from '../../styles/variables'
 const HeroWrapper = styled.div`
   max-width: 1449px;
   color: #0a0a0a;
+  & > div > .title {
+    font-size: 8.0625rem;
+    line-height: 8.5rem;
+    margin: 0;
+    color: #0a0a0a;
+  }
   @media ${variables.device.desktop} {
     max-width: 1438px;
   }
@@ -57,6 +63,7 @@ const HeroWrapper = styled.div`
       & > div > .title {
         font-size: clamp(2.3125rem, -0.6662rem + 14.8936vw, 3.1875rem);
         line-height: clamp(3.1875rem, 0.2088rem + 14.8936vw, 4.0625rem);
+        color: #000000;
       }
     }
   }
