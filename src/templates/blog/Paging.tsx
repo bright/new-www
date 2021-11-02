@@ -9,6 +9,7 @@ import { usePagination, DOTS } from './use-pagination/use-pagination'
 import classnames from 'classnames'
 import variables from '../../styles/variables'
 import { any, number } from 'prop-types'
+import { useEffect } from 'react'
 
 const PagingWrapper = styled.div`
   display: flex;
@@ -49,6 +50,7 @@ const PagingWrapper = styled.div`
     border: 1px solid #131214;
     color: #131214;
     filter: opacity(0.2);
+    pointer-events: none;
   }
   & div {
     width: 100%;
@@ -127,7 +129,7 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
   const { currentPage, numPages, tag } = pageContext
   const paginationRange = usePagination({
     currentPage: currentPage,
-    totalCount: numPages * 10,
+    totalCount: (numPages - 1) * 10,
     siblingCount: 1,
     pageSize: 10,
   })
@@ -195,8 +197,6 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
               )
             }
             const pageNumberHref = !tag && i == 0 ? baseURI : `${baseURI}${pageNumber}`
-            console.log(currentPage)
-            console.log(i)
             return (
               <span key={pageNumber}>
                 <a href={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
