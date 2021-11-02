@@ -8,18 +8,18 @@ import NextArrowWhite from '../../assets/nextArrowWhite.svg'
 import variables from '../../styles/variables'
 
 const CarouselSectionBlack = styled(SectionBlack)`
-  padding: 2rem 15rem 6rem 15rem;
+  padding: 2rem 15rem 0rem 15rem;
   @media ${variables.device.laptop} {
-    padding: 2rem 6rem 6rem 6rem;
+    padding: 3.1875rem 6rem 0rem 6rem;
   }
   @media ${variables.device.tabletXL} {
-    padding: 2rem 9rem 6rem 9rem;
+    padding: 2rem 9rem 0rem 9rem;
   }
   @media ${variables.device.tablet} {
-    padding: 2rem 2.25rem 6rem 2.25rem;
+    padding: 2rem 2.25rem 0rem 2.25rem;
   }
   @media ${variables.device.mobile} {
-    padding: 2rem 1.125rem 6rem 1.125rem;
+    padding: 2rem 1.125rem 0rem 1.125rem;
   }
 `
 
@@ -60,7 +60,7 @@ const CarouselContainer = styled.div`
       }
     }
     & .author {
-      margin: 6.5625rem 0 8.5rem;
+      margin: 6.5625rem 0 7.9375rem;
       font-size: 1.375rem;
       line-height: 1.69rem;
       opacity: 0.74;
