@@ -15,6 +15,7 @@ import blogPostDefaultImage from '../../static/images/dummy/blog_post.png'
 import { PageTitle } from '../components/shared/index.styled'
 import BlogTagsAll from './blog/BlogTagsAll'
 import { routeLinks } from '../config/routing'
+import ScrollToTop from '../components/subcomponents/ScrollToTop'
 
 interface Props {
   data: GQLData
@@ -49,6 +50,7 @@ const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
 PageDescription> */}
           </HideTablet>
           <BlogFeed posts={createBlogPosts(data)} />
+          <ScrollToTop />
           <Paging pageContext={pageContext} baseURI={`${routeLinks.blog}/`} />
         </Section>
       </div>

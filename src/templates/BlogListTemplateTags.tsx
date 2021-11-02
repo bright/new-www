@@ -17,6 +17,7 @@ import BlogTagsAll from './blog/BlogTagsAll'
 import tagsTree from '../../content/tag-groups.yml'
 import { routeLinks } from '../config/routing'
 import { kebabCase } from '../helpers/pathHelpers'
+import ScrollToTop from '../components/subcomponents/ScrollToTop'
 
 interface Props {
   data: GQLData
@@ -54,6 +55,7 @@ PageDescription> import { useEffect, useState } from 'react';
 */}
 
           <BlogFeed posts={createBlogPosts(data)} />
+          <ScrollToTop />
           {pageContext.numPages > 1 && (
             <Paging
               pageContext={pageContext}
