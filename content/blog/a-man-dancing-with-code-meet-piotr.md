@@ -30,11 +30,13 @@ First ever language that I learned was Logo Komeniusz which was a typical progra
 
 Somewhere between my third and fourth year of studies I started to look for my first job in software development industry. Back then it was not easy to find one. I was at my first job for a short period of time and then I joined a corporation in Gdańsk. I met many experienced developers there who were following hot trends regarding project management, involving Agile which was not so popular in Poland back then. When I was starting not many people heard about test-driven development. Now it is common. First, I programmed in C# then I learned JavaScript, Ruby and Objective-C. It fastly became clear to me that when you learn one paradygmat in programming then it is easy to use this knowledge to learn other languages in that paradygmat. I tried not only to focus on learning programming but also to understand how our components take place in the system architecture. Now we call it microservices then it was called service-oriented architecture (SOA). After a few years I felt that I needed a change. It was hard to have influence on things working in a corporation. And I could see how much can be achieved in small teams so I wanted to join a smaller company. And that is how I came to Bright Inventions.
 
+![Piotr Mionskowski – Technology Evangelist at Bright Inventions](/images/blogpost_www_brightstory_piotr_b2.png)
+
 ## You have around 35k total reputation on Stackoverflow. Only about 7k users are on your level. How did that happen?
 
 Really? It is actually hard to believe that I am in such a small group. I guess that after moving from C# to JS stack I was shocked how Java is vast compared to C#. Of course, there were libraries that helped to manage that. Yet when I met Kotlin it seemed that this is a perfect combination of both systems. Its compatibility with libraries and source code of Java was so high that as a result my productivity increased. It was much easier to write code in Kotlin than Java. Now this gap between both languages has been minimised. But then I thought that Kotlin was such a great option and yet still not many people knew it. So I dedicated my time to help people who wanted to know Kotlin. I tried to answer as many questions as I could about Kotlin on Stackoverflow.
 
-I think when it comes to Stackoverflow reputation you cannot cheat the system. You have to be systematic about it. Answer every possible question you know the answer to. And be patient enough to wait for your reputation to grow. 
+I think when it comes to [Stackoverflow](https://stackoverflow.com/users/155213/miensol) reputation you cannot cheat the system. You have to be systematic about it. Answer every possible question you know the answer to. And be patient enough to wait for your reputation to grow. 
 
 ## What are your predictions on trends for software development for 2022?
 
