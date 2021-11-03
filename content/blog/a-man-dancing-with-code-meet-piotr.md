@@ -9,11 +9,14 @@ tags:
 date: 2021-11-03T08:44:02.443Z
 title: A Man Dancing with Code. Meet Piotr
 layout: post
+image: /images/blogpost_www_brightstory_piotr_b2.png
 hidden: false
 comments: true
 published: true
 ---
 **Piotr is a bright team leader. Some would say that he is our tech dad, always ready to assist you. He asks and asks questions to test your approach and as a result brings the best possible solution out of you! The clients' dream is to clone him but probably he is the only one who could figure that out. Meet Piotr, a programmer with over 12 years of experience who always remembers that behind every line of code there's a human.**
+
+![Piotr Mionskowski – Team Leader at Bright Inventions](/images/blogpost_brightstory_piotr_b3.png)
 
 ## From a junior to tech evangelist. How did it all begin?
 
@@ -38,3 +41,27 @@ I think when it comes to Stackoverflow reputation you cannot cheat the system. Y
 The main trend that I see is that programmers are becoming more and more responsible for managing backend infrastructure or even setting up cloud services on their own. Cloud providers modify their products to make them more accessible for developers. DevOps are not as necessary as they used to be. They are still needed naturally, but we used to ask them to do the configuration for us and now we can do it by ourselves. 
 
 Another strong trend is moving to higher and higher levels of abstraction in terms of developing backend systems in the runtime environment. What I mean by that is using more and more serverless technologies. Tools and frameworks we use make us use more functional programming. We can see that especially in frameworks like React or Compositional AI.
+
+## Why do we work with AWS at Bright Inventions? When should we choose AWS or Azure?
+
+There is not a great story behind it. We use AWS because we know it. :) It is like driving on the left side of the street in England or Australia. It is just how they learned so they do it that way. At Bright Inventions we started with AWS so we stuck to it. I do not think that it would make a great technical difference if we used Azure or other cloud services instead of AWS. Looking from a business perspective it does not matter as well. 
+
+## What best practices do you follow when writing a code?
+
+**We should write code keeping in mind people who are going to read it. First, we have to focus on the recipients of our code, not on efficiency or pace of writing it.** It comes from the fact that code is more often read than written. If you optimise it too early, you usually complicate it, which makes it more difficult to understand it.
+
+It is definitely something very difficult for developers. It often might be hard to present in the code what we wanted to achieve. For your programs it might be irrelevant – application does what you told it to do so it seems fine. You did your job. So, we often do not think if we could write it differently so our code would be better understood by humans. Thus if the next person comes and reads our code, they will understand what we wanted to do. Often we do not have time for that because the program works the way we wanted it to work so why should we bother? But in a longer perspective – we should care! You can see a value years from now. When someone new has to take a look at it after years to understand the reasons why this code was made, then we have an issue. Especially when we plan to develop our solution for years, then we have to write code for future readers.
+
+## Can everybody be a software developer?
+
+I think everyone who wants to be a developer can become one. I remember that when I started to learn I felt really frustrated. Now you have access to lots of materials, guides, tutorials and more. When I was starting there was not even Stack Overflow so imagine how long ago that was. 😉  I think now it is easier because there is access to this knowledge. It is up to you if you are motivated enough to go through this. If you want, you have every possibility to learn. Of course, you have to dedicate lots of your time to achieve your goals but I guess that is typical for many industries. You do not become a lawyer in 2 days. That is a process for programmers as well. You have to learn and train systematically. After some time it can give you lots of satisfaction when you finally feel the power to solve some problems in the virtual world.
+
+## What projects you have worked on bring the best memories?
+
+**I always enjoyed projects that I truly believed in and felt that they solve real problems.** For example, when we were developing at Bright Inventions an app supporting taking medicine it was really interesting to understand older people's interaction with the phone. It gave me a unique perspective on our app users.
+
+When we were working on a system gathering data about discounts at stores we could also learn more about human shopping behavior. That was also very interesting. Another interesting case is building an EPOS system for restaurants. This is a software used for 8 hours a day by employees of restaurants. They completely rely on our work. It is not a lifestyle app that gives us pleasure but is necessary to do our work. In the case of ePOS systems our priorities are stability and ensuring business processes even despite the obstacles like Internet connection disruptions. If Facebook does not work, we can go for a walk. If the ePOS application does not work, we have a line of frustrated end users that cannot pay for their orders. So, the level of stress is much higher. Also, we cannot do changes in interface just like that. As I mentioned, our clients use it for 8 hours a day and have strong habits associated with the app like that. The user's memory is massive here. If you move one button, you can totally disturb their daily work. Every change on the product must be reasonable because it will affect your users. Feeling the responsibility for users is a crucial part of our job as software developers.
+
+## What do you do after work?
+
+Recently I got into joinery. I took my first steps by building woodshed but I plan to build more. Like many people at Bright Inventions I love jogging. After work I also learn to stay up to date. I like to watch good movies as well. One that I recently enjoyed was “Fury” with Brad Pitt. It was not another movie about WW2. It brought a new perspective to the table.
