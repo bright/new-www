@@ -16,7 +16,7 @@ const range = (rangeItems: RangeItems)  => {
 
 
 interface PaginationItems {
-    totalCount: number;
+    totalPageCount: number;
     pageSize: number;
     siblingCount: number;
     currentPage: number
@@ -25,9 +25,8 @@ interface PaginationItems {
 export const usePagination = (
     paginationItems: PaginationItems
 ) => {
-    const {totalCount, pageSize, siblingCount, currentPage } = paginationItems
+    const {totalPageCount, pageSize, siblingCount, currentPage } = paginationItems
   const paginationRange = useMemo(() => {
-    const totalPageCount = Math.ceil(totalCount / pageSize);
 
     const totalPageNumbers = siblingCount + 5;
 
@@ -67,7 +66,7 @@ export const usePagination = (
       let middleRange = range({start: leftSiblingIndex, end: rightSiblingIndex});
       return [firstPageIndex, DOTS, ...middleRange, DOTS, lastPageIndex];
     }
-  }, [totalCount, pageSize, siblingCount, currentPage]);
+  }, [totalPageCount, pageSize, siblingCount, currentPage]);
 
   return paginationRange;
 };

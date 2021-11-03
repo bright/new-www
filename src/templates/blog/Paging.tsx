@@ -127,9 +127,10 @@ export interface PagingProps {
 
 export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
   const { currentPage, numPages, tag } = pageContext
+  console.log(numPages)
   const paginationRange = usePagination({
     currentPage: currentPage,
-    totalCount: (numPages - 1) * 10,
+    totalPageCount: numPages,
     siblingCount: 1,
     pageSize: 10,
   })
