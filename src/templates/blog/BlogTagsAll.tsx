@@ -85,6 +85,13 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
   useEffect(() => {
     const handleResizeWindow = () => setWidth(window.innerWidth)
     window.addEventListener('resize', handleResizeWindow)
+    setCurrentGroupTagsNames()
+    return () => {
+      window.removeEventListener('resize', handleResizeWindow)
+    }
+  }, [])
+
+  const setCurrentGroupTagsNames = async () => {
     const { groups } = tagsTree
     const currentGroupNames = groups.map(el => el.name)
     const currentGroupTags = groups.filter(el => el.name == activeTag)
@@ -102,10 +109,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
     if (activeSubTag) {
       setSubTagValue(`${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}`)
     }
-    return () => {
-      window.removeEventListener('resize', handleResizeWindow)
-    }
-  }, [])
+  }
 
   if (width < breakpoint) {
     const handleOnChange = ({ target }) => {
@@ -126,7 +130,8 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
       <>
         <TagsSelect value={tagValue} onChange={handleOnChange}>
           <option value={routeLinks.blog}>all areas</option>
-          {names &&
+          {typeof names !== 'undefined' &&
+            names.length > 0 &&
             names.map((el, i) => {
               const kebabCaseTag = kebabCase(el.toLowerCase())
 
@@ -165,7 +170,8 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
             all areas
           </TagsLink>
         </li>
-        {names &&
+        {typeof names !== 'undefined' &&
+          names.length > 0 &&
           names.map(el => {
             const kebabCaseTag = kebabCase(el.toLowerCase())
 
