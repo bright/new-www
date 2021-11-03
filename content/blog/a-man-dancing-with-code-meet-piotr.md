@@ -6,6 +6,7 @@ tags:
   - development
   - backend
   - business
+  - Kotlin
 date: 2021-11-03T08:44:02.443Z
 title: A Man Dancing with Code. Meet Piotr
 layout: post
