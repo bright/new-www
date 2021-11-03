@@ -10,7 +10,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     `
       {
         allMarkdownRemark(
-          filter: { frontmatter: { layout: { eq: "post" } } }
+          filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -33,6 +33,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const posts = result.data.allMarkdownRemark.edges
   const postsPerPage = 10
   const numPages = Math.ceil(posts.length / postsPerPage)
+
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/blog` : `/blog/${i + 1}`,
@@ -53,7 +54,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       `
       {
         allMarkdownRemark(
-          filter: {frontmatter: {layout: {eq: "post"}, 
+          filter: {frontmatter: {layout: {eq: "post"}, published: { ne: false }, hidden: { ne: true },
           tags: {in: ${searchTags}}}}
           sort: {fields: [frontmatter___date], order: DESC}
           limit: 1000
@@ -72,6 +73,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const posts = result.data.allMarkdownRemark.edges
     const postsPerPage = 10
     const numPages = Math.ceil(posts.length / postsPerPage)
+
     Array.from({ length: numPages }).forEach((item, i) => {
       createPage({
         path: `/blog/${_.kebabCase(tag.name.toLowerCase())}/${i + 1}`,
@@ -94,7 +96,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           `
           {
             allMarkdownRemark(
-              filter: {frontmatter: {layout: {eq: "post"}, 
+              filter: {frontmatter: {layout: {eq: "post"}, published: { ne: false }, hidden: { ne: true },
               tags: {in: ${searchTags}}}}
               sort: {fields: [frontmatter___date], order: DESC}
               limit: 1000
