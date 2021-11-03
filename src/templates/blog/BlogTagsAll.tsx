@@ -80,7 +80,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
   const [tagValue, setTagValue] = useState('')
   const [subTagValue, setSubTagValue] = useState('')
   const breakpoint = 769
-  const [width, setWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : breakpoint)
+  const [width, setWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0)
 
   useEffect(() => {
     const handleResizeWindow = () => setWidth(window.innerWidth)
@@ -111,7 +111,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
     }
   }
 
-  if (width < breakpoint) {
+  if (width < breakpoint && width > 0) {
     const handleOnChange = ({ target }) => {
       const { value } = target
       if (value == routeLinks.blog) {
@@ -161,53 +161,54 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
         ) : null}
       </>
     )
-  }
-  return (
-    <>
-      <TagsWrapper>
-        <li>
-          <TagsLink className={!activeTag ? 'is-active' : ''} to={routeLinks.blog}>
-            all areas
-          </TagsLink>
-        </li>
-        {typeof names !== 'undefined' &&
-          names.length > 0 &&
-          names.map(el => {
-            const kebabCaseTag = kebabCase(el.toLowerCase())
-
-            return (
-              <li>
-                <TagsLink
-                  className={activeTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}
-                  to={`${routeLinks.blogTags({ tag: kebabCaseTag })}1`}
-                >
-                  {el.toLowerCase()}
-                </TagsLink>
-              </li>
-            )
-          })}
-      </TagsWrapper>
-      {tags.length > 0 ? (
-        <SubTagsWrapper>
-          <li className={!activeSubTag ? 'is-active' : ''}>
-            {' '}
-            <Link to={`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}1`}>All</Link>
+  } else if (width >= breakpoint) {
+    return (
+      <>
+        <TagsWrapper>
+          <li>
+            <TagsLink className={!activeTag ? 'is-active' : ''} to={routeLinks.blog}>
+              all areas
+            </TagsLink>
           </li>
-          {tags.map(el => {
-            const kebabCaseTag = kebabCase(activeTag)
-            const kebabCaseSubTag = kebabCase(el.toLowerCase())
+          {typeof names !== 'undefined' &&
+            names.length > 0 &&
+            names.map(el => {
+              const kebabCaseTag = kebabCase(el.toLowerCase())
 
-            return (
-              <li className={activeSubTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}>
-                {' '}
-                <Link to={`${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}/1`}>{el}</Link>
-              </li>
-            )
-          })}
-        </SubTagsWrapper>
-      ) : null}
-    </>
-  )
+              return (
+                <li>
+                  <TagsLink
+                    className={activeTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}
+                    to={`${routeLinks.blogTags({ tag: kebabCaseTag })}1`}
+                  >
+                    {el.toLowerCase()}
+                  </TagsLink>
+                </li>
+              )
+            })}
+        </TagsWrapper>
+        {tags.length > 0 ? (
+          <SubTagsWrapper>
+            <li className={!activeSubTag ? 'is-active' : ''}>
+              {' '}
+              <Link to={`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}1`}>All</Link>
+            </li>
+            {tags.map(el => {
+              const kebabCaseTag = kebabCase(activeTag)
+              const kebabCaseSubTag = kebabCase(el.toLowerCase())
+
+              return (
+                <li className={activeSubTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}>
+                  {' '}
+                  <Link to={`${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}/1`}>{el}</Link>
+                </li>
+              )
+            })}
+          </SubTagsWrapper>
+        ) : null}
+      </>
+    )
+  }
 }
 
 export default BlogTagsAll
