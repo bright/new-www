@@ -7,7 +7,7 @@
 }
 
 @mixin tablet {
-  @media screen and (max-width: $size-tablet +1px) {
+  @media screen and (min-width: $size-tablet +1px) {
     @content
   }
 }
