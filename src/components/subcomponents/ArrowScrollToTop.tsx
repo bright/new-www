@@ -50,8 +50,9 @@ const ScrollArrow = () => {
       behavior: 'smooth',
     })
   }
-
-  window.addEventListener('scroll', toggleVisible)
+  if (typeof window !== 'undefined') {
+    window.addEventListener('scroll', toggleVisible)
+  }
 
   return (
     <Button onClick={scrollToTop} style={{ display: visible ? 'inline' : 'none' }}>
