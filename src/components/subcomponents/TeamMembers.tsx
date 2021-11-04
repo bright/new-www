@@ -5,6 +5,8 @@ import { routeLinks } from '../../config/routing'
 import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image'
 import { useAuthors } from '../../use-authors/use-authors'
 import variables from '../../styles/variables'
+import ScrollArrow from './ArrowScrollToTop'
+import { useWindowSize } from '../utils/use-windowsize'
 
 const TeamMember = styled.article`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -173,7 +175,8 @@ const AvatarWrapper = styled.figure`
   }
   @media ${variables.device.mobile} {
     margin-bottom: 0.5rem !important;
-  }
+  }import { useWindowSize } from './../utils/use-windowsize';
+
 
   & .avatar1 {
     max-height: 306px;
@@ -206,6 +209,7 @@ const AvatarWrapper = styled.figure`
   }
 `
 const TeamMembers = () => {
+  const { width } = useWindowSize()
   const members = useAuthors()
 
   return (
@@ -247,6 +251,7 @@ const TeamMembers = () => {
             </TeamMember>
           )
         })}
+        {width <= 581 ? <ScrollArrow /> : null}
       </Container>
     </TeamMembersSection>
   )
