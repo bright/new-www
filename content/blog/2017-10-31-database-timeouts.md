@@ -1,23 +1,22 @@
 ---
-layout: post
-title: Database timeouts
+crosspost: true
 author: piotr
-hidden: false
 tags:
   - database
   - timeout
   - jdbc
   - query
   - transaction
-comments: true
-crosspost: true
+date: 2017-10-30T23:00:00.000Z
+title: Database timeouts
+layout: post
 image: /images/database-timeouts/database-files.jpg
-date: '2017-10-30T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
-canonicalUrl: 'https://miensol.pl/database-timeouts/'
+canonicalUrl: https://miensol.pl/database-timeouts/
 ---
-
-Last time I have outlined [the importance of timeouts]({% post_url 2017-10-23-the-importance-of-timeouts %}). Without a carefully considered timeouts our application can become unresponsive easily. In this post I will focus on configuring various timeouts related to interaction with database. I am going to focus specifically on relational databases. The principles and practices however can be applied equally well to other types of databases.
+Last time I have outlined [the importance of timeouts](/blog/the-importance-of-timeouts/). Without a carefully considered timeouts our application can become unresponsive easily. In this post I will focus on configuring various timeouts related to interaction with database. I am going to focus specifically on relational databases. The principles and practices however can be applied equally well to other types of databases.
 
 ![Database](/images/database-timeouts/database-files.jpg)
 
@@ -26,10 +25,10 @@ Last time I have outlined [the importance of timeouts]({% post_url 2017-10-23-th
 Asking a database for results of a query is one of the most common activities a back end application will do. Let us decompose this simple task into steps:
 
 1. [Establish database connection(s) in pool](#init)
-1. [Take the connection out of the pool](#pool)
-1. [Validate the acquired connection](#validate)
-1. [Send statement(s) to database](#send)
-1. [Read query results](#read)
+2. [Take the connection out of the pool](#pool)
+3. [Validate the acquired connection](#validate)
+4. [Send statement(s) to database](#send)
+5. [Read query results](#read)
 
 Each of the above steps can involve a specific timeout configuration. The details depend on particular technology stack and type of database we are querying. 
 
@@ -39,37 +38,32 @@ Dealing with raw database connections is almost always done with the help of con
 
 The first timeout is the maximum duration until a database connection is established. In JDBC this can be controlled by:
 
-- `connectTimeout` in [MySQL JDBC driver](https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-reference-configuration-properties.html) 
-  
-  > Timeout for socket connect (in milliseconds), with 0 being no timeout. Only works on JDK-1.4 or newer. Defaults to '0'.
-  
-  The default is **infinite ‼️**
+* `connectTimeout` in [MySQL JDBC driver](https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-reference-configuration-properties.html) 
 
-- `socketTimeout` in [MySQL JDBC driver](https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-reference-configuration-properties.html) 
-  
+  > Timeout for socket connect (in milliseconds), with 0 being no timeout. Only works on JDK-1.4 or newer. Defaults to '0'.
+
+  The default is **infinite ‼️**
+* `socketTimeout` in [MySQL JDBC driver](https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-reference-configuration-properties.html) 
+
   > Timeout (in milliseconds) on network socket operations (0, the default means no timeout).
-  
-- `loginTimeout` in [MySQL JDBC driver](https://docs.oracle.com/javase/8/docs/api/java/sql/DriverManager.html#setLoginTimeout-int-) 
-  
+* `loginTimeout` in [MySQL JDBC driver](https://docs.oracle.com/javase/8/docs/api/java/sql/DriverManager.html#setLoginTimeout-int-) 
+
   > Sets the maximum time in seconds that a driver will wait while attempting to connect to a database once the driver has been identified.
 
   The default value 0 means **infinite ‼️**
+* `loginTimeout` in [PostgreSQL JDBC driver](https://jdbc.postgresql.org/documentation/head/connect.html):
 
-- `loginTimeout` in [PostgreSQL JDBC driver](https://jdbc.postgresql.org/documentation/head/connect.html):
-  
   > Specify how long to wait for establishment of a database connection. The timeout is specified in seconds.
 
   **Default is infinite ‼️**
+* `connectTimeout` in [PostgreSQL JDBC driver](https://jdbc.postgresql.org/documentation/head/connect.html):
 
-- `connectTimeout` in [PostgreSQL JDBC driver](https://jdbc.postgresql.org/documentation/head/connect.html):
-  
   > The timeout value used for socket connect operations. If connecting to the server takes longer than this value, the connection is broken. The timeout is specified in seconds and a value of zero means that it is disabled.
+* `socketTimeout` in [PostgreSQL JDBC driver](https://jdbc.postgresql.org/documentation/head/connect.html):
 
-- `socketTimeout` in [PostgreSQL JDBC driver](https://jdbc.postgresql.org/documentation/head/connect.html):
-  
   > The timeout value used for socket read operations. If reading from the server takes longer than this value, the connection is closed. This can be used as both a brute force global query timeout and a method of detecting network problems. The timeout is specified in seconds and a value of zero means that it is disabled.
 
-You probably have noticed a recurring theme above: **default timeouts are either infinite or disabled at the driver level**. _In case of `socketTimeout` and `connectTimeout` there can still be a system level timeout involved both on [Linux](https://linux.die.net/man/7/socket) and [Windows](https://msdn.microsoft.com/en-us/library/windows/desktop/ms740476(v=vs.85).aspx). However, those only work on blocking send and receive operations and how the JDBC driver interacts with the socket is an implementation detail for the most part._
+You probably have noticed a recurring theme above: **default timeouts are either infinite or disabled at the driver level**. *In case of `socketTimeout` and `connectTimeout` there can still be a system level timeout involved both on [Linux](https://linux.die.net/man/7/socket) and [Windows](https://msdn.microsoft.com/en-us/library/windows/desktop/ms740476(v=vs.85).aspx). However, those only work on blocking send and receive operations and how the JDBC driver interacts with the socket is an implementation detail for the most part.*
 
 In order to demonstrate how the above timeouts work in practice we will use the following test cases:
 
@@ -141,24 +135,22 @@ A slightly less correct option is to use `connectTimeout` or `socketTimeout`. Th
 
 Reusing database connections gives the application great performance boost. However, writing an efficient and bug free database connection pool is no easy task thus we should all rely on proven solutions. In JVM world there are multiple choices when it comes to JDBC:
 
-- [Hikari](https://brettwooldridge.github.io/HikariCP/) Claims to be the fastest and has limited number of configuration knobs and sane defaults. My favorite by far.
-- [DBCP 2](https://commons.apache.org/proper/commons-dbcp/) A recently resurrected project which has a potential of being applicable to all resources pools with its `commons-pool2` module. 
-- [Tomcat JDBC Connection Pool](https://tomcat.apache.org/tomcat-8.0-doc/jdbc-pool.html) Commonly used with lots of configuration options. Came to be as a replacement of dbcp.
+* [Hikari](https://brettwooldridge.github.io/HikariCP/) Claims to be the fastest and has limited number of configuration knobs and sane defaults. My favorite by far.
+* [DBCP 2](https://commons.apache.org/proper/commons-dbcp/) A recently resurrected project which has a potential of being applicable to all resources pools with its `commons-pool2` module. 
+* [Tomcat JDBC Connection Pool](https://tomcat.apache.org/tomcat-8.0-doc/jdbc-pool.html) Commonly used with lots of configuration options. Came to be as a replacement of dbcp.
 
 When there are no connections available in the pool, the code asking for it needs to wait until one is available. The amount of time a thread is blocked waiting for a connection needs to be considered carefully. It is important to note that there are 2 situations we need to consider. The first one is when the pool has reached its maximum size and all connections are being used already. This is when there is very little actual work required to acquire a connection. The second case is when all currently opened connections are in use but the pool is allowed to create a new connection because it is not yet full. Here we need to keep in mind that time to establish a connection to the database may easily be around 200ms hence timeout should not be too short. Below you'll find how to configure the timeout in the mentioned connection pools:
 
-- Hikari: `connectionTimeout`
-  
+* Hikari: `connectionTimeout`
+
   > This property controls the maximum number of milliseconds that a client (that's you) will wait for a connection from the pool. If this time is exceeded without a connection becoming available, a SQLException will be thrown. Lowest acceptable connection timeout is 250 ms. Default: 30000 (30 seconds)
+* DBCP: `maxWaitMillis` 
 
-- DBCP: `maxWaitMillis` 
-  
   > The maximum number of milliseconds that the pool will wait (when there are no available connections) for a connection to be returned before throwing an exception, or -1 to wait indefinitely. 
-  
-  **Default is infinite ‼️**
 
-- Tomcat: `maxWait`
-  
+  **Default is infinite ‼️**
+* Tomcat: `maxWait`
+
   > (int) The maximum number of milliseconds that the pool will wait (when there are no available connections) for a connection to be returned before throwing an exception. Default value is 30000 (30 seconds)
 
 My rule of thumb is to set this timeout **be under 5 seconds**.
@@ -169,18 +161,16 @@ A database connection can be opened for several hours or even days. However, bec
 
 > Returns true if the connection has not been closed and is still valid. The driver shall submit a query on the connection or use some other mechanism that positively verifies the connection is still valid when this method is called.
 
-- Hikari: `validationTimeout`:
-  
-  > This property controls the maximum amount of time that a connection will be tested for aliveness. This value must be less than the `connectionTimeout`. Lowest acceptable validation timeout is 250 ms. Default: 5000
+* Hikari: `validationTimeout`:
 
-- DBCP: `validationQueryTimeout`:
-  
+  > This property controls the maximum amount of time that a connection will be tested for aliveness. This value must be less than the `connectionTimeout`. Lowest acceptable validation timeout is 250 ms. Default: 5000
+* DBCP: `validationQueryTimeout`:
+
   > The timeout in seconds before connection validation queries fail. If set to a positive value, this value is passed to the driver via the `setQueryTimeout` method of the `Statement` used to execute the validation query.
 
   **Default is infinite ‼️**
+* Tomcat: `validationQueryTimeout`:
 
-- Tomcat: `validationQueryTimeout`:
-  
   > (int) The timeout in seconds before a connection validation queries fail. This works by calling java.sql.Statement.setQueryTimeout(seconds) on the statement that executes the validationQuery. The pool itself doesn't timeout the query, it is still up to the JDBC driver to enforce query timeouts. A value less than or equal to zero will disable this feature. The default value is -1.
 
   **Default is infinite ‼️**
@@ -194,20 +184,18 @@ We have finally arrived at the most common usage. Every query that we send to a 
 Additionally, it's up to the driver to decide what the above timeout means exactly:
 
 > Note: JDBC driver implementations may also apply this limit to ResultSet methods (consult your driver vendor documentation for details).
-
+>
 > Note: In the case of Statement batching, it is implementation defined as to whether the time-out is applied to individual SQL commands added via the addBatch method or to the entire batch of SQL commands invoked by the executeBatch method (consult your driver vendor documentation for details).
 
 A time required for a query to complete is very use case dependent thus we should **not expect a sane default** to be there. Instead, we need to ask ourself how long we are willing to wait for a query to complete. It is very easy to forget about this rule hence it is very handy to be able to set this timeout globally:
 
-- DBCP: `defaultQueryTimeout`
-  
+* DBCP: `defaultQueryTimeout`
+
   > defaultQueryTimeout	null	If non-null, the value of this Integer property determines the query timeout that will be used for Statements created from connections managed by the pool. null means that the driver default will be used.
+* Tomcat: `queryTimeout` available through [QueryTimeoutInterceptor](https://tomcat.apache.org/tomcat-8.0-doc/jdbc-pool.html#JDBC_interceptors)
 
-- Tomcat: `queryTimeout` available through [QueryTimeoutInterceptor](https://tomcat.apache.org/tomcat-8.0-doc/jdbc-pool.html#JDBC_interceptors)
-  
   > (int as String) The number of seconds to set for the query timeout. A value less than or equal to zero will disable this feature. The default value is 1 seconds.
-
-- Hikari: Not available but fairly easy to add by wrapping a DataSource e.g.:
+* Hikari: Not available but fairly easy to add by wrapping a DataSource e.g.:
 
 ```kotlin
 class CustomTimeoutsDataSource(val innerDataSource: DataSource, private val queryTimeoutProperties: DataSourceConfiguration.QueryTimeoutProperties) : DataSource by innerDataSource {
@@ -254,14 +242,13 @@ class CustomTimeoutsDataSource(val innerDataSource: DataSource, private val quer
 
 The JDBC level `queryTimeout` is enforced at the application code side i.e. there's a code executed after the timeout elapses which stops the query execution. Recent releases of both MySQL and PostgreSQL offer a database server level statement timeout capabilities. 
 
-- MySQL: [`MAX_EXECUTION_TIME`](https://dev.mysql.com/doc/refman/5.7/en/optimizer-hints.html#optimizer-hints-execution-time)
-  
-  > The MAX_EXECUTION_TIME hint is permitted only for SELECT statements. It places a limit N (a timeout value in milliseconds) on how long a statement is permitted to execute before the server terminates it:
+* MySQL: [`MAX_EXECUTION_TIME`](https://dev.mysql.com/doc/refman/5.7/en/optimizer-hints.html#optimizer-hints-execution-time)
 
-- PostgreSQL: [`statement_timeout`](https://www.postgresql.org/docs/9.6/static/runtime-config-client.html)
-  
+  > The MAX_EXECUTION_TIME hint is permitted only for SELECT statements. It places a limit N (a timeout value in milliseconds) on how long a statement is permitted to execute before the server terminates it:
+* PostgreSQL: [`statement_timeout`](https://www.postgresql.org/docs/9.6/static/runtime-config-client.html)
+
   > Abort any statement that takes more than the specified number of milliseconds, starting from the time the command arrives at the server from the client. If log_min_error_statement is set to ERROR or lower, the statement that timed out will also be logged. A value of zero (the default) turns this off. 
-  Setting statement_timeout in postgresql.conf is not recommended because it would affect all sessions.
+  > Setting statement_timeout in postgresql.conf is not recommended because it would affect all sessions.
 
 If you are using a JPA provider like Hibernate, you might be urged to use [`javax.persistence.query.timeout`](https://docs.jboss.org/hibernate/entitymanager/3.5/reference/en/html/configuration.html). However, from my experience using Hibernate this timeout, when configured globally, is enforced in some uses cases and completely ignored in others. There were multiple bugs reported related to this feature: [Bug 303360](https://bugs.eclipse.org/bugs/show_bug.cgi?id=303360), [HHH-9929](https://hibernate.atlassian.net/browse/HHH-9929), ["Query timeout in persistence.xml doesn't work"](https://forum.hibernate.org/viewtopic.php?p=2466990) and some of them are still not addressed.
 
