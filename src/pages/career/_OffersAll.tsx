@@ -2,7 +2,7 @@ import React  from 'react'
 import { graphql,  useStaticQuery } from 'gatsby'
 
 import { createJobs } from '../../models/creator'
-import OffersList from './OffersList'
+import OffersList from './_OffersList'
 
 const OffersAll: React.FC = () => <OffersList jobs={createJobs(useStaticQuery(jobsQuery))}/>
 
