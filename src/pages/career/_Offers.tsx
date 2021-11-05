@@ -3,8 +3,8 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import { SectionInner, MoreButton, SectionTitle, CustomSection } from '../../components/shared'
 import { createJobs } from '../../models/creator'
-import OffersList from './OffersList'
-import OffersAll from './OffersAll'
+import OffersList from './_OffersList'
+import OffersAll from './_OffersAll'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 
