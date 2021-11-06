@@ -42,7 +42,7 @@ function toTagValue(tag: Tag) {
   return tag.text
 }
 
-function usePostTags() {
+function usePostTags(): Tag[] {
   const [tags, setTags] = useState([])
 
   useEffect(function() {
@@ -54,12 +54,12 @@ function usePostTags() {
     fetchPostTags()
   }, [])
 
-  return tags
+  return useMemo(() => tags.map(t => ({ id: t, text: t })), [tags])
 }
 
 export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
   const tags = Array.from(props.value ?? []).map((val, ix) => toTag(val as string, ix))
-  const suggestedTags: Tag[] = useMemo(() => usePostTags().map(t => ({id: t, text:t})), [])
+  const suggestedTags: Tag[] = usePostTags()
 
   function onAdd(newTag: Tag) {
     const updatedTags = tags.concat([newTag])
