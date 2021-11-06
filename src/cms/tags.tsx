@@ -54,12 +54,22 @@ function useAllPostsTags(): Tag[] {
     fetchPostTags()
   }, [])
 
-  return tags.map(t => ({ id: t, text: t }));
+  return tags.map(t => ({ id: t, text: t }))
 }
 
 export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
   const tags = Array.from(props.value ?? []).map((val, ix) => toTag(val as string, ix))
-  const suggestedTags: Tag[] = useAllPostsTags()
+  const [suggestedTags, setSuggestedTags] = useState<Tag[]>([])
+
+  useEffect(function() {
+    async function fetchPostTags() {
+      const { tags } = await (await fetch('/blog-posts-meta.json')).json()
+      const tagObjects = tags.map((tag: string) => ({ id: tag, text: tag }))
+      setSuggestedTags(tagObjects)
+    }
+
+    fetchPostTags()
+  }, [])
 
   function onAdd(newTag: Tag) {
     const updatedTags = tags.concat([newTag])
