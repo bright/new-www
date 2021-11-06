@@ -83,7 +83,7 @@ export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
       <ReactTagsContainer>
         <ReactTags
           autocomplete={1}
-          suggestions={suggestedTags}
+          // suggestions={suggestedTags}
           tags={tags}
           handleAddition={onAdd}
           handleDelete={onDelete}
