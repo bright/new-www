@@ -64,7 +64,7 @@ export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
   useEffect(function() {
     async function fetchPostTags() {
       const { tags } = await (await fetch('/blog-posts-meta.json')).json()
-      const tagObjects = tags.map((tag: string) => ({ id: tag, text: tag }))
+      const tagObjects = (tags ?? []).map((tag: string) => ({ id: tag, text: tag }))
       setSuggestedTags(tagObjects)
     }
 
