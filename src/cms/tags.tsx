@@ -54,7 +54,7 @@ function useAllPostsTags(): Tag[] {
     fetchPostTags()
   }, [])
 
-  return useMemo(() => tags.map(t => ({ id: t, text: t })), [tags])
+  return tags.map(t => ({ id: t, text: t }));
 }
 
 export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
@@ -83,7 +83,7 @@ export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
       <ReactTagsContainer>
         <ReactTags
           autocomplete={1}
-          // suggestions={suggestedTags}
+          suggestions={suggestedTags}
           tags={tags}
           handleAddition={onAdd}
           handleDelete={onDelete}
