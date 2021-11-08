@@ -1,15 +1,19 @@
 import React, { useMemo, useState } from 'react'
 import styled from 'styled-components'
 
-import { CustomSection, Section, SectionTitle } from '../../components/shared'
+import { CustomSection, Section, SectionTitle, CustomSectionTitle } from '../../components/shared'
 import { CustomContainer } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
 
-const SectionBenefitsTitle = styled(SectionTitle)`
-  margin-top: 3.625rem;
-  margin-bottom: 5.56rem;
+const SectionBenefitsTitle = styled(CustomSectionTitle)`
+  margin-top: 11.625rem;
+  margin-bottom: 5.5625rem;
   font-size: 2.5rem;
   font-weight: 800;
+
+  @media ${variables.device.laptop} {
+    font-size: 2.125rem;
+  }
 
   @media ${variables.device.mobile} {
     margin-top: 0;
@@ -24,6 +28,25 @@ const Block = styled.div`
   min-height: 10rem;
   margin: 1rem 1rem;
   font-size: 0;
+  @media ${variables.device.laptop} {
+    width: calc(50% - 3.375rem);
+    margin: 1.6875rem 1.6875rem;
+  }
+  @media ${variables.device.tabletXL} {
+    width: calc(50% - 2.75rem);
+    margin: 1.375rem 1.375rem;
+  }
+  @media ${variables.device.tablet} {
+    width: 100%;
+    margin: 2.0625rem 0;
+    & figure {
+      width: 100%;
+      & img {
+        max-height: 35.3125rem;
+        width: 100%;
+      }
+    }
+  }
 
   p {
     position: absolute;
@@ -45,7 +68,24 @@ const Block = styled.div`
       background-position: 0 1rem;
     }
   }
-
+  @media ${variables.device.laptop} {
+    p {
+      font-size: 1.5625rem;
+      padding: 2rem;
+    }
+  }
+  @media ${variables.device.tabletXL} {
+    p {
+      font-size: 1.1875rem;
+      padding: 1.625rem;
+    }
+  }
+  @media ${variables.device.tablet} {
+    p {
+      font-size: 1.75rem;
+      padding: 2.25rem;
+    }
+  }
   @media ${variables.device.mobile} {
     width: 100%;
     margin: 1.125rem 0 0 0;
