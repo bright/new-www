@@ -6,11 +6,15 @@ import { getJobPath } from '../../helpers/pathHelpers'
 import { JobModel } from '../../models/gql'
 import variables from '../../styles/variables'
 
-const Job = styled.div`
-  margin-bottom: 4rem;
+const Job = styled.h3`
+  margin: 0 2.65625rem 4rem;
 
   &:nth-last-of-type(2) {
     margin-bottom: 3.125rem;
+  }
+
+  @media ${variables.device.tablet} {
+    margin: 0 0 4rem;
   }
 
   @media ${variables.device.mobile} {
@@ -34,16 +38,18 @@ const Title = styled.span`
 
 const Subtitle = styled.span`
   color: ${variables.color.primary};
+  font-family: ${variables.font.customtext.lato};
 `
 
 const Info = styled.div`
-  color: var(--black-200);
+  color: ${variables.color.black2};
+  font-family: ${variables.font.customtext.lato};
 
   & > div {
     position: relative;
 
     &:last-child {
-      font-size: 1.375rem;
+      font-size: 1.25rem;
 
       & span {
         position: relative;
@@ -57,13 +63,12 @@ const Info = styled.div`
       }
     }
 
-    &:last-child span:after,
-    &:first-child div:first-child:after {
+    &:last-child span:after {
       position: absolute;
       top: 50%;
-      right: -1.3rem;
+      right: -1.5rem;
       transform: translateY(-55%);
-      font-size: 2rem;
+      font-size: 1.25rem;
       content: '•';
     }
 
@@ -72,9 +77,13 @@ const Info = styled.div`
 
       &:first-child {
         position: relative;
-        margin-right: 2rem;
+        margin-right: 1rem;
 
         &:after {
+          position: absolute;
+          top: 50%;
+          right: -0.6rem;
+          transform: translateY(-55%);
           font-size: inherit;
           content: '|';
         }
@@ -107,11 +116,20 @@ const JobLink = styled(Link)`
   }
 `
 const JobTitle = styled(Title)`
-  font-size: 2rem;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
   font-weight: 900;
   display: inline-block;
-  margin-right: 1rem;
-  margin-bottom: 0;
+  margin-right: 0.875rem;
+  margin-bottom: 1.1875rem;
+  @media ${variables.device.laptop} {
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    margin-right: 0.8125rem;
+  }
+  @media ${variables.device.tablet} {
+    margin-bottom: 0.8125rem;
+  }
 
   @media ${variables.device.mobile} {
     font-size: 1.125rem;
@@ -123,13 +141,23 @@ const JobSubtitle = styled(Subtitle)`
   font-size: 1.25rem;
   font-weight: 600;
   display: inline-block;
+  font-family: ${variables.font.customtext.lato};
+  @media ${variables.device.laptop} {
+    font-size: 1.125rem;
+  }
 
   @media ${variables.device.mobile} {
     font-size: 1rem;
   }
 `
 const JobInfo = styled.div`
-  font-size: 1.5rem;
+  font-size: 1.375rem;
+  font-family: ${variables.font.customtext.lato};
+  margin-bottom: 0.75rem;
+
+  @media ${variables.device.tablet} {
+    font-size: 1.25rem;
+  }
   @media ${variables.device.mobile} {
     font-size: 1rem;
   }
@@ -151,7 +179,7 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
                     const salaryValue = salaryType.index && salary.slice(0, salaryType.index - 1)
                     return (
                       <div>
-                        {salaryValue} (<span className='has-text-weight-bold'>{salaryType[0]}</span>)
+                        {salaryValue} (<span>{salaryType[0]}</span>)
                       </div>
                     )
                   } else {
