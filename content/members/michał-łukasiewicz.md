@@ -9,7 +9,7 @@ email: michal.lukasiewicz@brightinventions.pl
 bio: Co-founder & Senior iOS Developer
 description: Co-founder of Bright Inventions and fullstack mobile developer
 avatar: /images/members/michał_łukasiewicz.jpg
-avatar_hover: /images/michal_passion.png
+avatar_hover: /images/members/michał_łukasiewicz.jpg
 twitter: mgamer
 github: mgamer
 stackoverflow: 59666/mgamer
