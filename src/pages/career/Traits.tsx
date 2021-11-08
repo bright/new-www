@@ -1,14 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { CustomSection, Section, SectionInner, SectionTitle, TextRegular } from '../../components/shared'
+import {
+  CustomSection,
+  Section,
+  SectionInner,
+  SectionTitle,
+  TextRegular,
+  CustomSectionTitle,
+  CustomSectionInner,
+} from '../../components/shared'
 import variables from '../../styles/variables'
 // import { TextRegular } from './../../components/shared/index'
 
-const SectionTitleEx = styled(SectionTitle)`
-  margin-bottom: 5rem;
+const SectionTitleEx = styled(CustomSectionTitle)`
+  margin-bottom: 4rem;
   font-size: 2.5rem;
+  line-height: 2.625rem;
   font-weight: 900;
+  @media ${variables.device.laptop} {
+    font-size: 2.125rem;
+  }
 
   @media ${variables.device.mobile} {
     font-size: 1.125rem;
@@ -17,11 +29,16 @@ const SectionTitleEx = styled(SectionTitle)`
   }
 `
 
-const TextTitle = styled.h4`
-  margin: 5rem 0 1.625rem;
+const TextTitle = styled.h3`
+  margin: 4rem 0 2.25rem;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  line-height: 2.125rem;
   text-align: center;
+  @media ${variables.device.laptop} {
+    font-size: 1.5625rem;
+    margin: 4rem 0 2rem;
+  }
 
   @media ${variables.device.mobile} {
     font-size: 1.125rem;
@@ -31,7 +48,11 @@ const TextTitle = styled.h4`
 `
 const TextRegularTraits = styled(TextRegular)`
   font-size: 1.375rem;
-  color: var(--black-200);
+  color: #0a0a0a;
+
+  @media ${variables.device.laptop} {
+    font-size: 1.25rem;
+  }
 
   @media ${variables.device.mobile} {
     font-size: 1rem;
@@ -47,7 +68,7 @@ const Traits: React.FC = () => {
   return (
     <div className='container'>
       <CustomSection>
-        <SectionInner>
+        <CustomSectionInner>
           <SectionTitleEx>teamwork, responsibility and positive mindset</SectionTitleEx>
           <TextRegularTraits>
             We believe that bright ideas and bright products come out of bright minds. We work together making the most
@@ -87,7 +108,7 @@ const Traits: React.FC = () => {
             obstacles, find solutions and deliver results on time. Every action we take enables our clients to make a
             bigger impact on the world.
           </TextRegularTraits>
-        </SectionInner>
+        </CustomSectionInner>
       </CustomSection>
     </div>
   )
