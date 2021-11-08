@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
-import { PageDescription, Section, SectionInner } from '../../components/shared'
+import { PageDescription, Section, SectionInner, CustomSectionInner } from '../../components/shared'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 
 const WrapperDesc = styled.section`
   .career-desc {
-    padding: 0 2rem;
+    padding: 0 2.25rem;
     @media ${variables.device.mobile} {
       padding: 2rem 1.125rem 1rem;
     }
@@ -19,6 +19,10 @@ export const PageDescriptionCareer = styled(PageDescription)`
   padding-right: 0;
   font-size: 1.375rem;
 
+  @media ${variables.device.tablet} {
+    font-size: 1.25rem;
+  }
+
   @media ${variables.device.mobile} {
     font-size: 1rem;
   }
@@ -27,7 +31,7 @@ export const PageDescriptionCareer = styled(PageDescription)`
 const Description: React.FC = () => {
   return (
     <WrapperDesc>
-      <SectionInner className='career-desc'>
+      <CustomSectionInner className='career-desc'>
         <PageDescriptionCareer>
           <span>
             <Link to={routeLinks.aboutUs({ page: 'team' })}>Our team</Link> consists of talented, positive and committed
@@ -38,7 +42,7 @@ const Description: React.FC = () => {
           If you value team work, responsibility and you would like to create software solutions that really matter in
           the current world, get to know us better and apply!
         </PageDescriptionCareer>
-      </SectionInner>
+      </CustomSectionInner>
     </WrapperDesc>
   )
 }
