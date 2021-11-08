@@ -2,12 +2,35 @@ import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
 import { SectionBlack, SectionTitle } from '../../components/shared'
+import { CustomSectionTitle } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
 
-const PracticeTitle = styled(SectionTitle)`
+const PracticeSectionBlack = styled(SectionBlack)`
+  padding: 2rem 15rem 6rem 15rem;
+  @media ${variables.device.laptop} {
+    padding: 2rem 6rem 6rem 6rem;
+  }
+  @media ${variables.device.tabletXL} {
+    padding: 2rem 9rem 6rem 9rem;
+  }
+  @media ${variables.device.tablet} {
+    padding: 2rem 2.25rem 6rem 2.25rem;
+  }
+  @media ${variables.device.mobile} {
+    padding: 2rem 1.25rem 6rem 1.25rem;
+  }
+`
+
+const PracticeTitle = styled(CustomSectionTitle)`
   margin-top: 4.56rem;
   margin-bottom: 6.56rem;
   font-size: 2.5rem;
+  color: #fff;
+  @media ${variables.device.laptop} {
+    margin-top: 3.435rem;
+    margin-bottom: 5.1875rem;
+    font-size: 2.125rem;
+  }
 
   @media ${variables.device.mobile} {
     margin-top: 3.435rem;
@@ -33,15 +56,39 @@ const Column = styled.div`
     margin: 0 auto;
     padding-top: 2rem;
     font-size: 1.375rem;
+    @media ${variables.device.laptop} {
+      font-size: 1.25rem;
+      width: 100%;
+    }
+    @media ${variables.device.tablet} {
+      width: 70%;
+    }
     @media ${variables.device.mobile} {
       font-size: 1.125rem;
+      width: 100%;
     }
   }
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tablet} {
     margin-bottom: 3.375rem;
+    width: 50% !important;
+    flex: none;
     &:nth-of-type(n + 4) {
       margin-bottom: 3.375rem;
     }
+  }
+  @media ${variables.device.mobile} {
+    width: 100% !important;
+    margin: auto;
+    margin-bottom: 3.375rem;
+
+    &:nth-of-type(n + 4) {
+      margin-bottom: 3.375rem;
+    }
+  }
+`
+const Columns = styled.div`
+  @media ${variables.device.tablet} {
+    display: flex;
   }
 `
 
@@ -59,22 +106,20 @@ const WhatWePractice: React.FC = () => {
   )
 
   return (
-    <SectionBlack>
-      <div className='container'>
-        <PracticeTitle>what we practice</PracticeTitle>
+    <PracticeSectionBlack>
+      <PracticeTitle>what we practice</PracticeTitle>
 
-        <div className='columns is-multiline'>
-          {blocks.map(block => (
-            <Column key={block.title} className='column is-one-third has-text-centered'>
-              <figure className='image is-inline-block'>
-                <img src={block.image} alt={block.title} />
-              </figure>
-              <p>{block.title}</p>
-            </Column>
-          ))}
-        </div>
-      </div>
-    </SectionBlack>
+      <Columns className='columns is-multiline'>
+        {blocks.map(block => (
+          <Column key={block.title} className='column is-one-third has-text-centered'>
+            <figure className='image is-inline-block'>
+              <img src={block.image} alt={block.title} />
+            </figure>
+            <p>{block.title}</p>
+          </Column>
+        ))}
+      </Columns>
+    </PracticeSectionBlack>
   )
 }
 
