@@ -37,7 +37,8 @@ export default {
     text: '#131214',
     border: '#d3d3d3',
     white: '#ffffff',
-    black: '#000000'
+    black: '#000000',
+    black2: '#0A0A0A;'
   },
 
   font: {
