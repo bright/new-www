@@ -66,7 +66,7 @@ export const ImagesHorizontal = styled(ImagesBase)`
     justify-content: center;
 
     & > * {
-      flex-basis: 45%;
+      flex-basis: calc(50% - var(--gap));
     }
     & > *:nth-child(5) {
       display: none;
@@ -105,8 +105,7 @@ export const ImagesVertical = styled(ImagesBase)`
   }
 
   @media ${variables.device.mobile} {
-    max-width: 50%;
-    flex-basis: 45%;
+    flex-basis: calc(50% - var(--gap));
     &:first-of-type {
       display: flex;
     }
