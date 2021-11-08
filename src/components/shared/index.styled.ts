@@ -211,6 +211,7 @@ export const CustomTextRegular = styled.div`
   opacity: .75;
 `
 export const CustomSectionInner = styled(SectionInner)`
+max-width: 800px;
 
 @media ${variables.device.laptop}{
   max-width: 745px;
