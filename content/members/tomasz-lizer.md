@@ -6,8 +6,8 @@ slug: tomasz-l
 name: Tomasz Lizer
 short_name: Tomasz
 email: tomasz.lizer@brightinventions.pl
-bio: iOS Developer
-description: iOS Developer
+bio: Senior iOS Developer
+description: Senior iOS Developer
 avatar: /images/tomasz_l_team.png
 avatar_hover: /images/tomasz_l_passion.png
 published: true
