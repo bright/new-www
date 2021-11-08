@@ -46,10 +46,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
   })
-  const ymlDocTags = yaml.load(fs.readFileSync("./content/tag-groups.yml", "utf-8"))
+  const ymlDocTags = yaml.load(fs.readFileSync("./tag-groups.yml", "utf-8"))
   // const tags = result.data.tagsGroup.group;
-  ymlDocTags.groups.forEach(async (tag) => {
-    const searchTags = JSON.stringify(tag.tags);
+  ymlDocTags.groups.forEach(async (group) => {
+    const searchTags = JSON.stringify(group.tags);
     const result = await graphql(
       `
       {
@@ -76,11 +76,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
     Array.from({ length: numPages }).forEach((item, i) => {
       createPage({
-        path: `/blog/${_.kebabCase(tag.name.toLowerCase())}/${i + 1}`,
+        path: `/blog/${_.kebabCase(group.name.toLowerCase())}/${i + 1}`,
         component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
         context: {
-          groupTags: tag.tags,
-          tag: tag.name,
+          groupTags: group.tags,
+          tag: group.name,
           limit: postsPerPage,
           skip: i * postsPerPage,
           numPages,
@@ -88,10 +88,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         },
       })
     })
-    
-    if(tag.groups) {
-      tag.groups.forEach(async (subTag) => {
-        const searchTags = JSON.stringify(subTag.tags);
+
+    if(group.groups) {
+      group.groups.forEach(async (group) => {
+        const searchTags = JSON.stringify(group.tags);
         const result = await graphql(
           `
           {
@@ -117,12 +117,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         const numPages = Math.ceil(posts.length / postsPerPage)
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
-            path: `/blog/${_.kebabCase(tag.name.toLowerCase())}/${_.kebabCase(subTag.name.toLowerCase())}/${i + 1}`,
+            path: `/blog/${_.kebabCase(group.name.toLowerCase())}/${_.kebabCase(group.name.toLowerCase())}/${i + 1}`,
             component: path.resolve("./src/templates/BlogListTemplateTags.tsx"),
             context: {
-              groupTags: subTag.tags,
-              tag: tag.name,
-              subTag: subTag.name,
+              groupTags: group.tags,
+              tag: group.name,
+              subTag: group.name,
               limit: postsPerPage,
               skip: i * postsPerPage,
               numPages,
@@ -132,7 +132,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         })
       })
     }
-    
+
   })
 
 
