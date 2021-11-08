@@ -3,7 +3,7 @@ groups:
   - name: development
     # /blog/topics/development
     groups:
-      - name: Backend
+      - name: backend
         # /blog/topics/development/Backend
         tags:
           - Backend
@@ -15,7 +15,7 @@ groups:
           - database
           - sql
           - mysql
-      - name: Frontend
+      - name: frontend
         # /blog/topics/development/Frontend
         tags:
           - Frontend
@@ -34,7 +34,7 @@ groups:
         tags:
           - iOS
           - ios
-      - name: Android
+      - name: android
         # /blog/topics/development/Android
         tags:
           - Kotlin
