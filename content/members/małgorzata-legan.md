@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: gosia
-ex: false
+ex: true
 slug: gosia
 name: Małgorzata Legan
 short_name: Gosia
