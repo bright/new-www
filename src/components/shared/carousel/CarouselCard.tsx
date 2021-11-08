@@ -21,7 +21,7 @@ const Container = styled(Link)({
   justifyContent: 'center',
   alignItems: 'center',
 
-  ['@media screen and (max-width: 767px)']: {
+  ['@media screen and (max-width: 992px)']: {
     flexDirection: 'column-reverse',
   },
 })
@@ -33,22 +33,30 @@ const ProjectDescriptionWrapper = styled.div({
   flexWrap: 'wrap',
 })
 
-const Title = styled(SectionTitle)({
-  textAlign: 'left',
-  color: variables.color.text,
-  marginBottom: '0px',
-  fontWeight: '900',
-  ['@media screen and (max-width: 767px)']: {
-    fontSize: '18px',
-  },
-})
+const Title = styled(SectionTitle)`
+  text-align: left;
+  color: ${variables.color.text};
+  margin-bottom: 0px;
+  font-weight: 900;
+
+  @media ${variables.device.laptop} {
+    font-size: 1.5625rem;
+  }
+  @media ${variables.device.tablet} {
+    text-align: center;
+  }
+
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+  }
+`
 
 const Description = styled(TextRegular)({
   marginTop: '3.5rem',
   textAlign: 'left',
   fontSize: '20px',
   color: 'var(--black-200)',
-  ['@media screen and (max-width: 767px)']: {
+  ['@media screen and (max-width: 991px)']: {
     marginTop: '1.125rem',
     fontSize: '16px',
   },
@@ -59,7 +67,7 @@ const imageStyle = {
   height: '100%',
   width: '100%',
 
-  ['@media screen and (max-width: 768px)']: {
+  ['@media screen and (max-width: 991px)']: {
     maxWidth: '200px',
     height: '100%',
   },
@@ -70,7 +78,10 @@ const GoToContainer = styled.div({
   textAlign: 'start',
   fontSize: '1.125rem',
   fontWeight: '900',
-  ['@media screen and (max-width: 768px)']: {
+  ['@media screen and (max-width: 992px)']: {
+    marginBottom: '4rem',
+  },
+  ['@media screen and (max-width: 581px)']: {
     marginTop: '1.125rem',
     marginBottom: '4rem',
   },

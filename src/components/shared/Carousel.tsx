@@ -12,7 +12,7 @@ import Indicator from './carousel/Indicator'
 import { Section } from './index'
 
 const CarouselWrapper = styled(Section)`
-  @media (max-width: 767px) {
+  @media ${variables.device.tablet} {
     padding: 1rem 0rem;
   }
 
@@ -73,13 +73,21 @@ const SliderButton = styled.div`
 const PreviousSliderButton = styled(SliderButton)`
   margin-right: 7.625rem;
 
-  @media (max-width: 767px) {
+  @media ${variables.device.tablet} {
+    margin-right: 1em;
+    margin-top: -50%;
+  }
+  @media ${variables.device.mobile} {
     margin-right: 1em;
     margin-top: calc(40% - 16px);
   }
 `
 const NextSliderButton = styled(SliderButton)`
   margin-left: 7.625rem;
+  @media ${variables.device.tablet} {
+    margin-left: 1em;
+    margin-top: -50%;
+  }
   @media ${variables.device.mobile} {
     margin-left: 1em;
     margin-top: calc(40% - 16px);
