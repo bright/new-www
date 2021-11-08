@@ -21,21 +21,39 @@ import Form from './career/Form'
 import { CustomContainer } from '../components/shared/index.styled'
 import styled from 'styled-components'
 import variables from '../styles/variables'
+import { TechnologyTags } from '../components/shared/TechnologyTags'
+import { useWindowSize } from '../components/utils/use-windowsize'
 
 export const SectionCareerTitle = styled(Section)`
   padding: 3rem 2rem 3rem 2rem;
-
+  @media ${variables.device.laptop} {
+    padding: 3rem 2rem 4rem 2rem;
+  }
   @media ${variables.device.mobile} {
-    padding: 3rem 2rem 0rem 2rem;
+    padding: 3rem 1.125rem 0rem 1.125rem;
   }
 `
 const PageTitleCareer = styled(PageTitle)`
+  @media ${variables.device.laptop} {
+    font-size: 2.75rem;
+  }
+  @media ${variables.device.tabletXL} {
+    font-size: 2.375rem;
+  }
+
   @media ${variables.device.mobile} {
     font-size: 2rem;
+    line-height: 2.75rem;
+    font-weight: 900;
   }
+`
+const SectionTechnology = styled.div`
+  padding: 7.25rem 0 0;
 `
 
 const CareerPage: React.FC = () => {
+  const { width } = useWindowSize()
+  const breakpoint = 580
   return (
     <Page className='page-career'>
       <HelmetTitleDescription
@@ -51,15 +69,18 @@ const CareerPage: React.FC = () => {
         </SectionCareerTitle>
       </div>
 
-      <CustomContainer>
-        <HeaderImages />
-      </CustomContainer>
+      <HeaderImages />
 
-      <CustomContainer>
-        <Description />
-        <Offers />
-        <RecruitingProcess />
-      </CustomContainer>
+      <Description />
+      <Offers />
+
+      {width > breakpoint && width <= 1540 ? (
+        <SectionTechnology>
+          <TechnologyTags />
+        </SectionTechnology>
+      ) : null}
+
+      <RecruitingProcess />
 
       <WhatWePractice />
       <OurWork />
