@@ -21,6 +21,10 @@ const Title = styled.h2`
   font-size: 2.5rem;
   text-align: center;
 
+  @media ${variables.device.laptop} {
+    font-size: 2.125rem;
+  }
+
   @media ${variables.device.mobile} {
     margin-top: 2rem;
     font-size: 1.375rem;
@@ -30,7 +34,9 @@ const Title = styled.h2`
 
 const Description = styled(TextRegular)`
   margin-bottom: 2rem;
-
+  @media ${variables.device.laptop} {
+    font-size: 1.25rem;
+  }
   @media ${variables.device.mobile} {
     margin-bottom: 4rem;
     font-size: 1rem;
