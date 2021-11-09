@@ -94,9 +94,9 @@ All in all, fun things happened here:
 
 Of course, it doesn't mean that DevOps engineers can be switched for developers. Making the most of AWS requires some domain knowledge about service dependencies, networking, security and how do they scale up and scale out. It means that it's much easier to understand the infrastructure and its current state with tools like CDK and its documentation.
 
-Most importantly, something I saw in Bright Inventions with naked eye is that instead of raising a ticket to DevOps for ex. adding S3 bucket, SQS, or Lambda function, waiting a week for closing it, developers do these contributions to the infrastructure themselves with pull requests and review request from DevOps Engenieer or anyone familiar with particular subject. 
+Most importantly, something I saw in Bright Inventions with a naked eye is that instead of raising a ticket to DevOps for ex. adding S3 bucket, SQS, or Lambda function, waiting a week for closing it, developers do these contributions to the infrastructure themselves with pull requests and review requests from DevOps Engineer or anyone familiar with a particular subject. 
 
-## Summary - the definition revisited.
+## Summary - the definition revisited
 
 Remember my definition of DevOps? That's the story how I came to that. DevOps mindset is all about **collaboration and feedback loop**. Thanks to tools like AWS CDK one can both introduce so important dev empowerment and move the quality of work done by SysOps/DevOps/Infrastructure engenieers to a whole new level. As an effect we **destroy the silos**, that slow down development process so much. 
 
