@@ -88,9 +88,9 @@ Secondly, me and CDK. That was something that bothered me for some time. It's ju
 
 All in all, fun things happened here:
 
-* My mindset changed a bit. I started to think more like developer then SysOps I actually am. It gave me a wider perspective on software I'm working with, with deeper understanding of application code, and how to work with developers efficently.
-* I've learned a lot about the code quality, good practices regarding programming languages and code review. Of course I knew about that, in theory. Practicing these guidelines was not an everyday basis, especially having in mind that previously my level of dev <-> ops collaboration was from minimal to none. I even feel comfortable with contributions to applications codebase.
-* I've noticed something that seems to be most crucial part of DevOps culture - **the developer empowerment**. Developers feel free to contribute to infrastructure. They have an understanding of how infrastructure works, and how to use AWS services properly.
+* My mindset changed a bit. I started to think more like a developer than SysOps I actually am. It gave me a wider perspective on the software I'm working with, with a deeper understanding of application code, and how to work with developers efficiently.
+* I've learned a lot about code quality, good practices regarding programming languages and code review. Of course, I knew about that, in theory. Practising these guidelines was not an everyday basis, especially having in mind that previously my level of dev <-> ops collaboration was from minimal to none. I even feel comfortable with contributions to the applications' codebase.
+* I've noticed something that seems to be the most crucial part of DevOps culture -  **developer empowerment**. Developers feel free to contribute to infrastructure. They have an understanding of how infrastructure works, and how to use AWS services properly.
 
 Of course, it doesn't mean that DevOps Engenieer can be switched for developer. Making the most of AWS requires some domain knowledge about service dependencies, networking, security and how do they scale up and scale out. What does it mean however is that it's much easier to understand infrastructure and it's current state with tools like CDK and its documentation.
 
