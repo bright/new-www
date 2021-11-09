@@ -7,6 +7,7 @@ tags:
   - aws
   - cdk
   - typescript
+  - inspiration
 date: 2021-11-09T14:00:00.080Z
 title: Road to DevOps - How tools like AWS CDK help with DevOps transition
 layout: post
@@ -16,7 +17,7 @@ published: false
 ---
 It's obvious that DevOps is a buzzword these days. If you are somehow connected with software development, the DevOps culture could possibly jump right on your face from your fridge. You haven't heard it? I don't believe you, but if that's the case - no worries, you will. Sooner or later.
 
-## The Definition
+## The Definition of DevOps
 
 I could possibly write a book trying to describe everything that one should know about DevOps, how cool it is, and why everyone should shout out DevOps slogans with the same frequency as some Agile mantras. Yeah, most probably it wouldn't be a bestseller, so I won't. Instead I would present short, yet meaningful [definition from AWS](https://aws.amazon.com/devops/what-is-devops/): 
 
@@ -36,9 +37,9 @@ Now, let's pay a visit to Dr Emmett Lathrop Brown, and get use of that fancy DeL
 
 Back then my main problem was to automate repetive work on copious amounts of virtual machines and bare metals hosting business applications on some enterprise Linux distributions or other Unix family systems like IBM AIX. It was relatively easy, sometimes challenging, but mainly easy with some edge cases to be covered with custom scripts and dirty hacks that should never go live to production. I had some useful background for that job. 
 
-- The very basics concepts of programming, data structures and algorithms were injected in my fertile brain back then. It was done in the lower secondary school by my IT teacher, she was able to see that small IT sparkle in me and a few colleagues.
-- That knowledge was constantly growing, both in school and at home. Besides hanging out with friends (yes, I'm from the generation that used to play outside), I was creating websites about Worms and Quake 2/3 with HTML,PHP and some Javascript. It elvolved later to Python and Django.
-- I used to have self built server in my drawer, made of old laptop motherboard. Gentoo linux was sitting there, if someone is not familiar with it... It's a distribution that forces you to configure everyting from scratch by yourself, hence my main hobby was to compile Linux kernel with a hilarious frequency. It was useful though, drawer served as a heater during winter.
+* The very basics concepts of programming, data structures and algorithms were injected in my fertile brain back then. It was done in the lower secondary school by my IT teacher, she was able to see that small IT sparkle in me and a few colleagues.
+* That knowledge was constantly growing, both in school and at home. Besides hanging out with friends (yes, I'm from the generation that used to play outside), I was creating websites about Worms and Quake 2/3 with HTML,PHP and some Javascript. It elvolved later to Python and Django.
+* I used to have self built server in my drawer, made of old laptop motherboard. Gentoo linux was sitting there, if someone is not familiar with it... It's a distribution that forces you to configure everyting from scratch by yourself, hence my main hobby was to compile Linux kernel with a hilarious frequency. It was useful though, drawer served as a heater during winter.
 
 So automation, scripting, Perl, Bash, Sed, Awk, Python, Linux, Unix. Let's add Ansible/Chef to the stack, some monitoring (Nagios, Sensu), VCS and finally Docker with Docker Swarm. Not to forget about loadbalancing with Nginx and HAProxy. That was me as a SysOps back then.
 
@@ -48,14 +49,14 @@ Ok, we are jumping into DeLorean once again. Oh, Hi Marty! When did you join us?
 
 **So, what changed?**
 
-- Now everything is done with VCS, CI/CD is in place and I'm responsible for the pipelines and how optimal they are.
-- I'm working with software being developed by frontend and backend devs. New programming languages and frameworks to support, and know their gotchas.
-- Managed services rather than self hosted ones. Despite being more expensive it's easier to have something supported externaly without the need of maintaining internal team for some software component support.
-- **Cloud is new normal**. Mostly AWS, some GCP, some Azure and some edge cases like Hetzner Cloud or Digital Ocean. Well I had to learn quiet a lot regarding cloud. Few new certifications, loads of whitepapers and even more tries and errors.
-- **Docker is new normal**. And Kubernetes with all its sparkles and problems as a remedy for software at scale.
-- Developers need dynamic environments, on demand. It's best to have per pull request env for QA to check new features. Challenging topic for DevOps team.
-- Tickets, lots of tickets, from PMs and developers. And due dates, with impatient stakeholders.
-- And the [Terraform](https://www.terraform.io). How could I forget that?! Now, as we live in clouds these days, it's wise to have Infrastructure as Code (IaC) in place. No more clickology, new level of automation and ability to reuse common snippets. And yes, the code for infrastructure also lives in Git, with CI/CD. 
+* Now everything is done with VCS, CI/CD is in place and I'm responsible for the pipelines and how optimal they are.
+* I'm working with software being developed by frontend and backend devs. New programming languages and frameworks to support, and know their gotchas.
+* Managed services rather than self hosted ones. Despite being more expensive it's easier to have something supported externaly without the need of maintaining internal team for some software component support.
+* **Cloud is new normal**. Mostly AWS, some GCP, some Azure and some edge cases like Hetzner Cloud or Digital Ocean. Well I had to learn quiet a lot regarding cloud. Few new certifications, loads of whitepapers and even more tries and errors.
+* **Docker is new normal**. And Kubernetes with all its sparkles and problems as a remedy for software at scale.
+* Developers need dynamic environments, on demand. It's best to have per pull request env for QA to check new features. Challenging topic for DevOps team.
+* Tickets, lots of tickets, from PMs and developers. And due dates, with impatient stakeholders.
+* And the [Terraform](https://www.terraform.io). How could I forget that?! Now, as we live in clouds these days, it's wise to have Infrastructure as Code (IaC) in place. No more clickology, new level of automation and ability to reuse common snippets. And yes, the code for infrastructure also lives in Git, with CI/CD. 
 
 **So again, what changed?**
 
@@ -87,9 +88,9 @@ Secondly, me and CDK. That was something that bothered me for some time. It's ju
 
 All in all, fun things happened here:
 
-- My mindset changed a bit. I started to think more like developer then SysOps I actually am. It gave me a wider perspective on software I'm working with, with deeper understanding of application code, and how to work with developers efficently.
-- I've learned a lot about the code quality, good practices regarding programming languages and code review. Of course I knew about that, in theory. Practicing these guidelines was not an everyday basis, especially having in mind that previously my level of dev <-> ops collaboration was from minimal to none. I even feel comfortable with contributions to applications codebase.
-- I've noticed something that seems to be most crucial part of DevOps culture - **the developer empowerment**. Developers feel free to contribute to infrastructure. They have an understanding of how infrastructure works, and how to use AWS services properly.
+* My mindset changed a bit. I started to think more like developer then SysOps I actually am. It gave me a wider perspective on software I'm working with, with deeper understanding of application code, and how to work with developers efficently.
+* I've learned a lot about the code quality, good practices regarding programming languages and code review. Of course I knew about that, in theory. Practicing these guidelines was not an everyday basis, especially having in mind that previously my level of dev <-> ops collaboration was from minimal to none. I even feel comfortable with contributions to applications codebase.
+* I've noticed something that seems to be most crucial part of DevOps culture - **the developer empowerment**. Developers feel free to contribute to infrastructure. They have an understanding of how infrastructure works, and how to use AWS services properly.
 
 Of course, it doesn't mean that DevOps Engenieer can be switched for developer. Making the most of AWS requires some domain knowledge about service dependencies, networking, security and how do they scale up and scale out. What does it mean however is that it's much easier to understand infrastructure and it's current state with tools like CDK and its documentation.
 
