@@ -60,11 +60,11 @@ Ok, we are jumping into DeLorean once again. Oh, Hi Marty! When did you join us?
 
 **So again, what changed?**
 
-Can you see what I'm trying to say here? Let's move back to the DevOps definition. Clearly, there are some new shiny DevOps tools in game, and for sure they serve software development and help delivering apps with higher velocity at better scale. But it doesn't really sound like we are aligned with the whole DevOps story. What definitely is different is that now I work as a DevOps Engineer climbing DevOps career path and raising seniority level.
+Can you see what I'm trying to say here? Let's move back to the DevOps definition. Clearly, there are some new shiny DevOps tools in game, and for sure they serve software development and help to deliver apps with a higher velocity at a better scale. But it doesn't really sound like we are aligned with the whole DevOps story. What definitely is different is that now I work as a DevOps Engineer climbing the DevOps career path and raising seniority level.
 
-How could I describe my daily work in a few words? I was working for developers (not with them), building infrastructure and CI/CD pipelines with modern DevOps toolset, reacting to tickets with the use of knowledge that was sealed in DevOps team. It was neither of my interest to wear developers shoes nor developers will to understand what my team does and how does the infrastructure hosting software they write works. Not to mention any form of contribution both ways.
+How could I describe my daily work in a few words? I was working for developers (not with them), building infrastructure and CI/CD pipelines with a modern DevOps toolset, reacting to tickets with the use of knowledge that was sealed in the DevOps team. It was neither of my interest to wear developers shoes nor developers will to understand what my team does and how does the infrastructure hosting software they write works. Not to mention any form of contribution both ways.
 
-**And this is is both most common scenario how DevOps look like in many teams/companies and the most common scenario how do people start working as a DevOps Engenieer.**
+**And this is the most common scenario of how a DevOps role looks like in many teams/companies and the most common scenario of how do people start working as a DevOps Engineer.**
 
 Also, confronting this with the DevOps definition it's **the most common DevOps antipatern** among the IT world.
 
