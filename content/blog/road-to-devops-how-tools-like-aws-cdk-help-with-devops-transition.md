@@ -39,9 +39,9 @@ Back then my main problem was to automate repetitive work on copious amounts of 
 
 * The very basic concepts of programming, data structures and algorithms were injected into my fertile brain back then. It was done in the lower secondary school by my IT teacher, she was able to see that small IT sparkle in me and a few colleagues.
 * That knowledge was constantly growing, both in school and at home. Besides hanging out with friends (yes, I'm from the generation that used to play outside), I was creating websites about Worms and Quake 2/3 with HTML, PHP and some Javascript. Later it evolved into Python and Django.
-* I used to have self built server in my drawer, made of old laptop motherboard. Gentoo linux was sitting there, if someone is not familiar with it... It's a distribution that forces you to configure everyting from scratch by yourself, hence my main hobby was to compile Linux kernel with a hilarious frequency. It was useful though, drawer served as a heater during winter.
+* I used to have a self-built server in my drawer, made of an old laptop motherboard. Gentoo Linux was sitting there, if someone is not familiar with it... It's a distribution that forces you to configure everything from scratch by yourself, hence my main hobby was to compile Linux kernel with a hilarious frequency. It was useful though, drawer served as a heater during winter.
 
-So automation, scripting, Perl, Bash, Sed, Awk, Python, Linux, Unix. Let's add Ansible/Chef to the stack, some monitoring (Nagios, Sensu), VCS and finally Docker with Docker Swarm. Not to forget about loadbalancing with Nginx and HAProxy. That was me as a SysOps back then.
+So automation, scripting, Perl, Bash, Sed, Awk, Python, Linux, Unix. Let's add Ansible/Chef to the stack, some monitoring (Nagios, Sensu), VCS and finally Docker with Docker Swarm. Not to forget about load balancing with Nginx and HAProxy. That was me as a SysOps back then.
 
 ### DevOps Engenieer
 
