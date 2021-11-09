@@ -43,20 +43,20 @@ Back then my main problem was to automate repetitive work on copious amounts of 
 
 So automation, scripting, Perl, Bash, Sed, Awk, Python, Linux, Unix. Let's add Ansible/Chef to the stack, some monitoring (Nagios, Sensu), VCS and finally Docker with Docker Swarm. Not to forget about load balancing with Nginx and HAProxy. That was me as a SysOps back then.
 
-### DevOps Engenieer
+### DevOps Engineer
 
-Ok, we are jumping into DeLorean once again. Oh, Hi Marty! When did you join us?! Never mind. We traveled in time few years forward. Here he is, Michał with his shiny Apple Macbook working from home. Yes, from home. Why, you ask? That's because now he works **in cloud**. Now Michał is a **DevOps Engenieer**, serving as a catalyst to software development. How cool is that, huh? 
+Ok, we are jumping into DeLorean once again. Oh, Hi Marty! When did you join us?! Never mind. We travelled in time a few years forward. Here he is, Michał with his shiny Apple Macbook working from home. Yes, from home. Why, you ask? That's because now he works **in the cloud**. Now Michał is a **DevOps Engineer**, serving as a catalyst to software development. How cool is that, huh? 
 
 **So, what changed?**
 
-* Now everything is done with VCS, CI/CD is in place and I'm responsible for the pipelines and how optimal they are.
-* I'm working with software being developed by frontend and backend devs. New programming languages and frameworks to support, and know their gotchas.
-* Managed services rather than self hosted ones. Despite being more expensive it's easier to have something supported externaly without the need of maintaining internal team for some software component support.
-* **Cloud is new normal**. Mostly AWS, some GCP, some Azure and some edge cases like Hetzner Cloud or Digital Ocean. Well I had to learn quiet a lot regarding cloud. Few new certifications, loads of whitepapers and even more tries and errors.
-* **Docker is new normal**. And Kubernetes with all its sparkles and problems as a remedy for software at scale.
-* Developers need dynamic environments, on demand. It's best to have per pull request env for QA to check new features. Challenging topic for DevOps team.
+* Now everything is done with VCS. CI/CD is in place and I'm responsible for the pipelines and how optimal they are.
+* I'm working with software being developed by frontend and backend devs. New programming languages and frameworks to support and know their gotchas.
+* Managed services rather than self-hosted ones. Despite being more expensive it's easier to have something supported externally without the need of maintaining an internal team for some software component support.
+* **Cloud is new normal**. Mostly AWS, some GCP, some Azure and some edge cases like Hetzner Cloud or Digital Ocean. Well, I had to learn quite a lot regarding the cloud. A few new certifications, loads of whitepapers and even more tries and errors.
+* **Docker is the new normal**. And Kubernetes with all its sparkles and problems as a remedy for software at scale.
+* Developers need dynamic environments, on demand. It's best to have per pull request env for QA to check new features. The challenging topic for DevOps team.
 * Tickets, lots of tickets, from PMs and developers. And due dates, with impatient stakeholders.
-* And the [Terraform](https://www.terraform.io). How could I forget that?! Now, as we live in clouds these days, it's wise to have Infrastructure as Code (IaC) in place. No more clickology, new level of automation and ability to reuse common snippets. And yes, the code for infrastructure also lives in Git, with CI/CD. 
+* And the [Terraform](https://www.terraform.io). How could I forget that?! Now, as we live in clouds these days, it's wise to have Infrastructure as Code (IaC) in place. No more clickology, a new level of automation and ability to reuse common snippets. And yes, the code for infrastructure also lives in Git, with CI/CD. 
 
 **So again, what changed?**
 
