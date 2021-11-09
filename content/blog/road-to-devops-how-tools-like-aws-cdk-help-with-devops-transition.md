@@ -74,11 +74,11 @@ Last journey. DMC-12, can you please move us to the more or less present time? T
 
 Where are we now? **We are in Bright Inventions**. Hurray, I've managed to pass the recruitment process with [Ula](/about-us/ula/) examining my attitude and team fit and somehow got through difficult yet right on the nose questions asked by [Piotr](/about-us/piotr/). I'm pretty happy that I could finally be able to mostly focus on one product and get rid of context switching I used to deal with previously.
 
-Actually I'm satisfied with the fact that I'll vendor lock myself a bit with AWS, mainly because this is my field of expertise and I have most experience with AWS services. After short onboarding I should be ready to work. This environment is familiar to me, and also the toolset right? Indeed, mostly. One simple thing, that is so much different at a bigger picture - [AWS CDK](https://aws.amazon.com/cdk/). So what the CDK is? According to AWS, it's is an open source software development framework to define your cloud application resources using familiar programming languages. Pretty neat right? At first sight seems like a substitute to Terraform.
+Actually, I'm satisfied with the fact that I'll vendor lock myself a bit with AWS, mainly because this is my field of expertise and I have the most experience with AWS services. After short onboarding, I should be ready to work. This environment is familiar to me, and also the toolset, right? Indeed, mostly. One simple thing, that is so much different in the bigger picture - [AWS CDK](https://aws.amazon.com/cdk/). So what is the CDK? According to AWS, it's is an open-source software development framework to define your cloud application resources using familiar programming languages. Pretty neat right? At first sight, it seems like a substitute to Terraform.
 
-Now very important piece of information that seems to be a clue to the whole story.
+Now a very important piece of information that seems to be a clue to the whole story.
 
-**I'm the first DevOps Engenieer in Bright Inventions**
+**I'm the first DevOps Engenieer at Bright Inventions**
 
 Why is this important, you may ask. Well, as I mentioned the team was already using everything I was familiar with. The software is living in cloud, and the development lifecycle needs a good velocity. So how actually the team managed to go that far without DevOps engenieer? Well, besides having some really bright minds on board, trully open minds, they did something that was the most comfortable and well known to them. They made use of TypeScript to spawn the whole infrastructure with the help of AWS CDK. Having documentation in place for all the CDK constructs, and being able to work with programming language they are familiar with it was possible for them to do what they needed, in AWS cloud.
 
