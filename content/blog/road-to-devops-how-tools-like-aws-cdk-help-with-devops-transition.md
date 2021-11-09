@@ -78,9 +78,9 @@ Actually, I'm satisfied with the fact that I'll vendor lock myself a bit with AW
 
 Now a very important piece of information that seems to be a clue to the whole story.
 
-**I'm the first DevOps Engenieer at Bright Inventions**
+**I'm the first DevOps Engineer at Bright Inventions**
 
-Why is this important, you may ask. Well, as I mentioned the team was already using everything I was familiar with. The software is living in cloud, and the development lifecycle needs a good velocity. So how actually the team managed to go that far without DevOps engenieer? Well, besides having some really bright minds on board, trully open minds, they did something that was the most comfortable and well known to them. They made use of TypeScript to spawn the whole infrastructure with the help of AWS CDK. Having documentation in place for all the CDK constructs, and being able to work with programming language they are familiar with it was possible for them to do what they needed, in AWS cloud.
+Why is this important, you may ask. Well, as I mentioned the team was already using everything I was familiar with. The software is living in the cloud, and the development lifecycle needs a good velocity. So how actually the team did manage to go that far without a DevOps engineer? Well, besides having some really bright minds on board, truly open minds, they did something that was the most comfortable and well known to them. They made use of TypeScript to spawn the whole infrastructure with the help of AWS CDK. Having documentation in place for all the CDK constructs, and being able to work with a programming language they are familiar with it was possible for them to do what they needed in the AWS cloud.
 
 I mentioned getting out of comfort zone. Firstly it was for sure not easy for the developers to work with AWS. It's wide, complicated ecosystem with different gotchas in many places. It require rather a wide domain knowledge to do things both right and secure. Not to forget about being cost effective. But CDK helped with that a bit being kind of a proxy to AWS services with TypeScript constructs in place. Documentstion covering all the parameters and methods is a well known ground for developers using them. 
 
