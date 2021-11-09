@@ -66,13 +66,13 @@ How could I describe my daily work in a few words? I was working for developers 
 
 **And this is the most common scenario of how a DevOps role looks like in many teams/companies and the most common scenario of how do people start working as a DevOps Engineer.**
 
-Also, confronting this with the DevOps definition it's **the most common DevOps antipatern** among the IT world.
+Also, confronting this with the DevOps definition it's **the most common DevOps antipattern** among the IT world.
 
-### DevOps Engenieer, revisited. Short novel about getting out of comfort zone.
+### DevOps Engineer revisited. A short novel about getting out of my comfort zone.
 
-Last journey. DMC-12, can you please move us to more or less present time? Thank you, but where is Marty? Most probably he's got some business in the future. 
+Last journey. DMC-12, can you please move us to the more or less present time? Thank you, but where is Marty? Most probably he's got some business in the future. 
 
-Where are we now? **We are in Bright Inventions**. Hurray, I've managed to pass the recruitment process with Ula examining my attitude and teamfit and somehow get through difficult, yet right on the nose questions asked by Piotr. I'm pretty happy that I could finally be able to mostly focus on one product and get rid of context switching I used to deal with previously.
+Where are we now? **We are in Bright Inventions**. Hurray, I've managed to pass the recruitment process with [Ula](/about-us/ula/) examining my attitude and team fit and somehow got through difficult yet right on the nose questions asked by [Piotr](/about-us/piotr/). I'm pretty happy that I could finally be able to mostly focus on one product and get rid of context switching I used to deal with previously.
 
 Actually I'm satisfied with the fact that I'll vendor lock myself a bit with AWS, mainly because this is my field of expertise and I have most experience with AWS services. After short onboarding I should be ready to work. This environment is familiar to me, and also the toolset right? Indeed, mostly. One simple thing, that is so much different at a bigger picture - [AWS CDK](https://aws.amazon.com/cdk/). So what the CDK is? According to AWS, it's is an open source software development framework to define your cloud application resources using familiar programming languages. Pretty neat right? At first sight seems like a substitute to Terraform.
 
