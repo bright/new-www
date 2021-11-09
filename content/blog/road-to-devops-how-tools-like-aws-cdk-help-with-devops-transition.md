@@ -92,7 +92,7 @@ All in all, fun things happened here:
 * I've learned a lot about code quality, good practices regarding programming languages and code review. Of course, I knew about that, in theory. Practising these guidelines was not an everyday basis, especially having in mind that previously my level of dev <-> ops collaboration was from minimal to none. I even feel comfortable with contributions to the applications' codebase.
 * I've noticed something that seems to be the most crucial part of DevOps culture -  **developer empowerment**. Developers feel free to contribute to infrastructure. They have an understanding of how infrastructure works, and how to use AWS services properly.
 
-Of course, it doesn't mean that DevOps Engenieer can be switched for developer. Making the most of AWS requires some domain knowledge about service dependencies, networking, security and how do they scale up and scale out. What does it mean however is that it's much easier to understand infrastructure and it's current state with tools like CDK and its documentation.
+Of course, it doesn't mean that DevOps engineers can be switched for developers. Making the most of AWS requires some domain knowledge about service dependencies, networking, security and how do they scale up and scale out. It means that it's much easier to understand the infrastructure and its current state with tools like CDK and its documentation.
 
 Most importantly, something I saw in Bright Inventions with naked eye is that instead of raising a ticket to DevOps for ex. adding S3 bucket, SQS, or Lambda function, waiting a week for closing it, developers do these contributions to the infrastructure themselves with pull requests and review request from DevOps Engenieer or anyone familiar with particular subject. 
 
