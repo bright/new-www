@@ -1,12 +1,13 @@
 ---
-layout: post
-title: Creating an UIImage using ImageIdentifiers
+author: kwysocki
 tags:
   - iOS
   - swift
+date: 2016-04-02T22:00:00.000Z
+title: Creating an UIImage using ImageIdentifiers
+layout: post
+image: /images/iphone-6-apple-ios-iphone-50603.jpeg
 comments: true
-author: kwysocki
-date: '2016-04-02T22:00:00.000Z'
 published: true
 ---
 
