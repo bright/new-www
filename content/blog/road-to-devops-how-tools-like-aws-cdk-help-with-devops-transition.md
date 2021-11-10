@@ -32,7 +32,7 @@ How does it sound? Simple yet descriptive, right? Sure, but what does it really 
 
 And that’s what this story is really about.
 
-## Road to DevOps, the story of a DevOps engenieer and a common antipattern
+## Road to DevOps – the story of a DevOps engineer and a common antipattern
 
 ### Background
 
