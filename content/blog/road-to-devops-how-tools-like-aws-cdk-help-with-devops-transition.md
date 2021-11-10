@@ -89,7 +89,7 @@ I mentioned getting out of my comfort zone. Firstly it was for sure not easy for
 
 Secondly, me and CDK. That was something that bothered me for some time. It's just a tool doing the same thing differently, they say. However, there was something unusual for me in the path Bright Inventions took here. It took a few weeks for me to get to know CDK, its interactions with underlying CloudFormation, and to learn something new - TypeScript. It was refreshing, but definitely out of my cosy status quo I grew using Terraform. While I was familiar with some programming languages, not being a part of software development per se, resulted in the necessity to learn good practices and how to do things just right.
 
-All in all, fun things happened here:
+**All in all, fun things happened here at Bright Inventions:**
 
 * My mindset changed a bit. I started to think more like a developer than SysOps I actually am. It gave me a wider perspective on the software I'm working with, with a deeper understanding of application code, and how to work with developers efficiently.
 * I've learned a lot about code quality, good practices regarding programming languages and code review. Of course, I knew about that, in theory. Practising these guidelines was not an everyday basis, especially having in mind that previously my level of dev <-> ops collaboration was from minimal to none. I even feel comfortable with contributions to the applications' codebase.
@@ -97,7 +97,7 @@ All in all, fun things happened here:
 
 Of course, it doesn't mean that DevOps engineers can be switched for developers. Making the most of AWS requires some domain knowledge about service dependencies, networking, security and how do they scale up and scale out. It means that it's much easier to understand the infrastructure and its current state with tools like CDK and its documentation.
 
-Most importantly, something I saw in Bright Inventions with a naked eye is that instead of raising a ticket to DevOps for ex. adding S3 bucket, SQS, or Lambda function, waiting a week for closing it, developers do these contributions to the infrastructure themselves with pull requests and review requests from DevOps Engineer or anyone familiar with a particular subject. 
+Most importantly, something I saw in Bright Inventions with a naked eye is that instead of raising a ticket to DevOps e.g. adding S3 bucket, SQS, or Lambda function, waiting a week for closing it, developers do these contributions to the infrastructure themselves with pull requests and review requests from DevOps Engineer or anyone familiar with a particular subject. 
 
 ## Summary - the DevOps definition revisited
 
