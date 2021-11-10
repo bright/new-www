@@ -1,11 +1,12 @@
 ---
-layout: post
-title: ReactiveCocoa 4 - Action
+author: eliasz
 tags:
   - iOS
+date: 2016-08-06T22:00:00.000Z
+title: ReactiveCocoa 4 - Action
+layout: post
+image: /images/development.jpg
 comments: true
-author: eliasz
-date: '2016-08-06T22:00:00.000Z'
 published: true
 ---
 
