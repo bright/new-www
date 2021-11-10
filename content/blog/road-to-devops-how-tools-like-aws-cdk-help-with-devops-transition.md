@@ -11,11 +11,14 @@ tags:
 date: 2021-11-09T14:00:00.080Z
 title: Road to DevOps - How tools like AWS CDK help with DevOps transition
 layout: post
+image: /images/road_to_devops_blog.png
 hidden: true
 comments: true
 published: false
 ---
 It's obvious that DevOps is a buzzword these days. If you are somehow connected with software development, the DevOps culture could possibly jump right on your face from your fridge. You haven't heard it? I don't believe you, but if that's the case - no worries, you will. Sooner or later.
+
+![](/images/michal_devops.png)
 
 ## The Definition of DevOps
 
