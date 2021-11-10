@@ -11,29 +11,32 @@ tags:
 date: 2021-11-09T14:00:00.080Z
 title: Road to DevOps - How tools like AWS CDK help with DevOps transition
 layout: post
+image: /images/road_to_devops_blog.png
 hidden: true
 comments: true
 published: false
 ---
 It's obvious that DevOps is a buzzword these days. If you are somehow connected with software development, the DevOps culture could possibly jump right on your face from your fridge. You haven't heard it? I don't believe you, but if that's the case - no worries, you will. Sooner or later.
 
+![DevOps at Bright Inventions](/images/michal_devops.png)
+
 ## The Definition of DevOps
 
-I could possibly write a book trying to describe everything that one should know about DevOps, how cool it is, and why everyone should shout out DevOps slogans with the same frequency as some Agile mantras. Yeah, most probably it wouldn't be a bestseller, so I won't. Instead I would present short, yet meaningful [definition from AWS](https://aws.amazon.com/devops/what-is-devops/): 
+I could possibly write a book trying to describe everything that one should know about DevOps, how cool it is, and why everyone should shout out DevOps slogans with the same frequency as some Agile mantras. Yeah, most probably it wouldn't be a bestseller, so I won't. Instead, I would present a short, yet meaningful [definition from AWS](https://aws.amazon.com/devops/what-is-devops/): 
 
 > DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes.
 
-How does it sound? Simple yet descriptive, right? Sure, but what does it really mean for a software development team that would like to boost up velocity, and go one step ahead on delivery quality path? I have my own perspective on DevOps, that grew while working with different teams, in different envioronments, on a wide spectrum of projects. 
+How does it sound? Simple yet descriptive, right? Sure, but what does it really mean for a software development team that would like to boost up velocity, and go one step ahead on the delivery quality path? I have my own perspective on DevOps, which grew while working with different teams, in different environments, on a wide spectrum of projects. 
 
 > DevOps culture is about getting out of comfort zone, cross-team collaboration and putting impact on a feedback loop, all that with the help of modern DevOps toolset
 
 And that’s what this story is really about.
 
-## Road to DevOps, the story of a DevOps engenieer and a common antipattern
+## Road to DevOps – the story of a DevOps engineer and a common antipattern
 
 ### Background
 
-Now, let's pay a visit to Dr Emmett Lathrop Brown, and make use of that fancy DeLorean DMC-12 to jump into the past for a second. Someone is waving at us! That's a younger version of me. Meet Michał, **the SysOps.** He is working in a big corporation with bare metal servers and some virtualisation in place. Oh, and he has keys to datacenter! And a winter wool hat for hours spent there with all the fans and air conditioning on.
+Now, let's pay a visit to Dr Emmett Lathrop Brown, and make use of that fancy DeLorean DMC-12 to jump into the past for a second. Someone is waving at us! That's a younger version of me. Meet Michał, **the SysOps.** He is working in a big corporation with bare metal servers and some virtualisation in place. Oh, and he has keys to data center! And a winter wool hat for hours spent there with all the fans and air conditioning on.
 
 Back then my main problem was to automate repetitive work on copious amounts of virtual machines and bare metals hosting business applications on some enterprise Linux distributions or other Unix family systems like IBM AIX. It was relatively easy, sometimes challenging, but mainly easy with some edge cases to be covered with custom scripts and dirty hacks that should never go live to production. I had some useful background for that job: 
 
@@ -86,22 +89,22 @@ I mentioned getting out of my comfort zone. Firstly it was for sure not easy for
 
 Secondly, me and CDK. That was something that bothered me for some time. It's just a tool doing the same thing differently, they say. However, there was something unusual for me in the path Bright Inventions took here. It took a few weeks for me to get to know CDK, its interactions with underlying CloudFormation, and to learn something new - TypeScript. It was refreshing, but definitely out of my cosy status quo I grew using Terraform. While I was familiar with some programming languages, not being a part of software development per se, resulted in the necessity to learn good practices and how to do things just right.
 
-All in all, fun things happened here:
+**All in all, fun things happened here at Bright Inventions:**
 
-* My mindset changed a bit. I started to think more like a developer than SysOps I actually am. It gave me a wider perspective on the software I'm working with, with a deeper understanding of application code, and how to work with developers efficiently.
-* I've learned a lot about code quality, good practices regarding programming languages and code review. Of course, I knew about that, in theory. Practising these guidelines was not an everyday basis, especially having in mind that previously my level of dev <-> ops collaboration was from minimal to none. I even feel comfortable with contributions to the applications' codebase.
+* My mindset changed a bit. **I started to think more like a developer than SysOps I actually am.** It gave me a wider perspective on the software I'm working with, with a deeper understanding of application code, and how to work with developers efficiently.
+* **I've learned a lot about code quality, good practices regarding programming languages and code review.** Of course, I knew about that, in theory. Practising these guidelines was not an everyday basis, especially having in mind that previously my level of dev <-> ops collaboration was from minimal to none. I even feel comfortable with contributions to the applications' codebase.
 * I've noticed something that seems to be the most crucial part of DevOps culture -  **developer empowerment**. Developers feel free to contribute to infrastructure. They have an understanding of how infrastructure works, and how to use AWS services properly.
 
-Of course, it doesn't mean that DevOps engineers can be switched for developers. Making the most of AWS requires some domain knowledge about service dependencies, networking, security and how do they scale up and scale out. It means that it's much easier to understand the infrastructure and its current state with tools like CDK and its documentation.
+**Of course, it doesn't mean that DevOps engineers can be switched for developers.** Making the most of AWS requires some domain knowledge about service dependencies, networking, security and how do they scale up and scale out. It means that it's much easier to understand the infrastructure and its current state with tools like CDK and its documentation.
 
-Most importantly, something I saw in Bright Inventions with a naked eye is that instead of raising a ticket to DevOps for ex. adding S3 bucket, SQS, or Lambda function, waiting a week for closing it, developers do these contributions to the infrastructure themselves with pull requests and review requests from DevOps Engineer or anyone familiar with a particular subject. 
+Most importantly, something I saw in Bright Inventions with a naked eye is that instead of raising a ticket to DevOps e.g. adding S3 bucket, SQS, or Lambda function, waiting a week for closing it, developers do these contributions to the infrastructure themselves with pull requests and review requests from DevOps Engineer or anyone familiar with a particular subject. 
 
-## Summary - the DevOps definition revisited
+## Summary – the DevOps definition revisited
 
 Remember my definition of DevOps? That's the story of how I came to that. DevOps mindset is all about **collaboration and feedback loop**. Thanks to tools like AWS CDK one can both introduce so important dev empowerment and move the quality of work done by SysOps/DevOps/Infrastructure engineers to a whole new level. As an effect, we **destroy the silos**, which slows down the development process so much. 
 
-Obviously, it's a good moment to pinpoint some disadvantages of CDK. It's a tool written by AWS for AWS, hence we get another vendor lock-in here. It's great for its own ecosystem, however not ideal. There are some major drawbacks of using CloudFormation which I'm aware of. But it's not my intention to praise this particular tool but to draw attention to the philosophy CDK follows.
+**Obviously, it's a good moment to pinpoint some disadvantages of CDK.** It's a tool written by AWS for AWS, hence we get another vendor lock-in here. It's great for its own ecosystem, however not ideal. There are some major drawbacks of using CloudFormation which I'm aware of. But it's not my intention to praise this particular tool but to draw attention to the philosophy CDK follows.
 
 Luckily, there are various tools on the market that try to solve problems mentioned above with a different level of maturity, like [Pulumi](https://www.pulumi.com) or [cdktf](https://github.com/hashicorp/terraform-cdk), that allows you to use familiar programming languages and CDK constructs to define cloud infrastructure and provision it through [HashiCorp Terraform](https://www.terraform.io). That one is a brilliant solution that connects the advantages of CDK and the great power of Terraform and its huge base of providers, along with a friendly community.
 
-I sincerely encourage all software development teams and DevOps teams, that live in antipatterns I used to live in, to look into this attitude and try to implement it even experimentally. Adapting to the new working culture takes some time and effort on every side of the equation, but the effect can be surprisingly satisfying for everyone.
+**I sincerely encourage all software development teams and DevOps teams, that live in antipatterns I used to live in, to look into this attitude and try to implement it even experimentally.** Adapting to the new working culture takes some time and effort on every side of the equation, but the effect can be surprisingly satisfying for everyone.
