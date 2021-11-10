@@ -8,6 +8,7 @@ tags:
 comments: true
 author: eliasz
 date: '2017-10-12T22:00:00.000Z'
+image: /images/react_native_header.jpeg
 published: true
 ---
 
