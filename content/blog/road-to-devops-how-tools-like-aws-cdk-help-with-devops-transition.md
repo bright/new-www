@@ -36,7 +36,7 @@ And that’s what this story is really about.
 
 ### Background
 
-Now, let's pay a visit to Dr Emmett Lathrop Brown, and make use of that fancy DeLorean DMC-12 to jump into the past for a second. Someone is waving at us! That's a younger version of me. Meet Michał, **the SysOps.** He is working in a big corporation with bare metal servers and some virtualisation in place. Oh, and he has keys to datacenter! And a winter wool hat for hours spent there with all the fans and air conditioning on.
+Now, let's pay a visit to Dr Emmett Lathrop Brown, and make use of that fancy DeLorean DMC-12 to jump into the past for a second. Someone is waving at us! That's a younger version of me. Meet Michał, **the SysOps.** He is working in a big corporation with bare metal servers and some virtualisation in place. Oh, and he has keys to data center! And a winter wool hat for hours spent there with all the fans and air conditioning on.
 
 Back then my main problem was to automate repetitive work on copious amounts of virtual machines and bare metals hosting business applications on some enterprise Linux distributions or other Unix family systems like IBM AIX. It was relatively easy, sometimes challenging, but mainly easy with some edge cases to be covered with custom scripts and dirty hacks that should never go live to production. I had some useful background for that job: 
 
