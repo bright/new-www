@@ -22,11 +22,11 @@ It's obvious that DevOps is a buzzword these days. If you are somehow connected 
 
 ## The Definition of DevOps
 
-I could possibly write a book trying to describe everything that one should know about DevOps, how cool it is, and why everyone should shout out DevOps slogans with the same frequency as some Agile mantras. Yeah, most probably it wouldn't be a bestseller, so I won't. Instead I would present short, yet meaningful [definition from AWS](https://aws.amazon.com/devops/what-is-devops/): 
+I could possibly write a book trying to describe everything that one should know about DevOps, how cool it is, and why everyone should shout out DevOps slogans with the same frequency as some Agile mantras. Yeah, most probably it wouldn't be a bestseller, so I won't. Instead, I would present a short, yet meaningful [definition from AWS](https://aws.amazon.com/devops/what-is-devops/): 
 
 > DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes.
 
-How does it sound? Simple yet descriptive, right? Sure, but what does it really mean for a software development team that would like to boost up velocity, and go one step ahead on delivery quality path? I have my own perspective on DevOps, that grew while working with different teams, in different envioronments, on a wide spectrum of projects. 
+How does it sound? Simple yet descriptive, right? Sure, but what does it really mean for a software development team that would like to boost up velocity, and go one step ahead on the delivery quality path? I have my own perspective on DevOps, which grew while working with different teams, in different environments, on a wide spectrum of projects. 
 
 > DevOps culture is about getting out of comfort zone, cross-team collaboration and putting impact on a feedback loop, all that with the help of modern DevOps toolset
 
