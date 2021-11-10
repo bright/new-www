@@ -33,7 +33,11 @@ And that’s what this story is really about.
 
 ### Background
 
+![DeLorean DMC-12](/images/delorean.png)
+
 Now, let's pay a visit to Dr Emmett Lathrop Brown, and make use of that fancy DeLorean DMC-12 to jump into the past for a second. Someone is waving at us! That's a younger version of me. Meet Michał, **the SysOps.** He is working in a big corporation with bare metal servers and some virtualisation in place. Oh, and he has keys to datacenter! And a winter wool hat for hours spent there with all the fans and air conditioning on.
+
+![Datacenter](/images/datacenter.svg)
 
 Back then my main problem was to automate repetitive work on copious amounts of virtual machines and bare metals hosting business applications on some enterprise Linux distributions or other Unix family systems like IBM AIX. It was relatively easy, sometimes challenging, but mainly easy with some edge cases to be covered with custom scripts and dirty hacks that should never go live to production. I had some useful background for that job: 
 
@@ -46,6 +50,8 @@ So automation, scripting, Perl, Bash, Sed, Awk, Python, Linux, Unix. Let's add A
 ### DevOps Engineer
 
 Ok, we are jumping into DeLorean once again. Oh, Hi Marty! When did you join us?! Never mind. We travelled in time a few years forward. Here he is, Michał with his shiny Apple Macbook working from home. Yes, from home. Why, you ask? That's because now he works **in the cloud**. Now Michał is a **DevOps Engineer**, serving as a catalyst to software development. How cool is that, huh? 
+
+![Remote Cloud DevOps](/images/devops-laptop-banner.svg)
 
 **So, what changed?**
 
@@ -97,6 +103,8 @@ Of course, it doesn't mean that DevOps engineers can be switched for developers.
 Most importantly, something I saw in Bright Inventions with a naked eye is that instead of raising a ticket to DevOps for ex. adding S3 bucket, SQS, or Lambda function, waiting a week for closing it, developers do these contributions to the infrastructure themselves with pull requests and review requests from DevOps Engineer or anyone familiar with a particular subject. 
 
 ## Summary - the DevOps definition revisited
+
+![It's all about collaboration](/images/collaboration-banner.svg)
 
 Remember my definition of DevOps? That's the story of how I came to that. DevOps mindset is all about **collaboration and feedback loop**. Thanks to tools like AWS CDK one can both introduce so important dev empowerment and move the quality of work done by SysOps/DevOps/Infrastructure engineers to a whole new level. As an effect, we **destroy the silos**, which slows down the development process so much. 
 
