@@ -9,7 +9,7 @@ tags:
   - typescript
   - inspiration
 date: 2021-11-09T14:00:00.080Z
-title: Road to DevOps - How tools like AWS CDK help with DevOps transition
+title: Road to DevOps – How tools like AWS CDK help with DevOps transition
 layout: post
 image: /images/road_to_devops_blog.png
 hidden: true
