@@ -4,6 +4,7 @@ tags:
   - communication
   - onboarding
   - inspiration
+  - feedback
 date: 2021-11-15T18:03:06.653Z
 title: How to Make Your New Employee's Onboarding Bright
 layout: post
