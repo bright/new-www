@@ -5,7 +5,7 @@ tags:
 date: 2016-07-19T22:00:00.000Z
 title: ReactiveCocoa 4 - Events
 layout: post
-image: /images/laptop-2.jpg
+image: /images/downtime.jpg
 comments: true
 published: true
 ---
