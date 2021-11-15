@@ -6,6 +6,7 @@ tags:
 comments: true
 author: eliasz
 date: '2016-01-20T23:00:00.000Z'
+image: /images/programming.jpg
 published: true
 ---
 
