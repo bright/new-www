@@ -6,8 +6,8 @@ slug: dominik-d
 name: Dominik Dygowski
 short_name: Dominik
 email: dominik.dygowski@brightinventions.pl
-bio: Senior Frontend Developer
-description: Senior Frontend Developer
+bio: Frontend Developer
+description: Frontend Developer
 avatar: /images/dominikd_team.png
 avatar_hover: /images/dominikd_passion_team.png
 published: true
