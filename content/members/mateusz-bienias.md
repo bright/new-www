@@ -6,8 +6,8 @@ slug: mateusz-b
 name: Mateusz Bienias
 short_name: Mateusz
 email: mateusz.bienias@brightinventions.pl
-bio: iOS Developer
-description: iOS Developer
+bio: Senior iOS Developer
+description: Senior iOS Developer
 avatar: /images/mateuszb_team.png
 avatar_hover: /images/mateuszb_passion_team.png
 published: true
