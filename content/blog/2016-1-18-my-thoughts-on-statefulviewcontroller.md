@@ -6,6 +6,7 @@ tags:
 comments: true
 author: eliasz
 date: '2016-01-17T23:00:00.000Z'
+image: /images/people-office-group-team.jpg
 published: true
 ---
 I had a chance to play a little bit with a nice pod that is called StatefulViewController, created by Alexander Schuch. StatefulViewController works with both `UIView` and `UIViewController`, and allows you to introduce placeholders for their different states: Loading, Error, Empty or Content. Everything is based on an intuitive protocol and after providing your placeholder views and implementing required methods everything works like a charm. You can find this pod on Alexander's [github](https://github.com/aschuch/StatefulViewController). I've looked into the code of this pod and I found a few things that I want to share with you today.
