@@ -47,13 +47,8 @@ const PageTitleCareer = styled(PageTitle)`
     font-weight: 900;
   }
 `
-const SectionTechnology = styled.div`
-  padding: 7.25rem 0 0;
-`
 
 const CareerPage: React.FC = () => {
-  const { width } = useWindowSize()
-  const breakpoint = 580
   return (
     <Page className='page-career'>
       <HelmetTitleDescription
@@ -73,13 +68,6 @@ const CareerPage: React.FC = () => {
 
       <Description />
       <Offers />
-
-      {width > breakpoint && width <= 1540 ? (
-        <SectionTechnology>
-          <TechnologyTags />
-        </SectionTechnology>
-      ) : null}
-
       <RecruitingProcess />
 
       <WhatWePractice />
