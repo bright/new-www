@@ -9,7 +9,7 @@ tags:
   - typescript
   - inspiration
 date: 2021-11-09T14:00:00.080Z
-title: Road to DevOps – How tools like AWS CDK help with DevOps transition
+title: Road to DevOps – How Tools Like AWS CDK Help with DevOps Transition
 layout: post
 image: /images/road_to_devops_blog.png
 hidden: true
@@ -35,11 +35,12 @@ And that’s what this story is really about.
 ## Road to DevOps – the story of a DevOps engineer and a common antipattern
 
 ### Background
+
 ![DeLorean DMC-12](/images/delorean.jpg)
 
 Now, let's pay a visit to Dr Emmett Lathrop Brown, and make use of that fancy DeLorean DMC-12 to jump into the past for a second. Someone is waving at us! That's a younger version of me. Meet Michał, **the SysOps.** He is working in a big corporation with bare metal servers and some virtualisation in place. Oh, and he has keys to data center! And a winter wool hat for hours spent there with all the fans and air conditioning on.
 
-Back then my main problem was to automate repetitive work on copious amounts of virtual machines and bare metals hosting business applications on some enterprise Linux distributions or other Unix family systems like IBM AIX. It was relatively easy, sometimes challenging, but mainly easy with some edge cases to be covered with custom scripts and dirty hacks that should never go live to production. I had some useful background for that job: 
+Back then my main problem was to automate repetitive work on the copious numbers of virtual machines and bare metals hosting business applications on some enterprise Linux distributions or other Unix family systems like IBM AIX. It was relatively easy, sometimes challenging, but mainly easy with some edge cases to be covered with custom scripts and dirty hacks that should never go live to production. I had some useful background for that job: 
 
 * The very basic concepts of programming, data structures and algorithms were injected into my fertile brain back then. It was done in the lower secondary school by my IT teacher, she was able to see that small IT sparkle in me and a few colleagues.
 * That knowledge was constantly growing, both in school and at home. Besides hanging out with friends (yes, I'm from the generation that used to play outside), I was creating websites about Worms and Quake 2/3 with HTML, PHP and some Javascript. Later it evolved into Python and Django.
