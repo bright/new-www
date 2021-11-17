@@ -8,13 +8,13 @@ tags:
   - cdk
   - typescript
   - inspiration
-date: 2021-11-09T14:00:00.080Z
+date: 2021-11-17T13:45:00.000Z
 title: Road to DevOps – How Tools Like AWS CDK Help with DevOps Transition
 layout: post
 image: /images/road_to_devops_blog.png
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 ---
 It's obvious that DevOps is a buzzword these days. If you are somehow connected with software development, the DevOps culture could possibly jump right on your face from your fridge. You haven't heard it? I don't believe you, but if that's the case - no worries, you will. Sooner or later.
 
