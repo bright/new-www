@@ -1,13 +1,14 @@
 ---
-layout: post
-title: Do More with What You Have
+author: ula
 tags:
   - productivity
   - programming
   - business
+date: 2017-09-12T22:00:00.000Z
+title: Do More with What You Have
+layout: post
+image: /images/working_office.jpeg
 comments: true
-author: ula
-date: '2017-09-12T22:00:00.000Z'
 published: true
 ---
 Let us assume we work diligently. But does it also mean we work effectively and efficiently? Do we spend eight, seven or (at least) six or five hours a day working conscientiously on our projects? And if someone asked **whether we come into work with the intention to do our job best, would our answer be always YES?**
