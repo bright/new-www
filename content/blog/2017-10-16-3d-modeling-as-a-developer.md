@@ -8,6 +8,7 @@ tags:
   - OpenSCAD
 comments: true
 date: '2017-10-15T22:00:00.000Z'
+image: /images/3d_model.png
 published: true
 ---
 As a developer, 3d modeling was something that I had always wanted to&nbsp;try since it was something that I needed to visualize the final product or to create prototypes in my DIY projects. For a long time I've been searching for a perfect CAD, but none of them were ideal for&nbsp;me.
