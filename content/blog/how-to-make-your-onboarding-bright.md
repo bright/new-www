@@ -39,7 +39,7 @@ If the first day is in person, you may take your new colleagues on a short offic
 
 ✔️ Make sure you give the new hire all the documents like NDAs, GDPR and other privacy forms they need to sign. Ensure you do this while explaining the purpose behind each one.
 
-✔️ Remember about giving an access to your company Wiki/culture book/other materials that involve the key information everyone in the team should be introduced with. Not mentioning the tolls they will need in their job. 
+✔️ Remember about giving an access to your company Wiki/culture book/other materials that involve the key information everyone in the team should be introduced with. Not mentioning the tools they will need in their job. 
 
 ✔️ First day is also a good time for some ice-breakers. At Bright Inventions we use Slack for daily communication and it is quite useful for this occasion. But it can be done via any platform you use. 
 
@@ -61,7 +61,7 @@ The first week on a new job is a bit like orientation on a school campus. It is 
 
 **Follow up and check ins - do not forget about them.** After giving the new hires time to get used to the office, workspace and their trainer, it is good to follow up with them to make sure they are feeling comfortable and picking things up at an appropriate pace. As far as I can tell, the end of the first week is a good time to discuss how the next weeks or so should progress, what you expect and where they should be once they reach that time. 
 
-Make also some time for feedback. As you probably already know at Bright Inventions we value and practise transparent feedbag culture. **If you are a manager, make sure to get updates from those who work closely with the new-hires and make an effort to point your new-comers in the right direction if they seem to be faltering or struggling with certain tasks.** Also do ask for feedback as they should be able to express freely their feelings and impressions since day one.
+Make also some time for feedback. As you probably already know at Bright Inventions we value and practise transparent feedback culture. **If you are a manager, make sure to get updates from those who work closely with the new-hires and make an effort to point your new-comers in the right direction if they seem to be faltering or struggling with certain tasks.** Also do ask for feedback as they should be able to express freely their feelings and impressions since day one.
 
 ![](/images/feedback_future.png)
 
