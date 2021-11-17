@@ -2,6 +2,7 @@
 layout: post
 title: Simplistic JavaScript dependency injection with ES6 destructuring
 date: 2015-08-24T00:00:00.000Z
+image: /images/javascript.jpg
 tags:
   - JavaScript
   - ES6
