@@ -1,9 +1,5 @@
 ---
 crosspost: true
-layout: post
-title: Are we ready for deep learning on mobile devices?
-date: 2019-03-24T23:00:00.000Z
-image: /images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg
 author: radeks
 tags:
   - android
@@ -13,6 +9,10 @@ tags:
   - deep learning
   - machine learning
   - ml kit
+date: 2019-03-24T23:00:00.000Z
+title: Are we ready for deep learning on mobile devices?
+layout: post
+image: /images/are-we-ready-for-deep-learning-on-mobile-devices/top_img.jpg
 hidden: false
 comments: true
 published: true
@@ -45,5 +45,5 @@ Let’s now sum up the whole process of using TensorFlow model on mobile device.
 * Load the model and make an inference
 
 As you can see you can make it work by following four main steps. Yet there are lots of opportunities behind machine learning and deep learning in particular, so why not to take advantage of it. There is a whole bunch of things to cover but I’m sure that’s worth your time. With such great tools like TensorFlow/Keras and TensorFlow Lite you can deploy your current model to mobile devices much easier than it was possible before. Stay tuned for next posts about creating Android app with TensorFlow Lite.
----
+
 Click to learn more what other tools are used by <a target="_blank" href="https://www.designrush.com/trends/best-software-development-tools">app development companies</a>.
