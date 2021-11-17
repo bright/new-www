@@ -2,6 +2,7 @@
 layout: post
 title: 'Android Data Binding Part 2: Observer pattern to the bone'
 date: '2015-07-27 08:45'
+image: /images/android_blog_post.png
 categories:
   - android
 tags:
