@@ -2,6 +2,7 @@
 layout: post
 title: Maintaining current user information in Android
 date: 2015-06-30T00:00:00.000Z
+image: /images/robot-android.png
 tags:
   - android
 comments: true
