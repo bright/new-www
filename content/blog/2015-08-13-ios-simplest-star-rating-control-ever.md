@@ -2,6 +2,7 @@
 layout: post
 title: 'iOS: The simplest star rating control ever'
 date: 2015-08-13T00:00:00.000Z
+image: /images/internet-ios.jpg
 tags:
   - iOS
 comments: true
