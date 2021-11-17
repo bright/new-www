@@ -8,6 +8,7 @@ tags:
 comments: true
 author: ula
 date: '2017-03-02T23:00:00.000Z'
+image: /images/working_computer.png
 published: true
 ---
 
