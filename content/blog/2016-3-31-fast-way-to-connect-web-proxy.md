@@ -6,6 +6,7 @@ tags:
 comments: true
 author: mateuszklimek
 date: '2016-03-30T22:00:00.000Z'
+image: /images/android.jpeg
 published: true
 ---
 
