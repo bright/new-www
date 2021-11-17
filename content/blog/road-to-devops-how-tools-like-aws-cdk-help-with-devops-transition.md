@@ -18,7 +18,7 @@ published: true
 ---
 It's obvious that DevOps is a buzzword these days. If you are somehow connected with software development, the DevOps culture could possibly jump right on your face from your fridge. You haven't heard it? I don't believe you, but if that's the case - no worries, you will. Sooner or later.
 
-![DevOps at Bright Inventions](/images/michal_devops.png)
+![DevOps at Bright Inventions](/images/road_to_devops_michal.png)
 
 ## The Definition of DevOps
 
