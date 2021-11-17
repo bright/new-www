@@ -2,6 +2,7 @@
 layout: post
 title: 'Android Data Binding Part 1: Why it is important'
 date: '2015-07-20 08:36'
+image: /images/android.jpeg
 categories:
   - android
 tags:
