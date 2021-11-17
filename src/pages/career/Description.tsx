@@ -25,6 +25,9 @@ export const PageDescriptionCareer = styled(PageDescription)`
 
   @media ${variables.device.mobile} {
     font-size: 1rem;
+    &:last-of-type {
+      margin-bottom: 0rem;
+    }
   }
 `
 
