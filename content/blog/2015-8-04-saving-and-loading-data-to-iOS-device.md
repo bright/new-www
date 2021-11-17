@@ -3,6 +3,7 @@ author: eliasz
 tags:
   - iOS
 date: 2015-08-03T22:00:00.000Z
+image: /images/iphone-6.jpg
 title: NSKeyedArchiver/Unarchiver
 layout: post
 comments: true
