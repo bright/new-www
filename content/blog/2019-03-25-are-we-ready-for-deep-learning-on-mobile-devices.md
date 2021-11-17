@@ -44,4 +44,6 @@ Let’s now sum up the whole process of using TensorFlow model on mobile device.
 * Save the converted model on your device
 * Load the model and make an inference
 
-As you can see you can make it work by following four main steps. Yet there are lots of opportunities behind machine learning and deep learning in particular, so why not to take advantage of it. There is a whole bunch of things to cover but I’m sure that’s worth your time. With such great tools like TensorFlow/Keras and TensorFlow Lite you can deploy your current model to mobile devices much easier than it was possible before. Stay tuned for next posts about creating Android app with TensorFlow Lite!
+As you can see you can make it work by following four main steps. Yet there are lots of opportunities behind machine learning and deep learning in particular, so why not to take advantage of it. There is a whole bunch of things to cover but I’m sure that’s worth your time. With such great tools like TensorFlow/Keras and TensorFlow Lite you can deploy your current model to mobile devices much easier than it was possible before. Stay tuned for next posts about creating Android app with TensorFlow Lite.
+---
+Click to learn more what other tools are used by <a target="_blank" href="https://www.designrush.com/trends/best-software-development-tools">app development companies</a>.
