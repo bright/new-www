@@ -7,7 +7,7 @@ date: 2021-10-11T12:05:51.967Z
 title: Hybrid Work – How to Do It Right?
 layout: post
 image: /images/hybrid_work_model.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -35,7 +35,7 @@ Friday is a huge day for bright people. Not only because of the upcoming weekend
 
 ## Sharing the same passions after work
 
-Working together is one thing but when you have a chance to share the same passions with your colleagues – that brings your work experience to the next level. At Bright Inventions, we cooperate with a professional triathlete – Bartosz Banach who conducts workouts for our team. People are free to choose if they want to join running, swimming or MTB workouts that Bartosz organises for us. Our workouts are a great opportunity to stay healthy & active plus obviously to meet each other. What is more, Bartosz helps to reach our private training goals. Recently a few members of our team ran in the marathons! But do not worry, we also have some after-work activities that do not require physical work. 😉  For example, bright board game lovers meet regularly at the office to roll some dice.
+Working together is one thing but when you have a chance to share the same passions with your colleagues – that brings your work experience to the next level. At Bright Inventions, we cooperate with a professional triathlete – [Bartosz Banach](https://www.facebook.com/bartoszbanachpl) who conducts workouts for our team. People are free to choose if they want to join running, swimming or MTB workouts that Bartosz organises for us. Our workouts are a great opportunity to stay healthy & active plus obviously to meet each other. What is more, Bartosz helps to reach our private training goals. Recently a few members of our team ran in the marathons! But do not worry, we also have some after-work activities that do not require physical work. 😉  For example, bright board game lovers meet regularly at the office to roll some dice.
 
 ## Integration meetings
 

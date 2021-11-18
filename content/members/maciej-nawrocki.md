@@ -9,6 +9,7 @@ email: maciej.nawrocki@brightinventions.pl
 bio: Backend Developer
 description: Backend Developer
 avatar: /images/maciej_n_2_team.png
+avatar_hover: /images/maciejn_2passion.png
 published: true
 ---
 Backend Developer who believes nothing is impossible. Always looking for something new to learn and someone new to meet. Big fan of all kinds of comedy.

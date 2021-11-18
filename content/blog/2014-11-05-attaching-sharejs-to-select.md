@@ -13,6 +13,7 @@ tags:
 comments: true
 author: adam
 date: '2014-11-04T23:00:00.000Z'
+image: /images/software_dev.jpg
 published: true
 ---
 

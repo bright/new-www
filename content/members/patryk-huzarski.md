@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: patryk
-ex: false
+ex: true
 slug: patryk
 name: Patryk Huzarski
 short_name: Patryk

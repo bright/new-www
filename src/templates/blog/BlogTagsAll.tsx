@@ -1,5 +1,5 @@
 import React from 'react'
-import tagsTree from '../../../content/tag-groups.yml'
+import tagsTree from '../../../tag-groups.yml'
 import { useEffect, useState } from 'react'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'

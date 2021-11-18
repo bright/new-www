@@ -1,23 +1,22 @@
 ---
-layout: post
-title: HTTP client timeouts
+crosspost: true
 author: piotr
-hidden: false
 tags:
   - http
   - timeout
   - network
   - rest
   - api
-comments: true
-crosspost: true
+date: 2017-11-04T23:00:00.000Z
+title: HTTP client timeouts
+layout: post
 image: /images/http-client-timeouts/waiting.jpg
-date: '2017-11-04T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
-canonicalUrl: 'https://miensol.pl/http-client-timeouts/'
+canonicalUrl: https://miensol.pl/http-client-timeouts/
 ---
-
-We have already touched upon [the importance of timeouts]({% post_url 2017-10-23-the-importance-of-timeouts %}) and described most important [related JDBC knobs]({% post_url 2017-10-31-database-timeouts %}). The next aspect of timeouts I would like to focus on is using API clients. Specifically HTTP clients which are by far the most popular. We will review couple of popular HTTP client libraries and their configuration regarding timeouts. 
+We have already touched upon [the importance of timeouts](/blog/the-importance-of-timeouts/) and described most important [related JDBC knobs](/blog/database-timeouts/). The next aspect of timeouts I would like to focus on is using API clients. Specifically HTTP clients which are by far the most popular. We will review couple of popular HTTP client libraries and their configuration regarding timeouts. 
 
 ![Waiting](/images/http-client-timeouts/waiting.jpg)
 
@@ -79,7 +78,6 @@ val client = OkHttpClient.Builder()
 
 All `connectTimeout`, `readTimeout` and `writeTimeout` default to **10 seconds** 👍.
 
-
 ## XMLHttpRequest and Fetch API timeouts
 
 `XMLHttpRequest` is the standard foundation of network communication of Web application for over 10 years now. Nowadays it is being replaced with Fetch API but it still is, and will continue to be, the most popular for couple of years. There is only a single `timeout` configuration available in [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout):
@@ -119,16 +117,17 @@ let session = URLSession(configuration: sessionConfig)
 
 Fortunately there are default values configured:
 
-- `timeoutIntervalForRequest`: 
-  > This property determines the request timeout interval for all tasks within sessions based on this configuration. The request timeout interval controls how long (in seconds) a task should wait for additional data to arrive before giving up. The timer associated with this value is reset whenever new data arrives. 
-  The default value is 60.
+* `timeoutIntervalForRequest`: 
 
-- `timeoutIntervalForResource`:
+  > This property determines the request timeout interval for all tasks within sessions based on this configuration. The request timeout interval controls how long (in seconds) a task should wait for additional data to arrive before giving up. The timer associated with this value is reset whenever new data arrives. 
+  > The default value is 60.
+* `timeoutIntervalForResource`:
+
   > This property determines the resource timeout interval for all tasks within sessions based on this configuration. The resource timeout interval controls how long (in seconds) to wait for an entire resource to transfer before giving up. 
-  The default value is 7 days.
+  > The default value is 7 days.
 
 Note that `timeoutIntervalForResource` is a higher level timeout that what we have considered in other HTTP clients. It encompasses retries and or request timeouts hence has a large default. 
 
 ## Summary
 
-Many of HTTP clients do not have a good default timeout configuration. Hence, if you care about your application resource usage and system stability you have to carefully review and configure timeouts where applicable. It is reassuring to see that modern HTTP clients e.g. OkHttp and URLSession have a short but sane default. 
+Many of HTTP clients do not have a good default timeout configuration. Hence, if you care about your application resource usage and system stability you have to carefully review and configure timeouts where applicable. It is reassuring to see that modern HTTP clients e.g. OkHttp and URLSession have a short but sane default.

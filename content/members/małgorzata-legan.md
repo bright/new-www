@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: gosia
-ex: false
+ex: true
 slug: gosia
 name: Małgorzata Legan
 short_name: Gosia
@@ -9,6 +9,7 @@ email: malgorzata.legan@brightinventions.pl
 bio: Recruiting Specialist
 description: Recruiting Specialist
 avatar: /images/gosia2.png
+avatar_hover: /images/gosia2_passion.png
 published: true
 ---
 Colorful soul (from the inside and the outside). Seaside girl and a mountain lover who cannot decide to which part of Poland she feels more attached to. 

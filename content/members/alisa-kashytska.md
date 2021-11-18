@@ -9,6 +9,7 @@ email: alisa.kashytska@brightinventions.pl
 bio: Product Designer
 description: Our UX designer will make your app easy to understand and usable
 avatar: /images/members/alisa_kashytska.jpg
+avatar_hover: /images/alisa_passion.png
 redirect_from:
   - /alisa
   - /alisa/

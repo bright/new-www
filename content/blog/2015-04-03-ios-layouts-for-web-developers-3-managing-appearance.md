@@ -7,6 +7,7 @@ excerpt: >-
   presentation separation in iOS?
 title: 'iOS layouts for web developers #3 - managing the appearance'
 date: 2015-04-03T00:00:00.000Z
+image: /images/laptop_work.jpg
 tags:
   - iOS
 comments: true

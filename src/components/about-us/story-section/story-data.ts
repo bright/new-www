@@ -63,7 +63,7 @@ export const story: readonly Story[] = [
     position: "Right",
     images: [
       {
-        src: "/images/members/piotr_mionskowski.jpg",
+        src: "/images/piotr_m2_team.png",
         alt: "Piotr Mionskowski",
       },
       {

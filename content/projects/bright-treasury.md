@@ -14,6 +14,7 @@ tags:
   - fintech
 order: 3
 slug: bright-treasury
+show on homepage: true
 published: true
 ---
 ![Bright Treasury](/images/treasuryappwww.png)
@@ -72,4 +73,4 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 
 ## Result
 
-After completing [the first milestone of Bright Treasury](https://brightinventions.pl/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/), our team is working on another step of this project. Having UI design and the structure of the app established, now we focus on developing features for ideas and proposal handling. We plan to launch the product by the end of 2021. After that, we want to still work closely with Web3 Foundation that has made it possible to turn our idea into a web solution dedicated to the Substrate Blockchain community.
+After completing [first](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/) and second milestone, our team is working on the final step of this project. Having features for ideas and proposal handling developed, now we focus on implementation of the bounties mechanism. We plan to launch the product by the end of 2021. After that, we want to still work closely with Web3 Foundation that has made it possible to turn our idea into a web solution dedicated to the Substrate Blockchain community.

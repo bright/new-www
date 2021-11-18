@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: '1135879026880954',
+        pixelId: '1256554391514599',
       },
     },
     'gatsby-plugin-react-helmet',
@@ -94,7 +94,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-   
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -171,6 +171,35 @@ module.exports = {
           }
         }
       }
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-json-pages',
+      options: {
+        pages: [
+          {
+            fileName: "blog-posts-meta",
+            query: `
+              query PostTags {
+                allMarkdownRemark(filter: {frontmatter: {layout: {eq: "post"}}}){
+                  posts: nodes {
+                    frontmatter {
+                      tags
+                    }
+                  }
+                }
+              }
+
+            `,
+            transformer: ({
+                            data: {
+                              allMarkdownRemark: { posts },
+                            },
+                          }) => ({
+              tags: [...new Set(posts.flatMap(post => post.frontmatter?.tags ?? []))]
+            }),
+          },
+        ],
+      },
+    },
   ],
 }

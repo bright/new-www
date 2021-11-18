@@ -38,7 +38,9 @@
     "./src/**/*", "*.ts"
   ],
   "exclude": ["cdk.out"],
-  "files": ["custom.d.ts"],
+  "files": [
+    "yaml.d.ts"
+  ],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"

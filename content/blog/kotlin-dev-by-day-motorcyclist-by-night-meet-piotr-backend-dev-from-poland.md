@@ -1,6 +1,6 @@
 ---
-author: izabela
-secondAuthor: piotr-a
+author: piotr-a
+secondAuthor: izabela
 tags:
   - development
   - inspiration

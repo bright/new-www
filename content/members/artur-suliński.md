@@ -9,6 +9,7 @@ email: artur.sulinski@brightinventions.pl
 bio: iOS Developer
 description: iOS application development is his second ego
 avatar: /images/arturs_2.png
+avatar_hover: /images/arturs_passion.png
 redirect_from:
   - /artur
   - /artur/

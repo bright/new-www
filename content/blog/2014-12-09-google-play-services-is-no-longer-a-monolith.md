@@ -2,6 +2,7 @@
 layout: post
 title: Google Play Services is no longer a giant monolith
 date: 2014-12-09T10:00:00.000Z
+image: /images/technology-android-development.jpg
 tags:
   - android
 comments: true

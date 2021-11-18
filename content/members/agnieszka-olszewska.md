@@ -7,8 +7,9 @@ name: Agnieszka Olszewska
 short_name: Agnieszka
 email: agnieszka.olszewska@brightinventions.pl
 bio: Senior Fullstack Developer
-description: O naszej Agnieszce
+description: Senior Fullstack Developer
 avatar: /images/members/agnieszka_olszewska.jpg
+avatar_hover: /images/agnieszka_passion.png
 redirect_from:
   - /agnieszka-o
   - /agnieszka-o/

@@ -2,6 +2,7 @@ import { CmsWidgetControlProps, CmsWidgetPreviewProps } from 'netlify-cms-core'
 import { PostTags } from '../PostTags'
 import { Tag, WithContext as ReactTags } from 'react-tag-input'
 import styled from 'styled-components'
+import { useEffect, useMemo, useState } from 'react'
 
 const ReactTagsContainer = styled.div`
   // mostly copy paste from bulma tags
@@ -33,7 +34,7 @@ const ReactTagsContainer = styled.div`
 function toTag(value: string, index: number): Tag {
   return {
     id: index.toString(),
-    text: value,
+    text: value
   }
 }
 
@@ -41,8 +42,34 @@ function toTagValue(tag: Tag) {
   return tag.text
 }
 
+function useAllPostsTags(): Tag[] {
+  const [tags, setTags] = useState([])
+
+  useEffect(function() {
+    async function fetchPostTags() {
+      const { tags } = await (await fetch('/blog-posts-meta.json')).json()
+      setTags(tags)
+    }
+
+    fetchPostTags()
+  }, [])
+
+  return tags.map(t => ({ id: t, text: t }))
+}
+
 export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
   const tags = Array.from(props.value ?? []).map((val, ix) => toTag(val as string, ix))
+  const [suggestedTags, setSuggestedTags] = useState<Tag[]>([])
+
+  useEffect(function() {
+    async function fetchPostTags() {
+      const { tags } = await (await fetch('/blog-posts-meta.json')).json()
+      const tagObjects = (tags ?? []).map((tag: string) => ({ id: tag, text: tag }))
+      setSuggestedTags(tagObjects)
+    }
+
+    fetchPostTags()
+  }, [])
 
   function onAdd(newTag: Tag) {
     const updatedTags = tags.concat([newTag])
@@ -65,13 +92,15 @@ export const TagsControl: React.FC<CmsWidgetControlProps> = props => {
     <>
       <ReactTagsContainer>
         <ReactTags
+          autocomplete={1}
+          suggestions={suggestedTags}
           tags={tags}
           handleAddition={onAdd}
           handleDelete={onDelete}
           handleDrag={onDrag}
           classNames={{
             tag: 'tag',
-            tags: 'tags',
+            tags: 'tags'
           }}
         />
       </ReactTagsContainer>

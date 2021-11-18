@@ -2,6 +2,7 @@
 layout: post
 title: Anchor child element click
 date: 2015-01-25T17:00:00.000Z
+image: /images/laptop_work.jpg
 tags:
   - html
   - javascript

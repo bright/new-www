@@ -18,6 +18,7 @@ technology:
 button: join our QA team
 published: true
 order: 3
+description: We are looking for a QA Specialist who will maintain a high quality of our iOS, Android apps as well as web applications. Apply!
 ---
 
 ![]()

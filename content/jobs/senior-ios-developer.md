@@ -31,11 +31,13 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description
 
-We are looking for an experienced **Senior iOS Developer** who understands Swift & iOS SDK really well and who would like to develop and enhance innovative iOS ePOS application for one of our main clients. The application is an intelligent point-of-sale widely used in the chain of restaurants and supermarkets in Israel and since 2016 successfully entering European market. To find out more about the project itself take a look HERE. 
+We are looking for an experienced **Senior iOS Developer** who understands Swift & iOS SDK really well and who would like to build together with us a high quality mobile application for the client from a construction industry in Germany.
+
+The application will automatically keep track of details such as all the contracts, project proposals as well as warranty requests, and payment processing. It will be also used for tasks management and it will include scheduling, budgeting, timesheets, and more.
 
 ## what you will do
 
-* enhance a high-quality iOS ePOs application from the retail sector
+* enhance a high-quality iOS application from the construction sector
 * participate in software code reviews
 * work closely with project managers and product owners (in English) 
 * take the lead role in project and solve the most challenging technical issues
@@ -78,7 +80,6 @@ We are looking for an experienced **Senior iOS Developer** who understands Swift
 * quarter team building events 
 
 Sounds like a perfect job? Don't hesitate and apply! 
-
 
 
 ## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON!

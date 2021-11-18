@@ -1,13 +1,14 @@
 ---
-layout: post
-title: 3D Touch - Peak&amp;Pop feature.
 author: kwysocki
 tags:
   - iOS
   - swift
   - 3d touch
+date: 2016-12-10T23:00:00.000Z
+title: 3D Touch - Peak&amp;Pop feature.
+layout: post
+image: /images/iphone.jpeg
 comments: true
-date: '2016-12-10T23:00:00.000Z'
 published: true
 ---
 

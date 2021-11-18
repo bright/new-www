@@ -3,118 +3,158 @@ groups:
   - name: development
     # /blog/topics/development
     groups:
-      - name: Backend
+      - name: backend
         # /blog/topics/development/Backend
         tags:
           - Backend
+          - aws
           - AWS
           - Nodejs
           - Node.js
           - Nestjs
-          - Database
-          - SQL
-          - Mysql
-      - name: Frontend
+          - database
+          - sql
+          - mysql
+      - name: frontend
         # /blog/topics/development/Frontend
         tags:
           - Frontend
           - Typescript
+          - TypeScript
+          - typescript
           - CSS
+          - css
           - HTML
+          - html
+          - xss
+          - javascript
+          - JavaScript
       - name: iOS
         # /blog/topics/development/iOS
         tags:
           - iOS
-      - name: Android
+          - ios
+      - name: android
         # /blog/topics/development/Android
         tags:
           - Kotlin
+          - kotlin
       - name: QA
         # /blog/topics/development/QA
         tags:
-          - Testing
+          - testing
+          - QA
+          - unit tests
+          - tests
+          - code-review
+          - code review
         # when QA and Android selected
         # /blog/topics/development/QA-Android
     tags:
-      - Development
-      - Software development
+      - development
+      - software development
       - Kotlin
-      - Typescript
+      - kotlin
+      - TypeScript
+      - typescript
       - Web
-      - Mysql
-      - Database
+      - mysql
+      - database
       - Testing
       - SQL
       - xss
       - js
-      - Kotlin
       - Java
-      - App
-      - Mobile
+      - java
+      - app
+      - mobile
       - AWS
-      - Javascript
-      - React native
+      - aws
+      - javascript
+      - JavaScript
+      - react native
+      - React-Native
       - Image classification
       - Nodejs
-      - Node.js
-      - Nestjs
+      - node.js
+      - Node.js  
+      - nestjs
       - Mobile development
-      - Programming
+      - programming
       - IoT
       - Git
       - IT
-      - Code review
+      - code review
       - Code-review
       - Web
+      - redshift
       - Redshift
-      - Algorithm
-      - Spring
-      - Technology
+      - algorithm
+      - spring
+      - technology
       - CSS
+      - css
       - HTML
       - HTTP
-      - Electronics
-      - Server
+      - electronics
+      - server
       - CAD
       - Performance
       - API
+      - api
       - Architecture
       - iOS
+      - ios
       - Android
+      - android
+      - OpenSource
   - name: Business
     tags:
-      - Business
+      - business
       - Startup
       - MVP
+      - mvp
       - B2B
-      - Startups
+      - startups
+      - business perspective
   - name: Blockchain
     tags:
+      - blockchain
       - Blockchain
       - Substrate
-      - Cryptocurrency
+      - substrate
+      - cryptocurrency
   - name: Design
     tags:
-      - Design
-      - Mockups
+      - design
+      - mockups
   - name: Inspiration
     tags:
-      - Career
-      - Redshift
+      - career
+      - redshift
       - Self-development
+      - inspiration
+      - communication
+      - team building
+      - productivity
+      - teamwork
+      - team
+      - motivation
+      - tips
   - name: Project management
     tags:
-      - Project management
-      - Communication
-      - Team building
+      - project management
+      - communication
+      - team building
       - HR
-      - Recruitment
-      - Soft skills
+      - recruitment
+      - soft skills
       - Agile
-      - Productivity
-      - Teamwork
-      - Motivation
+      - agile
+      - productivity
+      - teamwork
+      - motivation
       - Cooperation
-      - Teamspirit
-      - Time-management
-      - Team
+      - teamspirit
+      - time-management
+      - team

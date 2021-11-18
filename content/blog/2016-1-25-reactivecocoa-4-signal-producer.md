@@ -1,11 +1,12 @@
 ---
-layout: post
-title: ReactiveCocoa 4 - SignalProducer
+author: eliasz
 tags:
   - iOS
+date: 2016-01-24T23:00:00.000Z
+title: ReactiveCocoa 4 - SignalProducer
+layout: post
+image: /images/laptop.jpg
 comments: true
-author: eliasz
-date: '2016-01-24T23:00:00.000Z'
 published: true
 ---
 

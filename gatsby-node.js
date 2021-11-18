@@ -46,7 +46,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
   })
-  const ymlDocTags = yaml.load(fs.readFileSync("./content/tag-groups.yml", "utf-8"))
+  const ymlDocTags = yaml.load(fs.readFileSync("./tag-groups.yml", "utf-8"))
   // const tags = result.data.tagsGroup.group;
   ymlDocTags.groups.forEach(async (tag) => {
     const searchTags = JSON.stringify(tag.tags);
@@ -88,7 +88,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         },
       })
     })
-    
+
     if(tag.groups) {
       tag.groups.forEach(async (subTag) => {
         const searchTags = JSON.stringify(subTag.tags);
@@ -132,7 +132,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         })
       })
     }
-    
+
   })
 
 

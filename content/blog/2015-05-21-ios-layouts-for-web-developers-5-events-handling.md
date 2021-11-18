@@ -7,6 +7,7 @@ excerpt: >-
   classical web than with the mobile device.
 title: 'iOS layouts for web developers #5 - events handling'
 date: 2015-05-21T00:00:00.000Z
+image: /images/programming.jpg
 tags:
   - iOS
 comments: true
