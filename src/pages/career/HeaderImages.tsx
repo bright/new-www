@@ -130,7 +130,7 @@ export const SectionCareerTitle = styled(Section)`
   }
 
   @media ${variables.device.mobile} {
-    padding: 3.5rem 1.125rem 4.5rem 1.125rem;
+    padding: 3.5rem 1.125rem 2.5625rem 1.125rem;
   }
 `
 const HeaderImages: React.FC = () => {
