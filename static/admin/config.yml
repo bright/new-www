@@ -160,3 +160,68 @@ collections:
       - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
       - { label: 'Show on homepage', name: 'show on homepage', widget: 'boolean', default: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+
+  - name: 'our-service' # Used in routes, e.g., /admin/collections/blog
+    label: 'Our Service' # Used in the UI
+    folder: 'content/our-service' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: 'TeamMembers',
+          name: 'team_members',
+          widget: 'relation',
+          collection: 'members',
+          searchFields: ['name'],
+          valueField: 'author_id',
+          displayFields: ['name', 'author_id'],
+          multiple: true,
+        }
+      - {
+          label: 'FAQs',
+          name: 'faqs',
+          widget: 'relation',
+          collection: 'faqs',
+          searchFields: ['name'],
+          valueField: 'faqs_id',
+          displayFields: ['name', 'faqs_id'],
+          multiple: true,
+        }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'our-service' }
+      - {
+          label: 'Meta title',
+          name: 'meta_title',
+          widget: 'text',
+          pattern: ['^.{20,50}$', 'Must have no more than 50 characters'],
+        }
+      - {
+          label: 'Meta description',
+          name: 'meta_description',
+          widget: 'text',
+          pattern: ['^.{20,160}$', 'Must have no more than 160 characters'],
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'ImageOurService', name: 'image_our_service', widget: 'image' }
+      - { label: 'Image-Alt-OurService', name: 'image_alt_our_service', widget: string }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Button', name: 'button', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Button2', name: 'button2', widget: 'string' }
+      - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+      - { label: 'Show case study', name: 'show case study', widget: 'boolean', default: true }
+      - { label: 'Show technology stack', name: 'show technology stack', widget: 'boolean', default: true }
+
+  - name: 'faqs' # Used in routes, e.g., /admin/collections/blog
+    label: 'FAQs' # Used in the UI
+    folder: 'content/faqs' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: name
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'faqs' }
+      - { label: 'FAQs id', name: 'faqs_id', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string', hint: 'URL path' }
+      - { label: 'Question', name: 'question', widget: 'string' }
+      - { label: 'Answer', name: 'answer', widget: 'string' }
+      - { label: 'Published', name: 'published', widget: 'boolean', default: true }
