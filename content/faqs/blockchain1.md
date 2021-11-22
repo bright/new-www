@@ -18,5 +18,5 @@ answer: "Blockchain can be defined as a decentralised chain of blocks that are
   offers a wide range of functionalities. Blockchain supports fintech,
   healthcare, real estate and other industries. It is no longer only about
   creating various cryptocurrencies. "
-published: false
+published: true
 ---
