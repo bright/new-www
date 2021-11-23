@@ -16,6 +16,8 @@ published: true
 ---
 **Are you a programmer? What has attracted you to join the particular place of work? Read some insights from software developers on their decision-making process whilst looking for a new job.**
 
+![Top Job Factors Software Developer](/images/job_factors.png)
+
 There is a tone of the research on what crucial requirements for IT candidates are when they are looking for a job. Here are some insights from the [Stack Overflow Survey](https://insights.stackoverflow.com/survey/2020#job-priorities). Yet numbers aren’t everything. Let’s talk with people behind these statistics. Meet unique perspectives of three Polish software developers from Bright Inventions.
 
 ## Self-development, challenges and freedom
