@@ -26,7 +26,7 @@ There is a tone of the research on what crucial requirements for IT candidates a
 
 [Wojciech – Fullstack Developer](/about-us/wojciech/)
 
-When I was looking for a job I was always mostly focused on finding a place where I would grow as a developer and have interesting challenges ahead of me. Another top factor for programmers is obviously the salary. When these requirements are made, I make sure that conditions of work and the attitude towards employers are right for me. Here are a couple of things that I always take into consideration:
+When I was looking for a job I was always mostly focused on finding a place where I would grow as a developer and have interesting challenges ahead of me. Another top factor for programmers is obviously the salary. When these requirements are made, I make sure that conditions of work and the attitude towards employees are right for me. Here are a couple of things that I always take into consideration:
 
 * I want to feel independent and of course responsible for my job. I would not like to work at a place where micromanagement takes place.
 * Another important factor is the level of my influence on the project. Would I have the possibility to bring some new ideas? Would I be a part of the decision-making process? For me, the answers to these questions must be yes.
