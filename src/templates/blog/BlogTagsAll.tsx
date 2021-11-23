@@ -191,7 +191,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
           <SubTagsWrapper>
             <li className={!activeSubTag ? 'is-active' : ''}>
               {' '}
-              <Link to={`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}1`}>All</Link>
+              <Link to={`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}1`}>all</Link>
             </li>
             {tags.map(el => {
               const kebabCaseTag = kebabCase(activeTag)
