@@ -139,8 +139,10 @@ collections:
     folder: 'content/projects' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: name
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'project' }
+      - { label: 'Project-id', name: 'project_id', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Description', name: 'description', widget: 'text' }
@@ -166,6 +168,7 @@ collections:
     folder: 'content/our-service' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: name
     fields: # The fields for each document, usually in front matter
       - {
           label: 'TeamMembers',
@@ -187,7 +190,18 @@ collections:
           displayFields: ['name', 'faqs_id'],
           multiple: true,
         }
+      - {
+          label: 'Project',
+          name: 'project',
+          widget: 'relation',
+          collection: 'projects',
+          searchFields: ['name'],
+          valueField: 'project_id',
+          displayFields: ['name', 'project_id'],
+          multiple: true,
+        }
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'our-service' }
+
       - {
           label: 'Meta title',
           name: 'meta_title',
@@ -201,15 +215,17 @@ collections:
           pattern: ['^.{20,160}$', 'Must have no more than 160 characters'],
         }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'ImageOurService', name: 'image_our_service', widget: 'image' }
-      - { label: 'Image-Alt-OurService', name: 'image_alt_our_service', widget: string }
-      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
+      - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
       - { label: 'Button', name: 'button', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Button2', name: 'button2', widget: 'string' }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
-      - { label: 'Show case study', name: 'show case study', widget: 'boolean', default: true }
-      - { label: 'Show technology stack', name: 'show technology stack', widget: 'boolean', default: true }
+      - { label: 'Show case study', name: 'show_case_study', widget: 'boolean', default: true }
+      - { label: 'Show technology stack', name: 'show_technology_stack', widget: 'boolean', default: true }
+      - { label: 'Title Contact', name: 'title_contact', widget: 'string' }
+      - { label: 'Description Contact', name: 'description_contact', widget: 'string' }
 
   - name: 'faqs' # Used in routes, e.g., /admin/collections/blog
     label: 'FAQs' # Used in the UI
