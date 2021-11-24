@@ -61,6 +61,20 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/content/faqs`,
+        name: `md-faqs`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/our-service`,
+        name: `md-our service`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/members`,
         name: `md-members`,
       },
@@ -202,4 +216,8 @@ module.exports = {
       },
     },
   ],
+  mapping: {
+    'MarkdownRemark.frontmatter.faqs': `MarkdownRemark.frontmatter.faqs_id`,
+    'MarkdownRemark.frontmatter.project': `MarkdownRemark.frontmatter.project_id`,
+  },
 }
