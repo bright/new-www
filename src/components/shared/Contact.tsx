@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, FC } from 'react'
 import styled from 'styled-components'
 import { routeLinks } from '../../config/routing'
 import { FormType, sendMail } from '../../helpers/mail'
@@ -20,18 +20,18 @@ import {
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomTextRegular } from './index.styled'
-import { type } from './../../use-blog-posts/blog-post-frontmatter-query-result'
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 
-const ContainerWrapper = styled.div({
-  display: 'flex',
-  justifyContent: 'center',
-  marginBottom: '105px',
-
-  padding: '0 18px',
-  ['@media screen and (max-width: 768px)']: {
-    padding: '0 36px',
-  },
-})
+const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
+  display: flex;
+  justify-content: center;
+  margin-bottom: 105px;
+  padding: 0 18px;
+  @media screen and (max-width: 768px) {
+    padding: ${({ isOurServiceTemplate }) =>
+      isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
+  }
+`
 
 const Container = styled.div`
   max-width: 800px;
@@ -81,8 +81,12 @@ const HeroSingleSelect = styled(SingleSelect)`
     max-width: 100%;
   }
 `
-
-export const Contact = () => {
+export interface ContactProps {
+  title?: string
+  subtitle?: string
+  isOurServiceTemplate?: boolean
+}
+export const Contact: FC<ContactProps> = ({ title, subtitle, isOurServiceTemplate = true }) => {
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
@@ -136,19 +140,32 @@ export const Contact = () => {
   }
 
   const checkValid = () => {
+    trackCustomEvent({
+      category: 'Contact Form Button',
+      action: 'Click',
+      label: window.location.href,
+    })
     const isValid: boolean = checkedRules && name && email && message ? true : false
     setValid(isValid)
   }
 
   return (
-    <ContainerWrapper>
+    <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
       <Container>
-        <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
-        <TextRegular>
-          Have an idea for a groundbreaking software project, but don't know where to start? Or maybe you're looking for
-          software development experts to help take your product to the next level? We'll be more than happy to discuss
-          how we can help your business succeed!
-        </TextRegular>
+        {title ? (
+          <CustomSectionTitle>{title}</CustomSectionTitle>
+        ) : (
+          <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
+        )}
+        {subtitle ? (
+          <TextRegular>{subtitle}</TextRegular>
+        ) : (
+          <TextRegular>
+            Have an idea for a groundbreaking software project, but don't know where to start? Or maybe you're looking
+            for software development experts to help take your product to the next level? We'll be more than happy to
+            discuss how we can help your business succeed!
+          </TextRegular>
+        )}
 
         <Form data-form-type='contact' action='#' onSubmit={onFormSubmit}>
           <DoubleInputsRow>
