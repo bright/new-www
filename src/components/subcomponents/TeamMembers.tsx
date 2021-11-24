@@ -1,5 +1,5 @@
 import { graphql, Link, useStaticQuery } from 'gatsby'
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import { routeLinks } from '../../config/routing'
 import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image'
@@ -7,8 +7,10 @@ import { useAuthors } from '../../use-authors/use-authors'
 import variables from '../../styles/variables'
 import ScrollArrow from './ArrowScrollToTop'
 import { useWindowSize } from '../utils/use-windowsize'
+import { string } from 'prop-types'
+import { MoreButton } from '../shared'
 
-const TeamMember = styled.article`
+const TeamMember = styled.article<{ isOurServiceTemplate: boolean }>`
   border: 1px solid rgba(0, 0, 0, 0.125);
   color: black;
   flex-basis: calc(25% - 3.5625rem);
@@ -42,14 +44,20 @@ const TeamMember = styled.article`
     margin-bottom: 2rem;
   }
   @media ${variables.device.mobile} {
-    flex-basis: calc(50% - 1rem);
-    margin: 2rem 2rem 0 0;
+    flex-basis: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? '100%' : 'calc(50% - 1rem)')};
+    margin: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? '2rem 0 0 0' : '2rem 2rem 0 0')};
+
     &:nth-of-type(2n) {
       margin-right: 0;
     }
-    &:nth-of-type(n + 1) {
+    ${({ isOurServiceTemplate }) =>
+      isOurServiceTemplate
+        ? `&:nth-of-type(n + 1) {
+      margin-top: 2rem;
+    }`
+        : `&:nth-of-type(n + 1) {
       margin-top: 0;
-    }
+    }`};
     &:nth-of-type(n + 3) {
       margin-top: 2rem;
     }
@@ -99,13 +107,16 @@ const TeamMember = styled.article`
       }
       @media ${variables.device.mobile} {
         padding: 0 1.5625rem 2rem;
+
         p strong {
-          font-size: 1rem;
-          line-height: 1.125rem;
+          font-size: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? `${variables.pxToRem(22)}` : '1rem')};
+          line-height: ${({ isOurServiceTemplate }) =>
+            isOurServiceTemplate ? `${variables.pxToRem(27)}` : '1.125rem'};
         }
         p:nth-child(2) {
-          font-size: 0.75rem;
-          line-height: 0.9375rem;
+          font-size: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? `${variables.pxToRem(18)}` : '0.75rem')};
+          line-height: ${({ isOurServiceTemplate }) =>
+            isOurServiceTemplate ? `${variables.pxToRem(22)}` : '0.9375rem'};
         }
         p:last-child {
           font-size: 1.125rem;
@@ -131,11 +142,19 @@ const TeamMember = styled.article`
         height: 364px;
         max-height: 364px;
       }
-      @media ${variables.device.mobile} {
+
+      ${({ isOurServiceTemplate }) =>
+        isOurServiceTemplate
+          ? `@media ${variables.device.mobile} {
+        width: 205px;
+        height: 364px;
+        max-height: 364px;
+      }`
+          : `@media ${variables.device.mobile} {
         width: 94px;
         height: 168px;
         max-height: 168px;
-      }
+      }`};
     }
   }
 `
@@ -160,13 +179,13 @@ const Container = styled.div`
     display: flex;
   }
 `
-const TeamMembersSection = styled.div`
+const TeamMembersSection = styled.div<{ isOurServiceTemplate: boolean }>`
   @media ${variables.device.mobile} {
-    padding: 0 0.5rem;
+    padding: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : '0 0.5rem')};
   }
 `
 
-const AvatarWrapper = styled.figure`
+const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
   position: relative;
   transition: all 0.3s;
   margin-bottom: 1.125rem !important;
@@ -174,9 +193,9 @@ const AvatarWrapper = styled.figure`
     margin-bottom: 2.1875rem !important;
   }
   @media ${variables.device.mobile} {
-    margin-bottom: 0.5rem !important;
-  }import { useWindowSize } from './../utils/use-windowsize';
-
+    margin-bottom: ${({ isOurServiceTemplate }) =>
+      isOurServiceTemplate ? ` ${variables.pxToRem(32)}!important` : '0.5rem!important'};
+  }
 
   & .avatar1 {
     max-height: 306px;
@@ -188,11 +207,11 @@ const AvatarWrapper = styled.figure`
       max-height: 364px;
     }
     @media ${variables.device.mobile} {
-      max-height: 168px;
+      max-height: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? '364px' : '168px')};
     }
   }
 
-  & .avatar2 {
+  && .avatar2 {
     position: absolute;
     opacity: 0;
     top: 0;
@@ -204,22 +223,38 @@ const AvatarWrapper = styled.figure`
       max-height: 364px;
     }
     @media ${variables.device.mobile} {
-      max-height: 168px;
+      max-height: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? '364px' : '168px')};
     }
   }
 `
-const TeamMembers = () => {
+
+interface TeamMembersProps {
+  authorIdsArray?: string[]
+  isOurServiceTemplate?: boolean
+}
+
+const TeamMembers = ({ authorIdsArray, isOurServiceTemplate = false }: TeamMembersProps) => {
   const { width } = useWindowSize()
-  const members = useAuthors()
+  const members = useAuthors({ authorIdsArray })
+  const initNumber = width <= 581 ? 4 : 8
+  const [numberOfMembers, setNumberOfMembers] = useState(isOurServiceTemplate ? initNumber : members.length)
+
+  const handleClick = () => {
+    if (numberOfMembers === initNumber) {
+      setNumberOfMembers(8)
+    } else {
+      setNumberOfMembers(initNumber)
+    }
+  }
 
   return (
-    <TeamMembersSection>
+    <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!}>
       <Container>
-        {members.map(member => {
+        {members.slice(0, numberOfMembers).map(member => {
           return (
-            <TeamMember key={member.authorId}>
+            <TeamMember isOurServiceTemplate={isOurServiceTemplate!} key={member.authorId}>
               <Link to={routeLinks.aboutUs(member)}>
-                <AvatarWrapper>
+                <AvatarWrapper isOurServiceTemplate={isOurServiceTemplate!}>
                   <GatsbyImage
                     image={getImage(member.avatar)!}
                     alt={member.name}
@@ -251,7 +286,11 @@ const TeamMembers = () => {
             </TeamMember>
           )
         })}
-        {width <= 581 ? <ScrollArrow /> : null}
+
+        {width <= 581 && !isOurServiceTemplate ? <ScrollArrow /> : null}
+        {width <= 581 && isOurServiceTemplate ? (
+          <MoreButton onClick={handleClick}>{numberOfMembers === initNumber ? 'see more' : 'see less'}</MoreButton>
+        ) : null}
       </Container>
     </TeamMembersSection>
   )
