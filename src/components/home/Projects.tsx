@@ -7,7 +7,7 @@ import { IGatsbyImageData } from 'gatsby-plugin-image'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 
-const ProjectCustomSection = styled(CustomSection)`
+export const ProjectCustomSection = styled(CustomSection)`
   padding-bottom: 11.625rem;
   @media ${variables.device.laptop} {
     padding-bottom: 7.25rem;
@@ -25,7 +25,7 @@ const ProjectCustomSection = styled(CustomSection)`
   }
 `
 
-const BlockSmall = styled.div`
+export const BlockSmall = styled.div`
   width: calc(50% - 2rem);
   border: 1px solid ${variables.color.border};
   height: 9rem;
@@ -100,7 +100,7 @@ const BlockSmall = styled.div`
     }
   }
 `
-const ProjectsLink = styled(Link)`
+export const ProjectsLink = styled(Link)`
   font-size: ${variables.font.customtext.size};
   line-height: 1.6875rem;
   font-weight: 700;

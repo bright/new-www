@@ -1,15 +1,15 @@
-import styled from "styled-components"
-import variables from "../../styles/variables"
+import styled from 'styled-components'
+import variables from '../../styles/variables'
 
 export const HideTablet = styled.div({
-  ["@media screen and (max-width: 767px)"]: {
-    display: "none",
+  ['@media screen and (max-width: 767px)']: {
+    display: 'none',
   },
 })
 
 export const HideDesktop = styled.div({
-  ["@media screen and (min-width: 768px)"]: {
-    display: "none",
+  ['@media screen and (min-width: 768px)']: {
+    display: 'none',
   },
 })
 
@@ -70,32 +70,31 @@ export const PageTitle = styled.h1`
   & > span {
     color: ${variables.color.primary};
   }
-  
+
   @media ${variables.device.mobile} {
     font-size: 2.5rem;
   }
 `
 
 export const PageDescription = styled(TextRegular)({
-  display: "flex",
-  justifyContent: "center",
-  width: "100%",
-  paddingTop: "30px",
-  paddingBottom: "10px",
-  margin: "0 auto 2rem",
+  display: 'flex',
+  justifyContent: 'center',
+  width: '100%',
+  paddingTop: '30px',
+  paddingBottom: '10px',
+  margin: '0 auto 2rem',
 
-  textAlign: "left",
-  maxWidth: "955px",
+  textAlign: 'left',
+  maxWidth: '955px',
   color: variables.color.text,
-  padding: "10px",
+  padding: '10px',
 })
-
 
 export const Button = styled.div`
   & button {
     border: 1px solid black;
     background: white;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0;
@@ -105,7 +104,7 @@ export const Button = styled.div`
     font-size: 1.125rem;
     cursor: pointer;
     margin-top: 3rem;
-    transition: all .3s ease-out;
+    transition: all 0.3s ease-out;
     &:hover {
       color: #ffffff;
       background: #000000;
@@ -133,11 +132,11 @@ export const CustomPageTitle = styled.h1`
   & > span {
     color: ${variables.color.primary};
   }
-  
+
   @media ${variables.device.mobile} {
     font-size: 2rem;
     font-weight: 900;
-    line-height: 2.44rem ;
+    line-height: 2.44rem;
     text-align: left;
   }
 `
@@ -152,14 +151,14 @@ export const CustomConstrainedWidthContainer = styled.div`
     padding: 4rem 0 5rem 0;
   }
 `
-export const CustomSection = styled.section`
+export const CustomSection = styled.section<{ paddingMobileProps?: string }>`
   padding: 2rem 15rem 4rem 15rem;
   color: ${variables.color.text};
 
   @media ${variables.device.desktop} {
     padding: 0rem 15rem 0rem;
   }
-  
+
   @media ${variables.device.laptop} {
     padding: 0rem 6rem 0rem;
   }
@@ -173,28 +172,29 @@ export const CustomSection = styled.section`
   }
 
   @media ${variables.device.mobile} {
-    padding: 2rem 1.125rem 1rem;
+    padding: ${({ paddingMobileProps }) => (paddingMobileProps ? paddingMobileProps : '2rem 1.125rem 1rem')};
   }
 `
-export const CustomSectionTitle = styled.h2`
+export const CustomSectionTitle = styled.h2<{ margin?: string }>`
   ${TitleBase};
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 3.06rem;
-  margin: 9.625rem 0 6.56rem;
+  margin: ${({ margin }) => (margin ? margin : '9.625rem 0 6.56rem')};
+  /* margin: 9.625rem 0 6.56rem; */
   color: #000000;
 
   @media ${variables.device.laptop} {
-  font-size: 2.125rem;
-  line-height: 2.625rem;
-  font-weight: 900;
-  margin: 7.25rem 0 5.1875rem
+    font-size: 2.125rem;
+    line-height: 2.625rem;
+    font-weight: 900;
+    margin: 7.25rem 0 5.1875rem;
   }
 
   @media ${variables.device.mobile} {
-  font-size: 1.375rem;
-  line-height: 1.6875rem;
-  margin: 5.125rem 0 4rem
+    font-size: 1.375rem;
+    line-height: 1.6875rem;
+    margin: 5.125rem 0 4rem;
   }
 `
 export const CustomTextTitle = styled.div`
@@ -208,17 +208,15 @@ export const CustomTextRegular = styled.div`
   font-family: ${variables.font.text.family};
   font-size: 1.375rem;
   line-height: 2.5rem;
-  opacity: .75;
+  opacity: 0.75;
 `
 export const CustomSectionInner = styled(SectionInner)`
-max-width: 800px;
+  max-width: 800px;
 
-@media ${variables.device.laptop}{
-  max-width: 745px;
-}
-@media ${variables.device.tabletXL}{
-  max-width: 824px;
-}
-
-
+  @media ${variables.device.laptop} {
+    max-width: 745px;
+  }
+  @media ${variables.device.tabletXL} {
+    max-width: 824px;
+  }
 `

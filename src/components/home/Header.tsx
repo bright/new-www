@@ -8,7 +8,6 @@ import * as styles from './Header.module.scss'
 import variables from '../../styles/variables'
 
 const HeroWrapper = styled.div`
-  max-width: 1449px;
   color: #0a0a0a;
   & > div > .title {
     font-size: 8.0625rem;
