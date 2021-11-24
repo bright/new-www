@@ -40,6 +40,8 @@ Let’s make it clear. AI might sound scary but it is nothing new. AI is well ut
 
 Right now we have many [wearable healthcare devices](/blog/bluetooth-devices-that-change-healthcare/) e.g. watches or continuous monitoring devices that monitor our vital signs. I do not say that all of them work perfectly but there are brands that definitely lead the way here.
 
+![healthcare smartwatch](/images/healthcare_wearable_devices.png)
+
 **So we have healthcare devices. And we have software.** Now, these systems will have to be certified. **The ball is in the government’s court** which has to approve new systems and educate doctors, who can still be afraid of this healthcare digital transformation. They need to prepare the standards to be followed by producers in the country or maybe for the whole political region like the European Union. We all know that prevention is better and cheaper than cure so public healthcare systems should include more and more IT systems for diagnostics. 
 
 Thinking far more in the future I see the possibilities for people to have some dedicated cameras installed in the house in order to constantly monitor their vital signs. Unfortunately, this sounds like something accessible to wealthy people only. I am afraid that these types of diagnostics devices won’t be available broadly. And that is another role of the governments around the world to make it more accessible.
