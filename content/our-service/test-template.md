@@ -9,22 +9,19 @@ team_members:
   - mateusz-b
   - alisa
 faqs:
-  - Question_1
-  - Question_2
+  - mobile app development 1
 project:
-  - AirHelp web development
-  - Finebite (Everytap) web development
-  - Mobile Therapy Application - web development
-  - Card Reader - web development
+
 layout: our-service
-meta_title: gggggggggggggggggggggggggggggg
+meta_title: Mobile App Development | Bright Inventions
 meta_description: jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
 title: service
-image_our_service: /images/ProductWorkshops2.png
-image_alt_our_service: ffffffffffffffffffffff
+image_our_service: /images/mobile_app_development.png
+image_alt_our_service: We are a Mobile App Development Company from Poland. We
+  specialise in building native apps for iOS and Android.
 description: We believe that product workshops are an integral part of the product development process, no matter which stages your product <span>is in. During the product workshop</span>, we will help you discover your product idea, set your product goals, understand the pitfalls and find the solution on how to make your product better. Our workshop team will adapt the workshop just for your exclusive case and adjust the whole process for your individual needs. Due to the global pandemic situation, we offer online workshops as well.
-button: ffffffffffffffffffffffffffffffffff
-button2: ffffffffffffffffffffffffffffffffff
+button: Let's talk about your mobile app
+button2: Let's talk about your mobile app
 published: true
 show technology stack: true
 show_case_study: true
