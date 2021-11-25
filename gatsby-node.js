@@ -1,4 +1,5 @@
 const path = require("path")
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const _ = require('lodash');
 const fs = require("fs")
 const yaml = require("js-yaml")
@@ -210,15 +211,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   )
   await preparePage("member", "about-us", aboutUsTemplate)
   
-  const ourServiceTemplate = require.resolve(
-    `${__dirname}/src/templates/OurServiceTemplate.tsx`
-  )
-  await preparePage("our-service", "our-services", ourServiceTemplate)
+ 
 
   createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
+  fmImagesToRelative(node);
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     createNodeField({
