@@ -10,7 +10,7 @@ date: 2021-11-25T14:12:00.545Z
 title: Technology Trends in Healthcare for the Year 2022 (and far beyond)
 layout: post
 image: /images/healthcare_trends_2022_blog.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
