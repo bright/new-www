@@ -225,7 +225,7 @@ collections:
       - { label: 'Show case study', name: 'show_case_study', widget: 'boolean', default: true }
       - { label: 'Show technology stack', name: 'show_technology_stack', widget: 'boolean', default: true }
       - { label: 'Title Contact', name: 'title_contact', widget: 'string' }
-      - { label: 'Description Contact', name: 'description_contact', widget: 'string' }
+      - { label: 'Description Contact', name: 'description_contact', widget: 'markdown' }
 
   - name: 'faqs' # Used in routes, e.g., /admin/collections/blog
     label: 'FAQs' # Used in the UI
@@ -238,6 +238,6 @@ collections:
       - { label: 'FAQs id', name: 'faqs_id', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string', hint: 'URL path' }
-      - { label: 'Question', name: 'question', widget: 'string' }
-      - { label: 'Answer', name: 'answer', widget: 'string' }
+      - { label: 'Question', name: 'question', widget: 'markdown' }
+      - { label: 'Answer', name: 'answer', widget: 'markdown' }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
