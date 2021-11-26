@@ -10,6 +10,11 @@ team_members:
   - alisa
 faqs:
   - mobile app development 1
+  - mobile app development 2
+  - mobile app development 3
+  - mobile app development 4
+  - mobile app development 5
+  - mobile app development 6
 project:
   - solution-parkinson
   - smarthelp
