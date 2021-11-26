@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: pregnancy-app
 title: Pregnancy App
 image: /images/pregnancy_app1.png
 description: Your way to a healthy & relaxed pregnancy and safe birth experience.
@@ -9,6 +10,7 @@ tags:
   - eHealth
 order: 5
 slug: pregnancy-app
+show on homepage: false
 published: true
 ---
 ![Pregnancy App](/images/preganncy_app_2_screens2.png)
