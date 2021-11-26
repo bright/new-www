@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: solution-parkinson
 title: Solution for Parkinson's Patients
 image: /images/app_for_parkinson_patients1.png
 description: An app that serves as a personal digital diary for patients
@@ -13,6 +14,7 @@ tags:
   - eHealth
 order: 1
 slug: solution-for-parkinsons-patients
+show on homepage: false
 published: true
 ---
 
