@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: finebite
 title: "Finebite (Everytap) "
 image: /images/foodapp_ingredients.png
 description: >
@@ -13,6 +14,7 @@ tags:
   - retail & restaurant
 order: 2
 slug: everytap
+show on homepage: false
 published: true
 ---
 ![food app development](/images/foodapp_pumpkin.png)
