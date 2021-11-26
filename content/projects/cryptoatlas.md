@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: cryptoAtlas
 title: CryptoAtlas
 image: /images/cryptoportal2.png
 description: CryptoAtlas is a social platform connecting people passionate about
@@ -12,6 +13,7 @@ tags:
   - custom software development
 order: 4
 slug: cryptocurrency-platfrom
+show on homepage: false
 published: true
 ---
 
