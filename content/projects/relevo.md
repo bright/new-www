@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: relevo
 title: Relevo
 image: /images/ecofriendly_app_main3.png
 description: Around 1 million plastic food containers are used in Germany per
@@ -14,6 +15,7 @@ tags:
   - retail & restaurant
 order: 3
 slug: eco-friendly-app
+show on homepage: false
 published: true
 ---
 ![mobile app development](/images/relevo.png)
