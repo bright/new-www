@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: digitized-questionnaires
 title: Digitized Questionnaires
 image: /images/digitizing_mobile_reporting_main2.png
 description: An app platform that enables digitizing mobile reporting. It is
@@ -14,6 +15,7 @@ tags:
   - fintech
 order: 4
 slug: app-digitized-surveys
+show on homepage: false
 published: true
 ---
 ![web app development](/images/digitizing_mobile_reporting.png)
