@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: airhelp
 title: AirHelp
 image: /images/flight_compensation_app_mockup5.png
 description: AirHelp mobile application lets you check if your flight is
@@ -13,6 +14,7 @@ tags:
   - MVP
   - custom software development
 slug: airhelp
+show on homepage: false
 published: true
 ---
 ![airhelp mobile app development](/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
