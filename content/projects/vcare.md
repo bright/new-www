@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: vcare
 title: vCare
 image: /images/vcare-_mockup-3_700.jpg
 description: >
@@ -15,6 +16,7 @@ tags:
   - custom software development
   - eHealth
 slug: vCare
+show on homepage: false
 published: true
 ---
 ![vcare healthcare app](/images/vcare-_mockup-1.png)
