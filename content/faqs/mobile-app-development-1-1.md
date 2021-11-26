@@ -1,7 +1,7 @@
 ---
 layout: faqs
-faqs_id: mobile app development 1
-name: mobile app development 1
+faqs_id: mobile app development 2
+name: mobile app development 2
 slug: what-is-the-mobile-app-development-process
 question: What is the mobile app development process?
 answer: A typical mobile development process contains a few steps, however, the
