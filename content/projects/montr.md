@@ -15,7 +15,7 @@ tags:
   - fintech
 order: 4
 slug: app-digitized-surveys
-show on homepage: false
+show on homepage: true
 published: true
 ---
 ![web app development](/images/digitizing_mobile_reporting.png)
