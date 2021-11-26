@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: pospulse-shopscout
 title: POSPulse & ShopScout
 image: /images/pos_mockup.png
 description: A solution that allows FMCG companies and retail chains to verify
@@ -10,6 +11,7 @@ tags:
   - custom software development
   - retail & restaurant
 slug: pospulse-shopscout
+show on homepage: false
 published: true
 ---
 ![FMCG app development](/images/pos_mockups.png)
