@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: motivo
 title: Motivo
 image: /images/motivo_main.png
 description: Turbo Training and Indoor Cycling Workouts. An app that is your own
@@ -11,6 +12,7 @@ tags:
   - custom software development
 order: 4
 slug: motivo
+show on homepage: false
 published: true
 ---
 ![Cycling Workouts Mobile App Development](/images/motivo_mockup.png)
