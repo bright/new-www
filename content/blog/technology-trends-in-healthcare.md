@@ -18,7 +18,7 @@ published: true
 
 We’ve asked software developers from Bright Inventions about **2022 trends in the healthcare industry**. Check out what to expect not only in 2022 but also in upcoming years.
 
-![healthcare trends 2022](/images/healthcare_trends_2022_blog.png)
+![healthcare trends 2022](/images/healthcare_trends_2022_2.png)
 
 ## Artificial Intelligence will cover diagnostics
 
