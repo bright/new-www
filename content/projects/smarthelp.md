@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: smarthelp
 title: SmartHelp
 image: /images/smarthelp_main.png
 description: >
@@ -20,6 +21,7 @@ slug: smarthelp
 redirect_from:
   - /smarthelp
   - /smarthelp/
+show on homepage: false
 published: true
 ---
 
