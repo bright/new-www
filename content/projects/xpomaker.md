@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: xpomaker
 title: xpomaker
 image: /images/xpomaker_dashboard.png
 description: >
@@ -14,6 +15,7 @@ tags:
   - MVP
   - custom software development
 slug: xpomaker
+show on homepage: false
 published: true
 ---
 ![A trade fair planning software](/images/xpomaker_dashboard2.png)
