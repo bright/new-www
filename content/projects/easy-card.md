@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: card-reader
 title: Card Reader
 image: /images/card_reader_mockup.png
 description: An app that allows businesses to charge credit cards without a
@@ -9,6 +10,7 @@ tags:
   - custom software development
   - fintech
 slug: credit-card-reader
+show on homepage: false
 published: true
 ---
 ![cashless transactions app](/images/card_reader_mockups.png)
