@@ -26,7 +26,7 @@ layout: our-service
 meta_title: Mobile App Development | Bright Inventions
 meta_description: We are a Mobile App Development Company from Poland. We
   specialise in building native apps for iOS and Android.
-title: mobile app development
+title: build native apps with mobile development team
 image_our_service: /images/mobile_app_development.png
 image_alt_our_service: mobile app development company
 description: >-
