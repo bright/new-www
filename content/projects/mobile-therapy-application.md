@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: mobile-therapy-application
 title: Mobile Therapy Application
 image: /images/mobile_therapy_app1.jpg
 description: An app that supports patients going through physiotherapy, speech
@@ -11,6 +12,7 @@ tags:
   - custom software development
 order: 3
 slug: mobile-therapy-application
+show on homepage: false
 published: true
 ---
 ![Healthcare app development](/images/therapy_app_mockup.png)
