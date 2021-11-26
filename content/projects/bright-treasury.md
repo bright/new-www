@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: bright-treasury
 title: Bright Treasury
 image: /images/treasuryapp_www.png
 description: "A web application that will support members of Substrate
