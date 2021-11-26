@@ -12,6 +12,11 @@ faqs:
   - mobile app development 1
 project:
   - solution-parkinson
+  - smarthelp
+  - finebite
+  - relevo
+  - vcare
+  - mobile-therapy-application
 layout: our-service
 meta_title: Mobile App Development | Bright Inventions
 meta_description: We are a Mobile App Development Company from Poland. We
