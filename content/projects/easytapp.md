@@ -1,5 +1,6 @@
 ---
 layout: project
+project_id: easytapp
 title: EasyTapp
 image: /images/easytap_1_mockup1.png
 description: An app that allowed users to receive real estate and car sales’
@@ -9,6 +10,7 @@ tags:
   - custom software development
 order: 9
 slug: easytapp
+show on homepage: false
 published: true
 ---
 
