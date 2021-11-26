@@ -10,6 +10,8 @@ team_members:
   - alisa
 faqs:
   - mobile app development 1
+project:
+  - solution-parkinson
 layout: our-service
 meta_title: Mobile App Development | Bright Inventions
 meta_description: We are a Mobile App Development Company from Poland. We
@@ -27,8 +29,13 @@ description: >-
 button: Let's talk about your mobile app
 button2: Let's talk about your mobile app
 published: true
-show case study: true
 show technology stack: true
+show_case_study: true
+show_technology_stack: true
+title_contact: let’s talk about your mobile app project
+show case study: true
+description_contact: Tell us more about your mobile project or idea for an app.
+  Fill the form below, or drop us a line via **info@bright.dev**.
 ---
 As a mobile app development company, we specialise in iOS and Android software development.
 
