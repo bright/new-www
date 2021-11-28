@@ -214,6 +214,7 @@ collections:
           widget: 'text',
           pattern: ['^.{20,160}$', 'Must have no more than 160 characters'],
         }
+      - { label: 'Our services icon', name: 'our_services_icon', widget: 'image' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
       - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
