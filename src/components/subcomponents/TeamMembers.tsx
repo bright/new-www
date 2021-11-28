@@ -211,7 +211,7 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
     }
   }
 
-  && .avatar2 {
+  & .avatar2 {
     position: absolute;
     opacity: 0;
     top: 0;
