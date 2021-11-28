@@ -4,7 +4,7 @@ import Banners from '../components/whatWeDo/banners/Banners'
 import { Contact } from '../components/shared/Contact'
 import HowWeWork from '../components/whatWeDo/howWeWork/HowWeWork'
 import OurDevelopmentAreas from '../components/whatWeDo/ourDevelopmentAreas/OurDevelopmentAreas'
-import { HideTablet, PageDescription, Section } from '../components/shared'
+import { CustomSection, HideTablet, PageDescription, Section, CustomPageTitle } from '../components/shared'
 import { TechnologyTags } from '../components/shared/TechnologyTags'
 import { Carousel } from '../components/shared/Carousel'
 import { Page } from '../layout/Page'
@@ -18,6 +18,9 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
         description='We specialise in Mobile App Development, IoT Development, Blockchain and Product Design. Contact us!'
       />
       <HideTablet>
+        <CustomSection paddingProps='3.3125rem 0  2.125rem'>
+          <CustomPageTitle>our services</CustomPageTitle>
+        </CustomSection>
         <Section>
           <PageDescription>
             We offer custom software development for organizations of all shapes and sizes – from emerging startups,

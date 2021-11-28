@@ -1,4 +1,5 @@
 import { IGatsbyImageData } from 'gatsby-plugin-image'
+import { string } from 'prop-types'
 
 export type Tag = string
 
@@ -12,8 +13,8 @@ export interface Edge {
 
 export interface GQLData {
   allMarkdownRemark: {
-    nodes?: Node[],
-    edges: Edge[],
+    nodes?: Node[]
+    edges: Edge[]
   }
 }
 
@@ -54,4 +55,12 @@ export interface JobModel {
   title: string
   subtitle?: string
   url: string
+}
+
+export interface ServiceModel {
+  title: string
+  slug: string
+  image: IGatsbyImageData | string
+  layout: string
+  description: string
 }
