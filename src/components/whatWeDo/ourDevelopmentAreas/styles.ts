@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { TextRegular, TextTitle } from '../../shared'
 import variables from '../../../styles/variables'
+import { Link } from 'gatsby'
 
 export const DevelopmentAreasWrapper = styled.div({
   display: 'flex',
@@ -35,6 +36,7 @@ export const SectionTitleContainer = styled.div<{
 
 export const Title = styled(TextTitle)({
   marginTop: '36px',
+  marginBottom: '54px',
 
   [`@media screen and (max-width: 767px)`]: {
     marginTop: '30px',
@@ -74,3 +76,10 @@ export const DevelopmentAreaContainer = styled.div({
 export const GoToContainer = styled.div({
   marginTop: '18px',
 })
+
+export const RevertHoverLink = styled(Link)`
+  color: #363636;
+  &:hover {
+    color: ${variables.color.primary};
+  }
+`
