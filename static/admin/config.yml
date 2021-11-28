@@ -163,9 +163,9 @@ collections:
       - { label: 'Show on homepage', name: 'show on homepage', widget: 'boolean', default: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
 
-  - name: 'our-service' # Used in routes, e.g., /admin/collections/blog
+  - name: 'our-areas' # Used in routes, e.g., /admin/collections/blog
     label: 'Our Service' # Used in the UI
-    folder: 'content/our-service' # The path to the folder where the documents are stored
+    folder: 'content/our-areas' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: name
