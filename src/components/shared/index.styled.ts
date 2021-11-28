@@ -151,12 +151,11 @@ export const CustomConstrainedWidthContainer = styled.div`
     padding: 4rem 0 5rem 0;
   }
 `
-export const CustomSection = styled.section<{ paddingMobileProps?: string }>`
-  padding: 2rem 15rem 4rem 15rem;
+export const CustomSection = styled.section<{ paddingMobileProps?: string; paddingProps?: string }>`
   color: ${variables.color.text};
-
+  padding: ${({ paddingProps }) => (paddingProps ? paddingProps : '2rem 15rem 4rem 15rem')};
   @media ${variables.device.desktop} {
-    padding: 0rem 15rem 0rem;
+    padding: ${({ paddingProps }) => (paddingProps ? paddingProps : '2rem 15rem 4rem 15rem')};
   }
 
   @media ${variables.device.laptop} {
