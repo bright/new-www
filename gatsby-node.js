@@ -209,9 +209,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     `${__dirname}/src/templates/AboutUsTemplate.tsx`
   )
   await preparePage("member", "about-us", aboutUsTemplate)
-  
- 
 
+  const ourServiceTemplate = require.resolve(
+    `${__dirname}/src/templates/OurServiceTemplate.tsx`
+  )
+  await preparePage("our-service", "our-areas", ourServiceTemplate)
+  
   createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
 }
 
