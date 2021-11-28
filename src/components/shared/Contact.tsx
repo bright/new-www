@@ -21,6 +21,7 @@ import {
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomTextRegular } from './index.styled'
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
+import ReactMarkdown from 'react-markdown'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;
@@ -158,7 +159,9 @@ export const Contact: FC<ContactProps> = ({ title, subtitle, isOurServiceTemplat
           <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
         )}
         {subtitle ? (
-          <TextRegular>{subtitle}</TextRegular>
+          <TextRegular>
+            <ReactMarkdown children={subtitle} />
+          </TextRegular>
         ) : (
           <TextRegular>
             Have an idea for a groundbreaking software project, but don't know where to start? Or maybe you're looking
