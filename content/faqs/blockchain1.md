@@ -1,7 +1,7 @@
 ---
 layout: faqs
-faqs_id: blockchain1
-name: blockchain1
+faqs_id: blockchain 1
+name: blockchain 1
 slug: how-does-blockchain-technology-work
 question: How does blockchain technology work?
 answer: "Blockchain can be defined as a decentralised chain of blocks that are
