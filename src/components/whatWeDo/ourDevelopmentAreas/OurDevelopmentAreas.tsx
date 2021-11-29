@@ -1,8 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
-
-import CustomSoftwareDevelopment from '../../../assets/customSoftwareDevelopment.svg'
-
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { ServiceModel } from '../../../models/gql'
 import ReactMarkdown from 'react-markdown'
 
@@ -21,9 +19,9 @@ const OurDevelopmentAreas = () => {
   } = useStaticQuery(GQL)
   const ourServicesItems: ServiceModel[] = edges
     ? edges.map((e: any) => {
-        const { title, description } = e.node.frontmatter
+        const { title, description, our_services_icon } = e.node.frontmatter
         const { slug } = e.node.fields
-        const ourServicesItems = { title, description, slug }
+        const ourServicesItems = { title, description, slug, our_services_icon }
         return ourServicesItems
       })
     : []
@@ -35,7 +33,7 @@ const OurDevelopmentAreas = () => {
           <DevelopmentAreaContainer key={service.title}>
             <RevertHoverLink to={service.slug}>
               <SectionTitleContainer iconMobileWidth={'81px'} iconMobileHeight={'81px'}>
-                <CustomSoftwareDevelopment />
+                <GatsbyImage image={getImage(service.our_services_icon)!} alt={service.title} />
                 <Title>{service.title}</Title>
               </SectionTitleContainer>
               <ReactMarkdown children={service.description} />
@@ -55,6 +53,11 @@ const GQL = graphql`
           frontmatter {
             description
             title
+            our_services_icon {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
           }
           fields {
             slug
