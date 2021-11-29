@@ -30,7 +30,7 @@ meta_title: Blockchain Development Company
 meta_description: "We are a software development company that specialises in
   blockchain technology. "
 our_services_icon: /images/blockchain_icon.png
-title: Say hi to the future with blockchain development
+title: Build future with blockchain development
 image_our_service: /images/blockchain_development_small.png
 image_alt_our_service: blockchain development
 description: We are a software development company that **specialises in
