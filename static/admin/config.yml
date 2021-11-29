@@ -215,6 +215,7 @@ collections:
           pattern: ['^.{20,160}$', 'Must have no more than 160 characters'],
         }
       - { label: 'Our services icon', name: 'our_services_icon', widget: 'image' }
+      - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
       - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
@@ -225,6 +226,9 @@ collections:
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
       - { label: 'Show case study', name: 'show_case_study', widget: 'boolean', default: true }
       - { label: 'Show technology stack', name: 'show_technology_stack', widget: 'boolean', default: true }
+      - { label: 'Title Team', name: 'title_team', widget: 'string' }
+      - { label: 'Title Case Study', name: 'title_case_study', widget: 'string' }
+      - { label: 'Title FAQs', name: 'title_faqs', widget: 'string' }
       - { label: 'Title Contact', name: 'title_contact', widget: 'string' }
       - { label: 'Description Contact', name: 'description_contact', widget: 'markdown' }
 
