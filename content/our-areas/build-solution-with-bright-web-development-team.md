@@ -9,7 +9,7 @@ team_members:
   - janek
   - alisa
 faqs:
-  - blockchain1
+  - web development 1
 project:
   - vcare
   - bright-treasury
@@ -22,7 +22,7 @@ meta_title: web development company
 meta_description: We provide a wide range of custom full-stack web development
   services for small, medium, and large businesses.
 our_services_icon: /images/web_development_icon.png
-title: Build solution with bright web development team
+title: build solution with bright web development team
 image_our_service: /images/web_development_small.png
 image_alt_our_service: web development company
 description: >-
