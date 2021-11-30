@@ -25,8 +25,9 @@ project:
   - smarthelp
 layout: our-service
 meta_title: web development company
-meta_description: We provide a wide range of custom full-stack web development
-  services for small, medium, and large businesses.
+meta_description: We are a web development company from Poland. We have built
+  web apps, web services and websites for clients from USA, UK, Israel and more.
+  Contact us!
 our_services_icon: /images/web_development_icon.png
 name: web development
 title: build solution with bright web development team
