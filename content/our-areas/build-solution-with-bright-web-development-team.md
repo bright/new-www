@@ -28,6 +28,7 @@ meta_title: web development company
 meta_description: We provide a wide range of custom full-stack web development
   services for small, medium, and large businesses.
 our_services_icon: /images/web_development_icon.png
+name: web development
 title: build solution with bright web development team
 image_our_service: /images/web_development_small.png
 image_alt_our_service: web development company
@@ -40,11 +41,14 @@ description: >-
 
 
   If you are looking for a web development company, you’ve come to the right place!
-button: Let’s talk!
-button2: Let’s talk!
+button: Let’s talk
+button2: Let’s talk
 published: true
 show_case_study: true
 show_technology_stack: true
+title_team: meet our web development team
+title_case_study: web solutions that we’ve worked on
+title_faqs: web development services FAQs
 title_contact: let’s talk about your web project
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill the form below, or drop us a line via **info@bright.dev**.
