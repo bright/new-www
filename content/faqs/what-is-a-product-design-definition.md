@@ -1,7 +1,7 @@
 ---
 layout: faqs
-faqs_id: product design 1
-name: What is a product design definition?
+faqs_id: What is a product design definition?
+name: product design 1
 slug: what-is-product-design
 question: What is a product design definition?
 answer: Product design can be described as **turning an idea for a software (or
