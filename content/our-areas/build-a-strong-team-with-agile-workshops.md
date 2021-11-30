@@ -23,7 +23,9 @@ project:
   - xpomaker
 layout: our-service
 meta_title: Agile Workshops for Teams
-meta_description: We provide hands-on consulting, coaching, and Agile training for businesses.
+meta_description: Since 2012 we have developed over 40 software solutions with
+  Agile methodology. We provide Agile training for businesses. Schedule an
+  online meeting!
 our_services_icon: /images/agile_workshops_icon.png
 name: agile workshops
 title: build a strong team with Agile workshops
