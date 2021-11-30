@@ -27,8 +27,9 @@ project:
   - bright-treasury
 layout: our-service
 meta_title: Blockchain Development Company
-meta_description: "We are a software development company that specialises in
-  blockchain technology. "
+meta_description: We are a blockchain development company from Poland. We
+  specialise in building solutions based on Ethereum and Substrate blockchain.
+  Contact us!
 our_services_icon: /images/blockchain_icon.png
 name: blockchain
 title: build future with blockchain development
