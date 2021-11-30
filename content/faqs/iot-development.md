@@ -1,7 +1,7 @@
 ---
 layout: faqs
 faqs_id: Where is IoT used?
-name: iot development
+name: iot development 4
 slug: where-is-iot-used
 question: Where is IoT used?
 answer: IoT can be used practically in every industry. IoT is successfully
