@@ -24,9 +24,11 @@ project:
   - mobile-therapy-application
 layout: our-service
 meta_title: Mobile App Development | Bright Inventions
-meta_description: We are a Mobile App Development Company from Poland. We
-  specialise in building native apps for iOS and Android.
+meta_description: We are a mobile app development company from Poland. We
+  specialise in building native apps for iOS and Android. Looking for app
+  developers? Contact us!
 our_services_icon: /images/mobile_development_icon.png
+name: mobile app development
 title: build native apps with mobile development team
 image_our_service: /images/mobile_app_development2.png
 image_alt_our_service: mobile app development company
@@ -40,9 +42,12 @@ description: >-
 button: Let's talk about your mobile app
 button2: Let's talk about your mobile app
 published: true
-show technology stack: true
 show_case_study: true
 show_technology_stack: true
+title_team: meet our mobile app development team
+title_case_study: mobile applications that we delivered
+title_faqs: mobile app development FAQ's
+show technology stack: true
 title_contact: let’s talk about your mobile app project
 show case study: true
 description_contact: Tell us more about your mobile project or idea for an app.
