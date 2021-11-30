@@ -24,8 +24,9 @@ project:
   - bright-treasury
 layout: our-service
 meta_title: MVP Development Agency
-meta_description: We’ve developed MVPs for startups, NGOs and consulting
-  agencies from the USA, UK, Germany, Norway and more.
+meta_description: Since 2012 we have developed MVPs for clients from USA, UK,
+  Israel and more. We build MVPs for startups, corporations and digital
+  agencies. Contact us!
 our_services_icon: /images/mvp_development.png
 name: MVP development
 title: launch your idea with MVP development
