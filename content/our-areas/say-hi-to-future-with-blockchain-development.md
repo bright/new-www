@@ -27,9 +27,11 @@ project:
   - bright-treasury
 layout: our-service
 meta_title: Blockchain Development Company
-meta_description: "We are a software development company that specialises in
-  blockchain technology. "
+meta_description: We are a blockchain development company from Poland. We
+  specialise in building solutions based on Ethereum and Substrate blockchain.
+  Contact us!
 our_services_icon: /images/blockchain_icon.png
+name: blockchain
 title: build future with blockchain development
 image_our_service: /images/blockchain_development_small.png
 image_alt_our_service: blockchain development
@@ -42,11 +44,14 @@ button2: Let's build blockchain
 published: true
 show_case_study: false
 show_technology_stack: true
+title_team: meet our blockchain development team
+title_case_study: blockchain solutions
+title_faqs: blockchain development FAQ's
 title_contact: let’s talk about your blockchain project
 description_contact: Contact us to learn how we can use blockchain to develop
   your product. Fill the form below, or drop us a line via **info@bright.dev**.
 ---
-## blockchain solutions that we’ve developed
+## blockchain solutions that we have developed
 
 We specialize in integrating web and mobile apps with blockchain solutions. For over 4 years we’ve been developing products using Ethereum technology. Apart from that, we are Substrate enthusiasts. We’ve built Bright Treasury module application to support the Polkadot community built around the Substrate. We use and support the Substrate framework because we believe that it is the future of the internet. 
 
