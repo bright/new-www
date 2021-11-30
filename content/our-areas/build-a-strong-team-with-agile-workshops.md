@@ -43,7 +43,7 @@ published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet the team full of Agile
-title_case_study: "Projects we delivered with Agile methodology "
+title_case_study: Projects we delivered with Agile
 title_faqs: Agile workshops FAQs
 title_contact: Let’s talk about your workshops
 description_contact: Every workshop is adjusted to clients needs. Just let us
