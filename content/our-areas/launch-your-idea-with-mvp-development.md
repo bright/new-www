@@ -27,6 +27,7 @@ meta_title: MVP Development Agency
 meta_description: We’ve developed MVPs for startups, NGOs and consulting
   agencies from the USA, UK, Germany, Norway and more.
 our_services_icon: /images/mvp_development.png
+name: MVP development
 title: launch your idea with MVP development
 image_our_service: /images/mvp_development_small.png
 image_alt_our_service: mvp development company
@@ -38,6 +39,9 @@ button2: Let's build MVP
 published: true
 show_case_study: true
 show_technology_stack: true
+title_team: meet our MVP development team
+title_case_study: MVPs that we’ve developed
+title_faqs: MVP development FAQs
 title_contact: let’s talk about your MVP
 description_contact: Tell us more about your project or idea for an app. Fill
   the form below, or drop us a line via **info@bright.dev**.
