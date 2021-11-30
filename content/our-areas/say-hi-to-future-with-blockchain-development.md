@@ -31,7 +31,7 @@ meta_description: We are a blockchain development company from Poland. We
   specialise in building solutions based on Ethereum and Substrate blockchain.
   Contact us!
 our_services_icon: /images/blockchain_icon.png
-name: blockchain
+name: blockchain development
 title: build future with blockchain development
 image_our_service: /images/blockchain_development_small.png
 image_alt_our_service: blockchain development
