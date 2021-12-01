@@ -30,7 +30,7 @@ meta_description: We are a custom software development company from Poland.
   Israel, Norway and more.
 our_services_icon: /images/custom_software_development_icon.png
 name: custom software development
-title: Be unique with custom software development
+title: be unique with custom software development
 image_our_service: /images/customsoftwaredevelopment_small.png
 image_alt_our_service: custom software development
 description: Every business is unique. Bespoke software development can truly

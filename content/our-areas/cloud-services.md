@@ -34,7 +34,7 @@ show_case_study: false
 show_technology_stack: true
 title_team: meet our cloud computing team
 title_case_study: cloud services projects we have worked on
-title_faqs: cloud services FAQS
+title_faqs: cloud services FAQs
 title_contact: let’s talk about your cloud solution
 description_contact: >-
   ## AWS cloud services
