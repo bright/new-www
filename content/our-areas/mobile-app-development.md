@@ -46,7 +46,7 @@ show_case_study: true
 show_technology_stack: true
 title_team: meet our mobile app development team
 title_case_study: mobile applications that we delivered
-title_faqs: mobile app development FAQ's
+title_faqs: mobile app development FAQs
 show technology stack: true
 title_contact: let’s talk about your mobile app project
 show case study: true
