@@ -144,7 +144,6 @@ export default function Template({ data }: any) {
   const { frontmatter: page, html } = markdownRemark
   const image = getImage(page.image_our_service)
   data.markdownRemark.frontmatter
-  console.log(page.team_members)
 
   const [show, setShow] = useState<any>({})
 
