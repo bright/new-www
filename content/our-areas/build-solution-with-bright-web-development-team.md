@@ -30,7 +30,10 @@ meta_description: We are a web development company from Poland. We have built
   Contact us!
 our_services_icon: /images/web_development_icon.png
 name: web development
-title: build solution with bright web development team
+short_description: We provide a wide range of custom full stack web development
+  services. We rely on a rich technology stack, including JavaScript, CSS, HTML,
+  Java, Node.js, AWS, and more
+title: build solution with web development team
 image_our_service: /images/web_development_small.png
 image_alt_our_service: web development company
 description: >-
@@ -42,7 +45,7 @@ description: >-
 
 
   If you are looking for a web development company, you’ve come to the right place!
-button: Let’s talk
+button: let’s talk
 button2: let’s talk
 published: true
 show_case_study: true

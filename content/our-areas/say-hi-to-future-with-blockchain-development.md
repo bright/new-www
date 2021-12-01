@@ -1,6 +1,5 @@
 ---
 team_members:
-  - daniel
   - agnieszka
   - rafal h
   - robert
@@ -8,6 +7,7 @@ team_members:
   - alisa
   - piotr_r
   - kasia
+  - maja
 faqs:
   - blockchain 1
   - blockchain 2
@@ -25,6 +25,7 @@ faqs:
   - blockchain 14
 project:
   - bright-treasury
+  - cryptoAtlas
 layout: our-service
 meta_title: Blockchain Development Company
 meta_description: We are a blockchain development company from Poland. We
@@ -39,13 +40,13 @@ description: We are a software development company that **specialises in
   blockchain technology**. Blockchain is a groundbreaking technology that goes
   far beyond cryptocurrency services. Tell us more about your blockchain project
   and we will let you know how we can assist you.
-button: Let's build blockchain
-button2: Let's build blockchain
+button: let's build blockchain
+button2: let's build blockchain
 published: true
-show_case_study: false
+show_case_study: true
 show_technology_stack: true
 title_team: meet our blockchain development team
-title_case_study: blockchain solutions
+title_case_study: projects we have worked on
 title_faqs: blockchain development FAQ's
 title_contact: let’s talk about your blockchain project
 description_contact: Contact us to learn how we can use blockchain to develop
@@ -55,10 +56,6 @@ description_contact: Contact us to learn how we can use blockchain to develop
 
 We specialize in integrating web and mobile apps with blockchain solutions. For over 4 years we’ve been developing products using Ethereum technology. Apart from that, we are Substrate enthusiasts. We’ve built Bright Treasury module application to support the Polkadot community built around the Substrate. We use and support the Substrate framework because we believe that it is the future of the internet. 
 
-### Global food assistance program 
-
-We have been entrusted with a major Ethereum use case blockchain for a social impact project – a global food assistance program. The solution based on blockchain helps wire cash to some of the most impoverished communities in the world.
-
 ### Bright Treasury
 
-Meet Bright Inventions’s original product supporting the blockchain community. It is a standalone web application that will allow performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is a part of the Web3 Foundation (W3F) grants program. The goal of our project is to make blockchain accessible to more users.
+Bright Treasury is our original product supporting the blockchain community. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is a part of the Web3 Foundation (W3F) grants program. The goal of our product is to make blockchain accessible to more users.
