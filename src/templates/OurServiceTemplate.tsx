@@ -74,8 +74,8 @@ const Content = styled.div`
     }
   }
   && p {
-    font-size: ${variables.pxToRem(16)};
-    line-height: ${variables.pxToRem(28)};
+    font-size: ${variables.pxToRem(22)};
+    line-height: ${variables.pxToRem(40)};
     color: #131214;
     opacity: 0.75;
     font-family: ${variables.font.customtext.lato};
@@ -144,6 +144,7 @@ export default function Template({ data }: any) {
   const { frontmatter: page, html } = markdownRemark
   const image = getImage(page.image_our_service)
   data.markdownRemark.frontmatter
+  console.log(page.team_members)
 
   const [show, setShow] = useState<any>({})
 
