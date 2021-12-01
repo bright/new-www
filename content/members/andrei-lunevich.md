@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: andrei
-ex: false
+ex: true
 slug: andrei
 name: Andrei Lunevich
 short_name: "Andrei "
