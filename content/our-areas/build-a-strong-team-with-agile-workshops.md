@@ -37,7 +37,7 @@ description: We live and breathe Agile. For almost a decade we have used Agile
   We work directly with your software developers and we have the experience to
   help you solve your project management and process problems. We offer face to
   face meetings (across Europe) and online workshops as well.
-button: book workshops
+button: let's talk
 button2: book workshops
 published: true
 show_case_study: true
