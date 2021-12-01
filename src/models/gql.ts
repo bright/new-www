@@ -60,7 +60,8 @@ export interface JobModel {
 export interface ServiceModel {
   title: string
   slug: string
-  image: IGatsbyImageData | string
+  our_services_icon: IGatsbyImageData
   layout: string
-  description: string
+  short_description: string
+  name: string
 }

@@ -19,9 +19,9 @@ const OurDevelopmentAreas = () => {
   } = useStaticQuery(GQL)
   const ourServicesItems: ServiceModel[] = edges
     ? edges.map((e: any) => {
-        const { title, description, our_services_icon } = e.node.frontmatter
+        const { name, short_description, our_services_icon } = e.node.frontmatter
         const { slug } = e.node.fields
-        const ourServicesItems = { title, description, slug, our_services_icon }
+        const ourServicesItems = { name, short_description, slug, our_services_icon }
         return ourServicesItems
       })
     : []
@@ -32,11 +32,16 @@ const OurDevelopmentAreas = () => {
         {ourServicesItems.map(service => (
           <DevelopmentAreaContainer key={service.title}>
             <RevertHoverLink to={service.slug}>
-              <SectionTitleContainer iconMobileWidth={'81px'} iconMobileHeight={'81px'}>
-                <GatsbyImage image={getImage(service.our_services_icon)!} alt={service.title} />
-                <Title>{service.title}</Title>
+              <SectionTitleContainer>
+                <GatsbyImage
+                  image={getImage(service.our_services_icon)!}
+                  alt={service.title}
+                  className='about-img'
+                  imgClassName='image'
+                />
+                <Title>{service.name}</Title>
               </SectionTitleContainer>
-              <ReactMarkdown children={service.description} />
+              <ReactMarkdown children={service.short_description} />
             </RevertHoverLink>
           </DevelopmentAreaContainer>
         ))}
@@ -51,11 +56,11 @@ const GQL = graphql`
       edges {
         node {
           frontmatter {
-            description
-            title
+            short_description
+            name
             our_services_icon {
               childImageSharp {
-                gatsbyImageData
+                gatsbyImageData(height: 100)
               }
             }
           }
