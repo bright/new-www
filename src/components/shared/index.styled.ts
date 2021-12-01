@@ -174,13 +174,12 @@ export const CustomSection = styled.section<{ paddingMobileProps?: string; paddi
     padding: ${({ paddingMobileProps }) => (paddingMobileProps ? paddingMobileProps : '2rem 1.125rem 1rem')};
   }
 `
-export const CustomSectionTitle = styled.h2<{ margin?: string }>`
+export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: string }>`
   ${TitleBase};
   font-size: 2.5rem;
   font-weight: 800;
   line-height: 3.06rem;
   margin: ${({ margin }) => (margin ? margin : '9.625rem 0 6.56rem')};
-  /* margin: 9.625rem 0 6.56rem; */
   color: #000000;
 
   @media ${variables.device.laptop} {
@@ -193,7 +192,7 @@ export const CustomSectionTitle = styled.h2<{ margin?: string }>`
   @media ${variables.device.mobile} {
     font-size: 1.375rem;
     line-height: 1.6875rem;
-    margin: 5.125rem 0 4rem;
+    margin: ${({ mobileMargin }) => (mobileMargin ? mobileMargin : '5.125rem 0 4rem')};
   }
 `
 export const CustomTextTitle = styled.div`
@@ -218,4 +217,10 @@ export const CustomSectionInner = styled(SectionInner)`
   @media ${variables.device.tabletXL} {
     max-width: 824px;
   }
+`
+export const CustomPageDescription = styled(PageDescription)`
+  font-size: ${variables.pxToRem(22)};
+  line-height: ${variables.pxToRem(40)};
+  color: #131214;
+  opacity: 0.75;
 `
