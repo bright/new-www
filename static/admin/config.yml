@@ -216,6 +216,7 @@ collections:
         }
       - { label: 'Our services icon', name: 'our_services_icon', widget: 'image' }
       - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Short Description', name: 'short_description', widget: 'markdown' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
       - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }

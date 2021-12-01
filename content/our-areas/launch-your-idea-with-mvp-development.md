@@ -35,8 +35,8 @@ image_alt_our_service: mvp development company
 description: Do you want to build an MVP? You came to the right place! We’ve
   developed MVPs for startups, NGOs and consulting agencies from the USA, UK,
   Germany, Norway and more. Let’s work on your MVP!
-button: Let's build MVP
-button2: Let's build MVP
+button: let's talk
+button2: let's talk
 published: true
 show_case_study: true
 show_technology_stack: true
