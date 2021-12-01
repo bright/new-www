@@ -24,6 +24,9 @@ meta_description: Since 2012 we have built software for over 40 businesses. At
   business goals.
 our_services_icon: /images/product_workshops_icon.png
 name: product workshops
+short_description: We will help you discover your product idea, set your product
+  goals, understand the pitfalls and find the solution on how to make your
+  product better.
 title: make your software worthy with product workshops
 image_our_service: /images/productworkshops_small.png
 image_alt_our_service: product workshops
