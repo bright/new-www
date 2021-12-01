@@ -1,9 +1,9 @@
 ---
 team_members:
+  - kasia
   - alisa
   - mateusz
   - kasia g
-  - piotr
 faqs:
   - agile workshop 1
   - agile workshop 2
@@ -43,9 +43,9 @@ published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet the team full of Agile
-title_case_study: Projects we delivered with Agile
-title_faqs: Agile workshops FAQs
-title_contact: Let’s talk about your workshops
+title_case_study: projects we delivered with Agile
+title_faqs: agile workshops FAQs
+title_contact: let’s talk about your workshops
 description_contact: Every workshop is adjusted to clients needs. Just let us
   know what you expect and we will find the best solution for you! Or email us
   and we will set up a call to talk about it.
