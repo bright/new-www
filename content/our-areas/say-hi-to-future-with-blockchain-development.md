@@ -1,6 +1,5 @@
 ---
 team_members:
-  - daniel
   - agnieszka
   - rafal h
   - robert
@@ -8,6 +7,7 @@ team_members:
   - alisa
   - piotr_r
   - kasia
+  - maja
 faqs:
   - blockchain 1
   - blockchain 2
@@ -25,6 +25,7 @@ faqs:
   - blockchain 14
 project:
   - bright-treasury
+  - cryptoAtlas
 layout: our-service
 meta_title: Blockchain Development Company
 meta_description: We are a blockchain development company from Poland. We
@@ -39,10 +40,10 @@ description: We are a software development company that **specialises in
   blockchain technology**. Blockchain is a groundbreaking technology that goes
   far beyond cryptocurrency services. Tell us more about your blockchain project
   and we will let you know how we can assist you.
-button: Let's build blockchain
-button2: Let's build blockchain
+button: let's build blockchain
+button2: let's build blockchain
 published: true
-show_case_study: false
+show_case_study: true
 show_technology_stack: true
 title_team: meet our blockchain development team
 title_case_study: blockchain solutions
