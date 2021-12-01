@@ -22,10 +22,10 @@ meta_title: IoT Development Company
 meta_description: We are an IoT software company from Poland. We have developed
   IoT solutions for clients from Israel, the UK and the USA. Looking for IoT
   developers? Contact us!
-our_services_icon: /images/iot_development_1.png
+our_services_icon: /images/iot_icon.png
 name: IoT development
-title: Build innovation with IoT development
-image_our_service: /images/iot_icon.png
+title: build innovation with IoT development
+image_our_service: /images/iot_development_1.png
 image_alt_our_service: IoT company
 description: We are Bright Inventions – a software development company
   specializing in the Internet of Things solutions. We build IoT software for
