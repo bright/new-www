@@ -22,10 +22,10 @@ meta_title: Product workshops for business
 meta_description: Since 2012 we have built software for over 40 businesses. At
   product workshops we will establish a product development plan to meet your
   business goals.
-our_services_icon: /images/productworkshops_small.png
+our_services_icon: /images/product_workshops_icon.png
 name: product workshops
-title: Make your software worthy with product workshops
-image_our_service: /images/product_workshops_icon.png
+title: make your software worthy with product workshops
+image_our_service: /images/productworkshops_small.png
 image_alt_our_service: product workshops
 description: We believe that product workshops are an integral part of the
   product development process, no matter which stages your product is in. During
@@ -34,8 +34,8 @@ description: We believe that product workshops are an integral part of the
   your product better. Our workshop team will adapt the workshop just for your
   exclusive case and adjust the whole process for your individual needs. **Due
   to the global pandemic situation, we offer online workshops as well.**
-button: Book workshop
-button2: Book workshop
+button: let's talk
+button2: book workshop
 published: true
 show_case_study: false
 show_technology_stack: true
