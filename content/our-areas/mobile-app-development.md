@@ -39,8 +39,8 @@ description: >-
 
 
   Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
-button: let's talk about your mobile app
-button2: Let's talk about your mobile app
+button: let's talk
+button2: let's talk
 published: true
 show_case_study: true
 show_technology_stack: true
