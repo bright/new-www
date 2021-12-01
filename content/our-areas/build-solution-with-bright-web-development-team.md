@@ -42,7 +42,7 @@ description: >-
 
 
   If you are looking for a web development company, you’ve come to the right place!
-button: Let’s talk
+button: let’s talk
 button2: let’s talk
 published: true
 show_case_study: true
