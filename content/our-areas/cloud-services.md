@@ -12,6 +12,7 @@ faqs:
   - agile workshop 1
 project:
   - bright-treasury
+  - digitized-questionnaires
 layout: our-service
 meta_title: Cloud Computing Services
 meta_description: We are a software development agency from Poland offering
@@ -32,7 +33,7 @@ description: Join the serverless movement. Improve security and reduce costs
 button: let's talk
 button2: let's talk
 published: true
-show_case_study: false
+show_case_study: true
 show_technology_stack: true
 title_team: meet our cloud computing team
 title_case_study: cloud services projects we have worked on
