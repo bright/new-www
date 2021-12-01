@@ -288,7 +288,7 @@ const TeamMembers = ({ authorIdsArray, isOurServiceTemplate = false }: TeamMembe
         })}
 
         {width <= 581 && !isOurServiceTemplate ? <ScrollArrow /> : null}
-        {width <= 581 && isOurServiceTemplate ? (
+        {width <= 581 && isOurServiceTemplate && members?.length > initNumber ? (
           <MoreButton onClick={handleClick}>{numberOfMembers === initNumber ? 'see more' : 'see less'}</MoreButton>
         ) : null}
       </Container>
