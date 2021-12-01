@@ -41,8 +41,8 @@ show_case_study: false
 show_technology_stack: true
 title_team: meet our product workshop team
 title_case_study: case studies
-title_faqs: Product workshop FAQs
-title_contact: Let's talk about product workshops for your team
+title_faqs: product workshop FAQs
+title_contact: let's talk about product workshops for your team
 description_contact: Every product workshop is adjusted to clients needs. Just
   let us know what you expect and we will find the best solution for you! Fill
   the form below, or drop us a line via info@bright.dev.
