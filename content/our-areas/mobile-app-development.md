@@ -5,9 +5,9 @@ team_members:
   - fjablonski
   - kamil-b
   - szymek
-  - michal
   - mateusz-b
   - alisa
+  - tomasz-l
 faqs:
   - mobile app development 1
   - mobile app development 2
@@ -23,7 +23,7 @@ project:
   - vcare
   - mobile-therapy-application
 layout: our-service
-meta_title: Mobile App Development | Bright Inventions
+meta_title: Mobile App Development
 meta_description: We are a mobile app development company from Poland. We
   specialise in building native apps for iOS and Android. Looking for app
   developers? Contact us!
