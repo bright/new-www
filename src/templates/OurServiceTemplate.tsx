@@ -33,7 +33,7 @@ const CustomSectionOurService = styled(CustomSection)`
 `
 
 const Section = styled.section`
-  padding: 0 0 11.625rem;
+  padding: 0 0 ${variables.pxToRem(186)};
   color: #131214;
   @media ${variables.device.mobile} {
     padding: 0 0 ${variables.pxToRem(82)};
@@ -57,6 +57,9 @@ const Content = styled.div`
     }
     @media ${variables.device.mobile} {
       font-size: ${variables.pxToRem(22)};
+      & :first-of-type {
+        margin: ${variables.pxToRem(82)} 0 ${variables.pxToRem(36)};
+      }
     }
   }
   && h3 {
@@ -94,7 +97,7 @@ export const Question = styled.h3<{ shown: boolean }>`
   align-items: center;
   justify-content: space-between;
   text-align: left;
-  font: normal normal bold ${variables.pxToRem(32)} / ${variables.pxToRem(40)} Lato;
+  font: normal normal 900 ${variables.pxToRem(32)} / ${variables.pxToRem(40)} Lato;
   letter-spacing: 0px;
   color: #000000;
   padding: ${variables.pxToRem(35)} 0;
@@ -117,9 +120,7 @@ const FaqsTextRegural = styled(CustomTextRegular)`
     padding-top: ${variables.pxToRem(6)};
   }
 `
-const OurServiceTitle = styled(CustomSectionTitle)`
-  margin-top: 0;
-`
+
 const BlackButtonOurService = styled(BlackButton)`
   margin: 0 auto;
   margin-top: ${variables.pxToRem(105)};
@@ -182,7 +183,7 @@ export default function Template({ data }: any) {
         <GatsbyImage image={image} alt={page.image_alt_our_service} className='about-img' quality='100' />
       </ImageWrapper>
       <Section>
-        <CustomSection>
+        <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
           <CustomSectionInner>
             <TextRegular className='content'>
               <Content>
@@ -195,11 +196,28 @@ export default function Template({ data }: any) {
           </CustomSectionInner>
         </CustomSection>
       </Section>
+      <CustomSection paddingProps='0 0 4rem' paddingMobileProps='0 1.125rem 1rem'>
+        <CustomSectionTitle mobileMargin='0 0 4rem' margin='0rem 0 6.5625rem '>
+          {page.title_team}
+        </CustomSectionTitle>
+        <TeamMembers authorIdsArray={page.team_members} isOurServiceTemplate={true} />
+      </CustomSection>
 
-      {/* case studies */}
+      <CustomSection paddingProps='0 15rem 0 15rem' paddingMobileProps='0 1.125rem 1rem'>
+        <Section>
+          <CustomSectionInner>
+            <Content dangerouslySetInnerHTML={{ __html: html }} />
+            <Link to={'#contactForm'}>
+              <BlackButtonOurService>{page.button2}</BlackButtonOurService>
+            </Link>
+          </CustomSectionInner>
+        </Section>
+      </CustomSection>
+
+      {page.show_technology_stack && <TechnologyTags />}
       {page.show_case_study && (
-        <ProjectCustomSection paddingMobileProps='0 1.125rem 5.125rem'>
-          <OurServiceTitle>success stories</OurServiceTitle>
+        <ProjectCustomSection paddingMobileProps='0 1.125rem 0'>
+          <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{page.title_case_study}</CustomSectionTitle>
           <div className='is-clearfix success-story-wrapper'>
             <BlockSmall className='is-pulled-right'>
               <span>visit our online portfolio:</span>
@@ -233,25 +251,17 @@ export default function Template({ data }: any) {
         </ProjectCustomSection>
       )}
 
-      <CustomSection paddingMobileProps='0 1.125rem 1rem'>
-        <Section>
-          <CustomSectionInner>
-            <Content dangerouslySetInnerHTML={{ __html: html }} />
-            <Link to={'#contactForm'}>
-              <BlackButtonOurService>{page.button2}</BlackButtonOurService>
-            </Link>
-          </CustomSectionInner>
-        </Section>
-      </CustomSection>
-
-      {page.show_technology_stack && <TechnologyTags />}
-      <CustomSectionTitle margin='11.625rem 0 6.5625rem '>meet our {page.title} team</CustomSectionTitle>
-      <TeamMembers authorIdsArray={page.team_members} isOurServiceTemplate={true} />
-
-      {/* FAQs */}
-      <CustomSection paddingMobileProps='0 1.125rem 0'>
+      <CustomSection paddingProps='0rem 15rem 4rem 15rem' paddingMobileProps='0 1.125rem 0'>
         <CustomSectionInner>
-          <CustomSectionTitle margin='11.625rem 0 6.5625rem '>{page.title} FAQ's</CustomSectionTitle>
+          {page.show_case_study ? (
+            <CustomSectionTitle margin='0rem 0 6.5625rem ' mobileMargin='0 0 2.75rem '>
+              {page.title_faqs}
+            </CustomSectionTitle>
+          ) : (
+            <CustomSectionTitle margin='11.625rem 0 6.5625rem ' mobileMargin='5.125rem 0 2.75rem '>
+              {page.title_faqs}
+            </CustomSectionTitle>
+          )}
 
           {data.markdownRemark.frontmatter.faqs &&
             data.markdownRemark.frontmatter.faqs.map(({ frontmatter }: any, i: number) => {
@@ -315,6 +325,9 @@ export const pageQuery = graphql`
         button2
         show_case_study
         show_technology_stack
+        title_faqs
+        title_case_study
+        title_team
         title_contact
         description_contact
         slug
