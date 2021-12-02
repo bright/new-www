@@ -45,19 +45,19 @@ description: >-
 
 
   If you are looking for a web development company, you’ve come to the right place!
-button: let’s talk
-button2: let’s talk
+button: let’s talk web
+button2: let’s talk web
 published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet our web development team
-title_case_study: web solutions that we’ve worked on
+title_case_study: web solutions that we have worked on
 title_faqs: web development services FAQs
 title_contact: let’s talk about your web project
-description_contact: Tell us more about your mobile project or idea for an app.
+description_contact: Tell us more about your web project or idea for an app.
   Fill the form below, or drop us a line via **info@bright.dev**.
 ---
-## web development services that we offer
+## web development services
 
 As a web development company, we specialise in web app and website development.
 
