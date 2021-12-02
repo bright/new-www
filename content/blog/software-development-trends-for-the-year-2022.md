@@ -47,6 +47,8 @@ One of 2022 product design trends will be simplicity in-app onboarding. We talk 
 
 However, how often do you skip onboarding? We tend to skip it when it teaches us how to use the app. In most cases users should know how to use the app thanks to our design. So during onboarding don’t introduce every tap in the app – show the crucial features and the values that they offer. If users don’t see benefits from your solution, your app might quickly disappear from their devices. Downloading the app doesn’t mean that you succeed, you still have to show users that the solution is worthy of their attention, time and device storage... 
 
+![health app onboarding](/images/therapy_app_mockup.png)
+
 Though in some cases we do not need the onboarding, in others onboarding is inevitable, for instance when we need to set-up an account and we cannot use our product without the account e.g. banking apps. The other case is – content personalization, when the user needs to personalize the app. Great examples are fitness, running or health apps.
 
 But remember – do not overuse the onboarding for unnecessary information. Save your users from the information noise.
