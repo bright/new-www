@@ -60,7 +60,7 @@ Product workshops bring value at every phase of software development. They might
 
 The **product discovery workshop** is a good fit for this case. Our team will gladly help you with discovering the product you need, detecting all the opportunities, threats, and future prospects. Together, we will discover the scope of your potential product and prepare the product development plan.
 
-We suggest contributing 1-2 days to the product discovery workshop (also known as product development workshops).e. During the workshop, our team will facilitate the activities that will help to generate new possible ideas, understand your potential customers and your business needs. 
+We suggest contributing 1-2 days to the product discovery workshop (also known as product development workshops). During the workshop, our team will facilitate the activities that will help to generate new possible ideas, understand your potential customers and your business needs. 
 
 ### You have an idea and know how your product should look like and work, but need to put it all together in a system
 
