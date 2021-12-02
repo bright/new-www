@@ -57,7 +57,7 @@ title_contact: let’s talk about your web project
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill the form below, or drop us a line via **info@bright.dev**.
 ---
-## web development services that we offer
+## web development services
 
 As a web development company, we specialise in web app and website development.
 
