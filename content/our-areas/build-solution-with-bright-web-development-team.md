@@ -54,7 +54,7 @@ title_team: meet our web development team
 title_case_study: web solutions that we have worked on
 title_faqs: web development services FAQs
 title_contact: let’s talk about your web project
-description_contact: Tell us more about your mobile project or idea for an app.
+description_contact: Tell us more about your web project or idea for an app.
   Fill the form below, or drop us a line via **info@bright.dev**.
 ---
 ## web development services
