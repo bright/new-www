@@ -34,16 +34,16 @@ short_description: Build an MVP to shorten time to market. We’ve developed MVP
 title: launch your idea with MVP development
 image_our_service: /images/mvp_development_small.png
 image_alt_our_service: mvp development company
-description: Do you want to build an MVP? You came to the right place! We’ve
+description: Do you want to build an MVP? You came to the right place. We’ve
   developed MVPs for startups, NGOs and consulting agencies from the USA, UK,
-  Germany, Norway and more. Let’s work on your MVP!
-button: let's talk
-button2: let's talk
+  Germany, Norway and more. Let’s work on your MVP.
+button: let's talk MVP
+button2: let's talk MVP
 published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet our MVP development team
-title_case_study: MVPs that we’ve developed
+title_case_study: MVPs that we have developed
 title_faqs: MVP development FAQs
 title_contact: let’s talk about your MVP
 description_contact: Tell us more about your project or idea for an app. Fill
@@ -63,7 +63,7 @@ MVPs aren’t reserved only for startups. They can be the right solution for gre
 
 ### you represent a consultancy agency
 
-Do you want to develop MVPs to distribute them to your clients? We are happy to assist you. We bring to the table **10 years of experience in software development**. Our custom software development approach based on Agile methodologies will result in developing high-quality MVPs.
+Do you want to develop MVPs to distribute them to your clients? We are happy to assist you. We bring to the tableyears of experience in software development. Our custom software development approach based on Agile methodologies will result in developing high-quality MVPs.
 
 ### you have an idea for a solution and want to verify its potential
 
