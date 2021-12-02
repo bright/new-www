@@ -30,13 +30,15 @@ short_description: We will help you discover your product idea, set your product
 title: make your software worthy with product workshops
 image_our_service: /images/productworkshops_small.png
 image_alt_our_service: product workshops
-description: We believe that product workshops are an integral part of the
-  product development process, no matter which stages your product is in. During
-  the product workshop, we will help you discover your product idea, set your
+description: >-
+  We believe that product workshops are an integral part of the product
+  development process, no matter which stages your product is in. During the
+  product workshop, we will help you discover your product idea, set your
   product goals, understand the pitfalls and find the solution on how to make
-  your product better. Our workshop team will adapt the workshop just for your
-  exclusive case and adjust the whole process for your individual needs. **Due
-  to the global pandemic situation, we offer online workshops as well.**
+  your product better. 
+
+
+  Our workshop team will adapt the workshop just for your exclusive case and adjust the whole process for your individual needs. **Due to the global pandemic situation, we offer online workshops as well.**
 button: let's talk
 button2: book workshop
 published: true
