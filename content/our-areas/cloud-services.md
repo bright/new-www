@@ -5,7 +5,7 @@ team_members:
   - michal k
   - michal-l
 faqs:
-  - agile workshop 1
+  - What benefits do cloud services offer?
 project:
   - bright-treasury
   - digitized-questionnaires
