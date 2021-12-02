@@ -42,8 +42,8 @@ description: >-
 
 
   Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
-button: let's talk
-button2: let's talk
+button: let's talk mobile
+button2: let's talk mobile
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -56,6 +56,8 @@ show case study: true
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill the form below, or drop us a line via **info@bright.dev**.
 ---
+## Mobile app development services
+
 As a mobile app development company, we specialise in iOS and Android software development.
 
 ## iOS app development & maintenance
