@@ -58,7 +58,7 @@ As a retail business, you probably need software compatible with ePOS. Our team 
 
 ### you represent the healthcare industry
 
-For our client vCare we have developed software that enables telemedicine. Our team have built software connecting with such devices as: Bluetooth thermometer, pulse oximeter and more.
+For our client [vCare](/projects/vCare/) we have developed software that enables telemedicine. Our team have built software connecting with such devices as: Bluetooth thermometer, pulse oximeter and more.
 
 ### you represent the fintech industry
 
