@@ -3,7 +3,7 @@ team_members:
   - alisa
   - kasia
   - mateusz
-  - piotr-a
+  - piotr
 faqs:
   - product workshop 1
   - product workshop 2
