@@ -60,13 +60,13 @@ description_contact: Tell us more about your mobile project or idea for an app.
 
 As a mobile app development company, we specialise in iOS and Android software development.
 
-## iOS app development & maintenance
+### iOS app development & maintenance
 
 If you want to create a native iOS app for Apple users, then you’re in great hands. Throughout the years, we’ve worked on iOS projects of all levels of complexity – from simple projects for startups and mid-sized companies to complex apps for well-established, global brands.
 
 Regardless of whether you’re looking to develop your app from scratch, or searching for a team to take over an existing app’s maintenance and further development – reach out. We might just be the perfect match!
 
-## Android app development & maintenance
+### Android app development & maintenance
 
 Our mobile app developers will help you build an impressive presence among Android device users. We’ve worked on building native apps at all stages of development – from ideation and app design to launching and maintaining your app on Google Play store.
 
