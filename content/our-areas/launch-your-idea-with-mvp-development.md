@@ -63,7 +63,7 @@ MVPs aren’t reserved only for startups. They can be the right solution for gre
 
 ### you represent a consultancy agency
 
-Do you want to develop MVPs to distribute them to your clients? We are happy to assist you. We bring to the table **10 years of experience in software development**. Our custom software development approach based on Agile methodologies will result in developing high-quality MVPs.
+Do you want to develop MVPs to distribute them to your clients? We are happy to assist you. We bring to the table **years of experience in software development**. Our custom software development approach based on Agile methodologies will result in developing high-quality MVPs.
 
 ### you have an idea for a solution and want to verify its potential
 
