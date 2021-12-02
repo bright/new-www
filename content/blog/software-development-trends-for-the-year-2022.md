@@ -27,6 +27,8 @@ The level of abstraction can blow our minds if we look at how backend systems ar
 
 In my view, that is just the beginning of the abstraction that we will experience. As a result, serverless is changing the character of the DevOps job. I do not claim that we will not need DevOps anymore. Yet it is becoming a part of the developers’ duties to configure cloud services on their own. So exploring AWS or Azure solutions is a must and it will be expected from backend developers in 2022. If you are a developer and you think that AWS or Azure does not concern you, you can fall behind.
 
+Read another blog post to see how these changes are seen from [DevOps perspective](/blog/road-to-devops-how-tools-like-aws-cdk-help-with-devops-transition/).
+
 ## Saying goodbye to the project management before COVID-19
 
 [Kasia – Senior Project Management](/about-us/kasia/):
