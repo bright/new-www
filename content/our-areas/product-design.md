@@ -32,8 +32,8 @@ description: >-
 
 
   We have worked on design projects of all sizes – from simple mobile apps to scalable enterprise software systems. We’ll happily discuss how we can turn your idea or design brief into a polished final product, optimized for all devices and platforms.
-button: let's talk
-button2: let’s design your product
+button: let's talk design
+button2: let’s talk design
 published: true
 show_case_study: true
 show_technology_stack: true
