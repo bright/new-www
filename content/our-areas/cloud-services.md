@@ -4,10 +4,6 @@ team_members:
   - michal-lem
   - michal k
   - michal-l
-  - patryk sz
-  - piotr-a
-  - maciej-n
-  - kasia g
 faqs:
   - agile workshop 1
 project:
