@@ -17,7 +17,7 @@ published: true
 ---
 **We are heading into the year 2022, so it is time to discuss hot trends and perspectives for the whole industry. Let’s look at 2022 software development trends from 3 different perspectives: software developer’s, project manager’s and product designer’s.**
 
-![](/images/tech_trends.jpg)
+![tech trends](/images/tech_trends.jpg)
 
 ## Serverless is more and developers are (almost) the new DevOps
 
