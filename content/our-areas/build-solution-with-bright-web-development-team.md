@@ -45,8 +45,8 @@ description: >-
 
 
   If you are looking for a web development company, you’ve come to the right place!
-button: let’s talk
-button2: let’s talk
+button: let’s talk web
+button2: let’s talk web
 published: true
 show_case_study: true
 show_technology_stack: true
