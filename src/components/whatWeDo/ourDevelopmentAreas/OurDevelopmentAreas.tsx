@@ -38,6 +38,7 @@ const OurDevelopmentAreas = () => {
                   alt={service.title}
                   className='about-img'
                   imgClassName='image'
+                  backgroundColor='#fff'
                 />
                 <Title>{service.name}</Title>
               </SectionTitleContainer>
@@ -60,7 +61,7 @@ const GQL = graphql`
             name
             our_services_icon {
               childImageSharp {
-                gatsbyImageData(height: 100)
+                gatsbyImageData(height: 100, placeholder: TRACED_SVG)
               }
             }
           }

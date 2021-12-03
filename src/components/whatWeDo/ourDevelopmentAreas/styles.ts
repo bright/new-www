@@ -3,6 +3,7 @@ import { TextRegular, TextTitle } from '../../shared'
 import variables from '../../../styles/variables'
 import { Link } from 'gatsby'
 import { pxToRem } from './../../../styles/variables'
+import { TitleBase } from '../../shared/index.styled'
 
 export const DevelopmentAreasWrapper = styled.div({
   display: 'flex',
@@ -17,17 +18,6 @@ export const DevelopmentAreasContainer = styled.div({
   flexDirection: 'row',
   flexWrap: 'wrap',
   maxWidth: '1344px',
-})
-
-export const Title = styled(TextTitle)({
-  marginTop: '36px',
-  marginBottom: '54px',
-  fontSize: '22px',
-  lineHeight: '27px',
-
-  [`@media screen and (max-width: 767px)`]: {
-    marginTop: '30px',
-  },
 })
 
 export const SectionText = styled(TextRegular)({
@@ -65,17 +55,18 @@ export const DevelopmentAreaContainer = styled.div`
 
   & p {
     font-family: ${variables.font.customtext.lato};
-    font-size: ${variables.pxToRem(22)};
-    line-height: ${variables.pxToRem(40)};
+    font-size: ${variables.pxToRem(18)};
+    line-height: ${variables.pxToRem(32)};
     color: #000000;
     opacity: 0.75;
   }
 
   @media ${variables.device.tablet} {
     flex-basis: 100%;
+    margin-top: ${variables.pxToRem(16)};
     & p {
-      font-size: ${variables.pxToRem(18)};
-      line-height: ${variables.pxToRem(32)};
+      font-size: ${variables.pxToRem(16)};
+      line-height: ${variables.pxToRem(28)};
     }
   }
 `
@@ -90,5 +81,20 @@ export const SectionTitleContainer = styled.div`
         width: auto;
       }
     }
+  }
+`
+export const Title = styled.h2`
+  ${TitleBase};
+  margin-top: ${variables.pxToRem(36)};
+  margin-bottom: ${variables.pxToRem(54)};
+  font-size: ${variables.pxToRem(22)};
+  line-height: ${variables.pxToRem(27)};
+
+  @media ${variables.device.tablet} {
+    margin-top: ${variables.pxToRem(30)};
+    font-size: ${variables.pxToRem(16)};
+    line-height: ${variables.pxToRem(19)};
+    margin-top: ${variables.pxToRem(24)};
+    margin-bottom: ${variables.pxToRem(24)};
   }
 `
