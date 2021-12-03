@@ -17,18 +17,17 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
         title='What We Offer'
         description='We specialise in Mobile App Development, IoT Development, Blockchain and Product Design. Contact us!'
       />
-      <HideTablet>
-        <CustomSection paddingProps='3.3125rem 0  2.125rem'>
-          <CustomPageTitle>our services</CustomPageTitle>
-        </CustomSection>
-        <CustomSection>
-          <CustomPageDescription>
-            We offer custom software development for organizations of all shapes and sizes – from emerging startups,
-            mid-sized companies and consultancy agencies, to renowned NGOs and international organizations. Our clients
-            come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
-          </CustomPageDescription>
-        </CustomSection>
-      </HideTablet>
+
+      <CustomSection paddingProps='3.3125rem 0  3rem'>
+        <CustomPageTitle>our services</CustomPageTitle>
+      </CustomSection>
+      <CustomSection>
+        <CustomPageDescription>
+          We offer custom software development for organizations of all shapes and sizes – from emerging startups,
+          mid-sized companies and consultancy agencies, to renowned NGOs and international organizations. Our clients
+          come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
+        </CustomPageDescription>
+      </CustomSection>
 
       <OurDevelopmentAreas />
       <Banners />
