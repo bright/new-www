@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { useWindowSize } from '../components/utils/use-windowsize'
 import { Contact } from '../components/shared/Contact'
 import { TechnologyTags } from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
@@ -23,11 +24,22 @@ import { BlackButton } from '../components/about-us/about-us.styled'
 import ReactMarkdown from 'react-markdown'
 
 const CustomSectionOurService = styled(CustomSection)`
-  padding-top: ${variables.pxToRem(26)};
+  padding-top: ${variables.pxToRem(48)};
+  padding-bottom: ${variables.pxToRem(70)};
 
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tablet} {
+    padding-top: ${variables.pxToRem(48)};
+    padding-bottom: ${variables.pxToRem(44)};
     && h1 {
-      text-align: center;
+      text-align: left;
+      position: relative;
+      margin-left: ${variables.pxToRem(49)};
+      &::before {
+        content: url(/images/arrow-back-orange.svg);
+        position: absolute;
+        top: 0;
+        left: ${variables.pxToRem(-49)};
+      }
     }
   }
 `
@@ -35,7 +47,24 @@ const CustomSectionOurService = styled(CustomSection)`
 const Section = styled.section`
   padding: 0 0 ${variables.pxToRem(186)};
   color: #131214;
-  @media ${variables.device.mobile} {
+  & .content {
+    font-size: ${variables.pxToRem(22)};
+    line-height: ${variables.pxToRem(40)};
+
+    & img {
+      opacity: 1;
+    }
+    & li {
+      opacity: 0.75;
+      margin-bottom: 1em;
+      @media ${variables.device.tablet} {
+        opacity: 1;
+        font-size: ${variables.pxToRem(16)};
+        line-height: ${variables.pxToRem(28)};
+      }
+    }
+  }
+  @media ${variables.device.tablet} {
     padding: 0 0 ${variables.pxToRem(82)};
   }
 `
@@ -55,8 +84,11 @@ const Content = styled.div`
     & :first-of-type {
       margin: 0 0 ${variables.pxToRem(36)};
     }
-    @media ${variables.device.mobile} {
+    @media ${variables.device.tablet} {
       font-size: ${variables.pxToRem(22)};
+      line-height: ${variables.pxToRem(27)};
+      color: #000;
+      text-align: center;
       & :first-of-type {
         margin: ${variables.pxToRem(82)} 0 ${variables.pxToRem(36)};
       }
@@ -67,11 +99,31 @@ const Content = styled.div`
     color: #131214;
     font-weight: 600;
     line-height: ${variables.pxToRem(40)};
-    @media ${variables.device.mobile} {
+
+    @media ${variables.device.tablet} {
       font-size: ${variables.pxToRem(18)};
       font-weight: 800;
       line-height: ${variables.pxToRem(30)};
+      color: #000;
+      position: relative;
+      margin-left: 18px;
+
+      & ::before {
+        position: absolute;
+        left: -18px;
+        top: 0;
+        content: url(/images/dot.svg);
+        color: #000;
+        font-weight: bold;
+        width: 11px;
+        height: 11px;
+        margin-right: 13px;
+      }
     }
+  }
+  & strong {
+    color: #131214;
+    opacity: 1;
   }
   && p {
     font-size: ${variables.pxToRem(22)};
@@ -86,6 +138,12 @@ const Content = styled.div`
       opacity: 1;
       font-weight: 900;
     }
+    @media ${variables.device.tablet} {
+      font-size: ${variables.pxToRem(16)};
+      line-height: ${variables.pxToRem(28)};
+      color: #000;
+      opacity: 1;
+    }
   }
 `
 const FaqWrapper = styled.div`
@@ -97,27 +155,52 @@ export const Question = styled.h3<{ shown: boolean }>`
   align-items: center;
   justify-content: space-between;
   text-align: left;
-  font: normal normal 900 ${variables.pxToRem(32)} / ${variables.pxToRem(40)} Lato;
+  font: normal normal 700 ${variables.pxToRem(26)} / ${variables.pxToRem(40)} Lato;
   letter-spacing: 0px;
   color: #000000;
   padding: ${variables.pxToRem(35)} 0;
   cursor: pointer;
+  p {
+    flex-basis: 90%;
+  }
+
   & span img {
     ${({ shown }) => (shown ? 'transform: rotate(180deg)' : 'transform: rotate(0deg)')};
   }
-  @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(20)};
+  @media ${variables.device.tablet} {
+    font-size: ${variables.pxToRem(18)};
+    line-height: ${variables.pxToRem(30)};
     padding: ${variables.pxToRem(18)} 0;
   }
 `
 const FaqsTextRegural = styled(CustomTextRegular)`
+  font-size: ${variables.pxToRem(22)};
   padding-bottom: ${variables.pxToRem(36)};
+  color: #000000;
+  opacity: 1;
+  & strong {
+    color: #131214;
+  }
+  & li {
+    margin-bottom: 1em;
+    font-size: ${variables.pxToRem(22)};
+  }
+  && p {
+    font-size: ${variables.pxToRem(22)};
+  }
 
-  @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(16)};
-    line-height: ${variables.pxToRem(28)};
+  @media ${variables.device.tablet} {
     padding-bottom: ${variables.pxToRem(18)};
     padding-top: ${variables.pxToRem(6)};
+    & li {
+      margin-bottom: 1em;
+      font-size: ${variables.pxToRem(16)};
+      line-height: ${variables.pxToRem(28)};
+    }
+    && p {
+      font-size: ${variables.pxToRem(16)};
+      line-height: ${variables.pxToRem(28)};
+    }
   }
 `
 
@@ -128,7 +211,7 @@ const BlackButtonOurService = styled(BlackButton)`
   justify-content: center;
   text-align: center;
 
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tablet} {
     margin-top: ${variables.pxToRem(64)};
   }
 `
@@ -144,6 +227,9 @@ export default function Template({ data }: any) {
   const { frontmatter: page, html } = markdownRemark
   const image = getImage(page.image_our_service)
   data.markdownRemark.frontmatter
+
+  const { width } = useWindowSize()
+  const breakpoint = 991
 
   const [show, setShow] = useState<any>({})
 
@@ -177,7 +263,13 @@ export default function Template({ data }: any) {
         {Object.keys(faqSchema).length && <script type='application/ld+json'>{JSON.stringify(faqSchema)}</script>}
       </HelmetTitleDescription>
       <CustomSectionOurService>
-        <CustomPageTitle>{page.title}</CustomPageTitle>
+        {width <= breakpoint ? (
+          <Link to={routeLinks.whatWeOffer}>
+            <CustomPageTitle>{page.title}</CustomPageTitle>
+          </Link>
+        ) : (
+          <CustomPageTitle>{page.title}</CustomPageTitle>
+        )}
       </CustomSectionOurService>
       <ImageWrapper>
         <GatsbyImage image={image} alt={page.image_alt_our_service} className='about-img' quality='100' />
@@ -186,7 +278,7 @@ export default function Template({ data }: any) {
         <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
           <CustomSectionInner>
             <TextRegular className='content'>
-              <Content>
+              <Content isColor='#000' isOpacity='1'>
                 <ReactMarkdown children={page.description} />
               </Content>
             </TextRegular>
@@ -206,7 +298,7 @@ export default function Template({ data }: any) {
       <CustomSection paddingProps='0 15rem 0 15rem' paddingMobileProps='0 1.125rem 1rem'>
         <Section>
           <CustomSectionInner>
-            <Content dangerouslySetInnerHTML={{ __html: html }} />
+            <Content className='content' dangerouslySetInnerHTML={{ __html: html }} />
             <Link to={'#contactForm'}>
               <BlackButtonOurService>{page.button2}</BlackButtonOurService>
             </Link>
@@ -244,9 +336,9 @@ export default function Template({ data }: any) {
                   </>
                 )
               })}
-            <BlockSmall className='is-pulled-left'>
-              <ProjectsLink to={routeLinks.projects}>see all case studies</ProjectsLink>
-            </BlockSmall>
+            <ProjectsLink to={routeLinks.projects}>
+              <BlockSmall className='is-pulled-left'>see all case studies</BlockSmall>
+            </ProjectsLink>
           </div>
         </ProjectCustomSection>
       )}
@@ -280,7 +372,7 @@ export default function Template({ data }: any) {
                   ) : null}
 
                   {show[i] ? (
-                    <FaqsTextRegural>
+                    <FaqsTextRegural className='content'>
                       {' '}
                       <ReactMarkdown children={faq.answer} />
                     </FaqsTextRegural>

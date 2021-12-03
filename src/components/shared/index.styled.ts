@@ -133,11 +133,10 @@ export const CustomPageTitle = styled.h1`
     color: ${variables.color.primary};
   }
 
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tablet} {
     font-size: 2rem;
     font-weight: 900;
     line-height: 2.44rem;
-    text-align: left;
   }
 `
 export const CustomConstrainedWidthContainer = styled.div`
@@ -223,4 +222,8 @@ export const CustomPageDescription = styled(PageDescription)`
   line-height: ${variables.pxToRem(40)};
   color: #131214;
   opacity: 0.75;
+  @media ${variables.device.tablet} {
+    font-size: ${variables.pxToRem(16)};
+    line-height: ${variables.pxToRem(28)};
+  }
 `
