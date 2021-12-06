@@ -206,18 +206,29 @@ collections:
           label: 'Meta title',
           name: 'meta_title',
           widget: 'text',
-          pattern: ['^.{20,50}$', 'Must have no more than 50 characters'],
+          pattern: ['^.{0,50}$', 'Must have no more than 50 characters'],
         }
       - {
           label: 'Meta description',
           name: 'meta_description',
           widget: 'text',
-          pattern: ['^.{20,160}$', 'Must have no more than 160 characters'],
+          pattern: ['^.{0,160}$', 'Must have no more than 160 characters'],
         }
       - { label: 'Our services icon', name: 'our_services_icon', widget: 'image' }
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Short Description', name: 'short_description', widget: 'markdown' }
+      - {
+          label: 'Order',
+          name: 'order',
+          widget: 'number',
+          required: false,
+          valueType: 'int',
+          min: 1,
+          step: 1,
+          default: 1,
+        }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Intro', name: 'intro', widget: 'string' }
       - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
       - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
       - { label: 'Description', name: 'description', widget: 'markdown' }
