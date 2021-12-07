@@ -10,7 +10,7 @@ tags:
 date: 2021-12-07T09:21:09.437Z
 title: BrightTreasury is now LIVE
 layout: post
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
