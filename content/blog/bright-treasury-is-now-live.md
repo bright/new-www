@@ -65,4 +65,4 @@ We are currently finishing Milestone 3 which is focused on Bounties mechanism. U
 
 We can’t wait to show you the ready product soon. We hope you will enjoy using BrightTreasury and that it will become an important part of Polkadot and Kusama communities. 
 
-We would greatly appreciate your feedback. Let us know what you think! And if you encounter any issues, please do not hesitate to inform us via github
+We would greatly appreciate your feedback. Let us know what you think! And if you encounter any issues, please do not hesitate to inform us via [github](https://github.com/bright/bright-tresury/issues).
