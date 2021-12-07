@@ -27,7 +27,7 @@ We already wrote a blogpost about the app when our Milestone 1 was accepted so p
 
 ![](https://lh4.googleusercontent.com/YHLnXFWM1CPpI4lSYNXXjsPyHGNMfTcVQrHqShN2I4faQN46a419CcrYMOsntwV_UXq5g6Pv1po8Ofo9H8GGxd1C5Rb427B0oC_jeQpwVCky5uzUwkHGuPXT8okQuFk9BWogMkNx)
 
-Bright Treasury is a standalone web application along with a PWA representation that allows performing basic actions on the Treasury module of Polkadot and Kusama Substrate networks. It allows a more intuitive and lightweight flow of submitting proposals as well as an overview of the Treasury related actions. Until now, the Treasury module has been only available as a part of the general network management tool. We believe that by introducing a dedicated app with a user-friendly interface, we will be able to attract more creative blockchain enthusiasts to apply for Treasury funds for their projects. 
+Bright Treasury is a standalone web application along with a PWA representation that allows performing basic actions on the Treasury module of [Polkadot](https://polkadot.network/) and [Kusama](https://kusama.network/) Substrate networks. It allows a more intuitive and lightweight flow of submitting proposals as well as an overview of the Treasury related actions. Until now, the Treasury module has been only available as a part of the general network management tool. We believe that by introducing a dedicated app with a user-friendly interface, we will be able to attract more creative blockchain enthusiasts to apply for Treasury funds for their projects. 
 
 ## How to use BrightTreasury
 
@@ -35,7 +35,7 @@ Would you like to know more about how and when you might want to use Bright Trea
 
 ### 1. If you have an idea...
 
-The first step is to have an idea for an activity that might contribute to the Polkadot or Kusama networks community. Maybe one that would benefit both? If you have something in mind, then go on, show others what you came up with. Go to [treasury.bright.dev](https://treasury.bright.dev) and create an account. You can sign up using your email address or your Web3 blockchain account if you already have one. If you don’t, no worries, you can always add it later to your email based account in the settings page. 
+The first step is to have an idea for an activity that might contribute to the Polkadot or Kusama networks community. Maybe one that would benefit both? If you have something in mind, then go on, show others what you came up with. Go to [treasury.bright.dev](https://treasury.bright.dev) and create an account. You can sign up using your email address or your Web3 blockchain account (with [polkadot extension](https://polkadot.js.org/extension/)) if you already have one. If you don’t, no worries, you can always add it later to your email based account in the settings page. 
 
 Second step is to present your idea to the network’s community. Just click the “+Introduce Idea” button and try to give as many details about your idea as possible. It might be good to divide your planned activities into milestones, so it’s clear what is the schedule that you foresee. Need more time to work on the description? Save your idea as a draft and publish it whenever you feel ready. 
 
