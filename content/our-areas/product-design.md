@@ -21,7 +21,9 @@ name: product design
 short_description: You can count on our expertise in interface analysis,
   animation design, UX and UI design, root cause analysis, and more. We have
   worked on design projects of all sizes.
+order: 5
 title: embrace your idea with product design
+intro: Every software needs a design touch.
 image_our_service: /images/productdesign_small.png
 image_alt_our_service: product design
 description: >-
