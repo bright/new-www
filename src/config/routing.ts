@@ -1,5 +1,5 @@
 export const routeLinks = {
-  aboutUs(params?: { authorId: string, slug: string | undefined } | { page: 'story' | 'values' | 'team' }) {
+  aboutUs(params?: { authorId: string; slug: string | undefined } | { page: 'story' | 'values' | 'team' }) {
     if (!params) {
       return `/about-us/story/`
     }
@@ -8,7 +8,7 @@ export const routeLinks = {
     }
     return `/about-us/${params.page}/`
   },
-  blogTags(params?: { tag: string } ) {
+  blogTags(params?: { tag: string }) {
     if (!params) {
       return `/blog/`
     }
@@ -17,11 +17,19 @@ export const routeLinks = {
     }
     return `/blog/${params.tag}/`
   },
+  ourAreas(params?: { service: string; faqTitle: string }) {
+    if (!params) {
+      return `/our-areas/`
+    }
+    if ('faqTitle' in params) {
+      return `/our-areas/${params.service}/${params.faqTitle ?? ''}/`
+    }
+    return `/our-areas/`
+  },
   whatWeOffer: '/what-we-offer',
   projects: '/projects',
   career: '/career',
   blog: '/blog',
-  blog1: '/blog/:xd/:xs',
   jobs: '/jobs',
   startProject: '/start-project',
   privacyPolicy: '/privacy-policy',
