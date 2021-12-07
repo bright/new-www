@@ -207,8 +207,8 @@ export const CustomTextRegular = styled.div`
   line-height: 2.5rem;
   opacity: 0.75;
 `
-export const CustomSectionInner = styled(SectionInner)`
-  max-width: 800px;
+export const CustomSectionInner = styled(SectionInner)<{ maxWidth?: string }>`
+  max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : '800px')};
 
   @media ${variables.device.laptop} {
     max-width: 745px;
