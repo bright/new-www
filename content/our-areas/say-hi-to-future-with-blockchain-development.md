@@ -36,7 +36,9 @@ name: blockchain development
 short_description: Our team has a vast experience in blockchain projects based
   on Ethereum and Substrate blockchain. Blockchain technology is what we’re
   really good at!
+order: 3
 title: build future with blockchain development
+intro: We are blockchain experts ready to assist you.
 image_our_service: /images/blockchain_development_small.png
 image_alt_our_service: blockchain development
 description: We are a software development company that **specialises in
