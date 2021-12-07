@@ -53,7 +53,10 @@ const OurDevelopmentAreas = () => {
 
 const GQL = graphql`
   {
-    allMarkdownRemark(filter: { frontmatter: { layout: { eq: "our-service" } } }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { layout: { eq: "our-service" } } }
+      sort: { order: ASC, fields: frontmatter___order }
+    ) {
       edges {
         node {
           frontmatter {
