@@ -8,7 +8,7 @@ tags:
   - W3F
   - BrightTreasury
 date: 2021-12-07T09:21:09.437Z
-title: Bright Treasury is now LIVE
+title: BrightTreasury is now LIVE
 layout: post
 hidden: false
 comments: true
