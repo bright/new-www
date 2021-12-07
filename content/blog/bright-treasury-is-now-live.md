@@ -19,7 +19,7 @@ published: true
 
 Bright Treasury is a web application that helps you to apply for Polkadot and Kusama Treasury funds in an easy and intuitive way. We want to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. It's been funded by [Web3 Foundation (W3F) grants program](https://web3.foundation/grants/).
 
-Now you can use Milestone 1 and Milestone 2 features at: [treasury.bright.dev](https://treasury.bright.dev/). This means that all the operations concerning Ideas and Proposals are ready to use! 
+**Now you can use Milestone 1 and Milestone 2 features at: [treasury.bright.dev](https://treasury.bright.dev/) 🎉** This means that all the operations concerning Ideas and Proposals are ready to use! 
 
 ## What is BrightTreasury
 
