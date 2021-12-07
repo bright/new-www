@@ -263,6 +263,7 @@ export const pageQuery = graphql`
                 gatsbyImageData
               }
             }
+            slug
           }
         }
         meta_title
