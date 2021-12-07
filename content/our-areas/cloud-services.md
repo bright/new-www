@@ -20,7 +20,7 @@ short_description: We are experts in AWS cloud development. We build cloud
   applications and help with cloud migration.
 order: 10
 title: join the future with cloud computing services
-intro: Reduce costs with cloud computing company.
+intro: Improve security with cloud computing company.
 image_our_service: /images/cloudservices1.png
 image_alt_our_service: cloud computing services
 description: Join the serverless movement. Improve security and reduce costs
