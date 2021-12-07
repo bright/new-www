@@ -28,8 +28,8 @@ description: Join the serverless movement. Improve security and reduce costs
   cloud application from the scratch. As an AWS cloud services provider, we will
   assist you every step of the way. Since 2012 we have developed applications in
   the cloud for startups and mid-sized organisations.
-button: let's talk
-button2: let's talk
+button: let's talk cloud
+button2: let's talk cloud
 published: true
 show_case_study: true
 show_technology_stack: true
