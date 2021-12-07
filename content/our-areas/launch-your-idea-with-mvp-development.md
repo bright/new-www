@@ -31,7 +31,9 @@ our_services_icon: /images/mvp_development.png
 name: MVP development
 short_description: Build an MVP to shorten time to market. We’ve developed MVPs
   for startups, NGOs and consulting agencies. Let’s work on your MVP.
+order: 4
 title: launch your idea with MVP development
+intro: We are an experienced MVP partner ready to assist you.
 image_our_service: /images/mvp_development_small.png
 image_alt_our_service: mvp development company
 description: Do you want to build an MVP? You came to the right place. We’ve
