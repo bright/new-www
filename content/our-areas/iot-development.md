@@ -34,8 +34,8 @@ description: We are Bright Inventions – a software development company
   restaurants, retail, eHealth and fintech industries. Since 2012 we have
   developed software for more than 40 clients from the USA, the UK, Norway,
   Israel and more.
-button: let's discuss IoT
-button2: let's discuss IoT
+button: let's talk IoT
+button2: let's talk IoT
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -58,7 +58,7 @@ As a retail business, you probably need software compatible with ePOS. Our team 
 
 ### you represent the healthcare industry
 
-For our client vCare we have developed software that enables telemedicine. Our team have built software connecting with such devices as: Bluetooth thermometer, pulse oximeter and more.
+For our client [vCare](/projects/vCare/) we have developed software that enables telemedicine. Our team have built software connecting with such devices as: Bluetooth thermometer, pulse oximeter and more.
 
 ### you represent the fintech industry
 

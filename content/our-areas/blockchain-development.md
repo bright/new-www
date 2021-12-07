@@ -43,8 +43,8 @@ description: We are a software development company that **specialises in
   blockchain technology**. Blockchain is a groundbreaking technology that goes
   far beyond cryptocurrency services. Tell us more about your blockchain project
   and we will let you know how we can assist you.
-button: let's build blockchain
-button2: let's build blockchain
+button: let's talk blockchain
+button2: let's talk blockchain
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -61,4 +61,4 @@ We specialize in integrating web and mobile apps with blockchain solutions. For 
 
 ### Bright Treasury
 
-Bright Treasury is our original product supporting the blockchain community. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is a part of the Web3 Foundation (W3F) grants program. The goal of our product is to make blockchain accessible to more users.
+[Bright Treasury](/projects/bright-treasury/) is our original product supporting the blockchain community. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is a part of the Web3 Foundation (W3F) grants program. The goal of our product is to make blockchain accessible to more users.

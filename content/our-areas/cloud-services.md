@@ -4,12 +4,8 @@ team_members:
   - michal-lem
   - michal k
   - michal-l
-  - patryk sz
-  - piotr-a
-  - maciej-n
-  - kasia g
 faqs:
-  - agile workshop 1
+  - What benefits do cloud services offer?
 project:
   - bright-treasury
   - digitized-questionnaires
@@ -39,11 +35,8 @@ title_team: meet our cloud computing team
 title_case_study: cloud services projects we have worked on
 title_faqs: cloud services FAQs
 title_contact: let’s talk about your cloud solution
-description_contact: >-
-  ## AWS cloud services
-
-
-  As a cloud development company we closely cooperate with Amazon Web Services using the top tools Amazon has to offer. We specialised in AWS Lambda which enables serverless developments where instead of traditional serval administration you pay only for functions you use.
+description_contact: Are you looking for a cloud computing company? Fill the
+  form below, or drop us a line via info@bright.dev.
 ---
 ## AWS cloud services
 
