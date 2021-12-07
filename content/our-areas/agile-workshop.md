@@ -31,7 +31,9 @@ name: agile workshops
 short_description: We will organise Agile workshops for you and your team and
   help you quickly get a grasp of what this leading project management
   methodology brings to the table.
+order: 7
 title: build a strong team with Agile workshops
+intro: We have used Agile to build over 50 projects.
 image_our_service: /images/agile_workshops_small.png
 image_alt_our_service: agile workshops
 description: We live and breathe Agile. For almost a decade we have used Agile
@@ -64,7 +66,7 @@ description_contact: Every workshop is adjusted to clients needs. Just let us
 
 Katarzyna Łukasiewicz is a determined and passionate Agile Coach with **over ten years of experience in teaching and mentoring** individuals as well as organisations based on Agile principles. She graduated from Gdańsk University of Technology with a PhD in “Method of selecting programming practices for the safety-critical software development projects”.
 
-![kasia łukasiewicz agile coach](/images/kasia_agile_coach.png)
+![kasia łukasiewicz agile coach](/images/kasia_agile_coach_bright_inventions.png)
 
 She is actively involved in the Agile community through her participation, publications or speaking events. As a member of the academic community she teaches future software developers and PMs about best practices in software development projects.
 

@@ -33,7 +33,9 @@ name: custom software development
 short_description: Our custom software serves the unique processes of your
   business, solves particular problems and makes your workflows more efficient.
   We will help you throughout all of the software delivery phases.
+order: 8
 title: be unique with custom software development
+intro: We help to address your clients needs.
 image_our_service: /images/customsoftwaredevelopment_small.png
 image_alt_our_service: custom software development
 description: Every business is unique. Bespoke software development can truly
