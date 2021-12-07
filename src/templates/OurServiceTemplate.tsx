@@ -1,232 +1,57 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
 import { useWindowSize } from '../components/utils/use-windowsize'
 import { Contact } from '../components/shared/Contact'
 import { TechnologyTags } from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
-import { graphql, Link } from 'gatsby'
+
 import {
   CustomPageTitle,
-  CustomTextRegular,
   CustomSectionInner,
   CustomSection,
   TextRegular,
   CustomSectionTitle,
+  Section,
 } from '../components/shared/index.styled'
-import styled from 'styled-components'
-import variables from '../styles/variables'
+
 import TeamMembers from './../components/subcomponents/TeamMembers'
 import SuccessStoryBox from '../components/home/SuccessStoryBox'
 import { BlockSmall, ProjectCustomSection, ProjectsLink } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
-import { BlackButton } from '../components/about-us/about-us.styled'
 import ReactMarkdown from 'react-markdown'
+import { kebabCase } from './../helpers/pathHelpers'
+import {
+  CustomSectionOurService,
+  ImageWrapper,
+  Content,
+  BlackButtonOurService,
+  FaqWrapper,
+  Question,
+  FaqsTextRegural,
+} from './styled/OurServiceTemplateStyled'
 
-const CustomSectionOurService = styled(CustomSection)`
-  padding-top: ${variables.pxToRem(48)};
-  padding-bottom: ${variables.pxToRem(70)};
-
-  @media ${variables.device.tablet} {
-    padding-top: ${variables.pxToRem(48)};
-    padding-bottom: ${variables.pxToRem(44)};
-    && h1 {
-      text-align: left;
-      position: relative;
-      margin-left: ${variables.pxToRem(49)};
-      &::before {
-        content: url(/images/arrow-back-orange.svg);
-        position: absolute;
-        top: 0;
-        left: ${variables.pxToRem(-49)};
-      }
-    }
-  }
-`
-
-const Section = styled.section`
-  padding: 0 0 ${variables.pxToRem(186)};
-  color: #131214;
-  & .content {
-    font-size: ${variables.pxToRem(22)};
-    line-height: ${variables.pxToRem(40)};
-
-    & img {
-      opacity: 1;
-    }
-    & li {
-      opacity: 0.75;
-      margin-bottom: 1em;
-      @media ${variables.device.tablet} {
-        opacity: 1;
-        font-size: ${variables.pxToRem(16)};
-        line-height: ${variables.pxToRem(28)};
-      }
-    }
-  }
-  @media ${variables.device.tablet} {
-    padding: 0 0 ${variables.pxToRem(82)};
-  }
-`
-const Content = styled.div`
-  && h2,
-  h3 {
-    margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
-    &:first-of-type {
-      margin-top: 0;
-    }
-  }
-  && h2 {
-    font-size: ${variables.pxToRem(32)};
-    color: #131214;
-    font-weight: 900;
-    line-height: ${variables.pxToRem(40)};
-    & :first-of-type {
-      margin: 0 0 ${variables.pxToRem(36)};
-    }
-    @media ${variables.device.tablet} {
-      font-size: ${variables.pxToRem(22)};
-      line-height: ${variables.pxToRem(27)};
-      color: #000;
-      text-align: center;
-      & :first-of-type {
-        margin: ${variables.pxToRem(82)} 0 ${variables.pxToRem(36)};
-      }
-    }
-  }
-  && h3 {
-    font-size: 2rem;
-    color: #131214;
-    font-weight: 600;
-    line-height: ${variables.pxToRem(40)};
-
-    @media ${variables.device.tablet} {
-      font-size: ${variables.pxToRem(18)};
-      font-weight: 800;
-      line-height: ${variables.pxToRem(30)};
-      color: #000;
-      position: relative;
-      margin-left: 18px;
-
-      & ::before {
-        position: absolute;
-        left: -18px;
-        top: 0;
-        content: url(/images/dot.svg);
-        color: #000;
-        font-weight: bold;
-        width: 11px;
-        height: 11px;
-        margin-right: 13px;
-      }
-    }
-  }
-  & strong {
-    color: #131214;
-    opacity: 1;
-  }
-  && p {
-    font-size: ${variables.pxToRem(22)};
-    line-height: ${variables.pxToRem(40)};
-    color: #131214;
-    opacity: 0.75;
-    font-family: ${variables.font.customtext.lato};
-    margin-bottom: ${variables.pxToRem(16)};
-
-    & span {
-      background-color: ${variables.color.primary};
-      opacity: 1;
-      font-weight: 900;
-    }
-    @media ${variables.device.tablet} {
-      font-size: ${variables.pxToRem(16)};
-      line-height: ${variables.pxToRem(28)};
-      color: #000;
-      opacity: 1;
-    }
-  }
-`
-const FaqWrapper = styled.div`
-  border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3;
-`
-export const Question = styled.h3<{ shown: boolean }>`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: left;
-  font: normal normal 700 ${variables.pxToRem(26)} / ${variables.pxToRem(40)} Lato;
-  letter-spacing: 0px;
-  color: #000000;
-  padding: ${variables.pxToRem(35)} 0;
-  cursor: pointer;
-  p {
-    flex-basis: 90%;
-  }
-
-  & span img {
-    ${({ shown }) => (shown ? 'transform: rotate(180deg)' : 'transform: rotate(0deg)')};
-  }
-  @media ${variables.device.tablet} {
-    font-size: ${variables.pxToRem(18)};
-    line-height: ${variables.pxToRem(30)};
-    padding: ${variables.pxToRem(18)} 0;
-  }
-`
-const FaqsTextRegural = styled(CustomTextRegular)`
-  font-size: ${variables.pxToRem(22)};
-  padding-bottom: ${variables.pxToRem(36)};
-  color: #000000;
-  opacity: 1;
-  & strong {
-    color: #131214;
-  }
-  & li {
-    margin-bottom: 1em;
-    font-size: ${variables.pxToRem(22)};
-  }
-  && p {
-    font-size: ${variables.pxToRem(22)};
-  }
-
-  @media ${variables.device.tablet} {
-    padding-bottom: ${variables.pxToRem(18)};
-    padding-top: ${variables.pxToRem(6)};
-    & li {
-      margin-bottom: 1em;
-      font-size: ${variables.pxToRem(16)};
-      line-height: ${variables.pxToRem(28)};
-    }
-    && p {
-      font-size: ${variables.pxToRem(16)};
-      line-height: ${variables.pxToRem(28)};
-    }
-  }
-`
-
-const BlackButtonOurService = styled(BlackButton)`
-  margin: 0 auto;
-  margin-top: ${variables.pxToRem(105)};
-  display: flex;
-  justify-content: center;
-  text-align: center;
-
-  @media ${variables.device.tablet} {
-    margin-top: ${variables.pxToRem(64)};
-  }
-`
-const ImageWrapper = styled.div`
-  && .about-img {
-    display: block;
-    margin: ${variables.pxToRem(30)} auto;
-  }
-`
-
-export default function Template({ data }: any) {
+export default function Template({ data, params }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
   const image = getImage(page.image_our_service)
-  data.markdownRemark.frontmatter
+  const myRef = useRef(null)
+  const faqTitle = params[Object.keys(params)[0]]
+
+  useEffect(() => {
+    if (faqTitle) {
+      const index = faqs.map(({ frontmatter: faq }: any) => kebabCase(faq.question)).indexOf(kebabCase(faqTitle))
+
+      if (index >= 0) {
+        handleShow(index)
+        const yOffset = -100
+        const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
+        window.scrollTo({ top: y })
+      }
+    }
+  }, [])
 
   const { width } = useWindowSize()
   const breakpoint = 991
@@ -234,11 +59,20 @@ export default function Template({ data }: any) {
   const [show, setShow] = useState<any>({})
 
   const handleShow = (i: number) => {
+    const ourAreasFaqLink = routeLinks.ourAreas({
+      service: kebabCase(name),
+      faqTitle: kebabCase(faqs[i].frontmatter.question),
+    })
+
+    window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
+
     setShow((prevshow: any) => ({
       ...prevshow,
       [i]: !prevshow[i],
     }))
   }
+
+  //TO DO MOVE TO FAQSTRUCTUREDDATA
   let faqSchema = {}
   const FAQ = data.markdownRemark.frontmatter.faqs.map(({ frontmatter }: any) => {
     const faq = frontmatter
@@ -256,43 +90,84 @@ export default function Template({ data }: any) {
     '@type': 'FAQPage',
     mainEntity: [FAQ],
   }
-  console.log(page.description)
+
+  const {
+    faqs,
+    name,
+    image_alt_our_service,
+    meta_title,
+    meta_description,
+    title,
+    description,
+    button,
+    title_team,
+    team_members,
+    button2,
+    show_technology_stack,
+    show_case_study,
+    title_case_study,
+    title_faqs,
+    title_contact,
+    description_contact,
+    intro,
+    project,
+  } = page
+
   return (
     <Page>
-      <HelmetTitleDescription title={page.meta_title} description={page.meta_description}>
+      <HelmetTitleDescription title={meta_title} description={meta_description}>
         {Object.keys(faqSchema).length && <script type='application/ld+json'>{JSON.stringify(faqSchema)}</script>}
       </HelmetTitleDescription>
       <CustomSectionOurService>
-        {width <= breakpoint ? (
-          <Link to={routeLinks.whatWeOffer}>
-            <CustomPageTitle>{page.title}</CustomPageTitle>
-          </Link>
-        ) : (
-          <CustomPageTitle>{page.title}</CustomPageTitle>
-        )}
+        <CustomSectionInner maxWidth='910px'>
+          {width <= breakpoint ? (
+            <Link to={routeLinks.whatWeOffer}>
+              <CustomPageTitle>{title}</CustomPageTitle>
+            </Link>
+          ) : (
+            <CustomPageTitle>{title}</CustomPageTitle>
+          )}
+        </CustomSectionInner>
       </CustomSectionOurService>
+      {width <= breakpoint ? (
+        <Link to={'#contactForm'}>
+          <BlackButtonOurService marginTopTablet='0'>{button}</BlackButtonOurService>
+        </Link>
+      ) : (
+        <CustomSection paddingProps='0 15rem 3.5rem '>
+          <CustomSectionInner maxWidth='956px'>
+            <TextRegular>
+              <Content textAlign='center'>{intro}</Content>
+            </TextRegular>
+            <Link to={'#contactForm'}>
+              <BlackButtonOurService>{button}</BlackButtonOurService>
+            </Link>
+          </CustomSectionInner>
+        </CustomSection>
+      )}
+
       <ImageWrapper>
-        <GatsbyImage image={image} alt={page.image_alt_our_service} className='about-img' quality='100' />
+        <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' quality='100' />
       </ImageWrapper>
       <Section>
         <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
           <CustomSectionInner>
             <TextRegular className='content'>
-              <Content isColor='#000' isOpacity='1'>
-                <ReactMarkdown children={page.description} />
+              <Content>
+                <ReactMarkdown children={description} />
               </Content>
             </TextRegular>
             <Link to={'#contactForm'}>
-              <BlackButtonOurService>{page.button}</BlackButtonOurService>
+              <BlackButtonOurService>{button}</BlackButtonOurService>
             </Link>
           </CustomSectionInner>
         </CustomSection>
       </Section>
       <CustomSection paddingProps='0 0 4rem' paddingMobileProps='0 1.125rem 1rem'>
         <CustomSectionTitle mobileMargin='0 0 4rem' margin='0rem 0 6.5625rem '>
-          {page.title_team}
+          {title_team}
         </CustomSectionTitle>
-        <TeamMembers authorIdsArray={page.team_members} isOurServiceTemplate={true} />
+        <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />
       </CustomSection>
 
       <CustomSection paddingProps='0 15rem 0 15rem' paddingMobileProps='0 1.125rem 1rem'>
@@ -300,16 +175,16 @@ export default function Template({ data }: any) {
           <CustomSectionInner>
             <Content className='content' dangerouslySetInnerHTML={{ __html: html }} />
             <Link to={'#contactForm'}>
-              <BlackButtonOurService>{page.button2}</BlackButtonOurService>
+              <BlackButtonOurService>{button2}</BlackButtonOurService>
             </Link>
           </CustomSectionInner>
         </Section>
       </CustomSection>
 
-      {page.show_technology_stack && <TechnologyTags />}
-      {page.show_case_study && (
+      {show_technology_stack && <TechnologyTags />}
+      {show_case_study && (
         <ProjectCustomSection paddingMobileProps='0 1.125rem 0'>
-          <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{page.title_case_study}</CustomSectionTitle>
+          <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
           <div className='is-clearfix success-story-wrapper'>
             <BlockSmall className='is-pulled-right'>
               <span>visit our online portfolio:</span>
@@ -321,16 +196,16 @@ export default function Template({ data }: any) {
               </a>
             </BlockSmall>
 
-            {data.markdownRemark.frontmatter.project &&
-              data.markdownRemark.frontmatter.project.map(({ frontmatter }: any, i: number) => {
-                const project = frontmatter
+            {project &&
+              project.map(({ frontmatter }: any, i: number) => {
+                const { title, image, slug } = frontmatter
                 return (
                   <>
                     <SuccessStoryBox
                       key={i}
-                      title={project.title}
-                      image={project.image}
-                      slug={project.slug}
+                      title={title}
+                      image={image}
+                      slug={slug}
                       className={`is-pulled-${i % 2 ? 'right' : 'left'}`}
                     />
                   </>
@@ -345,25 +220,24 @@ export default function Template({ data }: any) {
 
       <CustomSection paddingProps='0rem 15rem 4rem 15rem' paddingMobileProps='0 1.125rem 0'>
         <CustomSectionInner>
-          {page.show_case_study ? (
+          {show_case_study ? (
             <CustomSectionTitle margin='0rem 0 6.5625rem ' mobileMargin='0 0 2.75rem '>
-              {page.title_faqs}
+              {title_faqs}
             </CustomSectionTitle>
           ) : (
             <CustomSectionTitle margin='11.625rem 0 6.5625rem ' mobileMargin='5.125rem 0 2.75rem '>
-              {page.title_faqs}
+              {title_faqs}
             </CustomSectionTitle>
           )}
 
-          {data.markdownRemark.frontmatter.faqs &&
-            data.markdownRemark.frontmatter.faqs.map(({ frontmatter }: any, i: number) => {
-              const faq = frontmatter
-
+          {faqs &&
+            faqs.map(({ frontmatter }: any, i: number) => {
+              const { question, answer } = frontmatter
               return (
-                <FaqWrapper key={faq.question}>
-                  {faq.answer ? (
+                <FaqWrapper ref={kebabCase(question) == kebabCase(faqTitle) ? myRef : null} key={question}>
+                  {answer ? (
                     <Question onClick={() => handleShow(i)} shown={show[i]}>
-                      <ReactMarkdown children={faq.question} />
+                      <ReactMarkdown children={question} />
 
                       <span>
                         <img src='/images/arrowFaqs.svg' alt='' />
@@ -374,7 +248,7 @@ export default function Template({ data }: any) {
                   {show[i] ? (
                     <FaqsTextRegural className='content'>
                       {' '}
-                      <ReactMarkdown children={faq.answer} />
+                      <ReactMarkdown children={answer} />
                     </FaqsTextRegural>
                   ) : null}
                 </FaqWrapper>
@@ -382,7 +256,7 @@ export default function Template({ data }: any) {
             })}
         </CustomSectionInner>
       </CustomSection>
-      <Contact title={page.title_contact} subtitle={page.description_contact} isOurServiceTemplate={true} />
+      <Contact title={title_contact} subtitle={description_contact} isOurServiceTemplate={true} />
     </Page>
   )
 }
@@ -412,6 +286,7 @@ export const pageQuery = graphql`
         meta_title
         meta_description
         title
+        intro
         description
         button
         button2
@@ -422,7 +297,7 @@ export const pageQuery = graphql`
         title_team
         title_contact
         description_contact
-        slug
+        name
         image_our_service {
           childImageSharp {
             gatsbyImageData
