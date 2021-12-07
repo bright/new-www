@@ -32,6 +32,7 @@ import {
   Question,
   FaqsTextRegural,
 } from './styled/OurServiceTemplateStyled'
+import { FaqStructuredData } from '../FaqStructuredData'
 
 export default function Template({ data, params }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -72,25 +73,6 @@ export default function Template({ data, params }: any) {
     }))
   }
 
-  //TO DO MOVE TO FAQSTRUCTUREDDATA
-  let faqSchema = {}
-  const FAQ = data.markdownRemark.frontmatter.faqs.map(({ frontmatter }: any) => {
-    const faq = frontmatter
-    return {
-      '@type': 'Question',
-      name: faq.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: faq.answer,
-      },
-    }
-  })
-  faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [FAQ],
-  }
-
   const {
     faqs,
     name,
@@ -115,9 +97,7 @@ export default function Template({ data, params }: any) {
 
   return (
     <Page>
-      <HelmetTitleDescription title={meta_title} description={meta_description}>
-        {Object.keys(faqSchema).length && <script type='application/ld+json'>{JSON.stringify(faqSchema)}</script>}
-      </HelmetTitleDescription>
+      <HelmetTitleDescription title={meta_title} description={meta_description} />
       <CustomSectionOurService>
         <CustomSectionInner maxWidth='910px'>
           {width <= breakpoint ? (
@@ -257,6 +237,8 @@ export default function Template({ data, params }: any) {
         </CustomSectionInner>
       </CustomSection>
       <Contact title={title_contact} subtitle={description_contact} isOurServiceTemplate={true} />
+
+      <FaqStructuredData faqs={faqs} />
     </Page>
   )
 }
