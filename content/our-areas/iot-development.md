@@ -26,7 +26,9 @@ our_services_icon: /images/iot_icon.png
 name: IoT development
 short_description: We specialise in the Internet of Things solutions. We build
   IoT software for restaurants, retail, eHealth and fintech industries.
+order: 9
 title: build innovation with IoT development
+intro: We develop IoT software for startups and larger organisations.
 image_our_service: /images/iot_development_1.png
 image_alt_our_service: IoT company
 description: We are Bright Inventions – a software development company
