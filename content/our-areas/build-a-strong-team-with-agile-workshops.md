@@ -33,7 +33,7 @@ short_description: We will organise Agile workshops for you and your team and
   methodology brings to the table.
 order: 6
 title: build a strong team with Agile workshops
-intro: We have used Agile to build over 40 projects.
+intro: We have used Agile to build over 50 projects.
 image_our_service: /images/agile_workshops_small.png
 image_alt_our_service: agile workshops
 description: We live and breathe Agile. For almost a decade we have used Agile
