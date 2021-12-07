@@ -27,7 +27,9 @@ name: product workshops
 short_description: We will help you discover your product idea, set your product
   goals, understand the pitfalls and find the solution on how to make your
   product better.
+order: 6
 title: make your software worthy with product workshops
+intro: We offer product workshops for startups and larger organisations.
 image_our_service: /images/productworkshops_small.png
 image_alt_our_service: product workshops
 description: >-
