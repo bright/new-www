@@ -3,7 +3,6 @@ import { StructuredData } from './StructuredData'
 import React, { useMemo } from 'react'
 
 export const FaqStructuredData = ({ faqs }: any) => {
-  console.log(faqs)
   const FAQ = faqs.map(({ frontmatter }: any) => {
     const { question, answer } = frontmatter
 
