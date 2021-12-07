@@ -136,7 +136,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   })
 
 
-  const preparePage = async (layout, path, template) => {
+  const preparePage = async (layout, path, template, hasParam) => {
     const result = await graphql(`
       {
         allMarkdownRemark(
@@ -177,15 +177,28 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       //     fileAbsolutePath: node.fileAbsolutePath,
       //   },
       // })
-      createPage({
-        path: path + "/" + (node.frontmatter.slug || name),
-        component: template,
-        context: {
-          // additional data can be passed via context
-          slug: node.frontmatter.slug,
-          fileAbsolutePath: node.fileAbsolutePath,
-        },
-      })
+      if(hasParam) {
+        createPage({
+          path: path + "/" + (node.frontmatter.slug || name) ,
+          matchPath: path + "/" + (node.frontmatter.slug || name) + "/*",
+          component: template,
+          context: {
+            slug:node.frontmatter.slug,
+            fileAbsolutePath: node.fileAbsolutePath,
+          },
+        })
+     
+      } else {
+        createPage({
+          path: path + "/" + (node.frontmatter.slug || name),
+          component: template,
+          context: {
+            // additional data can be passed via context
+            slug: node.frontmatter.slug,
+            fileAbsolutePath: node.fileAbsolutePath,
+          },
+        })
+      }
     })
   }
 
@@ -213,7 +226,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const ourServiceTemplate = require.resolve(
     `${__dirname}/src/templates/OurServiceTemplate.tsx`
   )
-  await preparePage("our-service", "our-areas", ourServiceTemplate)
+  await preparePage("our-service", "our-areas", ourServiceTemplate, true)
   
   createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
 }
