@@ -29,7 +29,7 @@ short_description: We will help you discover your product idea, set your product
   product better.
 order: 6
 title: make your software worthy with product workshops
-intro: Product workshops are a must have for every software creator.
+intro: We offer product workshops for startups and larger organisations.
 image_our_service: /images/productworkshops_small.png
 image_alt_our_service: product workshops
 description: >-
