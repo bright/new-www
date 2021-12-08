@@ -150,7 +150,13 @@ export const CustomConstrainedWidthContainer = styled.div`
     padding: 4rem 0 5rem 0;
   }
 `
-export const CustomSection = styled.section<{ paddingMobileProps?: string; paddingProps?: string }>`
+export const CustomSection = styled.section<{
+  paddingMobileProps?: string
+  paddingProps?: string
+  paddingLaptop?: string
+  paddingTabletXL?: string
+  paddingTablet?: string
+}>`
   color: ${variables.color.text};
   padding: ${({ paddingProps }) => (paddingProps ? paddingProps : '2rem 15rem 4rem 15rem')};
   @media ${variables.device.desktop} {
@@ -158,22 +164,22 @@ export const CustomSection = styled.section<{ paddingMobileProps?: string; paddi
   }
 
   @media ${variables.device.laptop} {
-    padding: 0rem 6rem 0rem;
+    padding: ${({ paddingLaptop }) => (paddingLaptop ? paddingLaptop : ' 0rem 6rem 0rem')};
   }
 
   @media ${variables.device.tabletXL} {
-    padding: 0rem 9rem 0rem;
+    padding: ${({ paddingTabletXL }) => (paddingTabletXL ? paddingTabletXL : ' 0rem 9rem 0rem')};
   }
 
   @media ${variables.device.tablet} {
-    padding: 0rem 2.25rem 0rem;
+    padding: ${({ paddingTablet }) => (paddingTablet ? paddingTablet : ' 0rem 2.25rem 0rem')};
   }
 
   @media ${variables.device.mobile} {
     padding: ${({ paddingMobileProps }) => (paddingMobileProps ? paddingMobileProps : '2rem 1.125rem 1rem')};
   }
 `
-export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: string }>`
+export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: string; laptopMargin?: string }>`
   ${TitleBase};
   font-size: 2.5rem;
   font-weight: 800;
@@ -185,7 +191,7 @@ export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: st
     font-size: 2.125rem;
     line-height: 2.625rem;
     font-weight: 900;
-    margin: 7.25rem 0 5.1875rem;
+    margin: ${({ laptopMargin }) => (laptopMargin ? laptopMargin : '7.25rem 0 5.1875rem')};
   }
 
   @media ${variables.device.mobile} {
@@ -217,8 +223,8 @@ export const CustomSectionInner = styled(SectionInner)<{ maxWidth?: string }>`
     max-width: 824px;
   }
 `
-export const CustomPageDescription = styled(PageDescription)`
-  font-size: ${variables.pxToRem(22)};
+export const CustomPageDescription = styled(PageDescription)<{ fontSize?: string }>`
+  font-size: ${({ fontSize }) => (fontSize ? fontSize : `${variables.pxToRem(22)} `)};
   line-height: ${variables.pxToRem(40)};
   color: #131214;
   opacity: 0.75;
