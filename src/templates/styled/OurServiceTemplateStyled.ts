@@ -10,17 +10,6 @@ export const CustomSectionOurService = styled(CustomSection)`
   @media ${variables.device.tablet} {
     padding-top: ${variables.pxToRem(48)};
     padding-bottom: ${variables.pxToRem(44)};
-    && h1 {
-      text-align: left;
-      position: relative;
-      margin-left: ${variables.pxToRem(49)};
-      &::before {
-        content: url(/images/arrow-back-orange.svg);
-        position: absolute;
-        top: 0;
-        left: ${variables.pxToRem(-49)};
-      }
-    }
   }
 `
 
@@ -138,7 +127,7 @@ export const Question = styled.h3<{ shown: boolean }>`
   align-items: center;
   justify-content: space-between;
   text-align: left;
-  font: normal normal 700 ${variables.pxToRem(26)} / ${variables.pxToRem(40)} Lato;
+  font: normal normal 700 ${variables.pxToRem(26)} / ${variables.pxToRem(40)} Montserrat;
   letter-spacing: 0px;
   color: #000000;
   padding: ${variables.pxToRem(35)} 0;

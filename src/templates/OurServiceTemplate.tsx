@@ -100,13 +100,7 @@ export default function Template({ data, params }: any) {
       <HelmetTitleDescription title={meta_title} description={meta_description} />
       <CustomSectionOurService>
         <CustomSectionInner maxWidth='910px'>
-          {width <= breakpoint ? (
-            <Link to={routeLinks.whatWeOffer}>
-              <CustomPageTitle>{title}</CustomPageTitle>
-            </Link>
-          ) : (
-            <CustomPageTitle>{title}</CustomPageTitle>
-          )}
+          <CustomPageTitle>{title}</CustomPageTitle>
         </CustomSectionInner>
       </CustomSectionOurService>
       {width <= breakpoint ? (
@@ -144,7 +138,7 @@ export default function Template({ data, params }: any) {
         </CustomSection>
       </Section>
       <CustomSection paddingProps='0 0 4rem' paddingMobileProps='0 1.125rem 1rem'>
-        <CustomSectionTitle mobileMargin='0 0 4rem' margin='0rem 0 6.5625rem '>
+        <CustomSectionTitle mobileMargin='0 0 4rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
         </CustomSectionTitle>
         <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />

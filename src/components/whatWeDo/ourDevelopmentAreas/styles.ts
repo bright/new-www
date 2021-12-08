@@ -75,10 +75,10 @@ export const SectionTitleContainer = styled.div`
   flex-direction: column;
   align-items: center;
   @media ${variables.device.tablet} {
-    & .about-img {
+    && .about-img {
+      max-height: ${variables.pxToRem(75)};
+      width: ${variables.pxToRem(75)};
       & .image {
-        max-height: ${variables.pxToRem(75)};
-        width: auto;
       }
     }
   }
