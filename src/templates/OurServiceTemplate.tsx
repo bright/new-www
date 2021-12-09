@@ -104,15 +104,10 @@ export default function Template({ data, params }: any) {
         </CustomSectionInner>
       </CustomSectionOurService>
       {width <= breakpoint ? (
-        <Link to={'#contactForm'}>
-          <BlackButtonOurService marginTopTablet='0'>{button}</BlackButtonOurService>
-        </Link>
+        <></>
       ) : (
         <CustomSection paddingProps='0 15rem 3.5rem '>
           <CustomSectionInner maxWidth='956px'>
-            <TextRegular>
-              <Content textAlign='center'>{intro}</Content>
-            </TextRegular>
             <Link to={'#contactForm'}>
               <BlackButtonOurService>{button}</BlackButtonOurService>
             </Link>
@@ -137,14 +132,14 @@ export default function Template({ data, params }: any) {
           </CustomSectionInner>
         </CustomSection>
       </Section>
-      <CustomSection paddingProps='0 0 4rem' paddingMobileProps='0 1.125rem 1rem'>
-        <CustomSectionTitle mobileMargin='0 0 4rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
+      <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
+        <CustomSectionTitle mobileMargin='3rem 0 0.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
         </CustomSectionTitle>
         <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />
       </CustomSection>
 
-      <CustomSection paddingProps='0 15rem 0 15rem' paddingMobileProps='0 1.125rem 1rem'>
+      <CustomSection paddingProps='0 15rem 5.625rem 15rem' paddingMobileProps='0 1.125rem 4rem'>
         <Section>
           <CustomSectionInner>
             <Content className='content' dangerouslySetInnerHTML={{ __html: html }} />
@@ -192,7 +187,7 @@ export default function Template({ data, params }: any) {
         </ProjectCustomSection>
       )}
 
-      <CustomSection paddingProps='0rem 15rem 4rem 15rem' paddingMobileProps='0 1.125rem 0'>
+      <CustomSection paddingProps='0rem 15rem 2rem 15rem' paddingMobileProps='0 1.125rem 0'>
         <CustomSectionInner>
           {show_case_study ? (
             <CustomSectionTitle margin='0rem 0 6.5625rem ' mobileMargin='0 0 2.75rem '>

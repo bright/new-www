@@ -5,7 +5,7 @@ import variables from '../../styles/variables'
 
 export const CustomSectionOurService = styled(CustomSection)`
   padding-top: ${variables.pxToRem(48)};
-  padding-bottom: ${variables.pxToRem(32)};
+  padding-bottom: 0;
 
   @media ${variables.device.tablet} {
     padding-top: ${variables.pxToRem(48)};
@@ -41,17 +41,12 @@ export const Content = styled.div<{ textAlign?: string }>`
   font-size: ${variables.pxToRem(22)};
   text-align: ${({ textAlign }) => (textAlign ? textAlign : 'left')};
   line-height: ${variables.pxToRem(40)};
-  && h2,
-  h3 {
-    margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
-    &:first-of-type {
-      margin-top: 0;
-    }
-  }
+
   && h2 {
     font-size: ${variables.pxToRem(32)};
     color: #131214;
     font-weight: 900;
+    margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
     line-height: ${variables.pxToRem(40)};
     & :first-of-type {
       margin: 0 0 ${variables.pxToRem(36)};
@@ -62,7 +57,7 @@ export const Content = styled.div<{ textAlign?: string }>`
       color: #000;
       text-align: center;
       & :first-of-type {
-        margin: ${variables.pxToRem(82)} 0 ${variables.pxToRem(36)};
+        margin: ${variables.pxToRem(32)} 0 ${variables.pxToRem(36)};
       }
     }
   }
@@ -71,26 +66,21 @@ export const Content = styled.div<{ textAlign?: string }>`
     color: #131214;
     font-weight: 600;
     line-height: ${variables.pxToRem(40)};
+    margin-top: 0;
+    margin: ${variables.pxToRem(80)} 0 ${variables.pxToRem(36)};
+
+    &&:first-of-type {
+      margin-top: 0;
+    }
 
     @media ${variables.device.tablet} {
+      margin: 0;
+      margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
       font-size: ${variables.pxToRem(18)};
       font-weight: 800;
       line-height: ${variables.pxToRem(30)};
       color: #000;
       position: relative;
-      margin-left: 18px;
-
-      & ::before {
-        position: absolute;
-        left: -18px;
-        top: 0;
-        content: url(/images/dot.svg);
-        color: #000;
-        font-weight: bold;
-        width: 11px;
-        height: 11px;
-        margin-right: 13px;
-      }
     }
   }
   & strong {
