@@ -227,6 +227,21 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
     }
   }
 `
+const OurServiceLink = styled(Link)`
+  text-align: center;
+  text-decoration: underline;
+  font: normal normal bold ${variables.pxToRem(18)} / ${variables.pxToRem(22)} Montserrat;
+  letter-spacing: 0px;
+  color: #0a0a0a;
+  opacity: 1;
+  padding-top: ${variables.pxToRem(104)};
+  & :hover {
+    color: ${variables.color.primary};
+  }
+  @media ${variables.device.tablet} {
+    padding-top: ${variables.pxToRem(65)};
+  }
+`
 
 interface TeamMembersProps {
   authorIdsArray?: string[]
@@ -238,14 +253,6 @@ const TeamMembers = ({ authorIdsArray, isOurServiceTemplate = false }: TeamMembe
   const members = useAuthors({ authorIdsArray })
   const initNumber = width <= 581 ? 4 : 8
   const [numberOfMembers, setNumberOfMembers] = useState(isOurServiceTemplate ? initNumber : members.length)
-
-  const handleClick = () => {
-    if (numberOfMembers === initNumber) {
-      setNumberOfMembers(8)
-    } else {
-      setNumberOfMembers(initNumber)
-    }
-  }
 
   return (
     <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!}>
@@ -267,13 +274,6 @@ const TeamMembers = ({ authorIdsArray, isOurServiceTemplate = false }: TeamMembe
                     className='avatar2'
                     imgClassName='image'
                   />
-                  {/* <StaticImage
-                    src='../../../static/images/krzysiek_s_2_team.png'
-                    alt='A dinosaur'
-                    placeholder='blurred'
-                    className='avatar2'
-                    imgClassName='image'
-                  /> */}
                 </AvatarWrapper>
                 <div>
                   <p>
@@ -288,8 +288,8 @@ const TeamMembers = ({ authorIdsArray, isOurServiceTemplate = false }: TeamMembe
         })}
 
         {width <= 581 && !isOurServiceTemplate ? <ScrollArrow /> : null}
-        {width <= 581 && isOurServiceTemplate && members?.length > initNumber ? (
-          <MoreButton onClick={handleClick}>{numberOfMembers === initNumber ? 'see more' : 'see less'}</MoreButton>
+        {isOurServiceTemplate && initNumber ? (
+          <OurServiceLink to={routeLinks.aboutUs({ page: 'team' })}>see all team members</OurServiceLink>
         ) : null}
       </Container>
     </TeamMembersSection>
