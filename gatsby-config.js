@@ -1,4 +1,4 @@
-const siteUrl = process.env.SITE_URL || 'https://brightinventions.pl/'
+const siteUrl = new URL(process.env.SITE_URL || 'https://brightinventions.pl/')
 module.exports = {
   siteMetadata: {
     title: 'Bright Inventions',
@@ -6,7 +6,7 @@ module.exports = {
       'The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more.',
     author: 'Bright team',
     disqusShortname: 'brightinventions',
-    siteUrl: siteUrl,
+    siteUrl: siteUrl.href,
   },
   plugins: [
     // Make sure this plugin is first in the array of plugins
@@ -163,7 +163,7 @@ module.exports = {
       options: {
         bucketName: process.env.DEPLOY_S3_BUCKET_NAME || 'brightinventions-pl-website-content',
         protocol: 'https',
-        hostname: 'brightinventions.pl',
+        hostname: siteUrl.hostname,
         region: 'eu-central-1',
       },
     },
@@ -174,8 +174,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: siteUrl,
-        sitemap: `${siteUrl}sitemap-index.xml`,
+        host: siteUrl.href,
+        sitemap: `${siteUrl.href}sitemap-index.xml`,
         env: {
           staging: {
             policy: [{ userAgent: '*', disallow: ['/'] }]
