@@ -77,8 +77,11 @@ export const SectionTitleContainer = styled.div`
   @media ${variables.device.tablet} {
     && .about-img {
       max-height: ${variables.pxToRem(75)};
-      width: ${variables.pxToRem(75)};
+      width: auto;
       & .image {
+        max-height: ${variables.pxToRem(75)};
+        width: auto;
+        margin: auto;
       }
     }
   }
