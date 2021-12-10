@@ -44,7 +44,7 @@ export const Content = styled.div<{ textAlign?: string }>`
 
   && h2 {
     font-size: ${variables.pxToRem(32)};
-    color: #131214;
+    color: #000000;
     font-weight: 900;
     margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
     line-height: ${variables.pxToRem(40)};
@@ -63,7 +63,7 @@ export const Content = styled.div<{ textAlign?: string }>`
   }
   && h3 {
     font-size: 2rem;
-    color: #131214;
+    color: #000000;
     font-weight: 600;
     line-height: ${variables.pxToRem(40)};
     margin-top: 0;
@@ -91,7 +91,7 @@ export const Content = styled.div<{ textAlign?: string }>`
     font-size: ${variables.pxToRem(22)};
     line-height: ${variables.pxToRem(40)};
     color: #131214;
-    opacity: 0.75;
+    opacity: 1;
     font-family: ${variables.font.customtext.lato};
     margin-bottom: ${variables.pxToRem(16)};
 
