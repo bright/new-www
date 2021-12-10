@@ -18,6 +18,7 @@ meta_description: We are a software development agency specialising in product
   designs.
 our_services_icon: /images/product_design_icon.png
 name: product design
+slug: product-design
 short_description: You can count on our expertise in interface analysis,
   animation design, UX and UI design, root cause analysis, and more. We have
   worked on design projects of all sizes.
