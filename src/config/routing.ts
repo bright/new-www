@@ -12,16 +12,16 @@ export const routeLinks = {
     if (!params) {
       return `/blog/`
     }
-    if ('tag' in params) {
-      return `/blog/${params.tag ?? ''}/`
+    if (params.tag) {
+      return `/blog/${params.tag}/`
     }
-    return `/blog/${params.tag}/`
+    return `/blog/`
   },
   ourAreas(params?: { service: string; faqTitle: string }) {
     if (!params) {
       return `/our-areas/`
     }
-    if ('faqTitle' in params) {
+    if (params.faqTitle) {
       return `/our-areas/${params.service}/${params.faqTitle ?? ''}/`
     }
     return `/our-areas/`
