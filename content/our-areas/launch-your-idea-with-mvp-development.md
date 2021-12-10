@@ -29,6 +29,7 @@ meta_description: Since 2012 we have developed MVPs for clients from USA, UK,
   agencies. Contact us!
 our_services_icon: /images/mvp_development.png
 name: MVP development
+slug: mvp-development
 short_description: Build an MVP to shorten time to market. We’ve developed MVPs
   for startups, NGOs and consulting agencies. Let’s work on your MVP.
 order: 4
