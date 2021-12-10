@@ -24,6 +24,7 @@ meta_description: We are an IoT software company from Poland. We have developed
   developers? Contact us!
 our_services_icon: /images/iot_icon.png
 name: IoT development
+slug: iot-development
 short_description: We specialise in the Internet of Things solutions. We build
   IoT software for restaurants, retail, eHealth and fintech industries.
 order: 9
