@@ -28,6 +28,7 @@ meta_description: Since 2012 we have developed over 40 software solutions with
   online meeting!
 our_services_icon: /images/agile_workshops_icon.png
 name: agile workshops
+slug: agile-workshops
 short_description: We will organise Agile workshops for you and your team and
   help you quickly get a grasp of what this leading project management
   methodology brings to the table.
