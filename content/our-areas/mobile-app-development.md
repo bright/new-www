@@ -57,7 +57,7 @@ show technology stack: true
 title_contact: let’s talk about your mobile app project
 show case study: true
 description_contact: Tell us more about your mobile project or idea for an app.
-  Fill the form below, or drop us a line via **info@bright.dev**.
+  Fill the form below, or drop us a line via info@brightinventions.pl.
 ---
 ## Mobile app development services
 
