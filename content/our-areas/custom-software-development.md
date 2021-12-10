@@ -30,6 +30,7 @@ meta_description: We are a custom software development company from Poland.
   Israel, Norway and more.
 our_services_icon: /images/custom_software_development_icon.png
 name: custom software development
+slug: custom-software-development
 short_description: Our custom software serves the unique processes of your
   business, solves particular problems and makes your workflows more efficient.
   We will help you throughout all of the software delivery phases.
