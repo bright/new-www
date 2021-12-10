@@ -16,6 +16,7 @@ meta_description: We are a software development agency from Poland offering
   develop cloud-native apps.
 our_services_icon: /images/cloud_services_icon.png
 name: cloud services
+slug: cloud-services
 short_description: We are experts in AWS cloud development. We build cloud
   applications and help with cloud migration.
 order: 10
