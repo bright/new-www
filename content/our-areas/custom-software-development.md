@@ -54,7 +54,7 @@ title_contact: let’s talk about your custom solution
 description_contact: Don’t know where to start with your idea for a software
   project? Or you're looking for a custom software development company to help
   take your product to the next level? Fill the form below, or drop us a line
-  via **info@bright.dev**.
+  via info@brightinventions.pl.
 ---
 ## Is custom application development a good fit for you?
 
