@@ -33,6 +33,7 @@ meta_description: We are a blockchain development company from Poland. We
   Contact us!
 our_services_icon: /images/blockchain_icon.png
 name: blockchain development
+slug: blockchain
 short_description: Our team has a vast experience in blockchain projects based
   on Ethereum and Substrate blockchain. Blockchain technology is what we’re
   really good at!
