@@ -53,7 +53,7 @@ title_faqs: product workshop FAQs
 title_contact: let's talk about product workshops for your team
 description_contact: Every product workshop is adjusted to clients needs. Just
   let us know what you expect and we will find the best solution for you! Fill
-  the form below, or drop us a line via info@bright.dev.
+  the form below, or drop us a line via info@brightinventions.pl.
 ---
 ## When product workshops will be a good fit for you?
 
