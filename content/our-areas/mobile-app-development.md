@@ -29,6 +29,7 @@ meta_description: We are a mobile app development company from Poland. We
   developers? Contact us!
 our_services_icon: /images/mobile_development_icon.png
 name: mobile app development
+slug: mobile-app-development
 short_description: We offer native mobile app development for iOS and Android.
   Our app development team has broad experience in building applications in
   Swift and Kotlin.
@@ -56,7 +57,7 @@ show technology stack: true
 title_contact: let’s talk about your mobile app project
 show case study: true
 description_contact: Tell us more about your mobile project or idea for an app.
-  Fill the form below, or drop us a line via **info@bright.dev**.
+  Fill the form below, or drop us a line via info@brightinventions.pl.
 ---
 ## Mobile app development services
 

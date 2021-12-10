@@ -24,6 +24,7 @@ meta_description: Since 2012 we have built software for over 40 businesses. At
   business goals.
 our_services_icon: /images/product_workshops_icon.png
 name: product workshops
+slug: product-workshops
 short_description: We will help you discover your product idea, set your product
   goals, understand the pitfalls and find the solution on how to make your
   product better.
@@ -52,7 +53,7 @@ title_faqs: product workshop FAQs
 title_contact: let's talk about product workshops for your team
 description_contact: Every product workshop is adjusted to clients needs. Just
   let us know what you expect and we will find the best solution for you! Fill
-  the form below, or drop us a line via info@bright.dev.
+  the form below, or drop us a line via info@brightinventions.pl.
 ---
 ## When product workshops will be a good fit for you?
 

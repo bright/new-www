@@ -29,6 +29,7 @@ meta_description: Since 2012 we have developed MVPs for clients from USA, UK,
   agencies. Contact us!
 our_services_icon: /images/mvp_development.png
 name: MVP development
+slug: mvp-development
 short_description: Build an MVP to shorten time to market. We’ve developed MVPs
   for startups, NGOs and consulting agencies. Let’s work on your MVP.
 order: 4
@@ -49,7 +50,7 @@ title_case_study: MVPs that we have developed
 title_faqs: MVP development FAQs
 title_contact: let’s talk about your MVP
 description_contact: Tell us more about your project or idea for an app. Fill
-  the form below, or drop us a line via **info@bright.dev**.
+  the form below, or drop us a line via info@brightinventions.pl.
 ---
 ## Is MVP right for your business?
 

@@ -30,6 +30,7 @@ meta_description: We are a web development company from Poland. We have built
   Contact us!
 our_services_icon: /images/web_development_icon.png
 name: web development
+slug: web-development
 short_description: We provide a wide range of custom full stack web development
   services. We rely on a rich technology stack, including JavaScript, CSS, HTML,
   Java, Node.js, AWS, and more
@@ -54,7 +55,7 @@ title_case_study: web solutions that we have worked on
 title_faqs: web development services FAQs
 title_contact: let’s talk about your web project
 description_contact: Tell us more about your web project or idea for an app.
-  Fill the form below, or drop us a line via **info@bright.dev**.
+  Fill the form below, or drop us a line via info@brightinventions.pl.
 ---
 ## web development services
 

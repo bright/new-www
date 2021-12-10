@@ -16,6 +16,7 @@ meta_description: We are a software development agency from Poland offering
   develop cloud-native apps.
 our_services_icon: /images/cloud_services_icon.png
 name: cloud services
+slug: cloud-services
 short_description: We are experts in AWS cloud development. We build cloud
   applications and help with cloud migration.
 order: 10
@@ -38,7 +39,7 @@ title_case_study: cloud services projects we have worked on
 title_faqs: cloud services FAQs
 title_contact: let’s talk about your cloud solution
 description_contact: Are you looking for a cloud computing company? Fill the
-  form below, or drop us a line via info@bright.dev.
+  form below, or drop us a line via info@brightinventions.pl.
 ---
 ## AWS cloud services
 

@@ -24,6 +24,7 @@ meta_description: We are an IoT software company from Poland. We have developed
   developers? Contact us!
 our_services_icon: /images/iot_icon.png
 name: IoT development
+slug: iot-development
 short_description: We specialise in the Internet of Things solutions. We build
   IoT software for restaurants, retail, eHealth and fintech industries.
 order: 9
@@ -46,9 +47,9 @@ title_case_study: IoT development that we’ve worked on
 title_faqs: IoT development FAQs
 title_contact: let’s talk about your IoT solution
 description_contact: It doesn’t matter if your project is just an idea or you
-  have already been developing an existing system. Bright Inventions as an IoT
-  company can help you in any phase of your software development. Fill the form
-  below, or drop us a line via **info@bright.dev**.
+  have already been developing an existing system. We will help you in any phase
+  of your software development. Fill the form below, or drop us a line via
+  info@brightinventions.pl.
 ---
 ## Is the IoT solutions company a good fit for you?
 
