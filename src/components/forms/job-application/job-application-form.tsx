@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback } from 'react'
 import styled from 'styled-components'
 import { TextField } from '../fields/text-field'
 import { Form } from './job-application-form.styled'
@@ -14,6 +14,8 @@ import { JobApplicationModal } from './job-application-modal'
 import { CustomTextRegular } from '../../shared'
 import variables from '../../../styles/variables'
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
+import { useState } from 'react'
+import { type } from './../../../use-blog-posts/blog-post-frontmatter-query-result'
 
 export interface FormProps {
   nameLabel?: string
@@ -51,8 +53,6 @@ const Loader = styled.div`
 
 export const JobApplicationForm: React.FC<FormProps> = props => {
   const { value, handleChange, handleSubmit } = useApplicationForm()
-  const [errorMsgValidation, setErrorMsgValidation] = useState<string>('')
-
   const {
     nameLabel,
     namePlaceholder,
@@ -75,13 +75,6 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       label: window.location.href,
     })
     event.preventDefault()
-    if (!value.cv) {
-      setErrorMsgValidation('Upload your resume / CV / cover letter / portfolio')
-      setTimeout(() => {
-        setErrorMsgValidation('')
-      }, 5000)
-      return
-    }
     onSubmit && onSubmit()
     handleSubmit(event, data)
   }, [])
@@ -118,7 +111,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       /> */}
       <div>
         <p>Upload your resume / CV / cover letter / portfolio</p>
-        <UploadField onChange={handleChange} name='cv' onClick={e => (e.target.value = null)}>
+        <UploadField required onChange={handleChange} name='cv' onClick={e => (e.target.value = null)}>
           <UploadIcon />
           {uploadLabel}
         </UploadField>
@@ -132,7 +125,6 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
             </AttachmentUploaded>
           )}
         </div>
-        {errorMsgValidation && <ErrorMessage>{errorMsgValidation}</ErrorMessage>}
       </div>
       <CheckboxField required checked={value.policy} onChange={handleChange} name='policy'>
         I accept the{' '}
@@ -149,7 +141,9 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           link='/career'
           linkLabel='back to career'
         >
-          <SuccesMessage>Congrats! Your application was successfully submitted.</SuccesMessage>
+          <SuccesMessage>
+            Congrats! Your application was successfully submitted.
+          </SuccesMessage>
         </JobApplicationModal>
       )}
       {value.isError && (

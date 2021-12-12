@@ -1,5 +1,4 @@
 const path = require("path")
-const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const _ = require('lodash');
 const fs = require("fs")
 const yaml = require("js-yaml")
@@ -233,7 +232,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  fmImagesToRelative(node);
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     createNodeField({
