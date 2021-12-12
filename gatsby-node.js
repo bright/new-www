@@ -3,7 +3,6 @@ const _ = require('lodash');
 const fs = require("fs")
 const yaml = require("js-yaml")
 
-
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
   const result = await graphql(
@@ -132,9 +131,59 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         })
       })
     }
+  })
+   
+  const serviceResult = await graphql(`
+  {
+    allMarkdownRemark(
+      filter: {
+        frontmatter: { layout: { eq: "our-service" } }
+      }
+      limit: 1000
+    ) {
+      edges {
+        node {
+          frontmatter {
+            slug
+            faqs {
+              frontmatter {
+                answer
+                question
+              }
+            }
+          }
+          fileAbsolutePath
+        }
+      }
+    }
+  }
+`)
+const services = serviceResult.data.allMarkdownRemark.edges
 
+services.forEach(service => {
+
+  createPage({
+    path:'our-areas/' + (service.node.frontmatter.slug ) ,
+    component: path.resolve("./src/templates/OurServiceTemplate.tsx"),
+    context: {
+      slug: service.node.frontmatter.slug,
+      fileAbsolutePath: service.node.fileAbsolutePath,
+    },
   })
 
+  const faqs = service.node.frontmatter.faqs
+  faqs.forEach(faq => {
+    createPage({
+      path:'our-areas/' + (service.node.frontmatter.slug ) + "/" + _.kebabCase((faq.frontmatter.question.toLowerCase())),
+      component: path.resolve("./src/templates/OurServiceTemplate.tsx"),
+      context: {
+        faqTitle: faq.frontmatter.question, 
+        slug: service.node.frontmatter.slug,
+        fileAbsolutePath: service.node.fileAbsolutePath,
+    },
+  })
+})
+})
 
   const preparePage = async (layout, path, template, hasParam) => {
     const result = await graphql(`
@@ -177,18 +226,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       //     fileAbsolutePath: node.fileAbsolutePath,
       //   },
       // })
-      if(hasParam) {
-        createPage({
-          path: path + "/" + (node.frontmatter.slug || name) ,
-          matchPath: path + "/" + (node.frontmatter.slug || name) + "/*",
-          component: template,
-          context: {
-            slug:node.frontmatter.slug,
-            fileAbsolutePath: node.fileAbsolutePath,
-          },
-        })
-     
-      } else {
+    
         createPage({
           path: path + "/" + (node.frontmatter.slug || name),
           component: template,
@@ -198,7 +236,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             fileAbsolutePath: node.fileAbsolutePath,
           },
         })
-      }
     })
   }
 
@@ -223,10 +260,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   )
   await preparePage("member", "about-us", aboutUsTemplate)
 
-  const ourServiceTemplate = require.resolve(
-    `${__dirname}/src/templates/OurServiceTemplate.tsx`
-  )
-  await preparePage("our-service", "our-areas", ourServiceTemplate, true)
   
   createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
 }

@@ -34,12 +34,12 @@ import {
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 
-export default function Template({ data, params }: any) {
+export default function Template({ data, params, pageContext }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
   const image = getImage(page.image_our_service)
   const myRef = useRef(null)
-  const faqTitle = params[Object.keys(params)[0]]
+  const { faqTitle } = pageContext
 
   useEffect(() => {
     if (faqTitle) {
@@ -60,12 +60,28 @@ export default function Template({ data, params }: any) {
   const [show, setShow] = useState<any>({})
 
   const handleShow = (i: number) => {
-    const ourAreasFaqLink = routeLinks.ourAreas({
-      service: kebabCase(name),
-      faqTitle: kebabCase(faqs[i].frontmatter.question),
-    })
+    const title = kebabCase(faqs[i].frontmatter.question)
 
-    window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
+    if (!show[i]) {
+      const ourAreasFaqLink = routeLinks.ourAreas({
+        service: kebabCase(name),
+        faqTitle: title,
+      })
+      window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
+    } else {
+      const showArray = Object.keys(show).map(function (k) {
+        return { value: show[k], index: k }
+      })
+      const nearestOpenedFaq = showArray.find(item => item.value && item.index != i)
+
+      const openedFaqTitle = nearestOpenedFaq ? faqs[nearestOpenedFaq.index].frontmatter.question : ''
+
+      const ourAreasFaqLink = routeLinks.ourAreas({
+        service: kebabCase(name),
+        faqTitle: kebabCase(openedFaqTitle),
+      })
+      window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
+    }
 
     setShow((prevshow: any) => ({
       ...prevshow,
