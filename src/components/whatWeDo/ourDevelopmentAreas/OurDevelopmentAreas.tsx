@@ -3,6 +3,7 @@ import React from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { ServiceModel } from '../../../models/gql'
 import ReactMarkdown from 'react-markdown'
+import { routeLinks } from '../../../config/routing'
 
 import {
   DevelopmentAreasWrapper,
@@ -19,8 +20,7 @@ const OurDevelopmentAreas = () => {
   } = useStaticQuery(GQL)
   const ourServicesItems: ServiceModel[] = edges
     ? edges.map((e: any) => {
-        const { name, short_description, our_services_icon } = e.node.frontmatter
-        const { slug } = e.node.fields
+        const { name, short_description, our_services_icon, slug } = e.node.frontmatter
         const ourServicesItems = { name, short_description, slug, our_services_icon }
         return ourServicesItems
       })
@@ -31,7 +31,7 @@ const OurDevelopmentAreas = () => {
       <DevelopmentAreasContainer>
         {ourServicesItems.map(service => (
           <DevelopmentAreaContainer key={service.title}>
-            <RevertHoverLink to={service.slug}>
+            <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
               <SectionTitleContainer>
                 <GatsbyImage
                   image={getImage(service.our_services_icon)!}
@@ -62,14 +62,12 @@ const GQL = graphql`
           frontmatter {
             short_description
             name
+            slug
             our_services_icon {
               childImageSharp {
                 gatsbyImageData(height: 100, placeholder: TRACED_SVG)
               }
             }
-          }
-          fields {
-            slug
           }
         }
       }

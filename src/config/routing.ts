@@ -21,10 +21,10 @@ export const routeLinks = {
     if (!params) {
       return `/our-areas/`
     }
-    if (params.faqTitle) {
-      return `/our-areas/${params.service}/${params.faqTitle ?? ''}/`
+    if (params.faqTitle && params.service) {
+      return `/our-areas/${params.service}/${params.faqTitle}/`
     }
-    return `/our-areas/`
+    return `/our-areas/${params.service ?? ''}`
   },
   whatWeOffer: '/what-we-offer',
   projects: '/projects',
