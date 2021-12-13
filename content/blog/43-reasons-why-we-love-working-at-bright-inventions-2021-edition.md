@@ -67,6 +67,6 @@ The 2021 year was definitely the one to remember. Our team was empowered by new 
 42. Openness.
 43. Kind people around me. Just like that.
 
-That is how we end 2021, with a lot of positive reflections. :) 
+That is how we end 2021, with a lot of positive reflections. 🙂
 
 Kudos for the whole Bright Team for sharing these insights.
