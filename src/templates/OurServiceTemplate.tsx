@@ -123,17 +123,14 @@ export default function Template({ data, params, pageContext }: any) {
           <CustomPageTitle>{title}</CustomPageTitle>
         </CustomSectionInner>
       </CustomSectionOurService>
-      {width <= breakpoint ? (
-        <></>
-      ) : (
-        <CustomSection paddingProps='0 15rem 3.5rem '>
-          <CustomSectionInner maxWidth='956px'>
-            <Link to={'#contactForm'}>
-              <BlackButtonOurService>{button}</BlackButtonOurService>
-            </Link>
-          </CustomSectionInner>
-        </CustomSection>
-      )}
+      {width <= breakpoint && null}
+      <CustomSection paddingProps='0 15rem 3.5rem '>
+        <CustomSectionInner maxWidth='956px'>
+          <Link to={'#contactForm'}>
+            <BlackButtonOurService>{button}</BlackButtonOurService>
+          </Link>
+        </CustomSectionInner>
+      </CustomSection>
 
       <ImageWrapper>
         <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' quality='100' />
@@ -171,6 +168,7 @@ export default function Template({ data, params, pageContext }: any) {
       </CustomSection>
 
       {show_technology_stack && <TechnologyTags />}
+
       {show_case_study && (
         <ProjectCustomSection paddingMobileProps='0 1.125rem 0'>
           <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
