@@ -49,7 +49,11 @@ export default function Template({ data, params, pageContext }: any) {
         handleShow(index)
         const yOffset = -100
         const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
-        window.scrollTo({ top: y })
+        setTimeout(() => {
+          window.scrollTo({
+            top: y,
+          })
+        }, 100)
       }
     }
   }, [])
