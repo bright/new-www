@@ -11,13 +11,7 @@ hidden: false
 comments: true
 published: true
 ---
-
-
-
-
 **2021 will become a memory soon and it is time for a little summary of the passing year. We have decided to stop for a moment and think about our bright culture. We asked people to answer a simple yet meaningful question – Why do you work at Bright Inventions? Our Bright Team submitted over 40 answers and let me be clear – the participation was voluntary. No one was forced and never will be to write some puff pieces.**
-
-![tenor we don't do that here](/images/we-dont-do-that-here-black-panther.gif "Source: tenor.com")
 
 <div class="tenor-gif-embed" data-postid="16558003" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/we-dont-do-that-here-black-panther-tchalla-bruce-gif-16558003">We Dont Do That Here Black Panther GIF</a> from <a href="https://tenor.com/search/we+dont+do+that+here-gifs">We Dont Do That Here GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
