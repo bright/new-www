@@ -19,7 +19,7 @@ The 2021 year was definitely the one to remember. Our team was empowered by new 
 
 [In 2019 we also asked the team why they work at Bright.](/blog/31-reasons-why-we-love-working-at-Bright-Inventions/) Back then our team consisted of around 20 members. Now we have over 60 people on board! Thus it is time for new perspectives.
 
-![christmas gathering](/images/christmas_team_retreats.png)
+![christmas gathering](/images/christmas_team_retreats2.png)
 
 ## Why do you work at Bright Inventions?
 
