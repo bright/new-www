@@ -35,7 +35,7 @@ our_services_icon: /images/blockchain_icon.png
 name: blockchain development
 slug: blockchain
 short_description: Our team has a vast experience in blockchain projects based
-  on Ethereum and Substrate blockchain. Blockchain technology is what we’re
+  on Ethereum and Substrate blockchain. Blockchain technology is what we are
   really good at!
 order: 3
 title: build future with blockchain development
@@ -45,9 +45,9 @@ image_alt_our_service: blockchain development
 description: We are a software development company that **specialises in
   blockchain technology**. Blockchain is a groundbreaking technology that goes
   far beyond cryptocurrency services. Tell us more about your blockchain project
-  and we will let you know how we can assist you.
-button: let's talk blockchain
-button2: let's talk blockchain
+  and we will let you know how we can help you.
+button: "let's do blockchain projects "
+button2: let's do blockchain projects
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -56,12 +56,12 @@ title_case_study: projects we have worked on
 title_faqs: blockchain development FAQ's
 title_contact: let’s talk about your blockchain project
 description_contact: Contact us to learn how we can use blockchain to develop
-  your product. Fill the form below, or drop us a line via
+  your product. Fill the form below or drop us a line at
   info@brightinventions.pl.
 ---
 ## blockchain solutions that we have developed
 
-We specialize in integrating web and mobile apps with blockchain solutions. For over 4 years we’ve been developing products using Ethereum technology. Apart from that, we are Substrate enthusiasts. We’ve built Bright Treasury module application to support the Polkadot community built around the Substrate. We use and support the Substrate framework because we believe that it is the future of the internet. 
+We specialize in integrating web and mobile apps with blockchain solutions. For over 4 years we have been developing products using Ethereum technology. Apart from that we are Substrate enthusiasts. We have built Bright Treasury module application to support the Polkadot community built around the Substrate. We use and support the Substrate framework because we believe that it is the future of the internet. 
 
 ### Bright Treasury
 
