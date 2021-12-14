@@ -24,24 +24,24 @@ project:
   - bright-treasury
 layout: our-service
 meta_title: MVP Development Agency
-meta_description: Since 2012 we have developed MVPs for clients from USA, UK,
-  Israel and more. We build MVPs for startups, corporations and digital
+meta_description: Since 2012 we have developed MVPs for clients from the UK,
+  Germany, Israel and more. We build MVPs for startups, corporations and digital
   agencies. Contact us!
 our_services_icon: /images/mvp_development.png
 name: MVP development
 slug: mvp-development
-short_description: Build an MVP to shorten time to market. We’ve developed MVPs
-  for startups, NGOs and consulting agencies. Let’s work on your MVP.
+short_description: Build an MVP to shorten time to market. We have developed
+  MVPs for startups, NGOs and consulting agencies. Let’s work on your MVP.
 order: 4
 title: launch your idea with MVP development
 intro: We are an experienced MVP partner ready to assist you.
 image_our_service: /images/mvp_development_small.png
 image_alt_our_service: mvp development company
-description: Do you want to build an MVP? You came to the right place. We’ve
+description: Do you want to build an MVP? You came to the right place. We have
   developed MVPs for startups, NGOs and consulting agencies from the USA, UK,
   Germany, Norway and more. Let’s work on your MVP.
-button: let's talk MVP
-button2: let's talk MVP
+button: let's talk about MVP
+button2: let's talk about MVP
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -58,7 +58,7 @@ MVP stands for minimum viable product. It is the first version of your product c
 
 ### you represent startup
 
-Are you a startup with the idea for a software product? Building MVP is a low-cost solution to launch the first version of your product that may help you find first clients and investors. Additionally, **MVP development helps to quickly validate your business idea** thanks to actual users feedback.
+Are you a startup with the idea for a software product? Building MVP is a low-cost solution to launch the first version of your product that may help you find first clients and investors. Additionally, **MVP development helps quickly validate your business idea** thanks to actual users feedback.
 
 ### you represent a corporation
 
@@ -66,7 +66,7 @@ MVPs aren’t reserved only for startups. They can be the right solution for gre
 
 ### you represent a consultancy agency
 
-Do you want to develop MVPs to distribute them to your clients? We are happy to assist you. We bring to the tableyears of experience in software development. Our custom software development approach based on Agile methodologies will result in developing high-quality MVPs.
+Do you want to develop MVPs to distribute them to your clients? We are happy to assist you. We bring to the table years of experience in software development. Our custom software development approach based on Agile methodologies will result in developing high-quality MVPs.
 
 ### you have an idea for a solution and want to verify its potential
 
