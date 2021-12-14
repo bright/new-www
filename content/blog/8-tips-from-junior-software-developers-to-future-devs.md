@@ -1,5 +1,7 @@
 ---
-author: izabela
+author: jedrzej
+secondAuthor: lukasz-k
+thirdAuthor: pawel-p
 tags:
   - development
   - inspiration
