@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-
-import { useWindowSize } from '../components/utils/use-windowsize'
 import { Contact } from '../components/shared/Contact'
 import { TechnologyTags } from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
@@ -31,8 +29,10 @@ import {
   FaqWrapper,
   Question,
   FaqsTextRegural,
+  OurServiceHideTablet,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
+import { HideTablet } from '../components/shared'
 
 export default function Template({ data, params, pageContext }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -58,9 +58,6 @@ export default function Template({ data, params, pageContext }: any) {
     }
   }, [])
 
-  const { width } = useWindowSize()
-  const breakpoint = 991
-
   const [show, setShow] = useState<any>({})
 
   const handleShow = (i: number) => {
@@ -68,7 +65,7 @@ export default function Template({ data, params, pageContext }: any) {
 
     if (!show[i]) {
       const ourAreasFaqLink = routeLinks.ourAreas({
-        service: kebabCase(name),
+        service: kebabCase(slug),
         faqTitle: title,
       })
       window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
@@ -81,7 +78,7 @@ export default function Template({ data, params, pageContext }: any) {
       const openedFaqTitle = nearestOpenedFaq ? faqs[nearestOpenedFaq.index].frontmatter.question : ''
 
       const ourAreasFaqLink = routeLinks.ourAreas({
-        service: kebabCase(name),
+        service: kebabCase(slug),
         faqTitle: kebabCase(openedFaqTitle),
       })
       window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
@@ -113,6 +110,7 @@ export default function Template({ data, params, pageContext }: any) {
     description_contact,
     intro,
     project,
+    slug,
   } = page
 
   return (
@@ -123,14 +121,15 @@ export default function Template({ data, params, pageContext }: any) {
           <CustomPageTitle>{title}</CustomPageTitle>
         </CustomSectionInner>
       </CustomSectionOurService>
-      {width <= breakpoint && null}
-      <CustomSection paddingProps='0 15rem 3.5rem '>
-        <CustomSectionInner maxWidth='956px'>
-          <Link to={'#contactForm'}>
-            <BlackButtonOurService>{button}</BlackButtonOurService>
-          </Link>
-        </CustomSectionInner>
-      </CustomSection>
+      <OurServiceHideTablet>
+        <CustomSection paddingProps='0 15rem 3.5rem '>
+          <CustomSectionInner maxWidth='956px'>
+            <Link to={'#contactForm'}>
+              <BlackButtonOurService>{button}</BlackButtonOurService>
+            </Link>
+          </CustomSectionInner>
+        </CustomSection>
+      </OurServiceHideTablet>
 
       <ImageWrapper>
         <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' quality='100' />
@@ -277,6 +276,7 @@ export const pageQuery = graphql`
         meta_description
         title
         intro
+        slug
         description
         button
         button2

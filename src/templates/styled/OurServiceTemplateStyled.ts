@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { BlackButton } from '../../components/about-us/about-us.styled'
 import { CustomSection, CustomTextRegular } from '../../components/shared'
 import variables from '../../styles/variables'
+import { HideTablet } from './../../components/shared/index.styled'
 
 export const CustomSectionOurService = styled(CustomSection)`
   padding-top: ${variables.pxToRem(48)};
@@ -182,5 +183,10 @@ export const ImageWrapper = styled.div`
     display: block;
     margin: auto;
     max-width: ${variables.pxToRem(1295)};
+  }
+`
+export const OurServiceHideTablet = styled(HideTablet)`
+  @media ${variables.device.tablet} {
+    display: none;
   }
 `
