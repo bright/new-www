@@ -1,62 +1,64 @@
-import { useCallback, useState } from "react"
-import { FormType, sendMail } from "../../../helpers/mail"
+import { useCallback, useState } from 'react'
+import { FormType, sendMail } from '../../../helpers/mail'
 
 export function useApplicationForm() {
   const [value, setValue] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
     cv: null,
     policy: false,
-    source: "",
+    source: '',
     isError: false,
     isSubmitted: false,
     isSending: false,
   })
-  const handleSubmit = (event: Event , data:any ) => {
+  const handleSubmit = (event: Event, data: any) => {
     setValue(state => ({
       ...state,
       isSending: true,
     }))
-      event.preventDefault()
-      data.source = window.location.href;
-      handleSendMail(data).then(res => {
+    event.preventDefault()
+    data.source = window.location.href
+    handleSendMail(data)
+      .then(res => {
         setValue(state => ({
           ...state,
           isSubmitted: true,
           isSending: false,
         }))
-      }).catch(err => {
+      })
+      .catch(err => {
         setValue(state => ({
           ...state,
           isError: true,
           isSending: false,
         }))
       })
-    }
+  }
 
   const handleChange = useCallback(event => {
     event.persist()
     const value =
-      event.target.type === "checkbox"
+      event.target.type === 'checkbox'
         ? event.target.checked
-        : event.target.type === "file"
-          ? event.target.files
-          : event.target.value;
+        : event.target.type === 'file'
+        ? event.target.files
+        : event.target.value
 
-    if (event.target.name == "clearCv") {
+    if (event.target.name == 'clearCv') {
       setValue(state => ({
         ...state,
         cv: null,
       }))
     } else {
       setValue(state => {
-        return ({
-        ...state,
-        [event.target.name]: value,
-      })})
+        return {
+          ...state,
+          [event.target.name]: value,
+        }
+      })
     }
-
   }, [])
   return {
     value,
@@ -80,7 +82,7 @@ function handleSendMail(data: Record<string, any>) {
         ...object,
         [field.key]: { value: field.value, fileName: field.fileName },
       }),
-      { }
+      {}
     )
   return sendMail(_data, FormType.job)
 }
