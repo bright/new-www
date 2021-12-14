@@ -11,7 +11,7 @@ date: 2021-12-07T09:21:09.437Z
 title: BrightTreasury is now LIVE
 layout: post
 image: /images/Treasury_www_LargeSize.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
