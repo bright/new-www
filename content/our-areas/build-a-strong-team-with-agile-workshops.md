@@ -23,7 +23,7 @@ project:
   - xpomaker
 layout: our-service
 meta_title: Agile Workshops for Teams
-meta_description: Since 2012 we have developed over 40 software solutions with
+meta_description: Since 2012 we have developed over 50 software solutions with
   Agile methodology. We provide Agile training for businesses. Schedule an
   online meeting!
 our_services_icon: /images/agile_workshops_icon.png
@@ -43,26 +43,26 @@ description: We live and breathe Agile. For almost a decade we have used Agile
   We work directly with your software developers and we have the experience to
   help you solve your project management and process problems. We offer face to
   face meetings (across Europe) and online workshops as well.
-button: let's talk Agile
-button2: let's talk Agile
+button: "book free consultation "
+button2: "book free consultation "
 published: true
 show_case_study: true
 show_technology_stack: true
-title_team: meet the team full of Agile
+title_team: "meet our Agile team "
 title_case_study: projects we delivered with Agile
 title_faqs: agile workshops FAQs
 title_contact: let’s talk about your workshops
 description_contact: Every workshop is adjusted to clients needs. Just let us
   know what you expect and we will find the best solution for you! Fill the form
-  below, or drop us a line via info@brightinventions.pl.
+  below or drop us a line via info@brightinventions.pl.
 ---
-## Who will benefit from an Agile workshop?
+## who will benefit from an Agile workshop?
 
 * Startups and businesses that have software developer teams and want to start following Agile manifesto.
 * Fully co-located software teams as well as teams combining members alongside different offices. We help you deal with different cultures and support in a cultural Agile transformation.
 * Organisations that want to cooperate with us on a software development project and are willing to understand how we plan and prioritize our work in order to bring your product to the market.
 
-## Meet our Agile master
+## meet our Agile master
 
 Katarzyna Łukasiewicz is a determined and passionate Agile Coach with **over ten years of experience in teaching and mentoring** individuals as well as organisations based on Agile principles. She graduated from Gdańsk University of Technology with a PhD in “Method of selecting programming practices for the safety-critical software development projects”. 
 
@@ -74,7 +74,7 @@ She is actively involved in the Agile community through her participation, publi
 
 Katarzyna will guide you and your team through Agile development in order to establish the best practices for your team.
 
-## What will you learn about Agile?
+## what will you learn about Agile?
 
 It depends on your needs, but our team will be more than happy to show you:
 
