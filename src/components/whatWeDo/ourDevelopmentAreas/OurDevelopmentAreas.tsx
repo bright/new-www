@@ -30,12 +30,14 @@ const OurDevelopmentAreas = () => {
     <DevelopmentAreasWrapper>
       <DevelopmentAreasContainer>
         {ourServicesItems.map(service => (
-          <DevelopmentAreaContainer key={service.title}>
+          <DevelopmentAreaContainer key={service.name}>
             <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
               <SectionTitleContainer>
                 <GatsbyImage
                   image={getImage(service.our_services_icon)!}
-                  alt={service.title}
+                  alt={service.name}
+                  style={{maxHeight: 100}}
+                  imgStyle={{objectFit: 'contain'}}
                   className='about-img'
                   imgClassName='image'
                   backgroundColor='#fff'
@@ -65,7 +67,7 @@ const GQL = graphql`
             slug
             our_services_icon {
               childImageSharp {
-                gatsbyImageData(height: 100, placeholder: TRACED_SVG)
+                gatsbyImageData(placeholder: TRACED_SVG)
               }
             }
           }

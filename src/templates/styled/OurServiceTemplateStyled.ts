@@ -17,6 +17,7 @@ export const CustomSectionOurService = styled(CustomSection)`
 export const Section = styled.section`
   padding: 0 0 ${variables.pxToRem(186)};
   color: #131214;
+
   & .content {
     font-size: ${variables.pxToRem(22)};
     line-height: ${variables.pxToRem(40)};
@@ -24,6 +25,7 @@ export const Section = styled.section`
     & img {
       opacity: 1;
     }
+
     & li {
       opacity: 0.75;
       margin-bottom: 1em;
@@ -34,6 +36,7 @@ export const Section = styled.section`
       }
     }
   }
+
   @media ${variables.device.tablet} {
     padding: 0 0 ${variables.pxToRem(82)};
   }
@@ -49,9 +52,11 @@ export const Content = styled.div<{ textAlign?: string }>`
     font-weight: 900;
     margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
     line-height: ${variables.pxToRem(40)};
+
     & :first-of-type {
       margin: 0 0 ${variables.pxToRem(36)};
     }
+
     @media ${variables.device.tablet} {
       font-size: ${variables.pxToRem(22)};
       line-height: ${variables.pxToRem(27)};
@@ -62,6 +67,7 @@ export const Content = styled.div<{ textAlign?: string }>`
       }
     }
   }
+
   && h3 {
     font-size: 2rem;
     color: #000000;
@@ -84,10 +90,12 @@ export const Content = styled.div<{ textAlign?: string }>`
       position: relative;
     }
   }
+
   & strong {
     color: #131214;
     opacity: 1;
   }
+
   && p {
     font-size: ${variables.pxToRem(22)};
     line-height: ${variables.pxToRem(40)};
@@ -101,6 +109,7 @@ export const Content = styled.div<{ textAlign?: string }>`
       opacity: 1;
       font-weight: 900;
     }
+
     @media ${variables.device.tablet} {
       font-size: ${variables.pxToRem(16)};
       line-height: ${variables.pxToRem(28)};
@@ -123,6 +132,7 @@ export const Question = styled.h3<{ shown: boolean }>`
   color: #000000;
   padding: ${variables.pxToRem(35)} 0;
   cursor: pointer;
+
   p {
     flex-basis: 90%;
   }
@@ -130,6 +140,7 @@ export const Question = styled.h3<{ shown: boolean }>`
   & span img {
     ${({ shown }) => (shown ? 'transform: rotate(180deg)' : 'transform: rotate(0deg)')};
   }
+
   @media ${variables.device.tablet} {
     font-size: ${variables.pxToRem(18)};
     line-height: ${variables.pxToRem(30)};
@@ -141,13 +152,16 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
   padding-bottom: ${variables.pxToRem(36)};
   color: #000000;
   opacity: 1;
+
   & strong {
     color: #131214;
   }
+
   & li {
     margin-bottom: 1em;
     font-size: ${variables.pxToRem(22)};
   }
+
   && p {
     font-size: ${variables.pxToRem(22)};
   }
@@ -160,6 +174,7 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
       font-size: ${variables.pxToRem(16)};
       line-height: ${variables.pxToRem(28)};
     }
+
     && p {
       font-size: ${variables.pxToRem(16)};
       line-height: ${variables.pxToRem(28)};
