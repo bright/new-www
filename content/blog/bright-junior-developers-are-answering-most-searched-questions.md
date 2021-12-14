@@ -1,5 +1,7 @@
 ---
-author: izabela
+author: pawel-p
+secondAuthor: lukasz-k
+thirdAuthor: jedrzej
 tags:
   - software development
   - communication
