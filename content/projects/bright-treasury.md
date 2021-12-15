@@ -43,7 +43,7 @@ The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocur
 
 ## Goal
 
-Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. Bright Treasury application will help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that Bright Treasury app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
+Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. Bright Treasury application will help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that [Bright Treasury](https://treasury.bright.dev) app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
 
 ## Process 
 
@@ -74,4 +74,4 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 
 ## Result
 
-After completing [first](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/) and second milestone, our team is working on the final step of this project. Having features for ideas and proposal handling developed, now we focus on implementation of the bounties mechanism. We plan to launch the product by the end of 2021. After that, we want to still work closely with Web3 Foundation that has made it possible to turn our idea into a web solution dedicated to the Substrate Blockchain community.
+After completing [](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/)all milestones, we [released Bright Treasury in December 2021](https://brightinventions.pl/blog/bright-treasury-is-now-live/). BrightTreasury is now live!
