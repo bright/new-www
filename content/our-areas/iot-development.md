@@ -22,7 +22,7 @@ meta_title: IoT Development Company
 meta_description: We are an IoT software company from Poland. We have developed
   IoT solutions for clients from Israel, the UK and the USA. Looking for IoT
   developers? Contact us!
-our_services_icon: /images/iot_icon.png
+our_services_icon: /images/iot_development2.png
 name: IoT development
 slug: iot-development
 short_description: We specialise in the Internet of Things solutions. We build
