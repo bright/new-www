@@ -16,7 +16,7 @@ meta_title: Product Designs Services
 meta_description: We are a software development agency specialising in product
   design. We prepare prototypes of app and web solutions and deliver UX and UI
   designs.
-our_services_icon: /images/product_design_icon.png
+our_services_icon: /images/product_design2.png
 name: product design
 slug: product-design
 short_description: You can count on our expertise in interface analysis,
