@@ -28,7 +28,7 @@ meta_title: Web Development Company
 meta_description: We are a web development company from Poland. We have built
   web apps, web services and websites for clients from USA, UK, Israel and more.
   Contact us!
-our_services_icon: /images/web_development_icon.png
+our_services_icon: /images/web_dedelopment2.png
 name: web development
 slug: web-development
 short_description: We provide a wide range of custom full stack web development

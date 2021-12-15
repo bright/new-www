@@ -26,7 +26,7 @@ project:
 layout: our-service
 meta_title: Custom Software Development
 meta_description: We are a custom software development company from Poland.
-  Since 2012 we have developed custom applications for clients from the USA,
+  Since 2012 we have developed custom applications for clients from the UK,
   Israel, Norway and more.
 our_services_icon: /images/custom_software_development_icon.png
 name: custom software development
@@ -43,7 +43,7 @@ description: Every business is unique. Bespoke software development can truly
   address your needs, challenges, and goals. By adopting a personalized approach
   for your software development, we also simplify and optimize your workflows.
 button: let's talk
-button2: let's talk
+button2: "work with us "
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -52,9 +52,9 @@ title_case_study: custom software that we delivered
 title_faqs: custom software development FAQ's
 title_contact: let’s talk about your custom solution
 description_contact: Don’t know where to start with your idea for a software
-  project? Or you're looking for a custom software development company to help
-  take your product to the next level? Fill the form below, or drop us a line
-  via info@brightinventions.pl.
+  project? Or you are looking for a custom software development company to help
+  take your product to the next level? Fill the form below or drop us a line via
+  info@brightinventions.pl.
 ---
 ## Is custom application development a good fit for you?
 
