@@ -28,7 +28,7 @@ meta_title: Custom Software Development
 meta_description: We are a custom software development company from Poland.
   Since 2012 we have developed custom applications for clients from the UK,
   Israel, Norway and more.
-our_services_icon: /images/custom_software_development_icon.png
+our_services_icon: /images/custom_software_development2.png
 name: custom software development
 slug: custom-software-development
 short_description: Our custom software serves the unique processes of your
