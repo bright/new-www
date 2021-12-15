@@ -1,7 +1,7 @@
 ---
 layout: project
 project_id: bright-treasury
-title: Bright Treasury
+title: BrightTreasury
 image: /images/treasuryapp_www.png
 description: "A web application that will support members of Substrate
   Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury
@@ -43,7 +43,7 @@ The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocur
 
 ## Goal
 
-Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. Bright Treasury application will help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that [Bright Treasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright) app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
+Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. Bright Treasury application will help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright) app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
 
 ## Process 
 
@@ -74,4 +74,4 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 
 ## Result
 
-After completing [](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/)all milestones, we [released Bright Treasury in December 2021](https://brightinventions.pl/blog/bright-treasury-is-now-live/). [Bright Treasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2) is now live!
+After completing [](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/)all milestones, we [released BrightTreasury in December 2021](https://brightinventions.pl/blog/bright-treasury-is-now-live/). [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2) is now live!
