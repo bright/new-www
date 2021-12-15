@@ -56,7 +56,7 @@ Based on the discussions with the Substrate networks’ users and council member
 
 Following these needs, we have proposed a solution that will benefit the Substrate chains communities.
 
-The development process is broken into 3 milestones. The first one was completed in July 2021. The rest of them are planned to be completed by 2021. 
+The development process was broken into 3 milestones. The first one was completed in July 2021. The rest of them were completed by 2021. 
 
 ![Bright Treasury blockchain](/images/treasury_www_3.png)
 
