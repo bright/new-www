@@ -74,4 +74,4 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 
 ## Result
 
-After completing [](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/)all milestones, we [released BrightTreasury in December 2021](https://brightinventions.pl/blog/bright-treasury-is-now-live/). [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2) is now live!
+After completing [](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/)all milestones, we released the app in December 2021. [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2) is now live!
