@@ -30,6 +30,7 @@ import {
   Question,
   FaqsTextRegural,
   OurServiceHideTablet,
+  OurServicePageTitle,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { HideTablet } from '../components/shared'
@@ -117,8 +118,14 @@ export default function Template({ data, params, pageContext }: any) {
     <Page>
       <HelmetTitleDescription title={meta_title} description={meta_description} />
       <CustomSectionOurService>
-        <CustomSectionInner maxWidth='910px'>
-          <CustomPageTitle>{title}</CustomPageTitle>
+        <CustomSectionInner
+          maxWidth='70%'
+          tabletXLMaxWidth='80%'
+          laptopMaxWidth='70%'
+          mobileMaxWidth='100%'
+          tabletMaxWidth='90%'
+        >
+          <OurServicePageTitle>{title}</OurServicePageTitle>
         </CustomSectionInner>
       </CustomSectionOurService>
       <OurServiceHideTablet>

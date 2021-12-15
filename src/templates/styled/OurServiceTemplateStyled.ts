@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { BlackButton } from '../../components/about-us/about-us.styled'
-import { CustomSection, CustomTextRegular } from '../../components/shared'
+import { CustomPageTitle, CustomSection, CustomTextRegular } from '../../components/shared'
 import variables from '../../styles/variables'
 import { HideTablet } from './../../components/shared/index.styled'
 
@@ -203,5 +203,20 @@ export const ImageWrapper = styled.div`
 export const OurServiceHideTablet = styled(HideTablet)`
   @media ${variables.device.tablet} {
     display: none;
+  }
+`
+export const OurServicePageTitle = styled(CustomPageTitle)`
+  font-size: ${variables.pxToRem(48)};
+  line-height: ${variables.pxToRem(54)};
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(44)};
+  }
+  @media ${variables.device.tabletXL} {
+    font-size: ${variables.pxToRem(38)};
+  }
+  @media ${variables.device.mobile} {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.44rem;
   }
 `
