@@ -22,7 +22,7 @@ meta_title: Product workshops for business
 meta_description: Since 2012 we have built software for over 40 businesses. At
   product workshops we will establish a product development plan to meet your
   business goals.
-our_services_icon: /images/product_workshops_icon.png
+our_services_icon: /images/product_workshops2.png
 name: product workshops
 slug: product-workshops
 short_description: We will help you discover your product idea, set your product
