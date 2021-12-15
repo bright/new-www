@@ -213,14 +213,26 @@ export const CustomTextRegular = styled.div`
   line-height: 2.5rem;
   opacity: 0.75;
 `
-export const CustomSectionInner = styled(SectionInner)<{ maxWidth?: string }>`
+export const CustomSectionInner = styled(SectionInner)<{
+  maxWidth?: string
+  laptopMaxWidth?: string
+  tabletXLMaxWidth?: string
+  tabletMaxWidth?: string
+  mobileMaxWidth?: string
+}>`
   max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : '800px')};
 
   @media ${variables.device.laptop} {
-    max-width: 745px;
+    max-width: ${({ laptopMaxWidth }) => (laptopMaxWidth ? laptopMaxWidth : '745px')};
   }
   @media ${variables.device.tabletXL} {
-    max-width: 824px;
+    max-width: ${({ tabletXLMaxWidth }) => (tabletXLMaxWidth ? tabletXLMaxWidth : '824px')};
+  }
+  @media ${variables.device.tablet} {
+    max-width: ${({ tabletMaxWidth }) => (tabletMaxWidth ? tabletMaxWidth : '')};
+  }
+  @media ${variables.device.mobile} {
+    max-width: ${({ mobileMaxWidth }) => (mobileMaxWidth ? mobileMaxWidth : '')};
   }
 `
 export const CustomPageDescription = styled(PageDescription)<{ fontSize?: string }>`
