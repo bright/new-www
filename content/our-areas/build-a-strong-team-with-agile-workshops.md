@@ -26,7 +26,7 @@ meta_title: Agile Workshops for Teams
 meta_description: Since 2012 we have developed over 50 software solutions with
   Agile methodology. We provide Agile training for businesses. Schedule an
   online meeting!
-our_services_icon: /images/agile_workshops_icon.png
+our_services_icon: /images/agile_workshops2.png
 name: agile workshops
 slug: agile-workshops
 short_description: We will organise Agile workshops for you and your team and
