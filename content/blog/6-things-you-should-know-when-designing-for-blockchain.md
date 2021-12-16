@@ -15,13 +15,13 @@ published: true
 
 Here are 6 things you should know before designing for Blockchain:
 
-## 1. What is actually a blockchain? 
+## 1. What is actually a blockchain?
 
 First things first, before designing for blockchain let’s dive deeper and find out what it is and why it is so unique? 
 
 Blockchain is still associated with the emergence of bitcoin, as a technology for the platform, which tracks every bitcoin transaction. And that is correct, however, today blockchain is something **significantly more**. The author Stephen P. Williams in his book “Blockchain: the next everything” explains that Blockchain has become a bookkeeping technology for any kind of information you would like to record in any kind of area. Blockchain records chunks of information and verifies it at each transaction, and this simple scheme makes blockchain a straightforward and at the same time trustworthy mechanism. In addition, information stored in the chain cannot be altered and this manifests blockchain as an extremely secure technology.
 
-## 2. Translate tech jargon into a simple language 
+## 2. Translate tech jargon into a simple language
 
 Tech people often use tech-related jargon and the blockchain environment is not an exception. Be prepared to come across new specialized terminology or just some technical slang. Be sure to translate it for your users especially when your blockchain product will be used by less tech-savvy users. You don’t want to scare them off. 
 
@@ -49,7 +49,7 @@ Provide precise information and eliminate all unnecessary actions. Clear communi
 
 ![BrightTreasury app](/images/bright_treasury_design.png)
 
-##  4. Make blockchain products more approachable
+## 4. Make blockchain products more approachable
 
 Blockchain projects can get a bit geeky. Remember about people outside the blockchain community. Look further in the future and make the product understandable and accessible for people who are outside the tech world, but in the future can become new users of the blockchain.
 
@@ -61,6 +61,8 @@ A developer who can explain the most bizarre peculiarities of the project - is a
 
 * The default personas in blockchain are Alice and Bob, there are more of them for the next letters in alphabetical order - Charlie, Dave, Eve, and Freddie. Maybe this is the least important fact, but I think it is a great one to know even in the design process. 
 * Blockchain avatars are a mixture of colorful dots. These dots on the avatar are unique dots that represent the account address. It is a popular concept in all blockchain networks. The dotted avatars are generated based on the blockchain address (a long series of characters).
+
+  ![polkadot dot icon avatar](/images/polkadot_avatar.png)
 * Time in Blockchain is counted in blocks, not seconds… that is why when you see a weird number or a number starting with #, you can assume that this is an indicator of the time period. So, if it is # in the beginning, this is the block’s number in which something will happen, that is, a point in time. Plus, you can also come across a situation where the number of blocks is given as a period of time. For example: "the billing period will end in 123 blocks" or "the billing period will end in block # 123". As for the conversion, the block lasts 6s in the Polkadot network. So for 123 blocks, it is for 123 * 6s or 12 minutes and 18 seconds  (I had to ask our blockchain expert Agnieszka to help me with this one 😉). 
 
   Fun, right? Yep, but don’t forget to translate it to universally used time for those outside the blockchain community.
