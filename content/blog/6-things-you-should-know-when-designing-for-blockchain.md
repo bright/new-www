@@ -45,15 +45,15 @@ The user journey should be super clear. Transparency plays a key role, each step
 
 ![BrightTreasury app](/images/bright_treasury_mockup.png)
 
-<sub>Source: [BrightTreasury application](https://treasury.bright.dev)</sub>
+<center> <sub>Source: [BrightTreasury application](https://treasury.bright.dev)</sub> </center>
 
 ### Onboarding
 
 Introduce the onboarding to your product, however, make sure it is relevant to the main features, omit secondary elements, show the uniqueness of the features, so the user does not get overwhelmed with many details. Remember, do not put more than 5 onboarding screens at once.
 
-![BrightTreasury app](/images/bright_treasury_onboarding2.png)
+![BrightTreasury app](/images/bright_treasury_onboarding3.png)
 
-<sub>Source: BrightTreasury application designs</sub>
+<center> <sub>Source: BrightTreasury application designs</sub> </center>
 
 ### Simple but solid design
 
@@ -61,7 +61,7 @@ Provide precise information and eliminate all unnecessary actions. Clear communi
 
 ![BrightTreasury app](/images/bright_treasury_design.png)
 
-<sub>Source: BrightTreasury application</sub>
+<center> <sub>Source: BrightTreasury application</sub> </center>
 
 ## 4. Make blockchain products more approachable
 
