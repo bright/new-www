@@ -17,6 +17,8 @@ Here are 6 things you should know before designing for Blockchain:
 
 ## 1. What is actually a blockchain?
 
+<iframe src="https://giphy.com/embed/8LCJTIatQun21WXGFZ" width="480" height="441" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/8LCJTIatQun21WXGFZ">via GIPHY</a></p>
+
 First things first, before designing for blockchain let’s dive deeper and find out what it is and why it is so unique? 
 
 Blockchain is still associated with the emergence of bitcoin, as a technology for the platform, which tracks every bitcoin transaction. And that is correct, however, today blockchain is something **significantly more**. The author Stephen P. Williams in his book “Blockchain: the next everything” explains that Blockchain has become a bookkeeping technology for any kind of information you would like to record in any kind of area. Blockchain records chunks of information and verifies it at each transaction, and this simple scheme makes blockchain a straightforward and at the same time trustworthy mechanism. In addition, information stored in the chain cannot be altered and this manifests blockchain as an extremely secure technology.
