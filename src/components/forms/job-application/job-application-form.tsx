@@ -132,7 +132,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
             </AttachmentUploaded>
           )}
         </div>
-        {/* {errorMsgValidation && <ErrorMessage>{errorMsgValidation}</ErrorMessage>} */}
+        {errorMsgValidation && <ErrorMessage>{errorMsgValidation}</ErrorMessage>}
       </div>
       <CheckboxField required checked={value.policy} onChange={handleChange} name='policy'>
         I accept the{' '}
@@ -152,7 +152,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           <SuccesMessage>Congrats! Your application was successfully submitted.</SuccesMessage>
         </JobApplicationModal>
       )}
-      {errorMsgValidation && <ErrorMessage>{errorMsgValidation}</ErrorMessage>}
+
       {value.isError && (
         <ErrorMessage>
           <p>Your application wasn’t submitted. Please try again.</p>
