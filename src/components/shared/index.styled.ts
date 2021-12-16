@@ -119,11 +119,17 @@ export const CustomContainer = styled.div`
     max-width: calc(100% - 18px);
   } */
 `
-export const CustomPageTitle = styled.h1`
+export const CustomPageTitle = styled.h1<{
+  fontSize?: string
+  mobileFontSize?: string
+  tabletFontSize?: string
+  tabletXLFontSize?: string
+  laptopFontSize?: string
+}>`
   ${TitleBase};
   display: block;
   font-family: Montserrat, sans-serif;
-  font-size: 3.375rem;
+  font-size: ${({ fontSize }) => (fontSize ? fontSize : '3.375rem')};
   font-weight: 800;
   line-height: 4.125rem;
   text-align: center;
@@ -132,11 +138,19 @@ export const CustomPageTitle = styled.h1`
   & > span {
     color: ${variables.color.primary};
   }
-
+  @media ${variables.device.laptop} {
+    font-size: ${({ laptopFontSize }) => (laptopFontSize ? laptopFontSize : '')};
+  }
+  @media ${variables.device.tabletXL} {
+    font-size: ${({ tabletXLFontSize }) => (tabletXLFontSize ? tabletXLFontSize : '')};
+  }
   @media ${variables.device.tablet} {
-    font-size: 2rem;
+    font-size: ${({ tabletFontSize }) => (tabletFontSize ? tabletFontSize : '2rem')};
     font-weight: 900;
     line-height: 2.44rem;
+  }
+  @media ${variables.device.mobile} {
+    font-size: ${({ mobileFontSize }) => (mobileFontSize ? mobileFontSize : '')};
   }
 `
 export const CustomConstrainedWidthContainer = styled.div`
