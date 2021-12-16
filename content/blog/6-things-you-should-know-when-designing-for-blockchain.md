@@ -47,7 +47,7 @@ Introduce the onboarding to your product, however, make sure it is relevant to t
 
 ![BrightTreasury app](/images/bright_treasury_onboarding.png)
 
-<sub>Source: BrightTreasury application</sub>
+<sub>Source: BrightTreasury application designs</sub>
 
 ### Simple but solid design
 
@@ -78,4 +78,4 @@ A developer who can explain the most bizarre peculiarities of the project - is a
 
 ## Let’s sum up
 
-Blockchain is a great modern technology field which is very convenient to build systems and apps due to its simplicity and security.  In order to design blockchain projects we should definitely understand what it is about and how it works. We should also remember that a blockchain app is like any other app, we just  have to follow universal UX rules. However, we should be aware of the fact that blockchain is now conquering the world, and more and more not tech-savvy users may want to use it, so we should design in mind of such users, and make our product approachable for everyone.
+Blockchain is a great modern technology field which is very convenient to build systems and apps due to its simplicity and security.  In order to design blockchain projects we should definitely understand what it is about and how it works. We should also remember that a blockchain app is like any other app, we just have to follow universal UX rules. However, we should be aware of the fact that blockchain is now conquering the world, and more and more not tech-savvy users may want to use it, so we should design in mind of such users, and make our product approachable for everyone.
