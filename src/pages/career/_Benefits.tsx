@@ -175,7 +175,7 @@ const Benefits: React.FC = () => {
             { image: '/images/career/benefits/image11.png', title: 'Team retreats', alt: 'Team retreats' },
             { image: '/images/career/benefits/image8.png', title: 'Internal workshops', alt: 'Internal workshops' },
             { image: '/images/career/benefits/image9.png', title: 'Mentoring', alt: 'Mentoring' },
-            { image: '/images/career/benefits/image10.png', title: 'Board game fridays', alt: 'Board game fridays' },
+            { image: '/images/career/benefits/image12.png', title: 'Board game fridays', alt: 'Board game fridays' },
           ]
         : []),
     ],
