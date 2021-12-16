@@ -81,7 +81,7 @@ export const BlockchainExperts = () => {
           <BlockchainExpertsTextRegural>
             We have experience in developing blockchain projects in Ethereum and Substrate. We believe that blockchain
             is the technology of the future that’s why we’ve developed our original project for blockchain enthusiasts
-            as well. Meet Bright Treasury – our original app built to support blockchain Substrate community.
+            as well. Meet BrightTreasury – our original app built to support blockchain Substrate community.
           </BlockchainExpertsTextRegural>
         </CustomSectionInner>
         <Link to='/projects/bright-treasury'>
