@@ -17,7 +17,13 @@ Here are 6 things you should know before designing for Blockchain:
 
 ## 1. What is actually a blockchain?
 
-<div style="width:100%;height:0;padding-bottom:92%;position:relative;"><iframe src="https://giphy.com/embed/8LCJTIatQun21WXGFZ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/8LCJTIatQun21WXGFZ">via GIPHY</a></p>
+<center>
+
+![what is blockchain giphy](/images/what_is_blockchain.gif)
+
+<sub>Source: [](https://treasury.bright.dev)[giphy.com](https://media.giphy.com/media/8LCJTIatQun21WXGFZ/giphy.gif)</sub>
+
+</center>
 
 First things first, before designing for blockchain let’s dive deeper and find out what it is and why it is so unique? 
 
