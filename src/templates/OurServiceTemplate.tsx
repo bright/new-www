@@ -129,7 +129,11 @@ export default function Template({ data, params, pageContext }: any) {
         </CustomSectionInner>
       </CustomSectionOurService>
       <OurServiceHideTablet>
-        <CustomSection paddingProps='0 15rem 3.5rem '>
+        <CustomSection
+          paddingProps='0 15rem 2.125rem '
+          paddingTabletXL='0 9rem 1.3125rem '
+          paddingLaptop='0 6rem 1.6875rem '
+        >
           <CustomSectionInner maxWidth='956px'>
             <Link to={'#contactForm'}>
               <BlackButtonOurService>{button}</BlackButtonOurService>

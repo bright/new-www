@@ -5,10 +5,22 @@ import variables from '../../styles/variables'
 import { HideTablet } from './../../components/shared/index.styled'
 
 export const CustomSectionOurService = styled(CustomSection)`
-  padding-top: ${variables.pxToRem(48)};
-  padding-bottom: 0;
-
+  padding-top: ${variables.pxToRem(64)};
+  padding-bottom: ${variables.pxToRem(64)};
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(45)};
+    padding-bottom: ${variables.pxToRem(54)};
+  }
+  @media ${variables.device.tabletXL} {
+    padding-top: ${variables.pxToRem(60)};
+    padding-bottom: ${variables.pxToRem(48)};
+  }
   @media ${variables.device.tablet} {
+    padding-top: ${variables.pxToRem(48)};
+    padding-bottom: ${variables.pxToRem(44)};
+  }
+
+  @media ${variables.device.mobile} {
     padding-top: ${variables.pxToRem(48)};
     padding-bottom: ${variables.pxToRem(44)};
   }
@@ -184,20 +196,25 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
 
 export const BlackButtonOurService = styled(BlackButton)<{ marginTopTablet?: string }>`
   margin: 0 auto;
-  margin-top: ${variables.pxToRem(105)};
   display: flex;
   justify-content: center;
   text-align: center;
-
-  @media ${variables.device.tablet} {
-    margin-top: ${({ marginTopTablet }) => (marginTopTablet ? marginTopTablet : `${variables.pxToRem(64)}`)};
-  }
+  margin-top: 0;
 `
 export const ImageWrapper = styled.div`
   && .about-img {
     display: block;
     margin: auto;
-    max-width: ${variables.pxToRem(1295)};
+    max-width: 69%;
+    @media ${variables.device.laptop} {
+      max-width: 80%;
+    }
+    @media ${variables.device.tabletXL} {
+      max-width: 72%;
+    }
+    @media ${variables.device.tablet} {
+      max-width: 100%;
+    }
   }
 `
 export const OurServiceHideTablet = styled(HideTablet)`
