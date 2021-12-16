@@ -43,9 +43,9 @@ Nevertheless, there are a few aspects you should put extra attention to:
 
 The user journey should be super clear. Transparency plays a key role, each step must be explicit and coherent. What does it mean? It means that as a designer you should add loaders showing progress, breadcrumbs, step navigations, etc. Make sure your user knows what is going on, especially when the transaction is going through, or if any status change occurs. Below you can find the example taken from our [BrightTreasury app](/projects/bright-treasury/). 
 
-![BrightTreasury app](/images/bright_treasury_mockup.png)
+![BrightTreasury app](/images/bright_treasury_mockup4.png)
 
-<center> <sub>Source: [BrightTreasury application](https://treasury.bright.dev)</sub> </center>
+<center> <sub>Source: \[BrightTreasury application](https://treasury.bright.dev)</sub> </center>
 
 ### Onboarding
 
@@ -59,7 +59,7 @@ Introduce the onboarding to your product, however, make sure it is relevant to t
 
 Provide precise information and eliminate all unnecessary actions. Clear communication is substantial. Give apparent explanations like hints and tooltips when necessary. Make sure your product is very simple to use, thus this simplicity is not a thief of the important elements, solidness, and credibility. 
 
-![BrightTreasury app](/images/bright_treasury_design.png)
+![BrightTreasury app](/images/bright_treasury_mockup3.png)
 
 <center> <sub>Source: BrightTreasury application</sub> </center>
 
