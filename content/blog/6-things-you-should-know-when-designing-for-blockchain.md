@@ -45,7 +45,7 @@ The user journey should be super clear. Transparency plays a key role, each step
 
 Introduce the onboarding to your product, however, make sure it is relevant to the main features, omit secondary elements, show the uniqueness of the features, so the user does not get overwhelmed with many details. Remember, do not put more than 5 onboarding screens at once.
 
-![BrightTreasury app](/images/bright_treasury_onboarding.png)
+![BrightTreasury app](/images/bright_treasury_onboarding2.png)
 
 <sub>Source: BrightTreasury application designs</sub>
 
