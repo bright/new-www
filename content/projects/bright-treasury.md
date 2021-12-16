@@ -1,7 +1,7 @@
 ---
 layout: project
 project_id: bright-treasury
-title: Bright Treasury
+title: BrightTreasury
 image: /images/treasuryapp_www.png
 description: "A web application that will support members of Substrate
   Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury
@@ -43,7 +43,7 @@ The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocur
 
 ## Goal
 
-Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. Bright Treasury application will help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that Bright Treasury app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
+Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright) application will help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that BrightTreasury app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
 
 ## Process 
 
@@ -56,7 +56,7 @@ Based on the discussions with the Substrate networks’ users and council member
 
 Following these needs, we have proposed a solution that will benefit the Substrate chains communities.
 
-The development process is broken into 3 milestones. The first one was completed in July 2021. The rest of them are planned to be completed by 2021. 
+The development process was broken into 3 milestones. The first one was completed in July 2021. The rest of them were completed by 2021. 
 
 ![Bright Treasury blockchain](/images/treasury_www_3.png)
 
@@ -74,4 +74,4 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 
 ## Result
 
-After completing [first](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/) and second milestone, our team is working on the final step of this project. Having features for ideas and proposal handling developed, now we focus on implementation of the bounties mechanism. We plan to launch the product by the end of 2021. After that, we want to still work closely with Web3 Foundation that has made it possible to turn our idea into a web solution dedicated to the Substrate Blockchain community.
+After completing [](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/)all milestones, we released the app in December 2021. [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2) is now live!
