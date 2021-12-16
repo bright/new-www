@@ -2,7 +2,7 @@
 author: alisa
 tags:
   - design
-  - block
+  - blockchain
 date: 2021-12-16T09:16:48.134Z
 title: 6 things you should know when designing for Blockchain
 layout: post
