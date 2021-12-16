@@ -19,12 +19,20 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
       />
 
       <CustomSection
-        paddingProps='3.3125rem 0  3rem'
-        paddingLaptop='3.3125rem 0  3rem'
-        paddingTablet='2rem 2.25rem 1rem'
-        paddingTabletXL='2.5rem 0 2,5rem'
+        paddingProps='4rem 0  4rem'
+        paddingLaptop='2.8125 0  3.375rem'
+        paddingTablet='3rem 2.25rem 2.75rem'
+        paddingTabletXL='3.75rem 0 3rem'
       >
-        <CustomPageTitle>our services</CustomPageTitle>
+        <CustomPageTitle
+          mobileFontSize='32px'
+          tabletFontSize='38px'
+          tabletXLFontSize='38px'
+          laptopFontSize='44px'
+          fontSize='48px'
+        >
+          our services
+        </CustomPageTitle>
       </CustomSection>
       <CustomSection>
         <CustomPageDescription fontSize='1.25rem'>
