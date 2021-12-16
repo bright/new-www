@@ -45,7 +45,7 @@ The user journey should be super clear. Transparency plays a key role, each step
 
 ![BrightTreasury app](/images/bright_treasury_mockup4.png)
 
-<center> <sub>Source: \[BrightTreasury application](https://treasury.bright.dev)</sub> </center>
+<center> <sub>Source: BrightTreasury application</sub> </center>
 
 ### Onboarding
 
