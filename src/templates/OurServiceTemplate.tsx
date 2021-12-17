@@ -31,6 +31,7 @@ import {
   FaqsTextRegural,
   OurServiceHideTablet,
   OurServicePageTitle,
+  OurServiceSection,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { HideTablet } from '../components/shared'
@@ -136,7 +137,7 @@ export default function Template({ data, params, pageContext }: any) {
         >
           <CustomSectionInner maxWidth='956px'>
             <Link to={'#contactForm'}>
-              <BlackButtonOurService>{button}</BlackButtonOurService>
+              <BlackButtonOurService marginTop='0'>{button}</BlackButtonOurService>
             </Link>
           </CustomSectionInner>
         </CustomSection>
@@ -167,14 +168,14 @@ export default function Template({ data, params, pageContext }: any) {
       </CustomSection>
 
       <CustomSection paddingProps='0 15rem 5.625rem 15rem' paddingMobileProps='0 1.125rem 4rem'>
-        <Section>
+        <OurServiceSection>
           <CustomSectionInner>
             <Content className='content' dangerouslySetInnerHTML={{ __html: html }} />
             <Link to={'#contactForm'}>
               <BlackButtonOurService>{button2}</BlackButtonOurService>
             </Link>
           </CustomSectionInner>
-        </Section>
+        </OurServiceSection>
       </CustomSection>
 
       {show_technology_stack && <TechnologyTags />}

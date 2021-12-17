@@ -26,7 +26,7 @@ export const CustomSectionOurService = styled(CustomSection)`
   }
 `
 
-export const Section = styled.section`
+export const OurServiceSection = styled.section`
   padding: 0 0 ${variables.pxToRem(186)};
   color: #131214;
 
@@ -37,18 +37,16 @@ export const Section = styled.section`
     & img {
       opacity: 1;
     }
-
-    & li {
-      opacity: 0.75;
-      margin-bottom: 1em;
-      @media ${variables.device.tablet} {
-        opacity: 1;
-        font-size: ${variables.pxToRem(16)};
-        line-height: ${variables.pxToRem(28)};
-      }
+  }
+  & .content > ul > li {
+    opacity: 0.75;
+    margin-bottom: 1em;
+    @media ${variables.device.tablet} {
+      opacity: 1;
+      font-size: ${variables.pxToRem(16)};
+      line-height: ${variables.pxToRem(28)};
     }
   }
-
   @media ${variables.device.tablet} {
     padding: 0 0 ${variables.pxToRem(82)};
   }
@@ -194,12 +192,16 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
   }
 `
 
-export const BlackButtonOurService = styled(BlackButton)<{ marginTopTablet?: string }>`
+export const BlackButtonOurService = styled(BlackButton)<{ marginTopTablet?: string; marginTop?: string }>`
   margin: 0 auto;
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 0;
+  margin-top: ${({ marginTop }) => (marginTop ? marginTop : `${variables.pxToRem(105)}`)};
+
+  @media ${variables.device.tablet} {
+    margin-top: ${({ marginTopTablet }) => (marginTopTablet ? marginTopTablet : `${variables.pxToRem(64)}`)};
+  }
 `
 export const ImageWrapper = styled.div`
   && .about-img {
