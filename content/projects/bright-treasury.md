@@ -56,7 +56,7 @@ Based on the discussions with the Substrate networks’ users and council member
 
 Following these needs, we have proposed a solution that will benefit the Substrate chains communities.
 
-The development process was broken into 3 milestones. The first one was completed in July 2021. The rest of them were completed by 2021. 
+The development process was broken into three milestones. The first two were completed in July 2021. The third one will be completed in 2022. 
 
 ![Bright Treasury blockchain](/images/treasury_www_3.png)
 
@@ -74,4 +74,6 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 
 ## Result
 
-After completing [](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/)all milestones, we released the app in December 2021. [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2) is now live!
+[BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2) is live! 
+
+After completing [](/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/)two milestones, we released the app in December 2021. [](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright2)Now we work on features included in milestone number 3.
