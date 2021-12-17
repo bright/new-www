@@ -25,7 +25,7 @@ short_description: You can count on our expertise in interface analysis,
 order: 5
 title: embrace your idea with product design
 intro: Every software needs a design touch.
-image_our_service: /images/productdesign_small.png
+image_our_service: /images/productdesign_2.png
 image_alt_our_service: product design
 description: >-
   We know what it takes to create not only functional but also beautifully
