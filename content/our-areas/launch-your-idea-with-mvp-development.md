@@ -27,7 +27,7 @@ meta_title: MVP Development Agency
 meta_description: Since 2012 we have developed MVPs for clients from the UK,
   Germany, Israel and more. We build MVPs for startups, corporations and digital
   agencies. Contact us!
-our_services_icon: /images/mvp_development2.png
+our_services_icon: /images/mvp_development.png
 name: MVP development
 slug: mvp-development
 short_description: Build an MVP to shorten time to market. We have developed
