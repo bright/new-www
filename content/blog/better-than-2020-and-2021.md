@@ -12,7 +12,7 @@ hidden: false
 comments: true
 published: true
 ---
-We are settling quite comfortably into 2022 very soon, so let’s take a moment to look back at 2020 and 2021 from some distance. We are truly blessed to have moved through these two years the way we did. Although immensely challenging on many levels, the last two years have made us stronger, better and more aware of who we are and what we are capable of doing.
+We are going to settle quite comfortably into 2022, so let’s take a moment to look back at two last years from some distance. We are truly blessed to have moved through these two years the way we did. Although immensely challenging on many levels this time has made us stronger, better and more aware of who we are and what we are capable of doing.
 
 ## Pandemic
 
