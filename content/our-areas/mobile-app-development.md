@@ -36,7 +36,7 @@ short_description: We offer native mobile app development for iOS and Android.
 order: 1
 title: build native apps with mobile development team
 intro: Our team has broad experience in building applications for iOS and Android.
-image_our_service: /images/mobile_app_development2.png
+image_our_service: /images/mobile_app_development.png
 image_alt_our_service: mobile app development company
 description: >-
   At Bright Inventions, we live and breathe **native mobile app development for
@@ -45,8 +45,8 @@ description: >-
 
 
   Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
-button: let's talk mobile
-button2: let's talk mobile
+button: let's talk about mobile
+button2: let's talk about mobile
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -57,7 +57,8 @@ show technology stack: true
 title_contact: let’s talk about your mobile app project
 show case study: true
 description_contact: Tell us more about your mobile project or idea for an app.
-  Fill the form below, or drop us a line via info@brightinventions.pl.
+  Fill the form below, or drop us a line via
+  [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## Mobile app development services
 
