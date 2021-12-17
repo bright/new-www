@@ -7,6 +7,7 @@ tags:
 date: 2021-12-17T07:16:36.653Z
 title: Better than 2020 (and 2021)
 layout: post
+image: /images/blogpost_2020-2021_2.2.png
 hidden: false
 comments: true
 published: true
