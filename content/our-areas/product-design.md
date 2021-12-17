@@ -25,7 +25,7 @@ short_description: You can count on our expertise in interface analysis,
 order: 5
 title: embrace your idea with product design
 intro: Every software needs a design touch.
-image_our_service: /images/productdesign_small.png
+image_our_service: /images/productdesign_2.png
 image_alt_our_service: product design
 description: >-
   We know what it takes to create not only functional but also beautifully
@@ -35,8 +35,8 @@ description: >-
 
 
   We have worked on design projects of all sizes – from simple mobile apps to scalable enterprise software systems. We’ll happily discuss how we can turn your idea or design brief into a polished final product, optimized for all devices and platforms.
-button: let's talk design
-button2: let’s talk design
+button: let's talk about design
+button2: let’s talk about design
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -46,7 +46,7 @@ title_faqs: product design FAQs
 title_contact: let’s design your product
 description_contact: Tell us more about your project or idea for an app. We will
   take care of the rest. Fill the form below, or drop us a line via
-  info@brightinventions.pl.
+  [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## Product design services that we offer
 

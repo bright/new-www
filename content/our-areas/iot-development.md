@@ -37,8 +37,8 @@ description: We are Bright Inventions – a software development company
   restaurants, retail, eHealth and fintech industries. Since 2012 we have
   developed software for more than 40 clients from the USA, the UK, Norway,
   Israel and more.
-button: let's talk IoT
-button2: let's talk IoT
+button: let's talk about IoT
+button2: let's talk about IoT
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -49,7 +49,7 @@ title_contact: let’s talk about your IoT solution
 description_contact: It doesn’t matter if your project is just an idea or you
   have already been developing an existing system. We will help you in any phase
   of your software development. Fill the form below, or drop us a line via
-  info@brightinventions.pl.
+  [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## Is the IoT solutions company a good fit for you?
 

@@ -35,7 +35,7 @@ short_description: Build an MVP to shorten time to market. We have developed
 order: 4
 title: launch your idea with MVP development
 intro: We are an experienced MVP partner ready to assist you.
-image_our_service: /images/mvp_development_small.png
+image_our_service: /images/mvp_development2.png
 image_alt_our_service: mvp development company
 description: Do you want to build an MVP? You came to the right place. We have
   developed MVPs for startups, NGOs and consulting agencies from the USA, UK,
@@ -50,7 +50,8 @@ title_case_study: MVPs that we have developed
 title_faqs: MVP development FAQs
 title_contact: let’s talk about your MVP
 description_contact: Tell us more about your project or idea for an app. Fill
-  the form below, or drop us a line via info@brightinventions.pl.
+  the form below, or drop us a line via
+  [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## Is MVP right for your business?
 

@@ -45,8 +45,8 @@ description: We provide a wide range of **custom full-stack web development
   experience in developing web apps, web services, and websites that are
   tailor-made to fit our clients’ goals. We’ve worked with clients from the UK,
   the USA, Germany, Netherlands and more.
-button: let’s talk web
-button2: let’s talk web
+button: let’s talk about web
+button2: let’s talk about web
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -55,7 +55,8 @@ title_case_study: web solutions that we have worked on
 title_faqs: web development services FAQs
 title_contact: let’s talk about your web project
 description_contact: Tell us more about your web project or idea for an app.
-  Fill the form below, or drop us a line via info@brightinventions.pl.
+  Fill the form below, or drop us a line via
+  [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## web development services
 
