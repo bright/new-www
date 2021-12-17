@@ -29,8 +29,8 @@ description: Join the serverless movement. Improve security and reduce costs
   cloud application from the scratch. As an AWS cloud services provider, we will
   assist you every step of the way. Since 2012 we have developed applications in
   the cloud for startups and mid-sized organisations.
-button: let's talk cloud
-button2: let's talk cloud
+button: let's talk about cloud
+button2: let's talk about cloud
 published: true
 show_case_study: true
 show_technology_stack: true
@@ -39,7 +39,8 @@ title_case_study: cloud services projects we have worked on
 title_faqs: cloud services FAQs
 title_contact: let’s talk about your cloud solution
 description_contact: Are you looking for a cloud computing company? Fill the
-  form below, or drop us a line via info@brightinventions.pl.
+  form below, or drop us a line via
+  [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## AWS cloud services
 
