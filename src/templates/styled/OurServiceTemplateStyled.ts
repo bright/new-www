@@ -39,7 +39,7 @@ export const OurServiceSection = styled.section`
     }
   }
   & .content > ul > li {
-    opacity: 0.75;
+    opacity: 1;
     margin-bottom: 1em;
     @media ${variables.device.tablet} {
       opacity: 1;
