@@ -14,6 +14,8 @@ published: true
 ---
 **For Agata, sport is a way to relax. Jogging, snowboarding, kitesurfing, pole dancing – there is an endless list of activities she enjoys. Her entrepreneurial path brought her to Bright Inventions. As a social media specialist, she shows the true spirit of our bright team. Armed with a notepad and pen she always catches every new technical phrase that she hears in our office and fiercely investigates its meanings. All of that to show you what we do at Bright Inventions. Read about Agata’s incredible path that brought her to our team.**
 
+![Agata's career story](/images/agata_bright_story.png)
+
 ## I see you at almost every workout we have at Bright Inventions. How important is sport in your life?
 
 Sport plays a huge role in my life. I am engaged in some type of sports activity every day. Unless I exercise it affects my wellbeing and I cannot relax. It could be a kind of addiction of mine. Since I believe that no addiction is healthy (even sports) I sometimes force myself to simply sit on the couch and "do nothing". However, things weren’t always like this. I used to be "chubby" and avoided sports activities. :)
@@ -46,15 +48,21 @@ I loved that online marketing has such power. **I could achieve much more online
 
 Soon after that, **I saw a job offer for social media specialists published by Bright Inventions. I figured that I can use my knowledge and experience somewhere else**, too. And that is how I am finding myself at a software development company. :)
 
+![Agata – social media specialist at Bright Inventions](/images/agata_quote3.png)
+
 ## How is it to run social media profiles for software development companies like Bright Inventions? How do you acquire knowledge about the IT world?
 
 When I joined Bright Inventions I had no background in software development. I was attending meetings and I didn't understand every second word I heard. So **I noted every mysterious word, went to lunch with developers and asked them about every single thing I didn’t understand**. I believe that I can learn by talking to people and using Google. That’s a perfect combination for me. :) 
+
+![Agata – social media specialist at Bright Inventions](/images/agata_quote.png)
 
 ## How important is social media for Bright Inventions’s communication?
 
 Social platforms take a crucial part in our communication strategy. In my view, social media can be a great tool for every industry, especially IT. We can have discussions about whether or not programmers use Facebook, Instagram or maybe LinkedIn but there is no doubt that **our social lives are moving to the Internet**. Maybe that is a sad trend but it is happening. **It is up to us how we are going to be present there.** 
 
 On social media we show projects that we develop, devices that we use on a daily basis and lots of passion and free-time activities that our team enjoys. We also share insights about the software development process. **If somebody wants to join our team, one can easily follow our social media and I guarantee that the message is clear what it means to be a part of our team.** I think it also helps to simply check if we might be a good match for someone. 
+
+![Agata – social media specialist at Bright Inventions](/images/agata_quote2.png)
 
 ## What is ahead of you?
 
