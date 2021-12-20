@@ -81,7 +81,7 @@ const JobHourWrapper = styled.div`
     & :after {
       position: absolute;
       top: 50%;
-      left: 50%;
+      left: 35%;
       transform: translateY(-50%);
       font-size: ${variables.pxToRem(20)};
       content: '•';
@@ -280,7 +280,7 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
             <JobLink to={routeLinks.jobs + getJobPath(job.url)}>
               <JobSubtitleWrapper>
                 <JobHourWrapper>
-                  <span className='job'>{job.hours}</span>Gdańsk
+                  <span className='job'>{job.hours}</span>Gdańsk/remote
                 </JobHourWrapper>
                 <JobSubtitle>{job.subtitle}</JobSubtitle>
               </JobSubtitleWrapper>
