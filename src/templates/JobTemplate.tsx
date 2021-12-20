@@ -292,7 +292,7 @@ export default function Template({
         </TechnologyWrapper>
 
         <a href='#jobform'>
-          <JobBlackButton type='submit'>{page.button}</JobBlackButton>
+          <JobBlackButton>{page.button}</JobBlackButton>
         </a>
         <ImageWrapper>
           <GatsbyImage image={image} alt={page.image_alt_job} className='about-img' quality='100' />
