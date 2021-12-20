@@ -30,15 +30,15 @@ We have updated and altered our recruiting, onboarding and project management pr
 
 ## Extending the team
 
-As we mentioned before, Bright has been really blessed with not experiencing any direct dramatic effects of the pandemic. On the contrary, we opened a number of new positions and were quite successful with filling them with bright-minded specialists.. Obviously, onboarding of new team members was far from ordinary and primarily the most challenging for them. Entering a new company where you don’t get to see all the faces on a daily basis and have limited ways to mingle with others must be tough. We learned as we moved on to listen to each person who joined us and took the lessons to improve onboarding of others. One of the things that worked best was to make ways to meet in person as much as possible. 
+As we mentioned before, Bright has been really blessed with not experiencing any direct dramatic effects of the pandemic. On the contrary, we opened a number of new positions and were quite successful with filling them with bright-minded specialists. Obviously, onboarding of new team members was far from ordinary and primarily the most challenging for them. Entering a new company where you don’t get to see all the faces on a daily basis and have limited ways to mingle with others must be tough. We learned as we moved on to listen to each person who joined us and took the lessons to improve onboarding of others. One of the things that worked best was to make ways to meet in person as much as possible. 
 
-Before the pandemics started in the end of 2019 you could find in our team about 30 people, now we are almost 70 and we are still growing. 
+Before the pandemic breakout in the early 2020 there were about 30 bright people in our team, now we are almost 70 and we are still growing. Despite the challenges and some uncertainties we have made our way in the "new" Covid-19 world while focusing on building and developing strong team culture. 
 
 ![](/images/number_of_bright_employees.png)
 
-There are team members who come to the office every day. There are some who drop by twice a week or just come over from time to time to meet in person and spend some time together with their project mates. For us it is completely fine as long as the high quality of communication and work-life balance are sustained. We like keeping an individual approach to each and every member of the team. Of course, the rules are the same for all, but everyone can choose how they work. 
+There are team members who come to the office every day. There are some who drop by twice a week or just come over from time to time to meet in person and spend some time together with their project mates. As long as the high quality of communication and work-life balance are sustained we are ok with that. What we approve of at Bright is individualisation and keeping personal approach to each and every member of the team. Of course, the rules and opportunities to take are the same for all, but everyone can choose how they work. 
 
-We believe that to achieve real success you have to develop your skills and adjust all the time, and you have to collaborate with ambitious and talented people. **Our team can work closely with each other regardless of whether they are in the office or not. Nowe we know it. The details of location are less significant than people’s attitude to teamwork in general.** 
+We believe that to achieve real success you have to develop your skills and adjust all the time.  **Our team can work closely with each other regardless of wherever they are, in the office or at home. Nowe we know it. The details of location are less significant than people’s responsibility and attitude to teamwork in general.** 
 
 ## Bright sport
 
