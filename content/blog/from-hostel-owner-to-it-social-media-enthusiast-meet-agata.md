@@ -50,13 +50,13 @@ Lockdown forced me to move my restaurant business online. **I started an online 
 
 As I mentioned before COVID-19 I had been working on rebranding for my restaurant and then I first started to be involved in marketing activities. I enjoyed it. The lockdown came and I knew that I had to go online with my business. 
 
+![Agata – social media specialist at Bright Inventions](/images/agata_quote3.png)
+
 I loved that online marketing has such power. **I could achieve much more online and build the awareness about my products on a much bigger scale compared to local business.** Before that I thought that you don’t need marketing, you just need a good product and the word about it will spread itself. Now I see that social media speeds up the spread! 
 
 I started to explore the social media management world. I didn't have too much of a budget and still gained satisfying results. I started with influencer marketing and was positively amazed that it worked. I think everyone loves to do something that gives results. I was fierce. I pushed myself to get better and better results. **I loved to analyze how my content worked and see people's reactions**. Satisfying results just gave me the power to engage more and more in marketing. 
 
 Soon after that, **I saw a job offer for social media specialists published by Bright Inventions. I figured that I can use my knowledge and experience somewhere else**, too. And that is how I am finding myself at a software development company. 🙂
-
-![Agata – social media specialist at Bright Inventions](/images/agata_quote3.png)
 
 ## How is it to run social media profiles for software development companies like Bright Inventions? How do you acquire knowledge about the IT world?
 
