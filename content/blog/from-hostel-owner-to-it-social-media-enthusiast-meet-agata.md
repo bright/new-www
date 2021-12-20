@@ -28,6 +28,8 @@ I wouldn’t consider my sports activities as training. In my view, when you tra
 
 Apart from jogging, I enjoy kiteboarding in summer and snowboarding during winter. I love pole dancing. I could go to the workouts every day however this activity is very physically demanding. I have to keep in mind that I am not a high-performance athlete. I have joined mountain biking training with Bartosz Banach (a pro triathlete who conducts exercises sessions for the Bright Inventions team). However, this is definitely an activity that has forced me to leave my comfort zone. Riding off-road and especially mountain biking was scary for me at first. I think that it was a matter of feeling confident on the bike. I love snowboarding, and I don't have problems riding from high and challenging slopes. Fortunately, I am starting to feel confident on my bike, and the real fun has begun.
 
+![kitesurfing](/images/kitesurfing_agata.jpeg)
+
 ## In your twenties you opened 2 hostels in Gdansk then a restaurant. How do you recall your entrepreneurial journey?
 
 Somewhere around my third year of studies, I talked to a fellow student. He told me that the best way to start a profitable business is to run hostels. It was just before the UEFA European Football Championship that was held in 2012 in Poland. The reality wasn’t as idyllic as my friend thought. 
