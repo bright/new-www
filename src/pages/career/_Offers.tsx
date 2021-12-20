@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
-import { SectionInner, MoreButton, SectionTitle, CustomSection, CustomSectionInner } from '../../components/shared'
+import { CustomSection } from '../../components/shared'
 import { createJobs } from '../../models/creator'
 import OffersList from './_OffersList'
-import OffersAll from './_OffersAll'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { CustomSectionTitle } from '../../components/shared/index.styled'
@@ -33,10 +32,8 @@ const Offers: React.FC = () => {
   return (
     <CustomSection id='open-positions'>
       <ParagraphHeader>job offers</ParagraphHeader>
-      <CustomSectionInner>
-        <OffersList jobs={createJobs(useStaticQuery(jobsQuery))} />
-        {showAll ? <OffersAll /> : <MoreButton onClick={() => setShowAll(true)}>view all job offers</MoreButton>}
-      </CustomSectionInner>
+
+      <OffersList jobs={createJobs(useStaticQuery(jobsQuery))} />
     </CustomSection>
   )
 }
@@ -45,7 +42,7 @@ const jobsQuery = graphql`
   query {
     allMarkdownRemark(
       filter: { frontmatter: { layout: { eq: "job" }, published: { eq: true } } }
-      limit: 4
+
       sort: { fields: [frontmatter___order] }
     ) {
       edges {

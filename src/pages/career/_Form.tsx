@@ -7,7 +7,7 @@ const Form: React.FC = () => {
   return (
     <div className='container'>
       <CustomSection>
-        <SectionInner>
+        <SectionInner id='contact'>
           <FormComponent
             style={{ marginTop: '1rem' }}
             title={'didn’t find a suitable position for you?'}
