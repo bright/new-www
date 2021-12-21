@@ -15,7 +15,7 @@ faqs:
   - product workshop 9
   - product workshop 10
   - product workshop 11
-  - agile workshop 3
+  - product workshop 3
 project:
   - bright-treasury
 layout: our-service
