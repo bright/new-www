@@ -6,7 +6,7 @@ tags:
   - communication
   - inspiration
 date: 2021-12-20T11:48:15.996Z
-title: The importance of feedback in Bright recruitment process
+title: The Importance of Feedback in Bright Recruitment Process
 layout: post
 image: /images/feedback.jpeg
 hidden: false
@@ -26,19 +26,19 @@ First things first** - we do our best to give you feedback at literally every st
 \
 **Ask me anything** - I’m here to help you! Where else than in a conversation with a recruiter will you have a better opportunity to talk through your concerns, dilemmas, questions? We believe that the more you will learn about us, the more certain you will be about your new potential team at the end of the recruitment process. It’s simple. Feel free to ask about anything during a LinkedIn conversation, screening or later on during an interview. You should be certain about your decision. So ask and express directly how you feel about things, it is your time. We will always give you feedback about what is acceptable for us and what is not. Wouldn’t you agree it is much better when both a recruiter and a candidate are on the same page? I’m sure you would! 
 
-**Your time is precious** - indeed, as is mine. I respect that you have your life, your own commitments as I have them, too. :) What we can do for ourselves is giving each other feedback continuously and on every occasion. It enables us - me as a recruiter and you as a candidate - to swap information more effectively, to gather those which are significant, and to confront your wishes and expectations with the company potential and opportunities. To cut the long story short - it gives us (yes, we’re a team now;)) a chance to run your recruitment process with high effectiveness in a shorter time.
+**Your time is precious** - indeed, as is mine. I respect that you have your life, your own commitments as I have them, too. 🙂 What we can do for ourselves is giving each other feedback continuously and on every occasion. It enables us - me as a recruiter and you as a candidate - to swap information more effectively, to gather those which are significant, and to confront your wishes and expectations with the company potential and opportunities. To cut the long story short - it gives us (yes, we’re a team now 💪) a chance to run your recruitment process with high effectiveness in a shorter time.
 
 ![](/images/join_bright_team.png)
 
 ## Enough of talking, let’s get down to business - to be more specific, there are some significant moments during our recruitment process when you are getting the feedback from us:
 
 1. **Screening stage.** Here we talk either on Linkedin and/or via phone. You ask me questions and I respond by giving you feedback and additional information.
-2. **Recruitment meeting so-called interview.** :) Here we have two parts: technical run by one of our developers and non-technical run by our bright recruitment team where we refer to our [core values](https://brightinventions.pl/about-us/values/). Now is the best time for you not only to listen about our opportunities, but also to watch carefully from a bird’s view how we act as a team in live. You can see our emotions, manners of behaviour and feel the team atmosphere during the interview. We want you to be sure our core values are alive.
+2. **Recruitment meeting so-called interview.** 🙂 Here we have two parts: technical run by one of our developers and non-technical run by our bright recruitment team where we refer to our [core values](https://brightinventions.pl/about-us/values/). Now is the best time for you not only to listen about our opportunities, but also to watch carefully from a bird’s view how we act as a team in live. You can see our emotions, manners of behaviour and feel the team atmosphere during the interview. We want you to be sure our core values are alive.
 3. **Straight after the technical part of the meeting** we provide you with transparent feedback about your skills presented during the conversation with a tech recruiter. You are informed at which career level you are now according to our Bright career path. After the non-technical part, you receive feedback about your English skills and the overall performance. 
 4. **Technical task is the last step of our recruitment process**. You get feedback after your task is reviewed by the tech recruiter. We are always trying to be very stick-to-the-point and as specific as developers can be. The feedback usually involves some recommendations that may help you grow and develop your skills in the future. At this very moment we encourage you once again to share your feedback with us - especially when you feel that what we have said is not enough - your tech recruiter is happy to elaborate more if needed.
 
    ![](/images/recruitment-process.png)
 
-You won’t be surprised if I say our very last recruitment step is feedback. :D **After the whole process you are required to evaluate our recruitment journey - regardless of the final decision. And even if the feedback is not as satisfying as we all may wish for… remember that it helps us all grow and improve both as recruits, developers and humans.** 
+You won’t be surprised if I say our very last recruitment step is feedback. 😀 **After the whole process you are required to evaluate our recruitment journey - regardless of the final decision. And even if the feedback is not as satisfying as we all may wish for… remember that it helps us all grow and improve both as recruits, developers and humans.** 
 
 See you soon while talking about your career!
