@@ -8,12 +8,14 @@ tags:
 date: 2021-12-20T11:48:15.996Z
 title: The Importance of Feedback in Bright Recruitment Process
 layout: post
-image: /images/feedback.jpeg
+image: /images/feedback_blog_post2.png
 hidden: false
 comments: true
 published: true
 ---
 Many words about team communication have already been said in this world. But we must remind ourselves that effective communication must have an element that connects the sender's message with the receiver's interpretation. The best solution here is (apart from active listening) FEEDBACK. 
+
+![feedback in recruitment process](/images/feedback_blog_post2.png)
 
 We can use it in iterations - then it becomes CONTINUOUS FEEDBACK and thanks to it we are constantly updated with the messages we hear. So simple, but when it is missing - teamwork begins to be a horror. Post that statement on your wall. :) **Communication without feedback is not communication - it is a one-way messaging**. **And what is worse - it is a denial of effectiveness, which affects the quality of cooperation in a team.** Sad, but true. It will also cause misinterpretations, the formation of false beliefs, some misunderstanding of the sender's intentions, and often unpleasant emotions. 
 
