@@ -15,6 +15,8 @@ published: true
 ---
 Many words about team communication have already been said in this world. But we must remind ourselves that effective communication must have an element that connects the sender's message with the receiver's interpretation. The best solution here is (apart from active listening) FEEDBACK. 
 
+![feedback in recruitment process](/images/feedback_blog_post2.png)
+
 We can use it in iterations - then it becomes CONTINUOUS FEEDBACK and thanks to it we are constantly updated with the messages we hear. So simple, but when it is missing - teamwork begins to be a horror. Post that statement on your wall. :) **Communication without feedback is not communication - it is a one-way messaging**. **And what is worse - it is a denial of effectiveness, which affects the quality of cooperation in a team.** Sad, but true. It will also cause misinterpretations, the formation of false beliefs, some misunderstanding of the sender's intentions, and often unpleasant emotions. 
 
 Luckily, in our team we have a culture of continuous feedback - all its aspects and usage have already been described in detail in [Ula's article](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/). Each of us perceives continuous feedback as a great value that we want to spread even further, outside our team, outside our day-to-day Bright life and also during the recruitment process. Our goal is to demonstrate this value transparently from the very first contact with our beloved candidates. Sharing is caring, right? 
