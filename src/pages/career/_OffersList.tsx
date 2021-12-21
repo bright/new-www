@@ -69,12 +69,12 @@ const JobSubtitleWrapper = styled.div`
   }
 `
 const JobHourWrapper = styled.div`
-  position: relative;
   font-size: ${variables.pxToRem(20)};
   line-height: ${variables.pxToRem(40)};
   font-family: ${variables.font.customtext.lato};
 
   & .job {
+    position: relative;
     margin-right: 2rem;
     font-weight: 600;
     text-transform: lowercase;
@@ -82,14 +82,14 @@ const JobHourWrapper = styled.div`
     & :after {
       position: absolute;
       top: 50%;
-      left: 35%;
+      right: -21.81px;
       transform: translateY(-50%);
       font-size: ${variables.pxToRem(20)};
       content: '•';
     }
     @media ${variables.device.mobile} {
       & :after {
-        left: 35.5%;
+        right: -20.64px;
         font-size: ${variables.pxToRem(16)};
       }
     }
