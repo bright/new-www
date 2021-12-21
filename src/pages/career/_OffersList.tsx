@@ -86,6 +86,13 @@ const JobHourWrapper = styled.div`
       font-size: ${variables.pxToRem(20)};
       content: '•';
     }
+    @media ${variables.device.mobile} {
+      margin-right: 1rem;
+      & :after {
+        left: 33%;
+        font-size: ${variables.pxToRem(16)};
+      }
+    }
   }
   @media ${variables.device.laptop} {
     font-size: ${variables.pxToRem(16)};
@@ -225,6 +232,7 @@ const JobSubtitle = styled(Subtitle)`
 
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(13)};
+    line-height: ${variables.pxToRem(19)};
   }
 `
 const JobInfo = styled.div`
