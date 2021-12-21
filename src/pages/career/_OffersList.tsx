@@ -89,7 +89,7 @@ const JobHourWrapper = styled.div`
     @media ${variables.device.mobile} {
       margin-right: 1rem;
       & :after {
-        left: 55px;
+        left: 37%;
         font-size: ${variables.pxToRem(16)};
       }
     }
