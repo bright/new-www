@@ -8,6 +8,7 @@ tags:
 date: 2021-12-20T11:48:15.996Z
 title: The importance of feedback in Bright recruitment process
 layout: post
+image: /images/feedback.jpeg
 hidden: false
 comments: true
 published: true
