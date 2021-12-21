@@ -53,6 +53,7 @@ const JobSubtitleWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: ${variables.pxToRem(20)};
   @media ${variables.device.laptop} {
     margin-bottom: ${variables.pxToRem(16)};
@@ -87,7 +88,6 @@ const JobHourWrapper = styled.div`
       content: '•';
     }
     @media ${variables.device.mobile} {
-      margin-right: 1rem;
       & :after {
         left: 37%;
         font-size: ${variables.pxToRem(16)};
