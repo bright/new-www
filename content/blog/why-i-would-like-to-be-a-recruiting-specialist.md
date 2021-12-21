@@ -16,11 +16,9 @@ I have in myself a constant desire to develop. I want to learn new things - I th
 
 IT is exactly this industry for me. We can find IT solutions in many different projects that deal with health, transport, entertainment, science, and much more. IT has absorbed all fields and that is probably the most intriguing thing. 
 
-## Recruiter to be 
+## Recruiter to be
 
 One of the most important and immersing things about being a recruiter I think is that we often meet new people, know their aspirations, abilities, ambitions, and... **we can help them take a step forward in their career path**. This is wonderful! Of course, we have to accept the fact that not always everything will be colorful. The company will not always find a perfect candidate, especially when generally it is very difficult to find them on the market. Well, no one said it would be easy.
-
-
 
 Another aspect of why I want to be a recruiter is **the feeling of impact on the company.** By reaching out to candidates, I am representing both sides: the company and myself, so I contribute to how the company develops, and I think that if the company is developing, I feel I am developing with it, which is a big advantage.
 
@@ -32,7 +30,7 @@ Brave - everyday talks with candidates, exchange of messages and phone calls - w
 \
 **I do not want to recruit for quantity, I would like to recruit for quality.** My dream is to be a recruiter who is looking for someone to join Bright Team, who will really feel comfortable here and that the cooperation will go well. 
 
-![](/images/join_bright_team.png)
+![join bright inventions team](/images/join_bright_team.png)
 
 ## And in the end I have a few little tips, which I find really important and valuable now when I am starting my recruiting career.
 
