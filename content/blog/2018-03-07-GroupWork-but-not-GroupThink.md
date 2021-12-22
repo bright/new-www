@@ -1,15 +1,15 @@
 ---
-layout: post
-title: 'GroupWork, but not GroupThink'
 author: ula
-hidden: false
 tags:
   - groupwork
   - teamwork
   - creativity
   - success
-image: /images/group_thinking.jpeg
-date: '2018-03-06T23:00:00.000Z'
+date: 2018-03-06T23:00:00.000Z
+title: GroupWork, but not GroupThink
+layout: post
+image: /images/team_work.png
+hidden: false
 published: true
 ---
 
