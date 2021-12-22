@@ -64,7 +64,11 @@ Other workshops are coming in 2022! We plan workshops covering other areas of so
 Follow our social media to stay in touch: 
 
 [Facebook](https://www.facebook.com/bright.inventions)
+
+
 [Instagram](https://www.instagram.com/bright_inventions/)
+
+
 [Linkedin](https://www.linkedin.com/company/bright-inventions)
 
 2022 will be all about sharing. 🌟  Stay tuned!
