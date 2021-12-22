@@ -1,23 +1,22 @@
 ---
-layout: post
-title: Bright Future Ahead for Bright Inventions
-extract: >-
-  As software consultants with specialties in mobile apps and the Internet of
-  things, Bright Inventions has mastered the entire delivery process, making our
-  clients’ dreams an easy, successful reality. While technology around us keeps
-  transforming and testing the limits of what we can achieve, our team remains
-  committed to transparency, engagement, and success on behalf our clients, our
-  products, and our service.
-image: /images/Clutch_We_Deliver.png
+extract: As software consultants with specialties in mobile apps and the
+  Internet of things, Bright Inventions has mastered the entire delivery
+  process, making our clients’ dreams an easy, successful reality. While
+  technology around us keeps transforming and testing the limits of what we can
+  achieve, our team remains committed to transparency, engagement, and success
+  on behalf our clients, our products, and our service.
 author: ula
-hidden: false
 tags:
   - Clutch
   - IoT
   - mobile
   - web
   - software
-date: '2019-04-09T22:00:00.000Z'
+date: 2019-04-09T22:00:00.000Z
+title: Bright Future Ahead for Bright Inventions
+layout: post
+image: /images/clutch_we_deliver2.png
+hidden: false
 published: true
 ---
 As software consultants with specialties in mobile apps and the Internet of things, Bright Inventions has mastered the entire delivery process, making our clients’ dreams an easy, successful reality. While technology around us keeps [transforming](https://www.forbes.com/sites/forbescommunicationscouncil/2019/04/08/disrupt-or-be-disrupted-seven-steps-to-digital-transformation/#94254765f20b) and testing the limits of what we can achieve, our team remains committed to transparency, engagement, and success on behalf our clients, our products, and our service.
