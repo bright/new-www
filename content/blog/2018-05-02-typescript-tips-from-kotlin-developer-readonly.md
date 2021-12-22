@@ -1,16 +1,16 @@
 ---
-layout: post
-title: TypeScript tips from Kotlin developer - readonly
+crosspost: false
 author: piotr
 tags:
   - TypeScript
   - Kotlin
   - readonly
   - immutability
+date: 2018-05-01T22:00:00.000Z
+title: TypeScript tips from Kotlin developer - readonly
+layout: post
+image: /images/kotlin_icon_blog.png
 comments: true
-crosspost: false
-image: /images/kotlin/kotlin-logo.png
-date: '2018-05-01T22:00:00.000Z'
 published: true
 ---
 
