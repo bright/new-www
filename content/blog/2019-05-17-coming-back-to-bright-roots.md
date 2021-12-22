@@ -1,22 +1,21 @@
 ---
-layout: post
-title: Coming Back to Bright Roots
-author: ula
-extract: >-
-  Probably you have noticed that we gave our brand a face lift. We are excited
-  to finally unveil our new look, and we want to tell you all about it. The
-  rebranding includes a redesign of the company’s logo, graphics, website,
+extract: Probably you have noticed that we gave our brand a face lift. We are
+  excited to finally unveil our new look, and we want to tell you all about it.
+  The rebranding includes a redesign of the company’s logo, graphics, website,
   communications and correspondence. Our new brand assets include a simplified,
   black-and-white logo with a hint of innovation reflected in an orange square,
   along with other visual communications that utilise simple iconic graphics to
   convey complex solutions in an understandable way.
-image: /images/rebranding_announcement.png
-hidden: false
+author: ula
 tags:
   - rebranding
   - logo
   - communication
-date: '2019-05-16T22:00:00.000Z'
+date: 2019-05-16T22:00:00.000Z
+title: Coming Back to Bright Roots
+layout: post
+image: /images/blog_post_cover.png
+hidden: false
 published: true
 ---
 Probably you have noticed that we gave our brand a face lift. We are excited to finally unveil our new look, and we want to tell you all about it.
