@@ -30,7 +30,7 @@ We designed these workshops for 10 developers to give Piotr a chance to truly ad
 
 ![AWS Workshops Bright Inventions](/images/aws_workshops1.png)
 
-<sub> Screen from AWS live workshops </sub>
+<center> <sub> Screen from AWS live workshops </sub> </center> 
 
 ### Here are the topics of each AWS module:
 
@@ -48,7 +48,7 @@ Every workshop was recorded. Join our [AWS Facebook group](https://www.facebook.
 
 ![AWS Workshops Bright Inventions](/images/aws_workshops2.png)
 
-<sub> Screen from AWS live workshops </sub>
+<center>  <sub> Screen from AWS live workshops </sub> </center> 
 
 ## More open workshops to come
 
