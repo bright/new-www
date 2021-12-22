@@ -8,11 +8,12 @@ hours: full-time
 salary: 6100 - 10 250 PLN + VAT (B2B) or 5000 - 8500 PLN gross (UoP)
 salary_min: 4998
 salary_max: 10250
-technology: 
-- communication skills
-- can-do attitude
-- perfect time management
-- recruitment tools
+working time: full time
+technology:
+  - communication skills
+  - can-do attitude
+  - perfect time management
+  - recruitment tools
 button: join our recruitment team
 published: true
 order: 5
