@@ -8,7 +8,7 @@ tags:
 date: 2019-03-17T23:00:00.000Z
 title: Flutter - why you may love it or hate it
 layout: post
-image: /images/flutter_logo.png
+image: /images/fluttter_logo_blog.png
 hidden: false
 comments: true
 published: true
