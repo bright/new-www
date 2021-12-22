@@ -1,14 +1,14 @@
 ---
-layout: post
-title: Flutter - why you may love it or hate it
-date: 2019-03-17T23:00:00.000Z
-image: /images/flutter-why-you-may-love-it-or-hate-it/flutter-logo.png
 author: lukasz
 tags:
   - flutter
   - dart
   - android
   - cross-platform
+date: 2019-03-17T23:00:00.000Z
+title: Flutter - why you may love it or hate it
+layout: post
+image: /images/fluttter_logo_blog.png
 hidden: false
 comments: true
 published: true
