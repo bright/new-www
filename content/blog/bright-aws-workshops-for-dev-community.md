@@ -47,7 +47,7 @@ Every workshop was recorded. Join our [AWS Facebook group](https://www.facebook.
 
 **Another edition of AWS workshops will be organised in 2022.** All the details will be posted on the Facebook group, so you may still get a chance to participate.
 
-![AWS Workshops Bright Inventions](/images/aws_workshops2.png)
+![AWS Workshops Bright Inventions](/images/aws_workshops2_1.png)
 
 <center>  <sub> Screen from AWS live workshops </sub> </center> 
 
