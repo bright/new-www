@@ -5,15 +5,15 @@ excerpt: Getting into the world of software development can be a really
   all things that you were most probably told about at the time that you barely
   knew what programming was. It seems that many people tend to neglect the side
   of development that hasn't got too much to do with machines...
-layout: post
-title: The human side of software development
-date: 2017-10-30T23:00:00.000Z
-image: /images/human-side.jpeg
 author: eliasz
 tags:
   - culture
   - career
   - stress
+date: 2017-10-30T23:00:00.000Z
+title: The human side of software development
+layout: post
+image: /images/human_side2.png
 hidden: false
 comments: true
 published: true
