@@ -241,6 +241,16 @@ const ImageWrapper = styled.div`
     }
   }
 `
+const ButtonWrapper = styled.div`
+  display: block;
+  margin: 0 auto;
+  @media ${variables.device.mobile} {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0.8125rem 0;
+  }
+`
 
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
@@ -290,10 +300,11 @@ export default function Template({
         <TechnologyWrapper>
           <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
         </TechnologyWrapper>
-
-        <a href='#jobform'>
-          <JobBlackButton>{page.button}</JobBlackButton>
-        </a>
+        <ButtonWrapper>
+          <a href='#jobform'>
+            <JobBlackButton>{page.button}</JobBlackButton>
+          </a>
+        </ButtonWrapper>
         <ImageWrapper>
           <GatsbyImage image={image} alt={page.image_alt_job} className='about-img' quality='100' />
         </ImageWrapper>
