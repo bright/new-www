@@ -1,8 +1,4 @@
 ---
-layout: post
-title: Using AWS Cognito with NestJS
-date: 2020-01-04T20:05:28.083Z
-image: /images/using-cognito-with-nest-js/amazon-cognito.png
 author: patryk
 tags:
   - aws
@@ -10,6 +6,10 @@ tags:
   - backend
   - nestjs
   - nodejs
+date: 2020-01-04T20:05:28.083Z
+title: Using AWS Cognito with NestJS
+layout: post
+image: /images/amazon_cognito.png
 hidden: false
 comments: true
 published: true
