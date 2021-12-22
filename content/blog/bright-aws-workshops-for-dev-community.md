@@ -1,5 +1,6 @@
 ---
 author: izabela
+secondAuthor: piotr
 tags:
   - development
   - backend
