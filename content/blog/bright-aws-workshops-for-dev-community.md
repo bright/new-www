@@ -67,6 +67,6 @@ Follow our social media to stay in touch:
 
 [Instagram](https://www.instagram.com/bright_inventions/)
 
-[Linkedin](https://www.linkedin.com/company/bright-inventions)
+[LinkedIn](https://www.linkedin.com/company/bright-inventions)
 
 2022 will be all about sharing. 🌟  Stay tuned!
