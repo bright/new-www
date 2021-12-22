@@ -29,7 +29,7 @@ The one and only [Piotr](https://brightinventions.pl/blog/piotr-team-leader-tech
 
 We designed these workshops for 10 developers to give Piotr a chance to truly address participants' needs and questions. Our workshops consisted of 4 thematic modules which helped to better understand AWS step by step. During workshops every participant built their own cloud service to practice with Piotr all presented features. Attending workshops was free of charge. 
 
-![AWS Workshops Bright Inventions](/images/aws_workshops_1_2.png)
+![AWS Workshops Bright Inventions](/images/aws_workshops_33.png)
 
 <center> <sub> Screen from AWS live workshops </sub> </center> 
 
