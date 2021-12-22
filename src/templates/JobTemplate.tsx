@@ -244,9 +244,10 @@ const ImageWrapper = styled.div`
 const ButtonWrapper = styled.div`
   display: block;
   margin: 0 auto;
+  text-align: center;
+  
   @media ${variables.device.mobile} {
     width: 100%;
-    text-align: center;
     margin: 0;
     padding: 0.8125rem 0;
   }
