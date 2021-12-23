@@ -8,7 +8,7 @@ tags:
 date: 2018-02-15T23:00:00.000Z
 title: Your first chart in Android App with CSV parser
 layout: post
-image: /images/radek/chart_mobile.jpg
+image: /images/chart_android.png
 comments: true
 published: true
 ---
