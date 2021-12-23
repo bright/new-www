@@ -41,6 +41,7 @@ groups:
           - Kotlin
           - kotlin
           - android
+          - Android
       - name: QA
         # /blog/topics/development/QA
         tags:
