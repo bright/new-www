@@ -1,13 +1,13 @@
 ---
-layout: post
-title: App development pivots that prove the MVP works
-date: 2021-05-11T06:56:43.419Z
-image: /images/blogpost_appdevpivot_main_picture.png
 author: izabela
 tags:
   - MVP
   - app pivot
   - app development
+date: 2021-05-11T06:56:43.419Z
+title: App development pivots that prove the MVP works
+layout: post
+image: /images/blogpost_appdevpivot_main_picture.png
 hidden: false
 comments: true
 published: true
@@ -43,6 +43,4 @@ Developing all the features that you have imagined for your app may not only be 
 <br>
 Idea for a software solution is only the beginning. It needs to be verified and sometimes modified to succeed. That is why building MVPs takes a major role in creating the final and successful product. 
 
-**Do you want to build a MVP?** 
-
-[Estimate project](/start-project/)
+**Do you want to build a MVP?** [Estimate your MVP](/our-areas/mvp-development/)!
