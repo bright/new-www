@@ -42,8 +42,6 @@ Substrate is written in Rust and that itself is really great news for many devel
 
 Besides, if you want to be a blockchain developer knowing Rust is one thing, the other one is understanding the idea behind blockchain. That is the homework you need to do well before you dive into coding. 😉
 
-
-
 Do you want to know more about developing blockchain? Check out our tutorial about [developing cryptocurrency with Substrate](/blog/erc20-substrate-nest-example/).
 
-Or maybe you want to build your own Substrate blockchain solution? If yes, [contact us](/start-project)!
+Or maybe you want to build your own [Substrate blockchain solution?](/our-areas/blockchain) If yes, [contact us](/start-project)!
