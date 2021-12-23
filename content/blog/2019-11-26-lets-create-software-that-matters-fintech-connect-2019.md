@@ -1,8 +1,4 @@
 ---
-layout: post
-title: 'Let''s create software that matters, Fintech Connect 2019 '
-date: 2019-11-26T08:14:28.083Z
-image: /images/ltscreatefintech3.png
 author: ula
 tags:
   - blockchain
@@ -10,6 +6,10 @@ tags:
   - mobile
   - web
   - IoT
+date: 2019-11-26T08:14:28.083Z
+title: "Let's create software that matters, Fintech Connect 2019 "
+layout: post
+image: /images/ltscreatefintech3.png
 hidden: false
 comments: true
 published: true
@@ -22,9 +22,9 @@ On 3-4 Dec we will be attending FinTech Connect, the UK's leading fintech confer
 
 ## **Who we are**
 
-Bright Inventions is a consultancy and software development studio based in Gdańsk, Poland. Throughout the years, we’ve made a name for ourselves in a whole array of services, including idea consulting, product design, software development, IoT and Blockchain.
+Bright Inventions is a consultancy and software development studio based in Gdańsk, Poland. Throughout the years, we’ve made a name for ourselves in a whole array of services, including [idea consulting](/our-areas/product-workshops), [product design](/our-areas/product-design), [custom software development](/our-areas/custom-software-development), [IoT](/our-areas/iot-development) and [Blockchain](/our-areas/blockchain).
 
-The company was established in 2012, when the Founders, Michał Łukasiewicz and Daniel Makurat, decided to create a place where innovative individuals and companies could turn to develop their  ideas – all without tedious bureaucracy and formalities, the place where the team will be able to focus on creating software solutions that matter. 
+The company was established in 2012, when the Founders, Michał Łukasiewicz and Daniel Makurat, decided to create a place where innovative individuals and companies could turn to develop their ideas – all without tedious bureaucracy and formalities, the place where the team will be able to focus on creating software solutions that matter. 
 
 ## **Our projects**
 
