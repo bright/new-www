@@ -1,19 +1,18 @@
 ---
-layout: post
-title: Selecting the right partner to build your MVP
 author: michal
-hidden: false
 tags:
   - mvp
   - startup
   - outsourcing
   - software
+date: 2017-10-23T22:00:00.000Z
+title: Selecting the right partner to build your MVP
+layout: post
 image: /images/bright_team.JPG
+hidden: false
 comments: true
-date: '2017-10-23T22:00:00.000Z'
 published: true
 ---
-
 One of the things that we do best at Bright Inventions is helping startups build their first MVP. It's pretty common that founders select us as their technology partner and rely on us to turn their vision into reality. We enjoy this kind of challenges and over the years have started to understand quite well why - simply said - startups like to work with us. However, this note is purely intended as a set of generic things to look for in a technology partner.
 
 ### 1. Closely located
@@ -54,10 +53,4 @@ You need to be able to track progress easily and on a regular basis. It starts w
 
 <br/>
 
-Choosing the right partner for working on your MVP is a leap of faith. You need to feel good about your decision and have full trust in them. It might be hard to find a partner that meets all  the criteria listed in this note but at least make sure that they won't have problems challenging you if they disagree. They might be right.
-
-
-
-
-
-
+Choosing [the right partner for working on your MVP ](/our-areas/mvp-development)is a leap of faith. You need to feel good about your decision and have full trust in them. It might be hard to find a partner that meets all the criteria listed in this note but at least make sure that they won't have problems challenging you if they disagree. They might be right.
