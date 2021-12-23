@@ -7,7 +7,7 @@ tags:
 date: 2018-02-27T23:00:00.000Z
 title: Different iOS build configurations than Debug and Release in React Native
 layout: post
-image: /images/react-native-custom-ios-build-configurations/build-configurations.png
+image: /images/blog_build_configuration.png
 comments: true
 published: true
 ---
