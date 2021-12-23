@@ -1,14 +1,14 @@
 ---
-layout: post
-title: 4 things we love about building MVPs
-date: 2019-09-02T11:35:50.918Z
-image: /images/agile_board_planning.jpeg
 author: mateusz
 tags:
   - MVP
   - startup
   - software development
   - agile
+date: 2019-09-02T11:35:50.918Z
+title: 4 things we love about building MVPs
+layout: post
+image: /images/agile_board_planning.jpeg
 hidden: false
 comments: true
 published: true
@@ -37,7 +37,7 @@ But how do we derive sufficient information about the users who started using ou
 
 Observing how users interact with an MVP allows our clients to focus on what caught their users’ attention the most, and either delete or upgrade underperforming processes or features. It also sets the groundwork for planning an effective marketing strategy built around the actual value that proved to be most useful to users. 
 
-## **3. MVPs set the groundwork for fruitful cooperation**  
+## **3. MVPs set the groundwork for fruitful cooperation**
 
 You’ve guessed it – building an MVP let’s both clients and ourselves test out way more than the product itself. During the time spent on drafting and developing the MVP, both sides get to see what it’s like working together. By the time we finish the first phase of the project, we can all picture what can be expected if we decide to work in the long run.
 
@@ -59,4 +59,4 @@ Working with our customers teaches us humility, shows how we can all challenge t
 
 As you can see, building a first working version of an app is one of the most valuable, rewarding experiences for a software house. Seeing how we help our customers succeed strengthens our sense of purpose and provides motivation for more to come.
 
-Interested in learning a bit more about our MVP-building process? Don’t hesitate to reach out, we’d love to talk!
+Interested in learning a bit more about our [MVP-building process](/our-areas/mvp-development)? Don’t hesitate to [reach out](/start-project), we’d love to talk!
