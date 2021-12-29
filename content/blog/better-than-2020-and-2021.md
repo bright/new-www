@@ -38,7 +38,7 @@ Before the pandemic breakout in the early 2020 there were about 30 bright people
 
 There are team members who come to the office every day. There are some who drop by twice a week or just come over from time to time to meet in person and spend some time together with their project mates. As long as the high quality of communication and work-life balance are sustained we are ok with that. What we approve of at Bright is individualisation and keeping personal approach to each and every member of the team. Of course, the rules and opportunities to take are the same for all, but everyone can choose how they work. 
 
-We believe that to achieve real success you have to develop your skills and adjust all the time.  **Our team can work closely with each other regardless of wherever they are, in the office or at home. Nowe we know it. The details of location are less significant than people’s responsibility and attitude to teamwork in general.** 
+We believe that to achieve real success you have to develop your skills and adjust all the time.  **Our team can work closely with each other regardless of wherever they are, in the office or at home. Now we know it. The details of location are less significant than people’s responsibility and attitude to teamwork in general.** 
 
 ## Bright sport
 
