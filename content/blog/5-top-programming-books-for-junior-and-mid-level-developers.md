@@ -2,6 +2,8 @@
 author: piotr
 tags:
   - book
+  - inspiration
+  - development
 date: 2021-12-31T15:07:50.038Z
 title: 5 Top Programming Books For Junior and Mid-level Developers
 layout: post
