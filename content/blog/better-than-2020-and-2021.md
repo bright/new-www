@@ -66,7 +66,7 @@ The effects of the pandemic, quarantines and social isolation were and are still
 
 Before the pandemic we used to take part in the job fairs, we were organising workshops for students, participating in the conferences and then everything somehow stopped. We needed to shift to an online-first experience. It was not easy. 
 
-Almost all of our internal meetings were moved to online reality. Inside the organisation we opened a virtual kitchen and began to do morning coffee meetings together. We started doing tech meetings online and Bright Q&A sessions, but at one moment we realised that “the community part” was still missing. **We want to change it and make 2022 a strong community building year for us. We want to share our knowledge with people outside the team and reactivate connectedness from before Covid 19.  So, expect invitations for monthly online workshops and live webinars [on our Facebook profile](https://www.facebook.com/bright.inventions) regularly.** AWS workshops were jus the beginning. :) 
+Almost all of our internal meetings were moved to online reality. Inside the organisation we opened a virtual kitchen and began to do morning coffee meetings together. We started doing tech meetings online and Bright Q&A sessions, but at one moment we realised that “the community part” was still missing. **We want to change it and make 2022 a strong community building year for us. We want to share our knowledge with people outside the team and reactivate connectedness from before Covid 19.  So, expect invitations for monthly online workshops and live webinars [on our Facebook profile](https://www.facebook.com/bright.inventions) regularly.** AWS workshops were just the beginning. :) 
 
 ## Be Bright 
 
