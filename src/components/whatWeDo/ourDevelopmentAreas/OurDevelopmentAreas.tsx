@@ -36,8 +36,8 @@ const OurDevelopmentAreas = () => {
                 <GatsbyImage
                   image={getImage(service.our_services_icon)!}
                   alt={service.name}
-                  style={{maxHeight: 100}}
-                  imgStyle={{objectFit: 'contain'}}
+                  style={{ maxHeight: 100 }}
+                  imgStyle={{ objectFit: 'contain' }}
                   className='about-img'
                   imgClassName='image'
                   backgroundColor='#fff'
@@ -67,7 +67,7 @@ const GQL = graphql`
             slug
             our_services_icon {
               childImageSharp {
-                gatsbyImageData(placeholder: TRACED_SVG)
+                gatsbyImageData(placeholder: NONE)
               }
             }
           }
