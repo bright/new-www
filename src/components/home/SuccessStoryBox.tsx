@@ -26,24 +26,18 @@ const Container = styled.div`
   @media ${variables.device.laptop} {
     width: calc(50% - 1.75rem);
     margin: 1.75rem;
-
-    &:nth-last-of-type(2) {
-      margin-bottom: 0rem;
-    }
   }
 
   @media ${variables.device.tabletXL} {
     width: calc(50% - 1.41rem);
     margin: 1.41rem;
-
-    &:nth-last-of-type(2) {
-      margin-bottom: 0rem;
-    }
+    height: ${variables.pxToRem(520)};
   }
 
   @media ${variables.device.tablet} {
     margin: 0.5625rem 0;
     width: 100%;
+    height: auto;
     &:nth-child(7) {
       margin-bottom: 4rem;
     }
