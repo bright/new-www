@@ -1,19 +1,18 @@
 ---
-layout: post
-title: 5 (or more) ways to benefit from TypeScript in React projects
-excerpt: >-
-  TypeScript in React projects provides us with all the goodies of type checks
-  and eliminate the whole class of errors and typos from our codebase. Let’s see
-  how we can apply TypeScript-based type definitions into our React project to
-  get most of it.
+excerpt: TypeScript in React projects provides us with all the goodies of type
+  checks and eliminate the whole class of errors and typos from our codebase.
+  Let’s see how we can apply TypeScript-based type definitions into our React
+  project to get most of it.
+author: adam
 tags:
   - React
   - TypeScript
   - web
+date: 2018-04-11T22:00:00.000Z
+title: 5 (or more) ways to benefit from TypeScript in React projects
+layout: post
+image: /images/blog_redux_ts.png
 comments: true
-author: adam
-image: /images/react-ts/props-immutable.png
-date: '2018-04-11T22:00:00.000Z'
 published: true
 ---
 

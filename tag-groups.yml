@@ -7,6 +7,7 @@ groups:
         # /blog/topics/development/Backend
         tags:
           - Backend
+          - backend
           - aws
           - AWS
           - Nodejs
@@ -39,6 +40,8 @@ groups:
         tags:
           - Kotlin
           - kotlin
+          - android
+          - Android
       - name: QA
         # /blog/topics/development/QA
         tags:

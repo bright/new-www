@@ -1,21 +1,23 @@
 ---
 layout: job
 title: "Product Designer "
-subtitle: OPENING SOON 
+subtitle: OPENING SOON
 imagejob: /images/multidisciplinary-team-bright-inventions.png
 image-alt-job: Bright Inventions team
 hours: full-time
 salary: 8000 - 12 000 PLN + VAT (B2B) or 6700 - 10 000 PLN gross (UoP)
 salary_min: 8000
 salary_max: 12000
+working time: full time
 technology:
-- UI
-- UX
-- Adobe XD/Sketch/Figma
+  - UI
+  - UX
+  - Adobe XD/Sketch/Figma
 button: join our Bright team
 published: true
 order: 10
-description: We are seeking a talented and creative Product designer who will focus on ensuring a first-class user experience across products we do. Apply!
+description: We are seeking a talented and creative Product designer who will
+  focus on ensuring a first-class user experience across products we do. Apply!
 ---
 ![]()
 

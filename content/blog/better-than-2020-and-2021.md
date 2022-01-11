@@ -38,7 +38,7 @@ Before the pandemic breakout in the early 2020 there were about 30 bright people
 
 There are team members who come to the office every day. There are some who drop by twice a week or just come over from time to time to meet in person and spend some time together with their project mates. As long as the high quality of communication and work-life balance are sustained we are ok with that. What we approve of at Bright is individualisation and keeping personal approach to each and every member of the team. Of course, the rules and opportunities to take are the same for all, but everyone can choose how they work. 
 
-We believe that to achieve real success you have to develop your skills and adjust all the time.  **Our team can work closely with each other regardless of wherever they are, in the office or at home. Nowe we know it. The details of location are less significant than people’s responsibility and attitude to teamwork in general.** 
+We believe that to achieve real success you have to develop your skills and adjust all the time.  **Our team can work closely with each other regardless of wherever they are, in the office or at home. Now we know it. The details of location are less significant than people’s responsibility and attitude to teamwork in general.** 
 
 ## Bright sport
 
@@ -66,7 +66,7 @@ The effects of the pandemic, quarantines and social isolation were and are still
 
 Before the pandemic we used to take part in the job fairs, we were organising workshops for students, participating in the conferences and then everything somehow stopped. We needed to shift to an online-first experience. It was not easy. 
 
-Almost all of our internal meetings were moved to online reality. Inside the organisation we opened a virtual kitchen and began to do morning coffee meetings together. We started doing tech meetings online and Bright Q&A sessions, but at one moment we realised that “the community part” was still missing. **We want to change it and make 2022 a strong community building year for us. We want to share our knowledge with people outside the team and reactivate connectedness from before Covid 19.  So, expect invitations for monthly online workshops and live webinars [on our Facebook profile](https://www.facebook.com/bright.inventions) regularly.** AWS workshops were jus the beginning. :) 
+Almost all of our internal meetings were moved to online reality. Inside the organisation we opened a virtual kitchen and began to do morning coffee meetings together. We started doing tech meetings online and Bright Q&A sessions, but at one moment we realised that “the community part” was still missing. **We want to change it and make 2022 a strong community building year for us. We want to share our knowledge with people outside the team and reactivate connectedness from before Covid 19.  So, expect invitations for monthly online workshops and live webinars [on our Facebook profile](https://www.facebook.com/bright.inventions) regularly.** AWS workshops were just the beginning. :) 
 
 ## Be Bright 
 

@@ -2,6 +2,7 @@
 author: izabela
 tags:
   - blockchain
+  - business
 date: 2021-07-20T09:44:01.052Z
 title: Bright Inventions among the Top 40 Blockchain Development Companies
 layout: post
@@ -16,7 +17,7 @@ published: true
 
 DesignRush is a marketplace that connects clients with professional agencies specialising in software development, marketing and design. Design Rush regularly publishes rankings presenting top global service providers.
 
-**We are extremely happy that Bright Inventions blockchain services have been recognised by Design Rush representatives.** Blockchain development is a very crucial technology for our team.
+**We are extremely happy that [Bright Inventions blockchain services](/our-areas/blockchain) have been recognised by Design Rush representatives.** Blockchain development is a very crucial technology for our team.
 
 Bright Inventions team specialises in delivering blockchain projects. **We have been entrusted with a major Ethereum blockchain for a social impact project** – a global food assistance program. 
 
