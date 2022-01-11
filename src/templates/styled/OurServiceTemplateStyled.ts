@@ -33,6 +33,7 @@ export const OurServiceSection = styled.section`
   & .content {
     font-size: ${variables.pxToRem(22)};
     line-height: ${variables.pxToRem(40)};
+    color: #0a0a0a;
 
     & img {
       opacity: 1;
@@ -41,6 +42,7 @@ export const OurServiceSection = styled.section`
   & .content > ul > li {
     opacity: 1;
     margin-bottom: 1em;
+    color: #0a0a0a;
     @media ${variables.device.tablet} {
       opacity: 1;
       font-size: ${variables.pxToRem(16)};
@@ -109,7 +111,7 @@ export const Content = styled.div<{ textAlign?: string }>`
   && p {
     font-size: ${variables.pxToRem(22)};
     line-height: ${variables.pxToRem(40)};
-    color: #131214;
+    color: #0a0a0a;
     opacity: 1;
     font-family: ${variables.font.customtext.lato};
     margin-bottom: ${variables.pxToRem(16)};
@@ -150,11 +152,19 @@ export const Question = styled.h3<{ shown: boolean }>`
   & span img {
     ${({ shown }) => (shown ? 'transform: rotate(180deg)' : 'transform: rotate(0deg)')};
   }
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(24)};
+    line-height: ${variables.pxToRem(40)};
+  }
+  @media ${variables.device.tabletXL} {
+    font-size: ${variables.pxToRem(20)};
+    line-height: ${variables.pxToRem(40)};
+  }
 
-  @media ${variables.device.tablet} {
+  @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(18)};
     line-height: ${variables.pxToRem(30)};
-    padding: ${variables.pxToRem(18)} 0;
+    padding: ${variables.pxToRem(28)} 0;
   }
 `
 export const FaqsTextRegural = styled(CustomTextRegular)`
@@ -175,19 +185,31 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
   && p {
     font-size: ${variables.pxToRem(22)};
   }
+  @media ${variables.device.laptop} {
+    & li {
+      margin-bottom: 1em;
+      font-size: ${variables.pxToRem(20)};
+      line-height: ${variables.pxToRem(40)};
+    }
 
-  @media ${variables.device.tablet} {
-    padding-bottom: ${variables.pxToRem(18)};
-    padding-top: ${variables.pxToRem(6)};
+    && p {
+      font-size: ${variables.pxToRem(20)};
+      line-height: ${variables.pxToRem(40)};
+    }
+  }
+
+  @media ${variables.device.mobile} {
+    padding-bottom: ${variables.pxToRem(28)};
+    padding-top: ${variables.pxToRem(0)};
     & li {
       margin-bottom: 1em;
       font-size: ${variables.pxToRem(16)};
-      line-height: ${variables.pxToRem(28)};
+      line-height: ${variables.pxToRem(40)};
     }
 
     && p {
       font-size: ${variables.pxToRem(16)};
-      line-height: ${variables.pxToRem(28)};
+      line-height: ${variables.pxToRem(40)};
     }
   }
 `
