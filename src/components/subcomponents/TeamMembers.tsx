@@ -228,6 +228,7 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
   }
 `
 const OurServiceLink = styled(Link)`
+  display: block;
   text-align: center;
   text-decoration: underline;
   font: normal normal bold ${variables.pxToRem(18)} / ${variables.pxToRem(22)} Montserrat;
