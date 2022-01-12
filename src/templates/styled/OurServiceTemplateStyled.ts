@@ -170,7 +170,7 @@ export const Question = styled.h3<{ shown: boolean }>`
 export const FaqsTextRegural = styled(CustomTextRegular)`
   font-size: ${variables.pxToRem(22)};
   padding-bottom: ${variables.pxToRem(36)};
-  color: #000000;
+  color: #0a0a0a;
   opacity: 1;
 
   & strong {
