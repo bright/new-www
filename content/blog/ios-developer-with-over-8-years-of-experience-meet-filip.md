@@ -27,6 +27,8 @@ Since I wasn’t interested in a teaching career there were absolutely no opport
 
 Yes. From the start, I wanted to be an iOS developer. And I didn’t even own any Apple devices then. Keep in mind that I was a poor student. ;) It was a result of my little job market analysis. After searching tons of offers I realised that iOS developers are in huge demand, the salary range for iOS jobs was pretty impressive, too and the companies around me were really developing interesting apps. So that made me decide to go for iOS development.
 
+![Filip – iOS Developer at Bright Inventions](/images/brightstoryfilip.png)
+
 ## What was your first software development job?
 
 In my second year of college, I got my first IT job thanks to the recommendation of my 
@@ -40,7 +42,7 @@ So I lost that job and then finally started to study hard. The problem was that,
 
 Obviously, I have learnt a lot of technical stuff here at Bright Inventions. But I do not think that is the key. I much appreciate the whole soft skills side of the development process that I have uncovered here. I much improved in terms of time management, communication, problem-solving, and more. I did not think I would learn all of that in a software development agency. You learn some technical stuff almost everywhere but soft skills are really unique knowledge to possess. **It turns out that having only tech skills does not define you as a good programmer.** And I know that it can be a controversial statement for some developers. 
 
-![Filip – iOS Developer at Bright Inventions](/images/brightstoryfilip.png)
+![Filip – iOS Developer at Bright Inventions](/images/brightstory3.png)
 
 ## What do you like the most about the project you are involved in?
 
@@ -57,6 +59,8 @@ However, there are situations when it might be right to choose a hybrid model. F
 ## What trends do you see for software developers and iOS devs in particular for 2022?
 
 In general, we all see that VR and AR have started to be treated more seriously. Google or Facebook want to move us to the virtual world. Who knows, maybe a fake world will be more exciting to us? A couple of years ago AR or VR was treated as some geek curiosity and now it is entering the mainstream. And I am not only about the already famous Facebook Metaverse. Check out how many new VR games have been released recently. The gaming industry is actually the first that really made VR/AR more approachable.
+
+![2022 trends for iOS development](/images/brightstory4.png)
 
 When it comes to iOS, I think **2022 will be the year when we finally see what Apple has been working on in terms of cloud computing solutions**. And we all know that they are far behind competitors like AWS, Azure or Google Cloud. So I am excited to learn what they will offer us. **Cannot wait to have a glance at their new Xcode cloud product that will be released in 2022.** We will find out if it brings something new to the table that AWS or Azure do not offer. Unless Apple presents some x-factor to cloud computing, it will be difficult to chase the competition.
 
