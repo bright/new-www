@@ -32,7 +32,7 @@ Yes. From the start, I wanted to be an iOS developer. And I didn’t even own an
 ## What was your first software development job?
 
 In my second year of college, I got my first IT job thanks to the recommendation of my 
-lecturer Michał Miondowicz. I was hired by a huge software development company. I was so excited that I got to sit in this glass top office building in Gdańsk. **I thought that I was the king of the world who made it to the top. But that was so not true.** I worked there for only 3 months. After that, they decided not to extend the job contract with me. I was not good enough. And as you imagine it was extremely painful. But that was a life lesson for me. One of the greatest lessons I had.
+lecturer Michał Miądowicz. I was hired by a huge software development company. I was so excited that I got to sit in this glass top office building in Gdańsk. **I thought that I was the king of the world who made it to the top. But that was so not true.** I worked there for only 3 months. After that, they decided not to extend the job contract with me. I was not good enough. And as you imagine it was extremely painful. But that was a life lesson for me. One of the greatest lessons I had.
 
 **I realised that there was so much for me to learn. I was not as great as I had thought and I should have focused more on learning.** It turned out pretty well actually. If I had stayed there, I think I would not have grown as a programmer. I would have rested on my laurels, when in fact that was only the beginning of my career and constant self-development process. 
 
