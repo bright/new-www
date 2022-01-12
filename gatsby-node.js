@@ -7,21 +7,21 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
   const result = await graphql(
     `
-      {
-        allMarkdownRemark(
-          filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
+    {
+      allMarkdownRemark(
+        filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}}}
+        sort: {fields: [frontmatter___date], order: DESC}
+        limit: 1000
+      ) {
+        edges {
+          node {
+            fields {
+              slug
             }
           }
         }
       }
+    }
     `
   )
   if (result.errors) {
@@ -32,6 +32,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const posts = result.data.allMarkdownRemark.edges
   const postsPerPage = 10
   const numPages = Math.ceil(posts.length / postsPerPage)
+  
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
@@ -45,6 +46,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
   })
+  
   const ymlDocTags = yaml.load(fs.readFileSync("./tag-groups.yml", "utf-8"))
   // const tags = result.data.tagsGroup.group;
   ymlDocTags.groups.forEach(async (tag) => {
@@ -132,6 +134,153 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       })
     }
   })
+
+
+  const memberResult = await graphql(`
+  {
+   allMarkdownRemark(
+     filter: {frontmatter: {layout: {eq: "member"}}}
+   ) {
+     edges {
+       node {
+        fileAbsolutePath,
+         frontmatter {
+           slug
+           author_id
+         }
+       }
+     }
+   }
+ }
+ `)
+ if (result.errors) {
+  reporter.panicOnBuild(`Error while running GraphQL query.`)
+  return
+}
+ const members = memberResult.data.allMarkdownRemark?.edges
+
+ await Promise.all(members.map(async ({ node }) => {
+ 
+ 
+  
+  const  { fileAbsolutePath, frontmatter  } = node
+  const { slug: member, author_id: authorId } = frontmatter
+  const result = await graphql(`
+  {
+    author: allMarkdownRemark(
+      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${authorId}"}}}
+      sort: {fields: frontmatter___date, order: DESC}
+    ) {
+      edges {
+        node {
+          id
+          fileAbsolutePath
+          frontmatter {
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            title
+            tags
+            date
+            author_id
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+    secondAuthor: allMarkdownRemark(
+      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, secondAuthor: {eq: "${authorId}"}}}
+      sort: {fields: frontmatter___date, order: DESC}
+    ) {
+      edges {
+        node {
+          id
+          fileAbsolutePath
+          frontmatter {
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            title
+            tags
+            date
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+    thirdAuthor: allMarkdownRemark(
+      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${authorId}"}}}
+      sort: {fields: frontmatter___date, order: DESC}
+    ) {
+      edges {
+        node {
+          id
+          fileAbsolutePath
+          frontmatter {
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            title
+            tags
+            date
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+  `)
+  
+  const {author, secondAuthor, thirdAuthor } = result.data
+  const allAuthors = [ ...author?.edges, ...secondAuthor?.edges, ...thirdAuthor?.edges ]
+
+  const uniqueAuthors = allAuthors.filter((v,i,a)=>a.findIndex(t=>(t.node.fields.slug===v.node.fields.slug))===i).sort(function (a, b) {
+      return new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
+    })
+
+  const posts = uniqueAuthors
+  const postsPerPage = 10
+  const numPages = Math.ceil(uniqueAuthors.length / postsPerPage)
+
+ 
+    if(posts.length === 0) {
+    createPage({
+      path: `/about-us/${_.kebabCase(member)}`,
+      component: path.resolve("./src/templates/AboutUsTemplate.tsx"),
+      context: {
+        fileAbsolutePath: fileAbsolutePath,
+      },
+    })
+  } else {
+    Array.from({ length: numPages }).forEach((item, i) => {
+      createPage  ({
+        path: i == 0 ? `/about-us/${_.kebabCase(member)}` : `/about-us/${_.kebabCase(member)}/${i + 1}`,
+        component: path.resolve("./src/templates/AboutUsTemplate.tsx"),
+        context: {
+          limit: postsPerPage,
+          skip: i * postsPerPage,
+          numPages,
+          posts: i == 0 ? posts.slice(i, postsPerPage ) : posts.slice(i * postsPerPage, (i + 1) * postsPerPage),
+          currentPage: i + 1,
+          fileAbsolutePath: fileAbsolutePath,
+        }
+      })
+    })
+  }
+})
+)
    
   const serviceResult = await graphql(`
   {
@@ -254,17 +403,12 @@ services.forEach(service => {
     `${__dirname}/src/templates/PostTemplate.tsx`
   )
   await preparePage("post", "blog", postTemplate)
-
-  const aboutUsTemplate = require.resolve(
-    `${__dirname}/src/templates/AboutUsTemplate.tsx`
-  )
-  await preparePage("member", "about-us", aboutUsTemplate)
-
   
   createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
+  
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     createNodeField({
@@ -280,3 +424,4 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
