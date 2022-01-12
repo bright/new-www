@@ -6,7 +6,7 @@ tags:
   - inspiration
   - career
 date: 2022-01-12T09:29:40.355Z
-title: iOS developer with over 8 years of experience. Meet Filip
+title: iOS Developer with over 8 Years of Experience. Meet Filip
 layout: post
 image: /images/brightstoryfilip.png
 hidden: false
