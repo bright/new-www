@@ -15,6 +15,8 @@ published: true
 ---
 **His smile is one of the biggest in the office. As well as his mobile development experience. Meet Filip – a Senior iOS Developer whose career started from a painful fail which made him a better programmer. Check out his story.**
 
+![Filip – iOS Developer at Bright Inventions](/images/brightstoryfilip2.png)
+
 ## When did you realise that you wanted to be a developer?
 
 Actually, it all started when I was in my first year of Nanotechnology studies at the Gdańsk University of Technology. Everyone around me was saying how great that field was, that this was the future and I would be a part of something great. Yet during my first year I wanted to find my first job or internship related to this field and it turned out that the only option was an academic career. No one had openings related to nanotechnology.
@@ -37,6 +39,8 @@ So I lost that job and then finally started to study hard. The problem was that,
 ## Now you have over 8 years of experience and have been working at Bright Inventions since 2019. What new things have you learnt at Bright?
 
 Obviously, I have learnt a lot of technical stuff here at Bright Inventions. But I do not think that is the key. I much appreciate the whole soft skills side of the development process that I have uncovered here. I much improved in terms of time management, communication, problem-solving, and more. I did not think I would learn all of that in a software development agency. You learn some technical stuff almost everywhere but soft skills are really unique knowledge to possess. **It turns out that having only tech skills does not define you as a good programmer.** And I know that it can be a controversial statement for some developers. 
+
+![Filip – iOS Developer at Bright Inventions](/images/brightstoryfilip.png)
 
 ## What do you like the most about the project you are involved in?
 
