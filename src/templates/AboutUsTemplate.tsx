@@ -1,13 +1,14 @@
-import React, { CSSProperties, useState } from 'react'
+import React, { CSSProperties } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
-
+import { PageContext, Paging } from './blog/Paging'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import { HideDesktop, HideTablet, MoreButton } from '../components/shared'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { GQLData } from './gql'
 import { BlogFeed } from './blog/Feed'
 import { createBlogPosts } from '../models/creator'
 import {
@@ -18,7 +19,7 @@ import {
   SectionInner,
 } from '../components/shared/index.styled'
 import variables from '../styles/variables'
-import BlogListTemplate from './BlogListTemplate'
+import ScrollToTop from '../components/subcomponents/ScrollToTop'
 
 const gatsbyStyle: CSSProperties = {
   display: 'block !important',
@@ -74,17 +75,30 @@ const AuthorBackButton = styled(BackButton)`
     font-size: 1.125rem;
     line-height: 1.375rem;
   }
+  @media ${variables.device.mobile} {
+    margin-top: ${variables.pxToRem(60)};
+    margin-bottom: ${variables.pxToRem(60)};
+  }
 `
-export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
-}: any) {
-  const { markdownRemark, allMarkdownRemark } = data // data.markdownRemark holds your post data
+const AuthorBackButtonWrapper = styled.div`
+  display: flex;
+  align-items: center;
+`
+interface Props {
+  data: GQLData
+  pageContext: PageContext
+}
+const AboutUSTemplate: React.FC<Props> = ({
+  data,
+  pageContext, // this prop will be injected by the GraphQL query below.
+}: any) => {
+  const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const { edges } = allMarkdownRemark
   const avatarImage = getImage(frontmatter.avatar_hover)!
 
-  const [showAll, setShowAll] = useState(false)
-  const [numToSliced, setNumToSliced] = useState(6)
+  const { posts } = pageContext
+  const { slug } = frontmatter
+  const authorId = slug
 
   return (
     <Page>
@@ -108,16 +122,17 @@ export default function Template({
               <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
             </SectionInner>
           </AuthorWrapper>
-          {edges.length > 0 && <CustomSectionTitle>blog posts by {frontmatter.short_name} </CustomSectionTitle>}
-          <BlogFeed posts={createBlogPosts(data)} numToSliced={numToSliced} />
-          {(() => {
-            if (edges.length > 6 && numToSliced > 6) {
-              return <MoreButton onClick={() => setNumToSliced(6)}>show less posts</MoreButton>
-            } else if (edges.length > 6) {
-              return <MoreButton onClick={() => setNumToSliced(12)}>more blog posts</MoreButton>
-            }
-          })()}
-          <AuthorBackButton url={routeLinks.aboutUs({ page: 'team' })} label='back to team' arrowColor={'orange'} />
+          {posts?.length > 0 && (
+            <>
+              <CustomSectionTitle>blog posts by {frontmatter.short_name}</CustomSectionTitle>
+              <BlogFeed posts={createBlogPosts(posts)} />
+              <ScrollToTop />
+              <Paging pageContext={pageContext} baseURI={`${routeLinks.aboutUs({ authorId, slug })}`} />
+            </>
+          )}
+          <AuthorBackButtonWrapper>
+            <AuthorBackButton url={routeLinks.aboutUs({ page: 'team' })} label='back to team' arrowColor={'orange'} />
+          </AuthorBackButtonWrapper>
         </CustomContainer>
       </AuthorSection>
       {/*
@@ -156,7 +171,7 @@ export default function Template({
   )
 }
 export const pageQuery = graphql`
-  query($fileAbsolutePath: String!, $slug: String) {
+  query($fileAbsolutePath: String!) {
     markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
       html
       frontmatter {
@@ -178,37 +193,6 @@ export const pageQuery = graphql`
         name
       }
     }
-    allMarkdownRemark(
-      filter: {
-        frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true }, author: { eq: $slug } }
-      }
-      limit: 12
-      sort: { fields: frontmatter___date, order: DESC }
-    ) {
-      edges {
-        node {
-          id
-          fileAbsolutePath
-          excerpt(pruneLength: 500)
-          frontmatter {
-            excerpt
-            comments
-            image {
-              childImageSharp {
-                gatsbyImageData
-              }
-            }
-            author
-            author_id
-            title
-            tags
-            date
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
   }
 `
+export default AboutUSTemplate
