@@ -15,7 +15,7 @@ const Form: React.FC = () => {
               <>
                 Our recruitment demand is constantly changing. Drop us a line at{' '}
                 <a href={'mailto:ula@bright.dev'}>ula@bright.dev</a>, or submit your CV and we will contact you when a
-                position inline with your competences becomes available.
+                position inline with your competences becomes available. Also, feel free to ask any questions regarding our recruitment process.
               </>
             }
             namePlaceholder={'Enter name here'}
