@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react'
+import React, { CSSProperties, useRef, useEffect } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { PageContext, Paging } from './blog/Paging'
@@ -47,6 +47,14 @@ const AuthorWrapper = styled.div`
 const ImageWrapper = styled.figure`
   width: 100%;
   max-width: 428px;
+  max-height: 100%;
+  @media ${variables.device.laptop} {
+    & .is-rounded {
+      & img {
+        max-height: 500px;
+      }
+    }
+  }
 `
 const AuthorPageTitle = styled(PageTitle)`
   margin-bottom: 0.75rem;
@@ -90,15 +98,30 @@ interface Props {
 }
 const AboutUSTemplate: React.FC<Props> = ({
   data,
-  pageContext, // this prop will be injected by the GraphQL query below.
-}: any) => {
+  pageContext,
+}: // this prop will be injected by the GraphQL query below.
+any) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const avatarImage = getImage(frontmatter.avatar_hover)!
+  const postsRef = useRef()
 
   const { posts } = pageContext
+  const { currentPage: page } = pageContext
   const { slug } = frontmatter
   const authorId = slug
+
+  useEffect(() => {
+    if (page > 1) {
+      const yOffset = -200
+      const y = postsRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
+      setTimeout(() => {
+        window.scrollTo({
+          top: y,
+        })
+      }, 100)
+    }
+  }, [])
 
   return (
     <Page>
@@ -124,7 +147,7 @@ const AboutUSTemplate: React.FC<Props> = ({
           </AuthorWrapper>
           {posts?.length > 0 && (
             <>
-              <CustomSectionTitle>blog posts by {frontmatter.short_name}</CustomSectionTitle>
+              <CustomSectionTitle ref={postsRef}>blog posts by {frontmatter.short_name}</CustomSectionTitle>
               <BlogFeed posts={createBlogPosts(posts)} />
               <ScrollToTop />
               <Paging pageContext={pageContext} baseURI={`${routeLinks.aboutUs({ authorId, slug })}`} />
