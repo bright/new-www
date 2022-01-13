@@ -5,12 +5,11 @@ excerpt: Bright Inventions is a great place to push your career to the next
   other companies. But above all, we offer a team that consists of great people.
 author: ula
 tags:
-  - team
-  - professionalism
   - software
   - Blockchain
   - mobile
-  - web
+  - inspiration
+  - management
 date: 2018-05-09T22:00:00.000Z
 title: Reasons to Join Bright Inventions
 layout: post
