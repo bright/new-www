@@ -13,7 +13,7 @@ tags:
 date: 2022-01-13T14:18:07.193Z
 title: Reasons to Join Bright Inventions
 layout: post
-image: /images/bright_team.png
+image: /images/join_bright_team.png
 hidden: false
 published: true
 ---
