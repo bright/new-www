@@ -10,7 +10,7 @@ tags:
   - mobile
   - inspiration
   - management
-date: 2018-05-09T22:00:00.000Z
+date: 2022-01-13T14:18:07.193Z
 title: Reasons to Join Bright Inventions
 layout: post
 image: /images/bright_team.png
