@@ -17,7 +17,7 @@ technology:
   - PostgreSQL
   - MySQL
 button: join our backend team
-published: true
+published: false
 order: 2
 description: We are looking for an experienced Java/Kotlin Developer who would
   like to develop and enhance an innovative backend application for one of our
