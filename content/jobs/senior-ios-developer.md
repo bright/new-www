@@ -16,7 +16,7 @@ technology:
   - Swift Package Manager
   - Realm
 button: join our iOS team
-published: true
+published: false
 order: 11
 description: We are looking for an experienced Senior iOS Developer who
   understands Swift & iOS SDK and who would like to develop innovative iOS ePOS

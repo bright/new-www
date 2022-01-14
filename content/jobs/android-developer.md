@@ -18,7 +18,7 @@ button: join our Android team
 redirect_from:
   - /android-developer
   - /android-developer/
-published: true
+published: false 
 order: 6
 description: We are a software development and consultancy studio based in
   Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses
