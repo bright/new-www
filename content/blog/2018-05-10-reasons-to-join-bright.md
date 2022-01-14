@@ -57,7 +57,7 @@ We discuss problems with each other, we look for solutions together, we propose 
 
 7. ### Because of BRIGHT PEOPLE
 
-And I suppose there is no need to tell more about that. Meet us and you will find out what I mean. Ot check [our Instagram profile](https://www.instagram.com/bright_inventions). 🤩
+And I suppose there is no need to tell more about that. Meet us and you will find out what I mean. Or check [our Instagram profile](https://www.instagram.com/bright_inventions). 🤩
 
 If you would like to give us a try, or just in case you have more questions or some doubts, drop us a line at [jobs@brightinventions.pl](mailto:jobs@brightinventions.pl) or just contact me directly at [ula@brightinventions.pl](mailto:ula@brightinventions.pl) .
 
