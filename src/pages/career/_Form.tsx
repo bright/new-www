@@ -2,6 +2,7 @@ import React from 'react'
 
 import { CustomSection, Section, SectionInner } from '../../components/shared'
 import { FormComponent } from '../../components/about-us/form-section/form'
+import AnalyticsLink from '../../components/shared/AnalyticsLink'
 
 const Form: React.FC = () => {
   return (
@@ -14,8 +15,14 @@ const Form: React.FC = () => {
             description={
               <>
                 Our recruitment demand is constantly changing. Drop us a line at{' '}
-                <a href={'mailto:ula@bright.dev'}>ula@bright.dev</a>, or submit your CV and we will contact you when a
-                position inline with your competences becomes available. Also, feel free to ask any questions regarding our recruitment process.
+                <AnalyticsLink
+                  href='mailto:ula@bright.dev'
+                  action='Click'
+                  category='Click in email address'
+                  text='ula@bright.dev'
+                />
+                , or submit your CV and we will contact you when a position inline with your competences becomes
+                available. Also, feel free to ask any questions regarding our recruitment process.
               </>
             }
             namePlaceholder={'Enter name here'}

@@ -115,11 +115,10 @@ any) => {
     if (page > 1) {
       const yOffset = -200
       const y = postsRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
-      setTimeout(() => {
-        window.scrollTo({
-          top: y,
-        })
-      }, 100)
+
+      window.scrollTo({
+        top: y,
+      })
     }
   }, [])
 
