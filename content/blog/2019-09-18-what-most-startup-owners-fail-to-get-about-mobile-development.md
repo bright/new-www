@@ -1,8 +1,4 @@
 ---
-layout: post
-title: "What most startup owners fail to get about mobile development "
-date: 2019-09-17T08:05:05.904Z
-image: /images/failtoget2.png
 author: michal
 tags:
   - mobile development
@@ -10,6 +6,10 @@ tags:
   - app developers
   - iOS
   - Android
+date: 2019-09-17T08:05:05.904Z
+title: "What most startup owners fail to get about mobile development "
+layout: post
+image: /images/failtoget2.png
 hidden: false
 comments: true
 published: true
@@ -18,7 +18,7 @@ published: true
 
 Anyone who’s ever run a tech company would answer in a heartbeat that it’s equally exciting and challenging. Truth be told, most successful startup founders who’ve pioneered the tech world and are now on everyone’s lips have learned what they know the hard way. This comes with a silver lining for all of us though – by learning from their shortcomings, you won’t repeat their mistakes!
 
-With the above in mind, we’ve put together a list of things startup founders often fail to understand about mobile app development. If you take the points below to heart, you’ll be much closer not only to reaching your project milestones but also becoming a tech leader your employees will look up to for years to come. Let’s take a look.
+With the above in mind, we’ve put together a list of things startup founders often fail to understand about [mobile app development](/our-areas/mobile-app-development). If you take the points below to heart, you’ll be much closer not only to reaching your project milestones but also becoming a tech leader your employees will look up to for years to come. Let’s take a look.
 
 ## 1. Being the captain of the ship
 
@@ -54,7 +54,7 @@ Last, but least...
 
 Business and technical decisions are forever intertwined when it comes to mobile app development (something worth memorizing by heart).
 
-The best startup founders understand this and know that each tech decision may have a huge business impact, and vice versa. Respectively, once they launch their MVP, they also make sure to pay attention not only to key business metrics but also app performance. Unfortunately, some startup founders will have a tendency to eagerly scrutinise app reviews, all the while unaware of the insights that can be found via app analytics.
+The best startup founders understand this and know that each tech decision may have a huge business impact, and vice versa. Respectively, once they launch their [MVP](/our-areas/mvp-development), they also make sure to pay attention not only to key business metrics but also app performance. Unfortunately, some startup founders will have a tendency to eagerly scrutinise app reviews, all the while unaware of the insights that can be found via app analytics.
 
 Huge mistake!
 
