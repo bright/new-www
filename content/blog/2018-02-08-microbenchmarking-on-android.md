@@ -14,7 +14,7 @@ hidden: false
 comments: true
 published: true
 ---
-Since Kotlin becomes more and more popular, especially amongst Android developers (and it's [officially supported by Google](https://android-developers.googleblog.com/2017/05/android-announces-support-for-kotlin.html)), some people decided to compare its runtime performance with Java. After reading a few articles I wanted to test it myself and now I'm ready to share some of my observations and experiences.
+Since Kotlin becomes more and more popular, especially amongst [Android developers](/our-areas/mobile-app-development) (and it's [officially supported by Google](https://android-developers.googleblog.com/2017/05/android-announces-support-for-kotlin.html)), some people decided to compare its runtime performance with Java. After reading a few articles I wanted to test it myself and now I'm ready to share some of my observations and experiences.
 
 ## What is it about?
 
