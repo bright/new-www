@@ -105,8 +105,6 @@ any) => {
   const avatarImage = getImage(frontmatter.avatar_hover)!
   const postsRef = useRef<HTMLHeadingElement>(null)
 
-  console.log(postsRef)
-
   const { posts } = pageContext
   const { currentPage: page } = pageContext
   const { slug } = frontmatter
@@ -114,7 +112,7 @@ any) => {
 
   useEffect(() => {
     const { current } = postsRef
-    console.log(current)
+
     if (null !== current && page > 1) {
       const yOffset = -200
       const y = current.getBoundingClientRect().top + window.pageYOffset + yOffset
