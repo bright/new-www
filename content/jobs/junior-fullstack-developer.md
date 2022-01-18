@@ -2,7 +2,7 @@
 layout: job
 title: "Junior Fullstack Developer "
 subtitle: "OPENING SOON "
-imagejob: /images/frontendteam_bright-inventions.png
+imagejob: /images/fullstackteam.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: full-time
 salary: 5000 - 9000 + VAT (B2B) or 4150 - 7500 PLN gross (UoP)
