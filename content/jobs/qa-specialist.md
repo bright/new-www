@@ -2,7 +2,7 @@
 layout: job
 title: "QA Specialist "
 subtitle: ONGOING
-imagejob: /images/qa_and_brightteam.png
+imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
 salary: 7000 - 12 000 PLN + VAT (B2B) or 5900 - 10 000 PLN gross (UoP)
@@ -18,7 +18,8 @@ technology:
 button: join our QA team
 published: true
 order: 3
-description: We are looking for a QA Specialist who will maintain a high quality of our iOS, Android apps as well as web applications. Apply!
+description: We are looking for a QA Specialist who will maintain a high quality
+  of our iOS, Android apps as well as web applications. Apply!
 ---
 
 ![]()
