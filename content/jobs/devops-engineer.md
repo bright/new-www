@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "DevOps Engineer "
-subtitle: ONGOING
+subtitle: OPENING SOON
 imagejob: /images/brightteam_devops.png
 image-alt-job: Bright Inventions team
 hours: Full-time
@@ -16,7 +16,7 @@ technology:
   - Java/Kotlin
 button: join our Bright team
 published: true
-order: 7
+order: 10
 description: We are looking for a DevOps Engineer who would like to work with
   our experienced and ambitious development team.
 ---
