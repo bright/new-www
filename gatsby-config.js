@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: 
-        `${process.env.NODE_ENV === 'production' ? '1256554391514599' : ''}`,
+        `${process.env.GATSBY_ACTIVE_ENV == 'production' ? '1256554391514599' : ''}`,
       },
     },
     'gatsby-plugin-react-helmet',
@@ -130,7 +130,6 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 960,
-              
             },
           },
           {
