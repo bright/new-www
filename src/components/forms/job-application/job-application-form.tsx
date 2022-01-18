@@ -75,7 +75,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       label: window.location.href,
     })
     event.preventDefault()
-    if (!value.cv) {
+    if (!data.cv) {
       setErrorMsgValidation('Please upload document to submit your application.')
       setTimeout(() => {
         setErrorMsgValidation('')
