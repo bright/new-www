@@ -70,8 +70,8 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
 
   const submit = useCallback((event, data) => {
     trackCustomEvent({
-      category: 'Form Button',
-      action: 'Click',
+      category: 'Recruitment: Contact Form Button',
+      action: 'Click Submit Recruitment Form',
       label: window.location.href,
     })
     event.preventDefault()

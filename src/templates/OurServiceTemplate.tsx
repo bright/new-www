@@ -254,7 +254,13 @@ export default function Template({ data, params, pageContext }: any) {
             })}
         </CustomSectionInner>
       </CustomSection>
-      <Contact title={title_contact} subtitle={description_contact} isOurServiceTemplate={true} />
+      <Contact
+        title={title_contact}
+        subtitle={description_contact}
+        isOurServiceTemplate={true}
+        formButton='Business Contact Form Button'
+        actionFormButton='Click Submit Business Form'
+      />
 
       <FaqStructuredData faqs={faqs} />
     </Page>

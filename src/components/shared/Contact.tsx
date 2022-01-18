@@ -22,6 +22,7 @@ import { TextRegular, CustomSectionTitle } from './index'
 import { CustomTextRegular } from './index.styled'
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import ReactMarkdown from 'react-markdown'
+import AnalyticsLink from './AnalyticsLink'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;
@@ -86,8 +87,16 @@ export interface ContactProps {
   title?: string
   subtitle?: string
   isOurServiceTemplate?: boolean
+  formButton: string
+  actionFormButton: string
 }
-export const Contact: FC<ContactProps> = ({ title, subtitle, isOurServiceTemplate = true }) => {
+export const Contact: FC<ContactProps> = ({
+  title,
+  subtitle,
+  isOurServiceTemplate = true,
+  formButton,
+  actionFormButton,
+}) => {
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
@@ -142,8 +151,8 @@ export const Contact: FC<ContactProps> = ({ title, subtitle, isOurServiceTemplat
 
   const checkValid = () => {
     trackCustomEvent({
-      category: 'Contact Form Button',
-      action: 'Click',
+      category: formButton,
+      action: actionFormButton,
       label: window.location.href,
     })
     const isValid: boolean = checkedRules && name && email && message ? true : false

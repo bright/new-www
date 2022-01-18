@@ -11,6 +11,7 @@ import styled from 'styled-components'
 import { CustomPageTitle, CustomConstrainedWidthContainer, SectionInner } from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables from '../styles/variables'
+import AnalyticsLink from '../components/shared/AnalyticsLink'
 
 const SalaryHeading = styled.h5`
   margin: 1.5rem 0;
@@ -245,7 +246,7 @@ const ButtonWrapper = styled.div`
   display: block;
   margin: 0 auto;
   text-align: center;
-  
+
   @media ${variables.device.mobile} {
     width: 100%;
     margin: 0;
@@ -322,8 +323,13 @@ export default function Template({
             description={
               <>
                 You can either use our form below or send your application directly via email{' '}
-                <a href={'mailto:ula@bright.dev'}>ula@bright.dev</a>. Feel free to ask any questions on the position and
-                the project.
+                <AnalyticsLink
+                  href='mailto:ula@bright.dev'
+                  action='Click Recruitment Email'
+                  category='Click Email'
+                  text='ula@bright.dev'
+                />
+                . Feel free to ask any questions on the position and the project.
               </>
             }
             namePlaceholder={'Enter name here'}

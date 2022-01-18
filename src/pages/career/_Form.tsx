@@ -17,12 +17,12 @@ const Form: React.FC = () => {
                 Our recruitment demand is constantly changing. Drop us a line at{' '}
                 <AnalyticsLink
                   href='mailto:ula@bright.dev'
-                  action='Click'
-                  category='Click in email address'
+                  action='Click Recruitment Email'
+                  category='Click Email'
                   text='ula@bright.dev'
                 />
                 , or submit your CV and we will contact you when a position inline with your competences becomes
-                available. Also, feel free to ask any questions regarding our recruitment process.
+                available. Also, feel free to ask any questions regarding our recruitment process. available.
               </>
             }
             namePlaceholder={'Enter name here'}

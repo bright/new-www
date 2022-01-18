@@ -52,7 +52,7 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
         <Ratings />
       </HideTablet>
 
-      <Contact />
+      <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
   )
 }

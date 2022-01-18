@@ -1,7 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 
-import {SocialIcons} from '../components/subcomponents/SocialIcons'
+import { SocialIcons } from '../components/subcomponents/SocialIcons'
 
 import EmailIcon from '../assets/email_white.svg'
 import LocationIcon from '../assets/location_white.svg'
@@ -9,6 +9,7 @@ import LogoWhite from '../assets/logo_white_2.svg'
 import { routeLinks } from '../config/routing'
 
 import * as styles from './Footer.module.scss'
+import AnalyticsLink from '../components/shared/AnalyticsLink'
 
 export const Footer = () => {
   return (
@@ -44,9 +45,7 @@ export const Footer = () => {
           </div> */}
 
           <div className={classNames('column is-hidden-mobile', styles.links)}>
-            <h6 className='subtitle is-size-6 has-text-weight-bold'>
-              explore more
-            </h6>
+            <h6 className='subtitle is-size-6 has-text-weight-bold'>explore more</h6>
             <p className='content'>
               <a href={routeLinks.aboutUs()}>about us</a>
             </p>
@@ -65,9 +64,7 @@ export const Footer = () => {
           </div>
 
           <div className={classNames('column is-hidden-mobile', styles.links)}>
-            <h6 className='subtitle is-size-6 has-text-weight-bold'>
-              services
-            </h6>
+            <h6 className='subtitle is-size-6 has-text-weight-bold'>services</h6>
             <p className='content'>
               <a href={routeLinks.whatWeOffer}>web development</a>
             </p>
@@ -83,9 +80,7 @@ export const Footer = () => {
           </div>
 
           <div className={classNames('column', styles.links)}>
-            <h6 className='subtitle is-size-6 has-text-weight-bold is-hidden-mobile'>
-              contact
-            </h6>
+            <h6 className='subtitle is-size-6 has-text-weight-bold is-hidden-mobile'>contact</h6>
             <div className={styles.icon}>
               <div className='left'>
                 <LocationIcon />
@@ -100,9 +95,12 @@ export const Footer = () => {
                 <EmailIcon />
               </div>
               <div className='right'>
-                <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>
-                  info@brightinventions.pl
-                </a>
+                <AnalyticsLink
+                  href='mailto:info@brightinventions.pl?subject=bright%20mail'
+                  text='info@brightinventions.pl'
+                  category='Click Email'
+                  action='Click Business Email'
+                />
               </div>
             </div>
           </div>
@@ -111,11 +109,9 @@ export const Footer = () => {
 
       <div className={styles.bottom}>
         <div>
-          © {new Date().getFullYear()} Bright Inventions. All rights reserved.{' '}
-          <br />
-          We use cookies to ensure that we give you the best experience on our
-          website. If you continue to use this site we will assume that you are
-          happy with it.
+          © {new Date().getFullYear()} Bright Inventions. All rights reserved. <br />
+          We use cookies to ensure that we give you the best experience on our website. If you continue to use this site
+          we will assume that you are happy with it.
           <a href={routeLinks.privacyPolicy} className='has-text-black-bis'>
             Privacy Policy
           </a>

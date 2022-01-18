@@ -24,7 +24,7 @@ export default () => {
       <Projects />
       <Ratings />
       <PopularBlogPosts />
-      <Contact />
+      <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
   )
 }
