@@ -2,7 +2,7 @@
 layout: job
 title: "Frontend Developer "
 subtitle: ONGOING
-imagejob: /images/frontendteam_bright-inventions.png
+imagejob: /images/frontendteam.png
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
