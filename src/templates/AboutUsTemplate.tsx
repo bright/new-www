@@ -1,4 +1,4 @@
-import React, { CSSProperties, useRef, useEffect } from 'react'
+import React, { CSSProperties, useRef, useLayoutEffect } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { PageContext, Paging } from './blog/Paging'
@@ -19,7 +19,6 @@ import {
   SectionInner,
 } from '../components/shared/index.styled'
 import variables from '../styles/variables'
-import ScrollToTop from '../components/subcomponents/ScrollToTop'
 
 const gatsbyStyle: CSSProperties = {
   display: 'block !important',
@@ -111,14 +110,17 @@ any) => {
   const { slug } = frontmatter
   const authorId = slug
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (page > 1) {
+      const { current } = postsRef
       const yOffset = -200
-      const y = postsRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
+      const y = current.getBoundingClientRect().top + window.pageYOffset + yOffset
 
       window.scrollTo({
         top: y,
       })
+    } else {
+      window.scrollTo(0, 0)
     }
   }, [])
 
@@ -148,7 +150,7 @@ any) => {
             <>
               <CustomSectionTitle ref={postsRef}>blog posts by {frontmatter.short_name}</CustomSectionTitle>
               <BlogFeed posts={createBlogPosts(posts)} />
-              <ScrollToTop />
+
               <Paging pageContext={pageContext} baseURI={`${routeLinks.aboutUs({ authorId, slug })}`} />
             </>
           )}
