@@ -1,4 +1,4 @@
-import React, { CSSProperties, useRef, useLayoutEffect } from 'react'
+import React, { CSSProperties, useRef, useEffect } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { PageContext, Paging } from './blog/Paging'
@@ -103,16 +103,19 @@ any) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const avatarImage = getImage(frontmatter.avatar_hover)!
-  const postsRef = useRef()
+  const postsRef = useRef<HTMLHeadingElement>(null)
+
+  console.log(postsRef)
 
   const { posts } = pageContext
   const { currentPage: page } = pageContext
   const { slug } = frontmatter
   const authorId = slug
 
-  useLayoutEffect(() => {
-    if (page > 1) {
-      const { current } = postsRef
+  useEffect(() => {
+    const { current } = postsRef
+    console.log(current)
+    if (null !== current && page > 1) {
       const yOffset = -200
       const y = current.getBoundingClientRect().top + window.pageYOffset + yOffset
 
