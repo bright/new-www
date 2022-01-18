@@ -2,7 +2,7 @@
 layout: job
 title: "Senior Fullstack Developer "
 subtitle: ONGOING
-imagejob: /images/frontendteam_bright-inventions.png
+imagejob: /images/fullstackteam.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: Full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
