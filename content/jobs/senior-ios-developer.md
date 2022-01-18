@@ -2,7 +2,7 @@
 layout: job
 title: "Senior iOS Developer "
 subtitle: ONGOING
-imagejob: /images/iosteam-bright-inventions.png
+imagejob: /images/iosteam.png
 image-alt-job: iOS Team Bright Inventions
 hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
@@ -11,8 +11,8 @@ salary_max: 22000
 working time: full time
 technology:
   - Swift
-  - iOS SDK 
-  - Cocoa Touch 
+  - iOS SDK
+  - Cocoa Touch
   - Swift Package Manager
   - Realm
 button: join our iOS team

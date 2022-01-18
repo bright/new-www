@@ -19,7 +19,7 @@ image: /images/bright_rules.jpg
 hidden: false
 published: true
 ---
-Every year we work at Bright Inventions on many mobile and web development projects. It is a challenge to build a good quality software in an agile way and at the same time solve all potential problems and keep your workflow under control, but we do that. In fact, we manage to do that thanks to applying some important rules. Check below what makes our work bright and effective.
+Every year we work at [Bright Inventions](/) on many mobile and web development projects. It is a challenge to build a good quality software in an agile way and at the same time solve all potential problems and keep your workflow under control, but we do that. In fact, we manage to do that thanks to applying some important rules. Check below what makes our work bright and effective.
 
 ## **1.  Code review**
 
@@ -37,7 +37,7 @@ We are great advocates of Continuous integration (CI). Our code is integrated in
 
 ## **4. TDD**
 
-We believe that Test Driven Development is a good way of providing high-quality software. Applying TDD methodology makes creating  maintainable readable code and reducing bugs much easier. At first, we always try to write unit tests to check particular segments and then the code itself. It prevents us from creating unnecessary code and helps to specify precise features that should be implemented in the project. And even if TDD takes at first much time and effort from us, over the time this process results in great benefits for our clients. 
+We believe that Test Driven Development is a good way of providing high-quality software. Applying TDD methodology makes creating maintainable readable code and reducing bugs much easier. At first, we always try to write unit tests to check particular segments and then the code itself. It prevents us from creating unnecessary code and helps to specify precise features that should be implemented in the project. And even if TDD takes at first much time and effort from us, over the time this process results in great benefits for our clients. 
 
 ## **5. SOLID**
 

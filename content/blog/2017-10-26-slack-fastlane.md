@@ -1,16 +1,13 @@
 ---
-layout: post
-title: Slack + Fastlane = ❤️. About one of Continuous Integration puzzles.
-excerpt: >-
-  Professional development process consists of many puzzles. Some of these
-  puzzles can be: unit testing, choosing good architecture, clean code,
+excerpt: "Professional development process consists of many puzzles. Some of
+  these puzzles can be: unit testing, choosing good architecture, clean code,
   continuous integration and many  more. In this post I will focus on one of
   these puzzles - Continuous Integration(CI). An integral part of CI in iOS
   Development process is a great tool called Fastlane. Fastlane is a powerful
   engine which handles a number of tasks like - dealing with code signing,
   creating `.ipa` files, generating screenshots to AppStore and much more. One
   of the cool feature of Fastlane is a Slack integration - and this is what I
-  wanted to write about.
+  wanted to write about."
 author: kwysocki
 tags:
   - iOS
@@ -18,19 +15,19 @@ tags:
   - fastlane
   - slack
   - continuous integration
-comments: true
-hidden: false
+date: 2017-10-25T22:00:00.000Z
+title: Slack + Fastlane = ❤️. About one of Continuous Integration puzzles.
+layout: post
 image: /images/slack-fastlane/puzzle.jpg
-date: '2017-10-25T22:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
-
 ![Image with puzzle](/images/slack-fastlane/puzzle.jpg)
 
 Professional development process consists of many puzzles. Some of these puzzles can be: unit testing, choosing good architecture, clean code, continuous integration and many  more.
-In this post I will focus on one of these puzzles - Continuous Integration(CI). An integral part of CI in iOS Development process is a great tool called [Fastlane](https://fastlane.tools/).
+In this post I will focus on one of these puzzles - Continuous Integration(CI). An integral part of CI in [iOS Development](/our-areas/mobile-app-development) process is a great tool called [Fastlane](https://fastlane.tools/).
 Fastlane is a powerful engine which handles a number of tasks like: dealing with code signing, creating `.ipa` files, generating screenshots to AppStore and much more. One of the cool feature of Fastlane is the Slack integration - and this is what I wanted to write about.
-
 
 # 💪 Motivation 💪
 
@@ -44,7 +41,6 @@ Let's say that we were doing some code refactoring, we committed the changes and
 
 ![TeamCity tests failed](/images/slack-fastlane/test-failed.png)
 
-
 Of course, I don't have constantly an opened browser to check on the Teamcity site if everything goes  well when I push something to the repository. I want to be informed if something goes wrong like - if  unit tests fails or timeout appears or compilation error happens. And here is the key word - INFORMED. How our build agent can inform us about an occurred error?
 
 ### Emails
@@ -53,13 +49,11 @@ Of course, I don't have constantly an opened browser to check on the Teamcity si
 
 We use email service which is built-in into TeamCity. Every built lane has a rule which says 'send email to all developers when something goes wrong and build fails'. This solution works fine and it's commonly used in many projects and companies. But personally, I'm not 100% satisfied with it. If you work in several projects, you get more and more emails from clients, Jira, team etc. And let's add to that getting new emails from our TeamCity service. Of course, I can create filters and group all the  stuff(which I do), but even then it's too much for me. Besides, there is a new thing - if some builds fail - in most cases, it is important to **fix it quick**. So I prefer another - quicker in my opinion - way to be notified if something bad happens.
 
-
 # ❤️ Fastlane + Slack ❤️
 
 ## 1. Create your Fastfile in right way
 
 Let's consider a simple example. One lane which compiles the project and runs the unit tests:
-
 
 ```ruby
 platform :ios do
@@ -135,7 +129,6 @@ Of course, after you learn how it works, you can generate a URL for specially cr
 
 ![Slack website - webhook URL image](/images/slack-fastlane/webhook-slack-url2.png)
 
-
 ## 3. Build Slack message in Fastfile
 
 First of all, [here](https://docs.fastlane.tools/actions/slack/) you can find an official documentation for Slack action in Fastlane tool. In the below  section I'll try to give you a closer look at that.
@@ -148,7 +141,6 @@ Put a new lane in you Fastfile, and then just run:
 or if you are using a bundler
 
 `bundle exec fastlane slack_message`.
-
 
 ```ruby
 platform :ios do
@@ -167,7 +159,6 @@ This is how our message looks like:
 
 ![Slack basic message from Fastlane](/images/slack-fastlane/basic-message.png)
 
-
 As you can see by default you get some information about `Git Commit`, `Git Commit Hash`, `Lane`, `Result`, `Git Author`.
 
 # 🔧 Customizing slack message 🔧
@@ -176,9 +167,9 @@ As you can see by default you get some information about `Git Commit`, `Git Comm
 
 Simple key for creating a message which will be display in a first row in Slack message. This can be literally everything.
 
-- `message: "App Successfully uploaded to iTunesConnect"`
-- `message: "All tests have been successful"`
-- `message: "Something went wrong"` - My favorite error message 😉
+* `message: "App Successfully uploaded to iTunesConnect"`
+* `message: "All tests have been successful"`
+* `message: "Something went wrong"` - My favorite error message 😉
 
 but try to make your Slack message useful. As you can see above in my `Fastfile` I use a `begin-rescue` construction in Ruby. It is very useful because you can use an exception passed as a parameter to and create some meaningful error message.
 
@@ -195,7 +186,6 @@ target 'MyAppTarget' do
  podd 'SnapKit' # <------- should fail because of `podd`
  pod 'Result'
 end
-
 ```
 
 Now create a lane in our `Fastfile` that will install our CocoaPods, and build the project.
@@ -243,7 +233,6 @@ wait some time.... and...🔔 🔔
 ![Slack message with error in message](/images/slack-fastlane/exception.png)
 
 Now our message is meaningful and we know that our `Podfile` has some errors.
-
 
 #### 👉  `deafult_payloads`
 
@@ -337,11 +326,10 @@ In this post I have focused, in my humble opinion, on the most important keys wh
 
 I ❤️  Fastlane tool. It helps all developers to save a lot of time during development process. I think  one of the puzzles of this process is Continuous Integration ***in the full sense of the word***. How do I understand the Continuous Integration? As you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Continuous_integration)
 
->In software engineering, continuous integration (CI) is the practice of merging all developer working copies to a shared mainline several times a day.
+> In software engineering, continuous integration (CI) is the practice of merging all developer working copies to a shared mainline several times a day.
 
 It is 100% true, but for me, it is also a state when I as a developer can be notified by CI agent about successes and errors without specially checking them before pushing changes to the repository. But don't get me wrong. I don't recommend committing and pushing without compiling (because our CI agent inform us when something fails). I'm talking about a situation when you have a number of projects that contain a number of tests (Yes, I assume you're writing tests 😉). And I think you don't want to run them every time before you push new changes to the repository. That's why, you configure the whole CI stuff to avoid it. Let CI agent do it for you. In most cases all the tests will succeed 😉), so you can work continuously. But if somehow tests fail - let the CI agent ping you on a Slack.    😉
 Another thing is that, you can be informed about good things like: successfully uploaded `.ipa` to TestFlight.
-
 
 Hope you like the post. If you have any questions or simply have a different opinion on this topic - feel free to leave a comment. Below you can find all links that were used in this post.
 
@@ -357,4 +345,4 @@ Hope you like the post. If you have any questions or simply have a different opi
 
 👉  [TeamCity](https://www.jetbrains.com/teamcity/)
 
-This post was published also on my [personal blog](https://wysockikamil.com/slack-fastlane/) 
+This post was published also on my [personal blog](https://wysockikamil.com/slack-fastlane/)

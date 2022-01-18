@@ -1,8 +1,8 @@
 ---
 author: izabela
 tags:
-  - devlopment
   - business
+  - development
 date: 2021-08-03T06:50:18.274Z
 title: Bluetooth devices that change healthcare
 layout: post
@@ -80,6 +80,6 @@ These are the examples of healthcare devices which our team at Bright Inventions
 
 Gathering data from these devices isn’t really a challenge. The challenge is to develop the right algorithm that will not only analyse the data but will respond with the solution that may save a life. Healthcare apps that we create can instruct patients and caregivers to call an ambulance. An app can even set up a phone call to 911 and the patient just needs to click to start it.
 
-If you are looking for a **healthcare software development company**, make sure that the software team that you are about to hire have **deep knowledge about software development as well as experience in hardware**. These two elements are crucial in terms of developing solutions for telehealth.
+If you are looking for a **[healthcare software development company](/)**, make sure that the software team that you are about to hire have **deep knowledge about software development as well as experience in hardware**. These two elements are crucial in terms of developing solutions for telehealth.
 
 [Estimate the healthcare project](/start-project/)

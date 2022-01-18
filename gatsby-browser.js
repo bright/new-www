@@ -5,8 +5,11 @@
  */
 
 // You can delete this file if you're not using it
-import React from "react"
-import { GlobalStyle } from "./src/styles/global"
+import React from 'react'
+import { GlobalStyle } from './src/styles/global'
+import {
+  registerGlobalMailtoClickHandler,
+} from './src/report-mailto-click-to-google-analytics'
 
 export const wrapPageElement = ({ element }) => (
   <>
@@ -14,3 +17,7 @@ export const wrapPageElement = ({ element }) => (
     {element}
   </>
 )
+
+export const onInitialClientRender = () => {
+  registerGlobalMailtoClickHandler();
+}

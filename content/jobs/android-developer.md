@@ -2,7 +2,7 @@
 layout: job
 title: Android Developer
 subtitle: ONGOING
-imagejob: /images/android-team.png
+imagejob: /images/androidteam2.png
 image-alt-job: Android Team Bright Inventions
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
@@ -11,14 +11,14 @@ salary_max: 15000
 working time: full time
 technology:
   - Kotlin
-  - Android Studio 
+  - Android Studio
   - Android SDK
   - Kotlin Coroutines
 button: join our Android team
 redirect_from:
   - /android-developer
   - /android-developer/
-published: false 
+published: false
 order: 6
 description: We are a software development and consultancy studio based in
   Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses
