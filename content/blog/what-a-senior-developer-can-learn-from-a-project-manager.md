@@ -14,6 +14,8 @@ published: true
 ---
 ## Code is just a means to an end
 
+![Agnieszka – Senior Fullstack Developer](/images/blog_agnieszka.png)
+
 Usually, your everyday goal is to write some piece of code. That's what programmers do, isn’t it? And if you are one of these perfectionist guys, you want your code to be more than excellent. So it is so tempting to focus exclusively on that. 
 
 This is a moment where a **good project manager reminds you to look globally at your project**. Your job is to create something worthy for users. When a project manager is focused on delivering value, then they infect you with that focus.
@@ -22,6 +24,8 @@ Code is just a part of it. Obviously, it has to work for clients and users. But 
 
 ## You are not born with soft skills, you learn how to use them
 
+![learning soft skills](/images/people-learn.jpg)
+
 I consider myself an introvert. Expressing myself is a challenge for me. I used to think that it was the way it was and there was not so much I could do about that. And then we had a communication workshop with our senior project manager – [Kasia](/about-us/kasia/). This workshop was a game-changer. 
 
 **Kasia made me realise that soft skills weren't skills that we were born with (or not).** We can learn them as much as we learn how to read or drive a car. And that changed my perspective and approach to communication. 
@@ -29,6 +33,8 @@ I consider myself an introvert. Expressing myself is a challenge for me. I used 
 I never was a fan of networking or small talk but I just learnt how to do it, how to be better at that. And some could say – “What is to learn here?” Probably that is something natural to them. Maybe for me it isn’t but it doesn't mean I couldn’t do it. I just had to practice it a little bit harder. And **good PM shows you the way to express yourself and to communicate**. Then you see the sense of calls, meetings and standups. 😉
 
 ## A project manager is not here to tell you what to do
+
+![team meeting](/images/people-talk.jpg)
 
 Before I started to work on my first project with PM, I thought that this person would only take care of my tasks. She would write and manage tasks in Jira and I wouldn’t have to do it. So I was glad to have that person on board. 
 
