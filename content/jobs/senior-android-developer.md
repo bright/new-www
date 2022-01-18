@@ -2,7 +2,7 @@
 layout: job
 title: Senior Android Developer
 subtitle: ONGOING
-imagejob: /images/android-team.png
+imagejob: /images/androidteam2.png
 image-alt-job: Android Team Bright Inventions
 hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
@@ -10,10 +10,10 @@ salary_min: 16000
 salary_max: 22000
 working time: full time
 technology:
-  - Android SDK 
+  - Android SDK
   - Android Studio
   - Kotlin
-  - Kotlin Coroutines 
+  - Kotlin Coroutines
 button: join our Kotlin team
 redirect_from:
   - /android-developer
