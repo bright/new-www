@@ -12,9 +12,11 @@ hidden: false
 comments: true
 published: true
 ---
-## Code is just a means to an end
+
 
 ![Agnieszka – Senior Fullstack Developer](/images/blog_agnieszka.png)
+
+## Code is just a means to an end
 
 Usually, your everyday goal is to write some piece of code. That's what programmers do, isn’t it? And if you are one of these perfectionist guys, you want your code to be more than excellent. So it is so tempting to focus exclusively on that. 
 
