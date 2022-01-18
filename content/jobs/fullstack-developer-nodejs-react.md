@@ -2,7 +2,7 @@
 layout: job
 title: "Fullstack Developer (Node.js + React) "
 subtitle: ONGOING
-imagejob: /images/frontendteam_bright-inventions.png
+imagejob: /images/fullstackteam.png
 image-alt-job: TypeScript Team
 hours: full-time
 salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
