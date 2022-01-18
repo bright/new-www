@@ -113,13 +113,15 @@ any) => {
   useEffect(() => {
     const { current } = postsRef
 
-    if (null !== current && page > 1) {
+    if (current !== null && page > 1) {
       const yOffset = -200
       const y = current.getBoundingClientRect().top + window.pageYOffset + yOffset
 
-      window.scrollTo({
-        top: y,
-      })
+      setTimeout(() => {
+        window.scrollTo({
+          top: y,
+        })
+      }, 0)
     } else {
       window.scrollTo(0, 0)
     }
@@ -149,7 +151,9 @@ any) => {
           </AuthorWrapper>
           {posts?.length > 0 && (
             <>
-              <CustomSectionTitle ref={postsRef}>blog posts by {frontmatter.short_name}</CustomSectionTitle>
+              <CustomSectionTitle id='test' ref={postsRef}>
+                blog posts by {frontmatter.short_name}
+              </CustomSectionTitle>
               <BlogFeed posts={createBlogPosts(posts)} />
 
               <Paging pageContext={pageContext} baseURI={`${routeLinks.aboutUs({ authorId, slug })}`} />
