@@ -133,7 +133,7 @@ export const CustomPageTitle = styled.h1<{
   font-weight: 800;
   line-height: 4.125rem;
   text-align: center;
-  color: #000000;
+  color: #0a0a0a;
 
   & > span {
     color: ${variables.color.primary};
