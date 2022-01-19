@@ -12,7 +12,7 @@ import Helmet from 'react-helmet'
 import { resolveUrl } from '../meta/resolve-url'
 // @ts-ignore
 import blogPostDefaultImage from '../../static/images/dummy/blog_post.png'
-import { PageTitle } from '../components/shared/index.styled'
+import { CustomPageTitle, CustomSection, PageTitle } from '../components/shared/index.styled'
 import BlogTagsAll from './blog/BlogTagsAll'
 import { routeLinks } from '../config/routing'
 import { kebabCase } from '../helpers/pathHelpers'
@@ -36,37 +36,41 @@ const BlogTagsPage: React.FC<Props> = ({ data, pageContext, ...props }) => {
         <meta property='og:image' content={resolveUrl(blogPostDefaultImage)} />
       </Helmet>
 
-      <div className='container'>
-        <Section>
-          <PageTitle>
-            {' '}
-            <span>bright</span> devs blog
-          </PageTitle>
+      <CustomSection
+        paddingProps='3rem 15rem 4rem '
+        paddingLaptop='3rem 6rem 0'
+        paddingTabletXL='3rem 9rem 0'
+        paddingTablet='3rem 2.25rem 0rem'
+        paddingMobileProps='3rem 1.125rem 1rem'
+      >
+        <CustomPageTitle>
+          {' '}
+          <span>bright</span> devs blog
+        </CustomPageTitle>
 
-          <BlogTagsAll activeTag={pageContext.tag} activeSubTag={pageContext.subTag} />
-          {/*<PageDescription>*/}
-          {/*  Get up-to-date news on Bright Inventions. Discover all the*/}
-          {/*  latest about technologies we use, solutions we create and*/}
-          {/*  our culture. Because we believe that knowledge sharing is*/}
-          {/*  important not only inside the team.*/}
-          {/*</import { grabMatchParams } from './../../.cache/find-path';
+        <BlogTagsAll activeTag={pageContext.tag} activeSubTag={pageContext.subTag} />
+        {/*<PageDescription>*/}
+        {/*  Get up-to-date news on Bright Inventions. Discover all the*/}
+        {/*  latest about technologies we use, solutions we create and*/}
+        {/*  our culture. Because we believe that knowledge sharing is*/}
+        {/*  important not only inside the team.*/}
+        {/*</import { grabMatchParams } from './../../.cache/find-path';
 PageDescription> import { useEffect, useState } from 'react';
 */}
 
-          <BlogFeed posts={createBlogPosts(data)} />
-          <ScrollToTop />
-          {pageContext.numPages > 1 && (
-            <Paging
-              pageContext={pageContext}
-              baseURI={
-                pageContext.subTag
-                  ? `${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}/`
-                  : `${routeLinks.blogTags({ tag: kebabCaseTag })}`
-              }
-            />
-          )}
-        </Section>
-      </div>
+        <BlogFeed posts={createBlogPosts(data)} />
+        <ScrollToTop />
+        {pageContext.numPages > 1 && (
+          <Paging
+            pageContext={pageContext}
+            baseURI={
+              pageContext.subTag
+                ? `${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}/`
+                : `${routeLinks.blogTags({ tag: kebabCaseTag })}`
+            }
+          />
+        )}
+      </CustomSection>
     </Page>
   )
 }

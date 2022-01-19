@@ -39,7 +39,12 @@ const Post: React.FC<{ post: BlogPostModel }> = ({ post }) => {
   return (
     <div className={styles.entry} onClick={redirect}>
       <div className={styles.image}>
-        <GatsbyImage image={getImage(post.image)} alt={post.title} />
+        <GatsbyImage
+          image={getImage(post.image)}
+          alt={post.title}
+          className='post-img'
+          imgStyle={{ objectFit: 'cover', width: '100%', height: '100%' }}
+        />
       </div>
       <div className={styles.content}>
         <div className={styles.postInfo}>
