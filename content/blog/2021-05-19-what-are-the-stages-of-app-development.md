@@ -56,7 +56,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 ![Building the MVP](/images/3_mvp.png)
 
-* According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **[MVP](/blog/4-things-we-love-about-building-mvps/) is the minimal version of the product/service including only crucial features.**
+* According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **[MVP](/our-areas/mvp-development) is the minimal version of the product/service including only crucial features.**
 * Developing crucial features helps to reduce time to market and prevent app owners from spending too much money for the product that hasn’t been verified by the market yet. 
 * MVP development works closely with the agile methodology.
 * Business trends and technologies transform every day so **developing MVPs helps quickly enter the market** and easily adapt to any possible business or technical changes. 
