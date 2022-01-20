@@ -2,21 +2,21 @@
 excerpt: One may ask if it is a real fun spending two days in front of computer
   with a bunch of strangers. The example of IOTA Hackathon shows that it is
   indeed.
-layout: post
-title: IOTA Hackathon
-date: 2017-11-23T23:00:00.000Z
-image: /images/bright-1847006_1920.jpg
 author: ula
 tags:
   - IOTA
   - hackathon
   - cryptocurrency
   - teamwork
+date: 2017-11-23T23:00:00.000Z
+title: IOTA Hackathon
+layout: post
+image: /images/bright-1847006_1920.jpg
 hidden: false
 comments: true
 published: true
 ---
-Last weekend we had pleasure to co-organise and take part in IOTA Hackathon, the event during which software developers from all over Europe came to put to test IOTA Platform with different use cases. IOTA Hackathon was held from 17 to 19 November and was sponsored by [IOTA](https://iota.org/), Baltic Data Science (blockchain and big data service), [Datarella](http://datarella.com/) (blockchain and big data consultancy) and [Bright Inventions](https://twitter.com/BrightDevs). 
+Last weekend we had pleasure to co-organise and take part in IOTA Hackathon, the event during which software developers from all over Europe came to put to test IOTA Platform with different use cases. IOTA Hackathon was held from 17 to 19 November and was sponsored by [IOTA](https://iota.org/), Baltic Data Science (blockchain and big data service), [Datarella](http://datarella.com/) (blockchain and big data consultancy) and [Bright Inventions](/our-areas/blockchain). 
 
 The hackathon started with the preceding keynote presentations of Chris Dukakis from IOTA and Jamie Burke from Outlier Ventures. Both presentations were in fact a great parallel track of workshops for newcomers as well as all participants. After getting familiar with IOTA, brainstorming sessions and resolving many doubts, participants chose the ideas they wanted to focus on, formed groups, took out their laptops and dived into the IOTA world competing for 4200 IOTA in prize money. 
 
