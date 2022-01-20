@@ -1,8 +1,4 @@
 ---
-layout: post
-title: Pros and cons of software development pricing models
-date: 2021-06-10T07:49:01.293Z
-image: /images/blogpost_www_iza_pricingmodels.png
 author: izabela
 secondAuthor: mateusz
 tags:
@@ -10,6 +6,10 @@ tags:
   - pricing model
   - fixed pricing
   - T&M pricing model
+date: 2021-06-10T07:49:01.293Z
+title: Pros and cons of software development pricing models
+layout: post
+image: /images/blogpost_www_iza_pricingmodels.png
 hidden: false
 comments: true
 published: true
@@ -22,7 +22,7 @@ The most common ways to settle up with software development agencies are: **fixe
 
 ## What is a fixed price model?
 
-A fixed price model is a situation when you (as a client) agree with a software development agency **a price set for a job to be done** in a specific period of time. For example, you pay a fixed price for Minimum Viable Product (MVP).
+A fixed price model is a situation when you (as a client) agree with a software development agency **a price set for a job to be done** in a specific period of time. For example, you pay a fixed price for [Minimum Viable Product (MVP)](/our-areas/mvp-development).
 
 ## What is a Time and Material (T&M) model price?
 
@@ -69,4 +69,3 @@ You **pay only for the real time spent on the project and the resources** (mater
 What is the best pricing model for you? Let us know in the comments!
 
 Click, if you are looking for a [software development studio](/start-project).
-
