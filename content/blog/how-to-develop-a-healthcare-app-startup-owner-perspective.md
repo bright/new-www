@@ -12,7 +12,7 @@ published: true
 ---
 **Are you planning to develop healthcare software? Or maybe you have an idea for a healthcare app and don’t know what to do next? This is a guide for startups and entrepreneurs that want to be a part of the health tech movement.**
 
-![](/images/healthcare_in_post2.png)
+![healthcare app development](/images/healthcare_in_post2.png)
 
 Healthcare tech has to be customized from the very beginning. That’s why **custom healthcare software development** is the key to the successful launch of a product.
 
@@ -49,7 +49,7 @@ This phase helps to verify the potential of an idea and visualize it. You establ
 
 3. ### Building the MVP for healthcare
 
-MVP (Minimum Viable Product) is the first minimal version of the product that includes only the most important features. MVP reduces time to market and enables receiving quick feedback from users. Eventually, MVP helps to effectively evolve the project.
+[MVP (Minimum Viable Product)](/our-areas/mvp-development) is the first minimal version of the product that includes only the most important features. MVP reduces time to market and enables receiving quick feedback from users. Eventually, MVP helps to effectively evolve the project.
 
 4. ### Software Development & Maintenance
 
@@ -67,6 +67,6 @@ It is the phase **you have to turn users’ expectations into a prototype** even
 
 When it comes to custom healthcare app development every part of the process has to be adjusted to the users and their needs. Therefore, the price of building an app cannot be established blindly. Customized development cannot be priced without receiving crucial information about the development process, such as: scale, target groups, expected skills and type of devices that are a part of the solution.
 
-Are you looking for a **healthcare software development company**? You’ve come to the right place!
+Are you looking for a **[healthcare software development company](/)**? You’ve come to the right place!
 
 [Estimate your healthcare project](/start-project)
