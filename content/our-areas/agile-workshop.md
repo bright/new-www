@@ -14,6 +14,7 @@ faqs:
   - agile workshop 7
   - agile workshop 8
   - agile workshop 9
+  - agile workshops 10
 project:
   - bright-treasury
   - solution-parkinson
@@ -43,12 +44,12 @@ description: We live and breathe Agile. For almost a decade we have used Agile
   We work directly with your software developers and we have the experience to
   help you solve your project management and process problems. We offer face to
   face meetings (across Europe) and online workshops as well.
-button: 'book free consultation '
-button2: 'book free consultation '
+button: "book free consultation "
+button2: "book free consultation "
 published: true
 show_case_study: true
 show_technology_stack: true
-title_team: 'meet our Agile team '
+title_team: "meet our Agile team "
 title_case_study: projects we delivered with Agile
 title_faqs: agile workshops FAQs
 title_contact: let’s talk about your workshops
