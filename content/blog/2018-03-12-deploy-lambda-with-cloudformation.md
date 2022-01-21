@@ -15,7 +15,6 @@ comments: true
 published: true
 canonicalUrl: https://miensol.pl/deploy-lambda-with-cloudformation/
 ---
-
 Serverless deployments are popular these days. With a minimal cost you can have your own code wait and respond to various events. AWS Lambda, Azure Functions are just 2 examples of serverless offering from the biggest cloud providers. For a long time I had thought about them only in the context of ad-hoc setups not suitable for a long term development. This was until I found out that you can, with a little effort, version and deploy the serverless API just as a traditional back-end. In this post I am going to show how to deploy AWS Lambda functions with the help of the tool [Adam](https://adambar.pl/) created at [Bright Inventions](/) called [cloudform](https://github.com/bright/cloudform).
 
 ![Lambda function](/images/lambda/lambda.png)
@@ -188,7 +187,7 @@ Since we now use TypeScript for `Alice` and `Bob` source we need to install the 
 
 we can use the following commands to compile and deploy Lambda functions:
 
-```bash 
+```bash
 ./node_modules/.bin/tsc
 
 aws cloudformation update-stack \
@@ -207,4 +206,4 @@ END RequestId: 6a87c764-251e-11e8-b921-f9ca7649c7d7
 REPORT RequestId: 6a87c764-251e-11e8-b921-f9ca7649c7d7	Duration: 1110.68 ms	Billed Duration: 1200 ms 	Memory Size: 128 MB	Max Memory Used: 34 MB	
 ```
 
-Serverless infrastructure offers endless possibilities. With [cloudform](https://github.com/bright/cloudform) we can take AWS Lambda development, change management and deployment to the next level.
+[Serverless infrastructure](/our-areas/cloud-services/) offers endless possibilities. With [cloudform](https://github.com/bright/cloudform) we can take AWS Lambda development, change management and deployment to the next level.
