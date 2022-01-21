@@ -6,9 +6,18 @@ import { BlogPostModel } from '../../models/gql'
 
 import * as styles from './Feed.module.scss'
 import { GatsbyImage, getImage, getSrc } from 'gatsby-plugin-image'
+import styled from 'styled-components'
+import variables from '../../styles/variables'
 
 const BlogPostDummyUrl = '/images/dummy/blog_post.png'
 
+const ImageWrapper = styled.div`
+  .post-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+`
 interface Props {
   posts: BlogPostModel[]
   numToSliced?: Number
@@ -38,14 +47,14 @@ const Post: React.FC<{ post: BlogPostModel }> = ({ post }) => {
   }
   return (
     <div className={styles.entry} onClick={redirect}>
-      <div className={styles.image}>
+      <ImageWrapper className={styles.image}>
         <GatsbyImage
           image={getImage(post.image)}
           alt={post.title}
           className='post-img'
-          imgStyle={{ objectFit: 'cover', width: '100%', height: '100%' }}
+          imgStyle={{ objectFit: 'cover' }}
         />
-      </div>
+      </ImageWrapper>
       <div className={styles.content}>
         <div className={styles.postInfo}>
           <div className={styles.date}>{formatDate(new Date(post.date), 'MMM, d yyyy')}</div>
