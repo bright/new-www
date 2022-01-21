@@ -1,20 +1,19 @@
 ---
-layout: post
-title: Working with iOS push notifications
-date: 2017-11-30T23:00:00.000Z
-image: /images/iphone.jpg
 author: mateusz
 tags:
   - ios
   - push notifications
   - firebase
   - swift
+date: 2017-11-30T23:00:00.000Z
+title: Working with iOS push notifications
+layout: post
+image: /images/iphone.jpg
 hidden: false
 comments: true
 published: true
 ---
-
-Push notifications, also known as remote notifications, are a tremendously useful feature of mobile applications. They can be used for sending users marketing offers, increase users engagement by providing a personalised content, implementing a chat or even triggering some action to be performed in the background. And what's really useful, users don't have to keep their app opened.
+Push notifications, also known as remote notifications, are a tremendously useful feature of [mobile applications](/our-areas/mobile-app-development/). They can be used for sending users marketing offers, increase users engagement by providing a personalised content, implementing a chat or even triggering some action to be performed in the background. And what's really useful, users don't have to keep their app opened.
 
 Sounds great, doesn't it? Yes, but it's necessary to understand how push notifications work and learn how to set them up properly to avoid some unnecessary hassle.
 
@@ -22,9 +21,9 @@ Sounds great, doesn't it? Yes, but it's necessary to understand how push notific
 
 iOS 10, in addition to a short text message, playing a notification sound, and setting a badge number on the app's icon, has expanded iOS push notifications capabilities with:
 
-- **media attachments** (images, gifs, audio, video),
-- expanding detail view with **3D Touch**,
-- **notifications actions** allowing user to take immediate actions.
+* **media attachments** (images, gifs, audio, video),
+* expanding detail view with **3D Touch**,
+* **notifications actions** allowing user to take immediate actions.
 
 In [the example](https://medium.com/@prianka.kariat/ios-10-notifications-with-attachments-and-much-more-169a7405ddaf) below, there is an iOS 10 push notification with the image attached and "Like" action button.
 
@@ -38,18 +37,18 @@ Push notifications are sent on `Apple Push Notification service`'s (APNs) behalf
 
 Let's glance at the most popular services that support both iOS and Android:
 
-- [**Firebase Cloud Messaging** by Google](https://firebase.google.com)
-- [**Pusher**](https://pusher.com)
-- [**Mixpanel**](https://mixpanel.com)
+* [**Firebase Cloud Messaging** by Google](https://firebase.google.com)
+* **[Pusher](https://pusher.com)**
+* **[Mixpanel](https://mixpanel.com)**
 
 Each of these services offers also other features like analytics, A/B testing, crash reporting, real-time database or even authentication, but you don't have to use any of them.
 
 Note that using a 3rd party service has its **downsides**, like:
 
-- If you decide to switch to **your own server**, you'll need to communicate with the service you've used instead of the APNs directly, or you'll have to reconfigure your mobile app.
-- You must be aware that your data is sent through servers that you don't control, so it might concern you regarding your data protection policy.
-- Some services are **free until you reach some limit**, for example, Mixpanel lets you create only [up to 1000 user profiles for free](https://mixpanel.com/pricing/#people). It might be expensive if your app becomes popular.
-- When a service is being closed down, you have limited time to migrate to another provider. Such situation has already happened with a very popular platform for mobile developers maintained by Facebook called **Parse**, which was [shut down on January, 2017](http://blog.parse.com/announcements/moving-on). The project is now [open source](http://docs.parseplatform.org) and you can set it up on your own machine, but you can't use it out of the box anymore.
+* If you decide to switch to **your own server**, you'll need to communicate with the service you've used instead of the APNs directly, or you'll have to reconfigure your mobile app.
+* You must be aware that your data is sent through servers that you don't control, so it might concern you regarding your data protection policy.
+* Some services are **free until you reach some limit**, for example, Mixpanel lets you create only [up to 1000 user profiles for free](https://mixpanel.com/pricing/#people). It might be expensive if your app becomes popular.
+* When a service is being closed down, you have limited time to migrate to another provider. Such situation has already happened with a very popular platform for mobile developers maintained by Facebook called **Parse**, which was [shut down on January, 2017](http://blog.parse.com/announcements/moving-on). The project is now [open source](http://docs.parseplatform.org) and you can set it up on your own machine, but you can't use it out of the box anymore.
 
 ## Firebase
 
@@ -66,68 +65,54 @@ Configuration with auth keys is recommended as they are the more current method 
 #### To enable push notifications service in application identifier:
 
 1. Log in to [Apple Developer Center](https://developer.apple.com).
-
 2. Open **Certificates, IDs & Profiles**.
-
 3. Open applications identifiers on the left pane: **Identifiers** -> **App IDs**.
-
 4. Find your application identifier and **Edit** its services.
-
 5. Enable **Push Notifications**.
 
-    ![image](/images/working-with-ios-push-notifications/apple-dev-enable-service.png)
+   ![image](/images/working-with-ios-push-notifications/apple-dev-enable-service.png)
 
 #### To generate `APNs SSL Certificate` on [Apple Developer Center](https://developer.apple.com):
 
 1. Choose **Create Certificate...** for Development or/and Production.
 
-    ![image](/images/working-with-ios-push-notifications/apple-dev-certificates.png)
+   ![image](/images/working-with-ios-push-notifications/apple-dev-certificates.png)
 
-    **Note:** If you expect push notifications to work in an app distributed via TestFlight, you'll need to use the **Production SSL Certificate**.
-
+   **Note:** If you expect push notifications to work in an app distributed via TestFlight, you'll need to use the **Production SSL Certificate**.
 2. Read instructions, **Continue**, and upload your **Certificate Signing Request** (CSR file) exported from your **Keychain**.
-
 3. **Download** the certificate and finish the process with **Done** button.
 
 To generate `APNs Authentication Key` on [Apple Developer Center](https://developer.apple.com):
 
 1. Open **Keys** -> **All** on the left pane.
-
 2. Create a New Key by tapping at (+) sign.
-
 3. Fill **Key Description**, select **APNs** key service and **Continue**.
-
 4. Download the key, make sure you keep it securely and finish the process with **Done** button.
 
 Now we need to upload the generated key or certificate to **Firebase**.
 
 1. Log in to [Firebase Console](https://console.firebase.google.com) and select your project. If you haven't had it yet, create new a project.
-
 2. Open your **Project settings** from left pane.
 
-    ![image](/images/working-with-ios-push-notifications/firebase-project-settings.png)
-
+   ![image](/images/working-with-ios-push-notifications/firebase-project-settings.png)
 3. Open **CLOUD MESSAGING** tab.
-
 4. Under **iOS app configuration** upload your key or certificate.
 
-    ![image](/images/working-with-ios-push-notifications/firebase-certificates.png)
+   ![image](/images/working-with-ios-push-notifications/firebase-certificates.png)
 
-    Note that you can't use `APNs auth key` and `APNs certificate` simultaneously.
+   Note that you can't use `APNs auth key` and `APNs certificate` simultaneously.
 
 ## Project configuration
 
 After setting certificates up we can configure the Xcode project:
 
 1. Open project settings.
-
 2. Open **Capabilities** tab.
-
 3. Enable **Push notifications**.
 
-    ![image](/images/working-with-ios-push-notifications/xcode-capabilities.png)
+   ![image](/images/working-with-ios-push-notifications/xcode-capabilities.png)
 
-    Entitlements file will be created or updated automatically. If you've skipped adding push notifications service to your application identifier in previous chapter, you'll encounter an error.
+   Entitlements file will be created or updated automatically. If you've skipped adding push notifications service to your application identifier in previous chapter, you'll encounter an error.
 
 Once you've finished Xcode configuration make sure that the project builds without errors. If you encounter any signing issues, you might need to refresh the provisioning profile or even restart the Xcode. However, I recommend using [Fastlane Match](https://docs.fastlane.tools/actions/match/) to share code signing identity or [Fastlane Sigh](https://docs.fastlane.tools/actions/sigh) to download or repair provisioning profiles. Automating code signing will save you a lot of time in the future.
 
@@ -159,11 +144,9 @@ if #available(iOS 10.0, *) {
 
 APNs device token allows you to target notification messages at the particular instance of the app. It rarely changes, but you can't assume that it won't happen. The token may change when:
 
-- The user reinstalls the app
-
-- The user restores the app on a new devices
-
-- The user clears app data.
+* The user reinstalls the app
+* The user restores the app on a new devices
+* The user clears app data.
 
 If you handle push notifications manually, you need to upload and refresh the device token on your own, so you'd have to implement server logic to store tokens and determine whether the token sent is new. If you're using Firebase SDK and you haven't disabled **method swizzling** (the process of changing the implementation of an existing selector), then you don't have to do that - Firebase will handle it for you.
 
@@ -189,11 +172,8 @@ apn push "device-token" -c /path/to/cert.pem -m "Hello from the command line! "
 `PEM` (Privacy Enhanced Mail) is a container format that may include the public certificate or an entire certificate chain including public key, private key, and root certificates. You can download `.cer` file from [Apple Developer Center](https://developer.apple.com), to convert this format to `.pem`:
 
 1. Open certificate in Keychain (simply open a file).
-
 2. Right click on certificate (not a key below) and select **Export** option.
-
 3. Save certificate in `.p12` format.
-
 4. Run this command to convert `.p12` format to `.pem`:
 
 ```bash
