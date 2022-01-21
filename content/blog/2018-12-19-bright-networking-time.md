@@ -60,7 +60,7 @@ It was a very educational and fun day and had the pleasure to meet great startup
 
 To wrap up 2018, the final event which we attended was FinTech Connect, UK’s largest Fintech conference and trade show, more than 5000 attendees and 175 exhibitors. The two days event was a place where you could connect with early stage startups, stakeholders from financial institutions and the investor community, learning more about the key trends that are affecting the market.
 
-The event was filled with meetings with founders from great companies within FinTech space, discussing current and future Blockchain and AI projects that have taken over the digital world. FinTech Connect gets bigger year by year and that means that we will definitely be there again in 2019.
+The event was filled with meetings with founders from great companies within FinTech space, discussing current and future [Blockchain](/our-areas/blockchain) and AI projects that have taken over the digital world. FinTech Connect gets bigger year by year and that means that we will definitely be there again in 2019.
 
 **Networking gives you the chance to connect with new highly influential people easily, people who wouldn’t connect with you just through a cold email or a LinkedIn invitation**. It’s a chance where you can build long term business relationships and to strengthen the relationship with old connections which could formulate into business growth. Not only can you build new connections but also the ability to gain new knowledge and receive advice that you were not able to get a hold off.
 

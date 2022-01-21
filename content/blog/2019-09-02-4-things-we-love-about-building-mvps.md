@@ -15,7 +15,7 @@ published: true
 ---
 Nothing is more rewarding from a software house’s perspective than seeing our clients’ apps and businesses blossom on the market. After all, in today’s bustling startup scene, turning an idea into a working product people love and use is no easy feat! In fact, getting to this point in startup growth can be an arduous road full of challenges and potential mistakes lurking just around the corner. It certainly doesn’t have to, though!
 
-At Bright Inventions, we love building MVPs for startups for a reason – it’s the most time-effective way to validate an idea on the market before our clients decide to go “all-in”. Below, we’ve opened up a little on the reasons why we enjoy building MVPs as much as we do.
+At Bright Inventions, we love building [MVPs for startups](/our-areas/mvp-development) for a reason – it’s the most time-effective way to validate an idea on the market before our clients decide to go “all-in”. Below, we’ve opened up a little on the reasons why we enjoy building MVPs as much as we do.
 
 ## **1.  We love helping our customers turn good ideas into great software**
 
