@@ -1,8 +1,6 @@
 ---
-layout: post
-title: Multi tenancy in Spring MVC
+crosspost: true
 author: piotr
-hidden: false
 tags:
   - spring
   - mvc
@@ -10,14 +8,15 @@ tags:
   - multi-tenant
   - reactive
   - reactor
-comments: true
-crosspost: true
+date: 2017-12-11T23:00:00.000Z
+title: Multi tenancy in Spring MVC
+layout: post
 image: /images/spring-mvc-multi-tenancy/feeding-animals.jpg
-date: '2017-12-11T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
-
-One of our clients aimed to replace old, often DOS based, point of sale systems with a cloud based, SaaS modeled solution. [At Bright Inventions]({{ site.url }}) we have developed all required components including AWS based back-end processing requests originating from multiple clients. Each business that uses the SaaS point of sale can be considered a tenant in a multi-tenant environment. There many aspects involved when developing multi-tenant application with [data isolation and partitioning being the most discussed topic](http://blog.memsql.com/database-multi-tenancy-in-the-cloud-and-beyond/). However, today I would like to focus on computational and resource isolation aspect. 
+One of our clients aimed to replace old, often DOS based, point of sale systems with a cloud based, SaaS modeled solution. At [Bright Inventions](/) we have developed all required components including AWS based back-end processing requests originating from multiple clients. Each business that uses the SaaS point of sale can be considered a tenant in a multi-tenant environment. There many aspects involved when developing multi-tenant application with [data isolation and partitioning being the most discussed topic](http://blog.memsql.com/database-multi-tenancy-in-the-cloud-and-beyond/). However, today I would like to focus on computational and resource isolation aspect. 
 
 ![Multiple consumers](/images/spring-mvc-multi-tenancy/feeding-animals.jpg)
 
@@ -45,13 +44,13 @@ server {
 
 The above would only allow up to 10 request per second from the same IP address. Any request that comes in at higher rate would be queued up to specified capacity (`burst=20`). Any request above the limit would get rejected with 503 status code. 
 
-The nginx approach is battle tested and fairly easy to apply. Instead of using IP address it would be better to group requests by a tenant identifier. However, it may not be easy to determine exactly which tenant is making the request unless the information is easily available in the request headers. For that matter it is good to consider sending the API client identification using a custom HTTP header. For instance if the API client provides `X-Tenant-Id: tenant.1` you can use it as `limit_req_zone $http_x_tenant_id zone=mylimit:10m rate=10r/s;`. When using JWT, you often can determine _who_ is making the request by parsing the `Authorization` header value. 
+The nginx approach is battle tested and fairly easy to apply. Instead of using IP address it would be better to group requests by a tenant identifier. However, it may not be easy to determine exactly which tenant is making the request unless the information is easily available in the request headers. For that matter it is good to consider sending the API client identification using a custom HTTP header. For instance if the API client provides `X-Tenant-Id: tenant.1` you can use it as `limit_req_zone $http_x_tenant_id zone=mylimit:10m rate=10r/s;`. When using JWT, you often can determine *who* is making the request by parsing the `Authorization` header value. 
 
 ## Spring MVC request rate limit
 
 It is often not feasible to apply the request rate limit at the reverse proxy level. In such scenario we can apply the limit inside Spring MVC application. For start one can try suing [Servlet Filter](http://www.oracle.com/technetwork/java/filters-137243.html). [There are several solutions](https://stackoverflow.com/questions/10127472/servlet-filter-very-simple-rate-limiting-filter-allowing-bursts) available including a [DoSFilter that is part of Jetty project](https://www.eclipse.org/jetty/javadoc/9.4.7.v20170914/org/eclipse/jetty/servlets/DoSFilter.html).
 
-Using a ready-made Servlet Filter is often sufficient especially when the available customization options suit our needs. In case of our client however, we wanted the limits to depend on the _size_ of the client. In other words the more service you buy, the more resources are available to you. Moreover, I wanted to have a have fine-grained control at **a controller action** level. To my surprise such behavior was not easy to accomplish using [AsyncHandlerInterceptor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/AsyncHandlerInterceptor.html). Fortunately I did find a way to achieve a desired result using a mix of extensibility points and hacks. 
+Using a ready-made Servlet Filter is often sufficient especially when the available customization options suit our needs. In case of our client however, we wanted the limits to depend on the *size* of the client. In other words the more service you buy, the more resources are available to you. Moreover, I wanted to have a have fine-grained control at **a controller action** level. To my surprise such behavior was not easy to accomplish using [AsyncHandlerInterceptor](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/AsyncHandlerInterceptor.html). Fortunately I did find a way to achieve a desired result using a mix of extensibility points and hacks. 
 
 The first step is to customize [`RequestMappingHandlerAdapter`](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.html) used by Spring MVC to transform `@RequestMapping` annotation into handler classes. The following configuration class in Kotlin achieves just that:
 
@@ -124,7 +123,6 @@ class WebMvcConfiguration : DelegatingWebMvcConfiguration() {
 ```
 
 Note that we are injecting `reactiveRequestCommandFactory` and `reactiveRequestsProperties` and pass them into our core `RateLimitingRequestMappingHandlerAdapter`. All other code is a mostly a copy-paste from `DelegatingWebMvcConfiguration` base class.
-
 
 ```kotlin
 @Target(AnnotationTarget.CLASS, AnnotationTarget.FUNCTION)
@@ -203,7 +201,6 @@ class CommandInvocableHandlerMethod(private val handlerMethod: HandlerMethod,
     }
 
 ...
-
 ```
 
 The above code is using *private* [`getMethodArgumentValues`](https://github.com/spring-projects/spring-framework/blob/cc74a28/spring-web/src/main/java/org/springframework/web/method/support/InvocableHandlerMethod.java#L147) API to achieve the desired behavior‼ The `doInvokeWithRequest` checks if an asynchronous dispatch should be performed and if so creates a [`Mono`](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html) that denotes the result of the controller action method invocation. `RequestCommandContext` stores the information about target controller action method and current security context. The security context needs to be preserved when invoking the controller action on a different thread. The [`ConcurrentResultHandlerMethod`](https://gist.github.com/miensol/cca73d158ce8e7664ed653a30fc8dc70) extends `ServletInvocableHandlerMethod` to add support for using `Mono` on regular, synchronous controller action. The core logic of rate limiting is delegated to `ReactiveRequestCommandFactory`:
@@ -254,4 +251,4 @@ class OptionalCallable(private val inner: RequestHandlerJob) : Callable<Optional
 
 The `ThreadPoolPropertiesCalculator` calculates how concurrent threads and how big the requests queue should be for particular tenant or tenants group. Then for each tenant group, in particular a single tenant, we create a `TenantTaskCoordinator` responsible for calculating and enforcing limits on concurrently handled requests. Further down we decorate the `Callable` representing the actual request handling with security delegation, locale configuration and request attributes setup. Finally, we ask the `TenantTaskCoordinator` to execute the decorated job with a configured timeout.
 
-The last piece of the puzzle, namely `TenantTaskCoordinator` requires [a separate blog post]({% post_url 2018-01-04-multi-tenancy-task-scheduler %}) so stay tuned.
+The last piece of the puzzle, namely `TenantTaskCoordinator` requires a separate [blog post](/blog/multi-tenancy-task-scheduler/) so stay tuned.
