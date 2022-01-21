@@ -5,6 +5,7 @@ import DateFormatter from './Date'
 import { deleteTimestampFromUrl } from '../../helpers/pathHelpers'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import variables from '../../styles/variables'
+import formatDate from 'date-fns/format'
 
 const DetailsContainer = styled.div`
   padding: 1.375rem 2.75rem 2rem;
@@ -141,9 +142,7 @@ export const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
       </Link>
       <DetailsContainer>
         <div className='columns is-mobile is-4 is-variable'>
-          <DateContainer>
-            <DateFormatter date={props.date} />
-          </DateContainer>
+          <DateContainer>{formatDate(new Date(props.date), 'MMM, d yyyy')}</DateContainer>
           <TagsContainer>{props.tags.join(', ')}</TagsContainer>
         </div>
         <Title>{props.title}</Title>
