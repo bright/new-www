@@ -32,7 +32,7 @@ b) service outage
 Preparing a thorough migration plan helps to reduce those risks.
 Losing data was not an option.
 We could also afford only limited degradation of service.
-With a database size of several 100s of GB, any operation isn't instant.
+With a database size of several hundreds of GB, any operation isn't instant.
 It will take a couple of hours just to copy the data.
 The client agreed that it would be ok if the service showed stale data for a couple of minutes.
 
@@ -46,7 +46,6 @@ The first step is thus to create a fresh new RDS database inside VPC.
 We can use a snapshot of the source database to speed up initial replication.
 Please note that at this point the fresh database isn't used by any production service yet!
 Once the data wills start flowing from the EC2-Classic RDS instance to VPC based one we can safely prepare for the next step.
-
 
 ## Step 2: Setup a custom database host DNS record
 
@@ -69,4 +68,4 @@ However, with the right plan, the risk can be mitigated to an acceptable level.
 In my opinion, automating most if not the whole process reduces the risk further.
 This is why we've implemented the migration from EC2-Classic to VPC using AWS-CDK.
 
-_In the following posts, I'll share more details on the automation that we've implemented._ 
+*In the following posts, I'll share more details on the automation that we've implemented.*
