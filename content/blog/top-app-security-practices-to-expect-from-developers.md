@@ -23,7 +23,7 @@ published: true
 
 ## Ensure that developers use security automation
 
-Of course, **every app development process should include a code review**. Nevertheless, it is **wise to use automation security as well**. Ensure that the developer team who works on your software, uses tools to double-check the security of your product. One of the most popular security tools is **Sonar Cube**. Also, it is recommended to use **Dependabot** built into GitHub.
+Of course, **every [app development](/our-areas/web-development/) process should include a code review**. Nevertheless, it is **wise to use automation security as well**. Ensure that the developer team who works on your software, uses tools to double-check the security of your product. One of the most popular security tools is **Sonar Cube**. Also, it is recommended to use **Dependabot** built into GitHub.
 
 Also, your development team should know how to **manage secrets**. They should follow common security practises. First of all, using tools like **GPG Suite** to safely share secrets. Second of all, using solutions like **Bitwarden** to make sure that secrets are stored and are accessible by each team member. Other important practices are: encrypting the disks, using proper password retention policy and Multi-Factor Authentication (MFA). Last but not least, VPN is a must!
 
