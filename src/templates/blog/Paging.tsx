@@ -10,6 +10,7 @@ import classnames from 'classnames'
 import variables from '../../styles/variables'
 import { any, number } from 'prop-types'
 import { useEffect } from 'react'
+import { Link } from 'gatsby'
 
 const PagingWrapper = styled.div`
   display: flex;
@@ -116,13 +117,13 @@ export interface PageContext {
   limit: 10
   numPages: 21
   skip: 10
-  tag?: String
-  subTag?: String
+  tag?: string
+  subTag?: string
 }
 
 export interface PagingProps {
   pageContext: PageContext
-  baseURI: String
+  baseURI: string
 }
 
 export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
@@ -135,7 +136,7 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
   })
 
   const prevHref = !tag && currentPage <= 2 ? baseURI : `${baseURI}${currentPage - 1}`
-  const lastPage = paginationRange[paginationRange?.length - 1]
+  const lastPage = paginationRange?.[paginationRange?.length - 1]
   const nextHref = `${baseURI}${currentPage + 1}`
   const { width } = useWindowSize()
   const breakpoint = 991
@@ -155,9 +156,9 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
               const pageNumberHref = !tag && i == 0 ? baseURI : `${baseURI}${pageNumber}`
               return (
                 <span key={pageNumber}>
-                  <a href={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
+                  <Link to={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
                     <span>{pageNumber}</span>
-                  </a>
+                  </Link>
                 </span>
               )
             })}
@@ -165,14 +166,14 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
         <div className='arrowwrapper'>
           {' '}
           <span>
-            <a href={prevHref} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
+            <Link to={prevHref!} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
               <span>back</span>
-            </a>
+            </Link>
           </span>
           <span>
-            <a href={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
+            <Link to={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
               <span>next</span>
-            </a>
+            </Link>
           </span>
         </div>
       </PagingWrapper>
@@ -182,9 +183,9 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
   return (
     <PagingWrapper>
       <span>
-        <a href={prevHref} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
+        <Link to={prevHref} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
           <span>back</span>
-        </a>
+        </Link>
       </span>
       <div>
         {paginationRange &&
@@ -199,17 +200,17 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
             const pageNumberHref = !tag && i == 0 ? baseURI : `${baseURI}${pageNumber}`
             return (
               <span key={pageNumber}>
-                <a href={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
+                <Link to={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
                   <span>{pageNumber}</span>
-                </a>
+                </Link>
               </span>
             )
           })}
       </div>
       <span>
-        <a href={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
+        <Link to={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
           <span>next</span>
-        </a>
+        </Link>
       </span>
     </PagingWrapper>
   )

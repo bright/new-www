@@ -8,7 +8,7 @@ import { routeLinks } from '../config/routing'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import { HideDesktop, HideTablet, MoreButton } from '../components/shared'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { GQLData } from './gql'
+import { GQLData } from '../models/gql'
 import { BlogFeed } from './blog/Feed'
 import { createBlogPosts } from '../models/creator'
 import {
