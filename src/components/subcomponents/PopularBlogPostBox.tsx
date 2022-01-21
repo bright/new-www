@@ -7,18 +7,34 @@ import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import variables from '../../styles/variables'
 
 const DetailsContainer = styled.div`
-  padding: 2em;
+  padding: 1.375rem 2.75rem 2rem;
+  && .columns {
+    margin: 0;
+  }
+
+  @media ${variables.device.laptop} {
+    padding: 1.125rem 2rem 2rem 2.375rem;
+  }
+  @media ${variables.device.tablet} {
+    padding: 1rem 2.3125rem 1.75rem;
+  }
   @media ${variables.device.mobile} {
-    padding: 3.375rem 2.75rem 1.875rem 1.125rem;
+    padding: 0.75rem 1.5rem 1rem;
   }
 `
 
 const Image = styled.figure`
-  height: 300px;
+  height: 271px;
   border-bottom: 1px solid #d3d3d3;
+  @media ${variables.device.laptop} {
+    height: 14.6875rem;
+  }
+  @media ${variables.device.tablet} {
+    height: 17.1875rem;
+  }
 
   @media ${variables.device.mobile} {
-    height: 200px;
+    height: 148px;
   }
   .gatsby-image-wrapper {
     height: 100%;
@@ -44,11 +60,17 @@ const PopularBlogPostBoxContainer = styled.div`
 const DateContainer = styled.div`
   font-size: ${variables.font.customtext.sizeBlogTags};
   font-family: ${variables.font.customtext.lato};
-  border-right: 1px solid black;
+  white-space: nowrap;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 0;
   padding-bottom: 0;
+  padding-right: 0.8rem;
+  color: #000000;
+  &:after {
+    padding-left: 0.8rem;
+    content: '|';
+  }
   @media ${variables.device.laptop} {
     font-size: 1rem;
   }
@@ -60,10 +82,12 @@ const DateContainer = styled.div`
 const TagsContainer = styled.div`
   /* margin-bottom: 1em; */
   font-size: ${variables.font.customtext.sizeBlogTags};
+  font-family: ${variables.font.customtext.lato};
   display: flex;
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
+  color: #000000;
   @media ${variables.device.laptop} {
     font-size: 1rem;
   }
@@ -73,24 +97,24 @@ const TagsContainer = styled.div`
 `
 
 const Title = styled.h2`
-  margin-top: 1.875rem;
+  margin-top: 1.3125rem;
   margin-right: 0;
   margin-left: 0;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   font-size: ${variables.font.customtitle.sizeBlogTitle};
-  color: var(--black);
+  color: #0a0a0a;
   /* letter-spacing: 1px; */
   @media ${variables.device.laptop} {
-    margin-top: 0;
-    font-size: 1.5625rem;
+    margin-top: ${variables.pxToRem(17)};
+    font-size: ${variables.pxToRem(25)};
   }
   @media ${variables.device.tablet} {
-    margin-top: 0;
-    font-size: 1.5rem;
+    margin-top: ${variables.pxToRem(17)};
+    font-size: ${variables.pxToRem(25)};
   }
   @media ${variables.device.mobile} {
-    margin-top: 0;
+    margin-top: 0.625rem;
     font-size: ${variables.font.customtitle.sizeBlogTitleMobile};
   }
 `
@@ -117,10 +141,10 @@ export const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
       </Link>
       <DetailsContainer>
         <div className='columns is-mobile is-4 is-variable'>
-          <DateContainer className='column is-narrow'>
+          <DateContainer>
             <DateFormatter date={props.date} />
           </DateContainer>
-          <TagsContainer className='column'>{props.tags.join(', ')}</TagsContainer>
+          <TagsContainer>{props.tags.join(', ')}</TagsContainer>
         </div>
         <Title>{props.title}</Title>
       </DetailsContainer>

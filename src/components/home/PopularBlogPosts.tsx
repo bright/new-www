@@ -55,7 +55,7 @@ const HeroBlog = styled.section`
       padding: 0 2.25rem;
       & .hero-blog.column {
         width: 100%;
-        padding: 0 0 3.5625rem;
+        padding: 0 0 2.8125rem;
       }
     }
   }
@@ -65,7 +65,7 @@ const HeroBlog = styled.section`
       margin: 0;
       padding: 0 1.125rem;
       & .hero-blog.column {
-        padding: 0 0 3.5625rem;
+        padding: 0 0 2.0625rem;
       }
     }
   }
