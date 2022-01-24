@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: paulina-t
-ex: true
+ex: false
 slug: paulina-t
 name: Paulina Trendel
 short_name: Paulina
