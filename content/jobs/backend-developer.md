@@ -17,7 +17,8 @@ technology:
   - PostgreSQL
   - MySQL
 button: join our backend team
-published: true
+published: false
+hidden: true
 order: 3
 description: We are looking for an experienced Backend Developer who understands
   Java/Kotlin & Spring really well and who would like to work with AWS on daily
