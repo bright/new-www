@@ -15,7 +15,7 @@ published: true
 ---
 **Serverless is more than a trend. At Bright Inventions we believe that every backend developer should participate in cloud infrastructure so we constantly learn about the tools like AWS. Recently we decided to share our expertise with developers outside our team.**
 
-![AWS Workshops Bright Inventions](/images/aws_workshops_by_piotr.png)
+![AWS Workshops Bright Inventions](/images/aws_workshops_by_piotr_blog.png)
 
 Sharing is caring! Our team members are speakers at various meetups and conferences. What is more, we organise [CocoaHeads Tricity](https://www.facebook.com/CocoaHeadsTricity) meetings for the local iOS community. This year we have decided to organise AWS workshops as well to help devs outside our company deal with popular AWS [cloud computing services](/our-areas/cloud-services/). These workshops took place online in November and December 2021.
 
