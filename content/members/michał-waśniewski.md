@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: michal-w
-ex: true
+ex: false
 slug: michal-w
 name: Michał Waśniewski
 short_name: Michał
