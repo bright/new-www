@@ -9,7 +9,7 @@ email: agata.mietlinska@brightinventions.pl
 bio: Junior Recruiting Specialist
 description: Junior Recruiting Specialist
 avatar: /images/agatam_team.png
-avatar_hover: /images/agatam_passion_team.png
+avatar_hover: /images/agatam2_passion_team.png
 published: true
 ---
 Final year Student of Human Resources Management. HR & Recruitment enthusiast. Conscientious and open to new challenges. 
