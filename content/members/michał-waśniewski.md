@@ -6,8 +6,8 @@ slug: michal-w
 name: Michał Waśniewski
 short_name: Michał
 email: michal.wasniewski@brightinventions.pl
-bio: iOS Developer
-description: iOS Developer
+bio: Senior iOS Developer
+description: Senior iOS Developer
 avatar: /images/michal_w_team.png
 avatar_hover: /images/michal_w_passion_team.png
 published: true
