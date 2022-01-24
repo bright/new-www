@@ -6,8 +6,8 @@ slug: michal-wa
 name: Michał Walasiak
 short_name: Michał
 email: michal.walasiak@brightinventions.pl
-bio: michal.walasiak@brightinventions.pl
-description: michal.walasiak@brightinventions.pl
+bio: QA Specialist
+description: QA Specialist
 avatar: /images/michal_wa_team.png
 avatar_hover: /images/michal_wa_passion_team.png
 published: true
