@@ -17,6 +17,11 @@
     @content;
   }
 }
+@mixin tabletXL {
+  @media screen and (max-width: $size-tabletXL + 1px) {
+    @content;
+  }
+}
 
 @mixin laptop {
   @media screen and (max-width: $size-laptop + 1px) {

@@ -1,4 +1,4 @@
-@import "bulma/sass/utilities/initial-variables";
+@import 'bulma/sass/utilities/initial-variables';
 
 $input-placeholder-color: $grey-dark;
 
@@ -9,6 +9,7 @@ $navbar-height: 4.6rem;
 
 $size-mobile: 580px;
 $size-tablet: 991px;
+$size-tabletXL: 1280px;
 $size-laptop: 1540px;
 
 $bright-orange: #f7931e;
@@ -17,8 +18,8 @@ $bright-violet: #520993;
 
 $primary: $bright-orange;
 $link: $bright-orange;
-$box-border: #D3D3D3;
+$box-border: #d3d3d3;
 
 $title-size: 3rem;
 
-$images-url-base: "https://images.brightinventions.pl";
+$images-url-base: 'https://images.brightinventions.pl';
