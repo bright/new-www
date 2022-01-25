@@ -1,8 +1,8 @@
 ---
 layout: member
-author_id: michal-w
+author_id: michal-was
 ex: false
-slug: michal-w
+slug: michal-was
 name: Michał Waśniewski
 short_name: Michał
 email: michal.wasniewski@brightinventions.pl
