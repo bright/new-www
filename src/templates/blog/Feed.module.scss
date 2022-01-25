@@ -21,7 +21,8 @@
 
     .image {
       position: relative;
-      height: 16.9375rem;
+
+      max-height: 16.9375rem;
       overflow: hidden;
       border-bottom: 1px solid #d3d3d3;
     }
@@ -66,7 +67,30 @@
     .entry {
       flex-basis: calc(50% - 1.78125rem);
       .image {
-        height: 14.6875rem;
+        max-height: 13.1875rem;
+      }
+      .content {
+        padding: 1.125rem 2.375rem 2rem;
+        .postInfo {
+          font-size: 1rem;
+        }
+        .title {
+          font-size: 1.5625rem;
+          margin-top: 0.9375rem;
+        }
+      }
+    }
+  }
+}
+@include tabletXL() {
+  .feed {
+    column-gap: 2.75rem;
+    row-gap: 2.75rem;
+
+    .entry {
+      flex-basis: calc(50% - 1.78125rem);
+      .image {
+        max-height: 8.625rem;
       }
       .content {
         padding: 1.125rem 2.375rem 2rem;
@@ -89,7 +113,7 @@
     .entry {
       flex-basis: calc(100%);
       .image {
-        height: 17.1875rem;
+        max-height: 17rem;
       }
       .content {
         padding: 1rem 2.3125rem 1.75rem;
@@ -112,7 +136,7 @@
     .entry {
       flex-basis: calc(100%);
       .image {
-        height: 9.25rem;
+        max-height: 10rem;
       }
 
       .content {
