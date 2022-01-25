@@ -42,9 +42,9 @@ Our team and organisation is still growing, new challenges and projects appear a
 
 ䷉ *[How we use JIRA at Bright?](https://brightinventions.pl/blog/how-we-use-jira-at-bright/)*
 
-䷉*[No Time for Bullsh\*\*. Feedback Culture.](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)*
+䷉ *[No Time for Bullsh\*\*. Feedback Culture.](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
 
-䷉ [How to Make Your Onboarding Bright](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright/)
+䷉ *[How to Make Your Onboarding Bright](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright/)*
 
 ## **preferred skills and qualifications**
 
