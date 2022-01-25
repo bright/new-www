@@ -13,7 +13,7 @@ published: true
 ---
 **Over 20 years have passed since the first edition of Steve Krug’s book “Don’t Make Me Think” and we can all agree that this is a classic book on web development and UX design. During these two decades the web pages have changed but lots of principles from this book have remained as actual and powerful as they used to be in 2000. I chose the top 5 things that still make me think about the “Don’t Make Me Think” book.** 
 
-![Book "Don't Make Me Think"](/images/books.jpg)
+![Book "Don't Make Me Think"](/images/blog_post_krug.png)
 
 ## 1. People don't read – they scan your website
 
