@@ -7,7 +7,7 @@ tags:
 date: 2021-12-31T15:07:50.038Z
 title: 5 Top Programming Books For Junior and Mid-level Developers
 layout: post
-image: /images/books.jpeg
+image: /images/books_for_developers_blog.png
 hidden: false
 comments: true
 published: true
