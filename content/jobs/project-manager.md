@@ -10,7 +10,10 @@ salary_min: 7500
 salary_max: 14000
 working time: full time
 technology:
-  - Blockchain
+  - Jira
+  - Confluence 
+  - Scrum
+  - Kanban
 button: join Agile team
 published: true
 order: 3
@@ -37,7 +40,9 @@ Our team and organisation is still growing, new challenges and projects appear a
 
 ䷉ *[Agile in a long-distance relationship](https://brightinventions.pl/blog/agile-in-a-long-distance-relationship/)*
 
-䷉ *[How we use JIRA at Bright?](https://brightinventions.pl/blog/how-we-use-jira-at-bright/)*䷉*[No Time for Bullsh\*\*. Feedback Culture.](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)*
+䷉ *[How we use JIRA at Bright?](https://brightinventions.pl/blog/how-we-use-jira-at-bright/)*
+
+䷉*[No Time for Bullsh\*\*. Feedback Culture.](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)*
 
 ䷉ [How to Make Your Onboarding Bright](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright/)
 
@@ -45,7 +50,7 @@ Our team and organisation is still growing, new challenges and projects appear a
 
 * at least 2 years of experience in managing IT projects
 * very good understanding of Agile development methodologies  
-* familiarity with JIRA, Asana, Confluence or other management tools 
+* familiarity with Jira/Asana, Confluence or other management tools 
 * excellent command of written and spoken both English and Polish
 * effective communication and business negotiation skills 
 * can-do attitude and positive proactive approach 
@@ -62,21 +67,13 @@ Our team and organisation is still growing, new challenges and projects appear a
 * 20-26 paid days off + Polish bank holidays
 * MultiSport card and private medical package (PZU Zdrowie)
 * an opportunity to build strong community via workshops and dev's meetings 
-* **  budget for **training and professional books**
+* budget for **training and professional books**
 * extra time once a month for **self-development**
 * board games evenings and weekly lunch initiative
 * team retreats once a quarter
 * regular sport classes **(running, biking, swimming, yoga)** with a professional coach
 * good equipment: MacBook and additional accessories
 * good localisation and office in Gdańsk Wrzeszcz with a parking space nearby
-
-## **recruiting process**
-
-1. CV screening and initial call  
-2. online project management task
-3. an interview with [Ula, our HR Manager](https://brightinventions.pl/about-us/ula/) and [Kasia from our PM team](https://brightinventions.pl/about-us/kasia/)
-4. skills evaluation and feedback
-5. welcome on our Bright board 
 
 **Still some doubts why you may love working with us? [Check our 7 reasons to work at Bright Inventions.](https://brightinventions.pl/blog/reasons-to-join-bright/)**
 
