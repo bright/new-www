@@ -7,10 +7,10 @@ tags:
 date: 2022-01-21T21:32:21.081Z
 title: Migrate EC2-Classic RDS to a VPC - Planning
 layout: post
-image: /images/database-files.jpeg
+image: /images/database-files_blog.png
 hidden: false
 comments: true
-published: true 
+published: true
 canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-plan/
 ---
 By end of August [AWS will shut down EC2-Classic networking](https://aws.amazon.com/blogs/aws/ec2-classic-is-retiring-heres-how-to-prepare/).
