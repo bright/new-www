@@ -25,17 +25,20 @@ const DetailsContainer = styled.div`
 `
 
 const Image = styled.figure`
-  height: 271px;
+  max-height: 16.9375rem;
   border-bottom: 1px solid #d3d3d3;
   @media ${variables.device.laptop} {
-    height: 14.6875rem;
+    max-height: 14.6875rem;
+  }
+  @media ${variables.device.tabletXL} {
+    max-height: 11.25rem;
   }
   @media ${variables.device.tablet} {
-    height: 17.1875rem;
+    max-height: 17.1875rem;
   }
 
   @media ${variables.device.mobile} {
-    height: 148px;
+    max-height: 9.25rem;
   }
   .gatsby-image-wrapper {
     height: 100%;
