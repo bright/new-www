@@ -40,7 +40,12 @@ const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
         paddingTablet='3rem 2.25rem 0rem'
         paddingMobileProps='3rem 1.125rem 1rem'
       >
-        <CustomPageTitle>
+        <CustomPageTitle
+          laptopFontSize='2.75rem'
+          tabletXLFontSize='2.375rem'
+          tabletFontSize='2.375rem'
+          mobileFontSize='2rem'
+        >
           {' '}
           <span>bright</span> devs blog
         </CustomPageTitle>
