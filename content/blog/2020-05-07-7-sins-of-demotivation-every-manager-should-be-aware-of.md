@@ -1,8 +1,4 @@
 ---
-layout: post
-title: "7 sins of demotivation every manager should be aware of "
-date: 2020-05-07T07:21:03.566Z
-image: /images/ula_7sinsdemotivation.png
 author: ula
 tags:
   - motivation
@@ -10,6 +6,10 @@ tags:
   - engagement
   - team
   - management
+date: 2020-05-07T07:21:03.566Z
+title: "7 sins of demotivation every manager should be aware of "
+layout: post
+image: /images/ula_7sinsdemotivation.png
 hidden: false
 comments: true
 published: true
@@ -48,4 +48,4 @@ Good managers should care about the atmosphere at work. And what is even more im
 
 ## And what do we want
 
-We all want to feel that we are doing something vital and significant at our work. It is invaluably important for employees to feel that they are the backbone of the company, and that they are attached to something bigger than themselves. Inform your employees about the company’s goals, mission, coming changes, about new projects or new prospects. Remember that you are not the only manager here. Each employee is a manger of their work and their life. Your company is every day managed by dozens of people. Its success depends on them, and it is good if they can feel it. Stress the value of your team. Always.
+We all want to feel that we are doing something vital and significant at our work. It is invaluably important for employees to feel that they are the backbone of the company, and that they are attached to something bigger than themselves. Inform your employees about the company’s goals, mission, coming changes, about new projects or new prospects. Remember that you are not the only manager here. Each employee is somehow a manager of their work and their life. Your company is every day managed by dozens of people. Its success depends on them, and it is good if they can feel it. Stress the value of your team. Always.
