@@ -150,9 +150,7 @@ any) => {
           </AuthorWrapper>
           {posts?.length > 0 && (
             <>
-              <CustomSectionTitle id='test' ref={postsRef}>
-                blog posts by {frontmatter.short_name}
-              </CustomSectionTitle>
+              <CustomSectionTitle ref={postsRef}>blog posts by {frontmatter.short_name}</CustomSectionTitle>
               <BlogFeed posts={createBlogPosts(posts)} />
 
               <Paging pageContext={pageContext} baseURI={`${routeLinks.aboutUs({ authorId, slug })}`} />
