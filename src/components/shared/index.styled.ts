@@ -199,7 +199,7 @@ export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: st
   font-weight: 800;
   line-height: 3.06rem;
   margin: ${({ margin }) => (margin ? margin : '9.625rem 0 6.56rem')};
-  color: #000000;
+  color: #0a0a0a;
 
   @media ${variables.device.laptop} {
     font-size: 2.125rem;
