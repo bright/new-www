@@ -36,8 +36,7 @@ const AuthorWrapper = styled.div`
   align-items: center;
   & .content {
     padding-bottom: 2rem;
-    color: #131214;
-    opacity: 0.75;
+    color: #0a0a0a;
     font-size: ${variables.font.customtext.size};
     line-height: 2.5rem;
   }
@@ -58,7 +57,7 @@ const ImageWrapper = styled.figure`
 const AuthorPageTitle = styled(PageTitle)`
   margin-bottom: 0.75rem;
   margin-top: 3.375rem;
-  color: #000;
+  color: #0a0a0a;
 `
 const Subtitle = styled.div`
   margin-bottom: 5rem;
@@ -66,7 +65,7 @@ const Subtitle = styled.div`
   font-family: ${variables.font.customtext.lato};
   font-size: ${variables.font.customtext.sizeAuthor};
   font-weight: 700;
-  color: #000;
+  color: #0a0a0a;
 `
 const AuthorBackButton = styled(BackButton)`
   display: block;
