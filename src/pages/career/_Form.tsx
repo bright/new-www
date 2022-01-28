@@ -22,7 +22,7 @@ const Form: React.FC = () => {
                   text='ula@bright.dev'
                 />
                 , or submit your CV and we will contact you when a position inline with your competences becomes
-                available. Also, feel free to ask any questions regarding our recruitment process. available.
+                available. Also, feel free to ask any question regarding our recruitment process.
               </>
             }
             namePlaceholder={'Enter name here'}
