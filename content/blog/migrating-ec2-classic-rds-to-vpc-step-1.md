@@ -9,7 +9,7 @@ tags:
   - RDS
 date: 2022-01-30
 title: Migrate EC2-Classic RDS to a VPC - Step 1 - Replication
-socialImage: /images/replica.jpeg
+image: /images/replica.jpeg
 hidden: false
 comments: true
 published: true
