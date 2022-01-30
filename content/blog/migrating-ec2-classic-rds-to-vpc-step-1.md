@@ -1,5 +1,5 @@
 ---
-template: post
+layout: post
 author: piotr
 tags:
   - database
