@@ -10,6 +10,9 @@ tags:
 date: 2022-01-30
 title: Migrate EC2-Classic RDS to a VPC - Step 1 - Replication
 socialImage: /images/replica.jpeg
+hidden: false
+comments: true
+published: true
 canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-1/
 ---
 
