@@ -27,6 +27,8 @@ const DetailsContainer = styled.div`
 const Image = styled.figure`
   max-height: 16.9375rem;
   border-bottom: 1px solid #d3d3d3;
+  overflow: hidden;
+  
   @media ${variables.device.laptop} {
     max-height: 14.6875rem;
   }
