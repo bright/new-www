@@ -171,7 +171,7 @@ export const CustomSection = styled.section<{
   paddingTabletXL?: string
   paddingTablet?: string
 }>`
-  color: ${variables.color.text};
+  color: ${variables.color.text2};
   padding: ${({ paddingProps }) => (paddingProps ? paddingProps : '2rem 15rem 4rem 15rem')};
   @media ${variables.device.desktop} {
     padding: ${({ paddingProps }) => (paddingProps ? paddingProps : '2rem 15rem 4rem 15rem')};
