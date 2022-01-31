@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
-import { Section, SectionTitle } from '../../components/shared'
+import { Section } from '../../components/shared'
 import { CustomSectionTitle } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
 
