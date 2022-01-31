@@ -34,6 +34,7 @@ export default {
   color: {
     primary: '#f7931e', //brightOrange
     text: '#131214',
+    text2: '#0A0A0A',
     border: '#d3d3d3',
     white: '#ffffff',
     black: '#000000',
