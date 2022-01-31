@@ -12,9 +12,11 @@ import HeroHeaderImages from '../components/home/HeroHeaderImages'
 import { PopularBlogPosts } from '../components/home/PopularBlogPosts'
 import '../styles/_page-index.scss'
 import { BlockchainExperts } from '../components/home/BlockchainExperts'
+import { GlobalStyle } from '../styles/global'
 export default () => {
   return (
     <Page className='page-index'>
+      <GlobalStyle />
       <Header />
       <Achievements />
       <HeroHeaderImages />
