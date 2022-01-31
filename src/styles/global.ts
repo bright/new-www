@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components"
-require("prismjs/themes/prism-solarizedlight.css")
+import { createGlobalStyle } from 'styled-components'
+require('prismjs/themes/prism-solarizedlight.css')
 
 export const GlobalStyle = createGlobalStyle` 
 :root {
@@ -8,5 +8,9 @@ export const GlobalStyle = createGlobalStyle`
 --black: #000000;
 --orange-100: #FBAF1F;
 --orange-200: #F7931E;
+--black-new: #0A0A0A;
+}
+&& body {
+    color: var(--black-new);
 }
 `
