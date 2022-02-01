@@ -43,7 +43,7 @@ We designed these workshops for 10 developers to give Piotr a chance to truly ad
 After the last meeting we asked participants to fill out an anonymous satisfaction survey. 
 **100% of them said that they would recommend the workshops to their colleagues! Kudos for Piotr! 👏**
 
-Every workshop was recorded. Join our [AWS Facebook group](https://www.facebook.com/groups/awstricity) if you want to watch them all. 
+Every workshop was recorded. Join our [AWS Facebook group](https://www.facebook.com/groups/amazonwebservicestricity) if you want to watch them all. 
 
 **Another edition of AWS workshops will be organised in 2022.** All the details will be posted on the Facebook group, so you may still get a chance to participate.
 
