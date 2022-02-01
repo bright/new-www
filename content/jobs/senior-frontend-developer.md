@@ -15,7 +15,7 @@ technology:
   - React
 button: join our frontend team
 published: true
-order: 6
+order: 10
 description: We are looking for a Senior Frontend Developer who would like to
   work with our experienced and ambitious development team.
 ---
