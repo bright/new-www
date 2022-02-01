@@ -23,7 +23,7 @@ At Bright Inventions we define a senior as someone who is obviously highly knowl
 
 ## How to know what to learn? 
 
-Ah, yes, this is always tricky. Our whole education system is based on the idea of others telling us what to learn next. It often stretches to our adult work life - our company, our mentors, team leaders show the direction and set the goals. What to do when this ends, usually at the senior level? Or when you become a mentor or a team leader yourself?  
+This is always tricky. Our whole education system is based on the idea of others telling us what to learn next. It often stretches to our adult work life - our company, our mentors, team leaders show the direction and set the goals. What to do when this ends, usually at the senior level? Or when you become a mentor or a team leader yourself?  
 
 * **look for mentors**. Mentors can still have mentors. Yup, it’s asking others for directions, but with more awareness. They can be public figures, celebrity developers or your colleagues that you look up to in a particular domain. Whoever makes sense and you find them wise. It’s good to take inspiration and check other’s experiences
 * **do not be afraid**. Go down the research rabbit hole, sign up for the workshop, discuss with others even if you'll be proved wrong (then admit it). Honestly, just do it. I know, you’ve seen this advice everywhere, from shoe advertisements to an inspirational meme sent by your mother (accompanied by an image of a mountain or a vast sea, like this:
@@ -46,7 +46,7 @@ Blogs are not entirely dead and those who stayed in the blogging arena do it to 
 
 ## How to remember about self-development with the everyday responsibilities?
 
-If you were proactive about broadening your knowledge before becoming a senior, you probably know the drill already. If, however, you relied on others to motivate you, it may be difficult at first to prioritize learning, especially when your responsibilities changed. **A good way to keep at self-development is to plan time specifically for it**. How many times you thought you would read that interesting post later, maybe in the evening, but ended up watching another trending Netflix show? Putting off something that requires concentration and will power to the unspecified evening after work is a recipe for failure. At Bright Inventions we have something called “Bright Day” - a day off from your everyday project tasks that you can take each month to learn and broaden your horizons. Check if that’s an option in your company or do your own special mornings for self development.
+If you were proactive about broadening your knowledge before becoming a senior, you probably know the drill already. If, however, you relied on others to motivate you, it may be difficult at first to prioritise learning, especially when your responsibilities changed. **A good way to keep at self-development is to plan time specifically for it**. How many times you thought you would read that interesting post later, maybe in the evening, but ended up watching another trending Netflix show? Putting off something that requires concentration and will power to the unspecified evening after work is a recipe for failure. At Bright Inventions we have something called “Bright Day” - a day off from your everyday project tasks that you can take each month to learn and broaden your horizons. Check if that’s an option in your company or do your own special mornings for self development.
 
 ## What a senior did next
 
@@ -60,4 +60,8 @@ All in all, my general advice would be not to treat a senior title as a goal in 
 
 You’re welcome. 
 
-**Now go and be a senior that you needed when you were a junior.** I’m sure there’s an inspirational image with this phrase somewhere as well.
+Now go and be a senior that you needed when you were a junior. And I mean it, not in a quote-against-the-sea-image kind of way. If there is one thing that should come with a senior title, it’s being a support. **Now that you are fully capable of standing on your own feet it’s time to lift others.** That’s a difference you find in a true seniorship. 
+
+
+
+And while you will be sharing your expertise with others, you might find that this will allow you to evolve as well.
