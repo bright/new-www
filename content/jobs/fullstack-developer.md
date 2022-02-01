@@ -15,7 +15,8 @@ technology:
   - Node.js
   - React
 button: join our fullstack team
-published: true
+published: fasle
+hidden: true
 order: 7
 description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
