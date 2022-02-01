@@ -5,9 +5,9 @@ subtitle: ONGOING
 imagejob: /images/fullstackteam.png
 image-alt-job: TypeScript Team
 hours: full-time
-salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
+salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
 salary_min: 12000
-salary_max: 15000
+salary_max: 17000
 working time: full time
 technology:
   - TypeScript
