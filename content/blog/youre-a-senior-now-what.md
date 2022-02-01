@@ -7,6 +7,7 @@ tags:
 date: 2022-02-01T10:34:49.823Z
 title: You're a senior - now what?
 layout: post
+image: /images/graduate_pool.png
 hidden: false
 comments: true
 published: true
