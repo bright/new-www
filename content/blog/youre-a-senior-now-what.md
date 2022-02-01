@@ -26,7 +26,7 @@ At Bright Inventions we define a senior as someone who is obviously highly knowl
 Ah, yes, this is always tricky. Our whole education system is based on the idea of others telling us what to learn next. It often stretches to our adult work life - our company, our mentors, team leaders show the direction and set the goals. What to do when this ends, usually at the senior level? Or when you become a mentor or a team leader yourself?  
 
 * **look for mentors**. Mentors can still have mentors. Yup, it’s asking others for directions, but with more awareness. They can be public figures, celebrity developers or your colleagues that you look up to in a particular domain. Whoever makes sense and you find them wise. It’s good to take inspiration and check other’s experiences
-* **do not be afraid**. Honestly, just do it. I know, you’ve seen this advice everywhere, from shoe advertisements to an inspirational meme sent by your mother (accompanied by an image of a mountain or a vast sea, like this:
+* **do not be afraid**. Go down the research rabbit hole, sign up for the workshop, discuss with others even if you'll be proved wrong (then admit it). Honestly, just do it. I know, you’ve seen this advice everywhere, from shoe advertisements to an inspirational meme sent by your mother (accompanied by an image of a mountain or a vast sea, like this:
 
 ![](https://lh3.googleusercontent.com/kd_mHwXsYcVw5Pox9sSwtwCo0rpuFaUFvdh3xaRE5W-rxYt3KQLkxsDFqvZgaULDfQY2k80RBBqKeXRyLGxaOYP3W6fWWq7YcbMblYrOr4UNK-gSGPR-fRVf8PRKBAgOSyJTYbjv)
 
@@ -40,7 +40,9 @@ Books are great. Period. They are especially great when you want to focus on mor
 
 Also, check conferences in your domain, both online and offline. They are great places for sharing knowledge and exchanging ideas. If you don’t use such meetings just for self-promotion but to really connect with others and learn from each other, the wisdom you can get is priceless. 
 
-Blogs are not entirely dead and those who stayed in the blogging arena do it to share the experiences that cannot fit into a twitter thread. Search for people from the industry that have the wisdom and experience. They might also have a newsletter (newsletters are back, yay) or a podcast (because who doesn’t these days). [Some are even writing books](https://tidyfirst.substack.com/about) as they go along. It’s good to start with who you want to follow and then check their platform of choice, rather than the other way around.   
+Blogs are not entirely dead and those who stayed in the blogging arena do it to share the experiences that cannot fit into a twitter thread. Search for people from the industry that have the wisdom and experience. They might also have a newsletter (newsletters are back, yay) or a podcast (because who doesn’t these days). [Some are even writing books](https://tidyfirst.substack.com/about) as they go along. It’s good to start with who you want to follow and then check their platform of choice, rather than the other way around. 
+
+
 
 ## How to remember about self-development with the everyday responsibilities?
 
