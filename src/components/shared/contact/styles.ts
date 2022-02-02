@@ -10,7 +10,7 @@ export const Header = styled.div({
   fontWeight: 800,
   fontFamily: variables.font.title.family,
 
-  color: '#000000'
+  color: variables.color.heading,
 })
 
 export const Description = styled.div({
@@ -18,15 +18,15 @@ export const Description = styled.div({
   lineHeight: '28px',
   fontFamily: variables.font.text.family,
 
-  marginTop: '55px'
+  marginTop: '55px',
 })
 
 export const Form = styled.form({
   marginTop: '55px',
 
   ['@media screen and (max-width: 767px)']: {
-    marginTop: '35px'
-  }
+    marginTop: '35px',
+  },
 })
 
 export const SubmitButton = styled.button({
@@ -48,13 +48,13 @@ export const SubmitButton = styled.button({
 
   ['&:disabled']: {
     cursor: 'default',
-    backgroundColor: 'grey'
+    backgroundColor: 'grey',
   },
 
   ['@media screen and (max-width: 767px)']: {
     marginTop: '50px',
-    width: '100%'
-  }
+    width: '100%',
+  },
 })
 
 export const Label = styled.div({
@@ -64,13 +64,13 @@ export const Label = styled.div({
   fontFamily: variables.font.text.family,
   color: variables.color.text,
 
-  marginBottom: '8px'
+  marginBottom: '8px',
 })
 
 const placeHolderStyle = {
   '&::placeholder': {
-    color: lighten(.05, variables.color.text)
-  }
+    color: lighten(0.05, variables.color.text),
+  },
 }
 
 export const TextInput = styled.input({
@@ -116,8 +116,8 @@ export const SingleSelect = styled.select({
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
-    marginBottom: '10px'
-  }
+    marginBottom: '10px',
+  },
 })
 
 export const DoubleInputsRow = styled.div({
@@ -128,16 +128,14 @@ export const DoubleInputsRow = styled.div({
   flexWrap: 'wrap',
 })
 
-export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(
-  ({ leftSide }) => ({
-    marginRight: leftSide ? '64px' : 0,
-    width: '45%',
-    ['@media screen and (max-width: 767px)']: {
-      width: '100%',
-      marginRight: 0,
-    },
-  })
-)
+export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
+  marginRight: leftSide ? '64px' : 0,
+  width: '45%',
+  ['@media screen and (max-width: 767px)']: {
+    width: '100%',
+    marginRight: 0,
+  },
+}))
 
 export const IdeaTextArea = styled.textarea({
   height: '228px',
@@ -183,7 +181,6 @@ const SubmitMessage = styled.div({
   fontFamily: variables.font.text.family,
 
   marginTop: '30px',
-  
 })
 
 export const RequiredMessage = styled(Label)({
