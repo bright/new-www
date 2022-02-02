@@ -71,12 +71,13 @@ export const BlackButton = styled(InvertedButton)`
 `
 export const WorkshopContainer = styled.div`
   background: black;
-  color: white;
+
   padding: 105px 0;
 
   h2 {
     font-weight: 800;
     font-size: 2.5rem;
+    color: white;
     display: grid;
     gap: 55px 0;
     justify-items: start;
