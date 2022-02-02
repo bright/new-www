@@ -108,7 +108,7 @@ const Title = styled.span`
   & > a {
     font-weight: 700;
     font-size: 1.5rem;
-    color: ${variables.color.black};
+    color: ${variables.color.text};
   }
 `
 
@@ -118,7 +118,7 @@ const Subtitle = styled.span`
 `
 
 const Info = styled.div`
-  color: ${variables.color.black2};
+  color: ${variables.color.text};
   font-family: ${variables.font.customtext.lato};
 
   & > div {
@@ -183,7 +183,7 @@ const Arrow = styled.img`
 `
 
 const JobLink = styled(Link)`
-  color: black;
+  color: ${variables.color.text};
   display: flex;
   flex-direction: column;
 `
@@ -250,10 +250,10 @@ const JobSentence = styled.div`
   text-align: center;
   font: normal normal 800 ${variables.pxToRem(28)} / ${variables.pxToRem(34)} Montserrat;
   letter-spacing: 0px;
-  color: #0a0a0a;
+  color: ${variables.color.text};
   padding-top: ${variables.pxToRem(81)};
   & a {
-    color: #0a0a0a;
+    color: ${variables.color.text};
     text-decoration: underline;
   }
   @media ${variables.device.laptop} {
