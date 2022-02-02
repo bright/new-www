@@ -8,12 +8,12 @@ import * as styles from './Header.module.scss'
 import variables from '../../styles/variables'
 
 const HeroWrapper = styled.div`
-  color: #0a0a0a;
+  color: ${variables.color.text};
   & > div > .title {
     font-size: 8.0625rem;
     line-height: 8.5rem;
     margin: 0;
-    color: #0a0a0a;
+    color: ${variables.color.text};
   }
   @media ${variables.device.desktop} {
     max-width: 1438px;
@@ -62,7 +62,7 @@ const HeroWrapper = styled.div`
       & > div > .title {
         font-size: clamp(2.3125rem, -0.6662rem + 14.8936vw, 3.1875rem);
         line-height: clamp(3.1875rem, 0.2088rem + 14.8936vw, 4.0625rem);
-        color: #000000;
+        color: ${variables.color.heading};
       }
     }
   }
