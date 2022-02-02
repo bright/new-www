@@ -113,7 +113,7 @@ export function AuthorsView({
           )}
           <div className='media-content'>
             <div className='content'>
-              <h4 className='title has-text-dark'>{name}</h4>
+              <h4 className='title '>{name}</h4>
               <p className='subtitle is-6'>{bio}</p>
             </div>
           </div>
