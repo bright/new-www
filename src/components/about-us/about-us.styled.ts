@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 import variables from '../../styles/variables'
 
 export const FlashbackContainer = styled.div<{ length: number }>`
@@ -9,7 +9,7 @@ export const FlashbackContainer = styled.div<{ length: number }>`
     display: grid;
     gap: 105px 0;
     justify-content: center;
-    
+
     .images {
       display: grid;
       gap: 2.1875rem;
@@ -66,14 +66,14 @@ export const BlackButton = styled(InvertedButton)`
   &:hover {
     background: ${variables.color.primary};
     color: #fff;
-    filter: invert(0%); 
+    filter: invert(0%);
   }
 `
 export const WorkshopContainer = styled.div`
   background: black;
   color: white;
   padding: 105px 0;
-  
+
   h2 {
     font-weight: 800;
     font-size: 2.5rem;
@@ -90,7 +90,7 @@ export const FormContainer = styled.div`
   }
   h2 {
     font-weight: 900;
-    color: black;
+    color: ${variables.color.heading};
     a {
       color: inherit;
       text-decoration: underline;
@@ -106,7 +106,7 @@ export const Tabs = styled.ul`
   grid-auto-flow: column;
   max-width: 960px;
   gap: 10%;
-  
+
   a {
     font-family: ${variables.font.title.family};
     user-select: none;
@@ -116,7 +116,7 @@ export const Tabs = styled.ul`
     color: ${variables.color.text};
     opacity: 0.75;
     font-weight: normal;
-    
+
     &.is-active {
       opacity: 1;
       font-weight: bold;
