@@ -57,8 +57,7 @@ export const DevelopmentAreaContainer = styled.div`
     font-family: ${variables.font.customtext.lato};
     font-size: ${variables.pxToRem(18)};
     line-height: ${variables.pxToRem(32)};
-    color: #000000;
-    opacity: 0.75;
+    color: ${variables.color.text};
   }
 
   @media ${variables.device.tablet} {
