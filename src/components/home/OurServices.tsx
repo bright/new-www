@@ -19,7 +19,7 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 
 const OurTextTitle = styled(CustomTextTitle)`
-  color: var(--black);
+  color: ${variables.color.text};
   &:hover {
     color: ${variables.color.primary};
     transition: color 300ms;
@@ -47,7 +47,7 @@ const OurSerwicesTextRegular = styled(CustomTextRegular)`
   -webkit-box-orient: vertical;
   padding-top: 2.2rem;
   text-align: left;
-  color: var(--black-200);
+  color: ${variables.color.text};
   overflow: hidden;
   @media ${variables.device.tablet} {
     padding-top: 0;
