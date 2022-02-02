@@ -13,7 +13,7 @@ const ModalCard = styled.div`
   justify-content: center;
   padding: 0px 1.5rem;
   text-align: center;
-  color: var(--black-200);
+  color: ${variables.color.text};
   overflow-x: hidden;
   margin: 0;
 
