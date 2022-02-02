@@ -82,7 +82,7 @@ export const Content = styled.div<{ textAlign?: string }>`
 
   && h3 {
     font-size: 2rem;
-    color: #000000;
+    color: ${variables.color.heading};
     font-weight: 600;
     line-height: ${variables.pxToRem(40)};
     margin-top: 0;
@@ -111,7 +111,7 @@ export const Content = styled.div<{ textAlign?: string }>`
   && p {
     font-size: ${variables.pxToRem(22)};
     line-height: ${variables.pxToRem(40)};
-    color: #0a0a0a;
+    color: ${variables.color.text};
     opacity: 1;
     font-family: ${variables.font.customtext.lato};
     margin-bottom: ${variables.pxToRem(16)};
