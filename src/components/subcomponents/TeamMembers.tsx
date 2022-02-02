@@ -12,7 +12,7 @@ import { MoreButton } from '../shared'
 
 const TeamMember = styled.article<{ isOurServiceTemplate: boolean }>`
   border: 1px solid rgba(0, 0, 0, 0.125);
-  color: black;
+  color: ${variables.color.text};
   flex-basis: calc(25% - 3.5625rem);
   text-align: center;
   display: flex;
@@ -65,7 +65,7 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean }>`
 
   && a {
     display: grid;
-    color: black;
+    color: ${variables.color.text};
     p {
       margin: 0;
     }
@@ -88,7 +88,7 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean }>`
       p:last-child {
         font-size: 1.125rem;
         line-height: 22px;
-        color: #131214;
+        color: ${variables.color.text};
         opacity: 0.75;
       }
       @media ${variables.device.laptop} {
