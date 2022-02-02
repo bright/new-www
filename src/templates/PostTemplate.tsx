@@ -26,6 +26,18 @@ const AuthorsSection = styled.article`
   & .author-container {
     padding-top: 2rem;
   }
+  && .content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .title,
+    .subtitle {
+      color: ${variables.color.heading};
+    }
+  }
   & .author-container > div:not(:last-of-type) {
     margin-right: 1.3125rem;
     @media ${variables.device.mobile} {
@@ -39,6 +51,7 @@ const AuthorsSection = styled.article`
 
 const Title = styled.h1`
   font-size: 3rem;
+  color: ${variables.color.heading};
 `
 
 const Content = styled.div`
