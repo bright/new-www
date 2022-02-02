@@ -48,7 +48,7 @@ const TextTitle = styled.h3`
 `
 const TextRegularTraits = styled(TextRegular)`
   font-size: 1.375rem;
-  color: #0a0a0a;
+  color: ${variables.color.text};
 
   @media ${variables.device.laptop} {
     font-size: 1.25rem;
