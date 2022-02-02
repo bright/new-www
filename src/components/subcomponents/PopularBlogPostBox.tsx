@@ -28,7 +28,7 @@ const Image = styled.figure`
   max-height: 16.9375rem;
   border-bottom: 1px solid #d3d3d3;
   overflow: hidden;
-  
+
   @media ${variables.device.laptop} {
     max-height: 14.6875rem;
   }
@@ -73,7 +73,7 @@ const DateContainer = styled.div`
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 0.8rem;
-  color: #000000;
+  color: ${variables.color.text};
   &:after {
     padding-left: 0.8rem;
     content: '|';
@@ -94,7 +94,7 @@ const TagsContainer = styled.div`
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
-  color: #000000;
+  color: ${variables.color.text};
   @media ${variables.device.laptop} {
     font-size: 1rem;
   }
@@ -110,7 +110,7 @@ const Title = styled.h2`
   font-style: normal;
   font-weight: 800;
   font-size: ${variables.font.customtitle.sizeBlogTitle};
-  color: #0a0a0a;
+  color: ${variables.color.heading};
   /* letter-spacing: 1px; */
   @media ${variables.device.laptop} {
     margin-top: ${variables.pxToRem(17)};
