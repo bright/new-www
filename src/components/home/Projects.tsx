@@ -47,7 +47,7 @@ export const BlockSmall = styled.div`
   span {
     flex-grow: 1;
     font-size: ${variables.font.customtext.size};
-    color: #131214;
+    color: ${variables.color.text};
     margin-right: 2rem;
   }
   & a {
