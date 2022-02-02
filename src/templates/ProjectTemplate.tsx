@@ -5,9 +5,26 @@ import styled from 'styled-components'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import variables from '../styles/variables'
 
 const Container = styled.div`
   max-width: 960px;
+
+  && .content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .title,
+    .subtitle {
+      color: ${variables.color.heading};
+    }
+  }
+  && .title {
+    color: ${variables.color.heading};
+  }
 `
 
 const Title = styled.h1`
