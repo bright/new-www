@@ -83,7 +83,7 @@ const HoursWraper = styled.div`
   > h4 {
     position: relative;
     flex-basis: 50%;
-    color: ${variables.color.black2};
+    color: ${variables.color.heading};
     text-align: end;
     font-family: inherit;
     line-height: inherit;
@@ -146,7 +146,7 @@ const JobSectionInner = styled(SectionInner)`
       margin-top: ${variables.pxToRem(105)};
       font-size: 2rem;
       line-height: 2.5rem;
-      color: ${variables.color.black2};
+      color: ${variables.color.heading};
       font-weight: 900;
       text-align: center;
     }
