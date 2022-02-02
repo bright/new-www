@@ -1,5 +1,5 @@
-@import "common";
-@import "bulma-carousel/src/sass/index";
+@import 'common';
+@import 'bulma-carousel/src/sass/index';
 
 .hero {
   .hero-body {
@@ -42,7 +42,7 @@
 }
 
 .hero-body h1 {
-  color: $black;
+  color: $heading-black;
   font-weight: 800;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .button.estimate {
-  font-family: "Montserrat", serif;
+  font-family: 'Montserrat', serif;
   font-style: normal;
   font-weight: normal;
   color: black;
