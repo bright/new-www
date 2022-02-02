@@ -23,14 +23,6 @@ export const Footer = () => {
               </a>
             </div>
             <SocialIcons className='padded-right' />
-            {/*
-            <div
-              className='clutch-widget content'
-              data-url='https://widget.clutch.co'
-              data-widget-type='1'
-              data-height='50'
-              data-clutchcompany-id='32656'
-            ></div> */}
           </div>
 
           {/* <div className='column has-text-centered'>

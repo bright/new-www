@@ -5,9 +5,9 @@ subtitle: ONGOING
 imagejob: /images/projectmanagerbrightteam_passion.png
 image-alt-job: "job for project manager "
 hours: full-time
-salary: 9000 - 14 000 PLN + VAT (B2B) or 7500 - 11 600 PLN gross (UoP)
-salary_min: 7500
-salary_max: 14000
+salary: 10 000 - 15 000 PLN + VAT (B2B) or 8300 - 12 400 PLN gross (UoP)
+salary_min: 10000
+salary_max: 15000
 working time: full time
 technology:
   - Jira

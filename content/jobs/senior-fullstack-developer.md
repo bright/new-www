@@ -5,7 +5,7 @@ subtitle: ONGOING
 imagejob: /images/fullstackteam.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: Full-time
-salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
+salary: 18 000 - 24 000 PLN + VAT (B2B) or 14 950 - 19 900 PLN gross (UoP)
 salary_min: 16000
 salary_max: 22000
 working time: full time
@@ -15,9 +15,8 @@ technology:
   - Node.js
   - React
 button: join our fullstack team
-published: false
-hidden: true
-order: 7
+published: true
+order: 2
 description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
   projects.
@@ -48,15 +47,6 @@ We are looking now for a  **Senior Fullstack Developer** who has already had exp
 * familiarity with AWS or other Cloud providers
 * experience with development in React 
 
-## how we work
-
-Our team decide which technologies we use in projects. We pay special attention to selecting the appropriate technology stack that will not only support the client’s solution, but will also give us opportunities to develop and grow.
-
-*CORE PROGRAMMING LANGUAGES:*  TypeScript, JavaScript, Kotlin, Swift, Java 
-
-*PLATFORMS:* iOS, Android, Frontend, Backend, Blockchain
-
-*METHODOLOGIES:* Pair Programming, TDD, Continuous integration, Code review
 
 ## what you will find in our Bright Team
 
