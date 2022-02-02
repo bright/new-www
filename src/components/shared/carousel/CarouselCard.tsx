@@ -55,7 +55,6 @@ const Description = styled(TextRegular)({
   marginTop: '3.5rem',
   textAlign: 'left',
   fontSize: '20px',
-  color: 'var(--black-200)',
   ['@media screen and (max-width: 991px)']: {
     marginTop: '1.125rem',
     fontSize: '16px',
