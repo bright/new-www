@@ -44,6 +44,7 @@ export const SectionTitle = styled.h3`
   ${TitleBase};
   font-size: 2rem;
   margin: 1em 0 3rem;
+  color: ${variables.color.heading};
 `
 
 export const TextTitle = styled.div`
@@ -55,6 +56,7 @@ export const TextTitle = styled.div`
 export const TextRegular = styled.div`
   font-family: ${variables.font.text.family};
   font-size: ${variables.font.text.size};
+  color: ${variables.color.text};
   line-height: 2rem;
 `
 
@@ -66,7 +68,7 @@ export const PageTitle = styled.h1`
   font-weight: 800;
   line-height: 4rem;
   text-align: center;
-
+  color: ${variables.color.heading};
   & > span {
     color: ${variables.color.primary};
   }
@@ -133,7 +135,7 @@ export const CustomPageTitle = styled.h1<{
   font-weight: 800;
   line-height: 4.125rem;
   text-align: center;
-  color: #0a0a0a;
+  color: ${variables.color.heading};
 
   & > span {
     color: ${variables.color.primary};
@@ -199,7 +201,7 @@ export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: st
   font-weight: 800;
   line-height: 3.06rem;
   margin: ${({ margin }) => (margin ? margin : '9.625rem 0 6.56rem')};
-  color: #0a0a0a;
+  color: ${variables.color.heading};
 
   @media ${variables.device.laptop} {
     font-size: 2.125rem;
@@ -252,7 +254,7 @@ export const CustomSectionInner = styled(SectionInner)<{
 export const CustomPageDescription = styled(PageDescription)<{ fontSize?: string }>`
   font-size: ${({ fontSize }) => (fontSize ? fontSize : `${variables.pxToRem(22)} `)};
   line-height: ${variables.pxToRem(40)};
-  color: #131214;
+  color: ${variables.color.text};
   opacity: 0.75;
   @media ${variables.device.tablet} {
     font-size: ${variables.pxToRem(16)};
