@@ -51,7 +51,7 @@ const Title = styled.h3`
   font-size: ${variables.font.customtitle.sizeSuccesTitleStory};
   font-style: normal;
   font-weight: 700;
-  color: black;
+  color: ${variables.color.heading};
   @media ${variables.device.tabletXL} {
     padding-top: 2rem;
     font-size: 1.5625rem;
