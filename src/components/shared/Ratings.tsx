@@ -21,6 +21,20 @@ const Container = styled(Section)`
     padding: 2rem 1.125rem 2rem 1.125rem;
   }
 `
+const clutchWidgetHeight = 375
+
+const ClutchWidget = styled.div`
+  iframe {
+    height: ${clutchWidgetHeight}px;
+  }
+
+  @media ${variables.device.mobile} {
+    // on mobile the iframe is higher than that requested clutchWidgetHeight
+    iframe {
+      height: 420px
+    }
+  }
+`
 
 const IndicatorActive = styled.li`
   color: black;
@@ -72,15 +86,17 @@ const Ratings = () => {
     <>
       <CustomSectionTitle>see why clients love working&nbsp;with&nbsp;us</CustomSectionTitle>
       <Container>
-        <div className='clutch-widget'
-             data-nofollow='true'
-             data-url='https://widget.clutch.co'
-             data-widget-type='12'
-             data-primary-color={variables.color.primary}
-             data-background-color={variables.color.black}
-             data-secondary-color={variables.color.primary}
-             data-darkbg={true}
-             data-height='375' data-clutchcompany-id='32656' />
+        <ClutchWidget
+          className='clutch-widget' // class name is requires for the clutch plugin to find the element
+          data-nofollow='true'
+          data-url='https://widget.clutch.co'
+          data-widget-type='12'
+          data-primary-color={variables.color.primary}
+          data-background-color={variables.color.black}
+          data-secondary-color={variables.color.primary}
+          data-darkbg={true}
+          data-height={clutchWidgetHeight}
+          data-clutchcompany-id='32656' />
       </Container>
     </>
   )
