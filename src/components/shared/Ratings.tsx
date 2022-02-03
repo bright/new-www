@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
 
-import { Section, SectionTitle } from './index'
+import { CustomSectionTitle, Section, SectionTitle } from './index'
 import variables from '../../styles/variables'
 
-const CarouselSectionBlack = styled(Section)`
+const Container = styled(Section)`
   padding: 2rem 15rem 2rem 15rem;
   // clutch background color which we can't affect with widget type 12
   background-color: #fafafa;
@@ -69,17 +69,20 @@ const Ratings = () => {
     }
   }, [])
   return (
-    <CarouselSectionBlack>
-      <div className='clutch-widget'
-           data-nofollow='true'
-           data-url='https://widget.clutch.co'
-           data-widget-type='12'
-           data-primary-color={variables.color.primary}
-           data-background-color={variables.color.black}
-           data-secondary-color={variables.color.primary}
-           data-darkbg={true}
-           data-height='375' data-clutchcompany-id='32656' />
-    </CarouselSectionBlack>
+    <>
+      <CustomSectionTitle>see why clients love working&nbsp;with&nbsp;us</CustomSectionTitle>
+      <Container>
+        <div className='clutch-widget'
+             data-nofollow='true'
+             data-url='https://widget.clutch.co'
+             data-widget-type='12'
+             data-primary-color={variables.color.primary}
+             data-background-color={variables.color.black}
+             data-secondary-color={variables.color.primary}
+             data-darkbg={true}
+             data-height='375' data-clutchcompany-id='32656' />
+      </Container>
+    </>
   )
 }
 
