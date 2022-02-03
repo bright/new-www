@@ -145,14 +145,15 @@ export const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
             alt={props.title}
           />
         </Image>
+
+        <DetailsContainer>
+          <div className='columns is-mobile is-4 is-variable'>
+            <DateContainer>{formatDate(new Date(props.date), 'MMM, d yyyy')}</DateContainer>
+            <TagsContainer>{props.tags.join(', ')}</TagsContainer>
+          </div>
+          <Title>{props.title}</Title>
+        </DetailsContainer>
       </Link>
-      <DetailsContainer>
-        <div className='columns is-mobile is-4 is-variable'>
-          <DateContainer>{formatDate(new Date(props.date), 'MMM, d yyyy')}</DateContainer>
-          <TagsContainer>{props.tags.join(', ')}</TagsContainer>
-        </div>
-        <Title>{props.title}</Title>
-      </DetailsContainer>
     </PopularBlogPostBoxContainer>
   )
 }
