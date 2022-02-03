@@ -21,8 +21,6 @@ export const DevelopmentAreasContainer = styled.div({
 })
 
 export const SectionText = styled(TextRegular)({
-  color: variables.color.text,
-
   marginTop: '60px',
   textAlign: 'left',
   padding: '0 10px',
@@ -38,7 +36,7 @@ export const GoToContainer = styled.div({
 })
 
 export const RevertHoverLink = styled(Link)`
-  color: #363636;
+  color: ${variables.color.text};
   &:hover {
     color: ${variables.color.primary};
   }
@@ -57,7 +55,6 @@ export const DevelopmentAreaContainer = styled.div`
     font-family: ${variables.font.customtext.lato};
     font-size: ${variables.pxToRem(18)};
     line-height: ${variables.pxToRem(32)};
-    color: ${variables.color.text};
   }
 
   @media ${variables.device.tablet} {
@@ -91,6 +88,7 @@ export const Title = styled.h2`
   margin-bottom: ${variables.pxToRem(54)};
   font-size: ${variables.pxToRem(22)};
   line-height: ${variables.pxToRem(27)};
+  color: inherit;
 
   @media ${variables.device.tablet} {
     margin-top: ${variables.pxToRem(30)};
