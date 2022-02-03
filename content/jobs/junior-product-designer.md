@@ -10,32 +10,34 @@ salary_min: 5000
 salary_max: 9000
 working time: full time
 technology:
-  - Android
-  - iOS
+  - Adobe XD
+  - Figma
+  - Sketch
+  - UX
 button: "join our design team "
 published: true
 order: 6
 ---
-At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world.
+[!]
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
+At Bright Inventions you'll be an important part of [a community of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
+
+We actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
 ## about the job
 
-We are seeking an innovative and positive **Junior Product designer** who would like to create first-class user experience across products we do. The role will include working collaboratively across teams, doing research, collecting user feedback as well as learning how to create wireframes, mock-ups and build various components. This is an exciting role that offers the opportunity to make a significant impact on our product offerings and user experience.   
+We are seeking **an innovative and positive Junior Product designer** who would like to create first-class user experience across products we do. The role will include working collaboratively across teams, doing research, collecting user feedback as well as learning how to create wireframes, mock-ups and build various components. This is an exciting role that offers the opportunity to make a significant impact on our product offerings and user experience.   
 
-So, if you follows the latest news on Dribbble, Behance and knows that asking questions is a key part in designing process, take a look at the offer below and apply. 
+So, if you follows **the latest news on Dribbble, Behance and knows that asking questions is a key part in designing process**, take a look at the offer below and apply. 
 
 ## in this role you will
 
-* work on international projects for clients from different industries (FinTech, Retail, Health, Ecommerce, Logistics) 
+* work on international projects from such industries as FinTech, Health, Sport or Logistics 
 * collaborate with product managers and engineers to successfully deliver designs that meet measurable criteria
-* create clickable high-fidelity and low-fidelity mockups
-
-
-* create effective and UI/UX-driven mobile and web interfaces
+* create wireframes and prototypes to help illustrate solutions
+* support in design research and data analysis
 * measure the success and failures of your design choices
-* work on internal projects where you can fully use your creative skills 
+* follow the overall design roadmap and stay current with the latest industry standards
 
 **If you want to know a bit more about how we work, take a look here:**
 
@@ -49,21 +51,15 @@ So, if you follows the latest news on Dribbble, Behance and knows that asking qu
 
 ## preferred qualifications and skills
 
-* at least 6 months of experience in UX/UI area
-* knowledge of design principles 
+* at least 1 year of experience in UX/UI area 
+* knowledge of fundamental design principles (e.g. usability, information architecture, research, etc.)
+* familiarity with current trends in designs 
 * strong desire to learn and broaden your knowledge in different industries 
 * excellent attention to details
 * openness to receiving feedback and improving 
 * can-do attitude and creative mind 
 * good command of at least of design tools such as Adobe XD, Sketch, Figma or other
 * very good communication skills both in English and Polish
-
-## nice to have
-
-* familiarity with current trends in designs 
-* experience with the software development lifecycle
-* experience with HTML, CSS 
-
 
 ## **what you will find at Bright Inventions**  🧡
 
