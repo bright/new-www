@@ -11,9 +11,10 @@ salary_max: 9000
 working time: full time
 technology:
   - Adobe XD
+  - Adobe Illustrator 
+  - Adobe Photoshop 
   - Figma
   - Sketch
-  - UX
 button: "join our design team "
 published: true
 order: 6
@@ -28,12 +29,13 @@ We actively take responsibility for our own self-development. Positive attitude,
 
 We are seeking **an innovative and positive Junior Product designer** who would like to create first-class user experience across products we do. The role will include working collaboratively across teams, doing research, collecting user feedback as well as learning how to create wireframes, mock-ups and build various components. This is an exciting role that offers the opportunity to make a significant impact on our product offerings and user experience.   
 
-So, if you follows **the latest news on Dribbble, Behance and knows that asking questions is a key part in designing process**, take a look at the offer below and apply. 
+If you follows **the latest news on Dribbble, Behance and knows that asking questions is a key part in designing process**, take a look at the offer below and apply. 
 
 ## in this role you will
 
 * work on international projects from such industries as FinTech, Health, Sport or Logistics 
 * collaborate with product managers and engineers to successfully deliver designs that meet measurable criteria
+* create brand designs (e.g. themes, templates) as well as other marketing materials 
 * create wireframes and prototypes to help illustrate solutions
 * support in design research and data analysis
 * measure the success and failures of your design choices
