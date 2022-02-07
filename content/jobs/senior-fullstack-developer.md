@@ -14,7 +14,7 @@ technology:
   - JavaScript
   - Node.js
   - React
-button: join our fullstack team
+button: join our TypeScript team
 published: true
 order: 2
 description: We are looking now for a Full Stack Developer who has already had
