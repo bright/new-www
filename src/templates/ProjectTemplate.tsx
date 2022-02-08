@@ -11,6 +11,11 @@ const Container = styled.div`
   max-width: 960px;
 
   && .content {
+    font-size: ${variables.pxToRem(20)};
+    font-weight: 400;
+    @media ${variables.device.mobile} {
+      font-size: ${variables.pxToRem(16)};
+    }
     h1,
     h2,
     h3,
