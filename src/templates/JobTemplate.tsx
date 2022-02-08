@@ -356,7 +356,7 @@ const Salary: React.FC<{ salary: string }> = ({ salary }) => {
         const salaryValue = salaryType.index && sal.slice(0, salaryType.index - 1)
         return (
           <div>
-            {salaryValue} (<span className='has-text-weight-bold'>{salaryType[0]}</span>)
+            {salaryValue} (<span>{salaryType[0]}</span>)
           </div>
         )
       } else {
