@@ -17,18 +17,56 @@ const Container = styled.div`
     h4,
     h5,
     h6,
+    p,
+    li,
     .title,
     .subtitle {
       color: ${variables.color.heading};
     }
-  }
-  && .title {
-    color: ${variables.color.heading};
+    h2 {
+      font-size: ${variables.pxToRem(54)};
+      @media ${variables.device.laptop} {
+        font-size: ${variables.pxToRem(34)};
+      }
+      @media ${variables.device.mobile} {
+        font-size: ${variables.pxToRem(22)};
+      }
+    }
+    h3 {
+      font-size: ${variables.pxToRem(28)};
+      @media ${variables.device.laptop} {
+        font-size: ${variables.pxToRem(25)};
+      }
+      @media ${variables.device.mobile} {
+        font-size: ${variables.pxToRem(18)};
+      }
+    }
+    p,
+    li {
+      font-size: ${variables.pxToRem(20)};
+      font-weight: 400;
+
+      @media ${variables.device.mobile} {
+        font-size: ${variables.pxToRem(16)};
+      }
+    }
   }
 `
 
 const Title = styled.h1`
-  font-size: 3rem;
+  font-size: ${variables.pxToRem(54)};
+  color: ${variables.color.heading};
+  font-weight: 900;
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(44)};
+  }
+  @media ${variables.device.tabletXL} {
+    font-size: ${variables.pxToRem(38)};
+  }
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(32)};
+    font-weight: 700;
+  }
 `
 
 export default function Template({
@@ -42,7 +80,7 @@ export default function Template({
 
       <Container className='container'>
         <article className='section'>
-          <Title className='title'>{frontmatter.title}</Title>
+          <Title>{frontmatter.title}</Title>
           <div className='content'>{frontmatter.description}</div>
           <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
           <BackButton url='/projects' label='Projects' arrowColor={''} className={''} />
