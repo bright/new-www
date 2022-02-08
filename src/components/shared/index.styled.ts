@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import variables from '../../styles/variables'
+import { pxToRem } from './../../styles/variables'
 
 export const HideTablet = styled.div({
   ['@media screen and (max-width: 767px)']: {
@@ -42,39 +43,70 @@ export const TitleBase = `
 
 export const SectionTitle = styled.h3`
   ${TitleBase};
-  font-size: 2rem;
+  font-size: ${variables.pxToRem(28)};
+  font-weight: 900;
   margin: 1em 0 3rem;
   color: ${variables.color.heading};
+
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(25)};
+  }
+
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(18)};
+  }
 `
 
-export const TextTitle = styled.div`
+export const TextTitle = styled.h3`
   ${TitleBase};
   margin: 1em 0;
-  font-size: 1.2rem;
+  font-size: ${variables.pxToRem(28)};
+  font-weight: 900;
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(25)};
+  }
+
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(18)};
+  }
 `
 
 export const TextRegular = styled.div`
   font-family: ${variables.font.text.family};
-  font-size: ${variables.font.text.size};
+  font-size: ${variables.pxToRem(20)};
   color: ${variables.color.text};
   line-height: 2rem;
+  font-weight: 400;
+
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(16)};
+  }
 `
 
 export const PageTitle = styled.h1`
   ${TitleBase};
   display: block;
   font-family: Montserrat, sans-serif;
-  font-size: 3.375rem;
-  font-weight: 800;
+  font-size: ${variables.pxToRem(54)};
+  font-weight: 900;
   line-height: 4rem;
   text-align: center;
   color: ${variables.color.heading};
   & > span {
     color: ${variables.color.primary};
   }
-
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(44)};
+  }
+  @media ${variables.device.tabletXL} {
+    font-size: ${variables.pxToRem(38)};
+  }
+  @media ${variables.device.tablet} {
+    font-size: ${variables.pxToRem(38)};
+  }
   @media ${variables.device.mobile} {
-    font-size: 2.5rem;
+    font-size: ${variables.pxToRem(32)};
+    font-weight: 700;
   }
 `
 
@@ -131,8 +163,8 @@ export const CustomPageTitle = styled.h1<{
   ${TitleBase};
   display: block;
   font-family: Montserrat, sans-serif;
-  font-size: ${({ fontSize }) => (fontSize ? fontSize : '3.375rem')};
-  font-weight: 800;
+  font-size: ${({ fontSize }) => (fontSize ? fontSize : `${variables.pxToRem(54)}`)};
+  font-weight: 900;
   line-height: 4.125rem;
   text-align: center;
   color: ${variables.color.heading};
@@ -141,18 +173,18 @@ export const CustomPageTitle = styled.h1<{
     color: ${variables.color.primary};
   }
   @media ${variables.device.laptop} {
-    font-size: ${({ laptopFontSize }) => (laptopFontSize ? laptopFontSize : '')};
+    font-size: ${({ laptopFontSize }) => (laptopFontSize ? laptopFontSize : `${variables.pxToRem(44)}`)};
   }
   @media ${variables.device.tabletXL} {
-    font-size: ${({ tabletXLFontSize }) => (tabletXLFontSize ? tabletXLFontSize : '')};
+    font-size: ${({ tabletXLFontSize }) => (tabletXLFontSize ? tabletXLFontSize : `${variables.pxToRem(38)}`)};
   }
   @media ${variables.device.tablet} {
-    font-size: ${({ tabletFontSize }) => (tabletFontSize ? tabletFontSize : '2rem')};
+    font-size: ${({ tabletFontSize }) => (tabletFontSize ? tabletFontSize : `${variables.pxToRem(38)}`)};
     font-weight: 900;
     line-height: 2.44rem;
   }
   @media ${variables.device.mobile} {
-    font-size: ${({ mobileFontSize }) => (mobileFontSize ? mobileFontSize : '')};
+    font-size: ${({ mobileFontSize }) => (mobileFontSize ? mobileFontSize : `${variables.pxToRem(32)}`)};
   }
 `
 export const CustomConstrainedWidthContainer = styled.div`
@@ -197,37 +229,47 @@ export const CustomSection = styled.section<{
 `
 export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: string; laptopMargin?: string }>`
   ${TitleBase};
-  font-size: 2.5rem;
-  font-weight: 800;
+  font-size: ${variables.pxToRem(40)};
+  font-weight: 900;
   line-height: 3.06rem;
   margin: ${({ margin }) => (margin ? margin : '9.625rem 0 6.56rem')};
   color: ${variables.color.heading};
 
   @media ${variables.device.laptop} {
-    font-size: 2.125rem;
+    font-size: ${variables.pxToRem(34)};
     line-height: 2.625rem;
-    font-weight: 900;
     margin: ${({ laptopMargin }) => (laptopMargin ? laptopMargin : '7.25rem 0 5.1875rem')};
   }
 
   @media ${variables.device.mobile} {
-    font-size: 1.375rem;
+    font-size: ${variables.pxToRem(22)};
+    font-weight: 700;
     line-height: 1.6875rem;
     margin: ${({ mobileMargin }) => (mobileMargin ? mobileMargin : '5.125rem 0 4rem')};
   }
 `
-export const CustomTextTitle = styled.div`
+export const CustomTextTitle = styled.h3`
   ${TitleBase};
   margin: 1em 0;
-  font-size: 1.375rem;
-  font-weight: bold;
+  font-size: ${variables.pxToRem(28)};
+  font-weight: 900;
   line-height: 1.6875rem;
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(25)};
+  }
+
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(18)};
+  }
 `
 export const CustomTextRegular = styled.div`
   font-family: ${variables.font.text.family};
-  font-size: 1.375rem;
+  font-size: ${variables.pxToRem(20)};
   line-height: 2.5rem;
-  opacity: 0.75;
+  font-weight: 400;
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(16)};
+  }
 `
 export const CustomSectionInner = styled(SectionInner)<{
   maxWidth?: string
@@ -255,7 +297,7 @@ export const CustomPageDescription = styled(PageDescription)<{ fontSize?: string
   font-size: ${({ fontSize }) => (fontSize ? fontSize : `${variables.pxToRem(22)} `)};
   line-height: ${variables.pxToRem(40)};
   color: ${variables.color.text};
-  opacity: 0.75;
+
   @media ${variables.device.tablet} {
     font-size: ${variables.pxToRem(16)};
     line-height: ${variables.pxToRem(28)};
