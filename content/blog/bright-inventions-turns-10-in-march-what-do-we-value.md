@@ -15,7 +15,7 @@ published: true
 ---
 **10 years, 53 projects and 70 people on board… Let’s talk to Ula who has been shaping our bright team for over five years. Find out what team we have tried to build and what values have been driving us for the last decade.**
 
-![Ula Stankiewicz Bright Inventions](/images/ula_bright_10_birthday.png)
+![Ula Stankiewicz Bright Inventions](/images/ula_blogpost_brightbirthday.png)
 
 ## You came to Bright Inventions 5 years ago when the team consisted of 8 people. Now we have over 70 team members. How did you increase these numbers with pretty small resources?
 
@@ -76,6 +76,8 @@ But despite the hybrid work model we didn’t give up **face to face meetings**.
 In practice it means a lot of conversations, compassion and problem solving. But it also means a lot of satisfaction. It is challenging to build a real continuous feedback culture, we are still building ours. When the team was smaller it was natural that we were talking about everything, for example in a kitchen. When the team got bigger, the real fun started. 😎
 
 **I can see that many people struggle to give useful feedback or to give any feedback at all**. I think that very often people are not taught how to do it, especially regarding negative feedback, which in fact is the best thing we can experience in life (if it is communicated properly, of course). People are frequently afraid of showing their true feelings and opinions. They are afraid of the reaction that may follow. To stay friends they can keep tough feedback to themselves and in consequence valuable insights are never given. 
+
+![feedback](/images/feedback_culture.jpeg)
 
 **Introducing continuous feedback culture is showing your team that they will not be punished for sharing their views when you disagree with them**. You have to create space for open discussions. At the same time it is **educating people that we should not feel hurt or offended when someone asks us to change our behaviour**. Natural reaction is defense and protecting our ego while hearing criticism, but feedback is not about criticizing, it is about continuous improvement and taking care of each other. 
 
