@@ -33,7 +33,7 @@ This process has been modified and optimized over the years. In the beginning, w
 
 Recently we have been working hard to involve more team members in the recruitment process so our experienced devs are a part of the team that conducts technical talks. And it is crucial that everyone follows the same rating rules, scales and search for the same values. The process has become a bit more structured. 
 
-![Recruiting process at Bright Inventions](/images/bright_inventions_recruiting_process.png)
+![Recruiting process at Bright Inventions](/images/bright_inventions_recruiting_process_tech.png)
 
 How does it look? To cut the long story short, every candidate after the screening session has an initial call with one of our recruiters. **We want to find out if we can really bring value to someone’s development**. I believe it should work like that. **It is just like in a relationship**. Based on resumes we can see more or less what candidates have to offer. The point is that they should also know what they may expect after joining our team and how we can help them in their further career. Feedback starts here. 
 
