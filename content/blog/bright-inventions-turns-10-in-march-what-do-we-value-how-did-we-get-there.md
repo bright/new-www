@@ -15,6 +15,8 @@ published: true
 ---
 **10 years, 53 projects and 70 people on board… Let’s talk to Ula who has been shaping our bright team for over five years. Find out what team we have tried to build and what values have been driving us for the last decade.**
 
+![Ula Stankiewicz Bright Inventions](/images/ula_bright_10_birthday.png)
+
 ## You came to Bright Inventions 5 years ago when the team consisted of 8 people. Now we have over 70 team members. How did you increase these numbers with pretty small resources?
 
 That was simply hard work. I guess it is still hard work. :) I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness from scratch. Naturally, we had a website (then it looked completely different than now :D) and a few social media accounts but they weren’t managed on a daily basis. 
@@ -30,6 +32,8 @@ For the first 3 years of my work at Bright our recruitment needs were not so eme
 This process has been modified and optimized over the years. In the beginning, when our recruitment needs were much smaller, we acted quite dynamically and there were situations when we offered candidates a job during an interview or just after it. So that was fast, truly Agile – some would say. ;) 
 
 Recently we have been working hard to involve more team members in the recruitment process so our experienced devs are a part of the team that conducts technical talks. And it is crucial that everyone follows the same rating rules, scales and search for the same values. The process has become a bit more structured. 
+
+![](/images/bright_inventions_recruiting_process.png)
 
 How does it look? To cut the long story short, every candidate after the screening session has an initial call with one of our recruiters. **We want to find out if we can really bring value to someone’s development**. I believe it should work like that. **It is just like in a relationship**. Based on resumes we can see more or less what candidates have to offer. The point is that they should also know what they may expect after joining our team and how we can help them in their further career. Feedback starts here. 
 
@@ -56,6 +60,8 @@ We also use so-called value based recruitment, the approach that lets you check 
 But coming back to the point. As I have said we have five company values that we are keen to promote through everything we do. The core values should be visible in every area of the organization. In our case these are **responsibility, flexibility, teamwork, positive attitude and client orientation**. I can elaborate on each and every one, but I am not sure if we have enough time for that. But they are well described on our company website. 🙂
 
 ## How do you take care of team building in times of hybrid and remote work?
+
+![](/images/call_meeting.png)
 
 When the pandemic started, we rather quickly came from offline to online. Actually, the easiest part was to move recruitment processes online. Maintaining team spirit has been more challenging. People suddenly couldn’t meet face to face. T**he crucial part was to maintain the human factor**. Despite online work, we have been organizing lots of opportunities to stay in touch with each other.  Firstly, we started with a morning call to start the day together. The call was at 7.45 AM so obviously not everyone wanted or was able to participate. 😉 Then we started to use the **[Donut](https://www.donut.com) app** that enabled us to have short lunch breaks and calls with people from our team. 
 
