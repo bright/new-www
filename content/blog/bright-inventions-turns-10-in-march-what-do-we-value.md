@@ -33,11 +33,11 @@ This process has been modified and optimized over the years. In the beginning, w
 
 Recently we have been working hard to involve more team members in the recruitment process so our experienced devs are a part of the team that conducts technical talks. And it is crucial that everyone follows the same rating rules, scales and search for the same values. The process has become a bit more structured. 
 
-![](/images/bright_inventions_recruiting_process.png)
+![Recruiting process at Bright Inventions](/images/bright_inventions_recruiting_process.png)
 
 How does it look? To cut the long story short, every candidate after the screening session has an initial call with one of our recruiters. **We want to find out if we can really bring value to someone’s development**. I believe it should work like that. **It is just like in a relationship**. Based on resumes we can see more or less what candidates have to offer. The point is that they should also know what they may expect after joining our team and how we can help them in their further career. Feedback starts here. 
 
-If the screening session goes well and both sides are happy, we invite a candidate to the first round of the process i.e. **online interview** with me, [Agata](/about-us/agata-m/) or [Paulina](/about-us/paulina-t/) and one of our colleagues from a development team. The second round is about doing **a technical task** (in case of developers) and only selected candidates move to that round. We do not want to waste people’s time if after the interview it is clear that expectations from both sides are different. 
+If the screening session goes well and both sides are happy, we invite a candidate to the first round of the process i.e. **online interview** with [me](/about-us/ula/), [Agata](/about-us/agata-m/) or [Paulina](/about-us/paulina-t/) and one of our colleagues from a development team. The second round is about doing **a technical task** (in case of developers) and only selected candidates move to that round. We do not want to waste people’s time if after the interview it is clear that expectations from both sides are different. 
 
 The technical task is a complementary part, but we use it only if together with a candidate we are sure about taking this next step. One important thing – that is the candidate who sets up a deadline, so you have great freedom to schedule that appropriately. 
 
