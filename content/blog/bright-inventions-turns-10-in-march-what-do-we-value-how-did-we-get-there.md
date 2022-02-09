@@ -19,7 +19,7 @@ published: true
 
 ## You came to Bright Inventions 5 years ago when the team consisted of 8 people. Now we have over 70 team members. How did you increase these numbers with pretty small resources?
 
-That was simply hard work. I guess it is still hard work. :) I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness from scratch. Naturally, we had a website (then it looked completely different than now :D) and a few social media accounts but they weren’t managed on a daily basis. 
+That was simply hard work. I guess it is still hard work. 🙂 I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness from scratch. Naturally, we had a website (then it looked completely different than now :D) and a few social media accounts but they weren’t managed on a daily basis. 
 
 I was able to quickly build a marketing and HR strategy thanks to the fact that I worked closely with the co-founders of Bright. **I was engaged in every process in the company**. I quickly realised what kind of company Michał and Daniel wanted to build and what kind of people we needed on board. **The goal was to create a place where people can develop and enjoy what they do**. All that in a positive and responsible environment. 
 
@@ -37,7 +37,7 @@ Recently we have been working hard to involve more team members in the recruitme
 
 How does it look? To cut the long story short, every candidate after the screening session has an initial call with one of our recruiters. **We want to find out if we can really bring value to someone’s development**. I believe it should work like that. **It is just like in a relationship**. Based on resumes we can see more or less what candidates have to offer. The point is that they should also know what they may expect after joining our team and how we can help them in their further career. Feedback starts here. 
 
-If the screening session goes well and both sides are happy, we invite a candidate to the first round of the process i.e. **online interview** with me, Agata or Paulina and one of our colleagues from a development team. The second round is about doing **a technical task** (in case of developers) and only selected candidates move to that round. We do not want to waste people’s time if after the interview it is clear that expectations from both sides are different. 
+If the screening session goes well and both sides are happy, we invite a candidate to the first round of the process i.e. **online interview** with me, [Agata](/about-us/agata-m/) or [Paulina](/about-us/paulina-t/) and one of our colleagues from a development team. The second round is about doing **a technical task** (in case of developers) and only selected candidates move to that round. We do not want to waste people’s time if after the interview it is clear that expectations from both sides are different. 
 
 The technical task is a complementary part, but we use it only if together with a candidate we are sure about taking this next step. One important thing – that is the candidate who sets up a deadline, so you have great freedom to schedule that appropriately. 
 
@@ -55,15 +55,17 @@ It is an easy question, at least I suppose it is. **We are looking for people wh
 
 We have five core values and we use these values in each possible situation. Starting from recruitment, marketing and communication strategies and ending in our daily work in projects.  
 
+![Bright Inventions 10th birthday](/images/10_years_bright_team.png)
+
 We also use so-called value based recruitment, the approach that lets you check if your potential employee’s values match with your organization's values and mindset. In fact, the success itself is often sustained by values we are committed to. 
 
-But coming back to the point. As I have said we have five company values that we are keen to promote through everything we do. The core values should be visible in every area of the organization. In our case these are **responsibility, flexibility, teamwork, positive attitude and client orientation**. I can elaborate on each and every one, but I am not sure if we have enough time for that. But they are well described on our company website. 🙂
+But coming back to the point. As I have said we have [five company values](/about-us/values/) that we are keen to promote through everything we do. The core values should be visible in every area of the organization. In our case these are **responsibility, flexibility, teamwork, positive attitude and client orientation**. I can elaborate on each and every one, but I am not sure if we have enough time for that. But they are well described on our company website. 🙂
 
 ## How do you take care of team building in times of hybrid and remote work?
 
-![](/images/call_meeting.png)
+![hybrid working model at Bright Inventions](/images/call_meeting.png)
 
-When the pandemic started, we rather quickly came from offline to online. Actually, the easiest part was to move recruitment processes online. Maintaining team spirit has been more challenging. People suddenly couldn’t meet face to face. T**he crucial part was to maintain the human factor**. Despite online work, we have been organizing lots of opportunities to stay in touch with each other.  Firstly, we started with a morning call to start the day together. The call was at 7.45 AM so obviously not everyone wanted or was able to participate. 😉 Then we started to use the **[Donut](https://www.donut.com) app** that enabled us to have short lunch breaks and calls with people from our team. 
+When the pandemic started, we rather quickly came from offline to online. Actually, the easiest part was to move recruitment processes online. Maintaining team spirit has been more challenging. People suddenly couldn’t meet face to face. **The crucial part was to maintain the human factor**. Despite online work, we have been organizing lots of opportunities to stay in touch with each other.  Firstly, we started with a morning call to start the day together. The call was at 7.45 AM so obviously not everyone wanted or was able to participate. 😉 Then we started to use the **[Donut](https://www.donut.com) app** that enabled us to have short lunch breaks and calls with people from our team. 
 
 Now, after two years of pandemic [our work could be described as a hybrid one](/blog/hybrid-work-how-to-do-it-right/). It is a healthy mix of individualistic needs. Some people come to the office every day, some twice a week and some maybe once a month or even less. Each option is fine as long as it gives people the opportunity to do their work best. We have to be aware that remote is not for everyone. In some cases it just doesn’t work. 
 
