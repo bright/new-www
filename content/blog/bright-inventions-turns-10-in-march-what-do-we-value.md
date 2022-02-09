@@ -63,7 +63,7 @@ But coming back to the point. As I have said we have [five company values](/abou
 
 ## How do you take care of team building in times of hybrid and remote work?
 
-![hybrid working model at Bright Inventions](/images/call_meeting.png)
+![hybrid working model at Bright Inventions](/images/christmas_meeting.png)
 
 When the pandemic started, we rather quickly came from offline to online. Actually, the easiest part was to move recruitment processes online. Maintaining team spirit has been more challenging. People suddenly couldn’t meet face to face. **The crucial part was to maintain the human factor**. Despite online work, we have been organizing lots of opportunities to stay in touch with each other.  Firstly, we started with a morning call to start the day together. The call was at 7.45 AM so obviously not everyone wanted or was able to participate. 😉 Then we started to use the **[Donut](https://www.donut.com) app** that enabled us to have short lunch breaks and calls with people from our team. 
 
