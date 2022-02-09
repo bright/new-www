@@ -15,7 +15,7 @@ published: true
 ---
 **10 years, 53 projects and 70 people on board… Let’s talk to Ula who has been shaping our bright team for over five years. Find out what team we have tried to build and what values have been driving us for the last decade.**
 
-![Ula Stankiewicz Bright Inventions](/images/ula_bright_10_birthday.png)
+![Ula Stankiewicz Bright Inventions](/images/ula_blogpost_brightbirthday.png)
 
 ## You came to Bright Inventions 5 years ago when the team consisted of 8 people. Now we have over 70 team members. How did you increase these numbers with pretty small resources?
 
