@@ -75,7 +75,7 @@ But despite the hybrid work model we didn’t give up **face to face meetings**.
 
 In practice it means a lot of conversations, compassion and problem solving. But it also means a lot of satisfaction. It is challenging to build a real continuous feedback culture, we are still building ours. When the team was smaller it was natural that we were talking about everything, for example in a kitchen. When the team got bigger, the real fun started. 😎
 
-**I can see that many people struggle to give useful feedback or to give any feedback at all**. I think that very often people are not taught how to do it, especially regarding negative feedback, which in fact is the best thing we can experience in life (if it is communicated properly, of course). People are frequently afraid of showing their true feelings and opinions. They are afraid of the reaction that may follow. To stay friends they can keep tough feedback to themselves and in consequence valuable insights are never given. 
+**I can see that people generally in life struggle to give useful feedback or to give any feedback at all**. I am happy that I work with these who are open and at Bright feedback culture works pretty well. But the common problem is that very often we have been not taught how to give and get feedback, especially regarding negative one, which is the best thing we can experience (if it is communicated properly, of course). People are frequently afraid of showing their true feelings and opinions. They are afraid of the reaction that may follow. To stay friends they can keep tough feedback to themselves and in consequence valuable insights are never given. It happens. Maybe not here, but still it does. 
 
 ![feedback](/images/feedback_culture.jpeg)
 
