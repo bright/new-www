@@ -19,7 +19,7 @@ published: true
 
 ## You came to Bright Inventions 5 years ago when the team consisted of 8 people. Now we have over 70 team members. How did you increase these numbers with pretty small resources?
 
-That was simply hard work. I guess it is still hard work. 🙂 I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness from scratch. Naturally, we had a website (then it looked completely different than now :D) and a few social media accounts but they weren’t managed on a daily basis. 
+That was simply hard work. I guess it is still hard work. 🙂 I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness from scratch. Naturally, we had a website (then it looked completely different than now 😁) and a few social media accounts but they weren’t managed on a daily basis. 
 
 I was able to quickly build a marketing and HR strategy thanks to the fact that I worked closely with the co-founders of Bright. **I was engaged in every process in the company**. I quickly realised what kind of company Michał and Daniel wanted to build and what kind of people we needed on board. **The goal was to create a place where people can develop and enjoy what they do**. All that in a positive and responsible environment. 
 
@@ -29,7 +29,7 @@ For the first 3 years of my work at Bright our recruitment needs were not so eme
 
 ## How does a recruitment process look at Bright?
 
-This process has been modified and optimized over the years. In the beginning, when our recruitment needs were much smaller, we acted quite dynamically and there were situations when we offered candidates a job during an interview or just after it. So that was fast, truly Agile – some would say. ;) 
+This process has been modified and optimized over the years. In the beginning, when our recruitment needs were much smaller, we acted quite dynamically and there were situations when we offered candidates a job during an interview or just after it. So that was fast, truly Agile – some would say. 😉 
 
 Recently we have been working hard to involve more team members in the recruitment process so our experienced devs are a part of the team that conducts technical talks. And it is crucial that everyone follows the same rating rules, scales and search for the same values. The process has become a bit more structured. 
 
