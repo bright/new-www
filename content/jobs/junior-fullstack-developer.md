@@ -17,6 +17,8 @@ technology:
 button: join our fullstack team
 published: true
 order: 10
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking for a Junior Fullstack Developer to join our team.
   We want to offer you an opportunity to work with modern frameworks and tools.
 ---
