@@ -1,6 +1,6 @@
 $navbar-height: 4.6rem;
 $navbar-item-img-max-height: 67px;
-@import "bulma/sass/components/navbar";
+@import 'bulma/sass/components/navbar';
 
 .navbar-logo {
   $baseWidth: 175px;
@@ -30,7 +30,7 @@ $navbar-item-img-max-height: 67px;
   font-family: Lato, sans-serif;
   font-style: normal;
   font-weight: 800;
-  color: black;
+  color: #0a0a0a;
   // letter-spacing: 0.2em;
   .button {
     border-radius: 0;
