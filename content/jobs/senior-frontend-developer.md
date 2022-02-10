@@ -16,6 +16,8 @@ technology:
 button: join our frontend team
 published: true
 order: 3
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking for a Senior Frontend Developer who would like to
   work with our experienced and ambitious development team.
 ---
