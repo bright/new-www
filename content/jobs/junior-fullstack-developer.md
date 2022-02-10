@@ -22,7 +22,6 @@ recruting_image3_title: programming task
 description: We are looking for a Junior Fullstack Developer to join our team.
   We want to offer you an opportunity to work with modern frameworks and tools.
 ---
-
 ![]()
 
 Bright Inventions is a young dynamic software company established in 2012 in Gdańsk. We specialise in mobile and web applications, Blockchain and IoT devices. We support a wide variety of clients coming from such sectors  as FinTech, Health, Automotive, Commerce/Shopping and others. Since 2012 we have learnt the value of interesting technically challenging projects and become quite picky in terms of the ones we select.
@@ -66,8 +65,4 @@ Currently we are looking for **a Junior Fullstack Developer** to join our team. 
 * weekly sport classes and stretching/yoga in-house time 
 * board games Fridays and quarter team building events 
 
-## recruitment process
-
-![](/images/recruitment-process.png)
-
-In case you have sny questions, drop us a line at jobs@bright.dev. We would be happy to help! 🧡
+In case you have any questions, drop us a line at jobs@bright.dev. We would be happy to help! 🧡
