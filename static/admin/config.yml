@@ -133,6 +133,8 @@ collections:
           step: 1,
           default: 1,
         }
+      - { label: 'Recruting Process Image2 Title', name: 'recruting_image2_title', widget: 'string' }
+      - { label: 'Recruting Process Image3 Title', name: 'recruting_image3_title', widget: 'string' }
 
   - name: 'projects' # Used in routes, e.g., /admin/collections/blog
     label: 'Projects' # Used in the UI

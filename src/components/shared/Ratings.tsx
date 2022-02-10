@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
 
-import { Section, SectionTitle } from './index'
+import { CustomSectionTitle, Section, SectionTitle } from './index'
 import variables from '../../styles/variables'
 
-const CarouselSectionBlack = styled(Section)`
+const Container = styled(Section)`
   padding: 2rem 15rem 2rem 15rem;
   // clutch background color which we can't affect with widget type 12
   background-color: #fafafa;
@@ -19,6 +19,20 @@ const CarouselSectionBlack = styled(Section)`
   }
   @media ${variables.device.mobile} {
     padding: 2rem 1.125rem 2rem 1.125rem;
+  }
+`
+const clutchWidgetHeight = 375
+
+const ClutchWidget = styled.div`
+  iframe {
+    height: ${clutchWidgetHeight}px;
+  }
+
+  @media ${variables.device.mobile} {
+    // on mobile the iframe is higher than that requested clutchWidgetHeight
+    iframe {
+      height: 420px
+    }
   }
 `
 
@@ -69,17 +83,22 @@ const Ratings = () => {
     }
   }, [])
   return (
-    <CarouselSectionBlack>
-      <div className='clutch-widget'
-           data-nofollow='true'
-           data-url='https://widget.clutch.co'
-           data-widget-type='12'
-           data-primary-color={variables.color.primary}
-           data-background-color={variables.color.black}
-           data-secondary-color={variables.color.primary}
-           data-darkbg={true}
-           data-height='375' data-clutchcompany-id='32656' />
-    </CarouselSectionBlack>
+    <>
+      <CustomSectionTitle>see why clients love working&nbsp;with&nbsp;us</CustomSectionTitle>
+      <Container>
+        <ClutchWidget
+          className='clutch-widget' // class name is requires for the clutch plugin to find the element
+          data-nofollow='true'
+          data-url='https://widget.clutch.co'
+          data-widget-type='12'
+          data-primary-color={variables.color.primary}
+          data-background-color={variables.color.black}
+          data-secondary-color={variables.color.primary}
+          data-darkbg={true}
+          data-height={clutchWidgetHeight}
+          data-clutchcompany-id='32656' />
+      </Container>
+    </>
   )
 }
 

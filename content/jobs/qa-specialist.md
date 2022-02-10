@@ -18,6 +18,8 @@ technology:
 button: join our QA team
 published: true
 order: 3
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: QA task
 description: We are looking for a QA Specialist who will maintain a high quality
   of our iOS, Android apps as well as web applications. Apply!
 ---

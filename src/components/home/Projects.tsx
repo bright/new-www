@@ -8,20 +8,18 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 
 export const ProjectCustomSection = styled(CustomSection)`
-  padding-bottom: 11.625rem;
   @media ${variables.device.laptop} {
-    padding-bottom: 7.25rem;
     & .success-story-wrapper {
       & > div:nth-child(odd) {
         margin-right: 0;
       }
+
       & > div:nth-child(even) {
         margin-left: 0;
       }
     }
   }
   @media ${variables.device.mobile} {
-    padding-bottom: 5.125rem;
   }
 `
 
@@ -36,10 +34,12 @@ export const BlockSmall = styled.div`
   padding: 2rem;
   margin: 2rem;
   font-size: 1rem;
+
   &:last-of-type {
     margin-bottom: 0;
     margin-left: 0;
   }
+
   &:first-of-type {
     margin-right: 0;
   }
@@ -50,15 +50,19 @@ export const BlockSmall = styled.div`
     color: ${variables.color.text};
     margin-right: 2rem;
   }
+
   & a {
     margin-right: 2rem;
+
     &:last-of-type {
       margin-right: 0;
     }
+
     img {
       width: 2rem;
     }
   }
+
   @media ${variables.device.laptop} {
     width: calc(50% - 1.75rem);
     margin: 1.75rem;
@@ -112,7 +116,7 @@ export const ProjectsLink = styled(Link)`
 
 export const Projects: React.FC = () => {
   const {
-    allMarkdownRemark: { edges },
+    allMarkdownRemark: { edges }
   } = useStaticQuery(GQL)
   const projects: Array<{
     frontmatter: {
@@ -142,15 +146,13 @@ export const Projects: React.FC = () => {
         </BlockSmall>
 
         {projects.map((project, ix) => (
-          <>
-            <SuccessStoryBox
-              key={ix}
-              title={project.frontmatter.title}
-              image={project.frontmatter.image}
-              slug={project.frontmatter.slug}
-              className={`is-pulled-${ix % 2 ? 'right' : 'left'}`}
-            />
-          </>
+          <SuccessStoryBox
+            key={ix}
+            title={project.frontmatter.title}
+            image={project.frontmatter.image}
+            slug={project.frontmatter.slug}
+            className={`is-pulled-${ix % 2 ? 'right' : 'left'}`}
+          />
         ))}
         <BlockSmall className='is-pulled-left'>
           <ProjectsLink to={routeLinks.projects}>see all case studies</ProjectsLink>
