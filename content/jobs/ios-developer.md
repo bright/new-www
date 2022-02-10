@@ -1,7 +1,7 @@
 ---
 layout: job
 title: iOS Developer
-subtitle: OPENING SOON 
+subtitle: OPENING SOON
 imagejob: /images/iosteam.png
 image-alt-job: iOS Team Bright Inventions
 hours: full-time
@@ -22,6 +22,8 @@ redirect_from:
   - /ios-developer/
 published: true
 order: 11
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking for an experienced passionate iOS Developer to
   develop and enhance innovative and robust iOS application for one of our main
   clients.
