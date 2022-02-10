@@ -15,6 +15,8 @@ technology:
 button: "join our design team "
 published: true
 order: 1
+recruting_image2_title: interview
+recruting_image3_title: product design task
 ---
 ## who we are
 
