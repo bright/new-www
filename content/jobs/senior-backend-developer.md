@@ -1,9 +1,10 @@
 ---
+imagejob: /images/backendteam.png
+image-alt-job: backend development team
+hidden: false
 layout: job
 title: "Senior Backend Developer "
 subtitle: ONGOING
-imagejob: /images/backendteam.png
-image-alt-job: backend development team
 hours: full-time
 salary: 18 000 - 24 000 PLN + VAT (B2B) or 14 950 - 19 900 PLN gross (UoP)
 salary_min: 16000
@@ -18,8 +19,9 @@ technology:
   - MySQL
 button: join our backend team
 published: true
-hidden: false
 order: 3
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking for an experienced Backend Developer who understands
   Java/Kotlin & Spring really well and who would like to work with AWS on daily
   basis.
