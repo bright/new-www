@@ -11,12 +11,14 @@ salary_max: 15000
 working time: full time
 technology:
   - Jira
-  - Confluence 
+  - Confluence
   - Scrum
   - Kanban
 button: join Agile team
 published: true
 order: 3
+recruting_image2_title: "interview "
+recruting_image3_title: PM task
 ---
 ## **about the role**
 
