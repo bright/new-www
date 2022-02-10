@@ -18,7 +18,7 @@ button: join our Bright team
 published: true
 order: 10
 recruting_image2_title: interview (technical part & non-technical part)
-recruting_image3_title: programming task
+recruting_image3_title: DevOps task
 description: We are looking for a DevOps Engineer who would like to work with
   our experienced and ambitious development team.
 ---
