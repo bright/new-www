@@ -1,9 +1,10 @@
 ---
+imagejob: /images/fullstackteam.png
+image-alt-job: Fullstack Team Bright Inventions
+hidden: true
 layout: job
 title: "Senior Fullstack Developer "
 subtitle: ONGOING
-imagejob: /images/fullstackteam.png
-image-alt-job: Fullstack Team Bright Inventions
 hours: Full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
 salary_min: 16000
@@ -16,8 +17,9 @@ technology:
   - React
 button: join our fullstack team
 published: false
-hidden: true
 order: 7
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
   projects.
