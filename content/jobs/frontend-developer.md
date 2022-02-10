@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Frontend Developer "
-subtitle: ONGOING 
+subtitle: ONGOING
 imagejob: /images/frontendteam.png
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
@@ -17,6 +17,8 @@ technology:
 button: join our frontend team
 published: true
 order: 6
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking for a Frontend Developer who would like to work with
   our experienced and ambitious development team.
 ---
