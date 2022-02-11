@@ -19,6 +19,47 @@ const Container = styled.div`
     & .title {
       color: ${variables.color.text};
     }
+    h1 {
+      font-size: ${variables.pxToRem(54)};
+      font-weight: 900;
+      @media ${variables.device.laptop} {
+        font-size: ${variables.pxToRem(44)};
+      }
+      @media ${variables.device.tabletXL} {
+        font-size: ${variables.pxToRem(38)};
+      }
+      @media ${variables.device.mobile} {
+        font-size: ${variables.pxToRem(32)};
+        font-weight: 700;
+      }
+    }
+    h2 {
+      font-size: ${variables.pxToRem(54)};
+      @media ${variables.device.laptop} {
+        font-size: ${variables.pxToRem(34)};
+      }
+      @media ${variables.device.mobile} {
+        font-size: ${variables.pxToRem(22)};
+      }
+    }
+    h3 {
+      font-size: ${variables.pxToRem(28)};
+      @media ${variables.device.laptop} {
+        font-size: ${variables.pxToRem(25)};
+      }
+      @media ${variables.device.mobile} {
+        font-size: ${variables.pxToRem(18)};
+      }
+    }
+    p,
+    li {
+      font-size: ${variables.pxToRem(20)};
+      font-weight: 400;
+
+      @media ${variables.device.mobile} {
+        font-size: ${variables.pxToRem(16)};
+      }
+    }
   }
 `
 
