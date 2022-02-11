@@ -48,8 +48,9 @@ const Columns = styled.div`
       background-image: url('/images/career/arrow.svg');
       background-size: cover;
     }
-    &:nth-of-type(3) figure img {
-      padding-top: 20px;
+    &:nth-of-type(3) figure img,
+    :nth-of-type(2) figure img {
+      padding-top: ${variables.pxToRem(25)};
     }
     &:nth-child(n + 4):after {
       display: none;
@@ -68,8 +69,8 @@ const Columns = styled.div`
       margin-top: 4.25rem;
     }
 
-    figure img {
-      max-height: 14.875rem;
+    .top-image img {
+      max-height: ${variables.pxToRem(259)};
       object-fit: contain;
     }
 
@@ -94,7 +95,7 @@ const Columns = styled.div`
         font-size: 1.3125rem;
         margin-top: 3rem;
       }
-      figure img {
+      .top-image img {
         max-height: 11rem;
         object-fit: contain;
       }
@@ -113,7 +114,7 @@ const Columns = styled.div`
         font-size: 1.125rem;
         margin-top: 2.3125rem;
       }
-      figure img {
+      .top-image img {
         max-height: 9rem;
         object-fit: contain;
       }
@@ -125,7 +126,8 @@ const Columns = styled.div`
   }
   @media ${variables.device.tablet} {
     display: block !important;
-    && {
+    && {import { pxToRem } from './../../styles/variables';
+
       .column {
         margin-bottom: 4.5625rem;
         padding: 0 1.125rem;
@@ -141,7 +143,7 @@ const Columns = styled.div`
           right: unset;
         }
 
-        figure img {
+        .top-image img {
           max-height: 296px;
           width: 100%;
           margin: 0 auto;
@@ -169,8 +171,12 @@ const Columns = styled.div`
     }
   }
 `
+interface Props {
+  recruting_image2_title?: string
+  recruting_image3_title?: string
+}
 
-const RecruitingProcess: React.FC = () => {
+const RecruitingProcess: React.FC<Props> = ({ recruting_image2_title, recruting_image3_title }) => {
   const blocks = useMemo(
     () => [
       { image: '/images/career/recruiting/cv_review.png', title: 'CV screening' },
@@ -189,18 +195,30 @@ const RecruitingProcess: React.FC = () => {
       <RecruitingTitle>recruiting process</RecruitingTitle>
 
       <Columns className='columns is-multiline has-justify-content-center'>
-        {blocks.map((block, index) => (
-          <div key={block.title} className='column is-one-quarter has-text-centered'>
-            <figure className='image is-inline-block'>
-              <img src={block.image} alt={block.title} />
-            </figure>
-            <p>
-              {index + 1}. {block.title}
-            </p>
-          </div>
-        ))}
+        {blocks.map((block, index) => {
+          let title
+          if (index === 1 && recruting_image2_title) {
+            title = recruting_image2_title
+          } else if (index === 2 && recruting_image3_title) {
+            title = recruting_image3_title
+          } else {
+            title = block.title
+          }
+
+          return (
+            <div key={title} className='column is-one-quarter has-text-centered'>
+              <figure className='image is-inline-block top-image'>
+                <img src={block.image} alt={title} />
+              </figure>
+
+              <p>
+                {index + 1}. {title}
+              </p>
+            </div>
+          )
+        })}
         <div className='column is-half has-text-centered'>
-          <figure className='image is-inline-block'>
+          <figure className='image is-inline-block bottom-image'>
             <img src='/images/career/recruiting/congrats.png' alt='congrats' />
           </figure>
           <p>5. congrats! you are a part of a bright team!</p>

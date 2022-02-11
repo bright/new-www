@@ -458,7 +458,10 @@ export default function Template({
           </CustomSectionInner>
         </CustomSection>
         <RecruitingProcessWrappers>
-          <RecruitingProcess />
+          <RecruitingProcess
+            recruting_image2_title={page.recruting_image2_title}
+            recruting_image3_title={page.recruting_image3_title}
+          />
         </RecruitingProcessWrappers>
         <CustomSection>
           <CustomSectionInner id='jobform' tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
@@ -548,6 +551,8 @@ export const pageQuery = graphql`
         technology
         button
         image_alt_job
+        recruting_image2_title
+        recruting_image3_title
         imagejob {
           childImageSharp {
             gatsbyImageData
