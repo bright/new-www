@@ -121,16 +121,12 @@ Let us not forget about meetings in person. They are highly recommended. At Brig
 
 I have two school age children. So my number one priority is spending time with them. Besides, I ride a bike as often as I can. Before the pandemics, I was attending yoga and pilates classes. Pandemics took that away from me. I did not want to exercise at home and actually felt like I needed to leave the house and get some fresh air. I thought of cycling as an opportunity to spend active time outside the home. I sat on the bike, started to ride, the air struck me and suddenly everything changed. I felt the freedom which I really needed after weeks of staying at home. Then I started to train mountain terrain cycling. I loved to ride, and riding MTBs gave me a chance to do it in lots of beautiful places. Even when pilates and yoga places were reopened and I started to train both again I did not give up MTB. I love it, it gives me oxygen, so much space and beautiful views. 
 
-
-
 Join Kasia! 😎 Check out [career opportunities at Bright Inventions](https://brightinventions.pl/career)!
 
+\*Learn more about scrum master’s role in Agile teams:
 
+[https://medium.com/serious-scrum](https://medium.com/serious-scrum/lets-do-scrum-but-without-a-scrum-master-why-does-it-happen-41f31b3c1596)
 
-*Learn more about scrum master’s role in Agile teams:
+[https://www.researchgate.net/publication/](https://www.researchgate.net/publication/346934975_Spearheading_Agile_The_Role_of_the_Scrum_Master_in_Agile_Projects)
 
-<https://medium.com/serious-scrum/lets-do-scrum-but-without-a-scrum-master-why-does-it-happen-41f31b3c1596>
-
-<https://www.researchgate.net/publication/346934975_Spearheading_Agile_The_Role_of_the_Scrum_Master_in_Agile_Projects>
-
-<https://scrumorg-website-prod.s3.amazonaws.com/drupal/2019-02/2019%20Scrum%20Master%20Trends%20%282019-02-06%29.pdf>
+[https://scrumorg-website-prod.s3.amazonaws.com](https://scrumorg-website-prod.s3.amazonaws.com/drupal/2019-02/2019%20Scrum%20Master%20Trends%20%282019-02-06%29.pdf)
