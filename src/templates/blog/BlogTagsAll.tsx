@@ -5,6 +5,7 @@ import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import styled from 'styled-components'
 import { kebabCase } from '../../helpers/pathHelpers'
+import variables from '../../styles/variables'
 
 const TagsWrapper = styled.ul`
   display: flex;
@@ -54,7 +55,7 @@ const SubTagsWrapper = styled.ul`
       margin-right: 0;
     }
     & > a {
-      color: #131214;
+      color: ${variables.color.text};
     }
   }
 `
@@ -64,7 +65,7 @@ const TagsSelect = styled.select`
   margin: 2.25rem 0;
   font-size: 1.125rem;
   line-height: 1.375rem;
-  color: #131214;
+  color: ${variables.color.text};
   padding: 0 1.125rem;
 
   & option {
