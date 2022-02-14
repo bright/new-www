@@ -1,25 +1,35 @@
-import {graphql} from 'gatsby'
-import React, {useState} from 'react'
+import { graphql } from 'gatsby'
+import React, { useState } from 'react'
 import classNames from 'classnames'
 
-import {Page} from '../layout/Page'
+import { Page } from '../layout/Page'
 import ProjectCard from '../components/subcomponents/ProjectCard'
-import {Section, PageDescription} from '../components/shared'
-import {createProjects} from '../models/creator'
-import {GQLData} from '../models/gql'
+import { Section, PageDescription } from '../components/shared'
+import { createProjects } from '../models/creator'
+import { GQLData } from '../models/gql'
 
 import * as styles from './projects.module.scss'
+import styled from 'styled-components'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import variables from '../styles/variables'
 
-const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
+const SectionProjects = styled(Section)`
+  && .button {
+    color: ${variables.color.text};
+  }
+`
+
+const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
   const projects = createProjects(data)
 
   const allTags: string[] = []
-  projects.forEach(project => (project.tags || []).forEach(tag => {
-    if (!allTags.includes(tag)) {
-      allTags.push(tag)
-    }
-  }))
+  projects.forEach(project =>
+    (project.tags || []).forEach(tag => {
+      if (!allTags.includes(tag)) {
+        allTags.push(tag)
+      }
+    })
+  )
 
   const [selectedTags, setSelectedTags] = useState<string[]>([])
 
@@ -38,42 +48,44 @@ const ProjectsPage: React.FC<{data: GQLData}> = ({data}) => {
         description='We’ve developed web and mobile applications for clients from UK, Germany, Netherlands, Norway, Israel and more.'
       />
       <div className='container'>
-        <Section className={styles.info}>
+        <SectionProjects className={styles.info}>
           <PageDescription>
-            Since 2012 we have realized many innovative projects among which
-            there are solutions supporting eco-driving, application for
-            sportsmen, POS cash register, system supporting answering calls to
-            emergency numbers and many others.
+            Since 2012 we have realized many innovative projects among which there are solutions supporting eco-driving,
+            application for sportsmen, POS cash register, system supporting answering calls to emergency numbers and
+            many others.
           </PageDescription>
           <div className='buttons'>
             {allTags.length > 0 && (
-                <div className={classNames('button', styles.filter, {['is-black']: selectedTags.length === 0})}
-                     onClick={() => setSelectedTags([])}>
-                  all
-                </div>
+              <div
+                className={classNames('button', styles.filter, { ['is-black']: selectedTags.length === 0 })}
+                onClick={() => setSelectedTags([])}
+              >
+                all
+              </div>
             )}
             {allTags.map(tag => (
-                <div key={tag}
-                     className={classNames('button',  styles.filter, {['is-black']: selectedTags.includes(tag)})}
-                     onClick={() => selectTag(tag)}>
-                  {tag}
-                </div>
+              <div
+                key={tag}
+                className={classNames('button', styles.filter, { ['is-black']: selectedTags.includes(tag) })}
+                onClick={() => selectTag(tag)}
+              >
+                {tag}
+              </div>
             ))}
           </div>
-        </Section>
+        </SectionProjects>
         <Section>
           <div className='columns is-multiline'>
             {projects
-                .filter((project) =>
-                    selectedTags.length === 0 ||
-                    (project.tags && selectedTags.every(tag => project.tags.includes(tag)))
-                )
-                .map((project) => (
-                  <div className={classNames('column', styles.project)} key={project.title}>
-                      <ProjectCard project={project} />
-                  </div>
-                ))
-            }
+              .filter(
+                project =>
+                  selectedTags.length === 0 || (project.tags && selectedTags.every(tag => project.tags.includes(tag)))
+              )
+              .map(project => (
+                <div className={classNames('column', styles.project)} key={project.title}>
+                  <ProjectCard project={project} />
+                </div>
+              ))}
           </div>
         </Section>
       </div>
@@ -89,12 +101,9 @@ export const pageQuery = graphql`
           frontmatter {
             title
             image {
-                childImageSharp {
-                    gatsbyImageData(
-                        height: 900,
-                        layout: CONSTRAINED
-                    )
-                }
+              childImageSharp {
+                gatsbyImageData(height: 900, layout: CONSTRAINED)
+              }
             }
             layout
             published
