@@ -17,6 +17,11 @@ const SectionProjects = styled(Section)`
   && .button {
     color: ${variables.color.text};
   }
+  & .button.is-black {
+    background-color: #0a0a0a;
+    border-color: transparent;
+    color: #fff;
+  }
 `
 
 const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
