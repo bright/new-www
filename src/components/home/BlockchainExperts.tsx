@@ -53,16 +53,31 @@ const ImageWrapper = styled.div`
     margin-left: auto;
     &:first-of-type {
       display: block;
-      margin-top: 4rem;
+      margin-top: ${variables.pxToRem(64)};
       max-width: 350px;
+      margin-bottom: ${variables.pxToRem(10)};
+    }
+  }
+  @media ${variables.device.laptop} {
+    .about-img {
+      &:first-of-type {
+        margin-top: ${variables.pxToRem(44)};
+        margin-bottom: ${variables.pxToRem(4)};
+      }
+    }
+  }
+  @media ${variables.device.tabletXL} {
+    .about-img {
+      &:first-of-type {
+        margin-bottom: ${variables.pxToRem(17)};
+      }
     }
   }
 
   @media ${variables.device.mobile} {
     .about-img {
       &:first-of-type {
-        margin-top: 2.75rem;
-        margin-bottom: 2.375rem;
+        margin-bottom: ${variables.pxToRem(38)};
         max-width: 230px;
       }
     }
