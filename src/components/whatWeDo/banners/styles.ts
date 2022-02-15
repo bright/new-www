@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 import variables from '../../../styles/variables'
 import { CustomSectionTitle } from '../../shared'
@@ -39,6 +40,16 @@ export const Button = styled.button`
     margin-top: ${variables.pxToRem(49)};
     max-width: 100%
   },
+`
+export const BannerLink = styled(Link)`
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  &:hover {
+    color: ${color.primary};
+    border-color: ${color.primary};
+  }
 `
 
 export const Container = styled.div({
