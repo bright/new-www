@@ -18,8 +18,12 @@ const StartProjectPage: React.FC = () => {
         title='Estimate a project'
         description='Estimate your project based on a description and technologies'
       />
-      <section className='section'>
-        <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
+      <section>
+        <Contact
+          isStartProject={true}
+          formButton='Business Contact Form Button'
+          actionFormButton='Click Submit Business Form'
+        />
       </section>
     </Page>
   )
