@@ -74,7 +74,13 @@ export const DevelopmentAreaContainer = styled.div`
   flex-direction: column;
   align-items: center;
   flex-basis: calc(50% - 65px / 2);
+  box-shadow: 0 0 0 #00000029;
+  transition: box-shadow 0.1s ease-in, transform 0.1s ease-in;
 
+  & :hover {
+    box-shadow: 0 0 60px #00000029;
+    transform: scale(1.002);
+  }
   & p {
     font-family: ${variables.font.customtext.lato};
     font-size: ${variables.pxToRem(20)};
