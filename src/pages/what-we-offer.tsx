@@ -4,11 +4,12 @@ import Banners from '../components/whatWeDo/banners/Banners'
 import { Contact } from '../components/shared/Contact'
 import HowWeWork from '../components/whatWeDo/howWeWork/HowWeWork'
 import OurDevelopmentAreas from '../components/whatWeDo/ourDevelopmentAreas/OurDevelopmentAreas'
-import { CustomSection, HideTablet, CustomPageTitle, CustomPageDescription } from '../components/shared'
+import { CustomSection, HideTablet, CustomPageTitle, CustomSectionInner } from '../components/shared'
 import { TechnologyTags } from '../components/shared/TechnologyTags'
-import { Carousel } from '../components/shared/Carousel'
 import { Page } from '../layout/Page'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { CustomTextRegular } from './../components/shared/index.styled'
+import { Projects } from '../components/home/Projects'
 
 const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
@@ -34,12 +35,19 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
           our services
         </CustomPageTitle>
       </CustomSection>
-      <CustomSection>
-        <CustomPageDescription fontSize='1.25rem'>
-          We offer custom software development for organizations of all shapes and sizes – from emerging startups,
-          mid-sized companies and consultancy agencies, to renowned NGOs and international organizations. Our clients
-          come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
-        </CustomPageDescription>
+      <CustomSection
+        paddingProps='0 15rem 6.625rem'
+        paddingLaptop='0 6rem 4rem'
+        paddingTabletXL='0 9rem 4.875rem'
+        paddingTablet='0 2.25rem 5.1875rem'
+      >
+        <CustomTextRegular>
+          <CustomSectionInner>
+            We offer custom software development for organizations of all shapes and sizes – from emerging startups,
+            mid-sized companies and consultancy agencies, to renowned NGOs and international organizations. Our clients
+            come from multiple industries, including FinTech, Blockchain, HealthTech, Retail, Logistics, and more.
+          </CustomSectionInner>
+        </CustomTextRegular>
       </CustomSection>
 
       <OurDevelopmentAreas />
@@ -47,10 +55,8 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
       <HowWeWork />
 
       <TechnologyTags />
-      <HideTablet>
-        <Carousel />
-        <Ratings />
-      </HideTablet>
+      <Projects />
+      <Ratings />
 
       <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
