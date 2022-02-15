@@ -1,24 +1,12 @@
-import React from "react"
-import styled from "styled-components"
-import {
-  Button,
-  Container as ContainerBase,
-  ContentWrapper,
-  Text,
-} from "./styles"
-
-const Container = styled(ContainerBase)({
-  ["@media screen and (max-width: 767px)"]: {
-    display: "none",
-  },
-})
+import React from 'react'
+import { Button, Container, ContentWrapper, Text } from './styles'
 
 const WorkshopsBanner = () => {
   return (
     <Container>
       <ContentWrapper>
-        <Text>we combine technical knowledge with deep agile experience</Text>
-        {/* <Button>workshops</Button> */}
+        <Text>we organise Agile workshops for teams</Text>
+        <Button>book free consultation</Button>
       </ContentWrapper>
     </Container>
   )
