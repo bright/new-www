@@ -87,7 +87,7 @@ export const ContentWrapper = styled.div({
 })
 
 export const Text = styled(CustomSectionTitle)({
-  lineHeight: '60px',
+  lineHeight: '48px',
   fontWeight: 800,
   fontFamily: variables.font.title.family,
   maxWidth: '640px',
@@ -97,8 +97,10 @@ export const Text = styled(CustomSectionTitle)({
 
   ['@media screen and (max-width: 1540px)']: {
     maxWidth: '544px',
+    lineHeight: '60px',
   },
   ['@media screen and (max-width: 581px)']: {
     maxWidth: '360px',
+    lineHeight: '38px',
   },
 })
