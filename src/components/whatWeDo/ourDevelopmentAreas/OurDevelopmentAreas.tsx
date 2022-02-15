@@ -13,6 +13,7 @@ import {
   Title,
   RevertHoverLink,
 } from './styles'
+import { CustomSection } from '../../shared'
 
 const OurDevelopmentAreas = () => {
   const {
@@ -28,27 +29,29 @@ const OurDevelopmentAreas = () => {
 
   return (
     <DevelopmentAreasWrapper>
-      <DevelopmentAreasContainer>
-        {ourServicesItems.map(service => (
-          <DevelopmentAreaContainer key={service.name}>
-            <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
-              <SectionTitleContainer>
-                <GatsbyImage
-                  image={getImage(service.our_services_icon)!}
-                  alt={service.name}
-                  style={{ maxHeight: 100 }}
-                  imgStyle={{ objectFit: 'contain' }}
-                  className='about-img'
-                  imgClassName='image'
-                  backgroundColor='#fff'
-                />
-                <Title>{service.name}</Title>
-              </SectionTitleContainer>
-              <ReactMarkdown children={service.short_description} />
-            </RevertHoverLink>
-          </DevelopmentAreaContainer>
-        ))}
-      </DevelopmentAreasContainer>
+      <CustomSection paddingProps='0 15rem'>
+        <DevelopmentAreasContainer>
+          {ourServicesItems.map(service => (
+            <DevelopmentAreaContainer key={service.name}>
+              <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
+                <SectionTitleContainer>
+                  <GatsbyImage
+                    image={getImage(service.our_services_icon)!}
+                    alt={service.name}
+                    style={{ maxHeight: 100 }}
+                    imgStyle={{ objectFit: 'contain' }}
+                    className='about-img'
+                    imgClassName='image'
+                    backgroundColor='#fff'
+                  />
+                  <Title>{service.name}</Title>
+                </SectionTitleContainer>
+                <ReactMarkdown children={service.short_description} />
+              </RevertHoverLink>
+            </DevelopmentAreaContainer>
+          ))}
+        </DevelopmentAreasContainer>
+      </CustomSection>
     </DevelopmentAreasWrapper>
   )
 }
