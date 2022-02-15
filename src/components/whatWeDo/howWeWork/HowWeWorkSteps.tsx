@@ -62,6 +62,7 @@ const Title = styled(CustomTextTitle)({
   margin: '0',
 
   color: variables.color.text,
+  textTransform: 'lowercase',
 })
 
 const Description = styled(TextRegular)`
