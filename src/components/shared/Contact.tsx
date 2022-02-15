@@ -19,7 +19,7 @@ import {
   TextInput,
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
-import { CustomTextRegular } from './index.styled'
+import { CustomPageTitle, CustomSection, CustomTextRegular } from './index.styled'
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import ReactMarkdown from 'react-markdown'
 import AnalyticsLink from './AnalyticsLink'
@@ -87,6 +87,7 @@ export interface ContactProps {
   title?: string
   subtitle?: string
   isOurServiceTemplate?: boolean
+  isStartProject?: boolean
   formButton: string
   actionFormButton: string
 }
@@ -94,6 +95,7 @@ export const Contact: FC<ContactProps> = ({
   title,
   subtitle,
   isOurServiceTemplate = true,
+  isStartProject = false,
   formButton,
   actionFormButton,
 }) => {
@@ -162,7 +164,29 @@ export const Contact: FC<ContactProps> = ({
   return (
     <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
       <Container>
-        {title ? (
+        {isStartProject ? (
+          title ? (
+            <CustomSection
+              paddingProps='3rem 0'
+              paddingLaptop='3rem 0 4rem'
+              paddingTabletXL='3rem 0 4rem'
+              paddingTablet='3rem 0 4rem'
+              paddingMobileProps='3rem 0 3.5rem'
+            >
+              <CustomPageTitle>{title}</CustomPageTitle>
+            </CustomSection>
+          ) : (
+            <CustomSection
+              paddingProps='3rem 0 5rem'
+              paddingLaptop='3rem 0 4rem'
+              paddingTabletXL='3rem 0 4rem'
+              paddingTablet='3rem 0 4rem'
+              paddingMobileProps='3rem 0 3.5rem'
+            >
+              <CustomPageTitle>let’s talk about your product idea</CustomPageTitle>
+            </CustomSection>
+          )
+        ) : title ? (
           <CustomSectionTitle>{title}</CustomSectionTitle>
         ) : (
           <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
