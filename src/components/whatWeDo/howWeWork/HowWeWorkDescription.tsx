@@ -24,7 +24,7 @@ export const ContentWrapper = styled.div({
 })
 
 export const ParagraphTextWrapper = styled(TextRegular)`
-  margin-top: 55px;
+  margin-top: 32px;
 
   text-align: left;
 
