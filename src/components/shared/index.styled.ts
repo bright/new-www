@@ -269,6 +269,7 @@ export const CustomTextRegular = styled.div`
   font-weight: 400;
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(16)};
+    line-height: ${variables.pxToRem(28)};
   }
 `
 export const CustomSectionInner = styled(SectionInner)<{
