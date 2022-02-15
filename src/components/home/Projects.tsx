@@ -116,7 +116,7 @@ export const ProjectsLink = styled(Link)`
 
 export const Projects: React.FC = () => {
   const {
-    allMarkdownRemark: { edges }
+    allMarkdownRemark: { edges },
   } = useStaticQuery(GQL)
   const projects: Array<{
     frontmatter: {
@@ -154,9 +154,9 @@ export const Projects: React.FC = () => {
             className={`is-pulled-${ix % 2 ? 'right' : 'left'}`}
           />
         ))}
-        <BlockSmall className='is-pulled-left'>
-          <ProjectsLink to={routeLinks.projects}>see all case studies</ProjectsLink>
-        </BlockSmall>
+        <ProjectsLink to={routeLinks.projects}>
+          <BlockSmall className='is-pulled-left'>see all case studies</BlockSmall>
+        </ProjectsLink>
       </div>
     </ProjectCustomSection>
   )
