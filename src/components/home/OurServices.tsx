@@ -109,15 +109,13 @@ export const OurServices: React.FC = () => {
         <CustomSectionTitle>our services</CustomSectionTitle>
         <div className={styles.seviceswrapper}>
           {services.map((service, index) => (
-            <div className={styles.service} key={index}>
-              <ServiceLink to={service.direction}>
-                <div className={styles.icon}>
-                  <service.icon />
-                </div>
-                <OurTextTitle>{service.title}</OurTextTitle>
-                <OurSerwicesTextRegular>{service.description}</OurSerwicesTextRegular>
-              </ServiceLink>
-            </div>
+            <ServiceLink to={service.direction} key={index} className={styles.service}>
+              <div className={styles.icon}>
+                <service.icon />
+              </div>
+              <OurTextTitle>{service.title}</OurTextTitle>
+              <OurSerwicesTextRegular>{service.description}</OurSerwicesTextRegular>
+            </ServiceLink>
           ))}
         </div>
         <ServiceLink to={routeLinks.whatWeOffer}>
