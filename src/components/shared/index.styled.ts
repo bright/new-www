@@ -265,7 +265,7 @@ export const CustomTextTitle = styled.h3`
 export const CustomTextRegular = styled.div`
   font-family: ${variables.font.text.family};
   font-size: ${variables.pxToRem(20)};
-  line-height: 2.5rem;
+  line-height: ${variables.pxToRem(40)};
   font-weight: 400;
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(16)};
