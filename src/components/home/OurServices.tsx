@@ -20,6 +20,8 @@ import variables from '../../styles/variables'
 
 const OurTextTitle = styled(CustomTextTitle)`
   color: ${variables.color.text};
+  margin-top: ${variables.pxToRem(30)};
+  margin-bottom: ${variables.pxToRem(53)};
   &:hover {
     color: ${variables.color.primary};
     transition: color 300ms;
@@ -27,17 +29,18 @@ const OurTextTitle = styled(CustomTextTitle)`
   @media ${variables.device.laptop} {
     padding-top: 0;
     text-align: center;
-    font-size: 1.5625rem;
-    margin: 1.6875rem 0 3rem;
+    margin-top: ${variables.pxToRem(25)};
+    margin-bottom: ${variables.pxToRem(36)};
   }
-  @media ${variables.device.tablet} {
-    margin: 1.6875rem 0 3rem;
+  @media ${variables.device.tabletXL} {
+    margin-top: ${variables.pxToRem(20)};
+    margin-bottom: ${variables.pxToRem(30)};
   }
   @media ${variables.device.mobile} {
     padding-top: 0;
     text-align: center;
-    font-size: ${variables.font.customtext.sizeOurServicesMobile};
-    margin: 1.5rem 0;
+    margin-top: ${variables.pxToRem(18)};
+    margin-bottom: ${variables.pxToRem(28)};
   }
 `
 
@@ -45,20 +48,15 @@ const OurSerwicesTextRegular = styled(CustomTextRegular)`
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  padding-top: 2.2rem;
   text-align: left;
   color: ${variables.color.text};
   overflow: hidden;
   @media ${variables.device.tablet} {
     padding-top: 0;
-    font-size: 1.125rem;
-    line-height: 2.5rem;
   }
   @media ${variables.device.mobile} {
     padding-top: 0;
-    text-align: center;
-    font-size: ${variables.font.customtext.sizeOurServicesMobile};
-    line-height: 1.75rem;
+    text-align: left;
   }
 `
 
