@@ -15,15 +15,12 @@ import { routeLinks } from '../../config/routing'
 import { Projects } from './Projects'
 
 const BlockchainExpertsTextRegural = styled(CustomTextRegular)`
-  font-size: 1.25rem;
   line-height: 2.5rem;
   text-align: center;
   @media ${variables.device.laptop} {
-    font-size: 1.125rem;
     line-height: 2.5rem;
   }
   @media ${variables.device.mobile} {
-    font-size: 1rem;
     line-height: 1.75rem;
   }
 `
