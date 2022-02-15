@@ -22,7 +22,7 @@
     padding: 2.75rem 2.75rem 3.125rem;
     border: 1px solid #d3d3d3;
     &:hover {
-      box-shadow: rgba(170, 170, 170) 15px 15px 40px -25px;
+      box-shadow: 15px 15px 40px -25px rgba(170, 170, 170, 1);
     }
     .icon {
       max-height: 100%;
