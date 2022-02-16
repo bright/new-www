@@ -33,7 +33,7 @@ name: web development
 slug: web-development
 short_description: We provide a wide range of custom full stack web development
   services. We rely on a rich technology stack, including JavaScript, CSS, HTML,
-  Java, Node.js, AWS, and more
+  Java, Node.js, AWS, and more.
 order: 2
 title: build solution with web development team
 intro: If you are looking for a web development company, you’ve come to the
