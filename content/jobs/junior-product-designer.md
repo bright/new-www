@@ -20,6 +20,7 @@ published: true
 order: 1
 recruting_image2_title: interview
 recruting_image3_title: product design task
+description: We are seeking a Junior Product Designer who will support our product design team. You will learn how to create wireframes, mock-ups and prototypes. Apply!
 ---
 ## who we are
 
