@@ -19,6 +19,7 @@ published: true
 order: 3
 recruting_image2_title: "interview "
 recruting_image3_title: PM task
+description: We are looking for a Project Manager who will support our team in planning, executing, monitoring and closing our Bright projects. Apply!
 ---
 ## **about the role**
 
