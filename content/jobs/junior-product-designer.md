@@ -41,24 +41,26 @@ This is an exciting and challenging role that offers the opportunity to take par
 * collaborate with product managers and engineers to successfully deliver designs that meet measurable criteria
 * create effective and UI/UX-driven mobile and web interfaces
 * measure the success and failures of your design choices
-* work on internal projects where you can fully use your creative skills 
+* work on internal marketing projects where you can fully use your creative skills 
 
 ## preferred qualifications and skills
 
-* at least 1 year of experience in a similar role
-* knowledge of UI/UX principles
-* understanding of user-led design approaches
+* at least 6 months of experience in a similar role
+* basic knowledge of UI/UX principles
 * excellent attention to details
 * data-driven approach to problem solving
 * eagerness to broaden your knowledge in different industries 
-* good command of design tools (e.g. Adobe XD, Sketch, Figma or other)
-* familiarity with current trends in designs 
+* good command of at least one of design tools (e.g. Adobe XD, Sketch, Figma or other)
 * very good communication skills both in English and Polish
 
+## we would also appreciate if you are
+
+* familiar with current trends in designs 
+* up-to-date with Dribble and Behance best design practicwa  
+
 ## **what you will find at Bright Inventions**  **🧡**
- 
-* team's support and **continuous feedback culture**
-* regular salary review
+* experienced product designer's support
+* **continuous feedback culture** and regular salary review
 * **mentoring programme** and regular 1:1 meetings
 * flexible working hours and remote work possibility
 * 20-26 paid days off + Polish bank holidays
@@ -73,7 +75,3 @@ This is an exciting and challenging role that offers the opportunity to take par
 * good localisation and office in Gdańsk Wrzeszcz with a parking space nearby
 
 **Still some doubts why you may love working with us? [Check our 7 reasons to work at Bright Inventions.](https://brightinventions.pl/blog/reasons-to-join-bright/)**
-
-In case you have any questions, drop us a line at jobs@bright.dev or contact directly [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) or[ Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) from our bright recruitment team. 
-
-**HOPE TO SEE YOU SOON ON OUR BRIGHT BOARD! 🙂**
