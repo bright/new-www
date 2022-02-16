@@ -25,7 +25,7 @@ Since I wasn’t interested in a teaching career there were absolutely no opport
 
 ## Now you are an iOS developer. Was iOS always your dev path?
 
-Yes. From the start, I wanted to be an iOS developer. And I didn’t even own any Apple devices then. Keep in mind that I was a poor student. ;) It was a result of my little job market analysis. After searching tons of offers I realised that iOS developers are in huge demand, the salary range for iOS jobs was pretty impressive, too and the companies around me were really developing interesting apps. So that made me decide to go for iOS development.
+Yes. From the start, I wanted to be an iOS developer. And I didn’t even own any Apple devices then. Keep in mind that I was a poor student. 😉  It was a result of my little job market analysis. After searching tons of offers I realised that iOS developers are in huge demand, the salary range for iOS jobs was pretty impressive too, and the companies around me were really developing interesting apps. So that made me decide to go for [iOS development](/our-areas/mobile-app-development).
 
 ![Filip – iOS Developer at Bright Inventions](/images/brightstoryfilip.png)
 
