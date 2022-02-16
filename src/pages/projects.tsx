@@ -4,7 +4,7 @@ import classNames from 'classnames'
 
 import { Page } from '../layout/Page'
 import ProjectCard from '../components/subcomponents/ProjectCard'
-import { Section, PageDescription } from '../components/shared'
+import { Section, PageDescription, CustomPageTitle } from '../components/shared'
 import { createProjects } from '../models/creator'
 import { GQLData } from '../models/gql'
 
@@ -12,6 +12,7 @@ import * as styles from './projects.module.scss'
 import styled from 'styled-components'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import variables from '../styles/variables'
+import { CustomSection } from './../components/shared/index'
 
 const SectionProjects = styled(Section)`
   && .button {
@@ -52,7 +53,17 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
         title='Projects'
         description='We’ve developed web and mobile applications for clients from UK, Germany, Netherlands, Norway, Israel and more.'
       />
+
       <div className='container'>
+        <CustomSection
+          paddingProps='3rem 2rem 1rem 2rem'
+          paddingLaptop='3rem 2rem 2rem 2rem'
+          paddingTabletXL='3rem 2rem 2rem 2rem'
+          paddingTablet='3rem 2rem 2rem 2rem'
+          paddingMobileProps='3rem 1.125rem 0rem 1.125rem'
+        >
+          <CustomPageTitle>our success stories</CustomPageTitle>
+        </CustomSection>
         <SectionProjects className={styles.info}>
           <PageDescription>
             Since 2012 we have realized many innovative projects among which there are solutions supporting eco-driving,
