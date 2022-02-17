@@ -20,8 +20,7 @@ published: true
 order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: QA task
-description: We are looking for a QA Specialist who will maintain a high quality
-  of our iOS, Android apps as well as web applications. Apply!
+description: We are seeking a QA Specialist with knowledge of DB testing, performance testing and API testing. Maintain a high quality of iOS, Android and web applications.
 ---
 
 ![]()
