@@ -3,9 +3,7 @@ layout: project
 project_id: digitized-questionnaires
 title: Digitized Questionnaires
 image: /images/digitizing_mobile_reporting_main2.png
-description: An app platform that enables digitizing mobile reporting. It is
-  flexible, easy to use and integrates with other platforms. It helps you to
-  build with no code the digitized surveys for end-users.
+description: A web application that enables digitizing mobile reporting. It helps you to build, with no code, the digitized surveys for end-users. A great tool for audits.
 tags:
   - web app
   - product design
