@@ -13,6 +13,7 @@ import variables from '../../styles/variables'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import { Projects } from './Projects'
+import { LogoTreasuryIcon } from '../icons/LogoTreasury.icon'
 
 const BlockchainExpertsTextRegural = styled(CustomTextRegular)`
   line-height: 2.5rem;
@@ -51,37 +52,6 @@ const ImageWrapper = styled.div`
   .about-img {
     margin-right: auto;
     margin-left: auto;
-    &:first-of-type {
-      display: block;
-      margin-top: ${variables.pxToRem(64)};
-      max-width: ${variables.pxToRem(257)};
-      margin-bottom: ${variables.pxToRem(10)};
-    }
-  }
-  @media ${variables.device.laptop} {
-    .about-img {
-      &:first-of-type {
-        margin-top: ${variables.pxToRem(44)};
-        margin-bottom: ${variables.pxToRem(4)};
-        max-width: ${variables.pxToRem(217)};
-      }
-    }
-  }
-  @media ${variables.device.tabletXL} {
-    .about-img {
-      &:first-of-type {
-        margin-bottom: ${variables.pxToRem(17)};
-      }
-    }
-  }
-
-  @media ${variables.device.mobile} {
-    .about-img {
-      &:first-of-type {
-        margin-bottom: ${variables.pxToRem(38)};
-        max-width: ${variables.pxToRem(228)};
-      }
-    }
   }
 `
 
@@ -99,15 +69,7 @@ export const BlockchainExperts = () => {
         </CustomSectionInner>
         <Link to='/projects/bright-treasury'>
           <ImageWrapper>
-            <StaticImage
-              src='../../../static/images/brightTreasuryLogo.svg'
-              alt=''
-              placeholder='blurred'
-              layout='constrained'
-              width={344}
-              className='about-img'
-              quality={100}
-            />
+            <LogoTreasuryIcon />
             <StaticImage
               src='../../../static/images/Treasury_www_LargeSize.png'
               alt=''
