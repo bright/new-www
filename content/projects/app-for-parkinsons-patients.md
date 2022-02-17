@@ -3,10 +3,7 @@ layout: project
 project_id: solution-parkinson
 title: Solution for Parkinson's Patients
 image: /images/app_for_parkinson_patients1.png
-description: An app that serves as a personal digital diary for patients
-  suffering from Parkinson’s disease. The app lets users easily record their
-  symptoms, track the intake of prescribed drugs, and get a general overview of
-  their health.
+description: A personal digital diary for patients suffering from Parkinson’s disease. The app lets users record their symptoms and track the intake of prescribed drugs.
 tags:
   - mobile app
   - MVP
