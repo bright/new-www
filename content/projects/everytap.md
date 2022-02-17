@@ -3,11 +3,7 @@ layout: project
 project_id: finebite
 title: "Finebite (Everytap) "
 image: /images/foodapp_ingredients.png
-description: >
-  The leading loyalty and online reservation program in Poland. Finebite app
-  helps to discover the best restaurants in the biggest Polish cities. Finebite
-  originated from a very popular loyalty app – Everytap to become a whole new
-  service.
+description: Finebite app helps to discover the best restaurants in the biggest Polish cities. Finebite originated from a very popular loyalty app – Everytap.
 tags:
   - mobile app
   - custom software development
