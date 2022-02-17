@@ -11,6 +11,7 @@ tags:
   - web app
   - MVP
   - custom software development
+  - blockchain
 order: 4
 slug: cryptocurrency-platfrom
 show on homepage: false
