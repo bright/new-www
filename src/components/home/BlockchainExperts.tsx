@@ -106,6 +106,7 @@ export const BlockchainExperts = () => {
               layout='constrained'
               width={344}
               className='about-img'
+              quality={100}
             />
             <StaticImage
               src='../../../static/images/Treasury_www_LargeSize.png'
@@ -114,6 +115,7 @@ export const BlockchainExperts = () => {
               layout='constrained'
               width={1475}
               className='about-img'
+              quality={100}
             />
           </ImageWrapper>
         </Link>
