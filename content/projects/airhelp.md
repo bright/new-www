@@ -3,12 +3,7 @@ layout: project
 project_id: airhelp
 title: AirHelp
 image: /images/flight_compensation_app_mockup5.png
-description: AirHelp mobile application lets you check if your flight is
-  eligible for compensation and guides you through the whole process of
-  complaints. AirHelp has assisted more than 16 million passengers all over the
-  world. We cooperated with the company in 2015. We rewrote the previous iOS
-  application that was just leading to the web page right after completing a
-  couple of steps to a native technology.
+description: AirHelp iOS mobile application lets you check if your flight is eligible for compensation and guides you through the whole process of complaints.
 tags:
   - mobile app
   - MVP
