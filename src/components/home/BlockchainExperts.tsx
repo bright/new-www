@@ -54,7 +54,7 @@ const ImageWrapper = styled.div`
     &:first-of-type {
       display: block;
       margin-top: ${variables.pxToRem(64)};
-      max-width: 350px;
+      max-width: ${variables.pxToRem(257)};
       margin-bottom: ${variables.pxToRem(10)};
     }
   }
@@ -63,6 +63,7 @@ const ImageWrapper = styled.div`
       &:first-of-type {
         margin-top: ${variables.pxToRem(44)};
         margin-bottom: ${variables.pxToRem(4)};
+        max-width: ${variables.pxToRem(217)};
       }
     }
   }
@@ -78,7 +79,7 @@ const ImageWrapper = styled.div`
     .about-img {
       &:first-of-type {
         margin-bottom: ${variables.pxToRem(38)};
-        max-width: 230px;
+        max-width: ${variables.pxToRem(228)};
       }
     }
   }
