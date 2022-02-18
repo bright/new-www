@@ -3,7 +3,7 @@ layout: project
 project_id: pospulse-shopscout
 title: POSPulse & ShopScout
 image: /images/pos_mockup.png
-description: A solution for FMCG companies and retail chains to verify if
+description: A solution for FMCG companies and retail chains for verifying if
   products are properly displayed on shelves by asking consumers to perform paid
   quality checks.
 tags:
