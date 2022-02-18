@@ -3,11 +3,9 @@ layout: project
 project_id: smarthelp
 title: SmartHelp
 image: /images/smarthelp_main.png
-description: >
-  An emergency service app that allows users to easily call for help and provide
-  relevant authorities with personal information, exact location, and incident
-  details. It guides users during emergency situations. The app is available in
-  Norway.
+description: An emergency service app that allows users to easily call for help
+  and provide authorities with personal information, exact location, and
+  incident details.
 tags:
   - mobile app
   - web app
