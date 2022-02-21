@@ -54,7 +54,7 @@ I should mention that after graduating from Computer Science Studies I decided t
 
 Firstly, I became a technical leader at Bright mostly maintaining relations with clients. Then my role evolved. **Now I focus on choosing the right technologies and solutions for clients matching their business objectives.** As a result, I code less than I used to.
 
-Looking back I appreciate the fact that despite being an iOS developer I had opportunities at Bright to work on backend (Sprint, Node.js) and Android applications as well. Even though that weren’t my specialities it now helps me to manage projects. I am aware of the challenges programmers have even if they use a different stack than I. It is important for me to be up-to-date with other technologies than iOS development as much as it is possible.
+Looking back I appreciate the fact that despite being an iOS developer I had opportunities at Bright to work on backend (Spring, Node.js) and Android applications as well. Even though that weren’t my specialities it now helps me to manage projects. I am aware of the challenges programmers have even if they use a different stack than I. It is important for me to be up-to-date with other technologies than iOS development as much as it is possible.
 
 ## What projects do you manage now?
 
