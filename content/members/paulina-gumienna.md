@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: paulina
-ex: false
+ex: true
 slug: paulina
 name: Paulina Gumienna
 short_name: Paulina
