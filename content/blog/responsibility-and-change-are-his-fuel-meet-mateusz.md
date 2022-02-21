@@ -49,3 +49,39 @@ It turned out that I got lucky. **I came to Bright as one of the first employees
 It came quite naturally. There wasn’t any meeting that established my new role. **It was a natural outcome and effect of the company's growth.** I always liked to take responsibility and initiative. **So when we started recruiting new people, there was a natural need for a leader to be established. Someone who knew the processes, company best practices and was not afraid to lead the way.**
 
 ![Bright Inventions Team](/images/brightstory_team.png)
+
+I should mention that after graduating from Computer Science Studies I decided to do a Master’s Degree in Management at the Gdańsk University of Technology. These studies gave me some theoretical knowledge that I could confront with my practical work as a PM at Bright Inventions.
+
+Firstly, I became a technical leader at Bright mostly maintaining relations with clients. Then my role evolved. **Now I focus on choosing the right technologies and solutions for clients matching their business objectives.** As a result, I code less than I used to.
+
+Looking back I appreciate the fact that despite being an iOS developer I had opportunities at Bright to work on backend (Sprint, Node.js) and Android applications as well. Even though that weren’t my specialities it now helps me to manage projects. I am aware of the challenges programmers have even if they use a different stack than I. It is important for me to be up-to-date with other technologies than iOS development as much as it is possible.
+
+## What projects do you manage now?
+
+Currently, I take care of 3 projects at Bright Inventions. One of them is **[Relevo](/projects/eco-friendly-app/) – an iOS and Android application from a German startup**. Thanks to Relevo app users can get their food from restaurants in a resuable eco-friendly tableware. We take care of the infrastructure, the backend application, web-apps for restaurants, and mobile applications for restaurant clients.
+
+Another project is [A**ccesSOS**](https://accessos.io)**, it’s a PWA application for placing emergency calls for people with speaking or hearing disabilities** that will be launched soon in the USA.
+
+I also work with a USA startup **[Luna](https://lunaxio.com), where we build a complete communication platform based on the network of Bluetooth devices**. That is a fascinating yet complex project. I believe that it can revolutionize the way we use Bluetooth technology.
+
+## Do you prefer to work with startups or bigger organizations?
+
+I like to work with startups but from time to time I enjoy having a break to work with corporations. I love changes and stepping out of my comfort zone. Really. I know that many people claim that, but that is really my gem. **I like to regularly change my tools, browsers, libraries etc. I feel the need to deal with something new, so I won't get stuck in the status quo.**
+
+![Bright Story Mateusz quote](/images/brightstory_mateusz_quote2.png)
+
+I have a soft spot for startups for other reasons than you might think. Many developers love working on startup projects because they thrive on greenfield. You can choose your stack. You don’t have technological debt. You don’t worry about backward compatibility. Nothing is holding you back. 
+
+It is not my reason though. 😉
+
+## So why do you prefer working with startups? What is your reason?
+
+**I love working with startups especially after they successfully launch MVP. Because then the real challenge approaches.** Your solution has users now and you hold responsibility for them. Often, startups struggle to deal with their users' growth. Due to the fact that **the rise of users is followed by a strong possibility of system overload**. 
+
+![Bright Story Mateusz quote](/images/brightstory_mateusz_quote3.png)
+
+So here we come to **the real test of architecture and infrastructure scalability that every startup has to pass**. What is essential at this stage is well-configured monitoring that controls system overload and informs us about emerging threads. 
+
+Imagine that your app has been getting fastly new users and also has been affected by peak hours. Let’s say that this is an app for ordering food. So naturally, the peak will be during lunchtime and the late hours on weekends. **If you made wrong architectural decisions, and didn’t properly configure the monitoring tool, your app could fail because of your success. Our job is to prevent that and help clients build the product which will be growing with its users.**
+
+At the same time, we need to remember that this is an early stage of business. So software developers still need to find the most efficient ways to minimalise infrastructure costs and workload on them. High fixed costs for infrastructure could significantly slow business development.
