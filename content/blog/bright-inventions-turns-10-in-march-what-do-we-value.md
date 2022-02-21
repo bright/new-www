@@ -23,7 +23,7 @@ That was simply hard work. I guess it is still hard work. 🙂 I was the very fi
 
 I was able to quickly build a marketing and HR strategy thanks to the fact that I worked closely with the co-founders of Bright. **I was engaged in every process in the company**. I quickly realised what kind of company Michał and Daniel wanted to build and what kind of people we needed on board. **The goal was to create a place where people can develop and enjoy what they do**. All that in a positive and responsible environment. 
 
-Knowing all that I identified myself with the brand and wanted to truly be a part of this team, and make it grow. **I just believe in Bright Inventions and genuinely share that in both internal and external communication. I think people can see this authenticity and candor**. And it brings them to us.
+Knowing all that (and much more) I identified myself with the brand and wanted to truly be a part of this team, and make it grow. **I just believe in Bright Inventions and we genuinely share that in both internal and external communication. I think people can see the authenticity and candor**. And it brings them to us. We have in our Bright team people who really enjoy solving problems, learning and supporting each other. There are people who can work together and laugh together. 
 
 For the first 3 years of my work at Bright our recruitment needs were not so emerging. We grew to 30 people during that time. But in the fourth year we doubled that team. Therefore, managing all the processes inside the company became a bit more challenging. **The success lies in the consistency, on-going market analysis, quick adaptation to changes and verifying if the things you do make sense for your team.** 
 
