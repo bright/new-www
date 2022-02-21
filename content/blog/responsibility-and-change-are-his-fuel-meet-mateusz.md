@@ -20,7 +20,7 @@ published: true
 
 ## From which technologies did you start your programming adventure?
 
-I started to code in high school. My first language was C99, so you can see it was over a decade ago. ;) **I was learning in a quite old fashioned way. I got a book and tried to do every exercise from it on my computer.** 
+I started to code in high school. My first language was C99, so you can see it was over a decade ago. 😉  **I was learning in a quite old fashioned way. I got a book and tried to do every exercise from it on my computer.** 
 
 Then I started to learn C# during my Computer Science studies at the Gdańsk University of Technology. Back then I started my first internship in a corporation which turned into a part-time job. That was my first serious job. I worked there for 18 months. 
 
@@ -36,7 +36,7 @@ As a finalist I got a Macbook, on which I developed and launched my healthcare a
 
 ## So how was it to join a small company from an international corporation?
 
-During my master studies my lecturer Tomasz Dziubich from the Gdańsk University of Technology recommended me to Bright Inventions. And that is how I came to Bright. I was so silly back then. I came to Bright office and I was thinking that I was coming there to have a tour of the office. Obviously, when I came there I had a technical interview. Imagine my surprise. ;) I felt so not ready for it.
+During my master studies my lecturer Tomasz Dziubich from the Gdańsk University of Technology recommended me to Bright Inventions. And that is how I came to Bright. I was so silly back then. I came to Bright office and I was thinking that I was coming there to have a tour of the office. Obviously, when I came there I had a technical interview. Imagine my surprise. 😉  I felt so not ready for it.
 
 Nevertheless, I was offered a job. So **I came to Bright Inventions and left the corporate world behind**. All of my friends and family warned me not to do it. Everyone was telling me that I should stay where I was – with a full-time contract offer at a steady company, with an established brand. Corporations have lots of advantages and stability is on top of them. I needed something different though and decided to take that risk.
 
