@@ -85,3 +85,17 @@ So here we come to **the real test of architecture and infrastructure scalabilit
 Imagine that your app has been getting fastly new users and also has been affected by peak hours. Let’s say that this is an app for ordering food. So naturally, the peak will be during lunchtime and the late hours on weekends. **If you made wrong architectural decisions, and didn’t properly configure the monitoring tool, your app could fail because of your success. Our job is to prevent that and help clients build the product which will be growing with its users.**
 
 At the same time, we need to remember that this is an early stage of business. So software developers still need to find the most efficient ways to minimalise infrastructure costs and workload on them. High fixed costs for infrastructure could significantly slow business development.
+
+![Bright Story Mateusz quote](/images/brightstory_mateusz_quote4.png)
+
+**I believe that we as software developers cannot guarantee that the product will be a success but we can easily make it a failure.** So it's all about understanding the responsibility and making choices that will enable a business to grow. I love that about software development. **I love that pressure, responsibility and high stake. I can find all of that while working with startups.**
+
+## What activities do you enjoy after hours?
+
+I spend most of my free time with my family. Also, I listen to lots of podcasts and enjoy reading fantasy books. If I have some time (which is difficult with 2 kids in the house), I play some console games. I am quite passionate about the startup scene, but I also like to observe big tech and innovators in action. I won’t say ‘no’ to board games like many people at Bright Inventions.
+
+![Bright Story Mateusz](/images/brightstory_remote_work.png)
+
+## Ok, so tell me what podcast do you recommend for tech leaders and startup enthusiasts?
+
+Definitely, my favourite one is Polish podcast “[Design Your Life](https://zaprojektujswojezycie.pl/type/podcast/)” on the careers of extraordinary people, building businesses, and the startup scene. From non-polish podcasts, I can recommend “[Acquired](https://www.acquired.fm)” which presents stories about leading companies and tech giants.
