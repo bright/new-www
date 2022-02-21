@@ -59,7 +59,7 @@ const AuthorArticle = styled.article`
         line-height: 1.5rem;
         margin: 0;
       }
-      .subtitle {
+      & p.subtitle {
         font-size: 1rem;
         color: #fff;
       }
