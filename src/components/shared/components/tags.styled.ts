@@ -6,14 +6,21 @@ export const TagsWrapper = styled.ul<{ isBlogTagsAll: boolean }>`
   display: flex;
   flex-wrap: wrap;
   margin: 4rem 0;
-  gap: ${variables.pxToRem(18)};
+ 
+  }
   & > li {
-    flex-basis: calc(100% / 5 - 18px);
+    flex-basis: calc(100% / 5 - (18px - 18px / 5));
     height: 47px;
     border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    margin-right: 18px;
+    margin-bottom: 18px;
     font-size: ${({ isBlogTagsAll }) =>
-      isBlogTagsAll ? 'clamp(0.875rem, 0.3684rem + 0.5263vw, 1rem)' : 'clamp(0.6875rem, -0.5789rem + 1.3158vw, 1rem);'};
+      isBlogTagsAll ? 'clamp(0.875rem, 0.3684rem + 0.5263vw, 1rem)' : 'clamp(0.6875rem, -0.5789rem + 1.3158vw, 1rem)'};
     text-align: center;
+    &:nth-of-type(5n){
+        margin-right: 0;
+    }
 
     &:hover {
       border: 1px solid #f7931e;
@@ -21,6 +28,9 @@ export const TagsWrapper = styled.ul<{ isBlogTagsAll: boolean }>`
   }
   @media ${variables.device.laptop} {
     & li {
+      flex-basis: ${({ isBlogTagsAll }) =>
+        isBlogTagsAll ? 'calc(100% / 5 - (18px+18px/4))' : 'calc(100% / 4 - 18px)'};
+      font-size: clamp(0.8125rem, -0.1106rem + 1.1538vw, 1rem);
     }
   }
   @media ${variables.device.tabletXL} {
