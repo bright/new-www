@@ -19,7 +19,7 @@ published: true
 
 ## You came to Bright Inventions 5 years ago when the team consisted of 8 people. Now we have over 70 team members. How did you increase these numbers with pretty small resources?
 
-That was simply hard work. I guess it is still hard work. 🙂 I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness almost from scratch. Naturally, we had a website, which looked completely different than now, and a few social media accounts non managed on a daily basis. But I think that was exactly the biggest asset I was given - this "blank page" undestroyed by anything. 
+That was simply hard work. I guess it is still hard work. 🙂 I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness almost from scratch. Naturally, we had a website, which looked completely different than now, and a few social media accounts non-managed on a daily basis. But I think that was exactly the biggest asset I was given - this "blank page" undestroyed by anything. 
 
 I was able quite quickly to build a marketing and HR strategy thanks to the fact that I worked closely with the co-founders of Bright* and **I was engaged in every process in the company**. I quickly realised what kind of company Michał and Daniel wanted to build and what kind of people we needed on board. **The goal was to create a place where people can develop and enjoy what they do**. All that in a positive and responsible environment.
 
@@ -87,4 +87,4 @@ In fact, I think that all depends on how feedback is given and received. There s
 
 It is a community of positive, responsible, ambitious and supporting people. 🙂
 
-*Apart from Michał Łukasiewicz and Daniel Makurat (the co-founders) I would like to say BIG THANK YOU to Mateusz Klimczak, Piotr Mionskowski and Adam Bar (who is no longer with us now), but who were really supporting during my first months in the company. 🧡
+###### \*Apart from Michał Łukasiewicz and Daniel Makurat (the co-founders) I would like to say BIG THANK YOU to Mateusz Klimczak, Piotr Mionskowski and Adam Bar (who is no longer with us now), but who were really supporting me during my first months in the company. 🧡
