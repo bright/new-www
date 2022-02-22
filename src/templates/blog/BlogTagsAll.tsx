@@ -3,77 +3,8 @@ import tagsTree from '../../../tag-groups.yml'
 import { useEffect, useState } from 'react'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
-import styled from 'styled-components'
 import { kebabCase } from '../../helpers/pathHelpers'
-import variables from '../../styles/variables'
-
-const TagsWrapper = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 4rem 0;
-
-  & > li {
-    width: 270px;
-    height: 47px;
-    margin-right: 1.3125rem;
-    margin-bottom: 1.375rem;
-    border: 1px solid #d3d3d3;
-
-    &:hover {
-      border: 1px solid #f7931e;
-    }
-  }
-`
-const TagsLink = styled(Link)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  color: #0a0a0a;
-
-  &.is-active {
-    font-weight: bold;
-    border: 1px solid #f7931e;
-  }
-  &::first-letter {
-    text-transform: lowercase;
-  }
-`
-const SubTagsWrapper = styled.ul`
-  display: flex;
-  justify-content: center;
-  margin-bottom: 4rem;
-  & > li {
-    margin-right: 3rem;
-    font-size: 1.125rem;
-    line-height: 1.375rem;
-    &.is-active {
-      font-weight: 900;
-    }
-    &:last-of-type {
-      margin-right: 0;
-    }
-    & > a {
-      color: ${variables.color.text};
-    }
-  }
-`
-const TagsSelect = styled.select`
-  width: 100%;
-  height: 2.75rem;
-  margin: 2.25rem 0;
-  font-size: 1.125rem;
-  line-height: 1.375rem;
-  color: ${variables.color.text};
-  padding: 0 1.125rem;
-
-  & option {
-    background-color: #fff;
-    box-shadow: 0px 0px 40px #0000001d;
-    margin: 3.4375rem 0;
-  }
-`
+import { SubTagsWrapper, TagsLink, TagsSelect, TagsWrapper } from '../../components/shared/components/index'
 
 const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
   const [names, setNames] = useState([])
@@ -165,7 +96,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
   } else if (width >= breakpoint) {
     return (
       <>
-        <TagsWrapper>
+        <TagsWrapper isBlogTagsAll={true}>
           <li>
             <TagsLink className={!activeTag ? 'is-active' : ''} to={routeLinks.blog}>
               all areas
