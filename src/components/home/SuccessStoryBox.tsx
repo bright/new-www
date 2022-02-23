@@ -4,8 +4,10 @@ import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import variables from '../../styles/variables'
+import { ProjectModel } from '../../models/gql'
+import { uniqBy } from 'lodash'
 
-const Container = styled.div`
+const Container = styled.div<{ isCaseStudies?: boolean }>`
   border: 1px solid #d3d3d3;
   width: calc(50% - 2rem);
   min-height: 10rem;
@@ -18,6 +20,9 @@ const Container = styled.div`
   }
   &:nth-child(even) {
     margin-left: 0rem;
+  }
+  &:nth-child(2) {
+    margin-top: 0;
   }
 
   &:hover {
@@ -38,8 +43,18 @@ const Container = styled.div`
     margin: 0.5625rem 0;
     width: 100%;
     height: auto;
-    &:nth-child(7) {
+    & {
+      ${({ isCaseStudies }) =>
+        isCaseStudies
+          ? `:nth-child(7) {
+      margin-bottom: 0.5625rem;
+    }`
+          : `:nth-child(7) {
       margin-bottom: 4rem;
+    }`}
+    }
+    &:nth-child(2) {
+      margin-top: 0.5625rem;
     }
   }
 `
@@ -89,22 +104,20 @@ const Image = styled.figure`
 `
 
 export interface SuccessStoryBoxProps {
-  image: IGatsbyImageData
-  title: string
-  slug: string
   className?: string
+  project: ProjectModel
 }
 
-const SuccessStoryBox: FC<SuccessStoryBoxProps> = props => {
+const SuccessStoryBox: FC<SuccessStoryBoxProps> = ({ project, className }) => {
   return (
-    <Container className={props.className}>
-      <Link to={routeLinks.projects + '/' + props.slug}>
-        <Title>{props.title}</Title>
+    <Container className={className}>
+      <Link to={routeLinks.projects + '/' + project.slug}>
+        <Title>{project.title}</Title>
         <Image className='image'>
           <GatsbyImage
             imgStyle={{ objectFit: 'contain', height: '100%', width: '100%' }}
-            image={getImage(props.image)!}
-            alt={props.title}
+            image={getImage(project.image)!}
+            alt={project.title}
           />
         </Image>
       </Link>
