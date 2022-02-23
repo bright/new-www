@@ -3,25 +3,32 @@ import React, { useState } from 'react'
 import classNames from 'classnames'
 
 import { Page } from '../layout/Page'
-import ProjectCard from '../components/subcomponents/ProjectCard'
-import { Section, PageDescription, CustomPageTitle } from '../components/shared'
+import {  CustomSectionInner, CustomPageTitle, CustomSection, CustomTextRegular } from '../components/shared'
 import { createProjects } from '../models/creator'
 import { GQLData } from '../models/gql'
-
-import * as styles from './projects.module.scss'
 import styled from 'styled-components'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import variables from '../styles/variables'
-import { CustomSection } from './../components/shared/index'
+import { TagsSelect, TagsWrapper } from './../components/shared/components/index'
+import { useWindowSize } from '../components/utils/use-windowsize'
+import { , Projects,  } from '../components/home/Projects'
+import { Contact } from '../components/shared/Contact'
 
-const SectionProjects = styled(Section)`
-  && .button {
+const SectionProjects = styled(CustomSection)`
+  && .project-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
     color: ${variables.color.text};
   }
-  & .button.is-black {
-    background-color: #0a0a0a;
-    border-color: transparent;
-    color: #fff;
+  & li.is-active {
+    font-weight: bold;
+    border: 1px solid #f7931e;
+  }
+  &::first-letter {
+    text-transform: lowercase;
   }
 `
 
@@ -37,16 +44,27 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
     })
   )
 
-  const [selectedTags, setSelectedTags] = useState<string[]>([])
+  const [selectedTag, setSelectedTag] = useState<string[]>([])
 
   const selectTag = (tag: string) => {
-    if (selectedTags.includes(tag)) {
-      setSelectedTags(selectedTags.filter(selectedTag => selectedTag !== tag))
+    setSelectedTag([tag])
+  }
+  const handleOnChange = ({ target }) => {
+    const { value } = target
+    if (value == 'allTags') {
+      setSelectedTag([])
     } else {
-      setSelectedTags([...selectedTags, tag])
+      setSelectedTag([value])
     }
   }
 
+  const { width } = useWindowSize()
+  const breakpoint = 769
+
+  const filteredProjects = projects.filter(
+    project => selectedTag.length === 0 || (project.tags && selectedTag.every(tag => project.tags.includes(tag)))
+  )
+  console.log(filteredProjects.length % 2)
   return (
     <Page>
       <HelmetTitleDescription
@@ -54,57 +72,71 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
         description='We’ve developed web and mobile applications for clients from UK, Germany, Netherlands, Norway, Israel and more.'
       />
 
-      <div className='container'>
-        <CustomSection
-          paddingProps='3rem 2rem 1rem 2rem'
-          paddingLaptop='3rem 2rem 2rem 2rem'
-          paddingTabletXL='3rem 2rem 2rem 2rem'
-          paddingTablet='3rem 2rem 2rem 2rem'
-          paddingMobileProps='3rem 1.125rem 0rem 1.125rem'
-        >
-          <CustomPageTitle>our success stories</CustomPageTitle>
-        </CustomSection>
-        <SectionProjects className={styles.info}>
-          <PageDescription>
+      <CustomSection
+        paddingProps='3rem 2rem 1rem 2rem'
+        paddingLaptop='3rem 2rem 4rem 2rem'
+        paddingTabletXL='3rem 2rem 2rem 2rem'
+        paddingTablet='3rem 2rem 2rem 2rem'
+        paddingMobileProps='3rem 1.125rem 0rem 1.125rem'
+      >
+        <CustomPageTitle>
+          our <span>success</span> stories
+        </CustomPageTitle>
+      </CustomSection>
+      <SectionProjects paddingMobileProps='2rem 1.125rem 0' paddingProps='2rem 15rem 0 15rem'>
+        <CustomSectionInner>
+          <CustomTextRegular>
             Since 2012 we have realized many innovative projects among which there are solutions supporting eco-driving,
             application for sportsmen, POS cash register, system supporting answering calls to emergency numbers and
             many others.
-          </PageDescription>
-          <div className='buttons'>
+          </CustomTextRegular>
+        </CustomSectionInner>
+        {width < breakpoint ? (
+          <>
             {allTags.length > 0 && (
-              <div
-                className={classNames('button', styles.filter, { ['is-black']: selectedTags.length === 0 })}
-                onClick={() => setSelectedTags([])}
+              <TagsSelect onChange={handleOnChange}>
+                <option
+                  className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
+                  value={'allTags'}
+                >
+                  all areas
+                </option>
+                {allTags.map(tag => (
+                  <option
+                    key={tag}
+                    className={classNames('project-tag', { ['is-active']: selectedTag.includes(tag) })}
+                    value={tag}
+                  >
+                    {tag}
+                  </option>
+                ))}
+              </TagsSelect>
+            )}
+          </>
+        ) : (
+          <TagsWrapper>
+            {allTags.length > 0 && (
+              <li
+                className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
+                onClick={() => setSelectedTag([])}
               >
                 all
-              </div>
+              </li>
             )}
             {allTags.map(tag => (
-              <div
+              <li
                 key={tag}
-                className={classNames('button', styles.filter, { ['is-black']: selectedTags.includes(tag) })}
+                className={classNames('project-tag', { ['is-active']: selectedTag.includes(tag) })}
                 onClick={() => selectTag(tag)}
               >
                 {tag}
-              </div>
+              </li>
             ))}
-          </div>
-        </SectionProjects>
-        <Section>
-          <div className='columns is-multiline'>
-            {projects
-              .filter(
-                project =>
-                  selectedTags.length === 0 || (project.tags && selectedTags.every(tag => project.tags.includes(tag)))
-              )
-              .map(project => (
-                <div className={classNames('column', styles.project)} key={project.title}>
-                  <ProjectCard project={project} />
-                </div>
-              ))}
-          </div>
-        </Section>
-      </div>
+          </TagsWrapper>
+        )}
+      </SectionProjects>
+      <Projects isFetchProject={false} projectsArray={filteredProjects} />
+      <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
   )
 }
