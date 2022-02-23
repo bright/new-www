@@ -24,7 +24,7 @@ I started to code in high school. My first language was C99, so you can see it w
 
 Then I started to learn C# during my Computer Science studies at the Gdańsk University of Technology. Back then I started my first internship in a corporation which turned into a part-time job. That was my first serious job. I worked there for 18 months. 
 
-In the meantime I was diving into iOS development, learning Objective-C. 
+In the meantime I was diving into [iOS development](/our-areas/mobile-app-development), learning Objective-C. 
 
 ## Why did you start to learn iOS development?
 
@@ -60,7 +60,7 @@ Looking back I appreciate the fact that despite being an iOS developer I had opp
 
 Currently, I take care of 3 projects at Bright Inventions. One of them is **[Relevo](/projects/eco-friendly-app/) – an iOS and Android application from a German startup**. Thanks to Relevo app users can get their food from restaurants in a resuable eco-friendly tableware. We take care of the infrastructure, the backend application, web-apps for restaurants, and mobile applications for restaurant clients.
 
-Another project is [A**ccesSOS**](https://accessos.io)**, it’s a PWA application for placing emergency calls for people with speaking or hearing disabilities** that will be launched soon in the USA.
+Another project is **[AccesSOS](https://accessos.io), it’s a PWA application for placing emergency calls for people with speaking or hearing disabilities** that will be launched soon in the USA.
 
 I also work with a USA startup **[Luna](https://lunaxio.com), where we build a complete communication platform based on the network of Bluetooth devices**. That is a fascinating yet complex project. I believe that it can revolutionize the way we use Bluetooth technology.
 
@@ -76,7 +76,7 @@ It is not my reason though. 😉
 
 ## So why do you prefer working with startups? What is your reason?
 
-**I love working with startups especially after they successfully launch MVP. Because then the real challenge approaches.** Your solution has users now and you hold responsibility for them. Often, startups struggle to deal with their users' growth. Due to the fact that **the rise of users is followed by a strong possibility of system overload**. 
+**I love working with startups especially after they [successfully launch MVP](/our-areas/mvp-development). Because then the real challenge approaches.** Your solution has users now and you hold responsibility for them. Often, startups struggle to deal with their users' growth. Due to the fact that **the rise of users is followed by a strong possibility of system overload**. 
 
 ![Bright Story Mateusz quote](/images/brightstory_mateusz_quote3.png)
 
