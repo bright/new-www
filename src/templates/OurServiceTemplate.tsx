@@ -7,7 +7,6 @@ import { Page } from '../layout/Page'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 
 import {
-  CustomPageTitle,
   CustomSectionInner,
   CustomSection,
   TextRegular,
@@ -16,8 +15,7 @@ import {
 } from '../components/shared/index.styled'
 
 import TeamMembers from './../components/subcomponents/TeamMembers'
-import SuccessStoryBox from '../components/home/SuccessStoryBox'
-import { BlockSmall, ProjectCustomSection, ProjectsLink } from '../components/home/Projects'
+import { ProjectCustomSection, Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
 import ReactMarkdown from 'react-markdown'
 import { kebabCase } from './../helpers/pathHelpers'
@@ -34,7 +32,7 @@ import {
   OurServiceSection,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
-import { HideTablet } from '../components/shared'
+import { ProjectModel } from '../models/gql'
 
 export default function Template({ data, params, pageContext }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
@@ -111,10 +109,9 @@ export default function Template({ data, params, pageContext }: any) {
     title_contact,
     description_contact,
     intro,
-    project,
+    project: projects,
     slug,
   } = page
-
   return (
     <Page>
       <HelmetTitleDescription title={meta_title} description={meta_description} />
@@ -181,39 +178,10 @@ export default function Template({ data, params, pageContext }: any) {
       {show_technology_stack && <TechnologyTags />}
 
       {show_case_study && (
-        <ProjectCustomSection paddingMobileProps='0 1.125rem 0'>
+        <div>
           <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
-          <div className='is-clearfix success-story-wrapper'>
-            <BlockSmall className='is-pulled-right'>
-              <span>visit our online portfolio:</span>
-              <a target='_blank' href='https://www.behance.net/BrightInventions/'>
-                <img src='/images/success-story-home-page/behance.svg' alt='Behance' />
-              </a>
-              <a target='_blank' href='https://dribbble.com/Bright_Inventions/'>
-                <img src='/images/success-story-home-page/icon2.svg' alt='Dribbble' />
-              </a>
-            </BlockSmall>
-
-            {project &&
-              project.map(({ frontmatter }: any, i: number) => {
-                const { title, image, slug } = frontmatter
-                return (
-                  <>
-                    <SuccessStoryBox
-                      key={i}
-                      title={title}
-                      image={image}
-                      slug={slug}
-                      className={`is-pulled-${i % 2 ? 'right' : 'left'}`}
-                    />
-                  </>
-                )
-              })}
-            <ProjectsLink to={routeLinks.projects}>
-              <BlockSmall className='is-pulled-left'>see all case studies</BlockSmall>
-            </ProjectsLink>
-          </div>
-        </ProjectCustomSection>
+          <Projects isFetchProject={false} projectsArray={projects.map(el => el.frontmatter)} />
+        </div>
       )}
 
       <CustomSection paddingProps='0rem 15rem 2rem 15rem' paddingMobileProps='0 1.125rem 0'>
