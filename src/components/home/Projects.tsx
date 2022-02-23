@@ -6,6 +6,8 @@ import { routeLinks } from '../../config/routing'
 import { IGatsbyImageData } from 'gatsby-plugin-image'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
+import { ProjectModel } from '../../models/gql'
+import ScrollToTop from '../subcomponents/ScrollToTop'
 
 export const ProjectCustomSection = styled(CustomSection)`
   @media ${variables.device.laptop} {
@@ -35,13 +37,9 @@ export const BlockSmall = styled.div`
   margin: 2rem;
   font-size: 1rem;
 
-  &:last-of-type {
-    margin-bottom: 0;
-    margin-left: 0;
-  }
-
-  &:first-of-type {
+  & :first-of-type:not(div.down) {
     margin-right: 0;
+    margin-top: 0;
   }
 
   span {
@@ -77,8 +75,7 @@ export const BlockSmall = styled.div`
     height: auto;
     padding: 1.5rem;
     font-size: 0.75rem;
-    margin: 0 auto;
-
+    margin: 0 0 0.5625rem;
     span {
       font-size: 0.75rem;
     }
@@ -104,36 +101,71 @@ export const BlockSmall = styled.div`
     }
   }
 `
-export const ProjectsLink = styled(Link)`
+export const ProjectsLink = styled.a`
   font-size: ${variables.font.customtext.size};
   line-height: 1.6875rem;
   font-weight: 700;
   color: var(--black);
+  display: block;
+  & div {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  & div.full-height {
+    height: ${variables.pxToRem(507)};
+    margin-right: 0;
+    margin-left: 2rem;
+  }
+  @media ${variables.device.laptop} {
+    & div.full-height {
+      height: ${variables.pxToRem(407)};
+      margin-right: 0;
+      margin-left: 1.75rem;
+    }
+  }
+  @media ${variables.device.tabletXL} {
+    & div.full-height {
+      height: ${variables.pxToRem(330.88)};
+      margin-right: 0;
+      margin-left: 1.41rem;
+    }
+  }
+  @media ${variables.device.tablet} {
+    & div {
+      margin: 0.5625rem 0 0 0;
+    }
+    & div.full-height {
+      height: ${variables.pxToRem(507)};
+      margin-right: 0;
+      margin-left: 1.75rem;
+    }
+  }
   @media ${variables.device.mobile} {
     font-size: ${variables.font.customtext.sizeMobile};
   }
 `
 
-export const Projects: React.FC = () => {
-  const {
-    allMarkdownRemark: { edges },
-  } = useStaticQuery(GQL)
-  const projects: Array<{
-    frontmatter: {
-      image: IGatsbyImageData
-      layout: string
-      published: boolean | null
-      slug: string
-      title: string
-    }
-    fields: {
-      slug: string
-    }
-  }> = edges.map((v: any) => v.node)
+interface ProjectsProps {
+  isFetchProject?: boolean
+  projectsArray?: Array<ProjectModel>
+}
+
+export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, projectsArray = [] }) => {
+  let projects: Array<ProjectModel> = []
+
+  if (isFetchProject) {
+    const {
+      allMarkdownRemark: { edges },
+    } = useStaticQuery(GQL)
+
+    projects = edges.map((v: any) => v.node.frontmatter)
+  } else {
+    projects = projectsArray!
+  }
 
   return (
     <ProjectCustomSection>
-      <CustomSectionTitle>success stories</CustomSectionTitle>
+      {isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
           <span>visit our online portfolio:</span>
@@ -145,17 +177,21 @@ export const Projects: React.FC = () => {
           </a>
         </BlockSmall>
 
-        {projects.map((project, ix) => (
-          <SuccessStoryBox
-            key={ix}
-            title={project.frontmatter.title}
-            image={project.frontmatter.image}
-            slug={project.frontmatter.slug}
-            className={`is-pulled-${ix % 2 ? 'right' : 'left'}`}
-          />
-        ))}
-        <ProjectsLink to={routeLinks.projects}>
-          <BlockSmall className='is-pulled-left'>see all case studies</BlockSmall>
+        {projects.map((project, ix) => {
+          const { title, image, slug, layout, published } = project
+          const currentProject: ProjectModel = { title, image, slug, layout, published: published ? 'true' : 'false' }
+
+          return (
+            <SuccessStoryBox key={ix} project={currentProject} className={`is-pulled-${ix % 2 ? 'right' : 'left'}`} />
+          )
+        })}
+        <ScrollToTop />
+        <ProjectsLink href={routeLinks.projects}>
+          <BlockSmall
+            className={`${projects.length % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`}
+          >
+            see all case studies
+          </BlockSmall>
         </ProjectsLink>
       </div>
     </ProjectCustomSection>
