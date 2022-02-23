@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import classNames from 'classnames'
 
 import { Page } from '../layout/Page'
-import {  CustomSectionInner, CustomPageTitle, CustomSection, CustomTextRegular } from '../components/shared'
+import { CustomSectionInner, CustomPageTitle, CustomSection, CustomTextRegular } from '../components/shared'
 import { createProjects } from '../models/creator'
 import { GQLData } from '../models/gql'
 import styled from 'styled-components'
@@ -11,7 +11,7 @@ import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import variables from '../styles/variables'
 import { TagsSelect, TagsWrapper } from './../components/shared/components/index'
 import { useWindowSize } from '../components/utils/use-windowsize'
-import { , Projects,  } from '../components/home/Projects'
+import { Projects } from '../components/home/Projects'
 import { Contact } from '../components/shared/Contact'
 
 const SectionProjects = styled(CustomSection)`
