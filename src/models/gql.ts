@@ -38,8 +38,8 @@ export interface ProjectModel {
   layout: string
   published: string
   order?: number
-  tags: Tag[]
-  description: string
+  tags?: Tag[]
+  description?: string
 }
 
 export interface AuthorModel {
