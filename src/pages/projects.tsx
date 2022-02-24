@@ -49,6 +49,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
   const selectTag = (tag: string) => {
     setSelectedTag([tag])
   }
+  const tagsEmpty = selectedTag.length === 0
   const handleOnChange = ({ target }) => {
     const { value } = target
     if (value == 'allTags') {
@@ -64,7 +65,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
   const filteredProjects = projects.filter(
     project => selectedTag.length === 0 || (project.tags && selectedTag.every(tag => project.tags.includes(tag)))
   )
-  console.log(filteredProjects.length % 2)
+
   return (
     <Page>
       <HelmetTitleDescription
@@ -135,7 +136,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
           </TagsWrapper>
         )}
       </SectionProjects>
-      <Projects isFetchProject={false} projectsArray={filteredProjects} />
+      <Projects isFetchProject={false} projectsArray={filteredProjects} isTagsEmpty={tagsEmpty} />
       <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
   )

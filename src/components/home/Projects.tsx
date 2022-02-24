@@ -163,10 +163,10 @@ export const ProjectsLink = styled.a`
 interface ProjectsProps {
   isFetchProject?: boolean
   projectsArray?: Array<ProjectModel>
-  tagsEmpty?: string
+  isTagsEmpty?: boolean
 }
 
-export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, projectsArray = [], tagsEmpty }) => {
+export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, projectsArray = [], isTagsEmpty }) => {
   let projects: Array<ProjectModel> = []
 
   if (isFetchProject) {
@@ -202,7 +202,7 @@ export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, proje
           )
         })}
         <ScrollToTop />
-        {tagsEmpty ? (
+        {isTagsEmpty ? (
           <BlockSmall className='is-pulled-left'>
             <span>Follow us on:</span>
             <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
