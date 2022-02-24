@@ -16,7 +16,7 @@ published: false
 ---
 ![Circles and Bright Inventions cooperation](/images/circles_1.png)
 
-<sub> It is a design created for the purpose of case study. It is based on Circles design delivered by Circles team. </sub>
+<sub> It is a design created for the purpose of case study. *It is based on the design made by Circles Product Design Team.* </sub>
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges - [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
@@ -49,6 +49,10 @@ Circles is a support-groups platform developed by an israeli startup. The client
 Since we came on board, we helped to develop a group chat adding new features such as: deleting the messages, attaching pictures or tagging people. What is more, we implemented a user-friendly [Circles group discovery section](https://circlesup.com/group-discovery/) which is a part of the onboarding process. It helps users to find the right support group to join. Naturally, we are also responsible for app maintenance and cloud services.
 
 ![Circles application](/images/circles_mockup.png)
+
+<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team.* </sub>
+
+
 
 On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
 
