@@ -6,7 +6,9 @@ image: /images/circles_1.png
 description: Circles is a leading emotional support platform that connects
   people with others facing similar challenges in online groups led by
   professionals.
-tags: []
+tags:
+  - web app
+  - eHealth
 order: 99
 slug: online-group-support
 show on homepage: false
