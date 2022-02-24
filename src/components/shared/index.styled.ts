@@ -227,7 +227,13 @@ export const CustomSection = styled.section<{
     padding: ${({ paddingMobileProps }) => (paddingMobileProps ? paddingMobileProps : '2rem 1.125rem 1rem')};
   }
 `
-export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: string; laptopMargin?: string }>`
+export const CustomSectionTitle = styled.h2<{
+  margin?: string
+  mobileMargin?: string
+  laptopMargin?: string
+  tabletMargin?: string
+  tabletXLMargin?: string
+}>`
   ${TitleBase};
   font-size: ${variables.pxToRem(40)};
   font-weight: 900;
@@ -240,7 +246,13 @@ export const CustomSectionTitle = styled.h2<{ margin?: string; mobileMargin?: st
     line-height: 2.625rem;
     margin: ${({ laptopMargin }) => (laptopMargin ? laptopMargin : '7.25rem 0 5.1875rem')};
   }
-
+  @media ${variables.device.tabletXL} {
+    margin: ${({ tabletMargin }) => (tabletMargin ? tabletMargin : '7.25rem 0 5.1875rem')};
+  }
+  @media ${variables.device.tablet} {
+    margin: ${({ tabletMargin }) => (tabletMargin ? tabletMargin : '7.25rem 0 5.1875rem')};
+  }
+  }
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(22)};
     font-weight: 700;
@@ -267,6 +279,9 @@ export const CustomTextRegular = styled.div`
   font-size: ${variables.pxToRem(20)};
   line-height: ${variables.pxToRem(40)};
   font-weight: 400;
+  &::first-letter {
+    text-transform: uppercase;
+  }
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(16)};
     line-height: ${variables.pxToRem(28)};
