@@ -16,7 +16,7 @@ published: false
 ---
 ![Circles and Bright Inventions cooperation](/images/circles_1.png)
 
-<sub> It is a design created for the purpose of case study. It is based on Circles design. </sub>
+<sub> It is a design created for the purpose of case study. It is based on Circles design delivered by Circles team. </sub>
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges - [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
