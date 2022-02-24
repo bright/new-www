@@ -42,6 +42,10 @@ export const BlockSmall = styled.div`
     margin-top: 0;
   }
 
+  & :last-of-type:not(div.down) {
+    margin-left: 0;
+  }
+
   span {
     flex-grow: 1;
     font-size: ${variables.font.customtext.size};
@@ -71,6 +75,7 @@ export const BlockSmall = styled.div`
   }
   @media ${variables.device.tablet} {
     width: 100%;
+
     min-height: auto;
     height: auto;
     padding: 1.5rem;
@@ -83,6 +88,9 @@ export const BlockSmall = styled.div`
     img {
       width: 100%;
     }
+    & :last-of-type:not(div.down) {
+      border: 1px solid #0a0a0a;
+    }
   }
   @media ${variables.device.mobile} {
     width: 100%;
@@ -90,7 +98,6 @@ export const BlockSmall = styled.div`
     height: auto;
     padding: 1.5rem;
     font-size: 0.75rem;
-    margin: 0 auto;
 
     span {
       font-size: 0.75rem;
@@ -98,6 +105,13 @@ export const BlockSmall = styled.div`
 
     img {
       width: 100%;
+    }
+    & :first-of-type:not(div.down) {
+      margin-bottom: 0.5625rem;
+    }
+    & :last-of-type:not(div.down) {
+      margin-top: 0.5625rem;
+      margin-bottom: 0;
     }
   }
 `
@@ -133,9 +147,10 @@ export const ProjectsLink = styled.a`
   @media ${variables.device.tablet} {
     & div {
       margin: 0.5625rem 0 0 0;
+      border: 1px solid #0a0a0a;
     }
     & div.full-height {
-      height: ${variables.pxToRem(507)};
+      height: auto;
       margin-right: 0;
       margin-left: 1.75rem;
     }
@@ -148,9 +163,10 @@ export const ProjectsLink = styled.a`
 interface ProjectsProps {
   isFetchProject?: boolean
   projectsArray?: Array<ProjectModel>
+  tagsEmpty?: string
 }
 
-export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, projectsArray = [] }) => {
+export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, projectsArray = [], tagsEmpty }) => {
   let projects: Array<ProjectModel> = []
 
   if (isFetchProject) {
@@ -164,7 +180,7 @@ export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, proje
   }
 
   return (
-    <ProjectCustomSection>
+    <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem'>
       {isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
@@ -186,13 +202,28 @@ export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, proje
           )
         })}
         <ScrollToTop />
-        <ProjectsLink href={routeLinks.projects}>
-          <BlockSmall
-            className={`${projects.length % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`}
-          >
-            see all case studies
+        {tagsEmpty ? (
+          <BlockSmall className='is-pulled-left'>
+            <span>Follow us on:</span>
+            <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
+              <img src='/images/social/linkedIn.svg' alt='LinkedIn' />
+            </a>
+            <a target='_blank' href='https://www.facebook.com/bright.inventions/'>
+              <img src='/images/social/facebook.svg' alt='Facebook' />
+            </a>
+            <a target='_blank' href='https://www.instagram.com/bright_inventions/'>
+              <img src='/images/social/instagram.svg' alt='Instagram' />
+            </a>
           </BlockSmall>
-        </ProjectsLink>
+        ) : (
+          <ProjectsLink href={routeLinks.projects}>
+            <BlockSmall
+              className={`${projects.length % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`}
+            >
+              see all case studies
+            </BlockSmall>
+          </ProjectsLink>
+        )}
       </div>
     </ProjectCustomSection>
   )
