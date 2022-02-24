@@ -54,7 +54,7 @@ What’s next? As always we will support our client and deliver the best possibl
 
 ## Circles’ Perspective
 
-Eyal Cafri VP R&D of Circles:
+Eyal Cafri VP R&D at Circles:
 
 *We have found Bright Inventions to be professional group of people, that we feel we can trust, as an integral part of our company, not only to deliver in the right quality, but be proactive, contribute from their experience to help us shape the company’s R&D and product.*
 
