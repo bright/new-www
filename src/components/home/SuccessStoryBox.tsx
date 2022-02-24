@@ -7,7 +7,7 @@ import variables from '../../styles/variables'
 import { ProjectModel } from '../../models/gql'
 import { uniqBy } from 'lodash'
 
-const Container = styled.div<{ isCaseStudies?: boolean }>`
+const Container = styled.div`
   border: 1px solid #d3d3d3;
   width: calc(50% - 2rem);
   min-height: 10rem;
@@ -43,16 +43,7 @@ const Container = styled.div<{ isCaseStudies?: boolean }>`
     margin: 0.5625rem 0;
     width: 100%;
     height: auto;
-    & {
-      ${({ isCaseStudies }) =>
-        isCaseStudies
-          ? `:nth-child(7) {
-      margin-bottom: 0.5625rem;
-    }`
-          : `:nth-child(7) {
-      margin-bottom: 4rem;
-    }`}
-    }
+
     &:nth-child(2) {
       margin-top: 0.5625rem;
     }
