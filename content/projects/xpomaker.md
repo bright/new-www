@@ -10,7 +10,7 @@ tags:
   - web app
   - product design
   - MVP
-  - custom software development
+  - customized software
 slug: xpomaker
 show on homepage: false
 published: true
