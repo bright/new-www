@@ -29,7 +29,7 @@ const Container = styled.div`
       color: ${variables.color.heading};
     }
     h2 {
-      font-size: ${variables.pxToRem(54)};
+      font-size: ${variables.pxToRem(40)};
       @media ${variables.device.laptop} {
         font-size: ${variables.pxToRem(34)};
       }
