@@ -12,7 +12,7 @@ tags:
   - product design
   - MVP
   - IoT
-  - custom software development
+  - customized software
   - eHealth
 order: 6
 slug: smarthelp
