@@ -11,7 +11,7 @@ tags:
   - web app
   - product design
   - IoT
-  - custom software development
+  - customized software
   - eHealth
 slug: vCare
 show on homepage: false
