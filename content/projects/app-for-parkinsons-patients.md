@@ -9,7 +9,7 @@ description: A personal digital diary for patients suffering from Parkinson’s
 tags:
   - mobile app
   - MVP
-  - custom software development
+  - customized software
   - eHealth
 order: 1
 slug: solution-for-parkinsons-patients
