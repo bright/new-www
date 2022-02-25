@@ -9,6 +9,7 @@ description: Circles is a leading emotional support platform that connects
 tags:
   - web app
   - eHealth
+  - customized software
 order: 99
 slug: online-group-support
 show on homepage: false
