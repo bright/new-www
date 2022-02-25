@@ -100,7 +100,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
                   className={classNames('project-tag', { ['is-active']: selectedTag.length === 0 })}
                   value={'allTags'}
                 >
-                  all areas
+                  all
                 </option>
                 {allTags.map(tag => (
                   <option
