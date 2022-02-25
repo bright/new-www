@@ -7,7 +7,7 @@ description: A fintech iOS and Android application that allows businesses to
   charge credit cards without a payment terminal.
 tags:
   - mobile app
-  - custom software development
+  - customized software
   - fintech
 slug: credit-card-reader
 show on homepage: false
