@@ -19,11 +19,11 @@ published: true
 
 ## You came to Bright Inventions 5 years ago when the team consisted of 8 people. Now we have over 70 team members. How did you increase these numbers with pretty small resources?
 
-That was simply hard work. I guess it is still hard work. 🙂 I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness from scratch. Naturally, we had a website (then it looked completely different than now 😁) and a few social media accounts but they weren’t managed on a daily basis. 
+That was simply hard work. I guess it is still hard work. 🙂 I was the very first “non-technical” person in the team. Apart from conducting recruitment activities, I had to build the whole brand awareness almost from scratch. Naturally, we had a website, which looked completely different than now, and a few social media accounts non-managed on a daily basis. But I think that was exactly the biggest asset I was given - this "blank page" undestroyed by anything. 
 
-I was able to quickly build a marketing and HR strategy thanks to the fact that I worked closely with the co-founders of Bright. **I was engaged in every process in the company**. I quickly realised what kind of company Michał and Daniel wanted to build and what kind of people we needed on board. **The goal was to create a place where people can develop and enjoy what they do**. All that in a positive and responsible environment. 
+I was able quite quickly to build a marketing and HR strategy thanks to the fact that I worked closely with the co-founders of Bright* and **I was engaged in every process in the company**. I quickly realised what kind of company Michał and Daniel wanted to build and what kind of people we needed on board. **The goal was to create a place where people can develop and enjoy what they do**. All that in a positive and responsible environment.
 
-Knowing all that I identified myself with the brand and wanted to truly be a part of this team, and make it grow. **I just believe in Bright Inventions and genuinely share that in both internal and external communication. I think people can see this authenticity and candor**. And it brings them to us.
+Knowing all that and getting to know all those great people who were already at Bright I deeply identified myself with the brand, wanted to truly be a part of this team, and make it grow. **I just believe in Bright Inventions. I think we all do, and we genuinely share that in both internal and external communication. I think people can see the authenticity and candor**. And it brings them to us. We have in our Bright team people who really enjoy solving problems, learning and supporting each other. There are people who can work together and have fun together. 
 
 For the first 3 years of my work at Bright our recruitment needs were not so emerging. We grew to 30 people during that time. But in the fourth year we doubled that team. Therefore, managing all the processes inside the company became a bit more challenging. **The success lies in the consistency, on-going market analysis, quick adaptation to changes and verifying if the things you do make sense for your team.** 
 
@@ -86,3 +86,5 @@ In fact, I think that all depends on how feedback is given and received. There s
 ## And last but not least. How would you describe our team in one sentence?
 
 It is a community of positive, responsible, ambitious and supporting people. 🙂
+
+###### \*Apart from Michał Łukasiewicz and Daniel Makurat (the co-founders) I would like to say BIG THANK YOU to Mateusz Klimczak, Piotr Mionskowski and Adam Bar (who is no longer with us now), but who were really supporting me during my first months in the company. 🧡

@@ -3,11 +3,13 @@ layout: project
 project_id: cryptoAtlas
 title: CryptoAtlas
 image: /images/cryptoportal2.png
-description: CryptoAtlas is a social platform connecting people passionate about cryptocurrency. The first and only place where you can find crypto news, communities and leaders.
+description: CryptoAtlas is a social platform connecting people passionate about
+  cryptocurrency. The first and only place where you can find crypto news,
+  communities and leaders.
 tags:
   - web app
   - MVP
-  - custom software development
+  - customized software
   - blockchain
 order: 4
 slug: cryptocurrency-platfrom

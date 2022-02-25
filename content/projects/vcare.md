@@ -3,17 +3,15 @@ layout: project
 project_id: vcare
 title: vCare
 image: /images/vcare-_mockup-3_700.jpg
-description: >
-  vCare is a healthcare software solution that helps care homes all over the
-  United Kingdom monitor and maintain their residents’ health. The app,
-  available for both iOS and Android, assists in proper medication
-  administration for facility residents.
+description: A healthcare software solution that helps care homes all over the
+  United Kingdom monitor their residents’ health and register medicine
+  administration.
 tags:
   - mobile app
   - web app
   - product design
   - IoT
-  - custom software development
+  - customized software
   - eHealth
 slug: vCare
 show on homepage: false

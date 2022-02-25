@@ -3,10 +3,12 @@ layout: project
 project_id: mobile-therapy-application
 title: Mobile Therapy Application
 image: /images/mobile_therapy_app1.jpg
-description: A healthcare mobile application that supports patients going through physiotherapy. It offers therapists an easy way to customize plans for each patient.
+description: A healthcare mobile application that supports patients going
+  through physiotherapy. It offers therapists an easy way to customize plans for
+  each patient.
 tags:
   - mobile app
-  - custom software development
+  - customized software
 order: 3
 slug: mobile-therapy-application
 show on homepage: false

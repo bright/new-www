@@ -3,12 +3,14 @@ layout: project
 project_id: relevo
 title: Relevo
 image: /images/ecofriendly_app_main3.png
-description: Around 1 million plastic food containers are used in Germany per hour! Relevo is a smart reusable system that fights plastic waste and starts the real change.
+description: Around 1 million plastic food containers are used in Germany per
+  hour! Relevo is a smart reusable system that fights plastic waste and starts
+  the real change.
 tags:
   - mobile app
   - web app
   - MVP
-  - custom software development
+  - customized software
   - retail & restaurant
 order: 3
 slug: eco-friendly-app

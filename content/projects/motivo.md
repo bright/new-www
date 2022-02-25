@@ -3,10 +3,12 @@ layout: project
 project_id: motivo
 title: Motivo
 image: /images/motivo_main.png
-description: Turbo Training and Indoor Cycling Workouts. The app is your own personal cycling coach. It offers Interactive training plans and workouts for indoor cycling.
+description: Turbo Training and Indoor Cycling Workouts. The app is your own
+  personal cycling coach. It offers Interactive training plans and workouts for
+  indoor cycling.
 tags:
   - mobile app
-  - custom software development
+  - customized software
 order: 4
 slug: motivo
 show on homepage: false

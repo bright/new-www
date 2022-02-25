@@ -3,11 +3,11 @@ layout: project
 project_id: card-reader
 title: Card Reader
 image: /images/card_reader_mockup.png
-description: An app that allows businesses to charge credit cards without a
-  payment terminal.
+description: A fintech iOS and Android application that allows businesses to
+  charge credit cards without a payment terminal.
 tags:
   - mobile app
-  - custom software development
+  - customized software
   - fintech
 slug: credit-card-reader
 show on homepage: false

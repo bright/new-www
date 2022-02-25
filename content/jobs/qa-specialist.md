@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "QA Specialist "
-subtitle: ONGOING
+subtitle: OPENING SOON 
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time

@@ -3,10 +3,12 @@ layout: project
 project_id: pregnancy-app
 title: Pregnancy App
 image: /images/pregnancy_app1.png
-description: A healthcare mobile app that supports pregnant women at every stage of their pregnancy and birth experience providing them with exercises, recipes and tips.
+description: A healthcare mobile app that supports pregnant women at every stage
+  of their pregnancy and birth experience providing them with exercises, recipes
+  and tips.
 tags:
   - mobile app
-  - custom software development
+  - customized software
   - eHealth
 order: 5
 slug: pregnancy-app

@@ -7,7 +7,7 @@ description: An app that allowed users to receive real estate and car sales’
   offers based on their real-time location.
 tags:
   - mobile app
-  - custom software development
+  - customized software
 order: 9
 slug: easytapp
 show on homepage: false

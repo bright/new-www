@@ -3,11 +3,13 @@ layout: project
 project_id: solution-parkinson
 title: Solution for Parkinson's Patients
 image: /images/app_for_parkinson_patients1.png
-description: A personal digital diary for patients suffering from Parkinson’s disease. The app lets users record their symptoms and track the intake of prescribed drugs.
+description: A personal digital diary for patients suffering from Parkinson’s
+  disease. The app lets users record their symptoms and track the intake of
+  prescribed drugs.
 tags:
   - mobile app
   - MVP
-  - custom software development
+  - customized software
   - eHealth
 order: 1
 slug: solution-for-parkinsons-patients
@@ -18,7 +20,7 @@ published: true
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-### Main features developed by Bright Inventions:
+## Main features developed by Bright Inventions:
 
 * Tracking physical response to standard and experimental therapy
 * Medication reminder
@@ -26,7 +28,7 @@ published: true
 * Advances statistics and reports for physicians
 * Gamification of the app
 
-### Skills:
+## Skills:
 
 iOS: Swift, RxSwift, Alamofire
 
@@ -34,11 +36,11 @@ Android: Kotlin, RxKotlin, Dagger, Retrofit
 
 Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
-### About the app for Parkinson's Patients
+## About the app for Parkinson's Patients
 
 Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
 
-### Goal
+## Goal
 
 Our long-time customer (a product design agency and early-stage project incubator), reached out to us with a ready-to-implement idea their customers had for an app. The goal of the project was to develop a mobile app that simplifies the day-to-day lives of patients suffering from Parkinson’s disease.
 
@@ -50,7 +52,7 @@ And so, Bright Inventions was entrusted with the implementation of the entire sy
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-### Process of app development
+## Process of app development
 
 There were several challenges that we needed to address. Firstly, the app had to be inclusive of patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the interface needed to be legible, highly-intuitive, and minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
 
@@ -66,7 +68,7 @@ For this reason, Bright Inventions decided to break down the database into two �
 
 The first database stored basic user data, such as name or email address. The second database kept sensitive information, including medication intake or physical symptoms and sensations. Through this decision, we made sure that – in case of a data breach – the attacking party wouldn’t be able to access all the information. This way, there were virtually zero chances of matching symptoms or medication intake to specific patients’ names.
 
-### Result of cooperation
+## Result of cooperation
 
 Altogether, our on the project work lasted for 5 months and was divided into two stages. The first phase ended with the launch of the MVP (development took place for 3 months). The second phase of our cooperation, which resulted in several iterations of the system, took place over a span of another 2 months.
 
