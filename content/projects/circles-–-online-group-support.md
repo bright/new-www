@@ -48,6 +48,8 @@ Circles groups meet live for 60-minute video meetings and also have the ability 
 
 Circles is a support-groups platform developed by an Israeli startup. The client came to us thanks to the referral from our long-term client. We have started our cooperation in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. We are responsible for the web version of the app by delivering full stack solutions.
 
+![Circles's review of Bright Inventions](/images/circles_quote.png)
+
 Since we came on board, we helped to develop a group chat adding new features such as: deleting the messages, attaching pictures or tagging people. What is more, we implemented a user-friendly [Circles group discovery section](https://circlesup.com/group-discovery/) which is a part of the onboarding process. It helps users to find the right support group to join. Naturally, we are also responsible for app maintenance and cloud services.
 
 ![Circles application](/images/circles_mockup.png)
