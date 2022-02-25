@@ -52,7 +52,7 @@ Circles is a support-groups platform developed by an Israeli startup. The client
 
 Since we came on board, we helped to develop a group chat adding new features such as: deleting the messages, attaching pictures or tagging people. What is more, we implemented a user-friendly [Circles group discovery section](https://circlesup.com/group-discovery/) which is a part of the onboarding process. It helps users to find the right support group to join. Naturally, we are also responsible for app maintenance and cloud services.
 
-![Circles application](/images/circles_mockup.png)
+![Circles application](/images/circles_mockup_phone.png)
 
 <sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team.* </sub>
 
