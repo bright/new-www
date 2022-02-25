@@ -8,7 +8,7 @@ description: A solution for FMCG companies and retail chains for verifying if
   quality checks.
 tags:
   - mobile app
-  - custom software development
+  - customized software
   - retail & restaurant
 slug: pospulse-shopscout
 show on homepage: false
