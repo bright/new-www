@@ -108,6 +108,7 @@ const PagingWrapper = styled.div`
   @media ${variables.device.tablet} {
     gap: ${variables.pxToRem(100)};
     align-items: center;
+    max-width: 100%;
     & div {
       gap: 0;
 
