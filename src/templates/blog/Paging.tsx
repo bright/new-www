@@ -15,19 +15,48 @@ import { Link } from 'gatsby'
 const PagingWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
-  margin-top: 1.5rem;
-  margin: 6.5625rem 20%;
 
-  & > span > .button:first-of-type {
-    width: 5.125rem;
+  max-width: ${variables.pxToRem(581)};
+  gap: ${variables.pxToRem(82)};
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: ${variables.pxToRem(105)};
+  margin-bottom: ${variables.pxToRem(185)};
+
+  & span {
+    & .button {
+      font-weight: 600;
+      transition: all ease-out 0.3s;
+      width: fit-content;
+      font-size: ${variables.pxToRem(18)};
+      padding: 0;
+      margin: 0;
+      & :hover span {
+        color: ${variables.color.primary};
+      }
+    }
   }
+  & div {
+    & span {
+      & .button {
+        width: fit-content;
+        padding: 0;
+        font-weight: normal;
+        transition: all ease-out 0.3s;
+        & :hover span {
+          color: ${variables.color.text};
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
   & .button {
     width: 2.5625rem;
     height: 2.5625rem;
     -webkit-appearance: none;
     align-items: center;
-    border: 1px solid #131214;
-    border-radius: 0;
+    border: none;
     box-shadow: none;
     display: flex;
     justify-content: center;
@@ -36,19 +65,21 @@ const PagingWrapper = styled.div`
     margin-right: 1rem;
 
     & span {
-      font-size: 1.375rem;
-      line-height: 1.6875rem;
-      color: #131214;
+      font-size: ${variables.pxToRem(18)};
+      line-height: ${variables.pxToRem(22)};
+      color: ${variables.color.text};
+      & :hover {
+      }
     }
   }
   & .is-active {
-    background-color: #131214;
     & span {
-      color: #ffff;
+      color: ${variables.color.text};
+      text-decoration: underline;
+      font-weight: 600;
     }
   }
   & .is-shadow {
-    border: 1px solid #131214;
     color: #131214;
     filter: opacity(0.2);
     pointer-events: none;
@@ -56,58 +87,47 @@ const PagingWrapper = styled.div`
   & div {
     width: 100%;
     display: flex;
+    gap: ${variables.pxToRem(34)};
     justify-content: center;
+    align-items: center;
     & > .dots {
       display: flex;
       align-items: flex-end;
-      margin: 0 2.3125rem 0 1.3125rem;
-      font-size: 1.375rem;
-      font-weight: 600;
-      color: #131214;
-    }
-  }
-  @media ${variables.device.tablet} {
-    height: 7.1875rem;
-    width: 100%;
-    margin: 5rem 0;
-    justify-content: space-between;
-    flex-direction: column;
-    & .arrowwrapper {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      & > span > .button:first-of-type {
-        width: 5.125rem;
-      }
-    }
-    & div {
-      flex-grow: 1;
       justify-content: center;
 
-      & span {
-        &:last-of-type .button {
-          margin-right: 0;
-        }
-        & .button {
-          width: 2rem;
-          height: 2rem;
-          margin-right: 0.6875rem;
+      font-size: 1.375rem;
+      font-weight: 600;
+      color: ${variables.color.text};
+    }
+  }
+  @media ${variables.device.laptop} {
+    margin-top: ${variables.pxToRem(82)};
+    margin-bottom: ${variables.pxToRem(116)};
+  }
 
-          & span {
-            font-size: 1rem;
-          }
+  @media ${variables.device.tablet} {
+    gap: ${variables.pxToRem(100)};
+    align-items: center;
+    & div {
+      gap: 0;
+
+      & span {
+        flex-basis: calc(100% / 6);
+        & .button {
+          width: -webkit-fill-available;
         }
-      }
-      & .dots {
-        margin: 0 1.75rem 0 1.0625rem;
-        font-size: 1rem;
-        align-items: flex-start;
       }
     }
-    & > span {
-      align-self: flex-end;
-      & .button {
-        margin-right: 0;
+  }
+  @media ${variables.device.mobile} {
+    margin-top: ${variables.pxToRem(66)};
+    margin-bottom: ${variables.pxToRem(85)};
+    gap: 14.25%;
+
+    & div {
+      gap: 0;
+      & span {
+        flex-basis: calc(100% / 5);
       }
     }
   }
@@ -128,57 +148,18 @@ export interface PagingProps {
 
 export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
   const { currentPage, numPages, tag } = pageContext
+  const { width } = useWindowSize()
+  const breakpoint = 992
   const paginationRange = usePagination({
     currentPage: currentPage,
     totalPageCount: numPages,
-    siblingCount: 1,
+    siblingCount: width <= 580 ? 0 : width <= breakpoint ? 1 : 2,
     pageSize: 10,
   })
 
   const prevHref = !tag && currentPage <= 2 ? baseURI : `${baseURI}${currentPage - 1}`
   const lastPage = paginationRange?.[paginationRange?.length - 1]
   const nextHref = `${baseURI}${currentPage + 1}`
-  const { width } = useWindowSize()
-  const breakpoint = 991
-  if (width < breakpoint) {
-    return (
-      <PagingWrapper>
-        <div>
-          {paginationRange &&
-            paginationRange.map((pageNumber: any, i: any) => {
-              if (pageNumber === DOTS) {
-                return (
-                  <span key={pageNumber} className='pagination-item dots'>
-                    &#8230;
-                  </span>
-                )
-              }
-              const pageNumberHref = !tag && i == 0 ? baseURI : `${baseURI}${pageNumber}`
-              return (
-                <span key={pageNumber}>
-                  <Link to={pageNumberHref} className={currentPage == pageNumber ? 'button is-active' : 'button'}>
-                    <span>{pageNumber}</span>
-                  </Link>
-                </span>
-              )
-            })}
-        </div>
-        <div className='arrowwrapper'>
-          {' '}
-          <span>
-            <Link to={prevHref!} className={pageContext.currentPage <= 1 ? 'button is-shadow' : 'button'}>
-              <span>back</span>
-            </Link>
-          </span>
-          <span>
-            <Link to={nextHref} className={pageContext.currentPage === lastPage ? 'button is-shadow' : 'button'}>
-              <span>next</span>
-            </Link>
-          </span>
-        </div>
-      </PagingWrapper>
-    )
-  }
 
   return (
     <PagingWrapper>

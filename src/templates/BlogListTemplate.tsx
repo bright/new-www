@@ -34,11 +34,11 @@ const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
       </Helmet>
 
       <CustomSection
-        paddingProps='3rem 15rem 4rem '
+        paddingProps='3rem 15rem 0rem '
         paddingLaptop='3rem 6rem 0'
         paddingTabletXL='3rem 9rem 0'
         paddingTablet='3rem 2.25rem 0rem'
-        paddingMobileProps='3rem 1.125rem 1rem'
+        paddingMobileProps='3rem 1.125rem 0rem'
       >
         <CustomPageTitle
           laptopFontSize='2.75rem'
