@@ -49,7 +49,7 @@ const Post: React.FC<{ post: BlogPostModel }> = ({ post }) => {
     <div className={styles.entry} onClick={redirect}>
       <ImageWrapper className={styles.image}>
         <GatsbyImage
-          image={getImage(post.image)}
+          image={getImage(post.image)!}
           alt={post.title}
           className='post-img'
           imgStyle={{ objectFit: 'cover' }}
