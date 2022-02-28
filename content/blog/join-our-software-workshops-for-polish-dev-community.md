@@ -9,7 +9,7 @@ tags:
 date: 2022-02-28T13:28:25.257Z
 title: Join Our Software Workshops for Polish Dev Community
 layout: post
-image: /images/blog_bright_workshops.png
+image: /images/blog_cover_workshops.png
 hidden: false
 comments: true
 published: true
@@ -33,11 +33,11 @@ We have planned 4 live meetings deeply covering topics like:
 3. Common challenges and how to handle them.
 4. Discussion, reflection and questions.
 
-## Road to Tech Lead/Team Leader Workshops
+## Road to Tech Lead Leader Workshops
 
-![Road to Tech Lead Workshops](/images/tech_lead_workshops.png)
+![Road to Tech Lead Workshops](/images/road_to_tech_leader.png)
 
-What is the best way to transition from Software Developer to Tech Lead or Team Leader? Mateusz will help you navigate that career path according to his experience. ;) Check out another blog post to know his r[oad from iOS Developer to Tech Lead](/blog/responsibility-and-change-are-his-fuel-meet-mateusz/).
+What is the best way to transition from Software Developer to Tech Lead Leader? Mateusz will help you navigate that career path according to his experience. 🙂 Check out another blog post to know his r[oad from iOS Developer to Tech Lead](/blog/responsibility-and-change-are-his-fuel-meet-mateusz/).
 
 The workshops are planned for April. As always, follow our social media to stay in the loop.
 
