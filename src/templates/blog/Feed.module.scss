@@ -8,6 +8,7 @@
 
   .entry {
     flex-basis: calc(50% - 2rem);
+    width: calc(50% - 2rem);
     cursor: pointer;
     border: 1px solid #d3d3d3;
     transition: box-shadow 0.1s ease-in, transform 0.1s ease-in;
@@ -66,6 +67,7 @@
 
     .entry {
       flex-basis: calc(50% - 1.78125rem);
+      width: calc(50% - 1.78125rem);
       .image {
         max-height: 14.625rem;
       }
