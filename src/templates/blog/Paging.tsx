@@ -68,8 +68,6 @@ const PagingWrapper = styled.div`
       font-size: ${variables.pxToRem(18)};
       line-height: ${variables.pxToRem(22)};
       color: ${variables.color.text};
-      & :hover {
-      }
     }
   }
   & .is-active {
@@ -174,7 +172,7 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
           paginationRange.map((pageNumber: any, i: any) => {
             if (pageNumber == DOTS) {
               return (
-                <span key={pageNumber} className='pagination-item dots'>
+                <span key={pageNumber + '-' + i} className='pagination-item dots'>
                   &#8230;
                 </span>
               )
