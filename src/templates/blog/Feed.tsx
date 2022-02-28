@@ -57,7 +57,7 @@ const Post: React.FC<{ post: BlogPostModel }> = ({ post }) => {
       </ImageWrapper>
       <div className={styles.content}>
         <div className={styles.postInfo}>
-          <div className={styles.date}>{formatDate(new Date(post.date), 'MMM, d yyyy')}</div>
+          {/* <div className={styles.date}>{formatDate(new Date(post.date), 'MMM, d yyyy')}</div> */}
           <div className={styles.tags}>{post.tags.join(', ')}</div>
         </div>
         <div className={styles.title}>{post.title}</div>
