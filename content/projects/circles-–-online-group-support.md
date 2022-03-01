@@ -17,7 +17,7 @@ published: false
 ---
 ![Circles and Bright Inventions cooperation](/images/circles_1.png)
 
-<sub> *It is a design created for the purpose of case study.* </sub>
+<center><sub> *It is a design created for the purpose of case study.* </sub></center>
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
@@ -54,7 +54,7 @@ Since we came on board, we helped to develop a group chat adding new features su
 
 ![Circles application](/images/circles_mockup_phone.png)
 
-<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team.* </sub>
+<center><sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team.* </sub></center>
 
 On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
 
