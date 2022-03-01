@@ -37,7 +37,7 @@ We have planned 4 live meetings deeply covering topics like:
 
 ![Road to Tech Lead Workshops](/images/road_to_tech_leader.png)
 
-What is the best way to transition from Software Developer to Tech Leader? Mateusz will help you navigate that career path according to his experience. 🙂  Check out another blog post to know his r[oad from iOS Developer to Tech Lead](/blog/responsibility-and-change-are-his-fuel-meet-mateusz/).
+What is the best way to transition from Software Developer to Tech Leader? Mateusz will help you navigate that career path according to his experience. 🙂  Check out another blog post to know his [road from iOS Developer to Tech Lead](/blog/responsibility-and-change-are-his-fuel-meet-mateusz/).
 
 The workshops are planned for April. As always, follow our social media to stay in the loop.
 
