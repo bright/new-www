@@ -54,7 +54,7 @@ Since we came on board, we helped to develop a group chat adding new features su
 
 ![Circles application](/images/circles_mockup_phone.png)
 
-<center><sub> \*It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team.\* </sub></center>
+<center><sub> It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team. </sub></center>
 
 On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
 
