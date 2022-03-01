@@ -53,7 +53,7 @@ to clean their surroundings and therefore motivates a community to make bigger c
 them, take pictures and tag it to show the community the power of seemingly little actions. Then the app creates maps of
 the litter cleaned by people around the world to engage more people to act!
 
-<center><iframe style="width: 560; height: 315" src="https://www.youtube.com/embed/es4w3WUcrN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+`youtube: https://youtu.be/es4w3WUcrN0`
 
 ## 5. Geev
 
