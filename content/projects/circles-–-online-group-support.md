@@ -42,7 +42,7 @@ Circles is a leading emotional support platform that connects people experiencin
 
 Circles groups meet live for 60-minute video meetings and also have the ability to message via online chat at any time, access personalized content, including self-help exercises, blogs and webinars, all available through the Circles app.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/3SRelp9NtAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+`youtube: https://youtu.be/3SRelp9NtAA`
 
 ## Circles Development Process
 
