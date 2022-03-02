@@ -1,5 +1,7 @@
 ---
 author: izabela
+secondAuthor: fjablonski
+thirdAuthor: mateusz
 tags:
   - development
   - iOS
