@@ -11,7 +11,7 @@ tags:
   - MVP
   - customized software
   - eHealth
-order: 1
+order: 2
 slug: solution-for-parkinsons-patients
 show on homepage: false
 published: true
