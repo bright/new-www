@@ -10,10 +10,10 @@ tags:
   - web app
   - eHealth
   - customized software
-order: 99
+order: 1
 slug: online-group-support
-show on homepage: false
-published: false
+show on homepage: true
+published: true
 ---
 ![Circles and Bright Inventions cooperation](/images/circles_1.png)
 
