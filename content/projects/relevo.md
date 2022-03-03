@@ -21,7 +21,7 @@ published: true
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Main features:
+## Main features developed by Bright Inventions:
 
 * Panel for restaurants
 * QR code scanning
@@ -36,7 +36,7 @@ published: true
 
 **Deployment:** AWS, CI/CD
 
-## About
+## About Relevo application
 
 [Relevo](https://www.gorelevo.de) is a German startup founded in 2020. It offers Android and iOS applications. Relevo works with restaurants (mainly in Munich and Berlin) that are eager to offer reusable packages for takeout. Thanks to the app users can scan a QR code on the reusable package and take their food in an eco-friendly tableware. We just have to remember to give back the packaging to the partner restaurant within 2 weeks. And then the next person can use it again.
 
@@ -50,7 +50,7 @@ Relevo is free, eco-friendly, and smart. We all see how plastic tableware took o
 
 Relevo and Bright Inventions’ priority has been to increase the scalability & reliability of the backend system. The challenge is to ensure the system stability during peak hours. The rapid growth of users for an app like Relevo happens during lunchtime when people use the app in restaurants. At the same time we were also developing and launching new features to provide the users with new capabilities continuously. 
 
-## Process
+## Process of Relevo app development
 
 The founders of Relevo were looking for an experienced software development company that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
 
