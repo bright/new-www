@@ -18,7 +18,7 @@ published: true
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Main tech elements
+## Main Finebite tech elements
 
 * Highly polished user interface
 * Integration with restaurants management systems
@@ -44,7 +44,7 @@ Bright Inventions has worked on the ideation and development of both platforms, 
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## About
+## About Finebite app
 
 As of late 2019, the service is present in 3 countries – 7 biggest cities in Poland, as well as Berlin and Lviv, and features over 400 partner restaurants.
 
@@ -64,7 +64,7 @@ With this idea in mind, the founders have asked for our assistance in verifying 
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Process
+## Process of Finebite development
 
 We worked with the Everytap team to establish how their potential customers’ needs and benefits – both those of restaurant-goers and restaurant owners – could be best addressed.
 
