@@ -47,7 +47,7 @@ Our focus is to attract more professionals who could contribute to the community
 
 ![Bright Treasury Substrate](/images/treasuryapp_www.png)
 
-## Process of developing BrightTresury
+## Process of developing BrightTreasury
 
 Based on the discussions with the Substrate networks’ users and council members as well as the analysis of the comments under Polkadot and Kusama proposal submissions, we identified the areas that caused most issues in the Treasury funding process from the user’s perspective. The main needs that were brought up were:
 
