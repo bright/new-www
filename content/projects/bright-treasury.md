@@ -20,7 +20,7 @@ published: true
 ---
 ![Bright Treasury](/images/treasuryappwww.png)
 
-## Main features:
+## Main features of BrightTreasury:
 
 * An intuitive, two-step flow for submitting proposals (Idea -> Proposal)
 * In-app module for more detailed proposal descriptions (like adding milestones) connected with the proposal related discussion and reporting progress on approved proposals
@@ -35,7 +35,7 @@ published: true
 
 **Backend:** Node.js, NestJS, TypeScript, PostgreSQL, AWS Services
 
-## About
+## About BrightTreasury
 
 The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocurrency pot of funds collected mostly through transaction fees, slashing and staking inefficiency. The fund is managed by Polkadot and Kusama Substrate networks. The Treasury funds can be spent on any proposal related to developing or promoting the Substrate Blockchain technology. Bright Inventions has been developing a web application that will make the grunt application more user-friendly. The project was backed by Substrate community by receiving a grant from the [Web3 Foundation](https://web3.foundation/).
 
@@ -47,7 +47,7 @@ Our focus is to attract more professionals who could contribute to the community
 
 ![Bright Treasury Substrate](/images/treasuryapp_www.png)
 
-## Process 
+## Process of developing BrightTresury
 
 Based on the discussions with the Substrate networks’ users and council members as well as the analysis of the comments under Polkadot and Kusama proposal submissions, we identified the areas that caused most issues in the Treasury funding process from the user’s perspective. The main needs that were brought up were:
 
