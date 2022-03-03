@@ -33,7 +33,7 @@ In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup wit
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Goal of building AirHelp app
+## Our goal
 
 The main goal was to create a mobile-friendly tool for users that want to file a complaint about a delayed or canceled flight. The app had to be really simple and minimalistic so that users are able to quickly go with the flow even if they have to provide much detailed information about the flight.
 
