@@ -16,7 +16,8 @@ technology:
   - ISTQB
   - CI/CD
 button: join our QA team
-published: true
+published: false
+hidden: true
 order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: QA task
