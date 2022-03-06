@@ -48,7 +48,7 @@ This books is full of personal stories and anecdotes with a piece of good advice
 
 Coyle emphasises that a strong culture sets up an environment where a team can deal with uncomfortable truth-telling and be candid with each other. When people make themselves vulnerable by sharing information about themselves, they build connections and makes it possible for everyone on the team to contribute. Loyalty and high quality working cultures only emerge when team members feel safe.
 
-![](/images/culture_code_quote.png)
+![](/images/culture_code_quote_coyle.png)
 
 But the book is not only about the team’s performance, it is also about the leader’s roles. T**he books shows how important is to question how your actions in everyday life impact the team you work with.** The richness of real-life stories and examples of amazing groups makes *The Culture Code* practical and at the same time inspiring. Honest and authentic leadership is required that listens and serves rather than talks and orders.
 
