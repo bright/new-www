@@ -50,7 +50,7 @@ Coyle emphasises that a strong culture sets up an environment where a team can d
 
 ![](/images/culture_code_quote_coyle.png)
 
-But the book is not only about the team’s performance, it is also about the leader’s roles. T**he books shows how important is to question how your actions in everyday life impact the team you work with.** The richness of real-life stories and examples of amazing groups makes *The Culture Code* practical and at the same time inspiring. Honest and authentic leadership is required that listens and serves rather than talks and orders.
+But the book is not only about the team’s performance, it is also about the leader’s roles. T**he book shows how important is to question how your actions in everyday life impact the team you work with.** The richness of real-life stories and examples of amazing groups makes *The Culture Code* practical and at the same time inspiring. Honest and authentic leadership is required that listens and serves rather than talks and orders.
 
 One may say the book is full of old ideas and topics - and that is true. But at the same time these topics are urgent and relevant as ever.
 
