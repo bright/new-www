@@ -16,7 +16,8 @@ technology:
   - Adobe Illustrator 
   - Adobe Photoshop
 button: "join our design team "
-published: true
+published: false
+hidden: true
 order: 1
 recruting_image2_title: interview
 recruting_image3_title: product design task
