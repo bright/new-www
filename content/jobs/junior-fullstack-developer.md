@@ -15,7 +15,8 @@ technology:
   - Node.js
   - React
 button: join our fullstack team
-published: true
+published: false
+hidden: true 
 order: 10
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
