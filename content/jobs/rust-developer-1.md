@@ -11,6 +11,11 @@ salary_max: 24999
 working time: full time
 technology:
   - Blockchain
+  - Rust
+  - Substrate
+  - Kusama
+  - Polkadot
+  - Web3
 button: join our Blockchain team
 published: true
 order: 1
