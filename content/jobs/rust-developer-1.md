@@ -55,7 +55,7 @@ In this role you will be responsible for developing the infrastructure that will
 * opportunity to work with one of **the world's most accomplished blockchain** companies
 * opportunity to become an expert in the latest blockchain technologies
 * **mentoring programme** and great space for self-development 
-* lost of a**utonomy and high levels of personal responsibility**
+* lots of **autonomy and high levels of personal responsibility**
 * following best practices such as Code Review, Pair programming or Continuous integration
 * **20-26 paid days off + extra days for Polish bank holidays** 
 * flexible schedule and remote work possibility 
