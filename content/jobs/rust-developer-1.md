@@ -35,7 +35,9 @@ In this role you will be responsible for developing the infrastructure that will
 ## what you will do
 
 * blockchain protocol development 
-* work on one of the is Substrate’s/ Polkadot/ Kusama module for smart contract
+* Rust performance optimisation and tuning
+* build live networks like Kusama and Polkadot 
+* work on one of the existing Substrate/Polkadot/Kusama module for smart contract
 * share knowledge with the rest of the team
 
 ## what we'd like to see
@@ -49,6 +51,7 @@ In this role you will be responsible for developing the infrastructure that will
 ## we would also appreciate if you have
 
 * intrest in cryptography
+* experience with consensus algorithms
 
 ## why join our Bright Team 🧡
 
