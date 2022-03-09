@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import Timeline from '../../timeline'
 import { story } from './story-data'
 import { TextRegular } from '../../shared'
 import variables from '../../../styles/variables'
 import { CustomSection } from './../../shared/index'
 import { useState } from 'react'
 import { clampBuilder } from './../../../helpers/clampBuilder'
+import { TimelineLogo, TimelineImage } from '../../timeline'
 
 const StoriesWrapperScroll = styled.div`
   @media ${variables.device.tabletXL} {
@@ -293,10 +293,10 @@ export function StoryComponent() {
                       <ContentWrapper positionLeft={isLeft} positionFirst={isFirst}>
                         <ImageWrapper>
                           {item.images?.map(image => (
-                            <Timeline.Image key={image.src} {...image} />
+                            <TimelineImage key={image.src} {...image} />
                           ))}
                           {item.logos?.map(image => (
-                            <Timeline.Logo key={image.src} {...image} />
+                            <TimelineLogo key={image.src} {...image} />
                           ))}
                         </ImageWrapper>
 
