@@ -69,20 +69,6 @@ export const BlackButton = styled(InvertedButton)`
     filter: invert(0%);
   }
 `
-export const WorkshopContainer = styled.div`
-  background: black;
-
-  padding: 105px 0;
-
-  h2 {
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: white;
-    display: grid;
-    gap: 55px 0;
-    justify-items: start;
-  }
-`
 
 export const FormContainer = styled.div`
   margin: 11.625rem auto 6.25rem;
@@ -95,33 +81,6 @@ export const FormContainer = styled.div`
     a {
       color: inherit;
       text-decoration: underline;
-    }
-  }
-`
-
-export const Tabs = styled.ul`
-  margin: 2rem auto;
-  display: flex;
-  justify-content: start;
-  justify-items: start;
-  grid-auto-flow: column;
-  max-width: 960px;
-  gap: 10%;
-
-  a {
-    font-family: ${variables.font.title.family};
-    user-select: none;
-    cursor: pointer;
-    font-size: ${variables.font.title.size};
-    line-height: 2rem;
-    color: ${variables.color.text};
-    opacity: 0.75;
-    font-weight: normal;
-
-    &.is-active {
-      opacity: 1;
-      font-weight: bold;
-      border-bottom: 3px solid var(--black-100);
     }
   }
 `
