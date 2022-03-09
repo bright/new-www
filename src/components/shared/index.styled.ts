@@ -240,6 +240,22 @@ export const CustomSectionTitle = styled.h2<{
   line-height: 3.06rem;
   margin: ${({ margin }) => (margin ? margin : '9.625rem 0 6.56rem')};
   color: ${variables.color.heading};
+  & span:not(a span) {
+    color: ${variables.color.primary};
+  }
+  & a {
+    color: ${variables.color.text};
+    text-decoration: underline;
+    padding: 3px 0;
+    & :hover {
+      color: ${variables.color.text};
+    }
+    & span {
+      padding: 3px 0;
+
+      line-height: 50px;
+    }
+  }
 
   @media ${variables.device.laptop} {
     font-size: ${variables.pxToRem(34)};
@@ -252,7 +268,7 @@ export const CustomSectionTitle = styled.h2<{
   @media ${variables.device.tablet} {
     margin: ${({ tabletMargin }) => (tabletMargin ? tabletMargin : '7.25rem 0 5.1875rem')};
   }
-  }
+
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(22)};
     font-weight: 700;
@@ -260,18 +276,32 @@ export const CustomSectionTitle = styled.h2<{
     margin: ${({ mobileMargin }) => (mobileMargin ? mobileMargin : '5.125rem 0 4rem')};
   }
 `
-export const CustomTextTitle = styled.h3`
+export const CustomTextTitle = styled.h3<{
+  margin?: string
+  mobileMargin?: string
+  laptopMargin?: string
+  tabletMargin?: string
+  tabletXLMargin?: string
+}>`
   ${TitleBase};
-  margin: 1em 0;
+  margin: ${({ margin }) => (margin ? margin : 'margin: 1em 0')};
   font-size: ${variables.pxToRem(28)};
   font-weight: 900;
   line-height: 1.6875rem;
   @media ${variables.device.laptop} {
     font-size: ${variables.pxToRem(25)};
+    margin: ${({ laptopMargin }) => (laptopMargin ? laptopMargin : 'margin: 1em 0')};
+  }
+  @media ${variables.device.tabletXL} {
+    margin: ${({ tabletXLMargin }) => (tabletXLMargin ? tabletXLMargin : 'margin: 1em 0')};
+  }
+  @media ${variables.device.tablet} {
+    margin: ${({ tabletMargin }) => (tabletMargin ? tabletMargin : 'margin: 1em 0')};
   }
 
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(18)};
+    margin: ${({ mobileMargin }) => (mobileMargin ? mobileMargin : 'margin: 1em 0')};
   }
 `
 export const CustomTextRegular = styled.div`
