@@ -1,23 +1,22 @@
-import { graphql, Link, useStaticQuery } from 'gatsby'
-import React, { useState } from 'react'
+import { Link } from 'gatsby'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { routeLinks } from '../../config/routing'
-import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { useAuthors } from '../../use-authors/use-authors'
 import variables from '../../styles/variables'
 import ScrollArrow from './ArrowScrollToTop'
 import { useWindowSize } from '../utils/use-windowsize'
-import { string } from 'prop-types'
-import { MoreButton } from '../shared'
+import { CustomSectionTitle } from '../shared'
 
-const TeamMember = styled.article<{ isOurServiceTemplate: boolean }>`
+const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: boolean; isTeam: boolean }>`
   border: 1px solid rgba(0, 0, 0, 0.125);
   color: ${variables.color.text};
-  flex-basis: calc(25% - 3.5625rem);
+  flex-basis: calc(100% / 4 - (57px - 57px / 4));
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 3.5625rem 3.5625rem 0 0;
+
   &:hover {
     & .avatar1 {
       opacity: 0;
@@ -27,40 +26,26 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean }>`
       opacity: 1;
     }
   }
-  &:nth-of-type(4n) {
-    margin-right: 0;
-  }
-  &:nth-of-type(n + 1) {
-    margin-top: 0;
-  }
-  &:nth-of-type(n + 5) {
-    margin-top: 3.5625rem;
-  }
+
   @media ${variables.device.laptop} {
-    margin: 3.0625rem 3.0625rem 0 0;
+    flex-basis: calc(100% / 4 - (3.0625rem - 3.0625rem / 4));
   }
+  @media ${variables.device.tabletXL} {
+    flex-basis: calc(100% / 4 - (3.0625rem - 3.0625rem / 4));
+    ${({ isWhyUs }) => isWhyUs && `flex-basis:calc(100% / 3 - (3rem - 3rem / 3 ))`};
+
+    ${({ isTeam }) => isTeam && `flex-basis:calc(100% / 3 - (3rem - 3rem / 3 ))`};
+  }
+
   @media ${variables.device.tablet} {
     margin: 0;
     margin-bottom: 2rem;
+    ${({ isWhyUs, isTeam }) =>
+      (isWhyUs || isTeam) && ` flex-basis: calc(100% / 2 - (3.5rem - 3.5rem / 2));margin-bottom: 0;`}
   }
   @media ${variables.device.mobile} {
-    flex-basis: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? '100%' : 'calc(50% - 1rem)')};
-    margin: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? '2rem 0 0 0' : '2rem 2rem 0 0')};
-
-    &:nth-of-type(2n) {
-      margin-right: 0;
-    }
-    ${({ isOurServiceTemplate }) =>
-      isOurServiceTemplate
-        ? `&:nth-of-type(n + 1) {
-      margin-top: 2rem;
-    }`
-        : `&:nth-of-type(n + 1) {
-      margin-top: 0;
-    }`};
-    &:nth-of-type(n + 3) {
-      margin-top: 2rem;
-    }
+    flex-basis: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? '100%' : 'calc(100% / 2 - (2rem - 2rem / 2))')};
+    margin-bottom: 0;
   }
 
   && a {
@@ -154,34 +139,48 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean }>`
         width: 94px;
         height: 168px;
         max-height: 168px;
-      }`};
+      }`}
     }
   }
 `
-const Container = styled.div`
+const Container = styled.div<{ isWhyUs: boolean; isTeam: boolean }>`
   display: flex;
   width: 100%;
   max-width: 1440px;
   justify-content: center;
   margin: auto;
   flex-wrap: wrap;
+  gap: ${variables.pxToRem(57)};
   flex: 1;
-  margin-bottom: 122px;
+  margin-bottom: 0;
   @media ${variables.device.laptop} {
     max-width: 1248px;
+    gap: ${variables.pxToRem(49)};
+  }
+  @media ${variables.device.tabletXL} {
+    max-width: 925px;
+    gap: ${variables.pxToRem(49)};
+    ${({ isWhyUs, isTeam }) => (isWhyUs || isTeam) && ` gap:${variables.pxToRem(48)}`};
   }
   @media ${variables.device.tablet} {
     display: block;
     margin-bottom: 2.1875rem;
     margin: 0 auto;
+    ${({ isWhyUs, isTeam }) =>
+      (isWhyUs || isTeam) &&
+      `display:flex ;
+     gap: ${variables.pxToRem(56)};
+     max-width: 919px;
+     margin-bottom: 0;`}
   }
   @media ${variables.device.mobile} {
     display: flex;
+    gap: 2rem;
   }
 `
-const TeamMembersSection = styled.div<{ isOurServiceTemplate: boolean }>`
+const TeamMembersSection = styled.div<{ isOurServiceTemplate: boolean; isWhyUs: boolean }>`
   @media ${variables.device.mobile} {
-    padding: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : '0 0.5rem')};
+    padding: 0 ${variables.pxToRem(18)};
   }
 `
 
@@ -227,73 +226,114 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
     }
   }
 `
-const OurServiceLink = styled(Link)`
+const OurServiceLink = styled(Link)<{ isWhyUs?: boolean }>`
   display: block;
   text-align: center;
   text-decoration: underline;
   font: normal normal bold ${variables.pxToRem(18)} / ${variables.pxToRem(22)} Montserrat;
   letter-spacing: 0px;
+  ${({ isWhyUs }) =>
+    isWhyUs &&
+    `padding: 16px 48px;
+    border: 1px solid #0A0A0A;
+    text-decoration: none;
+     `};
   color: #0a0a0a;
   opacity: 1;
-  padding-top: ${variables.pxToRem(104)};
+  margin-top: ${variables.pxToRem(104)};
   & :hover {
     color: ${variables.color.primary};
   }
   @media ${variables.device.tablet} {
-    padding-top: ${variables.pxToRem(65)};
+    margin-top: ${variables.pxToRem(65)};
+  }
+  @media ${variables.device.mobile} {
+    ${({ isWhyUs }) => (isWhyUs ? `width: 100%` : '')};
   }
 `
 
 interface TeamMembersProps {
   authorIdsArray?: string[]
   isOurServiceTemplate?: boolean
+  isWhyUs?: boolean
+  isTeam?: boolean
 }
 
-const TeamMembers = ({ authorIdsArray, isOurServiceTemplate = false }: TeamMembersProps) => {
+const TeamMembers = ({
+  authorIdsArray,
+  isOurServiceTemplate = false,
+  isWhyUs = false,
+  isTeam = false,
+}: TeamMembersProps) => {
   const { width } = useWindowSize()
   const members = useAuthors({ authorIdsArray })
   const initNumber = width <= 581 ? 4 : 8
-  const [numberOfMembers, setNumberOfMembers] = useState(isOurServiceTemplate ? initNumber : members.length)
+  const whyUsTeamMembers = width <= 992 ? 8 : 12
+  const [numberOfMembers, setNumberOfMembers] = useState<number>()
+
+  useEffect(() => {
+    if (isOurServiceTemplate) {
+      setNumberOfMembers(initNumber)
+    } else if (isWhyUs) {
+      setNumberOfMembers(whyUsTeamMembers)
+    } else {
+      setNumberOfMembers(members.length)
+    }
+  }, [])
 
   return (
-    <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!}>
-      <Container>
-        {members.slice(0, numberOfMembers).map(member => {
-          return (
-            <TeamMember isOurServiceTemplate={isOurServiceTemplate!} key={member.authorId}>
-              <Link to={routeLinks.aboutUs(member)}>
-                <AvatarWrapper isOurServiceTemplate={isOurServiceTemplate!}>
-                  <GatsbyImage
-                    image={getImage(member.avatar)!}
-                    alt={member.name}
-                    className='avatar1'
-                    imgClassName='image'
-                  />
-                  <GatsbyImage
-                    image={getImage(member.avatar_hover)!}
-                    alt={member.name}
-                    className='avatar2'
-                    imgClassName='image'
-                  />
-                </AvatarWrapper>
-                <div>
-                  <p>
-                    <strong>{member.shortName}</strong>
-                  </p>
-                  <p>{member.bio}</p>
-                  <p>{member?.hobby}</p>
-                </div>
-              </Link>
-            </TeamMember>
-          )
-        })}
+    <>
+      {isWhyUs && (
+        <CustomSectionTitle>
+          meet the <span>bright</span> team
+        </CustomSectionTitle>
+      )}
+      <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!} isWhyUs={isWhyUs!}>
+        <Container isWhyUs={isWhyUs!} isTeam={isTeam!}>
+          {members.slice(0, numberOfMembers).map(member => {
+            return (
+              <TeamMember
+                isOurServiceTemplate={isOurServiceTemplate!}
+                isWhyUs={isWhyUs!}
+                isTeam={isTeam!}
+                key={member.authorId}
+              >
+                <Link to={routeLinks.aboutUs(member)}>
+                  <AvatarWrapper isOurServiceTemplate={isOurServiceTemplate!}>
+                    <GatsbyImage
+                      image={getImage(member.avatar)!}
+                      alt={member.name}
+                      className='avatar1'
+                      imgClassName='image'
+                    />
+                    <GatsbyImage
+                      image={getImage(member.avatar_hover)!}
+                      alt={member.name}
+                      className='avatar2'
+                      imgClassName='image'
+                    />
+                  </AvatarWrapper>
+                  <div>
+                    <p>
+                      <strong>{member.shortName}</strong>
+                    </p>
+                    <p>{member.bio}</p>
+                    <p>{member?.hobby}</p>
+                  </div>
+                </Link>
+              </TeamMember>
+            )
+          })}
 
-        {width <= 581 && !isOurServiceTemplate ? <ScrollArrow /> : null}
-        {isOurServiceTemplate && initNumber ? (
-          <OurServiceLink to={routeLinks.aboutUs({ page: 'team' })}>see all team members</OurServiceLink>
-        ) : null}
-      </Container>
-    </TeamMembersSection>
+          {width <= 992 && !isOurServiceTemplate && !isWhyUs ? <ScrollArrow /> : null}
+          {(isOurServiceTemplate && initNumber) || (isWhyUs && whyUsTeamMembers) ? (
+            <OurServiceLink isWhyUs={isWhyUs} to={routeLinks.aboutUs({ page: 'team' })}>
+              see all team members
+            </OurServiceLink>
+          ) : null}
+        </Container>
+      </TeamMembersSection>
+    </>
   )
 }
 
