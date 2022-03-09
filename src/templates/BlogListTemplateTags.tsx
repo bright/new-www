@@ -70,8 +70,8 @@ PageDescription> import { useEffect, useState } from 'react';
             pageContext={pageContext}
             baseURI={
               pageContext.subTag
-                ? `${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}/`
-                : `${routeLinks.blogTags({ tag: kebabCaseTag })}`
+                ? `${routeLinks.blogTags({ tag: kebabCaseTag! })}${kebabCaseSubTag}/`
+                : `${routeLinks.blogTags({ tag: kebabCaseTag! })}`
             }
           />
         )}
