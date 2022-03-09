@@ -15,12 +15,12 @@ export interface MenuElement {
 }
 
 const TopMenu: MenuElement[] = [
-  { link: routeLinks.aboutUs({page: 'story'}), title: 'why us' },
+  { link: routeLinks.aboutUs(), title: 'why us' },
   { link: routeLinks.whatWeOffer, title: 'what we do' },
   { link: routeLinks.projects, title: 'case studies' },
   { link: routeLinks.career, title: 'career' },
   { link: routeLinks.blog, title: 'blog' },
-  { link: routeLinks.startProject, title: 'estimate project', className: classNames('is-primary', styles.estimate) }
+  { link: routeLinks.startProject, title: 'estimate project', className: classNames('is-primary', styles.estimate) },
 ]
 
 type Props = {
@@ -55,7 +55,7 @@ export const TopNavigation: React.FC<Props> = ({ path, toggled }) => {
   return (
     <nav
       className={classNames('navbar is-fixed-top', styles.container, {
-        [styles.hasShadow]: isScrolledDown
+        [styles.hasShadow]: isScrolledDown,
       })}
       role='navigation'
       aria-label='main navigation'

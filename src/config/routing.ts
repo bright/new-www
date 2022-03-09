@@ -1,12 +1,15 @@
 export const routeLinks = {
-  aboutUs(params?: { authorId: string; slug: string | undefined } | { page: 'story' | 'values' | 'team' }) {
+  aboutUs(params?: { authorId: string; slug: string | undefined; page: string }) {
     if (!params) {
-      return `/about-us/story/`
+      return `/about-us`
+    }
+    if (params.page) {
+      return `/about-us/${params.page}`
     }
     if ('authorId' in params) {
       return `/about-us/${params.slug ?? params.authorId}/`
     }
-    return `/about-us/${params.page}/`
+    return `/about-us`
   },
   blogTags(params?: { tag: string }) {
     if (!params) {
