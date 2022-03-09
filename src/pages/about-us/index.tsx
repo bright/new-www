@@ -1,43 +1,36 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
 
-import { Page } from "../../layout/Page"
-import { routeLinks } from "../../config/routing"
-import { Tabs } from "../../components/about-us/about-us.styled"
-import { Section } from '../../components/shared'
+import { Page } from '../../layout/Page'
+
+import { CustomSection, CustomPageTitle } from '../../components/shared'
 import { HelmetTitleDescription } from '../../meta/HelmetTitleDescription'
+import { StoryComponent } from '../../components/about-us/story-section/story'
+import TeamMembers from '../../components/subcomponents/TeamMembers'
+import { FormComponent } from '../../components/about-us/form-section/form'
+import Values from './values'
 
-const tabs = [
-  { label: "our story", path: "story" },
-  { label: "core values", path: "values" },
-  { label: "team", path: "team" },
-] as const
-
-const AboutUsPage: React.FC = ({ children }) => (
+const AboutUsPage: React.FC = () => (
   <Page>
     <HelmetTitleDescription
-      title="About us - our values, team and approach"
-      description="All you need to know about our software development team."
+      title='About us - our values, team and approach'
+      description='All you need to know about our software development team.'
     />
-    <Section>
-      <div data-tabs-content=".tab-content" className="container">
-        <Tabs>
-          {tabs.map(tab => (
-            <Link
-              activeClassName="is-active"
-              to={routeLinks.aboutUs({page: tab.path})}
-              partiallyActive
-              key={tab.label}
-            >
-              <li className="is-active">
-                <span>{tab.label}</span>
-              </li>
-            </Link>
-          ))}
-        </Tabs>
-      </div>
-      {children}
-    </Section>
+    <CustomSection
+      paddingProps='3rem 15rem 0rem '
+      paddingLaptop='3rem 6rem 0'
+      paddingTabletXL='3rem 9rem 0'
+      paddingTablet='3rem 2.25rem 0rem'
+      paddingMobileProps='3rem 1.125rem 0rem'
+    >
+      <CustomPageTitle>
+        <span>bright</span> history, team and values
+      </CustomPageTitle>
+    </CustomSection>
+
+    <StoryComponent />
+    <TeamMembers isWhyUs={true} />
+    <Values />
+    <FormComponent />
   </Page>
 )
 
