@@ -6,7 +6,7 @@ date: 2022-03-09T10:11:14.427Z
 title: What to Expect From Kotlin Development Company from Poland
 layout: post
 image: /images/android_development_company.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -30,7 +30,11 @@ Polish Kotlin Developers are well-known for their great expertise, responsibilit
 
 It is a well-known fact for years. In 2016 [Hackerrank](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/) presented a very popular insight “Which Country Would Win in the Programming Olympics?”. The report was widely referenced on multiple sites. Polish software developers took third place!
 
-![Polish software developers HackerRank](static/images/Best_developers_HackerRank.png)
+<center>
+
+![Polish software developers HackerRank](/images/hackerrank_polish_developers.png)
+
+</center>
 
 ### 2. Polish software developers communicate fluently in English
 
