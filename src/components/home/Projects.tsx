@@ -10,18 +10,46 @@ import { ProjectModel } from '../../models/gql'
 import ScrollToTop from '../subcomponents/ScrollToTop'
 
 export const ProjectCustomSection = styled(CustomSection)`
+  & .success-story-wrapper {
+    & > div:nth-child(odd) {
+      margin-right: 0;
+    }
+
+    & > div:nth-child(even) {
+      margin-left: 0;
+    }
+    & div.full-height {
+      height: ${variables.pxToRem(507)};
+      margin-right: 0;
+      margin-left: 2rem;
+    }
+  }
   @media ${variables.device.laptop} {
     & .success-story-wrapper {
-      & > div:nth-child(odd) {
+      & div.full-height {
+        height: ${variables.pxToRem(407)};
         margin-right: 0;
-      }
-
-      & > div:nth-child(even) {
-        margin-left: 0;
+        margin-left: 1.75rem;
       }
     }
   }
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tabletXL} {
+    & .success-story-wrapper {
+      & div.full-height {
+        height: ${variables.pxToRem(330.88)};
+        margin-right: 0;
+        margin-left: 1.41rem;
+      }
+    }
+  }
+  @media ${variables.device.tablet} {
+    & .success-story-wrapper {
+      & div.full-height {
+        height: auto;
+        width: 100%;
+        margin: 0.5625rem 0 0;
+      }
+    }
   }
 `
 
@@ -202,8 +230,11 @@ export const Projects: React.FC<ProjectsProps> = ({ isFetchProject = true, proje
           )
         })}
         <ScrollToTop />
+
         {isTagsEmpty ? (
-          <BlockSmall className='is-pulled-left'>
+          <BlockSmall
+            className={`${projects.length % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`}
+          >
             <span>Follow us on:</span>
             <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
               <img src='/images/social/linkedIn.svg' alt='LinkedIn' />
