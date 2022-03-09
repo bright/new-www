@@ -112,6 +112,7 @@ export default function Template({ data, params, pageContext }: any) {
     project: projects,
     slug,
   } = page
+
   return (
     <Page>
       <HelmetTitleDescription title={meta_title} description={meta_description} />
@@ -158,7 +159,7 @@ export default function Template({ data, params, pageContext }: any) {
         </CustomSection>
       </Section>
       <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
-        <CustomSectionTitle mobileMargin='3rem 0 0.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
+        <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
         </CustomSectionTitle>
         <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />
