@@ -1,11 +1,5 @@
-import React, {
-  ReactElement,
-  RefObject,
-  useCallback,
-  useMemo,
-  useState,
-} from "react"
-import { Wrapper } from "./timeline.styled"
+import React, { ReactElement, RefObject, useCallback, useMemo, useState } from 'react'
+import { Wrapper } from './timeline.styled'
 interface timeline extends React.FC {
   Logo?: React.FC<any> | void | any
   Image?: React.FC<any> | void | any
@@ -31,6 +25,7 @@ export const Timeline: timeline = function Timeline({ children }) {
         if (index === lastIndex) {
           return React.cloneElement(child, { ...child.props, last: true })
         }
+
         return child
       }),
     [children]
