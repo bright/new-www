@@ -3,10 +3,11 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 import { FormProps, JobApplicationForm } from '../../forms/job-application/job-application-form'
-import { FormContainer } from '../about-us.styled'
 import { routeLinks } from '../../../config/routing'
-import { TextRegular } from '../../shared'
+import { CustomSection, CustomSectionInner, TextRegular } from '../../shared'
 import variables from '../../../styles/variables'
+import { CustomSectionTitle } from './../../shared/index.styled'
+import AnalyticsLink from '../../shared/AnalyticsLink'
 
 interface Props extends FormProps {
   title?: React.ReactNode
@@ -15,32 +16,11 @@ interface Props extends FormProps {
   style?: CSSProperties
 }
 
-const Title = styled.h2`
-  margin-bottom: 3rem;
-  margin-top: 2.6875rem;
-  font-size: 2.5rem;
-  text-align: center;
-
-  @media ${variables.device.laptop} {
-    font-size: 2.125rem;
-  }
-
-  @media ${variables.device.mobile} {
-    margin-top: 2rem;
-    font-size: 1.375rem;
-    text-align: left;
-  }
-`
-
 const Description = styled(TextRegular)`
-  margin-bottom: 2rem;
-  @media ${variables.device.laptop} {
-    font-size: 1.25rem;
-  }
+  margin-bottom: 4rem;
+
   @media ${variables.device.mobile} {
-    margin-bottom: 4rem;
-    font-size: 1rem;
-    text-align: left;
+    margin-bottom: 2rem;
   }
 `
 
@@ -52,17 +32,47 @@ export const FormComponent: React.FC<Props> = props => {
     className,
     title = (
       <>
-        want to be part of a bright a story? drop us a line or check <Link to={routeLinks.career}>open positions</Link>
+        want to be part of a bright a story? drop us a line or check{' '}
+        <Link to={routeLinks.career}>
+          <span>open positions</span>
+        </Link>
       </>
     ),
-    description,
+    description = (
+      <>
+        Our recruitment demand is constantly changing. Drop us a line at{' '}
+        <AnalyticsLink
+          href='mailto:ula@bright.dev'
+          action='Click Recruitment Email'
+          category='Click Email'
+          text='ula@bright.dev'
+        />
+        , or submit your CV and we will contact you when a position inline with your competences becomes available.
+      </>
+    ),
     ...formProps
   } = props
   return (
-    <FormContainer style={style} className={className}>
-      <Title>{title}</Title>
-      {description && <Description>{description}</Description>}
-      <JobApplicationForm {...formProps} onSubmit={() => setSuccess(true)} />
-    </FormContainer>
+    <CustomSection
+      paddingProps='2rem 0 11.625rem '
+      paddingLaptop='0 0 7.25rem '
+      paddingTabletXL='0 2.25rem 7.25rem'
+      paddingTablet='0 2.25rem 7.25rem'
+      paddingMobileProps='0 1.125rem 5.1875rem'
+    >
+      <CustomSectionInner maxWidth='956px' style={style} className={className}>
+        <CustomSectionTitle
+          margin='9.625rem 0 4rem'
+          laptopMargin='7.25rem 0 3.5rem'
+          tabletXLMargin='7.25rem 0 3.5rem'
+          tabletMargin='7.25rem 0 3.5rem'
+          mobileMargin='5.125rem 0 2rem'
+        >
+          {title}
+        </CustomSectionTitle>
+        {description && <Description>{description}</Description>}
+        <JobApplicationForm {...formProps} onSubmit={() => setSuccess(true)} />
+      </CustomSectionInner>
+    </CustomSection>
   )
 }
