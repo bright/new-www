@@ -30,7 +30,7 @@ Polish Kotlin Developers are well-known for their great expertise, responsibilit
 
 It is a well-known fact for years. In 2016 [Hackerrank](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/) presented a very popular insight “Which Country Would Win in the Programming Olympics?”. The report was widely referenced on multiple sites. Polish software developers took third place!
 
-![Polish mobile developers HackerRank](static/images/Best_developers_HackerRank.png)
+![Polish software developers HackerRank](static/images/Best_developers_HackerRank.png)
 
 ### 2. Polish software developers communicate fluently in English
 
