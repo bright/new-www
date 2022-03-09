@@ -46,14 +46,14 @@ Poland is in Central European Time (CET) which makes it possible to organise dai
 
 **Examples of time differences:**
 
-Poland – Germany: no time difference
+🇵🇱  Poland – 🇩🇪 Germany: no time difference
 
-Poland – Norway: no time difference
+🇵🇱  Poland – 🇳🇴 Norway: no time difference
 
-Poland – the UK: 1-hour time difference
+🇵🇱  Poland – 🇬🇧  the UK: 1-hour time difference
 
-Poland – Israel: 1-hour time difference
+🇵🇱  Poland – 🇮🇱 Israel: 1-hour time difference
 
-Poland – New York: 6-hours time difference
+🇵🇱  Poland – 🇺🇸 New York: 6-hours time difference
 
 For example, staying in New York you can organise a daily meeting at 9.00 AM local time. At the same time, in Poland it will be 3.00 PM – a perfect time after lunch. Kotlin developers in Poland usually finish their work between 4-6 PM.
