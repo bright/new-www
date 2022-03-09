@@ -12,6 +12,8 @@ published: true
 ---
 **Everything you should know about working with Kotlin development software house from Poland.**
 
+![Kotlin development company from Poland](/images/android_development_company.png)
+
 ## What does the Kotlin development company do?
 
 [Kotlin development agency](/our-areas/mobile-app-development) specializes in building and maintaining mobile applications for Android. Kotlin developers take care of every aspect of the Android app development process: from the ideation phase to the launch and maintenance. 
