@@ -35,10 +35,10 @@ This was the year when Microsoft launched its Windows 8 operating system with a 
 
 2 years before announcing its successor – Swift, Objective-C did quite well being at the [top of the popular languages of the year](https://www.i-programmer.info/news/98-languages/5298-the-top-languages-of-2012.html). I guess its fate was already sealed though. ;)
 
-![](/images/objectivec_2012.png)
+![objective-c](/images/objectivec_2012.png)
 
 ## Bright Inventions came to life 😀
 
 Yup, that is a very special year for us. Our software development agency came to life in 2012. Check out our [bright story](/blog/bright-inventions-turns-10-in-march-what-do-we-value/).
 
-![](/images/join_bright_inventions.png)
+![Bright Inventions recruitment](/images/join_bright_inventions.png)
