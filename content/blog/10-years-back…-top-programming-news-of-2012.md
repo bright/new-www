@@ -40,3 +40,5 @@ This was the year when Microsoft launched its Windows 8 operating system with a 
 ## Bright Inventions came to life 😀
 
 Yup, that is a very special year for us. Our software development agency came to life in 2012. Check out our [bright story](/blog/bright-inventions-turns-10-in-march-what-do-we-value/).
+
+![](/images/join_bright_inventions.png)
