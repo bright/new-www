@@ -30,3 +30,7 @@ Another iPhone, another story behind it. That iPhone was promoted with the sloga
 This was the year when Microsoft launched its Windows 8 operating system with a controversial tiles menu. 😉The tiles weren’t the hit and the update Windows 8.1 enabled users to replace them with a well-known Windows menu.
 
 ![Windows 8](/images/windows8_2012.png)
+
+## Objective-C is still at the top of programming languages
+
+![](/images/objectivec_2012.png)
