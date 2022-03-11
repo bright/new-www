@@ -24,3 +24,9 @@ That was a hit! Raspberry Pi was created to promote teaching young people comput
 Another iPhone, another story behind it. That iPhone was promoted with the slogan: “The biggest thing to happen to iPhone since iPhone.” Now after a decade – do you agree with that statement?
 
 ![iPhone 5](/images/iphone5_2012.png)
+
+## The world met Windows 8
+
+This was the year when Microsoft launched its Windows 8 operating system with a controversial tiles menu. 😉The tiles weren’t the hit and the update Windows 8.1 enabled users to replace them with a well-known Windows menu.
+
+![Windows 8](/images/windows8_2012.png)
