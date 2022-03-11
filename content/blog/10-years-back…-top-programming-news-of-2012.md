@@ -17,4 +17,10 @@ published: true
 
 That was a hit! Raspberry Pi was created to promote teaching young people computer science. And it still does. In 2019, more than [forty million boards](https://twitter.com/EbenUpton/status/1205646606504275968) have been sold.
 
-![](/images/raspberrypi_2012.png)
+![Raspberry Pi](/images/raspberrypi_2012.png)
+
+## Apple introduced iPhone5
+
+Another iPhone, another story behind it. That iPhone was promoted with the slogan: “The biggest thing to happen to iPhone since iPhone.” Now after a decade – do you agree with that statement?
+
+![iPhone 5](/images/iphone5_2012.png)
