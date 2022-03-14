@@ -1,11 +1,11 @@
 ---
 layout: job
 title: iOS Developer
-subtitle: OPENING SOON
+subtitle: ONGOING
 imagejob: /images/iosteam.png
 image-alt-job: iOS Team Bright Inventions
 hours: full-time
-salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
+salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
 salary_min: 12000
 salary_max: 15000
 working time: full time
@@ -37,13 +37,13 @@ We support and share responsibility with the members of our team. We also active
 
 ## about the role 
 
-We are looking for an experienced passionate iOS Developer whose main goal will be to build high quality mobile applications for the client from a construction industry in Germany.
+We are looking for an experienced passionate iOS Developer whose main goal will be supporting us in building the powerful iOS applications that will impact how Just Eat (in Poland Pyszne.pl) shapes the retail world. The system integrates with online delivery platforms, manages website for the restaurants, take orders, process payments and manages everything else from the very own virtual Back Office.
 
-The application will automatically keep track of details such as all the contracts, project proposals as well as warranty requests, and payment processing. It will be also used for tasks management and it will include scheduling, budgeting, timesheets, and more.
+As a growing team with business focus, we need strong engineers with diverse perspectives to help us shape solutions and scale the team.
 
 ## in this role you will
 
-* create high-quality iOS applications 
+* create high-quality iOS application 
 * participate in software code reviews 
 * contact directly with clients and advise them in the decision making process 
 * share knowledge with the rest of a team
@@ -51,7 +51,7 @@ The application will automatically keep track of details such as all the contrac
 
 ## what we are looking for
 
-* at least 3-4 years of commercial programming experience (including min. 2 years in iOS development) 
+* at least 3 years of commercial programming experience (including min. 2 years in iOS development) 
 * very good knowledge and deep understanding of Swift
 * good understanding of the most popular Apple frameworks
 * familiarity with Continuous Integration and other process automation tools
@@ -60,7 +60,7 @@ The application will automatically keep track of details such as all the contrac
 * the ability to work independently as well as in a team
 * very good communication skills both in English and Polish 
 
-## nice-to-haves
+## nice-to-have
 
 * working experience with Objective-C
 * familiarity with Agile methodologies
