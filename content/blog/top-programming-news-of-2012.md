@@ -37,6 +37,12 @@ This was the year when Microsoft launched its Windows 8 operating system with a 
 
 ![objective-c](/images/objectivec_2012.png)
 
+## TypeScript was released
+
+TypeScript is the programming language that builds on Java. It was created by Microsoft to challenge all the complexities in JavaScript. Now after 10 years we can definitely say that TypeScript made its expectations.
+
+![](/images/blog_post_in_2012.png)
+
 ## Bright Inventions came to life 😀
 
 Yup, that is a very special year for us. Our software development agency came to life in 2012. Check out our [bright story](/blog/bright-inventions-turns-10-in-march-what-do-we-value/).
