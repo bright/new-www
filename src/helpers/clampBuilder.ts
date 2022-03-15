@@ -6,8 +6,6 @@ export function clampBuilder(
 ): string {
   const isSSR = typeof window !== 'undefined'
   if (!isSSR) {
-    return ''
-  } else {
     const root = document.querySelector('html') as Element
     const pixelsPerRem = Number(getComputedStyle(root).fontSize.slice(0, -2))
 
@@ -20,5 +18,7 @@ export function clampBuilder(
     const yAxisIntersection = -minWidth * slope + minFontSize
 
     return `clamp( ${minFontSize}rem, ${yAxisIntersection}rem + ${slope * 100}vw, ${maxFontSize}rem )`
+  } else {
+    ''
   }
 }
