@@ -43,8 +43,8 @@ export default function TeamPage() {
         </CustomPageTitle>
       </CustomSection>
 
-      <div className='tab-content content'>
-        <Caption className='container'>
+      <div>
+        <Caption>
           <CustomSectionInner>
             <TextRegular>
               We are a team of skilled and talented specialists: mobile, web and backend developers, UI and UX
