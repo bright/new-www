@@ -92,7 +92,7 @@ In 2020 we got over 50 employees on board! From a 2-people company, we became, o
 
 > I think 2020 was pretty pivotal for us. We put a lot of effort to hire great positive people who wanted to create Bright Inventions together with us. I remember that I had a lot of captivating interviews day by day. It was a hectic, but bright time, for sure.
 >
-> It is really important to have a strong sense of the ownership of the organization, team, and your work regardless of the company size. I think we have achieved that. Each and every person in our team has contributed to our Bright success. – says Ula.
+> It is really important to have a strong sense of the ownership of the organization, team, and your work regardless of the company size. I think we have achieved that. Each and every person in our team has contributed to our Bright success. – says Ula, HR & Marketing Manager.
 
 ## Watching our client’s massive success
 
