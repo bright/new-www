@@ -7,6 +7,7 @@ import { CustomSection } from './../../shared/index'
 import { useState } from 'react'
 import { clampBuilder } from './../../../helpers/clampBuilder'
 import { TimelineLogo, TimelineImage } from '../../timeline'
+import { useWindowSize } from '../../utils/use-windowsize'
 
 const StoriesWrapperScroll = styled.div`
   @media ${variables.device.tabletXL} {
@@ -151,12 +152,14 @@ export const PositionContentWrapper = styled.div<{ positionLeft: boolean }>`
   }
   @media ${variables.device.mobile} {
     top: 181px;
-    width: ${clampBuilder(360, 581, 330, 378)};
-    ${({ positionLeft }) => (positionLeft ? `left: unset` : `left:11px`)};
-    ${({ positionLeft }) => (positionLeft ? `right:11px` : `right:unset`)};
+    position: fixed;
+    width: calc(100% - 2 * 18px);
+    margin: 0 auto;
+    ${({ positionLeft }) => (positionLeft ? `left: unset` : `left:18px`)};
+    ${({ positionLeft }) => (positionLeft ? `right:18px` : `right:unset`)};
   }
 `
-const ContentWrapper = styled.div<{ positionLeft: boolean; positionFirst: boolean }>`
+const ContentWrapper = styled.div<{ positionLeft: boolean; positionFirst: boolean; positionLast: boolean }>`
   position: relative;
   box-shadow: 0px 0px 99px #00000017;
   padding: ${variables.pxToRem(36)} ${variables.pxToRem(33)};
@@ -207,9 +210,14 @@ const ContentWrapper = styled.div<{ positionLeft: boolean; positionFirst: boolea
   }
   @media ${variables.device.mobile} {
     & ::before {
-      ${({ positionLeft }) => (positionLeft ? `right: ${clampBuilder(360, 581, 48, 89)}` : `right:unset`)};
-      ${({ positionLeft }) => (positionLeft ? `left: unset` : `left:${clampBuilder(360, 581, 48, 89)}`)};
-      ${({ positionFirst }) => positionFirst && `left: ${clampBuilder(360, 581, 47, 88)}`};
+      ${({ positionLeft }) => (positionLeft ? `right: 50%; transform: translateX(-50%);` : `right:unset`)};
+      ${({ positionLeft }) =>
+        positionLeft ? `left: unset` : `left:50%;     transform: translateX(-50%) rotate(90deg);`};
+
+      ${({ positionFirst }) =>
+        positionFirst && `left: ${clampBuilder(360, 581, 47, 88)}; transform: translateX(0%) rotate(90deg);`};
+      ${({ positionLast }) =>
+        positionLast && `left: ${clampBuilder(360, 581, 270, 449)}; transform: translateX(0%) rotate(90deg);`};
     }
   }
 `
@@ -221,12 +229,14 @@ const ImageWrapper = styled.div`
   & div:not(.logo) {
     overflow: hidden;
     transition: all 0.3s ease 0s;
-    width: 107px;
-    height: 107px;
+    width: ${variables.pxToRem(107)};
+    height: ${variables.pxToRem(107)};
     border: 1px solid rgb(211, 211, 211);
-    border-radius: 180px;
+    border-radius: ${variables.pxToRem(189)};
     & img {
-      border-radius: 180px;
+      border-radius: ${variables.pxToRem(180)};
+      width: ${variables.pxToRem(107)};
+      height: ${variables.pxToRem(107)};
     }
   }
   @media ${variables.device.tabletXL} {
@@ -235,9 +245,19 @@ const ImageWrapper = styled.div`
     flex-flow: row;
     flex-wrap: wrap;
     & div:not(.logo) {
-      width: 80px;
-      height: 80px;
+      width: ${variables.pxToRem(80)};
+      height: ${variables.pxToRem(80)};
+      & img {
+        width: ${variables.pxToRem(80)};
+        height: ${variables.pxToRem(80)};
+      }
     }
+  }
+`
+const ContentWrapperPositionOutsideScroll = styled.div`
+  @media ${variables.device.laptop} {
+    position: relative;
+    transform: rotate(0deg);
   }
 `
 
@@ -252,6 +272,7 @@ export function StoryComponent() {
       setSelectedTimeLine(value)
     }
   }
+  const { width } = useWindowSize()
 
   return (
     <CustomSection
@@ -261,55 +282,57 @@ export function StoryComponent() {
       paddingTablet='7.6875rem 0 0'
       paddingMobileProps='4.5625rem 0 0'
     >
-      <StoriesWrapperScroll>
-        <StoriesWrapperPosition>
-          <StoriesWrapper>
-            {story.map((item, index) => {
-              const isChecked = selectedTimeLine === item.heading
-              const isLeft = index >= 5
-              const isFirst = index <= 1
-
-              return (
-                <StoryWrapper key={item.heading}>
-                  <Data
-                    className={isChecked ? 'is-active' : ''}
-                    data-value={item.heading}
-                    onMouseOver={handleChange}
-                    onChange={handleChange}
-                  >
-                    {item.heading}
-                  </Data>
-                  <Label>
-                    <input
-                      type='radio'
-                      value={item.heading}
-                      checked={isChecked}
+      <ContentWrapperPositionOutsideScroll>
+        <StoriesWrapperScroll>
+          <StoriesWrapperPosition>
+            <StoriesWrapper>
+              {story.map((item, index) => {
+                const isChecked = selectedTimeLine === item.heading
+                const isLeft = width <= 581 ? index === story.length : index >= 5
+                const isFirst = width <= 581 ? index === 0 : index <= 1
+                const isLast = index === story.length - 1
+                return (
+                  <StoryWrapper key={item.heading}>
+                    <Data
+                      className={isChecked ? 'is-active' : ''}
+                      data-value={item.heading}
                       onMouseOver={handleChange}
                       onChange={handleChange}
-                    />
-                  </Label>
-                  {isChecked && (
-                    <PositionContentWrapper positionLeft={isLeft}>
-                      <ContentWrapper positionLeft={isLeft} positionFirst={isFirst}>
-                        <ImageWrapper>
-                          {item.images?.map(image => (
-                            <TimelineImage key={image.src} {...image} />
-                          ))}
-                          {item.logos?.map(image => (
-                            <TimelineLogo key={image.src} {...image} />
-                          ))}
-                        </ImageWrapper>
+                    >
+                      {item.heading}
+                    </Data>
+                    <Label>
+                      <input
+                        type='radio'
+                        value={item.heading}
+                        checked={isChecked}
+                        onMouseOver={handleChange}
+                        onChange={handleChange}
+                      />
+                    </Label>
+                    {isChecked && (
+                      <PositionContentWrapper positionLeft={isLeft}>
+                        <ContentWrapper positionLeft={isLeft} positionFirst={isFirst} positionLast={isLast}>
+                          <ImageWrapper>
+                            {item.images?.map(image => (
+                              <TimelineImage key={image.src} {...image} />
+                            ))}
+                            {item.logos?.map(image => (
+                              <TimelineLogo key={image.src} {...image} />
+                            ))}
+                          </ImageWrapper>
 
-                        <TextRegular>{item.content}</TextRegular>
-                      </ContentWrapper>
-                    </PositionContentWrapper>
-                  )}
-                </StoryWrapper>
-              )
-            })}
-          </StoriesWrapper>
-        </StoriesWrapperPosition>
-      </StoriesWrapperScroll>
+                          <TextRegular>{item.content}</TextRegular>
+                        </ContentWrapper>
+                      </PositionContentWrapper>
+                    )}
+                  </StoryWrapper>
+                )
+              })}
+            </StoriesWrapper>
+          </StoriesWrapperPosition>
+        </StoriesWrapperScroll>
+      </ContentWrapperPositionOutsideScroll>
     </CustomSection>
   )
 }
