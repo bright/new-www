@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 export function clampBuilder(
   minWidthPx: number,
   maxWidthPx: number,
@@ -8,7 +6,10 @@ export function clampBuilder(
 ): string {
   const isSSR = typeof window !== 'undefined'
 
-  const root = (isSSR ? document.querySelector('html') : null) as Element
+  if (!isSSR) {
+    return ''
+  }
+  const root = document.querySelector('html') as Element
   const pixelsPerRem = Number(getComputedStyle(root).fontSize.slice(0, -2))
 
   const minWidth = minWidthPx / pixelsPerRem
