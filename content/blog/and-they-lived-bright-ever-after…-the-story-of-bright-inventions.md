@@ -100,7 +100,7 @@ Our cooperation with the Israeli ePOS startup, which started in 2013, moved to a
 
 ![2021](/images/2021.png)
 
-In 2021 we launched a beta version of our first original product – [BrightTreasury](https://treasury.bright.dev) app for Kusama and Polkadot. The app is a result of over 6 years of experience in blockchain development. The app was funded by the Web3 Foundation.
+In 2021 we launched a beta version of **our first original product – [BrightTreasury](https://treasury.bright.dev) app for Kusama and Polkadot**. The app is a result of over 6 years of experience in blockchain development. The app was funded by the Web3 Foundation.
 
 ![BrightTreasury](/images/treasury_www_3.png)
 
