@@ -35,3 +35,19 @@ Their goal was to create a place where people would enjoy their work and can gro
 One of the first projects we worked on at Bright was [Motivo cycling workouts application](/projects/motivo). It was launched in the UK. As you can see, that was quite some time ago. The app was a personal cycling coach, offering training plans and indoor cycling workouts.
 
 ![Motivo app mockups](/images/motivo_mockup.jpg)
+
+## Start of the longest cooperation
+
+![2013](/images/2013.png)
+
+**Since 2013 we have been working with our client – Practi from Israel.** We assist the client in building ePOS solutions for restaurants across Europe. We have been with them since their startup phase, taking part in their growth as an international retail solutions provider.
+
+> Thanks to that cooperation we have learnt a lot about scalability and supporting the system and the client’s team. We have earned experience in developing products that people rely on because they use them every day at work. We could see how end-users use our solution. Observing their actions was a real lesson indeed. It turned out that they sometimes used our product in different ways than we could ever imagine. That is an experience every software developer should have – really see how end-users interact with your product. – says Piotr Mionskowski – Partner, Tech Leader. 
+
+## Building healthcare apps for chronic disease patients or moms-to-be
+
+![2013](/images/2013.png)
+
+[Etventure](https://www.etventure.com) (now EY etventure) and Bright Inventions started to cooperate in 2013. Thanks to that cooperation we could build dozens of mobile healthcare applications for iOS and Android. One of them was a [mobile app for pregnant women](/projects/pregnancy-app/) helping them to experience safe and healthy pregnancy and birth. We also developed the [application for Parkinson’s patients](/projects/solution-for-parkinsons-patients/) which helped manage everyday chronic disease symptoms, the [app for mobile physiotherapy](/projects/mobile-therapy-application) and more. 
+
+![pregnancy app mockup](/images/brightstory_pregnancy_app.png)
