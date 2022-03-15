@@ -49,6 +49,10 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
   const selectTag = (tag: string) => {
     setSelectedTag([tag])
   }
+
+  const declarationTag = ['retail & restaurant', 'blockchain', 'fintech', 'IoT']
+  const specificTag = declarationTag?.includes(selectedTag[0])
+
   const tagsEmpty = selectedTag.length === 0
   const handleOnChange = ({ target }) => {
     const { value } = target
@@ -136,7 +140,12 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
           </TagsWrapper>
         )}
       </SectionProjects>
-      <Projects isFetchProject={false} projectsArray={filteredProjects} isTagsEmpty={tagsEmpty} />
+      <Projects
+        isFetchProject={false}
+        projectsArray={filteredProjects}
+        isTagsEmpty={tagsEmpty}
+        isSelectedTag={specificTag}
+      />
       <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
   )
