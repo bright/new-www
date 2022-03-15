@@ -22,6 +22,6 @@ redirect_from:
 published: true
 title: Meet Andrzej
 ---
-
 After a few years of experimenting in Java discovered his passion for Kotlin and Android development. Always seeking for optimal solutions. Obsessed with networking and administration stuff. In free time he crushes his enemies in video games.
 
+Speaker at tech confernces, laways eager to share his Kotlin experiences with others. You can see him on stage during events like [4developers](https://4developers.org.pl) or [Warsaw IT Days](https://warszawskiedniinformatyki.pl/en/).
