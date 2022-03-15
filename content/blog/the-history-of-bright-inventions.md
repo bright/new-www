@@ -4,7 +4,7 @@ secondAuthor: ula
 tags:
   - software development company
   - inspiration
-date: 2022-03-15T09:02:38.311Z
+date: 2022-03-15T11:37:30.979Z
 title: And they lived bright ever after… The story of Bright Inventions
 layout: post
 image: /images/blog_post_cover_10thanniversary.png
@@ -42,7 +42,7 @@ One of the first projects we worked on at Bright was [Motivo cycling workouts ap
 
 **Since 2013 we have been working with our client – Practi from Israel.** We assist the client in building ePOS solutions for restaurants across Europe. We have been with them since their startup phase, taking part in their growth as an international retail solutions provider.
 
-> Thanks to that cooperation we have learnt a lot about scalability and supporting the system and the client’s team. We have earned experience in developing products that people rely on because they use them every day at work. We could see how end-users use our solution. Observing their actions was a real lesson indeed. It turned out that they sometimes used our product in different ways than we could ever imagine. That is an experience every software developer should have – really see how end-users interact with your product. – says Piotr Mionskowski – Partner, Tech Leader. 
+> *Thanks to that cooperation we have learnt a lot about scalability and supporting the system and the client’s team. We have earned experience in developing products that people rely on because they use them every day at work. We could see how end-users use our solution. Observing their actions was a real lesson indeed. It turned out that they sometimes used our product in different ways than we could ever imagine. That is an experience every software developer should have – really see how end-users interact with your product.* – says Piotr Mionskowski, Partner & Tech Leader. 
 
 ## Building healthcare apps for chronic disease patients or moms-to-be
 
@@ -68,7 +68,7 @@ After 5 years of building Bright, Daniel and Michał hired [Ula](/about-us/ula/)
 
 ![Bright Inventions history Ula](/images/bright_story_ula.png)
 
-> Ula joining our team was the number 1 milestone in our history. Ula was thrown into deep water and she made it. She not only took care of HR staff, recruitment or marketing. For me the crucial part was her taking care of the well-being of employees. She has been focused on building a work environment where people simply would like to work and self-grow. – says Mateusz Klimczak, Partner, Technical Leader & Project Manager who could observe Ula’s actions since her day one at Bright.
+> *Ula joining our team was the number 1 milestone in our history. Ula was thrown into deep water and she made it. She not only took care of HR staff, recruitment or marketing. For me the crucial part was her taking care of the well-being of employees. She has been focused on building a work environment where people simply would like to work and self-grow.* – says Mateusz Klimczak, Partner, Technical Leader & Project Manager who could observe Ula’s actions since her day one at Bright.
 
 ## Diving into blockchain
 
@@ -90,9 +90,9 @@ In 2020 we got over 50 employees on board! From a 2-people company, we became, o
 
 ![Bright Inventions team](/images/brightstory_team10years.png)
 
-> I think 2020 was pretty pivotal for us. We put a lot of effort to hire great positive people who wanted to create Bright Inventions together with us. I remember that I had a lot of captivating interviews day by day. It was a hectic, but bright time, for sure.
+> *I think 2020 was pretty pivotal for us. We put a lot of effort to hire great positive people who wanted to create Bright Inventions together with us. I remember that I had a lot of captivating interviews day by day. It was a hectic, but bright time, for sure.*
 >
-> It is really important to have a strong sense of the ownership of the organization, team, and your work regardless of the company size. I think we have achieved that. Each and every person in our team has contributed to our Bright success. – says Ula, HR & Marketing Manager.
+> *It is really important to have a strong sense of the ownership of the organization, team, and your work regardless of the company size. I think we have achieved that. Each and every person in our team has contributed to our Bright success.* – says Ula, HR & Marketing Manager.
 
 ## Watching our client’s massive success
 
