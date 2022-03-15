@@ -18,4 +18,12 @@ published: true
 
 ![Bright Inventions 10th anniversary](/images/blog_post_cover_10thanniversary.png)
 
-![]()
+
+
+
+
+![2012 milestone](/images/2012.png)
+
+Our founders [Daniel Makurat](/about-us/daniel/) and [Michał Łukasiewicz](/about-us/michal/) met in 2005 at the Gdańsk University of Technology where they were studying Computer Science. They quickly became friends and after graduating they got a job in a big international corporation. Yet, after a while they felt a bit unmotivated and weary. Looking for space for taking initiatives, they decided to start their own business. Not in the garage but still… ☺️
+
+![Bright Inventions history](/images/bright_story_daniel_michal.png)
