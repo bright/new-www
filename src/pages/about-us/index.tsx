@@ -12,8 +12,8 @@ import Values from './values'
 const AboutUsPage: React.FC = () => (
   <Page>
     <HelmetTitleDescription
-      title='About us - our values, team and approach'
-      description='All you need to know about our software development team.'
+      title='Our history, team and values | Bright Inventions'
+      description='Since 2012 we have built software for startups, digital agencies and mid-sized organisations from such industries as FinTech, Healthcare or Retail.'
     />
     <CustomSection
       paddingProps='3rem 15rem 0rem '
