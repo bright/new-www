@@ -30,6 +30,8 @@ Their goal was to create a place where people would enjoy their work and can gro
 
 ## First-ever client
 
+![2012](/images/2012.png)
+
 One of the first projects we worked on at Bright was [Motivo cycling workouts application](/projects/motivo). It was launched in the UK. As you can see, that was quite some time ago. The app was a personal cycling coach, offering training plans and indoor cycling workouts.
 
 ![Motivo app mockups](/images/motivo_mockup.jpg)
@@ -59,6 +61,8 @@ After 2 years the first employees came on board. Our founders were joined by Pio
 ![Bright Inventions history Piotr and Mateusz](/images/bright_story_piotr_mateusz.png)
 
 ## The first non-technical person on board
+
+![2016](/images/2016.png)
 
 After 5 years of building Bright, Daniel and Michał hired [Ula](/about-us/ula/) – the first member of a team that wasn’t a developer. Ula’s role was to support recruitment and marketing processes. And that was a game-changer. 
 
