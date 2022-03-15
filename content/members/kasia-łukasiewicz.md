@@ -17,6 +17,6 @@ redirect_from:
 published: true
 title: Meet Kasia
 ---
-
 An Agile romantic with a scientific mind and a zeal for learning. She divides her time between university teaching and enhancing project management processes. Believes in people-centered processes and the power of retrospective. Loves music and good food. Privately, a mum of two wild boys.
 
+A mentor in the [Tech Leaders](https://techleaders.eu) program for women eager to develop their technologies skills.
