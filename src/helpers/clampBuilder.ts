@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 export function clampBuilder(
   minWidthPx: number,
   maxWidthPx: number,
@@ -5,20 +7,17 @@ export function clampBuilder(
   maxFontSizePx: number
 ): string {
   const isSSR = typeof window !== 'undefined'
-  if (!isSSR) {
-    const root = document.querySelector('html') as Element
-    const pixelsPerRem = Number(getComputedStyle(root).fontSize.slice(0, -2))
 
-    const minWidth = minWidthPx / pixelsPerRem
-    const maxWidth = maxWidthPx / pixelsPerRem
-    const maxFontSize = maxFontSizePx / pixelsPerRem
-    const minFontSize = minFontSizePx / pixelsPerRem
+  const root = (isSSR ? document.querySelector('html') : null) as Element
+  const pixelsPerRem = Number(getComputedStyle(root).fontSize.slice(0, -2))
 
-    const slope = (maxFontSize - minFontSize) / (maxWidth - minWidth)
-    const yAxisIntersection = -minWidth * slope + minFontSize
+  const minWidth = minWidthPx / pixelsPerRem
+  const maxWidth = maxWidthPx / pixelsPerRem
+  const maxFontSize = maxFontSizePx / pixelsPerRem
+  const minFontSize = minFontSizePx / pixelsPerRem
 
-    return `clamp( ${minFontSize}rem, ${yAxisIntersection}rem + ${slope * 100}vw, ${maxFontSize}rem )`
-  } else {
-    ''
-  }
+  const slope = (maxFontSize - minFontSize) / (maxWidth - minWidth)
+  const yAxisIntersection = -minWidth * slope + minFontSize
+
+  return `clamp( ${minFontSize}rem, ${yAxisIntersection}rem + ${slope * 100}vw, ${maxFontSize}rem )`
 }
