@@ -8,7 +8,7 @@ date: 2022-03-15T09:02:38.311Z
 title: And they lived bright ever after… The story of Bright Inventions
 layout: post
 image: /images/blog_post_cover_10thanniversary.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -29,6 +29,8 @@ Their goal was to create a place where people would enjoy their work and can gro
 **That is how Bright Inventions came to life on March 15, 2012.**
 
 ## First-ever client
+
+![2012](/images/2012.png)
 
 One of the first projects we worked on at Bright was [Motivo cycling workouts application](/projects/motivo). It was launched in the UK. As you can see, that was quite some time ago. The app was a personal cycling coach, offering training plans and indoor cycling workouts.
 
@@ -60,6 +62,8 @@ After 2 years the first employees came on board. Our founders were joined by Pio
 
 ## The first non-technical person on board
 
+![2016](/images/2016.png)
+
 After 5 years of building Bright, Daniel and Michał hired [Ula](/about-us/ula/) – the first member of a team that wasn’t a developer. Ula’s role was to support recruitment and marketing processes. And that was a game-changer. 
 
 ![Bright Inventions history Ula](/images/bright_story_ula.png)
@@ -88,7 +92,7 @@ In 2020 we got over 50 employees on board! From a 2-people company, we became, o
 
 > I think 2020 was pretty pivotal for us. We put a lot of effort to hire great positive people who wanted to create Bright Inventions together with us. I remember that I had a lot of captivating interviews day by day. It was a hectic, but bright time, for sure.
 >
-> It is really important to have a strong sense of the ownership of the organization, team, and your work regardless of the company size. I think we have achieved that. Each and every person in our team has contributed to our Bright success. – says Ula.
+> It is really important to have a strong sense of the ownership of the organization, team, and your work regardless of the company size. I think we have achieved that. Each and every person in our team has contributed to our Bright success. – says Ula, HR & Marketing Manager.
 
 ## Watching our client’s massive success
 
