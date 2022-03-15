@@ -4,7 +4,7 @@ export function clampBuilder(
   minFontSizePx: number,
   maxFontSizePx: number
 ): string {
-  const isSSR = typeof document !== 'undefined'
+  const isSSR = typeof window !== 'undefined'
   if (!isSSR) {
     return ''
   } else {
