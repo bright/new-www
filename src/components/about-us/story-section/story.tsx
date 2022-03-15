@@ -21,7 +21,7 @@ const StoriesWrapperScroll = styled.div`
   }
 
   @media ${variables.device.mobile} {
-    height: 650px;
+    position: absolute;
   }
 `
 const StoriesWrapperPosition = styled.div`
@@ -255,13 +255,14 @@ const ImageWrapper = styled.div`
   }
 `
 const ContentWrapperPositionOutsideScroll = styled.div`
-  @media ${variables.device.laptop} {
+  @media ${variables.device.mobile} {
     position: relative;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
+    height: 650px;
   }
 `
 
