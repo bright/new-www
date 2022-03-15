@@ -9,11 +9,11 @@ export const story: readonly Story[] = [
   {
     images: [
       {
-        src: '/images/members/michał_łukasiewicz.jpg',
+        src: '/images/why-us/timeline/michal_history.png',
         alt: 'Michał Łukasiewicz',
       },
       {
-        src: '/images/members/daniel_makurat.jpg',
+        src: '/images/why-us/timeline/daniel_history.png',
         alt: 'Daniel Makurat',
       },
     ],
@@ -61,11 +61,11 @@ export const story: readonly Story[] = [
   {
     images: [
       {
-        src: '/images/piotr_m2_team.png',
+        src: '/images/why-us/timeline/piotr-mionskowski.png',
         alt: 'Piotr Mionskowski',
       },
       {
-        src: '/images/members/mateusz_klimczak.jpg',
+        src: '/images/why-us/timeline/mateusz-klimczak.png',
         alt: 'Mateusz Klimczak',
       },
     ],
