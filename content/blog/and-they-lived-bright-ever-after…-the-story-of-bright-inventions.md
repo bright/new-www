@@ -106,9 +106,9 @@ In 2021 we launched a beta version of our first original product – [BrightTrea
 
 ![BrightTreasury](/images/treasury_www_3.png)
 
-## BrughTreasury supported by Polkadot community
+## BrughTreasury valued by Polkadot community
 
-![](/images/2022.png)
+![2022](/images/2022.png)
 
 After the official launch of BrighTreasury at the beginning of 2022, the Polkadot community responded with positive feedback. The community decided to support the maintenance and further development of the app. So we have the pleasure to keep working on our original solution for Polkadot and Kusama networks.
 
