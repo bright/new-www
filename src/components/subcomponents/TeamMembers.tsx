@@ -5,7 +5,6 @@ import { routeLinks } from '../../config/routing'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { useAuthors } from '../../use-authors/use-authors'
 import variables from '../../styles/variables'
-import ScrollArrow from './ArrowScrollToTop'
 import { useWindowSize } from '../utils/use-windowsize'
 import { CustomSectionTitle } from '../shared'
 
@@ -325,7 +324,6 @@ const TeamMembers = ({
             )
           })}
 
-          {width <= 992 && !isOurServiceTemplate && !isWhyUs ? <ScrollArrow /> : null}
           {(isOurServiceTemplate && initNumber) || (isWhyUs && whyUsTeamMembers) ? (
             <OurServiceLink isWhyUs={isWhyUs} to={routeLinks.aboutUs({ page: 'team' })}>
               see all team members
