@@ -8,7 +8,7 @@ date: 2022-03-15T09:02:38.311Z
 title: And they lived bright ever after… The story of Bright Inventions
 layout: post
 image: /images/blog_post_cover_10thanniversary.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
