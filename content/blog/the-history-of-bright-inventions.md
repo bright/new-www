@@ -108,7 +108,7 @@ In 2021 we launched a beta version of **our first original product – [BrightTr
 
 ![BrightTreasury](/images/treasury_www_3.png)
 
-## BrughTreasury valued by Polkadot community
+## BrightTreasury valued by Polkadot community
 
 ![2022](/images/2022.png)
 
