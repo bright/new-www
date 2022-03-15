@@ -42,10 +42,10 @@ export const FormComponent: React.FC<Props> = props => {
       <>
         Our recruitment demand is constantly changing. Drop us a line at{' '}
         <AnalyticsLink
-          href='mailto:ula@bright.dev'
+          href='mailto:job@bright.dev'
           action='Click Recruitment Email'
           category='Click Email'
-          text='ula@bright.dev'
+          text='job@bright.dev'
         />
         , or submit your CV and we will contact you when a position inline with your competences becomes available.
       </>
