@@ -95,3 +95,21 @@ In 2020 we got over 50 employees on board! From a 2-people company, we became, o
 ## Watching our client’s massive success
 
 ![2021](/images/2021.png)
+
+Our cooperation with the Israeli ePOS startup, which started in 2013, moved to another level. The startup was acquired by Just Eat – the top online food order and delivery service company. Our client has got all the resources needed to develop their innovations for restaurants across Europe. We are proud to assist them on their journey practically from the very beginning.
+
+## Launching our first product
+
+![2021](/images/2021.png)
+
+In 2021 we launched a beta version of our first original product – [BrightTreasury](https://treasury.bright.dev) app for Kusama and Polkadot. The app is a result of over 6 years of experience in blockchain development. The app was funded by the Web3 Foundation.
+
+![BrightTreasury](/images/treasury_www_3.png)
+
+## BrughTreasury supported by Polkadot community
+
+![](/images/2022.png)
+
+After the official launch of BrighTreasury at the beginning of 2022, the Polkadot community responded with positive feedback. The community decided to support the maintenance and further development of the app. So we have the pleasure to keep working on our original solution for Polkadot and Kusama networks.
+
+Bright Inventions turns 10 in March 2022! :) What’s next for us? We can’t wait to find out!
