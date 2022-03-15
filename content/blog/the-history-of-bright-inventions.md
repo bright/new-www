@@ -12,7 +12,7 @@ hidden: false
 comments: true
 published: true
 ---
-**Bright Inventions turns 10 in March 2022! :D That has been quite a ride. Let us show you milestones of the past decade that made us who we are: bright, client-oriented and always with a positive attitude.**
+**Bright Inventions turns 10 in March 2022! That has been quite a ride. Let us show you milestones of the past decade that made us who we are: bright, client-oriented and always with a positive attitude.**
 
 ![Bright Inventions 10th anniversary](/images/blog_post_cover_10thanniversary.png)
 
