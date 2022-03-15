@@ -8,12 +8,10 @@ date: 2022-03-15T09:02:38.311Z
 title: And they lived bright ever after… The story of Bright Inventions
 layout: post
 image: /images/blog_post_cover_10thanniversary.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
-
-
 **Bright Inventions turns 10 in March 2022! :D That has been quite a ride. Let us show you milestones of the past decade that made us who we are: bright, client-oriented and always with a positive attitude.**
 
 ![Bright Inventions 10th anniversary](/images/blog_post_cover_10thanniversary.png)
@@ -48,7 +46,7 @@ One of the first projects we worked on at Bright was [Motivo cycling workouts ap
 
 ![2013](/images/2013.png)
 
-[Etventure](https://www.etventure.com) (now EY etventure) and Bright Inventions started to cooperate in 2013. Thanks to that cooperation we could build dozens of mobile healthcare applications for iOS and Android. One of them was a [mobile app for pregnant women](/projects/pregnancy-app/) helping them to experience safe and healthy pregnancy and birth. We also developed the [application for Parkinson’s patients](/projects/solution-for-parkinsons-patients/) which helped manage everyday chronic disease symptoms, the [app for mobile physiotherapy](/projects/mobile-therapy-application) and more. 
+[Etventure](https://www.etventure.com) (now EY etventure) and Bright Inventions started to cooperate in 2013. Thanks to that cooperation we could build **dozens of mobile healthcare applications for iOS and Android**. One of them was a [mobile app for pregnant women](/projects/pregnancy-app/) helping them to experience safe and healthy pregnancy and birth. We also developed the [application for Parkinson’s patients](/projects/solution-for-parkinsons-patients/) which helped manage everyday chronic disease symptoms, the [app for mobile physiotherapy](/projects/mobile-therapy-application) and more. 
 
 ![pregnancy app mockup](/images/brightstory_pregnancy_app.png)
 
@@ -62,7 +60,7 @@ After 2 years the first employees came on board. Our founders were joined by Pio
 
 ## The first non-technical person on board
 
-After 5 years of building Bright, Daniel and Michał hired Ula – the first member of a team that wasn’t a developer. Ula’s role was to support recruitment and marketing processes. And that was a game-changer. 
+After 5 years of building Bright, Daniel and Michał hired [Ula](/about-us/ula/) – the first member of a team that wasn’t a developer. Ula’s role was to support recruitment and marketing processes. And that was a game-changer. 
 
 ![Bright Inventions history Ula](/images/bright_story_ula.png)
 
@@ -72,19 +70,19 @@ After 5 years of building Bright, Daniel and Michał hired Ula – the first mem
 
 ![2016](/images/2016.png)
 
-In 2016 we entered the blockchain world by developing the first solutions based on blockchain Ethereum. Since then we started to cooperate with startups, large companies and NGOs that were working with blockchain. This led us to our first original solution built for Polkadot. Yet, that is a story for later. 😉
+In 2016 we entered the blockchain world by developing **the first solutions based on blockchain Ethereum**. Since then we started to cooperate with startups, large companies and NGOs that were working with blockchain. This led us to our first original solution built for Polkadot. Yet, that is a story for later. 😉
 
 ## Top App Development Agency according to Clutch
 
 ![2018](/images/2018.png)
 
-In 2018 for the first time, we were recognised by Clutch as one of the Top App Development and B2B agencies in Poland. Since then we were regularly included in Clutch ranks among the top software development companies in Poland.
+In 2018 for the first time, **we were recognised by Clutch as one of the Top App Development and B2B agencies in Poland**. Since then we were regularly included in Clutch ranks among the top software development companies in Poland.
 
 ## Over 50 bright people
 
 ![2020](/images/2020.png)
 
-In 2020 we got over 50 employees on board! From a 2-people company, we became, over the years, a much bigger and comprehensive team.
+In 2020 we got over 50 employees on board! From a 2-people company, we became, over the years, a much bigger and more comprehensive team.
 
 ![Bright Inventions team](/images/brightstory_team10years.png)
 
@@ -110,6 +108,6 @@ In 2021 we launched a beta version of our first original product – [BrightTrea
 
 ![2022](/images/2022.png)
 
-After the official launch of BrighTreasury at the beginning of 2022, the Polkadot community responded with positive feedback. The community decided to support the maintenance and further development of the app. So we have the pleasure to keep working on our original solution for Polkadot and Kusama networks.
+After the official launch of BrighTreasury at the beginning of 2022, **the Polkadot community responded with positive feedback**. The community decided to support the maintenance and further development of the app. So we have the pleasure to **keep working on our original solution for Polkadot and Kusama networks**.
 
 Bright Inventions turns 10 in March 2022! :) What’s next for us? We can’t wait to find out!
