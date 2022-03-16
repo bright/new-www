@@ -1,7 +1,7 @@
-const basePx = 16
+export const basePx = 16
 export const pxToRem = (px: number) => `${px / basePx}rem`
 
-const deviceSize = {
+export const deviceSize = {
   mobile: 580,
   tablet: 991,
   tabletXL: 1280,
