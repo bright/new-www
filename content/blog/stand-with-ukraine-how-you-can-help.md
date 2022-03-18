@@ -37,6 +37,8 @@ One of the main priorities for the provision of assistance is its effectiveness 
 
 You can check [what to bring and what not to bring to the collection point](https://www.pomagamukrainie.gov.pl/#section5).  
 
+![](/images/material_support.png)
+
 **List of provincial collection points**
 
 * dolnośląskie <https://duw.pl/pl/wolnytekst/18151,Pomagamy-Ukrainie.html>
@@ -78,23 +80,19 @@ On Facebook page "[Gdańsk Pomaga Ukrainie](https://www.facebook.com/donate/4860
 
 ## **International Charities** 
 
-Below you can also find the list of several main international charities supporting people within Ukraine and providing medical and humanitarian aid. Among many these organisations include: 
+Below you can also find the list of several main international charities supporting people within Ukraine and providing medical and humanitarian aid. Among others these are: 
 
 1. **The Ukrainian Red Cross** does loads of humanitarian work, from aiding refugees to training doctors. [Donate here](https://redcross.org.ua/en/donate/).
-2. **The International Medical Corps** is on the front lines and prepared to help citizens with emergency health care services, as well as mental health and psychosocial support. [Donate here](https://give.internationalmedicalcorps.org/page/99837/donate/1?ea.tracking.id=DP~UA22~DPHHU2202).
+2. **The International Medical Corps** is on the front lines and prepared to help citizens with emergency health care services, as well as mental health and psychosocial support. [Donate here](https://give.internationalmedicalcorps.org/page/99837/donate/1?ea.tracking.id=DP~UA22~DPHHU2202). 
+3. **Nova Ukraine** is a nonprofit that delivers aid packages to Ukraine with everything from baby food and hygiene products, to clothes and household supplies. [Donate here](https://novaukraine.org/).
+4. **UNICEF** is repairing schools damaged by the bombings and providing an emergency response to children affected by the conflict. [Donate here](https://www.unicefusa.org/helpukraine).
+5. **The United Nations World Food Programme (WFP)** is deploying emergency operations in Ukraine and surrounding countries to provide food assistance to those fleeing the conflict. Donate [here](https://donatenow.wfp.org/wfp/~my-donation?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMydB7beRrJGGaX%2BATUGWBktLztYtncu9%2Btooq6A%2FKG44pn3XAe7eK%2FhvZ32NqjRa3lk2tYrKG9jwdHP9yN2Ow5&ms=UkraineConflict_REF_MEDIA&_cv=1).
+6. **SOS Children’s Villages** has worked in Ukraine since 2003 and is coordinating an emergency response to support families who are living in the conflict areas and those who have been internally displaced. Find out more and donate [here](https://sos-usa.org/). 
+7. **The World Health Organization Foundation** is raising funds for [WHO’s Health Emergency Appeal](https://www.ukraine.who.foundation/) for Ukraine. You can donate [here](https://www.ukraine.who.foundation/). 
+8. **Direct Relief**  is working directly with Ukraine’s Ministry of Health and other on-the-ground partners to provide urgently needed medical aid, including emergency response packs intended for first responders, oxygen concentrators, critical care medicines, and much more. [Donate here](https://www.directrelief.org/place/ukraine/). 
 
-3. **Nova Ukraine** is a nonprofit that delivers aid packages to Ukraine with everything from baby food and hygiene products, to clothes and household supplies. [Donate here](https://novaukraine.org/).
+![](/images/standwithukraine2.png)
 
-6. **UNICEF** is repairing schools damaged by the bombings and providing an emergency response to children affected by the conflict. [Donate here](https://www.unicefusa.org/helpukraine).
-
-7. **The United Nations World Food Programme (WFP)** is deploying emergency operations in Ukraine and surrounding countries to provide food assistance to those fleeing the conflict. Donate [here](https://donatenow.wfp.org/wfp/~my-donation?ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMydB7beRrJGGaX%2BATUGWBktLztYtncu9%2Btooq6A%2FKG44pn3XAe7eK%2FhvZ32NqjRa3lk2tYrKG9jwdHP9yN2Ow5&ms=UkraineConflict_REF_MEDIA&_cv=1).
-
-8. **SOS Children’s Villages** has worked in Ukraine since 2003 and is coordinating an emergency response to support families who are living in the conflict areas and those who have been internally displaced. Find out more and donate [here](https://sos-usa.org/). 
-
-10. **The World Health Organization Foundation** is raising funds for [WHO’s Health Emergency Appeal](https://www.ukraine.who.foundation/) for Ukraine. You can donate [here](https://www.ukraine.who.foundation/). 
-
-11. **Direct Relief**  is working directly with Ukraine’s Ministry of Health and other on-the-ground partners to provide urgently needed medical aid, including emergency response packs intended for first responders, oxygen concentrators, critical care medicines, and much more. [Donate here](https://www.directrelief.org/place/ukraine/). 
-
-## **Fight disinformation** 
+## **Fight misinformation** 
 
 We should do everything we can to support the citizens of Ukraine in this terrible situation. We believe that we should listen to the voice of the Ukrainians themselves and help them in their time of need. Apart from financial and material support we can should also fight disinformation, so please check facts and use reliable sources of information before you share them with others.
