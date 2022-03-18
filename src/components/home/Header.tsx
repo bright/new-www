@@ -6,6 +6,8 @@ import { CustomSection } from '../shared'
 import styled from 'styled-components'
 import * as styles from './Header.module.scss'
 import variables from '../../styles/variables'
+import { Link } from 'gatsby'
+import { StandWithUkraine } from '../icons/StandWithUkraine.icon'
 
 const HeroWrapper = styled.div`
   color: ${variables.color.text};
@@ -68,21 +70,28 @@ const HeroWrapper = styled.div`
   }
 `
 const HeroBody = styled.div`
-  padding: 0 19rem 0 6.5rem;
-  @media ${variables.device.desktop} {
+  /* padding: 0 19rem 0 6.5rem; */
+  /* @media ${variables.device.desktop} {
     padding: 17.5625rem 0rem 0 0rem;
-  }
-  @media ${variables.device.laptop} {
+  } */
+  /* @media ${variables.device.laptop} {
     padding: 16.1875rem 0.625rem 0 0rem;
-  }
-  @media ${variables.device.tablet} {
-    padding: 11.9375rem 0.9375rem 0 0rem;
+  } */
+  @media ${variables.device.tabletXL} {
+    /* padding: 11.9375rem 0.9375rem 0 0rem; */
     & div.buttons {
       display: none;
     }
   }
+  @media ${variables.device.tablet} {
+    /* padding: 11.9375rem 0.9375rem 0 0rem; */
+    & div.buttons {
+      display: block;
+    }
+  }
   @media ${variables.device.mobile} {
-    padding: 8.94rem 2.56rem 0 0.625rem;
+    /* padding: 8.94rem 2.56rem 0 0.625rem; */
+    width:100% ;
   }
 `
 
@@ -90,6 +99,16 @@ export const Header = () => {
   return (
     <CustomSection className={classNames(styles.header)}>
       <HeroBody>
+        <CustomSection
+          paddingProps='7.25rem 0 5.625rem '
+          paddingLaptop='6.875rem 0 5.25rem'
+          paddingTabletXL='5rem 0 3.375rem'
+          paddingTablet='5.375rem 0 3.125rem'
+          paddingMobileProps='5.3125rem 0 3.125rem'
+        >
+          <StandWithUkraine />
+        </CustomSection>
+
         <HeroWrapper>
           <div>
             <h1 className={classNames('title mt-6', styles.title)}>
