@@ -6,7 +6,7 @@ tags:
 date: 2022-03-17T07:17:18.460Z
 title: "Stand With Ukraine - How You Can Help "
 layout: post
-image: /images/standwithukraine.png
+image: /images/standwithukraine2.png
 hidden: false
 comments: true
 published: true
