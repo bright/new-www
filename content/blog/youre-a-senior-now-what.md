@@ -5,7 +5,7 @@ tags:
   - senior
   - inspiration
 date: 2022-02-01T10:34:49.823Z
-title: You're a senior - now what?
+title: You're a senior developer – now what?
 layout: post
 image: /images/graduate_pool.png
 hidden: false
@@ -20,7 +20,7 @@ There is often a slight pause after you reach your goal. Especially if it’s so
 
 It might sound like a first world problem but the struggle is real. Becoming a senior in a [software development](/our-areas/custom-software-development/) organisation is usually a goal to achieve. **There is advice all over the internet on how to move from junior to senior, however there’s much less support for those who already reached that goal**. What do you do, when you are finally a senior? One of the questions that people seem to ask me very frequently is about self-development when you reach that level. You probably should still learn, but how? Where? When?
 
-At Bright Inventions we define a senior as someone who is obviously highly knowledgeable,  independent and responsible but also good at soft skills and active in knowledge sharing. Someone who supports others with the expertise they have. I think in many organisations a senior is someone who’s expected to support other people’s development while taking care of their own goals at the same time. 
+At Bright Inventions we define a senior developer as someone who is obviously highly knowledgeable,  independent and responsible but also good at soft skills and active in knowledge sharing. Someone who supports others with the expertise they have. I think in many organisations a senior is someone who’s expected to support other people’s development while taking care of their own goals at the same time. 
 
 ## How to know what to learn? 
 
