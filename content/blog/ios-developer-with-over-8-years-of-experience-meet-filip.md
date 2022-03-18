@@ -15,7 +15,7 @@ published: true
 ---
 **His smile is one of the biggest in the office. As well as his mobile development experience. Meet Filip – a Senior iOS Developer whose career started from a painful fail which made him a better programmer. Check out his story.**
 
-![Filip – iOS Developer at Bright Inventions](/images/brightstoryfilip2.png)
+![Filip – Senior iOS Developer at Bright Inventions](/images/brightstoryfilip2.png)
 
 ## When did you realise that you wanted to be a developer?
 
