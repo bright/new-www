@@ -17,14 +17,14 @@ const Svg = styled.svg`
     height: auto;
   }
   @media ${variables.device.mobile} {
-    width: ${variables.pxToRem(200)};
+    width: ${variables.pxToRem(240)};
     height: auto;
   }
 `
 export function StandWithUkraine() {
   return (
     <Link to='blog/stand-with-ukraine-how-you-can-help/'>
-      <Svg xmlns='http://www.w3.org/2000/svg' width='359.779' height='73.94' viewBox='0 0 359.779 73.94'>
+      <Svg xmlns='http://www.w3.org/2000/svg' width='359.779' height='73.94' viewBox='8 0 420 90'>
         <g id='StandWithUkraine' data-name='StandWithUkraine' transform='translate(-0.991 6.17)'>
           <text
             id='_'
