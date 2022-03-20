@@ -12,7 +12,7 @@ import Values from './values'
 const AboutUsPage: React.FC = () => (
   <Page>
     <HelmetTitleDescription
-      title='Our history, team and values | Bright Inventions'
+      title='Our history, team and values'
       description='Since 2012 we have built software for startups, digital agencies and mid-sized organisations from such industries as FinTech, Healthcare or Retail.'
     />
     <CustomSection
