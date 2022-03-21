@@ -60,7 +60,7 @@ You can check [what to bring and what not to bring to the collection point](http
 
 ## **[\#TechForUkraine ](https://www.techtotherescue.org/tech/tech-for-ukraine)**
 
-NGOs are at the heart of civil society in Ukraine. While the the age of digitization has dawned, charities are still far behind private businesses and state institutions. Weak security systems, outdated software and a lack of user-friendly UI and UX make it difficult for them to operate. 
+NGOs are at the heart of civil society in Ukraine. While the age of digitization has dawned, charities are still far behind private businesses and state institutions. Weak security systems, outdated software and a lack of user-friendly UI and UX make it difficult for them to operate. 
 
 ![](/images/techforukraine.png)
 
