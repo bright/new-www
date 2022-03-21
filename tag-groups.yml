@@ -80,7 +80,7 @@ groups:
       - Image classification
       - Nodejs
       - node.js
-      - Node.js  
+      - Node.js
       - nestjs
       - Mobile development
       - programming
@@ -162,7 +162,6 @@ groups:
       - time-management
       - team
   - name: bright updates
-     tags:
+    tags:
       - inspiration
       - Clutch
-  
