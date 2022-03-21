@@ -70,7 +70,7 @@ NGOs are at the heart of civil society in Ukraine. While the age of digitization
 2. Select the projects of your interest - declare in what kind of projects would you like to participate in - define your problem and tech preference. We will get back to you with a list of potential projects that you could support.
 3. Get matched and start building a project - participate in a Matching Call where you will get to meet the non-profit team and check if there is a spark for a joint project. If yes then all there is left is to participate in a scoping session and you are good to go!
 
-## **Gdańsk - our local city suport** 
+## **Gdańsk - our local city support** 
 
 On [Pomeranian Voivodeship Office website](https://www.gdansk.uw.gov.pl/pomagamy-ukrainie) you can find all the information about our local Tricity support.  
 
