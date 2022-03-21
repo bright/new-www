@@ -308,7 +308,7 @@ export function StoryComponent() {
                       onChange={handleChange}
                     />
                   </Label>
-                  {isChecked && width > deviceSize.mobile + 1 && (
+                  {isChecked && width > deviceSize.mobile + 1 && typeof window !== 'undefined' && (
                     <PositionContentWrapper positionLeft={isLeft}>
                       <ContentWrapper positionLeft={isLeft} positionFirst={isFirst} positionLast={isLast}>
                         <ImageWrapper>
@@ -330,7 +330,7 @@ export function StoryComponent() {
           </StoriesWrapper>
         </StoriesWrapperPosition>
       </StoriesWrapperScroll>
-      {selectedIndex >= 0 && width <= deviceSize.mobile + 1 && (
+      {selectedIndex >= 0 && width <= deviceSize.mobile + 1 && typeof window !== 'undefined' && (
         <PositionContentWrapper>
           <ContentWrapper positionFirst={selectedIndex == 0} positionLast={selectedIndex == story.length - 1}>
             <ImageWrapper>
