@@ -95,4 +95,4 @@ Below you can also find the list of several main international charities support
 
 ## **Fight misinformation** 
 
-We should do everything we can to support the citizens of Ukraine in this terrible situation. We believe that we should listen to the voice of the Ukrainians themselves and help them in their time of need. Apart from financial and material support we can should also fight disinformation, so please check facts and use reliable sources of information before you share them with others.
+We should do everything we can to support the citizens of Ukraine in this terrible situation. We believe that we should listen to the voice of the Ukrainians themselves and help them in their time of need. Apart from financial and material support we should also fight disinformation, so please check facts and use reliable sources of information before you share them with others.
