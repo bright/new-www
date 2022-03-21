@@ -28,7 +28,7 @@ export default function TeamPage() {
   return (
     <Page>
       <HelmetTitleDescription
-        title='Meet our software development team | Bright Inventions'
+        title='Meet our software development team'
         description='Meet mobile developers, web app developers, project managers, designers, and more people who are a part of our software development team from Poland.'
       />
       <CustomSection
