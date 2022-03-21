@@ -6,7 +6,7 @@ tags:
 date: 2022-03-17T07:17:18.460Z
 title: "Stand With Ukraine - How You Can Help "
 layout: post
-image: /images/standwithukraine2.png
+image: /images/stand_with_ukraine_cover.png
 hidden: false
 comments: true
 published: true
@@ -60,7 +60,7 @@ You can check [what to bring and what not to bring to the collection point](http
 
 ## **[\#TechForUkraine ](https://www.techtotherescue.org/tech/tech-for-ukraine)**
 
-NGOs are at the heart of civil society in Ukraine. While the the age of digitization has dawned, charities are still far behind private businesses and state institutions. Weak security systems, outdated software and a lack of user-friendly UI and UX make it difficult for them to operate. 
+NGOs are at the heart of civil society in Ukraine. While the age of digitization has dawned, charities are still far behind private businesses and state institutions. Weak security systems, outdated software and a lack of user-friendly UI and UX make it difficult for them to operate. 
 
 ![](/images/techforukraine.png)
 
@@ -70,7 +70,7 @@ NGOs are at the heart of civil society in Ukraine. While the the age of digitiza
 2. Select the projects of your interest - declare in what kind of projects would you like to participate in - define your problem and tech preference. We will get back to you with a list of potential projects that you could support.
 3. Get matched and start building a project - participate in a Matching Call where you will get to meet the non-profit team and check if there is a spark for a joint project. If yes then all there is left is to participate in a scoping session and you are good to go!
 
-## **Gdańsk - our local city suport** 
+## **Gdańsk - our local city support** 
 
 On [Pomeranian Voivodeship Office website](https://www.gdansk.uw.gov.pl/pomagamy-ukrainie) you can find all the information about our local Tricity support.  
 
@@ -95,4 +95,4 @@ Below you can also find the list of several main international charities support
 
 ## **Fight misinformation** 
 
-We should do everything we can to support the citizens of Ukraine in this terrible situation. We believe that we should listen to the voice of the Ukrainians themselves and help them in their time of need. Apart from financial and material support we can should also fight disinformation, so please check facts and use reliable sources of information before you share them with others.
+We should do everything we can to support the citizens of Ukraine in this terrible situation. We believe that we should listen to the voice of the Ukrainians themselves and help them in their time of need. Apart from financial and material support we should also fight disinformation, so please check facts and use reliable sources of information before you share them with others.
