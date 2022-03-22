@@ -5,6 +5,7 @@ tags:
   - mobile
   - job
   - team
+  - update
 date: 2018-03-22T23:00:00.000Z
 title: Make IT Bright - Join our Developer's Team
 layout: post
