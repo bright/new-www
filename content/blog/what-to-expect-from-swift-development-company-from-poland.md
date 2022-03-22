@@ -19,7 +19,7 @@ published: true
 
 Swift development team specializes in building and maintaining mobile applications for iOS. Swift developers take care of every aspect of the iOS app development process: from the ideation phase, building MVP, launch to maintenance. 
 
-Swift is the official Apple language used for iOS app development. Bright Inventions, as one of the top iOS development companies from Poland, specializes in delivering native mobile applications built with Swift.
+Swift is the official Apple language used for [iOS app development](/our-areas/mobile-app-development). Bright Inventions, as one of the top iOS development companies from Poland, specializes in delivering native mobile applications built with Swift.
 
 ## What are typical tools and technologies used by the iOS development team?
 
@@ -81,7 +81,5 @@ Examples of time differences:
 🇵🇱 Poland – 🇮🇱 Israel: 1-hour time difference
 
 🇵🇱 Poland – 🇺🇸 New York: 6-hours time difference
-
-
 
 Looking for an iOS development company from Poland? You came to the right place. [Let’s talk about your iOS solution!](/start-project)
