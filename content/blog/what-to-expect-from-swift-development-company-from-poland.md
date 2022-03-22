@@ -44,7 +44,7 @@ We have listed a typical stack used by iOS developers from Bright Inventions:
 
 ### 1. Polish software developers are a global top of the top.
 
-It has been a well-known fact for years. In 2016 [Hackerrank](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/) presented a very popular insight “Which Country Would Win in the Programming Olympics?”. The report was widely referenced on multiple sites. Polish software developers took third place!
+It has been a well-known fact for years. In 2016 [HackerRank](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/) presented a very popular insight “Which Country Would Win in the Programming Olympics?”. The report was widely referenced on multiple sites. Polish software developers took third place!
 
 <center>
 
