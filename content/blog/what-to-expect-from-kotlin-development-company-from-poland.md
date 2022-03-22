@@ -2,6 +2,7 @@
 author: izabela
 tags:
   - business
+  - Kotlin
 date: 2022-03-09T10:11:14.427Z
 title: What to Expect from Kotlin Development Company from Poland
 layout: post
