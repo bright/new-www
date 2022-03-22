@@ -6,6 +6,7 @@ tags:
   - startups
   - venture capital
   - berlin
+  - update
 comments: true
 image: /images/blog_polish_tech_night.png
 date: '2017-12-21T23:00:00.000Z'
