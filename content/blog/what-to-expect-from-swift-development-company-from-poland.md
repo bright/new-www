@@ -27,18 +27,18 @@ Apart from using Swift language iOS developers use lots of other technologies in
 
 We have listed a typical stack used by iOS developers from Bright Inventions:
 
-* Swift – mentioned many times, but it still should be on this list. 🙂
-* Realm – open-sourced, mobile database
-* SnapKit – the domain-specific language used to make easier Auto Layout
-* Combine/ReactiveSwift – a Swift framework for Reactive Programming
-* GitHub Actions – a tool for automation of software workflows
-* Swift UI – a platform helping to build apps with a better user experience
-* MixPanel – tool for users experience analytics
-* Alamofire – HTTP networking library
-* Fastlane – an open-sourced platform for automationFirebase – a tool enabling data analysis, crash and error monitoring
-* Firebase – a tool enabling data analysis, crash and error monitoring
-* Apollo – GraphQL networking library
-* SwiftFormat / SwiftLint / SwiftGen – tools for improving quality of code
+* **Swift** – mentioned many times, but it still should be on this list. 🙂
+* **Realm** – open-sourced, mobile database
+* **SnapKit** – the domain-specific language used to make easier Auto Layout
+* **Combine/ReactiveSwift** – a Swift framework for Reactive Programming
+* **GitHub Actions** – a tool for automation of software workflows
+* **Swift UI** – a platform helping to build apps with a better user experience
+* **MixPanel** – tool for users experience analytics
+* **Alamofire** – HTTP networking library
+* **Fastlane** – an open-sourced platform for automationFirebase – a tool enabling data analysis, crash and error monitoring
+* **Firebase** – a tool enabling data analysis, crash and error monitoring
+* **Apollo** – GraphQL networking library
+* **SwiftFormat / SwiftLint / SwiftGen** – tools for improving quality of code
 
 ## Reasons why you should work with an iOS development team from Poland:
 
