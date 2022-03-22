@@ -5,7 +5,12 @@ date: 2019-11-28T08:11:47.483Z
 image: /images/top_b2b_comapnies_clutch_2019.png
 author: ula
 tags:
-  - Clutch mobile web software digital startups
+  - Clutch
+  - mobile
+  - web
+  - software
+  - digital
+  - startups
 hidden: false
 comments: true
 published: true
