@@ -9,6 +9,7 @@ tags:
   - Truffle
   - Node.js
   - MainNet
+  - workshops
 date: 2018-07-11T22:00:00.000Z
 title: Would Blockchain lie to you?
 layout: post
