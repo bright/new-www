@@ -170,4 +170,16 @@ export const story: readonly Story[] = [
     subheading: '',
     content: `We started to work on Bright Treasury – our original app dedicated to Substrate Blockchain networks.`,
   },
+  {
+    images: [],
+    logos: [
+      {
+        src: 'images/timeline_2022_10_years.png',
+        alt: 'Bright Inventions 10th birthday',
+      },
+    ],
+    heading: '2022',
+    subheading: '',
+    content: `We turns 10 in March!`,
+  },  
 ] as const
