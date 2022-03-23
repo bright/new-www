@@ -4,7 +4,7 @@ tags:
   - QA
   - inspiration
   - development
-date: 2022-03-23T09:36:03.977Z
+date: 2022-03-23T09:42:39.122Z
 title: How I became a Software Tester in 1 Year
 layout: post
 image: /images/how_to_become_qa_martas_story.png
