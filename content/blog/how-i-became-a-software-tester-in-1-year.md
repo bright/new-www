@@ -63,8 +63,6 @@ I also joined a couple of newsletters about QA and follow news from other blogs 
 
 [](https://www.guru99.com/software-testing.html)[Wyszkolewas.com](https://www.wyszkolewas.com.pl)
 
-[Software Testing Weekly](https://softwaretestingweekly.com)
-
 ### 3. Wait, it is too much. How to get it all together?
 
 I got quickly overwhelmed by the number of information I needed to comprehend. **I didn’t know how to start, what I should learn, and in what order**. Then my friend, who is a software tester, recommended me to go to postgraduate studies to get a structured plan of my learning.
