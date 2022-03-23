@@ -174,7 +174,7 @@ export const story: readonly Story[] = [
     images: [],
     logos: [
       {
-        src: 'images/timeline_2022_10_years.png',
+        src: '/images/why-us/timeline/birthday_2022.png',
         alt: 'Bright Inventions 10th birthday',
       },
     ],
