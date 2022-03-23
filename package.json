@@ -10,7 +10,7 @@
     "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-force-trailing-slashes": "^1.0.5",
     "gatsby-plugin-google-analytics": "^4.3.0",
-    "gatsby-plugin-image": "^2.3.0",
+    "gatsby-plugin-image": "^2.10.0",
     "gatsby-plugin-json-pages": "^1.0.0",
     "gatsby-plugin-manifest": "^4.3.0",
     "gatsby-plugin-netlify-cms": "^6.3.0",
