@@ -4,6 +4,7 @@ secondAuthor: ula
 tags:
   - inspiration
   - business
+  - update
 date: 2021-12-17T07:16:36.653Z
 title: Better than 2020 (and 2021)
 layout: post
