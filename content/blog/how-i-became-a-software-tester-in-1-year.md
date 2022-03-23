@@ -107,3 +107,9 @@ I also dove into [mrbuggy.pl](http://mrbuggy.pl) - the Polish app testing platfo
 ### 8. Writing test cases
 
 Back then I was also learning how to write test cases. My main problem was to write them shorter and more compactly. That was something I had to work hard on.
+
+<center>
+
+<iframe src="https://giphy.com/embed/f5dv1g0Af3KNJneSC3" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MSUMoorhead-dragons-msum-minnesota-state-university-moorhead-f5dv1g0Af3KNJneSC3">via GIPHY</a></p>
+
+</center>
