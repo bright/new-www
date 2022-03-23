@@ -121,3 +121,17 @@ When I was starting my studies I also did a few courses on Codeacademy about [SQ
 Back then I also read a book that was definitely too advanced for me. Don’t make my mistake. :) It was the Polish book “Testowanie Oprogramowania w praktyce” (Software Testing in Practice) by Adam Roman and Karolina Zmitrowicz. In my view, that book is great when you have your first job as QA, but before that, it is too difficult. So, make sure that you read material appropriate for your level of proficiency.
 
 ### 10. Crowdfunding platforms
+
+Due to the fact that ISTQB exams were canceled in March 2020 because of the pandemic my friend told me about crowdfunding platforms for testing such as [utest.com](https://www.utest.com). That is something I highly recommend to people who want to become software testers. That was such a worthwhile experience for me. 
+
+Before you start to work on utest, you have to finish their academy. So it is a great option to know handy tools and build your first software testing habits. For example, you get basic knowledge on how to use Charles proxy or how to report bugs in the right way.
+
+When you finish utest academy, the real adventure begins. You can look for bugs like (almost) in a real commercial job. However, the greatest value is that you can see how more experienced testers seek bugs there and how they handle the whole quality assurance process. That was the best part of exploring the test crowdfunding platforms – to see the best practices from more experienced QAs.
+
+### 11. Udemy, Pluralsight, and other online courses
+
+Apart from learning at EDX and Codeacademy, I did a couple of courses at Udemy and Coursera. I did [Selenium, Python](https://www.udemy.com/course/kurs-selenium-python/), and [MySQL](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/) courses there. Also, I did various courses on YouTube and participated in lots of webinars organized by QA bloggers.
+
+It is worth mentioning that during the pandemic [pluralsight.com](https://www.pluralsight.com) offered free access to the platform. I can recommend courses about [HTML5](https://www.pluralsight.com/paths/html5), [JavaScript](https://www.pluralsight.com/paths/javascript) or [CSS](https://www.pluralsight.com/paths/css). 
+
+### 12. Passing ISTQB
