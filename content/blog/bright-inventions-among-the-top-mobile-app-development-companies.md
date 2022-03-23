@@ -3,6 +3,7 @@ author: izabela
 tags:
   - development
   - inspiration
+  - update
 date: 2021-07-30T09:53:34.119Z
 title: Bright Inventions among the Top Mobile App Development Companies
 layout: post
