@@ -29,11 +29,11 @@ published: true
 
 ## Before software testing career
 
-Prior to becoming Software Tester (or QA Specialist as we call the job at Bright Inventions), I was a Product Engineer. I actually first studied Construction Chemicals but I switched to Material Engineering. After graduating from college I was working as a Product Engineer at a huge Polish EMS provider. I had no associations with the software world but I was working on a daily basis with tools like Jira and Confluence which obviously was very helpful when I decided to move to IT.
+Prior to becoming Software Tester (or QA Specialist as we call the job at [Bright Inventions](/)), I **was a Product Engineer**. I actually first studied Construction Chemicals but I switched to Material Engineering. After graduating from college I was working as a Product Engineer at a huge Polish EMS provider. I had no associations with the software world but **I was working on a daily basis with tools like Jira and Confluence which obviously was very helpful when I decided to move to IT**.
 
 ## Why did I actually want to become a software tester?
 
-That was summer 2019. At some point, the company I worked in wanted to improve the existing Enterprise Resource Planning (ERP system) so I started to work with software developers on that. My job was to make sure that the system would meet our requirements. Being a part of this process became quite fascinating to me. I was doing something like approval tests. One time I talked about it to my friend who is a software developer and she told me that I was doing in some way a tester job. I was eager to explore that area of expertise.
+That was summer 2019. At some point, the company I worked in wanted to improve the existing Enterprise Resource Planning (ERP system) so I started to work with software developers on that. My job was to make sure that the system would meet our requirements. Being a part of this process became quite fascinating to me. **I was doing something like approval tests**. One time I talked about it to my friend who is a software developer and she told me that I was doing in some way a tester job. I was eager to explore that area of expertise.
 
 <center>
 
@@ -41,7 +41,7 @@ That was summer 2019. At some point, the company I worked in wanted to improve t
 
 </center>
 
-I started to learn software testing. It took me around 9 hours a week to study. I still had a full-time job during that time. I was also in the middle of moving to another apartment and had lots of dance workouts during a week. So a lot was going out then. I just want to show you that you can make it without giving up on your other duties and interests. 🙂
+**I started to learn software testing. It took me around 9 hours a week to study.** I still had a full-time job during that time. I was also in the middle of moving to another apartment and had lots of dance workouts during a week. So a lot was going out then. I just want to show you that **you can make it without giving up on your other duties and interests**. 🙂
 
 ## Steps I have taken to become a Software Tester / QA Specialist
 
@@ -70,7 +70,7 @@ I also joined a couple of newsletters about QA and follow news from other blogs 
 
 ### 3. Wait, it is too much. How to get it all together?
 
-I got quickly overwhelmed by the number of information I needed to comprehend. I didn’t know how to start, what I should learn, and in what order. Then my friend, who is a software tester, recommended me to go to postgraduate studies to get a structured plan of my learning.
+I got quickly overwhelmed by the number of information I needed to comprehend. **I didn’t know how to start, what I should learn, and in what order**. Then my friend, who is a software tester, recommended me to go to postgraduate studies to get a structured plan of my learning.
 
 <center>
 
@@ -80,7 +80,7 @@ I got quickly overwhelmed by the number of information I needed to comprehend. I
 
 ### 4. Signing up for the postgraduate studies and preparing for the ISTQB exam
 
-I started my one-year postgraduate studies in Software Testing at the WSB University in Gdańsk. The first semester was all about getting ready for the ISTQB exam. ISTQB syllabus was my “bedtime story”. I read it every day. It wasn't only about reading, there was lots of googling involved in the process. 😉  I had to check out lots of terms from the book. It was the hard work with the syllabus to really understand what it is all about. 
+I started my one-year postgraduate studies in Software Testing at the WSB University in Gdańsk. The first semester was all about getting ready for the ISTQB exam. **ISTQB syllabus was my “bedtime story”**. I read it every day. It wasn't only about reading, there was lots of googling involved in the process. 😉  I had to check out lots of terms from the book. It was the hard work with the syllabus to really understand what it is all about. 
 
 The studies at WSB University were useful because my lecturers were software testers who do that job on a daily basis. So I could really understand the daily challenges that go with the work in IT.
 
