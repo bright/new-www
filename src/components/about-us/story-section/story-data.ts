@@ -180,6 +180,6 @@ export const story: readonly Story[] = [
     ],
     heading: '2022',
     subheading: '',
-    content: `We turn 10 in March!`,
+    content: `We celebrate 10th birthday!`,
   },  
 ] as const
