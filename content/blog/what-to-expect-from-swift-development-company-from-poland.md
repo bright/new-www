@@ -66,7 +66,7 @@ Poland has challenged gender inequalities in software development. [HackerRank](
 
 </center>
 
-### 4. Workable time difference between Polish Swift developers and the rest of the world
+### 4. Workable time difference between Polish Swift developers and the rest of the world.
 
 Poland is in Central European Time (CET) which makes it possible to organize daily online meetings with companies from Germany, Norway, as well as Israel or the USA.
 
