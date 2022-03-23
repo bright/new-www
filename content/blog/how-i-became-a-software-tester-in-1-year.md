@@ -77,3 +77,33 @@ I got quickly overwhelmed by the number of information I needed to comprehend. I
 <iframe src="https://giphy.com/embed/3o7btPCcdNniyf0ArS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cbc-comedy-what-3o7btPCcdNniyf0ArS">via GIPHY</a></p>
 
 </center>
+
+### 4. Signing up for the postgraduate studies and preparing for the ISTQB exam
+
+I started my one-year postgraduate studies in Software Testing at the WSB University in Gdańsk. The first semester was all about getting ready for the ISTQB exam. ISTQB syllabus was my “bedtime story”. I read it every day. It wasn't only about reading, there was lots of googling involved in the process. 😉  I had to check out lots of terms from the book. It was the hard work with the syllabus to really understand what it is all about. 
+
+The studies at WSB University were useful because my lecturers were software testers who do that job on a daily basis. So I could really understand the daily challenges that go with the work in IT.
+
+### 5. Joining Facebook groups
+
+Obviously, right after applying to college, I joined a couple of Polish Facebook groups that touched on learning software testing. Quickly my Facebook feed became full of tips and tester stories. These are Facebook groups I definitely recommend:
+
+[Tester oprogramowania - wsparcie na starcie](https://www.facebook.com/groups/testeroprogramowania)
+
+[ISTQB - egzaminy, pytania, testy](https://www.facebook.com/groups/194288250951242)
+
+[Testowanie oprogramowania](https://www.facebook.com/groups/TestowanieOprogramowania)
+
+### 6. Getting friendly with the console
+
+Back then I was also focusing on learning Linux and basic commands and ways of using the console. 
+
+### 7. Exploring platforms for testers-to-be
+
+I spent lots of my time at [checkio.org](https://checkio.org). That is another website I really recommend. Checkio is a learning platform that teaches you programming. Yet, it involves gamification. You solve issues and then unlock other challenges. That was really fun and lots of learning at the same time. Another great platform is [exercism.org](https://exercism.org) which also gives many opportunities to learn various programming languages.
+
+I also dove into [mrbuggy.pl](http://mrbuggy.pl) - the Polish app testing platform that was recommended to me by my college professors. It gave me the opportunity to look for bugs in 7 different applications. A very useful tool to learn.
+
+### 8. Writing test cases
+
+Back then I was also learning how to write test cases. My main problem was to write them shorter and more compactly. That was something I had to work hard on.
