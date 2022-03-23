@@ -165,3 +165,33 @@ At Bright, I work in a team that is developing iOS applications for our Israeli 
 <iframe src="https://giphy.com/embed/111ebonMs90YLu" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thumbs-up-111ebonMs90YLu">via GIPHY</a></p>
 
 </center>
+
+## Last but not least. Top pieces of advice I got during my career change
+
+### 1. Set up a LinkedIn account.
+
+My brother (a software developer) was pushing me for months to set up a LinkedIn account. I am not a huge fan of social media and exposing myself there. I was very reluctant. Eventually, I did it. That was very good advice. Three days after signing up on LinkedIn the recruiter contacted me. As a result, I got my first IT job. 
+
+### 2. Focus on you and your story.
+
+I was learning during the pandemic. That wasn’t the best time for people who wanted to get into IT. I read online lots of stories of people who were frustrated because they couldn’t get their first IT job for 6 months or longer. These kinds of stories were really a mood killer for me. So my friend (a software developer who also came from a different industry) kept telling me to stop reading that and focus on my learning. She set me straight many times making sure that I wouldn’t give up.
+
+<center>
+
+<iframe src="https://giphy.com/embed/ACJuukdjBl65FwUFzT" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nbclawandorder-episode-8-svu-season-23-ACJuukdjBl65FwUFzT">via GIPHY</a></p>
+
+</center>
+
+This is my story of becoming a software tester. What more can I say? Good luck and push it forward. You can do it!
+
+PS
+
+Extra links from me. The last ones. I promise. 😀
+
+I guess it is worth getting familiar with:
+
+[Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+
+[Resources for Developers, by Developers](https://developer.mozilla.org/en-US/)
+
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/)
