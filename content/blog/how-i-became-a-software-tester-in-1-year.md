@@ -143,3 +143,25 @@ After a couple of months of delay because of the pandemic, I was finally able to
 <iframe src="https://giphy.com/embed/3og0IQsupJLxzqSbmM" width="480" height="322" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cbc-funny-comedy-3og0IQsupJLxzqSbmM">via GIPHY</a></p>
 
 </center>
+
+### 13. Graduating from college and the first project on GitHub
+
+My thesis touched on test automation using Selenium and PyTest and the usage of test parametrization. It really got me hooked. I spent lots of hours on it really enjoying it. I learned a lot e.g. the Page Object Pattern. This is the first project I showed on my Github profile.
+
+A common practice to treat GitHub as a portfolio was never that big of a deal for me. So I actually started to update my Github quite late.
+
+### 14. Looking for the first job
+
+After passing the ISTQB exam I started to seek my first Software Tester job. Let me tell you right away – it wasn’t easy. I was sending my resume to companies across the whole of Poland. I got zero response, so after a couple of months, I became quite unmotivated. Eventually, I set up a Linkedin account (more on that later). After 3 days I got contacted by a recruiter, had an interview and in fact got my first commercial job in software development. So it took me 3 months to find my first job. 
+
+### 15. Landing at Bright Inventions and keep learning
+
+Eventually, almost 2 years later I got to Bright Inventions and became Quality Assurance Specialist here. My goal is to get better and better at automatization. I learn programming languages for conducting automated testing. Now I focus on C#. I have weekly meetings with my mentor – a tech leader who I met in a course of my career. 
+
+At Bright, I work in a team that is developing iOS applications for our Israeli client from the ePOS & retail industry. That is a huge international project and a great challenge for me.
+
+<center>
+
+<iframe src="https://giphy.com/embed/111ebonMs90YLu" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thumbs-up-111ebonMs90YLu">via GIPHY</a></p>
+
+</center>
