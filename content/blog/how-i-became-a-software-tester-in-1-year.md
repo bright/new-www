@@ -7,14 +7,14 @@ tags:
 date: 2022-03-23T09:42:39.122Z
 title: How I became a Software Tester in 1 Year
 layout: post
-image: /images/how_to_become_qa_martas_story.png
+image: /images/how_to_become_qa_martas_story2.png
 hidden: false
 comments: true
 published: true
 ---
 **How to get a software tester job with no experience? What qualifications do you need to be a Software Tester? Here is my story of becoming a QA Specialist in a year. Step by step.**
 
-![how to become a software tester](/images/how_to_become_qa_martas_story.png)
+![how to become a software tester](/images/how_to_become_qa_martas_story2.png)
 
 ## My road to software tester job in numbers:
 
@@ -59,12 +59,9 @@ I also joined a couple of newsletters about QA and follow news from other blogs 
 
 [softwaretestingmaterial.com](https://www.softwaretestingmaterial.com/software-testing/)
 
-
 [](https://www.guru99.com/software-testing.html)[guru99.com](https://www.guru99.com/software-testing.html)
 
-
 [](https://www.guru99.com/software-testing.html)[Wyszkolewas.com](https://www.wyszkolewas.com.pl)
-
 
 [Software Testing Weekly](https://softwaretestingweekly.com)
 
