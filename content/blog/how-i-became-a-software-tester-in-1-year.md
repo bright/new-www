@@ -113,3 +113,11 @@ Back then I was also learning how to write test cases. My main problem was to wr
 <iframe src="https://giphy.com/embed/f5dv1g0Af3KNJneSC3" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MSUMoorhead-dragons-msum-minnesota-state-university-moorhead-f5dv1g0Af3KNJneSC3">via GIPHY</a></p>
 
 </center>
+
+### 9. Doing Codecademy courses
+
+When I was starting my studies I also did a few courses on Codeacademy about [SQL](https://www.codecademy.com/learn/learn-sql), [Python](https://www.codecademy.com/learn/learn-python-3), and [CSS + HTML](https://www.codecademy.com/learn/learn-css).
+
+Back then I also read a book that was definitely too advanced for me. Don’t make my mistake. :) It was the Polish book “Testowanie Oprogramowania w praktyce” (Software Testing in Practice) by Adam Roman and Karolina Zmitrowicz. In my view, that book is great when you have your first job as QA, but before that, it is too difficult. So, make sure that you read material appropriate for your level of proficiency.
+
+### 10. Crowdfunding platforms
