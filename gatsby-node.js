@@ -32,7 +32,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const posts = result.data.allMarkdownRemark.edges
   const postsPerPage = 10
   const numPages = Math.ceil(posts.length / postsPerPage)
-  
+
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
@@ -46,7 +46,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       },
     })
   })
-  
+
   const ymlDocTags = yaml.load(fs.readFileSync("./tag-groups.yml", "utf-8"))
   // const tags = result.data.tagsGroup.group;
   ymlDocTags.groups.forEach(async (tag) => {
@@ -160,9 +160,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
  const members = memberResult.data.allMarkdownRemark?.edges
 
  await Promise.all(members.map(async ({ node }) => {
- 
- 
-  
+
+
+
   const  { fileAbsolutePath, frontmatter  } = node
   const { slug: member, author_id: authorId } = frontmatter
   const result = await graphql(`
@@ -242,7 +242,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   }
   `)
-  
+
   const {author, secondAuthor, thirdAuthor } = result.data
   const allAuthors = [ ...author?.edges, ...secondAuthor?.edges, ...thirdAuthor?.edges ]
 
@@ -254,7 +254,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const postsPerPage = 10
   const numPages = Math.ceil(uniqueAuthors.length / postsPerPage)
 
- 
+
     if(posts.length === 0) {
     createPage({
       path: `/about-us/${_.kebabCase(member)}`,
@@ -281,7 +281,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 })
 )
-   
+
   const serviceResult = await graphql(`
   {
     allMarkdownRemark(
@@ -326,7 +326,7 @@ services.forEach(service => {
       path:'our-areas/' + (service.node.frontmatter.slug ) + "/" + _.kebabCase((faq.frontmatter.question.toLowerCase())),
       component: path.resolve("./src/templates/OurServiceTemplate.tsx"),
       context: {
-        faqTitle: faq.frontmatter.question, 
+        faqTitle: faq.frontmatter.question,
         slug: service.node.frontmatter.slug,
         fileAbsolutePath: service.node.fileAbsolutePath,
     },
@@ -375,7 +375,7 @@ services.forEach(service => {
       //     fileAbsolutePath: node.fileAbsolutePath,
       //   },
       // })
-    
+
         createPage({
           path: path + "/" + (node.frontmatter.slug || name),
           component: template,
@@ -403,12 +403,14 @@ services.forEach(service => {
     `${__dirname}/src/templates/PostTemplate.tsx`
   )
   await preparePage("post", "blog", postTemplate)
-  
+
   createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
+  createRedirect({ fromPath: '/about-us/values', toPath: '/about-us' })
+  createRedirect({ fromPath: '/about-us/story', toPath: '/about-us' })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  
+
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     createNodeField({
