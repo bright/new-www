@@ -135,3 +135,11 @@ Apart from learning at EDX and Codeacademy, I did a couple of courses at Udemy a
 It is worth mentioning that during the pandemic [pluralsight.com](https://www.pluralsight.com) offered free access to the platform. I can recommend courses about [HTML5](https://www.pluralsight.com/paths/html5), [JavaScript](https://www.pluralsight.com/paths/javascript) or [CSS](https://www.pluralsight.com/paths/css). 
 
 ### 12. Passing ISTQB
+
+After a couple of months of delay because of the pandemic, I was finally able to do my ISTQB exam. I took the test and passed it. I felt ready to start sending CVs. 🙂
+
+<center>
+
+<iframe src="https://giphy.com/embed/3og0IQsupJLxzqSbmM" width="480" height="322" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cbc-funny-comedy-3og0IQsupJLxzqSbmM">via GIPHY</a></p>
+
+</center>
