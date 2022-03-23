@@ -5,6 +5,7 @@ tags:
   - inspiration
   - teamspirit
   - business
+  - update
 date: 2022-02-09T10:31:01.939Z
 title: Bright Inventions turns 10 in March! What do we value? How did we get there?
 layout: post
