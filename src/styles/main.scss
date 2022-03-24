@@ -1,42 +1,42 @@
-@import "variables";
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Lato&display=swap");
+@import 'variables';
+// @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Lato&display=swap");
 
-@import "./bulma/sass/utilities/all";
-@import "./bulma/sass/base/all";
-@import "./bulma/sass/elements/all";
+@import './bulma/sass/utilities/all';
+@import './bulma/sass/base/all';
+@import './bulma/sass/elements/all';
 
-@import "./bulma/sass/layout/all";
+@import './bulma/sass/layout/all';
 
-@import "./bulma/sass/grid/all";
+@import './bulma/sass/grid/all';
 
-@import "./bulma/sass/components/level";
-@import "./bulma/sass/components/card";
-@import "./bulma/sass/components/media";
-@import "./bulma/sass/components/tabs";
+@import './bulma/sass/components/level';
+@import './bulma/sass/components/card';
+@import './bulma/sass/components/media';
+@import './bulma/sass/components/tabs';
 
-@import "./bulma/sass/form/all";
+@import './bulma/sass/form/all';
 
 //@import "./bulma/bulma";
 
-@import "typography";
+@import 'typography';
 
-@import "form-submit";
+@import 'form-submit';
 
-@import "helpers";
+@import 'helpers';
 
-@import "navbar";
-@import "page-index";
-@import "page-career";
-@import "team-members";
-@import "carousel";
-@import "blog";
-@import "rouge_style_github";
-@import "rouge_style_bright";
-@import "footer";
+@import 'navbar';
+@import 'page-index';
+@import 'page-career';
+@import 'team-members';
+@import 'carousel';
+@import 'blog';
+@import 'rouge_style_github';
+@import 'rouge_style_bright';
+@import 'footer';
 
-@import "fonts";
+@import 'fonts';
 
-@import "instagram-embed";
+@import 'instagram-embed';
 
 .layout-container {
   margin-top: $navbar-height;
