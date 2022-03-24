@@ -149,7 +149,7 @@ A common practice to treat GitHub as a portfolio was never that big of a deal fo
 
 After passing the ISTQB exam I started to seek my first Software Tester job. Let me tell you right away – **it wasn’t easy**. I was sending my resume to companies across the whole of Poland. I got zero response, so after a couple of months, I became quite unmotivated. 
 
-Eventually, **I set up a Linkedin account** (more on that later). **After 3 days I got contacted by a recruiter**, had an interview and in fact got my first commercial job in software development. So it took me 3 months to find my first job. 
+Eventually, **I set up a Linkedin account** (more on that later). **After 3 days I got contacted by a recruiter**, had an interview and in fact got my first commercial job in software development. So it took me 3 months to find my first job. I should add that I didn’t accept that first tester job offer. I chose a job less related to testing because it had better benefits.
 
 ### 15. Landing at Bright Inventions and keep learning
 
