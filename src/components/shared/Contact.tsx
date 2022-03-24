@@ -20,9 +20,8 @@ import {
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomPageTitle, CustomSection, CustomTextRegular } from './index.styled'
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import ReactMarkdown from 'react-markdown'
-import AnalyticsLink from './AnalyticsLink'
+import { trackCustomEvent } from '../../helpers/trackCustomEvent'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;

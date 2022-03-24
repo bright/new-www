@@ -7,7 +7,6 @@ import { routeLinks } from '../../../config/routing'
 import { CustomSection, CustomSectionInner, TextRegular } from '../../shared'
 import variables from '../../../styles/variables'
 import { CustomSectionTitle } from './../../shared/index.styled'
-import AnalyticsLink from '../../shared/AnalyticsLink'
 
 interface Props extends FormProps {
   title?: React.ReactNode
@@ -41,12 +40,7 @@ export const FormComponent: React.FC<Props> = props => {
     description = (
       <>
         Our recruitment demand is constantly changing. Drop us a line at{' '}
-        <AnalyticsLink
-          href='mailto:jobs@bright.dev'
-          action='Click Recruitment Email'
-          category='Click Email'
-          text='jobs@bright.dev'
-        />
+        <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>
         , or submit your CV and we will contact you when a position inline with your competences becomes available.
       </>
     ),

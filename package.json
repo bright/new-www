@@ -9,7 +9,7 @@
     "gatsby-plugin-disqus": "^1.2.3",
     "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-force-trailing-slashes": "^1.0.5",
-    "gatsby-plugin-google-analytics": "^4.3.0",
+    "gatsby-plugin-google-gtag": "^4.10.0",
     "gatsby-plugin-image": "^2.10.0",
     "gatsby-plugin-json-pages": "^1.0.0",
     "gatsby-plugin-manifest": "^4.10.1",
@@ -61,6 +61,7 @@
     "@types/react-helmet": "^6.1.2",
     "@types/react-tag-input": "^6.1.3",
     "@types/styled-components": "^5.1.12",
+    "@types/gtag.js": "^0.0.10",
     "prettier": "2.0.4"
   },
   "keywords": [

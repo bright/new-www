@@ -9,7 +9,6 @@ import LogoWhite from '../assets/logo_white_2.svg'
 import { routeLinks } from '../config/routing'
 
 import * as styles from './Footer.module.scss'
-import AnalyticsLink from '../components/shared/AnalyticsLink'
 
 export const Footer = () => {
   return (
@@ -87,12 +86,7 @@ export const Footer = () => {
                 <EmailIcon />
               </div>
               <div className='right'>
-                <AnalyticsLink
-                  href='mailto:info@brightinventions.pl?subject=bright%20mail'
-                  text='info@brightinventions.pl'
-                  category='Click Email'
-                  action='Click Business Email'
-                />
+                <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
               </div>
             </div>
           </div>

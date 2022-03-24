@@ -3053,6 +3053,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/gtag.js@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.10.tgz#ac90d9b79c00daac447725a4b78ec1c398796760"
+  integrity sha512-98Hy7woUb3jMAMXkZQwfIOYNyfxmI0+U4m0PpCGdnd/FHk0tDpQFCqgXdNkdEoXsKkcGya/2Gew1cAJjKJspVw==
+
 "@types/hast@^2.0.0":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@types/hast/-/hast-2.3.1.tgz#b16872f2a6144c7025f296fb9636a667ebb79cd9"
@@ -7665,14 +7670,22 @@ gatsby-plugin-force-trailing-slashes@^1.0.5:
   dependencies:
     "@babel/runtime" "7.12.5"
 
-gatsby-plugin-google-analytics@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.3.0.tgz#1db01c2607a0c2c55f070b68a70c83928ed2165f"
-  integrity sha512-waHU0b7eTQuub7GgMDxJ4E5MjqXFqmQ8UaFMAWrdaCtRmj4CNdee36xYMbobzqOmtU5L40IFZ3kifIda6M1Pow==
+gatsby-plugin-google-analytics@^4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.10.0.tgz#de836e096eecc0cff0d6ac1b95ebdd9410e00f16"
+  integrity sha512-9BaFwkedIv1JMTPPr4YNax80QJH8+6mHHh34SlrJE2YiYtYu/uYaZTc8LEv+bIHEtafkfAZo2kkjqT7h/3MmMg==
   dependencies:
     "@babel/runtime" "^7.15.4"
     minimatch "3.0.4"
     web-vitals "^1.1.2"
+
+gatsby-plugin-google-gtag@^4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-4.10.0.tgz#bf2897cab9e2e3fda15dbe5ef8526f8dde238d4e"
+  integrity sha512-RnhD25M+v2DzBCxxd0hrJ5ki32Rk4mm8973+9J6ukyk+3u/ym5nvjj47qzMVaYx9bbvs03Py1v27TsbBouwhPg==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    minimatch "^3.0.4"
 
 gatsby-plugin-image@^2.10.0:
   version "2.10.0"
