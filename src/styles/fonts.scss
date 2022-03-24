@@ -20,7 +20,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
-  src: local('Montserrat'), url('/fonts/montserrat-v23-latin-300.woff2') format('woff2'),
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-300.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/montserrat-v23-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -29,7 +29,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: local('Montserrat'), url('/fonts/montserrat-v23-latin-regular.woff2') format('woff2'),
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/montserrat-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -38,7 +38,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  src: local('Montserrat'), url('/fonts/montserrat-v23-latin-500.woff2') format('woff2'),
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-500.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/montserrat-v23-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -47,7 +47,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
-  src: local('Montserrat'), url('/fonts/montserrat-v23-latin-600.woff2') format('woff2'),
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-600.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/montserrat-v23-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -56,7 +56,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: local('Montserrat'), url('/fonts/montserrat-v23-latin-700.woff2') format('woff2'),
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-700.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/montserrat-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -65,7 +65,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
-  src: local('Montserrat'), url('/fonts/montserrat-v23-latin-800.woff2') format('woff2'),
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-800.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/montserrat-v23-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -74,7 +74,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 900;
-  src: local('Montserrat'), url('/fonts/montserrat-v23-latin-900.woff2') format('woff2'),
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-900.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/montserrat-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -83,7 +83,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato'), url('/fonts/lato-v22-latin-regular.woff2') format('woff2'),
+  src: local('Lato'), url('./fonts/lato-v22-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/lato-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -92,7 +92,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato'), url('/fonts/lato-v22-latin-700.woff2') format('woff2'),
+  src: local('Lato'), url('./fonts/lato-v22-latin-700.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/lato-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -101,7 +101,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-  src: local('Lato'), url('/fonts/lato-v22-latin-900.woff2') format('woff2'),
+  src: local('Lato'), url('./fonts/lato-v22-latin-900.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/lato-v22-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -110,7 +110,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto'), url('/fonts/roboto-v29-latin-regular.woff2') format('woff2'),
+  src: local('Roboto'), url('./fonts/roboto-v29-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -119,7 +119,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto'), url('/fonts/roboto-v29-latin-700.woff2') format('woff2'),
+  src: local('Roboto'), url('./fonts/roboto-v29-latin-700.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
@@ -128,7 +128,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: local('Roboto'), url('/fonts/roboto-v29-latin-900.woff2') format('woff2'),
+  src: local('Roboto'), url('./fonts/roboto-v29-latin-900.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
