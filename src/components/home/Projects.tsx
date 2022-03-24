@@ -10,6 +10,8 @@ import { ProjectModel } from '../../models/gql'
 import ScrollToTop from '../subcomponents/ScrollToTop'
 import { CustomTextRegular } from './../shared/index.styled'
 import { pxToRem } from './../../styles/variables'
+import { BehanceIcon } from '../icons/Behance.icon'
+import { DribbleIcon } from './../icons/Dribble.icon'
 
 export const ProjectCustomSection = styled(CustomSection)`
   & .success-story-wrapper {
@@ -312,10 +314,10 @@ export const Projects: React.FC<ProjectsProps> = ({
         <BlockSmall className='is-pulled-right'>
           <span>visit our online portfolio:</span>
           <a target='_blank' href='https://www.behance.net/BrightInventions/'>
-            <img src='/images/success-story-home-page/behance.svg' alt='Behance' />
+            <BehanceIcon />
           </a>
           <a target='_blank' href='https://dribbble.com/Bright_Inventions/'>
-            <img src='/images/success-story-home-page/icon2.svg' alt='Dribbble' />
+            <DribbleIcon />
           </a>
         </BlockSmall>
 
