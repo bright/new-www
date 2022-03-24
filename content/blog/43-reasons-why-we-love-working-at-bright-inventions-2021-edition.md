@@ -3,6 +3,7 @@ author: izabela
 tags:
   - inspiration
   - teamwork
+  - update
 date: 2021-12-13T08:40:25.630Z
 title: 43 Reasons Why We Love Working at Bright Inventions [2021 Edition]
 layout: post

@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `${process.env.GATSBY_ACTIVE_ENV == 'production' ? 'UA-29336006-1' : 'UA-00000000-0'}`,
+        trackingId: `${process.env.GATSBY_ACTIVE_ENV === 'production' ? 'UA-29336006-1' : 'UA-00000000-0'}`,
         // this option places the tracking script into the head of the DOM
         head: true,
         // other options
@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId:
-        `${process.env.GATSBY_ACTIVE_ENV == 'production' ? '1256554391514599' : ''}`,
+        `${process.env.GATSBY_ACTIVE_ENV === 'production' ? '1256554391514599' : ''}`,
       },
     },
     'gatsby-plugin-react-helmet',
@@ -138,6 +138,26 @@ module.exports = {
           {
             resolve: `gatsby-remark-autolink-headers`,
           },
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              // ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
+              // height: 400, // Optional: Overrides optional.ratio
+              // related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
+              // noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+              // loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
+              // urlOverrides: [
+              //   {
+              //     id: "youtube",
+              //     embedURL: videoId =>
+              //       `https://www.youtube-nocookie.com/embed/${videoId}`,
+              //   },
+              // ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+              // containerClass: "embedVideo-container", //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
+              // iframeId: false, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
+            },
+          }
         ],
       },
     },
@@ -212,33 +232,6 @@ module.exports = {
                           }) => ({
               tags: [...new Set(posts.flatMap(post => post.frontmatter?.tags ?? []))]
             }),
-          },
-        ],
-      },
-    },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-embed-video",
-            options: {
-              width: 800,
-              // ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              // height: 400, // Optional: Overrides optional.ratio
-              // related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
-              // noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
-              // loadingStrategy: 'lazy', //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
-              // urlOverrides: [
-              //   {
-              //     id: "youtube",
-              //     embedURL: videoId =>
-              //       `https://www.youtube-nocookie.com/embed/${videoId}`,
-              //   },
-              // ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
-              // containerClass: "embedVideo-container", //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
-              // iframeId: false, //Optional: if true, iframe's id will be set to what is provided after 'video:' (YouTube IFrame player API requires iframe id)
-            },
           },
         ],
       },

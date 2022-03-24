@@ -7,7 +7,7 @@ import { HelmetTitleDescription } from '../../meta/HelmetTitleDescription'
 import { StoryComponent } from '../../components/about-us/story-section/story'
 import TeamMembers from '../../components/subcomponents/TeamMembers'
 import { FormComponent } from '../../components/about-us/form-section/form'
-import Values from './values'
+import Values from './_Values'
 
 const AboutUsPage: React.FC = () => (
   <Page>

@@ -7,6 +7,7 @@ tags:
   - iOS
   - ReactiveCocoa
   - CocoaHeads
+  - update
 comments: true
 author: piotr
 published: true
