@@ -188,6 +188,7 @@ module.exports = {
         region: 'eu-central-1',
       },
     },
+    `gatsby-plugin-loadable-components-ssr`,
     {
       resolve: 'gatsby-plugin-force-trailing-slashes',
       options: {},
@@ -223,7 +224,6 @@ module.exports = {
                   }
                 }
               }
-
             `,
             transformer: ({
                             data: {
