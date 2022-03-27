@@ -2,8 +2,8 @@ import React from 'react'
 import loadable from '@loadable/component'
 import { Page } from '../layout/Page'
 import { Header } from '../components/home/Header'
-import { Achievements } from '../components/home/Achievements'
-import { TechnologyTags } from '../components/shared/TechnologyTags'
+const Achievements = loadable(() => import('../components/home/Achievements'))
+const TechnologyTags = loadable(() => import('../components/shared/TechnologyTags'))
 import { OurServices } from '../components/home/OurServices'
 import { Projects } from '../components/home/Projects'
 const Ratings = loadable(() => import('../components/shared/Ratings'))

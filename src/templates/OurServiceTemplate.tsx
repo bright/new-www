@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
-import { TechnologyTags } from '../components/shared/TechnologyTags'
+import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 

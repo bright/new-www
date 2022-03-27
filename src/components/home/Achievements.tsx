@@ -54,17 +54,17 @@ const AchievementsWrapper = styled.div`
         }
       }
       & > div {
-          align-self: flex-start;
-      
-        }
-       
+        align-self: flex-start;
+      }
+
       &:nth-of-type(n + 3) {
         padding-bottom: 0;
       }
-      
     }
+  }
+
   @media ${variables.device.mobile} {
-    max-width:248px ;
+    max-width: 248px;
     flex-wrap: wrap;
     & > div {
       padding-bottom: 7.32rem;
@@ -76,7 +76,7 @@ const AchievementsWrapper = styled.div`
   }
 `
 
-export const Achievements = () => {
+const Achievements = () => {
   const elements = [
     { number: new Date().getFullYear() - 2012, label: 'Years' },
     { number: 53, label: 'Projects' },
@@ -98,3 +98,4 @@ export const Achievements = () => {
     </AchievementsSectionBlack>
   )
 }
+export default Achievements

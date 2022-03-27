@@ -1,4 +1,3 @@
-import { margin } from 'polished'
 import React from 'react'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
@@ -70,7 +69,7 @@ const Pill = styled.div({
   },
 })
 
-export const TechnologyTags = () => {
+const TechnologyTags = () => {
   return (
     <SectionBlackContainer>
       <CustomContainer>
@@ -97,3 +96,4 @@ export const TechnologyTags = () => {
     </SectionBlackContainer>
   )
 }
+export default TechnologyTags
