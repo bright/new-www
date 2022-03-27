@@ -173,6 +173,7 @@ const HeroHeaderImages: React.FC = () => {
                 src='../../../static/images/hero-header/Agnieszka_Homepage_kolaz.png'
                 alt={'Agnieszka'}
                 className='image-veritical'
+                placeholder='tracedSVG'
               />
               <StaticImage
                 objectFit={'cover'}
@@ -180,6 +181,7 @@ const HeroHeaderImages: React.FC = () => {
                 src='../../../static/images/hero-header/Mateusz_Homepage_kolaz.png'
                 alt={'Mateusz'}
                 className='image-veritical'
+                placeholder='tracedSVG'
               />
             </ImagesVertical>
             <StaticImage
@@ -188,6 +190,7 @@ const HeroHeaderImages: React.FC = () => {
               src='../../../static/images/hero-header/Lukasz_Homepage_kolaz.png'
               alt={'Łukasz'}
               className='big-image'
+              placeholder='tracedSVG'
             />
             <ImagesVertical>
               <StaticImage
@@ -196,6 +199,7 @@ const HeroHeaderImages: React.FC = () => {
                 src='../../../static/images/hero-header/Alisa_homepage.png'
                 alt={'Paulina'}
                 className='image-veritical'
+                placeholder='tracedSVG'
               />
               <StaticImage
                 objectFit={'cover'}
@@ -203,6 +207,7 @@ const HeroHeaderImages: React.FC = () => {
                 src='../../../static/images/hero-header/Szymek_Homepage_kolaz.png'
                 alt={'Szymon'}
                 className='image-veritical'
+                placeholder='tracedSVG'
               />
             </ImagesVertical>
             <StaticImage
@@ -211,6 +216,7 @@ const HeroHeaderImages: React.FC = () => {
               src='../../../static/images/hero-header/Iza_Homepage_kolaz.png'
               alt={'Iza'}
               className='big-image'
+              placeholder='tracedSVG'
             />
             <ImagesVertical>
               <StaticImage
@@ -219,6 +225,7 @@ const HeroHeaderImages: React.FC = () => {
                 src='../../../static/images/hero-header/PiotrR_Homepage_kolaz.png'
                 alt={'Piotr'}
                 className='image-veritical'
+                placeholder='tracedSVG'
               />
               <StaticImage
                 objectFit={'cover'}
@@ -226,6 +233,7 @@ const HeroHeaderImages: React.FC = () => {
                 src='../../../static/images/hero-header/Wojtek_Homepage_kolaz.png'
                 alt={'Wojtek'}
                 className='image-veritical'
+                placeholder='tracedSVG'
               />
             </ImagesVertical>
           </ImagesHorizontal>
