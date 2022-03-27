@@ -9,7 +9,7 @@ import { Projects } from '../components/home/Projects'
 const Ratings = loadable(() => import('../components/shared/Ratings'))
 import { Contact } from '../components/shared/Contact'
 const HeroHeaderImages = loadable(() => import('../components/home/HeroHeaderImages'))
-import { PopularBlogPosts } from '../components/home/PopularBlogPosts'
+const PopularBlogPosts = loadable(() => import('../components/home/PopularBlogPosts'))
 import '../styles/_page-index.scss'
 import { BlockchainExperts } from '../components/home/BlockchainExperts'
 import { GlobalStyle } from '../styles/global'

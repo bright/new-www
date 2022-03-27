@@ -84,7 +84,7 @@ const HeroBlog = styled.section`
   }
 `
 
-export const PopularBlogPosts: FC = () => {
+const PopularBlogPosts: FC = () => {
   const blogPosts = useTopBlogPosts()
 
   return (
@@ -112,3 +112,4 @@ export const PopularBlogPosts: FC = () => {
     </HeroBlog>
   )
 }
+export default PopularBlogPosts
