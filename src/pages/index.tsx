@@ -6,10 +6,9 @@ import { Achievements } from '../components/home/Achievements'
 import { TechnologyTags } from '../components/shared/TechnologyTags'
 import { OurServices } from '../components/home/OurServices'
 import { Projects } from '../components/home/Projects'
-// import Ratings from '../components/shared/Ratings'
 const Ratings = loadable(() => import('../components/shared/Ratings'))
 import { Contact } from '../components/shared/Contact'
-import HeroHeaderImages from '../components/home/HeroHeaderImages'
+const HeroHeaderImages = loadable(() => import('../components/home/HeroHeaderImages'))
 import { PopularBlogPosts } from '../components/home/PopularBlogPosts'
 import '../styles/_page-index.scss'
 import { BlockchainExperts } from '../components/home/BlockchainExperts'
