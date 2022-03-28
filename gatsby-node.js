@@ -2,6 +2,17 @@ const path = require("path")
 const _ = require('lodash');
 const fs = require("fs")
 const yaml = require("js-yaml")
+const webpack = require(`webpack`)
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    plugins: [
+      new webpack.IgnorePlugin({
+        resourceRegExp: /^netlify-identity-widget$/,
+      }),
+    ],
+  })
+}
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
@@ -426,4 +437,3 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
-
