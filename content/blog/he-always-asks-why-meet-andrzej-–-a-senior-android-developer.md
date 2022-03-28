@@ -51,4 +51,10 @@ I chose Android over iOS because it is easier to start learning Android. I didn�
 
 ## Soon after that, you joined Bright Inventions. How did that happen?
 
-I launched my Android app so it was high time to seek a job. I found a Bright Inventions job offer during my research and it drew my attention. I got this feeling that Bright was a company with friendly people who worked closely and supported each other to reach common goals. This company just felt human. After working at the corporation I wanted to be a part of a small and close team.
+I launched my Android app so it was high time to seek a job. I found a Bright Inventions job offer during my research and it drew my attention. I got this feeling that Bright was a company with friendly people who worked closely and supported each other to reach common goals. This company just felt human. After working at the corporation I wanted to be a part of a small and close team. 
+
+I was invited for the interview. I was terrified when I came. I had only a month of Android experience. What if that wasn’t good enough? My wife supported me quite nearby, waiting in the coffee shop close by during the whole interview. 
+
+I felt that my interview went fine. For sure, there were questions I couldn't answer but overall I felt that it was okay. After talking to [Michał](/about-us/michal/), [Daniel](/about-us/daniel/) and [Piotr](/about-us/piotr/) I **felt that I really wanted to be a part of this company. I would manage to do this job. I wanted someone to give me the chance and I felt that I wouldn’t let them down**.
+
+Daniel and Michal told me they needed a week to give me feedback. Despite that, I was so anxious that I called Michał a few days after the interview to ask if they made up their minds. I told Michał that I was eager to work with them and couldn’t wait to hear their decisions. **Years later I was told that that phone call actually gave me this job**.
