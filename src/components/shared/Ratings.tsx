@@ -31,7 +31,7 @@ const ClutchWidget = styled.div`
   @media ${variables.device.mobile} {
     // on mobile the iframe is higher than that requested clutchWidgetHeight
     iframe {
-      height: 420px
+      height: 420px;
     }
   }
 `
@@ -96,7 +96,9 @@ const Ratings = () => {
           data-secondary-color={variables.color.primary}
           data-darkbg={true}
           data-height={clutchWidgetHeight}
-          data-clutchcompany-id='32656' />
+          data-clutchcompany-id='32656'
+          data-loading='lazy'
+        />
       </Container>
     </>
   )
