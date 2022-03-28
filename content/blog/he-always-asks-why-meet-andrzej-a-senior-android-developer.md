@@ -73,9 +73,9 @@ When you work directly with clients, like us at Bright, it changes a lot about y
 
 ![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote2.png)
 
-**You should be the expert the client can rely on to get to the place where they need to be**. It’s like seeing that your client is blindfolded and is getting to the edge of the cliff and you do nothing to stop them. Communication with the client is based on understanding the situation you and your client are in. It requires empathy. 
+**You should be the expert the client can rely on to get to the place where they need to be**. It’s like seeing that your client is blindfolded and is getting to the edge of the cliff. As an expert, you should be ready to lend a client a helping hand and quickly find a safe route for them. 
 
-You have to stay human in the client-software agency relationship. **Don’t turn into a robot that goes from one task to another and doesn’t even think of what it’s doing**.
+Communication with the client is based on understanding the situation you and your client are in. It requires empathy. You have to stay human in the client-software agency relationship. **Don’t turn into a robot that goes from one task to another and doesn’t even think of what it’s doing**.
 
 ![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote3.png)
 
