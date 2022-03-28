@@ -109,15 +109,15 @@ Is that better and more convenient for a mobile developer? It depends on who you
 
 As a result, some Jetpack Compose features and our code using this new toolkit might not be working perfectly yet or could not be supported very well. I am not sure if it will be beneficial in the end. It probably depends on many factors, including what project you are working on and whether your team is ready to deal with the possible obstacles.
 
-Jetpack Compose requires the total mind shift of the way you code for Android. If I had a project that needed to be developed quickly, right now, I wouldn’t use Jetpack Compose just yet. I don’t know it too well therefore I could make some silly mistakes and delay the project.
+**Jetpack Compose requires the total mind shift of the way you code for Android**. If I had a project that needed to be developed quickly, right now, I wouldn’t use Jetpack Compose just yet. I don’t know it too well therefore I could make some silly mistakes and delay the project.
 
-On the other hand, I know a few people who are already very familiar with Jetpack Compose and they can’t imagine going back. Seeing how much effort Google puts into Jetpack Compose development, I can’t help myself but believe that eventually, it might become the new standard. Nevertheless, there is still a very long way to get all the developers on board. I’m pretty sure I will give it a try quite soon.
+On the other hand, I know a few people who are already very familiar with Jetpack Compose and they can’t imagine going back. **Seeing how much effort Google puts into Jetpack Compose development, I can’t help myself but believe that eventually, it might become the new standard**. Nevertheless, there is still a very long way to get all the developers on board. I’m pretty sure I will give it a try quite soon.
 
 Apart from Jetpack Compose, **I should mention Kotlin Coroutines**. They are nothing new because they were launched a couple of years ago. However, they are still trendy. More and more people start using them in new projects. Some aspects of Coroutines and their APIs are still getting stabilized. 
 
 ![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote4.png)
 
-After a couple of years, **we can see that the Coroutines were a change that just made sense**. Coroutines make coding easier and definitely shorten your code. In this case, the pros definitely have outweighed possible cons and the amount of time required to learn Coroutines. It wasn’t a hype that people wanted to try to eventually give up on it. It just works and if someone hasn't started to use Coroutines yet, then that person should catch up quickly because I think they are a good investment. 
+After a couple of years, **we can see that the Coroutines were a change that just made sense**. Coroutines make coding easier and definitely shorten your code. In this case, the pros definitely have outweighed possible cons and the amount of time required to learn Coroutines. It wasn’t a hype that people wanted to try to eventually give up on it. It just works and **if someone hasn't started to use Coroutines yet, then that person should catch up quickly because I think they are a good investment**. 
 
 ## If you could give yourself some advice at the beginning of your career, what would that be?
 
