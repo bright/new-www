@@ -5,7 +5,7 @@ tags:
   - Android
   - inspiration
   - development
-date: 2022-03-28T09:09:28.925Z
+date: 2022-03-28T12:19:55.091Z
 title: He Always Asks Why. Meet Andrzej – a Senior Android Developer
 layout: post
 image: /images/brightstoryandrzej.png
