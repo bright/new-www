@@ -15,6 +15,8 @@ published: true
 ---
 **Andrzej is one of the most experienced mobile devs at Bright Inventions. He is a master of digression. So conducting this interview was a challenge. 😉  However, he goes straight to the point when it comes to advising clients on the best solutions to reach their business and tech goals. He always offers honest and valuable feedback. Because his job isn't just about writing code. It is much more than that. Find out what that is.**
 
+![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstoryandrzej_collage.png)
+
 ## Where did your passion for software development come from?
 
 I think that it is all because I am inquisitive. Or maybe “overly curious” – some would say. **😉**   I just love to explore things and understand them. My adventure with computers probably started when I was a kid. First, I learned a few commands on my father’s Atari 65XE when I was about 6 years old or so. 
@@ -34,6 +36,8 @@ Eventually, I got an internship at a corporation which turned into a full-time j
 I must say that being “SCME” taught me a lot. It gave me knowledge about continuous integration practices, the software development lifecycle, working efficiently with Jira, a couple of version control systems (including Git), remote terminals (SSH), Linux systems and more. Due to the fact that I worked for a global corporation, I learned a lot about developing software on a big scale. 
 
 I wrote some code at that job. That was mostly some short scripts though. I didn't write applications or firmware. However, **after a couple of years, I wanted to pursue a software development career**. I enjoyed writing code and felt that I was quite good at it. 
+
+![The story of becoming a Senior Android Developer](/images/brightstoryandrzej.png)
 
 ## Why Android Development?
 
