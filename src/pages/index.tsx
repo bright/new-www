@@ -6,7 +6,7 @@ const Achievements = loadable(() => import('../components/home/Achievements'))
 const TechnologyTags = loadable(() => import('../components/shared/TechnologyTags'))
 import { OurServices } from '../components/home/OurServices'
 import { Projects } from '../components/home/Projects'
-const Ratings = loadable(() => import('../components/shared/Ratings'))
+// const Ratings = loadable(() => import('../components/shared/Ratings'))
 import { Contact } from '../components/shared/Contact'
 const HeroHeaderImages = loadable(() => import('../components/home/HeroHeaderImages'))
 const PopularBlogPosts = loadable(() => import('../components/home/PopularBlogPosts'))
@@ -24,7 +24,7 @@ export default () => {
       <OurServices />
       <BlockchainExperts />
       <Projects />
-      <Ratings />
+      {/* <Ratings /> */}
       <PopularBlogPosts />
       <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
