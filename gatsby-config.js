@@ -1,5 +1,6 @@
 const siteUrl = new URL(process.env.SITE_URL || 'https://brightinventions.pl/')
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
+
 module.exports = {
   siteMetadata: {
     title: 'Bright Inventions',
@@ -235,6 +236,17 @@ module.exports = {
             }),
           },
         ],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        includePaths: [{ regex: "^/blog/.+" }],
+        height: 2,
+        prependToBody: false,
+        color: `#f7931e`,
+        footerHeight: 1000,
+        headerHeight: 73,
       },
     },
   ],
