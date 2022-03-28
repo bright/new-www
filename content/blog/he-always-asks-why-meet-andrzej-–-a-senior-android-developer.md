@@ -30,3 +30,25 @@ After that, **I started to learn the basics of C++** so I could finally write my
 Yes. I studied Computer Science at the Gdańsk University of Technology as many people at Bright Inventions. Nevertheless, **I didn’t start my career as a software developer as you might assume**. During my studies, I couldn't make up my mind whether I wanted to be a programmer or a system administrator.
 
 Eventually, I got an internship at a corporation which turned into a full-time job. **I was someone who now would probably be called a DevOps but that term wasn’t so popular back then**. Therefore, my position was called Software Configuration Management Engineer (SCME). A little bit long, isn’t it?
+
+I must say that being “SCME” taught me a lot. It gave me knowledge about continuous integration practices, the software development lifecycle, working efficiently with Jira, a couple of version control systems (including Git), remote terminals (SSH), Linux systems and more. Due to the fact that I worked for a global corporation, I learned a lot about developing software on a big scale. 
+
+I wrote some code at that job. That was mostly some short scripts though. I didn't write applications or firmware. However, **after a couple of years, I wanted to pursue a software development career**. I enjoyed writing code and felt that I was quite good at it. 
+
+## Why Android Development?
+
+After almost 3 years in the corporate world, I decided to hand in my notice. When I did it I had no clue what to do next. I didn’t have any other job offer on the table. **My plan was to take a break for 4-8 weeks to figure out what was next**.
+
+![Andrzej Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote.png)
+
+My wife was my rock back then. Actually, she pushed me to quit that job. She believed that I had the potential to do something more. Also during that time, she convinced me to go back to college. I already had an Engineering degree but thanks to her I was back at the Gdańsk University of Technology to graduate from Master’s studies in Computer Science. 
+
+![Bright Story of Andrzej](/images/andrzej_private_photo.png)
+
+When I decided to quit, I started to research the job market in the area. As a result, I felt strongly about pursuing mobile development. **I liked the fact that building a mobile app allows you not only to implement UI but also to build the whole logic**. So it was like a whole package for me. Also, in mobile development you quickly see the results of your work which gives you lots of satisfaction. 
+
+I chose Android over iOS because it is easier to start learning Android. I didn’t have a Macbook or iPhone so how could I possibly go down this road? Android seemed interesting so I started to learn it. During one month I built my first Android app and launched it on Google Play. It is still there actually. 
+
+## Soon after that, you joined Bright Inventions. How did that happen?
+
+I launched my Android app so it was high time to seek a job. I found a Bright Inventions job offer during my research and it drew my attention. I got this feeling that Bright was a company with friendly people who worked closely and supported each other to reach common goals. This company just felt human. After working at the corporation I wanted to be a part of a small and close team.
