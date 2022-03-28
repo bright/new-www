@@ -168,7 +168,7 @@ export const story: readonly Story[] = [
     ],
     heading: '2021',
     subheading: '',
-    content: `We started to work on Bright Treasury – our original app dedicated to Substrate Blockchain networks.`,
+    content: `We launched a beta version of Bright Treasury – our original app dedicated to Substrate Blockchain networks.`,
   },
   {
     images: [],
