@@ -98,3 +98,17 @@ A YouTuber. 😉  I would talk about video games. Take it with a grain of salt t
 ## What trends do you observe in Android development?
 
 ![Andrzej, Senior Android Developer at Bright Inventions](/images/senior_android_developer_andrzej.png)
+
+**I am not sure if this is a trend or hype but I should mention Jetpack Compose**. It is a new way of implementing UI in Android. Before that, you had to create UI as XML files and sometimes mix them with Kotlin code in a pretty clunky, non-modern way. Jetpack Compose enables us to write it directly in Kotlin. 
+
+Is that better and more convenient for a mobile developer? It depends on who you ask. For now, I have mixed feelings about it but I must admit I haven’t spent enough time to get used to it. That is a new massive thing to learn, with its own pros and cons. Some parts might become easier, but others could become harder to write, debug or understand. It’s still in the development phase and changes rapidly. 
+
+As a result, some Jetpack Compose features and our code using this new toolkit might not be working perfectly yet or could not be supported very well. I am not sure if it will be beneficial in the end. It probably depends on many factors, including what project you are working on and whether your team is ready to deal with the possible obstacles.
+
+Jetpack Compose requires the total mind shift of the way you code for Android. If I had a project that needed to be developed quickly, right now, I wouldn’t use Jetpack Compose just yet. I don’t know it too well therefore I could make some silly mistakes and delay the project.
+
+On the other hand, I know a few people who are already very familiar with Jetpack Compose and they can’t imagine going back. Seeing how much effort Google puts into Jetpack Compose development, I can’t help myself but believe that eventually, it might become the new standard. Nevertheless, there is still a very long way to get all the developers on board. I’m pretty sure I will give it a try quite soon.
+
+Apart from Jetpack Compose, **I should mention Kotlin Coroutines**. They are nothing new because they were launched a couple of years ago. However, they are still trendy. More and more people start using them in new projects. Some aspects of Coroutines and their APIs are still getting stabilized. 
+
+![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote4.png)
