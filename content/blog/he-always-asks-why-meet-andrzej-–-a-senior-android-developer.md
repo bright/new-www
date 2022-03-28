@@ -90,3 +90,11 @@ I can also recommend a couple of good reads which I have found really useful. Fo
 Yes, you can. But if you want to be a software developer who has a good reputation among clients and whose work is appreciated, then you have to be open to this other side.
 
 Let’s not forget about the daily work in the team. Obviously, soft skills are very useful while working with your team members, whether you conduct a peer code review, discuss the UI designs or teach your less experienced colleagues.
+
+## If you weren’t a programmer, you would be…
+
+A YouTuber. 😉  I would talk about video games. Take it with a grain of salt though. I probably couldn't make a living as a YouTuber and was forced to look for another job.
+
+## What trends do you observe in Android development?
+
+![Andrzej, Senior Android Developer at Bright Inventions](/images/senior_android_developer_andrzej.png)
