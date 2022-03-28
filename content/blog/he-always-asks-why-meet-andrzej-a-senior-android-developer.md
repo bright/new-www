@@ -23,7 +23,7 @@ I think that it is all because I am inquisitive. Or maybe “overly curious” �
 
 Later on, still in elementary school, my friend who was 5 years older than me taught me the basics of HTML. Also, he told me how to view the HTML files using Internet Explorer (on Windows 98). I suppose it had taken place even before I used the internet for the first time in my life.
 
-A couple of years later, in middle school, I was exploring all Polish web directories for various software, apps, games etc. I was downloading lots of them to check them out. At some point, **I found an app for creating algorithm flowcharts and executing programs created that way** (if you are curious, here it is). That was a game-changer for me. 
+A couple of years later, in middle school, I was exploring all Polish web directories for various software, apps, games etc. I was downloading lots of them to check them out. At some point, **I found an app for creating algorithm flowcharts and executing programs created that way** (if you are curious, [here](http://erisoftware.pl/dla-szkoly/schematy-blokowe-magiczne-bloczki) it is). That was a game-changer for me. 
 
 After that, **I started to learn the basics of C++** so I could finally write my first command-line application. It all brought me to the high school class with advanced Math, Physics and Informatics. On top of that, in high school I met a very supportive Computer Science teacher, Andrzej Gac.
 
