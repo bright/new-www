@@ -27,6 +27,8 @@ A couple of years later, in middle school, I was exploring all Polish web direct
 
 After that, **I started to learn the basics of C++** so I could finally write my first command-line application. It all brought me to the high school class with advanced Math, Physics and Informatics. On top of that, in high school I met a very supportive Computer Science teacher, Andrzej Gac.
 
+![The story of becoming a Senior Android Developer](/images/brightstoryandrzej.png)
+
 ## Let me guess. 🙂 Then you studied Computer Science?
 
 Yes. I studied Computer Science at the Gdańsk University of Technology as many people at Bright Inventions. Nevertheless, **I didn’t start my career as a software developer as you might assume**. During my studies, I couldn't make up my mind whether I wanted to be a programmer or a system administrator.
@@ -36,8 +38,6 @@ Eventually, I got an internship at a corporation which turned into a full-time j
 I must say that being “SCME” taught me a lot. It gave me knowledge about continuous integration practices, the software development lifecycle, working efficiently with Jira, a couple of version control systems (including Git), remote terminals (SSH), Linux systems and more. Due to the fact that I worked for a global corporation, I learned a lot about developing software on a big scale. 
 
 I wrote some code at that job. That was mostly some short scripts though. I didn't write applications or firmware. However, **after a couple of years, I wanted to pursue a software development career**. I enjoyed writing code and felt that I was quite good at it. 
-
-![The story of becoming a Senior Android Developer](/images/brightstoryandrzej.png)
 
 ## Why Android Development?
 
