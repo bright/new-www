@@ -39,7 +39,7 @@ I wrote some code at that job. That was mostly some short scripts though. I didn
 
 After almost 3 years in the corporate world, I decided to hand in my notice. When I did it I had no clue what to do next. I didn’t have any other job offer on the table. **My plan was to take a break for 4-8 weeks to figure out what was next**.
 
-![Andrzej Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote.png)
+![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote.png)
 
 My wife was my rock back then. Actually, she pushed me to quit that job. She believed that I had the potential to do something more. Also during that time, she convinced me to go back to college. I already had an Engineering degree but thanks to her I was back at the Gdańsk University of Technology to graduate from Master’s studies in Computer Science. 
 
@@ -58,3 +58,35 @@ I was invited for the interview. I was terrified when I came. I had only a month
 I felt that my interview went fine. For sure, there were questions I couldn't answer but overall I felt that it was okay. After talking to [Michał](/about-us/michal/), [Daniel](/about-us/daniel/) and [Piotr](/about-us/piotr/) I **felt that I really wanted to be a part of this company. I would manage to do this job. I wanted someone to give me the chance and I felt that I wouldn’t let them down**.
 
 Daniel and Michal told me they needed a week to give me feedback. Despite that, I was so anxious that I called Michał a few days after the interview to ask if they made up their minds. I told Michał that I was eager to work with them and couldn’t wait to hear their decisions. **Years later I was told that that phone call actually gave me this job**.
+
+## What have you learned at Bright Inventions?
+
+Since I came to Bright over 5 years ago **I have got to know a lot about building software like the coding principles, practices and architecture**. However, there was a special aspect of software development I realized at Bright. **I understood how non-technical skills are crucial**. 
+
+When you work directly with clients, like us at Bright, it changes a lot about your job as a software developer. What matters is your attitude, the way you speak and communicate. **You are a little bit of a business analyst who has to understand what a client wants**. 
+
+**You have to not only listen but also be ready to offer an alternative solution when you know it will be of benefit to your client**. Sometimes a client doesn’t know that the features they expect can be time-consuming to deliver. When there are faster options to achieve similar goals, you have to know how to communicate that.
+
+![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote2.png)
+
+**You should be the expert the client can rely on to get to the place where they need to be**. It’s like seeing that your client is blindfolded and is getting to the edge of the cliff and you do nothing to stop them. Communication with the client is based on understanding the situation you and your client are in. It requires empathy. 
+
+You have to stay human in the client-software agency relationship. **Don’t turn into a robot that goes from one task to another and doesn’t even think of what it’s doing**.
+
+![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote3.png)
+
+Another important skill is **asking all the time “Why”**. Don’t treat your tasks superficially. You have to learn to go deeper into the topic to understand the primary reason for the change you are about to implement. 
+
+## How can you improve the soft side of software development?
+
+**You can learn from your mistakes, daily practice, watching others, and reading books**. I had the pleasure to work closely with Mateusz during my first months at Bright. [Mateusz](/about-us/mateusz/) is a very special person to me, I will always cherish the cooperation we have had. Mateusz is a master of communication with clients and interpreting their needs. Simply watching him in action was really inspiring. 
+
+![Andrzej, Bright Story](/images/brightstory_andrzej_mateusz.png)
+
+I can also recommend a couple of good reads which I have found really useful. For example **“The Clean Coder” by Robert C. Martin** and **“How to Win Friends and Influence People” by Dale Carnegie**.
+
+## Can you be a software developer without owning the soft side of the job?
+
+Yes, you can. But if you want to be a software developer who has a good reputation among clients and whose work is appreciated, then you have to be open to this other side.
+
+Let’s not forget about the daily work in the team. Obviously, soft skills are very useful while working with your team members, whether you conduct a peer code review, discuss the UI designs or teach your less experienced colleagues.
