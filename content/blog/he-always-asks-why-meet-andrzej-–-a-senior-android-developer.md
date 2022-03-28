@@ -112,3 +112,17 @@ On the other hand, I know a few people who are already very familiar with Jetpac
 Apart from Jetpack Compose, **I should mention Kotlin Coroutines**. They are nothing new because they were launched a couple of years ago. However, they are still trendy. More and more people start using them in new projects. Some aspects of Coroutines and their APIs are still getting stabilized. 
 
 ![Andrzej, Senior Android Developer at Bright Inventions](/images/brightstory_andrzej_quote4.png)
+
+After a couple of years, **we can see that the Coroutines were a change that just made sense**. Coroutines make coding easier and definitely shorten your code. In this case, the pros definitely have outweighed possible cons and the amount of time required to learn Coroutines. It wasn’t a hype that people wanted to try to eventually give up on it. It just works and if someone hasn't started to use Coroutines yet, then that person should catch up quickly because I think they are a good investment. 
+
+## If you could give yourself some advice at the beginning of your career, what would that be?
+
+Have more faith in yourself.
+
+## What do you do after hours?
+
+I play lots of video games on my computer. I love games that tell a story such as Age of Empires, Morrowind or Genshin Impact. Apart from that, my interests are really a spectrum. From language influence on our culture, astronomy, biology to geography. Remember – I am quite a curious person. I will metaphorically stick my nose wherever it needs to be if I feel the urge to understand why something works the way it does in our world.
+
+\----
+
+Andrzej will share his Kotlin insights as a speaker at upcoming Polish dev conferences. You have a chance to see him on stage at [4developers](https://4developers.org.pl) and [Warsaw IT Days](https://warszawskiedniinformatyki.pl/index-en.html) in April 2022.
