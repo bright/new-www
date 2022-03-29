@@ -6,6 +6,14 @@ team_members:
   - michal-l
 faqs:
   - What benefits do cloud services offer?
+  - What are cloud services and how do they work?
+  - What does cloud computing mean?
+  - Do cloud computing and cloud services are the same?
+  - Are cloud services secure?
+  - Are cloud services expensive?
+  - Where can cloud services be used?
+  - "What are cloud applications? "
+  - What is cloud application development?
 project:
   - bright-treasury
   - digitized-questionnaires
