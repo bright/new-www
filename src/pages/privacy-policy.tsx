@@ -366,7 +366,7 @@ const PrivacyPolicy = () => {
               </p>
               <p>
                 You can manage your Off-Facebook Activity. To do this, please click on the link: 
-                <a href='https://adssettings.google.com/authenticated>
+                <a href='https://adssettings.google.com/authenticated'>
                   https://adssettings.google.com/authenticated.
                 </a>
               </p>
