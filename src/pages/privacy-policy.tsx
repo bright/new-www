@@ -79,8 +79,8 @@ const PrivacyPolicy = () => {
                 We value your trust in providing us with your data, thus we are striving to use commercially acceptable
                 means of protecting it. Below you will find the necessary information about the data we collect and
                 process when you use our website (
-                <a href='http://www.brightinventions.pl/' target='_blank'>
-                  www.brightinventions.pl
+                <a href='/' target='_blank'>
+                  https://brightinventions.pl
                 </a>
                 - &#xA0;hereinafter as &#x201C;Website&#x201D;).
               </p>
@@ -119,7 +119,7 @@ const PrivacyPolicy = () => {
                   answer to your contact requests when you use the contact forms on the Website &#x2013; on the grounds
                   of Our legitimate interests as a data controller;
                 </li>
-                <li>analyse the way our Website is used and to improve its functioning via Google analytics;</li>
+                <li>analyze the way our Website is used and improve its functioning via Google Analytics Universal and Google Analytics 4;</li>
                 <li>
                   run marketing and business communication &#x2013; based on contact data provided to Us, on the grounds
                   of Our legitimate interests;
@@ -158,9 +158,9 @@ const PrivacyPolicy = () => {
                 a contract or other legal act or on the grounds of Our legitimate interests as a data controller.
               </p>
               <p>
-                We also use third party service providers i.e. Google Analytics &#xA0;to record and collect data on how
-                you use our Website. This information is not personalised and helps Us improve the functioning of Our
-                Website.
+                We also use third-party service providers i.e. Google Analytics Universal, Google Analytics 4, 
+                Facebook Pixel to record and collect data on how you use our Website. 
+                This information is not personalized and helps Us improve the functioning of Our Website.
               </p>
               <p>&#x200D;</p>
               <p>5. Social media plugins</p>
@@ -182,11 +182,14 @@ const PrivacyPolicy = () => {
                 setting options to protect your privacy you can find on the following websites:
               </p>
               <p>
-                Facebook Ireland Ltd., Ireland:{' '}
-                <a href='https://pl-pl.facebook.com/privacy/explanation'>
+                Meta Platforms Ireland Ltd., Ireland:{' '}
+                Facebook: <a href='https://pl-pl.facebook.com/privacy/explanation'>
                   https://pl-pl.facebook.com/privacy/explanation
                 </a>{' '}
-                - Facebook (and Instagram) is subject to EU-US Privacy-Shield, www.privacyshield.gov/EU-US-Framework;
+                Instagram: <a href='https://help.instagram.com/519522125107875/'>
+                  https://help.instagram.com/519522125107875/
+                </a>{' '}
+                - Facebook and Instagram are subject to EU-US Privacy-Shield, www.privacyshield.gov/EU-US-Framework;
               </p>
               <p>
                 Twitter, Inc., USA: <a href='https://twitter.com/en/privacy'>https://twitter.com/en/privacy</a>- Twitter
@@ -356,7 +359,25 @@ const PrivacyPolicy = () => {
                 </a>
               </p>
               <p>
-                5. We use Facebook Pixel to track conversions and measure return on investment of Facebook Ads. Facebook
+                5. We use Google signals which enable include aggregated data from Google users who have left Ads Personalization turned on:{' '}
+                <a href='https://support.google.com/analytics/answer/7532985?hl=en#intro&zippy=%2Cin-this-article'>
+                  https://support.google.com/analytics/answer/7532985.
+                </a> .
+              </p>
+              <p>
+                You can manage your Off-Facebook Activity. To do this, please click on the link: 
+                <a href='https://adssettings.google.com/authenticated>
+                  https://adssettings.google.com/authenticated.
+                </a>
+              </p>
+              <p>
+                YYou can turn off personalized ads. For more information on your ads settings, please view:: 
+                <a href='https://www.facebook.com/off_facebook_activity/'>
+                  https://www.facebook.com/off_facebook_activity/.
+                </a>
+              </p>
+              <p>
+                6. We use Facebook Pixel to track conversions and measure return on investment of Facebook Ads. Facebook
                 Pixel is an analytics tool by which we can measure your interactions with content on Our Website. When
                 navigating between individual websites, Facebook Pixel provides us with JavaScript tags (libraries) to
                 log information about the page you visited, for example the page URL. Facebook Pixel JavaScript
