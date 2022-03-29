@@ -2,7 +2,7 @@
 layout: faqs
 faqs_id: Where can cloud services be used?
 name: cloud services 7
-slug: where can cloud services be used?
+slug: where-can-cloud-services-be-used
 question: Where can cloud services be used?
 answer: >-
   They can be used by a variety of businesses represented by **startups as well
