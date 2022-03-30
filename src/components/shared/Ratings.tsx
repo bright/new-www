@@ -77,10 +77,12 @@ styled(Arrow)`
 
 const Ratings = () => {
   useEffect(() => {
-    const clutchco = (window as any).CLUTCHCO
-    if (clutchco) {
-      clutchco.Init()
-    }
+    setTimeout(() => {
+      const clutchco = (window as any).CLUTCHCO
+      if (clutchco) {
+        clutchco.Init()
+      }
+    }, 3000)
   }, [])
   return (
     <>
