@@ -14,6 +14,7 @@ tags:
   - IoT
   - customized software
   - eHealth
+  - bluetooth
 order: 6
 slug: smarthelp
 redirect_from:
