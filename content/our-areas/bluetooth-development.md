@@ -27,18 +27,19 @@ meta_description: We are a Bluetooth app development company based in Poland.
 our_services_icon: /images/bluetooth_app_development.png
 name: bluetooth development
 slug: bluetooth-development
-short_description: We deliver Bluetooth-based solutions. We have developed
-  Bluetooth applications for international clients representing the retail,
-  healthcare, and fitness industries. We specialize in Bluetooth Low Energy
-  solutions and iBeacon technology. We deliver customized mobile & web
-  applications connected with hardware thanks to Bluetooth technology.
+short_description: We have developed Bluetooth applications for international
+  clients representing the retail, healthcare, and fitness industries. Our team
+  specializes in Bluetooth Low Energy and iBeacon technology.
 order: 11
 title: build apps with Bluetooth development team
 intro: We deliver Bluetooth-based solutions.
 image_our_service: /images/bluetooth_development_poland.png
 image_alt_our_service: Bluetooth app development Poland
-description: We have developed Bluetooth applications for international clients
-  representing the retail, healthcare, and fitness industries.
+description: We deliver Bluetooth-based solutions. We have developed Bluetooth
+  applications for international clients representing the retail, healthcare,
+  and fitness industries. We specialize in Bluetooth Low Energy solutions and
+  iBeacon technology. We deliver customized mobile & web applications connected
+  with hardware thanks to Bluetooth technology.
 button: let’s talk about Bluetooth
 button2: let’s talk about Bluetooth
 published: true
