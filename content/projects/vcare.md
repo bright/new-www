@@ -13,6 +13,7 @@ tags:
   - IoT
   - customized software
   - eHealth
+  - bluetooth
 slug: vCare
 show on homepage: false
 published: true
