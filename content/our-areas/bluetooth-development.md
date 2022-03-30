@@ -54,3 +54,17 @@ description_contact: Whether your project is just an idea or an existing system
   via [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## bluetooth development services
+
+Bluetooth is an essential part of many software development projects. No matter the industry you represent, you need to rely on experienced Bluetooth experts. For over a decade we have been working on customized applications based on Bluetooth:
+
+### android Bluetooth development
+
+Our Android software team builds native applications for various purposes. Android apps might work as Bluetooth clients that perform scanning for other devices and gather data for them. On the other hand, applications built by our team could also work as Bluetooth servers. It means that they create public APIs, which can be found and connected to by other BLE devices wanting to fetch our data. We specialize in delivering Bluetooth android applications for ePOS, retail, and healthcare.
+
+### iOS Bluetooth development
+
+We build Bluetooth solutions for iOS applications. We specialize in iBeacon development. Our iOS development team has used iBeacon technology for example working on an [Everytap](/projects/everytap/) hospitality application or listing browser app – [EasyTapp](/projects/easytapp/).
+
+### Bluetooth Low Energy
+
+We use Bluetooth Low Energy (LE) technology in order to build native iOS and Android applications. Bluetooth LE enables reducing power consumption of the device while ensuring the same quality of communication and range.
