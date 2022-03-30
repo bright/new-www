@@ -82,7 +82,7 @@ const PrivacyPolicy = () => {
                 <a href='/' target='_blank'>
                   https://brightinventions.pl
                 </a>
-                - &#xA0;hereinafter as &#x201C;Website&#x201D;).
+                 - &#xA0;hereinafter as &#x201C;Website&#x201D;).
               </p>
               <p>&#x200D;</p>
               <p>
@@ -126,7 +126,7 @@ const PrivacyPolicy = () => {
                 </li>
                 <li>
                   conduct and settle the outcome of a recruitment process if the user has applied to take part in the
-                  recruitment process, on the basis of a legal obligation of the Controller and consent granted
+                  recruitment process, on the basis of a legal obligation of the Controller and consent granted.
                 </li>
               </ul>
               <p>&#x200D;</p>
@@ -186,6 +186,7 @@ const PrivacyPolicy = () => {
                 Facebook: <a href='https://pl-pl.facebook.com/privacy/explanation'>
                   https://pl-pl.facebook.com/privacy/explanation
                 </a>{' '}
+                <br />
                 Instagram: <a href='https://help.instagram.com/519522125107875/'>
                   https://help.instagram.com/519522125107875/
                 </a>{' '}
