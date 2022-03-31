@@ -4,7 +4,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { CustomSectionTitle } from '../shared/index.styled'
 import { Section } from '../shared'
 import variables from '../../styles/variables'
-import { IStaticImageProps } from 'gatsby-plugin-image/dist/src/components/static-image.server'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import { BlackButton } from '../about-us/about-us.styled'
@@ -160,7 +159,7 @@ export const BlackButtonHeader = styled(BlackButton)`
 
 const HeroHeaderImages: React.FC = () => {
   const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
 
   return (
     <HeroSectionWrapper ref={ref}>
