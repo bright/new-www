@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby'
-import React, { ComponentProps, ReactElement } from 'react'
+import React, { ComponentProps, ReactElement, useRef } from 'react'
 import { useLocation } from '@reach/router'
 import styled from 'styled-components'
 import { Page } from '../layout/Page'
@@ -20,6 +20,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
+import useOnScreen from '../components/utils/use-onscreen'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -240,8 +241,9 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
       image={page.image}
     />
   )
-
-  const comments = props.commentsView?.() ?? <DisqusComments id={slug} title={page.title} />
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
+  const comments = props.commentsView?.() ?? (onScreen && <DisqusComments id={slug} title={page.title} />)
 
   return (
     <Page>
@@ -273,8 +275,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           tags={page.tags ?? []}
           timeToRead={markdownRemark.timeToRead}
         />
-
-        {comments}
+        <div ref={ref}> {comments} </div>
       </ConstrainedWidthContainer>
       {postStructuredData}
     </Page>
