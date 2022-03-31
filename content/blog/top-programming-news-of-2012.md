@@ -41,7 +41,7 @@ This was the year when Microsoft launched its Windows 8 operating system with a 
 
 TypeScript is the programming language that builds on Java. It was created by Microsoft to challenge all the complexities in JavaScript. Now after 10 years we can definitely say that TypeScript made its expectations.
 
-![](/images/blog_post_in_2012.png)
+![TypeScript](/images/blog_post_in_2012.png)
 
 ## Bright Inventions came to life 😀
 
