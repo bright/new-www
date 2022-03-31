@@ -242,7 +242,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
     />
   )
   const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '600px')
   const comments = props.commentsView?.() ?? (onScreen && <DisqusComments id={slug} title={page.title} />)
 
   return (
