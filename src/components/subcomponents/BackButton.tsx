@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { ArrowBack } from '../icons/ArrowBack.icon'
 
 interface BackButtonProps {
   url: string
@@ -13,11 +14,7 @@ const BackButton: React.FC<BackButtonProps> = props => {
   return (
     <Link to={props.url} className={`button is-white ${props.className}`} onClick={props.onClick}>
       <span className='icon is-small'>
-        {props.arrowColor == 'orange' ? (
-          <img src='/images/arrow-back-orange.svg' />
-        ) : (
-          <img src='/images/arrow-back.svg' />
-        )}
+        {props.arrowColor == 'orange' ? <img src='/images/arrow-back-orange.svg' /> : <ArrowBack />}
       </span>{' '}
       <span>{props.label}</span>
     </Link>
