@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import styled from 'styled-components'
 import { StaticImage } from 'gatsby-plugin-image'
 import { CustomSectionTitle } from '../shared/index.styled'
@@ -9,6 +9,7 @@ import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import { BlackButton } from '../about-us/about-us.styled'
 import { CustomContainer } from '../../components/shared/index'
+import useOnScreen from '../utils/use-onscreen'
 
 const HeroSectionWrapper = styled.section`
   padding: 2rem 15rem 11.625rem;
@@ -158,86 +159,91 @@ export const BlackButtonHeader = styled(BlackButton)`
 `
 
 const HeroHeaderImages: React.FC = () => {
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
+
   return (
-    <HeroSectionWrapper>
+    <HeroSectionWrapper ref={ref}>
       <CustomContainer>
         <HeroSectionTitle>
           meet <span>bright</span> team
         </HeroSectionTitle>
-        <Link to={routeLinks.aboutUs({ page: 'team' })}>
-          <ImagesHorizontal>
-            <ImagesVertical>
+        {onScreen && (
+          <Link to={routeLinks.aboutUs({ page: 'team' })}>
+            <ImagesHorizontal>
+              <ImagesVertical>
+                <StaticImage
+                  objectFit={'cover'}
+                  objectPosition={'50% 20%'}
+                  src='../../../static/images/hero-header/Agnieszka_Homepage_kolaz.png'
+                  alt={'Agnieszka'}
+                  className='image-veritical'
+                  placeholder='tracedSVG'
+                />
+                <StaticImage
+                  objectFit={'cover'}
+                  objectPosition={'50% 20%'}
+                  src='../../../static/images/hero-header/Mateusz_Homepage_kolaz.png'
+                  alt={'Mateusz'}
+                  className='image-veritical'
+                  placeholder='tracedSVG'
+                />
+              </ImagesVertical>
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Agnieszka_Homepage_kolaz.png'
-                alt={'Agnieszka'}
-                className='image-veritical'
+                src='../../../static/images/hero-header/Lukasz_Homepage_kolaz.png'
+                alt={'Łukasz'}
+                className='big-image'
                 placeholder='tracedSVG'
               />
+              <ImagesVertical>
+                <StaticImage
+                  objectFit={'cover'}
+                  objectPosition={'50% 20%'}
+                  src='../../../static/images/hero-header/Alisa_homepage.png'
+                  alt={'Paulina'}
+                  className='image-veritical'
+                  placeholder='tracedSVG'
+                />
+                <StaticImage
+                  objectFit={'cover'}
+                  objectPosition={'50% 20%'}
+                  src='../../../static/images/hero-header/Szymek_Homepage_kolaz.png'
+                  alt={'Szymon'}
+                  className='image-veritical'
+                  placeholder='tracedSVG'
+                />
+              </ImagesVertical>
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Mateusz_Homepage_kolaz.png'
-                alt={'Mateusz'}
-                className='image-veritical'
+                src='../../../static/images/hero-header/Iza_Homepage_kolaz.png'
+                alt={'Iza'}
+                className='big-image'
                 placeholder='tracedSVG'
               />
-            </ImagesVertical>
-            <StaticImage
-              objectFit={'cover'}
-              objectPosition={'50% 20%'}
-              src='../../../static/images/hero-header/Lukasz_Homepage_kolaz.png'
-              alt={'Łukasz'}
-              className='big-image'
-              placeholder='tracedSVG'
-            />
-            <ImagesVertical>
-              <StaticImage
-                objectFit={'cover'}
-                objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Alisa_homepage.png'
-                alt={'Paulina'}
-                className='image-veritical'
-                placeholder='tracedSVG'
-              />
-              <StaticImage
-                objectFit={'cover'}
-                objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Szymek_Homepage_kolaz.png'
-                alt={'Szymon'}
-                className='image-veritical'
-                placeholder='tracedSVG'
-              />
-            </ImagesVertical>
-            <StaticImage
-              objectFit={'cover'}
-              objectPosition={'50% 20%'}
-              src='../../../static/images/hero-header/Iza_Homepage_kolaz.png'
-              alt={'Iza'}
-              className='big-image'
-              placeholder='tracedSVG'
-            />
-            <ImagesVertical>
-              <StaticImage
-                objectFit={'cover'}
-                objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/PiotrR_Homepage_kolaz.png'
-                alt={'Piotr'}
-                className='image-veritical'
-                placeholder='tracedSVG'
-              />
-              <StaticImage
-                objectFit={'cover'}
-                objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Wojtek_Homepage_kolaz.png'
-                alt={'Wojtek'}
-                className='image-veritical'
-                placeholder='tracedSVG'
-              />
-            </ImagesVertical>
-          </ImagesHorizontal>
-        </Link>
+              <ImagesVertical>
+                <StaticImage
+                  objectFit={'cover'}
+                  objectPosition={'50% 20%'}
+                  src='../../../static/images/hero-header/PiotrR_Homepage_kolaz.png'
+                  alt={'Piotr'}
+                  className='image-veritical'
+                  placeholder='tracedSVG'
+                />
+                <StaticImage
+                  objectFit={'cover'}
+                  objectPosition={'50% 20%'}
+                  src='../../../static/images/hero-header/Wojtek_Homepage_kolaz.png'
+                  alt={'Wojtek'}
+                  className='image-veritical'
+                  placeholder='tracedSVG'
+                />
+              </ImagesVertical>
+            </ImagesHorizontal>
+          </Link>
+        )}
         <Link to={routeLinks.career}>
           <BlackButtonHeader>join our team</BlackButtonHeader>
         </Link>
