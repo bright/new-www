@@ -205,7 +205,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-preconnect',
       options: {
-        domains: ['https://fonts.googleapis.com'],
+        domains: ['https://fonts.gstatic.com/s/montserrat/ ','https://fonts.gstatic.com/s/lato/'],
       },
     },
     {
