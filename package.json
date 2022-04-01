@@ -73,7 +73,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "preload-fonts": "gatsby-preload-fonts",
+    "preload-fonts": "gatsby-preload-fonts --prefix-paths",
     "build": "gatsby build --prefix-paths --log-pages",
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public",
