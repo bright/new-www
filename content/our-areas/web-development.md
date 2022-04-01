@@ -3,11 +3,11 @@ team_members:
   - bartosz
   - krzysiek h
   - szymek
-  - nikodem
   - kasia
   - mateusz
   - janek
   - alisa
+  - maja
 faqs:
   - web development 1
   - web development 2
