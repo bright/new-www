@@ -197,11 +197,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-preload-fonts`,
       options: {
-        crossOrigin: `use-credentials`,
-        // OR
+        
         crossOrigin: pathname =>
           pathname.match(/^\/elevated/) ? `use-credentials` : `anonymous`,
       }
+    },
+    {
+      resolve: 'gatsby-plugin-preconnect',
+      options: {
+        domains: ['https://fonts.googleapis.com'],
+      },
     },
     {
       resolve: 'gatsby-plugin-s3',
