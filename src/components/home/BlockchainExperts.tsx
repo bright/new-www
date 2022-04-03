@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import {
   CustomContainer,
@@ -14,6 +14,7 @@ import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import { Projects } from './Projects'
 import { LogoTreasuryIcon } from '../icons/LogoTreasury.icon'
+import useOnScreen from '../utils/use-onscreen'
 
 const BlockchainExpertsTextRegural = styled(CustomTextRegular)`
   line-height: 2.5rem;
@@ -56,11 +57,14 @@ const ImageWrapper = styled.div`
 `
 
 export const BlockchainExperts = () => {
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
+
   return (
     <CustomSection>
       <CustomContainer>
         <CustomSectionTitle>we are blockchain experts</CustomSectionTitle>
-        <CustomSectionInner>
+        <CustomSectionInner ref={ref}>
           <BlockchainExpertsTextRegural>
             We have experience in developing blockchain projects in Ethereum and Substrate. We believe that blockchain
             is the technology of the future that’s why we’ve developed our original project for blockchain enthusiasts
@@ -70,15 +74,19 @@ export const BlockchainExperts = () => {
         <Link to='/projects/bright-treasury'>
           <ImageWrapper>
             <LogoTreasuryIcon />
-            <StaticImage
-              src='../../../static/images/Treasury_www_LargeSize.png'
-              alt=''
-              placeholder='blurred'
-              layout='constrained'
-              width={1475}
-              className='about-img'
-              quality={100}
-            />
+            {onScreen ? (
+              <StaticImage
+                src='../../../static/images/Treasury_www_LargeSize.png'
+                alt=''
+                placeholder='blurred'
+                layout='constrained'
+                width={1475}
+                className='about-img'
+                quality={100}
+              />
+            ) : (
+              <div style={{ height: '825px' }}></div>
+            )}
           </ImageWrapper>
         </Link>
         <ButtonBlockchainExperts>
