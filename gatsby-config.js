@@ -237,13 +237,7 @@ module.exports = {
         }
       }
     },
-       `gatsby-plugin-perf-budgets`,
-    {
-      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
-      options: {
-        generateStatsFile: true,
-      },
-    },
+
     {
       resolve: 'gatsby-plugin-json-pages',
       options: {
