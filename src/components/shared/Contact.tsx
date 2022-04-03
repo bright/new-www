@@ -20,7 +20,7 @@ import {
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomPageTitle, CustomSection, CustomTextRegular } from './index.styled'
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
-import ReactMarkdown from 'react-markdown'
+import AnalyticsLink from './AnalyticsLink'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;
@@ -191,7 +191,13 @@ export const Contact: FC<ContactProps> = ({
         )}
         {subtitle ? (
           <TextRegular>
-            <ReactMarkdown children={subtitle} />
+            {subtitle}{' '}
+            <AnalyticsLink
+              href='mailto:info@brightinventions.pl.'
+              action='Click Recruitment Email'
+              category='Click Email'
+              text='info@brightinventions.pl.'
+            />
           </TextRegular>
         ) : (
           <TextRegular>
