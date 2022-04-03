@@ -13,11 +13,8 @@ const PopularBlogPosts = loadable(() => import('../components/home/PopularBlogPo
 import '../styles/_page-index.scss'
 import { BlockchainExperts } from '../components/home/BlockchainExperts'
 import { GlobalStyle } from '../styles/global'
-import useOnScreen from '../components/utils/use-onscreen'
 
 export default () => {
-  const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px')
   return (
     <Page className='page-index'>
       <GlobalStyle />
@@ -25,20 +22,12 @@ export default () => {
       <Achievements />
       <HeroHeaderImages />
       <TechnologyTags />
-      <div ref={ref}>
-        {onScreen ? (
-          <>
-            <OurServices />
-            <BlockchainExperts />
-            <Projects />
-            <Ratings />
-            <PopularBlogPosts />
-            <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
-          </>
-        ) : (
-          <div style={{ height: '6000px' }}></div>
-        )}
-      </div>
+      <OurServices />
+      <BlockchainExperts />
+      <Projects />
+      <Ratings />
+      <PopularBlogPosts />
+      <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
     </Page>
   )
 }
