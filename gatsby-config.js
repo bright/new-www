@@ -205,7 +205,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-preconnect',
       options: {
-        domains: ['https://fonts.gstatic.com/s/montserrat/ ','https://fonts.gstatic.com/s/lato/'],
+        domains: ['https://fonts.gstatic.com/s/montserrat/ ','https://fonts.gstatic.com/s/lato/','https://widget.clutch.co/'],
       },
     },
     {
@@ -236,6 +236,13 @@ module.exports = {
           }
         }
       }
+    },
+       `gatsby-plugin-perf-budgets`,
+    {
+      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      options: {
+        generateStatsFile: true,
+      },
     },
     {
       resolve: 'gatsby-plugin-json-pages',
