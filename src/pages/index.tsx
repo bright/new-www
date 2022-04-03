@@ -25,7 +25,7 @@ export default () => {
       <Achievements />
       <HeroHeaderImages />
       <TechnologyTags />
-      <div>
+      <div ref={ref}>
         {onScreen ? (
           <>
             <OurServices />
