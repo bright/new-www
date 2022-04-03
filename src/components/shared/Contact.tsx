@@ -15,14 +15,12 @@ import {
   RequiredMessage,
   SingleSelect,
   SubmitButton,
-  SuccessMessage,
   TextInput,
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomPageTitle, CustomSection, CustomTextRegular } from './index.styled'
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 import ReactMarkdown from 'react-markdown'
-import AnalyticsLink from './AnalyticsLink'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;
@@ -91,7 +89,7 @@ export interface ContactProps {
   formButton: string
   actionFormButton: string
 }
-export const Contact: FC<ContactProps> = ({
+const Contact: FC<ContactProps> = ({
   title,
   subtitle,
   isOurServiceTemplate = true,
@@ -342,3 +340,5 @@ export const Contact: FC<ContactProps> = ({
     </ContainerWrapper>
   )
 }
+
+export default Contact
