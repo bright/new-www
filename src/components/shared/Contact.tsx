@@ -89,7 +89,7 @@ export interface ContactProps {
   formButton: string
   actionFormButton: string
 }
-const Contact: FC<ContactProps> = ({
+export const Contact: FC<ContactProps> = ({
   title,
   subtitle,
   isOurServiceTemplate = true,
@@ -340,5 +340,3 @@ const Contact: FC<ContactProps> = ({
     </ContainerWrapper>
   )
 }
-
-export default Contact
