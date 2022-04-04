@@ -16,14 +16,142 @@
   font-display: swap;
 }
 
+// /* montserrat-regular - latin */
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+//     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   font-display: swap;
+// }
+
+// /* montserrat-600 - latin */
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 600;
+//   src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+//     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   font-display: swap;
+// }
+// /* montserrat-700 - latin */
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+//     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   font-display: swap;
+// }
+// /* montserrat-800 - latin */
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 800;
+//   src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+//     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   font-display: swap;
+// }
+// /* montserrat-900 - latin */
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 900;
+//   src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+//     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   font-display: swap;
+// }
+// /* lato-regular - latin */
+// @font-face {
+//   font-family: 'Lato';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+//     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   font-display: swap;
+// }
+// /* latin-ext */
+// @font-face {
+//   font-family: 'Lato';
+//   font-style: normal;
+//   font-weight: 400;
+//   font-display: swap;
+//   src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+//   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+// }
+// /* lato-700 - latin */
+// @font-face {
+//   font-family: 'Lato';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+//     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   font-display: swap;
+// }
+// /* lato-900 - latin */
+// @font-face {
+//   font-family: 'Lato';
+//   font-style: normal;
+//   font-weight: 900;
+//   src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+//     U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//   font-display: swap;
+// }
+// /* latin-ext */
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-style: normal;
+//   font-weight: 900;
+//   font-display: swap;
+//   src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+//   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+// }
+// /* roboto-regular - latin */
+// @font-face {
+//   font-family: 'Roboto';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Roboto'), url('./fonts/roboto-v29-latin-regular.woff2') format('woff2'),
+//     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+//   font-display: swap;
+// }
+// /* roboto-700 - latin */
+// @font-face {
+//   font-family: 'Roboto';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: local('Roboto'), url('./fonts/roboto-v29-latin-700.woff2') format('woff2'),
+//     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+//   font-display: swap;
+// }
+// /* roboto-900 - latin */
+// @font-face {
+//   font-family: 'Roboto';
+//   font-style: normal;
+//   font-weight: 900;
+//   src: local('Roboto'), url('./fonts/roboto-v29-latin-900.woff2') format('woff2'),
+//     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+//   font-display: swap;
+// }
+
+/* // self-hosted web fonts */
+
 /* montserrat-regular - latin */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/montserrat-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
 
@@ -32,9 +160,8 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
-  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-600.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/montserrat-v23-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
 /* montserrat-700 - latin */
@@ -42,58 +169,46 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/montserrat-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
+
 /* montserrat-800 - latin */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
-  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-800.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/montserrat-v23-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
-/* montserrat-900 - latin */
+/* montserrat-900 - latin-ext_latin */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Montserrat'), url('./fonts/montserrat-v23-latin-ext_latin-900.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/montserrat-v23-latin-ext_latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
-/* lato-regular - latin */
+/* lato-regular - latin-ext_latin */
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Lato'), url('./fonts/lato-v22-latin-ext_latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/lato-v22-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
+
 /* lato-700 - latin */
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Lato'), url('./fonts/lato-v22-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/lato-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
 /* lato-900 - latin */
@@ -101,27 +216,18 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.gstatic.com/s/lato/v22/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local('Lato'), url('./fonts/lato-v22-latin-900.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/lato-v22-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
-/* latin-ext */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
+
 /* roboto-regular - latin */
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   src: local('Roboto'), url('./fonts/roboto-v29-latin-regular.woff2') format('woff2'),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
 /* roboto-700 - latin */
@@ -130,7 +236,7 @@
   font-style: normal;
   font-weight: 700;
   src: local('Roboto'), url('./fonts/roboto-v29-latin-700.woff2') format('woff2'),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/roboto-v29-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
 /* roboto-900 - latin */
@@ -139,6 +245,6 @@
   font-style: normal;
   font-weight: 900;
   src: local('Roboto'), url('./fonts/roboto-v29-latin-900.woff2') format('woff2'),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/fonts/roboto-v29-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url('./fonts/roboto-v29-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   font-display: swap;
 }
