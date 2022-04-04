@@ -10,6 +10,7 @@ import { routeLinks } from '../config/routing'
 
 import * as styles from './Footer.module.scss'
 import AnalyticsLink from '../components/shared/AnalyticsLink'
+import { Link } from 'gatsby'
 
 export const Footer = () => {
   return (
@@ -39,35 +40,35 @@ export const Footer = () => {
           <div className={classNames('column is-hidden-mobile', styles.links)}>
             <h6 className='subtitle is-size-6 has-text-weight-bold'>explore more</h6>
             <p className='content'>
-              <a href={routeLinks.aboutUs()}>about us</a>
+              <Link to={routeLinks.aboutUs()}>about us</Link>
             </p>
             <p className='content'>
-              <a href={routeLinks.whatWeOffer}>what we offer</a>
+              <Link to={routeLinks.whatWeOffer}>what we offer</Link>
             </p>
             <p className='content'>
-              <a href={routeLinks.projects}>projects</a>
+              <Link to={routeLinks.projects}>projects</Link>
             </p>
             <p className='content'>
-              <a href={routeLinks.career}>career</a>
+              <Link to={routeLinks.career}>career</Link>
             </p>
             <p className='content'>
-              <a href={routeLinks.blog}>blog</a>
+              <Link to={routeLinks.blog}>blog</Link>
             </p>
           </div>
 
           <div className={classNames('column is-hidden-mobile', styles.links)}>
             <h6 className='subtitle is-size-6 has-text-weight-bold'>services</h6>
             <p className='content'>
-              <a href={routeLinks.whatWeOffer}>web development</a>
+              <Link to={routeLinks.whatWeOffer}>web development</Link>
             </p>
             <p className='content'>
-              <a href={routeLinks.whatWeOffer}>mobile development</a>
+              <Link to={routeLinks.whatWeOffer}>mobile development</Link>
             </p>
             <p className='content'>
-              <a href={routeLinks.whatWeOffer}>consulting services</a>
+              <Link to={routeLinks.whatWeOffer}>consulting services</Link>
             </p>
             <p className='content'>
-              <a href={routeLinks.whatWeOffer}>UX/UI design</a>
+              <Link to={routeLinks.whatWeOffer}>UX/UI design</Link>
             </p>
           </div>
 
@@ -104,9 +105,9 @@ export const Footer = () => {
           © {new Date().getFullYear()} Bright Inventions. All rights reserved. <br />
           We use cookies to ensure that we give you the best experience on our website. If you continue to use this site
           we will assume that you are happy with it.
-          <a href={routeLinks.privacyPolicy} className='has-text-black-bis'>
+          <Link to={routeLinks.privacyPolicy} className='has-text-black-bis'>
             Privacy Policy
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
