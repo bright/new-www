@@ -17,7 +17,7 @@ published: true
 
 ## What is the role of mobile devices in healthcare? 
 
-There are lots of devices that we have seen at doctor’s offices that – thanks to Bluetooth connection and dedicated applications – have turned into **patient’s remote monitoring systems**. Also, healthcare startups create more and more **wearable healthcare devices** that enable continuous monitoring of patients. 
+There are lots of devices that we have seen at doctor’s offices that – thanks to [Bluetooth](/our-areas/bluetooth-development) connection and dedicated applications – have turned into **patient’s remote monitoring systems**. Also, healthcare startups create more and more **wearable healthcare devices** that enable continuous monitoring of patients. 
 
 COVID-19 pandemic has shown that telemedicine is crucial in answering [future medical challenges that are around us](/blog/healthcare-software-development-not-a-future/). New technologies give patients the tools to consciously manage their condition. They help medical staff to take care of more patients without using some extra time to individually examine each of them. The devices can monitor the patient’s condition. Then the app helps to analyse the data. In the end, the doctor can start the treatment according to the data provided by the algorithm behind the health application.
 
