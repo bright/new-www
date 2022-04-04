@@ -95,6 +95,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: `${__dirname}/static/fonts/`
+      }
+    },
+    {
       resolve: `gatsby-plugin-disqus`,
       options: {
         shortname: `brightinventions`,
@@ -192,20 +199,6 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: '/',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-preload-fonts`,
-      options: {
-        
-        crossOrigin: pathname =>
-          pathname.match(/^\/elevated/) ? `use-credentials` : `anonymous`,
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-preconnect',
-      options: {
-        domains: ['https://fonts.gstatic.com/s/montserrat/ ','https://fonts.gstatic.com/s/lato/','https://widget.clutch.co/'],
       },
     },
     {
