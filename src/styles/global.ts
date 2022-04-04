@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 require('prismjs/themes/prism-solarizedlight.css')
+import '../../static/fonts/fonts.scss'
 
 export const GlobalStyle = createGlobalStyle` 
 :root {
@@ -11,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 --black-new: #0A0A0A;
 }
 && body {
+    font-family: 'Montserrat', sans-serif;
     color: var(--black-new);
     h1, h2, h3, h4, h5, h6 {
         color: var(--black-new);
