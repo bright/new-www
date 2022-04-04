@@ -1,9 +1,10 @@
-import React, { useMemo, useState } from 'react'
+import React, { useMemo, useRef, useState } from 'react'
 import styled from 'styled-components'
 
-import { CustomSection, Section, SectionTitle, CustomSectionTitle } from '../../components/shared'
+import { CustomSection, CustomSectionTitle } from '../../components/shared'
 import { CustomContainer } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
+import useOnScreen from '../../components/utils/use-onscreen'
 
 const SectionBenefitsTitle = styled(CustomSectionTitle)`
   margin-top: 11.625rem;
@@ -181,6 +182,8 @@ const Benefits: React.FC = () => {
     ],
     [expanded]
   )
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '3000px')
 
   return (
     <CustomContainer>
@@ -189,7 +192,7 @@ const Benefits: React.FC = () => {
           our life is also <span className='has-text-primary'>bright</span>
         </SectionBenefitsTitle>
 
-        <BlockSmall className='is-pulled-right'>
+        <BlockSmall className='is-pulled-right' ref={ref}>
           <span>Follow us on:</span>
           <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
             <img src='/images/social/linkedIn.svg' alt='LinkedIn' />
@@ -201,14 +204,19 @@ const Benefits: React.FC = () => {
             <img src='/images/social/instagram.svg' alt='Instagram' />
           </a>
         </BlockSmall>
-        {blocks.map((block, index) => (
-          <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
-            <figure className='image is-inline-block'>
-              <img src={block.image} alt={block.alt} />
-            </figure>
-            <p>{block.title}</p>
-          </Block>
-        ))}
+        {onScreen ? (
+          blocks.map((block, index) => (
+            <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
+              <figure className='image is-inline-block'>
+                <img src={block.image} alt={block.alt} />
+              </figure>
+              <p>{block.title}</p>
+            </Block>
+          ))
+        ) : (
+          <div></div>
+        )}
+
         <BlockSmall className='is-pulled-left'>
           <span onClick={() => setExpanded(!expanded)} className='more'>
             see {expanded ? 'less' : 'more'}
