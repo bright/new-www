@@ -22,12 +22,9 @@ export const onRenderBody = ({ setHeadComponents }) => {
   const preload = [
       'montserrat-v23-latin-regular',
       'montserrat-v23-latin-600',
-      'montserrat-v23-latin-700',
-      'montserrat-v23-latin-800',
       'montserrat-v23-latin-ext_latin-900',
       'lato-v22-latin-ext_latin-regular',
-      'lato-v22-latin-700',
-      'lato-v22-latin-900'
+     
     ]
 
   setHeadComponents([
