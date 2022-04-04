@@ -62,7 +62,7 @@ Currently, I take care of 3 projects at Bright Inventions. One of them is **[Rel
 
 Another project is **[AccesSOS](https://accessos.io), it’s a PWA application for placing emergency calls for people with speaking or hearing disabilities** that will be launched soon in the USA.
 
-I also work with a USA startup **[Luna](https://lunaxio.com), where we build a complete communication platform based on the network of Bluetooth devices**. That is a fascinating yet complex project. I believe that it can revolutionize the way we use Bluetooth technology.
+I also work with a USA startup **[Luna](https://lunaxio.com), where we build a complete communication platform based on the network of Bluetooth devices**. That is a fascinating yet complex project. I believe that it can revolutionize the way we use [Bluetooth technology](/our-areas/bluetooth-development).
 
 ## Do you prefer to work with startups or bigger organizations?
 
