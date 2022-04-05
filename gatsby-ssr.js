@@ -26,7 +26,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       'montserrat-v23-latin-800',
       'montserrat-v23-latin-ext_latin-900',
       'lato-v22-latin-ext_latin-regular',
-      'lato-v22-latin-700.woff2'
+      'lato-v22-latin-700'
      
     ]
 
