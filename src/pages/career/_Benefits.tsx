@@ -5,6 +5,9 @@ import { CustomSection, CustomSectionTitle, CustomContainer } from '../../compon
 import variables from '../../styles/variables'
 import useOnScreen from '../../components/utils/use-onscreen'
 import { clampBuilder } from '../../helpers/clampBuilder'
+import FacebookIconBlack from '../../assets/facebook_black.svg'
+import InstagramIconBlack from '../../assets/instagram_black.svg'
+import LinkedInIconBlack from '../../assets/linkedIn_black.svg'
 
 const SectionBenefitsTitle = styled(CustomSectionTitle)`
   margin-top: 11.625rem;
@@ -200,13 +203,13 @@ const Benefits: React.FC = () => {
         <BlockSmall className='is-pulled-right'>
           <span>Follow us on:</span>
           <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
-            <img src='/images/social/linkedIn.svg' alt='LinkedIn' />
+            <LinkedInIconBlack />
           </a>
           <a target='_blank' href='https://www.facebook.com/bright.inventions/'>
-            <img src='/images/social/facebook.svg' alt='Facebook' />
+            <FacebookIconBlack />
           </a>
           <a target='_blank' href='https://www.instagram.com/bright_inventions/'>
-            <img src='/images/social/instagram.svg' alt='Instagram' />
+            <InstagramIconBlack />
           </a>
         </BlockSmall>
         {onScreen ? (
