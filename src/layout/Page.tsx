@@ -12,10 +12,7 @@ import { fbShareImage } from '../meta/bright-logo'
 import { resolveUrl } from '../meta/resolve-url'
 import { useLocation } from '@reach/router'
 
-export const Page: React.FC<{ className?: string }> = ({
-                                                         children,
-                                                         className
-                                                       }) => {
+export const Page: React.FC<{ className?: string }> = ({ children, className }) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
 
   const { pathname } = useLocation()
@@ -23,7 +20,7 @@ export const Page: React.FC<{ className?: string }> = ({
   return (
     <div
       className={classNames('layout-container', className, {
-        [styles.menuOpened]: mobileMenuOpened
+        [styles.menuOpened]: mobileMenuOpened,
       })}
     >
       <HelmetTitleDescription
@@ -34,7 +31,7 @@ export const Page: React.FC<{ className?: string }> = ({
         <meta property='og:image' content={resolveUrl(fbShareImage)} />
         <meta property='og:url' content={resolveUrl(pathname)} />
         {/* Ideally simply adding import("https://widget.clutch.co/static/js/widget.js") would work */}
-        <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} />
+        {/* <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} /> */}
       </Helmet>
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       {children}
