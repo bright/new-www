@@ -100,13 +100,13 @@ contract ArbitrageSwap {
 ## How it all started
 
 Today is the day. You've thought about that for a long time.
-You have been reading about blockchain, Ethereum and Solidity for past few days. It's time
+You have been reading about Blockchain, Ethereum and Solidity for past few days. It's time
 to start coding! Let's start with something that has a lot of documentation, and is already widely
 used - swapping tokens. Uniswap seems to be the largest exchange so let's read through their [docs](https://docs.uniswap.org/sdk/introduction).
 Oh! They even have an [example of a simple swap](https://docs.uniswap.org/protocol/guides/swaps/single-swaps)! 
 Let's copy it and check if it works.
 
-Few minutes later, the contract is deployed. You go to the Etherscan and try to write a transaction
+A Few minutes later, the contract is deployed. You go to the Etherscan and try to write a transaction
 using your swap function and... it does not work. Even Metamask warns you before you sign the transaction
 that it will probably fail. Wait what? Why? How? I've copied it from official docs. Why is it failing?
 
@@ -117,14 +117,14 @@ similar questions to yours, but they don't have any response.
 
 Don't worry! I was at exactly same situation not so long time ago. If you'll check my code
 you will see that it is almost identical to the one from Uniswap docs. They prepared them
-very well. They just omitted a few small things, or did not stress enough a few additional steps that 
+very well. They just omitted a few small things or did not stress enough a few additional steps that 
 are required. You can also notice that I have two almost identical functions.
-If you are interested why, keep on reading.
+If you are interested why keep on reading.
 
 ### Wrong tokens addresses
 
 I think the most common mistake, is using wrong address for the tokens. Keep in mind
-that every token you want to swap is also a deployed contract. On different networks
+that every token you want to swap is also a deployed contract. On different networks,
 contracts can be deployed at different addresses. Uniswap in their example has some
 hardcoded ones for DAI and WETH, but they do not mention on which network this example should work.
 
