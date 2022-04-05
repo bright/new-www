@@ -1,13 +1,10 @@
 import React, { useRef } from 'react'
 import styled from 'styled-components'
 import { StaticImage } from 'gatsby-plugin-image'
-import { CustomSectionTitle } from '../shared/index.styled'
-import { Section } from '../shared'
+import { Section, CustomSectionTitle, CustomContainer, BlackButton } from '../shared'
 import variables from '../../styles/variables'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
-import { BlackButton } from '../about-us/about-us.styled'
-import { CustomContainer } from '../../components/shared/index'
 import useOnScreen from '../utils/use-onscreen'
 
 const HeroSectionWrapper = styled.section`
