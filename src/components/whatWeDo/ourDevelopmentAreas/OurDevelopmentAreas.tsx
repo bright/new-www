@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby'
-import React from 'react'
+import React, { useRef } from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { ServiceModel } from '../../../models/gql'
 import ReactMarkdown from 'react-markdown'
@@ -12,8 +12,10 @@ import {
   SectionTitleContainer,
   Title,
   RevertHoverLink,
+  OnScreenSection,
 } from './styles'
 import { CustomSection } from '../../shared'
+import useOnScreen from '../../utils/use-onscreen'
 
 const OurDevelopmentAreas = () => {
   const {
@@ -26,30 +28,36 @@ const OurDevelopmentAreas = () => {
         return ourServicesItems
       })
     : []
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
 
   return (
-    <DevelopmentAreasWrapper>
+    <DevelopmentAreasWrapper ref={ref}>
       <CustomSection paddingProps='0 15rem'>
         <DevelopmentAreasContainer>
-          {ourServicesItems.map(service => (
-            <DevelopmentAreaContainer key={service.name}>
-              <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
-                <SectionTitleContainer>
-                  <GatsbyImage
-                    image={getImage(service.our_services_icon)!}
-                    alt={service.name}
-                    style={{ maxHeight: 100 }}
-                    imgStyle={{ objectFit: 'contain' }}
-                    className='about-img'
-                    imgClassName='image'
-                    backgroundColor='#fff'
-                  />
-                  <Title>{service.name}</Title>
-                </SectionTitleContainer>
-                <ReactMarkdown children={service.short_description} />
-              </RevertHoverLink>
-            </DevelopmentAreaContainer>
-          ))}
+          {onScreen ? (
+            ourServicesItems.map(service => (
+              <DevelopmentAreaContainer key={service.name}>
+                <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
+                  <SectionTitleContainer>
+                    <GatsbyImage
+                      image={getImage(service.our_services_icon)!}
+                      alt={service.name}
+                      style={{ maxHeight: 100 }}
+                      imgStyle={{ objectFit: 'contain' }}
+                      className='about-img'
+                      imgClassName='image'
+                      backgroundColor='#fff'
+                    />
+                    <Title>{service.name}</Title>
+                  </SectionTitleContainer>
+                  <ReactMarkdown children={service.short_description} />
+                </RevertHoverLink>
+              </DevelopmentAreaContainer>
+            ))
+          ) : (
+            <OnScreenSection></OnScreenSection>
+          )}
         </DevelopmentAreasContainer>
       </CustomSection>
     </DevelopmentAreasWrapper>

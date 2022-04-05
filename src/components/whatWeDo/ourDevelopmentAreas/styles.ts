@@ -3,6 +3,7 @@ import { TextRegular, TextTitle } from '../../shared'
 import variables from '../../../styles/variables'
 import { Link } from 'gatsby'
 import { TitleBase } from '../../shared/index.styled'
+import { clampBuilder } from '../../../helpers/clampBuilder'
 
 export const DevelopmentAreasWrapper = styled.div({
   display: 'flex',
@@ -144,5 +145,11 @@ export const Title = styled.h2`
     line-height: ${variables.pxToRem(19)};
     margin-top: ${variables.pxToRem(18)};
     margin-bottom: ${variables.pxToRem(27)};
+  }
+`
+export const OnScreenSection = styled.div`
+  height: ${clampBuilder(993, 1920, 2718, 2440)};
+  @media ${variables.device.tablet} {
+    height: ${clampBuilder(360, 992, 4140, 3768)};
   }
 `
