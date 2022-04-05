@@ -1,9 +1,11 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useRef } from 'react'
 import styled from 'styled-components'
 
-import { SectionBlack, SectionTitle } from '../../components/shared'
+import { SectionBlack } from '../../components/shared'
 import { CustomSectionTitle } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
+import useOnScreen from '../../components/utils/use-onscreen'
+import { clampBuilder } from '../../helpers/clampBuilder'
 
 const PracticeSectionBlack = styled(SectionBlack)`
   padding: 2rem 15rem 6rem 15rem;
@@ -88,7 +90,15 @@ const Column = styled.div`
 `
 const Columns = styled.div`
   @media ${variables.device.tablet} {
-    display: flex;
+    && .columns {
+      display: flex;
+    }
+  }
+`
+const OnScreenSection = styled.div`
+  height: ${clampBuilder(993, 1920, 828, 850)};
+  @media ${variables.device.tablet} {
+    height: ${clampBuilder(360, 992, 1668, 1100)};
   }
 `
 
@@ -104,20 +114,26 @@ const WhatWePractice: React.FC = () => {
     ],
     []
   )
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
 
   return (
-    <PracticeSectionBlack>
+    <PracticeSectionBlack ref={ref}>
       <PracticeTitle>what we practice</PracticeTitle>
 
       <Columns className='columns is-multiline'>
-        {blocks.map(block => (
-          <Column key={block.title} className='column is-one-third has-text-centered'>
-            <figure className='image is-inline-block'>
-              <img src={block.image} alt={block.title} />
-            </figure>
-            <p>{block.title}</p>
-          </Column>
-        ))}
+        {onScreen ? (
+          blocks.map(block => (
+            <Column key={block.title} className='column is-one-third has-text-centered'>
+              <figure className='image is-inline-block'>
+                <img src={block.image} alt={block.title} />
+              </figure>
+              <p>{block.title}</p>
+            </Column>
+          ))
+        ) : (
+          <OnScreenSection></OnScreenSection>
+        )}
       </Columns>
     </PracticeSectionBlack>
   )
