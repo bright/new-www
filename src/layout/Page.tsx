@@ -31,7 +31,7 @@ export const Page: React.FC<{ className?: string }> = ({ children, className }) 
         <meta property='og:image' content={resolveUrl(fbShareImage)} />
         <meta property='og:url' content={resolveUrl(pathname)} />
         {/* Ideally simply adding import("https://widget.clutch.co/static/js/widget.js") would work */}
-        {/* <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} /> */}
+        <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} />
       </Helmet>
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       {children}
