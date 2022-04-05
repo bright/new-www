@@ -1,9 +1,10 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useRef } from 'react'
 import styled from 'styled-components'
 
 import { Section } from '../../components/shared'
 import { CustomSectionTitle } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
+import useOnScreen from '../../components/utils/use-onscreen'
 
 const RecruitingSection = styled(Section)`
   padding: 2rem 15rem 6rem 15rem;
@@ -190,40 +191,46 @@ const RecruitingProcess: React.FC<Props> = ({ recruting_image2_title, recruting_
     []
   )
 
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '3000px')
+
   return (
-    <RecruitingSection>
+    <RecruitingSection ref={ref}>
       <RecruitingTitle>recruiting process</RecruitingTitle>
+      {onScreen ? (
+        <Columns className='columns is-multiline has-justify-content-center'>
+          {blocks.map((block, index) => {
+            let title
+            if (index === 1 && recruting_image2_title) {
+              title = recruting_image2_title
+            } else if (index === 2 && recruting_image3_title) {
+              title = recruting_image3_title
+            } else {
+              title = block.title
+            }
 
-      <Columns className='columns is-multiline has-justify-content-center'>
-        {blocks.map((block, index) => {
-          let title
-          if (index === 1 && recruting_image2_title) {
-            title = recruting_image2_title
-          } else if (index === 2 && recruting_image3_title) {
-            title = recruting_image3_title
-          } else {
-            title = block.title
-          }
+            return (
+              <div key={title} className='column is-one-quarter has-text-centered'>
+                <figure className='image is-inline-block top-image'>
+                  <img src={block.image} alt={title} />
+                </figure>
 
-          return (
-            <div key={title} className='column is-one-quarter has-text-centered'>
-              <figure className='image is-inline-block top-image'>
-                <img src={block.image} alt={title} />
-              </figure>
-
-              <p>
-                {index + 1}. {title}
-              </p>
-            </div>
-          )
-        })}
-        <div className='column is-half has-text-centered'>
-          <figure className='image is-inline-block bottom-image'>
-            <img src='/images/career/recruiting/congrats.png' alt='congrats' />
-          </figure>
-          <p>5. congrats! you are a part of a bright team!</p>
-        </div>
-      </Columns>
+                <p>
+                  {index + 1}. {title}
+                </p>
+              </div>
+            )
+          })}
+          <div className='column is-half has-text-centered'>
+            <figure className='image is-inline-block bottom-image'>
+              <img src='/images/career/recruiting/congrats.png' alt='congrats' />
+            </figure>
+            <p>5. congrats! you are a part of a bright team!</p>
+          </div>
+        </Columns>
+      ) : (
+        <div></div>
+      )}
     </RecruitingSection>
   )
 }
