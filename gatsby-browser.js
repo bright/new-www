@@ -5,11 +5,12 @@
  */
 
 // You can delete this file if you're not using it
-import React from 'react'
+const React = require("react")
 import { GlobalStyle } from './src/styles/global'
 import {
   registerGlobalMailtoClickHandler,
 } from './src/report-mailto-click-to-google-analytics'
+
 
 export const wrapPageElement = ({ element }) => (
   <>
@@ -21,3 +22,15 @@ export const wrapPageElement = ({ element }) => (
 export const onInitialClientRender = () => {
   registerGlobalMailtoClickHandler();
 }
+
+const loadableReady = require("@loadable/component").loadableReady
+
+export const replaceHydrateFunction = () => {
+  return (element, container, callback) => {
+    loadableReady(() => {
+      ReactDOM.render(element, container, callback)
+    })
+  }
+}
+
+
