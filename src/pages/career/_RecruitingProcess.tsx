@@ -172,7 +172,7 @@ const Columns = styled.div`
 `
 const OnScreenSection = styled.div`
   height: ${clampBuilder(993, 1920, 1200, 1900)};
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tablet} {
     height: ${clampBuilder(360, 992, 1900, 4000)};
   }
 `

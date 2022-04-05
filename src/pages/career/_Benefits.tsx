@@ -1,10 +1,10 @@
 import React, { useMemo, useRef, useState } from 'react'
 import styled from 'styled-components'
 
-import { CustomSection, CustomSectionTitle } from '../../components/shared'
-import { CustomContainer } from '../../components/shared/index.styled'
+import { CustomSection, CustomSectionTitle, CustomContainer } from '../../components/shared'
 import variables from '../../styles/variables'
 import useOnScreen from '../../components/utils/use-onscreen'
+import { clampBuilder } from '../../helpers/clampBuilder'
 
 const SectionBenefitsTitle = styled(CustomSectionTitle)`
   margin-top: 11.625rem;
@@ -152,7 +152,12 @@ const BlockSmall = styled(Block)`
     }
   }
 `
-
+const OnScreenSection = styled.div`
+  height: ${clampBuilder(993, 1920, 1200, 1900)};
+  @media ${variables.device.tablet} {
+    height: ${clampBuilder(360, 992, 1900, 4000)};
+  }
+`
 const Benefits: React.FC = () => {
   const [expanded, setExpanded] = useState(false)
   const blocks = useMemo(
@@ -183,16 +188,16 @@ const Benefits: React.FC = () => {
     [expanded]
   )
   const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '3000px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
 
   return (
-    <CustomContainer>
+    <CustomContainer ref={ref}>
       <CustomSection className='is-clearfix'>
         <SectionBenefitsTitle>
           our life is also <span className='has-text-primary'>bright</span>
         </SectionBenefitsTitle>
 
-        <BlockSmall className='is-pulled-right' ref={ref}>
+        <BlockSmall className='is-pulled-right'>
           <span>Follow us on:</span>
           <a target='_blank' href='https://www.linkedin.com/company/bright-inventions/'>
             <img src='/images/social/linkedIn.svg' alt='LinkedIn' />
@@ -214,7 +219,7 @@ const Benefits: React.FC = () => {
             </Block>
           ))
         ) : (
-          <div></div>
+          <OnScreenSection></OnScreenSection>
         )}
 
         <BlockSmall className='is-pulled-left'>
