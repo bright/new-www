@@ -5,6 +5,7 @@ import { Section } from '../../components/shared'
 import { CustomSectionTitle } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
 import useOnScreen from '../../components/utils/use-onscreen'
+import { clampBuilder } from '../../helpers/clampBuilder'
 
 const RecruitingSection = styled(Section)`
   padding: 2rem 15rem 6rem 15rem;
@@ -127,49 +128,52 @@ const Columns = styled.div`
   }
   @media ${variables.device.tablet} {
     display: block !important;
-    && {import { pxToRem } from './../../styles/variables';
+    && .column {
+      margin-bottom: 4.5625rem;
+      padding: 0 1.125rem;
+      width: 100%;
 
-      .column {
-        margin-bottom: 4.5625rem;
-        padding: 0 1.125rem;
+      &:not(.is-half):after {
+        top: unset;
+        bottom: -3rem;
+        width: 1.5rem;
+        height: 1rem;
+        transform: translateX(-50%) rotate(90deg) scale(1.5);
+        left: 50%;
+        right: unset;
+      }
+
+      .top-image img {
+        max-height: 296px;
         width: 100%;
-
+        margin: 0 auto;
+      }
+      p {
+        font-size: 1.375rem;
+        margin-top: 2.5rem;
+      }
+    }
+  }
+  @media ${variables.device.mobile} {
+    && {
+      .column {
         &:not(.is-half):after {
           top: unset;
           bottom: -3rem;
           width: 1.5rem;
           height: 1rem;
-          transform: translateX(-50%) rotate(90deg) scale(1.5);
+          transform: translateX(-50%) rotate(90deg) scale(1);
           left: 50%;
           right: unset;
         }
-
-        .top-image img {
-          max-height: 296px;
-          width: 100%;
-          margin: 0 auto;
-        }
-        p {
-          font-size: 1.375rem;
-          margin-top: 2.5rem;
-        }
       }
     }
-    @media ${variables.device.mobile} {
-      && {
-        .column {
-          &:not(.is-half):after {
-            top: unset;
-            bottom: -3rem;
-            width: 1.5rem;
-            height: 1rem;
-            transform: translateX(-50%) rotate(90deg) scale(1);
-            left: 50%;
-            right: unset;
-          }
-        }
-      }
-    }
+  }
+`
+const OnScreenSection = styled.div`
+  height: ${clampBuilder(993, 1920, 1200, 1900)};
+  @media ${variables.device.mobile} {
+    height: ${clampBuilder(360, 992, 1900, 4000)};
   }
 `
 interface Props {
@@ -229,7 +233,7 @@ const RecruitingProcess: React.FC<Props> = ({ recruting_image2_title, recruting_
           </div>
         </Columns>
       ) : (
-        <div></div>
+        <OnScreenSection></OnScreenSection>
       )}
     </RecruitingSection>
   )
