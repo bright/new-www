@@ -1,5 +1,8 @@
 ---
 author: lukasz
+tags:
+  - uniswap
+  - solidity
 date: 2022-04-04T06:10:32.333Z
 title: Single swap on Uniswap v3 with 3 common mistakes
 layout: post
@@ -131,7 +134,7 @@ tokens it might not be so simple, since there are many different DAI tokens on e
 How I overcame it? I've figured out, that since I want to test Uniswap swap functionality, I'll just
 swap the tokens I'm interested in using their interface and then check the transaction details. 
 
-PICTURE HERE!!!!
+![](/images/successful_uniswap_swap_transaction.png)
 
 You can check such transaction [here](https://kovan.etherscan.io/tx/0x83ccabe0ed0e06975f83630890257b67522ef4ee7c18650f15a1be69c4e82a2e).
 Inside, we can see WETH and DAI tokens, that Uniswap used. After clicking them, you will find
@@ -155,14 +158,14 @@ So the approval that we have in the code, is the second part. We approve Uniswap
 from our contract. But before that, we must also approve OUR contract to withdraw tokens from our wallet.
 If you won't do that and you will try to sign a transaction Metamask will warn you that it will probably fail:
 
-PICUTRE HERE!!
+![](/images/metamask_fail_transaction_warning.png)
 
 And after trying anyway, transaction will be reverted with an error: `TransferHelper::transferFrom: transferFrom failed`.
 
 To approve withdrawing token, find contract of the token that you are going to be swapping on Etherscan (in our case DAI)
 and use their `approve` function providing your contracts address and amount of coins that you are willing to approve.
 
-PICTURE HERE!!
+![](/images/approving_usage_of_our_tokens.png)
 
 After the transaction gets approved, you should be able to use your contracts swap function successfully.
 You can't? Well... then maybe you also made a 3rd mistake!
