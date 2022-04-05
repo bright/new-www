@@ -201,6 +201,7 @@ module.exports = {
         output: '/',
       },
     },
+    
     {
       resolve: 'gatsby-plugin-s3',
       options: {
@@ -210,7 +211,14 @@ module.exports = {
         region: 'eu-central-1',
       },
     },
-    `gatsby-plugin-loadable-components-ssr`,
+    {
+      resolve: `gatsby-plugin-loadable-components-ssr`,
+      options: {
+        // Whether replaceHydrateFunction should call ReactDOM.hydrate or ReactDOM.render
+        // Defaults to ReactDOM.render on develop and ReactDOM.hydrate on build
+        useHydrate: true,
+      },
+    },
     {
       resolve: 'gatsby-plugin-force-trailing-slashes',
       options: {},
