@@ -58,3 +58,4 @@ export const CustomTextRegular = Styled.CustomTextRegular
 export const Button = Styled.Button
 export const CustomSectionInner = Styled.CustomSectionInner
 export const CustomPageDescription = Styled.CustomPageDescription
+export const BlackButton = Styled.BlackButton
