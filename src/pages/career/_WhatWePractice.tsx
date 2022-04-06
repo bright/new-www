@@ -122,7 +122,7 @@ const WhatWePractice: React.FC = () => {
       <PracticeTitle>what we practice</PracticeTitle>
 
       <Columns className='columns is-multiline'>
-        {onScreen ? (
+        {onScreen &&
           blocks.map(block => (
             <Column key={block.title} className='column is-one-third has-text-centered'>
               <figure className='image is-inline-block'>
@@ -130,10 +130,7 @@ const WhatWePractice: React.FC = () => {
               </figure>
               <p>{block.title}</p>
             </Column>
-          ))
-        ) : (
-          <OnScreenSection></OnScreenSection>
-        )}
+          ))}
       </Columns>
     </PracticeSectionBlack>
   )
