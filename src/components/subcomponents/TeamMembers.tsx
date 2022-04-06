@@ -272,7 +272,7 @@ const TeamMembers = ({
   const [numberOfMembers, setNumberOfMembers] = useState<number>()
 
   const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '100px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px')
 
   useEffect(() => {
     if (isOurServiceTemplate) {
@@ -311,12 +311,14 @@ const TeamMembers = ({
                         imgClassName='image'
                       />
                     )}
-                    <GatsbyImage
-                      image={getImage(member.avatar_hover)!}
-                      alt={member.name}
-                      className='avatar2'
-                      imgClassName='image'
-                    />
+                    {onScreen && (
+                      <GatsbyImage
+                        image={getImage(member.avatar_hover)!}
+                        alt={member.name}
+                        className='avatar2'
+                        imgClassName='image'
+                      />
+                    )}
                   </AvatarWrapper>
                   <div>
                     <p>
