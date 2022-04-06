@@ -1,5 +1,5 @@
 import { Link } from 'gatsby'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 import { routeLinks } from '../../config/routing'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
@@ -7,6 +7,7 @@ import { useAuthors } from '../../use-authors/use-authors'
 import variables from '../../styles/variables'
 import { useWindowSize } from '../utils/use-windowsize'
 import { CustomSectionTitle } from '../shared'
+import useOnScreen from '../utils/use-onscreen'
 
 const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: boolean; isTeam: boolean }>`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -270,6 +271,9 @@ const TeamMembers = ({
   const whyUsTeamMembers = width <= 992 ? 8 : 12
   const [numberOfMembers, setNumberOfMembers] = useState<number>()
 
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '100px')
+
   useEffect(() => {
     if (isOurServiceTemplate) {
       setNumberOfMembers(initNumber)
@@ -279,7 +283,7 @@ const TeamMembers = ({
       setNumberOfMembers(members.length)
     }
   }, [])
-
+  console.log(onScreen)
   return (
     <>
       {isWhyUs && (
@@ -287,7 +291,7 @@ const TeamMembers = ({
           meet the <span>bright</span> team
         </CustomSectionTitle>
       )}
-      <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!} isWhyUs={isWhyUs!}>
+      <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!} isWhyUs={isWhyUs!} ref={ref}>
         <Container isWhyUs={isWhyUs!} isTeam={isTeam!}>
           {members.slice(0, numberOfMembers).map(member => {
             return (
@@ -299,12 +303,14 @@ const TeamMembers = ({
               >
                 <Link to={routeLinks.aboutUs(member)}>
                   <AvatarWrapper isOurServiceTemplate={isOurServiceTemplate!}>
-                    <GatsbyImage
-                      image={getImage(member.avatar)!}
-                      alt={member.name}
-                      className='avatar1'
-                      imgClassName='image'
-                    />
+                    {onScreen && (
+                      <GatsbyImage
+                        image={getImage(member.avatar)!}
+                        alt={member.name}
+                        className='avatar1'
+                        imgClassName='image'
+                      />
+                    )}
                     <GatsbyImage
                       image={getImage(member.avatar_hover)!}
                       alt={member.name}
