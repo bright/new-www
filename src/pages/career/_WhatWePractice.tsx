@@ -115,7 +115,7 @@ const WhatWePractice: React.FC = () => {
     []
   )
   const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '-100px')
 
   return (
     <PracticeSectionBlack ref={ref}>
