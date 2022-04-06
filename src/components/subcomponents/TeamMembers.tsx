@@ -297,7 +297,6 @@ const TeamMembers = ({
             .sort((a, b) => (a.authorId < b.authorId ? -1 : 1))
             .slice(0, numberOfMembers)
             .map(member => {
-              console.log(member)
               return (
                 <TeamMember
                   isOurServiceTemplate={isOurServiceTemplate!}
