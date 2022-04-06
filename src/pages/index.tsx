@@ -11,8 +11,9 @@ import { Contact } from '../components/shared/Contact'
 // const HeroHeaderImages = loadable(() => import('../components/home/HeroHeaderImages'))
 const PopularBlogPosts = loadable(() => import('../components/home/PopularBlogPosts'))
 import '../styles/_page-index.scss'
-import { BlockchainExperts } from '../components/home/BlockchainExperts'
+// import { BlockchainExperts } from '../components/home/BlockchainExperts'
 import { GlobalStyle } from '../styles/global'
+const BlockchainExperts = React.lazy(() => import('../components/home/BlockchainExperts'))
 const HeroHeaderImages = React.lazy(() => import('../components/home/HeroHeaderImages'))
 
 export default () => {
@@ -30,7 +31,11 @@ export default () => {
       )}
       <TechnologyTags />
       <OurServices />
-      <BlockchainExperts />
+      {!isSSR && (
+        <React.Suspense fallback={<div />}>
+          <BlockchainExperts />
+        </React.Suspense>
+      )}
       <Projects />
       <Ratings />
       <PopularBlogPosts />

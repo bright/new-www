@@ -55,7 +55,7 @@ const ImageWrapper = styled.div`
   }
 `
 
-export const BlockchainExperts = () => {
+const BlockchainExperts = () => {
   return (
     <CustomSection>
       <CustomContainer>
@@ -91,3 +91,5 @@ export const BlockchainExperts = () => {
     </CustomSection>
   )
 }
+
+export default BlockchainExperts
