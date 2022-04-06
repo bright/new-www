@@ -304,20 +304,21 @@ const TeamMembers = ({
                 <Link to={routeLinks.aboutUs(member)}>
                   <AvatarWrapper isOurServiceTemplate={isOurServiceTemplate!}>
                     {onScreen && (
-                      <GatsbyImage
-                        image={getImage(member.avatar)!}
-                        alt={member.name}
-                        className='avatar1'
-                        imgClassName='image'
-                      />
-                    )}
-                    {onScreen && (
-                      <GatsbyImage
-                        image={getImage(member.avatar_hover)!}
-                        alt={member.name}
-                        className='avatar2'
-                        imgClassName='image'
-                      />
+                      <>
+                        <GatsbyImage
+                          image={getImage(member.avatar)!}
+                          alt={member.name}
+                          className='avatar1'
+                          imgClassName='image'
+                        />
+
+                        <GatsbyImage
+                          image={getImage(member.avatar_hover)!}
+                          alt={member.name}
+                          className='avatar2'
+                          imgClassName='image'
+                        />
+                      </>
                     )}
                   </AvatarWrapper>
                   <div>
