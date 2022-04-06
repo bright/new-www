@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import { SectionBlack } from '../../components/shared'
 import { CustomSectionTitle } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
-import useOnScreen from '../../components/utils/use-onscreen'
 import { clampBuilder } from '../../helpers/clampBuilder'
 
 const PracticeSectionBlack = styled(SectionBlack)`
@@ -95,12 +94,6 @@ const Columns = styled.div`
     }
   }
 `
-const OnScreenSection = styled.div`
-  height: ${clampBuilder(993, 1920, 828, 850)};
-  @media ${variables.device.tablet} {
-    height: ${clampBuilder(360, 992, 1668, 1100)};
-  }
-`
 
 const WhatWePractice: React.FC = () => {
   const blocks = useMemo(
@@ -114,23 +107,20 @@ const WhatWePractice: React.FC = () => {
     ],
     []
   )
-  const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '-100px')
 
   return (
-    <PracticeSectionBlack ref={ref}>
+    <PracticeSectionBlack>
       <PracticeTitle>what we practice</PracticeTitle>
 
       <Columns className='columns is-multiline'>
-        {onScreen &&
-          blocks.map(block => (
-            <Column key={block.title} className='column is-one-third has-text-centered'>
-              <figure className='image is-inline-block'>
-                <img src={block.image} alt={block.title} />
-              </figure>
-              <p>{block.title}</p>
-            </Column>
-          ))}
+        {blocks.map(block => (
+          <Column key={block.title} className='column is-one-third has-text-centered'>
+            <figure className='image is-inline-block'>
+              <img src={block.image} alt={block.title} />
+            </figure>
+            <p>{block.title}</p>
+          </Column>
+        ))}
       </Columns>
     </PracticeSectionBlack>
   )

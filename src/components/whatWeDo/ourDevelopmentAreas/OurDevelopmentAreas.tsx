@@ -12,10 +12,8 @@ import {
   SectionTitleContainer,
   Title,
   RevertHoverLink,
-  OnScreenSection,
 } from './styles'
 import { CustomSection } from '../../shared'
-import useOnScreen from '../../utils/use-onscreen'
 
 const OurDevelopmentAreas = () => {
   const {
@@ -28,36 +26,30 @@ const OurDevelopmentAreas = () => {
         return ourServicesItems
       })
     : []
-  const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
 
   return (
-    <DevelopmentAreasWrapper ref={ref}>
+    <DevelopmentAreasWrapper>
       <CustomSection paddingProps='0 15rem'>
         <DevelopmentAreasContainer>
-          {onScreen ? (
-            ourServicesItems.map(service => (
-              <DevelopmentAreaContainer key={service.name}>
-                <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
-                  <SectionTitleContainer>
-                    <GatsbyImage
-                      image={getImage(service.our_services_icon)!}
-                      alt={service.name}
-                      style={{ maxHeight: 100 }}
-                      imgStyle={{ objectFit: 'contain' }}
-                      className='about-img'
-                      imgClassName='image'
-                      backgroundColor='#fff'
-                    />
-                    <Title>{service.name}</Title>
-                  </SectionTitleContainer>
-                  <ReactMarkdown children={service.short_description} />
-                </RevertHoverLink>
-              </DevelopmentAreaContainer>
-            ))
-          ) : (
-            <OnScreenSection></OnScreenSection>
-          )}
+          {ourServicesItems.map(service => (
+            <DevelopmentAreaContainer key={service.name}>
+              <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
+                <SectionTitleContainer>
+                  <GatsbyImage
+                    image={getImage(service.our_services_icon)!}
+                    alt={service.name}
+                    style={{ maxHeight: 100 }}
+                    imgStyle={{ objectFit: 'contain' }}
+                    className='about-img'
+                    imgClassName='image'
+                    backgroundColor='#fff'
+                  />
+                  <Title>{service.name}</Title>
+                </SectionTitleContainer>
+                <ReactMarkdown children={service.short_description} />
+              </RevertHoverLink>
+            </DevelopmentAreaContainer>
+          ))}
         </DevelopmentAreasContainer>
       </CustomSection>
     </DevelopmentAreasWrapper>

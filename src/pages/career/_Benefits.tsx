@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import { CustomSection, CustomSectionTitle, CustomContainer } from '../../components/shared'
 import variables from '../../styles/variables'
-import useOnScreen from '../../components/utils/use-onscreen'
+
 import { clampBuilder } from '../../helpers/clampBuilder'
 import FacebookIconBlack from '../../assets/facebook_black.svg'
 import InstagramIconBlack from '../../assets/instagram_black.svg'
@@ -155,12 +155,7 @@ const BlockSmall = styled(Block)`
     }
   }
 `
-const OnScreenSection = styled.div`
-  height: ${clampBuilder(993, 1920, 1200, 1900)};
-  @media ${variables.device.tablet} {
-    height: ${clampBuilder(360, 992, 1900, 4000)};
-  }
-`
+
 const Benefits: React.FC = () => {
   const [expanded, setExpanded] = useState(false)
   const blocks = useMemo(
@@ -190,11 +185,9 @@ const Benefits: React.FC = () => {
     ],
     [expanded]
   )
-  const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '400px')
 
   return (
-    <CustomContainer ref={ref}>
+    <CustomContainer>
       <CustomSection className='is-clearfix'>
         <SectionBenefitsTitle>
           our life is also <span className='has-text-primary'>bright</span>
@@ -212,18 +205,14 @@ const Benefits: React.FC = () => {
             <InstagramIconBlack />
           </a>
         </BlockSmall>
-        {onScreen ? (
-          blocks.map((block, index) => (
-            <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
-              <figure className='image is-inline-block'>
-                <img src={block.image} alt={block.alt} />
-              </figure>
-              <p>{block.title}</p>
-            </Block>
-          ))
-        ) : (
-          <OnScreenSection></OnScreenSection>
-        )}
+        {blocks.map((block, index) => (
+          <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
+            <figure className='image is-inline-block'>
+              <img src={block.image} alt={block.alt} />
+            </figure>
+            <p>{block.title}</p>
+          </Block>
+        ))}
 
         <BlockSmall className='is-pulled-left'>
           <span onClick={() => setExpanded(!expanded)} className='more'>
