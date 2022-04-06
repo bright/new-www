@@ -283,7 +283,7 @@ const TeamMembers = ({
       setNumberOfMembers(members.length)
     }
   }, [])
-  console.log(onScreen)
+
   return (
     <>
       {isWhyUs && (
@@ -293,45 +293,49 @@ const TeamMembers = ({
       )}
       <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!} isWhyUs={isWhyUs!} ref={ref}>
         <Container isWhyUs={isWhyUs!} isTeam={isTeam!}>
-          {members.slice(0, numberOfMembers).map(member => {
-            return (
-              <TeamMember
-                isOurServiceTemplate={isOurServiceTemplate!}
-                isWhyUs={isWhyUs!}
-                isTeam={isTeam!}
-                key={member.authorId}
-              >
-                <Link to={routeLinks.aboutUs(member)}>
-                  <AvatarWrapper isOurServiceTemplate={isOurServiceTemplate!}>
-                    {onScreen && (
-                      <>
-                        <GatsbyImage
-                          image={getImage(member.avatar)!}
-                          alt={member.name}
-                          className='avatar1'
-                          imgClassName='image'
-                        />
+          {members
+            .sort((a, b) => (a.authorId < b.authorId ? -1 : 1))
+            .slice(0, numberOfMembers)
+            .map(member => {
+              console.log(member)
+              return (
+                <TeamMember
+                  isOurServiceTemplate={isOurServiceTemplate!}
+                  isWhyUs={isWhyUs!}
+                  isTeam={isTeam!}
+                  key={member.authorId}
+                >
+                  <Link to={routeLinks.aboutUs(member)}>
+                    <AvatarWrapper isOurServiceTemplate={isOurServiceTemplate!}>
+                      {onScreen && (
+                        <>
+                          <GatsbyImage
+                            image={getImage(member.avatar)!}
+                            alt={member.name}
+                            className='avatar1'
+                            imgClassName='image'
+                          />
 
-                        <GatsbyImage
-                          image={getImage(member.avatar_hover)!}
-                          alt={member.name}
-                          className='avatar2'
-                          imgClassName='image'
-                        />
-                      </>
-                    )}
-                  </AvatarWrapper>
-                  <div>
-                    <p>
-                      <strong>{member.shortName}</strong>
-                    </p>
-                    <p>{member.bio}</p>
-                    <p>{member?.hobby}</p>
-                  </div>
-                </Link>
-              </TeamMember>
-            )
-          })}
+                          <GatsbyImage
+                            image={getImage(member.avatar_hover)!}
+                            alt={member.name}
+                            className='avatar2'
+                            imgClassName='image'
+                          />
+                        </>
+                      )}
+                    </AvatarWrapper>
+                    <div>
+                      <p>
+                        <strong>{member.shortName}</strong>
+                      </p>
+                      <p>{member.bio}</p>
+                      <p>{member?.hobby}</p>
+                    </div>
+                  </Link>
+                </TeamMember>
+              )
+            })}
 
           {(isOurServiceTemplate && initNumber) || (isWhyUs && whyUsTeamMembers) ? (
             <OurServiceLink isWhyUs={isWhyUs} to={routeLinks.aboutUs({ page: 'team' })}>
