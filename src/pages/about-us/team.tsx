@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import loadable from '@loadable/component'
 
-import TeamMembers from '../../components/subcomponents/TeamMembers'
+const TeamMembers = loadable(() => import('../../components/subcomponents/TeamMembers'))
 import { FormComponent } from '../../components/about-us/form-section/form'
 import { CustomPageTitle, CustomSection, CustomSectionInner, TextRegular } from '../../components/shared'
 import { Page } from '../../layout/Page'
