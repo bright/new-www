@@ -66,7 +66,7 @@ Mentoring program organized by Polish NGO – Perspektywy Education Foundation. 
 
 It is a 4-month, free mentoring program for women whose desire is to pursue a career in IT and new technologies. In 2022 the 7th edition of the mentoring program started. Tech Leaders mentors represent areas like IT development, Agile, Design, or HR. We are proud that our Senior Project Manager Kasia is among the group of mentors. She shares with her mentee her knowledge about Agile, Project Management, and team building.
 
-### IT educational programs for women
+### IT educational program for women
 
 [iTech Woman!](https://itechwoman.pl)
 
@@ -77,3 +77,13 @@ Another free program that offers over 140 hours of workshops and courses regardi
 [Geek Girls Carrot](https://gocarrots.org)
 
 Global female tech community that came to life in Poland over 10 years ago. Since then Geek Girls Carrots have been organizing meetups, workshops, and mentoring for women in tech. They became a global movement, hosting meetings around the world.
+
+### Initiatives for teenagers and girls
+
+[Girls as Engineers! Campaign](http://www.dziewczynynapolitechniki.pl/english)
+
+That is a national Polish campaign started over 10 years ago. It might be the most recognized tech initiative for women in Poland. It is organized by the Perspektywy Education Foundation and the Conference of Rectors of Polish Technical Universities (KRPUT).
+
+As you can see on their [Girls as Engineers! Campaign website](http://www.dziewczynynapolitechniki.pl/english) the main goal of the campaign is:
+
+> \[...] to introduce technical and engineering studies to female high school students and to promote this educational path as interesting, attractive and very beneficial in the long run. Over 150 000 girls have participated in the project.
