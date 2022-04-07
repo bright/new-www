@@ -4,7 +4,7 @@ tags:
   - inspiration
   - development
   - self-development
-date: 2022-04-07T08:06:21.894Z
+date: 2022-04-07T09:27:44.176Z
 title: Polish Organizations that Support Women in Tech
 layout: post
 image: /images/polish_tech_initiatives_women_cover.png
@@ -40,7 +40,7 @@ Source: [Medium.com](https://medium.com/code-like-a-girl/which-countries-have-th
 
 ## Still, there is so much to be done for women in tech
 
-![Kasia - Senior Project Manager at Bright Inventions](/images/kasia_quote.png)
+![Kasia - Senior Project Manager at Bright Inventions](/images/kasia_quote_women.png)
 
 We discussed the situation of women in tech in [an interview with our bright Senior Project Manager Kasia](/blog/meet-kasia-a-project-manager-and-an-academic-teacher) who is an academic teacher at the Department of Software Engineering at the Gdańsk University of Technology. Check out [Kasia’s thoughts on the situation of Polish female STEM students](https://brightinventions.pl/blog/meet-kasia-a-project-manager-and-an-academic-teacher/#what-does-the-female-students-situation-at-it-look-like-can-you-see-that-there-are-more-women-studying-than-there-used-to-be). 
 
