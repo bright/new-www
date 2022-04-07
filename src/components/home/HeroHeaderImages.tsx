@@ -188,6 +188,7 @@ const HeroHeaderImages: React.FC = () => {
               alt={'Łukasz'}
               className='big-image'
               placeholder='tracedSVG'
+              quality={90}
             />
             <ImagesVertical>
               <StaticImage
@@ -214,6 +215,7 @@ const HeroHeaderImages: React.FC = () => {
               alt={'Iza'}
               className='big-image'
               placeholder='tracedSVG'
+              quality={90}
             />
             <ImagesVertical>
               <StaticImage
