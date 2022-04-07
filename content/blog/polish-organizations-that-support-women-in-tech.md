@@ -54,6 +54,8 @@ We gathered some of the Polish initiatives for women in tech and female programm
 
 ### Mentoring options for female software developers
 
+![](/images/mentoring_women_tech.png)
+
 **[Dare IT](https://www.dareit.io)**
 
 Polish mentoring program that helps to find women's first job in software development. It is a 3-months program. So far over 100 mentees got a chance to participate. The program is not free of charge however, there is an option to apply for a scholarship.
