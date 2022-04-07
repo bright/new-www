@@ -7,7 +7,7 @@ tags:
 date: 2022-04-07T08:06:21.894Z
 title: Polish Organizations that Support Women in Tech
 layout: post
-image: /images/polish_tech_initiatives_women.png
+image: /images/polish_tech_initiatives_women_cover.png
 hidden: false
 comments: true
 published: true
