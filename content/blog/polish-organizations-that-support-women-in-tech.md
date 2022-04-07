@@ -86,6 +86,8 @@ Global female tech community that came to life in Poland over 10 years ago. Sinc
 
 ### Initiatives for teenagers and girls
 
+![Tech initiative for teenagers and girls](/images/teenagers_girls_tech.png)
+
 [Girls as Engineers! Campaign](http://www.dziewczynynapolitechniki.pl/english)
 
 That is a national Polish campaign started over 10 years ago. It might be the most recognized tech initiative for women in Poland. It is organized by the Perspektywy Education Foundation and the Conference of Rectors of Polish Technical Universities (KRPUT).
