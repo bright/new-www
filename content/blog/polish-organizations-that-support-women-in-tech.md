@@ -70,6 +70,8 @@ It is a 4-month, free mentoring program for women whose desire is to pursue a ca
 
 ### IT educational program for women
 
+![IT educational programs for women](/images/education_women_tech.png)
+
 [iTech Woman!](https://itechwoman.pl)
 
 Another free program that offers over 140 hours of workshops and courses regarding web development, online security, or 3D modeling. The program is dedicated to women aged from 18 to 40 who are unemployed or in difficult life situations. Thanks to iTech Woman! they can get knowledge about tech and take the first step toward their first job in tech.
