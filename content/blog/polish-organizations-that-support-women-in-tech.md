@@ -98,7 +98,7 @@ As you can see on their [Girls as Engineers! Campaign website](http://www.dziewc
 
 [STEAM Academy](https://girlscodefun.pl/projekty-edukacyjne/steam-academy/)
 
-Is a free educational program including mentoring sessions. It is organized by the Polish NGO Girls code fun. STEAM Academy is dedicated to female students from Warsaw high schools. Participants attend 60 hours of classes regarding STEM areas and soft skills. After that, they have 1:1 sessions with mentors enabling them to dive into the most interesting aspects of the new technology world. During the whole program, high school female students have a chance to learn about frontend and backend development, UX design, and soft skills. [Kasia](/about-us/kasia/) and I got a great opportunity to be mentors for participants. 
+Is a free educational program including mentoring sessions. It is organized by the Polish NGO Girls code fun. STEAM Academy is dedicated to female students from Warsaw high schools. Participants attend 60 hours of classes regarding STEM areas and soft skills. After that, they have 1:1 sessions with mentors enabling them to dive into the most interesting aspects of the new technology world. During the whole program, high school female students have a chance to learn about frontend and backend development, UX design, and soft skills. [Kasia](/about-us/kasia/) and I got a great opportunity to be mentors to participants. 
 
 [Space for Girls Magazine](https://kosmosdladziewczynek.pl) (Polish — “Magazyn Kosmos dla Dziewczynek”)
 
