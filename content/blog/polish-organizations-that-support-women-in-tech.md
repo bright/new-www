@@ -54,7 +54,7 @@ We gathered some of the Polish initiatives for women in tech and female programm
 
 ### Mentoring options for female software developers
 
-![Mentoring for female software developers Poland](/images/mentoring_women_tech.png)
+![Mentoring for female software developers Poland](/images/mentoring_women_tech_blog.png)
 
 **[Dare IT](https://www.dareit.io)**
 
@@ -66,11 +66,11 @@ Mentoring program organized by Polish NGO – Perspektywy Education Foundation. 
 
 [Tech Leaders](https://techleaders.eu)
 
-It is a 4-month, free mentoring program for women whose desire is to pursue a career in IT and new technologies. In 2022 the 7th edition of the mentoring program started. Tech Leaders mentors represent areas like IT development, Agile, Design, or HR. We are proud that our Senior Project Manager Kasia is among the group of mentors. She shares with her mentee her knowledge about Agile, Project Management, and team building.
+It is a 4-month, free mentoring program for women whose desire is to pursue a career in IT and new technologies. In 2022 the 7th edition of the mentoring program started. Tech Leaders mentors represent areas like IT development, Agile, Design, or HR. We are proud that our Senior Project Manager [Kasia](/about-us/kasia/) is among the group of mentors. She shares with her mentee her knowledge about Agile, Project Management, and team building.
 
 ### IT educational program for women
 
-![IT educational programs for women](/images/education_women_tech.png)
+![IT educational programs for women](/images/education_women_tech_blog.png)
 
 [iTech Woman!](https://itechwoman.pl)
 
@@ -78,7 +78,7 @@ Another free program that offers over 140 hours of workshops and courses regardi
 
 ## Women Tech Communities
 
-![Women Tech Communities](/images/tech_communities_women.png)
+![Women Tech Communities](/images/tech_communities_women_blog.png)
 
 [Geek Girls Carrot](https://gocarrots.org)
 
@@ -86,7 +86,7 @@ Global female tech community that came to life in Poland over 10 years ago. Sinc
 
 ### Initiatives for teenagers and girls
 
-![Tech initiative for teenagers and girls](/images/teenagers_girls_tech.png)
+![Tech initiative for teenagers and girls](/images/teenagers_girls_tech_blog.png)
 
 [Girls as Engineers! Campaign](http://www.dziewczynynapolitechniki.pl/english)
 
@@ -98,7 +98,7 @@ As you can see on their [Girls as Engineers! Campaign website](http://www.dziewc
 
 [STEAM Academy](https://girlscodefun.pl/projekty-edukacyjne/steam-academy/)
 
-Is a free educational program including mentoring sessions. It is organized by the Polish NGO Girls code fun. STEAM Academy is dedicated to female students from Warsaw high schools. Participants attend 60 hours of classes regarding STEM areas and soft skills. After that, they have 1:1 sessions with mentors enabling them to dive into the most interesting aspects of the new technology world. During the whole program, high school female students have a chance to learn about frontend and backend development, UX design, and soft skills. Kasia and I from our team got a great opportunity to be mentors for participants. 
+Is a free educational program including mentoring sessions. It is organized by the Polish NGO Girls code fun. STEAM Academy is dedicated to female students from Warsaw high schools. Participants attend 60 hours of classes regarding STEM areas and soft skills. After that, they have 1:1 sessions with mentors enabling them to dive into the most interesting aspects of the new technology world. During the whole program, high school female students have a chance to learn about frontend and backend development, UX design, and soft skills. [Kasia](/about-us/kasia/) and I got a great opportunity to be mentors to participants. 
 
 [Space for Girls Magazine](https://kosmosdladziewczynek.pl) (Polish — “Magazyn Kosmos dla Dziewczynek”)
 
@@ -113,3 +113,7 @@ We all are aware that presenting tech opportunities to girls when they are alrea
 </center>
 
 Source: [Space for Girls Magazine](https://kosmosdladziewczynek.pl)
+
+As you can see Polish NGOs are really fighting the stereotype that the tech world is a men's world. Thank you for that! 👏
+
+Have we missed some initiatives worth spreading? Let us know in the comment to get the chance to add them.
