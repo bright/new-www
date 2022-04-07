@@ -41,3 +41,5 @@ Source: [Medium.com](https://medium.com/code-like-a-girl/which-countries-have-th
 ## Still, there is so much to be done for women in tech
 
 ![Kasia - Senior Project Manager at Bright Inventions](/images/kasia_quote.png)
+
+We discussed the situation of women in tech in an interview with our bright Senior Project Manager Kasia who is an academic teacher at the Department of Software Engineering at the Gdańsk University of Technology. Check out [Kasia’s thoughts on the situation of Polish female STEM students](https://brightinventions.pl/blog/meet-kasia-a-project-manager-and-an-academic-teacher/#what-does-the-female-students-situation-at-it-look-like-can-you-see-that-there-are-more-women-studying-than-there-used-to-be).
