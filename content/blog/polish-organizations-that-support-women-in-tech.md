@@ -106,7 +106,7 @@ We all are aware that presenting tech opportunities to girls when they are alrea
 
 <center>
 
-![](/images/no.28–okladka-komiks-650x659.jpg.webp)
+![Kosmos dla dziewczynek Polish magazine](/images/no.28–okladka-komiks-650x659.jpg.webp)
 
 </center>
 
