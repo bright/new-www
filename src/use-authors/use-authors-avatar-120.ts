@@ -10,10 +10,7 @@ const useAuthorsAvatars120Query: () => AuthorsFrontmatterQueryResult = () =>
             author_id
             avatar {
               childImageSharp {
-                gatsbyImageData(
-                  width: 120
-                  
-                )
+                gatsbyImageData(width: 120, quality: 90)
               }
             }
             name
