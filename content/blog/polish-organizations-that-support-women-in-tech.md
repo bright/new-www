@@ -4,7 +4,7 @@ tags:
   - inspiration
   - development
   - self-development
-date: 2022-04-07T09:27:44.176Z
+date: 2022-04-07T10:55:11.666Z
 title: Polish Organizations that Support Women in Tech
 layout: post
 image: /images/polish_tech_initiatives_women_cover.png
@@ -54,7 +54,7 @@ We gathered some of the Polish initiatives for women in tech and female programm
 
 ### Mentoring options for female software developers
 
-![Mentoring for female software developers Poland](/images/mentoring_women_tech_blog.png)
+![Mentoring for female software developers Poland](/images/blog_mentoring_women_tech.png)
 
 **[Dare IT](https://www.dareit.io)**
 
@@ -70,7 +70,7 @@ It is a 4-month, free mentoring program for women whose desire is to pursue a ca
 
 ### IT educational program for women
 
-![IT educational programs for women](/images/education_women_tech_blog.png)
+![IT educational programs for women](/images/blog_education_women_tech.png)
 
 [iTech Woman!](https://itechwoman.pl)
 
@@ -78,7 +78,7 @@ Another free program that offers over 140 hours of workshops and courses regardi
 
 ## Women Tech Communities
 
-![Women Tech Communities](/images/tech_communities_women_blog.png)
+![Women Tech Communities](/images/blog_tech_communities_women_blog.png)
 
 [Geek Girls Carrot](https://gocarrots.org)
 
@@ -86,7 +86,7 @@ Global female tech community that came to life in Poland over 10 years ago. Sinc
 
 ### Initiatives for teenagers and girls
 
-![Tech initiative for teenagers and girls](/images/teenagers_girls_tech_blog.png)
+![Tech initiative for teenagers and girls](/images/blog_teenagers_girls_tech_blog.png)
 
 [Girls as Engineers! Campaign](http://www.dziewczynynapolitechniki.pl/english)
 
