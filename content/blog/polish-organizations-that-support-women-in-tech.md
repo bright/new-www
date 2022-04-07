@@ -96,4 +96,12 @@ Is a free educational program including mentoring sessions. It is organized by t
 
 We all are aware that presenting tech opportunities to girls when they are already teenagers might be too late. That is why we included a special initiative addressed to young Polish girls.
 
-“Space for Girl” is a Polish magazine dedicated to young girls. Its goal is to support girls in pursuing their passions for science and new technologies and showing them that no stereotypes have power over them. The magazine is published by the “Space for girls” Foundation. It is an NGO initiative created by women for women-to-be.
+“Space for Girl” is a Polish magazine dedicated to young girls. Its goal is to support girls in pursuing their passions for science and new technologies and showing them that no stereotypes have power over them. The magazine is published by the “Space for girls” Foundation. It is an NGO initiative created by women for women-to-be. 
+
+<center>
+
+![](/images/no.28–okladka-komiks-650x659.jpg.webp)
+
+</center>
+
+Source: [Space for Girls Magazine](https://kosmosdladziewczynek.pl)
