@@ -59,3 +59,9 @@ We gathered some of the Polish initiatives for women in tech and female programm
 Polish mentoring program that helps to find women's first job in software development. It is a 3-months program. So far over 100 mentees got a chance to participate. The program is not free of charge however, there is an option to apply for a scholarship.
 
 [IT for SHE](http://www.itforshe.pl/en/)
+
+Mentoring program organized by Polish NGO – Perspektywy Education Foundation. Over 60 mentors offer their support to mentees across Poland. It is free of charge.
+
+[Tech Leaders](https://techleaders.eu)
+
+It is a 4-month, free mentoring program for women whose desire is to pursue a career in IT and new technologies. In 2022 the 7th edition of the mentoring program started. Tech Leaders mentors represent areas like IT development, Agile, Design, or HR. We are proud that our Senior Project Manager Kasia is among the group of mentors. She shares with her mentee her knowledge about Agile, Project Management, and team building.
