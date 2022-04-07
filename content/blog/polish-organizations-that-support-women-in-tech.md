@@ -37,3 +37,7 @@ With the higher number of Polish female developers comes high quality. HackerRan
 </center>
 
 Source: [Medium.com](https://medium.com/code-like-a-girl/which-countries-have-the-most-skilled-female-developers-b532fc53c7c8)
+
+## Still, there is so much to be done for women in tech
+
+![Kasia - Senior Project Manager at Bright Inventions](/images/kasia_quote.png)
