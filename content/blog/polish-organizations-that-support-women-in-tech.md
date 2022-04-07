@@ -30,4 +30,4 @@ Source: [HackerRank](https://blog.hackerrank.com/which-countries-have-the-most-s
 
 With the higher number of Polish female developers comes high quality. HackerRank also presents women’s average scores on algorithms challenges. Polish female developers took third place!
 
-![]()
+![HackerRank best female developers](/images/hackerrank_best_female_developers.png)
