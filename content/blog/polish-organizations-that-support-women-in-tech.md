@@ -14,7 +14,7 @@ published: true
 ---
 **Everything you should know about Polish initiatives for women in tech. Check out available mentoring programs, courses, communities, and join the movement!**
 
-![Intitiatives for Polish female software developers](/images/polish_tech_initiatives_women.png)
+![Intitiatives for Polish female software developers](/images/polish_tech_initiatives_women2.png)
 
 ## Statistics about females programmers in software development in Poland
 
