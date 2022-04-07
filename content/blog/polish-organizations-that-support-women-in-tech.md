@@ -78,6 +78,8 @@ Another free program that offers over 140 hours of workshops and courses regardi
 
 ## Women Tech Communities
 
+![Women Tech Communities](/images/tech_communities_women.png)
+
 [Geek Girls Carrot](https://gocarrots.org)
 
 Global female tech community that came to life in Poland over 10 years ago. Since then Geek Girls Carrots have been organizing meetups, workshops, and mentoring for women in tech. They became a global movement, hosting meetings around the world.
