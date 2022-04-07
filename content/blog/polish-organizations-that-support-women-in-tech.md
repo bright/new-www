@@ -54,7 +54,7 @@ We gathered some of the Polish initiatives for women in tech and female programm
 
 ### Mentoring options for female software developers
 
-![](/images/mentoring_women_tech.png)
+![Mentoring for female software developers Poland](/images/mentoring_women_tech.png)
 
 **[Dare IT](https://www.dareit.io)**
 
