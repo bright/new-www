@@ -113,3 +113,7 @@ We all are aware that presenting tech opportunities to girls when they are alrea
 </center>
 
 Source: [Space for Girls Magazine](https://kosmosdladziewczynek.pl)
+
+As you can see Polish NGOs are really fighting the stereotype that the tech world is a men's world. Thank you for that! 👏
+
+Have we missed some initiatives worth spreading? Let us know in the comment to get the chance to add them.
