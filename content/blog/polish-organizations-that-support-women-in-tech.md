@@ -48,4 +48,4 @@ Even if Poland looks quite well in the HackerRank above, there is much to be don
 
 Fortunately, **the Polish tech world knows that and organizes mentoring programs, courses, competitions, and more initiatives** whose goal is to encourage women to pursue careers in engineering, especially in software development. 
 
-## Top Polish initiatives that bring girls and women closer to tech
+## Polish initiatives that bring girls and women closer to tech
