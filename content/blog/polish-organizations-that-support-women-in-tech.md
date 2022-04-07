@@ -87,3 +87,13 @@ That is a national Polish campaign started over 10 years ago. It might be the mo
 As you can see on their [Girls as Engineers! Campaign website](http://www.dziewczynynapolitechniki.pl/english) the main goal of the campaign is:
 
 > \[...] to introduce technical and engineering studies to female high school students and to promote this educational path as interesting, attractive and very beneficial in the long run. Over 150 000 girls have participated in the project.
+
+[STEAM Academy](https://girlscodefun.pl/projekty-edukacyjne/steam-academy/)
+
+Is a free educational program including mentoring sessions. It is organized by the Polish NGO Girls code fun. STEAM Academy is dedicated to female students from Warsaw high schools. Participants attend 60 hours of classes regarding STEM areas and soft skills. After that, they have 1:1 sessions with mentors enabling them to dive into the most interesting aspects of the new technology world. During the whole program, high school female students have a chance to learn about frontend and backend development, UX design, and soft skills. Kasia and I from our team got a great opportunity to be mentors for participants. 
+
+[Space for Girls Magazine](https://kosmosdladziewczynek.pl) (Polish — “Magazyn Kosmos dla Dziewczynek”)
+
+We all are aware that presenting tech opportunities to girls when they are already teenagers might be too late. That is why we included a special initiative addressed to young Polish girls.
+
+“Space for Girl” is a Polish magazine dedicated to young girls. Its goal is to support girls in pursuing their passions for science and new technologies and showing them that no stereotypes have power over them. The magazine is published by the “Space for girls” Foundation. It is an NGO initiative created by women for women-to-be.
