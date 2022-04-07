@@ -49,3 +49,13 @@ Even if Poland looks quite well in the HackerRank above, there is much to be don
 Fortunately, **the Polish tech world knows that and organizes mentoring programs, courses, competitions, and more initiatives** whose goal is to encourage women to pursue careers in engineering, especially in software development. 
 
 ## Polish initiatives that bring girls and women closer to tech
+
+We gathered some of the Polish initiatives for women in tech and female programmers to-be.
+
+### Mentoring options for female software developers
+
+**[Dare IT](https://www.dareit.io)**
+
+Polish mentoring program that helps to find women's first job in software development. It is a 3-months program. So far over 100 mentees got a chance to participate. The program is not free of charge however, there is an option to apply for a scholarship.
+
+[IT for SHE](http://www.itforshe.pl/en/)
