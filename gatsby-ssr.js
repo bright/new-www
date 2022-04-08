@@ -5,7 +5,9 @@
  */
 
 // You can delete this file if you're not using it
-const React = require("react")
+import * as React from "react"
+import * as fs from "fs"
+
 import { GlobalStyle } from "./src/styles/global"
 
 
@@ -15,8 +17,8 @@ export const wrapPageElement = ({ element }) => (
     {element}
   </>
 )
-const fs = require('fs')
-export const onRenderBody = ({ setHeadComponents }) => {
+
+export function onRenderBody  ({ setHeadComponents })  {
 
   const files = getFilesFromPath("./public/static", ".woff2")
   const preload = [
@@ -52,6 +54,6 @@ export const onRenderBody = ({ setHeadComponents }) => {
 }
 
 function getFilesFromPath(path, extension) {
-  let dir = fs.readdirSync( path );
+let dir = fs.readdirSync( path );
   return dir.filter( elm => elm.match(new RegExp(`.*\.(${extension})`, 'ig')));
 }
