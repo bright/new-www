@@ -67,11 +67,7 @@ I also joined a couple of newsletters about QA and follow news from other blogs 
 
 I got quickly overwhelmed by the number of information I needed to comprehend. **I didn’t know how to start, what I should learn, and in what order**. Then my friend, who is a software tester, recommended me to go to postgraduate studies to get a structured plan of my learning.
 
-<center>
-
-<iframe src="https://giphy.com/embed/3o7btPCcdNniyf0ArS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cbc-comedy-what-3o7btPCcdNniyf0ArS">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3o7btPCcdNniyf0ArS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/cbc-comedy-what-3o7btPCcdNniyf0ArS">via GIPHY</a></p>
 
 ### 4. Signing up for the postgraduate studies and preparing for the ISTQB exam
 
