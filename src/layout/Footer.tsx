@@ -9,6 +9,7 @@ import LogoWhite from '../assets/logo_white_2.svg'
 import { routeLinks } from '../config/routing'
 
 import * as styles from './Footer.module.scss'
+import { Link } from 'gatsby'
 
 export const Footer = () => {
   return (
