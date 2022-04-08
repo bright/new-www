@@ -149,11 +149,7 @@ Eventually, **almost 2 years later I got to Bright Inventions and became Quality
 
 At Bright, I work in a team that is developing iOS applications for our Israeli client from the ePOS & retail industry. That is a huge international project and a great challenge for me.
 
-<center>
-
-<iframe src="https://giphy.com/embed/111ebonMs90YLu" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thumbs-up-111ebonMs90YLu">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/111ebonMs90YLu" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/thumbs-up-111ebonMs90YLu">via GIPHY</a></p>
 
 ## Last but not least. Top pieces of advice I got during my career change
 
@@ -165,11 +161,7 @@ My brother (a software developer) was pushing me for months to set up a LinkedIn
 
 I was learning during the pandemic. That wasn’t the best time for people who wanted to get into IT. I read online lots of stories of people who were frustrated because they couldn’t get their first IT job for 6 months or longer. These kinds of stories were really a mood killer for me. So my friend (a software developer who also came from a different industry) kept telling me to stop reading that and **focus on my learning**. She set me straight many times making sure that I wouldn’t give up.
 
-<center>
-
-<iframe src="https://giphy.com/embed/ACJuukdjBl65FwUFzT" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nbclawandorder-episode-8-svu-season-23-ACJuukdjBl65FwUFzT">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/ACJuukdjBl65FwUFzT" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/nbclawandorder-episode-8-svu-season-23-ACJuukdjBl65FwUFzT">via GIPHY</a></p>
 
 This is my story of becoming a software tester. What more can I say? **Good luck and push it forward**. You can do it!
 
