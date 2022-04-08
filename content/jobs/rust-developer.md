@@ -44,7 +44,7 @@ In this role you will be responsible for developing the infrastructure that will
 
 * experience with **Rust** (or other systems programming languages), particularly writing high-performance and  **high-security code**
 * an interest in **decentralised technology** and **Web 3**
-* deep knowledge of **Bitcoin, Ethereum** or other blockchain technologies
+* deep knowledge of blockchain technologies (e.g. Substrate, Bitcoin, Ethereum) 
 * great communication skills in English (working in the international team) 
 * eagerness to learn new technology and dive into the code head-first
 

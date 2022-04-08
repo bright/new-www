@@ -19,8 +19,7 @@ import {
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomPageTitle, CustomSection, CustomTextRegular } from './index.styled'
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
-import AnalyticsLink from './AnalyticsLink'
+import { trackCustomEvent } from '../../helpers/trackCustomEvent'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;
@@ -191,13 +190,7 @@ export const Contact: FC<ContactProps> = ({
         )}
         {subtitle ? (
           <TextRegular>
-            {subtitle}{' '}
-            <AnalyticsLink
-              href='mailto:info@brightinventions.pl.'
-              action='Click Recruitment Email'
-              category='Click Email'
-              text='info@brightinventions.pl.'
-            />
+            {subtitle} <a href='mailto:info@brightinventions.pl.'>info@brightinventions.pl</a>
           </TextRegular>
         ) : (
           <TextRegular>

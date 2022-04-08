@@ -8,6 +8,7 @@ description: An app that allowed users to receive real estate and car sales’
 tags:
   - mobile app
   - customized software
+  - bluetooth
 order: 9
 slug: easytapp
 show on homepage: false

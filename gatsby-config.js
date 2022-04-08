@@ -1,4 +1,6 @@
 const siteUrl = new URL(process.env.SITE_URL || 'https://brightinventions.pl/')
+const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
+
 module.exports = {
   siteMetadata: {
     title: 'Bright Inventions',
@@ -11,12 +13,12 @@ module.exports = {
   plugins: [
     // Make sure this plugin is first in the array of plugins
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `${process.env.GATSBY_ACTIVE_ENV === 'production' ? 'UA-29336006-1' : 'UA-00000000-0'}`,
-        // this option places the tracking script into the head of the DOM
-        head: true,
-        // other options
+        trackingIds: isProduction ? [
+          'UA-29336006-1',
+          'G-H4MTQGSVD3'
+        ] : [],
       },
     },
     {
@@ -265,6 +267,17 @@ module.exports = {
             }),
           },
         ],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-page-progress",
+      options: {
+        includePaths: [{ regex: "^/blog/.+" }],
+        height: 2,
+        prependToBody: false,
+        color: `#f7931e`,
+        footerHeight: 1000,
+        headerHeight: 73,
       },
     },
   ],

@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby'
-import React, { ComponentProps, ReactElement, useRef } from 'react'
+import React, { ComponentProps, useRef } from 'react'
 import { useLocation } from '@reach/router'
 import styled from 'styled-components'
 import { Page } from '../layout/Page'
@@ -16,7 +16,6 @@ import Helmet from 'react-helmet'
 import { descriptionOrDefault } from '../meta/meta-description'
 import { resolveUrl } from '../meta/resolve-url'
 import { siteMetadata } from '../../gatsby-config'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
@@ -205,9 +204,9 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
 
       {props.canonicalUrl && (
         <section>
-          <OutboundLink href={props.canonicalUrl} style={{ fontStyle: 'italic' }}>
+          <a href={props.canonicalUrl} style={{ fontStyle: 'italic' }}>
             This article was originally published on author's blog
-          </OutboundLink>
+          </a>
         </section>
       )}
     </AuthorsSection>

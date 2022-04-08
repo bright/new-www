@@ -6,7 +6,7 @@ tags:
 date: 2022-03-11T08:52:37.538Z
 title: 10 Years Back… Top Programming News of 2012
 layout: post
-image: /images/programming_news_2012_blog_cover.png
+image: /images/2012_tech_news_blog_cover.png
 hidden: false
 comments: true
 published: true
@@ -41,7 +41,7 @@ This was the year when Microsoft launched its Windows 8 operating system with a 
 
 TypeScript is the programming language that builds on Java. It was created by Microsoft to challenge all the complexities in JavaScript. Now after 10 years we can definitely say that TypeScript made its expectations.
 
-![](/images/blog_post_in_2012.png)
+![TypeScript](/images/blog_post_in_2012.png)
 
 ## Bright Inventions came to life 😀
 

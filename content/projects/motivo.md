@@ -9,6 +9,7 @@ description: Turbo Training and Indoor Cycling Workouts. The app is your own
 tags:
   - mobile app
   - customized software
+  - bluetooth
 order: 4
 slug: motivo
 show on homepage: false

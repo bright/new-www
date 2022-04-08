@@ -3,7 +3,6 @@ import React, { FC } from 'react'
 import styled from 'styled-components'
 import { Button, Section, SectionTitle } from '../shared'
 import { routeLinks } from '../../config/routing'
-import AnalyticsLink from '../shared/AnalyticsLink'
 
 const SectionDescription = styled.div`
   margin-bottom: 4em;
@@ -24,12 +23,7 @@ const ProductIdea: FC<ProductIdeaProps> = props => {
         Have an idea for a groundbreaking software project, but don’t know where to start? Or maybe you’re looking for
         software development experts to help take your product to the next level? We’ll be more than happy to discuss
         how we can help your business succeed! Fill the form below, or drop us a line via{' '}
-        <AnalyticsLink
-          href='mailto:info@brightinventions.pl?subject=bright%20mail'
-          action='Click Business Email'
-          category='Click Email'
-          text='info@brightinventions.pl'
-        />
+        <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
       </SectionDescription>
       <Link to={routeLinks.startProject}>
         <Button className='has-background-primary hover-white'>request a consulatation</Button>

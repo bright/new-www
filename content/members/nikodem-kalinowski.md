@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: nikodem
-ex: false
+ex: true
 slug: nikodem
 name: Nikodem Kalinowski
 short_name: Nikodem

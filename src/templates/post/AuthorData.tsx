@@ -14,6 +14,10 @@ const AuthorArticle = styled.article`
   &:hover > .media-content {
     opacity: 1;
   }
+  
+  .title {
+    font-size: 1.25em;
+  }
 
   & figure {
     & .is-rounded {
@@ -67,6 +71,9 @@ const AuthorArticle = styled.article`
   }
 `
 const SingleAuthorArticle = styled.article`
+  .title {
+    font-size: 1.25em;
+  }
   & .single-image {
     width: 64px;
     height: 96px;
@@ -113,7 +120,7 @@ export function AuthorsView({
           )}
           <div className='media-content'>
             <div className='content'>
-              <h4 className='title '>{name}</h4>
+              <div className='title'>{name}</div>
               <p className='subtitle is-6'>{bio}</p>
             </div>
           </div>
@@ -122,7 +129,7 @@ export function AuthorsView({
         <AuthorArticle>
           <div className='media-content'>
             <div className='content'>
-              <h4 className='name'>{name}</h4>
+              <div className='name'>{name}</div>
               <p className='subtitle is-6 bio'>{bio}</p>
             </div>
           </div>

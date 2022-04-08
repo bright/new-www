@@ -11,7 +11,6 @@ import styled from 'styled-components'
 import { CustomPageTitle, SectionInner, CustomSectionInner } from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables from '../styles/variables'
-import AnalyticsLink from '../components/shared/AnalyticsLink'
 import { ArrowJobTemplateIcon } from '../components/icons/ArrowJobTemplate.icon'
 import { CustomSection } from './../components/shared/index'
 import { useScrollPosition } from '../components/utils/use-scrollposition'
@@ -471,12 +470,7 @@ export default function Template({
               description={
                 <>
                   You can either use our form below or send your application directly via email{' '}
-                  <AnalyticsLink
-                    href='mailto:ula@bright.dev'
-                    action='Click Recruitment Email'
-                    category='Click Email'
-                    text='ula@bright.dev'
-                  />
+                  <a href='mailto:ula@bright.dev'>ula@bright.dev</a>
                   . Feel free to ask any questions on the position and the project.
                 </>
               }

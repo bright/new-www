@@ -13,7 +13,7 @@ import { AttachmentUploaded } from '../fields/fields.styled'
 import { JobApplicationModal } from './job-application-modal'
 import { CustomTextRegular } from '../../shared'
 import variables from '../../../styles/variables'
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
+import { trackCustomEvent } from '../../../helpers/trackCustomEvent'
 
 export interface FormProps {
   nameLabel?: string

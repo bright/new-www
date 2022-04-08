@@ -1,4 +1,4 @@
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
+import { trackCustomEvent } from './helpers/trackCustomEvent'
 
 export function registerGlobalMailtoClickHandler() {
   document.addEventListener('click', function(e) {
