@@ -8,10 +8,17 @@ import { Link } from 'gatsby'
 export const Logo: React.FC = () => {
   return (
     <Link to='/' className={styles.brand}>
-      <StaticImage alt={'Bright Inventions logo'} className={classNames(styles.logo, styles.small)}
-                   src='../../../static/images/b_logo_black.svg' />
-      <StaticImage alt={'Bright Inventions logo'} className={classNames(styles.logo, styles.big)}
-                   src='../../../static/images/bright_inventions_logo_500-01.png' />
+      <StaticImage
+        alt={'Bright Inventions logo'}
+        className={classNames(styles.logo, styles.small)}
+        src='../../../static/images/b_logo_black.svg'
+      />
+      <StaticImage
+        alt={'Bright Inventions logo'}
+        className={classNames(styles.logo, styles.big)}
+        src='../../../static/images/bright_inventions_logo_500-01.png'
+        loading='eager'
+      />
     </Link>
   )
 }
