@@ -35,11 +35,7 @@ Prior to becoming Software Tester (or QA Specialist as we call the job at [Brigh
 
 That was summer 2019. At some point, the company I worked in wanted to improve the existing Enterprise Resource Planning (ERP system) so I started to work with software developers on that. My job was to make sure that the system would meet our requirements. Being a part of this process became quite fascinating to me. **I was doing something like approval tests**. One time I talked about it to my friend who is a software developer and she told me that I was doing in some way a tester job. I was eager to explore that area of expertise.
 
-<center>
-
-<iframe src="https://giphy.com/embed/64kjIUk5YbckM" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mic-kristen-stewart-celebs-actress-64kjIUk5YbckM">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/64kjIUk5YbckM" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mic-kristen-stewart-celebs-actress-64kjIUk5YbckM">via GIPHY</a></p>
 
 **I started to learn software testing. It took me around 9 hours a week to study.** I still had a full-time job during that time. I was also in the middle of moving to another apartment and had lots of dance workouts during a week. So a lot was going out then. I just want to show you that **you can make it without giving up on your other duties and interests**. 🙂
 
@@ -99,11 +95,7 @@ I also dove into [mrbuggy.pl](http://mrbuggy.pl) - the Polish app testing platfo
 
 Back then I was also learning how to write test cases. My main problem was to write them shorter and more compactly. That was something I had to work hard on.
 
-<center>
-
-<iframe src="https://giphy.com/embed/f5dv1g0Af3KNJneSC3" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MSUMoorhead-dragons-msum-minnesota-state-university-moorhead-f5dv1g0Af3KNJneSC3">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/f5dv1g0Af3KNJneSC3" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/MSUMoorhead-dragons-msum-minnesota-state-university-moorhead-f5dv1g0Af3KNJneSC3">via GIPHY</a></p>
 
 ### 9. Doing Codecademy courses
 
@@ -129,11 +121,7 @@ It is worth mentioning that during the pandemic [pluralsight.com](https://www.pl
 
 After a couple of months of delay because of the pandemic, **I was finally able to do my ISTQB exam**. I took the test and passed it. I felt ready to start sending CVs. 🙂
 
-<center>
-
-<iframe src="https://giphy.com/embed/3og0IQsupJLxzqSbmM" width="480" height="322" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cbc-funny-comedy-3og0IQsupJLxzqSbmM">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:67%;position:relative;"><iframe src="https://giphy.com/embed/3og0IQsupJLxzqSbmM" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/cbc-funny-comedy-3og0IQsupJLxzqSbmM">via GIPHY</a></p>
 
 ### 13. Graduating from college and the first project on GitHub
 
@@ -153,11 +141,7 @@ Eventually, **almost 2 years later I got to Bright Inventions and became Quality
 
 At Bright, I work in a team that is developing iOS applications for our Israeli client from the ePOS & retail industry. That is a huge international project and a great challenge for me.
 
-<center>
-
-<iframe src="https://giphy.com/embed/111ebonMs90YLu" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thumbs-up-111ebonMs90YLu">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/111ebonMs90YLu" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/thumbs-up-111ebonMs90YLu">via GIPHY</a></p>
 
 ## Last but not least. Top pieces of advice I got during my career change
 
@@ -169,11 +153,7 @@ My brother (a software developer) was pushing me for months to set up a LinkedIn
 
 I was learning during the pandemic. That wasn’t the best time for people who wanted to get into IT. I read online lots of stories of people who were frustrated because they couldn’t get their first IT job for 6 months or longer. These kinds of stories were really a mood killer for me. So my friend (a software developer who also came from a different industry) kept telling me to stop reading that and **focus on my learning**. She set me straight many times making sure that I wouldn’t give up.
 
-<center>
-
-<iframe src="https://giphy.com/embed/ACJuukdjBl65FwUFzT" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nbclawandorder-episode-8-svu-season-23-ACJuukdjBl65FwUFzT">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/ACJuukdjBl65FwUFzT" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/nbclawandorder-episode-8-svu-season-23-ACJuukdjBl65FwUFzT">via GIPHY</a></p>
 
 This is my story of becoming a software tester. What more can I say? **Good luck and push it forward**. You can do it!
 
