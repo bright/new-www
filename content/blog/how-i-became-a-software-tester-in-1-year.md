@@ -35,11 +35,7 @@ Prior to becoming Software Tester (or QA Specialist as we call the job at [Brigh
 
 That was summer 2019. At some point, the company I worked in wanted to improve the existing Enterprise Resource Planning (ERP system) so I started to work with software developers on that. My job was to make sure that the system would meet our requirements. Being a part of this process became quite fascinating to me. **I was doing something like approval tests**. One time I talked about it to my friend who is a software developer and she told me that I was doing in some way a tester job. I was eager to explore that area of expertise.
 
-<center>
-
-<iframe src="https://giphy.com/embed/64kjIUk5YbckM" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mic-kristen-stewart-celebs-actress-64kjIUk5YbckM">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/64kjIUk5YbckM" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mic-kristen-stewart-celebs-actress-64kjIUk5YbckM">via GIPHY</a></p>
 
 **I started to learn software testing. It took me around 9 hours a week to study.** I still had a full-time job during that time. I was also in the middle of moving to another apartment and had lots of dance workouts during a week. So a lot was going out then. I just want to show you that **you can make it without giving up on your other duties and interests**. 🙂
 
