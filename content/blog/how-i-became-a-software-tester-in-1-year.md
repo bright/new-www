@@ -95,11 +95,7 @@ I also dove into [mrbuggy.pl](http://mrbuggy.pl) - the Polish app testing platfo
 
 Back then I was also learning how to write test cases. My main problem was to write them shorter and more compactly. That was something I had to work hard on.
 
-<center>
-
-<iframe src="https://giphy.com/embed/f5dv1g0Af3KNJneSC3" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MSUMoorhead-dragons-msum-minnesota-state-university-moorhead-f5dv1g0Af3KNJneSC3">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/f5dv1g0Af3KNJneSC3" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/MSUMoorhead-dragons-msum-minnesota-state-university-moorhead-f5dv1g0Af3KNJneSC3">via GIPHY</a></p>
 
 ### 9. Doing Codecademy courses
 
@@ -125,11 +121,7 @@ It is worth mentioning that during the pandemic [pluralsight.com](https://www.pl
 
 After a couple of months of delay because of the pandemic, **I was finally able to do my ISTQB exam**. I took the test and passed it. I felt ready to start sending CVs. 🙂
 
-<center>
-
-<iframe src="https://giphy.com/embed/3og0IQsupJLxzqSbmM" width="480" height="322" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cbc-funny-comedy-3og0IQsupJLxzqSbmM">via GIPHY</a></p>
-
-</center>
+<div style="width:100%;height:0;padding-bottom:67%;position:relative;"><iframe src="https://giphy.com/embed/3og0IQsupJLxzqSbmM" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/cbc-funny-comedy-3og0IQsupJLxzqSbmM">via GIPHY</a></p>
 
 ### 13. Graduating from college and the first project on GitHub
 
