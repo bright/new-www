@@ -6,9 +6,10 @@ tags:
 date: 2022-04-04T06:10:32.333Z
 title: Single swap on Uniswap v3 with 3 common mistakes
 layout: post
+image: /images/single_uniswap_swap.jpg
 hidden: true
 comments: true
-published: false
+published: true
 ---
 Since you've probably came across this post looking for a working example of a simple swap
 on a Uniswap and you are not interested in anything besides the code, I'll provide it right away.
