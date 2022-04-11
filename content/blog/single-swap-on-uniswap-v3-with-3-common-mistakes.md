@@ -185,10 +185,10 @@ for swapping tokens on Uniswap from the first mistake we can see routers address
 It turned out to be `SwapRouter02`. On the Etherscan I've verified
 that this router also has `exactInputSingle` a function which accepts `ExactInputSingleParams`.
 
-Unfortunately, it was not correct. After deploying the contract which used this router I've again had
-similar issue with Metamask warning, and transaction failing. This time, an error didn't say anything helpful.
+Unfortunately, it was not correct. After deploying the contract which used this router I had a
+similar issue with Metamask warning again, and the transaction failing. This time, an error didn't say anything helpful.
 
-At the end it turned out that indeed both routers have needed function, and they both use similar struct
+In the end, it turned out that indeed both routers have needed function, and they both use similar struct
 for Params but it's not the same.
 
 * `SwapRouter` inherits from `ISwapRouter`
