@@ -26,7 +26,7 @@ import "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol";
 import "@uniswap/lib/contracts/libraries/TransferHelper.sol";
 import "@uniswap/swap-router-contracts/contracts/interfaces/IV3SwapRouter.sol";
 
-contract ArbitrageSwap {
+contract Swap {
 
     address private constant SWAP_ROUTER =
         0xE592427A0AEce92De3Edee1F18E0157C05861564;
