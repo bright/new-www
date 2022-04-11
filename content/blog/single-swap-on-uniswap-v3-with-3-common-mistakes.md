@@ -167,25 +167,25 @@ And after trying anyway, transaction will be reverted with an error: `TransferHe
 To approve withdrawing token, find contract of the token that you are going to be swapping on Etherscan (in our case DAI)
 and use their `approve` function providing your contracts address and amount of coins that you are willing to approve.
 
-![](/images/approving_usage_of_our_tokens.png)
+![Transaction fail](/images/approving_usage_of_our_tokens.png)
 
 After the transaction gets approved, you should be able to use your contracts swap function successfully.
 You can't? Well... then maybe you also made a 3rd mistake!
 
-### Using wrong SwapRouter
+### Using the wrong SwapRouter
 
 Uniswap in their documentation doesn't show the initialization of the `swapRouter`. We can do that by
 using swap routers contract address. But similar to the first mistake... where should we take this
 address from? Again in the [docs](https://docs.uniswap.org/protocol/reference/deployments), Uniswap provides addresses of all of their contracts.
-What is more they clearly state, that those addresses are the same for all networks. That's great but... we can
+What is more, they clearly state, that those addresses are the same for all networks. That's great but... we can
 see two SwapRouters contracts in the table. Which one should we use?
 
 My thinking was: let's see which router Uniswap interface uses, and use the same. In the transaction
-for swapping tokens on Uniswap from first mistake we can see routers address which this transaction used. 
+for swapping tokens on Uniswap from the first mistake we can see routers address which this transaction used. 
 It turned out to be `SwapRouter02`. On the Etherscan I've verified
-that this router also has `exactInputSingle` function which accepts `ExactInputSingleParams`.
+that this router also has `exactInputSingle` a function which accepts `ExactInputSingleParams`.
 
-Unfortunately it was not correct. After deploying contract which used this router I've again had
+Unfortunately, it was not correct. After deploying the contract which used this router I've again had
 similar issue with Metamask warning, and transaction failing. This time, an error didn't say anything helpful.
 
 At the end it turned out that indeed both routers have needed function, and they both use similar struct
