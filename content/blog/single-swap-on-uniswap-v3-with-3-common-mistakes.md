@@ -3,7 +3,8 @@ author: lukasz
 tags:
   - uniswap
   - solidity
-date: 2022-04-04T06:10:32.333Z
+  - blockchain
+date: 2022-04-11T09:40:36.796Z
 title: Single swap on Uniswap v3 with 3 common mistakes
 layout: post
 image: /images/single_uniswap_swap.jpg
@@ -11,7 +12,7 @@ hidden: true
 comments: true
 published: true
 ---
-Since you've probably came across this post looking for a working example of a simple swap
+Since you've probably come across this post looking for a working example of a simple swap
 on a Uniswap and you are not interested in anything besides the code, I'll provide it right away.
 However, if you would like to know more how I've overcome some common mistakes or you are struggling
 with some issues on your own, I encourage you to read this post till the end.
@@ -101,13 +102,13 @@ contract Swap {
 ## How it all started
 
 Today is the day. You've thought about that for a long time.
-You have been reading about Blockchain, Ethereum and Solidity for past few days. It's time
+You have been reading about Blockchain, Ethereum and Solidity for the past few days. It's time
 to start coding! Let's start with something that has a lot of documentation, and is already widely
-used - swapping tokens. Uniswap seems to be the largest exchange so let's read through their [docs](https://docs.uniswap.org/sdk/introduction).
+used – swapping tokens. Uniswap seems to be the largest exchange so let's read through their [docs](https://docs.uniswap.org/sdk/introduction).
 Oh! They even have an [example of a simple swap](https://docs.uniswap.org/protocol/guides/swaps/single-swaps)! 
 Let's copy it and check if it works.
 
-A Few minutes later, the contract is deployed. You go to the Etherscan and try to write a transaction
+A few minutes later, the contract is deployed. You go to the Etherscan and try to write a transaction
 using your swap function and... it does not work. Even Metamask warns you before you sign the transaction
 that it will probably fail. Wait what? Why? How? I've copied it from official docs. Why is it failing?
 
@@ -190,11 +191,11 @@ similar issue with Metamask warning, and transaction failing. This time, an erro
 At the end it turned out that indeed both routers have needed function, and they both use similar struct
 for Params but it's not the same.
 
-- `SwapRouter` inherits from `ISwapRouter`
-- `SwapRouter02` inherits from `V3SwapRouter`
+* `SwapRouter` inherits from `ISwapRouter`
+* `SwapRouter02` inherits from `V3SwapRouter`
 
 If we also check closely the `ExactInputSingleParams` struct that both contracts use, we can see that version in `V3SwapRouter`
 does not have `delay` parameter. So despite looking very similar, those
 are two completely different things.
 
-In my code, I've left working functions for both routers, so you can test it on your own. 
+In my code, I've left working functions for both routers, so you can test it on your own.
