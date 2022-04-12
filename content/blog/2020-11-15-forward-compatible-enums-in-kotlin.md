@@ -1,15 +1,15 @@
 ---
 crosspost: true
-layout: post
-title: Forward compatible enums in Kotlin
-date: 2020-11-17T18:49:00.000Z
-image: /images/forward-compatible-enums-in-kotlin/turn-on-2933016_1280.jpg
 author: azabost
 tags:
   - enum
   - kotlin
   - serialization
   - forward compatibility
+date: 2020-11-17T18:49:00.000Z
+title: Forward compatible enums in Kotlin
+layout: post
+image: /images/blog_post_forward_compatible.png
 hidden: false
 comments: true
 published: true
