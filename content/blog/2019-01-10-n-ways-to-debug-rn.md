@@ -1,8 +1,4 @@
 ---
-layout: post
-title: N ways to debug React Native app
-date: 2019-01-09T23:00:00.000Z
-image: /images/n-ways-to-debug-rn/image1.jpeg
 author: agnieszka
 tags:
   - react-native
@@ -10,6 +6,10 @@ tags:
   - android
   - ios
   - react native
+date: 2019-01-09T23:00:00.000Z
+title: N ways to debug React Native app
+layout: post
+image: /images/blog_post_debug_react_native.png
 hidden: false
 comments: true
 published: true
