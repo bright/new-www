@@ -7,7 +7,7 @@ tags:
 date: 2018-02-07T23:00:00.000Z
 title: How to use different Google configurations for each build config
 layout: post
-image: /images/laptop-software-developer.jpg
+image: /images/laptop-software-developer2.png
 hidden: false
 comments: true
 published: true
