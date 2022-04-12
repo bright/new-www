@@ -1,14 +1,14 @@
 ---
-layout: post
-title: XSS - are you sure you are protected?
-date: 2021-07-02T10:57:20.701Z
-image: /images/hacking-2964100_1920.jpg
 author: rafal h
 tags:
   - tips&tricks
   - xss
   - security
   - js
+date: 2021-07-02T10:57:20.701Z
+title: XSS - are you sure you are protected?
+layout: post
+image: /images/blog_post_xss.png
 hidden: false
 comments: true
 published: true
