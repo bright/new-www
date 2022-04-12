@@ -129,4 +129,4 @@ I play lots of video games on my computer. I love games that tell a story such a
 
 \----
 
-Andrzej will share his Kotlin insights as a speaker at upcoming Polish dev conferences. You have a chance to see him on stage at [4developers](https://4developers.org.pl) and [Warsaw IT Days](https://warszawskiedniinformatyki.pl/index-en.html) in April 2022.
+Andrzej regularly shares his Kotlin insights as a speaker at software development conferences and meetups. Recently he was one of the speakers at [4developers](https://4developers.org.pl) and [Warsaw IT Days](https://warszawskiedniinformatyki.pl/index-en.html).
