@@ -180,7 +180,7 @@ const HeaderImages: React.FC = () => {
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
-          src='../../../static/images/career/header/Kasia_career_kolaz.png'
+          src='../../../static/images/career/header/Kasia_career_small.png'
           alt={'Career at Bright Inventions'}
           className='big-image'
           imgClassName='image'
