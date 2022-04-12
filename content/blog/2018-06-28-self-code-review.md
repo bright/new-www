@@ -5,7 +5,7 @@ tags:
 date: 2018-06-27T22:00:00.000Z
 title: Self code review
 layout: post
-image: /images/self-code-review/image.jpg
+image: /images/blog_post_self_code_review.png
 hidden: false
 published: true
 ---
