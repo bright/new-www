@@ -3,7 +3,7 @@ layout: member
 author_id: adam-w
 ex: false
 slug: adam-w
-name: Adama Waniak
+name: Adam Waniak
 short_name: Adam
 email: adam.waniak@brightinventions.pl
 bio: Backend Developer
