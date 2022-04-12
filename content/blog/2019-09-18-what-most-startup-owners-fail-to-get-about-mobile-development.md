@@ -9,7 +9,7 @@ tags:
 date: 2019-09-17T08:05:05.904Z
 title: "What most startup owners fail to get about mobile development "
 layout: post
-image: /images/failtoget2.png
+image: /images/blog_post_cover_failtoget.png
 hidden: false
 comments: true
 published: true
