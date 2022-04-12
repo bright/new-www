@@ -49,13 +49,13 @@ My wife was my rock back then. Actually, she pushed me to quit that job. She bel
 
 ![Bright Story of Andrzej](/images/andrzej_private_photo.png)
 
-When I decided to quit, I started to research the job market in the area. As a result, I felt strongly about pursuing mobile development. **I liked the fact that building a mobile app allows you not only to implement UI but also to build the whole logic**. So it was like a whole package for me. Also, in mobile development you quickly see the results of your work which gives you lots of satisfaction. 
+When I decided to quit, I started to research the job market in the area. As a result, I felt strongly about pursuing [mobile development](/our-areas/mobile-app-development). **I liked the fact that building a mobile app allows you not only to implement UI but also to build the whole logic**. So it was like a whole package for me. Also, in mobile development you quickly see the results of your work which gives you lots of satisfaction. 
 
 I chose Android over iOS because it is easier to start learning Android. I didn’t have a Macbook or iPhone so how could I possibly go down this road? Android seemed interesting so I started to learn it. During one month I built my first Android app and launched it on Google Play. It is still there actually. 
 
 ## Soon after that, you joined Bright Inventions. How did that happen?
 
-I launched my Android app so it was high time to seek a job. I found a Bright Inventions job offer during my research and it drew my attention. I got this feeling that Bright was a company with friendly people who worked closely and supported each other to reach common goals. This company just felt human. After working at the corporation I wanted to be a part of a small and close team. 
+I launched my Android app so it was high time to seek a job. I found a [Bright Inventions](/) job offer during my research and it drew my attention. I got this feeling that Bright was a company with friendly people who worked closely and supported each other to reach common goals. This company just felt human. After working at the corporation I wanted to be a part of a small and close team. 
 
 I was invited for the interview. I was terrified when I came. I had only a month of Android experience. What if that wasn’t good enough? My wife supported me quite nearby, waiting in the coffee shop close by during the whole interview. 
 
@@ -129,4 +129,4 @@ I play lots of video games on my computer. I love games that tell a story such a
 
 \----
 
-Andrzej will share his Kotlin insights as a speaker at upcoming Polish dev conferences. You have a chance to see him on stage at [4developers](https://4developers.org.pl) and [Warsaw IT Days](https://warszawskiedniinformatyki.pl/index-en.html) in April 2022.
+Andrzej regularly shares his Kotlin insights as a speaker at software development conferences and meetups. Recently he was one of the speakers at [4developers](https://4developers.org.pl) and [Warsaw IT Days](https://warszawskiedniinformatyki.pl/index-en.html).
