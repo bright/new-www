@@ -55,7 +55,7 @@ I chose Android over iOS because it is easier to start learning Android. I didnâ
 
 ## Soon after that, you joined Bright Inventions. How did that happen?
 
-I launched my Android app so it was high time to seek a job. I found a Bright Inventions job offer during my research and it drew my attention. I got this feeling that Bright was a company with friendly people who worked closely and supported each other to reach common goals. This company just felt human. After working at the corporation I wanted to be a part of a small and close team. 
+I launched my Android app so it was high time to seek a job. I found a [Bright Inventions](/) job offer during my research and it drew my attention. I got this feeling that Bright was a company with friendly people who worked closely and supported each other to reach common goals. This company just felt human. After working at the corporation I wanted to be a part of a small and close team. 
 
 I was invited for the interview. I was terrified when I came. I had only a month of Android experience. What if that wasnâ€™t good enough? My wife supported me quite nearby, waiting in the coffee shop close by during the whole interview. 
 
