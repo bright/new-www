@@ -49,7 +49,7 @@ My wife was my rock back then. Actually, she pushed me to quit that job. She bel
 
 ![Bright Story of Andrzej](/images/andrzej_private_photo.png)
 
-When I decided to quit, I started to research the job market in the area. As a result, I felt strongly about pursuing mobile development. **I liked the fact that building a mobile app allows you not only to implement UI but also to build the whole logic**. So it was like a whole package for me. Also, in mobile development you quickly see the results of your work which gives you lots of satisfaction. 
+When I decided to quit, I started to research the job market in the area. As a result, I felt strongly about pursuing [mobile development](/our-areas/mobile-app-development). **I liked the fact that building a mobile app allows you not only to implement UI but also to build the whole logic**. So it was like a whole package for me. Also, in mobile development you quickly see the results of your work which gives you lots of satisfaction. 
 
 I chose Android over iOS because it is easier to start learning Android. I didn’t have a Macbook or iPhone so how could I possibly go down this road? Android seemed interesting so I started to learn it. During one month I built my first Android app and launched it on Google Play. It is still there actually. 
 
