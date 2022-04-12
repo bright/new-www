@@ -1,8 +1,4 @@
 ---
-layout: post
-title: Covariance & Contravariance
-date: 2020-12-28T12:12:12.000Z
-image: /images/covariance-contravariance/Covariance_1.png
 author: wojciech
 tags:
   - typescript
@@ -10,6 +6,10 @@ tags:
   - sets
   - math
   - vehicles
+date: 2020-12-28T12:12:12.000Z
+title: Covariance & Contravariance
+layout: post
+image: /images/blog_post_covariance.png
 hidden: false
 comments: true
 published: true
