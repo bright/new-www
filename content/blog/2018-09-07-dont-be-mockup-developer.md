@@ -1,14 +1,14 @@
 ---
-layout: post
-title: Don't be a mockup developer
 author: mateusz
 tags:
   - android
   - ios
   - programming practices
+date: 2018-09-06T22:00:00.000Z
+title: Don't be a mockup developer
+layout: post
+image: /images/blog_post_cover_mockup_dev.png
 comments: true
-image: /images/dont-be-mockup-developer/workspace.jpg
-date: '2018-09-06T22:00:00.000Z'
 published: true
 ---
 
