@@ -19,7 +19,7 @@ with some issues on your own, I encourage you to read this post till the end.
 
 You can also find and test deployed contract on Kovan network at [this](https://kovan.etherscan.io/address/0x3dD26Ec1e69529672D6e149BdA53B0f32Da69857) address 
 
-```solidity
+```javascript
 //SPDX-License-Identifier: Unlicense
 pragma solidity >=0.7.5;
 pragma abicoder v2;
