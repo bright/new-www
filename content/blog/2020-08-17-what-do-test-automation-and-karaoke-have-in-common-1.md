@@ -1,13 +1,13 @@
 ---
-layout: post
-title: What do test automation and karaoke have in common?
-date: 2020-08-17T11:45:17.768Z
-image: /images/karaoke.jpg
 author: maciej
 tags:
   - automation testing
   - QA
   - karaoke
+date: 2020-08-17T11:45:17.768Z
+title: What do test automation and karaoke have in common?
+layout: post
+image: /images/blog_post_cover_karoke.png
 hidden: false
 comments: true
 published: true
