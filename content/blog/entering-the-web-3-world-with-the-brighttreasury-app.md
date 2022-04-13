@@ -102,6 +102,8 @@ In order to get funds via [BrightTreasury](https://treasury.bright.dev?utm_sourc
 
 ![Web3 account setup](/images/web3account.png "The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.")
 
+<sub> *The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.* </sub>
+
 </center>
 
 * Also, there will be a mnemonic seed generated which is mandatory to restore your access to the account so you should copy it and store it somewhere safe.
@@ -120,8 +122,6 @@ In order to get funds via [BrightTreasury](https://treasury.bright.dev?utm_sourc
 ![blockchain networks](/images/blockchain_networks.png)
 
 </center>
-
-
 
 And that is it! Keep this extension in your browser and you can freely explore the Web3 world. 
 You will quickly see that using Web3 is as much convenient and fast as logging in via Facebook. This is only one click that separates you from logging somewhere. Just like with logging via Facebook. Yet, you stay independent. You do not need Facebook to authorize your logging. Blockchain decentralized community does it for you.
