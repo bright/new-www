@@ -1,5 +1,6 @@
 ---
 author: agnieszka
+secondAuthor: izabela
 tags:
   - substrate
   - Polkadot
