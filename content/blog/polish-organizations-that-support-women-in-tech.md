@@ -56,7 +56,7 @@ We gathered some of the Polish initiatives for women in tech and female programm
 
 ![Mentoring for female software developers Poland](/images/blog_mentoring_women_tech.png)
 
-**[Dare IT](https://www.dareit.io)**
+[Dare IT](https://www.dareit.io)
 
 Polish mentoring program that helps to find women's first job in software development. It is a 3-months program. So far over 100 mentees got a chance to participate. The program is not free of charge however, there is an option to apply for a scholarship.
 
@@ -79,6 +79,10 @@ Another free program that offers over 140 hours of workshops and courses regardi
 ## Women Tech Communities
 
 ![Women Tech Communities](/images/blog_tech_communities_women_blog.png)
+
+[Cyber Women Community](https://cyberwomen.eu)
+
+The community for juniors and more experienced female software developers who are passionate about cybersecurity. Cyber Women Community organizes workshops and other meetups offering a platform to exchange knowledge. The community also organizes the “Rising Star in Cybersecurity” contest which promotes women in the industry.
 
 [Geek Girls Carrot](https://gocarrots.org)
 
