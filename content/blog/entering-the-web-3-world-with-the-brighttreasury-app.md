@@ -5,7 +5,7 @@ tags:
   - substrate
   - Polkadot
   - Kusama
-date: 2022-04-13T09:09:18.448Z
+date: 2022-04-13T10:52:01.667Z
 title: Entering the Web 3 World with the BrightTreasury App
 layout: post
 image: /images/blog_web3_account.png
@@ -83,7 +83,7 @@ At this point, you need to have a Web3 account because it enables you to store c
 
 ## How to Set up a Web3 Account
 
-In order to get funds via BrightTreasury, you have to have your blockchain identity accessible for Polkadot and/or Kusama network. Let me show you how to create a Web3 account with Polkadot extension which is mandatory in this case.
+In order to get funds via [BrightTreasury](https://treasury.bright.dev?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=web3account&utm_id=content_marketing), you have to have your blockchain identity accessible for Polkadot and/or Kusama network. Let me show you how to create a Web3 account with Polkadot extension which is mandatory in this case.
 
 ### Steps to take to set own Web3 Access Login (Account)
 
@@ -137,4 +137,4 @@ This is an example of the account provided with the Web3 account info as well as
 
 ![Account Details BrightTreasury](/images/account_info2.png)
 
-I hope you are ready to visit the Web3 world. Let your first step be our BrightTreasury app. 🙂
+I hope you are ready to visit the Web3 world. Let your first step be our [BrightTreasury app](https://treasury.bright.dev?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=web3account&utm_id=content_marketing). 🙂
