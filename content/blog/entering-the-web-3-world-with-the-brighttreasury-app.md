@@ -40,3 +40,10 @@ If your proposal is approved, you will receive the cryptocurrency (Polkadot $DOT
 ## Login options on BrightTreasury
 
 While developing the app we had to have in mind that it is not only for [substrate blockchain enthusiasts](/blog/5-benefits-of-substrate-blockchain/). We felt that flexibility was the key. Thus, to help you enter this world we enabled two sign-up options:
+
+1. Traditional sign-up and log in by entering a username, email address, and password – a friendly option for non-blockchain experts.
+2. Sign-up and log in through your Web3 address – an option well known by every Web3 enthusiast.
+
+As the first option is quite obvious, let's dive into the latter.
+
+## What is a Web3 address?
