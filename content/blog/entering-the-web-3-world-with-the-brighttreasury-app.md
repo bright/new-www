@@ -23,6 +23,8 @@ published: true
 
 The basic flow to get funds via BrightTreasury consists of these steps:
 
+![BrightTreasury flow](/images/bright_treasury_idea_flow.png)
+
 **Submit an Idea**
 
 Anyone can submit an idea on the BrightTreasury app in a couple of minutes.
@@ -71,6 +73,8 @@ However, the app is supposed to attract people less familiar with the substrate 
 So if you want to submit an idea at BrightTreasury, you can set up a traditional account to do so. When you feel ready, then you turn your idea into a proposal. To do it, you need to switch to a Web3 account which is easily possible on our app. 
 
 At this point, you need to have a Web3 account because it enables you to store crypto. While submitting a proposal you have to put a crypto deposit which will be restored if the proposal will be approved.
+
+![BrightTreasury Web3 Account](/images/bright_treasury_idea_flow_web3account.png)
 
 ## How to Set up a Web3 Account
 
