@@ -104,8 +104,7 @@ In order to get funds via [BrightTreasury](https://treasury.bright.dev?utm_sourc
 
 </center>
 
-Also, there will be a mnemonic seed generated which is mandatory to restore your access to the account so you should copy it and store it somewhere safe.
-
+* Also, there will be a mnemonic seed generated which is mandatory to restore your access to the account so you should copy it and store it somewhere safe.
 * Now you can enter a name for your account and a password. This password is in fact the password you would use on daily basis to sign up with your account.
 
 <center>
@@ -121,6 +120,8 @@ Also, there will be a mnemonic seed generated which is mandatory to restore your
 ![blockchain networks](/images/blockchain_networks.png)
 
 </center>
+
+
 
 And that is it! Keep this extension in your browser and you can freely explore the Web3 world. 
 You will quickly see that using Web3 is as much convenient and fast as logging in via Facebook. This is only one click that separates you from logging somewhere. Just like with logging via Facebook. Yet, you stay independent. You do not need Facebook to authorize your logging. Blockchain decentralized community does it for you.
