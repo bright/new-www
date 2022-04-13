@@ -102,7 +102,12 @@ In order to get funds via BrightTreasury, you have to have your blockchain ident
 Also, there will be a mnemonic seed generated which is mandatory to restore your access to the account so you should copy it and store it somewhere safe.
 
 * Now you can enter a name for your account and a password. This password is in fact the password you would use on daily basis to sign up with your account.
+
+![Web3 account setup](/images/web3account_create.png "The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.")
+
 * Make sure that you are enabled to use it on Polkadot or Kusama network to be able to work on the BrightTreasury app, but you can also enable it to work on any network.
+
+![blockchain networks](/images/blockchain_networks.png)
 
 And that is it! Keep this extension in your browser and you can freely explore the Web3 world. 
 You will quickly see that using Web3 is as much convenient and fast as logging in via Facebook. This is only one click that separates you from logging somewhere. Just like with logging via Facebook. Yet, you stay independent. You do not need Facebook to authorize your logging. Blockchain decentralized community does it for you.
