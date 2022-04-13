@@ -91,3 +91,5 @@ You will quickly see that using Web3 is as much convenient and fast as logging i
 Whether you choose to sign up with a Web3 account or in the traditional way, you can always change your logging option. From the very beginning, we wanted users to feel free to choose the most convenient way. So you can easily change your login to Web3 or even do a switch in the opposite direction. How to do it? 
 
 Let's assume that you first log in with a Web3 account. In that case, you just need to add your email credentials which basically means entering your username, login, and password. As a result, you will have two options to log in: with a Web3 account or with email.
+
+I hope you are ready to visit the Web3 world. Let your first step be our BrightTreasury app. 🙂
