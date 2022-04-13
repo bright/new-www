@@ -82,12 +82,19 @@ In order to get funds via BrightTreasury, you have to have your blockchain ident
 
 ### Steps to take to set own Web3 Access Login (Account)
 
-1. Download the [polkadot.js extension](https://polkadot.js.org/extension/) for browsers which enables you to create the account and generate the key.
-2. Start to create an account to generate your private key that will verify that you are the owner of that account.
-3. You will receive a characters string which in fact is a unique name of your identity.
-4. Also, there will be a mnemonic seed generated which is mandatory to restore your access to the account so you should copy it and store it somewhere safe.
-5. Now you can enter a name for your account and a password. This password is in fact the password you would use on daily basis to sign up with your account.
-6. Make sure that you are enabled to use it on Polkadot or Kusama network to be able to work on the BrightTreasury app, but you can also enable it to work on any network.
+* Download the [polkadot.js extension](https://polkadot.js.org/extension/) for browsers which enables you to create the account and generate the key.
+* Start to create an account to generate your private key that will verify that you are the owner of that account.
+
+<center>
+
+![polkadot.js extension](/images/web3add_account.png)
+
+</center>
+
+* You will receive a characters string which in fact is a unique name of your identity.
+* Also, there will be a mnemonic seed generated which is mandatory to restore your access to the account so you should copy it and store it somewhere safe.
+* Now you can enter a name for your account and a password. This password is in fact the password you would use on daily basis to sign up with your account.
+* Make sure that you are enabled to use it on Polkadot or Kusama network to be able to work on the BrightTreasury app, but you can also enable it to work on any network.
 
 And that is it! Keep this extension in your browser and you can freely explore the Web3 world. 
 You will quickly see that using Web3 is as much convenient and fast as logging in via Facebook. This is only one click that separates you from logging somewhere. Just like with logging via Facebook. Yet, you stay independent. You do not need Facebook to authorize your logging. Blockchain decentralized community does it for you.
