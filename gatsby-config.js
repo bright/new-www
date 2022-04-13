@@ -15,17 +15,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: isProduction ? [
-          'UA-29336006-1',
-          'G-H4MTQGSVD3'
-        ] : [],
+        trackingIds: isProduction ? ['UA-29336006-1', 'G-H4MTQGSVD3'] : [],
       },
     },
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId:
-        `${process.env.GATSBY_ACTIVE_ENV === 'production' ? '1256554391514599' : ''}`,
+        pixelId: `${process.env.GATSBY_ACTIVE_ENV === 'production' ? '1256554391514599' : ''}`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true, // optional parameter to include script in development
+        id: 2864857,
+        sv: 6,
       },
     },
     'gatsby-plugin-react-helmet',
@@ -97,11 +101,11 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "fonts",
-        path: `${__dirname}/static/fonts/`
-      }
+        name: 'fonts',
+        path: `${__dirname}/static/fonts/`,
+      },
     },
     {
       resolve: `gatsby-plugin-disqus`,
@@ -118,17 +122,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-{
+    {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true, // Print removed selectors and processed file names
         develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
-        ignore: ['/carousel.min.css','prismjs/' ], // Ignore files/folders
+        ignore: ['/carousel.min.css', 'prismjs/'], // Ignore files/folders
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
         purgeCSSOptions: {
           // https://purgecss.com/configuration.html#options
-          // safelist: ['safelist'], // Don't remove this selector
+          safelist: ['blockquote', '.content blockquote'], // Don't remove this selector
         },
         // More options defined here https://purgecss.com/configuration.html#options
       },
@@ -139,7 +143,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-embed-video",
+            resolve: 'gatsby-remark-embed-video',
             options: {
               width: 800,
               // ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
@@ -192,7 +196,7 @@ module.exports = {
         enableIdentityWidget: true,
         publicPath: `admin`,
         htmlTitle: `Content Manager`,
-      }
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
@@ -203,7 +207,7 @@ module.exports = {
         output: '/',
       },
     },
-    
+
     {
       resolve: 'gatsby-plugin-s3',
       options: {
@@ -232,13 +236,13 @@ module.exports = {
         sitemap: `${siteUrl.href}sitemap-index.xml`,
         env: {
           staging: {
-            policy: [{ userAgent: '*', disallow: ['/'] }]
+            policy: [{ userAgent: '*', disallow: ['/'] }],
           },
           production: {
-            policy: [{ userAgent: '*', allow: '/' }]
-          }
-        }
-      }
+            policy: [{ userAgent: '*', allow: '/' }],
+          },
+        },
+      },
     },
 
     {
@@ -246,7 +250,7 @@ module.exports = {
       options: {
         pages: [
           {
-            fileName: "blog-posts-meta",
+            fileName: 'blog-posts-meta',
             query: `
               query PostTags {
                 allMarkdownRemark(filter: {frontmatter: {layout: {eq: "post"}}}){
@@ -259,20 +263,20 @@ module.exports = {
               }
             `,
             transformer: ({
-                            data: {
-                              allMarkdownRemark: { posts },
-                            },
-                          }) => ({
-              tags: [...new Set(posts.flatMap(post => post.frontmatter?.tags ?? []))]
+              data: {
+                allMarkdownRemark: { posts },
+              },
+            }) => ({
+              tags: [...new Set(posts.flatMap(post => post.frontmatter?.tags ?? []))],
             }),
           },
         ],
       },
     },
     {
-      resolve: "gatsby-plugin-page-progress",
+      resolve: 'gatsby-plugin-page-progress',
       options: {
-        includePaths: [{ regex: "^/blog/.+" }],
+        includePaths: [{ regex: '^/blog/.+' }],
         height: 2,
         prependToBody: false,
         color: `#f7931e`,
