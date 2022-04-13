@@ -92,7 +92,15 @@ In order to get funds via BrightTreasury, you have to have your blockchain ident
 </center>
 
 * You will receive a characters string which in fact is a unique name of your identity.
-* Also, there will be a mnemonic seed generated which is mandatory to restore your access to the account so you should copy it and store it somewhere safe.
+
+<center>
+
+![Web3 account setup](/images/web3account.png "The account details have been displayed only for educational purposes. This account is not used to store cryptocurrency.")
+
+</center>
+
+Also, there will be a mnemonic seed generated which is mandatory to restore your access to the account so you should copy it and store it somewhere safe.
+
 * Now you can enter a name for your account and a password. This password is in fact the password you would use on daily basis to sign up with your account.
 * Make sure that you are enabled to use it on Polkadot or Kusama network to be able to work on the BrightTreasury app, but you can also enable it to work on any network.
 
