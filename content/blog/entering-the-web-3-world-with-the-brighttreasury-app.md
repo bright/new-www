@@ -131,4 +131,6 @@ Whether you choose to sign up with a Web3 account or in the traditional way, you
 
 Let's assume that you first log in with a Web3 account. In that case, you just need to add your email credentials which basically means entering your username, login, and password. As a result, you will have two options to log in: with a Web3 account or with email.
 
+![BrightTreasury account credentials](/images/account_credentials.png)
+
 I hope you are ready to visit the Web3 world. Let your first step be our BrightTreasury app. 🙂
