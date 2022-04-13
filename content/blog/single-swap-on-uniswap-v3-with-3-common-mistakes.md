@@ -126,8 +126,8 @@ If you are interested why keep on reading.
 ### Wrong tokens addresses
 
 I think the most common mistake is using wrong address for the tokens. Keep in mind
-that every token you want to swap is also a deployed contract. On different networks,
-contracts can be deployed at different addresses. Uniswap in their example has some
+that every token you want to swap is also a deployed contract. **On different networks,
+contracts can be deployed at different addresses.** Uniswap in their example has some
 hardcoded ones for DAI and WETH, but they do not mention on which network this example should work.
 
 If you try to search for the address of WETH on different networks you will easily find it. For other 
@@ -143,7 +143,7 @@ Inside, we can see WETH and DAI tokens, that Uniswap used. After clicking them, 
 a contract which is a token that we want to swap. So just use the address in your code and et voilà!
 
 To help you a bit, I've provided DAI and WETH token addresses for Kovan and Rinkeby networks in the code.
-Funny thing is that this method made me make a 3rd mistake mentioned in this post. 
+**Funny thing is that this method made me make a 3rd mistake mentioned in this post.**
 
 ### Approving contract to withdraw the tokens
 
@@ -157,7 +157,7 @@ they clearly state, that there was one more approval needed.
 > The caller must approve the contract to withdraw the tokens from the calling address's account to execute a swap. Remember that because our contract is a contract itself and not an extension of the caller (us); we must also approve the Uniswap protocol router contract to use the tokens that our contract will be in possession of after they have been withdrawn from the calling address (us).
 
 So the approval that we have in the code, is the second part. We approve Uniswap router to use the tokens
-from our contract. But before that, we must also approve OUR contract to withdraw tokens from our wallet.
+from our contract. But before that, **we must also approve OUR contract to withdraw tokens from our wallet.**
 If you don't do that and you will try to sign a transaction Metamask will warn you that it will probably fail:
 
 ![Metamask](/images/metamask_fail_transaction_warning.png)
@@ -195,7 +195,7 @@ for Params but it's not the same.
 * `SwapRouter02` inherits from `V3SwapRouter`
 
 If we also check closely the `ExactInputSingleParams` struct that both contracts use, we can see that version in `V3SwapRouter`
-does not have `delay` parameter. So despite looking very similar, those
-are two completely different things.
+does not have `delay` parameter. **So despite looking very similar, those
+are two completely different things.**
 
 In my code, I've left working functions for both routers, so you can test it on your own.
