@@ -45,8 +45,7 @@ title_case_study: our product design portfolio
 title_faqs: product design FAQs
 title_contact: let’s design your product
 description_contact: Tell us more about your project or idea for an app. We will
-  take care of the rest. Fill the form below, or drop us a line via
-  [info@brightinventions.pl](mailto:info@brightinventions.pl).
+  take care of the rest. Fill out the form below, or drop us a line via
 ---
 ## Product design services that we offer
 
