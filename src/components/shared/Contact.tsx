@@ -190,7 +190,7 @@ export const Contact: FC<ContactProps> = ({
         )}
         {subtitle ? (
           <TextRegular>
-            {subtitle} <a href='mailto:info@brightinventions.pl.'>info@brightinventions.pl</a>
+            {subtitle} <a href='mailto:info@brightinventions.pl'>info@brightinventions.pl</a>
           </TextRegular>
         ) : (
           <TextRegular>
