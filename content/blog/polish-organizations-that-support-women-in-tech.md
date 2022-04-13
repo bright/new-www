@@ -82,7 +82,7 @@ Another free program that offers over 140 hours of workshops and courses regardi
 
 [Cyber Women Community](https://cyberwomen.eu)
 
-The community for juniors and more experienced female software developers who are passionate about cybersecurity. Cyber Women Community organizes workshops and other meetups giving a platform to exchange knowledge. The community also organizes the “Rising Star in Cybersecurity” Contest which promotes women in the industry.
+The community for juniors and more experienced female software developers who are passionate about cybersecurity. Cyber Women Community organizes workshops and other meetups offering a platform to exchange knowledge. The community also organizes the “Rising Star in Cybersecurity” Contest which promotes women in the industry.
 
 [Geek Girls Carrot](https://gocarrots.org)
 
