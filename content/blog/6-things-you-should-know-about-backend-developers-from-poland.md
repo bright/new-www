@@ -25,7 +25,7 @@ Polish developers are well known for their impressive programming knowledge and 
 
 <center>
 
-![backend development Poland](/images/Best_developers_HackerRank.png)
+![backend development Poland](/images/hackerrank_polish_developers.png)
 
 </center>
 
