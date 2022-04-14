@@ -6,14 +6,14 @@ tags:
 date: 2022-04-14T09:41:19.968Z
 title: 6 Things You Should Know about Backend Developers from Poland
 layout: post
-image: /images/backend_development_poland_blog.png
-hidden: true
+image: /images/backend_development_poland-cover.png
+hidden: false
 comments: true
 published: true
 ---
 **What does it mean to work with a backend development company based in Poland? What you should know about Polish backend programmers? Get insight into the world of backend development in Poland.**
 
-![backend development company Poland](/images/backend_development_poland_blog.png)
+![backend development company Poland](/images/backend_development_poland-cover.png)
 
 ## The Polish software development industry is Europe’s one of the top
 
@@ -25,7 +25,7 @@ Polish developers are well known for their impressive programming knowledge and 
 
 <center>
 
-![backend development Poland](/images/Best_developers_HackerRank.png)
+![backend development Poland](/images/hackerrank_polish_developers.png)
 
 </center>
 
