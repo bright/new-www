@@ -49,7 +49,7 @@ Also, it is worth mentioning that the Polish school system requires students to 
 
 ## Polish backend developers are not afraid to work with cloud infrastructure
 
-![Polish backend developers](static/images/cloud-remote-devops.png)
+![Polish backend developers](/images/cloud-remote-devops.png)
 
 Backend Developers and DevOps Engineers work closely according to DevOps methodology. Backend developers at Bright Inventions are skilled to contribute to infrastructure which makes the development process more efficient. 
 
