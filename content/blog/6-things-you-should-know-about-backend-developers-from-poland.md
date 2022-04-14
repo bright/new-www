@@ -43,7 +43,7 @@ Polish software developers are well known for their impressive programming knowl
 
 Top backend development companies based in Poland, like Bright Inventions, create solutions mostly for international clients. Polish programmers are eager to work with foreign clients and they are perfectly skilled to do so.
 
-Polish young people, especially developers, speak fluently in English, as was proved by [EF English Proficiency Index](https://www.ef.com/assetscdn/WIBIwq6RdJvcD9bc8RMd/cefcom-epi-site/reports/2021/ef-epi-2021-english.pdf). Poland was ranked as a country with high proficiency in English. What is more, many software development agencies offer internal English classes for employees so they can keep developing their foreign language skills.
+**Polish young people, especially developers, speak fluently in English**, as was proved by [EF English Proficiency Index](https://www.ef.com/assetscdn/WIBIwq6RdJvcD9bc8RMd/cefcom-epi-site/reports/2021/ef-epi-2021-english.pdf). Poland was ranked as a country with high proficiency in English. What is more, many software development agencies organize internal English classes for employees so they can keep developing their foreign language skills.
 
 Also, it is worth mentioning that the Polish school system requires students to study two foreign languages so some developers have great knowledge of other tongues such as German, Spanish, or French.
 
@@ -51,7 +51,7 @@ Also, it is worth mentioning that the Polish school system requires students to 
 
 ![Polish backend developers](/images/cloud-remote-devops.png)
 
-Backend Developers and DevOps Engineers work closely according to DevOps methodology. Backend developers at Bright Inventions are skilled to contribute to infrastructure which makes the development process more efficient. 
+**Backend Developers and DevOps Engineers work closely according to DevOps methodology**. Backend developers at Bright Inventions are skilled to contribute to infrastructure which makes the development process more efficient. 
 
 Thanks to tools provided by Amazon Web Services the cooperation between devs and DevOps Engineers is smooth and easy. That’s why it is essential for backend developers to learn how to use [cloud computing solutions](/our-areas/cloud-services), especially AWS or Azure. Learning these platforms should be an important part of the self-development of a backend developer.
 
@@ -59,7 +59,7 @@ More info about the [modern DevOps approaches](/blog/road-to-devops-how-tools-li
 
 ## Polish backend development teams are accessible to clients around the globe
 
-Poland is part of the Central European Time Zone which means that there is no time difference between Poland and most European countries. Moreover, [Polish backend development companies](/) are capable to work with clients from different continents. 
+Poland is part of the Central European Time Zone which means that **there is no time difference between Poland and most European countries**. Moreover, [Polish backend development companies](/) are capable to work with clients from different continents. 
 
 For example, the time difference between New York and Warsaw is 6 hours which makes it possible to set up daily meetings with clients and Polish devs. 
 
