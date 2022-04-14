@@ -39,7 +39,7 @@ Polish software developers are well known for their impressive programming knowl
 * **Redis** – open-source, in-memory, key-value database,
 * **Docker** – containerization platform enabling faster delivery of applications.
 
-## Polish developers are experienced in working on international projects
+## Polish devs are experienced in working on international projects
 
 Top backend development companies based in Poland, like Bright Inventions, create solutions mostly for international clients. Polish programmers are eager to work with foreign clients and they are perfectly skilled to do so.
 
