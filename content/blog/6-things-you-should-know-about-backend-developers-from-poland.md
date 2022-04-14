@@ -31,13 +31,13 @@ Polish developers are well known for their impressive programming knowledge and 
 
 ### A typical backend developer from Bright Inventions uses technologies such as:
 
-* Kotlin – modern programming language, Java’s forerunner,
-* SQL – a database query language,
-* Node.js – a JavaScript open-source environment,
-* AWS – Amazon’s cloud computing platform which offers lots of useful services such as AWS Aurora, AWS ECS, and many more,
-* Spring Boot – Java-based framework,
-* Redis – open-source, in-memory, key-value database,
-* Docker – containerization platform enabling faster delivery of applications.
+* **Kotlin** – modern programming language, Java’s forerunner,
+* **SQL** – a database query language,
+* **Node.js** – a JavaScript open-source environment,
+* **AWS** – Amazon’s cloud computing platform which offers lots of useful services such as AWS Aurora, AWS ECS, and many more,
+* **Spring Boot** – Java-based framework,
+* **Redis** – open-source, in-memory, key-value database,
+* **Docker** – containerization platform enabling faster delivery of applications.
 
 ## Polish developers are experienced in working on international projects
 
@@ -56,3 +56,15 @@ Backend Developers and DevOps Engineers work closely according to DevOps methodo
 Thanks to tools provided by Amazon Web Services the cooperation between devs and DevOps Engineers is smooth and easy. That’s why it is essential for backend developers to learn how to use cloud computing solutions, especially AWS or Azure. Learning these platforms should be an important part of the self-development of a backend developer.
 
 More info about the [modern DevOps approaches](/blog/road-to-devops-how-tools-like-aws-cdk-help-with-devops-transition/) you will find in the article written by Michał, an experienced DevOps Engineer.
+
+## Polish backend development teams are accessible to clients around the globe
+
+Poland is part of the Central European Time Zone which means that there is no time difference between Poland and most European countries. Moreover, Polish backend development companies are capable to work with clients from different continents. 
+
+For example, the time difference between New York and Warsaw is 6 hours which makes it possible to set up daily meetings with clients and Polish developers. 
+
+## Polish backend devs are full of passion
+
+![Polish backend developers](https://brightinventions.pl/static/9a665e2b85a71268e3feb3b97d206ccc/d9199/brightstory_piotr_backend_dev.png)
+
+Polish developers are motivated to self-develop at work but also to follow their other passions after hours. As an example, you can dive into the [story of Piotr – a backend developer](/blog/kotlin-dev-by-day-motorcyclist-by-night-meet-piotr-backend-dev-from-polandhttps://brightinventions.pl/blog/kotlin-dev-by-day-motorcyclist-by-night-meet-piotr-backend-dev-from-poland) whose passions are motorcycle racing, jogging, and more.
