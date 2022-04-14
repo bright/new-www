@@ -3,7 +3,8 @@ layout: faqs
 faqs_id: mobile app development 5
 name: mobile app development 5
 slug: what-is-mobile-app-development-timeline?
-question: What is the mobile app development timeline?
+question: "[/our-areas/mvp-development](/our-areas/mvp-development)What is the
+  mobile app development timeline?"
 answer: The final software development timeline depends on the project and its
   requirements. In case a client expects only a prototype version of their idea,
   we usually **create a prototype during a 1 to 4 weeks period**. If a client
