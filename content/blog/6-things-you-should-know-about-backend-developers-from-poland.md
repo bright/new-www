@@ -7,7 +7,7 @@ date: 2022-04-14T09:41:19.968Z
 title: 6 Things You Should Know about Backend Developers from Poland
 layout: post
 image: /images/backend_development_poland_blog.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
