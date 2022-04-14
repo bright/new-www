@@ -21,7 +21,7 @@ The Polish software development industry, with almost €9bn in revenue, is [ran
 
 ## Polish backend developers use modern stack and tools
 
-Polish developers are well known for their impressive programming knowledge and skills which were established thanks to a [HackerRank study](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/). 
+Polish software developers are well known for their impressive programming knowledge and skills which were established thanks to a [HackerRank study](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/). 
 
 <center>
 
@@ -39,7 +39,7 @@ Polish developers are well known for their impressive programming knowledge and 
 * **Redis** – open-source, in-memory, key-value database,
 * **Docker** – containerization platform enabling faster delivery of applications.
 
-## Polish developers are experienced in working on international projects
+## Polish devs are experienced in working on international projects
 
 Top backend development companies based in Poland, like Bright Inventions, create solutions mostly for international clients. Polish programmers are eager to work with foreign clients and they are perfectly skilled to do so.
 
@@ -49,7 +49,7 @@ Also, it is worth mentioning that the Polish school system requires students to 
 
 ## Polish backend developers are not afraid to work with cloud infrastructure
 
-![Polish backend developers](static/images/cloud-remote-devops.png)
+![Polish backend developers](/images/cloud-remote-devops.png)
 
 Backend Developers and DevOps Engineers work closely according to DevOps methodology. Backend developers at Bright Inventions are skilled to contribute to infrastructure which makes the development process more efficient. 
 
@@ -61,12 +61,12 @@ More info about the [modern DevOps approaches](/blog/road-to-devops-how-tools-li
 
 Poland is part of the Central European Time Zone which means that there is no time difference between Poland and most European countries. Moreover, [Polish backend development companies](/) are capable to work with clients from different continents. 
 
-For example, the time difference between New York and Warsaw is 6 hours which makes it possible to set up daily meetings with clients and Polish developers. 
+For example, the time difference between New York and Warsaw is 6 hours which makes it possible to set up daily meetings with clients and Polish devs. 
 
 ## Polish backend devs are full of passion
 
 ![Polish backend developers](https://brightinventions.pl/static/9a665e2b85a71268e3feb3b97d206ccc/d9199/brightstory_piotr_backend_dev.png)
 
-Polish developers are motivated to self-develop at work but also to follow their other passions after hours. As an example, you can dive into the [story of Piotr – a backend developer](/blog/kotlin-dev-by-day-motorcyclist-by-night-meet-piotr-backend-dev-from-polandhttps://brightinventions.pl/blog/kotlin-dev-by-day-motorcyclist-by-night-meet-piotr-backend-dev-from-poland) whose passions are motorcycle racing, jogging, and more.
+Polish programmers are motivated to self-develop at work but also to follow their other passions after hours. As an example, you can dive into the [story of Piotr – a backend developer](/blog/kotlin-dev-by-day-motorcyclist-by-night-meet-piotr-backend-dev-from-polandhttps://brightinventions.pl/blog/kotlin-dev-by-day-motorcyclist-by-night-meet-piotr-backend-dev-from-poland) whose passions are motorcycle racing, jogging, and more.
 
 Are you looking for a top backend development company from Poland? You’ve come to the right place. [Let’s talk about your software solution](/start-project).
