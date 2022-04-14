@@ -5,6 +5,7 @@ tags:
   - substrate
   - Polkadot
   - Kusama
+  - blockchain
 date: 2022-04-13T10:52:01.667Z
 title: Entering the Web3 World with the BrightTreasury App
 layout: post
