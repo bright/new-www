@@ -53,13 +53,13 @@ Also, it is worth mentioning that the Polish school system requires students to 
 
 Backend Developers and DevOps Engineers work closely according to DevOps methodology. Backend developers at Bright Inventions are skilled to contribute to infrastructure which makes the development process more efficient. 
 
-Thanks to tools provided by Amazon Web Services the cooperation between devs and DevOps Engineers is smooth and easy. That’s why it is essential for backend developers to learn how to use cloud computing solutions, especially AWS or Azure. Learning these platforms should be an important part of the self-development of a backend developer.
+Thanks to tools provided by Amazon Web Services the cooperation between devs and DevOps Engineers is smooth and easy. That’s why it is essential for backend developers to learn how to use [cloud computing solutions](/our-areas/cloud-services), especially AWS or Azure. Learning these platforms should be an important part of the self-development of a backend developer.
 
 More info about the [modern DevOps approaches](/blog/road-to-devops-how-tools-like-aws-cdk-help-with-devops-transition/) you will find in the article written by Michał, an experienced DevOps Engineer.
 
 ## Polish backend development teams are accessible to clients around the globe
 
-Poland is part of the Central European Time Zone which means that there is no time difference between Poland and most European countries. Moreover, Polish backend development companies are capable to work with clients from different continents. 
+Poland is part of the Central European Time Zone which means that there is no time difference between Poland and most European countries. Moreover, [Polish backend development companies](/) are capable to work with clients from different continents. 
 
 For example, the time difference between New York and Warsaw is 6 hours which makes it possible to set up daily meetings with clients and Polish developers. 
 
