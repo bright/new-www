@@ -259,7 +259,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
       </Helmet>
 
-      <ConstrainedWidthContainer className='container'>
+      <ConstrainedWidthContainer>
         <PostArticleContent
           title={page.title}
           date={page.date}
