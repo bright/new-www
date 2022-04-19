@@ -1,9 +1,9 @@
 ---
 team_members:
   - piotr
-  - michal-lem
   - michal k
   - michal-l
+  - bartek k
 faqs:
   - What benefits do cloud services offer?
   - What are cloud services and how do they work?
