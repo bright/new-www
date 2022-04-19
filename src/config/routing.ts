@@ -33,4 +33,5 @@ export const routeLinks = {
   jobs: '/jobs',
   startProject: '/start-project',
   privacyPolicy: '/privacy-policy',
+  webDevelopment: '/our-areas/web-development',
 }
