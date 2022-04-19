@@ -58,7 +58,7 @@ export const Footer = () => {
           <div className={classNames('column is-hidden-mobile', styles.links)}>
             <h6 className='subtitle is-size-6 has-text-weight-bold'>services</h6>
             <p className='content'>
-              <Link to={routeLinks.whatWeOffer}>web development</Link>
+              <Link to={routeLinks.webDevelopment}>web development</Link>
             </p>
             <p className='content'>
               <Link to={routeLinks.whatWeOffer}>mobile development</Link>
