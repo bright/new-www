@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import classNames from 'classnames'
 
 import { Footer } from './Footer'
@@ -32,6 +32,11 @@ export const Page: React.FC<{ className?: string }> = ({ children, className }) 
         <meta property='og:url' content={resolveUrl(pathname)} />
         {/* Ideally simply adding import("https://widget.clutch.co/static/js/widget.js") would work */}
         <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} />
+        <script
+          type='text/javascript'
+          src='https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B'
+          data-webform-id='hiz1B'
+        ></script>
       </Helmet>
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       {children}
