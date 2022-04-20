@@ -69,6 +69,9 @@ export const Footer = () => {
             <p className='content'>
               <Link to={routeLinks.bluetoothDevelopment}>bluetooth development</Link>
             </p>
+            <p className='content'>
+              <Link to={routeLinks.mvpdDevelopment}>MVP development</Link>
+            </p>
           </div>
 
           <div className={classNames('column', styles.links)}>
