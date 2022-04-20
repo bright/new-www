@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Project Manager
-subtitle: ONGOING
+subtitle: OPENING SOON 
 imagejob: /images/projectmanagerbrightteam_passion.png
 image-alt-job: "job for project manager "
 hours: full-time
