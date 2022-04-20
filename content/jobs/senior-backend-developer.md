@@ -6,7 +6,7 @@ layout: job
 title: "Senior Backend Developer "
 subtitle: ONGOING
 hours: full-time
-salary: 20 000 - 26 000 PLN + VAT (B2B) or 18 300 - 20 750 PLN gross (UoP)
+salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
 salary_min: 20000
 salary_max: 26000
 working time: full time
