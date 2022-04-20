@@ -82,7 +82,7 @@ export const Footer = () => {
               </div>
               <div className='right'>
                 ul. Jana Matejki 12, <br />
-                80-232 Gdańsk
+                80-232 Gdańsk, Poland
               </div>
             </div>
             <div className={styles.icon}>
