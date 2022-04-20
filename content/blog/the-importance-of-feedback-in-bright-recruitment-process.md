@@ -30,7 +30,7 @@ First things first** - we do our best to give you feedback at literally every st
 
 **Your time is precious** - indeed, as is mine. I respect that you have your life, your own commitments as I have them, too. 🙂 What we can do for ourselves is giving each other feedback continuously and on every occasion. It enables us - me as a recruiter and you as a candidate - to swap information more effectively, to gather those which are significant, and to confront your wishes and expectations with the company potential and opportunities. To cut the long story short - it gives us (yes, we’re a team now 💪) a chance to run your recruitment process with high effectiveness in a shorter time.
 
-![](/images/join_bright_team.png)
+![join Bright Inventions](/images/join_bright_team.png)
 
 ## Enough of talking, let’s get down to business - to be more specific, there are some significant moments during our recruitment process when you are getting the feedback from us:
 
@@ -39,7 +39,7 @@ First things first** - we do our best to give you feedback at literally every st
 3. **Straight after the technical part of the meeting** we provide you with transparent feedback about your skills presented during the conversation with a tech recruiter. You are informed at which career level you are now according to our Bright career path. After the non-technical part, you receive feedback about your English skills and the overall performance. 
 4. **Technical task is the last step of our recruitment process**. You get feedback after your task is reviewed by the tech recruiter. We are always trying to be very stick-to-the-point and as specific as developers can be. The feedback usually involves some recommendations that may help you grow and develop your skills in the future. At this very moment we encourage you once again to share your feedback with us - especially when you feel that what we have said is not enough - your tech recruiter is happy to elaborate more if needed.
 
-   ![](/images/recruitment-process.png)
+   ![Bright Inventions recruitment process](/images/recruitment-process.png)
 
 You won’t be surprised if I say our very last recruitment step is feedback. 😀 **After the whole process you are required to evaluate our recruitment journey - regardless of the final decision. And even if the feedback is not as satisfying as we all may wish for… remember that it helps us all grow and improve both as recruits, developers and humans.** 
 
