@@ -63,7 +63,7 @@ You can check [what to bring and what not to bring to the collection point](http
 
 NGOs are at the heart of civil society in Ukraine. While the age of digitization has dawned, charities are still far behind private businesses and state institutions. Weak security systems, outdated software and a lack of user-friendly UI and UX make it difficult for them to operate. 
 
-![](/images/techforukraine.png)
+![humanitarian aid Ukraine](/images/techforukraine.png)
 
 **We have joined the initiative and so can you. How you can help?**
 
@@ -75,7 +75,7 @@ NGOs are at the heart of civil society in Ukraine. While the age of digitization
 
 On [Pomeranian Voivodeship Office website](https://www.gdansk.uw.gov.pl/pomagamy-ukrainie) you can find all the information about our local Tricity support.  
 
-![](/images/gransk_support.png)
+![Gdańsk Ukraine help](/images/gransk_support.png)
 
 On Facebook page "[Gdańsk Pomaga Ukrainie](https://www.facebook.com/donate/486031106489144)” there is a special donation you can take part in.
 
@@ -92,7 +92,7 @@ Below you can also find the list of several main international charities support
 7. **The World Health Organization Foundation** is raising funds for [WHO’s Health Emergency Appeal](https://www.ukraine.who.foundation/) for Ukraine. You can donate [here](https://www.ukraine.who.foundation/). 
 8. **Direct Relief**  is working directly with Ukraine’s Ministry of Health and other on-the-ground partners to provide urgently needed medical aid, including emergency response packs intended for first responders, oxygen concentrators, critical care medicines, and much more. [Donate here](https://www.directrelief.org/place/ukraine/). 
 
-![](/images/standwithukraine2.png)
+![Stand with Ukraine](/images/standwithukraine2.png)
 
 ## **Fight misinformation** 
 
