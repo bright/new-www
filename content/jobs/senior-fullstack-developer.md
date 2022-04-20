@@ -5,7 +5,7 @@ subtitle: ONGOING
 imagejob: /images/fullstackteam.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: Full-time
-salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 000 - 20 750 PLN gross (UoP)
+salary: 20 000 - 26 000 PLN + VAT (B2B) or 18 300 - 20 750 PLN gross (UoP)
 salary_min: 16000
 salary_max: 22000
 working time: full time
