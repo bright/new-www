@@ -61,13 +61,13 @@ export const Footer = () => {
               <Link to={routeLinks.webDevelopment}>web development</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.whatWeOffer}>mobile development</Link>
+              <Link to={routeLinks.mobileDevelopment}>mobile development</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.whatWeOffer}>consulting services</Link>
+              <Link to={routeLinks.blockchainDevelopment}>blockchain development</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.whatWeOffer}>UX/UI design</Link>
+              <Link to={routeLinks.bluetoothDevelopment}>bluetooth development</Link>
             </p>
           </div>
 
