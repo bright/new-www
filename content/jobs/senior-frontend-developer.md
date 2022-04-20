@@ -5,7 +5,7 @@ subtitle: ONGOING
 imagejob: /images/frontendteam.png
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
-salary: 18 000 - 24 000 PLN + VAT (B2B) or 14 950 - 19 900 PLN gross (UoP)
+salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 000 - 20 750 PLN gross (UoP)
 salary_min: 18000
 salary_max: 24000
 working time: full time
