@@ -6,13 +6,17 @@ team_members:
   - krzysiek h
 faqs:
   - What is a product design definition?
+  - What are the steps in product design?
+  - How important is product design?
+  - What software is used in the product design?
+  - How much does product design cost?
 project:
   - bright-treasury
   - smarthelp
   - xpomaker
   - vcare
 layout: our-service
-meta_title: Product Designs Services
+meta_title: Product Design Services
 meta_description: We are a software development agency specialising in product
   design. We prepare prototypes of app and web solutions and deliver UX and UI
   designs.
