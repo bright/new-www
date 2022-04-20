@@ -15,14 +15,13 @@ comments: true
 published: true
 canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-1/
 ---
-
 In [the last blog post](/blog/migrating-ec2-classic-rds-to-vpc-plan) I sketched a plan to migrate an
 EC2-Classic RDS database to a VPC. It is time to dive into the details of setting up replication. There
 are great blog posts with an in-depth
 explanation [of the SQL and PostgreSQL related aspects](https://www.percona.com/blog/postgresql-logical-replication-using-an-rds-snapshot/)
 . We are going to focus on the automation of the replication setup using AWS-CDK.
 
-![](/images/replica.jpeg "replicated lollipops")
+![replicated lollipops](/images/replica.jpeg)
 
 ## The source EC2-Classic RDS database parameters
 
@@ -242,4 +241,4 @@ VPC-based database on a network level.
 
 Automating the above process is cumbersome. However, it gives us a solid way to test the approach in
 a pre-production environment. This way we can find any loopholes in our approach. We can also
-better estimate how long the procedure is going to take on production. We have also not caused any downtime or degradation of performance to the source database. This is very important since it is still used by our clients! 
+better estimate how long the procedure is going to take on production. We have also not caused any downtime or degradation of performance to the source database. This is very important since it is still used by our clients!
