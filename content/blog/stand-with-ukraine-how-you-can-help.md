@@ -20,7 +20,7 @@ One of the best ways to help is by donating money through trusted charities and
 
 Currently, humanitarian assistance on the territory of Poland is provided under the Polish government coordination mechanism: [www.pomagamukrainie.gov.pl](https://www.pomagamukrainie.gov.pl/). 
 
-![](/images/pomagamy_ukrainie.png)
+![Pomagam Ukrainie](/images/pomagamy_ukrainie.png)
 
 One of the main priorities for the provision of assistance is its effectiveness in reaching the largest possible group of people in need and meeting their specific needs as efficiently as possible, taking into account the dynamics of the conflict itself and the situation of the people affected.
 
@@ -38,7 +38,7 @@ One of the main priorities for the provision of assistance is its effectiveness 
 
 You can check [what to bring and what not to bring to the collection point](https://www.pomagamukrainie.gov.pl/#section5).  
 
-![](/images/material_support.png)
+![Pomagam Ukrainie list of products and resources](/images/material_support.png)
 
 **List of provincial collection points**
 
