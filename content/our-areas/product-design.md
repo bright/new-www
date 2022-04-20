@@ -6,6 +6,10 @@ team_members:
   - krzysiek h
 faqs:
   - What is a product design definition?
+  - What are the steps in product design?
+  - How important is product design?
+  - What software is used in the product design?
+  - How much does product design cost?
 project:
   - bright-treasury
   - smarthelp
