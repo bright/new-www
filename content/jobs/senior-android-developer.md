@@ -5,9 +5,9 @@ subtitle: ONGOING
 imagejob: /images/androidteam2.png
 image-alt-job: Android Team Bright Inventions
 hours: full-time
-salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 000 - 20 750 PLN gross (UoP)
+salary: 20 000 - 26 000 PLN + VAT (B2B) or 18 300 - 20 750 PLN gross (UoP)
 salary_min: 20000
-salary_max: 26000
+salary_max: 26000 
 working time: full time
 technology:
   - Android SDK
