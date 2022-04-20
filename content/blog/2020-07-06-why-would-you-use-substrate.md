@@ -1,20 +1,20 @@
 ---
-layout: post
-title: Why would you use Substrate?
 author: agnieszka
-hidden: false
-image: /images/why-would-you-use-substrate/top.png
 tags:
   - substrate
   - parity
   - blockchain
-date: '2020-07-05T22:00:00.000Z'
+date: 2020-07-05T22:00:00.000Z
+title: Why would you use Substrate?
+layout: post
+image: /images/why-would-you-use-substrate/top.png
+hidden: false
+comments: true
 published: true
 ---
-
 Substrate is a framework to build blockchains. People behind Substrate had built many blockchains before and noticed that they had to do the same hard work over and over again. Thus they tried to create a framework which would make deploying a blockchain as easy as can be. At the same time they wanted it to be as generic as possible, so that a developer can customize it to their needs.
 
-![](/images/why-would-you-use-substrate/1.png)
+![substrate blockchain](/images/why-would-you-use-substrate/1.png)
 
 Before we dive into Substrate, let’s take a look at what the blockchain itself is.
 
@@ -29,6 +29,7 @@ It is commonly said that from CRUD (Create Read Update Delete) operations offere
 Now let’s take a look at blockchain in more technical details to see **how** it stores the data. This may also give us a hint on why we cannot change the transactions by design. **Blockchain is a chain of blocks**. Blocks are connected together to form a directed chain. For each block there is its preceding block which we can call a direct parent and a following block which we can call a direct child. 
 
 A block consists of three main elements: 
+
 * the data (a set of transactions we have just talked about), 
 * the parent block’s identifier,
 * the block’s identifier which is a sort of a hash of the two previous. 
@@ -44,13 +45,14 @@ There are also other algorithms to find the consensus like Proof of Stake or Pro
 
 Now that you know why you could use blockchain among other datastores, we can take a look on why you may choose Substrate over other blockchain implementations.
 
-![](/images/why-would-you-use-substrate/2.png)
+![substrate blockchain core and runtime](/images/why-would-you-use-substrate/2.png)
 
 We can say that Substrate is built of two parts: the core and the runtime.
 
 ## Core
 
 The core of the Substrate is composed of four layers:
+
 * database
 * networking
 * transaction queue
@@ -63,7 +65,6 @@ In most cases you would probably just use the default implementation that comes 
 Runtime is the part the Substrate developers would mostly be interested in. The runtime is a **set of rules which describe how the ledger can change**, also known as the state transition function. Substrate runtime is modular. There are already some basic modules available now like Balances for currency management or Contracts for smart contracts. You can just plug them in. You can also write your own modules to gain the specific functionality you need.
 
 Let’s keep an eye on the mentioned Contracts module. It lets you use smart contracts in Substrate. We can think of the smart contract as a kind of a digital agreement written in a programming language instead of the lawyer one. Blokchain nodes act as the witnesses. The agreements are executed autmatiacally after meeting certain circumstances and their effects are saved in blockchain storage. Smart contracts add additional logic on top of the core blockchain functions and can be written and deployed by any user, also a malicious or inexperienced one, therefore there are some safety mechanisms included. Using smart contracts places you in a kind of a sandbox. You cannot modify the core blockchain's storage or directly change the storage of other contracts. Smart contracts are revertable by design, to ensure that any changes are saved only after the whole transaction was executed without errors. If you write your own runtime module you need to be very careful and strictly follow the rule “check first, write last”. At first you need to make sure that any prerequisites are met and making a change will not cause any errors. Only then can you do the changes. You are also charged for the smart contracts. There is a gas fee for the computational resources and a storage rent for the blockchain’s storage used, which act as economic incentives against any abuse.
-
 
 ## UI
 
