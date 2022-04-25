@@ -101,21 +101,23 @@ const Ratings = () => {
   return (
     <>
       <CustomSectionTitle>see why clients love working&nbsp;with&nbsp;us</CustomSectionTitle>
-      <Container>
-        <ClutchWidget
-          className='clutch-widget' // class name is requires for the clutch plugin to find the element
-          data-nofollow='true'
-          data-url='https://widget.clutch.co'
-          data-widget-type='12'
-          data-primary-color={variables.color.primary}
-          data-background-color={variables.color.black}
-          data-secondary-color={variables.color.primary}
-          data-darkbg={true}
-          data-height={clutchWidgetHeight}
-          data-clutchcompany-id='32656'
-          data-loading='lazy'
-        />
-      </Container>
+      {isScrolledDown && (
+        <Container>
+          <ClutchWidget
+            className='clutch-widget' // class name is requires for the clutch plugin to find the element
+            data-nofollow='true'
+            data-url='https://widget.clutch.co'
+            data-widget-type='12'
+            data-primary-color={variables.color.primary}
+            data-background-color={variables.color.black}
+            data-secondary-color={variables.color.primary}
+            data-darkbg={true}
+            data-height={clutchWidgetHeight}
+            data-clutchcompany-id='32656'
+            data-loading='lazy'
+          />
+        </Container>
+      )}
     </>
   )
 }
