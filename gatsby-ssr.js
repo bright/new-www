@@ -47,13 +47,13 @@ export function onRenderBody({ setHeadComponents }) {
         }
       })
     }),
-    <script
-      kay='hiz1B'
-      type='text/javascript'
-      src='https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B'
-      data-webform-id='hiz1B'
-      defer={true}
-    />,
+    // <script
+    //   kay='hiz1B'
+    //   type='text/javascript'
+    //   src='https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B'
+    //   data-webform-id='hiz1B'
+    //   defer={true}
+    // />,
   ])
 }
 
