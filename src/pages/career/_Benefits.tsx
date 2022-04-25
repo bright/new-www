@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react'
+import React, { useEffect, useMemo, useRef, useState } from 'react'
 import styled from 'styled-components'
 
 import { CustomSection, CustomSectionTitle, CustomContainer } from '../../components/shared'
@@ -158,6 +158,21 @@ const BlockSmall = styled(Block)`
 
 const Benefits: React.FC = () => {
   const [expanded, setExpanded] = useState(false)
+  const [isScrolledDown, setIsScrolledDown] = useState(false)
+
+  useEffect(() => {
+    const scrollListener = () => {
+      if (window.scrollY > 10 && !isScrolledDown) {
+        setIsScrolledDown(true)
+      } else {
+        setIsScrolledDown(false)
+      }
+    }
+    document.addEventListener('scroll', scrollListener)
+    return () => {
+      document.removeEventListener('scroll', scrollListener)
+    }
+  }, [])
   const blocks = useMemo(
     () => [
       {
@@ -205,14 +220,15 @@ const Benefits: React.FC = () => {
             <InstagramIconBlack />
           </a>
         </BlockSmall>
-        {blocks.map((block, index) => (
-          <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
-            <figure className='image is-inline-block'>
-              <img src={block.image} alt={block.alt} />
-            </figure>
-            <p>{block.title}</p>
-          </Block>
-        ))}
+        {isScrolledDown &&
+          blocks.map((block, index) => (
+            <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
+              <figure className='image is-inline-block'>
+                <img src={block.image} alt={block.alt} />
+              </figure>
+              <p>{block.title}</p>
+            </Block>
+          ))}
 
         <BlockSmall className='is-pulled-left'>
           <span onClick={() => setExpanded(!expanded)} className='more'>
