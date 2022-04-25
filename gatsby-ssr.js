@@ -5,11 +5,10 @@
  */
 
 // You can delete this file if you're not using it
-import * as React from "react"
-import * as fs from "fs"
+import * as React from 'react'
+import * as fs from 'fs'
 
-import { GlobalStyle } from "./src/styles/global"
-
+import { GlobalStyle } from './src/styles/global'
 
 export const wrapPageElement = ({ element }) => (
   <>
@@ -18,42 +17,47 @@ export const wrapPageElement = ({ element }) => (
   </>
 )
 
-export function onRenderBody  ({ setHeadComponents })  {
-
-  const files = getFilesFromPath("./public/static", ".woff2")
+export function onRenderBody({ setHeadComponents }) {
+  const files = getFilesFromPath('./public/static', '.woff2')
   const preload = [
-      'montserrat-v23-latin-regular',
-      'montserrat-v23-latin-600',
-      'montserrat-v23-latin-700',
-      'montserrat-v23-latin-800',
-      'montserrat-v23-latin-ext_latin-900',
-      'lato-v22-latin-ext_latin-regular',
-      'lato-v22-latin-700'
-     
-    ]
+    'montserrat-v23-latin-regular',
+    'montserrat-v23-latin-600',
+    'montserrat-v23-latin-700',
+    'montserrat-v23-latin-800',
+    'montserrat-v23-latin-ext_latin-900',
+    'lato-v22-latin-ext_latin-regular',
+    'lato-v22-latin-700',
+  ]
 
   setHeadComponents([
     files.map((file, i) => {
       return preload.map((font, key) => {
-        const fileBeginning = file.split('-').slice(0,-1).join('-')
+        const fileBeginning = file.split('-').slice(0, -1).join('-')
         if (fileBeginning === font) {
-          return(
+          return (
             <link
-      				key={key}
-      				rel='preload'
-      				as='font'
-      				type='font/woff2'
-      				crossOrigin='anonymous'
-      				href={`/static/${file}`}
-      			/>
+              key={key}
+              rel='preload'
+              as='font'
+              type='font/woff2'
+              crossOrigin='anonymous'
+              href={`/static/${file}`}
+            />
           )
         }
       })
-    })
+    }),
+    <script
+      kay='hiz1B'
+      type='text/javascript'
+      src='https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B'
+      data-webform-id='hiz1B'
+      defer={true}
+    />,
   ])
 }
 
 function getFilesFromPath(path, extension) {
-let dir = fs.readdirSync( path );
-  return dir.filter( elm => elm.match(new RegExp(`.*\.(${extension})`, 'ig')));
+  let dir = fs.readdirSync(path)
+  return dir.filter(elm => elm.match(new RegExp(`.*\.(${extension})`, 'ig')))
 }
