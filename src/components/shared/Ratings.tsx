@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
 import { CustomSectionTitle, Section, SectionTitle } from './index'
@@ -76,14 +76,28 @@ styled(Arrow)`
 `
 
 const Ratings = () => {
+  const [isScrolledDown, setIsScrolledDown] = useState(false)
+
   useEffect(() => {
-    setTimeout(() => {
-      const clutchco = (window as any).CLUTCHCO
-      if (clutchco) {
-        clutchco.Init()
+    const scrollListener = () => {
+      if (window.scrollY > 10 && !isScrolledDown) {
+        setIsScrolledDown(true)
+        setTimeout(() => {
+          const clutchco = (window as any).CLUTCHCO
+          if (clutchco) {
+            clutchco.Init()
+          }
+        }, 1000)
+      } else {
+        setIsScrolledDown(false)
       }
-    }, 3000)
+    }
+    document.addEventListener('scroll', scrollListener)
+    return () => {
+      document.removeEventListener('scroll', scrollListener)
+    }
   }, [])
+
   return (
     <>
       <CustomSectionTitle>see why clients love working&nbsp;with&nbsp;us</CustomSectionTitle>
