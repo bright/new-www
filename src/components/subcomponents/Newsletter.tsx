@@ -61,6 +61,9 @@ export default function Newsletter() {
   useEffect(() => {
     const scrollListener = () => {
       if (window.scrollY > 10 && !isScrolledDown) {
+        var script = document.createElement('script')
+        script.src = 'https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B'
+        document.head.appendChild(script)
         setIsScrolledDown(true)
       } else {
         setIsScrolledDown(false)
