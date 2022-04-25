@@ -5,13 +5,16 @@
  */
 
 // You can delete this file if you're not using it
-const React = require("react")
 import { GlobalStyle } from './src/styles/global'
-import {
-  registerGlobalMailtoClickHandler,
-} from './src/report-mailto-click-to-google-analytics'
-
-
+import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-google-analytics'
+const React = require('react')
+const loadableReady = require('@loadable/component').loadableReady
+const addScript = url => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  document.body.appendChild(script)
+}
 export const wrapPageElement = ({ element }) => (
   <>
     <GlobalStyle />
@@ -20,10 +23,11 @@ export const wrapPageElement = ({ element }) => (
 )
 
 export const onInitialClientRender = () => {
-  registerGlobalMailtoClickHandler();
+  registerGlobalMailtoClickHandler()
+  window.onload = () => {
+    addScript('https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B')
+  }
 }
-
-const loadableReady = require("@loadable/component").loadableReady
 
 export const replaceHydrateFunction = () => {
   return (element, container, callback) => {
@@ -32,5 +36,3 @@ export const replaceHydrateFunction = () => {
     })
   }
 }
-
-
