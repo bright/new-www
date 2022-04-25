@@ -12,7 +12,7 @@ const loadableReady = require('@loadable/component').loadableReady
 const addScript = url => {
   const script = document.createElement('script')
   script.src = url
-  script.async = true
+  script.defer = true
   document.body.appendChild(script)
 }
 export const wrapPageElement = ({ element }) => (
