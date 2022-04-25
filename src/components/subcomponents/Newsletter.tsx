@@ -1,12 +1,13 @@
 import { StaticImage } from 'gatsby-plugin-image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 
 const NewsletterWrapper = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: ${variables.pxToRem(100)};
   padding: 0 0 ${variables.pxToRem(64)} 0;
   overflow: hidden;
   margin: 0 auto;
@@ -17,6 +18,16 @@ const NewsletterWrapper = styled.div`
   @media ${variables.device.tablet} {
     flex-direction: column;
     gap: 0;
+    & .newsimage {
+      max-width: 50%;
+      flex-basis: 100%;
+    }
+  }
+
+  @media ${variables.device.mobile} {
+    & .newsimage {
+      max-width: 100%;
+    }
   }
 `
 const FormWrapper = styled.div`
@@ -43,35 +54,38 @@ const FormWrapper = styled.div`
     }
   }
 `
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-`
-const WrapperAgreeNewslatter = styled.div`
-  display: flex;
-  align-items: center;
-  padding: 0 ${variables.pxToRem(10)};
 
-  & input {
-    margin-right: ${variables.pxToRem(10)};
-    border: 2px solid ${variables.color.black};
-  }
-  & span {
-    font-size: ${variables.pxToRem(11)};
-  }
-`
 export default function Newsletter() {
+  const [isScrolledDown, setIsScrolledDown] = useState(false)
+
+  useEffect(() => {
+    const scrollListener = () => {
+      if (window.scrollY > 10 && !isScrolledDown) {
+        setIsScrolledDown(true)
+      } else {
+        setIsScrolledDown(false)
+      }
+    }
+    document.addEventListener('scroll', scrollListener)
+    return () => {
+      document.removeEventListener('scroll', scrollListener)
+    }
+  }, [])
   return (
-    <NewsletterWrapper>
-      <StaticImage src='../../../static/images/newsletter.png' alt='Newsletter' className='newsimage' />
-      <FormWrapper>
-        <div className='iframe-wrapper'>
-          <iframe
-            className='responsive-iframe'
-            src='https://app.getresponse.com/site2/5d4d6f8b6908199482efeb84d0edf9a5/?u=QX16N&webforms_id=hiz1B'
-          ></iframe>
-        </div>
-      </FormWrapper>
-    </NewsletterWrapper>
+    <>
+      {isScrolledDown && (
+        <NewsletterWrapper>
+          <StaticImage src='../../../static/images/newsletter.png' alt='Newsletter' className='newsimage' />
+          <FormWrapper>
+            <div className='iframe-wrapper'>
+              <iframe
+                className='responsive-iframe'
+                src='https://app.getresponse.com/site2/5d4d6f8b6908199482efeb84d0edf9a5/?u=QX16N&webforms_id=hiz1B'
+              ></iframe>
+            </div>
+          </FormWrapper>
+        </NewsletterWrapper>
+      )}
+    </>
   )
 }
