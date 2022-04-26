@@ -20,6 +20,7 @@ import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
 import Newsletter from '../components/subcomponents/Newsletter'
+import NewsletterWrapper from './../components/subcomponents/NewsletterWrapper'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -288,7 +289,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           timeToRead={markdownRemark.timeToRead}
         />
         <div> {comments} </div>
-        {isScrolledDown && <Newsletter />}
+        <NewsletterWrapper />
       </ConstrainedWidthContainer>
       {postStructuredData}
     </Page>

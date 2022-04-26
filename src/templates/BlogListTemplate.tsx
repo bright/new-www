@@ -16,7 +16,7 @@ import { CustomPageTitle, CustomSection, PageTitle } from '../components/shared/
 import BlogTagsAll from './blog/BlogTagsAll'
 import { routeLinks } from '../config/routing'
 import ScrollToTop from '../components/subcomponents/ScrollToTop'
-import Newsletter from '../components/subcomponents/Newsletter'
+import NewsletterWrapper from '../components/subcomponents/NewsletterWrapper'
 
 interface Props {
   data: GQLData
@@ -63,7 +63,7 @@ PageDescription> */}
         <BlogFeed posts={createBlogPosts(data)} />
         <ScrollToTop />
         <Paging pageContext={pageContext} baseURI={`${routeLinks.blog}/`} />
-        <Newsletter />
+        <NewsletterWrapper />
       </CustomSection>
     </Page>
   )
