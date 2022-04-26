@@ -1,7 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image'
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
+import { useScript } from '../utils/use-script'
 
 const NewsletterWrapper = styled.div`
   display: flex;
@@ -57,14 +57,9 @@ const FormWrapper = styled.div`
 
 export default function Newsletter() {
   const [isScrolledDown, setIsScrolledDown] = useState(false)
-
+  const status: string = useScript('https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B')
   useEffect(() => {
     const scrollListener = () => {
-      if (isScrolledDown) {
-        var script = document.createElement('script')
-        script.src = 'https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B'
-        document.head.appendChild(script)
-      }
       if (window.scrollY > 0 && !isScrolledDown) {
         setIsScrolledDown(true)
       } else {
@@ -78,7 +73,7 @@ export default function Newsletter() {
   }, [isScrolledDown])
   return (
     <>
-      {isScrolledDown && (
+      {isScrolledDown && status === 'ready' && (
         <NewsletterWrapper>
           <StaticImage src='../../../static/images/newsletter.png' alt='Newsletter' className='newsimage' />
           <FormWrapper>
