@@ -24,14 +24,7 @@ module.exports = {
         pixelId: `${process.env.GATSBY_ACTIVE_ENV === 'production' ? '1256554391514599' : ''}`,
       },
     },
-    {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        includeInDevelopment: true, // optional parameter to include script in development
-        id: 2864857,
-        sv: 6,
-      },
-    },
+
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sass',
