@@ -60,7 +60,7 @@ export default function Newsletter() {
 
   useEffect(() => {
     const scrollListener = () => {
-      if (window.scrollY > 10 && !isScrolledDown) {
+      if (window.scrollY > 0 && !isScrolledDown) {
         var script = document.createElement('script')
         script.src = 'https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B'
         document.head.appendChild(script)
@@ -73,7 +73,7 @@ export default function Newsletter() {
     return () => {
       document.removeEventListener('scroll', scrollListener)
     }
-  }, [])
+  }, [isScrolledDown])
   return (
     <>
       {isScrolledDown && (
