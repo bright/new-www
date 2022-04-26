@@ -71,7 +71,8 @@ export default function Newsletter() {
     return () => {
       document.removeEventListener('scroll', scrollListener)
     }
-  }, [isScrolledDown])
+  }, [])
+
   return (
     <>
       {isScrolledDown && status === 'ready' && (
