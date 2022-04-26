@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby'
-import React, { ComponentProps, useRef } from 'react'
+import React, { ComponentProps, useEffect, useRef, useState } from 'react'
 import { useLocation } from '@reach/router'
 import styled from 'styled-components'
 import { Page } from '../layout/Page'
@@ -19,7 +19,7 @@ import { siteMetadata } from '../../gatsby-config'
 import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
-import useOnScreen from '../components/utils/use-onscreen'
+import Newsletter from '../components/subcomponents/Newsletter'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -240,9 +240,22 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
       image={page.image}
     />
   )
-  const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '600px')
-  const comments = props.commentsView?.() ?? (onScreen && <DisqusComments id={slug} title={page.title} />)
+  const [isScrolledDown, setIsScrolledDown] = useState(false)
+  const comments = props.commentsView?.() ?? (isScrolledDown && <DisqusComments id={slug} title={page.title} />)
+
+  useEffect(() => {
+    const scrollListener = () => {
+      if (window.scrollY > 10 && !isScrolledDown) {
+        setIsScrolledDown(true)
+      } else {
+        setIsScrolledDown(false)
+      }
+    }
+    document.addEventListener('scroll', scrollListener)
+    return () => {
+      document.removeEventListener('scroll', scrollListener)
+    }
+  }, [])
 
   return (
     <Page>
@@ -274,7 +287,8 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           tags={page.tags ?? []}
           timeToRead={markdownRemark.timeToRead}
         />
-        <div ref={ref}> {comments} </div>
+        <div> {comments} </div>
+        {isScrolledDown && <Newsletter />}
       </ConstrainedWidthContainer>
       {postStructuredData}
     </Page>
