@@ -2,6 +2,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { useScript } from '../utils/use-script'
+import variables from '../../styles/variables'
 
 const NewsletterWrapper = styled.div`
   display: flex;
