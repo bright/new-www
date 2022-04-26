@@ -3,8 +3,7 @@ layout: faqs
 faqs_id: custom software development 2
 name: custom software development 2
 slug: benefits-of-custom-software-development
-question: "[](/our-areas/mvp-development)What are the benefits of custom
-  software development?"
+question: What are the benefits of custom software development?
 answer: >-
   * **Freedom**: no rules or limitations block your product development. If you
   are a startup, you decide which features must be included in MVP. Or what
