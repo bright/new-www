@@ -64,9 +64,9 @@ The Android team involves now **seven talented and experienced Android developer
 * **Bright Day (8 hours) each month for non-project stuff** + 2 hours each week for blogging 
 * MultiSport and private PZU Zdrowie medical package
 * **MacBook** and additional accessories 
-* **self-development budget for workshops, courses and prodessional books **
+* **self-development budget for workshops, courses and prodessional books**
 * online or on-site English classes in small groups
-* * **sport classes every week and yoga Fridays**
+* **sport classes every week and yoga Fridays**
 * team building events once a quarter
 * bright lunch initiative every week 
 * if you like to work in the office, we provide you with a parking card 
