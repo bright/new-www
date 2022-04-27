@@ -71,14 +71,14 @@ The Android team involves now **seven talented and experienced Android developer
 * bright lunch initiative every week 
 * if you like to work in the office, we provide you with a parking card 
 
-Still some doubts why you may love working with us?
-
-Contact directly [Ula](https://www.linkedin.com/in/urszula-stankiewicz-rusek), [Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) or [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) from our recruitment team and ask about cooperation details.
-
-## If you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️ 
+## if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️ 
 
 [7 reasons to work at Bright Inventions](https://brightinventions.pl/blog/reasons-to-join-bright)
 
 [No Time for Bullsh**. Feedback Culture](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
 
 [Bright Onboarding - What Is Waiting for You](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright)
+
+Still some doubts why you may love working with us?
+
+Contact directly [Ula](https://www.linkedin.com/in/urszula-stankiewicz-rusek), [Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) or [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) from our recruitment team and ask about cooperation details.
