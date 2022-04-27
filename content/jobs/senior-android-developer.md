@@ -80,5 +80,3 @@ Contact directly [Ula](https://www.linkedin.com/in/urszula-stankiewicz-rusek), [
 * [7 reasons to work at Bright Inventions](https://brightinventions.pl/blog/reasons-to-join-bright)
 * [No Time for Bullsh**. Feedback Culture](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
 * [Bright Onboarding - What Is Waiting for You](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright)
-* [The Importance of Feedback in Bright Recruitment Process](https://brightinventions.pl/blog/the-importance-of-feedback-in-bright-recruitment-process)
-* [How we use JIRA at Bright?](https://brightinventions.pl/blog/how-we-use-jira-at-bright)
