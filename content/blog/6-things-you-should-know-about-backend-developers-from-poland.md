@@ -43,7 +43,7 @@ Polish software developers are well known for their impressive programming knowl
 
 Top backend development companies based in Poland, like Bright Inventions, create solutions mostly for international clients. Polish programmers are eager to work with foreign clients and they are perfectly skilled to do so.
 
-**Polish young people, especially developers, speak fluently in English**, as was proved by [EF English Proficiency Index](https://www.ef.com/assetscdn/WIBIwq6RdJvcD9bc8RMd/cefcom-epi-site/reports/2021/ef-epi-2021-english.pdf). Poland was ranked as a country with high proficiency in English. What is more, many software development agencies organize internal English classes for employees so they can keep developing their foreign language skills.
+**Polish young people, especially developers, speak fluently in English**, as was proven by [EF English Proficiency Index](https://www.ef.com/assetscdn/WIBIwq6RdJvcD9bc8RMd/cefcom-epi-site/reports/2021/ef-epi-2021-english.pdf). Poland was ranked as a country with high proficiency in English. What is more, many software development agencies organize internal English classes for employees so they can keep developing their foreign language skills.
 
 Also, it is worth mentioning that the Polish school system requires students to study two foreign languages so some developers have great knowledge of other tongues such as German, Spanish, or French.
 
