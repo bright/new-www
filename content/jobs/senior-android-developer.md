@@ -8,7 +8,7 @@ hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
 salary_min: 20000
 salary_max: 26000 
-working time: full time
+working time: 26 paid days off + Polish bank holidays
 technology:
   - Android SDK
   - Android Studio
@@ -26,28 +26,25 @@ recruting_image3_title: programming task
 description: We are looking for a Senior Android Developer who would like to
   work with our experienced and ambitious development team.
 ---
-
-We are a team of 70 talented and positive developers who strive to write fast, light, and safe technology solutions. Our headquarters is located in Gdańsk, but we have teammates distributed across Poland. We believe in high level of autonomy as well as personal responsibility, so remote working arrangements are common and possible. We're happy to discuss this more during the recruiting process.
-about the project
-
 ## about the role 
 
-We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. The application is a**n intelligent point-of-sale** created for the world’s top food ordering company - **JustEat**. The Android team involves now **seven talented and experienced Android developers as well as two QA engineers** who take care of the high quality of the code and the app itself.
+We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. **The application is an intelligent point-of-sale created for the world’s top food ordering company - JustEat.** 
 
-## your responsibilities 
+The Android team involves now **seven talented and experienced Android developers as well as two QA engineers** who take care of keeping the high quality of the code and the app itself.
 
-* **developing new payment and tax features** of the app (we are entering a new market)
+## your responsibilities 🧑🏻‍💻👩🏻‍💻
+
+* **developing new payment features** of the app (we are entering a new market) as well as taking care of **UI reimplementation**
 * integration with another food delivery marketplace 
-* **UI reimplementation**
 * **WebSocket service and monitoring**
 * writing **automation tests in Espresso** together with QA core 
 * direct contact with clients and advising in their decision making process
 * knowledge sharing and mentoring with the rest of a team
 
-## preferred qualifications
+## preferred qualifications ✅
 
 * at least 4 years of experience in Android development 
-* at least 2 years of development in **Kotlin**
+* deep understading and knowledge of **Kotlin**
 * familiarity with **Android changes from KitKat to Q**
 * good understanding of the most popular Google libraries
 * familiarity with **Continuous Integration** and other process automation tools
@@ -56,16 +53,14 @@ We are looking for **a skilled Senior Android Developer** whose main goal will b
 * positive attitude :)
 * very good communication skills both in English and Polish 
 
-## we would also appreciate
+## we would also appreciate 🙌
 
 * your experience and understanding of Kotlin coroutines, Kotlin serialisation and Data Binding
 * your knowledge of JetPack Compose 
 
 
-## why you should join our Bright Team 🧡
+## perks & benefits 🚀🚀🚀
 
-* **26 paid days off + Polish bank holidays**
-* great impact on the key project decisions 
 * flexible schedule and remote work option 
 * **mentoring program and 1:1 meetings**
 * **Bright Day (8 hours) each month for non-project stuff** + 2 hours each week for blogging 
