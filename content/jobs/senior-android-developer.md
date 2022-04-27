@@ -49,9 +49,8 @@ The Android team involves now **seven talented and experienced Android developer
 * good understanding of the most popular Google libraries
 * familiarity with **Continuous Integration** and other process automation tools
 * strong problem solving and analytical thinking skills
-* the ability to work independently as well as in a team
-* positive attitude :)
 * very good communication skills both in English and Polish 
+* positive attitude :)
 
 ## we would also appreciate 🙌
 
@@ -65,9 +64,9 @@ The Android team involves now **seven talented and experienced Android developer
 * **Bright Day (8 hours) each month for non-project stuff** + 2 hours each week for blogging 
 * MultiSport and private PZU Zdrowie medical package
 * **MacBook** and additional accessories 
-* self-development budget for workshops, courses and prodessional books 
-* **sport classes every week and yoga afternoons on Fridays**
+* **self-development budget for workshops, courses and prodessional books **
 * online or on-site English classes in small groups
+* * **sport classes every week and yoga Fridays**
 * team building events once a quarter
 * bright lunch initiative every week 
 * if you like to work in the office, we provide you with a parking card 
