@@ -32,26 +32,25 @@ about the project
 
 ## about the role 
 
-We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. The application is an intelligent point-of-sale created for the world’s top food ordering company - JustEat. The Android team involves now 7 talented and experienced Android developers as well as two QA engineers who all take care of the high quality of the code and the app itself.
+We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. The application is a**n intelligent point-of-sale** created for the world’s top food ordering company - **JustEat**. The Android team involves now **seven talented and experienced Android developers as well as two QA engineers** who all take care of the high quality of the code and the app itself.
 
 ## your responsibilities 
 
-☞ developing new payment and tax features of the app (we are entering a new market)
-☞ integration with another food delivery marketplace 
-☞ UI reimplementation
-☞ WebSocket service and monitoring
-☞ writing automation tests in Espresso together with QA core 
-☞ direct contact with clients and advising in their decision making process
-☞ knowledge sharing and mentoring with the rest of a team
+* **developing new payment and tax features** of the app (we are entering a new market)
+* integration with another food delivery marketplace 
+* **UI reimplementation**
+* **WebSocket service and monitoring**
+* writing **automation tests in Espresso** together with QA core 
+* direct contact with clients and advising in their decision making process
+* knowledge sharing and mentoring with the rest of a team
 
 ## preferred qualifications
 
-* at least 4 years of commercial programming experience
-* at least 2-3 years of Android development in Kotlin
-* familiarity with Android changes from KitKat to Q
-* very good knowledge and deep understanding of Kotlin/Java
+* at least 4 years of experience in Android development 
+* at least 2 years of development in **Kotlin**
+* familiarity with **Android changes from KitKat to Q**
 * good understanding of the most popular Google libraries
-* familiarity with Continuous Integration and other process automation tools
+* familiarity with **Continuous Integration** and other process automation tools
 * strong problem solving and analytical thinking skills
 * the ability to work independently as well as in a team
 * positive attitude :)
@@ -65,30 +64,30 @@ We are looking for **a skilled Senior Android Developer** whose main goal will b
 
 ## why you should join our Bright Team 🧡
 
-* flat structure and great impact on the key project decisions 
-* space for professional growth and self-development
-* paid time off (20-26 days) + Polish bank holidays regardless of the contract 
-* flexible schedule 
-* transparent career path and mentoring program 
-* MultiSport and private medical package
-* good equipment: MacBook and additional accessories
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby
-* an office library with the professional books 
-* training/education budget 
-* Bright Day once a month for non-project stuff
-* sport classes every week and yoga afternoons on Fridays 
-* English classes in small groups and business focus 
-* team building events once a quarter and bright lunch initiative every week 
-
+* **26 paid days off + Polish bank holidays**
+* great impact on the key project decisions 
+* flexible schedule and remote work option 
+* **mentoring program and 1:1 meetings**
+* **Bright Day (8 hours) each month for non-project stuff** + 2 hours each week for blogging 
+* MultiSport and private PZU Zdrowie medical package
+* **MacBook** and additional accessories 
+* self-development budget for workshops, courses and prodessional books 
+* **sport classes every week and yoga afternoons on Fridays**
+* online or on-site English classes in small groups
+* team building events once a quarter
+* bright lunch initiative every week 
+* if you like to work in the office, we provide you with a parking card 
 
 Still some doubts why you may love working with us?
 
-Contact directly Ula, Paulina or Agata from our recruitment team and ask about cooperation details.
+Contact directly [Ula](https://www.linkedin.com/in/urszula-stankiewicz-rusek), [Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) or [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) from our recruitment team and ask about cooperation details.
 
 🙋🏻‍♀️🙋🏻‍♂️ If you want to know a bit more about us, take a look here:
 
-䷉ Agile in a long-distance relationship
-䷉ How we use JIRA at Bright?
-䷉ 7 reasons to work at Bright Inventions. 
-䷉ No Time for Bullsh**. Feedback Culture.
+* [7 reasons to work at Bright Inventions](https://brightinventions.pl/blog/reasons-to-join-bright)
+* [No Time for Bullsh**. Feedback Culture](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
+* [Bright Onboarding - What Is Waiting for You](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright)
+* [The Importance of Feedback in Bright Recruitment Process](https://brightinventions.pl/blog/the-importance-of-feedback-in-bright-recruitment-process)
+* [How we use JIRA at Bright?](https://brightinventions.pl/blog/how-we-use-jira-at-bright)
+
  
