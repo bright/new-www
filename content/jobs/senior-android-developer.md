@@ -32,7 +32,7 @@ about the project
 
 ## about the role 
 
-We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. The application is a**n intelligent point-of-sale** created for the world’s top food ordering company - **JustEat**. The Android team involves now **seven talented and experienced Android developers as well as two QA engineers** who all take care of the high quality of the code and the app itself.
+We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. The application is a**n intelligent point-of-sale** created for the world’s top food ordering company - **JustEat**. The Android team involves now **seven talented and experienced Android developers as well as two QA engineers** who take care of the high quality of the code and the app itself.
 
 ## your responsibilities 
 
@@ -89,5 +89,3 @@ Contact directly [Ula](https://www.linkedin.com/in/urszula-stankiewicz-rusek), [
 * [Bright Onboarding - What Is Waiting for You](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright)
 * [The Importance of Feedback in Bright Recruitment Process](https://brightinventions.pl/blog/the-importance-of-feedback-in-bright-recruitment-process)
 * [How we use JIRA at Bright?](https://brightinventions.pl/blog/how-we-use-jira-at-bright)
-
- 
