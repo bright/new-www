@@ -13,6 +13,7 @@ technology:
   - Android SDK
   - Android Studio
   - Kotlin
+  - JetPack Compose 
   - Kotlin Coroutines
 button: join our Kotlin team
 redirect_from:
@@ -26,24 +27,22 @@ description: We are looking for a Senior Android Developer who would like to
   work with our experienced and ambitious development team.
 ---
 
+We are a team of 70 talented and positive developers who strive to write fast, light, and safe technology solutions. Our headquarters is located in Gdańsk, but we have teammates distributed across Poland. We believe in high level of autonomy as well as personal responsibility, so remote working arrangements are common and possible. We're happy to discuss this more during the recruiting process.
+about the project
 
-## who we are
+## about the role 
 
-We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. The application is an intelligent point-of-sale created for the world’s top food ordering company - JustEat. The Android team involves now 7 talented and experienced Android developers as well as two QA engineers who all take care of the high quality of the code and the app itself.
 
-We founded Bright Inventions to create the place where we can do challenging things without superfluous micromanaging and red tape, where we feel responsible for the things we do, and where we can learn something new every day.
+## your responsibilities 
 
-What can you expect after joining our team? 
-
-Exciting projects. Positive and supportive team. Responsibility. And for sure professional growth. 
-
-## your role will include
-
-* creating high-quality Android applications
-* participating in software code reviews
-* direct contact with clients and advising in their decision making process
-* knowledge sharing and mentoring with the rest of a team
-* improving internal Android development processes 
+☞ developing new payment and tax features of the app (we are entering a new market)
+☞ integration with another food delivery marketplace 
+☞ UI reimplementation
+☞ WebSocket service and monitoring
+☞ writing automation tests in Espresso together with QA core 
+☞ direct contact with clients and advising in their decision making process
+☞ knowledge sharing and mentoring with the rest of a team
 
 ## preferred qualifications
 
@@ -61,6 +60,7 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 ## we would also appreciate
 
 * your experience and understanding of Kotlin coroutines, Kotlin serialisation and Data Binding
+* your knowledge of JetPack Compose 
 
 
 ## why you should join our Bright Team 🧡
@@ -81,5 +81,14 @@ Exciting projects. Positive and supportive team. Responsibility. And for sure pr
 * team building events once a quarter and bright lunch initiative every week 
 
 
+Still some doubts why you may love working with us?
 
-In case you have any questions, contact ula@bright.dev
+Contact directly Ula, Paulina or Agata from our recruitment team and ask about cooperation details.
+
+🙋🏻‍♀️🙋🏻‍♂️ If you want to know a bit more about us, take a look here:
+
+䷉ Agile in a long-distance relationship
+䷉ How we use JIRA at Bright?
+䷉ 7 reasons to work at Bright Inventions. 
+䷉ No Time for Bullsh**. Feedback Culture.
+ 
