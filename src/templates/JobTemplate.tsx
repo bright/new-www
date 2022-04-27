@@ -84,6 +84,9 @@ const HoursWraper = styled.div`
     line-height: inherit;
     font-weight: 700;
   }
+  > div {
+    margin-top: 0.5em
+  }
   
   @media ${variables.device.mobile} {
     font-size: 1.125rem;
@@ -410,7 +413,7 @@ export default function Template({
           </SalaryWrapper>
           <HoursWraper>
             {page.working_time && <h4>{page.working_time}</h4>}
-            <span>Gdańsk or remote</span>
+            <div>Gdańsk or remote</div>
           </HoursWraper>
           <TechnologyWrapper>
             <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
