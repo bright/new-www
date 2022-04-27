@@ -13,6 +13,6 @@ answer: >-
   step](/blog/what-are-the-stages-of-app-development/).
 
 
-  **In Ethereum blockchain the first stages: prototyping and MVP development are crucial.** Why? Because that’s the moment when you establish a smart contract. In Ethereum you have to really think through the conditions of your smart contract because if you decide to change it in the future you won’t be able to carry on with the present smart contract. You would have to migrate it.
+  **In Ethereum blockchain the first stages: prototyping and [MVP development](/our-areas/mvp-development) are crucial.** Why? Because that’s the moment when you establish a smart contract. In Ethereum you have to really think through the conditions of your smart contract because if you decide to change it in the future you won’t be able to carry on with the present smart contract. You would have to migrate it.
 published: true
 ---

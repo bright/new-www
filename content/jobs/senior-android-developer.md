@@ -5,14 +5,15 @@ subtitle: ONGOING
 imagejob: /images/androidteam2.png
 image-alt-job: Android Team Bright Inventions
 hours: full-time
-salary: 17 000 - 24 000 PLN + VAT (B2B) or 14 200 - 19 900 PLN gross (UoP)
-salary_min: 17000
-salary_max: 24000
-working time: full time
+salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
+salary_min: 20000
+salary_max: 26000 
+working time: 26 paid days off + Polish bank holidays
 technology:
   - Android SDK
   - Android Studio
   - Kotlin
+  - JetPack Compose 
   - Kotlin Coroutines
 button: join our Kotlin team
 redirect_from:
@@ -25,61 +26,59 @@ recruting_image3_title: programming task
 description: We are looking for a Senior Android Developer who would like to
   work with our experienced and ambitious development team.
 ---
+## about the role 
 
+We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. **[The application is an intelligent point-of-sale created for the world’s top food ordering company - JustEat.](https://www.justeatpos.co.uk/)** 
 
-## who we are
+The Android team involves now **seven talented and experienced Android developers as well as two QA engineers** who take care of keeping the high quality of the code and the app itself.
 
-We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
+## your responsibilities 🧑🏻‍💻👩🏻‍💻
 
-We founded Bright Inventions to create the place where we can do challenging things without superfluous micromanaging and red tape, where we feel responsible for the things we do, and where we can learn something new every day.
-
-What can you expect after joining our team? 
-
-Exciting projects. Positive and supportive team. Responsibility. And for sure professional growth. 
-
-## your role will include
-
-* creating high-quality Android applications
-* participating in software code reviews
+* **developing new payment features** of the app (we are entering a new market) as well as taking care of **UI reimplementation**
+* integration with another food delivery marketplace 
+* **WebSocket service and monitoring**
+* writing **automation tests in Espresso** together with QA core 
 * direct contact with clients and advising in their decision making process
 * knowledge sharing and mentoring with the rest of a team
-* improving internal Android development processes 
 
-## preferred qualifications
+## preferred qualifications ✅
 
-* at least 4 years of commercial programming experience
-* at least 2-3 years of Android development in Kotlin
-* familiarity with Android changes from KitKat to Q
-* very good knowledge and deep understanding of Kotlin/Java
+* at least 4 years of experience in Android development 
+* deep understading and knowledge of **Kotlin**
+* familiarity with **Android changes from KitKat to Q**
 * good understanding of the most popular Google libraries
-* familiarity with Continuous Integration and other process automation tools
+* familiarity with **Continuous Integration** and other process automation tools
 * strong problem solving and analytical thinking skills
-* the ability to work independently as well as in a team
-* positive attitude :)
 * very good communication skills both in English and Polish 
+* positive attitude :)
 
-## we would also appreciate
+## we would also appreciate 🙌
 
 * your experience and understanding of Kotlin coroutines, Kotlin serialisation and Data Binding
+* your knowledge of JetPack Compose 
 
+## perks & benefits 🚀🚀🚀
 
-## why you should join our Bright Team 🧡
+* flexible schedule and remote work option 
+* **mentoring program and 1:1 meetings**
+* **Bright Day (8 hours) each month for non-project stuff** + 2 hours each week for blogging 
+* MultiSport and private PZU Zdrowie medical package
+* **MacBook** and additional accessories 
+* **self-development budget for workshops, courses and prodessional books**
+* online or on-site English classes in small groups
+* **sport classes every week and yoga Fridays**
+* team building events once a quarter
+* bright lunch initiative every week 
+* if you like to work in the office, we provide you with a parking card 
 
-* flat structure and great impact on the key project decisions 
-* space for professional growth and self-development
-* paid time off (20-26 days) + Polish bank holidays regardless of the contract 
-* flexible schedule 
-* transparent career path and mentoring program 
-* MultiSport and private medical package
-* good equipment: MacBook and additional accessories
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby
-* an office library with the professional books 
-* training/education budget 
-* Bright Day once a month for non-project stuff
-* sport classes every week and yoga afternoons on Fridays 
-* English classes in small groups and business focus 
-* team building events once a quarter and bright lunch initiative every week 
+## if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️ 
 
+[7 reasons to work at Bright Inventions](https://brightinventions.pl/blog/reasons-to-join-bright)
 
+[No Time for Bullsh**. Feedback Culture](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
 
-In case you have any questions, contact ula@bright.dev
+[Bright Onboarding - What Is Waiting for You](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright)
+
+Still some doubts why you may love working with us?
+
+Contact directly [Ula](https://www.linkedin.com/in/urszula-stankiewicz-rusek), [Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) or [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) from our recruitment team and ask about cooperation details.

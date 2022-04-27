@@ -48,8 +48,7 @@ title_faqs: IoT development FAQs
 title_contact: let’s talk about your IoT solution
 description_contact: It doesn’t matter if your project is just an idea or you
   have already been developing an existing system. We will help you in any phase
-  of your software development. Fill the form below, or drop us a line via
-  [info@brightinventions.pl](mailto:info@brightinventions.pl).
+  of your software development. Fill in the form below, or drop us a line via
 ---
 ## Is the IoT solutions company a good fit for you?
 

@@ -1,14 +1,14 @@
 ---
-layout: post
-title: Connecting to Substrate blockchain from NestJS
-date: 2020-04-07T10:41:51.004Z
-image: /images/ivan_substrateblockchain-copy.png
 author: ivan
 tags:
   - blockchain
   - nestjs
   - javascript
   - substrate
+date: 2020-04-07T10:41:51.004Z
+title: Connecting to Substrate blockchain from NestJS
+layout: post
+image: /images/substrate_blockchain_blog.png
 hidden: false
 comments: true
 published: true

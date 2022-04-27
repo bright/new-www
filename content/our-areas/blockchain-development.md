@@ -57,7 +57,6 @@ title_faqs: blockchain development FAQ's
 title_contact: let’s talk about your blockchain project
 description_contact: Contact us to learn how we can use blockchain to develop
   your product. Fill the form below or drop us a line at
-  [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## blockchain solutions that we have developed
 

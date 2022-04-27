@@ -10,6 +10,6 @@ answer: >-
   world**, in different localisations. 
 
 
-  On top of them there is **a virtual layer** – let’s call it building blocks – that we can modify to manage our data. We buy a piece of the virtual server whose components are around the world in different places but it gives us the same possibilities as servers that would be placed in our server room. Based on these building blocks we can create complete online solutions like internet shops, tools for business analytics, backup data scattered worldwide, or IoT systems.
+  On top of them there is **a virtual layer** – let’s call it building blocks – that we can modify to manage our data. We buy a piece of the virtual server whose components are around the world in different places but it gives us the same possibilities as servers that would be placed in our server room. Based on these building blocks we can create complete online solutions like internet shops, tools for business analytics, backup data scattered worldwide, or [IoT systems](/our-areas/iot-development).
 published: true
 ---

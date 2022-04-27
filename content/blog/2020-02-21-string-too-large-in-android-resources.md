@@ -1,9 +1,5 @@
 ---
 crosspost: true
-layout: post
-title: Watch out for large strings crashing your Android app
-date: 2020-02-21T00:00:00.000Z
-image: /images/andrzej_watchout-copy.png
 author: azabost
 tags:
   - android
@@ -12,6 +8,10 @@ tags:
   - aapt
   - apk
   - crash
+date: 2020-02-21T00:00:00.000Z
+title: Watch out for large strings crashing your Android app
+layout: post
+image: /images/blog_post_andrzej_watch_out.png
 hidden: false
 comments: true
 published: true

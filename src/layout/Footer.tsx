@@ -58,16 +58,19 @@ export const Footer = () => {
           <div className={classNames('column is-hidden-mobile', styles.links)}>
             <h6 className='subtitle is-size-6 has-text-weight-bold'>services</h6>
             <p className='content'>
-              <Link to={routeLinks.whatWeOffer}>web development</Link>
+              <Link to={routeLinks.webDevelopment}>web development</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.whatWeOffer}>mobile development</Link>
+              <Link to={routeLinks.mobileDevelopment}>mobile development</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.whatWeOffer}>consulting services</Link>
+              <Link to={routeLinks.blockchainDevelopment}>blockchain development</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.whatWeOffer}>UX/UI design</Link>
+              <Link to={routeLinks.bluetoothDevelopment}>bluetooth development</Link>
+            </p>
+            <p className='content'>
+              <Link to={routeLinks.mvpdDevelopment}>MVP development</Link>
             </p>
           </div>
 
@@ -79,7 +82,7 @@ export const Footer = () => {
               </div>
               <div className='right'>
                 ul. Jana Matejki 12, <br />
-                80-232 Gdańsk
+                80-232 Gdańsk, Poland
               </div>
             </div>
             <div className={styles.icon}>

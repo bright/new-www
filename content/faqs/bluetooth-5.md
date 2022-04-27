@@ -7,7 +7,6 @@ question: What technology stack is used by a Bluetooth app development company?
 answer: |-
   **iOS:** iBeacon
 
-
-  **Android**: Nearby Connections API, Nearby Connections API
+  **Android**: Nearby Connections API, Bluetooth Low Energy
 published: true
 ---

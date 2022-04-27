@@ -1,9 +1,9 @@
 ---
 team_members:
   - piotr
-  - michal-lem
   - michal k
   - michal-l
+  - bartek k
 faqs:
   - What benefits do cloud services offer?
   - What are cloud services and how do they work?
@@ -48,7 +48,6 @@ title_faqs: cloud services FAQs
 title_contact: let’s talk about your cloud solution
 description_contact: Are you looking for a cloud computing company? Fill the
   form below, or drop us a line via
-  [info@brightinventions.pl](mailto:info@brightinventions.pl).
 ---
 ## AWS cloud services
 

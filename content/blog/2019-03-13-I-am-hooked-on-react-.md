@@ -1,13 +1,13 @@
 ---
-layout: post
-title: I am hooked on React
-date: 2019-03-12T23:00:00.000Z
-image: /images/I-am-hooked-on-react/intro.jpg
 author: patryk
 tags:
   - React
   - JavaScript
   - Hooks
+date: 2019-03-12T23:00:00.000Z
+title: I am hooked on React
+layout: post
+image: /images/blog_hooked_on_react.png
 hidden: false
 comments: true
 published: true

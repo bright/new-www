@@ -70,9 +70,7 @@ const SalaryWrapper = styled.div`
   }
 `
 const HoursWraper = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 1.375rem;
   line-height: 1.75rem;
@@ -81,26 +79,15 @@ const HoursWraper = styled.div`
 
   > h4 {
     position: relative;
-    flex-basis: 50%;
     color: ${variables.color.heading};
-    text-align: end;
     font-family: inherit;
     line-height: inherit;
     font-weight: 700;
-    margin-right: 1rem;
-    &:after {
-      position: absolute;
-      top: 50%;
-      right: -1.3rem;
-      transform: translateY(-55%);
-      font-size: 1rem;
-      content: '•';
-    }
   }
-  > span {
-    margin-left: 1rem;
-    flex-basis: 50%;
+  > div {
+    margin-top: 0.5em
   }
+  
   @media ${variables.device.mobile} {
     font-size: 1.125rem;
   }
@@ -426,7 +413,7 @@ export default function Template({
           </SalaryWrapper>
           <HoursWraper>
             {page.working_time && <h4>{page.working_time}</h4>}
-            <span>Gdańsk</span>
+            <div>Gdańsk or remote</div>
           </HoursWraper>
           <TechnologyWrapper>
             <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>

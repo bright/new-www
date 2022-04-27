@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: michal-lem
-ex: false
+ex: true
 slug: michal-lem
 name: Michał Lemke
 short_name: "Michał "

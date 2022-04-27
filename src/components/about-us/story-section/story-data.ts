@@ -18,21 +18,9 @@ export const story: readonly Story[] = [
       },
     ],
     logos: [],
-    heading: '2005-2010',
+    heading: '2005-2011',
     subheading: '',
-    content: `Michał and Daniel, the founders of Bright Inventions, are studying Computer Science at Gdansk University of Technology.`,
-  },
-  {
-    images: [],
-    logos: [
-      {
-        src: '/images/why-us/timeline/rocket.png',
-        alt: 'rocket logo',
-      },
-    ],
-    heading: '2009-2011',
-    subheading: '',
-    content: `While working in one of the global IT companies they started to think about setting up their own business and creating the place where people would really enjoy working in.`,
+    content: `Michał and Daniel, the founders of Bright Inventions, met while studying Computer Science at Gdansk University of Technology. Then, while working in one of the global IT companies they decided to set up their own business and create a place where people would really enjoy working in.`,
   },
   {
     images: [],
