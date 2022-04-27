@@ -8,7 +8,7 @@ date: 2022-04-27T10:15:47.359Z
 title: Join our Bright Newsletter and Never Miss a Thing
 layout: post
 image: /images/blog_newsletter_bright_inventions.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
