@@ -28,7 +28,7 @@ description: We are looking for a Senior Android Developer who would like to
 ---
 ## about the role 
 
-We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. **The application is an intelligent point-of-sale created for the world’s top food ordering company - JustEat.** 
+We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. **[The application is an intelligent point-of-sale created for the world’s top food ordering company - JustEat.](https://www.justeatpos.co.uk/)** 
 
 The Android team involves now **seven talented and experienced Android developers as well as two QA engineers** who take care of keeping the high quality of the code and the app itself.
 
@@ -57,7 +57,6 @@ The Android team involves now **seven talented and experienced Android developer
 
 * your experience and understanding of Kotlin coroutines, Kotlin serialisation and Data Binding
 * your knowledge of JetPack Compose 
-
 
 ## perks & benefits 🚀🚀🚀
 
