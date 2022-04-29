@@ -8,7 +8,7 @@ hours: full-time
 salary: 10 000 - 15 000 PLN + VAT (B2B) or 8300 - 12 400 PLN gross (UoP)
 salary_min: 10000
 salary_max: 15000
-working time: full time
+working time: 26 paid days off + Polish bank holidays
 technology:
   - Jira
   - Confluence
