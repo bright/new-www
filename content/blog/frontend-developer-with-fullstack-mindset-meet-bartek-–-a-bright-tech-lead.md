@@ -37,3 +37,25 @@ Then, I worked on frontend for another client representing the maritime transpor
 Then I left my job to travel for a couple of months and when I got back I knew **I wanted to specialize only in one side of software development**. Bright Inventions was seeking a frontend developer so I applied. **My girlfriend used to work at Bright and recommended this place to me**. Thanks to her I knew that the atmosphere within the team was more than positive. Another crucial factor for me was that this is a small company. I didn’t want to work in a large organization. And that is why I became a frontend developer at Bright Inventions.
 
 ![Sport team at Bright Inventions](/images/bright_inventions_sport.png)
+
+## And now you are a Tech Lead at Bright. How did that happen?
+
+What can I say? I submitted my application and it was reviewed positively. 😉  **When the opportunity to become a Tech Lead occurred I felt that I could do it**. I had over 5 years of software development experience. I was a frontend developer with the longest practice at Bright and I knew the project. The last part could have been crucial here. **It was a key moment for our client – Just Eat POS – which was in the middle of a transition from a startup to a global ePOS services provider**. 
+
+It is funny because when I came to Bright there was only one frontend team which included me and another programmer that worked on this solution. Right now the client has 3 separate frontend teams. So my knowledge about the project and its processes was essential.
+
+## What does your work as a Tech Lead look like?
+
+Being a tech lead involves looking at a project from a greater perspective. I have to be able to coordinate the life of this project. Just Eat POS system is a complex project, so I cannot be in charge of every decision. Thus **I trust developers to make some decisions but at the same time, I am of assistance to them**, if they need me to discuss any problem. 
+
+Also, I spend some time on code reviewing and analyzing how to solve some issues. **I also take part in various team discussions about choosing libraries and tools**. As a tech lead, I code less but at the same time, I cannot become rusty about it. **I need to stay up-to-date with the latest technologies, tools, and updates**. And that requires time.
+
+Apart from that, **I am in touch with the product manager to offer recommendations** when there are some business issues to resolve. Then, we together try to find the best solution with the technology we use. 
+
+This is how my work looks as a Tech Leader, in nutshell. 🙂
+
+## What is the most challenging about a tech lead role?
+
+There are two main challenges I experience on a daily basis. 
+
+First of all, it is **time management**. You have to work hard on organizing your time so you have it for your team. When you are a tech lead, it is not about you anymore. You work closely with your team, a product manager, and other client representatives who expect you to contribute. So I need to manage my time in a way that I can offer my support whenever it is needed. Apart from that, I still need to find time to work on the technical aspects and write some code. 😉  It is not easy to manage it all.
