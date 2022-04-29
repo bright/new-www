@@ -40,7 +40,7 @@ Then I left my job to travel for a couple of months and when I got back I knew *
 
 ## And now you are a Tech Lead at Bright. How did that happen?
 
-What can I say? I submitted my application and it was reviewed positively. 😉  **When the opportunity to become a Tech Lead occurred I felt that I could do it**. I had over 5 years of software development experience. I was a frontend developer with the longest practice at Bright and I knew the project. The last part could have been crucial here. **It was a key moment for our client – Just Eat POS – which was in the middle of a transition from a startup to a global ePOS services provider**. 
+What can I say? I submitted my application and it was reviewed positively. 😉  **When the opportunity to become a Tech Lead occurred I felt that I could do it**. I had over 5 years of software development experience. I was a frontend developer with the longest practice at Bright and I knew the project. The last part could have been crucial here. **It was a key moment for our client – [Just Eat POS](https://www.justeatpos.co.uk) – which was in the middle of a transition from a startup to a global ePOS services provider**. 
 
 It is funny because when I came to Bright there was only one frontend team which included me and another programmer that worked on this solution. Right now the client has 3 separate frontend teams. So my knowledge about the project and its processes was essential.
 
@@ -59,3 +59,9 @@ This is how my work looks as a Tech Leader, in nutshell. 🙂
 There are two main challenges I experience on a daily basis. 
 
 First of all, it is **time management**. You have to work hard on organizing your time so you have it for your team. When you are a tech lead, it is not about you anymore. You work closely with your team, a product manager, and other client representatives who expect you to contribute. So I need to manage my time in a way that I can offer my support whenever it is needed. Apart from that, I still need to find time to work on the technical aspects and write some code. 😉  It is not easy to manage it all.
+
+![Bartek's quote on being a Tech Lead](/images/bartek_quote1.png)
+
+Another challenge is **setting priorities**. Number one is my team. I have to make sure that the team knows their tasks and their priorities. Only then I can move to my other tasks. 
+
+## What does your team do on the Just Eat POS project?
