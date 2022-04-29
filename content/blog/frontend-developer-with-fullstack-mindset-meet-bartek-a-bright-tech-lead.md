@@ -27,7 +27,7 @@ After that, I got my first internship at a software development company. **I was
 
 Then, I joined the Gdańsk University of Technology as a regular employee. **I worked on a platform that was a virtual dean's office**. Thanks to this system students could for example apply for scholarships online. Everything I did there was built in Java. 
 
-![Bartek bright story](/images/brightstorybartek.png)
+![Bartek bright story](/images/senior_frontend_developer_story.png)
 
 ## Network administration, SQL, and Java… One could be surprised that you are a Senior Frontend Developer at Bright.
 
