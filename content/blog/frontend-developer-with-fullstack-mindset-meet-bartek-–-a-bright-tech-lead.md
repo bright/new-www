@@ -97,3 +97,21 @@ The bottom line is to **make changes intuitively so they won’t be a problem fo
 I should start by saying that you cannot pursue this career without knowing the basics of **JavaScript, HTML, CSS, and React**. So it is a must. However, **don’t focus only on learning**. Focus on practice as well. **Do your project**. Come up with an app that you would develop using tech you have just learned. **Learn and turn it into practice**. That is the ultimate way.
 
 ## You are one of the tech recruiters at Bright Inventions. What is your advice for candidates who are going to attend the interview?
+
+Obviously, I cannot spill the beans about the questions. ;) However, I should emphasize that as a candidate you really shouldn’t be nervous. I know that it is easy to say. Let me tell you one thing. **We don’t treat interviews as exams**. This is not school. We check candidates' experience and practical knowledge. 
+
+**We always present a concrete case study or some scenario and based on that a candidate offers their thoughts on what they would do next to pursue the software development project**. Therefore you should simply focus on your experience. Show how you handled similar situations in the past. That is what we want to know about you. 
+
+Last but not least, never lie. If you have never used some library or don't know some best practice we ask about, just admit it. If you lie, it will quickly backfire. 
+
+## You are a travel enthusiast. You even spent a couple of weeks in Nepal, hiking to the famous 5k Everest base. How do you recall that travel?
+
+![Hiking to the 5k Everest camp](/images/hiking_everest.png)
+
+It all started with an idea to buy a one-way ticket somewhere far with no return date in mind. That was the dream of my girlfriend and mine. We decided to travel to Asia. Since we love hiking, **we traveled to Nepal**. We wanted to experience how altitude sickness affects our bodies and **see the beauty and harshness of the highest mountain in the world**. 
+
+What was also **incredible and unexpected about that trip, was the isolation we got to experience**. During these 2-3 weeks of trekking in the Himalayas, we had no access to the internet and very limited contact with the western world. Frankly, it made us appreciate what we had at home more. 
+
+Eventually, we got to the famous Everest Base Camp at an elevation of over 5k meters. We had a great view of Everest. We were there during late fall. Obviously, weather conditions weren’t easy. However, being in the Himalayas during fall guarantees you a cloudless sky so you can see Everest. It was worth it. Even though during our adventure we had to sleep at various camp bases with no heating, whilst there was minus 20 Celsius degrees temperature outside. Still worth it. 😉
+
+![Everest base camp](/images/hiking_everest2.png)
