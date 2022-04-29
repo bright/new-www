@@ -8,7 +8,7 @@ hours: full-time
 salary: 22 000 - 26 000 PLN + VAT (B2B) or 18 300 - 20 750 PLN gross (UoP)
 salary_min: 19000
 salary_max: 24999
-working time: full time
+working time: 26 paid days off + Polish bank holidays
 technology:
   - Blockchain
   - Rust
