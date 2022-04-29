@@ -65,3 +65,15 @@ First of all, it is **time management**. You have to work hard on organizing you
 Another challenge is **setting priorities**. Number one is my team. I have to make sure that the team knows their tasks and their priorities. Only then I can move to my other tasks. 
 
 ## What does your team do on the Just Eat POS project?
+
+Our job is to **look after frontend of the back-office web application** used by Just Eat POS clients - mostly restaurant managers. What is great about this project, is that **we build our own components and we get to choose the stack and tools we use to deliver features**. We influence everything we build here. **Our client actually expects us to take part in the whole development process**. So we give input, for example, into the design process and suggest some changes if they could improve the user experience. 
+
+Working on Just Eat POS back-office is challenging because the system is about 8 years old. On the other hand, **it gives us a chance to rethink and rewrite it from scratch**. And that is what we do on a daily basis. At the same time, we develop new features and take care of the maintenance of the system.
+
+Moreover, the end-users don’t have to be well versed in technology and computers so our goal is to make the system as easier to use as possible. 
+
+**What I also like about this project is that it is easy to relate to it**. It is a system for restaurants. Even if someone never worked for a restaurant it is not difficult to understand end-users' needs. In the past, I developed, for example, a stack exchange platform and I must say that it wasn't as relatable compared to working on a project for the retail industry.
+
+Just Eat POS is a big retail system with a couple of different teams working on it. That influences our job as well. When we as a frontend team want to, for example, change a single button, it is not as easy as you might think. This change could have an influence on 3 other teams. You have to be deep into this project to be aware of that. We need to sync with every involved team to ensure that everyone is on the same page when it comes to a change of – some would say – a minor button. 
+
+![Batek's quote on working on retail system](/images/bartek_quote2.png)
