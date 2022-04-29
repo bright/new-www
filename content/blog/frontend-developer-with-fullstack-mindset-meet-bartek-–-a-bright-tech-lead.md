@@ -87,3 +87,5 @@ There are a few grand rules about implementing crucial changes in the interface 
 First of all, **you cannot implement any changes for all users at once**. Naturally, I mean applications with a significant number of users. You need to first display changes to a small group and only when there are no bugs, implement it globally. 
 
 The fundamental part of any crucial frontend change is **communication with end-users**. They need to be aware of upcoming changes. They shouldn’t be surprised or confused that their daily used app is now completely different. So **the frontend development team needs to work closely with the support department**.
+
+![Bartek's quote on implementing frontend changes](/images/bartek_quote3.png)
