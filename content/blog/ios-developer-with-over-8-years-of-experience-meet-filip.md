@@ -5,6 +5,7 @@ tags:
   - ios
   - inspiration
   - career
+  - bright story
 date: 2022-01-12T09:29:40.355Z
 title: iOS Developer with over 8 Years of Experience. Meet Filip
 layout: post
