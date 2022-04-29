@@ -115,3 +115,9 @@ What was also **incredible and unexpected about that trip, was the isolation we 
 Eventually, we got to the famous Everest Base Camp at an elevation of over 5k meters. We had a great view of Everest. We were there during late fall. Obviously, weather conditions weren’t easy. However, being in the Himalayas during fall guarantees you a cloudless sky so you can see Everest. It was worth it. Even though during our adventure we had to sleep at various camp bases with no heating, whilst there was minus 20 Celsius degrees temperature outside. Still worth it. 😉
 
 ![Everest base camp](/images/hiking_everest2.png)
+
+After trekking in the Himalayas, we traveled to **Thailand, Cambodia, Vietnam, and then went back to Thailand**. We just wanted to experience daily life in different cultures. We came back home, to Poland, after 3 months at the beginning of February 2020. I guess that was perfect timing, just before COVID-19 changed all of our lives.
+
+## What are your passions apart from traveling? 
+
+I love various sports activities, especially running, biking, hiking, and sailing. I used to sail a lot over the Baltic sea. I hope to be back on board soon. ⛵️
