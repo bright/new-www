@@ -76,4 +76,14 @@ Moreover, the end-users don’t have to be well versed in technology and compute
 
 Just Eat POS is a big retail system with a couple of different teams working on it. That influences our job as well. When we as a frontend team want to, for example, change a single button, it is not as easy as you might think. This change could have an influence on 3 other teams. You have to be deep into this project to be aware of that. We need to sync with every involved team to ensure that everyone is on the same page when it comes to a change of – some would say – a minor button. 
 
-![Batek's quote on working on retail system](/images/bartek_quote2.png)
+![Bartek's quote on working on retail system](/images/bartek_quote2.png)
+
+**Just Eat POS is a product on which our end-users rely daily**. They use it for hours at work. That is a great responsibility for us. Every little change will affect someone's daily work. **It is amazing to work on a project that truly influences somebody’s life and helps them do their job better and faster**.
+
+## So how do you make frontend changes on the app that is so crucial for your end-users?
+
+There are a few grand rules about implementing crucial changes in the interface of applications. 
+
+First of all, **you cannot implement any changes for all users at once**. Naturally, I mean applications with a significant number of users. You need to first display changes to a small group and only when there are no bugs, implement it globally. 
+
+The fundamental part of any crucial frontend change is **communication with end-users**. They need to be aware of upcoming changes. They shouldn’t be surprised or confused that their daily used app is now completely different. So **the frontend development team needs to work closely with the support department**.
