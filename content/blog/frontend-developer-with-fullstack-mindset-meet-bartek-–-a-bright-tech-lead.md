@@ -9,7 +9,7 @@ date: 2022-04-29T06:51:00.282Z
 title: Frontend Developer with Fullstack Mindset. Meet Bartek – a Bright Tech Lead
 layout: post
 image: /images/senior_frontend_developer_story.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
@@ -113,7 +113,7 @@ It all started with an idea to buy a one-way ticket somewhere far with no return
 
 What was also **incredible and unexpected about that trip, was the isolation we got to experience**. During these 2-3 weeks of trekking in the Himalayas, we had no access to the internet and very limited contact with the western world. Frankly, it made us appreciate what we had at home more. 
 
-Eventually, we got to the famous Everest Base Camp at an elevation of over 5k meters. We had a great view of Everest. We were there during late fall. Obviously, weather conditions weren’t easy. However, being in the Himalayas during fall guarantees you a cloudless sky so you can see Everest. It was worth it. Even though during our adventure we had to sleep at various camp bases with no heating, whilst there was minus 20 Celsius degrees temperature outside. Still worth it. 😉
+Eventually, **we got to the famous Everest Base Camp** at an elevation of over 5k meters. We had a great view of Everest. We were there during late fall. Obviously, weather conditions weren’t easy. However, being in the Himalayas during fall guarantees you a cloudless sky so you can see Everest. It was worth it. Even though during our adventure we had to sleep at various camp bases with no heating, whilst there was minus 20 Celsius degrees temperature outside. Still worth it. 😉
 
 ![Everest base camp](/images/hiking_everest2.png)
 
