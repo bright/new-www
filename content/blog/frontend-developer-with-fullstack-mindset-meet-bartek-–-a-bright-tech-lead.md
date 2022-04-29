@@ -4,6 +4,7 @@ secondAuthor: izabela
 tags:
   - frontend
   - inspiration
+  - bright story
 date: 2022-04-29T06:51:00.282Z
 title: Frontend Developer with Fullstack Mindset. Meet Bartek – a Bright Tech Lead
 layout: post
