@@ -13,7 +13,7 @@ image: /images/dns-generic.png
 hidden: false
 comments: true
 published: true
-cannonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-2/
+canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-2/
 ---
 
 In [the plan blog post](/migrating-ec2-classic-rds-to-vpc-planning) I sketched a plan to migrate an
