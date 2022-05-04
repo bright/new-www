@@ -181,7 +181,7 @@ export default function Template({ data, params, pageContext }: any) {
       {show_case_study && (
         <div>
           <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
-          <Projects isFetchProject={false} projectsArray={projects.map(el => el.frontmatter)} />
+          <Projects isFetchProject={false} projectsArray={projects.map(el => el.frontmatter)} isSelectedTag={false} />
         </div>
       )}
 
