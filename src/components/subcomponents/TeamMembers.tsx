@@ -220,6 +220,7 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
     }
     @media ${variables.device.tablet} {
       max-height: 364px;
+      width: 100%;
     }
     @media ${variables.device.mobile} {
       max-height: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? '364px' : '168px')};
@@ -240,12 +241,18 @@ const OurServiceLink = styled(Link)<{ isWhyUs?: boolean }>`
      `};
   color: #0a0a0a;
   opacity: 1;
-  margin-top: ${variables.pxToRem(104)};
+  margin-top: ${variables.pxToRem(39.5)};
+  margin-bottom: ${variables.pxToRem(64.5)};
   & :hover {
     color: ${variables.color.primary};
   }
+  @media ${variables.device.laptop} {
+    margin-top: ${variables.pxToRem(27.5)};
+    margin-bottom: ${variables.pxToRem(76.5)};
+  }
   @media ${variables.device.tablet} {
-    margin-top: ${variables.pxToRem(65)};
+    margin-top: ${variables.pxToRem(32.5)};
+    margin-bottom: ${variables.pxToRem(32.5)};
   }
   @media ${variables.device.mobile} {
     ${({ isWhyUs }) => (isWhyUs ? `width: 100%` : '')};
@@ -272,7 +279,7 @@ const TeamMembers = ({
   const [numberOfMembers, setNumberOfMembers] = useState<number>()
 
   const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
 
   useEffect(() => {
     if (isOurServiceTemplate) {
@@ -313,6 +320,7 @@ const TeamMembers = ({
                             alt={member.name}
                             className='avatar1'
                             imgClassName='image'
+                            quality={100}
                           />
 
                           <GatsbyImage
@@ -320,6 +328,7 @@ const TeamMembers = ({
                             alt={member.name}
                             className='avatar2'
                             imgClassName='image'
+                            quality={100}
                           />
                         </>
                       )}
