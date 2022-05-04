@@ -35,6 +35,7 @@ const AuthorsSection = styled.article`
     h5,
     h6,
     p,
+    p strong,
     li,
     .title,
     .subtitle {
@@ -59,13 +60,20 @@ const AuthorsSection = styled.article`
       }
     }
     p,
-    li {
+    li,
+    p strong {
       font-size: ${variables.pxToRem(20)};
       font-weight: 400;
+      line-height: ${variables.pxToRem(40)};
+      letter-spacing: normal;
 
       @media ${variables.device.mobile} {
         font-size: ${variables.pxToRem(16)};
+        line-height: ${variables.pxToRem(28)};
       }
+    }
+    p strong {
+      font-weight: 700;
     }
   }
   & .author-container > div:not(:last-of-type) {
