@@ -15,8 +15,7 @@ comments: true
 published: true
 canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-2/
 ---
-
-In [the plan blog post](/blog/migrating-ec2-classic-rds-to-vpc-planning) I sketched a plan to migrate an
+In [the plan blog post](/blog/migrate-ec2-classic-rds-to-a-vpc-planning/) I sketched a plan to migrate an
 EC2-Classic RDS database to a VPC. Now we can perform the 2nd step of the plan.
 This is a simple step. Albeit, we have to understand what are the consequences.
 In your case, this approach might need adjustments!
@@ -86,4 +85,4 @@ Moreover, we need to make sure that our database clients do not cache DNS entrie
 
 If you need the connections to be moved to a new database instance in a more controllable fashion it is still possible.
 A deployment with an update of the database configuration of services might be enough. 
-If such a deployment is not an option we can introduce a network proxy e.g. using a network load balancer, ProxySQL or HAProxy.   
+If such a deployment is not an option we can introduce a network proxy e.g. using a network load balancer, ProxySQL or HAProxy.
