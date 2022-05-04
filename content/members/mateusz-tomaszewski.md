@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: mateusz-t
-ex: false
+ex: true
 slug: mateusz-t
 name: Mateusz Tomaszewski
 short_name: Mateusz
