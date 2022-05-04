@@ -16,7 +16,7 @@ published: true
 canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-2/
 ---
 
-In [the plan blog post](/migrating-ec2-classic-rds-to-vpc-planning) I sketched a plan to migrate an
+In [the plan blog post](/blog/migrating-ec2-classic-rds-to-vpc-planning) I sketched a plan to migrate an
 EC2-Classic RDS database to a VPC. Now we can perform the 2nd step of the plan.
 This is a simple step. Albeit, we have to understand what are the consequences.
 In your case, this approach might need adjustments!
