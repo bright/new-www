@@ -36,7 +36,7 @@ export default () => {
           <BlockchainExperts />
         </React.Suspense>
       )}
-      <Projects />
+      <Projects isSelectedTag={false} />
       <Ratings />
       <PopularBlogPosts />
       <Contact formButton='Business Contact Form Button' actionFormButton='Click Submit Business Form' />
