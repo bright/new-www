@@ -11,6 +11,7 @@ import Helmet from 'react-helmet'
 import { fbShareImage } from '../meta/bright-logo'
 import { resolveUrl } from '../meta/resolve-url'
 import { useLocation } from '@reach/router'
+import HotjarWrapper from '../components/subcomponents/HotjarWrapper'
 
 export const Page: React.FC<{ className?: string }> = ({ children, className }) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
@@ -34,6 +35,7 @@ export const Page: React.FC<{ className?: string }> = ({ children, className }) 
         <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} />
       </Helmet>
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
+      <HotjarWrapper />
       {children}
       <Footer />
     </div>
