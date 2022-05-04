@@ -4,7 +4,7 @@ image-alt-job: Bright Inventions team
 hidden: false
 layout: job
 title: "Product Designer "
-subtitle: O
+subtitle: ONGOING
 hours: full-time
 salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
 salary_min: 12000
