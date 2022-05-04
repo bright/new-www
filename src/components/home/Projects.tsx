@@ -188,9 +188,13 @@ export const ProjectsLink = styled.a`
   font-weight: 700;
   color: var(--black);
   display: block;
+
   & div {
     margin-bottom: 0;
     margin-left: 0;
+    &:hover {
+      box-shadow: 15px 15px 40px -25px rgb(170 170 170);
+    }
   }
   & div.full-height {
     height: ${variables.pxToRem(507)};
