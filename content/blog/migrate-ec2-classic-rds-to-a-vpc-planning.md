@@ -39,7 +39,7 @@ The client agreed that it would be ok if the service showed stale data for a cou
 
 With the constraint defined we've come up with the following plan.
 
-## Step 1: Replicate database
+## Step 1: [Replicate database](/blog/migrating-ec2-classic-rds-to-vpc-step-1/)
 
 As I mentioned it will take several hours to just copy the data. This rules out a simple take snapshot & restore approach.
 Fortunately, databases have solved this problem a long time ago with replication.
@@ -48,7 +48,7 @@ We can use a snapshot of the source database to speed up initial replication.
 Please note that at this point the fresh database isn't used by any production service yet!
 Once the data wills start flowing from the EC2-Classic RDS instance to VPC based one we can safely prepare for the next step.
 
-## Step 2: Setup a custom database host DNS record
+## Step 2: [Setup a custom database host DNS record](/blog/migrate-ec2-classic-rds-to-a-vpc-step-2-dns)
 
 We need to have a way to instruct all clients connecting to the database to switch to a new database.
 One way to achieve that is to use DNS. During the migration, we'll update the DNS record.
