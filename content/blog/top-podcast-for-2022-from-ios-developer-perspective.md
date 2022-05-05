@@ -4,7 +4,7 @@ tags:
   - inspiration
   - iOS
 date: 2022-05-05T06:01:35.659Z
-title: Top podcast for 2022 from iOS developer perspective
+title: Top Podcasts for 2022 from iOS Developer Perspective
 layout: post
 image: /images/top-podcast-for-2022-from-ios-developer-perspective-cover.png
 hidden: true
@@ -12,6 +12,8 @@ comments: true
 published: true
 ---
 Are you an iOS developer, or maybe a technology maniac with a bias for apple? Do you listen to podcasts (if not, then start ;))? Here are my top picks for iOS and general tech related podcasts to listen to in 2022.
+
+![iOS development podcasts](static/images/top-podcast-for-2022-from-ios-developer-perspective-cover.png)
 
 ### Best iOS development podcasts in 2022
 
