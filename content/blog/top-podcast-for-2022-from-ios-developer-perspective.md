@@ -3,7 +3,7 @@ author: tomasz-l
 tags:
   - inspiration
   - iOS
-date: 2022-05-05T04:42:04.448Z
+date: 2022-05-05T06:01:35.659Z
 title: Top podcast for 2022 from iOS developer perspective
 layout: post
 image: /images/top-podcast-for-2022-from-ios-developer-perspective-cover.png
