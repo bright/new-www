@@ -27,8 +27,6 @@ When they needs help - they know how to humbly accept it and feels grateful for 
 
 ## \#2 Empathy is the key
 
-*If there is any one secret of success, it lies in the ability to get the other person's point of view and see things from his angle as well as your own.* 
-
 Professionals try to step into the shoes of their co-workers and clients on different levels - cognitive and emotional. They do it because they put the importance of working hand in hand above the selfish pride and individual achievement. 
 
 Professionals exchange information, support each other and helps the team aim at the same goal. A good example is the relationship between an engineer and QA specialist - **it is unprofessional to send code to QA when you are aware of existing bugs.** **When it happens, you violate the elementary principle of "Do No Harm”.** Professional developers do not treat QA team as bug detectors.
