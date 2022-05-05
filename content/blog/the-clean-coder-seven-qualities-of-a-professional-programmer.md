@@ -5,7 +5,7 @@ thirdAuthor: agata-m
 date: 2022-05-05T16:18:15.784Z
 title: The Clean Coder - Seven Qualities of a Professional Programmer
 layout: post
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
