@@ -6,6 +6,7 @@ tags:
 date: 2022-05-05T04:42:04.448Z
 title: Top podcast for 2022 from iOS developer perspective
 layout: post
+image: /images/top-podcast-for-2022-from-ios-developer-perspective-cover.png
 hidden: true
 comments: true
 published: true
