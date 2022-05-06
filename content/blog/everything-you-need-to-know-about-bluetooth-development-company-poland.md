@@ -1,5 +1,10 @@
 ---
 author: izabela
+tags:
+  - business
+  - bluetooth
+  - ios
+  - android
 date: 2022-05-06T07:17:42.661Z
 title: Everything You Need to Know about Bluetooth Development Company Based in Poland
 layout: post
