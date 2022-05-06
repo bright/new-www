@@ -64,3 +64,17 @@ What are the examples of the devices Polish Bluetooth developers build apps for?
 * Spirometer.
 
 If you want to know more, read another blog post on [Bluetooth devices for healthcare](/blog/bluetooth-devices-that-change-healthcare/).
+
+### Examples of retail Bluetooth devices:
+
+* Payment terminal,
+* Electronic scale,
+* Barcode scanner.
+
+Are you looking for a Bluetooth development company based in Poland?
+
+<center>  
+
+[Contact us to estimate your Bluetooth solution](/start-project)
+
+</center>
