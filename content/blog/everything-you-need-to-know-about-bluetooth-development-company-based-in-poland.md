@@ -73,6 +73,8 @@ If you want to know more, read another blog post on [Bluetooth devices for healt
 
 Are you looking for a Bluetooth development company based in Poland?
 
+
+
 <center>  
 
 [Contact us to estimate your Bluetooth solution](/start-project)
