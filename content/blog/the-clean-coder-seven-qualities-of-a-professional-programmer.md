@@ -26,9 +26,7 @@ Every professional programmer understands that they should always strive for a p
 
 When they needs help - they know how to humbly accept it and feels grateful for it regardless of whether it is offered by a junior or a senior. The professional knows the limits of his assets and creativity - he/she knows when it's time to take a break from mental work to have a positive effect on his future professional productivity. 
 
-
-
-
+![](/images/uncle_bob_post_paulina.png)
 
 ## \#2 Empathy is the key
 
@@ -47,6 +45,8 @@ Don't be afraid of saying “no”. You know that something is not possible to a
 **Practice and habits allow us to create patterns of the most effective work.** Don’t give up important steps as you are chasing the deadline. Be disciplined. If you have previously committed yourself to maintaining certain standards - don't abandon them. 
 
 Professionals also know the importance of meetings, and if they know that they are not necessary, they can resign from them. **The programmers should choose carefully what  kind of appointments they will spend their time at and politely decline these which will not benefit the project**. It is important that you always know the purpose and agenda of the meeting - this will make it much easier to facilitate your attendance. Your time is money, remember. 
+
+![](/images/uncle_bob_post_agata.png)
 
 ## \#5 Treat your profession as a craft
 
@@ -70,4 +70,6 @@ Rely on your own proven coping strategies - people under stress have a narrowed 
 
 A true craftsman knows the secrets of their craft - the same can be said about a programmer. **As a software developer in a particular industry, it is good to explore the field, do research to know about all potential user pain points, dependency mechanisms, and "behind the scenes" nuances.** Gathering as much knowledge as possible will give you a deeper understanding of your project specification.
 
-I believe it is and I think Paulina and Agata agree with me. 🧡 *The Clean Coder* is the book about how a professional programmer conducts him or herself. For sure one may disagree with some ideas Uncle Bob expresses, but still there are some unique thoughts worth our attention if we want to rise to a higher level of professionalism in our job. Have a good read!
+![](/images/uncle_bob_post_ula.png)
+
+*The Clean Coder* is the book about how a professional programmer conducts him or herself. For sure one may disagree with some ideas Uncle Bob expresses, but still there are some unique thoughts worth our attention if we want to rise to a higher level of professionalism in our job. Have a good read!
