@@ -2,12 +2,12 @@
 author: ula
 secondAuthor: paulina-t
 thirdAuthor: agata-m
-date: 2022-05-09T16:18:15.784Z
-title: 7 Qualities of Professional Programmer
-tags: 
+tags:
   - inspiration
   - recruitment
-  - self-development 
+  - self-development
+date: 2022-05-09T16:18:15.784Z
+title: 7 Qualities of Professional Programmer
 layout: post
 image: /images/uncle_bob_post.png
 hidden: false
