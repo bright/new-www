@@ -9,7 +9,7 @@ date: 2022-05-06T07:17:42.661Z
 title: Everything You Need to Know about Bluetooth Development Company Based in Poland
 layout: post
 image: /images/bluetooth_development_poland_blog.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
