@@ -62,4 +62,6 @@ Code in pairs - it's an effective way to stay informed by your teammate about th
 
 A true craftsman knows the secrets of their craft - the same can be said about a programmer. As a software developer in a particular industry, it is good to explore the field, do research to know about all potential user pain points, dependency mechanisms, and "behind the scenes" nuances. Gathering as much knowledge as possible will give you a deeper understanding of your project specification.
 
-The Clean Coder is the book about how a professional programmer conducts him or herself. For sure one may disagree with many ideas Uncle Bob expresses, but still there are some unique thoughts worth our attention if we want to rise to a higher level of professionalism in our job. Have a good read!
+## Is it worth reading? 
+
+I believe it is and I think Paulina and Agata agree with me. 🧡 The Clean Coder is the book about how a professional programmer conducts him or herself. For sure one may disagree with some ideas Uncle Bob expresses, but still there are some unique thoughts worth our attention if we want to rise to a higher level of professionalism in our job. Have a good read!
