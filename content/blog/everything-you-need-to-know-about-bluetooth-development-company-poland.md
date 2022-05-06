@@ -56,7 +56,7 @@ Polish Bluetooth developers build mobile applications using top technologies. Ch
 
 ## Developers from Poland specialize in building applications for Bluetooth devices
 
-![](/images/blogpost_www_healthcare2.5.png)
+![bluetooth development company Poland](/images/blogpost_www_healthcare2.5.png)
 
 [Bluetooth development](/our-areas/bluetooth-development) is often used to build solutions for industries such as fitness, healthcare, retail, or fintech. 
 
