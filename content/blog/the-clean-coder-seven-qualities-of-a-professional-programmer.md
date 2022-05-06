@@ -2,11 +2,11 @@
 author: ula
 secondAuthor: paulina-t
 thirdAuthor: agata-m
-date: 2022-05-05T16:18:15.784Z
+date: 2022-05-09T16:18:15.784Z
 title: 7 Qualities of Professional Programmer
 layout: post
 image: /images/uncle_bob_post.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
