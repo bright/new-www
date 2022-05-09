@@ -50,7 +50,7 @@ const Loader = styled.div`
 `
 
 export const JobApplicationForm: React.FC<FormProps> = props => {
-  const { value, handleChange, handleSubmit } = useApplicationForm()
+  const { value, handleChange, handleSubmit, setIsSubmitedToFalse } = useApplicationForm()
   const [errorMsgValidation, setErrorMsgValidation] = useState<string>('')
 
   const {
@@ -65,7 +65,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
   } = props
 
   const closeModal = () => {
-    value.isSubmitted = false
+    setIsSubmitedToFalse()
   }
 
   const submit = useCallback((event, data) => {
@@ -83,31 +83,33 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       return
     }
     onSubmit && onSubmit()
+
     handleSubmit(event, data)
   }, [])
 
   return (
-    <Form onSubmit={e => submit(e, value)}>
-      <div>
-        <TextField
-          required
-          label={nameLabel || 'Name'}
-          placeholder={namePlaceholder || 'John Doe'}
-          value={value.name}
-          onChange={handleChange}
-          name='name'
-        />
-        <TextField
-          required
-          label={mailLabel || 'Email'}
-          placeholder={mailPlaceholder || 'example@email.com'}
-          value={value.email}
-          onChange={handleChange}
-          name='email'
-          type='email'
-        />
-      </div>
-      {/* <TextField
+    <>
+      <Form onSubmit={e => submit(e, value)}>
+        <div>
+          <TextField
+            required
+            label={nameLabel || 'Name'}
+            placeholder={namePlaceholder || 'John Doe'}
+            value={value.name}
+            onChange={handleChange}
+            name='name'
+          />
+          <TextField
+            required
+            label={mailLabel || 'Email'}
+            placeholder={mailPlaceholder || 'example@email.com'}
+            value={value.email}
+            onChange={handleChange}
+            name='email'
+            type='email'
+          />
+        </div>
+        {/* <TextField
         required
         label={textLabel || 'Cover Letter'}
         placeholder={textPlaceholder || 'Additional information about you...'}
@@ -116,31 +118,39 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         name="message"
         multiline
       /> */}
-      <div>
-        <p>Upload your resume / CV / cover letter / portfolio</p>
-        <UploadField onChange={handleChange} name='cv' onClick={e => (e.target.value = null)}>
-          <UploadIcon />
-          {uploadLabel}
-        </UploadField>
         <div>
-          {value.cv && (
-            <AttachmentUploaded>
-              <span>{value.cv[0].name}</span>{' '}
-              <button onClick={handleChange} name='clearCv'>
-                x
-              </button>
-            </AttachmentUploaded>
-          )}
+          <p>Upload your resume / CV / cover letter / portfolio</p>
+          <UploadField onChange={handleChange} name='cv' onClick={e => (e.target.value = null)}>
+            <UploadIcon />
+            {uploadLabel}
+          </UploadField>
+          <div>
+            {value.cv && (
+              <AttachmentUploaded>
+                <span>{value.cv[0].name}</span>{' '}
+                <button onClick={handleChange} name='clearCv'>
+                  x
+                </button>
+              </AttachmentUploaded>
+            )}
+          </div>
+          {errorMsgValidation && <ErrorMessage>{errorMsgValidation}</ErrorMessage>}
         </div>
-        {errorMsgValidation && <ErrorMessage>{errorMsgValidation}</ErrorMessage>}
-      </div>
-      <CheckboxField required checked={value.policy} onChange={handleChange} name='policy'>
-        I accept the{' '}
-        <strong>
-          <Link to={routeLinks.privacyPolicy}>Privacy Policy</Link>
-        </strong>
-      </CheckboxField>
-      {value.isSending ? <Loader className='loader'></Loader> : <BlackButton type='submit'>submit</BlackButton>}
+        <CheckboxField required checked={value.policy} onChange={handleChange} name='policy'>
+          I accept the{' '}
+          <strong>
+            <Link to={routeLinks.privacyPolicy}>Privacy Policy</Link>
+          </strong>
+        </CheckboxField>
+        {value.isSending ? <Loader className='loader'></Loader> : <BlackButton type='submit'>submit</BlackButton>}
+
+        {value.isError && (
+          <ErrorMessage>
+            <p>Your application wasn’t submitted. Please try again.</p>
+          </ErrorMessage>
+        )}
+      </Form>
+
       {value.isSubmitted && (
         <JobApplicationModal
           modalState={value.isSubmitted}
@@ -152,12 +162,6 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           <SuccesMessage>Congrats! Your application was successfully submitted.</SuccesMessage>
         </JobApplicationModal>
       )}
-
-      {value.isError && (
-        <ErrorMessage>
-          <p>Your application wasn’t submitted. Please try again.</p>
-        </ErrorMessage>
-      )}
-    </Form>
+    </>
   )
 }
