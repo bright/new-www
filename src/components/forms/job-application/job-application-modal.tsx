@@ -76,9 +76,7 @@ export const JobApplicationModal: React.FC<ModalProps> = props => {
   return (
     <ModalWrapper className='modal is-active' paddingMobileProps='0 18px'>
       <ModalHeader>
-        <button className='delete' arial-label='close' onClick={closeModal}>
-          X
-        </button>
+        <button onClick={closeModal}>X</button>
       </ModalHeader>
       <ModalCard className='modal-card'>
         <ModalTitle className='modal-title'>{title}</ModalTitle>
