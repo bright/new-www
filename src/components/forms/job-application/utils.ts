@@ -37,6 +37,13 @@ export function useApplicationForm() {
       })
   }
 
+  const setIsSubmitedToFalse = () => {
+    setValue(state => ({
+      ...state,
+      isSubmitted: false,
+    }))
+  }
+
   const handleChange = useCallback(event => {
     event.persist()
     const value =
@@ -64,6 +71,7 @@ export function useApplicationForm() {
     value,
     handleChange,
     handleSubmit,
+    setIsSubmitedToFalse,
   }
 }
 
