@@ -1,9 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 import variables from '../../../styles/variables'
-import { CustomSectionTitle } from '../../shared/index.styled'
+import { CustomSection, PageTitle } from '../../shared'
+
 import BackButton from '../../subcomponents/BackButton'
 
+const ModalTitle = styled(PageTitle)`
+  margin: 0;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0px;
+  color: ${variables.color.text};
+  opacity: 1;
+`
 const ModalCard = styled.div`
   height: 100vh;
   width: 100vw;
@@ -16,13 +27,7 @@ const ModalCard = styled.div`
   color: ${variables.color.text};
   overflow-x: hidden;
   margin: 0;
-
-  .modal-title {
-    margin: 0;
-    padding-bottom: 2rem;
-    font-size: 2rem;
-    line-height: 2.75rem;
-  }
+  max-width: 100%;
 
   & > a {
     font-size: ${variables.font.customtext.sizeButton};
@@ -37,7 +42,7 @@ const ModalBody = styled.section`
   padding: 0 0 4rem;
   overflow: unset;
 `
-const ModalWrapper = styled.div`
+const ModalWrapper = styled(CustomSection)`
   background: #fff;
 `
 const ModalHeader = styled.div`
@@ -69,12 +74,14 @@ export const JobApplicationModal: React.FC<ModalProps> = props => {
   }
 
   return (
-    <ModalWrapper className='modal is-active'>
+    <ModalWrapper className='modal is-active' paddingMobileProps='0 18px'>
       <ModalHeader>
-        <button onClick={closeModal}>X</button>
+        <button className='modal-close is-large' arial-label='close' onClick={closeModal}>
+          X
+        </button>
       </ModalHeader>
       <ModalCard className='modal-card'>
-        <CustomSectionTitle className='modal-title'>{title}</CustomSectionTitle>
+        <ModalTitle className='modal-title'>{title}</ModalTitle>
         <ModalBody className='modal-card-body'>
           <div className='content'>{children}</div>
         </ModalBody>
