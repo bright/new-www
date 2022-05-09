@@ -28,7 +28,7 @@ Paulina and Agata, both paid attention to sever significant qualities mentioned 
 
 Every professional programmer understands that they should always strive for a perfect code. They also know that such a code is simply unattainable because there is always a risk of errors regardless of the experience. Therefore, when they happen - they knows how to apologise for them and make an effort to make them less and less in the future. **Professional programmer will not point out the mistakes of others as they know they can make a mistake at any time.** 
 
-When they needs help - they know how to humbly accept it and feels grateful for it regardless of whether it is offered by a junior or a senior. The professional knows the limits of his assets and creativity - he/she knows when it's time to take a break from mental work to have a positive effect on his future professional productivity. 
+When they needs help - they know how to humbly accept it and feel grateful for it regardless of whether it is offered by a junior or a senior. The professional knows the limits of his assets and creativity - he/she knows when it's time to take a break from mental work to have a positive effect on his future professional productivity. 
 
 ![](/images/uncle_bob_post_paulina.png)
 
