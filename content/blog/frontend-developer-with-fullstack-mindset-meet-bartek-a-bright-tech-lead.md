@@ -35,7 +35,7 @@ I get that confusion. 🙂 However, after a couple of years, I left my job at th
 
 Firstly, I worked as a fullstack on a solution built for a client from the shipping industry. **I wrote the backend in Java and the frontend in JavaScript**. It was my first encounter with the frontend. 
 
-Then, I worked on frontend for another client representing the maritime transport industry. After that, I worked for a Norwegian client mostly developing the backend. I guess I was flexible and always eager to check out every aspect of software development. 
+Then, I worked on frontend for another client representing the maritime transport industry. After that, I worked for a Norwegian client mostly developing the backend. I guess I was flexible and always eager to check out every aspect of [software development](/our-areas/custom-software-development). 
 
 Then I left my job to travel for a couple of months and when I got back I knew **I wanted to specialize only in one side of software development**. Bright Inventions was seeking a frontend developer so I applied. **My girlfriend used to work at Bright and recommended this place to me**. Thanks to her I knew that the atmosphere within the team was more than positive. Another crucial factor for me was that this is a small company. I didn’t want to work in a large organization. And that is why I became a frontend developer at Bright Inventions.
 
