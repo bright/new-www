@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { MutableRefObject, useCallback, useEffect } from 'react'
 import styled from 'styled-components'
 import { story } from './story-data'
 import { TextRegular } from '../../shared'
@@ -8,25 +8,37 @@ import { useState } from 'react'
 import { clampBuilder } from './../../../helpers/clampBuilder'
 import { TimelineLogo, TimelineImage } from '../../timeline'
 import { useWindowSize } from '../../utils/use-windowsize'
+import { StoryNavigation } from './StoryNavigation'
+import { useScrollPosition } from '../../utils/use-scrollposition'
 
-const StoriesWrapperScroll = styled.div`
+const StoriesWrapperScroll = styled.div<{ isScrollShouldVisible: boolean }>`
+  ${({ isScrollShouldVisible }) => isScrollShouldVisible && 'overflow-x: scroll'};
+  height: ${variables.pxToRem(600)};
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  @media ${variables.device.laptop} {
+    height: ${variables.pxToRem(650)};
+    width: 100vw;
+  }
   @media ${variables.device.tabletXL} {
-    overflow-x: hidden;
     height: ${variables.pxToRem(600)};
   }
+
   @media ${variables.device.tablet} {
-    width: 100vw;
-    overflow: scroll;
-    height: ${variables.pxToRem(650)};
+    height: 100%;
+    padding-bottom: ${variables.pxToRem(45)};
   }
   @media ${variables.device.mobile} {
     padding-bottom: ${variables.pxToRem(55)};
     height: 100%;
   }
 `
-const StoriesWrapperPosition = styled.div`
+const StoriesWrapperPosition = styled.div<{ isScrollShouldVisible: boolean }>`
   position: relative;
-  width: 100%;
+  width: auto;
+  ${({ isScrollShouldVisible }) => isScrollShouldVisible && 'width: max-content'};
+
   &::after {
     content: '';
     position: absolute;
@@ -35,9 +47,7 @@ const StoriesWrapperPosition = styled.div`
     top: 125px;
     z-index: -1;
   }
-  @media ${variables.device.tabletXL} {
-    width: 102vw;
-  }
+
   @media ${variables.device.tablet} {
     width: 245vw;
   }
@@ -48,17 +58,21 @@ const StoriesWrapperPosition = styled.div`
 
 const StoriesWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
   padding: 0 ${variables.pxToRem(240)};
+  gap: ${variables.pxToRem(37)};
+  width: max-content;
 
   @media ${variables.device.laptop} {
     padding: 0 ${variables.pxToRem(90)};
+    gap: ${variables.pxToRem(32)};
   }
   @media ${variables.device.tabletXL} {
-    padding: 0 0 0 ${variables.pxToRem(50)};
+    padding: 0 ${variables.pxToRem(50)};
   }
   @media ${variables.device.tablet} {
     padding: 0 0 0 ${variables.pxToRem(25)};
+    gap: 0;
+    width: 100%;
   }
   @media ${variables.device.mobile} {
     padding: 0 0 0 ${variables.pxToRem(7)};
@@ -133,21 +147,24 @@ const Label = styled.label`
     }
   }
 `
-export const PositionContentWrapper = styled.div<{ positionLeft?: boolean }>`
+export const PositionContentWrapper = styled.div<{ positionLeft?: boolean; isScrollShouldVisible?: boolean }>`
   position: absolute;
   top: 204px;
+  width: ${variables.pxToRem(551)};
+  ${({ isScrollShouldVisible }) => isScrollShouldVisible && 'position: relative; top: 0;'};
   ${({ positionLeft }) => (positionLeft ? `left: unset` : `left:0`)};
   ${({ positionLeft }) => (positionLeft ? `right: 0` : `right:unset`)};
-  width: ${variables.pxToRem(551)};
+
   height: auto;
 
   @media ${variables.device.tabletXL} {
     width: ${clampBuilder(993, 1281, 524, 654)};
   }
   @media ${variables.device.tablet} {
-    ${({ positionLeft }) => (positionLeft ? `left: unset` : `left:0`)};
-    ${({ positionLeft }) => (positionLeft ? `right:0` : `right:unset`)};
-    width: ${variables.pxToRem(555)};
+    position: relative;
+    width: calc(100% - 2 * 106px);
+    margin: 0 auto;
+    top: 0;
   }
   @media ${variables.device.mobile} {
     position: relative;
@@ -156,7 +173,7 @@ export const PositionContentWrapper = styled.div<{ positionLeft?: boolean }>`
     top: 0;
   }
 `
-const ContentWrapper = styled.div<{ positionLeft?: boolean; positionFirst: boolean; positionLast: boolean }>`
+const ContentWrapper = styled.div<{ positionLeft?: boolean; positionFirst?: boolean; positionLast?: boolean }>`
   position: relative;
   box-shadow: 0px 0px 99px #00000017;
   padding: ${variables.pxToRem(36)} ${variables.pxToRem(33)};
@@ -255,6 +272,10 @@ const ImageWrapper = styled.div`
 export function StoryComponent() {
   const [selectedTimeLine, setSelectedTimeLine] = useState(story[0].heading)
   const [selectedIndex, setSelectedIndex] = useState<number>(0)
+  const [isScrollShouldVisible, setIsScrollShouldVisible] = useState(false)
+  const [disabledLeft, setDisabledLeft] = useState('disabled')
+  const [disabledRight, setDisabledRight] = useState('')
+  const offsetMoveScroll = 100
 
   const handleChange = ({ target }) => {
     const { value } = target
@@ -271,22 +292,77 @@ export function StoryComponent() {
   }
   const { width } = useWindowSize()
 
+  const element = React.useRef<HTMLDivElement>(null)
+  const boundingElement = React.useRef<HTMLDivElement>(null)
+
+  useScrollPosition(
+    ({ prevPos, currPos, isScrolling }) => {
+      if (boundingElement.current && element.current) {
+        const { clientWidth: parentWidth } = boundingElement.current
+        const { clientWidth: childWidth } = element.current
+        const isEndOfScroll = currPos.x + parentWidth === childWidth
+
+        if (isEndOfScroll) {
+          setDisabledLeft('')
+          setDisabledRight('disabled')
+        } else if (currPos.x <= 0) {
+          setDisabledLeft('disabled')
+          setDisabledRight('')
+        } else {
+          setDisabledLeft('')
+          setDisabledRight('')
+        }
+      }
+    },
+    [],
+    element as MutableRefObject<HTMLElement | undefined>,
+    false,
+    0,
+    boundingElement as MutableRefObject<HTMLElement | undefined>
+  )
+
+  const scroll = (scrollOffset: any) => {
+    boundingElement.current!.scrollLeft += scrollOffset
+  }
+
+  const getClientRect = (element: HTMLElement) => element.getBoundingClientRect().width
+  useEffect(() => {
+    if (element.current && boundingElement.current) {
+      const widthChild = getClientRect(element.current)
+      const widthParent = getClientRect(boundingElement.current)
+      const isScrollShouldVisible = widthChild > widthParent
+      setIsScrollShouldVisible(isScrollShouldVisible)
+    }
+  }, [boundingElement, element])
+
   return (
     <CustomSection
-      paddingProps='8.125rem 0 25rem'
-      paddingLaptop='6.25rem 0 25rem'
-      paddingTabletXL='4.375rem 0 0'
-      paddingTablet='7.6875rem 0 0'
-      paddingMobileProps='4.5625rem 0 0'
+      paddingProps={isScrollShouldVisible ? '0 0 2.3125rem' : ' 8.125rem 0 2.3125rem'}
+      paddingLaptop={isScrollShouldVisible ? '0 0 2.3125rem' : ' 8.125rem 0 2.3125rem'}
+      paddingTabletXL={isScrollShouldVisible ? '0 0 1.9375rem' : '4.375rem 0 0'}
+      paddingTablet='7.6875rem 0 8.0625rem'
+      paddingMobileProps='4.5625rem 0 5.6875'
     >
-      <StoriesWrapperScroll>
-        <StoriesWrapperPosition>
-          <StoriesWrapper>
+      {isScrollShouldVisible && width > deviceSize.tablet + 1 && typeof window !== 'undefined' && (
+        <>
+          <StoryNavigation
+            onClickRight={() => scroll(offsetMoveScroll)}
+            onClickLeft={() => scroll(-offsetMoveScroll)}
+            disabledLeft={disabledLeft}
+            disabledRight={disabledRight}
+          />
+        </>
+      )}
+
+      <StoriesWrapperScroll isScrollShouldVisible={isScrollShouldVisible} ref={boundingElement}>
+        <StoriesWrapperPosition isScrollShouldVisible={isScrollShouldVisible}>
+          <StoriesWrapper ref={element}>
             {story.map((item, index) => {
               const isChecked = selectedTimeLine === item.heading
               const isLeft = index >= 5
               const isFirst = index <= 1
               const isLast = index === story.length - 1
+
               return (
                 <StoryWrapper key={item.heading}>
                   <Data
@@ -308,7 +384,8 @@ export function StoryComponent() {
                       onChange={handleChange}
                     />
                   </Label>
-                  {isChecked && width > deviceSize.mobile + 1 && typeof window !== 'undefined' && (
+
+                  {isChecked && width > deviceSize.tablet + 1 && typeof window !== 'undefined' && (
                     <PositionContentWrapper positionLeft={isLeft}>
                       <ContentWrapper positionLeft={isLeft} positionFirst={isFirst} positionLast={isLast}>
                         <ImageWrapper>
@@ -330,7 +407,7 @@ export function StoryComponent() {
           </StoriesWrapper>
         </StoriesWrapperPosition>
       </StoriesWrapperScroll>
-      {selectedIndex >= 0 && width <= deviceSize.mobile + 1 && typeof window !== 'undefined' && (
+      {selectedIndex >= 0 && width <= deviceSize.tablet + 1 && typeof window !== 'undefined' && (
         <PositionContentWrapper>
           <ContentWrapper positionFirst={selectedIndex == 0} positionLast={selectedIndex == story.length - 1}>
             <ImageWrapper>
