@@ -21,7 +21,7 @@ Let me start with iOS focused ones. Those are high quality podcasts that vary in
 
 * [Swift by Sundell](https://podcasts.apple.com/pl/podcast/swift-by-sundell/id1267161825)
   This is on the top of the list not by coincidence. It is not only top notch in terms of quality, topics and guests, but was also the first iOS podcast I started listening to. Beware however, John and his guests go quite deep into technical topics, so it requires some focus.\
-    I find John’s podcast very informative and motivational. You can always learn from it, at least that you still need to learn a lot about iOS development.\
+    I find John’s podcast very informative and motivational. You can always learn from it, at least that you still need to learn a lot about [iOS development](/our-areas/mobile-app-development).\
     *Swift by Sundell* is released weekly.
 * [ATP - Accidental Tech Podcast](https://podcasts.apple.com/pl/podcast/accidental-tech-podcast/id617416468)
   My favorite podcast in this list. Marco Arment, Casey Liss and John Siracusa make you feel at home. I find this podcast entertaining and it fits almost all circumstances you can find yourself in, from focused listening, to playing in the background while driving your car. But you will need to get on quite a journey, because ATP is typically longer than two hours ;)\
