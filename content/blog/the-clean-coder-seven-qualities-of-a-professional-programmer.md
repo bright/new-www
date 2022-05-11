@@ -62,11 +62,11 @@ Professionals know very well how much effort it takes to constantly improve. **T
 
 The backlog changes, inadequate estimates, undelivered features just before demo. These are just some of the difficult situations developers may encounter in their daily work. How to find your inner peace in this escalating pressure? Avoid pressure in the first place. This is possible by getting aware of potential risks that may affect the quality of your work and possible solutions how to change it. 
 
-**Work is usually unintended slowed down by rushing and panicking. Slow down. Think through the problem.** Plan a solution and consistently move toward it at a reasonable pace.\
+**Work is usually unintended slowed down by rushing and panicking. Slow down. Think through the problem.** Plan a solution and consistently move toward it at a reasonable pace.
 
-**Keep your teammates and leader updated about problems.** Ask for help and feedback.\
+**Keep your teammates and leader updated about problems.** Ask for help and feedback.
 
-Rely on your own proven coping strategies - people under stress have a narrowed perception of reality and stream of attention. Be kind to yourself. If TDD is a method that helps you - write even more unit tests than usual. If you write small functions - write even smaller ones. If you need a break - go out and take a deep breath.\
+Rely on your own proven coping strategies - people under stress have a narrowed perception of reality and stream of attention. Be kind to yourself. If TDD is a method that helps you - write even more unit tests than usual. If you write small functions - write even smaller ones. If you need a break - go out and take a deep breath.
 
 **Code in pairs** - it's an effective way to stay informed by your teammate about the aspects that you missed because of your low level of focus. 
 
