@@ -58,16 +58,16 @@ const StoriesWrapperPosition = styled.div<{ isScrollShouldVisible: boolean }>`
 
 const StoriesWrapper = styled.div`
   display: flex;
-  padding: 0 ${variables.pxToRem(240)};
+  margin: 0 ${variables.pxToRem(240)};
   gap: ${variables.pxToRem(37)};
   width: max-content;
 
   @media ${variables.device.laptop} {
-    padding: 0 ${variables.pxToRem(90)};
+    margin: 0 ${variables.pxToRem(90)};
     gap: ${variables.pxToRem(32)};
   }
   @media ${variables.device.tabletXL} {
-    padding: 0 ${variables.pxToRem(50)};
+    margin: 0 ${variables.pxToRem(50)};
   }
   @media ${variables.device.tablet} {
     padding: 0 0 0 ${variables.pxToRem(25)};
@@ -332,6 +332,8 @@ export function StoryComponent() {
       const widthParent = getClientRect(boundingElement.current)
       const isScrollShouldVisible = widthChild > widthParent
       setIsScrollShouldVisible(isScrollShouldVisible)
+      console.log(widthChild, 'child')
+      console.log(widthParent, 'parent')
     }
   }, [boundingElement, element])
 
