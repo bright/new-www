@@ -4,7 +4,8 @@ tags:
   - design
   - inspiration
 date: 2022-05-12T06:46:20.322Z
-title: Canva vs. Figma – which graphic program is better for a marketing specialist
+title: Canva vs. Figma – Which Graphic Design Software is Better for a Marketing
+  Specialist
 layout: post
 image: /images/canva_figa_prons_cons.png
 hidden: false
@@ -32,3 +33,21 @@ Canva can also be helpful if you create some printouts. For example, it is quite
 Canva offers free templates, photos, icons, and more. However, it is fair to say, that if you want to have top-quality content, you should spend some money on the right templates. The best of them aren't free.
 
 ### Open for team collaboration
+
+You can team up with other Canva users from your team and work on the design in a common online folder. Super useful option and essential in these digital times. 
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/wMDizdl57v3zZs2vbQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/broken-healing-trauma-wMDizdl57v3zZs2vbQ">via GIPHY</a></p>
+
+Let’s take a moment here to price people who worked on graphic designs before everything was stored in the cloud. Oh, you probably don’t know the pain of endless email exchanges with a designer including receiving the 163849 versions of a graphic design after sending 163848 comments. Now, you can work online on the project simultaneously – simply collaborate, not write stupid emails. ;) So sorry for this dinosaur digression. I just used to spend countless hours emailing graphic designers (marketing trauma).
+
+### Company branding one click away
+
+I enjoy the **Brand kit** feature on Canva. It is not a free option, yet pretty useful during day-to-day work. You can provide all basic brand identity info to get easy access to the company logos, fonts, color codes, etc. No more looking for a high-quality file with a logo. No more double-checking a brand hex code color. Everything is in one place, available for the whole team so no one will use the wrong color or logo by mistake.
+
+## Prons and cons of Figma
+
+### Figma is better for more advanced marketers
+
+Figma has been built mostly for product designers, UX & UI designers, etc. So if you are at the beginning of your design path, **Figma might be scary**. It won’t provide you with templates, default icons, photos, and graphics. So if you don’t feel like working on a design from scratch, Figma is not a tool for you.
+
+### More features with a free plan
