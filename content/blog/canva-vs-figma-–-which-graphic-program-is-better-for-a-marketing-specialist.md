@@ -14,6 +14,8 @@ published: true
 ---
 **Every marketer, particularly a social media specialist, should have basic graphic design skills. Canva and Figma are some of the most useful graphic tools for marketers. Which one of them is better? Let’s compare Figma and Canva from a marketing specialist’s point of view.**
 
+![Canva vs. Figma](/images/canva_figa_prons_cons.png)
+
 ## Prons and cons of Canva
 
 ### Great tool for beginners
