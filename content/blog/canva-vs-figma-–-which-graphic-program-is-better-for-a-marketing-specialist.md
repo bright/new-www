@@ -81,7 +81,7 @@ To other plugin junkies out there – please recommend other useful plugins in t
 
 ## Finally, Canva and Figma – what is better for a marketing specialist?
 
-![]()
+![Canva vs. Figma](/images/canva_vs_figma.png)
 
 Okay, so I don’t have the ultimate solution here. 😀 The way I see that and recommend it for every digital marketing newbie is to **start with Canva where you will easily make some basic graphics**. Then if you want to go to another level, **you will find switching to Figma really convenient, simple, and rewarding**.
 
