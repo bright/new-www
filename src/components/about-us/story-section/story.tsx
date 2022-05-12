@@ -333,7 +333,7 @@ export function StoryComponent() {
       const isScrollShouldVisible = widthChild > widthParent
       setIsScrollShouldVisible(isScrollShouldVisible)
     }
-  }, [boundingElement, element])
+  }, [getClientRect, isScrollShouldVisible])
 
   return (
     <CustomSection
