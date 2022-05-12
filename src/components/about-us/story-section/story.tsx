@@ -301,7 +301,7 @@ export function StoryComponent() {
       if (boundingElement.current && element.current) {
         const { clientWidth: parentWidth } = boundingElement.current
         const { clientWidth: childWidth } = element.current
-        const isEndOfScroll = currPos.x + parentWidth > childWidth
+        const isEndOfScroll = currPos.x + parentWidth >= childWidth
 
         if (isEndOfScroll) {
           setDisabledLeft('')
@@ -333,12 +333,8 @@ export function StoryComponent() {
       const widthParent = getClientRect(boundingElement.current)
       const isScrollShouldVisible = widthChild > widthParent
       setIsScrollShouldVisible(isScrollShouldVisible)
-      console.log(widthChild, 'child')
-      console.log(widthParent, 'parent')
     }
   }, [getClientRect, isScrollShouldVisible])
-
-  console.log(isScrollShouldVisible)
 
   return (
     <CustomSection
