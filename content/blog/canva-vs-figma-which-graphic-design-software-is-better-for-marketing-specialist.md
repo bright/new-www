@@ -3,18 +3,16 @@ author: izabela
 tags:
   - design
   - inspiration
-date: 2022-05-12T07:13:03.251Z
+date: 2022-05-12T08:20:09.439Z
 title: Canva vs. Figma – Which Graphic Design Software is Better for a Marketing
   Specialist
 layout: post
 image: /images/canva_figa_prons_cons.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
 **Every marketer, particularly a social media specialist, should have basic graphic design skills. Canva and Figma are some of the most useful graphic tools for marketers. Which one of them is better? Let’s compare Figma and Canva from a marketing specialist’s point of view.**
-
-![Canva vs. Figma](/images/canva_figa_prons_cons.png)
 
 ## Prons and cons of Canva
 
@@ -22,11 +20,13 @@ published: true
 
 Lots of templates, photos, icons, and other content make it really simple to create various graphics from social media posts, and posters to infographics. Especially if you haven’t discovered your design instincts yet, **using Canva templates should ensure that you follow design trends**. 
 
-![Canva prons and cons](/images/canva_templates.png)
+![Canva prons and cons](/images/canva_templates.png "Source: Canva.com")
+
+<center> <sub> Source: Canva </sub> </center>
 
 ### Canva is useful for social media ninjas
 
-Social media templates (with recommended post sizes) are a great help for every social media specialist. Obviously don't take them for granted. These sizes change too often so it is better to double-check them at different sources and even publish your design on a testing account. 😉 Social media admins know the pain when the size should be fine but after publishing the graphic, it doesn’t look as we expected. 😉
+Social media templates (with recommended post sizes) are a great help for every social media specialist. Obviously don't take them for granted. These sizes change too often so it is better to double-check them at different sources and even publish your design on a testing account. 😉  Social media admins know the pain when the size should be fine but after publishing the graphic, it doesn’t look as we expected. 😉
 
 ### Ready to print graphics
 
@@ -46,7 +46,9 @@ Let’s take a moment here to price people who worked on graphic designs before 
 
 ### Company branding one click away
 
-![Canva prons cons](/images/canva_brand_kit.png)
+![Canva prons cons](/images/canva_brand_kit.png "Source: Canva")
+
+<center> <sub> Source: Canva </sub> </center>
 
 I enjoy the **Brand kit** feature on Canva. It is not a free option, yet pretty useful during day-to-day work. You can provide all basic brand identity info to get easy access to the company logos, fonts, color codes, etc. No more looking for a high-quality file with a logo. No more double-checking a brand hex code color. Everything is in one place, available for the whole team so no one will use the wrong color or logo by mistake.
 
@@ -64,7 +66,7 @@ By the way, the pricing plans of Figma and Canva are pretty similar, so there is
 
 ### Holy layers!
 
-Oh, how I love layers! Thanks to them you can go to another level in your designs. It is almost like using Photoshop, but – let’s be honest – easier. 😀 Layers give you more options to play with your graphic, slogans, and backgrounds.
+Oh, how I love layers! Thanks to them you can go to another level in your designs. It is almost like using Photoshop, but – let’s be honest – easier. 😀  Layers give you more options to play with your graphic, slogans, and backgrounds.
 
 ### Great collaboration options
 
@@ -72,7 +74,7 @@ Like Canva, Figma is easy to co-create projects together within the team. What�
 
 ### Lots of plugins. Lots!
 
-![Figma prons and cons](/images/figma_plugins.png)
+![Figma prons and cons](/images/figma_plugins.png "Source: Figma")
 
 The day I discovered Figma pluggings, should become my private/official holiday. I appreciate the whole community that creates lots of useful, and often free, plugins that simply make my daily work even simpler. 
 
@@ -91,6 +93,8 @@ To other plugin junkies out there – please recommend other useful plugins in t
 
 ![Canva vs. Figma](/images/canva_vs_figma.png)
 
-Okay, so I don’t have the ultimate solution here. 😀 The way I see that and recommend it for every digital marketing newbie is to **start with Canva where you will easily make some basic graphics**. Then if you want to go to another level, **you will find switching to Figma really convenient, simple, and rewarding**.
+<center> <sub> Source: Figma </sub> </center>
+
+Okay, so I don’t have the ultimate solution here. 😀  The way I see that and recommend it for every digital marketing newbie is to **start with Canva where you will easily make some basic graphics**. Then if you want to go to another level, **you will find switching to Figma really convenient, simple, and rewarding**.
 
 However, if graphic design is only a small portion of your daily duties and you want to create simple, basic designs, then stick with Canva and you won’t regret it.
