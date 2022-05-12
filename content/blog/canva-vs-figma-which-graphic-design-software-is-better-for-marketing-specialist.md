@@ -28,7 +28,7 @@ Lots of templates, photos, icons, and other content make it really simple to cre
 
 Social media templates (with recommended post sizes) are a great help for every social media specialist. Obviously don't take them for granted. These sizes change too often so it is better to double-check them at different sources and even publish your design on a testing account. 😉  Social media admins know the pain when the size should be fine but after publishing the graphic, it doesn’t look as we expected. 😉
 
-### Ready to print graphics
+### Easy to design basic printouts
 
 Canva can also be helpful if you create some printouts. For example, it is quite easy to design an invitation based on Canva templates and then you can export it as a high-quality pdf file which will be working perfectly with the printer house. Also, you can choose an option with bleeds if your printing house expects it. Probably you won't design a billboard with Canva but a very easy flyer or invitation may be possible. And that’s fine, no one should expect marketers to design billboards. 😉
 
