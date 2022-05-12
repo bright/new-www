@@ -51,3 +51,38 @@ I enjoy the **Brand kit** feature on Canva. It is not a free option, yet pretty 
 Figma has been built mostly for product designers, UX & UI designers, etc. So if you are at the beginning of your design path, **Figma might be scary**. It won’t provide you with templates, default icons, photos, and graphics. So if you don’t feel like working on a design from scratch, Figma is not a tool for you.
 
 ### More features with a free plan
+
+This might be totally subjective but for me, you don’t feel limited using a free version of Figma on a small scale. Naturally, there are limitations like the number of pages you can create. Yet, you can easily start with the free Figma version and you will discover the power of the tool and quickly reconsider some upgrade version. 😉
+
+By the way, the pricing plans of Figma and Canva are pretty similar, so there is not so much to compare in this matter.
+
+### Holy layers!
+
+Oh, how I love layers! Thanks to them you can go to another level in your designs. It is almost like using Photoshop, but – let’s be honest – easier. 😀 Layers give you more options to play with your graphic, slogans, and backgrounds.
+
+### Great collaboration options
+
+Like Canva, Figma is easy to co-create projects together within the team. What’s more to say? It is a must-have feature these days.
+
+### Lots of plugins. Lots!
+
+The day I discovered Figma pluggings, should become my private/official holiday. I appreciate the whole community that creates lots of useful, and often free, plugins that simply make my daily work even simpler. 
+
+It’s like you need to do something, and you have this voice in your head saying “There must be an app for this!”. I have it with Figma – whenever I need to do something that goes beyond the Figma basic interface I think – “There must be a plugin for that.” And guess what. In most cases there is!
+
+Let’s note that some of my favorite plugins are:
+
+* [Split shape](https://www.figma.com/community/plugin/746565487016656360/Split-Shape), 
+* [Autoflow](https://www.figma.com/community/plugin/733902567457592893/Autoflow), 
+* [Flags](https://www.figma.com/community/file/1048528064393814860),
+* [Vector maps](https://www.figma.com/community/plugin/777954172157933782/Vector-Maps). 
+
+To other plugin junkies out there – please recommend other useful plugins in the comments. I will dive deep into them. So deep.
+
+## Finally, Canva and Figma – what is better for a marketing specialist?
+
+![]()
+
+Okay, so I don’t have the ultimate solution here. 😀 The way I see that and recommend it for every digital marketing newbie is to **start with Canva where you will easily make some basic graphics**. Then if you want to go to another level, **you will find switching to Figma really convenient, simple, and rewarding**.
+
+However, if graphic design is only a small portion of your daily duties and you want to create simple, basic designs, then stick with Canva and you won’t regret it.
