@@ -26,7 +26,7 @@ Lots of templates, photos, icons, and other content make it really simple to cre
 
 ### Canva is useful for social media ninjas
 
-Social media templates (with recommended post sizes) are a great help for every social media specialist. Obviously don't take them for granted. These sizes change too often so it is better to double-check them at different sources and even publish your design on a testing account. 😉 Social media admins know the pain when the size should be fine but after publishing the graphic, it doesn’t look as we expected. 😉
+Social media templates (with recommended post sizes) are a great help for every social media specialist. Obviously don't take them for granted. These sizes change too often so it is better to double-check them at different sources and even publish your design on a testing account. 😉  Social media admins know the pain when the size should be fine but after publishing the graphic, it doesn’t look as we expected. 😉
 
 ### Ready to print graphics
 
@@ -66,7 +66,7 @@ By the way, the pricing plans of Figma and Canva are pretty similar, so there is
 
 ### Holy layers!
 
-Oh, how I love layers! Thanks to them you can go to another level in your designs. It is almost like using Photoshop, but – let’s be honest – easier. 😀 Layers give you more options to play with your graphic, slogans, and backgrounds.
+Oh, how I love layers! Thanks to them you can go to another level in your designs. It is almost like using Photoshop, but – let’s be honest – easier. 😀  Layers give you more options to play with your graphic, slogans, and backgrounds.
 
 ### Great collaboration options
 
@@ -95,6 +95,6 @@ To other plugin junkies out there – please recommend other useful plugins in t
 
 <center> <sub> Source: Figma </sub> </center>
 
-Okay, so I don’t have the ultimate solution here. 😀 The way I see that and recommend it for every digital marketing newbie is to **start with Canva where you will easily make some basic graphics**. Then if you want to go to another level, **you will find switching to Figma really convenient, simple, and rewarding**.
+Okay, so I don’t have the ultimate solution here. 😀  The way I see that and recommend it for every digital marketing newbie is to **start with Canva where you will easily make some basic graphics**. Then if you want to go to another level, **you will find switching to Figma really convenient, simple, and rewarding**.
 
 However, if graphic design is only a small portion of your daily duties and you want to create simple, basic designs, then stick with Canva and you won’t regret it.
