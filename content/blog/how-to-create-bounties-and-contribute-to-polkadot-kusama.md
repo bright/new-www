@@ -58,7 +58,7 @@ Thanks to the integration with Polkassembly your bounty will be shared with the 
 * Select bounties on the menu and click “Create bounty”.
 * Fill in all important information about the bounty. You can follow Bounty Proposal Template.
 
-![Create biunty on BrightTreasury](/images/create_bounty.png)
+![Create bounty on BrightTreasury](/images/create_bounty.png)
 
 Let’s focus on one field that might be unknown to you – Value. It is a budget that should be spent with Treasury on the bounty. You can establish the amount in dollars and then convert it to DOT or KSM with these useful converters: [Kusama convertor](https://kusama.subscan.io/tools/price_converter) and [Polkadot convertor](https://polkadot.subscan.io/tools/price_converter).
 
