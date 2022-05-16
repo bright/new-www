@@ -87,3 +87,5 @@ Now you know how to create your bounty. All you need is an idea for a job that w
 More info about the bounty mechanism:
 
 [Wiki Polkadot on creating a bounty](https://wiki.polkadot.network/docs/learn-treasury#creating-a-bounty-proposal)
+
+BrightTreasury had been built by Bright Inventions. The app is 100% supported by Polkadot and Kusama Treasuries. Any feedback from the community would be appreciated. You will find us on [Twitter](https://twitter.com/BrightTreasury) or simply [email us](mailto:treasury@bright.dev).
