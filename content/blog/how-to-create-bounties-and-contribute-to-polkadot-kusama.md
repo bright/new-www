@@ -66,7 +66,7 @@ Let’s focus on one field that might be unknown to you – Value. It is a budge
 
 Then you will see very important info. As a bounty creator, you have to put in a deposit. It is to avoid SPAM. If your bounty is approved, you will get the money deposit back. If it is rejected, you will lose the deposit.
 
-![treasury deposit info](/images/deposit_info.png)
+![treasury deposit info](/images/treasury_deposit.png)
 
 You have to confirm your account. Obviously, your account has to have some funds to cover the payment.
 
