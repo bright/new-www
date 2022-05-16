@@ -1,22 +1,26 @@
 ---
+imagejob: /images/productdesignerbrightteam_passion.webp
+image-alt-job: Bright Inventions team
+hidden: false
 layout: job
 title: "Product Designer "
-subtitle: OPENING SOON
-imagejob: /images/multidisciplinary-team-bright-inventions.png
-image-alt-job: Bright Inventions team
+subtitle: ONGOING
 hours: full-time
-salary: 8000 - 12 000 PLN + VAT (B2B) or 6700 - 10 000 PLN gross (UoP)
-salary_min: 8000
-salary_max: 12000
-working time: full time
+salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
+salary_min: 12000
+salary_max: 17000
+working time: 26 paid days off + Polish bank holidays
 technology:
-  - UI
-  - UX
-  - Adobe XD/Sketch/Figma
+  - Adobe XD
+  - Figma
+  - Sketch
+  - Adobe Illustrator
+  - Adobe Photoshop
 button: join our Bright team
-published: false
-hidden: true
-order: 10
+published: true
+order: 1
+recruting_image2_title: " interview (technical & non-technical part)"
+recruting_image3_title: "product design task "
 description: We are seeking a talented and creative Product designer who will
   focus on ensuring a first-class user experience across products we do. Apply!
 ---
@@ -24,26 +28,23 @@ description: We are seeking a talented and creative Product designer who will
 
 Do you enjoy solving complex business problems in a fast-paced and collaborative environment? Do you love creating hight-quality UX experience in apps from mobile, web and Blockchain space? [At Bright Inventions you'll be part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that matters in today’s world. ](https://brightinventions.pl/about-us/team/)
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. Each of us has an impact. Currently, we are a family of 60 multidisciplinary specialists working together to design and deliver the best products to our clients. 
+## about the job 🧑🏻‍🎨🧑🏻‍🎨
 
-## about the job
+Currently we are seeking a talented and creative **Product designer** who will focus on ensuring a first-class user experience across products we do. The role will include working collaboratively across teams, doing research, collecting user feedback, creating wireframes, mock-ups, prototypes and building various components. This is an exciting and challenging role that offers the opportunity to make a significant impact on our product offerings and user experience.   
 
-We are seeking a talented and creative **Product designer** who will focus on ensuring a first-class user experience across products we do. The role will include working collaboratively across teams, doing research, collecting user feedback, creating wireframes, mock-ups, prototypes and building various components. This is an exciting and challenging role that offers the opportunity to make a significant impact on our product offerings and user experience.   
+## in this role you will 🙌
 
-## in this role you will
-
-* work on international projects for clients from different industries (FinTech, Retail, Health, Ecommerce, Food, Logistics) 
+* work on international projects for clients from different industries (FinTech, Retail, Health, Food, Logistics) 
 * run project workshops, collect requirements and analyse client’s needs 
 * create clickable high-fidelity and low-fidelity mockups
-* collaborate with product managers and engineers to successfully
-* deliver designs that meet measurable criteria
+* collaborate with product managers and engineers to successfully deliver designs that meet measurable criteria
 * create effective and UI/UX-driven mobile and web interfaces
 * measure the success and failures of your design choices
 * work on internal projects where you can fully use your creative skills 
 
-## preferred qualifications and skills
+## preferred qualifications and skills ✅
 
-* at least 2-3 years of experience in a similar role
+* at least 3 years of experience in a similar role
 * solid knowledge of UI/UX principles, processes, and best practices
 * demonstrable understanding of user-led design approaches
 * excellent attention to details
@@ -58,27 +59,32 @@ We are seeking a talented and creative **Product designer** who will focus on 
 * experience with the software development lifecycle
 * experience with HTML5, CSS, LESS, JavaScript frameworks
 
-## what you'll find at Bright Inventions
+## what you'll find at Bright Inventions 🚀🚀🚀
 
 * flat structure and great impact on the key project decisions
-* space for professional growth and self-development
-* paid time off (20-26 days) + Polish bank holidays regardless of the contract
 * flexible schedule with an opportunity to work remotely 
 * transparent career path and mentoring program
 * MultiSport and private health care package
-* good equipment: MacBook and additional accessories
-* office in Gdańsk Wrzeszcz with a parking space nearby
+* MacBook and additional accessories
+* office in Gdańsk Wrzeszcz with a parking space nearby (if you would like to work in the office) 
 * a library with an extra books budget for every employee 
 * training/education budget
-* Bright Day once a month for non-project stuff
-* English classes with business 
+* Bright Day (8 hours) once a month for non-project stuff + 2 hours for blogging each week 
+* English classes with business focus
 * weekly in-house yoga classes and regular running, biking & swimming classes run by a professional coach 
 * team building events once a quarter 
 * Friday board games evenings & bright lunch initiative every week 
 
+## if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+
+[7 reasons to work at Bright Inventions](https://brightinventions.pl/blog/reasons-to-join-bright)
+
+[No Time for Bullsh\*\*. Feedback Culture](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
+
+[Bright Onboarding - What Is Waiting for You](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright)
+
+Still some doubts why you may love working with us?
+
+Contact directly [Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) or [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) from our bright recruitment team and ask about cooperation details.
+
 If you want to feel our Bright Spirit more, check [our Instagram profile](https://www.instagram.com/bright_inventions/?hl=en). 🧡
-
-
-Do you want to be a part of our Bright Team? Apply! 
-
-If in doubt, feel free to ask a question at jobs@bright.dev.

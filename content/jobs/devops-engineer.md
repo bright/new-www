@@ -8,7 +8,7 @@ hours: Full-time
 salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
 salary_min: 12000
 salary_max: 15000
-working time: full time
+working time: 20-26 paid days off + Polish bank holidays
 technology:
   - AWS
   - Kubernetes

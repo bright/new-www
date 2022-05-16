@@ -7,6 +7,7 @@ tags:
   - backend
   - business
   - Kotlin
+  - bright story
 date: 2021-11-03T08:44:02.443Z
 title: A Man Dancing with Code. Meet Piotr
 layout: post

@@ -9,7 +9,7 @@ hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
 salary_min: 20000
 salary_max: 26000
-working time: full time
+working time: 26 paid days off + Polish bank holidays
 technology:
   - Java
   - Kotlin

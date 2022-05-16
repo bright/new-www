@@ -4,6 +4,7 @@ secondAuthor: izabela
 tags:
   - development
   - inspiration
+  - bright story
 date: 2021-09-29T07:31:00.108Z
 title: Kotlin Dev by Day, Motorcyclist by Night. Meet Piotr, Backend Dev from Poland
 layout: post
