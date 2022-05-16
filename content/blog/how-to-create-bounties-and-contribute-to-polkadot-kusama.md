@@ -13,7 +13,7 @@ hidden: true
 comments: true
 published: true
 ---
-**Since the bounties were introduced by the Substrate-based community, there was a need to build an intuitive app that would make it easier to manage bounties from creating a reward to completing the bounty. That is one of the reasons why the BrightTreaury app was built. The first stage of development was funded by Web3 Foundation and now the app is 100% supported by Polkadot and Kusama Treasuries. Check out how to easily propose a bounty and contribute to the Kusama and Polkadot networks.**
+**Since the bounties were introduced by the Substrate-based community, there was a need to build an intuitive app that would make it easier to manage bounties from creating a reward to completing the bounty. That is one of the reasons why the [BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=bounty&utm_id=content_marketing) app was built. The first stage of development was funded by Web3 Foundation and now the app is 100% supported by Polkadot and Kusama Treasuries. Check out how to easily propose a bounty and contribute to the Kusama and Polkadot networks.**
 
 ![Treasury Bounty Mechanism](/images/blog_bounty_brighttreasury.png)
 
@@ -37,7 +37,7 @@ Check out more info on [Treasury Bounties Mechanism](https://polkadot.network/bl
 
 ## How to create a bounty on the BrightTreasury app?
 
-BrightTreasury gives you access to everything related to Kusama and Polkadot bounties. It is a recommended tool for community members who might not be fluent with blockchain terminology and protocols and need an easy way to contribute.
+[BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=bounty&utm_id=content_marketing) gives you access to everything related to Kusama and Polkadot bounties. It is a recommended tool for community members who might not be fluent with blockchain terminology and protocols and need an easy way to contribute.
 
 On BrightTreasury you will find everything related to all Kusama and Polkadot bounties. Here you can create a bounty, take part in the discussion about it or approve it as a curator.
 
@@ -49,7 +49,7 @@ Thanks to the integration with Polkassembly your bounty will be shared with the 
 
 ## Creating the bounty on the BrightTreasury app – step by step
 
-* Go to <https://treasury.bright.dev>.
+* Go to [https://treasury.bright.dev](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=bounty&utm_id=content_marketing).
 * Choose a network: Kusama or Polkadot.
 * Sign up. You can choose a classical Web2 sign-up (email and password) option or you can use your [Web3 Account](https://brightinventions.pl/blog/entering-the-web-3-world-with-the-brighttreasury-app).
 
@@ -88,4 +88,4 @@ More info about the bounty mechanism:
 
 [Wiki Polkadot on creating a bounty](https://wiki.polkadot.network/docs/learn-treasury#creating-a-bounty-proposal)
 
-BrightTreasury had been built by Bright Inventions. The app is 100% supported by Polkadot and Kusama Treasuries. Any feedback from the community would be appreciated. You will find us on [Twitter](https://twitter.com/BrightTreasury) or simply [email us](mailto:treasury@bright.dev).
+BrightTreasury had been developed by Bright Inventions. The app is 100% supported by Polkadot and Kusama Treasuries. Any feedback from the community would be appreciated. You will find us on [Twitter](https://twitter.com/BrightTreasury) or simply [email us](mailto:treasury@bright.dev).
