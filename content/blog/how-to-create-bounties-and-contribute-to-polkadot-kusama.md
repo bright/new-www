@@ -37,3 +37,7 @@ Check out more info on [Treasury Bounties Mechanism](https://polkadot.network/bl
 BrightTreasury gives you access to everything related to Kusama and Polkadot bounties. It is a recommended tool for community members who might not be fluent with blockchain terminology and protocols and need an easy way to contribute.
 
 On BrightTreasury you will find everything related to all Kusama and Polkadot bounties. Here you can create a bounty, take part in the discussion about it or approve it as a curator.
+
+BrightTreasury gives you an option to include descriptive info about your bounty proposal to show the council how it will contribute to the community. And you won’t pay for any of that! BrightTeasury provides you with an extra place to describe your idea with zero costs involved. Normally you would pay for every sign stored in the chain so in practice, the bounties tend to be very concise. 😉 On BrightTreasury, you are free to explain your bounty.
+
+![Creating a bounty on BrghtTreasury](/images/create_bounty_brighttreasury.png)
