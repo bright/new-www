@@ -5,11 +5,11 @@ tags:
   - BrightTreasury
   - blockchain
   - substrate
-date: 2022-05-16T09:01:25.905Z
+date: 2022-05-16T10:21:07.505Z
 title: How to Create Bounties and Contribute to Polkadot & Kusama
 layout: post
 image: /images/blog_bounty_brighttreasury.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -53,12 +53,16 @@ Thanks to the integration with Polkassembly your bounty will be shared with the 
 * Choose a network: Kusama or Polkadot.
 * Sign up. You can choose a classical Web2 sign-up (email and password) option or you can use your [Web3 Account](https://brightinventions.pl/blog/entering-the-web-3-world-with-the-brighttreasury-app).
 
-![BrightTreasury sign up](/images/brighttreasury_signup.png)
+<center>
+
+![BrightTreasury sign up](/images/brighttreasury_signup2.png)
+
+</center>
 
 * Select bounties on the menu and click “Create bounty”.
 * Fill in all important information about the bounty. You can follow Bounty Proposal Template.
 
-![Create biunty on BrightTreasury](/images/create_bounty.png)
+![Create bounty on BrightTreasury](/images/create_bounty.png)
 
 Let’s focus on one field that might be unknown to you – Value. It is a budget that should be spent with Treasury on the bounty. You can establish the amount in dollars and then convert it to DOT or KSM with these useful converters: [Kusama convertor](https://kusama.subscan.io/tools/price_converter) and [Polkadot convertor](https://polkadot.subscan.io/tools/price_converter).
 
@@ -66,7 +70,11 @@ Let’s focus on one field that might be unknown to you – Value. It is a budge
 
 Then you will see very important info. As a bounty creator, you have to put in a deposit. It is to avoid SPAM. If your bounty is approved, you will get the money deposit back. If it is rejected, you will lose the deposit.
 
-![treasury deposit info](/images/deposit_info.png)
+<center>
+
+![treasury deposit info](/images/treasury_deposit.png)
+
+</center>
 
 You have to confirm your account. Obviously, your account has to have some funds to cover the payment.
 
