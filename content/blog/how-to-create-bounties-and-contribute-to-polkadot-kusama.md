@@ -47,8 +47,41 @@ Thanks to the integration with Polkassembly your bounty will be shared with the 
 
 ## Creating the bounty on the BrightTreasury app – step by step
 
-1. Go to <https://treasury.bright.dev>.
-2. Choose a network: Kusama or Polkadot.
-3. Sign up. You can choose a classical Web2 sign-up (email and password) option or you can use your [Web3 Account](https://brightinventions.pl/blog/entering-the-web-3-world-with-the-brighttreasury-app).
+* Go to <https://treasury.bright.dev>.
+* Choose a network: Kusama or Polkadot.
+* Sign up. You can choose a classical Web2 sign-up (email and password) option or you can use your [Web3 Account](https://brightinventions.pl/blog/entering-the-web-3-world-with-the-brighttreasury-app).
 
-![]()
+![BrightTreasury sign up](/images/brighttreasury_signup.png)
+
+* Select bounties on the menu and click “Create bounty”.
+* Fill in all important information about the bounty. You can follow Bounty Proposal Template.
+
+![Create biunty on BrightTreasury](/images/create_bounty.png)
+
+Let’s focus on one field that might be unknown to you – Value. It is a budget that should be spent with Treasury on the bounty. You can establish the amount in dollars and then convert it to DOT or KSM with these useful converters: [Kusama convertor](https://kusama.subscan.io/tools/price_converter) and [Polkadot convertor](https://polkadot.subscan.io/tools/price_converter).
+
+* After you feel all in, click submit.
+
+Then you will see very important info. As a bounty creator, you have to put in a deposit. It is to avoid SPAM. If your bounty is approved, you will get the money deposit back. If it is rejected, you will lose the deposit.
+
+![treasury deposit info](/images/deposit_info.png)
+
+You have to confirm your account. Obviously, your account has to have some funds to cover the payment.
+
+* Submitting transaction
+
+After you approve the transaction, you will see step by step how your transaction is being processed. 
+
+![submitting transaction bounty](/images/submitting_transaction.png)
+
+* When the deposit is secured, it is done. Great job! Now you can find your bounty on the BrightTreasury dashboard and comment on it in the discuss section. You can add a suggestion on who could be a curator or add any additional info that could convince the council about your proposal. Also, you can edit some information about the bounty e.g. title or description. However, you cannot edit the deposit.
+
+You don’t have to log in to see ongoing bounties so everyone has easy access to it. On BrightTreasury, you will find all the bounties created by Kusama or Polkadot community, no matter if they were created on the app or in other possible ways. As you can see all bounties are categorized based on their actual status:
+
+![bounties on BrightTreasury](/images/all_bounties_blog.png)
+
+Now you know how to create your bounty. All you need is an idea for a job that will be of value to the community and a willingness to put in some deposit. BrightTreasury will take care of the rest.
+
+More info about the bounty mechanism:
+
+[Wiki Polkadot on creating a bounty](https://wiki.polkadot.network/docs/learn-treasury#creating-a-bounty-proposal)
