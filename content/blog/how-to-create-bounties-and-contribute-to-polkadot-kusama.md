@@ -96,4 +96,4 @@ More info about the bounty mechanism:
 
 [Wiki Polkadot on creating a bounty](https://wiki.polkadot.network/docs/learn-treasury#creating-a-bounty-proposal)
 
-BrightTreasury had been developed by Bright Inventions. The app is 100% supported by Polkadot and Kusama Treasuries. Any feedback from the community would be appreciated. You will find us on [Twitter](https://twitter.com/BrightTreasury) or simply [email us](mailto:treasury@bright.dev).
+[BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=bounty&utm_id=content_marketing) had been developed by [Bright Inventions](/). The app is 100% supported by Polkadot and Kusama Treasuries. Any feedback from the community would be appreciated. You will find us on [Twitter](https://twitter.com/BrightTreasury) or simply [email us](mailto:treasury@bright.dev).
