@@ -24,7 +24,7 @@ published: true
 
 The basic flow to get funds via BrightTreasury consists of these steps:
 
-![BrightTreasury flow](/images/bright_treasury_idea_flow.png)
+![BrightTreasury's flow](/images/bright_treasury_idea_flow.png)
 
 **Submit an Idea**
 
