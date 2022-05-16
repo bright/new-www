@@ -9,7 +9,7 @@ date: 2022-05-16T09:01:25.905Z
 title: How to Create Bounties and Contribute to Polkadot & Kusama
 layout: post
 image: /images/blog_bounty_brighttreasury.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
