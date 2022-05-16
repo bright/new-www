@@ -41,3 +41,13 @@ On BrightTreasury you will find everything related to all Kusama and Polkadot bo
 BrightTreasury gives you an option to include descriptive info about your bounty proposal to show the council how it will contribute to the community. And you won’t pay for any of that! BrightTeasury provides you with an extra place to describe your idea with zero costs involved. Normally you would pay for every sign stored in the chain so in practice, the bounties tend to be very concise. 😉 On BrightTreasury, you are free to explain your bounty.
 
 ![Creating a bounty on BrghtTreasury](/images/create_bounty_brighttreasury.png)
+
+Thanks to the integration with Polkassembly your bounty will be shared with the whole community. So all you need to do is to add it on BrightTreasury and our bot will share it with the council and the community.
+
+## Creating the bounty on the BrightTreasury app – step by step
+
+1. Go to <https://treasury.bright.dev>.
+2. Choose a network: Kusama or Polkadot.
+3. Sign up. You can choose a classical Web2 sign-up (email and password) option or you can use your [Web3 Account](https://brightinventions.pl/blog/entering-the-web-3-world-with-the-brighttreasury-app).
+
+![]()
