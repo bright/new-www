@@ -92,8 +92,6 @@ You don’t have to log in to see ongoing bounties so everyone has easy access t
 
 Now you know how to create your bounty. All you need is an idea for a job that will be of value to the community and a willingness to put in some deposit. BrightTreasury will take care of the rest.
 
-More info about the bounty mechanism:
-
-[Wiki Polkadot on creating a bounty](https://wiki.polkadot.network/docs/learn-treasury#creating-a-bounty-proposal)
+More info about the bounty mechanism 👉 [Wiki Polkadot on creating a bounty](https://wiki.polkadot.network/docs/learn-treasury#creating-a-bounty-proposal)
 
 [BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=bounty&utm_id=content_marketing) had been developed by [Bright Inventions](/). The app is 100% supported by Polkadot and Kusama Treasuries. Any feedback from the community would be appreciated. You will find us on [Twitter](https://twitter.com/BrightTreasury) or simply [email us](mailto:treasury@bright.dev).
