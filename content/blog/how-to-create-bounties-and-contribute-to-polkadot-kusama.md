@@ -53,7 +53,11 @@ Thanks to the integration with Polkassembly your bounty will be shared with the 
 * Choose a network: Kusama or Polkadot.
 * Sign up. You can choose a classical Web2 sign-up (email and password) option or you can use your [Web3 Account](https://brightinventions.pl/blog/entering-the-web-3-world-with-the-brighttreasury-app).
 
-![BrightTreasury sign up](/images/brighttreasury_signup.png)
+<center>
+
+![BrightTreasury sign up](/images/brighttreasury_signup2.png)
+
+</center>
 
 * Select bounties on the menu and click “Create bounty”.
 * Fill in all important information about the bounty. You can follow Bounty Proposal Template.
