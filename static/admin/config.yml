@@ -119,6 +119,34 @@ collections:
               'iBeaconIoT',
             ],
         }
+      - {
+          label: 'Show new title More About Us',
+          name: 'show_new_title_more_about_us',
+          widget: 'boolean',
+          default: false,
+        }
+      - { label: 'Links', name: 'links_more_about_us', widget: 'markdown' }
+      - {
+          label: 'Title Recruiter Info',
+          name: 'title_recruiter_info',
+          widget: 'string',
+          hint: 'section recruiter info',
+        }
+      - { label: 'Name Recruiter', name: 'name_recruiter', widget: 'string', hint: 'section recruiter info' }
+      - { label: 'Workplace Recruiter', name: 'workplace_recruiter', widget: 'string', hint: 'section recruiter info' }
+      - { label: 'Image Recruiter Info', name: 'image_recruiter_info', widget: 'image', hint: 'section recruiter info' }
+      - {
+          label: 'Image Alt Recruiter Info',
+          name: 'image_alt_recruiter_info',
+          widget: string,
+          hint: 'section recruiter info',
+        }
+      - {
+          label: 'Button Instagram ',
+          name: 'button_instagram',
+          widget: 'string',
+          hint: 'https://www.instagram.com/your_address/  -section recruiter info',
+        }
       - { label: 'Button', name: 'button', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
