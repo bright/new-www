@@ -149,10 +149,10 @@ collections:
           hint: 'section recruiter info',
         }
       - {
-          label: 'Button Instagram ',
-          name: 'button_instagram',
+          label: 'Button LinkedIn ',
+          name: 'button_linkedin',
           widget: 'string',
-          hint: 'https://www.instagram.com/your_address/  -section recruiter info',
+          hint: 'https://www.linkedin.com/in/your_address/  -section recruiter info',
         }
       - { label: 'Button', name: 'button', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
