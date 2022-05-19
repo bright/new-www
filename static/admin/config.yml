@@ -119,6 +119,13 @@ collections:
               'iBeaconIoT',
             ],
         }
+        - {
+          label: ' New title More About Us',
+          name: 'title_more_about_us',
+          widget: 'string',
+          required: false,
+          hint: 'section more about us',
+        }  
       - {
           label: 'Show new title More About Us',
           name: 'show_new_title_more_about_us',
