@@ -24,7 +24,7 @@ links_more_about_us: >-
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: HR & Marketing Manager
 name_recruiter: Ula
-workplace_recruiter: Do you have any questions? Ask Agata from our Bright team!
+workplace_recruiter: Do you have any questions? Ask Ula from our Bright team!
 image_recruiter_info: /images/ula_recruiter.png
 image_alt_recruiter_info: Ula Stankiewicz HR & Marketing Manager at Bright Inventions
 button_instagram: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
