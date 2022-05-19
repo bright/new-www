@@ -2,76 +2,82 @@
 layout: job
 title: "Rust Developer "
 subtitle: ONGOING
-imagejob: /images/projectmanagerbrightteam_passion.png
+imagejob: /images/backendteam.png
 image-alt-job: Bright Inventions team
 hours: full-time
-salary: 22 000 - 26 000 PLN + VAT (B2B) or 18 300 - 20 750 PLN gross (UoP)
-salary_min: 19000
-salary_max: 24999
-working time: 26 paid days off + Polish bank holidays
+salary: 18 000 - 25 000 PLN + VAT (B2B) or 14 950 - 20 750 PLN gross (UoP)
+salary_min: 18000
+salary_max: 25000
+working time: full time
 technology:
   - Blockchain
-  - Rust
-  - Substrate
-  - Kusama
-  - Polkadot
-  - Web3
-button: join our Blockchain team
+  - AWS
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: HR & Marketing Manager
+name_recruiter: Ula
+workplace_recruiter: Do you have any questions? Ask Agata from our Bright team!
+image_recruiter_info: /images/ula_recruiter.png
+image_alt_recruiter_info: Ula Stankiewicz HR & Marketing Manager at Bright Inventions
+button_instagram: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
+button: join our Bright team
 published: true
 order: 1
-recruting_image2_title: " interview (technical & non-technical part)"
+recruting_image2_title: interview (technical & non-technical part)
 recruting_image3_title: programming task
 ---
-At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
+## who we are
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
+We are a team of talented senior developers who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
 
-## about the role
+At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
-We are looking for **an experienced Senior Backend Developer** who is excited about **Rust  and Blockchain technology,** and has first experience in protocol & mechanism design. \
-\
-In this role you will be responsible for developing the infrastructure that will connect different blockchains to the **Substrate and Polkadot** ecosystems. You will deal with **P2P networking, consensus algorithms, cryptography, databases, and decentralised applications** on daily basis and support open-source Rust ecosystem.
 
-## what you will do
+## job description
 
-* blockchain protocol development 
-* Rust performance optimisation and tuning
-* build live networks like Kusama and Polkadot 
-* work on one of the existing Substrate/Polkadot/Kusama module for smart contract
-* share knowledge with the rest of the team
+We are looking now for an experienced  **Software Engineer** who has already had experience with development in Rust, Go or C#, and knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
 
-## what we'd like to see
+## what we would like to see
 
-* experience with **Rust** (or other systems programming languages), particularly writing high-performance and  **high-security code**
-* an interest in **decentralised technology** and **Web 3**
-* deep knowledge of blockchain technologies (e.g. Substrate, Bitcoin, Ethereum) 
-* great communication skills in English (working in the international team) 
-* eagerness to learn new technology and dive into the code head-first
+* at least 3-4 years of commercial programming experience (including min. 2 years in backend development) 
+* very good knowledge of TypeScript/JavaScript
+* deep working experience with Node.js 
+* strong problem solving attitude and open mind
+* positive approach to work and new challenges  
+* advanced level of English (written and spoken)
 
 ## we would also appreciate if you have
 
-* intrest in cryptography
-* experience with consensus algorithms
+* familiarity with AWS or other Cloud providers
+* experience with development in React 
 
-## why join our Bright Team 🧡
 
-* opportunity to work with one of **the world's most accomplished blockchain** companies
-* opportunity to become an expert in the latest blockchain technologies
-* **mentoring programme** and great space for self-development 
-* lots of **autonomy and high levels of personal responsibility**
-* following best practices such as Code Review, Pair programming or Continuous integration
-* **20-26 paid days off + extra days for Polish bank holidays** 
+## what you will find in our Bright Team
+
+* international projects for such organisation as United Nations or Parity 
+* flat structure and a great impact on the key project decisions 
 * flexible schedule and remote work possibility 
-* **extra training budget** and budget for professional books 
+* mentoring program and regular 1:1 meetings 
+* continuous feedback culture and open communication
 * MultiSport and private medical package 
+* company library with an extra budget for professional books 
 * good equipment: MacBook and additional accessories
-* **Bright Day once a month for non-project stuff**
-* team retreats once a quarter 
-* weekly sport classes and Friday in-house yoga time 
-* board games evenings and weekly lunch roulette initiative 
+* Bright Day once a month for non-project stuff
+* weekly sport classes and in-house yoga time  
+* office in Gdańsk Wrzeszcz with a parking space nearby 
+* team retreats once a quarter and lunch roulette initiative 
+* board games evenings 
 
-Do you want to be a part of our Bright Team? Apply! 
+Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
 
-In case you have any questions, contact jobs@bright.dev or drop a line directly to [Ula](https://www.linkedin.com/in/urszula-stankiewicz-rusek/) (ula@bright.dev). 
+In case you have any questions, drop a line at jobs@bright.dev. 
 
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! ⛵️
+## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON!🧡
