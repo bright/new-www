@@ -1,6 +1,7 @@
 import React, { useState, useMemo, MutableRefObject } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+import ReactMarkdown from 'react-markdown'
 import { BlackButton } from '../components/about-us/about-us.styled'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
@@ -8,12 +9,22 @@ import { routeLinks } from '../config/routing'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import RecruitingProcess from '../pages/career/_RecruitingProcess'
 import styled from 'styled-components'
-import { CustomPageTitle, SectionInner, CustomSectionInner } from '../components/shared/index'
+import {
+  CustomPageTitle,
+  SectionInner,
+  CustomSectionInner,
+  TextRegular,
+  FlexWrapper,
+  CustomSectionTitle,
+} from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables from '../styles/variables'
 import { ArrowJobTemplateIcon } from '../components/icons/ArrowJobTemplate.icon'
 import { CustomSection } from './../components/shared/index'
 import { useScrollPosition } from '../components/utils/use-scrollposition'
+import { LinkedIn } from './../components/icons/LinkedIn.icon'
+
+import { clampBuilder } from './../helpers/clampBuilder'
 
 type ElementRef = MutableRefObject<HTMLElement | undefined>
 
@@ -85,9 +96,9 @@ const HoursWraper = styled.div`
     font-weight: 700;
   }
   > div {
-    margin-top: 0.5em
+    margin-top: 0.5em;
   }
-  
+
   @media ${variables.device.mobile} {
     font-size: 1.125rem;
   }
@@ -332,6 +343,124 @@ const WrapperJobBackButton = styled.div`
     }
   }
 `
+const WrapperRecruiterImage = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: ${clampBuilder(993, 1920, 94, 482)};
+
+  @media ${variables.device.tablet} {
+    left: 0;
+  }
+  @media ${variables.device.mobile} {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 333px;
+  }
+`
+const WrapperLinks = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: ${variables.pxToRem(40)};
+  padding-top: ${variables.pxToRem(64)};
+  & p a {
+    font-size: ${variables.pxToRem(26)};
+    line-height: ${variables.pxToRem(40)};
+    font-weight: 700;
+  }
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(83)};
+    & p a {
+      font-size: ${variables.pxToRem(22)};
+    }
+  }
+  @media ${variables.device.tablet} {
+    padding-top: ${variables.pxToRem(64)};
+  }
+  @media ${variables.device.tablet} {
+    padding-top: ${variables.pxToRem(32)};
+    & p a {
+      font-size: ${variables.pxToRem(18)};
+    }
+  }
+`
+const WrapperRecruiterDescription = styled(FlexWrapper)`
+  margin-left: ${clampBuilder(992, 1920, 551, 883)};
+  padding: ${variables.pxToRem(72)} 0;
+  @media ${variables.device.laptop} {
+    padding: ${variables.pxToRem(64)} 0;
+  }
+  @media ${variables.device.laptop} {
+    margin-right: ${variables.pxToRem(100)};
+  }
+  @media ${variables.device.tablet} {
+    padding: ${variables.pxToRem(32)} 0;
+    margin-left: ${clampBuilder(541, 992, 367, 367)};
+    margin-right: ${variables.pxToRem(50)};
+  }
+  @media ${variables.device.mobile} {
+    margin-left: ${variables.pxToRem(18)};
+    margin-right: ${variables.pxToRem(18)};
+    padding: ${variables.pxToRem(183)} 0 ${variables.pxToRem(64)};
+  }
+`
+const TitleRecruiter = styled.p`
+  text-align: left;
+  font-size: ${variables.pxToRem(22)};
+  line-height: ${variables.pxToRem(40)};
+  font-weight: 400;
+  font-family: ${variables.font.customtitle.lato};
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(20)};
+  }
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(16)};
+    text-align: center;
+  }
+`
+const NameRecruiter = styled.p`
+  text-align: left;
+  font-size: ${variables.pxToRem(28)};
+  line-height: ${variables.pxToRem(34)};
+  font-weight: 800;
+  @media ${variables.device.mobile} {
+    text-align: center;
+  }
+`
+const WarkplaceRecruiter = styled.p`
+  text-align: left;
+  font-size: ${variables.pxToRem(17)};
+  line-height: ${variables.pxToRem(20)};
+  font-weight: 400;
+  @media ${variables.device.mobile} {
+    text-align: center;
+  }
+`
+const LinkLinkedin = styled.a`
+  background-color: ${variables.color.black};
+  display: flex;
+  align-items: center;
+  gap: ${variables.pxToRem(16)};
+  justify-content: center;
+  padding: ${variables.pxToRem(11)} 0;
+  max-width: ${variables.pxToRem(230)};
+  & span {
+    color: #f9f9f9;
+    font-size: ${variables.pxToRem(18)};
+    font-weight: 700;
+  }
+  @media ${variables.device.laptop} {
+    max-width: ${variables.pxToRem(194)};
+    & span {
+      font-size: ${variables.pxToRem(16)};
+    }
+  }
+  @media ${variables.device.mobile} {
+    max-width: 100%;
+    & span {
+      font-size: ${variables.pxToRem(18)};
+    }
+  }
+`
 
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
@@ -365,6 +494,7 @@ export default function Template({
   const listTechnologies = technologies?.map(technology => <li key={technology}>{technology}</li>)
 
   const image = getImage(page.imagejob)!
+  const recruiterImage = getImage(page.image_recruiter_info)!
   const [hideOnScroll, setHideOnScroll] = useState<boolean>(false)
   const [rotateArrow, setRotateArrow] = useState<boolean>(false)
 
@@ -419,16 +549,16 @@ export default function Template({
             <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
           </TechnologyWrapper>
           <ButtonWrapper>
-            <a href='#jobform'>
+            <Link to='#jobform'>
               <JobBlackButton>{page.button}</JobBlackButton>
-            </a>
+            </Link>
           </ButtonWrapper>
         </CustomSection>
 
         <ImageWrapper ref={boundingElement}>
           <ImageWrapperRef ref={element}>
             <div className='scroll'>
-              <GatsbyImage image={image} alt={page.image_alt_job} className='about-img' quality='100' />
+              <GatsbyImage image={image} alt={page.image_alt_job} className='about-img' />
               <SvgArrowWrapper className='arrow-wrapper' isRotate={rotateArrow} show={!hideOnScroll}>
                 <ArrowJobTemplateIcon />
               </SvgArrowWrapper>
@@ -449,6 +579,58 @@ export default function Template({
             recruting_image3_title={page.recruting_image3_title}
           />
         </RecruitingProcessWrappers>
+        <CustomSection
+          paddingProps='0 0 260px'
+          paddingLaptop='0 0 233px'
+          paddingTabletXL='0 144px 328px'
+          paddingTablet='0 36px 205px '
+          paddingMobileProps='0 18px 192px'
+        >
+          <CustomSectionInner maxWidth='866px' laptopMaxWidth='736px'>
+            {page.show_new_title_more_about_us ? (
+              <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+                {page.title_more_about_us}{' '}
+              </CustomSectionTitle>
+            ) : (
+              <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+                if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+              </CustomSectionTitle>
+            )}
+
+            <TextRegular>
+              <WrapperLinks>
+                <ReactMarkdown children={page.links_more_about_us} />
+              </WrapperLinks>
+            </TextRegular>
+          </CustomSectionInner>
+        </CustomSection>
+
+        <CustomSection
+          paddingLaptop='0'
+          paddingProps='0'
+          paddingTabletXL='0 '
+          paddingTablet='0'
+          paddingMobileProps='0'
+          style={{ backgroundColor: '#F7931E', position: 'relative' }}
+        >
+          <WrapperRecruiterDescription desktopDirection='column' desktopGap='44px' laptopGap='42px' mobileGap='24px'>
+            <TitleRecruiter>{page.title_recruiter_info}</TitleRecruiter>
+            <FlexWrapper desktopGap='11px' desktopDirection='column'>
+              <NameRecruiter>{page.name_recruiter}</NameRecruiter>
+              <WarkplaceRecruiter>{page.workplace_recruiter}</WarkplaceRecruiter>
+            </FlexWrapper>
+
+            <LinkLinkedin target='_blank' href={`${page.button_linkedin}`}>
+              <LinkedIn />
+              <span>contact</span>
+            </LinkLinkedin>
+          </WrapperRecruiterDescription>
+
+          <WrapperRecruiterImage>
+            <GatsbyImage image={recruiterImage} alt={page.image_alt_recruiter_info} className='about-img' />
+          </WrapperRecruiterImage>
+        </CustomSection>
+
         <CustomSection>
           <CustomSectionInner id='jobform' tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
             <JobFormComponent
@@ -457,8 +639,8 @@ export default function Template({
               description={
                 <>
                   You can either use our form below or send your application directly via email{' '}
-                  <a href='mailto:ula@bright.dev'>ula@bright.dev</a>
-                  . Feel free to ask any questions on the position and the project.
+                  <a href='mailto:ula@bright.dev'>ula@bright.dev</a>. Feel free to ask any questions on the position and
+                  the project.
                 </>
               }
               namePlaceholder={'Enter name here'}
@@ -534,9 +716,22 @@ export const pageQuery = graphql`
         image_alt_job
         recruting_image2_title
         recruting_image3_title
+        title_more_about_us
+        show_new_title_more_about_us
+        links_more_about_us
+        title_recruiter_info
+        name_recruiter
+        workplace_recruiter
+        image_alt_recruiter_info
+        button_linkedin
         imagejob {
           childImageSharp {
             gatsbyImageData
+          }
+        }
+        image_recruiter_info {
+          childImageSharp {
+            gatsbyImageData(placeholder: DOMINANT_COLOR, layout: CONSTRAINED, height: 550)
           }
         }
       }
