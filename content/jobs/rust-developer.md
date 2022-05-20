@@ -3,6 +3,8 @@ layout: job
 title: "Rust Developer "
 subtitle: ONGOING
 imagejob: /images/backendteam.png
+workplace_recruiter: HR & Marketing Manager
+button_instagram: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 image-alt-job: Bright Inventions team
 hours: full-time
 salary: 18 000 - 25 000 PLN + VAT (B2B) or 14 950 - 20 750 PLN gross (UoP)
@@ -22,12 +24,11 @@ links_more_about_us: >-
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: HR & Marketing Manager
+title_recruiter_info: "Do you have any questions? Ask Ula from our Bright team! "
 name_recruiter: Ula
-workplace_recruiter: Do you have any questions? Ask Ula from our Bright team!
 image_recruiter_info: /images/ula_recruiter.png
 image_alt_recruiter_info: Ula Stankiewicz HR & Marketing Manager at Bright Inventions
-button_instagram: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
+button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join our Bright team
 published: true
 order: 1
