@@ -237,7 +237,7 @@ export const CustomSectionTitle = styled.h2<{
   ${TitleBase};
   font-size: ${variables.pxToRem(40)};
   font-weight: 900;
-  line-height: 3.06rem;
+  line-height: 150%;
   margin: ${({ margin }) => (margin ? margin : '9.625rem 0 6.56rem')};
   color: ${variables.color.heading};
   & span:not(a span) {
@@ -365,5 +365,59 @@ export const BlackButton = styled(Button)`
   &:hover {
     background: ${variables.color.primary};
     color: #fff;
+    justify-content: ;
+  }
+`
+export const FlexWrapper = styled.div<{
+  desktopDirection?: string
+  desktopContent?: string
+  desktopItems?: string
+  desktopGap?: string
+  laptopDirection?: string
+  laptopContent?: string
+  laptopItems?: string
+  laptopGap?: string
+  tabletXLDirection?: string
+  tabletXLContent?: string
+  tabletXLItems?: string
+  tabletXLGap?: string
+  tabletDirection?: string
+  tabletContent?: string
+  tabletItems?: string
+  tabletGap?: string
+  mobileDirection?: string
+  mobileContent?: string
+  mobileItems?: string
+  mobileGap?: string
+}>`
+  display: flex;
+  flex-direction: ${({ desktopDirection }) => desktopDirection};
+  justify-content: ${({ desktopContent }) => desktopContent};
+  align-items: ${({ desktopItems }) => desktopItems};
+  gap: ${({ desktopGap }) => desktopGap};
+
+  @media ${variables.device.laptop} {
+    flex-direction: ${({ laptopDirection }) => laptopDirection};
+    justify-content: ${({ laptopContent }) => laptopContent};
+    align-items: ${({ laptopItems }) => laptopItems};
+    gap: ${({ laptopGap }) => laptopGap};
+  }
+  @media ${variables.device.tabletXL} {
+    flex-direction: ${({ tabletXLDirection }) => tabletXLDirection};
+    justify-content: ${({ tabletXLContent }) => tabletXLContent};
+    align-items: ${({ tabletXLItems }) => tabletXLItems};
+    gap: ${({ tabletXLGap }) => tabletXLGap};
+  }
+  @media ${variables.device.tablet} {
+    flex-direction: ${({ tabletDirection }) => tabletDirection};
+    justify-content: ${({ tabletContent }) => tabletContent};
+    align-items: ${({ tabletItems }) => tabletItems};
+    gap: ${({ tabletGap }) => tabletGap};
+  }
+  @media ${variables.device.mobile} {
+    flex-direction: ${({ mobileDirection }) => mobileDirection};
+    justify-content: ${({ mobileContent }) => mobileContent};
+    align-items: ${({ mobileItems }) => mobileItems};
+    gap: ${({ mobileGap }) => mobileGap};
   }
 `
