@@ -7,14 +7,30 @@ image-alt-job: Android Team Bright Inventions
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
 salary_min: 20000
-salary_max: 26000 
+salary_max: 26000
 working time: 26 paid days off + Polish bank holidays
 technology:
   - Android SDK
   - Android Studio
   - Kotlin
-  - JetPack Compose 
+  - JetPack Compose
   - Kotlin Coroutines
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: Do you have any questions? Ask Paulina from our Bright team!
+name_recruiter: Paulina
+workplace_recruiter: Recruiting Specialist
+image_recruiter_info: /images/paulina_recruiter.png
+image_alt_recruiter_info: Paulina Trendel
+button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
 button: join our Kotlin team
 redirect_from:
   - /android-developer
