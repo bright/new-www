@@ -14,12 +14,29 @@ technology:
   - Kubernetes
   - Continuos Delivery
   - Java/Kotlin
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
+name_recruiter: Ula
+workplace_recruiter: HR & Marketing Manager
+image_recruiter_info: /images/ula_recruiter_hr.png
+image_alt_recruiter_info: Ula Stankiewicz - HR & Marketing Manager at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join our Bright team
 published: true
 order: 10
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: DevOps task
-description: We are looking for a DevOps Engineer who has good knowledge of AWS cloud services and experience with managing Kubernetes in production. Apply!
+description: We are looking for a DevOps Engineer who has good knowledge of AWS
+  cloud services and experience with managing Kubernetes in production. Apply!
 ---
 ## who we are
 
