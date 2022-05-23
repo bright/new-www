@@ -16,10 +16,28 @@ technology:
   - AWS
   - PostgreSQL
   - MySQL
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: Do you have any questions? Ask Paulina from our Bright team!
+workplace_recruiter: Recruiting Specialist
+image_recruiter_info: /images/paulina_recruiter.png
+hidden: true
+name_recruiter: Paulina
+image_alt_recruiter_info: Paulina Trender - a recruiter
+button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
 button: join our backend team
 published: false
-hidden: true
 order: 3
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking for an experienced Backend Developer who understands
   Java/Kotlin & Spring really well and who would like to work with AWS on daily
   basis.
