@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Project Manager
-subtitle: OPENING SOON 
+subtitle: OPENING SOON
 imagejob: /images/projectmanagerbrightteam_passion.png
 image-alt-job: "job for project manager "
 hours: full-time
@@ -14,12 +14,29 @@ technology:
   - Confluence
   - Scrum
   - Kanban
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
+name_recruiter: Ula
+workplace_recruiter: HR & Marketing Manager
+image_recruiter_info: /images/ula_recruiter_hr.png
+image_alt_recruiter_info: Ula Stankiewicz - a Recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join Agile team
 published: true
 order: 11
 recruting_image2_title: "interview "
 recruting_image3_title: PM task
-description: We are looking for a Project Manager who will support our team in planning, executing, monitoring and closing our Bright projects. Apply!
+description: We are looking for a Project Manager who will support our team in
+  planning, executing, monitoring and closing our Bright projects. Apply!
 ---
 ## **about the role**
 
