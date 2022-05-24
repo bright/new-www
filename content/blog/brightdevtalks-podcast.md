@@ -19,11 +19,11 @@ published: true
 
 **So here we are with a brand new brightdevtalks podcast which is available on Spotify and Apple Podcasts (only in Polish).** Soon will be available on Apple Podcasts and Prime Music.
 
-**Follow on Spotify**
+## Follow on Spotify
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-**Follow on Apple Podcasts**
+## Follow on Apple Podcasts
 
 <center>
 
