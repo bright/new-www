@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: mateusz-b
-ex: false
+ex: true
 slug: mateusz-b
 name: Mateusz Bienias
 short_name: Mateusz
