@@ -5,7 +5,7 @@ tags:
   - update
   - development
   - inspiration
-date: 2022-05-24T08:10:41.833Z
+date: 2022-05-24T08:59:17.508Z
 title: Bright Podcast is Here! Listen to brightdevtalks by Patryk Szlagowski
 layout: post
 image: /images/blog_cover-_podcast.png
