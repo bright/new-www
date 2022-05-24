@@ -6,8 +6,8 @@ slug: piotr-r
 name: Piotr Rutka
 short_name: Piotr
 email: piotr.rutka@brightinventions.pl
-bio: Android Developer
-description: Android Developer
+bio: Senior Android Developer
+description: Senior Android Developer
 avatar: /images/piotr_r2_team.png
 avatar_hover: /images/piotr_r_passion2.png
 published: true
