@@ -17,7 +17,7 @@ published: true
 
 [Patryk](/about-us/patryk-sz/) is a Bright Senior Backend Developer with over 10 years of experience. He decided that it was high time to share his knowledge with others. And we couldn’t agree more.
 
-**So here we are with a brand new brightdevtalks podcast which is available on Spotify and Apple Podcasts (only in Polish).** Soon will be available on Apple Podcasts and Prime Music.
+**So here we are with a brand new brightdevtalks podcast which is available on Spotify and Apple Podcasts (only in Polish).** Soon will be available on Google Podcasts and Prime Music too.
 
 ## Follow on Spotify
 
