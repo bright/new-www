@@ -14,9 +14,28 @@ technology:
   - JavaScript
   - Node.js
   - React
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+name_recruiter: Agata
+workplace_recruiter: Junior Recruiting Specialist
+image_recruiter_info: /images/agata_recruiter.png
+image_alt_recruiter_info: Agata Mietlińska - A Recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our TypeScript team
 published: true
+show_recruiter_info: true
 order: 2
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
   projects.
