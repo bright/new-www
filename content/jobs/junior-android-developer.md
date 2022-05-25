@@ -12,9 +12,13 @@ working time: full time
 technology:
   - Android
   - Kotlin
+show_new_title_more_about_us: false
 button: Join Android Team
 published: false
+show_recruiter_info: false
 order: 9
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking for a Junior Android Developer to join our team. We
   want to offer you an opportunity to work with modern frameworks and tools.
 ---
