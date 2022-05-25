@@ -505,7 +505,7 @@ export default function Template({
 }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
-
+  console.log(page, 'job')
   const technologies = page.technology
 
   const listTechnologies = technologies?.map(technology => <li key={technology}>{technology}</li>)
@@ -596,63 +596,67 @@ export default function Template({
             recruting_image3_title={page.recruting_image3_title}
           />
         </RecruitingProcessWrappers>
-        <CustomSection
-          paddingProps='0 0 260px'
-          paddingLaptop='0 0 233px'
-          paddingTabletXL='0 144px 164px'
-          paddingTablet='0 36px 205px '
-          paddingMobileProps='0 18px 192px'
-        >
-          <CustomSectionInner maxWidth='866px' laptopMaxWidth='736px'>
-            {page.show_new_title_more_about_us ? (
-              <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
-                {page.title_more_about_us}{' '}
-              </CustomSectionTitle>
-            ) : (
-              <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
-                if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
-              </CustomSectionTitle>
-            )}
+        {page.show_recruiter_info && (
+          <>
+            <CustomSection
+              paddingProps='0 0 260px'
+              paddingLaptop='0 0 233px'
+              paddingTabletXL='0 144px 164px'
+              paddingTablet='0 36px 205px '
+              paddingMobileProps='0 18px 192px'
+            >
+              <CustomSectionInner maxWidth='866px' laptopMaxWidth='736px'>
+                {page.show_new_title_more_about_us ? (
+                  <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+                    {page.title_more_about_us}{' '}
+                  </CustomSectionTitle>
+                ) : (
+                  <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+                    if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+                  </CustomSectionTitle>
+                )}
 
-            <TextRegular>
-              <WrapperLinks>
-                <ReactMarkdown children={page.links_more_about_us} />
-              </WrapperLinks>
-            </TextRegular>
-          </CustomSectionInner>
-        </CustomSection>
+                <TextRegular>
+                  <WrapperLinks>
+                    <ReactMarkdown children={page.links_more_about_us} />
+                  </WrapperLinks>
+                </TextRegular>
+              </CustomSectionInner>
+            </CustomSection>
 
-        <CustomSection
-          paddingLaptop='0'
-          paddingProps='0'
-          paddingTabletXL='0 '
-          paddingTablet='0'
-          paddingMobileProps='0'
-          style={{ backgroundColor: '#F7931E', position: 'relative' }}
-        >
-          <WrapperRecruiterDescription
-            desktopDirection='column'
-            desktopGap='44px'
-            laptopGap='21px'
-            tabletXLGap='42px'
-            mobileGap='24px'
-          >
-            <TitleRecruiter>{page.title_recruiter_info}</TitleRecruiter>
-            <FlexWrapper desktopGap='11px' desktopDirection='column'>
-              <NameRecruiter>{page.name_recruiter}</NameRecruiter>
-              <WarkplaceRecruiter>{page.workplace_recruiter}</WarkplaceRecruiter>
-            </FlexWrapper>
+            <CustomSection
+              paddingLaptop='0'
+              paddingProps='0'
+              paddingTabletXL='0 '
+              paddingTablet='0'
+              paddingMobileProps='0'
+              style={{ backgroundColor: '#F7931E', position: 'relative' }}
+            >
+              <WrapperRecruiterDescription
+                desktopDirection='column'
+                desktopGap='44px'
+                laptopGap='21px'
+                tabletXLGap='42px'
+                mobileGap='24px'
+              >
+                <TitleRecruiter>{page.title_recruiter_info}</TitleRecruiter>
+                <FlexWrapper desktopGap='11px' desktopDirection='column'>
+                  <NameRecruiter>{page.name_recruiter}</NameRecruiter>
+                  <WarkplaceRecruiter>{page.workplace_recruiter}</WarkplaceRecruiter>
+                </FlexWrapper>
 
-            <LinkLinkedin target='_blank' href={`${page.button_linkedin}`}>
-              <LinkedIn />
-              <span>contact</span>
-            </LinkLinkedin>
-          </WrapperRecruiterDescription>
+                <LinkLinkedin target='_blank' href={`${page.button_linkedin}`}>
+                  <LinkedIn />
+                  <span>contact</span>
+                </LinkLinkedin>
+              </WrapperRecruiterDescription>
 
-          <WrapperRecruiterImage>
-            <GatsbyImage image={recruiterImage} alt={page.image_alt_recruiter_info} className='recruiter-img' />
-          </WrapperRecruiterImage>
-        </CustomSection>
+              <WrapperRecruiterImage>
+                <GatsbyImage image={recruiterImage} alt={page.image_alt_recruiter_info} className='recruiter-img' />
+              </WrapperRecruiterImage>
+            </CustomSection>
+          </>
+        )}
 
         <CustomSection>
           <CustomSectionInner id='jobform' tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
@@ -741,6 +745,7 @@ export const pageQuery = graphql`
         recruting_image3_title
         title_more_about_us
         show_new_title_more_about_us
+        show_recruiter_info
         links_more_about_us
         title_recruiter_info
         name_recruiter
