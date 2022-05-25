@@ -47,6 +47,8 @@ You can start by creating an idea at BrightTreasury and see if the community app
 
 ## Don’t stay silent. Suggest improvements and give rewards for a job well done
 
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/dXjNNfDMiNhluC1aqQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/lastmanstandingfox-foxtv-last-man-standing-817-dXjNNfDMiNhluC1aqQ">via GIPHY</a></p>
+
 Thanks to Treasury Bounty Mechanism you can suggest to the council the task that should be done by someone qualified to do it. Then it will be funded by Treasury. What kind of task it could be? Everything which will contribute to the Polkadot and Kusama networks. Remember, this is not about a task that suits only you. 
 
 For example, you can create a bounty to build a plugin for some application that Kusama or Polkadot networks use, suggest a feature that would be helpful, or create a bounty for a video promoting Web3. However, when you create a bounty you need to present your case with arguments about why the bounty will contribute to the community. Then the council will decide if this bounty should be supported and even chooses a curator who is an expert in the field to take care that the bounty is done. Read more about the Treasury Bounty Mechanism.
