@@ -1,5 +1,5 @@
 ---
-imagejob: /images/frontendteam.png
+imagejob: /images/frontendteam_job_offer.png
 workplace_recruiter: Junior Recruiter Specialist
 Show_recruiter_info: true
 layout: job
