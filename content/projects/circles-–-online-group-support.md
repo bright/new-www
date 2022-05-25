@@ -72,10 +72,4 @@ Eyal Cafri – VP R&D at Circles:
 
 As always we will support our client and deliver the best possible solutions to satisfy the growing number of Circles users. Having in mind that we help to develop a unique product that enables people to go through life-changing events and offers them essential support. We are proud and grateful to be able to assist Circles in building such a unique healthcare application.
 
-What is more, 2022 has became a very special year for our client! Circles raised $16.5 million in funding in their Series A round. Congratulations to the Circles team. 👏
-
-<center>
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6934897008444870656" height="1130" width="504" frameborder="0" allowfullscreen="" title="Osadzona publikacja"></iframe>
-
-</center>
+What is more, 2022 has become a very special year for our client! Circles raised $16.5 million in funding in their Series A round. Congratulations to the Circles team. 👏
