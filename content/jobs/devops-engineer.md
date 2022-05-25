@@ -1,8 +1,10 @@
 ---
+imagejob: /images/brightteam_devops.png
+workplace_recruiter: HR & Marketing Manager
+Show_recruiter_info: true
 layout: job
 title: "DevOps Engineer "
 subtitle: ONGOING
-imagejob: /images/brightteam_devops.png
 image-alt-job: Bright Inventions team
 hours: Full-time
 salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
@@ -26,13 +28,12 @@ links_more_about_us: >-
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
 name_recruiter: Ula
-workplace_recruiter: HR & Marketing Manager
 image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: Ula Stankiewicz - HR & Marketing Manager at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join our Bright team
 published: true
-Show_recruiter_info: true
+show_recruiter_info: true
 order: 10
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: DevOps task
