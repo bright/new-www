@@ -19,7 +19,7 @@ published: true
 
 Do you own an event agency or work at one of them? You can organize events promoting Substrate blockchain technology. What is more, you can get funds from the Treasury that will cover your event management expenses. How to create a treasury proposal? 
 
-You can use BrightTreasury – a page built exclusively to make a Treasury proposal fast and easy. The development of BrightTrasury is 100% funded by Kusama and Polkadot Treasury. Only at BrightTreasury, you can simply publish your idea for an event before you turn it into a Treasury proposal which will be voted on by the council.
+You can use [BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=contributetoweb3&utm_id=content_marketing) – a page built exclusively to make a Treasury proposal fast and easy. The development of BrightTrasury is 100% funded by Kusama and Polkadot Treasury. Only at BrightTreasury, you can simply publish your idea for an event before you turn it into a Treasury proposal which will be voted on by the council.
 
 It is a recommended way to start by publishing your idea for an event. In this way, you can show your plans to the community and receive feedback. When comments from the community are positive you can quickly turn your idea into a proposal via BrightTreasury. 
 
@@ -31,7 +31,7 @@ Why is it better to start with the idea? Because when you officially apply for f
 
 [https://treasury.bright.dev/proposals/117/](https://treasury.bright.dev/proposals/117/info?networkId=polkadot)
 
-[https://treasury.bright.dev/proposals/113/](https://treasury.bright.dev/proposals/117/info?networkId=polkadot)
+[https://treasury.bright.dev/proposals/113/](https://treasury.bright.dev/proposals/113/info?networkId=polkadot)
 
 ## Translate educational materials or create new ones in your language
 
@@ -46,6 +46,8 @@ You can start by creating an idea at BrightTreasury and see if the community app
 [https://treasury.bright.dev/proposals/76/](https://treasury.bright.dev/proposals/76/info?networkId=polkadot)
 
 ## Don’t stay silent. Suggest improvements and give rewards for a job well done
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/dXjNNfDMiNhluC1aqQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/lastmanstandingfox-foxtv-last-man-standing-817-dXjNNfDMiNhluC1aqQ">via GIPHY</a></p>
 
 Thanks to Treasury Bounty Mechanism you can suggest to the council the task that should be done by someone qualified to do it. Then it will be funded by Treasury. What kind of task it could be? Everything which will contribute to the Polkadot and Kusama networks. Remember, this is not about a task that suits only you. 
 
