@@ -14,11 +14,13 @@ technology:
   - Android Studio
   - Android SDK
   - Kotlin Coroutines
+show_new_title_more_about_us: false
 button: join our Android team
 redirect_from:
   - /android-developer
   - /android-developer/
 published: false
+show_recruiter_info: false
 order: 6
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
