@@ -25,11 +25,11 @@ Why is it better to start with the idea? Because when you officially apply for f
 
 **Check our Treasury proposals as an inspiration:**
 
-<https://treasury.bright.dev/proposals/149/info?networkId=kusama>
+[https://treasury.bright.dev/proposals/149/](https://treasury.bright.dev/proposals/149/info?networkId=kusama)
 
-<https://treasury.bright.dev/proposals/117/info?networkId=polkadot>
+[https://treasury.bright.dev/proposals/117/](https://treasury.bright.dev/proposals/117/info?networkId=polkadot)
 
-[https://treasury.bright.dev/proposals/113/info?networkId=polkadot](https://treasury.bright.dev/proposals/117/info?networkId=polkadot)
+[https://treasury.bright.dev/proposals/113/](https://treasury.bright.dev/proposals/117/info?networkId=polkadot)
 
 ## Translate educational materials or create new ones in your language
 
