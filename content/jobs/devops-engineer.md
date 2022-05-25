@@ -32,6 +32,7 @@ image_alt_recruiter_info: Ula Stankiewicz - HR & Marketing Manager at Bright Inv
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join our Bright team
 published: true
+Show_recruiter_info: true
 order: 10
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: DevOps task
