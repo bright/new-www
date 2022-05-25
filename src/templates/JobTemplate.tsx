@@ -348,8 +348,25 @@ const WrapperRecruiterImage = styled.div`
   bottom: 0;
   left: ${clampBuilder(993, 1920, 94, 482)};
 
+  @media ${variables.device.laptop} {
+    & .recruiter-img {
+      max-height: 420px;
+      & img {
+        height: 420px;
+        width: auto;
+      }
+    }
+  }
+
   @media ${variables.device.tablet} {
     left: 0;
+    & .recruiter-img {
+      max-height: 100%;
+      & img {
+        height: 100%;
+        width: auto;
+      }
+    }
   }
   @media ${variables.device.mobile} {
     left: 50%;
@@ -387,7 +404,7 @@ const WrapperRecruiterDescription = styled(FlexWrapper)`
   margin-left: ${clampBuilder(992, 1920, 551, 883)};
   padding: ${variables.pxToRem(72)} 0;
   @media ${variables.device.laptop} {
-    padding: ${variables.pxToRem(64)} 0;
+    padding: ${variables.pxToRem(33)} 0;
   }
   @media ${variables.device.laptop} {
     margin-right: ${variables.pxToRem(100)};
@@ -582,7 +599,7 @@ export default function Template({
         <CustomSection
           paddingProps='0 0 260px'
           paddingLaptop='0 0 233px'
-          paddingTabletXL='0 144px 328px'
+          paddingTabletXL='0 144px 164px'
           paddingTablet='0 36px 205px '
           paddingMobileProps='0 18px 192px'
         >
@@ -613,7 +630,13 @@ export default function Template({
           paddingMobileProps='0'
           style={{ backgroundColor: '#F7931E', position: 'relative' }}
         >
-          <WrapperRecruiterDescription desktopDirection='column' desktopGap='44px' laptopGap='42px' mobileGap='24px'>
+          <WrapperRecruiterDescription
+            desktopDirection='column'
+            desktopGap='44px'
+            laptopGap='21px'
+            tabletXLGap='42px'
+            mobileGap='24px'
+          >
             <TitleRecruiter>{page.title_recruiter_info}</TitleRecruiter>
             <FlexWrapper desktopGap='11px' desktopDirection='column'>
               <NameRecruiter>{page.name_recruiter}</NameRecruiter>
@@ -627,7 +650,7 @@ export default function Template({
           </WrapperRecruiterDescription>
 
           <WrapperRecruiterImage>
-            <GatsbyImage image={recruiterImage} alt={page.image_alt_recruiter_info} className='about-img' />
+            <GatsbyImage image={recruiterImage} alt={page.image_alt_recruiter_info} className='recruiter-img' />
           </WrapperRecruiterImage>
         </CustomSection>
 
@@ -731,7 +754,7 @@ export const pageQuery = graphql`
         }
         image_recruiter_info {
           childImageSharp {
-            gatsbyImageData(placeholder: DOMINANT_COLOR, layout: CONSTRAINED, height: 550)
+            gatsbyImageData(placeholder: DOMINANT_COLOR, layout: CONSTRAINED, height: 600)
           }
         }
       }
