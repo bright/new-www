@@ -3,7 +3,7 @@ author: izabela
 tags:
   - BrightTreasury
   - blockchain
-date: 2022-05-25T17:19:58.849Z
+date: 2022-05-25T17:21:52.413Z
 title: How Can Non-Technical People Contribute to Kusama and Polkadot Networks? Part 1
 layout: post
 image: /images/contribute_to_web3.png
@@ -12,6 +12,8 @@ comments: true
 published: true
 ---
 **Are you excited about the Web3 idea? Check out how you can be a part of it. Contribute to Kusama and Polkadot networks to build the internet of the future. You don’t have to be a blockchain developer. Here are the alternative ways to be a part of Web3.**
+
+![How to be a part of Web3](/images/contribute_to_web3.png)
 
 ## Organize an event about Substrate blockchain
 
