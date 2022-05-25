@@ -1,5 +1,5 @@
 ---
-imagejob: /images/iosteam.png
+imagejob: /images/iosteam_job_offer.png
 workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
