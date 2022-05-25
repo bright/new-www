@@ -29,12 +29,13 @@ links_more_about_us: >-
 title_recruiter_info: Do you have any questions? Ask Paulina from our Bright team!
 workplace_recruiter: Recruiting Specialist
 image_recruiter_info: /images/paulina_recruiter.png
+button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
+published: false
+Show_recruiter_info: true
 hidden: true
 name_recruiter: Paulina
-image_alt_recruiter_info: Paulina Trender - a recruiter
-button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
+image_alt_recruiter_info: Paulina Trender - a Recruiter at Bright Inventions
 button: join our backend team
-published: false
 order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
