@@ -37,6 +37,7 @@ redirect_from:
   - /ios-developer
   - /ios-developer/
 published: true
+Show_recruiter_info: true
 order: 11
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
