@@ -15,9 +15,13 @@ technology:
   - Cocoa Touch
   - Swift Package Manager
   - Realm
+show_new_title_more_about_us: false
 button: join our iOS team
 published: false
+show_recruiter_info: false
 order: 11
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
 description: We are looking for an experienced Senior iOS Developer who
   understands Swift & iOS SDK and who would like to develop innovative iOS ePOS
   application.
