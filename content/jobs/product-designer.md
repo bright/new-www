@@ -1,10 +1,9 @@
 ---
-imagejob: /images/productdesignerbrightteam_passion.webp
-image-alt-job: Bright Inventions team
-hidden: false
 layout: job
 title: "Product Designer "
 subtitle: ONGOING
+imagejob: /images/productdesignerbrightteam_passion.webp
+image-alt-job: Bright Inventions team
 hours: full-time
 salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
 salary_min: 12000
@@ -16,6 +15,23 @@ technology:
   - Sketch
   - Adobe Illustrator
   - Adobe Photoshop
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+workplace_recruiter: Junior Recruiting Specialist
+image_recruiter_info: /images/agata_recruiter.png
+hidden: false
+name_recruiter: Agata
+image_alt_recruiter_info: Agata Mielińska - a recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
 published: true
 order: 1
