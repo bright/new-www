@@ -7,7 +7,7 @@ date: 2022-05-25T10:31:10.867Z
 title: How Can Non-Technical People Contribute to Kusama and Polkadot Networks? Part 1
 layout: post
 image: /images/contribute_to_web3.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -51,11 +51,11 @@ For example, you can create a bounty to build a plugin for some application that
 
 **Here are examples of bounties created by the community:**
 
-<https://treasury.bright.dev/bounties/10/info?networkId=polkadot>
+[https://treasury.bright.dev/bounties/10/](https://treasury.bright.dev/bounties/10/info?networkId=polkadot)
 
-<https://treasury.bright.dev/bounties/11/info?networkId=polkadot>
+[https://treasury.bright.dev/bounties/11/](https://treasury.bright.dev/bounties/11/info?networkId=polkadot)
 
-<https://treasury.bright.dev/bounties/13/info?networkId=polkadot>
+[https://treasury.bright.dev/bounties/13/](https://treasury.bright.dev/bounties/13/info?networkId=polkadot)
 
 ## Write articles about Web3 to share the idea behind it
 
