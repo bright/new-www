@@ -158,6 +158,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+      - { label: 'Show recruiter info', name: 'Show_recruiter_info', widget: 'boolean', default: false }
       - {
           label: 'Order',
           name: 'order',
