@@ -132,26 +132,47 @@ collections:
           widget: 'boolean',
           default: false,
         }
-      - { label: 'Links', name: 'links_more_about_us', widget: 'markdown' }
+      - { label: 'Links', name: 'links_more_about_us', widget: 'markdown', required: false }
       - {
           label: 'Title Recruiter Info',
           name: 'title_recruiter_info',
           widget: 'string',
+          required: false,
           hint: 'section recruiter info',
         }
-      - { label: 'Name Recruiter', name: 'name_recruiter', widget: 'string', hint: 'section recruiter info' }
-      - { label: 'Workplace Recruiter', name: 'workplace_recruiter', widget: 'string', hint: 'section recruiter info' }
-      - { label: 'Image Recruiter Info', name: 'image_recruiter_info', widget: 'image', hint: 'section recruiter info' }
+      - {
+          label: 'Name Recruiter',
+          name: 'name_recruiter',
+          widget: 'string',
+          required: false,
+          hint: 'section recruiter info',
+        }
+      - {
+          label: 'Workplace Recruiter',
+          name: 'workplace_recruiter',
+          widget: 'string',
+          required: false,
+          hint: 'section recruiter info',
+        }
+      - {
+          label: 'Image Recruiter Info',
+          name: 'image_recruiter_info',
+          widget: 'image',
+          required: false,
+          hint: 'section recruiter info',
+        }
       - {
           label: 'Image Alt Recruiter Info',
           name: 'image_alt_recruiter_info',
           widget: string,
+          required: false,
           hint: 'section recruiter info',
         }
       - {
           label: 'Button LinkedIn ',
           name: 'button_linkedin',
           widget: 'string',
+          required: false,
           hint: 'https://www.linkedin.com/in/your_address/  -section recruiter info',
         }
       - { label: 'Button', name: 'button', widget: 'string' }
