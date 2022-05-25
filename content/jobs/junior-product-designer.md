@@ -9,19 +9,23 @@ salary: 6000 - 9000 PLN + VAT (B2B) or 5000 - 7500 PLN gross (UoP)
 salary_min: 5000
 salary_max: 8999
 working time: full time
-technology:
-  - Adobe XD 
-  - Figma 
-  - Sketch 
-  - Adobe Illustrator 
-  - Adobe Photoshop
+show_new_title_more_about_us: false
 button: "join our design team "
 published: false
+show_recruiter_info: false
 hidden: true
+technology:
+  - Adobe XD
+  - Figma
+  - Sketch
+  - Adobe Illustrator
+  - Adobe Photoshop
 order: 1
 recruting_image2_title: interview
 recruting_image3_title: product design task
-description: We are seeking a Junior Product Designer who will support our product design team. You will learn how to create wireframes, mock-ups and prototypes. Apply!
+description: We are seeking a Junior Product Designer who will support our
+  product design team. You will learn how to create wireframes, mock-ups and
+  prototypes. Apply!
 ---
 ## who we are
 
