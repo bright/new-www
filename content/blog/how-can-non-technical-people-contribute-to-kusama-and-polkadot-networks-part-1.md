@@ -39,9 +39,9 @@ You can start by creating an idea at BrightTreasury and see if the community app
 
 **Examples of proposals to create content in other languages (than English):**
 
-<https://treasury.bright.dev/proposals/104/info?networkId=polkadot>
+[https://treasury.bright.dev/proposals/104/](https://treasury.bright.dev/proposals/104/info?networkId=polkadot)
 
-<https://treasury.bright.dev/proposals/76/info?networkId=polkadot>
+[https://treasury.bright.dev/proposals/76/](https://treasury.bright.dev/proposals/76/info?networkId=polkadot)
 
 ## Don’t stay silent. Suggest improvements and give rewards for a job well done
 
