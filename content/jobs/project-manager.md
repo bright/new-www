@@ -1,8 +1,10 @@
 ---
+imagejob: /images/projectmanagerbrightteam_passion.png
+workplace_recruiter: HR & Marketing Manager
+Show_recruiter_info: true
 layout: job
 title: Project Manager
 subtitle: OPENING SOON
-imagejob: /images/projectmanagerbrightteam_passion.png
 image-alt-job: "job for project manager "
 hours: full-time
 salary: 10 000 - 15 000 PLN + VAT (B2B) or 8300 - 12 400 PLN gross (UoP)
@@ -26,13 +28,12 @@ links_more_about_us: >-
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
 name_recruiter: Ula
-workplace_recruiter: HR & Marketing Manager
 image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: Ula Stankiewicz - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join Agile team
 published: true
-Show_recruiter_info: true
+show_recruiter_info: true
 order: 11
 recruting_image2_title: "interview "
 recruting_image3_title: PM task
