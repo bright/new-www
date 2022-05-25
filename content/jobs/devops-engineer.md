@@ -1,5 +1,5 @@
 ---
-imagejob: /images/brightteam_devops.png
+imagejob: /images/brightteam_devops_job_offer.png
 workplace_recruiter: HR & Marketing Manager
 Show_recruiter_info: true
 layout: job
