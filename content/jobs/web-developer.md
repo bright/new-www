@@ -1,17 +1,30 @@
 ---
 layout: job
-date: 2019-01-30
 title: Web Developer
-subtitle:
-description: We are looking for a Web Developer who would like to work with our experienced and ambitious development team.
+subtitle: CLOSED
+imagejob: /images/frontendteam_job_offer.png
+image-alt-job: Web Developer Team at Bright Inventions
 hours: Full-time
 salary: 8 000 - 15 000 PLN + VAT (B2B)
 salary_min: 8000
 salary_max: 12000
-order: 1
+working time: full time
+technology:
+  - TypeScript
+  - React
+show_new_title_more_about_us: false
+button: join our web team
 redirect_from:
   - /javascript-developer
   - /javascript-developer/
+published: false
+show_recruiter_info: false
+order: 1
+recruting_image2_title: interview (technical part & non-technical part)
+date: 2019-01-30
+recruting_image3_title: programming task
+description: We are looking for a Web Developer who would like to work with our
+  experienced and ambitious development team.
 ---
 
 Hi! We are really happy that you are here and that you want to join our team.  
