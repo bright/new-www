@@ -8,6 +8,9 @@ workplace_recruiter: HR & Marketing Manager
 Show_recruiter_info: true
 technology:
   - Blockchain
+  - Substrate
+  - Ethereum 
+  - Kusama
   - AWS
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 show_recruiter_info: true
@@ -37,50 +40,48 @@ order: 1
 recruting_image2_title: interview (technical & non-technical part)
 recruting_image3_title: programming task
 ---
-## who we are
+## about the role 🧑🏻‍💻👩🏻‍💻
 
-We are a team of talented senior developers who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
+We are looking for an experienced senior developer who is excited about Rust or C++ and would like to create blockchain software with us. It is an opportunity to work together with one of the world's most accomplished blockchain companies
 
-At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
+In this role you will be responsible for developing the infrastructure that will connect different blockchains to the Substrate and Polkadot ecosystems. You will deal with P2P networking, consensus algorithms, cryptography, databases, and decentralised applications on daily basis and support open-source Rust ecosystem.
 
+## your job will include 🙌
 
-## job description
+* blockchain protocol development 
+* Rust performance optimisation and tuning
+* build live networks like Kusama or Polkadot 
+* working on one of the existing Substrate/Polkadot/Kusama module for smart contract
+* sharing knowledge with the rest of the team
 
-We are looking now for an experienced  **Software Engineer** who has already had experience with development in Rust, Go or C#, and knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
+## preferred skills and qualifications ✅
 
-## what we would like to see
-
-* at least 3-4 years of commercial programming experience (including min. 2 years in backend development) 
-* very good knowledge of TypeScript/JavaScript
-* deep working experience with Node.js 
-* strong problem solving attitude and open mind
-* positive approach to work and new challenges  
-* advanced level of English (written and spoken)
+* at least 4 years of commercial programming experience
+* experience with Rust (or other systems programming languages e.g. C ++, C)
+* high-performance and high-security code focus
+* an interest in decentralised technology and Web3
+* knowledge of Bitcoin, Ethereum or other blockchain technologies
+* great communication skills in English (working in the international team)
+* eagerness to learn new technology 
 
 ## we would also appreciate if you have
 
-* familiarity with AWS or other Cloud providers
-* experience with development in React 
+* intrest in cryptography
+* experience with consensus algorithms
 
-
-## what you will find in our Bright Team
-
-* international projects for such organisation as United Nations or Parity 
-* flat structure and a great impact on the key project decisions 
-* flexible schedule and remote work possibility 
-* mentoring program and regular 1:1 meetings 
-* continuous feedback culture and open communication
-* MultiSport and private medical package 
-* company library with an extra budget for professional books 
-* good equipment: MacBook and additional accessories
-* Bright Day once a month for non-project stuff
-* weekly sport classes and in-house yoga time  
-* office in Gdańsk Wrzeszcz with a parking space nearby 
-* team retreats once a quarter and lunch roulette initiative 
-* board games evenings 
+## perks & benefits 🚀
+ 
+* 20-26 paid days off + Polish bank holidays
+* mentoring programme
+* internal developers meetings
+* extra training budget together with professional books library
+* continuous feedback culture and 1:1 meetings 
+* flexible working hours (we start between 7-10 a.m.)
+* MultiSport card and private medical package (PZU Zdrowie)
+* MacBook Pro and additional accessories
+* internal bright initiatives: regular sport classes with a professional coach, board games evenings, weekly lunch roulette
+* team retreats once a quarter
 
 Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
 
-In case you have any questions, drop a line at jobs@bright.dev. 
-
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON!🧡
+In case you have any questions, drop a line at ula@bright.dev. 
