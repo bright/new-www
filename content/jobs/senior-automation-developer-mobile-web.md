@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Automation Developer (Mobile & Web)
-subtitle: OPENING SOON
+subtitle: CLOSED
 imagejob: /images/backendteam.png
 image-alt-job: Bright Inventions' Team
 hours: full-time
