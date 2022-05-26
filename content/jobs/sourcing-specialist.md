@@ -1,13 +1,24 @@
 ---
 layout: job
 title: Sourcing Specialist
-subtitle: ONGOING
+subtitle: CLOSED
+imagejob: /images/brightteam_devops_job_offer.png
+image-alt-job: Bright Inventions' team
 hours: full-time
 salary: 5000 - 8000 PLN + VAT (B2B) or 4150 - 6650 PLN gross (UoP)
 salary_min: 4150
 salary_max: 8000
+working time: full time
+technology:
+  - Android
+  - iOS
+show_new_title_more_about_us: false
+button: join our Bright team
 published: false
+show_recruiter_info: false
 order: 11
+recruting_image2_title: interview
+recruting_image3_title: task
 ---
 
 
