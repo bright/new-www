@@ -1,13 +1,29 @@
 ---
 layout: job
 title: Senior Automation Developer (Mobile & Web)
-subtitle: "OPENING SOON"
-description: We are looking for Senior Automation Developer - Mobile and Web who will take on the challenge of building our automation infrastructure from scratch. 
+subtitle: CLOSED
+imagejob: /images/backendteam.png
+image-alt-job: Bright Inventions' Team
 hours: full-time
-salary: "17 000 - 23 000 PLN + VAT (B2B) or 14 200 - 19 100 PLN (UoP)"
+salary: 17 000 - 23 000 PLN + VAT (B2B) or 14 200 - 19 100 PLN (UoP)
 salary_min: 17000
 salary_max: 23000
+working time: full time
+technology:
+  - Java
+  - TypeScript
+  - iOS
+  - Android
+show_new_title_more_about_us: false
+button: join our Bright team
 published: false
+show_recruiter_info: false
+order: 40
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
+description: We are looking for Senior Automation Developer - Mobile and Web who
+  will take on the challenge of building our automation infrastructure from
+  scratch.
 orser: 12
 ---
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
