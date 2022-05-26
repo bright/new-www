@@ -10,8 +10,8 @@ salary_min: 3500
 salary_max: 6650
 working time: full time
 technology:
-  - iOS
-  - Kotlin
+  - communication skills
+  - can-do attitude
 show_new_title_more_about_us: false
 button: join our recruitment team
 published: false
