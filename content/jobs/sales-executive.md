@@ -1,15 +1,27 @@
 ---
 layout: job
 title: Sales Executive
-subtitle:
-description: We are looking for a highly motivated individual with an interest in sales and marketing to assist our team in increasing client interest and improve sales cycle.
+subtitle: CLOSED
+imagejob: /images/brightteam_devops_job_offer.png
+image-alt-job: Bright Inventions Team
 hours: Full-time / Part-time
 salary: to be specified
-published: false
-order: 7
+working time: full time
+technology:
+  - iOS
+show_new_title_more_about_us: false
+button: join our Bright Team
 redirect_from:
   - /sales-executive
   - /sales-executive/
+published: false
+show_recruiter_info: false
+order: 7
+recruting_image2_title: interview
+recruting_image3_title: task
+description: We are looking for a highly motivated individual with an interest
+  in sales and marketing to assist our team in increasing client interest and
+  improve sales cycle.
 ---
 We believe that bright ideas and bright products come out of bright minds. The success of projects we do is completely sustained by our team and values we are committed to. We work together making the most of experience and expertise we have.
 
