@@ -1,13 +1,26 @@
 ---
-title: Marketing/Sales Intern
-subtitle:
-description: We are looking for a highly motivated individual with an interest in sales and marketing. 
 layout: job
+title: Marketing/Sales Intern
+subtitle: CLOSED
+imagejob: /images/brightteam_devops_job_offer.png
+image-alt-job: Bright Inventions Team
 hours: Full-time / Part-time
 salary: to be specified
-redirect_from: ["/marketing-sales-intern", "/marketing-sales-intern/"]
-order: 6
+working time: full time
+technology:
+  - Kotlin
+show_new_title_more_about_us: false
+button: join our Bright team
+redirect_from:
+  - /marketing-sales-intern
+  - /marketing-sales-intern/
 published: false
+show_recruiter_info: false
+order: 6
+recruting_image2_title: interview
+recruting_image3_title: task
+description: We are looking for a highly motivated individual with an interest
+  in sales and marketing.
 ---
 
 **Bright Inventions** is a dynamic software development consulting studio from Gdańsk, Poland. We specialise in **mobile and web applications, Blockchain** and **IoT devices**. We support a wide variety of clients coming from different sectors such as FinTech, Health, Automotive, Commerce/Shopping and others.
