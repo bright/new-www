@@ -8,7 +8,7 @@ hours: Full-time / Part-time
 salary: to be specified
 working time: full time
 technology:
-  - iOS
+  - Communications
 show_new_title_more_about_us: false
 button: join our Bright Team
 redirect_from:
