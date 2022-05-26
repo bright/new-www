@@ -1,13 +1,24 @@
 ---
 layout: job
 title: "Junior Recruitment Specialist "
-subtitle: ONGOING
+subtitle: CLOSED
+imagejob: /images/brightteam_devops_job_offer.png
+image-alt-job: Bright Inventions Team
 hours: full-time
 salary: 4250 - 6650 PLN + VAT (B2B) 3509 - 5500 PLN gross (UoP)
 salary_min: 3500
 salary_max: 6650
+working time: full time
+technology:
+  - iOS
+  - Kotlin
+show_new_title_more_about_us: false
+button: join our recruitment team
 published: false
+show_recruiter_info: false
 order: 3
+recruting_image2_title: interview
+recruting_image3_title: recruitment task
 ---
 
 
