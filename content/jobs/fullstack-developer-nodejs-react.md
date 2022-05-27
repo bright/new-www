@@ -1,5 +1,5 @@
 ---
-imagejob: /images/fullstackteam.png
+imagejob: /images/fullstackteam_job_offer.png
 workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
