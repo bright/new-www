@@ -14,9 +14,13 @@ technology:
   - can-do attitude
   - perfect time management
   - recruitment tools
+show_new_title_more_about_us: false
 button: join our recruitment team
 published: false
+show_recruiter_info: false
 order: 5
+recruting_image2_title: interview
+recruting_image3_title: task
 ---
 ## who we are
 

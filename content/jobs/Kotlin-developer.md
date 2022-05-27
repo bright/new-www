@@ -16,8 +16,10 @@ technology:
   - AWS
   - PostgreSQL
   - MySQL
+show_new_title_more_about_us: false
 button: join our backend team
 published: false
+show_recruiter_info: false
 order: 2
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task

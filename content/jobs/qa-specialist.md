@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "QA Specialist "
-subtitle: OPENING SOON 
+subtitle: OPENING SOON
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
@@ -9,19 +9,23 @@ salary: 7000 - 12 000 PLN + VAT (B2B) or 5900 - 10 000 PLN gross (UoP)
 salary_min: 5900
 salary_max: 12 000
 working time: full time
+show_new_title_more_about_us: false
+button: join our QA team
+published: false
+show_recruiter_info: false
+hidden: true
 technology:
   - Appium/Espresso
   - DB testing
   - API Testing
   - ISTQB
   - CI/CD
-button: join our QA team
-published: false
-hidden: true
 order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: QA task
-description: We are seeking a QA Specialist with knowledge of DB testing, performance testing and API testing. Maintain a high quality of iOS, Android and web applications.
+description: We are seeking a QA Specialist with knowledge of DB testing,
+  performance testing and API testing. Maintain a high quality of iOS, Android
+  and web applications.
 ---
 
 ![]()

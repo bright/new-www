@@ -1,8 +1,10 @@
 ---
+imagejob: /images/backendteam.png
+workplace_recruiter: Recruiting Specialist
+Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
 subtitle: ONGOING
-imagejob: /images/backendteam.png
 image-alt-job: backend development team
 hours: full-time
 salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
@@ -17,7 +19,7 @@ technology:
   - PostgreSQL
   - MySQL
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
-show_new_title_more_about_us: true
+show_new_title_more_about_us: false
 links_more_about_us: >-
   [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
 
@@ -27,15 +29,14 @@ links_more_about_us: >-
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Paulina from our Bright team!
-workplace_recruiter: Recruiting Specialist
-image_recruiter_info: /images/paulina_recruiter.png
-button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
-published: false
-Show_recruiter_info: true
-hidden: true
 name_recruiter: Paulina
+image_recruiter_info: /images/paulina_recruiter.png
 image_alt_recruiter_info: Paulina Trender - a Recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
 button: join our backend team
+published: false
+show_recruiter_info: false
+hidden: true
 order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task

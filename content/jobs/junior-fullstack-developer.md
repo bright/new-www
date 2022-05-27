@@ -9,14 +9,16 @@ salary: 5000 - 9000 + VAT (B2B) or 4150 - 7500 PLN gross (UoP)
 salary_min: 4150
 salary_max: 9000
 working time: full time
+show_new_title_more_about_us: false
+button: join our fullstack team
+published: false
+show_recruiter_info: false
+hidden: true
 technology:
   - TypeScript
   - JavaScript
   - Node.js
   - React
-button: join our fullstack team
-published: false
-hidden: true 
 order: 10
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
