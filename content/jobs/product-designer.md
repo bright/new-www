@@ -91,18 +91,4 @@ Currently we are seeking a talented and creative **Product designer** who will
 * English classes with business focus
 * weekly in-house yoga classes and regular running, biking & swimming classes run by a professional coach 
 * team building events once a quarter 
-* Friday board games evenings & bright lunch initiative every week 
-
-## if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
-
-[7 reasons to work at Bright Inventions](https://brightinventions.pl/blog/reasons-to-join-bright)
-
-[No Time for Bullsh\*\*. Feedback Culture](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
-
-[Bright Onboarding - What Is Waiting for You](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright)
-
-Still some doubts why you may love working with us?
-
-Contact directly [Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) or [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) from our bright recruitment team and ask about cooperation details.
-
-If you want to feel our Bright Spirit more, check [our Instagram profile](https://www.instagram.com/bright_inventions/?hl=en). 🧡
+* Friday board games evenings & bright lunch initiative every week
