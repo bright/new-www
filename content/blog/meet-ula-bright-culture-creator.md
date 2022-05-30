@@ -37,7 +37,7 @@ And disadvantages? I think that the feeling that you sometimes may put your whol
 
 ## Eventually, you joined Bright Inventions where you manage our HR and Marketing activities. What gives you the most satisfaction at your job?
 
-Yes, I started my employer branding and recruitment adventure at Bright Inventions in 2016 (Read this b[log post to know more about Ula’s beginnings at Bright](/blog/bright-inventions-turns-10-in-march-what-do-we-value/)). The surprising fact may be that **employer branding was not so easily recognisable at that time**. But I knew that for me it was a great opportunity to connect my love for people, psychology and marketing. 
+Yes, I started my employer branding and recruitment adventure at Bright Inventions in 2016 (Read this [blog post to know more about Ula’s beginnings at Bright](/blog/bright-inventions-turns-10-in-march-what-do-we-value/)). The surprising fact may be that **employer branding was not so easily recognisable at that time**. But I knew that for me it was a great opportunity to connect my love for people, psychology and marketing. 
 
 ![Ula's quote on employer branding](/images/ula_quote1.png)
 
