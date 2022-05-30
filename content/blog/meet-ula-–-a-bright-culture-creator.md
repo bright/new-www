@@ -68,3 +68,9 @@ Of course, functional programming knowledge, commercial experience and someone�
 Communication is the key and is also the key in the onboarding process. When there is a new person in our team, we take care of him/her. And by taking care I mean proper planning, engaging buddies, organising follow-ups and check-ins or giving feedback. **New hires should not stress about what to do next after joining the team and they also should not stress about how they are doing**. A new employee should be provided with all the information, feedback and support they need. The less anxiety and worry in the beginning the better employee's experience we will have in the long-term. **Poor onboarding causes a lot of negative consequences, it does not only lower engagement and productivity, but also leads to high employee’s turnover**. The real and the worst cost of unplanned and defective onboarding is the loss of an employee in the end. 
 
 Read more about [Bright Inventions’s onboarding](/blog/how-to-make-your-onboarding-bright/).
+
+## I get the feeling that you don’t like when people call you a non-technical person. Is that true?
+
+I have nothing against the word “non-technical”. What I don’t like are stereotypes. **The fact that I am not a developer does not mean that I am not interested in software development topics**. And it does not mean that I don’t understand them. 
+
+![Ula – HR and Marketing Manager at Bright Inventions](/images/brightstoryula2.png)
