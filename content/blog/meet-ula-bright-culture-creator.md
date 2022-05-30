@@ -5,7 +5,7 @@ tags:
   - bright story
   - recruitment
   - inspiration
-date: 2022-05-30T09:35:05.863Z
+date: 2022-05-30T12:19:01.098Z
 title: Meet Ula – a Bright Culture Creator
 layout: post
 image: /images/brightstory_ula_cover.png
@@ -31,7 +31,7 @@ I recall that as a great experience and a good lesson. I think it was a very imp
 
 **I was working with dozens of brands from different industries** like Wirtualna Polska, Wedel, ING, Lays, **but also companies like DocPlanner or Booksy which were small startups back then**.  It was a great experience to discover different marketing strategies and work with different business needs. **And for sure the adventure was also visiting California and meeting the team working there including Adam Bein or Jack Dorsey**.
 
-![USA trip](/images/ula_usa_trip_bigger.png)
+![USA trip](/images/brightstoryula_usa_collage.png)
 
 And disadvantages? I think that the feeling that you sometimes may put your whole heart into work, but you do not have an influence on the final decision of your clients or the organisation itself. 
 
