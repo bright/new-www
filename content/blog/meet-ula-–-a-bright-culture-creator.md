@@ -74,3 +74,7 @@ Read more about [Bright Inventions’s onboarding](/blog/how-to-make-your-onboar
 I have nothing against the word “non-technical”. What I don’t like are stereotypes. **The fact that I am not a developer does not mean that I am not interested in software development topics**. And it does not mean that I don’t understand them. 
 
 ![Ula – HR and Marketing Manager at Bright Inventions](/images/brightstoryula2.png)
+
+It all comes to HR stereotypes obviously. I constantly see they still exist. Sometimes during interviews candidates are a bit stunned that I follow the technical part or I ask some technical questions myself. I think it should be no surprise to anyone. I am not a developer, I am saying that openly, **but could I be a good IT recruiter if I didn’t know the aspects of technologies used by developers or I didn’t understand how the whole software development process looked like**? I don’t want to be judgemental, but **I think you just should not recruit specialists from IT if you don’t know their sector and mindset well**. And it is the same about any field you are recruiting in. 
+
+## Does it mean that you could become a programmer someday?
