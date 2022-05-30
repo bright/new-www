@@ -31,13 +31,13 @@ I recall that as a great experience and a good lesson. I think it was a very imp
 
 **I was working with dozens of brands from different industries** like Wirtualna Polska, Wedel, ING, Lays, **but also companies like DocPlanner or Booksy which were small startups back then**.  It was a great experience to discover different marketing strategies and work with different business needs. **And for sure the adventure was also visiting California and meeting the team working there including Adam Bein or Jack Dorsey**.
 
-![USA trip](/images/brightstory_usa_trip.png)
+![USA trip](/images/brightstory_usa_trip2.png)
 
 And disadvantages? I think that the feeling that you sometimes may put your whole heart into work, but you do not have an influence on the final decision of your clients or the organisation itself. 
 
 ## Eventually, you joined Bright Inventions where you manage our HR and Marketing activities. What gives you the most satisfaction at your job?
 
-Yes, I started my employer branding and recruitment adventure at Bright Inventions in 2016 (Read this b[log post to know more about Ula’s beginnings at Bright](/blog/bright-inventions-turns-10-in-march-what-do-we-value/)). The surprising fact may be that **employer branding was not so easily recognisable at that time**. But I knew that for me it was a great opportunity to connect my love for people, psychology and marketing. 
+Yes, I started my employer branding and recruitment adventure at Bright Inventions in 2016 (Read this [blog post to know more about Ula’s beginnings at Bright](/blog/bright-inventions-turns-10-in-march-what-do-we-value/)). The surprising fact may be that **employer branding was not so easily recognisable at that time**. But I knew that for me it was a great opportunity to connect my love for people, psychology and marketing. 
 
 ![Ula's quote on employer branding](/images/ula_quote1.png)
 
