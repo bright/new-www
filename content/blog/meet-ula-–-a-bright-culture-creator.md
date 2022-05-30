@@ -39,10 +39,12 @@ And disadvantages? I think that the feeling that you sometimes may put your whol
 
 Yes, I started my employer branding and recruitment adventure at Bright Inventions in 2016 (Read this b[log post to know more about Ula’s beginnings at Bright](/blog/bright-inventions-turns-10-in-march-what-do-we-value/)). The surprising fact may be that **employer branding was not so easily recognisable at that time**. But I knew that for me it was a great opportunity to connect my love for people, psychology and marketing. 
 
-![Ula's quote](/images/ula_quote1.png)
+![Ula's quote on employer branding](/images/ula_quote1.png)
 
 Bright Inventions was a beautiful blank page where I could put my all ideas into actions and use my creativity.There was almost nothing considering HR and marketing procedures when I joined. But there were great people. When I joined there **were eight people on board. And I really appreciate the trust and independence I was given**.
 
 What gives me satisfaction is the feeling that I create something of great value. I **believe in what we create here**. I enjoy developing marketing and HR strategies, improving communication, and building the whole recruitment process. Actually, **I am all about optimisation**. The market is changing, people's needs and expectations are changing. We should adjust all the time. It is a dynamic and constant development.
 
-And I really enjoy the recruitment area. I feel that thanks to my support new people can develop in the organisation or just can find the organisation they have been looking for. **I have a chance to build something more than a workplace, for me it is a community in which you can see the growth of people, their experience and expertise. I love my team here at Bright Inventions. I feel responsible for them**.
+And I really enjoy the recruitment area. I feel that thanks to my support new people can develop in the organisation or just can find the organisation they have been looking for. **I have a chance to build something more than a workplace, for me it is a community in which you can see the growth of people, their experience and expertise. I love my team here at Bright Inventions. I feel responsible for them**. 
+
+![Ula's quote on Bright Inventions](/images/ula_quote2.png)
