@@ -48,3 +48,15 @@ What gives me satisfaction is the feeling that I create something of great value
 And I really enjoy the recruitment area. I feel that thanks to my support new people can develop in the organisation or just can find the organisation they have been looking for. **I have a chance to build something more than a workplace, for me it is a community in which you can see the growth of people, their experience and expertise. I love my team here at Bright Inventions. I feel responsible for them**. 
 
 ![Ula's quote on Bright Inventions](/images/ula_quote2.png)
+
+## And how do you adjust to these ongoing changes in the market?
+
+I love learning and I think I am not afraid of experimenting and checking new ideas. **I like the agile way of thinking**. You are working on a solution, implementing it and then checking if it works. If the requirements and expectations change, you are introducing alterations and the whole process continues all the way round. 
+
+I get inspiration from experts who have built really great companies, really great brands and above all great, strong teams. Often you do not have to reinvent the wheel, but what you can do is to link all the dots in your life in an interesting, sometimes unexpected way, and it works. It depends on us how we link these dots. But we can create some incredible stuff if we do not limit ourselves and do not follow common popular paths. 
+
+## What is the most challenging thing about IT recruitment?
+
+Finding a good cultural fit. I think that is the real challenge. There are a lot of talented software developers in the market, but **technical skills are not everything**. To make the relationship work for both sides, **we have to have a similar mindset and see a common goal**. Then both the new hire and the current team are happy. 
+
+![Team Retreats](/images/brightstory_team.png)
