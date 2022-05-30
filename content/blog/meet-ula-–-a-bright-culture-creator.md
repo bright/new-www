@@ -88,3 +88,11 @@ Meetings and interviews mostly set the rhythm of my day. But I also have some pe
 ## After hours you teach English teenagers and adults in the local language school. Why? What does it give you?
 
 Satisfaction. It gives me satisfaction that I can share my knowledge with other people and it brings some extra value to their development. I have been working hard to be where I am now and it is a great feeling that I can use my skills in such a way. **I like watching my students making progress**. I think that language classes also give people great space for interesting interactions and discussions. Sometimes they may even be a kind of therapy. Conversations and speaking exercises create favourable conditions for people to talk about their problems or dilemmas. **Being an English teacher is not only about teaching a language, but also about supporting your students in their development and being their friend**.
+
+## You commute by bike every day. How do you motivate yourself to jump on the bike when it is freezing outside? We live in Poland, weather can be tricky here. 😉
+
+**There is no bad weather to ride a bike, only bad clothing or a bad attitude**. 😀 I started riding my bike like every day probably 8 years ago. I remember my first winterride. **I fell down on the ice at least twice**. I could give it up, but instead I decided to improve my riding techniques. It is fun to ride on snow. You have to try it. 🙂
+
+And I love the feeling after the ride. For me it is my healthy routine. It is good for my mood and my body. 
+
+![Ula's cycling passion](/images/brightstory_cycling.png)
