@@ -60,3 +60,11 @@ I get inspiration from experts who have built really great companies, really gre
 Finding a good cultural fit. I think that is the real challenge. There are a lot of talented software developers in the market, but **technical skills are not everything**. To make the relationship work for both sides, **we have to have a similar mindset and see a common goal**. Then both the new hire and the current team are happy. 
 
 ![Team Retreats](/images/brightstory_team.png)
+
+Of course, functional programming knowledge, commercial experience and someone’s expertise are must-haves in particular roles, but at the same time we pay a huge attention to core values and non-technical skills each candidate posseses. We sometimes must reject applicants who have strong technical skills, but there is no cultural fit. We are pretty sure that these people would not cooperate well in our community and they would just not be happy. And **the point should always be to create a long lasting satisfactory relationship for both parties engaged in the process, the employer and the employee**. 
+
+## So, what is the recipe for successful onboarding when you have this new hire already on board?
+
+Communication is the key and is also the key in the onboarding process. When there is a new person in our team, we take care of him/her. And by taking care I mean proper planning, engaging buddies, organising follow-ups and check-ins or giving feedback. **New hires should not stress about what to do next after joining the team and they also should not stress about how they are doing**. A new employee should be provided with all the information, feedback and support they need. The less anxiety and worry in the beginning the better employee's experience we will have in the long-term. **Poor onboarding causes a lot of negative consequences, it does not only lower engagement and productivity, but also leads to high employee’s turnover**. The real and the worst cost of unplanned and defective onboarding is the loss of an employee in the end. 
+
+Read more about [Bright Inventions’s onboarding](/blog/how-to-make-your-onboarding-bright/).
