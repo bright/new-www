@@ -96,3 +96,9 @@ Satisfaction. It gives me satisfaction that I can share my knowledge with other 
 And I love the feeling after the ride. For me it is my healthy routine. It is good for my mood and my body. 
 
 ![Ula's cycling passion](/images/brightstory_cycling.png)
+
+## And apart from biking. How do you spend the rest of your spare time?
+
+One may think it would sound sad, even really sad, but I like my job and it happens quite often that after hours I still do things connected with my development. I read psychology, marketing or management books, listen to podcasts or watch some webinars. But I also love nature. I **rest best in the forest, in the mountains or at my parent’s who live in the countryside** in Suwalszczyzna. I love taking pictures. Still as amateur, but it gives me a lot of fun. 
+
+I have also started learning Spanish recently just for myself as I needed something fresh and new. And there are also English classes that I run, so I think I have quite many things to focus on when I am not at Bright. 🙂
