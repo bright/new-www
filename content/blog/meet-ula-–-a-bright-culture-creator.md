@@ -80,3 +80,9 @@ It all comes to HR stereotypes obviously. I constantly see they still exist. Som
 ## Does it mean that you could become a programmer someday?
 
 My maths teacher would be proud for sure. 😉 As you know at school I always enjoyed mathematics. **And I always felt like I came from two worlds: scientific and linguistic**. That could be quite a nice combo, don’t you think? Programming and learning TypeScript or any other technology looks to me like learning a new language. Maybe it is my future career. 😀
+
+## What does your typical day at work look like? Is there something like a typical day at work?
+
+Meetings and interviews mostly set the rhythm of my day. But I also have some permanent elements like weekly Monday meetings with my team, 1:1s with the girls from the HR & Marketing squad, quarter retrospectives or planning sessions. I plan  a lot and I try to manage my time wisely, but there are also days when I have to switch context very quickly. Some issues are hard to predict. You need to be flexible. What is crucial to me is also finding time for deep work when I can focus on my individual tasks. So, to some extent my days are typical, but typical in a non-typical way. 🙂
+
+## After hours you teach English teenagers and adults in the local language school. Why? What does it give you?
