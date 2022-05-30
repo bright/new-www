@@ -5,11 +5,11 @@ tags:
   - bright story
   - recruitment
   - inspiration
-date: 2022-05-30T08:26:02.266Z
+date: 2022-05-30T09:35:05.863Z
 title: Meet Ula – a Bright Culture Creator
 layout: post
 image: /images/brightstory_ula_cover.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
@@ -31,7 +31,7 @@ I recall that as a great experience and a good lesson. I think it was a very imp
 
 **I was working with dozens of brands from different industries** like Wirtualna Polska, Wedel, ING, Lays, **but also companies like DocPlanner or Booksy which were small startups back then**.  It was a great experience to discover different marketing strategies and work with different business needs. **And for sure the adventure was also visiting California and meeting the team working there including Adam Bein or Jack Dorsey**.
 
-![USA trip](/images/brightstory_usa_trip2.png)
+![USA trip](/images/ula_usa_trip_bigger.png)
 
 And disadvantages? I think that the feeling that you sometimes may put your whole heart into work, but you do not have an influence on the final decision of your clients or the organisation itself. 
 
@@ -95,7 +95,7 @@ Satisfaction. It gives me satisfaction that I can share my knowledge with other 
 
 And I love the feeling after the ride. For me it is my healthy routine. It is good for my mood and my body. 
 
-![Ula's cycling passion](/images/brightstory_cycling.png)
+![Ula's cycling passion](/images/ula_cycling_bigger.png)
 
 ## And apart from biking. How do you spend the rest of your spare time?
 
