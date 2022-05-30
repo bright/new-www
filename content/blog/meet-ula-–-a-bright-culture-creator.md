@@ -5,7 +5,7 @@ tags:
   - bright story
   - recruitment
   - inspiration
-date: 2022-05-30T08:06:02.372Z
+date: 2022-05-30T08:26:02.266Z
 title: Meet Ula – a Bright Culture Creator
 layout: post
 image: /images/brightstory_ula_cover.png
