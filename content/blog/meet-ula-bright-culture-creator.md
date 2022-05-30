@@ -5,11 +5,11 @@ tags:
   - bright story
   - recruitment
   - inspiration
-date: 2022-05-30T08:26:02.266Z
+date: 2022-05-30T09:35:05.863Z
 title: Meet Ula – a Bright Culture Creator
 layout: post
 image: /images/brightstory_ula_cover.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
@@ -95,7 +95,7 @@ Satisfaction. It gives me satisfaction that I can share my knowledge with other 
 
 And I love the feeling after the ride. For me it is my healthy routine. It is good for my mood and my body. 
 
-![Ula's cycling passion](/images/brightstory_cycling.png)
+![Ula's cycling passion](/images/ula_cycling_bigger.png)
 
 ## And apart from biking. How do you spend the rest of your spare time?
 
