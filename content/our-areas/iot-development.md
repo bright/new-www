@@ -6,8 +6,8 @@ team_members:
   - kasia
   - wojciech
   - rafal h
-  - alisa
   - maja
+  - mateusz
 faqs:
   - "What does IoT mean? "
   - What are IoT devices?
