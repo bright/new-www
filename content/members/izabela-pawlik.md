@@ -13,3 +13,5 @@ avatar_hover: /images/iza_passion2.png
 published: false
 ---
 Data-driven marketing specialist. Easy-going and eager to learn new things. Loves to explain complex issues with simple words. Privately, she enjoys escape rooms, cooperative board games and Premier League.
+
+A mentor in Polish STEAMAcademy program organized by Girls Code Fun Foundation.
