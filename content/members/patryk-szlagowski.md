@@ -14,10 +14,10 @@ published: true
 ---
 Software developer, geek, problem solver. He started his developer's life in primary school with a huge help of his first IT teacher. After hours petrolhead, tattoo addict and music lover. 
 
-Patryk is a createor of [brightdevtalks podcast](/blog/brightdevtalks-podcast). 
+Patryk is a creator of [brightdevtalks podcast](/blog/brightdevtalks-podcast). 
 
-Listen on Spotify
+[Listen on Spotify](https://open.spotify.com/show/1xrG8BF4Niv5uIzHvIn79q)
 
-Listen on Apple Podcasts
+[Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/brightdevtalks/id1625829267)
 
-Listen on Google Podcasts
+[Listen on Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9xbUJPUXYybQ%3D%3D)
