@@ -9,7 +9,7 @@ import React from 'react'
 import { GlobalStyle } from './src/styles/global'
 import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-google-analytics'
 
-let nextRoute = ``
+let nextRoute = ''
 
 exports.onPreRouteUpdate = ({ location }) => {
   nextRoute = location.pathname
