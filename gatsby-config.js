@@ -10,6 +10,7 @@ module.exports = {
     disqusShortname: 'brightinventions',
     siteUrl: siteUrl.href,
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true },
   plugins: [
     // Make sure this plugin is first in the array of plugins
     {
@@ -119,13 +120,26 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true, // Print removed selectors and processed file names
+        printAll: true,
         develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
-        ignore: ['/carousel.min.css', 'prismjs/'], // Ignore files/folders
+        ignore: ['/carousel.min.css', 'prismjs/', 'style/bulma/sass/components/modal.sass'], // Ignore files/folders
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
         purgeCSSOptions: {
           // https://purgecss.com/configuration.html#options
-          safelist: ['blockquote', '.content blockquote'], // Don't remove this selector
+          safelist: [
+            'blockquote',
+            '.content blockquote',
+            'is-active',
+            'modal',
+            'modal-card',
+            'modal-title',
+            'modal-card-body',
+            'content',
+            'modal is-active',
+            'modal-close',
+            'modal-close is-large',
+          ], // Don't remove this selector
         },
         // More options defined here https://purgecss.com/configuration.html#options
       },
@@ -237,6 +251,14 @@ module.exports = {
         },
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-hotjar`,
+    //   options: {
+    //     includeInDevelopment: true, // optional parameter to include script in development
+    //     id: 2864857,
+    //     sv: 6,
+    //   },
+    // },
 
     {
       resolve: 'gatsby-plugin-json-pages',
