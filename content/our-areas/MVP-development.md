@@ -4,10 +4,10 @@ team_members:
   - fjablonski
   - agnieszka
   - piotr
-  - alisa
   - mateusz
   - kasia
   - bartosz
+  - marta
 faqs:
   - mvp development 1
   - mvp development 2
