@@ -6,8 +6,8 @@ team_members:
   - kasia
   - mateusz
   - janek
-  - alisa
   - maja
+  - agnieszka
 faqs:
   - web development 1
   - web development 2
