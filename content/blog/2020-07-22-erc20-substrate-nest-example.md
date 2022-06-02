@@ -25,7 +25,7 @@ You can access the [working project on GitHub](https://github.com/bright/substra
 
 First of all we need a local substrate node. To have it on your computer it is best to complete the [Create your first substrate chain tutorial from substrate.dev](https://substrate.dev/docs/en/tutorials/create-your-first-substrate-chain/).
 
-To be able to deploy a smart contract to the node, we need to add the Contracts Pallet. To do it, please complete this [tutorial](https://docs.substrate.io/tutorials/v3/ink-workshop/pt1/#install-the-substrate-contracts-node). If you would like to skip this part, clone [this tutorial's repo](https://github.com/bright/substrate-erc20-nestjs/tree/part1) instead of the Substrate Node Template repo.
+To be able to deploy a smart contract to the node, we need to add the Contracts Pallet. To do it, please check out this [tutorial](https://docs.substrate.io/tutorials/v3/ink-workshop/pt1/#install-the-substrate-contracts-node). If you would like to skip this part, clone [this tutorial's repo](https://github.com/bright/substrate-erc20-nestjs/tree/part1) instead of the Substrate Node Template repo.
 
 ## Run the Substrate node
 
