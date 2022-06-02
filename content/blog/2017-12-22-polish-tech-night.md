@@ -1,18 +1,17 @@
 ---
-layout: post
-title: Polish Tech Night
 author: mateusz
 tags:
   - startups
   - venture capital
   - berlin
   - update
-comments: true
+date: 2017-12-21T23:00:00.000Z
+title: Polish Tech Night
+layout: post
 image: /images/blog_polish_tech_night.png
-date: '2017-12-21T23:00:00.000Z'
+comments: true
 published: true
 ---
-
 During my four-day trip to Berlin I had a pleasure to participate in the 3rd edition of [Polish Tech Night](https://polishtechnight.com) as a member of  group led by [Gdański Inkubator Przdsiębiorczości Starter](http://www.inkubatorstarter.pl). Polish Tech Night is an event connecting Polish tech startups with German ecosystem, combined with numerous workshops on the plenty of subjects like business cooperation, venture capitals, or law aspects of running a company in Germany.
 
 ![image](/images/polish-tech-night/event-logo.png)
@@ -23,20 +22,20 @@ Bright Inventions is already experienced in working with startups, I would  even
 
 During the series of workshops I have learned plenty of interesting facts about Berlin startup ecosystem:
 
-- 75% of German startups are located in Berlin
-- Berlin takes the **7th place over the world** in a startups ecosystem ranking according to the [Startup Genome 2017 report](https://www.techinasia.com/startup-genome-startup-ecosystem-ranking-report-2017)
-- In 2015, total venture capital fundings in Berlin were the **highest in the world**
-- The development plan of the Berlin authorities is focused on **fintech** and **Internet of Things** (IoT) industries
-- Despite this still the most popular Berlin startup industry is e-commerce
+* 75% of German startups are located in Berlin
+* Berlin takes the **7th place over the world** in a startups ecosystem ranking according to the [Startup Genome 2017 report](https://www.techinasia.com/startup-genome-startup-ecosystem-ranking-report-2017)
+* In 2015, total venture capital fundings in Berlin were the **highest in the world**
+* The development plan of the Berlin authorities is focused on **fintech** and **Internet of Things** (IoT) industries
+* Despite this still the most popular Berlin startup industry is e-commerce
 
 ![image](/images/polish-tech-night/berlin-workshops1.jpg)
 
 The workshops and presentations were prepared by experienced professionals from different companies associated with startups:
 
-- **Oliver Bey** from etventure Startup Hub that specialises in validating startups ideas, building ecosystems, supporting companies in getting an access to startups and establishing corporate-startup-pilots.
-- **Max Moldenhauer** and **Marcus Erken** from Sunfish Partners Venture Capital experienced in growing early-stage startups.
-- **Bartek Gola** from SpeedUp venture capital group aiming at cooperation with companies in a long term investment horizon. SpeedUp group specializes in areas like consumer internet, fintech, martech, IoT and hardware.
-- **Detlef Pohl** from next47, the Siemens-backed global venture firm focusing on infrastructure and cities related startups.
+* **Oliver Bey** from etventure Startup Hub that specialises in validating startups ideas, building ecosystems, supporting companies in getting an access to startups and establishing corporate-startup-pilots.
+* **Max Moldenhauer** and **Marcus Erken** from Sunfish Partners Venture Capital experienced in growing early-stage startups.
+* **Bartek Gola** from SpeedUp venture capital group aiming at cooperation with companies in a long term investment horizon. SpeedUp group specializes in areas like consumer internet, fintech, martech, IoT and hardware.
+* **Detlef Pohl** from next47, the Siemens-backed global venture firm focusing on infrastructure and cities related startups.
 
 ![image](/images/polish-tech-night/berlin-workshops2.jpg)
 
@@ -48,9 +47,9 @@ The Evening part attracted crowds including numerous business people, startups a
 
 To understand better the startups environment and experience the atmosphere on our own we visited 3 well-known Berlin co-working spaces:
 
-- [Cube Berlin](http://cube-global.com)
-- [Mindspace](https://www.mindspace.me/berlin)
-- [WeWork](https://www.wework.com/l/berlin)
+* Cube Berlin
+* Mindspace
+* WeWork
 
 Beyond great views, especially at WeWork, these places provide complete infrastructure together with additional services and co-working atmosphere that any growing startup might need.
 
