@@ -70,7 +70,7 @@ And that's it! The `WeatherProvider` singleton is ready to use.
 
 You can also bind `WeatherProvider` per Activity which will depend on its lifecycle or create a special scope for your needs opened and closed whenever you want.
 
-For more information visit official [Getting Started](https://insert-koin.io/docs/1.0/getting-started/introduction/) section.
+For more information visit official [Quickstart](https://insert-koin.io/docs/quickstart/kotlin) section.
 
 ## Summary
 
