@@ -42,7 +42,7 @@ The next step is to get a model for the image classification problem. One way is
 
 In order to make use of the prepared model we need to somehow import it into code. Let's use `tf.lite.Interpreter`   interface for the model. 
 
-You can set up an interpreter in many ways, one recommended on [TF website](https://www.tensorflow.org/lite/models/image_classification/android) is to make use of `MappedByteBuffer`.
+You can set up an interpreter in many ways, one recommended on TF website is to make use of `MappedByteBuffer`.
 
 ```kotlin
 @Throws(IOException::class)  
