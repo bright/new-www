@@ -135,7 +135,7 @@ A slightly less correct option is to use `connectTimeout` or `socketTimeout`. Th
 
 Reusing database connections gives the application great performance boost. However, writing an efficient and bug free database connection pool is no easy task thus we should all rely on proven solutions. In JVM world there are multiple choices when it comes to JDBC:
 
-* [Hikari](https://brettwooldridge.github.io/HikariCP/) Claims to be the fastest and has limited number of configuration knobs and sane defaults. My favorite by far.
+* Hikari Claims to be the fastest and has limited number of configuration knobs and sane defaults. My favorite by far.
 * [DBCP 2](https://commons.apache.org/proper/commons-dbcp/) A recently resurrected project which has a potential of being applicable to all resources pools with its `commons-pool2` module. 
 * [Tomcat JDBC Connection Pool](https://tomcat.apache.org/tomcat-8.0-doc/jdbc-pool.html) Commonly used with lots of configuration options. Came to be as a replacement of dbcp.
 
