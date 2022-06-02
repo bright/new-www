@@ -1,8 +1,4 @@
 ---
-layout: post
-title: Your first unit tested Ethereum Smart Contract
-date: 2017-11-12T23:00:00.000Z
-image: /images/laptop-2.jpg
 author: daniel
 tags:
   - smartcontract
@@ -12,11 +8,14 @@ tags:
   - web3js
   - parity
   - unittests
+date: 2017-11-12T23:00:00.000Z
+title: Your first unit tested Ethereum Smart Contract
+layout: post
+image: /images/laptop-2.jpg
 hidden: false
 comments: true
 published: true
 ---
-
 The goal of that blog post is to provide you with the exact steps how to start creating your first unit tested smart contract. 
 
 # My toolbox
@@ -50,14 +49,15 @@ sudo dpkg -i parity_1.7.9_amd64.deb
 # Starting parity
 
 For the purpose of that article we will start parity with:    
-- private development chain definition `--chain=dev`        
-- JSON RPC APIs: `--jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,parity,parity_set,signer`    
-- gas price set to 0 `--gasprice 0`    
-- interface IP address `--ui-interface 0.0.0.0`    
-- disabled host name validation `--ui-no-validation`    
-- allowing all hosts (Host header values) for using JSON RPC API `--jsonrpc-hosts all`    
-- interface's IP address - all interfaces `--jsonrpc-interface all`     
-                                   
+
+* private development chain definition `--chain=dev`        
+* JSON RPC APIs: `--jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,parity,parity_set,signer`    
+* gas price set to 0 `--gasprice 0`    
+* interface IP address `--ui-interface 0.0.0.0`    
+* disabled host name validation `--ui-no-validation`    
+* allowing all hosts (Host header values) for using JSON RPC API `--jsonrpc-hosts all`    
+* interface's IP address - all interfaces `--jsonrpc-interface all`                                 
+
 ```
 parity --chain=dev --jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,parity,parity_set,signer --gasprice 0 --ui-interface 0.0.0.0 --ui-no-validation --jsonrpc-hosts all --jsonrpc-interface all
 ```
@@ -72,8 +72,9 @@ Once the account is created, you should see:
 ![Restore super account 3](/images/smart-contract-create-test-and-deploy/parity-restore-super-account-3.jpg)
 
  Next step is to run parity node with unlocked account on which we will execute all test transactions, so you will not need to sign every test transaction via Signer available via parity UI. To do that please first kill already started parity process and run that process with two additional parameters:    
-- address to unlock `--unlock 0x00a329c0648769A73afAc7F9381E08FB43dBEA72`        
-- user password for specified account to unlock `--password ./password`, where `./password` is a path to a file containing user password    
+
+* address to unlock `--unlock 0x00a329c0648769A73afAc7F9381E08FB43dBEA72`        
+* user password for specified account to unlock `--password ./password`, where `./password` is a path to a file containing user password    
 
 ```
 parity --chain=dev --jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,parity,parity_set,signer --gasprice 0 --ui-interface 0.0.0.0 --ui-no-validation --jsonrpc-hosts all --jsonrpc-interface all --unlock 0x00a329c0648769A73afAc7F9381E08FB43dBEA72 --password ./password
@@ -86,17 +87,17 @@ Parity node is ready! :)
 
 # Creating and testing Smart Contract - Truffle
 
-The fastest and the simplest way I know to create, test and build smart contract is by using [truffle](http://truffleframework.com/docs/getting_started/project) tool. You can install truffle using npm (node version 6.11.4) package manager:      
+The fastest and the simplest way I know to create, test and build smart contract is by using [truffle](https://trufflesuite.com/) tool. You can install truffle using npm (node version 6.11.4) package manager:\
 `npm install -g truffle@4.0.1`     
 
 Now please prepare an empty folder for your new project and execute the following command to initialize the truffle project structure:
-    
+
 ```
 truffle init
 ```
 
 then please open and edit configuration file `truffle.js`, `from` parameter is an address from which all truffle transactions should be executed by default, please set as a value the address of the already created/restored account.
-        
+
 ```javascript
 module.exports = {  
   // See <http://truffleframework.com/docs/advanced/configuration>  
@@ -200,4 +201,4 @@ For more information it's definitely worth to visiting [truffle docs](https://tr
 
 All the code that was generated during that post creation you can find here [smart-contract repo](https://github.com/bright/smart-contract)
 
-Hope you have liked it! :) 
+Hope you have liked it! :)
