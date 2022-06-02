@@ -21,7 +21,7 @@ Recently I had a need to show the simple rating control in one of our iOS apps -
 
 My first thoughts were wandering around star images one after another, the hell with positioning with frames or multitude of [Auto Layout constraints](http://www.informit.com/articles/article.aspx?p=2041295). Nah. The second take led me to [`EDStarRating`](https://github.com/erndev/EDStarRating), a library that does this pretty well. But all I needed was only to show few stars in a row, all the events handling and customizations seemed a bit overkill for the simple task I was facing.
 
-Then the aha! moment came. I can just play with [`NSAttributedString`](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSAttributedString_Class/), a fancy thing that adds a lot of formatting capabilities to ordinary string or even parts of it. And there is the awesome set of icons everyone's using anyway in [Font Awesome](https://fontawesome.com/). So here are the steps I ended up doing:
+Then the aha! moment came. I can just play with [`NSAttributedString`](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSAttributedString_Class/), a fancy thing that adds a lot of formatting capabilities to ordinary string or even parts of it. And tis the awesome set of icons everyone's using anyway in [Font Awesome](https://fontawesome.com). So here are the steps I ended up doing:
 
 ## Add Font Awesome to your project
 
