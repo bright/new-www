@@ -53,3 +53,19 @@ To sum up, firstly you have to think if your test cases from the test plan, whic
 When you finish your basic training and choose a framework then you can finally start writing your first test. Each framework has documentation on how to install it and how to write the first test. If it’s not enough for you, **I recommend finding some repository with automation tests in your chosen framework and just cloning it to see how they set up it and written tests**. You can also look for some videos on YouTube. If you want to use JavaScript, I think Playwright is worth considering. They have a great documentation with a [Getting Started section](https://playwright.dev/docs/intro).
 
 ![Playwright](/images/playwright.png)
+
+## Is it worth going on a paid course for Software Tester?
+
+I’ve never bought such training. Why? To my mind, it’s a waste of money. I’m convinced that **you can learn a lot from such training, but I’m more than sure that you can learn the same or even more by yourself**. 
+
+You can find a lot of free trainings, documentations, and blogs. People are sharing their knowledge all the time. But **the most important is that you have to start writing by yourself to know real problems**, to know the language, and framework. You have to just practice. **Another benefit of learning by searching for solutions is that you have to know how to find the answer to your question, and where to look**. This is a very important skill because during writing automation tests you will run into many issues. 
+
+## Do I need ISTQB certification?
+
+It wouldn’t be a surprise if I told you that **not at all**. I have it, but I did it after a few years of experience only because I had an opportunity to do it. It can be useful if you are a manual Software Tester, but it’s not needed to have this certification to start writing automation tests.
+
+## And finally… Is test automation hard to comprehend?
+
+It’s really easy to start writing automation tests. You just have to be persistent and not give up when the first problem occurs. **If you struggle, just ask people with more experience. I learned a lot from developers**. Take your test plan, choose language, choose a framework and write your first test. Practice is the best teacher. 
+
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/Wsju5zAb5kcOfxJV9i" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/keyboard-admin-prtg-Wsju5zAb5kcOfxJV9i">via GIPHY</a></p>
