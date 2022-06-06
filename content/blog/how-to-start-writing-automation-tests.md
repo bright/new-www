@@ -26,6 +26,10 @@ This was my road to writing tests. I didn’t know how to start, I just knew tha
 
 ## When can you start automation testing?
 
+It is worth **starting with automation testing when your product is stable and has repeatable paths which are easy to reproduce**. This is essential because we want to have stable tests which are failing only when a bug occurs. If your product is often changed then it will be difficult and time-consuming to maintain your automation tests.
+
+## Consider which test cases you want to automate
+
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3o7TKTDn976rzVgky4" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/colbertlateshow-stephen-colbert-3o7TKTDn976rzVgky4">via GIPHY</a></p>
 
 I assume that you have good knowledge about the product which you test manually. Certainly, you wrote some test cases and you know which of them you test more than others. Also, **you are aware which test cases are repeatable and are prone to bugs. These are test cases that could be automated**. So at the beginning, you can start writing a test plan for automation tests including them.
