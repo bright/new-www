@@ -31,3 +31,25 @@ This was my road to writing tests. I didn’t know how to start, I just knew tha
 I assume that you have good knowledge about the product which you test manually. Certainly, you wrote some test cases and you know which of them you test more than others. Also, **you are aware which test cases are repeatable and are prone to bugs. These are test cases that could be automated**. So at the beginning, you can start writing a test plan for automation tests including them.
 
 ## Choose the programming language for test automation
+
+You need to choose in which language you want to write automation tests. I think this decision should be made by the whole team. **Automation tests are part of the application, so maybe it’s worth having it in the same language**. After making a decision you can start learning. There are a lot of free tutorials on the Internet. It is worth being familiar also with HTML and CSS for looking for and writing selectors. 
+
+When I was learning a programming language to start writing automated tests I had a pretty common problem. I did all these free tutorials, I had all the basic knowledge but still didn’t know how to start. I was wondering how much I need to know about programming language to start? I started doing some tasks for points and creating some games for my portfolio, but I still had this one question in my mind: **is that knowledge enough to start**? For me, it was the most difficult time during my learning. **I didn’t know what to do next, I got just stuck and couldn’t move on. It turned out that I didn’t need to have comprehensive knowledge to write my first test, basic skills were really sufficient**. The answer was easy, it was simply the right time! I was ready to stop learning programming language and begin creating tests.
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/dUJxUPSkmZBqE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/idea-epiphany-dUJxUPSkmZBqE">via GIPHY</a></p>
+
+## Choose the framework for test automation
+
+The next step after learning a programming language is **choosing the framework in which you will be creating UI automation tests**. You should think about what you need. Does your product have 3rd party authentication? Do you need to open a new tab in the browser and do some operations there? 
+
+Why am I asking such questions? **I’ll give you an example.** Some time ago after work, I wanted to learn Cypress. It’s a very widely used and popular framework, so I wanted to know it and I also wanted to write some automation tests for someone's app. It occurs that it’s not easy to write a test for authentication when your product uses 3rd party authentication (login to your app using Google, Microsoft, etc). There were some workarounds but it was time-consuming and having other problems it was easier to choose another framework. 
+
+The second problem is that Cypress doesn’t support switching tabs at all. I needed to switch to another tab and do some actions, but I couldn’t. Cypress is a great option for most of you who are starting, on the Internet, you can find many tutorials, videos, etc. But what I want to say is that not every simple framework offers simple solutions. Sometimes it’s better to choose for a first glance a more difficult framework because in practice it’s easier. In this situation, **I left Cypress and wrote automation tests in Puppeteer**, because it fits my needs. 
+
+To sum up, firstly you have to think if your test cases from the test plan, which you created at the beginning, are easy to implement in the framework which you want to use. How do you know which framework is the best if you don’t have any experience? From my point of view, the best way is to **read the documentation and try some of them**. In the worst case, you will gain extra experience.
+
+## Create your first automation test
+
+When you finish your basic training and choose a framework then you can finally start writing your first test. Each framework has documentation on how to install it and how to write the first test. If it’s not enough for you, **I recommend finding some repository with automation tests in your chosen framework and just cloning it to see how they set up it and written tests**. You can also look for some videos on YouTube. If you want to use JavaScript, I think Playwright is worth considering. They have a great documentation with a [Getting Started section](https://playwright.dev/docs/intro).
+
+![Playwright](/images/playwright.png)
