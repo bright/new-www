@@ -665,9 +665,8 @@ export default function Template({
               title={'submit your application'}
               description={
                 <>
-                  You can either use our form below or send your application directly via email{' '}
-                  <a href='mailto:ula@bright.dev'>ula@bright.dev</a>. Feel free to ask any questions on the position and
-                  the project.
+                  If you have no questions, simply apply using our form below or send your application directly via email{' '}
+                  <a href='mailto:ula@bright.dev'>ula@bright.dev</a>. 
                 </>
               }
               namePlaceholder={'Enter name here'}

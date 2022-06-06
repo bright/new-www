@@ -5,9 +5,9 @@ team_members:
   - fjablonski
   - kamil-b
   - szymek
-  - alisa
   - tomasz-l
   - arturs
+  - marta
 faqs:
   - mobile app development 1
   - mobile app development 2

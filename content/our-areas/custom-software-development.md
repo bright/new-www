@@ -3,11 +3,11 @@ team_members:
   - mateusz
   - piotr
   - kasia
-  - alisa
   - agnieszka
   - azabost
   - fjablonski
   - wojciech
+  - aleksandra-z
 faqs:
   - custom software development 1
   - custom software development 2
