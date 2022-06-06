@@ -8,11 +8,10 @@
 import React from 'react'
 import { GlobalStyle } from './src/styles/global'
 import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-google-analytics'
-import { onPreRouteUpdate } from './gatsby-browser'
 
 let nextRoute = ''
 
-onPreRouteUpdate = ({ location }) => {
+export const onPreRouteUpdate = ({ location }) => {
   nextRoute = location.pathname
 }
 
