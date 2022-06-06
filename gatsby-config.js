@@ -120,7 +120,6 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true, // Print removed selectors and processed file names
-        printAll: true,
         develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         ignore: ['/carousel.min.css', 'prismjs/', 'style/bulma/sass/components/modal.sass'], // Ignore files/folders
@@ -251,14 +250,14 @@ module.exports = {
         },
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-hotjar`,
-    //   options: {
-    //     includeInDevelopment: true, // optional parameter to include script in development
-    //     id: 2864857,
-    //     sv: 6,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true, // optional parameter to include script in development
+        id: 2864857,
+        sv: 6,
+      },
+    },
 
     {
       resolve: 'gatsby-plugin-json-pages',

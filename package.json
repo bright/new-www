@@ -13,6 +13,7 @@
     "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-force-trailing-slashes": "^1.0.5",
     "gatsby-plugin-google-gtag": "^4.12.1",
+    "gatsby-plugin-hotjar": "^1.1.1",
     "gatsby-plugin-image": "^2.10.0",
     "gatsby-plugin-json-pages": "^1.0.0",
     "gatsby-plugin-loadable-components-ssr": "^4.2.0",
