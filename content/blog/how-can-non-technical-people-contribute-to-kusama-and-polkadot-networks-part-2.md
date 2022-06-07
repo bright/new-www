@@ -57,7 +57,7 @@ If you are into **newsletters**, here are the ones you could start to follow:
 
 Have you noticed someone’s great contribution and you believe they should be recognized and rewarded? **You can suggest someone from the community who deserves to receive a tip paid in $KSM or $DOT**. After that, the council decides on the amount of the tip. The easiest way to suggest a tip beneficiary is via [BrightTreasury's Tips Module](https://treasury.bright.dev/tips/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=contributetoweb3_2&utm_id=content_marketing).
 
-
+<div style="width:100%;height:0;padding-bottom:92%;position:relative;"><iframe src="https://giphy.com/embed/MtIF4jJEolvf3OEOsh" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/thedrewbarrymoreshow-MtIF4jJEolvf3OEOsh">via GIPHY</a></p>
 
 ## Provide feedback for Kusama and Polkadot applications
 
