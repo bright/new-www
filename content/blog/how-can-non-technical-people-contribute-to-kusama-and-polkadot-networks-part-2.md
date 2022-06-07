@@ -29,3 +29,30 @@ Also, if your video can be of value to the community, you can submit an idea for
 ## Follow the best sources on Web3
 
 Element, Discord, and Twitter are the best sources for updates from the Polkadot and Kusama networks.
+
+Servers to join on Discord:
+
+* [Kusama](https://discord.com/invite/9AWjTf8wSk)
+* [Polkadot](https://discord.com/invite/wGUDt2p)
+
+Channels to join on Element:
+
+* [Polkadot Daily Digest](https://matrix.to/#/#dailydigest:web3.foundation)
+* [Polkadot Direction](https://matrix.to/#/#polkadot-direction:matrix.parity.io)
+* [Kusama Direction](https://matrix.to/#/#kusama:matrix.parity.io)
+
+Twitter accounts to follow:
+
+* [Polkadot](https://twitter.com/Polkadot)
+* [Kusama](https://twitter.com/kusamanetwork)
+* [Web3 Foundation](https://twitter.com/Web3foundation)
+* [BillLaboon](https://twitter.com/BillLaboon) – Head of Education and Grants at Web3 Foundation
+
+If you are into newsletters, here are the ones you could start to follow:
+
+* [Web3 Foundation newsletter](https://web3.foundation/news/)
+* [The dotleap newsletter](https://newsletter.dotleap.com) – covers news about Polkadot, Substrate, Kusama, and Web3 Foundation. Everything is in one place.
+
+## Appreciate others with Treasury tips
+
+Have you noticed someone’s great contribution and you believe they should be recognized and rewarded? You can suggest someone from the community who deserves to receive a tip paid in $KSM or $DOT. After that, the council decides on the amount of the tip. The easiest way to suggest a tip beneficiary is via [BrightTreasury's Tips Module](https://treasury.bright.dev/tips/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=contributetoweb3_2&utm_id=content_marketing).
