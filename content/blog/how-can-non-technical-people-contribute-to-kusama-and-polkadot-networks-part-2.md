@@ -55,11 +55,13 @@ If you are into **newsletters**, here are the ones you could start to follow:
 
 ## Appreciate others with Treasury tips
 
-Have you noticed someone’s great contribution and you believe they should be recognized and rewarded? You can suggest someone from the community who deserves to receive a tip paid in $KSM or $DOT. After that, the council decides on the amount of the tip. The easiest way to suggest a tip beneficiary is via [BrightTreasury's Tips Module](https://treasury.bright.dev/tips/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=contributetoweb3_2&utm_id=content_marketing).
+Have you noticed someone’s great contribution and you believe they should be recognized and rewarded? **You can suggest someone from the community who deserves to receive a tip paid in $KSM or $DOT**. After that, the council decides on the amount of the tip. The easiest way to suggest a tip beneficiary is via [BrightTreasury's Tips Module](https://treasury.bright.dev/tips/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=contributetoweb3_2&utm_id=content_marketing).
+
+
 
 ## Provide feedback for Kusama and Polkadot applications
 
-When someone contributes to Polkadot and Kusama nets, they often need one thing – feedback. As a potential user, your thoughts on the planned and existing solutions are precious. We encourage you to leave feedback for community creators whether they have built a plugin or published some educational content. 
+When someone contributes to Polkadot and Kusama nets, they often need one thing – feedback. As a potential user, your thoughts on the planned and existing solutions are precious. We encourage you to **leave feedback for community creators whether they have built a plugin or published some educational content**. 
 
 You can even discuss their ideas on [BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=contributetoweb3_2&utm_id=content_marketing) before they turn them into a proposal. Let them know if their idea can be of use or maybe it shouldn't be developed because something similar already exists. Don't be a silent member. Contribute by using your voice!
 
