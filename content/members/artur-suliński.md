@@ -16,5 +16,4 @@ redirect_from:
 published: true
 title: Meet Artur
 ---
-
-Swift and Apple lover. Interested in Blockchain. Great fan of Elon Musk. Always positive. In spare time fond of exploring Scandinavian countries and watching his favourite football team from Manchester (the red one :)).
+Swift and Apple lover. Interested in Blockchain. A great fan of Elon Musk. Always positive. In his spare time fond of exploring Scandinavian countries and watching his favorite football team from Manchester (the red one 🙂).
