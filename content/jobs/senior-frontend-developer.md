@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiter Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Frontend Developer "
-subtitle: ONGOING
+subtitle: OPENING SOON
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
