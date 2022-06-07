@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Frontend Developer "
-subtitle: ONGOING
+subtitle: OPENING SOON 
 imagejob: /images/frontendteam_job_offer.png
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
