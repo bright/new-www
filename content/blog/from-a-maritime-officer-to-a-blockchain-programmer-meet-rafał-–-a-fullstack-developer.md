@@ -70,4 +70,18 @@ For me, **the most important aspect of programming is to deliver value**. While 
 
 Also, due to the fact that I have been on this project for over 5 years, I can look at it from this great perspective. Not only have I seen how this project evolved, I actually have been a part of this development. 
 
-Another great aspect of my work is **direct communication with the client**. I even went on a business trip to Bangladesh to see with my own eyes how my solution assists a humanitarian agency’s employees and volunteers during their humanitarian missions.
+Another great aspect of my work is **direct communication with the client**. I even went on a business trip to Bangladesh to see with my own eyes how my solution assists a humanitarian agency’s employees and volunteers during their humanitarian missions. 
+
+## What stack do you use at work?
+
+I am a fullstack developer. Yet nowadays I am mostly focused on the backend. I work with modern frontend and backend Typescript solutions (React, Node.js). While working on blockchain solutions I use Solidity and Ethereum. In terms of cloud services, I use AWS.
+
+## You are one of Bright Inventions’ blockchain experts. How is it to be a blockchain developer?
+
+I specialize in Ethereum. When I came to Bright in 2017 blockchain was still in an early phase. Only bitcoin was known back then. There weren't many materials on how to work with blockchain. Right now you can see a total change. Especially when I look at Substrate and see the guides and materials that actually enable you to create your Substrate chain within an hour. It is much easier now to join the blockchain development community.
+
+**I’m glad that I get to work with Ethereum. It is definitely one of the most mature blockchains**. The volume of transactions in Ethereum is bigger compared to Bitcoin and even Visa. That’s huge!
+
+![Ethereum transaction volume](/images/ethereum_transaction_volume.png)
+
+<center><sub> Source: [https://stark.mirror.xyz](https://stark.mirror.xyz/q3OnsK7mvfGtTQ72nfoxLyEV5lfYOqUfJIoKBx7BG1I)<sub></center>
