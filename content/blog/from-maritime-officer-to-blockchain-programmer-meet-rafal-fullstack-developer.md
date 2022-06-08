@@ -5,12 +5,12 @@ tags:
   - bright story
   - blockchain
   - development
-date: 2022-06-08T10:08:41.752Z
+date: 2022-06-08T10:39:50.096Z
 title: From a Maritime Officer to a Blockchain Programmer. Meet Rafał – a
   Fullstack Developer
 layout: post
 image: /images/brightstoryrafal_fullstack.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -84,7 +84,7 @@ I specialize in Ethereum. When I came to Bright in 2017 blockchain was still in 
 
 ![Ethereum transaction volume](/images/ethereum_transaction_volume.png)
 
-<center><sub> Source: [https://stark.mirror.xyz](https://stark.mirror.xyz/q3OnsK7mvfGtTQ72nfoxLyEV5lfYOqUfJIoKBx7BG1I)<sub></center>
+*Source: [https://stark.mirror.xyz/](https://stark.mirror.xyz/q3OnsK7mvfGtTQ72nfoxLyEV5lfYOqUfJIoKBx7BG1I)*
 
 Ethereum has a great community built around it and lots of use cases. I am happy that I can build a private chain for our client with Ethereum. The project I work on proves that **blockchain is much more than cryptocurrency**. I do not invest in crypto. I believe that blockchain gives more than that. And we should focus on utilizing it in other ways. 
 
