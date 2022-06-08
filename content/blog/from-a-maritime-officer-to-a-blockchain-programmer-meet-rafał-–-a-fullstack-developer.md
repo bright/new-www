@@ -97,3 +97,9 @@ Definitely **problem-solving**. I learned how to turn clients’ requirements an
 ## You prefer to work remotely. What do you like the most about working from home?
 
 **Even before the pandemic, I was into remote working**. It is easier for me to focus when I am at home than in the office. I don’t have children so I guess it is easier to find that focus at home. My wife works at the hospital. So when the pandemic started she practically lived there. We adopted a cat so I could have a coworker who would remind me to do some breaks for cuddling. 😉 Sometimes I visit the office to socialize because it is nice to see in reality some friendly faces. 😉
+
+## What do you do after work?
+
+I mostly play board games with my wife and friends. I enjoy orienteering, kayaking, and simply strolling. I live in Gdańsk which has lots of beautiful places to discover. Also, close to the city, there are Kaszuby or Żuławy – areas where you can spend your free time close to nature. 
+
+Also, I am this guy who still bakes his own bread since the beginning of the pandemic. 🙂
