@@ -61,3 +61,13 @@ Also, this profession gave me an incredible chance to meet and cooperate with pe
 I believe that it was one of the reasons why Bright eventually wanted me on board. We work mostly with international clients so having this experience in international communication must have been an advantage of mine.
 
 ## What is the solution you work on?
+
+I work on a project for one of the top humanitarian organizations. We have been working with them for over 5 years. I must say that it is a really rewarding project. We have been developing **a blockchain solution that helps a humanitarian organization provide refugees with life-saving resources**. 
+
+For me, **the most important aspect of programming is to deliver value**. While working on this project I know I achieved my goal. **A “side effect” of my daily work is helping people**. It is incredible to feel that you really have the power to help somebody, to change something. **I create code that is truly used, it is not something that will never see the daylight**. 
+
+![Rafał's quote on delivering value as software developer](/images/brightstory_rafal_quote.png)
+
+Also, due to the fact that I have been on this project for over 5 years, I can look at it from this great perspective. Not only have I seen how this project evolved, I actually have been a part of this development. 
+
+Another great aspect of my work is **direct communication with the client**. I even went on a business trip to Bangladesh to see with my own eyes how my solution assists a humanitarian agency’s employees and volunteers during their humanitarian missions.
