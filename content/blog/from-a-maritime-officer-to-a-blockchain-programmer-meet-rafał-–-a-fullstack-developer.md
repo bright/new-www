@@ -89,3 +89,11 @@ I specialize in Ethereum. When I came to Bright in 2017 blockchain was still in 
 Ethereum has a great community built around it and lots of use cases. I am happy that I can build a private chain for our client with Ethereum. The project I work on proves that **blockchain is much more than cryptocurrency**. I do not invest in crypto. I believe that blockchain gives more than that. And we should focus on utilizing it in other ways. 
 
 ![Rafał's wuote on blockchain](/images/brightstory_rafal_quote_2.png)
+
+## What is the most important thing you learned at Bright?
+
+Definitely **problem-solving**. I learned how to turn clients’ requirements and challenges into a solution that will be of help.
+
+## You prefer to work remotely. What do you like the most about working from home?
+
+**Even before the pandemic, I was into remote working**. It is easier for me to focus when I am at home than in the office. I don’t have children so I guess it is easier to find that focus at home. My wife works at the hospital. So when the pandemic started she practically lived there. We adopted a cat so I could have a coworker who would remind me to do some breaks for cuddling. 😉 Sometimes I visit the office to socialize because it is nice to see in reality some friendly faces. 😉
