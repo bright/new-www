@@ -44,7 +44,6 @@ description: We are looking for an experienced Backend Developer who understands
   Java/Kotlin & Spring really well and who would like to work with AWS on daily
   basis.
 ---
-
 ![]()
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
@@ -101,9 +100,6 @@ Sounds exciting? We hope it does. 🧡
 * weekly sport classes and Friday in-house yoga time 
 * board games evenings and weekly lunch roulette initiative 
 
-
 Do you want to be a part of our Bright Team? Apply! 
 
-In case you have any questions, contact jobs@bright.dev. 
-
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! ⛵️
+In case you have any questions, contact jobs@bright.dev.
