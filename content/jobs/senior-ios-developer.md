@@ -5,21 +5,22 @@ subtitle: ONGOING
 imagejob: /images/iosteam.png
 image-alt-job: iOS Development Team Bright Inventions
 hours: full-time
-salary: 16 000 - 22 000 PLN + VAT (B2B) or 13 300 - 18 300 PLN gross (UoP)
-salary_min: 16000
-salary_max: 22000
+salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
+salary_min: 20000
+salary_max: 26000
 working time: full time
 technology:
   - Swift
   - iOS SDK
   - Cocoa Touch
-  - Swift Package Manager
-  - Realm
+  - Core Data
+  - Swift UI
+  - Combine
 show_new_title_more_about_us: false
 button: join our iOS team
-published: false
+published: true
 show_recruiter_info: false
-order: 11
+order: 2
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for an experienced Senior iOS Developer who
@@ -27,63 +28,45 @@ description: We are looking for an experienced Senior iOS Developer who
   application.
 ---
 
-![]()
-
-We are a team of talented senior developers from Gdańsk who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
-
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
-
 ## job description
 
-We are looking for an experienced **Senior iOS Developer** who understands Swift & iOS SDK really well and who would like to build together with us a high quality mobile application for the client from a construction industry in Germany.
+We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world. The application is a delivery platform in which users can take orders, process secure payments and enjoy millions of special offers. 
 
-The application will automatically keep track of details such as all the contracts, project proposals as well as warranty requests, and payment processing. It will be also used for tasks management and it will include scheduling, budgeting, timesheets, and more.
+As a growing team with business focus, we need strong engineers with diverse perspectives to help us enhance  the app and introduce the deployment automation (CI/CD). The team you will work in consists of six experienced and talented iOS developers as well as two dedicated QA engineers.
 
-## what you will do
+## what you will do 👩🏻‍💻🧑🏻‍💻
 
-* enhance a high-quality iOS application from the construction sector
+* enhance an existing (one-year-old) iOS application
+* work with the latest Apple frameworks such as Combine and SwiftUI
 * participate in software code reviews
-* work closely with project managers and product owners (in English) 
-* take the lead role in project and solve the most challenging technical issues
+* work closely with project managers and product owners (in English)
 * share your knowledge with the rest of a team
 * improve internal iOS development processes
 
-## preferred qualifications & skills
+## preferred qualifications & skills ✅
 
-* at least 4-5 years of commercial programming experience 
-* at least 3 years of experience in iOS development 
+* at least 4 years of experience in iOS development
 * very good knowledge and deep understanding of Swift, iOS SDK, CocoaTouch
 * very good understanding of the most popular Apple frameworks
-* experience with Realm, ReactiveSwift and Firebase Crashlytics
-* familiarity with Continuous Integration and other process automation tools 
+* experience with Core Data and Firebase Crashlytics
+* familiarity with Continuous Integration and other process automation tools
 * desire for continuous self-improvement
-* excellent problem solving and analytical thinking skills 
-* advanced level of communication in English 
+* excellent problem solving and analytical thinking skills
+* advanced level of communication in English
+* familiarity with Agile methodologies
 
-## nice-to-haves
 
-* experience with DataDog, Carthage, CocoaPods and PureLayout
-* good knowledge of Objective-C 
-* familiarity with Agile methodologies 
+## perks and benfits 🙌
 
-## joining Bright Inventions means
-
-* flat structure & great impact on the key projects decisions 
-* continuous feedback culture and regular 1:1 meetings 
-* mentoring programme 
-* 26 paid days off + Polish bank holidays regardless of the contract type 
-* flexible schedule and a remote work possibility 
-* an office library and an extra budget for professional books 
-* good equipment: MacBook and additional accessories
-* Bright Day once a month for non-project stuff
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby (office is open all the time) 
-* MultiSport card and private medical package
-* regular sport classes (running, swimming & biking)
-* yoga classes very Friday 
-* board games evenings and weekly lunch roulette initiative 
-* quarter team building events 
+* 20-26 paid days off + Polish bank holidays
+* mentoring programme
+* internal developers meetings
+* extra training budget together with professional books library
+* continuous feedback culture and 1:1 meetings
+* flexible working hours (we start between 7-10 a.m.)
+* MultiSport card and private medical package (PZU Zdrowie)
+* MacBook Pro and additional accessories
+* internal bright initiatives: regular sport classes with a professional coach, board games evenings, weekly lunch roulette
+* team retreats once a quarter
 
 Sounds like a perfect job? Don't hesitate and apply! 
-
-
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON!
