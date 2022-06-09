@@ -91,4 +91,4 @@ Our team and organisation is still growing, new challenges and projects appear a
 * good equipment: MacBook and additional accessories
 * good localisation and office in Gdańsk Wrzeszcz with a parking space nearby
 
-In case you have any questions, drop us a line at jobs@bright.dev.
+In case you have any questions, drop us a line at [jobs@bright.dev] (mailto:jobs@bright.dev).
