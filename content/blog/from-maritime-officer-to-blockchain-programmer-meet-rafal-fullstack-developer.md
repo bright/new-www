@@ -104,14 +104,12 @@ I mostly play board games with my wife and friends. I enjoy orienteering, kayaki
 
 Also, I am this guy who still bakes his own bread since the beginning of the pandemic. 🙂
 
-
-
 **Rafał was a guest on brightdevtalks podcast and told us even more about his story. The talk was held in Polish.** 
 
-**Spotify**
+**[Spotify](https://open.spotify.com/episode/5HNCIicEFctAX2LIMiLkdP?si=34754be66b1c4fbf)**
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5HNCIicEFctAX2LIMiLkdP?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-**Apple Podcasts**
+**[Apple Podcasts](https://podcasts.apple.com/pl/podcast/jaki-kolor-ma-woda-wed%C5%82ug-google/id1625829267?i=1000565743841&l=pl)**
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/pl/podcast/jaki-kolor-ma-woda-wed%C5%82ug-google/id1625829267?i=1000565743841&l=pl"></iframe>
