@@ -72,7 +72,7 @@ Our team and organisation is still growing, new challenges and projects appear a
 * effective communication and business negotiation skills 
 * can-do attitude and positive proactive approach 
 * ability to supervise developer's estimations and work 
-* positive mindset :) 
+* positive mindset 🙂 
 
 ## **what you will find at Bright Inventions**  **🧡**
 
