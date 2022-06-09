@@ -26,6 +26,12 @@ links_more_about_us: >-
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+
+
+  [Agile in a long-distance relationship](https://brightinventions.pl/blog/agile-in-a-long-distance-relationship/)
+
+
+  [How we use JIRA at Bright?](https://brightinventions.pl/blog/how-we-use-jira-at-bright/)
 title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
 name_recruiter: Ula
 image_recruiter_info: /images/ula_recruiter_hr.png
@@ -57,17 +63,6 @@ Our team and organisation is still growing, new challenges and projects appear a
 * organising sprint planning sessions, backlog refinements, daily scrums, sprint reviews and sprint retrospectives
 * creating projects documentation
 
-
-**If you want to know a bit more about how we work, take a look here:**
-
-䷉ *[Agile in a long-distance relationship](https://brightinventions.pl/blog/agile-in-a-long-distance-relationship/)*
-
-䷉ *[How we use JIRA at Bright?](https://brightinventions.pl/blog/how-we-use-jira-at-bright/)*
-
-䷉ *[No Time for Bullsh\*\*. Feedback Culture.](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
-
-䷉ *[How to Make Your Onboarding Bright](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright/)*
-
 ## **preferred skills and qualifications**
 
 * at least 2 years of experience in managing IT projects
@@ -77,11 +72,10 @@ Our team and organisation is still growing, new challenges and projects appear a
 * effective communication and business negotiation skills 
 * can-do attitude and positive proactive approach 
 * ability to supervise developer's estimations and work 
-* positive mindset :) 
+* positive mindset 🙂 
 
 ## **what you will find at Bright Inventions**  **🧡**
 
- 
 * team's support and **continuous feedback culture**
 * regular salary review
 * **mentoring programme** and regular 1:1 meetings
@@ -97,8 +91,4 @@ Our team and organisation is still growing, new challenges and projects appear a
 * good equipment: MacBook and additional accessories
 * good localisation and office in Gdańsk Wrzeszcz with a parking space nearby
 
-**Still some doubts why you may love working with us? [Check our 7 reasons to work at Bright Inventions.](https://brightinventions.pl/blog/reasons-to-join-bright/)**
-
-In case you have any questions, drop us a line at jobs@bright.dev or contact directly [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) or[ Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) from our bright recruitment team. 
-
-**HOPE TO SEE YOU SOON ON OUR BRIGHT BOARD! 🙂**
+In case you have any questions, drop us a line at [jobs@bright.dev] (mailto:jobs@bright.dev).
