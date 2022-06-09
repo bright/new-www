@@ -76,7 +76,8 @@ const TraitsFigure = styled.figure`
   @media ${variables.device.tablet} {
     margin: 0 auto;
     & svg {
-      width: 48px;
+      width: 100%;
+      height: auto;
       margin-top: ${variables.pxToRem(0)};
     }
   }
