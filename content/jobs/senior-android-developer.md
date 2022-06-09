@@ -44,7 +44,7 @@ recruting_image3_title: programming task
 description: We are looking for a Senior Android Developer who would like to
   work with our experienced and ambitious development team.
 ---
-## about the role 
+## about the role
 
 We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. **[The application is an intelligent point-of-sale created for the world’s top food ordering company - JustEat.](https://www.justeatpos.co.uk/)** 
 
@@ -87,16 +87,4 @@ The Android team involves now **seven talented and experienced Android developer
 * **sport classes every week and yoga Fridays**
 * team building events once a quarter
 * bright lunch initiative every week 
-* if you like to work in the office, we provide you with a parking card 
-
-## if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️ 
-
-[7 reasons to work at Bright Inventions](https://brightinventions.pl/blog/reasons-to-join-bright)
-
-[No Time for Bullsh**. Feedback Culture](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/)
-
-[Bright Onboarding - What Is Waiting for You](https://brightinventions.pl/blog/how-to-make-your-onboarding-bright)
-
-Still some doubts why you may love working with us?
-
-Contact directly [Paulina](https://www.linkedin.com/in/paulina-trendel-666281175/) or [Agata](https://www.linkedin.com/in/agatamietli%C5%84ska/) from our bright recruitment team and ask about cooperation details.
+* if you like to work in the office, we provide you with a parking card
