@@ -96,5 +96,3 @@ We are responsible for providing: backend infrastructure, web application, a set
 Sounds interesting? Don't hesitate and apply! 
 
 If in doubt, please contact directly ula@bright.dev. She would be happy to help!
-
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! 🧡
