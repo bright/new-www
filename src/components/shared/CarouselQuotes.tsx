@@ -87,6 +87,15 @@ const WrapperImage = styled.div`
       width: auto;
     }
   }
+  @media ${variables.device.mobile} {
+    flex-basis: 100%;
+    & .quote-img {
+      & img {
+        max-height: ${variables.pxToRem(330)};
+        width: auto;
+      }
+    }
+  }
 `
 const QuoteCustomSectionInner = styled.div`
   max-width: ${clampBuilder(992, 1920, 340, 840)};
