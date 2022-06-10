@@ -1,9 +1,9 @@
 ---
 team_members:
-  - alisa
   - kasia
   - mateusz
   - piotr
+  - kasia g
 faqs:
   - product workshop 1
   - product workshop 2
