@@ -18,6 +18,7 @@ export const Logo: React.FC = () => {
         className={classNames(styles.logo, styles.big)}
         src='../../../static/images/bright_inventions_logo_500-01.png'
         loading='eager'
+        style={{ background: '#ffffff' }}
       />
     </Link>
   )
