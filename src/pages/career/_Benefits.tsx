@@ -13,7 +13,6 @@ const SectionBenefitsTitle = styled(CustomSectionTitle)`
   margin-top: 11.625rem;
   margin-bottom: 5.5625rem;
   font-size: 2.5rem;
-  font-weight: 800;
 
   @media ${variables.device.laptop} {
     font-size: 2.125rem;
