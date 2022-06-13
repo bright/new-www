@@ -83,5 +83,3 @@ In this role you will be responsible for developing the infrastructure that will
 * team retreats once a quarter
 
 Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
-
-In case you have any questions, drop a line at ula@bright.dev. 
