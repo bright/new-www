@@ -89,5 +89,3 @@ The goal of the app is to make support accessible and affordable to everyone. Sh
 * board games evenings, Friday yoga and lunch roulette initiative
 
 This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it! 
-
-In case you have any questions, drop a line to jobs@bright.dev.
