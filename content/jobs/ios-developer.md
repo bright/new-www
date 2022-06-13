@@ -39,7 +39,7 @@ redirect_from:
   - /ios-developer/
 published: true
 show_recruiter_info: true
-order: 3
+order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for an experienced passionate iOS Developer to
