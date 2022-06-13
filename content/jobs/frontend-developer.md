@@ -33,7 +33,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our frontend team
 published: true
 show_recruiter_info: true
-order: 6
+order: 9
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Frontend Developer who would like to work with
