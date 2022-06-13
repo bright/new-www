@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: ONGOING
+subtitle: OPENING SOON
 image-alt-job: backend development team
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
@@ -37,7 +37,7 @@ button: join our backend team
 published: true
 show_recruiter_info: true
 hidden: false
-order: 3
+order: 11
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for an experienced Backend Developer who understands
@@ -99,7 +99,3 @@ Sounds exciting? We hope it does. 🧡
 * team retreats once a quarter 
 * weekly sport classes and Friday in-house yoga time 
 * board games evenings and weekly lunch roulette initiative 
-
-Do you want to be a part of our Bright Team? Apply! 
-
-In case you have any questions, contact jobs@bright.dev.
