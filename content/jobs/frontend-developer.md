@@ -87,5 +87,3 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * regular sport classes (running, biking, swimming)
 * board games Fridays 
 * team retreats once a quarter and weekly lunch roulette initiative 
-
-In case you have any questions, drop us a line at jobs@bright.dev. We would be happy to help!
