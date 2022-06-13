@@ -33,7 +33,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our frontend team
 published: true
 show_recruiter_info: true
-order: 3
+order: 10
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Senior Frontend Developer with solid knowledge
@@ -92,7 +92,3 @@ As a growing team with business focus, we need strong engineers with diverse per
 * free English classes in small groups 
 * Friday yoga and board games evenings 
 * team buildings parties once a quarter and weekly bright lunches initiative 
-
-This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it! 
-
-In case you have any questions, drop a line to ula@bright.dev.
