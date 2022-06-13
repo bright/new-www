@@ -38,7 +38,7 @@ redirect_from:
   - /android-developer/
 published: true
 show_recruiter_info: true
-order: 4
+order: 1
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Senior Android Developer who would like to
