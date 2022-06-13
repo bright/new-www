@@ -36,7 +36,7 @@ image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: Ula Stankiewicz HR & Marketing Manager at Bright Inventions
 button: join our Bright team
 published: true
-order: 1
+order: 2
 recruting_image2_title: interview (technical & non-technical part)
 recruting_image3_title: programming task
 ---
