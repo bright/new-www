@@ -35,7 +35,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our iOS team
 published: true
 show_recruiter_info: true
-order: 2
+order: 6
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for an experienced Senior iOS Developer who
