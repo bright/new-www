@@ -202,6 +202,7 @@ export const CarouselQuotes: React.FC<CarouselProps> = ({ wrapperClassName }) =>
         renderIndicator={Indicator}
         renderArrowPrev={PreviousArrow}
         renderArrowNext={NextArrow}
+        transitionTime={100}
       >
         {quotes.map(item => {
           const { avatar_hover, short_name, bio, slug, quote } = item
