@@ -44,23 +44,39 @@ const PreviousSliderButton = styled(SliderButton)`
   margin-right: ${variables.pxToRem(47)};
 
   @media ${variables.device.tablet} {
-    margin-right: 1em;
-    margin-top: -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
   }
   @media ${variables.device.mobile} {
-    margin-right: 0;
-    margin-top: -50%;
+    top: 25%;
+    left: 0;
+    transform: translateY(-25%);
   }
 `
 const NextSliderButton = styled(SliderButton)`
   margin-left: 7.625rem;
   @media ${variables.device.tablet} {
-    margin-left: 1em;
-    margin-top: -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
   }
   @media ${variables.device.mobile} {
-    margin-left: 0;
-    margin-top: -50%;
+    top: 25%;
+    right: 0;
+    transform: translateY(-25%);
   }
 `
 const QuoteWrapper = styled.p`
