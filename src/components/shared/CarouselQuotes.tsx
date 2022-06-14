@@ -82,16 +82,13 @@ const NextSliderButton = styled(SliderButton)`
 const QuoteWrapper = styled.p`
   font-family: lato;
   font-style: italic;
-  font-size: ${clampBuilder(992, 1920, 22, 34)};
+  font-size: ${clampBuilder(992, 1920, 22, 28)};
   line-height: ${clampBuilder(992, 1920, 48, 64)};
   text-align: left;
   color: ${variables.color.black};
+
   @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(24)};
-    line-height: ${variables.pxToRem(48)};
-  }
-  @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(18)};
+    font-size: ${variables.pxToRem(16)};
     line-height: ${variables.pxToRem(30)};
   }
 `
@@ -107,16 +104,24 @@ const WrapperImage = styled.div`
     flex-basis: 100%;
     & .quote-img {
       & img {
-        max-height: ${variables.pxToRem(330)};
+        max-height: ${variables.pxToRem(300)};
         width: auto;
       }
     }
   }
 `
 const QuoteCustomSectionInner = styled.div`
-  max-width: ${clampBuilder(992, 1920, 340, 840)};
+  flex-basis: 60%;
+
   @media ${variables.device.tablet} {
+    flex-basis: 100%;
     max-width: 100%;
+  }
+`
+const QuoteTextTitle = styled(CustomTextTitle)`
+  font-size: ${clampBuilder(992, 1920, 22, 32)};
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(18)};
   }
 `
 
@@ -211,12 +216,12 @@ export const CarouselQuotes: React.FC<CarouselProps> = ({ wrapperClassName }) =>
               <Link to={`/about-us/${slug}`}>
                 <FlexWrapper desktopItems='center' desktopGap='67px' tabletDirection='column-reverse' tabletGap='44px'>
                   <QuoteCustomSectionInner>
-                    <CustomTextTitle tabletXLMargin='0 0 51px' mobileMargin='0 0 18px' margin='0 0 56px'>
+                    <QuoteTextTitle tabletXLMargin='0 0 51px' mobileMargin='0 0 18px' margin='0 0 56px'>
                       <FlexWrapper desktopGap='5px' tabletContent='center' mobileDirection='column'>
                         <p>{short_name},</p>
                         <p>{bio}</p>
                       </FlexWrapper>
-                    </CustomTextTitle>
+                    </QuoteTextTitle>
 
                     <QuoteWrapper>{quote}</QuoteWrapper>
                   </QuoteCustomSectionInner>
