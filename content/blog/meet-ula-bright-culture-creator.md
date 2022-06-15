@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-**Ula is the first non-developer who joined the Bright team over 5 years ago. Now, she is more than a crucial employee. She is our Bright mom (seriously). 😉 She takes care of the recruitment area, employees' well-being and our brand development. No matter what, you can always talk to Ula. And she will find time for you, despite the fact that she is one of the busiest people in the company. ;) Meet Ula – HR and Marketing Manager at Bright Inventions.**
+**Ula is the first non-developer who joined the Bright team over 5 years ago. Now, she is more than a crucial employee. She is our Bright mom (seriously). 😉 She takes care of the recruitment area, employees' well-being and our brand development. No matter what, you can always talk to Ula. And she will find time for you, despite the fact that she is one of the busiest people in the company. 😉 Meet Ula – HR and Marketing Manager at Bright Inventions.**
 
 ![Ula – HR and Marketing Manager at Bright Inventions](/images/brightstoryula.png)
 
@@ -71,7 +71,7 @@ Read more about [Bright Inventions’s onboarding](/blog/how-to-make-your-onboar
 
 ## I get the feeling that you don’t like when people call you a non-technical person. Is that true?
 
-I have nothing against the word “non-technical”. What I don’t like are stereotypes. **The fact that I am not a developer does not mean that I am not interested in software development topics**. And it does not mean that I don’t understand them. 
+I have nothing against the word “non-technical”. What I don’t like are stereotypes. **The fact that I am not a developer does not mean that I am not interested in [software development](/our-areas/custom-software-development) topics**. And it does not mean that I don’t understand them. 
 
 ![Ula – HR and Marketing Manager at Bright Inventions](/images/brightstoryula2.png)
 
