@@ -41,11 +41,15 @@ const SliderButton = styled.div`
 `
 
 const PreviousSliderButton = styled(SliderButton)`
-  margin-right: ${variables.pxToRem(47)};
+  margin-right: ${variables.pxToRem(90)};
+
+  @media ${variables.device.tabletXL} {
+    margin-right: ${variables.pxToRem(58)};
+  }
 
   @media ${variables.device.tablet} {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: absolute;
     top: 50%;
@@ -61,10 +65,13 @@ const PreviousSliderButton = styled(SliderButton)`
   }
 `
 const NextSliderButton = styled(SliderButton)`
-  margin-left: 7.625rem;
+  margin-left: ${variables.pxToRem(90)};
+  @media ${variables.device.tabletXL} {
+    margin-left: ${variables.pxToRem(58)};
+  }
   @media ${variables.device.tablet} {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: absolute;
     top: 50%;
@@ -93,11 +100,20 @@ const QuoteWrapper = styled.p`
   }
 `
 const WrapperImage = styled.div`
-  flex-basis: 50%;
+  flex-basis: 40%;
   & .quote-img {
     & img {
-      max-height: ${variables.pxToRem(521)};
+      min-height: ${variables.pxToRem(521)};
       width: auto;
+    }
+  }
+  @media ${variables.device.tabletXL} {
+    flex-basis: 40%;
+    & .quote-img {
+      & img {
+        min-height: ${variables.pxToRem(381)};
+        width: auto;
+      }
     }
   }
   @media ${variables.device.mobile} {
@@ -214,7 +230,13 @@ export const CarouselQuotes: React.FC<CarouselProps> = ({ wrapperClassName }) =>
           return (
             <div key={item.short_name}>
               <Link to={`/about-us/${slug}`}>
-                <FlexWrapper desktopItems='center' desktopGap='67px' tabletDirection='column-reverse' tabletGap='44px'>
+                <FlexWrapper
+                  desktopItems='center'
+                  desktopGap='67px'
+                  tabletDirection='column-reverse'
+                  tabletGap='44px'
+                  desktopContent='space-between'
+                >
                   <QuoteCustomSectionInner>
                     <QuoteTextTitle tabletXLMargin='0 0 51px' mobileMargin='0 0 18px' margin='0 0 56px'>
                       <FlexWrapper desktopGap='5px' tabletContent='center' mobileDirection='column'>
