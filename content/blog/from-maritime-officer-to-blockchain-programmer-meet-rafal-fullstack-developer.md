@@ -74,7 +74,7 @@ Another great aspect of my work is **direct communication with the client**. I e
 
 ## What stack do you use at work?
 
-I am a fullstack developer. Yet nowadays I am mostly focused on the backend. I work with modern frontend and backend Typescript solutions (React, Node.js). While working on blockchain solutions I use Solidity and Ethereum. In terms of cloud services, I use AWS.
+I am a fullstack developer. Yet nowadays I am mostly focused on the backend. I work with modern frontend and backend Typescript solutions (React, Node.js). While working on [blockchain solutions](/our-areas/blockchain) I use Solidity and Ethereum. In terms of cloud services, I use AWS.
 
 ## You are one of Bright Inventions’ blockchain experts. How is it to be a blockchain developer?
 
