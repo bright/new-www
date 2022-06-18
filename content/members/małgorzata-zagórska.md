@@ -3,7 +3,7 @@ layout: member
 author_id: malgorzata-z
 ex: false
 slug: malgorzata-z
-name: Małgorzata Zagórska
+name: Małgorzata Zielińska
 short_name: Małgorzata
 email: malgorzata.zielinska@brightinventions.pl
 bio: Senior QA Engineer
