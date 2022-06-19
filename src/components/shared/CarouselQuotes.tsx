@@ -221,6 +221,9 @@ export const CarouselQuotes: React.FC<CarouselProps> = ({ wrapperClassName }) =>
         showThumbs={false}
         infiniteLoop={false}
         autoPlay={false}
+        autoFocus={false}
+        emulateTouch={false}
+        swipeable={false}
         renderIndicator={Indicator}
         renderArrowPrev={PreviousArrow}
         renderArrowNext={NextArrow}
