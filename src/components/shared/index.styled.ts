@@ -373,51 +373,61 @@ export const FlexWrapper = styled.div<{
   desktopContent?: string
   desktopItems?: string
   desktopGap?: string
+  desktopWrap?: string
   laptopDirection?: string
   laptopContent?: string
   laptopItems?: string
   laptopGap?: string
+  laptopWrap?: string
   tabletXLDirection?: string
   tabletXLContent?: string
   tabletXLItems?: string
   tabletXLGap?: string
+  tabletXLWrap?: string
   tabletDirection?: string
   tabletContent?: string
   tabletItems?: string
   tabletGap?: string
+  tabletWrap?: string
   mobileDirection?: string
   mobileContent?: string
   mobileItems?: string
   mobileGap?: string
+  mobileWrap?: string
 }>`
   display: flex;
   flex-direction: ${({ desktopDirection }) => desktopDirection};
   justify-content: ${({ desktopContent }) => desktopContent};
   align-items: ${({ desktopItems }) => desktopItems};
   gap: ${({ desktopGap }) => desktopGap};
+  flex-wrap: ${({ desktopWrap }) => desktopWrap};
 
   @media ${variables.device.laptop} {
     flex-direction: ${({ laptopDirection }) => laptopDirection};
     justify-content: ${({ laptopContent }) => laptopContent};
     align-items: ${({ laptopItems }) => laptopItems};
     gap: ${({ laptopGap }) => laptopGap};
+    flex-wrap: ${({ laptopWrap }) => laptopWrap};
   }
   @media ${variables.device.tabletXL} {
     flex-direction: ${({ tabletXLDirection }) => tabletXLDirection};
     justify-content: ${({ tabletXLContent }) => tabletXLContent};
     align-items: ${({ tabletXLItems }) => tabletXLItems};
     gap: ${({ tabletXLGap }) => tabletXLGap};
+    flex-wrap: ${({ tabletXLWrap }) => tabletXLWrap};
   }
   @media ${variables.device.tablet} {
     flex-direction: ${({ tabletDirection }) => tabletDirection};
     justify-content: ${({ tabletContent }) => tabletContent};
     align-items: ${({ tabletItems }) => tabletItems};
     gap: ${({ tabletGap }) => tabletGap};
+    flex-wrap: ${({ tabletWrap }) => tabletWrap};
   }
   @media ${variables.device.mobile} {
     flex-direction: ${({ mobileDirection }) => mobileDirection};
     justify-content: ${({ mobileContent }) => mobileContent};
     align-items: ${({ mobileItems }) => mobileItems};
     gap: ${({ mobileGap }) => mobileGap};
+    flex-wrap: ${({ mobileWrap }) => mobileWrap};
   }
 `
