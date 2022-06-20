@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { CustomContainer, CustomSection, CustomSectionTitle } from '../../components/shared'
-import { CarouselQuotes } from '../../components/shared/CarouselQuotes'
+import { CustomSection, CustomSectionTitle } from '../../components/shared'
+import { CarouselQuotesSwiper } from '../../components/shared/CarouselQuotesSwiper'
 import variables from '../../styles/variables'
 
 const SectionEx = styled(CustomSection)`
@@ -22,7 +22,7 @@ const OurWork: React.FC = () => {
       <CustomSectionTitle tabletMargin='116px 0 64px'>
         our team about working at <span>bright</span>
       </CustomSectionTitle>
-      <CarouselQuotes />
+      <CarouselQuotesSwiper />
     </SectionEx>
   )
 }
