@@ -127,18 +127,18 @@ const QuoteWrapper = styled.p`
   }
 `
 const WrapperImage = styled.div`
-  flex-basis: 40%;
+  flex-basis: 30%;
   & .quote-img {
     & img {
-      min-height: ${variables.pxToRem(521)};
+      max-height: ${variables.pxToRem(521)};
       width: auto;
     }
   }
   @media ${variables.device.tabletXL} {
-    flex-basis: 40%;
+    flex-basis: 30%;
     & .quote-img {
       & img {
-        min-height: ${variables.pxToRem(381)};
+        max-height: ${variables.pxToRem(381)};
         width: auto;
       }
     }
@@ -162,7 +162,7 @@ const WrapperImage = styled.div`
   }
 `
 const QuoteCustomSectionInner = styled.div`
-  flex-basis: 60%;
+  flex-basis: 70%;
 
   @media ${variables.device.tablet} {
     flex-basis: 100%;
@@ -176,9 +176,9 @@ const QuoteTextTitle = styled(CustomTextTitle)`
   }
 `
 const SlideWrapper = styled.div`
-  padding: 0 ${variables.pxToRem(140)};
+  padding: 0 ${variables.pxToRem(98)};
   @media ${variables.device.tabletXL} {
-    padding: 0 ${clampBuilder(992, 1280, 76, 108)};
+    padding: 0 ${clampBuilder(992, 1280, 46, 78)};
   }
   @media ${variables.device.tablet} {
     padding: 0;
@@ -268,6 +268,7 @@ export const CarouselQuotesSwiper: React.FC = () => {
                     <FlexWrapper
                       desktopItems='center'
                       desktopGap='67px'
+                      tabletXLGap='0'
                       tabletDirection='column-reverse'
                       tabletGap='44px'
                       desktopContent='space-between'
