@@ -3,7 +3,7 @@ title: "Rust Developer "
 subtitle: ONGOING
 imagejob: /images/backendteam.png
 image-alt-job: Bright Inventions team
-salary: 18 000 - 25 000 PLN + VAT (B2B) or 14 950 - 20 750 PLN gross (UoP)
+salary: 22 000 - 26 000 PLN + VAT (B2B) or 18 300 - 20 750 PLN gross (UoP)
 workplace_recruiter: HR & Marketing Manager
 Show_recruiter_info: true
 technology:
