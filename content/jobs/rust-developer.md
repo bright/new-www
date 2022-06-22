@@ -9,11 +9,11 @@ Show_recruiter_info: true
 technology:
   - Blockchain
   - Substrate
-  - Ethereum 
+  - Ethereum
   - Kusama
   - AWS
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
-show_recruiter_info: true
+show_recruiter_info: false
 button_instagram: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 layout: job
 hours: full-time
