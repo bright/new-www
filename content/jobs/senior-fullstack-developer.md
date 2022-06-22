@@ -32,7 +32,7 @@ image_alt_recruiter_info: Agata Mietlińska - A Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our TypeScript team
 published: true
-show_recruiter_info: true
+show_recruiter_info: false
 order: 7
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
