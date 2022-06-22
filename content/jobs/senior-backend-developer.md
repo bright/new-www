@@ -35,7 +35,7 @@ image_alt_recruiter_info: Paulina Trender - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
 button: join our backend team
 published: true
-show_recruiter_info: true
+show_recruiter_info: false
 hidden: false
 order: 11
 recruting_image2_title: interview (technical part & non-technical part)
