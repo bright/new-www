@@ -271,7 +271,7 @@ export const CustomSectionTitle = styled.h2<{
 
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(22)};
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.6875rem;
     margin: ${({ mobileMargin }) => (mobileMargin ? mobileMargin : '5.125rem 0 4rem')};
   }

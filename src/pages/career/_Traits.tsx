@@ -30,7 +30,7 @@ const SectionTitleEx = styled(CustomSectionTitle)`
   }
 
   @media ${variables.device.mobile} {
-    font-size: 1.125rem;
+    font-size: 22px;
     margin-bottom: 2.75rem;
     text-align: left;
   }

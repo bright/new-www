@@ -22,6 +22,7 @@ const SectionBenefitsTitle = styled(CustomSectionTitle)`
     margin-top: 0;
     margin-bottom: 3rem;
     font-size: 1.375rem;
+    font-weight: 900;
   }
 `
 const Block = styled.div`
