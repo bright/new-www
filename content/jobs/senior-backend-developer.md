@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: ONGOING
+subtitle: OPENING SOON
 image-alt-job: backend development team
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
@@ -35,16 +35,15 @@ image_alt_recruiter_info: Paulina Trender - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
 button: join our backend team
 published: true
-show_recruiter_info: true
+show_recruiter_info: false
 hidden: false
-order: 3
+order: 11
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for an experienced Backend Developer who understands
   Java/Kotlin & Spring really well and who would like to work with AWS on daily
   basis.
 ---
-
 ![]()
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
@@ -100,10 +99,3 @@ Sounds exciting? We hope it does. 🧡
 * team retreats once a quarter 
 * weekly sport classes and Friday in-house yoga time 
 * board games evenings and weekly lunch roulette initiative 
-
-
-Do you want to be a part of our Bright Team? Apply! 
-
-In case you have any questions, contact jobs@bright.dev. 
-
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON! ⛵️

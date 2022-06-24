@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "Frontend Developer "
-subtitle: ONGOING
+subtitle: OPENING SOON
 imagejob: /images/frontendteam_job_offer.png
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
@@ -32,8 +32,8 @@ image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our frontend team
 published: true
-show_recruiter_info: true
-order: 6
+show_recruiter_info: false
+order: 9
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Frontend Developer who would like to work with
@@ -45,7 +45,7 @@ At[ Bright Inventions](https://brightinventions.pl/about-us/team/) you'll be a
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
 
-## what you'll work on 
+## what you'll work on
 
 Innovative and robust ePOS application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market. We are responsible here for providing: backend server, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
 
@@ -57,7 +57,7 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * share knowledge with the rest of the team
 * improve internal software development processes
 
-## what we are looking for 
+## what we are looking for
 
 * at least 2-3 years of commercial programming experience (including min. 2 years in frontend development) 
 * very good working knowledge and deep understanding of JavaScript/TypeScript
@@ -72,7 +72,7 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * experience with development in Node.js and PostgreSQL
 * familiarity with Docker
 
-## what we offer 
+## what we offer
 
 * great space for self-development
 * continuous feedback culture
@@ -87,7 +87,3 @@ Innovative and robust ePOS application for one of our main clients. The applicat
 * regular sport classes (running, biking, swimming)
 * board games Fridays 
 * team retreats once a quarter and weekly lunch roulette initiative 
-
-## HOPE TO SEE YOU ON OUR BRIGHT BOARD SOON!
-
-In case you have any questions, drop us a line at jobs@bright.dev. We would be happy to help! 

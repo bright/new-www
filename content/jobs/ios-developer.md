@@ -38,8 +38,8 @@ redirect_from:
   - /ios-developer
   - /ios-developer/
 published: true
-show_recruiter_info: true
-order: 11
+show_recruiter_info: false
+order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for an experienced passionate iOS Developer to
@@ -98,7 +98,3 @@ As a growing team with business focus, we need strong engineers with diverse per
 * quarter team building events 
 * weekly sport classes together with in-house yoga time 
 * Friday board games evenings and lunch roulette initiative 
-
-In case you have any questions, let us know! We'd be happy to help.
-
-Just drop a line ta jobs@bright.dev. 

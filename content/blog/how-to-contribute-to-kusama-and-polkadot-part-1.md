@@ -69,4 +69,4 @@ Are you a writer? Write and publish articles, blog posts – whatever you can to
 
 If you don’t own your blog, you can publish articles on various online publishing platforms such as Medium.com, Hackernoon, and ThinkMobiles. Don’t forget that you can post your piece of content simply on Linkedin, Twitter, or Reddit. 
 
-**Hungry for more? No worries, we will publish the second part of this article with other ways to contribute to Web3 even if you are not a software developer. You can [join our newsletter](/blog/join-bright-newsletter-software-development) so you won’t miss it.**
+**Hungry for more? No worries, check out the second part of this article with other [ways to contribute to Web3](/blog/how-to-contribute-to-kusama-and-polkadot-part-2) even if you are not a software developer.**

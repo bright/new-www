@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: alisa
-ex: false
+ex: true
 slug: alisa
 name: Alisa Kashytska
 short_name: Alisa

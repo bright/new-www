@@ -34,8 +34,8 @@ image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: "join our TypeScript team "
 published: true
-show_recruiter_info: true
-order: 1
+show_recruiter_info: false
+order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Fullstack Developer (Node.js + React) who
@@ -89,5 +89,3 @@ The goal of the app is to make support accessible and affordable to everyone. Sh
 * board games evenings, Friday yoga and lunch roulette initiative
 
 This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it! 
-
-In case you have any questions, drop a line to jobs@bright.dev.

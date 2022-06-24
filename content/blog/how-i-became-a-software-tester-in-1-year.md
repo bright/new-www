@@ -168,3 +168,5 @@ I guess it is worth getting familiar with:
 [Resources for Developers, by Developers](https://developer.mozilla.org/en-US/)
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+Finally a guide for a manual testers who are willing to start with automated tests: [How to Start Writing Automation Tests](/blog/how-to-start-writing-automation-tests)

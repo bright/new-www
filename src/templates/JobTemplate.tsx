@@ -666,7 +666,7 @@ export default function Template({
               description={
                 <>
                   If you have no questions, simply apply using our form below or send your application directly via email{' '}
-                  <a href='mailto:ula@bright.dev'>ula@bright.dev</a>. 
+                  <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>. 
                 </>
               }
               namePlaceholder={'Enter name here'}
