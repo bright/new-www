@@ -19,7 +19,7 @@ const SectionEx = styled(CustomSection)`
 const OurWork: React.FC = () => {
   return (
     <SectionEx>
-      <CustomSectionTitle tabletMargin='116px 0 50px' margin='154px 0 64px'>
+      <CustomSectionTitle tabletMargin='116px 0 50px' margin='154px 0 50px'>
         our team about working at <span>bright</span>
       </CustomSectionTitle>
       <CarouselQuotesSwiper />
