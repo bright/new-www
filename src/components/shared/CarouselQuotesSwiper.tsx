@@ -138,7 +138,7 @@ const WrapperImage = styled.div`
     flex-basis: 30%;
     & .quote-img {
       & img {
-        max-height: ${variables.pxToRem(381)};
+        max-height: ${variables.pxToRem(345)};
         width: auto;
       }
     }
@@ -147,7 +147,7 @@ const WrapperImage = styled.div`
     flex-basis: 100%;
     & .quote-img {
       & img {
-        max-height: ${variables.pxToRem(442)};
+        max-height: ${variables.pxToRem(400)};
         width: auto;
       }
     }
@@ -162,7 +162,7 @@ const WrapperImage = styled.div`
   }
 `
 const QuoteCustomSectionInner = styled.div`
-  flex-basis: 70%;
+  flex-basis: 85%;
 
   @media ${variables.device.tablet} {
     flex-basis: 100%;
@@ -170,7 +170,7 @@ const QuoteCustomSectionInner = styled.div`
   }
 `
 const QuoteTextTitle = styled(CustomTextTitle)`
-  font-size: ${clampBuilder(992, 1920, 22, 32)};
+  font-size: ${clampBuilder(992, 1920, 22, 28)};
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(18)};
   }
