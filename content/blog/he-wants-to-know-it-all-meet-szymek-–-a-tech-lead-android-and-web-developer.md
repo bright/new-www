@@ -38,3 +38,11 @@ It was a great challenge to work on an AI project as a junior. Although there we
 [Łukasz](/about-us/lukasz/), who works at Bright, is my friend from college. He recommended me this place. After graduation, he went straight to Bright and I had a job somewhere else. Łukasz was talking all the time about how great it was at Bright so I eventually applied in 2018.
 
 ![Bright Inventions team](/images/brightstory_team.png)
+
+**When I first came to the office for an interview I instantly felt this warm, cozy atmosphere**. I knew it was something I desired. I got that job and started my work here by programming with React. Then I joined the Android team, but in the meantime, I tried Swift and Node.js. At this moment **Android gives me the best satisfaction**.
+
+## Why do you feel that way about Android development?
+
+Because the effects of my work are tangible. **I can grab my Android device and quickly check the results of the lines of code I have just written**. And it is pretty useful on daily basis, not only at work. There were often situations when I couldn’t find a suitable app so I just wrote something for myself. For example, in college, I built my own flashcard app to improve my learning method. 
+
+Not only Android is satisfying like that. **I feel the same about the front end** (mobile and web as well). Simply because you can check out the UI changes you have made. You can simply click through them. The backend doesn’t work like that, it is not that easy to experience the results of your actions.
