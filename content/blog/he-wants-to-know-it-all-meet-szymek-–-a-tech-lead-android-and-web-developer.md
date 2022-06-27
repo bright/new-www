@@ -194,3 +194,9 @@ I want to reassure you that **our interviews aren’t exams**. It is a conversat
 **I treat interviews like a conversation**. I ask about candidates’ experience and ways of handling some issues. Also, I want to know how they would approach some subjects according to the knowledge and tools they know and use. You don’t need to have the answers to everything but it’s nice if you can show us what would you do to get those answers.
 
 ## I know that apart from work, sports are a huge part of your life. What are your favorite activities?
+
+I love to play badminton, basketball, and tennis. I also enjoy running and going to the gym. I used to train minigolf a lot. I was even Polish champion twice. However, now I deal with an injury and all I can do is count the days before I go back to these workouts. 
+
+![Szymek's passions](/images/brightstory_hobby.png)
+
+Apart from sports I really love traveling, especially by hitchhiking. I hope that in post-pandemic times we will get opportunities for traveling this way again. I traveled over 15k kilometers across the Czech Republic, Slovakia, Austria, Hungary, Croatia, Montenegro, Serbia, Bulgaria, and Italy. Hope to experience this again.
