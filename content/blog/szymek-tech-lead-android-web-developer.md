@@ -28,7 +28,7 @@ I guess **I always wanted to explore as many aspects of programming as I possibl
 
 Apart from Java and Kotlin, I also programmed in Swift for a couple of months to have that experience. I also tried PHP but this was a one-sided friendship which I didn't reciprocate.
 
-## **So I guess you studied Informatics?**
+## So I guess you studied Informatics?
 
 Actually, I didn’t. 🙂 I studied Control Engineering at the Gdańsk University of Technology. I went to college exclusively to figure out what I wanted to do in life. As it turned out it wasn't Control Engineering after all. 😉
 
@@ -66,7 +66,7 @@ It wasn’t as problematic as you might think. My whole transition from a develo
 
 ## What are your daily duties and responsibilities as a tech lead?
 
-I start my workday by responding to every Slack message, Jira comment, and email. ;) As soon as I get through all of that I can focus on managing current challenges in the project and taking care of the team productivity. 
+I start my workday by responding to every Slack message, Jira comment, and email. 😉 As soon as I get through all of that I can focus on managing current challenges in the project and taking care of the team productivity. 
 
 I spend some time coding and overlooking new features being released. Yet apart from delivering new features, **my priority is to prevent bad decisions** that could reduce the quality of the product. I am **accountable for keeping a high quality of the app**. I am also **responsible for reducing technical debt and keeping the stack up-to-date**.  
 
