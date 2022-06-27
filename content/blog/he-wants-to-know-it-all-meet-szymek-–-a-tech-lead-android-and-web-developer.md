@@ -1,6 +1,10 @@
 ---
 author: szymek
 secondAuthor: izabela
+tags:
+  - bright story
+  - android
+  - kotlin
 date: 2022-06-27T07:16:53.933Z
 title: He wants to know it all. Meet Szymek – a Tech Lead, Android and Web Developer
 layout: post
