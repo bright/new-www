@@ -45,4 +45,8 @@ It was a great challenge to work on an AI project as a junior. Although there we
 
 Because the effects of my work are tangible. **I can grab my Android device and quickly check the results of the lines of code I have just written**. And it is pretty useful on daily basis, not only at work. There were often situations when I couldn’t find a suitable app so I just wrote something for myself. For example, in college, I built my own flashcard app to improve my learning method. 
 
-Not only Android is satisfying like that. **I feel the same about the front end** (mobile and web as well). Simply because you can check out the UI changes you have made. You can simply click through them. The backend doesn’t work like that, it is not that easy to experience the results of your actions.
+Not only Android is satisfying like that. **I feel the same about the front end** (mobile and web as well). Simply because you can check out the UI changes you have made. You can simply click through them. The backend doesn’t work like that, it is not that easy to experience the results of your actions. 
+
+## Now you are a tech lead of the Android team. What did your road from dev to lead look like?
+
+Since the beginning of my career, I had a chance to learn many different technologies. Remember, I started as a fullstack, and learned Android, Swift, and even PHP on the way. I still didn’t feel like that was it for me. **Even though Android gives me the most satisfaction I constantly look for other options**.
