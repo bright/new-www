@@ -84,3 +84,69 @@ I make sure that their workflow isn’t disturbed a lot. Business representative
 ## How many people are on your Android team?
 
 At the moment I have **10 people on my team**. We create an international group of people. Most of the developers are from Poland, but we also have devs from Israel and The Republic of South Africa.
+
+## You are a Kotlin enthusiast. What is the quickest way to convince Java developers to switch to Kotlin?
+
+The easiest way to convince a Java dev to use Kotlin is to o**ffer to buy them a beer on the condition that they spend an hour to code in Kotlin**. They will quickly realize what pain was it to code in Java over these years. And will come back to me with gratitude and probably a beer bought for me. 🙂
+
+On a more serious note, a great way is to show examples of differences between Java and Kotlin. Let me show you **the code needed to create a “Pigeon” class in both languages**:
+
+**Java**
+
+```
+public class Pigeon {
+    String name;
+    String color;
+
+    public Pigeon(String name, String color) {
+        this.name = name;
+        this.color = color;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Pigeon pigeon = (Pigeon) o;
+        return Objects.equals(name, pigeon.name) && Objects.equals(color, pigeon.color);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, color);
+    }
+    
+    @Override
+    public String toString() {
+        return "Pigeon{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
+}
+```
+
+**Kotlin**
+
+```
+data class Pigeon(
+    val name: String, 
+    val color: String
+)
+```
