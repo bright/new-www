@@ -54,3 +54,15 @@ Since the beginning of my career, I had a chance to learn many different technol
 So I couldn't say ‘no’ when the opportunity to become a tech lead came up. Before that, we had worked as a team without a tech lead but then the structure changed and we needed a tech leader. I figured I wanted to grow and find new things to learn so **becoming a tech lead could give me a new perspective on programming from the management side**.
 
 ![Bright Inventions team retreats](/images/brightstory_team_szymek.png)
+
+## One day you were a team member, another a tech lead. Was it challenging to establish yourself in the new role?
+
+It wasn’t as problematic as you might think. My whole transition from a developer to a tech leader was a rather smooth one. It wasn't a drastic change made over a night. **During the first 2-3 months my responsibilities were just starting to clarify**. Meanwhile, the whole dynamics in the team were developing. In my view, **everyone was adjusting slowly and with no pressure**. That was the perfect way to do it. 
+
+## What are your daily duties and responsibilities as a tech lead?
+
+I start my workday by responding to every Slack message, Jira comment, and email. ;) As soon as I get through all of that I can focus on managing current challenges in the project and taking care of the team productivity. 
+
+I spend some time coding and overlooking new features being released. Yet apart from delivering new features, **my priority is to prevent bad decisions** that could reduce the quality of the product. I am **accountable for keeping a high quality of the app**. I am also **responsible for reducing technical debt and keeping the stack up-to-date**.  
+
+An important part of my job is to **establish the right duties for every developer within the team**. So they feel responsible for specific areas. **As a tech lead, I really need to know my team members well enough to get which areas of mobile development are their things, and which tasks will be of value to them and to the whole project**. I mean all of us in the team have to develop our Android skills holistically. Yet in the end, everyone has some areas that are simply closer to their heart. Some enjoy UI test automation, another would rather focus on databases. So my job as a tech lead is to work out with every developer the best possible tasks for them. And if some task could be a challenge we might go for pair programming so two people could together work out some issues.
