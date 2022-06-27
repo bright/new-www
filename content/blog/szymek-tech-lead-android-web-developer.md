@@ -186,7 +186,11 @@ However, **Android dev should try to know as much it is possible from every side
 
 It is crucial to **be up to date**. Kotlin and other Android tools are developing really quickly. You need to absorb updates, news, etc. So I guess it cannot be only a job for you, it should be something that really excites you. If you see a new update or a new library, check it out, and have some fun with it. Show that this is more than work. I guess it should be a passion.
 
-During an interview, I can sometimes see that some programmers write code but don’t understand what this code really does. They can write what is expected because they are able to find it in some tutorials. I believe you should do more than copy and paste. You should dive into, and explore it to understand how it works. **Our job is to understand code, not only write it**. I have met developers with even a decade of experience on paper and all this time they were using the same libraries, and they were writing the same scripts all over again. Despite being in the industry for so many years, they didn’t know how their code worked. They just wrote it. And they didn’t have this hunger to evolve and grow along with the technologies. **Spending time on learning is gonna save you more time in the future**.
+During an interview, I can sometimes see that some programmers write code but don’t understand what this code really does. They can write what is expected because they are able to find it in some tutorials. I believe you should do more than copy and paste. You should dive into, and explore it to understand how it works. **Our job is to understand code, not only write it**. 
+
+![Szymek's quote](/images/szymek_story_quote.png)
+
+I have met developers with even a decade of experience on paper and all this time they were using the same libraries, and they were writing the same scripts all over again. Despite being in the industry for so many years, they didn’t know how their code worked. They just wrote it. And they didn’t have this hunger to evolve and grow along with the technologies. **Spending time on learning is gonna save you more time in the future**.
 
 ## So years of practice don’t really matter after all?
 
