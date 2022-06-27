@@ -86,6 +86,8 @@ Moreover, as a tech lead, **I have to create an environment for devs that guaran
 
 I make sure that their workflow isn’t disturbed a lot. Business representatives know that in order to make the work smooth for everyone they should contact me and then I can work out any issue with developers in a way I don’t interfere with their other duties. Micromanagement is not our style. We are responsible human beings. Therefore **we trust each other and don’t interfere with anyone’s way of work**. 
 
+![Szymek's story](/images/brightstoryszymek.jpg)
+
 ## How many people are on your Android team?
 
 At the moment I have **10 people on my team**. We create an international group of people. Most of the developers are from Poland, but we also have devs from Israel and The Republic of South Africa.
