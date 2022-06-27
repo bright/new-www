@@ -152,3 +152,33 @@ data class Pigeon(
 ```
 
 Can you see a difference? 😉
+
+## Your team works on the JET POS project. What product do you build?
+
+We develop an ļ. Our software is used by restaurant staff who interact with customers. We help cashiers, bartenders, waiters, and chefs every day with managing every aspect of the restaurant order: from taking it and securing the payment, through preparation to the delivery. Thanks to our software everything is automated so the cashier doesn’t have to worry about any aspect of the transaction, the system guides them through the whole process. 
+
+Our system is based on an **Android application that is connected to devices such as tablets, payment terminals, and receipt printers. Our app has been used across Europe** by restaurants in Great Britain, and the Netherlands. Working on JET POS is really rewarding and fulfilling.
+
+## Why? What is the best about working on this project?
+
+The crucial fact is that you have an **influence on the technology you use**. If you want to code using new tech which will benefit the product, we will enable you to do it. If we want to change some stack we use, we just do it. You can improve yourself using well-known technology and learn something new at the same time during your work hours. 
+
+Another pron of this project is that **we get to do UI tests**. We use various frameworks and libraries which enable us to do tests. It is a perfect project for QA Engineers as well as Android devs who are into UI tests. 
+
+**Direct communication with the client** is also an important part of this work. And in my opinion – really a huge advantage. You have a chance to know new cultures because the client’s team is spread all around the world. You connect with people from various countries. Naturally, it speeds up soft skills development and improves English communication abilities.
+
+Last but not least, **you develop something that is used by real users**. We have users across Europe. **Our product is stable and crafted in a high-quality way**. Our client has ambitious plans and we are happy to deliver tools to help them reach their business goals.
+
+## We are recruiting other Android devs to the Bright team. Who is a perfect candidate?
+
+From my perspective as a tech lead, it is very important for mid and senior developers to have holistic experience in Android development. I don’t expect people to know everything. Naturally, every developer is more into different aspects of programming. Even seniors don’t know every possible library and don’t have knowledge of how to resolve every issue. Especially in the case of Android development where the technology grows fast and we have to keep up with so many different devices being introduced on the market. So no one knows everything. 
+
+However, **Android dev should try to know as much it is possible from every side of mobile development**. It’s not only writing UI. Working with backend solutions or processing data is crucial as well. **You don’t have to know everything**. **Yet you should master the basics and possess the knowledge and experience that enables you to look for solutions** more easily and helps you see multiple options. No matter if it is related to frontend, backend, and others.
+
+## What are your tips for Android devs who want to join Bright? How to prepare for the interview?
+
+It is crucial to **be up to date**. Kotlin and other Android tools are developing really quickly. You need to absorb updates, news, etc. So I guess it cannot be only a job for you, it should be something that really excites you. If you see a new update or a new library, check it out, and have some fun with it. Show that this is more than work. I guess it should be a passion.
+
+During an interview, I can often see that programmers write code but don’t understand what this code really does. They can write what is expected because they are enabled to find it in some tutorials. I believe you should do more than copy and paste. You should dive into, and explore it to understand how it works. **Our job is to understand code, not only write it**.
+
+![Szymek's quote on reading code](/images/szymek_story_quote.png)
