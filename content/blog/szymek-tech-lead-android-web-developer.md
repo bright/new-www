@@ -162,7 +162,7 @@ Can you see a difference? 😉
 
 ## Your team works on the JET POS project. What product do you build?
 
-We develop an ļ. Our software is used by restaurant staff who interact with customers. We help cashiers, bartenders, waiters, and chefs every day with managing every aspect of the restaurant order: from taking it and securing the payment, through preparation to the delivery. Thanks to our software everything is automated so the cashier doesn’t have to worry about any aspect of the transaction, the system guides them through the whole process. 
+We develop an **Android Point of Sale system for the well-known Just Eat Takeaway.com brand**. Our software is used by restaurant staff who interact with customers. We help cashiers, bartenders, waiters, and chefs every day with managing every aspect of the restaurant order: from taking it and securing the payment, through preparation to the delivery. Thanks to our software everything is automated so the cashier doesn’t have to worry about any aspect of the transaction, the system guides them through the whole process. 
 
 Our system is based on an **Android application that is connected to devices such as tablets, payment terminals, and receipt printers. Our app has been used across Europe** by restaurants in Great Britain, and the Netherlands. Working on JET POS is really rewarding and fulfilling.
 
@@ -186,17 +186,15 @@ However, **Android dev should try to know as much it is possible from every side
 
 It is crucial to **be up to date**. Kotlin and other Android tools are developing really quickly. You need to absorb updates, news, etc. So I guess it cannot be only a job for you, it should be something that really excites you. If you see a new update or a new library, check it out, and have some fun with it. Show that this is more than work. I guess it should be a passion.
 
-During an interview, I can often see that programmers write code but don’t understand what this code really does. They can write what is expected because they are enabled to find it in some tutorials. I believe you should do more than copy and paste. You should dive into, and explore it to understand how it works. **Our job is to understand code, not only write it**.
-
-![Szymek's quote on reading code](/images/szymek_story_quote.png)
-
-I have met developers with even a decade of experience on paper and all this time they were using the same libraries, and they were writing the same scripts all over again. Despite being in the industry for so many years, they didn’t know how their code worked. They just wrote it. And they didn’t have this hunger to evolve and grow along with the technologies. **Spending time on learning is gonna save you more time in the future**.
+During an interview, I can sometimes see that some programmers write code but don’t understand what this code really does. They can write what is expected because they are able to find it in some tutorials. I believe you should do more than copy and paste. You should dive into, and explore it to understand how it works. **Our job is to understand code, not only write it**. I have met developers with even a decade of experience on paper and all this time they were using the same libraries, and they were writing the same scripts all over again. Despite being in the industry for so many years, they didn’t know how their code worked. They just wrote it. And they didn’t have this hunger to evolve and grow along with the technologies. **Spending time on learning is gonna save you more time in the future**.
 
 ## So years of practice don’t really matter after all?
 
 Yes, as it turns out, years of experience aren’t crucial. **More important is the commitment to self-development and product tech growth**. And that is what we want to know about candidates when we talk to them during interviews. **We want to know if they go way beyond the code they write**. We want to make sure that they understand what it means.
 
 I want to reassure you that **our interviews aren’t exams**. It is a conversation. As a Junior, I had a chance to experience these types of interviews where someone told me to write a pseudocode for a doubly linked list in front of everyone. That was a stressful experience. It might be considered basic knowledge, but frankly, this wasn't mandatory for work. It shows something about you indeed, but in my opinion, it does not reflect your developer capabilities. I'd rather hear how you'd encounter daily challenges than see how many complex algorithms you already know. **You don't need to know everything as long as you're eager to learn and digest new things at a reasonable time**. 😉
+
+![Szymek's quote](/images/szymek_story_quote_android_development3.png)
 
 **I treat interviews like a conversation**. I ask about candidates’ experience and ways of handling some issues. Also, I want to know how they would approach some subjects according to the knowledge and tools they know and use. You don’t need to have the answers to everything but it’s nice if you can show us what would you do to get those answers.
 
