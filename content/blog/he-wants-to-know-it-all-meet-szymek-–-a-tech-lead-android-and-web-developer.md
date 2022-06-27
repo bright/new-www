@@ -50,3 +50,7 @@ Not only Android is satisfying like that. **I feel the same about the front end*
 ## Now you are a tech lead of the Android team. What did your road from dev to lead look like?
 
 Since the beginning of my career, I had a chance to learn many different technologies. Remember, I started as a fullstack, and learned Android, Swift, and even PHP on the way. I still didn’t feel like that was it for me. **Even though Android gives me the most satisfaction I constantly look for other options**.
+
+So I couldn't say ‘no’ when the opportunity to become a tech lead came up. Before that, we had worked as a team without a tech lead but then the structure changed and we needed a tech leader. I figured I wanted to grow and find new things to learn so **becoming a tech lead could give me a new perspective on programming from the management side**.
+
+![Bright Inventions team retreats](/images/brightstory_team_szymek.png)
