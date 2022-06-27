@@ -10,7 +10,7 @@ date: 2022-06-27T10:59:04.052Z
 title: He wants to know it all. Meet Szymek – a Tech Lead, Android and Web Developer
 layout: post
 image: /images/brightstoryszymek.jpg
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
