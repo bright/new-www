@@ -70,3 +70,17 @@ An important part of my job is to **establish the right duties for every develop
 ![Szymek's quote on being a tech lead](/images/szymek_story_quote_tech_lead.png)
 
 ## How does your team respond to that?
+
+I work in **a very mature team where everyone understands their responsibilities and is simply passionate about their job**. I have to always stay up-to-date with the technologies but I also know that other team members also track every news, update, new library, etc. Android development is just a passion of ours. 
+
+We also have regular meetings at Bright for all Android devs where we do not talk about our projects but simply gather online to discuss new trends, and share experiences from recent tests of new libraries, features, etc. **Every team member can propose improvements that would reduce technical debt and improve our project**. 
+
+## Is there anything more you have to take care of?
+
+Moreover, as a tech lead, **I have to create an environment for devs that guarantees time and space to do their job.** 🙂 Usually, a programmer needs to focus on one task at a time to finish it effectively. They shouldn’t be distracted by messages, instant requests, and other random stuff. 
+
+I make sure that their workflow isn’t disturbed a lot. Business representatives know that in order to make the work smooth for everyone they should contact me and then I can work out any issue with developers in a way I don’t interfere with their other duties. Micromanagement is not our style. We are responsible human beings. Therefore **we trust each other and don’t interfere with anyone’s way of work**. 
+
+## How many people are on your Android team?
+
+At the moment I have **10 people on my team**. We create an international group of people. Most of the developers are from Poland, but we also have devs from Israel and The Republic of South Africa.
