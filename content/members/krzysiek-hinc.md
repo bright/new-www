@@ -13,3 +13,5 @@ avatar_hover: /images/krzysiek_passions2.png
 published: true
 ---
 Self-thought programmer that is eager for knowledge and dreams to write someday his own game. Loves sci-fi books, motorbike riding, board and computer games. Part-time pillow for his two cats. :) 
+
+Join Krzysiek! [Check our career opportunities](/career).
