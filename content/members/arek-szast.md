@@ -13,3 +13,5 @@ avatar_hover: /images/arek_passion.png
 published: true
 ---
 Backend Developer that started his journey from Java and Kotlin but is not scared of the frontend part too. Always eager to learn new things. He tried his hand at React and Angular and liked both of them. Privately big fan of board games and boxing.
+
+Join Arek! [Check our career opportunities](/career).
