@@ -17,6 +17,6 @@ redirect_from:
 published: true
 title: Meet Daniel
 ---
-
 Co-founder and Managing Partner of Bright Inventions. Experienced developer with a broad skill-set. Backend specialist. He likes to run interesting discussions and suggest non-standard solutions. Family guy, books lover and coffee addict.
 
+Join Daniel! [Check our career opportunities](/career).
