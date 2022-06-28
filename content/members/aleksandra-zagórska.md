@@ -17,3 +17,5 @@ Her programming career started with Java. Then she decided to explore frontend t
 She is a musician too. She plays a transverse flute and has performed hundreds sonatas and etudes. Recently her joy is to perform covers from movies and tv series’ soundtracks with the accompaniment of guitar. 
 
 She had been practicing swimming for most of her life. Although she doesn’t compete anymore, she believes that being engaged in extreme sport built her character.
+
+Join Aleksandra! [Check our career opportunities](/career).
