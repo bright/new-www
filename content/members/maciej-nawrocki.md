@@ -13,3 +13,5 @@ avatar_hover: /images/maciejn_2passion.png
 published: true
 ---
 Backend Developer who believes nothing is impossible. Always looking for something new to learn and someone new to meet. Big fan of all kinds of comedy.
+
+Join Maciej! [Check our career opportunities](/career).
