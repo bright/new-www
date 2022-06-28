@@ -15,3 +15,5 @@ published: true
 Final year Student of Human Resources Management. HR & Recruitment enthusiast. Conscientious and open to new challenges. 
 
 In afternoons, swimming instructor with big love to water sports, water rescue, and active lifestyle. 🏊‍♀️
+
+Join Agata! [Check our career opportunities](/career).
