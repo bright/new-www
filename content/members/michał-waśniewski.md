@@ -13,3 +13,5 @@ avatar_hover: /images/michal_w_passion_team.png
 published: true
 ---
 iOS Developer focused on building applications with native interfaces. Experienced in providing scalable solutions with distributed teams as a software developer and manager. In his free time, passionate rally driver, car mechanic and a dad of two.
+
+Join Michał! [Check our career opportunities](/career).
