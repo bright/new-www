@@ -3,7 +3,7 @@ author: izabela
 tags:
   - BrightTreasury
   - blockchain
-date: 2022-06-29T09:32:23.608Z
+date: 2022-06-29T09:54:17.558Z
 title: How Do Treasury Tips Work on Kusama and Polkadot
 layout: post
 image: /images/blog_post_cover-tips.png
