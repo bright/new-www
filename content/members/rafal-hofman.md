@@ -13,3 +13,5 @@ avatar_hover: /images/rafal_passion.png
 published: true
 ---
 Software Developer that bears in mind both the code and the business needs. Typescript and Blockchain enthusiast. Privately escape rooms visitor and foot orienteering participant.
+
+Join Rafał! [Check our career opportunities](/career).
