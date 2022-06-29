@@ -360,18 +360,17 @@ const WrapperRecruiterImage = styled.div`
 
   @media ${variables.device.tablet} {
     left: 0;
-    & .recruiter-img {
-      max-height: 100%;
-      & img {
-        height: 100%;
-        width: auto;
-      }
-    }
   }
   @media ${variables.device.mobile} {
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 333px;
+    position: relative;
+    bottom: ${variables.pxToRem(-176)};
+
+    & .recruiter-img {
+      max-height: ${variables.pxToRem(319)};
+      & img {
+        max-height: ${variables.pxToRem(319)};
+      }
+    }
   }
 `
 const WrapperLinks = styled.div`
@@ -478,7 +477,14 @@ const LinkLinkedin = styled.a`
     }
   }
 `
-
+const RecruiterSection = styled(CustomSection)`
+  @media ${variables.device.mobile} {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-height: ${variables.pxToRem(472)};
+  }
+`
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
   if (salaryParts.length > 1) {
@@ -624,7 +630,7 @@ export default function Template({
               </CustomSectionInner>
             </CustomSection>
 
-            <CustomSection
+            <RecruiterSection
               paddingLaptop='0'
               paddingProps='0'
               paddingTabletXL='0 '
@@ -654,7 +660,7 @@ export default function Template({
               <WrapperRecruiterImage>
                 <GatsbyImage image={recruiterImage} alt={page.image_alt_recruiter_info} className='recruiter-img' />
               </WrapperRecruiterImage>
-            </CustomSection>
+            </RecruiterSection>
           </>
         )}
 
@@ -665,8 +671,8 @@ export default function Template({
               title={'submit your application'}
               description={
                 <>
-                  If you have no questions, simply apply using our form below or send your application directly via email{' '}
-                  <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>. 
+                  If you have no questions, simply apply using our form below or send your application directly via
+                  email <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>.
                 </>
               }
               namePlaceholder={'Enter name here'}
