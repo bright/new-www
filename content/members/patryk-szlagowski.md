@@ -21,3 +21,5 @@ Patryk is a creator of [brightdevtalks podcast](/blog/brightdevtalks-podcast).
 [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/brightdevtalks/id1625829267)
 
 [Listen on Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9xbUJPUXYybQ%3D%3D)
+
+Join Patryk! [Check our career opportunities](/career).
