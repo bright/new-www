@@ -79,3 +79,10 @@ You can sign up using your email or Web3 account. You can go with your email, bu
 
 * [The reward for a translation of "Polkadot for Beginners"](https://treasury.bright.dev/tips/0x89e570c02ee68b36f8637059cdc7d5ee4ab9f808244d16dda57cfdf6017b5daa/info?networkId=kusama).
 * [The reward for creating nomination pool number 8 with clear documentation and direction](https://treasury.bright.dev/tips/0x91e561ff28fbf2c233ab90f4db96803debddaf980c57762d3c243acccb6e1adc/info?networkId=kusama).
+
+Now you are truly ready to do some tipping. Go and be a proud tipper! 😊
+
+\---
+
+If you want to know more about tipping, read the [Polkadot guide](https://wiki.polkadot.network/docs/learn-treasury#tipping). 
+Check out other pages to learn about Treasury [bounty](/blog/how-to-create-bounties-and-contribute-to-polkadot-kusama) and [proposal](https://treasury.bright.dev/learn-more?networkId=polkadot) mechanisms.
