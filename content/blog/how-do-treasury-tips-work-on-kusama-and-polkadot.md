@@ -41,16 +41,16 @@ The easiest way to suggest a tip is on the [BrightTreasury](https://treasury.bri
 
 Ready to become a tipper? Here is a step-by-step guide on how to tip somebody via BrightTreasury:
 
-1. Sign up to [BrightTreasury](https://treasury.bright.dev/auth/signin/email?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=tip&utm_id=content_marketing).
+1. **Sign up to [BrightTreasury](https://treasury.bright.dev/auth/signin/email?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=tip&utm_id=content_marketing).**
 
 You can sign up using your email or Web3 account. You can go with your email, but eventually, you will need to provide a Web3 account to publish a tip. [If you don’t have a Web3 account, check out how to create it](/blog/entering-the-web-3-world-with-the-brighttreasury-app).
 
-2. Choose the right network (Polkadot or Kusama).
+2. **Choose the right network (Polkadot or Kusama).**
 
 ![BrightTreasury mockup](/images/change_net.png)
 
-3. Click on the Tips section on the menu, then click the “Create tip” button.
-4. Fill out the form. Let's go through it right now:
+3. **Click on the Tips section on the menu, then click the “Create tip” button.**
+4. **Fill out the form. Let's go through it right now:**
 
 ![Create tip BrightTreasury](/images/create_tip_form_blank.png)
 
