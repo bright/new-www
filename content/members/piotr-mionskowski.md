@@ -26,3 +26,5 @@ title: Piotr
 TDD fan eager to learn new things. A Man Dancing with the Code. Piotr is a real full stack developer with over 12 years of professional experience. Backend APIs, distributed systems, infrastructure, databases are only some among his main fields of interest. Always up-to-date. Always focused. Always asking "Why?".
 
 AWS evangelist sharing his cloud computing knowledge at workshops organized for the [Polish AWS community](https://www.facebook.com/groups/679812723195646).
+
+Join Piotr! [Check our career opportunities](/career).
