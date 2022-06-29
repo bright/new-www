@@ -1,5 +1,6 @@
 ---
 author: izabela
+secondAuthor: kasia
 tags:
   - BrightTreasury
   - blockchain
