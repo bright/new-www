@@ -76,7 +76,7 @@ An important part of my job is to **establish the right duties for every develop
 
 ## How does your team respond to that?
 
-I work in **a very mature team where everyone understands their responsibilities and is simply passionate about their job**. I have to always stay up-to-date with the technologies but I also know that other team members also track every news, update, new library, etc. Android development is just a passion of ours. 
+I work in **a very mature team where everyone understands their responsibilities and is simply passionate about their job**. I have to always stay up-to-date with the technologies but I also know that other team members also track every news, update, new library, etc. [Android development](/our-areas/mobile-app-development) is just a passion of ours. 
 
 We also have regular meetings at Bright for all Android devs where we do not talk about our projects but simply gather online to discuss new trends, and share experiences from recent tests of new libraries, features, etc. **Every team member can propose improvements that would reduce technical debt and improve our project**. 
 
