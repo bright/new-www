@@ -85,4 +85,4 @@ Now you are truly ready to do some tipping. Go and be a proud tipper! 😊
 \---
 
 If you want to know more about tipping, read the [Polkadot guide](https://wiki.polkadot.network/docs/learn-treasury#tipping). 
-Check out other pages to learn about Treasury [bounty](/blog/how-to-create-bounties-and-contribute-to-polkadot-kusama) and [proposal](https://treasury.bright.dev/learn-more?networkId=polkadot) mechanisms.
+Check out other pages to learn about Treasury [bounty](/blog/how-to-create-bounties-and-contribute-to-polkadot-kusama) and [proposal](https://treasury.bright.dev/learn-more?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=tip&utm_id=content_marketing) mechanisms.
