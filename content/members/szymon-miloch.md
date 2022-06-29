@@ -20,4 +20,4 @@ title: Meet Szymon
 ---
 A Kotlin and TypeScript enthusiast. At Bright Inventions he uses his never ending energy to work on mobile and web solutions. Active learner, globetrotter, sports lover. Getting itchy feet every morning - the one and only thing keeping him fascinated for longer time is programming.
 
-Join Szymek [Check our career opportunities](/career).
+Join Szymek! [Check our career opportunities](/career).
