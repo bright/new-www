@@ -359,11 +359,12 @@ const WrapperRecruiterImage = styled.div`
   }
 
   @media ${variables.device.tablet} {
-    left: 0;
+    left: ${variables.pxToRem(52)};
   }
   @media ${variables.device.mobile} {
     position: relative;
     bottom: ${variables.pxToRem(-176)};
+    left: 0;
 
     & .recruiter-img {
       max-height: ${variables.pxToRem(319)};
@@ -602,34 +603,34 @@ export default function Template({
             recruting_image3_title={page.recruting_image3_title}
           />
         </RecruitingProcessWrappers>
+
+        <CustomSection
+          paddingProps='0 0 260px'
+          paddingLaptop='0 0 233px'
+          paddingTabletXL='0 144px 164px'
+          paddingTablet='0 36px 205px '
+          paddingMobileProps='0 18px 192px'
+        >
+          <CustomSectionInner maxWidth='866px' laptopMaxWidth='736px'>
+            {page.show_new_title_more_about_us ? (
+              <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+                {page.title_more_about_us}{' '}
+              </CustomSectionTitle>
+            ) : (
+              <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+                if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+              </CustomSectionTitle>
+            )}
+
+            <TextRegular>
+              <WrapperLinks>
+                <ReactMarkdown children={page.links_more_about_us} />
+              </WrapperLinks>
+            </TextRegular>
+          </CustomSectionInner>
+        </CustomSection>
         {page.show_recruiter_info && (
           <>
-            <CustomSection
-              paddingProps='0 0 260px'
-              paddingLaptop='0 0 233px'
-              paddingTabletXL='0 144px 164px'
-              paddingTablet='0 36px 205px '
-              paddingMobileProps='0 18px 192px'
-            >
-              <CustomSectionInner maxWidth='866px' laptopMaxWidth='736px'>
-                {page.show_new_title_more_about_us ? (
-                  <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
-                    {page.title_more_about_us}{' '}
-                  </CustomSectionTitle>
-                ) : (
-                  <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
-                    if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
-                  </CustomSectionTitle>
-                )}
-
-                <TextRegular>
-                  <WrapperLinks>
-                    <ReactMarkdown children={page.links_more_about_us} />
-                  </WrapperLinks>
-                </TextRegular>
-              </CustomSectionInner>
-            </CustomSection>
-
             <RecruiterSection
               paddingLaptop='0'
               paddingProps='0'
