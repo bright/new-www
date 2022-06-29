@@ -13,3 +13,5 @@ avatar_hover: /images/sławek2_passion2.png
 published: true
 ---
 Fullstack developer fascinated about the whole JavaScript ecosystem. TypeScript enthusiast. Always focused on self-improvement and client needs. Loves volleyball, gym, wandering and cycling.
+
+Join Sławek! [Check our career opportunities](/career).

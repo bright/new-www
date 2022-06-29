@@ -13,3 +13,5 @@ avatar_hover: /images/wojciech_passion.png
 published: true
 ---
 Eager to learn new technologies and develop soft skills. Focused on the business aspect of software development. Loves order both in code and life. Fan of sailing and scrabble.
+
+Join Wojciech! [Check our career opportunities](/career).

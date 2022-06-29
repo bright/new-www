@@ -19,5 +19,6 @@ redirect_from:
 published: true
 title: Meet Michał
 ---
-
 Co-founder and Managing Partner of Bright Inventions. An idea guy and a software engineer with more than 15 years of experience. Appreciates clever technical solutions and simplicity. Works 20 hours a day and still finds time for his family.
+
+Join Michał! [Check our career opportunities](/career).

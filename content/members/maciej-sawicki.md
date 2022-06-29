@@ -13,3 +13,5 @@ avatar_hover: /images/maciej_s_passion_eam.png
 published: true
 ---
 Experienced Frontend Developer with over 15 years in the industry. Keen on learning new business domains. After hours enjoys his time with family preferably doing any kind of outdoor activities – trail running being his favorite one recently. He loves a good book or an interesting podcast.
+
+Join Maciej! [Check our career opportunities](/career).

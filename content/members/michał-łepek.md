@@ -13,3 +13,5 @@ avatar_hover: /images/michał_l2passion.png
 published: true
 ---
 Backend developer who loves PostgreSQL and Vim. He's passionate about chess, electronics, and the functional approach to programming.
+
+Join Michał! [Check our career opportunities](/career).

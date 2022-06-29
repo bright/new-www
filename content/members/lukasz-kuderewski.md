@@ -15,3 +15,5 @@ published: true
 Mechatronics engineer who fell in love with programming. He has always been interested in a holistic approach to programming problems, which is why after working as a frontend, he is now fulfilled as a fullstack. In his free time, he likes to do DIY. He tries to be up-to-date with news about electronic gadgets, technology and space. 
 
 You can meet him at music festivals. He likes contact with nature, which allows him to relax and take a break from current affairs. For Łukasz, sleeping in a tent and bushcraft are an attractive escape from everyday life.
+
+Join Łukasz! [Check our career opportunities](/career).
