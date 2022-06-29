@@ -16,5 +16,6 @@ redirect_from:
 published: true
 title: Meet Radek
 ---
-
 After being a pub manager for a few years, he decided to become a programmer and hasn't looked back ever since. Now specialising in Kotlin on Android. Loves creating new things - either it is developing a new application or cooking a fancy new dish for friends.
+
+Join Radek! [Check our career opportunities](/career).
