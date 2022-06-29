@@ -13,3 +13,5 @@ avatar_hover: /images/patryks_passion_team.png
 published: true
 ---
 Backend Developer – a fan of Typescript, Postgres and clean code. Privately lover of poker. He is a wannabe guitarist and music producer.
+
+Join Patryk! [Check our career opportunities](/career).
