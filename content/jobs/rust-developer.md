@@ -12,7 +12,7 @@ technology:
   - Kusama
   - AWS
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
-show_recruiter_info: false
+show_recruiter_info: true
 button_instagram: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 layout: job
 hours: full-time
