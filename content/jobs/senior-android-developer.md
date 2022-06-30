@@ -37,7 +37,7 @@ redirect_from:
   - /android-developer
   - /android-developer/
 published: true
-show_recruiter_info: false
+show_recruiter_info: true
 order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
