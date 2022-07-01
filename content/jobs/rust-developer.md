@@ -12,7 +12,7 @@ technology:
   - Kusama
   - AWS
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
-show_recruiter_info: false
+show_recruiter_info: true
 button_instagram: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 layout: job
 hours: full-time
@@ -35,7 +35,6 @@ image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: Ula Stankiewicz HR & Marketing Manager at Bright Inventions
 button: join our Bright team
 published: true
-show_recruiter_info: true
 order: 2
 recruting_image2_title: interview (technical & non-technical part)
 recruting_image3_title: programming task
