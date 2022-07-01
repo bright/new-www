@@ -5,7 +5,6 @@ imagejob: /images/backendteam.png
 image-alt-job: Bright Inventions team
 salary: 22 000 - 26 000 PLN + VAT (B2B) or 18 300 - 20 750 PLN gross (UoP)
 workplace_recruiter: HR & Marketing Manager
-Show_recruiter_info: true
 technology:
   - Blockchain
   - Substrate
@@ -36,6 +35,7 @@ image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: Ula Stankiewicz HR & Marketing Manager at Bright Inventions
 button: join our Bright team
 published: true
+show_recruiter_info: true
 order: 2
 recruting_image2_title: interview (technical & non-technical part)
 recruting_image3_title: programming task
