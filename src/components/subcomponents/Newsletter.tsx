@@ -3,6 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useScript } from '../utils/use-script'
 import variables from '../../styles/variables'
+import { useWindowSize } from '../utils/use-windowsize'
 
 const NewsletterWrapper = styled.div`
   display: flex;
@@ -18,8 +19,6 @@ const NewsletterWrapper = styled.div`
   }
 
   @media ${variables.device.tablet} {
-    flex-direction: column;
-    gap: 0;
     & .newsimage {
       max-width: 50%;
       flex-basis: 100%;
@@ -27,14 +26,15 @@ const NewsletterWrapper = styled.div`
   }
 
   @media ${variables.device.mobile} {
+    flex-direction: column;
+    gap: 0;
     & .newsimage {
       max-width: 100%;
     }
   }
 `
 const FormWrapper = styled.div`
-  /* min-width: ${variables.pxToRem(550)};
-  padding: 0 ${variables.pxToRem(30)}; */
+  padding: 0 0 ${variables.pxToRem(30)};
   overflow: hidden;
 
   div.iframe-wrapper {
@@ -59,12 +59,30 @@ const FormWrapper = styled.div`
 
 export default function Newsletter() {
   const status: string = useScript('https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B')
+  const { width } = useWindowSize()
+  const breakpoint = 581
 
   return (
     <>
       {status === 'ready' && (
         <NewsletterWrapper>
-          <StaticImage src='../../../static/images/newsletter.png' alt='Newsletter' className='newsimage' />
+          {width > breakpoint && (
+            <StaticImage
+              src='../../../static/images/newsletter.png'
+              alt='Newsletter'
+              className='newsimage'
+              quality={100}
+            />
+          )}
+          {width <= breakpoint && (
+            <StaticImage
+              src='../../../static/images/newsletter_mobile.png'
+              alt='Newsletter'
+              className='newsimage'
+              quality={100}
+            />
+          )}
+
           <FormWrapper>
             <div className='iframe-wrapper'>
               <iframe
