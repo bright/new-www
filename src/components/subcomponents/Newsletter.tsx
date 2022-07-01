@@ -8,13 +8,10 @@ const NewsletterWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: ${variables.pxToRem(100)};
-  padding: 0 0 ${variables.pxToRem(64)} 0;
+  gap: ${variables.pxToRem(25)};
+  padding: 0;
   overflow: hidden;
   margin: 0 auto;
-  & .newsimage {
-    flex-basis: 40%;
-  }
 
   @media ${variables.device.tablet} {
     flex-direction: column;

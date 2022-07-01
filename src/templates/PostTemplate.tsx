@@ -21,6 +21,7 @@ import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
 import Newsletter from '../components/subcomponents/Newsletter'
 import NewsletterWrapper from './../components/subcomponents/NewsletterWrapper'
+import { CustomSection } from '../components/shared'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -297,9 +298,11 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           timeToRead={markdownRemark.timeToRead}
         />
         <div> {comments} </div>
-        <NewsletterWrapper />
       </ConstrainedWidthContainer>
       {postStructuredData}
+      <CustomSection paddingProps='8.625rem 15rem 0'>
+        <NewsletterWrapper />
+      </CustomSection>
     </Page>
   )
 }
