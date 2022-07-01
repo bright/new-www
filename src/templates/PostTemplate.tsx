@@ -112,6 +112,14 @@ const Content = styled.div`
   letter-spacing: 1;
   line-height: 2;
 `
+const WrapperNews = styled.div`
+  @media ${variables.device.tablet} {
+    padding: 0 ${variables.pxToRem(24)};
+  }
+  @media ${variables.device.mobile} {
+    padding: 0 ${variables.pxToRem(18)};
+  }
+`
 
 export type PostTemplateProps = {
   path: string
@@ -297,13 +305,12 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           tags={page.tags ?? []}
           timeToRead={markdownRemark.timeToRead}
         />
-        <div> {comments} </div>
-        <NewsletterWrapper />
+        <WrapperNews>
+          <div> {comments} </div>
+          <NewsletterWrapper />
+        </WrapperNews>
       </ConstrainedWidthContainer>
       {postStructuredData}
-      {/* <CustomSection paddingProps='8.625rem 15rem 0'>
-      
-      </CustomSection> */}
     </Page>
   )
 }

@@ -19,15 +19,16 @@ const NewsletterWrapper = styled.div`
   }
 
   @media ${variables.device.tablet} {
+    flex-direction: column;
+    gap: 0;
     & .newsimage {
+      margin: 0 auto;
       max-width: 50%;
       flex-basis: 100%;
     }
   }
 
   @media ${variables.device.mobile} {
-    flex-direction: column;
-    gap: 0;
     & .newsimage {
       max-width: 100%;
     }
@@ -60,7 +61,7 @@ const FormWrapper = styled.div`
 export default function Newsletter() {
   const status: string = useScript('https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B')
   const { width } = useWindowSize()
-  const breakpoint = 581
+  const breakpoint = 992
 
   return (
     <>
