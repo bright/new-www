@@ -223,7 +223,7 @@ export const CarouselQuotesSwiper: React.FC = () => {
     },
     {
       avatar_hover: (
-        <StaticImage src='../../../static/images/krzysiekh_passion.png' alt='Krzysiek' className='quote-img' />
+        <StaticImage src='../../../static/images/krzysiek_passions2.png' alt='Krzysiek' className='quote-img' />
       ),
       short_name: 'Krzysiek',
       bio: 'Web Developer',
