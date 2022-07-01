@@ -12,6 +12,10 @@ const NewsletterWrapper = styled.div`
   padding: 0;
   overflow: hidden;
   margin: 0 auto;
+  & .newsimage {
+    align-self: flex-end;
+    flex-basis: 60%;
+  }
 
   @media ${variables.device.tablet} {
     flex-direction: column;
@@ -29,8 +33,8 @@ const NewsletterWrapper = styled.div`
   }
 `
 const FormWrapper = styled.div`
-  min-width: ${variables.pxToRem(550)};
-  padding: 0 ${variables.pxToRem(30)};
+  /* min-width: ${variables.pxToRem(550)};
+  padding: 0 ${variables.pxToRem(30)}; */
   overflow: hidden;
 
   div.iframe-wrapper {

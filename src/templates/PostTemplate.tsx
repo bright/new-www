@@ -298,11 +298,12 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           timeToRead={markdownRemark.timeToRead}
         />
         <div> {comments} </div>
+        <NewsletterWrapper />
       </ConstrainedWidthContainer>
       {postStructuredData}
-      <CustomSection paddingProps='8.625rem 15rem 0'>
-        <NewsletterWrapper />
-      </CustomSection>
+      {/* <CustomSection paddingProps='8.625rem 15rem 0'>
+      
+      </CustomSection> */}
     </Page>
   )
 }
