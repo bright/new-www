@@ -130,27 +130,37 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     setIsSubmitedToFalse()
   }
 
-  const submit = useCallback((event, data) => {
-    trackCustomEvent({
-      category: 'Recruitment Contact Form Button',
-      action: 'Click Submit Recruitment Form',
-      label: window.location.href,
-    })
-    event.preventDefault()
-    if (!data.cv) {
-      setErrorMsgValidation('Please upload document to submit your application.')
-      setTimeout(() => {
-        setErrorMsgValidation('')
-      }, 5000)
-      return
-    }
-    onSubmit && onSubmit()
+  const submit = useCallback(
+    (event, data) => {
+      trackCustomEvent({
+        category: 'Recruitment Contact Form Button',
+        action: 'Click Submit Recruitment Form',
+        label: window.location.href,
+      })
+      event.preventDefault()
+      if (selectedAttachment === 'cv' && !data.cv) {
+        setErrorMsgValidation('Please upload document to submit your application.')
+        setTimeout(() => {
+          setErrorMsgValidation('')
+        }, 5000)
+        return
+      } else if (selectedAttachment === 'linkedin' && !data.linkedinlink) {
+        setErrorMsgValidation('Please submit the link to your LinkedIn profile.')
+        setTimeout(() => {
+          setErrorMsgValidation('')
+        }, 5000)
+        return
+      }
+      onSubmit && onSubmit()
 
-    handleSubmit(event, data)
-  }, [])
+      handleSubmit(event, data)
+    },
+    [selectedAttachment]
+  )
 
   const handleChangeRadio = event => {
     const { value } = event.target
+    console.log(value)
     setSelectedAttachment(value)
   }
 
