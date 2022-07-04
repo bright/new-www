@@ -74,23 +74,18 @@ const TechnologyTags = () => {
     <SectionBlackContainer>
       <CustomContainer>
         <ContentContainer>
-          <Pill>iOS</Pill>
           <Pill>Kotlin</Pill>
-          <Pill>Blockchain</Pill>
           <Pill>Java</Pill>
           <Pill>Spring</Pill>
           <Pill>TypeScript</Pill>
           <Pill>React</Pill>
-          <Pill>Angular</Pill>
           <Pill>Node.js</Pill>
           <Pill>NestJS</Pill>
           <Pill>MySQL</Pill>
           <Pill>PostgreSQL</Pill>
           <Pill>Swift</Pill>
           <Pill>AWS</Pill>
-          <Pill>Bluetooth</Pill>
           <Pill>iBeacon</Pill>
-          <Pill>IoT</Pill>
         </ContentContainer>
       </CustomContainer>
     </SectionBlackContainer>
