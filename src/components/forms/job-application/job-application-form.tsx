@@ -150,7 +150,6 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
   }, [])
 
   const handleChangeRadio = event => {
-    console.log(event)
     const { value } = event.target
     setSelectedAttachment(value)
   }
@@ -180,7 +179,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         <FlexWrapper desktopContent='space-between' mobileDirection='column' mobileGap='48px'>
           <Label className={selectedAttachment == 'cv' ? 'isBlack' : ''}>
             <input type='radio' value='cv' checked={selectedAttachment == 'cv'} onChange={handleChangeRadio} /> I want
-            to leave my CV
+            to submit my CV
           </Label>
           <Label className={selectedAttachment == 'linkedin' ? 'isBlack' : ''}>
             <input
@@ -189,7 +188,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
               checked={selectedAttachment == 'linkedin'}
               onChange={handleChangeRadio}
             />{' '}
-            I want to leave my LinkedIn profile
+            I want to submit my LinkedIn profile
           </Label>
         </FlexWrapper>
         {/* <TextField
