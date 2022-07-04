@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Form = styled.form`
   display: grid;
@@ -22,5 +22,9 @@ export const Form = styled.form`
     & > div:first-child {
       grid-template-columns: 1fr;
     }
+  }
+  & .isBlack {
+    color: #0a0a0a;
+    opacity: 1;
   }
 `

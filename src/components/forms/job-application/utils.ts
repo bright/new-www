@@ -12,6 +12,7 @@ export function useApplicationForm() {
     isError: false,
     isSubmitted: false,
     isSending: false,
+    linkedinlink: '',
   })
   const handleSubmit = (event: Event, data: any) => {
     setValue(state => ({

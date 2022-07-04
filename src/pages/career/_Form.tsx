@@ -6,7 +6,7 @@ import { FormComponent } from '../../components/about-us/form-section/form'
 const Form: React.FC = () => {
   return (
     <div className='container'>
-      <CustomSection>
+      <CustomSection paddingTablet='0 0 7.25rem' paddingMobileProps='0 0 5.1875rem'>
         <SectionInner id='contact'>
           <FormComponent
             style={{ marginTop: '1rem' }}
@@ -14,9 +14,9 @@ const Form: React.FC = () => {
             description={
               <>
                 Our recruitment demand is constantly changing. Drop us a line at{' '}
-                <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>
-                , or submit your CV and we will contact you when a position inline with your competences becomes
-                available. Also, feel free to ask any question regarding our recruitment process.
+                <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>, or submit your CV and we will contact you when a
+                position inline with your competences becomes available. Also, feel free to ask any question regarding
+                our recruitment process.
               </>
             }
             namePlaceholder={'Enter name here'}
