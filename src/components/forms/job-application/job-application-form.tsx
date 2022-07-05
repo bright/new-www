@@ -137,6 +137,11 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         action: 'Click Submit Recruitment Form',
         label: window.location.href,
       })
+      const validLinkedinUrlRegex = RegExp(
+        /((https?:\/\/)?((www|\w\w)\.)?linkedin\.com\/)((([\w]{2,3})?)|([^\/]+\/(([\w|\d-&#?=])+\/?){1,}))$/gm
+      )
+      const isValidLinkedin = validLinkedinUrlRegex.test(data.linkedinlink)
+
       event.preventDefault()
       if (selectedAttachment === 'cv' && !data.cv) {
         setErrorMsgValidation('Please upload document to submit your application.')
@@ -146,6 +151,12 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         return
       } else if (selectedAttachment === 'linkedin' && !data.linkedinlink) {
         setErrorMsgValidation('Please submit the link to your LinkedIn profile.')
+        setTimeout(() => {
+          setErrorMsgValidation('')
+        }, 5000)
+        return
+      } else if (selectedAttachment === 'linkedin' && data.linkedinlink && !isValidLinkedin) {
+        setErrorMsgValidation('Please submit the  valid link to your LinkedIn profile.')
         setTimeout(() => {
           setErrorMsgValidation('')
         }, 5000)
@@ -160,7 +171,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
 
   const handleChangeRadio = event => {
     const { value } = event.target
-    console.log(value)
+
     setSelectedAttachment(value)
   }
 
