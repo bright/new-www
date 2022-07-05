@@ -20,7 +20,7 @@ export const wrapPageElement = ({ element }) => (
 export function onRenderBody({ setHeadComponents }) {
   const files = getFilesFromPath('./public/static', '.woff2')
   const preload = [
-    'montserrat-v23-latin-regular',
+    'montserrat-v24-latin-ext_latin-regular',
     'montserrat-v23-latin-600',
     'montserrat-v23-latin-700',
     'montserrat-v23-latin-800',
