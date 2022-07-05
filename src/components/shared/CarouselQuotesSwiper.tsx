@@ -241,6 +241,26 @@ export const CarouselQuotesSwiper: React.FC = () => {
       quote:
         'For me, diving into an IT branch meant getting out of my comfort zone. Bright Inventions made the dive really pleasant, because they (we!) respect and accept the person just the way he/she is. Like in a big, loving, modern family. ;)',
     },
+    {
+      avatar_hover: (
+        <StaticImage src='../../../static/images/rafal_passion.png' alt='Rafał' className='quote-img' />
+      ),
+      short_name: 'Rafał',
+      bio: 'Senior Fullstack Developer',
+      slug: 'rafal-h',
+      quote:
+        'The crucial thing about working at Bright Inventions is that this is a company with a human touch. Everyone is open and friendly to each other. And your boss is not some evil guy you don’t like as it often is a case in other workplaces.',
+    },
+    {
+      avatar_hover: (
+        <StaticImage src='../../../static/images/szymek_passion.png' alt='Szymek' className='quote-img' />
+      ),
+      short_name: 'Szymek',
+      bio: 'Android & Web Developer',
+      slug: 'szymek',
+      quote:
+        'Łukasz, who works at Bright, is my friend from college. He recommended me this place. When I first came to the office for an interview I instantly felt this warm, cozy atmosphere. I knew that working at Bright was something I desired.',
+    },
   ]
   return (
     <SwiperlWrapper>
