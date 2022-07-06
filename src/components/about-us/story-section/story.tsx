@@ -246,12 +246,12 @@ const ImageWrapper = styled.div`
     transition: all 0.3s ease 0s;
     width: ${variables.pxToRem(107)};
     height: ${variables.pxToRem(107)};
-    border: 1px solid rgb(211, 211, 211);
-    border-radius: ${variables.pxToRem(189)};
+    flex-basis: auto;
     & img {
       border-radius: ${variables.pxToRem(180)};
+      border: 1px solid rgb(211, 211, 211);
       width: ${variables.pxToRem(107)};
-      height: ${variables.pxToRem(107)};
+      height: auto;
     }
   }
   @media ${variables.device.tabletXL} {
@@ -262,6 +262,7 @@ const ImageWrapper = styled.div`
     & div:not(.logo) {
       width: ${variables.pxToRem(80)};
       height: ${variables.pxToRem(80)};
+
       & img {
         width: ${variables.pxToRem(80)};
         height: ${variables.pxToRem(80)};
