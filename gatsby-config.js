@@ -175,6 +175,9 @@ module.exports = {
             },
           },
           {
+            resolve: 'gatsby-remark-responsive-iframe',
+          },
+          {
             resolve: `gatsby-remark-external-links`,
           },
           {
