@@ -8,6 +8,7 @@ import variables from '../../styles/variables'
 import { useWindowSize } from '../utils/use-windowsize'
 import { CustomSectionTitle } from '../shared'
 import useOnScreen from '../utils/use-onscreen'
+import { clampBuilder } from '../../helpers/clampBuilder'
 
 const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: boolean; isTeam: boolean }>`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -94,7 +95,8 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: bool
         padding: 0 1.5625rem 2rem;
 
         p strong {
-          font-size: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? `${variables.pxToRem(22)}` : '1rem')};
+          font-size: ${({ isOurServiceTemplate }) =>
+            isOurServiceTemplate ? `${variables.pxToRem(22)}` : `${clampBuilder(350, 581, 14, 16)}`};
           line-height: ${({ isOurServiceTemplate }) =>
             isOurServiceTemplate ? `${variables.pxToRem(27)}` : '1.125rem'};
         }
@@ -194,7 +196,8 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
   @media ${variables.device.mobile} {
     margin-bottom: ${({ isOurServiceTemplate }) =>
       isOurServiceTemplate ? ` ${variables.pxToRem(32)}!important` : '0.5rem!important'};
-  }
+  }import { clampBuilder } from './../../helpers/clampBuilder';
+
 
   & .avatar1 {
     max-height: 306px;
