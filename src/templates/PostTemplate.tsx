@@ -200,12 +200,12 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
             <p>
               {props.date && <DateFormatter date={props.date} />}
               &nbsp;
-              <a
+              {/* <a
                 className='has-text-grey-light'
                 href={'/admin/#/collections/blog/entries/' + getFileNameOnly(props.fileAbsolutePath)}
               >
                 Edit
-              </a>
+              </a> */}
             </p>
           </div>
         </div>
