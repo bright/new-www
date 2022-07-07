@@ -1,6 +1,5 @@
 ---
 team_members:
-  - azabost
   - arturs
   - cezary
   - fjablonski
@@ -8,6 +7,7 @@ team_members:
   - kamil-b
   - piotr_r
   - kasia
+  - maciej-m
 faqs:
   - What is Bluetooth technology?
   - "What is Bluetooth Low Energy? "
