@@ -92,7 +92,7 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: bool
         }
       }
       @media ${variables.device.mobile} {
-        padding: 0 1.5625rem 2rem;
+        padding: 0 ${clampBuilder(320, 581, 14, 25)} ${clampBuilder(320, 581, 20, 32)};
 
         p strong {
           font-size: ${({ isOurServiceTemplate }) =>
