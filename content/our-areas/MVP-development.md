@@ -1,6 +1,5 @@
 ---
 team_members:
-  - azabost
   - fjablonski
   - agnieszka
   - piotr
@@ -8,6 +7,7 @@ team_members:
   - kasia
   - bartosz
   - marta
+  - cezary
 faqs:
   - mvp development 1
   - mvp development 2
