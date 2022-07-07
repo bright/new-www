@@ -81,3 +81,7 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 The first version of the app was released in December 2021. After the launch the Substrate community appreciated the project and decided to support its further development and maintenance. Every feedback will be highly appreciated! 
 
 <center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The BrightTreasury team needs community feedback on their <a href="https://t.co/9LddyQE9z2">https://t.co/9LddyQE9z2</a> new application: <a href="https://t.co/e7jRVxBw1V">https://t.co/e7jRVxBw1V</a><br><br>It presents intuitive and lightweight flow of submitting proposals and an overview of the Treasury related actions.<br>Funded with the Web3.0 Foundation Grant.</p>&mdash; Polkadot News (@polkadotnews) <a href="https://twitter.com/polkadotnews/status/1471367368840515586?ref_src=twsrc%5Etfw">December 16, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
+
+
+https://twitter.com/polkadotnews/status/1471367368840515586
