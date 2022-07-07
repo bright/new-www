@@ -4,10 +4,10 @@ team_members:
   - piotr
   - kasia
   - agnieszka
-  - azabost
   - fjablonski
   - wojciech
   - aleksandra-z
+  - malgorzata-z
 faqs:
   - custom software development 1
   - custom software development 2
