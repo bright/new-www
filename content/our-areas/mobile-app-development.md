@@ -1,13 +1,13 @@
 ---
 team_members:
   - mateusz
-  - azabost
   - fjablonski
   - kamil-b
   - szymek
   - tomasz-l
   - arturs
   - marta
+  - aleksandra-z
 faqs:
   - mobile app development 1
   - mobile app development 2
