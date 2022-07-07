@@ -1,6 +1,5 @@
 ---
 team_members:
-  - azabost
   - fjablonski
   - piotr_r
   - kasia
@@ -8,6 +7,7 @@ team_members:
   - rafal h
   - maja
   - mateusz
+  - lukasz
 faqs:
   - "What does IoT mean? "
   - What are IoT devices?
