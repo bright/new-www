@@ -44,6 +44,8 @@ If your proposal is approved, you will receive the cryptocurrency (Polkadot $DOT
 
 ## Login options on BrightTreasury
 
+`youtube: https://youtu.be/RJHXq6XspD4`
+
 While developing the app we had to have in mind that it is not only for [substrate blockchain enthusiasts](/blog/5-benefits-of-substrate-blockchain/). We felt that flexibility was the key. Thus, to help you enter this world we enabled two sign-up options:
 
 1. Traditional sign-up and log in by entering a username, email address, and password – a friendly option for non-blockchain experts.
