@@ -1,7 +1,7 @@
 ---
 crosspost: https://azabost.com/:title
 layout: member
-author_id: andrzej
+author_id: azabost
 ex: false
 slug: azabost
 name: Andrzej Zabost
