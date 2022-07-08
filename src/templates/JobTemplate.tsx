@@ -512,7 +512,7 @@ export default function Template({
 }: any) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
-  console.log(page, 'job')
+
   const technologies = page.technology
 
   const listTechnologies = technologies?.map(technology => <li key={technology}>{technology}</li>)
