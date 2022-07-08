@@ -140,7 +140,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       const validLinkedinUrlRegex = RegExp(
         /((https?:\/\/)?((www|\w\w)\.)?linkedin\.com\/)((([\w]{2,3})?)|([^\/]+\/(([\w|\d-&#?=])+\/?){1,}))$/gm
       )
-      const isValidLinkedin = validLinkedinUrlRegex.test(data.linkedinlink)
+      const isValidLinkedin = validLinkedinUrlRegex.test(data.message)
 
       event.preventDefault()
       if (selectedAttachment === 'cv' && !data.cv) {
@@ -149,13 +149,13 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           setErrorMsgValidation('')
         }, 5000)
         return
-      } else if (selectedAttachment === 'linkedin' && !data.linkedinlink) {
+      } else if (selectedAttachment === 'linkedin' && !data.message) {
         setErrorMsgValidation('Please submit the link to your LinkedIn profile.')
         setTimeout(() => {
           setErrorMsgValidation('')
         }, 5000)
         return
-      } else if (selectedAttachment === 'linkedin' && data.linkedinlink && !isValidLinkedin) {
+      } else if (selectedAttachment === 'linkedin' && data.message && !isValidLinkedin) {
         setErrorMsgValidation('Please submit the  valid link to your LinkedIn profile.')
         setTimeout(() => {
           setErrorMsgValidation('')
@@ -236,11 +236,12 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
               required
               label={nameLabel || 'Paste link to your LinkedIn profile here'}
               placeholder={'Paste here'}
-              value={value.linkedinlink}
+              value={value.message}
               onChange={handleChange}
-              name='linkedinlink'
+              name='message'
             />
           )}
+
           <div>
             {value.cv && (
               <AttachmentUploaded>
