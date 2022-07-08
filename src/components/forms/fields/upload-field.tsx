@@ -7,6 +7,7 @@ interface Props {
   children?: any
   required?: boolean
   name?: string
+  accept?: string
   onChange?(event: ChangeEvent): void
   onClick?(event: MouseEvent): void
 }

@@ -224,8 +224,13 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         <div>
           {selectedAttachment == 'cv' && (
             <div>
-              <p>Upload your resume / CV / cover letter / portfolio</p>
-              <UploadField onChange={handleChange} name='cv' onClick={e => (e.target.value = null)}>
+              <p>Upload your resume / CV / portfolio (PDF file)</p>
+              <UploadField
+                onChange={handleChange}
+                accept='application/pdf'
+                name='cv'
+                onClick={e => (e.target.value = null)}
+              >
                 <UploadIcon />
                 {uploadLabel}
               </UploadField>
