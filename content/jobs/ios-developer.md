@@ -37,7 +37,8 @@ button: join our iOS team
 redirect_from:
   - /ios-developer
   - /ios-developer/
-published: true
+published: false
+hidden: true
 show_recruiter_info: true
 order: 5
 recruting_image2_title: interview (technical part & non-technical part)
