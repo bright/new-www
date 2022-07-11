@@ -82,4 +82,7 @@ The main goal of this milestone is the implementation of the bounties mechanism.
 
 The first version of the app was released in December 2021. After the launch the Substrate community appreciated the project and decided to support its further development and maintenance. Every feedback will be highly appreciated! 
 
-https://twitter.com/polkadotnews/status/1471367368840515586
+<center>
+https://twitter.com/BrightTreasury
+
+</center>
