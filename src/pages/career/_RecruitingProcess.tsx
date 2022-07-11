@@ -185,7 +185,7 @@ const RecruitingProcess: React.FC<Props> = ({ recruting_image2_title, recruting_
 
   useEffect(() => {
     const scrollListener = () => {
-      if (window.scrollY > 10 && !isScrolledDown) {
+      if (window.scrollY > 1000 && !isScrolledDown) {
         setIsScrolledDown(true)
       } else {
         setIsScrolledDown(false)

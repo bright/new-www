@@ -273,7 +273,7 @@ const ButtonWrapper = styled.div`
     left: 18px;
     right: 18px;
     width: calc(100% - 36px);
-    bottom: 165px;
+    bottom: 150px;
   }
 `
 
@@ -479,41 +479,40 @@ export default function Template({
   const recruiterImage = getImage(page.image_recruiter_info)!
 
   const ref: any = React.useRef<HTMLDivElement>(null)
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '-400px 0px')
-  console.log(ref)
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, ' -200px 0px')
 
   return (
     <Page>
       <HelmetTitleDescription title={page.title} description={page.description} />
-      <ScrollSection ref={ref}>
-        <CustomSection
-          paddingMobileProps='64px 18px 0'
-          paddingTablet='83px 36px 0'
-          paddingTabletXL='59px 144px 0'
-          paddingLaptop='55px 96px 0'
-          paddingProps='67px 240px 0'
-        >
-          <CustomPageTitle>{page.title}</CustomPageTitle>
-          <SalaryHeading className='has-text-primary'>{page.subtitle}</SalaryHeading>
-          <SalaryWrapper>
-            <Salary salary={page.salary} />
-          </SalaryWrapper>
-          <HoursWraper>
-            {page.working_time && <h4>{page.working_time}</h4>}
-            <div>Gdańsk or remote</div>
-          </HoursWraper>
-          <TechnologyWrapper>
-            <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
-          </TechnologyWrapper>
 
-          {onScreen && (
-            <ButtonWrapper>
-              <Link to='#jobform'>
-                <JobBlackButton>{page.button}</JobBlackButton>
-              </Link>
-            </ButtonWrapper>
-          )}
-        </CustomSection>
+      <CustomSection
+        paddingMobileProps='64px 18px 0'
+        paddingTablet='83px 36px 0'
+        paddingTabletXL='59px 144px 0'
+        paddingLaptop='55px 96px 0'
+        paddingProps='67px 240px 0'
+      >
+        <CustomPageTitle>{page.title}</CustomPageTitle>
+        <SalaryHeading className='has-text-primary'>{page.subtitle}</SalaryHeading>
+        <SalaryWrapper>
+          <Salary salary={page.salary} />
+        </SalaryWrapper>
+        <HoursWraper>
+          {page.working_time && <h4>{page.working_time}</h4>}
+          <div>Gdańsk or remote</div>
+        </HoursWraper>
+        <TechnologyWrapper>
+          <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
+        </TechnologyWrapper>
+      </CustomSection>
+      <ScrollSection ref={ref}>
+        {onScreen && (
+          <ButtonWrapper>
+            <Link to='#jobform'>
+              <JobBlackButton>{page.button}</JobBlackButton>
+            </Link>
+          </ButtonWrapper>
+        )}
         <JobImage image={image} alt={page.image_alt_job} className='about-img' />
 
         <CustomSection>
