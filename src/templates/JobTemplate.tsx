@@ -1,4 +1,4 @@
-import React, { useState, useMemo, MutableRefObject } from 'react'
+import React, { MutableRefObject } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import ReactMarkdown from 'react-markdown'
@@ -19,12 +19,11 @@ import {
 } from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables from '../styles/variables'
-import { ArrowJobTemplateIcon } from '../components/icons/ArrowJobTemplate.icon'
 import { CustomSection } from './../components/shared/index'
-import { useScrollPosition } from '../components/utils/use-scrollposition'
 import { LinkedIn } from './../components/icons/LinkedIn.icon'
-
+import useOnScreen from '../components/utils/use-onscreen'
 import { clampBuilder } from './../helpers/clampBuilder'
+import { JobImage } from './job/JobImage'
 
 type ElementRef = MutableRefObject<HTMLElement | undefined>
 
@@ -259,38 +258,7 @@ const JobFormComponent = styled(FormComponent)`
     }
   }
 `
-const ImageWrapper = styled.div`
-  position: relative;
-  @media ${variables.device.tablet} {
-    padding-left: ${variables.pxToRem(36)};
-    width: 100vw;
-    overflow: scroll;
-  }
-  @media ${variables.device.mobile} {
-    padding-left: ${variables.pxToRem(18)};
-  }
-`
-const ImageWrapperRef = styled.div`
-  width: 100%;
-  @media ${variables.device.tablet} {
-    & .scroll {
-      display: inline-flex;
-      & > .about-img {
-        width: 1900px;
-        & img {
-          z-index: -1;
-        }
-      }
-    }
-  }
-  @media ${variables.device.mobile} {
-    & .scroll {
-      & > .about-img {
-        width: 1000px;
-      }
-    }
-  }
-`
+
 const ButtonWrapper = styled.div`
   display: block;
   margin: 0 auto;
@@ -300,26 +268,15 @@ const ButtonWrapper = styled.div`
     width: 100%;
     margin: 0;
     padding: 0.8125rem 0;
+    position: fixed;
+    z-index: 5;
+    left: 18px;
+    right: 18px;
+    width: calc(100% - 36px);
+    bottom: 165px;
   }
 `
-const SvgArrowWrapper = styled.div<{ show: boolean; isRotate: boolean }>`
-  position: sticky;
-  right: 1rem;
 
-  opacity: 0;
-  height: fit-content;
-
-  @media ${variables.device.tablet} {
-    transform: ${({ isRotate }) => (isRotate ? 'rotate(180deg)' : 'rotate(0deg)')};
-    opacity: ${({ show }) => (show ? '1' : '0')};
-    right: ${variables.pxToRem(37)};
-    margin-top: ${variables.pxToRem(305)};
-  }
-  @media ${variables.device.mobile} {
-    right: ${variables.pxToRem(18)};
-    margin-top: ${variables.pxToRem(173)};
-  }
-`
 const WrapperJobBackButton = styled.div`
   display: flex;
   margin: 0 auto;
@@ -486,6 +443,7 @@ const RecruiterSection = styled(CustomSection)`
     max-height: ${variables.pxToRem(472)};
   }
 `
+const ScrollSection = styled.section``
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
   if (salaryParts.length > 1) {
@@ -519,40 +477,15 @@ export default function Template({
 
   const image = getImage(page.imagejob)!
   const recruiterImage = getImage(page.image_recruiter_info)!
-  const [hideOnScroll, setHideOnScroll] = useState<boolean>(false)
-  const [rotateArrow, setRotateArrow] = useState<boolean>(false)
 
-  const element = React.useRef<HTMLDivElement>(null)
-  const boundingElement = React.useRef<HTMLDivElement>(null)
+  const ref: any = React.useRef<HTMLDivElement>(null)
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '-400px 0px')
+  console.log(ref)
 
-  useScrollPosition(
-    ({ prevPos, currPos, isScrolling }) => {
-      if (boundingElement.current && element.current && element.current.firstChild) {
-        const child: HTMLDivElement = element.current.firstChild as HTMLDivElement
-        const { clientWidth: parentWidth } = boundingElement.current
-        const { clientWidth: childWidth } = child
-        const isEndOfScroll = currPos.x + parentWidth === childWidth
-
-        if (isEndOfScroll) {
-          setRotateArrow(true)
-        } else if (currPos.x < 0) {
-          setRotateArrow(false)
-        }
-        setTimeout(() => {
-          setHideOnScroll(isScrolling)
-        }, 0)
-      }
-    },
-    [],
-    element as MutableRefObject<HTMLElement | undefined>,
-    false,
-    0,
-    boundingElement as MutableRefObject<HTMLElement | undefined>
-  )
-  return useMemo(
-    () => (
-      <Page>
-        <HelmetTitleDescription title={page.title} description={page.description} />
+  return (
+    <Page>
+      <HelmetTitleDescription title={page.title} description={page.description} />
+      <ScrollSection ref={ref}>
         <CustomSection
           paddingMobileProps='64px 18px 0'
           paddingTablet='83px 36px 0'
@@ -572,23 +505,16 @@ export default function Template({
           <TechnologyWrapper>
             <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
           </TechnologyWrapper>
-          <ButtonWrapper>
-            <Link to='#jobform'>
-              <JobBlackButton>{page.button}</JobBlackButton>
-            </Link>
-          </ButtonWrapper>
-        </CustomSection>
 
-        <ImageWrapper ref={boundingElement}>
-          <ImageWrapperRef ref={element}>
-            <div className='scroll'>
-              <GatsbyImage image={image} alt={page.image_alt_job} className='about-img' />
-              <SvgArrowWrapper className='arrow-wrapper' isRotate={rotateArrow} show={!hideOnScroll}>
-                <ArrowJobTemplateIcon />
-              </SvgArrowWrapper>
-            </div>
-          </ImageWrapperRef>
-        </ImageWrapper>
+          {onScreen && (
+            <ButtonWrapper>
+              <Link to='#jobform'>
+                <JobBlackButton>{page.button}</JobBlackButton>
+              </Link>
+            </ButtonWrapper>
+          )}
+        </CustomSection>
+        <JobImage image={image} alt={page.image_alt_job} className='about-img' />
 
         <CustomSection>
           <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
@@ -603,91 +529,92 @@ export default function Template({
             recruting_image3_title={page.recruting_image3_title}
           />
         </RecruitingProcessWrappers>
+      </ScrollSection>
+      <CustomSection
+        paddingProps='0 0 260px'
+        paddingLaptop='0 0 233px'
+        paddingTabletXL='0 144px 164px'
+        paddingTablet='0 36px 205px '
+        paddingMobileProps='0 18px 192px'
+      >
+        <CustomSectionInner maxWidth='866px' laptopMaxWidth='736px'>
+          {page.show_new_title_more_about_us ? (
+            <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+              {page.title_more_about_us}{' '}
+            </CustomSectionTitle>
+          ) : (
+            <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+              if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+            </CustomSectionTitle>
+          )}
 
-        <CustomSection
-          paddingProps='0 0 260px'
-          paddingLaptop='0 0 233px'
-          paddingTabletXL='0 144px 164px'
-          paddingTablet='0 36px 205px '
-          paddingMobileProps='0 18px 192px'
-        >
-          <CustomSectionInner maxWidth='866px' laptopMaxWidth='736px'>
-            {page.show_new_title_more_about_us ? (
-              <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
-                {page.title_more_about_us}{' '}
-              </CustomSectionTitle>
-            ) : (
-              <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
-                if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
-              </CustomSectionTitle>
-            )}
+          <TextRegular>
+            <WrapperLinks>
+              <ReactMarkdown children={page.links_more_about_us} />
+            </WrapperLinks>
+          </TextRegular>
+        </CustomSectionInner>
+      </CustomSection>
 
-            <TextRegular>
-              <WrapperLinks>
-                <ReactMarkdown children={page.links_more_about_us} />
-              </WrapperLinks>
-            </TextRegular>
-          </CustomSectionInner>
-        </CustomSection>
-        {page.show_recruiter_info && (
-          <>
-            <RecruiterSection
-              paddingLaptop='0'
-              paddingProps='0'
-              paddingTabletXL='0 '
-              paddingTablet='0'
-              paddingMobileProps='0'
-              style={{ backgroundColor: '#F7931E', position: 'relative' }}
+      {page.show_recruiter_info && (
+        <>
+          <RecruiterSection
+            paddingLaptop='0'
+            paddingProps='0'
+            paddingTabletXL='0 '
+            paddingTablet='0'
+            paddingMobileProps='0'
+            style={{ backgroundColor: '#F7931E', position: 'relative' }}
+          >
+            <WrapperRecruiterDescription
+              desktopDirection='column'
+              desktopGap='44px'
+              laptopGap='21px'
+              tabletXLGap='42px'
+              mobileGap='24px'
             >
-              <WrapperRecruiterDescription
-                desktopDirection='column'
-                desktopGap='44px'
-                laptopGap='21px'
-                tabletXLGap='42px'
-                mobileGap='24px'
-              >
-                <TitleRecruiter>{page.title_recruiter_info}</TitleRecruiter>
-                <FlexWrapper desktopGap='11px' desktopDirection='column'>
-                  <NameRecruiter>{page.name_recruiter}</NameRecruiter>
-                  <WarkplaceRecruiter>{page.workplace_recruiter}</WarkplaceRecruiter>
-                </FlexWrapper>
+              <TitleRecruiter>{page.title_recruiter_info}</TitleRecruiter>
+              <FlexWrapper desktopGap='11px' desktopDirection='column'>
+                <NameRecruiter>{page.name_recruiter}</NameRecruiter>
+                <WarkplaceRecruiter>{page.workplace_recruiter}</WarkplaceRecruiter>
+              </FlexWrapper>
 
-                <LinkLinkedin target='_blank' href={`${page.button_linkedin}`}>
-                  <LinkedIn />
-                  <span>contact</span>
-                </LinkLinkedin>
-              </WrapperRecruiterDescription>
+              <LinkLinkedin target='_blank' href={`${page.button_linkedin}`}>
+                <LinkedIn />
+                <span>contact</span>
+              </LinkLinkedin>
+            </WrapperRecruiterDescription>
 
-              <WrapperRecruiterImage>
-                <GatsbyImage image={recruiterImage} alt={page.image_alt_recruiter_info} className='recruiter-img' />
-              </WrapperRecruiterImage>
-            </RecruiterSection>
-          </>
-        )}
+            <WrapperRecruiterImage>
+              <GatsbyImage image={recruiterImage} alt={page.image_alt_recruiter_info} className='recruiter-img' />
+            </WrapperRecruiterImage>
+          </RecruiterSection>
+        </>
+      )}
 
-        <CustomSection>
-          <CustomSectionInner id='jobform' tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
-            <JobFormComponent
-              style={{ marginTop: '0', marginBottom: '5rem' }}
-              title={'submit your application'}
-              description={
-                <>
-                  If you have no questions, simply apply using our form below or send your application directly via
-                  email <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>.
-                </>
-              }
-              namePlaceholder={'Enter name here'}
-              mailPlaceholder={'name@mail.com'}
-              textPlaceholder={'Let us know what would you like to do @ bright inventions'}
-              uploadLabel={'Upload '}
-            />
-          </CustomSectionInner>
-        </CustomSection>
-        <WrapperJobBackButton>
-          <JobBackButton label='back to career' url={`${routeLinks.career}`} arrowColor='orange' />
-        </WrapperJobBackButton>
+      <CustomSection>
+        <CustomSectionInner id='jobform' tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
+          <JobFormComponent
+            style={{ marginTop: '0', marginBottom: '5rem' }}
+            title={'submit your application'}
+            description={
+              <>
+                If you have no questions, simply apply using our form below or send your application directly via email{' '}
+                <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>.
+              </>
+            }
+            namePlaceholder={'Enter name here'}
+            mailPlaceholder={'name@mail.com'}
+            textPlaceholder={'Let us know what would you like to do @ bright inventions'}
+            uploadLabel={'Upload '}
+          />
+        </CustomSectionInner>
+      </CustomSection>
+      <WrapperJobBackButton>
+        <JobBackButton label='back to career' url={`${routeLinks.career}`} arrowColor='orange' />
+      </WrapperJobBackButton>
 
-        {/* <script type="application/ld+json">
+      {/* <script type="application/ld+json">
     {
         "@context": "https://schema.org/",
         "@type": "JobPosting",
@@ -728,11 +655,10 @@ export default function Template({
     }
 </script>
   */}
-      </Page>
-    ),
-    [rotateArrow, hideOnScroll]
+    </Page>
   )
 }
+
 export const pageQuery = graphql`
   query($fileAbsolutePath: String!) {
     markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
