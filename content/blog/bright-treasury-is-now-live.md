@@ -23,6 +23,8 @@ Bright Treasury is a web application that helps you to apply for Polkadot and Ku
 
 ## What is BrightTreasury
 
+`youtube: https://youtu.be/3SRelp9NtAA`
+
 We already wrote a blogpost about the app when our Milestone 1 was accepted so please [take a look](https://brightinventions.pl/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant/) if you'd like to know more.
 
 ![](https://lh4.googleusercontent.com/YHLnXFWM1CPpI4lSYNXXjsPyHGNMfTcVQrHqShN2I4faQN46a419CcrYMOsntwV_UXq5g6Pv1po8Ofo9H8GGxd1C5Rb427B0oC_jeQpwVCky5uzUwkHGuPXT8okQuFk9BWogMkNx)
