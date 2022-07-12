@@ -398,7 +398,7 @@ const PrivacyPolicy = () => {
                 For further details, please see the ‘about Hotjar’ section of <a href="https://help.hotjar.com/hc/en-us/categories/115001323967-About-Hotjar">Hotjar’s support site</a>.
               </p>
               <p>
-               8. We use Google Ads cookies to monitor the results of the advertisement, including remarketing campaigns. We use only Gogogle tools to conduct these campaigns.
+               8. We use Google Ads cookies to monitor the results of the advertisement, including remarketing campaigns. We use only Google tools to conduct these campaigns.
               </p>  
               <p>
                 For further details, please visit information provided by Google: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. You can control <a href="https://adssettings.google.com">Ad personalization</a> settings.
