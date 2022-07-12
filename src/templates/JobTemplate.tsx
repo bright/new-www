@@ -479,7 +479,7 @@ export default function Template({
   const recruiterImage = getImage(page.image_recruiter_info)!
 
   const ref: any = React.useRef<HTMLDivElement>(null)
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, ' -200px 0px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
 
   return (
     <Page>
