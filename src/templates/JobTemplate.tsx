@@ -267,7 +267,7 @@ const ButtonWrapper = styled.div`
   @media ${variables.device.mobile} {
     width: 100%;
     margin: 0;
-    padding: 0.8125rem 0;
+    padding: 0;
     position: fixed;
     z-index: 5;
     left: 18px;
