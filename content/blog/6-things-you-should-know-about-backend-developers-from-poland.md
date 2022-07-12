@@ -69,6 +69,6 @@ For example, the time difference between New York and Warsaw is 6 hours which ma
 
 ![Polish backend developers](/images/blogpost_brightstory_piotr_b3.png)
 
-Polish programmers are motivated to self-develop and follow best practices at work. As an example, you can dive into the [story of Piotr – a backend developer](/blog/kotlin-dev-by-day-motorcyclist-by-night-meet-piotr-backend-dev-from-poland) who has over 12 years of experience in software development.
+Polish programmers are motivated to self-develop and follow best practices at work. As an example, you can dive into the [story of Piotr – a backend developer](/blog/piotr-team-leader-technology-evangelist) who has over 12 years of experience in software development.
 
 Are you looking for a top backend development company from Poland? You’ve come to the right place. [Let’s talk about your software solution](/start-project).
