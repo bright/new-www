@@ -34,6 +34,7 @@ const IconsContainer = styled.div`
   @media ${variables.device.tablet} {
     max-width: 100%;
     column-gap: ${clampBuilder(300, 834, 19, 111)};
+    max-width: 736px;
   }
 
   & a {
@@ -138,25 +139,16 @@ export const SocialIcons: React.FC<{
         <Image30>{blackIcons ? <InstagramIconBlack /> : <InstagramIcon />}</Image30>
       </a>
 
-      <a
-        className='is-link'
-        href='https://www.youtube.com/channel/UCWNKNRKF_kzgGZnrzlQ7wvA'
-        target='_blank'
-        rel='noopener'
-      >
-        <ImageYouTube>{blackIcons ? <YouTubeIconBlack /> : <YouTubeIcon />}</ImageYouTube>
-      </a>
-
       <a className='is-link' href='https://github.com/bright' target='_blank' rel='noopener'>
         <Image30>{blackIcons ? <GithubIconBlack /> : <GithubIcon />}</Image30>
       </a>
 
-      <a className='is-link' href='https://www.behance.net/BrightInventions/' target='_blank' rel='noopener'>
-        <ImageBehance>{blackIcons ? <BehanceIconBlack /> : <BehanceIcon />}</ImageBehance>
-      </a>
-
       <a className='is-link' href='https://dribbble.com/Bright_Inventions/' target='_blank' rel='noopener'>
         <Image30>{blackIcons ? <DribbleIconBlack /> : <DribbleIcon />}</Image30>
+      </a>
+
+      <a className='is-link' href='https://www.behance.net/BrightInventions/' target='_blank' rel='noopener'>
+        <ImageBehance>{blackIcons ? <BehanceIconBlack /> : <BehanceIcon />}</ImageBehance>
       </a>
 
       <a className='is-link' href='https://open.spotify.com/show/1xrG8BF4Niv5uIzHvIn79q' target='_blank' rel='noopener'>
@@ -170,6 +162,14 @@ export const SocialIcons: React.FC<{
         rel='noopener'
       >
         <Image30>{blackIcons ? <ApplePodcastIconBlack /> : <ApplePodcastIcon />}</Image30>
+      </a>
+      <a
+        className='is-link'
+        href='https://www.youtube.com/channel/UCWNKNRKF_kzgGZnrzlQ7wvA'
+        target='_blank'
+        rel='noopener'
+      >
+        <ImageYouTube>{blackIcons ? <YouTubeIconBlack /> : <YouTubeIcon />}</ImageYouTube>
       </a>
     </IconsContainer>
   )
