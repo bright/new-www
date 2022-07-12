@@ -8,12 +8,37 @@ import LocationIcon from '../assets/location_white.svg'
 import LogoWhite from '../assets/logo_white_2.svg'
 import { routeLinks } from '../config/routing'
 
+import styled from 'styled-components'
+import variables from '../styles/variables'
 import * as styles from './Footer.module.scss'
 import { Link } from 'gatsby'
 
+const FooterWrapper = styled.footer`
+  && .column:first-of-type {
+    @media ${variables.device.tabletXL} {
+      flex-basis: 20%;
+    }
+    @media ${variables.device.tablet} {
+      flex-basis: auto;
+    }
+  }
+  && .column.is-hidden {
+    display: block;
+    @media ${variables.device.tablet} {
+      display: none;
+    }
+  }
+  && .columns {
+    @media ${variables.device.tablet} {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+`
+
 export const Footer = () => {
   return (
-    <footer className={classNames('footer', styles.container)}>
+    <FooterWrapper className={classNames('footer', styles.container)}>
       <div className={styles.top}>
         <div className='columns'>
           <div className='column'>
@@ -36,7 +61,7 @@ export const Footer = () => {
             </a>
           </div> */}
 
-          <div className={classNames('column is-hidden-mobile', styles.links)}>
+          <div className={classNames('column is-hidden', styles.links)}>
             <h6 className='subtitle is-size-6 has-text-weight-bold'>explore more</h6>
             <p className='content'>
               <Link to={routeLinks.aboutUs()}>about us</Link>
@@ -55,7 +80,7 @@ export const Footer = () => {
             </p>
           </div>
 
-          <div className={classNames('column is-hidden-mobile', styles.links)}>
+          <div className={classNames('column is-hidden', styles.links)}>
             <h6 className='subtitle is-size-6 has-text-weight-bold'>services</h6>
             <p className='content'>
               <Link to={routeLinks.webDevelopment}>web development</Link>
@@ -107,6 +132,6 @@ export const Footer = () => {
           </Link>
         </div>
       </div>
-    </footer>
+    </FooterWrapper>
   )
 }
