@@ -93,30 +93,30 @@ const ImageYouTube = styled.figure`
     }
   }
 `
-const ImageBehance = styled.figure`
-  width: 36.53px;
-  height: 22.37px;
-  svg {
-    width: 36.53px;
-    height: 22.37px;
-  }
-  @media ${variables.device.laptop} {
-    width: 29.39px;
-    height: 18px;
-    svg {
-      width: 29.39px;
-      height: 18px;
-    }
-  }
-  @media ${variables.device.tablet} {
-    width: 36.53px;
-    height: 22.37px;
-    svg {
-      width: 36.53px;
-      height: 22.37px;
-    }
-  }
-`
+// const ImageBehance = styled.figure`
+//   width: 36.53px;
+//   height: 22.37px;
+//   svg {
+//     width: 36.53px;
+//     height: 22.37px;
+//   }
+//   @media ${variables.device.laptop} {
+//     width: 29.39px;
+//     height: 18px;
+//     svg {
+//       width: 29.39px;
+//       height: 18px;
+//     }
+//   }
+//   @media ${variables.device.tablet} {
+//     width: 36.53px;
+//     height: 22.37px;
+//     svg {
+//       width: 36.53px;
+//       height: 22.37px;
+//     }
+//   }
+// `
 export const SocialIcons: React.FC<{
   blackIcons?: boolean
   className?: string
@@ -139,16 +139,16 @@ export const SocialIcons: React.FC<{
         <Image30>{blackIcons ? <InstagramIconBlack /> : <InstagramIcon />}</Image30>
       </a>
 
+      <a className='is-link' href='https://www.behance.net/BrightInventions/' target='_blank' rel='noopener'>
+        <ImageYouTube>{blackIcons ? <BehanceIconBlack /> : <BehanceIcon />}</ImageYouTube>
+      </a>
+
       <a className='is-link' href='https://github.com/bright' target='_blank' rel='noopener'>
         <Image30>{blackIcons ? <GithubIconBlack /> : <GithubIcon />}</Image30>
       </a>
 
       <a className='is-link' href='https://dribbble.com/Bright_Inventions/' target='_blank' rel='noopener'>
         <Image30>{blackIcons ? <DribbleIconBlack /> : <DribbleIcon />}</Image30>
-      </a>
-
-      <a className='is-link' href='https://www.behance.net/BrightInventions/' target='_blank' rel='noopener'>
-        <ImageBehance>{blackIcons ? <BehanceIconBlack /> : <BehanceIcon />}</ImageBehance>
       </a>
 
       <a className='is-link' href='https://open.spotify.com/show/1xrG8BF4Niv5uIzHvIn79q' target='_blank' rel='noopener'>
