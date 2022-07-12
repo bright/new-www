@@ -273,7 +273,7 @@ const ButtonWrapper = styled.div`
     left: 18px;
     right: 18px;
     width: calc(100% - 36px);
-    bottom: 150px;
+    bottom: 0;
   }
 `
 
