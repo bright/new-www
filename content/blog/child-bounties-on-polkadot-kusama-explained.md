@@ -8,7 +8,8 @@ tags:
 date: 2022-07-13T08:52:38.157Z
 title: Child Bounties on Polkadot & Kusama Explained
 layout: post
-hidden: false
+image: /images/child_bounties_blogpost.png
+hidden: true
 comments: true
 published: true
 ---
@@ -60,3 +61,17 @@ Here are actions you can take with child bounties:
 `Propose_curator`: Assign account as a child bounty curator (can be done: parent bounty curator)
 
 `Accept_curator`: accept account as a curator (child bounty curator), setting a curator deposit
+
+`Award_child_bounty`: close and award child bounty curator, when work is done
+
+`Claim_child_bounty`: claim specific child bounty amount from the payout address
+
+`Unassign_curator`: unassign a previously approved curator from child bounty
+
+`Close_child_bounty`: cancel the child bounty, amount for them and close child bounty
+
+## Child Bounty life cycle stages
+
+![Polkadot & Kusama child bounty life cycle](/images/blog_post_childbounties_life_cycle.png)
+
+Let’s dive into all child bounty life cycle stages:
