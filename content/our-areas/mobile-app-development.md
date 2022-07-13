@@ -5,9 +5,9 @@ team_members:
   - kamil-b
   - szymek
   - tomasz-l
-  - arturs
   - marta
   - aleksandra-z
+  - azabost
 faqs:
   - mobile app development 1
   - mobile app development 2
