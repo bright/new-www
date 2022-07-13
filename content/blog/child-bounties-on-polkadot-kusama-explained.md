@@ -150,3 +150,17 @@ Claiming the payout:
 * Curator’s fee is transferred to a curator.
 * The curator deposit is unreserved.
 * After succeeding, the child bounty instance is removed from the state.
+
+### 7. Or canceling child bounty
+
+Parent bounty curator can cancel child bounty when a child bounty is not properly done or in case of changes in the requirements of the child bounty.
+
+Cancellation of child bounty:
+
+* Can be done by: a parent bounty curator.
+* Child bounty must be in the “Curator Proposed” or “Active” state.
+* After succeeding, child bounty account funds are transferred to the parent bounty account.
+* If it is possible child bounty curator deposit may be unreserved.
+* Curator deposit is unreserved when child bounty status is “Active”.
+* The call fails and throws a “Pending Payout” error when the child bounty status is “PendingPayout”.
+* After successful cancellation child bounty instance is removed from the state.
