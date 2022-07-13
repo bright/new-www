@@ -134,6 +134,6 @@ Awarding for child bounty:
 * Parent bounty must be in an “Active” state.
 * Child bounty must be in an “Active” state.
 * After succeeding, the status of the child bounty changes to “Pending Payout”.
-* After a delay beneficiary will be able to claim the founds.
+* After a delay beneficiary will be able to claim the funds.
 
 ### 6. Claiming the payout
