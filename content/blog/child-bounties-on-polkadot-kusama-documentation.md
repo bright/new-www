@@ -5,7 +5,7 @@ tags:
   - BrightTreasury
   - blockchain
   - development
-date: 2022-07-13T08:52:38.157Z
+date: 2022-07-13T09:56:38.598Z
 title: Child Bounties on Polkadot & Kusama Explained
 layout: post
 image: /images/child_bounties_blogpost.png
