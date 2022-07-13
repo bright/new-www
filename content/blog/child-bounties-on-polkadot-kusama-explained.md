@@ -137,3 +137,16 @@ Awarding for child bounty:
 * After a delay beneficiary will be able to claim the funds.
 
 ### 6. Claiming the payout
+
+When child bounty is in the awarded phase and after payout delay, any web3 account can claim payout. Then all funds will be paid to the appropriate people.
+
+Claiming the payout:
+
+* Can be done by: any web3 account.
+* No need to check the parent bounty state.
+* Child bounty must be in the “Pending Payout” state.
+* After payout delay, the payout can be claimed from awarded child bounty.
+* Bounty value is paid to a beneficiary.
+* Curator’s fee is transferred to a curator.
+* The curator deposit is unreserved.
+* After succeeding, the child bounty instance is removed from the state.
