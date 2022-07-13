@@ -17,9 +17,9 @@ published: true
 
 ## Child bounties on Polkadot & Kusama – how they work and use case example
 
-Every bounty is assigned to a curator chosen by a council. When a curator assesses that bounty is too complex to be managed by one person, they can divide a bounty into smaller chunks called child bounties.
+Every bounty is assigned to a curator chosen by a council. When a curator assesses that a bounty is too complex to be managed by one person, they can divide a bounty into smaller chunks called child bounties.
 
-**Let us look at an example of child bounty use case**. Let’s say that the community approves the bounty to create a video ad promoting treasury modules on Polkadot. This is now “the parent bounty”. However, the assigned curator might divide the parent bounty into child bounties and assign a different curator to every particual job that needs to be done to deliver the final video ad. Therefore the parent bounty could be divided into smaller tasks such as: writing a script, filming, editing and then creating subtitles or voiceover. All these tasks could require a different expert-curator to oversee them.
+**Let us look at an example of a child bounty use case**. Let’s say that the community approves the bounty to create a video ad promoting treasury modules on Polkadot. This is now “the parent bounty”. However, the assigned curator might divide the parent bounty into child bounties and assign a different curator to every particular job that needs to be done to deliver the final video ad. Therefore the parent bounty could be divided into smaller tasks such as: writing a script, filming, editing, and then creating subtitles or voiceover. All these tasks could require a different expert-curator to oversee them.
 
 ## Child Bounty Properties
 
@@ -50,7 +50,7 @@ Here are all property names for child bounties for Kusama and Polkadot:
 
 **curator**: Curator of the child bounty
 
-**beneficiary**: Beneficiary of the child bounty (The person who will be rewarded for completing the task included in child bounty)
+**beneficiary**: Beneficiary of the child bounty (The person who will be rewarded for completing the task included in the child bounty)
 
 ## Actions on child bounties
 
@@ -58,9 +58,9 @@ Here are actions you can take with child bounties:
 
 `Add_child_bounty`: create child bounty from parent bounty (parent bounty curator)
 
-`Propose_curator`: Assign account as a child bounty curator (can be done: parent bounty curator)
+`Propose_curator`: Assign an account as a child bounty curator (can be done: parent bounty curator)
 
-`Accept_curator`: accept account as a curator (child bounty curator), setting a curator deposit
+`Accept_curator`: accept the account as a curator (child bounty curator), setting a curator deposit
 
 `Award_child_bounty`: close and award child bounty curator, when work is done
 
@@ -68,7 +68,7 @@ Here are actions you can take with child bounties:
 
 `Unassign_curator`: unassign a previously approved curator from child bounty
 
-`Close_child_bounty`: cancel the child bounty, amount for them and close child bounty
+`Close_child_bounty`: cancel the child bounty, the amount for them and close  thechild bounty
 
 ## Child Bounty life cycle stages
 
@@ -83,7 +83,7 @@ The first action in the child bounty life cycle is creating/adding a child bount
  Adding a child bounty:
 
 * Can be done by: a parent bounty curator.
-* Parent bounty must be in “Active” state.
+* Parent bounty must be in an “Active” state.
 * To succeed parent bounty must have enough funds to pay the total value of the child bounty, if not, this action fails.
 * After succeeding, the status of the child bounty is updated to “Added”.
 
