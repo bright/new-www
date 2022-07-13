@@ -112,3 +112,28 @@ How to nominate and accept the curator role for the child bounty:
 Now the curator is responsible for completing the work related to this child bounty.
 
 ### 4. Unassigning child bounty curator
+
+When the child bounty curator does not meet expectations regarding this role, the community can unassign this curator. It is possible when the status of child bounty is „Curator proposed” or „Active”.
+
+How to unassign a child bounty curator:
+
+* Can be done by: a parent bounty curator, child bounty curator, or any signed web3 user.
+* When the parent bounty curator wants to do this action, the state of the parent bounty must be “Active”.
+* In other cases, there is no need to check the parent bounty state.
+* When this action is called by a Web3 user or parent bounty curator, the child bounty curator deposit is slashed.
+* When this action is called by the child bounty curator, the deposit can be slashed but by default deposit of the child bounty curator is unreserved.
+* After succeeding, the child bounty status changes to “Added”.
+
+### 5. Awarding for child bounty
+
+When the job is done the parent bounty curator or child bounty curator can transfer the award for the child bounty.
+
+Awarding for child bounty:
+
+* Can be done by: a parent bounty curator, or a child bounty curator.
+* Parent bounty must be in an “Active” state.
+* Child bounty must be in an “Active” state.
+* After succeeding, the status of the child bounty changes to “Pending Payout”.
+* After a delay beneficiary will be able to claim the founds.
+
+### 6. Claiming the payout
