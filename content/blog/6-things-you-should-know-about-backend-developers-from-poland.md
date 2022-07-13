@@ -65,7 +65,7 @@ Poland is part of the Central European Time Zone which means that **there is no 
 
 For example, the time difference between New York and Warsaw is 6 hours which makes it possible to set up daily meetings with clients and Polish devs. 
 
-## Polish backend devs are full of passion and experience
+## Polish backend devs are experienced and full of passion
 
 ![Polish backend developers](/images/blogpost_brightstory_piotr_b3.png)
 
