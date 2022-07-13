@@ -75,3 +75,27 @@ Here are actions you can take with child bounties:
 ![Polkadot & Kusama child bounty life cycle](/images/blog_post_childbounties_life_cycle.png)
 
 Let’s dive into all child bounty life cycle stages:
+
+### **1. Adding a child bounty**
+
+The first action in the child bounty life cycle is creating/adding a child bounty.
+
+ Adding a child bounty:
+
+* Can be done by: a parent bounty curator,
+* Parent bounty must be in “Active” state,
+* To succeed parent bounty must have enough funds to pay the total value of the child bounty, if not, this action fails,
+* After succeeding, the status of the child bounty is updated to “Added”.
+
+### **2. Proposing a curator**
+
+When you add a child bounty and your child bounty status is moved to „Added”, you can propose curator to this child bounty. You can propose your account or choose another one.
+
+How to propose curator for the child bounty:
+
+* Can be done by: parent bounty curator,
+* Parent bounty must be in “Active” state,
+* Child bounty must be in “Added” state,
+* After succeeding, the status of the child bounty changes to “Curator Proposed”.
+
+## 3. Accepting the curator role
