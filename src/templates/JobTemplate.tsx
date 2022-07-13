@@ -270,9 +270,9 @@ const ButtonWrapper = styled.div`
     padding: 0;
     position: fixed;
     z-index: 5;
-    left: 18px;
-    right: 18px;
-    width: calc(100% - 36px);
+    left: 0;
+    right: 0;
+    width: 100%;
     bottom: 0;
   }
 `
@@ -522,13 +522,14 @@ export default function Template({
             </JobSectionInner>
           </CustomSectionInner>
         </CustomSection>
-        <RecruitingProcessWrappers>
-          <RecruitingProcess
-            recruting_image2_title={page.recruting_image2_title}
-            recruting_image3_title={page.recruting_image3_title}
-          />
-        </RecruitingProcessWrappers>
       </ScrollSection>
+      <RecruitingProcessWrappers>
+        <RecruitingProcess
+          recruting_image2_title={page.recruting_image2_title}
+          recruting_image3_title={page.recruting_image3_title}
+        />
+      </RecruitingProcessWrappers>
+
       <CustomSection
         paddingProps='0 0 260px'
         paddingLaptop='0 0 233px'
