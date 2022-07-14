@@ -9,7 +9,7 @@ title: Understanding Covariants, Contravariants, and Invariants on JVM Generics
   Example. Part 1 - Java
 layout: post
 image: /images/blog_post_java.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
