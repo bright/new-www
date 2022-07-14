@@ -524,9 +524,9 @@ export default function Template({
           <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
         </TechnologyWrapper>
       </CustomSection>
-      <React.StrictMode>
-        <ScrollSection ref={ref}>
-          {width <= breakpoint2 ? (
+      <ScrollSection ref={ref}>
+        <div>
+          {width <= breakpoint2 &&
             onScreen &&
             (width >= breakpoint && width < breakpoint2 ? (
               <TabletButtonWrapper>
@@ -542,32 +542,34 @@ export default function Template({
                   <JobBlackButton>{page.button}</JobBlackButton>
                 </Link>
               </ButtonWrapper>
-            ))
-          ) : (
+            ))}
+        </div>
+        <div>
+          {width > breakpoint2 && (
             <ButtonWrapper>
               <Link to='#jobform'>
                 <JobBlackButton>{page.button}</JobBlackButton>
               </Link>
             </ButtonWrapper>
           )}
-          <JobImage image={image} alt={page.image_alt_job} className='about-img' />
+        </div>
+        <JobImage image={image} alt={page.image_alt_job} className='about-img' />
 
-          <CustomSection>
-            <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
-              <JobSectionInner>
-                <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
-              </JobSectionInner>
-            </CustomSectionInner>
-          </CustomSection>
+        <CustomSection>
+          <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
+            <JobSectionInner>
+              <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
+            </JobSectionInner>
+          </CustomSectionInner>
+        </CustomSection>
 
-          <RecruitingProcessWrappers>
-            <RecruitingProcess
-              recruting_image2_title={page.recruting_image2_title}
-              recruting_image3_title={page.recruting_image3_title}
-            />
-          </RecruitingProcessWrappers>
-        </ScrollSection>
-      </React.StrictMode>
+        <RecruitingProcessWrappers>
+          <RecruitingProcess
+            recruting_image2_title={page.recruting_image2_title}
+            recruting_image3_title={page.recruting_image3_title}
+          />
+        </RecruitingProcessWrappers>
+      </ScrollSection>
       <CustomSection
         paddingProps='0 0 260px'
         paddingLaptop='0 0 233px'
