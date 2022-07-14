@@ -8,15 +8,12 @@ date: 2022-07-14T03:44:55.437Z
 title: Understanding Covariants, Contravariants, and Invariants on JVM Generics
   Example (Part I - Java)
 layout: post
+image: /images/blog_post_java.png
 hidden: true
 comments: true
 published: true
 ---
-
-
 ![](https://cdn-images-1.medium.com/max/1600/1*TdFqWJeP3LYOc-n6j6IGTQ.jpeg)
-
-
 
 Thinking about generic types in programming languages, I have mixed feelings. On the one hand, we as devs love to simplify business problems to code instructions and try to find similarities to avoid duplication. On the other hand, we would like to keep the code simple and understandable by everyone in the team, especially thinking about newcomers to quickly onboard them and get them up to speed to bring value to the customer.
 
@@ -24,19 +21,13 @@ Generics are one of those things that can be really powerful and allow to build 
 
 However, working on entirely generic code can drive someone crazy. It also might require a lot of focus and it’s definitely not the code one could read just like a novel.
 
-
-
 > With great power comes great responsibility. \[Someone, somewhere]
-
-
 
 When working with types we might hear words like “covariant”, “contravariant” or “invariant”. At the very beginning, it sounds really mathematical and looks like taken directly from the university. That’s why we will leave aside the formal definition and go straight to examples.
 
 - - -
 
 ### Covariance
-
-
 
 Let’s consider two classes written in Java
 
@@ -103,8 +94,6 @@ Both snippets are completely correct from a compilation perspective. 
 
 ### Contravariance
 
-
-
 What if we would like to pass supertype of `T` to some collection or method? Let’s go back to our Animals and Dogs example.
 
 ```kotlin
@@ -146,11 +135,7 @@ List<Animal> animals = new ArrayList<>();
 processDogs(animals);
 ```
 
-
-
 ### Invariance
-
-
 
 The third situation which might happen is the case in which for our generic type `K<T>` there is no subtyping relation either way. Again, by definition, there are two conditions that need to be satisfied:
 
@@ -179,4 +164,8 @@ Covariance, Contravariance, and Invariance might sound scary at first glance, ho
 
 In the next part, we will look at how Java’s younger, modern brother Kotlin is dealing with those three aspects on the JVM Platform.
 
-![](https://cdn-images-1.medium.com/max/1600/0*qh9qngkFtlsL1N4W.jpg)
+<center>
+
+![Generics meme](https://cdn-images-1.medium.com/max/1600/0*qh9qngkFtlsL1N4W.jpg)
+
+</center>
