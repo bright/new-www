@@ -24,8 +24,7 @@ import { LinkedIn } from './../components/icons/LinkedIn.icon'
 import useOnScreen from '../components/utils/use-onscreen'
 import { clampBuilder } from './../helpers/clampBuilder'
 import { JobImage } from './job/JobImage'
-
-type ElementRef = MutableRefObject<HTMLElement | undefined>
+import { useWindowSize } from './../components/utils/use-windowsize'
 
 const SalaryHeading = styled.h5`
   margin: 1.5rem 0;
@@ -264,6 +263,10 @@ const ButtonWrapper = styled.div`
   margin: 0 auto;
   text-align: center;
 
+  @media ${variables.device.tablet} {
+    opacity: 1;
+  }
+
   @media ${variables.device.mobile} {
     width: 100%;
     margin: 0;
@@ -443,6 +446,18 @@ const RecruiterSection = styled(CustomSection)`
     max-height: ${variables.pxToRem(472)};
   }
 `
+const TabletButtonWrapper = styled.div`
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: ${variables.color.primary};
+`
 const ScrollSection = styled.section``
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
@@ -477,10 +492,14 @@ export default function Template({
 
   const image = getImage(page.imagejob)!
   const recruiterImage = getImage(page.image_recruiter_info)!
+  const { width } = useWindowSize()
+  const breakpoint = 580
+  const breakpoint2 = 991
 
   const ref: any = React.useRef<HTMLDivElement>(null)
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, width > breakpoint ? '-400px' : '0px')
 
+  console.log(ref, 'ref')
   return (
     <Page>
       <HelmetTitleDescription title={page.title} description={page.description} />
@@ -505,31 +524,50 @@ export default function Template({
           <ul>{listTechnologies ? listTechnologies : <li></li>}</ul>
         </TechnologyWrapper>
       </CustomSection>
-      <ScrollSection ref={ref}>
-        {onScreen && (
-          <ButtonWrapper>
-            <Link to='#jobform'>
-              <JobBlackButton>{page.button}</JobBlackButton>
-            </Link>
-          </ButtonWrapper>
-        )}
-        <JobImage image={image} alt={page.image_alt_job} className='about-img' />
+      <React.StrictMode>
+        <ScrollSection ref={ref}>
+          {width <= breakpoint2 ? (
+            onScreen &&
+            (width >= breakpoint && width < breakpoint2 ? (
+              <TabletButtonWrapper>
+                <ButtonWrapper>
+                  <Link to='#jobform'>
+                    <JobBlackButton>{page.button}</JobBlackButton>
+                  </Link>
+                </ButtonWrapper>
+              </TabletButtonWrapper>
+            ) : (
+              <ButtonWrapper>
+                <Link to='#jobform'>
+                  <JobBlackButton>{page.button}</JobBlackButton>
+                </Link>
+              </ButtonWrapper>
+            ))
+          ) : (
+            <ButtonWrapper>
+              <Link to='#jobform'>
+                <JobBlackButton>{page.button}</JobBlackButton>
+              </Link>
+            </ButtonWrapper>
+          )}
+          <JobImage image={image} alt={page.image_alt_job} className='about-img' />
 
-        <CustomSection>
-          <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
-            <JobSectionInner>
-              <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
-            </JobSectionInner>
-          </CustomSectionInner>
-        </CustomSection>
-      </ScrollSection>
-      <RecruitingProcessWrappers>
-        <RecruitingProcess
-          recruting_image2_title={page.recruting_image2_title}
-          recruting_image3_title={page.recruting_image3_title}
-        />
-      </RecruitingProcessWrappers>
+          <CustomSection>
+            <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
+              <JobSectionInner>
+                <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
+              </JobSectionInner>
+            </CustomSectionInner>
+          </CustomSection>
 
+          <RecruitingProcessWrappers>
+            <RecruitingProcess
+              recruting_image2_title={page.recruting_image2_title}
+              recruting_image3_title={page.recruting_image3_title}
+            />
+          </RecruitingProcessWrappers>
+        </ScrollSection>
+      </React.StrictMode>
       <CustomSection
         paddingProps='0 0 260px'
         paddingLaptop='0 0 233px'
@@ -592,8 +630,8 @@ export default function Template({
         </>
       )}
 
-      <CustomSection>
-        <CustomSectionInner id='jobform' tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
+      <CustomSection id='jobform'>
+        <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
           <JobFormComponent
             style={{ marginTop: '0', marginBottom: '5rem' }}
             title={'submit your application'}
