@@ -16,6 +16,7 @@ import {
   TextRegular,
   FlexWrapper,
   CustomSectionTitle,
+  Button,
 } from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables from '../styles/variables'
@@ -110,9 +111,27 @@ const RecruitingProcessWrappers = styled.div`
     padding: 0 0.5rem;
   }
 `
-const JobBlackButton = styled(BlackButton)`
+const JobBlackButton = styled(Button)`
+  border: 1px solid black;
+  background: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+  padding: 1rem 4rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  width: fit-content;
   display: block;
   margin: 0 auto;
+  &:hover {
+    background: ${variables.color.primary};
+    border: 1px solid ${variables.color.primary};
+  }
+
   @media ${variables.device.mobile} {
     width: 100%;
     text-align: center;
