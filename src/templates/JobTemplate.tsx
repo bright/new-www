@@ -478,6 +478,19 @@ const TabletButtonWrapper = styled.div`
   background-color: ${variables.color.black};
 `
 const ScrollSection = styled.section``
+const JobSection = styled.div`
+  @media ${variables.device.mobile} {
+    &:target {
+      &::before {
+        display: block;
+        content: ' ';
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+      }
+    }
+  }
+`
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
   if (salaryParts.length > 1) {
@@ -648,25 +661,26 @@ export default function Template({
           </RecruiterSection>
         </>
       )}
-
-      <CustomSection id='jobform'>
-        <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
-          <JobFormComponent
-            style={{ marginTop: '0', marginBottom: '5rem' }}
-            title={'submit your application'}
-            description={
-              <>
-                If you have no questions, simply apply using our form below or send your application directly via email{' '}
-                <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>.
-              </>
-            }
-            namePlaceholder={'Enter name here'}
-            mailPlaceholder={'name@mail.com'}
-            textPlaceholder={'Let us know what would you like to do @ bright inventions'}
-            uploadLabel={'Upload '}
-          />
-        </CustomSectionInner>
-      </CustomSection>
+      <JobSection id='jobform'>
+        <CustomSection>
+          <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
+            <JobFormComponent
+              style={{ marginTop: '0', marginBottom: '5rem' }}
+              title={'submit your application'}
+              description={
+                <>
+                  If you have no questions, simply apply using our form below or send your application directly via
+                  email <a href='mailto:jobs@bright.dev'>jobs@bright.dev</a>.
+                </>
+              }
+              namePlaceholder={'Enter name here'}
+              mailPlaceholder={'name@mail.com'}
+              textPlaceholder={'Let us know what would you like to do @ bright inventions'}
+              uploadLabel={'Upload '}
+            />
+          </CustomSectionInner>
+        </CustomSection>
+      </JobSection>
       <WrapperJobBackButton>
         <JobBackButton label='back to career' url={`${routeLinks.career}`} arrowColor='orange' />
       </WrapperJobBackButton>
