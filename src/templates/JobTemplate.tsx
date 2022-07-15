@@ -475,7 +475,7 @@ const TabletButtonWrapper = styled.div`
   right: 0;
   width: 100%;
   bottom: 0;
-  background-color: ${variables.color.primary};
+  background-color: ${variables.color.black};
 `
 const ScrollSection = styled.section``
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
@@ -543,35 +543,33 @@ export default function Template({
         </TechnologyWrapper>
       </CustomSection>
       <ScrollSection ref={ref}>
-        <div>
-          {width <= breakpoint2 &&
-            typeof window !== 'undefined' &&
-            onScreen &&
-            (width >= breakpoint && width < breakpoint2 && typeof window !== 'undefined' && onScreen ? (
-              <TabletButtonWrapper>
-                <ButtonWrapper>
-                  <Link to='#jobform'>
-                    <JobBlackButton>{page.button}</JobBlackButton>
-                  </Link>
-                </ButtonWrapper>
-              </TabletButtonWrapper>
-            ) : (
+        {width <= breakpoint2 &&
+          typeof window !== 'undefined' &&
+          onScreen &&
+          (width >= breakpoint && width < breakpoint2 && typeof window !== 'undefined' && onScreen ? (
+            <TabletButtonWrapper>
               <ButtonWrapper>
                 <Link to='#jobform'>
                   <JobBlackButton>{page.button}</JobBlackButton>
                 </Link>
               </ButtonWrapper>
-            ))}
-        </div>
-        <div>
-          {width > breakpoint2 && typeof window !== 'undefined' && (
+            </TabletButtonWrapper>
+          ) : (
             <ButtonWrapper>
               <Link to='#jobform'>
                 <JobBlackButton>{page.button}</JobBlackButton>
               </Link>
             </ButtonWrapper>
-          )}
-        </div>
+          ))}
+
+        {width > breakpoint2 && typeof window !== 'undefined' && (
+          <ButtonWrapper>
+            <Link to='#jobform'>
+              <JobBlackButton>{page.button}</JobBlackButton>
+            </Link>
+          </ButtonWrapper>
+        )}
+
         <JobImage image={image} alt={page.image_alt_job} className='about-img' />
 
         <CustomSection>
