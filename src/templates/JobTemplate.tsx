@@ -516,9 +516,8 @@ export default function Template({
   const breakpoint2 = 991
 
   const ref: any = React.useRef<HTMLDivElement>(null)
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, width > breakpoint ? '-400px' : '0px')
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
 
-  console.log(ref, 'ref')
   return (
     <Page>
       <HelmetTitleDescription title={page.title} description={page.description} />
@@ -546,8 +545,9 @@ export default function Template({
       <ScrollSection ref={ref}>
         <div>
           {width <= breakpoint2 &&
+            typeof window !== 'undefined' &&
             onScreen &&
-            (width >= breakpoint && width < breakpoint2 ? (
+            (width >= breakpoint && width < breakpoint2 && typeof window !== 'undefined' && onScreen ? (
               <TabletButtonWrapper>
                 <ButtonWrapper>
                   <Link to='#jobform'>
@@ -564,7 +564,7 @@ export default function Template({
             ))}
         </div>
         <div>
-          {width > breakpoint2 && (
+          {width > breakpoint2 && typeof window !== 'undefined' && (
             <ButtonWrapper>
               <Link to='#jobform'>
                 <JobBlackButton>{page.button}</JobBlackButton>
@@ -745,7 +745,7 @@ export const pageQuery = graphql`
         button_linkedin
         imagejob {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(quality: 100)
           }
         }
         image_recruiter_info {
