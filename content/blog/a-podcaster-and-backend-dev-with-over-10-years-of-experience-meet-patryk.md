@@ -62,3 +62,9 @@ Yes. **Not only have I changed my work but also a working model**. Before the pa
 Then I read the article that recommended picking one wearable item that would be associated only with my work. **So I bought “work slippers” that I wear only when I work. When I finish my work, I take the slippers off and this is the metaphorical way of leaving the office**. My body and mind know that the workday is over. It definitely helped me to separate work from life even if my office and home are the same places.
 
 ![Team retreat](/images/brightstory_team_retreat.png)
+
+## What have you learned since joining Bright Inventions in 2020?
+
+I have learned a lot. **I came with strong Java skills but I learned Kubernetes and Kotlin here**. Back then Kotlin was mostly associated with mobile development and not many backend devs used it. So Bright hired developers with strong Java skills so they could switch smoothly to Kotlin. It was a nice learning process because **everyone here has been really supportive and cheered each other during the learning process**. 
+
+Kotlin is a very friendly language so it was a nice experience. It’s great that **even if you are in this business for over a decade you get to still feel this excitement while learning new stuff**.
