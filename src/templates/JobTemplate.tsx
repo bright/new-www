@@ -2,7 +2,6 @@ import React, { MutableRefObject } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import ReactMarkdown from 'react-markdown'
-import { BlackButton } from '../components/about-us/about-us.styled'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
@@ -25,7 +24,6 @@ import { LinkedIn } from './../components/icons/LinkedIn.icon'
 import useOnScreen from '../components/utils/use-onscreen'
 import { clampBuilder } from './../helpers/clampBuilder'
 import { JobImage } from './job/JobImage'
-import { useWindowSize } from './../components/utils/use-windowsize'
 
 const SalaryHeading = styled.h5`
   margin: 1.5rem 0;
@@ -524,9 +522,6 @@ export default function Template({
 
   const image = getImage(page.imagejob)!
   const recruiterImage = getImage(page.image_recruiter_info)!
-  const { width } = useWindowSize()
-  const breakpoint = 580
-  const breakpoint2 = 991
 
   const ref: any = React.useRef<HTMLDivElement>(null)
   const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
