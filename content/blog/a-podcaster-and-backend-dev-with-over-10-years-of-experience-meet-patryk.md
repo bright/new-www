@@ -44,3 +44,15 @@ During that time I also started my **blog about security**. This led me to **coo
 Back then Polish online communities were really different. Smaller. I could say that then the internet was really like a global village. You were a part of it, you were trusted and no one even thought of verifying your age. **As long as you contributed to the community, you were appreciated**. Obviously now the internet is different. There are many tools that enable one to get information about internet users. Often too much information.
 
 ![](/images/brightstory_private_archive.png)
+
+## Eventually, you changed freelancing for a regular job?
+
+Right **before high school graduation, I got my first regular software development job** at a company in Gdynia. I programmed in PHP there. It was a company that was developing a price comparison website. There was a really great sharing knowledge culture there. Everyone was open to teaching fresh developers all the necessary skills.
+
+## You got a job in the IT sector but still went to college, didn't you?
+
+Yes, I went to the Polish-Japanese Academy of Information Technology in Gdańsk. **My plan was to study and work at the same time**. It turned out to be quite challenging. I worked during the week and then had classes on the weekend. There was hardly any time to relax and spend some time with friends and family. 
+
+Also, it wasn’t easy to keep motivated to study when I actually already had a job in software development. However, I did graduate after all, yet it was a busy time.
+
+## You came to Bright in the middle of the pandemic. Was it challenging to change a job in that circumstances?
