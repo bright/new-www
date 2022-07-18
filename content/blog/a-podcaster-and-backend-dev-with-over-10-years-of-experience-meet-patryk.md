@@ -73,10 +73,20 @@ Kotlin is a very friendly language so it was a nice experience. It’s great tha
 
 ## You are a host of the BrightDevTalks podcast. How did that happen?
 
-I enjoy being a backend developer but I also want to do more in the future. **I would like to guide future juniors and help them establish themselves in the IT world**. I think there are too many boot camps out there that promise a lot but give much less. 
+I enjoy being a backend developer but I also want to do more in the future. **I would like to guide future juniors and help them establish themselves in the IT world**. I think there are too many boot camps out there that promise a lot but give much less.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 I have been contributing to the community for years, writing articles, being a mentor, and more. So my podcast is just another step. I **hope that it will inspire developers, less and more experienced, to simply learn and grow every day**. 
 
 Sharing knowledge is very important to me and I know that it is in Bright Inventions’ DNA as well. Therefore we created this podcast. On BrightDevTalks I want to speak a lot about soft skills to show this other crucial side of software development that can sometimes be neglected.
 
-**The podcast is conducted in Polish. You can listen to it on Spotify or Apple Podcasts.**
+<center>
+
+<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
+
+</center>
+
+**The podcast is conducted in Polish**. You can listen to it on Spotify or Apple Podcasts.
+
+## Who is this podcast made for? Who will benefit from it the most?
