@@ -43,7 +43,7 @@ During that time I also started my **blog about security**. This led me to **coo
 
 Back then Polish online communities were really different. Smaller. I could say that then the internet was really like a global village. You were a part of it, you were trusted and no one even thought of verifying your age. **As long as you contributed to the community, you were appreciated**. Obviously now the internet is different. There are many tools that enable one to get information about internet users. Often too much information.
 
-![](/images/brightstory_private_archive.png)
+![Patryk's private photo](/images/brightstory_private_archive.png)
 
 ## Eventually, you changed freelancing for a regular job?
 
@@ -56,3 +56,9 @@ Yes, I went to the Polish-Japanese Academy of Information Technology in Gdańsk.
 Also, it wasn’t easy to keep motivated to study when I actually already had a job in software development. However, I did graduate after all, yet it was a busy time.
 
 ## You came to Bright in the middle of the pandemic. Was it challenging to change a job in that circumstances?
+
+Yes. **Not only have I changed my work but also a working model**. Before the pandemic, I believed that working at the office was the ultimate way. I thought that I would never be able to focus at home. It has been a total mind shift for me. Nowadays, I work mostly from home. However, my home office beginnings were far from perfect. **I struggled with separating my free time from office hours**. It was tempting to go back to work during the evenings and check out Slack messages because my computer and desk were next to me.
+
+Then I read the article that recommended picking one wearable item that would be associated only with my work. **So I bought “work slippers” that I wear only when I work. When I finish my work, I take the slippers off and this is the metaphorical way of leaving the office**. My body and mind know that the workday is over. It definitely helped me to separate work from life even if my office and home are the same places.
+
+![Team retreat](/images/brightstory_team_retreat.png)
