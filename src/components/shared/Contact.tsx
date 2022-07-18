@@ -15,11 +15,11 @@ import {
   RequiredMessage,
   SingleSelect,
   SubmitButton,
-  TextInput,
+  TextInput
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomPageTitle, CustomSection, CustomTextRegular } from './index.styled'
-import { trackCustomEvent } from '../../helpers/trackCustomEvent'
+import { trackConversion, trackCustomEvent } from '../../helpers/trackCustomEvent'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;
@@ -28,7 +28,7 @@ const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   padding: 0 18px;
   @media screen and (max-width: 768px) {
     padding: ${({ isOurServiceTemplate }) =>
-      isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
+            isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
   }
 `
 
@@ -80,6 +80,7 @@ const HeroSingleSelect = styled(SingleSelect)`
     max-width: 100%;
   }
 `
+
 export interface ContactProps {
   title?: string
   subtitle?: string
@@ -88,14 +89,15 @@ export interface ContactProps {
   formButton: string
   actionFormButton: string
 }
+
 export const Contact: FC<ContactProps> = ({
-  title,
-  subtitle,
-  isOurServiceTemplate = true,
-  isStartProject = false,
-  formButton,
-  actionFormButton,
-}) => {
+                                            title,
+                                            subtitle,
+                                            isOurServiceTemplate = true,
+                                            isStartProject = false,
+                                            formButton,
+                                            actionFormButton
+                                          }) => {
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
@@ -119,7 +121,7 @@ export const Contact: FC<ContactProps> = ({
 
     e.preventDefault()
     const wrapValue = (value: any) => ({
-      value,
+      value
     })
     sendMail(
       {
@@ -127,7 +129,7 @@ export const Contact: FC<ContactProps> = ({
         phone: wrapValue(phone),
         email: wrapValue(email),
         source: wrapValue(source),
-        message: wrapValue(message),
+        message: wrapValue(message)
       },
       FormType.contact
     )
@@ -142,6 +144,10 @@ export const Contact: FC<ContactProps> = ({
         setSuccess(false)
         setIsSending(false)
       })
+
+    trackConversion({
+      sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo'
+    }).then(() => console.log('Business contact form conversion sent'))
   }
 
   const closeModal = () => {
@@ -152,7 +158,7 @@ export const Contact: FC<ContactProps> = ({
     trackCustomEvent({
       category: formButton,
       action: actionFormButton,
-      label: window.location.href,
+      label: window.location.href
     })
     const isValid: boolean = checkedRules && name && email && message ? true : false
     setValid(isValid)

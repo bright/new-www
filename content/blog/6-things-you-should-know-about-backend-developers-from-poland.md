@@ -19,6 +19,8 @@ published: true
 
 The Polish software development industry, with almost €9bn in revenue, is [ranked 7th among all European Union countries](https://www.ibisworld.com/poland/industry-statistics/software-development/3595/). It has been in this position since 2017. Despite pandemic turbulences, the Polish software development industry remained strong in the top 10 of the European Union.
 
+Looking for a Polish backend company? [Let's talk about your product](/start-project).
+
 ## Polish backend developers use modern stack and tools
 
 Polish software developers are well known for their impressive programming knowledge and skills which were established thanks to a [HackerRank study](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/). 
@@ -63,10 +65,10 @@ Poland is part of the Central European Time Zone which means that **there is no 
 
 For example, the time difference between New York and Warsaw is 6 hours which makes it possible to set up daily meetings with clients and Polish devs. 
 
-## Polish backend devs are full of passion
+## Polish backend devs are experienced and full of passion
 
-![Polish backend developers](https://brightinventions.pl/static/9a665e2b85a71268e3feb3b97d206ccc/d9199/brightstory_piotr_backend_dev.png)
+![Polish backend developers](/images/blogpost_brightstory_piotr_b3.png)
 
-Polish programmers are motivated to self-develop at work but also to follow their other passions after hours. As an example, you can dive into the [story of Piotr – a backend developer](/blog/kotlin-dev-by-day-motorcyclist-by-night-meet-piotr-backend-dev-from-poland) whose passions are motorcycle racing, jogging, and more.
+Polish programmers are motivated to self-develop and follow best practices at work. As an example, you can dive into the [story of Piotr – a backend developer](/blog/piotr-team-leader-technology-evangelist) who has over 12 years of experience in software development.
 
 Are you looking for a top backend development company from Poland? You’ve come to the right place. [Let’s talk about your software solution](/start-project).

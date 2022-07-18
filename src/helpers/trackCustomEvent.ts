@@ -28,3 +28,22 @@ export function trackCustomEvent(eventProps: CustomEventProps) {
     ...rest
   })
 }
+
+
+export async function trackConversion(eventProps: { sent_to: string }) {
+  if (isProduction && !global.gtag) {
+    console.error('No gtag available. Please check gatsby-plugin-google-gtag configuration')
+  }
+  // @ts-ignore
+  const gtagFun = global.gtag ? gtag : loggingGtag
+
+  return new Promise((resolve) => {
+    gtagFun('event', 'conversion', {
+      send_to: eventProps.sent_to,
+      event_callback: resolve
+    })
+    if (!global.gtag) {
+      resolve(void 0)
+    }
+  })
+}

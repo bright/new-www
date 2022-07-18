@@ -21,4 +21,6 @@ An Agile romantic with a scientific mind and a zeal for learning. She divides he
 
 A mentor at Tech Leaders program. It is an initiative for women who want to improve their software development and project management skills. She is also a mentor in the Polish STEAM Academy program organized by Girls Code Fun Foundation.
 
+`youtube: https://youtu.be/RaUK4DP70QY`
+
 Join Kasia! [Check our career opportunities](/career).

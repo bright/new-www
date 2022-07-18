@@ -22,6 +22,8 @@ published: true
 
 [BrightTreasury](https://treasury.bright.dev?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=web3account&utm_id=content_marketing) is a web application that makes it easier to contribute to the community and receive funds for ideas developing Web3. You don't have to be a developer to use this app. The goal is to attract professionals who may not be [substrate blockchain developers](/our-areas/blockchain) but still could contribute in a significant way. These could be, for example, graphic designers, marketing specialists, or filmmakers who could get funds to promote Kusama and Polkadot communities' contributions to Web3.
 
+`youtube: https://youtu.be/AKe5HynDQnU`
+
 The basic flow to get funds via BrightTreasury consists of these steps:
 
 ![BrightTreasury's flow](/images/bright_treasury_idea_flow.png)
@@ -43,6 +45,8 @@ If you feel that your idea has a chance to receive funds, you can turn it into a
 If your proposal is approved, you will receive the cryptocurrency (Polkadot $DOT or Kusama $KSM) to make it happen.
 
 ## Login options on BrightTreasury
+
+`youtube: https://youtu.be/RJHXq6XspD4`
 
 While developing the app we had to have in mind that it is not only for [substrate blockchain enthusiasts](/blog/5-benefits-of-substrate-blockchain/). We felt that flexibility was the key. Thus, to help you enter this world we enabled two sign-up options:
 
