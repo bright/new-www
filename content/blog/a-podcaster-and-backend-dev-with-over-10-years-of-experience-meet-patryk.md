@@ -13,7 +13,7 @@ hidden: true
 comments: true
 published: true
 ---
-**Patryk got his first software job as a teenager. Now he is a backend developer with over a decade of experience. He has just started a podcast to share knowledge with other developers. What are his career beginnings? Why can’t he work without wearing slippers? Check out the story of Patryk, a Backend Developer and a host of the #brightdevtalks podcast.**
+**Patryk got his first software job as a teenager. Now he is a backend developer with over a decade of experience. He has just started a podcast to share knowledge with other developers. What are his career beginnings? Why can’t he work without wearing slippers? Check out the story of Patryk, a Backend Developer and a host of the BrightDevTalks podcast.**
 
 ![Backend Senior Developer at Bright Inventions](/images/brightstorypatrykcollage.png)
 
@@ -70,3 +70,13 @@ I have learned a lot. **I came with strong Java skills but I learned Kubernetes 
 Kotlin is a very friendly language so it was a nice experience. It’s great that **even if you are in this business for over a decade you get to still feel this excitement while learning new stuff**.
 
 ![Quote on learning Kotlin](/images/brightstory_quote_kotlin.png)
+
+## You are a host of the BrightDevTalks podcast. How did that happen?
+
+I enjoy being a backend developer but I also want to do more in the future. **I would like to guide future juniors and help them establish themselves in the IT world**. I think there are too many boot camps out there that promise a lot but give much less. 
+
+I have been contributing to the community for years, writing articles, being a mentor, and more. So my podcast is just another step. I **hope that it will inspire developers, less and more experienced, to simply learn and grow every day**. 
+
+Sharing knowledge is very important to me and I know that it is in Bright Inventions’ DNA as well. Therefore we created this podcast. On BrightDevTalks I want to speak a lot about soft skills to show this other crucial side of software development that can sometimes be neglected.
+
+**The podcast is conducted in Polish. You can listen to it on Spotify or Apple Podcasts.**
