@@ -68,3 +68,5 @@ Then I read the article that recommended picking one wearable item that would be
 I have learned a lot. **I came with strong Java skills but I learned Kubernetes and Kotlin here**. Back then Kotlin was mostly associated with mobile development and not many backend devs used it. So Bright hired developers with strong Java skills so they could switch smoothly to Kotlin. It was a nice learning process because **everyone here has been really supportive and cheered each other during the learning process**. 
 
 Kotlin is a very friendly language so it was a nice experience. It’s great that **even if you are in this business for over a decade you get to still feel this excitement while learning new stuff**.
+
+![Quote on learning Kotlin](/images/brightstory_quote_kotlin.png)
