@@ -95,8 +95,12 @@ I want to share insights that will be of value for every software developer no m
 
 Some of the episodes will be **short stories, more like anecdotes**, showing the ups and downs that I experienced during all these years in software development. Other episodes will be **interviews with inspiring folks**. Recently I talked with [Rafał who is an experienced blockchain developer who used to be a ship navigator](/blog/from-maritime-officer-to-blockchain-programmer-meet-rafal-fullstack-developer). 
 
-![Podcast episode number 2](/images/cover-_podcast_episode2.png)
+![Podcast episode number 2](/images/cover_podcast_episode2.png)
 
 I hope to push aspiring developers and more experienced ones to constantly grow. As I said in many cases junior devs, as well as seniors, start together from the scratch. For example when it comes to learning a new language. We can have similar struggles. Also, **we all need to work strongly on our soft skills** which are not always covered in university classes. **I want to focus on that as well on my podcast**.
 
 ## Based on your experience what mistakes junior backend developers should avoid?
+
+**It is impossible to avoid making mistakes**. **All of us should make them**. Mistakes aren’t made only by people who don’t do their work. Even if your bug ends up in production, it is an integral part of the learning process. Naturally, there are mistakes that cause embarrassment for years. I definitely have made some mistakes that still make me ashamed when I think of them. However, I know I will never make them again. 
+
+![quote on mistakes](/images/brightstoryquotemistake.png)
