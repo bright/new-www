@@ -5,11 +5,11 @@ tags:
   - bright story
   - backend
   - inspiration
-date: 2022-07-18T10:06:15.342Z
+date: 2022-07-18T10:57:46.960Z
 title: A podcaster and backend dev with over 10 years of experience. Meet Patryk
 layout: post
 image: /images/brightstorypatryk.jpg
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -21,13 +21,15 @@ published: true
 
 If I had done things I did 10 years ago, I would have felt like that. But I don’t. Software development changes so dynamically that **even if you started this career line 10 years ago you still have to learn new things all the time**. When it comes to learning new languages you can sometimes be at the same level as a junior developer (with a small advantage).
 
-![Quote on learning as a software developer](/images/patryk_quote_learning.png)
+![Quote on learning as a software developer](/images/patryk_quote_learning2.png)
 
 ## How has the Polish IT sector changed over this decade?
 
 A lot has changed. Technologies are just one thing, the whole sector has changed. **The Polish industry has become more and more similar to the Western one**. The ecosystem of the companies is the same. The culture and work methodologies are the same, everyone tries to follow the best practices and standards. Okay, probably I shouldn’t say everyone. 
 
 You can still find yourself at a company that is way behind. However, you have options to find Polish companies that simply are top of the top globally. It is unique about the software development world. It is not the case for many other industries in Poland. 
+
+![Patryk - Senior Backend Developer](/images/brightstorypatryk.jpg)
 
 ## How do you recall your software development beginnings?
 
@@ -103,7 +105,7 @@ I hope to push aspiring developers and more experienced ones to constantly grow.
 
 **It is impossible to avoid making mistakes**. **All of us should make them**. Mistakes aren’t made only by people who don’t do their work. Even if your bug ends up in production, it is an integral part of the learning process. Naturally, there are mistakes that cause embarrassment for years. I definitely have made some mistakes that still make me ashamed when I think of them. However, I know I will never make them again. 
 
-![quote on mistakes](/images/brightstoryquotemistake.png)
+![quote on mistakes](/images/brightstoryquotemistake2.png)
 
 ## You call yourself a petrolhead. What does it mean?
 
