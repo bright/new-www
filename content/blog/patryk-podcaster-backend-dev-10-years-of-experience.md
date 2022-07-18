@@ -29,6 +29,8 @@ A lot has changed. Technologies are just one thing, the whole sector has changed
 
 You can still find yourself at a company that is way behind. However, you have options to find Polish companies that simply are top of the top globally. It is unique about the software development world. It is not the case for many other industries in Poland. 
 
+![Patryk - Senior Backend Developer](/images/brightstorypatryk.jpg)
+
 ## How do you recall your software development beginnings?
 
 It all started thanks to my Computer Science teacher from middle school. He inspired me to dive deeply into the tech world. 
