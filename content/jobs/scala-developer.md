@@ -41,11 +41,12 @@ recruting_image3_title: programming task
 ## about the role 🧑🏻‍💻👩🏻‍💻
 
 We do not just create software, we create software that really matters in today's world. Our headquarters is located in Gdańsk, but we have teammates distributed across Poland. We believe in a high level of autonomy as well as personal responsibility, so remote working arrangements are common and possible. We're happy to discuss all the details during the recruiting process.
-Now we are looking for a skilled Scala Developer whose main goal will be building and enhancing an innovative security platform for one of our clients from Israel. We appreciate a person who has experience with Scala, understands the business side of the project and is able to lead technical discussions with partners and customers. 
 
-**about the project** 🚀🚀🚀
+Now we are looking for **a skilled Scala Developer whose main goal will be building and enhancing an innovative security platform for one of our clients from Israel.** We appreciate a person who has experience with Scala, understands the business side of the project and is able to lead technical discussions with partners and customers. 
 
-The application is a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis. It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch.  
+## about the project 🚀🚀🚀
+
+The application is **a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch.  
 
 ## your job will include 🙌
 
@@ -57,11 +58,10 @@ The application is a new next generation passwordless authentication service tha
 
 ## preferred skills and qualifications ✅
 
-* at least 5 years of experience in backend development
-* experience with complex system design
-* experience with a high level programming language such as Scala or Java/Kotlin (only if you would like to switch)*
-* familiarity with AWS or other Cloud providers
-* experience with web security and identity management
+* **at least 5 years of experience in backend development**
+* experience with complex system design and web security 
+* experience with a high level programming language such as Scala or Java/Kotlin (only if you would like to switch)
+* familiarity with **AWS or other Cloud providers**
 * experience with observability and continuous delivery tools (e.g. Prometheus, Jenkins)
 * experience with databases, in particular SQL-like, MongoDB, Redis
 * very good communication skills both in English and Polish
