@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-**Child bounties are a new funding mechanism treasury module on Polkadot and Kusama blockchain networks. Thanks to it you can divide a bounty into smaller chunks – child bounties. We’ve just released child bounties on [BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=tip&utm_id=content_marketing) app and would like to share with you child bounty docs for Kusama and Polkadot.**
+**Child bounties are a new funding mechanism treasury module on Polkadot and Kusama blockchain networks. Thanks to it you can divide a bounty into smaller chunks – child bounties. We’ve just released child bounties on [BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=child_bounties&utm_id=content_marketing) app and would like to share with you child bounty docs for Kusama and Polkadot.**
 
 ## Child bounties on Polkadot & Kusama – how they work and use case example
 
