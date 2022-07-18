@@ -104,3 +104,17 @@ I hope to push aspiring developers and more experienced ones to constantly grow.
 **It is impossible to avoid making mistakes**. **All of us should make them**. Mistakes aren’t made only by people who don’t do their work. Even if your bug ends up in production, it is an integral part of the learning process. Naturally, there are mistakes that cause embarrassment for years. I definitely have made some mistakes that still make me ashamed when I think of them. However, I know I will never make them again. 
 
 ![quote on mistakes](/images/brightstoryquotemistake.png)
+
+## You call yourself a petrolhead. What does it mean?
+
+It means that I want to drive anything that has an engine. 😀 Cars, motorcycles – anything with a motor. I am not a car mechanic but I am deeply interested in what’s under the hood. 
+
+<center>
+
+![Patryk's passions](/images/patryk_petrolhead.png)
+
+</center>
+
+## Do you have a dream car that you would like to own?
+
+There are so many great cars that it is hard to limit myself to only one. My favorite models are changing too fast so this question is difficult to answer. 🙂 I can say that my favorite brand is BMW.
