@@ -87,7 +87,7 @@ Sharing knowledge is very important to me and I know that it is in Bright Invent
 
 </center>
 
-**The podcast is conducted in Polish**. You can listen to it on Spotify or Apple Podcasts.
+**The podcast is conducted in Polish**. You can listen to it on [Spotify](https://open.spotify.com/show/1xrG8BF4Niv5uIzHvIn79q) or [Apple Podcasts](https://podcasts.apple.com/us/podcast/brightdevtalks/id1625829267).
 
 ## Who is this podcast made for? Who will benefit from it the most?
 
