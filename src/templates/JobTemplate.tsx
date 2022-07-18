@@ -132,7 +132,7 @@ const JobBlackButton = styled(Button)`
     border: 1px solid ${variables.color.primary};
   }
 
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tablet} {
     width: 100%;
     text-align: center;
     margin: 0;
@@ -286,7 +286,7 @@ const ButtonWrapper = styled.div`
     opacity: 1;
   }
 
-  @media ${variables.device.mobile} {
+  @media ${variables.device.tablet} {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -556,26 +556,7 @@ export default function Template({
         </TechnologyWrapper>
       </CustomSection>
       <ScrollSection ref={ref}>
-        {width <= breakpoint2 &&
-          typeof window !== 'undefined' &&
-          onScreen &&
-          (width >= breakpoint && width < breakpoint2 && typeof window !== 'undefined' && onScreen ? (
-            <TabletButtonWrapper>
-              <ButtonWrapper>
-                <Link to='#jobform'>
-                  <JobBlackButton>{page.button}</JobBlackButton>
-                </Link>
-              </ButtonWrapper>
-            </TabletButtonWrapper>
-          ) : (
-            <ButtonWrapper>
-              <Link to='#jobform'>
-                <JobBlackButton>{page.button}</JobBlackButton>
-              </Link>
-            </ButtonWrapper>
-          ))}
-
-        {width > breakpoint2 && typeof window !== 'undefined' && (
+        {onScreen && (
           <ButtonWrapper>
             <Link to='#jobform'>
               <JobBlackButton>{page.button}</JobBlackButton>
