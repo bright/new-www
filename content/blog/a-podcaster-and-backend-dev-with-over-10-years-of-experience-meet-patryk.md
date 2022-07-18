@@ -5,7 +5,7 @@ tags:
   - bright story
   - backend
   - inspiration
-date: 2022-07-18T09:35:23.890Z
+date: 2022-07-18T10:06:15.342Z
 title: A podcaster and backend dev with over 10 years of experience. Meet Patryk
 layout: post
 image: /images/brightstorypatryk.jpg
