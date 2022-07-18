@@ -42,3 +42,5 @@ During that time I also started my **blog about security**. This led me to **coo
 ## As a teenager, you already were a column author and spokesman. That’s impressive. Your age wasn’t an obstacle?
 
 Back then Polish online communities were really different. Smaller. I could say that then the internet was really like a global village. You were a part of it, you were trusted and no one even thought of verifying your age. **As long as you contributed to the community, you were appreciated**. Obviously now the internet is different. There are many tools that enable one to get information about internet users. Often too much information.
+
+![](/images/brightstory_private_archive.png)
