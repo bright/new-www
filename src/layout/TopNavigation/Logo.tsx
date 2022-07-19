@@ -19,6 +19,7 @@ export const Logo: React.FC = () => {
         src='../../../static/images/bright_inventions_logo_500-01.png'
         loading='eager'
         backgroundColor='#ffffff'
+        placeholder='none'
       />
     </Link>
   )
