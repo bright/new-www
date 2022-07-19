@@ -106,7 +106,7 @@ const RecruitingProcessWrappers = styled.div`
     padding: 0;
   }
   @media ${variables.device.mobile} {
-    padding: 0 0.5rem;
+    padding: 0;
   }
 `
 const JobBlackButton = styled(Button)`
