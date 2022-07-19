@@ -178,10 +178,9 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         action: 'Click Submit Recruitment Form',
         label: window.location.href
       })
-      const validLinkedinUrlRegex = RegExp(
-        /((https?:\/\/)?((www|\w\w)\.)?linkedin\.com\/)((([\w]{2,3})?)|([^\/]+\/(([\w|\d-&#?=])+\/?){1,}))$/gm
-      )
-      const isValidLinkedin = validLinkedinUrlRegex.test(data.message ?? '')
+      const isValidLinkedin = (data.message ?? '').startsWith('https://www.linkedin.com/') ||
+        (data.message ?? '').startsWith('http://www.linkedin.com/') ||
+        (data.message ?? '').startsWith('https://linkedin.com/')
 
       event.preventDefault()
       if (selectedAttachment === 'cv' && !data.attachments.length) {
