@@ -1,39 +1,38 @@
 import { useCallback, useState } from 'react'
-import { FormType, sendMail } from '../../../helpers/mail'
+import { FormType, JobFormData, sendMail } from '../../../helpers/mail'
 
 export function useApplicationForm() {
   const [value, setValue] = useState({
     name: '',
     email: '',
     message: '',
-    cv: null,
     policy: false,
-    source: '',
     isError: false,
     isSubmitted: false,
     isSending: false,
     linkedinlink: '',
+    attachments: [] as File[]
   })
-  const handleSubmit = (event: Event, data: any) => {
+  const handleSubmit = (event: Event, data: JobFormData) => {
     setValue(state => ({
       ...state,
-      isSending: true,
+      isSending: true
     }))
     event.preventDefault()
-    data.source = window.location.href
-    handleSendMail(data)
+    sendMail(data, FormType.job)
       .then(res => {
         setValue(state => ({
           ...state,
           isSubmitted: true,
-          isSending: false,
+          isSending: false
         }))
       })
       .catch(err => {
+        console.error('Error submitting job application', err)
         setValue(state => ({
           ...state,
           isError: true,
-          isSending: false,
+          isSending: false
         }))
       })
   }
@@ -41,7 +40,7 @@ export function useApplicationForm() {
   const setIsSubmitedToFalse = () => {
     setValue(state => ({
       ...state,
-      isSubmitted: false,
+      isSubmitted: false
     }))
   }
 
@@ -51,47 +50,70 @@ export function useApplicationForm() {
       event.target.type === 'checkbox'
         ? event.target.checked
         : event.target.type === 'file'
-        ? event.target.files
-        : event.target.value
+          ? event.target.files
+          : event.target.value
 
     if (event.target.name == 'clearCv') {
       setValue(state => ({
         ...state,
-        cv: null,
+        cv: null
       }))
     } else {
       setValue(state => {
         return {
           ...state,
-          [event.target.name]: value,
+          [event.target.name]: value
         }
       })
     }
   }, [])
+
+  function setAttachments(files: File[]) {
+    setValue({
+      ...value,
+      attachments: files
+    })
+  }
+
+  function setEmail(email: string) {
+    setValue({
+      ...value,
+      email
+    })
+  }
+
+  function setName(name: string) {
+    setValue({
+      ...value,
+      name
+    })
+  }
+
+  function setLinkedinUrl(url: string) {
+    setValue({
+      ...value,
+      message: url
+    })
+  }
+
+  function removeAttachmentAtIndex(indexToRemove: number) {
+    if (indexToRemove < value.attachments.length) {
+      setValue({
+        ...value,
+        attachments: value.attachments.filter((_, ix) => ix !== indexToRemove)
+      })
+    }
+  }
+
   return {
     value,
     handleChange,
     handleSubmit,
     setIsSubmitedToFalse,
+    setAttachments,
+    setEmail,
+    setName,
+    setLinkedinUrl,
+    removeAttachmentAtIndex
   }
-}
-
-function handleSendMail(data: Record<string, any>) {
-  const _data = Object.entries(data)
-    .map(([key, value]: [string, any]) => {
-      const isFile = value instanceof FileList
-      return {
-        key,
-        value: isFile ? value[0] : value,
-        fileName: isFile ? value[0].name : undefined,
-      }
-    })
-    .reduce(
-      (object, field) => ({
-        ...object,
-        [field.key]: { value: field.value, fileName: field.fileName },
-      }),
-      {}
-    )
-  return sendMail(_data, FormType.job)
 }

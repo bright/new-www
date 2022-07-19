@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { ChangeEvent, SyntheticEvent, useCallback, useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { TextField } from '../fields/text-field'
 import { Form } from './job-application-form.styled'
@@ -15,6 +15,7 @@ import { CustomTextRegular } from '../../shared'
 import variables from '../../../styles/variables'
 import { trackCustomEvent } from '../../../helpers/trackCustomEvent'
 import { FlexWrapper } from './../../shared/index'
+import { JobFormData } from '../../../helpers/mail'
 
 export interface FormProps {
   nameLabel?: string
@@ -59,6 +60,7 @@ const Label = styled.label`
   line-height: ${variables.pxToRem(24)};
   font-weight: 600;
   gap: ${variables.pxToRem(20)};
+
   input[type='radio'] {
     /* Add if not using autoprefixer */
     -webkit-appearance: none;
@@ -78,6 +80,7 @@ const Label = styled.label`
     display: grid;
     place-content: center;
     cursor: pointer;
+
     &::before {
       content: '';
       width: 20px;
@@ -87,21 +90,25 @@ const Label = styled.label`
       transition: 120ms transform ease-in-out;
       background: #f7931e 0% 0% no-repeat padding-box;
     }
+
     &:checked {
       border: 1px solid #f7931e;
       color: #0a0a0a;
       opacity: 1;
     }
+
     & :checked::before {
       transform: scale(1);
     }
   }
+
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(16)};
     line-height: ${variables.pxToRem(19)};
     input[type='radio'] {
       width: 34.43px;
       height: 34.43px;
+
       &::before {
         width: 17.21px;
         height: 17.21px;
@@ -111,7 +118,17 @@ const Label = styled.label`
 `
 
 export const JobApplicationForm: React.FC<FormProps> = props => {
-  const { value, handleChange, handleSubmit, setIsSubmitedToFalse } = useApplicationForm()
+  const {
+    value,
+    handleChange,
+    handleSubmit,
+    setIsSubmitedToFalse,
+    setAttachments,
+    setEmail,
+    setName,
+    setLinkedinUrl,
+    removeAttachmentAtIndex
+  } = useApplicationForm()
   const [errorMsgValidation, setErrorMsgValidation] = useState<string>('')
   const [selectedAttachment, setSelectedAttachment] = useState<string>('cv')
 
@@ -120,30 +137,54 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     namePlaceholder,
     mailLabel,
     mailPlaceholder,
-    textLabel,
-    textPlaceholder,
     uploadLabel,
-    onSubmit,
+    onSubmit
   } = props
+
+  useEffect(() => {
+    console.debug('value=', value)
+  }, [value])
+
+  const onCVInputChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+    const files = Array.from(event.target.files || [])
+    setAttachments(value.attachments.concat(files))
+  }, [setAttachments])
+
+  const onEmailChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+    setEmail(event.target.value)
+  }, [setEmail])
+
+  const onNameChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+    setName(event.target.value)
+  }, [setName])
+
+  const onLinkedinUrlChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+    setLinkedinUrl(event.target.value)
+  }, [setLinkedinUrl])
+
+  const onRemoveAttachmentAtIndexClicked = useCallback((event: MouseEvent, index: number) => {
+    event.preventDefault()
+    removeAttachmentAtIndex(index)
+  }, [removeAttachmentAtIndex])
 
   const closeModal = () => {
     setIsSubmitedToFalse()
   }
 
   const submit = useCallback(
-    (event, data) => {
+    (event, data: JobFormData) => {
       trackCustomEvent({
         category: 'Recruitment Contact Form Button',
         action: 'Click Submit Recruitment Form',
-        label: window.location.href,
+        label: window.location.href
       })
       const validLinkedinUrlRegex = RegExp(
         /((https?:\/\/)?((www|\w\w)\.)?linkedin\.com\/)((([\w]{2,3})?)|([^\/]+\/(([\w|\d-&#?=])+\/?){1,}))$/gm
       )
-      const isValidLinkedin = validLinkedinUrlRegex.test(data.message)
+      const isValidLinkedin = validLinkedinUrlRegex.test(data.message ?? '')
 
       event.preventDefault()
-      if (selectedAttachment === 'cv' && !data.cv) {
+      if (selectedAttachment === 'cv' && !data.attachments.length) {
         setErrorMsgValidation('Please upload document to submit your application.')
         setTimeout(() => {
           setErrorMsgValidation('')
@@ -173,6 +214,9 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     const { value } = event.target
 
     setSelectedAttachment(value)
+    if (value !== 'cv') {
+      setAttachments([])
+    }
   }
 
   return (
@@ -184,7 +228,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
             label={nameLabel || 'Name'}
             placeholder={namePlaceholder || 'John Doe'}
             value={value.name}
-            onChange={handleChange}
+            onChange={onNameChange}
             name='name'
           />
           <TextField
@@ -192,7 +236,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
             label={mailLabel || 'Email'}
             placeholder={mailPlaceholder || 'example@email.com'}
             value={value.email}
-            onChange={handleChange}
+            onChange={onEmailChange}
             name='email'
             type='email'
           />
@@ -226,8 +270,9 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
             <div>
               <p>Upload your resume / CV / portfolio (PDF file)</p>
               <UploadField
-                onChange={handleChange}
-                accept='application/pdf'
+                onChange={onCVInputChange}
+                accept='application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, image/*'
+                multiple
                 name='cv'
                 onClick={e => (e.target.value = null)}
               >
@@ -242,20 +287,21 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
               label={nameLabel || 'Paste link to your LinkedIn profile here'}
               placeholder={'Paste here'}
               value={value.message}
-              onChange={handleChange}
+              onChange={onLinkedinUrlChange}
               name='message'
+              type='url'
             />
           )}
 
           <div>
-            {value.cv && (
-              <AttachmentUploaded>
-                <span>{value.cv[0].name}</span>{' '}
-                <button onClick={handleChange} name='clearCv'>
+            {value.attachments.map((attachment, ix) => (
+              <AttachmentUploaded key={ix}>
+                <span>{attachment.name}</span>{' '}
+                <button onClick={(e) => onRemoveAttachmentAtIndexClicked(e, ix)}>
                   x
                 </button>
               </AttachmentUploaded>
-            )}
+            ))}
           </div>
           {errorMsgValidation && <ErrorMessage>{errorMsgValidation}</ErrorMessage>}
         </div>
