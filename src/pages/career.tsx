@@ -7,22 +7,19 @@
 import React from 'react'
 
 import { Page } from '../layout/Page'
+import loadable from '@loadable/component'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import { PageTitle, Section } from '../components/shared'
 import WhatWePractice from './career/_WhatWePractice'
-import HeaderImages from './career/_HeaderImages'
+const HeaderImages = loadable(() => import('./career/_HeaderImages'))
 import Description from './career/_Description'
 import Offers from './career/_Offers'
-import RecruitingProcess from './career/_RecruitingProcess'
 import OurWork from './career/_OurWork'
 import Benefits from './career/_Benefits'
 import Traits from './career/_Traits'
 import Form from './career/_Form'
-import { CustomContainer } from '../components/shared/index.styled'
 import styled from 'styled-components'
 import variables from '../styles/variables'
-import { TechnologyTags } from '../components/shared/TechnologyTags'
-import { useWindowSize } from '../components/utils/use-windowsize'
 
 export const SectionCareerTitle = styled(Section)`
   padding: 3rem 2rem 3rem 2rem;
@@ -68,7 +65,6 @@ const CareerPage: React.FC = () => {
 
       <Description />
       <Offers />
-      <RecruitingProcess />
 
       <WhatWePractice />
       <OurWork />
