@@ -195,7 +195,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           setErrorMsgValidation('')
         }, 5000)
         return
-      } else if (selectedAttachmenUt === 'linkedin' && data.message && !isValidLinkedin) {
+      } else if (selectedAttachment === 'linkedin' && data.message && !isValidLinkedin) {
         setErrorMsgValidation('Please submit the  valid link to your LinkedIn profile.')
         setTimeout(() => {
           setErrorMsgValidation('')
