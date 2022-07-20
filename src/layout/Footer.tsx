@@ -22,7 +22,7 @@ const FooterWrapper = styled.footer`
       flex-basis: auto;
     }
   }
-  && .column.is-hidden {
+  && .column.hidden {
     display: block;
     @media ${variables.device.tablet} {
       display: none;
@@ -61,7 +61,7 @@ export const Footer = () => {
             </a>
           </div> */}
 
-          <div className={classNames('column is-hidden', styles.links)}>
+          <div className={classNames('column hidden', styles.links)}>
             <h6 className='subtitle is-size-6 has-text-weight-bold'>explore more</h6>
             <p className='content'>
               <Link to={routeLinks.aboutUs()}>about us</Link>
@@ -80,7 +80,7 @@ export const Footer = () => {
             </p>
           </div>
 
-          <div className={classNames('column is-hidden', styles.links)}>
+          <div className={classNames('column hidden', styles.links)}>
             <h6 className='subtitle is-size-6 has-text-weight-bold'>services</h6>
             <p className='content'>
               <Link to={routeLinks.webDevelopment}>web development</Link>
