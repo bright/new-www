@@ -28,7 +28,11 @@ export async function sendMail(
       if (data.hasOwnProperty(key)) {
         const element = data[key]
 
-        formData.append(key, element.value, element.fileName)
+        if (element.fileName) {
+          formData.append(key, element.value, element.fileName)
+        } else {
+          formData.append(key, element.value)
+        }
       }
     }
 
