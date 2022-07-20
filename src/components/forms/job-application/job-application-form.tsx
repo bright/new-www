@@ -195,7 +195,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           setErrorMsgValidation('')
         }, 5000)
         return
-      } else if (selectedAttachment === 'linkedin' && data.message && !isValidLinkedin) {
+      } else if (selectedAttachmenUt === 'linkedin' && data.message && !isValidLinkedin) {
         setErrorMsgValidation('Please submit the  valid link to your LinkedIn profile.')
         setTimeout(() => {
           setErrorMsgValidation('')
@@ -267,7 +267,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         <div>
           {selectedAttachment == 'cv' && (
             <div>
-              <p>Upload your resume / CV / portfolio (PDF file)</p>
+              <p>Upload your resume / CV / portfolio</p>
               <UploadField
                 onChange={onCVInputChange}
                 accept='application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, image/*'
