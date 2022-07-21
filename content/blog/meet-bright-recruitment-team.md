@@ -1,0 +1,88 @@
+---
+author: ula
+secondAuthor: paulina-t
+thirdAuthor: agata-m
+date: 2022-07-21T05:12:27.820Z
+title: "Meet Bright Recruitment Team "
+layout: post
+hidden: false
+comments: true
+published: true
+---
+Recruiting success is not necessarily a measure of the volume of candidates obtained. Successful recruiting teams are able to quickly identify the candidates that are most likely to make a positive impact to an organization. It requires  much more than looking beyond a candidate’s credentials or CV. 
+
+Today we would like to present to you our bright recruiters - Agata, Paulina and Ula who on daily basis take care of our recruiting process and talk with dozens of candidates to check if our company is a unique and desirable place for them. We asked them a few questions so that you can get to know them a bit better. 
+
+## How do you recall your own recruitment process at Bright Inventions?
+
+**Agata:** I remember my recruitment process really good - not only because of that I was hired. :) . From the very beginning, Ula presented the steps of the entire recruitment process in detail, thanks to which I knew what happened next. That was really helpful. When it comes to the interview, it was very pleasant because it was a real conversation and not a Q&A. (It surprised me.)
+
+**Paulina:** I recall it as engaging, but with very positive impressions after all. From the very beginning, I felt that I was actively listened to, and my honest, transparent and sometimes unconventional answers were met with respect and full understanding. It was this kind of process I would want to offer to candidates as a recruiter myself. It gave me additional confidence that the role I was applying for was aligned with my own life values.
+
+**Ula:** It was very smooth, concise and positive. I had an interview with Michał and Daniel, the founders of Bright Inventions. I think we got on well with each other from a few first minutes. They were super friendly, full of engagement and enthusiasm - the image of boss many people may dream of. I had done some analysis of the brand before we met, so I had a ready plan-to-do in my mind.
+
+![](/images/brightdev.png)
+
+## Why did you decide to join Bright Team?
+
+**Agata:** I applied for the position of junior recruitment specialist. I felt good energy and professional approach during the interview so my 1st thought was that Bright is the right place for me to take the first steps in my career. Moreover, people on Bright social media also looked positive, and this visible spirit sport - I realized immediately that it is a great place for me. :)\
+\
+**Paulina:** From the very beginning of my career, I felt that the role of a recruiter is not just a stereotypical testing of a candidate's skills with an inherent element of stress. I know from my own experience how uncomfortable and, most importantly, how unprofessional and disrespectful it is. When I got to know the values of Bright Team, I felt that in such environment I could be simply myself and fulfill my beliefs. The recruitment meeting with Ula - my former recruiter and current leader - was just a real confirmation of my assumptions. 
+
+**Ula:** I saw there a big spacer to implement my marketing and EB ideas. The brand was not recognisable. It was just a fresh start. I am always saying that it was almost like a blank page and I really wanted to colour that page.
+
+![Agata Recruiting Specialist](/images/agata_rekru_team.jpg)
+
+## Why did you choose a recruiter's path career?
+
+**Agata:** I like the fact that thanks to my work I can meet many interesting and ambitious people. I always wanted to be in a place where I would have a real impact on the development of myself, the company, and be able to contribute to the professional development of others. I think that being a recruiter I will get it.  :)\
+\
+**Paulina:** The role of a recruiter is related to my psychology background. Academic experiences directed my skills and mindset as analytical and human-centered, which was only a formal confirmation of my prior self cognition. I have always found myself in the role of an active listener and it has given me pure joy and satisfaction. As additional confirmation of this hypothesis, I noticed in my callers a sense of listening, often a relief. I recognized this fact as my strength and decided to use it in my professional career:).
+
+**Ula:** I think this career chose me. When I was studying English philology and then marketing I didn’t think about being a recruiter. Two things I knew was that I wanted to work with people and take part in a creation process. During studies I started also my job in language school and discovered my talent for teaching and at the same time coaching. After a few years in pure marketing it struck me that recruiter’s path may be one of a few I can follow. I love being a recruiter, but it is not the only area that I am consuming right now. 
+
+![Paulina Recruiting Team ](/images/paulina_rekru_team.jpg)
+
+## What do you like most about your job?
+
+**Agata:** I like the moment when new people, after a few weeks of work, say that they are satisfied and happy where they are. It motivates me a lot to work harder, and new employee’s contentment is such like a reward for me. :)
+
+**Paulina:** While many single aspects come to my mind, the biggest gratitude I feel when I know or observe from a candidate's behavior that he/she simply feels comfortable in my presence, that feels listened to and treated with due respect. I feel best when I know that my candidate made a bond with me, got an added value from the hiring process, and felt that he or she and his/her story was unique and one of a kind for me. 
+
+**Ula:** The fact that I can meet dozens of interesting people and get to know their perspective of looking at the world. Every person is a new experience. It teaches my something new. The structure of the recruitment process is well-organised and quite repetitive, but people are not. You can ask the same questions, but every time you get different answers. Every person that I meet makes me a better recruiter. 
+
+![Ula Recruiting Team ](/images/ula_rekru_team-1-.jpg)
+
+## Is there any (memorable, non-standard) recruitment experience you remember till today?
+
+**Agata:** I can give an example of the conversation before the whole recruitment process. One of my candidates could not call me because he was on holiday, so I told him that we could go back to the conversation after his trip and wished him a good rest. I also added that he would send some photos from the holidays (that was a joke). The funny thing was that I got a few pictures a week of this trip ex. sunset or sea. That was so nice, and I was really surprised.\
+\
+**Paulina:** There would be a bit of that, but the first story that comes to my mind is a pandemic interview with a developer who was wearing sunglasses, a short-sleeved shirt with holiday flowers and an exotic-oceanic backdrop at Google Meet the entire time:).
+
+ **Ula:** The fact that I can meet dozens of interesting people and get to know their perspective of looking at the world. Every person is a new experience. It teaches my something new. The structure of the recruitment process is well-organised and quite repetitive, but people are not. You can ask the same questions, but every time you get different answers. Every person that I meet makes me a better recruiter. 
+
+## What is you advice for potential applicants?
+
+**Agata:** Firstly: Be yourself. Secondly: Take the recruitment process seriously. Book enough time and sit in a quiet place where you can talk freely. Thirdly: Be honest. We are very transparent with you  -  also be like that with us. 
+
+**Paulina:** Get to know the real you:) Tell me straight to the point what is in your soul, what you need, what you want to change in your life - I'm here to listen to you. All these elements are extremely important to me, because thanks to them you allow me to verify whether the role we are talking about is able to meet your expectations. Recruitment is a two-way transaction, so don't be afraid to ask me anything - I'm here to make sure that you can learn as much as possible about all aspects of working in our team, so that I as a recruiter can be sure that you are confident and ready to take on a new challenge. Also, if you feel like joking with me and having a little fun, I'll be more than happy to! After all, we are talking about something super cool, which is working together every day, so let's get to know each other as regular people too!;)
+
+**Ula:** Ask as many questions as you can from the very beginning. You should be sure that the offer you are going to accept is the one that will make you happy. Do not look at job offers only through the prism of salary ranges. Money is important, but there are some other key aspects  worth keeping in mind - your future team, project, level of independence and responsibility, even tech stack.\
+\
+Choose wisely and respect the other’s side time. Do not take part in the recruitment process if you feel that a role, offer or company a recruiter is telling you about, is not for you.
+
+## How do you learn? How do you stay up-to-date with IT industry?
+
+**Agata:** Mostly, I am looking for information about IT Recruitment. I participate in webinars, read blogs, and listen to podcasts. I also watch tutorial videos for developers to get closer to these topics and learn more about technologies and programming languages.
+
+**Paulina:** In addition to the strictly HR knowledge contained in webinars, blogs, authority profiles on LinkedIn, industry books, or conferences, I try to expand my knowledge in the area of daily developers' work. So I read Uncle Bob, talk to developers, participate in initiatives for developers both inside and outside of my team, ask my teammates (and my husband;)) silly technical questions - summing up, try to be close and immerse myself in the specifics of this profession, learn about the daily challenges in the programming world as much as I can.
+
+**Ula:** Reading, listening, talking with people. :)  If it comes to tech insights, I have a great development team here and I love my IT guys. They are always supportive and are able to explain to me even the most complex programming issues. When I joined the company I also started an intensive internal development course run by the best bright experts in the market. :)
+
+## Do you have any motto that you really like? 
+
+**Agata:** *Letting go also becomes a habit.* It always motivates me to undertake even learning difficult things and not postpone anything until later.
+
+**Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)\
+\
+**Ula:**
