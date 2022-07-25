@@ -30,7 +30,14 @@ const Offers: React.FC = () => {
   const [showAll, setShowAll] = useState(false)
 
   return (
-    <CustomSection id='open-positions'>
+    <CustomSection
+      id='open-positions'
+      paddingProps='2rem 15rem 11.625rem'
+      paddingLaptop='0rem 6rem 7.25rem'
+      paddingTabletXL='0rem 9rem 7.25rem'
+      paddingTablet='2rem 1.125rem 7.25rem'
+      paddingMobileProps='2rem 1.125rem 4rem'
+    >
       <ParagraphHeader>job offers</ParagraphHeader>
 
       <OffersList jobs={createJobs(useStaticQuery(jobsQuery))} />
