@@ -13,10 +13,11 @@ salary_max: 26000
 working time: full time
 technology:
   - Scala
-  - Java
-  - CI/CD
-  - web security
+  - Akka
+  - Akka HTTP
+  - Web security
   - AWS
+  - MongoDB
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -62,6 +63,7 @@ The application is **a new next generation passwordless authentication service t
 * **at least 5 years of experience in backend development**
 * experience with complex system design and web security 
 * experience with a high level programming language such as Scala or Java/Kotlin (only if you would like to switch)
+* expercience with **Akka and Akka HTTP**
 * familiarity with **AWS or other Cloud providers**
 * experience with observability and continuous delivery tools (e.g. Prometheus, Jenkins)
 * experience with databases, in particular SQL-like, MongoDB, Redis

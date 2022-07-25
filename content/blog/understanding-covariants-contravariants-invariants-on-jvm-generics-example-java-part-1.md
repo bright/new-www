@@ -27,7 +27,7 @@ When working with types we might hear words like “covariant”, “contravaria
 
 - - -
 
-### Covariance
+## Covariance
 
 Let’s consider two classes written in Java
 
@@ -92,7 +92,7 @@ processAnimals(dogs);
 
 Both snippets are completely correct from a compilation perspective. 
 
-### Contravariance
+## Contravariance
 
 What if we would like to pass supertype of `T` to some collection or method? Let’s go back to our Animals and Dogs example.
 
@@ -135,7 +135,7 @@ List<Animal> animals = new ArrayList<>();
 processDogs(animals);
 ```
 
-### Invariance
+## Invariance
 
 The third situation which might happen is the case in which for our generic type `K<T>` there is no subtyping relation either way. Again, by definition, there are two conditions that need to be satisfied:
 
@@ -158,7 +158,7 @@ List<Dog> dogs = animals; // compilation error
 
 Voila, also a compilation error! This means that the following generic type is **invariant**.
 
-### Summary
+## Summary
 
 Covariance, Contravariance, and Invariance might sound scary at first glance, however, they can be easily explained by looking at generics in Java. It is worth mentioning that the presented behavior is related to *type erasure* in Java Generics which in short means that our types only live in compilation time and are wiped out in runtime. This design decision has many other (sometimes unwanted) consequences which deserve a dedicated article.
 
