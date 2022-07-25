@@ -1,10 +1,9 @@
 import React, { useMemo, useRef } from 'react'
 import styled from 'styled-components'
 
-import { SectionBlack } from '../../components/shared'
+import { FlexWrapper, SectionBlack } from '../../components/shared'
 import { CustomSectionTitle } from '../../components/shared/index.styled'
 import variables from '../../styles/variables'
-import { clampBuilder } from '../../helpers/clampBuilder'
 
 const PracticeSectionBlack = styled(SectionBlack)`
   padding: 2rem 15rem 6rem 15rem;
@@ -39,24 +38,26 @@ const PracticeTitle = styled(CustomSectionTitle)`
     font-size: 1.375rem;
   }
 `
-const Column = styled.div`
-  margin-bottom: 5.8rem;
-  &:nth-of-type(n + 4) {
-    margin-bottom: 0;
-  }
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5.8rem;
   figure {
+    display: flex;
+    justify-content: center;
     img {
       height: 100%;
       max-height: 5.5rem;
     }
   }
   p {
-    display: block;
     width: 70%;
     margin: 0 auto;
     padding-top: 2rem;
     font-size: 1.375rem;
+    text-align: center;
+    flex-grow: 1;
     @media ${variables.device.laptop} {
       font-size: 1.25rem;
       width: 100%;
@@ -69,32 +70,16 @@ const Column = styled.div`
       width: 100%;
     }
   }
-  @media ${variables.device.tablet} {
-    margin-bottom: 3.375rem;
-    width: 50% !important;
-    flex: none;
-    &:nth-of-type(n + 4) {
-      margin-bottom: 3.375rem;
-    }
+`
+const PracticeFlexWrapper = styled(FlexWrapper)`
+  flex-basis: calc(100% / 3);
+  @media ${variables.device.tabletXL} {
+    flex-basis: calc(100% / 2);
   }
   @media ${variables.device.mobile} {
-    width: 100% !important;
-    margin: auto;
-    margin-bottom: 3.375rem;
-
-    &:nth-of-type(n + 4) {
-      margin-bottom: 3.375rem;
-    }
+    flex-basis: 100%;
   }
 `
-const Columns = styled.div`
-  @media ${variables.device.tablet} {
-    && .columns {
-      display: flex;
-    }
-  }
-`
-
 const WhatWePractice: React.FC = () => {
   const blocks = useMemo(
     () => [
@@ -111,17 +96,16 @@ const WhatWePractice: React.FC = () => {
   return (
     <PracticeSectionBlack>
       <PracticeTitle>what we practice</PracticeTitle>
-
-      <Columns className='columns is-multiline'>
+      <Wrapper>
         {blocks.map(block => (
-          <Column key={block.title} className='column is-one-third has-text-centered'>
-            <figure className='image is-inline-block'>
+          <PracticeFlexWrapper desktopDirection='column' desktopContent='center' key={block.title}>
+            <figure>
               <img src={block.image} alt={block.title} />
             </figure>
             <p>{block.title}</p>
-          </Column>
+          </PracticeFlexWrapper>
         ))}
-      </Columns>
+      </Wrapper>
     </PracticeSectionBlack>
   )
 }
