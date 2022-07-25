@@ -3,15 +3,17 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
+import { clampBuilder } from './../../helpers/clampBuilder'
 
 const SlideWrapper = styled.div`
   display: flex;
   gap: 48px;
   flex-direction: column;
+  justify-content: center;
   border: 1px solid #dbdbdb;
   opacity: 1;
-  min-height: 420px;
-  padding: 7px 139px 25px;
+  min-height: 516px;
+  padding: 7px ${clampBuilder(581, 992, 38, 139)} 25px;
   & p {
     text-align: center;
     font: normal normal 900 18px/22px Montserrat;
