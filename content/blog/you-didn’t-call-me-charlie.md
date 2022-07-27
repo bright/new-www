@@ -5,33 +5,36 @@ tags:
   - developer
   - development
   - linkedin
-date: 2022-07-27T08:59:43.330Z
-title: You didn’t call me, Charlie
+date: 2022-07-27T11:36:11.315Z
+title: You didn’t call me, Charlie?
 layout: post
 image: /images/charlie-harper-czyli-charlie-sheen.jpeg
 hidden: true
 comments: true
-published: false
+published: true
 ---
-All of us have something that makes us feel “safe”. I’m not talking about important stuff such as a home, family, good health, and wealth. I’m talking about something that creates your comfort zone. For me - these are TV shows. I love watching them, I hate getting to know new ones. I have a few favorite ones, which I can watch again and again, and again.
+All of us have something that makes us feel “safe”. I’m not talking about important stuff such as a home, family, good health, and wealth. I’m talking about something that creates your comfort zone. For me — these are TV shows. I love watching them, I hate getting to know new ones. I have a few favorite ones, which I can watch again and again, and again.
 
-One of them is “Two and a Half Men” - did you watch it? Here is what it is about:
+![Two and a Half Men](/images/charlie-harper-czyli-charlie-sheen.jpeg "Charlie from \"Two and a Half Men\"")
 
-> Charlie Harper is a jingle writer who leads a hedonistic, carefree life. Everything changes when his good-for-nothing brother, Alan, and 10-year-old nephew, Jake, move into his Malibu beach house.
+One of them is “Two and a Half Men” — did you watch it?
 
-So, for sake of this post, we need to introduce the actors, and the main actor here is IT guy - Charlie, and every recruiter guy/lady is one of the multiple partners Charlie knew
+So, for sake of this post, we need to introduce the actors, and the main actor here is IT guy — Charlie, and every recruiter guy/lady is one of the multiple partners Charlie knew
 
 > You didn’t call me Charlie
 
 Yeah, why you didn’t call them, Charlie? The answer is: because there are a lot of “options” (yeah folks, I’m going to play with the metaphors around) and there is always something Charlie wouldn’t accept.
 
-So, why IT guy (developer, tester, designer, you name it), won’t answer your emails/messages/calls? Here you have a few sins you commit:
+*Before you read the rest, take a look at my Spotify podcast show (in Polish), where I’m talking things about IT alone and with the guests:*
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
+So, why won’t Charlie (developer, tester, designer, you name it) answer your emails/messages/calls? Here you have a few sins you commit:
 
-# Templates, algorithms
+## Templates, algorithms
 
-Did I mention I love TV shows? Another one I’m a big fan of is Big Bang Theory - but I’m not sure which character I want to be the most ¯\\_(ツ)\_/¯ 
+Did I mention I love TV shows? Another one I’m a big fan of is Big Bang Theory — but I’m not sure which character I want to be the most ¯\_(ツ)\_/¯
+
 
 Anyway, do you remember the episode when Sheldon was trying to create an algorithm that will help him to make new friends?
 
@@ -45,8 +48,6 @@ Let’s face it, we are working for money. Of course, there is equally important
 
 But about the job offers - if the salary is equally important as the rest of the perks and benefits, what is the purpose of hiding the information about it? In most cases, developer will ask you about the salary range. It just keeps the communication longer and more complicated. I realize that you want to acquire contact with the developers, but it’s not the most efficient and elegant way
 
-
-
 # Who’s your daddy?
 
 Whaaaat, on the edge, bro. But it’s a quote! For real, just check the Zombie’s song. I love this one! Cruising in the sun, window tilted and "Time of the season"
@@ -57,15 +58,11 @@ Alright, for real, who you are working for, who is your client, who will be my e
 
 So, not only in the case of the local environment - town, city, county, but we can say - in global scope too! - there is a possibility that I was talking to company A before you messaged me. It would be highly inappropriate to be connected to the HR department I was talking to a month earlier
 
-
-
 # Know your network
 
 This one is serious - pay attention to getting to know your network. A lot of developers work for multiple companies, multiple companies work for a variety of clients - agencies, factories, but the corporation also! The software house <> corporation is a very specific relation. Corporations are big and have a lot of departments usually, and they have their own IT departments very often!
 
 The problem begins with the agreements between the companies. If you are a recruiter for Corporation and you want to involve developer from Software House (or agency, or any other kind of the company), just make sure, that there is no relation between your client (Corporation) and the company “your” developer is working in. In most cases, the guy will tell you that, most probably, you should not write to him. But there is another chance - he will notify his manager, the manager will speak to the director and at the very end, you will have an unpleasant email, at least.
-
-
 
 # Hello Mr white, it's at&t calling
 
