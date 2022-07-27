@@ -5,10 +5,10 @@ tags:
   - developer
   - development
   - linkedin
-date: 2022-07-27T11:36:11.315Z
+date: 2022-07-27T11:45:23.553Z
 title: You didn’t call me, Charlie?
 layout: post
-image: /images/charlie-harper-czyli-charlie-sheen.jpeg
+image: /images/blog_post_cover_charlie.png
 hidden: false
 comments: true
 published: true
