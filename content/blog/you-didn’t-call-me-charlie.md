@@ -82,7 +82,7 @@ If you have the phone number, you have the email for sure. Many recruiters send 
 
 ## Memes, memes everywhere
 
-I will answer this one with a meme
+I will answer this one with a meme:
 
 <center>
 
