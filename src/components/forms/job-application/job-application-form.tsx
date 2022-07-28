@@ -116,6 +116,11 @@ const Label = styled.label`
     }
   }
 `
+const AttachmentLabel = styled.p`
+font-size: ${variables.pxToRem(16)};
+line-height: ${variables.pxToRem(40)};
+font-family: ${variables.font.text.family}
+`
 
 export const JobApplicationForm: React.FC<FormProps> = props => {
   const {
@@ -147,6 +152,13 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
 
   const onCVInputChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
     const files = Array.from(event.target.files || [])
+    if (files.length > 2) {
+      setErrorMsgValidation('Please upload maximum two attachments.')
+      setTimeout(() => {
+        setErrorMsgValidation('')
+      }, 5000)
+      return;
+    }
     setAttachments(value.attachments.concat(files))
   }, [setAttachments])
 
@@ -173,11 +185,6 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
 
   const submit = useCallback(
     (event, data: JobFormData) => {
-      trackCustomEvent({
-        category: 'Recruitment Contact Form Button',
-        action: 'Click Submit Recruitment Form',
-        label: window.location.href
-      })
       const isValidLinkedin = (data.message ?? '').startsWith('https://www.linkedin.com/') ||
         (data.message ?? '').startsWith('http://www.linkedin.com/') ||
         (data.message ?? '').startsWith('https://linkedin.com/')
@@ -203,8 +210,12 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         return
       }
       onSubmit && onSubmit()
-
       handleSubmit(event, data)
+      trackCustomEvent({
+        category: 'Recruitment Contact Form Button',
+        action: 'Click Submit Recruitment Form',
+        label: window.location.href
+      })
     },
     [selectedAttachment]
   )
@@ -267,10 +278,10 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         <div>
           {selectedAttachment == 'cv' && (
             <div>
-              <p>Upload your resume / CV / portfolio</p>
+              <AttachmentLabel>Upload your resume / portfolio (up to 2 files – PDF or docx).</AttachmentLabel>
               <UploadField
                 onChange={onCVInputChange}
-                accept='application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, image/*'
+                accept='application/msword, application/pdf, .doc, .docx, .dot, .dotm, .dotx' 
                 multiple
                 name='cv'
                 onClick={e => (e.target.value = null)}
