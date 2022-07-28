@@ -49,6 +49,7 @@ internal data class Address(
 ```
 
 The same flow will be executed in two different ways:
+
 1. with using all the layers: UI, Application, Domain and Persistance - [handleThroughoutAllLayers()](https://gitlab.com/garstecki/layers/blob/35bd07466f00792d7cbea314b28e1837389b0049/src/main/kotlin/ui/UserController.kt#L11-15)
 2. with skipping most of the layers - [handleSkippingLayers()](https://gitlab.com/garstecki/layers/blob/35bd07466f00792d7cbea314b28e1837389b0049/src/main/kotlin/ui/UserController.kt#L19-23)
 
@@ -62,27 +63,13 @@ With that out of the way, we can take a look at the actual benchmark numbers.
 
 ## Let's take a look at the numbers!
 
-<graph
-x="No. of elements" 
-y="Milliseconds" 
-:categories="[1000, 5000, 10000, 15000, 20000]"
-:series="[
-{ name: 'All Layers', data: [22, 198, 635, 1328, 2346] },
-{ name: 'Skipping Layers', data: [16, 175, 413, 903, 1643] }
-]"></graph>
+![Performance characteristics of Layered Architecture](/images/1.png "Performance characteristics of Layered Architecture")
 
 *No. of elements* - means number of objects that will be dragged on through the whole flow. In the web app, this is comparable to the number of requests. 
 
 From the graph, we see that time is growing with the number of requests in a linear way. On average execution with all layers is **40-50% slower**.
 
-<graph
-x="No. of elements" 
-y="Kilobytes" 
-:categories="[1000, 5000, 10000, 15000, 20000]"
-:series="[
-{ name: 'All Layers', data: [689, 2725, 4005, 7444, 7512] },
-{ name: 'Skipping Layers', data: [484, 1334, 2432, 3647, 4756] }
-]"></graph>
+![Memory consumption characteristics of Layered Architecture](/images/2.png "Memory consumption characteristics of Layered Architecture")
 
 Looking at memory usage the differences are even clearer. While using layers app consumes about **80-90% more memory**
 
@@ -107,39 +94,29 @@ val end = System.currentTimeMillis()
 println("All layers execution of $batch - ${end - start}ms")
 ```
 
-<graph 
-x="No. of warm-up runs" 
-y="Milliseconds" 
-:categories="[0, 10, 20, 30]"
-:series="[
-{ name: 'All Layers', data: [221, 124, 80, 76] },
-{ name: 'Skipping Layers', data: [184, 105, 83, 88] }
-]"></graph>
+![JVM JIT impact on Layered Architecture performance](/images/3.png "JVM JIT impact on Layered Architecture performance")
 
 By increasing the number of warm-up runs we are decreasing the difference between both approaches. It means that JIT slowly finds a way to
 reduce time spend on mapping objects and after ~20 runs both methods seem to even out to a similar outcome.
 
-<graph 
-x="No. of warm-up runs" 
-y="Kilobytes" 
-:categories="[0, 10, 20, 30]"
-:series="[
-{ name: 'All Layers', data: [3072, 2219, 2562, 2562] },
-{ name: 'Skipping Layers', data: [1538, 1538, 1024, 1024] }
-]"></graph>
+![JVM JIT impact on Layered Architecture memory consumption](/images/4.png "JVM JIT impact on Layered Architecture memory consumption")
 
 A quick look at memory usage. But looks like JIT does not help here, and the discrepancy between both methods stays on the same level.
 
 ## Conclusion
+
 Performance discrepancies are normalised and after a couple of runs are getting close to 0. The bigger memory footprint remains the main difference 
 factor. It's possible that tinkering with GC settings or using different GC could yield better results.
 
 You may ask yourself how big of a problem it is? There are two downsides (performance-wise) to layered architecture:
+
 ### Slower "boot time"
+
 Since JIT need a couple of runs to catch up the speed. This might be a problem when your app is on the cloud and 
 you are constantly shuffling instances. Then you might not be getting the full benefit from JIT. But if that happens to you, there is probably a much bigger problem
 with your app.
 
 ### Higher memory footprint
+
 This might be an issue if your RAM is limited. You are running on the server down in the basement. But again this is a sign of some other problems
 with your infrastructure. RAM is pretty cheap nowadays and grounding our architecture decisions on the RAM cost on might not be the right trade to make.
