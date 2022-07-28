@@ -90,9 +90,7 @@ Choose wisely and be honest with us and with yourself.
 
 ![](/images/ula-_rekru_team_quote.png)
 
-## \
-
-Do you have any motto that you really like?
+## Do you have any motto that you really like?
 
 **Agata:** *Letting go also becomes a habit.* It always motivates me to undertake even difficult things and not postpone anything until later.
 
