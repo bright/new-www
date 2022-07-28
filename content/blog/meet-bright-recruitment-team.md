@@ -2,6 +2,10 @@
 author: ula
 secondAuthor: paulina-t
 thirdAuthor: agata-m
+tags:
+  - inspiration
+  - recruitment
+  - HR
 date: 2022-07-21T05:12:27.820Z
 title: "Meet Bright Recruitment Team "
 layout: post
