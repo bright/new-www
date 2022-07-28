@@ -90,15 +90,13 @@ Choose wisely and be honest with us and with yourself.
 
 ![](/images/ula-_rekru_team_quote.png)
 
-## \
-
-Do you have any motto that you really like?
+## Do you have any motto that you really like?
 
 **Agata:** *Letting go also becomes a habit.* It always motivates me to undertake even difficult things and not postpone anything until later.
 
 **Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)\
 \
-**Ula:**  It is not a good question for me as I have at least a few. e.g. *Hope for the best, there is no point in hoping for the worst.* (Stanisław Lem, orig. *Bądź dobrej myśli*, *bo po co być złej?); Alone, we can do so little; together, we can do so much.* (Helen Keller); *It is literally true that you can succeed best and quickest by helping others to succeed. (*Napoleon Hill) or *The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.* (Socrates)
+**Ula:**  It is not a good question for me as I have at least a few. e.g. *Hope for the best, there is no point in hoping for the worst.* (Stanisław Lem, orig. *Bądź dobrej myśli*, *bo po co być złej?); *Alone, we can do so little; together, we can do so much.* (Helen Keller); *It is literally true that you can succeed best and quickest by helping others to succeed. (Napoleon Hill) or *The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.* (Socrates)
 
 That is the end for today. Stay tuned! 
 
