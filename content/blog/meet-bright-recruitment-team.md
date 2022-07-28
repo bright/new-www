@@ -5,6 +5,7 @@ thirdAuthor: agata-m
 date: 2022-07-21T05:12:27.820Z
 title: "Meet Bright Recruitment Team "
 layout: post
+image: /images/brightdev.png
 hidden: false
 comments: true
 published: true
@@ -61,6 +62,8 @@ Today we would like to present to you our bright recruiters - Agata, Paulina and
 
 **Ula:** A lot of them. I usually remember quite well all the processes I have run. For sure there have been things that surprised me such as candidates disappearing suddenly during an online meeting. :D But I think the most memorable for me are situations when people share their feelings with me and I can get to know them as real human beings not only as professionals. 
 
+![inspiration recruitment quote ](/images/agata_rekru_team_quote.png)
+
 ## What is you advice for potential applicants?
 
 **Agata:** Firstly - be yourself. Secondly - take the recruitment process seriously. Book enough time and sit in a quiet place where you can talk freely. Thirdly - be honest. We are very transparent with you - be like that with us. 
@@ -71,14 +74,19 @@ Today we would like to present to you our bright recruiters - Agata, Paulina and
 \
 Choose wisely and be honest with us and with yourself. 
 
+![inspiration recruitment quote ](/images/paulina_rekru_team_quote.png)
+
 ## How do you learn? How do you stay up-to-date with IT industry?
 
 **Agata:** Mostly, I am looking for information about IT Recruitment. I participate in webinars, read blogs, and listen to podcasts. I also watch tutorial videos for developers to get closer to these topics and learn more about technologies and programming languages.
 
 **Paulina:** In addition to the strictly HR knowledge contained in webinars, blogs, authority profiles on LinkedIn, industry books, or conferences, I try to expand my knowledge in the area of daily developers' work. So I read Uncle Bob, talk to developers, participate in initiatives for developers both inside and outside of my team, ask my teammates (and my husband;)) silly technical questions - summing up, try to be close and immerse myself in the specifics of this profession, learn about the daily challenges in the programming world as much as I can.\
 \
-**Ula:** By reading business and psychological books, listening to HR podcasts and talking with people. :) If it comes to functional programming knowledge I have a great team here who is always supportive and able to explain even the most complex programming issues. It is enough to ask and you are provided with all the information you need. \
-\
+**Ula:** By reading business and psychological books, listening to HR podcasts and talking with people. :) If it comes to functional programming knowledge I have a great team here who is always supportive and able to explain even the most complex programming issues. It is enough to ask and you are provided with all the information you need. 
+
+![](/images/ula-_rekru_team_quote.png)
+
+## \
 Do you have any motto that you really like?
 
 **Agata:** *Letting go also becomes a habit.* It always motivates me to undertake even difficult things and not postpone anything until later.
