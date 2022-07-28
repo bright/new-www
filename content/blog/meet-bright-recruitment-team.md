@@ -79,10 +79,10 @@ Choose wisely and respect the other’s side time. Do not take part in the recru
 
 **Ula:** Reading, listening, talking with people. :)  If it comes to tech insights, I have a great development team here and I love my IT guys. They are always supportive and are able to explain to me even the most complex programming issues. When I joined the company I also started an intensive internal development course run by the best bright experts in the market. :)
 
-## Do you have any motto that you really like? 
+## Do you have any motto that you really like?
 
 **Agata:** *Letting go also becomes a habit.* It always motivates me to undertake even learning difficult things and not postpone anything until later.
 
 **Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)\
 \
-**Ula:**
+**Ula:**  *Wherever there is a human being there is an opportunity for kindness.( S*eneca),  *Bądź dobrej myśli*, *bo po co być złej*? (Stanisław Lem) Hope for the best, there is no point in hoping for the worst. :)
