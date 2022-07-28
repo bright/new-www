@@ -9,37 +9,37 @@ hidden: false
 comments: true
 published: true
 ---
-Recruiting success is not necessarily a measure of the volume of candidates obtained. Successful recruiting teams are able to quickly identify the candidates that are most likely to make a positive impact to an organization. It requires  much more than looking beyond a candidate’s credentials or CV. 
+Recruiting success is not necessarily a measure of the volume of candidates obtained. Successful recruiting teams are able to quickly identify the candidates that are most likely to make a positive impact on an organization. It requires much more than looking beyond a candidate’s credentials. 
 
 Today we would like to present to you our bright recruiters - Agata, Paulina and Ula who on daily basis take care of our recruiting process and talk with dozens of candidates to check if our company is a unique and desirable place for them. We asked them a few questions so that you can get to know them a bit better. 
 
 ## How do you recall your own recruitment process at Bright Inventions?
 
-**Agata:** I remember my recruitment process really good - not only because of that I was hired. :) . From the very beginning, Ula presented the steps of the entire recruitment process in detail, thanks to which I knew what happened next. That was really helpful. When it comes to the interview, it was very pleasant because it was a real conversation and not a Q&A. (It surprised me.)
+**Agata:** I remember my recruitment process really good - not only because of that I was hired. :) From the very beginning Ula presented the steps of the entire recruitment process in detail, thanks to which I knew what happened next. That was really helpful. When it comes to the interview, it was very pleasant because it was a real conversation and not Q&A. (It surprised me.)
 
 **Paulina:** I recall it as engaging, but with very positive impressions after all. From the very beginning, I felt that I was actively listened to, and my honest, transparent and sometimes unconventional answers were met with respect and full understanding. It was this kind of process I would want to offer to candidates as a recruiter myself. It gave me additional confidence that the role I was applying for was aligned with my own life values.
 
-**Ula:** It was very smooth, concise and positive. I had an interview with Michał and Daniel, the founders of Bright Inventions. I think we got on well with each other from a few first minutes. They were super friendly, full of engagement and enthusiasm - the image of boss many people may dream of. I had done some analysis of the brand before we met, so I had a ready plan-to-do in my mind.
+**Ula:** It was very smooth, concise and positive. I had an interview with Michał and Daniel, the founders of Bright Inventions. I think we got on well from a few first minutes. They were super friendly, engaged and enthusiastic. had done some research of the brand before we met, so I had a list of things I would like to implement if I would be hired. 
 
 ![](/images/brightdev.png)
 
 ## Why did you decide to join Bright Team?
 
-**Agata:** I applied for the position of junior recruitment specialist. I felt good energy and professional approach during the interview so my 1st thought was that Bright is the right place for me to take the first steps in my career. Moreover, people on Bright social media also looked positive, and this visible spirit sport - I realized immediately that it is a great place for me. :)\
+**Agata:** I applied for the position of junior recruitment specialist. I felt good energy and professional approach during the interview so my first thought was that Bright is the right place for me to take the first steps in my career. Moreover, people on Bright social media also looked positive and this visible sport spirit  - I realised immediately that it is a great place for me.\
 \
 **Paulina:** From the very beginning of my career, I felt that the role of a recruiter is not just a stereotypical testing of a candidate's skills with an inherent element of stress. I know from my own experience how uncomfortable and, most importantly, how unprofessional and disrespectful it is. When I got to know the values of Bright Team, I felt that in such environment I could be simply myself and fulfill my beliefs. The recruitment meeting with Ula - my former recruiter and current leader - was just a real confirmation of my assumptions. 
 
-**Ula:** I saw there a big spacer to implement my marketing and EB ideas. The brand was not recognisable. It was just a fresh start. I am always saying that it was almost like a blank page and I really wanted to colour that page.
+**Ula:** The brand was not recognisable that time. I needed space where I could use my skills and people who would trust my intuition. I had a lot of ideas, I met interesting people during the interview and realised I had a chance to create something valuable almost from scratch. I am always saying that Bright Inventions was almost like a blank page and I really wanted to colour that page.
 
 ![Agata Recruiting Specialist](/images/agata_rekru_team.jpg)
 
 ## Why did you choose a recruiter's path career?
 
-**Agata:** I like the fact that thanks to my work I can meet many interesting and ambitious people. I always wanted to be in a place where I would have a real impact on the development of myself, the company, and be able to contribute to the professional development of others. I think that being a recruiter I will get it.  :)\
+**Agata:** I like the fact that thanks to my work I can meet many interesting and ambitious people. I always wanted to be in a place where I would have a real impact on the development of myself, the company, and be able to contribute to the professional development of others. I think that thank to being a recruiter I will get it.  :)\
 \
-**Paulina:** The role of a recruiter is related to my psychology background. Academic experiences directed my skills and mindset as analytical and human-centered, which was only a formal confirmation of my prior self cognition. I have always found myself in the role of an active listener and it has given me pure joy and satisfaction. As additional confirmation of this hypothesis, I noticed in my callers a sense of listening, often a relief. I recognized this fact as my strength and decided to use it in my professional career:).
+**Paulina:** The role of a recruiter is related to my psychology background. The academic experience directed my skills and mindset as analytical and human-centered, which was only a formal confirmation of my prior self cognition. I have always found myself in the role of an active listener and it has given me pure joy and satisfaction. As additional confirmation of this hypothesis, I noticed in my callers a sense of listening, often a relief. I recognized this fact as my strength and decided to use it in my professional career. :) 
 
-**Ula:** I think this career chose me. When I was studying English philology and then marketing I didn’t think about being a recruiter. Two things I knew was that I wanted to work with people and take part in a creation process. During studies I started also my job in language school and discovered my talent for teaching and at the same time coaching. After a few years in pure marketing it struck me that recruiter’s path may be one of a few I can follow. I love being a recruiter, but it is not the only area that I am consuming right now. 
+**Ula:** I think this role somehow chose me. I was perusing the career of marketing specialist, translator and tutor when after a few years recruitment appeared in my life. After entering this field I realised I had some skills that I hadn't perceived as anything unique before. At first I decided to focus on employer branding and recruitment marketing and then discovered my real interest into recruitment area. Now I am 3 in 1 . :)  
 
 ![Paulina Recruiting Team ](/images/paulina_rekru_team.jpg)
 
@@ -49,7 +49,7 @@ Today we would like to present to you our bright recruiters - Agata, Paulina and
 
 **Paulina:** While many single aspects come to my mind, the biggest gratitude I feel when I know or observe from a candidate's behavior that he/she simply feels comfortable in my presence, that feels listened to and treated with due respect. I feel best when I know that my candidate made a bond with me, got an added value from the hiring process, and felt that he or she and his/her story was unique and one of a kind for me. 
 
-**Ula:** The fact that I can meet dozens of interesting people and get to know their perspective of looking at the world. Every person is a new experience. It teaches my something new. The structure of the recruitment process is well-organised and quite repetitive, but people are not. You can ask the same questions, but every time you get different answers. Every person that I meet makes me a better recruiter. 
+**Ula:** The fact that I can meet dozens of interesting people and help them find a good place for their development. And the fact that I am learning all the time. Every person is a new experience. The structure of the recruitment process is well-defined, but people are not defined at all. You can ask the same questions, but every time you get different answers. Every person that I meet teaches me something new. 
 
 ![Ula Recruiting Team ](/images/ula_rekru_team-1-.jpg)
 
@@ -85,4 +85,4 @@ Choose wisely and respect the other’s side time. Do not take part in the recru
 
 **Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)\
 \
-**Ula:**  *Wherever there is a human being there is an opportunity for kindness.( S*eneca),  *Bądź dobrej myśli*, *bo po co być złej*? (Stanisław Lem) Hope for the best, there is no point in hoping for the worst. :)
+**Ula:**  These are not really any mottos, but for sure quotes that I appreciate: *Wherever there is a human being there is an opportunity for kindness.( S*eneca),  *Bądź dobrej myśli*, *bo po co być złej*? (Stanisław Lem) EN: Hope for the best, there is no point in hoping for the worst. or
