@@ -85,4 +85,4 @@ Do you have any motto that you really like?
 
 **Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)\
 \
-**Ula:**  These are not really my mottos, but the quotes that I appreciate: *Wherever there is a human being there is an opportunity for kindness.( S*eneca),  *Bądź dobrej myśli*, *bo po co być złej*? (Stanisław Lem) EN: Hope for the best, there is no point in hoping for the worst. or
+**Ula:**  It is not a good question for me as I have at least a few. e.g. *Hope for the best, there is no point in hoping for the worst.* (Stanisław Lem, orig. *Bądź dobrej myśli*, *bo po co być złej?); Alone, we can do so little; together, we can do so much.* (Helen Keller); *It is literally true that you can succeed best and quickest by helping others to succeed. (*Napoleon Hill) or *The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.* (Socrates)
