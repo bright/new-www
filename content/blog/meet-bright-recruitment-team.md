@@ -6,7 +6,7 @@ tags:
   - inspiration
   - recruitment
   - HR
-date: 2022-07-21T05:12:27.820Z
+date: 2022-07-28T05:12:27.820Z
 title: "Meet Bright Recruitment Team "
 layout: post
 image: /images/brightdev.png
