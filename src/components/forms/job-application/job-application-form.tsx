@@ -152,7 +152,9 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
 
   const onCVInputChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
     const files = Array.from(event.target.files || [])
-    if (files.length > 2) {
+    
+    if (value.attachments.concat(files).length > 2) {
+     
       setErrorMsgValidation('Please upload maximum two attachments.')
       setTimeout(() => {
         setErrorMsgValidation('')
