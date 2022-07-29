@@ -103,4 +103,4 @@ That is the end for today. Stay tuned!
 
 If you would like to ask Agata, Paulina or Ula any questions, leave a comment below. 
 
-Our current job offers are available [here](https://brightinventions.pl/career).
+Click to see our current [job offers](/career).
