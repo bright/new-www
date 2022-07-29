@@ -97,7 +97,7 @@ Choose wisely and be honest with us and with yourself.
 **Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)
 
 **Ula:**  It is not a good question for me as I have at least a few, e.g. *Hope for the best, there is no point in hoping for the worst.* (Stanisław Lem), *Alone we can do so little, together we can do so much.* (Helen Keller), *It is literally true that you can succeed best and quickest by helping others to succeed. (Napoleon Hill). 
-And I also really like Socrate's* The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.* 
+And I also really like Socrate's *The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.* Now you know why I call myself #ulacoelho. 🙈😉
 
 That is the end for today. Stay tuned! 
 
