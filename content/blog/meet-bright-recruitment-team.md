@@ -68,7 +68,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 
 ![inspiration recruitment quote ](/images/agata_rekru_team_quote.png)
 
-## What is you advice for potential applicants?
+## What is your advice for potential applicants?
 
 **Agata:** Firstly - be yourself. Secondly - take the recruitment process seriously. Book enough time and sit in a quiet place where you can talk freely. Thirdly - be honest. We are very transparent with you - be like that with us. 
 
