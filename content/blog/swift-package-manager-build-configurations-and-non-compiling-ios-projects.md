@@ -14,6 +14,8 @@ published: true
 ---
 Swift Package Manager in Xcode is the newest way of managing third party dependencies of Swift projects. It is very neatly integrated and allows for clean and easy dependency management. At least sometimes.
 
+![Adding SPM to Legact Project](/images/blogpost_spm_tomasz.png)
+
 When working on greenfield projects SPM in most cases is really a breeze to use. In reality however quite frequently we find ourselves working on some kind of legacy projects with all of their quirks.
 
 **\[Disclaimer]:** Described problems and their solutions were tested on Xcode 13.2.1 and 13.4.1. Behavior may change in future Xcode releases. [Here](https://github.com/TLizer/SPM-build-configurations) you can find a repository with an example project.
