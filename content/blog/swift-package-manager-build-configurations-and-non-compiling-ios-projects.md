@@ -4,14 +4,17 @@ tags:
   - iOS
   - Swift Package Manager
   - Xcode
-date: 2022-07-29T09:10:40.986Z
+date: 2022-07-29T10:34:45.775Z
 title: Swift Package Manager, build configurations and non compiling iOS projects
 layout: post
+image: /images/blogpost_spm_tomasz.png
 hidden: true
 comments: true
 published: true
 ---
 Swift Package Manager in Xcode is the newest way of managing third party dependencies of Swift projects. It is very neatly integrated and allows for clean and easy dependency management. At least sometimes.
+
+![Adding SPM to Legact Project](/images/blogpost_spm_tomasz.png)
 
 When working on greenfield projects SPM in most cases is really a breeze to use. In reality however quite frequently we find ourselves working on some kind of legacy projects with all of their quirks.
 
@@ -24,7 +27,8 @@ The other day I was trying to add Swift Package Manager to one of the projects I
 Surprisingly I was greeted with a big fat red error preventing the project from compiling: 
 
 ```
-Could not find module <package name> for target 'x86_64-apple-ios-simulator'; found: arm64, arm64-apple-ios-simulator
+Could not find module <package name> for target 'x86_64-apple-ios-simulator';
+found: arm64, arm64-apple-ios-simulator
 ```
 
 ![Could not find module <package name> for target 'x86_64-apple-ios-simulator'; found: arm64, arm64-apple-ios-simulator](/images/could-not-find-module-for-target-error.png "Could not find module for target error")
