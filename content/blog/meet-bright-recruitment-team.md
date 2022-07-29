@@ -24,7 +24,7 @@ Today we would like to present to you our bright recruiters - [Agata](/about-us/
 
 **Paulina:** I recall it as engaging, but with very positive impressions after all. From the very beginning, I felt that I was actively listened to, and my honest, transparent and sometimes unconventional answers were met with respect and full understanding. It was this kind of process I would want to offer to candidates as a recruiter myself. It gave me additional confidence that the role I was applying for was aligned with my own life values.
 
-**Ula:** It was very smooth, concise and positive. I had an interview with Michał and Daniel, the founders of Bright Inventions. I think we got on well from a few first minutes. They were super friendly, engaged and enthusiastic. had done some research of the brand before we met, so I had a list of things I would like to implement if I would be hired. 
+**Ula:** It was very smooth, concise and positive. I had an interview with Michał and Daniel, the founders of Bright Inventions. I think we got on well from a few first minutes. They were super friendly, engaged and enthusiastic. I had done some research of the brand before we met, so I had a list of things I would like to implement if I would be hired. 
 
 ![](/images/brightdev.png)
 
