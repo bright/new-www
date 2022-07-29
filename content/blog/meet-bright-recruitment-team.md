@@ -103,4 +103,4 @@ That is the end for today. Stay tuned!
 
 If you would like to ask Agata, Paulina or Ula any questions, leave a comment below. 
 
-Click to see our current [job offers](/career).
+Check our current [job offers](/career).
