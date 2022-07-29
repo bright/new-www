@@ -4,9 +4,10 @@ tags:
   - iOS
   - Swift Package Manager
   - Xcode
-date: 2022-07-29T09:10:40.986Z
+date: 2022-07-29T10:34:45.775Z
 title: Swift Package Manager, build configurations and non compiling iOS projects
 layout: post
+image: /images/blogpost_spm_tomasz.png
 hidden: true
 comments: true
 published: true
@@ -24,7 +25,8 @@ The other day I was trying to add Swift Package Manager to one of the projects I
 Surprisingly I was greeted with a big fat red error preventing the project from compiling: 
 
 ```
-Could not find module <package name> for target 'x86_64-apple-ios-simulator'; found: arm64, arm64-apple-ios-simulator
+Could not find module <package name> for target 'x86_64-apple-ios-simulator';
+found: arm64, arm64-apple-ios-simulator
 ```
 
 ![Could not find module <package name> for target 'x86_64-apple-ios-simulator'; found: arm64, arm64-apple-ios-simulator](/images/could-not-find-module-for-target-error.png "Could not find module for target error")
