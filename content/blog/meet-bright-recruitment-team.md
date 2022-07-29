@@ -16,7 +16,7 @@ published: true
 ---
 Recruiting success is not necessarily a measure of the volume of candidates obtained. Successful recruiting teams are able to quickly identify the candidates that are most likely to make a positive impact on an organization. It requires much more than looking beyond a candidate’s credentials. 
 
-Today we would like to present to you our bright recruiters - [Agata](https://brightinventions.pl/about-us/agata-m/), [Paulina](https://brightinventions.pl/about-us/paulina-t/) and [Ula](https://brightinventions.pl/about-us/ula/) who on daily basis take care of our recruiting process and talk with dozens of candidates to check if our company is a unique and desirable place for them. We asked them a few questions so that you can get to know them a bit better. 
+Today we would like to present to you our bright recruiters - [Agata](/about-us/agata-m/), [Paulina](/about-us/paulina-t/) and [Ula](/about-us/ula/) who on daily basis take care of our recruiting process and talk with dozens of candidates to check if our company is a unique and desirable place for them. We asked them a few questions so that you can get to know them a bit better. 
 
 ## How do you recall your own recruitment process at Bright Inventions?
 
@@ -97,7 +97,7 @@ Choose wisely and be honest with us and with yourself.
 **Paulina:** *One man by nature is just as good as any other* (J.J. Rousseau) and *I’m not telling you it’s going to be easy, I’m telling you it’s going to be worth it.* ​​(Art Williams)
 
 **Ula:**  It is not a good question for me as I have at least a few, e.g. *Hope for the best, there is no point in hoping for the worst.* (Stanisław Lem), *Alone we can do so little, together we can do so much.* (Helen Keller), *It is literally true that you can succeed best and quickest by helping others to succeed. (Napoleon Hill). 
-And I also really like Socrate's *The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.* 
+And I also really like Socrate's* The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less.* 
 
 That is the end for today. Stay tuned! 
 
