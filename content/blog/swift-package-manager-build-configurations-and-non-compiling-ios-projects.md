@@ -16,7 +16,7 @@ Swift Package Manager in Xcode is the newest way of managing third party depende
 
 ## TL;DR
 
-In this article I am going through struggle of adding SPM to legacy project containing frameworks not compatible with Apple Silicon iOS simulators (arm64). If you are in rush for a solution head straight to **SPM build configurations** paragraph.
+In this article I am going through struggle of adding SPM to legacy project containing frameworks not compatible with Apple Silicon iOS simulators (arm64). If you are in rush for a solution head straight to [**SPM build configurations** paragraph](/blog/swift-package-manager-build-configurations-and-non-compiling-ios-projects/#spm-build-configurations).
 
 ![Adding SPM to Legact Project](/images/blogpost_spm_tomasz.png)
 
