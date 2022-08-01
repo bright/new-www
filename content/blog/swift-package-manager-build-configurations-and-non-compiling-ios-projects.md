@@ -8,7 +8,7 @@ date: 2022-07-29T10:34:45.775Z
 title: Swift Package Manager, build configurations and non compiling iOS projects
 layout: post
 image: /images/blogpost_spm_tomasz.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
