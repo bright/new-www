@@ -4,6 +4,7 @@ tags:
   - design
   - Architecture
   - development
+  - backend
 date: 2022-08-01T09:40:29.170Z
 title: A quick introduction to the event-driven architecture
 layout: post
