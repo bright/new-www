@@ -20,6 +20,10 @@ When working on greenfield projects SPM in most cases is really a breeze to use.
 
 **\[Disclaimer]:** Described problems and their solutions were tested on Xcode 13.2.1 and 13.4.1. Behavior may change in future Xcode releases. [Here](https://github.com/TLizer/SPM-build-configurations) you can find a repository with an example project.
 
+### TL;DR
+
+In this article I am going through struggle of adding SPM to legacy project containing frameworks not compatible with Apple Silicon iOS simulators (arm64). If you are in rush for a solution head straight to **SPM build configurations** paragraph.
+
 # The problem
 
 The other day I was trying to add Swift Package Manager to one of the projects I work on as my Team tends to move to SPM from other dependency managers.
@@ -59,7 +63,9 @@ If we inspect the documentation we can see that there is `debug` and `release` [
 I believe I have quite valuable and maybe even shocking observations:
 
 Debug build configuration is being applied to Swift Package Manager dependencies if our current build configuration contains “debug” or “development” in its name (case-insensitive).
-So if you try to build an app in default Release configuration, rename Debug to something else or just create a new configuration (eg. Stage) it will just work™. This means there is some kind of parsing logic for project build configuration that then translates to different build configurations of SPM dependencies.
+So if you try to build an app in default Release configuration, rename Debug to something else or create a new configuration (eg. Stage) and it will just work™. This means there is some kind of parsing logic for project build configuration **name** that then translates to different build configurations of SPM dependencies.
+
+I want to highlight that once more: as silly as it sounds **renaming your project build configuration** is the key to success. It cannot contain `Debug` nor `Development` in its name in order to build **SPM dependencies** in `Release` mode.
 
 # Reverse problem
 
@@ -71,8 +77,8 @@ Module <package name> was not compiled for testing
 
 ![Module <package name> was not compiled for testing](/images/module-was-not-compiled-for-testing-error.png "Module not compiled for testing error")
 
-As you may already suspect the solution here is totally opposite to what we just did before. In order to make such error go away we must compile our Swift Package with debug configuration and that means we need to add “debug” to our development configuration name. If at the same time you are dealing with a previous issue then this is not possible. We solved it by creating a separate scheme just for running unit tests of local packages.
+As you may already suspect the solution here is totally opposite to what we just did before. In order to make such error go away we must compile our **Swift Package** with **debug configuration** and that means we need to add “debug” to our development configuration name. If at the same time you are dealing with a previous issue then this is not possible. We solved it by creating a separate scheme just for running unit tests of local packages.
 
 # Conclusions
 
-Swift Package Manager is a great way of managing third party dependencies in iOS projects. With new releases of Xcode it is getting more useful and powerful. Unfortunately SPM is still a young addition to Xcode and lacks some functionalities. Also its ephemeral way of implementation brings issues like those I have faced. In this particular case we could benefit from explicit documentation. If you ever find yourself in a similar situation I hope this article will help you in sorting it out :)
+Swift Package Manager is a great way of managing third party dependencies in iOS projects. With new releases of Xcode it is getting more useful and powerful. Unfortunately SPM is still a young addition to Xcode and lacks some functionalities. Also its ephemeral way of implementation brings issues like those I have faced. In this particular case we could benefit from explicit documentation telling about **build configuration name parsing logic** applied to our **Swift Packages**. If you ever find yourself in a similar situation I hope this article will help you in sorting it out :)
