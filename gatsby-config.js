@@ -10,7 +10,7 @@ module.exports = {
     disqusShortname: 'brightinventions',
     siteUrl: siteUrl.href,
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true },
+
   plugins: [
     // Make sure this plugin is first in the array of plugins
     {
