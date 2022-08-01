@@ -79,7 +79,7 @@ const JobHourWrapper = styled.div`
     font-weight: 600;
     text-transform: lowercase;
 
-    & :after {
+    &:after {
       position: absolute;
       top: 50%;
       right: -21.81px;
@@ -88,7 +88,7 @@ const JobHourWrapper = styled.div`
       content: '•';
     }
     @media ${variables.device.mobile} {
-      & :after {
+      &:after {
         right: -20.64px;
         font-size: ${variables.pxToRem(16)};
       }
@@ -284,7 +284,7 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
     <>
       <JobWrapper>
         {(jobs || []).map(job => (
-          <Job>
+          <Job >
             <JobLink to={routeLinks.jobs + getJobPath(job.url)}>
               <JobSubtitleWrapper>
                 <JobHourWrapper>
@@ -302,7 +302,7 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
                     if (salaryType !== null) {
                       const salaryValue = salaryType.index && salary.slice(0, salaryType.index - 1)
                       return (
-                        <div>
+                        <div >
                           {salaryValue} (<span>{salaryType[0]}</span>)
                         </div>
                       )

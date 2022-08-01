@@ -12,7 +12,7 @@ const Container = styled.div`
       color: ${variables.color.text};
     }
     & a {
-      & :hover {
+      &:hover {
         color: ${variables.color.text};
       }
     }

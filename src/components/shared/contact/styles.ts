@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { TextRegular, TextTitle } from '..'
 import variables from '../../../styles/variables'
 import { Button as ButtonBase } from '../../whatWeDo/banners/styles'
-import { lighten } from 'polished'
+import { lighten, rgba } from 'polished'
 
 export const Header = styled.div({
   fontSize: '36px',
@@ -58,18 +58,17 @@ export const SubmitButton = styled.button({
 })
 
 export const Label = styled.div({
-  fontSize: '14px',
+  fontSize: '16px',
   lineHeight: '40px',
 
   fontFamily: variables.font.text.family,
   color: variables.color.text,
-
-  marginBottom: '8px',
 })
 
 const placeHolderStyle = {
   '&::placeholder': {
-    color: lighten(0.05, variables.color.text),
+    color: variables.color.text,
+    opacity: 0.56,
   },
 }
 
@@ -83,12 +82,16 @@ export const TextInput = styled.input({
   fontFamily: variables.font.text.family,
 
   color: variables.color.text,
-  opacity: 0.56,
 
   padding: '20px',
-  border: `1px solid ${variables.color.text}`,
+  border: `1px solid ${variables.color.borderInput}`,
   ...placeHolderStyle,
   marginBottom: '40px',
+
+  ['&:focus-visible']: {
+    outline: '1px solid #000',
+    background: 'inherit',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     marginBottom: '10px',
@@ -104,15 +107,22 @@ export const SingleSelect = styled.select({
   lineHeight: '40px',
 
   fontFamily: variables.font.text.family,
-  color: variables.color.text,
-  ...placeHolderStyle,
-  opacity: 0.55,
 
-  border: `1px solid ${variables.color.text}`,
+  // ...placeHolderStyle,
+
+  border: `1px solid ${variables.color.borderInput}`,
 
   marginBottom: '40px',
 
   paddingLeft: '20px',
+  ['& .isSelected']: {
+    color: variables.color.text,
+    opacity: 1,
+  },
+  ['& option']: {
+    color: variables.color.text,
+    opacity: 1,
+  },
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
@@ -146,12 +156,12 @@ export const IdeaTextArea = styled.textarea({
   lineHeight: '19px',
   fontFamily: variables.font.text.family,
   ...placeHolderStyle,
-  color: variables.color.black,
+  color: variables.color.text,
   opacity: 0.54,
 
   padding: '20px',
 
-  border: `1px solid ${variables.color.text}`,
+  border: `1px solid ${variables.color.borderInput}`,
 
   marginBottom: '40px',
 

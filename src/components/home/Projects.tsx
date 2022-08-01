@@ -24,7 +24,7 @@ export const ProjectCustomSection = styled(CustomSection)`
       display: flex;
       flex-direction: column;
       cursor: pointer;
-      & :hover {
+      &:hover {
         box-shadow: 15px 15px 40px -25px rgb(170 170 170);
       }
     }
@@ -104,12 +104,12 @@ export const BlockSmall = styled.div`
   margin: 2rem;
   font-size: 1rem;
 
-  & :first-of-type:not(div.down) {
+  &:first-of-type:not(div.down) {
     margin-right: 0;
     margin-top: 0;
   }
 
-  & :last-of-type:not(div.down) {
+  &:last-of-type:not(div.down) {
     margin-left: 0;
   }
 
@@ -155,7 +155,7 @@ export const BlockSmall = styled.div`
     img {
       width: 100%;
     }
-    & :last-of-type:not(div.down) {
+    &:last-of-type:not(div.down) {
       border: 1px solid #0a0a0a;
     }
   }
@@ -173,10 +173,10 @@ export const BlockSmall = styled.div`
     img {
       width: 100%;
     }
-    & :first-of-type:not(div.down) {
+    &:first-of-type:not(div.down) {
       margin-bottom: 0.5625rem;
     }
-    & :last-of-type:not(div.down) {
+    &:last-of-type:not(div.down) {
       margin-top: 0.5625rem;
       margin-bottom: 0;
     }

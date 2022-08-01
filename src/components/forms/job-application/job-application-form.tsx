@@ -97,7 +97,7 @@ const Label = styled.label`
       opacity: 1;
     }
 
-    & :checked::before {
+    &:checked::before {
       transform: scale(1);
     }
   }

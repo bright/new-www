@@ -35,14 +35,14 @@ const ImagesBase = styled.div`
     @media ${variables.device.tabletXL} {
       --gap: 2rem;
     }
-    & > * :not(.image-veritical) {
+    & > *:not(.image-veritical) {
       margin: var(--gap) 0 0 var(--gap);
     }
   }
   @media ${variables.device.tablet} {
     --gap: 2.4375rem;
 
-    & > * :not(.image-veritical) {
+    & > *:not(.image-veritical) {
       margin: var(--gap) 0 0 var(--gap);
     }
   }
@@ -50,7 +50,7 @@ const ImagesBase = styled.div`
   @media ${variables.device.mobile} {
     --gap: 1rem;
 
-    & > * :not(.image-veritical) {
+    & > *:not(.image-veritical) {
       margin: var(--gap) 0 0 var(--gap);
     }
   }

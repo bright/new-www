@@ -143,7 +143,7 @@ const Label = styled.label`
       transition: 120ms transform ease-in-out;
       background: #f7931e 0% 0% no-repeat padding-box;
     }
-    & :checked::before {
+    &:checked::before {
       transform: scale(1);
     }
   }
@@ -201,21 +201,21 @@ const ContentWrapper = styled.div<{ positionLeft?: boolean; positionFirst?: bool
     box-shadow: 0px 0px 99px #00000017;
   }
   @media ${variables.device.laptop} {
-    & ::before {
+    &::before {
       ${({ positionLeft }) => (positionLeft ? `right:clamp(1.125rem, -1.9686rem + 3.8610vw, 1.75rem)` : `right:unset`)};
       ${({ positionLeft }) => (positionLeft ? `left: unset` : `left:clamp(1.125rem, -1.9686rem + 3.8610vw, 1.75rem)`)};
       ${({ positionFirst }) => positionFirst && `left: ${clampBuilder(1282, 1541, 48, 52)}`};
     }
   }
   @media ${variables.device.tabletXL} {
-    & ::before {
+    &::before {
       ${({ positionLeft }) => (positionLeft ? `right:${clampBuilder(993, 1281, 25, 29)}` : `right:unset`)};
       ${({ positionLeft }) => (positionLeft ? `left: unset` : `left:${clampBuilder(993, 1281, 25, 29)}`)};
       ${({ positionFirst }) => positionFirst && `left: ${clampBuilder(993, 1281, 43, 53)}`};
     }
   }
   @media ${variables.device.tablet} {
-    & ::before {
+    &::before {
       ${({ positionLeft }) =>
         positionLeft ? `right:clamp(3.1875rem, -0.3613rem + 9.7561vw, 5.6875rem)` : `right:unset`};
       ${({ positionLeft }) =>
@@ -224,7 +224,7 @@ const ContentWrapper = styled.div<{ positionLeft?: boolean; positionFirst?: bool
     }
   }
   @media ${variables.device.mobile} {
-    & ::before {
+    &::before {
       ${({ positionLeft }) => (positionLeft ? `right: 50%; transform: translateX(-50%);` : `right:unset`)};
       ${({ positionLeft }) =>
         positionLeft ? `left: unset` : `left:50%;     transform: translateX(-50%) rotate(90deg);`};

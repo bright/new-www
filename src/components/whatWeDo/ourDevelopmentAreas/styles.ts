@@ -8,7 +8,6 @@ import { clampBuilder } from '../../../helpers/clampBuilder'
 export const DevelopmentAreasWrapper = styled.div({
   display: 'flex',
   justifyContent: 'center',
-
   width: '100%',
 })
 
@@ -53,7 +52,6 @@ export const RevertHoverLink = styled(Link)`
   padding: ${variables.pxToRem(43)} ${variables.pxToRem(45)} ${variables.pxToRem(43)};
   min-height: ${variables.pxToRem(410)};
   height: 100%;
-
   &:hover {
     color: ${variables.color.primary};
   }
@@ -78,7 +76,7 @@ export const DevelopmentAreaContainer = styled.div`
   box-shadow: 0 0 0 #00000029;
   transition: box-shadow 0.1s ease-in, transform 0.1s ease-in;
 
-  & :hover {
+  &:hover {
     box-shadow: 0 0 60px #00000029;
     transform: scale(1.002);
   }

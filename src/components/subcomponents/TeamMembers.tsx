@@ -246,7 +246,7 @@ const OurServiceLink = styled(Link)<{ isWhyUs?: boolean }>`
   opacity: 1;
   margin-top: ${variables.pxToRem(39.5)};
   margin-bottom: ${variables.pxToRem(64.5)};
-  & :hover {
+  &:hover {
     color: ${variables.color.primary};
   }
   @media ${variables.device.laptop} {

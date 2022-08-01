@@ -37,7 +37,7 @@ const AuthorArticle = styled.article`
         @media ${variables.device.mobile} {
           max-height: 51px;
         }
-        & :hover {
+        &:hover {
           border: 1px solid #f7931e;
         }
       }

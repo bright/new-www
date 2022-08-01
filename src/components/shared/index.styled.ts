@@ -247,7 +247,7 @@ export const CustomSectionTitle = styled.h2<{
     color: ${variables.color.text};
     text-decoration: underline;
     padding: 3px 0;
-    & :hover {
+    &:hover {
       color: ${variables.color.text};
     }
     & span {
