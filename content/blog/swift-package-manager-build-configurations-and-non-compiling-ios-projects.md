@@ -52,7 +52,7 @@ There are two main options to deal with that:
 * Run Xcode using Rosetta - seems like a good idea and actually works, but it comes with a price. Time of clean build for our project increased from 112 to 165 seconds. That is almost 50% longer and I would suspect other performance penalties during day to day work.
 * Exclude arm64 architecture for iOS simulator sdk for your development build configuration. This is quite a straightforward and clever solution to the problem. Excluding arm64 architecture for the simulator forces xcode to build our app for x86_64 architecture on an iOS simulator that is compatible with our legacy framework ([stackoverflow post](https://stackoverflow.com/a/63955114)).
 
-Even though we are explicitly excluding arm64 architecture for iOS simulator we are getting error shown above and. What is more it explicitly says that SPM built our dependency just for arm64 architecture. We can conclude that SPM is ignoring our project build settings.
+Even though we are explicitly excluding arm64 architecture for iOS simulator we are getting error shown above. What is more it explicitly says that SPM built our dependency just for arm64 architecture. We can conclude that SPM is ignoring our project build settings.
 
 Unfortunately there is no (at least straightforward) way to configure the build configuration of SPM dependencies. But it works in other project with exactly the same limitations. So in my case it seemed obvious that there must be a way of affecting build configuration of SPM dependencies.
 
