@@ -9,7 +9,7 @@ date: 2022-08-01T09:40:29.170Z
 title: A Quick Introduction to the Event-Driven Architecture
 layout: post
 image: /images/event-driven-architecture_explained.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
