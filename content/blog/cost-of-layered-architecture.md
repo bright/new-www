@@ -14,9 +14,9 @@ hidden: true
 comments: true
 published: true
 ---
-**Layered architecture is probably one of the most popular choices in the Object Oriented Systems, and for a good reason.
+Layered architecture is probably one of the most popular choices in the Object Oriented Systems, and for a good reason.
 When done right it provides great separation of concerns making each layer replaceable without a need to transform everything around it. 
-But layers require a lot of additional models, in this post, we take a look at how additional models and constant mappings impact performance of our app.**
+**But layers require a lot of additional models, in this post, we take a look at how additional models and constant mappings impact performance of our app.**
 
 Most common use cases of layer architecture define 4 layers: UI, Application, Domain and Persistance. To keep better separation, each layer
 is supposed to have its own data model, that will be used only inside this layer. This means that we are creating a lot of versions of very similar classes
