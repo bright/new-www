@@ -6,7 +6,7 @@ tags:
   - jvm
   - benchmark
   - layered architecture
-date: 2022-07-28T15:22:45.694Z
+date: 2022-08-02T09:00:47.770Z
 title: Cost of Layered Architecture
 layout: post
 image: /images/layers.png
