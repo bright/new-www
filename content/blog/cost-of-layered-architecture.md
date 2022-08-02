@@ -70,6 +70,9 @@ With that out of the way, we can take a look at the actual benchmark numbers.
 
 From the graph, we see that time is growing with the number of requests in a linear way. On average execution with all layers is **40-50% slower**.
 
+<iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-dF2xE" src="https://datawrapper.dwcdn.net/dF2xE/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="333"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+
 ![Memory consumption characteristics of Layered Architecture](/images/2.png "Memory consumption characteristics of Layered Architecture")
 
 Looking at memory usage the differences are even clearer. While using layers app consumes about **80-90% more memory**.
