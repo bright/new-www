@@ -7,17 +7,16 @@ tags:
   - benchmark
   - layered architecture
 date: 2022-07-28T15:22:45.694Z
-title: Cost of layered architecture
+title: Cost of Layered Architecture
 layout: post
 image: /images/layers.png
 hidden: true
 comments: true
 published: true
 ---
-Layered architecture is probably one of the most popular choices in the Object Oriented Systems, and for a good reason.
+**Layered architecture is probably one of the most popular choices in the Object Oriented Systems, and for a good reason.
 When done right it provides great separation of concerns making each layer replaceable without a need to transform everything around it. 
-But layers require a lot of additional models, in this post, we take a look at how additional models and constant mappings 
-impact performance of our app.
+But layers require a lot of additional models, in this post, we take a look at how additional models and constant mappings impact performance of our app.**
 
 Most common use cases of layer architecture define 4 layers: UI, Application, Domain and Persistance. To keep better separation, each layer
 is supposed to have its own data model, that will be used only inside this layer. This means that we are creating a lot of versions of very similar classes
@@ -27,7 +26,7 @@ This post is all about benchmarking an example JVM app. We take a look at speed 
 You can find the source code [here](https://gitlab.com/garstecki/layers), feel free to run it and see what is outcome on your machine.
 
 Our benchmark tool it's a Kotlin app with just a single dependency on `com.neovisionaries:nv-i18n` (We are going to use it for the
-`CountryCode`). The premiss is pretty simple. We will be creating `User` with some basic properties.  User will be stored inside an in-memory repository. 
+`CountryCode`). The premiss is pretty simple. We will be creating `User` with some basic properties. User will be stored inside an in-memory repository. 
 After that, we will try to retrieve the data and return it to the caller.
 
 ```kotlin
@@ -71,7 +70,7 @@ From the graph, we see that time is growing with the number of requests in a lin
 
 ![Memory consumption characteristics of Layered Architecture](/images/2.png "Memory consumption characteristics of Layered Architecture")
 
-Looking at memory usage the differences are even clearer. While using layers app consumes about **80-90% more memory**
+Looking at memory usage the differences are even clearer. While using layers app consumes about **80-90% more memory**.
 
 To no one surprise, additional layers provide overhead for the app and consume more memory. But this is not the end of the story.
 We are missing one important factor, JIT! JVM can improve our performance in the runtime.
