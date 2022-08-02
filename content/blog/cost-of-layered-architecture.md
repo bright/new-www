@@ -64,13 +64,15 @@ With that out of the way, we can take a look at the actual benchmark numbers.
 
 ## Let's take a look at the numbers!
 
-![Performance characteristics of Layered Architecture](/images/1.png "Performance characteristics of Layered Architecture")
+<iframe title="" aria-label="Interactive line chart" id="datawrapper-chart-dF2xE" src="https://datawrapper.dwcdn.net/dF2xE/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="333"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
 
 *No. of elements* - means number of objects that will be dragged on through the whole flow. In the web app, this is comparable to the number of requests. 
 
 From the graph, we see that time is growing with the number of requests in a linear way. On average execution with all layers is **40-50% slower**.
 
-![Memory consumption characteristics of Layered Architecture](/images/2.png "Memory consumption characteristics of Layered Architecture")
+<iframe title=" (Copy)" aria-label="Interactive line chart" id="datawrapper-chart-DBePV" src="https://datawrapper.dwcdn.net/DBePV/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="333"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
 
 Looking at memory usage the differences are even clearer. While using layers app consumes about **80-90% more memory**.
 
@@ -95,12 +97,14 @@ val end = System.currentTimeMillis()
 println("All layers execution of $batch - ${end - start}ms")
 ```
 
-![JVM JIT impact on Layered Architecture performance](/images/3.png "JVM JIT impact on Layered Architecture performance")
+<iframe title=" (Copy)" aria-label="Interactive line chart" id="datawrapper-chart-Iqd63" src="https://datawrapper.dwcdn.net/Iqd63/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="333"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
 
 By increasing the number of warm-up runs we are decreasing the difference between both approaches. It means that JIT slowly finds a way to
 reduce time spend on mapping objects and after ~20 runs both methods seem to even out to a similar outcome.
 
-![JVM JIT impact on Layered Architecture memory consumption](/images/4.png "JVM JIT impact on Layered Architecture memory consumption")
+<iframe title=" (Copy)" aria-label="Interactive line chart" id="datawrapper-chart-sRwia" src="https://datawrapper.dwcdn.net/sRwia/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="333"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
 
 A quick look at memory usage. But looks like JIT does not help here, and the discrepancy between both methods stays on the same level.
 
