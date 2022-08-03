@@ -74,3 +74,13 @@ In September **I will conduct a free webinar – “Introduction to Jetpack Comp
 I started to look for a job because the project I worked on wasn’t satisfying to me. My friend who is an Android Developer as well recommended Bright Inventions and linked me with Ula. We started to talk and I liked what I heard. **I appreciated the fact that Bright Inventions is not an outsourcing company**. Here you work as a team for the client. Also, **it suits me that Bright is a small company, so you don’t have to worry about bureaucracy or following corporate standards**, etc. 
 
 ![Quote on working at Bright Inventions](/images/damian_story_quote_bright.png)
+
+## You believe in the power of knowledge-sharing. What are best practices for knowledge exchange among developers?
+
+When I joined Bright Inventions, I got a chance to introduce **bi-weekly Android devs meetups**. I must say that this is a great way to share knowledge. **It’s all about giving everyone opportunities to interact and talk about projects and challenges** in a friendly, open atmosphere. Meetings aren’t mandatory but I can see that people gladly participate.
+
+It often turns out that simple talks about our recent tasks become great starters for inspiring discussions. I get to know other people's perspectives and it can only make me a better programmer.
+
+I’ve noticed that these meetings have helped some people to really speak up. Thus, **it builds strong relations among Android devs despite being on different teams**. Thanks to meetups like that it is easier to call or message a colleague and ask about their opinion or help. I believe that organizing meetups like that are one of the most effective ways to share knowledge internally.
+
+## What do you think about the project you work on at Bright?
