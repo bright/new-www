@@ -94,3 +94,5 @@ Soon we will launch the MVP. The app’s core is an offline mode. Building offli
 **If my job was only writing code I would get bored so fast**. I am fulfilled when I get to design processes, life cycles, and the whole logic of the app. I am definitely a person on the team who creates most of the feature diagrams. **Figuring out how something should work is much more intriguing to me than writing lines of code. Code is just one thing, nothing unusual, everything that surrounds it determines if the project succeeds**. 
 
 ![Quote on programming](/images/brightstoryquotecode.png)
+
+## What do you do in your spare time?
