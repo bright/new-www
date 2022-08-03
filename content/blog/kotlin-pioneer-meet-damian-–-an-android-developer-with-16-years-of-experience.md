@@ -32,3 +32,7 @@ It happened at my second job around 2008. This was **the first time I got to wor
 ![](/images/brightstory_phone_android.png "Source: https://www.flickr.com/photos/13147327@N00/2882882455")
 
 *<center> Source: [https://www.flickr.com](https://www.flickr.com/photos/13147327@N00/2882882455) </center>*
+
+My job was to rewrite the software for Android. **I just loved Android from the first interaction with it**. I could see the tremendous quality improvements made by Android. It was just easier to write code. 
+
+![](/images/damian_story_quote_androidlove-3-.png)
