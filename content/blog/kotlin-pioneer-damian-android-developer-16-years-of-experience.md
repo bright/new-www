@@ -5,11 +5,11 @@ tags:
   - android
   - kotlin
   - bright story
-date: 2022-08-03T07:42:58.301Z
+date: 2022-08-03T08:20:22.853Z
 title: Kotlin Pioneer. Meet Damian – an Android Developer with 16 Years of Experience
 layout: post
 image: /images/brightstorydamian.jpg
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -21,7 +21,7 @@ published: true
 
 I got my first software development job in 2006. At that time I studied externally Computer Science. I chose that field because computers were the only thing that really interested me. Like many others, it all started with gaming. I figured that programming was intriguing because it involved solving problems and that felt exciting.
 
-At my first job, I was developing games for phones. Obviously not for smartphones because they weren't on the market yet. For example, I worked on a Pro Evolution Soccer game. So I started my career as a game dev and I couldn’t be happier about it. I was a dedicated gamer after all. 🙂 I worked with Java 2 Platform, Micro Edition. Yes, I used tech that’s dead at this point. 😉
+**At my first job, I was developing games for phones**. Obviously not for smartphones because they weren't on the market yet. For example, **I worked on a Pro Evolution Soccer game**. So I started my career as a game dev and I couldn’t be happier about it. I was a dedicated gamer after all. 🙂 I worked with Java 2 Platform, Micro Edition. Yes, I used tech that’s dead at this point. 😉
 
 ![Damian](/images/damian_picture_passions.png)
 
@@ -47,7 +47,7 @@ I changed jobs from time to time but from then **my priority was to always work 
 
 Kotlin was so unknown to developers that when I tried to talk about it with another Polish dev they thought that I talked about a Polish ketchup brand because it is called Kotlin too. 🙂 However, Kotlin was then unknown globally, not only among Polish programmers.
 
-**I started to spread the word about Kotlin**. I was a speaker at various events. I also created other content about Jetbrains’ solution. There was one special video interview I was a part of. The video was [listed by JetBrains as one of the Top 5 Events Recordings about Kotlin in 2015](https://blog.jetbrains.com/kotlin/2016/01/kotlin-digest-2015/). Since 2017 I also shared my Android development experiences on my [blog](https://medium.com/@DamianPetla). 
+**I decided to spread the word about Kotlin**. I was a speaker at various events. I also created other content about Jetbrains’ solution. There was one special video interview I was a part of. The video was [listed by JetBrains as one of the Top 5 Events Recordings about Kotlin in 2015](https://blog.jetbrains.com/kotlin/2016/01/kotlin-digest-2015/). Since 2017 I also shared my Android development experiences on my [blog](https://medium.com/@DamianPetla). 
 
 ![Damian's bright story](/images/brightstorydamian.jpg)
 
