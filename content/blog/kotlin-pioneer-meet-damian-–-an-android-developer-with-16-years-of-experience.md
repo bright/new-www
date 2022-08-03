@@ -5,7 +5,7 @@ tags:
   - android
   - kotlin
   - bright story
-date: 2022-08-03T07:02:55.098Z
+date: 2022-08-03T07:42:58.301Z
 title: Kotlin Pioneer. Meet Damian – an Android Developer with 16 Years of Experience
 layout: post
 image: /images/brightstorydamian.jpg
@@ -48,6 +48,8 @@ I changed jobs from time to time but from then **my priority was to always work 
 Kotlin was so unknown to developers that when I tried to talk about it with another Polish dev they thought that I talked about a Polish ketchup brand because it is called Kotlin too. 🙂 However, Kotlin was then unknown globally, not only among Polish programmers.
 
 **I started to spread the word about Kotlin**. I was a speaker at various events. I also created other content about Jetbrains’ solution. There was one special video interview I was a part of. The video was [listed by JetBrains as one of the Top 5 Events Recordings about Kotlin in 2015](https://blog.jetbrains.com/kotlin/2016/01/kotlin-digest-2015/). Since 2017 I also shared my Android development experiences on my [blog](https://medium.com/@DamianPetla). 
+
+![Damian's bright story](/images/brightstorydamian.jpg)
 
 ## You are a Jetpack Compose enthusiast. What are the pros and cons of it?
 
