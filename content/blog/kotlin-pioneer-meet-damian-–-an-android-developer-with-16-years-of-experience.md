@@ -56,3 +56,21 @@ Jetpack Compose is a new toolkit to build native UI for Android apps. It is an a
 ![Jetpack Compose](/images/brightstory_quote_jetpack.png)
 
 Obviously, the Jetpack Compose library is in its early stages. So it still doesn't work as we expect it to do, for example, there have been issues with the preview. Yet, I guess we all remember that the Android Studio preview had its issues at the beginning as well. It is a typical cycle of life for every new library or language.
+
+## Should Android devs start using Jetpack Compose on every project?
+
+**I would utilize Jetpack Compose on every new mobile project**. However, I don’t think that developers should now migrate all their solutions to it. Every migration of an advanced project is a challenge. No matter if we talk about Jetpack Compose or other tools.
+
+I must say, though, that **Jetpack Compose makes the potential switch as easier as it is possible**. You can mix old views with new ones. You can build views in Compose and then implement them with XML. So you can use Jetpack in huge projects but only for one screen just to see if it works for your team. After all, it is not as a challenging transition as some could think.
+
+## You are planning a free webinar about Jetpack Compose. Who can join it?
+
+In September **I will conduct a free webinar – “Introduction to Jetpack Compose”**. It will be held in Polish. I will show how this new Google framework works and answer any questions. I invite Android developers who haven’t had a chance to try Jetpack Compose yet. You don’t have to be a senior mobile developer but you should have some experience in writing Android apps.
+
+*Soon we will share details about the webinar, so make sure to follow us on [Facebook](https://www.facebook.com/Bright.Inventions/) or [LinkedIn](https://www.linkedin.com/company/bright-inventions/). Also, [sign up for our newsletter](https://app.getresponse.com/site2/5d4d6f8b6908199482efeb84d0edf9a5/?u=QX16N&webforms_id=hKPfh).*
+
+## Why did you join Bright Inventions?
+
+I started to look for a job because the project I worked on wasn’t satisfying to me. My friend who is an Android Developer as well recommended Bright Inventions and linked me with Ula. We started to talk and I liked what I heard. **I appreciated the fact that Bright Inventions is not an outsourcing company**. Here you work as a team for the client. Also, **it suits me that Bright is a small company, so you don’t have to worry about bureaucracy or following corporate standards**, etc. 
+
+![Quote on working at Bright Inventions](/images/damian_story_quote_bright.png)
