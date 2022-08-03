@@ -5,7 +5,7 @@ tags:
   - android
   - kotlin
   - bright story
-date: 2022-08-03T07:42:58.301Z
+date: 2022-08-03T08:20:22.853Z
 title: Kotlin Pioneer. Meet Damian – an Android Developer with 16 Years of Experience
 layout: post
 image: /images/brightstorydamian.jpg
