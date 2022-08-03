@@ -96,3 +96,7 @@ Soon we will launch the MVP. The app’s core is an offline mode. Building offli
 ![Quote on programming](/images/brightstoryquotecode.png)
 
 ## What do you do in your spare time?
+
+I spend lots of my free time with my wife and daughter. Also, **I am a Path of Exile game maniac**. When there is a new league released I can even take some days off to play it. Plus, I work on my own app with a friend. During winter I love snowboarding. I read books and follow movies and TV series on every available streaming platform. The app I work after hours is actually related to that passion. Maybe someday you will download it on your phone. 😉
+
+![Damian's private photo with his family](/images/damian_picture_family.png)
