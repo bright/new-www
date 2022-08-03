@@ -9,7 +9,7 @@ date: 2022-08-03T08:20:22.853Z
 title: Kotlin Pioneer. Meet Damian – an Android Developer with 16 Years of Experience
 layout: post
 image: /images/brightstorydamian.jpg
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
