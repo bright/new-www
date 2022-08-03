@@ -84,3 +84,7 @@ It often turns out that simple talks about our recent tasks become great starter
 I’ve noticed that these meetings have helped some people to really speak up. Thus, **it builds strong relations among Android devs despite being on different teams**. Thanks to meetups like that it is easier to call or message a colleague and ask about their opinion or help. I believe that organizing meetups like that are one of the most effective ways to share knowledge internally.
 
 ## What do you think about the project you work on at Bright?
+
+I work on a team that builds a mobile solution for a building construction company based in Germany. We build an Android app for employees and contractors. The client already owns a web app and they needed our support to build a mobile one. **I enjoy the fact that we work closely with the client**. **They trust us and our expertise**. We are a partner helping to meet all their business objectives.
+
+![Quote on project](/images/damian_story_quote_client.png)
