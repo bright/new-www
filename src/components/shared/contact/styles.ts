@@ -23,6 +23,14 @@ export const Description = styled.div({
 
 export const Form = styled.form({
   marginTop: '55px',
+  ['& .isSelected']: {
+    color: variables.color.text,
+    opacity: 1,
+  },
+  ['& .isDefault']: {
+    color: variables.color.text,
+    opacity: 0.56,
+  },
 
   ['@media screen and (max-width: 767px)']: {
     marginTop: '35px',
@@ -115,14 +123,6 @@ export const SingleSelect = styled.select({
   marginBottom: '40px',
 
   paddingLeft: '20px',
-  ['& .isSelected']: {
-    color: variables.color.text,
-    opacity: 1,
-  },
-  ['& option']: {
-    color: variables.color.text,
-    opacity: 1,
-  },
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
@@ -141,6 +141,7 @@ export const DoubleInputsRow = styled.div({
 export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
   marginRight: leftSide ? '64px' : 0,
   width: '45%',
+
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
     marginRight: 0,
