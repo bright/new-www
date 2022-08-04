@@ -52,3 +52,36 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 * **Modern scales have Bluetooth connections or are connected to the router with an ethernet cable**. In the latter case, they connect with the dedicated app with User Datagram Protocol (UDP). UDP is a widely used protocol for live video streaming or online games. 
 
 ## Barcode scanner:
+
+* Bluetooth wireless technology enables scanning barcodes on paper or screen.
+* Modern scanners make it possible to scan even damaged prints, and faulty or dirty codes.
+
+### Magnetic stripe reader:
+
+* These devices read debit, credit, and loyalty cards. To be precise, they read information encoded in the magnetic stripe located on the plastic card.
+* An interesting fact is that magnetic stripes are likely to be globally replaced by chips and contactless payment which are considered more secure. In 2021 [Mastercard announced that magnetics stripes won’t be required in most markets since 2024](https://www.mastercard.com/news/perspectives/2021/magnetic-stripe/).
+
+### Kiosk:
+
+* We can divide kiosks into retail and catering versions.
+* **Retail kiosks are screen devices enabling contactless payment**. Clients can scan goods and pay thanks to a built-in terminal to eventually receive a printed receipt.
+* A catering version of the device is often used in popular fast-food restaurants where every client can go to the restaurant and order a meal using the kiosk. Then the order is transferred to the kitchen.
+* Kiosks are known for simple interfaces dedicated to massive use.
+
+### Printers:
+
+There are two types of printers often used in retail:
+
+**1. Label printer**
+
+The label printer is often built-in electronic scales. When you weigh the product, the printer prints the sticker with the barcode which can be scanned by a cashier.
+
+**2. Thermal printer**
+
+The device that prints receipts. Thermal printers emit light to the paper that is photosensitive so it leaves the “marks” that we know as the list of our groceries and all the costs.
+
+**These are examples of retail hardware that we work with at Bright Inventions.**
+
+If you are a startup owner and looking for a software company that could work on retail software development, let us know more about your software project. Hardware is only part of success in retail. The key is to connect it with the custom-developed ePOS Android and iOS applications. And that is our specialty.
+
+[Let’s talk about your ePOS app](start-project)
