@@ -123,6 +123,10 @@ export const SingleSelect = styled.select({
   marginBottom: '40px',
 
   paddingLeft: '20px',
+  ['&:focus-visible']: {
+    outline: '1px solid #000',
+    background: 'inherit',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
@@ -158,13 +162,16 @@ export const IdeaTextArea = styled.textarea({
   fontFamily: variables.font.text.family,
   ...placeHolderStyle,
   color: variables.color.text,
-  opacity: 0.54,
 
   padding: '20px',
 
   border: `1px solid ${variables.color.borderInput}`,
 
   marginBottom: '40px',
+  ['&:focus-visible']: {
+    outline: '1px solid #000',
+    background: 'inherit',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     marginBottom: '10px',
