@@ -100,6 +100,9 @@ export const TextInput = styled.input({
     outline: '1px solid #000',
     background: 'inherit',
   },
+  [':focus:not(:focus-visible)']: {
+    outline: 'none',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     marginBottom: '10px',
@@ -116,8 +119,6 @@ export const SingleSelect = styled.select({
 
   fontFamily: variables.font.text.family,
 
-  // ...placeHolderStyle,
-
   border: `1px solid ${variables.color.borderInput}`,
 
   marginBottom: '40px',
@@ -127,7 +128,7 @@ export const SingleSelect = styled.select({
     outline: '1px solid #000',
     background: 'inherit',
   },
-  ['&:focus']: {
+  [':focus:not(:focus-visible)']: {
     outline: 'none',
   },
 
@@ -174,6 +175,9 @@ export const IdeaTextArea = styled.textarea({
   ['&:focus-visible']: {
     outline: '1px solid #000',
     background: 'inherit',
+  },
+  ['&:focus:not(:focus-visible)']: {
+    outline: 'none',
   },
 
   ['@media screen and (max-width: 767px)']: {
