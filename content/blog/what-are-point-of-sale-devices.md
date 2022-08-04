@@ -93,6 +93,8 @@ The device that prints receipts. Thermal printers emit light to the paper that i
 
 **These are examples of retail hardware that we work with at Bright Inventions.**
 
-If you are a startup owner and looking for a software company that could work on retail software development, let us know more about your software project. Hardware is only part of success in retail. The key is to connect it with the custom-developed ePOS Android and iOS applications. And that is our specialty.
+![ePOS software development company](/images/backendteam.png)
+
+**If you are a startup owner and look for a software agency, let us know more about your project. Hardware is only part of success in retail. The key is to connect it with the custom-developed ePOS Android and iOS applications. And that is our specialty.**
 
 [Let’s talk about your ePOS app](start-project)
