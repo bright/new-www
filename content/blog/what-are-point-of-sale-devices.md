@@ -5,6 +5,7 @@ thirdAuthor: izabela
 tags:
   - business
   - development
+  - bluetooth
 date: 2022-08-04T07:23:33.938Z
 title: What Are Point of Sale Devices?
 layout: post
@@ -27,6 +28,8 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 
 ### POS Desktops:
 
+![ePOS desktop](/images/pos_desktop.png)
+
 * The core of ePOS systems - **double screen devices enabling managing orders in restaurants**. One screen is facing the customer to display the order. Another one is used by the cash employee to optimize the order and finalize the transaction.
 * Displays are only a part of it. ePOS desktops have built-in printers, cameras (normal and face recognition cameras), speakers, and NFC&MSR card readers.
 * **The core of ePOS are applications** developed entirely for retail purposes. Thanks to the app the employee creates an order, conducts the payment, and then the order is transferred to the kitchen with its own meal displaying system.
@@ -42,16 +45,22 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 
 ### Payment terminal:
 
+![payment terminal ePOS](/images/payment_terminal.png)
+
 * That’s probably the retail device that every consumer knows.
 * **Terminals are integrated with ePOS devices to display the final price on the terminal** based on the order data from ePOS. Terminals can be connected locally, by Bluetooth, or via the internet (cloud).
 * The demand for cashless transactions is growing. For example, The European POS terminal market shipment accounted for 10.25 million units in 2020. [It is expected to reach 22.10 million by 2026](https://www.reportlinker.com/p06129760/Europe-POS-Terminal-Market-Growth-Trends-COVID-19-Impact-Forecasts.html). Therefore the market for cashless transaction tech is growing as well.
 
 ### Electronic scale:
 
+![electronic scale ePOS](/images/electronic_scale.png)
+
 * We know the drill here as well. Consumers choose the product that they’ve just weighted. The scale reports the weight of the product.
 * **Modern scales have Bluetooth connections or are connected to the router with an ethernet cable**. In the latter case, they connect with the dedicated app with User Datagram Protocol (UDP). UDP is a widely used protocol for live video streaming or online games. 
 
 ## Barcode scanner:
+
+![Barcode scanner ePOS](/images/baarcode_scanner.png)
 
 * Bluetooth wireless technology enables scanning barcodes on paper or screen.
 * Modern scanners make it possible to scan even damaged prints, and faulty or dirty codes.
@@ -77,6 +86,8 @@ There are two types of printers often used in retail:
 The label printer is often built-in electronic scales. When you weigh the product, the printer prints the sticker with the barcode which can be scanned by a cashier.
 
 **2. Thermal printer**
+
+![thermal printer ePOS](/images/printer.png)
 
 The device that prints receipts. Thermal printers emit light to the paper that is photosensitive so it leaves the “marks” that we know as the list of our groceries and all the costs.
 
