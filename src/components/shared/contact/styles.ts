@@ -127,6 +127,9 @@ export const SingleSelect = styled.select({
     outline: '1px solid #000',
     background: 'inherit',
   },
+  ['&:focus']: {
+    outline: 'none',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
