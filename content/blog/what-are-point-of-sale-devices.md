@@ -97,4 +97,4 @@ The device that prints receipts. Thermal printers emit light to the paper that i
 
 **If you are a startup owner and look for a software agency, let us know more about your project. Hardware is only part of success in retail. The key is to connect it with the custom-developed ePOS Android and iOS applications. And that is our specialty.**
 
-[Let’s talk about your ePOS app](start-project)
+[Let’s talk about your ePOS app](/start-project)
