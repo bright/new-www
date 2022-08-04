@@ -58,7 +58,7 @@ In this article, we focus on hardware solutions that are a part of modern ePOS f
 * We know the drill here as well. Consumers choose the product that they’ve just weighted. The scale reports the weight of the product.
 * **Modern scales have Bluetooth connections or are connected to the router with an ethernet cable**. In the latter case, they connect with the dedicated app with User Datagram Protocol (UDP). UDP is a widely used protocol for live video streaming or online games. 
 
-## Barcode scanner:
+### Barcode scanner:
 
 ![Barcode scanner ePOS](/images/baarcode_scanner.png)
 
