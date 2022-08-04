@@ -8,11 +8,14 @@ tags:
 date: 2022-08-04T07:23:33.938Z
 title: What Are Point of Sale Devices?
 layout: post
+image: /images/blog_post_cover_epos.png
 hidden: false
 comments: true
 published: true
 ---
 **Are you planning to build a Point of Sale system for retail and restaurant? This is the world where software constantly meets hardware. Before you start to develop your retail solution, learn about the types of equipment used in Points of Sale.**
+
+![ePOS equipment](/images/blog_post_cover_epos.png)
 
 ## What is an ePOS system?
 
