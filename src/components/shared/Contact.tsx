@@ -13,6 +13,7 @@ import {
   PrivacyPolicyCheckbox,
   PrivacyPolicyCheckboxContainer,
   RequiredMessage,
+  SelectWrapper,
   SingleSelect,
   SubmitButton,
   TextInput
@@ -250,6 +251,7 @@ export const Contact: FC<ContactProps> = ({
 
             <DoubleInputsRowEntry>
               <Label>Service</Label>
+              <SelectWrapper>
               <HeroSingleSelect name='service' value={service} onChange={e => setService(e.target.value)}  className={service ? (service === 'DEFAULT' ? 'isDefault' :'isSelected' ):''}>
              
                 <option value='DEFAULT' hidden>
@@ -263,6 +265,7 @@ export const Contact: FC<ContactProps> = ({
                 <option value='agile_workshops'>agile workshops</option>
                 <option value='other'>other</option>
               </HeroSingleSelect>
+              </SelectWrapper>
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
@@ -278,6 +281,7 @@ export const Contact: FC<ContactProps> = ({
           />
 
           <Label>How did you find out about us?</Label>
+          <SelectWrapper>
           <HeroSingleSelect
             name='source'
             value={source}
@@ -294,7 +298,8 @@ export const Contact: FC<ContactProps> = ({
             <option value='google'>Google</option>
             <option value='other'>other</option>
           </HeroSingleSelect>
-
+          </SelectWrapper>
+          
           <PrivacyPolicyCheckboxContainer>
             <PrivacyPolicyCheckbox
               type='checkbox'

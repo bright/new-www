@@ -3,6 +3,7 @@ import { TextRegular, TextTitle } from '..'
 import variables from '../../../styles/variables'
 import { Button as ButtonBase } from '../../whatWeDo/banners/styles'
 import { lighten, rgba } from 'polished'
+import Arrow from '../../../../static/images/arrow-select.svg'
 
 export const Header = styled.div({
   fontSize: '36px',
@@ -128,6 +129,7 @@ export const SingleSelect = styled.select({
   outline: 0,
 
   paddingLeft: '20px',
+
   ['&:focus-visible']: {
     outline: '1px solid #000',
     background: 'inherit',
@@ -193,6 +195,24 @@ export const IdeaTextArea = styled.textarea({
     marginBottom: '10px',
   },
 })
+
+export const SelectWrapper = styled.div`
+  position: relative;
+  max-width: 445px;
+  &::after {
+    content: '';
+    background: url(${Arrow}) 50% no-repeat;
+    background-size: contain;
+    pointer-events: none;
+    transition: transform 0.2s ease-in-out;
+    position: absolute;
+    top: calc(23px - 6px);
+    right: 16px;
+    width: 12px;
+    height: 12px;
+    z-index: 2;
+  },
+  `
 
 export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
   display: 'flex',
