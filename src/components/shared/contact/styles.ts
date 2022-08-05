@@ -90,6 +90,9 @@ export const TextInput = styled.input({
   fontFamily: variables.font.text.family,
 
   color: variables.color.text,
+  appearance: 'none',
+  borderRadius: 'unset',
+  outline: 0,
 
   padding: '20px',
   border: `1px solid ${variables.color.borderInput}`,
@@ -123,6 +126,8 @@ export const SingleSelect = styled.select({
   background: variables.color.white,
   appearance: 'none',
   marginBottom: '40px',
+  borderRadius: 'unset',
+  outline: 0,
 
   paddingLeft: '20px',
   ['&:focus-visible']: {
@@ -173,6 +178,11 @@ export const IdeaTextArea = styled.textarea({
   border: `1px solid ${variables.color.borderInput}`,
 
   marginBottom: '40px',
+
+  appearance: 'none',
+  borderRadius: 'unset',
+  outline: 0,
+
   ['&:focus-visible']: {
     outline: '1px solid #000',
     background: 'inherit',
@@ -198,6 +208,8 @@ export const PrivacyPolicyCheckbox = styled.input({
   height: '30px',
   width: '30px',
   marginRight: '19px',
+
+  borderRadius: 'unset',
 })
 
 const SubmitMessage = styled.div({
