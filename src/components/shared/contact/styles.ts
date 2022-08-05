@@ -28,8 +28,7 @@ export const Form = styled.form({
     opacity: 1,
   },
   ['& .isDefault']: {
-    color: variables.color.text,
-    opacity: 0.56,
+    color: 'rgba(10, 10, 10, .56)',
   },
 
   ['@media screen and (max-width: 767px)']: {
@@ -75,8 +74,7 @@ export const Label = styled.div({
 
 const placeHolderStyle = {
   '&::placeholder': {
-    color: variables.color.text,
-    opacity: 0.56,
+    color: 'rgba(10, 10, 10, .56)',
   },
 }
 
