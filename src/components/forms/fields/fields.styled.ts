@@ -13,6 +13,8 @@ export const TextFieldContainer = styled.label`
     background: inherit;
     padding: 1.25rem;
     width: 100%;
+    font-family: inherit;
+    font-size: 1rem;
     resize: vertical;
     &:focus-visible {
       outline: 1px solid #000;
