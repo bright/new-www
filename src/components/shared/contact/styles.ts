@@ -120,7 +120,7 @@ export const SingleSelect = styled.select({
   fontFamily: variables.font.text.family,
 
   border: `1px solid ${variables.color.borderInput}`,
-
+  background: variables.color.white,
   marginBottom: '40px',
 
   paddingLeft: '20px',
