@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import { TextRegular, TextTitle } from '..'
 import variables from '../../../styles/variables'
 import { Button as ButtonBase } from '../../whatWeDo/banners/styles'
-import { lighten } from 'polished'
+import { lighten, rgba } from 'polished'
+import Arrow from '../../../../static/images/arrow-select.svg'
 
 export const Header = styled.div({
   fontSize: '36px',
@@ -23,6 +24,13 @@ export const Description = styled.div({
 
 export const Form = styled.form({
   marginTop: '55px',
+  ['& .isSelected']: {
+    color: variables.color.text,
+    opacity: 1,
+  },
+  ['& .isDefault']: {
+    color: 'rgba(10, 10, 10, .56)',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     marginTop: '35px',
@@ -58,18 +66,16 @@ export const SubmitButton = styled.button({
 })
 
 export const Label = styled.div({
-  fontSize: '14px',
+  fontSize: '16px',
   lineHeight: '40px',
 
   fontFamily: variables.font.text.family,
   color: variables.color.text,
-
-  marginBottom: '8px',
 })
 
 const placeHolderStyle = {
   '&::placeholder': {
-    color: lighten(0.05, variables.color.text),
+    color: 'rgba(10, 10, 10, .56)',
   },
 }
 
@@ -83,12 +89,22 @@ export const TextInput = styled.input({
   fontFamily: variables.font.text.family,
 
   color: variables.color.text,
-  opacity: 0.56,
+  appearance: 'none',
+  borderRadius: 'unset',
+  outline: 0,
 
   padding: '20px',
-  border: `1px solid ${variables.color.text}`,
+  border: `1px solid ${variables.color.borderInput}`,
   ...placeHolderStyle,
   marginBottom: '40px',
+
+  ['&:focus-visible']: {
+    outline: '1px solid #000',
+    background: 'inherit',
+  },
+  [':focus:not(:focus-visible)']: {
+    outline: 'none',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     marginBottom: '10px',
@@ -104,15 +120,23 @@ export const SingleSelect = styled.select({
   lineHeight: '40px',
 
   fontFamily: variables.font.text.family,
-  color: variables.color.text,
-  ...placeHolderStyle,
-  opacity: 0.55,
 
-  border: `1px solid ${variables.color.text}`,
-
+  border: `1px solid ${variables.color.borderInput}`,
+  background: variables.color.white,
+  appearance: 'none',
   marginBottom: '40px',
+  borderRadius: 'unset',
+  outline: 0,
 
   paddingLeft: '20px',
+
+  ['&:focus-visible']: {
+    outline: '1px solid #000',
+    background: 'inherit',
+  },
+  [':focus:not(:focus-visible)']: {
+    outline: 'none',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
@@ -131,6 +155,7 @@ export const DoubleInputsRow = styled.div({
 export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
   marginRight: leftSide ? '64px' : 0,
   width: '45%',
+
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
     marginRight: 0,
@@ -146,19 +171,48 @@ export const IdeaTextArea = styled.textarea({
   lineHeight: '19px',
   fontFamily: variables.font.text.family,
   ...placeHolderStyle,
-  color: variables.color.black,
-  opacity: 0.54,
+  color: variables.color.text,
 
   padding: '20px',
 
-  border: `1px solid ${variables.color.text}`,
+  border: `1px solid ${variables.color.borderInput}`,
 
   marginBottom: '40px',
+
+  appearance: 'none',
+  borderRadius: 'unset',
+  outline: 0,
+
+  ['&:focus-visible']: {
+    outline: '1px solid #000',
+    background: 'inherit',
+  },
+  ['&:focus:not(:focus-visible)']: {
+    outline: 'none',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     marginBottom: '10px',
   },
 })
+
+export const SelectWrapper = styled.div`
+  position: relative;
+  max-width: 445px;
+  &::after {
+    content: '';
+    background: url(${Arrow}) 50% no-repeat;
+    background-size: contain;
+    pointer-events: none;
+    transition: transform 0.2s ease-in-out;
+    position: absolute;
+    top: calc(23px - 6px);
+    right: 16px;
+    width: 12px;
+    height: 12px;
+    z-index: 2;
+  },
+  `
 
 export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
   display: 'flex',
@@ -172,6 +226,8 @@ export const PrivacyPolicyCheckbox = styled.input({
   height: '30px',
   width: '30px',
   marginRight: '19px',
+
+  borderRadius: 'unset',
 })
 
 const SubmitMessage = styled.div({

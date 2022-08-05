@@ -13,6 +13,7 @@ import {
   PrivacyPolicyCheckbox,
   PrivacyPolicyCheckboxContainer,
   RequiredMessage,
+  SelectWrapper,
   SingleSelect,
   SubmitButton,
   TextInput
@@ -163,7 +164,7 @@ export const Contact: FC<ContactProps> = ({
     const isValid: boolean = checkedRules && name && email && message ? true : false
     setValid(isValid)
   }
-
+ 
   return (
     <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
       <Container>
@@ -250,11 +251,13 @@ export const Contact: FC<ContactProps> = ({
 
             <DoubleInputsRowEntry>
               <Label>Service</Label>
-              <HeroSingleSelect name='service' value={service} onChange={e => setService(e.target.value)}>
+              <SelectWrapper>
+              <HeroSingleSelect name='service' value={service} onChange={e => setService(e.target.value)}  className={service ? (service === 'DEFAULT' ? 'isDefault' :'isSelected' ):''}>
+             
                 <option value='DEFAULT' hidden>
                   Pick what service you need
                 </option>
-                <option value='web_development'>web development</option>
+                <option value='web_development'  >web development</option>
                 <option value='mobile_app_development'>mobile app development</option>
                 <option value='product_design'>product design</option>
                 <option value='blockchain'>blockchain</option>
@@ -262,6 +265,7 @@ export const Contact: FC<ContactProps> = ({
                 <option value='agile_workshops'>agile workshops</option>
                 <option value='other'>other</option>
               </HeroSingleSelect>
+              </SelectWrapper>
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
@@ -273,16 +277,19 @@ export const Contact: FC<ContactProps> = ({
             maxLength={5000}
             placeholder='Describe your project'
             required
+            className={message ? 'isSelected' :''}
           />
 
           <Label>How did you find out about us?</Label>
+          <SelectWrapper>
           <HeroSingleSelect
             name='source'
             value={source}
             onChange={e => setSource(e.target.value)}
             style={{ width: '100%' }}
+            className={source ? (source === 'DEFAULT' ? 'isDefault' :'isSelected' ):''}
           >
-            <option value='DEFAULT' hidden>
+            <option value='DEFAULT'   hidden >
               Select how did you find about us
             </option>
 
@@ -291,7 +298,8 @@ export const Contact: FC<ContactProps> = ({
             <option value='google'>Google</option>
             <option value='other'>other</option>
           </HeroSingleSelect>
-
+          </SelectWrapper>
+          
           <PrivacyPolicyCheckboxContainer>
             <PrivacyPolicyCheckbox
               type='checkbox'

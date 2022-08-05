@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import variables from "../../../styles/variables"
+import styled from 'styled-components'
+import variables from '../../../styles/variables'
 
 export const TextFieldContainer = styled.label`
   display: grid;
@@ -13,7 +13,16 @@ export const TextFieldContainer = styled.label`
     background: inherit;
     padding: 1.25rem;
     width: 100%;
+    font-family: inherit;
+    font-size: 1rem;
     resize: vertical;
+    &:focus-visible {
+      outline: 1px solid #000;
+      background: inherit;
+    }
+    &:focus:not(:focus-visible) {
+      outline: 0;
+    }
   }
 `
 
@@ -78,22 +87,22 @@ export const CheckboxFieldContainer = styled.label`
   }
 `
 
-export const  AttachmentUploaded = styled.div`
-width: fit-content;
-margin-top: 2.25rem;
-padding: 0 1.125rem;
-border: 1px solid rgba(136, 136, 136, .66);
-& span {
- font-size: 1.125rem;
- line-height: 2.5rem;
- word-break: break-all;
- color:var(--black);
-}
- & button {
-   padding-left: 1.125rem;
-   font-size: 1.125rem;
-   text-transform: uppercase;
-   border: none;
-   background-color: transparent;
- }
+export const AttachmentUploaded = styled.div`
+  width: fit-content;
+  margin-top: 2.25rem;
+  padding: 0 1.125rem;
+  border: 1px solid rgba(136, 136, 136, 0.66);
+  & span {
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+    word-break: break-all;
+    color: var(--black);
+  }
+  & button {
+    padding-left: 1.125rem;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+  }
 `

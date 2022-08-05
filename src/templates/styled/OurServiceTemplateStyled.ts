@@ -65,7 +65,7 @@ export const Content = styled.div<{ textAlign?: string }>`
     margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
     line-height: ${variables.pxToRem(40)};
 
-    & :first-of-type {
+    &:first-of-type {
       margin: 0 0 ${variables.pxToRem(36)};
     }
 
@@ -74,7 +74,7 @@ export const Content = styled.div<{ textAlign?: string }>`
       line-height: ${variables.pxToRem(27)};
       color: #000;
       text-align: center;
-      & :first-of-type {
+      &:first-of-type {
         margin: ${variables.pxToRem(32)} 0 ${variables.pxToRem(36)};
       }
     }

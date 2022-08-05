@@ -84,7 +84,7 @@ const StepWrapper = styled.div`
   align-items: flex-start;
   gap: 40px;
 
-  & :not(:first-of-type) {
+  &:not(:first-of-type) {
     margin-top: ${variables.pxToRem(76)};
   }
 
@@ -96,7 +96,7 @@ const StepWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 35px;
-    & :not(:first-of-type) {
+    &:not(:first-of-type) {
       margin-top: ${variables.pxToRem(83)};
     }
     & svg {
@@ -105,7 +105,7 @@ const StepWrapper = styled.div`
   }
   @media ${variables.device.mobile} {
     gap: 25px;
-    & :not(:first-of-type) {
+    &:not(:first-of-type) {
       margin-top: ${variables.pxToRem(64)};
     }
     & svg {

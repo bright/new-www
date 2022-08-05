@@ -6,7 +6,7 @@ import { Section } from '../../components/shared'
 import variables from '../../styles/variables'
 import { IStaticImageProps } from 'gatsby-plugin-image/dist/src/components/static-image.server'
 
-const ImagesBase = styled.div`
+ export const ImagesBase = styled.div`
   & {
     display: flex;
     --gap: 3.5rem;
@@ -25,7 +25,7 @@ const ImagesBase = styled.div`
     @media ${variables.device.mobile} {
       --gap: 1rem;
     }
-    & > * :not(.image-veritical) {
+    & > *:not(.image-veritical) {
       margin: var(--gap) 0 0 var(--gap);
     }
   }

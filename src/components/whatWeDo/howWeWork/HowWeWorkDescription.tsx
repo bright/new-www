@@ -29,7 +29,7 @@ export const ParagraphTextWrapper = styled(TextRegular)`
   text-align: left;
 
   color: ${variables.color.text};
-  & :first-child {
+  &:first-child {
     margin-top: 0;
   }
 `

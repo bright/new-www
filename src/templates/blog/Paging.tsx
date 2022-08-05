@@ -31,7 +31,7 @@ const PagingWrapper = styled.div`
       font-size: ${variables.pxToRem(18)};
       padding: 0;
       margin: 0;
-      & :hover span {
+      &:hover span {
         color: ${variables.color.primary};
       }
     }
@@ -43,7 +43,7 @@ const PagingWrapper = styled.div`
         padding: 0;
         font-weight: normal;
         transition: all ease-out 0.3s;
-        & :hover span {
+        &:hover span {
           color: ${variables.color.text};
           font-weight: 600;
         }

@@ -39,6 +39,7 @@ export default {
     white: '#ffffff',
     black: '#000000',
     heading: '#0A0A0A;',
+    borderInput: '#888888',
   },
 
   font: {
