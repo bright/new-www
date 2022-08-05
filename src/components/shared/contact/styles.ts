@@ -121,6 +121,7 @@ export const SingleSelect = styled.select({
 
   border: `1px solid ${variables.color.borderInput}`,
   background: variables.color.white,
+  appearance: 'none',
   marginBottom: '40px',
 
   paddingLeft: '20px',
