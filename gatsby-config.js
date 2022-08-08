@@ -144,6 +144,7 @@ module.exports = {
             'modal is-active',
             'modal-close',
             'modal-close is-large',
+            'language-text',
           ], // Don't remove this selector
         },
         // More options defined here https://purgecss.com/configuration.html#options
@@ -154,6 +155,27 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              // maxWidth: 960,
+              linkImagesToOriginal: true,
+              maxWidth: 960,
+              withWebp: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`, // Important!
+            options: {
+              margin: 36,
+              scrollOffset: 0,
+              includedSelector: '#blog p img',
+              excludedSelector: '#project p img',
+            },
+          },
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
@@ -196,15 +218,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-copy-linked-files`,
           },
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 960,
-            },
-          },
+
           {
             resolve: `gatsby-remark-prismjs`,
           },
