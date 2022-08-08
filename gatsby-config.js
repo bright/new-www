@@ -144,11 +144,6 @@ module.exports = {
             'modal is-active',
             'modal-close',
             'modal-close is-large',
-            'language-text',
-            'medium-zoom-image',
-            'medium-zoom-image--hidden',
-            'medium-zoom-overlay',
-            'img.medium-zoom-image--opened ',
           ], // Don't remove this selector
         },
         // More options defined here https://purgecss.com/configuration.html#options
@@ -165,23 +160,18 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              // maxWidth: 960,
-              linkImagesToOriginal: false,
-              maxWidth: 1500,
-              withWebp: true,
-              showCaptions: true,
-              quality: 100,
+              maxWidth: 960,
             },
           },
-          {
-            resolve: `gatsby-remark-images-medium-zoom`, // Important!
-            options: {
-              margin: 36,
-              scrollOffset: 0,
-              includedSelector: '#blog p img',
-              excludedSelector: '#project p img',
-            },
-          },
+          // {
+          //   resolve: `gatsby-remark-images-medium-zoom`, // Important!
+          //   options: {
+          //     margin: 36,
+          //     scrollOffset: 0,
+          //     includedSelector: '#blog p img',
+          //     excludedSelector: '#project p img',
+          //   },
+          // },
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
