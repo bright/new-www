@@ -203,17 +203,18 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 960,
+              linkImagesToOriginal: false,
             },
           },
-          // {
-          //   resolve: `gatsby-remark-images-medium-zoom`, // Important!
-          //   options: {
-          //     margin: 36,
-          //     scrollOffset: 0,
-          //     includedSelector: '#blog p img',
-          //     excludedSelector: '#project p img',
-          //   },
-          // },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`, // Important!
+            options: {
+              margin: 36,
+              scrollOffset: 0,
+              includedSelector: '#blog p img',
+              excludedSelector: '#project p img',
+            },
+          },
 
           {
             resolve: `gatsby-remark-prismjs`,
