@@ -7,7 +7,7 @@ title: "Scala Developer "
 subtitle: ONGOING
 image-alt-job: Bright Inventions team
 hours: full-time
-salary: 24 000 - 28 000 PLN + VAT (B2B) or 19 900 - 23 300 PLN gross (UoP)
+salary: 26 000 - 32 000 PLN + VAT (B2B) or 21 600 - 26 600 PLN gross (UoP)
 salary_min: 18000
 salary_max: 26000
 working time: full time
