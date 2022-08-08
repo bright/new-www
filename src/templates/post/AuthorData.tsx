@@ -14,7 +14,7 @@ const AuthorArticle = styled.article`
   &:hover > .media-content {
     opacity: 1;
   }
-  
+
   .title {
     font-size: 1.25em;
   }
@@ -93,7 +93,6 @@ export function AuthorsView({
   slug,
   name,
   avatar,
-  isSingleAuthor,
   bio,
 }: {
   authorId: string | undefined
@@ -109,45 +108,28 @@ export function AuthorsView({
   return (
     <LinkComponent>
       <HelmetMetaAuthor author={name} />
-      {isSingleAuthor ? (
-        <SingleAuthorArticle className='media'>
-          {avatar && (
-            <figure className='media-left'>
-              <p className='single-image'>
-                <GatsbyImage image={getImage(avatar)!} alt={name + ' bio photo'} className='is-rounded' />
-              </p>
-            </figure>
-          )}
-          <div className='media-content'>
-            <div className='content'>
-              <div className='title'>{name}</div>
-              <p className='subtitle is-6'>{bio}</p>
-            </div>
-          </div>
-        </SingleAuthorArticle>
-      ) : (
-        <AuthorArticle>
-          <div className='media-content'>
-            <div className='content'>
-              <div className='name'>{name}</div>
-              <p className='subtitle is-6 bio'>{bio}</p>
-            </div>
-          </div>
 
-          {avatar && (
-            <figure className=''>
-              <p className='image is-87x87'>
-                <GatsbyImage
-                  image={getImage(avatar)!}
-                  alt={name + ' bio photo'}
-                  className='is-rounded'
-                  imgClassName='image'
-                />
-              </p>
-            </figure>
-          )}
-        </AuthorArticle>
-      )}
+      <AuthorArticle>
+        <div className='media-content'>
+          <div className='content'>
+            <div className='name'>{name}</div>
+            <p className='subtitle is-6 bio'>{bio}</p>
+          </div>
+        </div>
+
+        {avatar && (
+          <figure className=''>
+            <div className='image is-87x87'>
+              <GatsbyImage
+                image={getImage(avatar)!}
+                alt={name + ' bio photo'}
+                className='is-rounded'
+                imgClassName='image'
+              />
+            </div>
+          </figure>
+        )}
+      </AuthorArticle>
     </LinkComponent>
   )
 }
