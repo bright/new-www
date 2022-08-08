@@ -145,6 +145,10 @@ module.exports = {
             'modal-close',
             'modal-close is-large',
             'language-text',
+            'medium-zoom-image',
+            'medium-zoom-image--hidden',
+            'medium-zoom-overlay',
+            'img.medium-zoom-image--opened ',
           ], // Don't remove this selector
         },
         // More options defined here https://purgecss.com/configuration.html#options
@@ -163,8 +167,10 @@ module.exports = {
               // base for generating different widths of each image.
               // maxWidth: 960,
               linkImagesToOriginal: false,
-              maxWidth: 960,
-              withWebp: false,
+              maxWidth: 1500,
+              withWebp: true,
+              showCaptions: true,
+              quality: 100,
             },
           },
           {
