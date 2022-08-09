@@ -2,7 +2,7 @@
 author: dawid-cz
 secondAuthor: dominik-d
 thirdAuthor: slawek
-date: 2022-08-09T08:45:31.798Z
+date: 2022-08-09T08:59:48.473Z
 title: Tech Challenges to Face When You Build a Startup Product
 layout: post
 image: /images/blogpost_tech_startup_challenges.png
