@@ -58,3 +58,11 @@ Working on new features for startups is usually related to a very tight deadline
 We shouldn’t make a habit of that though. In the end, it forces the team to maintain lots of unnecessary or inadequate dependencies. Day by day they expand on our system and are becoming more and more difficult to get rid of. **All of these external solutions increase the potential number of bugs**. Also, they make it more difficult to conduct an efficient onboarding for new developers who need time to understand all dependencies.
 
 On the other hand, it gives developers the opportunity to learn and discover new libraries, frameworks, tools, and more. I suppose that the only way to **find the right balance is a clear guidebook** with rules on adding new dependencies and choosing the right stack for the project.
+
+## Maintaining users’ trust
+
+**Dawid, Fullstack Developer at Bright Inventions:**
+
+Gaining and maintaining users' trust… This one isn't really a piece of cake. As we all know, trust is one of the most valuable assets we can gain from another human being. That's why we have to make sure that everything is top-notch. There is barely room for mistakes here.
+
+![Dawid's quote](/images/dawid_quote.png)
