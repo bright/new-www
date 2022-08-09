@@ -71,3 +71,10 @@ The 2021 year was definitely the one to remember. Our team was empowered by new 
 That is how we end 2021, with a lot of positive reflections. 🙂
 
 Kudos for the whole Bright Team for sharing these insights.
+
+> **A place for development**
+>
+> > "(…) they delivered results very fast and were always very flexible. This is good for a startup, since we have feature requests that sometimes come on very short notice."
+>
+> > Mateusz B., Senior iOS developer
+>
