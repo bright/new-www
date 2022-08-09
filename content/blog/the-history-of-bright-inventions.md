@@ -88,7 +88,7 @@ In 2018 for the first time, **we were recognised by Clutch as one of the Top App
 
 In 2020 we got over 50 employees on board! From a 2-people company, we became, over the years, a much bigger and more comprehensive team.
 
-![Bright Inventions team](/images/brightstory_team10years.png)
+[![Bright Inventions team](/images/brightstory_team10years.png)] (/about-us/team)
 
 > *I think 2020 was pretty pivotal for us. We put a lot of effort to hire great positive people who wanted to create Bright Inventions together with us. I remember that I had a lot of captivating interviews day by day. It was a hectic, but bright time, for sure.*
 >
