@@ -76,6 +76,10 @@ const AuthorsSection = styled.article`
     p strong {
       font-weight: 700;
     }
+    ol li::marker,
+    ul li::marker {
+      color: ${variables.color.primary};
+    }
   }
   & .author-container > div:not(:last-of-type) {
     margin-right: 1.3125rem;
@@ -290,7 +294,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
       </Helmet>
 
-      <ConstrainedWidthContainer>
+      <ConstrainedWidthContainer id='blog'>
         <PostArticleContent
           title={page.title}
           date={page.date}
