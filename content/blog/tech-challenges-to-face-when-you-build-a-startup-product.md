@@ -66,3 +66,15 @@ On the other hand, it gives developers the opportunity to learn and discover new
 Gaining and maintaining users' trust… This one isn't really a piece of cake. As we all know, trust is one of the most valuable assets we can gain from another human being. That's why we have to make sure that everything is top-notch. There is barely room for mistakes here.
 
 ![Dawid's quote](/images/dawid_quote.png)
+
+**Constantly improving, acting on feedback, learning from mistakes** (let's be real here, everyone commits some), adjusting to the evolving market, and user's needs… These are just a few of the many major tasks that we have to deal with on a daily basis. Yet how can we actually gain that user’s trust?
+
+Well, **let's start off with the right tools**. **We need to constantly monitor our app to provide little to no downtime at all**. Also, it would be **great if our product could run on any device**. So we can reach a wider audience, and thus build a stronger position in the market. 
+
+Taking care of creating bonds with the users, and making them feel safe, and secure will also work to our advantage. Then naturally **a couple of positive reviews will show up** which will help to continue building the product's credibility.
+
+Here are some of the major tech challenges we have faced while working on startup products. 
+
+*If you want to hire a software agency for your MVP or other solution, contact us.*
+
+[Let’s talk about your application](/start-project/)
