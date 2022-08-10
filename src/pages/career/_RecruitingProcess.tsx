@@ -79,7 +79,7 @@ const RecruitingProcess: React.FC<Props> = ({ recruting_image2_title, recruting_
         isOnlyOnMobile: false,
       },
       {
-        image: '/images/career/recruiting/recruitment_process_congrats_500x408.png',
+        image: '/images/career/recruiting/congrats_mobile.png',
         title: 'congrats! you are a part of a bright team!',
         isOnlyOnMobile: true,
       },
