@@ -49,7 +49,7 @@ What else do you need to remember while facing these healthcare UX challenges? C
 
 ## Iconography in product design
 
-The key in UX design is iconography which practically creates its own language to display information. So, you design icons that represent statuses, states, notifications, etc. Icons should be comprehensive even if we design them specifically for the app. They still should evoke the right associations. This best practice was deeply covered in [Jakob Nielsen’s Usability Heuristic #2](https://www.nngroup.com/articles/match-system-real-world/).
+The **key in UX design is iconography which practically creates its own language to display information**. So, you design icons that represent statuses, states, notifications, etc. Icons should be comprehensive even if we design them specifically for the app. They still should evoke the right associations. This best practice was deeply covered in [Jakob Nielsen’s Usability Heuristic #2](https://www.nngroup.com/articles/match-system-real-world/).
 
 Naturally, the explanation of every icon in the product is still recommended. Because we are talking about an eHealth app that supports medicine distribution so users have to be well prepared to use it.
 
