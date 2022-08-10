@@ -5,10 +5,10 @@ tags:
   - business
   - inspiration
 date: 2022-08-10T09:35:51.370Z
-title: UX Design for Healthcare and Medical Apps (with a Case Study)
+title: UX Design for Healthcare and Medical Apps Case Study
 layout: post
 image: /images/cover.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -40,9 +40,9 @@ For the purpose of this blog post, we created a hypothetical mockup for an app f
 
 Remember we are talking about an app for hospital employees and we need to meet their requirements. According to our research made while working on various eHealth products, **the number 1 priority for eHealth app users is fast access to all necessary information** thus they should be visible on one screen. In this case, doctors and nurses have access to patients’ names, rooms, and medicine distribution statuses on one screen. 
 
-![eHealth app mobile mockup](/images/phone_mockup_ehealth.png)
+![eHealth app mobile mockup](/images/mobile_mockup_ehealth.png)
 
-<center>*The mockup is a fictional design made exclusively for blog post purposes.*</center>
+*<center>The mockup is a fictional design made exclusively for blog post purposes.</center>*
 
 Designing everything on one screen? That’s a challenge. A product designer’s instinct tells us to remove as much data as we can to present a more clear message. Yet, doctors and nurses know best what information needs to be quickly accessible to them and our job as healthcare app developers and app owners is to design it in the best possible way. 
 
@@ -54,9 +54,9 @@ The key in UX design is iconography which practically creates its own language t
 
 Naturally, the explanation of every icon in the product is still recommended. Because we are talking about an eHealth app that supports medicine distribution so users have to be well prepared to use it.
 
-![icons ux design for heathcare app](/images/icons_ux_design.png)
+![icons ux design for heathcare app](/images/icons_mockup_healthcare.png)
 
-<center>*The design is a fictional design made exclusively for blog post purposes.*</center>
+*<center>The design is a fictional design made exclusively for blog post purposes.</center>*
 
 The icons that you can see are well-known and characterized by an immediate clear meaning. Even without knowing the app, **we instantly understand the sentiment of the message that the icon is supposed to give us**. 
 
@@ -98,3 +98,5 @@ Clear communication about statuses is [the first of Jakob Nielsen’s ten heuris
 ## Can a beautiful design be ugly?
 
 UX design in healthcare software development is all about managing the data. So users are able to... manage data as well. Sometimes these apps cannot be full of beautiful designs because this is simply not what users expect. Yet still, eHealth apps do their job and support medical staff actions. And these are the product design’s true colors. Good design exists only if it works. Isn’t that a pure beauty indeed?
+
+*<center>The mockup is a fictional design made exclusively for blog post purposes.</center>*
