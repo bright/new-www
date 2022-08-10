@@ -77,3 +77,18 @@ To be fair, color coding could be found much easier, simply by walking in the st
 ![traffic lights](/images/blog_post_coloring.png)
 
 ## UX design for offline mode
+
+**Offline mode is often an essential feature in healthcare apps** and usually a huge challenge itself. When it comes to life-death situations you cannot rely on the internet connection. Following our case study example, the hospital staff has to have access to the app 24h a day even if there is an issue with the Wi-Fi connection. That’s not all though. The offline mode has to be followed by the right design. 
+
+### UX design for the offline mode has to emphasize:
+
+* That the app is working at the moment in the offline mode. 
+
+Seems obvious but when you have to tap that somebody has taken meds, better to be ensured that your data needs to be synchronized.
+
+* What kind of data was provided in offline mode.
+* If data were synchronized after restoring the internet connection.
+
+Clear communication about statuses is [the first of Jakob Nielsen’s ten heuristics](https://www.nngroup.com/articles/visibility-system-status/). 
+
+**This is the mockup example including the top bar showing that the app is in offline mode:**
