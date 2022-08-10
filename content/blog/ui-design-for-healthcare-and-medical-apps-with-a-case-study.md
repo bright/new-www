@@ -92,3 +92,9 @@ Seems obvious but when you have to tap that somebody has taken meds, better to b
 Clear communication about statuses is [the first of Jakob Nielsen’s ten heuristics](https://www.nngroup.com/articles/visibility-system-status/). 
 
 **This is the mockup example including the top bar showing that the app is in offline mode:**
+
+![Design for offline mode](/images/offline_mode_design.png)
+
+## Can a beautiful design be ugly?
+
+UX design in healthcare software development is all about managing the data. So users are able to... manage data as well. Sometimes these apps cannot be full of beautiful designs because this is simply not what users expect. Yet still, eHealth apps do their job and support medical staff actions. And these are the product design’s true colors. Good design exists only if it works. Isn’t that a pure beauty indeed?
