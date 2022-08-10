@@ -4,11 +4,11 @@ tags:
   - design
   - business
   - inspiration
-date: 2022-08-10T09:22:36.812Z
+date: 2022-08-10T09:35:51.370Z
 title: UX Design for Healthcare and Medical Apps (with a Case Study)
 layout: post
 image: /images/cover.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
