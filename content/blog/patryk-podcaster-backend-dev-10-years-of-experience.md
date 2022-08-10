@@ -27,7 +27,7 @@ If I had done things I did 10 years ago, I would have felt like that. But I donâ
 
 A lot has changed. Technologies are just one thing, the whole sector has changed. **The Polish industry has become more and more similar to the Western one**. The ecosystem of the companies is the same. The culture and work methodologies are the same, everyone tries to follow the best practices and standards. Okay, probably I shouldnâ€™t say everyone. 
 
-You can still find yourself at a company that is way behind. However, you have options to find Polish companies that simply are top of the top globally. It is unique about the software development world. It is not the case for many other industries in Poland. 
+You can still find yourself at a company that is way behind. However, you have options to find Polish companies that simply are top of the top globally. It is unique about the [software development](/our-areas/custom-software-development) world. It is not the case for many other industries in Poland. 
 
 ![Patryk - Senior Backend Developer](/images/brightstorypatryk.jpg)
 
