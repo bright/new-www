@@ -8,7 +8,7 @@ date: 2022-08-10T09:35:51.370Z
 title: UX Design for Healthcare and Medical Apps Case Study
 layout: post
 image: /images/cover.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
