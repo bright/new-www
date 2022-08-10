@@ -22,6 +22,8 @@ import variables from '../styles/variables'
 import Newsletter from '../components/subcomponents/Newsletter'
 import NewsletterWrapper from './../components/subcomponents/NewsletterWrapper'
 import { CustomSection } from '../components/shared'
+import { SocialMediaShare } from './blog/SocialMediaShare'
+import { clampBuilder } from './../helpers/clampBuilder'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -79,6 +81,84 @@ const AuthorsSection = styled.article`
     ol li::marker,
     ul li::marker {
       color: ${variables.color.primary};
+    }
+    p img {
+      will-change: transform;
+      transition: transform 1.2s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    blockquote:not(blockquote > blockquote) {
+      background: #f5f5f5;
+      border: none;
+      padding: ${variables.pxToRem(25)} ${variables.pxToRem(60)} ${variables.pxToRem(64)} ${variables.pxToRem(223)};
+      position: relative;
+      margin: ${variables.pxToRem(80)} 0;
+      &:before {
+        content: '“';
+        color: ${variables.color.primary};
+        position: absolute;
+        font-family: ${variables.font.title.family};
+        font-size: ${clampBuilder(581, 1920, 152, 231)};
+        line-height: 1;
+        font-weight: 900;
+        top: 0;
+        left: ${variables.pxToRem(43)};
+      }
+      @media ${variables.device.laptop} {
+        padding: ${variables.pxToRem(28)} ${variables.pxToRem(43)} ${variables.pxToRem(64)} ${variables.pxToRem(203)};
+      }
+      @media ${variables.device.tablet} {
+        padding: ${variables.pxToRem(112)} ${variables.pxToRem(54)} ${variables.pxToRem(64)} ${variables.pxToRem(54)};
+      }
+      @media ${variables.device.mobile} {
+        padding: ${variables.pxToRem(112)} ${variables.pxToRem(7)} ${variables.pxToRem(45)} ${variables.pxToRem(33)};
+        &:before {
+          left: ${variables.pxToRem(33)};
+        }
+      }
+    }
+    blockquote {
+      & p strong {
+        font-family: ${variables.font.customtext.monserat};
+        font-weight: 800;
+        font-size: ${variables.pxToRem(32)};
+        line-height: ${variables.pxToRem(39)};
+      }
+      & blockquote {
+        background: #f5f5f5;
+        border: none;
+        padding: 0;
+        margin: 0;
+
+        &:first-of-type {
+          margin-bottom: ${variables.pxToRem(60)};
+          & p {
+            font-size: ${variables.pxToRem(18)};
+            line-height: ${variables.pxToRem(40)};
+          }
+        }
+        &:last-of-type p {
+          font-weight: 600;
+          font-size: ${variables.pxToRem(16)};
+          line-height: ${variables.pxToRem(19)};
+        }
+      }
+      @media ${variables.device.mobile} {
+        & p strong {
+          font-size: ${variables.pxToRem(24)};
+          line-height: ${variables.pxToRem(29)};
+        }
+        & blockquote {
+          &:first-of-type {
+            margin-bottom: ${variables.pxToRem(34)};
+            & p {
+              font-size: ${variables.pxToRem(16)};
+            }
+          }
+        }
+      }
     }
   }
   & .author-container > div:not(:last-of-type) {
@@ -295,6 +375,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
       </Helmet>
 
       <ConstrainedWidthContainer id='blog'>
+        <SocialMediaShare blackIcons slug={pathname} title={title} />
         <PostArticleContent
           title={page.title}
           date={page.date}
