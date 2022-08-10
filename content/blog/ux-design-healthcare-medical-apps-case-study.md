@@ -4,6 +4,7 @@ secondAuthor: alisa
 tags:
   - design
   - business
+  - inspiration
 date: 2022-08-10T09:35:51.370Z
 title: UX Design for Healthcare and Medical Apps Case Study
 layout: post
