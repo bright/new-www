@@ -1,8 +1,10 @@
 ---
 author: izabela
+secondAuthor: alisa
 tags:
   - design
   - business
+  - inspiration
 date: 2022-08-10T09:35:51.370Z
 title: UX Design for Healthcare and Medical Apps Case Study
 layout: post
@@ -99,3 +101,7 @@ Clear communication about statuses is [the first of Jakob Nielsen’s ten heuris
 ## Can a beautiful design be ugly?
 
 UX design in healthcare software development is all about managing the data. So users are able to... manage data as well. Sometimes these apps cannot be full of beautiful designs because this is simply not what users expect. Yet still, eHealth apps do their job and support medical staff actions. And these are the product design’s true colors. Good design exists only if it works. Isn’t that a pure beauty indeed?
+
+- - -
+
+Special thanks to [Alisa](https://www.linkedin.com/in/alisa-kashytska-a38417b1/) for inspiration and contribution.
