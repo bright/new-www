@@ -33,3 +33,11 @@ Designing the eHealth app for hospital staff requires dealing with these challen
 For the purpose of this blog post, we created a hypothetical mockup for an app for doctors and nurses working at the hospital. This is the possible answer to all of these challenges:
 
 ![eHealth app mockup](/images/ehealth_app_mockup.png)
+
+*<center>The mockup is a fictional design made exclusively for blog post purposes.</center>*
+
+“Wow, that's a lot of information on one screen…” That is something that you could think of looking at the design. You instantly notice that this is not a nice lifestyle app that is supposed to attract you with a fancy design and a small amount of text.
+
+Remember we are talking about an app for hospital employees and we need to meet their requirements. According to our research made while working on various eHealth products, **the number 1 priority for eHealth app users is fast access to all necessary information** thus they should be visible on one screen. In this case, doctors and nurses have access to patients’ names, rooms, and medicine distribution statuses on one screen. 
+
+![eHealth app mobile mockup](/images/phone_mockup_ehealth.png)
