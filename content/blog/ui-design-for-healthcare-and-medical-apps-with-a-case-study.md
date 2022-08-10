@@ -32,7 +32,7 @@ Designing the eHealth app for hospital staff requires dealing with these challen
 
 For the purpose of this blog post, we created a hypothetical mockup for an app for doctors and nurses working at the hospital. This is the possible answer to all of these challenges:
 
-![eHealth app mockup](/images/ehealth_app_mockup.png)
+![eHealth app mockup](/images/design_for_ehealth_app_web_mockup.png)
 
 *<center>The mockup is a fictional design made exclusively for blog post purposes.</center>*
 
