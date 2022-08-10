@@ -61,3 +61,17 @@ Naturally, the explanation of every icon in the product is still recommended. Be
 The icons that you can see are well-known and characterized by an immediate clear meaning. Even without knowing the app, **we instantly understand the sentiment of the message that the icon is supposed to give us**. 
 
 For sure, a very important part of these messages is coloring. 🙂
+
+## Color coding in product design
+
+In UX design color, like iconography, has a special role. **Color coding is simply a way to display information using different colors and shades**. 
+
+As it is common in the digital world it originated from the past. ;) **Color coding is ubiquitous and takes a huge part in our daily communication**. It has been used in industries like electricity or hydraulics. 
+
+If you ever renovated your apartment, you probably know that the plumbers' rule says that pipes with hot water are marked with a red color and pipes with cold water with a blue one. 
+
+In the case of electricity, in almost every electrical drawing you will find a ground marked in yellow and green colors. These are examples of color-code good practices from other industries. 
+
+To be fair, color coding could be found much easier, simply by walking in the street… 😉
+
+![](/images/blog_post_coloring.png)
