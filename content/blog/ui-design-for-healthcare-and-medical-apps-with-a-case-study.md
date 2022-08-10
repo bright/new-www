@@ -54,7 +54,7 @@ The key in UX design is iconography which practically creates its own language t
 
 Naturally, the explanation of every icon in the product is still recommended. Because we are talking about an eHealth app that supports medicine distribution so users have to be well prepared to use it.
 
-![icons ux design for heathcare app](/images/icons_ux_desing.png)
+![icons ux design for heathcare app](/images/icons_ux_design.png)
 
 <center>*The design is a fictional design made exclusively for blog post purposes.*</center>
 
