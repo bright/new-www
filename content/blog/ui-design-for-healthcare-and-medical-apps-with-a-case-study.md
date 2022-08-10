@@ -41,3 +41,23 @@ For the purpose of this blog post, we created a hypothetical mockup for an app f
 Remember we are talking about an app for hospital employees and we need to meet their requirements. According to our research made while working on various eHealth products, **the number 1 priority for eHealth app users is fast access to all necessary information** thus they should be visible on one screen. In this case, doctors and nurses have access to patients’ names, rooms, and medicine distribution statuses on one screen. 
 
 ![eHealth app mobile mockup](/images/phone_mockup_ehealth.png)
+
+<center>*The mockup is a fictional design made exclusively for blog post purposes.*</center>
+
+Designing everything on one screen? That’s a challenge. A product designer’s instinct tells us to remove as much data as we can to present a more clear message. Yet, doctors and nurses know best what information needs to be quickly accessible to them and our job as healthcare app developers and app owners is to design it in the best possible way. 
+
+What else do you need to remember while facing these healthcare UX challenges? Check out UX best practices that help to deliver healthcare apps useful for their users.
+
+## Iconography in product design
+
+The key in UX design is iconography which practically creates its own language to display information. So, you design icons that represent statuses, states, notifications, etc. Icons should be comprehensive even if we design them specifically for the app. They still should evoke the right associations. This best practice was deeply covered in [Jakob Nielsen’s Usability Heuristic #2](https://www.nngroup.com/articles/match-system-real-world/).
+
+Naturally, the explanation of every icon in the product is still recommended. Because we are talking about an eHealth app that supports medicine distribution so users have to be well prepared to use it.
+
+![icons ux design for heathcare app](/images/icons_ux_desing.png)
+
+<center>*The design is a fictional design made exclusively for blog post purposes.*</center>
+
+The icons that you can see are well-known and characterized by an immediate clear meaning. Even without knowing the app, **we instantly understand the sentiment of the message that the icon is supposed to give us**. 
+
+For sure, a very important part of these messages is coloring. 🙂
