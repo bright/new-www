@@ -104,4 +104,4 @@ Clear communication about statuses is [the first of Jakob Nielsen’s ten heuris
 
 - - -
 
-Special thanks to [Alisa](https://www.linkedin.com/in/alisa-kashytska-a38417b1/) for inspiration and contribution.
+Special thanks to [Alisa](https://www.linkedin.com/in/alisa-kashytska-a38417b1/) for her inspiration and contribution.
