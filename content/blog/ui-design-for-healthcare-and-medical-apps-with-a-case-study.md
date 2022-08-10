@@ -74,4 +74,6 @@ In the case of electricity, in almost every electrical drawing you will find a g
 
 To be fair, color coding could be found much easier, simply by walking in the street… 😉
 
-![](/images/blog_post_coloring.png)
+![traffic lights](/images/blog_post_coloring.png)
+
+## UX design for offline mode
