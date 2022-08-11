@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Senior Backend Developer "
+title: "Senior Backend Developer (TS, Node.js)"
 subtitle: ONGOING
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Backend Team Bright Inventions
