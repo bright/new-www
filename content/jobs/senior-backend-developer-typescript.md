@@ -1,6 +1,6 @@
 ---
 layout: job
-title: "Senior Backend Developer (TS, Node.js)"
+title: Senior Backend Developer (TS, Node.js)
 subtitle: ONGOING
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Backend Team Bright Inventions
@@ -25,15 +25,15 @@ links_more_about_us: >-
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-name_recruiter: Agata
 workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - A Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-button: join our backend team
 published: true
-hidden: false
 show_recruiter_info: true
+hidden: false
+name_recruiter: Agata
+image_alt_recruiter_info: Agata Mietlińska - A Recruiter at Bright Inventions
+button: join our backend team
 order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
@@ -45,12 +45,20 @@ description: We are looking now for a Full Stack Developer who has already had
 
 At Bright Inventions you'll be an important part of [a team of talented, ambitious and positive developers, designers and managers](https://brightinventions.pl/about-us/team/) who love to build software that solve real problems in today’s world.
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and client's orientation are elemental parts of our culture.
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. **Positive attitude, flexibility and client's orientation are elemental parts of our culture.**
 
-If you really like programming in TypeScript and Node.js, and you are not afriad of sharing your views openly with the team and client, we are a good place for you. One of the projects you might be engaged in is an application for the United Nations. We would really appreciate your experience with web development and ability to look at the project from a business perspective. 
+If you really like programming in TypeScript and Node.js, and you are not afraid of sharing your views and ideas openly with the team and clients, we are a good place for you.  We would really appreciate your experience with web development and ability to look at the project from a business perspective. We offer cooperation space for 3 specialists in the projects described below. 
 
-## your yob will include 🚀
- 
+## projects 🚀
+
+1. One of the projects you might be engaged in is an application for the **United Nations, which is the world’s largest implementation of blockchain technology for humanitarian assistance.** Currently assisting 1 million people in Bangladesh and Jordan, enabling them to securely access and receive multiple forms of assistance from different organisations via one access point. 
+
+2. Another opportunity for development is offered in the team responsible for building  **invoicing & accounting software enabling day to day smart business management.** The application helps you do reporting and data management, payment transactions, financial transactions directly from the mobile device. \
+\
+3. Last but not least, [the existing web therapy application](https://circlesup.com/) where people can sign up and join particular groups of support led by professional therapists. Currently the team is working on a complex chat feature and video meeting feature. Another priority is enabling secure data transfer regarding the users conditions for therapeutical analysis purposes.
+
+## your yob will include 💻
+
 * creating high-quality web applications
 * partnering closely with product management and infrastructure specialists
 * advising clients in their decision making process
@@ -59,23 +67,23 @@ If you really like programming in TypeScript and Node.js, and you are not afriad
 
 ## what we would like to see ✅
 
-*  at least 4 years of commercial programming experience in backend development
-*  very good knowledge of TypeScript
-*  deep working experience with Node.js
-*  familiarity with AWS or other Cloud providers
-*  strong problem solving attitude and open mind
-*  fluents level of English (written and spoken)
+* at least 4 years of commercial programming experience in backend development
+* very good knowledge of TypeScript
+* deep working experience with Node.js
+* familiarity with AWS or other Cloud providers
+* strong problem solving attitude and open mind
+* fluents level of English (written and spoken)
 
 ## what you will find in our Bright Team 🧡
 
-*  support and continuous feedback culture
-*  mentoring programme and regular 1:1 meetings
-*  flexible working hours and remote work possibility
-*  26 paid days off + Polish bank holidays
-*  MultiSport card and private medical package PZU Zdrowie
-*  good equipment: MacBook and additional accessories
-*  internal workshops and dev's meetings 
-*  extra budget for training and professional books
-*  board games evenings and weekly lunch initiative
-*  team retreats once a quarter
-*  regular sports classes (running, biking, swimming, yoga) with a professional coach
+* support and continuous feedback culture
+* mentoring programme and regular 1:1 meetings
+* flexible working hours and remote work possibility
+* 26 paid days off + Polish bank holidays
+* MultiSport card and private medical package PZU Zdrowie
+* good equipment: MacBook and additional accessories
+* internal workshops and dev's meetings 
+* extra budget for training and professional books
+* board games evenings and weekly lunch initiative
+* team retreats once a quarter
+* regular sports classes (running, biking, swimming, yoga) with a professional coach
