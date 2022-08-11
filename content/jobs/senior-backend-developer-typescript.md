@@ -52,9 +52,7 @@ If you really like programming in TypeScript and Node.js, and you are not afraid
 ## projects 🚀
 
 1. One of the projects you might be engaged in is an application for the **United Nations, which is the world’s largest implementation of blockchain technology for humanitarian assistance.** Currently assisting 1 million people in Bangladesh and Jordan, enabling them to securely access and receive multiple forms of assistance from different organisations via one access point. 
-
-2. Another opportunity for development is offered in the team responsible for building  **invoicing & accounting software enabling day to day smart business management.** The application helps you do reporting and data management, payment transactions, financial transactions directly from the mobile device. \
-\
+2. Another opportunity for development is offered in the team responsible for building  **invoicing & accounting software enabling day to day smart business management.** The application helps you do reporting and data management, payment transactions, financial transactions directly from the mobile device. 
 3. Last but not least, [the existing web therapy application](https://circlesup.com/) where people can sign up and join particular groups of support led by professional therapists. Currently the team is working on a complex chat feature and video meeting feature. Another priority is enabling secure data transfer regarding the users conditions for therapeutical analysis purposes.
 
 ## your yob will include 💻
