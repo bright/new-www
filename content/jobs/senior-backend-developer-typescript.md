@@ -47,7 +47,7 @@ At Bright Inventions you'll be an important part of [a team of talented, ambiti
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and client's orientation are elemental parts of our culture.
 
-If you really like programming in TypeScript and Node.js, and you are not afriad of sharing your views openly with the team and client, we are be a good place for you. One of the projects you might be engaged in is an application for the United Nations. We would really appreciate your experience with web development and ability to look at the project from a business perspective. 
+If you really like programming in TypeScript and Node.js, and you are not afriad of sharing your views openly with the team and client, we are a good place for you. One of the projects you might be engaged in is an application for the United Nations. We would really appreciate your experience with web development and ability to look at the project from a business perspective. 
 
 ## your yob will include 🚀
  
