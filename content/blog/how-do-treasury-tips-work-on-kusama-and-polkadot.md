@@ -20,7 +20,7 @@ published: true
 
 The tip is a reward paid in crypto to somebody who deserves to be rewarded for their activity, a well-done job, or other contributions related to Kusama or Polkadot. 
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/5sc1rWlOZ7Qtcim5V5" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/LineOfDuty-5sc1rWlOZ7Qtcim5V5">via GIPHY</a></p>
+`https://www.youtube.com/watch?v=50o-DYGY6kc`
 
 Tips are the Treasury mechanism, along with proposals and bounties. Tips are a reward paid in $DOT or $KSM. You can propose a tip or directly tip somebody. The second option, at the moment, is reserved for Council members only.
 
