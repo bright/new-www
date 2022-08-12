@@ -86,3 +86,5 @@ The first version of the app was released in December 2021. After the launch the
 https://twitter.com/BrightTreasury
 
 </center>
+
+https://twitter.com/BrightTreasury/status/1557270531950395398
