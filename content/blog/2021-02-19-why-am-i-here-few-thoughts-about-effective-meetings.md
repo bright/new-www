@@ -1,14 +1,14 @@
 ---
-layout: post
-title: Why am I here? A few thoughts about effective meetings
-date: 2021-02-19T13:27:31.798Z
-image: /images/team_meetings.jpg
 author: kasia g
 tags:
   - project management
   - communication
   - meetings
   - teamwork
+date: 2021-02-19T13:27:31.798Z
+title: Why am I here? A few thoughts about effective meetings
+layout: post
+image: /images/blog_post_cover_meetings.png
 hidden: false
 comments: true
 published: true
