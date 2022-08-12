@@ -1,8 +1,5 @@
 ---
-layout: post
-title: Implementing a simple pedometer using Swift
-excerpt: >-
-  Core Motion is well-known iOS framework. As we could read in
+excerpt: Core Motion is well-known iOS framework. As we could read in
   [docs](https://developer.apple.com/documentation/coremotion) it process
   accelerometer, gyroscope, pedometer environemnt-related events. In this post I
   want to focus on pedometer events and how to handle it.
@@ -13,18 +10,19 @@ tags:
   - CoreMotion
   - pedometer
   - tutorial
-comments: true
-hidden: false
+date: 2017-12-07T23:00:00.000Z
+title: Implementing a simple pedometer using Swift
+layout: post
 image: /images/coremotion-pedometer-swift/footsteps.jpg
-date: '2017-12-07T23:00:00.000Z'
+hidden: false
+comments: true
 published: true
 ---
-
 ![footsteps image](/images/coremotion-pedometer-swift/footsteps.jpg)
 
 Ok... but what the pedometer is? Here you have a wikipedia definition:
 
->A pedometer is a device, usually portable and electronic or electromechanical, that counts each step a person takes by detecting the motion of the person's hands or hips.
+> A pedometer is a device, usually portable and electronic or electromechanical, that counts each step a person takes by detecting the motion of the person's hands or hips.
 
 and YES, you can create your own pedometer using iOS framework called CoreMotion.
 
@@ -38,11 +36,9 @@ In this post I want to focus on the pedometer events and how to handle them.
 In order to use CoreMotion pedometer, we need to take a closer look at `CMPedometer` class. It allows the user to retrieve some information about steps taken in the past, for example: How many steps I have done for last 3 days? Another usage of `CMPedometer` class is to get the live updates about steps taken already.
 
 ```swift
-
 open func queryPedometerData(from start: Date, to end: Date, withHandler handler: @escaping CoreMotion.CMPedometerHandler)
 
 open func startUpdates(from start: Date, withHandler handler: @escaping CoreMotion.CMPedometerHandler)
-
 ```
 
 ### CMPedometerData
@@ -54,7 +50,6 @@ Another class that should catch our attention is `CMPedometerData`. This class r
 * `currentPace: NSNumber?`
 * `floorsAscended: NSNumber?`
 * `floorsDescended: NSNumber?`
-
 
 ### CMMotionActivityManager
 
@@ -73,15 +68,14 @@ and the result of that is getting updates with `CMMotionActivity` which represen
 * `cycling: Bool`
 * `unknown: Bool`
 
-
 ## Code step by step...
 
 ### 1. Add `NSMotionUsageDescription` to your `info.plist`
 
 As we can read in [Apple docs](https://developer.apple.com/documentation/coremotion)
 
->Important
->An iOS app linked on or after iOS 10.0 must include usage description keys in its Info.plist file for the types of data it needs. Failure to include these keys will cause the app to crash. To >access motion and fitness data specifically, it must include NSMotionUsageDescription.
+> Important
+> An iOS app linked on or after iOS 10.0 must include usage description keys in its Info.plist file for the types of data it needs. Failure to include these keys will cause the app to crash. To >access motion and fitness data specifically, it must include NSMotionUsageDescription.
 
 So add to your `info.plist` `NSMotionUsageDescription` key modifying plain file:
 
@@ -153,7 +147,11 @@ private func startUpdating() {
 }
 ```
 
+<center>
+
 ![usage demo](/images/coremotion-pedometer-swift/steps-demo.gif)
+
+</center>
 
 ## Conclusion
 
