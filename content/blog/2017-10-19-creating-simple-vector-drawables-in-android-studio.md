@@ -1,36 +1,39 @@
 ---
-layout: post
-title: Creating simple vector drawables in Android Studio
-image: /images/creating-simple-drawables-in-android-studio/desk-office-pen-ruler.jpg
-author: azabost
-hidden: false
 crosspost: true
+author: azabost
 tags:
   - Android
+date: 2017-10-18T22:00:00.000Z
+title: Creating simple vector drawables in Android Studio
+layout: post
+image: /images/creating-simple-drawables-in-android-studio/desk-office-pen-ruler.jpg
+hidden: false
 comments: true
-date: '2017-10-18T22:00:00.000Z'
 published: true
 ---
-
 Using vector drawables is often much better than bitmap images for two reasons: they scale without losing definition and you need only one asset file which fits all screen densities.
 
 Sometimes I find it useful to create vector drawables by hand in Android Studio using [SVG paths](https://www.w3.org/TR/SVG/paths.html).
 
 If you are not yet familiar with it, let me show you an example.
 
-![Image](/images/creating-simple-drawables-in-android-studio/desk-office-pen-ruler.jpg){: .center-image }
+![Image](/images/creating-simple-drawables-in-android-studio/desk-office-pen-ruler.jpg)
 
-# Example #
+# Example
 
 I'm going to create a rectangle consisting of two adjacent triangles varying in color like below:
 
-![Rectangle](/images/creating-simple-drawables-in-android-studio/expected-rectangle-2.png){: .center-image }
+<center>
 
-## Step 1: Create a drawable file ##
+![Rectangle](/images/creating-simple-drawables-in-android-studio/expected-rectangle-2.png)
 
-![New drawable file](/images/creating-simple-drawables-in-android-studio/new_drawable.png){: .center-image }
+</center>
 
-## Step 2: Set up the drawable size ##
+## Step 1: Create a drawable file
+
+![New drawable file](/images/creating-simple-drawables-in-android-studio/new_drawable.png)
+
+## Step 2: Set up the drawable size
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -54,13 +57,13 @@ The `android:width` and `android:height` properties define the drawable intrinsi
 
 The `android:viewportWidth` and `android:viewportHeight` properties are more important for us as they define the canvas size for drawing our paths.
 
-## Step 3: Draw the first triangle ##
+## Step 3: Draw the first triangle
 
 Let's fill a half of our squared canvas with the first triangle by drawing a path though its vertices: **A**, **B** and **C**.
 
 Please note the coordinates &mdash; the top-left corner of the canvas is (0,0) and the bottom-right corner is (100,100) and that's because we set the `android:viewportWidth="100"` and `android:viewportHeight="100"`.
 
-![First triangle](/images/creating-simple-drawables-in-android-studio/first_triangle.png){: .center-image }
+![First triangle](/images/creating-simple-drawables-in-android-studio/first_triangle.png){: 
 
 You can draw a path by adding a `path` inside the `vector`:
 
@@ -111,7 +114,7 @@ We can see the triangle in the preview panel:
 
 ![First triangle preview](/images/creating-simple-drawables-in-android-studio/first_triangle_preview.png){: .center-image }
 
-## Step 4: Draw the second triangle ##
+## Step 4: Draw the second triangle
 
 As we already know how to draw a path, it's very simple to create another triangle. Its vertices are:
 
@@ -148,8 +151,7 @@ Hint: you can name the paths so it's easier to find them later if your drawable 
 
 ![Second triangle preview](/images/creating-simple-drawables-in-android-studio/second_triangle_preview.png){: .center-image }
 
-
-## Step 5: Use the drawable with an ImageView ##
+## Step 5: Use the drawable with an ImageView
 
 Now we can use the drawable. As you can see, it can be easily scaled by using the `android:layout_width`, `android:layout_height` and `android:scaleType` properties.
 
@@ -172,7 +174,7 @@ Now we can use the drawable. As you can see, it can be easily scaled by using th
 
 ![Final layout](/images/creating-simple-drawables-in-android-studio/layout.png){: .center-image }
 
-### Further reading ###
+### Further reading
 
-* [https://developer.android.com/training/material/drawables.html#VectorDrawables](https://developer.android.com/training/material/drawables.html#VectorDrawables)
-* [https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html](https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html)
+* <https://developer.android.com/training/material/drawables.html#VectorDrawables>
+* <https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html>
