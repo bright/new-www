@@ -26,7 +26,7 @@ The pandemic has shown how medical care systems in most countries around the glo
 
 Nowadays, we experience challenges that need to be addressed by tech:
 
-* At least [1 in 4 people will experience behavioural illness](https://www2.deloitte.com/us/en/insights/industry/health-care/future-of-behavioral-health.html/#endnote-3) at some point in their lives.
+* At least [1 in 4 people will experience behavioral illness](https://www2.deloitte.com/content/dam/insights/us/articles/glob114104_future-of-behavioral-health/GLOB114104_Future-of-behavioral-health.pdf) at some point in their lives.
 * [WHO](https://www.who.int/news-room/fact-sheets/detail/mental-disorders) estimated that 264 million people around the world suffer from depression.
 * At the same time globally [less than 1% of government health expenditures goes to mental health services](https://www2.deloitte.com/us/en/insights/industry/health-care/future-of-behavioral-health.html/#endnote-3).
 * According to [Eurostat](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Population_structure_and_ageing) in 2020, more than 20% of the EU population was aged at least 65.
