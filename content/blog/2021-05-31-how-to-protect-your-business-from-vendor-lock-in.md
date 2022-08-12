@@ -1,14 +1,14 @@
 ---
-layout: post
-title: How to protect your business from vendor lock-in?
-date: 2021-05-31T06:29:54.316Z
-image: /images/cyber-security-3400657_1920.jpg
 author: izabela
 tags:
   - vendor
   - lock-in
   - software
   - development
+date: 2021-05-31T06:29:54.316Z
+title: How to protect your business from vendor lock-in?
+layout: post
+image: /images/blog_post_cover_vendor_lock_in.png
 hidden: false
 comments: true
 published: true
