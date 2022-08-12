@@ -1,8 +1,4 @@
 ---
-layout: post
-title: SQL Performance - composite indexes
-date: 2021-07-23T12:17:18.035Z
-image: /images/markus-winkler-irrbsnd5euc-unsplash.jpg
 author: rafal h
 tags:
   - tips&tricks
@@ -10,6 +6,10 @@ tags:
   - performance
   - index
   - backend
+date: 2021-07-23T12:17:18.035Z
+title: SQL Performance - composite indexes
+layout: post
+image: /images/composite-indexes_sql.png
 hidden: false
 comments: true
 published: true
