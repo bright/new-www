@@ -1,14 +1,14 @@
 ---
-layout: post
-title: CloudWatch Insights - how to find context of multiple requests?
-date: 2021-05-05T15:22:52.864Z
-image: /images/joan-gamell-xu1l22iuknc-unsplash.jpg
 author: rafal h
 tags:
   - tips&tricks
   - aws
   - cloudwatch
   - logs
+date: 2021-05-05T15:22:52.864Z
+title: CloudWatch Insights - how to find context of multiple requests?
+layout: post
+image: /images/blog_post_cover_cloudwatch.png
 hidden: false
 comments: true
 published: true
