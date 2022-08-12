@@ -1,13 +1,13 @@
 ---
-layout: post
-title: 4 things that surprised me when I joined a software development company
-date: 2021-05-04T08:13:06.170Z
-image: /images/izabela_4thingsthatsurprisedme.png
 author: izabela
 tags:
   - teamwork
   - software development company
   - software consulting studio
+date: 2021-05-04T08:13:06.170Z
+title: 4 things that surprised me when I joined a software development company
+layout: post
+image: /images/blog_post_cover_things_suprised_me.png
 hidden: false
 comments: true
 published: true
