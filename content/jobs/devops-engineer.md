@@ -7,15 +7,16 @@ title: "DevOps Engineer "
 subtitle: ONGOING
 image-alt-job: Bright Inventions team
 hours: Full-time
-salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
-salary_min: 12000
-salary_max: 15000
+salary: 18 000 - 24 000 PLN + VAT (B2B) or 15 000 - 19 950 PLN gross (UoP)
+salary_min: 15000
+salary_max: 24000
 working time: 20-26 paid days off + Polish bank holidays
 technology:
   - AWS
   - Kubernetes
-  - Continuos Delivery
-  - Java/Kotlin
+  - Terraform
+  - PostgreSQL/MongdoDB
+  - Docker
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -44,22 +45,15 @@ description: We are looking for a DevOps Engineer who has good knowledge of AWS
 
 We are a [team of talented developers, designers, managers and marketers from Gdańsk who value and apply the policy of trust and continuous feedback](/about-us/team/). We focus on cutting-edge technologies, innovations, and try to find simple structure in complex things.
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
-
-## about the role
-
-We are looking for a **DevOps Engineer** who would like to work with our experienced and ambitious development team. The main challenge of the team is to enhance the existing intelligent point-of-sale system widely used in Israel and since 2016 successfully entering European market. 
-
-We are responsible for providing: backend infrastructure, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and client orientation are elemental parts of our culture. 
 
 ## what you will do
 
 * manage processes related to continuous delivery pipeline
 * help with the system scalability and reliability improvement
-* have a direct contact with clients and advise in their decision making process
-* share knowledge with the rest of an an engineering team
 * keep systems secure and up-to-date
 * take care of the cloud platform security
+* share knowledge with the rest of an an engineering team
 
 ## what we'd like to see
 
@@ -78,20 +72,17 @@ We are responsible for providing: backend infrastructure, web application, a set
 
 ## what you will find at Bright Inventions
 
-* international projects and cooperation with one of the world’s top food ordering brands
-* flat structure and great impact on the key project decisions 
-* huge space for self-development 
-* mentoring programme and regular 1:1 meetings 
-* business contract depending on your needs (you choose if it’s B2B or UoP)
-* MultiSport card and private medical package
-* good equipment: MacBook, one or two screens and additional accessories
+* business contract depending on your needs
+* MultiSport card and private medical package Pzu Zdrowie
+* good equipment: MacBook and additional accessories
 * flexible working hours and remote work possibility 
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby
+* mentoring programme and regular 1:1 meetings 
 * Bright Day once a month for non-project stuff
+* extra budget for development 
+* internal dev's meetings 
 * English classes with business focus 
 * weekly sport classes and in-house yoga time 
-* quarter team retreats and lunch roulette initiative 
-* board games evenings
+* quarter team retreats, unch roulette initiative, board games evenings
 
 Sounds interesting? Don't hesitate and apply! 
 
