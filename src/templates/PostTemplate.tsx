@@ -78,7 +78,7 @@ const AuthorsSection = styled.article`
     p strong {
       font-weight: 700;
     }
-    ol li::marker,
+
     ul li::marker {
       color: ${variables.color.primary};
     }

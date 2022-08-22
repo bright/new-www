@@ -102,11 +102,17 @@ const SingleAuthorArticle = styled.article`
     align-self: flex-end;
     & .content {
       & .title {
-        font: normal normal bold 26px/40px Montserrat;
+        font-size: ${variables.pxToRem(26)};
+        line-height: ${variables.pxToRem(40)};
+        font-family: ${variables.font.customtitle.monserat};
+        font-weight: bold;
         margin-bottom: 0;
       }
       & .subtitle {
-        font: normal normal normal 20px/40px Lato;
+        font-size: ${variables.pxToRem(20)};
+        line-height: ${variables.pxToRem(40)};
+        font-family: ${variables.font.customtitle.lato};
+        font-weight: normal;
       }
     }
   }
@@ -142,14 +148,14 @@ export function AuthorsView({
         <SingleAuthorArticle className='media'>
           {avatar && (
             <figure className='media-left'>
-              <p className='image is-87x87'>
+              <div className='image is-87x87'>
                 <GatsbyImage
                   image={getImage(avatar)!}
                   alt={name + ' bio photo'}
                   className='is-rounded'
                   imgClassName='image'
                 />
-              </p>
+              </div>
             </figure>
           )}
           <div className='media-content'>
@@ -170,14 +176,14 @@ export function AuthorsView({
 
           {avatar && (
             <figure className=''>
-              <p className='image is-87x87'>
+              <div className='image is-87x87'>
                 <GatsbyImage
                   image={getImage(avatar)!}
                   alt={name + ' bio photo'}
                   className='is-rounded'
                   imgClassName='image'
                 />
-              </p>
+              </div>
             </figure>
           )}
         </AuthorArticle>

@@ -10,6 +10,7 @@ import TwitterIconBlack from '../../assets/twitter_black.svg'
 import SubtractionIcon from '../../assets/subtraction.svg'
 import variables from '../../styles/variables'
 import { clampBuilder } from './../../helpers/clampBuilder'
+import { Button } from '../../components/shared'
 
 const IconsContainer = styled.div`
   display: flex;
@@ -90,7 +91,6 @@ export const SocialMediaShare: React.FC<{
 }> = ({ blackIcons, slug, title }) => {
   const baseUrl = 'https://brightinventions.pl'
   const url = baseUrl + slug
-  const emailUrl = encodeURIComponent(url)
 
   return (
     <IconsContainer>
@@ -130,13 +130,14 @@ export const SocialMediaShare: React.FC<{
         <Image30>{blackIcons ? <LinkedInIconBlack /> : <LinkedInIcon />}</Image30>
       </a>
 
-      <a
-        className='is-link'
-        href={`mailto:?subject=I wanted you to see this site&body= ${emailUrl} `}
-        title='Share viaEmail'
+      <Button
+        style={{ cursor: 'copy' }}
+        onClick={() => {
+          navigator.clipboard.writeText(window.location.href)
+        }}
       >
         <Image30>{blackIcons ? <SubtractionIcon /> : <SubtractionIcon />}</Image30>
-      </a>
+      </Button>
     </IconsContainer>
   )
 }
