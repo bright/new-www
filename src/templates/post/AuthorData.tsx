@@ -18,7 +18,6 @@ const AuthorArticle = styled.article`
   .title {
     font-size: 1.25em;
   }
-
   & figure {
     & .is-rounded {
       height: 87px;
@@ -43,7 +42,6 @@ const AuthorArticle = styled.article`
       }
     }
   }
-
   & .media-content {
     position: absolute;
     top: -80px;
@@ -74,12 +72,43 @@ const SingleAuthorArticle = styled.article`
   .title {
     font-size: 1.25em;
   }
-  & .single-image {
-    width: 64px;
-    height: 96px;
+  & figure {
+    margin-right: 20px;
+    & .is-rounded {
+      height: 87px;
+      width: 87px;
+      overflow: hidden;
+      transition: all 0.3s;
+      @media ${variables.device.mobile} {
+        height: 51px;
+        width: 51px;
+      }
+      & .image {
+        border-radius: 180px;
+        border: 1px solid #d3d3d3;
+        max-height: 87px;
+        object-position: 50% 15%;
+        @media ${variables.device.mobile} {
+          max-height: 51px;
+        }
+        &:hover {
+          border: 1px solid #f7931e;
+        }
+      }
+    }
   }
+
   & .media-content {
     align-self: flex-end;
+    & .content {
+      & .title {
+        font: normal normal bold 26px/40px Montserrat;
+        margin-bottom: 0;
+      }
+      & .subtitle {
+        font: normal normal normal 20px/40px Lato;
+      }
+    }
   }
 `
 
@@ -93,6 +122,7 @@ export function AuthorsView({
   slug,
   name,
   avatar,
+  isSingleAuthor,
   bio,
 }: {
   authorId: string | undefined
@@ -108,28 +138,50 @@ export function AuthorsView({
   return (
     <LinkComponent>
       <HelmetMetaAuthor author={name} />
-
-      <AuthorArticle>
-        <div className='media-content'>
-          <div className='content'>
-            <div className='name'>{name}</div>
-            <p className='subtitle is-6 bio'>{bio}</p>
-          </div>
-        </div>
-
-        {avatar && (
-          <figure className=''>
-            <div className='image is-87x87'>
-              <GatsbyImage
-                image={getImage(avatar)!}
-                alt={name + ' bio photo'}
-                className='is-rounded'
-                imgClassName='image'
-              />
+      {isSingleAuthor ? (
+        <SingleAuthorArticle className='media'>
+          {avatar && (
+            <figure className='media-left'>
+              <p className='image is-87x87'>
+                <GatsbyImage
+                  image={getImage(avatar)!}
+                  alt={name + ' bio photo'}
+                  className='is-rounded'
+                  imgClassName='image'
+                />
+              </p>
+            </figure>
+          )}
+          <div className='media-content'>
+            <div className='content'>
+              <div className='title'>{name}</div>
+              <p className='subtitle is-6'>{bio}</p>
             </div>
-          </figure>
-        )}
-      </AuthorArticle>
+          </div>
+        </SingleAuthorArticle>
+      ) : (
+        <AuthorArticle>
+          <div className='media-content'>
+            <div className='content'>
+              <div className='name'>{name}</div>
+              <p className='subtitle is-6 bio'>{bio}</p>
+            </div>
+          </div>
+
+          {avatar && (
+            <figure className=''>
+              <p className='image is-87x87'>
+                <GatsbyImage
+                  image={getImage(avatar)!}
+                  alt={name + ' bio photo'}
+                  className='is-rounded'
+                  imgClassName='image'
+                />
+              </p>
+            </figure>
+          )}
+        </AuthorArticle>
+      )}
     </LinkComponent>
   )
 }
