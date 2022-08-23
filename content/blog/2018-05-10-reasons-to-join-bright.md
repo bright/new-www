@@ -34,9 +34,7 @@ If it comes about backend, we usually prefer **TypeScript with Node.js and NestJ
 \
 We also work with **Ethereum and Hyperledger as a Blockchain-based** app platform. And which IDE do we use? The one we feel is the best for us. Most of us choose IDE by JetBrains, but we have also experience with AppCode or Xcode if it comes about iOS development, or VS Code while programming in JavaScript/TypeScript. 
 
-<div class='block-button'><h2>Blockchain development </h2><div>We also work with **Ethereum and Hyperledger as a Blockchain-based** app platform. One of our solutions is a web app supporting Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury grants.</div><button><a href="https://brightinventions.pl/projects/bright-treasury">Find more about BrightTreasury </a></button></div>
-
-
+<div class='block-button'><h2>Blockchain development </h2><div>We also work with \\*\\*Ethereum and Hyperledger as a Blockchain-based\\*\\* app platform. One of our solutions is a web app supporting Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury grants.</div><button><a href="https://brightinventions.pl/projects/bright-treasury">Find more about BrightTreasury </a></button></div>
 
 ### 2. Because of the atmosphere
 
@@ -46,11 +44,29 @@ You will find here the work atmosphere that definitely stimulates personal growt
 
 Either you are a morning bird or a night owl, you will find a good time to work with us. You can start work from 6.00 to 10.00 a.m. **The time you work should comply to your efficiency curve.** If you prefer to work at home, we also do not see any problem with that, but remember that after all we want you to be an integral part of a team, not a remote stranger. Oh, and we are flexible also if it comes about the type of agreement you prefer. We really do not mind whether your choice is B2B, a permanent agreement or temporary one. You can choose the best one for you.
 
-<div class="important-info"><h2>We value responsibility and freedom </h2><div>**The time you work should comply to your efficiency curve.** If you prefer to work at home, we also do not see any problem with that, but remember that after all we want you to be an integral part of a team, not a remote stranger.</div></div>
+<div class="important-info"><h2>We value responsibility and freedom </h2><div>\\*\\*The time you work should comply to your efficiency curve.\\*\\* If you prefer to work at home, we also do not see any problem with that, but remember that after all we want you to be an integral part of a team, not a remote stranger.</div></div>
 
 ### 4. Because of knowledge sharing
 
 We think that real professionals learn all their life and they share their knowledge with others. And how we can do it? By[ building strong communities](https://www.facebook.com/groups/awstricity), taking part in various conferences, by running workshops, by blogging, by [CocoaHeads](https://www.facebook.com/CocoaHeadsTricity), by internal coffee talks and much more.
+
+```
+data class Person(
+  val name: String,
+  val surname: String
+) {
+  fun shareKnowledge(): Boolean {
+      println("Hey everyone, I am sharing knowledge!")
+      return true
+  }
+}
+
+val developer = Person(name = "Awesome", surname = "Developer")
+
+if(developer.shareKnowledge()) {
+   println("You have a strong community")
+}
+```
 
 ### 5. Because of good equipment and tools that we use
 
