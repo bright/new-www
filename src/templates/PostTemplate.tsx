@@ -89,12 +89,12 @@ const AuthorsSection = styled.article`
         transform: scale(1.1);
       }
     }
-    blockquote:not(blockquote > blockquote) {
+    blockquote {
       background: #f5f5f5;
       border: none;
       padding: ${variables.pxToRem(25)} ${variables.pxToRem(60)} ${variables.pxToRem(64)} ${variables.pxToRem(223)};
       position: relative;
-      margin: ${variables.pxToRem(80)} 0;
+      margin: ${variables.pxToRem(105)} 0;
       &:before {
         content: '“';
         color: ${variables.color.primary};
@@ -105,6 +105,26 @@ const AuthorsSection = styled.article`
         font-weight: 900;
         top: 0;
         left: ${variables.pxToRem(43)};
+      }
+      & h2 {
+        // font: normal normal 800 34px/42px Montserrat;
+        font-weight: 800;
+        font-size: ${clampBuilder(360, 1920, 24, 34)};
+        line-height: ${clampBuilder(360, 1920, 29, 42)};
+        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+      }
+      & div {
+        font-family: ${variables.font.customtext.lato};
+        font-size: ${clampBuilder(360, 1920, 16, 20)};
+        line-height: ${variables.pxToRem(40)};
+        margin-bottom: ${clampBuilder(360, 1920, 32, 46)};
+      }
+      & footer {
+        font: normal normal bold 16px/19px Lato;
+        font-wight: bold;
+        font-family: ${variables.font.customtext.lato};
+        font-size: ${variables.pxToRem(16)};
+        line-height: ${variables.pxToRem(19)};
       }
       @media ${variables.device.laptop} {
         padding: ${variables.pxToRem(28)} ${variables.pxToRem(43)} ${variables.pxToRem(64)} ${variables.pxToRem(203)};
@@ -119,56 +139,87 @@ const AuthorsSection = styled.article`
         }
       }
     }
-    blockquote {
-      & p strong {
-        font-family: ${variables.font.customtext.monserat};
-        font-weight: 800;
-        font-size: ${variables.pxToRem(32)};
-        line-height: ${variables.pxToRem(39)};
-      }
-      & blockquote {
-        background: #f5f5f5;
-        border: none;
-        padding: 0;
-        margin: 0;
+  }
 
-        &:first-of-type {
-          margin-bottom: ${variables.pxToRem(60)};
-          & p {
-            font-size: ${variables.pxToRem(18)};
-            line-height: ${variables.pxToRem(40)};
-          }
+    && .block-button {
+      border: 1px solid ${variables.color.primary};
+      padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
+      margin: ${clampBuilder(360, 1920, 82, 105)} 0 ${clampBuilder(360, 1920, 82, 186)};
+      & h2 {
+        // font: normal normal 800 34px/42px Montserrat;
+        font-weight: 800;
+        font-size: ${clampBuilder(360, 1920, 24, 34)};
+        line-height: ${clampBuilder(360, 1920, 29, 42)};
+        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+        text-align: center;
+      }
+      & div {
+        font-family: ${variables.font.customtext.lato};
+        font-size: ${clampBuilder(360, 1920, 16, 20)};
+        line-height: ${variables.pxToRem(40)};
+        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+      }
+      & button {
+        border: 1px solid #f7931e;
+        background: #f7931e;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0;
+        color: #000000;
+        opacity: 1;
+        padding: 1rem 4rem;
+        font-size: ${clampBuilder(360, 1920, 16, 18)};
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        display: block;
+        margin: 0 auto;
+        &:hover {
+          color: #ffffff;
+          border: 1px solid #000000;
+          background: #000000;
         }
-        &:last-of-type p {
-          font-weight: 600;
-          font-size: ${variables.pxToRem(16)};
-          line-height: ${variables.pxToRem(19)};
+        & a {
+          color: inherit;
+          text-decoration: none;
         }
       }
+    }
+    && .important-info {
+      border: 1px solid ${variables.color.primary};
+      padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
+      margin: ${clampBuilder(360, 1920, 82, 105)} 0 ${clampBuilder(360, 1920, 82, 186)};
+      & h2 {
+      
+        font-weight: 800;
+        font-size: ${clampBuilder(360, 1920, 24, 34)};
+        line-height: ${clampBuilder(360, 1920, 29, 42)};
+        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+        text-align: center;
+      }
+      & div {
+        font-family: ${variables.font.customtext.lato};
+        font-size: ${clampBuilder(360, 1920, 16, 20)};
+        line-height: ${variables.pxToRem(40)};
+        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+      }
+    }
+    & .hide-on-mobile {
+      display: block
       @media ${variables.device.mobile} {
-        & p strong {
-          font-size: ${variables.pxToRem(24)};
-          line-height: ${variables.pxToRem(29)};
-        }
-        & blockquote {
-          &:first-of-type {
-            margin-bottom: ${variables.pxToRem(34)};
-            & p {
-              font-size: ${variables.pxToRem(16)};
-            }
-          }
-        }
+        display: none;
       }
     }
-  }
-  & .author-container > div:not(:last-of-type) {
-    margin-right: 1.3125rem;
-    @media ${variables.device.mobile} {
-      margin-right: 1.125rem;
+
+    & .author-container > div:not(:last-of-type) {
+      margin-right: 1.3125rem;
+      @media ${variables.device.mobile} {
+        margin-right: 1.125rem;
+      }
     }
-  }
-  @media ${variables.device.mobile} {
-    padding: 0 1.125rem;
+    @media ${variables.device.mobile} {
+      padding: 0 1.125rem;
+    }
   }
 `
 
