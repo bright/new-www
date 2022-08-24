@@ -21,12 +21,9 @@ As Krug wisely wrote, we should not create elaborations about our company becaus
 
 I especially appreciate Krug’s tip to omit needless words:
 
-<section id='section'>
-<p>How to omit needless words</p>
-<p>“[...] I find I have no trouble getting rid of half of the words on most Web pages without losing anything of value. But removing half of what’s left is just my way of trying to encourage people to be ruthless about it.”</p>
-</section>
+> \[...] I find I have no trouble getting rid of half of the words on most Web pages without losing anything of value. But removing half of what’s left is just my way of trying to encourage people to be ruthless about it.
 
-Give people beef otherwise they will just ignore your words.
+Give people beef. Otherwise, they will just ignore your words.
 
 ## 2. Every second matters
 

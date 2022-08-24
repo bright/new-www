@@ -1,8 +1,4 @@
 ---
-layout: post
-title: Bright Inventions Awarded Top 2019 Development Company in Poland
-date: 2019-11-28T08:11:47.483Z
-image: /images/top_b2b_comapnies_clutch_2019.png
 author: ula
 tags:
   - Clutch
@@ -11,6 +7,10 @@ tags:
   - software
   - digital
   - startups
+date: 2019-11-28T08:11:47.483Z
+title: Bright Inventions Awarded Top 2019 Development Company in Poland
+layout: post
+image: /images/blog_clutch_2019png.png
 hidden: false
 comments: true
 published: true

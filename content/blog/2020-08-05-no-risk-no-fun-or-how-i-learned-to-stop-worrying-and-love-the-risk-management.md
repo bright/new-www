@@ -1,9 +1,4 @@
 ---
-layout: post
-title: "No risk, no fun or: How I learned to stop worrying and love the risk
-  management."
-date: 2020-08-05T12:34:37.084Z
-image: /images/riskmanagement2-–-4.png
 author: kasia
 tags:
   - risk management
@@ -11,11 +6,20 @@ tags:
   - project management
   - ISO
   - ALARP
+date: 2020-08-05T12:34:37.084Z
+title: "No risk, no fun or: How I learned to stop worrying and love the risk
+  management."
+layout: post
+image: /images/blog_post_risk_management.png
 hidden: false
 comments: true
 published: true
 ---
-I’ve been researching and writing about the agile approach to risk management for quite a few years now but mostly in relation to safety-critical software (for example [here](https://dl.acm.org/doi/10.1145/3234152.3234174) , [here](https://link.springer.com/chapter/10.1007%2F978-3-030-37534-8_4) and [here](https://journals.agh.edu.pl/csci/article/view/51) ). This time I wanted to address other types of projects, how it can work in practice and why the risk is not necessarily a bad thing. I started to write this blog post back in March, I already had the title and some notes. And then something unexpected ([but apparently still predictable](https://www.youtube.com/watch?v=6Af6b_wyiwI)) happened - a global pandemic. Suddenly, writing that if there’s no risk, then there’s no fun seemed inappropriate. Going out, ignoring the risks, was simply foolish and arrogant. We were all stuck in our homes, not sure about the actual threats, following the numbers, untangling expert advice from the conspiracy theories, trying to predict whether we’d make it to the summer at all. With live footage of human tragedies unfolding in different parts of the world, we looked out the window to see the trees in bloom and birds chirping, like nothing was happening. Was it really that dangerous? While it felt awkward to write candidly about the idea of risk a few months ago, I think now the timing couldn’t be better. Because now that we debate the risk at personal level, almost every day since March, maybe considering it also on a professional level would feel more natural. Because there’s always risk. Sometimes it’s unavoidable, sometimes, manageable, but it’s there. Pretending we don’t see it (or indeed, not seeing it at all) is a dangerous strategy. **But acknowledging the risk, making informed decisions and sometimes doing things anyway is where the fun begins.**
+I’ve been researching and writing about the agile approach to risk management for quite a few years now but mostly in relation to safety-critical software (for example [here](https://dl.acm.org/doi/10.1145/3234152.3234174) , [here](https://link.springer.com/chapter/10.1007%2F978-3-030-37534-8_4) and [here](https://journals.agh.edu.pl/csci/article/view/51) ). This time I wanted to address other types of projects, how it can work in practice and why the risk is not necessarily a bad thing. 
+
+![risk management IT](/images/blog_post_risk_management.png)
+
+I started to write this blog post back in March, I already had the title and some notes. And then something unexpected ([but apparently still predictable](https://www.youtube.com/watch?v=6Af6b_wyiwI)) happened - a global pandemic. Suddenly, writing that if there’s no risk, then there’s no fun seemed inappropriate. Going out, ignoring the risks, was simply foolish and arrogant. We were all stuck in our homes, not sure about the actual threats, following the numbers, untangling expert advice from the conspiracy theories, trying to predict whether we’d make it to the summer at all. With live footage of human tragedies unfolding in different parts of the world, we looked out the window to see the trees in bloom and birds chirping, like nothing was happening. Was it really that dangerous? While it felt awkward to write candidly about the idea of risk a few months ago, I think now the timing couldn’t be better. Because now that we debate the risk at personal level, almost every day since March, maybe considering it also on a professional level would feel more natural. Because there’s always risk. Sometimes it’s unavoidable, sometimes, manageable, but it’s there. Pretending we don’t see it (or indeed, not seeing it at all) is a dangerous strategy. **But acknowledging the risk, making informed decisions and sometimes doing things anyway is where the fun begins.**
 
 ## Risk management
 

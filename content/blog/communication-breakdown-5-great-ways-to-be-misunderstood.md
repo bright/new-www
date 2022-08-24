@@ -8,7 +8,7 @@ tags:
 date: 2021-08-04T09:16:01.315Z
 title: Communication Breakdown - 5 great ways to be misunderstood
 layout: post
-image: /images/pexels-alex-andrews-821754.jpg
+image: /images/blog_post_communication.png
 hidden: false
 comments: true
 published: true

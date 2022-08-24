@@ -9,12 +9,14 @@ tags:
 date: 2020-03-03T15:21:07.486Z
 title: Successful designer-developer collaboration in MVP work environment
 layout: post
-image: /images/alisa_desdevcollaboration-copy.png
+image: /images/blog_designer_developer.png
 hidden: false
 comments: true
 published: true
 ---
 Undertaking a brand new idea and turning it into a successful product is always thrilling but also risky. In order to create a successful and meaningful project it is essential first to build **[Minimum Viable Product (MVP)](/our-areas/mvp-development)** to see if we are on the right track and if our strategy is going in the right direction. That is why, building MVP gives us an advantage, as it helps define all possible pitfalls, eliminates gaps in a wholesome product in future, or even helps to understand if our approach should be changed completely already on the early stage of the project. 
+
+![](/images/alisa_desdevcollaboration-copy.png)
 
 Hence, the work environment of MVP should be highly lean and flexible, the collaboration of the team inside such environment should also resemble all traits of resilience, an ability to adapt to a constant change at a rapid pace. Thus, a favourable outcome of MVP largely depends on the team, the way they communicate, adapt and collaborate with each other. Especially, when it comes to designer-developer joining forces, it is essential that they create **a work tandem** and do their best to achieve top results. How do we make sure that the designer-developer team work is lucrative? 
 
