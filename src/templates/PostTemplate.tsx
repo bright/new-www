@@ -46,6 +46,15 @@ const AuthorsSection = styled.article`
     }
     h2 {
       font-size: ${variables.pxToRem(40)};
+      &:target {
+        &:before {
+          display: block;
+          content: ' ';
+          height: 100px;
+          margin-top: -100px;
+          visibility: hidden;
+        }
+      }
       @media ${variables.device.laptop} {
         font-size: ${variables.pxToRem(34)};
       }
@@ -55,6 +64,15 @@ const AuthorsSection = styled.article`
     }
     h3 {
       font-size: ${variables.pxToRem(28)};
+      &:target {
+        &:before {
+          display: block;
+          content: ' ';
+          height: 100px;
+          margin-top: -100px;
+          visibility: hidden;
+        }
+      }
       @media ${variables.device.laptop} {
         font-size: ${variables.pxToRem(25)};
       }
@@ -353,7 +371,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
         <Content className='content is-family-secondary' dangerouslySetInnerHTML={{ __html: props.html }} />
       )}
 
-      <BackButton url={routeLinks.blog} label='Blog' />
+      <BackButton url={routeLinks.blog} label='Previous' arrowColor='orange' />
 
       {props.canonicalUrl && (
         <section>
