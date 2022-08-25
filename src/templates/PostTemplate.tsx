@@ -97,6 +97,12 @@ const AuthorsSection = styled.article`
     p strong {
       font-weight: 700;
     }
+    & .hide-on-mobile {
+      display: block;
+      @media ${variables.device.mobile} {
+        display: none;
+      }
+    }
 
     ul li::marker {
       color: ${variables.color.primary};
@@ -223,12 +229,7 @@ const AuthorsSection = styled.article`
         margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
       }
     }
-    & .hide-on-mobile {
-      display: block
-      @media ${variables.device.mobile} {
-        display: none;
-      }
-    }
+  
 
     & .author-container > div:not(:last-of-type) {
       margin-right: 1.3125rem;
@@ -277,6 +278,7 @@ const WrapperNews = styled.div`
 const PreviousButton = styled(Button)`
   display: flex;
   align-items: center;
+  cursor: pointer;
 `
 
 export type PostTemplateProps = {
