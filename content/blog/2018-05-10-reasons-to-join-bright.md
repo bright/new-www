@@ -24,6 +24,10 @@ Our company is built on the flat structure. Each and every person has **a real i
 
 We are a team of professionals who are not afraid of new challenges and who are also not afraid of making mistakes. You know how it works - *the only people who never fail are those who never try.* So, if you would like to be surrounded by smart and likeable people who will help you develop and broaden your skills and career, Bright Inventions is a place for you.
 
+
+<img src=/images/img_20220318_190348.jpg alt=bright developers from Gdańsk class=hide-on-mobile />
+
+
 ## And why you will love working with us?
 
 ### 1. Because of technologies we use
