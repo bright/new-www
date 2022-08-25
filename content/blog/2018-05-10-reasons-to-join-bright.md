@@ -26,6 +26,8 @@ We are a team of professionals who are not afraid of new challenges and who are 
 
 <img src=/images/img_20220318_190348.jpg alt=bright devs from Gdańsk  class="hide-on-mobile" />
 
+<img src=/images/img_20220318_190348.jpg alt=bright devs class="hide-on-mobile" />
+
 ## And why you will love working with us?
 
 ### 1. Because of technologies we use
