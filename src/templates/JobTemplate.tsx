@@ -479,7 +479,7 @@ const ScrollSection = styled.section``
 const JobSection = styled.div`
   @media ${variables.device.mobile} {
     &:target {
-      &::before {
+      &:before {
         display: block;
         content: ' ';
         height: 100px;
