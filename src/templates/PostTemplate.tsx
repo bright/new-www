@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby'
+import { graphql, navigate } from 'gatsby'
 import React, { ComponentProps, useEffect, useRef, useState } from 'react'
 import { useLocation } from '@reach/router'
 import styled from 'styled-components'
@@ -21,9 +21,10 @@ import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
 import Newsletter from '../components/subcomponents/Newsletter'
 import NewsletterWrapper from './../components/subcomponents/NewsletterWrapper'
-import { CustomSection } from '../components/shared'
+import { Button, CustomSection } from '../components/shared'
 import { SocialMediaShare } from './blog/SocialMediaShare'
 import { clampBuilder } from './../helpers/clampBuilder'
+import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -204,7 +205,8 @@ const AuthorsSection = styled.article`
       }
     }
     && .important-info {
-      border: 1px solid ${variables.color.primary};
+      boimport { ArrowBackOrange } from './../components/icons/ArrowBackOrange.icon';
+rder: 1px solid ${variables.color.primary};
       padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
       margin: ${clampBuilder(360, 1920, 82, 105)} 0 ${clampBuilder(360, 1920, 82, 186)};
       & h2 {
@@ -272,6 +274,10 @@ const WrapperNews = styled.div`
   @media ${variables.device.mobile} {
     padding: 0 ${variables.pxToRem(18)};
   }
+`
+const PreviousButton = styled(Button)`
+  display: flex;
+  align-items: center;
 `
 
 export type PostTemplateProps = {
@@ -371,7 +377,10 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
         <Content className='content is-family-secondary' dangerouslySetInnerHTML={{ __html: props.html }} />
       )}
 
-      <BackButton url={routeLinks.blog} label='Previous' arrowColor='orange' />
+      <PreviousButton onClick={() => navigate(-1)}>
+        <ArrowBackOrange />
+        Previous
+      </PreviousButton>
 
       {props.canonicalUrl && (
         <section>
