@@ -51,11 +51,11 @@ export const hiddenImageConfig = {
   // This is used to serialize the data from the custom widget to the
   // markdown document
   toBlock: function (data: { src: any; alt: string; hideOnMobile: boolean }) {
-    return `<img src=${data.src} alt=${data.alt} class="${data.hideOnMobile ? 'hide-on-mobile' : 'image'}" />`
+    return `<img src="${data.src}" alt="${data.alt}" class="${data.hideOnMobile ? 'hide-on-mobile' : 'image'}" />`
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
   toPreview: function (data: { src: any; alt: string; hideOnMobile: boolean }) {
-    return `<img src=${data.src} alt=${data.alt} class="${data.hideOnMobile ? 'hide-on-mobile' : 'image'}" />`
+    return `<img src="${data.src}" alt="${data.alt}" class="${data.hideOnMobile ? 'hide-on-mobile' : 'image'}" />`
   },
 }
