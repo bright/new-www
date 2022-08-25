@@ -205,8 +205,7 @@ const AuthorsSection = styled.article`
       }
     }
     && .important-info {
-      boimport { ArrowBackOrange } from './../components/icons/ArrowBackOrange.icon';
-rder: 1px solid ${variables.color.primary};
+      border: 1px solid ${variables.color.primary};
       padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
       margin: ${clampBuilder(360, 1920, 82, 105)} 0 ${clampBuilder(360, 1920, 82, 186)};
       & h2 {
