@@ -12,7 +12,7 @@ email: piotr.mionskowski@brightinventions.pl
 bio: Partner, Team Leader, Technology Evangelist
 description: Partner, Team Leader, Technology Evangelist
 web: https://miensol.pl
-avatar: /images/piotr_m2_team.png
+avatar: /images/piotrm2022.png
 avatar_hover: /images/piotrm_passion.png
 twitter: miensol
 github: miensol
