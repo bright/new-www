@@ -8,7 +8,7 @@ short_name: Damian
 email: damian.petla@brightinventions.pl
 bio: Senior Android Developer
 description: Senior Android Developer
-avatar: /images/damian_team_2022.png
+avatar: /images/damian_p_team.png
 avatar_hover: /images/damian_passion2022.png
 published: true
 ---
