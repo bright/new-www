@@ -8,7 +8,7 @@ short_name: Łukasz
 email: lukasz.kuderewski@brightinventions.pl
 bio: Junior Fullstack Developer
 description: Junior Fullstack Developer
-avatar: /images/lukaszk_team.png
+avatar: /images/lukasz2022.png
 avatar_hover: /images/lukaszk_passion_team.png
 published: true
 ---
