@@ -8,7 +8,7 @@ short_name: Adam
 email: adam.waniak@brightinventions.pl
 bio: Backend Developer
 description: Backend Developer
-avatar: /images/adam_w_team_small.png
+avatar: /images/adam2022.png
 avatar_hover: /images/adam_w_passion_small.png
 published: true
 ---
