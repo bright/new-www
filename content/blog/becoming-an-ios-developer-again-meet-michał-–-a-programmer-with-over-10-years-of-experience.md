@@ -8,7 +8,8 @@ date: 2022-08-30T07:42:48.890Z
 title: Becoming an iOS Developer Again. Meet Michał – a Programmer with over 10
   Years of Experience
 layout: post
-hidden: false
+image: /images/brightstorymichal.jpg
+hidden: true
 comments: true
 published: true
 ---
