@@ -24,7 +24,7 @@ export const buttonBlockConfig = {
       widget: 'string',
     },
   ],
-  pattern: /^<div><h2>(.*)<\/h2><div>(.*)<\/div><button><a href=(.*)>(.*)<\/a><\/button><\/div>$/, // Pattern to identify a block as being an instance of this component
+  pattern: /^<div><h2>(.*)<\/h2><div>(.*)<\/div><a href=(.*)><button>(.*)<\/button><\/a><\/div>$/, // Pattern to identify a block as being an instance of this component
   // Function to extract data elements from the regexp match
   fromBlock: function (match: any[]) {
     return {
@@ -44,10 +44,12 @@ export const buttonBlockConfig = {
       '<div>' +
       obj.text +
       '</div>' +
-      '<button>' +
       `<a href="${obj.link}">` +
-      obj.button +
-      '</a></button></div>'
+      '<button>' +
+      +obj.button +
+      '</button>' +
+      '</a>' +
+      '</div>'
     )
   },
   // Preview output for this component. Can either be a string or a React component
@@ -61,11 +63,11 @@ export const buttonBlockConfig = {
       '<div>' +
       obj.text +
       '</div>' +
-      '<button>' +
       `<a href="${obj.link}">` +
+      '<button>' +
       +obj.button +
-      '</a>' +
       '</button>' +
+      '</a>' +
       '</div>'
     )
   },
