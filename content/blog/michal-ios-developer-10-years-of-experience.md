@@ -84,6 +84,8 @@ Since I remember I was into **automotive and mechanics**. I guess my grandfather
 
 <img src="/images/michal_rally_passion.png" alt="undefined" class="image" />
 
+*[Watch Michał in action](https://www.youtube.com/watch?v=tU-jv80y3SM&t=40s). 🏁*
+
 ## Do you like to race at work as well? 😉
 
 I guess it is nice to finish my tasks faster than I estimated. However, **software development is more about collaboration than race**. Working together is the best way to build a successful product in this business.
