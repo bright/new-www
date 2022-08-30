@@ -8,7 +8,7 @@ tags:
 date: 2022-08-23T13:17:59.215Z
 title: I needed my Catharsis - why developers are not happy with their career?
 layout: post
-image: /images/adobestock_367253290.jpeg
+image: /images/blog_post_cover_masks.png
 hidden: false
 comments: true
 published: true
