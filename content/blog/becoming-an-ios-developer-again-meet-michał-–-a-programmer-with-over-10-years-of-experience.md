@@ -14,3 +14,5 @@ comments: true
 published: true
 ---
 **Michał worked with Swift since the 1.0 version. For a period of time, he was even a team manager. Some would say that's a usual career path. Yet for him, it was just a turn in a different direction. Eventually, he missed programming too much and came back to his developer roots. 😉 Dive into Michał’s story!**
+
+<img src="/images/brightstorymichalcollage.png" alt="Michal's bright story" class="image" />
