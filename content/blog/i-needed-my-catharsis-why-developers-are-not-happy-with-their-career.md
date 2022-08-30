@@ -42,7 +42,6 @@ Did I have such a moment? Come one, ONE? Five, at least. But hey, you are a valu
 
 <img src=/images/companies-working-length.jpg alt=Average engineers tenure at major tech companies class=image />
 
-
 Source: [HackerLife Data](https://hackerlife.co/blog/san-francisco-large-corporation-employee-tenure)
 
 Around 50% of software engineers only stay at a company for two years before switching to somewhere new. The national average for job tenure is 4.2 years so software engineers stay in one place for half as long. Typically the larger the company the longer a developer stays in one role. 
@@ -56,7 +55,9 @@ I’m going to repeat myself - even if in comparison - working on the systems th
 This is a real quote from my beginnings. I was pretty sure that all I do is just write another loop, another if/else statement. If we will go down to the foundation, then we can say - yes, we are writing if/else statements. But what is software development? Even after we tear down the business value from the project - we need to connect the facts, endpoints, modules, and subprojects into one, working solution. That’s why a lot of companies have developers but architects also. Maybe you are not an architect, but still - use your energy, knowledge, and experience and create something that matters.
 
 <img src=/images/information-knowledge.jpg alt=The difference between information knowledge and experience  class=image />
-Linkedin
+
+
+Source: [Medium](https://medium.com/@lantermarion13/the-curse-of-intuition-c29f469ae99a)
 
 ## Dunning-Kruger effect
 
@@ -69,7 +70,6 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 The same effect can be shown slightly different: 
 
 <img src=/images/simplified-dunning-kruger-effect.jpg alt=Simplified Dunning-Kruger effect class=image />
-
 
 Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Dunning%E2%80%93Kruger_Effect_01.svg)
 
