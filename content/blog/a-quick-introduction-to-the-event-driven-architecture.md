@@ -13,12 +13,12 @@ hidden: false
 comments: true
 published: true
 ---
-Publishing events can be a really good replacement for direct calls and in many cases, they are a better solution. With the use of events, we can invert the direction of dependency and better express our intention.\
-I think examples explain things more clearly, so without further due let us jump into it.
+Publishing events can be a really good replacement for direct calls and in many cases, they are a better solution. With the use of events, we can invert the direction of dependency and  express better our intention.\
+I think examples explain things more clearly, so without further ado let us jump into it.
 
 - - -
 
-The Customer component store and processes the customers' data (including customers’ addresses).\
+The Customer component stores and processes the customers' data (including customers’ addresses).\
 The billing component (responsible for sending people bills) must have an up-to-date customer’s address all the time.
 
 ## Direct call
@@ -31,11 +31,11 @@ With direct calls our system can be designed like this:
 
 </center>
 
-When an address is changed on the customer side a request is sent to the billing with a change command. In this case, the customer has a dependency on the billing. It is a very easy approach that every developer should understand.
+When an address is changed on the customer's side a request is sent to the billing with a change command. In this case, the customer has a dependency on the billing. It is a very easy approach that every developer should understand.
 
 ## Event notification 
 
-By using the event notification pattern we inform all entities which listen to the change.
+By using the event notification pattern we inform all entities which listen for the change.
 
 <center>
 
@@ -86,6 +86,6 @@ Billing and reporting are notified about an address change through the `events`(
 ## Summary
 
 The thing to consider before choosing our strategy is what direction of dependency we prefer and this is a case-by-case decision to make. \
-The events ensure very loose coupling between services, but with this strength comes its great weakness. It is easier to lose control of processes in your system. You don’t know who is listening to the events until run-time. It’s harder to understand, debug and modify compare to the standard approach.
+The events ensure very loose coupling between services, but with this strength comes its great weakness. It is easier to lose control of processes in your system. You don’t know who is listening to the events until run-time. It’s harder to understand, debug and modify compared to the standard approach.
 
-So as always they are trade-offs of every approach but having these patterns in our toolbox will help us design better systems.
+So as always there are trade-offs of every approach but having these patterns in our toolbox will help us design better systems.
