@@ -10,7 +10,7 @@ title: Becoming an iOS Developer Again. Meet Michał – a Programmer with over 
   Years of Experience
 layout: post
 image: /images/brightstorymichal.jpg
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -83,6 +83,8 @@ I definitely noticed that Bright Inventions gathers **people with a unique minds
 Since I remember I was into **automotive and mechanics**. I guess my grandfather inspired me to follow this road. I made my first car repairs with him. Then I met people who attended rallying competitions and I quickly started to compete as well. I usually took part in local championships and even got Vice Champion of the Pomeranian Rally Championship.
 
 <img src="/images/michal_rally_passion.png" alt="undefined" class="image" />
+
+*[Watch Michał in action](https://www.youtube.com/watch?v=tU-jv80y3SM&t=40s). 🏁*
 
 ## Do you like to race at work as well? 😉
 
