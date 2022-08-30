@@ -80,6 +80,6 @@ Now let's move on to the details of the individual steps:
 
    The DOM and CSSOM tree structures are two independent structures. The DOM contains all the information about the page’s HTML element’s relationships, while the CSSOM contains information on how the elements are styled. The browser combines the DOM and CSSOM trees into a render tree. The render tree contains information on all visible DOM content on the page and all the required CSSOM information for the different nodes. Note that if an element has been hidden by CSS (e.g., by using `display; none`), the node will not be represented in the render tree.\
    \
-   <img src="/images/render-tree-avif" alt="render tree" class="image" />\
+   <img src="/images/render-tree.avif" alt="render tree" class="image" />\
    \
    With the render tree constructed, the next step is to perform the layout. Right now, we have the content and style information of all visible content on the screen, but we haven’t actually rendered anything to the screen. The browser has to calculate the exact size and position of each object on the page. With the information on the content (DOM), style (CSSOM), and the exact layout of the elements computed, the browser now “paints” the individual node on the screen. Finally, the elements are now rendered to the screen!
