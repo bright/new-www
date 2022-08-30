@@ -79,3 +79,5 @@ Now let's move on to the details of the individual steps:
    The exact same thing happens with styles related to the document from bytes threw characters, tokens, and nodes they end up forming a CSSOM.
 
    The DOM and CSSOM tree structures are two independent structures. The DOM contains all the information about the page’s HTML element’s relationships, while the CSSOM contains information on how the elements are styled. The browser combines the DOM and CSSOM trees into a render tree. The render tree contains information on all visible DOM content on the page and all the required CSSOM information for the different nodes. Note that if an element has been hidden by CSS (e.g., by using `display; none`), the node will not be represented in the render tree.
+
+   <img src="/images/render-tree.avif" alt="render tree" class="image" />
