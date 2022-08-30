@@ -9,7 +9,7 @@ date: 2022-08-23T13:17:59.215Z
 title: I needed my Catharsis - why developers are not happy with their career?
 layout: post
 image: /images/adobestock_367253290.jpeg
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -32,7 +32,7 @@ It’s about social life, but it can be also applied to the IT projects
 
 So those two terms are similar and explain something I want to express - you, as a developer, need to understand that you are not working on another button or another notification. We all are working on a whole project, which has requirements, goals, and actors. Once you realize it, it will be easier for you to understand “why this manager wants to have another input field”.
 
-In other words, you need to perceive the project more holistic. Get out of your own frontend/backend box, the module you are working on, and try to understand the essence of the system you are creating
+In other words, you need to perceive the project more holistic. Get out of your own frontend/backend box, the module you are working on, and try to understand the essence of the system you are creating.
 It’s common for massive systems full of integrations, busses, and other stuff - you are working in a small team, which is responsible for notifications sending, but you have also tasks about SMS channel - it’s easy to forget about the main goal behind the fence and focus just on the JIRA tickets.
 
 ## Working on “insignificant” things
@@ -55,7 +55,6 @@ I’m going to repeat myself - even if in comparison - working on the systems th
 This is a real quote from my beginnings. I was pretty sure that all I do is just write another loop, another if/else statement. If we will go down to the foundation, then we can say - yes, we are writing if/else statements. But what is software development? Even after we tear down the business value from the project - we need to connect the facts, endpoints, modules, and subprojects into one, working solution. That’s why a lot of companies have developers but architects also. Maybe you are not an architect, but still - use your energy, knowledge, and experience and create something that matters.
 
 <img src=/images/information-knowledge.jpg alt=The difference between information knowledge and experience  class=image />
-
 
 Source: [Medium](https://medium.com/@lantermarion13/the-curse-of-intuition-c29f469ae99a)
 
