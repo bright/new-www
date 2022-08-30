@@ -21,10 +21,11 @@ import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
 import Newsletter from '../components/subcomponents/Newsletter'
 import NewsletterWrapper from './../components/subcomponents/NewsletterWrapper'
-import { Button, CustomSection } from '../components/shared'
+import { Button, CustomSection, FlexWrapper } from '../components/shared'
 import { SocialMediaShare } from './blog/SocialMediaShare'
 import { clampBuilder } from './../helpers/clampBuilder'
 import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
+import Dot from '../components/icons/Dot.icon'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -109,7 +110,7 @@ const AuthorsSection = styled.article`
     }
     p img {
       will-change: transform;
-      transition: transform 1.2s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
+      transition: all 1.2s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
       &:hover {
         transform: scale(1.1);
       }
@@ -280,6 +281,11 @@ const PreviousButton = styled(Button)`
   align-items: center;
   cursor: pointer;
 `
+const WrapperDot = styled.div`
+  position: relative;
+  height: 100%;
+  width: 4px;
+`
 
 export type PostTemplateProps = {
   path: string
@@ -354,19 +360,24 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
 
         <div className='column has-text-right'>
           <div className='content has-text-grey-light'>
-            <p className='has-text-primary'>{props.timeToRead} min</p>
             <PostTags tags={props.tags} />
+            <FlexWrapper desktopContent='flex-end' desktopGap='10px'>
+              <p className='has-text-primary'>{props.timeToRead} min</p>
+              <WrapperDot>
+                <Dot />
+              </WrapperDot>
 
-            <p>
-              {props.date && <DateFormatter date={props.date} />}
-              &nbsp;
-              {/* <a
+              <p>
+                {props.date && <DateFormatter date={props.date} />}
+                &nbsp;
+                {/* <a
                 className='has-text-grey-light'
                 href={'/admin/#/collections/blog/entries/' + getFileNameOnly(props.fileAbsolutePath)}
               >
                 Edit
               </a> */}
-            </p>
+              </p>
+            </FlexWrapper>
           </div>
         </div>
       </div>

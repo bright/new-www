@@ -160,7 +160,9 @@ export function AuthorsView({
           )}
           <div className='media-content'>
             <div className='content'>
-              <div className='title'>{name}</div>
+              <div className='title' style={{ marginBottom: '4px' }}>
+                {name}
+              </div>
               <p className='subtitle is-6'>{bio}</p>
             </div>
           </div>

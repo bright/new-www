@@ -11,6 +11,7 @@ import SubtractionIcon from '../../assets/subtraction.svg'
 import variables from '../../styles/variables'
 import { clampBuilder } from './../../helpers/clampBuilder'
 import { Button } from '../../components/shared'
+import { useState } from 'react'
 
 const IconsContainer = styled.div`
   display: flex;
@@ -19,7 +20,7 @@ const IconsContainer = styled.div`
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  padding: ${variables.pxToRem(36)} 0 0};
+  padding: ${variables.pxToRem(36)} ${variables.pxToRem(24)} 0 0};
   @media ${variables.device.tablet} {
     max-width: 100%;
     column-gap: ${clampBuilder(300, 834, 19, 111)};
@@ -83,6 +84,34 @@ const ImageYouTube = styled.figure`
     }
   }
 `
+const LinkCopyButton = styled(Button)`
+  position: relative;
+`
+const LinkCopySucces = styled.p`
+  position: absolute;
+  top: 42px;
+  left: -42px;
+
+  width: 100px;
+  color: ${variables.color.white};
+  background: ${variables.color.text2};
+  text-align: center;
+  &:before {
+    content: '';
+    z-index: -1;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -9px;
+    background: ${variables.color.text2};
+    transform: rotate(90deg);
+    clip-path: polygon(59% 0%, 0% 50%, 59% 100%);
+  }
+`
 
 export const SocialMediaShare: React.FC<{
   blackIcons?: boolean
@@ -92,52 +121,57 @@ export const SocialMediaShare: React.FC<{
   const baseUrl = 'https://brightinventions.pl'
   const url = baseUrl + slug
 
+  const [copySucces, setCopySucces] = useState('')
+
   return (
-    <IconsContainer>
-      <a
-        className='is-link'
-        href={'https://reddit.com/submit?url=' + url + '&title=' + title}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <Image30>{blackIcons ? <RedditIcon /> : <RedditIcon />}</Image30>
-      </a>
-
-      <a
-        className='is-link'
-        href={'https://www.facebook.com/sharer/sharer.php?u=' + url}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <Image30>{blackIcons ? <FacebookIconBlack /> : <FacebookIcon />}</Image30>
-      </a>
-
-      <a
-        className='is-link'
-        href={'https://twitter.com/share?url=' + url + '&text-' + title + '&via' + 'twitterHandle'}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <Image30>{blackIcons ? <TwitterIconBlack /> : <TwitterIcon />}</Image30>
-      </a>
-
-      <a
-        className='is-link'
-        href={'https://www.linkedin.com/shareArticle?url=' + url}
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <Image30>{blackIcons ? <LinkedInIconBlack /> : <LinkedInIcon />}</Image30>
-      </a>
-
-      <Button
-        style={{ cursor: 'copy' }}
-        onClick={() => {
-          navigator.clipboard.writeText(window.location.href)
-        }}
-      >
-        <Image30>{blackIcons ? <SubtractionIcon /> : <SubtractionIcon />}</Image30>
-      </Button>
-    </IconsContainer>
+    <>
+      <IconsContainer>
+        <a
+          className='is-link'
+          href={'https://reddit.com/submit?url=' + url + '&title=' + title}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image30>{blackIcons ? <RedditIcon /> : <RedditIcon />}</Image30>
+        </a>
+        <a
+          className='is-link'
+          href={'https://www.facebook.com/sharer/sharer.php?u=' + url}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image30>{blackIcons ? <FacebookIconBlack /> : <FacebookIcon />}</Image30>
+        </a>
+        <a
+          className='is-link'
+          href={'https://twitter.com/share?url=' + url + '&text-' + title + '&via' + 'twitterHandle'}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image30>{blackIcons ? <TwitterIconBlack /> : <TwitterIcon />}</Image30>
+        </a>
+        <a
+          className='is-link'
+          href={'https://www.linkedin.com/shareArticle?url=' + url}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image30>{blackIcons ? <LinkedInIconBlack /> : <LinkedInIcon />}</Image30>
+        </a>
+        <LinkCopyButton
+          style={{ cursor: 'copy' }}
+          onClick={() => {
+            navigator.clipboard.writeText(window.location.href)
+            setCopySucces('link copied')
+            setTimeout(() => {
+              setCopySucces('')
+            }, 5000)
+          }}
+        >
+          <Image30>{blackIcons ? <SubtractionIcon /> : <SubtractionIcon />}</Image30>
+          {copySucces && <LinkCopySucces>{copySucces}</LinkCopySucces>}
+        </LinkCopyButton>
+      </IconsContainer>
+    </>
   )
 }
