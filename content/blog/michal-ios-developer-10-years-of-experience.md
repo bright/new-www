@@ -66,3 +66,23 @@ However, in my case, I mostly took care of hiring people and I was deciding abou
 <img src="/images/michal_iosdevuk.png" alt="undefined" class="image" />
 
 *Michał will be a speaker at [iOSDevUK Conference](https://www.iosdevuk.com/speakers) which takes place in Aberystwyth, Wales from 5th to 8th September 2022.*
+
+## Why did you decide to join Bright Inventions?
+
+I suppose I could quickly feel **the nice atmosphere this company creates** even at the early stage while talking to Bright recruiters. Also, I liked the fact that Bright Inventions has an office in Gdańsk where I live. Although I mostly work from home, it’s nice to have this place where you can go and **take a break from your daily routine**.
+
+## Is there something unique about working at Bright that you have observed?
+
+I definitely noticed that Bright Inventions gathers **people with a unique mindset**. **People here are very engaged in their job and projects**. Every time I talk to someone I can see that they are deeply invested in what they do.
+
+<img src="/images/michal_quote_bright.png" alt="undefined" class="image" />
+
+## Your passion is rallying. How did that start?
+
+Since I remember I was into **automotive and mechanics**. I guess my grandfather inspired me to follow this road. I made my first car repairs with him. Then I met people who attended rallying competitions and I quickly started to compete as well. I usually took part in local championships and even got Vice Champion of the Pomeranian Rally Championship.
+
+<img src="/images/michal_rally_passion.png" alt="undefined" class="image" />
+
+## Do you like to race at work as well? 😉
+
+I guess it is nice to finish my tasks faster than I estimated. However, **software development is more about collaboration than race**. Working together is the best way to build a successful product in this business.
