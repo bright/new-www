@@ -5,7 +5,7 @@ tags:
   - bright story
   - iOS
   - Swift
-date: 2022-08-30T07:42:48.890Z
+date: 2022-08-30T09:18:47.158Z
 title: Becoming an iOS Developer Again. Meet Michał – a Programmer with over 10
   Years of Experience
 layout: post
