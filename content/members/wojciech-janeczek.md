@@ -8,7 +8,7 @@ short_name: Wojciech
 email: wojciech.janeczek@brightinventions.pl
 bio: Frontend Developer
 description: Frontend Developer
-avatar: /images/wojciech_j_team.png
+avatar: /images/wojtek_team.png
 avatar_hover: /images/wojciech_j_passion_team.png
 published: true
 ---
