@@ -56,3 +56,11 @@ However, when the opportunity to become an iOS dev again came up I just couldn't
 There is this **misconception that becoming a manager is a promotion**. For me, it was a career switch. Obviously, it **depends on the organization**. Every company defines these roles differently. If you, as a dev, become a tech lead who still works closely with technology, then it might be a promotion. 
 
 <img src="/images/michal_quote_manager.png" alt="undefined" class="image" />
+
+However, in my case, I mostly took care of hiring people and I was deciding about people's promotions and raises. And it is a different line of work, far from a tech. Naturally, there are organizations where there is a manager who holds responsibilities related to managing people and tech. However, in many cases, it is hard to perform all these duties by one person. **It’s easier to focus either on people or on the quality of code**.
+
+## You are a speaker at the iOSDevUK Conference in September. What will you talk about?
+
+**I will talk about becoming an iOS developer, again**. Some of it we have just covered in previous questions. Let’s treat them as a preview. I will talk about all the misconceptions related to manager positions. **I will compare the manager role to the developer role**. **Also, I want to show how great it was to go back to iOS development**. After my break, I could see how many great new things Apple started to offer developers. It feels great to work again with Apple tools.
+
+<img src="/images/michal_iosdevuk.png" alt="undefined" class="image" />
