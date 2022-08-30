@@ -10,7 +10,7 @@ title: Becoming an iOS Developer Again. Meet Michał – a Programmer with over 
   Years of Experience
 layout: post
 image: /images/brightstorymichal.jpg
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
