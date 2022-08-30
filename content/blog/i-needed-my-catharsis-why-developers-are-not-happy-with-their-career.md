@@ -41,7 +41,8 @@ Let’s say that you have a career goal - working for NASA. Sounds interesting? 
 Did I have such a moment? Come one, ONE? Five, at least. But hey, you are a valuable person. Your employer wants to have you in his company, he pays you good money and invests in you. Maybe it’s not NASA, but maybe it’s not a time, for you to do NASA things? If you are reading it, I’m pretty sure that you could be starting your career or you are not far from it. “Everyone needs to start somewhere” - it’s a really nasty thing to say, but let’s take a look at the chart:
 
 <img src=/images/companies-working-length.jpg alt=Average engineers tenure at major tech companies class=image />
-HackerLife Data
+
+Source: [HackerLife Data](https://hackerlife.co/blog/san-francisco-large-corporation-employee-tenure)
 
 Around 50% of software engineers only stay at a company for two years before switching to somewhere new. The national average for job tenure is 4.2 years so software engineers stay in one place for half as long. Typically the larger the company the longer a developer stays in one role. 
 
@@ -54,19 +55,23 @@ I’m going to repeat myself - even if in comparison - working on the systems th
 This is a real quote from my beginnings. I was pretty sure that all I do is just write another loop, another if/else statement. If we will go down to the foundation, then we can say - yes, we are writing if/else statements. But what is software development? Even after we tear down the business value from the project - we need to connect the facts, endpoints, modules, and subprojects into one, working solution. That’s why a lot of companies have developers but architects also. Maybe you are not an architect, but still - use your energy, knowledge, and experience and create something that matters.
 
 <img src=/images/information-knowledge.jpg alt=The difference between information knowledge and experience  class=image />
-Linkedin
+
+
+Source: [Medium](https://medium.com/@lantermarion13/the-curse-of-intuition-c29f469ae99a)
 
 ## Dunning-Kruger effect
 
 <img src=/images/dunning-kruger-effect.jpg alt=Dunning-Kruger effect class=image />
-Wikipedia
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
 > The Dunning–Kruger effect is a cognitive bias\[2] whereby people with low ability, expertise, or experience regarding a certain type of task or area of knowledge tend to overestimate their ability or knowledge. Some researchers also include in their definition the opposite effect for high performers: their tendency to underestimate their skills.
 
 The same effect can be shown slightly different: 
 
 <img src=/images/simplified-dunning-kruger-effect.jpg alt=Simplified Dunning-Kruger effect class=image />
-Wikipedia
+
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Dunning%E2%80%93Kruger_Effect_01.svg)
 
 A lot of experts tend to underestimate their abilities and knowledge. I’m pretty sure that you have seen this chart somewhere over the Internet, but maybe you are in the valley currently?
 
