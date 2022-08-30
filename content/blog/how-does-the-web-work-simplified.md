@@ -42,7 +42,10 @@ Now let's move on to the details of the individual steps:
 
    \- the fourth is the body of the message (if any).
 
+   <img src="/images/http-req-res.png" alt="http-schema" class="image" />
+
    \
    \
    There are 9 HTTP methods we can use. I will not describe them all here because they are well described on the [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) website. Often, a trick question may be how the PATCH method differs from the PUT method. A correctly implemented PUT method is one that can be performed N times and its result will always be the same - such methods are called [idempotent](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent). The PATCH method does not guarantee this. 
 4.
+5.
