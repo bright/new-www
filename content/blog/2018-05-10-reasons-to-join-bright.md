@@ -38,7 +38,7 @@ We also work with **Ethereum and Hyperledger as a Blockchain-based** app platfor
 
 <div class='block-button'><h2>Blockchain development</h2><div>We also work with Ethereum and Hyperledger as a Blockchain-based app platform. One of our solutions is a web app supporting Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury grants.</div><button><a href="/projects/bright-treasury">Find more about BrightTreasury</a></button></div>
 
-<div class='block-button'><h2>Blockchain development</h2><div>We also work with Ethereum and Hyperledger as a Blockchain-based app platform. One of our solutions is a web app supporting Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury grants.</div><a href="/projects/bright-treasury"><button>NaN</button></a></div>
+<div class='block-button'><h2>Blockchain development</h2><div>We also work with Ethereum and Hyperledger as a Blockchain-based app platform. One of our solutions is a web app supporting Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for Treasury grants.</div><a href="/projects/bright-treasury"><button>Find more about BrightTreasur</button></a></div>
 
 ### 2. Because of the atmosphere
 
