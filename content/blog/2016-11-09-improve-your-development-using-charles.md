@@ -162,4 +162,4 @@ I described most common usages which I do with Charles app. To sum up I think th
 
 *This post is cross-posted with my personal [blog](https://wysockikamil.com/improve-your-development-using-charles/)*
 
-<img src="/images/1.png" alt="undefined" class="hide-on-mobile" />
+<img src="/images/1_idea.png" alt="idea" id="hide-on-mobile" />
