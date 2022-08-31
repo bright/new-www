@@ -1,9 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import variables from '../../styles/variables'
 
 const Svg = styled.svg`
   max-width: 4px;
   height: auto;
+
+  @media ${variables.device.mobile} {
+    margin-bottom: 6px;
+  }
 `
 
 export default function Dot() {
