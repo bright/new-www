@@ -45,5 +45,41 @@ Now let's move on to the details of the individual steps:
    <img src="/images/http-req-res.png" alt="http schema" class="image" />\
    \
    There are 9 HTTP methods we can use. I will not describe them all here because they are well described on the [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) website. Often, a trick question may be how the PATCH method differs from the PUT method. A correctly implemented PUT method is one that can be performed N times and its result will always be the same - such methods are called [idempotent](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent). The PATCH method does not guarantee this. 
-4.
-5.
+
+   Body is the optional part because requests fetching resources, like GET, HEAD, DELETE, or OPTIONS, usually don't need one. Some requests send data to the server in order to update it: as often the case with POST, PUT, and PATCH requests.
+
+   Bodies can be broadly divided into two categories:
+
+   \- single-resource bodies, consisting of one single file
+
+   \- multiple-resource bodies, consisting of a multipart body, each containing a different bit of information.
+4. The server replies to us with a message consisting of 4 lines containing:
+
+   \- protocol version, HTTP code, and HTTP message
+
+   \- headers
+
+   \- a blank line again
+
+   \- body of the message (if any)
+
+   At this point, it is worth briefly talking about the possible HTTP codes. They belong to five basic groups:
+
+   Informational responses (100–199)\
+   Successful responses (200–299)\
+   Redirection messages (300–399)\
+   Client error responses (400–499)\
+   Server error responses (500–599)
+
+   When creating a REST API, we most often use 200, 201, 204, 400, 401, 403, 404, 409, 500 - it is worth knowing what these statuses are characterized by and when to use them, this question will surely be asked. In order to learn more about the statuses, I refer you [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses).
+5. The browser receives the bytes of data, but it can’t really do anything with it; the raw bytes of data must be converted to a form it understands. First, the raw bytes of data are converted into characters. This conversion is done based on the character encoding of the HTML file. These characters are further parsed into something called tokens. When you save a file with the .html extension, you signal to the browser engine to interpret the file as an HTML document. The way the browser interprets this file is by first parsing it. In the parsing process, and particularly during tokenization, every start and end HTML tag in the file is accounted for. The parser understands each string in angle brackets (e.g `<html>`) and understands the set of rules that apply to each of them. For example, a token that represents an anchor tag will have different properties from one that represents a paragraph token.  After the tokenization is done, the tokens are then converted into nodes. You may think of nodes as separate entities within the document object tree. Upon creating these nodes, the nodes are then linked in a tree data structure known as the DOM. The DOM establishes the parent-child relationships, adjacent sibling relationships, etc. The relationship between every node is established in this DOM object.
+
+   <img src="/images/dom-schema.png" alt="dom schema" class="image" />\
+   \
+   The exact same thing happens with styles related to the document from bytes threw characters, tokens, and nodes they end up forming a CSSOM.
+
+   The DOM and CSSOM tree structures are two independent structures. The DOM contains all the information about the page’s HTML element’s relationships, while the CSSOM contains information on how the elements are styled. The browser combines the DOM and CSSOM trees into a render tree. The render tree contains information on all visible DOM content on the page and all the required CSSOM information for the different nodes. Note that if an element has been hidden by CSS (e.g., by using `display; none`), the node will not be represented in the render tree.\
+   \
+   <img src="/images/render-tree.avif" alt="render tree" class="image" />\
+   \
+   With the render tree constructed, the next step is to perform the layout. Right now, we have the content and style information of all visible content on the screen, but we haven’t actually rendered anything to the screen. The browser has to calculate the exact size and position of each object on the page. With the information on the content (DOM), style (CSSOM), and the exact layout of the elements computed, the browser now “paints” the individual node on the screen. Finally, the elements are now rendered to the screen!
