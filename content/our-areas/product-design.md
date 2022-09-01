@@ -1,9 +1,9 @@
 ---
 team_members:
-  - alisa
+  - joanna-c
+  - kasia
   - bartosz
-  - janek
-  - krzysiek h
+  - szymek
 faqs:
   - What is a product design definition?
   - What are the steps in product design?
