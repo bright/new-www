@@ -26,6 +26,10 @@ import { SocialMediaShare } from './blog/SocialMediaShare'
 import { clampBuilder } from './../helpers/clampBuilder'
 import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
 import Dot from '../components/icons/Dot.icon'
+import { BlogFeed } from './blog/Feed'
+import { createBlogPosts, createBlogRelatedPosts } from '../models/creator'
+import { allMarkdownRemarkData, Edge, GQLData } from '../models/gql'
+import RelatedPosts from './post/RelatedPosts'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -108,6 +112,8 @@ const AuthorsSection = styled.article`
     ul li::marker {
       color: ${variables.color.primary};
     }
+    & .gatsby-resp-image-image,
+    span img,
     p img {
       will-change: transform;
       transition: all 1.2s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
@@ -313,6 +319,7 @@ export type PostTemplateProps = {
       timeToRead: number
       fileAbsolutePath: string
     }
+    allMarkdownRemark: allMarkdownRemarkData
   }
 }
 
@@ -407,7 +414,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
 
 // TODO: we should decouple Post* controls that deal with graphql from those that render actual posts
 export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
-  const { markdownRemark } = props.data // data.markdownRemark holds your post data
+  const { markdownRemark, allMarkdownRemark } = props.data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
   const { pathname } = useLocation()
   const slug = props.path.replace(/^(\/blog\/)/, '')
@@ -480,11 +487,26 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           tags={page.tags ?? []}
           timeToRead={markdownRemark.timeToRead}
         />
+      </ConstrainedWidthContainer>
+      <CustomSection
+        paddingProps='2rem 15rem 7.25rem 15rem'
+        paddingLaptop='0rem 6rem 7.25rem'
+        paddingTabletXL='0rem 9rem 7.25rem'
+        paddingTablet='0rem 2.25rem 2.5rem'
+        paddingMobileProps='0 1.125rem 2rem'
+      >
+        <RelatedPosts
+          allMarkdownRemark={allMarkdownRemark}
+          currentPostfileAbsolutPath={markdownRemark.fileAbsolutePath}
+        />
+      </CustomSection>
+      <ConstrainedWidthContainer id='blog'>
         <WrapperNews>
           <div> {comments} </div>
           <NewsletterWrapper />
         </WrapperNews>
       </ConstrainedWidthContainer>
+
       {postStructuredData}
     </Page>
   )
@@ -492,7 +514,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
 export default PostTemplate
 
 export const pageQuery = graphql`
-  query($fileAbsolutePath: String!) {
+  query($fileAbsolutePath: String!, $relatedTags: [String!]!) {
     markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
       html
       excerpt
@@ -514,6 +536,43 @@ export const pageQuery = graphql`
       }
       timeToRead
       fileAbsolutePath
+    }
+    allMarkdownRemark(
+      filter: {
+        frontmatter: {
+          layout: { eq: "post" }
+          published: { ne: false }
+          hidden: { ne: true }
+          tags: { in: $relatedTags }
+        }
+      }
+      sort: { fields: frontmatter___date, order: DESC }
+      limit: 5
+    ) {
+      edges {
+        node {
+          id
+          fileAbsolutePath
+          excerpt(pruneLength: 500)
+          frontmatter {
+            excerpt
+            comments
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            author
+            author_id
+            title
+            tags
+            date
+          }
+          fields {
+            slug
+          }
+        }
+      }
     }
   }
 `
