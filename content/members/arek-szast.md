@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: arek
-ex: false
+ex: true
 slug: arek
 name: Arek Szast
 short_name: Arek
