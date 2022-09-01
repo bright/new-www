@@ -367,8 +367,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const postsResult = postResult.data.allMarkdownRemark.edges
 
   postsResult.forEach(post => {
+    const name = post.node.fileAbsolutePath
+      .split('/')
+      .pop()
+      .replace('.md', '')
+      .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, '')
     createPage({
-      path: post.node.fields.slug,
+      path: '/blog/' + (post.node.frontmatter.slug || name),
       component: path.resolve('./src/templates/PostTemplate.tsx'),
       context: {
         slug: post.node.fields.slug,
