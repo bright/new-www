@@ -11,6 +11,11 @@ export interface Edge {
   node: any
 }
 
+export interface allMarkdownRemarkData {
+  nodes?: Node[]
+  edges: Edge[]
+}
+
 export interface GQLData {
   allMarkdownRemark: {
     nodes?: Node[]
@@ -19,6 +24,7 @@ export interface GQLData {
 }
 
 export interface BlogPostModel {
+  node: any
   id: string
   author: string
   author_id: unknown
