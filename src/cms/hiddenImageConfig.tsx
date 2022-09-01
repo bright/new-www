@@ -14,7 +14,7 @@ export const hiddenImageConfig = {
     },
     {
       name: 'alt',
-      label: 'Image description',
+      label: 'Alt text',
       widget: 'string',
     },
     {
