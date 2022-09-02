@@ -76,11 +76,7 @@ When I came to Bright Inventions I worked on a project which was written in Kotl
 
 I will show **how to use Kotlin to write more business-oriented code based on domain-driven design (DDD)**. I will utilize the best Kotlin practices to demonstrate how to write code not so technically complex but more business approachable. I am excited to share my experience. I haven’t had a chance to speak at the IT event since the pandemic.
 
-<﻿center>
-
 <div class="image"><img src="/images/michal_k_kotlin.png" alt="Tricity Kotlin User Group" title="undefined"  /> </div>
-
-</﻿center>
 
 [Join the hybrid event to listen to Michał’s talk.](https://www.meetup.com/pl-PL/tricity-kotlin-user-group/events/288047717/)
 
