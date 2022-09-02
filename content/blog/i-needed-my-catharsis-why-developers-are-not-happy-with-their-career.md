@@ -5,7 +5,7 @@ tags:
   - development
   - self-development
   - podcast
-date: 2022-08-23T13:17:59.215Z
+date: 2022-08-31T13:17:59.215Z
 title: I needed my Catharsis - why developers are not happy with their career?
 layout: post
 image: /images/blog_post_cover_masks.png
