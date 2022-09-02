@@ -42,6 +42,8 @@ On the other hand, there are **companies that use all of the cloud computing pro
 
 No matter the company you are part of, I believe **it is important for backend developers to stay up to date with top cloud providers’ solutions**.
 
+<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>Apply and join Michał</button></a></div>
+
 ## What will backend development look like in the next 5-10 years? What are your predictions?
 
 <div class="image"><img src="/images/brightstoryquote_solving_problems.png" alt="Michał's quote on solving problems" title="undefined"  /> </div>
