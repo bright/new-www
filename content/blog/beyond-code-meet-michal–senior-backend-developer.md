@@ -4,7 +4,7 @@ secondAuthor: izabela
 tags:
   - bright story
   - backend
-date: 2022-09-02T08:43:22.972Z
+date: 2022-09-02T09:22:14.188Z
 title: Always Looking Beyond the Code. Meet Michał – Senior Backend Developer
 layout: post
 image: /images/brightstorymichal_cover.png
@@ -27,6 +27,8 @@ I guess it all happened quite ordinary. I went to the Polish-Japanese Academy of
 I was supposed to **build apps for now forgotten Windows Phone**. Fortunately, as soon as I joined the company they opened a new project for backend devs and I joined that team. Then **my adventure with Java began**. 
 
 After that, I worked on another project developing a **solution for a startup whose aim was to utilize Bluetooth beacons to analyze traffic**. Our stack was based on **Scala**. We worked on a solution that would use beacons in the cars to communicate between them and analyze traffic jams and other situations on the road. In order to verify such a solution, we were creating traffic simulations and predictions of when and where the jam would occur. That was interesting because it was also related to my Engineering Thesis.
+
+<div class="image"><img src="/images/brightstorymichal_cover.png" alt="Michał - Tech Lead and Senior Backend Developer" title="undefined"  /> </div>
 
 ## After all these years in the business do you think it is possible to be a backend dev without knowing platforms like AWS, Azure or Google Clouds, etc?
 
@@ -74,13 +76,9 @@ When I came to Bright Inventions I worked on a project which was written in Kotl
 
 I will show **how to use Kotlin to write more business-oriented code based on domain-driven design (DDD)**. I will utilize the best Kotlin practices to demonstrate how to write code not so technically complex but more business approachable. I am excited to share my experience. I haven’t had a chance to speak at the IT event since the pandemic.
 
-<﻿center>
-
-<div class="image"><img src="/images/michal_k_kotlin.png" alt="Tricity Kotlin User Group" title="undefined"  /> </div>
-
-</﻿center>
-
 [Join the hybrid event to listen to Michał’s talk.](https://www.meetup.com/pl-PL/tricity-kotlin-user-group/events/288047717/)
+
+<div class="image"><img src="/images/michal_talk_kotlin.png" alt="Tricity Kotlin User Group" title="undefined"  /> </div>
 
 ## I remember you once said at the office that the developers’ job comes down to writing the simplest possible code. What do you mean by that?
 
@@ -107,3 +105,5 @@ I really like the interview flow we have at Bright. We just talk with the candid
 <div class="image"><img src="/images/brightpassion_michal.png" alt="Michał's passions" title="undefined"  /> </div>
 
 I mostly spend time with my family. I am passionate about CrossFit as well. I had a break from that but have plans to go back to CrossFit with my wife soon. I love to travel. But I also love to plan my voyages. It gives me pleasure to organize the whole trip for my family. I often travel with friends too and they like me to take care of the whole trip as well. It’s a win-win for everyone. 🙂
+
+<div class='block-button'><h2>Do you want to join Michał?</h2><div>We are a custom software development agency based in Poland. Check out our career opportunities.</div><a href="/career"><button>Join Michał</button></a></div>
