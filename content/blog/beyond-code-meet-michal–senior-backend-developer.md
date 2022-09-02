@@ -106,4 +106,4 @@ I really like the interview flow we have at Bright. We just talk with the candid
 
 I mostly spend time with my family. I am passionate about CrossFit as well. I had a break from that but have plans to go back to CrossFit with my wife soon. I love to travel. But I also love to plan my voyages. It gives me pleasure to organize the whole trip for my family. I often travel with friends too and they like me to take care of the whole trip as well. It’s a win-win for everyone. 🙂
 
-<div class='block-button'><h2>Join Michał!</h2><div>We are a custom software development agency based in Poland. Check out our career opportuinities.</div><a href="/career"><button>NaN</button></a></div>
+<div class='block-button'><h2>Do you want to join Michał?</h2><div>We are a custom software development agency based in Poland. Check out our career opportuinities.</div><a href="/career"><button>NaN</button></a></div>
