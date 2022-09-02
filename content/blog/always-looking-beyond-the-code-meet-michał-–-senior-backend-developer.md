@@ -58,4 +58,14 @@ I don’t remember how I came across Bright for the first time. Probably I start
 
 Although my position was called by a client a tech lead, **I think that my responsibilities actually matched a team leader role**. Leaving aside the naming, this role gave me a new perspective on the software development process.
 
-<div class="image"><img src="/images/michal_quote_lead.png" alt="Michał's quote on beaign a tech lead" title="undefined"  /> </div>
+<div class="image"><img src="/images/michal_quote_lead.png" alt="Michał's quote on being a tech lead" title="undefined"  /> </div>
+
+**Holding a tech lead role taught me that technology isn’t the most important part of software development**. Obviously, it’s essential to solve problems. However, **more important are human relations** both within the team and between the team and the client. As a tech lead you are obliged to represent both sides – your team and the client. Thus you have to be able to understand and present their sometimes opposite perspectives.
+
+**The most difficult part of the tech lead job was assertiveness**. You have to learn how to explain to the client why something cannot be done asap. **It’s tempting to agree to a crazy deadline to make the client happy but eventually, you will end up with a frustrated team dealing with overtime**. So you are in the middle of it, learning how to build the bridge to meet both sides' needs. The worst possible mistake the leader might do is to agree to an unrealistic deadline knowing from the very beginning that the client’s requirements won’t be met. 
+
+## You worked with Java for 5 years and then you switched to Kotlin. Why?
+
+When I came to Bright Inventions I worked on a project which was written in Kotlin. So I learned Kotlin here. I enjoy using it but I am not a Kotlin-freak. I have no problems with switching to different languages. **Programming language is just a tool used to solve clients’ problems**.
+
+<div class="image"><img src="/images/brightstoryquote_tool.png" alt="Michał's quote on learning languages" title="undefined"  /> </div>
