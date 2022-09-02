@@ -20,7 +20,7 @@ Did you ever hit the wall and wondered, what and why you are doing as a develope
 On the one hand, there are our ambitions, what we want to do, and what is our main goal of career. On the other hand, there is a problem being solved by the project we are working currently on. If we will step back and take a look at the project from the perspective, we could notice dozens, hundreds, or thousands of users of the system, whom we are making work easier and more effective.
 But let’s go to the examples - I was working with numerous projects - systems for an insurance market, e-commerce, green energy, and recently - the restaurant ecosystem. You know what? All of them are super valuable for the end users. So, why do many of us think that our projects are “not enough”?
 
-Also, I talked about it in #brightdevtalks podcast. It's recorded in Polish. Feel free to listen:
+Also, I talked about it in #brightdevtalks podcast. It's recorded in Polish.
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0DJlZ6D12pNqkkUuqOfHlh?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
