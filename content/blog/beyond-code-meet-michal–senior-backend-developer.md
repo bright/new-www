@@ -28,7 +28,7 @@ I was supposed to **build apps for now forgotten Windows Phone**. Fortunately, a
 
 After that, I worked on another project developing a **solution for a startup whose aim was to utilize Bluetooth beacons to analyze traffic**. Our stack was based on **Scala**. We worked on a solution that would use beacons in the cars to communicate between them and analyze traffic jams and other situations on the road. In order to verify such a solution, we were creating traffic simulations and predictions of when and where the jam would occur. That was interesting because it was also related to my Engineering Thesis.
 
-<div class='block-button'><h2>Do you want to join Michał?</h2><div>We are a custom software development agency based in Poland. Check out our career opportunities.</div><a href="/career"><button>Join Michał</button></a></div>
+<div class="image"><img src="/images/brightstorymichal_cover.png" alt="Michał - Tech Lead and Senior Backend Developer" title="undefined"  /> </div>
 
 ## After all these years in the business do you think it is possible to be a backend dev without knowing platforms like AWS, Azure or Google Clouds, etc?
 
