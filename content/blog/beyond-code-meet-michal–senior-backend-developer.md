@@ -28,7 +28,7 @@ I was supposed to **build apps for now forgotten Windows Phone**. Fortunately, a
 
 After that, I worked on another project developing a **solution for a startup whose aim was to utilize Bluetooth beacons to analyze traffic**. Our stack was based on **Scala**. We worked on a solution that would use beacons in the cars to communicate between them and analyze traffic jams and other situations on the road. In order to verify such a solution, we were creating traffic simulations and predictions of when and where the jam would occur. That was interesting because it was also related to my Engineering Thesis.
 
-<div class='block-button'><h2>Do you want to join Michał?</h2><div>We are a custom software development agency based in Poland. Check out our career opportunities.</div><a href="/career"><button>Join Michał</button></a></div>
+<div class="image"><img src="/images/brightstorymichal_cover.png" alt="Michał - Tech Lead and Senior Backend Developer" title="undefined"  /> </div>
 
 ## After all these years in the business do you think it is possible to be a backend dev without knowing platforms like AWS, Azure or Google Clouds, etc?
 
@@ -106,4 +106,5 @@ I really like the interview flow we have at Bright. We just talk with the candid
 
 I mostly spend time with my family. I am passionate about CrossFit as well. I had a break from that but have plans to go back to CrossFit with my wife soon. I love to travel. But I also love to plan my voyages. It gives me pleasure to organize the whole trip for my family. I often travel with friends too and they like me to take care of the whole trip as well. It’s a win-win for everyone. 🙂
 
-<div class='block-button'><h2>Do you want to join Michał?</h2><div>We are a custom software development agency based in Poland. Check out our career opportunities.</div><a href="/career"><button>Join Michał</button></a></div>
+<div class='block-button'><h2>Do you want to join Michał?</h2><div> W﻿e are looking for Scala developers and backend devs with strong TS, Node.js skills. Check out our career opportunities.</div><a href="/career"><button>Join Michał</button></a></div>
+
