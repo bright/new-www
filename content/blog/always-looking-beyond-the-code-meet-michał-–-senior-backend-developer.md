@@ -5,7 +5,7 @@ tags:
   - bright story
   - backend
 date: 2022-09-02T06:28:35.458Z
-title: Always looking beyond the code. Meet Michał – Senior Backend Developer
+title: Always Looking Beyond the Code. Meet Michał – Senior Backend Developer
 layout: post
 image: /images/brightstorymichal_cover.png
 hidden: true
@@ -94,6 +94,16 @@ Eventually, you enter **the final stage of the growth cycle – focusing on writ
 
 Recently we started a new cooperation with a client from Israel working on a security platform. The stack is based on Scala so **we are looking for [Scala developers](/jobs/scala-developer)**. Also, it’s worth mentioning that we are looking for **[backend devs with strong Typescript and Node.js skills](/jobs/senior-backend-developer-typescript)**.
 
-When it comes to mid and senior positions **we seek programmers who look at their job from a broader perspective**. Tech skills are one thing, **looking beyond your code is what should be the key for more experienced developers**.
+When it comes to mid and senior positions **we seek programmers who look at their job from a broader perspective**. Tech skills are one thing, **looking beyond your code is what should be the key** for more experienced developers.
 
 <div class="image"><img src="/images/michal_quote_tech_skills.png" alt="Michał's quote on recruiting programmers" title="undefined"  /> </div>
+
+Here at Bright, we are partners to the clients. We don’t only focus to do tasks they require. When it’s necessary we offer more effective solutions to solve their problems. So **we always look for proactive people who first want to solve the problems and then write code**.
+
+I really like the interview flow we have at Bright. We just talk with the candidate about their experiences so no one feels like it is some kind of exam. **Sharing thoughts, experiences, and perspectives - that’s the goal of our interviews**. 
+
+## What does give you joy after work?
+
+<div class="image"><img src="/images/brightpassion_michal.png" alt="Michał's passions" title="undefined"  /> </div>
+
+I mostly spend time with my family. I am passionate about CrossFit as well. I had a break from that but have plans to go back to CrossFit with my wife soon. I love to travel. But I also love to plan my voyages. It gives me pleasure to organize the whole trip for my family. I often travel with friends too and they like me to take care of the whole trip as well. It’s a win-win for everyone. 🙂
