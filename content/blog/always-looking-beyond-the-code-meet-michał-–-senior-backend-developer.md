@@ -69,3 +69,15 @@ Although my position was called by a client a tech lead, **I think that my respo
 When I came to Bright Inventions I worked on a project which was written in Kotlin. So I learned Kotlin here. I enjoy using it but I am not a Kotlin-freak. I have no problems with switching to different languages. **Programming language is just a tool used to solve clients’ problems**.
 
 <div class="image"><img src="/images/brightstoryquote_tool.png" alt="Michał's quote on learning languages" title="undefined"  /> </div>
+
+## In September you will be a speaker at the Tricity Kotlin User Group. What will you talk about?
+
+I will show **how to use Kotlin to write more business-oriented code based on domain-driven design (DDD)**. I will utilize the best Kotlin practices to demonstrate how to write code not so technically complex but more business approachable. I am excited to share my experience. I haven’t had a chance to speak at the IT event since the pandemic.
+
+<﻿center>
+
+<div class="image"><img src="/images/michal_k_kotlin.png" alt="Tricity Kotlin User Group" title="undefined"  /> </div>
+
+</﻿center>
+
+[Join the hybrid event to listen to Michał’s talk.](https://www.meetup.com/pl-PL/tricity-kotlin-user-group/events/288047717/)
