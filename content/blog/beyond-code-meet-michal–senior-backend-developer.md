@@ -28,7 +28,7 @@ I was supposed to **build apps for now forgotten Windows Phone**. Fortunately, a
 
 After that, I worked on another project developing a **solution for a startup whose aim was to utilize Bluetooth beacons to analyze traffic**. Our stack was based on **Scala**. We worked on a solution that would use beacons in the cars to communicate between them and analyze traffic jams and other situations on the road. In order to verify such a solution, we were creating traffic simulations and predictions of when and where the jam would occur. That was interesting because it was also related to my Engineering Thesis.
 
-<div class="image"><img src="/images/brightstorymichal_cover.png" alt="Michał - Tech Lead and Senior Backend Developer" title="undefined"  /> </div>
+<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>Apply and join Michał</button></a></div>
 
 ## After all these years in the business do you think it is possible to be a backend dev without knowing platforms like AWS, Azure or Google Clouds, etc?
 
@@ -41,8 +41,6 @@ In the end, **it is a business decision**. Many of us followed the [Dropbox case
 On the other hand, there are **companies that use all of the cloud computing providers** out there. Especially the ones that build security solutions and cannot risk any downtown. 
 
 No matter the company you are part of, I believe **it is important for backend developers to stay up to date with top cloud providers’ solutions**.
-
-<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>Apply and join Michał</button></a></div>
 
 ## What will backend development look like in the next 5-10 years? What are your predictions?
 
