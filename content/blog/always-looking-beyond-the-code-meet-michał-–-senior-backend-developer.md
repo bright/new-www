@@ -22,8 +22,8 @@ Actually, **I wanted to go to military school** but my girlfriend at that time t
 
 ## You are a backend dev with Java roots. How do you recall your career beginnings?
 
-I guess it all happened quite ordinary. I went to the Polish-Japanese Academy of Information Technology. During my studies, in 2014, I got my first programming job. I was hired as a mobile developer but I never got to be one.
+I guess it all happened quite ordinary. I went to the Polish-Japanese Academy of Information Technology. During my studies, in 2014, I got my first programming job. **I was hired as a mobile developer but I never got to be one**.
 
-I was supposed to build apps for now forgotten Windows Phone. Fortunately, as soon as I joined the company they opened a new project for backend devs and I joined that team. Then my adventure with Java began. 
+I was supposed to **build apps for now forgotten Windows Phone**. Fortunately, as soon as I joined the company they opened a new project for backend devs and I joined that team. Then **my adventure with Java began**. 
 
-After that, I worked on another project developing a solution for a startup whose aim was to utilize Bluetooth beacons to analyze traffic. Our stack was based on Scala. We worked on a solution that would use beacons in the cars to communicate between them and analyze traffic jams and other situations on the road. In order to verify such a solution, we were creating traffic simulations and predictions of when and where the jam would occur. That was interesting because it was also related to my Engineering Thesis.
+After that, I worked on another project developing a **solution for a startup whose aim was to utilize Bluetooth beacons to analyze traffic**. Our stack was based on **Scala**. We worked on a solution that would use beacons in the cars to communicate between them and analyze traffic jams and other situations on the road. In order to verify such a solution, we were creating traffic simulations and predictions of when and where the jam would occur. That was interesting because it was also related to my Engineering Thesis.
