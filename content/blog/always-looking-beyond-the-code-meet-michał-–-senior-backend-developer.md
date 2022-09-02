@@ -81,3 +81,19 @@ I will show **how to use Kotlin to write more business-oriented code based on do
 </﻿center>
 
 [Join the hybrid event to listen to Michał’s talk.](https://www.meetup.com/pl-PL/tricity-kotlin-user-group/events/288047717/)
+
+## I remember you once said at the office that the developers’ job comes down to writing the simplest possible code. What do you mean by that?
+
+**I guess that is the growth cycle of a software developer. As a junior, you write simple code because that’s all you know**. Then you learn more and more complicated structures and tools so you are eager to show that in your code.
+
+**Then you realize that the complex code is difficult to maintain**. It’s hard to read it by others and after some time even you can have a problem figuring out what you meant writing it. 
+
+Eventually, you enter **the final stage of the growth cycle – focusing on writing clear, simple code** even when you have to program complex operations. Your cycle is completed when others understand your lines and you don’t produce legacy code.
+
+## You are one of the tech recruiters at Bright. What kind of backend people are we looking for?
+
+Recently we started a new cooperation with a client from Israel working on a security platform. The stack is based on Scala so **we are looking for [Scala developers](/jobs/scala-developer)**. Also, it’s worth mentioning that we are looking for **[backend devs with strong Typescript and Node.js skills](/jobs/senior-backend-developer-typescript)**.
+
+When it comes to mid and senior positions **we seek programmers who look at their job from a broader perspective**. Tech skills are one thing, **looking beyond your code is what should be the key for more experienced developers**.
+
+<div class="image"><img src="/images/michal_quote_tech_skills.png" alt="Michał's quote on recruiting programmers" title="undefined"  /> </div>
