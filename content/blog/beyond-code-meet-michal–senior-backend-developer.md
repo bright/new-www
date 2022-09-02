@@ -78,7 +78,7 @@ I will show **how to use Kotlin to write more business-oriented code based on do
 
 [Join the hybrid event to listen to Michał’s talk.](https://www.meetup.com/pl-PL/tricity-kotlin-user-group/events/288047717/)
 
-<div class="image"><img src="/images/michal_k_kotlin.png" alt="Tricity Kotlin User Group" title="undefined"  /> </div>
+<div class="image"><img src="/images/michal_talk_kotlin.png" alt="Tricity Kotlin User Group" title="undefined"  /> </div>
 
 ## I remember you once said at the office that the developers’ job comes down to writing the simplest possible code. What do you mean by that?
 
