@@ -7,7 +7,7 @@ tags:
 date: 2022-09-02T09:46:40.417Z
 title: Always Looking Beyond the Code. Meet Michał – Senior Backend Developer
 layout: post
-image: /images/brightstorymichal_cover.png
+image: /images/brightstorymichalcover.png
 hidden: false
 comments: true
 published: true
