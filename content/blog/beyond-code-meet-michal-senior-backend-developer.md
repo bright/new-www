@@ -44,7 +44,7 @@ No matter the company you are part of, I believe **it is important for backend d
 
 ## What will backend development look like in the next 5-10 years? What are your predictions?
 
-<div class="image"><img src="/images/brightstoryquote_solving_problems.png" alt="Michał's quote on solving problems" title="undefined"  /> </div>
+<div class="image"><img src="/images/michal_quote_client.png" alt="Michał's quote on clients" title="undefined"  /> </div>
 
 For sure, tools will be still evolving. Therefore **there will be less technical work to do and more time to actually solve our client’s problems**. And I think that’s great. When you work at a software agency client expects you to solve problems, not to play with tech.
 
