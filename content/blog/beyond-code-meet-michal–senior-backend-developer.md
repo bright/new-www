@@ -106,4 +106,4 @@ I really like the interview flow we have at Bright. We just talk with the candid
 
 I mostly spend time with my family. I am passionate about CrossFit as well. I had a break from that but have plans to go back to CrossFit with my wife soon. I love to travel. But I also love to plan my voyages. It gives me pleasure to organize the whole trip for my family. I often travel with friends too and they like me to take care of the whole trip as well. It’s a win-win for everyone. 🙂
 
-<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>NaN</button></a></div>
+<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>Apply and join Michał</button></a></div>
