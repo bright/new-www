@@ -53,3 +53,9 @@ I don’t remember how I came across Bright for the first time. Probably I start
 **So finally I applied for a job. Actually, I wasn’t hired then.** 😉 Nevertheless, I got very positive feedback from [Ula](/about-us/ula/). Kudos to her. **Despite the fact that Bright didn’t choose me they provided me with such great feedback that I was even more eager to join there**. Ula told me they chose someone else but they were impressed with me so she promised to contact me when another suitable vacancy would be open. She did as she said. Soon after that, she contacted me. **Eventually, I joined Bright Inventions**.
 
 <div class="image"><img src="/images/brightteam.png" alt="Bright Inventions team" title="undefined"  /> </div>
+
+## At Bright, you had a chance to be a tech lead of the team working for the international JET POS brand. What did you learn as a tech lead?
+
+Although my position was called by a client a tech lead, **I think that my responsibilities actually matched a team leader role**. Leaving aside the naming, this role gave me a new perspective on the software development process.
+
+<div class="image"><img src="/images/michal_quote_lead.png" alt="Michał's quote on beaign a tech lead" title="undefined"  /> </div>
