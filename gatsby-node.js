@@ -372,6 +372,37 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       .pop()
       .replace('.md', '')
       .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, '')
+
+    const currentPostTags = post.node.frontmatter.tags
+
+    const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue, currentValue) => {
+      if (currentValue.groups) {
+        const flatteredGroup = currentValue.groups.reduce((previousValue, currentValue) => {
+          if (currentPostTags.includes(currentValue.name)) {
+            return [...previousValue, ...currentValue.tags]
+          } else {
+            return [...previousValue]
+          }
+        }, [])
+
+        if (currentPostTags.includes(currentValue.name)) {
+          return [...previousValue, ...flatteredGroup, ...currentValue.tags]
+        } else {
+          return [...previousValue, ...flatteredGroup]
+        }
+      } else {
+        if (currentPostTags.includes(currentValue.name)) {
+          return [...previousValue, ...currentValue.tags]
+        } else {
+          return [...previousValue]
+        }
+      }
+      // else {
+      //   return [...previousValue]
+      // }
+    }, [])
+
+    const relatedTags = [...flatteredYmlTags, ...currentPostTags]
     createPage({
       path: '/blog/' + (post.node.frontmatter.slug || name),
       component: path.resolve('./src/templates/PostTemplate.tsx'),
