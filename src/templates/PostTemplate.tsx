@@ -112,7 +112,8 @@ const AuthorsSection = styled.article`
     ul li::marker {
       color: ${variables.color.primary};
     }
-    & .gatsby-resp-image-image,
+    & .gatsby-resp-image-wrapper, 
+    .gatsby-resp-image-image,
     span img,
     p img {
       will-change: transform;
