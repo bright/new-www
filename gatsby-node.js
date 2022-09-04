@@ -403,13 +403,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }, [])
 
     const relatedTags = [...flatteredYmlTags, ...currentPostTags]
+
     createPage({
       path: '/blog/' + (post.node.frontmatter.slug || name),
       component: path.resolve('./src/templates/PostTemplate.tsx'),
       context: {
         slug: post.node.fields.slug,
         fileAbsolutePath: post.node.fileAbsolutePath,
-        relatedTags: post.node.frontmatter.tags,
+        relatedTags: relatedTags,
       },
     })
   })
