@@ -49,4 +49,14 @@ It’s really common for testers to raise absolutely everything they consider as
 
 ## Who is guilty?
 
-In the past, I was working with a team who always was wondering who is guilty after a bug occurred in production. We had some meetings to talk about it and the official goal of these meetups was to consider how to avoid such situations. Very good idea, but in practice, the guilty one was always sought. I felt like only one person could be responsible for a bug. In this case, the dev always felt guilty. I didn’t feel comfortable with it.
+In the past, I was working with a team who always was wondering who is guilty after a bug occurred in production. We had some meetings to talk about it and the official goal of these meetups was to consider how to avoid such situations. Very good idea, but in practice, the guilty one was always sought. I felt like only one person could be responsible for a bug. In this case, the dev always felt guilty. I didn’t feel comfortable with it. 
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3ohhwk7QW2EA3Illks" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/shocked-surprise-mystery-3ohhwk7QW2EA3Illks">via GIPHY</a></p>
+
+From my point of view, **the whole team is responsible for a bug**. We are a squad, we work together and we share responsibility. In my opinion, it is very important to know about it and work in that way. Otherwise, a team will never be a well-coordinated one. Try to imagine how to report a bug to the person who treats it like an offense.
+
+## Refresh the page
+
+Not only QA should follow some behavior rules. I’m sure that every tester at the beginning of their career path heard “refresh the page” after finding a bug. I don’t know why devs are telling this, but it’s definitely annoying and spoiling the relationship. For sure, software testers refreshed this page quite a few times. 🙂
+
+Sometimes even if the tester checks every path and is sure that THIS IS A BUG and tells about it in a very polite way, the developer still can’t take it. The same is with QAs, sometimes devs have the right that a bug is not a bug, but the tester doesn’t want to accept it. From my point of view, there should be a team lead role to maybe organize some workshops which will allow you to look at your relationship from a different perspective.
