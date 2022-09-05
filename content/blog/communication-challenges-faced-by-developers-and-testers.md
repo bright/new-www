@@ -1,15 +1,15 @@
 ---
-author: michal-d
-secondAuthor: malgorzata-z
+author: malgorzata-z
+secondAuthor: michal-d
 tags:
   - QA
   - communication
-date: 2022-09-05T08:14:41.098Z
+date: 2022-09-05T08:56:56.159Z
 title: It’s Not a Bug, It’s a Feature – Communication Challenges Faced by
   Developers and Testers
 layout: post
 image: /images/blog_post_cover_dev_tester.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
