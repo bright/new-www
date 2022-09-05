@@ -65,7 +65,7 @@ export const buttonBlockConfig = {
       '</div>' +
       `<a href="${obj.link}">` +
       '<button>' +
-      +obj.button +
+      obj.button +
       '</button>' +
       '</a>' +
       '</div>'
