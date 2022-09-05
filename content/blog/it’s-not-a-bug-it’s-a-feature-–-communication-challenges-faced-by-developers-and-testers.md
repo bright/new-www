@@ -44,3 +44,9 @@ During my career, I've been several times in a situation, where despite my huge 
 And what if it's really not a bug? It may happen that you will miss some details that distort your point of view, or you just won’t foresee some use cases because you are fresh in a project. Try to learn a lesson from it for the future.
 
 ## Which bug is a real bug?
+
+It’s really common for testers to raise absolutely everything they consider as an issue. In general, it's not bad behavior, but if you do so, you have to be prepared that some of those raised issues will be instantly closed or will get lost in the depths of the backlog. Don’t take it personally. It might be that current priorities or business goals are not allowing us to spend time on some minor issues. The knowledge of what is worth raising and what is not comes to us in parallel with our experience in a given project, and sooner or later we will know which decision is the correct one.
+
+## Who is guilty?
+
+In the past, I was working with a team who always was wondering who is guilty after a bug occurred in production. We had some meetings to talk about it and the official goal of these meetups was to consider how to avoid such situations. Very good idea, but in practice, the guilty one was always sought. I felt like only one person could be responsible for a bug. In this case, the dev always felt guilty. I didn’t feel comfortable with it.
