@@ -8,6 +8,7 @@ date: 2022-09-05T07:55:52.390Z
 title: It’s Not a Bug, It’s a Feature – Communication Challenges Faced by
   Developers and Testers
 layout: post
+image: /images/blog_post_cover_dev_tester.png
 hidden: false
 comments: true
 published: true
