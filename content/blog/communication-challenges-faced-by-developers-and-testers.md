@@ -1,6 +1,6 @@
 ---
-author: michal-d
-secondAuthor: malgorzata-z
+author: malgorzata-z
+secondAuthor: michal-d
 tags:
   - QA
   - communication
