@@ -4,7 +4,7 @@ secondAuthor: malgorzata-z
 tags:
   - QA
   - communication
-date: 2022-09-05T07:55:52.390Z
+date: 2022-09-05T08:14:41.098Z
 title: It’s Not a Bug, It’s a Feature – Communication Challenges Faced by
   Developers and Testers
 layout: post
