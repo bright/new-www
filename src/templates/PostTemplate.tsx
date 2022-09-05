@@ -119,7 +119,7 @@ const AuthorsSection = styled.article`
       will-change: transform;
       transition: all 1.2s cubic-bezier(0.08, 0.635, 0.25, 0.995) 0s;
       &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
       }
     }
     blockquote {
