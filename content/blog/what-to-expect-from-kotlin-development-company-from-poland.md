@@ -63,6 +63,4 @@ Poland is in Central European Time (CET) which makes it possible to organise dai
 
 For example, staying in New York you can organise a daily meeting at 9.00 AM local time. At the same time, in Poland it will be 3.00 PM – a perfect time after lunch. Kotlin developers in Poland usually finish their work between 4-6 PM.
 
-
-
-Looking for experienced Kotlin developers from Poland? [Let's talk about your product](/start-project).
+<div class='block-button'><h2>Ready to move your app to the next level?</h2><div>Looking for experienced Kotlin developers from Poland? Contact us to estimate your Kotlin-based solution.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>
