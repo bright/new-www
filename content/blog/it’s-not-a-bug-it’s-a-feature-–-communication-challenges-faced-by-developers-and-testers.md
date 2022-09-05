@@ -59,4 +59,12 @@ From my point of view, **the whole team is responsible for a bug**. We are a squ
 
 Not only QA should follow some behavior rules. I’m sure that every tester at the beginning of their career path heard “refresh the page” after finding a bug. I don’t know why devs are telling this, but it’s definitely annoying and spoiling the relationship. For sure, software testers refreshed this page quite a few times. 🙂
 
-Sometimes even if the tester checks every path and is sure that THIS IS A BUG and tells about it in a very polite way, the developer still can’t take it. The same is with QAs, sometimes devs have the right that a bug is not a bug, but the tester doesn’t want to accept it. From my point of view, there should be a team lead role to maybe organize some workshops which will allow you to look at your relationship from a different perspective.
+Sometimes even if the tester checks every path and is sure that THIS IS A BUG and tells about it in a very polite way, the developer still can’t take it. The same is with QAs, sometimes devs have the right that a bug is not a bug, but the tester doesn’t want to accept it. From my point of view, there should be a team lead role to maybe organize some workshops which will allow you to look at your relationship from a different perspective. 
+
+## Mind your attitude
+
+It’s crucial to know what and why you are doing it. A common misconception across junior testers is having a conviction that the more passive-aggressive you are, the better. Or that being a QA is about pointing out someone's errors and bragging about it. I’ve met a guy who was working in an IT company, but in a non-technical position. He was thinking about switching to a technical position and he chose a QA role as his development path. During our conversation, I heard a magical sentence from him: “Finally, I will be paid for pointing out someone's errors”. And he was not joking 🙂. 
+
+<div style="width:100%;height:0;padding-bottom:82%;position:relative;"><iframe src="https://giphy.com/embed/kbz6iLCGXDLgI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/king-of-the-world-im-titanic-kbz6iLCGXDLgI">via GIPHY</a></p>
+
+## Keep calm and carry on
