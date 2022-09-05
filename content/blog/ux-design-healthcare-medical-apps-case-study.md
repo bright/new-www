@@ -100,11 +100,9 @@ Clear communication about statuses is [the first of Jakob Nielsen’s ten heuris
 
 ## Can a beautiful design be ugly?
 
-[UX design in healthcare software development ](/our-areas/product-design)is all about managing the data. So users are able to... manage data as well. Sometimes these apps cannot be full of beautiful designs because this is simply not what users expect. Yet still, eHealth apps do their job and support medical staff actions. And these are the product design’s true colors. Good design exists only if it works. Isn’t that a pure beauty indeed?
+[UX design in healthcare software development ](/our-areas/product-design)is all about managing the data. So users are able to... manage data as well. Sometimes these apps cannot be full of beautiful designs because this is simply not what users expect. Yet still, eHealth apps do their job and support medical staff actions. And these are the product design’s true colors. Good design exists only if it works. Isn’t that pure beauty indeed?
 
-
-
-*Looking for a healthcare software company? You came to the right place! We deliver [eHealth apps](/projects) since 2012. [Let's talk about your solution.](/start-project)*
+<div class='block-button'><h2>Looking for a healthcare software company?</h2><div>You came to the right place! We deliver eHealth apps since 2012.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
 
 - - -
 
