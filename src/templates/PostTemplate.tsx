@@ -106,7 +106,7 @@ const AuthorsSection = styled.article`
     ul li::marker {
       color: ${variables.color.primary};
     }
-    & .gatsby-resp-image-wrapper, 
+    & .gatsby-resp-image-wrapper,
     .gatsby-resp-image-image,
     span img,
     p img {
@@ -148,7 +148,7 @@ const AuthorsSection = styled.article`
       }
       & footer {
         font: normal normal bold 16px/19px Lato;
-        font-wight: bold;
+        font-weight: bold;
         font-family: ${variables.font.customtext.lato};
         font-size: ${variables.pxToRem(16)};
         line-height: ${variables.pxToRem(19)};
@@ -166,93 +166,89 @@ const AuthorsSection = styled.article`
         }
       }
     }
-    @ media ${variables.device.laptop} {
+    @media ${variables.device.laptop} {
       margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
     }
   }
 
-    && .block-button {
-      border: 1px solid ${variables.color.primary};
-      padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
-      margin: ${variables.pxToRem(46)} 0 ${variables.pxToRem(23)};
-      & h2 {
-        // font: normal normal 800 34px/42px Montserrat;
-        font-weight: 800;
-        font-size: ${clampBuilder(360, 1920, 24, 34)};
-        line-height: ${clampBuilder(360, 1920, 29, 42)};
-        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
-        text-align: center;
+  & .block-button {
+    border: 1px solid ${variables.color.primary};
+    padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
+    margin: ${variables.pxToRem(46)} 0 ${variables.pxToRem(23)};
+    & h2 {
+      // font: normal normal 800 34px/42px Montserrat;
+      font-weight: 800;
+      font-size: ${clampBuilder(360, 1920, 24, 34)};
+      line-height: ${clampBuilder(360, 1920, 29, 42)};
+      margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+      text-align: center;
+    }
+    & div {
+      font-family: ${variables.font.customtext.lato};
+      font-size: ${clampBuilder(360, 1920, 16, 20)};
+      line-height: ${variables.pxToRem(40)};
+      margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+    }
+    & button {
+      border: 1px solid #f7931e;
+      background: #f7931e;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: #000000;
+      opacity: 1;
+      padding: 1rem 4rem;
+      font-size: ${clampBuilder(360, 1920, 16, 18)};
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+      display: block;
+      margin: 0 auto;
+      &:hover {
+        color: #ffffff;
+        border: 1px solid #000000;
+        background: #000000;
       }
-      & div {
-        font-family: ${variables.font.customtext.lato};
-        font-size: ${clampBuilder(360, 1920, 16, 20)};
-        line-height: ${variables.pxToRem(40)};
-        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
-      }
-      & button {
-        border: 1px solid #f7931e;
-        background: #f7931e;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: 0;
-        color: #000000;
-        opacity: 1;
-        padding: 1rem 4rem;
-        font-size: ${clampBuilder(360, 1920, 16, 18)};
-        cursor: pointer;
-        transition: all 0.3s ease-out;
-        display: block;
-        margin: 0 auto;
-        &:hover {
-          color: #ffffff;
-          border: 1px solid #000000;
-          background: #000000;
-        }
-        & a {
-          color: inherit;
-          text-decoration: none;
-        }
-      }
-      @ media ${variables.device.laptop} {
-        margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
+      & a {
+        color: inherit;
+        text-decoration: none;
       }
     }
-    && .important-info {
-      border: 1px solid ${variables.color.primary};
-      padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
-      margin: ${variables.pxToRem(46)} 0 ${variables.pxToRem(23)};
-      & h2 {
-      
-        font-weight: 800;
-        font-size: ${clampBuilder(360, 1920, 24, 34)};
-        line-height: ${clampBuilder(360, 1920, 29, 42)};
-        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
-        text-align: center;
-      }
-      & div {
-        font-family: ${variables.font.customtext.lato};
-        font-size: ${clampBuilder(360, 1920, 16, 20)};
-        line-height: ${variables.pxToRem(40)};
-        margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
-      }
-      @ media ${variables.device.laptop} {
-        margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
-      }
+    @media ${variables.device.laptop} {
+      margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
     }
-  
+  }
+  & .important-info {
+    border: 1px solid ${variables.color.primary};
+    padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
+    margin: ${variables.pxToRem(46)} 0 ${variables.pxToRem(23)};
+    & h2 {
+      font-weight: 800;
+      font-size: ${clampBuilder(360, 1920, 24, 34)};
+      line-height: ${clampBuilder(360, 1920, 29, 42)};
+      margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+      text-align: center;
+    }
+    & div {
+      font-family: ${variables.font.customtext.lato};
+      font-size: ${clampBuilder(360, 1920, 16, 20)};
+      line-height: ${variables.pxToRem(40)};
+      margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
+    }
+    @media ${variables.device.laptop} {
+      margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
+    }
+  }
 
-    & .author-container > div:not(:last-of-type) {
-      margin-right: 1.3125rem;
-      @media ${variables.device.mobile} {
-        margin-right: 1.125rem;
-      }
+  & .author-container > div:not(:last-of-type) {
+    margin-right: 1.3125rem;
+    @media ${variables.device.mobile} {
+      margin-right: 1.125rem;
     }
     @media ${variables.device.mobile} {
       padding: ${variables.pxToRem(26)} 1.125rem 0;
     }
   }
- 
 `
 
 const Title = styled.h1`
