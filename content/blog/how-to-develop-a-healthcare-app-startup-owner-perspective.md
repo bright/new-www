@@ -69,4 +69,4 @@ When it comes to custom healthcare app development every part of the process has
 
 Are you looking for a **[healthcare software development company](/)**? You’ve come to the right place!
 
-[Estimate your healthcare project](/start-project)
+<div class='block-button'><h2>Let's talk about you healtchare solution!</h2><div>Since 2012 we developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estamiate your solution.</div><a href="/start-project"><button>Let's talk</button></a></div>
