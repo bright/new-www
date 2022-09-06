@@ -65,6 +65,8 @@ Obviously, the Jetpack Compose library is in its early stages. So it still doesn
 
 I must say, though, that **Jetpack Compose makes the potential switch as easier as it is possible**. You can mix old views with new ones. You can build views in Compose and then implement them with XML. So you can use Jetpack in huge projects but only for one screen just to see if it works for your team. After all, it is not as a challenging transition as some could think.
 
+<div class='block-button'><h2>We are looking for Senior Android Developers</h2><div>Join Damian and other experienced Android devs form our Bright team!</div><a href="/jobs/senior-android-developer"><button>Apply and join Damian</button></a></div>
+
 ## You are planning a free webinar about Jetpack Compose. Who can join it?
 
 In September **I will conduct a free webinar – “Introduction to Jetpack Compose”**. It will be held in Polish. I will show how this new Google framework works and answer any questions. I invite Android developers who haven’t had a chance to try Jetpack Compose yet. You don’t have to be a senior mobile developer but you should have some experience in writing Android apps.
