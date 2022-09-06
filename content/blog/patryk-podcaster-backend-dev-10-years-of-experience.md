@@ -57,6 +57,8 @@ Yes, I went to the Polish-Japanese Academy of Information Technology in Gdańsk.
 
 Also, it wasn’t easy to keep motivated to study when I actually already had a job in software development. However, I did graduate after all, yet it was a busy time.
 
+<div class='block-button'><h2>We are looking for Senior Backend Developers (TS, Node.js)</h2><div>Work for one of our international clients. Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app. Apply!</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>
+
 ## You came to Bright in the middle of the pandemic. Was it challenging to change a job in that circumstances?
 
 Yes. **Not only have I changed my work but also a working model**. Before the pandemic, I believed that working at the office was the ultimate way. I thought that I would never be able to focus at home. It has been a total mind shift for me. Nowadays, I work mostly from home. However, my home office beginnings were far from perfect. **I struggled with separating my free time from office hours**. It was tempting to go back to work during the evenings and check out Slack messages because my computer and desk were next to me.
