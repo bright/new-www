@@ -407,7 +407,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
           desktopContent='space-between'
           mobileGap='25px'
         >
-          <FlexWrapper desktopGap={secondAuthorView || thirdAuthorView ? '21px' : 'unset'}>
+          <FlexWrapper desktopGap={secondAuthorView || thirdAuthorView ? '21px' : 'unset'} tabletBasis='70%'>
             <div>{authors}</div>
             {secondAuthorView && <div>{secondAuthorView}</div>}
             {thirdAuthorView && <div>{thirdAuthorView}</div>}

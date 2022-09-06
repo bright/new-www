@@ -5,9 +5,6 @@ import variables from '../../styles/variables'
 const Svg = styled.svg`
   max-width: 4px;
   height: auto;
-
-  @media ${variables.device.mobile} {
-  }
 `
 
 export default function Dot() {

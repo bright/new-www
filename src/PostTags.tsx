@@ -8,6 +8,14 @@ const Tags = styled.p`
   flex-wrap: wrap;
   justify-content: center;
   gap: ${variables.pxToRem(10)};
+
+  @media ${variables.device.tablet} {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  @media ${variables.device.mobile} {
+    justify-content: center;
+  }
 `
 
 export const PostTags = ({ tags }: { tags: string[] }) => {

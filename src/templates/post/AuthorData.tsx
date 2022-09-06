@@ -51,6 +51,7 @@ const SingleAuthorArticle = styled.article`
   justify-content: center;
   align-items: center;
   gap: ${variables.pxToRem(20)};
+  flex-wrap: wrap;
 
   .title {
     font-size: 1.25em;
