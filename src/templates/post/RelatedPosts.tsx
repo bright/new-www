@@ -28,9 +28,7 @@ const RelatedPosts = ({ allMarkdownRemark, currentPostfileAbsolutPath }: Related
     )
     if (allMarkdownRemark.edges.length > 4) {
       if (indexOfCurrentPostInRelated !== -1) {
-        console.log(allMarkdownRemark)
         allMarkdownRemark.edges.splice(indexOfCurrentPostInRelated, 1)
-        console.log(allMarkdownRemark)
       } else {
         allMarkdownRemark.edges.splice(allMarkdownRemark.edges.length - 1, 1)
       }
