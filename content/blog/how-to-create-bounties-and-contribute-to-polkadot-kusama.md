@@ -17,9 +17,7 @@ published: true
 
 ![Treasury Bounty Mechanism](/images/blog_bounty_brighttreasury.png)
 
-## How do Bounties for Polkadot and Kusama Work
-
-A bounty is a reward for completing some kind of task. It might be building a feature or fixing a bug. However, it does not have to be related to programming. It can be a video promoting the Treasury or a translation of a technical guide about Polkadot.js integrations.
+<div class="important-info"><h2>How do Bounties for Polkadot and Kusama Work</h2><div>A bounty is a reward for completing some kind of task. It might be building a feature or fixing a bug. However, it does not have to be related to programming. It can be a video promoting the Treasury or a translation of a technical guide about Polkadot.js integrations.</div></div>
 
 Simply put – you have an idea for a task that would contribute to the community but you don't have the knowledge or resources to do it so you propose the bounty for this job.
 
