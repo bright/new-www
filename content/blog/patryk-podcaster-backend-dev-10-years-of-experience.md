@@ -57,7 +57,7 @@ Yes, I went to the Polish-Japanese Academy of Information Technology in Gdańsk.
 
 Also, it wasn’t easy to keep motivated to study when I actually already had a job in software development. However, I did graduate after all, yet it was a busy time.
 
-<div class='block-button'><h2>We are looking for Senior Backend Developers (TS, Node.js)</h2><div> Do you have very good knowledge of TypeScript and experience with Node.js? Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app. </div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>
+<div class='block-button'><h2>We are looking for Senior Backend Developers (TS, Node.js)</h2><div> Do you have very good knowledge of TypeScript and experience with Node.js? Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app.</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>
 
 ## You came to Bright in the middle of the pandemic. Was it challenging to change a job in that circumstances?
 
