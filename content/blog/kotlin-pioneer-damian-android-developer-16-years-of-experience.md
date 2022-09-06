@@ -65,6 +65,8 @@ Obviously, the Jetpack Compose library is in its early stages. So it still doesn
 
 I must say, though, that **Jetpack Compose makes the potential switch as easier as it is possible**. You can mix old views with new ones. You can build views in Compose and then implement them with XML. So you can use Jetpack in huge projects but only for one screen just to see if it works for your team. After all, it is not as a challenging transition as some could think.
 
+<div class='block-button'><h2>We are looking for Senior Android Developers</h2><div>Join Damian and other experienced Android devs from our Bright team!</div><a href="/jobs/senior-android-developer"><button>Apply and join Damian</button></a></div>
+
 ## You are planning a free webinar about Jetpack Compose. Who can join it?
 
 In September **I will conduct a free webinar – “Introduction to Jetpack Compose”**. It will be held in Polish. I will show how this new Google framework works and answer any questions. I invite Android developers who haven’t had a chance to try Jetpack Compose yet. You don’t have to be a senior mobile developer but you should have some experience in writing Android apps.
@@ -102,3 +104,5 @@ Soon we will launch the MVP. The app’s core is an offline mode. Building offli
 I spend lots of my free time with my wife and daughter. Also, **I am a Path of Exile game maniac**. When there is a new league released I can even take some days off to play it. Plus, **I work on my own app with a friend**. During winter I love snowboarding. I read books and follow movies and TV series on every available streaming platform. The app I work after hours is actually related to that passion. Maybe someday you will download it on your phone. 😉
 
 ![Damian's private photo with his family](/images/damian_picture_family.png)
+
+<div class='block-button'><h2>We are looking for Senior Android Developers</h2><div>Do you want to develop Android-based solutions for international clients? Check out our career opportunities!</div><a href="jobs/senior-android-developer"><button>Apply and join Damian</button></a></div>

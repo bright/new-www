@@ -15,11 +15,7 @@ published: true
 ---
 **Since the bounties were introduced by the Substrate-based community, there was a need to build an intuitive app that would make it easier to manage bounties from creating a reward to completing the bounty. That is one of the reasons why the [BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=bounty&utm_id=content_marketing) app was built. The first stage of development was funded by Web3 Foundation and now the app is 100% supported by Polkadot and Kusama Treasuries. Check out how to easily propose a bounty and contribute to the Kusama and Polkadot networks.**
 
-![Treasury Bounty Mechanism](/images/blog_bounty_brighttreasury.png)
-
-## How do Bounties for Polkadot and Kusama Work
-
-A bounty is a reward for completing some kind of task. It might be building a feature or fixing a bug. However, it does not have to be related to programming. It can be a video promoting the Treasury or a translation of a technical guide about Polkadot.js integrations.
+<div class="important-info"><h2>How do Bounties for Polkadot and Kusama Work</h2><div>A bounty is a reward for completing some kind of task. It might be building a feature or fixing a bug. However, it does not have to be related to programming. It can be a video promoting the Treasury or a translation of a technical guide about Polkadot.js integrations.</div></div>
 
 Simply put – you have an idea for a task that would contribute to the community but you don't have the knowledge or resources to do it so you propose the bounty for this job.
 

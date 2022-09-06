@@ -62,7 +62,7 @@ However, in my case, I mostly took care of hiring people and I was deciding abou
 
 ## You are a speaker at the iOSDevUK Conference in September. What will you talk about?
 
-**I will talk about becoming an iOS developer, again**. Some of it we have just covered in previous questions. Let’s treat them as a preview. I will talk about all the misconceptions related to manager positions. **I will compare the manager role to the developer role**. **Also, I want to show how great it was to go back to iOS development**. After my break, I could see how many great new things Apple started to offer developers. It feels great to work again with Apple tools.
+**I will talk about becoming an iOS developer, again**. Some of it we have just covered in previous questions. Let’s treat them as a preview. I will talk about all the misconceptions related to manager positions. **I will compare the manager role to the developer role**. **Also, I want to show how great it was to go back to [iOS development](/our-areas/mobile-app-development)**. After my break, I could see how many great new things Apple started to offer developers. It feels great to work again with Apple tools.
 
 <img src="/images/michal_iosdevuk.png" alt="undefined" class="image" />
 
@@ -89,3 +89,5 @@ Since I remember I was into **automotive and mechanics**. I guess my grandfather
 ## Do you like to race at work as well? 😉
 
 I guess it is nice to finish my tasks faster than I estimated. However, **software development is more about collaboration than race**. Working together is the best way to build a successful product in this business.
+
+<div class='block-button'><h2>We are looking for senior iOS developers</h2><div>Build with us the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="/jobs/senior-ios-developer/"><button>Apply now</button></a></div>

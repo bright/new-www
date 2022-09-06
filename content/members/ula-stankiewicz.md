@@ -6,8 +6,8 @@ slug: ula
 name: Ula Stankiewicz
 short_name: Ula
 email: ula.stankiewicz@brightinventions.pl
-bio: HR & Marketing Manager
-description: HR & Marketing manager
+bio: HR Business Partner & Marketing Manager
+description: HR Business Partner & Marketing Manager
 avatar: /images/ula2_team.png
 avatar_hover: /images/ula2_passion.png
 redirect_from:

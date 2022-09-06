@@ -82,6 +82,4 @@ Examples of time differences:
 
 🇵🇱 Poland – 🇺🇸 New York: 6-hours time difference
 
-Looking for an iOS development company from Poland? You came to the right place.
-
-[Let’s talk about your iOS solution!](/start-project)
+<div class='block-button'><h2>Looking for an iOS development company from Poland? </h2><div>You came to the right place. We build apps since 2012. Our experienced iOS team is ready to help you. Contact us to estimate your project.</div><a href="/start-project"><button>Let’s talk about your iOS solution</button></a></div>

@@ -36,9 +36,11 @@ Yes. As I said I was always into new technologies. Math, Physics, and Informatic
 
 Many of my high school friends actually were programmers so I contacted one of them and asked him to help me with my career change. He recommended me some books that I brought on board with me for (what turned out to be) my last maritime job ever. Believe it or not but we did not have an access to the internet onboard. We had one computer with an internet connection that could be used by everyone so you could spend on it max 30 minutes a day. So **I read lots of books and wrote some code in my free time and sent it to my colleague via email** for a review. That was how I learned to code. I focused on Java back then.
 
-After that last 3 months-job, I came home and never pursued a maritime career again. In total it took me 5-6 months of learning to get my first software development job. I was going to the interviews. One of them was at Bright inventions but I didn’t get a job here then. ;) I was hired somewhere else. The project I worked on was quite interesting from a business perspective because I worked on a solution for a smart card company. However, in terms of technologies and software processes, there were not many opportunities to grow as a developer. 
+After that last 3 months-job, I came home and never pursued a maritime career again. In total it took me 5-6 months of learning to get my first software development job. I was going to the interviews. One of them was at Bright inventions but I didn’t get a job here then. 😉 I was hired somewhere else. The project I worked on was quite interesting from a business perspective because I worked on a solution for a smart card company. However, in terms of technologies and software processes, there were not many opportunities to grow as a developer. 
 
 Fortunately, 2 months after my interview at Bright, they called me and asked me if I wanted to join them. I said yes.
+
+<div class='block-button'><h2>We are looking for Fullstack Developers</h2><div>Do you have experience with TypeScript and Node.js? Apply and get a chance to develop products like web therapy application supporting people dealing with mental disorders.</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join Rafał</button></a></div>
 
 ## You must have sunk deep into the recruiters' memory. Why do you think they called you?
 
@@ -113,3 +115,5 @@ Also, I am this guy who still bakes his own bread since the beginning of the pan
 **[Apple Podcasts](https://podcasts.apple.com/pl/podcast/jaki-kolor-ma-woda-wed%C5%82ug-google/id1625829267?i=1000565743841&l=pl)**
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/pl/podcast/jaki-kolor-ma-woda-wed%C5%82ug-google/id1625829267?i=1000565743841&l=pl"></iframe>
+
+<div class='block-button'><h2>Ready to join Rafał?</h2><div>Are you a Fullstack experienced with TypeScript and Node.js? Apply to join our Bright team!</div><a href="/jobs/fullstack-developer-nodejs-react"><button>Apply and join Rafał</button></a></div>

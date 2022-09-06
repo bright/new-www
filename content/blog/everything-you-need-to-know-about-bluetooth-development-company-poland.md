@@ -78,10 +78,4 @@ If you want to know more, read another blog post on [Bluetooth devices for healt
 * Electronic scale,
 * Barcode scanner.
 
-Are you looking for a Bluetooth development company based in Poland?
-
-<center>  
-
-[Contact us to estimate your Bluetooth solution](/start-project)
-
-</center>
+<div class='block-button'><h2>Time for your Bluetooth solution!</h2><div>Are you looking for a Bluetooth development company based in Poland?</div><a href="/start-project"><button>Contact us to estimate your Bluetooth solution</button></a></div>

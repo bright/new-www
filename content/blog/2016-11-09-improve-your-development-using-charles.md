@@ -161,7 +161,3 @@ Charles app is a great tool and has many many features. In my post I focused on 
 I described most common usages which I do with Charles app. To sum up I think that app should take a place in your development tools directory if you work with some web server.
 
 *This post is cross-posted with my personal [blog](https://wysockikamil.com/improve-your-development-using-charles/)*
-
-
-
-<div class="hide-on-mobile"><img src="/images/1_idea.png" alt="undefined" title="undefined"  /> </div>
