@@ -62,7 +62,7 @@ However, in my case, I mostly took care of hiring people and I was deciding abou
 
 ## You are a speaker at the iOSDevUK Conference in September. What will you talk about?
 
-**I will talk about becoming an iOS developer, again**. Some of it we have just covered in previous questions. Let’s treat them as a preview. I will talk about all the misconceptions related to manager positions. **I will compare the manager role to the developer role**. **Also, I want to show how great it was to go back to iOS development**. After my break, I could see how many great new things Apple started to offer developers. It feels great to work again with Apple tools.
+**I will talk about becoming an iOS developer, again**. Some of it we have just covered in previous questions. Let’s treat them as a preview. I will talk about all the misconceptions related to manager positions. **I will compare the manager role to the developer role**. **Also, I want to show how great it was to go back to [iOS development](/our-areas/mobile-app-development)**. After my break, I could see how many great new things Apple started to offer developers. It feels great to work again with Apple tools.
 
 <img src="/images/michal_iosdevuk.png" alt="undefined" class="image" />
 
