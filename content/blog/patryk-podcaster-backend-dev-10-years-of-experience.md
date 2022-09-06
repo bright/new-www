@@ -121,4 +121,4 @@ It means that I want to drive anything that has an engine. 😀 Cars, motorcycle
 
 There are so many great cars that it is hard to limit myself to only one. My favorite models are changing too fast so this question is difficult to answer. 🙂 I can say that my favorite brand is BMW.
 
-<div class='block-button'><h2>We are looking for Senior Backend Developers</h2><div>Work for one of our international clients. Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app. Apply!</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>
+<div class='block-button'><h2>We are looking for Senior Backend Developers (TS, Node.js)</h2><div>Work for one of our international clients. Join one of our teams developing blockchain solutions, invoicing & accounting software or web therapy app. Apply!</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join Patryk</button></a></div>
