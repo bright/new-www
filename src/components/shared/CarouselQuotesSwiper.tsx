@@ -188,6 +188,14 @@ const SlideWrapper = styled.div`
 export const CarouselQuotesSwiper: React.FC = () => {
   const quotes = [
     {
+      avatar_hover: <StaticImage src='../../../static/images/damian_passion2022' alt='Damian' className='quote-img' />,
+      short_name: 'Damian',
+      bio: 'Senior Android Developer',
+      slug: 'damian-p',
+      quote:
+        'I appreciate the fact that Bright Inventions is not an outsourcing company. Here you work as a team for the client. Also, it suits me that Bright is a small company, so you don’t have to worry about bureaucracy or following corporate standards.',
+    },
+    {
       avatar_hover: <StaticImage src='../../../static/images/filip2_passion.png' alt='Filip' className='quote-img' />,
       short_name: 'Filip',
       bio: 'Senior iOS Developer',
