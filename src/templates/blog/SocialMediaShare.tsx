@@ -26,6 +26,8 @@ const IconsContainer = styled.div`
     column-gap: ${clampBuilder(300, 834, 19, 111)};
     max-width: 736px;
     justify-content: center;
+    padding: ${variables.pxToRem(36)} 0 0 0};
+    margin: 0 auto;
   }
 
   & a {

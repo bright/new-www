@@ -7,14 +7,13 @@ const Svg = styled.svg`
   height: auto;
 
   @media ${variables.device.mobile} {
-    margin-bottom: 6px;
   }
 `
 
 export default function Dot() {
   return (
-    <Svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'>
-      <circle cx='50' cy='50' r='50' />
+    <Svg viewBox='0 0 4 4' xmlns='http://www.w3.org/2000/svg'>
+      <circle cx='2' cy='2' r='2' />
     </Svg>
   )
 }

@@ -6,6 +6,7 @@ import { HelmetMetaAuthor } from '../../HelmetMetaAuthor'
 import { useAuthors } from '../../use-authors/use-authors'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
+import { FlexWrapper } from './../../components/shared/index.styled'
 
 const AuthorArticle = styled.article`
   position: relative;
@@ -18,30 +19,7 @@ const AuthorArticle = styled.article`
   .title {
     font-size: 1.25em;
   }
-  & figure {
-    & .is-rounded {
-      height: 87px;
-      width: 87px;
-      overflow: hidden;
-      transition: all 0.3s;
-      @media ${variables.device.mobile} {
-        height: 51px;
-        width: 51px;
-      }
-      & .image {
-        border-radius: 180px;
-        border: 1px solid #d3d3d3;
-        max-height: 87px;
-        object-position: 50% 15%;
-        @media ${variables.device.mobile} {
-          max-height: 51px;
-        }
-        &:hover {
-          border: 1px solid #f7931e;
-        }
-      }
-    }
-  }
+
   & .media-content {
     position: absolute;
     top: -80px;
@@ -69,33 +47,12 @@ const AuthorArticle = styled.article`
   }
 `
 const SingleAuthorArticle = styled.article`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   .title {
     font-size: 1.25em;
-  }
-  & figure {
-    margin-right: 20px;
-    & .is-rounded {
-      height: 87px;
-      width: 87px;
-      overflow: hidden;
-      transition: all 0.3s;
-      @media ${variables.device.mobile} {
-        height: 51px;
-        width: 51px;
-      }
-      & .image {
-        border-radius: 180px;
-        border: 1px solid #d3d3d3;
-        max-height: 87px;
-        object-position: 50% 15%;
-        @media ${variables.device.mobile} {
-          max-height: 51px;
-        }
-        &:hover {
-          border: 1px solid #f7931e;
-        }
-      }
-    }
   }
 
   & .media-content {
@@ -116,8 +73,54 @@ const SingleAuthorArticle = styled.article`
       }
     }
   }
+  @media ${variables.device.mobile} {
+    flex-direction: column;
+    justify-content: center;
+    align-items: centert;
+    flex-basis: 100%;
+    gap: ${variables.pxToRem(19)};
+  }
 `
+const Figure = styled.figure`
+  margin-right: 20px;
+  height: 87px;
+  width: 87px;
+  overflow: hidden;
+  transition: all 0.3s;
 
+  & .image {
+    border-radius: 180px;
+    border: 1px solid #d3d3d3;
+    max-height: 87px;
+    object-position: 50% 15%;
+    @media ${variables.device.tablet} {
+      max-height: 77px;
+    }
+    &:hover {
+      border: 1px solid #f7931e;
+    }
+  }
+
+  @media ${variables.device.tablet} {
+    height: 77px;
+    width: 77px;
+    margin: 0 auto;
+  }
+`
+const Name = styled.div`
+  font-size: ${variables.pxToRem(26)};
+  line-height: ${variables.pxToRem(40)};
+  font-weight: bold;
+  color: ${variables.color.text} @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(25)};
+  }
+`
+const Bio = styled.p`
+  font-size: ${variables.pxToRem(18)};
+  line-height: ${variables.pxToRem(40)};
+  font-weight: normal;
+  font-family: ${variables.font.customtext.lato};
+`
 export interface AuthorDataProps {
   authorId?: string
   isSingleAuthor?: boolean
@@ -139,33 +142,32 @@ export function AuthorsView({
   bio: string
 }) {
   const LinkComponent = authorId
-    ? (props: { children?: ReactNode }) => <Link to={routeLinks.aboutUs({ authorId, slug })}>{props.children}</Link>
+    ? (props: { children?: ReactNode }) => (
+        <Link to={routeLinks.aboutUs({ authorId, slug })} style={{ color: 'inherit' }}>
+          {props.children}
+        </Link>
+      )
     : (props: { children?: ReactNode }) => <span>{props.children}</span>
   return (
     <LinkComponent>
       <HelmetMetaAuthor author={name} />
       {isSingleAuthor ? (
-        <SingleAuthorArticle className='media'>
+        <SingleAuthorArticle>
           {avatar && (
-            <figure className='media-left'>
-              <div className='image is-87x87'>
-                <GatsbyImage
-                  image={getImage(avatar)!}
-                  alt={name + ' bio photo'}
-                  className='is-rounded'
-                  imgClassName='image'
-                />
-              </div>
-            </figure>
+            <Figure>
+              <GatsbyImage
+                image={getImage(avatar)!}
+                alt={name + ' bio photo'}
+                className='is-rounded'
+                imgClassName='image'
+              />
+            </Figure>
           )}
-          <div className='media-content'>
-            <div className='content'>
-              <div className='title' style={{ marginBottom: '4px' }}>
-                {name}
-              </div>
-              <p className='subtitle is-6'>{bio}</p>
-            </div>
-          </div>
+
+          <FlexWrapper desktopDirection='column' mobileContent='center' mobileItems='center' mobileGap='8px'>
+            <Name>{name}</Name>
+            <Bio>{bio}</Bio>
+          </FlexWrapper>
         </SingleAuthorArticle>
       ) : (
         <AuthorArticle>
@@ -177,16 +179,14 @@ export function AuthorsView({
           </div>
 
           {avatar && (
-            <figure className=''>
-              <div className='image is-87x87'>
-                <GatsbyImage
-                  image={getImage(avatar)!}
-                  alt={name + ' bio photo'}
-                  className='is-rounded'
-                  imgClassName='image'
-                />
-              </div>
-            </figure>
+            <Figure className=''>
+              <GatsbyImage
+                image={getImage(avatar)!}
+                alt={name + ' bio photo'}
+                className='is-rounded'
+                imgClassName='image'
+              />
+            </Figure>
           )}
         </AuthorArticle>
       )}

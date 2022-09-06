@@ -3,12 +3,9 @@ import React, { ComponentProps, useEffect, useRef, useState } from 'react'
 import { useLocation } from '@reach/router'
 import styled from 'styled-components'
 import { Page } from '../layout/Page'
-import BackButton from '../components/subcomponents/BackButton'
 import DateFormatter from '../components/subcomponents/Date'
 import DisqusComments from '../components/subcomponents/DisqusComments'
 import { AuthorData, AuthorDataProps } from './post/AuthorData'
-import { getFileNameOnly } from '../helpers/pathHelpers'
-import { routeLinks } from '../config/routing'
 import { BlogPostStructuredData } from '../BlogPostStructuredData'
 import { getSrc } from 'gatsby-plugin-image'
 import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks'
@@ -19,16 +16,13 @@ import { siteMetadata } from '../../gatsby-config'
 import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
-import Newsletter from '../components/subcomponents/Newsletter'
 import NewsletterWrapper from './../components/subcomponents/NewsletterWrapper'
 import { Button, CustomSection, FlexWrapper } from '../components/shared'
 import { SocialMediaShare } from './blog/SocialMediaShare'
 import { clampBuilder } from './../helpers/clampBuilder'
 import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
 import Dot from '../components/icons/Dot.icon'
-import { BlogFeed } from './blog/Feed'
-import { createBlogPosts, createBlogRelatedPosts } from '../models/creator'
-import { allMarkdownRemarkData, Edge, GQLData } from '../models/gql'
+import { allMarkdownRemarkData } from '../models/gql'
 import RelatedPosts from './post/RelatedPosts'
 
 const AuthorsSection = styled.article`
@@ -127,7 +121,7 @@ const AuthorsSection = styled.article`
       border: none;
       padding: ${variables.pxToRem(25)} ${variables.pxToRem(60)} ${variables.pxToRem(64)} ${variables.pxToRem(223)};
       position: relative;
-      margin: ${variables.pxToRem(105)} 0;
+      margin: ${variables.pxToRem(46)} 0 ${variables.pxToRem(23)};
       &:before {
         content: '“';
         color: ${variables.color.primary};
@@ -172,12 +166,15 @@ const AuthorsSection = styled.article`
         }
       }
     }
+    @ media ${variables.device.laptop} {
+      margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
+    }
   }
 
     && .block-button {
       border: 1px solid ${variables.color.primary};
       padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
-      margin: ${clampBuilder(360, 1920, 82, 105)} 0 ${clampBuilder(360, 1920, 82, 186)};
+      margin: ${variables.pxToRem(46)} 0 ${variables.pxToRem(23)};
       & h2 {
         // font: normal normal 800 34px/42px Montserrat;
         font-weight: 800;
@@ -217,11 +214,14 @@ const AuthorsSection = styled.article`
           text-decoration: none;
         }
       }
+      @ media ${variables.device.laptop} {
+        margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
+      }
     }
     && .important-info {
       border: 1px solid ${variables.color.primary};
       padding: ${clampBuilder(360, 1920, 42, 64)} ${clampBuilder(360, 1920, 26, 150)};
-      margin: ${clampBuilder(360, 1920, 82, 105)} 0 ${clampBuilder(360, 1920, 82, 186)};
+      margin: ${variables.pxToRem(46)} 0 ${variables.pxToRem(23)};
       & h2 {
       
         font-weight: 800;
@@ -236,6 +236,9 @@ const AuthorsSection = styled.article`
         line-height: ${variables.pxToRem(40)};
         margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
       }
+      @ media ${variables.device.laptop} {
+        margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
+      }
     }
   
 
@@ -246,9 +249,10 @@ const AuthorsSection = styled.article`
       }
     }
     @media ${variables.device.mobile} {
-      padding: 0 1.125rem;
+      padding: ${variables.pxToRem(26)} 1.125rem 0;
     }
   }
+ 
 `
 
 const Title = styled.h1`
@@ -292,6 +296,42 @@ const WrapperDot = styled.div`
   position: relative;
   height: 100%;
   width: 4px;
+  margin-top: ${variables.pxToRem(10)};
+  @media ${variables.device.mobile} {
+    margin-bottom: ${variables.pxToRem(4)};
+    margin-top: ${variables.pxToRem(0)};
+  }
+`
+const TimeToRead = styled.p`
+  font: normal normal bold 18px/40px Lato;
+  font-family: ${variables.font.customtext.lato}, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: ${variables.pxToRem(18)};
+  line-height: ${variables.pxToRem(40)};
+  color: ${variables.color.primary};
+`
+const Date = styled.p`
+  font-family: ${variables.font.customtext.lato}, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: ${variables.pxToRem(18)};
+  line-height: ${variables.pxToRem(40)};
+`
+const AuthorsWrapper = styled.div`
+  padding-bottom: ${variables.pxToRem(30)};
+  @media ${variables.device.laptop} {
+    padding-bottom: ${variables.pxToRem(28)};
+  }
+  @media ${variables.device.tabletXL} {
+    padding-bottom: ${variables.pxToRem(24)};
+  }
+  @media ${variables.device.tablet} {
+    padding-bottom: ${variables.pxToRem(28)};
+  }
+  @media ${variables.device.mobile} {
+    padding-bottom: ${variables.pxToRem(40)};
+  }
 `
 
 export type PostTemplateProps = {
@@ -359,36 +399,33 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
     : null
   return (
     <AuthorsSection>
-      <div className='columns is-vcentered'>
-        <div className='is-flex author-container'>
-          <div>{authors}</div>
-          <div>{secondAuthorView && secondAuthorView}</div>
-          <div>{thirdAuthorView && thirdAuthorView}</div>
-        </div>
+      <AuthorsWrapper>
+        <FlexWrapper
+          mobileDirection='column'
+          mobileContent='center'
+          mobileItems='center'
+          desktopContent='space-between'
+          mobileGap='25px'
+        >
+          <FlexWrapper desktopGap={secondAuthorView || thirdAuthorView ? '21px' : 'unset'}>
+            <div>{authors}</div>
+            {secondAuthorView && <div>{secondAuthorView}</div>}
+            {thirdAuthorView && <div>{thirdAuthorView}</div>}
+          </FlexWrapper>
 
-        <div className='column has-text-right'>
-          <div className='content has-text-grey-light'>
+          <FlexWrapper desktopDirection='column' mobileGap='13px' desktopContent='space-between'>
             <PostTags tags={props.tags} />
-            <FlexWrapper desktopContent='flex-end' desktopGap='10px'>
-              <p className='has-text-primary'>{props.timeToRead} min</p>
+            <FlexWrapper desktopContent='flex-end' desktopGap='10px' mobileContent='center' desktopItems='center'>
+              <TimeToRead>{props.timeToRead} min</TimeToRead>
               <WrapperDot>
                 <Dot />
               </WrapperDot>
 
-              <p>
-                {props.date && <DateFormatter date={props.date} />}
-                &nbsp;
-                {/* <a
-                className='has-text-grey-light'
-                href={'/admin/#/collections/blog/entries/' + getFileNameOnly(props.fileAbsolutePath)}
-              >
-                Edit
-              </a> */}
-              </p>
+              <Date>{props.date && <DateFormatter date={props.date} />}</Date>
             </FlexWrapper>
-          </div>
-        </div>
-      </div>
+          </FlexWrapper>
+        </FlexWrapper>
+      </AuthorsWrapper>
 
       <Title>{props.title}</Title>
       {props.contentView ? (
