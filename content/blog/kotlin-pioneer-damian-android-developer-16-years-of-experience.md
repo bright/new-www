@@ -104,3 +104,5 @@ Soon we will launch the MVP. The app’s core is an offline mode. Building offli
 I spend lots of my free time with my wife and daughter. Also, **I am a Path of Exile game maniac**. When there is a new league released I can even take some days off to play it. Plus, **I work on my own app with a friend**. During winter I love snowboarding. I read books and follow movies and TV series on every available streaming platform. The app I work after hours is actually related to that passion. Maybe someday you will download it on your phone. 😉
 
 ![Damian's private photo with his family](/images/damian_picture_family.png)
+
+<div class='block-button'><h2>We are looking for Senior Android Developers</h2><div>Do you want to develop Android-based solutions for international clients? Check out our career opportunities!</div><a href="jobs/senior-android-developer"><button>Apply and join Damian</button></a></div>
