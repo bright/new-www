@@ -50,6 +50,7 @@ const SingleAuthorArticle = styled.article`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: ${variables.pxToRem(20)};
 
   .title {
     font-size: 1.25em;
@@ -82,7 +83,6 @@ const SingleAuthorArticle = styled.article`
   }
 `
 const Figure = styled.figure`
-  margin-right: 20px;
   height: 87px;
   width: 87px;
   overflow: hidden;
