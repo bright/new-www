@@ -374,26 +374,31 @@ export const FlexWrapper = styled.div<{
   desktopItems?: string
   desktopGap?: string
   desktopWrap?: string
+  desktopBasis?: string
   laptopDirection?: string
   laptopContent?: string
   laptopItems?: string
   laptopGap?: string
   laptopWrap?: string
+  laptopBasis?: string
   tabletXLDirection?: string
   tabletXLContent?: string
   tabletXLItems?: string
   tabletXLGap?: string
   tabletXLWrap?: string
+  tabletXLBasis?: string
   tabletDirection?: string
   tabletContent?: string
   tabletItems?: string
   tabletGap?: string
   tabletWrap?: string
+  tabletBasis?: string
   mobileDirection?: string
   mobileContent?: string
   mobileItems?: string
   mobileGap?: string
   mobileWrap?: string
+  mobileBasis?: string
 }>`
   display: flex;
   flex-direction: ${({ desktopDirection }) => desktopDirection};
@@ -401,6 +406,7 @@ export const FlexWrapper = styled.div<{
   align-items: ${({ desktopItems }) => desktopItems};
   gap: ${({ desktopGap }) => desktopGap};
   flex-wrap: ${({ desktopWrap }) => desktopWrap};
+  flex-basis: ${({ desktopBasis }) => desktopBasis};
 
   @media ${variables.device.laptop} {
     flex-direction: ${({ laptopDirection }) => laptopDirection};
@@ -408,6 +414,7 @@ export const FlexWrapper = styled.div<{
     align-items: ${({ laptopItems }) => laptopItems};
     gap: ${({ laptopGap }) => laptopGap};
     flex-wrap: ${({ laptopWrap }) => laptopWrap};
+    flex-basis: ${({ laptopBasis }) => laptopBasis};
   }
   @media ${variables.device.tabletXL} {
     flex-direction: ${({ tabletXLDirection }) => tabletXLDirection};
@@ -415,6 +422,7 @@ export const FlexWrapper = styled.div<{
     align-items: ${({ tabletXLItems }) => tabletXLItems};
     gap: ${({ tabletXLGap }) => tabletXLGap};
     flex-wrap: ${({ tabletXLWrap }) => tabletXLWrap};
+    flex-basis: ${({ tabletXLBasis }) => tabletXLBasis};
   }
   @media ${variables.device.tablet} {
     flex-direction: ${({ tabletDirection }) => tabletDirection};
@@ -422,6 +430,7 @@ export const FlexWrapper = styled.div<{
     align-items: ${({ tabletItems }) => tabletItems};
     gap: ${({ tabletGap }) => tabletGap};
     flex-wrap: ${({ tabletWrap }) => tabletWrap};
+    flex-basis: ${({ tabletBasis }) => tabletBasis};
   }
   @media ${variables.device.mobile} {
     flex-direction: ${({ mobileDirection }) => mobileDirection};
@@ -429,5 +438,6 @@ export const FlexWrapper = styled.div<{
     align-items: ${({ mobileItems }) => mobileItems};
     gap: ${({ mobileGap }) => mobileGap};
     flex-wrap: ${({ mobileWrap }) => mobileWrap};
+    flex-basis: ${({ mobileBasis }) => mobileBasis};
   }
 `
