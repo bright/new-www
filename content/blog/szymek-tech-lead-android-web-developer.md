@@ -210,4 +210,4 @@ I love to play badminton, basketball, and tennis. I also enjoy running and going
 
 Apart from sports I really love traveling, especially by hitchhiking. I hope that in post-pandemic times we will get opportunities for traveling this way again. I traveled over 15k kilometers across the Czech Republic, Slovakia, Austria, Hungary, Croatia, Montenegro, Serbia, Bulgaria, and Italy. Hope to experience this again.
 
-<div class='block-button'><h2>Do you want to join Szymek?</h2><div>We are looking Senior Android Developers with deep understanding and knowledge of Kotlin. Check out what we've got to offer!</div><a href="/jobs/senior-android-developer"><button>Apply and join Szymek</button></a></div>
+<div class='block-button'><h2>Do you want to join Szymek?</h2><div>We are looking for Senior Android Developers with deep understanding and knowledge of Kotlin. Check out what we've got to offer!</div><a href="/jobs/senior-android-developer"><button>Apply and join Szymek</button></a></div>
