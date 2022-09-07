@@ -306,6 +306,7 @@ const TimeToRead = styled.p`
   font-size: ${variables.pxToRem(18)};
   line-height: ${variables.pxToRem(40)};
   color: ${variables.color.primary};
+  white-space: nowrap;
 `
 const Date = styled.p`
   font-family: ${variables.font.customtext.lato}, sans-serif;
@@ -314,6 +315,7 @@ const Date = styled.p`
   font-size: ${variables.pxToRem(18)};
   line-height: ${variables.pxToRem(40)};
   color: ${variables.color.text2};
+  white-space: nowrap;
 `
 const AuthorsWrapper = styled.div`
   padding-bottom: ${variables.pxToRem(30)};
