@@ -82,4 +82,4 @@ Gathering data from these devices isn’t really a challenge. The challenge is t
 
 If you are looking for a **[healthcare software development company](/)**, make sure that the software team that you are about to hire have **deep knowledge about software development as well as experience in hardware**. These two elements are crucial in terms of developing solutions for telehealth.
 
-<div class='block-button'><h2>Looking for a software company?</h2><div>We have built healthcare apps for clients from the UK, Germany, Israel or Norway. Estimate your project!</div><a href="start-project"><button>Let's talk about your healthcare app</button></a></div>
+<div class='block-button'><h2>Looking for a software company?</h2><div>We have built healthcare apps for clients from the UK, Germany, Israel, Norway and more. Estimate your project!</div><a href="start-project"><button>Let's talk about your healthcare app</button></a></div>
