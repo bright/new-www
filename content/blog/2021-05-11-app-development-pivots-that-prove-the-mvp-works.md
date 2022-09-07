@@ -20,7 +20,7 @@ When you take first steps on the road of app development, you have to make a ver
 
 At Bright Inventions [we often recommend the second option called MVP](/blog/4-things-we-love-about-building-mvps) (Minimum Viable Product). 
 
-<div class="important-info"><h2>What is MVP?</h2><div>MVPs are low-cost products that you can show to early adopters and receive first feedback. Thanks to that investors don’t risk too much and can quickly check if the MVP has a business potential. Why is that important? Because \*\*sometimes MVP shows that your product should pivot\*\*. Although app pivoting feels scary, it isn’t such a unique thing. It was done by the greatest ones.</div></div>
+<div class="important-info"><h2>What is MVP?</h2><div>MVPs are low-cost products that you can show to early adopters and receive first feedback. Thanks to that investors don’t risk too much and can quickly check if the MVP has business potential. Why is that important? Because sometimes MVP shows that your product should pivot. Although app pivoting feels scary, it isn’t such a unique thing. It was done by the greatest ones.</div></div>
 
 ## What are the top reasons to pivot?
 
@@ -45,9 +45,5 @@ Developing all the features that you have imagined for your app may not only be 
 - - -
 
 Idea for a software solution is only the beginning. It needs to be verified and sometimes modified to succeed. That is why building MVPs takes a major role in creating the final and successful product. 
-
-
-
-
 
 **Do you want to build a MVP?** [Estimate your MVP](/our-areas/mvp-development/)!
