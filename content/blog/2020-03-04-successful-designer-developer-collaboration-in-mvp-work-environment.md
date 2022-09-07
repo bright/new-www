@@ -20,7 +20,7 @@ Undertaking a brand new idea and turning it into a successful product is always 
 
 Hence, the work environment of MVP should be highly lean and flexible, the collaboration of the team inside such environment should also resemble all traits of resilience, an ability to adapt to a constant change at a rapid pace. Thus, a favourable outcome of MVP largely depends on the team, the way they communicate, adapt and collaborate with each other. Especially, when it comes to designer-developer joining forces, it is essential that they create **a work tandem** and do their best to achieve top results. How do we make sure that the designer-developer team work is lucrative? 
 
-Here are 3 easy tips to a successful collaboration in MVP environment: 
+**Here are 3 easy tips to a successful collaboration in MVP environment:** 
 
 ## Listen
 
