@@ -85,6 +85,8 @@ My maths teacher would be proud for sure. 😉 As you know at school I always en
 
 Meetings and interviews mostly set the rhythm of my day. But I also have some permanent elements like weekly Monday meetings with my team, 1:1s with the girls from the HR & Marketing squad, quarter retrospectives or planning sessions. I plan  a lot and I try to manage my time wisely, but there are also days when I have to switch context very quickly. Some issues are hard to predict. You need to be flexible. What is crucial to me is also finding time for deep work when I can focus on my individual tasks. So, to some extent my days are typical, but typical in a non-typical way. 🙂
 
+<div class='block-button'><h2>Do you want to join Ula?</h2><div>Check out our career opportunities.</div><a href="/career"><button>Apply and jon Ula</button></a></div>
+
 ## After hours you teach English teenagers and adults in the local language school. Why? What does it give you?
 
 Satisfaction. It gives me satisfaction that I can share my knowledge with other people and it brings some extra value to their development. I have been working hard to be where I am now and it is a great feeling that I can use my skills in such a way. **I like watching my students making progress**. I think that language classes also give people great space for interesting interactions and discussions. Sometimes they may even be a kind of therapy. Conversations and speaking exercises create favourable conditions for people to talk about their problems or dilemmas. **Being an English teacher is not only about teaching a language, but also about supporting your students in their development and being their friend**.
