@@ -313,6 +313,7 @@ const Date = styled.p`
   font-weight: normal;
   font-size: ${variables.pxToRem(18)};
   line-height: ${variables.pxToRem(40)};
+  color: ${variables.color.text2};
 `
 const AuthorsWrapper = styled.div`
   padding-bottom: ${variables.pxToRem(30)};

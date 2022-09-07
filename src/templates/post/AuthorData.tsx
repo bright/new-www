@@ -112,7 +112,8 @@ const Name = styled.div`
   font-size: ${variables.pxToRem(26)};
   line-height: ${variables.pxToRem(40)};
   font-weight: bold;
-  color: ${variables.color.text} @media ${variables.device.mobile} {
+  color: ${variables.color.text};
+  @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(25)};
   }
 `
@@ -121,6 +122,7 @@ const Bio = styled.p`
   line-height: ${variables.pxToRem(40)};
   font-weight: normal;
   font-family: ${variables.font.customtext.lato};
+  color: ${variables.color.text};
 `
 export interface AuthorDataProps {
   authorId?: string
