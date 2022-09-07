@@ -15,6 +15,8 @@ published: true
 ---
 One of the things that we do best at Bright Inventions is helping startups build their first MVP. It's pretty common that founders select us as their technology partner and rely on us to turn their vision into reality. We enjoy this kind of challenges and over the years have started to understand quite well why - simply said - startups like to work with us. However, this note is purely intended as a set of generic things to look for in a technology partner.
 
+<div class="image"><img src="/images/bright_team.JPG" alt="Bright Inventions team" title="undefined"  /> </div>
+
 ### 1. Closely located
 
 It really helps when seeing your IT partner in person doesn't take half day of travelling. Software development is one of those activities in which a lack of communication between parties can result in heavy costs further down the road. Most of the time Slack, Google Hangouts, JIRA, etc. work perfectly but there should be times that you can just all sit together in one room and make sure you're well aligned. Misunderstood or missed requirements are easy and cheap to fix in the early phases of the project but very expensive later on. Start project with a workshop and keep meeting on a regular schedule to validate work in progress and realign your expectations. 
@@ -54,3 +56,7 @@ You need to be able to track progress easily and on a regular basis. It starts w
 <br/>
 
 Choosing [the right partner for working on your MVP ](/our-areas/mvp-development)is a leap of faith. You need to feel good about your decision and have full trust in them. It might be hard to find a partner that meets all the criteria listed in this note but at least make sure that they won't have problems challenging you if they disagree. They might be right.
+
+
+
+<div class='block-button'><h2>Looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your MVP</button></a></div>
