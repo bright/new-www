@@ -79,6 +79,4 @@ Taking care of creating bonds with the users, and making them feel safe, and sec
 
 Here are some of the major tech challenges we have faced while working on startup products. 
 
-*If you want to hire a software agency for your MVP or other solution, contact us.*
-
-[Let’s talk about your application](/start-project/)
+<div class='block-button'><h2>Lookking for software development agency?</h2><div>Hire an experienced team to work on your MVP or other solutions. We are in this business since 2012 working with over 40 clients around the world. </div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
