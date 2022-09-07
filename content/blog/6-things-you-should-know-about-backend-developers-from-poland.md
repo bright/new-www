@@ -19,7 +19,7 @@ published: true
 
 The Polish software development industry, with almost €9bn in revenue, is [ranked 7th among all European Union countries](https://www.ibisworld.com/poland/industry-statistics/software-development/3595/). It has been in this position since 2017. Despite pandemic turbulences, the Polish software development industry remained strong in the top 10 of the European Union.
 
-<div class='block-button'><h2>Looking for a Polish backend company?</h2><div>You’ve come to the right place. Since 2012 we have built apps for clients from Germany, Norway, Israel, UK and more. </div><a href="/start-project"><button>Let's talk about your product</button></a></div>
+<div class='block-button'><h2>Looking for a Polish backend company?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more. </div><a href="/start-project"><button>Let's talk about your product</button></a></div>
 
 ## Polish backend developers use modern stack and tools
 
