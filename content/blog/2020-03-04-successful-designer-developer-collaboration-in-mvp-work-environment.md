@@ -20,7 +20,7 @@ Undertaking a brand new idea and turning it into a successful product is always 
 
 Hence, the work environment of MVP should be highly lean and flexible, the collaboration of the team inside such environment should also resemble all traits of resilience, an ability to adapt to a constant change at a rapid pace. Thus, a favourable outcome of MVP largely depends on the team, the way they communicate, adapt and collaborate with each other. Especially, when it comes to designer-developer joining forces, it is essential that they create **a work tandem** and do their best to achieve top results. How do we make sure that the designer-developer team work is lucrative? 
 
-Here are 3 easy tips to a successful collaboration in MVP environment: 
+**Here are 3 easy tips to a successful collaboration in MVP environment:** 
 
 ## Listen
 
@@ -50,6 +50,6 @@ Building MVP means to be constantly ready for a change. Successful MVPs use a **
 
 Undoubtedly, as designer-developer being a part of MVP process is an amazing experience as you get to see the birth of a product and provide the ideas which can change it. You also can learn volumes from the user feedback, make small adjustments, or rethink the whole concept of an output. However, the success of MVP also depends on the designer-developer ability to cooperate with each other. Remember not only to listen to the other party but also hear what that party has to say. Don’t be afraid of asking questions, and don’t be reluctant to answer the same questions again and again. And particularly, do not get attached to already created solutions, be prepared to frequent changes, modifications and alterations. Trying to follow these tips may bring you and your team to a positive, friendly MVP working environment.
 
-\---
-
 Contact us if you are looking for [MVP development company](/our-areas/mvp-development). [](/our-areas/mvp-development)We are ready to help!
+
+<div class='block-button'><h2>Are you looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let’s talk abut your MVP</button></a></div>
