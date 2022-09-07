@@ -85,7 +85,7 @@ My maths teacher would be proud for sure. 😉 As you know at school I always en
 
 Meetings and interviews mostly set the rhythm of my day. But I also have some permanent elements like weekly Monday meetings with my team, 1:1s with the girls from the HR & Marketing squad, quarter retrospectives or planning sessions. I plan  a lot and I try to manage my time wisely, but there are also days when I have to switch context very quickly. Some issues are hard to predict. You need to be flexible. What is crucial to me is also finding time for deep work when I can focus on my individual tasks. So, to some extent my days are typical, but typical in a non-typical way. 🙂
 
-<div class='block-button'><h2>Do you want to join Ula?</h2><div>Check out our career opportunities.</div><a href="/career"><button>Apply and jon Ula</button></a></div>
+<div class='block-button'><h2>Do you want to join Ula?</h2><div>Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
 
 ## After hours you teach English teenagers and adults in the local language school. Why? What does it give you?
 
