@@ -47,4 +47,4 @@ Following security rules **helps to meet legal requirements**. A great example i
 
 As you can see, **app development security isn’t a secret knowledge** possessed by elites. In the end, the most important fact is just to **follow the security guides** (btw this is an important [guide](https://owasp.org/www-pdf-archive/OWASP_Application_Security_Verification_Standard_4.0-en.pdf)) and **execute the best possible security work** from the developer team. 
 
-**Are you looking for a software consulting studio? [Estimate your project!](/start-project)**
+<div class='block-button'><h2>Looking for developers who follow best security practices?</h2><div>We have been developing mobile and web apps since 2012. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
