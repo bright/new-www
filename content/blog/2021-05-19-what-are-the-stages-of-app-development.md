@@ -3,7 +3,6 @@ author: izabela
 secondAuthor: mateusz
 thirdAuthor: alisa
 tags:
-  - app
   - development
   - wireframes
   - mockups
@@ -78,8 +77,4 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 Now you know more about the most important app development stages. Remember that the final flow always depends on the project. Not every step is required. Nothing is set in stone in the app development world.
 
-**Do you want to kick off your app development process?** 
-
-[Estimate project](/start-project)
-
-Co-authors: Mateusz Klimczak (Technical Leader & Project Manager @ Bright Inventions) and Alisa Kashytska (Product Designer @ Bright Inventions)
+<div class='block-button'><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
