@@ -102,3 +102,5 @@ I spend most of my free time with my family. Also, I listen to lots of podcasts 
 ## Ok, so tell me what podcast do you recommend for tech leaders and startup enthusiasts?
 
 Definitely, my favourite one is Polish podcast “[Design Your Life](https://zaprojektujswojezycie.pl/type/podcast/)” on the careers of extraordinary people, building businesses, and the startup scene. From non-polish podcasts, I can recommend “[Acquired](https://www.acquired.fm)” which presents stories about leading companies and tech giants.
+
+<div class='block-button'><h2>Join Mateusz!</h2><div>Join one of Mateusz’s teams and work on Android or iOS solutions we develop for our clients from Germany, USA, or Israel.</div><a href="/career"><button>Check our career opportunities</button></a></div>
