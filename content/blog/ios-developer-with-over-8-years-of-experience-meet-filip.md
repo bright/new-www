@@ -51,6 +51,8 @@ I work in a team that develops ePOS solutions for an international company from 
 
 As many developers would probably agree – you often work on software that you are not even sure if it is used and if it really offers something meaningful to users. You just deliver some code and are far away from the business side of it. Maybe sometimes while working on milestone number 3 you will finally get some feedback about the first milestone which will change absolutely nothing about your work. That is the case for many software development companies and I am glad that at Bright we do not work like that. **We are partners to our clients and bring something more to the table than lines of code.** We get to work on the solution, business expectations and we can choose technologies and frameworks. Here you really influence your project.
 
+<div class='block-button'><h2>Do you want to join Filip?</h2><div>We are looking for iOS developers. Work with Filip and develop iOS applications for our clients from Germany, Norway, Israel, USA and more.</div><a href="/jobs/senior-ios-developer"><button>Apply and join Filip</button></a></div>
+
 ## At Bright Inventions we develop native mobile apps, but you worked closely with React Native before. What is your opinion about native vs hybrid apps development?
 
 Both approaches have their pros. And cons of course. 😉 I would not strike hybrid out completely. **We work on native apps because we deliver customized solutions which involve implementing the best possible user experience practices.** Also, we develop lots of solutions based on Bluetooth and here native is a better option. Or frankly – the only one.
@@ -67,10 +69,10 @@ When it comes to iOS, I think **2022 will be the year when we finally see what A
 
 ## You are going to conduct iOS workshops for devs outside our Bright Team. What will they be about?
 
-I will conduct workshops about the offline mode in iOS mobile applications. During one hour workshops, every participant will learn how to write code allowing for viewing data from external services without accessing the internet. The workshops are designed for experienced juniors and fresh regulars. They will be conducted in spring (probably April) 2022*. 
+I will conduct workshops about the offline mode in iOS mobile applications. During one hour workshops, every participant will learn how to write code allowing for viewing data from external services without accessing the internet. The workshops are designed for experienced juniors and fresh regulars. They will be conducted in spring (probably April) 2022. 
 
 ## Finally, what do you do after hours? 😎
 
 I enjoy playing board games with my wife. Also, I love to build Lego constructions with my son. Nothing complicated, we just build for fun. 😉 So I guess spending time with my family is a priority.
 
-*\*Follow our [Facebook page](https://www.facebook.com/bright.inventions) if you want to have a chance to participate in Filip’s workshops about the offline mode in iOS mobile development.*
+<div class='block-button'><h2>We are looking for iOS Developers</h2><div>Join Filip and other Bright iOS developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/jobs/senior-ios-developer"><button>Apply and join Filip</button></a></div>
