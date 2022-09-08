@@ -1,13 +1,14 @@
 ---
-layout: post
-title: Redshift Materialized Views
+author: agnieszka
 tags:
   - redshift
-comments: true
+  - development
+date: 2018-02-05T23:00:00.000Z
+title: Redshift Materialized Views
+layout: post
+image: /images/blog_post_cover_redshift.png
 hidden: false
-author: agnieszka
-image: /images/redshift-materialized-views/image1.jpg
-date: '2018-02-05T23:00:00.000Z'
+comments: true
 published: true
 ---
 
