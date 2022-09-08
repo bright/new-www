@@ -65,6 +65,8 @@ Another project is **[AccesSOS](https://accessos.io), it’s a PWA application f
 
 I also work with a USA startup **[Luna](https://lunaxio.com), where we build a complete communication platform based on the network of Bluetooth devices**. That is a fascinating yet complex project. I believe that it can revolutionize the way we use [Bluetooth technology](/our-areas/bluetooth-development).
 
+<div class='block-button'><h2>Join Mateusz!</h2><div>Join one of Mateusz’s teams and work on Android or iOS solutions we develop for our clients from Germany, USA, or Israel.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+
 ## Do you prefer to work with startups or bigger organizations?
 
 I like to work with startups but from time to time I enjoy having a break to work with corporations. I love changes and stepping out of my comfort zone. Really. I know that many people claim that, but that is really my gem. **I like to regularly change my tools, browsers, libraries etc. I feel the need to deal with something new, so I won't get stuck in the status quo.**
