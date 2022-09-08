@@ -25,6 +25,8 @@ Anyway, during studies and after them I was translating texts from many differen
 
 After my first MA I started an internship at a PR agency and at the same time I also decided to begin my second MA studies – marketing ones. I really like the feeling that I know the ins and outs of the field I work in. I remember I did many great practical projects during my studies. There were interesting subjects like creating brand strategies, company’s missions, preparing business plans, merchandising models etc. Dozens of creative things. I just love the process of creation. After I graduated I started my job at Twitter. At that time I also discovered that what I really needed was one brand and people around it.
 
+<div class='block-button'><h2>Do you want to join Ula?</h2><div>We like people with bright minds!Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
+
 ## How do you recall working closely with such a big organization as Twitter?
 
 I recall that as a great experience and a good lesson. I think it was a very important part of my professional development. I learned that there are different ways of managing people, micro-management ones and those based on freedom and responsibility that let you grow.
@@ -85,8 +87,6 @@ My maths teacher would be proud for sure. 😉 As you know at school I always en
 
 Meetings and interviews mostly set the rhythm of my day. But I also have some permanent elements like weekly Monday meetings with my team, 1:1s with the girls from the HR & Marketing squad, quarter retrospectives or planning sessions. I plan  a lot and I try to manage my time wisely, but there are also days when I have to switch context very quickly. Some issues are hard to predict. You need to be flexible. What is crucial to me is also finding time for deep work when I can focus on my individual tasks. So, to some extent my days are typical, but typical in a non-typical way. 🙂
 
-<div class='block-button'><h2>Do you want to join Ula?</h2><div>Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
-
 ## After hours you teach English teenagers and adults in the local language school. Why? What does it give you?
 
 Satisfaction. It gives me satisfaction that I can share my knowledge with other people and it brings some extra value to their development. I have been working hard to be where I am now and it is a great feeling that I can use my skills in such a way. **I like watching my students making progress**. I think that language classes also give people great space for interesting interactions and discussions. Sometimes they may even be a kind of therapy. Conversations and speaking exercises create favourable conditions for people to talk about their problems or dilemmas. **Being an English teacher is not only about teaching a language, but also about supporting your students in their development and being their friend**.
@@ -104,3 +104,5 @@ And I love the feeling after the ride. For me it is my healthy routine. It is go
 One may think it would sound sad, even really sad, but I like my job and it happens quite often that after hours I still do things connected with my development. I read psychology, marketing or management books, listen to podcasts or watch some webinars. But I also love nature. I **rest best in the forest, in the mountains or at my parent’s who live in the countryside** in Suwalszczyzna. I love taking pictures. Still as amateur, but it gives me a lot of fun. 
 
 I have also started learning Spanish recently just for myself as I needed something fresh and new. And there are also English classes that I run, so I think I have quite many things to focus on when I am not at Bright. 🙂
+
+<div class='block-button'><h2>Do you want to join Ula?</h2><div>We like people with bright minds!Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
