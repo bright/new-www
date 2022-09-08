@@ -93,4 +93,4 @@ Also, we cannot do changes in the interface just like that. As I mentioned, our 
 
 Recently I got into joinery. I took my first steps by building woodshed but I plan to build more. Like many people at Bright Inventions I love jogging. After work I also learn to stay up to date. I like to watch good movies as well. One that I recently enjoyed was “Fury” with Brad Pitt. It was not another movie about WW2. It brought a new perspective to the table.
 
-Join Piotr! 😎  Check out [open positions at Bright Inventions](/career).
+<div class='block-button'><h2>Join Piotr!</h2><div>We like people with bright minds! Check our career opportunities.</div><a href="/career"><button>Apply and join Piotr</button></a></div>
