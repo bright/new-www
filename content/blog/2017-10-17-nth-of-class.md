@@ -1,13 +1,13 @@
 ---
-layout: post
-title: Simulating nth-of-class CSS selector
+author: agnieszka
 tags:
   - css
-comments: true
+date: 2017-10-16T22:00:00.000Z
+title: Simulating nth-of-class CSS selector
+layout: post
+image: /images/blog_post_cover_css_selector.png
 hidden: false
-author: agnieszka
-image: /images/nth-of-class/image1.jpeg
-date: '2017-10-16T22:00:00.000Z'
+comments: true
 published: true
 ---
 My experience with frontend web development is not long yet, nevertheless, I have already got stuck a few times and spend like a few hours trying to find one perfect solution. I reckon that some of them are worth describing. 
