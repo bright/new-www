@@ -25,7 +25,7 @@ Anyway, during studies and after them I was translating texts from many differen
 
 After my first MA I started an internship at a PR agency and at the same time I also decided to begin my second MA studies – marketing ones. I really like the feeling that I know the ins and outs of the field I work in. I remember I did many great practical projects during my studies. There were interesting subjects like creating brand strategies, company’s missions, preparing business plans, merchandising models etc. Dozens of creative things. I just love the process of creation. After I graduated I started my job at Twitter. At that time I also discovered that what I really needed was one brand and people around it.
 
-<div class='block-button'><h2>Do you want to join Ula?</h2><div>We like people with bright minds!Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
+<div class='block-button'><h2>Do you want to join Ula?</h2><div>We like people with bright minds! Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
 
 ## How do you recall working closely with such a big organization as Twitter?
 
@@ -105,4 +105,4 @@ One may think it would sound sad, even really sad, but I like my job and it happ
 
 I have also started learning Spanish recently just for myself as I needed something fresh and new. And there are also English classes that I run, so I think I have quite many things to focus on when I am not at Bright. 🙂
 
-<div class='block-button'><h2>Do you want to join Ula?</h2><div>We like people with bright minds!Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
+<div class='block-button'><h2>Do you want to join Ula?</h2><div>We like people with bright minds! Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
