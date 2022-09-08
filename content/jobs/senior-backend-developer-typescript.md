@@ -57,7 +57,7 @@ We offer cooperation space for 3 specialists in the projects described below.
 2. Another opportunity for development is offered in the team responsible for building  **invoicing & accounting software enabling day to day smart business management.** The application helps you do reporting and data management, payment transactions, financial transactions directly from the mobile device. 
 3. Last but not least, [the existing web therapy application](https://circlesup.com/) where people can sign up and join particular groups of support led by professional therapists. Currently the team is working on a complex chat feature and video meeting feature. Another priority is enabling secure data transfer regarding the users conditions for therapeutical analysis purposes.
 
-## your yob will include 💻
+## your job will include 💻
 
 * creating high-quality web applications
 * partnering closely with product management and infrastructure specialists
