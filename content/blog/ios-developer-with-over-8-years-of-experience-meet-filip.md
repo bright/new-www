@@ -69,10 +69,10 @@ When it comes to iOS, I think **2022 will be the year when we finally see what A
 
 ## You are going to conduct iOS workshops for devs outside our Bright Team. What will they be about?
 
-I will conduct workshops about the offline mode in iOS mobile applications. During one hour workshops, every participant will learn how to write code allowing for viewing data from external services without accessing the internet. The workshops are designed for experienced juniors and fresh regulars. They will be conducted in spring (probably April) 2022*. 
+I will conduct workshops about the offline mode in iOS mobile applications. During one hour workshops, every participant will learn how to write code allowing for viewing data from external services without accessing the internet. The workshops are designed for experienced juniors and fresh regulars. They will be conducted in spring (probably April) 2022. 
 
 ## Finally, what do you do after hours? 😎
 
 I enjoy playing board games with my wife. Also, I love to build Lego constructions with my son. Nothing complicated, we just build for fun. 😉 So I guess spending time with my family is a priority.
 
-*\*Follow our [Facebook page](https://www.facebook.com/bright.inventions) if you want to have a chance to participate in Filip’s workshops about the offline mode in iOS mobile development.*
+<div class='block-button'><h2>We are looking for iOS Developers</h2><div>Join Filip and other Bright iOS developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/jobs/senior-ios-developer"><button>Apply and join Filip</button></a></div>
