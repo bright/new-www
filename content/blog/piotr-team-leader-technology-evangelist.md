@@ -3,7 +3,6 @@ author: piotr
 secondAuthor: izabela
 tags:
   - inspiration
-  - development
   - backend
   - business
   - Kotlin
