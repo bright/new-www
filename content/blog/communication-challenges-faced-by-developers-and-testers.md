@@ -70,5 +70,3 @@ It’s crucial to know what and why you are doing it. **A common misconception a
 ## Keep calm and carry on
 
 It’s not a piece of cake to build a strong relationship between developers and testers, but with a little bit of flexibility from both sides, it is possible to achieve something really well-working.
-
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/YRWfJZAVO1VNJdSU9N" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/latenightseth-seth-meyers-late-night-lnsm-YRWfJZAVO1VNJdSU9N">via GIPHY</a></p>
