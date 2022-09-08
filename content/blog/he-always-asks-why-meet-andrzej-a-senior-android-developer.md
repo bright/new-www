@@ -64,6 +64,8 @@ I felt that my interview went fine. For sure, there were questions I couldn't an
 
 Daniel and Michal told me they needed a week to give me feedback. Despite that, I was so anxious that I called Michał a few days after the interview to ask if they made up their minds. I told Michał that I was eager to work with them and couldn’t wait to hear their decisions. **Years later I was told that that phone call actually gave me this job**.
 
+<div class='block-button'><h2>We are looking for Android Developers</h2><div>Join Andrzej and other Bright Android developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/jobs/senior-android-developer"><button>Apply and join Andrzej</button></a></div>
+
 ## What have you learned at Bright Inventions?
 
 Since I came to Bright over 5 years ago **I have got to know a lot about building software like the coding principles, practices and architecture**. However, there was a special aspect of software development I realized at Bright. **I understood how non-technical skills are crucial**. 
@@ -128,6 +130,8 @@ Have more faith in yourself.
 
 I play lots of video games on my computer. I love games that tell a story such as Age of Empires, Morrowind or Genshin Impact. Apart from that, my interests are really a spectrum. From language influence on our culture, astronomy, biology to geography. Remember – I am quite a curious person. I will metaphorically stick my nose wherever it needs to be if I feel the urge to understand why something works the way it does in our world.
 
-\----
+\-﻿--
 
 Andrzej regularly shares his Kotlin insights as a speaker at software development conferences and meetups. Recently he was one of the speakers at [4developers](https://4developers.org.pl) and [Warsaw IT Days](https://warszawskiedniinformatyki.pl/index-en.html).
+
+<div class='block-button'><h2>Do you want to join Andrzej?</h2><div>We are looking for Android developers. Work with Andrzej and develop Android applications for our clients from Germany, Norway, Israel, USA and more.</div><a href="/jobs/senior-android-developer"><button>Apply and join Andrzej</button></a></div>
