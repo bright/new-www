@@ -61,8 +61,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const ymlDocTags = yaml.load(fs.readFileSync('./tag-groups.yml', 'utf-8'))
   // const tags = result.data.tagsGroup.group;
-  ymlDocTags.groups.forEach(async tag => {
-    const searchTags = JSON.stringify(tag.tags)
+  await Promise.all(ymlDocTags.groups.map(async (tag) => {
+    const searchTags = JSON.stringify(tag.tags);
     const result = await graphql(
       `
       {
@@ -102,9 +102,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       })
     })
 
-    if (tag.groups) {
-      tag.groups.forEach(async subTag => {
-        const searchTags = JSON.stringify(subTag.tags)
+    if(tag.groups) {
+      await Promise.all(tag.groups.map(async (subTag) => {
+        const searchTags = JSON.stringify(subTag.tags);
         const result = await graphql(
           `
           {
@@ -143,9 +143,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             },
           })
         })
-      })
+      }));
     }
-  })
+  }));
 
   const memberResult = await graphql(`
     {
