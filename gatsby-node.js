@@ -340,7 +340,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     `
       {
         allMarkdownRemark(
-          filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
+          filter: { frontmatter: { layout: { eq: "post" } } }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
