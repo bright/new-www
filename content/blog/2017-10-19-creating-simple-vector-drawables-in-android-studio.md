@@ -149,7 +149,7 @@ The resulting XML now looks like this:
 
 Hint: you can name the paths so it's easier to find them later if your drawable gets more complicated.
 
-![Second triangle preview](/images/creating-simple-drawables-in-android-studio/second_triangle_preview.png){: .center-image }
+![Second triangle preview](/images/creating-simple-drawables-in-android-studio/second_triangle_preview.png)
 
 ## Step 5: Use the drawable with an ImageView
 
@@ -172,9 +172,11 @@ Now we can use the drawable. As you can see, it can be easily scaled by using th
 </LinearLayout>
 ```
 
-![Final layout](/images/creating-simple-drawables-in-android-studio/layout.png){: .center-image }
+![Final layout](/images/creating-simple-drawables-in-android-studio/layout.png)
 
 ### Further reading
 
 * <https://developer.android.com/training/material/drawables.html#VectorDrawables>
 * <https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html>
+
+<div class='block-button'><h2>We are looking for Android developers</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/jobs/senior-android-developer"><button>Apply and join our team</button></a></div>
