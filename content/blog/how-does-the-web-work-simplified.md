@@ -7,7 +7,8 @@ tags:
 date: 2022-08-30T13:02:44.038Z
 title: How does the web work - simplified
 layout: post
-hidden: true
+image: /images/how-does-the-web-work-simplified.jpeg
+hidden: false
 comments: false
 published: true
 ---
