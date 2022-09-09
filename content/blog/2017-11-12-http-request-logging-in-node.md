@@ -1,21 +1,20 @@
 ---
-layout: post
-title: HTTP request logging in Node.JS
-excerpt: >-
-  One of the most basic kind of logging every backend application should have is
-  a trace logging of all incoming HTTP requests. Yet it's not easy to make it
-  right and useful. Let me show you what we have learned and what we do to
-  ensure our logs are meaningful and useful.
+excerpt: One of the most basic kind of logging every backend application should
+  have is a trace logging of all incoming HTTP requests. Yet it's not easy to
+  make it right and useful. Let me show you what we have learned and what we do
+  to ensure our logs are meaningful and useful.
+author: adam
 tags:
   - node.js
   - logging
-comments: true
-author: adam
+  - backend
+date: 2017-11-11T23:00:00.000Z
+title: HTTP request logging in Node.JS
+layout: post
 image: /images/node-logging.jpeg
-date: '2017-11-11T23:00:00.000Z'
+comments: true
 published: true
 ---
-
 One of the most basic kind of logging every backend application should have is a trace logging of all incoming HTTP requests. Yet it's not easy to make it right and useful. Most of the backends we create at Bright nowadays are Node.JS applications based on [Express](https://expressjs.com/). Although there is a [plethora of libraries](https://www.npmjs.com/search?q=logging) that are to handle logging for you, we would not be ourselves if we haven't tried to build something on our own (even if only for the sake of knowing the internals better). Let me show you what we have learned and what we do to ensure our logs are meaningful and useful.
 
 ## Log both requests and responses
@@ -31,7 +30,7 @@ const logRequestStart = (req: Request, res: Response, next: NextFunction) => {
 }
 
 app.use(logRequestStart)
-``` 
+```
 
 It's definitely missing a lot of general identification stuff to be useful, but it's a start. We're logging request's method (GET, POST etc.) and its [original URL](http://expressjs.com/en/api.html#req.originalUrl) - note that `req.url` might not necessarily keep the same value as it might be manipulated by our Express-based router.
 
@@ -139,7 +138,6 @@ The example output of two overlapping requests now looks like this:
 [8cc01bd69] GET /users?phrase=Jane
 [4e33fab09] 200 OK; 235b sent
 [8cc01bd69] 204 No Content; 0b sent
-
 ```
 
 ## Collect all the metadata
@@ -247,3 +245,5 @@ Now, instead of using Console API directly, we instantiate a `Logger` instance, 
 ```
 
 Good enough!
+
+<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
