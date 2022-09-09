@@ -5,7 +5,7 @@ thirdAuthor: slawek
 tags:
   - business
   - development
-date: 2022-09-09T06:41:05.041Z
+date: 2022-09-09T07:00:29.612Z
 title: 3 Tech Challenges to Face When You Build Mental Health App
 layout: post
 image: /images/blogpost_mental_app_cover.png
