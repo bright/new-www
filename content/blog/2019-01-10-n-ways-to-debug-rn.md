@@ -94,3 +94,5 @@ While debugging JavaScript code, you may also encounter some problems. Just to n
 You can resolve most of these problems by taking one or more of the following steps: reopening simulator/emulator, reopening the browser, restarting the Metro Bundler process and the platform-specific process (or killing the node process), cleaning (remove `node_modules` directory and run `yarn/npm install`, remove `ios/buid` directory) and rebuilding the app.
 
 To sum up, the JavaScript debugging process is not as seamless and stable as you may be used to if you come from native technologies, but you still can and should benefit from the mentioned possibilities and techniques.
+
+<div class='block-button'><h2>We are looking for Mobile Developers</h2><div>Build with us Android or iOS applications! work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications.</div><a href="/career"><button>Check our career opportunities</button></a></div>
