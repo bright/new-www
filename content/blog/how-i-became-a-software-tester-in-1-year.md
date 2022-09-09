@@ -169,4 +169,6 @@ I guess it is worth getting familiar with:
 
 [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
-Finally a guide for a manual testers who are willing to start with automated tests: [How to Start Writing Automation Tests](/blog/how-to-start-writing-automation-tests)
+Finally a guide for manual testers who are willing to start with automated tests: [How to Start Writing Automation Tests](/blog/how-to-start-writing-automation-tests)
+
+<div class='block-button'><h2>Let's create software that matters!</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
