@@ -704,3 +704,5 @@ We have run a local Substrate node with the Contracts Pallet added. We have impl
 In the next part of this tutorial we will:
 
 * [look through an ERC20 token implementation in Substrate Runtime and interact with it from NestJS.](/blog/develop-your-own-cryptocurrency-with-substrate-2/)
+
+<div class='block-button'><h2>We are looking for Rust Developers</h2><div>We are looking for an experienced senior developer who is excited about Rust or C++. You will be responsible for developing the infrastructure that will connect different blockchains to the Substrate and Polkadot ecosystems.</div><a href="/jobs/rust-developer"><button>Apply and join our team</button></a></div>
