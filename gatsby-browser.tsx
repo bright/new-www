@@ -6,12 +6,13 @@
 
 // You can delete this file if you're not using it
 import React from 'react'
+import type { GatsbyBrowser } from 'gatsby'
 import { GlobalStyle } from './src/styles/global'
 import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-google-analytics'
 
 let nextRoute = ''
 
-export const onPreRouteUpdate = ({ location }) => {
+export const onPreRouteUpdate: GatsbyBrowser['onPreRouteUpdate'] = ({ location }) => {
   nextRoute = location.pathname
 }
 
@@ -23,13 +24,13 @@ window.addEventListener('unhandledrejection', event => {
   }
 })
 
-export const wrapPageElement = ({ element }) => (
+export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => (
   <>
     <GlobalStyle />
     {element}
   </>
 )
 
-export const onInitialClientRender = () => {
+export const onInitialClientRender: GatsbyBrowser['onInitialClientRender'] = () => {
   registerGlobalMailtoClickHandler()
 }

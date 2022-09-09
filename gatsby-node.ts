@@ -1,42 +1,22 @@
+import type { GatsbyNode } from 'gatsby'
+import { allMarkdownRemarkData, GQLData } from './src/models/gql'
+
 const path = require('path')
 
 const _ = require('lodash')
 const fs = require('fs')
 const yaml = require('js-yaml')
 const webpack = require(`webpack`)
+const { queryPosts } = require('./src/query-posts')
 
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    plugins: [
-      new webpack.IgnorePlugin({
-        resourceRegExp: /^netlify-identity-widget$/,
-      }),
-    ],
-  })
-}
 
-exports.createPages = async ({ actions, graphql, reporter }) => {
+type TagGroup = { name: string, tags: string[], groups?: TagGroup[] }
+
+export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
 
-  const result = await graphql(
-    `
-      {
-        allMarkdownRemark(
-          filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-            }
-          }
-        }
-      }
-    `
-  )
+  const result = await queryPosts({ graphql })
+  debugger;
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
@@ -54,100 +34,62 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         limit: postsPerPage,
         skip: i * postsPerPage,
         numPages,
-        currentPage: i + 1,
-      },
+        currentPage: i + 1
+      }
     })
   })
 
   const ymlDocTags = yaml.load(fs.readFileSync('./tag-groups.yml', 'utf-8'))
   // const tags = result.data.tagsGroup.group;
-  await Promise.all(ymlDocTags.groups.map(async (tag) => {
-    const searchTags = JSON.stringify(tag.tags);
-    const result = await graphql(
-      `
-      {
-        allMarkdownRemark(
-          filter: {frontmatter: {layout: {eq: "post"}, published: { ne: false }, hidden: { ne: true },
-          tags: {in: ${searchTags}}}}
-          sort: {fields: [frontmatter___date], order: DESC}
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-            }
-          }
-        }
-      }
-      `
-    )
+  await Promise.all(ymlDocTags.groups.map(async (group: TagGroup) => {
+    const searchTags = JSON.stringify(group.tags)
+    const result = await queryPosts({ graphql, tags: searchTags })
     const posts = result.data.allMarkdownRemark.edges
     const postsPerPage = 10
     const numPages = Math.ceil(posts.length / postsPerPage)
 
     Array.from({ length: numPages }).forEach((item, i) => {
       createPage({
-        path: `/blog/${_.kebabCase(tag.name.toLowerCase())}/${i + 1}`,
+        path: `/blog/${_.kebabCase(group.name.toLowerCase())}/${i + 1}`,
         component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
         context: {
-          groupTags: tag.tags,
-          tag: tag.name,
+          groupTags: group.tags,
+          tag: group.name,
           limit: postsPerPage,
           skip: i * postsPerPage,
           numPages,
-          currentPage: i + 1,
-        },
+          currentPage: i + 1
+        }
       })
     })
 
-    if(tag.groups) {
-      await Promise.all(tag.groups.map(async (subTag) => {
-        const searchTags = JSON.stringify(subTag.tags);
-        const result = await graphql(
-          `
-          {
-            allMarkdownRemark(
-              filter: {frontmatter: {layout: {eq: "post"}, published: { ne: false }, hidden: { ne: true },
-              tags: {in: ${searchTags}}}}
-              sort: {fields: [frontmatter___date], order: DESC}
-              limit: 1000
-          ) {
-            edges {
-              node {
-                fields {
-                  slug
-                }
-              }
-            }
-          }
-        }
-        `
-        )
+    if (group.groups) {
+      await Promise.all(group.groups.map(async (subTag) => {
+        const searchTags = JSON.stringify(subTag.tags)
+        const result = await queryPosts({ graphql, tags: searchTags })
         const posts = result.data.allMarkdownRemark.edges
         const postsPerPage = 10
         const numPages = Math.ceil(posts.length / postsPerPage)
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
-            path: `/blog/${_.kebabCase(tag.name.toLowerCase())}/${_.kebabCase(subTag.name.toLowerCase())}/${i + 1}`,
+            path: `/blog/${_.kebabCase(group.name.toLowerCase())}/${_.kebabCase(subTag.name.toLowerCase())}/${i + 1}`,
             component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
             context: {
               groupTags: subTag.tags,
-              tag: tag.name,
+              tag: group.name,
               subTag: subTag.name,
               limit: postsPerPage,
               skip: i * postsPerPage,
               numPages,
-              currentPage: i + 1,
-            },
+              currentPage: i + 1
+            }
           })
         })
-      }));
+      }))
     }
-  }));
+  }))
 
-  const memberResult = await graphql(`
+  const memberResult = await graphql<GQLData>(`
     {
       allMarkdownRemark(filter: { frontmatter: { layout: { eq: "member" } } }) {
         edges {
@@ -166,13 +108,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-  const members = memberResult.data.allMarkdownRemark?.edges
+  const members = memberResult.data!.allMarkdownRemark?.edges
 
   await Promise.all(
     members.map(async ({ node }) => {
       const { fileAbsolutePath, frontmatter } = node
       const { slug: member, author_id: authorId } = frontmatter
-      const result = await graphql(`
+      const result = await graphql<{ author: allMarkdownRemarkData, secondAuthor?: allMarkdownRemarkData, thirdAuthor?: allMarkdownRemarkData }>(`
   {
     author: allMarkdownRemark(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${authorId}"}}}
@@ -250,13 +192,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
   `)
 
-      const { author, secondAuthor, thirdAuthor } = result.data
-      const allAuthors = [...author?.edges, ...secondAuthor?.edges, ...thirdAuthor?.edges]
+      const { author, secondAuthor, thirdAuthor } = result.data!
+      const allAuthors = [...author?.edges, ...(secondAuthor?.edges ?? []), ...(thirdAuthor?.edges ?? [])]
 
       const uniqueAuthors = allAuthors
         .filter((v, i, a) => a.findIndex(t => t.node.fields.slug === v.node.fields.slug) === i)
-        .sort(function (a, b) {
-          return new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
+        .sort(function(a, b) {
+          return new Date(b.node.frontmatter.date).getTime() - new Date(a.node.frontmatter.date).getTime()
         })
 
       const posts = uniqueAuthors
@@ -268,8 +210,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           path: `/about-us/${_.kebabCase(member)}`,
           component: path.resolve('./src/templates/AboutUsTemplate.tsx'),
           context: {
-            fileAbsolutePath: fileAbsolutePath,
-          },
+            fileAbsolutePath: fileAbsolutePath
+          }
         })
       } else {
         Array.from({ length: numPages }).forEach((item, i) => {
@@ -282,15 +224,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
               numPages,
               posts: i == 0 ? posts.slice(i, postsPerPage) : posts.slice(i * postsPerPage, (i + 1) * postsPerPage),
               currentPage: i + 1,
-              fileAbsolutePath: fileAbsolutePath,
-            },
+              fileAbsolutePath: fileAbsolutePath
+            }
           })
         })
       }
     })
   )
 
-  const serviceResult = await graphql(`
+  const serviceResult = await graphql<GQLData>(`
     {
       allMarkdownRemark(filter: { frontmatter: { layout: { eq: "our-service" } } }, limit: 1000) {
         edges {
@@ -310,7 +252,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       }
     }
   `)
-  const services = serviceResult.data.allMarkdownRemark.edges
+  const services = serviceResult.data!.allMarkdownRemark.edges
 
   services.forEach(service => {
     createPage({
@@ -318,25 +260,25 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: path.resolve('./src/templates/OurServiceTemplate.tsx'),
       context: {
         slug: service.node.frontmatter.slug,
-        fileAbsolutePath: service.node.fileAbsolutePath,
-      },
+        fileAbsolutePath: service.node.fileAbsolutePath
+      }
     })
 
     const faqs = service.node.frontmatter.faqs
-    faqs.forEach(faq => {
+    faqs.forEach((faq: { frontmatter: { answer: string, question: string } }) => {
       createPage({
         path: 'our-areas/' + service.node.frontmatter.slug + '/' + _.kebabCase(faq.frontmatter.question.toLowerCase()),
         component: path.resolve('./src/templates/OurServiceTemplate.tsx'),
         context: {
           faqTitle: faq.frontmatter.question,
           slug: service.node.frontmatter.slug,
-          fileAbsolutePath: service.node.fileAbsolutePath,
-        },
+          fileAbsolutePath: service.node.fileAbsolutePath
+        }
       })
     })
   })
 
-  const postResult = await graphql(
+  const postResult = await graphql<GQLData>(
     `
       {
         allMarkdownRemark(
@@ -364,7 +306,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-  const postsResult = postResult.data.allMarkdownRemark.edges
+  const postsResult = postResult.data!.allMarkdownRemark.edges
 
   postsResult.forEach(post => {
     const name = post.node.fileAbsolutePath
@@ -375,7 +317,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
     const currentPostTags = post.node.frontmatter.tags
 
-    const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue, currentValue) => {
+    const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue: TagGroup[], currentValue: TagGroup) => {
       if (currentValue.groups) {
         const flatteredGroup = currentValue.groups.reduce((previousValue, currentValue) => {
           if (currentPostTags.includes(currentValue.name)) {
@@ -383,7 +325,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           } else {
             return [...previousValue]
           }
-        }, [])
+        }, [] as string[])
 
         if (currentPostTags.includes(currentValue.name)) {
           return [...previousValue, ...flatteredGroup, ...currentValue.tags]
@@ -410,13 +352,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {
         slug: post.node.fields.slug,
         fileAbsolutePath: post.node.fileAbsolutePath,
-        relatedTags: relatedTags,
-      },
+        relatedTags: relatedTags
+      }
     })
   })
 
-  const preparePage = async (layout, path, template, hasParam) => {
-    const result = await graphql(`
+  const preparePage = async (layout: string, path: string, template: string) => {
+    const result = await graphql<GQLData>(`
       {
         allMarkdownRemark(
           filter: {
@@ -442,7 +384,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       return
     }
     // console.log(result.data.allMarkdownRemark.edges)
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    result.data!.allMarkdownRemark.edges.forEach(({ node }) => {
       const name = node.fileAbsolutePath
         .split('/')
         .pop()
@@ -463,16 +405,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
-          fileAbsolutePath: node.fileAbsolutePath,
-        },
+          fileAbsolutePath: node.fileAbsolutePath
+        }
       })
     })
   }
 
-  const projectTemplate = require.resolve(`${__dirname}/src/templates/ProjectTemplate.tsx`)
+  const projectTemplate = `${__dirname}/src/templates/ProjectTemplate.tsx`
   await preparePage('project', 'projects', projectTemplate)
 
-  const jobTemplate = require.resolve(`${__dirname}/src/templates/JobTemplate.tsx`)
+  const jobTemplate = `${__dirname}/src/templates/JobTemplate.tsx`
   await preparePage('job', 'jobs', jobTemplate)
 
   createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
@@ -481,23 +423,29 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer' })
 }
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
     createNodeField({
       node,
       name: `slug`,
-      value: '/' + node.fileAbsolutePath.split('/').splice(-2).join('/').replace('.md', ''),
+      // TODO: figure out correct type instead of as any
+      value: '/' + (node as any).fileAbsolutePath.split('/').splice(-2).join('/').replace('.md', '')
     })
   }
 }
-exports.onCreateWebpackConfig = ({ actions }) => {
+export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
       fallback: {
-        fs: false,
-      },
+        fs: false
+      }
     },
+    plugins: [
+      new webpack.IgnorePlugin({
+        resourceRegExp: /^netlify-identity-widget$/
+      })
+    ]
   })
 }

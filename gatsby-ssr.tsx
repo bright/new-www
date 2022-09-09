@@ -6,18 +6,19 @@
 
 // You can delete this file if you're not using it
 import * as React from 'react'
+import type { GatsbySSR } from 'gatsby'
 import * as fs from 'fs'
 
 import { GlobalStyle } from './src/styles/global'
 
-export const wrapPageElement = ({ element }) => (
+export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => (
   <>
     <GlobalStyle />
     {element}
   </>
 )
 
-export function onRenderBody({ setHeadComponents }) {
+export const onRenderBody:GatsbySSR['onRenderBody'] = ({ setHeadComponents }) => {
   const files = getFilesFromPath('./public/static', '.woff2')
   const preload = [
     'montserrat-v24-latin-ext_latin-regular',
@@ -44,13 +45,15 @@ export function onRenderBody({ setHeadComponents }) {
               href={`/static/${file}`}
             />
           )
+        } else {
+          return null
         }
       })
     }),
   ])
 }
 
-function getFilesFromPath(path, extension) {
+function getFilesFromPath(path: string, extension: string) {
   let dir = fs.readdirSync(path)
   return dir.filter(elm => elm.match(new RegExp(`.*\.(${extension})`, 'ig')))
 }

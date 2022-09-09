@@ -1,4 +1,4 @@
 import React from 'react'
-import { siteMetadata } from '../../gatsby-config'
+import config from '../../gatsby-config'
 
-export const siteTitle = siteMetadata.title
+export const siteTitle = config.siteMetadata.title

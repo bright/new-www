@@ -12,7 +12,7 @@ import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks'
 import Helmet from 'react-helmet'
 import { descriptionOrDefault } from '../meta/meta-description'
 import { resolveUrl } from '../meta/resolve-url'
-import { siteMetadata } from '../../gatsby-config'
+import config from '../../gatsby-config'
 import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import { PostTags } from '../PostTags'
 import variables from '../styles/variables'
@@ -500,7 +500,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         {title && <meta property='og:title' content={title} />}
         <meta name='description' content={descriptionOrDefault(markdownRemark.excerpt)} />
         <meta property='og:description' content={descriptionOrDefault(markdownRemark.excerpt)} />
-        <meta property='og:site_name' content={siteMetadata.title} />
+        <meta property='og:site_name' content={config.siteMetadata.title} />
         <meta property='og:url' content={resolveUrl(pathname)} />
         <meta property='og:type' content='article' />
         <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
