@@ -82,3 +82,5 @@ One of the ways to mitigate the issue and speed up system recovery is **to apply
 ## There is no standard request timeout configuration
 
 There are only couple of options available to set encompass request handling with a timeout. This is partially due to historical reasons. The servlet container specification did not consider timeouts until Async Servlet was defined. Another reason is that the there is no way [to safely *stop* a thread](https://docs.oracle.com/javase/1.5.0/docs/guide/misc/threadPrimitiveDeprecation.html) that a framework could use. The application code needs to cooperate to safely terminate the request handling execution. In the next post we will show how to add a request timeout to a Spring MVC application.
+
+<div class='block-button'><h2>Let's create software that matters!</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
