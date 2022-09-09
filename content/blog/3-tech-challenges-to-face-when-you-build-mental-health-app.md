@@ -78,3 +78,5 @@ A clear, uncomplicated graphical user interface is one of the key factors of men
 Overcomplicated design can even be an obstacle for less technical users to receive the professional help they look for.
 
 **[Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) is something that has just started to get awareness** throughout the software development community. Now it is a must-have to take under consideration various groups of users. Our users can be visually impaired or have other disabilities that make their experience with the app totally different than we could ever expect. The mental health app, especially, should be adjusted to the needs of the larger possible number of people.
+
+<div class='block-button'><h2>Let's talk about your healthcare solution</h2><div>Looking for a software development company to build your mental health app? Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk!</button></a></div>
