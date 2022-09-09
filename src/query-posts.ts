@@ -1,6 +1,6 @@
 import { CreatePagesArgs } from 'gatsby'
 
-export async function queryPosts({ graphql, tags }: Pick<CreatePagesArgs, 'graphql'> & { tags?: string[] }) {
+export async function queryPostsSlug({ graphql, tags }: Pick<CreatePagesArgs, 'graphql'> & { tags?: string[] }) {
   const tagsFilter = tags ? `tags: { in: ${tags} }` : ''
   return await graphql(`
       {

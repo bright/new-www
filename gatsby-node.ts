@@ -7,7 +7,7 @@ const _ = require('lodash')
 const fs = require('fs')
 const yaml = require('js-yaml')
 const webpack = require(`webpack`)
-const { queryPosts } = require('./src/query-posts')
+const { queryPostsSlug } = require('./src/query-posts')
 
 
 type TagGroup = { name: string, tags: string[], groups?: TagGroup[] }
@@ -15,8 +15,8 @@ type TagGroup = { name: string, tags: string[], groups?: TagGroup[] }
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
 
-  const result = await queryPosts({ graphql })
-  debugger;
+  const result = await queryPostsSlug({ graphql })
+
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
@@ -43,7 +43,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   // const tags = result.data.tagsGroup.group;
   await Promise.all(ymlDocTags.groups.map(async (group: TagGroup) => {
     const searchTags = JSON.stringify(group.tags)
-    const result = await queryPosts({ graphql, tags: searchTags })
+    const result = await queryPostsSlug({ graphql, tags: searchTags })
     const posts = result.data.allMarkdownRemark.edges
     const postsPerPage = 10
     const numPages = Math.ceil(posts.length / postsPerPage)
@@ -66,7 +66,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     if (group.groups) {
       await Promise.all(group.groups.map(async (subTag) => {
         const searchTags = JSON.stringify(subTag.tags)
-        const result = await queryPosts({ graphql, tags: searchTags })
+        const result = await queryPostsSlug({ graphql, tags: searchTags })
         const posts = result.data.allMarkdownRemark.edges
         const postsPerPage = 10
         const numPages = Math.ceil(posts.length / postsPerPage)
