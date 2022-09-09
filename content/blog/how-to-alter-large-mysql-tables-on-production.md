@@ -110,3 +110,5 @@ After the whole data is copied, the tool is swapping the tables and removing the
 In this post, you learned how to alter your table during the productional application's lifecycle.
 
 In our case, the update of the entire table took 12hours of processing, ends successfully without causing any downtime.
+
+<div class='block-button'><h2>Let's create software that matters!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
