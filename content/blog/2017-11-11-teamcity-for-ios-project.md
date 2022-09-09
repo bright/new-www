@@ -352,7 +352,7 @@ If you do this, after next build you will be able to download `.ipa` via `Artifa
 
 # Conclusion
 
-TeamCity is a great platform to provide Continuous Integration in your project. In combination with Fastlane it saves you  many hours of manual deploying, testing and compiling.
+TeamCity is a great platform to provide Continuous Integration in your project. In combination with Fastlane it saves you many hours of manual deploying, testing and compiling.
 
 Also, if you will configure Artifacts in build configuration, you can easily send a link to your TeamCity page to your client, and give him instructions how to download the `.ipa` with a few clicks. So, you don't have to worry about sending `.ipa` files every time you create a new file version.
 
