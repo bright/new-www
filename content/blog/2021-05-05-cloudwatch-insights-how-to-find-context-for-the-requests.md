@@ -50,3 +50,4 @@ You can then export the data that you need or build some stats around it.
 
 Let me know in the comments if you found CloudWatch Insights useful too and how you are using them. 
 
+<div class='block-button'><h2>Let's create software that matters!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
