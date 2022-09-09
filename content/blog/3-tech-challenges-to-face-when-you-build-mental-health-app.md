@@ -74,3 +74,7 @@ We should **be open about the data we collect about the users**. You can be even
 A clear, uncomplicated graphical user interface is one of the key factors of mental health applications. It is not so difficult to imagine that **even tech-savvy users might have issues with the app especially being overwhelmed with their personal issues**. It is also important to remember that users won’t expect advanced animations, complex features, or modern designs. They will focus on receiving the help they need.
 
 <div class="image"><img src="/images/slawek_quote_mental_app.png" alt="Slawek's quote on mental health app users" title="Slawek's quote"  /> </div>
+
+Overcomplicated design can even be an obstacle for less technical users to receive the professional help they look for.
+
+**[Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) is something that has just started to get awareness** throughout the software development community. Now it is a must-have to take under consideration various groups of users. Our users can be visually impaired or have other disabilities that make their experience with the app totally different than we could ever expect. The mental health app, especially, should be adjusted to the needs of the larger possible number of people.
