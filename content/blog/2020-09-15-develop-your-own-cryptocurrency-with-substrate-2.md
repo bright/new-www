@@ -1,8 +1,4 @@
 ---
-layout: post
-title: Develop your own cryptocurrency with Substrate Part 2
-date: 2020-09-14T18:36:27.941Z
-image: /images/cryptocurrency_with_substrate1-–-4.png
 author: agnieszka
 tags:
   - substrate
@@ -13,6 +9,10 @@ tags:
   - erc20
   - cryptocurrency
   - rust
+date: 2020-09-14T18:36:27.941Z
+title: Develop your own cryptocurrency with Substrate Part 2
+layout: post
+image: /images/cryptocurrency_with_substrate1-–-4.png
 hidden: false
 comments: true
 published: true
@@ -607,3 +607,5 @@ Charlie can finally send 100 tokens from Alice to Bob. We can check that the app
 ## Summary
 
 In this blog post, we have looked through the implementation of the ERC20 token in a Substrate Runtime module. We have also created a NestJS app that reads data exposed by the module, calls the dispatchable functions and shows the emitted events and errors.
+
+<div class='block-button'><h2>We are looking for Rust Developers</h2><div>We are looking for an experienced senior developer who is excited about Rust or C++. You will be responsible for developing the infrastructure that will connect different blockchains to the Substrate and Polkadot ecosystems.</div><a href="/jobs/rust-developer"><button>Apply and join our team</button></a></div>
