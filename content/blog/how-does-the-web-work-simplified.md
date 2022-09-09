@@ -32,11 +32,11 @@ Now let's move on to the details of the individual steps:
 
 1. This step is self-explanatory. We just type the URL into the address bar of the browser - nothing easier!
 2. The address we entered in the previous step is easy for a human to remember, but machines do not use such names. They use IP addresses (short for Internet Protocol Address), and an identification number is given to computers or other devices that connect to the network, which allows them to communicate properly. In the decimal system, it is written with 4 numbers from the range 0-255 separated by periods (eg 77.55.142.42). Changing a human-readable address to a numeric form occurs through the DNS (Domain Name System). DNS works like a phone book that assigns IP addresses to specific domain names. It is a huge database of records that are used by users all over the world. It is worth mentioning that first the browser's DNS cache is checked, then our operating system's DNS cache, and finally the DNS provided by the ISP.
-3. To be able to send an HTTP request from the browser to the server, it is necessary to establish a connection between them. This is done using the TCP protocol. The connection is initiated by the browser, followed by a three-way handshake, after which the browser and the client are ready to transmit and receive the transmitted data. This is where the question may arise - what is the difference between the TCP protocol and other UDP protocol, which was once popular. From the perspective of a web application developer, a simple comparison is enough. UDP is faster, simpler, and more efficient than TCP, but it does not guarantee the delivery of all data packets. TCP will resend it if any data packet is not delivered. The data is transferred using the HTTP protocols - this means that they have a specific structure. The HTTP protocol consists of exactly the following lines:
+3. To be able to send an HTTP request from the browser to the server, it is necessary to establish a connection between them. This is done using the TCP protocol. The connection is initiated by the browser, followed by a three-way handshake, after which the browser and the client are ready to transmit and receive the transmitted data. This is where the question may arise - what is the difference between the TCP protocol and UDP protocol. From the perspective of a web application developer, a simple comparison is enough. UDP is faster, simpler, and more efficient than TCP, but it does not guarantee the delivery of all data packets. TCP will resend it if any data packet is not delivered. The data is transferred using the HTTP protocols - this means that they have a specific structure. The HTTP protocol consists of exactly the following parts:
 
    \- the first one specifies the HTTP method we use, the resource on the server side, and the protocol version,
 
-   \- the second line contains the headers we use,
+   \- the second part contains the headers we use,
 
    \- the third is empty :)
 
@@ -53,7 +53,7 @@ Now let's move on to the details of the individual steps:
    \- single-resource bodies, consisting of one single file
 
    \- multiple-resource bodies, consisting of a multipart body, each containing a different bit of information.
-4. The server replies to us with a message consisting of 4 lines containing:
+4. The server replies to us with a message consisting of 4 parts containing:
 
    \- protocol version, HTTP code, and HTTP message
 
@@ -78,7 +78,7 @@ Now let's move on to the details of the individual steps:
    \
    The exact same thing happens with styles related to the document from bytes threw characters, tokens, and nodes they end up forming a CSSOM.
 
-   The DOM and CSSOM tree structures are two independent structures. The DOM contains all the information about the page’s HTML element’s relationships, while the CSSOM contains information on how the elements are styled. The browser combines the DOM and CSSOM trees into a render tree. The render tree contains information on all visible DOM content on the page and all the required CSSOM information for the different nodes. Note that if an element has been hidden by CSS (e.g., by using `display; none`), the node will not be represented in the render tree.\
+   The DOM and CSSOM tree structures are two independent structures. The DOM contains all the information about the page’s HTML element’s relationships, while the CSSOM contains information on how the elements are styled. The browser combines the DOM and CSSOM trees into a render tree. The render tree contains information on all visible DOM content on the page and all the required CSSOM information for the different nodes. Note that if an element has been hidden by CSS (e.g., by using `display: none`), the node will not be represented in the render tree.\
    \
    <img src="/images/render-tree.avif" alt="render tree" class="image" />\
    \
