@@ -159,3 +159,5 @@ CoreMotion is a powerful framework and besides a pedometer it allows you to work
 You can find an example project at [Github repository](https://github.com/bright/Pedometer-Swift)
 
 Hope you like the post, feel free to share and comment.
+
+<div class='block-button'><h2>We are looking for iOS developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
