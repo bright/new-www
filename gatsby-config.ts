@@ -1,19 +1,19 @@
 import { GQLData, Node } from './src/models/gql'
-import { GatsbyConfig } from 'gatsby'
+import { GatsbyConfig, graphql } from 'gatsby'
 
 const siteUrl = new URL(process.env.SITE_URL || 'https://brightinventions.pl/')
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
 
+let siteMetadata = {
+  title: 'Bright Inventions',
+  description:
+    'The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more.',
+  author: 'Bright team',
+  disqusShortname: 'brightinventions',
+  siteUrl: siteUrl.href
+}
 export default {
-  siteMetadata: {
-    title: 'Bright Inventions',
-    description:
-      'The best custom software development company in Poland. Through mobile apps and complex backend systems to emerging technology solutions we are creating success stories for startups, consultancy agencies as well as mid-size organisations across multiple industries including FinTech, Blockchain, HealthTech, Retail, Logistics and more.',
-    author: 'Bright team',
-    disqusShortname: 'brightinventions',
-    siteUrl: siteUrl.href
-  },
-
+  siteMetadata,
   plugins: [
     // Make sure this plugin is first in the array of plugins
     {
@@ -234,6 +234,59 @@ export default {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: '/'
+      }
+    },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        feeds: [
+          {
+            serialize: ({ query: { allMarkdownRemark } }: { query: GQLData }) => {
+              const posts = allMarkdownRemark.edges!
+              const feed = posts.map(({node}) => {
+                const slug = node.fields.slug.startsWith('/') ? node.fields.slug.substring(1) : node.fields.slug
+                return Object.assign({}, node.frontmatter, {
+                  description: node.excerpt,
+                  date: node.frontmatter.date,
+                  url: siteMetadata.siteUrl + slug,
+                  guid: siteMetadata.siteUrl + slug,
+                  custom_elements: [{ 'content:encoded': node.html }]
+                })
+              })
+              return feed
+            },
+            query: `
+                {
+                    allMarkdownRemark(
+                        filter: {
+                            frontmatter: {
+                                layout: { eq: "post" }
+                                published: { ne: false }
+                                hidden: { ne: true }
+                            }
+                        }
+                        sort: { fields: [frontmatter___date], order: DESC}
+                        limit: 1000
+                    ) {
+                        edges {
+                            node {
+                                excerpt(pruneLength: 500)
+                                html
+                                frontmatter {
+                                  date
+                                }
+                                fields {
+                                    slug
+                                }
+                            }
+                        }
+                    }
+                }
+            `,
+            output: '/blog/rss.xml',
+            title: `${siteMetadata.title} Blog RSS Feed`
+          }
+        ]
       }
     },
     {
