@@ -26,3 +26,17 @@ Probably no public health system will be able to respond to those needs. Therefo
 As software developers specializing in building apps for depression, anxiety, and other mental disorders we have distinguished **3 challenges that every emotional support app team will likely face**.
 
 <div class="image"><img src="/images/blog_dawid_dominik_slawek.png" alt="Software developers Bright Inventions" title="Software developers Bright Inventions"  /> </div>
+
+## Data security and privacy
+
+**Dominik, Frontend Developer at Bright Inventions:**
+
+Privacy of personal information has always been a serious topic in software development. Yet it is especially important in the case of data connected to personal health. Every **data leak is a potential complete loss of trust in a company**. 
+
+<div class="image"><img src="/images/dominik_quote_mental_app.png" alt="Dominik's quote on data leak" title="Dominik's quote"  /> </div>
+
+Moreover, it can be extra catastrophic when taking into account the fact that in many countries **health information privacy is protected by law**. 
+
+There are also challenges regarding **anonymity**. Not every user wants to share everything about themselves with other users. We might need their first and last name for payment purposes but they rather not be mentioned by real names inside the app. 
+
+Another thing to keep in mind is if we accept **payments with credit cards**. What will the credit card statement show? Some users might not be willing to share information that they’re using a mental health help with people who have access to their credit card statement – a spouse or parents.
