@@ -5,7 +5,6 @@ tags:
   - parity
   - blockchain
   - nest
-  - nestjs
   - erc20
   - cryptocurrency
   - rust
