@@ -282,7 +282,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     `
       {
         allMarkdownRemark(
-          filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
+          filter: { frontmatter: { layout: { eq: "post" } } }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
