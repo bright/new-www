@@ -64,3 +64,5 @@ We should **be open about the data we collect about the users**. You can be even
 * **Ensuring easy access to support**
 
 **Providing various methods so the user can reach support easier if he/she is in need**. Support contact information hidden between thousand of subpages is one of the worst things I can think of. By showing users a clear indication of where they should click, either by some chat widget or highlighted link, we show that we care about them and that they matter. Thus we build a bond between the brand and the customers.
+
+<div class="image"><img src="/images/dawid_quote_mental_app.png" alt="Dawid's quote on upport contact info" title="Dawid's quote"  /> </div>
