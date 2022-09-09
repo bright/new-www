@@ -4,14 +4,14 @@ excerpt: VideoView is the most straightforward way to show video content in
   file. <br /> It's fine when you don't care about UX too much, but when you do,
   things are going to be annoying.
 modified: 2015-01-11T00:00:00.000Z
-layout: post
-title: How to avoid flickering and black screen issues when using VideoView?
-date: 2015-01-10T23:00:00.000Z
-image: /images/people-office-group-team.jpg
 author: mateuszklimek
 tags:
   - android
   - videoview
+date: 2015-01-10T23:00:00.000Z
+title: How to avoid flickering and black screen issues when using VideoView?
+layout: post
+image: /images/people-office-group-team.jpg
 hidden: false
 comments: true
 published: true
@@ -98,7 +98,9 @@ if(videoView.getImplType() == VIDEO_VIEW){
 ```
 
   <br />
-  I uploaded project to \[github](https://github.com/mklimek/FrameVideoView) so you can run example app and see full implementation of \`FrameVideoView\`. Feel free to use it as you like.
+ I uploaded the project to [Github](https://github.com/mklimek/FrameVideoView) so you can run example app and see full implementation of \\`FrameVideoView\\`. Feel free to use it as you like.
   <br />
 
   See this post on my [personal blog](http://mklimek.github.io/frame-video-view/).
+
+<div class='block-button'><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
