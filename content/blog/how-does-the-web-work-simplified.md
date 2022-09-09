@@ -21,7 +21,7 @@ Before we start answering, let's make some assumptions, which are essential to g
 1. The computer is equipped with a browser, which is a program designed to view and download resources made available by web servers.
 2. The computer is connected via a router/modem to an Internet service provider (ISP).
 
-Our answer can be written as a sequence of steps that are performed in order:
+## Our answer can be written as a sequence of steps that are performed in order:
 
 1. You enter the URL in the web browser,
 2. The entered URL address is translated into an IP address,
@@ -29,7 +29,7 @@ Our answer can be written as a sequence of steps that are performed in order:
 4. The server sends an HTTP response to the browser
 5. The browser starts rendering the resulting HTML based on the received HTTP response.
 
-Now let's move on to the details of the individual steps:
+## Now let's move on to the details of the individual steps:
 
 1. This step is self-explanatory. We just type the URL into the address bar of the browser - nothing easier!
 2. The address we entered in the previous step is easy for a human to remember, but machines do not use such names. They use IP addresses (short for Internet Protocol Address), and an identification number is given to computers or other devices that connect to the network, which allows them to communicate properly. In the decimal system, it is written with 4 numbers from the range 0-255 separated by periods (eg 77.55.142.42). Changing a human-readable address to a numeric form occurs through the DNS (Domain Name System). DNS works like a phone book that assigns IP addresses to specific domain names. It is a huge database of records that are used by users all over the world. It is worth mentioning that first the browser's DNS cache is checked, then our operating system's DNS cache, and finally the DNS provided by the ISP.
