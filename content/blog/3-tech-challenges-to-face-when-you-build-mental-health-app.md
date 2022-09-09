@@ -65,4 +65,10 @@ We should **be open about the data we collect about the users**. You can be even
 
 **Providing various methods so the user can reach support easier if he/she is in need**. Support contact information hidden between thousand of subpages is one of the worst things I can think of. By showing users a clear indication of where they should click, either by some chat widget or highlighted link, we show that we care about them and that they matter. Thus we build a bond between the brand and the customers.
 
-<div class="image"><img src="/images/dawid_quote_mental_app.png" alt="Dawid's quote on upport contact info" title="Dawid's quote"  /> </div>
+<div class="image"><img src="/images/dawid_quote_mental_app.png" alt="Dawid's quote on support contact info" title="Dawid's quote"  /> </div>
+
+## Creating the best possible UI
+
+**Sławek, Fullstack Developer at Bright Inventions:**
+
+A clear, uncomplicated graphical user interface is one of the key factors of mental health applications. It is not so difficult to imagine that **even tech-savvy users might have issues with the app especially being overwhelmed with their personal issues**. It is also important to remember that users won’t expect advanced animations, complex features, or modern designs. They will focus on receiving the help they need.
