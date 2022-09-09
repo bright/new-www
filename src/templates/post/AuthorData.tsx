@@ -8,44 +8,45 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { FlexWrapper } from './../../components/shared/index.styled'
 
+const MediaContent = styled.div`
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: max-content;
+  background-color: #131214d3;
+  border: 1px solid #707070;
+  opacity: 0;
+  @media ${variables.device.tablet} {
+    display: none;
+  }
+`
+const Content = styled.div`
+  padding: 0.75rem 1.1875rem;
+  & .name {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5rem;
+    margin: 0;
+  }
+  & p.subtitle {
+    font-size: 1rem;
+    color: #fff;
+  }
+`
+
 const AuthorArticle = styled.article`
   position: relative;
   width: inherit;
   transition: all 0.3s;
-  &:hover > .media-content {
+  &:hover ${MediaContent} {
     opacity: 1;
   }
 
   .title {
     font-size: 1.25em;
   }
-
-  & .media-content {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    width: max-content;
-    background-color: #131214d3;
-    border: 1px solid #707070;
-    opacity: 0;
-    @media ${variables.device.mobile} {
-      display: none;
-    }
-    .content {
-      padding: 0.75rem 1.1875rem;
-      .name {
-        font-size: 1rem;
-        color: #fff;
-        line-height: 1.5rem;
-        margin: 0;
-      }
-      & p.subtitle {
-        font-size: 1rem;
-        color: #fff;
-      }
-    }
-  }
 `
+
 const SingleAuthorArticle = styled.article`
   display: flex;
   justify-content: center;
@@ -57,24 +58,6 @@ const SingleAuthorArticle = styled.article`
     font-size: 1.25em;
   }
 
-  & .media-content {
-    align-self: flex-end;
-    & .content {
-      & .title {
-        font-size: ${variables.pxToRem(26)};
-        line-height: ${variables.pxToRem(40)};
-        font-family: ${variables.font.customtitle.monserat};
-        font-weight: bold;
-        margin-bottom: 0;
-      }
-      & .subtitle {
-        font-size: ${variables.pxToRem(20)};
-        line-height: ${variables.pxToRem(40)};
-        font-family: ${variables.font.customtitle.lato};
-        font-weight: normal;
-      }
-    }
-  }
   @media ${variables.device.mobile} {
     flex-direction: column;
     justify-content: center;
@@ -174,12 +157,12 @@ export function AuthorsView({
         </SingleAuthorArticle>
       ) : (
         <AuthorArticle>
-          <div className='media-content'>
-            <div className='content'>
+          <MediaContent>
+            <Content>
               <div className='name'>{name}</div>
               <p className='subtitle is-6 bio'>{bio}</p>
-            </div>
-          </div>
+            </Content>
+          </MediaContent>
 
           {avatar && (
             <Figure className=''>
