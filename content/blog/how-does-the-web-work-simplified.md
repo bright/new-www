@@ -4,7 +4,7 @@ tags:
   - web
   - frontend
   - backend
-date: 2022-08-30T13:02:44.038Z
+date: 2022-09-09T09:03:50.622Z
 title: How does the web work - simplified
 layout: post
 image: /images/how-does-the-web-work-simplified.jpeg
