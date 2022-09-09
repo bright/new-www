@@ -199,3 +199,5 @@ does not have `delay` parameter. **So despite looking very similar, those
 are two completely different things.**
 
 In my code, I've left working functions for both routers, so you can test it on your own.
+
+<div class='block-button'><h2>Let's create software that matters!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
