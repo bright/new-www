@@ -1,7 +1,7 @@
-import React, { ReactNode, useMemo, useState } from 'react'
+import React, { ReactNode } from 'react'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import { routeLinks } from '../../config/routing'
-import { graphql, Link, useStaticQuery } from 'gatsby'
+import { Link } from 'gatsby'
 import { HelmetMetaAuthor } from '../../HelmetMetaAuthor'
 import { useAuthors } from '../../use-authors/use-authors'
 import styled from 'styled-components'
@@ -27,10 +27,12 @@ const Content = styled.div`
     color: #fff;
     line-height: 1.5rem;
     margin: 0;
+    font-family: ${variables.font.customtext.lato};
   }
   & p.subtitle {
     font-size: 1rem;
     color: #fff;
+    font-family: ${variables.font.customtext.lato};
   }
 `
 
@@ -95,6 +97,7 @@ const Name = styled.div`
   font-size: ${variables.pxToRem(26)};
   line-height: ${variables.pxToRem(40)};
   font-weight: bold;
+  font-family: ${variables.font.customtext.lato};
   color: ${variables.color.text};
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(25)};
