@@ -44,4 +44,6 @@ Besides, if you want to be a blockchain developer knowing Rust is one thing, the
 
 Do you want to know more about developing blockchain? Check out our tutorial about [developing cryptocurrency with Substrate](/blog/erc20-substrate-nest-example/).
 
-Or maybe you want to build your own [Substrate blockchain solution?](/our-areas/blockchain) If yes, [contact us](/start-project)!
+Or maybe you want to build your own [Substrate blockchain solution?](/our-areas/blockchain)
+
+<div class='block-button'><h2>Are you looking for Substrate experts?</h2><div>We specialize in integrating web and mobile apps with blockchain solutions. Our team works closely with Polkadot and Kusama nets. Contact us to estimate your Substrate Blockchain solution.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>
