@@ -6,16 +6,16 @@ extract: Outsourcing your software development to a different company or – eve
   to work with Polish developers. Are they really as good as they say? How easy
   is it to communicate with them in English? What about their work ethics?
   Wonder no more!
-layout: post
-title: 5 things you should know about working with Polish developers
-date: 2019-07-29T22:00:00.000Z
-image: /images/office.jpg
 author: ula
 tags:
   - software development
   - Poland
   - outsourcing
   - software house
+date: 2019-07-29T22:00:00.000Z
+title: 5 things you should know about working with Polish developers
+layout: post
+image: /images/office.jpg
 hidden: false
 comments: true
 published: true
@@ -67,3 +67,5 @@ Poland is ideally located if you want a team who’s available regardless whethe
 So, for instance, if you want to schedule your sprint planning call during your morning coffee at 9 a.m., EST, your developers will just have finished lunch, with 3 p.m. on the clock.
 
 **Hopefully, we have answered at least some of the questions you may have about working with Polish developers. If there is anything else you would like to know, reach us out. We would love to tell you more!**
+
+<div class='block-button'><h2>Looking for a Polish software agency?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>
