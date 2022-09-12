@@ -34,7 +34,7 @@ Building Substrate gives you the freedom to use custom blocks as you want or dev
 
 ## Substrate offers a great solution to integrate your apps with blockchain
 
-**At Bright Inventions we specialise in integrating blockchain data with web systems.** For the [Bright Treasury](/projects/bright-treasury/) project we integrate web applications with Substrate. Our experience shows that integration with this framework is much easier thanks to the JS API that has been developed simultaneously with the whole framework. The other really interesting project is a light blockchain client, which you can easily include right into your web app and interact with the network directly. This is a big step forward to fully decentralized user-friendly applications.
+**At Bright Inventions we specialise in integrating blockchain data with web systems.** For the [BrightTreasury](/projects/bright-treasury/) project we integrate web applications with Substrate. Our experience shows that integration with this framework is much easier thanks to the JS API that has been developed simultaneously with the whole framework. The other really interesting project is a light blockchain client, which you can easily include right into your web app and interact with the network directly. This is a big step forward to fully decentralized user-friendly applications.
 
 ## If you want to become a blockchain developer choosing Substrate is the fastest way
 
