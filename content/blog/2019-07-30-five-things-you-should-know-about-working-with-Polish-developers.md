@@ -68,4 +68,4 @@ So, for instance, if you want to schedule your sprint planning call during your 
 
 **Hopefully, we have answered at least some of the questions you may have about working with Polish developers. If there is anything else you would like to know, reach us out. We would love to tell you more!**
 
-<div class='block-button'><h2>Looking for a Polish software agency?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>
+<div class='block-button'><h2>Are you looking for a Polish software agency?</h2><div>You’ve come to the right place. Since 2012 we have built products for clients from Germany, Norway, Israel, UK and more.</div><a href="/start-project"><button>Let's talk about your product</button></a></div>
