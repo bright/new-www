@@ -21,7 +21,7 @@ Generics are one of those things that can be really powerful and allow to build 
 
 However, working on entirely generic code can drive someone crazy. It also might require a lot of focus and it’s definitely not the code one could read just like a novel.
 
-<blockquote><h2>undefined</h2><div>With great power comes great responsibility.</div><footer>> Someone, somewhere</footer></blockquote>
+<blockquote><h2>undefined</h2><div>With great power comes great responsibility.</div><footer>Someone, somewhere</footer></blockquote>
 
 When working with types we might hear words like “covariant”, “contravariant” or “invariant”. At the very beginning, it sounds really mathematical and looks like taken directly from the university. That’s why we will leave aside the formal definition and go straight to examples.
 
