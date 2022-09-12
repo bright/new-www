@@ -17,13 +17,7 @@ published: true
 ---
 We just got some exciting news here at Bright inventions! Our team just received a message from Clutch analyst Jeff Dixon informing us that our hard work has led us to be one of the top developers in all of Poland for 2020 by Clutch! We’re a software development company with a strong focus on app development and IoT development– [more important than ever for small businesses in 2020!](https://www.techtimes.com/brandspin/242588/20190504/why-mobile-apps-are-important-for-your-business.htm)
 
-
-> **It means a lot to us**
->
-> > "To be among Clutch's B2B leaders means a lot to us. This proves that our work is valued both by our clients and tech experts"
->
-> > Michał Łukasiewicz, Co-founder of Bright inventions
->
+<blockquote><h2>It means a lot to us</h2><div>To be among Clutch's B2B leaders means a lot to us. This proves that our work is valued both by our clients and tech experts.</div><footer>Michał Łukasiewicz, Co-founder of Bright inventions</footer></blockquote>
 
 ![Top Developers Poland Clutch ](/images/jesyxqya.png)
 

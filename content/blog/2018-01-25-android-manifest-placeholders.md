@@ -1,23 +1,23 @@
 ---
-layout: post
-title: Android Manifest placeholders
-image: /images/android-manifest-placeholders/placeholder.png
-author: azabost
 crosspost: true
-comments: true
-hidden: false
+author: azabost
 tags:
   - android
   - gradle
   - manifest
-date: '2018-01-24T23:00:00.000Z'
+date: 2018-01-24T23:00:00.000Z
+title: Android Manifest placeholders
+layout: post
+image: /images/android-manifest-placeholders/placeholder.png
+hidden: false
+comments: true
 published: true
 ---
-# What are they? #
+# What are they?
 
 [Android Manifest placeholders](https://developer.android.com/studio/build/manifest-build-variables.html) allow you to put variables into the Manifest that is otherwise completely static. Why would you need such functionality? Actually, it depends on your projects. It's probably most useful when you have multiple [build variants](https://developer.android.com/studio/build/build-variants.html) with different Manifest configurations.
 
-# Multiple Manifests #
+# Multiple Manifests
 
 Of course, the easiest way to configure Manifest per build variant is to place a separate `AndroidManifest.xml` file in the variant-specific source directory. For example let's say we have an `app` module with [flavor dimension](https://developer.android.com/studio/build/build-variants.html#flavor-dimensions) called `features` with two flavors: `paid` and `free`. In Gradle file it could look like this:
 
@@ -56,9 +56,9 @@ We could also use fully qualified build variants (combining product flavors with
 * `app/src/freeDebug/AndroidManifest.xml`
 * `app/src/freeRelease/AndroidManifest.xml`
 
-_Note #1: Source sets are not created automatically. You can create them by hand or using **Source set** dropdown menu while creating a new file or directory in Android Studio._
+*Note #1: Source sets are not created automatically. You can create them by hand or using **Source set** dropdown menu while creating a new file or directory in Android Studio.*
 
-_Note #2: If you would like to make sure how to organize the source sets, you can run Gradle `sourceSets` task, e.g. with `./gradlew sourceSets` or Android Studio Gradle menu._
+*Note #2: If you would like to make sure how to organize the source sets, you can run Gradle `sourceSets` task, e.g. with `./gradlew sourceSets` or Android Studio Gradle menu.*
 
 While using multiple Manifest files gives the best flexibility (you can change literally everything), the maintenance may be troublesome for several reasons, e.g.:
 
@@ -67,7 +67,7 @@ While using multiple Manifest files gives the best flexibility (you can change l
 
 ![Placeholder](/images/android-manifest-placeholders/placeholder.png)
 
-# Using placeholders #
+# Using placeholders
 
 So instead of using multiple files I always strive to use some variables. In order to use a variable in the Manifest we must specify it in the `manifestPlaceholders` property in Gradle. We can do this in several places, e.g.:
 
@@ -117,9 +117,9 @@ android {
 }
 ```
 
-_Note #1: `manifestPlaceholders` object is just a `Map<String, Object>` so you can also use its other methods like `containsKey()` etc._
+*Note #1: `manifestPlaceholders` object is just a `Map<String, Object>` so you can also use its other methods like `containsKey()` etc.*
 
-_Note #2: You can also specify all the values at once by assigning a map like this: `manifestPlaceholders = [...]`_
+*Note #2: You can also specify all the values at once by assigning a map like this: `manifestPlaceholders = [...]`*
 
 Then we can use the variables in the Manifest simply by putting the variable name in curly brackets and using a dollar sign like this:
 
@@ -129,7 +129,7 @@ Then we can use the variables in the Manifest simply by putting the variable nam
     android:screenOrientation="${screenOrientation}" />
 ```
 
-# Applications #
+# Applications
 
 I've come across a few common usages of the placeholders, e.g.:
 
@@ -191,3 +191,5 @@ buildTypes {
 But there are much more possibilities, e.g. I can think of an app that uses different launcher activities.
 
 Do you have any interesting experiences using the placeholders? Feel free to share with me in the comments :-)
+
+<div class='block-button'><h2>We are looking for Android developers</h2><div>Join our team and develop Android applications for our clients from Germany, Norway, Israel, USA and more.</div><a href="/jobs/senior-android-developer"><button>Apply and join our team</button></a></div>
