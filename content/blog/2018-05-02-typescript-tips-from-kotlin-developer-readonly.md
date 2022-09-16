@@ -9,11 +9,11 @@ tags:
 date: 2018-05-01T22:00:00.000Z
 title: TypeScript tips from Kotlin developer - readonly
 layout: post
-image: /images/kotlin_icon_blog.png
+image: /images/blog_post_readonly.png
 comments: true
 published: true
 ---
-Last time I wrote about using [`const` in TypeScript](/blog/typescript-tips-from-kotlin-developer-const/). This time I will focus on another TypeScript keyword that aids immutability: `readonly`.
+Last time I wrote about using [`const` in TypeScript](/blog/typescript-tips-from-kotlin-developer-const/). This time I will focus on another TypeScript keyword that aids immutability: `readonly`. 
 
 ## `readonly` properties
 
