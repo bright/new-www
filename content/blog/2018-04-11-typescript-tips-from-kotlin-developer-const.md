@@ -9,7 +9,7 @@ tags:
 date: 2018-04-10T22:00:00.000Z
 title: TypeScript tips from Kotlin developer - const
 layout: post
-image: /images/kotlin_icon_blog.png
+image: /images/blog_post_const.png
 hidden: false
 comments: true
 published: true
