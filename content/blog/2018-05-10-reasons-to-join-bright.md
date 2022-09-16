@@ -91,3 +91,7 @@ If you would like to give us a try, or just in case you have more questions or s
 Hope to see you soon on our Bright Board! 
 
 ![Bright Inventions](/images/join_bright_team.png)
+
+
+
+<div class="image"><img src="/images/5_things_you_should_know_about_working_with_polish_developers-01.png" alt="teamwork" title="undefined"  /> </div>
