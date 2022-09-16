@@ -6,7 +6,7 @@ tags:
 date: 2022-09-16T06:36:58.124Z
 title: Domain Driven Design in Kotlin - Entities lifecycle management
 layout: post
-image: /images/pexels-photo-4887152.webp
+image: /images/blog_cover_ddd_kotlin.png
 hidden: false
 comments: true
 published: true
