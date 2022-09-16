@@ -1,30 +1,25 @@
 ---
-layout: post
-title: call(), apply() and bind() Methods in JavaScript
-date: 2017-10-31T23:00:00.000Z
-image: /images/javascript.jpg
 author: monika
 tags:
   - javascript
   - bind
   - apply
   - call
+date: 2017-10-31T23:00:00.000Z
+title: call(), apply() and bind() Methods in JavaScript
+layout: post
+image: /images/javascript.jpg
 hidden: false
 comments: true
 published: true
 ---
-
-Working with JavaScript 'this' keyword can be tricky. Not knowing the background rules may end up with the famous “it doesn’t work and I don’t know why”. It’s good to know the theory before putting things into practice. ['call()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Function/call),  ['apply()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Function/apply)  and ['bind()'](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) methods can come in handy while setting the 'this' value.
-
+Working with JavaScript 'this' keyword can be tricky. Not knowing the background rules may end up with the famous “it doesn’t work and I don’t know why”. It’s good to know the theory before putting things into practice. ['call()'](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call),  ['apply()'](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)  and ['bind()'](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) methods can come in handy while setting the 'this' value.
 
 ## Basic Rules Worth Remembering:
 
 1. 'this' always refers to an object.
-
 2. 'this' refers to an object which calls the function it contains.
-
 3. In the global context 'this' refers to either window object or is undefined if the ‘strict mode’ is used.
-
 
 I would like to focus on the first two rules specifically.
 
@@ -86,21 +81,20 @@ Example of passing arguments with 'bind()':
 var myCarDetails = car.displayDetails.bind(car, "Vivian")
 ```
 
-
 ## 'call()' and 'apply()' Methods
 
 Similar but slightly different usage provides the 'call()' and 'apply()' methods which also belong to the Function.prototype property. 
 
 This time there is a 'car' object without the displayDetails function, which is located in the global context.
 
- ```javascript
- var car = { 
-            registrationNumber: "GA12345",
-            brand: "Toyota"
-        }
+```javascript
+var car = { 
+           registrationNumber: "GA12345",
+           brand: "Toyota"
+       }
 
 function displayDetails(ownerName){
-               console.log(ownerName + ", this is your car: " + this.registrationNumber + " " + this.brand);
+              console.log(ownerName + ", this is your car: " + this.registrationNumber + " " + this.brand);
 ```
 
 We can use the 'apply()' function:
@@ -119,12 +113,3 @@ Note that when using the 'apply()' function the parameter must be placed in an a
 
 'bind()', 'call()' and 'apply()' functions can make your life easier when you need to set the value of ‘this’. 
 Hope the post was helpful. Have a happy day and enjoy the coding!
-
-
-
-
-
-
-
-
-
