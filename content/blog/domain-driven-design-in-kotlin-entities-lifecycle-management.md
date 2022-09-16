@@ -11,7 +11,7 @@ hidden: false
 comments: true
 published: true
 ---
-### Domain Driven Design in Kotlin - Entities lifecycle management
+![](https://cdn-images-1.medium.com/max/1600/0*mnMkNG1ISY6aN1Mw)
 
 As devs, we often focus on the project’s tech aspects, such as frameworks, libraries, and their versions. Unfortunately, this moves us away from, most likely, the main thing we should focus on — solving customer problems.
 
