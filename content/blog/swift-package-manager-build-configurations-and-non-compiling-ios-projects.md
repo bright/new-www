@@ -24,6 +24,8 @@ When working on greenfield projects SPM in most cases is really a breeze to use.
 
 **\[Disclaimer]:** Described problems and their solutions were tested on Xcode 13.2.1 and 13.4.1. Behavior may change in future Xcode releases. [Here](https://github.com/TLizer/SPM-build-configurations) you can find a repository with an example project.
 
+<div class='block-button'><h2>We are looking for iOS Developers</h2><div>Build with us the iOS application that will impact how Just Eat shapes the retail world. Or work for our other clients representing industries such as FinTech, Blockchain, HealthTech, and Logistics.</div><a href="/jobs/senior-ios-developer"><button>Apply and join our team</button></a></div>
+
 ## The problem
 
 The other day I was trying to add Swift Package Manager to one of the projects I work on as my Team tends to move to SPM from other dependency managers.
