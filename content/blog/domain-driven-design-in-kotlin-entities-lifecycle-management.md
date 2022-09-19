@@ -15,9 +15,9 @@ published: true
 
 As devs, we often focus on the project’s tech aspects, such as frameworks, libraries, and their versions. Unfortunately, this moves us away from, most likely, the main thing we should focus on — solving customer problems.
 
-Unless we are performance or narrow technical experts and were summoned to solve issues related to tooling, our main concern is bringing the business value. To do so, we should try to focus on the domain that our software is or will be, the customer’s needs, and avoid mixing those with internals unrelated to the client’s problem. By internals, I mean things like persistence of our data, transportation, notification, etc.
+Unless we are experts in some specific technical concepts and were summoned to solve issues related to tooling, our main concern is bringing the business value. To do so, we should try to focus on the domain that our software is or will be, the customer’s needs, and avoid mixing those with internals unrelated to the client’s problem. By internals, I mean things like persistence of our data, transportation, notification, etc.
 
-That is where the **Domain Driven Design kicks in by separating technical aspects of our software from business logic** that should be represented in code as simple and clean as possible. The tactical part of DDD comes with building blocks based on which we can build domain in the code and loosely couple it with other more technical parts of code. This separation brings values such as better observability and testability. It can also help us better react to business changes and easier perform technical upgrades such as moving from one library to the other.
+That is where the **Domain Driven Design kicks in by separating technical aspects of our software from business logic** that should be represented in code as simple and clean as possible. The tactical part of DDD comes with building blocks based on which we can build domain in the code and loosely couple it with other more technical parts of code. This separation brings values such as better observability and testability. It can also help us better react to business changes and perform technical upgrades such as moving from one library to another.
 
 - - -
 
@@ -35,8 +35,10 @@ The other characteristic of the entity is the fact that it usually has its **lif
 
 ```
 class Order(
-    var status: OrderStatus
+    status: OrderStatus
 ) {
+    var status = status
+        private set
 
     val id: UUID = UUID.randomUUID()
 
