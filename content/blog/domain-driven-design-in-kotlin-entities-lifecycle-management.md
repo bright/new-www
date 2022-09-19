@@ -194,3 +194,5 @@ Wait, what happened? We need only two tests to verify if accepting and rejecting
 Kotlin language can be really helpful to express business logic in separation from technical aspects of our applications which is one of the core aspects of Domain Driven Design. Sealed classes sound like a perfect choice for Entities that have multiple states and different behavior depending on that state. Please bear in mind, however, that not every domain or subdomain will need such a mechanism. **There are still places and contexts in which introducing building blocks from tactical DDD will be overkill and won’t solve any real problem.**
 
 <center><div class="image"><img src="/images/meme_ddd.jpeg" alt="domain driven design meme" title="Meme"  /> </div></center>
+
+<div class='block-button'><h2>Work with domain driven team</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
