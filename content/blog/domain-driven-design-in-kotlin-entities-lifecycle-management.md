@@ -27,7 +27,7 @@ That is where the **Domain Driven Design kicks in by separating technical aspect
 
 Take a look at the graph from well known DDD bible by Eric Evans. In the middle, we can see Entities and Value objects which both should contain data and business logic that manipulates that data. We need to remember that code-wise, **tactical domain-driven design stands in opposition to well-known anemic models** in which data and behavior are separated. 
 
-<div class='block-button'><h2>Work with domain driven team</h2><div>Join DDD fans eager to work closely with business. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div class='block-button'><h2>Work with domain driven design team</h2><div>Join DDD fans eager to work closely with business. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
 
 ### Entities
 
@@ -197,4 +197,4 @@ Kotlin language can be really helpful to express business logic in separation fr
 
 <center><div class="image"><img src="/images/meme_ddd.jpeg" alt="domain driven design meme" title="Meme"  /> </div></center>
 
-<div class='block-button'><h2>Work with domain driven team</h2><div>Join DDD fans eager to work closely with business. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<div class='block-button'><h2>Work with domain driven design team</h2><div>Join DDD fans eager to work closely with business. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
