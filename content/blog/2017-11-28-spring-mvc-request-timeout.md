@@ -10,7 +10,7 @@ tags:
 date: 2017-11-27T23:00:00.000Z
 title: Request timeouts in Spring MVC
 layout: post
-image: /images/spring-mvc-request-timeout/late.jpg
+image: /images/time_blog.png
 hidden: false
 comments: true
 published: true
@@ -18,7 +18,7 @@ canonicalUrl: https://miensol.pl/spring-mvc-request-timeout/
 ---
 As you can see in another blog post, we only have limited options to [configure maximum time a request processing can take in Spring MVC](/blog/spring-mvc-thread-pool-timeouts/). In this post I will show how to enforce such timeout through a custom  [Servlet Filter](https://docs.oracle.com/cd/B14099_19/web.1012/b14017/filters.htm).
 
-![Late request](/images/spring-mvc-request-timeout/late.jpg)
+<div class="image"><img src="/images/time_blog.png" alt="Time" title="undefined"  /> </div>
 
 ## Request timeout Servlet Filter
 
