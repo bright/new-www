@@ -1,16 +1,13 @@
 import type { GatsbyNode } from 'gatsby'
 import { allMarkdownRemarkData, GQLData } from './src/models/gql'
+import { loadTagGroups, TagGroup } from './src/tag-groups'
+import { blogListForTagGroupsBasePath } from './src/blog-post-paths'
 
 const path = require('path')
 
 const _ = require('lodash')
-const fs = require('fs')
-const yaml = require('js-yaml')
 const webpack = require(`webpack`)
 const { queryPostsSlug } = require('./src/query-posts')
-
-
-type TagGroup = { name: string, tags: string[], groups?: TagGroup[] }
 
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
@@ -39,7 +36,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     })
   })
 
-  const ymlDocTags = yaml.load(fs.readFileSync('./tag-groups.yml', 'utf-8'))
+  const ymlDocTags = await loadTagGroups()
   // const tags = result.data.tagsGroup.group;
   await Promise.all(ymlDocTags.groups.map(async (group: TagGroup) => {
     const searchTags = JSON.stringify(group.tags)
@@ -50,7 +47,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
     Array.from({ length: numPages }).forEach((item, i) => {
       createPage({
-        path: `/blog/${_.kebabCase(group.name.toLowerCase())}/${i + 1}`,
+        path: `${blogListForTagGroupsBasePath(group)}/${i + 1}`,
         component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
         context: {
           groupTags: group.tags,
@@ -72,7 +69,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         const numPages = Math.ceil(posts.length / postsPerPage)
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
-            path: `/blog/${_.kebabCase(group.name.toLowerCase())}/${_.kebabCase(subTag.name.toLowerCase())}/${i + 1}`,
+            path: `${blogListForTagGroupsBasePath(group, subTag)}/${i + 1}`,
             component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
             context: {
               groupTags: subTag.tags,
@@ -315,9 +312,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       .replace('.md', '')
       .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, '')
 
-    const currentPostTags = post.node.frontmatter.tags
+    const currentPostTags: string[] = post.node.frontmatter.tags
 
-    const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue: TagGroup[], currentValue: TagGroup) => {
+    const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue: string[], currentValue: TagGroup) => {
       if (currentValue.groups) {
         const flatteredGroup = currentValue.groups.reduce((previousValue, currentValue) => {
           if (currentPostTags.includes(currentValue.name)) {
@@ -439,13 +436,11 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ act
   actions.setWebpackConfig({
     resolve: {
       fallback: {
-        fs: false
+        // used in src/tag-groups
+        fs: false,
+        path: false,
+        'js-yaml': false
       }
-    },
-    plugins: [
-      new webpack.IgnorePlugin({
-        resourceRegExp: /^netlify-identity-widget$/
-      })
-    ]
+    }
   })
 }
