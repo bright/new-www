@@ -24,6 +24,7 @@ const feedGQL = (tags?: string[]) => {
                       excerpt(pruneLength: 500)
                       html
                       frontmatter {
+                        title
                         date
                       }
                       fields {
@@ -42,6 +43,7 @@ function serializePostsToFeed(siteMetadata: SiteMetadata) {
     const feed = posts.map(({ node }) => {
       const slug = node.fields.slug.startsWith('/') ? node.fields.slug.substring(1) : node.fields.slug
       return Object.assign({}, node.frontmatter, {
+        title: node.frontmatter.title,
         description: node.excerpt,
         date: node.frontmatter.date,
         url: siteMetadata.siteUrl + slug,
