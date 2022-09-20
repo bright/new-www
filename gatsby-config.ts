@@ -213,11 +213,14 @@ export default {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-        modulePath: `${__dirname}/src/cms/cms.tsx`,
+        modulePath: `${__dirname}/src/cms/cms.ts`,
         enableIdentityWidget: true,
         publicPath: `admin`,
         htmlTitle: `Content Manager`,
         customizeWebpackConfig: (config: any) => {
+          console.log('Netlify webpack config', config)
+          console.log('netlify module.rules', config.module.rules)
+          console.log('netlify cms entry', config.entry.cms)
           config.resolve = {
             ...config?.resolve,
             fallback: {
