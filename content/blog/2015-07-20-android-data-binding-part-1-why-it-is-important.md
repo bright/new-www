@@ -5,7 +5,7 @@ tags:
 date: 2015-07-20 08:36
 title: "Android Data Binding Part 1: Why it is important"
 layout: post
-image: /images/technology-android-development.jpg
+image: /images/blog_android_dev.png
 published: true
 categories:
   - android
