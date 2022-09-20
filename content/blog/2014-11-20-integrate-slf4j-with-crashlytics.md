@@ -5,7 +5,7 @@ tags:
 date: 2014-11-20T21:00:00.000Z
 title: Integrate slf4j with Crashlytics
 layout: post
-image: /images/robot-android.png
+image: /images/robot_android_blog.png
 comments: true
 published: true
 ---
