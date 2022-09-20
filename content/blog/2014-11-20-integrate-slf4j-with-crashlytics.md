@@ -5,13 +5,13 @@ tags:
 date: 2014-11-20T21:00:00.000Z
 title: Integrate slf4j with Crashlytics
 layout: post
-image: /images/robot-android.png
+image: /images/robot_android_blog.png
 comments: true
 published: true
 ---
 As I mentioned in my previous post having meaningful log entries comes handy during development. When an app reaches beta testers as well as goes live it's equally or even more important to be able to figure out why the app you've carefully coded isn't behaving as it should. Testing the app on all android flavours is literally impossible that's why getting an insight into what caused a crash is vital.
 
-## [Crashlytics](https://dev.twitter.com/products/crashlytics)
+## Crashlytics
 
 Error reporting providers are getting more and more popular. There are plenty of options to choose from: [Raygun](https://raygun.io/)and [Airbrake](https://airbrake.io/) are just few examples. At [Bright Inventions](/) we use the last one and are more and more pleased with it. Setting it up is really easy - if you don't mind installing an IDE plugin it provides. Frankly I would prefer being able to configure a project with a simple command line tool but I understand a motivation behind it which is making the installation as seamless as possible.
 
