@@ -11,7 +11,7 @@ tags:
 date: 2018-01-03T23:00:00.000Z
 title: Multi tenancy task scheduler
 layout: post
-image: /images/multi-tenancy-task-scheduler/sorting.jpg
+image: /images/tea.png
 hidden: false
 comments: true
 published: true
@@ -24,7 +24,7 @@ Last time I showed [how to extend Spring default request handler adapter](/blog/
 * reject requests after the maximum queue size is reached
 * interrupt processing of a request upon an upstream subscription disposal
 
-![Assigning resources](/images/multi-tenancy-task-scheduler/sorting.jpg)
+<div class="image"><img src="/images/tea.png" alt="tea" title="undefined"  /> </div>
 
 ## Tenant task coordinator execute method
 
