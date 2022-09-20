@@ -224,7 +224,19 @@ export default {
         modulePath: `${__dirname}/src/cms/cms.tsx`,
         enableIdentityWidget: true,
         publicPath: `admin`,
-        htmlTitle: `Content Manager`
+        htmlTitle: `Content Manager`,
+        customizeWebpackConfig: (config: any) => {
+          config.resolve = {
+            ...config?.resolve,
+            fallback: {
+              ...config?.resolve?.fallback,
+              // used in src/tag-groups
+              fs: false,
+              path: false,
+              'js-yaml': false
+            }
+          }
+        }
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
