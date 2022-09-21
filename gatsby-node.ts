@@ -1,12 +1,12 @@
 import type { GatsbyNode } from 'gatsby'
 import { allMarkdownRemarkData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tag-groups'
-import { blogListForTagGroupsBasePath } from './src/blog-post-paths'
+import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
+import { IgnorePlugin } from 'webpack'
 
 const path = require('path')
 
 const _ = require('lodash')
-const webpack = require(`webpack`)
 const { queryPostsSlug } = require('./src/query-posts')
 
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
@@ -306,13 +306,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const postsResult = postResult.data!.allMarkdownRemark.edges
 
   postsResult.forEach(post => {
-    const name = post.node.fileAbsolutePath
-      .split('/')
-      .pop()
-      .replace('.md', '')
-      .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, '')
-
-    const currentPostTags: string[] = post.node.frontmatter.tags
+    const postNode = post.node
+    const nodeFileAbsolutePath: string = postNode.fileAbsolutePath
+    const currentPostTags: string[] = postNode.frontmatter.tags
 
     const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue: string[], currentValue: TagGroup) => {
       if (currentValue.groups) {
@@ -344,11 +340,11 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     const relatedTags = [...flatteredYmlTags, ...currentPostTags]
 
     createPage({
-      path: '/blog/' + (post.node.frontmatter.slug || name),
+      path: blogPostUrlPath(postNode),
       component: path.resolve('./src/templates/PostTemplate.tsx'),
       context: {
-        slug: post.node.fields.slug,
-        fileAbsolutePath: post.node.fileAbsolutePath,
+        slug: postNode.fields.slug,
+        fileAbsolutePath: nodeFileAbsolutePath,
         relatedTags: relatedTags
       }
     })
@@ -424,11 +420,14 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
+    const nodeFilePath = (node as any).fileAbsolutePath
+    const nodeSlug = '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
+    console.log('nodeSlug', nodeSlug, 'for path', nodeFilePath)
     createNodeField({
       node,
       name: `slug`,
       // TODO: figure out correct type instead of as any
-      value: '/' + (node as any).fileAbsolutePath.split('/').splice(-2).join('/').replace('.md', '')
+      value: nodeSlug
     })
   }
 }

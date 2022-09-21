@@ -1,7 +1,8 @@
 import { SiteMetadata } from './site-metadata'
 import { GQLData } from './models/gql'
 import { loadTagGroupsSync } from './tag-groups'
-import { blogListForTagGroupsBasePath } from './blog-post-paths'
+import { blogListForTagGroupsBasePath, blogPostUrlPath } from './blog-post-paths'
+import { trimStart } from 'lodash'
 
 const feedGQL = (tags?: string[]) => {
   const tagsFilter = tags ? `tags: { in: [${tags.map(t => `"${t}"`)}] }` : ''
@@ -21,6 +22,7 @@ const feedGQL = (tags?: string[]) => {
           ) {
               edges {
                   node {
+                      fileAbsolutePath
                       excerpt(pruneLength: 500)
                       html
                       frontmatter {
@@ -41,13 +43,13 @@ function serializePostsToFeed(siteMetadata: SiteMetadata) {
   return ({ query: { allMarkdownRemark } }: { query: GQLData }) => {
     const posts = allMarkdownRemark.edges!
     const feed = posts.map(({ node }) => {
-      const slug = node.fields.slug.startsWith('/') ? node.fields.slug.substring(1) : node.fields.slug
+      const url = siteMetadata.siteUrl + trimStart(blogPostUrlPath(node), '/')
       return Object.assign({}, node.frontmatter, {
         title: node.frontmatter.title,
         description: node.excerpt,
         date: node.frontmatter.date,
-        url: siteMetadata.siteUrl + slug,
-        guid: siteMetadata.siteUrl + slug,
+        url: url,
+        guid: url,
         custom_elements: [{ 'content:encoded': node.html }]
       })
     })
