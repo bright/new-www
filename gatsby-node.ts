@@ -432,5 +432,12 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
   }
 }
 export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ actions }) => {
-
+  actions.setWebpackConfig({
+    plugins: [
+      //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms#disable-widget-on-site
+      new IgnorePlugin({
+        resourceRegExp: /^netlify-identity-widget$/
+      })
+    ]
+  })
 }
