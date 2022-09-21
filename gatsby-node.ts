@@ -433,14 +433,5 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
   }
 }
 export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ actions }) => {
-  actions.setWebpackConfig({
-    resolve: {
-      fallback: {
-        // used in src/tag-groups
-        fs: false,
-        path: false,
-        'js-yaml': false
-      }
-    }
-  })
+
 }
