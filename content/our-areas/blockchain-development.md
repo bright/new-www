@@ -62,6 +62,6 @@ description_contact: Contact us to learn how we can use blockchain to develop
 
 We specialize in integrating web and mobile apps with blockchain solutions. For over 4 years we have been developing products using Ethereum technology. Apart from that we are Substrate enthusiasts. We have built Bright Treasury module application to support the Polkadot community built around the Substrate. We use and support the Substrate framework because we believe that it is the future of the internet. 
 
-### Bright Treasury
+### BrightTreasury
 
-[Bright Treasury](/projects/bright-treasury/) is our original product supporting the blockchain community. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is a part of the Web3 Foundation (W3F) grants program. The goal of our product is to make blockchain accessible to more users.
+[BrightTreasury](/projects/bright-treasury/) is our original product supporting the blockchain community. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is a part of the Web3 Foundation (W3F) grants program. The goal of our product is to make blockchain accessible to more users.
