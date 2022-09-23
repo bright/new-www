@@ -38,6 +38,8 @@ The easiest way to suggest a tip is on the [BrightTreasury](https://treasury.bri
 * When you suggest a tip beneficiary, you will receive a 20% percent of the tipping amount if the tip is approved. 
 * When the council tips somebody, the fee is not included in that process.
 
+`youtube: https://youtu.be/50o-DYGY6kc`
+
 ## How to create a tip on BrightTreasury
 
 Ready to become a tipper? Here is a step-by-step guide on how to tip somebody via BrightTreasury:
