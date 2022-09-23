@@ -76,3 +76,5 @@ On social media we show projects that we develop, devices that we use on a daily
 ## What is ahead of you?
 
 That is a very difficult question. I don’t know. I don’t see myself anymore in the restaurant industry. But maybe I will change my mind. I am not in the place to plan anything. I follow the rule “let it be” and trust the universe.
+
+<div class='block-button'><h2>Join Agata!</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
