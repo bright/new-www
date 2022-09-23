@@ -122,7 +122,9 @@ Let us not forget about meetings in person. They are highly recommended. At Brig
 
 I have two school age children. So my number one priority is spending time with them. Besides, I ride a bike as often as I can. Before the pandemics, I was attending yoga and pilates classes. Pandemics took that away from me. I did not want to exercise at home and actually felt like I needed to leave the house and get some fresh air. I thought of cycling as an opportunity to spend active time outside the home. I sat on the bike, started to ride, the air struck me and suddenly everything changed. I felt the freedom which I really needed after weeks of staying at home. Then I started to train mountain terrain cycling. I loved to ride, and riding MTBs gave me a chance to do it in lots of beautiful places. Even when pilates and yoga places were reopened and I started to train both again I did not give up MTB. I love it, it gives me oxygen, so much space and beautiful views. 
 
-Join Kasia! 😎 Check out [career opportunities at Bright Inventions](https://brightinventions.pl/career)!
+<div class='block-button'><h2>Join Kasia! 😎</h2><div>Join one of Kasia’s teams and work on mobile and web solutions we develop for our clients from Germany, UK or Israel.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+
+Check out [career opportunities at Bright Inventions](https://brightinventions.pl/career)!
 
 \*Learn more about scrum master’s role in Agile teams:
 
