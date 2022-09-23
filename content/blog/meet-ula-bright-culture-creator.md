@@ -105,4 +105,4 @@ One may think it would sound sad, even really sad, but I like my job and it happ
 
 I have also started learning Spanish recently just for myself as I needed something fresh and new. And there are also English classes that I run, so I think I have quite many things to focus on when I am not at Bright. 🙂
 
-<div class='block-button'><h2>Do you want to join Ula?</h2><div>We like people with bright minds! Check out our career opportunities.</div><a href="/career"><button>Apply and join Ula</button></a></div>
+<div class='block-button'><h2>Do you want to join Ula?</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications. Work with clients from Israel, Germany, or Norway!</div><a href="/career"><button>Check our career opportunities</button></a></div>
