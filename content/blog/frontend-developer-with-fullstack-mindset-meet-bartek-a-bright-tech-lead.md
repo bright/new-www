@@ -47,6 +47,8 @@ What can I say? I submitted my application and it was reviewed positively. 😉 
 
 It is funny because when I came to Bright there was only one frontend team which included me and another programmer that worked on this solution. Right now the client has 3 separate frontend teams. So my knowledge about the project and its processes was essential.
 
+<div class='block-button'><h2>Join Bartek!</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+
 ## What does your work as a Tech Lead look like?
 
 Being a tech lead involves looking at a project from a greater perspective. I have to be able to coordinate the life of this project. Just Eat POS system is a complex project, so I cannot be in charge of every decision. Thus **I trust developers to make some decisions but at the same time, I am of assistance to them**, if they need me to discuss any problem. 
