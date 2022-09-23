@@ -127,4 +127,4 @@ After trekking in the Himalayas, we traveled to **Thailand, Cambodia, Vietnam, a
 
 I love various sports activities, especially running, biking, hiking, and sailing. I used to sail a lot over the Baltic sea. I hope to be back on board soon. ⛵️
 
-<div class='block-button'><h2>Do you want to join Bartek?</h2><div>Join Bartek and other bright developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Apply and join Bartek</button></a></div>
+<div class='block-button'><h2>Do you want to join Bartek?</h2><div>Join Bartek and other bright developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
