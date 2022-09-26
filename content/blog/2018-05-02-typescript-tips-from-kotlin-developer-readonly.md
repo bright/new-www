@@ -9,12 +9,11 @@ tags:
 date: 2018-05-01T22:00:00.000Z
 title: TypeScript tips from Kotlin developer - readonly
 layout: post
-image: /images/kotlin_icon_blog.png
+image: /images/blog_post_readonly.png
 comments: true
 published: true
 ---
-
-Last time I wrote about using [`const` in TypeScript]({% post_url 2018-04-11-typescript-tips-from-kotlin-developer-const %}). This time I will focus on another TypeScript keyword that aids immutability: `readonly`.
+Last time I wrote about using [`const` in TypeScript](/blog/typescript-tips-from-kotlin-developer-const/). This time I will focus on another TypeScript keyword that aids immutability: `readonly`. 
 
 ## `readonly` properties
 
@@ -33,8 +32,8 @@ now.elapsed = DateTime.now() // Error: Val cannot be reassigned
 
 In the above example we have 2 properties:
 
- - `start` is a read only property which value does not change
- - `elapsed` is a read only property that returns different values
+* `start` is a read only property which value does not change
+* `elapsed` is a read only property that returns different values
 
 In [TypeScript](https://www.typescriptlang.org/) the equivalent behavior is achieved with a help of the [`readonly` keyword and getter only properties](https://www.typescriptlang.org/docs/handbook/interfaces.html#readonly-properties):
 
@@ -88,8 +87,7 @@ function newPersonWithBonusPoints(person: Person, amount: number): Person {
 }
 ```
 
-Notice how with a single `Readonly<T>` we can turn any type into its read only equivalent. It is worth mentioning that the `Readonly<T>` is shallow i.e. nested objects are still mutable unless explicitly stated otherwise. Thankfully version [TypeScript 2.8]
-(https://github.com/Microsoft/TypeScript/pull/21316) introduced an ability to define a `DeepReadonly<T>` that makes it possible to mark a type as immutable e.g.:
+Notice how with a single `Readonly<T>` we can turn any type into its read only equivalent. It is worth mentioning that the `Readonly<T>` is shallow i.e. nested objects are still mutable unless explicitly stated otherwise. Thankfully version [TypeScript 2.8](https://github.com/Microsoft/TypeScript/pull/21316) introduced an ability to define a `DeepReadonly<T>` that makes it possible to mark a type as immutable e.g.:
 
 ```typescript
 interface Address {
@@ -112,7 +110,7 @@ const ala: DeepReadonly<Person> = {
 
 ala.address.city = 'Name' // Error: cannot assign city because it is constant or readonly
 ala.nickNames.push('Kot') // Error: property push does not exist on type DeepReadonlyArray<string>
-``` 
+```
 
 In the example above the compiler does not allow modifying nested `address` object. Interestingly it also forbids mutating the `nickNames` array.
 

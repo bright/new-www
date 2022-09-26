@@ -8,7 +8,7 @@ tags:
 date: 2022-09-09T07:00:29.612Z
 title: 3 Tech Challenges to Face When You Build Mental Health App
 layout: post
-image: /images/blogpost_mental_app_cover.png
+image: /images/blogpost_mental_app.png
 hidden: false
 comments: true
 published: true
@@ -31,7 +31,7 @@ As software developers specializing in building apps for depression, anxiety, an
 
 **Dominik, Frontend Developer at Bright Inventions:**
 
-Privacy of personal information has always been a serious topic in software development. Yet it is especially important in the case of data connected to personal health. Every **data leak is a potential complete loss of trust in a company**. 
+Privacy of personal information has always been a serious topic in [software development](/our-areas/custom-software-development). Yet it is especially important in the case of data connected to personal health. Every **data leak is a potential complete loss of trust in a company**. 
 
 <div class="image"><img src="/images/dominik_quote_mental_app.png" alt="Dominik's quote on data leak" title="Dominik's quote"  /> </div>
 

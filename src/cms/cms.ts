@@ -12,6 +12,8 @@ import { TagsControl, TagsPreview } from './tags'
 
 import quoteStyles from '!css-loader!../cms/styles/quote.css'
 
+console.log('registering custom editor & preview components')
+
 CMS.registerWidget('tags', TagsControl, TagsPreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerEditorComponent({ ...buttonBlockConfig })

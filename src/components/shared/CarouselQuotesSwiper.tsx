@@ -212,6 +212,14 @@ export const CarouselQuotesSwiper: React.FC = () => {
         'Despite being forced by the covid-19 to work remotely, I was still able to code for my dream company with Bright people. When I log in to work in the morning, I feel like I am coming to the office. Even though I live at the other end of Poland.',
     },
     {
+      avatar_hover: <StaticImage src='../../../static/images/michal_w_passion_team.png' alt='Michal' className='quote-img' />,
+      short_name: 'Michał',
+      bio: 'Senior iOS Developer',
+      slug: 'michal-was',
+      quote:
+        'Bright Inventions gathers people with a unique mindset. People here are very engaged in their job and projects. Every time I talk to someone I can see that they are deeply invested in what they do.',
+    },
+    {
       avatar_hover: (
         <StaticImage src='../../../static/images/piotr_rutka_passions.png' alt='Piotr' className='quote-img' />
       ),

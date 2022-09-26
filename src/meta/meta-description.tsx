@@ -1,6 +1,6 @@
-import config from '../../gatsby-config'
 import React from 'react'
+import { siteMetadata } from '../site-metadata'
 
 export function descriptionOrDefault(description: string | undefined){
-  return description ?? config.siteMetadata.description
+  return description ?? siteMetadata.description
 }

@@ -1,33 +1,37 @@
 ---
-layout: post
-title: 'Android Data Binding Part 1: Why it is important'
-date: '2015-07-20 08:36'
-image: /images/technology-android-development.jpg
-categories:
-  - android
+author: piotr
 tags:
   - android
-author: piotr
+date: 2015-07-20 08:36
+title: "Android Data Binding Part 1: Why it is important"
+layout: post
+image: /images/blog_android_dev.png
 published: true
+categories:
+  - android
 ---
-
-Android application code often suffers from being more verbose than it could be. As libraries such as [Android Annotations](http://androidannotations.org/) and [ButterKnife](http://jakewharton.github.io/butterknife/) have shown that's only partially due to tediousness of Java. The [recently](https://events.google.com/io2015/schedule?sid=128c9f91-b6d4-e411-b87f-00155d5066d7) announced [Android Data Binding](https://developer.android.com/tools/data-binding/guide.html) library can remove at least part of the boilerplate code we need to write. Since I've always liked [Presentation Model pattern (MVVM)](http://martinfowler.com/eaaDev/PresentationModel.html) this is very dear to my heart. However just getting rid of a tedious code is not the main reason I'm so happy to see the new API. Let's recap on common issues developer faces on Android and then I'll show how using mentioned patterns with new offering from Google can mitigate them.
+Android application code often suffers from being more verbose than it could be. As libraries such as [Android Annotations](http://androidannotations.org/) and [ButterKnife](http://jakewharton.github.io/butterknife/) have shown that's only partially due to tediousness of Java. The recently announced [Android Data Binding](https://developer.android.com/tools/data-binding/guide.html) library can remove at least part of the boilerplate code we need to write. Since I've always liked [Presentation Model pattern (MVVM)](http://martinfowler.com/eaaDev/PresentationModel.html) this is very dear to my heart. However just getting rid of a tedious code is not the main reason I'm so happy to see the new API. Let's recap on common issues developer faces on Android and then I'll show how using mentioned patterns with new offering from Google can mitigate them.
 
 ## Problems with classic approach
+
 I'll explain that step by step using a registration form screen example. We need couple of fields like first name, last name and an email address. To make the example a bit more interesting and to make UX better we'll use [floating label](http://mds.is/float-label-demo/) pattern. One of the simplest approaches **without data binding** (for first name only) might look like this:
 
 <script src="https://gist.github.com/miensol/52b98f0fcbe89db81441.js?file=RegisterActivityClassic.java"></script>
 
 ### Memory leaks
+
 A seasoned Android developer will immediately spot that we've a potentially leaked activity here. The culprit is of course the anonymous inner class implementing `RegisterApi` callback (`Action2`), which in turn uses `findViewById`. However it's not the mentioned method that retains the activity - in Java every non-static inner class will have *implicit* reference to the enclosing class instance. While this problem is so common I still haven't found a concise solution in the Android SDK. There are however community driven libraries i.e. [Otto](http://square.github.io/otto/) and [RxJava](https://github.com/ReactiveX/RxJava) that can help tackle this problem.
 
 ### To much code in Activity
+
 Many of us, me including, are guilt of stuffing too much into `Activity` classes. Writing test and maintaining them can become a nightmare over time. The verbosity of Java only makes the matter worse. One way to slim activities down is to use [Presenter pattern](http://martinfowler.com/eaaDev/uiArchs.html#Model-view-presentermvp) written either by hand or with the help of [Mortar](https://github.com/square/mortar). Another solution is to encapsulate more logic into custom view classes used in layouts and using shared static helper methods with common code that calls Android API. Nevertheless, for a programmer that just starts with Android, it's important that the framework provides guidance and samples that encourage separation of concerns - in my opinion up until now that was rarely the case.
 
 ### Maintaining layout files
+
 Many if not most screens in Android (and other platforms, too) are *read-only*. That is they are not forms and fields that user can change. Instead they offer neatly presented content with some way of interacting with it (as opposed to changing it directly). When using Android layout files we're forced to use references (auto generated in `R` class by aapt) that allow setting view's properties. This isn't something necessarily bad especially if you need to heavily interact with a `View`. Having said that, how often you used `findViewById` (or `@InjectView`) just to set the content of `TextView` or had to refactor activity fields type because of a change in a layout definition?
 
 ## Android Data Binding can help you.
+
 The following code illustrates how registration form might look like **with data binding**:
 
 <script src="https://gist.github.com/miensol/44ac5af33a60ad60cab7.js?file=RegisterActivity.java"></script>
@@ -41,6 +45,6 @@ Last but not least a layout file:
 
 <script src="https://gist.github.com/miensol/44ac5af33a60ad60cab7.js?file=activity_register.xml"></script>
 
-The data binding library, while still in beta, provides a nice toolset to remove the boilerplate code and improve Android code (unit) testability by extracting the logic from activity (or fragment). When used properly it can also save you from leaking resources. In the [next post]({% post_url 2015-07-27-android-data-binding-part-2-observer-pattern-to-the-bone %}) I'll explain in more detail how it happens.
+The data binding library, while still in beta, provides a nice toolset to remove the boilerplate code and improve Android code (unit) testability by extracting the logic from activity (or fragment). When used properly it can also save you from leaking resources. In the \[next post]({% post_url 2015-07-27-android-data-binding-part-2-observer-pattern-to-the-bone %}) I'll explain in more detail how it happens.
 
 *This article is cross-posted with [my personal blog](http://miensol.pl/android/2015/07/20/android-data-binding-part-1-why-it-is-important.html)*

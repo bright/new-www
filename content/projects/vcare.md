@@ -14,6 +14,7 @@ tags:
   - customized software
   - eHealth
   - bluetooth
+order: 6
 slug: vCare
 show on homepage: false
 published: true

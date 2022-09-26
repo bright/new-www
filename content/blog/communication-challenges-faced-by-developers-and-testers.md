@@ -70,3 +70,5 @@ It’s crucial to know what and why you are doing it. **A common misconception a
 ## Keep calm and carry on
 
 It’s not a piece of cake to build a strong relationship between developers and testers, but with a little bit of flexibility from both sides, it is possible to achieve something really well-working.
+
+<div class='block-button'><h2>Join our team</h2><div>Let’s create software that matters! Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>

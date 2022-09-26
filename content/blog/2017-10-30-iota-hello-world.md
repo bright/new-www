@@ -1,20 +1,18 @@
 ---
-layout: post
-title: IOTA - Hello World
-excerpt: >-
-  The most mature client library we can use for IOTA is a JavaScript one called
-  iota.lib.js. Let's see what we can use it for.
+excerpt: The most mature client library we can use for IOTA is a JavaScript one
+  called iota.lib.js. Let's see what we can use it for.
+author: adam
 tags:
   - IOTA
   - blockchain
   - cryptocurrency
-comments: true
-author: adam
+date: 2017-10-29T23:00:00.000Z
+title: IOTA - Hello World
+layout: post
 image: /images/iota/attach-tangle.jpg
-date: '2017-10-29T23:00:00.000Z'
+comments: true
 published: true
 ---
-
 Previously in the IOTA series we've looked into [the assumptions of this promising cryptocurrency system](/blog/iota-new-kid-in-cryptocurrency-town/) and we've [connected to the network with our own node](/blog/getting-started-with-iota/). It's high time to interact with IOTA programatically.
 
 IOTA nodes (or, actually, as the creators of the system prefer to call it - IOTA Reference Implementations) expose an HTTP API that we can interact with and - unlike most of the IOTA's ecosystem - has an [actual documentation](https://iota.readme.io/v1.2.0/reference) available. But while it is indispensable to look into this reference, we'll rather use the client libraries to talk to our node. 
@@ -25,7 +23,7 @@ There are [three official client libraries](https://iota.readme.io/docs/overview
 
 Let's start with the empty Node.JS project that we can bootstrap using `npm init`. Then install IOTA's library with `npm install iota.lib.js --save` and jump into the code.
 
-To establish a connection, we need to specify where is our IRI, including the public API port (specified as `PORT` in the node's config file or as `-p` if passed from command line). Note that by default we don't need any credentials here - that's why it is important to keep our node's API port hidden from the external network or configured properly with `--remote-auth` and `--remote-limit-api	` [configuration options](https://iota.readme.io/v1.2.0/docs/install-iri) to avoid everyone to mess with our beloved node.
+To establish a connection, we need to specify where is our IRI, including the public API port (specified as `PORT` in the node's config file or as `-p` if passed from command line). Note that by default we don't need any credentials here - that's why it is important to keep our node's API port hidden from the external network or configured properly with `--remote-auth` and `--remote-limit-api` [configuration options](https://iota.readme.io/v1.2.0/docs/install-iri) to avoid everyone to mess with our beloved node.
 
 ```javascript
 const IOTA = require('iota.lib.js')
@@ -35,7 +33,7 @@ const iota = new IOTA({
 })
 ```
 
-Now let's see what our node tells us about itself using [`getNodeInfo`](https://iota.readme.io/v1.2.0/reference#getnodeinfo) call. All the API calls adhere to the clumsy Node.JS [callback passing convention](https://www.joyent.com/node-js/production/design/errors):
+Now let's see what our node tells us about itself using [`getNodeInfo`](https://iota.readme.io/v1.2.0/reference#getnodeinfo) call. All the API calls adhere to the clumsy Node.JS callback passing convention:
 
 ```javascript
 iota.api.getNodeInfo((error, nodeInfo) => {
@@ -54,7 +52,7 @@ What we'll get in return, apart from the node's version and footprint informatio
 Addresses in IOTA can be understood as distinct wallets that can store IOTA tokens. These are long enough strings, so that it's totally fine to generate it on your own and - in practice - be sure about its uniqueness. 
 
 In order to claim the ownership of a given address, we need to have the seed it was generated from - think of the seed as a private key to your box with wallets. The seed [needs to be generated securely](https://iotasupport.com/gui-newseed.shtml), probably not using the public websites that does it for you. The easiest would probably be to use macOS/Linux terminal and run:
- 
+
 ```
 cat /dev/urandom | LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1
 ```
@@ -136,5 +134,3 @@ iota.api.getLatestInclusion([hash], (error, inclusionStates) => {
 ```
 
 This procedure might look strange, as we're actually adding more and more duplicates to the Tangle - replay transaction is a separate transaction. We now probably need to track the "inclusion state" (status) of both the original and the replay transaction. We also need to replay it once again in case it doesn't get validated within a few minutes. All this comes with the cost of issuing a new transaction, but this is actually beneficial to the IOTA network as a whole because by doing this we're confirming another pair of transactions. And there are double-spending validation schemes implemented that ensures only one of the transactions will be finally confirmed.
-
-

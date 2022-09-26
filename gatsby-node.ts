@@ -1,16 +1,13 @@
 import type { GatsbyNode } from 'gatsby'
 import { allMarkdownRemarkData, GQLData } from './src/models/gql'
+import { loadTagGroups, TagGroup } from './src/tag-groups'
+import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
+import { IgnorePlugin } from 'webpack'
 
 const path = require('path')
 
 const _ = require('lodash')
-const fs = require('fs')
-const yaml = require('js-yaml')
-const webpack = require(`webpack`)
 const { queryPostsSlug } = require('./src/query-posts')
-
-
-type TagGroup = { name: string, tags: string[], groups?: TagGroup[] }
 
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
@@ -39,7 +36,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     })
   })
 
-  const ymlDocTags = yaml.load(fs.readFileSync('./tag-groups.yml', 'utf-8'))
+  const ymlDocTags = await loadTagGroups()
   // const tags = result.data.tagsGroup.group;
   await Promise.all(ymlDocTags.groups.map(async (group: TagGroup) => {
     const searchTags = JSON.stringify(group.tags)
@@ -50,7 +47,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
     Array.from({ length: numPages }).forEach((item, i) => {
       createPage({
-        path: `/blog/${_.kebabCase(group.name.toLowerCase())}/${i + 1}`,
+        path: `${blogListForTagGroupsBasePath(group)}/${i + 1}`,
         component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
         context: {
           groupTags: group.tags,
@@ -72,7 +69,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         const numPages = Math.ceil(posts.length / postsPerPage)
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
-            path: `/blog/${_.kebabCase(group.name.toLowerCase())}/${_.kebabCase(subTag.name.toLowerCase())}/${i + 1}`,
+            path: `${blogListForTagGroupsBasePath(group, subTag)}/${i + 1}`,
             component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
             context: {
               groupTags: subTag.tags,
@@ -309,15 +306,11 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const postsResult = postResult.data!.allMarkdownRemark.edges
 
   postsResult.forEach(post => {
-    const name = post.node.fileAbsolutePath
-      .split('/')
-      .pop()
-      .replace('.md', '')
-      .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, '')
+    const postNode = post.node
+    const nodeFileAbsolutePath: string = postNode.fileAbsolutePath
+    const currentPostTags: string[] = postNode.frontmatter.tags
 
-    const currentPostTags = post.node.frontmatter.tags
-
-    const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue: TagGroup[], currentValue: TagGroup) => {
+    const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue: string[], currentValue: TagGroup) => {
       if (currentValue.groups) {
         const flatteredGroup = currentValue.groups.reduce((previousValue, currentValue) => {
           if (currentPostTags.includes(currentValue.name)) {
@@ -347,11 +340,11 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     const relatedTags = [...flatteredYmlTags, ...currentPostTags]
 
     createPage({
-      path: '/blog/' + (post.node.frontmatter.slug || name),
+      path: blogPostUrlPath(postNode),
       component: path.resolve('./src/templates/PostTemplate.tsx'),
       context: {
-        slug: post.node.fields.slug,
-        fileAbsolutePath: post.node.fileAbsolutePath,
+        slug: postNode.fields.slug,
+        fileAbsolutePath: nodeFileAbsolutePath,
         relatedTags: relatedTags
       }
     })
@@ -427,23 +420,22 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
+    const nodeFilePath = (node as any).fileAbsolutePath
+    const nodeSlug = '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
+    console.log('nodeSlug', nodeSlug, 'for path', nodeFilePath)
     createNodeField({
       node,
       name: `slug`,
       // TODO: figure out correct type instead of as any
-      value: '/' + (node as any).fileAbsolutePath.split('/').splice(-2).join('/').replace('.md', '')
+      value: nodeSlug
     })
   }
 }
 export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ actions }) => {
   actions.setWebpackConfig({
-    resolve: {
-      fallback: {
-        fs: false
-      }
-    },
     plugins: [
-      new webpack.IgnorePlugin({
+      //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms#disable-widget-on-site
+      new IgnorePlugin({
         resourceRegExp: /^netlify-identity-widget$/
       })
     ]
