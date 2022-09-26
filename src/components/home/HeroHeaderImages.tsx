@@ -167,70 +167,70 @@ const HeroHeaderImages: React.FC = () => {
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Agnieszka_Homepage_kolaz.png'
-                alt={'Agnieszka'}
+                src='../../../static/images/hero-header/ula_collage_hp.png'
+                alt={'Ula'}
                 className='image-veritical'
                 placeholder='tracedSVG'
               />
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Mateusz_Homepage_kolaz.png'
-                alt={'Mateusz'}
-                className='image-veritical'
-                placeholder='tracedSVG'
-              />
-            </ImagesVertical>
-            <StaticImage
-              objectFit={'cover'}
-              objectPosition={'50% 20%'}
-              src='../../../static/images/hero-header/Lukasz_Homepage_Small.png'
-              alt={'Łukasz'}
-              className='big-image'
-              placeholder='tracedSVG'
-              quality={90}
-            />
-            <ImagesVertical>
-              <StaticImage
-                objectFit={'cover'}
-                objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/ola_kolaz_homepage_passion.png'
-                alt={'Ola'}
-                className='image-veritical'
-                placeholder='tracedSVG'
-              />
-              <StaticImage
-                objectFit={'cover'}
-                objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Szymek_Homepage_kolaz.png'
-                alt={'Szymon'}
-                className='image-veritical'
-                placeholder='tracedSVG'
-              />
-            </ImagesVertical>
-            <StaticImage
-              objectFit={'cover'}
-              objectPosition={'50% 20%'}
-              src='../../../static/images/hero-header/Iza_Homepage_kolaz.png'
-              alt={'Iza'}
-              className='big-image'
-              placeholder='tracedSVG'
-              quality={90}
-            />
-            <ImagesVertical>
-              <StaticImage
-                objectFit={'cover'}
-                objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/PiotrR_Homepage_kolaz.png'
+                src='../../../static/images/hero-header/piotr_collage_hp.png'
                 alt={'Piotr'}
                 className='image-veritical'
                 placeholder='tracedSVG'
               />
+            </ImagesVertical>
+            <StaticImage
+              objectFit={'cover'}
+              objectPosition={'50% 20%'}
+              src='../../../static/images/hero-header/michal_collage_hp.png'
+              alt={'Michał'}
+              className='big-image'
+              placeholder='tracedSVG'
+              quality={90}
+            />
+            <ImagesVertical>
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Wojtek_Homepage_kolaz.png'
-                alt={'Wojtek'}
+                src='../../../static/images/hero-header/katarzyna_collage_hp.png'
+                alt={'Kasia'}
+                className='image-veritical'
+                placeholder='tracedSVG'
+              />
+              <StaticImage
+                objectFit={'cover'}
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/rafal_collage_hp.png'
+                alt={'Rafał'}
+                className='image-veritical'
+                placeholder='tracedSVG'
+              />
+            </ImagesVertical>
+            <StaticImage
+              objectFit={'cover'}
+              objectPosition={'50% 20%'}
+              src='../../../static/images/hero-header/asia_collage_hp.png'
+              alt={'Asia'}
+              className='big-image'
+              placeholder='tracedSVG'
+              quality={90}
+            />
+            <ImagesVertical>
+              <StaticImage
+                objectFit={'cover'}
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/michał_l_collage_hp.png'
+                alt={'Michał'}
+                className='image-veritical'
+                placeholder='tracedSVG'
+              />
+              <StaticImage
+                objectFit={'cover'}
+                objectPosition={'50% 20%'}
+                src='../../../static/images/hero-header/Patryk_collage_hp.png'
+                alt={'Patryk'}
                 className='image-veritical'
                 placeholder='tracedSVG'
               />
