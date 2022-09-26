@@ -194,7 +194,7 @@ const HeroHeaderImages: React.FC = () => {
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/katarzyna_collage_hp.png'
+                src='../../../static/images/hero-header/kasia_collage_hp2.png'
                 alt={'Kasia'}
                 className='image-veritical'
                 placeholder='tracedSVG'
