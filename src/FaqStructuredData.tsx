@@ -1,6 +1,7 @@
 import { WithContext, Question, FAQPage } from 'schema-dts'
 import { StructuredData } from './StructuredData'
 import React, { useMemo } from 'react'
+import removeMarkdown from 'markdown-to-text'
 
 export const FaqStructuredData = ({ faqs }: any) => {
   const FAQ = faqs.map(({ frontmatter }: any) => {
@@ -11,7 +12,7 @@ export const FaqStructuredData = ({ faqs }: any) => {
       name: question,
       acceptedAnswer: {
         '@type': 'Answer',
-        text: answer,
+        text: removeMarkdown(answer),
       },
     }
 
