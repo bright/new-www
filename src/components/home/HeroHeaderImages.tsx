@@ -194,8 +194,8 @@ const HeroHeaderImages: React.FC = () => {
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/kasia_collage_hp2.png'
-                alt={'Kasia'}
+                src='../../../static/images/hero-header/patryk_s_collage_hp.png'
+                alt={'Patryk'}
                 className='image-veritical'
                 placeholder='tracedSVG'
               />
@@ -229,8 +229,8 @@ const HeroHeaderImages: React.FC = () => {
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/patryk_s_collage_hp.png'
-                alt={'Patryk'}
+                src='../../../static/images/hero-header/kasia_collage_hp2.png'
+                alt={'Kasia'}
                 className='image-veritical'
                 placeholder='tracedSVG'
               />
