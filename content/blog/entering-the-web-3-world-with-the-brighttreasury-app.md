@@ -141,6 +141,6 @@ Let's assume that you first log in with a Web3 account. In that case, you just n
 
 This is an example of the account provided with the Web3 account info as well as email details.
 
-![Account Details BrightTreasury](/images/account_info2.png)
+![Account Details on BrightTreasury](/images/account_info2.png)
 
 I hope you are ready to visit the Web3 world. Let your first step be our [BrightTreasury app](https://treasury.bright.dev?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=web3account&utm_id=content_marketing). 🙂

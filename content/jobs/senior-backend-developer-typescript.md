@@ -5,7 +5,7 @@ subtitle: ONGOING
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Backend Team Bright Inventions
 hours: Full-time
-salary: 22 000 - 26 000 PLN + VAT (B2B) or 18 300 - 20 750 PLN gross (UoP)
+salary: 22 000 - 28 000 PLN + VAT (B2B) or 18 300 - 23 250 PLN gross (UoP)
 salary_min: 18000
 salary_max: 22000
 working time: 26 paid days off + Polish bank holidays

@@ -28,6 +28,8 @@ I guess **I always wanted to explore as many aspects of programming as I possibl
 
 Apart from Java and Kotlin, I also programmed in Swift for a couple of months to have that experience. I also tried PHP but this was a one-sided friendship which I didn't reciprocate.
 
+<div class='block-button'><h2>We are looking for Android Developers</h2><div>Join Szymek and other bright Android developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/jobs/senior-android-developer"><button>Apply and join Szymek</button></a></div>
+
 ## So I guess you studied Informatics?
 
 Actually, I didn’t. 🙂 I studied Control Engineering at the Gdańsk University of Technology. I went to college exclusively to figure out what I wanted to do in life. As it turned out it wasn't Control Engineering after all. 😉
