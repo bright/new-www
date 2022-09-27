@@ -202,7 +202,7 @@ const HeroHeaderImages: React.FC = () => {
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/rafal_collage_hp.png'
+                src='../../../static/images/hero-header/michal_l2_collage_hp.png'
                 alt={'Rafał'}
                 className='image-veritical'
                 placeholder='tracedSVG'
@@ -211,7 +211,7 @@ const HeroHeaderImages: React.FC = () => {
             <StaticImage
               objectFit={'cover'}
               objectPosition={'50% 20%'}
-              src='../../../static/images/hero-header/asia_collage_hp.png'
+              src='../../../static/images/hero-header/Asia_Homepage_Large.png'
               alt={'Asia'}
               className='big-image'
               placeholder='tracedSVG'
@@ -221,15 +221,15 @@ const HeroHeaderImages: React.FC = () => {
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/michał_l_collage_hp.png'
-                alt={'Michał'}
+                src='../../../static/images/hero-header/rafal_h_collage_hp.png'
+                alt={'Rafał'}
                 className='image-veritical'
                 placeholder='tracedSVG'
               />
               <StaticImage
                 objectFit={'cover'}
                 objectPosition={'50% 20%'}
-                src='../../../static/images/hero-header/Patryk_collage_hp.png'
+                src='../../../static/images/hero-header/patryk_s_collage_hp.png'
                 alt={'Patryk'}
                 className='image-veritical'
                 placeholder='tracedSVG'
