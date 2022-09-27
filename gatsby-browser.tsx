@@ -10,19 +10,19 @@ import type { GatsbyBrowser } from 'gatsby'
 import { GlobalStyle } from './src/styles/global'
 import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-google-analytics'
 
-// let nextRoute = ''
+let nextRoute = ''
 
-// export const onPreRouteUpdate: GatsbyBrowser['onPreRouteUpdate'] = ({ location }) => {
-//   nextRoute = location.pathname
-// }
+export const onPreRouteUpdate: GatsbyBrowser['onPreRouteUpdate'] = ({ location }) => {
+  nextRoute = location.pathname
+}
 
-// window.addEventListener('unhandledrejection', event => {
-//   if (/loading chunk \d* failed./i.test(event.reason)) {
-//     if (nextRoute) {
-//       window.location.pathname = nextRoute
-//     }
-//   }
-// })
+window.addEventListener('unhandledrejection', event => {
+  if (/loading chunk \d* failed./i.test(event.reason)) {
+    if (nextRoute) {
+      window.location.pathname = nextRoute
+    }
+  }
+})
 
 export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => (
   <>
