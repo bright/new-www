@@ -69,6 +69,8 @@ In UX design color, like iconography, has a special role. **Color coding is simp
 
 As it is common in the digital world it originated from the past. 😉 **Color coding is ubiquitous and takes a huge part in our daily communication**. It has been used in industries like electricity or hydraulics. 
 
+<div class="important-info"><h2>undefined</h2><div>Color coding is simply a way to display information using different colors and shades.</div></div>
+
 If you ever renovated your apartment, you probably know that the plumbers' rule says that pipes with hot water are marked with a red color and pipes with cold water with a blue one. 
 
 In the case of electricity, in almost every electrical drawing you will find a ground marked in yellow and green colors. These are examples of color-code good practices from other industries. 
