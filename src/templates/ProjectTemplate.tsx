@@ -6,6 +6,9 @@ import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import variables from '../styles/variables'
+import { Helmet } from 'react-helmet'
+import { resolveUrl } from '../meta/resolve-url'
+import { getSrc } from 'gatsby-plugin-image'
 
 const Container = styled.div`
   max-width: 960px;
@@ -81,6 +84,9 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Page>
+      <Helmet>
+        {frontmatter.image && <meta property='og:image' content={resolveUrl(getSrc(frontmatter.image)!)} />}
+      </Helmet>
       <HelmetTitleDescription title={frontmatter.title} description={frontmatter.description} />
 
       <Container className='container'id='project'>
@@ -102,6 +108,11 @@ export const pageQuery = graphql`
         slug
         title
         description
+        image {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }
