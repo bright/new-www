@@ -1,13 +1,13 @@
 ---
 team_members:
   - bartosz
-  - krzysiek h
   - szymek
   - kasia
   - mateusz
   - janek
   - maja
   - agnieszka
+  - robert
 faqs:
   - web development 1
   - web development 2
