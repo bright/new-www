@@ -4,10 +4,10 @@ team_members:
   - rafal h
   - robert
   - lukasz-k
-  - alisa
   - piotr_r
   - kasia
   - maja
+  - joanna-c
 faqs:
   - blockchain 1
   - blockchain 2
