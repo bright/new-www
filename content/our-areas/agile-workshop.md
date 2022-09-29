@@ -1,9 +1,9 @@
 ---
 team_members:
   - kasia
-  - alisa
   - mateusz
   - kasia g
+  - michal k
 faqs:
   - agile workshop 1
   - agile workshop 2
