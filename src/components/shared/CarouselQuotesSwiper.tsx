@@ -239,16 +239,6 @@ export const CarouselQuotesSwiper: React.FC = () => {
     },
     {
       avatar_hover: (
-        <StaticImage src='../../../static/images/krzysiek_passions2.png' alt='Krzysiek' className='quote-img' />
-      ),
-      short_name: 'Krzysiek',
-      bio: 'Web Developer',
-      slug: 'krzysiek-h',
-      quote:
-        'I like Bright Inventions culture of work. Especially, the flat structure of the company, lots of team retreats, after-work activities, and a team that does not act like some griper robots.',
-    },
-    {
-      avatar_hover: (
         <StaticImage src='../../../static/images/agata_passion_small.png' alt='Agata' className='quote-img' />
       ),
       short_name: 'Agata',
