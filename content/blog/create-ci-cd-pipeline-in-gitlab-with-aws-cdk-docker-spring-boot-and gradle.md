@@ -15,10 +15,11 @@ published: true
 ---
 CI/CD process is the backbone of every good performing team. It facilitates the development, testing, and deploying of an app.
 
-Let’s precisely define our targets:
+Let’s define behaviour of our CI/CD pipeline:
 
-Our app is built and tested with every commit pushed to our repo. For commits on the master branch, the app is deployed to the stage environment on AWS (after the successful build and test phase).  \
-Every pipeline on the master branch has an option to deploy the app to the production environment.
+* the app is built and tested with every commit pushed to the repo
+* the app is deployed to the stage environment for commits pushed to the master branch (after the successful build and test phase)
+* every pipeline on the master branch has an option to deploy the app to the production environment
 
 Deploy will consist with:
 
@@ -101,13 +102,16 @@ Before creating and pushing docker images to ECR we must first create an ECR rep
 
 ![](https://cdn-images-1.medium.com/max/1600/1*COp66eLs_JAtg7aciwYEeA.png)
 
-Second, we must provide proper ci/cd variables in GitLab from AWS: AWS_ACCOUNT_ID, AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
+Second, we must provide proper ci/cd variables in GitLab from AWS: 
+
+```
+AWS_ACCOUNT_ID, AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
+```
 
 > I created a user with admin privileges and I use its credentials in GitLab — it is only for the purpose of this guide and it’s not recommended technic for “real projects”
 
 ![](https://cdn-images-1.medium.com/max/1600/1*mClQYzaxrZD9KpBa3q7ZfA.png)
-
-CI/CD Settings Variables 
+*CI/CD Settings Variables* 
 
 After those steps, we can define a Dockerfile and a job in our pipeline that will create and push docker image.
 
@@ -380,14 +384,14 @@ workflow:
 
 We have defined `.deploy` configuration, `deploy_stage` and `deploy_prod` jobs.
 
-After the success of `deploy_stage` job, we should be able to hit on `actuator/health` endpoint. The URL to the service will be displayed in job log and also will be available in CloudFormation in stack outputs.
+After the success of `deploy_stage` job, we should be able to hit on the `actuator/health` endpoint. The URL to the service will be displayed in job log and also will be available in CloudFormation in the stack outputs.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*HzcOBUOneMlaf33ddneD4g.png)
-*﻿deploy_stage job log*
+*deploy_stage job log*
 
 
 ![](https://cdn-images-1.medium.com/max/1600/1*DrjxlDNsFXaGhHFUxaF-hg.png)
-*CloudFormation backend-stage-app-service outputs﻿*
+*CloudFormation backend-stage-app-service outputs*
 
 ```
 curl -XGET http://backe-backe-xrbo7418s6uv-1422097338.eu-central-1.elb.amazonaws.com:8080/actuator/health
