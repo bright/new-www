@@ -20,7 +20,7 @@ published: true
 
 ## What is an ePOS system?
 
-Point of Sale (POS) is the checkout for customers who purchase goods or services. It is the place to execute the payment.
+Point of Sale (POS) is the checkout for customers who purchase goods or services. It's the place to execute the payment.
 
 <div class="important-info"><h2>Electronic Point of Sale</h2><div>Modern ePOS (electronic Point of Sale) is a combination of hardware and software that enable transactions.</div></div>
 
