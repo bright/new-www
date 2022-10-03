@@ -9,7 +9,7 @@ date: 2022-09-30T11:51:07.433Z
 title: Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and Gradle
 layout: post
 image: /images/mario_blog.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -94,7 +94,7 @@ In the configuration, two stages were defined:
 
 That simple configuration allows us to introduce a continuous integration process in our development.
 
-<div class='block-button'><h2>Reuse Gradle Build Cache on GitLab</h2><div>To speed up our builds we can use Gradle cache. Here is a nice article on how to do it with GitLab.</div><a href="https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/"https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/"><button>Read an article</button></a></div>
+To speed up our builds we can use Gradle cache. [Here](https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/) is a nice article on how to do it with GitLab.
 
 ### Creating docker image and pushing to ECR
 
