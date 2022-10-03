@@ -108,7 +108,7 @@ Second, we must provide proper ci/cd variables in GitLab from AWS:
 AWS_ACCOUNT_ID, AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 ```
 
-<div class="important-info"><div>> I created a user with admin privileges and I use its credentials in GitLab — it is only for the purpose of this guide and it’s not recommended technic for “real projects”.</div></div>
+<div class="important-info"><div>I created a user with admin privileges and I use its credentials in GitLab — it is only for the purpose of this guide and it’s not recommended technic for “real projects”.</div></div>
 
 ![](https://cdn-images-1.medium.com/max/1600/1*mClQYzaxrZD9KpBa3q7ZfA.png)
 *CI/CD Settings Variables* 
@@ -290,7 +290,8 @@ export function projectEnvSpecificName(name: string = ""): string {
 }
 ```
 
-A lot of stuff is going on here. Let’s explain a little ;)\
+A lot of stuff is going on here. Let’s explain a little. 😉
+
 First, we are creating `VPC` and ECS `cluster`. Then we are using `ApplicationLoadBalancedFargateService`. This construct will set up fargate service running on ecs cluster frontend by public application load balancer. The important thing here is passing our app image from ECR with a tag equal to commit sha value (image with commit sha tag was pushed in the previous step).
 
 ```
@@ -398,7 +399,7 @@ curl -XGET http://backe-backe-xrbo7418s6uv-1422097338.eu-central-1.elb.amazonaws
 {"status":"UP"}
 ```
 
-<div class="important-info"><div>> Remember to destroy unused stacks and remove unused images in ECR to reduce costs in AWS!</div></div>
+<div class="important-info"><div>Remember to destroy unused stacks and remove unused images in ECR to reduce costs in AWS!</div></div>
 
 ### Congratulations!
 
