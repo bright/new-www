@@ -15,7 +15,7 @@ technology:
   - Android SDK
   - Android Studio
   - Kotlin
-  - JetPack Compose
+  - Bluetooth 
   - Kotlin Coroutines
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
@@ -46,33 +46,31 @@ description: We are looking for a Senior Android Developer who would like to
 ---
 ## about the role
 
-We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application 
+We are looking for **a skilled Senior Android Developer** whose main goal will be enhancing an innovative Android application that supports **Bluetooth Low Energy** concepts. The main functionality of the app is device location tracking. **The app works similarly to AirTag** (encrypted location, constant change of signature data). The system is complex and includes many reliant elements such as trackers with their own firmware, SDK, MQTT router and backend. 
 
-The project team involves now **seven talented and experienced developers as well as one QA enginees** who take care of keeping the high quality of the code and the app itself.
+The project team involves **seven experienced developers as well as one QA engineer** who take care of keeping the high quality of the code and the app itself. 
 
 ## your responsibilities 🧑🏻‍💻👩🏻‍💻
 
-* **developing new payment features** of the app (we are entering a new market) as well as taking care of **UI reimplementation**
-* integration with another food delivery marketplace 
-* **WebSocket service and monitoring**
-* writing **automation tests in Espresso** together with QA core 
-* direct contact with clients and advising in their decision making process
-* knowledge sharing and mentoring with the rest of a team
+* developing **new Bluetooth functionalities**
+* **application's performance optimization**
+* **cryptography** tasks 
+* knowledge sharing with the rest of a team
 
 ## preferred qualifications ✅
 
 * at least 4 years of experience in Android development 
 * deep understanding and knowledge of **Kotlin**
 * familiarity with **Android changes from KitKat to Q**
+* knowledge of **Blueetooth standards and BLE related specifications**
 * good understanding of the most popular Google libraries
-* familiarity with **Continuous Integration** and other process automation tools
 * strong problem solving and analytical thinking skills
 * very good communication skills both in English and Polish 
 * positive attitude :)
 
 ## we would also appreciate 🙌
 
-* your experience and understanding of Kotlin coroutines, Kotlin serialisation and Data Binding
+* familiarity with **Continuous Integration** and other process automation tools
 * your knowledge of JetPack Compose 
 
 ## perks & benefits 🚀🚀🚀
