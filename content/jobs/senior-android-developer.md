@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: Senior Android Developer
-subtitle: OPENING SOON
+subtitle: ONGOING
 image-alt-job: Android Team Bright Inventions
 hours: full-time
 salary: 20 000 - 28 000 PLN + VAT (B2B) or 16 600 - 23 250 PLN gross (UoP)
@@ -27,18 +27,18 @@ links_more_about_us: >-
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: Do you have any questions? Ask Paulina from our Bright team!
-name_recruiter: Paulina
-image_recruiter_info: /images/paulina_recruiter.png
-image_alt_recruiter_info: Paulina Trendel
-button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+name_recruiter: Agata
+image_recruiter_info: /images/agata_recruiter.png
+image_alt_recruiter_info: Agata Mietlińska
+button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Kotlin team
 redirect_from:
   - /android-developer
   - /android-developer/
 published: true
 show_recruiter_info: true
-order: 10
+order: 2
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Senior Android Developer who would like to
@@ -46,9 +46,9 @@ description: We are looking for a Senior Android Developer who would like to
 ---
 ## about the role
 
-We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application for one of our main clients from Israel and the UK. **[The application is an intelligent point-of-sale created for the world’s top food ordering company - JustEat.](https://www.justeatpos.co.uk/)** 
+We are looking for **a skilled Senior Android Developer** whose main goal will be to build and enhance innovative mobile application 
 
-The Android team involves now **seven talented and experienced Android developers as well as two QA engineers** who take care of keeping the high quality of the code and the app itself.
+The project team involves now **seven talented and experienced developers as well as one QA enginees** who take care of keeping the high quality of the code and the app itself.
 
 ## your responsibilities 🧑🏻‍💻👩🏻‍💻
 
