@@ -94,7 +94,7 @@ In the configuration, two stages were defined:
 
 That simple configuration allows us to introduce a continuous integration process in our development.
 
-<div class="important-info"><h2>Reuse Gradle Build Cache on GitLab</h2><div>To speed up our builds we can use Gradle cache: here is a nice article on how to do it with GitLab. GitLab Gradle The Gradle Build Cache is particularly well suited to speed up your CI/CD build times.<a href="https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/"https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/</div></div>
+<div class='block-button'><h2>Reuse Gradle Build Cache on GitLab</h2><div>To speed up our builds we can use Gradle cache. Here is a nice article on how to do it with GitLab.</div><a href="https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/"https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/"><button>Read an article</button></a></div>
 
 ### Creating docker image and pushing to ECR
 
@@ -107,8 +107,6 @@ Second, we must provide proper ci/cd variables in GitLab from AWS:
 ```
 AWS_ACCOUNT_ID, AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 ```
-
-
 
 <div class="important-info"><div>> I created a user with admin privileges and I use its credentials in GitLab — it is only for the purpose of this guide and it’s not recommended technic for “real projects”.</div></div>
 
@@ -399,6 +397,7 @@ curl -XGET http://backe-backe-xrbo7418s6uv-1422097338.eu-central-1.elb.amazonaws
 
 {"status":"UP"}
 ```
+
 <div class="important-info"><div>> Remember to destroy unused stacks and remove unused images in ECR to reduce costs in AWS!</div></div>
 
 ### Congratulations!
