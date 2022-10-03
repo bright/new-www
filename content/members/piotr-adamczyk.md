@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: piotr-a
-ex: false
+ex: true
 slug: piotr-a
 name: Piotr Adamczyk
 short_name: Piotr
