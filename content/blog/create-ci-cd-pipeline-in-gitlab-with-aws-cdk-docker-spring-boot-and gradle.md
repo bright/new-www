@@ -93,10 +93,7 @@ In the configuration, two stages were defined:
 
 That simple configuration allows us to introduce a continuous integration process in our development.
 
-> To speed up our builds we can use Gradle cache: here is a nice article on how to do it with GitLab 
->
-> [**Reuse Gradle Build Cache on GitLab**\
-> *GitLab Gradle The Gradle Build Cache is particularly well suited to speed up your CI/CD build times. But to set it up…*blog.jdriven.com](https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/ "https\://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/")[](https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/)
+<div class="important-info"><h2>Reuse Gradle Build Cache on GitLab</h2><div>To speed up our builds we can use Gradle cache: here is a nice article on how to do it with GitLab. GitLab Gradle The Gradle Build Cache is particularly well suited to speed up your CI/CD build times.<a href="https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/"https://blog.jdriven.com/2021/11/reuse-gradle-build-cache-on-gitlab/</div></div>
 
 ### Creating docker image and pushing to ECR
 
