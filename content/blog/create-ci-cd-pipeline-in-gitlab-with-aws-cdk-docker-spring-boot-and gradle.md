@@ -211,8 +211,8 @@ import * as ecr from "aws-cdk-lib/aws-ecr";
 
 export class InfrastructureStack extends Stack {
 
-  TAG_COMMIT: string = process.env.TAG_COMMIT || 'latest';
-  ECR_REPOSITORY_NAME: string = "ci-cd-demo-app"
+  private readonly TAG_COMMIT: string = process.env.TAG_COMMIT || 'latest'
+  private readonly ECR_REPOSITORY_NAME: string = "ci-cd-demo-app"
 
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
@@ -299,7 +299,7 @@ First, we are creating `VPC` and ECS `cluster`. Then we are using `ApplicationLo
 image: ContainerImage.fromEcrRepository(ecrRepositoryForService(this,this.ECR_REPOSITORY_NAME), this.TAG_COMMIT)
 ```
 
-Also we are identifying every resource with the project and environment name.
+Also we are identifying every resource with `projectEnvSpecificName`. It will help us distinguish AWS resources for different environments and projects.
 
 In `/bin/infarstructrue.ts` we define creation of `infrastructrue-stack` and starting point of cdk:
 
