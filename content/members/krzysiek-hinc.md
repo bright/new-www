@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: krzysiek h
-ex: false
+ex: true
 slug: krzysiek-h
 name: Krzysiek Hinc
 short_name: Krzysiek
