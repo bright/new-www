@@ -8,12 +8,14 @@ tags:
 date: 2022-09-30T11:51:07.433Z
 title: Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and Gradle
 layout: post
-image: https://www.euractiv.com/wp-content/uploads/sites/2/2022/03/shutterstock_2001825908-800x450.jpg
+image: /images/mario_blog.png
 hidden: true
 comments: true
 published: true
 ---
 CI/CD process is the backbone of every good performing team. It facilitates the development, testing, and deploying of an app.
+
+<div class="image"><img src="/images/mario_blog.png" alt="pipeline" title="undefined"  /> </div>
 
 Let’s define behaviour of our CI/CD pipeline:
 
@@ -389,7 +391,6 @@ After the success of `deploy_stage` job, we should be able to hit on the `actuat
 ![](https://cdn-images-1.medium.com/max/1600/1*HzcOBUOneMlaf33ddneD4g.png)
 *deploy_stage job log*
 
-
 ![](https://cdn-images-1.medium.com/max/1600/1*DrjxlDNsFXaGhHFUxaF-hg.png)
 *CloudFormation backend-stage-app-service outputs*
 
@@ -398,7 +399,6 @@ curl -XGET http://backe-backe-xrbo7418s6uv-1422097338.eu-central-1.elb.amazonaws
 
 {"status":"UP"}
 ```
-
 
 > Remember to destroy unused stacks and remove unused images in ECR to reduce costs in AWS!
 
