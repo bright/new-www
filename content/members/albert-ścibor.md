@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: albert
-ex: false
+ex: true
 slug: albert
 name: Albert Ścibor
 short_name: Albert
