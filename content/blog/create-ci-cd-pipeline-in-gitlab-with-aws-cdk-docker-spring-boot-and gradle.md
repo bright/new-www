@@ -110,7 +110,7 @@ AWS_ACCOUNT_ID, AWS_REGION, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 
 
 
-<div class="important-info"><div>> I created a user with admin privileges and I use its credentials in GitLab — it is only for the purpose of this guide and it’s not recommended technic for “real projects”</div></div>
+<div class="important-info"><div>> I created a user with admin privileges and I use its credentials in GitLab — it is only for the purpose of this guide and it’s not recommended technic for “real projects”.</div></div>
 
 ![](https://cdn-images-1.medium.com/max/1600/1*mClQYzaxrZD9KpBa3q7ZfA.png)
 *CI/CD Settings Variables* 
@@ -399,8 +399,7 @@ curl -XGET http://backe-backe-xrbo7418s6uv-1422097338.eu-central-1.elb.amazonaws
 
 {"status":"UP"}
 ```
-
-> Remember to destroy unused stacks and remove unused images in ECR to reduce costs in AWS!
+<div class="important-info"><div>> Remember to destroy unused stacks and remove unused images in ECR to reduce costs in AWS!</div></div>
 
 ### Congratulations!
 
