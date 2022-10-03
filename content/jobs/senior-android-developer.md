@@ -46,7 +46,7 @@ description: We are looking for a Senior Android Developer who would like to
 ---
 ## about the role
 
-We are looking for **a skilled Senior Android Developer** whose main goal will be enhancing an innovative Android application that supports **Bluetooth Low Energy** concepts. The main functionality of the app is device location tracking. **The app works similarly to AirTag** (encrypted location, constant change of signature data). The system is complex and includes many reliant elements such as trackers with their own firmware, SDK, MQTT router and backend. 
+We are looking for **a skilled Senior Android Developer** whose main goal will be enhancing an innovative Android application that supports **Bluetooth Low Energy** concepts. **The main functionality of the app is device location tracking. The app works similarly to AirTag (encrypted location, constant change of signature data).** The system is complex and includes many reliant elements such as trackers with their own firmware, SDK, MQTT router and backend.
 
 The project team involves **seven experienced developers as well as one QA engineer** who take care of keeping the high quality of the code and the app itself. 
 
