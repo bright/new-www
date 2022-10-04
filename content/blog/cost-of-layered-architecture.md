@@ -2,10 +2,10 @@
 author: damian
 tags:
   - kotlin
-  - Architecture
   - jvm
   - benchmark
   - layered architecture
+  - backend
 date: 2022-08-02T10:41:15.387Z
 title: Cost of Layered Architecture
 layout: post
