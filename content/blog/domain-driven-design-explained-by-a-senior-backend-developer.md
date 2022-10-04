@@ -25,3 +25,5 @@ This is where **tactical DDD** kicks in. It brings a group of patterns and relat
 It allows us to detach things like communication details (if this is REST, GRPC, or anything else), persistence (SQL or NoSQL database), or form of authentication from the domain itself. 
 
 <div class="image"><img src="/images/two_levels_ddd.png" alt="Strategic and tactical levels of DDD" title="undefined"  /> </div>
+
+<div class="important-info"><div>Let’s take applying taxes as an example. Imagine our software is responsible for selling food. Depending on ingredients we might have higher or lower tax. If we will separate tax operations like calculating gross price, from technical details like how exactly we are retrieving tax value and from which database, we might be able to speak the same language in the code as with the domain experts. Our test cases for tax calculation might be readable by non-technical people while the storage can be easily changed e.g. due to performance reasons.</div></div>
