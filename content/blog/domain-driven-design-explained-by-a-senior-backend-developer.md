@@ -1,9 +1,9 @@
 ---
 author: michal k
 tags:
-  - DDD
   - business
   - development
+  - domain-driven design
 date: 2022-10-04T07:30:53.975Z
 title: Domain-Driven Design Explained by a Senior Backend Developer
 layout: post
@@ -44,11 +44,7 @@ It’s a really hard question to answer as it depends on many aspects. Let’s f
 
 As mentioned above **Domain-Driven Design starts way before we sit down and write code**. It’s happening in the form of strategic DDD. Sometimes during the phase of accumulating the knowledge, we will realize that business problem is really trivial and doesn’t need complex patterns from tactical DDD. It might also happen that the main challenge of the organization sits outside of the processes we were asked to implement. If none of the mentioned cases are valid we can implement our business logic using DDD building blocks like [Entities](/blog/domain-driven-design-in-kotlin-entities-lifecycle-management/), Value Objects, Services and so on (all of the elements can be found directly in Eric Evans book or on the diagram presented there).
 
-<﻿center>
-
-<div class="image"><img src="/images/ddd_graph.png" alt="Model-Driven Design" title="undefined"  /> </div>
-
-<﻿/center>
+<﻿center><div class="image"><img src="/images/ddd_graph.png" alt="Model-Driven Design" title="undefined"  /> </div><﻿/center>
 
 ## What are Domain-Driven Design principles?
 
