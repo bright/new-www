@@ -14,6 +14,8 @@ published: true
 ---
 **Are you looking for an introduction to Domain-Driven Design (DDD)? [Michał](/blog/beyond-code-meet-michal-senior-backend-developer/), a Senior Backend Dev with over 8 years of experience, gives you answers to the most popular Google searches about DDD. If you are a Domain-Driven Design newbie – keep on reading. 😉**
 
+<div class="image"><img src="/images/ddd_blog_cover.png" alt="Domain-Driven Design Explained" title="undefined"  /> </div>
+
 ## What is Domain-Driven Design? With example.
 
 Domain-Driven Design is a methodology of building software, created by Eric Evans and published as a book in 2003. In a nutshell, it’s about **focusing on the business problem we are trying to solve, rather than technology**. In detail, it **consists of two levels: strategic and tactical**. 
