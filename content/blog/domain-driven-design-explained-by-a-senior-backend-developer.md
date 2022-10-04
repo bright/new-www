@@ -42,4 +42,20 @@ It’s a really hard question to answer as it depends on many aspects. Let’s f
 
 As mentioned above **Domain-Driven Design starts way before we sit down and write code**. It’s happening in the form of strategic DDD. Sometimes during the phase of accumulating the knowledge, we will realize that business problem is really trivial and doesn’t need complex patterns from tactical DDD. It might also happen that the main challenge of the organization sits outside of the processes we were asked to implement. If none of the mentioned cases are valid we can implement our business logic using DDD building blocks like [Entities](/blog/domain-driven-design-in-kotlin-entities-lifecycle-management/), Value Objects, Services and so on (all of the elements can be found directly in Eric Evans book or on the diagram presented there).
 
+<﻿center>
+
 <div class="image"><img src="/images/ddd_graph.png" alt="Model-Driven Design" title="undefined"  /> </div>
+
+<﻿/center>
+
+## What are Domain-Driven Design principles?
+
+Firstly, we should be **focused on the business logic** and **base software design on domain design**. Besides, the business constantly evolves so should its model and system within that business. **Engineers should work in sync with domain experts** using the same language in order to keep a system up to date with the business process. Finally, the common language, called ubiquitous should be also used in code to describe the domain.
+
+## What to expect from a software agency with a DDD approach (as employee and client)?
+
+**Let me start from a client as from their perspective nothing should really change**. I mean, we as specialists should find a way to communicate with minimal overhead related to working with the new technique. It should be as smooth as possible. The only thing I can advise potential clients of such a DDD company is to “be open and trust them”. 
+
+Experts of certain domains can expect the engineers following DDD to ask a lot of questions which can make people tired. Business people only need to realize that such an approach of knowledge crunching is an important precondition before any code will be written. **The purpose is to avoid the huge cost of refactoring and reimplementing** and correcting our assumptions while we’re still working on a piece of paper.
+
+<div class="image"><img src="/images/dev_team.png" alt="DDD software agency" title="undefined"  /> </div>
