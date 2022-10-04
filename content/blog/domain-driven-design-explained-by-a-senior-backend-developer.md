@@ -27,3 +27,19 @@ It allows us to detach things like communication details (if this is REST, GRPC,
 <div class="image"><img src="/images/two_levels_ddd.png" alt="Strategic and tactical levels of DDD" title="undefined"  /> </div>
 
 <div class="important-info"><div>Let’s take applying taxes as an example. Imagine our software is responsible for selling food. Depending on ingredients we might have higher or lower tax. If we will separate tax operations like calculating gross price, from technical details like how exactly we are retrieving tax value and from which database, we might be able to speak the same language in the code as with the domain experts. Our test cases for tax calculation might be readable by non-technical people while the storage can be easily changed e.g. due to performance reasons.</div></div>
+
+## What is Domain-Driven Design in microservices?
+
+These terms are often used together, but let’s make it clear that one can live without the other.
+
+In terms of microservices (or any other architecture), DDD, especially its strategic part, **helps us find the most effective boundaries between business processes which we can then apply to encapsulate certain logic within services**. Ideally, those services should be totally independent from others and be able to bring business value to a customer without others’ work. Such services can be then implemented **using** **patterns from the tactical part of DDD**.
+
+## When to use the Domain-Driven Design?
+
+It’s a really hard question to answer as it depends on many aspects. Let’s first separate two levels of DDD. First, more high level, is **strategic Domain-Driven Design**. It is more about talking with domain experts, finding ubiquitous language, and building a common understanding of the processes among both business and tech people. It does not necessarily need to go down to the code itself. An example would be if, during conversations with domain experts, engineers find out there is not much of business logic and the application will be a simple CRUD (create, read, update, delete). However, if such conversations will result in complex processes, we could (or even should) continue with **tactical DDD** which boils down to building system from blocks and patterns described by Evans in his book.
+
+## How to implement Domain-Driven Design?
+
+As mentioned above **Domain-Driven Design starts way before we sit down and write code**. It’s happening in the form of strategic DDD. Sometimes during the phase of accumulating the knowledge, we will realize that business problem is really trivial and doesn’t need complex patterns from tactical DDD. It might also happen that the main challenge of the organization sits outside of the processes we were asked to implement. If none of the mentioned cases are valid we can implement our business logic using DDD building blocks like [Entities](/blog/domain-driven-design-in-kotlin-entities-lifecycle-management/), Value Objects, Services and so on (all of the elements can be found directly in Eric Evans book or on the diagram presented there).
+
+<div class="image"><img src="/images/ddd_graph.png" alt="Model-Driven Design" title="undefined"  /> </div>
