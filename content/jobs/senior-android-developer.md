@@ -62,7 +62,7 @@ The project team involves **seven experienced developers as well as one QA engin
 * at least 4 years of experience in Android development 
 * deep understanding and knowledge of **Kotlin**
 * familiarity with **Android changes from KitKat to Q**
-* knowledge of **Blueetooth standards and BLE related specifications**
+* knowledge of **Bluetooth standards and BLE related specifications**
 * good understanding of the most popular Google libraries
 * strong problem solving and analytical thinking skills
 * very good communication skills both in English and Polish 
