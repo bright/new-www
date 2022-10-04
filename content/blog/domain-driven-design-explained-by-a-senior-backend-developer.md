@@ -4,7 +4,7 @@ tags:
   - DDD
   - business
   - development
-date: 2022-10-04T07:08:05.593Z
+date: 2022-10-04T07:30:53.975Z
 title: Domain-Driven Design Explained by a Senior Backend Developer
 layout: post
 image: /images/ddd_blog_cover.png
@@ -67,3 +67,7 @@ Experts of certain domains can expect the engineers following DDD to ask a lot o
 It is hard to name something like a DDD tool, to be honest. One could name techniques used to understand the business flow and customer needs such as **Event Storming** or **User Story Mapping**, which can live also without DDD. On the other hand, we have a bunch of **UI tools** that help us facilitate sessions of gaining an understanding of the business. These might also be called DDD tools. When it comes to a physical meeting with domain experts and facilitating on-site workshops, a whiteboard, sticky notes and markers can be treated as DDD tools. Finally, once we start implementing our software based on the previous visualization and requirements, our **IDEs** and **Code Editors** will become DDD tools.
 
 <div class="image"><img src="/images/event_storming_ddd.png" alt="Event storming DDD" title="undefined"  /> </div>
+
+## What DDD books do you recommend?
+
+I will go first with the most obvious choice which is **“Domain-Driven Design: Tackling Complexity in the Heart of Software” by Eric Evans**. He is the author of DDD and the book contains his huge experience standardized and written down. I wouldn’t recommend it for very beginners though. The language used by Evans is quite sophisticated and those 500+ pages might be overwhelming for newbies. I would start with some blog posts and presentations as an introduction to DDD to get the basics, then move to some implementation examples in Your favorite technology and finally go to the Bible.
