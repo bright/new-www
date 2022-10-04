@@ -57,6 +57,7 @@ interface RawGroup {
 function toGroup(rawGroup: RawGroup, parent?: TagGroup): TagGroup {
   return new TagGroup({
     name: rawGroup.name,
+    slug: rawGroup.slug,
     tags: rawGroup.tags,
     parent: parent,
     groups: (parent) => rawGroup?.groups?.map(rawSubGroup => toGroup(rawSubGroup, parent)) ?? []
