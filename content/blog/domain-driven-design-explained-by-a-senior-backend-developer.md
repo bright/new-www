@@ -1,9 +1,9 @@
 ---
 author: michal k
 tags:
-  - DDD
   - business
   - development
+  - domain-driven design
 date: 2022-10-04T07:30:53.975Z
 title: Domain-Driven Design Explained by a Senior Backend Developer
 layout: post
