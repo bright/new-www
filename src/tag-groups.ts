@@ -4,6 +4,7 @@ import * as path from 'path'
 
 interface TagGroupProps {
   name: string,
+  slug?: string,
   tags: string[],
   parent?: TagGroup,
   groups: (parent: TagGroup) => TagGroup[]
@@ -11,18 +12,21 @@ interface TagGroupProps {
 
 export class TagGroup {
   readonly name: string
+  readonly slug: string | undefined
   readonly tags: string[]
   readonly groups: TagGroup[]
   readonly parent: TagGroup | undefined
 
   constructor({
                 name,
+                slug,
                 tags,
                 groups,
                 parent
               }: TagGroupProps) {
     this.name = name
     this.tags = tags
+    this.slug = slug
     this.parent = parent
     this.groups = groups(this)
   }
@@ -45,6 +49,7 @@ export class TagGroup {
 
 interface RawGroup {
   name: string
+  slug?: string
   groups?: RawGroup[]
   tags: string[]
 }
