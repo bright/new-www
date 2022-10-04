@@ -1,9 +1,9 @@
 import type { TagGroup } from './tag-groups'
-import _ from 'lodash'
 import { urlSegmentForContentPath } from './url-segment-for-content-path'
+import { kebabCase } from './helpers/pathHelpers'
 
 export function blogListForTagGroupsBasePath(...tagGroups: TagGroup[]) {
-  return `/blog/${tagGroups.map(group => group.slug ?? _.kebabCase(group.name)).join('/')}`
+  return `/blog/${tagGroups.map(group => kebabCase(group.name.toLowerCase())).join('/')}`
 }
 
 export function blogPostUrlPath(postNode: { frontmatter: { slug?: string }, fileAbsolutePath: string }) {

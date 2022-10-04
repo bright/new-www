@@ -31,7 +31,6 @@ groups:
           - javascript
           - JavaScript
       - name: iOS
-        slug: iOS
         # /blog/topics/development/iOS
         tags:
           - iOS
