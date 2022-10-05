@@ -4,6 +4,8 @@ secondAuthor: izabela
 tags:
   - bright story
   - blockchain
+  - inspiration
+  - development
 date: 2022-10-05T08:47:36.209Z
 title: Solving Problems with Code for over 12 Years. Meet Agnieszka – Senior
   Fullstack Developer
