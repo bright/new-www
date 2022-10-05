@@ -90,3 +90,5 @@ We talked with the Substrate community, represented by [Parity](https://www.pari
 <div class="image"><img src="/images/bouldering_passion.png" alt="Agnieszka's passions" title="undefined"  /> </div>
 
 Yes, **I actually have been climbing longer than working as a programmer**. That has been a passion of mine and my husband, [Paweł](/about-us/pawel-o/). I work out 3 times a week. Every family vacation includes bouldering. Our older daughter (age 6) has just started her first climbing. 🙂 My dream is to try Deep Water Solo in Majorca and experience climbing in the USA.
+
+<div class='block-button'><h2>Join Agnieszka</h2><div>We are looking for a Fullstack Developer who has already had experience with TypeScript and Node.js. Apply and work with one of our clients from Israel, Germany, or the UK.</div><a href="Apply and join our team"><button>/jobs/fullstack-developer-nodejs-react</button></a></div>
