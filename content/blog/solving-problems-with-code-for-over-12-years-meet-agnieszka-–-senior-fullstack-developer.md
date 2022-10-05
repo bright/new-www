@@ -46,3 +46,5 @@ I had a chance to learn a lot of new technologies here and I am grateful that Mi
 When I joined Bright Inventions in 2015 only 8 people worked here. Now we have over 70 team members.
 
 During that time I had two maternity leaves. When I left for the first time there were 8 people and only a couple more when I came back. But when I left to have my second baby the team was doubled, from 20 to 40 people. Obviously, in terms of organization, some things changed for good, especially after [Ula](/about-us/ula/) joined the company. However, **the essential things became the same. The things that really matter**.
+
+<div class="image"><img src="/images/brightteamretreat.png" alt="Bright Inventions Team Retreat" title="undefined"  /> </div>
