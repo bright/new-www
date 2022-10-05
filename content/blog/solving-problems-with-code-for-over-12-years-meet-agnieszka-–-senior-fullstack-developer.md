@@ -62,3 +62,13 @@ Yes, I tend to become close to my workplace. I need to work at a place where I c
 For me, it wasn’t that difficult. Even after my second baby when I had to come back in the middle of the pandemic. Still, **everything in the company was organized in a way that I didn’t feel like a stranger**. I also didn't feel like I missed much in terms of technology. You know, I am a programmer for over a decade so what were those months away on maternity leave for me? It was like nothing. 
 
 I must say that coming back to my other passion (bouldering) was much more challenging. My body struggled much more to adjust after having babies. My brain was fine with it and ready to get back to work. 😀
+
+## What is the key to successful teamwork in software development?
+
+**Everyone has to understand that we have a common goal here**. Our goal is to solve the existing problems for a client. If only some team member assumes that someone within a team has bad intentions or someone starts to complain about a project then it won’t work. If every team member realizes that all of us try our best at work, then a team has a chance to meet its common objectives.
+
+## You are one of our Substrate enthusiasts. Is blockchain something close to your heart?
+
+[Substrate](/blog/5-benefits-of-substrate-blockchain/) is quite exciting because it has the potential to make blockchain more accessible. However in general I have mixed feelings about blockchain. It’s a young tech that gives many possibilities but unfortunately is often trivialized by identifying it with cryptocurrencies. 
+
+<div class="image"><img src="/images/agnieszka_quote_crypto.png" alt="Agnieszka's quote on blockchain" title="undefined"  /> </div>
