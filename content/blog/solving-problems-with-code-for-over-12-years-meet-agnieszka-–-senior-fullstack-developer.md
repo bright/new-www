@@ -9,7 +9,7 @@ title: Solving Problems with Code for over 12 Years. Meet Agnieszka – Senior
   Fullstack Developer
 layout: post
 image: /images/brightstoryagnieszka.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
