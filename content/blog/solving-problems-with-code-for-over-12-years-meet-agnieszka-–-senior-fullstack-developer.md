@@ -4,8 +4,8 @@ secondAuthor: izabela
 tags:
   - bright story
   - blockchain
-date: 2022-10-05T06:00:21.786Z
-title: Solving Problems with Code for over 12 years. Meet Agnieszka – Senior
+date: 2022-10-05T07:33:50.418Z
+title: Solving Problems with Code for over 12 Years. Meet Agnieszka – Senior
   Fullstack Developer
 layout: post
 image: /images/brightstoryagnieszka.png
