@@ -21,9 +21,9 @@ published: true
 
 I used to differentiate that but I don’t do that anymore. Now **I look at a system as a whole**. Problems that need to be solved are much closer to my heart. You will find them on the backend and frontend side as well. It’s the same with the technology you use. It shouldn’t be your number one focus. **Solving the problem is more important than the tool you will use to do it**.
 
-<div class="image"><img src="/images/agnieszka_quote_solving.png" alt="Agnieszka's quote on solving problems" title="undefined"  /> </div>
-
 **If you are a good developer, it doesn’t matter what language or technology you use**. If you learned well one language, you will incorporate that knowledge into another language. The idea behind coding is the key. Also, the goal you must achieve. And the language you will use to code the solution is a minor thing compared to those.
+
+<div class="image"><img src="/images/agnieszka_quote_solving.png" alt="Agnieszka's quote on solving problems" title="undefined"  /> </div>
 
 ## What have been your favorite projects so far?
 
