@@ -86,3 +86,5 @@ We talked with the Substrate community, represented by [Parity](https://www.pari
 ## You already gave us a sneak peek that bouldering is your passion, isn’t it? 😉
 
 <div class="image"><img src="/images/bouldering_passion.png" alt="Agnieszka's passions" title="undefined"  /> </div>
+
+Yes, **I actually have been climbing longer than working as a programmer**. That has been a passion of mine and my husband, [Paweł](/about-us/pawel-o/). I work out 3 times a week. Every family vacation includes bouldering. Our older daughter (age 6) has just started her first climbing. 🙂 My dream is to try Deep Water Solo in Majorca and experience climbing in the USA.
