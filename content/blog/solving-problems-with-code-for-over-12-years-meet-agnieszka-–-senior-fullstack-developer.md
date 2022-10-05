@@ -81,4 +81,8 @@ When I returned from my second maternity leave Michał and Daniel already had th
 
 We talked with the Substrate community, represented by [Parity](https://www.parity.io/), and they told us about their need to build a more intuitive [Treasury module](https://wiki.polkadot.network/docs/learn-treasury) for their nets: Polkadot and Kusama. Practically everyone can apply for funds to build projects for Web3 but non-tech-savvy people resign because they struggle with blockchain terminologies and tools. So we applied for a grant to create a solution that would help them. **We launched [BrightTreasury](https://treasury.bright.dev/?networkId=polkadot) in 2021. Now we still develop it with the support from Polkadot and Kusama**. 
 
-*Find more info on [how to enter the Web3 world](https://brightinventions.pl/blog/entering-the-web-3-world-with-the-brighttreasury-app/) with the BrightTreasury app.*
+*Find more info on [how to enter the Web3 world](/blog/entering-the-web-3-world-with-the-brighttreasury-app/) with the BrightTreasury app.*
+
+## You already gave us a sneak peek that bouldering is your passion, isn’t it? 😉
+
+<div class="image"><img src="/images/bouldering_passion.png" alt="Agnieszka's passions" title="undefined"  /> </div>
