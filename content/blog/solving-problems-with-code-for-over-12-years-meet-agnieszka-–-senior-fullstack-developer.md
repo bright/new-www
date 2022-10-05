@@ -56,3 +56,9 @@ During that time I had two maternity leaves. When I left for the first time ther
 Yes, I tend to become close to my workplace. I need to work at a place where I can really stick around. **I need to feel that the work I do matters. Then I stay motivated**. In order to feel that you also need to have a connection with your employer. When I have that bond I don’t want to move to another work and start that all over again.
 
 <div class="image"><img src="/images/agnieszka_quote_motivation.png" alt="Agnieszka's quote on being motivated" title="undefined"  /> </div>
+
+## Was it challenging to come back after maternity leaves?
+
+For me, it wasn’t that difficult. Even after my second baby when I had to come back in the middle of the pandemic. Still, **everything in the company was organized in a way that I didn’t feel like a stranger**. I also didn't feel like I missed much in terms of technology. You know, I am a programmer for over a decade so what were those months away on maternity leave for me? It was like nothing. 
+
+I must say that coming back to my other passion (bouldering) was much more challenging. My body struggled much more to adjust after having babies. My brain was fine with it and ready to get back to work. 😀
