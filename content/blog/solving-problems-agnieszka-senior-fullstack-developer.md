@@ -39,6 +39,8 @@ In the meantime, Michał and Daniel started their company so I was thinking to j
 
 I knew their approach from our college times. **We shared the same values and strongly believed that good programmers are the ones who write good code and solve problems with it, no matter which technology they use**. So I knew that Daniel and Michał wouldn’t have problems with me taking the time to learn mobile from the scratch. 
 
+<div class='block-button'><h2>Do you want to join Agnieszka?</h2><div>Work with our fullstack team. Work on existing web therapy application where people join groups of support led by professional therapists.</div><a href="Apply and join our team"><button>/jobs/fullstack-developer-nodejs-react</button></a></div>
+
 I had a chance to learn a lot of new technologies here and I am grateful that Michał and Daniel always trusted me with new projects. Even if I had to learn some new stack for a new project they just let me do my thing. I guess I never let them down because I still work here. 😀
 
 ## You are one of the Bright Inventions team members with the longest seniority. How was it to watch the company’s growth over those years?
