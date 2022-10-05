@@ -50,3 +50,9 @@ During that time I had two maternity leaves. When I left for the first time ther
 <div class="image"><img src="/images/brightteamretreat.png" alt="Bright Inventions Team Retreat" title="undefined"  /> </div>
 
 **People still treat each other with respect and you can feel that they do work that really gives them satisfaction**. Also, if I struggle with some technical or communication challenge, **I always have somebody I can talk to** about it and I know we will solve it. **The company has to grow, but the fundaments remain the same**.
+
+## So you changed your work only once? That is quite unusual for our generation, not to mention our industry.
+
+Yes, I tend to become close to my workplace. I need to work at a place where I can really stick around. **I need to feel that the work I do matters. Then I stay motivated**. In order to feel that you also need to have a connection with your employer. When I have that bond I don’t want to move to another work and start that all over again.
+
+<div class="image"><img src="/images/agnieszka_quote_motivation.png" alt="Agnieszka's quote on being motivated" title="undefined"  /> </div>
