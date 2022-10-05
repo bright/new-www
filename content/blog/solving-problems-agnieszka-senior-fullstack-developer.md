@@ -21,9 +21,9 @@ published: true
 
 I used to differentiate that but I don’t do that anymore. Now **I look at a system as a whole**. Problems that need to be solved are much closer to my heart. You will find them on the backend and frontend side as well. It’s the same with the technology you use. It shouldn’t be your number one focus. **Solving the problem is more important than the tool you will use to do it**.
 
-<div class="image"><img src="/images/agnieszka_quote_solving.png" alt="Agnieszka's quote on solving problems" title="undefined"  /> </div>
-
 **If you are a good developer, it doesn’t matter what language or technology you use**. If you learned well one language, you will incorporate that knowledge into another language. The idea behind coding is the key. Also, the goal you must achieve. And the language you will use to code the solution is a minor thing compared to those.
+
+<div class="image"><img src="/images/agnieszka_quote_solving.png" alt="Agnieszka's quote on solving problems" title="undefined"  /> </div>
 
 ## What have been your favorite projects so far?
 
@@ -38,6 +38,8 @@ Yet before I joined Bright, I had had another work since college. I spent there 
 In the meantime, Michał and Daniel started their company so I was thinking to join their firm. Back then they mostly specialized in mobile applications and I never worked with mobile. So I hesitated for some time but ultimately decided to join their firm. 
 
 I knew their approach from our college times. **We shared the same values and strongly believed that good programmers are the ones who write good code and solve problems with it, no matter which technology they use**. So I knew that Daniel and Michał wouldn’t have problems with me taking the time to learn mobile from the scratch. 
+
+<div class='block-button'><h2>Do you want to join Agnieszka?</h2><div>Work with our fullstack team. Work on existing web therapy application where people join groups of support led by professional therapists.</div><a href="Apply and join our team"><button>/jobs/fullstack-developer-nodejs-react</button></a></div>
 
 I had a chance to learn a lot of new technologies here and I am grateful that Michał and Daniel always trusted me with new projects. Even if I had to learn some new stack for a new project they just let me do my thing. I guess I never let them down because I still work here. 😀
 
@@ -88,3 +90,5 @@ We talked with the Substrate community, represented by [Parity](https://www.pari
 <div class="image"><img src="/images/bouldering_passion.png" alt="Agnieszka's passions" title="undefined"  /> </div>
 
 Yes, **I actually have been climbing longer than working as a programmer**. That has been a passion of mine and my husband, [Paweł](/about-us/pawel-o/). I work out 3 times a week. Every family vacation includes bouldering. Our older daughter (age 6) has just started her first climbing. 🙂 My dream is to try Deep Water Solo in Majorca and experience climbing in the USA.
+
+<div class='block-button'><h2>Join Agnieszka</h2><div>We are looking for a Fullstack Developer who has already had experience with TypeScript and Node.js. Apply and work with one of our clients from Israel, Germany, or the UK.</div><a href="Apply and join our team"><button>/jobs/fullstack-developer-nodejs-react</button></a></div>
