@@ -72,3 +72,5 @@ I must say that coming back to my other passion (bouldering) was much more chall
 [Substrate](/blog/5-benefits-of-substrate-blockchain/) is quite exciting because it has the potential to make blockchain more accessible. However in general I have mixed feelings about blockchain. It’s a young tech that gives many possibilities but unfortunately is often trivialized by identifying it with cryptocurrencies. 
 
 <div class="image"><img src="/images/agnieszka_quote_crypto.png" alt="Agnieszka's quote on blockchain" title="undefined"  /> </div>
+
+For example, Web3 ideas are worth spreading. Yet in order to make them a reality, Web3 needs to become global. And it is really difficult when the public eye focuses on a completely different side of blockchain. **It’s just a shame that crypto is this global implementation of blockchain. Blockchain can do much more than crypto**.
