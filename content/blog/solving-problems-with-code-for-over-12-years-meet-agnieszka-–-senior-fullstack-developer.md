@@ -74,3 +74,11 @@ I must say that coming back to my other passion (bouldering) was much more chall
 <div class="image"><img src="/images/agnieszka_quote_crypto.png" alt="Agnieszka's quote on blockchain" title="undefined"  /> </div>
 
 For example, Web3 ideas are worth spreading. Yet in order to make them a reality, Web3 needs to become global. And it is really difficult when the public eye focuses on a completely different side of blockchain. **It’s just a shame that crypto is this global implementation of blockchain. Blockchain can do much more than crypto**.
+
+## You worked on a team that built BrightTreasury – our original app for Polkadot and Kusama blockchains. How do you recall that?
+
+When I returned from my second maternity leave Michał and Daniel already had the idea to explore a community built around Substrate Blockchain. So I started to play with Substrate and got to know this world, especially the Web3 Foundation activity. Then we decided to apply for a [Web3 Foundation grant](https://web3.foundation/grants/) to develop a project for Web3. 
+
+We talked with the Substrate community, represented by [Parity](https://www.parity.io/), and they told us about their need to build a more intuitive [Treasury module](https://wiki.polkadot.network/docs/learn-treasury) for their nets: Polkadot and Kusama. Practically everyone can apply for funds to build projects for Web3 but non-tech-savvy people resign because they struggle with blockchain terminologies and tools. So we applied for a grant to create a solution that would help them. **We launched [BrightTreasury](https://treasury.bright.dev/?networkId=polkadot) in 2021. Now we still develop it with the support from Polkadot and Kusama**. 
+
+*Find more info on [how to enter the Web3 world](https://brightinventions.pl/blog/entering-the-web-3-world-with-the-brighttreasury-app/) with the BrightTreasury app.*
