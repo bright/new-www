@@ -45,7 +45,7 @@ collections:
         }
       - { label: 'Tags', name: 'tags', widget: 'tags' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Don't update/ Update', name: 'update_date', widget: 'boolean', default: false }
+      - { label: 'Update', name: 'update_date', widget: 'boolean', default: false }
       - { label: 'Update Date', name: 'dateModified', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
