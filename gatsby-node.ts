@@ -31,60 +31,64 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         limit: postsPerPage,
         skip: i * postsPerPage,
         numPages,
-        currentPage: i + 1
-      }
+        currentPage: i + 1,
+      },
     })
   })
 
   const ymlDocTags = await loadTagGroups()
   // const tags = result.data.tagsGroup.group;
-  await Promise.all(ymlDocTags.groups.map(async (group: TagGroup) => {
-    const searchTags = JSON.stringify(group.tags)
-    const result = await queryPostsSlug({ graphql, tags: searchTags })
-    const posts = result.data.allMarkdownRemark.edges
-    const postsPerPage = 10
-    const numPages = Math.ceil(posts.length / postsPerPage)
+  await Promise.all(
+    ymlDocTags.groups.map(async (group: TagGroup) => {
+      const searchTags = JSON.stringify(group.tags)
+      const result = await queryPostsSlug({ graphql, tags: searchTags })
+      const posts = result.data.allMarkdownRemark.edges
+      const postsPerPage = 10
+      const numPages = Math.ceil(posts.length / postsPerPage)
 
-    Array.from({ length: numPages }).forEach((item, i) => {
-      createPage({
-        path: `${blogListForTagGroupsBasePath(group)}/${i + 1}`,
-        component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
-        context: {
-          groupTags: group.tags,
-          tag: group.name,
-          limit: postsPerPage,
-          skip: i * postsPerPage,
-          numPages,
-          currentPage: i + 1
-        }
-      })
-    })
-
-    if (group.groups) {
-      await Promise.all(group.groups.map(async (subTag) => {
-        const searchTags = JSON.stringify(subTag.tags)
-        const result = await queryPostsSlug({ graphql, tags: searchTags })
-        const posts = result.data.allMarkdownRemark.edges
-        const postsPerPage = 10
-        const numPages = Math.ceil(posts.length / postsPerPage)
-        Array.from({ length: numPages }).forEach((item, i) => {
-          createPage({
-            path: `${blogListForTagGroupsBasePath(group, subTag)}/${i + 1}`,
-            component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
-            context: {
-              groupTags: subTag.tags,
-              tag: group.name,
-              subTag: subTag.name,
-              limit: postsPerPage,
-              skip: i * postsPerPage,
-              numPages,
-              currentPage: i + 1
-            }
-          })
+      Array.from({ length: numPages }).forEach((item, i) => {
+        createPage({
+          path: `${blogListForTagGroupsBasePath(group)}/${i + 1}`,
+          component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
+          context: {
+            groupTags: group.tags,
+            tag: group.name,
+            limit: postsPerPage,
+            skip: i * postsPerPage,
+            numPages,
+            currentPage: i + 1,
+          },
         })
-      }))
-    }
-  }))
+      })
+
+      if (group.groups) {
+        await Promise.all(
+          group.groups.map(async subTag => {
+            const searchTags = JSON.stringify(subTag.tags)
+            const result = await queryPostsSlug({ graphql, tags: searchTags })
+            const posts = result.data.allMarkdownRemark.edges
+            const postsPerPage = 10
+            const numPages = Math.ceil(posts.length / postsPerPage)
+            Array.from({ length: numPages }).forEach((item, i) => {
+              createPage({
+                path: `${blogListForTagGroupsBasePath(group, subTag)}/${i + 1}`,
+                component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
+                context: {
+                  groupTags: subTag.tags,
+                  tag: group.name,
+                  subTag: subTag.name,
+                  limit: postsPerPage,
+                  skip: i * postsPerPage,
+                  numPages,
+                  currentPage: i + 1,
+                },
+              })
+            })
+          })
+        )
+      }
+    })
+  )
 
   const memberResult = await graphql<GQLData>(`
     {
@@ -111,7 +115,11 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     members.map(async ({ node }) => {
       const { fileAbsolutePath, frontmatter } = node
       const { slug: member, author_id: authorId } = frontmatter
-      const result = await graphql<{ author: allMarkdownRemarkData, secondAuthor?: allMarkdownRemarkData, thirdAuthor?: allMarkdownRemarkData }>(`
+      const result = await graphql<{
+        author: allMarkdownRemarkData
+        secondAuthor?: allMarkdownRemarkData
+        thirdAuthor?: allMarkdownRemarkData
+      }>(`
   {
     author: allMarkdownRemark(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${authorId}"}}}
@@ -194,7 +202,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
       const uniqueAuthors = allAuthors
         .filter((v, i, a) => a.findIndex(t => t.node.fields.slug === v.node.fields.slug) === i)
-        .sort(function(a, b) {
+        .sort(function (a, b) {
           return new Date(b.node.frontmatter.date).getTime() - new Date(a.node.frontmatter.date).getTime()
         })
 
@@ -207,8 +215,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
           path: `/about-us/${_.kebabCase(member)}`,
           component: path.resolve('./src/templates/AboutUsTemplate.tsx'),
           context: {
-            fileAbsolutePath: fileAbsolutePath
-          }
+            fileAbsolutePath: fileAbsolutePath,
+          },
         })
       } else {
         Array.from({ length: numPages }).forEach((item, i) => {
@@ -221,8 +229,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
               numPages,
               posts: i == 0 ? posts.slice(i, postsPerPage) : posts.slice(i * postsPerPage, (i + 1) * postsPerPage),
               currentPage: i + 1,
-              fileAbsolutePath: fileAbsolutePath
-            }
+              fileAbsolutePath: fileAbsolutePath,
+            },
           })
         })
       }
@@ -257,20 +265,20 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       component: path.resolve('./src/templates/OurServiceTemplate.tsx'),
       context: {
         slug: service.node.frontmatter.slug,
-        fileAbsolutePath: service.node.fileAbsolutePath
-      }
+        fileAbsolutePath: service.node.fileAbsolutePath,
+      },
     })
 
     const faqs = service.node.frontmatter.faqs
-    faqs.forEach((faq: { frontmatter: { answer: string, question: string } }) => {
+    faqs.forEach((faq: { frontmatter: { answer: string; question: string } }) => {
       createPage({
         path: 'our-areas/' + service.node.frontmatter.slug + '/' + _.kebabCase(faq.frontmatter.question.toLowerCase()),
         component: path.resolve('./src/templates/OurServiceTemplate.tsx'),
         context: {
           faqTitle: faq.frontmatter.question,
           slug: service.node.frontmatter.slug,
-          fileAbsolutePath: service.node.fileAbsolutePath
-        }
+          fileAbsolutePath: service.node.fileAbsolutePath,
+        },
       })
     })
   })
@@ -280,7 +288,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       {
         allMarkdownRemark(
           filter: { frontmatter: { layout: { eq: "post" } } }
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
           limit: 1000
         ) {
           edges {
@@ -345,8 +353,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       context: {
         slug: postNode.fields.slug,
         fileAbsolutePath: nodeFileAbsolutePath,
-        relatedTags: relatedTags
-      }
+        relatedTags: relatedTags,
+      },
     })
   })
 
@@ -398,8 +406,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
-          fileAbsolutePath: node.fileAbsolutePath
-        }
+          fileAbsolutePath: node.fileAbsolutePath,
+        },
       })
     })
   }
@@ -427,7 +435,7 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
       node,
       name: `slug`,
       // TODO: figure out correct type instead of as any
-      value: nodeSlug
+      value: nodeSlug,
     })
   }
 }
@@ -436,8 +444,8 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ act
     plugins: [
       //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms#disable-widget-on-site
       new IgnorePlugin({
-        resourceRegExp: /^netlify-identity-widget$/
-      })
-    ]
+        resourceRegExp: /^netlify-identity-widget$/,
+      }),
+    ],
   })
 }
