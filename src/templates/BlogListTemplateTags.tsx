@@ -27,6 +27,7 @@ interface Props {
 const BlogTagsPage: React.FC<Props> = ({ data, pageContext, ...props }) => {
   const kebabCaseTag = pageContext.tag && kebabCase(pageContext.tag.toLowerCase())
   const kebabCaseSubTag = pageContext.subTag && kebabCase(pageContext.subTag.toLowerCase())
+
   return (
     <Page className='page-blog-list'>
       <HelmetTitleDescription
@@ -93,7 +94,7 @@ export const pageQuery = graphql`
           tags: { in: $groupTags }
         }
       }
-      sort: { fields: frontmatter___date, order: DESC }
+      sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
       skip: $skip
       limit: $limit
     ) {
@@ -115,6 +116,8 @@ export const pageQuery = graphql`
             title
             tags
             date
+            dateModified
+            update_date
           }
           fields {
             slug
