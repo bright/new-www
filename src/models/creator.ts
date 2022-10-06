@@ -1,16 +1,23 @@
 import { BlogPostModel, ProjectModel, GQLData, AuthorModel, JobModel, allMarkdownRemarkData } from './gql'
 
 export const createBlogPosts = (data: GQLData): BlogPostModel[] => {
-  return (data.constructor === Array ? data : data.allMarkdownRemark?.edges || []).map(({ node }) => {
-    const base = node.frontmatter
-    return {
-      ...base,
-      id: node.id,
-      slug: node.fields.slug,
-      excerpt: node.excerpt,
-      tags: base.tags ?? [],
-    } as BlogPostModel
-  })
+  return (data.constructor === Array ? data : data.allMarkdownRemark?.edges || [])
+    .map(({ node }) => {
+      const base = node.frontmatter
+      return {
+        ...base,
+        id: node.id,
+        slug: node.fields.slug,
+        excerpt: node.excerpt,
+        tags: base.tags ?? [],
+      } as BlogPostModel
+    })
+    .sort(function (a, b) {
+      return (
+        new Date(b.dateModified).getTime() - new Date(a.dateModified).getTime() ||
+        new Date(b.date).getTime() - new Date(a.date).getTime()
+      )
+    })
 }
 
 export const createBlogRelatedPosts = (allMarkdownRemark: allMarkdownRemarkData | undefined): BlogPostModel[] => {
