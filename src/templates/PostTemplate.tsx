@@ -317,6 +317,15 @@ const Date = styled.p`
   color: ${variables.color.text2};
   white-space: nowrap;
 `
+const DateUpdateDescription = styled.p`
+  font-family: ${variables.font.customtext.lato}, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: ${variables.pxToRem(18)};
+  line-height: ${variables.pxToRem(40)};
+  color: ${variables.color.text2};
+  white-space: nowrap;
+`
 const AuthorsWrapper = styled.div`
   padding-bottom: ${variables.pxToRem(30)};
   @media ${variables.device.laptop} {
@@ -352,6 +361,8 @@ export type PostTemplateProps = {
         thirdAuthor: string
         tags: string[]
         date: string
+        dateModified: string
+        update_date: boolean
         excerpt: string
         image: FileNode
         canonicalUrl: string
@@ -381,7 +392,8 @@ type PostArticleContentProps = PostAuthorsProps &
 
     tags: string[]
     date?: string
-
+    dateModified?: string
+    update_date: boolean
     fileAbsolutePath: string
     canonicalUrl: string
   }
@@ -422,6 +434,12 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
 
               <Date>{props.date && <DateFormatter date={props.date} />}</Date>
             </FlexWrapper>
+            {props.update_date && (
+              <FlexWrapper desktopContent='flex-end' desktopGap='10px' mobileContent='center'>
+                <DateUpdateDescription>Updated </DateUpdateDescription>
+                <Date>{props.dateModified && <DateFormatter date={props.dateModified} />}</Date>
+              </FlexWrapper>
+            )}
           </FlexWrapper>
         </FlexWrapper>
       </AuthorsWrapper>
@@ -513,6 +531,8 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         <PostArticleContent
           title={page.title}
           date={page.date}
+          dateModified={page.dateModified}
+          update_date={page.update_date}
           contentView={props.contentView}
           html={markdownRemark.html}
           authorsView={props.authorsView}
@@ -564,6 +584,8 @@ export const pageQuery = graphql`
         thirdAuthor
         tags
         date
+        update_date
+        dateModified
         canonicalUrl
         image {
           childImageSharp {
@@ -604,6 +626,8 @@ export const pageQuery = graphql`
             title
             tags
             date
+            dateModified
+            update_date
           }
           fields {
             slug
