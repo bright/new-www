@@ -57,15 +57,25 @@ const Post: React.FC<{ post: BlogPostModel }> = ({ post }) => {
         <div className={styles.content}>
           <div className={styles.postInfo}>
             <div className={styles.date}>
-              {formatDate(
-                new Date(
-                  post.date
-                    .replace(/-/g, '/')
-                    .replace('T', ' ')
-                    .replace(/\..*|\+.*/, '')
-                ),
-                'MMM dd, yyyy'
-              )}
+              {post.dateModified
+                ? formatDate(
+                    new Date(
+                      post.dateModified
+                        .replace(/-/g, '/')
+                        .replace('T', ' ')
+                        .replace(/\..*|\+.*/, '')
+                    ),
+                    'MMM dd, yyyy'
+                  )
+                : formatDate(
+                    new Date(
+                      post.date
+                        .replace(/-/g, '/')
+                        .replace('T', ' ')
+                        .replace(/\..*|\+.*/, '')
+                    ),
+                    'MMM dd, yyyy'
+                  )}
             </div>
             <div className={styles.tags}>{post.tags.join(', ')}</div>
           </div>
