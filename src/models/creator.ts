@@ -14,8 +14,8 @@ export const createBlogPosts = (data: GQLData): BlogPostModel[] => {
 }
 
 export const createBlogRelatedPosts = (allMarkdownRemark: allMarkdownRemarkData | undefined): BlogPostModel[] => {
-  return (allMarkdownRemark?.constructor === Array ? allMarkdownRemark : allMarkdownRemark?.edges || []).map(
-    ({ node }) => {
+  return (allMarkdownRemark?.constructor === Array ? allMarkdownRemark : allMarkdownRemark?.edges || [])
+    .map(({ node }) => {
       const base = node.frontmatter
       return {
         ...base,
@@ -24,8 +24,13 @@ export const createBlogRelatedPosts = (allMarkdownRemark: allMarkdownRemarkData 
         excerpt: node.excerpt,
         tags: base.tags ?? [],
       } as BlogPostModel
-    }
-  )
+    })
+    .sort(function (a, b) {
+      return (
+        new Date(b.dateModified).getTime() - new Date(a.dateModified).getTime() ||
+        new Date(b.date).getTime() - new Date(a.date).getTime()
+      )
+    })
 }
 
 export const createProjects = (data: GQLData): ProjectModel[] =>
