@@ -128,6 +128,7 @@ const Title = styled.h2`
 
 export interface PopularBlogPostBoxProps {
   date: string
+  dateModified: string
   tags: string[]
   image: IGatsbyImageData
   url: string
@@ -148,7 +149,11 @@ export const PopularBlogPostBox: React.FC<PopularBlogPostBoxProps> = props => {
 
         <DetailsContainer>
           <div className='columns is-mobile is-4 is-variable'>
-            <DateContainer>{formatDate(new Date(props.date), 'MMM, d yyyy')}</DateContainer>
+            <DateContainer>
+              {props.dateModified
+                ? formatDate(new Date(props.dateModified), 'MMM, d yyyy')
+                : formatDate(new Date(props.date), 'MMM, d yyyy')}
+            </DateContainer>
             <TagsContainer>{props.tags.join(', ')}</TagsContainer>
           </div>
           <Title>{props.title}</Title>
