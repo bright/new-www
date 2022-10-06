@@ -3,6 +3,7 @@ import { IGatsbyImageData } from 'gatsby-plugin-image'
 interface BlogPostsFrontmatterItem {
   title: string
   date: string
+  dateModified: string
   excerpt: string
   image: IGatsbyImageData
   layout: string
@@ -26,6 +27,7 @@ export function toBlogPost(item: BlogPostsQueryResultItem) {
   return {
     title: item.frontmatter.title,
     date: item.frontmatter.date,
+    dateModified: item.frontmatter.dateModified,
     excerpt: item.frontmatter.excerpt,
     image: item.frontmatter.image,
     tags: item.frontmatter.tags || [],
