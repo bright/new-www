@@ -1,6 +1,6 @@
 ---
 imagejob: /images/androidteam2.png
-workplace_recruiter: Recruiting Specialist
+workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: Senior Android Developer
