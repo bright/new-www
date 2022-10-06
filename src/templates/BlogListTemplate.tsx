@@ -73,7 +73,7 @@ export const pageQuery = graphql`
   query MyQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
-      sort: { fields: frontmatter___date, order: DESC }
+      sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
       skip: $skip
       limit: $limit
     ) {
@@ -95,6 +95,8 @@ export const pageQuery = graphql`
             title
             tags
             date
+            dateModified
+            update_date
           }
           fields {
             slug
