@@ -312,19 +312,16 @@ const Date = styled.p`
   font-family: ${variables.font.customtext.lato}, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: ${variables.pxToRem(18)};
+  font-size: ${variables.pxToRem(20)};
   line-height: ${variables.pxToRem(40)};
   color: ${variables.color.text2};
   white-space: nowrap;
 `
-const DateUpdateDescription = styled.p`
-  font-family: ${variables.font.customtext.lato}, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: ${variables.pxToRem(18)};
-  line-height: ${variables.pxToRem(40)};
-  color: ${variables.color.text2};
-  white-space: nowrap;
+const DateUpdateDescription = styled(Date)`
+  font-style: italic;
+`
+const DateModified = styled(Date)`
+  font-style: italic;
 `
 const AuthorsWrapper = styled.div`
   padding-bottom: ${variables.pxToRem(30)};
@@ -437,7 +434,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
             {props.update_date && (
               <FlexWrapper desktopContent='flex-end' desktopGap='10px' mobileContent='center'>
                 <DateUpdateDescription>Updated </DateUpdateDescription>
-                <Date>{props.dateModified && <DateFormatter date={props.dateModified} />}</Date>
+                <DateModified>{props.dateModified && <DateFormatter date={props.dateModified} />}</DateModified>
               </FlexWrapper>
             )}
           </FlexWrapper>
