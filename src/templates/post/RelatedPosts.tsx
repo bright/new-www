@@ -67,6 +67,7 @@ const RelatedPosts = ({ allMarkdownRemark, currentPostfileAbsolutPath }: Related
     const filteredMarkdown = filterRelatedPost(allMarkdownRemark, currentPostfileAbsolutPath)
     setFilteredPosts(filteredMarkdown)
   })
+
   return (
     <div>
       <CustomSectionTitle>read more blog posts</CustomSectionTitle>
