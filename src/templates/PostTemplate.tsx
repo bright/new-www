@@ -292,19 +292,18 @@ const WrapperDot = styled.div`
   position: relative;
   height: 100%;
   width: 4px;
-  margin-top: ${variables.pxToRem(10)};
+
   @media ${variables.device.mobile} {
     margin-bottom: ${variables.pxToRem(4)};
     margin-top: ${variables.pxToRem(0)};
   }
 `
 const TimeToRead = styled.p`
-  font: normal normal bold 18px/40px Lato;
   font-family: ${variables.font.customtext.lato}, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: ${variables.pxToRem(18)};
-  line-height: ${variables.pxToRem(40)};
+  line-height: ${variables.pxToRem(24)};
   color: ${variables.color.primary};
   white-space: nowrap;
 `
@@ -313,7 +312,7 @@ const Date = styled.p`
   font-style: normal;
   font-weight: normal;
   font-size: ${variables.pxToRem(20)};
-  line-height: ${variables.pxToRem(40)};
+  line-height: ${variables.pxToRem(24)};
   color: ${variables.color.text2};
   white-space: nowrap;
 `
