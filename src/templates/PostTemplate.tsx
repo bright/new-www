@@ -482,6 +482,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
     excerpt: page.excerpt,
     path: props.path,
     publishedOn: page.date,
+    dateModified: page.dateModified,
     title: page.title,
     image: page.image,
   }) ?? (
@@ -490,6 +491,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
       excerpt={page.excerpt}
       path={props.path}
       publishedOn={page.date}
+      dateModified={page.dateModified}
       title={page.title}
       image={page.image}
     />

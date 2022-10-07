@@ -10,38 +10,41 @@ export const BlogPostStructuredData = (props: {
   path: string
   excerpt: string
   publishedOn: string
+  dateModified: string
   image: FileNode
   title: string
 }) => {
   const {
-    site: { siteMetadata: { siteUrl } },
-    allMarkdownRemark: { nodes: authors }
+    site: {
+      siteMetadata: { siteUrl },
+    },
+    allMarkdownRemark: { nodes: authors },
   } = useStaticQuery(graphql`
-      {
-          site {
-              siteMetadata {
-                  siteUrl
-              }
-          }
-          allMarkdownRemark(filter: { frontmatter: { author_id: { ne: null } } }) {
-              nodes {
-                  frontmatter {
-                      author_id
-                      avatar {
-                          childImageSharp {
-                              gatsbyImageData
-                          }
-                      }
-                      bio
-                      name
-                      web
-                  }
-              }
-          }
+    {
+      site {
+        siteMetadata {
+          siteUrl
+        }
       }
+      allMarkdownRemark(filter: { frontmatter: { author_id: { ne: null } } }) {
+        nodes {
+          frontmatter {
+            author_id
+            avatar {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            bio
+            name
+            slug
+          }
+        }
+      }
+    }
   `)
 
-  const { avatar, bio, name, web, email } = useMemo(() => {
+  const { avatar, bio, name, slug, email } = useMemo(() => {
     return authors.find(({ frontmatter }: { frontmatter: { author_id: string } }) => {
       return frontmatter.author_id === props.author_id
     })!.frontmatter
@@ -51,16 +54,16 @@ export const BlogPostStructuredData = (props: {
     '@type': 'Organization',
     url: siteUrl,
     name: 'Bright Inventions',
-    logo: siteUrl + '/images/b_logo_black.svg'
+    logo: siteUrl + '/images/b_logo_black.svg',
   }
 
   const author: Person = {
     '@type': 'Person',
-    url: web,
+    url: siteUrl + `/about-us/${slug}`,
     email: email,
     description: bio,
     name: name,
-    image: siteUrl + getSrc(avatar)
+    image: siteUrl + getSrc(avatar),
   }
 
   const contextProps: WithContext<BlogPosting> = {
@@ -70,9 +73,10 @@ export const BlogPostStructuredData = (props: {
     headline: props.title,
     image: siteUrl + getSrc(props.image),
     datePublished: props.publishedOn,
+    dateModified: props.dateModified,
     publisher: BrightInventionsOrganization,
     author: author,
-    abstract: props.excerpt
+    abstract: props.excerpt,
   }
 
   return <StructuredData {...contextProps} />
