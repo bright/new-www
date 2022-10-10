@@ -15,7 +15,7 @@ technology:
   - Android SDK
   - Android Studio
   - Kotlin
-  - Bluetooth 
+  - Bluetooth
   - Kotlin Coroutines
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
@@ -80,7 +80,7 @@ The project team involves **seven experienced developers as well as one QA engin
 * **Bright Day (8 hours) each month for non-project stuff** + 2 hours each week for blogging 
 * MultiSport and private PZU Zdrowie medical package
 * **MacBook** and additional accessories 
-* **self-development budget for workshops, courses and prodessional books**
+* **self-development budget for workshops, courses and professional books**
 * online or on-site English classes in small groups
 * **sport classes every week and yoga Fridays**
 * team building events once a quarter
