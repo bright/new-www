@@ -121,7 +121,7 @@ const PrivacyPolicy = () => {
                 </li>
                 <li>analyze the way our Website is used and improve its functioning via Google Analytics Universal and Google Analytics 4;</li>
                 <li>
-                  run marketing and business communication &#x2013; based on contact data provided to Us, on the grounds
+                  run marketing and business communication and distribute marketing content including sending email newsletter and conducting workshops, events &#x2013; based on contact data provided to Us, on the grounds
                   of Our legitimate interests;
                 </li>
                 <li>
