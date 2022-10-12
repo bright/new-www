@@ -48,7 +48,7 @@ In my personal feeling, that’s the worse thing. It’s because I don’t have 
 
 ### Too many assumptions
 
-Let’s break it down into two. Firstly, we are often assuming that someone else will know. If we need that knowledge, we will ask him/her. What if everyone on the team is assuming the same? I don’t need to know the details of my task because I assume that my Project Manager or my Team Leader knows it and I can ask him anytime. The second is even worse: assuming there are no details in the task I got, I can do it the way I want. Nobody asks for the testing feature so I will not test it on my own and pass it to QA. Quality Engineer will take a look at the task without a description so he/she will assume that he/she can test it the way he/she feels it’s right. Such **assumption-driven development** leads to software needing to be immediately refactored, without or with minor value to the end customer.
+Let’s break it down into two. Firstly, we are often assuming that someone else will know. If we need that knowledge, we will ask him/her. What if everyone on the team is assuming the same? I don’t need to know the details of my task because I assume that my Project Manager or my Team Leader knows it and I can ask him anytime. The second is even worse: assuming there are no details in the task I got, I can do it the way I want. Nobody asks for testing the feature so I will not test it on my own and pass it to QA. Quality Engineer will take a look at the task without a description so he/she will assume that he/she can test it the way he/she feels it’s right. Such **assumption-driven development** leads to software needing to be immediately refactored, without or with minor value to the end customer.
 
 ### Lack of awareness
 
