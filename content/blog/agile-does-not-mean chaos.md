@@ -14,10 +14,6 @@ hidden: false
 comments: true
 published: true
 ---
-- - -
-
-### Agile does not mean chaos!
-
 ![](https://cdn-images-1.medium.com/max/1600/1*nodfoEWdCEbbDI4B10kUDA.jpeg)
 
 Every time I walk through our bright office, I see huge posters with sentences from the Agile Manifesto. I cannot disagree that people and their interactions are much more important than processes, or working software should be treated higher than comprehensive documentation. Looking at the signatures under those sentences and knowing how much these guys did for the developers' world I have to say “You’re damn right!”.
