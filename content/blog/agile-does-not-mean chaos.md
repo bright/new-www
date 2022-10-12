@@ -9,7 +9,7 @@ update_date: false
 dateModified: 2022-10-12T07:54:41.005Z
 title: Agile does not mean chaos!
 layout: post
-image: /images/pexels-brixiv-6527911.jpg
+image: /images/dog_blog_post.png
 hidden: false
 comments: true
 published: true
