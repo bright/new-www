@@ -79,3 +79,5 @@ A clone of mine would be fine. ;)
 On a serious note, this project is a perfect fit for **someone who is not satisfied with simple solutions and loves to find their own ways**. There is a lot of conceptual work. If you want to look for solutions rather than have them handed on a silver platter, then you will find our project exciting.
 
 <div class="image"><img src="/images/cezary_quote_project.png" alt="Quote on Android project" title="undefined"  /> </div>
+
+We have 7 experienced developers and a Quality Assurance specialist in our team. We would love to welcome another positive and engaged team member.
