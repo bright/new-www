@@ -41,3 +41,9 @@ When I decided to learn programming, my girlfriend was the only person who knew 
 <div class="image"><img src="/images/notes_programming.png" alt="A self-taught developer" title="Some notes made by Cezary while learning."  /> </div>
 
 *Some notes made by Cezary while learning.*
+
+I started my learning process by doing **a free CS50 course made by Harvard**. I started literally from **Scratch, then touched some C, Python, and Java**. I liked Java the most. Then I found the **Google Developer Scholarship on Udacity**. The first 3 months of the course were free. Then you had to do the test and the top 1000 people around the world were invited to continue the program for free. Gladly I was one of those people. 🙂 During that extended course I learned Java exclusively for building mobile with Android. That is how I became an Android Developer.
+
+Eventually, a couple of years ago I decided to study Computer Science at the Polish-Japanese Academy of Information Technology in Gdańsk. So I guess I will get the proper education after all. 😉 Although, I believe that if you are passionate about the IT world, you have all the possibilities to learn it on your own.
+
+<div class="image"><img src="/images/cezary_quote_learning.png" alt="Learning to be a programmer" title="undefined"  /> </div>
