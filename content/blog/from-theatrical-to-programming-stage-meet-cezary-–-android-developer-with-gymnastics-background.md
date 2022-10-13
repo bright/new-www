@@ -56,6 +56,8 @@ A few years after being in the industry I was looking for a new place of work. *
 
 Bright Inventions has been cooperating with this client for over 3 years. **A client is a group of tech-savvy experienced startup founders**. We have an opportunity to support them in **developing the IoT system for tracking and management of Bluetooth trackers**.
 
+<div class='block-button'><h2>Join Cezary!</h2><div>Build unique SDK with Cezary and cooperate on daily basics with a client from the USA.</div><a href="/jobs/senior-android-developer/"><button>Apply and join Cezary</button></a></div>
+
 We are responsible mostly for iOS and Android development. However, apps are just the use cases of the solution we work on. The whole solution behind our apps is the crucial exciting part of our daily work.
 
 To be more precise **we build SDK whose goal is to provide various Android devices with features similar to iBeacons technology**. Our SDK creates a net of devices that can recognize trackers coded on small printed circuit boards.
