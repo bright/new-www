@@ -47,3 +47,17 @@ I started my learning process by doing **a free CS50 course made by Harvard**. I
 Eventually, a couple of years ago I decided to study Computer Science at the Polish-Japanese Academy of Information Technology in Gdańsk. So I guess I will get the proper education after all. 😉 Although, I believe that if you are passionate about the IT world, you have all the possibilities to learn it on your own.
 
 <div class="image"><img src="/images/cezary_quote_learning.png" alt="Learning to be a programmer" title="undefined"  /> </div>
+
+## How do you recall joining Bright Inventions?
+
+A few years after being in the industry I was looking for a new place of work. **I reached out to Ula because my friend spoke highly of Bright Inventions**. He never worked here but he had an interview with a Bright tech recruiter once and had a great experience. I wrote to Ula and she told me that there is an open vacancy for Android Dev so I started the recruitment process and luckily got in. I started to work here in January 2021.
+
+## You are on the team that develops solutions for our client from the USA. Can you tell us something more about the project?
+
+Bright Inventions has been cooperating with this client for over 3 years. **A client is a group of tech-savvy experienced startup founders**. We have an opportunity to support them in **developing the IoT system for tracking and management of Bluetooth trackers**.
+
+We are responsible mostly for iOS and Android development. However, apps are just the use cases of the solution we work on. The whole solution behind our apps is the crucial exciting part of our daily work.
+
+To be more precise **we build SDK whose goal is to provide various Android devices with features similar to iBeacons technology**. Our SDK creates a net of devices that can recognize trackers coded on small printed circuit boards.
+
+## What is special about this project?
