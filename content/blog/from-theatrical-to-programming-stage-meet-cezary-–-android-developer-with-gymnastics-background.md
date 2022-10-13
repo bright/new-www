@@ -50,7 +50,7 @@ Eventually, a couple of years ago I decided to study Computer Science at the Pol
 
 ## How do you recall joining Bright Inventions?
 
-A few years after being in the industry I was looking for a new place of work. **I reached out to Ula because my friend spoke highly of Bright Inventions**. He never worked here but he had an interview with a Bright tech recruiter once and had a great experience. I wrote to Ula and she told me that there is an open vacancy for Android Dev so I started the recruitment process and luckily got in. I started to work here in January 2021.
+A few years after being in the industry I was looking for a new place of work. **I reached out to [Ula](/about-us/ula/) because my friend spoke highly of Bright Inventions**. He never worked here but he had an interview with a Bright tech recruiter once and had a great experience. I wrote to Ula and she told me that there is an open vacancy for Android Dev so I started the recruitment process and luckily got in. I started to work here in January 2021.
 
 ## You are on the team that develops solutions for our client from the USA. Can you tell us something more about the project?
 
