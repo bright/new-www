@@ -474,7 +474,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
   const canonicalUrl = markdownRemark.frontmatter.canonicalUrl
 
   const postStructuredData = props.structuredData?.({
-    author_id: page.author,
+    authors_id: [page.author, page.secondAuthor, page.thirdAuthor],
     excerpt: page.excerpt,
     path: props.path,
     publishedOn: page.date,
@@ -483,7 +483,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
     image: page.image,
   }) ?? (
     <BlogPostStructuredData
-      author_id={page.author}
+      authors_id={[page.author, page.secondAuthor, page.thirdAuthor]}
       excerpt={page.excerpt}
       path={props.path}
       publishedOn={page.date}
