@@ -105,3 +105,5 @@ I guess you mean my dog Tola. :) She’s a rescue. My fiancée and I adopted her
 *Tola at the Bright Inventions’ office in Gdańsk*
 
 Tola had a hernia and needed surgery and probably that is why someone abandoned her. Fortunately, Tola is healthy now. She joins me when I come to the office to attend our yoga classes every Friday. She makes quite an entrance. 🙂
+
+<div class='block-button'><h2>Do you want to join Cezary?</h2><div>undefined</div><a href="undefined"><button>undefined</button></a></div>
