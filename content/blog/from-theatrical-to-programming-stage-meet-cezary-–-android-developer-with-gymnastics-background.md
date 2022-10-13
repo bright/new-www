@@ -73,3 +73,9 @@ Also, we work on **data encryption** and use the **FlatBuffers** library to send
 Yes, **we work with pretty cool devices**. For example, we work with **Zebra WS50** watches that look like Power Ranger devices. :D It is quite interesting that **some of the devices we work with are built on clean Android (Android Open Source Project)**. So while building the software you cannot use simple solutions like Fuse Location providers. You need to extract things through GPS on the phone. You have to look for many unordinary solutions and it makes this work more interesting.
 
 ## We are seeking an Android developer to join you on this project. What kind of person would you see in a project?
+
+A clone of mine would be fine. ;) 
+
+On a serious note, this project is a perfect fit for **someone who is not satisfied with simple solutions and loves to find their own ways**. There is a lot of conceptual work. If you want to look for solutions rather than have them handed on a silver platter, then you will find our project exciting.
+
+<div class="image"><img src="/images/cezary_quote_project.png" alt="Quote on Android project" title="undefined"  /> </div>
