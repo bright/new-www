@@ -95,3 +95,11 @@ As an example let me show you and play a musical instrument I have built. This i
 `youtube: https://youtu.be/d-8KhE3YdRU`
 
 ## When you come to the office, you bring a lovely companion with you. Can you tell us more about her? 😉
+
+I guess you mean my dog Tola. :) She’s a rescue. My fiancée and I adopted her from Aurea Foundation whose mission is to help Golden Retrievers. Actually, I’ve always wanted to have a German Shepard and my fiancée had a desire for a Golden Retriever. So we reached a compromise and went for a Golden Retriever. 😉
+
+<div class="image"><img src="/images/tola_dog.png" alt="The office dog" title="Tola at the Bright Inventions’ office in Gdańsk"  /> </div>
+
+*Tola at the Bright Inventions’ office in Gdańsk*
+
+Tola had a hernia and needed surgery and probably that is why someone abandoned her. Fortunately, Tola is healthy now. She joins me when I come to the office to attend our yoga classes every Friday. She makes quite an entrance. 🙂
