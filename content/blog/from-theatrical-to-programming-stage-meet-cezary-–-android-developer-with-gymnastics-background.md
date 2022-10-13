@@ -61,3 +61,9 @@ We are responsible mostly for iOS and Android development. However, apps are jus
 To be more precise **we build SDK whose goal is to provide various Android devices with features similar to iBeacons technology**. Our SDK creates a net of devices that can recognize trackers coded on small printed circuit boards.
 
 ## What is special about this project?
+
+It’s not a typical Android development. Usually, the Android dev’s job comes down to showing UI for some data from the backend. Here your list of responsibilities is much broader. **You need to figure out how to make something from scratch because you work on some features that aren’t really developed yet**. You navigate around typical Android solutions and need to think outside the box even if Android offers common solutions that normally you would use. 
+
+Due to the fact that **we work on a unique SDK**, we can’t go the easy way. For example, we don’t use typical protocols here. We use **MQTT** to communicate with the backend rather than a common HTTP. We also use protocols like **CBOR** & **COAP**. To be noted, we base our solution on Bluetooth Low Energy but it is a standard right now.
+
+Also, we work on **data encryption** and use the **FlatBuffers** library to send data to the backend while limiting network usage.
