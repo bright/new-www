@@ -80,4 +80,10 @@ On a serious note, this project is a perfect fit for **someone who is not satisf
 
 <div class="image"><img src="/images/cezary_quote_project.png" alt="Quote on Android project" title="undefined"  /> </div>
 
-We have 7 experienced developers and a Quality Assurance specialist in our team. We would love to welcome another positive and engaged team member.
+We have 7 experienced developers and a Quality Assurance specialist on our team. We would love to welcome another positive and engaged team member. 
+
+## Do you enjoy working at Bright Inventions? Only an honest answer, please. 😀
+
+Truly, I do. Otherwise, I wouldn’t agree to this interview. 😀 Mostly due to the project I work at. It’s innovative and there is no boredom here. Also, my cooperation with Matusz Klimczak who is my project manager is really positive. What I also like about Bright is the flat structure, work-life balance, great team retreats, competitive salary, and the simple fact that normal people work here. Normal in a good way. ;)
+
+After work, I still have the strength to follow my passions which is not always the case. Programmers' work can quite limit your after-work resources. Fortunately, I can focus on my passions such as joinery and wood carving.
