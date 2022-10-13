@@ -84,6 +84,10 @@ We have 7 experienced developers and a Quality Assurance specialist on our team.
 
 ## Do you enjoy working at Bright Inventions? Only an honest answer, please. 😀
 
-Truly, I do. Otherwise, I wouldn’t agree to this interview. 😀 Mostly due to the project I work at. It’s innovative and there is no boredom here. Also, my cooperation with [Matusz Klimczak](/about-us/mateusz/) who is my project manager is really positive. What I also like about Bright is the flat structure, work-life balance, great team retreats, competitive salary, and the simple fact that normal people work here. Normal in a good way. 😉
+Truly, I do. Otherwise, I wouldn’t agree to this interview. 😀 Mostly due to the project I work at. **It’s innovative and there is no boredom here**. Also, my cooperation with [Matusz Klimczak](/about-us/mateusz/) who is my project manager is really positive. What I also like about Bright is the **flat structure, work-life balance, great team retreats, competitive salary**, and the simple fact that normal people work here. Normal in a good way. 😉
 
 After work, I still have the strength to follow my passions which is not always the case. Programmers' work can quite limit your after-work resources. Fortunately, I can focus on my passions such as joinery and wood carving.
+
+## Oh, what did you carve in wood?
+
+As an example let me show you and play a musical instrument I have built. This is the doshpuluur - a musical instrument from Asia.
