@@ -38,8 +38,6 @@ I came up with the idea to learn software development after I graduated from col
 
 When I decided to learn programming, my girlfriend was the only person who knew about it. I was learning from morning hours to afternoon and then I was going to the theatrical rehearsals.
 
-<div class="image"><img src="/images/notes_programming.png" alt="A self-taught developer" title="Some notes made by Cezary while learning."  /> </div>
-
 *Some notes made by Cezary while learning.*
 
 I started my learning process by doing **a free CS50 course made by Harvard**. I started literally from **Scratch, then touched some C, Python, and Java**. I liked Java the most. Then I found the **Google Developer Scholarship on Udacity**. The first 3 months of the course were free. Then you had to do the test and the top 1000 people around the world were invited to continue the program for free. Gladly I was one of those people. 🙂 During that extended course I learned Java exclusively for building mobile with Android. That is how I became an Android Developer.
