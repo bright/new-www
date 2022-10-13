@@ -67,3 +67,9 @@ It’s not a typical Android development. Usually, the Android dev’s job comes
 Due to the fact that **we work on a unique SDK**, we can’t go the easy way. For example, we don’t use typical protocols here. We use **MQTT** to communicate with the backend rather than a common HTTP. We also use protocols like **CBOR** & **COAP**. To be noted, we base our solution on Bluetooth Low Energy but it is a standard right now.
 
 Also, we work on **data encryption** and use the **FlatBuffers** library to send data to the backend while limiting network usage.
+
+## Is hardware important at your job?
+
+Yes, **we work with pretty cool devices**. For example, we work with **Zebra WS50** watches that look like Power Ranger devices. :D It is quite interesting that **some of the devices we work with are built on clean Android (Android Open Source Project)**. So while building the software you cannot use simple solutions like Fuse Location providers. You need to extract things through GPS on the phone. You have to look for many unordinary solutions and it makes this work more interesting.
+
+## We are seeking an Android developer to join you on this project. What kind of person would you see in a project?
