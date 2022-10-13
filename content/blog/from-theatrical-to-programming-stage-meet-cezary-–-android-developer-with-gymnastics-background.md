@@ -5,14 +5,14 @@ tags:
   - bright story
   - update
   - android
-date: 2022-10-13T10:00:35.824Z
+date: 2022-10-13T10:29:04.308Z
 update_date: false
-dateModified: 2022-10-13T10:00:35.856Z
+dateModified: 2022-10-13T10:29:05.313Z
 title: From Theatrical to Programming Stage. Meet Cezary – Android Developer
   with Gymnastics Background
 layout: post
 image: /images/brightstorycezary.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
