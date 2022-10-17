@@ -8,7 +8,7 @@ tags:
   - nodejs
 date: 2020-01-04T20:05:28.083Z
 update_date: false
-dateModified: 2020-04-01T19:06:00.000Z
+dateModified: 2020-01-04T20:06:00.000Z
 title: Using AWS Cognito with NestJS
 layout: post
 image: /images/amazon_cognito.png
