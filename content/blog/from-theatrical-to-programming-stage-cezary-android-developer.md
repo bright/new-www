@@ -30,6 +30,10 @@ Eventually, **I became an acrobatic instructor for kids**. I also auditioned for
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPiotr.Manasterski.fotograf%2Fphotos%2Fa.376316558378%2F10153908473538379%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="463" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
+<div class="image"><img src="/images/photo_theatre.png" alt="Notre Dame de Paris" title="Photo by Piotr Manasterski"  /> </div>
+
+*Photo by Piotr Manasterski. Source: [Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)*
+
 However, I felt that my body had enough of the intensive training routine. I couldn’t do it forever. I felt I needed to move on and then I decided to become a programmer.
 
 ## You are a self-taught developer. Tell us more about your process.
