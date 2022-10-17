@@ -24,6 +24,7 @@ published: true
 Recently (15.10-16.10) I took part in the Sekurak Mega Hacking Party CTF contest. For those who did not hear of it, CTF is kind of a security hackathon with pre-prepared tasks in which you have to find a flag within known vulnerabilities. This was the first time I have taken part in such a contest. It was quite interesting! Below you will find the first post in series describing the tasks which I solved or tried to solve ;).
 
 **d﻿eobf**
+
 So the first task was as follows: 
 
 ```
