@@ -121,7 +121,7 @@ const PrivacyPolicy = () => {
                 </li>
                 <li>analyze the way our Website is used and improve its functioning via Google Analytics Universal and Google Analytics 4;</li>
                 <li>
-                  run marketing and business communication &#x2013; based on contact data provided to Us, on the grounds
+                  run marketing and business communication and distribute marketing content including sending email newsletter and conducting workshops, events &#x2013; based on contact data provided to Us, on the grounds
                   of Our legitimate interests;
                 </li>
                 <li>
@@ -152,7 +152,71 @@ const PrivacyPolicy = () => {
                 &#x200D;
                 <br />
               </p>
-              <p>4. &#xA0;Transfer of personal data</p>
+              <p>4. &#xA0;Recruitment processes</p>
+              <p>
+               The Controller of your personal data collected by the Website is Bright Inventions Sp. z o.o. 
+               With its registered office in  Gdańsku, Jana Matejki Street 12, 80 –232 Gdańsk, KRS: 0000687244, NIP: 5842761920, Poland (“Bright Inventions”, “We”, “Our” or “Us”) and authorized employees of the Company who are responsible for recruitment processes as well as any legal entities chosen by the Company to process the data for hiring purposes. 
+              </p>
+              <p>
+                The purposes of processing personal data are:
+                <br />
+              </p>
+              <p>
+              <ul>
+                <li>
+                  to conduct a recruitment process based on Article 6 (1)(a)(c) of the GDPR indicated in Article 22(1) §1 of the Labor Code,
+                </li>
+                <li>
+                  to establish and maintain contact with the Candidate in relation to the application documents they submitted,
+                </li>
+                <li>
+                  to manage and resolve the recruitment process including all the necessary actions at the request of the data subject before concluding the contract - in the scope of data indicated in Article 22(1) §1 of the Labor Code and on the basis of the Candidate's consent, i.e. Article 6(1)(a) of the GDPR and in the scope of data beyond the catalog indicated in Article 22(1) §1 of the Labor Code,
+                </li>
+                <li>
+                to take account of the Candidate's application documents in future recruitment processes on the basis of their voluntary agreement (Article 6 (1)(a) of the GDPR).
+                </li>
+              </ul>
+              </p>
+              <p>
+                The scope of the processing of personal data for recruitment:
+                <br />
+              </p>
+              <p>
+              <ul>
+                <li>
+                  an email address from which the message was sent and the information contained in the application form;
+                </li>
+                <li>
+                  data provided by the Candidate falls under a statutory obligation to provide names and last names, parents' names, date of birth, contact details, information about education and employment history according to Article 22(1) §1 of the Labor Code. 
+                  Providing other personal data is voluntary. 
+                </li>
+              </ul>
+              </p>
+               <p>
+                Data retention period
+                <br />
+              </p>
+              <p>
+                Personal data collected for the purposes of recruitment will be processed for the duration of the recruitment process unless the Candidate agrees to leave the data in order to be considered during future recruitments. Data will be stored until the withdrawal of the consent
+              </p>
+              <p>
+                Your rights concerning our recruitment data processing process:
+                <br />
+              </p>
+              <p>
+              <ul>
+                <li>
+                  You have the right to access your personal data and to change it. You have the right to request its removal, as well as to request the Administrator to limit data processing, as well as to transfer it. In addition, you have the right to object to the processing of personal data of which processing is based on Article 6 (1) (f) of the  GDPR i.e. the Company's legitimate interest. 
+                </li>
+                <li>
+                  You have the right to lodge a complaint with the Chairman of Poland's Personal Data Protection Office if you believe that your data processing violates the provisions of the General Data Protection Regulation. 
+                </li>
+              </ul>
+              </p>
+              <p>
+                Your data will not be transferred to a third country or international organization and will not be used for profiling.
+              </p>
+              <p>5. &#xA0;Transfer of personal data</p>
               <p>
                 Your personal data may be transferred only to our data processors that we cooperate with on the basis of
                 a contract or other legal act or on the grounds of Our legitimate interests as a data controller.
@@ -163,7 +227,7 @@ const PrivacyPolicy = () => {
                 This information is not personalized and helps Us improve the functioning of Our Website.
               </p>
               <p>&#x200D;</p>
-              <p>5. Social media plugins</p>
+              <p>6. Social media plugins</p>
               <p>
                 On Our Website we have included social media plugins, which means that using Website, the IP address of
                 your device and the browser ID you are using are transferred to social media providers. Thanks to this

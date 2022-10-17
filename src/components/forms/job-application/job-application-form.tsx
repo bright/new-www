@@ -13,7 +13,7 @@ import { AttachmentUploaded } from '../fields/fields.styled'
 import { JobApplicationModal } from './job-application-modal'
 import { CustomTextRegular } from '../../shared'
 import variables from '../../../styles/variables'
-import { trackCustomEvent } from '../../../helpers/trackCustomEvent'
+import { trackConversion, trackCustomEvent } from '../../../helpers/trackCustomEvent'
 import { FlexWrapper } from './../../shared/index'
 import { JobFormData } from '../../../helpers/mail'
 
@@ -117,9 +117,9 @@ const Label = styled.label`
   }
 `
 const AttachmentLabel = styled.p`
-font-size: ${variables.pxToRem(16)};
-line-height: ${variables.pxToRem(40)};
-font-family: ${variables.font.text.family}
+  font-size: ${variables.pxToRem(16)};
+  line-height: ${variables.pxToRem(40)};
+  font-family: ${variables.font.text.family}
 `
 
 export const JobApplicationForm: React.FC<FormProps> = props => {
@@ -152,14 +152,14 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
 
   const onCVInputChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
     const files = Array.from(event.target.files || [])
-    
+
     if (value.attachments.concat(files).length > 2) {
-     
+
       setErrorMsgValidation('Please upload maximum two attachments.')
       setTimeout(() => {
         setErrorMsgValidation('')
       }, 5000)
-      return;
+      return
     }
     setAttachments(value.attachments.concat(files))
   }, [setAttachments])
@@ -218,6 +218,10 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
         action: 'Click Submit Recruitment Form',
         label: window.location.href
       })
+
+      trackConversion({
+        sent_to: 'AW-10942749476/L-INCLP4yOQDEKS29OEo'
+      }).then(() => console.log('Job contact form conversion sent'))
     },
     [selectedAttachment]
   )
@@ -283,7 +287,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
               <AttachmentLabel>Upload your resume / portfolio (up to 2 files – PDF or docx).</AttachmentLabel>
               <UploadField
                 onChange={onCVInputChange}
-                accept='application/msword, application/pdf, .doc, .docx, .dot, .dotm, .dotx' 
+                accept='application/msword, application/pdf, .doc, .docx, .dot, .dotm, .dotx'
                 multiple
                 name='cv'
                 onClick={e => (e.target.value = null)}

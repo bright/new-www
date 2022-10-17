@@ -7,6 +7,7 @@ tags:
   - inspiration
   - development
 date: 2022-10-05T08:47:36.209Z
+dateModified: 2022-10-13T09:04:52.463Z
 title: Solving Problems with Code for over 12 Years. Meet Agnieszka – Senior
   Fullstack Developer
 layout: post
@@ -73,7 +74,7 @@ I must say that coming back to my other passion (bouldering) was much more chall
 
 ## You are one of our Substrate enthusiasts. Is blockchain something close to your heart?
 
-[Substrate](/blog/5-benefits-of-substrate-blockchain/) is quite exciting because it has the potential to make blockchain more accessible. However in general I have mixed feelings about blockchain. It’s a young tech that gives many possibilities but unfortunately is often trivialized by identifying it with cryptocurrencies. 
+[Substrate](/blog/5-benefits-of-substrate-blockchain/) is quite exciting because it has the potential to make [blockchain](/our-areas/blockchain) more accessible. However in general I have mixed feelings about blockchain. It’s a young tech that gives many possibilities but unfortunately is often trivialized by identifying it with cryptocurrencies. 
 
 <div class="image"><img src="/images/agnieszka_quote_crypto.png" alt="Agnieszka's quote on blockchain" title="undefined"  /> </div>
 
