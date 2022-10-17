@@ -64,7 +64,8 @@ export const BlogPostStructuredData = (props: {
       frontmatter: { slug: string; email: string; bio: string; name: string; avatar: ImageDataLike }
     }) => {
       const { slug, email, bio, avatar } = frontmatter
-      return {
+
+      const authorData = {
         '@type': 'Person',
         url: siteUrl + `/about-us/${slug}`,
         email: email,
@@ -72,6 +73,8 @@ export const BlogPostStructuredData = (props: {
         name: name,
         image: siteUrl + getSrc(avatar),
       }
+
+      return authorData
     }
   )
 
