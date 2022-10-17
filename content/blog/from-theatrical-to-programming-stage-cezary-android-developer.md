@@ -5,9 +5,9 @@ tags:
   - bright story
   - update
   - android
-date: 2022-10-13T10:29:04.308Z
+date: 2022-10-17T07:27:20.592Z
 update_date: false
-dateModified: 2022-10-13T10:29:05.313Z
+dateModified: 2022-10-17T07:27:21.452Z
 title: From Theatrical to Programming Stage. Meet Cezary – Android Developer
   with Gymnastics Background
 layout: post
@@ -28,7 +28,7 @@ After graduating from high school I went to Civil Engineering studies but I didn
 
 Eventually, **I became an acrobatic instructor for kids**. I also auditioned for the acrobatic dancer role at the Music Theater in Gdynia. I got a role with some of my friends. So **I was an acrobatic dancer in the Notre Dame De Paris show**. That was pretty cool.
 
-<center><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPiotr.Manasterski.fotograf%2Fphotos%2Fa.376316558378%2F10153908473538379%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="463" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></center>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPiotr.Manasterski.fotograf%2Fphotos%2Fa.376316558378%2F10153908473538379%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="463" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
 However, I felt that my body had enough of the intensive training routine. I couldn’t do it forever. I felt I needed to move on and then I decided to become a programmer.
 
@@ -37,6 +37,8 @@ However, I felt that my body had enough of the intensive training routine. I cou
 I came up with the idea to learn software development after I graduated from college and had that job at the theater. My best friend and my brother planned to be software developers so I thought I could try that, too. Ironically some years ago, one of the reasons why I chose to study Civil Engineering was not to sit by my desk 8 hours a day. Look how it all turned out. 😉 
 
 When I decided to learn programming, my girlfriend was the only person who knew about it. I was learning from morning hours to afternoon and then I was going to the theatrical rehearsals.
+
+<div class="image"><img src="/images/notes_programming.png" alt="Learning how to code" title="undefined"  /> </div>
 
 *Some notes made by Cezary while learning.*
 
@@ -74,11 +76,11 @@ Yes, **we work with pretty cool devices**. For example, we work with **Zebra WS5
 
 ## We are seeking an Android developer to join you on this project. What kind of person would you see in a project?
 
-A clone of mine would be fine. ;) 
+A clone of mine would be fine. 😉
 
 On a serious note, this project is a perfect fit for **someone who is not satisfied with simple solutions and loves to find their own ways**. There is a lot of conceptual work. If you want to look for solutions rather than have them handed on a silver platter, then you will find our project exciting.
 
-<div class="image"><img src="/images/cezary_quote_project.png" alt="Quote on Android project" title="undefined"  /> </div>
+<div class="image"><img src="/images/cezary_quote_project_client.png" alt="Quote on Android project" title="undefined"  /> </div>
 
 We have 7 experienced developers and a Quality Assurance specialist on our team. We would love to welcome another positive and engaged team member. 
 
