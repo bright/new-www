@@ -48,7 +48,7 @@ A﻿s you can see, this is web app written in .NET. After clicking on one of the
 
 <div class="image"><img src="/images/screenshot-2022-10-17-at-14.52.39.png" alt="cv file" title="cv file"   /> </div>
 
-S﻿o looks like files were referenced by filename query param. 
+So it looks like files were referenced by the filename query param.
 
 After looking in the code, it looks like `..` path would throw Bad Request error. I guess this was protection of reusing know payloads for path traversal vulnerability by other contestants :D. Simple change from CV file to flag file given the expected result:
 
