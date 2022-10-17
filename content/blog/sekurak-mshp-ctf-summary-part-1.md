@@ -15,15 +15,9 @@ hidden: false
 comments: true
 published: true
 ---
-<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
-
-<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
-
-<div class="image"><img src="/images/screenshot-2022-10-17-at-14.40.10.png" alt="ctf flag" title="ctf flag"  /> </div>
-
 Recently (15.10-16.10) I took part in the Sekurak Mega Hacking Party CTF contest. For those who did not hear of it, CTF is kind of a security hackathon with pre-prepared tasks in which you have to find a flag within known vulnerabilities. This was the first time I have taken part in such a contest. It was quite interesting! Below you will find the first post in series describing the tasks which I solved or tried to solve ;).
 
-**d﻿eobf**
+# **d﻿eobf**
 
 So the first task was as follows: 
 
@@ -44,7 +38,7 @@ I﻿ followed to Chrome dev tools and executed code in the console calling a fun
 
 I﻿ have the flag!
 
-**traversal**
+# **traversal**
 
 S﻿o in next task, we got page like this:
 
@@ -52,14 +46,14 @@ S﻿o in next task, we got page like this:
 
 A﻿s you can see, this is web app written in .NET. After clicking on one of the files, I got following view: 
 
-<div class="image"><img src="/images/screenshot-2022-10-17-at-14.52.39.png" alt="cv file" title="cv file"  /> </div>
+<div class="image"><img src="/images/screenshot-2022-10-17-at-14.52.39.png" alt="cv file" title="cv file"   /> </div>
 
 S﻿o looks like files were referenced by filename query param. 
 
-After looking in the code, it looks like ```..``` path would throw Bad Request error. I guess this was protection of reusing know payloads for path traversal vulnerability by other contestants :D. Simple change from CV file to flag file given the expected result:
+After looking in the code, it looks like `..` path would throw Bad Request error. I guess this was protection of reusing know payloads for path traversal vulnerability by other contestants :D. Simple change from CV file to flag file given the expected result:
 
 <div class="image"><img src="/images/screenshot-2022-10-17-at-14.52.56.png" alt="traversal-flag" title="traversal-flag"  /> </div>
 
 B﻿ingo! 
 
-F﻿or the next post in series I will present other tasks which I have tried to solve - still, even if not successful, I have learned something valuable :)  
+F﻿or the next post in series I will present other tasks which I have tried to solve - still, even if not successful, I have learned something valuable :)
