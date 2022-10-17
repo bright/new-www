@@ -178,9 +178,43 @@ const PrivacyPolicy = () => {
               </ul>
               </p>
               <p>
-                We also use third-party service providers i.e. Google Analytics Universal, Google Analytics 4, 
-                Facebook Pixel to record and collect data on how you use our Website. 
-                This information is not personalized and helps Us improve the functioning of Our Website.
+                The scope of the processing of personal data for recruitment:
+                <br />
+              </p>
+              <p>
+              <ul>
+                <li>
+                  an email address from which the message was sent and the information contained in the application form;
+                </li>
+                <li>
+                  data provided by the Candidate falls under a statutory obligation to provide names and last names, parents' names, date of birth, contact details, information about education and employment history according to Article 22(1) §1 of the Labor Code. 
+                  Providing other personal data is voluntary. 
+                </li>
+              </ul>
+              </p>
+               <p>
+                Data retention period
+                <br />
+              </p>
+              <p>
+                Personal data collected for the purposes of recruitment will be processed for the duration of the recruitment process unless the Candidate agrees to leave the data in order to be considered during future recruitments. Data will be stored until the withdrawal of the consent
+              </p>
+              <p>
+                Your rights concerning our recruitment data processing process:
+                <br />
+              </p>
+              <p>
+              <ul>
+                <li>
+                  You have the right to access your personal data and to change it. You have the right to request its removal, as well as to request the Administrator to limit data processing, as well as to transfer it. In addition, you have the right to object to the processing of personal data of which processing is based on Article 6 (1) (f) of the  GDPR i.e. the Company's legitimate interest. 
+                </li>
+                <li>
+                  You have the right to lodge a complaint with the Chairman of Poland's Personal Data Protection Office if you believe that your data processing violates the provisions of the General Data Protection Regulation. 
+                </li>
+              </ul>
+              </p>
+              <p>
+                Your data will not be transferred to a third country or international organization and will not be used for profiling.
               </p>
               <p>5. &#xA0;Transfer of personal data</p>
               <p>
