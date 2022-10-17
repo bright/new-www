@@ -10,7 +10,7 @@ update_date: false
 dateModified: 2022-10-17T12:08:57.751Z
 title: Sekurak MSHP CTF Summary - Part 1
 layout: post
-image: /images/hacker-gbf1a12ebb_1280.jpg
+image: /images/security_blog_post.png
 hidden: false
 comments: true
 published: true
