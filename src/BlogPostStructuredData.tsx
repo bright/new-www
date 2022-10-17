@@ -63,7 +63,7 @@ export const BlogPostStructuredData = (props: {
     }: {
       frontmatter: { slug: string; email: string; bio: string; name: string; avatar: ImageDataLike }
     }) => {
-      const { slug, email, bio, avatar } = frontmatter
+      const { slug, email, bio, avatar, name } = frontmatter
 
       const authorData = {
         '@type': 'Person',
