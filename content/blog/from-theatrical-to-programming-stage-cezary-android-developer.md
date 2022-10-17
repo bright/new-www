@@ -12,7 +12,7 @@ title: From Theatrical to Programming Stage. Meet Cezary – Android Developer
   with Gymnastics Background
 layout: post
 image: /images/brightstorycezary.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
