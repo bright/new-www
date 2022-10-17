@@ -28,8 +28,6 @@ After graduating from high school I went to Civil Engineering studies but I didn
 
 Eventually, **I became an acrobatic instructor for kids**. I also auditioned for the acrobatic dancer role at the Music Theater in Gdynia. I got a role with some of my friends. So **I was an acrobatic dancer in the Notre Dame De Paris show**. That was pretty cool.
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPiotr.Manasterski.fotograf%2Fphotos%2Fa.376316558378%2F10153908473538379%2F%3Ftype%3D3&show_text=true&width=500" width="500" height="463" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
 <div class="image"><img src="/images/photo_theatre.png" alt="Notre Dame de Paris" title="Photo by Piotr Manasterski"  /> </div>
 
 *Photo by Piotr Manasterski. Source: [Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)*
