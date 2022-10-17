@@ -62,7 +62,9 @@ Bright Inventions has been cooperating with this client for over 3 years. **A cl
 
 We are responsible mostly for iOS and Android development. However, apps are just the use cases of the solution we work on. The whole solution behind our apps is the crucial exciting part of our daily work.
 
-To be more precise **we build SDK whose goal is to provide various Android devices with features similar to iBeacons technology**. Our SDK creates a net of devices that can recognize trackers coded on small printed circuit boards.
+To be more precise **we build SDK whose goal is to provide various Android devices with features similar to iBeacons technology**. Our SDK creates a net of devices that can recognize trackers coded on small printed circuit boards. 
+
+Our **client recently started to integrate their solution** with businesses representing logistics, transport, and healthcare (although the product could be utilized in many other industries). So the effects of the hard work done for the past years have become more tangible.
 
 ## What is special about this project?
 
