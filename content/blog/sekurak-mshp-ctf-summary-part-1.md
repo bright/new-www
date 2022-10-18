@@ -3,8 +3,8 @@ author: rafal h
 tags:
   - security
   - ctf
-  - vulnerability
   - hackathon
+  - development
 date: 2022-10-17T12:08:57.731Z
 update_date: false
 dateModified: 2022-10-17T12:08:57.751Z
