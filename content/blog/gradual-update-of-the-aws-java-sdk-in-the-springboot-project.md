@@ -36,7 +36,7 @@ The first thing we did was to add a new implementation for these services using 
 
 ## Challenges
 
-Some libraries that we used to implement our services don’t support SDK V2(or don’t support both versions side by side), so we needed to fork these libraries and adjust for our needs. These are public repositories, so if you are planning to migrate your project, you could use:
+Some libraries that we used to implement our services don’t support SDK V2(or don’t support both versions side by side), so we needed to fork these libraries and adjust themfor our needs. These are public repositories, so if you are planning to migrate your project, you could use:
 
 * [amazon-sns-java-extended-client-lib](https://github.com/bright/amazon-sns-java-extended-client-lib/tree/sdkv2)
 * [amazon-sqs-java-extended-client-lib](https://github.com/bright/amazon-sqs-java-extended-client-lib/tree/sdk-v2-support)
@@ -46,7 +46,7 @@ Then we could copy all the tests that were testing the original implementation, 
 
 Running tests over a new implementation allowed me to find a bug in my implementation — I messed up the order of parameters 🙈.
 
-## Migration
+## Migration from version 1.x to 2.x of the AWS Java SDK
 
 We decided to take advantage of Spring capabilities to gradually replace old AWS services implementations with the new ones, and for that we used the [@Priority annotation](https://github.com/spring-projects/spring-framework/issues/15179).
 
