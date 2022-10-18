@@ -46,7 +46,7 @@ Then we could copy all the tests that were testing the original implementation, 
 
 Running tests over a new implementation allowed me to find a bug in my implementation — I messed up the order of parameters 🙈.
 
-## Migration from version 1.x to 2.x of the AWS Java SDK
+## Migration from 1.x to 2.x of the AWS Java SDK
 
 We decided to take advantage of Spring capabilities to gradually replace old AWS services implementations with the new ones, and for that we used the [@Priority annotation](https://github.com/spring-projects/spring-framework/issues/15179).
 
