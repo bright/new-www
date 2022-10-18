@@ -16,7 +16,7 @@ published: true
 ---
 Recently, in our project, we decided to update the AWS Java SDK from [1.x](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html) to [2.x](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html), so we are able to use [client-side metrics](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/metrics.html), available only in the newer version of the SDK.
 
-<div class="image"><img src="/images/client-side-metrics-for-the-java-v2-aws-sdk-now-in-general-availability.png" alt="aws client side metrics" title="aws client side metrics"  /> </div>
+<div class="image"><img src="/images/aws-sdk-java.png" alt="AWS SDK Java" title="undefined"  /> </div>
 
 Our whole system is AWS based, so we didn’t want to perform this update at once. We decided to do it granularly instead.
 
@@ -61,5 +61,3 @@ Everything went well, so we could remove temporary annotations, 1.x implementati
 ## Summary
 
 Although we took a couple of extra steps, we were able to introduce an advanced update to our production-ready application without downtime or risk of introducing breaking changes. This way is much safer and allows us to avoid making mistakes that can affect our customers.
-
-<div class="image"><img src="/images/aws-image.webp" alt="AWS SERVICES" title="AWS SERVICES"  /> </div>
