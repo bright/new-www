@@ -9,14 +9,14 @@ update_date: false
 dateModified: 2022-10-18T08:52:15.475Z
 title: Gradual Update of the AWS Java SDK in the SpringBoot Project
 layout: post
-image: https://opengraph.githubassets.com/d31c5ed98944650881588cc6cc7c8812a257f81c9b1f092bd49de6482f6693e8/aws/aws-sdk-java
+image: /images/aws-sdk-blog.png
 hidden: true
 comments: true
 published: true
 ---
 Recently, in our project, we decided to update the AWS Java SDK from [1.x](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html) to [2.x](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html), so we are able to use [client-side metrics](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/metrics.html), available only in the newer version of the SDK.
 
-<div class="image"><img src="/images/client-side-metrics-for-the-java-v2-aws-sdk-now-in-general-availability.png" alt="aws client side metrics" title="aws client side metrics"  /> </div>
+<div class="image"><img src="/images/aws-sdk-java.png" alt="AWS SDK Java" title="undefined"  /> </div>
 
 Our whole system is AWS based, so we didn’t want to perform this update at once. We decided to do it granularly instead.
 
@@ -30,13 +30,13 @@ In our project, we implemented an abstraction layer over AWS services, like:
 * **QueuePublisher** over SnsClient with AwsQueuePublisher implementation
 * **ExternalStorage** over S3Client with AwsFileUploader implementation
 
-The approach of implementing an abstraction layer over external services and frameworks comes in really handy, especially in cases like ours — changing the implementation of these abstractions.
+The approach of introducing an abstraction layer over external services and frameworks comes in really handy, especially in cases like ours — changing the implementation of these abstractions.
 
 The first thing we did was to add a new implementation for these services using SDK v2, so we added AwsQueueSenderV2, AwsQueuePublisherV2 and AwsFileUploaderV2.
 
 ## Challenges
 
-Some libraries that we used to implement our services don’t support SDK V2(or don’t support both versions side by side), so we needed to fork these libraries and adjust themfor our needs. These are public repositories, so if you are planning to migrate your project, you could use:
+Some libraries that we used to implement our services don’t support SDK V2(or don’t support both versions side by side), so we needed to fork these libraries and adjust them for our needs. These are public repositories, so if you are planning to migrate your project, you could use:
 
 * [amazon-sns-java-extended-client-lib](https://github.com/bright/amazon-sns-java-extended-client-lib/tree/sdkv2)
 * [amazon-sqs-java-extended-client-lib](https://github.com/bright/amazon-sqs-java-extended-client-lib/tree/sdk-v2-support)
@@ -48,7 +48,7 @@ Running tests over a new implementation allowed me to find a bug in my implement
 
 ## Migration from 1.x to 2.x of the AWS Java SDK
 
-We decided to take advantage of Spring capabilities to gradually replace old AWS services implementations with the new ones, and for that we used the [@Priority annotation](https://github.com/spring-projects/spring-framework/issues/15179).
+We decided to take advantage of Spring capabilities to gradually replace old AWS services implementations with the new ones, and for that we used the [@Priority](https://github.com/spring-projects/spring-framework/issues/15179) annotation.
 
 We annotated 1.x Beans implementations with @Priority(1) and 2.x implementations with @Priority(2). Then we deployed our application to a test environment and monitored if there were no unexpected changes. After verifying it, we deployed the application to the production environment and continued monitoring to confirm that everything is still fine.
 
@@ -61,5 +61,3 @@ Everything went well, so we could remove temporary annotations, 1.x implementati
 ## Summary
 
 Although we took a couple of extra steps, we were able to introduce an advanced update to our production-ready application without downtime or risk of introducing breaking changes. This way is much safer and allows us to avoid making mistakes that can affect our customers.
-
-<div class="image"><img src="/images/aws-image.webp" alt="AWS SERVICES" title="AWS SERVICES"  /> </div>
