@@ -22,7 +22,7 @@ Our whole system is AWS based, so we didn’t want to perform this update at onc
 
 Fortunately, AWS SDK allows us to [use both versions side by side](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/migration-side-by-side.html).
 
-## Preparation
+## Preparation for AWS Java SDK update
 
 In our project, we implemented an abstraction layer over AWS services, like:
 
@@ -30,7 +30,7 @@ In our project, we implemented an abstraction layer over AWS services, like:
 * **QueuePublisher** over SnsClient with AwsQueuePublisher implementation
 * **ExternalStorage** over S3Client with AwsFileUploader implementation
 
-The approach of implementing an abstraction layer over external services and frameworks comes in really handy, especially in cases like ours — changing implementation of these abstractions.
+The approach of implementing an abstraction layer over external services and frameworks comes in really handy, especially in cases like ours — changing the implementation of these abstractions.
 
 The first thing we did was to add a new implementation for these services using SDK v2, so we added AwsQueueSenderV2, AwsQueuePublisherV2 and AwsFileUploaderV2.
 
