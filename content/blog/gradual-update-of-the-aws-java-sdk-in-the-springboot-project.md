@@ -12,7 +12,7 @@ layout: post
 image: https://opengraph.githubassets.com/d31c5ed98944650881588cc6cc7c8812a257f81c9b1f092bd49de6482f6693e8/aws/aws-sdk-java
 hidden: true
 comments: true
-published: false
+published: true
 ---
 Recently, in our project, we decided to update the AWS Java SDK from [1.x](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html) to [2.x](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html), so we are able to use [client-side metrics](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/metrics.html), available only in the newer version of the SDK.
 
