@@ -111,6 +111,7 @@ groups:
       - Android
       - android
       - OpenSource
+      - security
   - name: Business
     tags:
       - business
