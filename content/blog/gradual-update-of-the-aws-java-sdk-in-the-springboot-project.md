@@ -16,6 +16,8 @@ published: false
 ---
 Recently, in our project, we decided to update the AWS Java SDK from [1.x](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html) to [2.x](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html), so we are able to use [client-side metrics](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/metrics.html), available only in the newer version of the SDK.
 
+<div class="image"><img src="/images/client-side-metrics-for-the-java-v2-aws-sdk-now-in-general-availability.png" alt="aws client side metrics" title="aws client side metrics"  /> </div>
+
 Our whole system is AWS based, so we didn’t want to perform this update at once. We decided to do it granularly instead.
 
 Fortunately, AWS SDK allows us to [use both versions side by side](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/migration-side-by-side.html).
