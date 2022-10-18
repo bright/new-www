@@ -52,7 +52,7 @@ We decided to take advantage of Spring capabilities to gradually replace old AWS
 
 We annotated 1.x Beans implementations with @Priority(1) and 2.x implementations with @Priority(2). Then we deployed our application to a test environment and monitored if there were no unexpected changes. After verifying it, we deployed the application to the production environment and continued monitoring to confirm that everything is still fine.
 
-In the next step, we chose a couple of non business critical functionalities and replaced old services with the new ones, using the [@Named](https://docs.oracle.com/javaee/7/api/javax/inject/Named.html) annotation. After repeating deployment and monitoring steps, we were sure our new implementations were working as expected, so we could release the application with all AWS Beans updated. We did this by changing the priority of 1.x Beans from @Priority(1) to @Priority(3).
+In the next step, we chose a couple of non-business critical functionalities and replaced old services with the new ones, using the [@Named](https://docs.oracle.com/javaee/7/api/javax/inject/Named.html) annotation. After repeating the deployment and monitoring steps, we were sure our new implementations were working as expected, so we could release the application with all AWS Beans updated. We did this by changing the priority of 1.x Beans from @Priority(1) to @Priority(3).
 
 ## Cleanup
 
