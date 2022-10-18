@@ -59,3 +59,5 @@ Everything went well, so we could remove temporary annotations, 1.x implementati
 #### Summary
 
 Although we took a couple of extra steps, we were able to introduce an advanced update to our production-ready application without downtime or risk of introducing breaking changes. This way is much safer and allows us to avoid making mistakes that can affect our customers.
+
+<div class="image"><img src="/images/aws-image.webp" alt="AWS SERVICES" title="AWS SERVICES"  /> </div>
