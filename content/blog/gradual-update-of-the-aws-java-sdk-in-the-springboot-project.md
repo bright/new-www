@@ -7,7 +7,7 @@ tags:
 date: 2022-10-18T08:52:15.448Z
 update_date: false
 dateModified: 2022-10-18T08:52:15.475Z
-title: Gradual update of the AWS Java SDK in the SpringBoot project
+title: Gradual Update of the AWS Java SDK in the SpringBoot Project
 layout: post
 image: https://opengraph.githubassets.com/d31c5ed98944650881588cc6cc7c8812a257f81c9b1f092bd49de6482f6693e8/aws/aws-sdk-java
 hidden: true
