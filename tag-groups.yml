@@ -46,6 +46,7 @@ groups:
         # /blog/topics/development/QA
         tags:
           - testing
+          - automation testing
           - QA
           - unit tests
           - tests
