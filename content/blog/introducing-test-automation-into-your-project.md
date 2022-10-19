@@ -1,7 +1,7 @@
 ---
 author: radek-l
-secondAuthor: malgorzata-z
-thirdAuthor: michal-wa
+secondAuthor: ""
+thirdAuthor: ""
 tags:
   - automation testing
   - QA
