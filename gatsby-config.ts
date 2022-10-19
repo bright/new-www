@@ -298,9 +298,9 @@ export default {
             `,
             transformer: ({
                             data: {
-                              allMarkdownRemark: { posts }
+                              allMdx: { posts }
                             }
-                          }: { data: { allMarkdownRemark: { posts: Node[] } } }) => ({
+                          }: { data: { allMdx: { posts: Node[] } } }) => ({
               tags: [...new Set(posts.flatMap(post => post.frontmatter?.tags ?? []))]
             })
           }
@@ -320,7 +320,7 @@ export default {
     }
   ],
   mapping: {
-    'MarkdownRemark.frontmatter.faqs': `MarkdownRemark.frontmatter.faqs_id`,
-    'MarkdownRemark.frontmatter.project': `MarkdownRemark.frontmatter.project_id`
+    'Mdx.frontmatter.faqs': `Mdx.frontmatter.faqs_id`,
+    'Mdx.frontmatter.project': `Mdx.frontmatter.project_id`
   }
 }

@@ -6,6 +6,6 @@ export function blogListForTagGroupsBasePath(...tagGroups: TagGroup[]) {
   return `/blog/${tagGroups.map(group => kebabCase(group.name.toLowerCase())).join('/')}`
 }
 
-export function blogPostUrlPath(postNode: { frontmatter: { slug?: string }, fileAbsolutePath: string }) {
-  return '/blog/' + (postNode.frontmatter.slug || urlSegmentForContentPath(postNode.fileAbsolutePath))
+export function blogPostUrlPath(postNode: { frontmatter: { slug?: string }, internal: { contentFilePath: string } }) {
+  return '/blog/' + (postNode.frontmatter.slug || urlSegmentForContentPath(postNode.internal.contentFilePath))
 }

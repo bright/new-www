@@ -1,5 +1,5 @@
-export function urlSegmentForContentPath(nodeFileAbsolutePath: string) {
-  return nodeFileAbsolutePath
+export function urlSegmentForContentPath(contentFilePath: string) {
+  return contentFilePath
     .split('/')
     .pop()!
     .replace('.md', '')

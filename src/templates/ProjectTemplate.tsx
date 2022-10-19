@@ -77,8 +77,8 @@ const Title = styled.h1`
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  const { mdx } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { mdx } = data // data.mdx holds your post data
+  const { frontmatter, html } = mdx
   return (
     <Page>
       <HelmetTitleDescription title={frontmatter.title} description={frontmatter.description} />
@@ -95,8 +95,8 @@ export default function Template({
   )
 }
 export const pageQuery = graphql`
-  query($fileAbsolutePath: String!) {
-    markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
+  query($id: String!) {
+    mdx(id: { eq: $id }) {
       html
       frontmatter {
         slug

@@ -345,7 +345,7 @@ export type PostTemplateProps = {
   contentView?: () => JSX.Element
   commentsView?: () => JSX.Element
   data: {
-    markdownRemark: {
+    mdx: {
       excerpt: string
       frontmatter: {
         slug: string
@@ -464,13 +464,13 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
 
 // TODO: we should decouple Post* controls that deal with graphql from those that render actual posts
 export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
-  const { markdownRemark, allMdx } = props.data // data.markdownRemark holds your post data
-  const { frontmatter: page } = markdownRemark
+  const { mdx, allMdx } = props.data // data.mdx holds your post data
+  const { frontmatter: page } = mdx
   const { pathname } = useLocation()
   const slug = props.path.replace(/^(\/blog\/)/, '')
-  const title = markdownRemark.frontmatter.title
-  const image = markdownRemark.frontmatter.image
-  const canonicalUrl = markdownRemark.frontmatter.canonicalUrl
+  const title = mdx.frontmatter.title
+  const image = mdx.frontmatter.image
+  const canonicalUrl = mdx.frontmatter.canonicalUrl
 
   const postStructuredData = props.structuredData?.({
     authors_id: [page.author, page.secondAuthor, page.thirdAuthor],
@@ -513,12 +513,12 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
       <Helmet>
         <title>{title} | Bright Inventions</title>
         {title && <meta property='og:title' content={title} />}
-        <meta name='description' content={descriptionOrDefault(markdownRemark.excerpt)} />
-        <meta property='og:description' content={descriptionOrDefault(markdownRemark.excerpt)} />
+        <meta name='description' content={descriptionOrDefault(mdx.excerpt)} />
+        <meta property='og:description' content={descriptionOrDefault(mdx.excerpt)} />
         <meta property='og:site_name' content={siteMetadata.title} />
         <meta property='og:url' content={resolveUrl(pathname)} />
         <meta property='og:type' content='article' />
-        <meta property='article:published_time' content={markdownRemark.frontmatter.date} />
+        <meta property='article:published_time' content={mdx.frontmatter.date} />
         {image && <meta property='og:image' content={resolveUrl(getSrc(image)!)} />}
         {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
       </Helmet>
@@ -536,9 +536,9 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           secondAuthor={page.secondAuthor}
           thirdAuthor={page.thirdAuthor}
           canonicalUrl={page.canonicalUrl}
-          fileAbsolutePath={markdownRemark.fileAbsolutePath}
+          fileAbsolutePath={mdx.fileAbsolutePath}
           tags={page.tags ?? []}
-          timeToRead={markdownRemark.timeToRead}
+          timeToRead={mdx.timeToRead}
         />
       </ConstrainedWidthContainer>
       <CustomSection
@@ -550,7 +550,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
       >
         <RelatedPosts
           allMdx={allMdx}
-          currentPostfileAbsolutPath={markdownRemark.fileAbsolutePath}
+          currentPostfileAbsolutPath={mdx.fileAbsolutePath}
         />
       </CustomSection>
       <ConstrainedWidthContainer id='blog'>

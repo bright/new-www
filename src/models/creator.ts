@@ -20,8 +20,8 @@ export const createBlogPosts = (data: GQLData): BlogPostModel[] => {
     })
 }
 
-export const createBlogRelatedPosts = (allMarkdownRemark: allMdxData | undefined): BlogPostModel[] => {
-  return (allMarkdownRemark?.constructor === Array ? allMarkdownRemark : allMarkdownRemark?.edges || [])
+export const createBlogRelatedPosts = (allMdx: allMdxData | undefined): BlogPostModel[] => {
+  return (allMdx?.constructor === Array ? allMdx : allMdx?.edges || [])
     .map(({ node }) => {
       const base = node.frontmatter
       return {

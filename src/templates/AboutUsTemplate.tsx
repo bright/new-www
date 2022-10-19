@@ -99,8 +99,8 @@ const AboutUSTemplate: React.FC<Props> = ({
   pageContext,
 }: // this prop will be injected by the GraphQL query below.
 any) => {
-  const { mdx } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { mdx } = data // data.mdx holds your post data
+  const { frontmatter, html } = mdx
   const avatarImage = getImage(frontmatter.avatar_hover)!
   const postsRef = useRef<HTMLHeadingElement>(null)
 
@@ -197,8 +197,8 @@ any) => {
   )
 }
 export const pageQuery = graphql`
-  query($fileAbsolutePath: String!) {
-    markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
+  query($id: String!) {
+    mdx(id: { eq: $id }) {
       html
       frontmatter {
         short_name

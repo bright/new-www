@@ -35,8 +35,8 @@ import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 
 export default function Template({ data, params, pageContext }: any) {
-  const { mdx } = data // data.markdownRemark holds your post data
-  const { frontmatter: page, html } = markdownRemark
+  const { mdx } = data // data.mdx holds your post data
+  const { frontmatter: page, html } = mdx
   const image = getImage(page.image_our_service)
   const myRef = useRef(null)
   const { faqTitle } = pageContext
@@ -241,8 +241,8 @@ export default function Template({ data, params, pageContext }: any) {
 }
 
 export const pageQuery = graphql`
-  query($fileAbsolutePath: String!) {
-    markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
+  query($id: String!) {
+    mdx(id: { eq: $id }) {
       frontmatter {
         team_members
         faqs {

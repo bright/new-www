@@ -513,8 +513,8 @@ const Salary: React.FC<{ salary: string }> = ({ salary }) => {
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }: any) {
-  const { mdx } = data // data.markdownRemark holds your post data
-  const { frontmatter: page, html } = markdownRemark
+  const { mdx } = data // data.mdx holds your post data
+  const { frontmatter: page, html } = mdx
 
   const technologies = page.technology
 
@@ -707,8 +707,8 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($fileAbsolutePath: String!) {
-    markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
+  query($id: String!) {
+    mdx(id: { eq: $id }) {
       html
       frontmatter {
         slug

@@ -31,8 +31,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         limit: postsPerPage,
         skip: i * postsPerPage,
         numPages,
-        currentPage: i + 1,
-      },
+        currentPage: i + 1
+      }
     })
   })
 
@@ -56,8 +56,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             limit: postsPerPage,
             skip: i * postsPerPage,
             numPages,
-            currentPage: i + 1,
-          },
+            currentPage: i + 1
+          }
         })
       })
 
@@ -80,8 +80,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                   limit: postsPerPage,
                   skip: i * postsPerPage,
                   numPages,
-                  currentPage: i + 1,
-                },
+                  currentPage: i + 1
+                }
               })
             })
           })
@@ -113,7 +113,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
   await Promise.all(
     members.map(async ({ node }) => {
-      const { fileAbsolutePath, frontmatter } = node
+      const { frontmatter } = node
       const { slug: member, author_id: authorId } = frontmatter
       const result = await graphql<{
         author: allMdxData
@@ -202,7 +202,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
       const uniqueAuthors = allAuthors
         .filter((v, i, a) => a.findIndex(t => t.node.fields.slug === v.node.fields.slug) === i)
-        .sort(function (a, b) {
+        .sort(function(a, b) {
           return new Date(b.node.frontmatter.date).getTime() - new Date(a.node.frontmatter.date).getTime()
         })
 
@@ -213,24 +213,24 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       if (posts.length === 0) {
         createPage({
           path: `/about-us/${_.kebabCase(member)}`,
-          component: path.resolve('./src/templates/AboutUsTemplate.tsx'),
+          component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${node.internal.contentFilePath}`,
           context: {
-            fileAbsolutePath: fileAbsolutePath,
-          },
+            id: node.id
+          }
         })
       } else {
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
             path: i == 0 ? `/about-us/${_.kebabCase(member)}` : `/about-us/${_.kebabCase(member)}/${i + 1}`,
-            component: path.resolve('./src/templates/AboutUsTemplate.tsx'),
+            component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${node.internal.contentFilePath}`,
             context: {
+              id: node.id,
               limit: postsPerPage,
               skip: i * postsPerPage,
               numPages,
               posts: i == 0 ? posts.slice(i, postsPerPage) : posts.slice(i * postsPerPage, (i + 1) * postsPerPage),
-              currentPage: i + 1,
-              fileAbsolutePath: fileAbsolutePath,
-            },
+              currentPage: i + 1
+            }
           })
         })
       }
@@ -262,23 +262,23 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   services.forEach(service => {
     createPage({
       path: 'our-areas/' + service.node.frontmatter.slug,
-      component: path.resolve('./src/templates/OurServiceTemplate.tsx'),
+      component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${service.node.internal.contentFilePath}`,
       context: {
-        slug: service.node.frontmatter.slug,
-        fileAbsolutePath: service.node.fileAbsolutePath,
-      },
+        id: service.node.id,
+        slug: service.node.frontmatter.slug
+      }
     })
 
     const faqs = service.node.frontmatter.faqs
     faqs.forEach((faq: { frontmatter: { answer: string; question: string } }) => {
       createPage({
         path: 'our-areas/' + service.node.frontmatter.slug + '/' + _.kebabCase(faq.frontmatter.question.toLowerCase()),
-        component: path.resolve('./src/templates/OurServiceTemplate.tsx'),
+        component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${service.node.internal.contentFilePath}`,
         context: {
+          id: service.node.id,
           faqTitle: faq.frontmatter.question,
           slug: service.node.frontmatter.slug,
-          fileAbsolutePath: service.node.fileAbsolutePath,
-        },
+        }
       })
     })
   })
@@ -354,8 +354,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       context: {
         id: postNode.id,
         slug: postNode.fields.slug,
-        relatedTags: relatedTags,
-      },
+        relatedTags: relatedTags
+      }
     })
   })
 
@@ -376,7 +376,6 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
               internal {
                 contentFilePath
               }
-              internal {  contentFilePath  }
             }
           }
         }
@@ -390,7 +389,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }
     // console.log(result.data.allMdx.edges)
     result.data!.allMdx.edges.forEach(({ node }) => {
-      const name = node.fileAbsolutePath
+      if(!node.internal.contentFilePath){
+        console.log('no contentFilePath in', node)
+      }
+      const name = node.internal.contentFilePath
         .split('/')
         .pop()
         .replace('.md', '')
@@ -406,12 +408,12 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
       createPage({
         path: path + '/' + (node.frontmatter.slug || name),
-        component: template,
+        component: `${template}?__contentFilePath=${node.internal.contentFilePath}`,
         context: {
+          id: node.id,
           // additional data can be passed via context
-          slug: node.frontmatter.slug,
-          fileAbsolutePath: node.fileAbsolutePath,
-        },
+          slug: node.frontmatter.slug
+        }
       })
     })
   }
@@ -433,13 +435,16 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
 
   if (node.internal.type === `Mdx`) {
     const nodeFilePath = node.internal.contentFilePath!
+    if(!node.internal.contentFilePath){
+      console.log('no contentFilePath in', node)
+    }
     const nodeSlug = '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
     console.log('nodeSlug', nodeSlug, 'for path', nodeFilePath)
     createNodeField({
       node,
       name: `slug`,
       // TODO: figure out correct type instead of as any
-      value: nodeSlug,
+      value: nodeSlug
     })
   }
 }
@@ -448,8 +453,8 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ act
     plugins: [
       //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms#disable-widget-on-site
       new IgnorePlugin({
-        resourceRegExp: /^netlify-identity-widget$/,
-      }),
-    ],
+        resourceRegExp: /^netlify-identity-widget$/
+      })
+    ]
   })
 }

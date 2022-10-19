@@ -3,7 +3,7 @@ import { BlogPostsFrontmatterQueryResult } from './blog-post-frontmatter-query-r
 
 export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResult = () => {
   const {
-    allMarkdownRemark: { posts },
+    allMdx: { posts },
   } = useStaticQuery(graphql`
     query {
       allMdx(

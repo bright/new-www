@@ -35,7 +35,7 @@ export function toAuthors(queryResult: AuthorsFrontmatterQueryResult): Author[] 
 }
 
 export interface AuthorsFrontmatterQueryResult {
-  allMarkdownRemark: {
+  allMdx: {
     nodes: {
       frontmatter: AuthorsFrontmatterItem
     }[]
