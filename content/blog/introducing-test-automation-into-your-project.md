@@ -4,6 +4,7 @@ secondAuthor: malgorzata-z
 thirdAuthor: michal-wa
 tags:
   - automation testing
+  - QA
 date: 2022-10-19T07:21:40.716Z
 update_date: false
 dateModified: 2022-10-19T07:21:40.746Z
