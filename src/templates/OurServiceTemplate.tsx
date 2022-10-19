@@ -35,7 +35,7 @@ import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 
 export default function Template({ data, params, pageContext }: any) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { mdx } = data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
   const image = getImage(page.image_our_service)
   const myRef = useRef(null)

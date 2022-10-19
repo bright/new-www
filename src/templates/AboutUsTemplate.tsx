@@ -99,7 +99,7 @@ const AboutUSTemplate: React.FC<Props> = ({
   pageContext,
 }: // this prop will be injected by the GraphQL query below.
 any) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { mdx } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   const avatarImage = getImage(frontmatter.avatar_hover)!
   const postsRef = useRef<HTMLHeadingElement>(null)

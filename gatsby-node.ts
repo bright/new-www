@@ -311,11 +311,12 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
+  debugger;
   const postsResult = postResult.data!.allMdx.edges
 
   postsResult.forEach(post => {
     const postNode = post.node
-    const nodeFileAbsolutePath: string = postNode.fileAbsolutePath
+    const nodeFileAbsolutePath: string = postNode.internal.contentFilePath
     const currentPostTags: string[] = postNode.frontmatter.tags
 
     const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue: string[], currentValue: TagGroup) => {
@@ -349,10 +350,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
     createPage({
       path: blogPostUrlPath(postNode),
-      component: path.resolve('./src/templates/PostTemplate.tsx'),
+      component: `${path.resolve('./src/templates/PostTemplate.tsx')}?__contentFilePath=${nodeFileAbsolutePath}`,
       context: {
+        id: postNode.id,
         slug: postNode.fields.slug,
-        fileAbsolutePath: nodeFileAbsolutePath,
         relatedTags: relatedTags,
       },
     })

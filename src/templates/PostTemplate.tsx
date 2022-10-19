@@ -346,7 +346,6 @@ export type PostTemplateProps = {
   commentsView?: () => JSX.Element
   data: {
     markdownRemark: {
-      html: string
       excerpt: string
       frontmatter: {
         slug: string
@@ -378,7 +377,7 @@ type PostAuthorsProps = {
   thirdAuthor?: string
   authorsView?: (props: AuthorDataProps) => JSX.Element
 }
-type PostContentProps = { contentView: () => JSX.Element } | { html: string; contentView: undefined }
+type PostContentProps = { contentView: () => JSX.Element } | { children: JSX.Element; contentView: undefined }
 
 type PostArticleContentProps = PostAuthorsProps &
   PostContentProps & {
@@ -444,7 +443,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
       {props.contentView ? (
         <Content className='content is-family-secondary'>{props.contentView()}</Content>
       ) : (
-        <Content className='content is-family-secondary' dangerouslySetInnerHTML={{ __html: props.html }} />
+        <Content className='content is-family-secondary'>{props.children}</Content>
       )}
 
       <PreviousButton onClick={() => navigate(-1)}>
@@ -466,7 +465,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
 // TODO: we should decouple Post* controls that deal with graphql from those that render actual posts
 export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
   const { markdownRemark, allMdx } = props.data // data.markdownRemark holds your post data
-  const { frontmatter: page, html } = markdownRemark
+  const { frontmatter: page } = markdownRemark
   const { pathname } = useLocation()
   const slug = props.path.replace(/^(\/blog\/)/, '')
   const title = markdownRemark.frontmatter.title
@@ -532,7 +531,6 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           dateModified={page.dateModified}
           update_date={page.update_date}
           contentView={props.contentView}
-          html={markdownRemark.html}
           authorsView={props.authorsView}
           author={page.author}
           secondAuthor={page.secondAuthor}
@@ -569,8 +567,8 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
 export default PostTemplate
 
 export const pageQuery = graphql`
-  query($fileAbsolutePath: String!, $relatedTags: [String!]!) {
-    markdownRemark(fileAbsolutePath: { eq: $fileAbsolutePath }) {
+  query($id: String!, $relatedTags: [String!]!) {
+    mdx(id: { eq: $id }) {
       html
       excerpt
       frontmatter {

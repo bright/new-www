@@ -42,7 +42,7 @@
     "gatsby-remark-images": "^6.19.0",
     "gatsby-remark-instagram-embed": "^1.0.0",
     "gatsby-remark-prismjs": "^6.19.0",
-    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-remark-mdx-relative-images": "^1.0.2",
     "gatsby-remark-responsive-iframe": "^5.19.0",
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-transformer-json": "^4.19.0",

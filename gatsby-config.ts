@@ -187,7 +187,7 @@ export default {
             resolve: `gatsby-remark-external-links`
           },
           {
-            resolve: `gatsby-remark-relative-images`
+            resolve: `gatsby-remark-mdx-relative-images`
           },
           {
             resolve: `gatsby-remark-copy-linked-files`

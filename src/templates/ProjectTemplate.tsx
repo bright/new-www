@@ -77,7 +77,7 @@ const Title = styled.h1`
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { mdx } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
     <Page>
