@@ -135,10 +135,6 @@ export const Contact: FC<ContactProps> = ({
       FormType.contact
     )
       .then(() => {
-        trackConversion({
-          sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo'
-        }).then(() => console.log('Business contact form conversion sent'))
-
         setError(false)
         setSuccess(true)
         setIsSending(false)
@@ -150,7 +146,15 @@ export const Contact: FC<ContactProps> = ({
         setIsSending(false)
       })
 
+    trackConversion({
+      sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo'
+    }).then(() => console.log('Business contact form conversion sent'))
 
+    trackCustomEvent({
+      category: formButton,
+      action: actionFormButton,
+      label: window.location.href
+    })
   }
 
   const closeModal = () => {
@@ -158,11 +162,6 @@ export const Contact: FC<ContactProps> = ({
   }
 
   const checkValid = () => {
-    trackCustomEvent({
-      category: formButton,
-      action: actionFormButton,
-      label: window.location.href
-    })
     const isValid: boolean = checkedRules && name && email && message ? true : false
     setValid(isValid)
   }
