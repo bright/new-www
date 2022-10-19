@@ -11,7 +11,7 @@ dateModified: 2022-10-19T07:21:40.746Z
 title: Introducing Test Automation into your Project
 layout: post
 image: /images/test_automation_project.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
