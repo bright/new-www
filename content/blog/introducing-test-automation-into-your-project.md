@@ -86,3 +86,7 @@ That’s defined by an equation that consists of a few elements:
 ## Summary
 
 There are many more aspects to be taken into account but these above seem to be essential in my opinion. Introducing Test Automation into your project is a hard task but if you feel like you have the skills go for it! I’d advise however to keep in touch with an experienced developer to consult the decisions about the structure of the framework. The concrete recipe for a successful test automation is hard to cover within a single blog post, but I think it is beneficial to at least ask yourself the questions and inspire yourself with the suggestions written above.
+
+\-﻿--
+
+S﻿pecial thanks to [Małgorzata](/about-us/malgorzata-z/) and [Michał](/about-us/michal-wa/) for their contribution.
