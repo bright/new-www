@@ -4,7 +4,7 @@ export async function queryPostsSlug({ graphql, tags }: Pick<CreatePagesArgs, 'g
   const tagsFilter = tags ? `tags: { in: ${tags} }` : ''
   return await graphql(`
       {
-          allMarkdownRemark(
+          allMdx(
               filter: { 
                 frontmatter: { 
                   layout: { eq: "post" } 

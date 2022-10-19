@@ -19,7 +19,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     return
   }
 
-  const posts = result.data.allMarkdownRemark.edges
+  const posts = result.data.allMdx.edges
   const postsPerPage = 10
   const numPages = Math.ceil(posts.length / postsPerPage)
 
@@ -42,7 +42,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     ymlDocTags.groups.map(async (group: TagGroup) => {
       const searchTags = JSON.stringify(group.tags)
       const result = await queryPostsSlug({ graphql, tags: searchTags })
-      const posts = result.data.allMarkdownRemark.edges
+      const posts = result.data.allMdx.edges
       const postsPerPage = 10
       const numPages = Math.ceil(posts.length / postsPerPage)
 
@@ -66,7 +66,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
           group.groups.map(async subTag => {
             const searchTags = JSON.stringify(subTag.tags)
             const result = await queryPostsSlug({ graphql, tags: searchTags })
-            const posts = result.data.allMarkdownRemark.edges
+            const posts = result.data.allMdx.edges
             const postsPerPage = 10
             const numPages = Math.ceil(posts.length / postsPerPage)
             Array.from({ length: numPages }).forEach((item, i) => {
@@ -92,7 +92,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
   const memberResult = await graphql<GQLData>(`
     {
-      allMarkdownRemark(filter: { frontmatter: { layout: { eq: "member" } } }) {
+      allMdx(filter: { frontmatter: { layout: { eq: "member" } } }) {
         edges {
           node {
             fileAbsolutePath
@@ -109,7 +109,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-  const members = memberResult.data!.allMarkdownRemark?.edges
+  const members = memberResult.data!.allMdx?.edges
 
   await Promise.all(
     members.map(async ({ node }) => {
@@ -121,7 +121,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         thirdAuthor?: allMarkdownRemarkData
       }>(`
   {
-    author: allMarkdownRemark(
+    author: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${authorId}"}}}
       sort: {fields: frontmatter___date, order: DESC}
     ) {
@@ -146,7 +146,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         }
       }
     }
-    secondAuthor: allMarkdownRemark(
+    secondAuthor: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, secondAuthor: {eq: "${authorId}"}}}
       sort: {fields: frontmatter___date, order: DESC}
     ) {
@@ -170,7 +170,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         }
       }
     }
-    thirdAuthor: allMarkdownRemark(
+    thirdAuthor: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${authorId}"}}}
       sort: {fields: frontmatter___date, order: DESC}
     ) {
@@ -239,7 +239,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
   const serviceResult = await graphql<GQLData>(`
     {
-      allMarkdownRemark(filter: { frontmatter: { layout: { eq: "our-service" } } }, limit: 1000) {
+      allMdx(filter: { frontmatter: { layout: { eq: "our-service" } } }, limit: 1000) {
         edges {
           node {
             frontmatter {
@@ -257,7 +257,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       }
     }
   `)
-  const services = serviceResult.data!.allMarkdownRemark.edges
+  const services = serviceResult.data!.allMdx.edges
 
   services.forEach(service => {
     createPage({
@@ -286,7 +286,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const postResult = await graphql<GQLData>(
     `
       {
-        allMarkdownRemark(
+        allMdx(
           filter: { frontmatter: { layout: { eq: "post" } } }
           sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
           limit: 1000
@@ -311,7 +311,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-  const postsResult = postResult.data!.allMarkdownRemark.edges
+  const postsResult = postResult.data!.allMdx.edges
 
   postsResult.forEach(post => {
     const postNode = post.node
@@ -361,7 +361,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const preparePage = async (layout: string, path: string, template: string) => {
     const result = await graphql<GQLData>(`
       {
-        allMarkdownRemark(
+        allMdx(
           filter: {
             frontmatter: { layout: { eq: "${layout}" } }
           }
@@ -371,6 +371,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             node {
               frontmatter {
                 slug
+              }
+              internal {
+                contentFilePath
               }
               fileAbsolutePath
             }
@@ -384,8 +387,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       reporter.panicOnBuild(`Error while running GraphQL query.`)
       return
     }
-    // console.log(result.data.allMarkdownRemark.edges)
-    result.data!.allMarkdownRemark.edges.forEach(({ node }) => {
+    // console.log(result.data.allMdx.edges)
+    result.data!.allMdx.edges.forEach(({ node }) => {
       const name = node.fileAbsolutePath
         .split('/')
         .pop()
@@ -427,8 +430,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === `MarkdownRemark`) {
-    const nodeFilePath = (node as any).fileAbsolutePath
+  if (node.internal.type === `Mdx`) {
+    const nodeFilePath = node.internal.contentFilePath!
     const nodeSlug = '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
     console.log('nodeSlug', nodeSlug, 'for path', nodeFilePath)
     createNodeField({

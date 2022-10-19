@@ -17,7 +17,7 @@ export interface allMarkdownRemarkData {
 }
 
 export interface GQLData {
-  allMarkdownRemark: {
+  allMdx: {
     nodes?: Node[]
     edges: Edge[]
   }

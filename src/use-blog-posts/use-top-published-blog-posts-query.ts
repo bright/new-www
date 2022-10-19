@@ -6,7 +6,7 @@ export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResul
     allMarkdownRemark: { posts },
   } = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(
+      allMdx(
         filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
         sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
         limit: 4

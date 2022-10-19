@@ -31,7 +31,7 @@ function toAuthor(frontmatter: AuthorsFrontmatterItem) {
 export type Author = ReturnType<typeof toAuthor>
 
 export function toAuthors(queryResult: AuthorsFrontmatterQueryResult): Author[] {
-  return queryResult.allMarkdownRemark.nodes.map(({ frontmatter }) => toAuthor(frontmatter))
+  return queryResult.allMdx.nodes.map(({ frontmatter }) => toAuthor(frontmatter))
 }
 
 export interface AuthorsFrontmatterQueryResult {

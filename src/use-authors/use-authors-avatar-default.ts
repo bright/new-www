@@ -4,7 +4,7 @@ import { AuthorsFrontmatterQueryResult, toAuthors } from './authors-frontmatter-
 const useAuthorsAvatarsDefaultQuery: () => AuthorsFrontmatterQueryResult = () =>
   useStaticQuery(graphql`
     {
-      allMarkdownRemark(filter: { frontmatter: { author_id: { ne: null } } }, sort: { fields: frontmatter___name }) {
+      allMdx(filter: { frontmatter: { author_id: { ne: null } } }, sort: { fields: frontmatter___name }) {
         nodes {
           frontmatter {
             author_id

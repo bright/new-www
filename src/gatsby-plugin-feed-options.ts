@@ -8,7 +8,7 @@ const feedGQL = (tags?: string[]) => {
   const tagsFilter = tags ? `tags: { in: [${tags.map(t => `"${t}"`)}] }` : ''
   return `
       {
-          allMarkdownRemark(
+          allMdx(
               filter: {
                   frontmatter: {
                       layout: { eq: "post" }
@@ -30,7 +30,10 @@ const feedGQL = (tags?: string[]) => {
                         date
                       }
                       fields {
-                          slug
+                        slug
+                      }
+                      internal {
+                        contentFilePath
                       }
                   }
               }
@@ -40,8 +43,8 @@ const feedGQL = (tags?: string[]) => {
 }
 
 function serializePostsToFeed(siteMetadata: SiteMetadata) {
-  return ({ query: { allMarkdownRemark } }: { query: GQLData }) => {
-    const posts = allMarkdownRemark.edges!
+  return ({ query: { allMdx } }: { query: GQLData }) => {
+    const posts = allMdx.edges!
     const feed = posts.map(({ node }) => {
       const url = siteMetadata.siteUrl + trimStart(blogPostUrlPath(node), '/')
       return Object.assign({}, node.frontmatter, {

@@ -146,9 +146,10 @@ export default {
     },
 
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [`.md`, `.mdx`],
+        gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
@@ -286,7 +287,7 @@ export default {
             fileName: 'blog-posts-meta',
             query: `
               query PostTags {
-                allMarkdownRemark(filter: {frontmatter: {layout: {eq: "post"}}}){
+                allMdx(filter: {frontmatter: {layout: {eq: "post"}}}){
                   posts: nodes {
                     frontmatter {
                       tags
