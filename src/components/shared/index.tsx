@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import * as Styled from './index.styled'
 
 interface MoreButtonProps {
-  onClick?: (e: MouseEvent) => void
+  onClick?: (e: React.MouseEvent) => void
   href?: string
   text?: string
   isSubmit?: boolean

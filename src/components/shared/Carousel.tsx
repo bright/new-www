@@ -112,7 +112,7 @@ type CarouselProps = {
 
 export const Carousel: React.FC<CarouselProps> = ({ wrapperClassName }) => {
   const {
-    allMarkdownRemark: { edges },
+    allMdx: { edges },
   } = useStaticQuery(GQL)
   const carouselItems: ProjectModel[] = edges ? edges.map((e: any) => e.node.frontmatter) : []
 
@@ -138,7 +138,7 @@ export const Carousel: React.FC<CarouselProps> = ({ wrapperClassName }) => {
 
 const GQL = graphql`
   {
-    allMarkdownRemark(
+    allMdx(
       filter: { frontmatter: { layout: { eq: "project" }, published: { ne: false } } }
       limit: 6
       sort: { order: ASC, fields: frontmatter___order }

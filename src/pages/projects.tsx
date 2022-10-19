@@ -153,7 +153,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(filter: { frontmatter: { layout: { eq: "project" } } }) {
+    allMdx(filter: { frontmatter: { layout: { eq: "project" } } }) {
       edges {
         node {
           frontmatter {

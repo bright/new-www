@@ -18,7 +18,7 @@ export const BlogPostStructuredData = (props: {
     site: {
       siteMetadata: { siteUrl },
     },
-    allMarkdownRemark: { nodes: authors },
+    allMdx: { nodes: authors },
   } = useStaticQuery(graphql`
     {
       site {
@@ -26,7 +26,7 @@ export const BlogPostStructuredData = (props: {
           siteUrl
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { author_id: { ne: null } } }) {
+      allMdx(filter: { frontmatter: { author_id: { ne: null } } }) {
         nodes {
           frontmatter {
             author_id

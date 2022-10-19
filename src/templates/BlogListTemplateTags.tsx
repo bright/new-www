@@ -85,7 +85,7 @@ PageDescription> import { useEffect, useState } from 'react';
 
 export const pageQuery = graphql`
   query MyQueryy($groupTags: [String!]!, $skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
+    allMdx(
       filter: {
         frontmatter: {
           layout: { eq: "post" }
@@ -101,7 +101,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          fileAbsolutePath
+          internal {  contentFilePath  }
           excerpt(pruneLength: 500)
           frontmatter {
             excerpt

@@ -1,5 +1,5 @@
 import type { GatsbyNode } from 'gatsby'
-import { allMarkdownRemarkData, GQLData } from './src/models/gql'
+import { allMdxData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
 import { IgnorePlugin } from 'webpack'
@@ -95,7 +95,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       allMdx(filter: { frontmatter: { layout: { eq: "member" } } }) {
         edges {
           node {
-            fileAbsolutePath
+            internal {  contentFilePath  }
             frontmatter {
               slug
               author_id
@@ -116,9 +116,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       const { fileAbsolutePath, frontmatter } = node
       const { slug: member, author_id: authorId } = frontmatter
       const result = await graphql<{
-        author: allMarkdownRemarkData
-        secondAuthor?: allMarkdownRemarkData
-        thirdAuthor?: allMarkdownRemarkData
+        author: allMdxData
+        secondAuthor?: allMdxData
+        thirdAuthor?: allMdxData
       }>(`
   {
     author: allMdx(
@@ -128,7 +128,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       edges {
         node {
           id
-          fileAbsolutePath
+          internal {  contentFilePath  }
           frontmatter {
             image {
               childImageSharp {
@@ -153,7 +153,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       edges {
         node {
           id
-          fileAbsolutePath
+          internal {  contentFilePath  }
           frontmatter {
             image {
               childImageSharp {
@@ -177,7 +177,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       edges {
         node {
           id
-          fileAbsolutePath
+          internal {  contentFilePath  }
           frontmatter {
             image {
               childImageSharp {
@@ -251,7 +251,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                 }
               }
             }
-            fileAbsolutePath
+            internal {  contentFilePath  }
           }
         }
       }
@@ -300,7 +300,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                 tags
                 slug
               }
-              fileAbsolutePath
+              internal {  contentFilePath  }
             }
           }
         }
@@ -375,7 +375,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
               internal {
                 contentFilePath
               }
-              fileAbsolutePath
+              internal {  contentFilePath  }
             }
           }
         }

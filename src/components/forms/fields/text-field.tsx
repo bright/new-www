@@ -9,6 +9,7 @@ interface Props {
   required?: boolean
   name?: string
   value?: string
+  type?: HTMLInputElement['type']
   onChange?(event: ChangeEvent): void
 }
 export function TextField({ multiline, label, ...props }: Props) {

@@ -26,7 +26,7 @@ export async function sendMail(
     const formData = new FormData()
     for (const key in data) {
       if (data.hasOwnProperty(key)) {
-        const element = data[key]
+        const element = (data as any)[key]
 
         if (element.fileName) {
           formData.append(key, element.value, element.fileName)
@@ -66,4 +66,6 @@ export async function sendMail(
       }
     )
   }
+
+  throw new Error(`Unhandled formType ${formType}`)
 }

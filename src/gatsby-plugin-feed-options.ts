@@ -22,7 +22,7 @@ const feedGQL = (tags?: string[]) => {
           ) {
               edges {
                   node {
-                      fileAbsolutePath
+                      internal {  contentFilePath  }
                       excerpt(pruneLength: 500)
                       html
                       frontmatter {

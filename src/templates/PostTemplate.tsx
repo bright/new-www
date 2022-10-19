@@ -21,7 +21,7 @@ import { SocialMediaShare } from './blog/SocialMediaShare'
 import { clampBuilder } from './../helpers/clampBuilder'
 import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
 import Dot from '../components/icons/Dot.icon'
-import { allMarkdownRemarkData } from '../models/gql'
+import { allMdxData } from '../models/gql'
 import RelatedPosts from './post/RelatedPosts'
 import { siteMetadata } from '../site-metadata'
 
@@ -366,7 +366,7 @@ export type PostTemplateProps = {
       timeToRead: number
       fileAbsolutePath: string
     }
-    allMarkdownRemark: allMarkdownRemarkData
+    allMdx: allMdxData
   }
 }
 
@@ -465,7 +465,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
 
 // TODO: we should decouple Post* controls that deal with graphql from those that render actual posts
 export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
-  const { markdownRemark, allMarkdownRemark } = props.data // data.markdownRemark holds your post data
+  const { markdownRemark, allMdx } = props.data // data.markdownRemark holds your post data
   const { frontmatter: page, html } = markdownRemark
   const { pathname } = useLocation()
   const slug = props.path.replace(/^(\/blog\/)/, '')
@@ -551,7 +551,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         paddingMobileProps='0 1.125rem 2rem'
       >
         <RelatedPosts
-          allMarkdownRemark={allMarkdownRemark}
+          allMdx={allMdx}
           currentPostfileAbsolutPath={markdownRemark.fileAbsolutePath}
         />
       </CustomSection>
@@ -592,9 +592,9 @@ export const pageQuery = graphql`
         }
       }
       timeToRead
-      fileAbsolutePath
+      internal {  contentFilePath  }
     }
-    allMarkdownRemark(
+    allMdx(
       filter: {
         frontmatter: {
           layout: { eq: "post" }
@@ -609,7 +609,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          fileAbsolutePath
+          internal {  contentFilePath  }
           excerpt(pruneLength: 500)
           frontmatter {
             excerpt

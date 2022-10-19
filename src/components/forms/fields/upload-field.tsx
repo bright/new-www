@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from 'react'
+import React, { ChangeEvent, DOMAttributes, ReactElement } from 'react'
 import { UploadFieldContainer } from './fields.styled'
 import { UploadIcon } from '../../icons/Upload.icon'
 
@@ -9,7 +9,8 @@ interface Props {
   name?: string
   accept?: string
   onChange?(event: ChangeEvent): void
-  onClick?(event: MouseEvent): void
+  onClick?: DOMAttributes<HTMLInputElement>['onClick']
+  multiple?: HTMLInputElement['multiple']
 }
 const DEFAULT_CHILDREN = (
   <>

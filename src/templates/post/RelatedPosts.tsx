@@ -3,7 +3,7 @@ import React from 'react'
 import { CustomSectionTitle } from '../../components/shared'
 import { routeLinks } from '../../config/routing'
 import { createBlogRelatedPosts } from '../../models/creator'
-import { allMarkdownRemarkData } from '../../models/gql'
+import { allMdxData } from '../../models/gql'
 import { BlogFeed } from '../blog/Feed'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
@@ -41,30 +41,30 @@ const RelatedMoreButton = styled.button`
 `
 
 interface RelatedPostsProps {
-  allMarkdownRemark: allMarkdownRemarkData
+  allMdx: allMdxData
   currentPostfileAbsolutPath: string
 }
 
-const RelatedPosts = ({ allMarkdownRemark, currentPostfileAbsolutPath }: RelatedPostsProps) => {
-  const [filteredPosts, setFilteredPosts] = useState<allMarkdownRemarkData>()
+const RelatedPosts = ({ allMdx, currentPostfileAbsolutPath }: RelatedPostsProps) => {
+  const [filteredPosts, setFilteredPosts] = useState<allMdxData>()
 
-  const filterRelatedPost = (allMarkdownRemark: allMarkdownRemarkData, currentPostfileAbsolutPath: string) => {
-    const indexOfCurrentPostInRelated = allMarkdownRemark.edges.findIndex(
+  const filterRelatedPost = (allMdx: allMdxData, currentPostfileAbsolutPath: string) => {
+    const indexOfCurrentPostInRelated = allMdx.edges.findIndex(
       ({ node }) => node.fileAbsolutePath === currentPostfileAbsolutPath
     )
-    if (allMarkdownRemark.edges.length > 4) {
+    if (allMdx.edges.length > 4) {
       if (indexOfCurrentPostInRelated !== -1) {
-        allMarkdownRemark.edges.splice(indexOfCurrentPostInRelated, 1)
+        allMdx.edges.splice(indexOfCurrentPostInRelated, 1)
       } else {
-        allMarkdownRemark.edges.splice(allMarkdownRemark.edges.length - 1, 1)
+        allMdx.edges.splice(allMdx.edges.length - 1, 1)
       }
     }
 
-    return allMarkdownRemark
+    return allMdx
   }
 
   useEffect(() => {
-    const filteredMarkdown = filterRelatedPost(allMarkdownRemark, currentPostfileAbsolutPath)
+    const filteredMarkdown = filterRelatedPost(allMdx, currentPostfileAbsolutPath)
     setFilteredPosts(filteredMarkdown)
   })
 

@@ -303,7 +303,7 @@ export const Projects: React.FC<ProjectsProps> = ({
 
   if (isFetchProject) {
     const {
-      allMarkdownRemark: { edges },
+      allMdx: { edges },
     } = useStaticQuery(GQL)
 
     projects = edges.map((v: any) => v.node.frontmatter)
@@ -382,7 +382,7 @@ export const Projects: React.FC<ProjectsProps> = ({
 
 const GQL = graphql`
   {
-    allMarkdownRemark(
+    allMdx(
       filter: { frontmatter: { layout: { eq: "project" }, published: { ne: false } } }
       limit: 6
       sort: { order: ASC, fields: frontmatter___order }

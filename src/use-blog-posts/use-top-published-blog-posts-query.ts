@@ -13,7 +13,7 @@ export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResul
       ) {
         posts: nodes {
           id
-          fileAbsolutePath
+          internal {  contentFilePath  }
           timeToRead
           excerpt(pruneLength: 500)
           frontmatter {

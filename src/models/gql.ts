@@ -11,7 +11,7 @@ export interface Edge {
   node: any
 }
 
-export interface allMarkdownRemarkData {
+export interface allMdxData {
   nodes?: Node[]
   edges: Edge[]
 }

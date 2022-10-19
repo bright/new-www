@@ -1,4 +1,4 @@
-import { BlogPostModel, ProjectModel, GQLData, AuthorModel, JobModel, allMarkdownRemarkData } from './gql'
+import { BlogPostModel, ProjectModel, GQLData, AuthorModel, JobModel, allMdxData } from './gql'
 
 export const createBlogPosts = (data: GQLData): BlogPostModel[] => {
   return (data.constructor === Array ? data : data.allMdx?.edges || [])
@@ -20,7 +20,7 @@ export const createBlogPosts = (data: GQLData): BlogPostModel[] => {
     })
 }
 
-export const createBlogRelatedPosts = (allMarkdownRemark: allMarkdownRemarkData | undefined): BlogPostModel[] => {
+export const createBlogRelatedPosts = (allMarkdownRemark: allMdxData | undefined): BlogPostModel[] => {
   return (allMarkdownRemark?.constructor === Array ? allMarkdownRemark : allMarkdownRemark?.edges || [])
     .map(({ node }) => {
       const base = node.frontmatter
@@ -51,8 +51,8 @@ export const createAuthors = (data: GQLData): AuthorModel[] =>
 
 export const createJobs = (data: GQLData): JobModel[] =>
   (data.allMdx.edges || []).map(
-    ({ node: { frontmatter, fileAbsolutePath } }: { node: { frontmatter: JobModel; fileAbsolutePath: string } }) => ({
+    ({ node: { frontmatter, internal: {  contentFilePath  } } }: { node: { frontmatter: JobModel; internal: { contentFilePath: string } } }) => ({
       ...frontmatter,
-      url: fileAbsolutePath,
+      url: contentFilePath,
     })
   )

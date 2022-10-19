@@ -47,7 +47,7 @@ const Offers: React.FC = () => {
 
 const jobsQuery = graphql`
   query {
-    allMarkdownRemark(
+    allMdx(
       filter: { frontmatter: { layout: { eq: "job" }, published: { eq: true } } }
 
       sort: { fields: [frontmatter___order] }
@@ -60,7 +60,7 @@ const jobsQuery = graphql`
             salary
             hours
           }
-          fileAbsolutePath
+          internal {  contentFilePath  }
         }
       }
     }

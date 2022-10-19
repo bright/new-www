@@ -17,7 +17,7 @@ import { CustomSection } from '../../shared'
 
 const OurDevelopmentAreas = () => {
   const {
-    allMarkdownRemark: { edges },
+    allMdx: { edges },
   } = useStaticQuery(GQL)
   const ourServicesItems: ServiceModel[] = edges
     ? edges.map((e: any) => {
@@ -58,7 +58,7 @@ const OurDevelopmentAreas = () => {
 
 const GQL = graphql`
   {
-    allMarkdownRemark(
+    allMdx(
       filter: { frontmatter: { layout: { eq: "our-service" } } }
       sort: { order: ASC, fields: frontmatter___order }
     ) {

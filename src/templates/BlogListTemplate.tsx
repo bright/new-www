@@ -71,7 +71,7 @@ PageDescription> */}
 
 export const pageQuery = graphql`
   query MyQuery($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
+    allMdx(
       filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
       sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
       skip: $skip
@@ -80,7 +80,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          fileAbsolutePath
+          internal {  contentFilePath  }
           excerpt(pruneLength: 500)
           frontmatter {
             excerpt

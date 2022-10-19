@@ -176,7 +176,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     setLinkedinUrl(event.target.value)
   }, [setLinkedinUrl])
 
-  const onRemoveAttachmentAtIndexClicked = useCallback((event: MouseEvent, index: number) => {
+  const onRemoveAttachmentAtIndexClicked = useCallback((event: SyntheticEvent, index: number) => {
     event.preventDefault()
     removeAttachmentAtIndex(index)
   }, [removeAttachmentAtIndex])
@@ -226,7 +226,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     [selectedAttachment]
   )
 
-  const handleChangeRadio = event => {
+  const handleChangeRadio = (event: ChangeEvent<HTMLInputElement>) => {
     const { value } = event.target
 
     setSelectedAttachment(value)
@@ -290,7 +290,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
                 accept='application/msword, application/pdf, .doc, .docx, .dot, .dotm, .dotx'
                 multiple
                 name='cv'
-                onClick={e => (e.target.value = null)}
+                onClick={e => ((e.target! as HTMLInputElement).value = '')}
               >
                 <UploadIcon />
                 {uploadLabel}
