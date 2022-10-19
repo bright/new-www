@@ -135,6 +135,10 @@ export const Contact: FC<ContactProps> = ({
       FormType.contact
     )
       .then(() => {
+        trackConversion({
+          sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo'
+        }).then(() => console.log('Business contact form conversion sent'))
+
         setError(false)
         setSuccess(true)
         setIsSending(false)
@@ -146,9 +150,7 @@ export const Contact: FC<ContactProps> = ({
         setIsSending(false)
       })
 
-    trackConversion({
-      sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo'
-    }).then(() => console.log('Business contact form conversion sent'))
+
   }
 
   const closeModal = () => {
@@ -164,7 +166,7 @@ export const Contact: FC<ContactProps> = ({
     const isValid: boolean = checkedRules && name && email && message ? true : false
     setValid(isValid)
   }
- 
+
   return (
     <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
       <Container>
@@ -253,7 +255,7 @@ export const Contact: FC<ContactProps> = ({
               <Label>Service</Label>
               <SelectWrapper>
               <HeroSingleSelect name='service' value={service} onChange={e => setService(e.target.value)}  className={service ? (service === 'DEFAULT' ? 'isDefault' :'isSelected' ):''}>
-             
+
                 <option value='DEFAULT' hidden>
                   Pick what service you need
                 </option>
@@ -299,7 +301,7 @@ export const Contact: FC<ContactProps> = ({
             <option value='other'>other</option>
           </HeroSingleSelect>
           </SelectWrapper>
-          
+
           <PrivacyPolicyCheckboxContainer>
             <PrivacyPolicyCheckbox
               type='checkbox'
