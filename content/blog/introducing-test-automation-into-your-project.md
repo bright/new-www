@@ -37,7 +37,7 @@ Implementing automated tests which concentrate on testing the entire working ins
 
 ## Figure out the spots that deserve testing the most
 
-* Figure out the most crucial paths and elements: Core-Domain ([DDD Concept](https://brightinventions.pl/blog/domain-driven-design-explained-by-a-senior-backend-developer/)).
+* Figure out the most crucial paths and elements: Core-Domain ([DDD Concept](/blog/domain-driven-design-explained-by-a-senior-backend-developer/)).
 * Chat with your Project Manager, Manual QA Engineers and devs to figure out crucial elements from business, qa and dev perspective.
 * Analyze the bugs reported in the last months.
 * Figure out if anyone in the team has some experience with test automation.
