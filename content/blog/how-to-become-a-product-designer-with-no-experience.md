@@ -61,6 +61,8 @@ THAT’S FINE. Honestly, you don’t have to have a diploma in Computer Science 
 
 “You just said I don’t have to draw, and now you’re telling me to build a portfolio. Based on what?” Show the process of resolving problems. That website or app you use everyday, which is driving you nuts, but you didn’t find a better alternative or you’re forced to use it - redesign it, explain the problem, why isn’t it working? What could be done better? Or maybe you have seen someone else struggling with a product? Did your mum have a problem paying for something online? Solve her problem! Another thing about being a UX Designer is that you can’t be afraid of asking questions. You need to ask them to understand the problem better and empathise with your users. Do research regarding a subject that is close to your heart. What are the insights you learnt from that research? What is the biggest pain of your examinees (users)? How can it be improved? You get the idea.
 
+## R﻿esources for product designer
+
 I’m going to leave you with some links, which will help you dig deeper into the subject:
 
 * <https://www.nngroup.com/> - A great source of information made by two godfathers of UX -  Jakob Nielsen and Don Norman. If you feel overwhelmed with the amount of the articles and videos, I recommend the series about UX slogans for starters (https://www.nngroup.com/videos/you-are-not-user-slogan/)
