@@ -55,7 +55,7 @@ By now, you should have a good idea of what User Experience Design is all about,
 
 <div class="image"><img src="/images/workflow_study.png" alt="workflow" title="undefined"  /> </div>
 
-*One of the workflows I designed while learning*
+*One of the workflows I designed while learning.*
 
 **Here are some courses I can recommend:**
 
