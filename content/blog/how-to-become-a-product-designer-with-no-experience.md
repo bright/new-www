@@ -7,18 +7,16 @@ tags:
 date: 2022-10-20T06:49:39.906Z
 update_date: false
 dateModified: 2022-10-20T06:49:40.672Z
-title: How to get that first Product Designer job?
+title: How to Get That First Product Designer Job?
 layout: post
-image: ""
+image: /images/blogpost_product_design.png
 hidden: true
 comments: true
 published: true
 ---
-# How to get that first Product Designer job?
+**2 years ago I was an IT administrator. That is when I decided to work on my career change. Eventually I became a product designer. Here is my guide on how to get a product design job without any experience. What is a product designer roadmap? How to work on your first design portfolio? Let me answer all these questions and dispel common doubts.**
 
-2 years ago I was an IT administrator. That is when I decided to work on my career change. Eventually I became a product designer. Here is my guide on how to get a product design job without any experience. What is a product designer roadmap? How to work on your first design portfolio? Let me answer all these questions and dispel common doubts.
-
-![](https://lh5.googleusercontent.com/lXQPP_ApfTRgjmc_yzSVYdUvzaL2N7-XZQr3IPHKBvW2LxsT3_aI8KuUdHjeZlWNO4JnhySj8Ck1QVFQy_wy2wznbWDZumUMtyu4w-teRE7j3SYS1TEQ1jnvgE5S07O6LWHtKFVWPC12oxbCJrx8sPAbcpt7Yoai_hlU_sb-TgO0q_QQsuJ8XkOkBQ)
+<div class="image"><img src="/images/blogpost_product_design.png" alt="Product Designer Roadmap" title="undefined"  /> </div>
 
 ## **My road to a Product Designer in numbers** 
 
