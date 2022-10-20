@@ -14,7 +14,7 @@ hidden: true
 comments: true
 published: true
 ---
-**2 years ago I was an IT administrator. That is when I decided to work on my career change. Eventually, I became a product designer. Here is my guide on how to get a Product Designer job without any experience. What is a product designer roadmap? How to work on your first design portfolio? Let me answer all these questions and dispel common doubts.**
+**2 years ago I was an IT administrator. That is when I decided to work on my career change. Eventually, I became a product designer. Here is my guide on how to become a product designer and get the first job with no experience. What is a product designer roadmap? How to work on your first design portfolio? Let me answer all these questions and dispel common doubts.**
 
 <div class="image"><img src="/images/blogpost_product_design.png" alt="Product Designer Roadmap" title="undefined"  /> </div>
 
