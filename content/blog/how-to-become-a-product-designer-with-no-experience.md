@@ -53,6 +53,10 @@ Along with this book, you’ll find recommendations of Don Norman’s “The Des
 
 By now, you should have a good idea of what User Experience Design is all about, but you might find yourself overwhelmed by the amount of the information. It’s a good idea to have it structured by a credible course. There are many of them on the market, but you should look for the one that has a project based structure. Something that will enrich your portfolio and give you some experience you don’t currently have. Take it from me. 
 
+<div class="image"><img src="/images/workflow_study.png" alt="workflow" title="undefined"  /> </div>
+
+*One of the workflows I designed while learning*
+
 ## I don’t have the tech experience / I can’t draw
 
 THAT’S FINE. Honestly, you don’t have to have a diploma in Computer Science or be a graduate of Fine Arts to be a good UX Designer/Product Designer. There aren’t many traditional paths to become a Product Designer. Psychology, sociology, marketing, anything to do with people or research, all of those fields will come in handy during the UXD process. I’m sure whoever reads that, no matter the background, there is something in your experience that you would easily be able to put in practice in this field. Just stop and think about it. 
