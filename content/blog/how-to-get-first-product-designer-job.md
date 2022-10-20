@@ -22,7 +22,7 @@ published: true
 
 * 17 UX/UI related books read
 * 10 months of intense studies (October 2021 - July 2022)
-* 9 instagram accounts I follow 
+* 9 Instagram accounts I follow 
 * 5 podcasts I listen to
 * 4 people collaborating on 1 project
 * 3 projects on Behance
@@ -33,13 +33,13 @@ published: true
 
 ## (Not really) long story short
 
-I guess my Product Design journey started with studying IT & Econometrics. Although, at first I thought I would become a developer. And I was actually into it. I even got an internship in the IT department of this huge corporation. But it wasn’t a fit. I worked as an IT administrator, and while studying I thought it was a great opportunity, the closer to the graduation I got, the more I thought I couldn’t do that for the rest of my life. 
+I guess **my Product Design journey started with studying IT & Econometrics**. Although, at first I thought I would become a developer. And I was actually into it. I even got an internship in the IT department of this huge corporation. **But it wasn’t a fit**. I worked as an IT administrator, and while studying I thought it was a great opportunity, the closer to the graduation I got, the more I thought I couldn’t do that for the rest of my life. 
 
-Then I came across the term “user experience design” and decided to dig deeper into it. And let me tell you, once I decided to lean into it, I never looked back. I wrote a thesis on UX Design, then attended postgraduate studies on UX Design/Product Design at SWPS University, where I learnt from people who actually work in the field. Eventually I was hired as a Junior Product Designer @ Bright Inventions. 
+**Then I came across the term “user experience design” and decided to dig deeper into it**. And let me tell you, once I decided to lean into it, I never looked back. I wrote a thesis on UX Design, then attended postgraduate studies on UX Design/Product Design at SWPS University, where I learnt from people who actually work in the field. **Eventually, I was hired as a Junior Product Designer @ [Bright Inventions](/)**. 
 
 ## UX vs UI vs Product Design - what is all of that?
 
-Ah yes, the plethora of titles: UI Designer, UI/UX Designer, Product Designer, UI/UX Unicorn, Information Architect, UX Writer, Interaction Designer, UX Researcher, UX Developer, Motion Designer, Visual Designer, UX Strategist etc. The thing is you don’t need to worry about it now. Once you get to know the field and the whole design process, you’ll learn about the product specialisation and the misuse of said titles in the job descriptions. For now just learn to differentiate UI from UX and you'll be fine.
+Ah yes, the plethora of titles: UI Designer, UI/UX Designer, Product Designer, UI/UX Unicorn, Information Architect, UX Writer, Interaction Designer, UX Researcher, UX Developer, Motion Designer, Visual Designer, UX Strategist etc. The thing is you don’t need to worry about it now. Once you get to know the field and the whole design process, you’ll learn about the product specialisation and the misuse of said titles in the job descriptions. **For now, just learn to differentiate UI from UX and you'll be fine**.
 
 ## OK, so where should I start?
 
