@@ -20,7 +20,7 @@ published: true
 
 ## **My road to a Product Designer in numbers** 
 
-* 17 UX/UI related books read
+* 17 UX/UI-related books read
 * 10 months of intense studies (October 2021 - July 2022)
 * 9 Instagram accounts I follow 
 * 5 podcasts I listen to
