@@ -65,7 +65,7 @@ You see, the essence of user experience design is that it is user centred, or hu
 
 <blockquote><h2>Make a list</h2><div>If you’re considering a transition into the UX field, instead of simply thinking about UX skills and knowledge you have, make a list of what knowledge and skills you have acquired in your previous role(s) that can be applied to working in UX.</div><footer>Maria Rosala, Rachel Krause</footer></blockquote>
 
-## Build your portfolio 
+## Build your product design portfolio
 
 “You just said I don’t have to draw, and now you’re telling me to build a portfolio. Based on what?” Show the process of resolving problems. **That website or app you use everyday, which is driving you nuts, but you didn’t find a better alternative or you’re forced to use it - redesign it**, explain the problem, why isn’t it working? What could be done better? Or maybe you have seen someone else struggling with a product? **Did your mum have a problem paying for something online? Solve her problem!** 
 
