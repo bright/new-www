@@ -4,9 +4,9 @@ tags:
   - design
   - UX
   - inspiration
-date: 2022-10-13T07:01:43.812Z
+date: 2022-10-20T06:49:39.906Z
 update_date: false
-dateModified: 2022-10-13T07:01:43.829Z
+dateModified: 2022-10-20T06:49:40.672Z
 title: How to get that first Product Designer job?
 layout: post
 image: ""
