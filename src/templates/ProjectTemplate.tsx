@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 
@@ -6,6 +6,9 @@ import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import variables from '../styles/variables'
+import { GQLData } from '../models/gql'
+import ReactMarkdown from 'react-markdown'
+import children = ReactMarkdown.propTypes.children
 
 const Container = styled.div`
   max-width: 960px;
@@ -76,9 +79,9 @@ const Title = styled.h1`
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
-}) {
+}: PropsWithChildren<{data: { mdx: any }}>) {
   const { mdx } = data // data.mdx holds your post data
-  const { frontmatter, html } = mdx
+  const { frontmatter } = mdx
   return (
     <Page>
       <HelmetTitleDescription title={frontmatter.title} description={frontmatter.description} />
@@ -87,7 +90,7 @@ export default function Template({
         <article className='section'>
           <Title>{frontmatter.title}</Title>
           <div className='content'>{frontmatter.description}</div>
-          <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
+          <div className='content'>{children}</div>
           <BackButton url='/projects' label='Projects' arrowColor={''} className={''} />
         </article>
       </Container>
@@ -97,7 +100,6 @@ export default function Template({
 export const pageQuery = graphql`
   query($id: String!) {
     mdx(id: { eq: $id }) {
-      html
       frontmatter {
         slug
         title

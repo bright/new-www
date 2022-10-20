@@ -97,10 +97,11 @@ interface Props {
 const AboutUSTemplate: React.FC<Props> = ({
   data,
   pageContext,
+  children
 }: // this prop will be injected by the GraphQL query below.
 any) => {
   const { mdx } = data // data.mdx holds your post data
-  const { frontmatter, html } = mdx
+  const { frontmatter } = mdx
   const avatarImage = getImage(frontmatter.avatar_hover)!
   const postsRef = useRef<HTMLHeadingElement>(null)
 
@@ -145,7 +146,7 @@ any) => {
             <SectionInner>
               <AuthorPageTitle>{frontmatter.short_name}</AuthorPageTitle>
               <Subtitle>{frontmatter.bio}</Subtitle>
-              <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
+              <div className='content'>{children}</div>
             </SectionInner>
           </AuthorWrapper>
           {posts?.length > 0 && (
@@ -199,7 +200,6 @@ any) => {
 export const pageQuery = graphql`
   query($id: String!) {
     mdx(id: { eq: $id }) {
-      html
       frontmatter {
         short_name
         avatar {

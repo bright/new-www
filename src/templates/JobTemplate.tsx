@@ -1,4 +1,4 @@
-import React, { MutableRefObject } from 'react'
+import React, { MutableRefObject, PropsWithChildren } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import ReactMarkdown from 'react-markdown'
@@ -15,7 +15,7 @@ import {
   TextRegular,
   FlexWrapper,
   CustomSectionTitle,
-  Button,
+  Button
 } from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables from '../styles/variables'
@@ -45,9 +45,11 @@ const SalaryWrapper = styled.div`
     line-height: 1.75rem;
     color: ${variables.color.text2};
     flex-basis: 50%;
+
     &:last-of-type {
       padding-left: 1rem;
     }
+
     &:first-of-type {
       position: relative;
       text-align: end;
@@ -59,18 +61,22 @@ const SalaryWrapper = styled.div`
       }
     }
   }
+
   @media ${variables.device.mobile} {
     display: block;
     margin: 0 auto;
     & > div {
       font-size: 1.125rem;
       text-align: center;
+
       &:first-of-type {
         text-align: center;
+
         &:after {
           content: '';
         }
       }
+
       &:last-of-type {
         padding-left: 0;
       }
@@ -92,6 +98,7 @@ const HoursWraper = styled.div`
     line-height: inherit;
     font-weight: 700;
   }
+
   > div {
     margin-top: 0.5em;
   }
@@ -125,6 +132,7 @@ const JobBlackButton = styled(Button)`
   width: fit-content;
   display: block;
   margin: 0 auto;
+
   &:hover {
     background: ${variables.color.primary};
     border: 1px solid ${variables.color.primary};
@@ -162,11 +170,13 @@ const JobSectionInner = styled(SectionInner)`
       font-weight: 900;
       text-align: center;
     }
+
     p {
       font-size: ${variables.pxToRem(20)};
       line-height: 2.5rem;
       color: ${variables.color.text2};
     }
+
     ul > li {
       position: relative;
       margin-bottom: ${variables.pxToRem(37)};
@@ -175,6 +185,7 @@ const JobSectionInner = styled(SectionInner)`
       font-size: ${variables.pxToRem(20)};
       line-height: 2rem;
       color: ${variables.color.text2};
+
       &:before {
         content: '';
         display: block;
@@ -189,6 +200,7 @@ const JobSectionInner = styled(SectionInner)`
         background-position: center;
       }
     }
+
     @media ${variables.device.laptop} {
       h2 {
         margin-top: ${variables.pxToRem(82)};
@@ -204,27 +216,32 @@ const JobSectionInner = styled(SectionInner)`
         font-size: 1rem;
         line-height: 1.75rem;
       }
+
       h2 {
         margin-bottom: ${variables.pxToRem(36)};
         margin-top: ${variables.pxToRem(64)};
         font-size: 1.375rem;
         line-height: 1.7rem;
       }
+
       ul {
         &:last-of-type {
           margin-bottom: ${variables.pxToRem(64)};
         }
       }
+
       ul > li {
         margin-bottom: ${variables.pxToRem(30)};
         font-size: 1rem;
         line-height: 1.75rem;
+
         &:before {
           left: calc(-47.5px + 18px);
           background-image: url('/images/okmobile.svg');
           width: 13px;
           height: 13px;
         }
+
         &:last-of-type {
           margin-bottom: ${variables.pxToRem(0)};
         }
@@ -234,6 +251,7 @@ const JobSectionInner = styled(SectionInner)`
 `
 const TechnologyWrapper = styled.div`
   padding-bottom: 4rem;
+
   & > ul {
     display: flex;
     justify-content: center;
@@ -264,6 +282,7 @@ const JobFormComponent = styled(FormComponent)`
       margin-top: 0;
       margin-bottom: 1.875rem;
     }
+
     & button {
       display: flex;
       justify-content: center;
@@ -301,9 +320,11 @@ const WrapperJobBackButton = styled.div`
   display: flex;
   margin: 0 auto;
   padding-bottom: ${variables.pxToRem(186)};
+
   & span {
     font-size: ${variables.pxToRem(18)};
   }
+
   @media ${variables.device.laptop} {
     padding-bottom: ${variables.pxToRem(117)};
     & span {
@@ -328,6 +349,7 @@ const WrapperRecruiterImage = styled.div`
   @media ${variables.device.laptop} {
     & .recruiter-img {
       max-height: 420px;
+
       & img {
         height: 420px;
         width: auto;
@@ -345,6 +367,7 @@ const WrapperRecruiterImage = styled.div`
 
     & .recruiter-img {
       max-height: ${variables.pxToRem(319)};
+
       & img {
         max-height: ${variables.pxToRem(319)};
       }
@@ -356,11 +379,13 @@ const WrapperLinks = styled.div`
   flex-direction: column;
   gap: ${variables.pxToRem(40)};
   padding-top: ${variables.pxToRem(64)};
+
   & p a {
     font-size: ${variables.pxToRem(26)};
     line-height: ${variables.pxToRem(40)};
     font-weight: 700;
   }
+
   @media ${variables.device.laptop} {
     padding-top: ${variables.pxToRem(83)};
     & p a {
@@ -437,11 +462,13 @@ const LinkLinkedin = styled.a`
   justify-content: center;
   padding: ${variables.pxToRem(11)} 0;
   max-width: ${variables.pxToRem(230)};
+
   & span {
     color: #f9f9f9;
     font-size: ${variables.pxToRem(18)};
     font-weight: 700;
   }
+
   @media ${variables.device.laptop} {
     max-width: ${variables.pxToRem(194)};
     & span {
@@ -511,10 +538,11 @@ const Salary: React.FC<{ salary: string }> = ({ salary }) => {
 }
 
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
-}: any) {
+                                   data, // this prop will be injected by the GraphQL query below.
+                                   children
+                                 }: PropsWithChildren<{ data: { mdx: any } }>) {
   const { mdx } = data // data.mdx holds your post data
-  const { frontmatter: page, html } = mdx
+  const { frontmatter: page } = mdx
 
   const technologies = page.technology
 
@@ -564,7 +592,9 @@ export default function Template({
         <CustomSection>
           <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
             <JobSectionInner>
-              <div className='content' dangerouslySetInnerHTML={{ __html: html }} />
+              <div className='content'>
+                {children}
+              </div>
             </JobSectionInner>
           </CustomSectionInner>
         </CustomSection>
@@ -707,41 +737,40 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($id: String!) {
-    mdx(id: { eq: $id }) {
-      html
-      frontmatter {
-        slug
-        title
-        salary
-        description
-        subtitle
-        working_time
-        technology
-        button
-        image_alt_job
-        recruting_image2_title
-        recruting_image3_title
-        title_more_about_us
-        show_new_title_more_about_us
-        show_recruiter_info
-        links_more_about_us
-        title_recruiter_info
-        name_recruiter
-        workplace_recruiter
-        image_alt_recruiter_info
-        button_linkedin
-        imagejob {
-          childImageSharp {
-            gatsbyImageData(quality: 100)
-          }
+    query($id: String!) {
+        mdx(id: { eq: $id }) {
+            frontmatter {
+                slug
+                title
+                salary
+                description
+                subtitle
+                working_time
+                technology
+                button
+                image_alt_job
+                recruting_image2_title
+                recruting_image3_title
+                title_more_about_us
+                show_new_title_more_about_us
+                show_recruiter_info
+                links_more_about_us
+                title_recruiter_info
+                name_recruiter
+                workplace_recruiter
+                image_alt_recruiter_info
+                button_linkedin
+                imagejob {
+                    childImageSharp {
+                        gatsbyImageData(quality: 100)
+                    }
+                }
+                image_recruiter_info {
+                    childImageSharp {
+                        gatsbyImageData(placeholder: DOMINANT_COLOR, layout: CONSTRAINED, height: 600)
+                    }
+                }
+            }
         }
-        image_recruiter_info {
-          childImageSharp {
-            gatsbyImageData(placeholder: DOMINANT_COLOR, layout: CONSTRAINED, height: 600)
-          }
-        }
-      }
     }
-  }
 `

@@ -569,7 +569,6 @@ export default PostTemplate
 export const pageQuery = graphql`
   query($id: String!, $relatedTags: [String!]!) {
     mdx(id: { eq: $id }) {
-      html
       excerpt
       frontmatter {
         slug
