@@ -50,8 +50,8 @@ collections:
           label: 'Update Date',
           name: 'dateModified',
           widget: 'datetime',
-          required: false,
           default: '',
+          required: false,
           hint: 'when creating a new post, Update Date must be Publish date',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
