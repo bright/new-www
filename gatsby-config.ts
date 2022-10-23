@@ -148,6 +148,11 @@ export default {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.md`, `.mdx`],
+        mdxOptions: {
+          remarkPlugins: [
+            require(`remark-gfm`)
+          ]
+        },
         gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-embed-video',
