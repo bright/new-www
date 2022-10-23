@@ -14,7 +14,6 @@ export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResul
         posts: nodes {
           id
           internal {  contentFilePath  }
-          timeToRead
           excerpt(pruneLength: 500)
           frontmatter {
             excerpt
@@ -32,6 +31,7 @@ export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResul
           }
           fields {
             slug
+            timeToRead { minutes }
           }
         }
       }

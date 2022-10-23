@@ -72,7 +72,7 @@ The `main` function is called by the AWS Lambda Node.js runtime. Note that we've
 
 ## Deploy the express app to AWS Lambda
 
-I already showed [how we can deploy lambda with cloudform]({% post_url 2018-03-12-deploy-lambda-with-cloudformation %}). We will use the previous example as a base:
+I already showed [how we can deploy lambda with cloudform](/blog/deploy-lambda-with-cloudformation/). We will use the previous example as a base:
 
 ```typescript
 import cloudform, { Lambda, IAM, Fn, ApiGateway, Refs,  } from 'cloudform';

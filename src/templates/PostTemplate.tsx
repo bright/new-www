@@ -1,5 +1,5 @@
 import { graphql, navigate } from 'gatsby'
-import React, { ComponentProps, useEffect, useRef, useState } from 'react'
+import React, { ComponentProps, PropsWithChildren, useEffect, useRef, useState } from 'react'
 import { useLocation } from '@reach/router'
 import styled from 'styled-components'
 import { Page } from '../layout/Page'
@@ -338,12 +338,10 @@ const AuthorsWrapper = styled.div`
   }
 `
 
-export type PostTemplateProps = {
+export type PostTemplateProps = PropsWithChildren<{
   path: string
   authorsView?: (props: AuthorDataProps) => JSX.Element
   structuredData?: (props: ComponentProps<typeof BlogPostStructuredData>) => JSX.Element
-  contentView?: () => JSX.Element
-  commentsView?: () => JSX.Element
   data: {
     mdx: {
       excerpt: string
@@ -362,12 +360,16 @@ export type PostTemplateProps = {
         image: FileNode
         canonicalUrl: string
       }
-      timeToRead: number
       fileAbsolutePath: string
+      fields: {
+        timeToRead: {
+          minutes: number
+        }
+      }
     }
     allMdx: allMdxData
   }
-}
+}>
 
 type TimeInMinutes = number
 
@@ -377,7 +379,7 @@ type PostAuthorsProps = {
   thirdAuthor?: string
   authorsView?: (props: AuthorDataProps) => JSX.Element
 }
-type PostContentProps = { contentView: () => JSX.Element } | { children: JSX.Element; contentView: undefined }
+type PostContentProps = { contentView: () => JSX.Element } | PropsWithChildren<{ contentView: undefined }>
 
 type PostArticleContentProps = PostAuthorsProps &
   PostContentProps & {
@@ -492,7 +494,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
     />
   )
   const [isScrolledDown, setIsScrolledDown] = useState(false)
-  const comments = props.commentsView?.() ?? (isScrolledDown && <DisqusComments id={slug} title={page.title} />)
+  const comments = (isScrolledDown && <DisqusComments id={slug} title={page.title} />)
 
   useEffect(() => {
     const scrollListener = () => {
@@ -530,7 +532,6 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           date={page.date}
           dateModified={page.dateModified}
           update_date={page.update_date}
-          contentView={props.contentView}
           authorsView={props.authorsView}
           author={page.author}
           secondAuthor={page.secondAuthor}
@@ -538,7 +539,9 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           canonicalUrl={page.canonicalUrl}
           fileAbsolutePath={mdx.fileAbsolutePath}
           tags={page.tags ?? []}
-          timeToRead={mdx.timeToRead}
+          timeToRead={mdx.fields.timeToRead.minutes}
+          children={props.children}
+          contentView={undefined}
         />
       </ConstrainedWidthContainer>
       <CustomSection
@@ -588,7 +591,7 @@ export const pageQuery = graphql`
           }
         }
       }
-      timeToRead
+      fields { timeToRead { minutes } }
       internal {  contentFilePath  }
     }
     allMdx(

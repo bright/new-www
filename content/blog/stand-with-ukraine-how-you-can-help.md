@@ -42,22 +42,22 @@ You can check [what to bring and what not to bring to the collection point](http
 
 **List of provincial collection points**
 
-* dolnośląskie <https://duw.pl/pl/wolnytekst/18151,Pomagamy-Ukrainie.html>
-* kujawsko-pomorskie <https://www.gov.pl/web/uw-kujawsko-pomorski/lista-adresow-punktow-zbiorek-darow-dla-uchodzcow-z-ukrainy>
-* lubelskie <https://www.lublin.uw.gov.pl/pomoc_humanitarna_na_Ukrainie>
-* lubuskie <https://www.gov.pl/web/uw-lubuski/pomagamukrainie>
-* łódzkie <https://www.gov.pl/web/uw-lodzki/pomagamukrainie2>
-* małopolskie <https://malopolska.uw.gov.pl/pomagamukrainie>
-* mazowieckie <https://www.gov.pl/web/uw-mazowiecki/pomagamyukrainie/>
-* opolskie <https://www.gov.pl/web/uw-opolski/pomagamukrainie>
-* podkarpackie <https://rzeszow.uw.gov.pl/pomagamukrainie/punkty-zbiorek-darow/>
-* podlaskie <https://www.gov.pl/web/uw-podlaski/pomagamukrainie>
-* pomorskie <https://www.gdansk.uw.gov.pl/pomagamy-ukrainie>
-* śląskie <https://www.katowice.uw.gov.pl/pomagamukrainie>
-* świętokrzyskie <https://www.kielce.uw.gov.pl/pl/wojewodztwo/pomagam-ukrainie/21162,Wykaz-zbiorek-pomocy-humanitarnej-dla-Ukrainy-w-powiatach-wojewodztwa-swietokrzy.html>
-* warmińsko-mazurskie <https://www.gov.pl/web/uw-warminsko-mazurski/pomagam-ukrainie>
-* wielkopolskie <https://www.poznan.uw.gov.pl/pomagamukrainie>
-* zachodniopomorskie <https://www.szczecin.uw.gov.pl/?type=article&action=view&id=15190>
+* dolnośląskie [https://duw.pl/pl/wolnytekst/18151,Pomagamy-Ukrainie.html](https://duw.pl/pl/wolnytekst/18151,Pomagamy-Ukrainie.html)
+* kujawsko-pomorskie [https://www.gov.pl/web/uw-kujawsko-pomorski/lista-adresow-punktow-zbiorek-darow-dla-uchodzcow-z-ukrainy](https://www.gov.pl/web/uw-kujawsko-pomorski/lista-adresow-punktow-zbiorek-darow-dla-uchodzcow-z-ukrainy)
+* lubelskie [https://www.lublin.uw.gov.pl/pomoc_humanitarna_na_Ukrainie](https://www.lublin.uw.gov.pl/pomoc_humanitarna_na_Ukrainie)
+* lubuskie [https://www.gov.pl/web/uw-lubuski/pomagamukrainie](https://www.gov.pl/web/uw-lubuski/pomagamukrainie)
+* łódzkie [https://www.gov.pl/web/uw-lodzki/pomagamukrainie2](https://www.gov.pl/web/uw-lodzki/pomagamukrainie2)
+* małopolskie [https://malopolska.uw.gov.pl/pomagamukrainie](https://malopolska.uw.gov.pl/pomagamukrainie)
+* mazowieckie [https://www.gov.pl/web/uw-mazowiecki/pomagamyukrainie/](https://www.gov.pl/web/uw-mazowiecki/pomagamyukrainie/)
+* opolskie [https://www.gov.pl/web/uw-opolski/pomagamukrainie](https://www.gov.pl/web/uw-opolski/pomagamukrainie)
+* podkarpackie [https://rzeszow.uw.gov.pl/pomagamukrainie/punkty-zbiorek-darow/](https://rzeszow.uw.gov.pl/pomagamukrainie/punkty-zbiorek-darow/)
+* podlaskie [https://www.gov.pl/web/uw-podlaski/pomagamukrainie](https://www.gov.pl/web/uw-podlaski/pomagamukrainie)
+* pomorskie [https://www.gdansk.uw.gov.pl/pomagamy-ukrainie](https://www.gdansk.uw.gov.pl/pomagamy-ukrainie)
+* śląskie [https://www.katowice.uw.gov.pl/pomagamukrainie](https://www.katowice.uw.gov.pl/pomagamukrainie)
+* świętokrzyskie [https://www.kielce.uw.gov.pl/pl/wojewodztwo/pomagam-ukrainie/21162,Wykaz-zbiorek-pomocy-humanitarnej-dla-Ukrainy-w-powiatach-wojewodztwa-swietokrzy.html](https://www.kielce.uw.gov.pl/pl/wojewodztwo/pomagam-ukrainie/21162,Wykaz-zbiorek-pomocy-humanitarnej-dla-Ukrainy-w-powiatach-wojewodztwa-swietokrzy.html)
+* warmińsko-mazurskie [https://www.gov.pl/web/uw-warminsko-mazurski/pomagam-ukrainie](https://www.gov.pl/web/uw-warminsko-mazurski/pomagam-ukrainie)
+* wielkopolskie [https://www.poznan.uw.gov.pl/pomagamukrainie](https://www.poznan.uw.gov.pl/pomagamukrainie)
+* zachodniopomorskie [https://www.szczecin.uw.gov.pl/?type=article&action=view&id=15190](https://www.szczecin.uw.gov.pl/?type=article&action=view&id=15190)
 
 ## **[\#TechForUkraine ](https://www.techtotherescue.org/tech/tech-for-ukraine)**
 

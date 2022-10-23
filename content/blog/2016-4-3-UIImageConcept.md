@@ -67,7 +67,7 @@ Previously swift did not support optional initializers for UIImage and above lin
 Now swift added the concept of failable initializers and the UIImage initializer returns an optional so if UIImage cannot be created it will be nil.
 Maybe now this concept lose some value because you don't have to care about unwrapping image but I truly recommend you to use this UIImage concept in your projects.
 
-<br>
+<br/>
 Hope that help you!
-<br>
+<br/>
 *This article is cross-posted with my [my personal blog](http://kamwysoc.github.io/).*

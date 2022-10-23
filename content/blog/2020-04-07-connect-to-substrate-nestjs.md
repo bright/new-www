@@ -40,7 +40,7 @@ After you successfully create the sample project you could run the dev server:
 yarn start:dev
 ```
 
-This command runs dev server and now you can see text *Hello World!* if you open <http://localhost:3000/>.
+This command runs dev server and now you can see text *Hello World!* if you open [http://localhost:3000/](http://localhost:3000/).
 
 ## Connecting to substrate
 
@@ -148,7 +148,7 @@ async getHello(): Promise<string> {
 ```
 
 Here we just create a simple response with the collected data.
-After the server has successfully restarted you can open <http://localhost:3000/> and see the result:
+After the server has successfully restarted you can open [http://localhost:3000/](http://localhost:3000/) and see the result:
 
 ![Result](/images/connect-to-substrate-nestjs/result.png)
 
@@ -203,11 +203,11 @@ async getHello(): Promise<string> {
 }
 ```
 
-Now you could check the changes on <http://localhost:3000/>:
+Now you could check the changes on [http://localhost:3000/](http://localhost:3000/):
 
 ![Result with balance](/images/connect-to-substrate-nestjs/result2.png)
 
-All code you can find in this repository: <https://github.com/janczer/substrate-nestjs>
+All code you can find in this repository: [https://github.com/janczer/substrate-nestjs](https://github.com/janczer/substrate-nestjs)
 
 What next?
 

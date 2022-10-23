@@ -31,7 +31,7 @@ This is always tricky. Our whole education system is based on the idea of others
 
 ![You're a senior developer - now what](https://lh3.googleusercontent.com/kd_mHwXsYcVw5Pox9sSwtwCo0rpuFaUFvdh3xaRE5W-rxYt3KQLkxsDFqvZgaULDfQY2k80RBBqKeXRyLGxaOYP3W6fWWq7YcbMblYrOr4UNK-gSGPR-fRVf8PRKBAgOSyJTYbjv)
 
-*source: <https://quotefancy.com/>* 
+*source: https://quotefancy.com/* 
 
 If you choose an e-course that ends up being a waste of time - oh well, you will know better next time. **You are a master in the making, so mistakes will be made and let’s just call them experiences to learn from, ok?** 
 
@@ -55,7 +55,7 @@ All in all, my general advice would be not to treat a senior title as a goal in 
 
 ![You're a senior developer - now what](https://lh4.googleusercontent.com/uNSAPjI7EmhjCJtkrhP8Wv5096X8Z_SN2UHyz4KpoKM5hGTqMKvV9alplNAEeqxkOrqnSV_lv7vaqJb5KQ9eouYEhqE3cpidXNOQSYpjISx8Eq5iPs8f8TF6sppdY3C0xhWMJoSo)
 
-*source: <https://quotefancy.com/>* 
+*source: https://quotefancy.com/* 
 
 You’re welcome. 
 

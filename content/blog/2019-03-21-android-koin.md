@@ -18,7 +18,7 @@ published: true
 In Android injecting parameters, managing component's lifecycle and creating various scopes is difficult and crucial, but fortunately, we've got [DI (Dependency Injection)](https://en.wikipedia.org/wiki/Dependency_injection) technique for the rescue.
 
 <p align="center">
-  <img src="/images/android-koin/android_photo.jpg">
+  <img src="/images/android-koin/android_photo.jpg" />
 </p>
 
 Right now the most known Android DI tool is Dagger 2 maintained by Google. We have been using it in many projects. It's great, but lately the other player has showed up. Let's talk about Koin!

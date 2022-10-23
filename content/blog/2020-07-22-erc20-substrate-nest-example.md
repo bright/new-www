@@ -665,7 +665,7 @@ We would like to allow Alice to send 200 units on behalf of Bob. Such a transact
 
 ![cryptocurrency in substrate](/images/erc20-substrate-nest-example/image10.png)
 
-We can check the allowance in the browser <http://localhost:3000/allowances?owner=BOB&spender=ALICE> to be 200.
+We can check the allowance in the browser [http://localhost:3000/allowances?owner=BOB&spender=ALICE](http://localhost:3000/allowances?owner=BOB&spender=ALICE) to be 200.
 
 Now let's go back to Postman and let Alice make a transfer from Bob's to Charlie's wallet. Remember to add the decimal zeros and to transfer less than the approved value. I decided to transfer 110.
 
@@ -673,16 +673,16 @@ Now let's go back to Postman and let Alice make a transfer from Bob's to Charlie
 
 We can now confirm that:
 
-* <http://localhost:3000/balances/CHARLIE> - Charlie's balance is 110
-* <http://localhost:3000/balances/ALICE> - Alice's balance is still 999000
-* <http://localhost:3000/balances/BOB> - Bob's balance is reduced by 110 and now it's 890
-* <http://localhost:3000/allowances?owner=BOB&spender=ALICE> - the approval is also reduced by 110 and now it's 90.
+* [http://localhost:3000/balances/CHARLIE](http://localhost:3000/balances/CHARLIE) - Charlie's balance is 110
+* [http://localhost:3000/balances/ALICE](http://localhost:3000/balances/ALICE) - Alice's balance is still 999000
+* [http://localhost:3000/balances/BOB](http://localhost:3000/balances/BOB) - Bob's balance is reduced by 110 and now it's 890
+* [http://localhost:3000/allowances?owner=BOB&spender=ALICE](http://localhost:3000/allowances?owner=BOB&spender=ALICE) - the approval is also reduced by 110 and now it's 90.
 
 We can also use our api to allow Bob to transfer 100 units on behalf of Alice. We can create a POST request in Postman at `http://localhost:3000/allowances` url and pass two body parameters: `sender: BOB` and `value: 100000000000000000` (again, we have the 15 decimal zeros).
 
 ![cryptocurrency in substrate](/images/erc20-substrate-nest-example/image11.png)
 
-We can check the allowance in the browser <http://localhost:3000/allowances?owner=ALICE&spender=BOB> to be 100. 
+We can check the allowance in the browser [http://localhost:3000/allowances?owner=ALICE&spender=BOB](http://localhost:3000/allowances?owner=ALICE&spender=BOB) to be 100. 
 
 We can now let Bob make a transfer of 30 units from Alice's to Dave's wallet using the Polkadot JS Apps:
 
@@ -690,10 +690,10 @@ We can now let Bob make a transfer of 30 units from Alice's to Dave's wallet usi
 
 We can now confirm that:
 
-* <http://localhost:3000/balances/DAVE> - Dave's balance is 30
-* <http://localhost:3000/balances/ALICE> - Alice's balance is reduced by 30 and it's 998970
-* <http://localhost:3000/balances/BOB> - Bob's balance is is still 890
-* <http://localhost:3000/allowances?owner=ALICE&spender=BOB> - the approval is also reduced by 30 and now it's 70.
+* [http://localhost:3000/balances/DAVE](http://localhost:3000/balances/DAVE) - Dave's balance is 30
+* [http://localhost:3000/balances/ALICE](http://localhost:3000/balances/ALICE) - Alice's balance is reduced by 30 and it's 998970
+* [http://localhost:3000/balances/BOB](http://localhost:3000/balances/BOB) - Bob's balance is is still 890
+* [http://localhost:3000/allowances?owner=ALICE&spender=BOB](http://localhost:3000/allowances?owner=ALICE&spender=BOB) - the approval is also reduced by 30 and now it's 70.
 
 ## Summary
 

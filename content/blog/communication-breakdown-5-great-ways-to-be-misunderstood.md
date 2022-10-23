@@ -25,7 +25,7 @@ There’s usually this feeling **“Maybe they won’t notice, maybe it’s not 
 
 Another reason might be that you just didn’t pay enough attention to know what and when to say. It happens and it’s ok, unless you spend the whole meeting scrolling through cat memes.
 <div style="text-align:center" markdown="1">
-<img src="/images/grumpy2.gif" alt="grumpy")
+<img src="/images/grumpy2.gif" alt="grumpy" />
 </div>
 <div style="text-align:left">
 
@@ -40,7 +40,7 @@ It’s good to know your crowd. You wouldn’t go into details of AWS cloud form
 ## 3. **“This feature makes no sense”**
 </div>
 <div style="text-align:center" markdown="1">
-<img src="/images/stupid_pointless.gif" alt="stupid pointless")
+<img src="/images/stupid_pointless.gif" alt="stupid pointless" />
 </div>
 <div style="text-align:left">
 
@@ -51,7 +51,7 @@ Also known as lecturing the client. If you know the domain well, thoughtful advi
 This is an issue of a bit different character. While being kind is crucial, too much humble courtesy can change the message you wish to convey. **Something important can be perceived as much less serious, because you painted it as such**. In general, think twice before using phrases like “no worries if not”, “it’s not a problem at all” - is it not, really? If it’s a small issue or you can tackle something in a breeze, go ahead. If something is crucial or you will spend a night over fixing something, be honest about it. Do not put yourself in the lost position from the start. Finding a balance between politeness and assertiveness is the key.
 </div>
 <div style="text-align:center">
-<img src="/images/1_lobanova_no_worries.jpeg" width="500" alt="no worries")
+<img src="/images/1_lobanova_no_worries.jpeg" width="500" alt="no worries" />
 </div>
 <div style="text-align:left">
 

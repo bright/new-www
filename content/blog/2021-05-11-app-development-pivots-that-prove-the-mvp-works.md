@@ -12,7 +12,7 @@ hidden: false
 comments: true
 published: true
 ---
-**You have an idea for an app and are determined to develop it? Congratulations! But what if your idea had to be modified and your solution would need to pivot? Check out why many popular apps and web solutions had to change to make a success.** <br>
+**You have an idea for an app and are determined to develop it? Congratulations! But what if your idea had to be modified and your solution would need to pivot? Check out why many popular apps and web solutions had to change to make a success.** <br/>
 
 ![App pivots MVP](/images/blogpost_www_iza_appdevpivot.png)
 

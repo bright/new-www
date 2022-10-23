@@ -6,9 +6,6 @@ import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
 import variables from '../styles/variables'
-import { GQLData } from '../models/gql'
-import ReactMarkdown from 'react-markdown'
-import children = ReactMarkdown.propTypes.children
 
 const Container = styled.div`
   max-width: 960px;
@@ -77,16 +74,14 @@ const Title = styled.h1`
   }
 `
 
-export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
-}: PropsWithChildren<{data: { mdx: any }}>) {
+const Template: React.FC<{data: { mdx: any }}> = ({ data, children }) => {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter } = mdx
   return (
     <Page>
       <HelmetTitleDescription title={frontmatter.title} description={frontmatter.description} />
 
-      <Container className='container'id='project'>
+      <Container className='container' id='project'>
         <article className='section'>
           <Title>{frontmatter.title}</Title>
           <div className='content'>{frontmatter.description}</div>
@@ -97,6 +92,7 @@ export default function Template({
     </Page>
   )
 }
+
 export const pageQuery = graphql`
   query($id: String!) {
     mdx(id: { eq: $id }) {
@@ -108,3 +104,5 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export default Template

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, PropsWithChildren } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
@@ -11,7 +11,7 @@ import {
   CustomSection,
   TextRegular,
   CustomSectionTitle,
-  Section,
+  Section
 } from '../components/shared/index.styled'
 
 import TeamMembers from './../components/subcomponents/TeamMembers'
@@ -29,14 +29,18 @@ import {
   FaqsTextRegural,
   OurServiceHideTablet,
   OurServicePageTitle,
-  OurServiceSection,
+  OurServiceSection
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 
-export default function Template({ data, params, pageContext }: any) {
+export default function Template({
+                                   data,
+                                   pageContext,
+                                   children
+                                 }: PropsWithChildren<{ data: { mdx: any }, pageContext: { faqTitle: string } }>) {
   const { mdx } = data // data.mdx holds your post data
-  const { frontmatter: page, html } = mdx
+  const { frontmatter: page } = mdx
   const image = getImage(page.image_our_service)
   const myRef = useRef(null)
   const { faqTitle } = pageContext
@@ -51,7 +55,7 @@ export default function Template({ data, params, pageContext }: any) {
         const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
         setTimeout(() => {
           window.scrollTo({
-            top: y,
+            top: y
           })
         }, 100)
       }
@@ -66,11 +70,11 @@ export default function Template({ data, params, pageContext }: any) {
     if (!show[i]) {
       const ourAreasFaqLink = routeLinks.ourAreas({
         service: kebabCase(slug),
-        faqTitle: title,
+        faqTitle: title
       })
       window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
     } else {
-      const showArray = Object.keys(show).map(function (k) {
+      const showArray = Object.keys(show).map(function(k) {
         return { value: show[k], index: k }
       })
       const nearestOpenedFaq = showArray.find(item => item.value && item.index != i)
@@ -79,14 +83,14 @@ export default function Template({ data, params, pageContext }: any) {
 
       const ourAreasFaqLink = routeLinks.ourAreas({
         service: kebabCase(slug),
-        faqTitle: kebabCase(openedFaqTitle),
+        faqTitle: kebabCase(openedFaqTitle)
       })
       window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
     }
 
     setShow((prevshow: any) => ({
       ...prevshow,
-      [i]: !prevshow[i],
+      [i]: !prevshow[i]
     }))
   }
 
@@ -110,7 +114,7 @@ export default function Template({ data, params, pageContext }: any) {
     description_contact,
     intro,
     project: projects,
-    slug,
+    slug
   } = page
 
   return (
@@ -168,7 +172,7 @@ export default function Template({ data, params, pageContext }: any) {
       <CustomSection paddingProps='0 15rem 5.625rem 15rem' paddingMobileProps='0 1.125rem 4rem'>
         <OurServiceSection>
           <CustomSectionInner>
-            <Content className='content' dangerouslySetInnerHTML={{ __html: html }} />
+            <Content className='content'>{children}</Content>
             <Link to={'#contactForm'}>
               <BlackButtonOurService>{button2}</BlackButtonOurService>
             </Link>
@@ -241,51 +245,50 @@ export default function Template({ data, params, pageContext }: any) {
 }
 
 export const pageQuery = graphql`
-  query($id: String!) {
-    mdx(id: { eq: $id }) {
-      frontmatter {
-        team_members
-        faqs {
-          frontmatter {
-            answer
-            question
-          }
-        }
-        project {
-          frontmatter {
-            description
-            title
-            image {
-              childImageSharp {
-                gatsbyImageData
-              }
+    query($id: String!) {
+        mdx(id: { eq: $id }) {
+            frontmatter {
+                team_members
+                faqs {
+                    frontmatter {
+                        answer
+                        question
+                    }
+                }
+                project {
+                    frontmatter {
+                        description
+                        title
+                        image {
+                            childImageSharp {
+                                gatsbyImageData
+                            }
+                        }
+                        slug
+                    }
+                }
+                meta_title
+                meta_description
+                title
+                intro
+                slug
+                description
+                button
+                button2
+                show_case_study
+                show_technology_stack
+                title_faqs
+                title_case_study
+                title_team
+                title_contact
+                description_contact
+                name
+                image_our_service {
+                    childImageSharp {
+                        gatsbyImageData
+                    }
+                }
             }
-            slug
-          }
         }
-        meta_title
-        meta_description
-        title
-        intro
-        slug
-        description
-        button
-        button2
-        show_case_study
-        show_technology_stack
-        title_faqs
-        title_case_study
-        title_team
-        title_contact
-        description_contact
-        name
-        image_our_service {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
-      }
-      html
     }
-  }
 `

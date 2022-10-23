@@ -98,7 +98,7 @@ As you can see, the framework gives us the required repetitions count as a param
 
 *Side note: the current Spanner version (as of Feb 2, 2018) requires benchmark classes' and methods' modifiers to be exacly `java.lang.reflect.Modifier.PUBLIC` so you can't run final-by-default Kotlin code without additional `open` modifier. That's why I use my [forked version](https://github.com/azabost/spanner) with this behavior changed accordingly.*
 
-Spanner can also upload your benchmark results to <https://microbenchmarks.appspot.com> either anonymously or with a given API key.
+Spanner can also upload your benchmark results to [https://microbenchmarks.appspot.com](https://microbenchmarks.appspot.com) either anonymously or with a given API key.
 
 ![Spanner results](/images/microbenchmarking-on-android/spanner-result.png)
 

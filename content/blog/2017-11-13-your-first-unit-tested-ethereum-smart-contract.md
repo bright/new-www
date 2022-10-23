@@ -100,7 +100,7 @@ then please open and edit configuration file `truffle.js`, `from` parameter is a
 
 ```javascript
 module.exports = {  
-  // See <http://truffleframework.com/docs/advanced/configuration>  
+  // See [http://truffleframework.com/docs/advanced/configuration](http://truffleframework.com/docs/advanced/configuration)  
     networks: { 
         development: {  
             host: "localhost",  

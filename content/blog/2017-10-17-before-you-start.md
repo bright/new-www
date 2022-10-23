@@ -35,11 +35,11 @@ All the ideas you can easily check with a wide range of  prototyping tools. Just
 From my perspective, the flow is the key to engage your users.
 Just try to recreate the user flow actions in your app before a development period, and then test ideas with your app users.
 
-You should definitely check those address: <br>
-[UXPin](https://www.uxpin.com/) <br>
-[axure](https://www.axure.com/)<br>
-[inVision](https://www.invisionapp.com/)<br>
-[Sketch](https://www.sketchapp.com/)<br>
+You should definitely check those address: <br/>
+[UXPin](https://www.uxpin.com/) <br/>
+[axure](https://www.axure.com/)<br/>
+[inVision](https://www.invisionapp.com/)<br/>
+[Sketch](https://www.sketchapp.com/)<br/>
 
 So .... Prototype, prototype, prototype (and you will thank me later)
 

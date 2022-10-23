@@ -3,6 +3,7 @@ import { allMdxData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
 import { IgnorePlugin } from 'webpack'
+import readingTime from 'reading-time'
 
 const path = require('path')
 
@@ -438,13 +439,21 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
     if(!node.internal.contentFilePath){
       console.log('no contentFilePath in', node)
     }
+
     const nodeSlug = '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
     console.log('nodeSlug', nodeSlug, 'for path', nodeFilePath)
+
     createNodeField({
       node,
       name: `slug`,
       // TODO: figure out correct type instead of as any
       value: nodeSlug
+    })
+
+    createNodeField({
+      node,
+      name: 'timeToRead',
+      value: readingTime(node.body as string)
     })
   }
 }

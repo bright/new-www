@@ -70,7 +70,7 @@ which can be translated to Kotlin as:
 
 _Note: Dagger generates Java sources and that's why we must remember about the variance differences between Java and Kotlin ([generics docs](https://kotlinlang.org/docs/reference/generics.html), [Java to Kotlin interoperability docs](https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html)) which could be troublesome if you don't use the `@JvmSuppressWildcards` annotation, resulting in this error:_
 
-> error: [dagger.android.AndroidInjector.inject(T)] java.util.Map<java.lang.Class<? extends android.arch.lifecycle.ViewModel>,? extends javax.inject.Provider<android.arch.lifecycle.ViewModel>> cannot be provided without an @Provides-annotated method.
+> `error: [dagger.android.AndroidInjector.inject(T)] java.util.Map<java.lang.Class<? extends android.arch.lifecycle.ViewModel>,? extends javax.inject.Provider<android.arch.lifecycle.ViewModel>>` cannot be provided without an @Provides-annotated method.
 
 This map's entries consist of a key - a class of any view model and a value - a `Provider` of any view model. Obviously, we must feed the map with the corresponding `Provider`s for every view model, e.g. `ViewModelA -> Provider<ViewModelA>`. With such a map the factory will be able to easily return an instance of any view model with all its dependencies fulfilled by Dagger.
 

@@ -18,7 +18,7 @@ The feature that "Habit tracker" surely needed was ability to store and load use
 
 ### NSCoding
 
-First of all lets create a class which we want to archive. It will be called Task. In order to save and load it with use of NSKeyedArchiver/Unarchiver we have to make our class implements two methods provided by protocol <NSCoding>.
+First of all lets create a class which we want to archive. It will be called Task. In order to save and load it with use of NSKeyedArchiver/Unarchiver we have to make our class implements two methods provided by protocol `NSCoding`.
 
 <script src="https://gist.github.com/Eluss/fb436b922e73aa7e0f50.js"></script>
 

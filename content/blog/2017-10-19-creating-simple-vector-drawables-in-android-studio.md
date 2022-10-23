@@ -63,7 +63,7 @@ Let's fill a half of our squared canvas with the first triangle by drawing a pat
 
 Please note the coordinates &mdash; the top-left corner of the canvas is (0,0) and the bottom-right corner is (100,100) and that's because we set the `android:viewportWidth="100"` and `android:viewportHeight="100"`.
 
-![First triangle](/images/creating-simple-drawables-in-android-studio/first_triangle.png){: 
+![First triangle](/images/creating-simple-drawables-in-android-studio/first_triangle.png) 
 
 You can draw a path by adding a `path` inside the `vector`:
 
@@ -112,7 +112,7 @@ Let's put this in the drawable file:
 
 We can see the triangle in the preview panel:
 
-![First triangle preview](/images/creating-simple-drawables-in-android-studio/first_triangle_preview.png){: .center-image }
+![First triangle preview](/images/creating-simple-drawables-in-android-studio/first_triangle_preview.png)
 
 ## Step 4: Draw the second triangle
 
@@ -176,7 +176,7 @@ Now we can use the drawable. As you can see, it can be easily scaled by using th
 
 ### Further reading
 
-* <https://developer.android.com/training/material/drawables.html#VectorDrawables>
-* <https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html>
+* [https://developer.android.com/training/material/drawables.html#VectorDrawables](https://developer.android.com/training/material/drawables.html#VectorDrawables)
+* [https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html](https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html)
 
 <div class='block-button'><h2>We are looking for Android developers</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/jobs/senior-android-developer"><button>Apply and join our team</button></a></div>

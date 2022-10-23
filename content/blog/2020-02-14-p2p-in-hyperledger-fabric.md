@@ -42,7 +42,7 @@ On the server side, the server implements interface and runs a **gRPC** server t
 
 Due to the fact that **gRCP** uses **proto buffers**, the server may be written in a different language than the client (for now it supports 10 programming languages).
 
-## Proto buffers ##
+## Proto buffers
 
 **Protocol buffers** are Google's language-neutral, platform-neutral, extensible mechanisms for serialising structured data.
 
@@ -52,7 +52,7 @@ To better understand how proto buffers work, let's compare it with **JSON**:
 {"name":"Peter","lastName":"Jason"}
 ```
 
-This **JSON** object contains 35 characters, 25 of these including { : " " , } are informative and the actual message you send contains only 10 characters.
+This **JSON** object contains 35 characters, 25 of these including `{ : " " , }` are informative and the actual message you send contains only 10 characters.
 
 Let's now implement the same message using proto buffers:
 
@@ -91,7 +91,7 @@ After the serialisation, our 14 bytes long message in `UInt8Array` format might 
 10 5 80 101 116 101 114 18 5 74 97 115 111 110
 ```
 
-## Usage in Hyperledger ##
+## Usage in Hyperledger
 
 Now, that we have some basic knowledge of **gRPC and proto buffers**, we can examine how Hyperledger distributes the changes made in our chaincode asset.
 

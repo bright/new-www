@@ -62,7 +62,7 @@ So, not only in the case of the local environment — town, city, county, bu
 
 ## Know your network
 
-This one is serious — pay attention to getting to know your network. A lot of developers work for multiple companies, multiple companies work for a variety of clients — agencies, factories, but the corporation also! The software house <> corporation is a very specific relation. Corporations are big and have a lot of departments usually, and they have their own IT departments very often!
+This one is serious — pay attention to getting to know your network. A lot of developers work for multiple companies, multiple companies work for a variety of clients — agencies, factories, but the corporation also! The software house \<\> corporation is a very specific relation. Corporations are big and have a lot of departments usually, and they have their own IT departments very often!
 
 The problem begins with the agreements between the companies. If you are a recruiter for Corporation and you want to involve developer from Software House (or agency, or any other kind of the company), just make sure, that there is no relation between your client (Corporation) and the company “your” developer is working in. In most cases, the guy will tell you that, most probably, you should not write to him. But there is another chance — he will notify his manager, the manager will speak to the director and at the very end, you will have an unpleasant email, at least.
 

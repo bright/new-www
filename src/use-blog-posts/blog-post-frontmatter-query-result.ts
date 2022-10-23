@@ -16,7 +16,12 @@ interface BlogPostsFrontmatterItem {
 
 interface BlogPostsQueryResultItem {
   frontmatter: BlogPostsFrontmatterItem
-  fields: { slug: string }
+  fields: {
+    slug: string
+    timeToRead: {
+      minutes: number
+    }
+  }
 }
 
 export type BlogPostsFrontmatterQueryResult = BlogPostsQueryResultItem[]

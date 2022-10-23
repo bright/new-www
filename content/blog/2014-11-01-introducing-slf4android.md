@@ -38,7 +38,7 @@ You're able to use [`MessageFormatter`](http://developer.android.com/reference/j
 
 ### Simple [android-logger](https://github.com/noveogroup/android-logger)
 
-`android-logger` is a small (<50KB) library that let's you use slf4j api to print to logcat. It ships with various configuration options that let you change the format of output messages as well as log level based on hierarchical logger names. However you won't be able to print messages to [an additional file](https://github.com/noveogroup/android-logger/issues/25) and you can only [configure the logger through properties files](https://github.com/noveogroup/android-logger/issues/28).
+`android-logger` is a small (\<50KB) library that let's you use slf4j api to print to logcat. It ships with various configuration options that let you change the format of output messages as well as log level based on hierarchical logger names. However you won't be able to print messages to [an additional file](https://github.com/noveogroup/android-logger/issues/25) and you can only [configure the logger through properties files](https://github.com/noveogroup/android-logger/issues/28).
 
 ## [slf4android](https://github.com/bright/slf4android)
 Since I wasn't perfectly happy with above and because some design decisions made in [android-logger](https://github.com/noveogroup/android-logger) make it not so easy to add features like logging to a file, creating custom patterns and configuring it from code I decided to create yet another logging utility.

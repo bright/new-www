@@ -16,7 +16,7 @@ image: /images/android.jpeg
 published: true
 ---
 
-If you need to implement Android ListView with sections like in iOS world then the code below can help you with that. The first thing you need is to implement two View providers, one for section view and second for section entry view. To do that you just have to create a class that implements ListViewWithSectionsAdapter.ViewProvider<T> interface, example below.
+If you need to implement Android ListView with sections like in iOS world then the code below can help you with that. The first thing you need is to implement two View providers, one for section view and second for section entry view. To do that you just have to create a class that implements `ListViewWithSectionsAdapter.ViewProvider<T>` interface, example below.
 
 ```Java
 

@@ -21,7 +21,7 @@ CSS was first standardised back in 1996, it was around early 2000s when it becam
 
 Now, it’s 2015 and we’re looking at the iOS layouts. How do we maintain the content vs. presentation separation in iOS? The short answer is - we don’t. There is no direct replacement for CSS concept in iOS. I was seriously shocked when I first learned that fact. But the fact is, a lot of iOS community [doesn’t care](http://stackoverflow.com/questions/2767512/good-reasons-why-to-not-use-xib-files?rq=1). Most iOS developers go “the Apple way” here and use [Interface Builder](https://developer.apple.com/xcode/interface-builder/) to design the layout. They define the whole presentation layer by clicking and dragging, not even feeling the need of any code for that purpose.
 
-> content vs. presentation separation and styles reuse using CSS <—> N/A
+> content vs. presentation separation and styles reuse using CSS \<—\> N/A
 
 One might say that less code means less bugs, but of course, Interface Builder does nothing different than generating the code underneath. It’s in [XIB format](http://www.monobjc.net/xib-file-format.html), nothing easily “consumable” by anything other than its native generator. Trying to touch it from the outside [will probably hurt](http://stackoverflow.com/questions/1660606/is-it-possible-to-directly-edit-the-xml-of-xib-files). Working with the code generator like Interface Builder [can often encourage bad practices](http://blog.teamtreehouse.com/why-i-dont-use-interface-builder) - it creates tight coupling between view and it’s logic behind, it creates merge hell when touched by more than one person, it destroys the ability to reuse style definitions and the relation between what we did in the IDE and what we got in the final app is too implicit.
 
@@ -138,13 +138,13 @@ UITraitCollection *traitCollection = [UITraitCollection
 
 Appearance might be compared to CSS limited to elements only (no per-class or per-id definitions), with basic hierarchies and basic media queries support. However, the distance to the full-blown CSS equivalent is quite large. There is no way to apply appearance definitions to the selected subset of elements of a given type, like we do using CSS classes. There is no way to represent other types of relationships between controls than ancestor-descendant (`whenContainedIn`) - we need to forget about the selectors we know from CSS like siblings, direct children, n-th of type and so on. Moreover, when we have multiple ancestor-descendant relationships defined, [the first one encountered (most generic) is used](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIAppearance_Protocol/), while in CSS the most specific one is used, allowing us to specify our styles from the general definitions to the specialized ones going down the elements tree.
 
-> CSS definitions on HTML elements <—> [UIAppearance](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/.html#//apple_ref/doc/uid/TP40012857-UIView-SW16) definitions
+> CSS definitions on HTML elements \<—\> [UIAppearance](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/.html#//apple_ref/doc/uid/TP40012857-UIView-SW16) definitions
 >
-> CSS definitions on HTML element hierarchies <—> UIAppearance definitions with `whenContainedIn` overloads; limited
+> CSS definitions on HTML element hierarchies \<—\> UIAppearance definitions with `whenContainedIn` overloads; limited
 >
-> CSS definitions with screen size-related media queries <—> UIAppearance definitions with `forTraitCollection` overloads; limited
+> CSS definitions with screen size-related media queries \<—\> UIAppearance definitions with `forTraitCollection` overloads; limited
 >
-> CSS features other than above <—> N/A
+> CSS features other than above \<—\> N/A
 
 Last but not least, customization via appearance is by default limited only to [several properties of the controls](https://gist.github.com/mattt/5135521) exposed by iOS with the `UI_APPEARANCE_SELECTOR` tag. For example, generic `UIView` only allows us to set `backgroundColor` through appearance and such a common control like `UILabel` doesn’t add anything more on its own. This means there is no out-of-the-box solution for setting text color, font properties, margins etc. for all the labels once across the application. That limitation can be overcome by defining an `UI_APPEARANCE_SELECTOR` [for custom properties](http://timross.info/blog/2013/03/26/more-fun-with-uiappearance/) and [for custom controls](http://petersteinberger.com/blog/2013/uiappearance-for-custom-views/), but that is far from the elegance of plain old declarative CSS.
 

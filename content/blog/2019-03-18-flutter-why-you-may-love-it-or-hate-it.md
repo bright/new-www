@@ -18,7 +18,7 @@ basic tutorial for creating apps with Flutter. I'll just present my first impres
 Flutter after a few hours of having fun with it.
 
 <p align="center">
-  <img src="/images/flutter-why-you-may-love-it-or-hate-it/flutter-logo.png">
+  <img src="/images/flutter-why-you-may-love-it-or-hate-it/flutter-logo.png" />
 </p>
 
 ## **Dart**

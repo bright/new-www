@@ -54,7 +54,7 @@ The simpler layer available are [gesture recognizers](https://developer.apple.co
 
 There’s no direct analogy available for complex gestures in the web world. Mobile browser apps often have their own handling for such a gestures, not even passing the raw gesture to the web app currently opened. For example, when pinching the website on the mobile device, it is zoomed in or out [without the web app being notified](http://stackoverflow.com/questions/995914/catch-browsers-zoom-event-in-javascript) about that event directly. The solution to handle complex gestures in mobile web is to defer to 3rd-party libraries that employ the low-level handling mechanisms to emulate the gesture events. Examples are [Hammer.js](http://hammerjs.github.io/) or [Touchy](https://github.com/hotstudio/touchy).
 
-> 3rd-party libraries to handle complex events <—> built-in gesture recognizers
+> 3rd-party libraries to handle complex events \<—\> built-in gesture recognizers
 
 Simple events simplified even more
 ----
@@ -78,47 +78,47 @@ For simpler events that do not require complex “recognizing” of movements pa
 
 The web analogy here is pretty clear - it’s like adding an event listener to the DOM element, either directly using [`element.addEventListener` API](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) or through convenient libraries like [jQuery and its `on` function](http://api.jquery.com/on/) etc.
 
-> `addEventListener` and its wrappers <—> `addTarget:action:forControlEvents:`
+> `addEventListener` and its wrappers \<—\> `addTarget:action:forControlEvents:`
 
 What else we need to know here is the “translation table” from the DOM event to its [corresponding `UIControlEvent` type](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIControl_Class/.html#//apple_ref/doc/constant_group/Control_Events). Of course the analogies are coarse-grained as always, but here we go:
 
-> `mousedown` event <—> `UIControlEventTouchDown`
+> `mousedown` event \<—\> `UIControlEventTouchDown`
 
-> `mouseup` event, conventionally also `click` event <—> `UIControlEventTouchUpInside`
+> `mouseup` event, conventionally also `click` event \<—\> `UIControlEventTouchUpInside`
 
-> `change` event on form controls <—> `UIControlEventValueChanged`
+> `change` event on form controls \<—\> `UIControlEventValueChanged`
 
-> [drag events](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Drag_and_drop) <—> `UIControlEventTouchDragInside`, `UIControlEventTouchDragOutside`, `UIControlEventTouchDragEnter`, `UIControlEventTouchDragExit`
+> [drag events](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Drag_and_drop) \<—\> `UIControlEventTouchDragInside`, `UIControlEventTouchDragOutside`, `UIControlEventTouchDragEnter`, `UIControlEventTouchDragExit`
 
 Low-level events handling
 ----
 
 There is also lower level touch event handling available within [`UIResponder` base class](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/doc/uid/TP40006783-CH4-SW13), which fortunately is a base class for `UIView` allowing these methods to be used everywhere. There are plenty of methods available to be overriden when our view implementation is interested in being notified about events like beginning of the touch ([`touchesBegan:withEvent:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/occ/instm/UIResponder/touchesBegan:withEvent:)), touch move ([`touchesMoved:withEvent:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/occ/instm/UIResponder/touchesMoved:withEvent:)) or touch end ([`touchesEnded:withEvent:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/occ/instm/UIResponder/touchesEnded:withEvent:)). These events consists of locations for all touch points, allowing multitouch support. But in order to detect any pattern, we need to analyse the data on our own. This resembles what we have [available in some web browsers](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events).
 
-> listening on `touchstart` event <—> overriding `touchesBegan:withEvent:` method
+> listening on `touchstart` event \<—\> overriding `touchesBegan:withEvent:` method
 
-> listening on `touchmove` event <—> overriding `touchesMoved:withEvent:` method
+> listening on `touchmove` event \<—\> overriding `touchesMoved:withEvent:` method
 
-> listening on `touchend` event <—> overriding `touchesEnded:withEvent:` method
+> listening on `touchend` event \<—\> overriding `touchesEnded:withEvent:` method
 
-> listening on `touchcancel` event <—> overriding `touchesCancelled:withEvent:` method
+> listening on `touchcancel` event \<—\> overriding `touchesCancelled:withEvent:` method
 
 Raw [motion events](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/doc/uid/TP40006783-CH4-SW19) handling is also available within `UIResponder` in the same fashion as touch events, using [`motionBegan:withEvent:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/occ/instm/UIResponder/motionBegan:withEvent:) method and its siblings. In the web we might use [device motion and orientation events](http://mobiforge.com/design-development/html5-mobile-web-device-orientation-events) instead.
 
-> listening on `devicemotion` event <—> overriding `motionBegan:withEvent:` and `motionEnded:withEvent:` methods
+> listening on `devicemotion` event \<—\> overriding `motionBegan:withEvent:` and `motionEnded:withEvent:` methods
 
 Other events
 ----
 
 For the sake of completeness, I’d mention few more event types that are somehow supported by both the web standard and iOS.
 
-> listening on `window.onload`, jQuery `$(document).ready` or similar events <—> overriding [`UIViewController.viewDidLoad`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewDidLoad) method
+> listening on `window.onload`, jQuery `$(document).ready` or similar events \<—\> overriding [`UIViewController.viewDidLoad`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewDidLoad) method
 
-> listening on `window.resize` event <—> overriding [`traitCollectionDidChange:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITraitEnvironment_Ref/.html#//apple_ref/occ/intfm/UITraitEnvironment/traitCollectionDidChange:) method on the view or view controller
+> listening on `window.resize` event \<—\> overriding [`traitCollectionDidChange:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITraitEnvironment_Ref/.html#//apple_ref/occ/intfm/UITraitEnvironment/traitCollectionDidChange:) method on the view or view controller
 
-> listening on [`deviceorientation`](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation) event <—> adding observer to `NSNotificationCenter` that observes for [`UIDeviceOrientationDidChangeNotification`](http://thinkdiff.net/iphones/orientation-detection-at-runtime-in-ipad-or-iphone/); alternatively overriding [`traitCollectionDidChange:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITraitEnvironment_Ref/.html#//apple_ref/occ/intfm/UITraitEnvironment/traitCollectionDidChange:) method on the view or view controller
+> listening on [`deviceorientation`](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation) event \<—\> adding observer to `NSNotificationCenter` that observes for [`UIDeviceOrientationDidChangeNotification`](http://thinkdiff.net/iphones/orientation-detection-at-runtime-in-ipad-or-iphone/); alternatively overriding [`traitCollectionDidChange:`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITraitEnvironment_Ref/.html#//apple_ref/occ/intfm/UITraitEnvironment/traitCollectionDidChange:) method on the view or view controller
 
-> set of proposed solutions for [sensors and hardware integration](http://www.w3.org/Mobile/mobile-web-app-state/#Sensors_and_hardware_integration), not yet implemented <—> [remote control events on `UIResponder`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/occ/instm/UIResponder/remoteControlReceivedWithEvent:)
+> set of proposed solutions for [sensors and hardware integration](http://www.w3.org/Mobile/mobile-web-app-state/#Sensors_and_hardware_integration), not yet implemented \<—\> [remote control events on `UIResponder`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/occ/instm/UIResponder/remoteControlReceivedWithEvent:)
 
 Who handles the event?
 ----
@@ -129,19 +129,19 @@ In the web, all the interaction events are first dispatched directly to the elem
 
 In iOS, the way the event travels up the view hierarchy is similar - it is first delivered to the control down the tree and then passed up, but only until some control actually handles it - the traversal stops then.
 
-> calling DOM event `stopPropagation` on event handling <—> on iOS, propagation is stopped automatically when the event is handled
+> calling DOM event `stopPropagation` on event handling \<—\> on iOS, propagation is stopped automatically when the event is handled
 
 Also, it is not fully accurate to say the events go up the view hierarchy. It actually go according to the [responder chain](https://developer.apple.com/library/prerelease/ios/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/event_delivery_responder_chain/event_delivery_responder_chain.html#//apple_ref/doc/uid/TP40009541-CH4-SW2), which might or might not be equal to the view hierarchy order of controls. For touch events, unless we modify the [`nextResponder` property](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIResponder_Class/.html#//apple_ref/occ/instm/UIResponder/nextResponder), it is the same. But we might want to manage which control is the next responder on our own, for example to implement nice [keyboard traversal through the text inputs](http://stackoverflow.com/questions/1347779/how-to-navigate-through-textfields-next-done-buttons).
 
-> DOM events bubble up the DOM hierarchy <—> iOS events traverse according to the responder chain
+> DOM events bubble up the DOM hierarchy \<—\> iOS events traverse according to the responder chain
 
 But there are few more quirks. First one is the way the iOS determines which control was touched - it starts from the uppermost window view and [performs a hit-testing](https://developer.apple.com/library/prerelease/ios/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/event_delivery_responder_chain/event_delivery_responder_chain.html#//apple_ref/doc/uid/TP40009541-CH4-SW4) on its subviews recursively. That takes into consideration only the views that are [actually visible within the view’s bounds](https://developer.apple.com/library/ios/qa/qa2013/qa1812.html) - so the views that are drawn outside its superview using `clipToBounds = NO` can’t handle the touch events properly. The workaround is to override [the hit-testing method](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/.html#//apple_ref/occ/instm/UIView/hitTest:withEvent:), but this gets hairy pretty quickly.
 
-> DOM events are delivered to the innermost element according to view hierarchy only <—> iOS touch events are delivered to the innermost control according both to view hierarchy and position within bounds
+> DOM events are delivered to the innermost element according to view hierarchy only \<—\> iOS touch events are delivered to the innermost control according both to view hierarchy and position within bounds
 
 One more important trick that is often used to modify the default touch target control on iOS is to disable the [`userInteractionEnabled` flag](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/#//apple_ref/occ/instp/UIView/userInteractionEnabled) for the control to prevent it being considered for hit-testing. In that case, the control that gets the event might not actually be the innermost one, but the last of its ancestors that doesn’t have interaction disabled. To achieve something a bit similar in the web, we can set CSS `pointer-events: none` on the element we want to “disable", although this is rather rough analogy.
 
-> `pointer-events: none` in CSS <—> `UIView`’s `userInteractionEnabled` flag
+> `pointer-events: none` in CSS \<—\> `UIView`’s `userInteractionEnabled` flag
 
 
 That’s all, folks. I hope anyone finds this series worth reading. I’d be grateful for any corrections, additions or just comments.

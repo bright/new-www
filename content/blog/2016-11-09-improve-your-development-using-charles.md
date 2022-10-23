@@ -64,7 +64,7 @@ Right-click with option button on your wifi icon on the Mac
 
 ![Mac](https://github.com/kamwysoc/kamwysoc.github.io/blob/master/assets/posts/charles/wifi_mac.png?raw=true)
 
-Then on your iOS device go to <http://www.charlesproxy.com/getssl/> and install the certificate. I recommend to do it via Safari because it redirects you from URL to Certificates Settings on iOS Device. Then just install the certificate.
+Then on your iOS device go to [http://www.charlesproxy.com/getssl/](http://www.charlesproxy.com/getssl/) and install the certificate. I recommend to do it via Safari because it redirects you from URL to Certificates Settings on iOS Device. Then just install the certificate.
 
 After the installation process, you will be able to see all request from your iOS device in Charles app on your Mac.
 

@@ -22,7 +22,6 @@ export default {
     },
 
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-typescript',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
