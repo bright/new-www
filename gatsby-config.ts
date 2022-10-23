@@ -251,10 +251,6 @@ export default {
       }
     },
     {
-      resolve: 'gatsby-plugin-force-trailing-slashes',
-      options: {}
-    },
-    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: siteUrl.href,
