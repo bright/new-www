@@ -96,6 +96,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       allMdx(filter: { frontmatter: { layout: { eq: "member" } } }) {
         edges {
           node {
+            id
             internal {  contentFilePath  }
             frontmatter {
               slug
@@ -243,6 +244,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       allMdx(filter: { frontmatter: { layout: { eq: "our-service" } } }, limit: 1000) {
         edges {
           node {
+            id
             frontmatter {
               slug
               faqs {
@@ -278,7 +280,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         context: {
           id: service.node.id,
           faqTitle: faq.frontmatter.question,
-          slug: service.node.frontmatter.slug,
+          slug: service.node.frontmatter.slug
         }
       })
     })
@@ -294,6 +296,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         ) {
           edges {
             node {
+              id
               fields {
                 slug
               }
@@ -348,7 +351,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }, [])
 
     const relatedTags = [...flatteredYmlTags, ...currentPostTags]
-
+    if (!postNode.id) {
+      console.log('node', postNode)
+    }
     createPage({
       path: blogPostUrlPath(postNode),
       component: `${path.resolve('./src/templates/PostTemplate.tsx')}?__contentFilePath=${nodeFileAbsolutePath}`,
@@ -371,6 +376,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         ) {
           edges {
             node {
+              id
               frontmatter {
                 slug
               }
@@ -390,7 +396,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }
     // console.log(result.data.allMdx.edges)
     result.data!.allMdx.edges.forEach(({ node }) => {
-      if(!node.internal.contentFilePath){
+      if (!node.internal.contentFilePath) {
         console.log('no contentFilePath in', node)
       }
       const name = node.internal.contentFilePath
@@ -436,7 +442,7 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
 
   if (node.internal.type === `Mdx`) {
     const nodeFilePath = node.internal.contentFilePath!
-    if(!node.internal.contentFilePath){
+    if (!node.internal.contentFilePath) {
       console.log('no contentFilePath in', node)
     }
 
