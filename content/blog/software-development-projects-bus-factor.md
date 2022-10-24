@@ -6,6 +6,7 @@ tags:
   - software development
   - project management
 date: 2021-07-15T07:31:54.979Z
+dateModified: ""
 title: How to protect software development projects from bus factor problem
 layout: post
 image: /images/blogpost_www_izabela_bus.png
@@ -63,6 +64,4 @@ If you decide to hire a [software development agency](https://brightinventions.p
 
 When you hire a software team you have to always have in mind the bus factor issue. Fortunately, when your team knows how to share knowledge and communicate effectively, the bus factor shouldn’t be so much of a concern. Just stay calm and… follow the practices that we’ve presented. 😉
 
-<div class='block-button'><h2>Are you looking for a software development company?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
-
-[Estimate your project!](https://brightinventions.pl/start-project)
+<div class='block-button'><h2>Are you looking for a software development company?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div
