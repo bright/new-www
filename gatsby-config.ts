@@ -1,8 +1,10 @@
 import { Node } from './src/models/gql'
 import { siteMetadata, siteUrl } from './src/site-metadata'
+
 import { gatsbyPluginFeedOptions } from './src/gatsby-plugin-feed-options'
 
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
+
 
 export default {
   siteMetadata,
@@ -150,9 +152,9 @@ export default {
         extensions: [`.md`, `.mdx`],
         mdxOptions: {
           // TODO: this causes build to fail
-          // remarkPlugins: [
-          //   require(`remark-gfm`)
-          // ]
+          remarkPlugins: [
+            require(`remark-gfm`)
+          ]
         },
         gatsbyRemarkPlugins: [
           {
