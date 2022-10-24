@@ -24,7 +24,6 @@ const feedGQL = (tags?: string[]) => {
                   node {
                       internal {  contentFilePath  }
                       excerpt(pruneLength: 500)
-                      html
                       frontmatter {
                         title
                         date
@@ -53,7 +52,8 @@ function serializePostsToFeed(siteMetadata: SiteMetadata) {
         date: node.frontmatter.date,
         url: url,
         guid: url,
-        custom_elements: [{ 'content:encoded': node.html }]
+        // since we're using mdx we don't have html rendered accessible from graphql
+        // custom_elements: [{ 'content:encoded': node.html }]
       })
     })
     return feed
