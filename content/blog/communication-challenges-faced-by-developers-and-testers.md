@@ -23,7 +23,7 @@ It is obvious that how we report a bug has an impact on the developer’s reacti
 
 I’ve noticed that sometimes junior developers feel like a bug is their mistake. This is a challenge to report an issue in such a way that the dev can feel that a bug belongs to all of us. How to do this?
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/i9PtaNVkiHB4T3wnBL" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/HBOMax-hbomax-national-lampoons-moviesonhbomax-i9PtaNVkiHB4T3wnBL">via GIPHY</a></p>
+<div style={{width: "100%", height: "0", paddingBottom: "56%", position: "relative"}}><iframe src="https://giphy.com/embed/i9PtaNVkiHB4T3wnBL" width="100%" height="100%" style={{position: "absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/HBOMax-hbomax-national-lampoons-moviesonhbomax-i9PtaNVkiHB4T3wnBL">via GIPHY</a></p>
 
 I think this is a difficult question. All of us are different, but there are some rules QA should follow. Firstly I think we should consider if we need to contact the software developer or just create a new bug in our issue tracker. Let’s focus on the first one as the second is easy. 
 
@@ -35,7 +35,7 @@ Before you decide to ping a developer you should be sure that your bug is a bug.
 
 It happens that you hear “it's not a bug”. You can protect yourself from this kind of response in several ways. For example by reproducing the bug path several times or by reading the documentation carefully. But no matter what you do, sometimes it just happens, and there are two possible paths to what will happen next.
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/K8zzqui9viWT6" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mrw-someone-hqg-K8zzqui9viWT6">via GIPHY</a></p>
+<div style={{width: "100%", height: "0", paddingBottom: "56%", position: "relative"}}><iframe src="https://giphy.com/embed/K8zzqui9viWT6" width="100%" height="100%" style={{position: "absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mrw-someone-hqg-K8zzqui9viWT6">via GIPHY</a></p>
 
 In fact, it's a bug. If you are sure of your right, you will have to prove it somehow to a developer. Prepare a set of evidence like relevant parts of the documentation, feature requirements, and ticket description or if you don't have any of them, prepare a good explanation of why the raised issue is painful for end users. Yet don't try to “kill” anyone with your evidence, it's really not the point. Try to have a constructive conversation and work together on achieving a similar point of view.
 
@@ -51,7 +51,7 @@ It’s really common for testers to raise absolutely everything they consider as
 
 In the past, I was working with a team who always was wondering who is guilty after a bug occurred in production. We had some meetings to talk about it and the official goal of these meetups was to consider how to avoid such situations. Very good idea, but in practice, the guilty one was always sought. I felt like only one person could be responsible for a bug. In this case, the dev always felt guilty. I didn’t feel comfortable with it. 
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3ohhwk7QW2EA3Illks" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/shocked-surprise-mystery-3ohhwk7QW2EA3Illks">via GIPHY</a></p>
+<div style={{width: "100%", height: "0", paddingBottom: "56%", position: "relative"}}><iframe src="https://giphy.com/embed/3ohhwk7QW2EA3Illks" width="100%" height="100%" style={{position: "absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/shocked-surprise-mystery-3ohhwk7QW2EA3Illks">via GIPHY</a></p>
 
 From my point of view, **the whole team is responsible for a bug**. We are a squad, we work together and we share responsibility. In my opinion, it is very important to know about it and work in that way. Otherwise, a team will never be a well-coordinated one. Try to imagine how to report a bug to the person who treats it like an offense.
 
@@ -65,7 +65,7 @@ Sometimes even if the tester checks every path and is sure that THIS IS A BUG an
 
 It’s crucial to know what and why you are doing it. **A common misconception across junior testers is having a conviction that the more passive-aggressive you are, the better**. Or that being a QA is about pointing out someone's errors and bragging about it. I’ve met a guy who was working in an IT company, but in a non-technical position. He was thinking about switching to a technical position and he chose a QA role as his development path. During our conversation, I heard a magical sentence from him: “Finally, I will be paid for pointing out someone's errors”. And he was not joking 🙂. 
 
-<div style="width:100%;height:0;padding-bottom:82%;position:relative;"><iframe src="https://giphy.com/embed/kbz6iLCGXDLgI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/king-of-the-world-im-titanic-kbz6iLCGXDLgI">via GIPHY</a></p>
+<div style={{width: "100%", height: "0", paddingBottom: "82%", position: "relative"}}><iframe src="https://giphy.com/embed/kbz6iLCGXDLgI" width="100%" height="100%" style={{position: "absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/king-of-the-world-im-titanic-kbz6iLCGXDLgI">via GIPHY</a></p>
 
 ## Keep calm and carry on
 

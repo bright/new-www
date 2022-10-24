@@ -176,7 +176,7 @@ Time to add some colors and spices. The chart layout configuration is very flexi
 
 ### Tune up data sets
 
-First add some colors to the resource `colors.xml` file in order to make banana look a little bit more like <span style="color:#ffe100">banana</span> and yogurt like <span style="color:#0085c7">yogurt</span>.
+First add some colors to the resource `colors.xml` file in order to make banana look a little bit more like <span style={{color: "#ffe100"}}>banana</span> and yogurt like <span style={{color: "#0085c7"}}>yogurt</span>.
 
 ```xml
 <color name="banana">#ffe100</color>

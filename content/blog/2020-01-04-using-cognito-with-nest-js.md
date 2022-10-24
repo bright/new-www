@@ -410,7 +410,7 @@ For the test purposes I have added the *Guard* for the demo route. If I don't in
 }
 ```
 
-When we add in a proper format the token *Bearer {token}* the *Guard* which will determine that the token is valid or not, and will allow the route to handle the request.
+When we add in a proper format the token `Bearer {token}` the *Guard* which will determine that the token is valid or not, and will allow the route to handle the request.
 
 ## Summary
 

@@ -17,7 +17,7 @@ The definition of [a recruiter](https://dictionary.cambridge.org/dictionary/eng
 
 The industry I work in is exciting, but also demanding and I would even say harsh sometimes. I talk with many interesting people every day. I show them that they can choose a new place, a new team and a new project with a strong belief that it will give them satisfactions and joy. I do not push to make any decision. I just show an alternative to their current professional life. I believe in people. And I believe that our nature is good, but not every recruiting case is a dream story with a lovely happy ending.
 
-<div style="text-align:center" markdown="1">
+<div style={{textAlign: "center"}} markdown="1">
 <img src="/images/happy ending gif.gif" alt="happy ending" />
 </div>
 
@@ -33,7 +33,7 @@ This has really happened to me. I was on a triple date (I mean an interview - yo
 
 I have really no idea what we did wrong. Or maybe it was stress. Yet I am not sure if stress might be any explanation here. Imagine being on a date or just at a usual meeting and you’re leaving after a few minutes without saying a word. Just vanishing into thin air. Or going to a toilet and never coming back. 
 
-<div style="text-align:center" markdown="1">
+<div style={{textAlign: "center"}} markdown="1">
 <img src="/images/toilet.gif" alt="toilet" />
 </div>
 
@@ -69,7 +69,7 @@ I think there are many recruiters who really know the difference between Java an
 
 ## #6 Oh well, being a single is not so bad
 
-<div style="text-align:center" markdown="1">
+<div style={{textAlign: "center"}} markdown="1">
 <img src="/images/being single.gif" alt="single" />
 </div>
 

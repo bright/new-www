@@ -23,7 +23,7 @@ Paste these two parameters:
 ```
 into `program arguments' in Run/Debug Configuration.
 <br/><br/>
-![appcode-rtl-config]({{site.url}}/images/appcode-rtl-config.png)
+![appcode-rtl-config](/images/appcode-rtl-config.png)
 <br/><br/>
 Keep in mind that if you kill the app and start it again in simulator, parameters **wouldn't be** included for the new process. Thus the app will start in the common LTR mode.
 The only way to restart the app in RTL is to run the app from AppCode again.

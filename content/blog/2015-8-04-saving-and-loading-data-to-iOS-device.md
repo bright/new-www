@@ -40,7 +40,7 @@ Now we are able to properly store our tasks in files.
 
 If we use iOS Simulator, all files that are saved by us are stored in our app's folder. Using my saving code you will find file named "FILE_NAME" under:
 
-/Library/Developer/CoreSimulator/Devices/{DEVICE_ID}/data/Containers/Data/Application/{APP_ID}/Documents
+`/Library/Developer/CoreSimulator/Devices/{DEVICE_ID}/data/Containers/Data/Application/{APP_ID}/Documents`
 
 By using this command you can get your currently running iOS Simulator ID:
 

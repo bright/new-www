@@ -37,7 +37,7 @@ So, in the next step we search for a quick advice on the web and find out the JP
 1. Using some image editor like GIMP, change its size to 600 x 512 px.
 1. Export it to a JPEG file with the quality factor equal to 95 (more on this factor later).
 
-<img style="display: block; margin-left: auto; margin-right: auto; width: 50%" alt="Test image with a quality factor 95" src="/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/600_512_95.jpg" />
+<img style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "50%"}} alt="Test image with a quality factor 95" src="/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/600_512_95.jpg" />
 
 When I did this, the image was downsized from about 2.6 MB to 167 KB so it takes 67% more than what we wanted.
 
@@ -47,7 +47,7 @@ OK, let's try with a different quality factor. But how do we pick a good one? Us
 1. Apply a "Neon" filter (`Filters -> Edge-Detect -> Neon...`) with Radius set to 15.00 and Amount set to 0.10.
 1. Export it to a JPEG file with the quality set to 80.
 
-<img style="display: block; margin-left: auto; margin-right: auto; width: 50%" alt="Test image with a neon filter and a quality factor 80" src="/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/600_512_80_neon.jpg" />
+<img style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "50%"}} alt="Test image with a neon filter and a quality factor 80" src="/images/downsizing-jpeg-image-efficiently-to-certain-size-on-android/600_512_80_neon.jpg" />
 
 And now I have got a file that takes up 136 KB. The conclusion is simple: using the specific image dimensions and quality factor there is no guarantee the resulting file will be of a certain size.
 

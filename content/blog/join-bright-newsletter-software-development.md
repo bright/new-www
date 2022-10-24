@@ -18,6 +18,6 @@ Oh yes! It is high time to start a bright newsletter. Once a month we will share
 
 No worries. SPAM shall not pass. 
 
-<div style="width:100%;height:0;padding-bottom:49%;position:relative;"><iframe src="https://giphy.com/embed/8abAbOrQ9rvLG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/the-lord-of-rings-chemistry-organic-8abAbOrQ9rvLG">via GIPHY</a></p>
+<div style={{width: "100%", height: "0", paddingBottom: "49%", position: "relative"}}><iframe src="https://giphy.com/embed/8abAbOrQ9rvLG" width="100%" height="100%" style={{position: "absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/the-lord-of-rings-chemistry-organic-8abAbOrQ9rvLG">via GIPHY</a></p>
 
 So have you signed up? Great! We will arrive in your mailbox soon. 😄

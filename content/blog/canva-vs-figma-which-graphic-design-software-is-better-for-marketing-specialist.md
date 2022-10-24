@@ -40,7 +40,7 @@ Canva offers free templates, photos, icons, and more. However, it is fair to say
 
 You can team up with other Canva users from your team and work on the design in a common online folder. Super useful option and essential in these digital times. 
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/wMDizdl57v3zZs2vbQ" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/broken-healing-trauma-wMDizdl57v3zZs2vbQ">via GIPHY</a></p>
+<div style={{width: "100%", height: "0", paddingBottom: "56%", position: "relative"}}><iframe src="https://giphy.com/embed/wMDizdl57v3zZs2vbQ" width="100%" height="100%" style={{position: "absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/broken-healing-trauma-wMDizdl57v3zZs2vbQ">via GIPHY</a></p>
 
 Let’s take a moment here to price people who worked on graphic designs before everything was stored in the cloud. Oh, you probably don’t know the pain of endless email exchanges with a designer including receiving the 163849 versions of a graphic design after sending 163848 comments. Now, you can work online on the project simultaneously – simply collaborate, not write stupid emails. ;) So sorry for this dinosaur digression. I just used to spend countless hours emailing graphic designers (marketing trauma).
 

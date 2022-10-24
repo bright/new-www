@@ -27,7 +27,7 @@ Yeah, why you didn’t call them, Charlie? The answer is: because there are a lo
 
 *Before you read the rest, take a look at my Spotify podcast show (in Polish), where I’m talking things about IT alone and with the guests:*
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 So, why won’t Charlie (developer, tester, designer, you name it) answer your emails/messages/calls? Here you have a few sins you commit:
 
@@ -54,7 +54,7 @@ But about the job offers — if the salary is equally important as the rest 
 
 Whaaaat, on the edge, bro. But it’s a quote! For real, just check the Zombie’s song. I love this one! Cruising in the sun, window tilted and “Time of the season”.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5AJrhrwz4oSZX2PwwV4qrN?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/5AJrhrwz4oSZX2PwwV4qrN?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 Alright, for real, who you are working for, who is your client, who will be my employer? Why you don’t want to give me this info beforehand? I’m a very active developer, I’m talking to people, I’m taking part in the recruitment processes — well, to be in touch with the required tech stack, at least!
 

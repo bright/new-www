@@ -60,7 +60,7 @@ Skipping layers simplifies flow a lot: `UserRequest → UserDao → UserResponse
 
 With that out of the way, we can take a look at the actual benchmark numbers.
 
-<div style="color: #946c00;background-color: #fffaeb;border-radius: 0.375em;position: relative;padding: 1.25rem 2.5rem 1.25rem 1.5rem;">All the tests were made on MacBook Pro with Intel I7-9750H and 16GB of RAM. Benchmark app was running on OpenJDK 18.0.2. Numbers are an average from 10 consecutive runs.</div>
+<div style={{color: "#946c00", backgroundColor: "#fffaeb", borderRadius: "0.375em", position: "relative", padding: "1.25rem 2.5rem 1.25rem 1.5rem"}}>All the tests were made on MacBook Pro with Intel I7-9750H and 16GB of RAM. Benchmark app was running on OpenJDK 18.0.2. Numbers are an average from 10 consecutive runs.</div>
 
 ## Let's take a look at the numbers!
 

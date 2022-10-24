@@ -21,12 +21,12 @@ published: true
 
 ## Follow on Spotify
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ## Follow on Apple Podcasts
 
 <center>
 
-<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
+<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", background: "transparent"}}></iframe>
 
 </center>

@@ -79,7 +79,7 @@ Kotlin is a very friendly language so it was a nice experience. It’s great tha
 
 I enjoy being a backend developer but I also want to do more in the future. **I would like to guide future juniors and help them establish themselves in the IT world**. I think there are too many boot camps out there that promise a lot but give much less.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 I have been contributing to the community for years, writing articles, being a mentor, and more. So my podcast is just another step. I **hope that it will inspire developers, less and more experienced, to simply learn and grow every day**. 
 
@@ -87,7 +87,7 @@ Sharing knowledge is very important to me and I know that it is in Bright Invent
 
 <center>
 
-<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
+<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", background: "transparent"}}></iframe>
 
 </center>
 

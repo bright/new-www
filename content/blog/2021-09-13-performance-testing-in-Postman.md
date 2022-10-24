@@ -37,7 +37,7 @@ Create a collection and add the API calls you want to test. We’ll use Bright I
 
 ### 2. Randomness
 
-In some cases, we also have to add random data to our URL, body of the request etc. In order to avoid spamming with the very same call, randomize it, using the dynamic variables provided by Postman (e. g. {{$randomAlphaNumeric}}). Another good option is to load data from a JSON or CSV file creating a data variable in every iteration based on the next array/line. We don’t need this step in our example, though.
+In some cases, we also have to add random data to our URL, body of the request etc. In order to avoid spamming with the very same call, randomize it, using the dynamic variables provided by Postman (e. g. `{{$randomAlphaNumeric}}`). Another good option is to load data from a JSON or CSV file creating a data variable in every iteration based on the next array/line. We don’t need this step in our example, though.
 
 ### 3. Acceptance criteria
 
