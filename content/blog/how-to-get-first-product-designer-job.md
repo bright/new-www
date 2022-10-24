@@ -59,11 +59,11 @@ By now, you should have a good idea of what User Experience Design is all about,
 
 **Here are some courses I can recommend:**
 
-​​<https://www.digitaldesigner.pl/>
+​​[https://www.digitaldesigner.pl/](https://www.digitaldesigner.pl/)
 
-<https://www.coursera.org/professional-certificates/google-ux-design>
+[https://www.coursera.org/professional-certificates/google-ux-design](https://www.coursera.org/professional-certificates/google-ux-design)
 
-<https://www.interaction-design.org/courses>
+[https://www.interaction-design.org/courses](https://www.interaction-design.org/courses)
 
 ## I don’t have the tech experience / I can’t draw
 
@@ -83,9 +83,9 @@ Another thing about being a UX Designer is that **you can’t be afraid of askin
 
 I’m going to leave you with some links, which will help you dig deeper into the subject:
 
-* <https://www.nngroup.com/> - A great source of information made by two godfathers of UX -  Jakob Nielsen and Don Norman. If you feel overwhelmed with the amount of the articles and videos, I recommend the series about UX slogans for starters (https://www.nngroup.com/videos/you-are-not-user-slogan/)
-* <https://lawsofux.com/en/> - another great source of how people perceive things and all the good practices worth taking into account while designing interfaces
-* <https://www.uxpin.com/studio/>, <https://xd.adobe.com/ideas/process/>, <https://www.interaction-design.org/literature>, <https://uxdesign.cc/>  - many, many articles, videos which will give you a good start in understanding what’s what and some tips&tricks
-* <https://www.a11yproject.com/> & <https://www.w3.org/WAI/standards-guidelines/wcag/> - all about the accessibility aspect of UXD
+* [https://www.nngroup.com/](https://www.nngroup.com/) - A great source of information made by two godfathers of UX -  Jakob Nielsen and Don Norman. If you feel overwhelmed with the amount of the articles and videos, I recommend the series about UX slogans for starters (https://www.nngroup.com/videos/you-are-not-user-slogan/)
+* [https://lawsofux.com/en/](https://lawsofux.com/en/) - another great source of how people perceive things and all the good practices worth taking into account while designing interfaces
+* [https://www.uxpin.com/studio/>, <https://xd.adobe.com/ideas/process/>, <https://www.interaction-design.org/literature>, <https://uxdesign.cc/](https://www.uxpin.com/studio/>, <https://xd.adobe.com/ideas/process/>, <https://www.interaction-design.org/literature>, <https://uxdesign.cc/)  - many, many articles, videos which will give you a good start in understanding what’s what and some tips&tricks
+* [https://www.a11yproject.com/> & <https://www.w3.org/WAI/standards-guidelines/wcag/](https://www.a11yproject.com/> & <https://www.w3.org/WAI/standards-guidelines/wcag/) - all about the accessibility aspect of UXD
 
 I’m not going to sugarcoat it, **it’s going to be hard getting that first job**. Now more than ever. And you’ll get frustrated with the amount of rejection emails saying you lack experience. Been there, done that. But those things I wrote about - they definitely helped me with gaining confidence in the field and standing out amongst others. Keep in mind that everyone has their own story and you should focus on you, don’t compare yourself and just keep on learning. Good luck!

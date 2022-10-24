@@ -16,7 +16,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const result = await queryPostsSlug({ graphql })
 
   if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
     return
   }
 
@@ -108,7 +108,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }
   `)
   if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
     return
   }
   const members = memberResult.data!.allMdx?.edges
@@ -312,7 +312,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     `
   )
   if (postResult.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
     return
   }
   debugger;
@@ -391,7 +391,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
     // Handle errors
     if (result.errors) {
-      reporter.panicOnBuild(`Error while running GraphQL query.`)
+      reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
       return
     }
     // console.log(result.data.allMdx.edges)

@@ -149,9 +149,10 @@ export default {
       options: {
         extensions: [`.md`, `.mdx`],
         mdxOptions: {
-          remarkPlugins: [
-            require(`remark-gfm`)
-          ]
+          // TODO: this causes build to fail
+          // remarkPlugins: [
+          //   require(`remark-gfm`)
+          // ]
         },
         gatsbyRemarkPlugins: [
           {
