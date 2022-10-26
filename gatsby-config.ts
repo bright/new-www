@@ -1,10 +1,11 @@
 import { Node } from './src/models/gql'
 import { siteMetadata, siteUrl } from './src/site-metadata'
-import { ProvidePlugin } from "webpack"
+import { ProvidePlugin } from 'webpack'
 import { gatsbyPluginFeedOptions } from './src/gatsby-plugin-feed-options'
 import * as path from 'path'
 import remarkGfm from 'remark-gfm'
 import { isDefined } from './src/is-defined'
+
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
 const isDevelop = !process.env.GATSBY_ACTIVE_ENV
 
@@ -231,8 +232,6 @@ export default {
         publicPath: `admin`,
         htmlTitle: `Content Manager`,
         customizeWebpackConfig: (config: any) => {
-          const processPath = path.resolve(path.join(__dirname, "node_modules", "process/browser"))
-          console.log('processPath', processPath)
           config.resolve = {
             ...config.resolve,
             alias: {
@@ -241,7 +240,7 @@ export default {
               // path: require.resolve("path-browserify")
               path: path.resolve(path.join(__dirname, "node_modules", "path-browserify")),
               // may be required by netlify-cms-widget-mdx
-              process: processPath
+              process: path.resolve(path.join(__dirname, "node_modules", "process/browser"))
             },
             fallback: {
               ...config.resolve.fallback,
@@ -252,10 +251,8 @@ export default {
           };
           // required by netlify-cms-widget-mdx
           config.plugins = [...config.plugins, new ProvidePlugin({
-            process: processPath,
+            process: path.resolve(path.join(__dirname, "node_modules", "process/browser")),
           })];
-
-          console.log('netlify cms plugins resolved', config.plugins);
         },
       }
     },
