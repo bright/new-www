@@ -6,7 +6,7 @@ import * as path from 'path'
 import remarkGfm from 'remark-gfm'
 import { isDefined } from './src/is-defined'
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
-const isDevelop = !!process.env.GATSBY_ACTIVE_ENV
+const isDevelop = !process.env.GATSBY_ACTIVE_ENV
 
 const generateRobotsContent = !isDevelop
 
