@@ -303,7 +303,7 @@ export default {
           }
         }
       }
-    } : false,
+    } : null,
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
