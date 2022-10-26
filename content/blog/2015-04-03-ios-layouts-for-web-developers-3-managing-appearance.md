@@ -31,7 +31,7 @@ Also, maybe it’s only my personal delusion, but I think we in the web world fe
 
 When we decide not to go “the Apple way” and abandon Interface Builder striving for something that allows style definitions reuse and separation, our simplest alternative is to [create everything directly in the code](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/ViewLoadingandUnloading/ViewLoadingandUnloading.html#//apple_ref/doc/uid/TP40007457-CH10-SW36), instantiating the controls “manually", setting its properties like colors, setting its frame or Auto Layout constraints and finally adding it to the superview, like this:
 
-```Objective-C
+```objc
 - (void)loadView {
     [super loadView];
 
@@ -65,7 +65,7 @@ For complex screens, it quickly grows to hundreds of lines of imperative and rep
 
 One simple strategy we can employ is to enclose our repeatable patterns of style and layout definitions, very remotely equivalent to our CSS classes, as a static method somewhere or as [a category on `UIView`](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/CustomizingExistingClasses/CustomizingExistingClasses.html):
 
-```Objective-C
+```objc
 @implementation UILabel (Layout)
 
 + (UILabel *)bigRedLabel {
@@ -100,7 +100,7 @@ One simple strategy we can employ is to enclose our repeatable patterns of style
 
 Now we can use it whenever we want our new control to look like the other:
 
-```Objective-C
+```objc
 - (void)loadView {
     [super loadView];
 
@@ -116,20 +116,20 @@ Now we can use it whenever we want our new control to look like the other:
 
 The issue of style definitions reuse was also approached by Apple within UIKit, albeit quite differently than in CSS. There’s a concept called [appearance](http://nshipster.com/uiappearance/). It allows us to define selected style properties of the controls once per the application, ensuring any customization we do is applied consistently across the app. We can define that all the buttons (`UIButton` instances) that we use in our app should have gray background:
 
-```Objective-C
+```objc
 [UIButton appearance].backgroundColor = [UIColor grayColor];
 ```
 
 We can restrict our customization scope to controls contained within another specific container control, for example to all `UIBarButtonItem`s within `UIToolbar`:
 
-```Objective-C
+```objc
 [UIBarButtonItem appearanceWhenContainedIn:[UIToolbar class], nil]
     .tintColor = [UIColor blackColor];
 ```
 
 Also, we can optionally make our appearance definitions dependent on the screen dimensions and orientations, using `UITraitCollection`s we’ve discussed [in the previous part of the series](/ios-layouts-for-web-developers-2-control-positioning/#the-real-responsiveness?):
 
-```Objective-C
+```objc
 UITraitCollection *traitCollection = [UITraitCollection
     traitCollectionWithHorizontalSizeClass:UIUserInterfaceSizeClassCompact];
 [UIImageView appearanceForTraitCollection:traitCollection]

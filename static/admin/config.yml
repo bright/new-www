@@ -55,7 +55,7 @@ collections:
           hint: 'when creating a new post, Update Date must be Publish date',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'mdx' }
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Featured Image', name: 'image', widget: 'image' }
       - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false }

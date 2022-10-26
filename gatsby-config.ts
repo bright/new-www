@@ -1,10 +1,16 @@
 import { Node } from './src/models/gql'
 import { siteMetadata, siteUrl } from './src/site-metadata'
-
+import { ProvidePlugin } from "webpack"
 import { gatsbyPluginFeedOptions } from './src/gatsby-plugin-feed-options'
-
+import * as path from 'path'
+import remarkGfm from 'remark-gfm'
+import { isDefined } from './src/is-defined'
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
+const isDevelop = !!process.env.GATSBY_ACTIVE_ENV
 
+const generateRobotsContent = !isDevelop
+
+const rehypePrism = require('@mapbox/rehype-prism')
 
 export default {
   siteMetadata,
@@ -16,12 +22,12 @@ export default {
         trackingIds: isProduction ? ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476'] : []
       }
     },
-    {
+    !isDevelop ? {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: `${process.env.GATSBY_ACTIVE_ENV === 'production' ? '1256554391514599' : ''}`
       }
-    },
+    } : null,
 
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
@@ -116,7 +122,7 @@ export default {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true, // Print removed selectors and processed file names
-        develop: true, // Enable while using `gatsby develop`
+        develop: false, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         ignore: [
           '/carousel.min.css',
@@ -151,9 +157,11 @@ export default {
       options: {
         extensions: [`.md`, `.mdx`],
         mdxOptions: {
-          // TODO: this causes build to fail
           remarkPlugins: [
-            require(`remark-gfm`)
+            remarkGfm
+          ],
+          rehypePlugins: [
+            rehypePrism
           ]
         },
         gatsbyRemarkPlugins: [
@@ -210,9 +218,6 @@ export default {
             }
           },
           {
-            resolve: `gatsby-remark-prismjs`
-          },
-          {
             resolve: `gatsby-remark-autolink-headers`
           }
         ]
@@ -224,22 +229,49 @@ export default {
         modulePath: `${__dirname}/src/cms/cms.ts`,
         enableIdentityWidget: true,
         publicPath: `admin`,
-        htmlTitle: `Content Manager`
+        htmlTitle: `Content Manager`,
+        customizeWebpackConfig: (config: any) => {
+          const processPath = path.resolve(path.join(__dirname, "node_modules", "process/browser"))
+          console.log('processPath', processPath)
+          config.resolve = {
+            ...config.resolve,
+            alias: {
+              ...config.resolve.alias,
+              // https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/#requireresolve
+              // path: require.resolve("path-browserify")
+              path: path.resolve(path.join(__dirname, "node_modules", "path-browserify")),
+              // may be required by netlify-cms-widget-mdx
+              process: processPath
+            },
+            fallback: {
+              ...config.resolve.fallback,
+              fs: false,
+              child_process: false,
+              module: false
+            },
+          };
+          // required by netlify-cms-widget-mdx
+          config.plugins = [...config.plugins, new ProvidePlugin({
+            process: processPath,
+          })];
+
+          console.log('netlify cms plugins resolved', config.plugins);
+        },
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
-    {
+    generateRobotsContent ? {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: '/'
       }
-    },
-    {
+    } : null,
+    generateRobotsContent ? {
       resolve: `gatsby-plugin-feed`,
       options: gatsbyPluginFeedOptions(siteMetadata)
-    },
+    } : null,
     {
       resolve: 'gatsby-plugin-s3',
       options: {
@@ -249,7 +281,6 @@ export default {
         region: 'eu-central-1'
       }
     },
-
     {
       resolve: `gatsby-plugin-loadable-components-ssr`,
       options: {
@@ -258,7 +289,7 @@ export default {
         useHydrate: true
       }
     },
-    {
+    generateRobotsContent ? {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: siteUrl.href,
@@ -272,7 +303,7 @@ export default {
           }
         }
       }
-    },
+    } : false,
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
@@ -321,7 +352,7 @@ export default {
         headerHeight: 73
       }
     }
-  ],
+  ].filter(isDefined),
   mapping: {
     'Mdx.frontmatter.faqs': `Mdx.frontmatter.faqs_id`,
     'Mdx.frontmatter.project': `Mdx.frontmatter.project_id`

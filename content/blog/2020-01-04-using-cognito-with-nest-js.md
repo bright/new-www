@@ -85,7 +85,8 @@ The next step is to add a package to help us reach the Cognito SDK which will be
 
 In `auth.service` we define the *CognitoUserPool* by giving generated `userPoolId`, `appClientId`. For safety reasons, it's good to store them in the config file. Then I've added the function for `register` and `authenticate`. 
 
-```
+
+```typescript
 import { AuthConfig } from './auth.config';
 import { Inject, Injectable } from '@nestjs/common';
 import {
@@ -157,7 +158,7 @@ export class AuthService {
 
 Let's now import the following function in our `auth.controller` which will receive the request and handle it.
 
-```
+```typescript
 import { BadRequestException, Body, Controller, Post } from '@nestjs/common';
 import { AuthCredentialsDto, AuthRegisterDto } from './auth.interface';
 import { AuthService } from './auth.service';
@@ -202,7 +203,7 @@ I have added two endpoints:
 
 Our Dto's interface declaration looks like:
 
-```
+```typescript
 export interface AuthRegisterDto {
   email: string;
   password: string;
@@ -227,7 +228,7 @@ npm i --save @nestjs/jwt @nestjs/passport passport passport-jwt
 
 Then we are going to create a file called `jwt.strategy.ts` and add the following code:
 
-```
+```typescript
 import { ExtractJwt, Strategy } from 'passport-jwt';
 import { PassportStrategy } from '@nestjs/passport';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
@@ -260,7 +261,7 @@ The following code extend the *PassportStrategy* package and grab the *Baerer to
 
 Our function `validate` uses the `handler` to decode the `jwt token`. The handler is the implementation of verifying *JWT Token* with Cognito.
 
-```
+```typescript
 import {promisify} from 'util';
 import * as Axios from 'axios';
 import * as jsonwebtoken from 'jsonwebtoken';
@@ -418,4 +419,4 @@ I think that more and more developers will use the IaaS (infrastructure as a ser
 
 Cognito is a great service from AWS. I'm using it always when I have an opportunity to do it.
 
-<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
+<div className='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>

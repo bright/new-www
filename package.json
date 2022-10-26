@@ -7,6 +7,7 @@
     "@types/loadable__component": "^5.13.4",
     "@weknow/gatsby-remark-twitter": "^0.2.3",
     "babel-plugin-styled-components": "^2.0.7",
+    "process": "^0.11.10",
     "classnames": "^2.3.1",
     "date-fns": "^2.29.1",
     "eslint-plugin-import": "^2.26.0",
@@ -50,6 +51,9 @@
     "js-yaml": "^4.1.0",
     "markdown-to-text": "^0.1.1",
     "netlify-cms-app": "^2.15.72",
+    "netlify-cms-widget-mdx": "^0.5.0",
+    "@parcel/transformer-react-refresh-wrap": "^2.7.0",
+    "path-browserify": "^1.0.1",
     "polished": "^4.2.2",
     "prismjs": "^1.28.0",
     "prop-types": "^15.8.1",
@@ -62,7 +66,8 @@
     "react-responsive-carousel": "^3.2.7",
     "react-tag-input": "^6.7.3",
     "reading-time": "^1.5.0",
-    "remark-gfm": "^1.0.0",
+    "@mapbox/rehype-prism": "^0.8.0",
+    "remark-gfm": "^3.0.1",
     "schema-dts": "^0.8.2",
     "styled-components": "^5.3.5",
     "swiper": "^8.3.2",
@@ -79,6 +84,8 @@
     "gatsby-plugin-perf-budgets": "^0.0.18",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
     "prettier": "2.0.4",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
     "sass": "^1.54.0"
   },
   "keywords": [
@@ -98,7 +105,8 @@
     "start": "npm run develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "script:blogPosts": "node ./scripts/fixBlogPosts.js",
-    "fix-cannonical": "ts-node ./fix-cannonical.ts"
+    "fix-cannonical": "ts-node ./fix-cannonical.ts",
+    "postinstall": "patch-package"
   },
   "repository": {
     "type": "git",
