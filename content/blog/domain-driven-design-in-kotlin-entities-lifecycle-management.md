@@ -35,7 +35,7 @@ The first place we should take a look at whenever we think about storing data is
 
 The other characteristic of the entity is the fact that it usually has its **lifecycle**. Dealing with multiple states might be tricky, especially when it comes to validating which changes are allowed and which are not. Let’s look at the following code:
 
-```
+```kotlin
 class Order(
     status: OrderStatus
 ) {
@@ -68,7 +68,7 @@ class Order(
 
 The logic inside `reject()` and `accept()` functions do not look bad, however, if we would add a few more statuses it can become quite cumbersome. Also, throwing exceptions after someone tried to use the API incorrectly is a post-factum action. Take a look at `OrderTest` .
 
-```
+```kotlin
 internal class OrderTest {
 
     @Test
@@ -130,7 +130,7 @@ Not so many test cases, right? What if we would add 5 more statuses? We will end
 
 Let’s look at another approach. Instead of using a single `Order` , we could use **Kotlin sealed classes** to build subtypes of `Order` a type that cannot be changed to an improper type.
 
-```
+```kotlin
 sealed class Order(val id: UUID = UUID.randomUUID()) {
 
 }
@@ -149,7 +149,7 @@ class AcceptedOrder(id: UUID) : Order(id)
 
 As you can see, `ReceivedOrder` is the only one that can be accepted or rejected. Also, the types which we will receive after performing these actions are explicitly set — there is no way to get rejected orders after acceptance and vice versa. That simplified a lot, didn’t it? Let’s check the tests.
 
-```
+```kotlin
 internal class OrderTest {
 
     @Test
