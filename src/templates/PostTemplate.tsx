@@ -539,7 +539,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           canonicalUrl={page.canonicalUrl}
           fileAbsolutePath={mdx.fileAbsolutePath}
           tags={page.tags ?? []}
-          timeToRead={mdx.fields.timeToRead.minutes}
+          timeToRead={Math.round(mdx.fields.timeToRead.minutes)}
           children={props.children}
           contentView={undefined}
         />
