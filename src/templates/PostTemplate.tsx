@@ -272,7 +272,6 @@ const Content = styled.div`
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
-  letter-spacing: 1;
   line-height: 2;
 `
 const WrapperNews = styled.div`

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { PropsWithChildren, useState } from 'react'
 import classNames from 'classnames'
 
 import { Footer } from './Footer'
@@ -12,7 +12,7 @@ import { fbShareImage } from '../meta/bright-logo'
 import { resolveUrl } from '../meta/resolve-url'
 import { useLocation } from '@reach/router'
 
-export const Page: React.FC<{ className?: string }> = ({ children, className }) => {
+export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ children, className }) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
 
   const { pathname } = useLocation()
