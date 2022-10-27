@@ -1,6 +1,6 @@
 import CMS from 'netlify-cms-app'
 
-const { MdxControl, MdxPreview } = require('netlify-cms-widget-mdx')
+const { MdxControl, setupPreview } = require('netlify-cms-widget-mdx')
 // this only seems to register styles in preview pane
 // or nowhere at all
 import { BlogPostPreview } from './BlogPostPreview'
@@ -23,6 +23,11 @@ console.debug('registering custom editor & preview components', {
 })
 
 CMS.registerWidget('tags', TagsControl, TagsPreview)
+
+const MdxPreview = setupPreview({
+
+})
+
 CMS.registerWidget('mdx', MdxControl, MdxPreview)
 
 CMS.registerPreviewTemplate('blog', withStyledInjectedIntoPreviewFrame(BlogPostPreview))
