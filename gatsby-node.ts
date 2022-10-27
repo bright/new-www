@@ -2,7 +2,7 @@ import type { GatsbyNode } from 'gatsby'
 import { allMdxData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
-import { IgnorePlugin } from 'webpack'
+import { config, IgnorePlugin } from 'webpack'
 import readingTime from 'reading-time'
 
 const path = require('path')
@@ -435,7 +435,8 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
     })
   }
 }
-export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ actions }) => {
+type PartialWebpackConfig = Partial<Parameters<typeof config.getNormalizedWebpackOptions>[0]>
+export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ stage, actions }) => {
   actions.setWebpackConfig({
     plugins: [
       //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms#disable-widget-on-site
@@ -443,5 +444,5 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ act
         resourceRegExp: /^netlify-identity-widget$/
       })
     ]
-  })
+  } as PartialWebpackConfig)
 }
