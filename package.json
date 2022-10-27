@@ -78,6 +78,7 @@
     "@types/classnames": "^2.2.10",
     "@types/gtag.js": "^0.0.10",
     "@types/js-yaml": "^4.0.5",
+    "@types/prismjs": "^1.26.0",
     "@types/react-dom": "^17.0.9",
     "@types/react-helmet": "^6.1.2",
     "@types/react-tag-input": "^6.1.3",
