@@ -129,8 +129,18 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     ) {
       edges {
         node {
+          id
+          internal {  contentFilePath  }
           frontmatter {
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            title
+            tags
             date
+            author_id
           }
           fields {
             slug
@@ -144,7 +154,16 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     ) {
       edges {
         node {
+          id
+          internal {  contentFilePath  }
           frontmatter {
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            title
+            tags
             date
           }
           fields {
@@ -159,7 +178,16 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     ) {
       edges {
         node {
+          id
+          internal {  contentFilePath  }
           frontmatter {
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            title
+            tags
             date
           }
           fields {
