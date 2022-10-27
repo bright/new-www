@@ -31,7 +31,7 @@ The best in openSCAD is its simplicity. All you need to know are a few shapes an
 Nearly everything can be created with functions.
 Syntax tree looks mostly like this:
 
-```
+```text
 object();
 variable = value;
 operator() action();
@@ -58,7 +58,7 @@ For example, if we want to create a cylinder, we just have to call `cylinder(h,r
 - `r` is radius
 - `d` is diameter
 
-```
+```text
 cylinder(h=2, r=5);
 ```
 
@@ -87,7 +87,7 @@ We need to wrap our figures with operation functions:
 
 So if you want to create crossed cubes, below you can find the way how you can do this:
 
-```
+```text
 union() {
     cube(size=[2,2,10], center=true); //first cube
     cube(size=[2,10,2], center=true); //second cube
@@ -98,7 +98,7 @@ union() {
 
 Cube with gap in the middle:
 
-```
+```text
 difference() {
     cube(size=[2,2,10], center=true); //first cube (base)
     cube(size=[2,10,2], center=true); //second cube (will be subtracted)
@@ -111,7 +111,7 @@ difference() {
 And... we've encountered a glitch here. We have a hole in the middle of our cube, but because the width of the first cube equals the width of the second cube, we have walls with width 0. In preview it may be a bit distracting, but if we render it (F6 or Design > Render) it should disappear.
 The second way is to make subtracted shape a bit wider.
 
-```
+```text
 difference() {
     cube(size=[2,2,10], center=true); //first cube (base)
     cube(size=[2.01,10,2], center=true); //second cube (will be subtracted)
@@ -121,7 +121,7 @@ difference() {
 
 The common part of two cubes - should be cube with dimensions 2x2x2:
 
-```
+```text
 intersection() {
     cube(size=[2,2,10], center=true);
     cube(size=[2,10,2], center=true);
@@ -132,7 +132,7 @@ intersection() {
 
 It is possible to wrap operations in operations. For example, at first `rotate` cube and then subtract it from another one.
 
-```
+```text
 difference() {
     cube(size=[2,2,10], center=true);
     rotate([45,0,0]) cube(size=[2.01,10,2], center=true);
@@ -143,7 +143,7 @@ difference() {
 
 There can be a useful debug function. Just put hash `#` before the operation:
 
-```
+```text
 difference() {
     cube(size=[2,2,10], center=true);
     #rotate([45,0,0]) cube(size=[2.01,10,2], center=true);
@@ -159,7 +159,7 @@ Feel free to try other operations and transformations.
 ## Conditional rendering
 Sometimes we want to render something only in certain cases. OpenSCAD allows us to use `if` and it has a similar syntax to javascript etc.
 
-```
+```text
 a = 1;
 if (a > 0) {
     sphere(r=a);
@@ -171,7 +171,7 @@ Syntax:
 `for(variable = [start : increment : end]) {}`
 Let's create holes around cylinder's border.
 
-```
+```text
 radius=5;
 
 difference() {

@@ -157,7 +157,7 @@ So, now when we’re done with the code, let’s look at the results.
 
 **Sample #1:** 100 arrays of 1000 integer numbers:
 
-```
+```text
 Avg of bubble sort: 1.59
 Avg of insertion sort: 0.18
 Avg of selection sort: 0.38
@@ -167,7 +167,7 @@ Avg of cocktail sort: 1.65
 
 **Sample #2:** 100 arrays of 10000 integer numbers:
 
-```
+```text
 Avg of bubble sort: 156.39
 Avg of insertion sort: 13.01
 Avg of selection sort: 30.25
@@ -177,7 +177,7 @@ Avg of cocktail sort: 169.53
 
 Increasing the amount of data 10 times has caused these time multiplications: 
 
-```
+```text
 Bubble: ~98 times longer
 Insertion: ~72 times longer
 Selection: ~79 times longer

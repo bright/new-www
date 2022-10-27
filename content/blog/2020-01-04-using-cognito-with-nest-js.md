@@ -404,7 +404,7 @@ Again, in @Body I sent the required password and the user field. If I prepare th
 
 For the test purposes I have added the *Guard* for the demo route. If I don't include the *Authorization* header with a token, the server will throw `UnauthorizedException` and in the client I will receive:
 
-```
+```json
 {
     "statusCode": 401,
     "error": "Unauthorized"

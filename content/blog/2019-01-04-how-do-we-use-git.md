@@ -29,7 +29,7 @@ Let's dissect this flow into some smaller chunks.
 
 We get a new ticket/issue assigned (ideally because we've chosen it from the planned list). Assuming we're up to date with remote `master`, we start with creating a feature branch for our issue:
 
-```
+```shell
 git checkout -b PROJ-123
 ```
 
@@ -37,14 +37,14 @@ The convention we often use is to name the feature branches according to the JIR
 
 Then, let the work begin. Every time we reach a stable point in our implementation (but not necessarily end-to-end complete), we commit our changes to our feature branch. [Commit early, commit often](http://blog.beanstalkapp.com/post/147799908084/commit-early-commit-often), they say, and we agree. It might mean we have a few commits every hour, and this is totally fine, as long as we name the commits well enough for us to understand the history and be able to revert in case we need it. No strict rules here as this branch is still our private lawn, outside of `master`. 
 
-```
+```shell
 git add .
 git commit -m "WIP invoices listing; filtering UI done"
 ```
 
 But private doesn't mean local-only, though. For the sake of data safety and backup, as well as for the merits Continuous Integration gives us (see later), we push these private changes to the remote counterpart of our feature branch in the remote repository. We should never leave work uncommitted and not pushed to the remote repo at the end of the day, let only to ensure our work is not lost if we need to take an unexpected week of sick-leave or in case something bad happens to our equipment overnight.
 
-```
+```shell
 git push
 # or, for the first push of the new feature branch
 git push --set-upstream origin PROJ-123
@@ -54,7 +54,7 @@ git push --set-upstream origin PROJ-123
 
 When our work is feature-complete (or is in the state that makes it feasible for peer review), for the courtesy of the reviewers, we should clean the Git history a bit by [squashing](https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec) the checkpoint revisions and fix-ups. We do that by using [interactive rebase](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html). It's also a good moment to actually synchronize our code with the mainline by targeting our rebase to the current tip of `master` that might have already moved away while we were working on the feature branch:
 
-```
+```shell
 git fetch # make sure we know the state of the origin
 git rebase -i origin/master
 ```
@@ -63,9 +63,9 @@ Rebasing is a complex process. It's easier to reason about it if we have the bra
  
 After the rebase we have our work reduced to single or a few meaningful commits and applied on top of the most recent changes available. We need to share our rebased changes with the world. This time the simple `git push` fails because with rebase we rewrote the branch history and we're out-of-sync with what has already been pushed (we've dropped the WIP-style commits that were previously pushed and we have a few new and shiny instead). So we do one more thing that some may see as controversial – we force-push our feature branch, so that those dropped commits are also forgotten by the remote repository:
 
-```
+```shell
 git please
-```   
+```
 
 Wait, what? There's no such Git command. What we use here is a [custom alias for `git push --force-with-lease`](https://medium.freecodecamp.org/git-please-a182f28efeb5). It's not that aggressive as plain `--force`, because it can only overwrite the commits we have already known in our local copy – we'll be rejected in case there are some more commits on the remote that we're not aware of. Plain `--force` would overwrite them without even informing us, so in case we collaborate on the feature branch with someone else, we're on the good path to destroy their work. Actually, I believe `--force` should not be available at all. There's no legit case I can see for forcing push, `--force-with-lease` should be the only forceful method allowed. And when we alias it to `please` (note it's an abbreviation for push+lease), we're also more kind and less... pushy 😆.
 
@@ -75,7 +75,7 @@ When our changes are there on the remote repository, we can now proceed to peer 
 
 After the review is completed, all the review-related commits can be squashed again, if needed, and the branch should be rebased onto the newest `master`, again. It's the time to merge it into `master` and push:
 
-```
+```shell
 git checkout master
 git merge --ff-only PROJ-123
 git push 
@@ -87,7 +87,7 @@ There are alternative techniques of rebasing out there. If we want to squash all
 
 The job is done now, but there's one more thing we should do before heading for a lunch – we should clean our repository up and delete our remote feature branch that is no longer needed. Unless we do it, our Git tree will become harder and harder to read over time, our tooling will need to work hard to draw it correctly, our CI will need to track useless stuff and our brains will need to filter them out. Let's get rid of it:
 
-```
+```shell
 git push origin --delete PROJ-123
 ```
 
@@ -127,13 +127,13 @@ The code that was released to production environment needs to be tagged so that 
 
 For backend or web-based solutions, we don't need to care about the previous versions – all we care is what's currently released. We use `production` branch (that is the only long-living branch besides `master`) that we force-reset to the released point of `master` after the deployment is done:
 
-```
+```shell
 git push --force-with-lease origin master:production
 ```
 
 For mobile apps, where the update cycle is not that obvious and in some cases we need to track many of the released versions simultaneously, we use Git tags that immutably point to the commit that was built and released to the stores. We use the version number as the tag name:
 
-```
+```shell
 git tag release1.3
 git push --tags
 ```
@@ -148,7 +148,7 @@ My personal preference is a mix of raw Git and WebStorm/IntelliJ built-in suppor
 
 If you decide to use CLI to some extent, here is a set of useful aliases we often use for convenience. You can paste it into your `.gitconfig` file that is most probably located in your "home" directory.
 
-```
+```toml
     [alias]
     st = status
     ci = commit

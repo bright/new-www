@@ -23,12 +23,14 @@ li:not(:last-of-type) {
     border-bottom: 1px solid black;
 }
 ```
+
 Now, to make it more complicated, some of the elements are initially hidden and might be turned to visible on a button click. The hidden elements have class `hidden`. Quite natural for me was to add the class selector and have:
 ```css
 li:not(.hidden):not(:last-of-type) {
     border-bottom: 1px solid black;
 }
 ```
+
 To my surprise, it didn‘t work. I though a selector like `li.hidden:last-of-type` filters out elements of type `li` with class `hidden` and then selects the last of them. It turned out that it actually selects the last element of type `li` and then checks if it has class `hidden`. A subtle difference, right?
 
 The solution to my problem was actually straightforward – adding the top border instead of the bottom one was a way to go. After all, the hidden elements are hidden and so are their borders.
@@ -37,6 +39,7 @@ li:not(:first-of-type) {
     border-top: 1px solid black;
 }
 ```
+
 Using adjacent sibling selector is even more readable.
 ```css
 li + li {
@@ -60,6 +63,7 @@ What can we do now? Unfortunately, the answer is: break one of the rules we have
 ```javascript
 $("li:not(.hidden):last").addClass("last-not-hidden")
 ```
+
 The nice `last` selector is jQuery specific and therefore cannot be used in CSS nor in JavaScript.
 3. Break the "no JavaScript" rule and use pure Javascript:
 ```javascript
@@ -67,6 +71,7 @@ const notHiddens = document.querySelectorAll("li:not(.hidden)");
 const lastNotHidden = notHiddens[notHiddens.length - 1];
 lastNotHidden.classList.add("last-not-hidden");
 ```
+
 This is more verbose than the previous one, however you might not necessarily need jQuery just for a simple DOM manipulation. 
 
 OK, to be honest, I have found one „pure CSS solution“, but for me it‘s neither pure nor a solution, just a really strange walk around. [Take a look]( https://stackoverflow.com/questions/1817792/is-there-a-previous-sibling-css-selector/36118012#36118012), you might find it at least interesting.

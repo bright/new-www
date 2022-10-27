@@ -48,7 +48,7 @@ The concept above should be pretty general and mostly applies not only to Androi
 ## Default usage
 First, for using `android.support.design.widget.TabLayout` add design support dependency to `build.gradle`:   
 
-```
+```text
 compile 'com.android.support:design:__NEWEST_VERSION_HERE__'
 ```
 

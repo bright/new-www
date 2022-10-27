@@ -198,7 +198,7 @@ aws cloudformation update-stack \
 
 After the stack update completes we now should have 2 Lambda functions available. When we invoke the `Alice` function, we'll see that the 2 AWS Lambda functions communicate:
 
-```
+```text
 START RequestId: 6a87c764-251e-11e8-b921-f9ca7649c7d7 Version: $LATEST
 2018-03-11T11:22:00.615Z	6a87c764-251e-11e8-b921-f9ca7649c7d7	Alice says: Hi!. I'm Alice.
 2018-03-11T11:22:01.676Z	6a87c764-251e-11e8-b921-f9ca7649c7d7	Bob says: Hi! I'm Bob. Nice to meet you!

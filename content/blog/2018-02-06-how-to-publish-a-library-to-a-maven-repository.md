@@ -95,7 +95,7 @@ plugins {
 
 Now when you issue e.g. `gradle build` the plugin will [infer a next version based on your git repository state](https://github.com/ajoberstar/gradle-git/wiki/Release%20Plugins#how-do-i-use-the-opinion-plugin):
 
-```
+```text
 > Configure project : 
 Inferred project: shouldko, version: 0.1.5-dev.0.uncommitted+4f71d34
 ```

@@ -71,13 +71,13 @@ It’s a good practice to start the migration from some remote shell.
 By doing this, even if your network connection fails, you will be able to connect to the shell and attach to the screen again, without stopping the execution.
 Moreover, it's worth to consider using Unix' [screen](https://linuxize.com/post/how-to-use-linux-screen/) program:
 
-```
+```shell
 $ screen -S percona-processing
 ```
 
 Once you created the screen, you are able to reattach to it later (ie. after network connection crash):
 
-```
+```shell
 $ screen -ls
 There is a screen on:
 	41303.percona-processing	(Attached)
@@ -87,7 +87,7 @@ $ screen -R 41303
 
 Here is an example of the altering command:
 
-```
+```shell
 $ pt-online-schema-change \
     --alter "ADD COLUMN created_at datetime DEFAULT null" \
     --alter-foreign-keys-method drop_swap \

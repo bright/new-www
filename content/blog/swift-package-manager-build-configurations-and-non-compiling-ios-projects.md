@@ -32,7 +32,7 @@ The other day I was trying to add Swift Package Manager to one of the projects I
 
 Surprisingly I was greeted with a big fat red error preventing the project from compiling: 
 
-```
+```text
 Could not find module <package name> for target 'x86_64-apple-ios-simulator';
 found: arm64, arm64-apple-ios-simulator
 ```
@@ -73,7 +73,7 @@ I want to highlight that once more: as silly as it sounds **renaming your projec
 
 We just arrived at the conclusion that we need release configuration of SPM dependencies for our project in the scenario described above. But in the past I have stumbled on a similar issue, however from the other side. Since we are writing Unit Tests we also wrote such for internal packages that we used for code separation. It turned out that we faced issues while trying to run our unit tests together with other test targets in the main project scheme:
 
-```
+```text
 Module <package name> was not compiled for testing
 ```
 

@@ -196,7 +196,7 @@ As we have previously seen, TypeScript ensures the keys of the object we pass to
 
 We may work around it with type cast to inform TypeScript compiler what is the range of values we might potentially expect from `event.currentTarget.name` (assuming `State` describes the state of our component). The `keyof State` construct informs the compiler that the strings there may only be those that are defined by `State` interface structure:
 
-```
+```text
 <input type="text" name="firstName" 
        onChange={e => this.setState({[e.currentTarget.name as keyof State]: e.currentTarget.value})}/>
 ```

@@ -32,6 +32,7 @@ Create Producer
 ```swift
 let producer = action.apply(5)
 ```
+
 `Apply` method will return a `SignalProducer` with `Action's` output as value (`String`) and error of `ActionError` type. `ActionError` is an enum that can be either `NotEnabled` or `ProducerError`. `ProducerError` is a wrapper around error type that specify in our `Action`.
 
 Execute
@@ -47,6 +48,7 @@ prodcuer.startWithSignal { (signal, disposable ) in
   })
 }
 ```
+
 Actual execution happens when we start a `Signal` from received `SignalProducer`. If we don't do it, nothing will happen.
 
 Repeating action
@@ -114,6 +116,7 @@ action.values.observe { (event) in
 
 action.apply(5).startWithSignal { (_ , _ ) in }
 ```
+
 Output: "`Value: Next Number is 5`" and "`Value: COMPLETED`"  
 Our values signal is of type `Signal<Output, NoError>`, so you won't get any errors here. If any terminating `Event` occurs during `Action's` execution, you'll receive `COMPLETED` event.
 
@@ -159,6 +162,7 @@ action.events.observe { (event) in
 
 action.apply(5).startWithSignal { (_ , _ ) in }
 ```
+
 Output: "`Event: NEXT NEXT Number is 5`", "`Event: NEXT FAILED Error Domain=1 Code=1 ("null")`" and "`Event: COMPLETED`"  
 Third option is to observe signal of ALL `events`. This signal is of type `Signal<Event<Output, Error>, NoError>`. It means, that you will receive ALL `events` as next values, even terminating.  
 I have to say that this output is a bit confusing. What is "`Event: NEXT NEXT Number is 5`"? Why do we get double `NEXT` here? Let's go step by step here.

@@ -21,6 +21,7 @@ Paste these two parameters:
 -AppleTextDirection YES 
 -NSForceRightToLeftWritingDirection YES
 ```
+
 into `program arguments' in Run/Debug Configuration.
 <br/><br/>
 ![appcode-rtl-config](/images/appcode-rtl-config.png)

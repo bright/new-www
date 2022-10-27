@@ -44,7 +44,7 @@ You should also visit your `build.gradle` files to find out the SDK dependencies
 
 Downloading some of the SDK packages may require to accept a separate license(s) first. While Android Studio shows a dialog with accept buttons, the command line `sdkmanager` displays a prompt like this:
 
-```
+```text
 ---------------------------------------
 Accept? (y/N):
 ```
@@ -59,7 +59,7 @@ This gives us an opportunity to get the accepted license files from the develope
 
 Of course copying files over and over again may be burdensome so instead you can just echo the license strings to the corresponding files automatically somewhere in the build process, e.g.
 
-```
+```shell
 # ANDROID_HOME is the Android SDK location
 
 mkdir "$ANDROID_HOME/licenses"
@@ -75,7 +75,7 @@ But there is a catch with this approach: the license strings may change from tim
 
 The second way to accept the licenses automatically is to use the `yes` program and combine its output with the `sdkmanager --licenses` command. The latter one displays a series of prompts to accept all available and unaccepted yet licenses and the first one prints "y" continuously.
 
-```
+```shell
 yes | sdkmanager --licenses
 ```
 
@@ -91,7 +91,7 @@ In order to build an Android application inside a Docker container, you need an 
 
 The easiest way is to use the `openjdk` ([link](https://hub.docker.com/_/openjdk/)) as the basis for your image as it already has the JDK installed (as well as other useful tools). So the first line of your `Dockerfile` could be:
 
-```
+```dockerfile
 FROM openjdk:8
 ```
 
@@ -99,7 +99,7 @@ On the other hand, you can just get any image with `apt-get` e.g. `debian` ([lin
 
 _(Remember to follow the [Dockerfile best practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/))_
 
-```
+```dockerfile
 FROM debian
 RUN apt-get update && \
     apt-get install -y openjdk-8-jdk wget unzip && \
@@ -108,7 +108,7 @@ RUN apt-get update && \
 
 Now you can proceed to fetching the Android SDK. You should also set the `ANDROID_HOME` variable so that the application builds would know the SDK location. Using `wget` and `unzip` it may look like this:
 
-```
+```dockerfile
 ENV ANDROID_HOME /opt/android-sdk-linux
 
 RUN mkdir -p ${ANDROID_HOME} && \
@@ -120,13 +120,13 @@ RUN mkdir -p ${ANDROID_HOME} && \
 
 It's also useful to add some SDK tools to the `PATH`:
 
-```
+```dockerfile
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools
 ```
 
 The last step is to accept the Android SDK licenses using one of the mentioned ways, e.g.:
 
-```
+```dockerfile
 RUN yes | sdkmanager --licenses
 ```
 
@@ -138,7 +138,7 @@ Having the `Dockerfile` part completed it's time to build the image with `docker
 
 Let's say we build the image like this:
 
-```
+```shell
 docker build -t my-sdk-image .
 ```
 
@@ -150,7 +150,7 @@ Please also keep in mind that you probably have the `local.properties` file in y
 
 Here is an exemplary command to run the build in a container:
 
-```
+```shell
 docker run -v $(pwd):/home/app \ # mount current directory
            --rm \                # remove the container when it exists
            my-sdk-image \        # image name
@@ -170,7 +170,7 @@ While the image is sufficient to build a regular application, you might want to 
 First of all, I haven't specified any SDK packages to be downloaded using the `sdkmanager` in the `Dockerfile`. This means your Gradle build will need to download the missing packages every time you run it in the container, possibly causing severe network usage and additional time consumption. Thus you should consider preparing a `Dockerfile` which builds an image with pre-downloaded packages, but you should be careful with it as the resulting image's size will be significantly larger.
 
 For example, adding the following lines to the `Dockerfile` will make the image about 1 GB larger.
-```
+```dockerfile
 RUN sdkmanager 'platform-tools'
 RUN sdkmanager 'platforms;android-26'
 RUN sdkmanager 'build-tools;26.0.2'
@@ -194,12 +194,13 @@ It's even easier to build Android applications by getting the images directly fr
 
 I've just published [my images (link)](https://hub.docker.com/u/azabost/) there so if you don't need any customizations, you can run a container without your own `Dockerfile` like this:
 
-```
+```shell
 docker run azabost/android-sdk
 ```
 
 You can also use my images as a base for your image by specifying one of them in your `Dockerfile`:
 
-```
+```dockerfile
 FROM azabost/android-sdk
 ```
+

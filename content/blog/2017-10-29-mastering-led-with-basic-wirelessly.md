@@ -41,7 +41,7 @@ ESPBASIC has nearly a plaintext, one-paged documentation:
 https://docs.google.com/document/d/1EiYugfu12X2_pmfmu2O19CcLX0ALgLM4r2YxKYyJon8/pub
 So I tried to put `Hello World` on my screen with the following code in `[EDIT]` tab:
 
-```
+```shell
 print "Hello World"
 ```
 
@@ -55,7 +55,7 @@ Yeah! It was easy. But if you want to put one more `print`, you will see garbage
 
 I've connected LED to ESP-12's GPIO15 pin. Firstly I will try to just light my light up.
 
-```
+```shell
 print "Led ON"
 io(po,15,1)
 ```
@@ -68,7 +68,7 @@ First try and it works! Just with one line, wireless, without compilation and wi
 
 Next step is to make a delay between turning LED on and off:
 
-```
+```shell
 io(po,15,1)
 delay 500
 io(po,15,0)
@@ -85,7 +85,7 @@ delay 500
 
 And it blinks, but only few times with 0.5s delay. Last thing I need there is any loop here, and then I will have an awesome blinking machine!
 
-```
+```shell
 For x = 1 to 60
     io(po,15,1)
     delay 500
@@ -98,7 +98,7 @@ This code lasts after 60 seconds. Let's make it infinite!
 
 ![Blinky](/images/mastering-led-with-basic-wirelessly/blink.gif)
 
-```
+```shell
 variable = 0
 Do
     io(po,15,variable % 2)
@@ -110,7 +110,7 @@ Loop until 0 'infinite
 Success! But ESP's "IDE" becomes unavailable. The reason is that `delay` operation takes all processor time.
 It's better to use timer functions, which uses interrupts to count time.
 
-```
+```shell
 variable = 0
 
 Timer 500, [blink]

@@ -21,13 +21,13 @@ As I've already listed in my recent [blog post](/blog/are-we-ready-for-deep-lear
 
 In our Android app project we need to add TFLite dependency to `build.gradle` file. 
 
-```
+```groovy
 implementation 'org.tensorflow:tensorflow-lite:1.13.1'
 ```
 
 and the undermentioned snippet to prevent compressing the model.
 
-```
+```groovy
 aaptOptions {  
     noCompress "tflite"  
     noCompress "lite"  

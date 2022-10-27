@@ -145,7 +145,7 @@ gradle publishApkProdRelease
 
 And you can see in the logs that it works:
 
-```
+```text
 [10:59:52][Step 1/1] Configuring Google Play deployment JSON file for task: task ':app:generateDevReleasePlayResources'
 [10:59:52][Step 1/1] Configuring Google Play deployment JSON file for task: task ':app:generateProdReleasePlayResources'
 ...

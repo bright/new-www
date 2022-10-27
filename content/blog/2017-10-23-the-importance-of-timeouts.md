@@ -58,7 +58,7 @@ class Application {
 
 When you request `/health` the API will return response similar to:
 
-```
+```http request
 HTTP/1.1 200 
 Content-Type: application/vnd.spring-boot.actuator.v1+json;charset=UTF-8
 Date: Mon, 23 Oct 2017 08:08:32 GMT
@@ -79,6 +79,7 @@ X-Application-Context: application
     "status": "UP"
 }
 ```
+
 An application health API, like the one in our example, is often hooked into external monitoring software. The monitor asks the target application about its health in regular intervals e.g. every 5 seconds. 
 
 ## Shooting yourself in the foot
@@ -97,12 +98,13 @@ The mail server health check uses [`javax.mail.Service.connect`](https://docs.or
 
 As you can see it is very easy to miss a need for a timeout to be configured. To be fair the [Spring Boot documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-email.html) states clearly:
 
->In particular, certain default timeout values are infinite and you may want to change that to avoid having a thread blocked by an unresponsive mail server:
->```
->spring.mail.properties.mail.smtp.connectiontimeout=5000
->spring.mail.properties.mail.smtp.timeout=3000
->spring.mail.properties.mail.smtp.writetimeout=5000
->```
+> In particular, certain default timeout values are infinite and you may want to change that to avoid having a thread blocked by an unresponsive mail server:
+
+```text
+spring.mail.properties.mail.smtp.connectiontimeout=5000
+spring.mail.properties.mail.smtp.timeout=3000
+spring.mail.properties.mail.smtp.writetimeout=5000
+```
 
 In my option any library or framework should either force the programmer to configure the timeout or have some **sensible default**. Unfortunately this is not always possible to introduce them later on without breaking changes hence we should **check** what are the timeouts used when calling any **external service**.
 

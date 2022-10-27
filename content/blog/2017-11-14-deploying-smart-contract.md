@@ -71,3 +71,4 @@ let hash = await transport.execute('personal_sendTransaction', {
     gas: gas
 }, contractOwnerPassword)
 ```
+

@@ -37,7 +37,7 @@ Nowadays writing Android Application in Kotlin is getting more and more popular,
 
 Class providing us with current weather
 
-```
+```kotlin
   class WeatherProvider {
     fun getCurrentWeather(): String {
       return "It's sunny! As always in this beautiful city of Gdańsk!”
@@ -47,7 +47,7 @@ Class providing us with current weather
 
 Weather module creation with single instance of `WeatherProvider`:
 
-```
+```kotlin
   val weatherModule = {
     single { WeatherProvider() }
   }
@@ -55,13 +55,13 @@ Weather module creation with single instance of `WeatherProvider`:
 
 Initialize Koin:
 
-```
+```kotlin
   startKoin(listOf(weatherModule))
 ```
 
 Now we can use our `WeatherProvider` wherever we want by injecting it in this way:
 
-```
+```kotlin
   val weatherProvider: WeatherProvider by inject()
 ```
 

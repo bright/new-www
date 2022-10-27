@@ -31,7 +31,7 @@ Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](http
    * `blog-post-title` is the blog post title e.g. writing-a-blog-post
 3. Paste the following content into the edit form:
 
-```
+```yaml
 ---
 layout: post
 title: A human readable title of post
@@ -68,7 +68,7 @@ After edits are made hitting the `Commit changes` button will save the changes a
    * `blog-post-title` is the blog post title e.g. writing-a-blog-post
    * the file starts with the following content:
 
-```
+```yaml
 ---
 layout: post
 title: A human readable title of post
@@ -114,7 +114,7 @@ To include a picture in your post you can add the image to a folder named after 
 
 In order to include the image you can use markdown or html e.g.:
 
-```
+```markdown
 ![Image Title](/images/writing-a-blog-post/pexels-photo-296115.jpeg)
 ```
 
@@ -124,7 +124,7 @@ In order to include the image you can use markdown or html e.g.:
 
 `2017-10-23-the-importance-of-timeouts.md`:
 
-```
+```yaml
 ---
 layout: post
 ...
@@ -143,7 +143,7 @@ Example:
 
 `authors.yml`:
 
-```
+```yaml
 piotr:
   crosspost: https://miensol.pl/:categories/:year/:month/:day/:title.html
   ...

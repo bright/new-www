@@ -102,7 +102,7 @@ On a more serious note, a great way is to show examples of differences between J
 
 **Java**
 
-```
+```java
 public class Pigeon {
     String name;
     String color;
@@ -153,7 +153,7 @@ public class Pigeon {
 
 **Kotlin**
 
-```
+```kotlin
 data class Pigeon(
     val name: String, 
     val color: String

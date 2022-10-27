@@ -48,6 +48,7 @@ Create `Retrofit` object like follow:
 
 	return retrofit.create(ApiClient.class);
 ```
+
 `RetrofitAdapter` doesn't exsist any longer, we have `Retrofit` class instead. 
 
 The big change is that [OkHttp](http://square.github.io/okhttp/) is required now and set as dependency for Retrofit.

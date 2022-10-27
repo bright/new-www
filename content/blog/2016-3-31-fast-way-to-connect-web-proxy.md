@@ -60,6 +60,7 @@ task getBuildMachineLocalIp() {
     println "build machine local ip: " + project.ext.proxy
 }
 ```
+
 It gets local *IP* address of your desktop build machine and store it in `project.ext.proxy`.<br/>
 Remember to replace `ifconfig` command with proper `ipconfig` if your build machine is running Windows.<br/>
 You have to also ensure that `en1` is the interface used to connect to the same wifi network as Android device.
@@ -79,6 +80,7 @@ dependencies{
 preBuild.dependsOn getBuildMachineLocalIp
 
 ```
+
 I made one more thing here. <br/>
 Copied value of `project.ext.proxy` to `BuildConfig.BUILD_MACHINE_LOCAL_IP` to have access to *IP* address in code.
 
@@ -101,6 +103,7 @@ setProxy(client);
 use client as you wish eg. with Retrofit
 */
 ```
+
 There's simple `if` statement which enables proxy when flag is active.<br/>
 Probably, you don't want to have the proxy connection for release builds so I also check build type here.<br/>
 The last thing is to set up *CA* certificate of the web proxy to make *HTTP* connections visible on it. <br/>

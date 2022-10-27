@@ -90,7 +90,7 @@ Gradle cache, the automated continuous integration builds on TeamCity
 were failing (and it's also how I found out about the problem in the
 first place) with errors like:
 
-```
+```text
 > Could not resolve com.datadoghq:dd-sdk-android:1.5.1.
   Required by:
       project :app > project :datadog
@@ -123,7 +123,7 @@ etc., but it was good enough for me.*
 
 The output may look like this (first 10 lines):
 
-```
+```text
      |    +--- com.linkedin.dexmaker:dexmaker:2.21.0 FAILED
 |    +--- com.google.android:flexbox:1.0.0 FAILED
      +--- com.android.volley:volley:1.1.1 FAILED
@@ -143,7 +143,7 @@ Now, knowing which dependencies you miss, you can use a service like
 Maven repositories hosting them. For example, in case of this
 dependency:
 
-```
+```text
 |    +--- com.linkedin.dexmaker:dexmaker:2.21.0 FAILED
 ```
 
@@ -177,7 +177,7 @@ To update a transitive dependency version, you can use the
 [constrains](https://docs.gradle.org/6.8.3/userguide/dependency_constraints.html)
 like:
 
-```
+```groovy
 dependencies {
     constraints {
         implementation("com.linkedin.dexmaker:dexmaker:2.28.1") {
@@ -191,7 +191,7 @@ or you can use a
 [resolution strategy](https://docs.gradle.org/6.8.3/userguide/resolution_rules.html),
 e.g.:
 
-```
+```groovy
 allprojects {
     configurations.all {
         resolutionStrategy {
@@ -241,7 +241,7 @@ find ~/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker
 
 and it will print an output like:
 
-```
+```text
 /Users/azabost/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker
 /Users/azabost/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker/dexmaker
 /Users/azabost/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker/dexmaker/2.21.0
@@ -264,7 +264,7 @@ teammates.
 You can use any directory you want as a Maven repository using a Gradle
 snippet like this one:
 
-```
+```groovy
 repositories {
     maven {
         url = uri("${rootProject.projectDir}/libs")
@@ -286,7 +286,7 @@ and I examined the local `~/.m2/repository` directory to figure it out.
 
 For Dexmaker I created the following directory:
 
-```
+```text
 libs/com/linkedin/dexmaker/dexmaker/2.21.0
 ```
 
@@ -309,7 +309,7 @@ find ~/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker/dexmaker/2.21.0 
 
 which printed this output:
 
-```
+```text
 /Users/azabost/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker/dexmaker/2.21.0/bdfd84d002e265ab7cf7f54a71a17717f831a57d/dexmaker-2.21.0-javadoc.jar -> libs/com/linkedin/dexmaker/dexmaker/2.21.0/dexmaker-2.21.0-javadoc.jar
 /Users/azabost/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker/dexmaker/2.21.0/423b7b6e4d772e274ba03646284b0cea83faca56/dexmaker-2.21.0.pom -> libs/com/linkedin/dexmaker/dexmaker/2.21.0/dexmaker-2.21.0.pom
 /Users/azabost/.gradle/caches/modules-2/files-2.1/com.linkedin.dexmaker/dexmaker/2.21.0/680f2dbbb51f2892a4fdbbd9269d628e0b3270b3/dexmaker-2.21.0.jar -> libs/com/linkedin/dexmaker/dexmaker/2.21.0/dexmaker-2.21.0.jar

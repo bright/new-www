@@ -148,7 +148,7 @@ public class MyHeadsetLibModule extends ReactContextBaseJavaModule {
 
 Last thing necessary to compile a project is to add dependency to `/app/build.gradle`
 
-```
+```groovy
 dependencies {
     ...
     compile "com.facebook.react:react-native:+"

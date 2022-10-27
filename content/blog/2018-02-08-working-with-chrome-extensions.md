@@ -49,6 +49,7 @@ const config = {
    logVisible: false,
 }
 ```
+
 To use them just type e.g. `config.host` in the script file.
 
 ## Security

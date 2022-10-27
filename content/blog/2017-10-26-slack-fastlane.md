@@ -294,7 +294,7 @@ slack(
 
 Another example... let's modify our `on_error(exception)` method.
 
-```
+```ruby
 def on_error(exception)
        slack(
            message: "Error occured!",

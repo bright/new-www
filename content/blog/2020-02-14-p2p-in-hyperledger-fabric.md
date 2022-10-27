@@ -150,6 +150,6 @@ async handlePutState(collection, key, value, channel_id, txId) {
 
     return await this._askPeerAndListen(msg, 'PutState');
 }  
-```  
+```
 
 This message is sent via **gRPC** request to the defined peers in our connection profile, and now we can start listening to the proposal responses!

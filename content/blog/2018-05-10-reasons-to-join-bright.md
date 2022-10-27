@@ -52,7 +52,7 @@ Either you are a morning bird or a night owl, you will find a good time to work 
 
 We think that real professionals learn all their life and they share their knowledge with others. And how we can do it? By[ building strong communities](https://www.facebook.com/groups/awstricity), taking part in various conferences, by running workshops, by blogging, by [CocoaHeads](https://www.facebook.com/CocoaHeadsTricity), by internal coffee talks and much more.
 
-```
+```kotlin
 data class Person(
   val name: String,
   val surname: String

@@ -27,7 +27,7 @@ The library provides default highlight values behavior on tap or drag. You may w
 
 `onValueSelected` provides `Entry` object which gives you an access to the data, that is `FoodSearch` in our case. Let's  use it to something simple, like displaying some info in the toast, to see how it works:
 
-``` kotlin
+```kotlin
 lineChart.isHighlightPerTapEnabled = true
 
 lineChart.setOnChartValueSelectedListener(object : OnChartValueSelectedListener {
@@ -51,7 +51,7 @@ If you want to display some view over selected Entry you may take advantage of t
 
 As long as we keep reference to the specific `DataSet` object, we are able to add and remove entries dynamically. It might be a result of syncing data from the internet or partial progress some asynchronous task - doesn't matter. Let's add a random entry on the button click.
 
-``` kotlin
+```kotlin
 val rand = Random()
 bananaDataSet.addEntry(Entry(bananaDataSet.entryCount.toFloat(), rand.nextFloat() * 100))
 yogurtDataSet.addEntry(Entry(yogurtDataSet.entryCount.toFloat(), rand.nextFloat() * 100))
@@ -59,7 +59,7 @@ yogurtDataSet.addEntry(Entry(yogurtDataSet.entryCount.toFloat(), rand.nextFloat(
 
 When modifying data set, BOTH `LineData` object and the chart need to be notified about it. To do so, invoke proper method on them, then simply invalidate the chart like you would with any other view element.
 
-``` kotlin
+```kotlin
 lineChart.data.notifyDataChanged()
 lineChart.notifyDataSetChanged()
 lineChart.invalidate()
@@ -71,13 +71,14 @@ I recommend you to check out other ways of updating chart data described in the 
 
 Let's say you want to put readability aside, remove labels and axes with all that white spaces and make a pure chart view fill the screen. Labels/ axis configuration is obvious, just disable them:
 
-``` kotlin
+```kotlin
 lineChart.axisLeft.isEnabled = false
 lineChart.axisRight.isEnabled = false
 lineChart.xAxis.isEnabled = false
 lineChart.description.isEnabled = false
 lineChart.legend.isEnabled = false
 ```
+
 Unfortunately, it does not make the job done. As you can see below there are still space between the chart and the parent view left.
 
 ![default viewport](/images/radek/chart_viewport_1.png)
@@ -99,7 +100,7 @@ Displayed value is the mentioned "other view" that does not know about the offse
 If you need to mark any value in some special way you may define `Entry`'s `icon` property. It's an instance of a `Drawable` class, so it's very easy to layout the icon in a resource file and then apply  it to the Entry. In our example let's mark with a red dot each value that differs from the previous one more than *15* to see every bigger steeper slope on the chart.
 
 Define any drawable resource, for example 20x20 red oval:
-``` xml
+```xml
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
     <size android:width="20dp" android:height="20dp" />
     <solid android:color="#ff0000" />
@@ -108,7 +109,7 @@ Define any drawable resource, for example 20x20 red oval:
 
 Now add some code to `getEntriesFromCSV` method. Before adding a new `Entry` to an array, add the Drawable as the icon's property if the point fulfills the condition:
 
-``` kotlin
+```kotlin
 
 data?.mapIndexed { index, foodSearch ->
     val entry = Entry(index.toFloat(), foodSearch.value.toFloat(), foodSearch)
@@ -128,7 +129,7 @@ data?.mapIndexed { index, foodSearch ->
 
 In order to see the icons, set the *drawIcons* flag to `true` on each `DataSet` object:
 
-``` kotlin
+```kotlin
 bananaDataSet.setDrawIcons(true)
 yogurtDataSet.setDrawIcons(true)
 ```

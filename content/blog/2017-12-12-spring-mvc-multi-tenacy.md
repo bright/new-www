@@ -30,7 +30,7 @@ In a multi-tenant application one needs to take special care to prevent tenant "
 
 The first solution that comes to mind is to apply a per API client request rate limiting. In fact this solution is so common that it is available as a configuration opt-in in many servers. For instance [in NGINX you could do](https://www.nginx.com/blog/rate-limiting-nginx/):
 
-```
+```text
 limit_req_zone $binary_remote_addr zone=mylimit:10m rate=10r/s;
 
 server {

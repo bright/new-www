@@ -85,3 +85,4 @@ You may have spotted the bug. Chances are though, especially if you are like me,
 lastName = parts[0] // Error: Cannot assign 'lastName' because it is a constant or a read-only property
 firstName = parts[1] // Error: Cannot assign 'firstName' because it is a constant or a read-only property
 ```
+

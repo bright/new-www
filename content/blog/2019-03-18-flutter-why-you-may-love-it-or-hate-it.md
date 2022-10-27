@@ -39,7 +39,7 @@ I've decided to continue my journey with Flutter's "Get started" documentation. 
 developed step by step from [this](https://flutter.io/docs/get-started/codelab) tutorial.
 You can see the complete code of an application below:
 
-```
+```dart
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
@@ -124,7 +124,7 @@ no time. That is great! I won't have to wait a minute every time I make a simple
 it doesn't work every time. Let's say that we want to change Text's color in our application. 
 We adjust `_biggerFont` implementation to :
 
-```
+```dart
 final _biggerFont = const TextStyle(fontSize: 18.0, color: Colors.green); 
 ```
 
@@ -159,7 +159,7 @@ on the device it's running but it doesn't automatically adjust the style of the 
 * ending each Widget's argument's with comma - after adding the last argument of a Widget, you should end it with `,`. 
   Otherwise the code will be badly / ugly formatted. This sometimes leads to the code which in the end looks like this:
 
-```
+```dart
         ],
       ),
     ),

@@ -20,7 +20,7 @@ React has introduced a new feature which allows you to use state and other React
 
 The easiest way to setup environment for learning React with Hooks is run:
 
-```
+```shell
 npx create-react-app my-app
 cd my-app
 npm start
@@ -41,7 +41,7 @@ In case you want to update your react and react-dom please use the command:
 
 In this post we are going to focus on 3 basic Hooks in React:
 
-```
+```js
 useState
 useEffect
 useContext
@@ -49,7 +49,7 @@ useContext
 
 React has introduced even more, but the following features are more complicated and should be described separately:
 
-```
+```js
 useReducer
 useCallback
 useMemo
@@ -79,7 +79,7 @@ It's the simple Counter. Our counter will increase and decrease the value if use
 
 The way it works, you can pass the initial state as a first argument, in my case it will be count equal 0. 
 
-```
+```jsx
 const [count, setCount] = useState(0);
 ```
 

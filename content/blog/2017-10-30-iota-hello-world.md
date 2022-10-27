@@ -53,7 +53,7 @@ Addresses in IOTA can be understood as distinct wallets that can store IOTA toke
 
 In order to claim the ownership of a given address, we need to have the seed it was generated from - think of the seed as a private key to your box with wallets. The seed [needs to be generated securely](https://iotasupport.com/gui-newseed.shtml), probably not using the public websites that does it for you. The easiest would probably be to use macOS/Linux terminal and run:
 
-```
+```shell
 cat /dev/urandom | LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1
 ```
 

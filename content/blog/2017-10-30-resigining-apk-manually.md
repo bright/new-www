@@ -35,7 +35,7 @@ Signing an application might go 2 ways: sign with Gradle/ Android Studio or sign
 
 For signing your app you need 2 files, `.apk` and `.keystore`
 
-```
+```shell
 myAwesomeApp.apk
 mySecretKeystore.keystore
 ```
@@ -43,7 +43,7 @@ mySecretKeystore.keystore
 If you have `.keystore` file you can list it's certificates with `keytool`:  
 `keytool -list -keystore ./mySecretKeystore.keystore -v -storepass mySecretPassword`
 
-```
+```text
 Valid from: Sun Mar 18 23:40:12 CET 2012 until: Thu Mar 19 23:40:12 CET 2037
 Certificate fingerprints:
 	 MD5:  59:**:**:**:**:**:**:**:**:**:**:**:**:**:**:EC
@@ -52,6 +52,7 @@ Certificate fingerprints:
 	 Signature algorithm name: SHA1withRSA
 	 Version: 3
 ```
+
 Result contains informations about fingerprints and validation dates.
 
 Now sign your `.apk` file with `apksigner` tool which comes with Android SDK tools:  
@@ -62,7 +63,7 @@ The last step is to zip align `.apk`. The alignment is an integer that defines t
 
 And then check result with `apksigner verify`:  
 `apksigner verify -v --print-certs ./myAwesomeApp-signed.apk`  
-```
+```text
 Signer #1 certificate SHA-256 digest: 07************************************************************6d
 Signer #1 certificate SHA-1 digest: e2************************************9b
 Signer #1 certificate MD5 digest: 59****************************ec

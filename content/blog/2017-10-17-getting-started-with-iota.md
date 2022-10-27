@@ -32,7 +32,7 @@ IRI is written in Java and is [publicly available on GitHub](https://github.com/
 
 To build and run the Docker image, type the following:
 
-```
+```shell
 docker run -d --name iota-node \
   -p 14265:14265 -p 14777:14777/udp -p 15777:15777 \
   -v ~/iota.ini:/iri/iota.ini iotaledger/iri:v1.4.0
@@ -40,7 +40,7 @@ docker run -d --name iota-node \
 
 We're creating a container named `iota-node` for an easy future access. With `-p` options we're exposing three custom network ports for external communication. And with `-v` we're passing a path to our node's configuration file that should look as follows:
 
-```
+```toml
 [IRI]
 PORT = 14265
 UDP_RECEIVER_PORT = 14777

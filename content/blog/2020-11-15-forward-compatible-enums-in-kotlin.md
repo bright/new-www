@@ -106,7 +106,7 @@ above, the app will most probably fail to deserialize the new and
 unknown enum value `"BOOKS"` if a post contains one. In such case, we
 will get the following exception:
 
-```
+```text
 kotlinx.serialization.SerializationException: com.example.9gag.posts.PostTag does not contain element with name 'BOOKS'
 ```
 
@@ -186,11 +186,13 @@ to the
       ART("ART", R.string.tag_art)
   }
   ```
+  
 * declare the serializer object
 
   ```kotlin
   object PostTagCodifiedSerializer : KSerializer<CodifiedEnum<PostTag, String>> by codifiedEnumSerializer()
   ```
+  
 * use the serializer wherever we want
 
   ```kotlin
@@ -212,6 +214,7 @@ property, we can:
       .mapNotNull { it.knownOrNull() }
       .map { context.getString(it.nameRes) }
   ```
+  
 * check if the particular enum value is known or not and handle all the
   possible cases
 
@@ -225,6 +228,7 @@ property, we can:
       is CodifiedEnum.Unknown -> TODO()
   }
   ```
+  
 * get the original string value: `tag.code()`
 
 We can easily create the enum wrapper for any known `PostTag`:

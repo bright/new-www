@@ -44,7 +44,7 @@ data class Money(val amount: BigDecimal, val currency: Currency) {
 
 Imagine we write a test for the [`plus`](https://kotlinlang.org/docs/reference/operator-overloading.html) operator using [JUnit](http://junit.org/junit5/) and [Hamcrest](http://hamcrest.org/):
 
-```
+```kotlin
 class MoneyTests {
     val usd = Currency.getInstance("USD")
 
@@ -60,7 +60,7 @@ class MoneyTests {
 
 The test will fail with the following message:
 
-```
+```text
 java.lang.AssertionError: 
 Expected: <150>
      but: was <160>
@@ -88,7 +88,7 @@ class MoneyTests {
 
 In my opinion [ShouldKO's](https://github.com/miensol/shouldko) assertion syntax improves readability. However, this is not where [ShouldKO](https://github.com/miensol/shouldko) main improvement is. Follow the improved assertion message:
 
-```
+```text
 java.lang.AssertionError: (usd100 + usd50).amount 
 Expected: <150>
      but: was <160>

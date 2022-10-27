@@ -24,7 +24,7 @@ But out of this failed attempts the new generation solution was born at Facebook
 
 All is wrapped together in a single updatable NPM dependency. It abstracts away everything but the actual application code from the developers that don't need to dig deeper – no build process is visible, no dev tools configuration is required, no tests wiring is necessary, no boilerplate needs to be generated before we can actually start writing our app code. CRA is THE way for the most small-to-medium React projects to avoid the whole build configuration hassle.
 
-```
+```shell
 npx create-react-app my-app
 cd my-app
 npm start
@@ -38,7 +38,7 @@ This is cool and already saved us a week of headaches. But there is no TypeScrip
 
 Fortunately, I'm not the only one who thinks this way and Open Source does not like void. There is a fork of create-react-app that replaces Babel with TypeScript, surprisingly named [`create-react-app-typescript`](https://github.com/wmonk/create-react-app-typescript). Let's rewind and start from scratch, with TypeScript this time:
 
-```
+```shell
 npx create-react-app my-app --scripts-version=react-scripts-ts
 cd my-app
 npm start

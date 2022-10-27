@@ -26,13 +26,13 @@ While writing this article I was using Parity 1.7.8-stable (Parity/v1.7.8-stable
 
 If you don't have a `homebrew` package manager installed yet, please execute:
 
-```
+```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 and now the parity installation:
 
-```
+```shell
 brew tap paritytech/paritytech
 brew install parity --stable
 ```
@@ -41,7 +41,7 @@ brew install parity --stable
 
 Almost all parity packages you can find here: `https://github.com/paritytech/parity/releases`. To install on Debian based Linux you will need wget and dpkg. Below as an example installation of parity 1.7.9-stable:
 
-```
+```shell
 wget https://parity-downloads-mirror.parity.io/v1.7.9/x86_64-unknown-linux-gnu/parity_1.7.9_amd64.deb
 sudo dpkg -i parity_1.7.9_amd64.deb
 ```
@@ -58,7 +58,7 @@ For the purpose of that article we will start parity with:
 * allowing all hosts (Host header values) for using JSON RPC API `--jsonrpc-hosts all`    
 * interface's IP address - all interfaces `--jsonrpc-interface all`                                 
 
-```
+```shell
 parity --chain=dev --jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,parity,parity_set,signer --gasprice 0 --ui-interface 0.0.0.0 --ui-no-validation --jsonrpc-hosts all --jsonrpc-interface all
 ```
 
@@ -76,7 +76,7 @@ Once the account is created, you should see:
 * address to unlock `--unlock 0x00a329c0648769A73afAc7F9381E08FB43dBEA72`        
 * user password for specified account to unlock `--password ./password`, where `./password` is a path to a file containing user password    
 
-```
+```shell
 parity --chain=dev --jsonrpc-apis web3,rpc,personal,parity_accounts,eth,net,parity,parity_set,signer --gasprice 0 --ui-interface 0.0.0.0 --ui-no-validation --jsonrpc-hosts all --jsonrpc-interface all --unlock 0x00a329c0648769A73afAc7F9381E08FB43dBEA72 --password ./password
 ```
 
@@ -92,7 +92,7 @@ The fastest and the simplest way I know to create, test and build smart contract
 
 Now please prepare an empty folder for your new project and execute the following command to initialize the truffle project structure:
 
-```
+```shell
 truffle init
 ```
 

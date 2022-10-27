@@ -17,14 +17,14 @@ Recently I was searching through our application logs. The task was to extract e
 
 Our logs have a format like below, with each console output in a separate line: 
 
-```
+```text
 2021-02-06T13:38:31.730Z info [some request id 1; some user id 1] Some external provider error message
 2021-02-06T14:21:00.000Z info [some request id 2; some user id 2] Some external provider error message
 ```
 
 We can use Cloudwatch Insights to extract all the information related to that requests: 
 
-```
+```text
 filter @message like "Some context to error message log"
 | parse @message "* * [* *] *" as timestamp,type,requestId, user, textMessage
 | filter requestId in ["some request id 1;", "some request id 2"]
@@ -33,7 +33,7 @@ filter @message like "Some context to error message log"
 
 If the field you are searching for is a JSON array, you can search it like: 
 
-```
+```text
 filter @message like "Some context to error message log {
     "someInfo": [
         some1,

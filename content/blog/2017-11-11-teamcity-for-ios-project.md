@@ -62,7 +62,7 @@ In this post I will show you how to configure it with uploading SSH key.
 
 To generate new SSH keys you can use a terminal command:
 
-```
+```shell
 ssh-keygen -t rsa
 ```
 
@@ -163,7 +163,7 @@ In order to create build steps go to `Build configuration Settings` and tap `Bui
 Click on `Add build step`, and on the next screen select a `Command line` runner type.
 In `Step name` name your build step(in my case it will be `Install Dependencies`). In `Custom script` type a script that will be executed in this build step. Again, in my case it will be
 
-```
+```shell
 bundle install
 ```
 
@@ -173,7 +173,7 @@ click `Save` and your first step is ready!
 
 I also added another command line build step called `Build and tests` which will run command:
 
-```
+```shell
 bundle exec fastlane build_and_test
 ```
 
@@ -233,7 +233,7 @@ There are 3 types of parameters for build configuration or even root project.
 
 In this post I will focus on `Environment variables`. That type of variables are created after build start(is ready?) and they can be accessed via Command line with `$` prefix. One example of Environment variable could be an XCode path. In order to compile our project we need XCode path which will be used by Fastlane tool. So in `Fastfile` I add line:
 
-```
+```shell
 xcode_select ENV["XCODE_PATH"]
 ```
 
@@ -271,7 +271,7 @@ I prefer a way of installing it via `Zip file distribution`. After you click on 
 
 Great instruction how to configure Mac agent you can find in  [TeamCity docs here](https://confluence.jetbrains.com/display/TCD10//Setting+up+and+Running+Additional+Build+Agents#SettingupandRunningAdditionalBuildAgents-InstallingviaZIPFile). Below are the steps from this documentation:
 
-```
+```text
 1.Make sure a JDK (JRE) 1.8 (versions 1.6-1.8 are supported, but 1.8 is recommended) is properly installed on the agent computer.
 
 2.On the agent computer, make sure the JRE_HOME or JAVA_HOME environment variables are set (pointing to the installed JRE or JDK directory respectively).
@@ -291,7 +291,7 @@ Great instruction how to configure Mac agent you can find in  [TeamCity docs her
 
 After these steps you can start the agent via command:
 
-```
+```shell
 pathToDownloadedUnzippedBuildAgentFiles\bin\agent.sh start
 ```
 

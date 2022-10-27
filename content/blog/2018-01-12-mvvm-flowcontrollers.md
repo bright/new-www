@@ -94,6 +94,7 @@ Let's start with `AppDelegate`. What do we have here?
 
 }
 ```
+
 The first thing that is important is that I create my `MainFlowController` which will be responsible for controlling my application flow. The only dependency that I pass here is my main navigation controller that is the root controller of my main window. I've also seen different approaches that pass `UIWindow` to a flowController directly, however, if you do not need it, then I would prefer to have this "lighter" object which has a more defined responsibility.
 
 What about the `MainFlowController` itself? 

@@ -22,7 +22,7 @@ If you would like to get a bit more understanding of the flow in Redux, you can 
 Before we dive into `Redux` let's take a look at simple `React` component. What does it look like?
 Just to make it a bit clearer - let's use TypeScript with interfaces to show what `props` (input data) do we expect in the component.
 
-``` jsx
+```tsx
 interface Props {
     title: string
     numbers: number[]
@@ -43,7 +43,7 @@ export class SimpleComponent extends React.Component<Props, State> {
 
 This component takes two input parameters - `title` and `numbers`. If we want to display it in our application, we need to pass these manually. For example:
 
-``` jsx
+```tsx
 <SimpleComponent title='Test' numbers={[1,2,3,4]}/>
 ```
 
@@ -53,7 +53,7 @@ I guess that in every developer's life there comes a time when one wants to make
 
 Do we really need `Redux`? Let's take a look at an example of an app without `Redux` first.
 
-``` jsx
+```tsx
 interface Props {}
 interface State {}
 export class FatComponent extends React.Component<Props, State> {
@@ -74,7 +74,7 @@ Let's imagine that we would like to share the same numbers across all of our `Si
 A good way to do it would be to move this data to one place (a parent).
 In this case our `FatComponent` is a good candidate for this.
 
-``` jsx
+```tsx
 interface Props {}
 interface State {
     numbers: number[]
@@ -102,7 +102,7 @@ export class FatComponent extends React.Component<Props, State> {
 But what if our `FatComponent` does not have this data instantly and would need to download it?
 Let's use a `fetchNumbers` method in `componentDidMount`.
 
-``` jsx
+```tsx
 interface Props {}
 interface State {
     numbers: number[]
@@ -139,7 +139,7 @@ What if we do not want to fetch the data everytime our component mounts? - After
 What if we want to use a different initial array?
 In order to do this we could add parameters to `FatComponent` and pass them from a parent that renders our `FatComponent`.
 
-``` jsx
+```tsx
 
 interface Props {
     // we moved numbers from State to Props as our FatComponent will not control the source of the numbers
@@ -214,7 +214,7 @@ First of all, we need to specify the input props of `BigBossParent` just as we d
 Just as before, we move the things that we do not want to control to `BigBossProps` and we hope that a thing that renders this component will
 take care of them and give it to use.
 
-``` jsx
+```tsx
 
 interface BigBossProps {
     numbers: number[] // numbers will be provided to BigBossParent
@@ -254,7 +254,7 @@ Provider will receive one parameter - a store which will be created with a `redu
 Just before we move to our `BigBossParent` component, let's define an interface for our state in the application.
 What I mean is that every time that we get the state from the store (that we created with `createStore(reducers)`), we expect that it will be of `ApplicationState` type.
 
-``` js
+```ts
 interface ApplicationState {
     numbers: number[]
 }
@@ -263,7 +263,7 @@ interface ApplicationState {
 
 Instead of passing the props to BigBossParent in a usual way, we will use the `connect` that is available from `react-redux` package.
 
-``` jsx
+```tsx
 
 interface BigBossProps {
     numbers: number[] // numbers will be provided to BigBossParent
@@ -326,7 +326,7 @@ function reducer(state: ApplicationState = DefaultState, action: Action): Applic
 In really simplified case we will have one reducer that handles our whole state, but in bigger apps we will have combined reducers that only take a part of the application state as a first parameter. The part that they know how to handle.
 `UPDATE_NUMBERS` is the action type that we sent from our BigBossParent component. Let's take a look at `mapDispatchToProps` once again:
 
-``` js
+```ts
 //the dispatch parameter is in fact way to call `store.dispatch()`.
 function mapDispatchToProps(dispatch: Redux.Dispatch<ApplicationState>) {
     return {
@@ -337,14 +337,17 @@ function mapDispatchToProps(dispatch: Redux.Dispatch<ApplicationState>) {
     }
 }
 ```
+
 What does this map do? At the time that we call `refreshNumbers` from `BigBossParent` component. What in fact happens is:
-``` js
+
+```ts
 store.dispatch({
             type: 'UPDATE_NUMBERS',
             payload: { numbers: [1, 2, 3, 4, 5]}
         })
     }
 ```
+
 This way we send an action to our store. Store receives the action and then passes both application state and this action to reducers (In our case this is a reducer mentioned above). It sees that the action type matches the one it handles - `UPDATE_NUMBERS` and creates
 a new state accordingly. In our case it will apply the numbers sent as an action's payload. After it's done, the new state is returned and applied to the `store`.
 This will now be the new state of our application. At the time that we receive this new state, our `BigBossParent` will be updated (mapping functions will be invoked again).

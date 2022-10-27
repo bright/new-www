@@ -25,7 +25,7 @@ to improve your app using the one of the three main features of 3D Touch.
 
   There are few values to set here.
 
-```
+```text
   - UIApplicationShortcutItemType (required)
   - UIApplicationShortcutItemTitle (required)
   - UIApplicationShortcutItemSubtitle
@@ -157,7 +157,7 @@ It is worth to mention about dynamic shortcut items. Yes, UIApplicationShortcutI
 
 To add dynamic shortcut item you just have to add it to `shortcutItems` array.
 
-```
+```objc
 UIApplication.sharedApplication().shortcutItems?.append(UIMutableApplicationShortcutItem(type: "my-dynamic-shortcut", localizedTitle: "Dynamic shortcut"))
 ```
 

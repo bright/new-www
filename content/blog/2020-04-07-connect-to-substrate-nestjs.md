@@ -36,7 +36,7 @@ src
 
 After you successfully create the sample project you could run the dev server:
 
-```
+```shell
 yarn start:dev
 ```
 

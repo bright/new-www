@@ -39,7 +39,7 @@ The bucket name must be unique, so it’s a good idea to use e.g. your company d
 
 Once we have the bucket created, we need to make it public, so that anyone can access it. Choose the bucket from the list, then select the `Permissions` tab and click `Bucket Policy`. Paste the JSON below into the edit field. Remember to adjust the `Resource` property value to include the ARN of your bucket (you can find the ARN above the edit field). However, do not change the `Version` value. This is a constant expression, which specifies the version of IAM policy language your policy statement uses - not your policy statement's revision date. Hit `Save` and now anyone can access the data in the bucket.
 
-```
+```json
 {
     "Version": "2012-10-17",
     "Statement": [

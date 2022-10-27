@@ -62,12 +62,13 @@ Congrats! You just added your first project on Bitrise!
 ![New app](/images/bitrise_loves_detox/your_new_app.png)
 
 It is time for some real action. We need to launch our tests! Thankfully Bitrise did almost all the dirty work for us, so all we need to is to run these four lines of commands:
-```
+```shell
 pod install --project-directory=ios/
 npm install -g detox-cli
 detox build --configuration ios
 detox test --configuration ios --workers 2
 ```
+
 The first one will download all pods for our ios project. The second one will install "detox cli," which is not present on the stack we are using.  The third one builds our application to make it testable with Detox. The last one will launch our tests, to get results faster, I choose two workers.
 
 Select your application on the top right side of the screen and then select the "Workflow" tab
