@@ -12,12 +12,12 @@ import { TagsControl, TagsPreview } from './tags'
 
 import mainStyles from '!css-loader!sass-loader!../styles/main.scss'
 import quoteStyles from '!css-loader!../cms/styles/quote.css'
+import { withStyledInjectedIntoPreviewFrame } from './with-styled-injected-into-preview-frame'
 
 CMS.registerPreviewStyle(mainStyles.toString(), { raw: true })
 CMS.registerPreviewStyle(quoteStyles.toString(), { raw: true })
 
-
-console.log('registering custom editor & preview components', {
+console.debug('registering custom editor & preview components', {
   mainStyles,
   quoteStyles
 })
@@ -25,7 +25,7 @@ console.log('registering custom editor & preview components', {
 CMS.registerWidget('tags', TagsControl, TagsPreview)
 CMS.registerWidget('mdx', MdxControl, MdxPreview)
 
-CMS.registerPreviewTemplate('blog', BlogPostPreview)
+CMS.registerPreviewTemplate('blog', withStyledInjectedIntoPreviewFrame(BlogPostPreview))
 CMS.registerEditorComponent({ ...buttonBlockConfig })
 CMS.registerEditorComponent({ ...hiddenImageConfig })
 CMS.registerEditorComponent({ ...importantInfoConfig })
