@@ -6,7 +6,7 @@ import { HelmetMetaAuthor } from '../../HelmetMetaAuthor'
 import { useAuthors } from '../../use-authors/use-authors'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
-import { FlexWrapper } from './../../components/shared/index.styled'
+import { FlexWrapper } from '../../components/shared/index.styled'
 
 const MediaContent = styled.div`
   position: absolute;
@@ -126,7 +126,7 @@ export function AuthorsView({
   authorId: string | undefined
   slug: string | undefined
   name: string
-  isSingleAuthor: boolean | undefined
+  isSingleAuthor?: boolean
   avatar: IGatsbyImageData
   bio: string
 }) {
