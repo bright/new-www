@@ -7,9 +7,9 @@ title: "Fullstack Developer (Node.js + React) "
 subtitle: ONGOING
 image-alt-job: TypeScript Team
 hours: full-time
-salary: 12 000 - 17 000 PLN + VAT (B2B) or 10 000 - 14 100 PLN gross (UoP)
-salary_min: 12000
-salary_max: 17000
+salary: 14 000 - 18 000 PLN + VAT (B2B) or 11 600 - 15 000 PLN gross (UoP)
+salary_min: 14000
+salary_max: 18000
 working time: 20-26 paid days off + Polish bank holidays
 technology:
   - TypeScript
@@ -51,16 +51,14 @@ We support and share responsibility with the members of our team. We also active
 
 We are looking now for a Fullstack Developer who has already had experience with TypeScript and Node.js and would like to work with our experienced and ambitious development team. What counts is your positive mindset, analytical thinking ability as well as communication skills.
 
-The main challenge of the team is to enhance [the existing web therapy application](https://circlesup.com/) where people can sign up and join particular groups of support led by professional therapists. Currently the team is working on a complex chat feature and video meeting feature. Another priority is enabling secure data transfer regarding the users conditions for therapeutical analysis purposes. 
-
-The goal of the app is to make support accessible and affordable to everyone. Sharing and listening to others with the same pain, issue, or challenge, is extremely therapeutic. Circles that you find in the application are safe spaces to receive and give support. 
+The main challenge of the team is to enhance [the existing web therapy application](https://circlesup.com/) where people can sign up and join particular groups of support led by professional therapists. The goal of the app is to make support accessible and affordable to everyone. Sharing and listening to others with the same pain, issue, or challenge, is extremely therapeutic. Circles that you find in the application are safe spaces to receive and give support. Currently the team is working on a redesign of the facilitating panel and data transfer optimisation. 
 
 ## preferred qualifications and skills
 
-* at least 2-3 years of commercial programming experience
-* solid working knowledge and deep understanding of TypeScript/JavaScript
+* at least 2 years of commercial programming experience
+* solid working knowledge of TypeScript/JavaScript
 * working experience with Node.js
-* experience with databases, in particular PostgreSQL/Redis
+* experience with SQL databases
 * very good problem solving and analytical thinking skills
 * positive attitude and open mind
 * very good communication skills both in Polish & English
