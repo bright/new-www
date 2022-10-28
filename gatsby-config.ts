@@ -170,22 +170,31 @@ export default {
               ...config.resolve.alias,
               // https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/#requireresolve
               // path: require.resolve("path-browserify")
-              path: path.resolve(path.join(__dirname, "node_modules", "path-browserify")),
+              path: path.resolve(path.join(__dirname, 'node_modules', 'path-browserify')),
               // may be required by netlify-cms-widget-mdx
-              process: path.resolve(path.join(__dirname, "node_modules", "process/browser"))
+              process: path.resolve(path.join(__dirname, 'node_modules', 'process/browser')),
+              // buffer: path.resolve(path.join(__dirname, 'node_modules', 'buffer'))
             },
             fallback: {
               ...config.resolve.fallback,
               fs: false,
               child_process: false,
-              module: false
-            },
-          };
+              module: false,
+              assert: false
+            }
+          }
           // required by netlify-cms-widget-mdx
-          config.plugins = [...config.plugins, new ProvidePlugin({
-            process: path.resolve(path.join(__dirname, "node_modules", "process/browser")),
-          })];
-        },
+          config.plugins = [
+            ...config.plugins,
+            new ProvidePlugin({
+              process: path.resolve(path.join(__dirname, 'node_modules', 'process/browser'))
+            }),
+            // required by @mdx-js/mdx/node_modules/jsesc/jsesc.js
+            new ProvidePlugin({
+              Buffer: path.resolve(path.join(__dirname, 'node_modules', 'buffer'))
+            })
+          ]
+        }
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

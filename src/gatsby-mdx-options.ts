@@ -8,7 +8,7 @@ export const gatsbyMdxOptions = {
       remarkGfm
     ],
     rehypePlugins: [
-      rehypePrism
+      [rehypePrism, { ignoreMissing: true }]
     ]
   },
   gatsbyRemarkPlugins: [

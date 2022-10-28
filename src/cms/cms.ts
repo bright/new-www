@@ -28,6 +28,7 @@ CMS.registerWidget('tags', TagsControl, TagsPreview)
 
 CMS.registerWidget('mdx', MdxControl, MdxPreview)
 
+
 CMS.registerPreviewTemplate('blog', withStyledInjectedIntoPreviewFrame(BlogPostPreview))
 CMS.registerEditorComponent({ ...buttonBlockConfig })
 CMS.registerEditorComponent({ ...hiddenImageConfig })
