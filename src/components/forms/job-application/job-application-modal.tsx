@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropsWithChildren } from 'react'
 import styled from 'styled-components'
 import variables from '../../../styles/variables'
 import { CustomSection, PageTitle } from '../../shared'
@@ -66,7 +66,7 @@ export interface ModalProps {
   modalState?: boolean
 }
 
-export const JobApplicationModal: React.FC<ModalProps> = props => {
+export const JobApplicationModal: React.FC<PropsWithChildren<ModalProps>> = props => {
   const { modalState, closeModal, title, link, linkLabel, children } = props
 
   if (!modalState) {
