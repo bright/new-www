@@ -6,7 +6,7 @@ export const useTopBlogPosts = () => {
     .map(toBlogPost)
     .sort(function (a, b) {
       return (
-        new Date(b.dateModified).getTime() - new Date(a.dateModified).getTime() ||
+        new Date(b.meaningfullyUpdatedAt).getTime() - new Date(a.meaningfullyUpdatedAt).getTime() ||
         new Date(b.date).getTime() - new Date(a.date).getTime()
       )
     })

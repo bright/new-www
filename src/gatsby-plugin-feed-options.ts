@@ -17,7 +17,7 @@ const feedGQL = (tags?: string[]) => {
                       ${tagsFilter}
                   }
               }
-              sort: { fields: [frontmatter___date], order: DESC}
+              sort: {fields: fields___modifiedAt, order: DESC}
               limit: 1000
           ) {
               edges {

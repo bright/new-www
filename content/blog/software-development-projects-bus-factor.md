@@ -6,7 +6,7 @@ tags:
   - software development
   - project management
 date: 2021-07-15T07:31:54.979Z
-dateModified: ""
+meaningfullyUpdatedAt: ""
 title: How to protect software development projects from bus factor problem
 layout: post
 image: /images/blogpost_www_izabela_bus.png

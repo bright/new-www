@@ -6,7 +6,7 @@ tags:
   - soft skills
 date: 2022-10-12T07:54:40.976Z
 update_date: false
-dateModified: 2022-10-12T07:54:41.005Z
+meaningfullyUpdatedAt: 2022-10-12T07:54:41.005Z
 title: Agile does not mean chaos!
 layout: post
 image: /images/dog_blog_post.png

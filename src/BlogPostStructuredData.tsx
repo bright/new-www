@@ -10,7 +10,7 @@ export const BlogPostStructuredData = (props: {
   path: string
   excerpt: string
   publishedOn: string
-  dateModified: string
+  meaningfullyUpdatedAt: string
   image: FileNode
   title: string
 }) => {
@@ -85,7 +85,7 @@ export const BlogPostStructuredData = (props: {
     headline: props.title,
     image: siteUrl + getSrc(props.image),
     datePublished: props.publishedOn,
-    dateModified: props.dateModified,
+    meaningfullyUpdatedAt: props.meaningfullyUpdatedAt,
     publisher: BrightInventionsOrganization,
     author: authorsData,
     abstract: props.excerpt,

@@ -291,7 +291,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       {
         allMdx(
           filter: { frontmatter: { layout: { eq: "post" } } }
-          sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
+          sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
           limit: 1000
         ) {
           edges {
@@ -437,6 +437,22 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer' })
 }
 
+function toDate(date: undefined | null | string | number | Date): Date | null {
+  if (!date) {
+    return null
+  }
+
+  if (date instanceof Date) {
+    return date
+  }
+
+  if (typeof date === 'string' && date.length === 0) {
+    return null
+  }
+
+  return new Date(date)
+}
+
 export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
@@ -461,6 +477,21 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
       name: 'timeToRead',
       value: readingTime(node.body as string)
     })
+
+    const date = toDate((node.frontmatter as any)?.date)
+    if (date) {
+      const meaningfullyUpdatedAt = toDate((node.frontmatter as any)?.meaningfullyUpdatedAt)
+      const modifiedAt = meaningfullyUpdatedAt ?? date
+      createNodeField({
+        node,
+        name: 'modifiedAt', // used for sorting of blog posts
+        value: modifiedAt
+      })
+    } else {
+      if (nodeSlug.includes('blog')) {
+        console.warn('No date found for blog', { node, nodeSlug })
+      }
+    }
   }
 }
 type PartialWebpackConfig = Partial<Parameters<typeof config.getNormalizedWebpackOptions>[0]>

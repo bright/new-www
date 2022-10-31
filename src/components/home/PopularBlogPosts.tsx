@@ -96,7 +96,7 @@ const PopularBlogPosts: FC = () => {
             <div className='hero-blog column is-6' key={post.title}>
               <PopularBlogPostBox
                 date={post.date}
-                dateModified={post.dateModified}
+                meaningfullyUpdatedAt={post.meaningfullyUpdatedAt}
                 tags={post.tags}
                 image={post.image}
                 url={post.slug}

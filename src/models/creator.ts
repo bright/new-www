@@ -14,7 +14,7 @@ export const createBlogPosts = (data: GQLData): BlogPostModel[] => {
     })
     .sort(function (a, b) {
       return (
-        new Date(b.dateModified).getTime() - new Date(a.dateModified).getTime() ||
+        new Date(b.meaningfullyUpdatedAt).getTime() - new Date(a.meaningfullyUpdatedAt).getTime() ||
         new Date(b.date).getTime() - new Date(a.date).getTime()
       )
     })
@@ -34,7 +34,7 @@ export const createBlogRelatedPosts = (allMdx: allMdxData | undefined): BlogPost
     })
     .sort(function (a, b) {
       return (
-        new Date(b.dateModified).getTime() - new Date(a.dateModified).getTime() ||
+        new Date(b.meaningfullyUpdatedAt).getTime() - new Date(a.meaningfullyUpdatedAt).getTime() ||
         new Date(b.date).getTime() - new Date(a.date).getTime()
       )
     })

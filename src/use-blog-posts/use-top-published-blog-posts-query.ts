@@ -8,7 +8,7 @@ export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResul
     query {
       allMdx(
         filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
-        sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
+        sort: {fields: fields___modifiedAt, order: DESC}
         limit: 4
       ) {
         posts: nodes {
@@ -27,7 +27,7 @@ export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResul
             title
             tags
             date
-            dateModified
+            meaningfullyUpdatedAt
           }
           fields {
             slug

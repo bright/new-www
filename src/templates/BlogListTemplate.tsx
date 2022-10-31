@@ -73,7 +73,7 @@ export const pageQuery = graphql`
   query MyQuery($skip: Int!, $limit: Int!) {
     allMdx(
       filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
-      sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
+      sort: {fields: fields___modifiedAt, order: DESC}
       skip: $skip
       limit: $limit
     ) {
@@ -95,7 +95,7 @@ export const pageQuery = graphql`
             title
             tags
             date
-            dateModified
+            meaningfullyUpdatedAt
             update_date
           }
           fields {

@@ -6,7 +6,7 @@ tags:
   - inspiration
 date: 2022-10-20T06:49:39.906Z
 update_date: false
-dateModified: 2022-10-20T06:49:40.672Z
+meaningfullyUpdatedAt: 2022-10-20T06:49:40.672Z
 title: How to Get That First Product Designer Job
 layout: post
 image: /images/blogpost_product_design.png

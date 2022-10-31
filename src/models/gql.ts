@@ -30,7 +30,7 @@ export interface BlogPostModel {
   author_id: unknown
   comments: boolean
   date: string
-  dateModified: string
+  meaningfullyUpdatedAt: string
   slug: string
   excerpt: string
   image: IGatsbyImageData

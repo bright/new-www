@@ -568,6 +568,16 @@ type MdxEdge {
 }
 
 type MdxFields {
+    modifiedAt(
+        "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
+        difference: String,
+        "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
+        formatString: String,
+        "Returns a string generated with Moment.js' `fromNow` function"
+        fromNow: Boolean,
+        "Configures the locale Moment.js will use to format the date."
+        locale: String
+    ): Date
     slug: String
     timeToRead: MdxFieldsTimeToRead
 }
@@ -604,16 +614,6 @@ type MdxFrontmatter {
         "Configures the locale Moment.js will use to format the date."
         locale: String
     ): Date
-    dateModified(
-        "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-        difference: String,
-        "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-        formatString: String,
-        "Returns a string generated with Moment.js' `fromNow` function"
-        fromNow: Boolean,
-        "Configures the locale Moment.js will use to format the date."
-        locale: String
-    ): Date
     description: String
     description_contact: String
     descrption: String
@@ -637,6 +637,16 @@ type MdxFrontmatter {
     intro: String
     layout: String
     links_more_about_us: String
+    meaningfullyUpdatedAt(
+        "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
+        difference: String,
+        "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
+        formatString: String,
+        "Returns a string generated with Moment.js' `fromNow` function"
+        fromNow: Boolean,
+        "Configures the locale Moment.js will use to format the date."
+        locale: String
+    ): Date
     meta_description: String
     meta_title: String
     modified(
@@ -1227,6 +1237,7 @@ enum FileFieldsEnum {
     childMdx___children___parent___children
     childMdx___children___parent___id
     childMdx___excerpt @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
+    childMdx___fields___modifiedAt
     childMdx___fields___slug
     childMdx___fields___timeToRead___minutes
     childMdx___fields___timeToRead___text
@@ -1321,7 +1332,6 @@ enum FileFieldsEnum {
     childMdx___frontmatter___categories
     childMdx___frontmatter___comments
     childMdx___frontmatter___date
-    childMdx___frontmatter___dateModified
     childMdx___frontmatter___description
     childMdx___frontmatter___description_contact
     childMdx___frontmatter___descrption
@@ -1498,6 +1508,7 @@ enum FileFieldsEnum {
     childMdx___frontmatter___intro
     childMdx___frontmatter___layout
     childMdx___frontmatter___links_more_about_us
+    childMdx___frontmatter___meaningfullyUpdatedAt
     childMdx___frontmatter___meta_description
     childMdx___frontmatter___meta_title
     childMdx___frontmatter___modified
@@ -1704,6 +1715,7 @@ enum FileFieldsEnum {
     childrenMdx___children___parent___children
     childrenMdx___children___parent___id
     childrenMdx___excerpt @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
+    childrenMdx___fields___modifiedAt
     childrenMdx___fields___slug
     childrenMdx___fields___timeToRead___minutes
     childrenMdx___fields___timeToRead___text
@@ -1798,7 +1810,6 @@ enum FileFieldsEnum {
     childrenMdx___frontmatter___categories
     childrenMdx___frontmatter___comments
     childrenMdx___frontmatter___date
-    childrenMdx___frontmatter___dateModified
     childrenMdx___frontmatter___description
     childrenMdx___frontmatter___description_contact
     childrenMdx___frontmatter___descrption
@@ -1975,6 +1986,7 @@ enum FileFieldsEnum {
     childrenMdx___frontmatter___intro
     childrenMdx___frontmatter___layout
     childrenMdx___frontmatter___links_more_about_us
+    childrenMdx___frontmatter___meaningfullyUpdatedAt
     childrenMdx___frontmatter___meta_description
     childrenMdx___frontmatter___meta_title
     childrenMdx___frontmatter___modified
@@ -2443,6 +2455,7 @@ enum MdxFieldsEnum {
     children___parent___parent___children
     children___parent___parent___id
     excerpt @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
+    fields___modifiedAt
     fields___slug
     fields___timeToRead___minutes
     fields___timeToRead___text
@@ -2595,7 +2608,6 @@ enum MdxFieldsEnum {
     frontmatter___categories
     frontmatter___comments
     frontmatter___date
-    frontmatter___dateModified
     frontmatter___description
     frontmatter___description_contact
     frontmatter___descrption
@@ -2609,6 +2621,7 @@ enum MdxFieldsEnum {
     frontmatter___faqs___children___children
     frontmatter___faqs___children___id
     frontmatter___faqs___excerpt @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___faqs___fields___modifiedAt
     frontmatter___faqs___fields___slug
     frontmatter___faqs___frontmatter___Show_recruiter_info
     frontmatter___faqs___frontmatter___answer
@@ -2623,7 +2636,6 @@ enum MdxFieldsEnum {
     frontmatter___faqs___frontmatter___categories
     frontmatter___faqs___frontmatter___comments
     frontmatter___faqs___frontmatter___date
-    frontmatter___faqs___frontmatter___dateModified
     frontmatter___faqs___frontmatter___description
     frontmatter___faqs___frontmatter___description_contact
     frontmatter___faqs___frontmatter___descrption
@@ -2643,6 +2655,7 @@ enum MdxFieldsEnum {
     frontmatter___faqs___frontmatter___intro
     frontmatter___faqs___frontmatter___layout
     frontmatter___faqs___frontmatter___links_more_about_us
+    frontmatter___faqs___frontmatter___meaningfullyUpdatedAt
     frontmatter___faqs___frontmatter___meta_description
     frontmatter___faqs___frontmatter___meta_title
     frontmatter___faqs___frontmatter___modified
@@ -2978,6 +2991,7 @@ enum MdxFieldsEnum {
     frontmatter___intro
     frontmatter___layout
     frontmatter___links_more_about_us
+    frontmatter___meaningfullyUpdatedAt
     frontmatter___meta_description
     frontmatter___meta_title
     frontmatter___modified
@@ -3058,6 +3072,7 @@ enum MdxFieldsEnum {
     frontmatter___project___children___children
     frontmatter___project___children___id
     frontmatter___project___excerpt @deprecated(reason: "Sorting on fields that need arguments to resolve is deprecated.")
+    frontmatter___project___fields___modifiedAt
     frontmatter___project___fields___slug
     frontmatter___project___frontmatter___Show_recruiter_info
     frontmatter___project___frontmatter___answer
@@ -3072,7 +3087,6 @@ enum MdxFieldsEnum {
     frontmatter___project___frontmatter___categories
     frontmatter___project___frontmatter___comments
     frontmatter___project___frontmatter___date
-    frontmatter___project___frontmatter___dateModified
     frontmatter___project___frontmatter___description
     frontmatter___project___frontmatter___description_contact
     frontmatter___project___frontmatter___descrption
@@ -3092,6 +3106,7 @@ enum MdxFieldsEnum {
     frontmatter___project___frontmatter___intro
     frontmatter___project___frontmatter___layout
     frontmatter___project___frontmatter___links_more_about_us
+    frontmatter___project___frontmatter___meaningfullyUpdatedAt
     frontmatter___project___frontmatter___meta_description
     frontmatter___project___frontmatter___meta_title
     frontmatter___project___frontmatter___modified
@@ -4077,6 +4092,7 @@ input JSONQueryOperatorInput {
 }
 
 input MdxFieldsFilterInput {
+    modifiedAt: DateQueryOperatorInput
     slug: StringQueryOperatorInput
     timeToRead: MdxFieldsTimeToReadFilterInput
 }
@@ -4120,7 +4136,6 @@ input MdxFrontmatterFilterInput {
     categories: StringQueryOperatorInput
     comments: BooleanQueryOperatorInput
     date: DateQueryOperatorInput
-    dateModified: DateQueryOperatorInput
     description: StringQueryOperatorInput
     description_contact: StringQueryOperatorInput
     descrption: StringQueryOperatorInput
@@ -4144,6 +4159,7 @@ input MdxFrontmatterFilterInput {
     intro: StringQueryOperatorInput
     layout: StringQueryOperatorInput
     links_more_about_us: StringQueryOperatorInput
+    meaningfullyUpdatedAt: DateQueryOperatorInput
     meta_description: StringQueryOperatorInput
     meta_title: StringQueryOperatorInput
     modified: DateQueryOperatorInput

@@ -353,7 +353,7 @@ export type PostTemplateProps = PropsWithChildren<{
         thirdAuthor: string
         tags: string[]
         date: string
-        dateModified: string
+        meaningfullyUpdatedAt: string
         update_date: boolean
         excerpt: string
         image: FileNode
@@ -388,7 +388,7 @@ type PostArticleContentProps = PostAuthorsProps &
 
     tags: string[]
     date?: string
-    dateModified?: string
+    meaningfullyUpdatedAt?: string
     update_date: boolean
     fileAbsolutePath: string
     canonicalUrl: string
@@ -433,7 +433,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
             {props.update_date && (
               <FlexWrapper desktopContent='flex-end' desktopGap='10px' mobileContent='center'>
                 <DateUpdateDescription>Updated </DateUpdateDescription>
-                <DateModified>{props.dateModified && <DateFormatter date={props.dateModified} />}</DateModified>
+                <DateModified>{props.meaningfullyUpdatedAt && <DateFormatter date={props.meaningfullyUpdatedAt} />}</DateModified>
               </FlexWrapper>
             )}
           </FlexWrapper>
@@ -478,7 +478,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
     excerpt: page.excerpt,
     path: props.path,
     publishedOn: page.date,
-    dateModified: page.dateModified,
+    meaningfullyUpdatedAt: page.meaningfullyUpdatedAt,
     title: page.title,
     image: page.image,
   }) ?? (
@@ -487,7 +487,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
       excerpt={page.excerpt}
       path={props.path}
       publishedOn={page.date}
-      dateModified={page.dateModified}
+      meaningfullyUpdatedAt={page.meaningfullyUpdatedAt}
       title={page.title}
       image={page.image}
     />
@@ -529,7 +529,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         <PostArticleContent
           title={page.title}
           date={page.date}
-          dateModified={page.dateModified}
+          meaningfullyUpdatedAt={page.meaningfullyUpdatedAt}
           update_date={page.update_date}
           authorsView={props.authorsView}
           author={page.author}
@@ -582,7 +582,7 @@ export const pageQuery = graphql`
         tags
         date
         update_date
-        dateModified
+        meaningfullyUpdatedAt
         canonicalUrl
         image {
           childImageSharp {
@@ -602,7 +602,7 @@ export const pageQuery = graphql`
           tags: { in: $relatedTags }
         }
       }
-      sort: { fields: frontmatter___date, order: DESC }
+      sort: {fields: fields___modifiedAt, order: DESC}
       limit: 5
     ) {
       edges {
@@ -623,7 +623,7 @@ export const pageQuery = graphql`
             title
             tags
             date
-            dateModified
+            meaningfullyUpdatedAt
             update_date
           }
           fields {

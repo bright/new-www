@@ -9,7 +9,7 @@ tags:
   - resiliency
   - spring boot
 date: 2017-10-22T22:00:00.000Z
-dateModified: ""
+meaningfullyUpdatedAt: ""
 title: The importance of timeouts
 layout: post
 image: /images/the-importance-of-timeouts/man-clock.jpeg

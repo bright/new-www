@@ -94,7 +94,7 @@ export const pageQuery = graphql`
           tags: { in: $groupTags }
         }
       }
-      sort: { fields: [frontmatter___dateModified, frontmatter___date], order: [ASC, DESC] }
+      sort: {fields: fields___modifiedAt, order: DESC}
       skip: $skip
       limit: $limit
     ) {
@@ -116,7 +116,7 @@ export const pageQuery = graphql`
             title
             tags
             date
-            dateModified
+            meaningfullyUpdatedAt
             update_date
           }
           fields {

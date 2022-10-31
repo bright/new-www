@@ -7,7 +7,7 @@ tags:
   - android
 date: 2022-10-17T07:27:20.592Z
 update_date: false
-dateModified: 2022-10-17T07:27:21.452Z
+meaningfullyUpdatedAt: 2022-10-17T07:27:21.452Z
 title: From Theatrical to Programming Stage. Meet Cezary – Android Developer
   with Gymnastics Background
 layout: post

@@ -57,10 +57,10 @@ const Post: React.FC<{ post: BlogPostModel }> = ({ post }) => {
         <div className={styles.content}>
           <div className={styles.postInfo}>
             <div className={styles.date}>
-              {post.dateModified
+              {post.meaningfullyUpdatedAt
                 ? formatDate(
                     new Date(
-                      post.dateModified
+                      post.meaningfullyUpdatedAt
                         .replace(/-/g, '/')
                         .replace('T', ' ')
                         .replace(/\..*|\+.*/, '')

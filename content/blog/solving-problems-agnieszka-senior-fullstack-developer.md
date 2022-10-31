@@ -7,7 +7,7 @@ tags:
   - inspiration
   - development
 date: 2022-10-05T08:47:36.209Z
-dateModified: 2022-10-13T09:04:52.463Z
+meaningfullyUpdatedAt: 2022-10-13T09:04:52.463Z
 title: Solving Problems with Code for over 12 Years. Meet Agnieszka – Senior
   Fullstack Developer
 layout: post
