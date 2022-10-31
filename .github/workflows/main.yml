@@ -32,9 +32,9 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ runner.os }}-gatsby-build-v29-${{ github.run_id }}
+          key: ${{ runner.os }}-gatsby-build-v29-${{ github.ref_name }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-build-v29-
+            ${{ runner.os }}-gatsby-build-v29-${{ github.ref_name }}
       - run: yarn install
       - run: yarn run build
         if: ${{ github.ref == 'refs/heads/gatsby' }}
@@ -77,9 +77,9 @@ jobs:
           path: |
             public
             .cache
-          key: ${{ runner.os }}-gatsby-build-v29-${{ github.run_id }}
+          key: ${{ runner.os }}-gatsby-build-v29-${{ github.ref_name }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-build-v29-
+            ${{ runner.os }}-gatsby-build-v29-${{ github.ref_name }}
       - run: yarn install
       - run: yarn run deploy-s3
         if: ${{ github.ref == 'refs/heads/gatsby' }}
