@@ -24,6 +24,8 @@ import Dot from '../components/icons/Dot.icon'
 import { allMdxData } from '../models/gql'
 import RelatedPosts from './post/RelatedPosts'
 import { siteMetadata } from '../site-metadata'
+import { isSameDay } from 'date-fns'
+import { toDate } from '../to-date'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -386,7 +388,7 @@ type PostArticleContentProps = PostAuthorsProps &
     timeToRead: TimeInMinutes
 
     tags: string[]
-    date?: string
+    date: string
     meaningfullyUpdatedAt?: string
     fileAbsolutePath: string
     canonicalUrl: string
@@ -402,6 +404,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
   const thirdAuthorView = props.thirdAuthor
     ? props.authorsView?.({ authorId: props.thirdAuthor }) ?? <AuthorData authorId={props.thirdAuthor} />
     : null
+  const showUpdatedAt = props.meaningfullyUpdatedAt && !isSameDay(toDate(props.meaningfullyUpdatedAt)!, toDate(props.date)!)
   return (
     <AuthorsSection>
       <AuthorsWrapper>
@@ -426,9 +429,9 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
                 <Dot />
               </WrapperDot>
 
-              <Date>{props.date && <DateFormatter date={props.date} />}</Date>
+              <Date><DateFormatter date={props.date} /></Date>
             </FlexWrapper>
-            {props.meaningfullyUpdatedAt && (
+            {showUpdatedAt && (
               <FlexWrapper desktopContent='flex-end' desktopGap='10px' mobileContent='center'>
                 <DateUpdateDescription>Updated </DateUpdateDescription>
                 <DateModified>{props.meaningfullyUpdatedAt && <DateFormatter date={props.meaningfullyUpdatedAt} />}</DateModified>

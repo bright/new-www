@@ -4,6 +4,7 @@ import { loadTagGroups, TagGroup } from './src/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
 import { config, IgnorePlugin } from 'webpack'
 import readingTime from 'reading-time'
+import { toDate } from './src/to-date'
 
 const path = require('path')
 
@@ -435,22 +436,6 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/about-us/values', toPath: '/about-us' })
   createRedirect({ fromPath: '/about-us/story', toPath: '/about-us' })
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer' })
-}
-
-function toDate(date: undefined | null | string | number | Date): Date | null {
-  if (!date) {
-    return null
-  }
-
-  if (date instanceof Date) {
-    return date
-  }
-
-  if (typeof date === 'string' && date.length === 0) {
-    return null
-  }
-
-  return new Date(date)
 }
 
 export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNode }) => {
