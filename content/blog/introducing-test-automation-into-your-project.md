@@ -6,7 +6,6 @@ tags:
   - automation testing
   - QA
 date: 2022-10-19T07:21:40.716Z
-update_date: false
 meaningfullyUpdatedAt: 2022-10-19T07:21:40.746Z
 title: Introducing Test Automation into your Project
 layout: post

@@ -7,7 +7,6 @@ tags:
   - vulnerability
   - development
 date: 2022-10-17T12:08:57.731Z
-update_date: false
 meaningfullyUpdatedAt: 2022-10-17T12:08:57.751Z
 title: Sekurak MSHP CTF Summary - Part 1
 layout: post

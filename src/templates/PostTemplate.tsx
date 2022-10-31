@@ -354,7 +354,6 @@ export type PostTemplateProps = PropsWithChildren<{
         tags: string[]
         date: string
         meaningfullyUpdatedAt: string
-        update_date: boolean
         excerpt: string
         image: FileNode
         canonicalUrl: string
@@ -389,7 +388,6 @@ type PostArticleContentProps = PostAuthorsProps &
     tags: string[]
     date?: string
     meaningfullyUpdatedAt?: string
-    update_date: boolean
     fileAbsolutePath: string
     canonicalUrl: string
   }
@@ -430,7 +428,7 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
 
               <Date>{props.date && <DateFormatter date={props.date} />}</Date>
             </FlexWrapper>
-            {props.update_date && (
+            {props.meaningfullyUpdatedAt && (
               <FlexWrapper desktopContent='flex-end' desktopGap='10px' mobileContent='center'>
                 <DateUpdateDescription>Updated </DateUpdateDescription>
                 <DateModified>{props.meaningfullyUpdatedAt && <DateFormatter date={props.meaningfullyUpdatedAt} />}</DateModified>
@@ -530,7 +528,6 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
           title={page.title}
           date={page.date}
           meaningfullyUpdatedAt={page.meaningfullyUpdatedAt}
-          update_date={page.update_date}
           authorsView={props.authorsView}
           author={page.author}
           secondAuthor={page.secondAuthor}
@@ -581,7 +578,6 @@ export const pageQuery = graphql`
         thirdAuthor
         tags
         date
-        update_date
         meaningfullyUpdatedAt
         canonicalUrl
         image {
@@ -624,7 +620,6 @@ export const pageQuery = graphql`
             tags
             date
             meaningfullyUpdatedAt
-            update_date
           }
           fields {
             slug

@@ -45,7 +45,6 @@ collections:
         }
       - { label: 'Tags', name: 'tags', widget: 'tags' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Update', name: 'update_date', widget: 'boolean', default: false }
       - {
           label: 'Meaningfully updated at',
           name: 'meaningfullyUpdatedAt',

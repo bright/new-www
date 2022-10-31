@@ -5,7 +5,6 @@ tags:
   - spring
   - spring-boot
 date: 2022-10-18T08:52:15.448Z
-update_date: false
 meaningfullyUpdatedAt: 2022-10-18T08:52:15.475Z
 title: Gradual Update of the AWS Java SDK in the SpringBoot Project
 layout: post

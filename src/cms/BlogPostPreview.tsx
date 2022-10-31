@@ -27,7 +27,6 @@ export const BlogPostPreview: React.FC<PreviewTemplateComponentProps> = props =>
         canonicalUrl={canonicalUrl}
         tags={tags}
         timeToRead={timeToRead}
-        update_date={false}
       />
     </LocationProvider>
   )

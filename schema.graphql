@@ -696,8 +696,7 @@ type MdxFrontmatter {
     title_recruiter_info: String
     title_team: String
     twitter: String
-    update_date: Boolean
-    web: String
+        web: String
     working_time: String
     workplace_recruiter: String
 }
@@ -4200,8 +4199,7 @@ input MdxFrontmatterFilterInput {
     title_recruiter_info: StringQueryOperatorInput
     title_team: StringQueryOperatorInput
     twitter: StringQueryOperatorInput
-    update_date: BooleanQueryOperatorInput
-    web: StringQueryOperatorInput
+        web: StringQueryOperatorInput
     working_time: StringQueryOperatorInput
     workplace_recruiter: StringQueryOperatorInput
 }

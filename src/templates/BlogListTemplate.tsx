@@ -96,7 +96,6 @@ export const pageQuery = graphql`
             tags
             date
             meaningfullyUpdatedAt
-            update_date
           }
           fields {
             slug

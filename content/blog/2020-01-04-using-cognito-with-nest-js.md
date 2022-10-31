@@ -7,7 +7,6 @@ tags:
   - nestjs
   - nodejs
 date: 2020-01-04T20:05:28.083Z
-update_date: false
 meaningfullyUpdatedAt: ""
 title: Using AWS Cognito with NestJS
 layout: post
