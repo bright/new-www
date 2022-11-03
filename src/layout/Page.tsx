@@ -12,6 +12,8 @@ import { fbShareImage } from '../meta/bright-logo'
 import { resolveUrl } from '../meta/resolve-url'
 import { useLocation } from '@reach/router'
 import { MDXComponentsWrapper } from '../mdx'
+import CookiesNotice from '../components/shared/CookiesNotice'
+import { isBrowser } from '../utils'
 
 export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ children, className }) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
@@ -21,7 +23,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
   return (
     <div
       className={classNames('layout-container', className, {
-        [styles.menuOpened]: mobileMenuOpened
+        [styles.menuOpened]: mobileMenuOpened,
       })}
     >
       <HelmetTitleDescription
@@ -35,9 +37,8 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
         <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} />
       </Helmet>
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
-      <MDXComponentsWrapper>
-        {children}
-      </MDXComponentsWrapper>
+      <MDXComponentsWrapper>{children}</MDXComponentsWrapper>
+      {isBrowser() ? <CookiesNotice /> : <div></div>}
       <Footer />
     </div>
   )
