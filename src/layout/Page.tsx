@@ -11,8 +11,6 @@ import Helmet from 'react-helmet'
 import { fbShareImage } from '../meta/bright-logo'
 import { resolveUrl } from '../meta/resolve-url'
 import { useLocation } from '@reach/router'
-import CookiesNotice from '../components/shared/CookiesNotice'
-import { isBrowser } from '../utils'
 
 export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ children, className }) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
@@ -33,16 +31,11 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
         <meta property='og:image' content={resolveUrl(fbShareImage)} />
         <meta property='og:url' content={resolveUrl(pathname)} />
         {/* Ideally simply adding import("https://widget.clutch.co/static/js/widget.js") would work */}
-        <script
-          type='text/javascr
-ipt'
-          src={'https://widget.clutch.co/static/js/widget.js'}
-          defer={true}
-        />
+        <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} />
       </Helmet>
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
+
       {children}
-      {isBrowser() ? <CookiesNotice /> : <div></div>}
       <Footer />
     </div>
   )
