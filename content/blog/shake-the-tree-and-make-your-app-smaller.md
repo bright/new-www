@@ -9,7 +9,7 @@ date: 2022-11-03T19:21:13.187Z
 meaningfullyUpdatedAt: 2022-11-03T19:21:13.201Z
 title: Shake the tree and make your app smaller
 layout: post
-image: /images/treeshaking-featured.jpg
+image: /images/treeshaking-featured-1-1-.jpg
 hidden: false
 comments: true
 published: true
@@ -88,7 +88,7 @@ This is basically what a side-effect is. It’s an action causing an effect obse
 
 It’s hard to determine what exactly is included in the bundle. Certainly, it’s doable by code analysis, but there must be another way and there is. Ladies and gentlemen, I give you Webpack Bundle Analyzer.
 
-<div class="image"><img src="/images/webpack-bundle-analyzer.gif" alt="Animated image presenting the features of Webpack Bundle Analyzer." title="undefined"  /> </div>
+<center><div class="image"><img src="/images/webpack-bundle-analyzer.gif" alt="Animated image presenting the features of Webpack Bundle Analyzer." title="undefined"  /></div></center>
 
 This tool can read and parse the statistics generated while bundling by Webpack and present gathered data as an interactive graph, where every module is presented as a coloured rectangle. This way you can navigate through your app and look for libraries occupying way too much space. What’s even more interesting is not only external libraries are included, but also your code. This way you can tell if some modules should be lazy-loaded.
 
@@ -96,7 +96,7 @@ This tool can read and parse the statistics generated while bundling by Webpack 
 
 Sometimes we have to choose one from the set of libraries providing the same functionality. Instead of installing them one by one and running the analyzer mentioned before, we can determine the cost of an import.
 
-<div class="image"><img src="/images/bundlephobia.png" alt="Bundlephobia's logo - figure holding head with hands." title="undefined"  /> </div>
+<center><div class="image"><img src="/images/bundlephobia.png" alt="Bundlephobia's logo - figure holding head with hands." title="undefined"  /></div></center>
 
 There is a tool called Bundlephobia, which presents various information about the library and can tell if it’s tree-shakeable and side-effect free. It also suggests alternatives, if there are any available. It’s going to save you a lot of time and make the selection process way easier. A must-have in a web developer toolset.
 
