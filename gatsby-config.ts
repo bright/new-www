@@ -192,7 +192,7 @@ const gatsbyConfig: GatsbyConfig = {
         publicPath: `admin`,
         htmlTitle: `Content Manager`,
         customizeWebpackConfig: (config: PartialWebpackConfig) => {
-          config.devtool = false; // does
+          config.devtool = false // does
           config.resolve = {
             ...config.resolve,
             alias: {
@@ -324,8 +324,8 @@ const gatsbyConfig: GatsbyConfig = {
         prependToBody: false,
         color: `#f7931e`,
         footerHeight: 1000,
-        headerHeight: 73
-      }
+        headerHeight: 73,
+      },
     },
     'simple-mdx',
     'content-collections',
@@ -333,8 +333,8 @@ const gatsbyConfig: GatsbyConfig = {
   ].filter(isDefined),
   mapping: {
     'Mdx.frontmatter.faqs': `Mdx.frontmatter.faqs_id`,
-    'Mdx.frontmatter.project': `Mdx.frontmatter.project_id`
+    'Mdx.frontmatter.project': `Mdx.frontmatter.project_id`,
   },
-  graphqlTypegen: true
+  graphqlTypegen: true,
 }
 export default gatsbyConfig
