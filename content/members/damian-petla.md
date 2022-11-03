@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: damian-p
-ex: false
+ex: true
 slug: damian-p
 name: Damian Petla
 short_name: Damian
