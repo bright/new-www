@@ -57,6 +57,75 @@ export const UploadFieldContainer = styled.label`
     justify-self: center;
   }
 `
+export const CheckboxSwitchContainer = styled.label`
+  position: relative;
+  width: 57px;
+  display: inline-block;
+  text-align: left;
+  top: 8px;
+
+  input {
+    display: none;
+  }
+  label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid #bbb;
+    border-radius: 20px;
+    width: 57px;
+  }
+  .inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+  }
+  .inner:before,
+  .inner:after {
+    float: left;
+    width: 50%;
+    height: 36px;
+    padding: 0;
+    line-height: 36px;
+    color: #757575;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+  .inner:before {
+    content: '';
+    padding-left: 10px;
+    background-color: ${variables.color.primary};
+    color: #fff;
+  }
+  .inner:after {
+    content: '';
+    padding-right: 10px;
+    background-color: #d3d3d3;
+    color: #757575;
+    text-align: right;
+  }
+  .switch {
+    display: block;
+    width: 24px;
+    margin: 5px;
+    background: #757575;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 24px;
+    border: 0 solid #bbb;
+    border-radius: 16px;
+    transition: all 0.3s ease-in 0s;
+  }
+  input:checked + label .inner {
+    margin-left: 0;
+  }
+  input:checked + label .switch {
+    right: 0px;
+    background: #fff;
+  }
+`
 
 export const CheckboxFieldContainer = styled.label`
   display: flex;
