@@ -42,6 +42,7 @@ jobs:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
           CI: true
           GATSBY_ACTIVE_ENV: production
+          GATSBY_CPU_COUNT: 1
       - run: yarn run build
         if: ${{ github.ref == 'refs/heads/staging' }}
         env:
@@ -50,6 +51,7 @@ jobs:
           DEPLOY_S3_BUCKET_NAME: 'brightinventions-pl-website-content-staging'
           GATSBY_ACTIVE_ENV: staging
           SITE_URL: 'https://staging.brightinventions.pl/'
+          GATSBY_CPU_COUNT: 1
   deploy-s3:
     runs-on: ubuntu-latest
     needs:
