@@ -1,10 +1,7 @@
-const MDX = require('@mdx-js/runtime').default
-
 import { gatsbyMdxOptions } from '../gatsby-mdx-options'
+import { mdxComponents } from '../mdx'
 
-const mdxComponents = {
-  // pre
-}
+const MDX = require('@mdx-js/runtime').default
 
 interface MdxPreviewProps {
   value: string // actual mdx

@@ -6,6 +6,8 @@ import { importantInfoConfig } from './importantInfoConfig'
 import { quoteConfig } from './quoteConfig'
 import { TagsControl, TagsPreview } from './tags'
 
+const { controlComponent } = require('netlify-cms-widget-markdown')
+
 import { withStyledInjectedIntoPreviewFrame } from './with-styled-injected-into-preview-frame'
 import { MdxPreview } from './mdx-preview'
 // https://www.gatsbyjs.com/plugins/gatsby-plugin-netlify-cms/#modulepath
@@ -15,12 +17,10 @@ import '../styles/main.scss'
 import './styles/quote.css'
 import { applyFixForJumpingCursorIssue } from './fix-for-jumping-cursor'
 
-const { MdxControl } = require('netlify-cms-widget-mdx')
-
 applyFixForJumpingCursorIssue()
 
 CMS.registerWidget('tags', TagsControl, TagsPreview)
-CMS.registerWidget('mdx', MdxControl, MdxPreview)
+CMS.registerWidget('mdx', controlComponent, MdxPreview)
 
 
 CMS.registerPreviewTemplate('blog', withStyledInjectedIntoPreviewFrame(BlogPostPreview))
