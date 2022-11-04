@@ -1,9 +1,11 @@
 import { MDXProvider } from '@mdx-js/react'
 import React, { ReactNode } from 'react'
-import { YouTubeWrapper } from './youtube'
+import { BrightYouTubeEmbed } from './youtube-embed'
+import { BrightInstagramEmbed } from './instagram-embed'
 
 export const mdxComponents = {
-  YouTube: YouTubeWrapper
+  YouTubeEmbed: BrightYouTubeEmbed,
+  InstagramEmbed: BrightInstagramEmbed
 }
 
 export const MDXComponentsWrapper = ({ children }: { children?: ReactNode | undefined }) =>

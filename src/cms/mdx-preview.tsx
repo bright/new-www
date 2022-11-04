@@ -1,18 +1,22 @@
 import { gatsbyMdxOptions } from '../gatsby-mdx-options'
 import { mdxComponents } from '../mdx'
+import React, { Suspense } from 'react'
 
-const MDX = require('@mdx-js/runtime').default
+// @ts-ignore
+const MDX = React.lazy(() => import('@mdx-js/runtime'))
 
 interface MdxPreviewProps {
   value: string // actual mdx
 }
 
 export const MdxPreview = ({ value }: MdxPreviewProps) => {
-  return <MDX
-    remarkPlugins={gatsbyMdxOptions.mdxOptions.remarkPlugins}
-    rehypePlugins={gatsbyMdxOptions.mdxOptions.rehypePlugins}
-    components={mdxComponents}
-  >
-    {value}
-  </MDX>
+  return <Suspense fallback={<div>Loading...</div>}>
+    <MDX
+      remarkPlugins={gatsbyMdxOptions.mdxOptions.remarkPlugins}
+      rehypePlugins={gatsbyMdxOptions.mdxOptions.rehypePlugins}
+      components={mdxComponents}
+    >
+      {value}
+    </MDX>
+  </Suspense>
 }
