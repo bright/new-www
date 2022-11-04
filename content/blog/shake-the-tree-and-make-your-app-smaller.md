@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2022-11-03T19:21:13.201Z
 title: Shake the tree and make your app smaller
 layout: post
 image: /images/treeshaking-featured-1-1-.jpg
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
