@@ -6,7 +6,7 @@ import { importantInfoConfig } from './importantInfoConfig'
 import { quoteConfig } from './quoteConfig'
 import { TagsControl, TagsPreview } from './tags'
 
-const { controlComponent } = require('netlify-cms-widget-markdown')
+const MarkdownWidget = require('netlify-cms-widget-markdown').default
 
 import { withStyledInjectedIntoPreviewFrame } from './with-styled-injected-into-preview-frame'
 import { MdxPreview } from './mdx-preview'
@@ -20,7 +20,8 @@ import { applyFixForJumpingCursorIssue } from './fix-for-jumping-cursor'
 applyFixForJumpingCursorIssue()
 
 CMS.registerWidget('tags', TagsControl, TagsPreview)
-CMS.registerWidget('mdx', controlComponent, MdxPreview)
+console.log({controlComponent: MarkdownWidget.controlComponent})
+CMS.registerWidget('mdx', MarkdownWidget.controlComponent, MdxPreview)
 
 
 CMS.registerPreviewTemplate('blog', withStyledInjectedIntoPreviewFrame(BlogPostPreview))
