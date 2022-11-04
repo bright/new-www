@@ -14,6 +14,6 @@ published: true
 ---
 Eager to learn new technologies and develop soft skills. Focused on the business aspect of software development. Loves order both in code and life. Fan of sailing and scrabble.
 
-`youtube: https://youtu.be/Mg0HP-EIzBc`
+<YouTube videoId='Mg0HP-EIzBc' />
 
 Join Wojciech! [Check our career opportunities](/career).

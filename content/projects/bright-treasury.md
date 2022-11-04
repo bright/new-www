@@ -37,7 +37,7 @@ published: true
 
 ## About BrightTreasury
 
-`youtube: https://youtu.be/AKe5HynDQnU`
+<YouTube videoId='AKe5HynDQnU' />
 
 The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocurrency pot of funds collected mostly through transaction fees, slashing and staking inefficiency. The fund is managed by Polkadot and Kusama Substrate networks. The Treasury funds can be spent on any proposal related to developing or promoting the Substrate Blockchain technology. Bright Inventions has been developing a web application that will make the grunt application more user-friendly. The project was backed by Substrate community by receiving a grant from the [Web3 Foundation](https://web3.foundation/). The first stage of development was funded by Web3 Foundation. Now the app is 100% supported by Polkadot and Kusama Treasuries.
 
