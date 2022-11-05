@@ -16,15 +16,16 @@ import { MdxPreview } from './mdx-preview'
 import '../styles/main.scss'
 import './styles/quote.css'
 import { applyFixForJumpingCursorIssue } from './fix-for-jumping-cursor'
+import { withPreviewFrameProvider } from './with-preview-frame-provider'
 
 applyFixForJumpingCursorIssue()
 
 CMS.registerWidget('tags', TagsControl, TagsPreview)
-console.log({controlComponent: MarkdownWidget.controlComponent})
+
 CMS.registerWidget('mdx', MarkdownWidget.controlComponent, MdxPreview)
 
 
-CMS.registerPreviewTemplate('blog', withStyledInjectedIntoPreviewFrame(BlogPostPreview))
+CMS.registerPreviewTemplate('blog', withPreviewFrameProvider(withStyledInjectedIntoPreviewFrame(BlogPostPreview)))
 CMS.registerEditorComponent({ ...buttonBlockConfig })
 CMS.registerEditorComponent({ ...hiddenImageConfig })
 CMS.registerEditorComponent({ ...importantInfoConfig })

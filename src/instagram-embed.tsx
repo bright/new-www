@@ -1,20 +1,13 @@
 import { InstagramEmbed, InstagramEmbedProps } from 'react-social-media-embed'
 import React from 'react'
-import { loadScript } from './cms/load-script'
-import { waitFor } from './wait-for'
+import { useFrame } from 'react-frame-component'
 
 export const BrightInstagramEmbed = (props: InstagramEmbedProps) => {
+  const frame = useFrame()
   props = {
     width: '100%',
+    ...frame,
     ...props
   }
   return <InstagramEmbed {...props} />
-}
-
-export function loadAndProcessInstagramEmbedsIn(document: Document) {
-  loadScript('https://www.instagram.com/embed.js', document)
-    .then(async () => {
-      const Embed = await waitFor(() => (window as any).instgrm.Embed, { delayMillis: 1000, retry: 2 })
-      Embed.process()
-    })
 }
