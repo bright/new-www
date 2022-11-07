@@ -13239,7 +13239,7 @@ react-fast-compare@^3.1.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
-react-frame-component@^5.2.1:
+react-frame-component@^5.2.1, react-frame-component@^5.2.3:
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/react-frame-component/-/react-frame-component-5.2.3.tgz#2d5d1e29b23d5b915c839b44980d03bb9cafc453"
   integrity sha512-r+h0o3r/uqOLNT724z4CRVkxQouKJvoi3OPfjqWACD30Y87rtEmeJrNZf1WYPGknn1Y8200HAjx7hY/dPUGgmA==
@@ -13464,10 +13464,10 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.2.tgz#dc6345b9e8f9906dc2eeb68700b615e0b4fe752a"
   integrity sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==
 
-react-social-media-embed@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/react-social-media-embed/-/react-social-media-embed-2.2.5.tgz#ba3659416d4a139549f09eee125806bfb73049ae"
-  integrity sha512-VOVr90X1ZFxIbcPZ8ji3gTuHhSC5TG9GVvWACySgY2iQd107U5oFhjbPR3PEvqD9QAalkLNnVwfUueRSD4//gQ==
+react-social-media-embed@^2.2.9:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/react-social-media-embed/-/react-social-media-embed-2.2.9.tgz#1c57f5bf1c39fc909e411c29f28981876a351b32"
+  integrity sha512-TkmeBe1byXo5X1FG27F3O028NMFk7JPvZwBFPS/QYNllf7UAktLFqoLYQbkHlWJDW2NuzAJMesNjYl4r406gOg==
   dependencies:
     classnames "^2.3.2"
     react-twitter-embed "^4.0.4"

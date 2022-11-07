@@ -6,7 +6,7 @@ export const BrightInstagramEmbed = (props: InstagramEmbedProps) => {
   const frame = useFrame()
   props = {
     width: '100%',
-    ...frame,
+    frame,
     ...props
   }
   return <InstagramEmbed {...props} />
