@@ -88,7 +88,7 @@ This is basically what a side-effect is. It’s an action causing an effect obse
 
 It’s hard to determine what exactly is included in the bundle. Certainly, it’s doable by code analysis, but there must be another way and there is. Ladies and gentlemen, I give you Webpack Bundle Analyzer.
 
-<center><div class="image"><img src="/images/webpack-bundle-analyzer.gif" alt="Animated image presenting the features of Webpack Bundle Analyzer." title="undefined"  /></div></center>
+<center><div class="image"><img src="/images/webpack-bundle-analyzer.gif" alt="Animated image presenting the features of Webpack Bundle Analyzer."  /></div></center>
 
 This tool can read and parse the statistics generated while bundling by Webpack and present gathered data as an interactive graph, where every module is presented as a coloured rectangle. This way you can navigate through your app and look for libraries occupying way too much space. What’s even more interesting is not only external libraries are included, but also your code. This way you can tell if some modules should be lazy-loaded.
 
@@ -98,7 +98,7 @@ Sometimes we have to choose one from the set of libraries providing the same fun
 
 <center>
 
-<div class="image"><img src="/images/blog_post_story-19-.png" alt="Bundlephobia's logo - figure holding head with hands." title="undefined"  /> </div>
+<div class="image"><img src="/images/blog_post_story-19-.png" alt="Bundlephobia's logo - figure holding head with hands." /> </div>
 
 </center>
 
