@@ -14,6 +14,9 @@ hidden: true
 comments: true
 published: true
 ---
+<div class="image"><img src="/images/treeshaking-featured-1-1-.jpg" alt="Man walking in a forest, yellow leaves falling."  /></div>
+<br />
+
 In an ideal world, there would be no delays and everything would load blazingly fast no matter where you are. Unfortunately, it’s a totally different story in reality. We’ve made significant progress in recent years in expanding the coverage of 4G/LTE mobile networks and replacing old copper with shiny fiber, but still, there are places in the world, where every kilobyte is at a premium. 
 
 We would love to see our application load blazingly fast even in such severe conditions, but in some cases, it‘s not that easy to provide both an exceptional and cheap experience. That’s why it’s important to know how to limit the amount of code our application includes. One of the tools helping us with this task is tree shaking, but what exactly is it?
@@ -88,7 +91,7 @@ This is basically what a side-effect is. It’s an action causing an effect obse
 
 It’s hard to determine what exactly is included in the bundle. Certainly, it’s doable by code analysis, but there must be another way and there is. Ladies and gentlemen, I give you Webpack Bundle Analyzer.
 
-<center><div class="image"><img src="/images/webpack-bundle-analyzer.gif" alt="Animated image presenting the features of Webpack Bundle Analyzer."  /></div></center>
+<center><div class="image"><img src="/images/webpack-bundle-analyzer.gif" alt="Animated image presenting the features of Webpack Bundle Analyzer."  /></div></center><br />
 
 This tool can read and parse the statistics generated while bundling by Webpack and present gathered data as an interactive graph, where every module is presented as a coloured rectangle. This way you can navigate through your app and look for libraries occupying way too much space. What’s even more interesting is not only external libraries are included, but also your code. This way you can tell if some modules should be lazy-loaded.
 
@@ -97,9 +100,7 @@ This tool can read and parse the statistics generated while bundling by Webpack 
 Sometimes we have to choose one from the set of libraries providing the same functionality. Instead of installing them one by one and running the analyzer mentioned before, we can determine the cost of an import.
 
 <center>
-
-<div class="image"><img src="/images/blog_post_story-19-.png" alt="Bundlephobia's logo - figure holding head with hands." /> </div>
-
+<div class="image"><img src="/images/blog_post_bundlephobia.png" alt="Bundlephobia's logo - figure holding head with hands." /> </div>
 </center>
 
 There is a tool called Bundlephobia, which presents various information about the library and can tell if it’s tree-shakeable and side-effect free. It also suggests alternatives, if there are any available. It’s going to save you a lot of time and make the selection process way easier. A must-have in a web developer toolset.
