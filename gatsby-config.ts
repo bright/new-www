@@ -140,7 +140,7 @@ export default {
         },
 
         // defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development'],
+        environments: ['production', 'development', 'staging'],
       },
     },
 
@@ -191,7 +191,7 @@ export default {
         publicPath: `admin`,
         htmlTitle: `Content Manager`,
         customizeWebpackConfig: (config: PartialWebpackConfig) => {
-          config.devtool = false; // does
+          config.devtool = false // does
           config.resolve = {
             ...config.resolve,
             alias: {
