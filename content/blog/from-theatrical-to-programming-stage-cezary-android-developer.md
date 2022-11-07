@@ -97,7 +97,7 @@ After work, I still have the strength to follow my passions which is not always 
 
 As an example let me show you and play a musical instrument I have built. This is the doshpuluur - a musical instrument from Asia.
 
-<YouTube videoId='d-8KhE3YdRU' />
+<YouTubeEmbed url='https://www.youtube.com/watch?v=d-8KhE3YdRU' />
 
 ## When you come to the office, you bring a lovely companion with you. Can you tell us more about her? 😉
 

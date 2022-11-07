@@ -5,6 +5,7 @@ import { gatsbyPluginFeedOptions } from './src/gatsby-plugin-feed-options'
 import * as path from 'path'
 import { isDefined } from './src/is-defined'
 import { gatsbyMdxOptions } from './src/gatsby-mdx-options'
+import { PartialWebpackConfig } from './src/partial-webpack-config'
 
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
 const isDevelop = !process.env.GATSBY_ACTIVE_ENV
@@ -189,11 +190,12 @@ export default {
         enableIdentityWidget: true,
         publicPath: `admin`,
         htmlTitle: `Content Manager`,
-        customizeWebpackConfig: (config: any) => {
+        customizeWebpackConfig: (config: PartialWebpackConfig) => {
+          config.devtool = false; // does
           config.resolve = {
             ...config.resolve,
             alias: {
-              ...config.resolve.alias,
+              ...config.resolve?.alias,
               // https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/#requireresolve
               // path: require.resolve("path-browserify")
               path: path.resolve(path.join(__dirname, 'node_modules', 'path-browserify')),
@@ -202,7 +204,7 @@ export default {
               // buffer: path.resolve(path.join(__dirname, 'node_modules', 'buffer'))
             },
             fallback: {
-              ...config.resolve.fallback,
+              ...config.resolve?.fallback,
               fs: false,
               child_process: false,
               module: false,
@@ -211,7 +213,7 @@ export default {
           }
           // required by netlify-cms-widget-mdx
           config.plugins = [
-            ...config.plugins,
+            ...(config.plugins ?? []),
             new ProvidePlugin({
               process: path.resolve(path.join(__dirname, 'node_modules', 'process/browser')),
             }),

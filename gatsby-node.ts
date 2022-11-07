@@ -2,9 +2,10 @@ import type { GatsbyNode } from 'gatsby'
 import { allMdxData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
-import { config, IgnorePlugin } from 'webpack'
+import { IgnorePlugin } from 'webpack'
 import readingTime from 'reading-time'
 import { toDate } from './src/to-date'
+import { PartialWebpackConfig } from './src/partial-webpack-config'
 
 const path = require('path')
 
@@ -479,9 +480,10 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNod
     }
   }
 }
-type PartialWebpackConfig = Partial<Parameters<typeof config.getNormalizedWebpackOptions>[0]>
+
 export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ stage, actions }) => {
   actions.setWebpackConfig({
+    devtool: false,
     plugins: [
       //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms#disable-widget-on-site
       new IgnorePlugin({

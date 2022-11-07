@@ -38,9 +38,7 @@ restaurants and pick up their orders in eco-friendly, reusable containers that y
 weeks. **We are proudly helping Relevo to grow by developing its web and mobile
 applications.** [Go deeper into the Relevo story.](/projects/eco-friendly-app/)
 
-
-![instagram](CSpCokcIxnH)
-
+<InstagramEmbed url="https://www.instagram.com/p/CSpCokcIxnH/" />
 
 ## 3. HappyCow
 
@@ -55,7 +53,7 @@ to clean their surroundings and therefore motivates a community to make bigger c
 them, take pictures and tag it to show the community the power of seemingly little actions. Then the app creates maps of
 the litter cleaned by people around the world to engage more people to act!
 
-<YouTube videoId="es4w3WUcrN0" />
+<YouTubeEmbed url='https://www.youtube.com/watch?v=es4w3WUcrN0' />
 
 ## 5. Geev
 
