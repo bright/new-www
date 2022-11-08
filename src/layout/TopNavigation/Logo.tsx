@@ -15,7 +15,7 @@ export const Logo: React.FC = () => {
       />
       <StaticImage
         alt={'Bright Inventions logo'}
-        className={classNames(styles.logo, styles.big)}
+        className={styles.logo}
         src='../../../static/images/bright_inventions_logo_500-01.png'
         loading='eager'
         backgroundColor='#ffffff'
