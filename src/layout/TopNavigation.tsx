@@ -20,7 +20,7 @@ const TopMenu: MenuElement[] = [
   { link: routeLinks.projects, title: 'case studies' },
   { link: routeLinks.career, title: 'career' },
   { link: routeLinks.blog, title: 'blog' },
-  { link: routeLinks.startProject, title: 'estimate project', className: classNames('is-primary', styles.estimate) },
+  { link: routeLinks.startProject, title: 'estimate project', className: 'is-primary' },
 ]
 
 type Props = {
