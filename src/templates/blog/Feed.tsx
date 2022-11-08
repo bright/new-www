@@ -5,9 +5,8 @@ import { deleteTimestampFromUrl } from '../../helpers/pathHelpers'
 import { BlogPostModel } from '../../models/gql'
 
 import * as styles from './Feed.module.scss'
-import { GatsbyImage, getImage, getSrc } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
 import { Link } from 'gatsby'
 
 const BlogPostDummyUrl = '/images/dummy/blog_post.png'
@@ -77,7 +76,7 @@ const Post: React.FC<{ post: BlogPostModel }> = ({ post }) => {
                     'MMM dd, yyyy'
                   )}
             </div>
-            <div className={styles.tags}>{post.tags.join(', ')}</div>
+            <div>{post.tags.join(', ')}</div>
           </div>
           <div className={styles.title}>{post.title}</div>
         </div>
