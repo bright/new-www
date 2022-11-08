@@ -1,8 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby'
-import React, { useRef } from 'react'
+import React from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { ServiceModel } from '../../../models/gql'
-import ReactMarkdown from 'react-markdown'
 import { routeLinks } from '../../../config/routing'
 
 import {
@@ -46,7 +45,7 @@ const OurDevelopmentAreas = () => {
                   />
                   <Title>{service.name}</Title>
                 </SectionTitleContainer>
-                <ReactMarkdown children={service.short_description} />
+                {service.short_description}
               </RevertHoverLink>
             </DevelopmentAreaContainer>
           ))}
