@@ -24,7 +24,7 @@ recruting_image3_title: programming task
 description: We are looking for Senior Automation Developer - Mobile and Web who
   will take on the challenge of building our automation infrastructure from
   scratch.
-orser: 12
+order: 12
 ---
 We are a software development and consultancy studio based in Gdańsk, Poland. Since 2012 we have built software for more than 40 businesses worldwide, and have made a name for ourselves in a whole array of services: idea consulting, product design, software development, IoT, Blockchain, and more.
 
