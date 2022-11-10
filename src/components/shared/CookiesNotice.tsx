@@ -172,11 +172,11 @@ function CookiesNotice() {
         containerClasses={'cookies-wrapper'}
         onAccept={isAllowSelected => {
           if (isAllowSelected) {
-            Cookies.set('gatsby-gdpr-google-tagmanager', `${consents.anlystics}`, { expires: 365 })
+            Cookies.set('gatsby-gdpr-google-analytics', `${consents.anlystics}`, { expires: 365 })
             Cookies.set('gatsby-gdpr-hotjar', `${consents.anlystics}`, { expires: 365 })
             Cookies.set('gatsby-gdpr-facebook-pixel', `${consents.marketing}`, { expires: 365 })
           } else {
-            Cookies.set('gatsby-gdpr-google-tagmanager', 'true', { expires: 365 })
+            Cookies.set('gatsby-gdpr-google-analytics', 'true', { expires: 365 })
             Cookies.set('gatsby-gdpr-hotjar', 'true', { expires: 365 })
             Cookies.set('gatsby-gdpr-facebook-pixel', 'true', { expires: 365 })
           }
