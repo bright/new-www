@@ -298,7 +298,7 @@ collections:
       - { label: 'Intro', name: 'intro', widget: 'string' }
       - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
       - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
-      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - { label: 'Description (rich content)', name: 'description_mdx', widget: 'markdown' }
       - { label: 'Button', name: 'button', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Button2', name: 'button2', widget: 'string' }

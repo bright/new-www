@@ -34,7 +34,7 @@ title: make your software worthy with product workshops
 intro: We offer product workshops for startups and larger organisations.
 image_our_service: /images/productworkshops_small.png
 image_alt_our_service: product workshops
-description: >-
+description_mdx: >-
   We believe that product workshops are an integral part of the product
   development process, no matter which stages your product is in. During the
   product workshop, we will help you discover your product idea, set your

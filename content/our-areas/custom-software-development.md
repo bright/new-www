@@ -39,7 +39,7 @@ title: be unique with custom software development
 intro: We help to address your clients needs.
 image_our_service: /images/customsoftwaredevelopment_small.png
 image_alt_our_service: custom software development
-description: Every business is unique. Bespoke software development can truly
+description_mdx: Every business is unique. Bespoke software development can truly
   address your needs, challenges, and goals. By adopting a personalized approach
   for your software development, we also simplify and optimize your workflows.
 button: let's talk

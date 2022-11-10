@@ -37,6 +37,7 @@ type Mdx implements Node {
 
 type MdxFrontmatter {
  links_more_about_us: SimpleMdx
+ description_mdx: SimpleMdx
 }
 `,
   ])

@@ -152,9 +152,7 @@ export default function Template({
         <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
           <CustomSectionInner>
             <TextRegular className='content'>
-              <Content>
-                <ReactMarkdown children={description} />
-              </Content>
+              <Content dangerouslySetInnerHTML={{__html: description.html}} />
             </TextRegular>
             <Link to={'#contactForm'}>
               <BlackButtonOurService>{button}</BlackButtonOurService>
@@ -272,7 +270,7 @@ export const pageQuery = graphql`
                 title
                 intro
                 slug
-                description
+                description_mdx { html }
                 button
                 button2
                 show_case_study

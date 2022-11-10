@@ -38,7 +38,7 @@ title: build a strong team with Agile workshops
 intro: We have used Agile to build over 50 projects.
 image_our_service: /images/agile_workshops_small.png
 image_alt_our_service: agile workshops
-description: We live and breathe Agile. For almost a decade we have used Agile
+description_mdx: We live and breathe Agile. For almost a decade we have used Agile
   methodology to develop software projects for clients from various industries.
   We provide hands-on consulting, coaching, and Agile training for businesses.
   We work directly with your software developers and we have the experience to

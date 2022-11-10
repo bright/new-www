@@ -31,7 +31,7 @@ title: embrace your idea with product design
 intro: Every software needs a design touch.
 image_our_service: /images/productdesign_2.png
 image_alt_our_service: product design
-description: >-
+description_mdx: >-
   We know what it takes to create not only functional but also beautifully
   crafted online products that are memorable to your audience. You can count on
   our expertise in interface analysis, animation design, UX and UI design, as

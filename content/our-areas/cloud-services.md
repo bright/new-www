@@ -32,7 +32,7 @@ title: join the future with cloud computing services
 intro: Improve security with cloud computing company.
 image_our_service: /images/cloudservices1.png
 image_alt_our_service: cloud computing services
-description: Join the serverless movement. Improve security and reduce costs
+description_mdx: Join the serverless movement. Improve security and reduce costs
   with cloud computing services. Migrate your solution to the cloud or develop a
   cloud application from the scratch. As an AWS cloud services provider, we will
   assist you every step of the way. Since 2012 we have developed applications in

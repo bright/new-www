@@ -37,7 +37,7 @@ title: launch your idea with MVP development
 intro: We are an experienced MVP partner ready to assist you.
 image_our_service: /images/mvp_development2.png
 image_alt_our_service: mvp development company
-description: Do you want to build an MVP? You came to the right place. We have
+description_mdx: Do you want to build an MVP? You came to the right place. We have
   developed MVPs for startups, NGOs and consulting agencies from the USA, UK,
   Germany, Norway and more. Let’s work on your MVP.
 button: let's talk about MVP

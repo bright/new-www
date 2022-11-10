@@ -40,7 +40,7 @@ intro: If you are looking for a web development company, you’ve come to the
   right place!
 image_our_service: /images/web_development_small.png
 image_alt_our_service: web development company
-description: We provide a wide range of **custom full-stack web development
+description_mdx: We provide a wide range of **custom full-stack web development
   services** for small, medium, and large businesses. Since 2012 we’ve gained
   experience in developing web apps, web services, and websites that are
   tailor-made to fit our clients’ goals. We’ve worked with clients from the UK,

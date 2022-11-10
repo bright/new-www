@@ -616,6 +616,7 @@ type MdxFrontmatter {
     ): Date
     description: String
     description_contact: String
+    description_mdx: SimpleMdx
     descrption: String
     email: String
     ex: Boolean
@@ -1336,6 +1337,7 @@ enum FileFieldsEnum {
     childMdx___frontmatter___date
     childMdx___frontmatter___description
     childMdx___frontmatter___description_contact
+    childMdx___frontmatter___description_mdx___html
     childMdx___frontmatter___descrption
     childMdx___frontmatter___email
     childMdx___frontmatter___ex
@@ -1812,6 +1814,7 @@ enum FileFieldsEnum {
     childrenMdx___frontmatter___date
     childrenMdx___frontmatter___description
     childrenMdx___frontmatter___description_contact
+    childrenMdx___frontmatter___description_mdx___html
     childrenMdx___frontmatter___descrption
     childrenMdx___frontmatter___email
     childrenMdx___frontmatter___ex
@@ -2608,6 +2611,7 @@ enum MdxFieldsEnum {
     frontmatter___date
     frontmatter___description
     frontmatter___description_contact
+    frontmatter___description_mdx___html
     frontmatter___descrption
     frontmatter___email
     frontmatter___ex
@@ -4128,6 +4132,7 @@ input MdxFrontmatterFilterInput {
     date: DateQueryOperatorInput
     description: StringQueryOperatorInput
     description_contact: StringQueryOperatorInput
+    description_mdx: SimpleMdxFilterInput
     descrption: StringQueryOperatorInput
     email: StringQueryOperatorInput
     ex: BooleanQueryOperatorInput
