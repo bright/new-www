@@ -13,13 +13,6 @@ export const gatsbyMdxOptions = {
   },
   gatsbyRemarkPlugins: [
     {
-      resolve: 'gatsby-remark-instagram-embed',
-      options: {
-        width: 320,
-        height: 320
-      }
-    },
-    {
       resolve: 'gatsby-remark-responsive-iframe'
     },
     {
