@@ -123,10 +123,9 @@ export default {
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        googleTagManager: {
-          trackingId: isProduction ? ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476'] : '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-tagmanager', // default
-          dataLayerName: 'dataLayer', // default
+        googleAnalytics: {
+          trackingId:  isProduction ? 'UA-29336006-1' : '', // leave empty if you want to disable the tracker
+          cookieName: 'gatsby-gdpr-google-analytics', // default
         },
         facebookPixel: {
           pixelId: `${process.env.GATSBY_ACTIVE_ENV === 'production' ? '1256554391514599' : ''}`, // leave empty if you want to disable the tracker
