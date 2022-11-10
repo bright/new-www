@@ -252,7 +252,6 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
               slug
               faqs {
                 frontmatter {
-                  answer
                   question
                 }
               }
@@ -276,7 +275,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     })
 
     const faqs = service.node.frontmatter.faqs
-    faqs.forEach((faq: { frontmatter: { answer: string; question: string } }) => {
+    faqs.forEach((faq: { frontmatter: { question: string } }) => {
       createPage({
         path: 'our-areas/' + service.node.frontmatter.slug + '/' + _.kebabCase(faq.frontmatter.question.toLowerCase()),
         component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${service.node.internal.contentFilePath}`,

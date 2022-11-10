@@ -15,9 +15,8 @@ import {
 } from '../components/shared/index.styled'
 
 import TeamMembers from './../components/subcomponents/TeamMembers'
-import { ProjectCustomSection, Projects } from '../components/home/Projects'
+import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
-import ReactMarkdown from 'react-markdown'
 import { kebabCase } from './../helpers/pathHelpers'
 import {
   CustomSectionOurService,
@@ -32,7 +31,6 @@ import {
   OurServiceSection
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
-import { ProjectModel } from '../models/gql'
 
 export default function Template({
                                    data,
@@ -96,7 +94,6 @@ export default function Template({
 
   const {
     faqs,
-    name,
     image_alt_our_service,
     meta_title,
     meta_description,
@@ -112,7 +109,6 @@ export default function Template({
     title_faqs,
     title_contact,
     description_contact,
-    intro,
     project: projects,
     slug
   } = page
@@ -152,7 +148,7 @@ export default function Template({
         <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
           <CustomSectionInner>
             <TextRegular className='content'>
-              <Content dangerouslySetInnerHTML={{__html: description.html}} />
+              {description && <Content dangerouslySetInnerHTML={{__html: description.html}} /> }
             </TextRegular>
             <Link to={'#contactForm'}>
               <BlackButtonOurService>{button}</BlackButtonOurService>
@@ -210,7 +206,7 @@ export default function Template({
                 <FaqWrapper ref={kebabCase(question) == kebabCase(faqTitle) ? myRef : null} key={question}>
                   {answer ? (
                     <Question onClick={() => handleShow(i)} shown={show[i]}>
-                      <ReactMarkdown children={question} />
+                      {question}
 
                       <span>
                         <img src='/images/arrowFaqs.svg' alt='' />
@@ -218,11 +214,8 @@ export default function Template({
                     </Question>
                   ) : null}
 
-                  {show[i] ? (
-                    <FaqsTextRegural className='content'>
-                      {' '}
-                      <ReactMarkdown children={answer} />
-                    </FaqsTextRegural>
+                  {show[i] && answer ? (
+                    <FaqsTextRegural className='content' dangerouslySetInnerHTML={{__html: answer.html}} />
                   ) : null}
                 </FaqWrapper>
               )
@@ -249,7 +242,7 @@ export const pageQuery = graphql`
                 team_members
                 faqs {
                     frontmatter {
-                        answer
+                        answer { html }
                         question
                     }
                 }

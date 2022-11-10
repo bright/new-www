@@ -12,7 +12,7 @@ export const FaqStructuredData = ({ faqs }: any) => {
       name: question,
       acceptedAnswer: {
         '@type': 'Answer',
-        text: removeMarkdown(answer),
+        text: answer.html,
       },
     }
 

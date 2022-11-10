@@ -21,3 +21,11 @@ Production build is done by `gatsby build`
 
 We're using https://github.com/gatsbyjs/gatsby/discussions/34613#discussioncomment-2276231
 be careful when upgrading gatsby.
+
+## SimpleMdx
+
+There's a custom SimpleMdx type defined that allows
+using MDX inside frontmatter fields.
+
+It only handles simple html conversion. Probably not even styling.
+See `JobTemplate.tsx` and `links_more_about_us` for an example.
