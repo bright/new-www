@@ -1,8 +1,26 @@
+diff --git a/node_modules/gatsby/dist/utils/api-runner-node.js b/node_modules/gatsby/dist/utils/api-runner-node.js
+index 0de401e..aa0105b 100644
+--- a/node_modules/gatsby/dist/utils/api-runner-node.js
++++ b/node_modules/gatsby/dist/utils/api-runner-node.js
+@@ -344,6 +344,7 @@ const availableActionsCache = new Map();
+ let publicPath;
+ 
+ const runAPI = async (plugin, api, args, activity) => {
++  // console.log('runAPI', {plugin, api, args, activity})
+   const gatsbyNode = requireGatsbyPlugin(plugin, `gatsby-node`);
+ 
+   if (gatsbyNode[api]) {
 diff --git a/node_modules/gatsby/dist/utils/parcel/compile-gatsby-files.js b/node_modules/gatsby/dist/utils/parcel/compile-gatsby-files.js
-index c737a3a..a870cf9 100644
+index c737a3a..e60f0a4 100644
 --- a/node_modules/gatsby/dist/utils/parcel/compile-gatsby-files.js
 +++ b/node_modules/gatsby/dist/utils/parcel/compile-gatsby-files.js
-@@ -59,7 +59,98 @@ function constructParcel(siteRoot, cache) {
+@@ -54,12 +54,211 @@ function constructParcel(siteRoot, cache) {
+   return new _core.Parcel({
+     entries: [`${siteRoot}/${gatsbyFileRegex}`, `${siteRoot}/plugins/**/${gatsbyFileRegex}`],
+     defaultConfig: require.resolve(`gatsby-parcel-config`),
+-    mode: `production`,
++    mode: `development`,
+     cache,
      targets: {
        root: {
          outputFormat: `commonjs`,
@@ -98,6 +116,114 @@ index c737a3a..a870cf9 100644
 +          'micromark-factory-whitespace',
 +          'mri',
 +          'ms',
++          // required by @mdx-js/react
++          '@mdx-js/react',
++          // required by @mdx-js/mdx
++          '@mdx-js/mdx',
++          'estree-walker',
++          'estree-util-is-identifier-name',
++          'estree-util-to-js',
++          'markdown-extensions',
++          'estree-util-build-jsx',
++          'hast-util-to-estree',
++          'periscopic',
++          'remark-parse',
++          'remark-mdx',
++          'unist-util-position-from-estree',
++          'source-map',
++          'unist-util-visit',
++          'remark-rehype',
++          'unified',
++          'unist-util-stringify-position',
++          'vfile',
++          'astring',
++          'mdast-util-mdxjs-esm',
++          'comma-separated-tokens',
++          'estree-util-attach-comments',
++          'hast-util-whitespace',
++          'mdast-util-mdx-expression',
++          'zwitch',
++          'property-information',
++          'space-separated-tokens',
++          'mdast-util-from-markdown',
++          'unist-util-position',
++          'style-to-object',
++          'is-reference',
++          'bail',
++          'extend',
++          'is-plain-obj',
++          'mdast-util-mdx',
++          'micromark-extension-mdxjs',
++          'unist-util-visit-parents',
++          'unist-util-is',
++          'mdast-util-to-hast',
++          'mdast-util-to-markdown',
++          'is-buffer',
++          'trough',
++          'mdast-util-to-string',
++          'micromark',
++          'vfile-message',
++          'uvu',
++          'micromark-util-types',
++          'decode-named-character-reference',
++          'acorn',
++          'micromark-util-decode-string',
++          'micromark-util-decode-numeric-character-reference',
++          'micromark-util-normalize-identifier',
++          'micromark-util-symbol',
++          'acorn-jsx',
++          'micromark-extension-mdx-expression',
++          'inline-style-parser',
++          'mdast-util-mdx-jsx',
++          'trim-lines',
++          'micromark-extension-mdx-md',
++          'micromark-util-combine-extensions',
++          'micromark-extension-mdxjs-esm',
++          'micromark-extension-mdx-jsx',
++          'mdast-util-definitions',
++          'micromark-util-sanitize-uri',
++
++          'debug',
++          'unist-builder',
++          'unist-util-generated',
++          'longest-streak',
++          'micromark-core-commonmark',
++          'micromark-factory-space',
++          'micromark-util-character',
++          'micromark-util-chunked',
++          'micromark-util-encode',
++          'micromark-util-resolve-all',
++          'kleur',
++          'character-entities',
++          'diff',
++          'micromark-util-subtokenize',
++          'micromark-util-events-to-acorn',
++          'parse-entities',
++          'stringify-entities',
++          'dequal',
++          'sade',
++          'micromark-factory-mdx-expression',
++          'ccount',
++          'unist-util-remove-position',
++          'ms',
++          'micromark-util-classify-character',
++          'micromark-util-html-tag-name',
++          'micromark-factory-label',
++          'micromark-factory-destination',
++          'micromark-factory-title',
++          'micromark-factory-whitespace',
++          'character-entities-legacy',
++          'is-alphanumerical',
++          'is-hexadecimal',
++          'character-reference-invalid',
++          'is-decimal',
++          'mri',
++          'estree-util-visit',
++          'vfile-location',
++          'is-alphabetical',
++          'character-entities-html4',
++
++
 +        ])),
          sourceMap: process.env.NODE_ENV === `development`,
          engines: {

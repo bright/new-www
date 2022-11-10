@@ -1,3 +1,4 @@
+import { createSimpleMdx } from './src/schema-customization'
 import type { GatsbyNode } from 'gatsby'
 import { allMdxData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tag-groups'
@@ -317,7 +318,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
     return
   }
-  debugger;
+
   const postsResult = postResult.data!.allMdx.edges
 
   postsResult.forEach(post => {
@@ -491,4 +492,8 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
       })
     ]
   } as PartialWebpackConfig)
+}
+
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization']  = async (actions) => {
+  createSimpleMdx(actions)
 }

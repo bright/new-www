@@ -1,7 +1,6 @@
-import React, { MutableRefObject, PropsWithChildren } from 'react'
+import React, { PropsWithChildren } from 'react'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import ReactMarkdown from 'react-markdown'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
@@ -554,6 +553,7 @@ export default function Template({
   const ref: any = React.useRef<HTMLDivElement>(null)
   const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
 
+  const linksMoreAboutUsHtml = page.links_more_about_us?.html
   return (
     <Page>
       <HelmetTitleDescription title={page.title} description={page.description} />
@@ -625,9 +625,7 @@ export default function Template({
           )}
 
           <TextRegular>
-            <WrapperLinks>
-              <ReactMarkdown children={page.links_more_about_us} />
-            </WrapperLinks>
+            <WrapperLinks dangerouslySetInnerHTML={{__html: linksMoreAboutUsHtml}} />
           </TextRegular>
         </CustomSectionInner>
       </CustomSection>
@@ -754,7 +752,7 @@ export const pageQuery = graphql`
                 title_more_about_us
                 show_new_title_more_about_us
                 show_recruiter_info
-                links_more_about_us
+                links_more_about_us { html }
                 title_recruiter_info
                 name_recruiter
                 workplace_recruiter

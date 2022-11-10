@@ -636,7 +636,7 @@ type MdxFrontmatter {
     imagejob: File
     intro: String
     layout: String
-    links_more_about_us: String
+    links_more_about_us: SimpleMdx
     meaningfullyUpdatedAt(
         "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
         difference: String,
@@ -662,7 +662,6 @@ type MdxFrontmatter {
     name: String
     name_recruiter: String
     order: Int
-    orser: Int
     our_services_icon: File
     project: [Mdx]
     project_id: String
@@ -696,7 +695,7 @@ type MdxFrontmatter {
     title_recruiter_info: String
     title_team: String
     twitter: String
-        web: String
+    web: String
     working_time: String
     workplace_recruiter: String
 }
@@ -744,6 +743,10 @@ type Query {
     siteFunction(absoluteCompiledFilePath: StringQueryOperatorInput, children: NodeFilterListInput, functionRoute: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, matchPath: StringQueryOperatorInput, originalAbsoluteFilePath: StringQueryOperatorInput, originalRelativeFilePath: StringQueryOperatorInput, parent: NodeFilterInput, pluginName: StringQueryOperatorInput, relativeCompiledFilePath: StringQueryOperatorInput): SiteFunction
     sitePage(children: NodeFilterListInput, component: StringQueryOperatorInput, componentChunkName: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, internalComponentName: StringQueryOperatorInput, matchPath: StringQueryOperatorInput, pageContext: JSONQueryOperatorInput, parent: NodeFilterInput, path: StringQueryOperatorInput, pluginCreator: SitePluginFilterInput): SitePage
     sitePlugin(browserAPIs: StringQueryOperatorInput, children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, name: StringQueryOperatorInput, nodeAPIs: StringQueryOperatorInput, packageJson: JSONQueryOperatorInput, parent: NodeFilterInput, pluginFilepath: StringQueryOperatorInput, pluginOptions: JSONQueryOperatorInput, resolve: StringQueryOperatorInput, ssrAPIs: StringQueryOperatorInput, version: StringQueryOperatorInput): SitePlugin
+}
+
+type SimpleMdx {
+    html: String
 }
 
 type Site implements Node {
@@ -1506,7 +1509,7 @@ enum FileFieldsEnum {
     childMdx___frontmatter___imagejob___uid
     childMdx___frontmatter___intro
     childMdx___frontmatter___layout
-    childMdx___frontmatter___links_more_about_us
+    childMdx___frontmatter___links_more_about_us___html
     childMdx___frontmatter___meaningfullyUpdatedAt
     childMdx___frontmatter___meta_description
     childMdx___frontmatter___meta_title
@@ -1514,7 +1517,6 @@ enum FileFieldsEnum {
     childMdx___frontmatter___name
     childMdx___frontmatter___name_recruiter
     childMdx___frontmatter___order
-    childMdx___frontmatter___orser
     childMdx___frontmatter___our_services_icon___absolutePath
     childMdx___frontmatter___our_services_icon___accessTime
     childMdx___frontmatter___our_services_icon___atime
@@ -1590,7 +1592,6 @@ enum FileFieldsEnum {
     childMdx___frontmatter___title_recruiter_info
     childMdx___frontmatter___title_team
     childMdx___frontmatter___twitter
-    childMdx___frontmatter___update_date
     childMdx___frontmatter___web
     childMdx___frontmatter___working_time
     childMdx___frontmatter___workplace_recruiter
@@ -1984,7 +1985,7 @@ enum FileFieldsEnum {
     childrenMdx___frontmatter___imagejob___uid
     childrenMdx___frontmatter___intro
     childrenMdx___frontmatter___layout
-    childrenMdx___frontmatter___links_more_about_us
+    childrenMdx___frontmatter___links_more_about_us___html
     childrenMdx___frontmatter___meaningfullyUpdatedAt
     childrenMdx___frontmatter___meta_description
     childrenMdx___frontmatter___meta_title
@@ -1992,7 +1993,6 @@ enum FileFieldsEnum {
     childrenMdx___frontmatter___name
     childrenMdx___frontmatter___name_recruiter
     childrenMdx___frontmatter___order
-    childrenMdx___frontmatter___orser
     childrenMdx___frontmatter___our_services_icon___absolutePath
     childrenMdx___frontmatter___our_services_icon___accessTime
     childrenMdx___frontmatter___our_services_icon___atime
@@ -2068,7 +2068,6 @@ enum FileFieldsEnum {
     childrenMdx___frontmatter___title_recruiter_info
     childrenMdx___frontmatter___title_team
     childrenMdx___frontmatter___twitter
-    childrenMdx___frontmatter___update_date
     childrenMdx___frontmatter___web
     childrenMdx___frontmatter___working_time
     childrenMdx___frontmatter___workplace_recruiter
@@ -2653,7 +2652,6 @@ enum MdxFieldsEnum {
     frontmatter___faqs___frontmatter___image_alt_recruiter_info
     frontmatter___faqs___frontmatter___intro
     frontmatter___faqs___frontmatter___layout
-    frontmatter___faqs___frontmatter___links_more_about_us
     frontmatter___faqs___frontmatter___meaningfullyUpdatedAt
     frontmatter___faqs___frontmatter___meta_description
     frontmatter___faqs___frontmatter___meta_title
@@ -2661,7 +2659,6 @@ enum MdxFieldsEnum {
     frontmatter___faqs___frontmatter___name
     frontmatter___faqs___frontmatter___name_recruiter
     frontmatter___faqs___frontmatter___order
-    frontmatter___faqs___frontmatter___orser
     frontmatter___faqs___frontmatter___project
     frontmatter___faqs___frontmatter___project_id
     frontmatter___faqs___frontmatter___published
@@ -2694,7 +2691,6 @@ enum MdxFieldsEnum {
     frontmatter___faqs___frontmatter___title_recruiter_info
     frontmatter___faqs___frontmatter___title_team
     frontmatter___faqs___frontmatter___twitter
-    frontmatter___faqs___frontmatter___update_date
     frontmatter___faqs___frontmatter___web
     frontmatter___faqs___frontmatter___working_time
     frontmatter___faqs___frontmatter___workplace_recruiter
@@ -2989,7 +2985,7 @@ enum MdxFieldsEnum {
     frontmatter___imagejob___uid
     frontmatter___intro
     frontmatter___layout
-    frontmatter___links_more_about_us
+    frontmatter___links_more_about_us___html
     frontmatter___meaningfullyUpdatedAt
     frontmatter___meta_description
     frontmatter___meta_title
@@ -2997,7 +2993,6 @@ enum MdxFieldsEnum {
     frontmatter___name
     frontmatter___name_recruiter
     frontmatter___order
-    frontmatter___orser
     frontmatter___our_services_icon___absolutePath
     frontmatter___our_services_icon___accessTime
     frontmatter___our_services_icon___atime
@@ -3104,7 +3099,6 @@ enum MdxFieldsEnum {
     frontmatter___project___frontmatter___image_alt_recruiter_info
     frontmatter___project___frontmatter___intro
     frontmatter___project___frontmatter___layout
-    frontmatter___project___frontmatter___links_more_about_us
     frontmatter___project___frontmatter___meaningfullyUpdatedAt
     frontmatter___project___frontmatter___meta_description
     frontmatter___project___frontmatter___meta_title
@@ -3112,7 +3106,6 @@ enum MdxFieldsEnum {
     frontmatter___project___frontmatter___name
     frontmatter___project___frontmatter___name_recruiter
     frontmatter___project___frontmatter___order
-    frontmatter___project___frontmatter___orser
     frontmatter___project___frontmatter___project
     frontmatter___project___frontmatter___project_id
     frontmatter___project___frontmatter___published
@@ -3145,7 +3138,6 @@ enum MdxFieldsEnum {
     frontmatter___project___frontmatter___title_recruiter_info
     frontmatter___project___frontmatter___title_team
     frontmatter___project___frontmatter___twitter
-    frontmatter___project___frontmatter___update_date
     frontmatter___project___frontmatter___web
     frontmatter___project___frontmatter___working_time
     frontmatter___project___frontmatter___workplace_recruiter
@@ -3193,7 +3185,6 @@ enum MdxFieldsEnum {
     frontmatter___title_recruiter_info
     frontmatter___title_team
     frontmatter___twitter
-    frontmatter___update_date
     frontmatter___web
     frontmatter___working_time
     frontmatter___workplace_recruiter
@@ -4157,7 +4148,7 @@ input MdxFrontmatterFilterInput {
     imagejob: FileFilterInput
     intro: StringQueryOperatorInput
     layout: StringQueryOperatorInput
-    links_more_about_us: StringQueryOperatorInput
+    links_more_about_us: SimpleMdxFilterInput
     meaningfullyUpdatedAt: DateQueryOperatorInput
     meta_description: StringQueryOperatorInput
     meta_title: StringQueryOperatorInput
@@ -4165,7 +4156,6 @@ input MdxFrontmatterFilterInput {
     name: StringQueryOperatorInput
     name_recruiter: StringQueryOperatorInput
     order: IntQueryOperatorInput
-    orser: IntQueryOperatorInput
     our_services_icon: FileFilterInput
     project: MdxFilterListInput
     project_id: StringQueryOperatorInput
@@ -4199,7 +4189,7 @@ input MdxFrontmatterFilterInput {
     title_recruiter_info: StringQueryOperatorInput
     title_team: StringQueryOperatorInput
     twitter: StringQueryOperatorInput
-        web: StringQueryOperatorInput
+    web: StringQueryOperatorInput
     working_time: StringQueryOperatorInput
     workplace_recruiter: StringQueryOperatorInput
 }
@@ -4235,6 +4225,10 @@ input Potrace {
     threshold: Int
     turdSize: Float
     turnPolicy: PotraceTurnPolicy
+}
+
+input SimpleMdxFilterInput {
+    html: StringQueryOperatorInput
 }
 
 input SiteBuildMetadataFilterInput {
