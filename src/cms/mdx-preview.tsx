@@ -1,21 +1,34 @@
-import { gatsbyMdxOptions } from '../gatsby-mdx-options'
 import { mdxComponents } from '../mdx'
-import React, { Suspense } from 'react'
-
-// @ts-ignore
-const MDX = React.lazy(() => import('@mdx-js/runtime'))
+import React, { useEffect, useState } from 'react'
+import { compileMDXToReactComponentSafely, MDXCompiledContentOrError } from '../compile-mdx-to-react-component'
+import styled from 'styled-components'
 
 interface MdxPreviewProps {
   value: string // actual mdx
 }
 
+const Error = styled.div`
+  color: red;
+  font-weight: bold;
+`
+
 export const MdxPreview = ({ value }: MdxPreviewProps) => {
-  return <Suspense fallback={<div>Loading...</div>}>
-    <MDX remarkPlugins={gatsbyMdxOptions.mdxOptions.remarkPlugins}
-         rehypePlugins={gatsbyMdxOptions.mdxOptions.rehypePlugins}
-         components={mdxComponents}
-    >
-      {value}
-    </MDX>
-  </Suspense>
+  const [compiledResult, setCompiledResult] = useState<MDXCompiledContentOrError | null>(null)
+
+  useEffect(() => {
+    compileMDXToReactComponentSafely(value).then(setCompiledResult)
+  }, [value])
+
+  const error = compiledResult?.error
+  const Component = compiledResult?.Component
+
+  if (error) {
+    return <Error>{compiledResult?.error}</Error>
+  }
+
+  if (Component) {
+    return <Component components={mdxComponents} />
+  }
+
+  return <div>Loading...</div>
 }
