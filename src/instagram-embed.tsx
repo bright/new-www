@@ -1,4 +1,4 @@
-import { InstagramEmbed, InstagramEmbedProps } from 'react-social-media-embed'
+import { InstagramEmbed, InstagramEmbedProps } from 'react-social-media-embed/dist/components/embeds/InstagramEmbed'
 import React from 'react'
 import { useFrame } from 'react-frame-component'
 

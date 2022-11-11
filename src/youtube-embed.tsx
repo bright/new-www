@@ -1,5 +1,4 @@
-import { YouTubeEmbedProps } from 'react-social-media-embed/dist/components/embeds/YouTubeEmbed'
-import { YouTubeEmbed } from 'react-social-media-embed'
+import { YouTubeEmbed, YouTubeEmbedProps } from 'react-social-media-embed/dist/components/embeds/YouTubeEmbed'
 import React from 'react'
 
 export const BrightYouTubeEmbed = (props: YouTubeEmbedProps) => {
