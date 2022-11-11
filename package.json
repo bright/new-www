@@ -8,7 +8,6 @@
     "@mdx-js/react": "^2.1.5",
     "@parcel/transformer-react-refresh-wrap": "^2.7.0",
     "@types/loadable__component": "^5.13.4",
-    "@weknow/gatsby-remark-twitter": "^0.2.3",
     "babel-plugin-styled-components": "^2.0.7",
     "buffer": "^6.0.3",
     "classnames": "^2.3.1",

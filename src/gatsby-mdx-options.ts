@@ -17,9 +17,6 @@ export const gatsbyMdxOptions = {
       resolve: 'gatsby-remark-responsive-iframe'
     },
     {
-      resolve: '@weknow/gatsby-remark-twitter'
-    },
-    {
       resolve: `gatsby-remark-external-links`
     },
     {
