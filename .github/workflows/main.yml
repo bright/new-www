@@ -36,6 +36,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gatsby-build-v29-${{ github.ref_name }}
       - run: yarn install
+      - run: yarn tsc --noEmit
       - run: yarn run build
         if: ${{ github.ref == 'refs/heads/gatsby' }}
         env:
