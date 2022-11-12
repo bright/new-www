@@ -1,0 +1,10 @@
+{
+  "name": "content-collections",
+  "version": "1.0.0",
+  "description": "Content collections",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

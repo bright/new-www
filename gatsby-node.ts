@@ -1,10 +1,11 @@
-import { createContentResolvers, createSimpleMdx, onCreateContentNode } from './src/schema-customization'
-import type { CreateResolversArgs, GatsbyNode } from 'gatsby'
+import type { GatsbyNode } from 'gatsby'
 import { allMdxData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
 import { IgnorePlugin } from 'webpack'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
+import readingTime from 'reading-time'
+import { toDate } from './src/to-date'
 
 const path = require('path')
 
@@ -451,9 +452,48 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer' })
 }
 
-export const onCreateNode: GatsbyNode['onCreateNode'] = async (args) => {
-  if (args.node.internal.type === `Mdx`) {
-    await onCreateContentNode(args)
+export const onCreateNode: GatsbyNode['onCreateNode'] = async ({
+  createNodeId,
+  node,
+  actions: { createNodeField },
+}) => {
+  if (node.internal.type === `Mdx`) {
+    const nodeFilePath = node.internal.contentFilePath!
+    if (!node.internal.contentFilePath) {
+      console.log('no contentFilePath in', node)
+    }
+
+    const nodeSlug = '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
+    console.log('nodeSlug', nodeSlug, 'for path', nodeFilePath)
+
+    createNodeField({
+      node,
+      name: `slug`,
+      // TODO: figure out correct type instead of as any
+      value: nodeSlug,
+    })
+
+    createNodeField({
+      node,
+      name: 'timeToRead',
+      value: readingTime(node.body as string),
+    })
+
+    const date = toDate((node.frontmatter as any)?.date)
+
+    if (date) {
+      const meaningfullyUpdatedAt = toDate((node.frontmatter as any)?.meaningfullyUpdatedAt)
+      const modifiedAt = meaningfullyUpdatedAt ?? date
+      createNodeField({
+        node,
+        name: 'modifiedAt', // used for sorting of blog posts
+        value: modifiedAt,
+      })
+    } else {
+      if (nodeSlug.includes('blog')) {
+        console.warn('No date found for blog', { node, nodeSlug })
+      }
+    }
   }
 }
 
@@ -467,12 +507,4 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
       }),
     ],
   } as PartialWebpackConfig)
-}
-
-export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async actions => {
-  await createSimpleMdx(actions)
-}
-
-export const createResolvers: GatsbyNode['createResolvers'] = async (args: CreateResolversArgs) => {
-  createContentResolvers(args)
 }

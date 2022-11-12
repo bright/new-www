@@ -11,11 +11,11 @@ export class ContentCollection {
   private folderFullPath: string
 
   constructor({
-                name,
-                label,
-                folder,
-                fields
-              }: {
+    name,
+    label,
+    folder,
+    fields,
+  }: {
     name: string
     label: string
     folder: string
@@ -50,7 +50,7 @@ interface ContentConfig {
 let _contentConfig: ContentConfig | null = null
 
 async function loadContentConfig(): Promise<ContentConfig> {
-  const configYmlContent = await readFile(path.join(__dirname, '..', 'static', 'admin', 'config.yml'), 'utf-8')
+  const configYmlContent = await readFile(path.join(process.cwd(), 'static', 'admin', 'config.yml'), 'utf-8')
   const contentConfig: ContentConfig = yaml.load(configYmlContent) as any
   contentConfig.collections = contentConfig.collections.map(col => new ContentCollection(col))
   return contentConfig

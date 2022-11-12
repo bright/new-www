@@ -22,7 +22,7 @@ In this post we will see how to convert an existing [express](https://expressjs.
 
 ## An express app
 
-For our example to be complete we need an express application. Let's use a single `index.js` file to define it:
+For our example to be complete we need an express application. Let's use a single `gatsby-node.js` file to define it:
 
 ```javascript
 const express = require('express');
@@ -49,13 +49,13 @@ The above application has only 2 endpoints:
 - `GET /v1/version` returns API version
 - `POST /v1/echo` sends back the request body
 
-We start the application as any other node app with `node index.js`.
+We start the application as any other node app with `node gatsby-node.js`.
 
 ## Convert the express app to AWS Lambda
 
 [The AWS Lambda Node.js](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html) runtime model differs from a simple `node fileName.js` invocation. For the AWS Lambda to invoke our application code we need to structure it appropriately. Thankfully the [aws-serverless-express](https://github.com/awslabs/aws-serverless-express) module adapts express to AWS Lambda Node.js runtime model.
 
-Let's adapt our `index.js` file to support `aws-serverless-express`:
+Let's adapt our `gatsby-node.js` file to support `aws-serverless-express`:
 
 ```javascript
 const isInLambda = !!process.env.LAMBDA_TASK_ROOT;

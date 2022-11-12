@@ -291,7 +291,9 @@ export default {
         footerHeight: 1000,
         headerHeight: 73
       }
-    }
+    },
+    'simple-mdx',
+    'content-collections'
   ].filter(isDefined),
   mapping: {
     'Mdx.frontmatter.faqs': `Mdx.frontmatter.faqs_id`,
