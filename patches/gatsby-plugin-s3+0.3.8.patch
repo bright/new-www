@@ -1,0 +1,13 @@
+diff --git a/node_modules/gatsby-plugin-s3/bin.js b/node_modules/gatsby-plugin-s3/bin.js
+index a1a6b81..e21e1d1 100755
+--- a/node_modules/gatsby-plugin-s3/bin.js
++++ b/node_modules/gatsby-plugin-s3/bin.js
+@@ -216,6 +216,8 @@ exports.deploy = async ({ yes, bucket, userAgent } = {}) => {
+                         console.error(ex);
+                         process.exit(1);
+                     }
++                } else {
++                    console.log('Skipping unchaged', {path})
+                 }
+             }));
+         });
