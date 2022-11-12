@@ -5,7 +5,7 @@ ex: false
 slug: tomasz-sch
 name: Tomasz Scharmach
 short_name: Tomasz
-email: tomasz.scharmach
+email: tomasz.scharmach@brightinventions.pl
 bio: Backend Developer
 description: Backend Developer
 avatar: /images/tomek_sz.png

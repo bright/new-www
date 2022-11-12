@@ -1,11 +1,9 @@
-import { createSimpleMdx } from './src/schema-customization'
-import type { GatsbyNode } from 'gatsby'
+import { createContentResolvers, createSimpleMdx, onCreateContentNode } from './src/schema-customization'
+import type { CreateResolversArgs, GatsbyNode } from 'gatsby'
 import { allMdxData, GQLData } from './src/models/gql'
 import { loadTagGroups, TagGroup } from './src/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
 import { IgnorePlugin } from 'webpack'
-import readingTime from 'reading-time'
-import { toDate } from './src/to-date'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
 
 const path = require('path')
@@ -35,8 +33,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         limit: postsPerPage,
         skip: i * postsPerPage,
         numPages,
-        currentPage: i + 1
-      }
+        currentPage: i + 1,
+      },
     })
   })
 
@@ -60,8 +58,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             limit: postsPerPage,
             skip: i * postsPerPage,
             numPages,
-            currentPage: i + 1
-          }
+            currentPage: i + 1,
+          },
         })
       })
 
@@ -84,8 +82,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                   limit: postsPerPage,
                   skip: i * postsPerPage,
                   numPages,
-                  currentPage: i + 1
-                }
+                  currentPage: i + 1,
+                },
               })
             })
           })
@@ -100,7 +98,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         edges {
           node {
             id
-            internal {  contentFilePath  }
+            internal {
+              contentFilePath
+            }
             frontmatter {
               slug
               author_id
@@ -207,7 +207,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
       const uniqueAuthors = allAuthors
         .filter((v, i, a) => a.findIndex(t => t.node.fields.slug === v.node.fields.slug) === i)
-        .sort(function(a, b) {
+        .sort(function (a, b) {
           return new Date(b.node.frontmatter.date).getTime() - new Date(a.node.frontmatter.date).getTime()
         })
 
@@ -218,24 +218,28 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       if (posts.length === 0) {
         createPage({
           path: `/about-us/${_.kebabCase(member)}`,
-          component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${node.internal.contentFilePath}`,
+          component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${
+            node.internal.contentFilePath
+          }`,
           context: {
-            id: node.id
-          }
+            id: node.id,
+          },
         })
       } else {
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
             path: i == 0 ? `/about-us/${_.kebabCase(member)}` : `/about-us/${_.kebabCase(member)}/${i + 1}`,
-            component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${node.internal.contentFilePath}`,
+            component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${
+              node.internal.contentFilePath
+            }`,
             context: {
               id: node.id,
               limit: postsPerPage,
               skip: i * postsPerPage,
               numPages,
               posts: i == 0 ? posts.slice(i, postsPerPage) : posts.slice(i * postsPerPage, (i + 1) * postsPerPage),
-              currentPage: i + 1
-            }
+              currentPage: i + 1,
+            },
           })
         })
       }
@@ -256,7 +260,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                 }
               }
             }
-            internal {  contentFilePath  }
+            internal {
+              contentFilePath
+            }
           }
         }
       }
@@ -267,23 +273,27 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   services.forEach(service => {
     createPage({
       path: 'our-areas/' + service.node.frontmatter.slug,
-      component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${service.node.internal.contentFilePath}`,
+      component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${
+        service.node.internal.contentFilePath
+      }`,
       context: {
         id: service.node.id,
-        slug: service.node.frontmatter.slug
-      }
+        slug: service.node.frontmatter.slug,
+      },
     })
 
     const faqs = service.node.frontmatter.faqs
     faqs.forEach((faq: { frontmatter: { question: string } }) => {
       createPage({
         path: 'our-areas/' + service.node.frontmatter.slug + '/' + _.kebabCase(faq.frontmatter.question.toLowerCase()),
-        component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${service.node.internal.contentFilePath}`,
+        component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${
+          service.node.internal.contentFilePath
+        }`,
         context: {
           id: service.node.id,
           faqTitle: faq.frontmatter.question,
-          slug: service.node.frontmatter.slug
-        }
+          slug: service.node.frontmatter.slug,
+        },
       })
     })
   })
@@ -306,7 +316,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                 tags
                 slug
               }
-              internal {  contentFilePath  }
+              internal {
+                contentFilePath
+              }
             }
           }
         }
@@ -362,8 +374,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       context: {
         id: postNode.id,
         slug: postNode.fields.slug,
-        relatedTags: relatedTags
-      }
+        relatedTags: relatedTags,
+      },
     })
   })
 
@@ -421,8 +433,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         context: {
           id: node.id,
           // additional data can be passed via context
-          slug: node.frontmatter.slug
-        }
+          slug: node.frontmatter.slug,
+        },
       })
     })
   }
@@ -439,45 +451,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer' })
 }
 
-export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
-
-  if (node.internal.type === `Mdx`) {
-    const nodeFilePath = node.internal.contentFilePath!
-    if (!node.internal.contentFilePath) {
-      console.log('no contentFilePath in', node)
-    }
-
-    const nodeSlug = '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
-    console.log('nodeSlug', nodeSlug, 'for path', nodeFilePath)
-
-    createNodeField({
-      node,
-      name: `slug`,
-      // TODO: figure out correct type instead of as any
-      value: nodeSlug
-    })
-
-    createNodeField({
-      node,
-      name: 'timeToRead',
-      value: readingTime(node.body as string)
-    })
-
-    const date = toDate((node.frontmatter as any)?.date)
-    if (date) {
-      const meaningfullyUpdatedAt = toDate((node.frontmatter as any)?.meaningfullyUpdatedAt)
-      const modifiedAt = meaningfullyUpdatedAt ?? date
-      createNodeField({
-        node,
-        name: 'modifiedAt', // used for sorting of blog posts
-        value: modifiedAt
-      })
-    } else {
-      if (nodeSlug.includes('blog')) {
-        console.warn('No date found for blog', { node, nodeSlug })
-      }
-    }
+export const onCreateNode: GatsbyNode['onCreateNode'] = async (args) => {
+  if (args.node.internal.type === `Mdx`) {
+    await onCreateContentNode(args)
   }
 }
 
@@ -487,12 +463,16 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
     plugins: [
       //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-netlify-cms#disable-widget-on-site
       new IgnorePlugin({
-        resourceRegExp: /^netlify-identity-widget$/
-      })
-    ]
+        resourceRegExp: /^netlify-identity-widget$/,
+      }),
+    ],
   } as PartialWebpackConfig)
 }
 
-export const createSchemaCustomization: GatsbyNode['createSchemaCustomization']  = async (actions) => {
-  createSimpleMdx(actions)
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async actions => {
+  await createSimpleMdx(actions)
+}
+
+export const createResolvers: GatsbyNode['createResolvers'] = async (args: CreateResolversArgs) => {
+  createContentResolvers(args)
 }
