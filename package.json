@@ -89,7 +89,8 @@
     "patch-package": "^6.4.7",
     "postinstall-postinstall": "^2.1.0",
     "prettier": "2.0.4",
-    "sass": "^1.54.0"
+    "sass": "^1.54.0",
+    "dts-css-modules-loader": "^2.0.1"
   },
   "keywords": [
     "gatsby"
@@ -99,6 +100,7 @@
     "build": "NODE_OPTIONS=${NODE_OPTIONS:---max-old-space-size=5750} gatsby build --prefix-paths --log-pages",
     "build:debug": "node --inspect-brk $(which gatsby) build --prefix-paths --log-pages",
     "clean": "gatsby clean",
+    "tsc": "tsc",
     "deploy": "gh-pages -d public",
     "deploy-s3": "gatsby-plugin-s3 deploy",
     "invalidate-cf-cache": "aws cloudfront create-invalidation --distribution-id ${AWS_CLOUDFRONT_DISTRIBUTION_ID} --paths '/*'",
@@ -117,5 +119,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.39"
   }
 }

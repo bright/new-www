@@ -1,5 +1,5 @@
-import { Disqus } from "gatsby-plugin-disqus"
 import React from "react"
+const { Disqus }  = require("gatsby-plugin-disqus")
 
 interface DisqusCommentsProps {
   id: string

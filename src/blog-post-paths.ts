@@ -1,4 +1,4 @@
-import type { TagGroup } from './tag-groups'
+import type { TagGroup } from './tags/tag-groups'
 import { urlSegmentForContentPath } from './url-segment-for-content-path'
 import { kebabCase } from './helpers/pathHelpers'
 

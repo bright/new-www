@@ -85,7 +85,7 @@ export const BlogPostStructuredData = (props: {
     headline: props.title,
     image: siteUrl + getSrc(props.image),
     datePublished: props.publishedOn,
-    meaningfullyUpdatedAt: props.meaningfullyUpdatedAt,
+    dateModified: props.meaningfullyUpdatedAt,
     publisher: BrightInventionsOrganization,
     author: authorsData,
     abstract: props.excerpt,

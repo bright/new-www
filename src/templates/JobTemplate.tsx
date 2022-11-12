@@ -14,7 +14,7 @@ import {
   TextRegular,
   FlexWrapper,
   CustomSectionTitle,
-  Button
+  Button,
 } from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables from '../styles/variables'
@@ -518,32 +518,36 @@ const JobSection = styled.div`
 const Salary: React.FC<{ salary: string }> = ({ salary }) => {
   const salaryParts = salary.split(/or|\|/i).map(sal => sal.trim())
   if (salaryParts.length > 1) {
-    return salaryParts.map((sal, ix) => {
-      const salaryType = sal.match(/(UoP)|(B2B)/)
-      if (salaryType !== null) {
-        const salaryValue = salaryType.index && sal.slice(0, salaryType.index - 1)
-        return (
-          <div>
-            {salaryValue} (<span>{salaryType[0]}</span>)
-          </div>
-        )
-      } else {
-        return <div>{sal}</div>
-      }
-    })
+    return (
+      <>
+        {salaryParts.map((sal, ix) => {
+          const salaryType = sal.match(/(UoP)|(B2B)/)
+          if (salaryType !== null) {
+            const salaryValue = salaryType.index && sal.slice(0, salaryType.index - 1)
+            return (
+              <div key={ix}>
+                {salaryValue} (<span>{salaryType[0]}</span>)
+              </div>
+            )
+          } else {
+            return <div>{sal}</div>
+          }
+        })}
+      </>
+    )
   }
 
   return <SalaryHeading className='has-text-weight-normal'>{salaryParts[0]!}</SalaryHeading>
 }
 
 export default function Template({
-                                   data, // this prop will be injected by the GraphQL query below.
-                                   children
-                                 }: PropsWithChildren<{ data: { mdx: any } }>) {
+  data, // this prop will be injected by the GraphQL query below.
+  children,
+}: PropsWithChildren<{ data: { mdx: any } }>) {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
 
-  const technologies = page.technology
+  const technologies: string[] = page.technology
 
   const listTechnologies = technologies?.map(technology => <li key={technology}>{technology}</li>)
 
@@ -592,9 +596,7 @@ export default function Template({
         <CustomSection>
           <CustomSectionInner tabletXLMaxWidth='754px' laptopMaxWidth='754px' maxWidth='754px'>
             <JobSectionInner>
-              <div className='content'>
-                {children}
-              </div>
+              <div className='content'>{children}</div>
             </JobSectionInner>
           </CustomSectionInner>
         </CustomSection>
@@ -625,7 +627,7 @@ export default function Template({
           )}
 
           <TextRegular>
-            <WrapperLinks dangerouslySetInnerHTML={{__html: linksMoreAboutUsHtml}} />
+            <WrapperLinks dangerouslySetInnerHTML={{ __html: linksMoreAboutUsHtml }} />
           </TextRegular>
         </CustomSectionInner>
       </CustomSection>
@@ -735,40 +737,42 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-    query($id: String!) {
-        mdx(id: { eq: $id }) {
-            frontmatter {
-                slug
-                title
-                salary
-                description
-                subtitle
-                working_time
-                technology
-                button
-                image_alt_job
-                recruting_image2_title
-                recruting_image3_title
-                title_more_about_us
-                show_new_title_more_about_us
-                show_recruiter_info
-                links_more_about_us { html }
-                title_recruiter_info
-                name_recruiter
-                workplace_recruiter
-                image_alt_recruiter_info
-                button_linkedin
-                imagejob {
-                    childImageSharp {
-                        gatsbyImageData(quality: 100)
-                    }
-                }
-                image_recruiter_info {
-                    childImageSharp {
-                        gatsbyImageData(placeholder: DOMINANT_COLOR, layout: CONSTRAINED, height: 600)
-                    }
-                }
-            }
+  query($id: String!) {
+    mdx(id: { eq: $id }) {
+      frontmatter {
+        slug
+        title
+        salary
+        description
+        subtitle
+        working_time
+        technology
+        button
+        image_alt_job
+        recruting_image2_title
+        recruting_image3_title
+        title_more_about_us
+        show_new_title_more_about_us
+        show_recruiter_info
+        links_more_about_us {
+          html
         }
+        title_recruiter_info
+        name_recruiter
+        workplace_recruiter
+        image_alt_recruiter_info
+        button_linkedin
+        imagejob {
+          childImageSharp {
+            gatsbyImageData(quality: 100)
+          }
+        }
+        image_recruiter_info {
+          childImageSharp {
+            gatsbyImageData(placeholder: DOMINANT_COLOR, layout: CONSTRAINED, height: 600)
+          }
+        }
+      }
     }
+  }
 `

@@ -8,7 +8,7 @@ export const routeLinks = {
     }
     return `/about-us${params.page && `/${params.page}`}`
   },
-  blogTags(params?: { tag: string }) {
+  blogTags(params?: { tag: string | undefined }) {
     if (!params) {
       return `/blog/`
     }

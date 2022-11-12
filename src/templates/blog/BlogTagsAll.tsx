@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { ChangeEvent } from 'react'
 import tagsTree from '../../../tag-groups.yml'
 import { useEffect, useState } from 'react'
-import { Link } from 'gatsby'
+import { Link, navigate } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import { kebabCase } from '../../helpers/pathHelpers'
-import { SubTagsWrapper, TagsLink, TagsSelect, TagsWrapper } from '../../components/shared/components/index'
+import { SubTagsWrapper, TagsLink, TagsSelect, TagsWrapper } from '../../components/shared/components'
+import { RawGroup } from '../../tags/raw-group'
 
-const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
-  const [names, setNames] = useState([])
-  const [tags, setTags] = useState([])
+interface BlogTagsAllProps {
+  activeTag?: string
+  activeSubTag?: string
+}
+
+const BlogTagsAll = ({ activeTag, activeSubTag, ...props }: BlogTagsAllProps) => {
+  const [names, setNames] = useState<string[]>([])
+  const [tags, setTags] = useState<string[]>([])
   const [tagValue, setTagValue] = useState('')
   const [subTagValue, setSubTagValue] = useState('')
   const breakpoint = 769
@@ -24,10 +30,10 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
   }, [])
 
   const setCurrentGroupTagsNames = async () => {
-    const { groups } = tagsTree
+    const { groups }: { groups: RawGroup[] } = tagsTree as any
     const currentGroupNames = groups.map(el => el.name)
     const currentGroupTags = groups.filter(el => el.name == activeTag)
-    let currentGroupTagsNames = []
+    let currentGroupTagsNames: string[] = []
     if (currentGroupTags[0]?.groups) {
       currentGroupTagsNames =
         currentGroupTags && currentGroupTags.length > 0 ? currentGroupTags[0]?.groups.map(el => el.name) : []
@@ -44,23 +50,23 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
   }
 
   if (width < breakpoint && width > 0) {
-    const handleOnChange = ({ target }) => {
+    const handleOnChange = ({ target }: ChangeEvent<HTMLSelectElement>) => {
       const { value } = target
       if (value == routeLinks.blog) {
-        window.location = routeLinks.blog
+        navigate(routeLinks.blog)
       } else {
-        window.location = `${value}1`
+        navigate(`${value}1`)
       }
     }
 
-    const handleOnChangeSubTags = ({ target }) => {
+    const handleOnChangeSubTags = ({ target }: ChangeEvent<HTMLSelectElement>) => {
       const { value } = target
-      window.location = `${value}/1`
+      navigate(`${value}/1`)
     }
 
     return (
       <>
-        <TagsSelect value={tagValue} onChange={handleOnChange}>
+        <TagsSelect value={tagValue} onChange={e => handleOnChange(e)}>
           <option value={routeLinks.blog}>all areas</option>
           {typeof names !== 'undefined' &&
             names.length > 0 &&
@@ -77,7 +83,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
 
         {tags.length > 0 ? (
           <TagsSelect value={subTagValue} onChange={handleOnChangeSubTags}>
-            <option value={`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}1`}>All </option>
+            <option value={`${routeLinks.blogTags({ tag: activeTag?.toLowerCase() })}1`}>All</option>
 
             {tags.map((el, i) => {
               const kebabCaseTag = kebabCase(activeTag)
@@ -123,7 +129,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }) => {
           <SubTagsWrapper>
             <li className={!activeSubTag ? 'is-active' : ''}>
               {' '}
-              <Link to={`${routeLinks.blogTags({ tag: activeTag.toLowerCase() })}1`}>all</Link>
+              <Link to={`${routeLinks.blogTags({ tag: activeTag?.toLowerCase() })}1`}>all</Link>
             </li>
             {tags.map(el => {
               const kebabCaseTag = kebabCase(activeTag)

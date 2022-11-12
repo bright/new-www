@@ -1,6 +1,6 @@
 import { SiteMetadata } from './site-metadata'
 import { GQLData } from './models/gql'
-import { loadTagGroupsSync } from './tag-groups'
+import { loadTagGroupsSync } from './tags/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './blog-post-paths'
 import { trimStart } from 'lodash'
 

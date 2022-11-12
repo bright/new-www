@@ -20,6 +20,7 @@ export const hiddenImageConfig = {
     {
       label: 'Title',
       name: 'title',
+      widget: 'string',
     },
     {
       name: 'hideOnMobile',

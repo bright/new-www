@@ -76,3 +76,6 @@ node_modules
 
 .idea/vcs.xml
 .idea/aws.xml
+.idea/GitLink.xml
+.idea/jsLibraryMappings.xml
+.idea/compiler.xml

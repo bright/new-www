@@ -323,7 +323,6 @@ const TeamMembers = ({
                             alt={member.name}
                             className='avatar1'
                             imgClassName='image'
-                            quality={100}
                           />
 
                           <GatsbyImage
@@ -331,7 +330,6 @@ const TeamMembers = ({
                             alt={member.name}
                             className='avatar2'
                             imgClassName='image'
-                            quality={100}
                           />
                         </>
                       )}

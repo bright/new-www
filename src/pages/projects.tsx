@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby'
-import React, { useState } from 'react'
+import React, { ChangeEvent, useState } from 'react'
 import classNames from 'classnames'
 
 import { Page } from '../layout/Page'
@@ -54,7 +54,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
   const specificTag = declarationTag?.includes(selectedTag[0])
 
   const tagsEmpty = selectedTag.length === 0
-  const handleOnChange = ({ target }) => {
+  const handleOnChange = ({ target }: ChangeEvent<HTMLSelectElement>) => {
     const { value } = target
     if (value == 'allTags') {
       setSelectedTag([])
@@ -67,7 +67,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
   const breakpoint = 769
 
   const filteredProjects = projects.filter(
-    project => selectedTag.length === 0 || (project.tags && selectedTag.every(tag => project.tags.includes(tag)))
+    project => selectedTag.length === 0 || (project.tags && selectedTag.every(tag => project.tags?.includes(tag)))
   )
 
   return (

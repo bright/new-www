@@ -1,0 +1,10 @@
+{
+  "name": "scss-typescript",
+  "version": "1.0.0",
+  "description": "Generate typings for *.module.scss ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

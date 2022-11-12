@@ -293,7 +293,8 @@ export default {
       }
     },
     'simple-mdx',
-    'content-collections'
+    'content-collections',
+    'scss-typescript',
   ].filter(isDefined),
   mapping: {
     'Mdx.frontmatter.faqs': `Mdx.frontmatter.faqs_id`,

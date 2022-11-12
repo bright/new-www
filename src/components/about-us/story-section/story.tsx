@@ -1,11 +1,11 @@
-import React, { MutableRefObject, useCallback, useEffect } from 'react'
+import React, { MutableRefObject, MouseEvent, useEffect } from 'react'
 import styled from 'styled-components'
 import { story } from './story-data'
 import { TextRegular } from '../../shared'
 import variables, { deviceSize } from '../../../styles/variables'
-import { CustomSection } from './../../shared/index'
+import { CustomSection } from '../../shared'
 import { useState } from 'react'
-import { clampBuilder } from './../../../helpers/clampBuilder'
+import { clampBuilder } from '../../../helpers/clampBuilder'
 import { TimelineLogo, TimelineImage } from '../../timeline'
 import { useWindowSize } from '../../utils/use-windowsize'
 import { StoryNavigation } from './StoryNavigation'
@@ -279,7 +279,8 @@ export function StoryComponent() {
   const [disabledRight, setDisabledRight] = useState('')
   const offsetMoveScroll = 100
 
-  const handleChange = ({ target }) => {
+  const handleChange = ({ target }: any) => {
+    // TODO: WTF ?!
     const { value } = target
     const index = target.getAttribute('data-index')
 

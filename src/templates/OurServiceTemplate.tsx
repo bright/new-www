@@ -31,6 +31,7 @@ import {
   OurServiceSection
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
+import { ProjectModel } from '../models/gql'
 
 export default function Template({
                                    data,
@@ -40,14 +41,14 @@ export default function Template({
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
   const image = getImage(page.image_our_service)
-  const myRef = useRef(null)
+  const myRef = useRef<HTMLDivElement>(null)
   const { faqTitle } = pageContext
 
   useEffect(() => {
     if (faqTitle) {
       const index = faqs.map(({ frontmatter: faq }: any) => kebabCase(faq.question)).indexOf(kebabCase(faqTitle))
 
-      if (index >= 0) {
+      if (index >= 0 && myRef.current) {
         handleShow(index)
         const yOffset = -100
         const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
@@ -75,7 +76,7 @@ export default function Template({
       const showArray = Object.keys(show).map(function(k) {
         return { value: show[k], index: k }
       })
-      const nearestOpenedFaq = showArray.find(item => item.value && item.index != i)
+      const nearestOpenedFaq = showArray.find(item => item.value && item.index != i.toString())
 
       const openedFaqTitle = nearestOpenedFaq ? faqs[nearestOpenedFaq.index].frontmatter.question : ''
 
@@ -142,7 +143,7 @@ export default function Template({
       </OurServiceHideTablet>
 
       <ImageWrapper>
-        <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' quality='100' />
+        {image && <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' />}
       </ImageWrapper>
       <Section>
         <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
@@ -179,7 +180,7 @@ export default function Template({
       {show_case_study && (
         <div>
           <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
-          <Projects isFetchProject={false} projectsArray={projects.map(el => el.frontmatter)} isSelectedTag={false} />
+          <Projects isFetchProject={false} projectsArray={projects.map((el: {frontmatter: ProjectModel}) => el.frontmatter)} isSelectedTag={false} />
         </div>
       )}
 

@@ -1,11 +1,12 @@
 import type { GatsbyNode } from 'gatsby'
 import { allMdxData, GQLData } from './src/models/gql'
-import { loadTagGroups, TagGroup } from './src/tag-groups'
+import { loadTagGroups, TagGroup } from './src/tags/tag-groups'
 import { blogListForTagGroupsBasePath, blogPostUrlPath } from './src/blog-post-paths'
 import { IgnorePlugin } from 'webpack'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
 import readingTime from 'reading-time'
 import { toDate } from './src/to-date'
+import * as util from 'util'
 
 const path = require('path')
 

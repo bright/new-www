@@ -35,6 +35,6 @@ type MdxFrontmatter {
 }
 `,
   ]
-  console.log('simple-mdx', {types})
+  // console.log('simple-mdx', {types})
   actions.createTypes(types)
 }

@@ -56,6 +56,9 @@ export const usePagination = (paginationItems: PaginationItems) => {
       let middleRange = range({ start: leftSiblingIndex, end: rightSiblingIndex })
       return [firstPageIndex, DOTS, ...middleRange, DOTS, lastPageIndex]
     }
+
+    let middleRange = range({ start: leftSiblingIndex, end: rightSiblingIndex })
+    return [firstPageIndex, ...middleRange, lastPageIndex]
   }, [totalPageCount, pageSize, siblingCount, currentPage])
 
   return paginationRange

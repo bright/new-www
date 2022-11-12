@@ -16,7 +16,6 @@ const Svg = styled.svg`
 export function TickIcon() {
   return (
     <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.019 12.744">
-      >
       <path d="M137.579,142.289s3.23,4.351,3.523,4.259,8.281-9.166,8.281-9.166" />
     </Svg>
   )

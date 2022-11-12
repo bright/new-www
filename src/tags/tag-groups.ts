@@ -1,6 +1,7 @@
 import fs from 'fs'
 import yaml from 'js-yaml'
 import * as path from 'path'
+import { RawGroup } from './raw-group'
 
 interface TagGroupProps {
   name: string,
@@ -41,13 +42,6 @@ export class TagGroup {
     const self = [this] as TagGroup[]
     return (this?.parent?.ancestorsIncludingSelf ?? []).concat(self)
   }
-}
-
-interface RawGroup {
-  name: string
-  slug?: string
-  groups?: RawGroup[]
-  tags: string[]
 }
 
 function toGroup(rawGroup: RawGroup, parent?: TagGroup): TagGroup {
