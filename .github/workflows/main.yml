@@ -54,6 +54,11 @@ jobs:
           GATSBY_ACTIVE_ENV: staging
           SITE_URL: 'https://staging.brightinventions.pl/'
           GATSBY_CPU_COUNT: 1
+      - name: Archive public folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: public
+          path: public
   deploy-s3:
     runs-on: ubuntu-latest
     needs:
