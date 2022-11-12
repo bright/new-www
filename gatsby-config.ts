@@ -6,14 +6,14 @@ import * as path from 'path'
 import { isDefined } from './src/is-defined'
 import { gatsbyMdxOptions } from './src/gatsby-mdx-options'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
+import { GatsbyConfig } from 'gatsby'
 
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
 const isDevelop = !process.env.GATSBY_ACTIVE_ENV
 
 const generateRobotsContent = !isDevelop
 
-
-export default {
+const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
   plugins: [
     // Make sure this plugin is first in the array of plugins
@@ -299,5 +299,7 @@ export default {
   mapping: {
     'Mdx.frontmatter.faqs': `Mdx.frontmatter.faqs_id`,
     'Mdx.frontmatter.project': `Mdx.frontmatter.project_id`
-  }
+  },
+  graphqlTypegen: true
 }
+export default gatsbyConfig
