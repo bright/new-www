@@ -8,7 +8,7 @@ date: 2022-11-11T14:02:22.198Z
 meaningfullyUpdatedAt: 2022-11-11T14:02:22.207Z
 title: H-factor in leadership. Do we really need it?
 layout: post
-image: /images/humility_image.webp
+image: /images/humility-image.png
 hidden: false
 comments: true
 published: true
