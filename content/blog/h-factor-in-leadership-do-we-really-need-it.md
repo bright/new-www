@@ -17,7 +17,7 @@ For some individuals leadership is a state of mind - as if they were saying “o
 
 <iframe src="https://giphy.com/embed/3o6Zt14FoFHzswxPmE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/garyvee-motivation-balance-3o6Zt14FoFHzswxPmE">via GIPHY</a></p>
 
-I am warning you - there will be many gifs here. 🙃
+I am warning there will be many gifs here. 🙃
 
 ## **Humility - what is that?** 
 
