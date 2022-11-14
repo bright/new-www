@@ -15,7 +15,7 @@ published: true
 ---
 For some individuals leadership is a state of mind - as if they were saying “once a leader always a leader.” It is a tricky path to insolence and audacity. Being a true leader means learning whole your life, staying humble and above all serving people around you. Leaders who consider themselves to be better than others, who think they know it all and who cannot accept feedback have a long way ahead to understand what true leadership is. **We live in the world where ego gets sometimes too much attention and where arrogance makes headlines. To be an aspiring leader we need something else - we need humility, empathy and authenticity.** But are you strong enough to be this kind of leader? The leader who stays humble, inspires people and understands that the genius is hidden in their team.
 
-<iframe src="https://giphy.com/embed/3o6Zt14FoFHzswxPmE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/garyvee-motivation-balance-3o6Zt14FoFHzswxPmE">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/garyvee-motivation-balance-3o6Zt14FoFHzswxPmE' />
 
 I am warning there will be many gifs here. 🙃
 
