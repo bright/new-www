@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import React, { useMemo } from 'react'
 import styled from 'styled-components'
 
 function isClip(url: string | undefined) {
