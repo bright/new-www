@@ -27,7 +27,7 @@ From where I am standing humble leadership should be implemented in every manage
 
 ## **I am listening to my team**
 
-It does not matter if you are a founder of the company, you have the title of CEO, COO, CTO or any other C-level position. It does not matter if you are a manager, an architect oraz a tech leader. The point is that you are still a human being with less or more experience. Leaders who practice humble leadership do not believe they are any better than their co-workers. Humble leaders listen to their team. They do not pretend they know everything. Active listening helps them build strong relationship with colleagues the consequence of which is open communication, trust and eventually success.
+It does not matter if you are a founder of the company, you have the title of CEO, COO, CTO or any other C-level position. It does not matter if you are a manager, an architect oraz a tech leader. The point is that you are still a human being with less or more experience. Leaders who practice humble leadership listen to their team. They do not pretend they know everything. Active listening helps them build strong relationship with colleagues the consequence of which is open communication, trust and eventually success.
 
 **Remember that every conversation is an opportunity to learn something new. Ralph Waldo Emerson wrote *\- in my walks, every man I meet is my superior in some way, and in that I learn from him.*** Listen to your team, give them space to talk and then reflect and respond appropriately.
 
