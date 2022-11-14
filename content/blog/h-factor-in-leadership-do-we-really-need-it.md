@@ -31,7 +31,7 @@ It does not matter if you are a founder of the company, you have the title of CE
 
 **Remember that every conversation is an opportunity to learn something new. Ralph Waldo Emerson wrote *\- in my walks, every man I meet is my superior in some way, and in that I learn from him.*** Listen to your team, give them space to talk and then reflect and respond appropriately.
 
-<iframe src="https://giphy.com/embed/YSxABIzfohDMAelq41" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Friends-friends-season-6-tv-YSxABIzfohDMAelq41">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/Friends-friends-season-6-tv-YSxABIzfohDMAelq41' />
 
 ## **Ask for feedback** 
 
@@ -43,7 +43,7 @@ You might be a leader and you might be an expert, but there are still loads of t
 
 Remember that there are and will be always people who have greater knowledge than you. Humble leaders know how significant a growth mindset is. **You don have to know all the answers and please DON’T pretend you have all the answers.** Remember that you can be both humble and ambitious at the same time. There is nothing wrong with that. What is wrong is when you have a know-it-all quality and you look down on your team. What is wrong is when you make sarcastic jokes about people you work with. **And finally what is wrong is when you are a leader and this label means so much to you that your behaviours and choices are controlled by it.** 
 
-<iframe src="https://giphy.com/embed/NihXC2MB0bJ9lVMU0O" width="480" height="346" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/matchisports-tranquilo-paquito-navarro-NihXC2MB0bJ9lVMU0O">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/matchisports-tranquilo-paquito-navarro-NihXC2MB0bJ9lVMU0O' />
 
 ## **Success is best when it is shared** 
 
@@ -57,7 +57,7 @@ The best leaders acknowledge their contributors. Being a leader is always about 
 
 Do not allow your ego to overpower your positions and knowledge. Do not allow your ego to take over just because you are in a leader’s position. **Praise people you work with. Appreciate their effort and make them feel valued for their work. You can do it on 1:1 meetings or in a group forum. Adjust the method to a particular person.** 
 
-<iframe src="https://giphy.com/embed/VDLo8aQnDozI0aKyex" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nba-VDLo8aQnDozI0aKyex">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/nba-VDLo8aQnDozI0aKyex' />
 
 ## **H Factor** 
 
@@ -71,6 +71,6 @@ You might be a leader in your team or organisation, but the title does not let y
 
 Be H-leader, the leader you would like to have on your own. And remember to look at the mirror as self-reflection is something we all need. It is critical for our development. Think about your current level of skills, your strengths and weaknesses, patterns of behaviour. Are you a leader or a manger you would admire on your own?
 
-<iframe src="https://giphy.com/embed/8vt8BQ69pp9TZVECwV" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/laff-tv-laff-lafftv-tv-8vt8BQ69pp9TZVECwV">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/laff-tv-laff-lafftv-tv-8vt8BQ69pp9TZVECwV' />
 
 You can be at the same time intelligent, humble and sexy. Why not! 😉
