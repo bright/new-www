@@ -1,17 +1,24 @@
 ---
 author: damian
+tags:
+  - spring
+  - spring boot
+  - java
+  - jvm
+  - kotlin
 date: 2022-11-14T19:09:37.192Z
 meaningfullyUpdatedAt: 2022-11-14T19:09:37.210Z
 title: Managing Spring Boot properties after version 2.4
 layout: post
+image: /images/cover.png
 hidden: false
 comments: true
 published: true
 ---
-Managing Spring Boot properties in multi-module application could be quite intimidating.
+**Managing Spring Boot properties in multi-module application could be quite intimidating.
 In this post, we take a look how Spring Boot will resolve properties conflicts and how to make our build more consistent. Changes
 introduced in version 2.4 are going to help us. Let's review how to take advantage of new features and incorporate them into
-the project.
+the project.**
 
 To better understand what version 2.4 brings we need to take a step back and remind ourselves how things used to work before 2.4 release.
 
