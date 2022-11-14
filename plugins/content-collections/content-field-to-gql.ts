@@ -20,6 +20,9 @@ export function gqlFieldType(field: ContentField): string {
     case 'tags':
       graphqlType = '[String]'
       break
+    case 'image':
+      graphqlType = 'File'
+      break
     case 'relation':
       graphqlType = collectionNameTypeName(field.collection)
       if (field.multiple) {
