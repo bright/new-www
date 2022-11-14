@@ -39,7 +39,7 @@ If you understand your own blind spots, you usually find it easier to give and r
 
 ## **Don’t be bossy (in PL wyjmij kij z d\*\**** 😉)
 
-You might be a leader and you might be an expert, but there are still loads of things you do not know. And as long long as you do not realise it, may the force be with your team, the force and patience. Because they will need it. 
+You might be a leader and you might be an expert, but there are still loads of things you do not know. And as long as you do not realise it, may the force be with your team, the force and patience. Because they will need it. 
 
 Remember that there are and will be always people who have greater knowledge than you. Humble leaders know how significant a growth mindset is. **You don have to know all the answers and please DON’T pretend you have all the answers.** Remember that you can be both humble and ambitious at the same time. There is nothing wrong with that. What is wrong is when you have a know-it-all quality and you look down on your team. What is wrong is when you make sarcastic jokes about people you work with. **And finally what is wrong is when you are a leader and this label means so much to you that your behaviours and choices are controlled by it.** 
 
