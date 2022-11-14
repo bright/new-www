@@ -6,8 +6,8 @@ team_members:
   - szymek
   - tomasz-l
   - marta
-  - aleksandra-z
   - azabost
+  - cezary
 faqs:
   - mobile app development 1
   - mobile app development 2
