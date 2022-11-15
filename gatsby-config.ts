@@ -16,22 +16,6 @@ export default {
   siteMetadata,
 
   plugins: [
-    // Make sure this plugin is first in the array of plugins
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: isProduction ? ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476'] : [],
-      },
-    },
-    !isDevelop
-      ? {
-          resolve: `gatsby-plugin-facebook-pixel`,
-          options: {
-            pixelId: `${process.env.GATSBY_ACTIVE_ENV === 'production' ? '1256554391514599' : ''}`,
-          },
-        }
-      : null,
-
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
@@ -123,22 +107,20 @@ export default {
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        googleTagManager: {
+        googleAnalytics: {
           trackingId: isProduction ? ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476'] : '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-tagmanager', // default
+          cookieName: 'gatsby-gdpr-google-analytics', // default
           dataLayerName: 'dataLayer', // default
         },
         facebookPixel: {
-          pixelId: `${process.env.GATSBY_ACTIVE_ENV === 'production' ? '1256554391514599' : ''}`, // leave empty if you want to disable the tracker
+          pixelId: isProduction ? '1256554391514599' : '', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-facebook-pixel', // default
         },
-
         hotjar: {
           hjid: isProduction ? '2864857' : '',
           hjsv: isProduction ? '6' : '',
           cookieName: 'gatsby-gdpr-hotjar', // default
         },
-
         // defines the environments where the tracking should be available  - default is ["production"]
         environments: ['production', 'development', 'staging'],
       },
@@ -276,14 +258,6 @@ export default {
           },
         }
       : null,
-    {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        includeInDevelopment: false, // optional parameter to include script in development
-        id: isProduction ? '2864857' : '',
-        sv: isProduction ? '6' : '',
-      },
-    },
 
     {
       resolve: 'gatsby-plugin-json-pages',
