@@ -10,7 +10,7 @@ date: 2022-11-14T19:09:37.192Z
 meaningfullyUpdatedAt: 2022-11-14T19:09:37.210Z
 title: Managing Spring Boot Properties After Version 2.4
 layout: post
-image: /images/dg-spring-properties-cover.png
+image: /images/cover_managing_spring.png
 hidden: false
 comments: true
 published: true
@@ -19,6 +19,8 @@ published: true
 In this post, we take a look how Spring Boot will resolve properties conflicts and how to make our build more consistent. Changes
 introduced in version 2.4 are going to help us. Let's review how to take advantage of new features and incorporate them into
 the project.**
+
+<div class="image"><img src="/images/pexels-karolina-grabowska-4195411.jpg" alt="undefined" title="undefined"  /> </div>
 
 <div class="image"><img src="/images/pexels-karolina-grabowska-4195411.jpg" />To better understand what version 2.4 brings we need to take a step back and remind ourselves how things used to work before 2.4 release.</div>
 
