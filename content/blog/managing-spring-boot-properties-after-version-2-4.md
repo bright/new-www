@@ -8,7 +8,7 @@ tags:
   - kotlin
 date: 2022-11-14T19:09:37.192Z
 meaningfullyUpdatedAt: 2022-11-14T19:09:37.210Z
-title: Managing Spring Boot properties after version 2.4
+title: Managing Spring Boot Properties After Version 2.4
 layout: post
 image: /images/dg-spring-properties-cover.png
 hidden: false
