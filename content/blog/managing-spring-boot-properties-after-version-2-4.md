@@ -20,7 +20,7 @@ In this post, we take a look how Spring Boot will resolve properties conflicts a
 introduced in version 2.4 are going to help us. Let's review how to take advantage of new features and incorporate them into
 the project.**
 
-<div class="image"><img src="/images/pexels-karolina-grabowska-4195411.jpg" />To better understand what version 2.4 brings we need to take a step back and remind ourselves how things used to work before 2.4 release.</div>
+<div class="image"><img src="/images/pexels-karolina-grabowska-4195411.jpg" style="max-width: 300px; height: auto;" />To better understand what version 2.4 brings we need to take a step back and remind ourselves how things used to work before 2.4 release.</div>
 
 ## How Spring Boot deals with property overrides?
 
