@@ -34,23 +34,16 @@ order: 1
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 ---
-## who we are
-
-At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
-
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
-
 ## **about the role** 
 
 \
-We are looking for an experienced **Flutter developer** **who is excited about hybrid technologies, but also is aware of the advantages of building native mobile applications.**  We would appreciate your experience with mobile development and ability to look at the project from a business perspective. We would be also more than happy if you are willing to share your knowledge within and outside our organisation. 
-
+We are looking for an experienced **Flutter developer** **who is excited about hybrid technologies, but also is aware of the advantages of building native mobile applications.**  We would appreciate your experience with mobile development and ability to look at the project from a business perspective. We would be also more than happy if you are willing to share your knowledge within and outside our organisation. \
 \
 What we can promise is that at Bright Inventions you will be an important part of [a community of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and actively take responsibility for their own self-development. Positive attitude, client orientation and teamwork are central parts of our daily work.  
 
 ## **your job will include**
 
-* **working on one of Flutter mobile application** (1. hiring app 2. invoicing & accounting app 3. POS application)
+* working on one of Flutter mobile application **(1. hiring app 2. invoicing & accounting app 3. POS application)**
 * partnering closely with product management, UX and QA specialists
 * advising clients in their decision making process
 * sharing knowledge with the rest of the team
@@ -58,9 +51,9 @@ What we can promise is that at Bright Inventions you will be an important part o
 
 ## **preferred skills and qualifications**
 
-* at least 4 years of commercial programming experience in mobile development
+* at least **4 years of commercial programming** experience in mobile development
 * very good practical knowledge of Flutter 
-* working experience with libraries used in Flutter development (e.g. Bloc, Freezed, Provider, GetX, Riverpo) 
+* working experience with libraries used in Flutter development (e.g. **Bloc, Freezed, Provider, GetX, Riverpo**) 
 * familiarity with app publishing on App Store/ Google Play
 * empathy, open mind and positive approach to new challenges
 * advanced level of English (written and spoken)
