@@ -96,8 +96,7 @@ remaining files. Which one? It's non-deterministic. Let's avoid situations like 
 a potential risk hazard. And this is one is especially harmful since we might find out about our mistake when the app goes into production.
 
 
-
-<div class="important-info"><h2>undefined</h2><div>Contrary to what some people might assume</div></div>
+<div style="important-info"><div>Contrary to what some people might assume</div></div>
 
 One easy way out would be to define all properties in a single `application.yaml`. Not even creating dedicated yaml files per module. But we have those modules 
 for a reason, most likely our intention was to keep all the logic encapsulated. So why we should spread module-specific properties outside?
