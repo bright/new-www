@@ -167,7 +167,7 @@ the base file. Neat! No additional changes are required to make it work!
 
 ### How does it work with integration tests?
 
-If the test configuration is simple enough its fine to just place it inside module-specific `application-test.yaml`, for instance:
+If the test configuration is simple enough it's fine to just place it inside module-specific `application-test.yaml`, for instance:
 
 ```yaml
 # moduleA/src/test/resources/application-test.yaml
