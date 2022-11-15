@@ -4,7 +4,7 @@ workplace_recruiter: HR & Marketing Manager
 Show_recruiter_info: true
 layout: job
 title: Project Manager
-subtitle: OPENING SOON
+subtitle: ONGOING
 image-alt-job: "job for project manager "
 hours: full-time
 salary: 13 000 - 17 000 PLN + VAT (B2B) or 10 700 - 14 000 PLN gross (UoP)
