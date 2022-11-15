@@ -23,6 +23,7 @@ the project.**
 To better understand what version 2.4 brings we need to take a step back and remind ourselves how things used to work before 2.4 release.
 
 ## How Spring Boot deals with property overrides?
+
 Let's take this basic example. We could try to define the same value twice in a single file. Like this:
 
 ```yaml
@@ -94,8 +95,9 @@ from the main module and that would be correct. What if we remove the main `appl
 remaining files. Which one? It's non-deterministic. Let's avoid situations like this altogether. Any ambiguity is 
 a potential risk hazard. And this is one is especially harmful since we might find out about our mistake when the app goes into production.
 
-Contrary to what some people might assume, Spring Boot will not merge all tree config files from all the modules into a single file.
-Only one version of the file will be used and the rest would be thrown away.
+
+
+<div class="important-info"><h2>undefined</h2><div>Contrary to what some people might assume</div></div>
 
 One easy way out would be to define all properties in a single `application.yaml`. Not even creating dedicated yaml files per module. But we have those modules 
 for a reason, most likely our intention was to keep all the logic encapsulated. So why we should spread module-specific properties outside?
