@@ -94,8 +94,8 @@ from the main module and that would be correct. What if we remove the main `appl
 remaining files. Which one? It's non-deterministic. Let's avoid situations like this altogether. Any ambiguity is 
 a potential risk hazard. And this is one is especially harmful since we might find out about our mistake when the app goes into production.
 
-<div class="notification">Contrary to what some people might assume, Spring Boot will not merge all tree config files from all the modules into a single file.
-Only one version of the file will be used and the rest would be thrown away.</div>
+Contrary to what some people might assume, Spring Boot will not merge all tree config files from all the modules into a single file.
+Only one version of the file will be used and the rest would be thrown away.
 
 One easy way out would be to define all properties in a single `application.yaml`. Not even creating dedicated yaml files per module. But we have those modules 
 for a reason, most likely our intention was to keep all the logic encapsulated. So why we should spread module-specific properties outside?
