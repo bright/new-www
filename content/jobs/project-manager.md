@@ -7,9 +7,9 @@ title: Project Manager
 subtitle: OPENING SOON
 image-alt-job: "job for project manager "
 hours: full-time
-salary: 10 000 - 15 000 PLN + VAT (B2B) or 8300 - 12 400 PLN gross (UoP)
-salary_min: 10000
-salary_max: 15000
+salary: 13 000 - 17 000 PLN + VAT (B2B) or 10 700 - 14 000 PLN gross (UoP)
+salary_min: 10700
+salary_max: 17000
 working time: 26 paid days off + Polish bank holidays
 technology:
   - Jira
@@ -38,10 +38,10 @@ image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: Ula Stankiewicz - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join Agile team
-published: false
-hidden: true
+published: true
+hidden: false 
 show_recruiter_info: true
-order: 12
+order: 5
 recruting_image2_title: "interview "
 recruting_image3_title: PM task
 description: We are looking for a Project Manager who will support our team in
@@ -49,47 +49,40 @@ description: We are looking for a Project Manager who will support our team in
 ---
 ## **about the role**
 
-We are looking for an ambitious and skilled **Project Manager** who will support our team in planning, executing, monitoring and closing our Bright projects. You will be an important part of [a community of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and actively take responsibility for their own self-development. Positive attitude, client orientation and teamwork are central parts of our daily work. 
+We are looking for an ambitious and skilled Project Manager who will support our team in planning, executing, monitoring and closing our Bright projects. You will have an opportunity to work with **clients from UK, Germany, Norway, Israel and Sweden**, and support building products from such industries as **FinTech, Retail, Logistics, Health as well as NGOs.**
 
-You will have an opportunity to work with clients from UK, Germany, Norway, Israel, USA and Sweden, and support suchorganisation as **United Nations, Relevo, etventure, Heinrich Schmidt** or the world's top food delivery company **Just Eat**.
-
-Our team and organisation is still growing, new challenges and projects appear ahead, and that is why **we need bright person just like you.** 
+You will be an important part of a community of talented, ambitious and positive people who love to solve real problems and actively take responsibility for their work and self-development. Our team and organisation is still growing, new challenges and projects appear ahead, and that is why **we need a bright person just like you.** 
 
 ## **your job will include**
 
-* coordinating the software development process in order to increase the client's business value 
-* guiding the team and promoting Agile principles
-* optimising workflow by clever dealing with obstacles and blockers
-* analysing application quality and coming up with better and better solutions 
-* organising sprint planning sessions, backlog refinements, daily scrums, sprint reviews and sprint retrospectives
-* creating projects documentation
+* manage planning sessions, backlog refinements, daily scrums, sprint reviews, retrospectives etc.
+* collect feedback both from clients and  team members to increase the business value of the products
+* optimise workflow by clever dealing with obstacles and blockers
+* define current business needs, analyse them and suggest improvements 
+* create projects documentation
 
 ## **preferred skills and qualifications**
 
 * at least 2 years of experience in managing IT projects
-* very good understanding of Agile development methodologies  
-* familiarity with Jira/Asana, Confluence or other management tools 
-* excellent command of written and spoken both English and Polish
-* effective communication and business negotiation skills 
-* can-do attitude and positive proactive approach 
-* ability to supervise developer's estimations and work 
-* positive mindset 🙂 
+* very good understanding of Agile development methodologies  
+* familiarity with JIRA, Asana, Confluence or other management tools 
+* effective communication and negotiation skills 
+* technical knowledge that allows for supervising estimations and workflow 
+* excellent command of written and spoken English and Polish
+* can-do attitude and positive approach 
 
 ## **what you will find at Bright Inventions**  **🧡**
 
-* team's support and **continuous feedback culture**
-* regular salary review
-* **mentoring programme** and regular 1:1 meetings
-* flexible working hours and remote work possibility
-* 20-26 paid days off + Polish bank holidays
-* MultiSport card and private medical package (PZU Zdrowie)
-* an opportunity to build strong community via workshops and dev's meetings 
-* budget for **training and professional books**
-* extra time once a month for **self-development**
-* board games evenings and weekly lunch initiative
-* team retreats once a quarter
-* regular sport classes **(running, biking, swimming, yoga)** with a professional coach
+* continuous feedback culture 
+* mentoring programme and regular 1:1 meetings
+* flexible working hours and hybrid work possibility
+* 26 paid days off + Polish bank holidays
+* MultiSport card and private medical package (PZU Zdrowie) 
+* training budget and company library  
+* extra time once a month for non-project development  
 * good equipment: MacBook and additional accessories
-* good localisation and office in Gdańsk Wrzeszcz with a parking space nearby
+* board games evenings and weekly lunch initiative 
+* team retreats once a quarter
+* regular sport classes (running, biking, swimming) + yoga Fridays at the office 
 
 In case you have any questions, drop us a line at [jobs@bright.dev] (mailto:jobs@bright.dev).
