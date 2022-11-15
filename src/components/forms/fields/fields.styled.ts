@@ -95,7 +95,7 @@ export const CheckboxSwitchContainer = styled.label`
   .inner:before {
     content: '';
     padding-left: 10px;
-    background-color: ${variables.color.primary};
+    background-color: transparent;
     color: #fff;
   }
   .inner:after {
@@ -118,8 +118,9 @@ export const CheckboxSwitchContainer = styled.label`
     border-radius: 16px;
     transition: all 0.3s ease-in 0s;
   }
-  input:checked + label .inner {
+  input:checked + label .inner:after {
     margin-left: 0;
+    background: ${variables.color.primary};
   }
   input:checked + label .switch {
     right: 0px;
