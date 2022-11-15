@@ -5,13 +5,13 @@ subtitle: ONGOING
 imagejob: /images/androidteam2.png
 image-alt-job: Flutter Team Bright Inventions
 hours: full-time
-salary: 20 000 - 25 000 PLN + VAT (B2B) or 16 600 - 20 7500 PLN gross (UoP)
+salary: 20 000 - 25 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
 salary_min: 16600
-salary_max: 25000
+salary_max: 24987
 working time: full time
 technology:
   - Android
-title_more_about_us: if you want to know a bit more about us, take a look below 🙋‍♀️🙋
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
   [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
