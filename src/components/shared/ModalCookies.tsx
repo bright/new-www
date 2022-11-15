@@ -1,12 +1,11 @@
-import React, { ChangeEvent, useState } from 'react'
+import React from 'react'
 import Modal from 'react-modal'
 import { FlexWrapper } from '.'
 import { CustomSectionTitle, SectionTitle, TextRegular } from './index.styled'
 import styled from 'styled-components'
-import { clampBuilder } from '../../helpers/clampBuilder'
+
 import variables from '../../styles/variables'
 import { CheckboxSwitch } from '../forms/fields/checkbox-switch'
-import { useWindowSize } from '../utils/use-windowsize'
 
 import './ModalCookies.scss'
 
@@ -15,8 +14,19 @@ Modal.setAppElement(`#___gatsby`)
 const CookiesTextRegular = styled(TextRegular)`
   color: #f9f9f9;
   line-height: 24px;
+  max-width: 90%;
+  @media ${variables.device.laptop} {
+    max-width: 79%;
+  }
+  @media ${variables.device.tabletXL} {
+    max-width: 89%;
+  }
   @media ${variables.device.tablet} {
     max-width: 90%;
+  }
+  @media ${variables.device.mobile} {
+    max-width: 100%;
+    line-height: 19px;
   }
 `
 const CookiesSectionTitle = styled(SectionTitle)`
@@ -37,6 +47,9 @@ const SelectedButton = styled.button`
   border: none;
   background: ${variables.color.text2};
   color: ${variables.color.white};
+  @media ${variables.device.tablet} {
+    text-decoration: none;
+  }
 `
 const AllowAllButton = styled.button`
   font-family: ${variables.font.customtext.monserat};
@@ -59,14 +72,15 @@ const AllowAllButton = styled.button`
 `
 const CloseButton = styled.button`
   position: absolute;
+  background: transparent;
+  border: none;
   top: 40px;
   right: 40px;
-  border: none;
-  background: none;
-  color: ${variables.color.white};
-  cursor: pointer;
-  font-size: ${variables.pxToRem(24)};
-  line-height: ${variables.pxToRem(24)};
+
+  @media ${variables.device.mobile} {
+    top: 19px;
+    right: 13px;
+  }
 `
 
 const customStyles = {
@@ -74,34 +88,53 @@ const customStyles = {
     zIndex: '1001',
     background: 'rgba(10,10,10,.7)',
   },
-  content: {
-    borderRadius: ' 0',
-
-    // top: '50%',
-    // left: '50%',
-    // right: 'auto',
-    // bottom: 'auto',
-    // transform: 'translate(-50%, -50%)',
-    paddingTop: `${clampBuilder(360, 1920, 63, 113)}`,
-    paddingBottom: `${clampBuilder(992, 1920, 63, 113)}`,
-    paddingLeft: `${clampBuilder(360, 1920, 19, 76)}`,
-    paddingRight: `${clampBuilder(360, 1920, 19, 76)}`,
-    background: `#0a0a0a`,
-    border: `2px solid #f9f9f9`,
-    maxHeight: `100%`,
-  },
 }
+
+const SignX = styled.div`
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  position: relative;
+
+  &::after,
+  ::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: #f9f9f9;
+    border-radius: 2px;
+    top: 11px;
+  }
+  &:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: 2px;
+  }
+  &:before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 25px;
+  }
+`
 
 function ModalCookies(props: {
   modalIsOpen: boolean
   closeModal: React.MouseEventHandler<HTMLButtonElement> | undefined
-  onChanged?: (event: ChangeEvent) => void
+  onChanged?: (e: React.ChangeEvent<HTMLInputElement>) => void
   checkedAnalistic?: boolean
   checkedMarketing?: boolean
   onAccept: (isAllowSelected?: boolean) => void
+  allowAll: () => void
 }) {
-  const { width } = useWindowSize()
-  const breakpoint = 992
+  const handleAllowAll = () => {
+    props.allowAll()
+    setTimeout(() => {
+      props.onAccept()
+    }, 1000)
+  }
 
   return (
     <div>
@@ -112,80 +145,50 @@ function ModalCookies(props: {
         contentLabel='Example Modal'
         className='modal-cookies'
       >
-        <FlexWrapper tabletContent='space-between' desktopDirection='column' style={{ height: '100%' }}>
+        <FlexWrapper tabletContent='space-between' desktopDirection='column'>
           <FlexWrapper desktopDirection='column'>
-            <CloseButton onClick={props.closeModal}>X</CloseButton>
+            <CloseButton onClick={props.closeModal}>
+              <SignX></SignX>
+            </CloseButton>
             <CustomSectionTitle style={{ color: '#fff', margin: '0 0 24px', textAlign: 'left' }}>
               customize cookies{' '}
             </CustomSectionTitle>
-            <CookiesTextRegular style={{ margin: '0 0 24px' }}>
+            <CookiesTextRegular>
               You can decide which cookies you allow us to use. You can change your settings at any time.{' '}
             </CookiesTextRegular>
 
             <FlexWrapper desktopDirection='column' desktopGap='24px'>
-              {width <= breakpoint && (
-                <FlexWrapper tabletDirection='column'>
-                  <FlexWrapper tabletDirection='column' tabletContent='space-between'>
-                    <div>
-                      <FlexWrapper tabletDirection='column' tabletGap='24px'>
-                        <FlexWrapper tabletItems='baseline' tabletContent='space-between'>
-                          <CookiesSectionTitle>analytics cookies</CookiesSectionTitle>
-                          <CheckboxSwitch
-                            name='anlystics'
-                            onChange={props.onChanged}
-                            checked={props.checkedAnalistic}
-                          />
-                        </FlexWrapper>
-
-                        <CookiesTextRegular>
-                          These cookies help us monitor site traffic and analytics, as well as user experience. They
-                          enable us to optimize the website according to your needs.
-                        </CookiesTextRegular>
+              <FlexWrapper desktopDirection='column'>
+                <FlexWrapper desktopDirection='column' desktopContent='space-between'>
+                  <div>
+                    <FlexWrapper desktopDirection='column' desktopGap='24px'>
+                      <FlexWrapper desktopItems='baseline' desktopContent='space-between'>
+                        <CookiesSectionTitle>analytics cookies</CookiesSectionTitle>
+                        <CheckboxSwitch name='anlystics' onChange={props.onChanged} checked={props.checkedAnalistic} />
                       </FlexWrapper>
 
-                      <FlexWrapper tabletDirection='column' tabletGap='24px'>
-                        <FlexWrapper tabletItems='baseline' tabletContent='space-between'>
-                          <CookiesSectionTitle>marketing cookies</CookiesSectionTitle>
-                          <CheckboxSwitch
-                            name='marketing'
-                            onChange={props.onChanged}
-                            checked={props.checkedMarketing}
-                          />
-                        </FlexWrapper>
+                      <CookiesTextRegular>
+                        These cookies help us monitor site traffic and analytics, as well as user experience. They
+                        enable us to optimize the website according to your needs.
+                      </CookiesTextRegular>
+                    </FlexWrapper>
 
-                        <CookiesTextRegular>
-                          These cookies allow us to tailor and measure the effectiveness of our advertising by tracking
-                          users' activity on our page. These cookies may be capable of understanding your interests,
-                          across other sites and building up a profile that is used for remarketing purposes. If you do
-                          not allow these cookies you may experience less tailored advertisements.
-                        </CookiesTextRegular>
+                    <FlexWrapper desktopDirection='column' desktopGap='24px'>
+                      <FlexWrapper desktopItems='baseline' desktopContent='space-between'>
+                        <CookiesSectionTitle>marketing cookies</CookiesSectionTitle>
+                        <CheckboxSwitch name='marketing' onChange={props.onChanged} checked={props.checkedMarketing} />
                       </FlexWrapper>
-                    </div>
-                  </FlexWrapper>
+
+                      <CookiesTextRegular>
+                        These cookies allow us to tailor and measure the effectiveness of our advertising by tracking
+                        users' activity on our page. These cookies may be capable of understanding your interests,
+                        across other sites and building up a profile that is used for remarketing purposes. If you do
+                        not allow these cookies you may experience less tailored advertisements.
+                      </CookiesTextRegular>
+                    </FlexWrapper>
+                  </div>
                 </FlexWrapper>
-              )}
-              {width > breakpoint && (
-                <FlexWrapper desktopDirection='column' desktopGap='24px'>
-                  <CookiesSectionTitle>analytics cookies</CookiesSectionTitle>
-                  <FlexWrapper desktopGap='130px' desktopItems='baseline' tabletXLGap='65px'>
-                    <CookiesTextRegular>
-                      These cookies help us monitor site traffic and analytics, as well as user experience. They enable
-                      us to optimize the website according to your needs.
-                    </CookiesTextRegular>
-                    <CheckboxSwitch name='anlystics' onChange={props.onChanged} checked={props.checkedAnalistic} />
-                  </FlexWrapper>
-                  <CookiesSectionTitle>marketing cookies</CookiesSectionTitle>
-                  <FlexWrapper desktopGap='130px' desktopItems='baseline' tabletXLGap='65px'>
-                    <CookiesTextRegular>
-                      These cookies allow us to tailor and measure the effectiveness of our advertising by tracking
-                      users' activity on our page. These cookies may be capable of understanding your interests, across
-                      other sites and building up a profile that is used for remarketing purposes. If you do not allow
-                      these cookies you may experience less tailored advertisements.
-                    </CookiesTextRegular>
-                    <CheckboxSwitch name='marketing' onChange={props.onChanged} checked={props.checkedMarketing} />
-                  </FlexWrapper>
-                </FlexWrapper>
-              )}
+              </FlexWrapper>
             </FlexWrapper>
           </FlexWrapper>
           <FlexWrapper
@@ -194,9 +197,9 @@ function ModalCookies(props: {
             style={{ marginTop: '52px' }}
             tabletDirection='column-reverse'
           >
-            <SelectedButton onClick={() => props.onAccept(true)}>allow selected</SelectedButton>
+            <SelectedButton onClick={() => props.onAccept(true)}>confirm choices</SelectedButton>
 
-            <AllowAllButton onClick={() => props.onAccept()}>allow all</AllowAllButton>
+            <AllowAllButton onClick={handleAllowAll}>allow all</AllowAllButton>
           </FlexWrapper>
         </FlexWrapper>
       </Modal>
