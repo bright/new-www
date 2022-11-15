@@ -95,7 +95,6 @@ from the main module and that would be correct. What if we remove the main `appl
 remaining files. Which one? It's non-deterministic. Let's avoid situations like this altogether. Any ambiguity is 
 a potential risk hazard. And this is one is especially harmful since we might find out about our mistake when the app goes into production.
 
-
 <div style="important-info"><div>Contrary to what some people might assume</div></div>
 
 One easy way out would be to define all properties in a single `application.yaml`. Not even creating dedicated yaml files per module. But we have those modules 
