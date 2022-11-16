@@ -13,7 +13,7 @@ tags:
   - web
   - software
 date: 2019-04-09T22:00:00.000Z
-meaningfullyUpdatedAt: 2022-11-16T14:18:40.788Z
+meaningfullyUpdatedAt: ""
 title: Bright Future Ahead for Bright Inventions
 layout: post
 image: /images/clutch_we_deliver2.png
