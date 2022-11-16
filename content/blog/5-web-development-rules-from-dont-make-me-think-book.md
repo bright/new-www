@@ -4,6 +4,7 @@ tags:
   - inspiration
   - design
 date: 2022-01-10T11:52:37.230Z
+meaningfullyUpdatedAt: 2022-11-16T13:54:28.441Z
 title: 5 Timeless Web Development Rules from “Don’t Make Me Think” Book
 layout: post
 image: /images/blog_book_krug.png
@@ -37,7 +38,7 @@ Of course, you are allowed to look for other solutions for your website, **not e
 
 ## 4. Show me what I'm looking for
 
-Kruk wrote that in 2000 and it is still the crucial rule of web development. That is **the core of Google’s success – we ask and get what we want**. Google has been developing the algorithm to give its users what they expect. This seems obvious, but do you really generate traffic to websites that meet users expectations?
+Kruk wrote that in 2000 and it is still the crucial rule of [web development](/our-areas/web-development). That is **the core of Google’s success – we ask and get what we want**. Google has been developing the algorithm to give its users what they expect. This seems obvious, but do you really generate traffic to websites that meet users expectations?
 
 ## 5. Don’t assume – do tests
 
