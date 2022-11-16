@@ -188,6 +188,22 @@ const SlideWrapper = styled.div`
 export const CarouselQuotesSwiper: React.FC = () => {
   const quotes = [
     {
+      avatar_hover: <StaticImage src='../../../static/images/agnieszka_passion.png' alt='Agnieszka' className='quote-img' />,
+      short_name: 'Agnieszka',
+      bio: 'Senior Fullstack Developer',
+      slug: 'agnieszka',
+      quote:
+        'Bright people treat each other with respect and you can feel that they do work that really gives them satisfaction. If I struggle with some technical or communication challenge, I always have somebody I can talk to about it and I know we will solve it.',
+    },
+    {
+      avatar_hover: <StaticImage src='../../../static/images/michal_k_passion.png' alt='Michal' className='quote-img' />,
+      short_name: 'Michał',
+      bio: 'Senior Backend Developer',
+      slug: 'michal-k',
+      quote:
+        'When I applied for a job for the first time, I wasn’t hired then. However, they provided me with such great feedback that I was even more eager to work here. Eventually, I joined the team.',
+    },
+    {
       avatar_hover: <StaticImage src='../../../static/images/filip2_passion.png' alt='Filip' className='quote-img' />,
       short_name: 'Filip',
       bio: 'Senior iOS Developer',
@@ -222,12 +238,20 @@ export const CarouselQuotesSwiper: React.FC = () => {
         'I have learned one simple super-important thing here – my work will be full of joy if it has true meaning to someone. The more your work matters, the more responsible you are. It speeds up your self-improvement a lot.',
     },
     {
-      avatar_hover: <StaticImage src='../../../static/images/kasia_l.png' alt='Kasia class' className='quote-img' />,
+      avatar_hover: <StaticImage src='../../../static/images/kasia_l.png' alt='Kasia' className='quote-img' />,
       short_name: 'Kasia',
       bio: 'Senior Project Manager',
       slug: 'kasia',
       quote:
         'I love working with people at Bright. We create a group of people who not only want to do their tasks well but also bring added value with their great work every day.',
+    },
+    {
+      avatar_hover: <StaticImage src='../../../static/images/cezary_passion.png' alt='Cezary' className='quote-img' />,
+      short_name: 'Cezary',
+      bio: 'Android Developer',
+      slug: 'cezary',
+      quote:
+        'What I like about Bright Inventions is the flat structure, work-life balance, great team retreats, competitive salary, and the simple fact that normal people work here. Normal in a good way. ;)',
     },
     {
       avatar_hover: (
