@@ -58,17 +58,17 @@ By now, you should have a good idea of what User Experience Design is all about,
 
 **Here are some courses I can recommend:**
 
-​​[https://www.digitaldesigner.pl/](https://www.digitaldesigner.pl/)
+​​<https://www.digitaldesigner.pl/>
 
-[https://www.coursera.org/professional-certificates/google-ux-design](https://www.coursera.org/professional-certificates/google-ux-design)
+<https://www.coursera.org/professional-certificates/google-ux-design>
 
-[https://www.interaction-design.org/courses](https://www.interaction-design.org/courses)
+<https://www.interaction-design.org/courses>
 
 ## I don’t have the tech experience / I can’t draw
 
 THAT’S FINE. Honestly, **you don’t have to have a diploma in Computer Science or be a graduate of Fine Arts to be a good UX Designer/Product Designer**. There aren’t many traditional paths to become a Product Designer. Psychology, sociology, marketing, anything to do with people or research, all of those fields will come in handy during the UXD process. I’m sure whoever reads that, no matter the background, there is something in your experience that you would easily be able to put in practice in this field. Just stop and think about it. 
 
-You see, the essence of user experience design is that it is user centred, or human centred if you like. So any experience of yours, involving human interaction or problem solving, is good enough. **Product Design is not all about pretty interfaces or complex interactions. It is the process that counts**. Maria Rosala and Rachel Krause summed it up perfectly in their [report on UX Careers for Nielsen Norman Group](https://www.nngroup.com/reports/user-experience-careers/):
+You see, the essence of user experience design is that it is user centred, or human centred if you like. So any experience of yours, involving human interaction or problem solving, is good enough. **[Product Design](/our-areas/product-design) is not all about pretty interfaces or complex interactions. It is the process that counts**. Maria Rosala and Rachel Krause summed it up perfectly in their [report on UX Careers for Nielsen Norman Group](https://www.nngroup.com/reports/user-experience-careers/):
 
 <blockquote><h2>Make a list</h2><div>If you’re considering a transition into the UX field, instead of simply thinking about UX skills and knowledge you have, make a list of what knowledge and skills you have acquired in your previous role(s) that can be applied to working in UX.</div><footer>Maria Rosala, Rachel Krause</footer></blockquote>
 
@@ -82,9 +82,9 @@ Another thing about being a UX Designer is that **you can’t be afraid of askin
 
 I’m going to leave you with some links, which will help you dig deeper into the subject:
 
-* [https://www.nngroup.com/](https://www.nngroup.com/) - A great source of information made by two godfathers of UX -  Jakob Nielsen and Don Norman. If you feel overwhelmed with the amount of the articles and videos, I recommend the series about UX slogans for starters (https://www.nngroup.com/videos/you-are-not-user-slogan/)
-* [https://lawsofux.com/en/](https://lawsofux.com/en/) - another great source of how people perceive things and all the good practices worth taking into account while designing interfaces
-* [https://www.uxpin.com/studio/](https://www.uxpin.com/studio/), [https://xd.adobe.com/ideas/process/](https://xd.adobe.com/ideas/process/), [https://www.interaction-design.org/literature](https://www.interaction-design.org/literature), [https://uxdesign.cc/](https://uxdesign.cc/)  - many, many articles, videos which will give you a good start in understanding what’s what and some tips&tricks
-* [https://www.a11yproject.com/](https://www.a11yproject.com/) & [https://www.w3.org/WAI/standards-guidelines/wcag/](https://www.w3.org/WAI/standards-guidelines/wcag/) - all about the accessibility aspect of UXD
+* <https://www.nngroup.com/> - A great source of information made by two godfathers of UX -  Jakob Nielsen and Don Norman. If you feel overwhelmed with the amount of the articles and videos, I recommend the series about UX slogans for starters (https://www.nngroup.com/videos/you-are-not-user-slogan/)
+* <https://lawsofux.com/en/> - another great source of how people perceive things and all the good practices worth taking into account while designing interfaces
+* <https://www.uxpin.com/studio/>, <https://xd.adobe.com/ideas/process/>, <https://www.interaction-design.org/literature>, <https://uxdesign.cc/>  - many, many articles, videos which will give you a good start in understanding what’s what and some tips&tricks
+* <https://www.a11yproject.com/> & <https://www.w3.org/WAI/standards-guidelines/wcag/> - all about the accessibility aspect of UXD
 
 I’m not going to sugarcoat it, **it’s going to be hard getting that first job**. Now more than ever. And you’ll get frustrated with the amount of rejection emails saying you lack experience. Been there, done that. But those things I wrote about - they definitely helped me with gaining confidence in the field and standing out amongst others. Keep in mind that everyone has their own story and you should focus on you, don’t compare yourself and just keep on learning. Good luck!
