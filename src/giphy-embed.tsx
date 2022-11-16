@@ -76,6 +76,7 @@ export interface GiphyProps {
   url: string
 }
 
+// <GiphyEmbed url='https://giphy.com/gifs/garyvee-motivation-balance-3o6Zt14FoFHzswxPmE' />
 export const GiphyEmbed = (props: GiphyProps) => {
   if (isClip(props.url)) {
     return <GiphyClipEmbed {...props} />
@@ -88,4 +89,3 @@ export const GiphyEmbed = (props: GiphyProps) => {
   return <div>Don't know how to handle url {props.url}</div>
 }
 
-// <GiphyEmbed url='https://giphy.com/gifs/garyvee-motivation-balance-3o6Zt14FoFHzswxPmE' />

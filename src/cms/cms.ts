@@ -17,6 +17,7 @@ import '../styles/main.scss'
 import './styles/quote.css'
 import { applyFixForJumpingCursorIssue } from './fix-for-jumping-cursor'
 import { withPreviewFrameProvider } from './with-preview-frame-provider'
+import { GiphyEmbedCmsEditorComponent } from '../giphy-embed.cms'
 
 applyFixForJumpingCursorIssue()
 
@@ -30,5 +31,6 @@ CMS.registerEditorComponent({ ...buttonBlockConfig })
 CMS.registerEditorComponent({ ...hiddenImageConfig })
 CMS.registerEditorComponent({ ...importantInfoConfig })
 CMS.registerEditorComponent({ ...quoteConfig })
+CMS.registerEditorComponent(GiphyEmbedCmsEditorComponent)
 
 
