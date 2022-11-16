@@ -67,7 +67,7 @@ Our **client recently started to integrate their solution** with businesses repr
 
 ## What is special about this project?
 
-It’s not a typical Android development. Usually, the Android dev’s job comes down to showing UI for some data from the backend. Here your list of responsibilities is much broader. **You need to figure out how to make something from scratch because you work on some features that aren’t really developed yet**. You navigate around typical Android solutions and need to think outside the box even if Android offers common solutions that normally you would use. 
+It’s not a typical [Android development](/our-areas/mobile-app-development). Usually, the Android dev’s job comes down to showing UI for some data from the backend. Here your list of responsibilities is much broader. **You need to figure out how to make something from scratch because you work on some features that aren’t really developed yet**. You navigate around typical Android solutions and need to think outside the box even if Android offers common solutions that normally you would use. 
 
 Due to the fact that **we work on a unique SDK**, we can’t go the easy way. For example, we don’t use typical protocols here. We use **MQTT** to communicate with the backend rather than a common HTTP. We also use protocols like **CBOR** & **COAP**. To be noted, we base our solution on Bluetooth Low Energy but it is a standard right now.
 
