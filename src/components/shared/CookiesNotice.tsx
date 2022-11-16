@@ -169,6 +169,13 @@ function CookiesNotice() {
   function closeModal() {
     setIsOpen(false)
   }
+  function getConsentGtag(isChecked: boolean) {
+    if (isChecked) {
+      return 'granted'
+    } else {
+      return 'denied'
+    }
+  }
   return (
     <SectionNotice>
       <CookieConsent
@@ -186,13 +193,23 @@ function CookiesNotice() {
         containerClasses={'cookies-wrapper'}
         onAccept={isAllowSelected => {
           if (isAllowSelected) {
-            Cookies.set('gatsby-gdpr-google-analytics', `${consents.anlystics}`, { expires: 365 })
+            localStorage.setItem('ad_storage', getConsentGtag(consents.marketing))
+            localStorage.setItem('analytics_storage', getConsentGtag(consents.anlystics))
             Cookies.set('gatsby-gdpr-hotjar', `${consents.anlystics}`, { expires: 365 })
             Cookies.set('gatsby-gdpr-facebook-pixel', `${consents.marketing}`, { expires: 365 })
+            gtag('consent', 'update', {
+              ad_storage: getConsentGtag(consents.marketing),
+              analytics_storage: getConsentGtag(consents.anlystics),
+            })
           } else {
-            Cookies.set('gatsby-gdpr-google-analytics', 'true', { expires: 365 })
+            localStorage.setItem('ad_storage', getConsentGtag(true))
+            localStorage.setItem('analytics_storage', getConsentGtag(true))
             Cookies.set('gatsby-gdpr-hotjar', 'true', { expires: 365 })
             Cookies.set('gatsby-gdpr-facebook-pixel', 'true', { expires: 365 })
+            gtag('consent', 'update', {
+              ad_storage: 'granted',
+              analytics_storage: 'granted',
+            })
           }
           initializeAndTrack(location)
         }}

@@ -16,6 +16,12 @@ export default {
   siteMetadata,
 
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: isProduction ? ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476'] : [],
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-image',
@@ -107,11 +113,6 @@ export default {
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
-        googleAnalytics: {
-          trackingId: isProduction ? ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476'] : '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-analytics', // default
-          dataLayerName: 'dataLayer', // default
-        },
         facebookPixel: {
           pixelId: isProduction ? '1256554391514599' : '', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-facebook-pixel', // default
