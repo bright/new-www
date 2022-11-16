@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { LegacyRef, useState } from 'react'
 import CookieConsent, { Cookies } from 'react-cookie-consent'
 import { useLocation } from '@reach/router'
 import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
@@ -96,6 +96,12 @@ const CookieHeading = styled.h4`
   line-height: ${variables.pxToRem(24)};
   color: ${variables.color.white};
   padding-bottom: ${variables.pxToRem(32)};
+  @media ${variables.device.laptop} {
+    font-size: ${variables.pxToRem(38)};
+  }
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(32)};
+  }
 `
 
 const CookieText = styled(TextRegular)`
@@ -129,6 +135,7 @@ const CustomizeButton = styled.button`
     left: auto;
     transform: translate(50%, 0);
     bottom: 40px;
+    text-decoration: none;
   }
   @media ${variables.device.mobile} {
     bottom: 48px;
@@ -140,20 +147,34 @@ function CookiesNotice() {
     marketing: false,
     anlystics: false,
   })
+  const [modalIsOpen, setIsOpen] = React.useState(false)
+
   const location = useLocation()
   initializeAndTrack(location)
-  const cookieConsentRef = React.useRef<any>()
-  const handleChange = (e: any) => {
+  const cookieConsentRef = React.useRef() as React.MutableRefObject<CookieConsent>
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.type === 'checkbox') {
       setConsents({ ...consents, [e.target.name]: e.target.checked })
     }
   }
-  const [modalIsOpen, setIsOpen] = React.useState(false)
+  const handleAllowAll = () => {
+    setConsents({
+      marketing: true,
+      anlystics: true,
+    })
+  }
   function openModal() {
     setIsOpen(true)
   }
   function closeModal() {
     setIsOpen(false)
+  }
+  function getConsentGtag(isChecked: boolean) {
+    if (isChecked) {
+      return 'granted'
+    } else {
+      return 'denied'
+    }
   }
   return (
     <SectionNotice>
@@ -172,13 +193,23 @@ function CookiesNotice() {
         containerClasses={'cookies-wrapper'}
         onAccept={isAllowSelected => {
           if (isAllowSelected) {
-            Cookies.set('gatsby-gdpr-google-tagmanager', `${consents.anlystics}`, { expires: 365 })
+            localStorage.setItem('ad_storage', getConsentGtag(consents.marketing))
+            localStorage.setItem('analytics_storage', getConsentGtag(consents.anlystics))
             Cookies.set('gatsby-gdpr-hotjar', `${consents.anlystics}`, { expires: 365 })
             Cookies.set('gatsby-gdpr-facebook-pixel', `${consents.marketing}`, { expires: 365 })
+            gtag('consent', 'update', {
+              ad_storage: getConsentGtag(consents.marketing),
+              analytics_storage: getConsentGtag(consents.anlystics),
+            })
           } else {
-            Cookies.set('gatsby-gdpr-google-tagmanager', 'true', { expires: 365 })
+            localStorage.setItem('ad_storage', getConsentGtag(true))
+            localStorage.setItem('analytics_storage', getConsentGtag(true))
             Cookies.set('gatsby-gdpr-hotjar', 'true', { expires: 365 })
             Cookies.set('gatsby-gdpr-facebook-pixel', 'true', { expires: 365 })
+            gtag('consent', 'update', {
+              ad_storage: 'granted',
+              analytics_storage: 'granted',
+            })
           }
           initializeAndTrack(location)
         }}
@@ -196,6 +227,7 @@ function CookiesNotice() {
           </CookieText>
           <CustomizeButton onClick={openModal}>customize</CustomizeButton>
           <ModalCookies
+            allowAll={handleAllowAll}
             modalIsOpen={modalIsOpen}
             closeModal={closeModal}
             onChanged={handleChange}
