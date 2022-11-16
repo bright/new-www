@@ -509,3 +509,12 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
     ],
   } as PartialWebpackConfig)
 }
+
+
+export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({ actions, schema }) => {
+  actions.createTypes(
+    `type Members implements Node {
+      posts: [Blog] @link(by: "author.author_id", from: "author_id") 
+    }`
+  )
+}
