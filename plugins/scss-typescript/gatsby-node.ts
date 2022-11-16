@@ -72,7 +72,7 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({
     return rule
   })
 
-  console.log(util.inspect(mappedRules, { depth: 5 }))
+  // console.log(util.inspect(mappedRules, { depth: 5 }))
 
   const newVar: PartialWebpackConfig = {
     ...config,
