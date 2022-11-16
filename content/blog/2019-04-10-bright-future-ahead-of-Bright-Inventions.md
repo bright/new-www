@@ -13,13 +13,14 @@ tags:
   - web
   - software
 date: 2019-04-09T22:00:00.000Z
+meaningfullyUpdatedAt: 2022-11-16T14:18:40.788Z
 title: Bright Future Ahead for Bright Inventions
 layout: post
 image: /images/clutch_we_deliver2.png
 hidden: false
 published: true
 ---
-As software consultants with specialties in mobile apps and the Internet of things, Bright Inventions has mastered the entire delivery process, making our clients’ dreams an easy, successful reality. While technology around us keeps [transforming](https://www.forbes.com/sites/forbescommunicationscouncil/2019/04/08/disrupt-or-be-disrupted-seven-steps-to-digital-transformation/#94254765f20b) and testing the limits of what we can achieve, our team remains committed to transparency, engagement, and success on behalf our clients, our products, and our service.
+As software consultants with specialties in [mobile apps](/our-areas/mobile-app-development) and the [Internet of Things](/our-areas/iot-development), Bright Inventions has mastered the entire delivery process, making our clients’ dreams an easy, successful reality. While technology around us keeps [transforming](https://www.forbes.com/sites/forbescommunicationscouncil/2019/04/08/disrupt-or-be-disrupted-seven-steps-to-digital-transformation/#94254765f20b) and testing the limits of what we can achieve, our team remains committed to transparency, engagement, and success on behalf our clients, our products, and our service.
 
 The hard work and track record of quality performance that Bright Inventions has achieved have turned heads everywhere, making us one of the top [IoT companies](https://clutch.co/developers/internet-of-things) in the field. In a recent industry-wide ranking published by Clutch, the B2B research and reviews agency, we outranked many of our competitors thanks to our exceptional market presence, client feedback scores, and industry experience.
 
