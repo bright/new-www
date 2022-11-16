@@ -16,15 +16,6 @@ const Error = styled.div`
   color: red;
 `
 
-const ReactError = ({ error, errorInfo }: { error: Error; errorInfo: ErrorInfo }) => (
-  <Error>
-    {error.message} <br />
-    Stack: {error.stack}
-    <br />
-    Component stack: {errorInfo.componentStack}
-  </Error>
-)
-
 export const MdxPreview = ({ value }: MdxPreviewProps) => {
   const [compiledResult, setCompiledResult] = useState<MDXCompiledContentOrError | null>(null)
 
@@ -48,6 +39,17 @@ export const MdxPreview = ({ value }: MdxPreviewProps) => {
   }
 
   return <div>Loading...</div>
+}
+
+function ReactError({ error, errorInfo }: { error: Error; errorInfo: ErrorInfo }) {
+  return (
+    <Error>
+      {error.message} <br />
+      Stack: {error.stack}
+      <br />
+      Component stack: {errorInfo.componentStack}
+    </Error>
+  )
 }
 
 function CompilerError({ error, value }: { error: MdxCompilerError; value: string }) {
