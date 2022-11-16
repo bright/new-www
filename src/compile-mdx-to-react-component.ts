@@ -18,15 +18,24 @@ export async function compileMDXToReactComponent({ MDXSource }: { MDXSource: str
 
 export type MDXCompiledContent = PromiseType<ReturnType<typeof compileMDXToReactComponent>>['Component']
 
+export interface MdxCompilerError extends Error {
+  column: number | null
+  line: number | null
+  message: string
+  reason: string
+  ruleId: string
+  source: string
+}
+
 export async function compileMDXToReactComponentSafely(
   value: string
-): Promise<{ error: Error, Component: null } | { Component: MDXCompiledContent, error: null}> {
+): Promise<{ error: MdxCompilerError; Component: null } | { Component: MDXCompiledContent; error: null }> {
   try {
     const { Component } = await compileMDXToReactComponent({ MDXSource: value })
     return { Component, error: null }
   } catch (e) {
-    console.error('Failed to compile mdx', { MDXSource: value }, e)
-    return { error: e as Error, Component: null }
+    console.error('Failed to compile mdx', { MDXSource: value, error: e })
+    return { error: e as MdxCompilerError, Component: null }
   }
 }
 

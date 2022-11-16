@@ -1,7 +1,12 @@
 import { mdxComponents } from '../mdx'
-import React, { useEffect, useState } from 'react'
-import { compileMDXToReactComponentSafely, MDXCompiledContentOrError } from '../compile-mdx-to-react-component'
+import React, { CSSProperties, ErrorInfo, useEffect, useState } from 'react'
+import {
+  compileMDXToReactComponentSafely,
+  MDXCompiledContentOrError,
+  MdxCompilerError,
+} from '../compile-mdx-to-react-component'
 import styled from 'styled-components'
+import { ErrorBoundary } from './error-boundary'
 
 interface MdxPreviewProps {
   value: string // actual mdx
@@ -9,8 +14,16 @@ interface MdxPreviewProps {
 
 const Error = styled.div`
   color: red;
-  font-weight: bold;
 `
+
+const ReactError = ({ error, errorInfo }: { error: Error; errorInfo: ErrorInfo }) => (
+  <Error>
+    {error.message} <br />
+    Stack: {error.stack}
+    <br />
+    Component stack: {errorInfo.componentStack}
+  </Error>
+)
 
 export const MdxPreview = ({ value }: MdxPreviewProps) => {
   const [compiledResult, setCompiledResult] = useState<MDXCompiledContentOrError | null>(null)
@@ -23,12 +36,60 @@ export const MdxPreview = ({ value }: MdxPreviewProps) => {
   const Component = compiledResult?.Component
 
   if (error) {
-    return <Error>{compiledResult?.error}</Error>
+    return <CompilerError error={error} value={value} />
   }
 
   if (Component) {
-    return <Component components={mdxComponents} />
+    return (
+      <ErrorBoundary name='MdxPreview' renderError={ReactError}>
+        <Component components={mdxComponents} />
+      </ErrorBoundary>
+    )
   }
 
   return <div>Loading...</div>
+}
+
+function CompilerError({ error, value }: { error: MdxCompilerError; value: string }) {
+  function lineAndColumnDetails() {
+    if (error.line == null || error.column == null) {
+      return null
+    }
+
+    const errorLine0Based = error.line - 1
+    const mdxWithProblem = value.split('\n').slice(Math.max(0, errorLine0Based - 1), errorLine0Based + 3)
+    const isFirstLineAProblem = mdxWithProblem.length == 1
+    const isSecondLineAProblem = mdxWithProblem.length > 2
+    const problemStyle: CSSProperties = { fontWeight: 'bold' }
+
+    return (
+      <>
+        Line: {error.line} <br />
+        Column: {error.column} <br />
+        <pre>
+          <code>
+            <div style={isFirstLineAProblem ? problemStyle : {}}>
+              {isFirstLineAProblem ? '--->\t' : ''}
+              {mdxWithProblem[0]}
+            </div>
+            {mdxWithProblem.length > 1 && (
+              <div style={isSecondLineAProblem ? problemStyle : {}}>
+                {isSecondLineAProblem ? '--->\t' : ''}
+                {mdxWithProblem[1]}
+              </div>
+            )}
+            {mdxWithProblem.length > 2 && <div>{mdxWithProblem[2]}</div>}
+          </code>
+        </pre>
+      </>
+    )
+  }
+
+  return (
+    <Error>
+      <div style={{ fontWeight: 'bold' }}>Failed to compile MDX!</div>
+      {error.message} <br />
+      {lineAndColumnDetails()}
+    </Error>
+  )
 }
