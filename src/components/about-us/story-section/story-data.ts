@@ -125,10 +125,6 @@ export const story: readonly Story[] = [
   {
     images: [
       {
-        src: '/images/why-us/timeline/Piotr2020.png',
-        alt: 'Piotr',
-      },
-      {
         src: '/images/why-us/timeline/Magda2020.png',
         alt: 'Magda',
       },
