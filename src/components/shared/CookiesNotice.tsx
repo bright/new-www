@@ -10,9 +10,6 @@ import variables from '../../styles/variables'
 import ModalCookies from './ModalCookies'
 
 const SectionNotice = styled.section`
-  background: ${variables.color.text2};
-  padding: ${variables.pxToRem(80)} ${variables.pxToRem(61)};
-
   & .wrapper-button {
     display: flex;
     width: 100%;
@@ -89,7 +86,7 @@ const SectionNotice = styled.section`
     }
   }
 `
-const CookieHeading = styled.h4`
+const CookieHeading = styled.p`
   font-size: ${variables.pxToRem(40)};
   line-height: ${variables.pxToRem(60)};
   font-weight: 800;
@@ -97,7 +94,7 @@ const CookieHeading = styled.h4`
   color: ${variables.color.white};
   padding-bottom: ${variables.pxToRem(32)};
   @media ${variables.device.laptop} {
-    font-size: ${variables.pxToRem(38)};
+    font-size: ${variables.pxToRem(34)};
   }
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(32)};
