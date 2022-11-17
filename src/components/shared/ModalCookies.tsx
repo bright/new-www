@@ -119,6 +119,16 @@ const SignX = styled.div`
     left: 25px;
   }
 `
+const ButtonConsentModalFlexWrapper = styled(FlexWrapper)`
+  margin-top: ${variables.pxToRem(52)};
+  @media ${variables.device.mobile} {
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+    right: 18px;
+    padding-bottom: 15px;
+  }
+`
 
 function ModalCookies(props: {
   modalIsOpen: boolean
@@ -191,16 +201,11 @@ function ModalCookies(props: {
               </FlexWrapper>
             </FlexWrapper>
           </FlexWrapper>
-          <FlexWrapper
-            desktopContent='flex-end'
-            desktopGap='25px'
-            style={{ marginTop: '52px' }}
-            tabletDirection='column-reverse'
-          >
+          <ButtonConsentModalFlexWrapper desktopContent='flex-end' desktopGap='25px' tabletDirection='column-reverse'>
             <SelectedButton onClick={() => props.onAccept(true)}>confirm choices</SelectedButton>
 
             <AllowAllButton onClick={handleAllowAll}>allow all</AllowAllButton>
-          </FlexWrapper>
+          </ButtonConsentModalFlexWrapper>
         </FlexWrapper>
       </Modal>
     </div>
