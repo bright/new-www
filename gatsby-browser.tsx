@@ -9,6 +9,12 @@ import React from 'react'
 import type { GatsbyBrowser } from 'gatsby'
 import { GlobalStyle } from './src/styles/global'
 import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-google-analytics'
+import {
+  acceptedResultLSConsent,
+  analyticsConsentLSName,
+  marketingConsentLSName,
+  rejectedResultLSConsent,
+} from './src/components/utils/localeStorageConstants'
 
 let nextRoute = ''
 
@@ -48,8 +54,8 @@ function gtagLoader(): Promise<Gtag.Gtag> {
 }
 
 function hasUserDecidedOnConsent() {
-  const adStorageConsent = localStorage.getItem('ad_storage')
-  const analyticsStorageConsent = localStorage.getItem('analytics_storage')
+  const adStorageConsent = localStorage.getItem(marketingConsentLSName)
+  const analyticsStorageConsent = localStorage.getItem(analyticsConsentLSName)
   return adStorageConsent || analyticsStorageConsent
 }
 
@@ -57,16 +63,17 @@ async function setupGoogleTrackingConsent() {
   const gtag = await gtagLoader().then(res => res)
   if (!hasUserDecidedOnConsent()) {
     gtag('consent', 'default', {
-      ad_storage: 'denied',
-      analytics_storage: 'denied',
+      ad_storage: rejectedResultLSConsent,
+      analytics_storage: rejectedResultLSConsent,
     })
   } else {
-    const adStorageConsent = localStorage.getItem('ad_storage')
-    const analyticsStorageConsent = localStorage.getItem('analytics_storage')
+    const adStorageConsent = localStorage.getItem(marketingConsentLSName)
+    const analyticsStorageConsent = localStorage.getItem(analyticsConsentLSName)
 
     gtag('consent', 'update', {
-      ad_storage: adStorageConsent === 'granted' ? adStorageConsent : 'denied',
-      analytics_storage: analyticsStorageConsent === 'granted' ? analyticsStorageConsent : 'denied',
+      ad_storage: adStorageConsent === acceptedResultLSConsent ? adStorageConsent : rejectedResultLSConsent,
+      analytics_storage:
+        analyticsStorageConsent === acceptedResultLSConsent ? analyticsStorageConsent : rejectedResultLSConsent,
     })
   }
 }
