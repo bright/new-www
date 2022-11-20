@@ -1,4 +1,4 @@
-import React, { LegacyRef, useState } from 'react'
+import React, { LegacyRef, useEffect, useState } from 'react'
 import CookieConsent, { Cookies } from 'react-cookie-consent'
 import { useLocation } from '@reach/router'
 import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
@@ -8,6 +8,7 @@ import { TextRegular } from './index.styled'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import ModalCookies from './ModalCookies'
+import { marketingConsentLSName, onAllowAll, onAllowSelected } from '../utils/localeStorageConstants'
 
 const SectionNotice = styled.section`
   & .wrapper-button {
@@ -140,6 +141,7 @@ const CustomizeButton = styled.button`
 `
 
 function CookiesNotice() {
+  console.log(window.localStorage)
   const [consents, setConsents] = useState({
     marketing: false,
     anlystics: false,
@@ -166,13 +168,7 @@ function CookiesNotice() {
   function closeModal() {
     setIsOpen(false)
   }
-  function getConsentGtag(isChecked: boolean) {
-    if (isChecked) {
-      return 'granted'
-    } else {
-      return 'denied'
-    }
-  }
+
   return (
     <SectionNotice>
       <CookieConsent
@@ -190,25 +186,10 @@ function CookiesNotice() {
         containerClasses={'cookies-wrapper'}
         onAccept={isAllowSelected => {
           if (isAllowSelected) {
-            localStorage.setItem('ad_storage', getConsentGtag(consents.marketing))
-            localStorage.setItem('analytics_storage', getConsentGtag(consents.anlystics))
-            Cookies.set('gatsby-gdpr-hotjar', `${consents.anlystics}`, { expires: 365 })
-            Cookies.set('gatsby-gdpr-facebook-pixel', `${consents.marketing}`, { expires: 365 })
-            gtag('consent', 'update', {
-              ad_storage: getConsentGtag(consents.marketing),
-              analytics_storage: getConsentGtag(consents.anlystics),
-            })
+            onAllowSelected(consents.marketing, consents.anlystics)
           } else {
-            localStorage.setItem('ad_storage', getConsentGtag(true))
-            localStorage.setItem('analytics_storage', getConsentGtag(true))
-            Cookies.set('gatsby-gdpr-hotjar', 'true', { expires: 365 })
-            Cookies.set('gatsby-gdpr-facebook-pixel', 'true', { expires: 365 })
-            gtag('consent', 'update', {
-              ad_storage: 'granted',
-              analytics_storage: 'granted',
-            })
+            onAllowAll()
           }
-          initializeAndTrack(location)
         }}
       >
         <div>
