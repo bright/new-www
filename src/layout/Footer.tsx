@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import classNames from 'classnames'
 
 import { SocialIcons } from '../components/subcomponents/SocialIcons'
@@ -12,6 +12,15 @@ import styled from 'styled-components'
 import variables from '../styles/variables'
 import * as styles from './Footer.module.scss'
 import { Link } from 'gatsby'
+import ModalCookies from '../components/shared/ModalCookies'
+import CookieConsent from 'react-cookie-consent'
+import {
+  acceptedResultLSConsent,
+  analyticsConsentLSName,
+  marketingConsentLSName,
+  onAllowAll,
+  onAllowSelected,
+} from '../components/utils/localeStorageConstants'
 
 const FooterWrapper = styled.footer`
   && .column:first-of-type {
@@ -35,8 +44,42 @@ const FooterWrapper = styled.footer`
     }
   }
 `
+const FooterOpenModalButton = styled.button`
+  all: unset;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: ${variables.pxToRem(5)};
+`
 
 export const Footer = () => {
+  const [modalIsOpen, setIsOpen] = React.useState(false)
+  const analyticsStorage = JSON.parse(JSON.stringify(localStorage.getItem(analyticsConsentLSName)) || '{}')
+  const adStorage = JSON.parse(JSON.stringify(localStorage.getItem(marketingConsentLSName)) || '{}')
+
+  const [consents, setConsents] = useState({
+    anlystics: analyticsStorage === acceptedResultLSConsent ? true : false,
+    marketing: adStorage === acceptedResultLSConsent ? true : false,
+  })
+
+  function openModal() {
+    setIsOpen(true)
+  }
+  function closeModal() {
+    setIsOpen(false)
+  }
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.type === 'checkbox') {
+      setConsents({ ...consents, [e.target.name]: e.target.checked })
+    }
+  }
+
+  const handleAllowAll = () => {
+    setConsents({
+      marketing: true,
+      anlystics: true,
+    })
+  }
+
   return (
     <FooterWrapper className={classNames('footer', styles.container)}>
       <div className={styles.top}>
@@ -125,8 +168,28 @@ export const Footer = () => {
       <div className={styles.bottom}>
         <div>
           © {new Date().getFullYear()} Bright Inventions. All rights reserved. <br />
-          We use cookies to ensure that we give you the best experience on our website. If you continue to use this site
-          we will assume that you are happy with it.
+          We use cookies to ensure that we give you the best experience on our website. You can change your cookie
+          preferences
+          <FooterOpenModalButton type='button' onClick={openModal}>
+            {' '}
+            here
+          </FooterOpenModalButton>
+          .
+          <ModalCookies
+            allowAll={handleAllowAll}
+            onChanged={handleChange}
+            modalIsOpen={modalIsOpen}
+            checkedAnalistic={consents.anlystics}
+            checkedMarketing={consents.marketing}
+            closeModal={closeModal}
+            onAccept={isAllowSelected => {
+              if (isAllowSelected) {
+                onAllowSelected(consents.marketing, consents.anlystics)
+              } else {
+                onAllowAll()
+              }
+            }}
+          />
           <Link to={routeLinks.privacyPolicy} className='has-text-black-bis'>
             Privacy Policy
           </Link>
