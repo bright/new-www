@@ -53,8 +53,12 @@ const FooterOpenModalButton = styled.button`
 
 export const Footer = () => {
   const [modalIsOpen, setIsOpen] = React.useState(false)
-  const analyticsStorage = JSON.parse(JSON.stringify(localStorage.getItem(analyticsConsentLSName)) || '{}')
-  const adStorage = JSON.parse(JSON.stringify(localStorage.getItem(marketingConsentLSName)) || '{}')
+  const analyticsStorage = JSON.parse(
+    JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(analyticsConsentLSName)) || '{}'
+  )
+  const adStorage = JSON.parse(
+    JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(marketingConsentLSName)) || '{}'
+  )
 
   const [consents, setConsents] = useState({
     anlystics: analyticsStorage === acceptedResultLSConsent ? true : false,
