@@ -53,19 +53,27 @@ const FooterOpenModalButton = styled.button`
 
 export const Footer = () => {
   const [modalIsOpen, setIsOpen] = React.useState(false)
-  const analyticsStorage = JSON.parse(
-    JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(analyticsConsentLSName)) || '{}'
-  )
-  const adStorage = JSON.parse(
-    JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(marketingConsentLSName)) || '{}'
-  )
-
   const [consents, setConsents] = useState({
-    anlystics: analyticsStorage === acceptedResultLSConsent ? true : false,
-    marketing: adStorage === acceptedResultLSConsent ? true : false,
+    anlystics: false,
+    marketing: false,
   })
 
+  function setConsentFromLS() {
+    const analyticsStorage = JSON.parse(
+      JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(analyticsConsentLSName)) || '{}'
+    )
+    const adStorage = JSON.parse(
+      JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(marketingConsentLSName)) || '{}'
+    )
+
+    setConsents({
+      anlystics: analyticsStorage === acceptedResultLSConsent ? true : false,
+      marketing: adStorage === acceptedResultLSConsent ? true : false,
+    })
+  }
+
   function openModal() {
+    setConsentFromLS()
     setIsOpen(true)
   }
   function closeModal() {
@@ -192,6 +200,7 @@ export const Footer = () => {
               } else {
                 onAllowAll()
               }
+              closeModal()
             }}
           />
           <Link to={routeLinks.privacyPolicy} className='has-text-black-bis'>
