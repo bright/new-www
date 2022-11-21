@@ -1,4 +1,4 @@
-import React, { LegacyRef, useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import CookieConsent, { Cookies } from 'react-cookie-consent'
 import { useLocation } from '@reach/router'
 import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
@@ -8,7 +8,7 @@ import { TextRegular } from './index.styled'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import ModalCookies from './ModalCookies'
-import { marketingConsentLSName, onAllowAll, onAllowSelected } from '../utils/localeStorageConstants'
+import { onAllowAll, onAllowSelected } from '../utils/localeStorageConstants'
 
 const SectionNotice = styled.section`
   & .wrapper-button {
@@ -141,7 +141,6 @@ const CustomizeButton = styled.button`
 `
 
 function CookiesNotice() {
-  console.log(window.localStorage)
   const [consents, setConsents] = useState({
     marketing: false,
     anlystics: false,
