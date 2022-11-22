@@ -50,23 +50,23 @@ Just Eat POS system took care of the whole process of managing restaurant orders
 
 ## iOS development
 
-iOS products developed by our team are used in restaurants in Israel. Practi iOS solution is one of the top ePOS solutions used by restaurants in Israel. There are three main retail products developed by bright iOS developers.
+iOS products developed by our team were used in restaurants in Israel. Practi iOS solution was one of the top ePOS solutions used by restaurants in Israel. There were three main retail products developed by bright iOS developers.
 
 ### **Reggie iOS ePOS application**
 
-Reggie is “the mind” of the whole ePOS system at the restaurant. It is a cash register itself. It’s fully integrated with JustEat and a couple of others online food delivery companies. You can manage orders from clients in the restaurant as well as take care of all phone and internet orders. Also, the app enables you to manage drivers if your restaurant hires them.
+**Reggie is “the mind” of the whole ePOS system at the restaurant**. It is a cash register itself. It’s fully integrated with JustEat and a couple of others online food delivery companies. You can manage orders from clients in the restaurant as well as take care of all phone and internet orders. Also, the app enables you to manage drivers if your restaurant hires them.
 
 ### **Click & Collect – iOS white label application**
 
-The app is dedicated to restaurants which want to offer clients their own meal ordering application. “White label app” is the product that can be easly adjusted to clients brand visual identity and business needs. Therefore every restaurant can use this app but it looks differently for every business. The app allows restaurant’s customers to order items from menu and get them delivered or collected on their own.
+**The app was dedicated to restaurants which want to offer clients their own meal-ordering application**. “White label app” was the product that can be easly adjusted to clients brand visual identity and business needs. Therefore every restaurant can use this app but it looks differently for every business. The app allowed restaurant’s customers to order items from menu and get them delivered or collected on their own.
 
 ### **Driver app** 
 
-Our team has also developed an independent product used by drivers who deliver the orders from a restaurant to customers. The app not only shows the destination and navigates drivers but also keeps them informed about the transaction details. Drivers know whether the order was paid or it needs to be paid. The driver is well-aware about the payment method (by cash or card). Thanks to the app, drivers are provided with all necessary information and can focus on delivering the meals as soon as possible.
+Our team  also developed an independent **product used by drivers who deliver the orders from a restaurant to customers**. The app not only showed the destination and navigates drivers but also kept them informed about the transaction details. Drivers knew whether the order was paid or it needed to be paid. The driver was well-aware about the payment method (by cash or card). Thanks to the app, drivers were provided with all necessary information and could focus on delivering the meals as soon as possible.
 
 ## **Android development**
 
-Android development team delivers similar solutions to the iOS team. Android app is used by end-users in the UK and soon will be launched in other European countries.
+Android development team delivered similar solutions to the iOS team. Android app was used by end-users in the UK.
 
 ### Reggie Android ePOS application
 
