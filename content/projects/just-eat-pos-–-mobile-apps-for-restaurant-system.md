@@ -54,12 +54,23 @@ The app lets you manage food orders made at restaurant, by phone or the website.
 Some of the features of the Android Just Eat POS application are:
 
 * Catalog – the main screen of the app used to quickly set up orders taken at place (in person). The cashier or other stuff member has access to all menu items and can choose the ones a client wants to order. They can also choose the delivery option if needed and enter client’s data. Then a cashier can proceed to the transaction.
- 
 * Customer Orders – the dashboard displaying all orders made externally – via a phone or online food delivery providers like Takeaway, Just Eat, etc. So these are orders that weren't made in person. The app user can quickly check the status of every order and assign a driver to deliver it to the customer.
- 
 * Reports – the app displays various data and statistics that shows your company revenue, number of orders and sold items, details about the inventory and more.
- 
 * Printing receipt – the app enables to print payment receipts as well as receipts printed in the kitchen with details about the order.
- 
 * Integration with CallerID – when a client calls, the application assigns the caller number with the order.
+
+## Delivering customized applications for Bluetooth devices
+
+A great part of working with Just Eat POS is building iOS and Android applications integrated with Bluetooth retail and ePOS devices including:
+
+* POS Desktops,
+* Payment terminals,
+* Magnetic stripe readers,
+* Label and thermal printers, 
+* Caller ID hardware, 
+* Kitchen Display Systems,
+* Electronic scales,
+* Barcode scanners,
+* Kiosks.
+
 
