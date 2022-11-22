@@ -12,7 +12,7 @@ import { fbShareImage } from '../meta/bright-logo'
 import { resolveUrl } from '../meta/resolve-url'
 import { useLocation } from '@reach/router'
 import { MDXComponentsWrapper } from '../mdx'
-import CookiesNotice from '../components/shared/CookiesNotice'
+import CookiesNotice from '../analytics/cookies-notice'
 import { isBrowser } from '../utils'
 
 export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ children, className }) => {

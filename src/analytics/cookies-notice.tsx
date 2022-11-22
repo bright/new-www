@@ -3,12 +3,12 @@ import CookieConsent, { Cookies } from 'react-cookie-consent'
 import { useLocation } from '@reach/router'
 import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
 import { Link } from 'gatsby'
-import { routeLinks } from './../../config/routing'
-import { TextRegular } from './index.styled'
+import { routeLinks } from '../config/routing'
+import { TextRegular } from '../components/shared/index.styled'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
-import ModalCookies from './ModalCookies'
-import { onAllowAll, onAllowSelected } from '../../analytics/local-storage-constants'
+import variables from '../styles/variables'
+import ModalCookies from '../components/shared/ModalCookies'
+import { onAllowAll, onAllowSelected } from './local-storage-constants'
 
 const SectionNotice = styled.section`
   & .wrapper-button {
