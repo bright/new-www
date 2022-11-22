@@ -26,11 +26,11 @@ published: true
 
 ## The system was built around these products:
 
-* ePOS iOS and Android applications used by restaurant staff to take orders and manage payments.
-* White label application for restaurants to take orders via their own, dedicated website.
-* iOS and Android driver application which assists drivers in delivering orders.
-* Website which enables to display restaurant’s menu and offers integrations with online delivery providers like JET or Wolt.
-* Backoffice solutions including managing integrations and API connections.
+* **ePOS iOS and Android applications** used by restaurant staff to take orders and manage payments.
+* **White label application for restaurants** to take orders via their own, dedicated website.
+* **iOS and Android driver application** which assists drivers in delivering orders.
+* A **website that enables to display restaurant’s menu** and offers integrations with online delivery providers like JET or Wolt.
+* **Backoffice solutions** including managing integrations and API connections.
 
 ## Main features developed by Bright Inventions:
 
