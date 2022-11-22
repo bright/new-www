@@ -1,0 +1,38 @@
+@import '../../styles/mixins';
+.modal-cookies {
+  border-radius: 0px;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  width: 69%;
+
+  background: rgb(10, 10, 10);
+  border: 2px solid rgb(249, 249, 249);
+  position: absolute;
+  overflow: auto;
+  outline: none;
+  border: 2px solid #f9f9f9;
+  max-height: 100%;
+  background: #0a0a0a;
+  border-radius: 0;
+  padding: 113px 76px;
+}
+
+@include laptop() {
+  .modal-cookies {
+    padding: 63px 43px 63px 57px;
+    width: 78%;
+  }
+}
+
+@include tabletMax() {
+  .modal-cookies {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+@include mobile() {
+  .modal-cookies {
+    padding: 19px;
+  }
+}
