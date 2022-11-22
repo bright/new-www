@@ -11,7 +11,7 @@ interface CustomEventProps {
 const loggingGtag = (command: 'event',
                      eventName: Gtag.EventNames | string,
                      eventParams?: Gtag.ControlParams | Gtag.EventParams | Gtag.CustomParams) => {
-  console.log('trackCustomEvent', { command, eventName, eventParams })
+  console.log('gtag not available. Would track', { command, eventName, eventParams })
 }
 
 export function trackCustomEvent(eventProps: CustomEventProps) {
