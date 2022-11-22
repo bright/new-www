@@ -24,9 +24,9 @@ export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked:
   Cookies.set('gatsby-gdpr-hotjar', `${isAnalitycsChecked}`, { expires: 365 })
   Cookies.set('gatsby-gdpr-facebook-pixel', `${isMarketingChecked}`, { expires: 365 })
   gtagOrFallback()('consent', 'update', {
-      ad_storage: getConsentGtag(isMarketingChecked),
-      analytics_storage: getConsentGtag(isAnalitycsChecked),
-    })
+    ad_storage: getConsentGtag(isMarketingChecked),
+    analytics_storage: getConsentGtag(isAnalitycsChecked),
+  })
   initializeAndTrack(location)
 }
 
@@ -35,15 +35,15 @@ export const onAllowAll = () => {
 }
 
 export function loadConsentsStateOrDefault() {
-  const analyticsStorage = JSON.parse(
-    JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(analyticsConsentLSName)) || '{}'
-  )
-  const adStorage = JSON.parse(
-    JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(marketingConsentLSName)) || '{}'
-  )
+  const analyticsStorage = global.localStorage?.getItem(analyticsConsentLSName)
+  const adStorage = global.localStorage?.getItem(marketingConsentLSName)
 
   return {
     anlystics: analyticsStorage === acceptedResultLSConsent,
     marketing: adStorage === acceptedResultLSConsent,
   }
+}
+
+export function hasUserDecidedOnConsent() {
+  return Cookies.get(hasUserDecidedOnAnalyticsConsentCookieName) !== undefined
 }
