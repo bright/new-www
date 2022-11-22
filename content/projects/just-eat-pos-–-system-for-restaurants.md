@@ -127,3 +127,9 @@ Data we stored provided our client with significant insight into the behaviour o
 This team **took care of integrations with food delivery platforms and menu platforms**. Thanks to their work restaurants using Just Eat POS solution could change the menu in only one place and it would be automatically updated on every possible platform the restaurant use to display its menu.
 
 Another responsibility of this team was i**ntegrations with online food order and delivery providers like Just Eat or Takeaway.** The goal of backend integrations team was to enable management of orders from different platforms in one device. So restaurant employees don't have to use different apps and devices to take care of orders from other platforms.
+
+## Result
+
+Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Practi was one of our first clients. **During almost a decade of our cooperation the client has transformed from a startup to a global Point-Of-Sale system provider used by businesses in Israel and the UK**. 
+
+We are honored to be their technical partner for almost a decade.
