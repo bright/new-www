@@ -15,9 +15,12 @@ const getConsentGtag = (isChecked: boolean) => {
   }
 }
 
+export const hasUserDecidedOnAnalyticsConsentCookieName = 'CookieConsent'
+
 export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked: boolean) => {
   localStorage.setItem(marketingConsentLSName, getConsentGtag(isMarketingChecked))
   localStorage.setItem(analyticsConsentLSName, getConsentGtag(isAnalitycsChecked))
+  Cookies.set(hasUserDecidedOnAnalyticsConsentCookieName, 'true', { expires: 365 })
   Cookies.set('gatsby-gdpr-hotjar', `${isAnalitycsChecked}`, { expires: 365 })
   Cookies.set('gatsby-gdpr-facebook-pixel', `${isMarketingChecked}`, { expires: 365 })
   gtagOrFallback()('consent', 'update', {

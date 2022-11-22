@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import CookieConsent, { Cookies } from 'react-cookie-consent'
+import React from 'react'
+import CookieConsent from 'react-cookie-consent'
 import { useLocation } from '@reach/router'
 import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
 import { Link } from 'gatsby'
@@ -7,8 +7,8 @@ import { routeLinks } from '../config/routing'
 import { TextRegular } from '../components/shared/index.styled'
 import styled from 'styled-components'
 import variables from '../styles/variables'
-import { ModalCookiesPresentation } from './modal-cookies'
-import { onAllowAll, onAllowSelected } from './local-storage-constants'
+import { ModalCookies } from './modal-cookies'
+import { hasUserDecidedOnAnalyticsConsentCookieName, onAllowAll } from './local-storage-constants'
 
 const SectionNotice = styled.section`
   & .wrapper-button {
@@ -141,31 +141,13 @@ const CustomizeButton = styled.button`
 `
 
 function CookiesNotice() {
-  const [consents, setConsents] = useState({
-    marketing: false,
-    anlystics: false,
-  })
   const [modalIsOpen, setIsOpen] = React.useState(false)
 
   const location = useLocation()
   initializeAndTrack(location)
-  const cookieConsentRef = React.useRef() as React.MutableRefObject<CookieConsent>
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.type === 'checkbox') {
-      setConsents({ ...consents, [e.target.name]: e.target.checked })
-    }
-  }
-  const handleAllowAll = () => {
-    setConsents({
-      marketing: true,
-      anlystics: true,
-    })
-  }
+
   function openModal() {
     setIsOpen(true)
-  }
-  function closeModal() {
-    setIsOpen(false)
   }
 
   return (
@@ -173,9 +155,7 @@ function CookiesNotice() {
       <CookieConsent
         location='bottom'
         buttonText='allow cookies'
-        ref={cookieConsentRef}
-        cookieName='gatsby-gdpr-hotjar'
-        cookieValue='true'
+        cookieName={hasUserDecidedOnAnalyticsConsentCookieName}
         disableStyles={true}
         disableButtonStyles={true}
         overlay
@@ -183,13 +163,7 @@ function CookiesNotice() {
         overlayClasses='overlay'
         buttonWrapperClasses={'wrapper-button'}
         containerClasses={'cookies-wrapper'}
-        onAccept={isAllowSelected => {
-          if (isAllowSelected) {
-            onAllowSelected(consents.marketing, consents.anlystics)
-          } else {
-            onAllowAll()
-          }
-        }}
+        onAccept={onAllowAll}
       >
         <div>
           <CookieHeading>allow cookies</CookieHeading>
@@ -203,16 +177,9 @@ function CookiesNotice() {
             .
           </CookieText>
           <CustomizeButton onClick={openModal}>customize</CustomizeButton>
-          <ModalCookiesPresentation
-            allowAll={handleAllowAll}
+          <ModalCookies
             modalIsOpen={modalIsOpen}
-            closeModal={closeModal}
-            onChanged={handleChange}
-            checkedAnalistic={consents.anlystics}
-            checkedMarketing={consents.marketing}
-            onAccept={isAllowSelected => {
-              cookieConsentRef.current.accept(isAllowSelected)
-            }}
+            closeModal={setIsOpen}
           />
         </div>
       </CookieConsent>
