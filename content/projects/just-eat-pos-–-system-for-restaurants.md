@@ -106,8 +106,8 @@ One of Bright Inventions Frontend team priorities was development of the Just Ea
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
-Frontend team takes an active role at every phase of frontend app development process working closely with a product manager and product designers.
+**Frontend team tool an active role at every phase of frontend app development** process working closely with a product manager and product designers.
 
-The Backoffice system has been on the market for almost 10 year. Therefore one of the priorities of the frontend team is to migrate the app to modern technology while delivering new features to users who use this platform everyday at work. 
+The Backoffice system has been on the market for almost 10 year. Therefore one of the priorities of the frontend team was to **migrate the app to modern technology while delivering new features** to users who use this platform everyday at work. 
 
-Thanks to the trust of the client, the team takes part in the decision-making process regarding which libraries, tools and technologies to choose to rewrite the platform. The current migration doesn’t include only changing to newest technologies. The essential part of it is also implementation of new design maintaining best possible UX and UI experience.
+Thanks to the trust of the client, **the team took part in the decision-making process regarding which libraries, tools and technologies to choose** to rewrite the platform. The migration didin't include only changing to newest technologies. The essential part of it was also implementation of new design maintaining best possible UX and UI experience.
