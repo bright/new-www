@@ -84,7 +84,7 @@ The app let you manage food orders made at restaurant, by phone or the website.
 
 <div class="image"><img src="/images/blog_post_cover_epos.png" alt="ePOS applications" title="undefined"  /> </div>
 
-A great part of working with Just Eat POS is building iOS and Android applications integrated with Bluetooth retail and ePOS devices including:
+A great part of working with Just Eat POS was **building iOS and Android applications integrated with Bluetooth retail and ePOS devices** including:
 
 * POS Desktops,
 * Payment terminals,
@@ -96,8 +96,8 @@ A great part of working with Just Eat POS is building iOS and Android applicatio
 * Barcode scanners,
 * Kiosks.
 
-Our applications have been integrated mostly with Sunmi Technology – one of the top global hardware providers.
+Our applications have been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
 
 ## **Result**
 
-Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Although the retail system is no longer developed. Bright Inventions Android and iOS developers still work with Just Eat Takeaway on other solutions.
+Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Although the retail system is no longer developed. **Bright Inventions Android and iOS developers still work with Just Eat Takeaway on other solutions**.
