@@ -131,4 +131,4 @@ Another responsibility of this team was i**ntegrations with online food order an
 
 Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Practi was one of our first clients. **During almost a decade of our cooperation the client has transformed from a startup to a global Point-Of-Sale system provider used by businesses in Israel and the UK**. 
 
-We are honored to be their technical partner for almost a decade.
+We are honored to be their technical partner for almost a decade. Although the retail system is no longer developed Bright Inventions team still works with Just Eat Takeaway on other solutions.
