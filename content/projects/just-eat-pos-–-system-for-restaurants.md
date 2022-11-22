@@ -68,7 +68,7 @@ The client reached out to us in **2013**. At that time it was an early-stage Isr
 
 In 2019 Practi was **acquired by Just Eat Takeaway**. **Bright Inventions has had a great opportunity to assist the client** during this incredible ride, including the whole business transformation.
 
-##  Client’s expectations
+## Client’s expectations
 
 The client expects us to actively take part in creating the whole system. We are not only “code suppliers”, **we are technical partners offering years of software development experience**. Our mobile and web knowledge, and the fact that we have been working on this system since 2013 enables us to evaluate technical and business decisions. As a result, when needed, we gladly offer alternative solutions that would benefit the client and end-users.
 
@@ -90,4 +90,18 @@ All Bright Inventions’ developers work closely with the business side. There i
 
 ### Frontend team
 
-One of Bright Inventions Frontend team priorities is development of the Just Eat POS Backoffice. This is a web application which enables to manage business daily activitities and gives access to financial reports.
+One of Bright Inventions Frontend team priorities is development of the Just Eat POS Backoffice. This is a web application which enables to manage business daily activitities and gives access to financial reports. 
+
+**Here are examples of many features of the Just Eat POS Backoffice:**
+
+* Dashboard with all necessary information that shows the finansial condition of your restaurant.
+* Restaurant menu creator.
+* Establishing prices of items on a menu.
+* Managing the team and adjusting their roles e.g. cashier, branch manager and more.
+* Access to sales reports and other crucial business data.
+  Inventory management.
+* Setting up basic restaurant configurations e.g. taxes, operating hours, delivery hours, delivery charge and more.
+
+<div class="image"><img src="/images/restaurant_web_app.png" alt="System for restaurant" title="undefined"  /> </div>
+
+*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
