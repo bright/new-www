@@ -25,7 +25,7 @@ published: true
 
 ## The system was built around these products:
 
-* **ePOS iOS and Android applications** used by restaurant staff to take orders and manage payments.
+* **[ePOS iOS and Android applications](https://brightinventions.pl/projects/system-for-restaurants-mobile)** used by restaurant staff to take orders and manage payments.
 * **White label application for restaurants** to take orders via their own, dedicated website.
 * **iOS and Android driver application** which assists drivers in delivering orders.
 * A **website that enables to display restaurant’s menu** and offers integrations with online delivery providers like JET or Wolt.
@@ -86,6 +86,8 @@ The increasing number of users also means that **Bright Inventions’s team has 
 ## Process of building Just Eat POS retail system
 
 All Bright Inventions’ developers worked closely with the business side. Bright Inventions’s was represented by 8 development squads (each squad has about 5 developers and 2 dedicated QA engineers) who took care of various areas of this massive hospitality system. Let us show you some of the development teams.
+
+Read about iOS and Android development teams's products in a [Just Eat POS mobile applications case study](/projects/system-for-restaurants-mobile).
 
 ### Frontend team
 
