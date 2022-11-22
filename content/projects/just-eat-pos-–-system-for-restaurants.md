@@ -31,3 +31,21 @@ Just Eat POS system took care of the whole process of managing restaurant orders
 * iOS and Android driver application which assists drivers in delivering orders.
 * Website which enables to display restaurant’s menu and offers integrations with online delivery providers like JET or Wolt.
 * Backoffice solutions including managing integrations and API connections.
+
+## Main features developed by Bright Inventions:
+
+* Food ordering management
+* Transactions processing
+* Integration with payment service providers
+* Receipt printing
+* Delivery tracking
+* Employees time tracking
+* Inventory management
+* Supply ordering
+* Integration with online food delivery services
+* Offline mode during transactions
+* Business analytics platform reporting sales and financial information
+
+<div class="image"><img src="/images/retail_system_case_study.png" alt="retail system case study" title="It is not a real implemented design. It is a mockup example created for the purpose of case study."  /> </div>
+
+*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
