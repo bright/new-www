@@ -5,7 +5,7 @@ export const marketingConsentLSName = 'ad_storage'
 export const analyticsConsentLSName = 'analytics_storage'
 export const acceptedResultLSConsent = 'granted'
 export const rejectedResultLSConsent = 'denied'
-// const gtag = window.gtag as Gtag.Gtag
+
 const getConsentGtag = (isChecked: boolean) => {
   if (isChecked) {
     return acceptedResultLSConsent
@@ -28,14 +28,5 @@ export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked:
 }
 
 export const onAllowAll = () => {
-  localStorage.setItem(marketingConsentLSName, getConsentGtag(true))
-  localStorage.setItem(analyticsConsentLSName, getConsentGtag(true))
-  Cookies.set('gatsby-gdpr-hotjar', 'true', { expires: 365 })
-  Cookies.set('gatsby-gdpr-facebook-pixel', 'true', { expires: 365 })
-  typeof window !== 'undefined' &&
-    window.gtag('consent', 'update', {
-      ad_storage: acceptedResultLSConsent,
-      analytics_storage: acceptedResultLSConsent,
-    })
-  initializeAndTrack(location)
+  onAllowSelected(true, true)
 }
