@@ -121,3 +121,11 @@ It is **crucial especially in terms of white label apps where the clients incorp
 Additionally, the **Backend team paid much attention to the performance**. Since all Just Eat POS apps were connected to the one shared backend, any hiccup that happens on the Backend propagates to every client, affecting UX. We relied on the observability of our services. **We tried to detect any abnormalities in the CPU usage, number of database connections or average response time to detect issues before they became visible to our customers**.
 
 Data we stored provided our client with significant insight into the behaviour of our customers. Feeding this data into the data lake gives the data science team a way to study our customers, and help make more meaningful, data-driven features.
+
+### Backend integrations team
+
+This team **took care of integrations with food delivery platforms and menu platforms**. Thanks to their work restaurants using Just Eat POS solution could change the menu in only one place and it would be automatically updated on every possible platform the restaurant use to display its menu.
+
+Another responsibility of this team is integrations with online food order and delivery providers like Just Eat or Takeaway. The goal of backend integrations team is to enable management of orders from different platforms in one device. So the restaurant employees don't have to use different apps and devices to take care of orders from other platforms.
+
+It is worth mentioning that recently the team has been working for over six months on a crucial integration with Takeaway that was launched in April 2022. Bright Inventions backend developers were involved in the whole process from the very beginning, including setting all the client’s expectations and offering best solutions to meet client’s targets and finally launch the new integration.
