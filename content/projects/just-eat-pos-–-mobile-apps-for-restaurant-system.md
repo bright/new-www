@@ -73,4 +73,8 @@ A great part of working with Just Eat POS is building iOS and Android applicatio
 * Barcode scanners,
 * Kiosks.
 
+Our applications have been integrated mostly with Sunmi Technology – one of the top global hardware providers.
 
+## **Result**
+
+Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Although the retail system is no longer developed. Bright Inventions Android and iOS developers still work with Just Eat Takeaway on other solutions.
