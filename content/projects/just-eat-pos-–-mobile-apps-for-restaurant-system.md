@@ -18,7 +18,9 @@ published: true
 ---
 
 
-<div class="image"><img src="/images/mobile_retail_app.png" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/mobile_retail_app.png" alt="Mobile apps restaurant and retail" title="It is not a real implemented design. It is a mockup example created for the purpose of a case study."  /> </div>
+
+*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
 ## **Mobile apps that were a part of the restaurant & retail systems:**
 
