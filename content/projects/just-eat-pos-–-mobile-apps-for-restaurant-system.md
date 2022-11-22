@@ -16,15 +16,15 @@ slug: system-for-restaurants-mobile
 show on homepage: false
 published: true
 ---
-
-
 <div class="image"><img src="/images/mobile_retail_app.png" alt="Mobile apps restaurant and retail" title="It is not a real implemented design. It is a mockup example created for the purpose of a case study."  /> </div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
 ## Just Eat POS restaurant system
 
-Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home. A huge part of the system were a couple of Android and iOS application.
+Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home. A huge part of the system was a couple of Android and iOS applications.
+
+Also, read another [Just Eat POS case study](/projects/system-for-restaurants) about other products built for this enormous system.
 
 ## Main features developed by Bright Inventions:
 
