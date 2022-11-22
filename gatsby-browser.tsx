@@ -14,7 +14,7 @@ import {
   analyticsConsentLSName,
   marketingConsentLSName,
   rejectedResultLSConsent,
-} from './src/components/utils/localeStorageConstants'
+} from './src/analytics/local-storage-constants'
 
 let nextRoute = ''
 

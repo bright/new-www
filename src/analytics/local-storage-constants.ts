@@ -1,6 +1,6 @@
 import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
 import { Cookies } from 'react-cookie-consent'
-import { gtagOrFallback } from '../../analytics/track-custom-event'
+import { gtagOrFallback } from './track-custom-event'
 
 export const marketingConsentLSName = 'ad_storage'
 export const analyticsConsentLSName = 'analytics_storage'

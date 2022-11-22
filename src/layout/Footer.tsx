@@ -20,7 +20,7 @@ import {
   marketingConsentLSName,
   onAllowAll,
   onAllowSelected,
-} from '../components/utils/localeStorageConstants'
+} from '../analytics/local-storage-constants'
 
 const FooterWrapper = styled.footer`
   && .column:first-of-type {
