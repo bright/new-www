@@ -30,3 +30,17 @@ export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked:
 export const onAllowAll = () => {
   onAllowSelected(true, true)
 }
+
+export function loadConsentsStateOrDefault() {
+  const analyticsStorage = JSON.parse(
+    JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(analyticsConsentLSName)) || '{}'
+  )
+  const adStorage = JSON.parse(
+    JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(marketingConsentLSName)) || '{}'
+  )
+
+  return {
+    anlystics: analyticsStorage === acceptedResultLSConsent,
+    marketing: adStorage === acceptedResultLSConsent,
+  }
+}

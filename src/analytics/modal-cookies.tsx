@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Modal from 'react-modal'
 import { FlexWrapper } from '../components/shared'
 import { CustomSectionTitle, SectionTitle, TextRegular } from '../components/shared/index.styled'
@@ -8,6 +8,7 @@ import variables from '../styles/variables'
 import { CheckboxSwitch } from '../components/forms/fields/checkbox-switch'
 
 import './modal-cookies.scss'
+import { loadConsentsStateOrDefault, onAllowAll, onAllowSelected } from './local-storage-constants'
 
 Modal.setAppElement(`#___gatsby`)
 
@@ -64,6 +65,7 @@ const AllowAllButton = styled.button`
   padding: ${variables.pxToRem(6)} ${variables.pxToRem(67)};
   background: ${variables.color.primary};
   transition: all ease-out 0.3s;
+
   &:hover {
     background: ${variables.color.text2};
     color: ${variables.color.white};
@@ -106,12 +108,14 @@ const SignX = styled.div`
     border-radius: 2px;
     top: 11px;
   }
+
   &:after {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     transform: rotate(-45deg);
     right: 2px;
   }
+
   &:before {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -130,7 +134,7 @@ const ButtonConsentModalFlexWrapper = styled(FlexWrapper)`
   }
 `
 
-function ModalCookies(props: {
+export function ModalCookiesPresentation(props: {
   modalIsOpen: boolean
   closeModal: React.MouseEventHandler<HTMLButtonElement> | undefined
   onChanged?: (e: React.ChangeEvent<HTMLInputElement>) => void
@@ -212,4 +216,39 @@ function ModalCookies(props: {
   )
 }
 
-export default ModalCookies
+export function ModalCookies({ modalIsOpen, closeModal }: { modalIsOpen: boolean; closeModal: (isOpen: boolean) => void }) {
+  const [consents, setConsents] = useState(loadConsentsStateOrDefault)
+
+  const handleAllowAll = () => {
+    setConsents({
+      marketing: true,
+      anlystics: true,
+    })
+  }
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.type === 'checkbox') {
+      // TODO: 2 separate callbacks would be much better!
+      setConsents({ ...consents, [e.target.name]: e.target.checked })
+    }
+  }
+
+  return (
+    <ModalCookiesPresentation
+      allowAll={handleAllowAll}
+      onChanged={handleChange}
+      modalIsOpen={modalIsOpen}
+      checkedAnalistic={consents.anlystics}
+      checkedMarketing={consents.marketing}
+      closeModal={() => closeModal(false)}
+      onAccept={isAllowSelected => {
+        if (isAllowSelected) {
+          onAllowSelected(consents.marketing, consents.anlystics)
+        } else {
+          onAllowAll()
+        }
+        closeModal(false)
+      }}
+    />
+  )
+}

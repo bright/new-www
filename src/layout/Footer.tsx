@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import classNames from 'classnames'
 
 import { SocialIcons } from '../components/subcomponents/SocialIcons'
@@ -12,15 +12,7 @@ import styled from 'styled-components'
 import variables from '../styles/variables'
 import * as styles from './Footer.module.scss'
 import { Link } from 'gatsby'
-import ModalCookies from '../analytics/modal-cookies'
-
-import {
-  acceptedResultLSConsent,
-  analyticsConsentLSName,
-  marketingConsentLSName,
-  onAllowAll,
-  onAllowSelected,
-} from '../analytics/local-storage-constants'
+import { ModalCookies } from '../analytics/modal-cookies'
 
 const FooterWrapper = styled.footer`
   && .column:first-of-type {
@@ -52,44 +44,10 @@ const FooterOpenModalButton = styled.button`
 `
 
 export const Footer = () => {
-  const [modalIsOpen, setIsOpen] = React.useState(false)
-  const [consents, setConsents] = useState({
-    anlystics: false,
-    marketing: false,
-  })
-
-  function setConsentFromLS() {
-    const analyticsStorage = JSON.parse(
-      JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(analyticsConsentLSName)) || '{}'
-    )
-    const adStorage = JSON.parse(
-      JSON.stringify(typeof window !== 'undefined' && window.localStorage.getItem(marketingConsentLSName)) || '{}'
-    )
-
-    setConsents({
-      anlystics: analyticsStorage === acceptedResultLSConsent ? true : false,
-      marketing: adStorage === acceptedResultLSConsent ? true : false,
-    })
-  }
+  const [isCookiesModalOpen, setCookiesModalOpen] = React.useState(false)
 
   function openModal() {
-    setConsentFromLS()
-    setIsOpen(true)
-  }
-  function closeModal() {
-    setIsOpen(false)
-  }
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.type === 'checkbox') {
-      setConsents({ ...consents, [e.target.name]: e.target.checked })
-    }
-  }
-
-  const handleAllowAll = () => {
-    setConsents({
-      marketing: true,
-      anlystics: true,
-    })
+    setCookiesModalOpen(true)
   }
 
   return (
@@ -188,20 +146,8 @@ export const Footer = () => {
           </FooterOpenModalButton>
           .
           <ModalCookies
-            allowAll={handleAllowAll}
-            onChanged={handleChange}
-            modalIsOpen={modalIsOpen}
-            checkedAnalistic={consents.anlystics}
-            checkedMarketing={consents.marketing}
-            closeModal={closeModal}
-            onAccept={isAllowSelected => {
-              if (isAllowSelected) {
-                onAllowSelected(consents.marketing, consents.anlystics)
-              } else {
-                onAllowAll()
-              }
-              closeModal()
-            }}
+            modalIsOpen={isCookiesModalOpen}
+            closeModal={setCookiesModalOpen}
           />
           <Link to={routeLinks.privacyPolicy} className='has-text-black-bis'>
             Privacy Policy
