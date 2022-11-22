@@ -126,6 +126,4 @@ Data we stored provided our client with significant insight into the behaviour o
 
 This team **took care of integrations with food delivery platforms and menu platforms**. Thanks to their work restaurants using Just Eat POS solution could change the menu in only one place and it would be automatically updated on every possible platform the restaurant use to display its menu.
 
-Another responsibility of this team is integrations with online food order and delivery providers like Just Eat or Takeaway. The goal of backend integrations team is to enable management of orders from different platforms in one device. So the restaurant employees don't have to use different apps and devices to take care of orders from other platforms.
-
-It is worth mentioning that recently the team has been working for over six months on a crucial integration with Takeaway that was launched in April 2022. Bright Inventions backend developers were involved in the whole process from the very beginning, including setting all the client’s expectations and offering best solutions to meet client’s targets and finally launch the new integration.
+Another responsibility of this team was i**ntegrations with online food order and delivery providers like Just Eat or Takeaway.** The goal of backend integrations team was to enable management of orders from different platforms in one device. So restaurant employees don't have to use different apps and devices to take care of orders from other platforms.
