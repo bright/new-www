@@ -22,6 +22,10 @@ published: true
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
+## Just Eat POS restaurant system
+
+Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home. A huge part of the system were a couple of Android and iOS application.
+
 ## Main features developed by Bright Inventions:
 
 * Transactions processing
