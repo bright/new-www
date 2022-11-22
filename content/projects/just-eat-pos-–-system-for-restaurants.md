@@ -22,7 +22,7 @@ published: true
 
 ## Main products developed for Just Eat POS:
 
-Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home. It also supported daily running of the restaurant by managing employees time, creating menus or providing tools to build their own restaurant website.
+**Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home**. It also supported daily running of the restaurant by managing employees time, creating menus or providing tools to build their own restaurant website.
 
 ## The system was built around these products:
 
