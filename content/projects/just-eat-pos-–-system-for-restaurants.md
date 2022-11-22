@@ -3,15 +3,15 @@ layout: project
 project_id: Practi JET POS
 title: Just Eat POS – System for Restaurants
 image: /images/restaurant_system_cover.png
-description: Just Eat POS is a retail system available on iOS and Android. It’s
-  used by restaurants in Israel and the UK. We worked on this project for almost
-  a decade.
+description: Just Eat POS is a retail system used by restaurants in Israel and
+  the UK. It’s used by restaurants in Israel and the UK. We worked on this
+  project for almost a decade.
 tags:
   - web app
   - customized software
   - mobile app
   - retail & restaurant
-order: 99
+order: 3
 slug: system-for-restaurants
 show on homepage: false
 published: true
