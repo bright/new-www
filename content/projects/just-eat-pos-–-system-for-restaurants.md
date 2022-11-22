@@ -49,3 +49,15 @@ Just Eat POS system took care of the whole process of managing restaurant orders
 <div class="image"><img src="/images/retail_system_case_study.png" alt="retail system case study" title="It is not a real implemented design. It is a mockup example created for the purpose of case study."  /> </div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
+
+## Bright Inventions’ technology stack and skills:
+
+**Frontend**: React, TypeScript, React Query,, Formik, Storybook, Nx, React Testing Library, Styled Components, Styled System, Mock Service Worker (MSW), Zustand
+
+**Backend**: Kotlin, Spring Boot, AWS Aurora (MySQL), Redis, hosted on AWS ECS.
+
+**Android**: Kotlin, Coroutines, Android Architecture Components (LiveData, ViewModel, Room, Navigation, Paging), Firebase, Google Maps, Dagger 2, Robolectric and other Google APIs
+
+**iOS**: Realm, ReactiveSwift, PureLayout, MixPanel, Alamofire, Fastlane, Firebase
+
+**Data Analysis**: Redshift, Tabaloo
