@@ -9,10 +9,13 @@ import { PartialWebpackConfig } from './src/partial-webpack-config'
 import { GatsbyConfig } from 'gatsby'
 
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
+const isStaging = process.env.GATSBY_ACTIVE_ENV === 'staging'
 const isDevelop = !process.env.GATSBY_ACTIVE_ENV
 
 const generateRobotsContent = !isDevelop
 
+const productionGoogleTrackingIds = ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476']
+const stagingGoogleTrackingIds = ['G-ZLZ90MP8F9']
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
 
@@ -20,7 +23,7 @@ const gatsbyConfig: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: isProduction ? ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476'] : [],
+        trackingIds: isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : [],
       },
     },
     'gatsby-plugin-react-helmet',
