@@ -90,7 +90,7 @@ All Bright Inventions’ developers worked closely with the business side. Brigh
 
 ### Frontend team
 
-One of Bright Inventions Frontend team priorities was development of the Just Eat POS Backoffice. This was a web application which enables to manage business daily activitities and gives access to financial reports. 
+One of Bright Inventions Frontend team priorities was development of the Just Eat POS Backoffice. This was a web application that enabled managing business daily activities and gives access to financial reports. 
 
 **Here are examples of many features of the Just Eat POS Backoffice:**
 
