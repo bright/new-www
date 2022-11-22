@@ -1,4 +1,4 @@
-import { isProduction } from './deployEnv'
+import { isProduction } from '../helpers/deployEnv'
 
 interface CustomEventProps {
   category: string

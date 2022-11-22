@@ -1,5 +1,6 @@
 import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
 import { Cookies } from 'react-cookie-consent'
+import { gtagOrFallback } from '../../analytics/track-custom-event'
 
 export const marketingConsentLSName = 'ad_storage'
 export const analyticsConsentLSName = 'analytics_storage'
@@ -19,8 +20,7 @@ export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked:
   localStorage.setItem(analyticsConsentLSName, getConsentGtag(isAnalitycsChecked))
   Cookies.set('gatsby-gdpr-hotjar', `${isAnalitycsChecked}`, { expires: 365 })
   Cookies.set('gatsby-gdpr-facebook-pixel', `${isMarketingChecked}`, { expires: 365 })
-  typeof window !== 'undefined' &&
-    window.gtag('consent', 'update', {
+  gtagOrFallback()('consent', 'update', {
       ad_storage: getConsentGtag(isMarketingChecked),
       analytics_storage: getConsentGtag(isAnalitycsChecked),
     })

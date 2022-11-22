@@ -20,7 +20,7 @@ import {
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomPageTitle, CustomSection, CustomTextRegular } from './index.styled'
-import { trackConversion, trackCustomEvent } from '../../helpers/trackCustomEvent'
+import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;

@@ -1,4 +1,4 @@
-import { trackCustomEvent } from './helpers/trackCustomEvent'
+import { trackCustomEvent } from './analytics/track-custom-event'
 
 export function registerGlobalMailtoClickHandler() {
   document.addEventListener('click', function(e) {

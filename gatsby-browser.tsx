@@ -39,7 +39,7 @@ export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) =
 
 function gtagLoader(): Promise<Gtag.Gtag> {
   return new Promise((resolve, reject) => {
-    const gtag = window.gtag as Gtag.Gtag
+    const gtag = window.gtag
     if (gtag) {
       resolve(gtag)
     }
@@ -60,7 +60,7 @@ function hasUserDecidedOnConsent() {
 }
 
 async function setupGoogleTrackingConsent() {
-  const gtag = await gtagLoader().then(res => res)
+  const gtag = await gtagLoader()
   if (!hasUserDecidedOnConsent()) {
     gtag('consent', 'default', {
       ad_storage: rejectedResultLSConsent,
@@ -80,5 +80,8 @@ async function setupGoogleTrackingConsent() {
 
 export const onInitialClientRender: GatsbyBrowser['onInitialClientRender'] = () => {
   registerGlobalMailtoClickHandler()
-  setupGoogleTrackingConsent()
+}
+
+export const onClientEntry: GatsbyBrowser['onClientEntry'] = () => {
+  setupGoogleTrackingConsent().catch(console.error)
 }

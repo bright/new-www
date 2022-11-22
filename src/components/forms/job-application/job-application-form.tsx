@@ -13,7 +13,7 @@ import { AttachmentUploaded } from '../fields/fields.styled'
 import { JobApplicationModal } from './job-application-modal'
 import { CustomTextRegular } from '../../shared'
 import variables from '../../../styles/variables'
-import { trackConversion, trackCustomEvent } from '../../../helpers/trackCustomEvent'
+import { trackConversion, trackCustomEvent } from '../../../analytics/track-custom-event'
 import { FlexWrapper } from './../../shared/index'
 import { JobFormData } from '../../../helpers/mail'
 
