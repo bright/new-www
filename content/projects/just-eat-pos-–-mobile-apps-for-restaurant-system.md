@@ -16,6 +16,8 @@ slug: system-for-restaurants-mobile
 show on homepage: false
 published: true
 ---
+
+
 <div class="image"><img src="/images/mobile_retail_app.png" alt="undefined" title="undefined"  /> </div>
 
 ## **Mobile apps that were a part of the restaurant & retail systems:**
