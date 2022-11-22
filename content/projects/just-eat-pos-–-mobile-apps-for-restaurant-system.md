@@ -43,4 +43,23 @@ The app is dedicated to restaurants which want to offer clients their own meal o
 
 Our team has also developed an independent product used by drivers who deliver the orders from a restaurant to customers. The app not only shows the destination and navigates drivers but also keeps them informed about the transaction details. Drivers know whether the order was paid or it needs to be paid. The driver is well-aware about the payment method (by cash or card). Thanks to the app, drivers are provided with all necessary information and can focus on delivering the meals as soon as possible.
 
-**Android development**
+## **Android development**
+
+Android development team delivers similar solutions to the iOS team. Android app is used by end-users in the UK and soon will be launched in other European countries.
+
+### Reggie Android ePOS application
+
+The app lets you manage food orders made at restaurant, by phone or the website.
+
+Some of the features of the Android Just Eat POS application are:
+
+* Catalog – the main screen of the app used to quickly set up orders taken at place (in person). The cashier or other stuff member has access to all menu items and can choose the ones a client wants to order. They can also choose the delivery option if needed and enter client’s data. Then a cashier can proceed to the transaction.
+ 
+* Customer Orders – the dashboard displaying all orders made externally – via a phone or online food delivery providers like Takeaway, Just Eat, etc. So these are orders that weren't made in person. The app user can quickly check the status of every order and assign a driver to deliver it to the customer.
+ 
+* Reports – the app displays various data and statistics that shows your company revenue, number of orders and sold items, details about the inventory and more.
+ 
+* Printing receipt – the app enables to print payment receipts as well as receipts printed in the kitchen with details about the order.
+ 
+* Integration with CallerID – when a client calls, the application assigns the caller number with the order.
+
