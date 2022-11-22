@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import CookieConsent from 'react-cookie-consent'
 import { useLocation } from '@reach/router'
 import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
@@ -142,12 +142,17 @@ const CustomizeButton = styled.button`
 
 function CookiesNotice() {
   const [modalIsOpen, setIsOpen] = React.useState(false)
-
+  const cookieConsentRef = useRef<CookieConsent>(null)
   const location = useLocation()
   initializeAndTrack(location)
 
   function openModal() {
     setIsOpen(true)
+  }
+
+  function closeModal(){
+    setIsOpen(false)
+    cookieConsentRef?.current?.setState({ visible: false })
   }
 
   return (
@@ -164,6 +169,7 @@ function CookiesNotice() {
         buttonWrapperClasses={'wrapper-button'}
         containerClasses={'cookies-wrapper'}
         onAccept={onAllowAll}
+        ref={cookieConsentRef}
       >
         <div>
           <CookieHeading>allow cookies</CookieHeading>
@@ -179,7 +185,7 @@ function CookiesNotice() {
           <CustomizeButton onClick={openModal}>customize</CustomizeButton>
           <ModalCookies
             modalIsOpen={modalIsOpen}
-            closeModal={setIsOpen}
+            closeModal={closeModal}
           />
         </div>
       </CookieConsent>
