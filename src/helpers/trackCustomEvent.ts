@@ -8,42 +8,42 @@ interface CustomEventProps {
   nonInteraction?: boolean
 }
 
-const loggingGtag = (command: 'event',
-                     eventName: Gtag.EventNames | string,
-                     eventParams?: Gtag.ControlParams | Gtag.EventParams | Gtag.CustomParams) => {
-  console.log('gtag not available. Would track', { command, eventName, eventParams })
+const loggingGtag: Gtag.Gtag = (...args: any[]) => {
+  console.log('gtag not available. Would track', args)
 }
 
 export function trackCustomEvent(eventProps: CustomEventProps) {
+  const gtagFun = gtagOrFallback()
+
   const { label, category, ...rest } = eventProps
-  if (isProduction && !global.gtag) {
-    console.error('No gtag available. Please check gatsby-plugin-google-gtag configuration')
-  }
-  // @ts-ignore
-  const gtagFun = global.gtag ? gtag : loggingGtag
 
   gtagFun('event', eventProps.action, {
     event_label: eventProps.label,
     event_category: eventProps.category,
-    ...rest
+    ...rest,
   })
 }
 
-
 export async function trackConversion(eventProps: { sent_to: string }) {
-  if (isProduction && !global.gtag) {
-    console.error('No gtag available. Please check gatsby-plugin-google-gtag configuration')
-  }
-  // @ts-ignore
-  const gtagFun = global.gtag ? gtag : loggingGtag
+  const gtagFun = gtagOrFallback()
 
-  return new Promise((resolve) => {
+  return new Promise(resolve => {
     gtagFun('event', 'conversion', {
       send_to: eventProps.sent_to,
-      event_callback: resolve
+      event_callback: resolve,
     })
     if (!global.gtag) {
       resolve(void 0)
     }
   })
+}
+
+export function gtagOrFallback(): Gtag.Gtag {
+  if (isProduction && !global.gtag) {
+    console.error('No gtag available. Please check gatsby-plugin-google-gtag configuration')
+  }
+
+  // @ts-ignore
+  const gtagFun = global.gtag ? gtag : loggingGtag
+  return gtagFun
 }
