@@ -7,7 +7,7 @@ import { routeLinks } from '../config/routing'
 import { TextRegular } from '../components/shared/index.styled'
 import styled from 'styled-components'
 import variables from '../styles/variables'
-import ModalCookies from '../components/shared/ModalCookies'
+import ModalCookies from './modal-cookies'
 import { onAllowAll, onAllowSelected } from './local-storage-constants'
 
 const SectionNotice = styled.section`

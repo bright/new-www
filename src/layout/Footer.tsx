@@ -12,8 +12,8 @@ import styled from 'styled-components'
 import variables from '../styles/variables'
 import * as styles from './Footer.module.scss'
 import { Link } from 'gatsby'
-import ModalCookies from '../components/shared/ModalCookies'
-import CookieConsent from 'react-cookie-consent'
+import ModalCookies from '../analytics/modal-cookies'
+
 import {
   acceptedResultLSConsent,
   analyticsConsentLSName,

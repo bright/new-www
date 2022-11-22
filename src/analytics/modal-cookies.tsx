@@ -1,13 +1,13 @@
 import React from 'react'
 import Modal from 'react-modal'
-import { FlexWrapper } from '.'
-import { CustomSectionTitle, SectionTitle, TextRegular } from './index.styled'
+import { FlexWrapper } from '../components/shared'
+import { CustomSectionTitle, SectionTitle, TextRegular } from '../components/shared/index.styled'
 import styled from 'styled-components'
 
-import variables from '../../styles/variables'
-import { CheckboxSwitch } from '../forms/fields/checkbox-switch'
+import variables from '../styles/variables'
+import { CheckboxSwitch } from '../components/forms/fields/checkbox-switch'
 
-import './ModalCookies.scss'
+import './modal-cookies.scss'
 
 Modal.setAppElement(`#___gatsby`)
 
