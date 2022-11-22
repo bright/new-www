@@ -11,11 +11,13 @@ tags:
   - customized software
   - retail & restaurant
   - bluetooth
-order: 99
+order: 4
 slug: system-for-restaurants-mobile
 show on homepage: false
 published: true
 ---
+<div class="image"><img src="/images/mobile_retail_app.png" alt="undefined" title="undefined"  /> </div>
+
 ## **Mobile apps that were a part of the restaurant & retail systems:**
 
 * ePOS iOS and Android applications used by restaurant staff to take orders and manage payments.
@@ -60,6 +62,8 @@ Some of the features of the Android Just Eat POS application are:
 * Integration with CallerID – when a client calls, the application assigns the caller number with the order.
 
 ## Delivering customized applications for Bluetooth devices
+
+<div class="image"><img src="/images/blog_post_cover_epos.png" alt="ePOS applications" title="undefined"  /> </div>
 
 A great part of working with Just Eat POS is building iOS and Android applications integrated with Bluetooth retail and ePOS devices including:
 
