@@ -86,11 +86,11 @@ The increasing number of users also means that **Bright Inventions’s team has 
 
 ## Process of building Just Eat POS retail system
 
-All Bright Inventions’ developers work closely with the business side. There is one team on Bright Inventions’s side that consists of 8 development squads (each squad has about 5 developers and 2 dedicated QA engineers) who take care of various areas of this massive hospitality system. Let us show you some of the development teams.
+All Bright Inventions’ developers worked closely with the business side. Bright Inventions’s was represented by 8 development squads (each squad has about 5 developers and 2 dedicated QA engineers) who took care of various areas of this massive hospitality system. Let us show you some of the development teams.
 
 ### Frontend team
 
-One of Bright Inventions Frontend team priorities is development of the Just Eat POS Backoffice. This is a web application which enables to manage business daily activitities and gives access to financial reports. 
+One of Bright Inventions Frontend team priorities was development of the Just Eat POS Backoffice. This was a web application which enables to manage business daily activitities and gives access to financial reports. 
 
 **Here are examples of many features of the Just Eat POS Backoffice:**
 
@@ -105,3 +105,9 @@ One of Bright Inventions Frontend team priorities is development of the Just Eat
 <div class="image"><img src="/images/restaurant_web_app.png" alt="System for restaurant" title="undefined"  /> </div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
+
+Frontend team takes an active role at every phase of frontend app development process working closely with a product manager and product designers.
+
+The Backoffice system has been on the market for almost 10 year. Therefore one of the priorities of the frontend team is to migrate the app to modern technology while delivering new features to users who use this platform everyday at work. 
+
+Thanks to the trust of the client, the team takes part in the decision-making process regarding which libraries, tools and technologies to choose to rewrite the platform. The current migration doesn’t include only changing to newest technologies. The essential part of it is also implementation of new design maintaining best possible UX and UI experience.
