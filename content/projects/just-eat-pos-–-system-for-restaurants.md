@@ -111,3 +111,13 @@ One of Bright Inventions Frontend team priorities was development of the Just Ea
 The Backoffice system has been on the market for almost 10 year. Therefore one of the priorities of the frontend team was to **migrate the app to modern technology while delivering new features** to users who use this platform everyday at work. 
 
 Thanks to the trust of the client, **the team took part in the decision-making process regarding which libraries, tools and technologies to choose** to rewrite the platform. The migration didin't include only changing to newest technologies. The essential part of it was also implementation of new design maintaining best possible UX and UI experience.
+
+### Backend team
+
+The team was responsible for maintaining and developing backend. All applications within Just Eat POS ecosystem were connected to the same backend. **The main job of backend team was delivering features, supporting any initiatives on the Just Eat POS applications.** 
+
+It is **crucial especially in terms of white label apps where the clients incorporate changes and decide about the final look and functionalities of their app**. In this case, the backend team had to step forward and support clients with appropriate changes in backend.
+
+Additionally, the **Backend team paid much attention to the performance**. Since all Just Eat POS apps were connected to the one shared backend, any hiccup that happens on the Backend propagates to every client, affecting UX. We relied on the observability of our services. **We tried to detect any abnormalities in the CPU usage, number of database connections or average response time to detect issues before they became visible to our customers**.
+
+Data we stored provided our client with significant insight into the behaviour of our customers. Feeding this data into the data lake gives the data science team a way to study our customers, and help make more meaningful, data-driven features.
