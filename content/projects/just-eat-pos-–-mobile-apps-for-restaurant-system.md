@@ -22,10 +22,21 @@ published: true
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
+## Main features developed by Bright Inventions:
+
+* Transactions processing
+* Integration with payment service providers
+* Receipt printing
+* Delivery tracking
+* Employees time tracking
+* Inventory management
+* Supply ordering
+* Offline mode during transactions
+
 ## **Mobile apps that were a part of the restaurant & retail systems:**
 
-* ePOS iOS and Android applications used by restaurant staff to take orders and manage payments.
-* iOS and Android driver application which assists drivers in delivering orders.
+* ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
+* iOS and Android **driver application** which assists drivers in delivering orders.
 
 ## **Bright Inventions’ mobile stack and skills:**
 
