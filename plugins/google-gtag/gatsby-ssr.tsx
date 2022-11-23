@@ -19,7 +19,7 @@ gtag('js', new Date());
 
 ${trackingIds.map(trackingId => {
   return `gtag('config', '${trackingId}');`
-})}
+}).join('\n')}
 
 `
     setHeadComponents([
