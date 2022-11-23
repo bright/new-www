@@ -1,5 +1,6 @@
 import React from 'react'
 import { GatsbySSR } from 'gatsby'
+import { consentToGtagValue } from './consent-to-gtag-value'
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
   const trackingIds = options.trackingIds ?? []
@@ -11,8 +12,8 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){ dataLayer.push(arguments) };
 
 gtag('consent', 'default', {
-  'ad_storage': 'denied',
-  'analytics_storage': 'denied'
+  'ad_storage': '${consentToGtagValue(false)}',
+  'analytics_storage': '${consentToGtagValue(false)}'
 });
 
 gtag('js', new Date());

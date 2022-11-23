@@ -22,7 +22,7 @@ export function applyConsentDecisionToGtag(
 ) {
   const { marketing, analytics } = decision
 
-  gtag('consent', 'default', {
+  gtag('consent', 'update', {
     ad_storage: consentToGtagValue(marketing),
     analytics_storage: consentToGtagValue(analytics),
   })
