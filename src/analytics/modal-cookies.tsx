@@ -178,7 +178,7 @@ export function ModalCookiesPresentation(props: {
                     <FlexWrapper desktopDirection='column' desktopGap='24px'>
                       <FlexWrapper desktopItems='baseline' desktopContent='space-between'>
                         <CookiesSectionTitle>analytics cookies</CookiesSectionTitle>
-                        <CheckboxSwitch name='anlystics' onChange={props.onChanged} checked={props.checkedAnalistic} />
+                        <CheckboxSwitch name='analytics' onChange={props.onChanged} checked={props.checkedAnalistic} />
                       </FlexWrapper>
 
                       <CookiesTextRegular>
@@ -222,7 +222,7 @@ export function ModalCookies({ modalIsOpen, closeModal }: { modalIsOpen: boolean
   const handleAllowAll = () => {
     setConsents({
       marketing: true,
-      anlystics: true,
+      analytics: true,
     })
   }
 
@@ -238,12 +238,12 @@ export function ModalCookies({ modalIsOpen, closeModal }: { modalIsOpen: boolean
       allowAll={handleAllowAll}
       onChanged={handleChange}
       modalIsOpen={modalIsOpen}
-      checkedAnalistic={consents.anlystics}
+      checkedAnalistic={consents.analytics}
       checkedMarketing={consents.marketing}
       closeModal={() => closeModal(false)}
       onAccept={isAllowSelected => {
         if (isAllowSelected) {
-          onAllowSelected(consents.marketing, consents.anlystics)
+          onAllowSelected(consents.marketing, consents.analytics)
         } else {
           onAllowAll()
         }

@@ -16,12 +16,12 @@ function pixelLoader(): Promise<facebook.Pixel.Event> {
 }
 
 export function applyConsentDecisionToPixel(
-  decision: { anlystics: boolean; marketing: boolean },
+  decision: { analytics: boolean; marketing: boolean },
   fbq: facebook.Pixel.Event = global.fbq
 ) {
-  const { marketing, anlystics } = decision
+  const { marketing, analytics } = decision
 
-  if (marketing || anlystics) {
+  if (marketing || analytics) {
     // TODO: marketing vs analytics
     fbq('consent', 'grant')
   }
@@ -30,7 +30,7 @@ export function applyConsentDecisionToPixel(
 export async function setupPixelTrackingConsent({
   consentDecisionLoader,
 }: {
-  consentDecisionLoader: () => undefined | { anlystics: boolean; marketing: boolean }
+  consentDecisionLoader: () => undefined | { analytics: boolean; marketing: boolean }
 }) {
   const fbq = await pixelLoader()
   const decision = consentDecisionLoader()

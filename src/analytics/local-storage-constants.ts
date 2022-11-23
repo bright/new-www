@@ -32,7 +32,7 @@ export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked:
   })
 
   applyConsentDecisionToPixel({
-    anlystics: isAnalitycsChecked,
+    analytics: isAnalitycsChecked,
     marketing: isMarketingChecked,
   })
 }
@@ -46,7 +46,7 @@ export function loadConsentsStateOrDefault() {
   const adStorage = global.localStorage?.getItem(marketingConsentLSName)
 
   return {
-    anlystics: analyticsStorage === acceptedResultLSConsent,
+    analytics: analyticsStorage === acceptedResultLSConsent,
     marketing: adStorage === acceptedResultLSConsent,
   }
 }
