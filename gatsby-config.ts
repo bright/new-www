@@ -16,6 +16,7 @@ const generateRobotsContent = !isDevelop
 
 const productionGoogleTrackingIds = ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476']
 const stagingGoogleTrackingIds = ['G-ZLZ90MP8F9']
+const facebookPixelId = isProduction ? '1256554391514599' : ''
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
 
@@ -24,6 +25,20 @@ const gatsbyConfig: GatsbyConfig = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : [],
+      },
+    },
+    {
+      resolve: `facebook-pixel`,
+      options: {
+        pixelId: facebookPixelId,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: false, // optional parameter to include script in development
+        id: isProduction ? '2864857' : '',
+        sv: isProduction ? '6' : '',
       },
     },
     'gatsby-plugin-react-helmet',

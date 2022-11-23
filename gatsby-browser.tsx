@@ -10,6 +10,8 @@ import type { GatsbyBrowser } from 'gatsby'
 import { GlobalStyle } from './src/styles/global'
 import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-google-analytics'
 import { setupGoogleTrackingConsent } from './src/analytics/configure-google-tracking'
+import { setupPixelTrackingConsent } from './plugins/facebook-pixel/tracking-consent'
+import { loadConsentDecision } from './src/analytics/local-storage-constants'
 
 let nextRoute = ''
 
@@ -38,4 +40,7 @@ export const onInitialClientRender: GatsbyBrowser['onInitialClientRender'] = () 
 
 export const onClientEntry: GatsbyBrowser['onClientEntry'] = () => {
   setupGoogleTrackingConsent().catch(console.error)
+  setupPixelTrackingConsent({
+    consentDecisionLoader: loadConsentDecision
+  }).catch(console.error)
 }

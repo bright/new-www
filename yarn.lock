@@ -2504,6 +2504,11 @@
   resolved "https://registry.yarnpkg.com/@types/extend/-/extend-3.0.1.tgz#923dc2d707d944382433e01d6cc0c69030ab2c75"
   integrity sha512-R1g/VyKFFI2HLC1QGAeTtCBWCo6n75l41OnsVYNbmKG+kempOESaodf6BeJyUM3Q0rKa/NQcTHbB2+66lNnxLw==
 
+"@types/facebook-pixel@^0.0.24":
+  version "0.0.24"
+  resolved "https://registry.yarnpkg.com/@types/facebook-pixel/-/facebook-pixel-0.0.24.tgz#1f1bd1c0e022d87c1773de4e82c2b07ed1d74e54"
+  integrity sha512-0tx06lNy2CfpMu2lAio54FaYp14bPlEjquehqkOxsdZf9JMw+eSiDp9t4sYGRawSL6mve9j9G4yNMZ2cli7aOg==
+
 "@types/get-port@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@types/get-port/-/get-port-3.2.0.tgz#f9e0a11443cc21336470185eae3dfba4495d29bc"
@@ -6875,11 +6880,6 @@ gatsby-plugin-disqus@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.2.4.tgz#81990e857ddbbee5b4a0602e1afcfc62be5330f0"
   integrity sha512-HoNJdTKKifRIGVMTMt1rbFModWm3UT7Mnae24R0kuR0bj5b1XzJF9pgQ78BSFVP+D7Yndn51+vEr8goDLIBOGg==
-
-gatsby-plugin-facebook-pixel@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-facebook-pixel/-/gatsby-plugin-facebook-pixel-1.0.8.tgz#8f5aa6816ddf1cf451c372464fa3f873d7dae288"
-  integrity sha512-oJfTMJxAv5AF2sganhtaq3+6GZ2W2s6/RjQxVsRUxUWMxhrtW6YeMsayAh1bVPgVQ8boJ0QyftipXe7fyq4BCA==
 
 gatsby-plugin-feed@^4.24.0:
   version "4.24.0"
