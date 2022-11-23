@@ -23,7 +23,7 @@ function pageViewDimensionsFromMeta() {
       return Object.assign(acc, {
         [metaKeyNameAsDimensionName]: value,
       })
-    })
+    }, {})
 }
 
 export const onRouteUpdate: GatsbyBrowser['onRouteUpdate'] = args => {
