@@ -1,7 +1,7 @@
 import { PreviewTemplateComponentProps } from 'netlify-cms-core'
 import { LocationProvider } from '@reach/router'
-import { PostArticleContent } from '../templates/PostTemplate'
 import { AuthorsPreview } from './AuthorsPreview'
+import { PostArticleContent } from '../blog/post-article-content'
 
 export const BlogPostPreview: React.FC<PreviewTemplateComponentProps> = props => {
   const { entry } = props

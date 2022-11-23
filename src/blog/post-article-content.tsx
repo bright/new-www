@@ -1,31 +1,16 @@
-import { graphql, navigate } from 'gatsby'
-import React, { ComponentProps, PropsWithChildren, useEffect, useRef, useState } from 'react'
-import { useLocation } from '@reach/router'
-import styled from 'styled-components'
-import { Page } from '../layout/Page'
-import DateFormatter from '../components/subcomponents/Date'
-import DisqusComments from '../components/subcomponents/DisqusComments'
-import { AuthorData, AuthorDataProps } from './post/AuthorData'
-import { BlogPostStructuredData } from '../BlogPostStructuredData'
-import { getSrc } from 'gatsby-plugin-image'
-import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks'
-import Helmet from 'react-helmet'
-import { descriptionOrDefault } from '../meta/meta-description'
-import { resolveUrl } from '../meta/resolve-url'
-import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
-import { PostTags } from '../PostTags'
-import variables from '../styles/variables'
-import NewsletterWrapper from './../components/subcomponents/NewsletterWrapper'
-import { Button, CustomSection, FlexWrapper } from '../components/shared'
-import { SocialMediaShare } from './blog/SocialMediaShare'
-import { clampBuilder } from './../helpers/clampBuilder'
-import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
-import Dot from '../components/icons/Dot.icon'
-import { allMdxData } from '../models/gql'
-import RelatedPosts from './post/RelatedPosts'
-import { siteMetadata } from '../site-metadata'
+import { AuthorData, AuthorDataProps } from './author-data'
 import { isSameDay } from 'date-fns'
 import { toDate } from '../to-date'
+import { Button, FlexWrapper } from '../components/shared'
+import { PostTags } from '../PostTags'
+import Dot from '../components/icons/Dot.icon'
+import DateFormatter from '../components/subcomponents/Date'
+import { navigate } from 'gatsby'
+import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
+import React, { PropsWithChildren } from 'react'
+import styled from 'styled-components'
+import variables from '../styles/variables'
+import { clampBuilder } from '../helpers/clampBuilder'
 
 const AuthorsSection = styled.article`
   padding: 3rem 1.5rem;
@@ -252,7 +237,6 @@ const AuthorsSection = styled.article`
     }
   }
 `
-
 const Title = styled.h1`
   font-size: ${variables.pxToRem(54)};
   color: ${variables.color.heading};
@@ -268,21 +252,12 @@ const Title = styled.h1`
     font-weight: 700;
   }
 `
-
 const Content = styled.div`
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 2;
-`
-const WrapperNews = styled.div`
-  @media ${variables.device.tablet} {
-    padding: 0 ${variables.pxToRem(24)};
-  }
-  @media ${variables.device.mobile} {
-    padding: 0 ${variables.pxToRem(18)};
-  }
 `
 const PreviousButton = styled(Button)`
   display: flex;
@@ -338,41 +313,7 @@ const AuthorsWrapper = styled.div`
     padding-bottom: ${variables.pxToRem(40)};
   }
 `
-
-export type PostTemplateProps = PropsWithChildren<{
-  path: string
-  authorsView?: (props: AuthorDataProps) => JSX.Element
-  structuredData?: (props: ComponentProps<typeof BlogPostStructuredData>) => JSX.Element
-  data: {
-    mdx: {
-      excerpt: string
-      frontmatter: {
-        slug: string
-        title: string
-        description: string
-        author: string
-        secondAuthor: string
-        thirdAuthor: string
-        tags: string[]
-        date: string
-        meaningfullyUpdatedAt: string
-        excerpt: string
-        image: FileNode
-        canonicalUrl: string
-      }
-      fileAbsolutePath: string
-      fields: {
-        timeToRead: {
-          minutes: number
-        }
-      }
-    }
-    allMdx: allMdxData
-  }
-}>
-
 type TimeInMinutes = number
-
 type PostAuthorsProps = {
   secondAuthor?: string
   author: string
@@ -380,20 +321,18 @@ type PostAuthorsProps = {
   authorsView?: (props: AuthorDataProps) => JSX.Element
 }
 type PostContentProps = { contentView: () => JSX.Element } | PropsWithChildren<{ contentView: undefined }>
-
 type PostArticleContentProps = PostAuthorsProps &
   PostContentProps & {
-    title: string
+  title: string
 
-    timeToRead: TimeInMinutes
+  timeToRead: TimeInMinutes
 
-    tags: string[]
-    date: string
-    meaningfullyUpdatedAt?: string
-    fileAbsolutePath: string
-    canonicalUrl: string
-  }
-
+  tags: string[]
+  date: string
+  meaningfullyUpdatedAt?: string
+  fileAbsolutePath: string
+  canonicalUrl: string
+}
 export const PostArticleContent = (props: PostArticleContentProps) => {
   const authors = props.authorsView?.({ authorId: props.author }) ?? (
     <AuthorData authorId={props.author} isSingleAuthor={!props.secondAuthor && !props.thirdAuthor} />
@@ -434,7 +373,8 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
             {showUpdatedAt && (
               <FlexWrapper desktopContent='flex-end' desktopGap='10px' mobileContent='center'>
                 <DateUpdateDescription>Updated </DateUpdateDescription>
-                <DateModified>{props.meaningfullyUpdatedAt && <DateFormatter date={props.meaningfullyUpdatedAt} />}</DateModified>
+                <DateModified>{props.meaningfullyUpdatedAt &&
+                  <DateFormatter date={props.meaningfullyUpdatedAt} />}</DateModified>
               </FlexWrapper>
             )}
           </FlexWrapper>
@@ -463,172 +403,3 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
     </AuthorsSection>
   )
 }
-
-// TODO: we should decouple Post* controls that deal with graphql from those that render actual posts
-export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
-  const { mdx, allMdx } = props.data // data.mdx holds your post data
-  const { frontmatter: page } = mdx
-  const { pathname } = useLocation()
-  const slug = props.path.replace(/^(\/blog\/)/, '')
-  const title = mdx.frontmatter.title
-  const image = mdx.frontmatter.image
-  const canonicalUrl = mdx.frontmatter.canonicalUrl
-
-  const postStructuredData = props.structuredData?.({
-    authors_id: [page.author, page.secondAuthor, page.thirdAuthor],
-    excerpt: page.excerpt,
-    path: props.path,
-    publishedOn: page.date,
-    meaningfullyUpdatedAt: page.meaningfullyUpdatedAt,
-    title: page.title,
-    image: page.image,
-  }) ?? (
-    <BlogPostStructuredData
-      authors_id={[page.author, page.secondAuthor, page.thirdAuthor]}
-      excerpt={page.excerpt}
-      path={props.path}
-      publishedOn={page.date}
-      meaningfullyUpdatedAt={page.meaningfullyUpdatedAt}
-      title={page.title}
-      image={page.image}
-    />
-  )
-  const [isScrolledDown, setIsScrolledDown] = useState(false)
-  const comments = (isScrolledDown && <DisqusComments id={slug} title={page.title} />)
-
-  useEffect(() => {
-    const scrollListener = () => {
-      if (window.scrollY > 10 && !isScrolledDown) {
-        setIsScrolledDown(true)
-      } else {
-        setIsScrolledDown(false)
-      }
-    }
-    document.addEventListener('scroll', scrollListener)
-    return () => {
-      document.removeEventListener('scroll', scrollListener)
-    }
-  }, [])
-
-  return (
-    <Page>
-      <Helmet>
-        <title>{title} | Bright Inventions</title>
-        {title && <meta property='og:title' content={title} />}
-        <meta name='description' content={descriptionOrDefault(mdx.excerpt)} />
-        <meta property='og:description' content={descriptionOrDefault(mdx.excerpt)} />
-        <meta property='og:site_name' content={siteMetadata.title} />
-        <meta property='og:url' content={resolveUrl(pathname)} />
-        <meta property='og:type' content='article' />
-        <meta property='article:published_time' content={mdx.frontmatter.date} />
-        {image && <meta property='og:image' content={resolveUrl(getSrc(image)!)} />}
-        {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
-      </Helmet>
-
-      <ConstrainedWidthContainer id='blog'>
-        <SocialMediaShare blackIcons slug={pathname} title={title} />
-        <PostArticleContent
-          title={page.title}
-          date={page.date}
-          meaningfullyUpdatedAt={page.meaningfullyUpdatedAt}
-          authorsView={props.authorsView}
-          author={page.author}
-          secondAuthor={page.secondAuthor}
-          thirdAuthor={page.thirdAuthor}
-          canonicalUrl={page.canonicalUrl}
-          fileAbsolutePath={mdx.fileAbsolutePath}
-          tags={page.tags ?? []}
-          timeToRead={Math.round(mdx.fields.timeToRead.minutes)}
-          children={props.children}
-          contentView={undefined}
-        />
-      </ConstrainedWidthContainer>
-      <CustomSection
-        paddingProps='2rem 15rem 7.25rem 15rem'
-        paddingLaptop='0rem 6rem 7.25rem'
-        paddingTabletXL='0rem 9rem 7.25rem'
-        paddingTablet='0rem 2.25rem 2.5rem'
-        paddingMobileProps='0 1.125rem 2rem'
-      >
-        <RelatedPosts
-          allMdx={allMdx}
-          currentPostfileAbsolutPath={mdx.fileAbsolutePath}
-        />
-      </CustomSection>
-      <ConstrainedWidthContainer id='blog'>
-        <WrapperNews>
-          <div> {comments} </div>
-          <NewsletterWrapper />
-        </WrapperNews>
-      </ConstrainedWidthContainer>
-
-      {postStructuredData}
-    </Page>
-  )
-}
-export default PostTemplate
-
-export const pageQuery = graphql`
-  query($id: String!, $relatedTags: [String!]!) {
-    mdx(id: { eq: $id }) {
-      excerpt
-      frontmatter {
-        slug
-        title
-        description
-        author
-        secondAuthor
-        thirdAuthor
-        tags
-        date
-        meaningfullyUpdatedAt
-        canonicalUrl
-        image {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
-      }
-      fields { timeToRead { minutes } }
-      internal {  contentFilePath  }
-    }
-    allMdx(
-      filter: {
-        frontmatter: {
-          layout: { eq: "post" }
-          published: { ne: false }
-          hidden: { ne: true }
-          tags: { in: $relatedTags }
-        }
-      }
-      sort: {fields: fields___modifiedAt, order: DESC}
-      limit: 5
-    ) {
-      edges {
-        node {
-          id
-          internal {  contentFilePath  }
-          excerpt(pruneLength: 500)
-          frontmatter {
-            excerpt
-            comments
-            image {
-              childImageSharp {
-                gatsbyImageData
-              }
-            }
-            author
-            author_id
-            title
-            tags
-            date
-            meaningfullyUpdatedAt
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  }
-`

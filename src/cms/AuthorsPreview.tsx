@@ -1,4 +1,4 @@
-import { AuthorDataProps, AuthorsView } from '../templates/post/AuthorData'
+import { AuthorDataProps, AuthorsView } from '../blog/author-data'
 
 export function AuthorsPreview(props: AuthorDataProps) {
   return (

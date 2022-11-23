@@ -1,12 +1,12 @@
 import React, { ReactNode } from 'react'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
-import { routeLinks } from '../../config/routing'
+import { routeLinks } from '../config/routing'
 import { Link } from 'gatsby'
-import { HelmetMetaAuthor } from '../../HelmetMetaAuthor'
-import { useAuthors } from '../../use-authors/use-authors'
+import { HelmetMetaAuthor } from '../HelmetMetaAuthor'
+import { useAuthors } from '../use-authors/use-authors'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
-import { FlexWrapper } from '../../components/shared/index.styled'
+import variables from '../styles/variables'
+import { FlexWrapper } from '../components/shared/index.styled'
 
 const MediaContent = styled.div`
   position: absolute;
