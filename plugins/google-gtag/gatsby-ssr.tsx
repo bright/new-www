@@ -13,7 +13,8 @@ function gtag(){ dataLayer.push(arguments) };
 
 gtag('consent', 'default', {
   'ad_storage': '${consentToGtagValue(false)}',
-  'analytics_storage': '${consentToGtagValue(false)}'
+  'analytics_storage': '${consentToGtagValue(false)}',
+  'wait_for_update': 100 // we invoke gtag consent update almost immediately after  
 });
 
 gtag('js', new Date());
