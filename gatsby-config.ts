@@ -22,9 +22,9 @@ const gatsbyConfig: GatsbyConfig = {
 
   plugins: [
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `google-gtag`,
       options: {
-        trackingIds: isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : [],
+        trackingIds: isProduction || true ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : [],
       },
     },
     {

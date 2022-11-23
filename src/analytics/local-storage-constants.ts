@@ -1,40 +1,30 @@
 import { Cookies } from 'react-cookie-consent'
 import { gtagOrFallback } from './track-custom-event'
 import { applyConsentDecisionToPixel } from '../../plugins/facebook-pixel/tracking-consent'
+import { acceptedResultLSConsent, consentToGtagValue } from '../../plugins/google-gtag/consent-to-gtag-value'
+import { applyConsentDecisionToGtag } from '../../plugins/google-gtag/tracking-consent'
 
 export const marketingConsentLSName = 'ad_storage'
 export const analyticsConsentLSName = 'analytics_storage'
-export const acceptedResultLSConsent = 'granted'
-export const rejectedResultLSConsent = 'denied'
-
-const getConsentGtag = (isChecked: boolean) => {
-  if (isChecked) {
-    return acceptedResultLSConsent
-  } else {
-    return rejectedResultLSConsent
-  }
-}
 
 export const hasUserDecidedOnAnalyticsConsentCookieName = 'CookieConsent'
 
 export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked: boolean) => {
-  localStorage.setItem(marketingConsentLSName, getConsentGtag(isMarketingChecked))
-  localStorage.setItem(analyticsConsentLSName, getConsentGtag(isAnalitycsChecked))
+  localStorage.setItem(marketingConsentLSName, consentToGtagValue(isMarketingChecked))
+  localStorage.setItem(analyticsConsentLSName, consentToGtagValue(isAnalitycsChecked))
 
   Cookies.set(hasUserDecidedOnAnalyticsConsentCookieName, 'true', { expires: 365 })
 
   Cookies.set('gatsby-gdpr-hotjar', `${isAnalitycsChecked}`, { expires: 365 })
   Cookies.set('gatsby-gdpr-facebook-pixel', `${isMarketingChecked}`, { expires: 365 })
 
-  gtagOrFallback()('consent', 'update', {
-    ad_storage: getConsentGtag(isMarketingChecked),
-    analytics_storage: getConsentGtag(isAnalitycsChecked),
-  })
-
-  applyConsentDecisionToPixel({
+  const decision = {
     analytics: isAnalitycsChecked,
     marketing: isMarketingChecked,
-  })
+  }
+
+  applyConsentDecisionToGtag(decision, gtagOrFallback())
+  applyConsentDecisionToPixel(decision)
 }
 
 export const onAllowAll = () => {

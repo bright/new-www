@@ -9,9 +9,9 @@ import React from 'react'
 import type { GatsbyBrowser } from 'gatsby'
 import { GlobalStyle } from './src/styles/global'
 import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-google-analytics'
-import { setupGoogleTrackingConsent } from './src/analytics/configure-google-tracking'
 import { setupPixelTrackingConsent } from './plugins/facebook-pixel/tracking-consent'
 import { loadConsentDecision } from './src/analytics/local-storage-constants'
+import { setupGtagTrackingConsent } from './plugins/google-gtag/tracking-consent'
 
 let nextRoute = ''
 
@@ -39,8 +39,11 @@ export const onInitialClientRender: GatsbyBrowser['onInitialClientRender'] = () 
 }
 
 export const onClientEntry: GatsbyBrowser['onClientEntry'] = () => {
-  setupGoogleTrackingConsent().catch(console.error)
+  setupGtagTrackingConsent({
+    consentDecisionLoader: loadConsentDecision,
+  }).catch(console.error)
+
   setupPixelTrackingConsent({
-    consentDecisionLoader: loadConsentDecision
+    consentDecisionLoader: loadConsentDecision,
   }).catch(console.error)
 }
