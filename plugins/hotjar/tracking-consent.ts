@@ -28,9 +28,9 @@ export function applyConsentDecisionToHotjar(
   decision: { analytics: boolean; marketing: boolean },
   initHotjar: typeof window.initHotjar = initHotjarOrFallback()
 ) {
-  const { marketing, analytics } = decision
+  const { analytics } = decision
 
-  if (marketing || analytics) {
+  if (analytics) { // hotjar is used for analytics
     initHotjar()
   }
 }

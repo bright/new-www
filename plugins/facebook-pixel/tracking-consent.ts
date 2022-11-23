@@ -19,10 +19,9 @@ export function applyConsentDecisionToPixel(
   decision: { analytics: boolean; marketing: boolean },
   fbq: facebook.Pixel.Event = global.fbq
 ) {
-  const { marketing, analytics } = decision
+  const { marketing } = decision
 
-  if (marketing || analytics) {
-    // TODO: marketing vs analytics
+  if (marketing) { // pixel is used for marketing/ads
     fbq('consent', 'grant')
   }
 }
