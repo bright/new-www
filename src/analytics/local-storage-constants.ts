@@ -1,4 +1,3 @@
-import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
 import { Cookies } from 'react-cookie-consent'
 import { gtagOrFallback } from './track-custom-event'
 
@@ -27,7 +26,6 @@ export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked:
     ad_storage: getConsentGtag(isMarketingChecked),
     analytics_storage: getConsentGtag(isAnalitycsChecked),
   })
-  initializeAndTrack(location)
 }
 
 export const onAllowAll = () => {

@@ -1,7 +1,5 @@
 import React, { useRef } from 'react'
 import CookieConsent from 'react-cookie-consent'
-import { useLocation } from '@reach/router'
-import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies'
 import { Link } from 'gatsby'
 import { routeLinks } from '../config/routing'
 import { TextRegular } from '../components/shared/index.styled'
@@ -143,8 +141,6 @@ const CustomizeButton = styled.button`
 function CookiesNotice() {
   const [modalIsOpen, setIsOpen] = React.useState(false)
   const cookieConsentRef = useRef<CookieConsent>(null)
-  const location = useLocation()
-  initializeAndTrack(location)
 
   function openModal() {
     setIsOpen(true)

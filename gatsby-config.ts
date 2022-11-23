@@ -114,23 +114,6 @@ const gatsbyConfig: GatsbyConfig = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-gdpr-cookies`,
-      options: {
-        facebookPixel: {
-          pixelId: isProduction ? '1256554391514599' : '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-facebook-pixel', // default
-        },
-        hotjar: {
-          hjid: isProduction ? '2864857' : '',
-          hjsv: isProduction ? '6' : '',
-          cookieName: 'gatsby-gdpr-hotjar', // default
-        },
-        // defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development', 'staging'],
-      },
-    },
-
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-purgecss`,
