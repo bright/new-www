@@ -34,11 +34,10 @@ const gatsbyConfig: GatsbyConfig = {
       },
     },
     {
-      resolve: `gatsby-plugin-hotjar`,
+      resolve: `hotjar`,
       options: {
-        includeInDevelopment: false, // optional parameter to include script in development
-        id: isProduction ? '2864857' : '0',
-        sv: isProduction ? '6' : '0',
+        id: isProduction ? '2864857' : '',
+        sv: isProduction ? '6' : '',
       },
     },
     'gatsby-plugin-react-helmet',

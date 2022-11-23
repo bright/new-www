@@ -12,6 +12,7 @@ import { registerGlobalMailtoClickHandler } from './src/report-mailto-click-to-g
 import { setupTrackingConsentInPixel } from './plugins/facebook-pixel/tracking-consent'
 import { loadConsentDecision } from './src/analytics/local-storage-constants'
 import { setupGtagTrackingConsent } from './plugins/google-gtag/tracking-consent'
+import { setupTrackingConsentInHotjar } from './plugins/hotjar/tracking-consent'
 
 let nextRoute = ''
 
@@ -44,6 +45,10 @@ export const onClientEntry: GatsbyBrowser['onClientEntry'] = () => {
   }).catch(console.error)
 
   setupTrackingConsentInPixel({
+    consentDecisionLoader: loadConsentDecision,
+  }).catch(console.error)
+
+  setupTrackingConsentInHotjar({
     consentDecisionLoader: loadConsentDecision,
   }).catch(console.error)
 }
