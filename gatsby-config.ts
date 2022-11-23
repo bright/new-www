@@ -24,7 +24,7 @@ const gatsbyConfig: GatsbyConfig = {
     {
       resolve: `google-gtag`,
       options: {
-        trackingIds: isProduction || true ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : [],
+        trackingIds: isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : [],
       },
     },
     {
