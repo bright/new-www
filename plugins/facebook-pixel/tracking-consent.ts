@@ -27,7 +27,7 @@ export function applyConsentDecisionToPixel(
   }
 }
 
-export async function setupPixelTrackingConsent({
+export async function setupTrackingConsentInPixel({
   consentDecisionLoader,
 }: {
   consentDecisionLoader: () => undefined | { analytics: boolean; marketing: boolean }

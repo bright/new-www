@@ -1,3 +1,4 @@
+import { gtagOrFallback } from '../../plugins/google-gtag/gtag-or-fallback'
 import { isProduction } from '../helpers/deployEnv'
 
 interface CustomEventProps {
@@ -8,12 +9,8 @@ interface CustomEventProps {
   nonInteraction?: boolean
 }
 
-const loggingGtag: Gtag.Gtag = (...args: any[]) => {
-  console.log('gtag not available. Would track', args)
-}
-
 export function trackCustomEvent(eventProps: CustomEventProps) {
-  const gtagFun = gtagOrFallback()
+  const gtagFun = gtagOrFallback(isProduction)
 
   const { label, category, ...rest } = eventProps
 
@@ -25,7 +22,7 @@ export function trackCustomEvent(eventProps: CustomEventProps) {
 }
 
 export async function trackConversion(eventProps: { sent_to: string }) {
-  const gtagFun = gtagOrFallback()
+  const gtagFun = gtagOrFallback(isProduction)
 
   return new Promise(resolve => {
     gtagFun('event', 'conversion', {
@@ -38,12 +35,3 @@ export async function trackConversion(eventProps: { sent_to: string }) {
   })
 }
 
-export function gtagOrFallback(): Gtag.Gtag {
-  if (isProduction && !global.gtag) {
-    console.error('No gtag available. Please check gatsby-plugin-google-gtag configuration')
-  }
-
-  // @ts-ignore
-  const gtagFun = global.gtag ? gtag : loggingGtag
-  return gtagFun
-}

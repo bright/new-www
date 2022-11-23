@@ -1,8 +1,10 @@
 import { Cookies } from 'react-cookie-consent'
-import { gtagOrFallback } from './track-custom-event'
 import { applyConsentDecisionToPixel } from '../../plugins/facebook-pixel/tracking-consent'
 import { acceptedResultLSConsent, consentToGtagValue } from '../../plugins/google-gtag/consent-to-gtag-value'
 import { applyConsentDecisionToGtag } from '../../plugins/google-gtag/tracking-consent'
+import { gtagOrFallback } from '../../plugins/google-gtag/gtag-or-fallback'
+import { isProduction } from '../helpers/deployEnv'
+import { fbqOrFallback } from '../../plugins/facebook-pixel/fbq-or-fallback'
 
 export const marketingConsentLSName = 'ad_storage'
 export const analyticsConsentLSName = 'analytics_storage'
@@ -23,8 +25,8 @@ export const onAllowSelected = (isMarketingChecked: boolean, isAnalitycsChecked:
     marketing: isMarketingChecked,
   }
 
-  applyConsentDecisionToGtag(decision, gtagOrFallback())
-  applyConsentDecisionToPixel(decision)
+  applyConsentDecisionToGtag(decision, gtagOrFallback(isProduction))
+  applyConsentDecisionToPixel(decision, fbqOrFallback(isProduction))
 }
 
 export const onAllowAll = () => {
