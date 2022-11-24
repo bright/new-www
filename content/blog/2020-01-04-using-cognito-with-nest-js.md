@@ -18,7 +18,7 @@ published: true
 ---
 **AWS Cognito simplified the authentication, authorization and user management for you. In this post I will try to present how we can use this authentication service with your mobile app, website, and manage users.**
 
-[Download repository with Nestjs AWS Cognito example ](github.com/bright/nestjs-aws-cognito/)
+[Download repository with Nestjs AWS Cognito example](https://github.com/bright/nestjs-aws-cognito) 
 
 ## Initial work
 
