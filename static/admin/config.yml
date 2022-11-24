@@ -211,6 +211,8 @@ collections:
       - { label: 'Project-id', name: 'project_id', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Social Media Previev', name: 'social_media_previev', widget: 'image' }
+      - { label: 'Social Media Previev Alt', name: 'social_media_previev_alt', widget: string }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
