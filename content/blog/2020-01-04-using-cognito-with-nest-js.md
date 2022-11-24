@@ -346,3 +346,7 @@ Cognito is a great service from AWS. I use it always when I have an opportunity 
 [Full repository with code you can find on our Github.](https://github.com/bright/nestjs-aws-cognito/)
 
 <div className='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
+
+- - -
+
+The article was written by Patryk Huzarski in 2020 and updated by Wojciech Kałębasia in 2022.
