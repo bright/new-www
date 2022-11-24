@@ -11,7 +11,7 @@ date: 2020-01-04T20:05:28.083Z
 meaningfullyUpdatedAt: 2022-11-24T06:38:41.233Z
 title: Using AWS Cognito with NestJS
 layout: post
-image: /images/amazon_cognito.png
+image: /images/aws_cognito_nest_blog.png
 hidden: false
 comments: true
 published: true
@@ -26,13 +26,13 @@ To get started with AWS Cognito we need to create a user pool. The user pool is 
 \
  In my case I don’t have any user pools, so I’m going to create one.
 
-<div class="image"><img src="/images/image1.png" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/image1.png" alt="create a user pool" title="undefined"  /> </div>
 
 Here you are given two options to select from, let's select *Review defaults*. Make sure to provide a pool name as well.
 
 Next, we need to create an app client. The app client is the client that our NestJS server will be communicating with. Make sure to tick Enable sign-in API for server-based authentication for our NodeJS server access Cognito user pool for authentication. App clients can be created after the generation of user pools as well. So, if you forget to add an app client when the creation of the user pool - do not worry, you can create a new one again.
 
-<div class="image"><img src="/images/image3.png" alt="" title="undefined"  /> </div>
+<div class="image"><img src="/images/image3.png" alt="AWS" title="undefined"  /> </div>
 
 We leave  `Generate client secret` unchecked as it is required for library we will use. Per `amazon-cognito-identity-js` documentation:
 
@@ -40,9 +40,13 @@ We leave  `Generate client secret` unchecked as it is required for library we wi
 
 After successfully creating Pool and Client, copy `Pool Id` and `App Client Id` as we will need it for configuration.
 
-<div class="image"><img src="/images/image2.png" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/image2.png" alt="AWS" title="undefined"  /> </div>
+
+*Pool Id*
 
 <div class="image"><img src="/images/image4.png" alt="undefined" title="undefined"  /> </div>
+
+*App Client Id*
 
 ## Creating TypeScript NestJS Server
 
