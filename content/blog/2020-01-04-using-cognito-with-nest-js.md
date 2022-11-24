@@ -349,4 +349,4 @@ Cognito is a great service from AWS. I use it always when I have an opportunity 
 
 - - -
 
-The article was written by Patryk Huzarski in 2020 and updated by Wojciech Kałębasia in 2022.
+The article was written by Patryk Huzarski in 2020 and updated by Wojciech Kałębasiak in 2022.
