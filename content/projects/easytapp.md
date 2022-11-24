@@ -3,6 +3,8 @@ layout: project
 project_id: easytapp
 title: EasyTapp
 image: /images/easytap_1_mockup1.png
+social_media_previev: /images/easytapp_fb_preview.png
+social_media_previev_alt: EasyTapp
 description: An app that allowed users to receive real estate and car sales’
   offers based on their real-time location.
 tags:
