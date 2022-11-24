@@ -1,5 +1,6 @@
 ---
 author: patryk
+secondAuthor: wojciech-k
 tags:
   - aws
   - cognito
@@ -7,7 +8,7 @@ tags:
   - nestjs
   - nodejs
 date: 2020-01-04T20:05:28.083Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2022-11-24T06:38:41.233Z
 title: Using AWS Cognito with NestJS
 layout: post
 image: /images/amazon_cognito.png
@@ -15,7 +16,7 @@ hidden: false
 comments: true
 published: true
 ---
-AWS Cognito simplified the authentication, authorization and user management for you. In this post I will try to present how we can use this authentication service with your mobile app, website, and manage users.
+**AWS Cognito simplified the authentication, authorization and user management for you. In this post I will try to present how we can use this authentication service with your mobile app, website, and manage users.**
 
 [Download repository with Nestjs AWS Cognito example ](github.com/bright/nestjs-aws-cognito/)
 
@@ -339,6 +340,5 @@ I think that more and more developers will use the IaaS (infrastructure as a ser
 Cognito is a great service from AWS. I use it always when I have an opportunity to do it.
 
 [Full repository with code you can find on our Github.](https://github.com/bright/nestjs-aws-cognito/)
-
 
 <div className='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and work on projects such as the Ethereum blockchain platform, accounting software, or web therapy applications.</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
