@@ -29,7 +29,7 @@ On the other hand, writing documentation is not a QA responsibility. Documentati
 
 Test cases can be considered as testers' tasks to see the **work progress on the board**. This is more useful for automated tests. You can create test cases for each automated test and add it to sprint as the task to work on. It helps to manage tests when more than one tester is writing them. Test cases for automated tests are also useful to see which part of the application is covered by automated tests.
 
-## When test cases aren’t important\
+## When test cases aren’t important
 
 \
 From my point of view, a lot of test cases are written just to be written. This is a kind of habit. Everywhere you can find information that TCs are important. There are special courses for testers focused on writing test cases. Don’t get me wrong – this is a very useful and important skill, you need to **know how** to write them, but you **don’t need to write** them in each project.
@@ -40,20 +40,20 @@ From my point of view, a lot of test cases are written just to be written. This 
 Let’s assume that you are writing test cases for each story. After that, **do you really use all these test cases**? Are they still relevant and up-to-date? The project is still being improved, the design is changed, and new features are coming. It’s not possible to have all the test cases up-to-date. Based on my experience, a team could write even up to hundreds of test cases and nobody has time to keep them up-to-date.\
 \
 
-## Regression*\
+## Regression
 
 \
 You can say that test cases are used for **regression testing**. It is helpful, but mostly for beginners. When you always test your application with the same paths then you lose your creativity and don’t invent new paths. It’s an easy way to miss the bug. In my opinion, it’s better to explore the new feature and write high-level test cases using only keywords. You save a lot of time which can be used for exploratory testing and finding bugs.\
 \
 
-## When test cases are a waste of time\
+## When test cases are a waste of time
 
 \
 Sometimes writing test cases is a waste of time. Tester spends a lot of time preparing good test cases and the cost is higher than the results. Paradoxically, focusing on the test cases can be a reason for the inferior quality. **QA spends their time preparing documentation instead of looking for bugs**. This time can be used for example for test automation.
 
 <GiphyEmbed url='https://giphy.com/gifs/Vida-Starz-season-2-starz-210-J2PVPWryd2jx3XG53p' />
 
-## So… don’t write test cases at all?\
+## So… don’t write test cases at all?
 
 \
 Writing test cases makes sense when you can reuse them and benefit from them. Some projects are complicated and definitely need test cases. In that case, you can have a small base of TCs, which are easy to maintain. In my opinion, it’s definitely a good idea to have test cases for automated tests as they are always in use.
