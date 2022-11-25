@@ -35,6 +35,7 @@ From my point of view, a lot of test cases are written just to be written. This 
 
 <GiphyEmbed url='https://giphy.com/clips/showtime-season-1-episode-2-i-love-that-for-you-0KpHXHBK8MtJ1mK0r2' />
 
+\
 Let’s assume that you are writing test cases for each story. After that, **do you really use all these test cases**? Are they still relevant and up-to-date? The project is still being improved, the design is changed, and new features are coming. It’s not possible to have all the test cases up-to-date. Based on my experience, a team could write even up to hundreds of test cases and nobody has time to keep them up-to-date.
 
 ## Regression
