@@ -6,6 +6,7 @@ date: 2022-11-25T07:30:15.162Z
 meaningfullyUpdatedAt: 2022-11-25T07:30:15.199Z
 title: "Do You Need Test Cases? "
 layout: post
+image: /images/blogpost_test_cases.png
 hidden: false
 comments: true
 published: true
