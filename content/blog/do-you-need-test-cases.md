@@ -25,7 +25,7 @@ I'm not a test case enthusiast. I worked on many projects during my career and n
 
 First of all, test cases can be good documentation. Especially when you are a new QA in the project and you have to learn the product. At this point, test cases are really helpful. You can see the common paths and expected results.
 
-On the other hand, writing documentation is not a QA responsibility. Documentation should be written by a professional person, ex. Technical writer. I know that not every project has documentation specialists Another option is to write some documents by the whole team. Documentation is also needed for new software developers, not only testers.
+On the other hand, writing documentation is not a QA responsibility. Documentation should be written by a professional person, ex. Technical writer. I know that not every project has documentation specialists, another option is to write some documents by the whole team. Documentation is also needed for new software developers, not only testers.
 
 Test cases can be considered as testers' tasks to see the **work progress on the board**. This is more useful for automated tests. You can create test cases for each automated test and add it to sprint as the task to work on. It helps to manage tests when more than one tester is writing them. Test cases for automated tests are also useful to see which part of the application is covered by automated tests.
 
