@@ -1,11 +1,15 @@
 import React, { PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
-
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { getSrc } from 'gatsby-plugin-image'
 import variables from '../styles/variables'
+import { descriptionOrDefault } from '../meta/meta-description'
+import { Helmet } from 'react-helmet'
+import { resolveUrl } from '../meta/resolve-url'
+import { useLocation } from '@reach/router'
+import { siteMetadata } from '../site-metadata'
 
 const Container = styled.div`
   max-width: 960px;
@@ -74,17 +78,31 @@ const Title = styled.h1`
   }
 `
 
-const Template: React.FC<{data: { mdx: any }}> = ({ data, children }) => {
+const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter } = mdx
+  const { title, description, social_media_previev_alt: alt, social_media_previev: image } = frontmatter
+
+  const { pathname } = useLocation()
+
   return (
     <Page>
-      <HelmetTitleDescription title={frontmatter.title} description={frontmatter.description} />
+      <Helmet>
+        <title>{title} | Bright Inventions</title>
+        {title && <meta property='og:title' content={title} />}
+        <meta name='description' content={descriptionOrDefault(description)} />
+        <meta property='og:description' content={descriptionOrDefault(description)} />
+        <meta property='og:site_name' content={siteMetadata.title} />
+        <meta property='og:url' content={resolveUrl(pathname)} />
+        <meta property='og:type' content='product' />
+        {image && <meta property='og:image' content={resolveUrl(getSrc(image)!)} />}
+        {alt && <meta property='og:image:alt' content={alt} />}
+      </Helmet>
 
       <Container className='container' id='project'>
         <article className='section'>
-          <Title>{frontmatter.title}</Title>
-          <div className='content'>{frontmatter.description}</div>
+          <Title>{title}</Title>
+          <div className='content'>{description}</div>
           <div className='content'>{children}</div>
           <BackButton url='/projects' label='Projects' arrowColor={''} className={''} />
         </article>
@@ -100,6 +118,12 @@ export const pageQuery = graphql`
         slug
         title
         description
+        social_media_previev_alt
+        social_media_previev {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }
