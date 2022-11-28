@@ -3,7 +3,7 @@ author: malgorzata-z
 tags:
   - QA
 date: 2022-11-28T08:00:49.083Z
-meaningfullyUpdatedAt: 2022-11-28T08:00:49.999Z
+meaningfullyUpdatedAt: ""
 title: "Do You Need Test Cases? "
 layout: post
 image: /images/blogpost_test_cases.png
