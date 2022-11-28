@@ -24,9 +24,9 @@ Also, setting up a common **chat channel would be useful**. Whatever is most pre
 
 ## Don’t be afraid of questions
 
-Probably, **you will hear lots of questions from developers**. They can be tricky. Truly listen and then answer. I sometimes made the mistake of not really listening. **I was asked what I wanted to achieve. However, I was describing the feature I expected to be built**. That wasn’t the question. I didn’t understand that difference at first. ;) Still struggle with that sometimes.
+Probably, **you will hear lots of questions from developers**. They can be tricky. Truly listen and then answer. I sometimes made the mistake of not really listening. **I was asked what I wanted to achieve. However, I was describing the feature I expected to be built**. That wasn’t the question. I didn’t understand that difference at first. 😉 Still struggle with that sometimes.
 
-It’s **a good sign when developers ask questions**! They usually do it to understand your goal. Then they can recommend the most suitable tech solution to achieve it. Remember that **the feature is just the means to an end**. It’s not the goal itself. **Help developers understand the bigger picture** and you should quickly see better results of the cooperation.
+<div class="important-info"><h2>Show the bigger picture</h2><div>It’s **a good sign when developers ask questions**! They usually do it to understand your goal. Then they can recommend the most suitable tech solution to achieve it. Remember that **the feature is just the means to an end**. It’s not the goal itself. **Help developers understand the bigger picture** and you should quickly see better results of the cooperation.</div></div>
 
 ## Feel free to ask questions
 
