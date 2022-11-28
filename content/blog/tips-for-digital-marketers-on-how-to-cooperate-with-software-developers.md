@@ -78,3 +78,20 @@ And also… chill out. ;) You are not a professional software tester. No one exp
 <GiphyEmbed url='https://giphy.com/gifs/SignatureEntertainmentUK-signatureentertainment-mel-gibson-hot-seat-BgKEiHf1xNV0h6IcSX' />
 
 You just need to ensure that the feature is implemented correctly, especially when it deeply affects your daily job. So **when it comes to implementing a new flow for your eCommerce, SEO features, or marketing tags, I can’t imagine you don’t try to test it before the deployment** (if possible). Even if the development team does it as well, your marketing perspective brings more to the table than some might think.
+
+## Use testing tools and extensions
+
+Generally, you should try to get friendly with browser Inspect mode. It’s hard to avoid that adventure. 😉However, there are tools that are useful for non-developers and can sometimes be treated as an Inspect alternative.
+
+**Here are some examples of tools useful for web testing:**
+
+* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=pl) – an extension that covers all essential web performance metrics assessment by Google.
+
+* [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm) – a helpful extension to check out if the fonts and their colors match your brand guidelines.
+
+* [WhatRuns](https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip) – an extension to find out what frameworks, tags, and other tech are used on various pages. I won’t say it works perfectly but it can help you discover some benchmarks.
+
+* [Ahrefs SEO Toolbar](https://chrome.google.com/webstore/detail/ahrefs-seo-toolbar/hgmoccdbjhknikckedaaebbpdeebhiei) – Ahrefs extension for checking out if metadata and headlines are properly implemented – SEO website structure in one place. 
+
+* [Google Tag Assistant](https://tagassistant.google.com/) – Google tool to help you test analytics and advertising tags.
+
