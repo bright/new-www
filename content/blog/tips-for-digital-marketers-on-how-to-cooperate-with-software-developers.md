@@ -86,12 +86,13 @@ Generally, you should try to get friendly with browser Inspect mode. It’s hard
 **Here are some examples of tools useful for web testing:**
 
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=pl) – an extension that covers all essential web performance metrics assessment by Google.
-
 * [WhatFont](https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm) – a helpful extension to check out if the fonts and their colors match your brand guidelines.
-
 * [WhatRuns](https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip) – an extension to find out what frameworks, tags, and other tech are used on various pages. I won’t say it works perfectly but it can help you discover some benchmarks.
-
 * [Ahrefs SEO Toolbar](https://chrome.google.com/webstore/detail/ahrefs-seo-toolbar/hgmoccdbjhknikckedaaebbpdeebhiei) – Ahrefs extension for checking out if metadata and headlines are properly implemented – SEO website structure in one place. 
-
 * [Google Tag Assistant](https://tagassistant.google.com/) – Google tool to help you test analytics and advertising tags.
 
+## Always assume good intentions
+
+**We all have a common goal here**. We want to create a product that will benefit the users. Both sides might have different backgrounds, perspectives, and various ways of communicating. It may be challenging to be on the same page sometimes. 
+
+Despite all of that **you should help developers understand your perspectives and listen to their side**. Eventually, insights from them might help you make better solutions for your users supporting your marketing goals at the same time. 😉
