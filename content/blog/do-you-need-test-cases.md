@@ -2,8 +2,8 @@
 author: malgorzata-z
 tags:
   - QA
-date: 2022-11-25T07:30:15.162Z
-meaningfullyUpdatedAt: 2022-11-25T07:30:15.199Z
+date: 2022-11-28T08:00:49.083Z
+meaningfullyUpdatedAt: 2022-11-28T08:00:49.999Z
 title: "Do You Need Test Cases? "
 layout: post
 image: /images/blogpost_test_cases.png
