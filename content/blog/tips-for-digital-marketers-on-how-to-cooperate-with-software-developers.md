@@ -35,3 +35,15 @@ It’s **a good sign when developers ask questions**! They usually do it to unde
 Also, if you hear that something cannot be done, don’t take “no” for an answer. **Ask why**. Maybe you can work it out another way.
 
 ## Learn how to describe a task
+
+I am not an expert like the project managers from my team.
+
+Nevertheless, I will write my **approach to describe the tasks:**
+
+* **Start with the goal** you want to achieve.
+* Then **list all the elements** that you expect to be built to achieve that goal.
+* Include links to the product designer’s **mockups** if necessary.
+* Be **specific and concise**. 
+* **Provide a benchmark** to visualize your requirements if possible.
+
+## Learn how to report the bug
