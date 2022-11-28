@@ -3,7 +3,7 @@ author: malgorzata-z
 tags:
   - QA
 date: 2022-11-28T08:00:49.083Z
-meaningfullyUpdatedAt: 2022-11-28T08:00:49.999Z
+meaningfullyUpdatedAt: ""
 title: "Do You Need Test Cases? "
 layout: post
 image: /images/blogpost_test_cases.png
@@ -11,11 +11,11 @@ hidden: false
 comments: true
 published: true
 ---
-There is a kind of trend to write test cases. If you are a tester, write test cases. The more the better… But is it really always a good idea?
-
-I'm not a test case enthusiast. I worked on many projects during my career and noticed that the value provided by test cases differs between projects. Sometimes it’s valuable and important, but sometimes it doesn’t make sense and is even a waste of time. I would like to show you why test cases are not always necessary.
+There is a trend to write test cases. If you are a tester, write test cases. The more the better… But is it really always a good idea?
 
 <div class="image"><img src="/images/blogpost_test_cases.png" alt="Do you need test cases?" title="undefined"  /> </div>
+
+I'm not a test case enthusiast. I worked on many projects during my career and noticed that the value provided by test cases differs between projects. Sometimes it’s valuable and important, but sometimes it doesn’t make sense and is even a waste of time. I would like to show you why test cases are not always necessary.
 
 ## When test cases are important
 
@@ -25,7 +25,7 @@ I'm not a test case enthusiast. I worked on many projects during my career and n
 
 First of all, test cases can be good documentation. Especially when you are a new QA in the project and you have to learn the product. At this point, test cases are really helpful. You can see the common paths and expected results.
 
-On the other hand, writing documentation is not a QA responsibility. Documentation should be written by a professional person, ex. Technical writer. I know that not every project has documentation specialists, another option is to write some documents by the whole team. Documentation is also needed for new software developers, not only testers.
+On the other hand, writing documentation is not a QA responsibility. Documentation should be written by a professional person, e.g. technical writer. I know that not every project has documentation specialists, another option is to write some documents by the whole team. Documentation is also needed for new software developers, not only testers.
 
 Test cases can be considered as testers' tasks to see the **work progress on the board**. This is more useful for automated tests. You can create test cases for each automated test and add it to sprint as the task to work on. It helps to manage tests when more than one tester is writing them. Test cases for automated tests are also useful to see which part of the application is covered by automated tests.
 
