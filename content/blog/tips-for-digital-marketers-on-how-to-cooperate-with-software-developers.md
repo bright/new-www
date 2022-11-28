@@ -61,3 +61,20 @@ Also, **include info about the device you used when the bug occurred, screen res
 What's more, **you can use session recording tools like Hotjar or Mouseflow to efficiently report bugs**. These tools are quite popular among marketers so you might already know them. I found quite a few issues watching users’ recordings by Hotjar. 
 
 Not only can you send a Hotjar recording, showing the issue, to your development team, but also Hotjar will provide them with all info mentioned earlier. Such as screen resolution, device, or operating system. Therefore you’ve got all of it covered by sharing one link with the recording. Using Hotjar as a reporting bug tool might be really helpful. 😉
+
+## Discover your tester instincts
+
+Yep. **If you ask to develop something, you should try your best to ensure that it is what you want**. It’s the same when you, for example, have posters designed. You would check out if the designer did the job as you expected.
+
+Find **my tips on testing for marketers**:
+
+* Test the whole flow of the website or other things you implement (step-by-step). 
+* Use a couple of the most popular browsers and devices your users use (based on GA).
+* Don’t forget to check everything on the mobile as well.
+* List all the bugs/issues and describe them as mentioned before.
+
+And also… chill out. ;) You are not a professional software tester. No one expects you to be like that guy:
+
+<GiphyEmbed url='https://giphy.com/gifs/SignatureEntertainmentUK-signatureentertainment-mel-gibson-hot-seat-BgKEiHf1xNV0h6IcSX' />
+
+You just need to ensure that the feature is implemented correctly, especially when it deeply affects your daily job. So **when it comes to implementing a new flow for your eCommerce, SEO features, or marketing tags, I can’t imagine you don’t try to test it before the deployment** (if possible). Even if the development team does it as well, your marketing perspective brings more to the table than some might think.
