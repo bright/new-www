@@ -81,7 +81,7 @@ You just need to ensure that the feature is implemented correctly, especially wh
 
 ## Use testing tools and extensions
 
-Generally, you should try to get friendly with browser Inspect mode. It’s hard to avoid that adventure. 😉However, there are tools that are useful for non-developers and can sometimes be treated as an Inspect alternative.
+Generally, you should try to get friendly with browser Inspect mode. It’s hard to avoid that adventure. 😉 However, there are tools that are useful for non-developers and can sometimes be treated as an Inspect alternative.
 
 **Here are some examples of tools useful for web testing:**
 
