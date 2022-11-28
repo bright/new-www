@@ -47,3 +47,17 @@ Nevertheless, I will write my **approach to describe the tasks:**
 * **Provide a benchmark** to visualize your requirements if possible.
 
 ## Learn how to report the bug
+
+Again, I am not a software tester. Here is my approach as a marketing specialist. 
+
+Reporting bugs, just like writing a task, is all about empathy. **Imagine what information a developer would need to seamlessly find the same bug** you have stumbled on. 
+
+Don’t start with “something doesn’t work”. Unless you really have no idea what is going on. That might happen. 😉
+
+**Describe shortly the issue, and provide a screenshot or screen recording**. I personally use **Screencast** for recordings. However, there are lots of other tools and widgets out there. Remember about your privacy. Don’t record all your screen with every widget and browser tab. 
+
+Also, **include info about the device you used when the bug occurred, screen resolution, and the operating system**. All this information will simply decrease the number of following questions and make the debugging faster.
+
+What's more, **you can use session recording tools like Hotjar or Mouseflow to efficiently report bugs**. These tools are quite popular among marketers so you might already know them. I found quite a few issues watching users’ recordings by Hotjar. 
+
+Not only can you send a Hotjar recording, showing the issue, to your development team, but also Hotjar will provide them with all info mentioned earlier. Such as screen resolution, device, or operating system. Therefore you’ve got all of it covered by sharing one link with the recording. Using Hotjar as a reporting bug tool might be really helpful. 😉
