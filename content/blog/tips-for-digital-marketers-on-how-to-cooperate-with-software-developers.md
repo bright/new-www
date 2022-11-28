@@ -62,6 +62,8 @@ What's more, **you can use session recording tools like Hotjar or Mouseflow to e
 
 Not only can you send a Hotjar recording, showing the issue, to your development team, but also Hotjar will provide them with all info mentioned earlier. Such as screen resolution, device, or operating system. Therefore you’ve got all of it covered by sharing one link with the recording. Using Hotjar as a reporting bug tool might be really helpful. 😉
 
+<div class="image"><img src="/images/hotjar_screen.png" alt="Hotjar" title="undefined"  /> </div>
+
 ## Discover your tester instincts
 
 Yep. **If you ask to develop something, you should try your best to ensure that it is what you want**. It’s the same when you, for example, have posters designed. You would check out if the designer did the job as you expected.
