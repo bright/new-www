@@ -7,7 +7,7 @@ const TeamMembers = loadable(() => import('../../components/subcomponents/TeamMe
 import { FormComponent } from '../../components/about-us/form-section/form'
 import { CustomPageTitle, CustomSection, CustomSectionInner, TextRegular } from '../../components/shared'
 import { Page } from '../../layout/Page'
-import { HelmetTitleDescription } from '../../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../../meta/HelmetMetaData'
 import variables from '../../styles/variables'
 
 const Caption = styled.div`
@@ -30,7 +30,7 @@ export default function TeamPage() {
   const isSSR = typeof window === 'undefined'
   return (
     <Page>
-      <HelmetTitleDescription
+      <HelmetMetaData
         title='Meet our software development team'
         description='Meet mobile developers, web app developers, project managers, designers, and more people who are a part of our software development team from Poland.'
       />

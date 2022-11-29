@@ -4,14 +4,14 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
 import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 
 import {
   CustomSectionInner,
   CustomSection,
   TextRegular,
   CustomSectionTitle,
-  Section
+  Section,
 } from '../components/shared/index.styled'
 
 import TeamMembers from './../components/subcomponents/TeamMembers'
@@ -28,16 +28,16 @@ import {
   FaqsTextRegural,
   OurServiceHideTablet,
   OurServicePageTitle,
-  OurServiceSection
+  OurServiceSection,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 
 export default function Template({
-                                   data,
-                                   pageContext,
-                                   children
-                                 }: PropsWithChildren<{ data: { mdx: any }, pageContext: { faqTitle: string } }>) {
+  data,
+  pageContext,
+  children,
+}: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string } }>) {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
   const image = getImage(page.image_our_service)
@@ -54,7 +54,7 @@ export default function Template({
         const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
         setTimeout(() => {
           window.scrollTo({
-            top: y
+            top: y,
           })
         }, 100)
       }
@@ -69,11 +69,11 @@ export default function Template({
     if (!show[i]) {
       const ourAreasFaqLink = routeLinks.ourAreas({
         service: kebabCase(slug),
-        faqTitle: title
+        faqTitle: title,
       })
       window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
     } else {
-      const showArray = Object.keys(show).map(function(k) {
+      const showArray = Object.keys(show).map(function (k) {
         return { value: show[k], index: k }
       })
       const nearestOpenedFaq = showArray.find(item => item.value && item.index != i.toString())
@@ -82,14 +82,14 @@ export default function Template({
 
       const ourAreasFaqLink = routeLinks.ourAreas({
         service: kebabCase(slug),
-        faqTitle: kebabCase(openedFaqTitle)
+        faqTitle: kebabCase(openedFaqTitle),
       })
       window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
     }
 
     setShow((prevshow: any) => ({
       ...prevshow,
-      [i]: !prevshow[i]
+      [i]: !prevshow[i],
     }))
   }
 
@@ -111,12 +111,12 @@ export default function Template({
     title_contact,
     description_contact,
     project: projects,
-    slug
+    slug,
   } = page
 
   return (
     <Page>
-      <HelmetTitleDescription title={meta_title} description={meta_description} />
+      <HelmetMetaData title={meta_title} description={meta_description} />
       <CustomSectionOurService>
         <CustomSectionInner
           maxWidth='70%'
@@ -149,7 +149,7 @@ export default function Template({
         <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
           <CustomSectionInner>
             <TextRegular className='content'>
-              {description && <Content dangerouslySetInnerHTML={{__html: description.html}} /> }
+              {description && <Content dangerouslySetInnerHTML={{ __html: description.html }} />}
             </TextRegular>
             <Link to={'#contactForm'}>
               <BlackButtonOurService>{button}</BlackButtonOurService>
@@ -180,7 +180,11 @@ export default function Template({
       {show_case_study && (
         <div>
           <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
-          <Projects isFetchProject={false} projectsArray={projects.map((el: {frontmatter: ProjectModel}) => el.frontmatter)} isSelectedTag={false} />
+          <Projects
+            isFetchProject={false}
+            projectsArray={projects.map((el: { frontmatter: ProjectModel }) => el.frontmatter)}
+            isSelectedTag={false}
+          />
         </div>
       )}
 
@@ -216,7 +220,7 @@ export default function Template({
                   ) : null}
 
                   {show[i] && answer ? (
-                    <FaqsTextRegural className='content' dangerouslySetInnerHTML={{__html: answer.html}} />
+                    <FaqsTextRegural className='content' dangerouslySetInnerHTML={{ __html: answer.html }} />
                   ) : null}
                 </FaqWrapper>
               )
@@ -237,50 +241,54 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-    query($id: String!) {
-        mdx(id: { eq: $id }) {
-            frontmatter {
-                team_members
-                faqs {
-                    frontmatter {
-                        answer { html }
-                        question
-                    }
-                }
-                project {
-                    frontmatter {
-                        description
-                        title
-                        image {
-                            childImageSharp {
-                                gatsbyImageData
-                            }
-                        }
-                        slug
-                    }
-                }
-                meta_title
-                meta_description
-                title
-                intro
-                slug
-                description_mdx { html }
-                button
-                button2
-                show_case_study
-                show_technology_stack
-                title_faqs
-                title_case_study
-                title_team
-                title_contact
-                description_contact
-                name
-                image_our_service {
-                    childImageSharp {
-                        gatsbyImageData
-                    }
-                }
+  query($id: String!) {
+    mdx(id: { eq: $id }) {
+      frontmatter {
+        team_members
+        faqs {
+          frontmatter {
+            answer {
+              html
             }
+            question
+          }
         }
+        project {
+          frontmatter {
+            description
+            title
+            image {
+              childImageSharp {
+                gatsbyImageData
+              }
+            }
+            slug
+          }
+        }
+        meta_title
+        meta_description
+        title
+        intro
+        slug
+        description_mdx {
+          html
+        }
+        button
+        button2
+        show_case_study
+        show_technology_stack
+        title_faqs
+        title_case_study
+        title_team
+        title_contact
+        description_contact
+        name
+        image_our_service {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+      }
     }
+  }
 `

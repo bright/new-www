@@ -6,7 +6,7 @@ import { TopNavigation } from './TopNavigation'
 
 import * as styles from './Page.module.scss'
 import '../styles/main.scss'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 import Helmet from 'react-helmet'
 import { fbShareImage } from '../meta/bright-logo'
 import { resolveUrl } from '../meta/resolve-url'
@@ -26,7 +26,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
         [styles.menuOpened]: mobileMenuOpened,
       })}
     >
-      <HelmetTitleDescription
+      <HelmetMetaData
         title='Software Development Company'
         description='Top custom software development company in Poland specialising in mobile & web apps, Blockchain, Bluetooth and IoT.'
       />

@@ -5,12 +5,8 @@ import styled from 'styled-components'
 import { Page } from '../layout/Page'
 import DisqusComments from '../components/subcomponents/DisqusComments'
 import { AuthorDataProps } from './author-data'
-import { BlogPostStructuredData } from '../BlogPostStructuredData'
-import { getSrc } from 'gatsby-plugin-image'
+import { BlogPostStructuredData } from '../meta/structuredData/BlogPostStructuredData'
 import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks'
-import Helmet from 'react-helmet'
-import { descriptionOrDefault } from '../meta/meta-description'
-import { resolveUrl } from '../meta/resolve-url'
 import { ConstrainedWidthContainer } from '../ConstrainedWidthContainer'
 import variables from '../styles/variables'
 import NewsletterWrapper from '../components/subcomponents/NewsletterWrapper'
@@ -18,8 +14,8 @@ import { CustomSection } from '../components/shared'
 import { SocialMediaShare } from '../templates/blog/SocialMediaShare'
 import { allMdxData } from '../models/gql'
 import RelatedPosts from './related-posts'
-import { siteMetadata } from '../site-metadata'
 import { PostArticleContent } from './post-article-content'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 
 const WrapperNews = styled.div`
   @media ${variables.device.tablet} {
@@ -92,7 +88,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
     />
   )
   const [isScrolledDown, setIsScrolledDown] = useState(false)
-  const comments = (isScrolledDown && <DisqusComments id={slug} title={page.title} />)
+  const comments = isScrolledDown && <DisqusComments id={slug} title={page.title} />
 
   useEffect(() => {
     const scrollListener = () => {
@@ -110,20 +106,17 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
 
   return (
     <Page>
-      <Helmet>
-        <title>{title} | Bright Inventions</title>
-        {title && <meta property='og:title' content={title} />}
-        <meta name='description' content={descriptionOrDefault(mdx.excerpt)} />
-        <meta property='og:description' content={descriptionOrDefault(mdx.excerpt)} />
-        <meta property='og:site_name' content={siteMetadata.title} />
-        <meta property='og:url' content={resolveUrl(pathname)} />
-        <meta property='og:type' content='article' />
+      <HelmetMetaData
+        title={title}
+        description={mdx.excerpt}
+        url={pathname}
+        type='article'
+        image={image}
+        canonicalUrl={canonicalUrl}
+      >
         <meta property='article:published_time' content={mdx.frontmatter.date} />
         <meta property='article:tag' content={mdx.frontmatter.tags.join(', ')} />
-        {image && <meta property='og:image' content={resolveUrl(getSrc(image)!)} />}
-        {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
-      </Helmet>
-
+      </HelmetMetaData>
       <ConstrainedWidthContainer id='blog'>
         <SocialMediaShare blackIcons slug={pathname} title={title} />
         <PostArticleContent
@@ -149,10 +142,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         paddingTablet='0rem 2.25rem 2.5rem'
         paddingMobileProps='0 1.125rem 2rem'
       >
-        <RelatedPosts
-          allMdx={allMdx}
-          currentPostfileAbsolutPath={mdx.fileAbsolutePath}
-        />
+        <RelatedPosts allMdx={allMdx} currentPostfileAbsolutPath={mdx.fileAbsolutePath} />
       </CustomSection>
       <ConstrainedWidthContainer id='blog'>
         <WrapperNews>
@@ -188,8 +178,14 @@ export const pageQuery = graphql`
           }
         }
       }
-      fields { timeToRead { minutes } }
-      internal {  contentFilePath  }
+      fields {
+        timeToRead {
+          minutes
+        }
+      }
+      internal {
+        contentFilePath
+      }
     }
     allMdx(
       filter: {
@@ -200,13 +196,15 @@ export const pageQuery = graphql`
           tags: { in: $relatedTags }
         }
       }
-      sort: {fields: fields___modifiedAt, order: DESC}
+      sort: { fields: fields___modifiedAt, order: DESC }
       limit: 5
     ) {
       edges {
         node {
           id
-          internal {  contentFilePath  }
+          internal {
+            contentFilePath
+          }
           excerpt(pruneLength: 500)
           frontmatter {
             excerpt

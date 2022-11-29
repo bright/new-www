@@ -7,7 +7,7 @@ import { CustomSectionInner, CustomPageTitle, CustomSection, CustomTextRegular }
 import { createProjects } from '../models/creator'
 import { GQLData } from '../models/gql'
 import styled from 'styled-components'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 import variables from '../styles/variables'
 import { TagsSelect, TagsWrapper } from './../components/shared/components/index'
 import { useWindowSize } from '../components/utils/use-windowsize'
@@ -72,7 +72,7 @@ const ProjectsPage: React.FC<{ data: GQLData }> = ({ data }) => {
 
   return (
     <Page>
-      <HelmetTitleDescription
+      <HelmetMetaData
         title='Projects'
         description='We’ve developed web and mobile applications for clients from UK, Germany, Netherlands, Norway, Israel and more.'
       />

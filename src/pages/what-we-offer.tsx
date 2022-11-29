@@ -7,14 +7,14 @@ import OurDevelopmentAreas from '../components/whatWeDo/ourDevelopmentAreas/OurD
 import { CustomSection, CustomPageTitle, CustomSectionInner } from '../components/shared'
 import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { CustomTextRegular } from './../components/shared/index.styled'
 import { Projects } from '../components/home/Projects'
 
 const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
     <Page>
-      <HelmetTitleDescription
+      <HelmetMetaData
         title='What We Offer'
         description='We specialise in Mobile App Development, IoT Development, Blockchain and Product Design. Contact us!'
       />

@@ -8,7 +8,7 @@ import React from 'react'
 
 import { Page } from '../layout/Page'
 import loadable from '@loadable/component'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { PageTitle, Section } from '../components/shared'
 import WhatWePractice from './career/_WhatWePractice'
 const HeaderImages = loadable(() => import('./career/_HeaderImages'))
@@ -48,7 +48,7 @@ const PageTitleCareer = styled(PageTitle)`
 const CareerPage: React.FC = () => {
   return (
     <Page className='page-career'>
-      <HelmetTitleDescription
+      <HelmetMetaData
         title='Career'
         description='We like people with bright minds! Join software development company from Gdańsk.'
       />

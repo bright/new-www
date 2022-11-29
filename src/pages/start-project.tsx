@@ -9,12 +9,12 @@ import React from 'react'
 
 import { Page } from '../layout/Page'
 import { Contact } from '../components/shared/Contact'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 
 const StartProjectPage: React.FC = () => {
   return (
     <Page>
-      <HelmetTitleDescription
+      <HelmetMetaData
         title='Estimate a project'
         description='Estimate your project based on a description and technologies'
       />

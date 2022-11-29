@@ -7,7 +7,7 @@ import { GQLData } from '../models/gql'
 import { createBlogPosts } from '../models/creator'
 import { PageContext, Paging } from './blog/Paging'
 import { HideTablet, PageDescription, Section } from '../components/shared'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 import Helmet from 'react-helmet'
 import { resolveUrl } from '../meta/resolve-url'
 // @ts-ignore
@@ -26,7 +26,7 @@ interface Props {
 const BlogPage: React.FC<Props> = ({ data, pageContext }) => {
   return (
     <Page className='page-blog-list'>
-      <HelmetTitleDescription
+      <HelmetMetaData
         title='Blog about web & mobile app development'
         description='Articles about software development, agile and project management. Coding examples in Swift, Kotlin, Android, iOS, Backend, Node.js, SQL, AWS and more.'
       />
@@ -73,14 +73,16 @@ export const pageQuery = graphql`
   query MyQuery($skip: Int!, $limit: Int!) {
     allMdx(
       filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
-      sort: {fields: fields___modifiedAt, order: DESC}
+      sort: { fields: fields___modifiedAt, order: DESC }
       skip: $skip
       limit: $limit
     ) {
       edges {
         node {
           id
-          internal {  contentFilePath  }
+          internal {
+            contentFilePath
+          }
           excerpt(pruneLength: 500)
           frontmatter {
             excerpt
