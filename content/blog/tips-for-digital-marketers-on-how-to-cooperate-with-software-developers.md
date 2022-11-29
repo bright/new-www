@@ -77,7 +77,7 @@ Find **my tips on testing for marketers**:
 * Don’t forget to check everything on the mobile as well.
 * List all the bugs/issues and describe them as mentioned before.
 
-And also… chill out. ;) You are not a professional software tester. No one expects you to be like that guy:
+And also… chill out. 😉 You are not a professional software tester. No one expects you to be like that guy:
 
 <GiphyEmbed url='https://giphy.com/gifs/SignatureEntertainmentUK-signatureentertainment-mel-gibson-hot-seat-BgKEiHf1xNV0h6IcSX' />
 
