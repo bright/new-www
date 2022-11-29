@@ -14,7 +14,7 @@ published: true
 ---
 **Marketers have ideas, targets, analytics tools, and a hunger for leads. Yet, we sometimes need developers to help us achieve our goals. The most common cooperation between a developer and a marketer happens while building a brand website and landing pages. Based on my daily professional relations with developers I listed tips for effective collaboration between marketing specialists and software engineers.**
 
-<div class="image"><img src="/images/blogpost_marketing_development.png" alt="marketing specialist vs software developer" title="undefined"  /> </div>
+<div class="image"><img src="/images/in_post_marketing_vs_developer.png" alt="marketing specialist vs software developer" title="undefined"  /> </div>
 
 ## Start by choosing the right tool for daily communication
 
@@ -26,7 +26,7 @@ Also, setting up a common **chat channel would be useful**. Whatever is most pre
 
 Probably, **you will hear lots of questions from developers**. They can be tricky. Truly listen and then answer. I sometimes made the mistake of not really listening. **I was asked what I wanted to achieve. However, I was describing the feature I expected to be built**. That wasn’t the question. I didn’t understand that difference at first. 😉 Still struggle with that sometimes.
 
-<div class="important-info"><h2>Show the bigger picture</h2><div>It’s \*\*a good sign when developers ask questions\*\*! They usually do it to understand your goal. Then they can recommend the most suitable tech solution to achieve it. Remember that \*\*the feature is just the means to an end\*\*. It’s not the goal itself. \*\*Help developers understand the bigger picture\*\* and you should quickly see better results of the cooperation.</div></div>
+<div class="important-info"><h2>Show the bigger picture</h2><div>It’s a good sign when developers ask questions! They usually do it to understand your goal. Then they can recommend the most suitable tech solution to achieve it. Remember that the feature is just the means to an end. It’s not the goal itself. Help developers understand the bigger picture and you should quickly see better results of the cooperation.</div></div>
 
 ## Feel free to ask questions
 
@@ -50,7 +50,7 @@ Nevertheless, I will write my **approach to describe the tasks:**
 
 Again, I am not a software tester. Here is my approach as a marketing specialist. 
 
-<div class="important-info"><h2>Empathy is the key</h2><div>Reporting bugs, just like writing a task, is all about empathy. \*\*Imagine what information a developer would need to seamlessly find the same bug\*\* you have stumbled on.</div></div>
+<div class="important-info"><h2>Empathy is the key</h2><div>Reporting bugs, just like writing a task, is all about empathy. Imagine what information a developer would need to seamlessly find the same bug you have stumbled on.</div></div>
 
 Don’t start with “something doesn’t work”. Unless you really have no idea what is going on. That might happen. 😉
 
