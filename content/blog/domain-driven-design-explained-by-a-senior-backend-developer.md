@@ -5,6 +5,7 @@ tags:
   - development
   - domain-driven design
 date: 2022-10-04T07:30:53.975Z
+meaningfullyUpdatedAt: 2022-11-29T07:40:10.803Z
 title: Domain-Driven Design Explained by a Senior Backend Developer
 layout: post
 image: /images/ddd_blog_cover.png
@@ -28,7 +29,7 @@ It allows us to detach things like communication details (if this is REST, GRPC,
 
 <div class="image"><img src="/images/two_levels_ddd.png" alt="Strategic and tactical levels of DDD" title="undefined"  /> </div>
 
-**Let’s take applying taxes as an example**. Imagine our software is responsible for selling food. Depending on ingredients we might have higher or lower tax. If we will separate tax operations like calculating gross price, from technical details like how exactly we are retrieving tax value and from which database, we might be able to speak the same language in the code as with the domain experts. Our test cases for tax calculation might be readable by non-technical people while the storage can be easily changed e.g. due to performance reasons.
+<div class="important-info"><h2>Let’s take applying taxes as an example</h2><div>Imagine our software is responsible for selling food. Depending on ingredients we might have higher or lower tax. If we will separate tax operations like calculating gross price, from technical details like how exactly we are retrieving tax value and from which database, we might be able to speak the same language in the code as with the domain experts. Our test cases for tax calculation might be readable by non-technical people while the storage can be easily changed e.g. due to performance reasons.</div></div>
 
 ## What is Domain-Driven Design in microservices?
 
