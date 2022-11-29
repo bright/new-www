@@ -6,6 +6,7 @@ tags:
   - spring boot
   - continuous integration
 date: 2022-09-30T11:51:07.433Z
+meaningfullyUpdatedAt: 2022-11-29T09:34:17.428Z
 title: Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and Gradle
 layout: post
 image: /images/mario_blog.png
@@ -408,3 +409,5 @@ You have created a pipeline for your Spring Boot app with basic AWS infrastructu
 ![](https://cdn-images-1.medium.com/max/1600/1*WgykIb7PTWu0Tqn2b4IZ6w.png)
 
 All of the code is available here: [https://gitlab.com/adam.waniak11/ci-cd-demo-app](https://gitlab.com/adam.waniak11/ci-cd-demo-app/-/tree/master)
+
+<div class='block-button'><h2>Are you a senior backend developer?</h2><div>You might be a great match, if you like programming in TypeScript and Node.js and have the ability to look at the project from a business perspective. Check out our job offer!</div><a href="/jobs/senior-backend-developer-typescript"><button>Apply and join our team</button></a></div>
