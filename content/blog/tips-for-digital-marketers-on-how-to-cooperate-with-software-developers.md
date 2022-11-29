@@ -14,7 +14,7 @@ published: true
 ---
 **Marketers have ideas, targets, analytics tools, and a hunger for leads. Yet, we sometimes need developers to help us achieve our goals. The most common cooperation between a developer and a marketer happens while building a brand website and landing pages. Based on my daily professional relations with developers I listed tips for effective collaboration between marketing specialists and software engineers.**
 
-<div class="image"><img src="/images/blogpost_marketing_development.png" alt="marketing specialist vs software developer" title="undefined"  /> </div>
+<div class="image"><img src="/images/in_post_marketing_vs_developer.png" alt="marketing specialist vs software developer" title="undefined"  /> </div>
 
 ## Start by choosing the right tool for daily communication
 
