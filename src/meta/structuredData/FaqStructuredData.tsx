@@ -1,5 +1,5 @@
 import { WithContext, Question, FAQPage } from 'schema-dts'
-import { StructuredData } from './meta/structuredData/StructuredData'
+import { StructuredData } from './StructuredData'
 import React, { useMemo } from 'react'
 import removeMarkdown from 'markdown-to-text'
 
