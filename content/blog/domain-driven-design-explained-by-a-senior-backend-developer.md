@@ -5,7 +5,7 @@ tags:
   - development
   - domain-driven design
 date: 2022-10-04T07:30:53.975Z
-meaningfullyUpdatedAt: 2022-11-29T07:40:10.803Z
+meaningfullyUpdatedAt: ""
 title: Domain-Driven Design Explained by a Senior Backend Developer
 layout: post
 image: /images/ddd_blog_cover.png
@@ -39,11 +39,15 @@ In terms of microservices (or any other architecture), DDD, especially its strat
 
 ## When to use the Domain-Driven Design?
 
-It’s a really hard question to answer as it depends on many aspects. Let’s first separate two levels of DDD. First, more high level, is **strategic Domain-Driven Design**. It is more about talking with domain experts, finding ubiquitous language, and building a common understanding of the processes among both business and tech people. It does not necessarily need to go down to the code itself. An example would be if, during conversations with domain experts, engineers find out there is not much of business logic and the application will be a simple CRUD (create, read, update, delete). However, if such conversations will result in complex processes, we could (or even should) continue with **tactical DDD** which boils down to building system from blocks and patterns described by Evans in his book.
+It’s a really hard question to answer as it depends on many aspects. Let’s first separate two levels of DDD. First, more high level, is **strategic Domain-Driven Design**. It is more about talking with domain experts, finding ubiquitous language, and building a common understanding of the processes among both business and tech people. It does not necessarily need to go down to the code itself. 
+
+An example would be if, during conversations with domain experts, engineers find out there is not much of business logic and the application will be a simple CRUD (create, read, update, delete). However, if such conversations will result in complex processes, we could (or even should) continue with **tactical DDD** which boils down to building system from blocks and patterns described by Evans in his book.
 
 ## How to implement Domain-Driven Design?
 
-As mentioned above **Domain-Driven Design starts way before we sit down and write code**. It’s happening in the form of strategic DDD. Sometimes during the phase of accumulating the knowledge, we will realize that business problem is really trivial and doesn’t need complex patterns from tactical DDD. It might also happen that the main challenge of the organization sits outside of the processes we were asked to implement. If none of the mentioned cases are valid we can implement our business logic using DDD building blocks like [Entities](/blog/domain-driven-design-in-kotlin-entities-lifecycle-management/), Value Objects, Services and so on (all of the elements can be found directly in Eric Evans book or on the diagram presented there).
+As mentioned above **Domain-Driven Design starts way before we sit down and write code**. It’s happening in the form of strategic DDD. Sometimes during the phase of accumulating the knowledge, we will realize that business problem is really trivial and doesn’t need complex patterns from tactical DDD. 
+
+It might also happen that the main challenge of the organization sits outside of the processes we were asked to implement. If none of the mentioned cases are valid we can implement our business logic using DDD building blocks like [Entities](/blog/domain-driven-design-in-kotlin-entities-lifecycle-management/), Value Objects, Services and so on (all of the elements can be found directly in Eric Evans book or on the diagram presented there).
 
 <div class="image"><img src="/images/ddd_graph.png" alt="Model-Driven Design" title="undefined"  /> </div>
 
