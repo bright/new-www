@@ -175,6 +175,13 @@ const JobSectionInner = styled(SectionInner)`
       line-height: 2.5rem;
       color: ${variables.color.text2};
     }
+    ol > li {
+      margin-bottom: ${variables.pxToRem(37)};
+      margin-top: 0;
+      font-size: ${variables.pxToRem(20)};
+      line-height: 2rem;
+      color: ${variables.color.text2};
+    }
 
     ul > li {
       position: relative;
@@ -245,6 +252,15 @@ const JobSectionInner = styled(SectionInner)`
           margin-bottom: ${variables.pxToRem(0)};
         }
       }
+      ol > li {
+        margin-bottom: ${variables.pxToRem(30)};
+        font-size: 1rem;
+        line-height: 1.75rem;
+
+        &:last-of-type {
+          margin-bottom: ${variables.pxToRem(0)};
+        }
+      }
     }
   }
 `
@@ -273,12 +289,12 @@ const TechnologyWrapper = styled.div`
     }
   }
 `
-const JobFormComponent = styled(FormComponent)`
+const JobFormComponent = styled(FormComponent)<{ show_recruiter_info: boolean }>`
   overflow-x: hidden;
   @media ${variables.device.mobile} {
     & > h2 {
       text-align: center;
-      margin-top: 0;
+      margin-top: ${({ show_recruiter_info }) => (show_recruiter_info ? '0' : '64px')};
       margin-bottom: 1.875rem;
     }
 
@@ -609,11 +625,11 @@ export default function Template({
         </RecruitingProcessWrappers>
       </ScrollSection>
       <CustomSection
-        paddingProps='0 0 260px'
-        paddingLaptop='0 0 233px'
-        paddingTabletXL='0 144px 164px'
-        paddingTablet='0 36px 205px '
-        paddingMobileProps='0 18px 192px'
+        paddingProps={page.show_recruiter_info ? '0 0 260px' : '0 0 0'}
+        paddingLaptop={page.show_recruiter_info ? '0 0 233px' : '0 0 0'}
+        paddingTabletXL={page.show_recruiter_info ? '0 144px 164px' : '0 0 0'}
+        paddingTablet={page.show_recruiter_info ? '0 36px 205px ' : '0 36px 0'}
+        paddingMobileProps={page.show_recruiter_info ? '0 18px 192px' : '0 18px 0'}
       >
         <CustomSectionInner maxWidth='866px' laptopMaxWidth='736px'>
           {page.show_new_title_more_about_us ? (
@@ -683,6 +699,7 @@ export default function Template({
               mailPlaceholder={'name@mail.com'}
               textPlaceholder={'Let us know what would you like to do @ bright inventions'}
               uploadLabel={'Upload '}
+              show_recruiter_info={page.show_recruiter_info}
             />
           </CustomSectionInner>
         </CustomSection>
