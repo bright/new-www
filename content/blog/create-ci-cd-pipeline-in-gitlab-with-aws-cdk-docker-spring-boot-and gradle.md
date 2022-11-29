@@ -6,7 +6,7 @@ tags:
   - spring boot
   - continuous integration
 date: 2022-09-30T11:51:07.433Z
-meaningfullyUpdatedAt: 2022-11-29T09:34:17.428Z
+meaningfullyUpdatedAt: ""
 title: Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and Gradle
 layout: post
 image: /images/mario_blog.png
