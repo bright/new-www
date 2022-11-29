@@ -60,7 +60,7 @@ Also, **include info about the device you used when the bug occurred, screen res
 
 What's more, **you can use session recording tools like Hotjar or Mouseflow to efficiently report bugs**. These tools are quite popular among marketers so you might already know them. I found quite a few issues watching users’ recordings by Hotjar. 
 
-Not only can you send a Hotjar recording, showing the issue, to your development team, but also Hotjar will provide them with all info mentioned earlier. Such as screen resolution, device, or operating system. Therefore you’ve got all of it covered by sharing one link with the recording. Using Hotjar as a reporting bug tool might be really helpful. 😉
+Not only can you send a Hotjar recording, showing the issue, to your development team, but also **Hotjar will provide them with all info** mentioned earlier. Such as **screen resolution, device, or operating system**. Therefore you’ve got all of it covered by sharing one link with the recording. Using Hotjar as a reporting bug tool might be really helpful. 😉
 
 <div class="image"><img src="/images/hotjar_screen.png" alt="Hotjar" title="undefined"  /> </div>
 
