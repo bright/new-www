@@ -5,7 +5,7 @@ import { PageContext, Paging } from './blog/Paging'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { HideDesktop, HideTablet, MoreButton } from '../components/shared'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { GQLData } from '../models/gql'
@@ -97,7 +97,7 @@ interface Props {
 const AboutUSTemplate: React.FC<Props> = ({
   data,
   pageContext,
-  children
+  children,
 }: // this prop will be injected by the GraphQL query below.
 any) => {
   const { mdx } = data // data.mdx holds your post data
@@ -129,7 +129,7 @@ any) => {
 
   return (
     <Page>
-      <HelmetTitleDescription title={`Meet ${frontmatter.short_name}`} description={frontmatter.bio} />
+      <HelmetMetaData title={`Meet ${frontmatter.short_name}`} description={frontmatter.bio} />
       <AuthorSection>
         <CustomContainer>
           <AuthorWrapper>

@@ -4,7 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
-import { HelmetTitleDescription } from '../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 import RecruitingProcess from '../pages/career/_RecruitingProcess'
 import styled from 'styled-components'
 import {
@@ -560,7 +560,7 @@ export default function Template({
   const linksMoreAboutUsHtml = page.links_more_about_us?.html
   return (
     <Page>
-      <HelmetTitleDescription title={page.title} description={page.description} />
+      <HelmetMetaData title={page.title} description={page.description} />
 
       <CustomSection
         paddingMobileProps='64px 18px 0'

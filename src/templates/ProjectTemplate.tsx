@@ -3,13 +3,9 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
-import { getSrc } from 'gatsby-plugin-image'
 import variables from '../styles/variables'
-import { descriptionOrDefault } from '../meta/meta-description'
-import { Helmet } from 'react-helmet'
-import { resolveUrl } from '../meta/resolve-url'
 import { useLocation } from '@reach/router'
-import { siteMetadata } from '../site-metadata'
+import { HelmetMetaData } from '../meta/HelmetMetaData'
 
 const Container = styled.div`
   max-width: 960px;
@@ -87,18 +83,7 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
 
   return (
     <Page>
-      <Helmet>
-        <title>{title} | Bright Inventions</title>
-        {title && <meta property='og:title' content={title} />}
-        <meta name='description' content={descriptionOrDefault(description)} />
-        <meta property='og:description' content={descriptionOrDefault(description)} />
-        <meta property='og:site_name' content={siteMetadata.title} />
-        <meta property='og:url' content={resolveUrl(pathname)} />
-        <meta property='og:type' content='product' />
-        {image && <meta property='og:image' content={resolveUrl(getSrc(image)!)} />}
-        {alt && <meta property='og:image:alt' content={alt} />}
-      </Helmet>
-
+      <HelmetMetaData title={title} description={description} url={pathname} type='product' image={image} alt={alt} />
       <Container className='container' id='project'>
         <article className='section'>
           <Title>{title}</Title>

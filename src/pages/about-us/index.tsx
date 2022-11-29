@@ -3,7 +3,7 @@ import React from 'react'
 import { Page } from '../../layout/Page'
 
 import { CustomSection, CustomPageTitle } from '../../components/shared'
-import { HelmetTitleDescription } from '../../meta/HelmetTitleDescription'
+import { HelmetMetaData } from '../../meta/HelmetMetaData'
 import { StoryComponent } from '../../components/about-us/story-section/story'
 import TeamMembers from '../../components/subcomponents/TeamMembers'
 import { FormComponent } from '../../components/about-us/form-section/form'
@@ -11,7 +11,7 @@ import Values from './_Values'
 
 const AboutUsPage: React.FC = () => (
   <Page>
-    <HelmetTitleDescription
+    <HelmetMetaData
       title='Our history, team and values'
       description='Since 2012 we have built software for startups, digital agencies and mid-sized organisations from such industries as FinTech, Healthcare or Retail.'
     />
