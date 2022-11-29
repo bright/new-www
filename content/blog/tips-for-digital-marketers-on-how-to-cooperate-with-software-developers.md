@@ -50,7 +50,7 @@ Nevertheless, I will write my **approach to describe the tasks:**
 
 Again, I am not a software tester. Here is my approach as a marketing specialist. 
 
-<div class="important-info"><h2>Empathy is the key</h2><div>Reporting bugs, just like writing a task, is all about empathy. **Imagine what information a developer would need to seamlessly find the same bug** you have stumbled on.</div></div>
+<div class="important-info"><h2>Empathy is the key</h2><div>Reporting bugs, just like writing a task, is all about empathy. \*\*Imagine what information a developer would need to seamlessly find the same bug\*\* you have stumbled on.</div></div>
 
 Don’t start with “something doesn’t work”. Unless you really have no idea what is going on. That might happen. 😉
 
@@ -64,6 +64,8 @@ Not only can you send a Hotjar recording, showing the issue, to your development
 
 <div class="image"><img src="/images/hotjar_screen.png" alt="Hotjar" title="undefined"  /> </div>
 
+*Example of Hotjar Session Info included with every recording*
+
 ## Discover your tester instincts
 
 Yep. **If you ask to develop something, you should try your best to ensure that it is what you want**. It’s the same when you, for example, have posters designed. You would check out if the designer did the job as you expected.
@@ -75,7 +77,7 @@ Find **my tips on testing for marketers**:
 * Don’t forget to check everything on the mobile as well.
 * List all the bugs/issues and describe them as mentioned before.
 
-And also… chill out. ;) You are not a professional software tester. No one expects you to be like that guy:
+And also… chill out. 😉 You are not a professional software tester. No one expects you to be like that guy:
 
 <GiphyEmbed url='https://giphy.com/gifs/SignatureEntertainmentUK-signatureentertainment-mel-gibson-hot-seat-BgKEiHf1xNV0h6IcSX' />
 
