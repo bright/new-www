@@ -147,7 +147,7 @@ export function ModalCookiesPresentation(props: {
     props.allowAll()
     setTimeout(() => {
       props.onAccept()
-    }, 1000)
+    }, 500)
   }
 
   return (
