@@ -9,6 +9,7 @@ import { CustomPageTitle, CustomSection, CustomSectionInner, TextRegular } from 
 import { Page } from '../../layout/Page'
 import { HelmetMetaData } from '../../meta/HelmetMetaData'
 import variables from '../../styles/variables'
+import ScrollToTop from '../../components/subcomponents/ScrollToTop'
 
 const Caption = styled.div`
   &&& {
@@ -34,6 +35,7 @@ export default function TeamPage() {
         title='Meet our software development team'
         description='Meet mobile developers, web app developers, project managers, designers, and more people who are a part of our software development team from Poland.'
       />
+      <ScrollToTop />
       <CustomSection
         paddingProps='3rem 2rem 6.5625rem 2rem'
         paddingLaptop='3rem 6rem 4rem '
@@ -50,9 +52,9 @@ export default function TeamPage() {
         <Caption>
           <CustomSectionInner>
             <TextRegular>
-              We are a team of skilled and talented specialists: mobile, web and backend developers, software testers, UI and UX
-              designers, product managers and marketers, who understand what makes bright digital products that build
-              engagement and loyalty.
+              We are a team of skilled and talented specialists: mobile, web and backend developers, software testers,
+              UI and UX designers, product managers and marketers, who understand what makes bright digital products
+              that build engagement and loyalty.
             </TextRegular>
           </CustomSectionInner>
         </Caption>
