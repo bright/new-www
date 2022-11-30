@@ -71,13 +71,13 @@ In 2019 Practi was **acquired by Just Eat Takeaway**. **Bright Inventions had a 
 
 ## Client’s expectations
 
-The client expects us to actively take part in creating the whole system. We are not only “code suppliers”, **we are technical partners offering years of software development experience**. Our mobile and web knowledge, and the fact that we have been working on this system since 2013 enables us to evaluate technical and business decisions. As a result, when needed, we gladly offer alternative solutions that would benefit the client and end-users.
+The client expected us to actively take part in creating the whole system. We were not only “code suppliers”, **we were technical partners offering years of software development experience**. Our mobile and web knowledge, and the fact that we hadve been working on this system since 2013 enabled us to evaluate technical and business decisions. As a result, when needed, we gladly offered alternative solutions that would benefit the client and end-users.
 
 ## Challenges and goals
 
-Just Eat POS system is a product with over 10 years of history. It was built as a startup solution for a small group of clients with specific needs. Now the system is a part of the Just Eat Takeaway's family. 
+Just Eat POS system (prev. Practi) was a product with over 10 years of history. It was built as a startup solution for a small group of clients with specific needs. The system became a part of the Just Eat Takeaway's family. 
 
-Therefore **scalability is the key now**. Our teams are in the process of rebuilding some applications to make them more accessible for a growing number of users.
+Therefore **scalability was the key**. Our teams took care of rebuilding some applications to make them more accessible for a growing number of users.
 
 The increasing number of users also means that **Bright Inventions’s team has to actively monitor services, especially metrics such as CPU usage, number of database connections and average response time**. The goal is to predict and solve any potential issues before they could affect clients.
 
