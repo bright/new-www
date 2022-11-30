@@ -49,6 +49,9 @@ const FooterOpenModalButton = styled.button`
   text-decoration: underline;
   cursor: pointer;
   padding-left: ${variables.pxToRem(5)};
+  &:hover {
+    color: ${variables.color.primary};
+  }
 `
 
 export const Footer = () => {
@@ -203,7 +206,7 @@ export const Footer = () => {
               closeModal()
             }}
           />
-          <Link to={routeLinks.privacyPolicy} className='has-text-black-bis'>
+          <Link to={routeLinks.privacyPolicy} className='has-text-black-bis' style={{ marginTop: '8px' }}>
             Privacy Policy
           </Link>
         </div>
