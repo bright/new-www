@@ -3,6 +3,8 @@ layout: project
 project_id: mobile-therapy-application
 title: Mobile Therapy Application
 image: /images/mobile_therapy_app1.jpg
+social_media_previev: /images/therapy_fb_preview.png
+social_media_previev_alt: Mobile Therapy App case study
 description: A healthcare mobile application that supports patients going
   through physiotherapy. It offers therapists an easy way to customize plans for
   each patient.

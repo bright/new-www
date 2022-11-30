@@ -3,6 +3,8 @@ layout: project
 project_id: motivo
 title: Motivo
 image: /images/motivo_main.png
+social_media_previev: /images/motivo_fb_preview.png
+social_media_previev_alt: Motivo case study
 description: Turbo Training and Indoor Cycling Workouts. The app is your own
   personal cycling coach. It offers Interactive training plans and workouts for
   indoor cycling.
