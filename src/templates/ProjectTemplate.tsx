@@ -90,7 +90,7 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
         type='product'
         image={image}
         alt={alt}
-        twitterTyp='summary_large_image'
+        twitterType='summary_large_image'
       />
       <Container className='container' id='project'>
         <article className='section'>
