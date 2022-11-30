@@ -3,6 +3,8 @@ layout: project
 project_id: bright-treasury
 title: BrightTreasury
 image: /images/treasuryapp_www.png
+social_media_previev: /images/brighttreasury_fb_preview.png
+social_media_previev_alt: BrightTreasury case study
 description: "Bright Inventions’s original solution. A web app supporting
   Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for
   Treasury grants."

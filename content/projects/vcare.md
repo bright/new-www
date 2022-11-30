@@ -3,6 +3,8 @@ layout: project
 project_id: vcare
 title: vCare
 image: /images/vcare-_mockup-3_700.jpg
+social_media_previev: /images/vcare_fb_preview.png
+social_media_previev_alt: vCare case study
 description: A healthcare software solution that helps care homes all over the
   United Kingdom monitor their residents’ health and register medicine
   administration.

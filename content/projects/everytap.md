@@ -3,6 +3,8 @@ layout: project
 project_id: finebite
 title: "Finebite (Everytap) "
 image: /images/foodapp_ingredients.png
+social_media_previev: /images/finebite_fb_preview.png
+social_media_previev_alt: Finebite (Everytap) case study
 description: Finebite app helps to discover the best restaurants in the biggest
   Polish cities. Finebite originated from a very popular loyalty app – Everytap.
 tags:

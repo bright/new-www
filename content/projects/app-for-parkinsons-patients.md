@@ -3,6 +3,8 @@ layout: project
 project_id: solution-parkinson
 title: Solution for Parkinson's Patients
 image: /images/app_for_parkinson_patients1.png
+social_media_previev: /images/parkinson_s_fb_preview.png
+social_media_previev_alt: App for Parkinson's patients case study
 description: A personal digital diary for patients suffering from Parkinson’s
   disease. The app lets users record their symptoms and track the intake of
   prescribed drugs.

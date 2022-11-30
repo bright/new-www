@@ -3,6 +3,8 @@ layout: project
 project_id: xpomaker
 title: xpomaker
 image: /images/xpomaker_dashboard.png
+social_media_previev: /images/xpomaker_fb_preview.png
+social_media_previev_alt: xpomaker case study
 description: >
   A trade fair planning software that revolutionizes the way companies prepare
   and organize all assets needed for industry events.

@@ -3,6 +3,8 @@ layout: project
 project_id: digitized-questionnaires
 title: Digitized Questionnaires
 image: /images/digitizing_mobile_reporting_main2.png
+social_media_previev: /images/questionnaire_fb_preview.png
+social_media_previev_alt: Digitized Questionnaires case study
 description: A web application that enables digitizing mobile reporting. It
   helps you to build, with no code, the digitized surveys for end-users. A great
   tool for audits.
