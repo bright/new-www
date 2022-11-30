@@ -29,23 +29,23 @@ published: true
 
 * **[ePOS iOS and Android applications](https://brightinventions.pl/projects/system-for-restaurants-mobile)** used by restaurant staff to take orders and manage payments.
 * **White label application for restaurants** to take orders via their own, dedicated website.
-* **iOS and Android driver application** which assists drivers in delivering orders.
-* A **website that enables to display restaurant’s menu** and offers integrations with online delivery providers like JET or Wolt.
+* **iOS and Android driver applications** which assisted drivers in delivering orders.
+* A **website that enabled to display restaurant’s menu** and offered integrations with online delivery providers like JET or Wolt.
 * **Backoffice solutions** including managing integrations and API connections.
 
 ## Main features developed by Bright Inventions:
 
-* Food ordering management
-* Transactions processing
-* Integration with payment service providers
-* Receipt printing
-* Delivery tracking
-* Employees time tracking
-* Inventory management
-* Supply ordering
-* Integration with online food delivery services
-* Offline mode during transactions
-* Business analytics platform reporting sales and financial information
+* Food ordering management,
+* Transactions processing,
+* Integration with payment service providers,
+* Receipt printing,
+* Delivery tracking,
+* Employees time tracking,
+* Inventory management,
+* Supply ordering,
+* Integration with online food delivery services,
+* Offline mode during transactions,
+* Business analytics platform reporting sales and financial information.
 
 <div class="image"><img src="/images/retail_system_case_study.png" alt="retail system case study" title="It is not a real implemented design. It is a mockup example created for the purpose of case study."  /> </div>
 
@@ -65,9 +65,9 @@ published: true
 
 ## About Just Eat POS and Bright Inventions cooperation
 
-The client reached out to us in **2013**. At that time it was an early-stage Israeli startup that offered “Practi” web application solutions to users. Since 2013 **the company has transformed from a promising startup to an international ePOS applications provider**.
+The client reached out to us in **2013**. At that time it was an early-stage Israeli startup “Practi” that offered web application solutions to users. Since 2013 **the company has transformed from a promising startup to an international ePOS applications provider**.
 
-In 2019 Practi was **acquired by Just Eat Takeaway**. **Bright Inventions has had a great opportunity to assist the client** during this incredible ride, including the whole business transformation.
+In 2019 Practi was **acquired by Just Eat Takeaway**. **Bright Inventions had a great opportunity to assist the client** during this incredible ride, including the whole business transformation.
 
 ## Client’s expectations
 
