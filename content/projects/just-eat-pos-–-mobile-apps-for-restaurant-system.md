@@ -98,7 +98,7 @@ A great part of working with Just Eat POS was **building iOS and Android applica
 * Barcode scanners,
 * Kiosks.
 
-Our applications have been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
+Our applications had been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
 
 ## **Result**
 
