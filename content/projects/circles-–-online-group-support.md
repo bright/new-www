@@ -3,6 +3,8 @@ layout: project
 project_id: circles
 title: Circles – Online Group Support
 image: /images/circles_case_study_cover.png
+social_media_previev: /images/circles_fb_preview.png
+social_media_previev_alt: Circles case study
 description: Circles is a leading emotional support platform that connects
   people with others facing similar challenges in online groups led by
   professionals.
