@@ -3,6 +3,8 @@ layout: project
 project_id: smarthelp
 title: SmartHelp
 image: /images/smarthelp_main.png
+social_media_previev: /images/smarthelp_fb_preview.png
+social_media_previev_alt: SmartHelp case study
 description: An emergency service app that allows users to easily call for help
   and provide authorities with personal information, exact location, and
   incident details.
