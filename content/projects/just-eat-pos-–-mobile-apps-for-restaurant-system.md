@@ -52,19 +52,19 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 ## iOS development
 
-iOS products developed by our team were used in restaurants in Israel. Practi iOS solution was one of the top ePOS solutions used by restaurants in Israel. There were three main retail products developed by bright iOS developers.
+iOS products developed by our team were used in restaurants in Israel. Practi iOS solution was one of the top ePOS solutions used by restaurants in Israel. There were **three main retail products developed by bright iOS developers**.
 
 ### **Reggie iOS ePOS application**
 
-**Reggie is “the mind” of the whole ePOS system at the restaurant**. It is a cash register itself. It’s fully integrated with JustEat and a couple of others online food delivery companies. You can manage orders from clients in the restaurant as well as take care of all phone and internet orders. Also, the app enables you to manage drivers if your restaurant hires them.
+**Reggie was “the mind” of the whole ePOS system at the restaurant**. It was a cash register itself. It was fully integrated with JustEat and a couple of other online food delivery companies. You could manage orders from clients in the restaurant as well as took care of all phone and internet orders. Also, the app enabled you to manage drivers if the restaurant hired them.
 
 ### **Click & Collect – iOS white label application**
 
-**The app was dedicated to restaurants which want to offer clients their own meal-ordering application**. “White label app” was the product that can be easly adjusted to clients brand visual identity and business needs. Therefore every restaurant can use this app but it looks differently for every business. The app allowed restaurant’s customers to order items from menu and get them delivered or collected on their own.
+**The app was dedicated to restaurants which want to offer clients their own meal-ordering application**. “White label app” was the product that can be easily adjusted to clients brand visual identity and business needs. Therefore every restaurant can use this app but it looks differently for every business. The app allowed restaurant’s customers to order items from menu and get them delivered or collected on their own.
 
 ### **Driver app** 
 
-Our team  also developed an independent **product used by drivers who deliver the orders from a restaurant to customers**. The app not only showed the destination and navigates drivers but also kept them informed about the transaction details. Drivers knew whether the order was paid or it needed to be paid. The driver was well-aware about the payment method (by cash or card). Thanks to the app, drivers were provided with all necessary information and could focus on delivering the meals as soon as possible.
+Our team also developed an independent **product used by drivers who deliver the orders from a restaurant to customers**. The app not only showed the destination and navigates drivers but also kept them informed about the transaction details. Drivers knew whether the order was paid or it needed to be paid. The driver was well-aware about the payment method (by cash or card). Thanks to the app, drivers were provided with all necessary information and could focus on delivering the meals as soon as possible.
 
 ## **Android development**
 
@@ -76,11 +76,11 @@ The app let you manage food orders made at restaurant, by phone or the website.
 
 **Some of the features of the Android Just Eat POS application are:**
 
-* **Catalog** – the main screen of the app used to quickly set up orders taken at place (in person). The cashier or other stuff member has access to all menu items and can choose the ones a client wants to order. They can also choose the delivery option if needed and enter client’s data. Then a cashier can proceed to the transaction.
-* **Customer Orders** – the dashboard displaying all orders made externally – via a phone or online food delivery providers like Takeaway, Just Eat, etc. So these are orders that weren't made in person. The app user can quickly check the status of every order and assign a driver to deliver it to the customer.
-* **Reports** – the app displays various data and statistics that shows your company revenue, number of orders and sold items, details about the inventory and more.
-* **Printing receipt** – the app enables to print payment receipts as well as receipts printed in the kitchen with details about the order.
-* **Integration with CallerID** – when a client calls, the application assigns the caller number with the order.
+* **Catalog** – the main screen of the app used to quickly set up orders taken at place (in person). The cashier or other stuff member had access to all menu items and could choose the ones a client wanted to order. They couldan also choose the delivery option if needed and enter client’s data. Then a cashier could proceed to the transaction.
+* **Customer Orders** – the dashboard displaying all orders made externally – via a phone or online food delivery providers like Takeaway, Just Eat, etc. So these were orders that weren't made in person. The app user could quickly check the status of every order and assign a driver to deliver it to the customer.
+* **Reports** – the app displayed various data and statistics that showed your company revenue, number of orders and sold items, details about the inventory and more.
+* **Printing receipt** – the app enabled to print payment receipts as well as receipts printed in the kitchen with details about the order.
+* **Integration with CallerID** – when a client called, the application assigns the caller number with the order.
 
 ## Delivering customized applications for Bluetooth devices
 
@@ -98,7 +98,7 @@ A great part of working with Just Eat POS was **building iOS and Android applica
 * Barcode scanners,
 * Kiosks.
 
-Our applications have been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
+Our applications had been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
 
 ## **Result**
 
