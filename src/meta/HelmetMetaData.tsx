@@ -13,6 +13,7 @@ interface HelmetMetaDataProps {
   type?: string
   image?: ImageDataLike
   canonicalUrl?: string
+  twitterTyp?: string
   alt?: string
 }
 
@@ -26,6 +27,7 @@ export const HelmetMetaData: React.FC<PropsWithChildren<HelmetMetaDataProps>> = 
   image,
   alt,
   canonicalUrl,
+  twitterTyp,
   children: additionalMeta,
 }) => {
   return (
@@ -35,6 +37,7 @@ export const HelmetMetaData: React.FC<PropsWithChildren<HelmetMetaDataProps>> = 
       <title>{title} | Bright Inventions</title>
       {title && <meta property='og:title' content={title} />}
       <meta name='description' content={descriptionOrDefault(description)} />
+      {twitterTyp && <meta name='twitter:card' content={twitterTyp} />}
       <meta property='og:description' content={descriptionOrDefault(description)} />
       <meta property='og:site_name' content={siteMetadata.title} />
       {url && <meta property='og:url' content={resolveUrl(url)} />}

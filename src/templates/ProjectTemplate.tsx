@@ -83,7 +83,15 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
 
   return (
     <Page>
-      <HelmetMetaData title={title} description={description} url={pathname} type='product' image={image} alt={alt} />
+      <HelmetMetaData
+        title={title}
+        description={description}
+        url={pathname}
+        type='product'
+        image={image}
+        alt={alt}
+        twitterTyp='summary_large_image'
+      />
       <Container className='container' id='project'>
         <article className='section'>
           <Title>{title}</Title>
