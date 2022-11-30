@@ -3,6 +3,8 @@ layout: project
 project_id: pregnancy-app
 title: Pregnancy App
 image: /images/pregnancy_app1.png
+social_media_previev: /images/pregnancyapp_fb_preview.png
+social_media_previev_alt: Pregnancy App case study
 description: A healthcare mobile app that supports pregnant women at every stage
   of their pregnancy and birth experience providing them with exercises, recipes
   and tips.
