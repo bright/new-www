@@ -92,7 +92,7 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
         alt={alt}
         twitterType='summary_large_image'
       />
-      <HelmetMetaData title={title} description={description} url={pathname} type='product' image={image} alt={alt} />
+
       <Container className='container' id='project'>
         <article className='section'>
           <Title>{title}</Title>
