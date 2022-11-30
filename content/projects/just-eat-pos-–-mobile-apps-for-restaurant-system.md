@@ -52,19 +52,19 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 ## iOS development
 
-iOS products developed by our team were used in restaurants in Israel. Practi iOS solution was one of the top ePOS solutions used by restaurants in Israel. There were three main retail products developed by bright iOS developers.
+iOS products developed by our team were used in restaurants in Israel. Practi iOS solution was one of the top ePOS solutions used by restaurants in Israel. There were **three main retail products developed by bright iOS developers**.
 
 ### **Reggie iOS ePOS application**
 
-**Reggie is “the mind” of the whole ePOS system at the restaurant**. It is a cash register itself. It’s fully integrated with JustEat and a couple of others online food delivery companies. You can manage orders from clients in the restaurant as well as take care of all phone and internet orders. Also, the app enables you to manage drivers if your restaurant hires them.
+**Reggie was “the mind” of the whole ePOS system at the restaurant**. It was a cash register itself. It was fully integrated with JustEat and a couple of other online food delivery companies. You could manage orders from clients in the restaurant as well as took care of all phone and internet orders. Also, the app enabled you to manage drivers if the restaurant hired them.
 
 ### **Click & Collect – iOS white label application**
 
-**The app was dedicated to restaurants which want to offer clients their own meal-ordering application**. “White label app” was the product that can be easly adjusted to clients brand visual identity and business needs. Therefore every restaurant can use this app but it looks differently for every business. The app allowed restaurant’s customers to order items from menu and get them delivered or collected on their own.
+**The app was dedicated to restaurants which want to offer clients their own meal-ordering application**. “White label app” was the product that can be easily adjusted to clients brand visual identity and business needs. Therefore every restaurant can use this app but it looks differently for every business. The app allowed restaurant’s customers to order items from menu and get them delivered or collected on their own.
 
 ### **Driver app** 
 
-Our team  also developed an independent **product used by drivers who deliver the orders from a restaurant to customers**. The app not only showed the destination and navigates drivers but also kept them informed about the transaction details. Drivers knew whether the order was paid or it needed to be paid. The driver was well-aware about the payment method (by cash or card). Thanks to the app, drivers were provided with all necessary information and could focus on delivering the meals as soon as possible.
+Our team also developed an independent **product used by drivers who deliver the orders from a restaurant to customers**. The app not only showed the destination and navigates drivers but also kept them informed about the transaction details. Drivers knew whether the order was paid or it needed to be paid. The driver was well-aware about the payment method (by cash or card). Thanks to the app, drivers were provided with all necessary information and could focus on delivering the meals as soon as possible.
 
 ## **Android development**
 
