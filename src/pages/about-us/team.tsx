@@ -50,7 +50,7 @@ export default function TeamPage() {
         <Caption>
           <CustomSectionInner>
             <TextRegular>
-              We are a team of skilled and talented specialists: mobile, web and backend developers, UI and UX
+              We are a team of skilled and talented specialists: mobile, web and backend developers, software testers, UI and UX
               designers, product managers and marketers, who understand what makes bright digital products that build
               engagement and loyalty.
             </TextRegular>

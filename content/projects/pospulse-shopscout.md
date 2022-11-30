@@ -3,6 +3,8 @@ layout: project
 project_id: pospulse-shopscout
 title: POSPulse & ShopScout
 image: /images/pos_mockup.png
+social_media_previev: /images/pos_fb_preview.png
+social_media_previev_alt: POSPulse & ShopScout case study
 description: A solution for FMCG companies and retail chains for verifying if
   products are properly displayed on shelves by asking consumers to perform paid
   quality checks.

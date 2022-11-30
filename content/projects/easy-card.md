@@ -3,6 +3,8 @@ layout: project
 project_id: card-reader
 title: Card Reader
 image: /images/card_reader_mockup.png
+social_media_previev: /images/cardreader_fb_preview.png
+social_media_previev_alt: Card Reader case study
 description: A fintech iOS and Android application that allows businesses to
   charge credit cards without a payment terminal.
 tags:
