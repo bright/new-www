@@ -27,7 +27,7 @@ published: true
 
 ## The system was built around these products:
 
-* **[ePOS iOS and Android applications](https://brightinventions.pl/projects/system-for-restaurants-mobile)** used by restaurant staff to take orders and manage payments.
+* **[ePOS iOS and Android applications](/projects/system-for-restaurants-mobile)** used by restaurant staff to take orders and manage payments.
 * **White label application for restaurants** to take orders via their own, dedicated website.
 * **iOS and Android driver applications** which assisted drivers in delivering orders.
 * A **website that enabled to display restaurant’s menu** and offered integrations with online delivery providers like JET or Wolt.
