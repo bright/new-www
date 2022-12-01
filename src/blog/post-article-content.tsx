@@ -220,7 +220,6 @@ const AuthorsSection = styled.article`
       font-family: ${variables.font.customtext.lato};
       font-size: ${clampBuilder(360, 1920, 16, 20)};
       line-height: ${variables.pxToRem(40)};
-      margin-bottom: ${clampBuilder(360, 1920, 32, 36)};
     }
     @media ${variables.device.laptop} {
       margin: ${variables.pxToRem(39)} 0 ${variables.pxToRem(19.5)};
@@ -323,16 +322,16 @@ type PostAuthorsProps = {
 type PostContentProps = { contentView: () => JSX.Element } | PropsWithChildren<{ contentView: undefined }>
 type PostArticleContentProps = PostAuthorsProps &
   PostContentProps & {
-  title: string
+    title: string
 
-  timeToRead: TimeInMinutes
+    timeToRead: TimeInMinutes
 
-  tags: string[]
-  date: string
-  meaningfullyUpdatedAt?: string
-  fileAbsolutePath: string
-  canonicalUrl: string
-}
+    tags: string[]
+    date: string
+    meaningfullyUpdatedAt?: string
+    fileAbsolutePath: string
+    canonicalUrl: string
+  }
 export const PostArticleContent = (props: PostArticleContentProps) => {
   const authors = props.authorsView?.({ authorId: props.author }) ?? (
     <AuthorData authorId={props.author} isSingleAuthor={!props.secondAuthor && !props.thirdAuthor} />
@@ -343,7 +342,8 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
   const thirdAuthorView = props.thirdAuthor
     ? props.authorsView?.({ authorId: props.thirdAuthor }) ?? <AuthorData authorId={props.thirdAuthor} />
     : null
-  const showUpdatedAt = props.meaningfullyUpdatedAt && !isSameDay(toDate(props.meaningfullyUpdatedAt)!, toDate(props.date)!)
+  const showUpdatedAt =
+    props.meaningfullyUpdatedAt && !isSameDay(toDate(props.meaningfullyUpdatedAt)!, toDate(props.date)!)
   return (
     <AuthorsSection>
       <AuthorsWrapper>
@@ -368,13 +368,16 @@ export const PostArticleContent = (props: PostArticleContentProps) => {
                 <Dot />
               </WrapperDot>
 
-              <Date><DateFormatter date={props.date} /></Date>
+              <Date>
+                <DateFormatter date={props.date} />
+              </Date>
             </FlexWrapper>
             {showUpdatedAt && (
               <FlexWrapper desktopContent='flex-end' desktopGap='10px' mobileContent='center'>
                 <DateUpdateDescription>Updated </DateUpdateDescription>
-                <DateModified>{props.meaningfullyUpdatedAt &&
-                  <DateFormatter date={props.meaningfullyUpdatedAt} />}</DateModified>
+                <DateModified>
+                  {props.meaningfullyUpdatedAt && <DateFormatter date={props.meaningfullyUpdatedAt} />}
+                </DateModified>
               </FlexWrapper>
             )}
           </FlexWrapper>

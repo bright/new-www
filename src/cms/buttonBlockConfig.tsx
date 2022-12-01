@@ -11,7 +11,7 @@ export const buttonBlockConfig = {
     {
       name: 'text',
       label: 'Text',
-      widget: 'string',
+      widget: 'markdown',
     },
     {
       name: 'link',

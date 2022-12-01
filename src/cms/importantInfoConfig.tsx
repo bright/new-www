@@ -11,7 +11,7 @@ export const importantInfoConfig = {
     {
       name: 'text',
       label: 'Text',
-      widget: 'string',
+      widget: 'markdown',
     },
   ],
   pattern: /^<div><h2>(.*)<\/h2><div>(.*)<\/div><\/div>$/, // Pattern to identify a block as being an instance of this component
