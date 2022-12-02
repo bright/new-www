@@ -106,14 +106,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
 
   return (
     <Page>
-      <HelmetMetaData
-        title={title}
-        description={mdx.excerpt}
-        url={pathname}
-        type='article'
-        image={image}
-        canonicalUrl={canonicalUrl}
-      >
+      <HelmetMetaData title={title} description={mdx.excerpt} type='article' image={image} canonicalUrl={canonicalUrl}>
         <meta property='article:published_time' content={mdx.frontmatter.date} />
         <meta property='article:tag' content={mdx.frontmatter.tags.join(', ')} />
       </HelmetMetaData>
