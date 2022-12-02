@@ -13,7 +13,7 @@ technology:
   - Flutter
   - Dart
   - Bloc/GetX
-  - Firebase 
+  - Firebase
   - Mockito
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
@@ -40,7 +40,6 @@ recruting_image3_title: programming task
 ---
 ## **about the role** 
 
-\
 We are looking for an experienced **Flutter developer** **who is excited about hybrid technologies, but also is aware of the advantages of building native mobile applications.**  We would appreciate your experience with mobile development and ability to look at the project from a business perspective. We would be also more than happy if you are willing to share your knowledge within and outside our organisation. \
 \
 What we can promise is that at Bright Inventions you will be an important part of [a community of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and actively take responsibility for their own self-development. Positive attitude, client orientation and teamwork are central parts of our daily work.  
