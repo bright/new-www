@@ -4,9 +4,8 @@ secondAuthor: mateusz
 thirdAuthor: alisa
 tags:
   - development
-  - wireframes
-  - mockups
-  - prototypes
+  - business
+  - design
 date: 2021-05-19T10:00:56.280Z
 meaningfullyUpdatedAt: ""
 title: What are the stages of app development?
@@ -17,6 +16,8 @@ comments: true
 published: true
 ---
 **From an idea to a successful launch… There are 4 main stages of building an app. Learn more about all of them.**
+
+<div class="image"><img src="/images/blogpost_stagesofappdevelopment.png" alt="stages of app development" title="undefined"  /> </div>
 
 ## Web or mobile app development steps and timelines
 
@@ -69,7 +70,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 ![App Development & Maintenance](/images/4_app_development_-_maintenance.png)
 
-* Congrats, you’ve made it! :)
+* Congrats, you’ve made it! 🙂
 * At this stage, a software development company regularly deploys some new features to production.
 * **Every change in the product will affect your users.** Thus at this stage the priority for developers is to maintain the app stability. All development updates should be tested in a staging environment.
 * The crucial part is to analyze users’ behavior to see how they respond to new features.
