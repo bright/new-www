@@ -8,7 +8,7 @@ tags:
   - mockups
   - prototypes
 date: 2021-05-19T10:00:56.280Z
-meaningfullyUpdatedAt: 2022-12-02T11:55:41.993Z
+meaningfullyUpdatedAt: ""
 title: What are the stages of app development?
 layout: post
 image: /images/blogpost_stagesofappdevelopment.png
