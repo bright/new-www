@@ -5,6 +5,7 @@ import { descriptionOrDefault } from './meta-description'
 import { getSrc, ImageDataLike } from 'gatsby-plugin-image'
 import { siteMetadata } from '../site-metadata'
 import { resolveUrl } from './resolve-url'
+import { fbShareImage } from './bright-logo'
 
 interface HelmetMetaDataProps {
   title: string
@@ -41,9 +42,17 @@ export const HelmetMetaData: React.FC<PropsWithChildren<HelmetMetaDataProps>> = 
       <meta property='og:description' content={descriptionOrDefault(description)} />
       <meta property='og:site_name' content={siteMetadata.title} />
       {url && <meta property='og:url' content={resolveUrl(url)} />}
-      {type && <meta property='og:type' content={type} />}
-      {image && <meta property='og:image' content={resolveUrl(getSrc(image)!)} />}
-      {alt && <meta property='og:image:alt' content={alt} />}
+      {type ? <meta property='og:type' content={type} /> : <meta property='og:type' content='website' />}
+      {image ? (
+        <meta property='og:image' content={resolveUrl(getSrc(image)!)} />
+      ) : (
+        <meta property='og:image' content={resolveUrl(fbShareImage)} />
+      )}
+      {alt ? (
+        <meta property='og:image:alt' content={alt} />
+      ) : (
+        <meta property='og:image:alt' content='Bright Inventions' />
+      )}
       {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
       {additionalMeta}
     </Helmet>
