@@ -34,7 +34,7 @@ image_alt_recruiter_info: Agata Mielińska - a recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
 published: false
-show_recruiter_info: true
+show_recruiter_info: false
 hidden: true
 order: 1
 recruting_image2_title: " interview (technical & non-technical part)"
