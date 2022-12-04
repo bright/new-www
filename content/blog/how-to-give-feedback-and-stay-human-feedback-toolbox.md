@@ -35,7 +35,7 @@ Daniel Goleman, social scientist and researcher, defines empathy as *a skill at 
 
 That is why, while being direct we cannot forget about staying empathic. Both giving and receiving feedback require an extra dose of sensitivity. Feedback is always an emotional process and we do not want it to be followed by feelings of embarrassment or anger. 
 
-<iframe src="https://giphy.com/embed/4T77yfuugELMtel2uS" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bobs-burgers-bob-bobs-burgers-belcher-4T77yfuugELMtel2uS">via GIPHY</a></p> 
+<GiphyEmbed url='https://giphy.com/gifs/bobs-burgers-bob-bobs-burgers-belcher-4T77yfuugELMtel2uS' />
 
 **Especially as feedback givers we have to be careful while giving insights about someone’s behaviour as they may not be consistent with the way our recipient sees herself or himself.** That is the moment when empathy comes to the rescue. It helps us understand what other party is experiencing right now. The more empathy we may have for other’s person experience and feelings the easier it will be to understand their perspective of the problem. 
 
@@ -43,7 +43,7 @@ That is why, while being direct we cannot forget about staying empathic. Both gi
 
 Because **blurred words mean different things for different people**. It is really risky to tell someone “be more *productive*”, “you are *unreliable*” or “be more *positive*.” These are words everyone may interpret in a different way. Adjectives are generally rather tricky. Use specific words. 
 
-<iframe src="https://giphy.com/embed/fikcSiz20fgfT9M7XX" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/becausescience-nerdist-kyle-hill-because-science-fikcSiz20fgfT9M7XX">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/becausescience-nerdist-kyle-hill-because-science-fikcSiz20fgfT9M7XX' />
 
 It is much more advisable to **use some precise examples of behaviours**. So, instead of saying “don’t be so grumpy” you may say “you complain about every step we make in a project. It diminishes the morale of the whole team and sometimes makes everyone around feel demotivated. I really appreciate your opinions but please try to see also advantages of each step we plan.” **The more specific you can be, the easier it is for the other person to take that feedback and turn it into action.**
 
@@ -51,7 +51,7 @@ It is much more advisable to **use some precise examples of behaviours**. So, in
 
 Before you actually share feedback, tell your employee, co-worker, boss, whoever that you are going to do it. **There is nothing worse than a situation when the person you want to talk to has no idea what you want to talk about.** 
 
-<iframe src="https://giphy.com/embed/daOrHfoE9sxowLnuRJ" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/netflix-daOrHfoE9sxowLnuRJ">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/netflix-daOrHfoE9sxowLnuRJ' />
 
 Do not send mysterious messages such as “do you have 5 minutes to talk?”. To talk about what? **Do not make the person wonder about the subject and goal of your meeting.** Ask with some short, but precise question/notice like “would you find 5 minutes to talk about how the last conversation with the client went?”. The receiver knows that the feedback is about to be given. **Subconsciously we are much better prepared to receive the feedback well when we know it is coming.** Give the context in advance what the conversation will be about. Avoid potential confusion.
 
@@ -61,7 +61,7 @@ The feedback is not about how we define ourselves and it is not about our person
 
 Always try to focus on a particular behaviour, its impact and your feelings. Instead of saying “you are XYZ” try to start the statement with what you are feeling because of the situation that has happened. Give feedback from your perspective. This way you avoid labeling the person.
 
-<iframe src="https://giphy.com/embed/CEcB02dadAY8E7tbs0" width="480" height="344" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thehappysensitive-nah-identity-labels-CEcB02dadAY8E7tbs0">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/thehappysensitive-nah-identity-labels-CEcB02dadAY8E7tbs0' />
 
 Both givers and recipients of feedback have to understand that **behind feedback there should be always a good intention**, the intention of caring about someone. Well-given feedback will build someone up not bring them down. 
 
