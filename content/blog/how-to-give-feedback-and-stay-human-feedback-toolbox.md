@@ -35,6 +35,8 @@ Daniel Goleman, social scientist and researcher, defines empathy as *a skill at 
 
 That is why, while being direct we cannot forget about staying empathic. Both giving and receiving feedback require an extra dose of sensitivity. Feedback is always an emotional process and we do not want it to be followed by feelings of embarrassment or anger. 
 
+<iframe src="https://giphy.com/embed/4T77yfuugELMtel2uS" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bobs-burgers-bob-bobs-burgers-belcher-4T77yfuugELMtel2uS">via GIPHY</a></p> 
+
 **Especially as feedback givers we have to be careful while giving insights about someone’s behaviour as they may not be consistent with the way our recipient sees herself or himself.** That is the moment when empathy comes to the rescue. It helps us understand what other party is experiencing right now. The more empathy we may have for other’s person experience and feelings the easier it will be to understand their perspective of the problem. 
 
 ## **\#3 Don’t use blurred words** 
