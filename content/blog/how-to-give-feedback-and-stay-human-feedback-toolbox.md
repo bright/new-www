@@ -4,6 +4,7 @@ tags:
   - inspiration
   - feedback
   - communication
+  - project management
 date: 2022-12-04T19:59:46.562Z
 meaningfullyUpdatedAt: 2022-12-04T19:59:46.573Z
 title: Feedback - Make It Simple
