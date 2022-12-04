@@ -6,7 +6,7 @@ tags:
   - communication
 date: 2022-12-04T19:59:46.562Z
 meaningfullyUpdatedAt: 2022-12-04T19:59:46.573Z
-title: "How to Give Feedback and Stay Human - Feedback Toolbox "
+title: "Feedback Simple Toolbox "
 layout: post
 image: /images/feedback_decemeber_2022.jpeg
 hidden: false
