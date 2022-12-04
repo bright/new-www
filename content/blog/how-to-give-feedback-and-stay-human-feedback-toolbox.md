@@ -33,8 +33,6 @@ The receiver should also have an opportunity to say if he agrees or disagrees wi
 
 Daniel Goleman, social scientist and researcher, defines empathy as *a skill at sensing other people’s emotions, understanding their perspective, and taking an active interest in their concerns.* [Empathy is an elementary component of social awareness](https://ohio4h.org/sites/ohio4h/files/imce/Emotional%20Intelligence%20Background.pdf) and it is crucial  and powerful element of effective feedback process. 
 
-
-
 That is why, while being direct we cannot forget about staying empathic. Both giving and receiving feedback require an extra dose of sensitivity. Feedback is always an emotional process and we do not want it to be followed by feelings of embarrassment or anger. 
 
 **Especially as feedback givers we have to be careful while giving insights about someone’s behaviour as they may not be consistent with the way our recipient sees herself or himself.** That is the moment when empathy comes to the rescue. It helps us understand what other party is experiencing right now. The more empathy we may have for other’s person experience and feelings the easier it will be to understand their perspective of the problem. 
