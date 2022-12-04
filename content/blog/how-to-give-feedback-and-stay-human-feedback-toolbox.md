@@ -6,7 +6,7 @@ tags:
   - communication
 date: 2022-12-04T19:59:46.562Z
 meaningfullyUpdatedAt: 2022-12-04T19:59:46.573Z
-title: "Feedback Simple Toolbox "
+title: Feedback - Make It Simple
 layout: post
 image: /images/feedback_decemeber_2022.jpeg
 hidden: false
@@ -17,7 +17,7 @@ According to **[Gallup research](https://www.gallup.com/workplace/357764/fast-fe
 
 When we are giving corrective feedback, almost always it causes a threat response in a recipient’s mind. It is [a consequence of a neurological process](https://www.unleashed.company/post/how-to-give-brain-friendly-feedback) that takes place in the recipient’s brain where amygdala (the part of brain responsible for processing fearful and threatening stimuli), feels hijacked and limits our ability to response rationally. Our brain frequently interprets corrective feedback as negative and threatening. When we hear it, we disregulate and start looking for some excuses. The very first reaction of being evaluated is switch on of our self-defense mechanism. 
 
-<iframe src="https://giphy.com/embed/TFIgEtwP7G6kj8UPQE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/108-tallboyz-social-math-TFIgEtwP7G6kj8UPQE">via GIPHY</a></p>
+<GiphyEmbed url='https://giphy.com/gifs/108-tallboyz-social-math-TFIgEtwP7G6kj8UPQE' />
 
 The process may not seem to be be super brain friendly at the first glance, but with an appropriate approach we can make it an effective tool for development and effective collaboration. One may ask if there is some toolbox of a good feedback giver and receiver and I would say yes - there is. We may follow and apply a few simple rules that can help us deliver a message in a hearable and understandable way with reducing ambiguities. **But above all we have to stay open and honest with the person about what is going on and why.**
 
