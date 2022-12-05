@@ -1,5 +1,11 @@
 ---
 author: rafal h
+tags:
+  - security
+  - backend
+  - ctf
+  - fullstack
+  - sql
 date: 2022-12-05T13:27:42.735Z
 meaningfullyUpdatedAt: 2022-12-05T13:27:42.758Z
 title: Sekurak MSHP CTF Summary - Part 2
