@@ -22,7 +22,7 @@ When we are giving corrective feedback, almost always it causes a threat respons
 
 The process may not seem to be super brain friendly at the first glance, but with an appropriate approach we can make it an effective tool for development and effective collaboration. One may ask if there is some toolbox of a good feedback giver and receiver and I would say yes - there is. We may follow and apply a few simple rules that can help us deliver a message in a hearable and understandable way with reducing ambiguities. **But above all we have to stay open and honest with the person about what is going on and why.**
 
-## \#1 Being too direct or being not enough direct
+## \#1 Avoid being too direct or being not enough direct
 
 A very common problem with giving corrective feedback is **the fact that we are either too direct in that or we just beat around the bush and the person does not realise there is any feedback at all. Or what is worse the recipients does not feel the critical value of it.** 
 
