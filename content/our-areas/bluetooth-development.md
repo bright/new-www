@@ -19,6 +19,8 @@ project:
   - motivo
   - easytapp
   - smarthelp
+  - Practi JET POS
+  - Practi JET POS Mobile
 layout: our-service
 meta_title: Bluetooth Development
 meta_description: We are a Bluetooth app development company based in Poland.
@@ -35,11 +37,11 @@ title: build apps with Bluetooth development team
 intro: We deliver Bluetooth-based solutions.
 image_our_service: /images/bluetooth_development_poland.png
 image_alt_our_service: Bluetooth app development Poland
-description_mdx: We deliver Bluetooth-based solutions. We have developed Bluetooth
-  applications for international clients representing the retail, healthcare,
-  and fitness industries. We specialize in Bluetooth Low Energy solutions and
-  iBeacon technology. We deliver customized mobile & web applications connected
-  with hardware thanks to Bluetooth technology.
+description_mdx: We deliver Bluetooth-based solutions. We have developed
+  Bluetooth applications for international clients representing the retail,
+  healthcare, and fitness industries. We specialize in Bluetooth Low Energy
+  solutions and iBeacon technology. We deliver customized mobile & web
+  applications connected with hardware thanks to Bluetooth technology.
 button: let’s talk about Bluetooth
 button2: let’s talk about Bluetooth
 published: true
@@ -54,6 +56,12 @@ description_contact: Whether your project is just an idea or an existing system
   phase of your software development. Fill out the form below, or drop us a line
   via
 ---
+## what is Bluetooth and why you might need it?
+
+Thanks to Bluetooth different devices communicate and exchange information over a short distance. One of the most common Bluetooth devices might be headphones. Although, nowadays the technology is used on a much bigger scale. Thanks to Bluetooth (especially its modern version called Bluetooth Low Energy) we can build a wireless network of devices connected with dedicated applications. 
+
+If you want to develop software products that communicate with hardware, Bluetooth will probably be a must.
+
 ## bluetooth development services
 
 Bluetooth is an essential part of many software development projects. No matter the industry you represent, you need to rely on experienced Bluetooth experts. For over a decade we have been working on customized applications based on Bluetooth:
