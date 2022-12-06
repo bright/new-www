@@ -10,7 +10,7 @@ date: 2021-12-02T09:01:58.260Z
 meaningfullyUpdatedAt: 2022-12-06T09:02:24.979Z
 title: Software Development Trends for the Year 2023
 layout: post
-image: /images/cover_2023_trends.png
+image: /images/blogpost_trends_in.png
 hidden: false
 comments: true
 published: true
@@ -66,3 +66,7 @@ As for the product design, here are my predictions of upcoming trends for 2023:
 ### Interaction Design wise
 
 I feel like the motion design is going to get more and more popular. Microinteractions are a great way to add something extra to the user experience. [Material Design 3](https://m3.material.io/styles/motion/overview) has even come up with some guidelines regarding transitions and microinteractions. Immersive scroll (or scrollytelling if you like) is taking users to another level of exploring websites.
+
+- - -
+
+Do you want to read more predictions? Check out our [trends for healthcare development](/blog/technology-trends-in-healthcare).
