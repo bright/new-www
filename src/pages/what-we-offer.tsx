@@ -30,7 +30,7 @@ const WhatWeOfferPage: React.FocusEventHandler = () => {
           tabletFontSize='38px'
           tabletXLFontSize='38px'
           laptopFontSize='44px'
-          fontSize='54px'
+          fontSize='48px'
         >
           our services
         </CustomPageTitle>
