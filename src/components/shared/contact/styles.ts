@@ -15,27 +15,27 @@ export const Header = styled.div({
 })
 
 export const Description = styled.div({
-  fontSize: '16px',
-  lineHeight: '28px',
+  fontSize: '18px',
+  lineHeight: '40px',
   fontFamily: variables.font.text.family,
 
   marginTop: '55px',
 })
 
-export const Form = styled.form({
-  marginTop: '55px',
+export const Form = styled.form<{ leftSide?: boolean }>(({ leftSide }) => ({
+  marginTop: leftSide ? '55px' : '0',
   ['& .isSelected']: {
     color: variables.color.text,
     opacity: 1,
   },
   ['& .isDefault']: {
-    color: 'rgba(10, 10, 10, .56)',
+    color: variables.color.darkerGrey,
   },
 
   ['@media screen and (max-width: 767px)']: {
-    marginTop: '35px',
+    marginTop: leftSide ? '35px' : '0',
   },
-})
+}))
 
 export const SubmitButton = styled.button({
   display: 'block',
@@ -48,11 +48,11 @@ export const SubmitButton = styled.button({
   color: variables.color.white,
   backgroundColor: variables.color.text,
 
-  height: '54px',
-  width: '230px',
+  height: '40px',
+  width: '233px',
 
   margin: '0 auto',
-  padding: '15px 82px',
+  padding: '8px 72px',
 
   ['&:disabled']: {
     cursor: 'default',
@@ -75,16 +75,16 @@ export const Label = styled.div({
 
 const placeHolderStyle = {
   '&::placeholder': {
-    color: 'rgba(10, 10, 10, .56)',
+    color: variables.color.darkerGrey,
   },
 }
 
-export const TextInput = styled.input({
+export const TextInput = styled.input<{ leftSide?: boolean }>(({ leftSide }) => ({
   height: '48px',
   maxWidth: '445px',
   width: '100%',
 
-  fontSize: '16px',
+  fontSize: '18px',
   lineHeight: '40px',
   fontFamily: variables.font.text.family,
 
@@ -94,22 +94,26 @@ export const TextInput = styled.input({
   outline: 0,
 
   padding: '20px',
-  border: `1px solid ${variables.color.borderInput}`,
+  border: `1px solid ${variables.color.darkerGrey}`,
   ...placeHolderStyle,
-  marginBottom: '40px',
+  marginBottom: '16px',
 
   ['&:focus-visible']: {
     outline: '1px solid #000',
     background: 'inherit',
   },
+
   [':focus:not(:focus-visible)']: {
     outline: 'none',
+  },
+  ['@media screen and (max-width: 1281px)']: {
+    maxWidth: leftSide ? '445px' : '100%',
   },
 
   ['@media screen and (max-width: 767px)']: {
     marginBottom: '10px',
   },
-})
+}))
 
 export const SingleSelect = styled.select({
   height: '48px',
@@ -121,7 +125,7 @@ export const SingleSelect = styled.select({
 
   fontFamily: variables.font.text.family,
 
-  border: `1px solid ${variables.color.borderInput}`,
+  border: `1px solid ${variables.color.darkerGrey}`,
   background: variables.color.white,
   appearance: 'none',
   marginBottom: '40px',
@@ -144,17 +148,25 @@ export const SingleSelect = styled.select({
   },
 })
 
-export const DoubleInputsRow = styled.div({
+export const DoubleInputsRow = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
   display: 'flex',
   flexDirection: 'row',
   flexGrow: 1,
+  justifyContent: 'space-between',
 
   flexWrap: 'wrap',
-})
+  ['@media screen and (max-width: 1281px)']: {
+    flexDirection: leftSide ? 'row' : 'column',
+  },
+}))
 
 export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
   marginRight: leftSide ? '64px' : 0,
-  width: '45%',
+  width: leftSide ? '45%' : 'calc(50% - 12px)',
+
+  ['@media screen and (max-width: 1281px)']: {
+    width: leftSide ? '45%' : '100%',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
@@ -175,9 +187,9 @@ export const IdeaTextArea = styled.textarea({
 
   padding: '20px',
 
-  border: `1px solid ${variables.color.borderInput}`,
+  border: `1px solid ${variables.color.darkerGrey}`,
 
-  marginBottom: '40px',
+  marginBottom: '16px',
 
   appearance: 'none',
   borderRadius: 'unset',
@@ -240,8 +252,8 @@ const SubmitMessage = styled.div({
 })
 
 export const RequiredMessage = styled(Label)({
-  marginTop: '30px',
-  marginBottom: '105px',
+  marginTop: '16px',
+  marginBottom: '32px',
 })
 
 export const ErrorMessage = styled(SubmitMessage)({
