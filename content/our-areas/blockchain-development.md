@@ -58,10 +58,16 @@ title_contact: let’s talk about your blockchain project
 description_contact: Contact us to learn how we can use blockchain to develop
   your product. Fill the form below or drop us a line at
 ---
+## what is blockchain and why you might need it?
+
+Simply saying **blockchain is a chain of blocks connected thanks to cryptography**. Blockchain is decentralized. Therefore practically no one can take control of it. Although blockchain is mostly known as a technology behind cryptocurrency, it goes way beyond that. 
+
+Blockchain could be **a perfect fit for startups and larger companies** building software products for the **fintech, healthcare, or banking industries**. If you plan or already are building products with a focus on **decentralization, transparency, and security**, you should base your web or mobile application on the blockchain.
+
 ## blockchain solutions that we have developed
 
-We specialize in integrating web and mobile apps with blockchain solutions. For over 4 years we have been developing products using Ethereum technology. Apart from that we are Substrate enthusiasts. We have built Bright Treasury module application to support the Polkadot community built around the Substrate. We use and support the Substrate framework because we believe that it is the future of the internet. 
+We specialize in integrating web and mobile apps with blockchain solutions. For over 4 years we have been developing products using **Ethereum** technology. Apart from that we are **Substrate** enthusiasts. We have built **BrightTreasury** module application to **support the Polkadot community** built around the Substrate. We use and support the Substrate framework because we believe that it is the future of the internet. 
 
 ### BrightTreasury
 
-[BrightTreasury](/projects/bright-treasury/) is our original product supporting the blockchain community. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is a part of the Web3 Foundation (W3F) grants program. The goal of our product is to make blockchain accessible to more users.
+**[BrightTreasury](/projects/bright-treasury/) is our original product supporting the blockchain community**. It is a standalone web application that allows performing basic actions on the Treasury and Bounties modules of Polkadot and Kusama Substrate networks. The app is **a part of the Web3 Foundation (W3F) grants program**. The goal of our product is to make blockchain accessible to more users. The app is still being developed by our team with **full support from Polkadot and Kusama**.
