@@ -5,7 +5,6 @@ thirdAuthor: joanna-c
 tags:
   - development
   - design
-  - project management
   - inspiration
 date: 2021-12-02T09:01:58.260Z
 meaningfullyUpdatedAt: ""
@@ -16,7 +15,7 @@ hidden: false
 comments: true
 published: true
 ---
-**We are heading into the year 2023. So it is time to update this article with hot trends and predictions. Let’s look at 2023 software development trends from 3 different perspectives: frontend and backend developers’ and product designer’s.**
+**We are heading into the year 2023. So it is time to update this article with hot trends and predictions. Let’s look at 2023 software development trends from 3 different perspectives: frontend & backend developers’ and product designer’s.**
 
 <div class="image"><img src="/images/blogpost_trends_in.png" alt="Software Development Trends 2023" title="undefined"  /> </div>
 
@@ -59,3 +58,11 @@ As for the product design, here are my predictions of upcoming trends for 2023:
 * **Glassmorphism** - I feel like Apple leads in this style. A semi-transparent background has become some sort of a standard.
 
 <div class="image"><img src="/images/joanna_2023_trends.png" alt="product design trends 2023" title="undefined"  /> </div>
+
+### Overall Product Design wise
+
+**Sustainability, accessibility** and **inclusiveness**. But I really hope those are not trends, but are here to stay for good (stay tuned for the upcoming blog post on accessibility).
+
+### Interaction Design wise
+
+I feel like the motion design is going to get more and more popular. Microinteractions are a great way to add something extra to the user experience. [Material Design 3](https://m3.material.io/styles/motion/overview) has even come up with some guidelines regarding transitions and microinteractions. Immersive scroll (or scrollytelling if you like) is taking users to another level of exploring websites.
