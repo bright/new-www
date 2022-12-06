@@ -263,7 +263,7 @@ export const CustomSectionTitle = styled.h2<{
     margin: ${({ laptopMargin }) => (laptopMargin ? laptopMargin : '7.25rem 0 5.1875rem')};
   }
   @media ${variables.device.tabletXL} {
-    margin: ${({ tabletMargin }) => (tabletMargin ? tabletMargin : '7.25rem 0 5.1875rem')};
+    margin: ${({ tabletXLMargin }) => (tabletXLMargin ? tabletXLMargin : '7.25rem 0 5.1875rem')};
   }
   @media ${variables.device.tablet} {
     margin: ${({ tabletMargin }) => (tabletMargin ? tabletMargin : '7.25rem 0 5.1875rem')};

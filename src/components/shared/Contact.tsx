@@ -16,20 +16,22 @@ import {
   SelectWrapper,
   SingleSelect,
   SubmitButton,
-  TextInput
+  TextInput,
 } from './contact/styles'
 import { TextRegular, CustomSectionTitle } from './index'
-import { CustomPageTitle, CustomSection, CustomTextRegular } from './index.styled'
+import { CustomTextRegular } from './index.styled'
 import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
 
-const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
+const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean; isWithoutTitleAndSubtitle: boolean }>`
   display: flex;
   justify-content: center;
-  margin-bottom: 105px;
-  padding: 0 18px;
+  flex-basis: ${({ isWithoutTitleAndSubtitle }) => (isWithoutTitleAndSubtitle ? '48%' : 'unset')};
+  margin-bottom: ${({ isWithoutTitleAndSubtitle }) => (isWithoutTitleAndSubtitle ? '0' : '105px')};
+  padding: ${({ isWithoutTitleAndSubtitle }) => (isWithoutTitleAndSubtitle ? '0' : '0 18px')};
   @media screen and (max-width: 768px) {
     padding: ${({ isOurServiceTemplate }) =>
-            isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
+      isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
+    ${({ isWithoutTitleAndSubtitle }) => isWithoutTitleAndSubtitle && 'padding: 0'}
   }
 `
 
@@ -37,12 +39,15 @@ const Container = styled.div`
   max-width: 800px;
   display: flex;
   flex-direction: column;
-
+  width: 100%;
   @media ${variables.device.laptop} {
     max-width: 800px;
   }
   @media ${variables.device.tabletXL} {
     max-width: 824px;
+  }
+  @media ${variables.device.tablet} {
+    max-width: 100%;
   }
 `
 
@@ -86,19 +91,21 @@ export interface ContactProps {
   title?: string
   subtitle?: string
   isOurServiceTemplate?: boolean
-  isStartProject?: boolean
+  isWithoutTitleAndSubtitle?: boolean
   formButton: string
   actionFormButton: string
+  leftSide?: boolean
 }
 
 export const Contact: FC<ContactProps> = ({
-                                            title,
-                                            subtitle,
-                                            isOurServiceTemplate = true,
-                                            isStartProject = false,
-                                            formButton,
-                                            actionFormButton
-                                          }) => {
+  title,
+  subtitle,
+  isOurServiceTemplate = true,
+  isWithoutTitleAndSubtitle = false,
+  formButton,
+  actionFormButton,
+  leftSide = true,
+}) => {
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
@@ -122,7 +129,7 @@ export const Contact: FC<ContactProps> = ({
 
     e.preventDefault()
     const wrapValue = (value: any) => ({
-      value
+      value,
     })
     sendMail(
       {
@@ -130,7 +137,7 @@ export const Contact: FC<ContactProps> = ({
         phone: wrapValue(phone),
         email: wrapValue(email),
         source: wrapValue(source),
-        message: wrapValue(message)
+        message: wrapValue(message),
       },
       FormType.contact
     )
@@ -147,13 +154,13 @@ export const Contact: FC<ContactProps> = ({
       })
 
     trackConversion({
-      sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo'
+      sent_to: 'AW-10942749476/AYShCMDh58sDEKS29OEo',
     }).then(() => console.log('Business contact form conversion sent'))
 
     trackCustomEvent({
       category: formButton,
       action: actionFormButton,
-      label: window.location.href
+      label: window.location.href,
     })
   }
 
@@ -167,36 +174,22 @@ export const Contact: FC<ContactProps> = ({
   }
 
   return (
-    <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
+    <ContainerWrapper
+      isOurServiceTemplate={isOurServiceTemplate!}
+      id='contactForm'
+      isWithoutTitleAndSubtitle={isWithoutTitleAndSubtitle}
+    >
       <Container>
-        {isStartProject ? (
-          title ? (
-            <CustomSection
-              paddingProps='3rem 0'
-              paddingLaptop='3rem 0 4rem'
-              paddingTabletXL='3rem 0 4rem'
-              paddingTablet='3rem 0 4rem'
-              paddingMobileProps='3rem 0 3.5rem'
-            >
-              <CustomPageTitle>{title}</CustomPageTitle>
-            </CustomSection>
-          ) : (
-            <CustomSection
-              paddingProps='3rem 0 5rem'
-              paddingLaptop='3rem 0 4rem'
-              paddingTabletXL='3rem 0 4rem'
-              paddingTablet='3rem 0 4rem'
-              paddingMobileProps='3rem 0 3.5rem'
-            >
-              <CustomPageTitle>let’s talk about your product idea</CustomPageTitle>
-            </CustomSection>
-          )
+        {isWithoutTitleAndSubtitle ? (
+          isWithoutTitleAndSubtitle && title
         ) : title ? (
           <CustomSectionTitle>{title}</CustomSectionTitle>
         ) : (
           <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
         )}
-        {subtitle ? (
+        {isWithoutTitleAndSubtitle ? (
+          isWithoutTitleAndSubtitle && subtitle
+        ) : subtitle ? (
           <TextRegular>
             {subtitle} <a href='mailto:info@brightinventions.pl'>info@brightinventions.pl.</a>
           </TextRegular>
@@ -210,15 +203,15 @@ export const Contact: FC<ContactProps> = ({
 
         <Form data-form-type='contact' action='#' onSubmit={onFormSubmit}>
           <DoubleInputsRow>
-            <DoubleInputsRowEntry leftSide>
-              <Label>Name / Company *</Label>
+            <DoubleInputsRowEntry leftSide={leftSide}>
+              <Label>Name *</Label>
               <HeroTextInput
                 type='text'
                 maxLength={256}
                 name='name'
                 value={name}
                 onChange={e => setName(e.target.value)}
-                placeholder='Enter name here'
+                placeholder='Enter name / company here'
                 required
               />
             </DoubleInputsRowEntry>
@@ -237,7 +230,7 @@ export const Contact: FC<ContactProps> = ({
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
-          <DoubleInputsRow>
+          {/* <DoubleInputsRow>
             <DoubleInputsRowEntry leftSide>
               <Label>Phone </Label>
               <HeroTextInput
@@ -268,9 +261,9 @@ export const Contact: FC<ContactProps> = ({
               </HeroSingleSelect>
               </SelectWrapper>
             </DoubleInputsRowEntry>
-          </DoubleInputsRow>
+          </DoubleInputsRow> */}
 
-          <Label>Idea / Project *</Label>
+          <Label>Your Idea *</Label>
           <IdeaTextArea
             name='message'
             value={message}
@@ -278,28 +271,28 @@ export const Contact: FC<ContactProps> = ({
             maxLength={5000}
             placeholder='Describe your project'
             required
-            className={message ? 'isSelected' :''}
+            className={message ? 'isSelected' : ''}
           />
 
-          <Label>How did you find out about us?</Label>
+          {/* <Label>How did you find out about us?</Label>
           <SelectWrapper>
-          <HeroSingleSelect
-            name='source'
-            value={source}
-            onChange={e => setSource(e.target.value)}
-            style={{ width: '100%' }}
-            className={source ? (source === 'DEFAULT' ? 'isDefault' :'isSelected' ):''}
-          >
-            <option value='DEFAULT'   hidden >
-              Select how did you find about us
-            </option>
+            <HeroSingleSelect
+              name='source'
+              value={source}
+              onChange={e => setSource(e.target.value)}
+              style={{ width: '100%' }}
+              className={source ? (source === 'DEFAULT' ? 'isDefault' : 'isSelected') : ''}
+            >
+              <option value='DEFAULT' hidden>
+                Select how did you find about us
+              </option>
 
-            <option value='social_media'>Social media (LinkedIn, Facebook, Instagram)</option>
-            <option value='referral'>Referral</option>
-            <option value='google'>Google</option>
-            <option value='other'>other</option>
-          </HeroSingleSelect>
-          </SelectWrapper>
+              <option value='social_media'>Social media (LinkedIn, Facebook, Instagram)</option>
+              <option value='referral'>Referral</option>
+              <option value='google'>Google</option>
+              <option value='other'>other</option>
+            </HeroSingleSelect>
+          </SelectWrapper> */}
 
           <PrivacyPolicyCheckboxContainer>
             <PrivacyPolicyCheckbox
@@ -319,15 +312,21 @@ export const Contact: FC<ContactProps> = ({
             *
           </PrivacyPolicyCheckboxContainer>
 
-          <RequiredMessage>* - fields required</RequiredMessage>
+          <RequiredMessage>*fields required</RequiredMessage>
 
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
             <SubmitButton type='submit' onClick={checkValid}>
-              submit
+              let’s talk
             </SubmitButton>
           )}
+          <div>
+            <TextRegular style={{ marginTop: '32px' }}>
+              or drop us a line via{' '}
+              <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
+            </TextRegular>
+          </div>
         </Form>
         {success && (
           <JobApplicationModal
