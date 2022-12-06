@@ -17,6 +17,8 @@ project:
   - vcare
   - card-reader
   - smarthelp
+  - Practi JET POS Mobile
+  - Practi JET POS
 layout: our-service
 meta_title: IoT Development Company
 meta_description: We are an IoT software company from Poland. We have developed
@@ -50,6 +52,12 @@ description_contact: It doesn’t matter if your project is just an idea or you
   have already been developing an existing system. We will help you in any phase
   of your software development. Fill in the form below, or drop us a line via
 ---
+## What is IoT and why you might need it?
+
+The Internet of Things (IoT) is easily described as a **network of various devices connected to the software**. As a result, users can control the devices and monitor the data provided by hardware.
+
+If you plan to sell or build devices connected with mobile applications, then consider hiring IoT experts who will create the right software for the devices.
+
 ## Is the IoT solutions company a good fit for you?
 
 Internet of Things is an integral part of the software development process for many industries. You may need an IoT provider especially when:
