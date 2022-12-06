@@ -19,6 +19,7 @@ project:
   - smarthelp
   - Practi JET POS Mobile
   - Practi JET POS
+  - digitized-questionnaires
 layout: our-service
 meta_title: IoT Development Company
 meta_description: We are an IoT software company from Poland. We have developed
