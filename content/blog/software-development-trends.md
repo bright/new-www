@@ -47,3 +47,15 @@ Recently [Chat-GPT](https://openai.com/blog/chatgpt/) was presented, allowing us
 What does it mean for us developers? For now, I think that GPT-3 will be a game-changer addition to web development. It will allow developers to move and create faster. I think it will not make the web developer occupation obsolete but **will make us even more full stack developers – more oriented on the business goal rather than technical means**. So jump aboard GPT-3 train and make sure to use its benefits wisely!
 
 ## Here comes neobrutalism
+
+[Joanna, Junior Product Designer](/about-us/joanna-c/):
+
+As for the product design, here are my predictions of upcoming trends for 2023:
+
+### Strictly UI wise
+
+* **Typographical designs** are here to stay. Readable quirk fonts and experimenting with different typefaces is something we have already seen in 2022 and surely we can look out for this in 2023.
+* **Neobrutalism** is the new minimalism with a twist. Definitely not for everyone, but if you want to stand out - go for it.
+* **Glassmorphism** - I feel like Apple leads in this style. A semi-transparent background has become some sort of a standard.
+
+<div class="image"><img src="/images/joanna_2023_trends.png" alt="product design trends 2023" title="undefined"  /> </div>
