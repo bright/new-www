@@ -58,7 +58,7 @@ description_contact: Whether your project is just an idea or an existing system
 ---
 ## what is Bluetooth and why you might need it?
 
-Thanks to Bluetooth **different devices communicate and exchange information over a short distance**. One of the most common Bluetooth devices might be headphones. Although, nowadays the technology is used on a much bigger scale. Thanks to Bluetooth (especially its modern version called **Bluetooth Low Energy**) and tech like **iBeacon** we can build a high quality network of devices while consuming less device operation power.
+Thanks to Bluetooth **different devices communicate and exchange information over a short distance**. One of the most common Bluetooth devices might be headphones. Although, nowadays the technology is used on a much bigger scale. Thanks to Bluetooth (especially its modern version called **Bluetooth Low Energy**) and tech like **iBeacon** we can build a high-quality network of devices while consuming less device operation power.
 
 If you want to develop software products that communicate with hardware, Bluetooth will probably be a must.
 
