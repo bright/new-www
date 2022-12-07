@@ -14,6 +14,7 @@ import { CustomSection, CustomSectionTitle, FlexWrapper, TextRegular } from '../
 import styled from 'styled-components'
 import variables from '../styles/variables'
 import { CustomPageTitle } from './../components/shared/index'
+import { StartProjectContact } from './start-project/StartProjectContact'
 
 const QuoteTextRegular = styled(TextRegular)`
   font-weight: 400;
@@ -53,8 +54,8 @@ const StartProjectPage: React.FC = () => {
         paddingMobileProps='0 18px 24px '
       >
         <CustomSection
-          paddingProps='138px 0'
-          paddingLaptop='138px 0'
+          paddingProps='74px 0 138px'
+          paddingLaptop='74px 0 138px'
           paddingTabletXL='74px 0 138px'
           paddingTablet='58px 0 106px'
           paddingMobileProps='34px 0 58px'
@@ -89,11 +90,9 @@ const StartProjectPage: React.FC = () => {
             </QuoteTextRegular>
             <SignatureQuote>Eyal Capri - VP R&D at Circles</SignatureQuote>
           </FlexWrapper>
-          <Contact
-            isWithoutTitleAndSubtitle={true}
+          <StartProjectContact
             formButton='Business Contact Form Button'
             actionFormButton='Click Submit Business Form'
-            leftSide={false}
           />
         </FlexWrapper>
       </CustomSection>
