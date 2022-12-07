@@ -8,13 +8,12 @@
 import React from 'react'
 
 import { Page } from '../layout/Page'
-import { Contact } from '../components/shared/Contact'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { CustomSection, CustomSectionTitle, FlexWrapper, TextRegular } from '../components/shared'
 import styled from 'styled-components'
 import variables from '../styles/variables'
 import { CustomPageTitle } from './../components/shared/index'
-import { StartProjectContact } from './start-project/StartProjectContact'
+import StartProjectContact from '../components/start-project/StartProjectContact'
 
 const QuoteTextRegular = styled(TextRegular)`
   font-weight: 400;

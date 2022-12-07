@@ -1,9 +1,10 @@
 import React, { useState, FC } from 'react'
 import styled from 'styled-components'
 import { routeLinks } from '../../config/routing'
+
 import { FormType, sendMail } from '../../helpers/mail'
 import variables from '../../styles/variables'
-import { JobApplicationModal } from '../../components/forms/job-application/job-application-modal'
+import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 
 import {
   CheckboxFieldContainer,
@@ -15,16 +16,15 @@ import {
   PrivacyPolicyCheckbox,
   PrivacyPolicyCheckboxContainer,
   RequiredMessage,
-  SelectWrapper,
   SingleSelect,
   SubmitButton,
   TextInput,
-} from './styles'
+} from './start-project-contact.styled'
 
-import { TextRegular, CustomTextRegular } from '../../components/shared'
+import { TextRegular, CustomTextRegular } from '../shared'
 import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
 
-import { TickIcon } from '../../components/icons/Tick.icon'
+import { TickIcon } from '../icons/Tick.icon'
 
 const ContainerWrapper = styled.div`
   display: flex;
@@ -89,12 +89,12 @@ const HeroSingleSelect = styled(SingleSelect)`
   }
 `
 
-export interface ContactProps {
+export interface StartProjectContactProps {
   formButton: string
   actionFormButton: string
 }
 
-export const StartProjectContact: FC<ContactProps> = ({ formButton, actionFormButton }) => {
+const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionFormButton }) => {
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
@@ -321,3 +321,5 @@ export const StartProjectContact: FC<ContactProps> = ({ formButton, actionFormBu
     </ContainerWrapper>
   )
 }
+
+export default StartProjectContact

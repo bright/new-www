@@ -1,9 +1,7 @@
 import styled from 'styled-components'
-import { TextRegular } from '../../components/shared'
+import { TextRegular } from '../shared'
 import variables from '../../styles/variables'
-import { Button as ButtonBase } from '../../components/whatWeDo/banners/styles'
-
-import Arrow from '../../../static/images/arrow-select.svg'
+import { Button as ButtonBase } from '../whatWeDo/banners/styles'
 
 export const Header = styled.div({
   fontSize: '36px',
@@ -76,6 +74,7 @@ export const Label = styled.div({
 const placeHolderStyle = {
   '&::placeholder': {
     color: variables.color.darkerGrey,
+    fontSize: '16px',
   },
 }
 
@@ -161,7 +160,7 @@ export const DoubleInputsRow = styled.div({
 })
 
 export const DoubleInputsRowEntry = styled.div({
-  marginRight: 0,
+  marginRight: '0',
   width: 'calc(50% - 12px)',
 
   ['@media screen and (max-width: 1281px)']: {
@@ -170,7 +169,7 @@ export const DoubleInputsRowEntry = styled.div({
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
-    marginRight: 0,
+    marginRight: '0',
   },
 })
 
@@ -208,23 +207,23 @@ export const IdeaTextArea = styled.textarea({
   },
 })
 
-export const SelectWrapper = styled.div`
-  position: relative;
-  max-width: 445px;
-  &::after {
-    content: '';
-    background: url(${Arrow}) 50% no-repeat;
-    background-size: contain;
-    pointer-events: none;
-    transition: transform 0.2s ease-in-out;
-    position: absolute;
-    top: calc(23px - 6px);
-    right: 16px;
-    width: 12px;
-    height: 12px;
-    z-index: 2;
-  },
-  `
+// export const SelectWrapper = styled.div`
+//   position: relative;
+//   max-width: 445px;
+//   &::after {
+//     content: '';
+//     background: url(${Arrow}) 50% no-repeat;
+//     background-size: contain;
+//     pointer-events: none;
+//     transition: transform 0.2s ease-in-out;
+//     position: absolute;
+//     top: calc(23px - 6px);
+//     right: 16px;
+//     width: 12px;
+//     height: 12px;
+//     z-index: 2;
+//   }
+// `
 
 export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
   display: 'flex',
@@ -239,7 +238,7 @@ export const CheckboxFieldContainer = styled.label`
   line-height: 1.5rem;
   font-family: Lato;
   user-select: none;
-  label {
+  & label {
     justify-self: start;
     border: 1px solid #888888;
     width: 24px;
@@ -249,14 +248,14 @@ export const CheckboxFieldContainer = styled.label`
     align-items: center;
     margin-right: 1.1875rem;
   }
-  input {
+  & input {
     position: absolute;
     opacity: 0;
   }
-  input:checked ~ label {
+  & input:checked ~ label {
     background: black;
   }
-  svg {
+  & svg {
     stroke: #fff;
   }
 `
@@ -269,7 +268,7 @@ export const PrivacyPolicyCheckbox = styled.input({
   borderRadius: 'unset',
 })
 
-const SubmitMessage = styled.div({
+export const SubmitMessage = styled.div({
   fontSize: '20px',
   lineHeight: '24px',
 
