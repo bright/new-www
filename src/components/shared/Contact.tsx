@@ -5,6 +5,7 @@ import { FormType, sendMail } from '../../helpers/mail'
 import variables from '../../styles/variables'
 import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 import {
+  CheckboxFieldContainer,
   DoubleInputsRow,
   DoubleInputsRowEntry,
   Form,
@@ -21,17 +22,17 @@ import {
 import { TextRegular, CustomSectionTitle } from './index'
 import { CustomTextRegular } from './index.styled'
 import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
+import { TickIcon } from '../icons/Tick.icon'
 
-const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean; isWithoutTitleAndSubtitle: boolean }>`
+const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;
   justify-content: center;
-  flex-basis: ${({ isWithoutTitleAndSubtitle }) => (isWithoutTitleAndSubtitle ? '48%' : 'unset')};
-  margin-bottom: ${({ isWithoutTitleAndSubtitle }) => (isWithoutTitleAndSubtitle ? '0' : '105px')};
-  padding: ${({ isWithoutTitleAndSubtitle }) => (isWithoutTitleAndSubtitle ? '0' : '0 18px')};
+  flex-basis: unset;
+  margin-bottom: 105px;
+  padding: 0 18px;
   @media screen and (max-width: 768px) {
     padding: ${({ isOurServiceTemplate }) =>
       isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
-    ${({ isWithoutTitleAndSubtitle }) => isWithoutTitleAndSubtitle && 'padding: 0'}
   }
 `
 
@@ -91,20 +92,18 @@ export interface ContactProps {
   title?: string
   subtitle?: string
   isOurServiceTemplate?: boolean
-  isWithoutTitleAndSubtitle?: boolean
+
   formButton: string
   actionFormButton: string
-  leftSide?: boolean
 }
 
 export const Contact: FC<ContactProps> = ({
   title,
   subtitle,
   isOurServiceTemplate = true,
-  isWithoutTitleAndSubtitle = false,
+
   formButton,
   actionFormButton,
-  leftSide = true,
 }) => {
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
@@ -174,22 +173,14 @@ export const Contact: FC<ContactProps> = ({
   }
 
   return (
-    <ContainerWrapper
-      isOurServiceTemplate={isOurServiceTemplate!}
-      id='contactForm'
-      isWithoutTitleAndSubtitle={isWithoutTitleAndSubtitle}
-    >
+    <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
       <Container>
-        {isWithoutTitleAndSubtitle ? (
-          isWithoutTitleAndSubtitle && title
-        ) : title ? (
+        {title ? (
           <CustomSectionTitle>{title}</CustomSectionTitle>
         ) : (
           <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
         )}
-        {isWithoutTitleAndSubtitle ? (
-          isWithoutTitleAndSubtitle && subtitle
-        ) : subtitle ? (
+        {subtitle ? (
           <TextRegular>
             {subtitle} <a href='mailto:info@brightinventions.pl'>info@brightinventions.pl.</a>
           </TextRegular>
@@ -203,7 +194,7 @@ export const Contact: FC<ContactProps> = ({
 
         <Form data-form-type='contact' action='#' onSubmit={onFormSubmit}>
           <DoubleInputsRow>
-            <DoubleInputsRowEntry leftSide={leftSide}>
+            <DoubleInputsRowEntry leftSide>
               <Label>Name *</Label>
               <HeroTextInput
                 type='text'
@@ -295,14 +286,19 @@ export const Contact: FC<ContactProps> = ({
           </SelectWrapper> */}
 
           <PrivacyPolicyCheckboxContainer>
-            <PrivacyPolicyCheckbox
-              type='checkbox'
-              name='accept-policy'
-              value='yes'
-              required
-              onChange={e => setCheckedRules(e.currentTarget.checked)}
-              checked={checkedRules}
-            />
+            <CheckboxFieldContainer>
+              <PrivacyPolicyCheckbox
+                type='checkbox'
+                name='accept-policy'
+                value='yes'
+                required
+                onChange={e => setCheckedRules(e.currentTarget.checked)}
+                checked={checkedRules}
+              />
+              <label htmlFor={'accept-policy'}>
+                <TickIcon />
+              </label>
+            </CheckboxFieldContainer>
             &nbsp;I accept the&nbsp;
             <a href={routeLinks.privacyPolicy} target='_blank' className='has-text-black'>
               <b>
