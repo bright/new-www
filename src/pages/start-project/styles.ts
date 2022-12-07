@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import { TextRegular, TextTitle } from '..'
-import variables from '../../../styles/variables'
-import { Button as ButtonBase } from '../../whatWeDo/banners/styles'
-import { lighten, rgba } from 'polished'
-import Arrow from '../../../../static/images/arrow-select.svg'
+import { TextRegular } from '../../components/shared'
+import variables from '../../styles/variables'
+import { Button as ButtonBase } from '../../components/whatWeDo/banners/styles'
+
+import Arrow from '../../../static/images/arrow-select.svg'
 
 export const Header = styled.div({
   fontSize: '36px',
@@ -23,7 +23,7 @@ export const Description = styled.div({
 })
 
 export const Form = styled.form({
-  marginTop: '55px',
+  marginTop: '0',
   ['& .isSelected']: {
     color: variables.color.text,
     opacity: 1,
@@ -33,7 +33,7 @@ export const Form = styled.form({
   },
 
   ['@media screen and (max-width: 767px)']: {
-    marginTop: '35px',
+    marginTop: '0',
   },
 })
 
@@ -107,7 +107,7 @@ export const TextInput = styled.input({
     outline: 'none',
   },
   ['@media screen and (max-width: 1281px)']: {
-    maxWidth: '445px',
+    maxWidth: '100%',
   },
 
   ['@media screen and (max-width: 767px)']: {
@@ -156,27 +156,31 @@ export const DoubleInputsRow = styled.div({
 
   flexWrap: 'wrap',
   ['@media screen and (max-width: 1281px)']: {
-    flexDirection: 'row',
+    flexDirection: 'column',
   },
 })
 
-export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
-  marginRight: leftSide ? '64px' : 0,
-  width: '45%',
+export const DoubleInputsRowEntry = styled.div({
+  marginRight: 0,
+  width: 'calc(50% - 12px)',
+
+  ['@media screen and (max-width: 1281px)']: {
+    width: '100%',
+  },
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
     marginRight: 0,
   },
-}))
+})
 
 export const IdeaTextArea = styled.textarea({
   height: '228px',
   maxWidth: '955px',
   width: '100%',
 
-  fontSize: '16px',
-  lineHeight: '19px',
+  fontSize: '18px',
+  lineHeight: '40px',
   fontFamily: variables.font.text.family,
   ...placeHolderStyle,
   color: variables.color.text,
@@ -226,16 +230,6 @@ export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
   display: 'flex',
   flexDirection: 'row',
   alignItems: 'center',
-
-  color: variables.color.text,
-})
-
-export const PrivacyPolicyCheckbox = styled.input({
-  height: '30px',
-  width: '30px',
-  marginRight: '19px',
-
-  borderRadius: 'unset',
 })
 
 export const CheckboxFieldContainer = styled.label`
@@ -266,6 +260,14 @@ export const CheckboxFieldContainer = styled.label`
     stroke: #fff;
   }
 `
+
+export const PrivacyPolicyCheckbox = styled.input({
+  height: '30px',
+  width: '30px',
+  marginRight: '19px',
+
+  borderRadius: 'unset',
+})
 
 const SubmitMessage = styled.div({
   fontSize: '20px',

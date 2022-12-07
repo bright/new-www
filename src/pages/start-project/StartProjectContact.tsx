@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { routeLinks } from '../../config/routing'
 import { FormType, sendMail } from '../../helpers/mail'
 import variables from '../../styles/variables'
-import { JobApplicationModal } from '../forms/job-application/job-application-modal'
+import { JobApplicationModal } from '../../components/forms/job-application/job-application-modal'
+
 import {
   CheckboxFieldContainer,
   DoubleInputsRow,
@@ -18,21 +19,21 @@ import {
   SingleSelect,
   SubmitButton,
   TextInput,
-} from './contact/styles'
-import { TextRegular, CustomSectionTitle } from './index'
-import { CustomTextRegular } from './index.styled'
-import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
-import { TickIcon } from '../icons/Tick.icon'
+} from './styles'
 
-const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
+import { TextRegular, CustomTextRegular } from '../../components/shared'
+import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
+
+import { TickIcon } from '../../components/icons/Tick.icon'
+
+const ContainerWrapper = styled.div`
   display: flex;
   justify-content: center;
-  flex-basis: unset;
-  margin-bottom: 105px;
-  padding: 0 18px;
+  flex-basis: 48%;
+  margin-bottom: 0;
+  padding: 0;
   @media screen and (max-width: 768px) {
-    padding: ${({ isOurServiceTemplate }) =>
-      isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
+    padding: 0;
   }
 `
 
@@ -89,22 +90,11 @@ const HeroSingleSelect = styled(SingleSelect)`
 `
 
 export interface ContactProps {
-  title?: string
-  subtitle?: string
-  isOurServiceTemplate?: boolean
-
   formButton: string
   actionFormButton: string
 }
 
-export const Contact: FC<ContactProps> = ({
-  title,
-  subtitle,
-  isOurServiceTemplate = true,
-
-  formButton,
-  actionFormButton,
-}) => {
+export const StartProjectContact: FC<ContactProps> = ({ formButton, actionFormButton }) => {
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
@@ -173,28 +163,11 @@ export const Contact: FC<ContactProps> = ({
   }
 
   return (
-    <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
+    <ContainerWrapper>
       <Container>
-        {title ? (
-          <CustomSectionTitle>{title}</CustomSectionTitle>
-        ) : (
-          <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
-        )}
-        {subtitle ? (
-          <TextRegular>
-            {subtitle} <a href='mailto:info@brightinventions.pl'>info@brightinventions.pl.</a>
-          </TextRegular>
-        ) : (
-          <TextRegular>
-            Have an idea for a groundbreaking software project, but don't know where to start? Or maybe you're looking
-            for software development experts to help take your product to the next level? We'll be more than happy to
-            discuss how we can help your business succeed!
-          </TextRegular>
-        )}
-
         <Form data-form-type='contact' action='#' onSubmit={onFormSubmit}>
           <DoubleInputsRow>
-            <DoubleInputsRowEntry leftSide>
+            <DoubleInputsRowEntry>
               <Label>Name *</Label>
               <HeroTextInput
                 type='text'
@@ -261,7 +234,6 @@ export const Contact: FC<ContactProps> = ({
             onChange={e => setMessage(e.target.value)}
             maxLength={5000}
             placeholder='Describe your project'
-            required
             className={message ? 'isSelected' : ''}
           />
 
