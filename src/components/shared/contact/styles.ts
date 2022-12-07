@@ -76,6 +76,7 @@ export const Label = styled.div({
 const placeHolderStyle = {
   '&::placeholder': {
     color: variables.color.darkerGrey,
+    fontSize: '16px',
   },
 }
 
@@ -175,8 +176,8 @@ export const IdeaTextArea = styled.textarea({
   maxWidth: '955px',
   width: '100%',
 
-  fontSize: '16px',
-  lineHeight: '19px',
+  fontSize: '18px',
+  lineHeight: '40px',
   fontFamily: variables.font.text.family,
   ...placeHolderStyle,
   color: variables.color.text,
