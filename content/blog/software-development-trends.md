@@ -29,7 +29,7 @@ There is a new generation of build tools storming the market and gaining more an
 
 <div class="image"><img src="/images/szymon_2023_trends.png" alt="frontend development 2023 trend" title="undefined"  /> </div>
 
-In my opinion, **there are good chances Rust will become a cornerstone of modern web development next year**. The frenzy is just beginning. Other tools like TypeScript compiler will take part in it and more companies will invest in such innovations. This momentum cannot be reduced now as it’s far too late. I think it’s the most exciting shift in the industry since the popularization of frameworks and libraries such as React, Vue and Angular.
+In my opinion, **there are good chances Rust will become a cornerstone of modern [web development](/our-areas/web-development) next year**. The frenzy is just beginning. Other tools like TypeScript compiler will take part in it and more companies will invest in such innovations. This momentum cannot be reduced now as it’s far too late. I think it’s the most exciting shift in the industry since the popularization of frameworks and libraries such as React, Vue and Angular.
 
 It all sounds so good, but **should I start learning Rust**? To be honest, I have already started.
 
@@ -49,7 +49,7 @@ What does it mean for us developers? For now, I think that GPT-3 will be a game-
 
 [Joanna, Junior Product Designer](/about-us/joanna-c/):
 
-As for the product design, here are my predictions of upcoming trends for 2023:
+As for the [product design](/our-areas/product-design), here are my predictions of upcoming trends for 2023:
 
 ### Strictly UI wise
 
