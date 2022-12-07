@@ -162,7 +162,7 @@ export const story: readonly Story[] = [
         alt: 'Bright Inventions 10th birthday',
       },
       {
-        src: '/images/why-us/timeline/mirovia_logo_timeline_2022.png',
+        src: '/images/why-us/timeline/timeline_mirovia.png',
         alt: 'Mirovia',
       },
     ],
