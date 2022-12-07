@@ -22,8 +22,8 @@ export const Description = styled.div({
   marginTop: '55px',
 })
 
-export const Form = styled.form<{ leftSide?: boolean }>(({ leftSide }) => ({
-  marginTop: leftSide ? '55px' : '0',
+export const Form = styled.form({
+  marginTop: '55px',
   ['& .isSelected']: {
     color: variables.color.text,
     opacity: 1,
@@ -33,9 +33,9 @@ export const Form = styled.form<{ leftSide?: boolean }>(({ leftSide }) => ({
   },
 
   ['@media screen and (max-width: 767px)']: {
-    marginTop: leftSide ? '35px' : '0',
+    marginTop: '35px',
   },
-}))
+})
 
 export const SubmitButton = styled.button({
   display: 'block',
@@ -79,7 +79,7 @@ const placeHolderStyle = {
   },
 }
 
-export const TextInput = styled.input<{ leftSide?: boolean }>(({ leftSide }) => ({
+export const TextInput = styled.input({
   height: '48px',
   maxWidth: '445px',
   width: '100%',
@@ -107,13 +107,13 @@ export const TextInput = styled.input<{ leftSide?: boolean }>(({ leftSide }) => 
     outline: 'none',
   },
   ['@media screen and (max-width: 1281px)']: {
-    maxWidth: leftSide ? '445px' : '100%',
+    maxWidth: '445px',
   },
 
   ['@media screen and (max-width: 767px)']: {
     marginBottom: '10px',
   },
-}))
+})
 
 export const SingleSelect = styled.select({
   height: '48px',
@@ -148,7 +148,7 @@ export const SingleSelect = styled.select({
   },
 })
 
-export const DoubleInputsRow = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
+export const DoubleInputsRow = styled.div({
   display: 'flex',
   flexDirection: 'row',
   flexGrow: 1,
@@ -156,17 +156,13 @@ export const DoubleInputsRow = styled.div<{ leftSide?: boolean }>(({ leftSide })
 
   flexWrap: 'wrap',
   ['@media screen and (max-width: 1281px)']: {
-    flexDirection: leftSide ? 'row' : 'column',
+    flexDirection: 'row',
   },
-}))
+})
 
 export const DoubleInputsRowEntry = styled.div<{ leftSide?: boolean }>(({ leftSide }) => ({
   marginRight: leftSide ? '64px' : 0,
-  width: leftSide ? '45%' : 'calc(50% - 12px)',
-
-  ['@media screen and (max-width: 1281px)']: {
-    width: leftSide ? '45%' : '100%',
-  },
+  width: '45%',
 
   ['@media screen and (max-width: 767px)']: {
     width: '100%',
@@ -241,6 +237,35 @@ export const PrivacyPolicyCheckbox = styled.input({
 
   borderRadius: 'unset',
 })
+
+export const CheckboxFieldContainer = styled.label`
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-family: Lato;
+  user-select: none;
+  label {
+    justify-self: start;
+    border: 1px solid #888888;
+    width: 24px;
+    height: 24px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-right: 1.1875rem;
+  }
+  input {
+    position: absolute;
+    opacity: 0;
+  }
+  input:checked ~ label {
+    background: black;
+  }
+  svg {
+    stroke: #fff;
+  }
+`
 
 const SubmitMessage = styled.div({
   fontSize: '20px',
