@@ -58,8 +58,6 @@ only **14.4MB**. The size difference is caused by the fact that the native build
 JRE to be started. Meaning we have to pack everything that we might need from JRE inside the binary. JAR will utilize JRE, therefore it can contain only the
 source code of our app.
 
-<div class="image"><img src="/images/spring-boot-holy-graal-camelot.png" alt="undefined" title="~~Camelot!~~ 1000 Beans! It's only a meaningless model... Shhh"  /> </div>
-
 <img-content src="holy-graal/bridge-of-death.png" alt="Bridge of Death" width="700px" caption="WHAT... is your quest? Improvements!"></img-content>
 
 Ok. So native image takes longer to compile and weighs more. So far not so great, but let's move to the good parts!
@@ -88,7 +86,8 @@ Summary of all the numbers in a table:
 
 So far we tested the blank app, but what will happen if we would fill up our project with some code. To test this I've made 1000 empty Beans.
 
-<img-content src="holy-graal/camelot.png" alt="It's only a model" width="700px" caption="<s>Camelot!</s> 1000 Beans! It's only a meaningless model... Shhh"></img-content>
+<div class="image"><img src="/images/spring-boot-holy-graal-camelot.png" alt="undefined" title="1000 Beans! It's only a meaningless model... Shhh"  /> 
+</div>
 
 The idea of this test is to see how Beans discovery time would improve the startup time of the AOT build.
 
