@@ -18,7 +18,7 @@ published: true
 ourselves from the overhead of JVM? How do native builds improve the performance of the app? Where is a tradeoff and is it worth making? 
 In this post, we will try to get some answers to those questions. With some Monty Python references along the way.**
 
-<div class="image"><img src="/images/spring-boot-holy-graal-sacred-task.png" alt="undefined" title="Look well, Developer, for this is your sacred task to seek this Grail."  /><center>Look well, Developer, for this is your sacred task to seek this Grail.</center></div>
+<div class="image"><img src="/images/spring-boot-holy-graal-sacred-task.png" alt="undefined" title="Look well, Developer, for this is your sacred task to seek this Grail."  /><center>Look well, Developer, for this is your sacred task to seek this Grail.<br></br> © Monty Python and the Holy Grail (1975)</center></div>
 
 Spring Native [project](https://github.com/spring-projects-experimental/spring-native) is now officially part of the Spring Boot 3.0 release. 
 With it, on our side, we can compile Spring Boot projects directly to executables native to the OS, completely omitting Java's VM. 
