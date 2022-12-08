@@ -18,7 +18,7 @@ published: true
 ourselves from the overhead of JVM? How do native builds improve the performance of the app? Where is a tradeoff and is it worth making? 
 In this post, we will try to get some answers to those questions. With some Monty Python references along the way.**
 
-<div class="image"><img src="/images/spring-boot-holy-graal-sacred-task.png" alt="undefined" title="Look well, Developer, for this is your sacred task to seek this Grail."  />Look well, Developer, for this is your sacred task to seek this Grail.</div>
+<div class="image"><img src="/images/spring-boot-holy-graal-sacred-task.png" alt="undefined" title="Look well, Developer, for this is your sacred task to seek this Grail."  /><center>Look well, Developer, for this is your sacred task to seek this Grail.</center></div>
 
 Spring Native [project](https://github.com/spring-projects-experimental/spring-native) is now officially part of the Spring Boot 3.0 release. 
 With it, on our side, we can compile Spring Boot projects directly to executables native to the OS, completely omitting Java's VM. 
@@ -58,7 +58,7 @@ only **14.4MB**. The size difference is caused by the fact that the native build
 JRE to be started. Meaning we have to pack everything that we might need from JRE inside the binary. JAR will utilize JRE, therefore it can contain only the
 source code of our app.
 
-<div class="image"><img src="/images/spring-boot-holy-graal-bridge-of-death.png" alt="undefined" title="WHAT... is your quest? Improvements!"  /> </div>
+<div class="image"><img src="/images/spring-boot-holy-graal-bridge-of-death.png" alt="undefined" title="WHAT... is your quest? Improvements!"  /><center>WHAT... is your quest? Improvements!</center></div>
 
 Ok. So native image takes longer to compile and weighs more. So far not so great, but let's move to the good parts!
 
