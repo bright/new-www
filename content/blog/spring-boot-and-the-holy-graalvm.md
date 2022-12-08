@@ -117,7 +117,7 @@ JIT is, optimising our code on the fly. Can we count on the same help with the n
 | No warmup | 606ms | 681ms |
 | Warmup    | 373ms | 642ms |
 
-<div class="image"><img src="/images/spring-boot-holy-graal-flesh-wound.png" alt="undefined" title="No JIT optimisation? It's just a flesh wound."  /><center>No JIT optimisation? It's just a flesh wound.</center></div>
+<div class="image"><img src="/images/spring-boot-holy-graal-flesh-wound.png" alt="undefined" title="No JIT optimisation? It's just a flesh wound."  /><center>No JIT optimisation? It's just a flesh wound.<br></br> © Monty Python and the Holy Grail (1975)</center></div>
 
 As you can tell by the numbers if we allow JIT to warm up, the same task will be executed in just 60% of the original time. We don't have the same improvement 
 on the native build, execution time remains similar no matter how much time we spend warming up the code.
