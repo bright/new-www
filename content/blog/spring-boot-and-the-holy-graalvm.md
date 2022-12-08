@@ -87,7 +87,7 @@ Summary of all the numbers in a table:
 So far we tested the blank app, but what will happen if we would fill up our project with some code. To test this I've made 1000 empty Beans.
 
 <div class="image"><img src="/images/spring-boot-holy-graal-camelot.png" alt="undefined" title="1000 Beans! It's only a meaningless model... Shhh"  /> 
-<s>Camelot!</s> 1000 Beans! It is only a meaningless model... Shhh
+<center><s>Camelot!</s> 1000 Beans! It is only a meaningless model... Shhh<br></br> © Monty Python and the Holy Grail (1975)</center>
 </div>
 
 The idea of this test is to see how Beans discovery time would improve the startup time of the AOT build.
