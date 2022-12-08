@@ -91,7 +91,7 @@ increase of lines of code. RAM allocated by native binary is **1.5x** times grea
 
 ## Sample app
 Let's test something closer to the real-life scenario. I will reuse the benchmark app from the 
-[previous blog post](https://www.garstecki.dev/blog/cost-of-layered-architecture). 
+[previous blog post](https://brightinventions.pl/blog/cost-of-layered-architecture). 
 
 It's a sample app that is just repackaging DTOs and
 pushing them from left to right. (Something that happens way often in the code that we would like to admit). One of the conclusions from that post was how helpful 
