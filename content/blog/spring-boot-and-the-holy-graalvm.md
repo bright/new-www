@@ -20,8 +20,6 @@ In this post, we will try to get some answers to those questions. With some Mont
 
 <div class="image"><img src="/images/spring-boot-holy-graal-sacred-task.png" alt="undefined" title="Look well, Developer, for this is your sacred task to seek this Grail."  /> </div>
 
-<img-content src="holy-graal/sacred-task.png" alt="Sacred Task" width="700px" caption="Look well, Developer, for this is your sacred task to seek this Grail."></img-content>
-
 Spring Native [project](https://github.com/spring-projects-experimental/spring-native) is now officially part of the Spring Boot 3.0 release. 
 With it, on our side, we can compile Spring Boot projects directly to executables native to the OS, completely omitting Java's VM. 
 Therefore now we can easily run the binary on a system without JRE installed. This is pretty wild! But you might ask why would we 
