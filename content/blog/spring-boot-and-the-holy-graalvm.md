@@ -58,7 +58,7 @@ only **14.4MB**. The size difference is caused by the fact that the native build
 JRE to be started. Meaning we have to pack everything that we might need from JRE inside the binary. JAR will utilize JRE, therefore it can contain only the
 source code of our app.
 
-<img-content src="holy-graal/bridge-of-death.png" alt="Bridge of Death" width="700px" caption="WHAT... is your quest? Improvements!"></img-content>
+<div class="image"><img src="/images/spring-boot-holy-graal-bridge-of-death.png" alt="undefined" title="WHAT... is your quest? Improvements!"  /> </div>
 
 Ok. So native image takes longer to compile and weighs more. So far not so great, but let's move to the good parts!
 
