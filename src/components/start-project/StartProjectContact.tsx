@@ -174,7 +174,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
-          <Label>Your Idea *</Label>
+          <Label>Your Idea</Label>
           <IdeaTextArea
             name='message'
             value={message}

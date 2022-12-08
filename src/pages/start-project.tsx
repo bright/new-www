@@ -53,9 +53,9 @@ const StartProjectPage: React.FC = () => {
         paddingMobileProps='0 18px 24px '
       >
         <CustomSection
-          paddingProps='74px 0 138px'
-          paddingLaptop='74px 0 138px'
-          paddingTabletXL='74px 0 138px'
+          paddingProps='58px 0 106px'
+          paddingLaptop='58px 0 106px'
+          paddingTabletXL='58px 0 106px'
           paddingTablet='58px 0 106px'
           paddingMobileProps='34px 0 58px'
         >
