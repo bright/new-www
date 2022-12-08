@@ -9,6 +9,7 @@ date: 2022-12-08T07:57:31.782Z
 meaningfullyUpdatedAt: 2022-12-08T07:57:31.848Z
 title: Spring Boot and the Holy GraalVM
 layout: post
+image: /images/spring-boot-holy-graal.png
 hidden: false
 comments: true
 published: true
