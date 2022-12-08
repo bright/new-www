@@ -18,7 +18,7 @@ published: true
 ourselves from the overhead of JVM? How do native builds improve the performance of the app? Where is a tradeoff and is it worth making? 
 In this post, we will try to get some answers to those questions. With some Monty Python references along the way.**
 
-<div class="image"><img src="/images/spring-boot-holy-graal-sacred-task.png"  width="500" title="Look well, Developer, for this is your sacred task to seek this Grail." /><center>Look well, Developer, for this is your sacred task to seek this Grail.<br></br> © Monty Python and the Holy Grail (1975)</center></div>
+<div class="image"><img src="/images/spring-boot-holy-graal-sacred-task.png"  width="700" title="Look well, Developer, for this is your sacred task to seek this Grail." /><center>Look well, Developer, for this is your sacred task to seek this Grail.<br></br> © Monty Python and the Holy Grail (1975)</center></div>
 
 Spring Native [project](https://github.com/spring-projects-experimental/spring-native) is now officially part of the Spring Boot 3.0 release. 
 With it, on our side, we can compile Spring Boot projects directly to executables native to the OS, completely omitting Java's VM. 
@@ -58,7 +58,7 @@ only **14.4MB**. The size difference is caused by the fact that the native build
 JRE to be started. Meaning we have to pack everything that we might need from JRE inside the binary. JAR will utilize JRE, therefore it can contain only the
 source code of our app.
 
-<div class="image"><img src="/images/spring-boot-holy-graal-bridge-of-death.png" alt="undefined" title="WHAT... is your quest? Improvements!"  /><center>WHAT... is your quest? Improvements!<br></br> © Monty Python and the Holy Grail (1975)</center></div>
+<div class="image"><img src="/images/spring-boot-holy-graal-bridge-of-death.png" width="700" title="WHAT... is your quest? Improvements!"  /><center>WHAT... is your quest? Improvements!<br></br> © Monty Python and the Holy Grail (1975)</center></div>
 
 Ok. So native image takes longer to compile and weighs more. So far not so great, but let's move to the good parts!
 
@@ -86,7 +86,7 @@ Summary of all the numbers in a table:
 
 So far we tested the blank app, but what will happen if we would fill up our project with some code. To test this I've made 1000 empty Beans.
 
-<div class="image"><img src="/images/spring-boot-holy-graal-camelot.png" alt="undefined" title="1000 Beans! It's only a meaningless model... Shhh"  /> 
+<div class="image"><img src="/images/spring-boot-holy-graal-camelot.png" width="700" title="1000 Beans! It's only a meaningless model... Shhh"  /> 
 <center><s>Camelot!</s> 1000 Beans! It is only a meaningless model... Shhh<br></br> © Monty Python and the Holy Grail (1975)</center>
 </div>
 
@@ -117,7 +117,7 @@ JIT is, optimising our code on the fly. Can we count on the same help with the n
 | No warmup | 606ms | 681ms |
 | Warmup    | 373ms | 642ms |
 
-<div class="image"><img src="/images/spring-boot-holy-graal-flesh-wound.png" alt="undefined" title="No JIT optimisation? It's just a flesh wound."  /><center>No JIT optimisation? It's just a flesh wound.<br></br> © Monty Python and the Holy Grail (1975)</center></div>
+<div class="image"><img src="/images/spring-boot-holy-graal-flesh-wound.png" width="600" title="No JIT optimisation? It's just a flesh wound."  /><center>No JIT optimisation? It's just a flesh wound.<br></br> © Monty Python and the Holy Grail (1975)</center></div>
 
 As you can tell by the numbers if we allow JIT to warm up, the same task will be executed in just 60% of the original time. We don't have the same improvement 
 on the native build, execution time remains similar no matter how much time we spend warming up the code.
