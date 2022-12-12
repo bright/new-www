@@ -206,6 +206,9 @@ const JobSectionInner = styled(SectionInner)`
         background-position: center;
       }
     }
+    strong {
+      color: ${variables.color.heading};
+    }
 
     @media ${variables.device.laptop} {
       h2 {

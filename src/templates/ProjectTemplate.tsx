@@ -25,7 +25,8 @@ const Container = styled.div`
     p,
     li,
     .title,
-    .subtitle {
+    .subtitle,
+    strong {
       color: ${variables.color.heading};
     }
     h2 {

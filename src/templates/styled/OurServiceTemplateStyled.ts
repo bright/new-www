@@ -104,7 +104,7 @@ export const Content = styled.div<{ textAlign?: string }>`
   }
 
   & strong {
-    color: #131214;
+    color: ${variables.color.text};
     opacity: 1;
   }
 
@@ -174,7 +174,7 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
   opacity: 1;
 
   & strong {
-    color: #131214;
+    color: ${variables.color.text};
   }
 
   & li {
