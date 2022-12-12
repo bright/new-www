@@ -14,8 +14,6 @@ import {
   PrivacyPolicyCheckbox,
   PrivacyPolicyCheckboxContainer,
   RequiredMessage,
-  SelectWrapper,
-  SingleSelect,
   SubmitButton,
   TextInput,
 } from './contact/styles'
@@ -80,13 +78,6 @@ const HeroTextInput = styled(TextInput)`
     max-width: 100%;
   }
 `
-const HeroSingleSelect = styled(SingleSelect)`
-  max-width: 445px;
-  @media ${variables.device.tablet} {
-    width: 100%;
-    max-width: 100%;
-  }
-`
 
 export interface ContactProps {
   title?: string
@@ -108,13 +99,7 @@ export const Contact: FC<ContactProps> = ({
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
-  const [phone, setPhone] = useState<string>('')
-  const [budget, setBudget] = useState<string>('')
-
-  const [service, setService] = useState<string>('DEFAULT')
   const [message, setMessage] = useState<string>('')
-
-  const [source, setSource] = useState<string>('DEFAULT')
 
   const [checkedRules, setCheckedRules] = useState(false)
 
@@ -133,9 +118,7 @@ export const Contact: FC<ContactProps> = ({
     sendMail(
       {
         name: wrapValue(name),
-        phone: wrapValue(phone),
         email: wrapValue(email),
-        source: wrapValue(source),
         message: wrapValue(message),
       },
       FormType.contact
@@ -168,7 +151,7 @@ export const Contact: FC<ContactProps> = ({
   }
 
   const checkValid = () => {
-    const isValid: boolean = checkedRules && name && email && message ? true : false
+    const isValid: boolean = checkedRules && name && email ? true : false
     setValid(isValid)
   }
 
@@ -221,69 +204,15 @@ export const Contact: FC<ContactProps> = ({
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
-          {/* <DoubleInputsRow>
-            <DoubleInputsRowEntry leftSide>
-              <Label>Phone </Label>
-              <HeroTextInput
-                type='text'
-                maxLength={256}
-                name='phone'
-                value={phone}
-                onChange={e => setPhone(e.target.value)}
-                placeholder='(+55) 555 555 555'
-              />
-            </DoubleInputsRowEntry>
-
-            <DoubleInputsRowEntry>
-              <Label>Service</Label>
-              <SelectWrapper>
-              <HeroSingleSelect name='service' value={service} onChange={e => setService(e.target.value)}  className={service ? (service === 'DEFAULT' ? 'isDefault' :'isSelected' ):''}>
-
-                <option value='DEFAULT' hidden>
-                  Pick what service you need
-                </option>
-                <option value='web_development'  >web development</option>
-                <option value='mobile_app_development'>mobile app development</option>
-                <option value='product_design'>product design</option>
-                <option value='blockchain'>blockchain</option>
-                <option value='custom_software_development'>custom software development</option>
-                <option value='agile_workshops'>agile workshops</option>
-                <option value='other'>other</option>
-              </HeroSingleSelect>
-              </SelectWrapper>
-            </DoubleInputsRowEntry>
-          </DoubleInputsRow> */}
-
-          <Label>Your Idea *</Label>
+          <Label>Your Idea</Label>
           <IdeaTextArea
             name='message'
             value={message}
             onChange={e => setMessage(e.target.value)}
             maxLength={5000}
             placeholder='Describe your project'
-            required
             className={message ? 'isSelected' : ''}
           />
-
-          {/* <Label>How did you find out about us?</Label>
-          <SelectWrapper>
-            <HeroSingleSelect
-              name='source'
-              value={source}
-              onChange={e => setSource(e.target.value)}
-              style={{ width: '100%' }}
-              className={source ? (source === 'DEFAULT' ? 'isDefault' : 'isSelected') : ''}
-            >
-              <option value='DEFAULT' hidden>
-                Select how did you find about us
-              </option>
-
-              <option value='social_media'>Social media (LinkedIn, Facebook, Instagram)</option>
-              <option value='referral'>Referral</option>
-              <option value='google'>Google</option>
-              <option value='other'>other</option>
-            </HeroSingleSelect>
-          </SelectWrapper> */}
 
           <PrivacyPolicyCheckboxContainer>
             <CheckboxFieldContainer>
