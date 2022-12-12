@@ -2,8 +2,10 @@ import { ContentCollection, contentConfig, ContentField } from './content-config
 import { CreateNodeArgs, NodeInput } from 'gatsby'
 import { camelCase } from 'lodash'
 
-export function gqlFieldType(field: ContentField): string {
-  let graphqlType: string
+export const LetGatsbyInferFieldType = Symbol('Let gatsby infer field type')
+
+export function gqlFieldType(field: ContentField): string | typeof LetGatsbyInferFieldType {
+  let graphqlType: string | typeof LetGatsbyInferFieldType
   switch (field.widget) {
     case 'string':
       graphqlType = 'String'
@@ -21,7 +23,7 @@ export function gqlFieldType(field: ContentField): string {
       graphqlType = '[String]'
       break
     case 'image':
-      graphqlType = 'File'
+      graphqlType = LetGatsbyInferFieldType
       break
     case 'relation':
       graphqlType = collectionNameTypeName(field.collection)
@@ -34,7 +36,8 @@ export function gqlFieldType(field: ContentField): string {
       break
   }
 
-  if (field?.required ?? true) {
+  const isFieldRequired = field?.required ?? true
+  if (typeof graphqlType === 'string' && isFieldRequired) {
     graphqlType = graphqlType + '!'
   }
 
@@ -67,7 +70,7 @@ function collectionItemContentFilePathCacheKey(mdxNode: NodeInput) {
 }
 
 export async function createContentCollectionNodeFor({
-  actions: { createNode, createParentChildLink, createNodeField },
+  actions: { createNode, createParentChildLink },
   node,
   createNodeId,
   cache,
@@ -92,6 +95,7 @@ export async function createContentCollectionNodeFor({
       body: node.body,
       frontmatter: node.frontmatter,
     }
+
     const nodeFields: Record<string, any> = node.fields ?? {}
     for (const key in nodeFields) {
       if (collectionItemNode[key] !== undefined) {

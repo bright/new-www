@@ -6,9 +6,9 @@ import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
-import { HideDesktop, HideTablet, MoreButton } from '../components/shared'
+import { HideDesktop, HideTablet } from '../components/shared'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import { GQLData } from '../models/gql'
+import { Edge } from '../models/gql'
 import { BlogFeed } from './blog/Feed'
 import { createBlogPosts } from '../models/creator'
 import {
@@ -18,6 +18,7 @@ import {
   PageTitle,
   SectionInner,
 } from '../components/shared/index.styled'
+
 import variables from '../styles/variables'
 
 const gatsbyStyle: CSSProperties = {
@@ -34,6 +35,7 @@ const AuthorWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   & .content {
     padding-bottom: 2rem;
     color: #0a0a0a;
@@ -76,11 +78,13 @@ const AuthorBackButton = styled(BackButton)`
   align-items: center;
   font-weight: 900;
   color: #000;
+
   & > span {
     margin-left: 1.125rem;
     font-size: 1.125rem;
     line-height: 1.375rem;
   }
+
   @media ${variables.device.mobile} {
     margin-top: ${variables.pxToRem(60)};
     margin-bottom: ${variables.pxToRem(60)};
@@ -90,24 +94,24 @@ const AuthorBackButtonWrapper = styled.div`
   display: flex;
   align-items: center;
 `
+
 interface Props {
-  data: GQLData
-  pageContext: PageContext
+  data: Queries.AuthorsPageQuery
+  pageContext: PageContext & { posts: Edge[]; id: string } // TODO: add use proper blog post type
 }
-const AboutUSTemplate: React.FC<Props> = ({
-  data,
-  pageContext,
-  children,
-}: // this prop will be injected by the GraphQL query below.
-any) => {
-  const { mdx } = data // data.mdx holds your post data
-  const { frontmatter } = mdx
-  const avatarImage = getImage(frontmatter.avatar_hover)!
+
+const AboutUSTemplate: React.FC<Props> = ({ data, pageContext, children }) => {
+  const { members: member } = data // data.mdx holds your post data
+  console.log(`AboutUSTemplate`, {data, pageContext})
+  if (!member) {
+    throw new Error(`data.member required but not found for id: ${pageContext.id}`)
+  }
+  const avatarImage = getImage(member.avatar_hover!.childImageSharp)!
   const postsRef = useRef<HTMLHeadingElement>(null)
 
   const { posts } = pageContext
   const { currentPage: page } = pageContext
-  const { slug } = frontmatter
+  const { slug } = member
   const authorId = slug
 
   useEffect(() => {
@@ -129,29 +133,29 @@ any) => {
 
   return (
     <Page>
-      <HelmetMetaData title={`Meet ${frontmatter.short_name}`} description={frontmatter.bio} />
+      <HelmetMetaData title={`Meet ${member.short_name}`} description={member.bio} />
       <AuthorSection>
         <CustomContainer>
           <AuthorWrapper>
             <HideTablet>
               <ImageWrapper>
-                <GatsbyImage className='is-rounded' image={avatarImage} alt={frontmatter.name} />
+                <GatsbyImage className='is-rounded' image={avatarImage} alt={member.name} />
               </ImageWrapper>
             </HideTablet>
             <HideDesktop>
               <figure className='level-left' style={gatsbyStyle}>
-                <GatsbyImage imgClassName='is-rounded' image={avatarImage} alt={frontmatter.name} />
+                <GatsbyImage imgClassName='is-rounded' image={avatarImage} alt={member.name} />
               </figure>
             </HideDesktop>
             <SectionInner>
-              <AuthorPageTitle>{frontmatter.short_name}</AuthorPageTitle>
-              <Subtitle>{frontmatter.bio}</Subtitle>
+              <AuthorPageTitle>{member.short_name}</AuthorPageTitle>
+              <Subtitle>{member.bio}</Subtitle>
               <div className='content'>{children}</div>
             </SectionInner>
           </AuthorWrapper>
           {posts?.length > 0 && (
             <>
-              <CustomSectionTitle ref={postsRef}>blog posts by {frontmatter.short_name}</CustomSectionTitle>
+              <CustomSectionTitle ref={postsRef}>blog posts by {member.short_name}</CustomSectionTitle>
               <BlogFeed posts={createBlogPosts(posts)} />
 
               <Paging pageContext={pageContext} baseURI={`${routeLinks.aboutUs({ authorId, slug })}`} />
@@ -198,26 +202,24 @@ any) => {
   )
 }
 export const pageQuery = graphql`
-  query($id: String!) {
-    mdx(id: { eq: $id }) {
-      frontmatter {
-        short_name
-        avatar {
-          childImageSharp {
-            gatsbyImageData
-          }
+  query AuthorsPage($id: String!) {
+    members(id: { eq: $id }) {
+      short_name
+      avatar {
+        childImageSharp {
+          gatsbyImageData
         }
-        avatar_hover {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
-        slug
-        title
-        description
-        bio
-        name
       }
+      avatar_hover {
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+      slug
+      title
+      description
+      bio
+      name
     }
   }
 `

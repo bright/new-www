@@ -1,7 +1,7 @@
-import { BlogPostModel, ProjectModel, GQLData, AuthorModel, JobModel, allMdxData } from './gql'
+import { BlogPostModel, ProjectModel, GQLData, AuthorModel, JobModel, allMdxData, Edge } from './gql'
 
-export const createBlogPosts = (data: GQLData): BlogPostModel[] => {
-  return (data.constructor === Array ? data : data.allMdx?.edges || [])
+export const createBlogPosts = (data: GQLData | Edge[]): BlogPostModel[] => {
+  return (Array.isArray(data) ? data : data.allMdx?.edges || [])
     .map(({ node }) => {
       const base = node.frontmatter
       return {

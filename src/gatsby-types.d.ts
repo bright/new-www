@@ -47,7 +47,7 @@ type Blog = Node & {
   readonly frontmatter: BlogFrontmatter;
   readonly hidden: Scalars['Boolean'];
   readonly id: Scalars['ID'];
-  readonly image: File;
+  readonly image: Maybe<File>;
   readonly internal: Internal;
   readonly layout: Scalars['String'];
   readonly meaningfullyUpdatedAt: Maybe<Scalars['Date']>;
@@ -3047,7 +3047,7 @@ type BlogFrontmatter = {
   readonly excerpt: Maybe<Scalars['String']>;
   readonly extract: Maybe<Scalars['String']>;
   readonly hidden: Scalars['Boolean'];
-  readonly image: File;
+  readonly image: Maybe<File>;
   readonly layout: Scalars['String'];
   readonly meaningfullyUpdatedAt: Maybe<Scalars['Date']>;
   readonly modified: Maybe<Scalars['Date']>;
@@ -8890,7 +8890,7 @@ type Jobs = Node & {
   readonly image_alt_job: Scalars['String'];
   readonly image_alt_recruiter_info: Maybe<Scalars['String']>;
   readonly image_recruiter_info: Maybe<File>;
-  readonly imagejob: File;
+  readonly imagejob: Maybe<File>;
   readonly internal: Internal;
   readonly layout: Scalars['String'];
   readonly links_more_about_us: Maybe<Scalars['String']>;
@@ -11061,7 +11061,7 @@ type JobsFrontmatter = {
   readonly image_alt_job: Scalars['String'];
   readonly image_alt_recruiter_info: Maybe<Scalars['String']>;
   readonly image_recruiter_info: Maybe<File>;
-  readonly imagejob: File;
+  readonly imagejob: Maybe<File>;
   readonly layout: Scalars['String'];
   readonly links_more_about_us: Maybe<Scalars['String']>;
   readonly name_recruiter: Maybe<Scalars['String']>;
@@ -21045,7 +21045,7 @@ type OurAreas = Node & {
   readonly frontmatter: OurAreasFrontmatter;
   readonly id: Scalars['ID'];
   readonly image_alt_our_service: Scalars['String'];
-  readonly image_our_service: File;
+  readonly image_our_service: Maybe<File>;
   readonly internal: Internal;
   readonly intro: Scalars['String'];
   readonly layout: Scalars['String'];
@@ -21053,7 +21053,7 @@ type OurAreas = Node & {
   readonly meta_title: Scalars['String'];
   readonly name: Scalars['String'];
   readonly order: Maybe<Scalars['Float']>;
-  readonly our_services_icon: File;
+  readonly our_services_icon: Maybe<File>;
   readonly parent: Maybe<Node>;
   readonly project: ReadonlyArray<Maybe<Projects>>;
   readonly published: Scalars['Boolean'];
@@ -24293,14 +24293,14 @@ type OurAreasFrontmatter = {
   readonly description_mdx: Scalars['String'];
   readonly faqs: ReadonlyArray<Maybe<Faqs>>;
   readonly image_alt_our_service: Scalars['String'];
-  readonly image_our_service: File;
+  readonly image_our_service: Maybe<File>;
   readonly intro: Scalars['String'];
   readonly layout: Scalars['String'];
   readonly meta_description: Scalars['String'];
   readonly meta_title: Scalars['String'];
   readonly name: Scalars['String'];
   readonly order: Maybe<Scalars['Float']>;
-  readonly our_services_icon: File;
+  readonly our_services_icon: Maybe<File>;
   readonly project: ReadonlyArray<Maybe<Projects>>;
   readonly published: Scalars['Boolean'];
   readonly short_description: Scalars['String'];
@@ -24431,7 +24431,7 @@ type Projects = Node & {
   readonly description: Scalars['String'];
   readonly frontmatter: ProjectsFrontmatter;
   readonly id: Scalars['ID'];
-  readonly image: File;
+  readonly image: Maybe<File>;
   readonly internal: Internal;
   readonly layout: Scalars['String'];
   readonly order: Maybe<Scalars['Float']>;
@@ -24441,7 +24441,7 @@ type Projects = Node & {
   readonly redirect_from: Maybe<Scalars['String']>;
   readonly show_on_homepage: Scalars['Boolean'];
   readonly slug: Scalars['String'];
-  readonly social_media_previev: File;
+  readonly social_media_previev: Maybe<File>;
   readonly social_media_previev_alt: Scalars['String'];
   readonly tags: Scalars['String'];
   readonly title: Scalars['String'];
@@ -26518,7 +26518,7 @@ type ProjectsFilterListInput = {
 
 type ProjectsFrontmatter = {
   readonly description: Scalars['String'];
-  readonly image: File;
+  readonly image: Maybe<File>;
   readonly layout: Scalars['String'];
   readonly order: Maybe<Scalars['Float']>;
   readonly project_id: Scalars['String'];
@@ -26526,7 +26526,7 @@ type ProjectsFrontmatter = {
   readonly redirect_from: Maybe<Scalars['String']>;
   readonly show_on_homepage: Scalars['Boolean'];
   readonly slug: Scalars['String'];
-  readonly social_media_previev: File;
+  readonly social_media_previev: Maybe<File>;
   readonly social_media_previev_alt: Scalars['String'];
   readonly tags: Scalars['String'];
   readonly title: Scalars['String'];
@@ -28364,6 +28364,13 @@ type WebPOptions = {
   readonly quality: InputMaybe<Scalars['Int']>;
 };
 
+type AuthorsPageQueryVariables = Exact<{
+  id: Scalars['String'];
+}>;
+
+
+type AuthorsPageQuery = { readonly members: { readonly short_name: string, readonly slug: string, readonly title: string | null, readonly description: string, readonly bio: string, readonly name: string, readonly avatar: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null, readonly avatar_hover: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null };
+
 type GatsbyImageSharpFixedFragment = { readonly base64: string | null, readonly width: number, readonly height: number, readonly src: string, readonly srcSet: string };
 
 type GatsbyImageSharpFixed_noBase64Fragment = { readonly width: number, readonly height: number, readonly src: string, readonly srcSet: string };
@@ -28407,30 +28414,30 @@ type MyQueryyQueryVariables = Exact<{
 
 type MyQueryyQuery = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly excerpt: string | null, readonly internal: { readonly contentFilePath: string | null }, readonly frontmatter: { readonly excerpt: string | null, readonly comments: boolean | null, readonly author: string | null, readonly author_id: string | null, readonly title: string | null, readonly tags: ReadonlyArray<string | null> | null, readonly date: string | null, readonly meaningfullyUpdatedAt: string | null, readonly image: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null, readonly fields: { readonly slug: string | null } | null } }> } };
 
+type AboutUsMembersListingQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+type AboutUsMembersListingQuery = { readonly allMembers: { readonly nodes: ReadonlyArray<{ readonly id: string, readonly slug: string, readonly author_id: string, readonly internal: { readonly contentFilePath: string | null } }> } };
+
 type Unnamed_1_QueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type Unnamed_1_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly internal: { readonly contentFilePath: string | null }, readonly frontmatter: { readonly slug: string | null, readonly author_id: string | null } | null } }> } };
+type Unnamed_1_Query = { readonly author: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly internal: { readonly contentFilePath: string | null }, readonly frontmatter: { readonly title: string | null, readonly tags: ReadonlyArray<string | null> | null, readonly date: string | null, readonly meaningfullyUpdatedAt: string | null, readonly author_id: string | null, readonly image: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null, readonly fields: { readonly slug: string | null } | null } }> }, readonly secondAuthor: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly internal: { readonly contentFilePath: string | null }, readonly frontmatter: { readonly title: string | null, readonly tags: ReadonlyArray<string | null> | null, readonly date: string | null, readonly meaningfullyUpdatedAt: string | null, readonly image: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null, readonly fields: { readonly slug: string | null } | null } }> }, readonly thirdAuthor: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly internal: { readonly contentFilePath: string | null }, readonly frontmatter: { readonly title: string | null, readonly tags: ReadonlyArray<string | null> | null, readonly date: string | null, readonly meaningfullyUpdatedAt: string | null, readonly image: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null, readonly fields: { readonly slug: string | null } | null } }> } };
 
 type Unnamed_2_QueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type Unnamed_2_Query = { readonly author: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly internal: { readonly contentFilePath: string | null }, readonly frontmatter: { readonly title: string | null, readonly tags: ReadonlyArray<string | null> | null, readonly date: string | null, readonly meaningfullyUpdatedAt: string | null, readonly author_id: string | null, readonly image: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null, readonly fields: { readonly slug: string | null } | null } }> }, readonly secondAuthor: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly internal: { readonly contentFilePath: string | null }, readonly frontmatter: { readonly title: string | null, readonly tags: ReadonlyArray<string | null> | null, readonly date: string | null, readonly meaningfullyUpdatedAt: string | null, readonly image: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null, readonly fields: { readonly slug: string | null } | null } }> }, readonly thirdAuthor: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly internal: { readonly contentFilePath: string | null }, readonly frontmatter: { readonly title: string | null, readonly tags: ReadonlyArray<string | null> | null, readonly date: string | null, readonly meaningfullyUpdatedAt: string | null, readonly image: { readonly childImageSharp: { readonly gatsbyImageData: import('gatsby-plugin-image').IGatsbyImageData } | null } | null } | null, readonly fields: { readonly slug: string | null } | null } }> } };
+type Unnamed_2_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
 
 type Unnamed_3_QueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type Unnamed_3_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
+type Unnamed_3_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly fields: { readonly slug: string | null } | null, readonly frontmatter: { readonly tags: ReadonlyArray<string | null> | null, readonly slug: string | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
 
 type Unnamed_4_QueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type Unnamed_4_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly fields: { readonly slug: string | null } | null, readonly frontmatter: { readonly tags: ReadonlyArray<string | null> | null, readonly slug: string | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
-
-type Unnamed_5_QueryVariables = Exact<{ [key: string]: never; }>;
-
-
-type Unnamed_5_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
+type Unnamed_4_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
 
 
 }

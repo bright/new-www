@@ -6,11 +6,10 @@ import { IgnorePlugin } from 'webpack'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
 import readingTime from 'reading-time'
 import { toDate } from './src/to-date'
-import * as util from 'util'
+import { kebabCase } from 'lodash'
 
 const path = require('path')
 
-const _ = require('lodash')
 const { queryPostsSlug } = require('./src/query-posts')
 
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
@@ -94,20 +93,16 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     })
   )
 
-  const memberResult = await graphql<GQLData>(`
-    {
-      allMdx(filter: { frontmatter: { layout: { eq: "member" } } }) {
-        edges {
-          node {
-            id
-            internal {
-              contentFilePath
-            }
-            frontmatter {
-              slug
-              author_id
-            }
+  const memberResult = await graphql<Queries.AboutUsMembersListingQuery>(`
+    query AboutUsMembersListing {
+      allMembers {
+        nodes {
+          id
+          internal {
+            contentFilePath
           }
+          slug
+          author_id
         }
       }
     }
@@ -116,12 +111,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
     return
   }
-  const members = memberResult.data!.allMdx?.edges
+  const members = memberResult.data!.allMembers.nodes
 
   await Promise.all(
-    members.map(async ({ node }) => {
-      const { frontmatter } = node
-      const { slug: member, author_id: authorId } = frontmatter
+    members.map(async (member) => {
       const result = await graphql<{
         author: allMdxData
         secondAuthor?: allMdxData
@@ -129,7 +122,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       }>(`
   {
     author: allMdx(
-      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${authorId}"}}}
+      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${member.author_id}"}}}
       sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
     ) {
       edges {
@@ -155,7 +148,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       }
     }
     secondAuthor: allMdx(
-      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, secondAuthor: {eq: "${authorId}"}}}
+      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, secondAuthor: {eq: "${member.author_id}"}}}
       sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
     ) {
       edges {
@@ -180,7 +173,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       }
     }
     thirdAuthor: allMdx(
-      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${authorId}"}}}
+      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${member.author_id}"}}}
       sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
     ) {
       edges {
@@ -225,23 +218,23 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
 
       if (posts.length === 0) {
         createPage({
-          path: `/about-us/${_.kebabCase(member)}`,
+          path: `/about-us/${kebabCase(member.slug)}`,
           component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${
-            node.internal.contentFilePath
+            member.internal.contentFilePath
           }`,
           context: {
-            id: node.id,
+            id: member.id,
           },
         })
       } else {
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
-            path: i == 0 ? `/about-us/${_.kebabCase(member)}` : `/about-us/${_.kebabCase(member)}/${i + 1}`,
+            path: i == 0 ? `/about-us/${kebabCase(member.slug)}` : `/about-us/${kebabCase(member.slug)}/${i + 1}`,
             component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${
-              node.internal.contentFilePath
+              member.internal.contentFilePath
             }`,
             context: {
-              id: node.id,
+              id: member.id,
               limit: postsPerPage,
               skip: i * postsPerPage,
               numPages,
@@ -293,7 +286,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     const faqs = service.node.frontmatter.faqs
     faqs.forEach((faq: { frontmatter: { question: string } }) => {
       createPage({
-        path: 'our-areas/' + service.node.frontmatter.slug + '/' + _.kebabCase(faq.frontmatter.question.toLowerCase()),
+        path: 'our-areas/' + service.node.frontmatter.slug + '/' + kebabCase(faq.frontmatter.question.toLowerCase()),
         component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${
           service.node.internal.contentFilePath
         }`,
@@ -459,11 +452,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer' })
 }
 
-export const onCreateNode: GatsbyNode['onCreateNode'] = async ({
-  createNodeId,
-  node,
-  actions: { createNodeField },
-}) => {
+export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: { createNodeField } }) => {
   if (node.internal.type === `Mdx`) {
     const nodeFilePath = node.internal.contentFilePath!
     if (!node.internal.contentFilePath) {
@@ -471,7 +460,6 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = async ({
     }
 
     const nodeSlug = '/' + nodeFilePath.split('/').splice(-2).join('/').replace('.md', '')
-    console.log('nodeSlug', nodeSlug, 'for path', nodeFilePath)
 
     createNodeField({
       node,

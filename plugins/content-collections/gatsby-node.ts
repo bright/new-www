@@ -6,6 +6,7 @@ import {
   contentFieldNameToGraphqlSchemaName,
   createContentCollectionNodeFor,
   gqlFieldType,
+  LetGatsbyInferFieldType,
 } from './content-field-to-gql'
 import {
   ObjectTypeComposerFieldConfigDefinition,
@@ -32,6 +33,9 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       schema.buildObjectType({
         name: collectionFrontmatterType,
         fields: frontMatterFieldConfigs,
+        extensions: {
+          infer: true,
+        },
       }),
       schema.buildObjectType({
         name: collectionType,
@@ -40,6 +44,9 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
           body: 'String!',
           frontmatter: `${collectionFrontmatterType}!`,
           ...frontMatterFieldConfigs,
+        },
+        extensions: {
+          infer: true,
         },
       }),
     ]
@@ -52,13 +59,18 @@ function fieldToObjectComposerFieldMap(
   contentFields: ContentField[]
 ): ObjectTypeComposerFieldConfigMapDefinition<{}, {}> {
   return contentFields.reduce((acc, field) => {
-    const fieldConfig: ObjectTypeComposerFieldConfigDefinition<{}, {}> = {
-      type: gqlFieldType(field),
-      extensions: gqlFieldExtensions(field),
-    }
-    return {
-      ...acc,
-      [contentFieldNameToGraphqlSchemaName(field.name)]: fieldConfig,
+    const fieldType = gqlFieldType(field)
+    if (fieldType !== LetGatsbyInferFieldType) {
+      const fieldConfig: ObjectTypeComposerFieldConfigDefinition<{}, {}> = {
+        type: fieldType, // TODO: add logic to let Gatsby infer correct type
+        extensions: gqlFieldExtensions(field),
+      }
+      return {
+        ...acc,
+        [contentFieldNameToGraphqlSchemaName(field.name)]: fieldConfig,
+      }
+    } else {
+      return acc
     }
   }, {})
 }
