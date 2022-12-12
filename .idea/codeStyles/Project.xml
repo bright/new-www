@@ -56,6 +56,12 @@
     <editorconfig>
       <option name="ENABLED" value="false" />
     </editorconfig>
+    <codeStyleSettings language="GraphQL">
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
     <codeStyleSettings language="HTML">
       <option name="SOFT_MARGINS" value="120" />
       <indentOptions>
