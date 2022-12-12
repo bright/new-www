@@ -21,7 +21,7 @@ project:
   - finebite
   - relevo
   - vcare
-  - mobile-therapy-application
+  - Practi JET POS Mobile
 layout: our-service
 meta_title: Mobile App Development
 meta_description: We are a mobile app development company from Poland. We
