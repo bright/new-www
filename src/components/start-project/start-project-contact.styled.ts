@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { TextRegular } from '../shared'
+import { CustomTextRegular, TextRegular } from '../shared'
 import variables from '../../styles/variables'
 import { Button as ButtonBase } from '../whatWeDo/banners/styles'
 
@@ -282,10 +282,6 @@ export const RequiredMessage = styled(Label)({
   marginBottom: '32px',
 })
 
-export const ErrorMessage = styled(SubmitMessage)({
-  color: 'red',
-})
-
 export const SuccessMessage = styled(SubmitMessage)({
   color: 'green',
 })
@@ -297,3 +293,58 @@ export const Button = styled(ButtonBase)({
 
   fontWeight: 'normal',
 })
+
+export const SuccesMessage = styled(CustomTextRegular)`
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+  }
+`
+export const ContainerWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-basis: 48%;
+  margin-bottom: 0;
+  padding: 0;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
+`
+
+export const Container = styled.div`
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media ${variables.device.laptop} {
+    max-width: 800px;
+  }
+  @media ${variables.device.tabletXL} {
+    max-width: 824px;
+  }
+  @media ${variables.device.tablet} {
+    max-width: 100%;
+  }
+`
+
+export const ErrorMessage = styled(CustomTextRegular)`
+  background: #e50000;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  @media ${variables.device.mobile} {
+    font-size: 1.125rem;
+    text-align: center;
+  }
+`
+export const Loader = styled.div`
+  margin: auto;
+  width: 3rem;
+  height: 3rem;
+  border-left-color: var(--orange-200);
+  border-width: 5px;
+`
+export const HeroTextInput = styled(TextInput)`
+  @media ${variables.device.tablet} {
+    width: 100%;
+    max-width: 100%;
+  }
+`

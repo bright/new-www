@@ -17,68 +17,19 @@ import {
   RequiredMessage,
   SubmitButton,
   TextInput,
+  SuccesMessage,
+  ContainerWrapper,
+  Container,
+  HeroTextInput,
+  Loader,
+  ErrorMessage,
 } from './start-project-contact.styled'
 
 import { TextRegular, CustomTextRegular } from '../shared'
 import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
 
 import { TickIcon } from '../icons/Tick.icon'
-
-const ContainerWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-basis: 48%;
-  margin-bottom: 0;
-  padding: 0;
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
-`
-
-const Container = styled.div`
-  max-width: 800px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  @media ${variables.device.laptop} {
-    max-width: 800px;
-  }
-  @media ${variables.device.tabletXL} {
-    max-width: 824px;
-  }
-  @media ${variables.device.tablet} {
-    max-width: 100%;
-  }
-`
-
-const SuccessMessage = styled(CustomTextRegular)`
-  @media ${variables.device.mobile} {
-    font-size: 1.125rem;
-  }
-`
-
-const ErrorMessage = styled(CustomTextRegular)`
-  background: #e50000;
-  color: #fff;
-  padding: 1rem 1.5rem;
-  @media ${variables.device.mobile} {
-    font-size: 1.125rem;
-    text-align: center;
-  }
-`
-const Loader = styled.div`
-  margin: auto;
-  width: 3rem;
-  height: 3rem;
-  border-left-color: var(--orange-200);
-  border-width: 5px;
-`
-const HeroTextInput = styled(TextInput)`
-  @media ${variables.device.tablet} {
-    width: 100%;
-    max-width: 100%;
-  }
-`
+import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 
 export interface StartProjectContactProps {
   formButton: string
@@ -134,6 +85,10 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
       action: actionFormButton,
       label: window.location.href,
     })
+  }
+
+  const closeModal = () => {
+    setSuccess(false)
   }
 
   const checkValid = () => {
@@ -223,8 +178,26 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             </TextRegular>
           </div>
         </Form>
+        {success && (
+          <JobApplicationModal
+            modalState={success}
+            closeModal={closeModal}
+            title={'Thanks for submitting'}
+            link='/'
+            linkLabel='back to home page'
+          >
+            <SuccesMessage>
+              Congrats! You have successfully submitted the form. We will get back to you asap.
+            </SuccesMessage>
+          </JobApplicationModal>
+        )}
+        {error && (
+          <ErrorMessage>
+            <p>Your application wasn’t submitted. Please try again.</p>
+          </ErrorMessage>
+        )}
 
-        {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>}
+        {/* {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>} */}
         {valid === false && <ErrorMessage>Please, complete missing information</ErrorMessage>}
         {/* {error && <ErrorMessage>Oops! Something went wrong while submitting the form.</ErrorMessage>} */}
       </Container>
