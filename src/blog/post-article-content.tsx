@@ -28,7 +28,8 @@ const AuthorsSection = styled.article`
     p strong,
     li,
     .title,
-    .subtitle {
+    .subtitle,
+    strong {
       color: ${variables.color.heading};
     }
     h2 {
