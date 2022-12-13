@@ -5,7 +5,7 @@ tags:
   - UX
 date: 2022-12-13T09:50:30.685Z
 meaningfullyUpdatedAt: 2022-12-13T09:50:30.710Z
-title: a11y - it’s not just colours and contrast
+title: a11y - It’s Not Just Colours and Contrast
 layout: post
 image: /images/a11y-bright.png
 hidden: false
