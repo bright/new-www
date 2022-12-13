@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2022-12-13T09:50:30.710Z
 title: a11y - it’s not just colours and contrast
 layout: post
 image: /images/a11y-bright.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
