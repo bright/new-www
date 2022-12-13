@@ -24,7 +24,7 @@ First and foremost, people with disabilities are a part of our society and every
 
 We are not only designing for people with disabilities, but also for our future us. How come? You never know where life takes you. And I’m not saying you’ll get in an accident and end up with some sort of disability (but hey, it might happen). But you need to keep in mind **that there are scenarios in which we are temporarily, or even situationally, impaired**. Take a look below:
 
-<div class="image"><img src="/images/persona-spectrum.jpg" alt="undefined" title="The Persona Spectrum by Microsoft"  /> </div>
+<div class="image"><img src="/images/persona-spectrum.jpg" alt="the persona spectrum by microsoft" title="The Persona Spectrum by Microsoft"  /> </div>
 
 **The same solutions that work for deaf people might be useful for people who are working in a loud environment such as a pub**. Or let’s say you went to an eye doctor and were given some eye drops that impair your vision for 2 or 3 hours and now you want to get a bus home. You need to buy a ticket first, you are looking for an app on your phone, but you’ll notice that you can’t see properly because of those drops. The setting for people with vision impairment will come in handy.
 
