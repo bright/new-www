@@ -1,5 +1,5 @@
 import { Link } from 'gatsby'
-import React from 'react'
+import React,{ useEffect,useState } from 'react'
 import { CustomSectionTitle } from '../components/shared'
 import { routeLinks } from '../config/routing'
 import { createBlogRelatedPosts } from '../models/creator'
@@ -7,8 +7,7 @@ import { allMdxData } from '../models/gql'
 import { BlogFeed } from '../templates/blog/Feed'
 import styled from 'styled-components'
 import variables from '../styles/variables'
-import { useEffect } from 'react'
-import { useState } from 'react'
+
 
 const RelatedMoreButton = styled.button`
   border: 1px solid black;
