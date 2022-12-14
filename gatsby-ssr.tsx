@@ -26,9 +26,9 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }) =
     'montserrat-v23-latin-700',
     'montserrat-v23-latin-800',
     'montserrat-v23-latin-ext_latin-900',
-    'lato-v22-latin-ext_latin-regular',
-    'lato-v22-latin-ext_latin-700',
-    'lato-v22-latin-ext_latin-900',
+    'lato-v23-latin-ext_latin-regular',
+    'lato-v23-latin-ext_latin-700',
+    'lato-v23-latin-ext_latin-900',
   ]
 
   setHeadComponents([
