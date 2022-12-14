@@ -130,7 +130,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   {
     author: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${authorId}"}}}
-      sort: {fields: frontmatter___date, order: DESC}
+      sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
     ) {
       edges {
         node {
@@ -156,7 +156,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }
     secondAuthor: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, secondAuthor: {eq: "${authorId}"}}}
-      sort: {fields: frontmatter___date, order: DESC}
+      sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
     ) {
       edges {
         node {
@@ -181,7 +181,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }
     thirdAuthor: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${authorId}"}}}
-      sort: {fields: frontmatter___date, order: DESC}
+      sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
     ) {
       edges {
         node {
@@ -213,7 +213,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       const uniqueAuthors = allAuthors
         .filter((v, i, a) => a.findIndex(t => t.node.fields.slug === v.node.fields.slug) === i)
         .sort(function (a, b) {
-          return new Date(b.node.frontmatter.date).getTime() - new Date(a.node.frontmatter.date).getTime()
+          return (
+            new Date(b.node.meaningfullyUpdatedAt).getTime() - new Date(a.node.meaningfullyUpdatedAt).getTime() ||
+            new Date(b.node.frontmatter.date).getTime() - new Date(a.node.frontmatter.date).getTime()
+          )
         })
 
       const posts = uniqueAuthors
