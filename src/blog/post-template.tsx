@@ -48,6 +48,9 @@ export type PostTemplateProps = PropsWithChildren<{
         canonicalUrl: string
       }
       fileAbsolutePath: string
+      internal: {
+        contentFilePath: string
+      }
       fields: {
         timeToRead: {
           minutes: number
@@ -135,7 +138,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
         paddingTablet='0rem 2.25rem 2.5rem'
         paddingMobileProps='0 1.125rem 2rem'
       >
-        <RelatedPosts allMdx={allMdx} currentPostfileAbsolutPath={mdx.fileAbsolutePath} />
+        <RelatedPosts allMdx={allMdx} currentPostfileAbsolutPath={mdx.internal.contentFilePath} />
       </CustomSection>
       <ConstrainedWidthContainer id='blog'>
         <WrapperNews>
@@ -171,6 +174,7 @@ export const pageQuery = graphql`
           }
         }
       }
+
       fields {
         timeToRead {
           minutes
