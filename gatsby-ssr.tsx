@@ -18,7 +18,7 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => (
   </>
 )
 
-export const onRenderBody:GatsbySSR['onRenderBody'] = ({ setHeadComponents }) => {
+export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }) => {
   const files = getFilesFromPath('./public/static', '.woff2')
   const preload = [
     'montserrat-v24-latin-ext_latin-regular',
@@ -27,7 +27,8 @@ export const onRenderBody:GatsbySSR['onRenderBody'] = ({ setHeadComponents }) =>
     'montserrat-v23-latin-800',
     'montserrat-v23-latin-ext_latin-900',
     'lato-v22-latin-ext_latin-regular',
-    'lato-v22-latin-700',
+    'lato-v22-latin-ext_latin-700',
+    'lato-v22-latin-ext_latin-900',
   ]
 
   setHeadComponents([
