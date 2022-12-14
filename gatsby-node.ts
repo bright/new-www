@@ -145,6 +145,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             title
             tags
             date
+            meaningfullyUpdatedAt
             author_id
           }
           fields {
@@ -170,6 +171,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             title
             tags
             date
+            meaningfullyUpdatedAt
           }
           fields {
             slug
@@ -194,6 +196,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             title
             tags
             date
+            meaningfullyUpdatedAt
           }
           fields {
             slug
@@ -509,7 +512,6 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
     ],
   } as PartialWebpackConfig)
 }
-
 
 export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({ actions, schema }) => {
   actions.createTypes(
