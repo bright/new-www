@@ -7,7 +7,7 @@ date: 2022-12-13T09:50:30.685Z
 meaningfullyUpdatedAt: 2022-12-13T09:50:30.710Z
 title: A11Y – It’s Not Just Colours and Contrast
 layout: post
-image: /images/a11y-bright.png
+image: /images/blogpost-cover-a11y_accessibility.png
 hidden: false
 comments: true
 published: true
