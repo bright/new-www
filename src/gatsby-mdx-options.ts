@@ -1,15 +1,19 @@
 import remarkGfm from 'remark-gfm'
 const rehypePrism = require('@mapbox/rehype-prism')
 import type { PluginTuple} from 'unified'
+import remarkMath from 'remark-math'
+import rehypeMathJax from 'rehype-mathjax'
 
 export const gatsbyMdxOptions = {
   extensions: [`.md`, `.mdx`],
   mdxOptions: {
     remarkPlugins: [
-      remarkGfm
+      remarkGfm,
+      remarkMath
     ],
     rehypePlugins: [
-      [rehypePrism, { ignoreMissing: true }] as PluginTuple
+      [rehypePrism, { ignoreMissing: true }] as PluginTuple,
+      rehypeMathJax
     ]
   },
   gatsbyRemarkPlugins: [
