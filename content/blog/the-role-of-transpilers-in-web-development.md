@@ -14,6 +14,9 @@ hidden: true
 comments: true
 published: true
 ---
+<div class="image"><img src="/images/role-of-transpilers.jpeg" alt="A laptop computer sitting on top of a desk with a code editor opened."  /></div>
+<br />
+
 In the old days, there were many more web browsers competing in the market and each was supporting a different subset of JavaScript features. What's even worse, some of them weren't really focused on implementing the missing ones, therefore we were greatly limited by them. Internet Explorer is an inglorious example coming from this group. It was obsolete but really popular at the same time. The worst nightmare of a web developer wanting to use modern JavaScript.
 Normally, we would have to be aware of exactly what isn't present in a browser we would like to support and simply not use it. It sounds easy, but in reality, it's not. That's when transpilers come into play. **They are able to understand the code we write and transform it**. Moreover, they also enable some non-obvious features, we use every day. Intrigued? Keep reading then!
 
@@ -23,7 +26,7 @@ Imagine you have to write a code, that's supported by all the browsers on the ma
 
 Thankfully, we don't have to do this anymore. Transpilers serve us well by **enabling the usage of state-of-the-art language constructs** and making us forget about not-so-fast updated browsers. They are able to rephrase certain expressions, but also polyfill missing functionalities using core-js or other libraries. For example, such simple class like this:
 
-```
+```javascript
 class Rectangle {
   constructor(height, width) {
     this.height = height;
@@ -43,7 +46,7 @@ class Rectangle {
 
 may be transformed into many more lines of code if we want to support all browsers released in the last few years. Just take a look at the following code block - it's a totally different code!
 
-```
+```javascript
 "use strict";
 
 require("core-js/modules/es.symbol.to-primitive.js");
@@ -54,7 +57,7 @@ require("core-js/modules/es.object.to-string.js");
 require("core-js/modules/es.error.cause.js");
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
-    var descriptor = props\[i];
+    var descriptor = props[i];
     descriptor.enumerable = descriptor.enumerable || false;
     descriptor.configurable = true;
     if ("value" in descriptor) descriptor.writable = true;
@@ -73,7 +76,7 @@ function _toPropertyKey(arg) {
 }
 function _toPrimitive(input, hint) {
   if (typeof input !== "object" || input === null) return input;
-  var prim = input\[Symbol.toPrimitive];
+  var prim = input[Symbol.toPrimitive];
   if (prim !== undefined) {
     var res = prim.call(input, hint || "default");
     if (typeof res !== "object") return res;
@@ -86,7 +89,7 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-var Rectangle = /*\#**PURE***/ _createClass(function Rectangle(height, width) {
+var Rectangle = /*#__PURE__*/ _createClass(function Rectangle(height, width) {
   _classCallCheck(this, Rectangle);
   this.height = height;
   this.width = width;
@@ -95,7 +98,7 @@ var Rectangle = /*\#**PURE***/ _createClass(function Rectangle(height, width) {
 
 Moreover, thanks to their transformation features, **we are able to use JSX in our React projects**. You read it right, this particular syntax is not natively supported. It's a syntactic sugar making it easier for us to define complex component trees. 
 
-```
+```javascript
 // JSX
 
 <div>
@@ -116,14 +119,14 @@ So, in order to make it understandable by a JavaScript engine, transpilers conve
 
 Source code is just a sequence of characters, which don't really mean anything to the interpreter running it. Well, it's the same for humans. We have to **understand the context in order to tell what some magical word means**. The same applies to the machine, but this analysis happens in a more organized way. There are three steps involved in the process, which we will cover shortly.
 
-```
+```javascript
 // Our source code
 n * n
 ```
 
 It all starts with lexical analysis. This process **converts a stream of characters into a stream of tokens** - elements defined in language syntax like identifiers or numbers.
 
-```
+```javascript
 // Tokens
 [
   { type: "IDENTIFIER", value: "n", start: 0, end: 1 },
@@ -134,7 +137,7 @@ It all starts with lexical analysis. This process **converts a stream of charact
 
 Next, a syntactic analysis will take a stream of tokens and **build an abstract syntax tree (AST)**. In this form, tokens are organized into various nodes representing more contextual elements of language. For example, the tokens listed in the code snippet above are interpreted as an expression statement. This representation is way easier to work with and perform necessary transformations.
 
-```
+```javascript
 // AST
 {
   type: "ExpressionStatement",
@@ -165,7 +168,7 @@ Now it's time for transformation. Babel walks the tree using **depth-first searc
 Creating your own Babel plugin
 Let's use all the information we learnt in practice. Our task is to replace all 'n' identifiers with 'x' and do it only if the identifier occurs in the body of the function named 'square'.
 
-```
+```javascript
 function square(n) {
   return n * n;
 }
@@ -173,12 +176,12 @@ function square(n) {
 
 Sounds trivial, right? As I said before, transpilers make use of a visitor pattern. We need to visit FunctionDeclaration and Identifier nodes. In the first case, we will rename the identifier declared as a parameter. The second will replace the identifiers in the body.
 
-```
+```javascript
 let paramName;
 
 const Visitor = {
   FunctionDeclaration(path) {
-    const param = path.node.params\[0];
+    const param = path.node.params[0];
     paramName = param.name;
     param.name = "x";
   },
@@ -192,7 +195,7 @@ const Visitor = {
 
 This code looks and works great at the first glance. However, it will also rename an identifier outside the function body. Let's fix it.
 
-```
+```javascript
 const UpdateParamNameVisitor = {
   Identifier(path) {
     if (path.node.name === this.paramName) {
@@ -203,7 +206,7 @@ const UpdateParamNameVisitor = {
 
 const Visitor = {
   FunctionDeclaration(path) {
-    const param = path.node.params\[0];
+    const param = path.node.params[0];
     const paramName = param.name;
     param.name = "x";
     path.traverse(UpdateParamNameVisitor, { paramName });
@@ -215,9 +218,9 @@ This time there are two visitors defined. The UpdateParamNameVisitor is used by 
 
 # Next generation compilers
 
-The so-called 'next generation compilers' have been gaining more and more momentum recently. The revolution started with the Go language powering ESBuild and now it's mainly focused on Rust and tools like SWC. What's the point? - one may ask. Well, back in the past, JavaScript was used to build small or medium-sized web pages. However, this changed years ago and **there are huge applications composed of hundreds of views and thousands of files** available on the market.
+The so-called 'next generation compilers' have been gaining more and more momentum recently. The revolution started with the Go language powering [ESBuild](https://esbuild.github.io/) and now it's mainly focused on Rust and tools like [SWC](https://swc.rs/). What's the point?  - one may ask. Well, back in the past, JavaScript was used to build small or medium-sized web pages. However, this changed years ago and **there are huge applications composed of hundreds of views and thousands of files** available on the market.
 
-On such a scale, developer experience provided by JavaScript-based tooling starts to rapidly degrade when each change in the source code is reflected after several  seconds. The same principle applies to the build process. This case is even worse because **we have to pay for each second the third-party service spends preparing our application**. That's why more and more companies start to invest in such technologies.
+On such a scale, developer experience provided by JavaScript-based tooling starts to rapidly degrade when each change in the source code is reflected after several seconds. The same principle applies to the build process. This case is even worse because **we have to pay for each second the third-party service spends preparing our application**. That's why more and more companies start to invest in such technologies.
 
 - - -
 
