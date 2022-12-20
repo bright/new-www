@@ -21,10 +21,9 @@ Normally, we would have to be aware of exactly what isn't present in a browser w
 
 Imagine you have to write a code, that's supported by all the browsers on the market with at least 0.5% popularity. What's even worse, your code should make use of modern APIs when possible to provide the best performance possible. In such a case you would have to dig deep into many pages of technical documentation in order to establish a baseline of what you can use and what should you not.
 
-Thankfully, we don't have to do this anymore. Transpilers serve us well by **enabling the usage of state-of-the-art language constructs** and making us forget about not-so-fast updated browsers. They are able to rephrase certain expressions, but also polyfill missing functionalities using core-js or other libraries.
+Thankfully, we don't have to do this anymore. Transpilers serve us well by **enabling the usage of state-of-the-art language constructs** and making us forget about not-so-fast updated browsers. They are able to rephrase certain expressions, but also polyfill missing functionalities using core-js or other libraries. For example, such simple class like this:
 
 ```
-// This simple class...
 class Rectangle {
   constructor(height, width) {
     this.height = height;
@@ -40,9 +39,11 @@ class Rectangle {
     return this.height * this.width;
   }
 }
+```
 
-// may become this after transpilation
+may be transformed into many more lines of code if we want to support all browsers released in the last few years. Just take a look at the following code block - it's a totally different code!
 
+```
 "use strict";
 
 require("core-js/modules/es.symbol.to-primitive.js");
@@ -53,7 +54,7 @@ require("core-js/modules/es.object.to-string.js");
 require("core-js/modules/es.error.cause.js");
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
-    var descriptor = props[i];
+    var descriptor = props\[i];
     descriptor.enumerable = descriptor.enumerable || false;
     descriptor.configurable = true;
     if ("value" in descriptor) descriptor.writable = true;
@@ -72,7 +73,7 @@ function _toPropertyKey(arg) {
 }
 function _toPrimitive(input, hint) {
   if (typeof input !== "object" || input === null) return input;
-  var prim = input[Symbol.toPrimitive];
+  var prim = input\[Symbol.toPrimitive];
   if (prim !== undefined) {
     var res = prim.call(input, hint || "default");
     if (typeof res !== "object") return res;
@@ -85,7 +86,7 @@ function _classCallCheck(instance, Constructor) {
     throw new TypeError("Cannot call a class as a function");
   }
 }
-var Rectangle = /*#__PURE__*/ _createClass(function Rectangle(height, width) {
+var Rectangle = /*\#**PURE***/ _createClass(function Rectangle(height, width) {
   _classCallCheck(this, Rectangle);
   this.height = height;
   this.width = width;
