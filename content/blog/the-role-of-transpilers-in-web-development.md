@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2022-12-20T09:33:36.933Z
 title: The Role of Transpilers in Web Development
 layout: post
 image: /images/role-of-transpilers.jpeg
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
