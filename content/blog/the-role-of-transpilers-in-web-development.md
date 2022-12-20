@@ -7,7 +7,7 @@ tags:
   - JavaScript
 date: 2022-12-20T09:33:36.922Z
 meaningfullyUpdatedAt: 2022-12-20T09:33:36.933Z
-title: The role of transpilers in web development
+title: The Role of Transpilers in Web Development
 layout: post
 image: /images/role-of-transpilers.jpeg
 hidden: true
@@ -219,6 +219,10 @@ This time there are two visitors defined. The UpdateParamNameVisitor is used by 
 # Next generation compilers
 
 The so-called 'next generation compilers' have been gaining more and more momentum recently. The revolution started with the Go language powering [ESBuild](https://esbuild.github.io/) and now it's mainly focused on Rust and tools like [SWC](https://swc.rs/). What's the point?  - one may ask. Well, back in the past, JavaScript was used to build small or medium-sized web pages. However, this changed years ago and **there are huge applications composed of hundreds of views and thousands of files** available on the market.
+
+<div class="image"><img src="/images/role-of-transpilers-benchmark.png" alt="A chart showing a major improvement in compilation time thanks to ESBuild and SWC when compared to TypeScript and Babel." title="undefined"  /> </div>
+
+Source: [DataStation - Benchmarking esbuild, swc, tsc, and babel for React/JSX projects](https://datastation.multiprocess.io/blog/2021-11-13-benchmarking-esbuild-swc-typescript-babel.html)
 
 On such a scale, developer experience provided by JavaScript-based tooling starts to rapidly degrade when each change in the source code is reflected after several seconds. The same principle applies to the build process. This case is even worse because **we have to pay for each second the third-party service spends preparing our application**. That's why more and more companies start to invest in such technologies.
 
