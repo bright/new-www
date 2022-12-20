@@ -33,13 +33,13 @@ slug: mvp-development
 short_description: Build an MVP to shorten time to market. We have developed
   MVPs for startups, NGOs and consulting agencies. Let’s work on your MVP.
 order: 4
-title: launch your idea with MVP development
+title: launch your idea with MVP development agency
 intro: We are an experienced MVP partner ready to assist you.
 image_our_service: /images/mvp_development2.png
 image_alt_our_service: mvp development company
-description_mdx: Do you want to build an MVP? You came to the right place. We have
-  developed MVPs for startups, NGOs and consulting agencies from the USA, UK,
-  Germany, Norway and more. Let’s work on your MVP.
+description_mdx: Do you want to build an MVP? You came to the right place. We
+  have developed MVPs for startups, NGOs and consulting agencies from the USA,
+  UK, Germany, Norway and more. Let’s work on your MVP.
 button: let's talk about MVP
 button2: let's talk about MVP
 published: true
