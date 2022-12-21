@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Fullstack Developer (Node.js + React) "
-subtitle: ONGOING
+subtitle: OPENING SOON 
 image-alt-job: TypeScript Team
 hours: full-time
 salary: 14 000 - 18 000 PLN + VAT (B2B) or 11 600 - 15 000 PLN gross (UoP)
@@ -35,7 +35,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: "join our TypeScript team "
 published: true
 show_recruiter_info: true
-order: 3
+order: 7
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Fullstack Developer (Node.js + React) who
