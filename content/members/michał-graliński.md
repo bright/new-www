@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: michal-gr
-ex: false
+ex: true
 slug: michal-gr
 name: Michał Graliński
 short_name: Michał
