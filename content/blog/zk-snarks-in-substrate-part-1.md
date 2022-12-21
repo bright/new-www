@@ -20,7 +20,7 @@ Zero-knowledge proof is a method where one party (the prover) tries to “*convi
 * **interactive** - where the prover and verifier exchange multiple messages with each other, until the verifier is convinced enough that the prover knows the given statement is true.
 * **non-interactive** - where the prover creates a proof and the verifier is able to run it and check if the given statement is true. Compared to the interactive version, there is only one message (proof) that is sent to the verifier and it can be run asynchronously.
 
-In this article we will focus on the non-interactive approach which is called zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge).
+**In this article we will focus on the non-interactive approach which is called zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge).**
 
 ## zk-SNARKs
 
@@ -42,7 +42,7 @@ As shown on the image, the prover will create a proof, based on the public and p
 
 First let’s think about the problems which zk-SNARKs can solve. There are two types of problems P(*deterministic polynomial*) and NP (*nondeterministic polynomial*). The first ones are the problems that can be run in polynomial time and those are not applicable for the zk-SNARKs. The second ones are the problems, which can only be verified in polynomial time. In other words, finding the right solution for an NP problem is very hard, but verifying an already existing one is quite easy. This is exactly what zk-SNARKs is about, but first our problem will need to be transformed to proper form, which is a QAP (Quadratic Arithmetic Program). This is actually a process where we transform a code into a mathematical representation of it.
 
-If we want to go further, we will need to have a suitable example, which helps us in better understanding the concept of zk-SNARKs. Let’s assume that Bob is a founder of the Bright Coders union. In front of his mates, he announces that there are few places left in the union and those who solve this equation first:
+If we want to go further, we will need to have a suitable example, which helps us in better understanding the concept of zk-SNARKs. **Let’s assume that Bob is a founder of the Bright Coders union**. In front of his mates, he announces that there are few places left in the union and **those who solve this equation first**:
 
 <center>
 
@@ -50,7 +50,7 @@ $$ x^2+3=12 $$
 
 </center>
 
-will be able to join it! Alice is one of his friends who knows the result, which is $x=3$. Instead of saying it loudly and risking others to claim the vacancy, she is willing to use a zk-SNARKs to prove to Bob that she knows the result without revealing it!
+**will be able to join it**! Alice is one of his friends who knows the result, which is $x=3$. Instead of saying it loudly and risking others to claim the vacancy, she is willing to use a zk-SNARKs to prove to Bob that she knows the result without revealing it!
 
 If we take a closer look at the equation and set it together with what we already knew about the zk-Snarks, we will notice two things:
 
