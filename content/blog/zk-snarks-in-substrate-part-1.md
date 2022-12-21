@@ -33,8 +33,8 @@ From the high-level point of view, the concept defines:
 * **Verifier** - he can accept a proof and verify it.
 
 <center>
-    
-!\[](https://i.imgur.com/8H5rSW2.png)
+
+![alt zk-snark concept!](https://i.imgur.com/8H5rSW2.png "Concept diagram")
 
 </center>
 
@@ -107,14 +107,14 @@ Next step is to convert our circuits to a R1CS (*rank-1 constraint system*), whi
 
 <center>
 
-$$a*{i}\cdot s * b*{i}\cdot s - c_{i}\cdot s = 0$$
+$$a_{i}\cdot s * b_{i}\cdot s - c_{i}\cdot s = 0$$
 
 </center>
 
 where:
 
 * “ $\cdot$ ” is a dot product
-* $i$ in $\[1,N]$ and $N$ is a number of circuits
+* $i$ in $[1,N]$ and $N$ is a number of circuits
 
 We can interpret this in this way, if our vectors could represent the constraints (equation which describes circuits), then vector $s$ will be our witness, that satisfies the equation above. 
 
@@ -122,29 +122,30 @@ We will start with the definition of $s$, which is a vector of all values associ
 
 <center>
 
-$$ s=\[1,12,3,9] $$
+$$ s=[1,12,3,9] $$
 
 </center>
 
-Now when we defined the witness we can conclude the vectors for the $a,b,c$, which will actually map to our circuits. Please have in mind that our vector $s$ maps to $1,y,x,tmp1$, based on that vectors $a,b,c$ for the:
+Now when we defined the witness we can conclude the vectors for the $a,b,c$, which will actually map to our circuits. Please have in mind that our vector $s$ maps to $[1,y,x,tmp1]$, based on that vectors $a,b,c$ for the:
 
 first circuit $(tmp1=x*x)$:
 
 <center>
 
-$a*{1}=\[0,0,1,0]$
-$b*{1}=\[0,0,1,0]$
-$c_{1}=\[0,0,0,1]$
+$a_{1}=[0,0,1,0]$
+$b_{1}=[0,0,1,0]$
+$c_{1}=[0,0,0,1]$
 
 </center>
+
 
 second circuit $(y=tmp1+3)$:
 
 <center>
 
-$a*{2}=\[0,0,0,0]$
-$b*{2}=\[0,0,0,0]$
-$c_{2}=\[3,1,0,1]$
+$a_{2}=[0,0,0,0]$
+$b_{2}=[0,0,0,0]$
+$c_{2}=[3,1,0,1]$
 
 </center>
 
@@ -153,17 +154,17 @@ If we put everything together for the first circuit, we can check the correctnes
 <center>
 
 | $a_{1}$ | $b_{1}$ | $c_{1}$ | $s$ |
-| ------- | ------- | ------- | --- |
-| 0       | 0       | 0       | 1   |
-| 0       | 0       | 0       | 12  |
-| 1       | 1       | 0       | 3   |
-| 0       | 0       | 1       | 9   |
+| :-: | :-: | :-: |:-: |
+| 0 | 0 | 0 | 1|
+| 0 | 0 | 0 | 12|
+| 1 | 1 | 0 | 3|
+| 0 | 0 | 1 | 9|
 
 </center>
 
 <center>
 
-$$a*{i}\cdot s * b*{i}\cdot s - c_{i}\cdot s = 3*3 -9 = 0$$
+$$a_{i}\cdot s * b_{i}\cdot s - c_{i}\cdot s = 3*3 -9 = 0$$
 
 </center>
 
@@ -212,7 +213,7 @@ As you can see, the result is exactly the same as it were for our witness from t
 
 ## Quadratic Arithmetic Program
 
-The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials. We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $\[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
+The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials. We can start with the declaration of the polynomials $A_{i}(x)$, $B_{i}(x)$ and $C_{i}(x)$ for $i$ in $[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A_{i}(n)=a_{n}(i)$ and similar for $B_{i}(n)$ and $C_{i}(n)$. Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
 
 <center>
 
@@ -222,9 +223,9 @@ $$ A(X)*B(X)-C(X)=H(X)*Z(X) $$
 
 where:
 
-$Z(X)=(x-x*{1})*(x-x*{2})...(x-x_{n})$, where $n$ is number of constraints
+$Z(X)=(x-x_{1})*(x-x_{2})...(x-x_{n})$, where $n$ is number of constraints
 
-$H(X)$ - is some polynomial which we define futher
+$H(X)$ - is some polynomial which we define further
 
 Why can we write this equality here? As you remember we are now in the scope of the polynomials, so we can define a polynomial $P(X)$, which will be:
 
@@ -234,7 +235,7 @@ $$ P(X)=A(X)*B(X)-C(X)=0 $$
 
 </center>
 
-From the [polynomial long division](https://en.wikipedia.org/wiki/Polynomial_long_division), we can deduce that above equation will only hold, if $P(X)$ will be divided by the $Z(X)=(x-x*{1})*(x-x*{2})...(x-x_{n})$ without a reminder. Our formula can be written like this:
+From the [polynomial long division](https://en.wikipedia.org/wiki/Polynomial_long_division), we can deduce that above equation will only hold, if $P(X)$ will be divided by the $Z(X)=(x-x_{1})*(x-x_{2})...(x-x_{n})$ without a reminder. Our formula can be written like this:
 
 <center>
 
