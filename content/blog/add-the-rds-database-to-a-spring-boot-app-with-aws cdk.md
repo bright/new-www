@@ -260,7 +260,7 @@ With just a little configuration, your application will have access to and be ab
 
 ## Summary
 
-By following the instructions in this article, you'll be able to easily set up and integrate an RDS database with a Spring Boot app on AWS.
+By following the instructions in this article, **you'll be able to easily set up and integrate an RDS database with a Spring Boot app on AWS**.
 
 ***All of the code (with working CI/CD for 2 environments) you can find here:***
 https://gitlab.com/adam.waniak11/ci-cd-demo-app
