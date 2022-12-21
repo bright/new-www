@@ -14,13 +14,13 @@ hidden: false
 comments: true
 published: true
 ---
-# Introduction
+## Introduction
 
 Are you tired of manually setting up and maintaining your own databases? Fear not, because the AWS CDK is here to save the day!
 
 In this article, you'll learn how to use the AWS Cloud Development Kit (CDK) to set up an Amazon Relational Database Service (RDS) database using the Postgres Relational Database Management System (RDBMS). You'll also discover how to pass database variables, such as the username, password, name, URL, and port, to an AWS Fargate container. Finally, you'll learn how to configure a Spring Boot application to access the database. By following the steps outlined in this article, you can easily set up and integrate a Postgres RDS database with a Spring Boot application deployed on Fargate using the CDK.
 
-## Goals
+### Goals
 
 * Using AWS CDK declare the RDS database with Postgres RDMS.
 * Pass database variables (username, password, name, URL, port) to the Fargate container.
@@ -30,7 +30,7 @@ In this article, you'll learn how to use the AWS Cloud Development Kit (CDK) to 
 
 
 
-# Create database stack
+## Create database stack
 
 In the lib folder in your's CDK project directory create the `database-stack.ts` file.
 
@@ -120,7 +120,7 @@ export function isProductionDeployEnv() {
 }
 ```
 
-# Pass database variables to the Fargate container
+## Pass database variables to the Fargate container
 
 In the Fargate service definition (*ApplicationLoadBalancedFargateService* construct) we can configure ***secrets*** and ***environment*** properties. Variables defined in those will be passed to the container (in that way app will have access to those variables).
 
@@ -237,7 +237,7 @@ main().catch(er => {
 })
 ```
 
-# Configure database access on the application side
+## Configure database access on the application side
 Add dependencies for database access and database driver:
 ```
 implementation("org.springframework.boot:spring-boot-starter-data-jpa")
@@ -256,7 +256,7 @@ spring:
 Variables names have the same value as the keys in ***secrets*** and ***environment*** in task image options in the Fargate service definition. Because we add those variables into a container the application has access to them and can connect to the database.
 
 With just a little configuration, your application will have access to and be able to use the database without any issues.
-# Summary
+## Summary
 By following the instructions in this article, you'll be able to easily set up and integrate an RDS database with a Spring Boot app on AWS.
 
 ***All of the code (with working CI/CD for 2 environments) you can find here:***
