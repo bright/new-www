@@ -10,12 +10,14 @@ date: 2022-12-20T14:44:31.354Z
 meaningfullyUpdatedAt: 2022-12-20T14:44:31.377Z
 title: Add the RDS Database to a Spring Boot App with AWS CDK
 layout: post
-image: /images/blogpost_aws_cdk_rds.png
+image: /images/blogcover_aws_cdk_rds.png
 hidden: false
 comments: true
 published: true
 ---
 **Are you tired of manually setting up and maintaining your own databases? Fear not, because the AWS CDK is here to save the day!**
+
+<div class="image"><img src="/images/blogcover_aws_cdk_rds.png" alt="**AWS CDK**" title="undefined"  /> </div>
 
 In this article, **you'll learn how to use the AWS Cloud Development Kit (CDK) to set up an Amazon Relational Database Service (RDS) database using the Postgres Relational Database Management System (RDBMS)**. You'll also **discover how to pass database variables**, such as the username, password, name, URL, and port, to an AWS Fargate container. Finally, you'll learn **how to configure a Spring Boot application** to access the database. By following the steps outlined in this article, you can easily set up and integrate a Postgres RDS database with a Spring Boot application deployed on Fargate using the CDK.
 
