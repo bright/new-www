@@ -15,21 +15,17 @@ hidden: false
 comments: true
 published: true
 ---
-## Introduction
+**Are you tired of manually setting up and maintaining your own databases? Fear not, because the AWS CDK is here to save the day!**
 
-Are you tired of manually setting up and maintaining your own databases? Fear not, because the AWS CDK is here to save the day!
+In this article, **you'll learn how to use the AWS Cloud Development Kit (CDK) to set up an Amazon Relational Database Service (RDS) database using the Postgres Relational Database Management System (RDBMS)**. You'll also **discover how to pass database variables**, such as the username, password, name, URL, and port, to an AWS Fargate container. Finally, you'll learn **how to configure a Spring Boot application** to access the database. By following the steps outlined in this article, you can easily set up and integrate a Postgres RDS database with a Spring Boot application deployed on Fargate using the CDK.
 
-In this article, you'll learn how to use the AWS Cloud Development Kit (CDK) to set up an Amazon Relational Database Service (RDS) database using the Postgres Relational Database Management System (RDBMS). You'll also discover how to pass database variables, such as the username, password, name, URL, and port, to an AWS Fargate container. Finally, you'll learn how to configure a Spring Boot application to access the database. By following the steps outlined in this article, you can easily set up and integrate a Postgres RDS database with a Spring Boot application deployed on Fargate using the CDK.
-
-### Goals
+## Goals
 
 * Using AWS CDK declare the RDS database with Postgres RDMS.
 * Pass database variables (username, password, name, URL, port) to the Fargate container.
 * Configure database access on the application side.
 
 *If you don't have a defined Fargate service here is a tutorial on how to deploy a Spring Boot app with Fargate using CDK: [Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and Gradle](https://brightinventions.pl/blog/create-ci-cd-pipeline-in-gitlab-with-aws-cdk-docker-spring-boot-and%C2%A0gradle).*
-
-
 
 ## Create database stack
 
@@ -88,6 +84,7 @@ export function databaseBackupRetentionDaysForEnv() {
   return isProductionDeployEnv() ? Duration.days(14) : Duration.days(1)
 }
 ```
+
 Helper methods and variables (`deployEnv, isProductionDeployEnv, KnownDeployEnv, projectEnvSpecificName`) are defined in the `env-utils.ts` file:
 
 ```typescript
@@ -206,12 +203,12 @@ export function ecrRepositoryForService(scope: Construct, serviceName: string) {
 }
 ```
 
-
 Besides ***secrets*** and ***environment*** properties definition, the connection between the service and database was opened:
 
 ```type
 service.service.connections.allowTo(dbInstance.connections, Port.tcp(DatabaseStack.databasePort), "Postgres db connection")
 ```
+
 Without this line, the service would not have access to the database.
 
 Now after the creation of DatabseStack we can pass *databaceInstance* into *InfrastractureStack* definition.
@@ -239,13 +236,16 @@ main().catch(er => {
 ```
 
 ## Configure database access on the application side
+
 Add dependencies for database access and database driver:
+
 ```
 implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 implementation("org.postgresql:postgresql")
 ```
 
 In src/resources/application.yml configure datasource:
+
 ```
 spring:
   datasource:
@@ -257,7 +257,9 @@ spring:
 Variables names have the same value as the keys in ***secrets*** and ***environment*** in task image options in the Fargate service definition. Because we add those variables into a container the application has access to them and can connect to the database.
 
 With just a little configuration, your application will have access to and be able to use the database without any issues.
+
 ## Summary
+
 By following the instructions in this article, you'll be able to easily set up and integrate an RDS database with a Spring Boot app on AWS.
 
 ***All of the code (with working CI/CD for 2 environments) you can find here:***
