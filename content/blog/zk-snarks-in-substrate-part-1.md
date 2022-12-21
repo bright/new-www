@@ -13,28 +13,28 @@ hidden: false
 comments: true
 published: true
 ---
-# Zk-SNARKs in Substrate (Part 1)
-
-In this article I would like to introduce you with the zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge) concept. First we are going to briefly describe what are the zero-knowledge proofs, what are the stages of creating them, which tools can be useful for generating the zk-SNARKs. Also, we will touch a little math behind them. I encourage you to visit our GitHub, where you can find a [repository](https://github.com/bright/groth16-verifier-pallet) for this article. Let’s start with the definition of the zero-knowledge proof and then we will move to the zk-SNARKs.
+**In this article I would like to introduce you with the zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge) concept. First we are going to briefly describe what are the zero-knowledge proofs, what are the stages of creating them, which tools can be useful for generating the zk-SNARKs. Also, we will touch a little math behind them. I encourage you to visit our GitHub, where you can find a [repository](https://github.com/bright/groth16-verifier-pallet) for this article. Let’s start with the definition of the zero-knowledge proof and then we will move to the zk-SNARKs.**
 
 Zero-knowledge proof is a method where one party (the prover) tries to “*convince*” the other party (the verifier) that a given statement is true, without revealing the solution. There are two types of proving systems:
-* interactive - where the prover and verifier exchange multiple messages with each other, until the verifier is convinced enough that the prover knows the given statement is true.
-* non-interactive - where the prover creates a proof and the verifier is able to run it and check if the given statement is true. Compared to the interactive version, there is only one message (proof) that is sent to the verifier and it can be run asynchronously.
+
+* **interactive** - where the prover and verifier exchange multiple messages with each other, until the verifier is convinced enough that the prover knows the given statement is true.
+* **non-interactive** - where the prover creates a proof and the verifier is able to run it and check if the given statement is true. Compared to the interactive version, there is only one message (proof) that is sent to the verifier and it can be run asynchronously.
 
 In this article we will focus on the non-interactive approach which is called zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge).
 
 ## zk-SNARKs
 
 From the high-level point of view, the concept defines:
-* $y$ - public inputs that are known to everyone.
-* $x$ - private inputs that are only known for the prover. He claims that these are the right inputs for solving the problem.
-* Problem - a function $f(x,y)$, which takes private and public inputs. Result of this function is boolean: $true$ or $false$.
-* Prover - he knows the solution for the problem (private inputs), based on that he can create a proof.
-* Verifier - he can accept a proof and verify it.
+
+* **$y$** - public inputs that are known to everyone.
+* **$x$** - private inputs that are only known for the prover. He claims that these are the right inputs for solving the problem.
+* **Problem** - a function $f(x,y)$, which takes private and public inputs. Result of this function is boolean: $true$ or $false$.
+* **Prover** - he knows the solution for the problem (private inputs), based on that he can create a proof.
+* **Verifier** - he can accept a proof and verify it.
 
 <center>
     
-![](https://i.imgur.com/8H5rSW2.png)
+!\[](https://i.imgur.com/8H5rSW2.png)
 
 </center>
 
@@ -53,10 +53,12 @@ $$ x^2+3=12 $$
 will be able to join it! Alice is one of his friends who knows the result, which is $x=3$. Instead of saying it loudly and risking others to claim the vacancy, she is willing to use a zk-SNARKs to prove to Bob that she knows the result without revealing it!
 
 If we take a closer look at the equation and set it together with what we already knew about the zk-Snarks, we will notice two things:
+
 * Equation is well know to everyone, so result “*12*” can be our “*public input*”
 * “*x*” is what we are looking for, so this can be our “*private input*”. This matches the requirement for only a prover (Alice) to know its value.
 
 Now together with Alice we will try to explain the process of converting the equation above into the zk-SNARK. The process takes a couple of stages:
+
 * Computation statement
 * Flattening
 * R1CS
@@ -64,16 +66,19 @@ Now together with Alice we will try to explain the process of converting the equ
 
 We are going to describe them in the next part of this article. Alice is going to use two external tools [Cricom](https://docs.circom.io/getting-started/installation/) and [SnarkJS](https://github.com/iden3/snarkjs). Circom is a compiler written in Rust for creating circuits. SnarkJS is a npm package, which implements generation and validation of the zk-SNAKRs for the artifacts produced by Circom. For the installation process, please check our [documentation](https://github.com/bright/groth16-verifier-pallet/blob/main/circom/README.md) in the repository.
 
-
 ## Computation statement
+
 Alice will start with writing our equation as a Rust function
+
 ```
 fn solution(x: i32) -> i32 {
    let y = x*x + 3;
    return y;
 }
 ```
+
 by using it, she can easily verify if value "*3*" is the right answer for our equation. At this stage, it is good to point out that Alice could build a binary and send it to Bob asking him to verify the result. Unfortunately we have two problems here:
+
 * Alice will need to reveal the value of the “*x*” variable to Bob, which she doesn’t want to.
 * Bob will not be sure if Alice's program is the correct one. For example her program could just return “*12*”, without doing any computations.
 
@@ -102,14 +107,14 @@ Next step is to convert our circuits to a R1CS (*rank-1 constraint system*), whi
 
 <center>
 
-$$a_{i}\cdot s * b_{i}\cdot s - c_{i}\cdot s = 0$$
+$$a*{i}\cdot s * b*{i}\cdot s - c_{i}\cdot s = 0$$
 
 </center>
 
 where:
 
 * “ $\cdot$ ” is a dot product
-* $i$ in $[1,N]$ and $N$ is a number of circuits
+* $i$ in $\[1,N]$ and $N$ is a number of circuits
 
 We can interpret this in this way, if our vectors could represent the constraints (equation which describes circuits), then vector $s$ will be our witness, that satisfies the equation above. 
 
@@ -117,7 +122,7 @@ We will start with the definition of $s$, which is a vector of all values associ
 
 <center>
 
-$$ s=[1,12,3,9] $$
+$$ s=\[1,12,3,9] $$
 
 </center>
 
@@ -127,20 +132,19 @@ first circuit $(tmp1=x*x)$:
 
 <center>
 
-$a_{1}=[0,0,1,0]$
-$b_{1}=[0,0,1,0]$
-$c_{1}=[0,0,0,1]$
+$a*{1}=\[0,0,1,0]$
+$b*{1}=\[0,0,1,0]$
+$c_{1}=\[0,0,0,1]$
 
 </center>
-
 
 second circuit $(y=tmp1+3)$:
 
 <center>
 
-$a_{2}=[0,0,0,0]$
-$b_{2}=[0,0,0,0]$
-$c_{2}=[3,1,0,1]$
+$a*{2}=\[0,0,0,0]$
+$b*{2}=\[0,0,0,0]$
+$c_{2}=\[3,1,0,1]$
 
 </center>
 
@@ -149,17 +153,17 @@ If we put everything together for the first circuit, we can check the correctnes
 <center>
 
 | $a_{1}$ | $b_{1}$ | $c_{1}$ | $s$ |
-| :-: | :-: | :-: |:-: |
-| 0 | 0 | 0 | 1|
-| 0 | 0 | 0 | 12|
-| 1 | 1 | 0 | 3|
-| 0 | 0 | 1 | 9|
+| ------- | ------- | ------- | --- |
+| 0       | 0       | 0       | 1   |
+| 0       | 0       | 0       | 12  |
+| 1       | 1       | 0       | 3   |
+| 0       | 0       | 1       | 9   |
 
 </center>
 
 <center>
 
-$$a_{i}\cdot s * b_{i}\cdot s - c_{i}\cdot s = 3*3 -9 = 0$$
+$$a*{i}\cdot s * b*{i}\cdot s - c_{i}\cdot s = 3*3 -9 = 0$$
 
 </center>
 
@@ -208,7 +212,7 @@ As you can see, the result is exactly the same as it were for our witness from t
 
 ## Quadratic Arithmetic Program
 
-The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials. We can start with the declaration of the polynomials $A_{i}(x)$, $B_{i}(x)$ and $C_{i}(x)$ for $i$ in $[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A_{i}(n)=a_{n}(i)$ and similar for $B_{i}(n)$ and $C_{i}(n)$. Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
+The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials. We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $\[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
 
 <center>
 
@@ -216,10 +220,9 @@ $$ A(X)*B(X)-C(X)=H(X)*Z(X) $$
 
 </center>
 
-
 where:
 
-$Z(X)=(x-x_{1})*(x-x_{2})...(x-x_{n})$, where $n$ is number of constraints
+$Z(X)=(x-x*{1})*(x-x*{2})...(x-x_{n})$, where $n$ is number of constraints
 
 $H(X)$ - is some polynomial which we define futher
 
@@ -231,7 +234,7 @@ $$ P(X)=A(X)*B(X)-C(X)=0 $$
 
 </center>
 
-From the [polynomial long division](https://en.wikipedia.org/wiki/Polynomial_long_division), we can deduce that above equation will only hold, if $P(X)$ will be divided by the $Z(X)=(x-x_{1})*(x-x_{2})...(x-x_{n})$ without a reminder. Our formula can be written like this:
+From the [polynomial long division](https://en.wikipedia.org/wiki/Polynomial_long_division), we can deduce that above equation will only hold, if $P(X)$ will be divided by the $Z(X)=(x-x*{1})*(x-x*{2})...(x-x_{n})$ without a reminder. Our formula can be written like this:
 
 <center>
 
