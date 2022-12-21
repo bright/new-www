@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Senior Backend Developer (TS, Node.js)
-subtitle: ONGOING
+subtitle: OPENING SOON 
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Backend Team Bright Inventions
 hours: Full-time
@@ -34,7 +34,7 @@ hidden: false
 name_recruiter: Agata
 image_alt_recruiter_info: Agata Mietlińska - A Recruiter at Bright Inventions
 button: join our backend team
-order: 3
+order: 8
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking now for a Full Stack Developer who has already had
