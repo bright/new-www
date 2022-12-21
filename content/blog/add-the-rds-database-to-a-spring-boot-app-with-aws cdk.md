@@ -25,7 +25,7 @@ In this article, **you'll learn how to use the AWS Cloud Development Kit (CDK) t
 * Pass database variables (username, password, name, URL, port) to the Fargate container.
 * Configure database access on the application side.
 
-*If you don't have a defined Fargate service here is a tutorial on how to deploy a Spring Boot app with Fargate using CDK: [Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and Gradle](https://brightinventions.pl/blog/create-ci-cd-pipeline-in-gitlab-with-aws-cdk-docker-spring-boot-and%C2%A0gradle).*
+*If you don't have a defined Fargate service, here is a tutorial on how to deploy a Spring Boot app with Fargate using CDK: [Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and Gradle](https://brightinventions.pl/blog/create-ci-cd-pipeline-in-gitlab-with-aws-cdk-docker-spring-boot-and%C2%A0gradle).*
 
 ## Create database stack
 
