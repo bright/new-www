@@ -8,7 +8,7 @@ tags:
   - devops
 date: 2022-12-20T14:44:31.354Z
 meaningfullyUpdatedAt: 2022-12-20T14:44:31.377Z
-title: Add the RDS Database to a Spring Boot App with AWS CDK
+title: Add the RDS Database to a Spring Boot App with AWS CDK
 layout: post
 hidden: false
 comments: true
