@@ -29,7 +29,7 @@ title_recruiter_info: "Do you have any questions? Ask Ula from our Bright team! 
 workplace_recruiter: HR & Marketing Manager
 image_recruiter_info: /images/ula_recruiter_hr.png
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
-published: true
+published: false
 show_recruiter_info: true
 button_instagram: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 name_recruiter: Ula
