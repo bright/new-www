@@ -58,7 +58,7 @@ What is more, it may be easier to reduce the bus factor risk when you (as a clie
 
 ## Get access everywhere 
 
-If you decide to hire a [software development agency](https://brightinventions.pl), then **you should get all the access to the code, infrastructure and tools** needed to develop your product. It helps to protect you from vendor lock-in and reduces the bus factor risk as well. 
+If you decide to hire a [software development agency](/), then **you should get all the access to the code, infrastructure and tools** needed to develop your product. It helps to protect you from vendor lock-in and reduces the bus factor risk as well. 
 
 ## Don’t neglect the low bus factor risk
 
