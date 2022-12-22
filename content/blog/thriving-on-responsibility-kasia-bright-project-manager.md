@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2022-12-22T07:31:15.171Z
 title: Thriving on Responsibility. Meet Kasia – a Bright Project Manager
 layout: post
 image: /images/brightstorykasia.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
