@@ -89,3 +89,9 @@ I feel that **the key is being part of the team** and not the one who is above e
 To make that happen we need to truly trust each other. **As a project manager, I trust devs that they will bring their best ideas to the table**. Also, they trust me that I will do my best to support them in managing our daily work. Definitely what helps us build that trust is the **continuous and mutual feedback** between PM and devs.
 
 <div class="image"><img src="/images/brightteam_girls.png" alt="Bright Inventions' team retreat" title="undefined"  /> </div>
+
+## Could you answer a very popular question seen on social media? What does a project manager do all day? 😀
+
+Talks. 😉
+
+Obviously, a project manager’s role might depend on the project. If the process goes smoothly, the PM is practically unneeded. However, that is not usually the case. ;) Therefore, **I help with refining the requirements, defining the process, communicating between the development team and the client.** Basically, I make sure that we move forward and that both sides are happy with what we are achieving together.
