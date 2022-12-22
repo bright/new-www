@@ -66,4 +66,16 @@ There are two greatest challenges coming with this project. The first is very te
 
 The second is that backend for our app is built by another external company. They are very open to any discussions and suggestions, but it requires additional effort on the coordination side.
 
-We are at a very exciting stage of the project development, **just days before the MVP launch**.
+We are at a very exciting stage of the project development, **just days before the MVP launch**. 
+
+## Do you go strongly by Scrum as a project manager?
+
+I don’t think this is the most important thing to work according to the methodology. It’s not our ultimate goal. Obviously, all methodologies are a great inspiration and offer a bunch of ready-to-take techniques. However, **the question that I should ask myself is not if I am doing everything as it is written in the Scrum guide (or any other methodology)**. The question I ask myself is: will this solution help my team achieve our goals?
+
+Having that in mind – yes, I have managed projects in which we used almost ideal Scrum. However, I also handled a project where Scrum didn’t work for us so well and we decided to use a combination of Scrum and Kanban.
+
+## What are the key factors of maintaining good relations with a client?
+
+When it comes to **client-software agency collaboration** the grand rule should be a **helping attitude and a proactive approach**. The client who comes to us usually has great knowledge about the business processes but may have limited knowledge about the technology. **Our job is to understand what is their business goal, propose potential solutions and help pick the one which is the best for them**. We shouldn’t expect from the client to give us all the answers, we should seek those answers together.
+
+<div class="image"><img src="/images/kasia_quote_client.png" alt="quote on communication with clients" title="undefined"  /> </div>
