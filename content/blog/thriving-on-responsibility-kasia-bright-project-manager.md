@@ -22,7 +22,7 @@ published: true
 
 During my studies, I realized that **I mostly enjoyed classes regarding project management and business perspective** in software development. Especially classes regarding Requirement Engineering. 
 
-Also, I’ve always liked to manage. I wouldn’t call myself a natural leader, but I used to jump into that role when no one else wanted to. **PM work was intriguing because I always enjoyed having control and responsibility** for something. That’s why managing a development process felt so appalling to me.
+Also, I’ve always liked to manage. I wouldn’t call myself a natural leader, but I used to jump into that role when no one else wanted to. **PM work was intriguing because I always enjoyed having control and responsibility** for something. That’s why managing a development process felt so appealing to me.
 
 ## Have you ever thought of switching to the dev side?
 
