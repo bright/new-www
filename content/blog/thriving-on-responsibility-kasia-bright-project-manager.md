@@ -30,7 +30,7 @@ I have been thinking about that from time to time. I still think about switching
 
 <div class='block-button'><h2>Do you want to join Kasia?</h2><div>Join Kasia and build web and mobile solutions. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
 
-## Is that true that you started your IT career here at Bright Inventions?
+## You started your IT career here at Bright Inventions. How did that happen?
 
 Yes, **[Kasia Łukasewicz](/about-us/kasia/) who was my academic teacher at the Gdańsk University of Technology, asked if I would be interested in joining the company**. It was right before graduating the college. I guess I would have become a programmer if she hadn’t offered me that opportunity.
 
@@ -60,7 +60,7 @@ The solution is used in a couple of Asian and African countries. The team I work
 
 ## That's one project. Is there another project you manage?
 
-Another project is a mobile application built for our German client representing the **building and construction industry**. The **app will help clients’ employees and contractors create and store documentation needed at construction sites**. We build native **apps for iOS and Android**. The development team at Bright consists of 4 mobile developers
+Another project is a mobile application built for our German client representing the **building and construction industry**. The **app will help clients’ employees and contractors create and store documentation needed at construction sites**. We build native **apps for iOS and Android**. The development team at Bright consists of 4 [mobile developers](/our-areas/mobile-app-development).
 
 There are two greatest challenges coming with this project. The first is very technical. End users cannot depend on the internet connection at construction sites. Therefore **most features have to be available offline**. That adds a lot of complexity during defining the requirements phase.
 
