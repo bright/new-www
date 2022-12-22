@@ -41,3 +41,7 @@ Yet later **when I started managing the project on my own I felt that I also got
 ## Every organization has its own version of the PM role. How would you portray PM’s role at Bright Inventions?
 
 The Project Manager at Bright Inventions doesn’t play a typical scrum master role. I don’t only observe the process and offer suggestions. I definitely **work closely with product owners and take part in requirement specifications**. It takes a huge part of my day – to discuss what we and our client want to achieve.
+
+<div class="image"><img src="/images/brightteam_skiing.png" alt="skiing" title="undefined"  /> </div>
+
+As a PM your job is to **make the project move on**. You have to ensure that the client is content and that the development team is happy and feels that what they do matters. Obviously, I've never worked anywhere else, so it’s hard to compare that to other workplaces. Yet I like the fact that **I am truly responsible for the project** and no one higher up the ladder interferes in my work.
