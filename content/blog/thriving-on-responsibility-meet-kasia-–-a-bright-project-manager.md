@@ -79,3 +79,13 @@ Having that in mind – yes, I have managed projects in which we used almost ide
 When it comes to **client-software agency collaboration** the grand rule should be a **helping attitude and a proactive approach**. The client who comes to us usually has great knowledge about the business processes but may have limited knowledge about the technology. **Our job is to understand what is their business goal, propose potential solutions and help pick the one which is the best for them**. We shouldn’t expect from the client to give us all the answers, we should seek those answers together.
 
 <div class="image"><img src="/images/kasia_quote_client.png" alt="quote on communication with clients" title="undefined"  /> </div>
+
+Another very important factor is **open and clear communication**. Especially, when it comes to communicating any mistakes made along the way. Whenever they happen, we should analyze them, explain them to the business and decide what actions may be taken to omit them in the future. This way **we show that we care about the project as much as our client does** and we gain trust which is the key to a successful collaboration.
+
+## And what about establishing great relations with developers?
+
+I feel that **the key is being part of the team** and not the one who is above everybody else. We are one team, we have just different responsibilities.
+
+To make that happen we need to truly trust each other. **As a project manager, I trust devs that they will bring their best ideas to the table**. Also, they trust me that I will do my best to support them in managing our daily work. Definitely what helps us build that trust is the **continuous and mutual feedback** between PM and devs.
+
+<div class="image"><img src="/images/brightteam_girls.png" alt="Bright Inventions' team retreat" title="undefined"  /> </div>
