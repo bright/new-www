@@ -99,3 +99,5 @@ Obviously, a project manager’s role might depend on the project. If the proces
 ## What do you do after hours?
 
 Recently I started to sew. I love dancing, I used to dance a bit of boogie woogi. Now I go to the lyrical jazz classes. I guess my biggest passion is skiing. Unfortunately, it’s not something I can do regularly while living in Gdańsk. 😉
+
+<div class='block-button'><h2>Join Kasia!</h2><div>Build web and mobile solutions for international clients. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
