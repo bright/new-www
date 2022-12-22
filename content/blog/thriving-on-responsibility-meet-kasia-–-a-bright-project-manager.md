@@ -95,3 +95,7 @@ To make that happen we need to truly trust each other. **As a project manager, I
 Talks. 😉
 
 Obviously, a project manager’s role might depend on the project. If the process goes smoothly, the PM is practically unneeded. However, that is not usually the case. ;) Therefore, **I help with refining the requirements, defining the process, communicating between the development team and the client.** Basically, I make sure that we move forward and that both sides are happy with what we are achieving together.
+
+## What do you do after hours?
+
+Recently I started to sew. I love dancing, I used to dance a bit of boogie woogi. Now I go to the lyrical jazz classes. I guess my biggest passion is skiing. Unfortunately, it’s not something I can do regularly while living in Gdańsk. 😉
