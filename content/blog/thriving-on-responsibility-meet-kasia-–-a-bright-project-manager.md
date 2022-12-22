@@ -28,6 +28,8 @@ Also, I’ve always liked to manage. I wouldn’t call myself a natural leader, 
 
 I have been thinking about that from time to time. I still think about switching sides.
 
+<div class='block-button'><h2>Do you want to join Kasia?</h2><div>Join Kasia and work on Android or iOS solutions we develop for our clients from Germany, USA, or Israel.</div><a href="undefined"><button>undefined</button></a></div>
+
 ## Is that true that you started your IT career here at Bright Inventions?
 
 Yes, **[Kasia Łukasewicz](/about-us/kasia/) who was my academic teacher at the Gdańsk University of Technology, asked if I would be interested in joining the company**. It was right before graduating the college. I guess I would have become a programmer if she hadn’t offered me that opportunity.
