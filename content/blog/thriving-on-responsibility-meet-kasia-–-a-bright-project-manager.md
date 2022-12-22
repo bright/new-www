@@ -55,3 +55,15 @@ One of the projects is the **payment instruments distribution system** developed
 Our client’s efforts not only result in helping people in crises but also in supporting the growth of local economies. The cards give beneficiaries the freedom to choose what help they actually need.
 
 <div class="image"><img src="/images/kasia_quote_humanitarian.png" alt="quote on tech for humanitarian purposes" title="undefined"  /> </div>
+
+The solution is used in a couple of Asian and African countries. The team I work on for that project contains 4 fullstack developers, 2 mobile devs, and 3 software testers. Working on this project is definitely rewarding. **Not every day you get a chance to build tech for humanitarian purposes**. The aspects of helping people and social justice are significant to me. I really feel that we work on something that has greater meaning.
+
+## That's one project. Is there another project you manage?
+
+Another project is a mobile application built for our German client representing the **building and construction industry**. The **app will help clients’ employees and contractors create and store documentation needed at construction sites**. We build native **apps for iOS and Android**. The development team at Bright consists of 4 mobile developers
+
+There are two greatest challenges coming with this project. The first is very technical. End users cannot depend on the internet connection at construction sites. Therefore **most features have to be available offline**. That adds a lot of complexity during defining the requirements phase.
+
+The second is that backend for our app is built by another external company. They are very open to any discussions and suggestions, but it requires additional effort on the coordination side.
+
+We are at a very exciting stage of the project development, **just days before the MVP launch**.
