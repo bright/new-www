@@ -46,4 +46,12 @@ The Project Manager at Bright Inventions doesn’t play a typical scrum master r
 
 <div class="image"><img src="/images/brightteam_skiing.png" alt="skiing" title="undefined"  /> </div>
 
-As a PM your job is to **make the project move on**. You have to ensure that the client is content and that the development team is happy and feels that what they do matters. Obviously, I've never worked anywhere else, so it’s hard to compare that to other workplaces. Yet I like the fact that **I am truly responsible for the project** and no one higher up the ladder interferes in my work.
+As a PM your job is to **make the project move on**. You have to ensure that the client is content and that the development team is happy and feels that what they do matters. Obviously, I've never worked anywhere else, so it’s hard to compare that to other workplaces. Yet I like the fact that **I am truly responsible for the project** and no one higher up the ladder interferes in my work. 
+
+## What are the projects you manage on daily basis?
+
+One of the projects is the **payment instruments distribution system** developed for one of the top global humanitarian agencies. Thanks to this solution the agency team can distribute debit cards (or other payment instruments like sim cards or vouchers) to communities in need.
+
+Our client’s efforts not only result in helping people in crises but also in supporting the growth of local economies. The cards give beneficiaries the freedom to choose what help they actually need.
+
+<div class="image"><img src="/images/kasia_quote_humanitarian.png" alt="quote on tech for humanitarian purposes" title="undefined"  /> </div>
