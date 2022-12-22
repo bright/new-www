@@ -60,7 +60,7 @@ The solution is used in a couple of Asian and African countries. The team I work
 
 ## That's one project. Is there another project you manage?
 
-Another project is a mobile application built for our German client representing the **building and construction industry**. The **app will help clients’ employees and contractors create and store documentation needed at construction sites**. We build native **apps for iOS and Android**. The development team at Bright consists of 4 mobile developers
+Another project is a mobile application built for our German client representing the **building and construction industry**. The **app will help clients’ employees and contractors create and store documentation needed at construction sites**. We build native **apps for iOS and Android**. The development team at Bright consists of 4 [mobile developers](/our-areas/mobile-app-development).
 
 There are two greatest challenges coming with this project. The first is very technical. End users cannot depend on the internet connection at construction sites. Therefore **most features have to be available offline**. That adds a lot of complexity during defining the requirements phase.
 
