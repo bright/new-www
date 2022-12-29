@@ -300,7 +300,19 @@ collections:
       - { label: 'Intro', name: 'intro', widget: 'string' }
       - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
       - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
+      - { label: 'Image Our Service Desktop', name: 'image_our_service_desktop', widget: 'image' }
+      - { label: 'Image Alt OurService Desktop', name: 'image_alt_our_service_desktop', widget: string }
+      - { label: 'Image Our Service Mobile', name: 'image_our_service_mobile', widget: 'image' }
+      - { label: 'Image Alt OurService Mobile', name: 'image_alt_our_service_mobile', widget: string }
       - { label: 'Description (rich content)', name: 'description_mdx', widget: 'markdown' }
+      - {
+          label: 'Bullet points',
+          name: 'bullet_points',
+          widget: 'list',
+          summary: '{{fields.bullet_point}}',
+          field: { label: 'Bullet point', name: 'bullet_point', widget: 'markdown' },
+        }
+      - { label: 'Stack', name: 'bar_stack', allow_add: true, widget: 'list' }
       - { label: 'Button', name: 'button', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Button2', name: 'button2', widget: 'string' }
