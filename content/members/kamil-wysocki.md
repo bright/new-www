@@ -7,6 +7,7 @@ short_name: Kamil
 web: https://wysockikamil.com
 email: kamil.wysocki@brightinventions.pl
 bio: Software Engineer @ Bright Inventions
+description: Software Engineer @ Bright Inventions
 avatar: /images/members/kamil.png
 github: kamwysoc
 twitter: kamwysoc

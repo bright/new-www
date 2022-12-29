@@ -7,6 +7,7 @@ short_name: Eliasz
 web: http://eluss.github.io/
 email: eliasz.sawicki@brightinventions.pl
 bio: Software Engineer @ Bright Inventions
+description: Software Engineer @ Bright Inventions
 avatar: /images/members/eliasz.png
 github: eluss
 ex: true

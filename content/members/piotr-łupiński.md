@@ -8,7 +8,7 @@ email: piotr.lupinski@brightinventions.pl
 bio: Android Developer @ Bright Inventions
 web: http://exp.flamaster2.com
 avatar: /images/members/piotrl.png
-descrption: Ask him anything from mobile to backend through Blockchain and Big Data, he is
+description: Ask him anything from mobile to backend through Blockchain and Big Data, he is
   our programming genie
 redirect_from: ["/piotr", "/piotr/"]
 ex: true
