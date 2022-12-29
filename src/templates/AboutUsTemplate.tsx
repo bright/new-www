@@ -106,7 +106,7 @@ const AboutUSTemplate: React.FC<Props> = ({ data, pageContext, children }) => {
   if (!member) {
     throw new Error(`data.member required but not found for id: ${pageContext.id}`)
   }
-  const avatarImage = getImage(member.avatar_hover!.childImageSharp)!
+  const avatarImage = getImage((member.avatar_hover ?? member.avatar)!.childImageSharp)!
   const postsRef = useRef<HTMLHeadingElement>(null)
 
   const { posts } = pageContext
