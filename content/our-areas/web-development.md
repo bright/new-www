@@ -38,13 +38,34 @@ order: 2
 title: build solution with web development team
 intro: If you are looking for a web development company, you’ve come to the
   right place!
-image_our_service: /images/web_development_small.png
+image_our_service: /images/picture.png
 image_alt_our_service: web development company
+image_our_service_desktop: /images/picture.png
+image_alt_our_service_desktop: web development company
+image_our_service_mobile: /images/picture_mobile.png
+image_alt_our_service_mobile: web development company
 description_mdx: We provide a wide range of **custom full-stack web development
   services** for small, medium, and large businesses. Since 2012 we’ve gained
   experience in developing web apps, web services, and websites that are
   tailor-made to fit our clients’ goals. We’ve worked with clients from the UK,
   the USA, Germany, Netherlands and more.
+bullet_points:
+  - assessment of your idea in 7 days
+  - from idea to launch in up to 6 months
+  - managing every aspect of the development process
+bar_stack:
+  - Kotlin
+  - Java
+  - Spring
+  - TypeScript
+  - React
+  - Node.js
+  - NestJS
+  - MySQL
+  - PostgreSQL
+  - Swift
+  - AWS
+   
 button: let’s talk about web
 button2: let’s talk about web
 published: true
