@@ -39,7 +39,7 @@ title: build solution with web development team
 highlighted_word: web
 intro: If you are looking for a web development company, you’ve come to the
   right place!
-image_our_service: /images/web_development_small.png
+image_our_service: /images/picture.png
 image_alt_our_service: web development company
 image_our_service_desktop: /images/web_development_desktop.png
 image_alt_our_service_desktop: web development company
