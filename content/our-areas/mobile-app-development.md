@@ -50,10 +50,9 @@ description_mdx: >-
 
   Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
 bullet_points:
-  - |-
-    * assessment of your idea in 7 days
-    * from idea to launch in up to 6 months
-    * managing every aspect of the development process
+  - assessment of your idea in 7 days
+  - from idea to launch in up to 6 months
+  - managing every aspect of the development process
 bar_stack:
   - iOS
   - Kotlin
