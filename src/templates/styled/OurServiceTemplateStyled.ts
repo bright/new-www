@@ -223,7 +223,6 @@ export const MoreButtonOurServiceWrapper = styled.div<{
   marginTopMobile?: string
 }>`
   margin: ${({ margin }) => (margin ? margin : `0 auto`)};
-
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : `${variables.pxToRem(105)}`)};
 
   @media ${variables.device.tablet} {
@@ -235,6 +234,11 @@ export const MoreButtonOurServiceWrapper = styled.div<{
   }
 `
 export const ImageWrapper = styled.div`
+  flex-basis: 50%;
+  @media ${variables.device.tablet} {
+    flex-basis: 100%;
+    overflow: hidden;
+  }
   && .about-img {
     display: block;
     margin: auto;
