@@ -7,6 +7,7 @@ import { HideTablet } from './../../components/shared/index.styled'
 
 export const CustomSectionOurService = styled(CustomSection)`
   flex-basis: 50%;
+  height: 100%;
   @media ${variables.device.tablet} {
     flex-basis: 100%;
   }
