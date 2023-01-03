@@ -1,28 +1,14 @@
 import styled from 'styled-components'
 import { BlackButton } from '../../components/about-us/about-us.styled'
-import { CustomPageTitle, CustomSection, CustomTextRegular } from '../../components/shared'
+import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '../../components/shared'
 import variables from '../../styles/variables'
+import image from '../../../static/images/bullet_point.svg'
 import { HideTablet } from './../../components/shared/index.styled'
 
 export const CustomSectionOurService = styled(CustomSection)`
-  padding-top: ${variables.pxToRem(64)};
-  padding-bottom: ${variables.pxToRem(64)};
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(45)};
-    padding-bottom: ${variables.pxToRem(54)};
-  }
-  @media ${variables.device.tabletXL} {
-    padding-top: ${variables.pxToRem(60)};
-    padding-bottom: ${variables.pxToRem(48)};
-  }
+  flex-basis: 50%;
   @media ${variables.device.tablet} {
-    padding-top: ${variables.pxToRem(48)};
-    padding-bottom: ${variables.pxToRem(44)};
-  }
-
-  @media ${variables.device.mobile} {
-    padding-top: ${variables.pxToRem(48)};
-    padding-bottom: ${variables.pxToRem(44)};
+    flex-basis: 100%;
   }
 `
 
@@ -214,30 +200,49 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
   }
 `
 
-export const BlackButtonOurService = styled(BlackButton)<{ marginTopTablet?: string; marginTop?: string }>`
-  margin: 0 auto;
+export const BlackButtonOurService = styled(BlackButton)<{
+  marginTopTablet?: string
+  marginTop?: string
+  margin?: string
+  tabletWidth?: string
+  marginTopMobile?: string
+}>`
+  margin: ${({ margin }) => (margin ? margin : `0 auto`)};
   display: flex;
   justify-content: center;
+
   text-align: center;
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : `${variables.pxToRem(105)}`)};
 
   @media ${variables.device.tablet} {
     margin-top: ${({ marginTopTablet }) => (marginTopTablet ? marginTopTablet : `${variables.pxToRem(64)}`)};
+    width: ${({ tabletWidth }) => (tabletWidth ? tabletWidth : '')};
+  }
+  @media ${variables.device.mobile} {
+    margin-top: ${({ marginTopMobile }) => (marginTopMobile ? marginTopMobile : `${variables.pxToRem(64)}`)};
   }
 `
 export const ImageWrapper = styled.div`
+  flex-basis: 50%;
+  @media ${variables.device.tablet} {
+    flex-basis: 100%;
+    overflow: hidden;
+  }
   && .about-img {
     display: block;
     margin: auto;
-    max-width: 69%;
-    @media ${variables.device.laptop} {
-      max-width: 80%;
-    }
-    @media ${variables.device.tabletXL} {
-      max-width: 72%;
-    }
-    @media ${variables.device.tablet} {
-      max-width: 100%;
+    max-width: 100%;
+    // @media ${variables.device.laptop} {
+    //   max-width: 80%;
+    // }
+    // @media ${variables.device.tabletXL} {
+    //   max-width: 72%;
+    // }
+    // @media ${variables.device.tablet} {
+    //   max-width: 100%;
+    // }
+    @media ${variables.device.mobile} {
+      min-width: 768px;
     }
   }
 `
@@ -247,17 +252,53 @@ export const OurServiceHideTablet = styled(HideTablet)`
   }
 `
 export const OurServicePageTitle = styled(CustomPageTitle)`
-  font-size: ${variables.pxToRem(48)};
-  line-height: ${variables.pxToRem(54)};
+  font-size: ${variables.pxToRem(74)};
+  line-height: ${variables.pxToRem(90)};
+  font-weight: 800;
+  text-align: left;
   @media ${variables.device.laptop} {
-    font-size: ${variables.pxToRem(44)};
+    font-size: ${variables.pxToRem(54)};
+    line-height: ${variables.pxToRem(65)};
   }
   @media ${variables.device.tabletXL} {
-    font-size: ${variables.pxToRem(38)};
+    font-size: ${variables.pxToRem(52)};
+    line-height: ${variables.pxToRem(63)};
+  }
+  @media ${variables.device.tablet} {
+    font-size: ${variables.pxToRem(74)};
+    line-height: ${variables.pxToRem(90)};
   }
   @media ${variables.device.mobile} {
-    font-size: 2rem;
-    font-weight: 900;
-    line-height: 2.44rem;
+      font-size: ${variables.pxToRem(52)};
+    line-height: ${variables.pxToRem(63)};
+    
+`
+export const BulletList = styled.li`
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: ${variables.pxToRem(20)};
+  line-height: ${variables.pxToRem(40)};
+
+  color: #0a0a0a;
+  padding-inline-start: 16px;
+  display: list-item;
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(16)};
+    line-height: ${variables.pxToRem(32)};
+  }
+`
+export const BulletsList = styled.ul`
+  list-style: outside url(${image}) none;
+  padding-inline-start: 27px;
+`
+export const CloutchWrapper = styled.div`
+  padding-top: ${variables.pxToRem(16)};
+`
+export const OurServiceFlexWraper = styled(FlexWrapper)`
+  height: 100vh;
+
+  @media ${variables.device.tablet} {
+    height: 100%;
   }
 `
