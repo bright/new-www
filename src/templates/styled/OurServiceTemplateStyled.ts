@@ -4,10 +4,13 @@ import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '
 import variables from '../../styles/variables'
 import image from '../../../static/images/bullet_point.svg'
 import { HideTablet } from './../../components/shared/index.styled'
+import { clampBuilder } from './../../helpers/clampBuilder'
 
 export const CustomSectionOurService = styled(CustomSection)`
   flex-basis: 50%;
   height: 100%;
+  padding-top: ${clampBuilder(1542, 1920, 100, 175)};
+
   @media ${variables.device.tablet} {
     flex-basis: 100%;
   }
@@ -253,26 +256,26 @@ export const OurServiceHideTablet = styled(HideTablet)`
   }
 `
 export const OurServicePageTitle = styled(CustomPageTitle)`
-  font-size: ${variables.pxToRem(74)};
-  line-height: ${variables.pxToRem(90)};
+  font-size: ${clampBuilder(1542, 1920, 54, 74)};
+  line-height: ${clampBuilder(1542, 1920, 65, 90)};
   font-weight: 800;
   text-align: left;
   @media ${variables.device.laptop} {
-    font-size: ${variables.pxToRem(54)};
-    line-height: ${variables.pxToRem(65)};
+    font-size: ${clampBuilder(1281, 1542, 52, 54)};
+    line-height: ${clampBuilder(1281, 1542, 63, 65)};
   }
   @media ${variables.device.tabletXL} {
-    font-size: ${variables.pxToRem(52)};
-    line-height: ${variables.pxToRem(63)};
+    font-size: ${clampBuilder(992, 1280, 44, 52)};
+    line-height: ${clampBuilder(992, 1280, 53, 63)};
   }
   @media ${variables.device.tablet} {
     font-size: ${variables.pxToRem(74)};
     line-height: ${variables.pxToRem(90)};
   }
   @media ${variables.device.mobile} {
-      font-size: ${variables.pxToRem(52)};
+    font-size: ${variables.pxToRem(52)};
     line-height: ${variables.pxToRem(63)};
-    
+  }
 `
 export const BulletList = styled.li`
   font-family: 'Lato';
@@ -299,7 +302,7 @@ export const CloutchWrapper = styled.div`
 export const OurServiceFlexWraper = styled(FlexWrapper)`
   height: 100vh;
 
-  @media ${variables.device.tablet} {
+  @media ${variables.device.tabletXL} {
     height: 100%;
   }
 `
