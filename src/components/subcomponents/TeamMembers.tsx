@@ -196,8 +196,7 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
   @media ${variables.device.mobile} {
     margin-bottom: ${({ isOurServiceTemplate }) =>
       isOurServiceTemplate ? ` ${variables.pxToRem(32)}!important` : '0.5rem!important'};
-  }import { clampBuilder } from './../../helpers/clampBuilder';
-
+  }
 
   & .avatar1 {
     max-height: 306px;
