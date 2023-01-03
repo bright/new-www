@@ -318,9 +318,6 @@ export const OurServicePageTitle = styled(CustomPageTitle)`
     line-height: ${variables.pxToRem(82.89)};
   }
   @media ${variables.device.mobile} {
-    font-size: ${clampBuilder(200, 581, 40, 45)};
-    line-height: ${variables.pxToRem(47.25)};
-
     font-size: ${clampBuilder(200, 581, 40, 52)};
     line-height: ${variables.pxToRem(63)};
   }
