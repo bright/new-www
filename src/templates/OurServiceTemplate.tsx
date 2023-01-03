@@ -210,8 +210,8 @@ export default function Template({
         <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
         </CustomSectionTitle>
-        {width < breakpoint && <TeamMemebersSwiper authorIdsArray={team_members} />}
-        {width >= breakpoint && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
+        <div>{width < breakpoint && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
+        <div>{width >= breakpoint && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}</div>
       </CustomSection>
 
       {show_technology_stack && <TechnologyTags tags={bar_stack} />}
