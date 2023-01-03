@@ -5,6 +5,8 @@ import { Contact } from '../components/shared/Contact'
 import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
+import RatingClutch from '../assets/rating.svg'
+import { useWindowSize } from '../components/utils/use-windowsize'
 
 import {
   CustomSectionInner,
@@ -29,9 +31,15 @@ import {
   OurServiceHideTablet,
   OurServicePageTitle,
   OurServiceSection,
+  BulletList,
+  BulletsList,
+  CloutchWrapper,
+  OurServiceFlexWraper,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
+import { FlexWrapper } from '../components/shared'
+import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 
 export default function Template({
   data,
@@ -40,7 +48,9 @@ export default function Template({
 }: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string } }>) {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
-  const image = getImage(page.image_our_service)
+  const { width } = useWindowSize()
+  const breakpoint = 993
+  const image = getImage(width < breakpoint ? page.image_our_service_mobile : page.image_our_service_desktop)
   const myRef = useRef<HTMLDivElement>(null)
   const { faqTitle } = pageContext
 
@@ -110,6 +120,8 @@ export default function Template({
     title_faqs,
     title_contact,
     description_contact,
+    bar_stack,
+    bullet_points,
     project: projects,
     slug,
   } = page
@@ -117,54 +129,74 @@ export default function Template({
   return (
     <Page>
       <HelmetMetaData title={meta_title} description={meta_description} />
-      <CustomSectionOurService>
-        <CustomSectionInner
-          maxWidth='70%'
-          tabletXLMaxWidth='80%'
-          laptopMaxWidth='70%'
-          mobileMaxWidth='100%'
-          tabletMaxWidth='90%'
-        >
-          <OurServicePageTitle>{title}</OurServicePageTitle>
-        </CustomSectionInner>
-      </CustomSectionOurService>
-      <OurServiceHideTablet>
-        <CustomSection
-          paddingProps='0 15rem 2.125rem '
-          paddingTabletXL='0 9rem 1.3125rem '
-          paddingLaptop='0 6rem 1.6875rem '
-        >
-          <CustomSectionInner maxWidth='956px'>
-            <Link to={'#contactForm'}>
-              <BlackButtonOurService marginTop='0'>{button}</BlackButtonOurService>
-            </Link>
-          </CustomSectionInner>
-        </CustomSection>
-      </OurServiceHideTablet>
 
-      <ImageWrapper>
-        {image && <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' />}
-      </ImageWrapper>
-      <Section>
+      <OurServiceFlexWraper desktopItems='center' tabletDirection='column'>
+        <CustomSectionOurService
+          paddingProps='12.1875rem 0 0 15rem '
+          paddingLaptop='7.5rem 0 0 6rem'
+          paddingTabletXL='7.5rem 0 0 9.375rem '
+          paddingTablet='4rem  2.25rem 0'
+          paddingMobileProps='4rem 1.125rem 0'
+        >
+          <CustomSection
+            paddingProps='0 0 32px'
+            paddingLaptop='0 0 32px'
+            paddingTabletXL='0 0 4px'
+            paddingTablet='0 0 4rem'
+            paddingMobileProps='0 0 4rem'
+          >
+            <OurServicePageTitle>{title}</OurServicePageTitle>
+          </CustomSection>
+          <BulletsList>
+            {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}
+          </BulletsList>
+
+          <Link to={'#contactForm'}>
+            <BlackButtonOurService
+              marginTop='81px'
+              margin='0'
+              marginTopTablet='180px'
+              tabletWidth='100%'
+              marginTopMobile='112px'
+            >
+              {button}
+            </BlackButtonOurService>
+          </Link>
+
+          <CloutchWrapper>
+            <FlexWrapper desktopItems='center' desktopGap='18px'>
+              <TextRegular>Clutch 4.9/5</TextRegular>
+              <RatingClutch />
+            </FlexWrapper>
+          </CloutchWrapper>
+        </CustomSectionOurService>
+        <CustomSectionOurService
+          paddingProps='12.1875rem 15rem 0 0 '
+          paddingLaptop='7.5rem 6rem 0 0'
+          paddingTabletXL='7.5rem 9.375rem 0 0 '
+          paddingTablet='4rem 0 0 0'
+          paddingMobileProps='4rem 0 0 0'
+        >
+          <ImageWrapper>
+            {image && <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' />}
+          </ImageWrapper>
+        </CustomSectionOurService>
+      </OurServiceFlexWraper>
+
+      {/* <Section>
         <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
           <CustomSectionInner>
             <TextRegular className='content'>
               {description && <Content dangerouslySetInnerHTML={{ __html: description.html }} />}
             </TextRegular>
-            <Link to={'#contactForm'}>
-              <BlackButtonOurService>{button}</BlackButtonOurService>
-            </Link>
           </CustomSectionInner>
         </CustomSection>
-      </Section>
-      <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
-        <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
-          {title_team}
-        </CustomSectionTitle>
-        <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />
-      </CustomSection>
-
-      <CustomSection paddingProps='0 15rem 5.625rem 15rem' paddingMobileProps='0 1.125rem 4rem'>
+      </Section> */}
+      <CustomSection
+        paddingProps='12.5rem 15rem 5.625rem 15rem'
+        paddingMobileProps='0 1.125rem 4rem'
+        paddingTablet='5rem 2.25rem 0 '
+      >
         <OurServiceSection>
           <CustomSectionInner>
             <Content className='content'>{children}</Content>
@@ -174,8 +206,18 @@ export default function Template({
           </CustomSectionInner>
         </OurServiceSection>
       </CustomSection>
+      <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
+        <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
+          {title_team}
+        </CustomSectionTitle>
+        {width < breakpoint ? (
+          <TeamMemebersSwiper authorIdsArray={team_members} />
+        ) : (
+          <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />
+        )}
+      </CustomSection>
 
-      {show_technology_stack && <TechnologyTags />}
+      {show_technology_stack && <TechnologyTags tags={bar_stack} />}
 
       {show_case_study && (
         <div>
@@ -270,9 +312,11 @@ export const pageQuery = graphql`
         title
         intro
         slug
+        bullet_points
         description_mdx {
           html
         }
+        bar_stack
         button
         button2
         show_case_study
@@ -283,6 +327,16 @@ export const pageQuery = graphql`
         title_contact
         description_contact
         name
+        image_our_service_mobile {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+        image_our_service_desktop {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
         image_our_service {
           childImageSharp {
             gatsbyImageData
