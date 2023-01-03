@@ -246,7 +246,8 @@ export const ImageWrapper = styled.div`
     //   max-width: 100%;
     // }
     @media ${variables.device.mobile} {
-      min-width: 768px;
+      min-width: 546px;
+      
     }
   }
 `
