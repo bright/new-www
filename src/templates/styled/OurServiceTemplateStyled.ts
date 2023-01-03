@@ -249,6 +249,19 @@ export const ImageWrapper = styled.div`
     display: block;
     margin: auto;
     max-width: 100%;
+    // @media ${variables.device.laptop} {
+    //   max-width: 80%;
+    // }
+    // @media ${variables.device.tabletXL} {
+    //   max-width: 72%;
+    // }
+    // @media ${variables.device.tablet} {
+    //   max-width: 100%;
+    // }
+    @media ${variables.device.mobile} {
+      min-width: 546px;
+      
+    }
   }
 `
 export const OurServiceHideTablet = styled(HideTablet)`
@@ -274,11 +287,7 @@ export const OurServicePageTitle = styled(CustomPageTitle)`
     line-height: ${variables.pxToRem(90)};
   }
   @media ${variables.device.mobile} {
-<<<<<<< HEAD
     font-size: ${clampBuilder(200, 581, 40, 52)};
-=======
-    font-size: ${variables.pxToRem(52)};
->>>>>>> efbdf024 (change layout OurServiceTemplate.tsx)
     line-height: ${variables.pxToRem(63)};
   }
 `
