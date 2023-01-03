@@ -302,7 +302,11 @@ export const OurServicePageTitle = styled(CustomPageTitle)`
     line-height: ${variables.pxToRem(90)};
   }
   @media ${variables.device.mobile} {
+<<<<<<< HEAD
     font-size: ${clampBuilder(200, 581, 40, 52)};
+=======
+    font-size: ${variables.pxToRem(52)};
+>>>>>>> efbdf024 (change layout OurServiceTemplate.tsx)
     line-height: ${variables.pxToRem(63)};
   }
 `
