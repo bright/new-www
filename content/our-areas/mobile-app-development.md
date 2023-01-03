@@ -38,6 +38,10 @@ title: build native apps with mobile development team
 intro: Our team has broad experience in building applications for iOS and Android.
 image_our_service: /images/mobile_app_development.png
 image_alt_our_service: mobile app development company
+image_our_service_desktop: /images/mobile_development_company.png
+image_alt_our_service_desktop: Mobile development company
+image_our_service_mobile: /images/mobile_development_company_phone.png
+image_alt_our_service_mobile: Mobile development company
 description_mdx: >-
   At Bright Inventions, we live and breathe **native mobile app development for
   iOS and Android**. Our app development team has broad experience in building
@@ -45,6 +49,20 @@ description_mdx: >-
 
 
   Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
+bullet_points:
+  - assessment of your idea in 7 days
+  - from idea to launch in up to 6 months
+  - managing every aspect of the development process
+bar_stack:
+  - iOS
+  - Kotlin
+  - Coroutines
+  - Android
+  - Swift
+  - Realm
+  - GitHub
+  - Firebase
+  - Fastlane
 button: let's talk about mobile
 button2: let's talk about mobile
 published: true
