@@ -240,28 +240,10 @@ export const BlackButtonOurService = styled(BlackButton)<{
   }
 `
 export const ImageWrapper = styled.div`
-  flex-basis: 50%;
-  @media ${variables.device.tablet} {
-    flex-basis: 100%;
-    overflow: hidden;
-  }
   && .about-img {
     display: block;
     margin: auto;
     max-width: 100%;
-    // @media ${variables.device.laptop} {
-    //   max-width: 80%;
-    // }
-    // @media ${variables.device.tabletXL} {
-    //   max-width: 72%;
-    // }
-    // @media ${variables.device.tablet} {
-    //   max-width: 100%;
-    // }
-    @media ${variables.device.mobile} {
-      min-width: 546px;
-      
-    }
   }
 `
 export const OurServiceHideTablet = styled(HideTablet)`
