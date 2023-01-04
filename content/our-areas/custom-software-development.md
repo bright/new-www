@@ -65,7 +65,7 @@ bar_stack:
   - NestJS
   - Java
 button: let's talk
-button2: "work with us "
+button2: "cooperate with us "
 published: true
 show_case_study: true
 show_technology_stack: true
