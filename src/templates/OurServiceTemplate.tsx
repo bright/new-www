@@ -45,7 +45,6 @@ export default function Template({
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
   const { width } = useWindowSize()
-
   const breakpointTablet = 992
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
