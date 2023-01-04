@@ -50,7 +50,8 @@ export default function Template({
   const { frontmatter: page } = mdx
   const { width } = useWindowSize()
   const breakpoint = 993
-  const image = getImage(width < breakpoint ? page.image_our_service_mobile : page.image_our_service_desktop)
+  const mobileImage = getImage(page.image_our_service_mobile)
+  const desktopImage = getImage(page.image_our_service_desktop)
   const myRef = useRef<HTMLDivElement>(null)
   const { faqTitle } = pageContext
 
@@ -177,9 +178,16 @@ export default function Template({
           paddingTablet='4rem 0 0 0'
           paddingMobileProps='4rem 0 0 0'
         >
-          <ImageWrapper>
-            {image && <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' />}
-          </ImageWrapper>
+          {width < breakpoint && (
+            <ImageWrapper>
+              {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
+            </ImageWrapper>
+          )}
+          {width >= breakpoint && (
+            <ImageWrapper>
+              {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
+            </ImageWrapper>
+          )}
         </CustomSectionOurService>
       </OurServiceFlexWraper>
 
