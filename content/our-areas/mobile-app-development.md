@@ -55,9 +55,9 @@ bullet_points:
   - managing every aspect of the development process
 bar_stack:
   - iOS
+  - Android
   - Kotlin
   - Coroutines
-  - Android
   - Swift
   - Realm
   - GitHub
