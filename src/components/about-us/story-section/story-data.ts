@@ -161,13 +161,21 @@ export const story: readonly Story[] = [
         src: '/images/why-us/timeline/birthday_2022.png',
         alt: 'Bright Inventions 10th birthday',
       },
+    ],
+    heading: '2022',
+    subheading: '',
+    content: `We celebrated 10th birthday! Also, we joined the Nordic Group Mirovia.`,
+  },  
+  {
+    images: [],
+    logos: [
       {
         src: '/images/why-us/timeline/timeline_mirovia.png',
         alt: 'Mirovia',
       },
     ],
-    heading: '2022',
+    heading: '2023',
     subheading: '',
-    content: `We celebrated 10th birthday! Also, we joined the Nordic Group Mirovia.`,
+    content: `We are focused on enhancing our cooperation with Mirovia.`,
   },  
 ] as const
