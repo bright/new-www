@@ -44,6 +44,23 @@ image_alt_our_service_mobile: MVP development company
 description_mdx: Do you want to build an MVP? You came to the right place. We
   have developed MVPs for startups, NGOs and consulting agencies from the USA,
   UK, Germany, Norway and more. Let’s work on your MVP.
+bullet_points:
+  - assessment of your idea in 7 days
+  - launch MVP in 3 to 6 months
+  - scaling your business from MVP to global solution
+bar_stack:
+  - iOS
+  - Android
+  - Swift
+  - Kotlin
+  - Flutter
+  - iBeacon
+  - IoT
+  - AWS
+  - TypeScript
+  - Node.js
+  - React
+  - NestJS
 button: let's talk about MVP
 button2: let's talk about MVP
 published: true
