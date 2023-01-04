@@ -232,6 +232,7 @@ export const BlackButtonOurService = styled(BlackButton)<{
   }
   @media ${variables.device.mobile} {
     margin-top: ${({ marginTopMobile }) => (marginTopMobile ? marginTopMobile : `${variables.pxToRem(64)}`)};
+    padding: 1rem 1rem;
   }
 `
 export const ImageWrapper = styled.div`
