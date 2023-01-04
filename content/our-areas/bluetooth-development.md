@@ -37,11 +37,19 @@ title: build apps with Bluetooth development team
 intro: We deliver Bluetooth-based solutions.
 image_our_service: /images/bluetooth_development_poland.png
 image_alt_our_service: Bluetooth app development Poland
+image_our_service_desktop: /images/bluetooth-development-company_services.png
+image_alt_our_service_desktop: Bluetooth app development company
+image_our_service_mobile: /images/bluetooth-development-company_services_phones.png
+image_alt_our_service_mobile: Bluetooth app development services
 description_mdx: We deliver Bluetooth-based solutions. We have developed
   Bluetooth applications for international clients representing the retail,
   healthcare, and fitness industries. We specialize in Bluetooth Low Energy
   solutions and iBeacon technology. We deliver customized mobile & web
   applications connected with hardware thanks to Bluetooth technology.
+bullet_points:
+  - customized Bluetooth solutions for web & mobile
+  - iOS and Android Bluetooth apps in 3 to 6 months
+  - Bluetooth LE and iBeacon in your product
 button: let’s talk about Bluetooth
 button2: let’s talk about Bluetooth
 published: true
