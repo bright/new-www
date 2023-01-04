@@ -212,6 +212,14 @@ export const CarouselQuotesSwiper: React.FC = () => {
         'I love that we are partners to our clients and bring something more to the table than lines of code. We get to work on the solution, and business expectations, and we can choose technologies and frameworks. Here you really influence your project.',
     },
     {
+      avatar_hover: <StaticImage src='../../../static/images/kasia_g_passion.png' alt='Kasia G' className='quote-img' />,
+      short_name: 'Kasia',
+      bio: 'Project Manager',
+      slug: 'kasia-g',
+      quote:
+        'I work on a very rewarding project. Not every day you get a chance to build tech for humanitarian purposes. I really feel that we work on something that has greater meaning.',
+    },
+    {
       avatar_hover: <StaticImage src='../../../static/images/ola_passion_team.png' alt='Ola' className='quote-img' />,
       short_name: 'Aleksandra',
       bio: 'Fullstack Developer',
