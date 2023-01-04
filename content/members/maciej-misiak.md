@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: maciej-m
-ex: false
+ex: true
 slug: maciej-m
 name: Maciej Misiak
 short_name: Maciej
