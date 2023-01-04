@@ -341,12 +341,12 @@ export const pageQuery = graphql`
         name
         image_our_service_mobile {
           childImageSharp {
-            gatsbyImageData(quality: 100)
+            gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE)
           }
         }
         image_our_service_desktop {
           childImageSharp {
-            gatsbyImageData(quality: 100)
+            gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE)
           }
         }
         image_our_service {
