@@ -178,16 +178,20 @@ export default function Template({
           paddingTablet='4rem 0 0 0'
           paddingMobileProps='4rem 0 0 0'
         >
-          {width < breakpoint && (
-            <ImageWrapper>
-              {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
-            </ImageWrapper>
-          )}
-          {width >= breakpoint && (
-            <ImageWrapper>
-              {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
-            </ImageWrapper>
-          )}
+          <div>
+            {width < breakpoint && (
+              <ImageWrapper>
+                {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
+              </ImageWrapper>
+            )}
+          </div>
+          <div>
+            {width >= breakpoint && (
+              <ImageWrapper>
+                {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
+              </ImageWrapper>
+            )}
+          </div>
         </CustomSectionOurService>
       </OurServiceFlexWraper>
 
