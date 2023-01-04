@@ -50,6 +50,14 @@ bullet_points:
   - customized Bluetooth solutions for web & mobile
   - iOS and Android Bluetooth apps in 3 to 6 months
   - Bluetooth LE and iBeacon in your product
+bar_stack:
+  - Bluetooth LE
+  - iBeacon
+  - iOS
+  - Android
+  - Swift
+  - Kotlin
+  - IoT
 button: let’s talk about Bluetooth
 button2: let’s talk about Bluetooth
 published: true
