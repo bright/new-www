@@ -11,8 +11,13 @@ export const CustomSectionOurService = styled(CustomSection)`
   height: 100%;
   padding-top: ${clampBuilder(1542, 1920, 100, 175)};
 
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(120)};
+  }
+
   @media ${variables.device.tablet} {
     flex-basis: 100%;
+    padding-top: ${variables.pxToRem(64)};
   }
 `
 
@@ -38,6 +43,9 @@ export const OurServiceSection = styled.section`
       font-size: ${variables.pxToRem(16)};
       line-height: ${variables.pxToRem(28)};
     }
+  }
+  @media ${variables.device.tabletXL} {
+    padding: ${variables.pxToRem(182)} 0 ${variables.pxToRem(82)};
   }
   @media ${variables.device.tablet} {
     padding: 0 0 ${variables.pxToRem(82)};
@@ -256,7 +264,7 @@ export const OurServicePageTitle = styled(CustomPageTitle)`
     line-height: ${variables.pxToRem(90)};
   }
   @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(52)};
+    font-size: ${clampBuilder(200, 581, 40, 52)};
     line-height: ${variables.pxToRem(63)};
   }
 `
