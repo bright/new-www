@@ -48,6 +48,10 @@ export const CustomSectionOurService = styled(CustomSection)`
     padding-top: ${variables.pxToRem(120)};
   }
 
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(120)};
+  }
+
   @media ${variables.device.tablet} {
     flex-basis: 100%;
     padding-top: ${variables.pxToRem(64)};
