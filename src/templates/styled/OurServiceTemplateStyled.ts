@@ -57,7 +57,7 @@ export const Content = styled.div<{ textAlign?: string }>`
   line-height: ${variables.pxToRem(40)};
 
   && h2 {
-    font-size: ${variables.pxToRem(32)};
+    font-size: ${variables.pxToRem(40)};
     color: #000000;
     font-weight: 900;
     margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
@@ -68,13 +68,17 @@ export const Content = styled.div<{ textAlign?: string }>`
     }
 
     @media ${variables.device.tablet} {
-      font-size: ${variables.pxToRem(22)};
+      font-size: ${variables.pxToRem(34)};
       line-height: ${variables.pxToRem(27)};
       color: #000;
       text-align: center;
       &:first-of-type {
         margin: ${variables.pxToRem(32)} 0 ${variables.pxToRem(36)};
       }
+    }
+
+    @media ${variables.device.mobile} {
+      font-size: ${variables.pxToRem(22)};
     }
   }
 
