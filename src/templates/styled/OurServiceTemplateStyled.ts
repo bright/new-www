@@ -273,11 +273,6 @@ export const MoreButtonOurServiceWrapper = styled.div<{
   }
 `
 export const ImageWrapper = styled.div`
-  flex-basis: 50%;
-  @media ${variables.device.tablet} {
-    flex-basis: 100%;
-    overflow: hidden;
-  }
   && .about-img {
     display: block;
     margin: auto;
