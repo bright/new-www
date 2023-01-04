@@ -274,7 +274,7 @@ export const OurServicePageTitle = styled(CustomPageTitle)`
     line-height: ${variables.pxToRem(90)};
   }
   @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(52)};
+    font-size: ${clampBuilder(200, 581, 40, 52)};
     line-height: ${variables.pxToRem(63)};
   }
 `
