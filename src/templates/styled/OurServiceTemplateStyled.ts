@@ -24,6 +24,10 @@ export const CustomSectionOurService = styled(CustomSection)`
     padding-top: ${variables.pxToRem(120)};
   }
 
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(120)};
+  }
+
   @media ${variables.device.tablet} {
     flex-basis: 100%;
     padding-top: ${variables.pxToRem(64)};
@@ -76,7 +80,6 @@ export const OurServiceSection = styled.section`
       line-height: ${variables.pxToRem(28)};
     }
   }
-
   @media ${variables.device.tablet} {
     padding: 0 0 ${variables.pxToRem(82)};
   }
