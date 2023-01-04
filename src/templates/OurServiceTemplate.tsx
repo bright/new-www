@@ -192,7 +192,7 @@ export default function Template({
           <div>
             {width >= breakpointTablet && typeof window !== 'undefined' && (
               <ImageWrapper>
-                {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
+                {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
               </ImageWrapper>
             )}
           </div>
