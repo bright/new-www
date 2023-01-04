@@ -338,12 +338,12 @@ export const pageQuery = graphql`
         name
         image_our_service_mobile {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(quality: 90)
           }
         }
         image_our_service_desktop {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(quality: 90)
           }
         }
         image_our_service {
