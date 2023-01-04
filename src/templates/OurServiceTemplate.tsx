@@ -50,6 +50,7 @@ export default function Template({
   const { frontmatter: page } = mdx
   const { width } = useWindowSize()
   const breakpoint = 581
+  const breakpointTablet = 992
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
   const myRef = useRef<HTMLDivElement>(null)
@@ -222,8 +223,10 @@ export default function Template({
         <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
         </CustomSectionTitle>
-        <div>{width < breakpoint && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
-        <div>{width >= breakpoint && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}</div>
+        <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
+        <div>
+          {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
+        </div>
       </CustomSection>
 
       {show_technology_stack && <TechnologyTags tags={bar_stack} />}
