@@ -39,9 +39,31 @@ title: be unique with custom software development
 intro: We help to address your clients needs.
 image_our_service: /images/customsoftwaredevelopment_small.png
 image_alt_our_service: custom software development
-description_mdx: Every business is unique. Bespoke software development can truly
-  address your needs, challenges, and goals. By adopting a personalized approach
-  for your software development, we also simplify and optimize your workflows.
+image_our_service_desktop: /images/custom_software_development.png
+image_alt_our_service_desktop: custom software development company
+image_our_service_mobile: /images/custom_software_development_tablet.png
+image_alt_our_service_mobile: custom software development company
+description_mdx: Every business is unique. Bespoke software development can
+  truly address your needs, challenges, and goals. By adopting a personalized
+  approach for your software development, we also simplify and optimize your
+  workflows.
+bullet_points:
+  - assessment of your idea in 7 days
+  - taking care of every stage of development
+  - scaling your business from MVP to global solution
+bar_stack:
+  - Android
+  - Swift
+  - iOS
+  - Kotlin
+  - Coroutines
+  - IoT
+  - AWS
+  - TypeScript
+  - Node.js
+  - React
+  - NestJS
+  - Java
 button: let's talk
 button2: "work with us "
 published: true
