@@ -77,7 +77,7 @@ show case study: true
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill in the form below, or drop us a line via
 ---
-## Mobile app development services
+## mobile app development services
 
 As a mobile app development company, we specialise in iOS and Android software development.
 
