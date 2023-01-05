@@ -12,4 +12,6 @@ avatar: /images/lukasz_m_team.png
 avatar_hover: /images/lukasz_m_passion.png
 published: true
 ---
-Node.js Backend Developer
+My career took a strange turn. I wanted to be a web developer. Yet somehow I ended up working as a social media specialist. For 6 years. One day I decided it was time to pursue a web dev path. And here I am, with more than 5 years of experience in backend development (PHP and Node.js). Focused on high-quality, testable, and maintainable code, especially in REST API field. 
+
+Privately a huge fan of sports and outdoor activities (gym, biking, football, hiking, sleeping in tents)... there are so many of them :)
