@@ -2,15 +2,14 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 
 interface WindowSize {
-  width: number | null
+  width: number
 }
 
 export const useWindowSize = (): WindowSize => {
   const isSSR = typeof window !== 'undefined'
   const [windowSize, setWindowSize] = useState<WindowSize>({
-    width: isSSR ? window.innerWidth : null,
+    width: isSSR ? window.innerWidth : 500,
   })
-  console.log(windowSize)
 
   function changeWindowSize() {
     setWindowSize({ width: window.innerWidth })
