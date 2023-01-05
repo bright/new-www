@@ -180,14 +180,14 @@ export default function Template({
           paddingMobileProps='4rem 0 0 0'
         >
           <div>
-            {width >= breakpoint && (
+            {width >= breakpoint && typeof window !== 'undefined' && (
               <ImageWrapper>
                 {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
               </ImageWrapper>
             )}
           </div>
           <div>
-            {width < breakpoint && (
+            {width < breakpoint && typeof window !== 'undefined' && (
               <ImageWrapper>
                 {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
               </ImageWrapper>
