@@ -13,3 +13,5 @@ avatar_hover: /images/wojciech_passion2022.png
 published: true
 ---
 Fullstack Developer keens on DevOps and automating things. After hours, he is interested in deck-building games, scuba-diving and NBA.
+
+Join Wojciech! [Check our career opportunities](/career).
