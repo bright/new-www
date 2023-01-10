@@ -11,6 +11,8 @@ image: /images/polish_tech_initiatives_women_cover.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **Everything you should know about Polish initiatives for women in tech. Check out available mentoring programs, courses, communities, and join the movement!**
 

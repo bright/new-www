@@ -6,13 +6,16 @@ tags:
   - software development
   - project management
 date: 2021-07-15T07:31:54.979Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: ''
 title: How to protect software development projects from bus factor problem
 layout: post
 image: /images/blogpost_www_izabela_bus.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
+  - mateusz
 ---
 **Do you know what a bus factor is? Should it be a nightmare for startups that build in-house teams or hire a software development agency? Check out the best practices to protect the development projects from the bus factor risk.**
 

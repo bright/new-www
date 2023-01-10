@@ -11,6 +11,8 @@ tags:
   - parity
 date: '2017-11-13T23:00:00.000Z'
 published: true
+authors:
+  - daniel
 ---
 
 # Deploying smart contracts

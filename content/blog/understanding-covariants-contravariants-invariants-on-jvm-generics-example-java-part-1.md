@@ -6,13 +6,16 @@ tags:
   - java
   - backend
 date: 2022-07-14T03:44:55.437Z
-title: Understanding Covariants, Contravariants, and Invariants on JVM Generics
+title: >-
+  Understanding Covariants, Contravariants, and Invariants on JVM Generics
   Example. Part 1 - Java
 layout: post
 image: /images/blog_post_java.png
 hidden: false
 comments: true
 published: true
+authors:
+  - michal k
 ---
 ![](https://cdn-images-1.medium.com/max/1600/1*TdFqWJeP3LYOc-n6j6IGTQ.jpeg)
 

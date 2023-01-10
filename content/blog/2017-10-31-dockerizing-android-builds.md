@@ -11,6 +11,8 @@ tags:
   - docker
 date: '2017-10-30T23:00:00.000Z'
 published: true
+authors:
+  - azabost
 ---
 
 Docker is a great container platform that helps building a true independence between applications, infrastructure and developers. It provides an isolation which supports building modern continuous integration environments with ease and at low cost.

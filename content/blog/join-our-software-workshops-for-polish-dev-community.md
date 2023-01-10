@@ -15,6 +15,10 @@ image: /images/blog_cover_workshops.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
+  - fjablonski
+  - mateusz
 ---
 **2022 is the year we turn 10 as Bright Inventions. 🎉  We decided to celebrate it by sharing insights with the community. At the same time our goal is to keep improving our knowledge sharing skills. We organize workshops for the software development community from Poland. Join Agile or iOS workshops or sign up for a webinar for future tech leaders. All workshops are conducted in Polish.**
 

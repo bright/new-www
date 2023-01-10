@@ -10,6 +10,8 @@ image: /images/blog_post_cover_redshift.png
 hidden: false
 comments: true
 published: true
+authors:
+  - agnieszka
 ---
 
 It is often convenient to create a view upon your normalized schema to join and aggregate the data, especially when it requires a complicated query.

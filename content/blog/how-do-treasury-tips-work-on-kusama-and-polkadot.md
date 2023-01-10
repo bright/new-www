@@ -11,6 +11,9 @@ image: /images/blog_post_cover-tips.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
+  - kasia
 ---
 **Have you found someone in the Web3 community whose actions are worth rewarding? You can suggest a tip that will go to this person. Check how to do it in a simple way. No coding background is needed.**
 

@@ -1,8 +1,9 @@
 ---
-excerpt: Let's follow the typical path the front-end project takes nowadays and
-  add Redux into our React+TypeScript application. TypeScript is a powerful
-  beast that we can employ to make our Redux code not only type safe, but also
-  much cleaner and more readable.
+excerpt: >-
+  Let's follow the typical path the front-end project takes nowadays and add
+  Redux into our React+TypeScript application. TypeScript is a powerful beast
+  that we can employ to make our Redux code not only type safe, but also much
+  cleaner and more readable.
 author: adam
 tags:
   - React
@@ -14,6 +15,8 @@ layout: post
 image: /images/typescript_redux.png
 comments: true
 published: true
+authors:
+  - adam
 ---
 
 Recently we've checked [what benefits TypeScript adds in our React project](/blog/5-ways-to-benefit-from-typescript-in-react/). Let's now follow the typical path the front-end project takes nowadays and add [Redux](/blog/from-react-to-react-redux-in-a-few-steps/) into the mix. Unfortunately, by default Redux is not really type safe as it is in most cases presented as [switches over actions with arbitrary payloads](https://redux.js.org/introduction/core-concepts). But TypeScript is a powerful beast and with a bit of care we can make our Redux code not only type safe, but also much cleaner and more readable.

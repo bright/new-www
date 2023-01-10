@@ -1,14 +1,15 @@
 ---
-excerpt: Elon Musk once said that leadership does not depend nowadays on the
-  number of patents companies have, but on the ability to hire talented people
-  who know how to make the most of the knowledge and skills they have. Knowledge
-  and patents themselves should be open source. Knowledge sharing is the process
-  in which the main role is always played by people. It is about collaborative
+excerpt: >-
+  Elon Musk once said that leadership does not depend nowadays on the number of
+  patents companies have, but on the ability to hire talented people who know
+  how to make the most of the knowledge and skills they have. Knowledge and
+  patents themselves should be open source. Knowledge sharing is the process in
+  which the main role is always played by people. It is about collaborative
   learning where everyone contribute to drive a real value. By sharing our
   individual experiences, know-how and skills with others we really learn a lot
   and gain new perspectives.
 layout: post
-title: In the end, the love you take is always equal to the love you make
+title: 'In the end, the love you take is always equal to the love you make'
 date: 2017-11-30T23:00:00.000Z
 image: /images/hand-teamwork.jpg
 author: ula
@@ -20,6 +21,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 Elon Musk once said that leadership does not depend nowadays on the number of patents companies have, but on the ability to hire talented people who know how to make the most of the knowledge and skills they have. Knowledge and patents themselves should be open source. 
 

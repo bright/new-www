@@ -13,6 +13,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - radek
 ---
 
 Hello! I’m Radek and I am a programmer. Employed as a full-time software developer at Bright Inventions… last Monday.

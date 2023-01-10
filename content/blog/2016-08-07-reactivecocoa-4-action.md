@@ -8,6 +8,8 @@ layout: post
 image: /images/development.jpg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 
 Today I'll tell you about an `Action` type that is available in ReactiveCocoa 4.

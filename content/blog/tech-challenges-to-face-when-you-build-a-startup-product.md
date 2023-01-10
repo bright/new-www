@@ -13,6 +13,10 @@ image: /images/blogpost_tech_startup_challenges.png
 hidden: false
 comments: true
 published: true
+authors:
+  - dawid-cz
+  - dominik-d
+  - slawek
 ---
 **Are you a startup owner looking for a software agency? Check out what challenges you and your tech team will likely face during the development. Get a unique insight into the developer’s mind. 😉 And if you are a programmer thinking about working on a startup app, you will also find this article useful.**
 

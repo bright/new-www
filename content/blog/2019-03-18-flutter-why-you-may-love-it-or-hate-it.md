@@ -12,6 +12,8 @@ image: /images/fluttter_logo_blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - lukasz
 ---
 Flutter is a new Google's framework for creating cross-platform applications. So far, I haven't tried to create any cross-platform projects so I wanted to give it a try. This won't be a next
 basic tutorial for creating apps with Flutter. I'll just present my first impression of things that have made me love and hate

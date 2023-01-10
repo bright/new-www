@@ -1,7 +1,7 @@
 ---
-excerpt: One may ask if it is a real fun spending two days in front of computer
-  with a bunch of strangers. The example of IOTA Hackathon shows that it is
-  indeed.
+excerpt: >-
+  One may ask if it is a real fun spending two days in front of computer with a
+  bunch of strangers. The example of IOTA Hackathon shows that it is indeed.
 author: ula
 tags:
   - IOTA
@@ -15,6 +15,8 @@ image: /images/bright-1847006_1920.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 Last weekend we had pleasure to co-organise and take part in IOTA Hackathon, the event during which software developers from all over Europe came to put to test IOTA Platform with different use cases. IOTA Hackathon was held from 17 to 19 November and was sponsored by [IOTA](https://iota.org/), Baltic Data Science (blockchain and big data service), [Datarella](http://datarella.com/) (blockchain and big data consultancy) and [Bright Inventions](/our-areas/blockchain). 
 

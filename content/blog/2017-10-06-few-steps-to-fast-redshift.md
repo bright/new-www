@@ -10,6 +10,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - agnieszka
 ---
 Do you think a web dashboard which communicates directly with Amazon Redshift and shows tables, charts, numbers - statistics in general,can work well? We believe it can, as long as the dashboard is used by a few users. As this was our case, we have decided to give it a go. 
 

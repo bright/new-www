@@ -5,12 +5,14 @@ tags:
   - Swift Package Manager
   - Xcode
 date: 2022-07-29T10:34:45.775Z
-title: Swift Package Manager, build configurations and non compiling iOS projects
+title: 'Swift Package Manager, build configurations and non compiling iOS projects'
 layout: post
 image: /images/blogpost_spm_tomasz.png
 hidden: false
 comments: true
 published: true
+authors:
+  - tomasz-l
 ---
 Swift Package Manager in Xcode is the newest way of managing third party dependencies of Swift projects. It is very neatly integrated and allows for clean and easy dependency management. At least sometimes.
 

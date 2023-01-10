@@ -11,6 +11,8 @@ tags:
   - mobile
 date: '2017-10-16T22:00:00.000Z'
 published: true
+authors:
+  - piotr_l
 ---
 ![Image Title](/images/before-you-start/ux.jpg)
 ## This one is going to be short. And basic.

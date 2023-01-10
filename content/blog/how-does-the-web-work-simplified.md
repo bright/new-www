@@ -11,6 +11,8 @@ image: /images/how-does-the-web-work-simplified.jpeg
 hidden: false
 comments: true
 published: true
+authors:
+  - wojciech
 ---
 Very often, when recruiting for a frontend/backend/fullstack developer, especially for junior positions, the question is asked - how is it actually that in the browser somebody enters a specific address and a website related to it appears? This question is good because it allows the recruiter to test knowledge from many fields at once by asking deeper into the topic, while the candidate answers. So let's try to provide a model answer to this type of question and attempt to predict a few additional questions from the recruiter during the answer to the original question.
 

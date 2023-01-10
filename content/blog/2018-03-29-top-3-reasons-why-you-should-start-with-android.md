@@ -6,10 +6,13 @@ tags:
 date: 2018-03-29T00:00:00.000Z
 title: Top 3 reasons why you should start with Android
 layout: post
-image: /images/top-3-reasons-why-you-should-start-with-android/doors-1767563_1920_80.jpg
+image: >-
+  /images/top-3-reasons-why-you-should-start-with-android/doors-1767563_1920_80.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - azabost
 ---
 People who start their professional coding adventure, whether they are still studying, just graduated or changing profession, may often hesitate what programming platform they should start with. So let me mention a few reasons why I think it's a great idea to start with Android.
 

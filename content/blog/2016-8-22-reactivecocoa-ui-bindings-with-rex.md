@@ -8,6 +8,8 @@ layout: post
 image: /images/bright_team-compressor.jpg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 Today, we will take a closer look at [Rex](https://github.com/RACCommunity/Rex) - ReactiveCocoa extensions. I find Rex pretty helpful when working with ReactiveCocoa, especially creating UI bindings.
 

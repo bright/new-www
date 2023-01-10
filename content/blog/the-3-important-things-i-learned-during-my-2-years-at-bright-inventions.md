@@ -11,6 +11,8 @@ image: /images/blog_post_cover_piotr_anniversary.png
 hidden: false
 comments: true
 published: true
+authors:
+  - piotr_r
 ---
 Huh, it’s been 2 years at Bright Inventions now. It was quite long but passed quite fast (that’s what she said). 
 

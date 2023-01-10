@@ -13,6 +13,8 @@ image: /images/layers.png
 hidden: false
 comments: true
 published: true
+authors:
+  - damian
 ---
 **Layered architecture is probably one of the most popular choices in the Object Oriented Systems, and for a good reason.
 When done right it provides great separation of concerns making each layer replaceable without a need to transform everything around it. 

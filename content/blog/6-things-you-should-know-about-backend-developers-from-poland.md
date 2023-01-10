@@ -10,6 +10,8 @@ image: /images/backend_development_poland-cover.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **What does it mean to work with a backend development company based in Poland? What you should know about Polish backend programmers? Get insight into the world of backend development in Poland.**
 

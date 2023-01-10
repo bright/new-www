@@ -13,6 +13,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - monika
 ---
 ![teambuilding](/images/can-disfunctions-be-bright/team.png)
 

@@ -14,6 +14,8 @@ image: /images/Treasury_www_LargeSize.png
 hidden: false
 comments: true
 published: true
+authors:
+  - kasia
 ---
 **We are excited to announce that BrightTreasury is now live!**
 

@@ -13,6 +13,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 There are[ lots of efficient brainstorming techniques for teams](https://www.wework.com/ideas/worklife/effective-brainstorming-techniques) such as visualisation-based method, step-ladder technique, mind mapping, rapid ideation and many others. All of them can create a large space from which to pull the best ideas and make your meetings successful, but today I would like to focus on one method that I have found really meaningful and effective - *The Six Thinking Hats* method by de Bono.
 

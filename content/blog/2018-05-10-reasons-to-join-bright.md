@@ -1,6 +1,7 @@
 ---
-excerpt: Bright Inventions is a great place to push your career to the next
-  level. We offer a friendly work environment, challenging projects, meaningful
+excerpt: >-
+  Bright Inventions is a great place to push your career to the next level. We
+  offer a friendly work environment, challenging projects, meaningful
   development and flexibility, which is not so easy to find under one roof in
   other companies. But above all, we offer a team that consists of great people.
 author: ula
@@ -17,6 +18,8 @@ layout: post
 image: /images/join_bright_team_blog.png
 hidden: false
 published: true
+authors:
+  - ula
 ---
 Bright Inventions is a great place to push your career to the next level. We offer a friendly work environment, challenging projects, meaningful development and flexibility, which is not so easy to find under one roof in other companies. But above all, we offer a team that consists of great people for whom work is something more than a place you come to every morning and leave after 8 hours **as work for us is a special community.** 
 

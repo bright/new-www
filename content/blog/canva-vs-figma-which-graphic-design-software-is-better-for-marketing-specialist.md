@@ -4,13 +4,16 @@ tags:
   - design
   - inspiration
 date: 2022-05-12T08:20:09.439Z
-title: Canva vs. Figma – Which Graphic Design Software is Better for a Marketing
+title: >-
+  Canva vs. Figma – Which Graphic Design Software is Better for a Marketing
   Specialist
 layout: post
 image: /images/canva_figma_marketing_perspective.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **Every marketer, particularly a social media specialist, should have basic graphic design skills. Canva and Figma are some of the most useful graphic tools for marketers. Which one of them is better? Let’s compare Figma and Canva from a marketing specialist’s point of view.**
 

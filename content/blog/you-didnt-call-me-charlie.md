@@ -6,12 +6,14 @@ tags:
   - development
   - linkedin
 date: 2022-07-27T11:45:23.553Z
-title: You didn’t call me, Charlie?
+title: 'You didn’t call me, Charlie?'
 layout: post
 image: /images/blog_post_cover_charlie.png
 hidden: false
 comments: true
 published: true
+authors:
+  - patryk sz
 ---
 All of us have something that makes us feel “safe”. I’m not talking about important stuff such as a home, family, good health, and wealth. I’m talking about something that creates your comfort zone. For me — these are TV shows. I love watching them, I hate getting to know new ones. I have a few favorite ones, which I can watch again and again, and again.
 

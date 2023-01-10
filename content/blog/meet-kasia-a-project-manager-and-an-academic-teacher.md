@@ -8,13 +8,17 @@ tags:
   - inspiration
   - bright story
 date: 2021-10-20T09:22:39.425Z
-title: Bringing Science and Business together. Meet Kasia, a Project Manager and
-  an Academic Teacher
+title: >-
+  Bringing Science and Business together. Meet Kasia, a Project Manager and an
+  Academic Teacher
 layout: post
 image: /images/brightstory_kasia_main.png
 hidden: false
 comments: true
 published: true
+authors:
+  - kasia
+  - izabela
 ---
 **Emerging from the academic world she successfully mixes theoretical knowledge with business reality. During her over 10 years of academic career she has taught thousands of programmers that soft skills are not an option but simply a must. Let us talk with Kasia – Senior Project Manager at Bright Inventions.**
 

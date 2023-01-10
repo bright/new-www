@@ -13,6 +13,8 @@ image: /images/blog_post_debug_react_native.png
 hidden: false
 comments: true
 published: true
+authors:
+  - agnieszka
 ---
 React Native is an abstraction over the native code, which allows us to have one code base for multiple platforms. Sounds great, right? Not everybody though is so enthusiastic about this approach. One of the reasons might be troublesome running and debugging the JavaScript code. In this blog post you may find a short tutorial on how to debug your app on Android and iOS, on a physical device or a simulator/emulator, the JavaScript code and the native one.
 

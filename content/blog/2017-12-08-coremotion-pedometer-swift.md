@@ -1,5 +1,6 @@
 ---
-excerpt: Core Motion is well-known iOS framework. As we could read in
+excerpt: >-
+  Core Motion is well-known iOS framework. As we could read in
   [docs](https://developer.apple.com/documentation/coremotion) it process
   accelerometer, gyroscope, pedometer environemnt-related events. In this post I
   want to focus on pedometer events and how to handle it.
@@ -17,6 +18,8 @@ image: /images/coremotion-pedometer-swift/footsteps.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - kwysocki
 ---
 ![footsteps image](/images/coremotion-pedometer-swift/footsteps.jpg)
 

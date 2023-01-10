@@ -11,6 +11,8 @@ image: /images/how_to_become_qa_martas_story2.png
 hidden: false
 comments: true
 published: true
+authors:
+  - marta
 ---
 **How to get a software tester job with no experience? What qualifications do you need to be a Software Tester? Here is my story of becoming a QA Specialist in a year. Step by step.**
 

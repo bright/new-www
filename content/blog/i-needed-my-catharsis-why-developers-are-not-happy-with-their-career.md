@@ -12,6 +12,8 @@ image: /images/blog_post_cover_masks.png
 hidden: false
 comments: true
 published: true
+authors:
+  - patryk sz
 ---
 Did you ever hit the wall and wondered, what and why you are doing as a developer? We, as experts, want to work on interesting, problem-solving projects. Some of us would want to work for Google, Facebook, Apple, or NASA, but it’s impossible to have all of us in top brands in the world, or in the Fortune 500. In some cases, even working as a developer for Facebook, would you feel complete by solving issues in an internal system that helps exchange documentation across the teams?
 

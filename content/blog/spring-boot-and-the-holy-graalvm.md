@@ -13,6 +13,8 @@ image: /images/spring-boot-holy-graal.png
 hidden: false
 comments: true
 published: true
+authors:
+  - damian
 ---
 **With the release of Spring Boot 3.0, we get official support for GraalVM native builds. Does it mean that we can finally free 
 ourselves from the overhead of JVM? How do native builds improve the performance of the app? Where is a tradeoff and is it worth making? 

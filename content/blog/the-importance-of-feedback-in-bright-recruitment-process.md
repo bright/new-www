@@ -12,6 +12,8 @@ image: /images/feedback_blog_post2.png
 hidden: false
 comments: true
 published: true
+authors:
+  - paulina-t
 ---
 Many words about team communication have already been said in this world. But we must remind ourselves that effective communication must have an element that connects the sender's message with the receiver's interpretation. The best solution here is (apart from active listening) FEEDBACK. 
 

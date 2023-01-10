@@ -8,13 +8,16 @@ tags:
   - W3F
   - grant
 date: 2021-06-29T09:12:47.495Z
-title: Bright Treasury - a Treasury module application funded by a W3F
-  Foundation grant
+title: >-
+  Bright Treasury - a Treasury module application funded by a W3F Foundation
+  grant
 layout: post
 image: /images/brighttreasury_web3_foundation.png
 hidden: false
 comments: true
 published: true
+authors:
+  - kasia
 ---
 We are thrilled to be able to finally share with you the news that our proposal for a Treasury based web app was accepted as a part of the [Web3 Foundation (W3F) grants program](https://web3.foundation/grants/). We are happy and grateful to be able to get the support for our work from such a dynamic and knowledgeable community. Our first milestone has been completed and approved so in this blogpost, we’d like to share details about what you might expect from the finished product as well as some technical solutions that we’re especially excited about. 
 

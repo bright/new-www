@@ -12,6 +12,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - alisa
 ---
 Today during the pandemic times, the times of social distancing, proper 30 sec washing hands, times of sanitisers, masks, gloves and quarantine we all seem to feel isolated and lose our creative vibes. I don’t want to divide people here on creatives and non-creatives. I believe that every profession requires creativity and every person is creative in their own unique way. Creativity is an inspiration drawn from the outer world, from people we meet, from conversations we conduct and things we see and experience.
 

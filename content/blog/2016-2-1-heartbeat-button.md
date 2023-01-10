@@ -8,6 +8,8 @@ layout: post
 image: /images/heart-baloon.webp
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 Hi! Today I will show you how to create a simple heart button that will simulate a heartbeat upon each tap. You can find an example project on my [Github](https://github.com/Eluss/HeartbeatDemo.git).
 

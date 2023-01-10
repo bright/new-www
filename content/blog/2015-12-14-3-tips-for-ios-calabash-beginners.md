@@ -8,6 +8,8 @@ layout: post
 image: /images/iphone.jpeg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 Have you ever felt that your app needs UI tests? Are you tired of checking behaviours of your application again and again? Consider using Calabash!
 

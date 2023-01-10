@@ -10,6 +10,9 @@ image: /images/native_hybrid_apps.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
+  - mateusz
 ---
 **What is the difference between a hybrid app and native one? Is native app development dying? Ultimately, which mobile approach is better? Let’s look closely at the mobile battle between native and hybrid apps. And find out on which corner we are.** 😎
 

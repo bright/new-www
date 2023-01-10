@@ -13,6 +13,8 @@ image: /images/blog_post_covariance.png
 hidden: false
 comments: true
 published: true
+authors:
+  - wojciech
 ---
 ## Introduction
 

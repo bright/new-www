@@ -12,6 +12,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - tomek
 ---
 
 Due to the modular and plug-and-play architecture hyperledger fabric implements a peer-to-peer protocol based on **gRPC and proto buffers** which allows for bi-directional stream-based messaging. We will examine the individual elements of the protocol and the examples of messages sent in the Hyperlegder network.

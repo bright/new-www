@@ -9,6 +9,8 @@ tags:
   - android
 author: piotr
 published: true
+authors:
+  - piotr
 ---
 
 In the [previous part](/blog/android-data-binding-part-1-why-it-is-important/) I've described typical problems we have to face when developing applications on Android. I've also highlighted that some of them may be mitigated when [data binding API](https://developer.android.com/tools/data-binding/guide.html) is utilized properly. It's time to dive into more details of how this promising API works.

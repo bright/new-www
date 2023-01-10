@@ -14,6 +14,8 @@ image: /images/patrykblogpost_tables2.png
 hidden: false
 comments: true
 published: true
+authors:
+  - patryk sz
 ---
 ## Introduction
 

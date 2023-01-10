@@ -7,6 +7,8 @@ tags:
   - android
 author: piotr
 published: true
+authors:
+  - piotr
 ---
 
 Every now and then you have a bug that is hard to reproduce or only happens on certain phones or android versions. The thing that really comes handy in such case is a detailed application log. That's why it's so important to take time to add useful log entries in every non trivial part of the codebase. At the very minimum you'll want to log any errors.

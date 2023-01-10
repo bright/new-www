@@ -5,12 +5,14 @@ tags:
   - support
   - update
 date: 2022-03-17T07:17:18.460Z
-title: "Stand With Ukraine - How You Can Help "
+title: 'Stand With Ukraine - How You Can Help '
 layout: post
 image: /images/stand_with_ukraine_blog_cover.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 We want to show our support to the Ukrainian people - their spirit and the bravery they are showing - amidst this horrifying attack. According to United Nations refugee agency has reported [over 1.7 million people](https://data2.unhcr.org/en/situations/ukraine/location?secret=unhcrrestricted) from Ukraine have become refugees. As with any crisis, women, children, poor communities will be those most affected. When watching the war scenes it is easy to feel feeble and weak, but we believe that together we can help Ukraine in any way we can. 
 

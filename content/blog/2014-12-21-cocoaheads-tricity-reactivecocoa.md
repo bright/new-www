@@ -11,6 +11,8 @@ tags:
 comments: true
 author: piotr
 published: true
+authors:
+  - piotr
 ---
 
 On Thursday 18th December 2014 I gave a small presentation about [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) to the local [Cocoaheads Tricity](https://www.facebook.com/CocoaHeadsTricity) group. [Cocoaheads](http://cocoaheads.org/) is a group of passionate iOS and MacOS X developers willing to share their knowledge and learn.

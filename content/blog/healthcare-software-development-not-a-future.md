@@ -9,6 +9,8 @@ image: /images/blogpost_www_healthcare.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **Digital transformation in healthcare is not just welcomed. It is needed. Global health challenges have to be globally addressed by tech. For patients and medical staff’s sake. Are you a startup founder? Are you ready to join the eHealth movement?**
 

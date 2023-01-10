@@ -10,6 +10,8 @@ tags:
 comments: true
 date: '2018-01-01T23:00:00.000Z'
 published: true
+authors:
+  - mateusz
 ---
 
 // Intro

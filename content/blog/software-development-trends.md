@@ -14,6 +14,10 @@ image: /images/blogpost_trends_in.png
 hidden: false
 comments: true
 published: true
+authors:
+  - szymon-ch
+  - rafal h
+  - joanna-c
 ---
 **We are heading into the year 2023. So it is time to update this article with hot trends and predictions. Let’s look at 2023 software development trends from 3 different perspectives: frontend & backend developers’ and product designer’s.**
 

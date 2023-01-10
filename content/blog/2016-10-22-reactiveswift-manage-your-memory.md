@@ -8,6 +8,8 @@ layout: post
 image: /images/mistakes_startups_make_when_developing_their_mobile_product.jpg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 
 

@@ -8,6 +8,8 @@ layout: post
 image: /images/laptop_coding.jpg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 Today, let's take a look at basic aspect of ReactiveCocoa - Signal.
 

@@ -1,6 +1,6 @@
 ---
 author: szymon-ch
-thirdAuthor: ""
+thirdAuthor: ''
 tags:
   - frontend
   - web development
@@ -13,6 +13,8 @@ image: /images/role-of-transpilers.jpeg
 hidden: false
 comments: true
 published: true
+authors:
+  - szymon-ch
 ---
 <div class="image"><img src="/images/role-of-transpilers.jpeg" alt="A laptop computer sitting on top of a desk with a code editor opened."  /></div>
 <br />

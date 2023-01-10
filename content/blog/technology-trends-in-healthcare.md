@@ -13,6 +13,10 @@ image: /images/healthcare_trends_2022_2.png
 hidden: false
 comments: true
 published: true
+authors:
+  - wojciech
+  - piotr_r
+  - izabela
 ---
 **Artificial Intelligence will tell you that you are depressed. Your watch will notify you that you might have an arrhythmia. Technology offers help for overloaded doctors. But will they accept it? These are software healthcare trends for 2022 and – to be honest – actually for the whole decade.**
 

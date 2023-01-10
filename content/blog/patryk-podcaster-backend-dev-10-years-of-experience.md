@@ -12,6 +12,9 @@ image: /images/brightstorypatryk.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - patryk sz
+  - izabela
 ---
 **Patryk got his first software job as a teenager. Now he is a backend developer with over a decade of experience. He has just started a podcast to share knowledge with other developers. What are his career beginnings? Why can’t he work without wearing slippers? Check out the story of Patryk, a Backend Developer and a host of the BrightDevTalks podcast.**
 

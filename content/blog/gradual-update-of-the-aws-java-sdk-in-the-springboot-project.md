@@ -12,6 +12,8 @@ image: /images/aws-sdk-blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - maciej-n
 ---
 Recently, in our project, we decided to update the AWS Java SDK from [1.x](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/welcome.html) to [2.x](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html), so we are able to use [client-side metrics](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/metrics.html), available only in the newer version of the SDK.
 

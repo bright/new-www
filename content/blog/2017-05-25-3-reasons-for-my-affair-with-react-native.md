@@ -8,6 +8,8 @@ author: eliasz
 date: '2017-05-24T22:00:00.000Z'
 image: /images/love_react_native.png
 published: true
+authors:
+  - eliasz
 ---
 
 ![Header](/images/3-reasons-for-my-affair-with-react-native/love_hands.jpg)

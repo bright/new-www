@@ -8,6 +8,8 @@ author: mateuszklimek
 date: '2015-12-14T23:00:00.000Z'
 image: /images/desktop-android-unit-test.jpg
 published: true
+authors:
+  - mateuszklimek
 ---
 
 Retrofit has been updated to 2.0 version.

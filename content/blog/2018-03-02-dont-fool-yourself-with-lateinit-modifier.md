@@ -11,6 +11,8 @@ image: /images/risk_android.png
 hidden: false
 comments: true
 published: true
+authors:
+  - azabost
 ---
 Kotlin language provides a nice and clean way to handle nullable variables in code so that it is less error prone. Unless you do it all wrong, of course.
 

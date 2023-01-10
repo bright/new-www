@@ -14,6 +14,8 @@ image: /images/blog_clutch_2019png.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 Bright Inventions is excited to announce that we’ve been listed as a leading developer among Poland’s top B2B companies by Clutch! 
 

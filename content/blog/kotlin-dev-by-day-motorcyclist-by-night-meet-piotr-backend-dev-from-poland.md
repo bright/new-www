@@ -6,12 +6,15 @@ tags:
   - inspiration
   - bright story
 date: 2021-09-29T07:31:00.108Z
-title: Kotlin Dev by Day, Motorcyclist by Night. Meet Piotr, Backend Dev from Poland
+title: 'Kotlin Dev by Day, Motorcyclist by Night. Meet Piotr, Backend Dev from Poland'
 layout: post
 image: /images/brightstory_piotr_backend4.png
 hidden: false
 comments: true
 published: true
+authors:
+  - piotr-a
+  - izabela
 ---
 **Kotlin developer. Motorbike lover. Got his first IT job because he was the only one in the room who solved a Java puzzle. Say hi to Piotrek – a Backend Developer at Bright Inventions.**
 

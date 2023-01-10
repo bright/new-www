@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to keep your mind bright? Yoga time in your team "
+title: 'How to keep your mind bright? Yoga time in your team '
 date: 2021-06-23T07:27:05.511Z
 image: /images/yoga_bright.png
 author: ula
@@ -12,6 +12,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 At Bright Inventions we really understand the importance of employee health and wellness. We believe that a healthy workplace directly translates to improved mental and physical health, increased energy and better productivity. Some time ago we also incorporated yoga in our bright routine. Every Friday we have classes with great instructors from [Fizjolab](https://fizjolab.com/?gclid=Cj0KCQjwlMaGBhD3ARIsAPvWd6gWjfYO9cr0ueeNAAZtjKuvyFSsUEWUhVxHwhb1pua8xTNHLOLDcKEaAtc4EALw_wcB) who teach us how to keep our mind and body still and focused. Yoga helps us to reduce physical pain, decrease stress level and also to limit some potential irritability.  And how about you? Do you like yoga? Have you practised some poses yet? If not, let me take you on some short trip about how it may help you live your professional and private life fuller. 
 

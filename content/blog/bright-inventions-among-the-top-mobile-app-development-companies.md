@@ -11,6 +11,8 @@ image: /images/blogpost_topdevs_1.png
 hidden: true
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **We are thrilled to announce that Bright Inventions has been ranked as one of the [Top Mobile App Development Companies](https://www.topdevelopers.co/directory/mobile-app-development-companies) by TopDevelopers.**
 

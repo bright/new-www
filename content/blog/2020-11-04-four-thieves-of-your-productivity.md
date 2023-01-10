@@ -12,6 +12,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 Sometimes good intentions are not enough, especially while we are talking about productivity. In 1978 J.M. Darley and C.D. Batson constructed the experiment in which they tested the possible facts behind the modern version of the parable of Good Samaritan concerning altruistic behaviours. The experiment showed that the major reason why people didn’t stop to offer some help to a victim was the haste of their lives. There were different groups of people involved in the experiment, but the most peculiar one were students who were going to deliver a speech about helping others. They were in such a hurry that they didn’t even notice people in distress on their way to the conference spot. More about the experiment “From Jerusalem to Jericho. A Study of Situational and Dispositional Variables in Helping Behaviour” you can read [here.](https://greatergood.berkeley.edu/images/uploads/Darley-JersualemJericho.pdf)
 

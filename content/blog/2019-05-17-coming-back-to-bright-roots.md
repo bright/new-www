@@ -1,7 +1,8 @@
 ---
-extract: Probably you have noticed that we gave our brand a face lift. We are
-  excited to finally unveil our new look, and we want to tell you all about it.
-  The rebranding includes a redesign of the company’s logo, graphics, website,
+extract: >-
+  Probably you have noticed that we gave our brand a face lift. We are excited
+  to finally unveil our new look, and we want to tell you all about it. The
+  rebranding includes a redesign of the company’s logo, graphics, website,
   communications and correspondence. Our new brand assets include a simplified,
   black-and-white logo with a hint of innovation reflected in an orange square,
   along with other visual communications that utilise simple iconic graphics to
@@ -17,6 +18,8 @@ layout: post
 image: /images/blog_post_cover.png
 hidden: false
 published: true
+authors:
+  - ula
 ---
 Probably you have noticed that we gave our brand a face lift. We are excited to finally unveil our new look, and we want to tell you all about it.
 

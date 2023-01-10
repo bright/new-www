@@ -12,6 +12,10 @@ image: /images/blogpost_mental_app.png
 hidden: false
 comments: true
 published: true
+authors:
+  - dawid-cz
+  - dominik-d
+  - slawek
 ---
 **Building a mental health app differs from other software products. Are you planning to hire a software agency to develop your app for emotional support? Make sure that you know the technical challenges you and your team will likely face.**
 

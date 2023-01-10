@@ -5,12 +5,14 @@ tags:
   - business
   - company culture
 date: 2022-03-06T16:50:24.882Z
-title: "3 Books That Can Help You Build Bright Company Culture "
+title: '3 Books That Can Help You Build Bright Company Culture '
 layout: post
 image: /images/books_company_culture_blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 I have come across many books in my life that helped me grow, both personally and professionally. I believe that books are a great source of knowledge and truth, and they have a unique ability to change people’s view completely. The more we read the more aware we become how much wisdom we are still lacking in our experience. At least that is how it works in my case. 
 

@@ -14,6 +14,8 @@ image: /images/implementing-in-app-language-change/communication.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - azabost
 ---
 Android resolves language- and culture-specific resources based on the system locale setting. This is a desired behavior that makes perfect sense. Despite it's officially not encouraged you may still need to write an app that allows the user to change its language without leaving it. In this article I will show you one of the possible ways to implement such feature.
 

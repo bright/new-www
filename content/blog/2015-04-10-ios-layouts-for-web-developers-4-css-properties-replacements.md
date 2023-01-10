@@ -12,6 +12,8 @@ tags:
 comments: true
 author: adam
 published: true
+authors:
+  - adam
 ---
 
 This is the fourth post in the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/). The previous ones were about [the controls](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/), [control positioning](/blog/ios-layouts-for-web-developers-2-control-positioning/) and [managing the appearance](/blog/ios-layouts-for-web-developers-3-managing-appearance/). This time something more lightweight, I hope. We’ll go through various visual aspects of the controls and see how we can set it up, compared to CSS. Let’s start with the basics - margin and padding.

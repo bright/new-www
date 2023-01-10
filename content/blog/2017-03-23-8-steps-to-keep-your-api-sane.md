@@ -1,7 +1,8 @@
 ---
-excerpt: It is pretty well known what a backward compatibility means for our
-  APIs - once something was deployed to production and used by the users, we may
-  not change its behavior or break its contracts. It’s far less obvious what a
+excerpt: >-
+  It is pretty well known what a backward compatibility means for our APIs -
+  once something was deployed to production and used by the users, we may not
+  change its behavior or break its contracts. It’s far less obvious what a
   forward compatibility is, even though it is equally important for our APIs
   longevity and maintainability.
 author: adam
@@ -14,6 +15,8 @@ layout: post
 image: /images/woman-hand-smartphone-desk.jpg
 comments: true
 published: true
+authors:
+  - adam
 ---
 For the last 5 years Bright Inventions has been providing [full stack services](/what-we-offer/) to our customers. We have taken part in a dozen of [smaller or bigger projects](/projects/) where we were responsible for both the mobile apps and the backend as well as we were involved in a long-term maintenance and development. This way we have already had a few opportunities to learn how hard it is to **continuously serve the existing users** of our customers' apps and **go forward with the development** at the same time. And we have learned that even when the backend and mobile developers sit together in one room, designing a good and future-proof [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) communication layer between the two (API) is not an easy task to do.
 

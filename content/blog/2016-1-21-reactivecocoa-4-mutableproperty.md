@@ -8,6 +8,8 @@ author: eliasz
 date: '2016-01-20T23:00:00.000Z'
 image: /images/programming.jpg
 published: true
+authors:
+  - eliasz
 ---
 
 MutableProperty which comes with ReactiveCocoa allows us to track variable's changes. Let's take a quick look on how it actually works.

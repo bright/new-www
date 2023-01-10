@@ -13,6 +13,8 @@ image: /images/blog_designer_developer.png
 hidden: false
 comments: true
 published: true
+authors:
+  - alisa
 ---
 Undertaking a brand new idea and turning it into a successful product is always thrilling but also risky. In order to create a successful and meaningful project it is essential first to build **[Minimum Viable Product (MVP)](/our-areas/mvp-development)** to see if we are on the right track and if our strategy is going in the right direction. That is why, building MVP gives us an advantage, as it helps define all possible pitfalls, eliminates gaps in a wholesome product in future, or even helps to understand if our approach should be changed completely already on the early stage of the project. 
 

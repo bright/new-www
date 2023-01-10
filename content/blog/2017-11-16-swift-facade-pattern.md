@@ -16,6 +16,8 @@ hidden: false
 image: /images/swift-facade-pattern/facade.jpg
 date: '2017-11-15T23:00:00.000Z'
 published: true
+authors:
+  - kwysocki
 ---
 
 ![facade image](/images/swift-facade-pattern/facade.jpg)

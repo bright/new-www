@@ -13,6 +13,9 @@ image: /images/10_years_bright_team.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
+  - izabela
 ---
 **10 years, 53 projects and 70 people on board… Let’s talk to Ula who has been shaping our bright team for over five years. Find out what team we have tried to build and what values have been driving us for the last decade.**
 

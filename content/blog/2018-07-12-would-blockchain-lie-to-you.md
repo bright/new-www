@@ -1,7 +1,8 @@
 ---
-excerpt: Our vision at Bright has always been to share and transfer knowledge to
-  other aspiring minds who are eager to take their skills to the next level and
-  BEST Summer Technology Course was a great way to do it.
+excerpt: >-
+  Our vision at Bright has always been to share and transfer knowledge to other
+  aspiring minds who are eager to take their skills to the next level and BEST
+  Summer Technology Course was a great way to do it.
 author: ula
 tags:
   - Blockchain
@@ -17,6 +18,8 @@ image: /images/Blockchain_workshops.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 Some people are sitting on a beach in summer, and some are learning Blockchain. Can you do both at the same time? The answer is YES. :)
 

@@ -6,14 +6,16 @@ tags:
   - AWS-CDK
   - AWS
   - RDS
-date: 2022-01-30
+date: 2022-01-30T00:00:00.000Z
 title: Migrate EC2-Classic RDS to a VPC - Step 1 - Replication
 layout: post
 image: /images/replica_blog_post.png
 hidden: false
 comments: true
 published: true
-canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-1/
+canonicalUrl: 'https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-1/'
+authors:
+  - piotr
 ---
 In [the last blog post](/blog/migrate-ec2-classic-rds-to-a-vpc-planning) I sketched a plan to migrate an
 EC2-Classic RDS database to a VPC. It is time to dive into the details of setting up replication. There

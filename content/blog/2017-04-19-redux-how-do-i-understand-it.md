@@ -8,6 +8,8 @@ layout: post
 image: /images/header.jpeg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 
 When you meet Redux for the first time, it often seems a bit overwhelming at first. However, if you want to work with redux effectively, you have to understand how it works, and what are its core elements. State... Actions... Reducers... Store... In today's post I'd like to introduce you to Redux in not so techy way, so that you grasp the idea of how it works.

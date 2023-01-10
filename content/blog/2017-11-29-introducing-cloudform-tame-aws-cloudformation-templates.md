@@ -1,11 +1,11 @@
 ---
-excerpt: Whatever we do here in Bright Inventions, we deeply care about
-  automation, traceability and repeatability. This is why, whenever we do
-  anything at the backend, we define our infrastructure as code with the great
-  help of AWS CloudFormation. The problem is that our template file grows
-  quickly and becomes hard to maintain. This is how cloudform – a
-  TypeScript-based imperative way to define AWS CloudFormation templates – was
-  born.
+excerpt: >-
+  Whatever we do here in Bright Inventions, we deeply care about automation,
+  traceability and repeatability. This is why, whenever we do anything at the
+  backend, we define our infrastructure as code with the great help of AWS
+  CloudFormation. The problem is that our template file grows quickly and
+  becomes hard to maintain. This is how cloudform – a TypeScript-based
+  imperative way to define AWS CloudFormation templates – was born.
 author: adam
 tags:
   - AWS
@@ -17,6 +17,8 @@ layout: post
 image: /images/cloudform/blackboard.jpg
 comments: true
 published: true
+authors:
+  - adam
 ---
 Whatever we do here in [Bright Inventions](/), we deeply care about automation, traceability and repeatability. This is why we embraced the DevOps-related practices like [Continuous Delivery](/blog/teamcity-for-ios-project/) or [containerization](/blog/dockerizing-android-builds/), we are careful about properly set up [logging](/blog/http-request-logging-in-node/) and monitoring, we know our stuff when it comes to [reliability and resiliency](/blog/the-importance-of-timeouts/). This is also why, whenever we do anything at the backend, we define our [infrastructure as code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) with the great help of [AWS CloudFormation](https://aws.amazon.com/cloudformation/).
 

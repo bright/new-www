@@ -11,6 +11,8 @@ image: /images/why-would-you-use-substrate/top.png
 hidden: false
 comments: true
 published: true
+authors:
+  - agnieszka
 ---
 Substrate is a framework to build blockchains. People behind Substrate had built many blockchains before and noticed that they had to do the same hard work over and over again. Thus they tried to create a framework which would make deploying a blockchain as easy as can be. At the same time they wanted it to be as generic as possible, so that a developer can customize it to their needs.
 

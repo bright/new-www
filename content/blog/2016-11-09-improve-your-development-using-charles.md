@@ -11,6 +11,8 @@ layout: post
 image: /images/head.jpeg
 comments: true
 published: true
+authors:
+  - kwysocki
 ---
 ![code](https://github.com/kamwysoc/kamwysoc.github.io/blob/master/assets/posts/charles/head.jpeg?raw=true)
 

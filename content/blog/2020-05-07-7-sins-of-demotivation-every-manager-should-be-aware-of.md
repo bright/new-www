@@ -7,12 +7,14 @@ tags:
   - team
   - management
 date: 2020-05-07T07:21:03.566Z
-title: "7 sins of demotivation every manager should be aware of "
+title: '7 sins of demotivation every manager should be aware of '
 layout: post
 image: /images/ula_7sinsdemotivation.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 Being a team manager is quite a challenge nowadays as your team is usually a bunch of people with different personality traits, different life experience, different needs, priorities and often a different attitude to life. And what is more important, being a manager means being cautious enough to make these people work effectively together, and being careful enough not to omit the moment of potential crisis that would not be able to be undone anymore.
 

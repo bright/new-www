@@ -8,6 +8,8 @@ layout: post
 image: /images/laptop.jpg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 
 Today we will take a look at SignalProducer class which is provided with ReactiveCocoa 4.

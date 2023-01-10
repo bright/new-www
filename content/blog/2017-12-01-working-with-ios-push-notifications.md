@@ -12,6 +12,8 @@ image: /images/iphone.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - mateusz
 ---
 Push notifications, also known as remote notifications, are a tremendously useful feature of [mobile applications](/our-areas/mobile-app-development/). They can be used for sending users marketing offers, increase users engagement by providing a personalised content, implementing a chat or even triggering some action to be performed in the background. And what's really useful, users don't have to keep their app opened.
 

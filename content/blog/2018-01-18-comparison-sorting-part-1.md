@@ -1,7 +1,8 @@
 ---
-excerpt: Sorting data is one of the most important tasks that computers have
-  been doing since they were invented. Over those years developers have found
-  many ways of doing it.
+excerpt: >-
+  Sorting data is one of the most important tasks that computers have been doing
+  since they were invented. Over those years developers have found many ways of
+  doing it.
 layout: post
 title: Comparison sorting part 1
 date: 2018-01-17T23:00:00.000Z
@@ -18,6 +19,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - grzesiek
 ---
 
 Sorting data is one of the most important tasks that computers have been doing since they were invented. Over those years developers have found many ways of doing it. Some of these ways are quite fast, others involve  interesting methods and finally there are some which are practically useless, but still it is better to know more than to know less, so it’s better to learn them  in free time.

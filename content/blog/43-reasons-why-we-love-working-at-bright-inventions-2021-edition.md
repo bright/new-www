@@ -5,12 +5,14 @@ tags:
   - teamwork
   - update
 date: 2021-12-13T08:40:25.630Z
-title: 43 Reasons Why We Love Working at Bright Inventions [2021 Edition]
+title: '43 Reasons Why We Love Working at Bright Inventions [2021 Edition]'
 layout: post
 image: /images/bright_inventions_2021.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **2021 will become a memory soon and it is time for a little summary of the passing year. We have decided to stop for a moment and think about our bright culture. We asked people to answer a simple yet meaningful question – Why do you work at Bright Inventions? Our Bright Team submitted over 40 answers and let me be clear – the participation was voluntary. No one was forced and never will be to write some puff pieces.**
 

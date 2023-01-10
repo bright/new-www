@@ -14,7 +14,9 @@ image: /images/database-timeouts/database-files.jpg
 hidden: false
 comments: true
 published: true
-canonicalUrl: https://miensol.pl/database-timeouts/
+canonicalUrl: 'https://miensol.pl/database-timeouts/'
+authors:
+  - piotr
 ---
 Last time I have outlined [the importance of timeouts](/blog/the-importance-of-timeouts/). Without a carefully considered timeouts our application can become unresponsive easily. In this post I will focus on configuring various timeouts related to interaction with database. I am going to focus specifically on relational databases. The principles and practices however can be applied equally well to other types of databases.
 

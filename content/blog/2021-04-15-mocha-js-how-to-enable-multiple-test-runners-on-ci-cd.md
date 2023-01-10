@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mocha.js - how to enable multiple test runners on CI/CD? "
+title: 'Mocha.js - how to enable multiple test runners on CI/CD? '
 date: 2021-04-15T11:48:19.197Z
 image: /images/request_typing.png
 author: rafal h
@@ -17,6 +17,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - rafal h
 ---
 One of our projects is running automated tests on CI/CD AzurePipelines. 
 

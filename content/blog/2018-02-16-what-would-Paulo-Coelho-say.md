@@ -10,6 +10,8 @@ layout: post
 image: /images/thank_you.jpg
 hidden: false
 published: true
+authors:
+  - ula
 ---
 Who would not like to be successful and manage their time wisely to have it for everything and for everyone? We all would. But to do that we should focus on our life for a bit longer than few seconds and think which elements of it make us less effective, and in consequence less happy. We should focus on recovering.
 

@@ -3,13 +3,15 @@ author: malgorzata-z
 tags:
   - QA
 date: 2022-11-28T08:00:49.083Z
-meaningfullyUpdatedAt: ""
-title: "Do You Need Test Cases? "
+meaningfullyUpdatedAt: ''
+title: 'Do You Need Test Cases? '
 layout: post
 image: /images/blogpost_test_case_preview.png
 hidden: false
 comments: true
 published: true
+authors:
+  - malgorzata-z
 ---
 There is a trend to write test cases. If you are a tester, write test cases. The more the better… But is it really always a good idea?
 

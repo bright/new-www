@@ -11,6 +11,8 @@ image: /images/agnieszka_senior_dev_blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - agnieszka
 ---
 
 

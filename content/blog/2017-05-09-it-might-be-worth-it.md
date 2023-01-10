@@ -8,6 +8,8 @@ author: michal
 date: '2017-05-08T22:00:00.000Z'
 image: /images/job_fair.jpg
 published: true
+authors:
+  - michal
 ---
 
 Today you can find Bright Inventions at [Trójmiejskie Targi Pracy](http://www.targipracy.gdansk.pl/) and this marks a significant milestone for us. We are now getting really serious about growing our team here and inviting next bright developers to join us. I would like to use this occasion to share a few words with you, our potential next great hire. 

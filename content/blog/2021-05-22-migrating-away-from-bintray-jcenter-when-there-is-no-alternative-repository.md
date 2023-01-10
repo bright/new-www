@@ -21,6 +21,8 @@ image: /images/blog_post_elephant.png
 hidden: false
 comments: true
 published: true
+authors:
+  - azabost
 ---
 ## TL;DR version
 

@@ -7,12 +7,16 @@ tags:
   - recruitment
   - HR
 date: 2022-07-28T05:12:27.820Z
-title: "Meet Bright Recruitment Team "
+title: 'Meet Bright Recruitment Team '
 layout: post
 image: /images/recruitment_team_cover.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
+  - paulina-t
+  - agata-m
 ---
 Recruiting success is not necessarily a measure of the volume of candidates obtained. Successful recruiting teams are able to quickly identify the candidates that are most likely to make a positive impact on an organization. It requires much more than looking beyond a candidate’s credentials. 
 

@@ -10,6 +10,8 @@ image: /images/2012_tech_news_blog_cover.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **Since it has been a decade already, let’s revisit the year 2012. Do you recall top tech and programming news of 2012? Don’t worry – I will remind you.**
 

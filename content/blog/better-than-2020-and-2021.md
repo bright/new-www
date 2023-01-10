@@ -12,6 +12,9 @@ image: /images/blogpost_2020-2021_2.2.png
 hidden: false
 comments: true
 published: true
+authors:
+  - michal
+  - ula
 ---
 We are going to settle quite comfortably into 2022, so let’s take a moment to look back at two last years from some distance. We are truly blessed to have moved through these two years the way we did. Although immensely challenging on many levels this time has made us stronger, better and more aware of who we are and what we are capable of doing.
 

@@ -14,6 +14,8 @@ image: /images/cover_managing_spring.png
 hidden: false
 comments: true
 published: true
+authors:
+  - damian
 ---
 **Managing Spring Boot properties in multi-module application could be quite intimidating.
 In this post, we take a look how Spring Boot will resolve properties conflicts and how to make our build more consistent. Changes

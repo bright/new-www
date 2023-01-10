@@ -6,13 +6,15 @@ tags:
   - spring boot
   - continuous integration
 date: 2022-09-30T11:51:07.433Z
-meaningfullyUpdatedAt: ""
-title: Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and Gradle
+meaningfullyUpdatedAt: ''
+title: "Create CI/CD pipeline in GitLab with AWS CDK, Docker, Spring Boot and\_Gradle"
 layout: post
 image: /images/mario_blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - adam-w
 ---
 CI/CD process is the backbone of every good performing team. It facilitates the development, testing, and deploying of an app.
 

@@ -11,6 +11,8 @@ image: /images/blogpost_appdevpivot_main_picture.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **You have an idea for an app and are determined to develop it? Congratulations! But what if your idea had to be modified and your solution would need to pivot? Check out why many popular apps and web solutions had to change to make a success.** <br/>
 

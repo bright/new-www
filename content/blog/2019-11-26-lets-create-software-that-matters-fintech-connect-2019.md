@@ -7,12 +7,14 @@ tags:
   - web
   - IoT
 date: 2019-11-26T08:14:28.083Z
-title: "Let's create software that matters, Fintech Connect 2019 "
+title: 'Let''s create software that matters, Fintech Connect 2019 '
 layout: post
 image: /images/ltscreatefintech3.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 On 3-4 Dec we will be attending FinTech Connect, the UK's leading fintech conference and exhibition that gathers the companies, entrepreneurs, start-ups, investors, and tech fans from all over the world. We will share best practices, showcase new solutions and shape financial services of the future. 
 

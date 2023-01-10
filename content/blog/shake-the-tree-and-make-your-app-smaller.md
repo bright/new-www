@@ -13,6 +13,8 @@ image: /images/treeshaking-featured-1-1-.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - szymon-ch
 ---
 <div class="image"><img src="/images/treeshaking-featured-1-1-.jpg" alt="Man walking in a forest, yellow leaves falling."  /></div>
 <br />

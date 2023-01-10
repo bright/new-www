@@ -11,6 +11,8 @@ image: /images/laptop-software-developer2.png
 hidden: false
 comments: true
 published: true
+authors:
+  - mateusz
 ---
 If you have ever used [Google Sign-In](https://developers.google.com/identity/sign-in/ios/start), [Firebase](https://firebase.google.com/docs/ios/), or [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3/) for iOS, you should be familiar with a `GoogleService-Info.plist` configuration file. Using property list files instead of setting every required property manually in code is convenient, especially while using more than one Google service at once and the configuration grows. But have you ever wondered how  this can be adjusted to multiple environments?
 

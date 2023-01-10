@@ -12,6 +12,8 @@ image: /images/blog_post_cover_vendor_lock_in.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **Have you ever felt trapped in a “relationship” with the original vendor? Let’s talk about vendor lock-in in the software development community and the ways to avoid it.**
 

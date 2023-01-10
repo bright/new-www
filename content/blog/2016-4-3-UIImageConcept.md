@@ -9,6 +9,8 @@ layout: post
 image: /images/iphone-6-apple-ios-iphone-50603.jpeg
 comments: true
 published: true
+authors:
+  - kwysocki
 ---
 
 Hi! In my first post I want to share with you some cool tip which I watched in 'Swift in Practice - Apple WWDC 2015' Alex Migicovsky presentation about using UIImages in Swift project.

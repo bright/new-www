@@ -12,6 +12,8 @@ image: /images/welcome_on_bright_board.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 There are many onboarding strategies. **Ours is transparency, [regular feedback](https://brightinventions.pl/blog/no-time-for-bullshit-feedback-culture/) and support.** 
 

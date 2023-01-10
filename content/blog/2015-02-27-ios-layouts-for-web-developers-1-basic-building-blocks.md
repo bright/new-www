@@ -14,6 +14,8 @@ author: adam
 date: '2015-02-26T23:00:00.000Z'
 image: /images/laptop-software-developer.jpg
 published: true
+authors:
+  - adam
 ---
 
 In the first part of [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/) I'll have a look at the basic building blocks of the view layer in iOS and compare it to what HTML offers. First, we need to shift our mindset a bit and accept the fact we need to give up some control (pun intended) over our views to the iOS.

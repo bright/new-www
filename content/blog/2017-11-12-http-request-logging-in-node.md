@@ -1,8 +1,9 @@
 ---
-excerpt: One of the most basic kind of logging every backend application should
-  have is a trace logging of all incoming HTTP requests. Yet it's not easy to
-  make it right and useful. Let me show you what we have learned and what we do
-  to ensure our logs are meaningful and useful.
+excerpt: >-
+  One of the most basic kind of logging every backend application should have is
+  a trace logging of all incoming HTTP requests. Yet it's not easy to make it
+  right and useful. Let me show you what we have learned and what we do to
+  ensure our logs are meaningful and useful.
 author: adam
 tags:
   - node.js
@@ -14,6 +15,8 @@ layout: post
 image: /images/node-logging.jpeg
 comments: true
 published: true
+authors:
+  - adam
 ---
 One of the most basic kind of logging every backend application should have is a trace logging of all incoming HTTP requests. Yet it's not easy to make it right and useful. Most of the backends we create at Bright nowadays are Node.JS applications based on [Express](https://expressjs.com/). Although there is a [plethora of libraries](https://www.npmjs.com/search?q=logging) that are to handle logging for you, we would not be ourselves if we haven't tried to build something on our own (even if only for the sake of knowing the internals better). Let me show you what we have learned and what we do to ensure our logs are meaningful and useful.
 

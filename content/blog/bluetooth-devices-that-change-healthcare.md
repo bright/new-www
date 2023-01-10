@@ -10,6 +10,8 @@ image: /images/blogpost_www_healthcare2.5.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **Technology is essential to support patients and medical staff in managing chronic diseases. Learn more about healthcare diagnostics devices that shape the future of telehealth.**
 

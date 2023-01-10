@@ -10,6 +10,8 @@ image: /images/blog_cover_ddd_kotlin.png
 hidden: false
 comments: true
 published: true
+authors:
+  - michal k
 ---
 ![](https://cdn-images-1.medium.com/max/1600/0*mnMkNG1ISY6aN1Mw)
 

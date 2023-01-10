@@ -13,6 +13,9 @@ image: /images/aws_workshops_by_piotr_blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
+  - piotr
 ---
 **Serverless is more than a trend. At Bright Inventions we believe that every backend developer should participate in cloud infrastructure so we constantly learn about the tools like AWS. Recently we decided to share our expertise with developers outside our team.**
 

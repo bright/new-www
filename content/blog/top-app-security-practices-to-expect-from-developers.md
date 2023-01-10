@@ -12,6 +12,9 @@ image: /images/security-apps.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - rafal h
+  - izabela
 ---
 **Are you going to hire a software development agency? Make sure that it will take care of your app security. Learn about best practices for software security. Be aware of what to expect from your developers’ team.**
 

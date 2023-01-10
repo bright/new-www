@@ -16,6 +16,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - agnieszka
 ---
 This is the second part of a series where we are implementing an ERC20 token with a Substrate node and accessing it from a NestJS application. The first part is available [here](/blog/erc20-substrate-nest-example/). In this part, we will have a glimpse of the implementation of the ERC20 token using Substrate Runtime. We will also access it from a NestJS app.
 

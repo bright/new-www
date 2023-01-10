@@ -12,6 +12,8 @@ image: /images/bright_team.JPG
 hidden: false
 comments: true
 published: true
+authors:
+  - michal
 ---
 One of the things that we do best at Bright Inventions is helping startups build their first MVP. It's pretty common that founders select us as their technology partner and rely on us to turn their vision into reality. We enjoy this kind of challenges and over the years have started to understand quite well why - simply said - startups like to work with us. However, this note is purely intended as a set of generic things to look for in a technology partner.
 

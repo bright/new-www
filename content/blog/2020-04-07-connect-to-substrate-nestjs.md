@@ -12,6 +12,8 @@ image: /images/substrate_blockchain_blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - ivan
 ---
 ## Create a sample NestJS project
 

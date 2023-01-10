@@ -2,13 +2,15 @@
 author: piotr
 tags:
   - android
-date: 2015-07-20 08:36
-title: "Android Data Binding Part 1: Why it is important"
+date: '2015-07-20 08:36'
+title: 'Android Data Binding Part 1: Why it is important'
 layout: post
 image: /images/blog_android_dev.png
 published: true
 categories:
   - android
+authors:
+  - piotr
 ---
 Android application code often suffers from being more verbose than it could be. As libraries such as [Android Annotations](http://androidannotations.org/) and [ButterKnife](http://jakewharton.github.io/butterknife/) have shown that's only partially due to tediousness of Java. The recently announced [Android Data Binding](https://developer.android.com/tools/data-binding/guide.html) library can remove at least part of the boilerplate code we need to write. Since I've always liked [Presentation Model pattern (MVVM)](http://martinfowler.com/eaaDev/PresentationModel.html) this is very dear to my heart. However just getting rid of a tedious code is not the main reason I'm so happy to see the new API. Let's recap on common issues developer faces on Android and then I'll show how using mentioned patterns with new offering from Google can mitigate them.
 

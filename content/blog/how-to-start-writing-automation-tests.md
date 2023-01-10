@@ -9,6 +9,8 @@ image: /images/gosia_automation_tests_blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - malgorzata-z
 ---
 **You are a manual tester and you would like to start writing automation tests but you don’t know how to start. You even learn some programming language but what next? How to start writing automation tests? How to choose the right language and framework? Which test should be your first automated one? Here is my guide on how to switch from manual to automation tester.**
 

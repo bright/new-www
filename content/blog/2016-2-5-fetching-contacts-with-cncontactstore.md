@@ -8,6 +8,8 @@ layout: post
 image: /images/laptop-2.jpg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
  
 Since iOS 9.0 we have a new nice method of fetching and saving contacts - CNContactStore!

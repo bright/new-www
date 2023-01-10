@@ -12,6 +12,8 @@ image: /images/blog_post_cover_cloudwatch.png
 hidden: false
 comments: true
 published: true
+authors:
+  - rafal h
 ---
 Recently I was searching through our application logs. The task was to extract extra context for a group of requests (ex. errors in the external provider system with the original request). For our app, we are using [CloudWatch](https://aws.amazon.com/cloudwatch/) to store the logs. I have used [CloudWatch Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) as out of the box tool to analyze them. 
 

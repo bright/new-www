@@ -12,6 +12,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - wojciech
 ---
 ## Introduction
 

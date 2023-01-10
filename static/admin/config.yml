@@ -15,6 +15,16 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front IllegalAccessExceptionmatter
       - {
+          label: 'Authors',
+          name: 'authors',
+          widget: 'relation',
+          collection: 'members',
+          searchFields: ['name'],
+          valueField: 'author_id',
+          displayFields: ['name', 'author_id'],
+          multiple: true
+        }
+      - {
           label: 'Author',
           name: 'author',
           widget: 'relation',

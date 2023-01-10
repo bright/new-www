@@ -11,6 +11,8 @@ layout: post
 image: /images/chart_android.png
 comments: true
 published: true
+authors:
+  - radek
 ---
 If you have ever needed to add a chart to your Android app, you certainly have heard about [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) by [PhilJay](https://github.com/PhilJay). If not, consider using this powerful library. Let me show you how easy it is to start!
 

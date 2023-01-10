@@ -9,6 +9,8 @@ title: Writing a blog post
 layout: post
 hidden: true
 published: true
+authors:
+  - piotr
 ---
 Our blog is using [Jekyll](https://jekyllrb.com/) and is hosted on [Github](https://github.com/bright/new-www).
 

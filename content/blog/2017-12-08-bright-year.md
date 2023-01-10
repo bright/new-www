@@ -1,10 +1,11 @@
 ---
-excerpt: There is nothing more important than people at work who support you,
-  who help you, who share their knowledge and experience with you, and who come
-  to work with a big smile on their face. And I have this kind of people around
-  me. I suppose it is the most incredible motivation that anyone would like to
-  have. Seeing clever, full of passion and energy people every day in the
-  morning can really give you an extra kick.
+excerpt: >-
+  There is nothing more important than people at work who support you, who help
+  you, who share their knowledge and experience with you, and who come to work
+  with a big smile on their face. And I have this kind of people around me. I
+  suppose it is the most incredible motivation that anyone would like to have.
+  Seeing clever, full of passion and energy people every day in the morning can
+  really give you an extra kick.
 layout: post
 title: Bright Year
 date: 2017-12-07T23:00:00.000Z
@@ -19,6 +20,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - ula
 ---
 It is almost the end of the year and for me it is also a kind of anniversary.  
 

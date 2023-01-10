@@ -10,6 +10,8 @@ layout: post
 image: /images/iphone-6-apple-ios-iphone-50603.jpeg
 comments: true
 published: true
+authors:
+  - kwysocki
 ---
 ## The first Cocoapod created
 

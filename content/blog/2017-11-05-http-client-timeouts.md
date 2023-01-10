@@ -14,7 +14,9 @@ image: /images/http-client-timeouts/waiting.jpg
 hidden: false
 comments: true
 published: true
-canonicalUrl: https://miensol.pl/http-client-timeouts/
+canonicalUrl: 'https://miensol.pl/http-client-timeouts/'
+authors:
+  - piotr
 ---
 We have already touched upon [the importance of timeouts](/blog/the-importance-of-timeouts/) and described most important [related JDBC knobs](/blog/database-timeouts/). The next aspect of timeouts I would like to focus on is using API clients. Specifically HTTP clients which are by far the most popular. We will review couple of popular HTTP client libraries and their configuration regarding timeouts. 
 

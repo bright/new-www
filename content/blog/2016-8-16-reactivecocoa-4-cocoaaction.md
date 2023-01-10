@@ -8,6 +8,8 @@ layout: post
 image: /images/b-88Light_gradient2000-p-1080.png
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 `CocoaAction` is a wrapper around `Action` type that is available in ReactiveCocoa. ([Here ](http://blog.brightinventions.pl/reactivecocoa-4-action/) you can read more about `Action`). We use `CocoaAction` to bind our `Actions` to GUI controls. Let's see a quick example of how it works.
 

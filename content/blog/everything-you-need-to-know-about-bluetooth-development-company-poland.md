@@ -6,12 +6,16 @@ tags:
   - ios
   - android
 date: 2022-05-06T07:17:42.661Z
-title: Everything You Need to Know about Bluetooth Development Company Based in Poland
+title: >-
+  Everything You Need to Know about Bluetooth Development Company Based in
+  Poland
 layout: post
 image: /images/bluetooth_development_poland_blog.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 **What can you expect from Polish Bluetooth developers? Why should you consider hiring a Bluetooth Development Company from Poland? Get all the answers.**
 

@@ -7,13 +7,17 @@ tags:
   - android
 date: 2022-10-17T07:27:20.592Z
 meaningfullyUpdatedAt: 2022-10-17T07:27:21.452Z
-title: From Theatrical to Programming Stage. Meet Cezary – Android Developer
-  with Gymnastics Background
+title: >-
+  From Theatrical to Programming Stage. Meet Cezary – Android Developer with
+  Gymnastics Background
 layout: post
 image: /images/brightstorycezary.png
 hidden: false
 comments: true
 published: true
+authors:
+  - cezary
+  - izabela
 ---
 **For most of his life, Cezary was passionate about gymnastics. He even became an acrobatic instructor for kids. Then he got a professional acrobatic role in a musical play! Eventually, he decided to self-learn programming and said goodbye to the gymnastics world. Why? Check out the amazing story of Cezary. Also, meet his lovely dog Tola.**
 

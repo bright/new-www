@@ -10,6 +10,8 @@ title: Using WebAssembly with React
 layout: post
 image: /images/webassembly_blog.png
 published: true
+authors:
+  - ivan
 ---
 
 WebAssembly (WASM) is a binary format for the executable code in the browsers.

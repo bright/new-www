@@ -8,6 +8,8 @@ tags:
 comments: true
 author: piotr
 published: true
+authors:
+  - piotr
 ---
 
 Every but trivial android application needs to maintain information about current user - regardless if he has authenticated or not. While this may sound easy there are still at least handful of ways one can do it - in this article I'm going to explore couple of them.

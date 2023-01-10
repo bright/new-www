@@ -11,6 +11,8 @@ layout: post
 image: /images/blog_polish_tech_night.png
 comments: true
 published: true
+authors:
+  - mateusz
 ---
 During my four-day trip to Berlin I had a pleasure to participate in the 3rd edition of [Polish Tech Night](https://polishtechnight.com) as a member of  group led by [Gdański Inkubator Przdsiębiorczości Starter](http://www.inkubatorstarter.pl). Polish Tech Night is an event connecting Polish tech startups with German ecosystem, combined with numerous workshops on the plenty of subjects like business cooperation, venture capitals, or law aspects of running a company in Germany.
 

@@ -1,7 +1,8 @@
 ---
-excerpt: Networking gives you the chance to connect with new highly influential
-  people easily, people who wouldn’t connect with you just through a cold email
-  or a LinkedIn invitation. It’s a chance where you can build long term business
+excerpt: >-
+  Networking gives you the chance to connect with new highly influential people
+  easily, people who wouldn’t connect with you just through a cold email or a
+  LinkedIn invitation. It’s a chance where you can build long term business
   relationships and to strengthen the relationship with old connections which
   could formulate into business growth. Not only can you build new connections
   but also the ability to gain new knowledge and receive advice that you were
@@ -21,6 +22,8 @@ image: /images/london.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - agnieszka_h
 ---
 Networking is an extremely important part in business as it allows us to build relationships with people we know or have met for the first time. It allows us to understand the market opportunities, improve our communication skills, make great friends and build business opportunities and investment in the long term. During my first months at Bright Inventions, I have spent a lot of time attending educational and inspiring conferences and trade shows in London. Which are worth visiting? Let us take a look.
 

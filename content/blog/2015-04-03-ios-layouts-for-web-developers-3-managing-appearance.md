@@ -1,17 +1,20 @@
 ---
-excerpt: In the web, we've left behind the times when the view specific
-  definitions like fonts or colors were scattered all over through the HTML
-  structure. Now we’re looking at the iOS layouts. How do we maintain the
-  content vs. presentation separation in iOS?
+excerpt: >-
+  In the web, we've left behind the times when the view specific definitions
+  like fonts or colors were scattered all over through the HTML structure. Now
+  we’re looking at the iOS layouts. How do we maintain the content vs.
+  presentation separation in iOS?
 author: adam
 tags:
   - iOS
 date: 2015-04-03T00:00:00.000Z
-title: "iOS layouts for web developers #3 - managing the appearance"
+title: 'iOS layouts for web developers #3 - managing the appearance'
 layout: post
 image: /images/laptop_work.jpg
 comments: true
 published: true
+authors:
+  - adam
 ---
 This is the third part of the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/). The [first part was about the controls](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/), the [second about its positioning](/blog/ios-layouts-for-web-developers-2-control-positioning/). Now I’m going to tackle how to approach managing the controls appearance - something that we have CSS for in the web.
 

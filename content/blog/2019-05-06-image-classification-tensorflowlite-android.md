@@ -12,6 +12,8 @@ layout: post
 image: /images/blog_post_cover_surfing.png
 hidden: false
 published: true
+authors:
+  - radeks
 ---
 As I've already listed in my recent [blog post](/blog/are-we-ready-for-deep-learning-on-mobile-devices/) there are lots of advantages of making inference directly on a mobile device instead of using cloud solutions. Because of mobile devices' computation limitations, we can't migrate all of the available models to work on mobile. Unfortunately, plenty of them won't work on mobile devices but that's fine because we often don't need these heavy models on mobile devices. In this blog post, we will create a simple Android application that will take advantage of [MobileNetV2](https://arxiv.org/abs/1801.04381) that was pre-trained on ImageNet.
 

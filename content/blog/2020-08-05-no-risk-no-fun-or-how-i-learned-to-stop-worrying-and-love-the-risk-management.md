@@ -7,13 +7,16 @@ tags:
   - ISO
   - ALARP
 date: 2020-08-05T12:34:37.084Z
-title: "No risk, no fun or: How I learned to stop worrying and love the risk
-  management."
+title: >-
+  No risk, no fun or: How I learned to stop worrying and love the risk
+  management.
 layout: post
 image: /images/blog_post_risk_management.png
 hidden: false
 comments: true
 published: true
+authors:
+  - kasia
 ---
 I’ve been researching and writing about the agile approach to risk management for quite a few years now but mostly in relation to safety-critical software (for example [here](https://dl.acm.org/doi/10.1145/3234152.3234174) , [here](https://link.springer.com/chapter/10.1007%2F978-3-030-37534-8_4) and [here](https://journals.agh.edu.pl/csci/article/view/51) ). This time I wanted to address other types of projects, how it can work in practice and why the risk is not necessarily a bad thing. 
 

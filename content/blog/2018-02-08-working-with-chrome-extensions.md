@@ -1,6 +1,7 @@
 ---
-excerpt: Chrome Extensions can make your life easier whenever you want to add a
-  new feature to the Chrome Browser. Working with extensions is quite easy. It’s
+excerpt: >-
+  Chrome Extensions can make your life easier whenever you want to add a new
+  feature to the Chrome Browser. Working with extensions is quite easy. It’s
   just the good old JavaScript code and not much more. There are however few
   things worth taking into consideration while working with the extensions.
 layout: post
@@ -15,6 +16,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - monika
 ---
 
 Chrome Extensions can make your life easier whenever you want to add a script to the Chrome Browser. Working with extensions is quite easy. It’s just the good old JavaScript code and not much more. There are, however, a few things worth taking into consideration while working with the extensions.

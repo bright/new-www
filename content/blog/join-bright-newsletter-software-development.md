@@ -11,6 +11,8 @@ image: /images/blog_newsletter_bright_inventions.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
 ---
 Oh yes! It is high time to start a bright newsletter. Once a month we will share our blog posts and info about our free workshops and webinars.
 

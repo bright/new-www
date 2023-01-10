@@ -1,9 +1,9 @@
 ---
-excerpt: One of the prerequisites for a healthy and sustainable tech stack that
-  reduces the risk of our project quickly getting obsolete is a tooling and
-  automation around the mundane chores. Out of the tools fatigue JavaScript
-  world suffered few months back the new generation solution was born at
-  Facebook for React.
+excerpt: >-
+  One of the prerequisites for a healthy and sustainable tech stack that reduces
+  the risk of our project quickly getting obsolete is a tooling and automation
+  around the mundane chores. Out of the tools fatigue JavaScript world suffered
+  few months back the new generation solution was born at Facebook for React.
 author: adam
 tags:
   - React
@@ -16,6 +16,8 @@ image: /images/welcome_to_react.png
 hidden: false
 comments: true
 published: true
+authors:
+  - adam
 ---
 
 One of the prerequisites for a healthy and sustainable tech stack that reduces the risk of our project quickly getting obsolete is a tooling and automation around the mundane chores. Few months back the JavaScript world suffered from the tools fatigue when the brand new solutions to the build and configuration automation problem popped up daily, each with its own learning curve.

@@ -6,13 +6,17 @@ tags:
   - blockchain
   - development
 date: 2022-06-08T10:39:50.096Z
-title: From a Maritime Officer to a Blockchain Programmer. Meet Rafał – a
-  Fullstack Developer
+title: >-
+  From a Maritime Officer to a Blockchain Programmer. Meet Rafał – a Fullstack
+  Developer
 layout: post
 image: /images/brightstoryrafal_fullstack.png
 hidden: false
 comments: true
 published: true
+authors:
+  - rafal h
+  - izabela
 ---
 **Rafał was a maritime officer who decided to settle on a software development land. He learned how to code aboard the ship, having very limited access to the internet. Can you imagine doing that without Stack Overflow? He can! 😉 Check out his road from a navigator to a full-stack developer who specializes in Ethereum blockchain.**
 

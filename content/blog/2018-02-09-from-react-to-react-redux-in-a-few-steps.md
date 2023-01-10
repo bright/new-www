@@ -11,6 +11,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 
 In this post I'm going to focus on connecting `React` components with `Redux`. If you are just starting out with `React + Redux` or you have already worked with these before, but want to make this concept a bit clearer then feel invited to read this post till the end ;)

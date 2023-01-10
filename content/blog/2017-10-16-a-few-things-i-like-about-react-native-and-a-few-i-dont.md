@@ -12,6 +12,8 @@ comments: true
 date: '2017-10-15T22:00:00.000Z'
 image: /images/react_native_logo.png
 published: true
+authors:
+  - azabost
 ---
 
 React Native is still a hot topic at the company. After spending some time with it, many of us have some thoughts and I think there is still a lot to say about it so I would like to share some of my observations and feelings.

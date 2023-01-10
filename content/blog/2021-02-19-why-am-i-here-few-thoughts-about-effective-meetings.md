@@ -12,6 +12,8 @@ image: /images/blog_post_cover_meetings.png
 hidden: false
 comments: true
 published: true
+authors:
+  - kasia g
 ---
 The meeting starts. After 5 minutes of participating you start to wonder what it is about. It feels like a total waste of your valuable time. You lose your focus and listen with only half an ear. Probably in the meantime you start to do some of your other tasks for today. Then, if someone asks you, you don’t even know what the question was about.
 

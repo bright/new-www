@@ -1,8 +1,9 @@
 ---
-excerpt: VideoView is the most straightforward way to show video content in
-  layout. <br /> It took a few lines of code to setup and show for example mp4
-  file. <br /> It's fine when you don't care about UX too much, but when you do,
-  things are going to be annoying.
+excerpt: >-
+  VideoView is the most straightforward way to show video content in layout. <br
+  /> It took a few lines of code to setup and show for example mp4 file. <br />
+  It's fine when you don't care about UX too much, but when you do, things are
+  going to be annoying.
 modified: 2015-01-11T00:00:00.000Z
 author: mateuszklimek
 tags:
@@ -15,6 +16,8 @@ image: /images/people-office-group-team.jpg
 hidden: false
 comments: true
 published: true
+authors:
+  - mateuszklimek
 ---
 VideoView is the most straightforward way to show video content in layout. <br />
 It took a few lines of code to setup and show for example mp4 file. <br />

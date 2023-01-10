@@ -15,6 +15,8 @@ image: /images/blog_post_andrzej_watch_out.png
 hidden: false
 comments: true
 published: true
+authors:
+  - azabost
 ---
 I've recently come across a weird and totally unexpected issue while developing an Android app. I bet a lot of people may have enough luck to never notice it but if it finally happens to you and crashes your app, it's quite hard to pinpoint the cause of the issue quickly if you don't know what you are actually looking for.
 

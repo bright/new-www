@@ -7,13 +7,17 @@ tags:
   - business
   - design
 date: 2021-05-19T10:00:56.280Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: ''
 title: What are the stages of app development?
 layout: post
 image: /images/blogpost_stagesofappdevelopment.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
+  - mateusz
+  - alisa
 ---
 **From an idea to a successful launch… There are 4 main stages of building an app. Learn more about all of them.**
 

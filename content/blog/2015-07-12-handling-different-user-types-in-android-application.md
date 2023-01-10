@@ -7,6 +7,8 @@ author: piotr
 tags:
   - android
 published: true
+authors:
+  - piotr
 ---
 
 In the [previous post](/blog/maintaining-current-user-information-in-android/) you can read how to use `Session` object to maintain current user information through the application lifecycle. Now we'll explore different options of implementing varying behavior depending on user type.

@@ -11,6 +11,8 @@ image: /images/blog_post_lamp_development.png
 hidden: false
 comments: true
 published: true
+authors:
+  - radek-l
 ---
 ![mounting lamp](/images/blog_post_lamp_development.png)
 

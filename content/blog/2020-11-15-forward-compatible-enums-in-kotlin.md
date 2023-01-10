@@ -13,6 +13,8 @@ image: /images/blog_post_forward_compatible.png
 hidden: false
 comments: true
 published: true
+authors:
+  - azabost
 ---
 A few years ago Adam outlined
 [8 steps to keep your API sane](/blog/8-steps-to-keep-your-api-sane)

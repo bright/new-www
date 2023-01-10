@@ -13,6 +13,9 @@ image: /images/blogpost_www_iza_pricingmodels.png
 hidden: false
 comments: true
 published: true
+authors:
+  - izabela
+  - mateusz
 ---
 **Fixed price or Time and Material? What is the best pricing model for software development services? Or maybe there is a third option to consider? Let’s dive into the pros and cons of popular pricing models for software development.**
 

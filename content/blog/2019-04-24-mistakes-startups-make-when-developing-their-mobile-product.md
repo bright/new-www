@@ -1,9 +1,10 @@
 ---
-extract: If you’ve ever worked at an early-stage startup, then I’m sure you know
-  the feeling – your mobile app, a concept you’ve been working intensely on for
-  many months, is finally entering development phase. Things are starting to
-  feel very real business-wise, aren’t they? To help you make this a productive
-  and informed process, we’ve listed some of the most common startup mistakes in
+extract: >-
+  If you’ve ever worked at an early-stage startup, then I’m sure you know the
+  feeling – your mobile app, a concept you’ve been working intensely on for many
+  months, is finally entering development phase. Things are starting to feel
+  very real business-wise, aren’t they? To help you make this a productive and
+  informed process, we’ve listed some of the most common startup mistakes in
   mobile app development.
 author: mateusz
 tags:
@@ -18,6 +19,8 @@ image: /images/blog_post_cover-mateusz_startup.png
 hidden: false
 comments: true
 published: true
+authors:
+  - mateusz
 ---
 If you’ve ever worked at an early-stage startup, then I’m sure you know the feeling – your mobile app, a concept you’ve been working intensely on for many months, is finally entering development phase. Things are starting to feel very real business-wise, aren’t they?
 

@@ -116,7 +116,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "script:blogPosts": "node ./scripts/fixBlogPosts.js",
     "fix-cannonical": "ts-node ./fix-cannonical.ts",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "migrate-authors": "npx ts-node -O '{\"module\": \"commonjs\"}' ./migrate-authors.ts"
   },
   "repository": {
     "type": "git",

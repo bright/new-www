@@ -1,8 +1,9 @@
 ---
-excerpt: Let's take a quick look at one of the design patterns that should help
-  us to write a good Object-Oriented code.
+excerpt: >-
+  Let's take a quick look at one of the design patterns that should help us to
+  write a good Object-Oriented code.
 layout: post
-title: "Design Patterns with Swift: Quick look at a Strategy Pattern"
+title: 'Design Patterns with Swift: Quick look at a Strategy Pattern'
 date: 2017-10-08T22:00:00.000Z
 image: /images/strategy.jpeg
 author: kwysocki
@@ -14,6 +15,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - kwysocki
 ---
 ![design patterns](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg)
 

@@ -3,7 +3,8 @@ crosspost: true
 layout: post
 title: Brief introduction to transfer learning
 date: 2020-05-18T22:00:00.000Z
-image: /images/brief-introduction-to-transfer-learning/brief-introduction-to-transfer-learning-top.jpg
+image: >-
+  /images/brief-introduction-to-transfer-learning/brief-introduction-to-transfer-learning-top.jpg
 author: radeks
 tags:
   - deep learning
@@ -12,6 +13,8 @@ tags:
 hidden: false
 comments: true
 published: true
+authors:
+  - radeks
 ---
 In this item, I want to share with you the core idea behind transfer learning. We will solve a simple classification problem where we will try to correctly classify surfing, windsurfing and kitesurfing images but you can easily solve different problems relying on described steps
 

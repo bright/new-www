@@ -1,7 +1,7 @@
 ---
 author: radek-l
-secondAuthor: ""
-thirdAuthor: ""
+secondAuthor: ''
+thirdAuthor: ''
 tags:
   - automation testing
   - QA
@@ -13,6 +13,8 @@ image: /images/test_automation_project.png
 hidden: false
 comments: true
 published: true
+authors:
+  - radek-l
 ---
 ![](https://lh4.googleusercontent.com/xHvYnSv4BZiOVO28x-5PHsEsxvrJLgQz5p36-4e_WmEjFHQRcMrRo3SWIBjTn-3oX3n39li2CBRG1h89tab1M-OI-2YeUnK9k6cBsykV0rmvRjKyfB69KISplsgi0Obf28G84TKm9b6qdwNo7XKZoBeONhcN9akmPIJI2UHDbz4gsgKqFRpZ6JUukg)
 

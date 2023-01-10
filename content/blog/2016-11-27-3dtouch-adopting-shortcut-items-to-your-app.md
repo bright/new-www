@@ -10,6 +10,8 @@ layout: post
 image: /images/iphone.jpg
 comments: true
 published: true
+authors:
+  - kwysocki
 ---
 With the beginning of the iPhone 6s, Apple has introduced a 3D Touch mechanism which is very cool thing. The 3D Touch is also available on
 the newest iPhones 7. Nothing indicates that in the future Apple devices will run out of that feature so, here is a quick tutorial on how

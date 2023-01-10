@@ -8,6 +8,8 @@ author: michal
 date: '2015-12-02T23:00:00.000Z'
 image: /images/laptop-programming.jpg
 published: true
+authors:
+  - michal
 ---
 
 Let me share a small trick that I use to quickly navigate to documents directory for an iOS application that runs in the simulator.

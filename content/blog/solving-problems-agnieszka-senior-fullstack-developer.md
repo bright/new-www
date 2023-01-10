@@ -7,14 +7,18 @@ tags:
   - inspiration
   - development
 date: 2022-10-05T08:47:36.209Z
-meaningfullyUpdatedAt: ""
-title: Solving Problems with Code for over 12 Years. Meet Agnieszka – Senior
+meaningfullyUpdatedAt: ''
+title: >-
+  Solving Problems with Code for over 12 Years. Meet Agnieszka – Senior
   Fullstack Developer
 layout: post
 image: /images/brightstoryagnieszka.png
 hidden: false
 comments: true
 published: true
+authors:
+  - agnieszka
+  - izabela
 ---
 **Agnieszka needs to build products that really make a difference. She is not afraid to work closely with end-users. She loves to see how the product she builds influences somebody's life. She has been a part of Bright Inventions’ team since 2015 working on mobile apps, integrations with Substrate blockchain, and more. Check out Agnieszka’s story.**
 

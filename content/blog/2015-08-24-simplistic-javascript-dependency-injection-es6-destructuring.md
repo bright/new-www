@@ -15,6 +15,8 @@ excerpt: >-
   the Dependency Injection approach that stays simplistic, decoupled from any
   framework and still convenient to consume.
 published: true
+authors:
+  - adam
 ---
 
 Recently I got a bit tired with Angular's quirks and intricacies. To freshen up, I'm playing with framework-less JavaScript ([Vanilla JS](http://vanilla-js.com/)). I'm also getting more and more used to ES6 features. One of the outcomes by now is the idea for the [Dependency Injection](http://www.martinfowler.com/articles/injection.html) approach that stays simplistic, decoupled from any framework and still convenient to consume.

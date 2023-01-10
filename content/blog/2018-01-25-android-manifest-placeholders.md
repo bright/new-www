@@ -12,6 +12,8 @@ image: /images/android-manifest-placeholders/placeholder.png
 hidden: false
 comments: true
 published: true
+authors:
+  - azabost
 ---
 # What are they?
 

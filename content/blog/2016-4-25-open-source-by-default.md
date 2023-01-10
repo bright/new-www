@@ -8,6 +8,8 @@ layout: post
 image: /images/b-88Light.jpg
 comments: true
 published: true
+authors:
+  - eliasz
 ---
 
 Using open source code in projects is a common thing. I do it. Most of us do.
