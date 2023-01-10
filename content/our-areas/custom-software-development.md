@@ -66,7 +66,7 @@ bar_stack:
   - Java
 button: let's talk
 button2: "cooperate with us "
-published: true
+published: false
 show_case_study: true
 show_technology_stack: true
 title_team: meet custom software development team
