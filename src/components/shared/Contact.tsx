@@ -112,14 +112,12 @@ export const Contact: FC<ContactProps> = ({
     setIsSending(true)
 
     e.preventDefault()
-    const wrapValue = (value: any) => ({
-      value,
-    })
+
     sendMail(
       {
-        name: wrapValue(name),
-        email: wrapValue(email),
-        message: wrapValue(message),
+        name: name,
+        email: email,
+        message: message,
       },
       FormType.contact
     )

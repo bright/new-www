@@ -11,30 +11,21 @@ export interface JobFormData {
   attachments: File[]
 }
 
-export async function sendMail(
-  data: JobFormData | {
-    [key: string]: {
-      value: string | Blob
-      fileName?: string
-    }
-  },
-  formType: FormType
-) {
+export interface ContactFormData {
+  name: string
+  email: string
+  message?: string
+}
 
+export async function sendMail(
+  ...[data, formType]: [data: JobFormData, formType: 'job'] | [data: ContactFormData, formType: 'contact' | 'start-a-project']
+) {
 
   if (formType === 'contact' || formType === 'start-a-project') {
     const formData = new FormData()
-    for (const key in data) {
-      if (data.hasOwnProperty(key)) {
-        const element = (data as any)[key]
-
-        if (element.fileName) {
-          formData.append(key, element.value, element.fileName)
-        } else {
-          formData.append(key, element.value)
-        }
-      }
-    }
+    formData.append('name', data.name)
+    formData.append('email', data.email)
+    formData.append('message', data.message ?? 'Unknown message. Please check javascript code.')
 
     return fetch(
       'https://prod-38.northeurope.logic.azure.com/workflows/1d03b23263424a8a8bef4287c5c50add/triggers/manual/paths/invoke/contact?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=uAHDF64Wovfav_yXqKz2l2m_MZ-f9kAzDx6i49kDGq0',
