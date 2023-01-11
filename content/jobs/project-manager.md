@@ -38,8 +38,8 @@ image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: Ula Stankiewicz - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: join Agile team
-published: true
-hidden: false 
+published: false
+hidden: true
 show_recruiter_info: true
 order: 5
 recruting_image2_title: "interview "
