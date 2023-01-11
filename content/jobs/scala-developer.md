@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Scala Developer "
-subtitle: OPENING SOON 
+subtitle: CLOSED
 image-alt-job: Bright Inventions team
 hours: full-time
 salary: 26 000 - 32 000 PLN + VAT (B2B) or 21 600 - 26 600 PLN gross (UoP)
