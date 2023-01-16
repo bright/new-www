@@ -38,9 +38,9 @@ title: build native apps with mobile development team
 intro: Our team has broad experience in building applications for iOS and Android.
 image_our_service: /images/mobile_app_development.png
 image_alt_our_service: mobile app development company
-image_our_service_desktop: /images/mobile_development_company.png
+image_our_service_desktop: /images/mockup_web.png
 image_alt_our_service_desktop: Mobile development company
-image_our_service_mobile: /images/mobile_development_company_phone.png
+image_our_service_mobile: /images/mockup_mobile.png
 image_alt_our_service_mobile: Mobile development company
 description_mdx: >-
   At Bright Inventions, we live and breathe **native mobile app development for
