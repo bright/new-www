@@ -58,7 +58,7 @@ const OurDevelopmentAreas = () => {
 const GQL = graphql`
   {
     allMdx(
-      filter: { frontmatter: { layout: { eq: "our-service" } } }
+      filter: { frontmatter: { layout: { eq: "our-service" }, published: { eq: true } } }
       sort: { order: ASC, fields: frontmatter___order }
     ) {
       edges {
