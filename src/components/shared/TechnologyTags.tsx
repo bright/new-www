@@ -76,6 +76,8 @@ const TechnologyTags = () => {
         <ContentContainer>
           <Pill>Kotlin</Pill>
           <Pill>Java</Pill>
+          <Pill>Swift</Pill>
+          <Pill>Flutter</Pill>
           <Pill>Spring</Pill>
           <Pill>TypeScript</Pill>
           <Pill>React</Pill>
@@ -83,9 +85,10 @@ const TechnologyTags = () => {
           <Pill>NestJS</Pill>
           <Pill>MySQL</Pill>
           <Pill>PostgreSQL</Pill>
-          <Pill>Swift</Pill>
           <Pill>AWS</Pill>
           <Pill>iBeacon</Pill>
+          <Pill>Rust</Pill>
+          <Pill>Substrate</Pill>
         </ContentContainer>
       </CustomContainer>
     </SectionBlackContainer>
