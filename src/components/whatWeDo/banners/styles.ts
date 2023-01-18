@@ -1,54 +1,19 @@
-import { Link } from 'gatsby'
 import styled from 'styled-components'
 import variables from '../../../styles/variables'
 import { CustomSectionTitle } from '../../shared'
 
 const { color } = variables
 
-export const Button = styled.button`
-  width: 100%;
-  height: 54px;
-  margin-top: 64px;
-  max-width: 332px;
-
-  border: 1px solid #ffffff;
-  background: transparent;
-
-  font-size: 18px;
-  line-height: 22px;
-  font-family: ${variables.font.title.family};
-  font-weight: bold;
-
-  color: #ffffff;
-
-  letter-spacing: 0px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-
-  &:hover {
-    color: ${color.primary};
-    border-color: ${color.primary};
-  }
-
-  &.hover-white:hover {
-    color: #fff;
-    border-color: #fff;
-  }
-
-  @media (max-width: 540px) {
-    width: 100%;
-    margin-top: ${variables.pxToRem(49)};
-    max-width: 100%
-  },
-`
-export const BannerLink = styled(Link)`
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  &:hover {
-    color: ${color.primary};
-    border-color: ${color.primary};
+export const OurAreasButtonWrapper = styled.div`
+  & .our-areas-button {
+    border: 1px solid ${color.white};
+    background: transparent;
+    color: ${color.white};
+    border-color: ${color.white};
+    &:hover {
+      color: ${color.primary};
+      border-color: ${color.primary};
+    }
   }
 `
 
