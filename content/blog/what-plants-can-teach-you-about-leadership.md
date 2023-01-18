@@ -35,6 +35,8 @@ People just like plants can be in a different phase of maturity depending on the
 
 The information about plant’s maturity tells you how long it takes from the moment a seed is sown to the moment when the plant is ready to set flowers. It is a tool provided to help the gardener determine when the plant will successfully grow and produce fruits. **[Hersey and Blanchard in situational leadership](https://www.toolshero.com/leadership/situational-leadership-hersey-blanchard/) suggest that managers should adapt their leadership style to an individual, their tasks and level of maturity** 
 
+![situational leadership](/images/Situational_Leadership.png)
+
 In their method the maturity level is divided into three categories: high, moderate and low. High maturity includes highly capable and confident individuals who are experienced and work well on their own whereas moderate maturity is generally divided into two groups: the first are employees who are capable but lack enough confidence to take on the responsibility to do so, and the second group has the confidence but is not willing to do the task at hand. Low maturity employees are not skilled enough to do the task but are very enthusiastic. **To take proper care of people in the organisation leaders and managers should adapt an appropriate leadership style. It helps to quickly evaluate a situation and make decisions that fit your team member’s needs.** Just like with plants. 
 
 ## **5. Cacti and succulents in your team** 🌵
