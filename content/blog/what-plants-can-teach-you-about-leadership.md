@@ -61,7 +61,7 @@ Being confined to one project for too long can become very root-bound for them. 
 
 ## **7. Get rid of weeds** ✂️
 
-Every gardener has to learn how to weed like a pro to keep they plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** 
+Every gardener has to learn how to weed like a pro to keep they plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** Eliminate toxic factors as quick as you can.
 
 Get into the habit of regular routine care and maintenance of your garden and it will bring a lot of benefits for you and your team. As a manager or leader you have plenty occasions to get some feedback. Talk with people and improve the workflow you have. Manage team meetings wisely. Reduce unnecessary ones. Work on limiting blokers or communications obstacles. **But be careful as “weeding” might be the one thing that can turn every gardener into a world-class complainer. And it should not be about complaining at all.** 
 
