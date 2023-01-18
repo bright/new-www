@@ -35,7 +35,7 @@ As we already know every plant has to be taken care of to grow. **But the point 
 
 **Some people need a bit of motivation and “push” to leave their comfort zone and then they thrive. For some it is enough when you check up their progress every now and then and water their leaves with doze of appreciation.** Others will need your support all the time as they are demanding, but they can blossom one day taking your breath away. As leaders we have to learn what works best for people we work with. 
 
-## **5. Maturity** 🌱
+## **4. Maturity** 🌱
 
 People just like plants can be in a different phase of maturity depending on their career level. 
 
