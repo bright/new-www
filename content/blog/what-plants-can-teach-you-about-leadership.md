@@ -19,7 +19,7 @@ This introduction will be short. A few years ago when I bought my flat I also bo
 
 There are million different kinds of plants in the world. Every plant is unique. And even if you have dozens plants that belong to the same species, it is impossible to find two identical ones (or it is almost impossible). **The world of plants is rich and diversified. The same we can say about the world of people.** There are million different types of personalities around us. Being a leader means you work with different people every day. If you want out of curiosity to read about five main personality traits, take a look [here](https://www.verywellmind.com/the-big-five-personality-dimensions-2795422). 
 
-<GiphyEmbed url='https://media.giphy.com/media/xT9DPhySvCRg3nuTqU/giphy.gif' />
+<GiphyEmbed url='https://giphy.com/gifs/animation-plants-pots-xT9DPhySvCRg3nuTqU' />
 
 Creating diverse team within an organization can improve the overall productivity, culture and morale of the company. **The diversity in your team can help to discover unique solutions, new perspective and make even more effective business decisions.** And what you have to learn as a manger is the way of taking care of people you work with, the same way as the gardener takes care of their plants. ﻿
 
@@ -49,7 +49,7 @@ In their method the maturity level is divided into three categories: high, moder
 
 Cacti and succulents are now a very common houseplant and they both have the same trait - they can survive in arid environments. The native habitat for most cacti and succulents is a desert. They are quite easy care, low maintenance and undemanding plants. Their leaves allows the plant to withstand most harsh conditions in the world. But it does not mean we can stop taking care of them. Most cacti and succulents require a lot of light, sometimes well-drained compost or diluted fertiliser. 
 
-<GiphyEmbed url='https://media.giphy.com/media/dW6SH3HDxZjbzUT0kF/giphy.gif' />
+<GiphyEmbed url='https://giphy.com/gifs/flower-timelapse-cacti-ZNpC6BdLJLhDi' />
 
 **In your team you have also cacti-employees.** These are usually hard working people you can trust and rely on. They get the task and no matter what they will accomplish what is needed. **They do not complain. And even in times of adversity they will do what has to be done. But as a leader you cannot forget that they also need your support, they also need 1:1 meetings, they also need appreciation and someone who will understand their concerns.** 
 
