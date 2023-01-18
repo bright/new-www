@@ -4,9 +4,9 @@ tags:
   - inspiration
   - communication
   - team management
-date: 2023-01-17
-meaningfullyUpdatedAt:
-title: What plants can teach you about leadership? 
+date: 2023-01-17T00:00:00.000Z
+meaningfullyUpdatedAt: null
+title: What plants can teach you about leadership?
 layout: post
 image: /images/plants_bright_leadership.jpg
 hidden: false
