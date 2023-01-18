@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, PropsWithChildren } from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
 import TechnologyTags from '../components/shared/TechnologyTags'
@@ -8,13 +8,7 @@ import { HelmetMetaData } from '../meta/HelmetMetaData'
 import RatingClutch from '../assets/rating.svg'
 import { useWindowSize } from '../components/utils/use-windowsize'
 
-import {
-  CustomSectionInner,
-  CustomSection,
-  TextRegular,
-  CustomSectionTitle,
-  Section,
-} from '../components/shared/index.styled'
+import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
 
 import TeamMembers from './../components/subcomponents/TeamMembers'
 import { Projects } from '../components/home/Projects'
@@ -24,22 +18,22 @@ import {
   CustomSectionOurService,
   ImageWrapper,
   Content,
-  BlackButtonOurService,
   FaqWrapper,
   Question,
   FaqsTextRegural,
-  OurServiceHideTablet,
   OurServicePageTitle,
   OurServiceSection,
   BulletList,
   BulletsList,
   CloutchWrapper,
   OurServiceFlexWraper,
+  MoreButtonOurServiceWrapper,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 import { FlexWrapper } from '../components/shared'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
+import { MoreButton } from './../components/shared/index'
 
 export default function Template({
   data,
@@ -111,7 +105,6 @@ export default function Template({
     meta_title,
     meta_description,
     title,
-    description,
     button,
     title_team,
     team_members,
@@ -152,18 +145,17 @@ export default function Template({
           <BulletsList>
             {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}
           </BulletsList>
-
-          <Link to={'#contactForm'}>
-            <BlackButtonOurService
-              marginTop='81px'
-              margin='0'
-              marginTopTablet='180px'
-              tabletWidth='100%'
-              marginTopMobile='112px'
-            >
+          <MoreButtonOurServiceWrapper
+            marginTop='81px'
+            margin='0'
+            marginTopTablet='180px'
+            tabletWidth='100%'
+            marginTopMobile='112px'
+          >
+            <MoreButton href={'#contactForm'} isBlack marginTop='0' isPositionLeft>
               {button}
-            </BlackButtonOurService>
-          </Link>
+            </MoreButton>
+          </MoreButtonOurServiceWrapper>
 
           <CloutchWrapper>
             <FlexWrapper desktopItems='center' desktopGap='18px'>
@@ -213,9 +205,12 @@ export default function Template({
         <OurServiceSection>
           <CustomSectionInner>
             <Content className='content'>{children}</Content>
-            <Link to={'#contactForm'}>
-              <BlackButtonOurService>{button2}</BlackButtonOurService>
-            </Link>
+
+            <MoreButtonOurServiceWrapper>
+              <MoreButton href={'#contactForm'} isBlack marginTop='0'>
+                {button2}
+              </MoreButton>
+            </MoreButtonOurServiceWrapper>
           </CustomSectionInner>
         </OurServiceSection>
       </CustomSection>

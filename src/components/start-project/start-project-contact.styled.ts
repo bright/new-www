@@ -35,34 +35,6 @@ export const Form = styled.form({
   },
 })
 
-export const SubmitButton = styled.button({
-  display: 'block',
-  fontSize: '18px',
-  lineHeight: '22px',
-  fontFamily: variables.font.title.family,
-  fontWeight: 'bold',
-  cursor: 'pointer',
-
-  color: variables.color.white,
-  backgroundColor: variables.color.text,
-
-  height: '40px',
-  width: '233px',
-
-  margin: '0 auto',
-  padding: '8px 72px',
-
-  ['&:disabled']: {
-    cursor: 'default',
-    backgroundColor: 'grey',
-  },
-
-  ['@media screen and (max-width: 767px)']: {
-    marginTop: '50px',
-    width: '100%',
-  },
-})
-
 export const Label = styled.div({
   fontSize: '16px',
   lineHeight: '40px',
