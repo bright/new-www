@@ -2,7 +2,6 @@ import React, { ChangeEvent, SyntheticEvent, useCallback, useEffect, useState } 
 import styled from 'styled-components'
 import { TextField } from '../fields/text-field'
 import { Form } from './job-application-form.styled'
-import { BlackButton } from '../../about-us/about-us.styled'
 import { UploadField } from '../fields/upload-field'
 import { CheckboxField } from '../fields/checkbox-field'
 import { Link } from 'gatsby'
@@ -11,7 +10,7 @@ import { routeLinks } from '../../../config/routing'
 import { UploadIcon } from '../../icons/Upload.icon'
 import { AttachmentUploaded } from '../fields/fields.styled'
 import { JobApplicationModal } from './job-application-modal'
-import { CustomTextRegular } from '../../shared'
+import { CustomTextRegular, MoreButton } from '../../shared'
 import variables from '../../../styles/variables'
 import { trackConversion, trackCustomEvent } from '../../../analytics/track-custom-event'
 import { FlexWrapper } from './../../shared/index'
@@ -119,7 +118,7 @@ const Label = styled.label`
 const AttachmentLabel = styled.p`
   font-size: ${variables.pxToRem(16)};
   line-height: ${variables.pxToRem(40)};
-  font-family: ${variables.font.text.family}
+  font-family: ${variables.font.text.family};
 `
 
 export const JobApplicationForm: React.FC<FormProps> = props => {
@@ -132,54 +131,61 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
     setEmail,
     setName,
     setLinkedinUrl,
-    removeAttachmentAtIndex
+    removeAttachmentAtIndex,
   } = useApplicationForm()
   const [errorMsgValidation, setErrorMsgValidation] = useState<string>('')
   const [selectedAttachment, setSelectedAttachment] = useState<string>('cv')
 
-  const {
-    nameLabel,
-    namePlaceholder,
-    mailLabel,
-    mailPlaceholder,
-    uploadLabel,
-    onSubmit
-  } = props
+  const { nameLabel, namePlaceholder, mailLabel, mailPlaceholder, uploadLabel, onSubmit } = props
 
   useEffect(() => {
     console.debug('value=', value)
   }, [value])
 
-  const onCVInputChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    const files = Array.from(event.target.files || [])
+  const onCVInputChange = useCallback(
+    (event: ChangeEvent<HTMLInputElement>) => {
+      const files = Array.from(event.target.files || [])
 
-    if (value.attachments.concat(files).length > 2) {
+      if (value.attachments.concat(files).length > 2) {
+        setErrorMsgValidation('Please upload maximum two attachments.')
+        setTimeout(() => {
+          setErrorMsgValidation('')
+        }, 5000)
+        return
+      }
+      setAttachments(value.attachments.concat(files))
+    },
+    [setAttachments]
+  )
 
-      setErrorMsgValidation('Please upload maximum two attachments.')
-      setTimeout(() => {
-        setErrorMsgValidation('')
-      }, 5000)
-      return
-    }
-    setAttachments(value.attachments.concat(files))
-  }, [setAttachments])
+  const onEmailChange = useCallback(
+    (event: ChangeEvent<HTMLInputElement>) => {
+      setEmail(event.target.value)
+    },
+    [setEmail]
+  )
 
-  const onEmailChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    setEmail(event.target.value)
-  }, [setEmail])
+  const onNameChange = useCallback(
+    (event: ChangeEvent<HTMLInputElement>) => {
+      setName(event.target.value)
+    },
+    [setName]
+  )
 
-  const onNameChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    setName(event.target.value)
-  }, [setName])
+  const onLinkedinUrlChange = useCallback(
+    (event: ChangeEvent<HTMLInputElement>) => {
+      setLinkedinUrl(event.target.value)
+    },
+    [setLinkedinUrl]
+  )
 
-  const onLinkedinUrlChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
-    setLinkedinUrl(event.target.value)
-  }, [setLinkedinUrl])
-
-  const onRemoveAttachmentAtIndexClicked = useCallback((event: SyntheticEvent, index: number) => {
-    event.preventDefault()
-    removeAttachmentAtIndex(index)
-  }, [removeAttachmentAtIndex])
+  const onRemoveAttachmentAtIndexClicked = useCallback(
+    (event: SyntheticEvent, index: number) => {
+      event.preventDefault()
+      removeAttachmentAtIndex(index)
+    },
+    [removeAttachmentAtIndex]
+  )
 
   const closeModal = () => {
     setIsSubmitedToFalse()
@@ -187,7 +193,8 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
 
   const submit = useCallback(
     (event, data: JobFormData) => {
-      const isValidLinkedin = (data.message ?? '').startsWith('https://www.linkedin.com/') ||
+      const isValidLinkedin =
+        (data.message ?? '').startsWith('https://www.linkedin.com/') ||
         (data.message ?? '').startsWith('http://www.linkedin.com/') ||
         (data.message ?? '').startsWith('https://linkedin.com/')
 
@@ -216,11 +223,11 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       trackCustomEvent({
         category: 'Recruitment Contact Form Button',
         action: 'Click Submit Recruitment Form',
-        label: window.location.href
+        label: window.location.href,
       })
 
       trackConversion({
-        sent_to: 'AW-10942749476/L-INCLP4yOQDEKS29OEo'
+        sent_to: 'AW-10942749476/L-INCLP4yOQDEKS29OEo',
       }).then(() => console.log('Job contact form conversion sent'))
     },
     [selectedAttachment]
@@ -312,10 +319,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
           <div>
             {value.attachments.map((attachment, ix) => (
               <AttachmentUploaded key={ix}>
-                <span>{attachment.name}</span>{' '}
-                <button onClick={(e) => onRemoveAttachmentAtIndexClicked(e, ix)}>
-                  x
-                </button>
+                <span>{attachment.name}</span> <button onClick={e => onRemoveAttachmentAtIndexClicked(e, ix)}>x</button>
               </AttachmentUploaded>
             ))}
           </div>
@@ -327,7 +331,13 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
             <Link to={routeLinks.privacyPolicy}>Privacy Policy</Link>
           </strong>
         </CheckboxField>
-        {value.isSending ? <Loader className='loader'></Loader> : <BlackButton type='submit'>submit</BlackButton>}
+        {value.isSending ? (
+          <Loader className='loader'></Loader>
+        ) : (
+          <MoreButton className='job-button' isSubmit isBlack marginTop='0'>
+            submit
+          </MoreButton>
+        )}
 
         {value.isError && (
           <ErrorMessage>

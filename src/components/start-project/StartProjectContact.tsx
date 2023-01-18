@@ -1,9 +1,8 @@
 import React, { useState, FC } from 'react'
-import styled from 'styled-components'
+
 import { routeLinks } from '../../config/routing'
 
 import { FormType, sendMail } from '../../helpers/mail'
-import variables from '../../styles/variables'
 
 import {
   CheckboxFieldContainer,
@@ -15,8 +14,6 @@ import {
   PrivacyPolicyCheckbox,
   PrivacyPolicyCheckboxContainer,
   RequiredMessage,
-  SubmitButton,
-  TextInput,
   SuccesMessage,
   ContainerWrapper,
   Container,
@@ -25,11 +22,12 @@ import {
   ErrorMessage,
 } from './start-project-contact.styled'
 
-import { TextRegular, CustomTextRegular } from '../shared'
+import { TextRegular } from '../shared'
 import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
 
 import { TickIcon } from '../icons/Tick.icon'
 import { JobApplicationModal } from '../forms/job-application/job-application-modal'
+import { MoreButton } from './../shared/index'
 
 export interface StartProjectContactProps {
   formButton: string
@@ -167,9 +165,9 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
-            <SubmitButton type='submit' onClick={checkValid}>
+            <MoreButton isSubmit onClick={checkValid} isBlack>
               let’s talk
-            </SubmitButton>
+            </MoreButton>
           )}
           <div>
             <TextRegular style={{ marginTop: '32px' }}>
