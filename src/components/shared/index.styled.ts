@@ -180,7 +180,7 @@ export const Button = styled.div<{
     width: 100%;
     display: block;
     & button {
-      padding: ${variables.pxToRem(8)} ${variables.pxToRem(16)};
+      padding: ${variables.pxToRem(16)} ${variables.pxToRem(16)};
       width: 100%;
     }
   }
