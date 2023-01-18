@@ -69,18 +69,12 @@ const HeroBlog = styled.section`
       }
     }
   }
-
-  & a > .btn {
+`
+const MoreButtonBlogWrapper = styled.div`
+  padding: 0 ${variables.pxToRem(18)};
+  & .btn {
     margin-top: 1.8125rem;
     margin-bottom: 1.25rem;
-    font-size: ${variables.font.customtext.sizeButton};
-    line-height: 1.375rem;
-    padding: 1rem 4rem;
-    transition: ease-out 0.3s;
-    &:hover {
-      background-color: #000;
-      color: #fff;
-    }
   }
 `
 
@@ -107,9 +101,11 @@ const PopularBlogPosts: FC = () => {
           )
         })}
       </div>
-      <MoreButton className='btn' href={routeLinks.blog}>
-        more blog posts
-      </MoreButton>
+      <MoreButtonBlogWrapper>
+        <MoreButton className='btn' href={routeLinks.blog}>
+          more blog posts
+        </MoreButton>
+      </MoreButtonBlogWrapper>
     </HeroBlog>
   )
 }
