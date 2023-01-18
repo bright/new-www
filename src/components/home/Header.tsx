@@ -2,7 +2,7 @@ import React from 'react'
 import classNames from 'classnames'
 
 import { routeLinks } from '../../config/routing'
-import { CustomSection } from '../shared'
+import { CustomSection, MoreButton } from '../shared'
 import styled from 'styled-components'
 import * as styles from './Header.module.scss'
 import variables from '../../styles/variables'
@@ -94,6 +94,11 @@ const HeroBody = styled.div`
     width:100% ;
   }
 `
+const MoreButtonEstimateWrapper = styled.div`
+  & .button-estimate {
+    margin: 6em 0;
+  }
+`
 
 export const Header = () => {
   return (
@@ -116,11 +121,11 @@ export const Header = () => {
             </h1>
           </div>
         </HeroWrapper>
-        <div className='buttons is-hidden-tablet'>
-          <a className='button estimate is-primary' href={routeLinks.startProject}>
-            <strong>estimate project</strong>
-          </a>
-        </div>
+        <MoreButtonEstimateWrapper className='buttons is-hidden-tablet'>
+          <MoreButton href={routeLinks.startProject} className='button-estimate' isPrimary marginTop='0'>
+            estimate project
+          </MoreButton>
+        </MoreButtonEstimateWrapper>
       </HeroBody>
     </CustomSection>
   )

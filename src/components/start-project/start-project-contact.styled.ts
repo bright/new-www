@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { CustomTextRegular, TextRegular } from '../shared'
 import variables from '../../styles/variables'
-import { Button as ButtonBase } from '../whatWeDo/banners/styles'
+import { Button as ButtonBase } from '../shared/index.styled'
 
 export const Header = styled.div({
   fontSize: '36px',
