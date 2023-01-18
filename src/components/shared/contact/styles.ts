@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 import { TextRegular, TextTitle } from '..'
 import variables from '../../../styles/variables'
-import { Button as ButtonBase } from '../../whatWeDo/banners/styles'
 import { lighten, rgba } from 'polished'
 import Arrow from '../../../../static/images/arrow-select.svg'
+import { Button as ButtonBase } from './../index'
 
 export const Header = styled.div({
   fontSize: '36px',
