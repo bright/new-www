@@ -26,28 +26,6 @@ const BlockchainExpertsTextRegural = styled(CustomTextRegular)`
   }
 `
 
-const ButtonBlockchainExperts = styled.div`
-  & .btn {
-    background-color: var(--black);
-    color: #fff;
-    font-size: ${variables.font.customtext.sizeButton};
-    line-height: 1.375rem;
-    padding: 1rem 4rem;
-    &:hover {
-      background-color: var(--orange-200);
-      border: 1px solid transparent;
-    }
-    @media ${variables.device.mobile} {
-      font-size: ${variables.font.customtext.sizeMobile};
-      width: 100%;
-      white-space: nowrap;
-      padding: 1rem 0;
-    }
-  }
-  .column {
-    padding: 0;
-  }
-`
 const ImageWrapper = styled.div`
   .about-img {
     margin-right: auto;
@@ -82,11 +60,10 @@ const BlockchainExperts = () => {
             />
           </ImageWrapper>
         </Link>
-        <ButtonBlockchainExperts>
-          <Link to={routeLinks.startProject}>
-            <MoreButton className='btn'>estimate blockchain project</MoreButton>
-          </Link>
-        </ButtonBlockchainExperts>
+
+        <MoreButton className='btn' href={routeLinks.startProject} isBlack>
+          estimate blockchain project
+        </MoreButton>
       </CustomContainer>
     </CustomSection>
   )

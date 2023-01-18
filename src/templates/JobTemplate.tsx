@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
@@ -15,6 +15,7 @@ import {
   FlexWrapper,
   CustomSectionTitle,
   Button,
+  MoreButton,
 } from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables from '../styles/variables'
@@ -115,35 +116,7 @@ const RecruitingProcessWrappers = styled.div`
     padding: 0;
   }
 `
-const JobBlackButton = styled(Button)`
-  border: 1px solid black;
-  background: #000000;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0;
-  color: #ffffff;
-  opacity: 1;
-  padding: 1rem 4rem;
-  font-size: 1.125rem;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-  width: fit-content;
-  display: block;
-  margin: 0 auto;
 
-  &:hover {
-    background: ${variables.color.primary};
-    border: 1px solid ${variables.color.primary};
-  }
-
-  @media ${variables.device.tablet} {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 0.8125rem 0;
-  }
-`
 const JobBackButton = styled(BackButton)`
   display: block;
   margin: auto;
@@ -331,6 +304,13 @@ const ButtonWrapper = styled.div`
     right: 0;
     width: 100%;
     bottom: 0;
+    & div {
+      display: block;
+      width: 100%;
+      & .job-button {
+        width: 100%;
+      }
+    }
   }
 `
 
@@ -604,9 +584,9 @@ export default function Template({
       <ScrollSection ref={ref}>
         {onScreen && (
           <ButtonWrapper>
-            <Link to='#jobform'>
-              <JobBlackButton>{page.button}</JobBlackButton>
-            </Link>
+            <MoreButton href='#jobform' isBlack className='job-button' marginTop='0'>
+              {page.button}
+            </MoreButton>
           </ButtonWrapper>
         )}
 

@@ -60,17 +60,6 @@ const OurSerwicesTextRegular = styled(CustomTextRegular)`
   }
 `
 
-const ServiceLink = styled(Link)`
-  .servicesbutton {
-    padding: 1rem 4rem;
-    font-size: ${variables.font.customtext.sizeButton};
-    line-height: 1.375rem;
-    @media ${variables.device.mobile} {
-      width: 100%;
-      padding: 1rem 0;
-    }
-  }
-`
 const services = [
   {
     icon: WebDevelopmentIcon,
@@ -109,18 +98,19 @@ export const OurServices: React.FC = () => {
         <CustomSectionTitle>our services</CustomSectionTitle>
         <div className={styles.seviceswrapper}>
           {services.map((service, index) => (
-            <ServiceLink to={service.direction} key={index} className={styles.service}>
+            <Link to={service.direction} key={index} className={styles.service}>
               <div className={styles.icon}>
                 <service.icon />
               </div>
               <OurTextTitle>{service.title}</OurTextTitle>
               <OurSerwicesTextRegular>{service.description}</OurSerwicesTextRegular>
-            </ServiceLink>
+            </Link>
           ))}
         </div>
-        <ServiceLink to={routeLinks.whatWeOffer}>
-          <MoreButton className='servicesbutton'>learn more</MoreButton>
-        </ServiceLink>
+
+        <MoreButton className='servicesbutton' href={routeLinks.whatWeOffer}>
+          learn more
+        </MoreButton>
       </CustomContainer>
     </CustomSection>
   )

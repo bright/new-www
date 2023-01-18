@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { BlackButton } from '../../components/about-us/about-us.styled'
 import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '../../components/shared'
 import variables from '../../styles/variables'
 import image from '../../../static/images/bullet_point.svg'
@@ -216,7 +215,7 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
   }
 `
 
-export const BlackButtonOurService = styled(BlackButton)<{
+export const MoreButtonOurServiceWrapper = styled.div<{
   marginTopTablet?: string
   marginTop?: string
   margin?: string
@@ -224,10 +223,7 @@ export const BlackButtonOurService = styled(BlackButton)<{
   marginTopMobile?: string
 }>`
   margin: ${({ margin }) => (margin ? margin : `0 auto`)};
-  display: flex;
-  justify-content: center;
 
-  text-align: center;
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : `${variables.pxToRem(105)}`)};
 
   @media ${variables.device.tablet} {
@@ -236,7 +232,6 @@ export const BlackButtonOurService = styled(BlackButton)<{
   }
   @media ${variables.device.mobile} {
     margin-top: ${({ marginTopMobile }) => (marginTopMobile ? marginTopMobile : `${variables.pxToRem(64)}`)};
-    padding: 1rem 1rem;
   }
 `
 export const ImageWrapper = styled.div`
