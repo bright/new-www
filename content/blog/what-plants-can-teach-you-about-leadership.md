@@ -47,7 +47,7 @@ In their method the maturity level is divided into three categories: high, moder
 
 ## **5. Cacti and succulents in your team** 🌵
 
-Cacti and succulents are now a very common houseplant and they both have the same trait - they can survive in arid environments. The native habitat for most cacti and succulents is a desert. They are quite easy care, low maintenance and undemanding plants. Their leaves allows the plant to withstand most harsh conditions in the world. But it does not mean we can stop taking care of them. Most cacti and succulents require a lot of light, sometimes well-drained compost or diluted fertiliser. 
+Cacti and succulents are now a very common houseplant and they both have the same trait - they can survive in arid environments. The native habitat for most cacti and succulents is a desert. They are quite easy care, low maintenance and undemanding plants. Their leaves allow the plant to withstand most harsh conditions in the world. But it does not mean we can stop taking care of them. Most cacti and succulents require a lot of light, sometimes well-drained compost or diluted fertiliser. 
 
 <GiphyEmbed url='https://giphy.com/gifs/flower-timelapse-cacti-ZNpC6BdLJLhDi' />
 
@@ -61,11 +61,11 @@ Being confined to one project for too long can become very root-bound for them. 
 
 ## **7. Get rid of weeds** ✂️
 
-Every gardener has to learn how to weed like a pro to keep they plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** Eliminate [toxic factors and behaviours](https://www.gottman.com/blog/the-four-horsemen-recognizing-criticism-contempt-defensiveness-and-stonewalling/) in you team as quick as you can.
+Every gardener has to learn how to weed like a pro to keep their plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** Eliminate [toxic factors and behaviours](https://www.gottman.com/blog/the-four-horsemen-recognizing-criticism-contempt-defensiveness-and-stonewalling/) in you team as quick as you can.
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=1o30Ps-_8is&t=1s' />
 
-Get into the habit of regular routine care and maintenance of your garden and it will bring a lot of benefits for you and your team. As a manager or leader you have plenty occasions to get some feedback. Talk with people and improve the workflow you have. Manage team meetings wisely. Reduce unnecessary ones. Work on limiting blokers or communications obstacles. **But be careful as “weeding” might be the one thing that can turn every gardener into a world-class complainer. And it should not be about complaining at all.** 
+Get into the habit of regular routine care and maintenance of your garden and it will bring a lot of benefits for you and your team. As a manager or leader you have plenty occasions to get some feedback. Talk with people and improve the workflow you have. Manage team meetings wisely. Reduce unnecessary ones. Work on limiting blockers or communications obstacles. **But be careful as “weeding” might be the one thing that can turn every gardener into a world-class complainer. And it should not be about complaining at all.** 
 
 ## **Without your plants you are not a gardener** 🌷
 
