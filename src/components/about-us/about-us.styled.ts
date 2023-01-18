@@ -46,6 +46,28 @@ export const FlashbackContainer = styled.div<{ length: number }>`
     }
   }
 `
+export const Button = styled.button`
+  all: unset;
+  box-sizing: border-box;
+  padding: 1rem 4rem;
+  border: 1px solid #000;
+  background: #fff;
+  font: normal normal bold 18px/22px Montserrat;
+  color: #000;
+  cursor: pointer;
+`
+export const InvertedButton = styled(Button)`
+  filter: invert(100%);
+`
+export const BlackButton = styled(InvertedButton)`
+  border: none;
+  transition: all 0.25s;
+  &:hover {
+    background: ${variables.color.primary};
+    color: #fff;
+    filter: invert(0%);
+  }
+`
 
 export const FormContainer = styled.div`
   margin: 11.625rem auto 6.25rem;
