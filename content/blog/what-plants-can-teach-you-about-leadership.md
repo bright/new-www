@@ -5,7 +5,7 @@ tags:
   - communication
   - team management
 date: 2023-01-17
-meaningfullyUpdatedAt: 2023-01-17 T
+meaningfullyUpdatedAt:
 title: What plants can teach you about leadership? 
 layout: post
 image: /images/plants_bright_leadership.jpg
