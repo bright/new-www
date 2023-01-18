@@ -1,15 +1,10 @@
-import React from "react"
-import styled from "styled-components"
-import {
-  Button,
-  Container as ContainerBase,
-  ContentWrapper,
-  Text,
-} from "./styles"
+import React from 'react'
+import styled from 'styled-components'
+import { Container as ContainerBase, ContentWrapper, Text } from './styles'
 
 const Container = styled(ContainerBase)({
-  ["@media screen and (min-width: 768px)"]: {
-    display: "none",
+  ['@media screen and (min-width: 768px)']: {
+    display: 'none',
   },
 })
 
