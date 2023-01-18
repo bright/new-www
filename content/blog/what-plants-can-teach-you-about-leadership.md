@@ -8,7 +8,7 @@ date: 2023-01-18T07:29:28.490Z
 meaningfullyUpdatedAt: null
 title: What plants can teach you about leadership?
 layout: post
-image: /images/plants_bright_leadership.jpg
+image: /images/leadership_plants.jpg
 hidden: false
 comments: true
 published: true
@@ -17,7 +17,9 @@ This introduction will be short. A few years ago when I bought my flat I also bo
 
 ## **1. Diversity** 🌴🌳🌻
 
-There are million different kinds of plants in the world. Every plant is unique. And even if you have dozens plants that belong to the same species, it is impossible to find two identical ones (or it is almost impossible). The world of plants is rich and diversified. The same we can say about the world of people. There are million different types of personalities around us. Being a leader means you work with different people every day. 
+There are million different kinds of plants in the world. Every plant is unique. And even if you have dozens plants that belong to the same species, it is impossible to find two identical ones (or it is almost impossible). **The world of plants is rich and diversified. The same we can say about the world of people.** There are million different types of personalities around us. Being a leader means you work with different people every day. If you want out of curiosity to read about five main personality traits, take a look [here](https://www.verywellmind.com/the-big-five-personality-dimensions-2795422). 
+
+<GiphyEmbed url='https://media.giphy.com/media/xT9DPhySvCRg3nuTqU/giphy.gif' />
 
 Creating diverse team within an organization can improve the overall productivity, culture and morale of the company. **The diversity in your team can help to discover unique solutions, new perspective and make even more effective business decisions.** And what you have to learn as a manger is the way of taking care of people you work with, the same way as the gardener takes care of their plants. ﻿
 
@@ -47,15 +49,21 @@ In their method the maturity level is divided into three categories: high, moder
 
 Cacti and succulents are now a very common houseplant and they both have the same trait - they can survive in arid environments. The native habitat for most cacti and succulents is a desert. They are quite easy care, low maintenance and undemanding plants. Their leaves allows the plant to withstand most harsh conditions in the world. But it does not mean we can stop taking care of them. Most cacti and succulents require a lot of light, sometimes well-drained compost or diluted fertiliser. 
 
+<GiphyEmbed url='https://media.giphy.com/media/dW6SH3HDxZjbzUT0kF/giphy.gif' />
+
 **In your team you have also cacti-employees.** These are usually hard working people you can trust and rely on. They get the task and no matter what they will accomplish what is needed. **They do not complain. And even in times of adversity they will do what has to be done. But as a leader you cannot forget that they also need your support, they also need 1:1 meetings, they also need appreciation and someone who will understand their concerns.** 
 
 ## **6. Re-potting** 🪴
 
-To keep your plant alive you have to repot it sometimes. Repotting makes many gardeners anxious. T**hey are afraid that by moving a plant they may kill it. But repotting a plant is sometimes the only way to make it grow nice and tall.** There are mainly to seasons good for doing that - late winter or spring. What is interesting, young and fast-growing plants should be repotted every six months to a year, and older plants need to be repotted every few years. I am not sure if you already know what I am aiming at, but yes - we sometimes have to repot people in our team to make them thrive. Being confined to one project for too long can become very root-bound for them. **But before repotting them, make sure you have good soil in your new pot, enough room for all the new roots to grow and inspect if you are not pulling them too much. Then give them time to adjust and watch them grow.** 
+To keep your plant alive you have to repot it sometimes. Repotting makes many gardeners anxious. T**hey are afraid that by moving a plant they may kill it. But repotting a plant is sometimes the only way to make it grow nice and tall.** There are mainly to seasons good for doing that - late winter or spring. What is interesting, young and fast-growing plants should be repotted every six months to a year, and older plants need to be repotted every few years. I am not sure if you already know what I am aiming at, but yes - we sometimes have to repot people in our team to make them thrive. 
+
+Being confined to one project for too long can become very root-bound for them. **But before repotting them, make sure you have good soil in your new pot, enough room for all the new roots to grow and inspect if you are not pulling them too much. Then give them time to adjust and watch them grow.** 
 
 ## **7. Get rid of weeds** ✂️
 
-Every gardener has to learn how to weed like a pro to keep they plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** Get into the habit of regular routine care and maintenance of your garden and it will bring a lot of benefits for you and your team. As a manager or leader you have plenty occasions to get some feedback. Talk with people and improve the workflow you have. Manage team meetings wisely. Reduce unnecessary ones. Work on limiting blokers or communications obstacles. **But be careful as “weeding” might be the one thing that can turn every gardener into a world-class complainer. And it should not be about complaining at all.** 
+Every gardener has to learn how to weed like a pro to keep they plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** 
+
+Get into the habit of regular routine care and maintenance of your garden and it will bring a lot of benefits for you and your team. As a manager or leader you have plenty occasions to get some feedback. Talk with people and improve the workflow you have. Manage team meetings wisely. Reduce unnecessary ones. Work on limiting blokers or communications obstacles. **But be careful as “weeding” might be the one thing that can turn every gardener into a world-class complainer. And it should not be about complaining at all.** 
 
 ## **Without your plants you are not a gardener** 🌷
 
