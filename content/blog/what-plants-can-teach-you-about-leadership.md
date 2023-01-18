@@ -4,7 +4,7 @@ tags:
   - inspiration
   - communication
   - team management
-date: 2023-01-17T00:00:00.000Z
+date: 2023-01-17
 meaningfullyUpdatedAt: null
 title: What plants can teach you about leadership?
 layout: post
@@ -27,7 +27,11 @@ All plants at our homes or in our gardens need some care and protection to grow.
 
 ## **3. Get to know your plants** 🔆💦🌡
 
-As we already know every plant has to be taken care of to grow. **But the point is to pay attention to individual needs of each and every.** A plant requiring “full sun” needs all the sunlight it can get, at least 6 to 8 hours of direct sun exposure per day. But there are plants which need only 3-4 hours of direct sunlight per day. There are also some that do not sun exposure almost at all. Other factors that make plants life easier are for instance proper temperature, moisture, air and nutrients. **The same works with people - people in a team need different things to grow. Some people need a bit of motivation and “push” to leave their comfort zone and then they thrive. For some it is enough when you check up their progress every now and then and water their leaves with doze of appreciation.** Others will need your support all the time as they are demanding, but they can blossom one day taking your breath away. As leaders we have to learn what works best for people we work with. 
+As we already know every plant has to be taken care of to grow. **But the point is to pay attention to individual needs of each and every.** A plant requiring “full sun” needs all the sunlight it can get, at least 6 to 8 hours of direct sun exposure per day. But there are plants which need only 3-4 hours of direct sunlight per day. There are also some that do not sun exposure almost at all. Other factors that make plants life easier are for instance proper temperature, moisture, air and nutrients. **The same works with people - people in a team need different things to grow.**
+
+<div class="image"><img src="/images/leader-expectations.jpeg" alt="undefined" title="liz and mollie leader qualities"  /> </div>
+
+**Some people need a bit of motivation and “push” to leave their comfort zone and then they thrive. For some it is enough when you check up their progress every now and then and water their leaves with doze of appreciation.** Others will need your support all the time as they are demanding, but they can blossom one day taking your breath away. As leaders we have to learn what works best for people we work with. 
 
 ## **5. Maturity** 🌱
 
@@ -43,8 +47,6 @@ In their method the maturity level is divided into three categories: high, moder
 
 Cacti and succulents are now a very common houseplant and they both have the same trait - they can survive in arid environments. The native habitat for most cacti and succulents is a desert. They are quite easy care, low maintenance and undemanding plants. Their leaves allows the plant to withstand most harsh conditions in the world. But it does not mean we can stop taking care of them. Most cacti and succulents require a lot of light, sometimes well-drained compost or diluted fertiliser. 
 
-<GiphyEmbed url='https://media.giphy.com/media/tBlbe2qHdb8Gs/giphy.gif' />
-
 **In your team you have also cacti-employees.** These are usually hard working people you can trust and rely on. They get the task and no matter what they will accomplish what is needed. **They do not complain. And even in times of adversity they will do what has to be done. But as a leader you cannot forget that they also need your support, they also need 1:1 meetings, they also need appreciation and someone who will understand their concerns.** 
 
 ## **6. Re-potting** 🪴
@@ -54,7 +56,6 @@ To keep your plant alive you have to repot it sometimes. Repotting makes many ga
 ## **7. Get rid of weeds** ✂️
 
 Every gardener has to learn how to weed like a pro to keep they plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** Get into the habit of regular routine care and maintenance of your garden and it will bring a lot of benefits for you and your team. As a manager or leader you have plenty occasions to get some feedback. Talk with people and improve the workflow you have. Manage team meetings wisely. Reduce unnecessary ones. Work on limiting blokers or communications obstacles. **But be careful as “weeding” might be the one thing that can turn every gardener into a world-class complainer. And it should not be about complaining at all.** 
-
 
 ## **Without your plants you are not a gardener** 🌷
 
