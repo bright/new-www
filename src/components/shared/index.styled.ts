@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import variables from '../../styles/variables'
 import { pxToRem } from './../../styles/variables'
 
@@ -124,24 +124,64 @@ export const PageDescription = styled(TextRegular)({
   padding: '10px',
 })
 
-export const Button = styled.div`
+const moreButtonColorPrimary = css`
+  border: 1px solid ${variables.color.primary};
+  background: ${variables.color.primary};
+  color: ${variables.color.text};
+  &:hover {
+    border: 1px solid ${variables.color.text2};
+    color: #ffffff;
+    background: ${variables.color.text2};
+  }
+`
+
+const moreButtonColorBlack = css`
+  border: 1px solid ${variables.color.text2};
+  background: ${variables.color.text2};
+  color: ${variables.color.white};
+  &:hover {
+    color: ${variables.color.white};
+    background: ${variables.color.primary};
+    border: 1px solid ${variables.color.primary};
+  }
+`
+
+export const Button = styled.div<{
+  isBlack?: boolean
+  isPrimary?: boolean
+  marginTop?: string
+  positionLeft?: boolean
+}>`
+  display: flex;
+  justify-content: ${({ positionLeft }) => (positionLeft ? 'flex-start' : 'center')};
   & button {
-    border: 1px solid black;
-    background: white;
+    border: 1px solid ${variables.color.text2};
+    background: ${variables.color.white};
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0;
-    color: #000000;
+    color: ${variables.color.text2};
     opacity: 1;
-    padding: 1rem 4rem;
-    font-size: 1.125rem;
+    padding: ${variables.pxToRem(16)} ${variables.pxToRem(64)};
+    font-size: ${variables.pxToRem(18)};
     cursor: pointer;
-    margin-top: 3rem;
+    margin-top: ${({ marginTop }) => (marginTop ? marginTop : `${variables.pxToRem(48)}`)};
     transition: all 0.3s ease-out;
     &:hover {
-      color: #ffffff;
-      background: #000000;
+      color: ${variables.color.white};
+      background: ${variables.color.text2};
+      border: 1px solid ${variables.color.text2};
+    }
+    ${({ isBlack }) => isBlack && moreButtonColorBlack}
+    ${({ isPrimary }) => isPrimary && moreButtonColorPrimary}
+  }
+  @media ${variables.device.mobile} {
+    width: 100%;
+    display: block;
+    & button {
+      padding: ${variables.pxToRem(8)} ${variables.pxToRem(16)};
+      width: 100%;
     }
   }
 `

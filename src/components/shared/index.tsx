@@ -9,6 +9,10 @@ interface MoreButtonProps {
   isSubmit?: boolean
   disabled?: boolean
   className?: string
+  isBlack?: boolean
+  isPrimary?: boolean
+  marginTop?: string
+  isPositionLeft?: boolean
 }
 
 export const MoreButton: React.FC<MoreButtonProps> = ({
@@ -19,6 +23,10 @@ export const MoreButton: React.FC<MoreButtonProps> = ({
   isSubmit,
   children,
   className,
+  isBlack,
+  isPrimary,
+  marginTop,
+  isPositionLeft,
 }) => {
   const Btn = () => (
     <button type={isSubmit ? 'submit' : 'button'} disabled={disabled} onClick={onClick} className={className}>
@@ -26,7 +34,7 @@ export const MoreButton: React.FC<MoreButtonProps> = ({
     </button>
   )
   return (
-    <Styled.Button className={'column is-full has-text-centered '}>
+    <Styled.Button isBlack={isBlack} isPrimary={isPrimary} marginTop={marginTop} positionLeft={isPositionLeft}>
       {href ? (
         <Link to={href}>
           <Btn />
