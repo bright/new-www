@@ -55,7 +55,7 @@ Cacti and succulents are now a very common houseplant and they both have the sam
 
 ## **6. Re-potting** 🪴
 
-To keep your plant alive you have to repot it sometimes. Repotting makes many gardeners anxious. T**hey are afraid that by moving a plant they may kill it. But repotting a plant is sometimes the only way to make it grow nice and tall.** There are mainly to seasons good for doing that - late winter or spring. What is interesting, young and fast-growing plants should be repotted every six months to a year, and older plants need to be repotted every few years. I am not sure if you already know what I am aiming at, but yes - we sometimes have to repot people in our team to make them thrive. 
+To keep your plant alive you have to repot it sometimes. Repotting makes many gardeners anxious. T**hey are afraid that by moving a plant they may kill it. But repotting a plant is sometimes the only way to make it grow nice and tall.** There are mainly two seasons good for doing that - late winter or spring. What is interesting, young and fast-growing plants should be repotted every six months to a year, and older plants need to be repotted every few years. I am not sure if you already know what I am aiming at, but yes - we sometimes have to repot people in our team to make them thrive. 
 
 Being confined to one project for too long can become very root-bound for them. **But before repotting them, make sure you have good soil in your new pot, enough room for all the new roots to grow and inspect if you are not pulling them too much. Then give them time to adjust and watch them grow.** 
 
