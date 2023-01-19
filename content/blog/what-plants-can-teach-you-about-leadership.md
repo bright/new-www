@@ -61,7 +61,7 @@ Being confined to one project for too long can become very root-bound for them. 
 
 ## **7. Get rid of weeds** ✂️
 
-Every gardener has to learn how to weed like a pro to keep their plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** Eliminate [toxic factors and behaviours](https://www.gottman.com/blog/the-four-horsemen-recognizing-criticism-contempt-defensiveness-and-stonewalling/) in you team as quick as you can.
+Every gardener has to learn how to weed like a pro to keep their plants healthy. Removing unwanted plants from our garden is something many people just hate. But with an appropriate approach we can make weeding a less painful experience. **Maintaining a healthy, properly-functioning garden is no different than maintaining a healthy proper-functioning team and work environment.** Eliminate [toxic factors and behaviours](https://www.gottman.com/blog/the-four-horsemen-recognizing-criticism-contempt-defensiveness-and-stonewalling/) in you team as quickly as you can.
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=1o30Ps-_8is&t=1s' />
 
@@ -69,4 +69,4 @@ Get into the habit of regular routine care and maintenance of your garden and it
 
 ## **Without your plants you are not a gardener** 🌷
 
-If nobody follows you, you are not a leader. **And people will follow you when you care about them. They will listen and speak out when you encourage clear and regular communication. They will take responsibility when you define clear roles and give them autonomy.** And they will also make mistakes and manager’s and leader’s job is to support them, motivate and provide opportunities to learn. If you want your employees to embrace a certain behaviour, you have to model it. And last but not least - show appreciation. [Speaking nicely to plants help them grow faster. ](https://www.theguardian.com/lifeandstyle/2021/jan/11/they-respond-to-vibrations-does-talking-to-plants-actually-help-them-grow)
+If nobody follows you, you are not a leader. **And people will follow you when you care about them. They will listen and speak out when you encourage clear and regular communication. They will take responsibility when you define clear roles and give them autonomy.** And they will also make mistakes and manager’s and leader’s job is to support them, motivate and provide opportunities to learn. **If you want your employees to embrace a certain behaviour, you have to model it.** And last but not least - show appreciation. [Speaking nicely to plants help them grow faster. ](https://www.theguardian.com/lifeandstyle/2021/jan/11/they-respond-to-vibrations-does-talking-to-plants-actually-help-them-grow)
