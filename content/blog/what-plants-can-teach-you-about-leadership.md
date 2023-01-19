@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-This introduction will be short. A few years ago when I bought my flat I also bought my first plants. The gardener’s way I have gone so far taught me a lot not only about plants themselves, but also about people. The way was not always easy and maybe that is the clue of my story. So, what plants can tech us about leadership? A lot.
+This story will be short. A few years ago when I bought a flat I also bought several plants. The gardener’s way I have gone so far taught me a lot not only about plants themselves, but also about people. My gardener's way was not always easy and maybe that is the point. So, what plants can tech us about leadership? A lot.
 
 ## **1. Diversity** 🌴🌳🌻
 
