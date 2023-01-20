@@ -8,7 +8,7 @@ date: 2023-01-18T07:29:28.490Z
 meaningfullyUpdatedAt: 2023-01-18T08:57:53.998Z
 title: What plants can teach you about leadership?
 layout: post
-image: /images/leadership_plants.jpg
+image: /images/plants_leadership_cover_blog.png
 hidden: false
 comments: true
 published: true
