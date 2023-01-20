@@ -6,8 +6,8 @@ slug: rafal-h
 name: Rafał Hofman
 short_name: Rafał
 email: rafal.hofman@brightinventions.pl
-bio: Fullstack Developer
-description: Fullstack Developer
+bio: Senior Fullstack Developer
+description: Senior Fullstack Developer
 avatar: /images/rafal2.png
 avatar_hover: /images/rafal_passion.png
 published: true
