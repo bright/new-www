@@ -16,7 +16,7 @@ const generateRobotsContent = !isDevelop
 
 const productionGoogleTrackingIds = ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476']
 const stagingGoogleTrackingIds = ['G-ZLZ90MP8F9']
-const facebookPixelId = isProduction ? '1256554391514599' : ''
+const facebookPixelId = isProduction ? '1641621022924330' : ''
 
 const enableHotjar = false //to enable hotjar globally set the value to true
 
