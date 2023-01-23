@@ -28,6 +28,7 @@ import {
   CloutchWrapper,
   OurServiceFlexWraper,
   MoreButtonOurServiceWrapper,
+  CustomSectionOurServiceImage,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
@@ -105,6 +106,7 @@ export default function Template({
     meta_title,
     meta_description,
     title,
+    highlighted_word,
     button,
     title_team,
     team_members,
@@ -121,6 +123,13 @@ export default function Template({
     slug,
   } = page
 
+  const titleArr = title.split(' ')
+  const newTitle = titleArr.map((ta: string) => (
+    <span key={ta} className={ta === `${highlighted_word}` ? 'highlighted-word' : ''}>
+      {ta}
+    </span>
+  ))
+
   return (
     <Page>
       <HelmetMetaData title={meta_title} description={meta_description} />
@@ -134,19 +143,19 @@ export default function Template({
           paddingMobileProps='4rem 1.125rem 0'
         >
           <CustomSection
-            paddingProps='0 0 32px'
+            paddingProps='0 0 16px'
             paddingLaptop='0 0 32px'
             paddingTabletXL='0 0 4px'
             paddingTablet='0 0 4rem'
             paddingMobileProps='0 0 4rem'
           >
-            <OurServicePageTitle>{title}</OurServicePageTitle>
+            <OurServicePageTitle>{newTitle}</OurServicePageTitle>
           </CustomSection>
           <BulletsList>
             {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}
           </BulletsList>
           <MoreButtonOurServiceWrapper
-            marginTop='81px'
+            marginTop='64px'
             margin='0'
             marginTopTablet='180px'
             tabletWidth='100%'
@@ -164,8 +173,8 @@ export default function Template({
             </FlexWrapper>
           </CloutchWrapper>
         </CustomSectionOurService>
-        <CustomSectionOurService
-          paddingProps='12.1875rem 15rem 0 0 '
+        <CustomSectionOurServiceImage
+          paddingProps='3.5rem 15rem 0 0 '
           paddingLaptop='7.5rem 6rem 0 0'
           paddingTabletXL='7.5rem 9.375rem 0 0 '
           paddingTablet='4rem 0 0 0'
@@ -185,7 +194,7 @@ export default function Template({
               </ImageWrapper>
             )}
           </div>
-        </CustomSectionOurService>
+        </CustomSectionOurServiceImage>
       </OurServiceFlexWraper>
 
       {/* <Section>
@@ -317,6 +326,7 @@ export const pageQuery = graphql`
         meta_title
         meta_description
         title
+        highlighted_word
         intro
         slug
         bullet_points
