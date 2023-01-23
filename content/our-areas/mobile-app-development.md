@@ -35,6 +35,7 @@ short_description: We offer native mobile app development for iOS and Android.
   Swift and Kotlin.
 order: 1
 title: build native apps with mobile development team
+highlighted_word: mobile
 intro: Our team has broad experience in building applications for iOS and Android.
 image_our_service: /images/mobile_app_development.png
 image_alt_our_service: mobile app development company
