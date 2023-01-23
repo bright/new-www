@@ -79,7 +79,7 @@ const TechnologyTags = ({ tags }: TechnologyTagsProps) => {
       <CustomContainer>
         <ContentContainer>
           {tags ? (
-            tags.map((tag: string) => <Pill>{tag}</Pill>)
+            tags.map((tag: string) => <Pill key={tag}>{tag}</Pill>)
           ) : (
             <>
               <Pill>Kotlin</Pill>
