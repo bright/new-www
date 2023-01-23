@@ -197,11 +197,21 @@ export const IdeaTextArea = styled.textarea({
 //   }
 // `
 
-export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-})
+export const PrivacyPolicyCheckboxContainer = styled(TextRegular)`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: ${variables.pxToRem(54)};
+  & span {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-family: Lato;
+    & a {
+      text-decoration: underline;
+      color: ${variables.color.text};
+    }
+  }
+`
 
 export const CheckboxFieldContainer = styled.label`
   display: flex;
@@ -213,8 +223,8 @@ export const CheckboxFieldContainer = styled.label`
   & label {
     justify-self: start;
     border: 1px solid #888888;
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -223,6 +233,9 @@ export const CheckboxFieldContainer = styled.label`
   & input {
     position: absolute;
     opacity: 0;
+    height: 40px;
+    width: 40px;
+    margin-right: 19px;
   }
   & input:checked ~ label {
     background: black;
