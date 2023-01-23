@@ -297,6 +297,7 @@ collections:
           default: 1,
         }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Highlighted Word', name: 'highlighted_word', widget: 'string' }
       - { label: 'Intro', name: 'intro', widget: 'string' }
       - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
       - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
