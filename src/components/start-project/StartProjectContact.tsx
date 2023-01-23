@@ -28,6 +28,7 @@ import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-
 import { TickIcon } from '../icons/Tick.icon'
 import { JobApplicationModal } from '../forms/job-application/job-application-modal'
 import { MoreButton } from './../shared/index'
+import { Link } from 'gatsby'
 
 export interface StartProjectContactProps {
   formButton: string
@@ -151,13 +152,13 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
                 <TickIcon />
               </label>
             </CheckboxFieldContainer>
-            &nbsp;I accept the&nbsp;
-            <a href={routeLinks.privacyPolicy} target='_blank' className='has-text-black'>
-              <b>
-                <u>Privacy Policy</u>
-              </b>
-            </a>{' '}
-            *
+            <span>
+              I accept the&nbsp;
+              <strong>
+                <Link to={routeLinks.privacyPolicy}>Privacy Policy</Link>
+              </strong>{' '}
+              *
+            </span>
           </PrivacyPolicyCheckboxContainer>
 
           <RequiredMessage>*fields required</RequiredMessage>
@@ -165,7 +166,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
-            <MoreButton isSubmit onClick={checkValid} isBlack>
+            <MoreButton isSubmit onClick={checkValid} isBlack marginTop='32px'>
               let’s talk
             </MoreButton>
           )}
