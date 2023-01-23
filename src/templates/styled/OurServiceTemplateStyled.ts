@@ -6,9 +6,23 @@ import { HideTablet } from './../../components/shared/index.styled'
 import { clampBuilder } from './../../helpers/clampBuilder'
 
 export const CustomSectionOurService = styled(CustomSection)`
-  flex-basis: 50%;
+  flex-basis: 47.5%;
   height: 100%;
-  padding-top: ${clampBuilder(1542, 1920, 100, 175)};
+  padding-top: ${clampBuilder(1542, 1920, 100, 177)};
+
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(120)};
+  }
+
+  @media ${variables.device.tablet} {
+    flex-basis: 100%;
+    padding-top: ${variables.pxToRem(64)};
+  }
+`
+export const CustomSectionOurServiceImage = styled(CustomSection)`
+  flex-basis: 52.5%;
+  height: 100%;
+  padding-top: ${clampBuilder(1542, 1920, 21, 56)};
 
   @media ${variables.device.laptop} {
     padding-top: ${variables.pxToRem(120)};
@@ -252,10 +266,25 @@ export const OurServiceHideTablet = styled(HideTablet)`
   }
 `
 export const OurServicePageTitle = styled(CustomPageTitle)`
-  font-size: ${clampBuilder(1542, 1920, 54, 74)};
-  line-height: ${clampBuilder(1542, 1920, 65, 90)};
+  display: flex;
+  flex-wrap: wrap;
+
+  font-size: ${clampBuilder(1542, 1920, 54, 64)};
+  line-height: ${clampBuilder(1542, 1920, 65, 78)};
   font-weight: 800;
   text-align: left;
+  letter-spacing: -0.04em;
+  & .highlighted-word {
+    font-style: normal;
+    font-weight: 300;
+  }
+  & span {
+    color: ${variables.color.text2};
+    padding-right: ${variables.pxToRem(10)};
+    &:last-child {
+      padding-right: 0;
+    }
+  }
   @media ${variables.device.laptop} {
     font-size: ${clampBuilder(1281, 1542, 52, 54)};
     line-height: ${clampBuilder(1281, 1542, 63, 65)};
