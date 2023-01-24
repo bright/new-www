@@ -36,12 +36,13 @@ short_description: Our custom software serves the unique processes of your
   We will help you throughout all of the software delivery phases.
 order: 8
 title: be unique with custom software development
+highlighted_word: custom software
 intro: We help to address your clients needs.
 image_our_service: /images/customsoftwaredevelopment_small.png
 image_alt_our_service: custom software development
-image_our_service_desktop: /images/custom_software_development.png
+image_our_service_desktop: /images/custom_software_development_desktop.png
 image_alt_our_service_desktop: custom software development company
-image_our_service_mobile: /images/custom_software_development_tablet.png
+image_our_service_mobile: /images/custom_software_development_mobile.png
 image_alt_our_service_mobile: custom software development company
 description_mdx: Every business is unique. Bespoke software development can
   truly address your needs, challenges, and goals. By adopting a personalized
@@ -64,7 +65,7 @@ bar_stack:
   - React
   - NestJS
   - Java
-button: let's talk
+button: let's talk about your product
 button2: "cooperate with us "
 published: false
 show_case_study: true
