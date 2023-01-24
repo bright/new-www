@@ -34,12 +34,13 @@ short_description: We have developed Bluetooth applications for international
   specializes in Bluetooth Low Energy and iBeacon technology.
 order: 11
 title: build apps with Bluetooth development team
+highlighted_word: Bluetooth
 intro: We deliver Bluetooth-based solutions.
 image_our_service: /images/bluetooth_development_poland.png
 image_alt_our_service: Bluetooth app development Poland
-image_our_service_desktop: /images/bluetooth-development-company_services.png
+image_our_service_desktop: /images/bluetooth_development_services_desktop.png
 image_alt_our_service_desktop: Bluetooth app development company
-image_our_service_mobile: /images/bluetooth-development-company_services_phones.png
+image_our_service_mobile: /images/bluetooth_development_services_mobile.png
 image_alt_our_service_mobile: Bluetooth app development services
 description_mdx: We deliver Bluetooth-based solutions. We have developed
   Bluetooth applications for international clients representing the retail,
