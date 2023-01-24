@@ -108,9 +108,7 @@ export const OurServiceSection = styled.section`
       line-height: ${variables.pxToRem(28)};
     }
   }
-  @media ${variables.device.tabletXL} {
-    padding: ${variables.pxToRem(182)} 0 ${variables.pxToRem(82)};
-  }
+
   @media ${variables.device.tablet} {
     padding: 0 0 ${variables.pxToRem(82)};
   }
