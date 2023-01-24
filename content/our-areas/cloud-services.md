@@ -42,6 +42,18 @@ description_mdx: Join the serverless movement. Improve security and reduce costs
   cloud application from the scratch. As an AWS cloud services provider, we will
   assist you every step of the way. Since 2012 we have developed applications in
   the cloud for startups and mid-sized organisations.
+bullet_points:
+  - improve security and reduce costs
+  - cloud app built up to 6 months
+  - full support during deployment & migration
+bar_stack:
+  - AWS
+  - AWS-CDK
+  - AWS
+  - Lambda
+  - Azure
+  - TypeScript
+  - Docker
 button: let's talk about cloud
 button2: let's talk about cloud
 published: true
