@@ -12,12 +12,14 @@ date: 2023-01-24T12:44:09.602Z
 meaningfullyUpdatedAt: 2023-01-24T12:44:09.639Z
 title: ZK-Snarks in Substrate Tutorial Supported by the W3F Grants Program
 layout: post
-image: /images/blogpost_w3f_grant.png
+image: /images/blogpost_zk-snarks_grant.png
 hidden: false
 comments: true
 published: true
 ---
 ###### We are very happy to finally share the news that our grant proposal for a ZK-Snarks for Substrate implementation, accompanied with a series of blog posts and a video tutorial, was accepted as a part of the[ Web3 Foundation (W3F) grants program](https://web3.foundation/grants/). We are grateful to be able to work once again with the support of Web3 Foundation (to check our first W3F financed project, read our [blogpost](https://brightinventions.pl/blog/bright-treasury-a-treasury-module-application-funded-by-a-w3f-foundation-grant) or visit [treasury.bright.dev](treasury.bright.dev)).
+
+<div class="image"><img src="/images/blogpost_zk-snarks_grant.png" alt="W3F Grants Program" title="undefined"  /> </div>
 
 By preparing a tutorial with basic implementation of the ZK-Snarks for Substrate ecosystem, we hope to popularize this concept and make it more accessible to Substrate developers. There have been similar initiatives available in other blockchain technologies, however currently there is no easily accessible up-to-date demonstrational implementation of ZK-Snarks in Substrate. 
 
