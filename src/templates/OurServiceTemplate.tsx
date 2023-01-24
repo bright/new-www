@@ -137,17 +137,17 @@ export default function Template({
       <OurServiceFlexWraper desktopItems='center' tabletDirection='column'>
         <CustomSectionOurService
           paddingProps='12.1875rem 0 0 15rem '
-          paddingLaptop='7.5rem 0 0 6rem'
-          paddingTabletXL='7.5rem 0 0 9.375rem '
-          paddingTablet='4rem  2.25rem 0'
-          paddingMobileProps='4rem 1.125rem 0'
+          paddingLaptop='6.4375rem 0 0 6rem'
+          paddingTabletXL='7.5rem 0 0 8.5625rem '
+          paddingTablet='1.5625rem  2.25rem 0'
+          paddingMobileProps='3rem 1.125rem 0'
         >
           <CustomSection
             paddingProps='0 0 16px'
-            paddingLaptop='0 0 32px'
+            paddingLaptop='0 0 16px'
             paddingTabletXL='0 0 4px'
-            paddingTablet='0 0 4rem'
-            paddingMobileProps='0 0 4rem'
+            paddingTablet='0 0 16px'
+            paddingMobileProps='0 0 32px'
           >
             <OurServicePageTitle>{newTitle}</OurServicePageTitle>
           </CustomSection>
@@ -157,17 +157,17 @@ export default function Template({
           <MoreButtonOurServiceWrapper
             marginTop='64px'
             margin='0'
-            marginTopTablet='180px'
+            marginTopTablet='64px'
             tabletWidth='100%'
-            marginTopMobile='112px'
+            marginTopMobile='80px'
           >
-            <MoreButton href={'#contactForm'} isBlack marginTop='0' isPositionLeft>
+            <MoreButton href={'#contactForm'} isBlack marginTop='0' isPositionLeft className='more-button'>
               {button}
             </MoreButton>
           </MoreButtonOurServiceWrapper>
 
           <CloutchWrapper>
-            <FlexWrapper desktopItems='center' desktopGap='18px'>
+            <FlexWrapper desktopItems='center' desktopGap='18px' tabletContent='center' mobileContent='flex-start'>
               <TextRegular>Clutch 4.9/5</TextRegular>
               <RatingClutch />
             </FlexWrapper>
@@ -175,10 +175,10 @@ export default function Template({
         </CustomSectionOurService>
         <CustomSectionOurServiceImage
           paddingProps='3.5rem 15rem 0 0 '
-          paddingLaptop='7.5rem 6rem 0 0'
-          paddingTabletXL='7.5rem 9.375rem 0 0 '
-          paddingTablet='4rem 0 0 0'
-          paddingMobileProps='4rem 0 0 0'
+          paddingLaptop='0 6rem 0 0'
+          paddingTabletXL='7.5rem 8.5625rem 0 0 '
+          paddingTablet='2rem 0 0 0'
+          paddingMobileProps='2rem 0 0 0'
         >
           <div>
             {width >= breakpoint && typeof window !== 'undefined' && (
@@ -207,7 +207,8 @@ export default function Template({
         </CustomSection>
       </Section> */}
       <CustomSection
-        paddingProps='12.5rem 15rem 5.625rem 15rem'
+        paddingProps='6.5625rem 15rem 6.5rem 15rem'
+        paddingTabletXL='4.0625rem 0  6rem'
         paddingMobileProps='0 1.125rem 4rem'
         paddingTablet='5rem 2.25rem 0 '
       >
