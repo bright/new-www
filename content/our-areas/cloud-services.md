@@ -29,14 +29,31 @@ short_description: We are experts in AWS cloud development. We build cloud
   applications and help with cloud migration.
 order: 10
 title: join the future with cloud computing services
+highlighted_word: cloud computing
 intro: Improve security with cloud computing company.
 image_our_service: /images/cloudservices1.png
 image_alt_our_service: cloud computing services
+image_our_service_desktop: /images/cloud_services_desktop.png
+image_alt_our_service_desktop: cloud computing services
+image_our_service_mobile: /images/cloud_services_mobile.png
+image_alt_our_service_mobile: cloud computing services
 description_mdx: Join the serverless movement. Improve security and reduce costs
   with cloud computing services. Migrate your solution to the cloud or develop a
   cloud application from the scratch. As an AWS cloud services provider, we will
   assist you every step of the way. Since 2012 we have developed applications in
   the cloud for startups and mid-sized organisations.
+bullet_points:
+  - improve security and reduce costs
+  - cloud app built up to 6 months
+  - full support during deployment & migration
+bar_stack:
+  - AWS
+  - AWS-CDK
+  - AWS
+  - Lambda
+  - Azure
+  - TypeScript
+  - Docker
 button: let's talk about cloud
 button2: let's talk about cloud
 published: true
