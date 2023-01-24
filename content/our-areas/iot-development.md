@@ -32,14 +32,32 @@ short_description: We specialise in the Internet of Things solutions. We build
   IoT software for restaurants, retail, eHealth and fintech industries.
 order: 9
 title: build innovation with IoT development
+highlighted_word: IoT
 intro: We develop IoT software for startups and larger organisations.
 image_our_service: /images/iot_development_1.png
 image_alt_our_service: IoT company
+image_our_service_desktop: /images/iot_development_company_desktop.png
+image_alt_our_service_desktop: IoT company
+image_our_service_mobile: /images/iot_development_services_mobile.png
+image_alt_our_service_mobile: IoT company
 description_mdx: We are Bright Inventions – a software development company
   specializing in the Internet of Things solutions. We build IoT software for
   restaurants, retail, eHealth and fintech industries. Since 2012 we have
   developed software for more than 40 clients from the USA, the UK, Norway,
   Israel and more.
+bullet_points:
+  - scaling your business from MVP to global solution
+  - optimizing every stage of development
+  - choosing the right tech for business goals
+bar_stack:
+  - IoT
+  - Bluetooth
+  - iBeacon
+  - iOS
+  - Android
+  - Kotlin
+  - Teamcity
+  - Fastlane
 button: let's talk about IoT
 button2: let's talk about IoT
 published: true
