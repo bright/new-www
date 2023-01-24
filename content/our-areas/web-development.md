@@ -36,15 +36,33 @@ short_description: We provide a wide range of custom full stack web development
   Java, Node.js, AWS, and more.
 order: 2
 title: build solution with web development team
+highlighted_word: web
 intro: If you are looking for a web development company, you’ve come to the
   right place!
 image_our_service: /images/web_development_small.png
 image_alt_our_service: web development company
+image_our_service_desktop: /images/web_development_desktop.png
+image_alt_our_service_desktop: web development company
+image_our_service_mobile: /images/web_development_mobile.png
+image_alt_our_service_mobile: web development company
 description_mdx: We provide a wide range of **custom full-stack web development
   services** for small, medium, and large businesses. Since 2012 we’ve gained
   experience in developing web apps, web services, and websites that are
   tailor-made to fit our clients’ goals. We’ve worked with clients from the UK,
   the USA, Germany, Netherlands and more.
+bullet_points:
+  - from idea to launch in up to 6 months
+  - support at every stage of development
+  - choosing the right tech for business goals
+bar_stack:
+  - JavaScript
+  - CSS
+  - HTML
+  - Java
+  - Node.js
+  - React
+  - AWS
+  - MySQLl PostgreSQL
 button: let’s talk about web
 button2: let’s talk about web
 published: true
