@@ -39,13 +39,36 @@ short_description: Our team has a vast experience in blockchain projects based
   really good at!
 order: 3
 title: build future with blockchain development
+highlighted_word: blockchain
 intro: We are blockchain experts ready to assist you.
 image_our_service: /images/blockchain_development_small.png
 image_alt_our_service: blockchain development
+image_our_service_desktop: /images/blockchain_development_desktop.png
+image_alt_our_service_desktop: blockchain development company
+image_our_service_mobile: /images/blockchain_development_mobile.png
+image_alt_our_service_mobile: blockchain development company
 description_mdx: We are a software development company that **specialises in
   blockchain technology**. Blockchain is a groundbreaking technology that goes
   far beyond cryptocurrency services. Tell us more about your blockchain project
   and we will let you know how we can help you.
+bullet_points:
+  - assessment of your idea in 7 days
+  - from idea to launch up to 6 months
+  - blockchain stack tailored to your needs
+bar_stack:
+  - Blockchain
+  - Substrate
+  - Web3
+  - Polkadot
+  - Kusama
+  - Ethereum
+  - Rust
+  - Node.js
+  - Solidity
+  - AWS
+  - Kotlin
+  - Typescript
+  - React
 button: "let's do blockchain projects "
 button2: let's do blockchain projects
 published: true
