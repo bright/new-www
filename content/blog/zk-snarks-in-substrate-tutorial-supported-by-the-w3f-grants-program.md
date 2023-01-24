@@ -12,7 +12,7 @@ date: 2023-01-24T12:44:09.602Z
 meaningfullyUpdatedAt: 2023-01-24T12:44:09.639Z
 title: ZK-Snarks in Substrate Tutorial Supported by the W3F Grants Program
 layout: post
-image: /images/blogpost_zk-snarks_grant.png
+image: /images/blogpost_substrategrant.png
 hidden: false
 comments: true
 published: true
