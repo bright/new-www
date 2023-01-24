@@ -176,6 +176,9 @@ export const Button = styled.div<{
     ${({ isBlack }) => isBlack && moreButtonColorBlack}
     ${({ isPrimary }) => isPrimary && moreButtonColorPrimary}
   }
+  @media ${variables.device.tablet} {
+    justify-content: center;
+  }
   @media ${variables.device.mobile} {
     width: 100%;
     display: block;

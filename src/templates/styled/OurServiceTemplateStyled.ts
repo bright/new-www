@@ -11,7 +11,13 @@ export const CustomSectionOurService = styled(CustomSection)`
   padding-top: ${clampBuilder(1542, 1920, 100, 177)};
 
   @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
+    padding-top: ${variables.pxToRem(103.5)};
+    flex-basis: 44.5%;
+  }
+
+  @media ${variables.device.tabletXL} {
+    padding-top: ${variables.pxToRem(60)};
+    flex-basis: 47.61%;
   }
 
   @media ${variables.device.tablet} {
@@ -25,7 +31,13 @@ export const CustomSectionOurServiceImage = styled(CustomSection)`
   padding-top: ${clampBuilder(1542, 1920, 21, 56)};
 
   @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
+    padding-top: ${variables.pxToRem(21)};
+    flex-basis: 55.5%;
+  }
+
+  @media ${variables.device.tabletXL} {
+    padding-top: ${variables.pxToRem(17)};
+    flex-basis: 52.39%;
   }
 
   @media ${variables.device.tablet} {
@@ -35,7 +47,6 @@ export const CustomSectionOurServiceImage = styled(CustomSection)`
 `
 
 export const OurServiceSection = styled.section`
-  padding: 0 0 ${variables.pxToRem(186)};
   color: #131214;
 
   & .content {
@@ -57,9 +68,7 @@ export const OurServiceSection = styled.section`
       line-height: ${variables.pxToRem(28)};
     }
   }
-  @media ${variables.device.tabletXL} {
-    padding: ${variables.pxToRem(182)} 0 ${variables.pxToRem(82)};
-  }
+
   @media ${variables.device.tablet} {
     padding: 0 0 ${variables.pxToRem(82)};
   }
@@ -285,20 +294,20 @@ export const OurServicePageTitle = styled(CustomPageTitle)`
     }
   }
   @media ${variables.device.laptop} {
-    font-size: ${clampBuilder(1281, 1542, 52, 54)};
-    line-height: ${clampBuilder(1281, 1542, 63, 65)};
+    font-size: ${clampBuilder(1281, 1542, 45, 57)};
+    line-height: ${clampBuilder(1281, 1542, 54.86, 69.48)};
   }
   @media ${variables.device.tabletXL} {
-    font-size: ${clampBuilder(992, 1280, 44, 52)};
-    line-height: ${clampBuilder(992, 1280, 53, 63)};
+    font-size: ${clampBuilder(992, 1280, 44, 45)};
+    line-height: ${clampBuilder(992, 1280, 53, 54.86)};
   }
   @media ${variables.device.tablet} {
-    font-size: ${variables.pxToRem(74)};
-    line-height: ${variables.pxToRem(90)};
+    font-size: ${variables.pxToRem(68)};
+    line-height: ${variables.pxToRem(82.89)};
   }
   @media ${variables.device.mobile} {
-    font-size: ${clampBuilder(200, 581, 40, 52)};
-    line-height: ${variables.pxToRem(63)};
+    font-size: ${clampBuilder(200, 581, 40, 45)};
+    line-height: ${variables.pxToRem(54.86)};
   }
 `
 export const BulletList = styled.li`
