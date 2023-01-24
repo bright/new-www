@@ -181,14 +181,14 @@ export default function Template({
           paddingMobileProps='2rem 0 0 0'
         >
           <div>
-            {width >= breakpoint && typeof window !== 'undefined' && (
+            {width >= breakpointTablet && typeof window !== 'undefined' && (
               <ImageWrapper>
                 {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
               </ImageWrapper>
             )}
           </div>
           <div>
-            {width < breakpoint && typeof window !== 'undefined' && (
+            {width < breakpointTablet && typeof window !== 'undefined' && (
               <ImageWrapper>
                 {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
               </ImageWrapper>
@@ -208,7 +208,7 @@ export default function Template({
       </Section> */}
       <CustomSection
         paddingProps='6.5625rem 15rem 6.5rem 15rem'
-        paddingTabletXL='4.0625rem 0  6rem'
+        paddingTabletXL='6rem 0  6rem'
         paddingMobileProps='0 1.125rem 4rem'
         paddingTablet='5rem 2.25rem 0 '
       >
