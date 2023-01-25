@@ -40,9 +40,9 @@ highlighted_word: custom software
 intro: We help to address your clients needs.
 image_our_service: /images/customsoftwaredevelopment_small.png
 image_alt_our_service: custom software development
-image_our_service_desktop: /images/custom_software_development_desktop.png
+image_our_service_desktop: /images/custom_software_development_desktop_big.png
 image_alt_our_service_desktop: custom software development company
-image_our_service_mobile: /images/custom_software_development_mobile.png
+image_our_service_mobile: /images/custom_software_development_mobile_big.png
 image_alt_our_service_mobile: custom software development company
 description_mdx: Every business is unique. Bespoke software development can
   truly address your needs, challenges, and goals. By adopting a personalized
@@ -67,7 +67,7 @@ bar_stack:
   - Java
 button: let's talk about your product
 button2: "cooperate with us "
-published: false
+published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet custom software development team
