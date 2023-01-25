@@ -41,9 +41,9 @@ intro: If you are looking for a web development company, you’ve come to the
   right place!
 image_our_service: /images/web_development_small.png
 image_alt_our_service: web development company
-image_our_service_desktop: /images/web_development_desktop.png
+image_our_service_desktop: /images/web_development_desktop_big.png
 image_alt_our_service_desktop: web development company
-image_our_service_mobile: /images/web_development_mobile.png
+image_our_service_mobile: /images/web_development_mobile_big.png
 image_alt_our_service_mobile: web development company
 description_mdx: We provide a wide range of **custom full-stack web development
   services** for small, medium, and large businesses. Since 2012 we’ve gained
