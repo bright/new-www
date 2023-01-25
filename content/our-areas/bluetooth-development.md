@@ -38,9 +38,9 @@ highlighted_word: Bluetooth
 intro: We deliver Bluetooth-based solutions.
 image_our_service: /images/bluetooth_development_poland.png
 image_alt_our_service: Bluetooth app development Poland
-image_our_service_desktop: /images/bluetooth_development_services_desktop.png
+image_our_service_desktop: /images/bluetooth_development_services_desktop_big.png
 image_alt_our_service_desktop: Bluetooth app development company
-image_our_service_mobile: /images/bluetooth_development_services_mobile.png
+image_our_service_mobile: /images/bluetooth_development_services_mobile_big.png
 image_alt_our_service_mobile: Bluetooth app development services
 description_mdx: We deliver Bluetooth-based solutions. We have developed
   Bluetooth applications for international clients representing the retail,
