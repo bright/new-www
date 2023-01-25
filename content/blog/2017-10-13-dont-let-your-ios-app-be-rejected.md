@@ -7,6 +7,7 @@ tags:
   - apple
   - review process
 date: 2017-10-12T22:00:00.000Z
+meaningfullyUpdatedAt: 2023-01-25T08:51:40.500Z
 title: Don’t let your iOS app be rejected
 layout: post
 image: /images/blog_ios_no.png
@@ -14,7 +15,6 @@ hidden: false
 comments: true
 published: true
 ---
-
 While implementing in-app purchases, especially **auto-renewable subscriptions**, there is a good chance your app will be rejected during a review process if you don’t follow the guidelines exactly. How can you avoid unnecessary trouble?
 
 ![image1](/images/dont-let-your-ios-app-be-rejected/rejected1.png)
@@ -27,10 +27,10 @@ Phil Schiller announced at WWDC 2017 that Apple so far had paid out **over 70 bi
 
 On iOS we distinguish 4 types of in-app purchases:
 
-- Consumable
-- Non-Consumable
-- Auto-Renewable Subscriptions
-- Non-Renewing Subscriptions
+* Consumable
+* Non-Consumable
+* Auto-Renewable Subscriptions
+* Non-Renewing Subscriptions
 
 Consumable in-app purchases are used once and can be bought again what makes them an easy solution for in-app gifts or extra game bonuses. Non-consumable purchases are permanent and can be restored even after the app reinstalls, which is usually used for unlocking premium features of the app or disabling the ads. Further, non-renewing subscriptions are valid for a limited time only, which can be applied for example for seasonal passes. It’s like non-consumable which is consumed after a specific period of time.
 
@@ -40,7 +40,11 @@ Probably the most appealing for developers are **auto-renewable subscriptions** 
 
 Unfortunately, a lack of API for cancelling the subscription programmatically in combination with a quite unobvious process for resigning manually creates some possibilities for frauds.
 
-Recently, [Johnny Lin has discovered on AppStore](https://medium.com/@johnnylin/how-to-make-80-000-per-month-on-the-apple-app-store-bdb943862e88) many high-ranked scam apps that are prompting a user to pay up to **$100 a week**. One might think that no one would pay that much for such simple services like WEP password generating or VPN service of dubious reputation but according to [Sensor Tower](sensortower.com) some of those applications are earning up to **$300k a month**! After a quick research, Johnny found 10 scam apps that might be earning in total over 7 million dollars a year. It seems that vaguely communicated subscription can be easily accepted by unaware user.
+Recently, [Johnny Lin has discovered on AppStore](https://medium.com/@johnnylin/how-to-make-80-000-per-month-on-the-apple-app-store-bdb943862e88) many high-ranked scam apps that are prompting a user to pay up to $100 a week. 
+
+One might think that no one would pay that much for such simple services like WEP password generating or VPN service of dubious reputation but according to [Sensor Tower](https://sensortower.com/) some of those applications are earning up to $300k a month!
+
+After a quick research, Johnny found 10 scam apps that might be earning in total over 7 million dollars a year. It seems that vaguely communicated subscription can be easily accepted by unaware user.
 
 Such cases have probably **made Apple be more demanding** when reviewing auto-renewable subscriptions before publishing the app in the store. Now, when you don't meet any requirement regarding subscriptions, whether within the app or in AppStore description, your binaries will most likely be **rejected**.
 
@@ -52,14 +56,15 @@ To make sure you meet the Apple requirements you need to include information abo
 
 According to Apple, you must include:
 
->- Title of publication or service    
-- Length of subscription (time period and content or services provided during each subscription period)
-- Payment will be charged to iTunes Account at confirmation of purchase
-- Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period
-- Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal
-- Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase
-- Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable
-- A link to the terms of use
+> * Title of publication or service    
+
+* Length of subscription (time period and content or services provided during each subscription period)
+* Payment will be charged to iTunes Account at confirmation of purchase
+* Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period
+* Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal
+* Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase
+* Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable
+* A link to the terms of use
 
 This means, that information about the pricing, exact moment when (and how often) users will be charged and an instruction how they can unsubscribe must be **communicated clearly** in both AppStore app’s description (metadata) and the application UI (binary).
 
