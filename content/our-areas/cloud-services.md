@@ -21,6 +21,9 @@ faqs:
 project:
   - bright-treasury
   - digitized-questionnaires
+  - Practi JET POS
+  - relevo
+  - circles
 layout: our-service
 meta_title: Cloud Computing Services
 meta_description: We are a software development agency from Poland offering
