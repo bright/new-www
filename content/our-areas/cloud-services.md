@@ -4,6 +4,10 @@ team_members:
   - michal k
   - michal-l
   - bartek k
+  - maciej-n
+  - jacek
+  - adam-w
+  - wojciech-k
 faqs:
   - What benefits do cloud services offer?
   - What are cloud services and how do they work?
