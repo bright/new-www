@@ -56,9 +56,7 @@ To make sure you meet the Apple requirements you need to include information abo
 
 According to Apple, you must include:
 
-> * Title of publication or service    
-
-* Length of subscription (time period and content or services provided during each subscription period)
+* Title of publication or service Length of subscription (time period and content or services provided during each subscription period)
 * Payment will be charged to iTunes Account at confirmation of purchase
 * Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period
 * Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal
