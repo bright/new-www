@@ -124,11 +124,14 @@ export default function Template({
   } = page
 
   const titleArr = title.split(' ')
-  const newTitle = titleArr.map((ta: string) => (
-    <span key={ta} className={ta === `${highlighted_word}` ? 'highlighted-word' : ''}>
-      {ta}
-    </span>
-  ))
+  const newTitle = titleArr.map((ta: string) => {
+    const highlightedWordArr = highlighted_word?.split(' ')
+    return (
+      <span key={ta} className={highlightedWordArr?.includes(ta) ? 'highlighted-word' : ''}>
+        {ta}
+      </span>
+    )
+  })
 
   return (
     <Page>
