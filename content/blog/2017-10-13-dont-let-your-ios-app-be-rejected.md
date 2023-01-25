@@ -40,11 +40,11 @@ Probably the most appealing for developers are **auto-renewable subscriptions** 
 
 Unfortunately, a lack of API for cancelling the subscription programmatically in combination with a quite unobvious process for resigning manually creates some possibilities for frauds.
 
-Recently, Johnny Lin has discovered on AppStore many high-ranked scam apps that are prompting a user to pay up to $100 a week. One might think that no one would pay that much for such simple services like WEP password generating or VPN service of dubious reputations but according to Sensor Tower some of those applications are earning up to $300k a month! After a quick research, Johnny found 10 scam apps that might be earning in total over 7 million dollars a year. It seems that vaguely communicated subscription can be easily accepted by unaware user. 
+Recently, [Johnny Lin has discovered on AppStore](https://medium.com/@johnnylin/how-to-make-80-000-per-month-on-the-apple-app-store-bdb943862e88) many high-ranked scam apps that are prompting a user to pay up to $100 a week. 
 
+One might think that no one would pay that much for such simple services like WEP password generating or VPN service of dubious reputation but according to [Sensor Tower](https://sensortower.com/) some of those applications are earning up to $300k a month!
 
-
-Recently, [Johnny Lin has discovered on AppStore](https://medium.com/@johnnylin/how-to-make-80-000-per-month-on-the-apple-app-store-bdb943862e88) many high-ranked scam apps that are prompting a user to pay up to **$100 a week**. One might think that no one would pay that much for such simple services like WEP password generating or VPN service of dubious reputation but according to [Sensor Tower](https://sensortower.com/) some of those applications are earning up to $300k a month! After a quick research, Johnny found 10 scam apps that might be earning in total over 7 million dollars a year. It seems that vaguely communicated subscription can be easily accepted by unaware user.
+After a quick research, Johnny found 10 scam apps that might be earning in total over 7 million dollars a year. It seems that vaguely communicated subscription can be easily accepted by unaware user.
 
 Such cases have probably **made Apple be more demanding** when reviewing auto-renewable subscriptions before publishing the app in the store. Now, when you don't meet any requirement regarding subscriptions, whether within the app or in AppStore description, your binaries will most likely be **rejected**.
 
