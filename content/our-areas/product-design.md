@@ -65,7 +65,7 @@ bar_stack:
   - accessibility
 button: let's talk about design
 button2: let’s talk about design
-published: false
+published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet our product design team
