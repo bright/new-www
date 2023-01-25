@@ -33,9 +33,9 @@ highlighted_word: cloud computing
 intro: Improve security with cloud computing company.
 image_our_service: /images/cloudservices1.png
 image_alt_our_service: cloud computing services
-image_our_service_desktop: /images/cloud_services_desktop.png
+image_our_service_desktop: /images/cloud_services_desktop_big.png
 image_alt_our_service_desktop: cloud computing services
-image_our_service_mobile: /images/cloud_services_mobile.png
+image_our_service_mobile: /images/cloud_services_mobile_big.png
 image_alt_our_service_mobile: cloud computing services
 description_mdx: Join the serverless movement. Improve security and reduce costs
   with cloud computing services. Migrate your solution to the cloud or develop a
