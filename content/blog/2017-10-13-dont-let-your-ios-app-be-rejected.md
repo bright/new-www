@@ -7,7 +7,7 @@ tags:
   - apple
   - review process
 date: 2017-10-12T22:00:00.000Z
-meaningfullyUpdatedAt: 2023-01-25T08:51:40.500Z
+meaningfullyUpdatedAt: 2017-10-12T22:00:00.000Z
 title: Don’t let your iOS app be rejected
 layout: post
 image: /images/blog_ios_no.png
