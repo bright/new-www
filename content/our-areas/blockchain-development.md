@@ -56,12 +56,11 @@ bullet_points:
   - from idea to launch up to 6 months
   - blockchain stack tailored to your needs
 bar_stack:
-  - Blockchain
+  - Ethereum
   - Substrate
   - Web3
   - Polkadot
   - Kusama
-  - Ethereum
   - Rust
   - Node.js
   - Solidity
