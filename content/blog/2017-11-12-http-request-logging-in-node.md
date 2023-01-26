@@ -1,4 +1,5 @@
 ---
+meaningfullyUpdatedAt: 2017-11-11T23:00:00.000Z
 excerpt: One of the most basic kind of logging every backend application should
   have is a trace logging of all incoming HTTP requests. Yet it's not easy to
   make it right and useful. Let me show you what we have learned and what we do
@@ -15,7 +16,7 @@ image: /images/node-logging.jpeg
 comments: true
 published: true
 ---
-One of the most basic kind of logging every backend application should have is a trace logging of all incoming HTTP requests. Yet it's not easy to make it right and useful. Most of the backends we create at Bright nowadays are Node.JS applications based on [Express](https://expressjs.com/). Although there is a [plethora of libraries](https://www.npmjs.com/search?q=logging) that are to handle logging for you, we would not be ourselves if we haven't tried to build something on our own (even if only for the sake of knowing the internals better). Let me show you what we have learned and what we do to ensure our logs are meaningful and useful.
+**One of the most basic kind of logging every backend application should have is a trace logging of all incoming HTTP requests. Yet it's not easy to make it right and useful. Most of the backends we create at Bright nowadays are Node.JS applications based on [Express](https://expressjs.com/). Although there is a [plethora of libraries](https://www.npmjs.com/search?q=logging) that are to handle logging for you, we would not be ourselves if we haven't tried to build something on our own (even if only for the sake of knowing the internals better). Let me show you what we have learned and what we do to ensure our logs are meaningful and useful.**
 
 ## Log both requests and responses
 
@@ -56,7 +57,9 @@ Note we now attach a function as a subscriber to `finish` event emitted by our H
 
 ## When the request is finished?
 
-The code above has (at least) one problem. Not all the responses actually finish - when the request is aborted by the client or internal unhandled error is thrown, `ServerResponse` emits `close` and `error` events accordingly, instead, and we should also subscribe on them. The problem here is, though, we can't expect `res.statusCode` to be set properly in these cases. This itself is rather obvious, given the fact that the processing was abruptly interrupted for some reason. What is surprising, though, is that when we actually read it anyway, for example assuming that `statusCode` will be undefined or falsy, we get `200` (success status code) instead. This tricked us in the past because if we logged it as-is, while reading the logs afterwards we might overlook the fact that the request definitely wasn't that successful. I'd argue that this was a rather strange design decision of Node's `http` module creators to set the `statusCode` to 200 initially and let it be overwritten in case of unsuccessful responses - if the outcome is not yet known, it should not falsely indicate it is successful.
+The code above has (at least) one problem. Not all the responses actually finish - when the request is aborted by the client or internal unhandled error is thrown, `ServerResponse` emits `close` and `error` events accordingly, instead, and we should also subscribe on them. The problem here is, though, we can't expect `res.statusCode` to be set properly in these cases. This itself is rather obvious, given the fact that the processing was abruptly interrupted for some reason. What is surprising, though, is that when we actually read it anyway, for example assuming that `statusCode` will be undefined or falsy, we get `200` (success status code) instead. 
+
+This tricked us in the past because if we logged it as-is, while reading the logs afterwards we might overlook the fact that the request definitely wasn't that successful. I'd argue that this was a rather strange design decision of Node's `http` module creators to set the `statusCode` to 200 initially and let it be overwritten in case of unsuccessful responses - if the outcome is not yet known, it should not falsely indicate it is successful.
 
 The TypeScript code that handles these cases correctly might look as follows:
 
