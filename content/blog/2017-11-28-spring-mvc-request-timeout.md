@@ -8,7 +8,8 @@ tags:
   - request
   - timeout
 date: 2017-11-27T23:00:00.000Z
-title: Request timeouts in Spring MVC
+meaningfullyUpdatedAt: 2017-11-27T23:00:00.000Z
+title: Request timeouts in Spring MVC – Servlet Filter
 layout: post
 image: /images/time_blog.png
 hidden: false
