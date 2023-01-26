@@ -6,6 +6,7 @@ tags:
   - testing
   - stress
 date: 2021-09-13T12:10:00.371Z
+meaningfullyUpdatedAt: 2021-09-13T12:10:00.000Z
 title: Performance testing in Postman
 layout: post
 image: /images/graph_performance_blog.png
@@ -18,9 +19,19 @@ published: true
 ## Types of tests
 
 While there are multiple approaches in performance testing, we can divide all of them into a couple of models. Each model has its own goal and has to be adjusted so that the end product is always valuable and informative.
-Let’s imagine we have a certain limit - for example of customers being able to load our landing page. We want to check how the system handles reaching that limit. We call that load testing and it allows us to monitor the response time and, effectively, the time that customers will have to wait to use our software. A modified version of load testing is endurance or volume testing that basically means reaching the predefined limit and then observing how long our app can withstand the provided conditions.
-Another type of performance testing is stress testing - when we gradually increase the load until it reaches the level we know the app will not handle. Seemingly harsh, it provides measurements about when the software fails, how it handles the inevitable errors, how it communicates being beyond the bandwidth capacity and last but not least, how it recovers.
-Spike testing is a subtype of stress testing that focuses on the performance of the app under huge load volumes in a short period. Those ‘spikes’ should be created either between periods of usual production load (imitating the production environment) or no load at all.
+
+### Load testing
+
+Let’s imagine we have a certain limit - for example of customers being able to load our landing page. We want to check how the system handles reaching that limit. We call that load testing and it allows us to **monitor the response time and, effectively, the time that customers will have to wait to use our software**. A modified version of load testing is endurance or volume testing that basically means reaching the predefined limit and then observing how long our app can withstand the provided conditions.
+
+### Stress testing
+
+Another type of performance testing is stress testing - when **we gradually increase the load until it reaches the level we know the app will not handle**. Seemingly harsh, it provides measurements about when the software fails, how it handles the inevitable errors, how it communicates being beyond the bandwidth capacity and last but not least, how it recovers.
+
+### Spike testing
+
+Spike testing is a subtype of stress testing that **focuses on the performance of the app under huge load volumes in a short period**. Those ‘spikes’ should be created either between periods of usual production load (imitating the production environment) or no load at all.
+
 All types of testing help in defining problems and effectively, improving the quality of the end product. The essential task is to adjust the type of testing used to the questions we want to answer.
 
  ![testing models](/images/testingModelsPostman.png)
