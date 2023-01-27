@@ -214,7 +214,7 @@ export default function Template({
                       {question}
 
                       <span>
-                        <img src='/images/arrowFaqs.svg' alt='' />
+                        <img src='/images/arrowFaqs.svg' alt='arrow Faqs' />
                       </span>
                     </Question>
                   ) : null}
