@@ -46,7 +46,7 @@ export default function Template({
   const { frontmatter: page } = mdx
   const { width, height } = useWindowSize()
 
-  const mobileHeight = 700
+  const mobileHeight = 750
   const breakpointTablet = 992
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
