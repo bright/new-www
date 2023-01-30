@@ -44,9 +44,8 @@ export default function Template({
 }: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string } }>) {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
-  const { width, height } = useWindowSize()
+  const { width } = useWindowSize()
 
-  const mobileHeight = 750
   const breakpointTablet = 992
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
@@ -147,7 +146,7 @@ export default function Template({
           paddingTablet='1.5625rem  2.25rem 0'
           paddingMobileProps='3rem 1.125rem 0'
         >
-          <MobileOurServiceFlexWrapper desktopDirection='column'>
+          <MobileOurServiceFlexWrapper desktopDirection='column' mobileContent='space-between'>
             <FlexWrapper desktopDirection='column'>
               <CustomSection
                 paddingProps='0 0 16px'
@@ -168,7 +167,7 @@ export default function Template({
                 margin='0'
                 marginTopTablet='64px'
                 tabletWidth='100%'
-                marginTopMobile={height! <= mobileHeight && typeof window !== 'undefined' ? '0' : '64px'}
+                marginTopMobile='0'
               >
                 <MoreButton href={'#contactForm'} isBlack marginTop='0' isPositionLeft className='more-button'>
                   {button}
