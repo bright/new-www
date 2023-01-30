@@ -5,8 +5,8 @@ tags:
   - bright story
   - frontend
   - React
-date: 2023-01-30T07:21:32.947Z
-meaningfullyUpdatedAt: 2023-01-30T07:21:32.975Z
+date: 2023-01-30T07:47:46.784Z
+meaningfullyUpdatedAt: 2023-01-30T07:47:47.575Z
 title: Frontend Developer with an Appetite for Backend. Meet Szymon
 layout: post
 image: /images/brightstoryszymon.png
