@@ -16,6 +16,8 @@ published: true
 ---
 **Szymon built his first website in middle school. He’s a frontend developer with over 5 years of commercial experience. He’s never been afraid to dig into the backend though. Discover Szymon’s love for React, holistic approach to software development, and dark beer.**
 
+<div class="image"><img src="/images/brightstoryszymoncollage.png" alt="Szymon's career story" title="undefined"  /> </div>
+
 ## What do you remember about your programming beginnings?
 
 Since I remember, **computers have always fascinated me**. I wanted to create my own programs. When I was around 12 I made my first attempt to code (WinAPI C++). However, I quickly gave up because the amount of information to learn overcame me.
@@ -77,3 +79,5 @@ An example of the JavaScript basics that you shouldn’t neglect is (unfortunate
 I like to spend my spare time **actively hiking and discovering new cities on foot**. I am a fan of dark beer like Porter or Stout – the more black and thick the better. I even made my own beer recently and it tasted quite well. I also enjoy **Asian cuisine**. Last month **I bought an electric guitar** and, to be honest, it’s my third attempt to learn to play it. 
 
 <div class="image"><img src="/images/szymon_passions_hiking.png" alt="Hiking" title="undefined"  /> </div>
+
+In the past, **I loved playing video games such as Battlefield and Call of Duty**. Unfortunately, some time ago I realized they are not as entertaining as I remember them to be. Also, they don’t provide this special feeling of satisfaction anymore. Hard to say why, maybe it’s because the game wasn’t important, but the people I played with were. I guess it’s only a childhood memory now. 😉
