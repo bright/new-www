@@ -4,6 +4,7 @@ secondAuthor: izabela
 tags:
   - bright story
   - frontend
+  - React
 date: 2023-01-30T07:21:32.947Z
 meaningfullyUpdatedAt: 2023-01-30T07:21:32.975Z
 title: Frontend Developer with an Appetite for Backend. Meet Szymon
@@ -36,3 +37,15 @@ React has a great advantage. **You can use it in multiple ways** and each of the
 **If we assume that love brings pain sometimes, then we can call my relationship with React love**. 😉 I’m not blindly in love, I see some issues. Nothing is perfect. Maybe we should call it a marriage of convenience? 🙂
 
 ## How come?
+
+<div class="image"><img src="/images/szymon_quote_react.png" alt="Quote on React" title="undefined"  /> </div>
+
+The freedom that React offers could be heartbreaking for you in the future. You can really go crazy with React building very unusual things. And if you build a large application, the consequences could be painful. The business logic should be centralized so you could simply inspect it and adjust it if needed. **If you use React too freely and scatter the business logic around, you may end up with an app, that's hard to maintain and scale**. Don’t overuse the freedom that React gives you.
+
+## You joined Bright Inventions only a couple of months ago. What are your thoughts on our team?
+
+After the first months, I can definitely say that there are a couple of factors that make our organization stand out from other IT companies. First of all, **people here are so open**. 
+
+Whenever I need something or have a question to ask I don’t hesitate to reach out to somebody. I know that this person will be helpful and kind. It doesn’t matter what position they hold at the company and what they do. It’s very encouraging, especially during onboarding, to experience this friendly atmosphere.
+
+<div class="image"><img src="/images/brightinventions_team_retreat2022.png" alt="Bright Inventions team" title="undefined"  /> </div>
