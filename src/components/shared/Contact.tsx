@@ -161,9 +161,7 @@ export const Contact: FC<ContactProps> = ({
           <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
         )}
         {subtitle ? (
-          <TextRegular>
-            {subtitle} <a href='mailto:info@brightinventions.pl'>info@brightinventions.pl.</a>
-          </TextRegular>
+          <TextRegular>{subtitle}</TextRegular>
         ) : (
           <TextRegular>
             Have an idea for a groundbreaking software project, but don't know where to start? Or maybe you're looking
