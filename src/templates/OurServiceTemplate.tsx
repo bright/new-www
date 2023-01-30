@@ -168,7 +168,7 @@ export default function Template({
                 margin='0'
                 marginTopTablet='64px'
                 tabletWidth='100%'
-                marginTopMobile={height! <= mobileHeight ? '0' : '64px'}
+                marginTopMobile={height! <= mobileHeight && typeof window !== 'undefined' ? '0' : '64px'}
               >
                 <MoreButton href={'#contactForm'} isBlack marginTop='0' isPositionLeft className='more-button'>
                   {button}
