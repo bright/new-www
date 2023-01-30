@@ -49,3 +49,19 @@ After the first months, I can definitely say that there are a couple of factors 
 Whenever I need something or have a question to ask I don’t hesitate to reach out to somebody. I know that this person will be helpful and kind. It doesn’t matter what position they hold at the company and what they do. It’s very encouraging, especially during onboarding, to experience this friendly atmosphere.
 
 <div class="image"><img src="/images/brightinventions_team_retreat2022.png" alt="Bright Inventions team" title="undefined"  /> </div>
+
+Also, the unique fact is that **we at Bright Inventions are encouraged not only to grow internally but also to share knowledge with others, even outside our organization**. For example here you feel motivated to write blog posts, apply to be a speaker at various conferences, etc. 
+
+Last but not least, is the fact that the company also **inspires us to develop outside work and take care of our health**. Bright organizes various sports classes in Gdańsk (where its HQ is). **You can join swimming or yoga practices if you want**. I wish I could attend them but I work remotely from Toruń. 
+
+## Tell us more about the project you work on. Is there something particularly interesting about it?
+
+**I am a part of the team that develops a transportation system dedicated to freight forwarders**. The most appealing thing about this project is **a constant awareness that my every operation causes some consequences**. The truth is that you can build an app really quickly but later cry over every new adjustment.
+
+On the other hand, you can build a product smarter, with a long-term plan. And that’s how we operate here. **We constantly have in mind that we build a solution that could be used for many years by a larger group of people**. I like that approach.
+
+<div class="image"><img src="/images/szymon_quote_project.png" alt="Quote on project" title="undefined"  /> </div>
+
+What’s more, I enjoy the fact that **we take part in product requirement talks**. We discuss with the client what features they need and offer our expertise from a very early stage. Thanks to that we can quickly inform the client that some features could have a negative impact on other elements of the system. Eventually, we can offer an alternative solution that will still meet the client’s goals.
+
+## What advice would you give people who want to become front-end developers?
