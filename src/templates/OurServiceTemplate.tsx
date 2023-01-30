@@ -29,6 +29,7 @@ import {
   OurServiceFlexWraper,
   MoreButtonOurServiceWrapper,
   CustomSectionOurServiceImage,
+  MobileOurServiceFlexWrapper,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
@@ -43,8 +44,9 @@ export default function Template({
 }: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string } }>) {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
-  const { width } = useWindowSize()
-  const breakpoint = 581
+  const { width, height } = useWindowSize()
+
+  const mobileHeight = 700
   const breakpointTablet = 992
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
@@ -139,42 +141,48 @@ export default function Template({
 
       <OurServiceFlexWraper desktopItems='center' tabletDirection='column'>
         <CustomSectionOurService
-          paddingProps='12.1875rem 0 0 15rem '
+          paddingProps='1rem 0 0 15rem '
           paddingLaptop='6.4375rem 0 0 6rem'
           paddingTabletXL='7.5rem 0 0 8.5625rem '
           paddingTablet='1.5625rem  2.25rem 0'
           paddingMobileProps='3rem 1.125rem 0'
         >
-          <CustomSection
-            paddingProps='0 0 16px'
-            paddingLaptop='0 0 16px'
-            paddingTabletXL='0 0 4px'
-            paddingTablet='0 0 16px'
-            paddingMobileProps='0 0 32px'
-          >
-            <OurServicePageTitle>{newTitle}</OurServicePageTitle>
-          </CustomSection>
-          <BulletsList>
-            {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}
-          </BulletsList>
-          <MoreButtonOurServiceWrapper
-            marginTop='64px'
-            margin='0'
-            marginTopTablet='64px'
-            tabletWidth='100%'
-            marginTopMobile='80px'
-          >
-            <MoreButton href={'#contactForm'} isBlack marginTop='0' isPositionLeft className='more-button'>
-              {button}
-            </MoreButton>
-          </MoreButtonOurServiceWrapper>
-
-          <CloutchWrapper>
-            <FlexWrapper desktopItems='center' desktopGap='18px' tabletContent='center' mobileContent='flex-start'>
-              <TextRegular>Clutch 4.9/5</TextRegular>
-              <RatingClutch />
+          <MobileOurServiceFlexWrapper desktopDirection='column'>
+            <FlexWrapper desktopDirection='column'>
+              <CustomSection
+                paddingProps='0 0 16px'
+                paddingLaptop='0 0 16px'
+                paddingTabletXL='0 0 4px'
+                paddingTablet='0 0 16px'
+                paddingMobileProps='0 0 32px'
+              >
+                <OurServicePageTitle>{newTitle}</OurServicePageTitle>
+              </CustomSection>
+              <BulletsList>
+                {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}
+              </BulletsList>
             </FlexWrapper>
-          </CloutchWrapper>
+            <FlexWrapper desktopDirection='column'>
+              <MoreButtonOurServiceWrapper
+                marginTop='64px'
+                margin='0'
+                marginTopTablet='64px'
+                tabletWidth='100%'
+                marginTopMobile={height! <= mobileHeight ? '0' : '64px'}
+              >
+                <MoreButton href={'#contactForm'} isBlack marginTop='0' isPositionLeft className='more-button'>
+                  {button}
+                </MoreButton>
+              </MoreButtonOurServiceWrapper>
+
+              <CloutchWrapper>
+                <FlexWrapper desktopItems='center' desktopGap='18px' tabletContent='center' mobileContent='flex-start'>
+                  <TextRegular>Clutch 4.9/5</TextRegular>
+                  <RatingClutch />
+                </FlexWrapper>
+              </CloutchWrapper>
+            </FlexWrapper>
+          </MobileOurServiceFlexWrapper>
         </CustomSectionOurService>
         <CustomSectionOurServiceImage
           paddingProps='3.5rem 15rem 0 0 '
