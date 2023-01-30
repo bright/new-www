@@ -24,21 +24,13 @@ export const CustomSectionOurService = styled(CustomSection)`
     padding-top: ${variables.pxToRem(120)};
   }
 
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
-  }
-
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
-  }
-
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
-  }
-
   @media ${variables.device.tablet} {
     flex-basis: 100%;
     padding-top: ${variables.pxToRem(64)};
+  }
+  @media ${variables.device.mobile} {
+    flex-basis: 100%;
+    padding-top: ${variables.pxToRem(16)};
   }
 `
 export const CustomSectionOurServiceImage = styled(CustomSection)`
@@ -318,28 +310,41 @@ export const OurServicePageTitle = styled(CustomPageTitle)`
   }
   @media ${variables.device.mobile} {
     font-size: ${clampBuilder(200, 581, 40, 45)};
-    line-height: ${variables.pxToRem(54.86)};
+    line-height: ${variables.pxToRem(47.25)};
   }
 `
 export const BulletList = styled.li`
+  position: relative;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
   font-size: ${variables.pxToRem(20)};
   line-height: ${variables.pxToRem(40)};
+  vertical-align: middle;
 
   color: #0a0a0a;
-  padding-inline-start: 16px;
+  padding-inline-start: ${variables.pxToRem(35)};
   display: list-item;
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(16)};
     line-height: ${variables.pxToRem(32)};
   }
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    vertical-align: middle;
+
+    background: url(${image});
+    width: 19px;
+    height: 20px;
+
+    z-index: 1;
+  }
 `
-export const BulletsList = styled.ul`
-  list-style: outside url(${image}) none;
-  padding-inline-start: 27px;
-`
+export const BulletsList = styled.ul``
 export const CloutchWrapper = styled.div`
   padding-top: ${variables.pxToRem(16)};
 `
@@ -348,5 +353,10 @@ export const OurServiceFlexWraper = styled(FlexWrapper)`
 
   @media ${variables.device.tabletXL} {
     height: 100%;
+  }
+`
+export const MobileOurServiceFlexWrapper = styled(FlexWrapper)`
+  @media ${variables.device.mobile} {
+    height: calc(100vh - 90px);
   }
 `
