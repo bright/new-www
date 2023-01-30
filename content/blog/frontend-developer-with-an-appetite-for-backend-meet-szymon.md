@@ -65,3 +65,15 @@ On the other hand, you can build a product smarter, with a long-term plan. And t
 What’s more, I enjoy the fact that **we take part in product requirement talks**. We discuss with the client what features they need and offer our expertise from a very early stage. Thanks to that we can quickly inform the client that some features could have a negative impact on other elements of the system. Eventually, we can offer an alternative solution that will still meet the client’s goals.
 
 ## What advice would you give people who want to become front-end developers?
+
+**I wouldn’t dive into frameworks at first**. Over the course of my career, **I conducted around 30 interviews** and half of them were with junior developers. It often turned out that **candidates could write an app in React or Angular, but struggled to answer how JavaScript works** and what's unique about it. 
+
+I’ve noticed that **boot camps often claim to teach from zero to hero but don’t focus on the details of the language they use**. They produce developers capable of working with a library or a framework. Yet eventually these programmers will have to work on low-level things and will realize they know nothing about it. Alternatively, they will stumble upon a problem caused by some language-specific feature and will have no idea how to fix it. You know, **there are many programming languages out there, but nearly all of them share common traits, which you get to know during Computer Science studies**. That’s why I think they are still beneficial despite (usually) being greatly outdated.
+
+An example of the JavaScript basics that you shouldn’t neglect is (unfortunately) asynchrony or passing variables by reference.
+
+## What do you enjoy doing after work?
+
+I like to spend my spare time **actively hiking and discovering new cities on foot**. I am a fan of dark beer like Porter or Stout – the more black and thick the better. I even made my own beer recently and it tasted quite well. I also enjoy **Asian cuisine**. Last month **I bought an electric guitar** and, to be honest, it’s my third attempt to learn to play it. 
+
+<div class="image"><img src="/images/szymon_passions_hiking.png" alt="Hiking" title="undefined"  /> </div>
