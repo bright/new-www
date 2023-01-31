@@ -28,9 +28,14 @@ short_description: You can count on our expertise in interface analysis,
   worked on design projects of all sizes.
 order: 5
 title: embrace your idea with product design
+highlighted_word: product design
 intro: Every software needs a design touch.
 image_our_service: /images/productdesign_2.png
-image_alt_our_service: product design
+image_alt_our_service: product design company
+image_our_service_desktop: /images/product_devsign_desktop.png
+image_alt_our_service_desktop: product design company
+image_our_service_mobile: /images/product_devsign_mobile.png
+image_alt_our_service_mobile: product design company
 description_mdx: >-
   We know what it takes to create not only functional but also beautifully
   crafted online products that are memorable to your audience. You can count on
@@ -39,6 +44,17 @@ description_mdx: >-
 
 
   We have worked on design projects of all sizes – from simple mobile apps to scalable enterprise software systems. We’ll happily discuss how we can turn your idea or design brief into a polished final product, optimized for all devices and platforms.
+bullet_points:
+  - tailored UI & UX for MVP in 30 days
+  - from research to whole system design
+  - focus on accessibility and top UI trends
+bar_stack:
+  - Adobe XD
+  - Figma
+  - Sketch
+  - Miro
+  - HTML
+  - CSS
 button: let's talk about design
 button2: let’s talk about design
 published: true
