@@ -55,6 +55,7 @@ bullet_points:
   - tailored Agile practices for your team
 bar_stack:
   - Scrum
+  - Agile
   - Confluence
   - Kanban
   - Jira
