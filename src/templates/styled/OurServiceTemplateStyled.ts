@@ -390,5 +390,7 @@ export const OurServiceFlexWraper = styled(FlexWrapper)`
 export const MobileOurServiceFlexWrapper = styled(FlexWrapper)`
   @media ${variables.device.mobile} {
     height: calc(100vh - 90px);
+
+    height: calc(100dvh - 90px);
   }
 `
