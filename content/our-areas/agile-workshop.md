@@ -35,15 +35,33 @@ short_description: We will organise Agile workshops for you and your team and
   methodology brings to the table.
 order: 7
 title: build a strong team with Agile workshops
+highlighted_word: Agile workshops
 intro: We have used Agile to build over 50 projects.
 image_our_service: /images/agile_workshops_small.png
 image_alt_our_service: agile workshops
-description_mdx: We live and breathe Agile. For almost a decade we have used Agile
-  methodology to develop software projects for clients from various industries.
-  We provide hands-on consulting, coaching, and Agile training for businesses.
-  We work directly with your software developers and we have the experience to
-  help you solve your project management and process problems. We offer face to
-  face meetings (across Europe) and online workshops as well.
+image_our_service_desktop: /images/agile_workshops_desktop.png
+image_alt_our_service_desktop: agile workshops
+image_our_service_mobile: /images/agile_workshops_mobile.png
+image_alt_our_service_mobile: agile workshops
+description_mdx: We live and breathe Agile. For almost a decade we have used
+  Agile methodology to develop software projects for clients from various
+  industries. We provide hands-on consulting, coaching, and Agile training for
+  businesses. We work directly with your software developers and we have the
+  experience to help you solve your project management and process problems. We
+  offer face to face meetings (across Europe) and online workshops as well.
+bullet_points:
+  - online or in-person workshops
+  - conducted by Agile experts with 10+ experience
+  - tailored Agile practices for your team
+bar_stack:
+  - Scrum
+  - Agile
+  - Confluence
+  - Kanban
+  - Jira
+  - Trello
+  - Asana
+  - Parabol
 button: "book free consultation "
 button2: "book free consultation "
 published: true
