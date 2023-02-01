@@ -78,7 +78,7 @@ title_case_study: projects we have worked on
 title_faqs: blockchain development FAQ's
 title_contact: let’s talk about your blockchain project
 description_contact: Contact us to learn how we can use blockchain to develop
-  your product. Fill the form below or drop us a line at
+  your product. Fill out the form below.
 ---
 ## what is blockchain and why you might need it?
 
