@@ -51,10 +51,12 @@ bullet_points:
 bar_stack:
   - Adobe XD
   - Figma
-  - Sketch
   - Miro
-  - HTML
-  - CSS
+  - desk research
+  - user personas
+  - customer journey
+  - user story mapping
+  - accessibility
 button: let's talk about design
 button2: let’s talk about design
 published: true
