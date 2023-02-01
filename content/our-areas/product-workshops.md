@@ -31,9 +31,14 @@ short_description: We will help you discover your product idea, set your product
   product better.
 order: 6
 title: make your software worthy with product workshops
+highlighted_word: product workshops
 intro: We offer product workshops for startups and larger organisations.
 image_our_service: /images/productworkshops_small.png
 image_alt_our_service: product workshops
+image_our_service_desktop: /images/product_workshops_desktop.png
+image_alt_our_service_desktop: product workshops
+image_our_service_mobile: /images/product_workshops_mobile.png
+image_alt_our_service_mobile: product workshops
 description_mdx: >-
   We believe that product workshops are an integral part of the product
   development process, no matter which stages your product is in. During the
@@ -43,7 +48,16 @@ description_mdx: >-
 
 
   Our workshop team will adapt the workshop just for your exclusive case and adjust the whole process for your individual needs. **Due to the global pandemic situation, we offer online workshops as well.**
-button: let's talk
+bullet_points:
+  - online or in-person workshops
+  - evaluation of your business idea
+  - figure out what your users really need
+bar_stack:
+  - Product discovery
+  - Product flow
+  - Product evaluation
+  - User story mapping
+button: let's talk about workshops
 button2: book workshop
 published: true
 show_case_study: false
