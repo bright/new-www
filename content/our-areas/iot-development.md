@@ -69,7 +69,7 @@ title_faqs: IoT development FAQs
 title_contact: let’s talk about your IoT solution
 description_contact: It doesn’t matter if your project is just an idea or you
   have already been developing an existing system. We will help you in any phase
-  of your software development. Fill in the form below, or drop us a line via
+  of your software development. Fill out the form below.
 ---
 ## what is IoT and why you might need it?
 
