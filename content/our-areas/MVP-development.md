@@ -71,8 +71,7 @@ title_team: meet our MVP development team
 title_case_study: MVPs that we have developed
 title_faqs: MVP development FAQs
 title_contact: let’s talk about your MVP
-description_contact: Tell us more about your project or idea for an app. Fill
-  the form below, or drop us a line via
+description_contact: Tell us more about your project or idea for an app. Fill the form below.
 ---
 ## Is MVP right for your business?
 
