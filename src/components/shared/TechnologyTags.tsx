@@ -69,26 +69,33 @@ const Pill = styled.div({
   },
 })
 
-const TechnologyTags = () => {
+interface TechnologyTagsProps {
+  tags?: string[]
+}
+
+const TechnologyTags = ({ tags }: TechnologyTagsProps) => {
   return (
     <SectionBlackContainer>
       <CustomContainer>
         <ContentContainer>
-          <Pill>Kotlin</Pill>
-          <Pill>Java</Pill>
-          <Pill>Swift</Pill>
-          <Pill>Flutter</Pill>
-          <Pill>Spring</Pill>
-          <Pill>TypeScript</Pill>
-          <Pill>React</Pill>
-          <Pill>Node.js</Pill>
-          <Pill>NestJS</Pill>
-          <Pill>MySQL</Pill>
-          <Pill>PostgreSQL</Pill>
-          <Pill>AWS</Pill>
-          <Pill>iBeacon</Pill>
-          <Pill>Rust</Pill>
-          <Pill>Substrate</Pill>
+          {tags ? (
+            tags.map((tag: string) => <Pill key={tag}>{tag}</Pill>)
+          ) : (
+            <>
+              <Pill>Kotlin</Pill>
+              <Pill>Java</Pill>
+              <Pill>Spring</Pill>
+              <Pill>TypeScript</Pill>
+              <Pill>React</Pill>
+              <Pill>Node.js</Pill>
+              <Pill>NestJS</Pill>
+              <Pill>MySQL</Pill>
+              <Pill>PostgreSQL</Pill>
+              <Pill>Swift</Pill>
+              <Pill>AWS</Pill>
+              <Pill>iBeacon</Pill>
+            </>
+          )}
         </ContentContainer>
       </CustomContainer>
     </SectionBlackContainer>

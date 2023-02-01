@@ -22,12 +22,14 @@ const IconsContainer = styled.div`
   flex-wrap: wrap;
   padding: ${variables.pxToRem(36)} ${variables.pxToRem(24)} 0 0};
   @media ${variables.device.tablet} {
-    max-width: 100%;
+    width: 100%;
     column-gap: ${clampBuilder(300, 834, 19, 111)};
     max-width: 736px;
     justify-content: center;
+    align-items: center;
     padding: ${variables.pxToRem(36)} 0 0 0};
     margin: 0 auto;
+    flex-wrap:nowrap ;
   }
 
   & a {
@@ -88,6 +90,7 @@ const ImageYouTube = styled.figure`
 `
 const LinkCopyButton = styled(Button)`
   position: relative;
+  width: unset;
 `
 const LinkCopySucces = styled.p`
   position: absolute;

@@ -1,18 +1,14 @@
 import React, { useState, useEffect, useRef, PropsWithChildren } from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Contact } from '../components/shared/Contact'
 import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
+import RatingClutch from '../assets/rating.svg'
+import { useWindowSize } from '../components/utils/use-windowsize'
 
-import {
-  CustomSectionInner,
-  CustomSection,
-  TextRegular,
-  CustomSectionTitle,
-  Section,
-} from '../components/shared/index.styled'
+import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
 
 import TeamMembers from './../components/subcomponents/TeamMembers'
 import { Projects } from '../components/home/Projects'
@@ -22,16 +18,24 @@ import {
   CustomSectionOurService,
   ImageWrapper,
   Content,
-  BlackButtonOurService,
   FaqWrapper,
   Question,
   FaqsTextRegural,
-  OurServiceHideTablet,
   OurServicePageTitle,
   OurServiceSection,
+  BulletList,
+  BulletsList,
+  CloutchWrapper,
+  OurServiceFlexWraper,
+  MoreButtonOurServiceWrapper,
+  CustomSectionOurServiceImage,
+  MobileOurServiceFlexWrapper,
 } from './styled/OurServiceTemplateStyled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
+import { FlexWrapper } from '../components/shared'
+import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
+import { MoreButton } from './../components/shared/index'
 
 export default function Template({
   data,
@@ -40,7 +44,11 @@ export default function Template({
 }: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string } }>) {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
-  const image = getImage(page.image_our_service)
+  const { width } = useWindowSize()
+
+  const breakpointTablet = 992
+  const mobileImage = getImage(page.image_our_service_mobile)
+  const desktopImage = getImage(page.image_our_service_desktop)
   const myRef = useRef<HTMLDivElement>(null)
   const { faqTitle } = pageContext
 
@@ -99,7 +107,7 @@ export default function Template({
     meta_title,
     meta_description,
     title,
-    description,
+    highlighted_word,
     button,
     title_team,
     team_members,
@@ -110,72 +118,133 @@ export default function Template({
     title_faqs,
     title_contact,
     description_contact,
+    bar_stack,
+    bullet_points,
     project: projects,
     slug,
   } = page
 
+  const titleArr = title.split(' ')
+  const newTitle = titleArr.map((ta: string) => {
+    const highlightedWordArr = highlighted_word?.split(' ')
+    return (
+      <span key={ta} className={highlightedWordArr?.includes(ta) ? 'highlighted-word' : ''}>
+        {ta}
+      </span>
+    )
+  })
+
   return (
     <Page>
       <HelmetMetaData title={meta_title} description={meta_description} />
-      <CustomSectionOurService>
-        <CustomSectionInner
-          maxWidth='70%'
-          tabletXLMaxWidth='80%'
-          laptopMaxWidth='70%'
-          mobileMaxWidth='100%'
-          tabletMaxWidth='90%'
-        >
-          <OurServicePageTitle>{title}</OurServicePageTitle>
-        </CustomSectionInner>
-      </CustomSectionOurService>
-      <OurServiceHideTablet>
-        <CustomSection
-          paddingProps='0 15rem 2.125rem '
-          paddingTabletXL='0 9rem 1.3125rem '
-          paddingLaptop='0 6rem 1.6875rem '
-        >
-          <CustomSectionInner maxWidth='956px'>
-            <Link to={'#contactForm'}>
-              <BlackButtonOurService marginTop='0'>{button}</BlackButtonOurService>
-            </Link>
-          </CustomSectionInner>
-        </CustomSection>
-      </OurServiceHideTablet>
 
-      <ImageWrapper>
-        {image && <GatsbyImage image={image} alt={image_alt_our_service} className='about-img' />}
-      </ImageWrapper>
-      <Section>
+      <OurServiceFlexWraper desktopItems='center' tabletDirection='column'>
+        <CustomSectionOurService
+          paddingProps='1rem 0 0 15rem '
+          paddingLaptop='6.4375rem 0 0 6rem'
+          paddingTabletXL='7.5rem 0 0 8.5625rem '
+          paddingTablet='1.5625rem  2.25rem 0'
+          paddingMobileProps='3rem 1.125rem 0'
+        >
+          <MobileOurServiceFlexWrapper desktopDirection='column' mobileContent='space-between'>
+            <FlexWrapper desktopDirection='column'>
+              <CustomSection
+                paddingProps='0 0 16px'
+                paddingLaptop='0 0 16px'
+                paddingTabletXL='0 0 4px'
+                paddingTablet='0 0 16px'
+                paddingMobileProps='0 0 32px'
+              >
+                <OurServicePageTitle>{newTitle}</OurServicePageTitle>
+              </CustomSection>
+              <BulletsList>
+                {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}
+              </BulletsList>
+            </FlexWrapper>
+            <FlexWrapper desktopDirection='column'>
+              <MoreButtonOurServiceWrapper
+                marginTop='64px'
+                margin='0'
+                marginTopTablet='64px'
+                tabletWidth='100%'
+                marginTopMobile='0'
+              >
+                <MoreButton href={'#contactForm'} isBlack marginTop='0' isPositionLeft className='more-button'>
+                  {button}
+                </MoreButton>
+              </MoreButtonOurServiceWrapper>
+
+              <CloutchWrapper>
+                <FlexWrapper desktopItems='center' desktopGap='18px' tabletContent='center' mobileContent='flex-start'>
+                  <TextRegular>Clutch 4.9/5</TextRegular>
+                  <RatingClutch />
+                </FlexWrapper>
+              </CloutchWrapper>
+            </FlexWrapper>
+          </MobileOurServiceFlexWrapper>
+        </CustomSectionOurService>
+        <CustomSectionOurServiceImage
+          paddingProps='3.5rem 15rem 0 0 '
+          paddingLaptop='0 6rem 0 0'
+          paddingTabletXL='7.5rem 8.5625rem 0 0 '
+          paddingTablet='2rem 0 0 0'
+          paddingMobileProps='2rem 0 0 0'
+        >
+          <div>
+            {width >= breakpointTablet && typeof window !== 'undefined' && (
+              <ImageWrapper>
+                {desktopImage && <GatsbyImage image={desktopImage} alt={image_alt_our_service} className='about-img' />}
+              </ImageWrapper>
+            )}
+          </div>
+          <div>
+            {width < breakpointTablet && typeof window !== 'undefined' && (
+              <ImageWrapper>
+                {mobileImage && <GatsbyImage image={mobileImage} alt={image_alt_our_service} className='about-img' />}
+              </ImageWrapper>
+            )}
+          </div>
+        </CustomSectionOurServiceImage>
+      </OurServiceFlexWraper>
+
+      {/* <Section>
         <CustomSection paddingProps='2rem 15rem 0rem 15rem'>
           <CustomSectionInner>
             <TextRegular className='content'>
               {description && <Content dangerouslySetInnerHTML={{ __html: description.html }} />}
             </TextRegular>
-            <Link to={'#contactForm'}>
-              <BlackButtonOurService>{button}</BlackButtonOurService>
-            </Link>
           </CustomSectionInner>
         </CustomSection>
-      </Section>
+      </Section> */}
+      <CustomSection
+        paddingProps='6.5625rem 15rem 6.5rem 15rem'
+        paddingTabletXL='6rem 0  6rem'
+        paddingMobileProps='0 1.125rem 4rem'
+        paddingTablet='5rem 2.25rem 0 '
+      >
+        <OurServiceSection>
+          <CustomSectionInner>
+            <Content className='content'>{children}</Content>
+
+            <MoreButtonOurServiceWrapper>
+              <MoreButton href={'#contactForm'} isBlack marginTop='0'>
+                {button2}
+              </MoreButton>
+            </MoreButtonOurServiceWrapper>
+          </CustomSectionInner>
+        </OurServiceSection>
+      </CustomSection>
       <CustomSection paddingProps='0 0 2rem' paddingMobileProps='0 1.125rem 1rem'>
         <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
           {title_team}
         </CustomSectionTitle>
-        <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />
+        <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
+        <div>
+          {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
+        </div>
       </CustomSection>
 
-      <CustomSection paddingProps='0 15rem 5.625rem 15rem' paddingMobileProps='0 1.125rem 4rem'>
-        <OurServiceSection>
-          <CustomSectionInner>
-            <Content className='content'>{children}</Content>
-            <Link to={'#contactForm'}>
-              <BlackButtonOurService>{button2}</BlackButtonOurService>
-            </Link>
-          </CustomSectionInner>
-        </OurServiceSection>
-      </CustomSection>
-
-      {show_technology_stack && <TechnologyTags />}
+      {show_technology_stack && <TechnologyTags tags={bar_stack} />}
 
       {show_case_study && (
         <div>
@@ -268,11 +337,14 @@ export const pageQuery = graphql`
         meta_title
         meta_description
         title
+        highlighted_word
         intro
         slug
+        bullet_points
         description_mdx {
           html
         }
+        bar_stack
         button
         button2
         show_case_study
@@ -283,6 +355,16 @@ export const pageQuery = graphql`
         title_contact
         description_contact
         name
+        image_our_service_mobile {
+          childImageSharp {
+            gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
+          }
+        }
+        image_our_service_desktop {
+          childImageSharp {
+            gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
+          }
+        }
         image_our_service {
           childImageSharp {
             gatsbyImageData

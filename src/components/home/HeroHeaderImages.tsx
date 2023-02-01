@@ -1,7 +1,7 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { StaticImage } from 'gatsby-plugin-image'
-import { Section, CustomSectionTitle, CustomContainer, BlackButton } from '../shared'
+import { Section, CustomSectionTitle, CustomContainer, MoreButton } from '../shared'
 import variables from '../../styles/variables'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
@@ -141,15 +141,15 @@ const HeroSectionTitle = styled(CustomSectionTitle)`
   }
 `
 
-export const BlackButtonHeader = styled(BlackButton)`
-  display: block;
-  width: 16rem;
-  margin: 0 auto;
-  margin-top: 6.5625rem;
-  text-align: center;
-  @media ${variables.device.mobile} {
-    width: 100%;
-    margin-top: 4rem;
+export const MoreButtonWrapper = styled.div`
+  & .hero-header-button {
+    width: 16rem;
+    margin-top: 6.5625rem;
+
+    @media ${variables.device.mobile} {
+      width: 100%;
+      margin-top: 4rem;
+    }
   }
 `
 
@@ -237,10 +237,11 @@ const HeroHeaderImages: React.FC = () => {
             </ImagesVertical>
           </ImagesHorizontal>
         </Link>
-
-        <Link to={routeLinks.career}>
-          <BlackButtonHeader>join our team</BlackButtonHeader>
-        </Link>
+        <MoreButtonWrapper>
+          <MoreButton href={routeLinks.career} className='hero-header-button' isBlack>
+            join our team
+          </MoreButton>
+        </MoreButtonWrapper>
       </CustomContainer>
     </HeroSectionWrapper>
   )

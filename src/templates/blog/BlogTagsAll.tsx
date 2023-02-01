@@ -114,7 +114,7 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }: BlogTagsAllProps) =>
               const kebabCaseTag = kebabCase(el.toLowerCase())
 
               return (
-                <li>
+                <li key={kebabCaseTag}>
                   <TagsLink
                     className={activeTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}
                     to={`${routeLinks.blogTags({ tag: kebabCaseTag })}1`}
@@ -136,7 +136,10 @@ const BlogTagsAll = ({ activeTag, activeSubTag, ...props }: BlogTagsAllProps) =>
               const kebabCaseSubTag = kebabCase(el.toLowerCase())
 
               return (
-                <li className={activeSubTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}>
+                <li
+                  className={activeSubTag?.toLowerCase() == el.toLowerCase() ? 'is-active' : ''}
+                  key={kebabCaseSubTag}
+                >
                   {' '}
                   <Link to={`${routeLinks.blogTags({ tag: kebabCaseTag })}${kebabCaseSubTag}/1`}>{el}</Link>
                 </li>

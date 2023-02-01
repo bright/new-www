@@ -6,7 +6,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { useAuthors } from '../../use-authors/use-authors'
 import variables from '../../styles/variables'
 import { useWindowSize } from '../utils/use-windowsize'
-import { CustomSectionTitle } from '../shared'
+import { CustomSectionTitle, MoreButton } from '../shared'
 import useOnScreen from '../utils/use-onscreen'
 import { clampBuilder } from '../../helpers/clampBuilder'
 
@@ -196,8 +196,7 @@ const AvatarWrapper = styled.figure<{ isOurServiceTemplate: boolean }>`
   @media ${variables.device.mobile} {
     margin-bottom: ${({ isOurServiceTemplate }) =>
       isOurServiceTemplate ? ` ${variables.pxToRem(32)}!important` : '0.5rem!important'};
-  }import { clampBuilder } from './../../helpers/clampBuilder';
-
+  }
 
   & .avatar1 {
     max-height: 306px;
@@ -259,6 +258,21 @@ const OurServiceLink = styled(Link)<{ isWhyUs?: boolean }>`
   }
   @media ${variables.device.mobile} {
     ${({ isWhyUs }) => (isWhyUs ? `width: 100%` : '')};
+  }
+`
+const MoreButtonTeamMembersWrapper = styled.div`
+  margin-top: ${variables.pxToRem(39.5)};
+  margin-bottom: ${variables.pxToRem(64.5)};
+  @media ${variables.device.laptop} {
+    margin-top: ${variables.pxToRem(27.5)};
+    margin-bottom: ${variables.pxToRem(76.5)};
+  }
+  @media ${variables.device.tablet} {
+    margin-top: ${variables.pxToRem(32.5)};
+    margin-bottom: ${variables.pxToRem(32.5)};
+  }
+  @media ${variables.device.mobile} {
+    width: 100%;
   }
 `
 
@@ -346,11 +360,18 @@ const TeamMembers = ({
               )
             })}
 
-          {(isOurServiceTemplate && initNumber) || (isWhyUs && whyUsTeamMembers) ? (
+          {isOurServiceTemplate && initNumber && (
             <OurServiceLink isWhyUs={isWhyUs} to={routeLinks.aboutUs({ page: 'team' })}>
               see all team members
             </OurServiceLink>
-          ) : null}
+          )}
+          {isWhyUs && whyUsTeamMembers && (
+            <MoreButtonTeamMembersWrapper>
+              <MoreButton href={routeLinks.aboutUs({ page: 'team' })} marginTop='0'>
+                see all team members
+              </MoreButton>
+            </MoreButtonTeamMembersWrapper>
+          )}
         </Container>
       </TeamMembersSection>
     </>

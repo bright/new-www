@@ -14,10 +14,9 @@ import {
   PrivacyPolicyCheckbox,
   PrivacyPolicyCheckboxContainer,
   RequiredMessage,
-  SubmitButton,
   TextInput,
 } from './contact/styles'
-import { TextRegular, CustomSectionTitle } from './index'
+import { TextRegular, CustomSectionTitle, MoreButton } from './index'
 import { CustomTextRegular } from './index.styled'
 import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
 import { TickIcon } from '../icons/Tick.icon'
@@ -162,9 +161,7 @@ export const Contact: FC<ContactProps> = ({
           <CustomSectionTitle>let’s talk about your product idea</CustomSectionTitle>
         )}
         {subtitle ? (
-          <TextRegular>
-            {subtitle} <a href='mailto:info@brightinventions.pl'>info@brightinventions.pl.</a>
-          </TextRegular>
+          <TextRegular>{subtitle}</TextRegular>
         ) : (
           <TextRegular>
             Have an idea for a groundbreaking software project, but don't know where to start? Or maybe you're looking
@@ -240,9 +237,9 @@ export const Contact: FC<ContactProps> = ({
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
-            <SubmitButton type='submit' onClick={checkValid}>
+            <MoreButton isSubmit onClick={checkValid} isBlack>
               let’s talk
-            </SubmitButton>
+            </MoreButton>
           )}
           <div>
             <TextRegular style={{ marginTop: '32px' }}>

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { CustomTextRegular, TextRegular } from '../shared'
 import variables from '../../styles/variables'
-import { Button as ButtonBase } from '../whatWeDo/banners/styles'
+import { Button as ButtonBase } from '../shared/index.styled'
 
 export const Header = styled.div({
   fontSize: '36px',
@@ -32,34 +32,6 @@ export const Form = styled.form({
 
   ['@media screen and (max-width: 767px)']: {
     marginTop: '0',
-  },
-})
-
-export const SubmitButton = styled.button({
-  display: 'block',
-  fontSize: '18px',
-  lineHeight: '22px',
-  fontFamily: variables.font.title.family,
-  fontWeight: 'bold',
-  cursor: 'pointer',
-
-  color: variables.color.white,
-  backgroundColor: variables.color.text,
-
-  height: '40px',
-  width: '233px',
-
-  margin: '0 auto',
-  padding: '8px 72px',
-
-  ['&:disabled']: {
-    cursor: 'default',
-    backgroundColor: 'grey',
-  },
-
-  ['@media screen and (max-width: 767px)']: {
-    marginTop: '50px',
-    width: '100%',
   },
 })
 
@@ -225,11 +197,21 @@ export const IdeaTextArea = styled.textarea({
 //   }
 // `
 
-export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-})
+export const PrivacyPolicyCheckboxContainer = styled(TextRegular)`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: ${variables.pxToRem(54)};
+  & span {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-family: Lato;
+    & a {
+      text-decoration: underline;
+      color: ${variables.color.text};
+    }
+  }
+`
 
 export const CheckboxFieldContainer = styled.label`
   display: flex;
@@ -241,8 +223,8 @@ export const CheckboxFieldContainer = styled.label`
   & label {
     justify-self: start;
     border: 1px solid #888888;
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -251,6 +233,9 @@ export const CheckboxFieldContainer = styled.label`
   & input {
     position: absolute;
     opacity: 0;
+    height: 40px;
+    width: 40px;
+    margin-right: 19px;
   }
   & input:checked ~ label {
     background: black;

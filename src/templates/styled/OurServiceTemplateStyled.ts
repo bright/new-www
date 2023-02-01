@@ -1,33 +1,60 @@
 import styled from 'styled-components'
-import { BlackButton } from '../../components/about-us/about-us.styled'
-import { CustomPageTitle, CustomSection, CustomTextRegular } from '../../components/shared'
+import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '../../components/shared'
 import variables from '../../styles/variables'
+import image from '../../../static/images/bullet_point.svg'
 import { HideTablet } from './../../components/shared/index.styled'
+import { clampBuilder } from './../../helpers/clampBuilder'
 
 export const CustomSectionOurService = styled(CustomSection)`
-  padding-top: ${variables.pxToRem(64)};
-  padding-bottom: ${variables.pxToRem(64)};
+  flex-basis: 47.5%;
+  height: 100%;
+  padding-top: ${clampBuilder(1542, 1920, 100, 177)};
+
   @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(45)};
-    padding-bottom: ${variables.pxToRem(54)};
-  }
-  @media ${variables.device.tabletXL} {
-    padding-top: ${variables.pxToRem(60)};
-    padding-bottom: ${variables.pxToRem(48)};
-  }
-  @media ${variables.device.tablet} {
-    padding-top: ${variables.pxToRem(48)};
-    padding-bottom: ${variables.pxToRem(44)};
+    padding-top: ${variables.pxToRem(103.5)};
+    flex-basis: 44.5%;
   }
 
+  @media ${variables.device.tabletXL} {
+    padding-top: ${variables.pxToRem(60)};
+    flex-basis: 47.61%;
+  }
+
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(120)};
+  }
+
+  @media ${variables.device.tablet} {
+    flex-basis: 100%;
+    padding-top: ${variables.pxToRem(64)};
+  }
   @media ${variables.device.mobile} {
-    padding-top: ${variables.pxToRem(48)};
-    padding-bottom: ${variables.pxToRem(44)};
+    flex-basis: 100%;
+    padding-top: ${variables.pxToRem(16)};
+  }
+`
+export const CustomSectionOurServiceImage = styled(CustomSection)`
+  flex-basis: 52.5%;
+  height: 100%;
+  padding-top: ${clampBuilder(1542, 1920, 21, 56)};
+
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(21)};
+    flex-basis: 55.5%;
+  }
+
+  @media ${variables.device.tabletXL} {
+    padding-top: ${variables.pxToRem(17)};
+    flex-basis: 52.39%;
+  }
+
+  @media ${variables.device.tablet} {
+    flex-basis: 100%;
+    padding-top: ${variables.pxToRem(64)};
   }
 `
 
 export const OurServiceSection = styled.section`
-  padding: 0 0 ${variables.pxToRem(186)};
   color: #131214;
 
   & .content {
@@ -49,6 +76,7 @@ export const OurServiceSection = styled.section`
       line-height: ${variables.pxToRem(28)};
     }
   }
+
   @media ${variables.device.tablet} {
     padding: 0 0 ${variables.pxToRem(82)};
   }
@@ -59,7 +87,7 @@ export const Content = styled.div<{ textAlign?: string }>`
   line-height: ${variables.pxToRem(40)};
 
   && h2 {
-    font-size: ${variables.pxToRem(32)};
+    font-size: ${variables.pxToRem(40)};
     color: #000000;
     font-weight: 900;
     margin: ${variables.pxToRem(64)} 0 ${variables.pxToRem(36)};
@@ -70,13 +98,17 @@ export const Content = styled.div<{ textAlign?: string }>`
     }
 
     @media ${variables.device.tablet} {
-      font-size: ${variables.pxToRem(22)};
+      font-size: ${variables.pxToRem(34)};
       line-height: ${variables.pxToRem(27)};
       color: #000;
       text-align: center;
       &:first-of-type {
         margin: ${variables.pxToRem(32)} 0 ${variables.pxToRem(36)};
       }
+    }
+
+    @media ${variables.device.mobile} {
+      font-size: ${variables.pxToRem(22)};
     }
   }
 
@@ -214,31 +246,29 @@ export const FaqsTextRegural = styled(CustomTextRegular)`
   }
 `
 
-export const BlackButtonOurService = styled(BlackButton)<{ marginTopTablet?: string; marginTop?: string }>`
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+export const MoreButtonOurServiceWrapper = styled.div<{
+  marginTopTablet?: string
+  marginTop?: string
+  margin?: string
+  tabletWidth?: string
+  marginTopMobile?: string
+}>`
+  margin: ${({ margin }) => (margin ? margin : `0 auto`)};
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : `${variables.pxToRem(105)}`)};
 
   @media ${variables.device.tablet} {
     margin-top: ${({ marginTopTablet }) => (marginTopTablet ? marginTopTablet : `${variables.pxToRem(64)}`)};
+    width: ${({ tabletWidth }) => (tabletWidth ? tabletWidth : '')};
+  }
+  @media ${variables.device.mobile} {
+    margin-top: ${({ marginTopMobile }) => (marginTopMobile ? marginTopMobile : `${variables.pxToRem(64)}`)};
   }
 `
 export const ImageWrapper = styled.div`
   && .about-img {
     display: block;
     margin: auto;
-    max-width: 69%;
-    @media ${variables.device.laptop} {
-      max-width: 80%;
-    }
-    @media ${variables.device.tabletXL} {
-      max-width: 72%;
-    }
-    @media ${variables.device.tablet} {
-      max-width: 100%;
-    }
+    max-width: 100%;
   }
 `
 export const OurServiceHideTablet = styled(HideTablet)`
@@ -247,17 +277,88 @@ export const OurServiceHideTablet = styled(HideTablet)`
   }
 `
 export const OurServicePageTitle = styled(CustomPageTitle)`
-  font-size: ${variables.pxToRem(48)};
-  line-height: ${variables.pxToRem(54)};
+  display: flex;
+  flex-wrap: wrap;
+
+  font-size: ${clampBuilder(1542, 1920, 54, 64)};
+  line-height: ${clampBuilder(1542, 1920, 65, 78)};
+  font-weight: 800;
+  text-align: left;
+  letter-spacing: -0.04em;
+  & .highlighted-word {
+    font-style: normal;
+    font-weight: 300;
+  }
+  & span {
+    color: ${variables.color.text2};
+    padding-right: ${variables.pxToRem(10)};
+    &:last-child {
+      padding-right: 0;
+    }
+  }
   @media ${variables.device.laptop} {
-    font-size: ${variables.pxToRem(44)};
+    font-size: ${clampBuilder(1281, 1542, 45, 57)};
+    line-height: ${clampBuilder(1281, 1542, 54.86, 69.48)};
   }
   @media ${variables.device.tabletXL} {
-    font-size: ${variables.pxToRem(38)};
+    font-size: ${clampBuilder(992, 1280, 44, 45)};
+    line-height: ${clampBuilder(992, 1280, 53, 54.86)};
+  }
+  @media ${variables.device.tablet} {
+    font-size: ${variables.pxToRem(68)};
+    line-height: ${variables.pxToRem(82.89)};
   }
   @media ${variables.device.mobile} {
-    font-size: 2rem;
-    font-weight: 900;
-    line-height: 2.44rem;
+    font-size: ${clampBuilder(200, 581, 40, 45)};
+    line-height: ${variables.pxToRem(47.25)};
+  }
+`
+export const BulletList = styled.li`
+  position: relative;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: ${variables.pxToRem(20)};
+  line-height: ${variables.pxToRem(40)};
+  vertical-align: middle;
+
+  color: #0a0a0a;
+  padding-inline-start: ${variables.pxToRem(35)};
+  display: list-item;
+  @media ${variables.device.mobile} {
+    font-size: ${variables.pxToRem(16)};
+    line-height: ${variables.pxToRem(32)};
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    vertical-align: middle;
+
+    background: url(${image});
+    width: 19px;
+    height: 20px;
+
+    z-index: 1;
+  }
+`
+export const BulletsList = styled.ul``
+export const CloutchWrapper = styled.div`
+  padding-top: ${variables.pxToRem(16)};
+`
+export const OurServiceFlexWraper = styled(FlexWrapper)`
+  height: 100vh;
+
+  @media ${variables.device.tabletXL} {
+    height: 100%;
+  }
+`
+export const MobileOurServiceFlexWrapper = styled(FlexWrapper)`
+  @media ${variables.device.mobile} {
+    height: calc(100vh - 90px);
+
+    height: calc(100dvh - 90px);
   }
 `
