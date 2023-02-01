@@ -57,7 +57,7 @@ bar_stack:
   - Product flow
   - Product evaluation
   - User story mapping
-button: let's talk
+button: let's talk about workshops
 button2: book workshop
 published: true
 show_case_study: false
