@@ -72,8 +72,8 @@ title_case_study: projects we delivered with Agile
 title_faqs: agile workshops FAQs
 title_contact: let’s talk about your workshops
 description_contact: Every workshop is adjusted to clients needs. Just let us
-  know what you expect and we will find the best solution for you! Fill the form
-  below or drop us a line via
+  know what you expect and we will find the best solution for you! Fill out the
+  form below.
 ---
 
 ## who will benefit from an Agile workshop?
