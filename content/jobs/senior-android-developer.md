@@ -12,11 +12,7 @@ salary_min: 20000
 salary_max: 28000
 working time: 26 paid days off + Polish bank holidays
 technology:
-  - Android SDK
-  - Android Studio
   - Kotlin
-  - Bluetooth
-  - Kotlin Coroutines
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
