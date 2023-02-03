@@ -32,7 +32,7 @@ name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Mietlińska
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-button: join our Kotlin team
+button: join our Android team
 redirect_from:
   - /android-developer
   - /android-developer/
@@ -46,31 +46,33 @@ description: We are looking for a Senior Android Developer who would like to
 ---
 ## about the role
 
-We are looking for **a skilled Senior Android Developer** whose main goal will be enhancing an innovative Android application that supports **Bluetooth Low Energy** concepts. **The main functionality of the app is device location tracking. The app works similarly to AirTag (encrypted location, constant change of signature data).** The system is complex and includes many reliant elements such as trackers with their own firmware, SDK, MQTT router and backend.
-
-The project team involves **seven experienced developers as well as one QA engineer** who take care of keeping the high quality of the code and the app itself. 
+We are looking for an experienced **Senior Android Developer who is open and not afraid of sharing views and ideas openly with the team and clients.** We would appreciate your experience with mobile development and ability to look at the project from a business perspective. \
+\
+What we can promise is that at Bright Inventions you will be an important part of [a community of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and actively take responsibility for their own self-development. Positive attitude, client orientation and teamwork are central parts of our daily work.  [](https://brightinventions.pl/jobs/flutter-developer#your-job-will-include)
 
 ## your responsibilities 🧑🏻‍💻👩🏻‍💻
 
-* developing **new Bluetooth functionalities**
-* **application's performance optimization**
-* **cryptography** tasks 
-* knowledge sharing with the rest of a team
+* working on one of Android mobile application **(1. transport & management app 2. app for construction company 3. POS application)**
+* participate in software code reviews
+* have a direct contact with clients and advise in their decision making process
+* take part in knowledge sharing with the rest of a team
+* improve internal Android development processes 
 
 ## preferred qualifications ✅
 
-* at least 4 years of experience in Android development 
-* deep understanding and knowledge of **Kotlin**
+* at least 4 years of commercial programming experience
+* min. **2-3 years of experience in Android** development 
 * familiarity with **Android changes from KitKat to Q**
-* knowledge of **Bluetooth standards and BLE related specifications**
+* **very good knowledge** and deep understanding of **Kotlin**
 * good understanding of the most popular Google libraries
+* **familiarity with Continuous Integration** and other process automation tools
 * strong problem solving and analytical thinking skills
-* very good communication skills both in English and Polish 
-* positive attitude :)
+* positive attitude
+* very good communication skills both in **English and Polish** 
 
 ## we would also appreciate 🙌
 
-* familiarity with **Continuous Integration** and other process automation tools
+* your experience and understanding of Kotlin coroutines, Kotlin serialisation and Data Binding
 * your knowledge of JetPack Compose 
 
 ## perks & benefits 🚀🚀🚀
@@ -86,3 +88,5 @@ The project team involves **seven experienced developers as well as one QA engin
 * team building events once a quarter
 * bright lunch initiative every week 
 * if you like to work in the office, we provide you with a parking card
+
+Hope to see you on our Bright board soon.  🧡
