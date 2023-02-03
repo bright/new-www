@@ -10,9 +10,10 @@ hours: full-time
 salary: 20 000 - 28 000 PLN + VAT (B2B) or 16 600 - 23 250 PLN gross (UoP)
 salary_min: 20000
 salary_max: 28000
-working time: 26 paid days off + Polish bank holidays
+working time: full time
 technology:
   - Kotlin
+  - Android
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -56,8 +57,8 @@ What we can promise is that at Bright Inventions you will be an important part o
 
 ## preferred qualifications ✅
 
-* at least 4 years of commercial programming experience
-* min. **2-3 years of experience in Android** development 
+* at least 4-5 years of commercial programming experience
+* min. **3 years of experience in Android** development 
 * familiarity with **Android changes from KitKat to Q**
 * **very good knowledge** and deep understanding of **Kotlin**
 * good understanding of the most popular Google libraries
