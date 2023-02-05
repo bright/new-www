@@ -3,7 +3,6 @@ author: ula
 tags:
   - inspiration
   - communication
-  - team management
   - feedback
 date: 2023-02-05 
 meaningfullyUpdatedAt: 2023-02-05
