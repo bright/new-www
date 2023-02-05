@@ -9,7 +9,7 @@ date: 2023-02-05
 meaningfullyUpdatedAt: 2023-02-05
 title: 8 Mistakes You Make While Giving Constructive Feedback 
 layout: post
-image: 
+image: /images/feedback_mistakes.jpg
 hidden: false
 comments: true
 published: true
