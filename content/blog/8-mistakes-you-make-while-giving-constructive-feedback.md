@@ -20,7 +20,7 @@ Below you can find **eight most common mistakes made while giving constructive f
 
 ## **1. I’M OK, YOU’RE NOT OK** 
 
-There is a psychoanalytic theory on human behaviour called [Transactional Analysis] (https://www.simplypsychology.org/transactional-analysis-eric-berne.html) in which Eric Berne points out four typical positions people tend to take in different situations in life. One of them is “I am ok, you are not ok” which we often exhibit for example while giving corrective feedback. But you should not act like that. **While giving corrective feedback our aim should not be to prove that someone is wrong, but to show that something can be done differently with a better result for the receiver. Our position should be here “I am ok, your are ok”.** This helps to maintain neutrality and objectivity. **Always give feedback to learn and support not to win.** Feedback should be about actions not individuals.
+There is a psychoanalytic theory on human behaviour called [Transactional Analysis](https://www.simplypsychology.org/transactional-analysis-eric-berne.html) in which Eric Berne points out four typical positions people tend to take in different situations in life. One of them is “I am ok, you are not ok” which we often exhibit for example while giving corrective feedback. But you should not act like that. **While giving corrective feedback our aim should not be to prove that someone is wrong, but to show that something can be done differently with a better result for the receiver. Our position should be here “I am ok, your are ok”.** This helps to maintain neutrality and objectivity. **Always give feedback to learn and support not to win.** Feedback should be about actions not individuals.
 
 ## **2. FEEDBACK SANDWICH** 
 
