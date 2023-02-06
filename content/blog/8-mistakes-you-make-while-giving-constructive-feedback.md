@@ -25,7 +25,7 @@ There is a psychoanalytic theory on human behaviour called [Transactional Analys
 
 It is a human natural tendency to sugar-coat. Why? Because everyone wants to be nice and everyone wants to be likeable. But when you give corrective/negative feedback you must get to the point. **Putting your negative message between positive ones is one of the most common mistakes people do. It increases the danger that the message you really want to communicate can get lost.** Do not make people read between the lines. Be precise and transparent. Avoid mixed messages. End on a supportive, but clear note what behaviour should be changed and how to do it. When you have an important message to convey it is  more effective to focus on doing this clearly instead of wrapping it into positive bullsh**. 
 
-<GiphyEmbed url=https://giphy.com/gifs/friends-sandwich-joey-3ohc0VvRxWciBmE6wE' /> 
+<GiphyEmbed url='https://giphy.com/gifs/friends-sandwich-joey-3ohc0VvRxWciBmE6wE' /> 
 
 ## **3. FEEDBACK IS NOT ACTIONABLE**
 
