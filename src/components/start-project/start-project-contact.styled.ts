@@ -333,3 +333,26 @@ export const HeroTextInput = styled(TextInput)`
     max-width: 100%;
   }
 `
+export const ContactTextRegular = styled(TextRegular)`
+  & a {
+    line-height: ${variables.pxToRem(40)};
+    position: relative;
+    padding: 0 8px 10px;
+    font-weight: 700;
+    color: ${variables.color.text};
+    &:after {
+      content: '';
+      border-bottom: 1px solid ${variables.color.text};
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+    }
+  }
+  @media ${variables.device.mobile} {
+    & a {
+      padding: 0 8px 8px;
+    }
+  }
+`
