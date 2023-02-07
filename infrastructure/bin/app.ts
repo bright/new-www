@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 import 'source-map-support/register'
-import * as cdk from '@aws-cdk/core'
+import * as cdk from 'aws-cdk-lib'
 import { Website } from '../lib/website'
 import { CloudFrontCertificates } from '../lib/cloud-front-certificates'
-import { Tag, Tags } from '@aws-cdk/core'
+import { Tag, Tags } from 'aws-cdk-lib'
 
 const app = new cdk.App()
 

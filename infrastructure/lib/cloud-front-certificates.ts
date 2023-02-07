@@ -1,6 +1,7 @@
-import * as cdk from '@aws-cdk/core'
-import { CfnOutput, Construct } from '@aws-cdk/core'
-import { Certificate, ValidationMethod } from '@aws-cdk/aws-certificatemanager'
+import * as cdk from 'aws-cdk-lib'
+import { Construct } from 'constructs'
+import { CfnOutput } from 'aws-cdk-lib'
+import { Certificate, CertificateValidation } from 'aws-cdk-lib/aws-certificatemanager'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
 
 export class CloudFrontCertificates extends cdk.Stack {
@@ -10,11 +11,11 @@ export class CloudFrontCertificates extends cdk.Stack {
     const certificate = new Certificate(this, 'CustomDomainCertificate', {
       domainName: domainNames[0],
       subjectAlternativeNames: domainNames.filter((_, ix) => ix > 0),
-      validationMethod: ValidationMethod.DNS
+      validation: CertificateValidation.fromDns(),
     })
 
     new CfnOutput(this, 'CertificateArn', {
-      value: certificate.certificateArn
+      value: certificate.certificateArn,
     })
   }
 }
