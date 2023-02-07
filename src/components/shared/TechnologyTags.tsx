@@ -2,22 +2,22 @@ import React from 'react'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { SectionBlack } from './index'
-import { CustomContainer } from './index.styled'
+import { CustomContainer, CustomSectionTitle, SectionTitle } from './index.styled'
 
 const SectionBlackContainer = styled(SectionBlack)`
-  padding: 6rem 15rem;
+  padding: ${variables.pxToRem(64)} 15rem;
   @media ${variables.device.laptop} {
-    padding: 4rem 6rem;
+    padding: ${variables.pxToRem(40)} 6rem;
   }
   @media ${variables.device.tabletXL} {
-    padding: 4rem 9rem;
+    padding: ${variables.pxToRem(40)} 9rem;
   }
   @media ${variables.device.tablet} {
-    padding: 4rem 2.25rem;
+    padding: ${variables.pxToRem(32)} 2.25rem;
   }
 
   @media ${variables.device.mobile} {
-    padding: 4rem 1.875rem;
+    padding: ${variables.pxToRem(32)} 1.875rem;
   }
 `
 
@@ -76,6 +76,17 @@ interface TechnologyTagsProps {
 const TechnologyTags = ({ tags }: TechnologyTagsProps) => {
   return (
     <SectionBlackContainer>
+      <CustomSectionTitle
+        margin='0 0 40px'
+        laptopMargin='0 0 32px'
+        tabletXLMargin='0 0 32px'
+        tabletMargin='0 0 32px'
+        mobileMargin='0 0 32px'
+        style={{ color: `${variables.color.white}` }}
+      >
+        we work with
+      </CustomSectionTitle>
+
       <CustomContainer>
         <ContentContainer>
           {tags ? (
