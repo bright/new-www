@@ -338,12 +338,8 @@ export const pageQuery = graphql`
         meta_description
         title
         highlighted_word
-        intro
         slug
         bullet_points
-        description_mdx {
-          html
-        }
         bar_stack
         button
         button2
@@ -363,11 +359,6 @@ export const pageQuery = graphql`
         image_our_service_desktop {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
-          }
-        }
-        image_our_service {
-          childImageSharp {
-            gatsbyImageData
           }
         }
       }
