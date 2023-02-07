@@ -220,8 +220,8 @@ export const SelectWrapper = styled.div`
     width: 12px;
     height: 12px;
     z-index: 2;
-  },
-  `
+  }
+`
 
 export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
   display: 'flex',
