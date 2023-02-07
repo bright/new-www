@@ -285,7 +285,7 @@ collections:
       - { label: 'Our services icon', name: 'our_services_icon', widget: 'image' }
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Slug', name: 'slug', widget: 'string', hint: 'URL path' }
-      - { label: 'Short Description', name: 'short_description', widget: 'markdown' }
+      - { label: 'Short Description Seen At What We Do', name: 'short_description', widget: 'markdown' }
       - {
           label: 'Order',
           name: 'order',
@@ -297,15 +297,10 @@ collections:
           default: 1,
         }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Highlighted Word', name: 'highlighted_word', widget: 'string' }
-      - { label: 'Intro', name: 'intro', widget: 'string' }
-      - { label: 'Image Our Service', name: 'image_our_service', widget: 'image' }
-      - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
+      - { label: 'Highlighted Words (Max. 2)', name: 'highlighted_word', widget: 'string' }
       - { label: 'Image Our Service Desktop', name: 'image_our_service_desktop', widget: 'image' }
-      - { label: 'Image Alt OurService Desktop', name: 'image_alt_our_service_desktop', widget: string }
       - { label: 'Image Our Service Mobile', name: 'image_our_service_mobile', widget: 'image' }
-      - { label: 'Image Alt OurService Mobile', name: 'image_alt_our_service_mobile', widget: string }
-      - { label: 'Description (rich content)', name: 'description_mdx', widget: 'markdown' }
+      - { label: 'Image Alt OurService', name: 'image_alt_our_service', widget: string }
       - {
           label: 'Bullet points',
           name: 'bullet_points',
