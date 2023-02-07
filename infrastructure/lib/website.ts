@@ -13,10 +13,10 @@ import { Certificate } from 'aws-cdk-lib/aws-certificatemanager'
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { join as pathJoin } from 'path'
 import { Runtime } from 'aws-cdk-lib/aws-lambda'
-import { Schedule } from 'aws-cdk-lib/aws-events'
-import { Rule } from 'aws-cdk-lib/aws-events'
+import { Rule, Schedule } from 'aws-cdk-lib/aws-events'
 import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets'
 import { Construct } from 'constructs'
+import { STACK_NAME_BASE } from './stack-name'
 
 interface WebsiteProps {
   certificateArn: string
@@ -25,7 +25,8 @@ interface WebsiteProps {
 
 export class Website extends cdk.Stack {
   constructor(scope: Construct, props: WebsiteProps) {
-    super(scope,  'BrightInventionsPl')
+
+    super(scope,  STACK_NAME_BASE)
 
     const originAccessIdentity = new OriginAccessIdentity(this, 'cloudfront access')
     const user = new User(this, 'GithubPagesDeploymentUser', {
