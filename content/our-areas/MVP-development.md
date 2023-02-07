@@ -35,16 +35,9 @@ short_description: Build an MVP to shorten time to market. We have developed
 order: 4
 title: launch your idea with MVP development agency
 highlighted_word: MVP
-intro: We are an experienced MVP partner ready to assist you.
-image_our_service: /images/mvp_development2.png
-image_alt_our_service: mvp development company
 image_our_service_desktop: /images/mvp_development_company_desktop_big.png
-image_alt_our_service_desktop: MVP development company
 image_our_service_mobile: /images/mvp_development_company_mobile_big.png
-image_alt_our_service_mobile: MVP development company
-description_mdx: Do you want to build an MVP? You came to the right place. We
-  have developed MVPs for startups, NGOs and consulting agencies from the USA,
-  UK, Germany, Norway and more. Let’s work on your MVP.
+image_alt_our_service: mvp development company
 bullet_points:
   - assessment of your idea in 7 days
   - launch MVP in 3 to 6 months
@@ -64,14 +57,21 @@ bar_stack:
   - NestJS
 button: let's talk about MVP
 button2: let's talk about MVP
-published: false
+published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet our MVP development team
 title_case_study: MVPs that we have developed
 title_faqs: MVP development FAQs
+image_alt_our_service_desktop: MVP development company
+intro: We are an experienced MVP partner ready to assist you.
+image_alt_our_service_mobile: MVP development company
 title_contact: let’s talk about your MVP
 description_contact: Tell us more about your project or idea for an app. Fill out the form below.
+description_mdx: Do you want to build an MVP? You came to the right place. We
+  have developed MVPs for startups, NGOs and consulting agencies from the USA,
+  UK, Germany, Norway and more. Let’s work on your MVP.
+image_our_service: /images/mvp_development2.png
 ---
 ## Is MVP right for your business?
 
