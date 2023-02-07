@@ -20,6 +20,7 @@ import {
   HeroTextInput,
   Loader,
   ErrorMessage,
+  ContactTextRegular,
 } from './start-project-contact.styled'
 
 import { TextRegular } from '../shared'
@@ -169,10 +170,10 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
             </MoreButton>
           )}
           <div>
-            <TextRegular style={{ marginTop: '32px' }}>
+            <ContactTextRegular style={{ marginTop: '32px' }}>
               or drop us a line via{' '}
               <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
-            </TextRegular>
+            </ContactTextRegular>
           </div>
         </Form>
         {success && (
