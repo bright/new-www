@@ -43,6 +43,7 @@ const QuoteTextRegular = styled(TextRegular)`
     font-size: ${variables.pxToRem(16)};
     &::after {
       background-size: ${variables.pxToRem(100)} ${variables.pxToRem(74)};
+      top: 0;
     }
   }
 `
