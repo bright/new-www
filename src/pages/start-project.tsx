@@ -14,17 +14,36 @@ import styled from 'styled-components'
 import variables from '../styles/variables'
 import { CustomPageTitle } from './../components/shared/index'
 import StartProjectContact from '../components/start-project/StartProjectContact'
+import { clampBuilder } from '../helpers/clampBuilder'
+import image from '../../static/images/inverted-commas.svg'
 
 const QuoteTextRegular = styled(TextRegular)`
   font-weight: 400;
   font-size: ${variables.pxToRem(24)};
   line-height: ${variables.pxToRem(45)};
   font-style: italic;
+  position: relative;
+  &::after {
+    content: '';
+    background: url(${image});
+    background-repeat: no-repeat;
+    position: absolute;
+    top: ${variables.pxToRem(-23)};
+    left: 0;
+    width: ${variables.pxToRem(135.73)};
+    height: ${variables.pxToRem(99.96)};
+    z-index: -1;
+  }
   & span {
-    color: ${variables.color.primary};
+    color: ${variables.color.text};
+    font-style: normal;
+    font-weight: 700;
   }
   @media ${variables.device.mobile} {
     font-size: ${variables.pxToRem(16)};
+    &::after {
+      background-size: ${variables.pxToRem(100)} ${variables.pxToRem(74)};
+    }
   }
 `
 const SignatureQuote = styled(TextRegular)`
