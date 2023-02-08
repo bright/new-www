@@ -263,6 +263,7 @@ const PreviousButton = styled(Button)`
   display: flex;
   align-items: center;
   cursor: pointer;
+  justify-content: flex-start;
 `
 const WrapperDot = styled.div`
   position: relative;
