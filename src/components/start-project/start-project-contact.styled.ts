@@ -340,7 +340,8 @@ export const ContactTextRegular = styled(TextRegular)`
     padding: 0 8px 10px;
     font-weight: 700;
     color: ${variables.color.text};
-    &:after {
+    border-bottom: 1px solid ${variables.color.text}; 
+    /* &:after {
       content: '';
       border-bottom: 1px solid ${variables.color.text};
       position: absolute;
@@ -348,7 +349,7 @@ export const ContactTextRegular = styled(TextRegular)`
       left: 0;
       z-index: 1;
       width: 100%;
-    }
+    } */
   }
   @media ${variables.device.mobile} {
     & a {
