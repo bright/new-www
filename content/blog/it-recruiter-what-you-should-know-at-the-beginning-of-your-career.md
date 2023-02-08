@@ -14,6 +14,8 @@ published: true
 ---
 **I have had the pleasure of working in IT recruitment for more than a year. I say pleasure because I really like my job and I enjoy it! 🙂 This is undoubtedly thanks to the people with whom I have the opportunity to work every day, but also daily tasks are something I like to do. If you are thinking of becoming an IT recruiter, find out some lessons I’ve learned along the way.**
 
+<div class="image"><img src="/images/blog_post_agata.png" alt="IT recruiter career" title="undefined"  /> </div>
+
 Is this how I imagined my job as an IT Recruiter? I think that yes, but a few things have surprised me and even more situations have shown me how much I still have to learn, which I feel is extra motivating because I have something to work towards. **What would I have said to myself a year ago, facing the choice of this path? What is really worth knowing about this role?**
 
 ## Firstly, find out about the responsibilities of an IT recruiter 
