@@ -341,19 +341,10 @@ export const ContactTextRegular = styled(TextRegular)`
     padding: 0 8px 10px;
     font-weight: 700;
     color: ${variables.color.text};
-    border-bottom: 1px solid ${variables.color.text}; 
-    /* &:after {
-      content: '';
-      border-bottom: 1px solid ${variables.color.text};
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      z-index: 1;
-      width: 100%;
-    } */
+    border-bottom: 1px solid ${variables.color.text};
   }
   @media ${variables.device.mobile} {
-    font-size:${clampBuilder(340, 370, 14, 16)} ;
+    font-size: ${clampBuilder(340, 370, 14, 16)};
     & a {
       padding: 0 8px 8px;
     }
