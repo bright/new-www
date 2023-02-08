@@ -353,8 +353,9 @@ export const ContactTextRegular = styled(TextRegular)`
     } */
   }
   @media ${variables.device.mobile} {
+    font-size:${clampBuilder(340, 370, 14, 16)} ;
     & a {
-      padding: 0 ${clampBuilder(320, 581, 0, 8)} ${clampBuilder(320, 581, 5, 8)};
+      padding: 0 8px 8px;
     }
   }
 `
