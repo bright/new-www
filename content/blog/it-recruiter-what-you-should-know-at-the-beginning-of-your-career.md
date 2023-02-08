@@ -53,7 +53,7 @@ This is the **only way we can check whether there is a positive flow** between t
 
 ## Be prepared to answer many questions
 
-You will be the first line of contact, you will be a visual representation of the company. Most often, you will also be the first person to provide information about the role, organization and project, of the team to encourage the candidate. Candidates have many questions, are uncertain, and have doubts – this is normal. **Be prepared to answer many of their questions as accurately and honestly as possible. :)**
+You will be the first line of contact, you will be a visual representation of the company. Most often, you will also be the first person to provide information about the role, organization and project, of the team to encourage the candidate. Candidates have many questions, are uncertain, and have doubts – this is normal. **Be prepared to answer many of their questions as accurately and honestly as possible.** 🙂
 
 Candidates also have many questions for the technical recruiters. So, during the interview, the technical recruiters must also be ready to answer the candidates’ questions. 🙂
 
