@@ -7,6 +7,7 @@ date: 2023-02-08T10:33:01.105Z
 meaningfullyUpdatedAt: 2023-02-08T10:33:02.140Z
 title: IT Recruiter – What You Should Know at the Beginning of Your Career
 layout: post
+image: /images/blog_post_agata.png
 hidden: false
 comments: true
 published: true
