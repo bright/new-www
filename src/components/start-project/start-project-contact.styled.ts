@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { CustomTextRegular, TextRegular } from '../shared'
 import variables from '../../styles/variables'
 import { Button as ButtonBase } from '../shared/index.styled'
+import { clampBuilder } from './../../helpers/clampBuilder'
 
 export const Header = styled.div({
   fontSize: '36px',
@@ -353,7 +354,7 @@ export const ContactTextRegular = styled(TextRegular)`
   }
   @media ${variables.device.mobile} {
     & a {
-      padding: 0 8px 8px;
+      padding: 0 ${clampBuilder(320, 581, 5, 8)} 8px;
     }
   }
 `
