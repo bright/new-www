@@ -354,7 +354,7 @@ export const ContactTextRegular = styled(TextRegular)`
   }
   @media ${variables.device.mobile} {
     & a {
-      padding: 0 ${clampBuilder(320, 581, 5, 8)} 8px;
+      padding: 0 ${clampBuilder(320, 581, 0, 8)} ${clampBuilder(320, 581, 5, 8)};
     }
   }
 `
