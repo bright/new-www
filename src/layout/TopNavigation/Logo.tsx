@@ -21,6 +21,7 @@ export const Logo: React.FC = () => {
         backgroundColor='#ffffff'
         placeholder='none'
       />
+      Home Page
     </Link>
   )
 }
