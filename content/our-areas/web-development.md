@@ -37,19 +37,9 @@ short_description: We provide a wide range of custom full stack web development
 order: 2
 title: build solution with web development team
 highlighted_word: web
-intro: If you are looking for a web development company, you’ve come to the
-  right place!
-image_our_service: /images/picture.png
-image_alt_our_service: web development company
 image_our_service_desktop: /images/web_development_desktop_big.png
-image_alt_our_service_desktop: web development company
 image_our_service_mobile: /images/web_development_mobile_big.png
-image_alt_our_service_mobile: web development company
-description_mdx: We provide a wide range of **custom full-stack web development
-  services** for small, medium, and large businesses. Since 2012 we’ve gained
-  experience in developing web apps, web services, and websites that are
-  tailor-made to fit our clients’ goals. We’ve worked with clients from the UK,
-  the USA, Germany, Netherlands and more.
+image_alt_our_service: web development company
 bullet_points:
   - from idea to launch in up to 6 months
   - support at every stage of development
@@ -62,7 +52,8 @@ bar_stack:
   - Node.js
   - React
   - AWS
-  - MySQLl PostgreSQL
+  - MySQL
+  - PostgreSQL
 button: let’s talk about web
 button2: let’s talk about web
 published: true
@@ -71,9 +62,19 @@ show_technology_stack: true
 title_team: meet our web development team
 title_case_study: web solutions that we have worked on
 title_faqs: web development services FAQs
+image_alt_our_service_desktop: web development company
+intro: If you are looking for a web development company, you’ve come to the
+  right place!
+image_alt_our_service_mobile: web development company
 title_contact: let’s talk about your web project
 description_contact: Tell us more about your web project or idea for an app.
   Fill out the form below.
+description_mdx: We provide a wide range of **custom full-stack web development
+  services** for small, medium, and large businesses. Since 2012 we’ve gained
+  experience in developing web apps, web services, and websites that are
+  tailor-made to fit our clients’ goals. We’ve worked with clients from the UK,
+  the USA, Germany, Netherlands and more.
+image_our_service: /images/picture.png
 ---
 ## web development services
 
