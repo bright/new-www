@@ -11,6 +11,10 @@ footer.container {
 
     .logo {
       padding: 0 0.75em;
+      a {
+        font-size: 0;
+        color: #0a0a0a;
+      }
     }
 
     .links {
