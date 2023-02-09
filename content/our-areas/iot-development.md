@@ -44,6 +44,7 @@ bar_stack:
   - Bluetooth LE
   - iBeacon
   - iOS
+  - Swift
   - Android
   - Kotlin
   - TeamCity
