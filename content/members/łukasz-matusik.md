@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: lukasz-m
-ex: false
+ex: true
 slug: lukasz-m
 name: Łukasz Matusik
 short_name: Łukasz

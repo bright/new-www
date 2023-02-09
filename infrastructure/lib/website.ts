@@ -1,21 +1,22 @@
-import * as cdk from '@aws-cdk/core'
-import { Arn, CfnOutput, Duration, RemovalPolicy } from '@aws-cdk/core'
-import { Bucket } from '@aws-cdk/aws-s3'
+import * as cdk from 'aws-cdk-lib'
+import { Arn, CfnOutput, Duration, RemovalPolicy } from 'aws-cdk-lib'
+import { Bucket } from 'aws-cdk-lib/aws-s3'
 import {
   CloudFrontWebDistribution,
   OriginAccessIdentity,
   OriginProtocolPolicy,
   ViewerCertificate
-} from '@aws-cdk/aws-cloudfront'
-import { Effect, PolicyStatement, User } from '@aws-cdk/aws-iam'
+} from 'aws-cdk-lib/aws-cloudfront'
+import { Effect, PolicyStatement, User } from 'aws-cdk-lib/aws-iam'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
-import { Certificate } from '@aws-cdk/aws-certificatemanager'
-import { NodejsFunction } from '@aws-cdk/aws-lambda-nodejs'
+import { Certificate } from 'aws-cdk-lib/aws-certificatemanager'
+import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { join as pathJoin } from 'path'
-import { Runtime } from '@aws-cdk/aws-lambda'
-import { Schedule } from '@aws-cdk/aws-events/lib/schedule'
-import { Rule } from '@aws-cdk/aws-events'
-import { LambdaFunction } from '@aws-cdk/aws-events-targets'
+import { Runtime } from 'aws-cdk-lib/aws-lambda'
+import { Rule, Schedule } from 'aws-cdk-lib/aws-events'
+import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets'
+import { Construct } from 'constructs'
+import { STACK_NAME_BASE } from './stack-name'
 
 interface WebsiteProps {
   certificateArn: string
@@ -23,8 +24,9 @@ interface WebsiteProps {
 }
 
 export class Website extends cdk.Stack {
-  constructor(scope: cdk.Construct, props: WebsiteProps) {
-    super(scope,  'BrightInventionsPl')
+  constructor(scope: Construct, props: WebsiteProps) {
+
+    super(scope,  STACK_NAME_BASE)
 
     const originAccessIdentity = new OriginAccessIdentity(this, 'cloudfront access')
     const user = new User(this, 'GithubPagesDeploymentUser', {
@@ -130,8 +132,6 @@ export class Website extends cdk.Stack {
         prefix: cloudfrontAccessLogPrefix,
       },
     })
-
-    stagingWebDistribution.node.addDependency(productionWebDistribution)
 
     const scheduleRate = Duration.days(1)
 

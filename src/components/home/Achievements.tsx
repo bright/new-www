@@ -79,9 +79,9 @@ const AchievementsWrapper = styled.div`
 const Achievements = () => {
   const elements = [
     { number: new Date().getFullYear() - 2012, label: 'Years' },
-    { number: 53, label: 'Projects' },
-    { number: 40, label: 'Clients' },
-    { number: 75, label: 'People' },
+    { number: 65, label: 'Projects' },
+    { number: 48, label: 'Clients' },
+    { number: 81, label: 'People' },
     //{ number: authors.length, label: 'Team' }, --- @todo: should be uncommented after making all members
   ]
 

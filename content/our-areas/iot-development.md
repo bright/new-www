@@ -38,7 +38,7 @@ image_our_service: /images/iot_development_1.png
 image_alt_our_service: IoT company
 image_our_service_desktop: /images/iot_development_company_desktop_big.png
 image_alt_our_service_desktop: IoT company
-image_our_service_mobile: /images/iot_development_services_mobile_big.png
+image_our_service_mobile: /images/iot_ehealth_mobile.png
 image_alt_our_service_mobile: IoT company
 description_mdx: We are Bright Inventions – a software development company
   specializing in the Internet of Things solutions. We build IoT software for
