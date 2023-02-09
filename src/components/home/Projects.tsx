@@ -121,6 +121,7 @@ export const BlockSmall = styled.div`
   & a {
     margin-right: 2rem;
     font-size: 0;
+    color: ${variables.color.text};
 
     &:last-of-type {
       margin-right: 0;
