@@ -33,30 +33,21 @@ short_description: We specialise in the Internet of Things solutions. We build
 order: 9
 title: build innovation with IoT development
 highlighted_word: IoT
-intro: We develop IoT software for startups and larger organisations.
-image_our_service: /images/iot_development_1.png
-image_alt_our_service: IoT company
 image_our_service_desktop: /images/iot_development_company_desktop_big.png
-image_alt_our_service_desktop: IoT company
 image_our_service_mobile: /images/iot_ehealth_mobile.png
-image_alt_our_service_mobile: IoT company
-description_mdx: We are Bright Inventions – a software development company
-  specializing in the Internet of Things solutions. We build IoT software for
-  restaurants, retail, eHealth and fintech industries. Since 2012 we have
-  developed software for more than 40 clients from the USA, the UK, Norway,
-  Israel and more.
+image_alt_our_service: IoT company
 bullet_points:
   - scaling your business from MVP to global solution
   - optimizing every stage of development
   - choosing the right tech for business goals
 bar_stack:
-  - IoT
-  - Bluetooth
+  - Bluetooth LE
   - iBeacon
   - iOS
+  - Swift
   - Android
   - Kotlin
-  - Teamcity
+  - TeamCity
   - Fastlane
 button: let's talk about IoT
 button2: let's talk about IoT
@@ -66,10 +57,19 @@ show_technology_stack: true
 title_team: meet IoT development team
 title_case_study: IoT development that we’ve worked on
 title_faqs: IoT development FAQs
+image_alt_our_service_desktop: IoT company
+intro: We develop IoT software for startups and larger organisations.
+image_alt_our_service_mobile: IoT company
 title_contact: let’s talk about your IoT solution
 description_contact: It doesn’t matter if your project is just an idea or you
   have already been developing an existing system. We will help you in any phase
   of your software development. Fill out the form below.
+description_mdx: We are Bright Inventions – a software development company
+  specializing in the Internet of Things solutions. We build IoT software for
+  restaurants, retail, eHealth and fintech industries. Since 2012 we have
+  developed software for more than 40 clients from the USA, the UK, Norway,
+  Israel and more.
+image_our_service: /images/iot_development_1.png
 ---
 ## what is IoT and why you might need it?
 
