@@ -20,16 +20,17 @@ const IconsContainer = styled.div`
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  padding: ${variables.pxToRem(36)} ${variables.pxToRem(24)} 0 0};
+  padding: ${variables.pxToRem(36)} ${variables.pxToRem(24)} 0 0;
+
   @media ${variables.device.tablet} {
     width: 100%;
     column-gap: ${clampBuilder(300, 834, 19, 111)};
     max-width: 736px;
     justify-content: center;
     align-items: center;
-    padding: ${variables.pxToRem(36)} 0 0 0};
+    padding: ${variables.pxToRem(36)} 0 0 0;
     margin: 0 auto;
-    flex-wrap:nowrap ;
+    flex-wrap: nowrap;
   }
 
   & a {
@@ -37,6 +38,7 @@ const IconsContainer = styled.div`
     display: inline-block;
     fill: white;
     opacity: 1;
+    font-size: 0;
   }
 `
 const Image30 = styled.figure`
@@ -137,6 +139,7 @@ export const SocialMediaShare: React.FC<{
           target='_blank'
           rel='noopener noreferrer'
         >
+          reddit
           <Image30>{blackIcons ? <RedditIcon /> : <RedditIcon />}</Image30>
         </a>
         <a
@@ -145,6 +148,7 @@ export const SocialMediaShare: React.FC<{
           target='_blank'
           rel='noopener noreferrer'
         >
+          facebook
           <Image30>{blackIcons ? <FacebookIconBlack /> : <FacebookIcon />}</Image30>
         </a>
         <a
@@ -153,6 +157,7 @@ export const SocialMediaShare: React.FC<{
           target='_blank'
           rel='noopener noreferrer'
         >
+          twitter
           <Image30>{blackIcons ? <TwitterIconBlack /> : <TwitterIcon />}</Image30>
         </a>
         <a
@@ -161,6 +166,7 @@ export const SocialMediaShare: React.FC<{
           target='_blank'
           rel='noopener noreferrer'
         >
+          linkedin
           <Image30>{blackIcons ? <LinkedInIconBlack /> : <LinkedInIcon />}</Image30>
         </a>
         <LinkCopyButton
