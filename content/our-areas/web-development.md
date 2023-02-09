@@ -46,6 +46,7 @@ bullet_points:
   - choosing the right tech for business goals
 bar_stack:
   - JavaScript
+  - TypeScript
   - CSS
   - HTML
   - Java
