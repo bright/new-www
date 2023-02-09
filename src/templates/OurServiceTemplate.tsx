@@ -281,9 +281,7 @@ export default function Template({
                     <Question onClick={() => handleShow(i)} shown={show[i]}>
                       {question}
 
-                      <span>
-                        <img src='/images/arrowFaqs.svg' alt='arrow Faqs' />
-                      </span>
+                      <span></span>
                     </Question>
                   ) : null}
 
