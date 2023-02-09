@@ -95,6 +95,7 @@ const TechnologyTags = ({ tags }: TechnologyTagsProps) => {
             <>
               <Pill>Kotlin</Pill>
               <Pill>Java</Pill>
+              <Pill>Swift</Pill>
               <Pill>Spring</Pill>
               <Pill>TypeScript</Pill>
               <Pill>React</Pill>
@@ -102,7 +103,9 @@ const TechnologyTags = ({ tags }: TechnologyTagsProps) => {
               <Pill>NestJS</Pill>
               <Pill>MySQL</Pill>
               <Pill>PostgreSQL</Pill>
-              <Pill>Swift</Pill>
+              <Pill>Substrate</Pill>
+              <Pill>Rust</Pill>
+              <Pill>Ethereum</Pill>
               <Pill>AWS</Pill>
               <Pill>iBeacon</Pill>
             </>
