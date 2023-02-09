@@ -42,6 +42,7 @@ const IconsContainer = styled.div`
     display: inline-block;
     fill: white;
     opacity: 1;
+    font-size: 0;
   }
 `
 const Image30 = styled.figure`
@@ -101,35 +102,35 @@ export const SocialIcons: React.FC<{
   return (
     <IconsContainer className={' is-12 ' + className}>
       <a className='is-link' href='https://www.facebook.com/Bright.Inventions/' target='_blank' rel='noopener'>
-        <Image30>{blackIcons ? <FacebookIconBlack /> : <FacebookIcon />}</Image30>
+        facebook <Image30>{blackIcons ? <FacebookIconBlack /> : <FacebookIcon />}</Image30>
       </a>
 
       <a className='is-link' href='https://twitter.com/BrightDevs' target='_blank' rel='noopener'>
-        <Image30>{blackIcons ? <TwitterIconBlack /> : <TwitterIcon />}</Image30>
+        twitter<Image30>{blackIcons ? <TwitterIconBlack /> : <TwitterIcon />}</Image30>
       </a>
 
       <a className='is-link' href='https://www.linkedin.com/company/bright-inventions/' target='_blank' rel='noopener'>
-        <Image30>{blackIcons ? <LinkedInIconBlack /> : <LinkedInIcon />}</Image30>
+        linkedin<Image30>{blackIcons ? <LinkedInIconBlack /> : <LinkedInIcon />}</Image30>
       </a>
 
       <a className='is-link' href='https://www.instagram.com/bright_inventions/' target='_blank' rel='noopener'>
-        <Image30>{blackIcons ? <InstagramIconBlack /> : <InstagramIcon />}</Image30>
+        instagram<Image30>{blackIcons ? <InstagramIconBlack /> : <InstagramIcon />}</Image30>
       </a>
 
       <a className='is-link' href='https://www.behance.net/BrightInventions/' target='_blank' rel='noopener'>
-        <ImageYouTube>{blackIcons ? <BehanceIconBlack /> : <BehanceIcon />}</ImageYouTube>
+        behance<ImageYouTube>{blackIcons ? <BehanceIconBlack /> : <BehanceIcon />}</ImageYouTube>
       </a>
 
       <a className='is-link' href='https://dribbble.com/Bright_Inventions/' target='_blank' rel='noopener'>
-        <Image30>{blackIcons ? <DribbleIconBlack /> : <DribbleIcon />}</Image30>
+        dribbble<Image30>{blackIcons ? <DribbleIconBlack /> : <DribbleIcon />}</Image30>
       </a>
 
       <a className='is-link' href='https://github.com/bright' target='_blank' rel='noopener'>
-        <Image30>{blackIcons ? <GithubIconBlack /> : <GithubIcon />}</Image30>
+        github<Image30>{blackIcons ? <GithubIconBlack /> : <GithubIcon />}</Image30>
       </a>
 
       <a className='is-link' href='https://open.spotify.com/show/1xrG8BF4Niv5uIzHvIn79q' target='_blank' rel='noopener'>
-        <Image30>{blackIcons ? <SpotifyIconBlack /> : <SpotifyIcon />}</Image30>
+        spotify <Image30>{blackIcons ? <SpotifyIconBlack /> : <SpotifyIcon />}</Image30>
       </a>
 
       <a
@@ -138,7 +139,7 @@ export const SocialIcons: React.FC<{
         target='_blank'
         rel='noopener'
       >
-        <Image30>{blackIcons ? <ApplePodcastIconBlack /> : <ApplePodcastIcon />}</Image30>
+        podcasts apple <Image30>{blackIcons ? <ApplePodcastIconBlack /> : <ApplePodcastIcon />}</Image30>
       </a>
       <a
         className='is-link'
@@ -146,7 +147,7 @@ export const SocialIcons: React.FC<{
         target='_blank'
         rel='noopener'
       >
-        <ImageYouTube>{blackIcons ? <YouTubeIconBlack /> : <YouTubeIcon />}</ImageYouTube>
+        youtube<ImageYouTube>{blackIcons ? <YouTubeIconBlack /> : <YouTubeIcon />}</ImageYouTube>
       </a>
     </IconsContainer>
   )

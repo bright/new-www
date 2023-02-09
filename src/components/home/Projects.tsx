@@ -120,6 +120,7 @@ export const BlockSmall = styled.div`
 
   & a {
     margin-right: 2rem;
+    font-size: 0;
 
     &:last-of-type {
       margin-right: 0;
@@ -316,9 +317,11 @@ export const Projects: React.FC<ProjectsProps> = ({
         <BlockSmall className='is-pulled-right'>
           <span>visit our online portfolio:</span>
           <a target='_blank' href='https://www.behance.net/BrightInventions/'>
+            Behance
             <BehanceIcon />
           </a>
           <a target='_blank' href='https://dribbble.com/Bright_Inventions/'>
+            Dribble
             <DribbleIcon />
           </a>
         </BlockSmall>
