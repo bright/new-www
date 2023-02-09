@@ -211,7 +211,7 @@ export const Contact: FC<ContactProps> = ({
           />
 
           <PrivacyPolicyCheckboxContainer>
-            <CheckboxFieldContainer>
+            <CheckboxFieldContainer htmlFor={'accept-policy'}>
               <PrivacyPolicyCheckbox
                 type='checkbox'
                 name='accept-policy'
@@ -221,11 +221,12 @@ export const Contact: FC<ContactProps> = ({
                 checked={checkedRules}
                 id={'accept-policy'}
               />
-              <label htmlFor={'accept-policy'}>
+              <label>
                 <TickIcon />
               </label>
+              &nbsp;I accept the&nbsp;
             </CheckboxFieldContainer>
-            &nbsp;I accept the&nbsp;
+            {/* &nbsp;I accept the&nbsp; */}
             <a href={routeLinks.privacyPolicy} target='_blank' className='has-text-black'>
               <b>
                 <u>Privacy Policy</u>
