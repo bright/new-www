@@ -316,11 +316,11 @@ export const Projects: React.FC<ProjectsProps> = ({
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
           <span>visit our online portfolio:</span>
-          <a target='_blank' href='https://www.behance.net/BrightInventions/'>
+          <a target='_blank' href='https://www.behance.net/BrightInventions/' aria-label='Behance'>
             Behance
             <BehanceIcon />
           </a>
-          <a target='_blank' href='https://dribbble.com/Bright_Inventions/'>
+          <a target='_blank' href='https://dribbble.com/Bright_Inventions/' aria-label='Dribble'>
             Dribble
             <DribbleIcon />
           </a>
