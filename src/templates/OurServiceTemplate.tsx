@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import loadable from '@loadable/component'
 
-// import { Contact } from '../components/shared/Contact'
+import { Contact } from '../components/shared/Contact'
 import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
@@ -12,8 +12,9 @@ import { useWindowSize } from '../components/utils/use-windowsize'
 
 import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
 
-import TeamMembers from './../components/subcomponents/TeamMembers'
-// import { Projects } from '../components/home/Projects'
+// import TeamMembers from './../components/subcomponents/TeamMembers'
+const TeamMembers = loadable(() => import('./../components/subcomponents/TeamMembers'))
+import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
 import { kebabCase } from './../helpers/pathHelpers'
 import {
@@ -39,12 +40,12 @@ import { FlexWrapper } from '../components/shared'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 import { MoreButton } from './../components/shared/index'
 
-const LoadableContact = loadable(() => import('../components/shared/Contact'), {
-  resolveComponent: components => components.Contact,
-})
-const LoadableProjects = loadable(() => import('../components/home/Projects'), {
-  resolveComponent: components => components.Projects,
-})
+// const LoadableContact = loadable(() => import('../components/shared/Contact'), {
+//   resolveComponent: components => components.Contact,
+// })
+// const LoadableProjects = loadable(() => import('../components/home/Projects'), {
+//   resolveComponent: components => components.Projects,
+// })
 
 export default function Template({
   data,
@@ -257,7 +258,7 @@ export default function Template({
       {show_case_study && (
         <div>
           <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
-          <LoadableProjects
+          <Projects
             isFetchProject={false}
             projectsArray={projects.map((el: { frontmatter: ProjectModel }) => el.frontmatter)}
             isSelectedTag={false}
@@ -302,7 +303,7 @@ export default function Template({
             })}
         </CustomSectionInner>
       </CustomSection>
-      <LoadableContact
+      <Contact
         title={title_contact}
         subtitle={description_contact}
         isOurServiceTemplate={true}
