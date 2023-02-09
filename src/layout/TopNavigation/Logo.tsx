@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 
 export const Logo: React.FC = () => {
   return (
-    <Link to='/' className={styles.brand}>
+    <Link to='/' className={styles.brand} aria-label='Go to home page' role={'navigation'}>
       <StaticImage
         alt={'Bright Inventions logo'}
         className={classNames(styles.logo, styles.small)}
