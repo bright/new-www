@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '../../components/shared'
 import variables from '../../styles/variables'
 import image from '../../../static/images/bullet_point.svg'
+import questionArrow from '../../../static/images/arrowFaqs.svg'
 import { HideTablet } from './../../components/shared/index.styled'
 import { clampBuilder } from './../../helpers/clampBuilder'
 
@@ -18,30 +19,6 @@ export const CustomSectionOurService = styled(CustomSection)`
   @media ${variables.device.tabletXL} {
     padding-top: ${variables.pxToRem(60)};
     flex-basis: 47.61%;
-  }
-
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
-  }
-
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
-  }
-
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
-  }
-
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
-  }
-
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
-  }
-
-  @media ${variables.device.laptop} {
-    padding-top: ${variables.pxToRem(120)};
   }
 
   @media ${variables.device.laptop} {
@@ -200,7 +177,7 @@ export const FaqWrapper = styled.div`
 `
 export const Question = styled.h3<{ shown: boolean }>`
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   text-align: left;
   font: normal normal 700 ${variables.pxToRem(26)} / ${variables.pxToRem(40)} Montserrat;
@@ -213,8 +190,22 @@ export const Question = styled.h3<{ shown: boolean }>`
     flex-basis: 90%;
   }
 
-  & span img {
+  & span {
     ${({ shown }) => (shown ? 'transform: rotate(180deg)' : 'transform: rotate(0deg)')};
+    position: relative;
+    width: 18px;
+    height: 11px;
+    min-width: 18px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url(${questionArrow}) no-repeat, center;
+      width: 18px;
+      height: 11px;
+    }
   }
   @media ${variables.device.laptop} {
     font-size: ${variables.pxToRem(24)};
@@ -229,6 +220,12 @@ export const Question = styled.h3<{ shown: boolean }>`
     font-size: ${variables.pxToRem(18)};
     line-height: ${variables.pxToRem(30)};
     padding: ${variables.pxToRem(28)} 0;
+
+    & span {
+      &::before {
+        background-size: 12px 8px;
+      }
+    }
   }
 `
 export const FaqsTextRegural = styled(CustomTextRegular)`
