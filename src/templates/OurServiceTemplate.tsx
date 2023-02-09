@@ -12,9 +12,10 @@ import { useWindowSize } from '../components/utils/use-windowsize'
 
 import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
 
-// import TeamMembers from './../components/subcomponents/TeamMembers'
-const TeamMembers = loadable(() => import('./../components/subcomponents/TeamMembers'))
+import TeamMembers from '../components/subcomponents/TeamMembers'
+
 import { Projects } from '../components/home/Projects'
+
 import { routeLinks } from '../config/routing'
 import { kebabCase } from './../helpers/pathHelpers'
 import {
@@ -43,9 +44,10 @@ import { MoreButton } from './../components/shared/index'
 // const LoadableContact = loadable(() => import('../components/shared/Contact'), {
 //   resolveComponent: components => components.Contact,
 // })
-// const LoadableProjects = loadable(() => import('../components/home/Projects'), {
-//   resolveComponent: components => components.Projects,
-// })
+const LoadableProjects = loadable(() => import('../components/home/Projects'), {
+  //  resolveComponent as (imported) => imported.default
+  resolveComponent: components => components.Projects,
+})
 
 export default function Template({
   data,
