@@ -191,11 +191,11 @@ export const Question = styled.h3<{ shown: boolean }>`
   }
 
   & span {
-    ${({ shown }) => (shown ? 'transform: rotate(180deg)' : 'transform: rotate(0deg)')};
     position: relative;
     width: 18px;
     height: 11px;
     min-width: 18px;
+    ${({ shown }) => (shown ? 'transform: rotate(180deg)' : 'transform: rotate(0deg)')};
 
     &::before {
       content: '';
@@ -222,6 +222,9 @@ export const Question = styled.h3<{ shown: boolean }>`
     padding: ${variables.pxToRem(28)} 0;
 
     & span {
+      width: 12px;
+      height: 8px;
+      min-width: 12px;
       &::before {
         background-size: 12px 8px;
       }
