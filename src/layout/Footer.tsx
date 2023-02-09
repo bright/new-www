@@ -59,8 +59,9 @@ export const Footer = () => {
         <div className='columns'>
           <div className='column'>
             <div className={classNames('content image', styles.logo)}>
-              <a href='/'>
+              <a href='/' aria-label='Go to home page' role={'navigation'}>
                 <LogoWhite style={{ width: '180px' }} />
+                Home Page
               </a>
             </div>
             <SocialIcons className='padded-right' />
@@ -151,10 +152,7 @@ export const Footer = () => {
             here
           </FooterOpenModalButton>
           .
-          <ModalCookies
-            modalIsOpen={isCookiesModalOpen}
-            closeModal={setCookiesModalOpen}
-          />
+          <ModalCookies modalIsOpen={isCookiesModalOpen} closeModal={setCookiesModalOpen} />
           <Link to={routeLinks.privacyPolicy} className='has-text-black-bis' style={{ marginTop: '8px' }}>
             Privacy Policy
           </Link>
