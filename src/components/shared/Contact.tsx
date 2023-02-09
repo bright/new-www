@@ -219,6 +219,7 @@ export const Contact: FC<ContactProps> = ({
                 required
                 onChange={e => setCheckedRules(e.currentTarget.checked)}
                 checked={checkedRules}
+                id={'accept-policy'}
               />
               <label htmlFor={'accept-policy'}>
                 <TickIcon />
