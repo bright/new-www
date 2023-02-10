@@ -43,3 +43,5 @@ Data from the recent “Digital 2023 Global Overview Report'' shows a clear domi
 Adding an AI chat solution to Google seems essential to stay ahead of competitors. However, there might be reasons why Google didn’t rush into that, even though they definitely worked hard on their own AI chat solution.
 
 According to the promotional material provided by Google, we can assume that Bard will take over a SERP (search engine results page) position zero.
+
+<div class="image"><img src="/images/serp0.png" alt="Example of SERP Position 0" title="undefined"  /> </div>
