@@ -58,7 +58,7 @@ It might make it even harder to organically build your website traffic. And what
 
 ## ChatGPT and Bard prices
 
-A few months after the launch of ChatGPT OpenAI introduced a paid plan. When it comes to Bard - not many people have access to it at the moment. However, assuming that it is going to be a part of our Google search experience, then it might be free(?).
+A few months after the launch of ChatGPT OpenAI introduced a pilot [paid subscription plan](https://openai.com/blog/chatgpt-plus/). When it comes to Bard - not many people have access to it at the moment. However, assuming that it is going to be a part of our Google search experience, then it might be free(?).
 
 ## Last but not least – ChatGPT and Bard both make mistakes 😉
 
@@ -74,6 +74,6 @@ When it comes to Bard not many people had the opportunity to test its “truthfu
 
 ## Using AI in software development
 
-It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. We will continue to observe the development of ChatGPT as well as the beginnings of Bard. We will let you know how you could implement it for your business. If you want to know more about using AI in your software products, just contact us and book a free consultation.
+We will **continue to observe the development of ChatGPT as well as the beginnings of Bard**. We will let you know how you could implement it for your business. **If you want to know more about using AI in your software products, just [contact us](/start-project/) and book a free consultation**.
 
 <div class='block-button'><h2>Looking for AI software experts?</h2><div>Let's talk about AT in your business. Contact us and we will reach out to you in 48 hours.</div><a href="/start-project"><button>let's talk about AI</button></a></div>
