@@ -30,9 +30,7 @@ LaMDA 👉 Provides real-time responses and has access to up-to-date information
 
 GPT 👉 Don’t provide real-time data. Its knowledge doesn’t go beyond 2021.
 
-For example,
-
-Bard should tell you who won the 2023 Grammy. ChatGPT won’t give you that information.
+For example, Bard should tell you who won the 2023 Grammy. ChatGPT won’t give you that information.
 
 ## Integration with search engines
 
