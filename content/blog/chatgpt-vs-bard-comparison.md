@@ -18,7 +18,7 @@ published: true
 
 ## AI chat got into mainstream
 
-It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first check out the main differences between two well-known AI chats at the moment.
+It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first check out the main differences between the two best-known AI chats at the moment.
 
 <div class='block-button'><h2>Do you want to use AI in your software?</h2><div>Contact us if you want to enhance your software with AI to shorten development time and stay ahead of your competition.</div><a href="/start-project"><button>let's talk about your product</button></a></div>
 
