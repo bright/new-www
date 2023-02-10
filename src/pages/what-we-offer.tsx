@@ -10,10 +10,12 @@ import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { CustomTextRegular } from './../components/shared/index.styled'
 import { Projects } from '../components/home/Projects'
+import { Script } from 'gatsby'
 
 const WhatWeOfferPage: React.FocusEventHandler = () => {
   return (
     <Page>
+      <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} />
       <HelmetMetaData
         title='What We Offer'
         description='We specialise in Mobile App Development, IoT Development, Blockchain and Product Design. Contact us!'

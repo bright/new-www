@@ -30,7 +30,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
       >
         {' '}
         {/* Ideally simply adding import("https://widget.clutch.co/static/js/widget.js") would work */}
-        <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} />
+        {/* <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} /> */}
       </HelmetMetaData>
 
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
