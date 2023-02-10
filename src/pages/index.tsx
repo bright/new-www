@@ -13,6 +13,7 @@ const PopularBlogPosts = loadable(() => import('../components/home/PopularBlogPo
 import '../styles/_page-index.scss'
 // import { BlockchainExperts } from '../components/home/BlockchainExperts'
 import { GlobalStyle } from '../styles/global'
+import { Script } from 'gatsby'
 const BlockchainExperts = React.lazy(() => import('../components/home/BlockchainExperts'))
 const HeroHeaderImages = React.lazy(() => import('../components/home/HeroHeaderImages'))
 
@@ -21,6 +22,7 @@ export default () => {
 
   return (
     <Page className='page-index'>
+      <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} />
       <GlobalStyle />
       <Header />
       <Achievements />
