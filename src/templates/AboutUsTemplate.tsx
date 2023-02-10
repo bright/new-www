@@ -102,7 +102,6 @@ interface Props {
 
 const AboutUSTemplate: React.FC<Props> = ({ data, pageContext, children }) => {
   const { members: member } = data // data.mdx holds your post data
-  console.log(`AboutUSTemplate`, {data, pageContext})
   if (!member) {
     throw new Error(`data.member required but not found for id: ${pageContext.id}`)
   }
