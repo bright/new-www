@@ -19,6 +19,7 @@ import { applyFixForJumpingCursorIssue } from './fix-for-jumping-cursor'
 import { withPreviewFrameProvider } from './with-preview-frame-provider'
 import { GiphyEmbedCmsEditorComponent } from '../giphy-embed.cms'
 import { InstagramEmbedCmsEditorComponent } from '../instagram-embed.cms'
+import { TwitterEmbedCmsEditorComponent } from '../twitter-embed.cms'
 
 applyFixForJumpingCursorIssue()
 
@@ -34,5 +35,6 @@ CMS.registerEditorComponent({ ...importantInfoConfig })
 CMS.registerEditorComponent({ ...quoteConfig })
 CMS.registerEditorComponent(GiphyEmbedCmsEditorComponent)
 CMS.registerEditorComponent(InstagramEmbedCmsEditorComponent)
+CMS.registerEditorComponent(TwitterEmbedCmsEditorComponent)
 
 

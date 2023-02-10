@@ -3,10 +3,12 @@ import React, { PropsWithChildren } from 'react'
 import { BrightYouTubeEmbed } from './youtube-embed'
 import { BrightInstagramEmbed } from './instagram-embed'
 import { GiphyEmbed } from './giphy-embed'
+import { BrightTwitterEmbed } from './twitter-embed'
 
 export const mdxComponents = {
   YouTubeEmbed: BrightYouTubeEmbed,
   InstagramEmbed: BrightInstagramEmbed,
+  TwitterEmbed: BrightTwitterEmbed,
   GiphyEmbed: GiphyEmbed
 }
 
