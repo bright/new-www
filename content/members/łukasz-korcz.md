@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: lukasz-ko
-ex: false
+ex: true
 slug: lukasz-ko
 name: Łukasz Korcz
 short_name: "Łukasz "
