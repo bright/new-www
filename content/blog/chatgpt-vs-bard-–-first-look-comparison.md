@@ -35,3 +35,7 @@ That seems like a powerful advantage to already a giant search engine. Many have
 <div class="image"><img src="/images/global-overview.png" alt="Digital 2023 Global Overview Report" title="undefined"  /> </div>
 
 Source: [Digital 2023 Global Overview Report](https://datareportal.com/reports/digital-2023-global-overview-report)
+
+Data from the recent “Digital 2023 Global Overview Report'' shows a clear dominance. However, AI might make the competition exciting for the first time in 20 years.
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=yMpj33Y95ZU' />
