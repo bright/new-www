@@ -50,7 +50,11 @@ Adding an AI chat solution to Google seems essential to stay ahead of competitor
 
 According to the promotional material provided by Google, we can assume that Bard will take over a SERP (search engine results page) position zero (a top position of the organic search results).
 
+<center>
+
 <TwitterEmbed url='https://twitter.com/sundarpichai/status/1622674382069059591' />
+
+</center>
 
 It might make it even harder to organically build your website traffic. And what about advertisers? Where will be their place in this new equation?
 
