@@ -3,8 +3,8 @@ author: izabela
 tags:
   - development
   - business
-date: 2023-02-10T08:22:31.822Z
-meaningfullyUpdatedAt: 2023-02-10T08:22:31.857Z
+date: 2023-02-10T09:44:23.326Z
+meaningfullyUpdatedAt: 2023-02-10T09:44:23.998Z
 title: ChatGPT vs. Bard – First Look & Comparison
 layout: post
 image: /images/chat_ai_comparision.png
