@@ -45,3 +45,17 @@ Adding an AI chat solution to Google seems essential to stay ahead of competitor
 According to the promotional material provided by Google, we can assume that Bard will take over a SERP (search engine results page) position zero.
 
 <div class="image"><img src="/images/serp0.png" alt="Example of SERP Position 0" title="undefined"  /> </div>
+
+It might make it even harder to organically build your website traffic. And what about advertisers? Where will be their place in this new equation?
+
+Figuring a way that will satisfy advertisers, publishers and generally content creators might be more challenging than building the Bard itself. 
+
+## ChatGPT and Bard prices
+
+A few months after the launch of ChatGPT OpenAI introduced a paid plan. When it comes to Bard - not many people have access to it at the moment. However, assuming that it is going to be a part of our Google search experience, then it might be free(?).
+
+## Last but not least – ChatGPT and Bard both make mistakes 😉
+
+Let’s start with ChatGPT which is widely used across the globe. Let us show you one example of ChatGPT's problematic response:
+
+<div class="image"><img src="/images/chatgpt_lincoln.png" alt="ChatGPT" title="undefined"  /> </div>
