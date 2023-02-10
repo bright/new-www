@@ -18,7 +18,7 @@ published: true
 
 ## AI chat got into mainstream
 
-It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first check out the main differences between the two best-known AI chats at the moment.
+It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first **check out the main differences between the two best-known AI chats** at the moment.
 
 <div class='block-button'><h2>Do you want to use AI in your software?</h2><div>Contact us if you want to enhance your software with AI to shorten development time and stay ahead of your competition.</div><a href="/start-project"><button>let's talk about your product</button></a></div>
 
@@ -26,9 +26,9 @@ It’s not something new to include AI in software development. However, product
 
 Bard is powered by [LaMDA](https://blog.google/technology/ai/lamda/). However, ChatGPT is based on [GPT](https://platform.openai.com/docs/models/gpt-3). What does it mean for us – users? Putting aside technology differences, from users' perspective Bard should provide more up-to-date information.
 
-LaMDA 👉 Provides real-time responses and has access to up-to-date information and data.
+LaMDA 👉 Provides **real-time responses** and has access to up-to-date information and data.
 
-GPT 👉 Don’t provide real-time data. Its knowledge doesn’t go beyond 2021.
+GPT 👉 Don’t provide real-time data. **Its knowledge doesn’t go beyond 2021**.
 
 For example, Bard should tell you who won the 2023 Grammy. ChatGPT won’t give you that information.
 
@@ -42,11 +42,11 @@ That seems like a powerful advantage to already a giant search engine. Many have
 
 Source: [Digital 2023 Global Overview Report](https://datareportal.com/reports/digital-2023-global-overview-report)
 
-Data from the recent “Digital 2023 Global Overview Report'' shows a clear dominance. However, AI might make the competition exciting for the first time in 20 years.
+Data from the recent “Digital 2023 Global Overview Report'' shows a clear dominance. However, **AI might make the competition exciting for the first time in 20 years**.
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=yMpj33Y95ZU' />
 
-Adding an AI chat solution to Google seems essential to stay ahead of competitors. However, there might be reasons why Google didn’t rush into that, even though they definitely worked hard on their own AI chat solution.
+Adding an AI chat solution to Google seems essential to stay ahead of competitors. However, there might be **reasons why Google didn’t rush into that**, even though they definitely worked hard on their own AI chat solution.
 
 According to the promotional material provided by Google, we can assume that Bard will take over a SERP (search engine results page) position zero.
 
@@ -54,7 +54,7 @@ According to the promotional material provided by Google, we can assume that Bar
 
 It might make it even harder to organically build your website traffic. And what about advertisers? Where will be their place in this new equation?
 
-Figuring a way that will satisfy advertisers, publishers and generally content creators might be more challenging than building the Bard itself. 
+<div class="important-info"><h2>The challenge behind Bard</h2><div>Figuring a way that will satisfy advertisers, publishers and generally content creators might be more challenging than building the Bard itself.</div></div>
 
 ## ChatGPT and Bard prices
 
