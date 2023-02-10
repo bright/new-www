@@ -39,3 +39,7 @@ Source: [Digital 2023 Global Overview Report](https://datareportal.com/reports/d
 Data from the recent “Digital 2023 Global Overview Report'' shows a clear dominance. However, AI might make the competition exciting for the first time in 20 years.
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=yMpj33Y95ZU' />
+
+Adding an AI chat solution to Google seems essential to stay ahead of competitors. However, there might be reasons why Google didn’t rush into that, even though they definitely worked hard on their own AI chat solution.
+
+According to the promotional material provided by Google, we can assume that Bard will take over a SERP (search engine results page) position zero.
