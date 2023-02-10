@@ -8,13 +8,19 @@ meaningfullyUpdatedAt: 2023-02-10T09:44:23.998Z
 title: ChatGPT vs. Bard – First Look & Comparison
 layout: post
 image: /images/chat_ai_comparision.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
 **Google introduced Bard – a rival to ChatGPT. Little do we know about Google's AI chat system. Yet, we can initially compare both AI solutions. The article will be updated. Feel free to bookmark/pocket it for later.**
 
 <div class="image"><img src="/images/chat_ai_comparision.png" alt="undefined" title="undefined"  /> </div>
+
+## AI chat got into mainstream
+
+It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first check out the main differences between two well-known AI chats at the moment.
+
+<div class='block-button'><h2>Do you want to use AI in your software?</h2><div>Contact us if you want to enhance your software with AI to shorten development time and stay ahead of your competition.</div><a href="/start-project"><button>let's talk about your product</button></a></div>
 
 ## Bard vs ChatGPT language models
 
@@ -71,3 +77,5 @@ When it comes to Bard not many people had the opportunity to test its “truthfu
 ## Using AI in software development
 
 It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. We will continue to observe the development of ChatGPT as well as the beginnings of Bard. We will let you know how you could implement it for your business. If you want to know more about using AI in your software products, just contact us and book a free consultation.
+
+<div class='block-button'><h2>Looking for AI software experts?</h2><div>Let's talk about AT in your business. Contact us and we will reach out to you in 48 hours.</div><a href="/start-project"><button>let's talk about AI</button></a></div>
