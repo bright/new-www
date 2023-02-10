@@ -16,7 +16,7 @@ published: true
 
 <div class="image"><img src="/images/chat_ai_comparision.png" alt="undefined" title="undefined"  /> </div>
 
-## AI chat in software development
+## AI chat got into mainstream
 
 It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first check out the main differences between two well-known AI chats at the moment.
 
@@ -77,7 +77,5 @@ When it comes to Bard not many people had the opportunity to test its “truthfu
 ## Using AI in software development
 
 It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. We will continue to observe the development of ChatGPT as well as the beginnings of Bard. We will let you know how you could implement it for your business. If you want to know more about using AI in your software products, just contact us and book a free consultation.
-
-
 
 <div class='block-button'><h2>Looking for AI software experts?</h2><div>Let's talk about AT in your business. Contact us and we will reach out to you in 48 hours.</div><a href="/start-project"><button>let's talk about AI</button></a></div>
