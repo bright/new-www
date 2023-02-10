@@ -14,11 +14,13 @@ published: true
 ---
 **Google introduced Bard – a rival to ChatGPT. Little do we know about Google's AI chat system. Yet, we can initially compare both AI solutions. The article will be updated. Feel free to bookmark/pocket it for later.**
 
+<div class="image"><img src="/images/chat_ai_comparision.png" alt="undefined" title="undefined"  /> </div>
+
 ## Bard vs ChatGPT language models
 
 Bard is powered by [LaMDA](https://blog.google/technology/ai/lamda/). However, ChatGPT is based on [GPT](https://platform.openai.com/docs/models/gpt-3). What does it mean for us – users? Putting aside technology differences, from users' perspective Bard should provide more up-to-date information.
 
-LaMDA 👉 Provides real-time responses, and has access to up-to-date information and data.
+LaMDA 👉 Provides real-time responses and has access to up-to-date information and data.
 
 GPT 👉 Don’t provide real-time data. Its knowledge doesn’t go beyond 2021.
 
@@ -58,4 +60,14 @@ A few months after the launch of ChatGPT OpenAI introduced a paid plan. When it 
 
 Let’s start with ChatGPT which is widely used across the globe. Let us show you one example of ChatGPT's problematic response:
 
-<div class="image"><img src="/images/chatgpt_lincoln.png" alt="ChatGPT" title="undefined"  /> </div>
+<div class="image"><img src="/images/chatgpt_lincoln.png" alt="ChatGPT answer" title="undefined"  /> </div>
+
+Source: [https://theconversation.com/](https://theconversation.com/chatgpt-is-great-youre-just-using-it-wrong-198848)
+
+Take a look at number 4. Garry Wills didn't write the ”Emancipation Proclamation”. Abraham Lincoln did.
+
+When it comes to Bard not many people had the opportunity to test its “truthfulness”. Yet Google offered help. Thanks to the official promo material we could see that the [bot made mistake](https://www.scmp.com/news/world/united-states-canada/article/3209563/googles-chatgpt-rival-bard-gives-wrong-answer-ad-sending-shares-diving). Whether Google wants it or not we can be sure that any data from AI chats should be verified by a human. 
+
+## Using AI in software development
+
+It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. We will continue to observe the development of ChatGPT as well as the beginnings of Bard. We will let you know how you could implement it for your business. If you want to know more about using AI in your software products, just contact us and book a free consultation.
