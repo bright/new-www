@@ -32,7 +32,7 @@ Microsoft announced that [Bing will be enhanced with ChatGPT](https://techcrunch
 
 That seems like a powerful advantage to already a giant search engine. Many have tried to overcome Google, but no one succeeded (yet?).
 
-<div class="image"><img src="/images/global-overview.png" alt="Digital 2023 Global Overview Report" title="undefined"  /> </div>
+<img src="/images/global-overview.png" alt="Digital 2023 Global Overview Report" title="undefined"  /> 
 
 Source: [Digital 2023 Global Overview Report](https://datareportal.com/reports/digital-2023-global-overview-report)
 
