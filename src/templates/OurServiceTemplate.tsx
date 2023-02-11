@@ -2,20 +2,15 @@ import React, { useState, useEffect, useRef, PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import loadable from '@loadable/component'
-
-import { Contact } from '../components/shared/Contact'
-import TechnologyTags from '../components/shared/TechnologyTags'
+// import { Contact } from '../components/shared/Contact'
+// import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import RatingClutch from '../assets/rating.svg'
 import { useWindowSize } from '../components/utils/use-windowsize'
-
 import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
-
-import TeamMembers from '../components/subcomponents/TeamMembers'
-
-import { Projects } from '../components/home/Projects'
-
+// import TeamMembers  from '../components/subcomponents/TeamMembers'
+// import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
 import { kebabCase } from './../helpers/pathHelpers'
 import {
@@ -38,16 +33,18 @@ import {
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 import { FlexWrapper } from '../components/shared'
-import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
+// import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
+const TeamMemebersSwiper = loadable(() => import('../components/subcomponents/TeamMembersSwiper'))
 import { MoreButton } from './../components/shared/index'
 
-// const LoadableContact = loadable(() => import('../components/shared/Contact'), {
-//   resolveComponent: components => components.Contact,
-// })
-const LoadableProjects = loadable(() => import('../components/home/Projects'), {
-  //  resolveComponent as (imported) => imported.default
-  resolveComponent: components => components.Projects,
+const Contact = loadable(() => import('../components/shared/Contact'), {
+  resolveComponent: module => module.Contact,
 })
+const Projects = loadable(() => import('../components/home/Projects'), {
+  resolveComponent: module => module.Projects,
+})
+const TechnologyTags = loadable(() => import('../components/shared/TechnologyTags'))
+const TeamMembers = loadable(() => import('../components/subcomponents/TeamMembers'))
 
 export default function Template({
   data,
