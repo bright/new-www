@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
@@ -8,6 +8,7 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { clampBuilder } from '../../helpers/clampBuilder'
+import useOnScreen from '../utils/use-onscreen'
 
 const TeamMember = styled.article`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -132,6 +133,8 @@ interface Props {
 }
 const TeamMemebersSwiper: React.FC<Props> = ({ authorIdsArray }) => {
   const members = useAuthors({ authorIdsArray })
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
 
   return (
     <>
@@ -149,24 +152,26 @@ const TeamMemebersSwiper: React.FC<Props> = ({ authorIdsArray }) => {
       >
         {members.map(member => (
           <SwiperSlide key={member.authorId}>
-            <TeamMember>
+            <TeamMember ref={ref}>
               <Link to={routeLinks.aboutUs(member)}>
                 <AvatarWrapper>
-                  <>
-                    <GatsbyImage
-                      image={getImage(member.avatar)!}
-                      alt={member.name}
-                      className='avatar1'
-                      imgClassName='image'
-                    />
+                  {onScreen && (
+                    <>
+                      <GatsbyImage
+                        image={getImage(member.avatar)!}
+                        alt={member.name}
+                        className='avatar1'
+                        imgClassName='image'
+                      />
 
-                    <GatsbyImage
-                      image={getImage(member.avatar_hover)!}
-                      alt={member.name}
-                      className='avatar2'
-                      imgClassName='image'
-                    />
-                  </>
+                      <GatsbyImage
+                        image={getImage(member.avatar_hover)!}
+                        alt={member.name}
+                        className='avatar2'
+                        imgClassName='image'
+                      />
+                    </>
+                  )}
                 </AvatarWrapper>
                 <NameWrapper>
                   <p>
