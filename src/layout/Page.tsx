@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, useState } from 'react'
+import React, { PropsWithChildren, useEffect, useState } from 'react'
 import classNames from 'classnames'
 
 import { Footer } from './Footer'
@@ -18,10 +18,9 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
   const { pathname } = useLocation()
   const [showComponent, setShowComponent] = useState(false)
 
-  setTimeout(() => {
+  useEffect(() => {
     setShowComponent(true)
-  }, 3000)
-
+  }, [])
   return (
     <div
       className={classNames('layout-container', className, {
