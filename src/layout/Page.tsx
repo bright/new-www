@@ -36,7 +36,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
 
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       <MDXComponentsWrapper>{children}</MDXComponentsWrapper>
-      {isBrowser() ? <CookiesNotice /> : <div></div>}
+      {/* {isBrowser() ? <CookiesNotice /> : <div></div>} */}
       <Footer />
     </div>
   )
