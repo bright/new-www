@@ -10,7 +10,7 @@ import RatingClutch from '../assets/rating.svg'
 import { useWindowSize } from '../components/utils/use-windowsize'
 import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } from '../components/shared/index.styled'
 // import TeamMembers  from '../components/subcomponents/TeamMembers'
-import { Projects } from '../components/home/Projects'
+// import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
 import { kebabCase } from './../helpers/pathHelpers'
 import {
@@ -40,9 +40,7 @@ import { MoreButton } from './../components/shared/index'
 // const Contact = loadable(() => import('../components/shared/Contact'), {
 //   resolveComponent: module => module.Contact,
 // })
-// const Projects = loadable(() => import('../components/home/Projects'), {
-//   resolveComponent: module => module.Projects,
-// })
+const LoadableProjects = loadable(() => import('../components/home/Projects').then(({ Projects }) => Projects))
 const TechnologyTags = loadable(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = loadable(() => import('../components/subcomponents/TeamMembers'))
 // const TeamMemebersSwiper = loadable(() => import('../components/subcomponents/TeamMembersSwiper'))
@@ -258,7 +256,7 @@ export default function Template({
       {show_case_study && (
         <div>
           <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
-          <Projects
+          <LoadableProjects
             isFetchProject={false}
             projectsArray={projects.map((el: { frontmatter: ProjectModel }) => el.frontmatter)}
             isSelectedTag={false}
