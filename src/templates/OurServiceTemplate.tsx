@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef, PropsWithChildren, Suspense } from 
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import loadable from '@loadable/component'
-import { lazy } from '@loadable/component'
 import { Contact } from '../components/shared/Contact'
 // import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
@@ -38,11 +37,9 @@ import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 
 import { MoreButton } from './../components/shared/index'
 
-// const Contact = loadable(() => import('../components/shared/Contact'), {
-//   resolveComponent: module => module.Contact,
-// })
-
-const TechnologyTags = lazy(() => import('../components/shared/TechnologyTags'))
+const TechnologyTags = loadable(() => import('../components/shared/TechnologyTags'), {
+  fallback: <div>Loading...</div>,
+})
 const TeamMembers = loadable(() => import('../components/subcomponents/TeamMembers'))
 // const TeamMemebersSwiper = loadable(() => import('../components/subcomponents/TeamMembersSwiper'))
 
@@ -252,11 +249,7 @@ export default function Template({
         </div>
       </CustomSection>
 
-      {show_technology_stack && (
-        <Suspense fallback={<div>Loading...</div>}>
-          <TechnologyTags tags={bar_stack} />
-        </Suspense>
-      )}
+      {show_technology_stack && <TechnologyTags tags={bar_stack} />}
 
       {show_case_study && (
         <div>
