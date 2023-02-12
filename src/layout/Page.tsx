@@ -16,6 +16,11 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
 
   const { pathname } = useLocation()
+  const [showComponent, setShowComponent] = useState(false)
+
+  setTimeout(() => {
+    setShowComponent(true)
+  }, 3000)
 
   return (
     <div
@@ -36,7 +41,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
 
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       <MDXComponentsWrapper>{children}</MDXComponentsWrapper>
-      {/* {isBrowser() ? <CookiesNotice /> : <div></div>} */}
+      {isBrowser() ? showComponent && <CookiesNotice /> : <div></div>}
       <Footer />
     </div>
   )
