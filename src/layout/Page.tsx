@@ -18,11 +18,10 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
   const { pathname } = useLocation()
   const [showComponent, setShowComponent] = useState(false)
 
-  useEffect(() => {
-    setTimeout(() => {
-      setShowComponent(true)
-    }, 2000)
-  }, [])
+  setTimeout(() => {
+    setShowComponent(true)
+  }, 2500)
+
   return (
     <div
       className={classNames('layout-container', className, {
