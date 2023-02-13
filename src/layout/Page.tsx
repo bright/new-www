@@ -19,7 +19,9 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
   const [showComponent, setShowComponent] = useState(false)
 
   useEffect(() => {
-    setShowComponent(true)
+    setTimeout(() => {
+      setShowComponent(true)
+    }, 2000)
   }, [])
   return (
     <div
