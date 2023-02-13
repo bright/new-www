@@ -38,3 +38,8 @@
 .layout-container {
   margin-top: $navbar-height;
 }
+
+html {
+  // TODO: for some reason simply $navbar-height is not enough :(
+  scroll-padding-top: $navbar-height * 2;
+}

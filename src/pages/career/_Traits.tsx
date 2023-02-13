@@ -73,6 +73,7 @@ const TraitsFigure = styled.figure`
     width: 142px;
     margin-top: ${variables.pxToRem(48)};
   }
+
   @media ${variables.device.tablet} {
     margin: 0 auto;
     & svg {
@@ -111,12 +112,14 @@ const Traits: React.FC = () => {
                 <ResponsibilityIcon />
               </TraitsFigure>
               <div>
-                <TextTitle id='responsibility'>Responsibility</TextTitle>
-                <TextRegularTraits>
-                  We support and share responsibility with the members of our team. We also actively take responsibility
-                  for our own self-development. Everything is everyone’s responsibility and we own our collective
-                  results together.
-                </TextRegularTraits>
+                <a id='responsibility' href='#responsibility'>
+                  <TextTitle>Responsibility</TextTitle>
+                  <TextRegularTraits>
+                    We support and share responsibility with the members of our team. We also actively take
+                    responsibility for our own self-development. Everything is everyone’s responsibility and we own our
+                    collective results together.
+                  </TextRegularTraits>
+                </a>
               </div>
             </FlexWrapper>
           </Wrapper>
@@ -126,7 +129,9 @@ const Traits: React.FC = () => {
                 <FlexibilityIcon />
               </TraitsFigure>
               <div>
-                <TextTitle id='flexibility'>Flexibility</TextTitle>
+                <a id='flexibility' href='#flexibility'>
+                  <TextTitle>Flexibility</TextTitle>
+                </a>
                 <TextRegularTraits>
                   We balance ambition with flexibility because what matters is the final result. We are nimble. We
                   evolve and adapt. People who work here are not afraid of taking risk and making mistakes as long as we
@@ -141,7 +146,9 @@ const Traits: React.FC = () => {
                 <TeamworkIcon />
               </TraitsFigure>
               <div>
-                <TextTitle id='teamwork'>Teamwork</TextTitle>
+                <a id='teamwork' href='#teamwork'>
+                  <TextTitle>Teamwork</TextTitle>
+                </a>
                 <TextRegularTraits>
                   It is only through teamwork that we achieve brightness. We know each others’ strengths and we also can
                   ask for help when we need. We work together to bring our passions and expertise to make Bright
@@ -156,7 +163,9 @@ const Traits: React.FC = () => {
                 <PositiveAttitudeIcon />
               </TraitsFigure>
               <div>
-                <TextTitle id='positive-attitude'>Positive attitude</TextTitle>
+                <a id='positive-attitude' href='#positive-attitude'>
+                  <TextTitle>Positive attitude</TextTitle>
+                </a>
                 <TextRegularTraits>
                   We love what we do and the people around us. In fact, we believe that happy people are more motivated,
                   efficient and creative, so we bring a positive attitude to everything we do.
@@ -170,7 +179,9 @@ const Traits: React.FC = () => {
                 <ClientOrientationIcon />
               </TraitsFigure>
               <div>
-                <TextTitle id='client-orientation'>Client orientation</TextTitle>
+                <a id='client-orientation' href='#client-orientation'>
+                  <TextTitle>Client orientation</TextTitle>
+                </a>
                 <TextRegularTraits>
                   We are only successful if our clients are - and that drives everything we do. Our team will overcome
                   obstacles, find solutions and deliver results on time. Every action we take enables our clients to
