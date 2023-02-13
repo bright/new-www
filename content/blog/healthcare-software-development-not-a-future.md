@@ -3,7 +3,7 @@ author: izabela
 tags:
   - business
 date: 2021-07-27T08:48:40.738Z
-meaningfullyUpdatedAt: 2023-02-13T12:55:13.255Z
+meaningfullyUpdatedAt: 2021-07-27T08:48:00.000Z
 title: Why healthcare software development is not a future?
 layout: post
 image: /images/blogpost_www_healthcare.png
