@@ -324,9 +324,9 @@ const TeamMembers = ({
   return (
     <>
       {isWhyUs && (
-        <a id='meet-the-bright-team' href='#meet-the-bright-team'>
+        <a id='meet-bright-team' href='#meet-bright-team'>
           <CustomSectionTitle>
-            meet the <span>bright</span> team
+            meet <span>bright</span> team
           </CustomSectionTitle>
         </a>
       )}
