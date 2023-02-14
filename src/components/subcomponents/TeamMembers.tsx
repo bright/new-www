@@ -52,6 +52,7 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: bool
   && a {
     display: grid;
     color: ${variables.color.text};
+
     p {
       margin: 0;
     }
@@ -60,32 +61,38 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: bool
       display: grid;
       gap: 10px;
       padding-bottom: 42px;
+
       p strong {
         font-family: ${variables.font.customtitle.monserat};
         font-weight: 900;
         font-size: 2rem;
         line-height: 39px;
       }
+
       p:nth-child(2) {
         font-family: ${variables.font.customtitle.monserat};
         font-size: 1.25rem;
         line-height: 24px;
       }
+
       p:last-child {
         font-size: 1.125rem;
         line-height: 22px;
         color: ${variables.color.text};
         opacity: 0.75;
       }
+
       @media ${variables.device.laptop} {
         p strong {
           font-size: 1.5625rem;
           line-height: 1.875rem;
         }
+
         p:nth-child(2) {
           font-size: 1rem;
           line-height: 1.1875rem;
         }
+
         p:last-child {
           font-size: 1.125rem;
           line-height: 22px;
@@ -100,11 +107,13 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: bool
           line-height: ${({ isOurServiceTemplate }) =>
             isOurServiceTemplate ? `${variables.pxToRem(27)}` : '1.125rem'};
         }
+
         p:nth-child(2) {
           font-size: ${({ isOurServiceTemplate }) => (isOurServiceTemplate ? `${variables.pxToRem(18)}` : '0.75rem')};
           line-height: ${({ isOurServiceTemplate }) =>
             isOurServiceTemplate ? `${variables.pxToRem(22)}` : '0.9375rem'};
         }
+
         p:last-child {
           font-size: 1.125rem;
           line-height: 22rem;
@@ -112,8 +121,10 @@ const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: bool
       }
     }
   }
+
   && figure {
     margin: 0;
+
     .image {
       width: 172px;
       height: 306px;
@@ -245,9 +256,11 @@ const OurServiceLink = styled(Link)<{ isWhyUs?: boolean }>`
   opacity: 1;
   margin-top: ${variables.pxToRem(39.5)};
   margin-bottom: ${variables.pxToRem(64.5)};
+
   &:hover {
     color: ${variables.color.primary};
   }
+
   @media ${variables.device.laptop} {
     margin-top: ${variables.pxToRem(27.5)};
     margin-bottom: ${variables.pxToRem(76.5)};
@@ -311,9 +324,11 @@ const TeamMembers = ({
   return (
     <>
       {isWhyUs && (
-        <CustomSectionTitle>
-          meet the <span>bright</span> team
-        </CustomSectionTitle>
+        <a id='meet-the-bright-team' href='#meet-the-bright-team'>
+          <CustomSectionTitle>
+            meet the <span>bright</span> team
+          </CustomSectionTitle>
+        </a>
       )}
       <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!} isWhyUs={isWhyUs!} ref={ref}>
         <Container isWhyUs={isWhyUs!} isTeam={isTeam!}>
