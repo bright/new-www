@@ -80,9 +80,11 @@ export default function Values() {
   return (
     <CustomSection paddingMobileProps='0 1.125rem' paddingTablet='0 2.25rem' paddingProps='0 2.25rem'>
       <Container>
-        <CustomSectionTitle margin='186px 0 64px' mobileMargin='83px 0 44px'>
-          teamwork, responsibility and positive mindset
-        </CustomSectionTitle>
+        <a id='core-values' href='#core-values'>
+          <CustomSectionTitle margin='186px 0 64px' mobileMargin='83px 0 44px'>
+            teamwork, responsibility and positive mindset
+          </CustomSectionTitle>
+        </a>
         <CustomSectionInner>
           <TextRegular>
             We believe that bright ideas and bright products come out of bright minds. The success of projects we do is
