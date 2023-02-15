@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-02-15T09:58:55.125Z
 title: Advanced Search and Filtering with JPA Specifications in Kotlin
 layout: post
 image: /images/blogpost_search-1-.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
