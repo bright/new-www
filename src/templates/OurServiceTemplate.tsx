@@ -226,6 +226,7 @@ export default function Template({
         paddingTabletXL='6rem 0  6rem'
         paddingMobileProps='0 1.125rem 4rem'
         paddingTablet='5rem 2.25rem 0 '
+        paddingLaptop='6.5625rem 6rem 6.5rem'
       >
         <OurServiceSection>
           <CustomSectionInner>
