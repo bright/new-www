@@ -31,7 +31,7 @@ export interface EbookSignUp200Response {
      * @type {EbookSignUp200ResponseEbook}
      * @memberof EbookSignUp200Response
      */
-    ebook?: EbookSignUp200ResponseEbook;
+    ebook: EbookSignUp200ResponseEbook;
 }
 
 /**
@@ -39,6 +39,7 @@ export interface EbookSignUp200Response {
  */
 export function instanceOfEbookSignUp200Response(value: object): boolean {
     let isInstance = true;
+    isInstance = isInstance && "ebook" in value;
 
     return isInstance;
 }
@@ -53,7 +54,7 @@ export function EbookSignUp200ResponseFromJSONTyped(json: any, ignoreDiscriminat
     }
     return {
         
-        'ebook': !exists(json, 'ebook') ? undefined : EbookSignUp200ResponseEbookFromJSON(json['ebook']),
+        'ebook': EbookSignUp200ResponseEbookFromJSON(json['ebook']),
     };
 }
 

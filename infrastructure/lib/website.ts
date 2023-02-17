@@ -1,12 +1,13 @@
 import * as cdk from 'aws-cdk-lib'
 import { Arn, CfnOutput, Duration, RemovalPolicy } from 'aws-cdk-lib'
-import { Bucket } from 'aws-cdk-lib/aws-s3'
+import { Bucket, IBucket } from 'aws-cdk-lib/aws-s3'
 import {
   CloudFrontAllowedMethods,
   CloudFrontWebDistribution,
+  LambdaEdgeEventType,
   OriginAccessIdentity,
   OriginProtocolPolicy,
-  ViewerCertificate
+  ViewerCertificate,
 } from 'aws-cdk-lib/aws-cloudfront'
 import { Effect, PolicyStatement, User } from 'aws-cdk-lib/aws-iam'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
@@ -18,9 +19,12 @@ import { Rule, Schedule } from 'aws-cdk-lib/aws-events'
 import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets'
 import { Construct } from 'constructs'
 import { ENV_SPECIFIC_BASE } from './deploy-env'
+import { SourceConfiguration } from 'aws-cdk-lib/aws-cloudfront/lib/web-distribution'
 
 interface WebsiteProps {
   certificateArn: string
+  ebooksBucket: IBucket
+  ebooksOriginAccessIdentity: OriginAccessIdentity
   prefix?: string
   apiUrl: string
 }
@@ -80,21 +84,34 @@ export class Website extends cdk.Stack {
     const apiEndPointUrlWithoutProtocol = cdk.Fn.select(1, cdk.Fn.split('://', props.apiUrl))
     const apiEndPointDomainName = cdk.Fn.select(0, cdk.Fn.split('/', apiEndPointUrlWithoutProtocol))
 
+    const ebooksDownloadOrigin: SourceConfiguration = {
+      s3OriginSource: {
+        s3BucketSource: props.ebooksBucket,
+        originAccessIdentity: props.ebooksOriginAccessIdentity,
+      },
+      behaviors: [
+        {
+          pathPattern: '/ebooks/*', // this prefix must match ebooks s3 bucket content
+        },
+      ],
+    }
+
+    const apiOrigin: SourceConfiguration = {
+      customOriginSource: {
+        domainName: apiEndPointDomainName,
+        originProtocolPolicy: OriginProtocolPolicy.HTTPS_ONLY,
+      },
+      behaviors: [
+        {
+          allowedMethods: CloudFrontAllowedMethods.ALL,
+          pathPattern: '/api/*',
+        },
+      ],
+    }
     const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
       originConfigs: [
-        {
-          customOriginSource: {
-            domainName: apiEndPointDomainName,
-            originProtocolPolicy: OriginProtocolPolicy.HTTPS_ONLY,
-          },
-          behaviors: [
-            {
-              allowedMethods: CloudFrontAllowedMethods.ALL,
-              pathPattern: '/api/*',
-              isDefaultBehavior: false,
-            },
-          ],
-        },
+        ebooksDownloadOrigin,
+        apiOrigin,
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
           // however if we don't use gatsby-s3-deploy server side redirects
@@ -121,6 +138,8 @@ export class Website extends cdk.Stack {
 
     const stagingWebDistribution = new CloudFrontWebDistribution(this, 'staging-distribution', {
       originConfigs: [
+        ebooksDownloadOrigin,
+        apiOrigin,
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
           // however if we don't use gatsby-s3-deploy server side redirects

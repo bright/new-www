@@ -27,7 +27,7 @@ paths:
           application/json:
             schema:
               type: object
-              required: [name, email, consent]
+              required: [ name, email, consent ]
               properties:
                 name:
                   type: string
@@ -39,15 +39,19 @@ paths:
                   type: boolean
                   example: false
       responses:
+        '400': # status code
+          description: Bad requiest
         '200': # status code
           description: A link to the ebook, only valid in the user context
           content:
             application/json:
               schema:
                 type: object
+                required: [ ebook ]
                 properties:
                   ebook:
                     type: object
+                    required: [ name, url ]
                     properties:
                       name:
                         type: string

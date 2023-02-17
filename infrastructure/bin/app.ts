@@ -27,6 +27,8 @@ const api = new Api(app, deployEnvStackNameOf(Api), {
 new Website(app, {
   apiUrl: api.apiUrl,
   certificateArn: 'arn:aws:acm:us-east-1:339594496974:certificate/22e6ab03-13e4-4541-9094-128a8024c5f8',
+  ebooksBucket: api.ebooks,
+  ebooksOriginAccessIdentity: api.ebooksOriginAccessIdentity
 })
 
 const tags = Tags.of(app)

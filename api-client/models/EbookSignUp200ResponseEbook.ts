@@ -24,13 +24,13 @@ export interface EbookSignUp200ResponseEbook {
      * @type {string}
      * @memberof EbookSignUp200ResponseEbook
      */
-    name?: string;
+    name: string;
     /**
      * 
      * @type {string}
      * @memberof EbookSignUp200ResponseEbook
      */
-    url?: string;
+    url: string;
 }
 
 /**
@@ -38,6 +38,8 @@ export interface EbookSignUp200ResponseEbook {
  */
 export function instanceOfEbookSignUp200ResponseEbook(value: object): boolean {
     let isInstance = true;
+    isInstance = isInstance && "name" in value;
+    isInstance = isInstance && "url" in value;
 
     return isInstance;
 }
@@ -52,8 +54,8 @@ export function EbookSignUp200ResponseEbookFromJSONTyped(json: any, ignoreDiscri
     }
     return {
         
-        'name': !exists(json, 'name') ? undefined : json['name'],
-        'url': !exists(json, 'url') ? undefined : json['url'],
+        'name': json['name'],
+        'url': json['url'],
     };
 }
 

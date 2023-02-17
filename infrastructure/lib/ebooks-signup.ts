@@ -5,6 +5,7 @@ import { APIGatewayProxyResultV2 } from 'aws-lambda/trigger/api-gateway-proxy'
 import { DynamoDBDocument } from '@aws-sdk/lib-dynamodb'
 import { S3 } from '@aws-sdk/client-s3'
 import { ebooksBucketName } from './ebooks-bucket-name'
+import { EbookSignUp200Response } from '../../api-client'
 
 const dynamoDB = DynamoDBDocument.from(new DynamoDB({}))
 
@@ -15,13 +16,22 @@ const ebooksLoader = (async () => {
     Bucket: ebooksBucketName(),
   })
 
-  const ebooks = (books.Contents ?? []).map(object => ({ name: object.Key }))
+  const ebooks = (books.Contents ?? []).map(object => ({
+    name: object.Key!.replace(/.*\//g, ''),
+    key: object.Key
+  }))
 
   console.log('loaded', { ebooks })
   return ebooks
 })()
 
-function jsonResponse({ statusCode = 200, body }: { statusCode?: number; body: object }): APIGatewayProxyResultV2 {
+function jsonResponse<TResponseBody = object>({
+  statusCode = 200,
+  body,
+}: {
+  statusCode?: number
+  body: TResponseBody
+}): APIGatewayProxyResultV2 {
   return {
     statusCode: statusCode,
     body: JSON.stringify(body),
@@ -94,7 +104,12 @@ export const handler: APIGatewayProxyHandlerV2 = async event => {
     },
   })
 
-  return jsonResponse({
-    body: ebookToDownload,
+  return jsonResponse<EbookSignUp200Response>({
+    body: {
+      ebook: {
+        name: ebookName,
+        url: `https://brightinventions.pl/ebooks/${ebookName}`,
+      },
+    },
   })
 }
