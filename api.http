@@ -1,4 +1,4 @@
-POST {{baseUrl}}/api/ebooks/1_legenda.pdf/sign-up
+POST {{baseUrl}}/api/ebooks/ebook-eda-visuals/sign-up
 Content-Type: application/json
 
 {

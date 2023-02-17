@@ -6,6 +6,8 @@ import { DynamoDBDocument } from '@aws-sdk/lib-dynamodb'
 import { S3 } from '@aws-sdk/client-s3'
 import { ebooksBucketName } from './ebooks-bucket-name'
 import { EbookSignUp200Response } from '../../api-client'
+import { ebookBasename } from './ebook-basename'
+import { registerUserInGetresponse } from './getresponse-api'
 
 const dynamoDB = DynamoDBDocument.from(new DynamoDB({}))
 
@@ -18,7 +20,7 @@ const ebooksLoader = (async () => {
 
   const ebooks = (books.Contents ?? []).map(object => ({
     name: object.Key!.replace(/.*\//g, ''),
-    key: object.Key
+    key: object.Key,
   }))
 
   console.log('loaded', { ebooks })
@@ -84,7 +86,7 @@ export const handler: APIGatewayProxyHandlerV2 = async event => {
 
   const ebooks = await ebooksLoader
 
-  const ebookToDownload = ebooks.find(e => e.name == ebookName)
+  const ebookToDownload = ebooks.find(e => ebookBasename(e.name) == ebookBasename(ebookName))
 
   if (!ebookToDownload) {
     return jsonResponse({
@@ -104,11 +106,13 @@ export const handler: APIGatewayProxyHandlerV2 = async event => {
     },
   })
 
+  await registerUserInGetresponse({ ebookName, email, name })
+
   return jsonResponse<EbookSignUp200Response>({
     body: {
       ebook: {
         name: ebookName,
-        url: `https://brightinventions.pl/ebooks/${ebookName}`,
+        url: `https://brightinventions.pl/ebooks/${ebookToDownload.name}`,
       },
     },
   })

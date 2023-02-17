@@ -8,6 +8,8 @@ import { ebooksBucketName } from './ebooks-bucket-name'
 import { Table } from 'aws-cdk-lib/aws-dynamodb'
 import { deployEnv } from './deploy-env'
 import { OriginAccessIdentity } from 'aws-cdk-lib/aws-cloudfront'
+import { StringParameter } from 'aws-cdk-lib/aws-ssm'
+import { getresponseApiKeyParamName } from './getresponse-api-key-param-name'
 
 interface ApiProps {
   visitorsTable: Table
@@ -40,7 +42,13 @@ export class Api extends Stack {
       },
     })
 
+    const getresponseApiKey = StringParameter.fromSecureStringParameterAttributes(this, 'getresponse api key', {
+      parameterName: getresponseApiKeyParamName,
+    })
+    getresponseApiKey.grantRead(ebookSignUp)
+
     props.visitorsTable.grantReadWriteData(ebookSignUp)
+
     this.ebooks.grantRead(ebookSignUp)
 
     this.httpApi.addRoutes({

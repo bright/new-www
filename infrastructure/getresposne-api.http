@@ -1,0 +1,2 @@
+GET https://api.getresponse.com/v3/campaigns
+X-Auth-Token: api-key {{getresponseApiKey}}

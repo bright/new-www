@@ -9,8 +9,12 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
-    "openapi-generate": "openapi-generator-cli generate --generator-name typescript-fetch --output ../api-client --input-spec ../api.yml",
-    "openapi-validate": "openapi-generator-cli validate --input-spec ../api.yml"
+    "openapi-generate-blog-api": "openapi-generator-cli generate --generator-name typescript-fetch --output ../api-client --input-spec ../api.yml",
+    "openapi-validate-blog-api": "openapi-generator-cli validate --input-spec ../api.yml",
+    "getresponse-api-download": "curl https://apireference.getresponse.com/open-api.json --output ./getresponse-api-full.json",
+    "getresponse-api-filter": "npx openapi-filter --checkTags --flags 'User' -- ./getresponse-api-full.json ./getresponse-api.json",
+    "getresponse-api-generate": "openapi-generator-cli generate --skip-validate-spec --skip-operation-example --generator-name typescript-fetch --output ./get-response-client --input-spec ./getresponse-api.json",
+    "getresponse-api-filter.ts": "ts-node-transpile-only ./getresponse-api-filter.ts"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.77",
@@ -36,6 +40,9 @@
     "@aws-sdk/client-dynamodb":  "^3.272.0",
     "@aws-sdk/lib-dynamodb":  "^3.272.0",
     "@aws-sdk/client-s3":  "^3.272.0",
+    "@aws-sdk/client-ssm":  "^3.272.0",
+    "axios": "^1.3.3",
+    "openapi-filter": "^3.2.0",
     "luxon": "^1.27.0",
     "cloudfront-log-parser": "^1.2.0",
     "source-map-support": "^0.5.16",
