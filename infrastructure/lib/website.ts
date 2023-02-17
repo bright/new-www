@@ -2,6 +2,7 @@ import * as cdk from 'aws-cdk-lib'
 import { Arn, CfnOutput, Duration, RemovalPolicy } from 'aws-cdk-lib'
 import { Bucket } from 'aws-cdk-lib/aws-s3'
 import {
+  CloudFrontAllowedMethods,
   CloudFrontWebDistribution,
   OriginAccessIdentity,
   OriginProtocolPolicy,
@@ -16,17 +17,17 @@ import { Runtime } from 'aws-cdk-lib/aws-lambda'
 import { Rule, Schedule } from 'aws-cdk-lib/aws-events'
 import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets'
 import { Construct } from 'constructs'
-import { STACK_NAME_BASE } from './stack-name'
+import { ENV_SPECIFIC_BASE } from './deploy-env'
 
 interface WebsiteProps {
   certificateArn: string
   prefix?: string
+  apiUrl: string
 }
 
 export class Website extends cdk.Stack {
   constructor(scope: Construct, props: WebsiteProps) {
-
-    super(scope,  STACK_NAME_BASE)
+    super(scope, ENV_SPECIFIC_BASE)
 
     const originAccessIdentity = new OriginAccessIdentity(this, 'cloudfront access')
     const user = new User(this, 'GithubPagesDeploymentUser', {
@@ -39,16 +40,12 @@ export class Website extends cdk.Stack {
 
     const stagingBucket = new Bucket(this, 'staging-bucket', {
       bucketName: 'brightinventions-pl-website-content-staging',
-      removalPolicy: RemovalPolicy.DESTROY
+      removalPolicy: RemovalPolicy.DESTROY,
     })
 
-    const buckets = [productionBucket, stagingBucket]
+    const gatsbyContentBuckets = [productionBucket, stagingBucket]
 
-    buckets.forEach(bucket => {
-      bucket.addLifecycleRule({
-        expiration: Duration.days(30),
-      })
-
+    gatsbyContentBuckets.forEach(bucket => {
       bucket.grantRead(originAccessIdentity)
 
       bucket.grantReadWrite(user)
@@ -80,8 +77,24 @@ export class Website extends cdk.Stack {
     })
     const cloudfrontAccessLogPrefix = 'brightinventions-pl/cloudfront'
 
+    const apiEndPointUrlWithoutProtocol = cdk.Fn.select(1, cdk.Fn.split('://', props.apiUrl))
+    const apiEndPointDomainName = cdk.Fn.select(0, cdk.Fn.split('/', apiEndPointUrlWithoutProtocol))
+
     const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
       originConfigs: [
+        {
+          customOriginSource: {
+            domainName: apiEndPointDomainName,
+            originProtocolPolicy: OriginProtocolPolicy.HTTPS_ONLY,
+          },
+          behaviors: [
+            {
+              allowedMethods: CloudFrontAllowedMethods.ALL,
+              pathPattern: '/api/*',
+              isDefaultBehavior: false,
+            },
+          ],
+        },
         {
           // we don't use s3 origin as gatsby-s3-deploy features will not work
           // however if we don't use gatsby-s3-deploy server side redirects
@@ -105,7 +118,6 @@ export class Website extends cdk.Stack {
         prefix: cloudfrontAccessLogPrefix,
       },
     })
-
 
     const stagingWebDistribution = new CloudFrontWebDistribution(this, 'staging-distribution', {
       originConfigs: [

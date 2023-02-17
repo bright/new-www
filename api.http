@@ -1,0 +1,8 @@
+POST {{baseUrl}}/api/ebooks/1_legenda.pdf/sign-up
+Content-Type: application/json
+
+{
+  "consent": true,
+  "email": "piotr@bright.dev",
+  "name": "Piotr M."
+}

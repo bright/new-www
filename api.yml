@@ -1,0 +1,57 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Bright Website API
+
+servers:
+  - url: https://brightinventions.pl/api
+    description: Production API
+  - url: https://staging.brightinventions.pl/api
+    description: Staging API
+
+paths:
+  /ebooks/{ebookName}/sign-up:
+    post:
+      operationId: ebookSignUp
+      summary: Sign up for an e-book
+      description: Signs user up for newsletter and returns an ebook
+      parameters:
+        - name: ebookName
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [name, email, consent]
+              properties:
+                name:
+                  type: string
+                  example: Jhon Doe
+                email:
+                  type: string
+                  example: Jhon.Doe@gmail.com
+                consent:
+                  type: boolean
+                  example: false
+      responses:
+        '200': # status code
+          description: A link to the ebook, only valid in the user context
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ebook:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                        example: Risk management in software
+                      url:
+                        type: string
+                        example: https://brightinventions.pl

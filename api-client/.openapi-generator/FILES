@@ -1,0 +1,8 @@
+apis/DefaultApi.ts
+apis/index.ts
+index.ts
+models/EbookSignUp200Response.ts
+models/EbookSignUp200ResponseEbook.ts
+models/EbookSignUpRequest.ts
+models/index.ts
+runtime.ts
