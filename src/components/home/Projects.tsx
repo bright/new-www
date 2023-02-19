@@ -1,5 +1,5 @@
 import { graphql, Link, useStaticQuery } from 'gatsby'
-import React, { useRef } from 'react'
+import React from 'react'
 import { CustomSection, CustomSectionTitle } from '../shared'
 import SuccessStoryBox from './SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
@@ -10,7 +10,6 @@ import ScrollToTop from '../subcomponents/ScrollToTop'
 import { CustomTextRegular } from './../shared/index.styled'
 import { BehanceIcon } from '../icons/Behance.icon'
 import { DribbleIcon } from './../icons/Dribble.icon'
-import useOnScreen from '../utils/use-onscreen'
 
 export const ProjectCustomSection = styled(CustomSection)`
   & .success-story-wrapper {
@@ -312,11 +311,8 @@ export const Projects: React.FC<ProjectsProps> = ({
     projects = projectsArray!
   }
 
-  const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
-
   return (
-    <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem' ref={ref}>
+    <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem' >
       {isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
@@ -336,9 +332,7 @@ export const Projects: React.FC<ProjectsProps> = ({
           const currentProject: ProjectModel = { title, image, slug, layout, published: published ? 'true' : 'false' }
 
           return (
-            onScreen && (
-              <SuccessStoryBox key={ix} project={currentProject} className={`is-pulled-${ix % 2 ? 'right' : 'left'}`} />
-            )
+            <SuccessStoryBox key={ix} project={currentProject} className={`is-pulled-${ix % 2 ? 'right' : 'left'}`} />
           )
         })}
         {isSelectedTag && (
@@ -401,7 +395,7 @@ const GQL = graphql`
             title
             image {
               childImageSharp {
-                gatsbyImageData
+                gatsbyImageData(width: 120)
               }
             }
             layout
