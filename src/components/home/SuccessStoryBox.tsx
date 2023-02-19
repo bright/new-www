@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC, useRef } from 'react'
 import styled from 'styled-components'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
@@ -6,6 +6,7 @@ import { routeLinks } from '../../config/routing'
 import variables from '../../styles/variables'
 import { ProjectModel } from '../../models/gql'
 import { uniqBy } from 'lodash'
+import useOnScreen from '../utils/use-onscreen'
 
 const Container = styled.div`
   border: 1px solid #d3d3d3;
@@ -100,16 +101,20 @@ export interface SuccessStoryBoxProps {
 }
 
 const SuccessStoryBox: FC<SuccessStoryBoxProps> = ({ project, className }) => {
+  const ref: any = useRef<HTMLDivElement>()
+  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
   return (
-    <Container className={className}>
+    <Container className={className} ref={ref}>
       <Link to={routeLinks.projects + '/' + project.slug}>
         <Title>{project.title}</Title>
         <Image className='image'>
-          <GatsbyImage
-            imgStyle={{ objectFit: 'contain', height: '100%', width: '100%' }}
-            image={getImage(project.image)!}
-            alt={project.title}
-          />
+          {onScreen && (
+            <GatsbyImage
+              imgStyle={{ objectFit: 'contain', height: '100%', width: '100%' }}
+              image={getImage(project.image)!}
+              alt={project.title}
+            />
+          )}
         </Image>
       </Link>
     </Container>
