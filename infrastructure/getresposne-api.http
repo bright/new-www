@@ -1,2 +1,6 @@
 GET https://api.getresponse.com/v3/campaigns
 X-Auth-Token: api-key {{getresponseApiKey}}
+
+###
+GET https://api.getresponse.com/v3/custom-fields
+X-Auth-Token: api-key {{getresponseApiKey}}

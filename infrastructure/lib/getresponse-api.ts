@@ -28,7 +28,7 @@ interface GetresponseCampaign {
 }
 
 const getresponseCampaignsLoader = (async function getresponseCampaigns() {
-  const getresponseApi = await getresponseApiLoader;
+  const getresponseApi = await getresponseApiLoader
   const axiosResponse = await getresponseApi.get<GetresponseCampaign[]>('/campaigns', {
     params: {
       perPage: 1000,
@@ -42,16 +42,20 @@ interface GetresponseContact {
   email: string
 }
 
+const ReferrerUrlCustomFieldId = 'pLN0Zx'
+
 export async function registerUserInGetresponse({
   ebookName,
   name,
   email,
+  referrerUrl,
 }: {
   ebookName: string
   email: string
   name: string
+  referrerUrl: string | undefined
 }) {
-  const getresponseApi = await getresponseApiLoader;
+  const getresponseApi = await getresponseApiLoader
   const campaigns = await getresponseCampaignsLoader
   const ebookShortName = ebookBasename(ebookName).substring(0, 64)
   let campaignForEbook = campaigns.find(c => c.name.includes(ebookShortName))
@@ -76,13 +80,24 @@ export async function registerUserInGetresponse({
     {
       name,
       email,
+      dayOfCycle: '0',
       campaign: {
         campaignId: campaignForEbook.campaignId,
       },
+      customFieldValues: [
+        {
+          customFieldId: ReferrerUrlCustomFieldId,
+          value: [referrerUrl],
+        },
+      ].filter(customField => customField.value.some(value => isDefined(value))),
     },
     {
       validateStatus: (status: number) => status < 300 || status == 409,
     }
   )
   console.log({ contactCreatedResponse })
+}
+
+function isDefined<T>(value: T | null | undefined): value is T {
+  return value !== null && value !== undefined
 }

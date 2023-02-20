@@ -43,8 +43,12 @@ function jsonResponse<TResponseBody = object>({
   }
 }
 
-export const handler: APIGatewayProxyHandlerV2 = async event => {
+export const handler: APIGatewayProxyHandlerV2 = async (event, context) => {
   const { email, name, consent } = JSON.parse(event.body ?? '{}')
+
+  console.log('request', { headers: event.headers, context: context })
+  console.log('context', context)
+  const referrerUrl = event.headers['referer']
 
   if (!consent) {
     return jsonResponse({
@@ -106,7 +110,7 @@ export const handler: APIGatewayProxyHandlerV2 = async event => {
     },
   })
 
-  await registerUserInGetresponse({ ebookName, email, name })
+  await registerUserInGetresponse({ ebookName, email, name, referrerUrl })
 
   return jsonResponse<EbookSignUp200Response>({
     body: {

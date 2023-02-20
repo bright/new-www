@@ -105,9 +105,14 @@ export class Website extends cdk.Stack {
         {
           allowedMethods: CloudFrontAllowedMethods.ALL,
           pathPattern: '/api/*',
+          forwardedValues: {
+            queryString: true,
+            headers: ['referer'],
+          },
         },
       ],
     }
+
     const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
       originConfigs: [
         ebooksDownloadOrigin,

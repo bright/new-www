@@ -1,6 +1,6 @@
 import { CfnOutput, Stack } from 'aws-cdk-lib'
 import { Construct } from 'constructs'
-import { HttpApi, HttpMethod } from '@aws-cdk/aws-apigatewayv2-alpha'
+import { HttpApi, HttpMethod, MappingValue } from '@aws-cdk/aws-apigatewayv2-alpha'
 import { HttpLambdaIntegration } from '@aws-cdk/aws-apigatewayv2-integrations-alpha'
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 import { Bucket } from 'aws-cdk-lib/aws-s3'
@@ -10,6 +10,7 @@ import { deployEnv } from './deploy-env'
 import { OriginAccessIdentity } from 'aws-cdk-lib/aws-cloudfront'
 import { StringParameter } from 'aws-cdk-lib/aws-ssm'
 import { getresponseApiKeyParamName } from './getresponse-api-key-param-name'
+import { ParameterMapping } from '@aws-cdk/aws-apigatewayv2-alpha/lib/parameter-mapping'
 
 interface ApiProps {
   visitorsTable: Table
