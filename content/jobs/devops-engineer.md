@@ -1,6 +1,6 @@
 ---
-imagejob: /images/brightteam_devops_job_offer.png
-workplace_recruiter: HR & Marketing Manager
+imagejob: /images/qa_brightteam.png
+workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "DevOps Engineer "
@@ -10,7 +10,7 @@ hours: Full-time
 salary: 18 000 - 24 000 PLN + VAT (B2B) or 15 000 - 19 950 PLN gross (UoP)
 salary_min: 15000
 salary_max: 24000
-working time: 20-26 paid days off + Polish bank holidays
+working time: full time
 technology:
   - AWS
   - Kubernetes
@@ -27,11 +27,11 @@ links_more_about_us: >-
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
-name_recruiter: Ula
-image_recruiter_info: /images/ula_recruiter_hr.png
-image_alt_recruiter_info: Ula Stankiewicz - HR & Marketing Manager at Bright Inventions
-button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+name_recruiter: Agata
+image_recruiter_info: /images/agata_recruiter.png
+image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
 published: false
 show_recruiter_info: true
@@ -46,6 +46,16 @@ description: We are looking for a DevOps Engineer who has good knowledge of AWS
 We are a [team of talented developers, designers, managers and marketers from Gdańsk who value and apply the policy of trust and continuous feedback](/about-us/team/). We focus on cutting-edge technologies, innovations, and try to find simple structure in complex things.
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and client orientation are elemental parts of our culture. 
+
+## about the role
+
+We are looking now for a DevOps who has already had experience with AWS and would like to work with our experienced and ambitious development team. What counts is your positive mindset, analytical thinking ability as well as communication skills.
+
+**Starting projects:**
+
+1) [The existing web therapy application](https://circlesup.com/) where people can sign up and join particular groups of support led by professional therapists. The goal of the app is to make support accessible and affordable to everyone. Sharing and listening to others with the same pain, issue, or challenge, is extremely therapeutic. Circles that you find in the application are safe spaces to receive and give support. Currently the team is working on a redesign of the facilitating panel and data transfer optimisation. 
+
+2) The application is **a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch.  
 
 ## what you will do
 
@@ -70,20 +80,21 @@ We support and share responsibility with the members of our team. We also active
 * knowledge of TypeScript or Java/Kotlin
 * experience with Terraform or aws-cdk
 
-## what you will find at Bright Inventions
+## what you will find in our Bright Team 🧡
 
-* business contract depending on your needs
-* MultiSport card and private medical package Pzu Zdrowie
-* good equipment: MacBook and additional accessories
-* flexible working hours and remote work possibility 
-* mentoring programme and regular 1:1 meetings 
+* real impact on the implemented solutions and project growth
+* continuous **feedback culture**
+* **mentoring programme** and regular 1:1 meetings
+* **20-26 paid days off** + extra days for Polish public holidays (both B2B and permanent contract) 
+* office library with an **extra budget** for professional books
+* individual learning/educational budget
+* **MultiSport** card and **private medical** package
+* good equipment: **MacBook**, one/ two screens and additional accessories
+* **flexible working hours** and remote work possibility
 * Bright Day once a month for non-project stuff
-* extra budget for development 
-* internal dev's meetings 
-* English classes with business focus 
-* weekly sport classes and in-house yoga time 
-* quarter team retreats, unch roulette initiative, board games evenings
+* weekly **sport classes** with a professional coach
+* **free English** classes
+* quarter team buildings events
+* board games evenings, Friday yoga and lunch roulette initiative
 
-Sounds interesting? Don't hesitate and apply! 
-
-If in doubt, please contact directly ula@bright.dev. She would be happy to help!
+This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it!
