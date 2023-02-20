@@ -15,6 +15,7 @@ import TeamworkIcon from '../../assets/teamwork.svg'
 import PositiveAttitudeIcon from '../../assets/positive_Attitude.svg'
 import ClientOrientationIcon from '../../assets/client-orientation.svg'
 import variables from '../../styles/variables'
+import { Link } from 'gatsby'
 
 const Container = styled.div`
   max-width: 960px;
@@ -31,12 +32,12 @@ const Value = styled.div`
   display: flex;
   gap: ${variables.pxToRem(34)};
   justify-items: center;
-  margin-top: ${variables.pxToRem(64)};
+  padding-top: ${variables.pxToRem(80)};
 
   && figure {
     & svg {
       width: 142px;
-      margin-top: ${variables.pxToRem(63)};
+      margin-top: ${variables.pxToRem(43)};
     }
   }
 
@@ -47,7 +48,7 @@ const Value = styled.div`
     gap: ${variables.pxToRem(27)};
     flex-direction: column;
     align-items: center;
-    margin-top: ${variables.pxToRem(83)};
+    padding-top: ${variables.pxToRem(83)};
     && figure {
       & svg {
         width: 142px;
@@ -76,15 +77,31 @@ const DescriptionWrapper = styled.div`
   }
 `
 
+const OffsetAnchorLinkTitle = styled.div`
+  padding-top: ${variables.pxToRem(186)};
+  padding-bottom: ${variables.pxToRem(64)};
+
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(116)};
+    padding-bottom: ${variables.pxToRem(83)};
+  }
+  @media ${variables.device.mobile} {
+    padding-top: ${variables.pxToRem(83)};
+    padding-bottom: ${variables.pxToRem(44)};
+  }
+`
+
 export default function Values() {
   return (
     <CustomSection paddingMobileProps='0 1.125rem' paddingTablet='0 2.25rem' paddingProps='0 2.25rem'>
       <Container>
-        <a id='core-values' href='#core-values'>
-          <CustomSectionTitle margin='186px 0 64px' mobileMargin='83px 0 44px'>
-            teamwork, responsibility and positive mindset
-          </CustomSectionTitle>
-        </a>
+        <OffsetAnchorLinkTitle id='core-values'>
+          <Link to='#core-values' partiallyActive={true}>
+            <CustomSectionTitle margin='0 0 0px' mobileMargin='0' tabletMargin='0' tabletXLMargin='0' laptopMargin='0'>
+              teamwork, responsibility and positive mindset
+            </CustomSectionTitle>
+          </Link>
+        </OffsetAnchorLinkTitle>
         <CustomSectionInner>
           <TextRegular>
             We believe that bright ideas and bright products come out of bright minds. The success of projects we do is
@@ -93,15 +110,16 @@ export default function Values() {
           </TextRegular>
         </CustomSectionInner>
 
-        <Value>
+        <Value id='responsibility'>
           <figure>
             <ResponsibilityIcon />
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <a id='responsibility' href='#responsibility'>
+              <Link to='#responsibility' partiallyActive={true}>
                 <CustomTextTitle margin='0 0 36px'>Responsibility</CustomTextTitle>
-              </a>
+              </Link>
+
               <TextRegular>
                 We support and share responsibility with the members of our team. We also actively take responsibility
                 for our own self-development. Integrity, thoughtfulness and a sense of urgency is a crucial and
@@ -111,15 +129,16 @@ export default function Values() {
             </DescriptionWrapper>
           </CustomSectionInner>
         </Value>
-        <Value>
+        <Value id='flexibility'>
           <figure>
             <FlexibilityIcon />
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <a id='flexibility' href='#flexibility'>
+              <Link to='#flexibility' partiallyActive={true}>
                 <CustomTextTitle margin='0 0 36px'>Flexibility</CustomTextTitle>
-              </a>
+              </Link>
+
               <TextRegular>
                 We balance ambition with flexibility because what matters is the final result. We are nimble. We evolve
                 and adapt. People who work here are not afraid of taking risk and making mistakes as long as we learn
@@ -129,15 +148,16 @@ export default function Values() {
           </CustomSectionInner>
         </Value>
 
-        <Value>
+        <Value id='teamwork'>
           <figure>
             <TeamworkIcon />
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <a id='teamwork' href='#teamwork'>
+              <Link to='#teamwork' partiallyActive={true}>
                 <CustomTextTitle margin='0 0 36px'>Teamwork</CustomTextTitle>
-              </a>
+              </Link>
+
               <TextRegular>
                 It is only through teamwork that we achieve brightness. We are committed to helping our customers by
                 working together with equal parts of humility and ambition. We know each others' strengths and we also
@@ -148,15 +168,16 @@ export default function Values() {
           </CustomSectionInner>
         </Value>
 
-        <Value>
+        <Value id='positive-attitude'>
           <figure>
             <PositiveAttitudeIcon />
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <a id='positive-attitude' href='#positive-attitude'>
+              <Link to='#positive-attitude' partiallyActive={true}>
                 <CustomTextTitle margin='0 0 36px'>Positive attitude</CustomTextTitle>
-              </a>
+              </Link>
+
               <TextRegular>
                 We love what we do and the people around us. In fact, we believe that happy people are more motivated,
                 efficient and creative, so we bring a positive attitude to everything we do. It's good for you, for the
@@ -166,15 +187,16 @@ export default function Values() {
           </CustomSectionInner>
         </Value>
 
-        <Value>
+        <Value id='client-orientation'>
           <figure>
             <ClientOrientationIcon />
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <a id='client-orientation' href='#client-orientation'>
-                <CustomTextTitle margin='0 0 36px'>Client orientation</CustomTextTitle>
-              </a>
+              <Link to='#client-orientation' partiallyActive={true}>
+                <CustomTextTitle margin='0 0 0'>Client orientation</CustomTextTitle>
+              </Link>
+
               <TextRegular>
                 We are only successful if our clients are - and that drives everything we do. Clients trust us to build
                 things that work and we take that seriously. Our team will overcome obstacles, find solutions and

@@ -288,6 +288,19 @@ const MoreButtonTeamMembersWrapper = styled.div`
     width: 100%;
   }
 `
+const OffsetAnchorLink = styled.div`
+  padding-top: ${variables.pxToRem(154)};
+  padding-bottom: ${variables.pxToRem(105)};
+
+  @media ${variables.device.laptop} {
+    padding-top: ${variables.pxToRem(116)};
+    padding-bottom: ${variables.pxToRem(83)};
+  }
+  @media ${variables.device.mobile} {
+    padding-top: ${variables.pxToRem(82)};
+    padding-bottom: ${variables.pxToRem(64)};
+  }
+`
 
 interface TeamMembersProps {
   authorIdsArray?: string[]
@@ -324,11 +337,13 @@ const TeamMembers = ({
   return (
     <>
       {isWhyUs && (
-        <a id='meet-bright-team' href='#meet-bright-team'>
-          <CustomSectionTitle>
-            meet <span>bright</span> team
-          </CustomSectionTitle>
-        </a>
+        <OffsetAnchorLink id='meet-bright-team'>
+          <Link to='#meet-bright-team' partiallyActive={true}>
+            <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
+              meet <span>bright</span> team
+            </CustomSectionTitle>
+          </Link>
+        </OffsetAnchorLink>
       )}
       <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!} isWhyUs={isWhyUs!} ref={ref}>
         <Container isWhyUs={isWhyUs!} isTeam={isTeam!}>
