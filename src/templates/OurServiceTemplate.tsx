@@ -63,7 +63,7 @@ export default function Template({
 
       if (index >= 0 && myRef.current) {
         handleShow(index)
-        const yOffset = 300
+        const yOffset = 400
         const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
 
         setTimeout(() => {
