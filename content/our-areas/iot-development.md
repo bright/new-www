@@ -31,7 +31,7 @@ slug: iot-development
 short_description: We specialise in the Internet of Things solutions. We build
   IoT software for restaurants, retail, eHealth and fintech industries.
 order: 9
-title: build innovation with IoT development
+title: build products with IoT development
 highlighted_word: IoT
 image_our_service_desktop: /images/iot_development_company_desktop_big.png
 image_our_service_mobile: /images/iot_ehealth_mobile.png
@@ -63,7 +63,7 @@ image_alt_our_service_mobile: IoT company
 title_contact: let’s talk about your IoT solution
 description_contact: It doesn’t matter if your project is just an idea or you
   have already been developing an existing system. We will help you in any phase
-  of your software development. Fill out the form below.
+  of your IoT development. Fill out the form below.
 description_mdx: We are Bright Inventions – a software development company
   specializing in the Internet of Things solutions. We build IoT software for
   restaurants, retail, eHealth and fintech industries. Since 2012 we have
@@ -77,18 +77,18 @@ The Internet of Things (IoT) is easily described as a **network of various devic
 
 If you plan to sell or build devices connected with mobile applications, then consider hiring IoT experts who will create the right software for the devices.
 
-## is the IoT solutions company a good fit for you?
+## is the IoT development company a good fit for you?
 
 Internet of Things is an integral part of the software development process for many industries. You may need an IoT provider especially when:
 
 ### you represent the retail industry
 
-As a retail business, you probably need software compatible with ePOS. Our team has worked with dozens of ePOS devices developing web as well as  Android & iOS applications that are used by thousands of restaurants across Europe.
+As a retail business, you probably need **software compatible with ePOS**. Our team has worked with dozens of ePOS devices developing web as well as **Android & iOS applications** that are used by thousands of restaurants across Europe.
 
 ### you represent the healthcare industry
 
-For our client [vCare](/projects/vCare/) we have developed software that enables telemedicine. Our team have built software connecting with such devices as: Bluetooth thermometer, pulse oximeter and more.
+For our client [vCare](/projects/vCare/) we have developed software that enables **telemedicine.** Our team has built software connecting with such devices as Bluetooth thermometer, pulse oximeter and more.
 
 ### you represent the fintech industry
 
-Do you want to develop an app integrated with an external card reader? Or need devices and software that are going to authorise the transactions? We have worked with hardware for Fintech and we are ready to assist you with your fintech IoT project. What is more, as blockchain experts we offer to develop your IoT solutions with blockchain technology.
+Do you want to develop an **app integrated with an external card reader**? Or need devices and software that are going to authorise the transactions? We have worked with hardware for Fintech and we are ready to assist you with your fintech IoT project. What is more, as blockchain experts we offer to develop your IoT solutions with blockchain technology.
