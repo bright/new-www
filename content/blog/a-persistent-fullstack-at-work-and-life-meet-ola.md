@@ -85,3 +85,11 @@ Definitely. When you train for swimming, you have two workouts a day. The first 
 Also, you have to be engaged and persistent to go on like that. **I stay focused on my goals and relentlessly try to reach them**. That’s really helpful at my work. **When I have a tech problem, I will work on it till I figure it out. It‘s tough to discourage me**. 
 
 <div class="image"><img src="/images/ola_quote_problem.png" alt="Ola's quote" title="Ola's quote"  /> </div>
+
+## Do you have some work goals for 2023? Is there anything you want to learn?
+
+I just want to be a better programmer. I'm currently at a point where I feel a little overwhelmed by a variety of things I would like to learn immediately. Yet I need to stay organized. So for 2023, the plan is to **expand my programming skills** using React and become **more confident in DevOps staff**.
+
+## An athlete and a musician… Are you a fullstack in life too? ;) Are you untalented in something?
+
+Nothing comes to my mind right now. 😀 When I decide to learn something, I do it. I think **talent is not the main factor, our character is**. With hard work, you can achieve anything you want.
