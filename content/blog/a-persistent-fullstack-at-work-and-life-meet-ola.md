@@ -44,7 +44,7 @@ I actually **have heard a lot of great things about Bright Inventions** from [Ma
 
 However, at that time I didn’t feel like changing a job, so I passed the offer to [Maciej](/about-us/maciej-n/), a friend of mine. He applied and joined the team before me. Since then he started to tell me how awesome it was here and that I should join. I got the courage to make a change. **Joining Bright Inventions became my dream that came true in 2021**. 
 
-## Wow. I had no idea. Let the record show that the marketing department didn’t force you to tell this story. ;) And how do you recall your job interview?
+## Wow. I had no idea. Let the record show that the marketing department didn’t force you to tell this story. 😄 And how do you recall your job interview?
 
 Great. I had a job interview with [Michał](/about-us/michal-k/) (mostly), [Piotr](/about-us/piotr/), and [Ula](/about-us/ula/). It’s hard to really call it an interview. **It was like a conversation with other programmers**. I felt that **everyone wanted to get to know me**. This looked totally different compared to my previous interviews. I didn’t feel during the whole meeting (which lasted over 2 hours) that I was being evaluated in any way. Obviously, I had to be, but no one made me feel that I was.
 
