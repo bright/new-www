@@ -55,3 +55,5 @@ Even if I didn’t know the answer to a question or hadn’t worked with some to
 Not at all. When I log in to work every morning, I join our Slack community. We’ve got various Slack channels and a lot is going on there. I can feel the friendly atmosphere even through the internet. **I don’t need to be at the office to feel like at the office**.
 
 <div class="image"><img src="/images/ola_passion.png" alt="Ola's passions" title="Ola's passions"  /> </div>
+
+Naturally, it's nice to visit our office from time to time. Sometimes I miss kitchen conversations, spending offline time with colleagues, etc. However, **I don’t feel any distance between me and the office on a daily basis**.
