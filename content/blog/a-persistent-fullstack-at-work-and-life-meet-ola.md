@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-02-21T08:42:14.139Z
 title: A Persistent Fullstack at Work and Life. Meet Ola
 layout: post
 image: /images/brightstoryolaz.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
