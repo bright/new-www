@@ -1,7 +1,7 @@
 ---
 layout: job
 title: Flutter Developer
-subtitle: ONGOING
+subtitle: OPENING SOON 
 imagejob: /images/androidteam2.png
 image-alt-job: Flutter Team Bright Inventions
 hours: full-time
@@ -34,7 +34,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our mobile team
 published: true
 show_recruiter_info: true
-order: 1
+order: 6
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 ---
