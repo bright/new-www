@@ -49,3 +49,9 @@ However, at that time I didn’t feel like changing a job, so I passed the offer
 Great. I had a job interview with [Michał](/about-us/michal-k/) (mostly), [Piotr](/about-us/piotr/), and [Ula](/about-us/ula/). It’s hard to really call it an interview. **It was like a conversation with other programmers**. I felt that **everyone wanted to get to know me**. This looked totally different compared to my previous interviews. I didn’t feel during the whole meeting (which lasted over 2 hours) that I was being evaluated in any way. Obviously, I had to be, but no one made me feel that I was.
 
 Even if I didn’t know the answer to a question or hadn’t worked with some tools or frameworks, I felt that they didn’t take that against me. I would recommend anyone to attend the interview at Bright Inventions. 😊
+
+## You live and work almost 600 km from our office in Gdańsk. Do you feel that distance?
+
+Not at all. When I log in to work every morning, I join our Slack community. We’ve got various Slack channels and a lot is going on there. I can feel the friendly atmosphere even through the internet. **I don’t need to be at the office to feel like at the office**.
+
+<div class="image"><img src="/images/ola_passion.png" alt="Ola's passions" title="Ola's passions"  /> </div>
