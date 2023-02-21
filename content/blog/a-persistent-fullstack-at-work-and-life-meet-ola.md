@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-02-21T08:42:14.139Z
 title: A Persistent Fullstack at Work and Life. Meet Ola
 layout: post
 image: /images/brightstoryolaz.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -44,7 +44,7 @@ I actually **have heard a lot of great things about Bright Inventions** from [Ma
 
 However, at that time I didn’t feel like changing a job, so I passed the offer to [Maciej](/about-us/maciej-n/), a friend of mine. He applied and joined the team before me. Since then he started to tell me how awesome it was here and that I should join. I got the courage to make a change. **Joining Bright Inventions became my dream that came true in 2021**. 
 
-## Wow. I had no idea. Let the record show that the marketing department didn’t force you to tell this story. ;) And how do you recall your job interview?
+## Wow. I had no idea. Let the record show that the marketing department didn’t force you to tell this story. 😄 And how do you recall your job interview?
 
 Great. I had a job interview with [Michał](/about-us/michal-k/) (mostly), [Piotr](/about-us/piotr/), and [Ula](/about-us/ula/). It’s hard to really call it an interview. **It was like a conversation with other programmers**. I felt that **everyone wanted to get to know me**. This looked totally different compared to my previous interviews. I didn’t feel during the whole meeting (which lasted over 2 hours) that I was being evaluated in any way. Obviously, I had to be, but no one made me feel that I was.
 
@@ -84,7 +84,7 @@ Music is still an important part of my life. I used to play a lot of sonatas and
 
 Definitely. When you train for swimming, you have two workouts a day. The first one before school, the second after. So I had to wake up at 5 am. Besides, I had other extra activities like flute lessons. Thanks to all of that **I learned discipline**. Having so much going on during the day didn’t affect my school performance. It might sound like bragging, but I was always getting top grades. I believe **having less time helped me actually to manage it better**. 
 
-Also, you have to be engaged and persistent to go on like that. **I stay focused on my goals and relentlessly try to reach them**. That’s really helpful at my work. **When I have a tech problem, I will work on it till I figure it out. It‘s tough to discourage me**. 
+Also, you have to be engaged and persistent to go on like that. **I stay focused on my goals and relentlessly try to reach them**. That’s really helpful at my work. **When I have a tech problem, I will work on it till I figure it out.** It‘s tough to discourage me. 
 
 <div class="image"><img src="/images/ola_quote_problem.png" alt="Ola's quote" title="Ola's quote"  /> </div>
 
