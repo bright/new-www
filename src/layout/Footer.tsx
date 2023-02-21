@@ -95,7 +95,7 @@ export const Footer = () => {
               <Link to={routeLinks.blog}>blog</Link>
             </p>
             <p className='content'>
-              <a href='https://bright-dev-newsletter.getresponsepages.com/'>newsletter</a>
+              <a href='https://bright-dev-newsletter.getresponsepages.com/' target='_blank' rel='noopener noreferrer nofollow'>newsletter</a>
             </p>
           </div>
 
