@@ -10,7 +10,6 @@ import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { useLocation } from '@reach/router'
 import { MDXComponentsWrapper } from '../mdx'
 import CookiesNotice from '../analytics/cookies-notice'
-import { isBrowser } from '../utils'
 
 export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ children, className }) => {
   const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
@@ -36,7 +35,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
 
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       <MDXComponentsWrapper>{children}</MDXComponentsWrapper>
-      {isBrowser() ? <CookiesNotice /> : <div></div>}
+      <CookiesNotice />
       <Footer />
     </div>
   )
