@@ -1,16 +1,16 @@
 ---
-imagejob: /images/brightteam_devops_job_offer.png
-workplace_recruiter: HR & Marketing Manager
+imagejob: /images/qa_brightteam.png
+workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "DevOps Engineer "
 subtitle: ONGOING
 image-alt-job: Bright Inventions team
 hours: Full-time
-salary: 18 000 - 24 000 PLN + VAT (B2B) or 15 000 - 19 950 PLN gross (UoP)
-salary_min: 15000
-salary_max: 24000
-working time: 20-26 paid days off + Polish bank holidays
+salary: 20 000 - 25 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
+salary_min: 16600
+salary_max: 25000
+working time: full time
 technology:
   - AWS
   - Kubernetes
@@ -27,15 +27,15 @@ links_more_about_us: >-
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
-name_recruiter: Ula
-image_recruiter_info: /images/ula_recruiter_hr.png
-image_alt_recruiter_info: Ula Stankiewicz - HR & Marketing Manager at Bright Inventions
-button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+name_recruiter: Agata
+image_recruiter_info: /images/agata_recruiter.png
+image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our Bright team
-published: false
+published: true
 show_recruiter_info: true
-order: 8
+order: 3
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: DevOps task
 description: We are looking for a DevOps Engineer who has good knowledge of AWS
@@ -43,9 +43,16 @@ description: We are looking for a DevOps Engineer who has good knowledge of AWS
 ---
 ## who we are
 
-We are a [team of talented developers, designers, managers and marketers from Gdańsk who value and apply the policy of trust and continuous feedback](/about-us/team/). We focus on cutting-edge technologies, innovations, and try to find simple structure in complex things.
+We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and client orientation are crucial parts of our culture. 
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and client orientation are elemental parts of our culture. 
+## about the role
+
+The role is dedicated to an experienced DevOps Engineer who would like to build software delivery pipelines, deploy and monitor services, and learn from incidents. If you have already had experience with AWS, you might be a good fit here. **Apart from technical skills what counts are your positive mindset, solution-oriented attitude as well as communication skills.** 
+
+In the beginning of our cooperation you might be engaged in the projects described below, however, depending on your availability and business priorities, they may also alter. Please use them only as a starting point of reference. We focus on a long-term cooperation and you have to keep in mind that the projects you are involved in will be changing in the future. 
+
+1. [The web therapy application](https://circlesup.com/) **the goal of which is to make support accessible and affordable to everyone.** People can sign up and join particular groups of support led by professional therapists. Sharing and listening to others with the same pain, issue, or challenge, is extremely therapeutic. Currently the team is working on a redesign of the facilitating panel and data transfer optimisation. 
+2.  **The new next generation passwordless authentication system that is used by millions of users worldwide on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch.  
 
 ## what you will do
 
@@ -59,7 +66,7 @@ We support and share responsibility with the members of our team. We also active
 
 * good knowledge and experience with AWS cloud services
 * experience with reliable multi-region architectures
-* experience with managing Kubernetes in production
+* experience with managing Docker/Kubernetes in production
 * experience in building continuous delivery pipelines
 * good scripting skills
 * the ability to work independently as well as in a team
@@ -68,22 +75,22 @@ We support and share responsibility with the members of our team. We also active
 ## nice-to-haves
 
 * knowledge of TypeScript or Java/Kotlin
-* experience with Terraform or aws-cdk
+* experience with Terraform or AWS CDK
 
-## what you will find at Bright Inventions
+## what you will find in our Bright Team 🧡
 
-* business contract depending on your needs
-* MultiSport card and private medical package Pzu Zdrowie
-* good equipment: MacBook and additional accessories
-* flexible working hours and remote work possibility 
-* mentoring programme and regular 1:1 meetings 
+* real impact on the implemented solutions and project growth
+* continuous **feedback culture**
+* **mentoring programme** and regular 1:1 meetings
+* **flexible working hours** (we start betwee 7.00 -10.00 a.m.) 
+* **20-26 paid days off** + extra days for Polish public holidays 
+* **individual training budget** and office library 
+* **MultiSport** card and **private medical** package
+* good equipment: **MacBook**, one/ two screens and additional accessories
 * Bright Day once a month for non-project stuff
-* extra budget for development 
-* internal dev's meetings 
-* English classes with business focus 
-* weekly sport classes and in-house yoga time 
-* quarter team retreats, unch roulette initiative, board games evenings
+* **free English** classes in small groups with a native speaker 
+* weekly **running, swimming and cycling classes** with a professional coach
+* quarter team buildings events
+* board games evenings, Friday yoga and lunch roulette initiative
 
-Sounds interesting? Don't hesitate and apply! 
-
-If in doubt, please contact directly ula@bright.dev. She would be happy to help!
+This is an opportunity to be part of a great ambitious team and to help us shape the future of software development solutions. Take it!
