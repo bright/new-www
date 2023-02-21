@@ -84,7 +84,7 @@ Music is still an important part of my life. I used to play a lot of sonatas and
 
 Definitely. When you train for swimming, you have two workouts a day. The first one before school, the second after. So I had to wake up at 5 am. Besides, I had other extra activities like flute lessons. Thanks to all of that **I learned discipline**. Having so much going on during the day didn’t affect my school performance. It might sound like bragging, but I was always getting top grades. I believe **having less time helped me actually to manage it better**. 
 
-Also, you have to be engaged and persistent to go on like that. **I stay focused on my goals and relentlessly try to reach them**. That’s really helpful at my work. **When I have a tech problem, I will work on it till I figure it out. It‘s tough to discourage me**. 
+Also, you have to be engaged and persistent to go on like that. **I stay focused on my goals and relentlessly try to reach them**. That’s really helpful at my work. **When I have a tech problem, I will work on it till I figure it out.** It‘s tough to discourage me. 
 
 <div class="image"><img src="/images/ola_quote_problem.png" alt="Ola's quote" title="Ola's quote"  /> </div>
 
