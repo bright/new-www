@@ -37,3 +37,15 @@ Never. I believe that the path I made to become a software developer was the way
 I started my career as a **backend developer**. I first worked with **Java**. Then I got a chance at work to develop as a frontend dev as well. So I learned **TypeScript and Angular**. I realized that **I prefer to look at software holistically**. I like to know what happens on both sides.
 
 <div class="image"><img src="/images/ola_quote_fullstack.png" alt="Ola's quote" title="Ola's quote"  /> </div>
+
+## How did you get at Bright Inventions?
+
+I actually **have heard a lot of great things about Bright Inventions** from [Maja](/about-us/maja/). She works here and has been my friend since middle school. She even sent me a Bright Inventions job offer in 2020 saying “Isn’t that you?”. 😏 In fact, I read the requirements and I really felt like it was written for me.
+
+However, at that time I didn’t feel like changing a job, so I passed the offer to [Maciej](/about-us/maciej-n/), a friend of mine. He applied and joined the team before me. Since then he started to tell me how awesome it was here and that I should join. I got the courage to make a change. **Joining Bright Inventions became my dream that came true in 2021**. 
+
+## Wow. I had no idea. Let the record show that the marketing department didn’t force you to tell this story. ;) And how do you recall your job interview?
+
+Great. I had a job interview with [Michał](/about-us/michal-k/) (mostly), [Piotr](/about-us/piotr/), and [Ula](/about-us/ula/). It’s hard to really call it an interview. **It was like a conversation with other programmers**. I felt that **everyone wanted to get to know me**. This looked totally different compared to my previous interviews. I didn’t feel during the whole meeting (which lasted over 2 hours) that I was being evaluated in any way. Obviously, I had to be, but no one made me feel that I was.
+
+Even if I didn’t know the answer to a question or hadn’t worked with some tools or frameworks, I felt that they didn’t take that against me. I would recommend anyone to attend the interview at Bright Inventions. 😊
