@@ -79,7 +79,7 @@ If you plan to sell or build devices connected with mobile applications, then co
 
 ## is the IoT development company a good fit for you?
 
-Internet of Things is an integral part of the software development process for many industries. You may need an IoT provider especially when:
+Internet of Things is an integral part of the software development process for many industries. You may need an IoT agency especially when:
 
 ### you represent the retail industry
 
