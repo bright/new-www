@@ -57,3 +57,23 @@ Not at all. When I log in to work every morning, I join our Slack community. We�
 <div class="image"><img src="/images/ola_passion.png" alt="Ola's passions" title="Ola's passions"  /> </div>
 
 Naturally, it's nice to visit our office from time to time. Sometimes I miss kitchen conversations, spending offline time with colleagues, etc. However, **I don’t feel any distance between me and the office on a daily basis**.
+
+## Tell us more about a project you work on.
+
+I am a part of a team working on the **German [Relevo](/projects/eco-friendly-app) app**. Thanks to the app users can order a pizza or buy a meal and coffee for takeout in **reusable packages**. **The goal is to limit plastic waste**. The idea behind the project is really cool. We develop **iOS and Android apps** for end users. We also have **two frontend web apps**. One is for the client to manage all the restaurants that cooperate with them. Another is for the actual restaurants.
+
+The backend is developed in Node.js, we use the NestJS framework. The frontend is done in React. The team consists of 6 people including mobile developers and fullstack devs. Our PM, Mateusz, watches over the whole development process.
+
+## What are the challenges of this project?
+
+One of the technical challenges is **developing an offline mode**. This is something we are working on currently. 
+
+For me, **a challenge is backward compatibility too**. I’ve never worked with mobile apps before, so maintaining backward compatibility is something new. It changed the way I worked. Now I have to ensure that my release won’t affect previous versions of the apps. You need to have everything under control. 
+
+## You play the transverse flute. Why did you choose this instrument?
+
+One day at a school assembly, probably at the beginning of the school year, my teacher played the transverse flute. **Once I heard it I was enchanted by this sound**. I remember it clearly, even though I was 7 then. The idea was planted in my mind that I could play too. I started to practice a couple of years later, in 5th grade. 
+
+Music is still an important part of my life. I used to play a lot of sonatas and etudes. **Nowadays, I play mostly movie scores and top songs** in a duo with my husband who is a guitarist. Guitar and transverse flute aren’t a typical match, but it works out well for us. 😊
+
+<div class="image"><img src="/images/ola_passion2.png" alt="Ola's passions" title="Ola's passions"  /> </div>
