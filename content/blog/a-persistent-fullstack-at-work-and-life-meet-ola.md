@@ -20,7 +20,7 @@ published: true
 
 ## You’re a Civil Engineer by profession. Why did you change your career to software development?
 
-Because I’ve found out that **software development fits my character and personality even more**.
+Because I’ve found out that **[software development](/) fits my character and personality even more**.
 
 In my school times, I had a great math teacher, who awoke my passion for mathematical riddles and solving complex tasks. What’s important – getting joy and satisfaction out of it.
 
