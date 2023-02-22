@@ -31,8 +31,8 @@ slug: iot-development
 short_description: We specialise in the Internet of Things solutions. We build
   IoT software for restaurants, retail, eHealth and fintech industries.
 order: 9
-title: build products with IoT development
-highlighted_word: IoT
+title: build products with IoT development company
+highlighted_word: IoT development
 image_our_service_desktop: /images/iot_development_company_desktop_big.png
 image_our_service_mobile: /images/iot_ehealth_mobile.png
 image_alt_our_service: IoT company
