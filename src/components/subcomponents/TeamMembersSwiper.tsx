@@ -25,15 +25,18 @@ const TeamMember = styled.article`
       opacity: 1;
     }
   }
+
   && a {
     display: flex;
     flex-direction: column;
 
     color: ${variables.color.text};
+
     p {
       margin: 0;
     }
   }
+
   @media ${variables.device.tablet} {
     min-height: ${variables.pxToRem(491)};
   }
@@ -72,22 +75,26 @@ const NameWrapper = styled.div`
   flex-direction: column;
   gap: ${variables.pxToRem(10)};
   flex-grow: 1;
+
   p strong {
     font-family: ${variables.font.customtitle.monserat};
     font-weight: 900;
     font-size: 2rem;
     line-height: 39px;
   }
+
   p:nth-child(2) {
     font-family: ${variables.font.customtitle.monserat};
     font-size: 1.25rem;
     line-height: 24px;
   }
+
   p:last-child {
     font-size: 1.125rem;
     line-height: 22px;
     color: ${variables.color.text};
   }
+
   @media ${variables.device.mobile} {
     padding: 0 ${clampBuilder(320, 581, 14, 25)} ${clampBuilder(320, 581, 20, 32)};
 
@@ -95,10 +102,12 @@ const NameWrapper = styled.div`
       font-size: ${variables.pxToRem(22)};
       line-height: ${variables.pxToRem(27)};
     }
+
     p:nth-child(2) {
       font-size: ${variables.pxToRem(18)};
       line-height: ${variables.pxToRem(22)};
     }
+
     p:last-child {
       font-size: 1.125rem;
       line-height: 22rem;
@@ -115,9 +124,11 @@ const OurServiceLink = styled(Link)`
   opacity: 1;
   margin-top: ${variables.pxToRem(39.5)};
   margin-bottom: ${variables.pxToRem(64.5)};
+
   &:hover {
     color: ${variables.color.primary};
   }
+
   @media ${variables.device.laptop} {
     margin-top: ${variables.pxToRem(27.5)};
     margin-bottom: ${variables.pxToRem(76.5)};
@@ -131,11 +142,9 @@ const OurServiceLink = styled(Link)`
 interface Props {
   authorIdsArray: string[]
 }
+
 const TeamMemebersSwiper: React.FC<Props> = ({ authorIdsArray }) => {
   const members = useAuthors({ authorIdsArray })
-  const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
-
   return (
     <>
       <Swiper
@@ -152,26 +161,22 @@ const TeamMemebersSwiper: React.FC<Props> = ({ authorIdsArray }) => {
       >
         {members.map(member => (
           <SwiperSlide key={member.authorId}>
-            <TeamMember ref={ref}>
+            <TeamMember>
               <Link to={routeLinks.aboutUs(member)}>
                 <AvatarWrapper>
-                  {onScreen && (
-                    <>
-                      <GatsbyImage
-                        image={getImage(member.avatar)!}
-                        alt={member.name}
-                        className='avatar1'
-                        imgClassName='image'
-                      />
+                  <GatsbyImage
+                    image={getImage(member.avatar)!}
+                    alt={member.name}
+                    className='avatar1'
+                    imgClassName='image'
+                  />
 
-                      <GatsbyImage
-                        image={getImage(member.avatar_hover)!}
-                        alt={member.name}
-                        className='avatar2'
-                        imgClassName='image'
-                      />
-                    </>
-                  )}
+                  <GatsbyImage
+                    image={getImage(member.avatar_hover)!}
+                    alt={member.name}
+                    className='avatar2'
+                    imgClassName='image'
+                  />
                 </AvatarWrapper>
                 <NameWrapper>
                   <p>
