@@ -6,7 +6,24 @@ import { TextRegular } from '../components/shared/index.styled'
 import styled from 'styled-components'
 import variables from '../styles/variables'
 import { ModalCookies } from './modal-cookies'
-import { hasUserDecidedOnAnalyticsConsentCookieName, onAllowAll } from './local-storage-constants'
+import {
+  hasUserDecidedOnAnalyticsConsentCookieName,
+  onAllowAll,
+} from './local-storage-constants'
+import type { CookieConsentProps } from 'react-cookie-consent/dist/CookieConsent.props'
+
+const isEagerCookieConsentEnabled = process.env.GATSBY_COOKIE_CONSENT_EAGER_RENDER_ENABLED === 'true'
+const isCookieConsentVisibleByDefault = isEagerCookieConsentEnabled
+
+class EagerCookieConsent extends CookieConsent {
+  constructor(props: CookieConsentProps, context: any) {
+    super(props, context)
+    this.state = {
+      ...this.state,
+      visible: isCookieConsentVisibleByDefault,
+    }
+  }
+}
 
 const SectionNotice = styled.section`
   & .wrapper-button {
@@ -153,7 +170,7 @@ function CookiesNotice() {
 
   return (
     <SectionNotice>
-      <CookieConsent
+      <EagerCookieConsent
         location='bottom'
         buttonText='allow cookies'
         cookieName={hasUserDecidedOnAnalyticsConsentCookieName}
@@ -184,7 +201,7 @@ function CookiesNotice() {
             closeModal={closeModal}
           />
         </div>
-      </CookieConsent>
+      </EagerCookieConsent>
     </SectionNotice>
   )
 }
