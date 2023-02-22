@@ -95,7 +95,9 @@
     "patch-package": "^6.4.7",
     "postinstall-postinstall": "^2.1.0",
     "prettier": "2.0.4",
-    "sass": "^1.54.0"
+    "sass": "^1.54.0",
+    "ts-node": "^10.9.1",
+    "@aws-sdk/client-s3": "^3.276.0"
   },
   "keywords": [
     "gatsby"
@@ -116,7 +118,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "script:blogPosts": "node ./scripts/fixBlogPosts.js",
     "fix-cannonical": "ts-node ./fix-cannonical.ts",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "copy-html-with-consent-enabled": "ts-node ./copy-html-pages-with-consent-enabled-to-s3.ts"
   },
   "repository": {
     "type": "git",

@@ -35,5 +35,10 @@
   "exclude": ["cdk.out"],
   "files": [
     "yaml.d.ts"
-  ]
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
 }
