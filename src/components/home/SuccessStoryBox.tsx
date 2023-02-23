@@ -101,20 +101,16 @@ export interface SuccessStoryBoxProps {
 }
 
 const SuccessStoryBox: FC<SuccessStoryBoxProps> = ({ project, className }) => {
-  const ref: any = useRef<HTMLDivElement>()
-  const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
   return (
-    <Container className={className} ref={ref}>
+    <Container className={className}>
       <Link to={routeLinks.projects + '/' + project.slug}>
         <Title>{project.title}</Title>
         <Image className='image'>
-          {onScreen && (
-            <GatsbyImage
-              imgStyle={{ objectFit: 'contain', height: '100%', width: '100%' }}
-              image={getImage(project.image)!}
-              alt={project.title}
-            />
-          )}
+          <GatsbyImage
+            imgStyle={{ objectFit: 'contain', height: '100%', width: '100%' }}
+            image={getImage(project.image)!}
+            alt={project.title}
+          />
         </Image>
       </Link>
     </Container>
