@@ -56,7 +56,7 @@ People who will work on your project will have to come up with different sorts o
 
 ## 8. Progress
 
-You need to be able to track progress easily and on a regular basis. It starts with the source code repository. Be sure that the code gets pushed to your GitHub or BitBucket account. Make sure there's a continuous integration system that builds all of the components after each code change and that automatically deploys it or pushes for testing. Make sure that continuous integration system stays deployed to machines that you control so that you can still use it if you stop working together.
+You need to be able to track progress easily and on a regular basis. It starts with the source code repository. Be sure that the code gets pushed to your GitHub or BitBucket account. Make sure there's a continuous integration system that builds all of the components after each code change and that automatically deploys it or pushes for testing. Make sure that the continuous integration system stays deployed to machines that you control so that you can still use it if you stop working together.
 
 <br/>
 
