@@ -312,7 +312,7 @@ export const Projects: React.FC<ProjectsProps> = ({
   }
 
   return (
-    <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem' >
+    <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem'>
       {isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
@@ -395,7 +395,7 @@ const GQL = graphql`
             title
             image {
               childImageSharp {
-                gatsbyImageData(width: 120)
+                gatsbyImageData
               }
             }
             layout
