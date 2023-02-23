@@ -12,7 +12,7 @@ tags:
   - Android
   - MVP
 date: 2019-04-23T22:00:00.000Z
-meaningfullyUpdatedAt: 2023-02-23T12:16:13.428Z
+meaningfullyUpdatedAt: 2019-04-23T22:00:00.000Z
 title: Mistakes startups make when developing their mobile product
 layout: post
 image: /images/blog_post_cover-mateusz_startup.png
