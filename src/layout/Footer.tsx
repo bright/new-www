@@ -115,7 +115,7 @@ export const Footer = () => {
               <Link to={routeLinks.bluetoothDevelopment}>bluetooth development</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.mvpdDevelopment}>MVP development</Link>
+              <Link to={routeLinks.mvpdDevelopment}>MVP development agency</Link>
             </p>
           </div>
 
