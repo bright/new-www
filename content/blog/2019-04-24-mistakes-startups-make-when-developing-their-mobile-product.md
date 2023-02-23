@@ -12,6 +12,7 @@ tags:
   - Android
   - MVP
 date: 2019-04-23T22:00:00.000Z
+meaningfullyUpdatedAt: 2023-02-23T12:16:13.428Z
 title: Mistakes startups make when developing their mobile product
 layout: post
 image: /images/blog_post_cover-mateusz_startup.png
@@ -33,7 +34,7 @@ Setting up a mobile app for success requires a lot of effort up front, in the [i
 
 For some startup founders, understanding which features are absolutely critical for the first version of the app, and which fall into the “nice-to-have” category, can be pretty difficult.
 
-Here’s where working with [an experienced mobile app development team](/) will do wonders. Speak to your team about organizing a so-called scoping session before they start working on the app. The expected result should be agreeing on an [MVP](/our-areas/mvp-development) – a list of critical features necessary to launch a first working version of the app.
+Here’s where working with an experienced [MVP development agency](/our-areas/mvp-development) will do wonders. Speak to your team about organizing a so-called scoping session before they start working on the app. The expected result should be agreeing on an MVP – a list of critical features necessary to launch a first working version of the app.
 
 But what about all those unexpected circumstances that might push you to consider updating your MVP halfway through? Before you insist on any changes, keep in mind that they can potentially disrupt the entire development process. This may translate to delays and – sometimes – also wasted financial resources.
 
