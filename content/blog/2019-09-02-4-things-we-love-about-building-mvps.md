@@ -6,6 +6,7 @@ tags:
   - software development
   - agile
 date: 2019-09-02T11:35:50.918Z
+meaningfullyUpdatedAt: 2019-09-02T11:35:00.000Z
 title: 4 things we love about building MVPs
 layout: post
 image: /images/agile_board_planning.jpeg
@@ -57,6 +58,6 @@ Working with our customers teaches us humility, shows how we can all challenge t
 
 ## Summary
 
-As you can see, building a first working version of an app is one of the most valuable, rewarding experiences for a software house. Seeing how we help our customers succeed strengthens our sense of purpose and provides motivation for more to come.
+As you can see, building a first working version of an app is one of the most valuable, rewarding experiences for an [MVP development agency](/our-areas/mvp-development). Seeing how we help our customers succeed strengthens our sense of purpose and provides motivation for more to come.
 
 <div class='block-button'><h2>Are you looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your MVP</button></a></div>
