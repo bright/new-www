@@ -3,13 +3,11 @@ author: agnieszka
 tags:
   - substrate
   - parity
-  - blockchain
   - nest
   - nestjs
-  - smart contract
-  - erc20
   - cryptocurrency
 date: 2020-09-01T18:25:43.483Z
+meaningfullyUpdatedAt: 2020-09-01T18:25:00.000Z
 title: Develop your own cryptocurrency with Substrate PART 1
 layout: post
 image: /images/cryptocurrency_with_substrate1-–-2.png
