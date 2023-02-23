@@ -5,6 +5,7 @@ tags:
   - app pivot
   - app development
 date: 2021-05-11T06:56:43.419Z
+meaningfullyUpdatedAt: 2021-05-11T06:56:00.000Z
 title: App development pivots that prove the MVP works
 layout: post
 image: /images/blogpost_appdevpivot_main_picture.png
@@ -40,10 +41,12 @@ Developing all the features that you have imagined for your app may not only be 
 
 ### Adapting to market trends
 
-**Netflix** is the best example of the perfect response to the market changes. Netflix started as an online rental platform for DVD movies that were mailed to American households. Eventually, Netflix transformed into a digital content service. As you know, they don’t just gather content, they create their own movies and TV series. They pivoted their product following or even starting marketing -trends.
+**Netflix** is the best example of the perfect response to the market changes. Netflix started as an online rental platform for DVD movies that were mailed to American households. Eventually, Netflix transformed into a digital content service. As you know, they don’t just gather content, they create their own movies and TV series. They pivoted their product following or even starting marketing trends.
 
 - - -
 
 Idea for a software solution is only the beginning. It needs to be verified and sometimes modified to succeed. That is why building MVPs takes a major role in creating the final and successful product. 
+
+Contact the experienced [MVP development agency](/our-areas/mvp-development) to discuss your solution.
 
 <div class='block-button'><h2>Do you want to build a MVP?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your MVP</button></a></div>
