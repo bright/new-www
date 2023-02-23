@@ -60,6 +60,6 @@ You need to be able to track progress easily and on a regular basis. It starts w
 
 <br/>
 
-Choosing [the right MVP development agency ](/our-areas/mvp-development)is a leap of faith. You need to feel good about your decision and have full trust in them. It might be hard to find a partner that meets all the criteria listed in this note but at least make sure that they won't have problems challenging you if they disagree. They might be right.
+Choosing the right [MVP development agency ](/our-areas/mvp-development)is a leap of faith. You need to feel good about your decision and have full trust in them. It might be hard to find a partner that meets all the criteria listed in this note but at least make sure that they won't have problems challenging you if they disagree. They might be right.
 
 <div class='block-button'><h2>Looking for MVP partner?</h2><div>Since 2012 we have built MVPs for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your MVP</button></a></div>
