@@ -62,6 +62,8 @@ What’s more, our team had to design an **algorithm that would automatically fi
 
 In terms of product design, the right **architectural information** was the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen so they could scan all the info fast.
 
+<div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
+
 ## TMS Development Process
 
 **Bright Inventions were responsible for every aspect of MVP development** from listing requirements, product design, to web development, QA, cloud management, launch, and finally maintenance. The MVP was launched in October 2022 and received **positive feedback** from the client’s employees.
