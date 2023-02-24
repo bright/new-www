@@ -12,7 +12,7 @@ tags:
   - mobile app
   - customized software
   - bluetooth
-order: 4
+order: ""
 slug: motivo
 show on homepage: false
 published: true
