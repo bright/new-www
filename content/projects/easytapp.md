@@ -11,7 +11,7 @@ tags:
   - mobile app
   - customized software
   - bluetooth
-order: ""
+order: 99
 slug: easytapp
 show on homepage: false
 published: true
