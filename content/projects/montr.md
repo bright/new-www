@@ -15,7 +15,7 @@ tags:
   - IoT
   - customized software
   - fintech
-order: ""
+order: 99
 slug: app-digitized-surveys
 show on homepage: false
 published: true

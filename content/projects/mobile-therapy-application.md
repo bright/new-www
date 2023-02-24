@@ -12,7 +12,7 @@ tags:
   - mobile app
   - customized software
   - eHealth
-order: ""
+order: 99
 slug: mobile-therapy-application
 show on homepage: false
 published: true
