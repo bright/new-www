@@ -1,35 +1,24 @@
-import React, { useRef } from 'react'
-import CookieConsent from 'react-cookie-consent'
+import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import { routeLinks } from '../config/routing'
 import { TextRegular } from '../components/shared/index.styled'
 import styled from 'styled-components'
 import variables from '../styles/variables'
 import { ModalCookies } from './modal-cookies'
-import {
-  onAllowAll,
-} from './local-storage-constants'
-import type { CookieConsentProps } from 'react-cookie-consent/dist/CookieConsent.props'
+import { onAllowAll } from './local-storage-constants'
 import { hasUserDecidedOnAnalyticsConsentCookieName } from './has-user-decided-on-analytics-consent-cookie-name'
+import { ContextualCookieConsent } from './contextual-cookie-consent'
+import { VISIBILITY_OPTIONS } from 'react-cookie-consent/src/models/constants/visibilityOptions'
 
-const isEagerCookieConsentEnabled = process.env.GATSBY_COOKIE_CONSENT_EAGER_RENDER_ENABLED === 'true'
-const isCookieConsentVisibleByDefault = isEagerCookieConsentEnabled
-
-class EagerCookieConsent extends CookieConsent {
-  constructor(props: CookieConsentProps, context: any) {
-    super(props, context)
-    this.state = {
-      ...this.state,
-      visible: isCookieConsentVisibleByDefault,
-    }
-  }
-}
+// using env variables here would invalidate webpack cache hashes it seems
+// const isEagerCookieConsentEnabled = process.env.COOKIE_CONSENT_EAGER_RENDER_ENABLED === 'true'
 
 const SectionNotice = styled.section`
   & .wrapper-button {
     display: flex;
     width: 100%;
   }
+
   & .overlay {
     background: rgba(10, 10, 10, 0.43);
 
@@ -40,6 +29,7 @@ const SectionNotice = styled.section`
     height: 100%;
     z-index: 999;
   }
+
   & .cookies-wrapper {
     background: ${variables.color.text2};
     padding: ${variables.pxToRem(61)} ${variables.pxToRem(80)};
@@ -55,6 +45,7 @@ const SectionNotice = styled.section`
     width: 100%;
     z-index: 1000;
   }
+
   & #confirm-button {
     margin-left: 160px;
     font-family: ${variables.font.customtext.monserat};
@@ -69,12 +60,14 @@ const SectionNotice = styled.section`
     padding: ${variables.pxToRem(17)} ${variables.pxToRem(122)};
     background: ${variables.color.primary};
     transition: all ease-out 0.3s;
+
     &:hover {
       background: ${variables.color.text2};
       color: ${variables.color.white};
       border: 1px solid ${variables.color.white};
     }
   }
+
   @media ${variables.device.laptop} {
     & .cookies-wrapper {
       padding: ${variables.pxToRem(49)} ${variables.pxToRem(80)};
@@ -89,6 +82,7 @@ const SectionNotice = styled.section`
     & .cookies-wrapper {
       padding: ${variables.pxToRem(40)} ${variables.pxToRem(36)} ${variables.pxToRem(103)};
     }
+
     & #confirm-button {
       margin-left: 0;
       width: 100%;
@@ -155,25 +149,30 @@ const CustomizeButton = styled.button`
   }
 `
 
+type VisibilityOptions = typeof VISIBILITY_OPTIONS[keyof typeof VISIBILITY_OPTIONS]
+
 function CookiesNotice() {
   const [modalIsOpen, setIsOpen] = React.useState(false)
-  const cookieConsentRef = useRef<CookieConsent>(null)
+  const [cookieConsentVisible, setCookieConsentVisible] = useState<VisibilityOptions>(
+    VISIBILITY_OPTIONS.BY_COOKIE_VALUE
+  )
 
   function openModal() {
     setIsOpen(true)
   }
 
-  function closeModal(){
+  function closeModal() {
     setIsOpen(false)
-    cookieConsentRef?.current?.setState({ visible: false })
+    setCookieConsentVisible(VISIBILITY_OPTIONS.HIDDEN)
   }
 
   return (
     <SectionNotice>
-      <EagerCookieConsent
+      <ContextualCookieConsent
         location='bottom'
         buttonText='allow cookies'
         cookieName={hasUserDecidedOnAnalyticsConsentCookieName}
+        visible={cookieConsentVisible}
         disableStyles={true}
         disableButtonStyles={true}
         overlay
@@ -182,7 +181,6 @@ function CookiesNotice() {
         buttonWrapperClasses={'wrapper-button'}
         containerClasses={'cookies-wrapper'}
         onAccept={onAllowAll}
-        ref={cookieConsentRef}
       >
         <div>
           <CookieHeading>allow cookies</CookieHeading>
@@ -196,12 +194,9 @@ function CookiesNotice() {
             .
           </CookieText>
           <CustomizeButton onClick={openModal}>customize</CustomizeButton>
-          <ModalCookies
-            modalIsOpen={modalIsOpen}
-            closeModal={closeModal}
-          />
+          <ModalCookies modalIsOpen={modalIsOpen} closeModal={closeModal} />
         </div>
-      </EagerCookieConsent>
+      </ContextualCookieConsent>
     </SectionNotice>
   )
 }

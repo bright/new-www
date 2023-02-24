@@ -492,7 +492,7 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: 
   }
 }
 
-export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ stage, actions }) => {
+export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ stage, actions, getConfig }) => {
   actions.setWebpackConfig({
     devtool: false,
     plugins: [

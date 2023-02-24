@@ -45,7 +45,7 @@ In order to alleviate the issue during build we're publishing 2 versions of all 
 The default one, renders cookie consent lazily after component mounts.
 The second one has cookie consent rendered in html.
 
-The rendering is controlled via `GATSBY_COOKIE_CONSENT_EAGER_RENDER_ENABLED` environment variable.
+The rendering is controlled via `COOKIE_CONSENT_EAGER_RENDER_ENABLED` environment variable.
 
 After the cookie consent enabled html version is rendered we copy it to S3 bucket with a different name.
 All `index.html` files are copied to S3 as `index_showCookieConsent_.html`.

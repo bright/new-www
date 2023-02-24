@@ -10,13 +10,17 @@ import type { GatsbySSR } from 'gatsby'
 import * as fs from 'fs'
 
 import { GlobalStyle } from './src/styles/global'
+import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 
-export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => (
-  <>
-    <GlobalStyle />
-    {element}
-  </>
-)
+export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
+  const visibleByDefault = process.env.COOKIE_CONSENT_EAGER_RENDER_ENABLED === 'true'
+  return (
+    <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>
+      <GlobalStyle />
+      {element}
+    </CookieConsentContextWrapper>
+  )
+}
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }) => {
   const files = getFilesFromPath('./public/static', '.woff2')

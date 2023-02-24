@@ -30,7 +30,7 @@
     "typeRoots": ["./node_modules/@types"]
   },
   "include": [
-    "./src/**/*","./plugins/**/*", "./api-client/**/*.ts",  "*.ts"
+    "./src/**/*","./plugins/**/*", "./api-client/**/*.ts",  "*.ts", "*.tsx"
   ],
   "exclude": ["cdk.out"],
   "files": [

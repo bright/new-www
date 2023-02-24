@@ -13,6 +13,7 @@ import { setupTrackingConsentInPixel } from './plugins/facebook-pixel/tracking-c
 import { loadConsentDecision } from './src/analytics/local-storage-constants'
 import { setupGtagTrackingConsent } from './plugins/google-gtag/tracking-consent'
 import { setupTrackingConsentInHotjar } from './plugins/hotjar/tracking-consent'
+import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 
 let nextRoute = ''
 
@@ -29,10 +30,10 @@ window.addEventListener('unhandledrejection', event => {
 })
 
 export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => (
-  <>
+  <CookieConsentContextWrapper>
     <GlobalStyle />
     {element}
-  </>
+  </CookieConsentContextWrapper>
 )
 
 export const onInitialClientRender: GatsbyBrowser['onInitialClientRender'] = () => {
