@@ -16,7 +16,7 @@ tags:
   - product design
 order: 3
 slug: transportation-management-system
-show on homepage: true
+show on homepage: false
 published: true
 ---
 <div class="image"><img src="/images/tms_case_study_in.png" alt="Transportation Management System case study" title="Transportation Management System case study"  /> </div>
@@ -34,6 +34,8 @@ The client has used various freight management solutions available on the market
 * **Preliminary matching** of the listings with the right vehicle and driver. Then it can be verified by the forwarder.
 * **Managing the route** from arrival to the destination point. Adding extra points on the carriers’ map.
 * Receiving **notifications from the drivers** about delays or other disturbances on the road.
+
+<div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
 
 ## Stack:
 
