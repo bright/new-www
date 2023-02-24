@@ -12,7 +12,7 @@ tags:
   - mobile app
   - customized software
   - eHealth
-order: 5
+order: ""
 slug: pregnancy-app
 show on homepage: false
 published: true
