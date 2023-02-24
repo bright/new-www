@@ -19,7 +19,7 @@ slug: transportation-management-system
 show on homepage: false
 published: true
 ---
-<div class="image"><img src="/images/tms_case_study_in.png" alt="Transportation Management System case study" title="Transportation Management System case study"  /> </div>
+<div class="image"><img src="/images/tms_market_ui.png" alt="transport management system UI case study" title="undefined"  /> </div>
 
 ## About TMS project
 
