@@ -2,7 +2,7 @@
 layout: project
 project_id: tms
 title: Transportation Management System (TMS)
-image: /images/tms_case_study_cover.png
+image: /images/tms_cover_2x.png
 social_media_previev: /images/tms_social_preview.png
 social_media_previev_alt: Transportation Management System case study
 description: TMS supports freight forwarders to manage transportation faster.
