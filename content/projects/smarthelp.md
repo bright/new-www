@@ -17,7 +17,7 @@ tags:
   - customized software
   - eHealth
   - bluetooth
-order: 6
+order: ""
 slug: smarthelp
 redirect_from:
   - /smarthelp
