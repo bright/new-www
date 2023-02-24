@@ -11,13 +11,11 @@ tags:
   - mobile app
   - customized software
   - bluetooth
-order: 9
+order: ""
 slug: easytapp
 show on homepage: false
 published: true
 ---
-
-
 ![easytapp mobile app development](/images/easytap_quartet1_copy.png)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
@@ -42,10 +40,10 @@ Firstly, the goal was to allow users to browse through, filter, and save car and
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Process:
+## Process
 
 The key challenge Bright Invention developers had to face was finding a technological solution that would allow the app to synchronize effortlessly in the background without draining the device’s battery (as it’s often the case if location data is enabled in the background). For this reason, our experts decided to bet on iBeacon technology. If a seller purchased an iBeacon device, they would have been able to trigger automatic notifications on potential buyers’ screens, as they passed by the car or property. Such an approach was  much more efficient and battery-friendly compared to the GPS-based alternative.
 
-## Results:
+## Results
 
 The application was successfully finalized and launched in Google Play and the iOS App Store. As of late-2020, the app was no longer being maintained and has been withdrawn from both app stores.
