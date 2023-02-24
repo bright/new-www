@@ -119,7 +119,7 @@
     "script:blogPosts": "node ./scripts/fixBlogPosts.js",
     "fix-cannonical": "ts-node ./fix-cannonical.ts",
     "postinstall": "patch-package",
-    "copy-html-with-consent-enabled": "ts-node ./copy-html-pages-with-consent-enabled-to-s3.ts"
+    "copy-html-with-consent-enabled": "ts-node src/analytics/copy-html-pages-with-consent-enabled-to-s3.ts"
   },
   "repository": {
     "type": "git",

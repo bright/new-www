@@ -7,10 +7,10 @@ import styled from 'styled-components'
 import variables from '../styles/variables'
 import { ModalCookies } from './modal-cookies'
 import {
-  hasUserDecidedOnAnalyticsConsentCookieName,
   onAllowAll,
 } from './local-storage-constants'
 import type { CookieConsentProps } from 'react-cookie-consent/dist/CookieConsent.props'
+import { hasUserDecidedOnAnalyticsConsentCookieName } from './has-user-decided-on-analytics-consent-cookie-name'
 
 const isEagerCookieConsentEnabled = process.env.GATSBY_COOKIE_CONSENT_EAGER_RENDER_ENABLED === 'true'
 const isCookieConsentVisibleByDefault = isEagerCookieConsentEnabled

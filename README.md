@@ -1,9 +1,11 @@
 ## Development Environment
-### 📋  Required packages
+
+### 📋 Required packages
+
 - Node.js
 - gatsby-cli (https://www.gatsbyjs.com/docs/tutorial/part-zero/#using-the-gatsby-cli)
 
-### 🚀  Enviroment setup
+### 🚀 Enviroment setup
 
 1. Run `yarn install`
 1. Run `yarn develop`
@@ -13,9 +15,9 @@ Production build is done by `gatsby build`
 
 ## Development rules 👮‍♂
 
-1.  We work on feature branches. The name of the branch should be meaningful and indicate the changes you made.
-1.  Once the work is finished, you should create a pull request on github. Target branch should be set to `gatsby`.
-1.  When a pull request is merged, it will be deployed automatically to the production website.
+1. We work on feature branches. The name of the branch should be meaningful and indicate the changes you made.
+1. Once the work is finished, you should create a pull request on github. Target branch should be set to `gatsby`.
+1. When a pull request is merged, it will be deployed automatically to the production website.
 
 ## patch-package
 
@@ -29,3 +31,30 @@ using MDX inside frontmatter fields.
 
 It only handles simple html conversion. Probably not even styling.
 See `JobTemplate.tsx` and `links_more_about_us` for an example.
+
+## Infrastructure
+
+The infrastructure is deployed manually from [infrastructure](infrastructure) aws-cdk app.
+
+## Cookie consent rendering optimisation
+
+After we introduced cookie consent prompt the performance of the page dropped significantly.
+The Lighthouse reports indicated that it is because late LCP triggered by showing Cookie Consent.
+
+In order to alleviate the issue during build we're publishing 2 versions of all `index.html` files.
+The default one, renders cookie consent lazily after component mounts.
+The second one has cookie consent rendered in html.
+
+The rendering is controlled via `GATSBY_COOKIE_CONSENT_EAGER_RENDER_ENABLED` environment variable.
+
+After the cookie consent enabled html version is rendered we copy it to S3 bucket with a different name.
+All `index.html` files are copied to S3 as `index_showCookieConsent_.html`.
+Finally, there's a [consent-vs-regular-origin-request.ts](infrastructure/lib/consent-vs-regular-origin-request.ts)
+CloudFront Function called on viewer request event.
+The function checks if the request includes `CookieConsent` cookie and if **not** changes the request to
+show `index_showCookieConsent_.html`.
+
+### Downsides
+
+The above approach improves performance significantly. However, it requires us to perform 2 builds of the page.
+Perhaps there's a better approach...

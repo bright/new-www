@@ -1,25 +1,32 @@
 import * as cdk from 'aws-cdk-lib'
 import { Arn, CfnOutput, Duration, RemovalPolicy } from 'aws-cdk-lib'
 import { Bucket, IBucket } from 'aws-cdk-lib/aws-s3'
-import {
+import cloudfront, {
+  Behavior,
   CloudFrontAllowedMethods,
-  CloudFrontWebDistribution,
-  LambdaEdgeEventType,
+  CloudFrontWebDistribution, FunctionCode,
+  FunctionEventType,
   OriginAccessIdentity,
   OriginProtocolPolicy,
+  SourceConfiguration,
   ViewerCertificate,
+  Function as CloudfrontFunction
 } from 'aws-cdk-lib/aws-cloudfront'
 import { Effect, PolicyStatement, User } from 'aws-cdk-lib/aws-iam'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
 import { Certificate } from 'aws-cdk-lib/aws-certificatemanager'
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
-import { join as pathJoin } from 'path'
 import { Runtime } from 'aws-cdk-lib/aws-lambda'
 import { Rule, Schedule } from 'aws-cdk-lib/aws-events'
 import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets'
 import { Construct } from 'constructs'
 import { ENV_SPECIFIC_BASE } from './deploy-env'
-import { SourceConfiguration } from 'aws-cdk-lib/aws-cloudfront/lib/web-distribution'
+import {
+  hasUserDecidedOnAnalyticsConsentCookieName
+} from '../../src/analytics/has-user-decided-on-analytics-consent-cookie-name'
+import { EsbuildProvider } from '@mrgrain/cdk-esbuild'
+import * as fs from 'fs'
+import path from 'path'
 
 interface WebsiteProps {
   certificateArn: string
@@ -113,6 +120,17 @@ export class Website extends cdk.Stack {
       ],
     }
 
+    const staticContentBehavior: Behavior = {
+      isDefaultBehavior: true,
+      forwardedValues: {
+        queryString: false,
+        cookies: {
+          forward: 'whitelist',
+          whitelistedNames: [hasUserDecidedOnAnalyticsConsentCookieName]
+        }
+      }
+    }
+
     const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
       originConfigs: [
         ebooksDownloadOrigin,
@@ -126,9 +144,7 @@ export class Website extends cdk.Stack {
             originProtocolPolicy: OriginProtocolPolicy.HTTP_ONLY,
           },
           behaviors: [
-            {
-              isDefaultBehavior: true,
-            },
+            staticContentBehavior,
           ],
         },
       ],
@@ -140,6 +156,20 @@ export class Website extends cdk.Stack {
         prefix: cloudfrontAccessLogPrefix,
       },
     })
+
+    const consentVsRegularCompiledPath = path.resolve(path.join(process.cwd(), 'lib', 'consent-vs-regular-origin-request.js'));
+    EsbuildProvider.defaultBuildProvider()
+      .buildSync({
+        entryPoints: [path.resolve(path.join(process.cwd(), 'lib', 'consent-vs-regular-origin-request.ts'))],
+        bundle: true,
+        sourcemap: false,
+        minify: false,
+        treeShaking: false,
+        outfile: consentVsRegularCompiledPath,
+        platform: 'node',
+      })
+
+    const consentVsRegularCompiled = fs.readFileSync(consentVsRegularCompiledPath, 'utf-8')
 
     const stagingWebDistribution = new CloudFrontWebDistribution(this, 'staging-distribution', {
       originConfigs: [
@@ -155,7 +185,27 @@ export class Website extends cdk.Stack {
           },
           behaviors: [
             {
-              isDefaultBehavior: true,
+              ...staticContentBehavior,
+              functionAssociations: [{
+                eventType: FunctionEventType.VIEWER_REQUEST,
+                function: new CloudfrontFunction(this, 'consent-vs-regular-origin-request', {
+                  code: FunctionCode.fromInline(consentVsRegularCompiled)
+                })
+              }]
+              // lambdaFunctionAssociations: [{
+              //   eventType: LambdaEdgeEventType.ORIGIN_REQUEST,
+              //   lambdaFunction: new cloudfront.experimental.EdgeFunction(this, 'consent-vs-regular', {
+              //     handler: 'index.handler',
+              //     runtime: Runtime.NODEJS_16_X,
+              //     code: Bundling.bundle({
+              //       depsLockFilePath: depsLockFilePath,
+              //       entry: pathResolve(pathJoin(process.cwd(), 'lib', 'consent-vs-regular-origin-request.ts')),
+              //       projectRoot: pathDirname(depsLockFilePath),
+              //       runtime: Runtime.NODEJS_16_X,
+              //       architecture: Architecture.X86_64
+              //     })
+              //   })
+              // }]
             },
           ],
         },
@@ -173,7 +223,7 @@ export class Website extends cdk.Stack {
 
     const notifyOn404 = new NodejsFunction(this, 'notify-on-404', {
       runtime: Runtime.NODEJS_14_X,
-      entry: pathJoin(__dirname, 'notify-on-404.ts'),
+      entry: path.join(__dirname, 'notify-on-404.ts'),
       handler: 'find404InS3OnSchedule',
       timeout: Duration.minutes(1),
       environment: {
