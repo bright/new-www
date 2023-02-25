@@ -4,13 +4,14 @@ import { Bucket, IBucket } from 'aws-cdk-lib/aws-s3'
 import cloudfront, {
   Behavior,
   CloudFrontAllowedMethods,
-  CloudFrontWebDistribution, FunctionCode,
+  CloudFrontWebDistribution,
+  FunctionCode,
   FunctionEventType,
   OriginAccessIdentity,
   OriginProtocolPolicy,
   SourceConfiguration,
   ViewerCertificate,
-  Function as CloudfrontFunction
+  Function as CloudfrontFunction,
 } from 'aws-cdk-lib/aws-cloudfront'
 import { Effect, PolicyStatement, User } from 'aws-cdk-lib/aws-iam'
 import { productionDomainNames, stagingDomainNames } from './domain-names'
@@ -21,9 +22,7 @@ import { Rule, Schedule } from 'aws-cdk-lib/aws-events'
 import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets'
 import { Construct } from 'constructs'
 import { ENV_SPECIFIC_BASE } from './deploy-env'
-import {
-  hasUserDecidedOnAnalyticsConsentCookieName
-} from '../../src/analytics/has-user-decided-on-analytics-consent-cookie-name'
+import { hasUserDecidedOnAnalyticsConsentCookieName } from '../../src/analytics/has-user-decided-on-analytics-consent-cookie-name'
 import { EsbuildProvider } from '@mrgrain/cdk-esbuild'
 import * as fs from 'fs'
 import path from 'path'
@@ -120,15 +119,38 @@ export class Website extends cdk.Stack {
       ],
     }
 
+    const consentVsRegularCompiledPath = path.resolve(
+      path.join(process.cwd(), 'lib', 'consent-vs-regular-origin-request.js')
+    )
+    EsbuildProvider.defaultBuildProvider().buildSync({
+      entryPoints: [path.resolve(path.join(process.cwd(), 'lib', 'consent-vs-regular-origin-request.ts'))],
+      bundle: true,
+      sourcemap: false,
+      minify: false,
+      treeShaking: false,
+      outfile: consentVsRegularCompiledPath,
+      platform: 'node',
+    })
+
+    const consentVsRegularCompiled = fs.readFileSync(consentVsRegularCompiledPath, 'utf-8')
+
     const staticContentBehavior: Behavior = {
       isDefaultBehavior: true,
       forwardedValues: {
         queryString: false,
         cookies: {
           forward: 'whitelist',
-          whitelistedNames: [hasUserDecidedOnAnalyticsConsentCookieName]
-        }
-      }
+          whitelistedNames: [hasUserDecidedOnAnalyticsConsentCookieName],
+        },
+      },
+      functionAssociations: [
+        {
+          eventType: FunctionEventType.VIEWER_REQUEST,
+          function: new CloudfrontFunction(this, 'consent-vs-regular-origin-request', {
+            code: FunctionCode.fromInline(consentVsRegularCompiled),
+          }),
+        },
+      ],
     }
 
     const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
@@ -143,9 +165,7 @@ export class Website extends cdk.Stack {
             domainName: productionBucket.bucketWebsiteDomainName,
             originProtocolPolicy: OriginProtocolPolicy.HTTP_ONLY,
           },
-          behaviors: [
-            staticContentBehavior,
-          ],
+          behaviors: [staticContentBehavior],
         },
       ],
       viewerCertificate: ViewerCertificate.fromAcmCertificate(certificate, {
@@ -156,20 +176,6 @@ export class Website extends cdk.Stack {
         prefix: cloudfrontAccessLogPrefix,
       },
     })
-
-    const consentVsRegularCompiledPath = path.resolve(path.join(process.cwd(), 'lib', 'consent-vs-regular-origin-request.js'));
-    EsbuildProvider.defaultBuildProvider()
-      .buildSync({
-        entryPoints: [path.resolve(path.join(process.cwd(), 'lib', 'consent-vs-regular-origin-request.ts'))],
-        bundle: true,
-        sourcemap: false,
-        minify: false,
-        treeShaking: false,
-        outfile: consentVsRegularCompiledPath,
-        platform: 'node',
-      })
-
-    const consentVsRegularCompiled = fs.readFileSync(consentVsRegularCompiledPath, 'utf-8')
 
     const stagingWebDistribution = new CloudFrontWebDistribution(this, 'staging-distribution', {
       originConfigs: [
@@ -183,31 +189,7 @@ export class Website extends cdk.Stack {
             domainName: stagingBucket.bucketWebsiteDomainName,
             originProtocolPolicy: OriginProtocolPolicy.HTTP_ONLY,
           },
-          behaviors: [
-            {
-              ...staticContentBehavior,
-              functionAssociations: [{
-                eventType: FunctionEventType.VIEWER_REQUEST,
-                function: new CloudfrontFunction(this, 'consent-vs-regular-origin-request', {
-                  code: FunctionCode.fromInline(consentVsRegularCompiled)
-                })
-              }]
-              // lambdaFunctionAssociations: [{
-              //   eventType: LambdaEdgeEventType.ORIGIN_REQUEST,
-              //   lambdaFunction: new cloudfront.experimental.EdgeFunction(this, 'consent-vs-regular', {
-              //     handler: 'index.handler',
-              //     runtime: Runtime.NODEJS_16_X,
-              //     code: Bundling.bundle({
-              //       depsLockFilePath: depsLockFilePath,
-              //       entry: pathResolve(pathJoin(process.cwd(), 'lib', 'consent-vs-regular-origin-request.ts')),
-              //       projectRoot: pathDirname(depsLockFilePath),
-              //       runtime: Runtime.NODEJS_16_X,
-              //       architecture: Architecture.X86_64
-              //     })
-              //   })
-              // }]
-            },
-          ],
+          behaviors: [staticContentBehavior],
         },
       ],
       viewerCertificate: ViewerCertificate.fromAcmCertificate(certificate, {
