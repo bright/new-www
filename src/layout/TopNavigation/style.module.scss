@@ -1,6 +1,7 @@
 @import '../../styles/variables';
 @import '../../styles/mixins';
 
+
 .container {
   display: flex;
   align-items: center;
@@ -36,7 +37,7 @@
       display: flex;
       position: relative;
       justify-content: center;
-      font-family: 'Montserrat', sans-serif;
+      font-family: $family-montserrat;
       font-style: normal;
       font-weight: normal;
       font-size: unquote('clamp(1.125rem, 0.75rem + 0.4167vw, 1.25rem)');

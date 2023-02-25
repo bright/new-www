@@ -2,9 +2,9 @@
 @import "../../styles/mixins";
 
 .achievements {
- 
+
       .number {
-        font-family: "Montserrat", Lato, sans-serif;
+        font-family: $family-montserrat;
         font-style: normal;
         font-weight: bold;
         font-size: 4.5rem;
@@ -13,7 +13,7 @@
       }
 
       .label {
-        font-family: "Montserrat", Lato, sans-serif;
+        font-family: $family-montserrat;
         font-style: normal;
         font-weight: normal;
         font-size: 1.375rem;
@@ -23,11 +23,11 @@
 }
 @include laptop(){
   .achievements {
-    
+
     .number {
       font-size: 3.375rem;
       line-height: 4.125rem;
-      
+
     }
 
     .label {
@@ -40,7 +40,7 @@
 
 @include mobile() {
   .achievements {
-    
+
       .number {
         font-size: 2.8125rem;
         line-height: 3.4375rem;
@@ -50,6 +50,6 @@
         font-size: 1rem;
         line-height: 1.69rem ;
       }
-    
+
   }
 }

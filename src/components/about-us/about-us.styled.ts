@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import variables from '../../styles/variables'
+import variables, { font } from '../../styles/variables'
 
 export const FlashbackContainer = styled.div<{ length: number }>`
   && {
@@ -52,7 +52,7 @@ export const Button = styled.button`
   padding: 1rem 4rem;
   border: 1px solid #000;
   background: #fff;
-  font: normal normal bold 18px/22px Montserrat;
+  font: normal normal bold 18px/22px ${font.montserrat};
   color: #000;
   cursor: pointer;
 `

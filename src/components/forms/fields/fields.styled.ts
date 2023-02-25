@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import variables from '../../../styles/variables'
+import variables, { font } from '../../../styles/variables'
 
 export const TextFieldContainer = styled.label`
   display: grid;
@@ -30,7 +30,7 @@ export const UploadFieldContainer = styled.label`
   border: 1px solid var(--orange-200);
   padding: 8px 18px;
   justify-self: start;
-  font-family: Montserrat;
+  font-family: ${font.montserrat};
   cursor: pointer;
   input {
     opacity: 0;

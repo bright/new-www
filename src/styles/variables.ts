@@ -9,6 +9,40 @@ export const deviceSize = {
   desktop: 1920,
 }
 
+const montserrat = 'Montserrat, "DejaVu Sans", Verdana, sans‑serif, serif'
+const lato = 'Lato, sans-serif'
+export const font = {
+  montserrat: montserrat,
+  lato: lato,
+  title: {
+    family: montserrat,
+    size: pxToRem(22),
+  },
+  text: {
+    family: lato,
+    size: pxToRem(18),
+  },
+  customtitle: {
+    monserat: montserrat,
+    lato: lato,
+    size: pxToRem(40),
+    sizeBlogTitle: pxToRem(28),
+    sizeBlogTitleMobile: pxToRem(20),
+    sizeSuccesTitleStory: pxToRem(22),
+    sizeSuccesTitleStoryMobile: pxToRem(16),
+  },
+  customtext: {
+    monserat: montserrat,
+    lato: lato,
+    size: pxToRem(22),
+    sizeMobile: pxToRem(18),
+    sizeOurServicesMobile: pxToRem(16),
+    sizeBlogTags: pxToRem(16),
+    sizeBlogTagsMobile: pxToRem(12),
+    sizeButton: pxToRem(18),
+    sizeAuthor: pxToRem(32),
+  },
+}
 export default {
   pxToRem,
 
@@ -42,35 +76,5 @@ export default {
     borderInput: '#888888',
     darkerGrey: '#D3D3D3',
   },
-
-  font: {
-    title: {
-      family: 'Montserrat, sans-serif',
-      size: pxToRem(22),
-    },
-    text: {
-      family: 'Lato, sans-serif',
-      size: pxToRem(18),
-    },
-    customtitle: {
-      monserat: 'Montserrat, sans-serif',
-      lato: 'Lato, sans-serif',
-      size: pxToRem(40),
-      sizeBlogTitle: pxToRem(28),
-      sizeBlogTitleMobile: pxToRem(20),
-      sizeSuccesTitleStory: pxToRem(22),
-      sizeSuccesTitleStoryMobile: pxToRem(16),
-    },
-    customtext: {
-      monserat: 'Montserrat, sans-serif',
-      lato: 'Lato, sans-serif',
-      size: pxToRem(22),
-      sizeMobile: pxToRem(18),
-      sizeOurServicesMobile: pxToRem(16),
-      sizeBlogTags: pxToRem(16),
-      sizeBlogTagsMobile: pxToRem(12),
-      sizeButton: pxToRem(18),
-      sizeAuthor: pxToRem(32),
-    },
-  },
+  font: font,
 }

@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import variables from '../../styles/variables'
+import variables, { font } from '../../styles/variables'
 import { pxToRem } from './../../styles/variables'
 
 export const HideTablet = styled.div({
@@ -34,7 +34,7 @@ export const SectionInner = styled.div`
 `
 
 export const TitleBase = `
-  font-family: "Montserrat", sans-serif;
+  font-family: ${font.montserrat};
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0;
@@ -86,7 +86,7 @@ export const TextRegular = styled.div`
 export const PageTitle = styled.h1`
   ${TitleBase};
   display: block;
-  font-family: Montserrat, sans-serif;
+  font-family: ${font.montserrat};
   font-size: ${variables.pxToRem(54)};
   font-weight: 900;
   line-height: 4rem;
@@ -157,7 +157,7 @@ export const Button = styled.div<{
   & button {
     border: 1px solid ${variables.color.text2};
     background: ${variables.color.white};
-    font-family: 'Montserrat', sans-serif;
+    font-family: ${font.montserrat};
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0;
@@ -205,7 +205,7 @@ export const CustomPageTitle = styled.h1<{
 }>`
   ${TitleBase};
   display: block;
-  font-family: Montserrat, sans-serif;
+  font-family: ${font.montserrat};
   font-size: ${({ fontSize }) => (fontSize ? fontSize : `${variables.pxToRem(54)}`)};
   font-weight: 900;
   line-height: 4.125rem;
@@ -397,7 +397,7 @@ export const BlackButton = styled(Button)`
   box-sizing: border-box;
   padding: 1rem 4rem;
   background: #000000;
-  font: normal normal 700 18px/22px Montserrat;
+  font: normal normal 700 18px/22px ${font.montserrat};
   color: #fff;
   cursor: pointer;
   border: none;

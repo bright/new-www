@@ -2,8 +2,12 @@
 
 $input-placeholder-color: $grey-dark;
 
-$family-sans-serif: Montserrat, sans-serif;
-$family-secondary: Lato;
+//https://help.campaignmonitor.com/email-builder-font-compatibility
+
+$family-montserrat: Montserrat, "DejaVu Sans", Verdana, sans‑serif, serif;
+$family-sans-serif: $family-montserrat;
+$family-lato: Lato, Avenir, Adobe Heiti Std, Segoe UI, Trebuchet MS, sans‑serif, serif;
+$family-secondary: $family-lato;
 
 $navbar-height: 4.6rem;
 

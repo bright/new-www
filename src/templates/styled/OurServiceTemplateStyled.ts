@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '../../components/shared'
-import variables from '../../styles/variables'
+import variables, { font } from '../../styles/variables'
 import image from '../../../static/images/bullet_point.svg'
 import questionArrow from '../../../static/images/arrowFaqs.svg'
 import { HideTablet } from './../../components/shared/index.styled'
@@ -180,7 +180,7 @@ export const Question = styled.h3<{ shown: boolean }>`
   align-items: baseline;
   justify-content: space-between;
   text-align: left;
-  font: normal normal 700 ${variables.pxToRem(26)} / ${variables.pxToRem(40)} Montserrat;
+  font: normal normal 700 ${variables.pxToRem(26)} / ${variables.pxToRem(40)} ${font.montserrat};
   letter-spacing: 0px;
   color: #000000;
   padding: ${variables.pxToRem(35)} 0;

@@ -4,7 +4,7 @@ import { CustomSection, CustomSectionTitle } from '../shared'
 import SuccessStoryBox from './SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
+import variables, { font } from '../../styles/variables'
 import { ProjectModel } from '../../models/gql'
 import ScrollToTop from '../subcomponents/ScrollToTop'
 import { CustomTextRegular } from './../shared/index.styled'
@@ -245,21 +245,21 @@ const ConfidentialLink = styled(Link)`
     gap: ${variables.pxToRem(64)};
     & h4 {
       text-align: center;
-      font: normal normal 800 28px/34px Montserrat;
+      font: normal normal 800 28px/34px ${font.montserrat};
     }
     & p {
       text-align: center;
       color: ${variables.color.text};
-      font: normal normal bold 18px/22px Montserrat;
+      font: normal normal bold 18px/22px ${font.montserrat};
     }
     @media ${variables.device.laptop} {
       padding: ${variables.pxToRem(181)} ${variables.pxToRem(53)};
       gap: ${variables.pxToRem(58)};
       & h4 {
-        font: normal normal 800 25px/30px Montserrat;
+        font: normal normal 800 25px/30px ${font.montserrat};
       }
       & p {
-        font: normal normal bold 16px/19px Montserrat;
+        font: normal normal bold 16px/19px ${font.montserrat};
       }
     }
 
@@ -275,7 +275,7 @@ const ConfidentialLink = styled(Link)`
       padding: ${variables.pxToRem(86)} ${variables.pxToRem(35)};
       gap: ${variables.pxToRem(43)};
       & p {
-        font: normal normal bold 18px/22px Montserrat;
+        font: normal normal bold 18px/22px ${font.montserrat};
       }
     }
   }
