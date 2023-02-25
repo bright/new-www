@@ -18,7 +18,7 @@ import {
   MoreButton,
 } from '../components/shared/index'
 import { FormComponent } from '../components/about-us/form-section/form'
-import variables from '../styles/variables'
+import variables, { font } from '../styles/variables'
 import { CustomSection } from './../components/shared/index'
 import { LinkedIn } from './../components/icons/LinkedIn.icon'
 import useOnScreen from '../components/utils/use-onscreen'
@@ -40,7 +40,7 @@ const SalaryWrapper = styled.div`
   justify-content: center;
 
   & > div {
-    font-family: 'Lato', sans-serif;
+    font-family: ${font.lato};
     font-size: 1.5rem;
     line-height: 1.75rem;
     color: ${variables.color.text2};
@@ -85,7 +85,7 @@ const SalaryWrapper = styled.div`
 `
 const HoursWraper = styled.div`
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: ${font.lato};
   font-size: 1.375rem;
   line-height: 1.75rem;
   padding-top: 0.75rem;

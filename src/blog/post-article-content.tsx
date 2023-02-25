@@ -9,7 +9,7 @@ import { navigate } from 'gatsby'
 import { ArrowBackOrange } from '../components/icons/ArrowBackOrange.icon'
 import React, { PropsWithChildren } from 'react'
 import styled from 'styled-components'
-import variables from '../styles/variables'
+import variables, { font } from '../styles/variables'
 import { clampBuilder } from '../helpers/clampBuilder'
 
 const AuthorsSection = styled.article`
@@ -135,7 +135,7 @@ const AuthorsSection = styled.article`
         margin-bottom: ${clampBuilder(360, 1920, 32, 46)};
       }
       & footer {
-        font: normal normal bold 16px/19px Lato;
+        font: normal normal bold 16px/19px ${font.lato};
         font-weight: bold;
         font-family: ${variables.font.customtext.lato};
         font-size: ${variables.pxToRem(16)};
@@ -253,7 +253,7 @@ const Title = styled.h1`
   }
 `
 const Content = styled.div`
-  font-family: 'Lato', sans-serif;
+  font-family: ${font.lato};
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
@@ -276,7 +276,7 @@ const WrapperDot = styled.div`
   }
 `
 const TimeToRead = styled.p`
-  font-family: ${variables.font.customtext.lato}, sans-serif;
+  font-family: ${font.lato};
   font-style: normal;
   font-weight: bold;
   font-size: ${variables.pxToRem(18)};
@@ -285,7 +285,7 @@ const TimeToRead = styled.p`
   white-space: nowrap;
 `
 const Date = styled.p`
-  font-family: ${variables.font.customtext.lato}, sans-serif;
+  font-family: ${font.lato};
   font-style: normal;
   font-weight: normal;
   font-size: ${variables.pxToRem(20)};

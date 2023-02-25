@@ -1,3 +1,5 @@
+@import "variables";
+
 address {
   font-style: normal;
 }
@@ -23,11 +25,11 @@ address {
 }
 
 .content {
-  font-family: Lato, sans-serif;
+  font-family: $family-lato;
   font-size: 1.12em;
   line-height: 2;
 }
 
 .title, h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: $family-montserrat;
 }

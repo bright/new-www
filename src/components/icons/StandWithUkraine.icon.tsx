@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
+import variables, { font } from '../../styles/variables'
 
 const Svg = styled.svg`
   @media ${variables.device.laptop} {
@@ -30,59 +30,59 @@ export function StandWithUkraine() {
           data-name='#'
           transform='translate(88.51 23.83)'
           font-size='30.78'
-          font-family='Lato'
+          font-family={font.lato}
           font-weight='700'
         >
           <tspan x='0' y='0'>
             #
           </tspan>
         </text>
-        <text id='S' transform='translate(106.36 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='S' transform='translate(106.36 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             S
           </tspan>
         </text>
-        <text id='tan' transform='translate(122.57 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='tan' transform='translate(122.57 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             tan
           </tspan>
         </text>
-        <text id='d' transform='translate(167 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='d' transform='translate(167 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             d
           </tspan>
         </text>
-        <text id='W' transform='translate(184.25 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='W' transform='translate(184.25 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             W
           </tspan>
         </text>
-        <text id='it' transform='translate(216.45 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='it' transform='translate(216.45 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             it
           </tspan>
         </text>
-        <text id='h' transform='translate(235.71 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='h' transform='translate(235.71 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             h
           </tspan>
         </text>
-        <text id='U' transform='translate(252.44 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='U' transform='translate(252.44 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             U
           </tspan>
         </text>
-        <text id='k' transform='translate(275.04 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='k' transform='translate(275.04 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             k
           </tspan>
         </text>
-        <text id='r' transform='translate(291.49 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='r' transform='translate(291.49 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             r
           </tspan>
         </text>
-        <text id='aine' transform='translate(302.77 23.83)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='aine' transform='translate(302.77 23.83)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             aine
           </tspan>
@@ -92,7 +92,7 @@ export function StandWithUkraine() {
           data-name='#'
           transform='translate(88.51 60.77)'
           font-size='30.78'
-          font-family='Lato'
+          font-family={font.lato}
           font-weight='700'
         >
           <tspan x='0' y='0'>
@@ -104,24 +104,24 @@ export function StandWithUkraine() {
           data-name='S'
           transform='translate(106.36 60.77)'
           font-size='30.78'
-          font-family='Lato'
+          font-family={font.lato}
           font-weight='700'
         >
           <tspan x='0' y='0'>
             S
           </tspan>
         </text>
-        <text id='t' transform='translate(122.57 60.77)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='t' transform='translate(122.57 60.77)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             t
           </tspan>
         </text>
-        <text id='o' transform='translate(133.89 60.77)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='o' transform='translate(133.89 60.77)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             o
           </tspan>
         </text>
-        <text id='p' transform='translate(151.58 60.77)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='p' transform='translate(151.58 60.77)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             p
           </tspan>
@@ -131,14 +131,14 @@ export function StandWithUkraine() {
           data-name='W'
           transform='translate(167.29 60.77)'
           font-size='30.78'
-          font-family='Lato'
+          font-family={font.lato}
           font-weight='700'
         >
           <tspan x='0' y='0'>
             W
           </tspan>
         </text>
-        <text id='a' transform='translate(197.75 60.77)' font-size='30.78' font-family='Lato' font-weight='700'>
+        <text id='a' transform='translate(197.75 60.77)' font-size='30.78' font-family={font.lato} font-weight='700'>
           <tspan x='0' y='0'>
             a
           </tspan>
@@ -148,7 +148,7 @@ export function StandWithUkraine() {
           data-name='r'
           transform='translate(213.37 60.77)'
           font-size='30.78'
-          font-family='Lato'
+          font-family={font.lato}
           font-weight='700'
         >
           <tspan x='0' y='0'>

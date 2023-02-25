@@ -347,7 +347,7 @@ export const OurServicePageTitle = styled(CustomPageTitle)`
 `
 export const BulletList = styled.li`
   position: relative;
-  font-family: 'Lato';
+  font-family: ${font.lato};
   font-style: normal;
   font-weight: 400;
   font-size: ${variables.pxToRem(20)};

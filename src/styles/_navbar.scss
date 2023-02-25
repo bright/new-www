@@ -1,6 +1,7 @@
 $navbar-height: 4.6rem;
 $navbar-item-img-max-height: 67px;
 @import 'bulma/sass/components/navbar';
+@import "variables";
 
 .navbar-logo {
   $baseWidth: 175px;
@@ -27,7 +28,7 @@ $navbar-item-img-max-height: 67px;
   }
 }
 .navbar-item {
-  font-family: Lato, sans-serif;
+  font-family: $family-lato;
   font-style: normal;
   font-weight: 800;
   color: #0a0a0a;
