@@ -19,12 +19,16 @@ gtag('consent', 'default', {
 
 gtag('js', new Date());
 
-${trackingIds.map(trackingId => {
-  return `gtag('config', '${trackingId}');`
-}).join('\n')}
+${trackingIds
+  .map(trackingId => {
+    return `gtag('config', '${trackingId}');`
+  })
+  .join('\n')}
 
 `
     setHeadComponents([
+      <link rel='preconnect' href='https://www.googletagmanager.com' />,
+      <link rel='preconnect' href='https://www.google-analytics.com' />,
       <script async src={'https://www.googletagmanager.com/gtag/js?id=' + firstTrackingTag}></script>,
       <script dangerouslySetInnerHTML={{ __html: configureGtagScript }} />,
     ])
