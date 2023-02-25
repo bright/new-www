@@ -34,7 +34,6 @@ export const ContextualCookieConsent: React.FC<Partial<CookieConsentProps>> = pr
   const configuration = useContext(CookieConsentContext)
 
   const Component = useMemo(() => {
-    console.log('CookieConsentContext', configuration)
     return configuration.visibleByDefault ? VisibleCookieConsent : CookieConsent
   }, [])
 
