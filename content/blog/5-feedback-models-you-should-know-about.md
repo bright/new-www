@@ -70,7 +70,7 @@ That is the model in which you can find both substantive and behavioural element
 
 <GiphyEmbed url='https://giphy.com/gifs/TheDemocrats-democrats-dnc-dncgif-4fCxl9t8Dlj99OE3Ce' />
 
-4. **Feedforward**
+## **4. Feedforward**
 
 The model feedforward is **focused on best in the future and indicates how we can avoid problems in the future.** Therefore, we can also use it as a preventive measure.
 
@@ -89,9 +89,9 @@ ask yourself how you can be better in a relations with someone **→** listen ca
 
 <GiphyEmbed url='https://giphy.com/gifs/season-3-the-simpsons-3x12-3orifiIsFs8CymKf6w' />
 
-**5. Green feedback** 
+## **5. Green feedback** 
 
-Green feedback takes something form Finish schooling and long-life learning philosophy. It is focused on building quality standards in someone’s behaviours which makes their work more effective in the long term. It is fully conscious process. It is also solution oriented and reinforces good behaviour patterns. It should be always the rigger for further learning. 
+Green feedback takes something form Finish schooling and long-life learning philosophy. I**t is focused on building quality standards in someone’s behaviours which makes their work more effective in the long term. It is a fully conscious process.** It is also solution oriented and reinforces good behaviour patterns. It should be always the trigger for further learning. 
 
 The structure of green feedback looks as follows: 
 
