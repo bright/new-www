@@ -22,7 +22,9 @@ Feedback can become your team’s reality if you just implement a few simple ste
 2. I am having trouble when you … 
 3. It would help me a lot if you can…. 
 
-**You can also use a simple method *START, CONTINUE, STOP.*** In the end each team member is reading aloud the answers they got.
+**You can also use a simple method *[START, STOP, CONTINUE](https://www.superbeings.ai/blog/how-to-use-start-stop-continue-feedback).*** In the end each team member is reading aloud the answers they got.
+
+<div class="image"><img src="/images/start-stop-continue.png" alt="undefined" title="undefined"  /> </div>
 
 
 
