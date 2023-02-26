@@ -14,7 +14,7 @@ published: true
 ---
 The main goal of feedback is helping people to grow, to develop their skills and make them feel better in the long term. Sad to say when it comes to giving feedback, we often do not know how to do it. We tend to use feedback thoughtlessly and in result it irritates or demoralises people instead of pushing them forward. **If you are not sure how to introduce feedback into your team’s routine or you just do not feel sure about giving and getting feedback, you may take advantage of the models below.** These are feedback methods that work well in many organisations and they help to take immediate action without causing too much of an ‘ouch’ factor. Let us take a look.
 
-1. ## **Feedback in (peer) mentoring** 
+## **1. Feedback in (peer) mentoring** 
 
 Feedback can become your team’s reality if you just implement a few simple steps and start treating it as a part of your daily mentoring process. There are two ways of doing that. **You can either take a very transparent approach where the recipient knows exactly from whom the feedback is coming from or if you are not sure how to process - you can start with some indirect team’s feedback session during which participants are writing their feedback on paper anonymously.** There should be usually two/three questions each team member is answering to or statements they have to finish e.g.
 
@@ -26,11 +26,11 @@ Feedback can become your team’s reality if you just implement a few simple ste
 
 
 
-What to remember? If you are a manager/mentor, try to identify  behaviour that have a positive impact on your team’s cooperation and those which hamper the work. Describe to your team the observations you have and help your fedbackee to introduce new patterns of behaviours. If you are a team member, don’t cross personal or social boundaries. Remember that the aim here is to learn and improve teamwork and communication among you and your colleagues. 
+![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** If you are a manager/mentor, try to identify behaviours that have a positive impact on your team’s cooperation and those which hamper the work. Describe to your team the observations you have and help your fedbackee to introduce new patterns of behaviours. If you are a team member, don’t cross personal or social boundaries. Remember that the aim here is to learn and improve teamwork and communication among you and your colleagues. 
 
 If you want to know more about this model, take a look at* [the theory of team coaching](https://www.researchgate.net/publication/253963423_A_Theory_of_Team_Coaching)* by Hackman and Wageman. 
 
-**2. Jurgen Appelo’s model** 
+## **2. Jurgen Appelo’s model** 
 
 That is the model in which you can find both substantive and behavioural elements which connect past activities with recommendations for the future.\
 \
