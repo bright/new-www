@@ -29,7 +29,7 @@ Feedback can become your team’s reality if you just implement a few simple ste
 
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** If you are a manager/mentor, try to identify behaviours that have a positive impact on your team’s cooperation and those which hamper the work. Describe to your team the observations you have and help your fedbackee to introduce new patterns of behaviours. If you are a team member, don’t cross personal or social boundaries. Remember that the aim here is to learn and improve teamwork and communication among you and your colleagues. 
 
-If you want to know more about this model, take a look at* [the theory of team coaching](https://www.researchgate.net/publication/253963423_A_Theory_of_Team_Coaching)* by Hackman and Wageman. 
+If you want to know more about this model, take a look at [the theory of team coaching](https://www.researchgate.net/publication/253963423_A_Theory_of_Team_Coaching) by Hackman and Wageman. 
 
 ## **2. Jurgen Appelo’s model** 
 
@@ -101,6 +101,9 @@ The first element should be an example of positive behaviour or work content bas
 **The second element depends on either we deal with less or more experienced person.** In case of less experienced person we can propose some instruction, manual with action points or best practices which can be implemented by someone at their work. In case of more experienced people we can use some inspirational or mentoring questions which are the first two for further auto reflection or analysis that lets for discovering some hidden potential. 
 
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** Green feedback is a great model to show what you love about someone’s performance or behaviours (even if it is a small part of their work) and at the same time it gives space to say why the behaviour pattern should be kept and how to expand it in the future. 
+
+
+<div class="image"><img src="/images/bitter-better-feedback.jpeg" alt="feedback bitter or better " title="undefined"  /> </div>
 
 ## **Five models but one goal** 
 
