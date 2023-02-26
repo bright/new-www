@@ -40,25 +40,29 @@ That is the model in which you can find both substantive and behavioural element
 \
 **Point out precise elements that are under or above your expectations →** *In JIRA I cannot see your tasks with a needed level of detail which we discussed on our last meeting. I can see the tasks which are described very roughly.* 
 
-**Add some emotions and say how you feel about the fedbackee’s behaviour** → *When I saw them I just thought about Marek, our new colleague. What he would think about tasks described so superficially. He is new and everything is unknown to him. He should learn good patterns from the day one. I a a bit dissapointed as we have been talking about that a dew times.* \
+**Add some emotions and say how you feel about the fedbackee’s behaviour** → *When I saw them I just thought about Marek, our new colleague. What he would think about tasks described so superficially. He is new and everything is unknown to him. He should learn good patterns from the day one. I a a bit disappointed as we have been talking about that a dew times.* \
 \
 **Say what kind of impact the behaviour has →** *It is crucial for me that the work in our team goes smoothly and effectively. You should describe the tasks in such a way that it is clear to each and every person. It is really essential to me.* 
 
 **Add some recommendations →** *Please add in your last tasks all necessary details about the scenario, step and expected result. And please add the reference as this task comes form the one your were working in last week.*\
 \
-Remember it is not about criticising, but about meeting the organisation’s and team’s standards.  
+![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** Remember it is not about criticising, but about meeting the organisation’s and team’s standards. Recognise and avoid [the most common common mistakes during your feedback meetings](https://brightinventions.pl/blog/8-mistakes-you-make-while-giving-constructive-feedback). 
 
 <div class="important-info"><h2>Corrective feedback does not equal criticising </h2><div>The purpose is to improve performance and results. This can be through praise of good work, or constructive feedback when there is an issue that needs to be resolved.</div></div>
 
 
 
-**3. SBI-DB-II Model**  
+## **3. SBI-DB-II Model**  
 
-SBI-DB is an acronym of a papular feedback formula Situation-Behaviour-Impact-Desired-Behaviour Improved-Impact. And how does it work? 
+**SBI-DB is an acronym of a papular feedback formula Situation-Behaviour-Impact-Desired-Behaviour Improved-Impact.** And how does it work? 
 
-At first capture the situation → “Yesterday at daily you were behaving differently than usual. Can we talk about it?” Then describe a behaviour “You were not listening to Jake while he was telling us about his problem with the task. You were interrupting him all the time.” Then describe the impact → “This caused he felt ignored and misunderstood. The way you talked to him was really harsh. For me it was also uncomfortable.” The last element is saying what you expect → “It would be great if you pay more attention to the way you communicate things to team members. You may disagree with someone, but you should still talk about their ideas with full respect. It is important that everyone feels support in a team.” And what does improved impact may look like in this situation? → “Thanks to that you will also improve teamwork and engagement. People will more openly talk about problems they come across.”\
+**At first capture the situation →** “Yesterday at daily you were behaving differently than usual. Can we talk about it?” Then describe a behaviour “You were not listening to Jake while he was telling us about his problem with the task. You were interrupting him all the time.” 
+
+**Then describe the impact →** “This caused he felt ignored and misunderstood. The way you talked to him was really harsh. For me it was also uncomfortable.” 
+
+**The last element is saying what you expect →** “It would be great if you pay more attention to the way you communicate things to team members. You may disagree with someone, but you should still talk about their ideas with full respect. It is important that everyone feels support in a team.” And what does improved impact may look like in this situation? → “Thanks to that you will also improve teamwork and engagement. People will more openly talk about problems they come across.”\
 \
-This formula is commonly used in many organisations. The key is to determine what is the desired behaviour and what make it unique. It is also important to make sure the person we hive feedback to understands this behaviour in the same way.  
+![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** This formula is commonly used in many organisations. The key is to determine what is the desired behaviour and what make it unique. It is also important to make sure the person we hive feedback to understands this behaviour in the same way.  
 
 4. **Feedforward**
 
