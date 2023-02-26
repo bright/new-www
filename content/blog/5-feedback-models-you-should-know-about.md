@@ -68,18 +68,21 @@ That is the model in which you can find both substantive and behavioural element
 \
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** This formula is commonly used in many organisations. The key is to determine what is the desired behaviour and what makes it unique. It is also important to make sure the person we give feedback understands the behaviour in the same way.  
 
+<GiphyEmbed url='https://giphy.com/gifs/TheDemocrats-democrats-dnc-dncgif-4fCxl9t8Dlj99OE3Ce' />
+
 4. **Feedforward**
 
-The model feedforward is focused on best in the future and indicates how we can avoid problems in the future. Therefore, we can also use it as a preventive measure. It includes four main rules: 
+The model feedforward is **focused on best in the future and indicates how we can avoid problems in the future. Therefore, we can also use it as a preventive measure.** It includes four main rules: 
 
-* leave the past behind
-* tell the truth
+* leave the past behind,
+* tell the truth,
 * show support and avoid cynicism,
 * focus on what you can improve and avoid judging. 
 
-The goal of this model is questions - how I can be better in a particular relation? Marshall Goldsmith also says that feedforward model helps to focus more on a solution. 
+**The goal of this model is question - how I can be better in a particular relation?** **As Marshall Goldsmith says that feedforward model helps to focus more on a solution.** 
 
-To make the best use of this model you can follow a few steps: ask your self how you can be b better in a relations with someone → listen carefully what the other person have to say → think about what you heard → thank for the feedback you received → come back with the response → ask for support people around you → change yourself → practice and reinforce the change.  The practical example may look like: “Please, check every report at least twice, for example next week  in the morning when you are fresh and rested. Practice that and you will see it will help you avoid spelling mistakes. Or maybe you can think about some other solutions?” 
+\
+![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** To make the best use of this model you can follow a few steps: ask your self how you can be b better in a relations with someone → listen carefully what the other person have to say → think about what you heard → thank for the feedback you received → come back with the response → ask for support people around you → change yourself → practice and reinforce the change.  The practical example may look like: “Please, check every report at least twice, for example next week  in the morning when you are fresh and rested. Practice that and you will see it will help you avoid spelling mistakes. Or maybe you can think about some other solutions?” 
 
 **5. Green feedback** 
 
