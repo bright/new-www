@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-The main goal of feedback is helping people to grow, to develop their skills and make them feel better in the long term. Sad to say when it comes to giving feedback, we often do not know how to do it. We tend to use feedback thoughtlessly and in result it irritates or demoralises people instead of pushing them forward. **If you are not sure how to introduce feedback into your team’s routine or you just do not feel sure about giving and getting feedback, you may take advantage of the models and example below.** These are feedback methods that work well in many organisations and they help to take immediate action without causing too much of an ‘ouch’ factor. Let us take a look.
+The main goal of feedback is helping people to grow, to develop their skills and make them feel better in the long term. Sad to say when it comes to giving feedback, we often do not know how to do it. We tend to use feedback thoughtlessly and in result it irritates or demoralises people instead of pushing them forward. **If you are not sure how to introduce feedback into your team’s routine or you just do not feel sure about giving and getting feedback, you may take advantage of the models and examples below.** These are feedback methods that work well in many organisations and they help to take immediate action without causing too much of an ‘ouch’ factor. Let us take a look.
 
 ## **1. Feedback in (peer) mentoring** 
 
@@ -101,7 +101,6 @@ The first element should be an example of positive behaviour or work content bas
 **The second element depends on either we deal with less or more experienced person.** In case of less experienced person we can propose some instruction, manual with action points or best practices which can be implemented by someone at their work. In case of more experienced people we can use some inspirational or mentoring questions which are the first two for further auto reflection or analysis that lets for discovering some hidden potential. 
 
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** Green feedback is a great model to show what you love about someone’s performance or behaviours (even if it is a small part of their work) and at the same time it gives space to say why the behaviour pattern should be kept and how to expand it in the future. 
-
 
 <div class="image"><img src="/images/bitter-better-feedback.jpeg" alt="feedback bitter or better " title="undefined"  /> </div>
 
