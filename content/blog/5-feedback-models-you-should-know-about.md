@@ -48,7 +48,6 @@ That is the model in which you can find both substantive and behavioural element
 
 <div class="important-info"><h2>Corrective feedback does not equal criticising </h2><div>The purpose is to improve performance and results. This can be through praise of good work, or constructive feedback when there is an issue that needs to be resolved.</div></div>
 
-
 ## **3. SBI-DB-II Model**  
 
 **SBI-DB is an acronym of a papular feedback formula Situation-Behaviour-Impact-Desired-Behaviour Improved-Impact.** And how does it work? 
@@ -101,8 +100,6 @@ The first element should be an example of positive behaviour or work content bas
 **The second element depends on either we deal with less or more experienced person.** In case of less experienced person we can propose some instruction, manual with action points or best practices which can be implemented by someone at their work. In case of more experienced people we can use some inspirational or mentoring questions which are the first two for further auto reflection or analysis that lets for discovering some hidden potential. 
 
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** Green feedback is a great model to show what you love about someone’s performance or behaviours (even if it is a small part of their work) and at the same time it gives space to say why the behaviour pattern should be kept and how to expand it in the future. 
-
-<GiphyEmbed url='' />
 
 ## **Five models but one goal** 
 
