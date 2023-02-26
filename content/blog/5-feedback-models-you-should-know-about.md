@@ -34,15 +34,23 @@ If you want to know more about this model, take a look at* [the theory of team c
 
 ## **2. Jurgen Appelo’s model** 
 
-That is the model in which you can find both substantive and behavioural elements which connect past activities with recommendations for the future.\
+That is the model in which you can find both substantive and behavioural elements which connect past activities with recommendations for the future. **The example below includes some elements of FECE feedback model i.e. F - facts, E- emotions, C-consequences, E- expectations (in Polish this model is called FUKO). Through a whole conversation the feedback giver navigates the feedbackee in a right direction.** \
 \
-Always it is important to give the context of our assessment → *Yesterday in the evening I was checking your tasks status in JIRA. I don’t want  you to wait for my remarks as the way you described the tasks is not the same we agreed on recently.* Then we should move on to the facts. Remember not focus on your own emotional interpretations.\
+**Give the context of your assessment →** *Yesterday in the evening I was checking your tasks status in JIRA. I don’t want you to wait for my remarks till you finish as the way you described the tasks is not the same we agreed on recently.* Then we should move on to the facts. Remember not focus on your own emotional interpretations.\
 \
-You should point out precise elements that very under or above your expectations → *In JIRA I cannot see your tasks with a needed level of detail which we discussed on our last meeting. I can see the tasks which are described very roughly.* Now it is a moment to add some emotions and say how you feel about the fedbackee’s behaviour → *When I saw them I just thought about John, our new colleague. What he would think about tasks described so superficially. He is new and everything is unknown to him. He should learn good patterns from the day 1.* \
-\
-And what kind of impact it has → *It is crucial for me that the work in our team goes smoothly and effectively. You should describe the tasks in such a way that it is clear to each and every person. It is really essential to me.* In the end you can add some recommendations → *In your last tasks add please the necessary details about the scenario, step and expected result. And please add the reference as this task comes form the one your were working in last week.*The example above includes some elements of FECE feedback model i.e. F - facts, E- emotions, C-consequences, E- expectations (in Polish this model is called FUKO). Through a whole conversation the feedback giver navigates the feedbackee in a right direction. It is not about criticising, but about meeting the organisation’s and team’s standards, 
+**Point out precise elements that are under or above your expectations →** *In JIRA I cannot see your tasks with a needed level of detail which we discussed on our last meeting. I can see the tasks which are described very roughly.* 
 
-CORRECTIVE FEEDBACK DOES NOT EQUAL CRITICISING 
+**Add some emotions and say how you feel about the fedbackee’s behaviour** → *When I saw them I just thought about Marek, our new colleague. What he would think about tasks described so superficially. He is new and everything is unknown to him. He should learn good patterns from the day one. I a a bit dissapointed as we have been talking about that a dew times.* \
+\
+**Say what kind of impact the behaviour has →** *It is crucial for me that the work in our team goes smoothly and effectively. You should describe the tasks in such a way that it is clear to each and every person. It is really essential to me.* 
+
+**Add some recommendations →** *Please add in your last tasks all necessary details about the scenario, step and expected result. And please add the reference as this task comes form the one your were working in last week.*\
+\
+Remember it is not about criticising, but about meeting the organisation’s and team’s standards.  
+
+<div class="important-info"><h2>Corrective feedback does not equal criticising </h2><div>The purpose is to improve performance and results. This can be through praise of good work, or constructive feedback when there is an issue that needs to be resolved.</div></div>
+
+
 
 **3. SBI-DB-II Model**  
 
