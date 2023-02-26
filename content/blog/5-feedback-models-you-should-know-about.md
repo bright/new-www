@@ -29,7 +29,7 @@ Feedback can become your team’s reality if you just implement a few simple ste
 
 
 
-![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** If you are a manager/mentor, try to identify behaviours that have a positive impact on your team’s cooperation and those which hamper the work. Describe to your team the observations you have and help your fedbackee to introduce new patterns of behaviours. If you are a team member, don’t cross personal or social boundaries. Remember that the aim here is to learn and improve teamwork and communication among you and your colleagues. 
+![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** If you are a manager/mentor, try to identify behaviours that have a positive impact on your team’s cooperation and those which hamper the work. Describe to your team the observations you have and help your feedbackee to introduce new patterns of behaviours. If you are a team member, don’t cross personal or social boundaries. Remember that the aim here is to learn and improve teamwork and communication among you and your colleagues. 
 
 If you want to know more about this model, take a look at [the theory of team coaching](https://www.researchgate.net/publication/253963423_A_Theory_of_Team_Coaching) by Hackman and Wageman. 
 
