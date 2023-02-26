@@ -4,10 +4,11 @@ tags:
   - feedback
   - communication
   - inspiration
-date: 2023-02-25T17:01:17.648Z
-meaningfullyUpdatedAt: 2023-02-25T17:01:17.680Z
-title: "5 Feedback Models You Should Know About "
+date: 2023-02-26T15:05:18.024Z
+meaningfullyUpdatedAt: 2023-02-26T15:05:19.997Z
+title: "5 Feedback Models You Should Know "
 layout: post
+image: /images/feedback-models-1-.png
 hidden: false
 comments: true
 published: true
