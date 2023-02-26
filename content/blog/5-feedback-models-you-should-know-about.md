@@ -12,7 +12,7 @@ hidden: false
 comments: true
 published: true
 ---
-The main goal of feedback is helping people to grow, to develop their skills and make them feel better in the long term. Sad to say when it comes to giving feedback, we often do not know how to do it. We tend to use feedback thoughtlessly and in result it irritates or demoralises people instead of pushing them forward. **If you are not sure how to introduce feedback into your team’s routine or you just do not feel sure about giving and getting feedback, you may take advantage of the models below.** These are feedback methods that work well in many organisations and they help to take immediate action without causing too much of an ‘ouch’ factor. Let us take a look.
+The main goal of feedback is helping people to grow, to develop their skills and make them feel better in the long term. Sad to say when it comes to giving feedback, we often do not know how to do it. We tend to use feedback thoughtlessly and in result it irritates or demoralises people instead of pushing them forward. **If you are not sure how to introduce feedback into your team’s routine or you just do not feel sure about giving and getting feedback, you may take advantage of the models and example below.** These are feedback methods that work well in many organisations and they help to take immediate action without causing too much of an ‘ouch’ factor. Let us take a look.
 
 ## **1. Feedback in (peer) mentoring** 
 
@@ -56,13 +56,17 @@ That is the model in which you can find both substantive and behavioural element
 
 **SBI-DB is an acronym of a papular feedback formula Situation-Behaviour-Impact-Desired-Behaviour Improved-Impact.** And how does it work? 
 
-**At first capture the situation →** “Yesterday at daily you were behaving differently than usual. Can we talk about it?” Then describe a behaviour “You were not listening to Jake while he was telling us about his problem with the task. You were interrupting him all the time.” 
+**At first capture the situation →** *Yesterday at daily you were behaving differently than usual. Can we talk about it?* 
 
-**Then describe the impact →** “This caused he felt ignored and misunderstood. The way you talked to him was really harsh. For me it was also uncomfortable.” 
+**Then describe a behaviour →** *You were not listening to Marta while she was telling us about her problem with the task. You were interrupting her all the time.*
 
-**The last element is saying what you expect →** “It would be great if you pay more attention to the way you communicate things to team members. You may disagree with someone, but you should still talk about their ideas with full respect. It is important that everyone feels support in a team.” And what does improved impact may look like in this situation? → “Thanks to that you will also improve teamwork and engagement. People will more openly talk about problems they come across.”\
+**Describe the impact →** *This caused she felt ignored and misunderstood. The way you talked to her was really harsh. For me it was also uncomfortable.*
+
+**The last element is saying what you expect →** *It would be great if you pay more attention to the way you communicate things to other team members. You may disagree with someone, but you should still talk about their ideas with full respect. It is important that everyone feels support in a team.*
+
+**Say what the improved impact may look like →** T*hanks to that you will also improve teamwork and engagement. People will talk about problems they come across more openly.* \
 \
-![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** This formula is commonly used in many organisations. The key is to determine what is the desired behaviour and what make it unique. It is also important to make sure the person we hive feedback to understands this behaviour in the same way.  
+![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** This formula is commonly used in many organisations. The key is to determine what is the desired behaviour and what makes it unique. It is also important to make sure the person we give feedback understands the behaviour in the same way.  
 
 4. **Feedforward**
 
