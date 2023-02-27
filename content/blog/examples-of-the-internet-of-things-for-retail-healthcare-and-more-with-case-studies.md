@@ -34,6 +34,6 @@ The fact that you pay with your card and then receive a printed receipt means th
 
 ## IoT for healthcare
 
-Healthcare is an industry where IoT can support the prevention of many illnesses, especially cardiovascular diseases which are the [leading cause of death](https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1) globally. As an example of healthcare IoT check out a possible **network of a mobile phone, with a dedicated application, connected to eHealth devices that send data to the app**.
+Healthcare is an industry where IoT can support the prevention of many illnesses, especially cardiovascular diseases which are the [leading cause of death](https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1) globally. As an example of healthcare IoT check out a possible **network of a mobile phone, with a dedicated application, connected to eHealth devices** that send data to the app.
 
 <div class="image"><img src="/images/iot_in_healthcare.png" alt="IoT for healthcare" title="IoT for healthcare"  /> </div>
