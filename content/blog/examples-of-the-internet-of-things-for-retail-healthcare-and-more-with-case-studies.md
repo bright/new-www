@@ -68,7 +68,7 @@ You don’t have to make a call, pushing one button on your phone would start it
 
 **Check out an actual case study – [SmartHelp emergency application](/projects/smarthelp) that we developed.**
 
-<div class='block-button'><h2>Planning to build your own IoT in sports or emergency services?</h2><div>We have developed IoT solutions for clients based in UK, Israel, USA and Norway. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
+<div class='block-button'><h2>Looking for IoT agency?</h2><div>We have developed IoT solutions for clients based in UK, Israel, USA and Norway. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
 
 ## Looking for an IoT development company?
 
