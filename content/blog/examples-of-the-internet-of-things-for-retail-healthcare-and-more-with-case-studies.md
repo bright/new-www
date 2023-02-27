@@ -44,4 +44,4 @@ The app and modern eHealth devices create a **healthcare IoT network that measur
 
 **Check out an actual case study – [vCare healthcare application](/projects/vCare) that we helped to develop.**
 
-<div class='block-button'><h2>Planning to build your own IoT for healthcare?</h2><div>We have developed healthcare solutions dedicated to Parkinson's patients, pregnant women, people suffering from depression, caregivers and more. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
+<div class='block-button'><h2>Planning to build your own IoT for healthcare?</h2><div>We have developed healthcare solutions dedicated to Parkinson's patients, pregnant women, people suffering from depression, caregivers and more. Contact us to book a free consultation and estimate your IoT healthcare solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
