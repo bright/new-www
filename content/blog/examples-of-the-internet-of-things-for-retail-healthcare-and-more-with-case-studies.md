@@ -43,3 +43,5 @@ This IoT network consists of a **thermometer** that measures the body’s temper
 The app and modern eHealth devices create a **healthcare IoT network that measures patients' vital signs and processes them in the app**. Now, the **app could send data to a designated doctor who can immediately verify the state of a patient**. IoT is definitely the future of healthcare. Or even the present because that technology already exists!
 
 **Check out an actual case study – [vCare healthcare application](/projects/vCare) that we helped to develop.**
+
+<div class='block-button'><h2>Planning to build your own IoT for healthcare?</h2><div>We have developed healthcare solutions dedicated to Parkinson's patients, pregnant women, people suffering from depression, caregivers and more. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
