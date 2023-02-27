@@ -30,7 +30,7 @@ The fact that you pay with your card and then receive a printed receipt means th
 
 **Check out an actual case study – [Just Eat POS applications](/projects/system-for-restaurants) that we built and scaled.**
 
-<div class='block-button'><h2>Planning to build your own IoT for retail or restaurant?</h2><div>We have developed IoT products for clients from Germany, Israel, USA and UK. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
+<div class='block-button'><h2>Planning to build your own IoT for retail or restaurant?</h2><div>We have developed IoT products for clients from Germany, Israel, USA and UK. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/our-areas/iot-development"><button>let's talk about IoT</button></a></div>
 
 ## IoT for healthcare
 
@@ -44,7 +44,7 @@ The app and modern eHealth devices create a **healthcare IoT network that measur
 
 **Check out an actual case study – [vCare healthcare application](/projects/vCare) that we helped to develop.**
 
-<div class='block-button'><h2>Planning to build your own IoT for healthcare?</h2><div>We have developed healthcare solutions dedicated to Parkinson's patients, pregnant women, people suffering from depression, caregivers and more. Contact us to book a free consultation and estimate your IoT healthcare solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
+<div class='block-button'><h2>Planning to build your own IoT for healthcare?</h2><div>We have developed healthcare solutions dedicated to Parkinson's patients, pregnant women, people suffering from depression, caregivers and more. Contact us to book a free consultation and estimate your IoT healthcare solution.</div><a href="/our-areas/iot-development"><button>let's talk about IoT</button></a></div>
 
 ## IoT in sports
 
@@ -56,7 +56,7 @@ Gathered data might be similar to the one processed by healthcare IoT systems bu
 
 Check out an actual case study – [Motivo application for cyclists](/projects/motivo) that we developed.
 
-<div class='block-button'><h2>Planning to build your own IoT in sports?</h2><div>We have developed sports and IoT solutions for clients based in UK, Israel, USA and Norway. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
+<div class='block-button'><h2>Planning to build your own IoT in sports?</h2><div>We have developed sports and IoT solutions for clients based in UK, Israel, USA and Norway. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/our-areas/iot-development"><button>let's talk about IoT</button></a></div>
 
 ## IoT for emergency services
 
@@ -65,3 +65,11 @@ Imagine an app that can send your localization, in emergency situations, to resc
 You don’t have to make a call, pushing one button on your phone would start it all. An **IoT app connects you with chosen devices and emergency services to send SOS messages**.
 
 <div class="image"><img src="/images/iot_emergency_services.png" alt="IoT for emergency services" title="IoT for emergency services"  /> </div>
+
+**Check out an actual case study – [SmartHelp emergency application](/projects/smarthelp) that we developed.**
+
+## Looking for an IoT development company?
+
+The Internet of Things is around us and it influences many industries. If you want to build IoT applications, contact us and book a free consultation.
+
+<div class='block-button'><h2>Planning to build your own IoT solution?</h2><div>We have developed IoT products for clients from Germany, Israel, USA and UK. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/our-areas/iot-development"><button>contact IoT development company</button></a></div>
