@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-02-27T10:12:12.508Z
 title: Examples of the Internet of Things for Retail, Healthcare and More (with
   Case Studies)
 layout: post
-image: /images/blog_post_iot_examples.png
+image: /images/blog_post_cover-iot_examples.png
 hidden: false
 comments: true
 published: true
