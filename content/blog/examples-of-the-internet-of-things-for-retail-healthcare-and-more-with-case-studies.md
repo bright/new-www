@@ -10,7 +10,7 @@ title: Examples of the Internet of Things for Retail, Healthcare and More (with
   Case Studies)
 layout: post
 image: /images/blog_post_iot_examples.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
