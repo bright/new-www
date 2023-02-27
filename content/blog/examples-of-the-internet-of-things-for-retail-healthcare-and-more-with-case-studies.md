@@ -56,4 +56,4 @@ Gathered data might be similar to the one processed by healthcare IoT systems bu
 
 Check out an actual case study – [Motivo application for cyclists](/projects/motivo) that we developed.
 
-<div class='block-button'><h2>Planning to build your own IoT in sports?</h2><div>We have developed sports and IoT solutions for clients based in UK, Israel, USA and Norway. Contact us to book a free consultation and estimate your IoT healthcare solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
+<div class='block-button'><h2>Planning to build your own IoT in sports?</h2><div>We have developed sports and IoT solutions for clients based in UK, Israel, USA and Norway. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
