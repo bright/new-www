@@ -51,9 +51,6 @@ const HowWeWorkDescription = () => {
         </CustomSectionTitle>
         <CustomSectionInner>
           <ParagraphTextWrapper>
-            At Bright Inventions, we offer our expertise during all software development phases.
-          </ParagraphTextWrapper>
-          <ParagraphTextWrapper>
             We leverage our strategic location in Poland – the heart of Europe – to combine remote, daily work with partners whenever need be.
           </ParagraphTextWrapper>
           <ParagraphTextWrapper>We’re there for you at all project development stages:</ParagraphTextWrapper>
