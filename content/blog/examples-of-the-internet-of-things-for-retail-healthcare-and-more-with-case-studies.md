@@ -4,8 +4,8 @@ secondAuthor: cezary
 tags:
   - business
   - IoT
-date: 2023-02-27T08:49:48.436Z
-meaningfullyUpdatedAt: 2023-02-27T08:49:48.467Z
+date: 2023-02-27T10:12:11.632Z
+meaningfullyUpdatedAt: 2023-02-27T10:12:12.508Z
 title: Examples of the Internet of Things for Retail, Healthcare and More (with
   Case Studies)
 layout: post
