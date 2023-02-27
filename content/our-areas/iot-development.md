@@ -49,6 +49,9 @@ bar_stack:
   - Kotlin
   - TeamCity
   - Fastlane
+  - AWS
+  - Figma
+  - Miro
 button: let's talk about IoT
 button2: let's talk about IoT
 published: true
