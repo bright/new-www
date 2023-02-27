@@ -28,7 +28,7 @@ All of these devices have to be **connected with Bluetooth or WiFi** to enable c
 
 The fact that you pay with your card and then receive a printed receipt means that you are a “beneficiary” of a retail Internet of Things technology.
 
-**Check out an actual case study – [Just Eat POS applications](/projects/system-for-restaurants) that we build and scaled.**
+**Check out an actual case study – [Just Eat POS applications](/projects/system-for-restaurants) that we built and scaled.**
 
 <div class='block-button'><h2>Planning to build your own IoT for retail or restaurant?</h2><div>We have developed IoT products for clients from Germany, Israel, USA and UK. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
 
