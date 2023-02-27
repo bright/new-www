@@ -57,3 +57,11 @@ Gathered data might be similar to the one processed by healthcare IoT systems bu
 Check out an actual case study – [Motivo application for cyclists](/projects/motivo) that we developed.
 
 <div class='block-button'><h2>Planning to build your own IoT in sports?</h2><div>We have developed sports and IoT solutions for clients based in UK, Israel, USA and Norway. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
+
+## IoT for emergency services
+
+Imagine an app that can send your localization, in emergency situations, to rescue services and close ones. Actually, you don’t need to imagine that. This is possible thanks to IoT.
+
+You don’t have to make a call, pushing one button on your phone would start it all. An **IoT app connects you with chosen devices and emergency services to send SOS messages**.
+
+<div class="image"><img src="/images/iot_emergency_services.png" alt="IoT for emergency services" title="IoT for emergency services"  /> </div>
