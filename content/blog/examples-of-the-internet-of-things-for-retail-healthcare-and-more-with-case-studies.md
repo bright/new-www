@@ -37,3 +37,9 @@ The fact that you pay with your card and then receive a printed receipt means th
 Healthcare is an industry where IoT can support the prevention of many illnesses, especially cardiovascular diseases which are the [leading cause of death](https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1) globally. As an example of healthcare IoT check out a possible **network of a mobile phone, with a dedicated application, connected to eHealth devices** that send data to the app.
 
 <div class="image"><img src="/images/iot_in_healthcare.png" alt="IoT for healthcare" title="IoT for healthcare"  /> </div>
+
+This IoT network consists of a **thermometer** that measures the body’s temperature and thanks to a Bluetooth connection sends it to the app. The **spirometer** checks the respiration rate and sends data to the app too. Also, we have a **pulse oximeter** that sends data about heart rate. 
+
+The app and modern eHealth devices create a **healthcare IoT network that measures patients' vital signs and processes them in the app**. Now, the **app could send data to a designated doctor who can immediately verify the state of a patient**. IoT is definitely the future of healthcare. Or even the present because that technology already exists!
+
+**Check out an actual case study – [vCare healthcare application](/projects/vCare) that we helped to develop.**
