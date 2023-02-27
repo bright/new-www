@@ -72,4 +72,4 @@ You don’t have to make a call, pushing one button on your phone would start it
 
 ## Looking for an IoT development company?
 
-The Internet of Things is around us and it influences many industries. If you want to build IoT applications, contact [IoT Development Company](/our-areas/iot-development) like us and book a free consultation.
+The Internet of Things is around us and it influences many industries. If you want to build IoT applications, contact [IoT development company](/our-areas/iot-development) like us and book a free consultation.
