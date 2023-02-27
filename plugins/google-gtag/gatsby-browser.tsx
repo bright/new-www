@@ -5,7 +5,9 @@ import { gtagOrFallback } from './gtag-or-fallback'
 // how do we unify that?
 const supportedMetaTag = {
   'article:published_time': 'article_published_at',
+  'article:author': 'article_author',
   'article:tag': 'tags',
+  'og:title': 'title',
 }
 
 function collectMetaTags() {
