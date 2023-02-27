@@ -31,3 +31,9 @@ The fact that you pay with your card and then receive a printed receipt means th
 **Check out an actual case study – [applications that we build for Just Eat POS](https://brightinventions.pl/projects/system-for-restaurants).**
 
 <div class='block-button'><h2>Planning to build your own IoT for retail or restaurant?</h2><div>We have developed IoT products for clients from Germany, Israel, USA and UK. Contact us to book a free consultation and estimate your IoT solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
+
+## IoT for healthcare
+
+Healthcare is an industry where IoT can support the prevention of many illnesses, especially cardiovascular diseases which are the [leading cause of death](https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1) globally. As an example of healthcare IoT check out a possible **network of a mobile phone, with a dedicated application, connected to eHealth devices that send data to the app**.
+
+<div class="image"><img src="/images/iot_in_healthcare.png" alt="IoT for healthcare" title="IoT for healthcare"  /> </div>
