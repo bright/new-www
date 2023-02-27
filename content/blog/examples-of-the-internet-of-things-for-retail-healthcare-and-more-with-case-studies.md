@@ -47,3 +47,9 @@ The app and modern eHealth devices create a **healthcare IoT network that measur
 <div class='block-button'><h2>Planning to build your own IoT for healthcare?</h2><div>We have developed healthcare solutions dedicated to Parkinson's patients, pregnant women, people suffering from depression, caregivers and more. Contact us to book a free consultation and estimate your IoT healthcare solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
 
 ## IoT in sports
+
+The network of devices connected with apps is quite known for athletes. Anyone can wear a **smartwatch to measure heart rate, burned calories**, and other data that are transferred to our phones and then we can analyze them. That also is the Internet of Things. 
+
+Gathered data might be similar to the one processed by healthcare IoT systems but the way we utilize the data may vary. According to data collected and analyzed with IoT apps and devices **athletes and coaches can plan workouts, establish dietary requirements**, and more. This can be managed by an IoT sports app built for specific disciplines such as cycling, running, or swimming.
+
+<div class="image"><img src="/images/sports_iot.png" alt="IoT in sports" title="IoT in sports"  /> </div>
