@@ -51,16 +51,10 @@ const HowWeWorkDescription = () => {
         </CustomSectionTitle>
         <CustomSectionInner>
           <ParagraphTextWrapper>
-            At Bright Inventions, we contribute to the business success of a project by offering our expertise during
-            all its development phases.
+            At Bright Inventions, we offer our expertise during all software development phases.
           </ParagraphTextWrapper>
           <ParagraphTextWrapper>
-            We leverage our strategic location in Poland – the heart of Europe – to combine remote, daily work with
-            on-site collaboration with partners whenever need be.
-          </ParagraphTextWrapper>
-          <ParagraphTextWrapper>
-            As our projects come to an end, we happily give our clients a helping hand in growing their internal
-            software development teams to take over product development long-term.
+            We leverage our strategic location in Poland – the heart of Europe – to combine remote, daily work with partners whenever need be.
           </ParagraphTextWrapper>
           <ParagraphTextWrapper>We’re there for you at all project development stages:</ParagraphTextWrapper>
         </CustomSectionInner>
