@@ -201,10 +201,7 @@ const HowWeWorkSteps = () => {
                 <Title>Product design</Title>
               </SectionTitle>
               <Description>
-                We’ll be more than delighted to organize Agile workshops for you and your team. This way, we’ll help you
-                quickly get a grasp of what this leading project management methodology brings to the table! It will
-                also help you understand how we plan and prioritize our work in order to bring your product to the
-                market.
+                Once we know exactly what your app will bring to the table as far as feature requirements are concerned, our Product Design team will make sure that it also offers a robust user experience. If you’re already working with in-house designers or a different design team, we’ll be more than happy to join forces in the UI/UX discipline.
               </Description>
             </CustomSectionInner>
           </DescriptionWrapper>
@@ -250,12 +247,10 @@ const HowWeWorkSteps = () => {
             <CustomSectionInner>
               <SectionTitle>
                 <StepNumber>07</StepNumber>
-                <Title>Maintenance</Title>
+                <Title>Support & Maintenance</Title>
               </SectionTitle>
               <Description>
-                Our QA team will make sure that your software is always up-and-running and offers the best possible
-                performance. Rest assured that your project will be in safe hands and nothing will disrupt its sound
-                functioning.
+                After the initial launch of the product on the market, many of our customers entrust us with support, maintenance, and further development of the software. Depending on your needs, we’ll take care of ongoing support, UV+X maintenance, post-launch development, and many more.
               </Description>
             </CustomSectionInner>
           </DescriptionWrapper>
