@@ -49,6 +49,7 @@ bar_stack:
   - Kotlin
   - TeamCity
   - Fastlane
+  - AWS
 button: let's talk about IoT
 button2: let's talk about IoT
 published: true
