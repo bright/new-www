@@ -53,3 +53,7 @@ The network of devices connected with apps is quite known for athletes. Anyone c
 Gathered data might be similar to the one processed by healthcare IoT systems but the way we utilize the data may vary. According to data collected and analyzed with IoT apps and devices **athletes and coaches can plan workouts, establish dietary requirements**, and more. This can be managed by an IoT sports app built for specific disciplines such as cycling, running, or swimming.
 
 <div class="image"><img src="/images/sports_iot.png" alt="IoT in sports" title="IoT in sports"  /> </div>
+
+Check out an actual case study – [Motivo application for cyclists](/projects/motivo) that we developed.
+
+<div class='block-button'><h2>Planning to build your own IoT in sports?</h2><div>We have developed sports and IoT solutions for clients based in UK, Israel, USA and Norway. Contact us to book a free consultation and estimate your IoT healthcare solution.</div><a href="/start-project"><button>let's talk about IoT</button></a></div>
