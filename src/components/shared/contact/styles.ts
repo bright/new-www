@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { TextRegular, TextTitle } from '..'
 import variables from '../../../styles/variables'
-import { lighten, rgba } from 'polished'
 import Arrow from '../../../../static/images/arrow-select.svg'
 import { Button as ButtonBase } from './../index'
 import { clampBuilder } from '../../../helpers/clampBuilder'
