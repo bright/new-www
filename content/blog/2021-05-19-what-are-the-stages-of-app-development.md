@@ -7,7 +7,7 @@ tags:
   - business
   - design
 date: 2021-05-19T10:00:56.280Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2021-05-19T10:00:00.000Z
 title: What are the stages of app development?
 layout: post
 image: /images/blogpost_stagesofappdevelopment.png
@@ -58,7 +58,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 ![Building the MVP](/images/3_mvp.png)
 
 * According to the first feedback received during the prototyping stage, the software development agency creates the first version of the mobile app. **[MVP](/our-areas/mvp-development) is the minimal version of the product/service including only crucial features.**
-* Developing crucial features helps to reduce time to market and prevent app owners from spending too much money for the product that hasn’t been verified by the market yet. 
+* Developing crucial features helps to reduce time to market and prevent app owners from spending too much money on a product that hasn’t been verified by the market yet. 
 * MVP development works closely with the agile methodology.
 * Business trends and technologies transform every day so **developing MVPs helps quickly enter the market** and easily adapt to any possible business or technical changes. 
 * MVP is also an opportunity to meet first technical challenges that could have been missed during prototyping phase such as: accessing geo location in the background or handling [bluetooth](/our-areas/bluetooth-development) communication with other devices.
