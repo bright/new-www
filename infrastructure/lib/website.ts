@@ -26,6 +26,7 @@ import { hasUserDecidedOnAnalyticsConsentCookieName } from '../../src/analytics/
 import { EsbuildProvider } from '@mrgrain/cdk-esbuild'
 import * as fs from 'fs'
 import path from 'path'
+import { thirdPartyProxyPath } from 'gatsby/dist/internal-plugins/partytown/proxy'
 
 interface WebsiteProps {
   certificateArn: string
@@ -114,6 +115,13 @@ export class Website extends cdk.Stack {
           forwardedValues: {
             queryString: true,
             headers: ['referer'],
+          },
+        },
+        {
+          allowedMethods: CloudFrontAllowedMethods.ALL,
+          pathPattern: thirdPartyProxyPath,
+          forwardedValues: {
+            queryString: true,
           },
         },
       ],

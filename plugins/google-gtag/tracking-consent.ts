@@ -1,25 +1,7 @@
 import { consentToGtagValue } from './consent-to-gtag-value'
+import { gtagLoader } from './gtag-loader'
 
-function gtagLoader(): Promise<Gtag.Gtag> {
-  return new Promise((resolve, reject) => {
-    const gtag = window.gtag
-    if (gtag) {
-      resolve(gtag)
-    }
-    document.addEventListener('DOMContentLoaded', () => {
-      if (gtag) {
-        resolve(gtag)
-      } else {
-        reject('window.gtag not defined after DOMContentLoaded')
-      }
-    })
-  })
-}
-
-export function applyConsentDecisionToGtag(
-  decision: { analytics: boolean; marketing: boolean },
-  gtag: Gtag.Gtag = global.gtag
-) {
+export function applyConsentDecisionToGtag(decision: { analytics: boolean; marketing: boolean }, gtag: Gtag.Gtag) {
   const { marketing, analytics } = decision
 
   gtag('consent', 'update', {

@@ -8,31 +8,30 @@ import { gatsbyMdxOptions } from './src/gatsby-mdx-options'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
 import { GatsbyConfig } from 'gatsby'
 import { googleTagManagerUrl } from './plugins/google-gtag/google-tag-manager-url'
+import { googleTrackingIds } from './src/google-tracking-ids'
 
-const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
-const isStaging = true || process.env.GATSBY_ACTIVE_ENV === 'staging'
-const isDevelop = !process.env.GATSBY_ACTIVE_ENV
+const gatsbyActiveEnv = process.env.GATSBY_ACTIVE_ENV! as 'production' | 'staging' | 'develop'
+const isProduction = gatsbyActiveEnv === 'production'
+const isDevelop = !gatsbyActiveEnv
 
 const generateRobotsContent = !isDevelop
 
-const productionGoogleTrackingIds = ['UA-29336006-1', 'G-H4MTQGSVD3', 'AW-10942749476']
-const stagingGoogleTrackingIds = ['G-ZLZ90MP8F9']
-const facebookPixelId = isProduction ? '1641621022924330' : ''
-
 const enableHotjar = false //to enable hotjar globally set the value to true
 
-const googleTrackingIds = isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : []
+const facebookPixelId = isProduction ? '1641621022924330' : ''
+
+const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
-  partytownProxiedURLs: [
-    googleTrackingIds[0] ? googleTagManagerUrl(googleTrackingIds[0]) : null,
-  ].filter(isDefined),
+  partytownProxiedURLs: [googleTrackingIdsForEnv[0] ? googleTagManagerUrl(googleTrackingIdsForEnv[0]) : null].filter(
+    isDefined
+  ),
   plugins: [
     {
       resolve: `google-gtag`,
       options: {
-        trackingIds: googleTrackingIds,
+        trackingIds: googleTrackingIdsForEnv,
       },
     },
     {
