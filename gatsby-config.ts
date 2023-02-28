@@ -7,9 +7,10 @@ import { isDefined } from './src/is-defined'
 import { gatsbyMdxOptions } from './src/gatsby-mdx-options'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
 import { GatsbyConfig } from 'gatsby'
+import { googleTagManagerUrl } from './plugins/google-gtag/google-tag-manager-url'
 
 const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
-const isStaging = process.env.GATSBY_ACTIVE_ENV === 'staging'
+const isStaging = true || process.env.GATSBY_ACTIVE_ENV === 'staging'
 const isDevelop = !process.env.GATSBY_ACTIVE_ENV
 
 const generateRobotsContent = !isDevelop
@@ -20,14 +21,18 @@ const facebookPixelId = isProduction ? '1641621022924330' : ''
 
 const enableHotjar = false //to enable hotjar globally set the value to true
 
+const googleTrackingIds = isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : []
+
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
-
+  partytownProxiedURLs: [
+    googleTrackingIds[0] ? googleTagManagerUrl(googleTrackingIds[0]) : null,
+  ].filter(isDefined),
   plugins: [
     {
       resolve: `google-gtag`,
       options: {
-        trackingIds: isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : [],
+        trackingIds: googleTrackingIds,
       },
     },
     {

@@ -1,13 +1,27 @@
 import React from 'react'
 import { GatsbySSR } from 'gatsby'
+import { Script } from 'gatsby-script'
 import { consentToGtagValue } from './consent-to-gtag-value'
+import { googleTagManagerUrl } from './google-tag-manager-url'
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
   const trackingIds = options.trackingIds ?? []
+  console.log('google-gtag/onRenderBody', { trackingIds })
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
     const firstTrackingTag = trackingIds[0]
     // https://developers.google.com/tag-platform/gtagjs/install
-    const configureGtagScript = `
+    setHeadComponents([
+      <link key='googletagmanager-preconnect' rel='preconnect' href='https://www.googletagmanager.com' />,
+      <link key='google-analytics-preconnect' rel='preconnect' href='https://www.google-analytics.com' />,
+      <script
+        key='partytown-vanilla-config'
+        dangerouslySetInnerHTML={{
+          __html: `partytown = { debug: true }`,
+        }}
+      />,
+      <Script src={googleTagManagerUrl(firstTrackingTag)} strategy='off-main-thread' />,
+      <Script id='gtag-config' strategy='off-main-thread' forward={['gtag']}>
+        {`
 window.dataLayer = window.dataLayer || [];
 function gtag(){ dataLayer.push(arguments) };
 
@@ -24,13 +38,8 @@ ${trackingIds
     return `gtag('config', '${trackingId}');`
   })
   .join('\n')}
-
-`
-    setHeadComponents([
-      <link rel='preconnect' href='https://www.googletagmanager.com' />,
-      <link rel='preconnect' href='https://www.google-analytics.com' />,
-      <script async src={'https://www.googletagmanager.com/gtag/js?id=' + firstTrackingTag}></script>,
-      <script dangerouslySetInnerHTML={{ __html: configureGtagScript }} />,
+`}
+      </Script>,
     ])
   }
 }
