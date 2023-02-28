@@ -25,6 +25,8 @@ const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 
 const enableWebpackBundleAnalyser = process.env.WEBPACK_BUNDLE_ANALYSER_ENABLE == 'true'
 
+const googleTrackingIds = isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : []
+
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
   partytownProxiedURLs: partytownEnabled
