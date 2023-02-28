@@ -14,7 +14,7 @@ hidden: false
 comments: true
 published: true
 ---
-Nothing is more rewarding from a software house’s perspective than seeing our clients’ apps and businesses blossom on the market. After all, in today’s bustling startup scene, turning an idea into a working product people love and use is no easy feat! In fact, getting to this point in startup growth can be an arduous road full of challenges and potential mistakes lurking just around the corner. It certainly doesn’t have to, though!
+Nothing is more rewarding from a software development agency’s perspective than seeing our clients’ apps and businesses blossom on the market. After all, in today’s bustling startup scene, turning an idea into a working product people love and use is no easy feat! In fact, getting to this point in startup growth can be an arduous road full of challenges and potential mistakes lurking just around the corner. It certainly doesn’t have to, though!
 
 At Bright Inventions, we love building [MVPs for startups](/our-areas/mvp-development) for a reason – it’s the most time-effective way to validate an idea on the market before our clients decide to go “all-in”. Below, we’ve opened up a little on the reasons why we enjoy building MVPs as much as we do.
 
@@ -34,7 +34,7 @@ MVPs put an emphasis on testing and observing market reaction to a new concept, 
 
 Sounds good, doesn’t it? 
 
-But how do we derive sufficient information about the users who started using our MVP? How do we know how they use it, or why and when they decide to abandon it? Here’s where an experienced software house like ourselves can come in and set up an analytics tool that tracks the right data and user behaviour. It takes a lot of prior experience to observe and know where to look (despite years of expertise, we always learn something new ourselves!), but once you’ve got the hang of it, you’ll gain access to invaluable data.
+But how do we derive sufficient information about the users who started using our MVP? How do we know how they use it, or why and when they decide to abandon it? Here’s where an experienced software development company like ourselves can come in and set up an analytics tool that tracks the right data and user behaviour. It takes a lot of prior experience to observe and know where to look (despite years of expertise, we always learn something new ourselves!), but once you’ve got the hang of it, you’ll gain access to invaluable data.
 
 Observing how users interact with an MVP allows our clients to focus on what caught their users’ attention the most, and either delete or upgrade underperforming processes or features. It also sets the groundwork for planning an effective marketing strategy built around the actual value that proved to be most useful to users. 
 
