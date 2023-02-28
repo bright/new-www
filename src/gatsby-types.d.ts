@@ -31883,7 +31883,7 @@ type Unnamed_1_Query = { readonly author: { readonly edges: ReadonlyArray<{ read
 type Unnamed_2_QueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type Unnamed_2_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
+type Unnamed_2_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null, readonly slug: string | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
 
 type Unnamed_3_QueryVariables = Exact<{ [key: string]: never; }>;
 

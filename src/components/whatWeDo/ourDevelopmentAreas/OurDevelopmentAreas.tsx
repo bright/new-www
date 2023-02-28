@@ -32,7 +32,7 @@ const OurDevelopmentAreas = () => {
         <DevelopmentAreasContainer>
           {ourServicesItems.map(service => (
             <DevelopmentAreaContainer key={service.name}>
-              <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug, faqTitle: '' })}>
+              <RevertHoverLink to={routeLinks.ourAreas({ service: service.slug })}>
                 <SectionTitleContainer>
                   <GatsbyImage
                     image={getImage(service.our_services_icon)!}

@@ -2,7 +2,7 @@
 layout: faqs
 faqs_id: "What does IoT mean? "
 name: iot development 1
-slug: "what-does-iot-mean "
+slug: what-does-iot-mean
 question: What does IoT mean?
 answer: IoT stands for the Internet of Things. IoT can be described as a network
   of devices, sensors and software that are all connected. Thanks to the IoT,
