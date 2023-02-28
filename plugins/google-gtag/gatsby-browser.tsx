@@ -1,5 +1,7 @@
 import { GatsbyBrowser } from 'gatsby'
 import { gtagOrFallback } from './gtag-or-fallback'
+import { GoogleGtagScript } from './google-gtag-script'
+import React from 'react'
 
 // TODO: this would be the same in pixel or hotjar
 // how do we unify that?
@@ -47,4 +49,8 @@ export const onRouteUpdate: GatsbyBrowser['onRouteUpdate'] = args => {
     // simulate 2 rAF calls
     setTimeout(sendPageView, 32)
   }
+}
+
+export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }, options) => {
+  return <GoogleGtagScript options={options}>{element}</GoogleGtagScript>
 }

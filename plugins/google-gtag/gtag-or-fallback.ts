@@ -3,10 +3,10 @@ const loggingGtag: Gtag.Gtag = (...args: any[]) => {
 }
 
 export function gtagOrFallback(isProduction: boolean = false): Gtag.Gtag {
-  if (isProduction && !global.gtag) {
+  if (isProduction && typeof gtag == 'undefined') {
     console.error('No gtag available. Please check gatsby-plugin-google-gtag configuration')
   }
 
-  const gtagFun = global?.gtag ?? loggingGtag
+  const gtagFun = gtag ?? loggingGtag
   return gtagFun
 }
