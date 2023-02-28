@@ -54,10 +54,10 @@ Relevo and Bright Inventions’ priority has been to increase the scalability & 
 
 ## Process of Relevo app development
 
-The founders of Relevo were looking for an experienced software development company that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
+The founders of Relevo were looking for an experienced [software development company](/) that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
 
 We are in the process of rewriting the whole backend using technologies such as Node.js, NestJS and AWS. Also, we take care of the frontend part – developing a panel for restaurants allowing for managing the app users’ activity as well as an admin panel. 
 
 ## Result
 
-Although our team was hired to take care mainly of the backend side, we are about to take over the whole mobile app development as well. Our mobile developers will be working on both Android and iOS versions. We are extremely happy that the client trusted us to develop the whole system now. Our cooperation with Relevo started at the end of 2020 and in a couple of months this adventure quickly moved to another level.
+Although our team was hired to take care mainly of the backend side, we are about to take over the whole [mobile app development](/our-areas/mobile-app-development) as well. Our mobile developers will be working on both Android and iOS versions. We are extremely happy that the client trusted us to develop the whole system now. Our cooperation with Relevo started at the end of 2020 and in a couple of months this adventure quickly moved to another level.
