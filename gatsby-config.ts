@@ -8,12 +8,10 @@ import { gatsbyMdxOptions } from './src/gatsby-mdx-options'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
 import { GatsbyConfig } from 'gatsby'
 import { googleTagManagerUrl } from './plugins/google-gtag/google-tag-manager-url'
-import { googleTrackingIds } from './src/google-tracking-ids'
-import { partytownEnabled } from './src/partytown-enabled'
 
-const gatsbyActiveEnv = process.env.GATSBY_ACTIVE_ENV! as 'production' | 'staging' | 'develop'
-const isProduction = gatsbyActiveEnv === 'production'
-const isDevelop = !gatsbyActiveEnv
+const isProduction = process.env.GATSBY_ACTIVE_ENV === 'production'
+const isStaging = true || process.env.GATSBY_ACTIVE_ENV === 'staging'
+const isDevelop = !process.env.GATSBY_ACTIVE_ENV
 
 const generateRobotsContent = !isDevelop
 
@@ -26,20 +24,18 @@ const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 const enableWebpackBundleAnalyser = process.env.WEBPACK_BUNDLE_ANALYSER_ENABLE == 'true'
 
 
+const googleTrackingIds = isProduction ? productionGoogleTrackingIds : isStaging ? stagingGoogleTrackingIds : []
+
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
-  partytownProxiedURLs: partytownEnabled
-    ? [
-        googleTrackingIdsForEnv[0] ? googleTagManagerUrl(googleTrackingIdsForEnv[0]) : null,
-        'https://connect.facebook.net/en_US/fbevents.js',
-      ].filter(isDefined)
-    : [],
+  partytownProxiedURLs: [
+    googleTrackingIds[0] ? googleTagManagerUrl(googleTrackingIds[0]) : null,
+  ].filter(isDefined),
   plugins: [
     {
       resolve: `google-gtag`,
       options: {
-        trackingIds: googleTrackingIdsForEnv,
-        partytownEnabled: partytownEnabled,
+        trackingIds: googleTrackingIds,
       },
     },
     {
