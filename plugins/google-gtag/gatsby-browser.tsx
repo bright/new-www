@@ -51,7 +51,7 @@ export const onRouteUpdate: GatsbyBrowser['onRouteUpdate'] = args => {
   }
 }
 
-export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element, props  }, options) => {
+export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element, props }, options) => {
   return (
     <>
       {element}
