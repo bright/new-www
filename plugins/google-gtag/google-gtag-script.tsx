@@ -6,6 +6,14 @@ import { consentToGtagValue } from './consent-to-gtag-value'
 import { WindowLocation } from '@reach/router'
 import { isConnectedToGoogleGtagAssistant, setIsConnectedToGoogleGtagAssistant } from './google-gtag-assistant'
 
+const storage =
+  typeof sessionStorage !== 'undefined'
+    ? sessionStorage
+    : {
+        getItem: (key: string) => null,
+        setItem(key: string, value: string) {},
+      }
+
 export const GoogleGtagScript = ({ options, location }: { options: PluginOptions; location?: WindowLocation }) => {
   const trackingIds = options.trackingIds ?? []
 
