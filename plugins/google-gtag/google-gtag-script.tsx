@@ -5,26 +5,31 @@ import { googleTagManagerUrl } from './google-tag-manager-url'
 import { consentToGtagValue } from './consent-to-gtag-value'
 import { WindowLocation } from '@reach/router'
 
+const storage =
+  typeof sessionStorage !== 'undefined'
+    ? sessionStorage
+    : {
+        getItem: (key: string) => null,
+        setItem(key: string, value: string) {},
+      }
+
 export const GoogleGtagScript = ({ options, location }: { options: PluginOptions; location?: WindowLocation }) => {
   const trackingIds = options.trackingIds ?? []
 
-  const isConnectedToGtagDebugger = location?.search?.includes('gtm_debug')
-  const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
-
-  console.log({
-    isConnectedToGtagDebugger,
-    location,
-    scriptLoadStrategy,
-  })
-
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
-    const isConnectedToGtagDebugger = isConnectedToGoogleGtagAssistant(location)
-    const partytownEnabled = options.partytownEnabled && !isConnectedToGtagDebugger
-    const scriptLoadStrategy = partytownEnabled ? 'off-main-thread' : 'post-hydrate'
+    const isConnectedToGtagDebugger =
+      location?.search?.includes('gtm_debug') || storage.getItem('isConnectedToGtagDebugger') == 'true'
+    const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
 
     useEffect(() => {
-      setIsConnectedToGoogleGtagAssistant(isConnectedToGtagDebugger)
+      storage.setItem('isConnectedToGtagDebugger', String(isConnectedToGtagDebugger))
     }, [])
+
+    console.log({
+      isConnectedToGtagDebugger,
+      location,
+      scriptLoadStrategy,
+    })
 
     const firstTrackingTag = trackingIds[0]
     const partytownEnabled = scriptLoadStrategy == 'off-main-thread'
