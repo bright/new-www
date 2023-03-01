@@ -51,6 +51,11 @@ export const onRouteUpdate: GatsbyBrowser['onRouteUpdate'] = args => {
   }
 }
 
-export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }, options) => {
-  return <GoogleGtagScript options={options}>{element}</GoogleGtagScript>
+export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element, props  }, options) => {
+  return (
+    <>
+      {element}
+      <GoogleGtagScript options={options} location={props.location} />
+    </>
+  )
 }
