@@ -1,34 +1,43 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { PluginOptions } from 'gatsby'
 import { Script } from 'gatsby-script'
 import { googleTagManagerUrl } from './google-tag-manager-url'
 import { consentToGtagValue } from './consent-to-gtag-value'
 import { WindowLocation } from '@reach/router'
 
+const storage =
+  typeof sessionStorage !== 'undefined'
+    ? sessionStorage
+    : {
+        getItem: (key: string) => null,
+        setItem(key: string, value: string) {},
+      }
+
+
 export const GoogleGtagScript = ({ options, location }: { options: PluginOptions; location?: WindowLocation }) => {
   const trackingIds = options.trackingIds ?? []
 
-  const isConnectedToGtagDebugger = location?.search?.includes('gtm_debug')
-  const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
-
-  console.log({
-    isConnectedToGtagDebugger,
-    location,
-    scriptLoadStrategy
-  })
-
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
+    const isConnectedToGtagDebugger = location?.search?.includes('gtm_debug') || storage.getItem('isConnectedToGtagDebugger') == 'true'
+    const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
+
+    useEffect(() => {
+      storage.setItem('isConnectedToGtagDebugger', String(isConnectedToGtagDebugger))
+    }, [])
+
+    console.log({
+      isConnectedToGtagDebugger,
+      location,
+      scriptLoadStrategy,
+    })
+
     const firstTrackingTag = trackingIds[0]
     const partytownEnabled = scriptLoadStrategy == 'off-main-thread'
     // https://developers.google.com/tag-platform/gtagjs/install
     const partytownForwards = partytownEnabled ? ['gtag', 'dataLayer.push'] : undefined
     return (
       <>
-        <Script
-          src={googleTagManagerUrl(firstTrackingTag)}
-          strategy={scriptLoadStrategy}
-          forward={partytownForwards}
-        />
+        <Script src={googleTagManagerUrl(firstTrackingTag)} strategy={scriptLoadStrategy} forward={partytownForwards} />
         <Script id='gtag-config' strategy={scriptLoadStrategy}>
           {`
 window.dataLayer = window.dataLayer || [];
