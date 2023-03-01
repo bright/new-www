@@ -4,10 +4,13 @@ import { Script } from 'gatsby-script'
 import { googleTagManagerUrl } from './google-tag-manager-url'
 import { consentToGtagValue } from './consent-to-gtag-value'
 import { WindowLocation } from '@reach/router'
-import { isConnectedToGoogleGtagAssistant, setIsConnectedToGoogleGtagAssistant } from './google-gtag-assistant'
 
 export const GoogleGtagScript = ({ options, location }: { options: PluginOptions; location?: WindowLocation }) => {
   const trackingIds = options.trackingIds ?? []
+
+  const isConnectedToGtagDebugger = location?.search?.includes('gtm_debug')
+
+  const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
 
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
     const isConnectedToGtagDebugger = isConnectedToGoogleGtagAssistant(location)
@@ -24,7 +27,11 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
     console.debug('gtag', { scriptLoadStrategy, partytownForwards })
     return (
       <>
-        <Script src={googleTagManagerUrl(firstTrackingTag)} strategy={scriptLoadStrategy} forward={partytownForwards} />
+        <Script
+          src={googleTagManagerUrl(firstTrackingTag)}
+          strategy={scriptLoadStrategy}
+          forward={['gtag', 'dataLayer.push']}
+        />
         <Script id='gtag-config' strategy={scriptLoadStrategy}>
           {`
 window.dataLayer = window.dataLayer || [];
