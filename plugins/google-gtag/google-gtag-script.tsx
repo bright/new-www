@@ -12,12 +12,6 @@ export const GoogleGtagScript = ({ children, options }: { children: React.ReactN
     return (
       <>
         {children}
-        <Script
-          key='partytown-vanilla-config'
-          dangerouslySetInnerHTML={{
-            __html: `partytown = { debug: true }`,
-          }}
-        />
         <Script src={googleTagManagerUrl(firstTrackingTag)} strategy='off-main-thread' forward={['gtag', 'dataLayer.push']} />
         <Script id='gtag-config' strategy='off-main-thread'>
           {`
