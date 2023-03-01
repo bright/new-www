@@ -30,6 +30,8 @@ export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
   )
 }
 
+const partytownAllowedHosts = ['www.google-analytics.com', 'www.googletagmanager.com']
+
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
   const files = getFilesFromPath('./public/static', '.woff2')
   const preload = [
@@ -69,10 +71,10 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
       key="partytown-vanilla-config"
       dangerouslySetInnerHTML={{
         __html: `
-        let allowedHosts = new Set(['www.google-analytics.com', 'www.googletagmanager.com']);
         partytown = {
            debug: true,
            resolveUrl(url, location) {
+              let allowedHosts = new Set(${JSON.stringify(partytownAllowedHosts)});
               if (allowedHosts.has(url.hostname)) {
                 // Use a secure connection
                 if (url?.protocol === 'http:') {
