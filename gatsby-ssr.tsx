@@ -12,8 +12,6 @@ import * as fs from 'fs'
 import { GlobalStyle } from './src/styles/global'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 import { thirdPartyProxyPath } from 'gatsby/dist/internal-plugins/partytown/proxy'
-import { PartytownContext } from './src/partytown-context'
-import { partytownEnabled } from './src/partytown-enabled'
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return (
@@ -23,13 +21,14 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
     </>
   )
 }
-
 export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
   const visibleByDefault = process.env.COOKIE_CONSENT_EAGER_RENDER_ENABLED === 'true'
-  return <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>{element}</CookieConsentContextWrapper>
+  return (
+    <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>
+      {element}
+    </CookieConsentContextWrapper>
+  )
 }
-
-const partytownAllowedHosts = ['www.google-analytics.com', 'www.googletagmanager.com']
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
   const files = getFilesFromPath('./public/static', '.woff2')
@@ -47,7 +46,7 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
   console.log({ options })
 
   setHeadComponents([
-    ...files.map((file, i) => {
+  ...files.map((file, i) => {
       return preload.map((font, key) => {
         const fileBeginning = file.split('-').slice(0, -1).join('-')
         if (fileBeginning === font) {
@@ -66,28 +65,14 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
         }
       })
     }),
-    partytownEnabled ? (
-      <script
-        key='partytown-vanilla-config'
-        dangerouslySetInnerHTML={{
-          __html: `
+    <script
+      key="partytown-vanilla-config"
+      dangerouslySetInnerHTML={{
+        __html: `
+        let allowedHosts = new Set(['www.google-analytics.com', 'www.googletagmanager.com']);
         partytown = {
            debug: true,
-           set(opts){
-              // https://github.com/BuilderIO/partytown/issues/72#issuecomment-1383790146
-              let sessionStorage = opts.window && opts.window.sessionStorage;
-              console.log({sessionStorage})
-              let isGtmTagDefinedInUrl = opts.window && opts.window.location && opts.window.location.search.includes("gtm_debug");
-              let isGtmTagDefinedInSessionStorage = sessionStorage && sessionStorage.getItem('isConnectedToGtagDebugger') == 'true'
-              let isDebugging = isGtmTagDefinedInUrl || isGtmTagDefinedInSessionStorage; 
-              if ( isDebugging && opts.name === "type" && opts.nodeName === "SCRIPT" ) { 
-                return opts.prevent; 
-              } {
-                return opts.continue;
-              } 
-           },
            resolveUrl(url, location) {
-              let allowedHosts = new Set(${JSON.stringify(partytownAllowedHosts)});
               if (allowedHosts.has(url.hostname)) {
                 // Use a secure connection
                 if (url?.protocol === 'http:') {
@@ -104,9 +89,8 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
               return url
            }
          }`,
-        }}
-      />
-    ) : null,
+      }}
+    />,
   ])
 }
 
