@@ -16,6 +16,6 @@ redirect_from:
 published: true
 title: Meet Ula
 ---
-People-centered, positive and scrutinous. Ula is a philologist and social media enthusiast. She believes in success through self-developing, hard work and dedication. After hours English teacher, bike addict and amateur chocolate taster.
+An infinite learner, continuous feedback propagator, HR aficionado and marketing enthusiast. Employer branding, IT recruitment and internal communication are subjects that hold a special place in her heart together with social media area. She loves working with people and changing their life for the better. The healthier, happier and more independent her team is, the bigger feeling of accomplishment she has. After hours amateur photographer, cyclist and psychology freak.
 
 Join Ula! [Check our career opportunities](/career).
