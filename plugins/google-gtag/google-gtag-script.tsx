@@ -9,8 +9,13 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
   const trackingIds = options.trackingIds ?? []
 
   const isConnectedToGtagDebugger = location?.search?.includes('gtm_debug')
-
   const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
+
+  console.log({
+    isConnectedToGtagDebugger,
+    location,
+    scriptLoadStrategy
+  })
 
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
     const firstTrackingTag = trackingIds[0]
