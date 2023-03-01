@@ -19,13 +19,15 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
 
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
     const firstTrackingTag = trackingIds[0]
+    const partytownEnabled = scriptLoadStrategy == 'off-main-thread'
     // https://developers.google.com/tag-platform/gtagjs/install
+    const partytownForwards = partytownEnabled ? ['gtag', 'dataLayer.push'] : undefined
     return (
       <>
         <Script
           src={googleTagManagerUrl(firstTrackingTag)}
           strategy={scriptLoadStrategy}
-          forward={['gtag', 'dataLayer.push']}
+          forward={partytownForwards}
         />
         <Script id='gtag-config' strategy={scriptLoadStrategy}>
           {`
