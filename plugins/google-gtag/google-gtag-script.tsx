@@ -3,17 +3,26 @@ import { PluginOptions } from 'gatsby'
 import { Script } from 'gatsby-script'
 import { googleTagManagerUrl } from './google-tag-manager-url'
 import { consentToGtagValue } from './consent-to-gtag-value'
+import { WindowLocation } from '@reach/router'
 
-export const GoogleGtagScript = ({ children, options }: { children: React.ReactNode; options: PluginOptions }) => {
+export const GoogleGtagScript = ({ options, location }: { options: PluginOptions; location?: WindowLocation }) => {
   const trackingIds = options.trackingIds ?? []
+
+  const isConnectedToGtagDebugger = location?.search?.includes('gtm_debug')
+
+  const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
+
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
     const firstTrackingTag = trackingIds[0]
     // https://developers.google.com/tag-platform/gtagjs/install
     return (
       <>
-        {children}
-        <Script src={googleTagManagerUrl(firstTrackingTag)} strategy='off-main-thread' forward={['gtag', 'dataLayer.push']} />
-        <Script id='gtag-config' strategy='off-main-thread'>
+        <Script
+          src={googleTagManagerUrl(firstTrackingTag)}
+          strategy={scriptLoadStrategy}
+          forward={['gtag', 'dataLayer.push']}
+        />
+        <Script id='gtag-config' strategy={scriptLoadStrategy}>
           {`
 window.dataLayer = window.dataLayer || [];
 function gtag(){
@@ -34,15 +43,11 @@ ${trackingIds
     return `gtag('config', '${trackingId}');`
   })
   .join('\n')}
-
-postMessage('gtag-configured');
 `}
-
-
         </Script>
       </>
     )
   } else {
-    return <>{children}</>
+    return <></>
   }
 }
