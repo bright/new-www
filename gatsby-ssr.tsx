@@ -73,7 +73,7 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
           __html: `
         partytown = {
            debug: true,
-           set(opts){
+           set: ((sessionStorage) => (opts) => {
               // https://github.com/BuilderIO/partytown/issues/72#issuecomment-1383790146
               let sessionStorage = opts.window && opts.window.sessionStorage;
               console.log({sessionStorage})
@@ -85,7 +85,7 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
               } {
                 return opts.continue;
               } 
-           },
+           })(sessionStorage),
            resolveUrl(url, location) {
               let allowedHosts = new Set(${JSON.stringify(partytownAllowedHosts)});
               if (allowedHosts.has(url.hostname)) {
