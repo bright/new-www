@@ -4,6 +4,10 @@ function isScriptElement(n: any): n is HTMLScriptElement {
   return n instanceof HTMLScriptElement
 }
 
+async function delay({ ms }: { ms: number }) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
 function isGtagDefined() {
   return typeof gtag != 'undefined'
 }
@@ -49,7 +53,7 @@ export function gtagLoader(): Promise<Gtag.Gtag> {
         const maxWaitMillis = 1000
         while (currentWaitTimeMillis < maxWaitMillis) {
           const waitTime = 100
-          await delay({ millis: waitTime })
+          await delay({ ms: waitTime })
           if (isGtagDefined()) {
             observer.disconnect()
             resolve(gtag)
