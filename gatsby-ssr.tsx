@@ -72,6 +72,15 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
         __html: `
         partytown = {
            debug: true,
+           set(opts){
+              // https://github.com/BuilderIO/partytown/issues/72#issuecomment-1383790146
+              let isDebugging = opts.window.location.search.includes("gtm_debug"); 
+              if ( isDebugging && opts.name === "type" && opts.nodeName === "SCRIPT" ) { 
+                return opts.prevent; 
+              } {
+                return opts.continue;
+              } 
+           },
            resolveUrl(url, location) {
               let allowedHosts = new Set(${JSON.stringify(partytownAllowedHosts)});
               if (allowedHosts.has(url.hostname)) {
