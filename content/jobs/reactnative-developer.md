@@ -36,7 +36,7 @@ recruting_image3_title: programming task
 ---
 ## **about the role** 
 
-We are looking for an experienced **React Native developer** **who is excited about hybrid technologies, but is also aware of the advantages of building React-based frontend applications.**  We would appreciate your experience with mobile development and ability to look at the project from a business perspective. We would be also more than happy if you are willing to share your knowledge within and outside our organisation. \
+We are looking for an experienced **React Native developer** **who is excited about hybrid technologies, but is also aware of the advantages of building React-based frontend applications.** We would appreciate your experience with mobile development and ability to look at the project from a business perspective. We would be also more than happy if you are willing to share your knowledge within and outside our organisation. \
 \
 What we can promise is that at Bright Inventions you will be an important part of [a community of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and actively take responsibility for their own self-development. Positive attitude, client orientation and teamwork are central parts of our daily work.
 
@@ -50,22 +50,13 @@ What we can promise is that at Bright Inventions you will be an important part o
 
 ## **potential project** 
 
-[The existing therapy application](https://circlesup.com/) where people can sign up and join particular groups of support led by professional therapists. Currently the team is working on a complex chat feature and video meeting feature. Another priority is enabling secure data transfer regarding the users conditions for therapeutical analysis purposes.
-
-
-
-
-
-W ramach apki mamy:
-
-* darmową część - spotkania audio + chat - audio przy użyciu [Twilio](https://www.twilio.com/)  a chat przy użyciu [getStream](https://getstream.io/).
-* płatną część - spotkania video + chat + chat grupowy - część video także przy użyciu Twilio a chat był pisany inhouse ale teraz jest migracja na getStream
+[The therapy application](https://circlesup.com/) where people can sign up and join particular groups of support led by professional therapists. Currently the team is enhancing an existing complex chat feature and video meeting feature. For the audio part we use Twilio and for the chat feature we use getStreem. Another priority is enabling secure data transfer regarding the users conditions for therapeutical analysis purposes.
 
 ## **preferred skills and qualifications**
 
-* at least **4 years of commercial programming** experience in mobile or web development
-* very good practical knowledge of React Native 
-* working experience with libraries used in Flutter development (e.g. 
+* at least **4 years of commercial programming** experience in mobile/web development
+* very good practical knowledge of TypeScript/JavaScript and React Native 
+* working experience with libraries used in React Native development 
 * familiarity with app publishing on App Store/ Google Play
 * empathy, open mind and positive approach to new challenges
 * advanced level of English (written and spoken)
@@ -73,7 +64,7 @@ W ramach apki mamy:
 ## \
 **we would also appreciate if you have** 
 
-* experience with web development in React 
+* experience with web development in React/Gatsby 
 * good knowledge of UX and design guidelines for both Android and iOS platform
 
 ## **what you will find in our Bright Team 🧡**
