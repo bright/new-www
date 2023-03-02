@@ -69,14 +69,10 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
         dangerouslySetInnerHTML={{
           __html: `
         partytown = {
-           debug: false,
+           debug: true,
            set(opts){
               // https://github.com/BuilderIO/partytown/issues/72#issuecomment-1383790146
-              let sessionStorage = opts.window && opts.window.sessionStorage;
-              
-              let isGtmTagDefinedInUrl = opts.window && opts.window.location && opts.window.location.search.includes("gtm_debug");
-              let isGtmTagDefinedInSessionStorage = sessionStorage && sessionStorage.getItem('isConnectedToGtagDebugger') == 'true'
-              let isDebugging = isGtmTagDefinedInUrl || isGtmTagDefinedInSessionStorage; 
+              let isDebugging = opts.window.location.search.includes("gtm_debug"); 
               if ( isDebugging && opts.name === "type" && opts.nodeName === "SCRIPT" ) { 
                 return opts.prevent; 
               } {

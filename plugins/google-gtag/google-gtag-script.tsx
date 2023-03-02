@@ -4,25 +4,17 @@ import { Script } from 'gatsby-script'
 import { googleTagManagerUrl } from './google-tag-manager-url'
 import { consentToGtagValue } from './consent-to-gtag-value'
 import { WindowLocation } from '@reach/router'
-
-const storage =
-  typeof sessionStorage !== 'undefined'
-    ? sessionStorage
-    : {
-        getItem: (key: string) => null,
-        setItem(key: string, value: string) {},
-      }
+import { isConnectedToGoogleGtagAssistant, setIsConnectedToGoogleGtagAssistant } from './google-gtag-assistant'
 
 export const GoogleGtagScript = ({ options, location }: { options: PluginOptions; location?: WindowLocation }) => {
   const trackingIds = options.trackingIds ?? []
 
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
-    const isConnectedToGtagDebugger =
-      location?.search?.includes('gtm_debug') || storage.getItem('isConnectedToGtagDebugger') == 'true'
+    const isConnectedToGtagDebugger = isConnectedToGoogleGtagAssistant(location)
     const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
 
     useEffect(() => {
-      storage.setItem('isConnectedToGtagDebugger', String(isConnectedToGtagDebugger))
+      setIsConnectedToGoogleGtagAssistant(isConnectedToGtagDebugger)
     }, [])
 
     console.log({
