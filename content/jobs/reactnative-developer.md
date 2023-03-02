@@ -11,6 +11,8 @@ salary_max: 25000
 working time: full time
 technology:
   - TypeScript
+  - React Native 
+  - mobx-state-tree
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
