@@ -73,17 +73,19 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
         __html: `
         partytown = {
            debug: true,
-           set: ((sessionStorage) => (opts) => {
+           set(opts){
               // https://github.com/BuilderIO/partytown/issues/72#issuecomment-1383790146
+              let sessionStorage = opts.window && opts.window.sessionStorage;
+              console.log({sessionStorage})
               let isGtmTagDefinedInUrl = opts.window && opts.window.location && opts.window.location.search.includes("gtm_debug");
-              let isGtmTagDefinedInSessionStorage = sessionStorage.getItem('isConnectedToGtagDebugger') == 'true'
+              let isGtmTagDefinedInSessionStorage = sessionStorage && sessionStorage.getItem('isConnectedToGtagDebugger') == 'true'
               let isDebugging = isGtmTagDefinedInUrl || isGtmTagDefinedInSessionStorage; 
               if ( isDebugging && opts.name === "type" && opts.nodeName === "SCRIPT" ) { 
                 return opts.prevent; 
               } {
                 return opts.continue;
               } 
-           })(sessionStorage),
+           },
            resolveUrl(url, location) {
               let allowedHosts = new Set(${JSON.stringify(partytownAllowedHosts)});
               if (allowedHosts.has(url.hostname)) {
