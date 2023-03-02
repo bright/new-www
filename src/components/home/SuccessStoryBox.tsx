@@ -1,12 +1,10 @@
-import React, { FC, useRef } from 'react'
+import React, { FC } from 'react'
 import styled from 'styled-components'
-import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 import { routeLinks } from '../../config/routing'
 import variables from '../../styles/variables'
 import { ProjectModel } from '../../models/gql'
-import { uniqBy } from 'lodash'
-import useOnScreen from '../utils/use-onscreen'
 
 const Container = styled.div`
   border: 1px solid #d3d3d3;
