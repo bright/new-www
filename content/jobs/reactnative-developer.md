@@ -36,8 +36,8 @@ recruting_image3_title: programming task
 ---
 ## **about the role** 
 
-We are looking for an experienced **React Native developer** **who is excited about hybrid technologies, but is also aware of the advantages of building React-based frontend applications.** We would appreciate your experience with mobile development and ability to look at the project from a business perspective. We would be also more than happy if you are willing to share your knowledge within and outside our organisation. \
-\
+We are looking for an experienced **React Native developer** **who is excited about hybrid technologies, but is also aware of the advantages of building React-based frontend applications.** We would appreciate your experience with mobile development and ability to look at the project from a business perspective. We would be also more than happy if you are willing to share your knowledge within and outside our organisation. 
+
 What we can promise is that at Bright Inventions you will be an important part of [a community of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and actively take responsibility for their own self-development. Positive attitude, client orientation and teamwork are central parts of our daily work.
 
 ## **your job will include**
@@ -61,8 +61,7 @@ What we can promise is that at Bright Inventions you will be an important part o
 * empathy, open mind and positive approach to new challenges
 * advanced level of English (written and spoken)
 
-## \
-**we would also appreciate if you have** 
+## **we would also appreciate if you have** 
 
 * experience with web development in React/Gatsby 
 * good knowledge of UX and design guidelines for both Android and iOS platform
