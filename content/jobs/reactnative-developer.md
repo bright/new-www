@@ -65,7 +65,7 @@ What we can promise is that at Bright Inventions you will be an important part o
 
 ## **we would also appreciate if you have** 
 
-* experience with web development in React/Gatsby 
+* experience with web development in React 
 * good knowledge of UX and design guidelines for both Android and iOS platform
 
 ## **what you will find in our Bright Team 🧡**
