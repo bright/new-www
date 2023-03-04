@@ -29,7 +29,11 @@ export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
   return <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>{element}</CookieConsentContextWrapper>
 }
 
-const partytownAllowedHosts = ['www.google-analytics.com', 'www.googletagmanager.com']
+const partytownAllowedHosts = [
+  'www.google-analytics.com',
+  'www.googletagmanager.com',
+  'connect.facebook.net'
+]
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
   const files = getFilesFromPath('./public/static', '.woff2')
