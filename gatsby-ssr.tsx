@@ -44,8 +44,6 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
     'lato-v23-latin-ext_latin-900',
   ]
 
-  console.log({ options })
-
   setHeadComponents([
     ...files.map((file, i) => {
       return preload.map((font, key) => {
@@ -72,11 +70,11 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
         dangerouslySetInnerHTML={{
           __html: `
         partytown = {
-           debug: true,
+           debug: false,
            set(opts){
               // https://github.com/BuilderIO/partytown/issues/72#issuecomment-1383790146
               let sessionStorage = opts.window && opts.window.sessionStorage;
-              console.log({sessionStorage})
+              
               let isGtmTagDefinedInUrl = opts.window && opts.window.location && opts.window.location.search.includes("gtm_debug");
               let isGtmTagDefinedInSessionStorage = sessionStorage && sessionStorage.getItem('isConnectedToGtagDebugger') == 'true'
               let isDebugging = isGtmTagDefinedInUrl || isGtmTagDefinedInSessionStorage; 
