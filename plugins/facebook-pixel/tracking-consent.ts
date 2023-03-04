@@ -1,14 +1,60 @@
+import { isFbqDefined } from './fbq-or-fallback'
+import { delay } from '../../src/delay'
+
+function isScriptElement(n: any): n is HTMLScriptElement {
+  return n instanceof HTMLScriptElement
+}
+
+function isPartytownScript(s: HTMLScriptElement) {
+  return s.hasAttribute('data-partytown')
+}
+
 function pixelLoader(): Promise<facebook.Pixel.Event> {
   return new Promise((resolve, reject) => {
-    const fbq = window.fbq
-    if (fbq) {
+    if (isFbqDefined()) {
       resolve(fbq)
     }
-    document.addEventListener('DOMContentLoaded', () => {
-      const fbq = window.fbq
-      if (fbq) {
+    document.addEventListener('DOMContentLoaded', async () => {
+      if (isFbqDefined()) {
         resolve(fbq)
       } else {
+
+        const observer = new MutationObserver(mutations => {
+          const addedScripts = mutations
+            .filter(m => m.type == 'childList')
+            .flatMap(m => Array.from(m.addedNodes))
+            .filter(isScriptElement)
+
+          const partyTown = addedScripts.find(isPartytownScript)
+
+          if (partyTown) {
+            observer.disconnect()
+
+            if (isFbqDefined()) {
+              resolve(fbq)
+            } else {
+              reject('window.fbq not defined after partytown')
+            }
+          }
+        })
+
+        observer.observe(document.querySelector('head')!, {
+          childList: true,
+        })
+
+        let currentWaitTimeMillis = 0
+        const maxWaitMillis = 1000
+        while (currentWaitTimeMillis < maxWaitMillis) {
+          const waitTime = 100
+          await delay({ millis: waitTime })
+          if (isFbqDefined()) {
+            observer.disconnect()
+            resolve(fbq)
+            return
+          }
+          currentWaitTimeMillis += waitTime
+        }
+
         reject('window.fbq not defined after DOMContentLoaded')
       }
     })

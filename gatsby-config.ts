@@ -25,15 +25,18 @@ const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
-  partytownProxiedURLs: [googleTrackingIdsForEnv[0] ? googleTagManagerUrl(googleTrackingIdsForEnv[0]) : null].filter(
-    isDefined
-  ),
+  partytownProxiedURLs: partytownEnabled
+    ? [
+        googleTrackingIdsForEnv[0] ? googleTagManagerUrl(googleTrackingIdsForEnv[0]) : null,
+        'https://connect.facebook.net/en_US/fbevents.js',
+      ].filter(isDefined)
+    : [],
   plugins: [
     {
       resolve: `google-gtag`,
       options: {
         trackingIds: googleTrackingIdsForEnv,
-        partytownEnabled: partytownEnabled
+        partytownEnabled: partytownEnabled,
       },
     },
     {
