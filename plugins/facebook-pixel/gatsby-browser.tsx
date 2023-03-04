@@ -1,7 +1,7 @@
+import React from 'react'
 import { GatsbyBrowser, GatsbySSR } from 'gatsby'
 import { isFbqDefined } from './fbq-or-fallback'
 import { FacebookFqbScript } from './facebook-fqb-script'
-import React from 'react'
 
 export const onRouteUpdate: GatsbyBrowser['onRouteUpdate'] = args => {
   if (isFbqDefined()) {
