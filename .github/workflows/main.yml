@@ -11,7 +11,7 @@ on:
       partytownEnabled:
         description: 'Enable partytown'
         required: true
-        default: 'true'
+        default: 'false'
         type: choice
         options:
           - 'true'
