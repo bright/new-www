@@ -12,6 +12,8 @@ import * as fs from 'fs'
 import { GlobalStyle } from './src/styles/global'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 import { thirdPartyProxyPath } from 'gatsby/dist/internal-plugins/partytown/proxy'
+import { PartytownContext } from './src/partytown-context'
+import { partytownEnabled } from './src/partytown-enabled'
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return (
@@ -21,13 +23,10 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
     </>
   )
 }
+
 export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
   const visibleByDefault = process.env.COOKIE_CONSENT_EAGER_RENDER_ENABLED === 'true'
-  return (
-    <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>
-      {element}
-    </CookieConsentContextWrapper>
-  )
+  return <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>{element}</CookieConsentContextWrapper>
 }
 
 const partytownAllowedHosts = ['www.google-analytics.com', 'www.googletagmanager.com']
@@ -48,7 +47,7 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
   console.log({ options })
 
   setHeadComponents([
-  ...files.map((file, i) => {
+    ...files.map((file, i) => {
       return preload.map((font, key) => {
         const fileBeginning = file.split('-').slice(0, -1).join('-')
         if (fileBeginning === font) {
@@ -67,10 +66,11 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
         }
       })
     }),
-    <script
-      key="partytown-vanilla-config"
-      dangerouslySetInnerHTML={{
-        __html: `
+    partytownEnabled ? (
+      <script
+        key='partytown-vanilla-config'
+        dangerouslySetInnerHTML={{
+          __html: `
         partytown = {
            debug: true,
            set(opts){
@@ -104,8 +104,9 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
               return url
            }
          }`,
-      }}
-    />,
+        }}
+      />
+    ) : null,
   ])
 }
 
