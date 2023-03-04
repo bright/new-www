@@ -11,7 +11,8 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
 
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
     const isConnectedToGtagDebugger = isConnectedToGoogleGtagAssistant(location)
-    const scriptLoadStrategy = isConnectedToGtagDebugger ? 'post-hydrate' : 'off-main-thread'
+    const partytownEnabled = options.partytownEnabled && !isConnectedToGtagDebugger
+    const scriptLoadStrategy = partytownEnabled ? 'off-main-thread' : 'post-hydrate'
 
     useEffect(() => {
       setIsConnectedToGoogleGtagAssistant(isConnectedToGtagDebugger)
@@ -24,7 +25,6 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
     })
 
     const firstTrackingTag = trackingIds[0]
-    const partytownEnabled = scriptLoadStrategy == 'off-main-thread'
     // https://developers.google.com/tag-platform/gtagjs/install
     const partytownForwards = partytownEnabled ? ['gtag', 'dataLayer.push'] : undefined
     return (
