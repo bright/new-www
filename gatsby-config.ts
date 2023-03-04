@@ -9,6 +9,7 @@ import { PartialWebpackConfig } from './src/partial-webpack-config'
 import { GatsbyConfig } from 'gatsby'
 import { googleTagManagerUrl } from './plugins/google-gtag/google-tag-manager-url'
 import { googleTrackingIds } from './src/google-tracking-ids'
+import { partytownEnabled } from './src/partytown-enabled'
 
 const gatsbyActiveEnv = process.env.GATSBY_ACTIVE_ENV! as 'production' | 'staging' | 'develop'
 const isProduction = gatsbyActiveEnv === 'production'
@@ -32,6 +33,7 @@ const gatsbyConfig: GatsbyConfig = {
       resolve: `google-gtag`,
       options: {
         trackingIds: googleTrackingIdsForEnv,
+        partytownEnabled: partytownEnabled
       },
     },
     {
