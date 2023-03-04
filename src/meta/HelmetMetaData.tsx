@@ -53,7 +53,7 @@ export const HelmetMetaData: React.FC<PropsWithChildren<HelmetMetaDataProps>> = 
       ) : (
         <meta property='og:image:alt' content='Bright Inventions' />
       )}
-      {canonicalUrl && <link rel='canonical' href={canonicalUrl} />}
+      {canonicalUrl && <link key='canonical' rel='canonical' href={canonicalUrl} />}
       {additionalMeta}
     </Helmet>
   )

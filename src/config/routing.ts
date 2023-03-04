@@ -17,12 +17,12 @@ export const routeLinks = {
     }
     return `/blog/`
   },
-  ourAreas(params?: { service: string; faqTitle: string }) {
+  ourAreas(params?: { service: string; faqSlug?: string | undefined }) {
     if (!params) {
       return `/our-areas/`
     }
-    if (params.faqTitle && params.service) {
-      return `/our-areas/${params.service}/${params.faqTitle}/`
+    if (params.faqSlug && params.service) {
+      return `/our-areas/${params.service}/${params.faqSlug}/`
     }
     return `/our-areas/${params.service ?? ''}`
   },

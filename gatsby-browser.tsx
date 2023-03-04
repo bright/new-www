@@ -30,8 +30,14 @@ window.addEventListener('unhandledrejection', event => {
 })
 
 export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => (
-  <CookieConsentContextWrapper>
+  <>
     <GlobalStyle />
+    {element}
+  </>
+)
+
+export const wrapRootElement: GatsbyBrowser['wrapRootElement'] = ({ element }) => (
+  <CookieConsentContextWrapper>
     {element}
   </CookieConsentContextWrapper>
 )

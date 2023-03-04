@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, PropsWithChildren, Suspense } from 'react'
+import React, { useState, useEffect, useRef, PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import loadable from '@loadable/component'
@@ -12,7 +12,6 @@ import { CustomSectionInner, CustomSection, TextRegular, CustomSectionTitle } fr
 // import TeamMembers  from '../components/subcomponents/TeamMembers'
 import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
-import { kebabCase } from './../helpers/pathHelpers'
 import {
   CustomSectionOurService,
   ImageWrapper,
@@ -47,7 +46,7 @@ export default function Template({
   data,
   pageContext,
   children,
-}: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string } }>) {
+}: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string; faqSlug: string; } }>) {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
   const { width } = useWindowSize()
@@ -55,11 +54,11 @@ export default function Template({
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
   const myRef = useRef<HTMLDivElement>(null)
-  const { faqTitle } = pageContext
+  const { faqSlug } = pageContext
 
   useEffect(() => {
-    if (faqTitle) {
-      const index = faqs.map(({ frontmatter: faq }: any) => kebabCase(faq.question)).indexOf(kebabCase(faqTitle))
+    if (faqSlug) {
+      const index = faqs.map(({ frontmatter: faq }: { frontmatter: { slug: string }}) => faq.slug).indexOf(faqSlug)
 
       if (index >= 0 && myRef.current) {
         handleShow(index)
@@ -76,36 +75,6 @@ export default function Template({
   }, [])
 
   const [show, setShow] = useState<any>({})
-
-  const handleShow = (i: number) => {
-    const title = kebabCase(faqs[i].frontmatter.question)
-
-    if (!show[i]) {
-      const ourAreasFaqLink = routeLinks.ourAreas({
-        service: kebabCase(slug),
-        faqTitle: title,
-      })
-      window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
-    } else {
-      const showArray = Object.keys(show).map(function (k) {
-        return { value: show[k], index: k }
-      })
-      const nearestOpenedFaq = showArray.find(item => item.value && item.index != i.toString())
-
-      const openedFaqTitle = nearestOpenedFaq ? faqs[nearestOpenedFaq.index].frontmatter.question : ''
-
-      const ourAreasFaqLink = routeLinks.ourAreas({
-        service: kebabCase(slug),
-        faqTitle: kebabCase(openedFaqTitle),
-      })
-      window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
-    }
-
-    setShow((prevshow: any) => ({
-      ...prevshow,
-      [i]: !prevshow[i],
-    }))
-  }
 
   const {
     faqs,
@@ -129,6 +98,34 @@ export default function Template({
     project: projects,
     slug,
   } = page
+
+  const handleShow = (i: number) => {
+    if (!show[i]) {
+      const ourAreasFaqLink = routeLinks.ourAreas({
+        service: slug,
+        faqSlug: faqs[i].frontmatter.slug,
+      })
+      window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
+    } else {
+      const showArray = Object.keys(show).map(function (k) {
+        return { value: show[k], index: k }
+      })
+      const nearestOpenedFaq = showArray.find(item => item.value && item.index != i.toString())
+
+      const openedFaqSlug = nearestOpenedFaq ? faqs[nearestOpenedFaq.index].frontmatter.faqSlug : undefined
+
+      const ourAreasFaqLink = routeLinks.ourAreas({
+        service: slug,
+        faqSlug: openedFaqSlug,
+      })
+      window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
+    }
+
+    setShow((prevshow: any) => ({
+      ...prevshow,
+      [i]: !prevshow[i],
+    }))
+  }
 
   const titleArr = title.split(' ')
   const newTitle = titleArr.map((ta: string) => {
@@ -281,10 +278,11 @@ export default function Template({
           )}
 
           {faqs &&
-            faqs.map(({ frontmatter }: any, i: number) => {
-              const { question, answer } = frontmatter
+            faqs.map(({ frontmatter: faq }: { frontmatter: Pick<Queries.FaqsFrontmatter, 'question' | 'answer' | 'slug'> }, i: number) => {
+              const { question, answer, slug } = faq
+              const answerAsHtml = (answer as unknown as Queries.SimpleMdx).html!
               return (
-                <FaqWrapper ref={kebabCase(question) == kebabCase(faqTitle) ? myRef : null} key={question}>
+                <FaqWrapper ref={slug == faqSlug ? myRef : null} key={slug}>
                   {answer ? (
                     <Question onClick={() => handleShow(i)} shown={show[i]}>
                       {question}
@@ -294,7 +292,7 @@ export default function Template({
                   ) : null}
 
                   {show[i] && answer ? (
-                    <FaqsTextRegural className='content' dangerouslySetInnerHTML={{ __html: answer.html }} />
+                    <FaqsTextRegural className='content' dangerouslySetInnerHTML={{ __html: answerAsHtml }} />
                   ) : null}
                 </FaqWrapper>
               )
@@ -325,6 +323,7 @@ export const pageQuery = graphql`
               html
             }
             question
+            slug
           }
         }
         project {

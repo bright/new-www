@@ -8,7 +8,7 @@ date: 2023-02-26T15:05:18.024Z
 meaningfullyUpdatedAt: 2023-02-26T15:05:19.997Z
 title: "5 Feedback Models You Should Know "
 layout: post
-image: /images/feedback-models_blog_post_cover.png
+image: /images/feedback-models_blog_cover.png
 hidden: false
 comments: true
 published: true

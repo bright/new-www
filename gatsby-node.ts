@@ -258,6 +258,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
               faqs {
                 frontmatter {
                   question
+                  slug
                 }
               }
             }
@@ -284,16 +285,17 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     })
 
     const faqs = service.node.frontmatter.faqs
-    faqs.forEach((faq: { frontmatter: { question: string } }) => {
+    faqs.forEach((faq: { frontmatter: { question: string; slug: string } }) => {
       createPage({
-        path: 'our-areas/' + service.node.frontmatter.slug + '/' + kebabCase(faq.frontmatter.question.toLowerCase()),
+        path: 'our-areas/' + service.node.frontmatter.slug + '/' + faq.frontmatter.slug,
         component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${
           service.node.internal.contentFilePath
         }`,
         context: {
           id: service.node.id,
-          faqTitle: faq.frontmatter.question,
           slug: service.node.frontmatter.slug,
+          faqTitle: faq.frontmatter.question,
+          faqSlug: faq.frontmatter.slug,
         },
       })
     })

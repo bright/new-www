@@ -30514,6 +30514,7 @@ type Query_siteArgs = {
   jsxRuntime: InputMaybe<StringQueryOperatorInput>;
   mapping: InputMaybe<SiteMappingFilterInput>;
   parent: InputMaybe<NodeFilterInput>;
+  partytownProxiedURLs: InputMaybe<StringQueryOperatorInput>;
   pathPrefix: InputMaybe<StringQueryOperatorInput>;
   polyfill: InputMaybe<BooleanQueryOperatorInput>;
   port: InputMaybe<IntQueryOperatorInput>;
@@ -30595,6 +30596,7 @@ type Site = Node & {
   readonly jsxRuntime: Maybe<Scalars['String']>;
   readonly mapping: Maybe<SiteMapping>;
   readonly parent: Maybe<Node>;
+  readonly partytownProxiedURLs: Maybe<ReadonlyArray<Maybe<Scalars['String']>>>;
   readonly pathPrefix: Maybe<Scalars['String']>;
   readonly polyfill: Maybe<Scalars['Boolean']>;
   readonly port: Maybe<Scalars['Int']>;
@@ -30967,6 +30969,7 @@ type SiteFieldsEnum =
   | 'parent.parent.internal.type'
   | 'parent.parent.parent.children'
   | 'parent.parent.parent.id'
+  | 'partytownProxiedURLs'
   | 'pathPrefix'
   | 'polyfill'
   | 'port'
@@ -30987,6 +30990,7 @@ type SiteFilterInput = {
   readonly jsxRuntime: InputMaybe<StringQueryOperatorInput>;
   readonly mapping: InputMaybe<SiteMappingFilterInput>;
   readonly parent: InputMaybe<NodeFilterInput>;
+  readonly partytownProxiedURLs: InputMaybe<StringQueryOperatorInput>;
   readonly pathPrefix: InputMaybe<StringQueryOperatorInput>;
   readonly polyfill: InputMaybe<BooleanQueryOperatorInput>;
   readonly port: InputMaybe<IntQueryOperatorInput>;
@@ -31883,7 +31887,7 @@ type Unnamed_1_Query = { readonly author: { readonly edges: ReadonlyArray<{ read
 type Unnamed_2_QueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type Unnamed_2_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
+type Unnamed_2_Query = { readonly allMdx: { readonly edges: ReadonlyArray<{ readonly node: { readonly id: string, readonly frontmatter: { readonly slug: string | null, readonly faqs: ReadonlyArray<{ readonly frontmatter: { readonly question: string | null, readonly slug: string | null } | null } | null> | null } | null, readonly internal: { readonly contentFilePath: string | null } } }> } };
 
 type Unnamed_3_QueryVariables = Exact<{ [key: string]: never; }>;
 
