@@ -33,7 +33,6 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
     })
 
     const firstTrackingTag = trackingIds[0]
-    const partytownEnabled = scriptLoadStrategy == 'off-main-thread'
     // https://developers.google.com/tag-platform/gtagjs/install
     const partytownForwards = partytownEnabled ? ['gtag', 'dataLayer.push'] : undefined
     return (
