@@ -9,7 +9,7 @@ import { PartialWebpackConfig } from './src/partial-webpack-config'
 import { GatsbyConfig } from 'gatsby'
 import { googleTagManagerUrl } from './plugins/google-gtag/google-tag-manager-url'
 import { googleTrackingIds } from './src/google-tracking-ids'
-import { partytownEnabled } from './src/partytown-enabled'
+import { partytownEnabled } from './src/partytown'
 
 const gatsbyActiveEnv = process.env.GATSBY_ACTIVE_ENV! as 'production' | 'staging' | 'develop'
 const isProduction = gatsbyActiveEnv === 'production'
@@ -19,7 +19,7 @@ const generateRobotsContent = !isDevelop
 
 const enableHotjar = false //to enable hotjar globally set the value to true
 
-const facebookPixelId = isProduction || true ? '1641621022924330' : ''
+const facebookPixelId = isProduction  ? '1641621022924330' : ''
 
 const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 

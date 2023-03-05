@@ -5,14 +5,14 @@
  */
 
 // You can delete this file if you're not using it
-import React, { useContext } from 'react'
+import React from 'react'
 import type { GatsbySSR } from 'gatsby'
 import * as fs from 'fs'
 
 import { GlobalStyle } from './src/styles/global'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 import { thirdPartyProxyPath } from 'gatsby/dist/internal-plugins/partytown/proxy'
-import { partytownEnabled } from './src/partytown-enabled'
+import { partytownAllowedHosts, partytownEnabled } from './src/partytown'
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return (
@@ -28,13 +28,6 @@ export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
   return <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>{element}</CookieConsentContextWrapper>
 }
 
-const partytownAllowedHosts = [
-  'www.google-analytics.com',
-  'www.googletagmanager.com',
-  'connect.facebook.net',
-  'googleads.g.doubleclick.net'
-]
-
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
   const files = getFilesFromPath('./public/static', '.woff2')
   const preload = [
@@ -49,25 +42,25 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
   ]
 
   setHeadComponents([
-    ...files.map((file, i) => {
-      return preload.map((font, key) => {
-        const fileBeginning = file.split('-').slice(0, -1).join('-')
-        if (fileBeginning === font) {
-          return (
-            <link
-              key={key}
-              rel='preload'
-              as='font'
-              type='font/woff2'
-              crossOrigin='anonymous'
-              href={`/static/${file}`}
-            />
-          )
-        } else {
-          return null
-        }
-      })
-    }),
+    // ...files.map((file, i) => {
+    //   return preload.map((font, key) => {
+    //     const fileBeginning = file.split('-').slice(0, -1).join('-')
+    //     if (fileBeginning === font) {
+    //       return (
+    //         <link
+    //           key={key}
+    //           rel='preload'
+    //           as='font'
+    //           type='font/woff2'
+    //           crossOrigin='anonymous'
+    //           href={`/static/${file}`}
+    //         />
+    //       )
+    //     } else {
+    //       return null
+    //     }
+    //   })
+    // }),
     partytownEnabled ? (
       <script
         key='partytown-vanilla-config'

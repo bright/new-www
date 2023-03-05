@@ -1,7 +1,7 @@
 import React from 'react'
 import { PluginOptions } from 'gatsby'
 import { Script } from 'gatsby-script'
-import { partytownEnabled } from '../../src/partytown-enabled'
+import { partytownEnabled } from '../../src/partytown'
 
 export const FacebookFqbScript = ({ options }: { options: PluginOptions }) => {
   const pixelId = options.pixelId
