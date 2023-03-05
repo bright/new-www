@@ -24,7 +24,7 @@ In this tutorial we are going to implement `search` functionality into the Expos
 
 Setting up test application
 ---
-**_NOTE_: You can skip this part and go directly to [RSQL search functionality implementation](#RSQL_search_functionality_implementation) part if you have any web framework/exposed setup ready**
+**_NOTE_: You can skip this part and go directly to [RSQL search functionality implementation](#rsql-search-functionality-implementation) part if you have any web framework/exposed setup ready**
 
 For the sake of test, we used [Ktor](https://ktor.io/) - the easiest way to do so is to use [initializer](https://start.ktor.io/)
 
