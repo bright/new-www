@@ -31,7 +31,8 @@ export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
 const partytownAllowedHosts = [
   'www.google-analytics.com',
   'www.googletagmanager.com',
-  'connect.facebook.net'
+  'connect.facebook.net',
+  'googleads.g.doubleclick.net'
 ]
 
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
