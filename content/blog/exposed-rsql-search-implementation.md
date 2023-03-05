@@ -17,10 +17,10 @@ published: true
 ---
 Overview
 ---
-In this tutorial we are going to implement `search` functionality into the Exposed using jirutka's RSQL parser
+In this tutorial, we are going to implement `search` functionality into the Exposed using jirutka's RSQL parser
 
 RSQL is a query language for parametrized filtering of entries in RESTful APIs.\
-JetBrains Exposed is a lightweight SQL library on top of JDBC driver for Kotlin language. 
+JetBrains Exposed is a lightweight SQL library on top of the JDBC driver for Kotlin language. 
 
 
 Setting up a test application
@@ -29,7 +29,7 @@ Setting up a test application
 
 For the sake of the test, we use [Ktor](https://ktor.io/) - the easiest way to do so is to use [initializer](https://start.ktor.io/)
 
-Once we go through the form, the application frame is ready to work with. Now, we need to add serialization functionality (because we want to return JSON object as the response)
+Once we go through the form, the application frame is ready to work with. Now, we need to add serialization functionality (because we want to return a JSON object as the response)
 
 `build.gradle.ts`
 ```
@@ -77,7 +77,7 @@ dependencies {
 }
 ```
 
-In order to create database connection and perform initial db insert, I created Ktor's plugin:
+In order to create a database connection and perform the initial db insert, I created Ktor's plugin:
 
 `Data.kt`
 ```kotlin
@@ -122,9 +122,9 @@ fun main() {
 Persistence layer logic
 ---
 
-Once we added Exposed into our environment, it's time to introduce table's model and some DTOs.
+Once we added Exposed into our environment, it's time to introduce the table's model and some DTOs.
 
-In Exposed, table's representation is an object:
+In Exposed, the table's representation is an object:
 
 `PersonTable.kt`
 ```kotlin
@@ -138,11 +138,11 @@ object PersonTable : Table("person") {
 }
 ```
 
-Your object table needs to extend from Exposed `Table`. The content of it is a group of defined columns
+Your object table needs to extend from the Exposed `Table`. The content of it is a group of defined columns
 
 Let's create our DAOs:
 
-`PersonDaoImpl.kt` (I skip DAO interface part - you can check it on the Github repo page)
+`PersonDaoImpl.kt` (I skip the DAO interface part - you can check it on the Github repo page)
 ```kotlin
 import brightinventions.pl.dto.CreatePersonDto
 import brightinventions.pl.dto.FoundPersonDto
@@ -185,9 +185,9 @@ class PersonDaoImpl : PersonDao {
 ```
 
 As you can see, we defined three public methods:
-- `findAll` - will return all the records from db
-- `findByQuery(String)` - will return filtered set of the records
-- `create` - our util function we will use for an initial inserts
+- `findAll` - will return all the records from the db
+- `findByQuery(String)` - will return a filtered set of the records
+- `create` - our util function we will use for initial inserts
 
 Initial insert
 ---
@@ -215,7 +215,7 @@ fun Application.configureData() {
 
 REST endpoints
 ---
-Right, we have the database filled up, we can use our DAO to create REST endpoint:
+Right, we have the database filled up, we can use our DAO to create a REST endpoint:
 
 `Routing.kt`
 ```kotlin
@@ -234,7 +234,7 @@ fun Application.configureRouting() {
     }
 }
 ```
-*What we did here?* We (once again) created Ktor's plugin for registering the routing here. On `/` endpoint we are going to respond with ALL of the objects in the `Person` table
+*What we did here?* We (once again) created Ktor's plugin for registering the routing here. On the `/` endpoint we are going to respond with ALL of the objects in the `Person` table
 
 but we need to register it in the application:
 
@@ -253,13 +253,13 @@ fun main() {
 }
 ```
 
-Run it baby! `GET http://localhost:8080/` should respond with list of three persons: `John`, `George` and `Megan`.\
-alright, but when we will implement searching functionality? Now
+Run it, baby! `GET http://localhost:8080/` should respond with a list of three persons: `John`, `George`, and `Megan`.\
+alright, but when we will implement the searching functionality? Now
 
 RSQL search functionality implementation
 ---
 
-Finally! For now, we have ktor+exposed stack set up, everything works fine, we can add and list the objects from database. It's time to create `search` method for `Query` class:
+Finally! For now, we have the ktor+exposed stack set up, everything works fine and we can add and list the objects from the database. It's time to create the `search` method for the `Query` class:
 
 ```kotlin
 import cz.jirutka.rsql.parser.RSQLParser
@@ -277,10 +277,10 @@ fun Query.search(query: String, specification: SearchSpecification): Query =
 
 ```
 
-*What we did here?* We declared extension function `Query.search` which parse `query: String` into the tokens and call our `ExposedRSQLVisitor` to interpret the query
+*What we did here?* We declared the extension function `Query.search` which parse `query: String` into the tokens and calls our `ExposedRSQLVisitor` to interpret the query
 it returns the `Query` object itself, so we will be able to perform as it would be standard Exposed functionality
 
-What is the `ExposedRSQLVisitor`? It's our custom implementation - jirutka/rsql-parser is "only" parser for a perform the logic in order to change "age=in=(33,22)" into the node tree. It is how it looks like:
+What is the `ExposedRSQLVisitor`? It's our custom implementation - jirutka/rsql-parser is the "only" parser for a perform the logic in order to change "age=in=(33,22)" into the node tree. It is how it looks like this:
 
 `ExposedRSQLVisitor.kt`
 ```kotlin
@@ -348,17 +348,17 @@ private fun String.toDateOrNull(): Instant? = try {
 
 *What we did here?* In essence, we implemented `NoArgRSQLVisitorAdapter` which is going to visit the node in order to determine what logic operation (exposed) should we perform to the given column/argument
 
-So, if we will have query string like `age=in=(33,22)`, our Visitor will produce 
+So, if we will have a query string like `age=in=(33,22)`, our Visitor will produce 
 ```
 column<PersonTable.age> inList listOf(33,22) 
 ```
 
-so our sql query will be:
+so our SQL query will be:
 ```SQL
 SELECT PERSON.ID, PERSON."NAME", PERSON.SURNAME, PERSON.AGE FROM PERSON WHERE PERSON.AGE IN (33, 22)
 ```
 
-It's time to use `search` method in our DAO and call it in the controller:
+It's time to use the `search` method in our DAO and call it in the controller:
 
 `PersonDaoImpl.kt`
 ```kotlin
@@ -401,6 +401,6 @@ get("/filtered/") {
 
 Conclusion
 ---
-In this article, we've learned how to add generic `search` functionality to our Exposed stack. Ktor added just a flavor of something else than Spring Boot - I did it on purpose - maybe you will find it interesting enough to digg deeper about this framework
+In this article, we've learned how to add generic `search` functionality to our Exposed stack. Ktor added just a flavor of something other than Spring Boot - I did it on purpose - maybe you will find it interesting enough to dig deeper about this framework
 
 You can find the complete code [over GitHub](https://github.com/bright/exposed-search-example)
