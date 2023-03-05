@@ -17,10 +17,15 @@ export const FacebookFqbScript = ({ options }: { options: PluginOptions }) => {
           forward={partytownForwards}
         />
         <Script id='facebook-pixel-config' strategy={scriptLoadStrategy}>{`
-let fbq = window.fbq = function() {
+console.debug('init.fbq', {window});
+
+fbq = window.fbq = function() {
+  console.debug('fbq', arguments);
   fbq.callMethod ? fbq.callMethod.apply(fbq, arguments) : fbq.queue.push(arguments)
 }
+
 if (!window._fbq) window._fbq = fbq
+
 fbq.push = fbq
 fbq.loaded = !0
 fbq.version = '2.0'
