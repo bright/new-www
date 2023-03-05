@@ -54,7 +54,7 @@ jobs:
           CI: true
           GATSBY_ACTIVE_ENV: production
           GATSBY_CPU_COUNT: 1
-          PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'true' }}
+          GATSBY_PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'true' }}
 
       - run: yarn run deploy-s3
         if: ${{ github.ref == 'refs/heads/gatsby' }}
@@ -68,7 +68,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/gatsby' }}
         env:
           COOKIE_CONSENT_EAGER_RENDER_ENABLED: true
-          PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'true' }}
+          GATSBY_PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'true' }}
           CI: true
           GATSBY_ACTIVE_ENV: production
           GATSBY_CPU_COUNT: 1
@@ -98,7 +98,7 @@ jobs:
           GATSBY_ACTIVE_ENV: staging
           SITE_URL: 'https://staging.brightinventions.pl/'
           GATSBY_CPU_COUNT: 1
-          PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'true' }}
+          GATSBY_PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'true' }}
             #          Enable for debugging
             #      - name: Archive public folder
             #        uses: actions/upload-artifact@v3
@@ -125,7 +125,7 @@ jobs:
           GATSBY_ACTIVE_ENV: staging
           SITE_URL: 'https://staging.brightinventions.pl/'
           GATSBY_CPU_COUNT: 1
-          PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'true' }}
+          GATSBY_PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'true' }}
 
       - run: yarn run copy-html-with-consent-enabled
         if: ${{ github.ref == 'refs/heads/staging' }}

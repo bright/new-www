@@ -8,6 +8,7 @@ export const FacebookFqbScript = ({ options }: { options: PluginOptions }) => {
   if (pixelId) {
     const scriptLoadStrategy = partytownEnabled ? 'off-main-thread' : 'post-hydrate'
     const partytownForwards = partytownEnabled ? ['fbq'] : []
+    console.debug('fbq', { scriptLoadStrategy, partytownForwards })
     return (
       <>
         <Script
