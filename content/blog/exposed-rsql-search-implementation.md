@@ -347,7 +347,7 @@ private fun String.toDateOrNull(): Instant? = try {
 
 So, if we will have query string like `age=in=(33,22)`, our Visitor will produce 
 ```
-column<PersonTable.age> inList listOf(33,22,34) 
+column<PersonTable.age> inList listOf(33,22) 
 ```
 
 so our sql query will be:
