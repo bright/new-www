@@ -20,7 +20,7 @@ Overview
 In this tutorial, we are going to implement `search` functionality into the Exposed using jirutka's RSQL parser
 
 RSQL is a query language for parametrized filtering of entries in RESTful APIs.\
-JetBrains Exposed is a lightweight SQL library on top of the JDBC driver for Kotlin language. 
+JetBrains Exposed is a lightweight SQL library on top of the JDBC driver for Kotlin language.
 
 
 Setting up a test application
@@ -81,10 +81,10 @@ In order to create a database connection and perform the initial db insert, I cr
 
 `Data.kt`
 ```kotlin
-import brightinventions.pl.dto.CreatePersonDto
-import brightinventions.pl.exposed.Database
-import brightinventions.pl.persistance.PersonDaoImpl
-import brightinventions.pl.persistance.table.PersonTable
+import pl.brightinventions.dto.CreatePersonDto
+import pl.brightinventions.exposed.Database
+import pl.brightinventions.persistance.PersonDaoImpl
+import pl.brightinventions.persistance.table.PersonTable
 import io.ktor.server.application.*
 import org.jetbrains.exposed.sql.SchemaUtils
 import org.jetbrains.exposed.sql.transactions.transaction
@@ -100,8 +100,8 @@ and register it on the application startup:
 
 `Application.kt`
 ```kotlin
-import brightinventions.pl.plugins.configureData
-import brightinventions.pl.plugins.configureRouting
+import pl.pl.brightinventionsugins.configureData
+import pl.pl.brightinventionsugins.configureRouting
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
@@ -144,12 +144,12 @@ Let's create our DAOs:
 
 `PersonDaoImpl.kt` (I skip the DAO interface part - you can check it on the Github repo page)
 ```kotlin
-import brightinventions.pl.dto.CreatePersonDto
-import brightinventions.pl.dto.FoundPersonDto
-import brightinventions.pl.exposed.SearchPropertySpecification
-import brightinventions.pl.exposed.SearchSpecification
-import brightinventions.pl.exposed.search
-import brightinventions.pl.persistance.table.PersonTable
+import pl.brightinventions.dto.CreatePersonDto
+import pl.brightinventions.dto.FoundPersonDto
+import pl.brightinventions.exposed.SearchPropertySpecification
+import pl.brightinventions.exposed.SearchSpecification
+import pl.brightinventions.exposed.search
+import pl.brightinventions.persistance.table.PersonTable
 import org.jetbrains.exposed.sql.ResultRow
 import org.jetbrains.exposed.sql.insert
 import org.jetbrains.exposed.sql.selectAll
@@ -219,7 +219,7 @@ Right, we have the database filled up, we can use our DAO to create a REST endpo
 
 `Routing.kt`
 ```kotlin
-import brightinventions.pl.persistance.PersonDaoImpl
+import pl.brightinventions.persistance.PersonDaoImpl
 import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
@@ -348,7 +348,7 @@ private fun String.toDateOrNull(): Instant? = try {
 
 *What we did here?* In essence, we implemented `NoArgRSQLVisitorAdapter` which is going to visit the node in order to determine what logic operation (exposed) should we perform to the given column/argument
 
-So, if we will have a query string like `age=in=(33,22)`, our Visitor will produce 
+So, if we will have a query string like `age=in=(33,22)`, our Visitor will produce
 ```
 column<PersonTable.age> inList listOf(33,22) 
 ```
