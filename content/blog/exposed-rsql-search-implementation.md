@@ -17,16 +17,17 @@ published: true
 ---
 Overview
 ---
+In this tutorial we are going to implement `search` functionality into the Exposed using jirutka's RSQL parser
+
 RSQL is a query language for parametrized filtering of entries in RESTful APIs.\
 JetBrains Exposed is a lightweight SQL library on top of JDBC driver for Kotlin language. 
 
-In this tutorial we are going to implement `search` functionality into the Exposed using jirutka's RSQL parser
 
-Setting up test application
+Setting up a test application
 ---
 **_NOTE_: You can skip this part and go directly to [RSQL search functionality implementation](#rsql-search-functionality-implementation) part if you have any web framework/exposed setup ready**
 
-For the sake of test, we used [Ktor](https://ktor.io/) - the easiest way to do so is to use [initializer](https://start.ktor.io/)
+For the sake of the test, we use [Ktor](https://ktor.io/) - the easiest way to do so is to use [initializer](https://start.ktor.io/)
 
 Once we go through the form, the application frame is ready to work with. Now, we need to add serialization functionality (because we want to return JSON object as the response)
 
