@@ -15,7 +15,7 @@ export const FacebookFqbScript = ({ options }: { options: PluginOptions }) => {
           strategy={scriptLoadStrategy}
           forward={partytownForwards}
         />
-        <Script strategy={scriptLoadStrategy}>{`
+        <Script id='facebook-pixel-config'>{`
 let fbq = window.fbq = function() {
   fbq.callMethod ? fbq.callMethod.apply(fbq, arguments) : fbq.queue.push(arguments)
 }

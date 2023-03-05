@@ -24,7 +24,7 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
     return (
       <>
         <Script src={googleTagManagerUrl(firstTrackingTag)} strategy={scriptLoadStrategy} forward={partytownForwards} />
-        <Script id='gtag-config' strategy={scriptLoadStrategy}>
+        <Script id='gtag-config'>
           {`
 window.dataLayer = window.dataLayer || [];
 function gtag(){
