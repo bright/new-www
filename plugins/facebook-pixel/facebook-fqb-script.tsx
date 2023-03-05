@@ -16,9 +16,18 @@ export const FacebookFqbScript = ({ options }: { options: PluginOptions }) => {
           forward={partytownForwards}
         />
         <Script strategy={scriptLoadStrategy}>{`
-        fbq('consent', 'revoke');
-        fbq('init', '${pixelId}');
-        fbq('track', 'PageView');
+let fbq = window.fbq = function() {
+  fbq.callMethod ? fbq.callMethod.apply(fbq, arguments) : fbq.queue.push(arguments)
+}
+if (!window._fbq) window._fbq = fbq
+fbq.push = fbq
+fbq.loaded = !0
+fbq.version = '2.0'
+fbq.queue = []
+
+fbq('consent', 'revoke');
+fbq('init', '${pixelId}');
+fbq('track', 'PageView');
         `}</Script>
       </>
     )
