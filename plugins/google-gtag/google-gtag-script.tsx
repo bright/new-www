@@ -18,10 +18,15 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
       setIsConnectedToGoogleGtagAssistant(isConnectedToGtagDebugger)
     }, [])
 
+    console.log({
+      isConnectedToGtagDebugger,
+      location,
+      scriptLoadStrategy,
+    })
+
     const firstTrackingTag = trackingIds[0]
     // https://developers.google.com/tag-platform/gtagjs/install
-    const partytownForwards = partytownEnabled ? ['gtag', 'dataLayer.push'] : []
-    console.debug('gtag', { scriptLoadStrategy, partytownForwards })
+    const partytownForwards = partytownEnabled ? ['gtag', 'dataLayer.push'] : undefined
     return (
       <>
         <Script src={googleTagManagerUrl(firstTrackingTag)} strategy={scriptLoadStrategy} forward={partytownForwards} />

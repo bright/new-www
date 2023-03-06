@@ -5,14 +5,15 @@
  */
 
 // You can delete this file if you're not using it
-import React from 'react'
+import React, { useContext } from 'react'
 import type { GatsbySSR } from 'gatsby'
 import * as fs from 'fs'
 
 import { GlobalStyle } from './src/styles/global'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 import { thirdPartyProxyPath } from 'gatsby/dist/internal-plugins/partytown/proxy'
-import { partytownAllowedHosts, partytownEnabled } from './src/partytown'
+import { PartytownContext } from './src/partytown-context'
+import { partytownEnabled } from './src/partytown-enabled'
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return (
@@ -28,6 +29,8 @@ export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
   return <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>{element}</CookieConsentContextWrapper>
 }
 
+const partytownAllowedHosts = ['www.google-analytics.com', 'www.googletagmanager.com']
+
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
   const files = getFilesFromPath('./public/static', '.woff2')
   const preload = [
@@ -41,37 +44,39 @@ export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, o
     'lato-v23-latin-ext_latin-900',
   ]
 
+  console.log({ options })
+
   setHeadComponents([
-    // ...files.map((file, i) => {
-    //   return preload.map((font, key) => {
-    //     const fileBeginning = file.split('-').slice(0, -1).join('-')
-    //     if (fileBeginning === font) {
-    //       return (
-    //         <link
-    //           key={key}
-    //           rel='preload'
-    //           as='font'
-    //           type='font/woff2'
-    //           crossOrigin='anonymous'
-    //           href={`/static/${file}`}
-    //         />
-    //       )
-    //     } else {
-    //       return null
-    //     }
-    //   })
-    // }),
+    ...files.map((file, i) => {
+      return preload.map((font, key) => {
+        const fileBeginning = file.split('-').slice(0, -1).join('-')
+        if (fileBeginning === font) {
+          return (
+            <link
+              key={key}
+              rel='preload'
+              as='font'
+              type='font/woff2'
+              crossOrigin='anonymous'
+              href={`/static/${file}`}
+            />
+          )
+        } else {
+          return null
+        }
+      })
+    }),
     partytownEnabled ? (
       <script
         key='partytown-vanilla-config'
         dangerouslySetInnerHTML={{
           __html: `
         partytown = {
-           debug: false,
+           debug: true,
            set(opts){
               // https://github.com/BuilderIO/partytown/issues/72#issuecomment-1383790146
               let sessionStorage = opts.window && opts.window.sessionStorage;
-              
+              console.log({sessionStorage})
               let isGtmTagDefinedInUrl = opts.window && opts.window.location && opts.window.location.search.includes("gtm_debug");
               let isGtmTagDefinedInSessionStorage = sessionStorage && sessionStorage.getItem('isConnectedToGtagDebugger') == 'true'
               let isDebugging = isGtmTagDefinedInUrl || isGtmTagDefinedInSessionStorage; 
