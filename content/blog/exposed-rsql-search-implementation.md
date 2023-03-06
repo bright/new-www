@@ -9,7 +9,7 @@ tags:
   - FIQL
 date: 2023-03-04T21:32:42.327Z
 meaningfullyUpdatedAt: 2023-03-04T21:32:42.341Z
-title: Exposed RSQL search implementation
+title: Exposed RSQL Search Implementation
 layout: post
 image: /images/search_rsql.png
 hidden: false
