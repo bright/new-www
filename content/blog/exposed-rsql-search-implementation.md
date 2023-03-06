@@ -11,7 +11,8 @@ date: 2023-03-04T21:32:42.327Z
 meaningfullyUpdatedAt: 2023-03-04T21:32:42.341Z
 title: Exposed RSQL search implementation
 layout: post
-hidden: true
+image: /images/blogpost_search-1-.png
+hidden: false
 comments: true
 published: true
 ---
