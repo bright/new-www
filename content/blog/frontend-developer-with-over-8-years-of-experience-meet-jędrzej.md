@@ -5,12 +5,12 @@ tags:
   - bright story
   - frontend
   - inspiration
-date: 2023-03-06T08:27:49.435Z
-meaningfullyUpdatedAt: 2023-03-06T08:27:49.472Z
+date: 2023-03-06T08:56:35.944Z
+meaningfullyUpdatedAt: 2023-03-06T08:56:37.736Z
 title: Frontend Developer with Over 8 Years of Experience. Meet Jędrzej
 layout: post
 image: /images/brightstoryjedrzejs.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
