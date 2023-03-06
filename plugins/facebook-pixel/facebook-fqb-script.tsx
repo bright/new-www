@@ -11,11 +11,6 @@ export const FacebookFqbScript = ({ options }: { options: PluginOptions }) => {
     console.debug('fbq', { scriptLoadStrategy, partytownForwards })
     return (
       <>
-        <Script
-          src={'https://connect.facebook.net/en_US/fbevents.js'}
-          strategy={scriptLoadStrategy}
-          forward={partytownForwards}
-        />
         <Script id='facebook-pixel-config' strategy={scriptLoadStrategy}>{`
 console.debug('init.fbq', {window});
 
@@ -35,6 +30,11 @@ fbq('consent', 'revoke');
 fbq('init', '${pixelId}');
 fbq('track', 'PageView');
         `}</Script>
+        <Script
+          src={'https://connect.facebook.net/en_US/fbevents.js'}
+          strategy={scriptLoadStrategy}
+          forward={partytownForwards}
+        />
       </>
     )
   } else {
