@@ -39,3 +39,29 @@ When you possess that knowledge, you can **start to get familiar with popular fr
 ## You have worked at Bright Inventions for over a year. How do you recall joining the company?
 
 I had a couple of interviews scheduled with different companies including Bright Inventions. **Why did I choose Bright? Actually, because of the very intriguing tech interview** I had with [Piotr](/about-us/piotr/) and [Bartek](/about-us/bartosz-sz/). It was a long, 2-hour interview. However, after finishing it I felt that these were the people I wanted to work with. I was happy that the feeling was mutual when I was offered a job.
+
+## We organize a webinar for frontend developers that you will conduct. Share some info about the webinar.
+
+<div class="image"><img src="/images/jedrzej_webinar_lp_preview_some.png" alt="Zarządzanie stanem w Reactie – webinar" title="Zarządzanie stanem w Reactie – webinar"  /> </div>
+
+I will talk about **managing React State**. The webinar will be held **in Polish**. **It’s free. Anyone can join**. You can sign up here. We will look at React through the tools that this framework gives us. **Webinar is suited for junior frontend developers who know the basics of React**. However, I think that some **mid-developers will find it useful as well** because I will talk about the still new feature which is Concurrent Mode. If you want to know what problems **Concurrent Mode** can cause in your code, join my webinar.
+
+## You work remotely. How do you organize your work and create online relations with other colleagues?
+
+**I organize my day to work continually for 8 hours and don’t distract myself with other errands**. Thanks to that at 4 pm my work is done and I can focus on my free time and family. It's helpful to keep a work-life balance. If I did some chores during the day, which is tempting when you work from home, I would have to spend my evenings working. I try to avoid that.
+
+<div class="image"><img src="/images/jedrzej_passions.png" alt="Jędrzej after hours" title="Jędrzej after hours"  /> </div>
+
+Building relations while working remotely is possible. Naturally, I have daily contact with people from my team. Apart from that, **you just have to be active on Slack, do small talks, and share thoughts with others**. I also attend our **biweekly meetings gathering all front-end developers from Bright Inventions**. We discuss hot tech topics and address tech challenges in our projects. Actually, at this meeting, I conducted a webinar about React State and now I will present it to developers outside my organization. 
+
+What’s more? **I try to regularly attend team retreats that take place in Gdańsk**. So I get to see people face to face.
+
+## You are a sauna master. How did that happen? 😄
+
+It all started 5-6 years ago when therms with saunas were opened in my neighborhood. I started to attend sauna sessions regularly. It’s a cozy place, so I quickly got to know sauna masters there. I was impressed by their work. When there was a chance to join a training for sauna masters I simply signed up. **I was intrigued by this idea and also wanted to possess a new skill**. So I became a Sauna Master certificated by the Polish Sauna Association.
+
+Although I must say that I don’t attend the sauna sessions as much as I used to. I hope it will change.
+
+## Have you conducted sauna ceremonies?
+
+Yes, but only for my family and close friends. It’s not my extra job. However, it’s a skill that ChatGPT won’t be able to take over from me. 😉
