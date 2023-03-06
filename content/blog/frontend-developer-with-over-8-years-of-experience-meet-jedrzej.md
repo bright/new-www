@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-03-06T08:56:37.736Z
 title: Frontend Developer with Over 8 Years of Experience. Meet Jędrzej
 layout: post
 image: /images/brightstoryjedrzejs.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
