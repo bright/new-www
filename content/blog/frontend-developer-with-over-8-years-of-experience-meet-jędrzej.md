@@ -28,6 +28,8 @@ I have over **8 years of commercial experience**. My first job started as an int
 
 Eventually, I was offered a full-time job. **I started to learn Angular** which was something new back then. After that, **I turned to React and have been working with this framework for the past 5 years**.
 
+<div class='block-button'><h2>Do you want to join Jędrzej?</h2><div>Join Jędrzej and other bright developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>check our career opportunities</button></a></div>
+
 ## What is your advice to people who want to become junior frontend developers?
 
 It’s hard to say because as you know I started to work in this industry years ago. I guess my career began when there weren’t so many frameworks available. So I naturally focused on getting to know the language. That’s what I would recommend to future frontend developers. **Focus on understanding the language, not only frameworks**. Language is the basic tool you are going to work with, so don’t neglect it. Also, you should **understand the basics of algorithms and software design patterns**.
@@ -42,9 +44,9 @@ I had a couple of interviews scheduled with different companies including Bright
 
 ## We organize a webinar for frontend developers that you will conduct. Share some info about the webinar.
 
-<div class="image"><img src="/images/jedrzej_webinar_lp_preview_some.png" alt="Zarządzanie stanem w Reactie – webinar" title="Zarządzanie stanem w Reactie – webinar"  /> </div>
+<div class="image"><img src="/images/jedrzej_webinar_cover.png" alt="Webinar about React State" title="Webinar about React State"  /> </div>
 
-I will talk about **managing React State**. The webinar will be held **in Polish**. **It’s free. Anyone can join**. You can sign up here. We will look at React through the tools that this framework gives us. **Webinar is suited for junior frontend developers who know the basics of React**. However, I think that some **mid-developers will find it useful as well** because I will talk about the still new feature which is Concurrent Mode. If you want to know what problems **Concurrent Mode** can cause in your code, join my webinar.
+I will talk about **managing React State**. The webinar will be held **in Polish**. **It’s free. Anyone can join**. [You can sign up here](https://webinar-react-zarzadzanie-stanem.getresponsepages.com/). We will look at React through the tools that this framework gives us. **Webinar is suited for junior frontend developers who know the basics of React**. However, I think that some **mid-developers will find it useful as well** because I will talk about the still new feature which is Concurrent Mode. If you want to know what problems **Concurrent Mode** can cause in your code, join my webinar.
 
 ## You work remotely. How do you organize your work and create online relations with other colleagues?
 
@@ -65,3 +67,5 @@ Although I must say that I don’t attend the sauna sessions as much as I used t
 ## Have you conducted sauna ceremonies?
 
 Yes, but only for my family and close friends. It’s not my extra job. However, it’s a skill that ChatGPT won’t be able to take over from me. 😉
+
+<div class='block-button'><h2>Join Jędrzej</h2><div>Work on web and mobile solutions we develop for our clients from Germany, USA, or Israel. Check our job offers.</div><a href="/career"><button>check our career opportunities</button></a></div>
