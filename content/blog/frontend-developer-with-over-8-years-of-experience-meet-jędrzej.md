@@ -33,3 +33,9 @@ Eventually, I was offered a full-time job. **I started to learn Angular** which 
 It’s hard to say because as you know I started to work in this industry years ago. I guess my career began when there weren’t so many frameworks available. So I naturally focused on getting to know the language. That’s what I would recommend to future frontend developers. **Focus on understanding the language, not only frameworks**. Language is the basic tool you are going to work with, so don’t neglect it. Also, you should **understand the basics of algorithms and software design patterns**.
 
 <div class="image"><img src="/images/jedrzej_quote_language.png" alt="Jędrzej's quote on understanding the language" title="Jędrzej's quote on understanding the language"  /> </div>
+
+When you possess that knowledge, you can **start to get familiar with popular frameworks like React or Vue**. That's also a great moment to **learn libraries, like styled components or Tailwind for styling and the role of tooling like Webpack** in a project. You don’t need to know how to configure Webpack, but you should be aware what’s the purpose of it.
+
+## You have worked at Bright Inventions for over a year. How do you recall joining the company?
+
+I had a couple of interviews scheduled with different companies including Bright Inventions. **Why did I choose Bright? Actually, because of the very intriguing tech interview** I had with [Piotr](/about-us/piotr/) and [Bartek](/about-us/bartosz-sz/). It was a long, 2-hour interview. However, after finishing it I felt that these were the people I wanted to work with. I was happy that the feeling was mutual when I was offered a job.
