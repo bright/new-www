@@ -3,7 +3,7 @@ import { CustomSectionTitle, MoreButton } from '../components/shared'
 import { routeLinks } from '../config/routing'
 import { createBlogRelatedPosts } from '../models/creator'
 import { allMdxData } from '../models/gql'
-import { BlogFeed } from '../templates/blog/Feed'
+import { BlogFeed } from './Feed'
 import styled from 'styled-components'
 import variables from '../styles/variables'
 

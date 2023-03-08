@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
+import variables from '../styles/variables'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { clampBuilder } from './../../helpers/clampBuilder'
+import { clampBuilder } from '../helpers/clampBuilder'
 
 const SlideWrapper = styled.div`
   display: flex;

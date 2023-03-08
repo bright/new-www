@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
+import variables from '../styles/variables'
 
 const Columns = styled.div`
   .column {

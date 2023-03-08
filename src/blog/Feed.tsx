@@ -1,8 +1,8 @@
 import React from 'react'
 import formatDate from 'date-fns/format'
 
-import { deleteTimestampFromUrl } from '../../helpers/pathHelpers'
-import { BlogPostModel } from '../../models/gql'
+import { deleteTimestampFromUrl } from '../helpers/pathHelpers'
+import { BlogPostModel } from '../models/gql'
 
 import * as styles from './Feed.module.scss'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'

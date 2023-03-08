@@ -1,13 +1,13 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import styled from 'styled-components'
 
-import { CustomSection, CustomSectionTitle, CustomContainer } from '../../components/shared'
-import variables from '../../styles/variables'
+import { CustomSection, CustomSectionTitle, CustomContainer } from '../components/shared'
+import variables from '../styles/variables'
 
-import { clampBuilder } from '../../helpers/clampBuilder'
-import FacebookIconBlack from '../../assets/facebook_black.svg'
-import InstagramIconBlack from '../../assets/instagram_black.svg'
-import LinkedInIconBlack from '../../assets/linkedIn_black.svg'
+import { clampBuilder } from '../helpers/clampBuilder'
+import FacebookIconBlack from '../assets/facebook_black.svg'
+import InstagramIconBlack from '../assets/instagram_black.svg'
+import LinkedInIconBlack from '../assets/linkedIn_black.svg'
 
 const SectionBenefitsTitle = styled(CustomSectionTitle)`
   margin-top: 11.625rem;

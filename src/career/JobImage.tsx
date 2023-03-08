@@ -1,9 +1,9 @@
 import React, { useState, useMemo, MutableRefObject } from 'react'
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image'
-import { useScrollPosition } from './../../components/utils/use-scrollposition'
+import { useScrollPosition } from '../components/utils/use-scrollposition'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
-import { ArrowJobTemplateIcon } from '../../components/icons/ArrowJobTemplate.icon'
+import variables from '../styles/variables'
+import { ArrowJobTemplateIcon } from '../components/icons/ArrowJobTemplate.icon'
 
 const ImageWrapper = styled.div`
   position: relative;

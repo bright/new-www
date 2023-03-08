@@ -1,11 +1,11 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react'
 import styled from 'styled-components'
-import { Section } from '../../components/shared'
-import { CustomSectionTitle } from '../../components/shared/index.styled'
-import variables from '../../styles/variables'
+import { Section } from '../components/shared'
+import { CustomSectionTitle } from '../components/shared/index.styled'
+import variables from '../styles/variables'
 import RecruitingProcessDesktop from './_RecruitingProcessDesktop'
 import RecruitingProcessMobile from './_RecruitingProcessMobile'
-import { useWindowSize } from '../../components/utils/use-windowsize'
+import { useWindowSize } from '../components/utils/use-windowsize'
 
 const RecruitingSection = styled(Section)`
   padding: 2rem 15rem 6rem 15rem;

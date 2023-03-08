@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { routeLinks } from '../../config/routing'
-import { PageDescription, Section, SectionInner, CustomSectionInner } from '../../components/shared'
+import { routeLinks } from '../config/routing'
+import { PageDescription, Section, SectionInner, CustomSectionInner } from '../components/shared'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
+import variables from '../styles/variables'
 
 const WrapperDesc = styled.section`
   .career-desc {

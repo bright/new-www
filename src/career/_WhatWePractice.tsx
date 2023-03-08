@@ -1,9 +1,9 @@
 import React, { useMemo, useRef } from 'react'
 import styled from 'styled-components'
 
-import { FlexWrapper, SectionBlack } from '../../components/shared'
-import { CustomSectionTitle } from '../../components/shared/index.styled'
-import variables from '../../styles/variables'
+import { FlexWrapper, SectionBlack } from '../components/shared'
+import { CustomSectionTitle } from '../components/shared/index.styled'
+import variables from '../styles/variables'
 
 const PracticeSectionBlack = styled(SectionBlack)`
   padding: 2rem 15rem 6rem 15rem;

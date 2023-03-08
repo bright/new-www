@@ -1,10 +1,9 @@
-import React, { PropsWithChildren } from 'react'
+import React from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import variables from '../styles/variables'
-import { useLocation } from '@reach/router'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 
 const Container = styled.div`
@@ -79,8 +78,6 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter } = mdx
   const { title, description, social_media_previev_alt: alt, social_media_previev: image } = frontmatter
-
-  const { pathname } = useLocation()
 
   return (
     <Page>

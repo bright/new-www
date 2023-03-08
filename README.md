@@ -30,7 +30,7 @@ There's a custom SimpleMdx type defined that allows
 using MDX inside frontmatter fields.
 
 It only handles simple html conversion. Probably not even styling.
-See `JobTemplate.tsx` and `links_more_about_us` for an example.
+See `Job.tsx` and `links_more_about_us` for an example.
 
 ## Infrastructure
 

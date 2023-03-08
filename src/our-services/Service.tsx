@@ -28,13 +28,13 @@ import {
   MoreButtonOurServiceWrapper,
   CustomSectionOurServiceImage,
   MobileOurServiceFlexWrapper,
-} from './styled/OurServiceTemplateStyled'
+} from './Service.styled'
 import { FaqStructuredData } from '../FaqStructuredData'
 import { ProjectModel } from '../models/gql'
 import { FlexWrapper } from '../components/shared'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 
-import { MoreButton } from './../components/shared/index'
+import { MoreButton } from '../components/shared'
 
 const TechnologyTags = loadable(() => import('../components/shared/TechnologyTags'), {
   fallback: <div>Loading...</div>,

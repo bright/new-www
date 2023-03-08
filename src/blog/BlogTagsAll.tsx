@@ -1,11 +1,11 @@
 import React, { ChangeEvent } from 'react'
-import tagsTree from '../../../tag-groups.yml'
+import tagsTree from '../../tag-groups.yml'
 import { useEffect, useState } from 'react'
 import { Link, navigate } from 'gatsby'
-import { routeLinks } from '../../config/routing'
-import { kebabCase } from '../../helpers/pathHelpers'
-import { SubTagsWrapper, TagsLink, TagsSelect, TagsWrapper } from '../../components/shared/components'
-import { RawGroup } from '../../tags/raw-group'
+import { routeLinks } from '../config/routing'
+import { kebabCase } from '../helpers/pathHelpers'
+import { SubTagsWrapper, TagsLink, TagsSelect, TagsWrapper } from '../components/shared/components'
+import { RawGroup } from '../tags/raw-group'
 
 interface BlogTagsAllProps {
   activeTag?: string

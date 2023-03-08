@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
-import { CustomSection } from '../../components/shared'
-import { createJobs } from '../../models/creator'
+import { CustomSection } from '../components/shared'
+import { createJobs } from '../models/creator'
 import OffersList from './_OffersList'
 import styled from 'styled-components'
-import variables from '../../styles/variables'
-import { CustomSectionTitle } from '../../components/shared/index.styled'
+import variables from '../styles/variables'
+import { CustomSectionTitle } from '../components/shared/index.styled'
 
 export const ParagraphHeader = styled(CustomSectionTitle)`
   margin-top: 11rem;

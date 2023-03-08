@@ -1,10 +1,10 @@
 import styled from 'styled-components'
-import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '../../components/shared'
-import variables, { font } from '../../styles/variables'
-import image from '../../../static/images/bullet_point.svg'
-import questionArrow from '../../../static/images/arrowFaqs.svg'
-import { HideTablet } from './../../components/shared/index.styled'
-import { clampBuilder } from './../../helpers/clampBuilder'
+import { CustomPageTitle, CustomSection, CustomTextRegular, FlexWrapper } from '../components/shared'
+import variables, { font } from '../styles/variables'
+import image from '../../static/images/bullet_point.svg'
+import questionArrow from '../../static/images/arrowFaqs.svg'
+import { HideTablet } from '../components/shared/index.styled'
+import { clampBuilder } from '../helpers/clampBuilder'
 
 export const CustomSectionOurService = styled(CustomSection)`
   flex-basis: 47.5%;

@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { StaticImage } from 'gatsby-plugin-image'
 
-import { Section } from '../../components/shared'
-import variables from '../../styles/variables'
+import { Section } from '../components/shared'
+import variables from '../styles/variables'
 import { IStaticImageProps } from 'gatsby-plugin-image/dist/src/components/static-image.server'
 
  export const ImagesBase = styled.div`

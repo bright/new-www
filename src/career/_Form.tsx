@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { CustomSection, Section, SectionInner } from '../../components/shared'
-import { FormComponent } from '../../components/about-us/form-section/form'
+import { CustomSection, Section, SectionInner } from '../components/shared'
+import { FormComponent } from '../components/about-us/form-section/form'
 
 const Form: React.FC = () => {
   return (

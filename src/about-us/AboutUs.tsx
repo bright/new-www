@@ -1,7 +1,7 @@
 import React, { CSSProperties, useRef, useEffect } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
-import { PageContext, Paging } from './blog/Paging'
+import { PageContext, Paging } from '../blog/Paging'
 import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
@@ -9,7 +9,7 @@ import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { HideDesktop, HideTablet } from '../components/shared'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Edge } from '../models/gql'
-import { BlogFeed } from './blog/Feed'
+import { BlogFeed } from '../blog/Feed'
 import { createBlogPosts } from '../models/creator'
 import {
   CustomContainer,

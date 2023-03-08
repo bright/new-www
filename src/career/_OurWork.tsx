@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { CustomSection, CustomSectionTitle } from '../../components/shared'
-import { CarouselQuotesSwiper } from '../../components/shared/CarouselQuotesSwiper'
-import variables from '../../styles/variables'
+import { CustomSection, CustomSectionTitle } from '../components/shared'
+import { CarouselQuotesSwiper } from '../components/shared/CarouselQuotesSwiper'
+import variables from '../styles/variables'
 
 const SectionEx = styled(CustomSection)`
   @media ${variables.device.laptop} {

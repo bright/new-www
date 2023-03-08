@@ -5,7 +5,7 @@ import { Page } from '../layout/Page'
 import BackButton from '../components/subcomponents/BackButton'
 import { routeLinks } from '../config/routing'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
-import RecruitingProcess from '../pages/career/_RecruitingProcess'
+import RecruitingProcess from './_RecruitingProcess'
 import styled from 'styled-components'
 import {
   CustomPageTitle,
@@ -16,14 +16,14 @@ import {
   CustomSectionTitle,
   Button,
   MoreButton,
-} from '../components/shared/index'
+} from '../components/shared'
 import { FormComponent } from '../components/about-us/form-section/form'
 import variables, { font } from '../styles/variables'
-import { CustomSection } from './../components/shared/index'
-import { LinkedIn } from './../components/icons/LinkedIn.icon'
+import { CustomSection } from '../components/shared'
+import { LinkedIn } from '../components/icons/LinkedIn.icon'
 import useOnScreen from '../components/utils/use-onscreen'
-import { clampBuilder } from './../helpers/clampBuilder'
-import { JobImage } from './job/JobImage'
+import { clampBuilder } from '../helpers/clampBuilder'
+import { JobImage } from './JobImage'
 
 const SalaryHeading = styled.h5`
   margin: 1.5rem 0;

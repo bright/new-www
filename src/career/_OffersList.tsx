@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import { routeLinks } from '../../config/routing'
-import { getJobPath } from '../../helpers/pathHelpers'
-import { JobModel } from '../../models/gql'
-import variables from '../../styles/variables'
+import { routeLinks } from '../config/routing'
+import { getJobPath } from '../helpers/pathHelpers'
+import { JobModel } from '../models/gql'
+import variables from '../styles/variables'
 
 const JobWrapper = styled.div`
   display: flex;

@@ -11,13 +11,13 @@ import {
   CustomSectionInner,
   FlexWrapper,
   CustomTextTitle,
-} from '../../components/shared'
-import variables from '../../styles/variables'
-import ResponsibilityIcon from '../../assets/responsibility.svg'
-import FlexibilityIcon from '../../assets/flexibility.svg'
-import TeamworkIcon from '../../assets/teamwork.svg'
-import PositiveAttitudeIcon from '../../assets/positive_Attitude.svg'
-import ClientOrientationIcon from '../../assets/client-orientation.svg'
+} from '../components/shared'
+import variables from '../styles/variables'
+import ResponsibilityIcon from '../assets/responsibility.svg'
+import FlexibilityIcon from '../assets/flexibility.svg'
+import TeamworkIcon from '../assets/teamwork.svg'
+import PositiveAttitudeIcon from '../assets/positive_Attitude.svg'
+import ClientOrientationIcon from '../assets/client-orientation.svg'
 // import { TextRegular } from './../../components/shared/index'
 
 const SectionTitleEx = styled(CustomSectionTitle)`
@@ -112,7 +112,7 @@ const Traits: React.FC = () => {
                 <ResponsibilityIcon />
               </TraitsFigure>
               <div>
-                <a id='responsibility' href='#responsibility'>
+                <a id='responsibility' href='src/career#responsibility'>
                   <TextTitle>Responsibility</TextTitle>
                   <TextRegularTraits>
                     We support and share responsibility with the members of our team. We also actively take
@@ -129,7 +129,7 @@ const Traits: React.FC = () => {
                 <FlexibilityIcon />
               </TraitsFigure>
               <div>
-                <a id='flexibility' href='#flexibility'>
+                <a id='flexibility' href='src/career#flexibility'>
                   <TextTitle>Flexibility</TextTitle>
                 </a>
                 <TextRegularTraits>
@@ -146,7 +146,7 @@ const Traits: React.FC = () => {
                 <TeamworkIcon />
               </TraitsFigure>
               <div>
-                <a id='teamwork' href='#teamwork'>
+                <a id='teamwork' href='src/career#teamwork'>
                   <TextTitle>Teamwork</TextTitle>
                 </a>
                 <TextRegularTraits>
@@ -163,7 +163,7 @@ const Traits: React.FC = () => {
                 <PositiveAttitudeIcon />
               </TraitsFigure>
               <div>
-                <a id='positive-attitude' href='#positive-attitude'>
+                <a id='positive-attitude' href='src/career#positive-attitude'>
                   <TextTitle>Positive attitude</TextTitle>
                 </a>
                 <TextRegularTraits>
@@ -179,7 +179,7 @@ const Traits: React.FC = () => {
                 <ClientOrientationIcon />
               </TraitsFigure>
               <div>
-                <a id='client-orientation' href='#client-orientation'>
+                <a id='client-orientation' href='src/career#client-orientation'>
                   <TextTitle>Client orientation</TextTitle>
                 </a>
                 <TextRegularTraits>
