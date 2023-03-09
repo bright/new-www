@@ -38,6 +38,8 @@ Data provided offline will be stored on the device and then synchronized when th
 
 While building a mobile solution for industries like **medical care, retail and transportation you have to offer an offline mode** in order to distinguish your product. 
 
+<div class='block-button'><h2>Looking for offline mode experts?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>let's talk</button></a></div>
+
 ## Offline-first examples for various industries
 
 We have developed offline-first apps for many industries. Get access to actual case studies below.
