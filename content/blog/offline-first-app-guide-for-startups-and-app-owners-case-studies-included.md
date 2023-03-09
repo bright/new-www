@@ -52,11 +52,15 @@ Let’s imagine an app for hospital staff that enables them to submit informatio
 
 **Check out the actual case study of [vCare](/projects/vCare) healthcare app with an offline mode that we helped to build**.
 
+<div class="image"><img src="/images/vcare_fb_preview.png" alt="vCare app with offline mode" title="vCare app with offline mode"  /> </div>
+
 ### Offline-first app for retail and restaurants
 
 Retail apps with payment features definitely should have an offline mode. **The quality of the internet shouldn’t affect the transaction**. So if you plan to build an app for retail and restaurant including a payment feature, an offline-first approach is a mandatory way to go.
 
 **Check out actual case studies of retail apps with an offline mode that we built and scaled – [Just Eat POS](/projects/system-for-restaurants) and [Just Eat POS Mobile App](/projects/system-for-restaurants-mobile).**
+
+<div class="image"><img src="/images/restaurant_apps_mobile_preview.png" alt="Retail apps with an offline mode" title="Retail apps with an offline mode"  /> </div>
 
 ### Offline-first app for digitalized workflow
 
@@ -69,6 +73,8 @@ Imagine an app that enables you to fill out forms or questionnaires wherever you
 Applications enabling communication between forwarders and drivers should give access to crucial features even offline. **Drivers cannot focus on accessing a strong internet connection, so apps have to meet their needs**. Transportation apps with offline mode still can, for example, share a vehicle localization offline.
 
 **Check out an actual case study – the [Transport Management System](projects/transportation-management-system) with an offline-first application that we are building for a freight company.**
+
+<div class="image"><img src="/images/tms_social_preview.png" alt="Transport Management System with offline mode" title="Transport Management System"  /> </div>
 
 ## Design best practices for offline-first apps
 
