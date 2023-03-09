@@ -68,6 +68,8 @@ Imagine an app that enables you to fill out forms or questionnaires wherever you
 
 **Check out actual case studies of a [digitalized workflow app](/projects/app-digitized-surveys) with an offline mode that we built.**
 
+<div class="image"><img src="/images/questionnaire_fb_preview.png" alt="Digitalized workflow app" title="Digitalized workflow app"  /> </div>
+
 ### Offline-first app for road transportation
 
 Applications enabling communication between forwarders and drivers should give access to crucial features even offline. **Drivers cannot focus on accessing a strong internet connection, so apps have to meet their needs**. Transportation apps with offline mode still can, for example, share a vehicle localization offline.
