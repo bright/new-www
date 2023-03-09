@@ -2,7 +2,7 @@
 author: szymek
 secondAuthor: izabela
 tags:
-  - business
+  - business perspective
 date: 2023-03-09T12:23:30.780Z
 meaningfullyUpdatedAt: 2023-03-09T12:23:30.816Z
 title: Offline-First App Guide for Startups and App Owners (Case Studies Included)
