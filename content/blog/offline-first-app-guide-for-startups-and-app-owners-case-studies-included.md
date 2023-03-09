@@ -49,3 +49,35 @@ Tech used by doctors, nurses and other caregivers has to be a reliable tool that
 Let’s imagine an app for hospital staff that enables them to submit information about patients' vital signs measures, taken medicine, etc. **Hospital staff should be able to provide that with a phone or tablet on the go in patients' rooms no matter the internet connection**. Then the data should be synchronized as soon as the internet connection is sufficient. So other members of the hospital staff are well aware of the patient’s actual state. That's why offline mode is a crucial feature for healthcare.
 
 **Check out the actual case study of [vCare](/projects/vCare) healthcare app with an offline mode that we helped to build**.
+
+### Offline-first app for retail and restaurants
+
+Retail apps with payment features definitely should have an offline mode. **The quality of the internet shouldn’t affect the transaction**. So if you plan to build an app for retail and restaurant including a payment feature, an offline-first approach is a mandatory way to go.
+
+**Check out actual case studies of retail apps with an offline mode that we built and scaled – [Just Eat POS](/projects/system-for-restaurants) and [Just Eat POS Mobile App](/projects/system-for-restaurants-mobile).**
+
+### Offline-first app for digitalized workflow
+
+Imagine an app that enables you to fill out forms or questionnaires wherever you are. It might be useful for social workers who visit various places and create reports. They can fill out documents offline knowing that they will be synchronized later and be accessible on different devices for other coworkers as well.
+
+**Check out actual case studies of a [digitalized workflow app](/projects/app-digitized-surveys) with an offline mode that we built.**
+
+### Offline-first app for road transportation
+
+Applications enabling communication between forwarders and drivers should give access to crucial features even offline. **Drivers cannot focus on accessing a strong internet connection, so apps have to meet their needs**. Transportation apps with offline mode still can, for example, share a vehicle localization offline.
+
+**Check out an actual case study – the [Transport Management System](projects/transportation-management-system) with an offline-first application that we are building for a freight company.**
+
+## Design best practices for offline-first apps
+
+While building offline-first apps your **design has to be well-informative so the user is aware that they operate in offline mode**. Also, the user has to be assured that data will be synchronized as soon as the internet connection is back.
+
+This is an example of the mockup of the app in offline mode:
+
+<div class="image"><img src="/images/offline_mode_design.png" alt="Offline mode design" title="Offline mode design"  /> </div>
+
+We’ve explained [offline UX design](/blog/ux-design-healthcare-medical-apps-case-study#ux-design-for-offline-mode) in our other blog post. Feel free to check it out.
+
+The offline mode might be a challenge, but this feature is crucial for many industries.
+
+<div class='block-button'><h2>Planning to build offline-first app?</h2><div>Contact us to discuss and estimate your solution. We’ll be happy to share our experience.</div><a href="/start-project"><button>let's talk</button></a></div>
