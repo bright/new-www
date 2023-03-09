@@ -7,14 +7,14 @@ date: 2023-03-09T14:30:26.285Z
 meaningfullyUpdatedAt: 2023-03-09T14:30:27.126Z
 title: Offline-First App Guide for Startups and App Owners (Case Studies Included)
 layout: post
-image: /images/blogpost_offline_first_app.png
+image: /images/offline-mode-app-cover-blog.png
 hidden: false
 comments: true
 published: true
 ---
 **Are you planning to release an app that has to work without an internet connection? You’ve come to the right place. Read about offline-first applications. Go through business advantages, different industries' perspectives, and design best practices. Also, look into the actual case studies!**
 
-<div class="image"><img src="/images/blogpost_offline_first_app.png" alt="Offline-first application – business perspective" title="Offline-first application – business perspective"  /> </div>
+<div class="image"><img src="/images/offline-mode-app-cover-blog.png" alt="Offline-first application – business perspective" title="Offline-first application – business perspective"  /> </div>
 
 ## What is the offline-first application?
 
