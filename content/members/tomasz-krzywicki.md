@@ -8,8 +8,11 @@ short_name: Tomasz
 email: tomasz.krzywicki@brightinventions.pl
 bio: Senior Backend Developer
 description: Senior Backend Developer
-avatar: /images/team_member_tomek.png
-avatar_hover: /images/team_member_tomek.png
+avatar: /images/tomasz_k_team_member.png
+avatar_hover: /images/tomasz_k_team_member.png
 published: true
 ---
-Experienced Backend Developer.
+Software Developer with (too) many years of experience. Worked previously in ERP space at Sun Microsystems, Oracle and Linde. In long relationship with experts systems, Python, Java and recently Typescript. Fan of DDD with “It depends” approach.
+
+
+Privately father of lovely 2 girls, playing with analog synths, riding gravel bike and occasionally running ultra.
