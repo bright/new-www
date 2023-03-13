@@ -4,8 +4,8 @@ secondAuthor: izabela
 tags:
   - update
   - frontend
-date: 2023-03-13T13:50:54.242Z
-meaningfullyUpdatedAt: 2023-03-13T13:50:54.269Z
+date: 2023-03-13T14:03:43.512Z
+meaningfullyUpdatedAt: 2023-03-13T14:03:44.104Z
 title: Szymon Chmal, from Bright Inventions, Among Warsaw IT Days Speakers
 layout: post
 image: /images/blogpost_wdi_szymon.png
@@ -17,7 +17,7 @@ published: true
 
 <div class="image"><img src="/images/brightstoryszymon.png" alt="Szymon, senior frontend developer" title="Szymon, senior frontend developer"  /> </div>
 
-Szymon Chmal is a passionate senior frontend developer with a holistic view of software and a mind full of brilliant ideas. He’s in love with React, but open to new technologies regarding both frontend and backend area. Technology is for him just a tool used to provide business value to software products he is working on.
+Szymon Chmal is a senior frontend developer with a holistic view of software and a mind full of brilliant ideas. He’s in love with React, but open to new technologies regarding both frontend and backend area. Technology is for him just a tool used to provide business value to software products he is working on.
 
 Do you want to know more about Szymon? [Read an interview](/blog/frontend-developer-with-an-appetite-for-backend-meet-szymon).
 
