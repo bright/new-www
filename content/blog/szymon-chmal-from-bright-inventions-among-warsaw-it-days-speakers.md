@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-**The 14th edition of the Polish conference Warsaw IT Days (Polish: Warszawskie Dni Informatyki) takes place in Warsaw on 31st March (online) and 1st April (onsite). Conference’s agenda promises hundreds of presentations (online and onsite) for students and professionals. Two webinars will be held by Szymon Chmal, Senior Frontend Develop at Bright Inventions.**
+**The 14th edition of the Polish conference Warsaw IT Days (Polish: Warszawskie Dni Informatyki) takes place in Warsaw on 31st March (online) and 1st April (onsite). Conference’s agenda promises hundreds of presentations (online and onsite) for students and professionals. Two webinars will be held by Szymon Chmal, Senior Frontend Developer at Bright Inventions.**
 
 <div class="image"><img src="/images/brightstoryszymon.png" alt="Szymon, senior frontend developer" title="Szymon, senior frontend developer"  /> </div>
 
