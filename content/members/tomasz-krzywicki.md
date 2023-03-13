@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: tomasz-k
-ex: false
+ex: true
 slug: tomasz-k
 name: Tomasz Krzywicki
 short_name: Tomasz
