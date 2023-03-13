@@ -8,7 +8,7 @@ date: 2023-03-13T14:03:43.512Z
 meaningfullyUpdatedAt: 2023-03-13T14:03:44.104Z
 title: Szymon Chmal, from Bright Inventions, Among Warsaw IT Days Speakers
 layout: post
-image: /images/blogpost_wdi_szymon.png
+image: /images/warsaw_it_days_2023_szymon.png
 hidden: false
 comments: true
 published: true
