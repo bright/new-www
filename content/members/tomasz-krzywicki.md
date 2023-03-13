@@ -12,4 +12,7 @@ avatar: /images/team_member_tomek.png
 avatar_hover: /images/team_member_tomek.png
 published: true
 ---
-Experienced Backend Developer.
+Software Developer with (too) many years of experience. Worked previously in ERP space at Sun Microsystems, Oracle and Linde. In long relationship with experts systems, Python, Java and recently Typescript. Fan of DDD with “It depends” approach.
+
+
+Privately father of lovely 2 girls, playing with analog synths, riding gravel bike and occasionally running ultra.
