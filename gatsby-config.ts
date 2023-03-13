@@ -19,7 +19,7 @@ const generateRobotsContent = !isDevelop
 
 const enableHotjar = false //to enable hotjar globally set the value to true
 
-const facebookPixelId = isProduction ? '1641621022924330' : ''
+const facebookPixelId = isProduction ? '1256554391514599' : ''
 
 const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 
