@@ -15,6 +15,7 @@ faqs:
   - Where is IoT used?
   - How do IoT devices communicate?
   - Do you provide AWS IoT services?
+  - What are IoT development services?
 project:
   - vcare
   - card-reader
