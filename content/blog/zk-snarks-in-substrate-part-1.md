@@ -5,8 +5,8 @@ tags:
   - blockchain
   - rust
   - ZK-Snarks
-date: 2022-12-21T08:43:57.767Z
-meaningfullyUpdatedAt: 2022-12-21T08:43:57.805Z
+date: 2023-03-14T08:12:24.850Z
+meaningfullyUpdatedAt: 2023-03-14T08:12:27.965Z
 title: Zk-SNARKs in Substrate (Part 1)
 layout: post
 image: /images/zk-snarks_blog.png
