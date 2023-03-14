@@ -4,6 +4,7 @@ tags:
   - substrate
   - blockchain
   - rust
+  - ZK-Snarks
 date: 2022-12-21T08:43:57.767Z
 meaningfullyUpdatedAt: 2022-12-21T08:43:57.805Z
 title: Zk-SNARKs in Substrate (Part 1)
