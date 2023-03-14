@@ -259,3 +259,7 @@ Alice knows the witness and she’s able to compute $H(X)$. By expressing comput
 ## Summary
 
 At this point we are going to stop. What we already learned is what the zk-SNARKs are and how we can use tools like *Circom* and *SnarkJS* in creating them. In the next post, we will take a closer look at the *Groth16*, which is a cryptography proof system that will allow us to finish the Alice task. We will use artifacts (*witness.wtns, input.json*) created in this tutorial, to generate a proof and verify it using *SnarkJS*.
+
+\---
+
+This tutorial is supported by the [Web3 Foundation Grants Program](https://web3.foundation/grants/).
