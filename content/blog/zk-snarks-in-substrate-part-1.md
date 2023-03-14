@@ -39,9 +39,11 @@ From the high-level point of view, the concept defines:
 
 As shown on the image, the prover will create a proof, based on the public and private inputs. Verifier will receive it and run the verification knowing only the public inputs. Based on that we can conclude that proof will need somehow to wrap our problem and the private inputs. Then it will need to transform them to the other form which could be verified only with the public inputs. Now when we know the concept, we can dive deeper and look at this process in detail.
 
-First let’s think about the problems which zk-SNARKs can solve. There are two types of problems P(*deterministic polynomial*) and NP (*nondeterministic polynomial*)[^5](https://www.zeroknowledgeblog.com/index.php/the-pinocchio-protocol/computation). The first ones are the problems that can be run in polynomial time and those are not applicable for the zk-SNARKs[^4](https://xord.com/research/explaining-quadratic-arithmetic-programs/). The second ones are the problems, which can only be verified in polynomial time. In other words, finding the right solution for an NP problem is very hard, but verifying an already existing one is quite easy. This is exactly what zk-SNARKs is about. First, our problem will need to be written as a code and then transformed into the proper form, which is a Quadratic Arithmetic Program (QAP)[^1](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649). Transformation allows us to convert code into a mathematical representation of it. In the next parts of this article, we take a closer look at this process.
+First let’s think about the problems which zk-SNARKs can solve. There are two types of problems P(*deterministic polynomial*) and NP (*nondeterministic polynomial*)[^5](https://www.zeroknowledgeblog.com/index.php/the-pinocchio-protocol/computation). The first ones are the problems that can be run in polynomial time and those are not applicable for the zk-SNARKs[^4](https://xord.com/research/explaining-quadratic-arithmetic-programs/). The second ones are the problems, which can only be verified in polynomial time. In other words, finding the right solution for an NP problem is very hard, but verifying an already existing one is quite easy. This is exactly what zk-SNARKs is about. 
 
-If we want to go further, we will need to have a suitable example, which helps us in better understanding the concept of zk-SNARKs. **Let’s assume that Bob is a founder of the Bright Coders union**. In front of his mates, he announces that there are few places left in the union and \*\*those who solve this equation first:
+First, our problem will need to be written as a code and then transformed into the proper form, which is a Quadratic Arithmetic Program (QAP)[^1](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649). Transformation allows us to convert code into a mathematical representation of it. In the next parts of this article, we take a closer look at this process.
+
+If we want to go further, we will need to have a suitable example, which helps us in better understanding the concept of zk-SNARKs. **Let’s assume that Bob is a founder of the Bright Coders union**. In front of his mates, he announces that there are few places left in the union and **those who solve this equation first:**
 
 <center>
 
@@ -49,7 +51,7 @@ $$ x^2+3=12 $$
 
 </center>
 
-will be able to join it!\*\* Alice is one of his friends who knows the result, which is $x=3$. Instead of saying it loudly and risking others to claim the vacancy, she is willing to use a zk-SNARKs to prove to Bob that she knows the result without revealing it!
+**will be able to join it**! Alice is one of his friends who knows the result, which is $x=3$. Instead of saying it loudly and risking others to claim the vacancy, she is willing to use a zk-SNARKs to prove to Bob that she knows the result without revealing it!
 
 If we take a closer look at the equation and set it together with what we already knew about the zk-Snarks, we will notice two things:
 
@@ -106,7 +108,7 @@ Next step is to convert our circuits to a R1CS (*rank-1 constraint system*), whi
 
 <center>
 
-$$a*{i}\cdot s * b*{i}\cdot s - c_{i}\cdot s = 0$$
+$$a*{i}\cdot s*  b*{i}\cdot s - c_{i}\cdot s = 0$$
 
 </center>
 
@@ -162,7 +164,7 @@ If we put everything together for the first circuit, we can check the correctnes
 
 <center>
 
-$$a*{i}\cdot s * b*{i}\cdot s - c_{i}\cdot s = 3*3 -9 = 0$$
+$$a*{i}\cdot s*  b*{i}\cdot s - c_{i}\cdot s = 3*3 -9 = 0$$
 
 </center>
 
@@ -218,7 +220,9 @@ As you can see, the result is exactly the same as it were for our witness from t
 
 ## Quadratic Arithmetic Program
 
-The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials[^3](https://vitalik.ca/general/2021/01/26/snarks.html). We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $\[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
+The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials[^3](https://vitalik.ca/general/2021/01/26/snarks.html). We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $\[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. 
+
+Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
 
 <center>
 
