@@ -16,6 +16,8 @@ published: true
 ---
 **In this article I would like to introduce you with the zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge) concept. First we are going to briefly describe what are the zero-knowledge proofs, what are the stages of creating them, which tools can be useful for generating the zk-SNARKs. Also, we will touch a little math behind them. I encourage you to visit our GitHub, where you can find a [repository](https://github.com/bright/zk-snarks-with-substrate) for this article. Let’s start with the definition of the zero-knowledge proof and then we will move to the zk-SNARKs.**
 
+<div class="image"><img src="/images/zk-snarks_blog.png" alt="Zk-SNARKs in Substrate (Part 1)" title="Zk-SNARKs in Substrate (Part 1)"  /> </div>
+
 Zero-knowledge proof is a method where one party (the prover) tries to “*convince*” the other party (the verifier) that a given statement is true, without revealing the solution [^6](https://fisher.wharton.upenn.edu/wp-content/uploads/2020/09/Thesis_Terrence-Jo.pdf). There are two types of proving systems[^2](https://blog.decentriq.com/zk-snarks-primer-part-one/):
 
 * **interactive** - where the prover and verifier exchange multiple messages with each other, until the verifier is convinced enough that the prover knows the given statement is true.
