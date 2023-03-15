@@ -331,3 +331,129 @@ public class SanctionProvider implements DataStore<Sanction> {
 
 }
 ```
+
+### My Rules
+
+Here is an example rule which will match the Account object using the name by sanction. More or less it says: “get me all the sanctions of type PEP and find me the name of the account matching those on the list”. If found, decrease the score by 500. Simple and beautiful.
+
+There is also information that we will be using a unit as we declared previously.
+
+```
+package com.example.model;
+
+unit AppUnit;
+import com.example.model.Education;
+
+
+rule "Sub -500 when on Sanction list as PEP"
+when
+	$s: /sanctions[ sanctionType ==  SanctionType.PEP  ]
+	$a: /accounts[ name == $s.name ]
+then
+	$a.addScore(-500);
+end
+
+rule "Higher education will give +100 to score"
+when
+	$a: /accounts[ education == Education.HIGH ]
+then
+	$a.addScore(100);
+end
+
+
+rule "Income +1000 will add +100"
+when
+	$a: /accounts[ income > 1000 ]
+then
+	$a.addScore(100);
+end
+
+
+rule "Sub -1000 when on Sanction list as CRIME, MILITARY, DIPLOMATIC"
+when
+	$s: /sanctions[ sanctionType in  ( SanctionType.CRIME, SanctionType.MILITARY, SanctionType.DIPLOMATIC ) ]
+	$a: /accounts[ name == $s.name ]
+then
+	$a.addScore(-1000);
+end
+```
+
+You can have as many rules as you can possibly imagine. I was working with systems where it was hundreds or sometimes thousands. The RETE algorithm is constructed in a way where compiled rules are constructing a network of references ahead of execution. The actual decision process is rather quick.
+
+As the number of rules and the size of the data being processed increases, the scalability of Drools can be more like O(logn).
+
+## Wrapping up
+
+Now back to the rule server. What I tried to achieve here is to:
+
+* Receive change object. In this case, it's a list of Accounts to be evaluated.
+* Instantiate facts and insert them into the unit. Some facts are already on the server side. The Sanctions Provider is used to represent this as an entry from an external system. Accounts are instantiated using Change DTO.
+* Execute the named query and send back the results.
+
+```
+public class Ruleserver {
+
+    final static SanctionProvider sp = SanctionProvider.getInstance();
+
+    public static void main(String[] args) {
+        port(8888);
+        get("/", (req, res) -> "Stateless Drools Server");
+        post("/execute", (req, res) -> execute(req, res), new JsonTransformer());
+    }
+
+    public static Object execute(Request req, Response res) {
+        try {
+            Change change = parseBody(req.body());
+            AppUnit unit = getAppUnit();
+            unit.setSanctions(Ruleserver.sp);
+
+            RuleUnitInstance<AppUnit> instance = getInstance(unit);
+
+            for (int i = 0; i < change.facts.size(); i++) {
+                loadFacts(unit, change.facts.get(i));
+            }
+
+            Map<String, Object> queryResults = new HashMap<String, Object>();
+            if (change.queries != null) {
+                for (int i = 0; i < change.queries.size(); i++) {
+                    Query q = change.queries.get(i);
+                    queryResults.put(q.name, instance.executeQuery(q.name).toList(q.variable));
+                }
+                return queryResults;
+            } else {
+                return "OK";
+            }
+
+        } catch (Exception e) {
+            System.out.println(e);
+            System.out.println(e.getMessage());
+
+            e.printStackTrace(System.out);
+            res.status(403);
+            return e;
+        }
+
+    }
+
+    static Change parseBody(String body) {
+        return deserialize(body, Change.class);
+    }
+
+    static AppUnit getAppUnit() {
+        return new AppUnit();
+    }
+
+    static RuleUnitInstance<AppUnit> getInstance(AppUnit unit) {
+        return RuleUnitProvider.get().createRuleUnitInstance(unit);
+    }
+
+    static void loadFacts(AppUnit unit, Fact factObj) {
+
+        switch (factObj.typeName) {
+            case "Account":
+                unit.getAccounts().add(new Account(factObj.attributes));
+                break;
+        }
+    }
+}
+```
