@@ -33,7 +33,6 @@ You might be asking yourself why we need all that since we have If-Then in most 
 Imagine a simple program checking loan eligibility written in Java:
 
 ```
-java
 public class LoanEligibilityChecker {
 
     public boolean checkEligibility(Applicant applicant) {
@@ -98,4 +97,178 @@ rule "Eligibility for loan - with cosigner"
     then
         $a.setEligible(true);
 end
+```
+
+So, without further ado...
+
+## Facts modeling
+
+Drools gives you absolute freedom how your facts are injected in the system. In my past experience, I found 2 ways of modeling cases particularly popular:
+
+* Master model as a large tree structure representing a physical object. Where interaction is performed by facts modifying the state of Master. It's good for large Billing Of Material tree-like structures and user selections (smaller facts acting as actions) making quantity changes on the Master BOM tree leaves. This might be familiar for those working with large enterprises building and sending customizable complex machinery.
+* Small loose facts models are thrown into working memory much like into the bucket. Fact objects might have a moderate amount of properties. Fact objects might represent goods or parcels but also contextual objects like policies.
+
+Facts in Drools are technically POJOs and may work perfectly with DDD making it as close in naming and relation to business objects as you can get.
+
+## The Rules
+
+Rules in Drools are conditions written in a declarative language called DRL (Drools Rule Language) and they resemble the classic flow control statement you may find in most programming languages IF... THEN.
+
+For the sake of coolness it's WHEN... THEN. Where expression behind the WHEN is called Left Hand Side (LHS) and defines the conditions that must be met for the rule to be activated. These conditions are based on the objects (Facts) being in the working memory at the time of reasoning.
+
+In contrast, expressions behind the THEN are known as Right Hand Side (RHS) and defines actions to be performed when conditions in LHS are met. What kind of actions? Modification of existing facts (changing its properties). Logically adding and retracting facts from working memory. Each of these actions may cause the rule engine to reestablish the execution agenda - which means recalculating everything. All conditions must be met at all times. You may ask if it's possible to get into an infinite loop - of course. Luckily there are couple of ways of preventing this.
+
+## Modeling
+
+Modeling decision is the process of creating a representation of the business process using domain objects and constraints.
+
+* Data modeling: This involves creating an abstract representation of business objects and its relationships within a system.
+* Rule modeling: This involves creating models that represent the business rules and decision logic that govern a business system.
+
+## Sounds gloomy?
+
+Simply facts will be our Java POJOs representing the subject of our reasoning. Rules will be the conditions.
+
+## The setup
+
+Our "typical" modern expert system will consist of the following elements.
+
+* Fact Model
+* Rules
+* Optional External system
+* REST interface
+
+## Let's get started
+
+First things first. Let's create a project, grab some dependencies and have a coffee. Not really, it's gotta be quick.
+
+```
+plugins {
+    `java-library`
+    `application`
+}
+
+application {
+    mainClassName = "com.example.ruleserver.Ruleserver"
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = uri("https://repo.maven.apache.org/maven2/")
+    }
+}
+
+dependencies {
+    api("org.drools:drools-ruleunits-engine:8.32.0.Final")
+    api("org.drools:drools-model-compiler:8.32.0.Final")
+    api("org.drools:drools-wiring-dynamic:8.32.0.Final")
+    api("com.sparkjava:spark-core:2.9.4")
+    api("com.jsoniter:jsoniter:0.9.20")
+
+}
+
+group = "com.example"
+version = "1.0-SNAPSHOT"
+description = "ruleserver"
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+```
+
+You've already noticed that apart from Drools-related dependencies there are a couple of other jars coming along. These are not required and depend on your personal taste in how you would like to build a solution for the rule server. You are free to use any application server or RPC of your choice. Same with a marshaling library.
+
+I will be using Spark http server library and Jsoniter - JSON parser.
+
+```
+package com.example.ruleserver;
+
+import static spark.Spark.*;
+import spark.Request;
+import spark.Response;
+
+public class Ruleserver {
+
+    public static void main(String[] args) {
+        port(8888);
+        get("/", (req, res) -> "Stateless Drools Server");
+    }
+}
+```
+
+Not much here. But feel free to fire `gradle run` and check using HTTP Client of your choice. You will find out what we will be doing here. Yes, it's `stateless`. Its main benefit is releasing memory right after reasoning is done.
+
+Drools provides an option to work as a stateful engine. It's useful when a fact model is very complex and can not be established easily within a limited amount of interactions or the construction of base models takes a lot of time.
+
+### Fact Model
+
+```
+package com.example.model;
+import java.util.Map;
+
+public class Account {
+
+    String name;
+    double age;
+    double income;
+    Education education;
+
+    int score;
+
+    public Account(Map<String, Object> attributes) {
+        super();
+        this.age = (double) attributes.get("age");
+        this.name = (String) attributes.get("name");
+        this.education = attributes.get("education") != null
+                ? Education.valueOf((String) attributes.get("education"))
+                : Education.MIDDLE;
+        this.income = (double) attributes.getOrDefault("income", 0.0);
+        this.score = 0;
+    }
+
+// getters & setters here
+
+    public void addScore(int add) {
+        this.score += add;
+    }
+}
+```
+
+This is our main fact for this example. We will be throwing Accounts into the system and we will be getting back scoring. As I mention Facts are POJOs. Here with constructor allows easy instantiation from JSON objects an additional method to aggregate the score. You may guess that Education is an enum here. Nothing fancy here.
+
+In recent versions of Drools new way of aggregating facts and rules have been introduced: Rule Units.
+
+I really like its simplicity, abstraction of Data Stores - collections of facts of the same type. Let's use it.
+
+```
+package com.example.model;
+
+import org.drools.ruleunits.api.DataSource;
+import org.drools.ruleunits.api.DataStore;
+import org.drools.ruleunits.api.RuleUnitData;
+
+public class AppUnit implements RuleUnitData {
+
+    private final DataStore<Account> accounts;
+
+    private DataStore<Sanction> sanctions;
+
+    public AppUnit() {
+        this(DataSource.createStore());
+    }
+
+    public AppUnit(DataStore<Account> accounts) {
+        this.accounts = accounts;
+    }
+
+    public DataStore<Account> getAccounts() {
+        return accounts;
+    }
+
+    public DataStore<Sanction> getSanctions() {
+        return sanctions;
+    }
+
+    public void setSanctions(DataStore<Sanction> sanctions) {
+        this.sanctions = sanctions;
+    }
+}
 ```
