@@ -178,7 +178,7 @@ You've already noticed that apart from Drools-related dependencies there are a c
 
 I will be using Spark http server library and Jsoniter - JSON parser.
 
-```
+```java
 package com.example.ruleserver;
 
 import static spark.Spark.*;
