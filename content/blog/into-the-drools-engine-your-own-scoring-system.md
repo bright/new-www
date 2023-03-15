@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2023-03-15T10:53:38.254Z
 title: Into the Drools Engine. Your Own Scoring System
 layout: post
 image: /images/blogpost_drools.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -32,7 +32,7 @@ You might be asking yourself why we need all that since we have If-Then in most 
 
 Imagine a simple program checking loan eligibility written in Java:
 
-```
+```java
 public class LoanEligibilityChecker {
 
     public boolean checkEligibility(Applicant applicant) {
@@ -68,7 +68,7 @@ There is not much going on in the code but it already becomes not so readable. N
 
 In contrast `Dools` rules are never dependent on each other. They are truly atomic and declarative. They will be automagically reevaluated and they are isolated from infrastructure enough to be self-explanatory to the business. As a matter of fact, many production systems delegate fact modeling and writing the rules to non-programmers letting the knowledge base releases be asynchronous to infrastructure code.
 
-```
+```java
 rule "Eligibility for loan"
     when
         $a : Applicant(income > 50000, creditScore > 600)
@@ -142,7 +142,7 @@ Our "typical" modern expert system will consist of the following elements.
 
 First things first. Let's create a project, grab some dependencies and have a coffee. Not really, it's gotta be quick.
 
-```
+```java
 plugins {
     `java-library`
     `application`
@@ -200,7 +200,7 @@ Drools provides an option to work as a stateful engine. It's useful when a fact 
 
 ### Fact Model
 
-```
+```java
 package com.example.model;
 import java.util.Map;
 
@@ -238,7 +238,7 @@ In recent versions of Drools new way of aggregating facts and rules have been in
 
 I really like its simplicity, abstraction of Data Stores - collections of facts of the same type. Let's use it.
 
-```
+```java
 package com.example.model;
 
 import org.drools.ruleunits.api.DataSource;
@@ -275,7 +275,7 @@ public class AppUnit implements RuleUnitData {
 
 In this construct, I am instantiating an empty datastore of accounts while leaving an empty socket for sanctions. This is my metaphor for external service being used here. In my previous projects, I often injected facts with a reference to an external system (db). In this case, I envision writing a plugin for my system by implementing the DataStore interface.
 
-```
+```java
 package com.example.model;
 
 import org.drools.ruleunits.api.DataHandle;
@@ -338,7 +338,7 @@ Here is an example rule which will match the Account object using the name by sa
 
 There is also information that we will be using a unit as we declared previously.
 
-```
+```java
 package com.example.model;
 
 unit AppUnit;
@@ -390,7 +390,7 @@ Now back to the rule server. What I tried to achieve here is to:
 * Instantiate facts and insert them into the unit. Some facts are already on the server side. The Sanctions Provider is used to represent this as an entry from an external system. Accounts are instantiated using Change DTO.
 * Execute the named query and send back the results.
 
-```
+```java
 public class Ruleserver {
 
     final static SanctionProvider sp = SanctionProvider.getInstance();
@@ -462,13 +462,13 @@ public class Ruleserver {
 
 To run it you can normally kick it from gradle:
 
-```
+```java
 gradle run
 ```
 
 Once started use your favorite HTTP client to do some tests `POST localhost:8888/execute` with body:
 
-```
+```java
 json
 {
 	"version": 1,
@@ -501,7 +501,7 @@ json
 
 If you wanna deploy it quickly as a service, here is simple `Dockerfile`.
 
-```
+```java
 FROM gradle:7.2.0-jdk17
 WORKDIR "/app"
 COPY . .
@@ -511,12 +511,12 @@ EXPOSE 8888
 
 To run it:
 
-```
+```java
 docker build -t ruleserver .
 docker run -p 8888:8888 ruleserver
 ```
 
-##  Final word
+## Final word
 
 When I get 1000+ “likes” I will write second part :D with more complex modeling exercises and hints about debugging. Wait, since we don’t have “likes” here I will kindly accept a few comments instead. 😝
 
@@ -529,7 +529,6 @@ As you might already notice this blog is fairly lightweight and might be just sc
 [https://en.wikipedia.org/wiki/Bill_of_materials/](https://en.wikipedia.org/wiki/Bill_of_materials)
 
 [https://en.wikipedia.org/wiki/Rete_algorithm/](https://en.wikipedia.org/wiki/Rete_algorithm)
-
 
 You can find source code of the example here:
 
