@@ -469,7 +469,6 @@ gradle run
 Once started use your favorite HTTP client to do some tests `POST localhost:8888/execute` with body:
 
 ```java
-json
 {
 	"version": 1,
 	{
