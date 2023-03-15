@@ -64,3 +64,38 @@ public class LoanEligibilityChecker {
 
 }
 ```
+
+There is not much going on in the code but it already becomes not so readable. Now imagine how this class will look if we decide to add, say, 50 more conditions. Also, some of them will change the preconditions and will require recursively firing all rules over and over.
+
+In contrast `Dools` rules are never dependent on each other. They are truly atomic and declarative. They will be automagically reevaluated and they are isolated from infrastructure enough to be self-explanatory to the business. As a matter of fact, many production systems delegate fact modeling and writing the rules to non-programmers letting the knowledge base releases be asynchronous to infrastructure code.
+
+```
+rule "Eligibility for loan"
+    when
+        $a : Applicant(income > 50000, creditScore > 600)
+    then
+        $a.setEligible(true);
+end
+
+rule "Eligibility for loan - high income"
+    when
+        $a : Applicant(income > 75000, creditScore > 550)
+    then
+        $a.setEligible(true);
+end
+
+rule "Eligibility for loan - very high income"
+    when
+        $a : Applicant(income > 100000, creditScore > 500)
+    then
+        $a.setEligible(true);
+end
+
+rule "Eligibility for loan - with cosigner"
+    when
+        $a : Applicant(cosigner != null, $c : cosigner, income > 0, creditScore > 0)
+        $c : Cosigner(income > 75000, creditScore > 650)
+    then
+        $a.setEligible(true);
+end
+```
