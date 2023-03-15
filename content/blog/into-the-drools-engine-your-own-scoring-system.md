@@ -25,3 +25,5 @@ ES were ruling the world of decision-making software and many of us have thought
 In contrast, ML is a more general approach to AI that uses algorithms to learn from data and make predictions. While expert systems and ML have their own strengths and weaknesses, they can be used together to create powerful AI systems. They can make complex decisions with a high degree of accuracy. **Drools, with its ability to handle large sets of rules and manage complex decision-making processes, is a valuable tool for developers looking to build expert systems that integrate with ML** or decision-making engine on its own.
 
 In this blog post, **I will set up a standalone Drools-based microservice and present a very basic scoring system for the transaction**. Why not own a little KYC service. 🙂
+
+## Why all that fuss
