@@ -3,8 +3,8 @@ author: tomasz-k
 tags:
   - backend
   - drools
-date: 2023-03-15T10:19:09.155Z
-meaningfullyUpdatedAt: 2023-03-15T10:19:09.193Z
+date: 2023-03-15T10:53:37.685Z
+meaningfullyUpdatedAt: 2023-03-15T10:53:38.254Z
 title: Into the Drools Engine. Your Own Scoring System
 layout: post
 image: /images/blogpost_drools.png
