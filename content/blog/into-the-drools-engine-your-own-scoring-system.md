@@ -457,3 +457,44 @@ public class Ruleserver {
     }
 }
 ```
+
+## Running it
+
+To run it you can normally kick it from gradle:
+
+```
+gradle run
+```
+
+Once started use your favorite HTTP client to do some tests `POST localhost:8888/execute` with body:
+
+```
+json
+{
+	"version": 1,
+	{
+		"typeName": "Account",
+		"attributes": {
+			"name": "John Snow",
+			"age": 44,
+			"income":1001,
+			"education":"HIGH"
+		}
+	},
+	{
+		"typeName": "Account",
+		"attributes": {
+			"name": "Mysterio",
+			"age": 79,
+			"income":1001,
+			"education":"HIGH"
+		}
+	}
+
+	],
+	"queries":[
+	  { "name": "FindAccount", "variable":"$m"}
+	 ]
+
+}
+```
