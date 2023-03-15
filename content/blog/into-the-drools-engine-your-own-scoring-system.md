@@ -498,3 +498,20 @@ json
 
 }
 ```
+
+If you wanna deploy it quickly as a service, here is simple `Dockerfile`.
+
+```
+FROM gradle:7.2.0-jdk17
+WORKDIR "/app"
+COPY . .
+CMD ["gradle", "run"]
+EXPOSE 8888
+```
+
+To run it:
+
+```
+docker build -t ruleserver .
+docker run -p 8888:8888 ruleserver
+```
