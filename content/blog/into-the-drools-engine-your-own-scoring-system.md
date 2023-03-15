@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2023-03-15T10:19:09.193Z
 title: Into the Drools Engine. Your Own Scoring System
 layout: post
 image: /images/blogpost_drools.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
@@ -515,3 +515,22 @@ To run it:
 docker build -t ruleserver .
 docker run -p 8888:8888 ruleserver
 ```
+
+##  Final word
+
+When I get 1000+ “likes” I will write second part :D with more complex modeling exercises and hints about debugging. Wait, since we don’t have “likes” here I will kindly accept a few comments instead. 😝
+
+## References
+
+As you might already notice this blog is fairly lightweight and might be just scratching the surface gently. There are tons of articles around rule engines, expert systems and bom models. Best is to start searching in usual places.
+
+[https://docs.drools.org/8.35.0.Final/](https://docs.drools.org/8.35.0.Final/drools-docs/docs-website/drools/introduction/index.html)
+
+[https://en.wikipedia.org/wiki/Bill_of_materials/](https://en.wikipedia.org/wiki/Bill_of_materials)
+
+[https://en.wikipedia.org/wiki/Rete_algorithm/](https://en.wikipedia.org/wiki/Rete_algorithm)
+
+
+You can find source code of the example here:
+
+[https://github.com/bright/drools-ruleserver-example/](https://github.com/bright/drools-ruleserver-example)
