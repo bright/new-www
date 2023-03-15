@@ -27,3 +27,40 @@ In contrast, ML is a more general approach to AI that uses algorithms to learn f
 In this blog post, **I will set up a standalone Drools-based microservice and present a very basic scoring system for the transaction**. Why not own a little KYC service. 🙂
 
 ## Why all that fuss
+
+You might be asking yourself why we need all that since we have If-Then in most programming languages and there is nothing to be proud of.
+
+Imagine a simple program checking loan eligibility written in Java:
+
+```
+java
+public class LoanEligibilityChecker {
+
+    public boolean checkEligibility(Applicant applicant) {
+        boolean isEligible = false;
+
+        if (applicant.getIncome() > 50000 && applicant.getCreditScore() > 600) {
+            isEligible = true;
+        }
+
+        if (applicant.getIncome() > 75000 && applicant.getCreditScore() > 550) {
+            isEligible = true;
+        }
+
+        if (applicant.getIncome() > 100000 && applicant.getCreditScore() > 500) {
+            isEligible = true;
+        }
+
+        // check if the applicant has a cosigner
+        if (applicant.getCosigner() != null) {
+            Cosigner cosigner = applicant.getCosigner();
+            if (cosigner.getIncome() > 75000 && cosigner.getCreditScore() > 650) {
+                isEligible = true;
+            }
+        }
+
+        return isEligible;
+    }
+
+}
+```
