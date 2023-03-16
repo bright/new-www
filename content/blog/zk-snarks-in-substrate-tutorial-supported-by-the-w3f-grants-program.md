@@ -34,7 +34,7 @@ As our implementation will be delivered along with **a series of blog posts and 
 
 More will be realeased soon! 
 
-The scope of the proposal will be delivered in 2 milestones, with the first one already available in our [repository](https://github.com/bright/zk-snarks-with-substrate/):
+The scope of the proposal was delivered in 2 milestones, the first one is available in our [repository](https://github.com/bright/zk-snarks-with-substrate/):
 
 ## Milestone 1
 
