@@ -47,10 +47,16 @@ const EbookTextFieldWrapper = styled.form`
     color: ${variables.color.text};
     & input {
       border: 1px solid ${variables.color.lighterGrey};
+      background: ${variables.color.white};
       &::placeholder {
         color: ${variables.color.darkerGrey};
+
       }
+      &:focus-visible {
+    outline: 1px solid ${variables.color.lighterGrey};
+    background: ${variables.color.white};
     }
+  }
   }
 `
 
