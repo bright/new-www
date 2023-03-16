@@ -1,7 +1,6 @@
 ---
 author: kasia
 tags:
-  - blockchain
   - Substrate
   - rust
   - W3F
@@ -9,7 +8,7 @@ tags:
   - tutorial
   - ZK-Snarks
 date: 2023-01-24T12:44:09.602Z
-meaningfullyUpdatedAt: 2023-01-24T12:44:09.639Z
+meaningfullyUpdatedAt: 2023-03-16T15:22:57.104Z
 title: ZK-Snarks in Substrate Tutorial Supported by the W3F Grants Program
 layout: post
 image: /images/blogpost_substrategrant.png
@@ -24,6 +23,16 @@ published: true
 By preparing a tutorial with basic implementation of the ZK-Snarks for Substrate ecosystem, **we hope to popularize this concept and make it more accessible to Substrate developers**. There have been similar initiatives available in other blockchain technologies, however currently there is no easily accessible up-to-date demonstrational implementation of ZK-Snarks in Substrate. 
 
 As our implementation will be delivered along with **a series of blog posts and a Youtube tutorial video**, we aim to reach a wider audience and provide an accessible introduction to ZK-Snarks.
+
+**Watch the released video:**
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=groGv-JVvgg&t=12s' />
+
+**Read the first blog post:** 
+
+[Zk-SNARKs in Substrate (Part 1)](/blog/zk-snarks-in-substrate-part-1)
+
+More will be realeased soon! 
 
 The scope of the proposal will be delivered in 2 milestones, with the first one already available in our [repository](https://github.com/bright/zk-snarks-with-substrate/):
 
@@ -55,4 +64,4 @@ Implementing the on-chain proof verification mechanism followed by a series of e
 5. Blog post: Tutorial Pallet (Part 2) - creating a pallet with the unit tests & running an example from the previous tutorial with polkadot.js. 
 6. Youtube video tutorial explaining the concepts described in the blog posts. 
 
-Soon we will share the first blogpost from our tutorial series, so stay tuned!
+Soon we will share more blog posts from our tutorial series, so stay tuned!
