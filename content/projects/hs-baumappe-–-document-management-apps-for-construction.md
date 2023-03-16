@@ -61,3 +61,29 @@ Developing offline mode is always an interesting technological challenge. Howeve
 <sub>*Mockup example designed by Heinrich Schmid's Product Design Team.*</sub>
 
 ## HS Baumappe development process
+
+**Heinrich Schmid reached out to us in 2021 with a strong vision of the mobile apps** based on the web solution they had already been using in their organization. The client knew exactly what features they needed to continue a digital transformation of the construction site doc workflow. Heinrich Schmid provided us with designs reviewed by their internal testing group representing end users.
+
+Bright Inventions team consists of **4 experienced mobile developers and a project manager**. We take full advantage of Scrum working in **2-week sprints**.
+
+The first step was to **release the MVP** and present it to the client’s employees to gather feedback.
+
+The client trusted us to choose the best solutions for native application development. Therefore we use top tools such as **SwiftUI** or **Jetpack Compose**. It’s worth mentioning that the Android application’s UI is built from the scratch with Jetpack Compose and Jetpack Compose Navigation.
+
+We also made an important decision regarding the app architecture. We decided to build **HS Baumappe as a multi-module application**. Instead of building an app as a huge monolith, we **separated the code into single responsibility modules**. As a result, it improved developers’ productivity because of the **shorter build time, clarity and interoperability**. Developing multi-module apps is not something visible to users but takes a huge part in fastening the development process and, in the end, helps to **save costs**.
+
+Bright Inventions’ team takes care **exclusively of mobile development**. The backend is developed by another software company. It requires close cooperation between various development teams to sync apps with the backend properly.
+
+**HS Baumappe was released in December 2022 as an MVP**. Now the focus group is testing the solution and is gathering extended feedback regarding the UX and features.
+
+## Client’s Perspective
+
+*The collaboration with Bright Inventions started off very promising. Based on our business needs, they gave great architectural advice, important technical information, and overall good guidance, which allowed an ambitious start into the project.*
+
+*After months of smooth development and satisfying output, we were challenged with some very critical technical barriers, which collided with our business vision of the app. Due to great proactive efforts on Bright Inventions side, the Heinrich Schmid IT team, and the good communication towards our third-party backend developer team, we overcame this hurdle and managed to get the app behavior as envisioned and desired.* 
+
+<div class="image"><img src="/images/case_study_client_quote.png" alt="A quote from the client" title="Client's perspective"  /> </div>
+
+*With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the MVP release is a great success so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
+
+**Leon Seiz, Product Owner at Heinrich Schmid**
