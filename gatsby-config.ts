@@ -25,9 +25,6 @@ const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 
 const enableWebpackBundleAnalyser = process.env.WEBPACK_BUNDLE_ANALYSER_ENABLE == 'true'
 
-const facebookPixelId = isProduction ? '1641621022924330' : ''
-
-const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
