@@ -59,3 +59,5 @@ Developing offline mode is always an interesting technological challenge. Howeve
 <div class="image"><img src="/images/hs_baumappe_case_study_mockup.png" alt="App for construction company mockup" title="Mockup examples designed by Heinrich Schmid's Product Design Team."  /> </div>
 
 <sub>*Mockup example designed by Heinrich Schmid's Product Design Team.*</sub>
+
+## HS Baumappe development process
