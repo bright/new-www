@@ -12,7 +12,7 @@ tags:
   - mobile app
   - customized software
   - MVP
-order: 5
+order: 2
 slug: document-management-apps-construction
 show on homepage: true
 published: true
