@@ -1,6 +1,4 @@
-import { EditorComponentOptions } from 'netlify-cms-core'
-
-export const EbookCmsEditorComponent: EditorComponentOptions = {
+export const EbookCmsEditorComponent = {
   id: 'EbookDynamic',
   fields: [
     {
