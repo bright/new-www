@@ -29,7 +29,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? `/blog` : `/blog/${i + 1}`,
-      component: path.resolve('./src/templates/BlogListTemplate.tsx'),
+      component: path.resolve('./src/blog/BlogPage.tsx'),
       context: {
         limit: postsPerPage,
         skip: i * postsPerPage,
@@ -52,7 +52,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       Array.from({ length: numPages }).forEach((item, i) => {
         createPage({
           path: `${blogListForTagGroupsBasePath(group)}/${i + 1}`,
-          component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
+          component: path.resolve('./src/blog/BlogTagsPage.tsx'),
           context: {
             groupTags: group.tags,
             tag: group.name,
@@ -75,7 +75,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             Array.from({ length: numPages }).forEach((item, i) => {
               createPage({
                 path: `${blogListForTagGroupsBasePath(group, subTag)}/${i + 1}`,
-                component: path.resolve('./src/templates/BlogListTemplateTags.tsx'),
+                component: path.resolve('./src/blog/BlogTagsPage.tsx'),
                 context: {
                   groupTags: subTag.tags,
                   tag: group.name,
@@ -219,7 +219,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       if (posts.length === 0) {
         createPage({
           path: `/about-us/${kebabCase(member.slug)}`,
-          component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${
+          component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${
             member.internal.contentFilePath
           }`,
           context: {
@@ -230,7 +230,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
             path: i == 0 ? `/about-us/${kebabCase(member.slug)}` : `/about-us/${kebabCase(member.slug)}/${i + 1}`,
-            component: `${path.resolve('./src/templates/AboutUsTemplate.tsx')}?__contentFilePath=${
+            component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${
               member.internal.contentFilePath
             }`,
             context: {
@@ -275,7 +275,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   services.forEach(service => {
     createPage({
       path: 'our-areas/' + service.node.frontmatter.slug,
-      component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${
+      component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${
         service.node.internal.contentFilePath
       }`,
       context: {
@@ -288,7 +288,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     faqs.forEach((faq: { frontmatter: { question: string; slug: string } }) => {
       createPage({
         path: 'our-areas/' + service.node.frontmatter.slug + '/' + faq.frontmatter.slug,
-        component: `${path.resolve('./src/templates/OurServiceTemplate.tsx')}?__contentFilePath=${
+        component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${
           service.node.internal.contentFilePath
         }`,
         context: {
@@ -373,7 +373,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }
     createPage({
       path: blogPostUrlPath(postNode),
-      component: `${path.resolve('./src/blog/post-template.tsx')}?__contentFilePath=${nodeFileAbsolutePath}`,
+      component: `${__dirname}/src/blog/Post.tsx?__contentFilePath=${nodeFileAbsolutePath}`,
       context: {
         id: postNode.id,
         slug: postNode.fields.slug,
@@ -442,10 +442,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     })
   }
 
-  const projectTemplate = `${__dirname}/src/templates/ProjectTemplate.tsx`
+  const projectTemplate = `${__dirname}/src/projects/Project.tsx`
   await preparePage('project', 'projects', projectTemplate)
 
-  const jobTemplate = `${__dirname}/src/templates/JobTemplate.tsx`
+  const jobTemplate = `${__dirname}/src/career/Job.tsx`
   await preparePage('job', 'jobs', jobTemplate)
 
   createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })

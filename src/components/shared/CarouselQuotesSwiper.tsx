@@ -204,6 +204,14 @@ export const CarouselQuotesSwiper: React.FC = () => {
         'When I applied for a job for the first time, I wasn’t hired then. However, they provided me with such great feedback that I was even more eager to work here. Eventually, I joined the team.',
     },
     {
+      avatar_hover: <StaticImage src='../../../static/images/brightdev_passion_jedrzej2022.png' alt='Jędrzej' className='quote-img' />,
+      short_name: 'Jędrzej',
+      bio: 'Senior Frontend Developer',
+      slug: 'jedrzej-s',
+      quote:
+        'Why did I choose Bright Inventions? Actually, because of the very intriguing tech interview I had. It was a long, 2-hour interview. However, after finishing it I felt that these were the people I wanted to work with.',
+    },
+    {
       avatar_hover: <StaticImage src='../../../static/images/filip2_passion.png' alt='Filip' className='quote-img' />,
       short_name: 'Filip',
       bio: 'Senior iOS Developer',

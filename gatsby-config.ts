@@ -23,6 +23,8 @@ const facebookPixelId = isProduction ? '1641621022924330' : ''
 
 const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 
+const enableWebpackBundleAnalyser = process.env.WEBPACK_BUNDLE_ANALYSER_ENABLE == 'true'
+
 const gatsbyConfig: GatsbyConfig = {
   siteMetadata,
   partytownProxiedURLs: [googleTrackingIdsForEnv[0] ? googleTagManagerUrl(googleTrackingIdsForEnv[0]) : null].filter(
@@ -315,6 +317,7 @@ const gatsbyConfig: GatsbyConfig = {
     'simple-mdx',
     'content-collections',
     'scss-typescript',
+    enableWebpackBundleAnalyser ? 'gatsby-plugin-webpack-bundle-analyser-v2' : null,
   ].filter(isDefined),
   mapping: {
     'Mdx.frontmatter.faqs': `Mdx.frontmatter.faqs_id`,
