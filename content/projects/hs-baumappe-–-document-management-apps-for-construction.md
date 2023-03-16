@@ -20,3 +20,20 @@ published: true
 <div class="image"><img src="/images/app_baumappe_mockups.png" alt="Mockup examples designed by Heinrich Schmid's Product Design Team." title="Mockup examples designed by Heinrich Schmid's Product Design Team."  /> </div>
 
 <sub>*Mockup examples designed by Heinrich Schmid's Product Design Team.*</sub>
+
+## **Numbers:**
+
+* 2 mobile apps
+* 5 team members
+* 1 MVP
+* 30 sprints
+
+## Skills
+
+**iOS development**: SwiftUI + UIKit, Swiftgen, Apollo GraphQL, CoreData, SwiftLint, SwiftFormat, Sourcery, Bitrise.
+
+**Android development**: Jetpack Compose, Kotlin Flows, Apollo GraphQL, WorkManager, Room, Hilt.
+
+**Project management & documentation**: Jira, Figma, Github, Notion, Miro, GitHub Actions. 
+
+## About HS Baumappe
