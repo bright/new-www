@@ -14,7 +14,7 @@ tags:
   - MVP
 order: 5
 slug: document-management-apps-construction
-show on homepage: false
+show on homepage: true
 published: true
 ---
 <div class="image"><img src="/images/app_baumappe_mockups.png" alt="Mockup examples designed by Heinrich Schmid's Product Design Team." title="Mockup examples designed by Heinrich Schmid's Product Design Team."  /> </div>
@@ -87,3 +87,7 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 *With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the MVP release is a great success so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
 
 **Leon Seiz, Product Owner at Heinrich Schmid**
+
+## What’s next for Heinrich Schmid and Bright Inventions?
+
+Our team is **working on other features such as time tracking and performance recording**. We plan to release another app version dedicated to a bigger group of end users. **The ultimate goal is to deliver mobile apps that all Heinrich Schmid construction crews will use**.
