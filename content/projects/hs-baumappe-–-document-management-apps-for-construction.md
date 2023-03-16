@@ -21,7 +21,7 @@ published: true
 
 <sub>*Mockup example designed by Heinrich Schmid's Product Design Team.*</sub>
 
-## **Numbers:**
+## Numbers:
 
 * 2 mobile apps
 * 5 team members
