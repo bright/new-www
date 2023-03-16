@@ -9,4 +9,4 @@ const apiConfig = isProduction
       basePath: new URL('/api', siteUrl).toString(),
     })
 
-const apiClient = new DefaultApi(apiConfig)
+export const apiClient = new DefaultApi(apiConfig)
