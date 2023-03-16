@@ -115,7 +115,7 @@ $$a*{i}\cdot s*  b*{i}\cdot s - c_{i}\cdot s = 0$$
 where:
 
 * “ $\cdot$ ” is a dot product
-* $i$ in $\[1,N]$ and $N$ is a number of circuits
+* $i$ in $[1,N]$ and $N$ is a number of circuits
 
 We can interpret this in this way, if our vectors could represent the constraints (equation which describes circuits), then vector $s$ will be our witness, that satisfies the equation above. 
 
@@ -123,19 +123,19 @@ We will start with the definition of $s$, which is a vector of all values associ
 
 <center>
 
-$$ s=\[1,12,3,9] $$
+$$ s=[1,12,3,9] $$
 
 </center>
 
-Now when we defined the witness we can conclude the vectors for the $a,b,c$, which will actually map to our circuits. Please have in mind that our vector $s$ maps to $\[1,y,x,tmp1]$, based on that vectors $a,b,c$ for the:
+Now when we defined the witness we can conclude the vectors for the $a,b,c$, which will actually map to our circuits. Please have in mind that our vector $s$ maps to $[1,y,x,tmp1]$, based on that vectors $a,b,c$ for the:
 
 first circuit $(tmp1=x*x)$:
 
 <center>
 
-$$a*{1}=\[0,0,1,0]$$
-$$b*{1}=\[0,0,1,0]$$
-$$c_{1}=\[0,0,0,1]$$
+$$a*{1}=[0,0,1,0]$$
+$$b*{1}=[0,0,1,0]$$
+$$c_{1}=[0,0,0,1]$$
 
 </center>
 
@@ -143,9 +143,9 @@ second circuit $(y=tmp1+3)$:
 
 <center>
 
-$$a*{2}=\[0,0,0,0]$$
-$$b*{2}=\[0,0,0,0]$$
-$$c_{2}=\[3,1,0,1]$$
+$$a*{2}=[0,0,0,0]$$
+$$b*{2}=[0,0,0,0]$$
+$$c_{2}=[3,1,0,1]$$
 
 </center>
 
@@ -220,7 +220,7 @@ As you can see, the result is exactly the same as it were for our witness from t
 
 ## Quadratic Arithmetic Program
 
-The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials[^3](https://vitalik.ca/general/2021/01/26/snarks.html). We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $\[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. 
+The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials[^3](https://vitalik.ca/general/2021/01/26/snarks.html). We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. 
 
 Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
 
@@ -260,6 +260,6 @@ Alice knows the witness and she’s able to compute $H(X)$. By expressing comput
 
 At this point we are going to stop. What we already learned is what the zk-SNARKs are and how we can use tools like *Circom* and *SnarkJS* in creating them. In the next post, we will take a closer look at the *Groth16*, which is a cryptography proof system that will allow us to finish the Alice task. We will use artifacts (*witness.wtns, input.json*) created in this tutorial, to generate a proof and verify it using *SnarkJS*.
 
-\---
+---
 
 This tutorial is supported by the [Web3 Foundation Grants Program](https://web3.foundation/grants/).
