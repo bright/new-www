@@ -20,13 +20,13 @@ import { withPreviewFrameProvider } from './with-preview-frame-provider'
 import { GiphyEmbedCmsEditorComponent } from '../giphy-embed.cms'
 import { InstagramEmbedCmsEditorComponent } from '../instagram-embed.cms'
 import { TwitterEmbedCmsEditorComponent } from '../twitter-embed.cms'
+import { EbookCmsEditorComponent } from '../ebook.cms'
 
 applyFixForJumpingCursorIssue()
 
 CMS.registerWidget('tags', TagsControl, TagsPreview)
 
 CMS.registerWidget('mdx', MarkdownWidget.controlComponent, MdxPreview)
-
 
 CMS.registerPreviewTemplate('blog', withPreviewFrameProvider(withStyledInjectedIntoPreviewFrame(BlogPostPreview)))
 CMS.registerEditorComponent({ ...buttonBlockConfig })
@@ -36,5 +36,4 @@ CMS.registerEditorComponent({ ...quoteConfig })
 CMS.registerEditorComponent(GiphyEmbedCmsEditorComponent)
 CMS.registerEditorComponent(InstagramEmbedCmsEditorComponent)
 CMS.registerEditorComponent(TwitterEmbedCmsEditorComponent)
-
-
+CMS.registerEditorComponent(EbookCmsEditorComponent)
