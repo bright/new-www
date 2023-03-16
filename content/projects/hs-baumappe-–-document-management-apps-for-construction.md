@@ -52,9 +52,9 @@ The ultimate goal of the solution is to **manage the whole construction document
 
 ## The challenge of building the document management app for construction
 
-Construction sites are places where the internet connection is weak or simply doesn’t exist. Therefore from the beginning, the priority was to build the offline-first application. It needed plenty of preparations during the requirement phase to determine when and how the apps should operate depending on the quality of the internet connection.
+Construction sites are places where **the internet connection is weak or simply doesn’t exist**. Therefore from the beginning, the priority was to build the **offline-first application**. It needed plenty of preparations during the requirement phase to determine when and how the apps should operate depending on the quality of the internet connection.
 
-Developing offline mode is always an interesting technological challenge. However, this is a feature that we successfully delivered for our other clients (check [vCare](/projects/vCare) case study). Thanks to an offline mode users can create any document without an internet connection and the app will store the data on the user’s device. All files will be synchronized when the internet connection is back.
+Developing **offline mode** is always an interesting technological challenge. However, this is a feature that we successfully delivered for our other clients (check [vCare](/projects/vCare) case study). Thanks to an offline mode users can create any document without an internet connection and the app will store the data on the user’s device. All files will be synchronized when the internet connection is back.
 
 <div class="image"><img src="/images/hs_baumappe_case_study_mockup.png" alt="App for construction company mockup" title="Mockup examples designed by Heinrich Schmid's Product Design Team."  /> </div>
 
@@ -78,13 +78,13 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 
 ## Client’s Perspective
 
-*The collaboration with Bright Inventions started off very promising. Based on our business needs, they gave great architectural advice, important technical information, and overall good guidance, which allowed an ambitious start into the project.*
+*The collaboration with Bright Inventions started off very promising. Based on our business needs, **they gave great architectural advice, important technical information, and overall good guidance**, which allowed an ambitious start into the project.*
 
 *After months of smooth development and satisfying output, we were challenged with some very critical technical barriers, which collided with our business vision of the app. Due to great proactive efforts on Bright Inventions side, the Heinrich Schmid IT team, and the good communication towards our third-party backend developer team, we overcame this hurdle and managed to get the app behavior as envisioned and desired.* 
 
 <div class="image"><img src="/images/case_study_client_quote.png" alt="A quote from the client" title="Client's perspective"  /> </div>
 
-*With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the MVP release is a great success so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
+*With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the **MVP release is a great success** so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
 
 **Leon Seiz, Product Owner at Heinrich Schmid**
 
