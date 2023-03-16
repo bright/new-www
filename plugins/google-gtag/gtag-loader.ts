@@ -1,5 +1,3 @@
-import { delay } from '../../src/delay'
-
 function isScriptElement(n: any): n is HTMLScriptElement {
   return n instanceof HTMLScriptElement
 }
