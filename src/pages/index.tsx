@@ -13,6 +13,7 @@ const PopularBlogPosts = loadable(() => import('../components/home/PopularBlogPo
 import '../styles/_page-index.scss'
 // import { BlockchainExperts } from '../components/home/BlockchainExperts'
 import { Script } from 'gatsby'
+import Ebook from '../components/home/Ebook'
 const BlockchainExperts = React.lazy(() => import('../components/home/BlockchainExperts'))
 const HeroHeaderImages = React.lazy(() => import('../components/home/HeroHeaderImages'))
 
@@ -21,7 +22,7 @@ export default () => {
 
   return (
     <Page className='page-index'>
-      <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} async={true}/>
+      <Script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} async={true} />
       <Header />
       <Achievements />
       {!isSSR && (
@@ -31,11 +32,13 @@ export default () => {
       )}
       <TechnologyTags />
       <OurServices />
+      <Ebook />
       {!isSSR && (
         <React.Suspense fallback={<div />}>
           <BlockchainExperts />
         </React.Suspense>
       )}
+
       <Projects isSelectedTag={false} />
       <Ratings />
       <PopularBlogPosts />
