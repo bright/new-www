@@ -15,7 +15,7 @@ tags:
   - blockchain
   - fintech
   - customized software
-order: 3
+order: 6
 slug: bright-treasury
 show on homepage: true
 published: true
