@@ -11,7 +11,7 @@ tags:
   - mobile app
   - customized software
   - retail & restaurant
-order: 2
+order: 99
 slug: everytap
 show on homepage: false
 published: true
