@@ -1,7 +1,6 @@
 ---
 author: kasia
 tags:
-  - blockchain
   - Substrate
   - rust
   - W3F
