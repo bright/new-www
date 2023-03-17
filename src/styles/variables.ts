@@ -75,6 +75,7 @@ export default {
     heading: '#0A0A0A;',
     borderInput: '#888888',
     darkerGrey: '#D3D3D3',
+    lighterGrey: '#F5F5F5'
   },
   font: font,
 }
