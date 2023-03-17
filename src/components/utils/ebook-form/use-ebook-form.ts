@@ -115,6 +115,8 @@ export function useEbookForm(ebookName: string) {
             if (!currentEbookIndex) {
               setSendedEbooks([...sendedEbooks, res.ebook])
             }
+          } else {
+            setSendedEbooks([res.ebook])
           }
         })
         .catch(err => {
