@@ -1,4 +1,5 @@
 export const siteUrl = new URL(process.env.SITE_URL || 'https://brightinventions.pl/')
+export const stagingSiteUrl = new URL('https://staging.brightinventions.pl/')
 
 export type SiteMetadata = typeof siteMetadata
 
