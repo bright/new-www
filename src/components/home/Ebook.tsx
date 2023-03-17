@@ -62,7 +62,7 @@ const Ebook = () => {
             />
           </FlexWrapper>
         ) : (
-          <HomeEbookThankYouPage />
+            <HomeEbookThankYouPage url={value.ebookResponse.ebook.url} />
         )}
       </FlexWrapper>
     </CustomSection>
