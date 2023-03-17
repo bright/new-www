@@ -42,7 +42,7 @@ margin: ${variables.pxToRem(48)} auto 0;
 	}
 `
 
-export const HomeEbookThankYouPage = () => {
+export const HomeEbookThankYouPage = ({ url }: { url: string }) => {
 	return (
 		<SectionEbook>
 			<SectionTitle>enjoy reading</SectionTitle>
@@ -51,7 +51,7 @@ export const HomeEbookThankYouPage = () => {
 				download it.
 			</SectionDescription>
       <LinkWrapper>
-      <a href="https://brightinventions.pl/" target="_blank">
+				<a href={url} target="_blank">
 				click to open the ebook
 				<span>
 					<EbookArrow />
