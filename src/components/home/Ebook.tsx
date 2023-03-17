@@ -21,7 +21,8 @@ const Ebook = () => {
         bright ebook
       </CustomSectionTitle>
       <FlexWrapper desktopGap='64px' desktopItems='center' tabletXLGap='32px' tabletDirection='column' tabletGap='64px'>
-        {width > breakpoint && (
+        <div>
+          {width > breakpoint && (
           <StaticImage
             alt={'Bright Inventions '}
             src='../../../static/images/ebook_cover.png'
@@ -29,7 +30,9 @@ const Ebook = () => {
             placeholder='none'
           />
         )}
-        {width <= breakpoint && (
+        </div>
+        <div>
+          {width <= breakpoint && (
           <StaticImage
             alt={'Bright Inventions '}
             src='../../../static/images/ebook_cover_tablet.png'
@@ -37,6 +40,8 @@ const Ebook = () => {
             placeholder='none'
           />
         )}
+        </div>
+
         {!value.ebookResponse.ebook.url ? (
           <FlexWrapper desktopDirection='column' desktopBasis='63%' laptopBasis='57%' tabletXLBasis='46%'>
             <CustomTextTitle
