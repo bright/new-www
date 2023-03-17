@@ -107,7 +107,7 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
       </FlexWrapper>
       <MoreButtonWrapper>
         <ErrorMessage> {value.errorMsg && value.errorMsg}</ErrorMessage>
-        {/* {!value.ebookResponse.ebook.url ? (
+        {!value.ebookResponse.ebook.url ? (
           <MoreButton
             isSubmit
             isPrimary
@@ -123,13 +123,7 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
                 <EbookArrow />
               </span>
           </a>
-        )} */}
-        <a href={value.ebookResponse.ebook.url} target='_blank'>
-          click to open the ebook<span>
-            <EbookArrow />
-          </span>
-        </a>
-
+        )}
       </MoreButtonWrapper>
     </EbookSection>
   )
