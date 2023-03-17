@@ -6,6 +6,7 @@ import { useEbookForm } from './components/utils/ebook-form/use-ebook-form'
 import { EbookDynamicForm } from './ebook-dynamic-form'
 import { EbookThankYouPage } from './ebook-dynamic-thank-you-page'
 import { ErrorMessage } from './components/shared/contact/styles'
+import EbookArrow from '../src/assets/ebook_arrow.svg'
 
 const EbookSection = styled.section`
   margin: ${variables.pxToRem(48)} 0;
@@ -20,12 +21,25 @@ const EbookSection = styled.section`
 `
 
 const MoreButtonWrapper = styled.div`
+  width: fit-content;
+  margin: 0 auto;
   & button {
     @media ${variables.device.tabletXL} {
       margin-top: ${variables.pxToRem(16)};
     }
     @media ${variables.device.tablet} {
       margin-top: ${variables.pxToRem(48)};
+    }
+  }
+  & a {
+    border-bottom: 1px solid ${variables.color.text};
+    padding: 0 ${variables.pxToRem(14)} ${variables.pxToRem(5)} ${variables.pxToRem(8)};
+    color: inherit;
+    font-size: ${variables.pxToRem(20)};
+    line-height: ${variables.pxToRem(40)};
+
+    & span {
+      padding-left: ${variables.pxToRem(17)};
     }
   }
 `
@@ -95,9 +109,12 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
           </MoreButton>
         ) : (
           <a href={value.ebookResponse.ebook.url} target='_blank'>
-            click to open the ebook
+              click to open the ebook<span>
+                <EbookArrow />
+              </span>
           </a>
         )}
+
       </MoreButtonWrapper>
     </EbookSection>
   )
