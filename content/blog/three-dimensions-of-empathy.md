@@ -78,14 +78,19 @@ And now the most important question - can I learn empathy? **Yes, empathy is a t
 Practise this exercise even every day. If you not sure about your answers, confront that with the person you are thinking about. No one may have grudge if you show your concern and interest about their life. The more you practice the better you would be. We all have potential to change. Our empathy can be always developed. Apart from modelling exercises, you may also follow some best practises as following:  
 
 🧡 Practise curiosity about people around you, new cultures, places, tastes etc.
+
 🧡 Try out new activities and see how vulnerable you can be in the beginning. 
+
 🧡 Ask for feedback people you work and live with. 
+
 🧡 Apologise if you hurt someone’s feelings. 
+
 🧡 Learn how to name and recognise emotions.  
 
 <YouTubeEmbed url='https://youtu.be/ZxfJicfyCdg' />
 
 🧡 Experiment with different hypothetical situations and put yourself in someone’s shoes. 
+
 🧡 Use empathic language.
 
 *I can see how important it is for you. 
