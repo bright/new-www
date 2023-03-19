@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-As we all live in the world limited by our perceptions and we all have different variations of the same reality it is not always simple to comprehend why people feel or think in a certain way. But there is something like empathy which helps us build social connections and feel values and cared for. Empathy is essential in both our private and professional life to understand the needs, emotions and opinions of others. Thanks to empathy we can put ourselves in someone’s situation and improve our capacity to communicate our ideas in a way that makes sense to others. Empathy is not the same as sympathy where we are moved by someone’s feelings but we stil keep an emotional distance - watch [an animation by Dr. Brene Brown’s ](https://www.youtube.com/watch?v=KZBTYViDPlQ)to understand this difference better. 
+As we all live in the world limited by our perceptions and we all have different variations of the same reality it is not always simple to comprehend why people feel or think in a certain way. But there is something like empathy which helps us build social connections and feel values we cared for. Empathy is essential in both our private and professional life to understand the needs, emotions and opinions of others. **Thanks to empathy we can put ourselves in someone’s situation and improve our capacity to communicate our ideas in a way that makes sense to others. Empathy is not the same as sympathy where we are moved by someone’s feelings but we stil keep an emotional distance - watch [an animation by Dr. Brene Brown’s ](https://www.youtube.com/watch?v=KZBTYViDPlQ)to understand this difference better.** 
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=KZBTYViDPlQ' />
 
@@ -23,27 +23,44 @@ Psychologists Daniel Goleman and Paul Ekman identified [three types of empathy](
 
 ### 1. **Cognitive empathy**
 
-It lets us understand rationally and logically how the mind of another person functions and what their perspective or feelings are. It helps us understand what the other person might be thinking about and in result what their mood is, but there is no emotional connection between you and the person you empathise with. Imagine your colleague came to work really depressed and said “My dog died last night.” Your cognitive empathy response might be: “I am sorry. I know you are sad, but your dog was old and ill. In the end we will all bite the dust.” Probably it is not the response your teammate would expect.
+It lets us understand rationally and logically how the mind of another person functions and what their perspective or feelings are. **It helps us understand what the other person might be thinking about and in result what their mood is, but there is no emotional connection between you and the person you empathise with.** 
+
+\
+📍 Imagine your colleague came to work really depressed and said “My dog died last night.” Your cognitive empathy response might be: “I am sorry. I know you are sad, but your dog was old and ill. In the end we will all bite the dust.” Probably it is not the response your teammate would expect.
 
 ### 2. **Emotional/affective empathy**
 
-It is about sharing emotional experience. The other person’s emotions affect the way we feel ourselves. It is not about understanding how someone feels as in the cognitive empathy, buts also about creating an emotional boding with the person. Emotional empathy was divided by Hodges and Myers, social psychology researchers, into three components i.e. emotional contagion (feeling  the same emotion as another person), feeling distress due to the others person’s pain and feeling compassion. Imagine again the same situation as above - your teammate is sharing with you the sad news about their dog - your emotional empathy response might be: “I am sorry to hear that. I know you are missing Freddie so much. He was like a part of your family for all these years. I am here for you.”
+It is about sharing emotional experience. The other person’s emotions affect the way we feel ourselves. **It is not about understanding how someone feels as in the cognitive empathy, but also about creating an emotional boding with the person.** Emotional empathy was divided by Hodges and Myers, social psychology researchers, into three components i.e. emotional contagion (feeling  the same emotion as another person), feeling distress due to the others person’s pain and feeling compassion. 
+
+📍 Imagine again the same situation as above - your teammate is sharing with you the sad news about their dog - your emotional empathy response might be: “I am sorry to hear that. I know you are missing Freddie so much. He was like a part of your family for all these years. I am here for you.”
 
 ### 3. **Compassionate empathy**
 
-It is balanced between cognitive and emotional empathy. It is not only about understanding another person’s emotion and showing concern, but also taking some steps to help someone solve their problem.  And once again let us imagine the situation with the dog. If you use compassionate empathy response, you may say: “ I am sorry to hear that. I know you are missing Freddie so much. He was like a part of your family for all these years. I also lost a dog a few years ago. It was really hard to go through, but what helped me was volunteering in the animals shelter. Maybe you want to go with me there next week?” It is not always easy to find an appropriate solution to someone’s problem, but we can try to help however we can. It is ok to share your experience and relate to something that helped you in the past. 
+It is a kind of balance between cognitive and emotional empathy. **It is not only about understanding another person’s emotion and showing concern, but also taking some steps to help someone solve their problem.** 
+
+**📍**And once again let us imagine the situation with the dog. If you use compassionate empathy response, you may say: “ I am sorry to hear that. I know you are missing Freddie so much. He was like a part of your family for all these years. I also lost a dog a few years ago. It was really hard to go through, but what helped me was volunteering in the animals shelter. Maybe you want to go with me there next week?” 
+
+It is not always easy to find an appropriate solution to someone’s problem, but we can try to help however we can. It is ok to share your experience and relate to something that helped you in the past. 
 
 <GiphyEmbed url='https://giphy.com/clips/DuncanvilleFOX-fox-foxtv-duncanville-Mqpmtpn8OYBZodvF9g' />
 
 ## **EMPATHY & WORKPLACE**
 
-You know now that there are three type pf empathy, but how to use them in the workplace? At first we have to realise that empathy is crucial in any type of organisation reargues of its size, age or industry. Empathy is also not dedicated only to the companies which deal with setbacks in progress, underperformance, or team issues. Being empathic should be just something natural in your team. The problem is we are sometimes focused so much on achieving goals and ambitions that we forget about people around us. But there many simple ways of demonstrating empathy in your company that you can put in practise even right now.
+You now know that there are three types of empathy, but how to use them in the workplace? **At first we have to realise that empathy is crucial in any type of organisation regardless of its size, age or industry.** Empathy is also not dedicated only to the companies which deal with setbacks in progress, underperformance, or team issues. **Being empathic should be just something natural in your team.** The problem is that we are sometimes focused so much on achieving our own goals and ambitions that we forget about people around us. But there are many simple ways of demonstrating empathy in your team that you can put in practise even right now.
 
-1. **Be observant.** Observe others around you, watch and wonder, do not categorise, do not label, just care about them. Listen carefully and pay attention when your colleagues share some facts from their personal or professional life with you. It allows you to comprehend their points of view properly and recognise the issues they are facing. Showing concern helps others to open up and make them feel much more comfortable.
+### 1. **Be observant**
 
-   <GiphyEmbed url='https://giphy.com/gifs/betplus-bet-plus-real-husbands-of-hollywood-BhZacnk7mGZQFhtGTZ' />
-2. **Be compassionate.** Let people in your team know that their feelings and wellbeing is important to you. Even if you have never experienced what they are going through, it is sometimes enough to say that you understand that it must be hard, difficult or exhausting. And if you have experienced a similar situation, try to talko openly about your own feelings, experiences, joys or fears. You can discover that you may have something (or much) in common with the person you are working with.
-3. **Don’t judge.** Use active listening and ask questions. Slow down to consider the other’s person needs and the intentions or motivation behind them. You do not have to agree, just listen. Very often we do not have enough information and facts to know why someone is feeling angry, tired, upset, but we can always try to understand. Do not judge people’s feelings, believes or experiences. Empathy is not about judging and making opinions. 
+Observe others around you, watch and wonder, do not categorise, do not label, just care about them. Listen carefully and pay attention when your colleagues share some facts from their personal or professional life with you. It allows you to comprehend their points of view properly and recognise the issues they are facing. **Showing concern helps others to open up and make them feel much more comfortable.**
+
+<GiphyEmbed url='https://giphy.com/gifs/betplus-bet-plus-real-husbands-of-hollywood-BhZacnk7mGZQFhtGTZ' />
+
+### 2. **Be compassionate**
+
+Let people in your team know that their feelings and wellbeing is important to you. **Even if you have never experienced what they are going through, it is sometimes enough to say that you understand that it must be hard, difficult or exhausting.** And if you have experienced a similar situation, try to talk openly about your own feelings, experiences, joys or fears. You can discover that you may have something (or much) in common with the person you are working with.
+
+### 3. **Don’t judge**
+
+Use active listening and ask questions. Slow down to consider the other’s person needs and the intentions or motivation behind them. **You do not have to agree, just listen.** Very often we do not have enough information and facts to know why someone is feeling angry, tired, upset, but we can always try to understand. **Do not judge people’s feelings, believes or experiences. Empathy is not about judging and making opinions.** 
 
 ## **CAN I LEARN EMPATHY?** 
 
