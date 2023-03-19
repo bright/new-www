@@ -37,17 +37,23 @@ It is balanced between cognitive and emotional empathy. It is not only about und
 
 You know now that there are three type pf empathy, but how to use them in the workplace? At first we have to realise that empathy is crucial in any type of organisation reargues of its size, age or industry. Empathy is also not dedicated only to the companies which deal with setbacks in progress, underperformance, or team issues. Being empathic should be just something natural in your team. The problem is we are sometimes focused so much on achieving goals and ambitions that we forget about people around us. But there many simple ways of demonstrating empathy in your company that you can put in practise even right now.  
 
+### **Be observant**
 
-**Be observant.** Observe others around you, watch and wonder, do not categorise, do not label, just care about them. Listen carefully and pay attention when your colleagues share some facts from their personal or professional life with you. It allows you to comprehend their points of view properly and recognise the issues they are facing. Showing concern helps others to open up and make them feel much more comfortable.
+Observe others around you, watch and wonder, do not categorise, do not label, just care about them. Listen carefully and pay attention when your colleagues share some facts from their personal or professional life with you. It allows you to comprehend their points of view properly and recognise the issues they are facing. Showing concern helps others to open up and make them feel much more comfortable.
 
 <GiphyEmbed url='https://giphy.com/gifs/betplus-bet-plus-real-husbands-of-hollywood-BhZacnk7mGZQFhtGTZ' />
 
-Be compassionate. Let people in your team know that their feelings and wellbeing is important to you. Even if you have never experienced what they are going through, it is sometimes enough to say that you understand that it must be hard, difficult or exhausting. And if you have experienced a similar situation, try to talko openly about your own feelings, experiences, joys or fears. You can discover that you may have something (or much) in common with the person you are working with.  
-Don’t judge. Use active listening and ask questions. Slow down to consider the other’s person needs and the intentions or motivation behind them. You do not have to agree, just listen. Very often we do not have enough information and facts to know why someone is feeling angry, tired, upset, but we can always try to understand. Do not judge people’s feelings, believes or experiences. Empathy is not about judging and making opinions. 
+### **Be compassionate**
 
-CAN YOU LEARN EMPATHY? 
+ Let people in your team know that their feelings and wellbeing is important to you. Even if you have never experienced what they are going through, it is sometimes enough to say that you understand that it must be hard, difficult or exhausting. And if you have experienced a similar situation, try to talko openly about your own feelings, experiences, joys or fears. You can discover that you may have something (or much) in common with the person you are working with.  
 
-https://giphy.com/gifs/salih-whatever-loading-salih-Hys63WZ4UHlAc 
+### **Don’t judge**
+
+ Use active listening and ask questions. Slow down to consider the other’s person needs and the intentions or motivation behind them. You do not have to agree, just listen. Very often we do not have enough information and facts to know why someone is feeling angry, tired, upset, but we can always try to understand. Do not judge people’s feelings, believes or experiences. Empathy is not about judging and making opinions. 
+
+## CAN YOU LEARN EMPATHY?
+
+<GiphyEmbed url='https://giphy.com/gifs/salih-whatever-loading-salih-Hys63WZ4UHlAc' />
 
 And now the most important question - can wer learn empathy? Yes, empathy is a teachable skill. indeed. It does not happen naturally for a lot of people. But the more we practice it the more intuitive it becomes. If you are not an empathic person by genetic, it is possible to acquire it yourself.  You can start with some basic modelling exercise like below:  
 Imagine one of your college at work (or you can choose at first your friend or someone from your family). 
@@ -56,19 +62,21 @@ What is going on in their life so they feel happy/sad/angry/worried?
 How do I contribute to their situation? Am I making him/her feel better or worse? 
 What can I do or say to improve they situation?  
 Practise this exercise even every day. If you not sure about your answers, confront that with the person you are thinking about. No one may have grudge if you show your concern and interest about their life. The more you practice the better you would be. We all have potential to change. Our empathy can be always developed. Apart from modelling exercises, you may also follow some best practises as following:  
-🧡 Practise curiosity about people around you, new cultures, places, tastes etc.\
+
+🧡 Practise curiosity about people around you, new cultures, places, tastes etc.
 🧡 Try out new activities and see how vulnerable you can be in the beginning. 
 🧡 Ask for feedback people you work and live with. 
 🧡 Apologise if you hurt someone’s feelings. 
-🧡 Learn how to name and recognise emotions.  🧡 Experiment with different hypothetical situations and put yourself in someone’s shoes. 
+🧡 Learn how to name and recognise emotions.  
+🧡 Experiment with different hypothetical situations and put yourself in someone’s shoes. 
 🧡 Use empathic language.
 
-I can see how important it is for you. 
+*I can see how important it is for you. 
 I knows that it might be frustrating. 
 I am aware that it might have been confusing for you. 
 I am really sorry it happened. 
 I would like to help you if I can. 
 Let us think together what we can do in this situation. 
-I am on your side. It is not surprise it made you upset. 
+I am on your side. It is not surprise it made you upset.* 
 
 Empathy is an interpersonal skill that is viewed as a part of emotional intelligence and it is a skill that can bring a real value into your organisation’s life and might become some glue which keeps your relationship together. We should use an empathic approach not only while working inside the team but also with the clients. The empathic communication let us understand their business choices or some decisions that stand behind the systems we work on. Empathy helps to build trust and create a bond. The mindset shift that we can make thanks to empathic approach can really do wonders. So, next time before you make an opinion about someone, try to understand what led them here, what they think and feel and why they feel like that.
