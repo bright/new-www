@@ -4,8 +4,8 @@ tags:
   - inspiration
   - communication
   - team management
-date: 2023-03-17T16:00:10.334Z
-meaningfullyUpdatedAt: 2023-03-17T16:00:10.354Z
+date: 2023-03-19T20:18:11.383Z
+meaningfullyUpdatedAt: 2023-03-19T20:18:12.874Z
 title: "Three Dimensions of Empathy "
 layout: post
 image: /images/empathy-three-dimensions.png
