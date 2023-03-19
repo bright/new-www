@@ -8,6 +8,7 @@ date: 2023-03-17T16:00:10.334Z
 meaningfullyUpdatedAt: 2023-03-17T16:00:10.354Z
 title: "Three Dimensions of Empathy "
 layout: post
+image: /images/empathy-three-dimensions.png
 hidden: false
 comments: true
 published: true
