@@ -14,9 +14,9 @@ meaningfullyUpdatedAt: 2023-03-20T11:03:14.104Z
 title: Exposed in Your Project - Part 2 - DAO
 layout: post
 image: /images/exposed_blog.png
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 ---
 ## Overview
 
