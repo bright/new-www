@@ -31,7 +31,7 @@ It lets us understand rationally and logically how the mind of another person fu
 
 ### 2. Emotional/affective empathy
 
-It is about sharing emotional experience. The other person’s emotions affect the way we feel ourselves. **It is not about understanding how someone feels as in the cognitive empathy, but also about creating an emotional boding with the person.** Emotional empathy was divided by Hodges and Myers, social psychology researchers, into three components i.e. emotional contagion (feeling  the same emotion as another person), feeling distress due to the others person’s pain and feeling compassion.
+It is about sharing emotional experience. The other person’s emotions affect the way we feel ourselves. **It is not about understanding how someone feels as in the cognitive empathy, but also about creating an emotional bonding with the person.** Emotional empathy was divided by Hodges and Myers, social psychology researchers, into three components i.e. emotional contagion (feeling  the same emotion as another person), feeling distress due to the others person’s pain and feeling compassion.
 
 📍 Imagine again the same situation as above - your teammate is sharing with you the sad news about their dog - your emotional empathy response might be: “I am sorry to hear that. I know you are missing Freddie so much. He was like a part of your family for all these years. I am here for you.”  
 
