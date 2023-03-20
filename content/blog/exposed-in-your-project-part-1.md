@@ -371,3 +371,5 @@ which will respond with fat Person DTO.
 In this article, we've learned how to add JetBrains/Exposed to our project, and how to implement basic CRUD actions. In the next episode, I will show you, how to migrate from DSL to DAO approach - we will work with Entities, relations, and more! Stay tuned.
 
 You can find the complete code [over GitHub.](https://github.com/bright/kotlin-exposed-example)
+
+Read the next part of the series: [Exposed in Your Project - Part 2 - DAO](/blog/exposed-in-your-project-part-2-dao).
