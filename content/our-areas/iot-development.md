@@ -103,4 +103,4 @@ Do you want to develop an **app integrated with an external card reader**? Or ne
 
 ### you represent the industrial sector
 
-Do you plan to develop Industrial Internet of Things (IIoT) system that will connect different devices in industrial settings? Contact us to discuss or expertise and experience in IIoT.
+Do you plan to develop Industrial Internet of Things (IIoT) system that will connect different devices in industrial settings? Contact us to learn more about our expertise and experience in IIoT.
