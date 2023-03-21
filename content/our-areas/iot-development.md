@@ -14,10 +14,10 @@ faqs:
   - What are IoT applications?
   - Where is IoT used?
   - How do IoT devices communicate?
-  - Do you provide AWS IoT services?
   - What are IoT development services?
-  - Are you an IoT product design company?
   - What does the Industrial Internet of Things (IIoT) mean?
+  - Do you provide AWS IoT services?
+  - Are you an IoT product design company?
 project:
   - vcare
   - card-reader
