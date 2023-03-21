@@ -16,6 +16,8 @@ faqs:
   - How do IoT devices communicate?
   - Do you provide AWS IoT services?
   - What are IoT development services?
+  - Are you an IoT product design company?
+  - What does the Industrial Internet of Things (IIoT) mean?
 project:
   - vcare
   - card-reader
@@ -87,14 +89,18 @@ If you plan to sell or build devices connected with mobile applications, then co
 
 Internet of Things is an integral part of the software development process for many industries. You may need an IoT agency especially when:
 
-### you represent the retail industry
+### you represent the retail sector
 
-As a retail business, you probably need **software compatible with ePOS**. Our team has worked with dozens of ePOS devices developing web as well as **Android & iOS applications** that are used by thousands of restaurants across Europe.
+As a retail business, you probably need **software compatible with ePOS**. Our team has worked with dozens of ePOS devices developing web as well as **[Android & iOS ePOS applications](/projects/system-for-restaurants-mobile)** for retail and online food delivery giant **Just Eat**.
 
-### you represent the healthcare industry
+### you represent the healthcare sector
 
 For our client [vCare](/projects/vCare/) we have developed software that enables **telemedicine.** Our team has built software connecting with such devices as Bluetooth thermometer, pulse oximeter and more.
 
-### you represent the fintech industry
+### you represent the fintech sector
 
 Do you want to develop an **app integrated with an external card reader**? Or need devices and software that are going to authorise the transactions? We have worked with hardware for Fintech and we are ready to assist you with your fintech IoT project. What is more, as blockchain experts we offer to develop your IoT solutions with blockchain technology.
+
+### you represent the industrial sector
+
+Do you plan to develop Industrial Internet of Things (IIoT) system that will connect different devices in industrial settings? Contact us to discuss or expertise and experience in IIoT.
