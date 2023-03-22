@@ -47,7 +47,7 @@ It is not always easy to find an appropriate solution to someone’s problem, bu
 
 ## EMPATHY & WORKPLACE   
 
-You now know that there are three types pf empathy, but how to use them in the workplace? **At first we have to realise that empathy is crucial in any type of organisation regardless of its size, age or industry. Empathy is also not dedicated only to the companies which deal with setbacks in progress, underperformance, or team issues.** Being empathic should be just something natural in your team. The problem is that we are sometimes focused so much on achieving our own goals and ambitions that we forget about people around us. But there are many simple ways of demonstrating empathy in your team that you can put in practise even right now.  
+You now know that there are three types of empathy, but how to use them in the workplace? **At first we have to realise that empathy is crucial in any type of organisation regardless of its size, age or industry. Empathy is also not dedicated only to the companies which deal with setbacks in progress, underperformance, or team issues.** Being empathic should be just something natural in your team. The problem is that we are sometimes focused so much on achieving our own goals and ambitions that we forget about people around us. But there are many simple ways of demonstrating empathy in your team that you can put in practise even right now.  
 
 ### **Be observant**
 
@@ -57,7 +57,7 @@ Observe others around you, watch and wonder, do not categorise, do not label, ju
 
 ### **Be compassionate**
 
- Let people in your team know that their feelings and wellbeing is important to you. **Even if you have never experienced what they are going through, it is sometimes enough to say that you understand that it must be hard, difficult or exhausting.** And if you have experienced a similar situation, try to talko openly about your own feelings, experiences, joys or fears. **You can discover that you may have something (or much) in common with the person you are working with.**  
+ Let people in your team know that their feelings and wellbeing is important to you. **Even if you have never experienced what they are going through, it is sometimes enough to say that you understand that it must be hard, difficult or exhausting.** And if you have experienced a similar situation, try to talk openly about your own feelings, experiences, joys or fears. **You can discover that you may have something (or much) in common with the person you are working with.**  
 
 ### **Don’t judge**
 
