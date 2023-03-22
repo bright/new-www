@@ -28,6 +28,8 @@ export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
   return <CookieConsentContextWrapper visibleByDefault={visibleByDefault}>{element}</CookieConsentContextWrapper>
 }
 
+const partytownAllowedHosts = ['www.google-analytics.com', 'www.googletagmanager.com']
+
 export const onRenderBody: GatsbySSR['onRenderBody'] = ({ setHeadComponents }, options) => {
   const files = getFilesFromPath('./public/static', '.woff2')
   const preload = [
