@@ -316,3 +316,7 @@ which means that verification succeeded.
 ## Ready for more?
 
 Thanks to Circom proof based on Groth16 Alice was able to prove to Bob that she knows how to solve the equation. For now, we assumed that both of them are in the same place. But what if they weren’t? Alice can present her case in blockchain! You’ll learn how to show the solution with Substrate in the third and final part of our Zk-Snarks blog post series!
+
+- - -
+
+This tutorial is supported by the [Web3 Foundation Grants Program](https://web3.foundation/grants/).
