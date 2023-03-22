@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-03-22T12:27:45.475Z
 title: Zk-SNARKs in Substrate (Part 2). Using Groth16 and Running Circom Proof
 layout: post
 image: /images/zk-snarks-tutorial-part2.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
