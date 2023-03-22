@@ -92,8 +92,8 @@ $B_p = \beta + B(\tau) + s  *\delta$, where $B(\tau) = \sum w_i*  B_i(\tau)$ for
 
 <center>
     
-$C_p = Laux(\tau) / \delta + H(\tau) \* Z(\tau) / \delta + s \* A_p + r \* B_p - r \* s \* \delta$, 
-    where $Laux(\tau)=\sum w_i \* L_i(\tau)$ for $i$ in $l+1..m$
+$C_p = Laux(\tau) / \delta + H(\tau) * Z(\tau) / \delta + s * A_p + r * B_p - r * s * \delta$, 
+    where $Laux(\tau)=\sum w_i * L_i(\tau)$ for $i$ in $l+1..m$
     
 </center>
 
@@ -121,7 +121,7 @@ How did this happen? If you replace the values of the above equation with the pr
 
 <center>
     
-$$ A(\tau) \* B(\tau) + REM= C(\tau) + H(\tau) \* Z(\tau) + REM$$
+$$ A(\tau) * B(\tau) + REM= C(\tau) + H(\tau) * Z(\tau) + REM$$
 
 </center>
 
