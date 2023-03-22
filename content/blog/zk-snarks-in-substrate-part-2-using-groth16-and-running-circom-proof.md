@@ -224,7 +224,7 @@ When we defined our goals, we can focus now on the verification part. At the beg
 
 <center>
     
-$$ A_p \* B_p = \alpha \* \beta + (\sum w_i \* L_i(\tau) / \gamma) \* \gamma + C_p * \delta $$
+$$ A_p * B_p = \alpha * \beta + (\sum w_i * L_i(\tau) / \gamma) * \gamma + C_p * \delta $$
 
 </center>
 
