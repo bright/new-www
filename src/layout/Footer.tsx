@@ -59,10 +59,10 @@ export const Footer = () => {
         <div className='columns'>
           <div className='column'>
             <div className={classNames('content image', styles.logo)}>
-              <a href='/' aria-label='Go to home page' role={'navigation'}>
+              <Link to='/' aria-label='Go to home page' role={'navigation'}>
                 <LogoWhite style={{ width: '180px' }} />
                 Home Page
-              </a>
+              </Link>
             </div>
             <SocialIcons className='padded-right' />
           </div>
