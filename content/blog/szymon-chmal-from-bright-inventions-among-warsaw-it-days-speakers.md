@@ -5,7 +5,7 @@ tags:
   - update
   - frontend
 date: 2023-03-13T14:03:43.512Z
-meaningfullyUpdatedAt: 2023-03-13T14:03:44.104Z
+meaningfullyUpdatedAt: 2023-03-22T10:48:06.635Z
 title: Szymon Chmal, from Bright Inventions, Among Warsaw IT Days Speakers
 layout: post
 image: /images/warsaw_it_days_2023_szymon.png
@@ -43,6 +43,6 @@ What is tree-shaking? How does it work? And what to do when it doesn’t work? S
 
 ## Let’s meet (virtually) at Warsaw IT Days
 
-[Register for Warsaw IT Days](https://warszawskiedniinformatyki.pl) listen to Szymon’s speeches.
+[Register for Warsaw IT Days](https://warszawskiedniinformatyki.pl) and listen to Szymon’s speeches.
 
 You’ll also have a chance to listen to Szymon (onsite) at the [4developers](https://4developers.org.pl) conference in April. He will speak there as well. More on that soon!
