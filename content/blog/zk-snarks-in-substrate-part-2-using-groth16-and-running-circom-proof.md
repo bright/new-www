@@ -111,7 +111,7 @@ Unfortunately, the verifier doesn't have all pieces to make such a computation. 
 
 <center>
     
-$$ A_p \* B_p=\alpha \* \beta + (\sum w_i \* L_i(\tau)/\gamma) \* \gamma + C_p * \delta$$
+$$ A_p * B_p=\alpha * \beta + (\sum w_i * L_i(\tau)/\gamma) * \gamma + C_p * \delta$$
 
 </center>
 
