@@ -13,7 +13,7 @@ import { JobApplicationModal } from './job-application-modal'
 import { CustomTextRegular, MoreButton } from '../../shared'
 import variables from '../../../styles/variables'
 import { trackConversion, trackCustomEvent } from '../../../analytics/track-custom-event'
-import { FlexWrapper } from './../../shared/index'
+import { FlexWrapper } from '../../shared'
 import { JobFormData } from '../../../helpers/mail'
 
 export interface FormProps {
@@ -192,7 +192,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
   }
 
   const submit = useCallback(
-    (event, data: JobFormData) => {
+    (event: React.FormEvent<HTMLFormElement>, data: JobFormData) => {
       const isValidLinkedin =
         (data.message ?? '').startsWith('https://www.linkedin.com/') ||
         (data.message ?? '').startsWith('http://www.linkedin.com/') ||
@@ -244,7 +244,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
 
   return (
     <>
-      <Form onSubmit={e => submit(e, value)}>
+      <Form onSubmit={(e: React.FormEvent<HTMLFormElement>) => submit(e, value)}>
         <div>
           <TextField
             required

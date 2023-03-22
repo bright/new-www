@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { FormEvent, useCallback, useState } from 'react'
 import { FormType, JobFormData, sendMail } from '../../../helpers/mail'
 
 export function useApplicationForm() {
@@ -13,7 +13,7 @@ export function useApplicationForm() {
     linkedinlink: '',
     attachments: [] as File[]
   })
-  const handleSubmit = (event: Event, data: JobFormData) => {
+  const handleSubmit = (event: FormEvent, data: JobFormData) => {
     setValue(state => ({
       ...state,
       isSending: true
