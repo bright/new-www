@@ -5,14 +5,14 @@ tags:
   - business
 date: 2023-02-10T09:44:23.326Z
 meaningfullyUpdatedAt: 2023-03-23T12:17:57.544Z
-title: ChatGPT vs. Bard – First Look & Comparison
+title: ChatGPT vs. Bard – Which AI Chatbot is Better?
 layout: post
 image: /images/chat_ai_comparision.png
 hidden: false
 comments: true
 published: true
 ---
-**Google introduced Bard – a rival to ChatGPT. After Google released a beta version of Bard we finally have more data to compare. ChatGPT-4 or Bard AI? What is better for now? Let's find out! The article will be updated. Feel free to bookmark/pocket it for later.**
+**ChatGPT-4 or Bard AI? What is better? After Google released a beta version of Bard we finally have more data to compare. The article is regularly updated. Feel free to bookmark/pocket it for later.**
 
 <div class="image"><img src="/images/chat_ai_comparision.png" alt="undefined" title="undefined"  /> </div>
 
