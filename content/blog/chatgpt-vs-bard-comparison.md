@@ -4,7 +4,7 @@ tags:
   - development
   - business
 date: 2023-02-10T09:44:23.326Z
-meaningfullyUpdatedAt: 2023-02-10T09:44:23.998Z
+meaningfullyUpdatedAt: 2023-03-23T12:17:57.544Z
 title: ChatGPT vs. Bard – First Look & Comparison
 layout: post
 image: /images/chat_ai_comparision.png
@@ -12,15 +12,24 @@ hidden: false
 comments: true
 published: true
 ---
-**Google introduced Bard – a rival to ChatGPT. Little do we know about Google's AI chat system. Yet, we can initially compare both AI solutions. The article will be updated. Feel free to bookmark/pocket it for later.**
+**Google introduced Bard – a rival to ChatGPT. After Google released a beta version of Bard we finally have more data to compare. ChatGPT-4 or Bard AI? What is better for now? Let's find out! The article will be updated. Feel free to bookmark/pocket it for later.**
 
 <div class="image"><img src="/images/chat_ai_comparision.png" alt="undefined" title="undefined"  /> </div>
 
 ## AI chat got into mainstream
 
-It’s not something new to include AI in software development. However, products like ChatGPT definitely moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first **check out the main differences between the two best-known AI chats** at the moment.
+It’s not something new to include AI in software development. However, products like ChatGPT moved AI to the mainstream and showed globally its potential. If you think about implementing AI chats in your software products, first **check out the main differences between the two best-known AI chats** at the moment.
 
 <div class='block-button'><h2>Do you want to use AI in your software?</h2><div>Contact us if you want to enhance your software with AI to shorten development time and stay ahead of your competition.</div><a href="/start-project"><button>let's talk about your product</button></a></div>
+
+## Finally, Bard AI is here (if you are in the US or UK)
+
+March 2023 is full of more exciting updates about ChatGPT and Bard AI:
+
+* ChatGPT-4 is released for Plus subscribers. It costs $20 a month.
+* Bard AI beta version is released for users from US and UK.
+
+As a result, we’ve got bigger possibilities to compare both solutions.
 
 ## Bard vs ChatGPT language models
 
@@ -28,15 +37,15 @@ Bard is powered by [LaMDA](https://blog.google/technology/ai/lamda/). However, C
 
 LaMDA 👉 Provides **real-time responses** and has access to up-to-date information and data.
 
-GPT 👉 Don’t provide real-time data. **Its knowledge doesn’t go beyond 2021**.
-
-For example, Bard should tell you who won the 2023 Grammy. ChatGPT won’t give you that information.
+GPT-4 👉 Don’t provide real-time data. **Its knowledge doesn’t go beyond September 2021**.
 
 ## Integration with search engines
 
-Microsoft announced that [Bing will be enhanced with ChatGPT](https://techcrunch.com/2023/02/07/microsoft-launches-the-new-bing-with-chatgpt-built-in/). Is it a move that Google was afraid of? Perhaps. The CEO of Google & Alphabet confirmed that [Bard will be integrated with Google's search engine](https://twitter.com/sundarpichai/status/1622674382069059591). 
+Chat-GPT is available while using the Edge browser and Bing search engine. So everything stays in the Microsoft family. 
 
-That seems like a powerful advantage to already a giant search engine. Many have tried to overcome Google, but no one succeeded (yet?).
+Bard beta is exclusively available with the Google search engine. However, various browsers support it, including Chrome, Safari, Firefox or Opera. 
+
+Will implementing ChatGPT with Bing be a first step to becoming a real competition against Google? Many have tried, but no one succeeded (yet?).
 
 <img src="/images/global-overview.png" alt="Digital 2023 Global Overview Report" title="undefined"  /> 
 
@@ -60,9 +69,15 @@ It might make it even harder to organically build your website traffic. And what
 
 <div class="important-info"><h2>The challenge behind Bard</h2><div>Figuring a way that will satisfy advertisers, publishers and generally content creators might be more challenging than building the Bard itself.</div></div>
 
+## Which one is better for programmers?
+
+Unfortunately, I didn’t have a chance to test Bard AI yet. But there is more and more information from users, who has access to it, that Bard is reluctant to generate code. As we know ChatGPT has no problem with that. Obviously, the code quality is another issue. It still should be assessed by a developer.
+
+However, at the moment is hard to see Bard as a handful tool for software developers.
+
 ## ChatGPT and Bard prices
 
-A few months after the launch of ChatGPT OpenAI introduced a pilot [paid subscription plan](https://openai.com/blog/chatgpt-plus/). When it comes to Bard - not many people have access to it at the moment. However, assuming that it is going to be a part of our Google search experience, then it might be free(?).
+ChatGPT-4 is available in the Plus subscribers plan which costs $20 a month. When it comes to Bard - not many people have access to it at the moment. However, assuming that it is going to be a part of our Google search experience, then it might be free(?).
 
 ## Last but not least – ChatGPT and Bard both make mistakes 😉
 
