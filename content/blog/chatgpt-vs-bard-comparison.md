@@ -41,9 +41,9 @@ GPT-4 👉 Don’t provide real-time data. **Its knowledge doesn’t go beyond S
 
 ## Integration with search engines
 
-Chat-GPT is available while using the Edge browser and Bing search engine. So everything stays in the Microsoft family. 
+**Chat-GPT** is available while using the **Edge** browser and **Bing** search engine. So everything stays in the Microsoft family. 
 
-Bard beta is exclusively available with the Google search engine. However, various browsers support it, including Chrome, Safari, Firefox or Opera. 
+**Bard** beta is exclusively available with the **Google** search engine. However, various browsers support it, including **Chrome, Safari, Firefox** or **Opera**. 
 
 Will implementing ChatGPT with Bing be a first step to becoming a real competition against Google? Many have tried, but no one succeeded (yet?).
 
