@@ -213,11 +213,11 @@ fun Application.configureData() {
 }
 ```
 
-*What we did here?* In `transaction` block.
+*What did we do here?* In `transaction` block.
 
 > Every database access using Exposed is started by obtaining a connection and creating a transaction.
 
-..we created the table in the database (`SchemaUtils.create` call) and filled up the DB with initial records.
+We created the table in the database (`SchemaUtils.create` call) and filled up the DB with initial records.
 
 ## REST endpoints
 
@@ -244,7 +244,7 @@ fun Application.configureRouting() {
 
 *What we did here?* We (once again) created Ktor's plugin for registering the routing here. On the `/` endpoint we are going to respond with ALL of the objects in the `Person` table.
 
-but we need to register it in the application:
+However we need to register it in the application:
 
 Application.kt
 
@@ -263,7 +263,7 @@ fun main() {
 ```
 
 Run it, baby! `GET http://localhost:8080/` should respond with a list of three persons: `John`, `George`, and `Megan`.\
-alright, but when we will implement the searching functionality? Now.
+Alright, but when we will implement the searching functionality? Now.
 
 ## RSQL search functionality implementation
 
@@ -356,13 +356,13 @@ private fun String.toDateOrNull(): Instant? = try {
 
 *What we did here?* In essence, we implemented `NoArgRSQLVisitorAdapter` which is going to visit the node in order to determine what logic operation (exposed) should we perform to the given column/argument.
 
-So, if we will have a query string like `age=in=(33,22)`, our Visitor will produce
+So, if we will have a query string like `age=in=(33,22)`, our Visitor will produce:
 
 ```
 column<PersonTable.age> inList listOf(33,22) 
 ```
 
-so our SQL query will be:
+So our SQL query will be:
 
 ```SQL
 SELECT PERSON.ID, PERSON."NAME", PERSON.SURNAME, PERSON.AGE FROM PERSON WHERE PERSON.AGE IN (33, 22)
@@ -384,7 +384,7 @@ override fun findByQuery(query: String): List<FoundPersonDto> = transaction {
 }
 ```
 
-Please note the `SearchSpecifictation` structure - it's a way to tell the Visitor what kind of fields can be used in filtering and how they should be mapped to `PersonTable` columns
+Please note the `SearchSpecifictation` structure - it's a way to tell the Visitor what kind of fields can be used in filtering and how they should be mapped to `PersonTable` columns.
 
 `SearchSpecification.kt`
 
@@ -399,7 +399,7 @@ data class SearchPropertySpecification(
 )
 ```
 
-and a controllers' call:
+And a controllers' call:
 
 `Routing.kt`
 
