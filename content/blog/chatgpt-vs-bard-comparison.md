@@ -5,14 +5,14 @@ tags:
   - business
 date: 2023-02-10T09:44:23.326Z
 meaningfullyUpdatedAt: 2023-03-23T12:17:57.544Z
-title: ChatGPT vs. Bard – First Look & Comparison
+title: ChatGPT vs. Bard – Which AI Chatbot is Better?
 layout: post
 image: /images/chat_ai_comparision.png
 hidden: false
 comments: true
 published: true
 ---
-**Google introduced Bard – a rival to ChatGPT. After Google released a beta version of Bard we finally have more data to compare. ChatGPT-4 or Bard AI? What is better for now? Let's find out! The article will be updated. Feel free to bookmark/pocket it for later.**
+**ChatGPT-4 or Bard AI? What is better? After Google released a beta version of Bard we finally have more data to compare. The article is regularly updated. Feel free to bookmark/pocket it for later.**
 
 <div class="image"><img src="/images/chat_ai_comparision.png" alt="undefined" title="undefined"  /> </div>
 
@@ -41,9 +41,9 @@ GPT-4 👉 Don’t provide real-time data. **Its knowledge doesn’t go beyond S
 
 ## Integration with search engines
 
-Chat-GPT is available while using the Edge browser and Bing search engine. So everything stays in the Microsoft family. 
+**Chat-GPT** is available while using the **Edge** browser and **Bing** search engine. So everything stays in the Microsoft family. 
 
-Bard beta is exclusively available with the Google search engine. However, various browsers support it, including Chrome, Safari, Firefox or Opera. 
+**Bard** beta is exclusively available with the **Google** search engine. However, various browsers support it, including **Chrome, Safari, Firefox** or **Opera**. 
 
 Will implementing ChatGPT with Bing be a first step to becoming a real competition against Google? Many have tried, but no one succeeded (yet?).
 
