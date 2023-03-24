@@ -5,13 +5,27 @@ import { ContactEbook } from './ebook/ContactEbook'
 import { useWindowSize } from '../utils/use-windowsize'
 import { useEbookForm } from '../utils/ebook-form/use-ebook-form'
 import { HomeEbookThankYouPage } from './ebook/HomeEbookThankYouPage'
+import EbookCover from '../../assets/ebook_cover.svg'
+import styled from 'styled-components'
+import variables from '../../styles/variables'
+
+const EbbokSection = styled(CustomSection)`
+@media ${variables.device.mobile} {
+  & svg {
+width: 100%;
+height: auto;
+}
+}
+
+
+`
 
 const Ebook = () => {
   const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm('ebook-eda-visuals.pdf')
   const { width } = useWindowSize()
   const breakpoint = 992
   return (
-    <CustomSection
+    <EbbokSection
       paddingProps='128px 240px 0 '
       paddingLaptop='96px 96px 0'
       paddingTablet='192px 36px 0'
@@ -21,7 +35,7 @@ const Ebook = () => {
         bright ebook
       </CustomSectionTitle>
       <FlexWrapper desktopGap='64px' desktopItems='center' tabletXLGap='32px' tabletDirection='column' tabletGap='64px'>
-        <div>
+        {/* <div>
           {width > breakpoint && (
           <StaticImage
             alt={'Bright Inventions '}
@@ -40,7 +54,8 @@ const Ebook = () => {
             placeholder='none'
           />
         )}
-        </div>
+        </div> */}
+        <EbookCover />
 
         {!value.ebookResponse.ebook.url ? (
           <FlexWrapper desktopDirection='column' desktopBasis='63%' laptopBasis='57%' tabletXLBasis='46%'>
@@ -50,7 +65,7 @@ const Ebook = () => {
               tabletMargin='0 0 48px'
               style={{ textAlign: 'left' }}
             >
-              18 tools and tacticts for app security
+              25 tools and tacticts for app security
             </CustomTextTitle>
             <TextRegular>
               Best practices and tools to ensure your web and mobile app is secure. All listed tools are open-source or
@@ -70,7 +85,7 @@ const Ebook = () => {
             <HomeEbookThankYouPage url={value.ebookResponse.ebook.url} />
         )}
       </FlexWrapper>
-    </CustomSection>
+    </EbbokSection>
   )
 }
 
