@@ -1,8 +1,7 @@
-import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 import { CustomSection, CustomSectionTitle, CustomTextTitle, FlexWrapper, TextRegular } from '../shared'
 import { ContactEbook } from './ebook/ContactEbook'
-import { useWindowSize } from '../utils/use-windowsize'
+
 import { useEbookForm } from '../utils/ebook-form/use-ebook-form'
 import { HomeEbookThankYouPage } from './ebook/HomeEbookThankYouPage'
 import EbookCover from '../../assets/ebook_cover.svg'
@@ -10,20 +9,17 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 
 const EbbokSection = styled(CustomSection)`
-@media ${variables.device.mobile} {
-  & svg {
-width: 100%;
-height: auto;
-}
-}
-
-
+  @media ${variables.device.mobile} {
+    & svg {
+      width: 100%;
+      height: auto;
+    }
+  }
 `
 
 const Ebook = () => {
   const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm('ebook-eda-visuals.pdf')
-  const { width } = useWindowSize()
-  const breakpoint = 992
+
   return (
     <EbbokSection
       paddingProps='128px 240px 0 '
@@ -35,26 +31,6 @@ const Ebook = () => {
         bright ebook
       </CustomSectionTitle>
       <FlexWrapper desktopGap='64px' desktopItems='center' tabletXLGap='32px' tabletDirection='column' tabletGap='64px'>
-        {/* <div>
-          {width > breakpoint && (
-          <StaticImage
-            alt={'Bright Inventions '}
-            src='../../../static/images/ebook_cover.png'
-            backgroundColor='#ffffff'
-            placeholder='none'
-          />
-        )}
-        </div>
-        <div>
-          {width <= breakpoint && (
-          <StaticImage
-            alt={'Bright Inventions '}
-            src='../../../static/images/ebook_cover_tablet.png'
-            backgroundColor='#ffffff'
-            placeholder='none'
-          />
-        )}
-        </div> */}
         <EbookCover />
 
         {!value.ebookResponse.ebook.url ? (
@@ -65,7 +41,7 @@ const Ebook = () => {
               tabletMargin='0 0 48px'
               style={{ textAlign: 'left' }}
             >
-              25 tools and tacticts for app security
+              25 tools and tactics for app security
             </CustomTextTitle>
             <TextRegular>
               Best practices and tools to ensure your web and mobile app is secure. All listed tools are open-source or
