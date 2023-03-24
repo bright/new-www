@@ -19,11 +19,17 @@ const EbookSection = styled.section`
   @media ${variables.device.tablet} {
     padding: ${variables.pxToRem(32)} ${variables.pxToRem(36)};
   }
+  && h2 {
+    font-size: ${variables.pxToRem(40)};
+    line-height: ${variables.pxToRem(48.76)};
+    font-weight: 800;
+  }
 `
 
 const MoreButtonWrapper = styled.div`
   width: fit-content;
   margin: 0 auto;
+  font-family: ${variables.font.lato}
   & button {
     @media ${variables.device.tabletXL} {
       margin-top: ${variables.pxToRem(16)};
@@ -104,6 +110,7 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
         ) : (
           <EbookThankYouPage />
         )}
+
       </FlexWrapper>
       <MoreButtonWrapper>
         <ErrorMessage> {value.errorMsg && value.errorMsg}</ErrorMessage>
@@ -124,6 +131,7 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
               </span>
           </a>
         )}
+
       </MoreButtonWrapper>
     </EbookSection>
   )
