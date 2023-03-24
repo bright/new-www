@@ -56,6 +56,9 @@ const EbookTextFieldWrapper = styled.form`
     outline: 1px solid ${variables.color.lighterGrey};
     background: ${variables.color.white};
     }
+    &:focus:not(:focus-visible) {
+      outline: none;
+    }
   }
   }
 `
