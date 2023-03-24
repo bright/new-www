@@ -95,7 +95,7 @@ export function useEbookForm(ebookName: string) {
         name: value.name,
       }
       const param: EbookSignUpOperationRequest = {
-        ebookName: 'ebook-eda-visuals.pdf',
+        ebookName: ebookName,
         ebookSignUpRequest: ebookSignUpRequest,
       }
       if (!isValidValue()) return
