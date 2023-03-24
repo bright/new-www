@@ -1,4 +1,4 @@
-export const siteUrl = new URL(process.env.SITE_URL || 'https://brightinventions.pl/')
+export const siteUrl = new URL(process.env.GATSBY_SITE_URL || 'https://brightinventions.pl/')
 
 export type SiteMetadata = typeof siteMetadata
 
