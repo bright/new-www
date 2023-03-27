@@ -127,6 +127,20 @@ export class Website extends cdk.Stack {
       ],
     }
 
+    const preserveUriParametersOnRedirectPath = path.resolve(
+      path.join(process.cwd(), 'lib', 'preserve-uri-parameters-on-redirect.js')
+    )
+    EsbuildProvider.defaultBuildProvider().buildSync({
+      entryPoints: [path.resolve(path.join(process.cwd(), 'lib', 'preserve-uri-parameters-on-redirect.ts'))],
+      bundle: true,
+      sourcemap: false,
+      minify: false,
+      treeShaking: false,
+      outfile: preserveUriParametersOnRedirectPath,
+      platform: 'node',
+    })
+    const preserveUriParametersOnRedirectCompiled = fs.readFileSync(preserveUriParametersOnRedirectPath, 'utf-8')
+
     const staticContentBehavior: Behavior = {
       isDefaultBehavior: true,
       forwardedValues: {
