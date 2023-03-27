@@ -14,7 +14,7 @@ tags:
   - customized software
 slug: airhelp
 show on homepage: false
-published: true
+published: false
 ---
 ![airhelp mobile app development](/images/flight_compensation_app_mockup.png "It is not a real implemented design. It is a mockup example created for the purpose of case study.")
 
