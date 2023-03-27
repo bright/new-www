@@ -42,7 +42,7 @@ const Ebook = () => {
               tabletMargin='0 0 48px'
               style={{ textAlign: 'left' }}
             >
-              25 tools and tactics for app security
+              25 tools & tactics for app security
             </CustomTextTitle>
             <TextRegular>
               Best practices and tools to ensure your web and mobile app is secure. All listed tools are open-source or
