@@ -127,37 +127,12 @@ export class Website extends cdk.Stack {
       ],
     }
 
-    const consentVsRegularCompiledPath = path.resolve(
-      path.join(process.cwd(), 'lib', 'consent-vs-regular-origin-request.js')
-    )
-    EsbuildProvider.defaultBuildProvider().buildSync({
-      entryPoints: [path.resolve(path.join(process.cwd(), 'lib', 'consent-vs-regular-origin-request.ts'))],
-      bundle: true,
-      sourcemap: false,
-      minify: false,
-      treeShaking: false,
-      outfile: consentVsRegularCompiledPath,
-      platform: 'node',
-    })
-
-    const consentVsRegularCompiled = fs.readFileSync(consentVsRegularCompiledPath, 'utf-8')
-
     const staticContentBehavior: Behavior = {
       isDefaultBehavior: true,
       forwardedValues: {
         queryString: false,
-        cookies: {
-          forward: 'whitelist',
-          whitelistedNames: [hasUserDecidedOnAnalyticsConsentCookieName],
-        },
       },
       functionAssociations: [
-        {
-          eventType: FunctionEventType.VIEWER_REQUEST,
-          function: new CloudfrontFunction(this, 'consent-vs-regular-origin-request', {
-            code: FunctionCode.fromInline(consentVsRegularCompiled),
-          }),
-        },
       ],
     }
 

@@ -38,6 +38,15 @@ The infrastructure is deployed manually from [infrastructure](infrastructure) aw
 
 ## Cookie consent rendering optimisation
 
+### Disabled until further notice
+
+The optimization apparently has caused a change in how GA4 and UA categorizes source traffic.
+The Direct & Organic channels were flipped. Most of the traffic appeared as if it was Direct.
+
+The code is in [consent-vs-regular](https://github.com/bright/new-www/tree/consent-vs-regular) branch.
+
+### How it worked
+
 After we introduced cookie consent prompt the performance of the page dropped significantly.
 The Lighthouse reports indicated that it is because late LCP triggered by showing Cookie Consent.
 
