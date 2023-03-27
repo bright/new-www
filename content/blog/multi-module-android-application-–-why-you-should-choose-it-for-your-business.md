@@ -52,4 +52,6 @@ Choosing multi-modules isn’t a perfect solution for everyone. All comes down t
 
 ## Example of a multi-module app
 
-Check out the actual case study – a multi-module application for retail that we developed for Just Eat.
+Check out the actual case study – a [multi-module application for retail](/projects/system-for-restaurants-mobile) that we developed for Just Eat.
+
+<div class="image"><img src="/images/restaurant_apps_mobile_preview.png" alt="undefined" title="undefined"  /> </div>
