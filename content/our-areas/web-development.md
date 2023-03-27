@@ -57,7 +57,7 @@ bar_stack:
   - PostgreSQL
 button: let’s talk about web
 button2: let’s talk about web
-published: false
+published: true
 show_case_study: true
 show_technology_stack: true
 title_team: meet our web development team
