@@ -4,12 +4,12 @@ secondAuthor: izabela
 tags:
   - business perspective
   - Android
-date: 2023-03-27T06:33:55.483Z
-meaningfullyUpdatedAt: 2023-03-27T06:33:55.520Z
+date: 2023-03-27T06:47:51.008Z
+meaningfullyUpdatedAt: 2023-03-27T06:47:51.539Z
 title: Multi-Module Android Application – Why You Should Choose It for Your Business
 layout: post
 image: /images/multi_module_blog.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
