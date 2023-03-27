@@ -1,3 +1,5 @@
+import { ebookNames } from './ebook-names'
+
 export const EbookCmsEditorComponent = {
   id: 'EbookDynamic',
   fields: [
@@ -10,7 +12,7 @@ export const EbookCmsEditorComponent = {
       name: 'ebook_name',
       label: 'Ebook name',
       widget: 'select',
-      options: ['ebook-eda-visuals.pdf'],
+      options: ebookNames,
     },
     {
       name: 'ebook_description',

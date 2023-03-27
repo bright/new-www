@@ -18,7 +18,7 @@ published: true
 
 <div class="image"><img src="/images/brightstoryolazcollage.png" alt="A story of a fullstack developer" title="A story of a fullstack developer"  /> </div>
 
-<EbookDynamic sectionTitle="bright ebook"  ebookName="ebook-eda-visuals.pdf" imageSrc="/images/ebook_cover_blog.png" imageAlt="alt" description="Must have ebook for devs and app owners written by Rafał Hofman, a software developer and security expert. All tools listed in the e-book are open-source or offer free plans."/>
+<EbookDynamic sectionTitle="bright ebook"  ebookName="25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf" imageSrc="/images/ebook_cover_blog.png" imageAlt="alt" description="Must have ebook for devs and app owners written by Rafał Hofman, a software developer and security expert. All tools listed in the e-book are open-source or offer free plans."/>
 
 ## You’re a Civil Engineer by profession. Why did you change your career to software development?
 

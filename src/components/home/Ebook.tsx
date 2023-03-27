@@ -7,6 +7,7 @@ import { HomeEbookThankYouPage } from './ebook/HomeEbookThankYouPage'
 import EbookCover from '../../assets/ebook_cover.svg'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
+import { ebookNames } from '../../ebook-names'
 
 const EbbokSection = styled(CustomSection)`
   @media ${variables.device.mobile} {
@@ -18,7 +19,7 @@ const EbbokSection = styled(CustomSection)`
 `
 
 const Ebook = () => {
-  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm('ebook-eda-visuals.pdf')
+  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[0])
 
   return (
     <EbbokSection
