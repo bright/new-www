@@ -36,3 +36,20 @@ Building and testing time might decrease because developers can work only with o
 Small chunks of code are easier to understand and eventually work with. Divided into a reasonable abstraction could be very useful during onboarding. New members of the development team can faster understand the code and start to work with it.
 
 ### Interoperability & scalability
+
+Multi-module apps are a great base for future interoperabilities and integrations with, for example, IoT, printers, payment terminals, or external software integrations. You are more flexible to add other features. Even if you don’t plan that at this point, you leave yourself an option to take care of that, perhaps after the MVP launch.
+
+### Better customization
+
+If you plan to sell a solution that could be adjusted to different types of customers (UI, basic features), then it is easier to offer that with multi-module architecture. For instance, you offer a customer support tool and you want to adjust it to the needs of customers representing different industries. A multi-module architecture will help you be more flexible in that regard.
+
+## When you should consider multi-module architecture:
+
+Choosing multi-modules isn’t a perfect solution for everyone. All comes down to the development stage you are in:
+
+* When you are about to start the development process, then you can freely decide to build your architecture in that way. 
+* If you already have developed and launched a product, it might be difficult to change the architecture at this point. It would require some refactoring time. It will be beneficial for your business in the long term, however not every business can afford to spend funds for refactoring.
+
+## Example of a multi-module app
+
+Check out the actual case study – a multi-module application for retail that we developed for Just Eat.
