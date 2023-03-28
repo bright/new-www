@@ -6,7 +6,7 @@ tags:
   - mobile
   - app
 date: 2021-06-22T08:09:07.016Z
-meaningfullyUpdatedAt: 2023-03-28T12:18:41.643Z
+meaningfullyUpdatedAt: ""
 title: Top app security practices to expect from developers
 layout: post
 image: /images/security-apps.jpg
