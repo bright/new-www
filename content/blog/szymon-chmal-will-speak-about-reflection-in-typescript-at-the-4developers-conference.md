@@ -6,7 +6,7 @@ tags:
   - frontend
 date: 2023-03-28T08:13:13.860Z
 meaningfullyUpdatedAt: 2023-03-28T08:13:13.922Z
-title: Szymon Chmal Will Speak about Reflection in TypeScript at the 4Developers
+title: Szymon Chmal Will Speak about Reflection in TypeScript at 4Developers
   Conference
 layout: post
 image: /images/blogpost_szymon_4developers.png
