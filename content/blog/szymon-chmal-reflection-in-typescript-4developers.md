@@ -10,7 +10,7 @@ title: Szymon Chmal Will Speak about Reflection in TypeScript at 4Developers
   Conference
 layout: post
 image: /images/blogpost_szymon_4developers.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
