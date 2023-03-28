@@ -78,7 +78,7 @@ jobs:
           CI: true
           DEPLOY_S3_BUCKET_NAME: 'brightinventions-pl-website-content-staging'
           GATSBY_ACTIVE_ENV: staging
-          SITE_URL: 'https://staging.brightinventions.pl/'
+          GATSBY_SITE_URL: 'https://staging.brightinventions.pl/'
           GATSBY_CPU_COUNT: 1
           GATSBY_PARTYTOWN_ENABLED: ${{ inputs.partytownEnabled || 'false' }}
             #          Enable for debugging
@@ -94,7 +94,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.STAGING_CLOUDFRONT_DISTRIBUTION_ID }}
-          SITE_URL: 'https://staging.brightinventions.pl/'
+          GATSBY_SITE_URL: 'https://staging.brightinventions.pl/'
           DEPLOY_S3_BUCKET_NAME: 'brightinventions-pl-website-content-staging'
           GATSBY_ACTIVE_ENV: staging
 

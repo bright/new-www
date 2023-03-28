@@ -1,7 +1,7 @@
 import { DefaultApi } from './apis'
 import { isProduction } from '../src/helpers/deployEnv'
 import { Configuration, DefaultConfig } from './runtime'
-import { siteUrl } from '../src/site-metadata'
+import { siteUrl } from './../src/site-metadata'
 
 const apiConfig = isProduction
   ? DefaultConfig
@@ -9,4 +9,4 @@ const apiConfig = isProduction
       basePath: new URL('/api', siteUrl).toString(),
     })
 
-const apiClient = new DefaultApi(apiConfig)
+export const apiClient = new DefaultApi(apiConfig)

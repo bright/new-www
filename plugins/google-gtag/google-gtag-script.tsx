@@ -23,10 +23,10 @@ gtag('consent', 'default', {
 gtag('js', new Date());
 
 ${trackingIds
-  .map(trackingId => {
-    return `gtag('config', '${trackingId}');`
-  })
-  .join('\n')}
+      .map(trackingId => {
+        return `gtag('config', '${trackingId}');`
+      })
+      .join('\n')}
 `
 }
 
@@ -37,7 +37,7 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
     const isConnectedToGtagDebugger = isConnectedToGoogleGtagAssistant(location)
     const partytownEnabled = options.partytownEnabled as boolean && !isConnectedToGtagDebugger
 
-    if(!partytownEnabled){
+    if (!partytownEnabled) {
       return <></>;
     }
 
