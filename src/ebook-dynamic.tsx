@@ -69,17 +69,17 @@ const EbookSectionTitle = styled(CustomSectionTitle)`
 export interface EbookDynamicProps {
   sectionTitle: string
   ebookName: string
-  imageSrc: string
-  imageAlt: string
-  description: string
+  ebookImage: string
+  ebookAlt: string
+  ebookDescription: string
 }
 
 export const EbookDynamic: React.FC<EbookDynamicProps> = ({
   sectionTitle,
   ebookName,
-  imageSrc,
-  imageAlt,
-  description,
+  ebookImage,
+  ebookAlt,
+  ebookDescription,
 }) => {
   const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookName)
   const formRef = React.useRef<HTMLFormElement>(null)
@@ -96,10 +96,10 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
         {sectionTitle}
       </EbookSectionTitle>
       <FlexWrapper tabletDirection='column' tabletGap='32px' desktopItems='center'>
-        <img alt={imageAlt} src={imageSrc} />
+        <img alt={ebookAlt} src={ebookImage} />
         {!value.ebookResponse.ebook.url ? (
           <EbookDynamicForm
-            description={description}
+            description={ebookDescription}
             setEmail={setEmail}
             setName={setName}
             setPolicy={setPolicy}
