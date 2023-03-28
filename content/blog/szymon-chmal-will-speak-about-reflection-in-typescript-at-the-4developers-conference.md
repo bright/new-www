@@ -30,6 +30,6 @@ Szymon will guide 4developers attendees into Reflection Mechanism in TypeScript.
 
 **When: Apr 18th, 4.00 - 4.45 PM, Warsaw (onside)**
 
-## Meet with Szymon at4Developers
+## Meet with Szymon at 4Developers
 
-[Tickets for 4developers](https://eventory.cc/event/4developers-2023/tickets) are still available. If you plan to attend, don't forget to say hi to Szymon.
+[Tickets for 4developers](https://eventory.cc/event/4developers-2023/tickets) are still available. If you plan to attend, don't forget to say hi to Szymon. 👋
