@@ -6,6 +6,7 @@ tags:
   - mobile
   - app
 date: 2021-06-22T08:09:07.016Z
+meaningfullyUpdatedAt: 2023-03-28T12:18:41.643Z
 title: Top app security practices to expect from developers
 layout: post
 image: /images/security-apps.jpg
@@ -27,6 +28,8 @@ Of course, **every [app development](/our-areas/web-development/) process should
 
 Also, your development team should know how to **manage secrets**. They should follow common security practises. First of all, using tools like **GPG Suite** to safely share secrets. Second of all, using solutions like **Bitwarden** to make sure that secrets are stored and are accessible by each team member. Other important practices are: encrypting the disks, using proper password retention policy and Multi-Factor Authentication (MFA). Last but not least, VPN is a must!
 
+<div class='block-button'><h2>Looking for developers who follow best security practices?</h2><div>We have been developing mobile and web apps since 2012. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+
 ## Don’t hesitate to use tools given by cloud providers
 
 When it comes to software security (especially infrastructure security) the best practice is clear: **don’t reinvent the wheel**. Just use tools given by cloud providers.
@@ -47,4 +50,4 @@ Following security rules **helps to meet legal requirements**. A great example i
 
 As you can see, **app development security isn’t a secret knowledge** possessed by elites. In the end, the most important fact is just to **follow the security guides** (btw this is an important [guide](https://owasp.org/www-pdf-archive/OWASP_Application_Security_Verification_Standard_4.0-en.pdf)) and **execute the best possible security work** from the developer team. 
 
-<div class='block-button'><h2>Looking for developers who follow best security practices?</h2><div>We have been developing mobile and web apps since 2012. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<EbookDynamic section_title='get free ebook about app security' ebook_name='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebook_description='Get even more info about top security tools and practices'  ebook_url='undefined'  ebook_image='/images/cover_ebook_security.png' ebook_alt='ebook security' />
