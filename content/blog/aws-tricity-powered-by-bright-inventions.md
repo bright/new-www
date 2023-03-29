@@ -6,7 +6,7 @@ tags:
   - inspiration
 date: 2023-03-29T11:09:50.057Z
 meaningfullyUpdatedAt: 2023-03-29T11:09:50.089Z
-title: AWS Tricity Powered by Bright Inventions
+title: "AWS Tricity Powered by Bright Inventions. Meeting #1"
 layout: post
 image: /images/aws_meetup_blog_post_cover.png
 hidden: false
