@@ -24,20 +24,16 @@ const EbookSection = styled.section`
     line-height: ${variables.pxToRem(48.76)};
     font-weight: 800;
   }
+  & img {
+    max-width: ${variables.pxToRem(412)};
+    height:auto ;
+  }
 `
 
 const MoreButtonWrapper = styled.div`
   width: fit-content;
   margin: 0 auto;
-  font-family: ${variables.font.lato}
-  & button {
-    @media ${variables.device.tabletXL} {
-      margin-top: ${variables.pxToRem(16)};
-    }
-    @media ${variables.device.tablet} {
-      margin-top: ${variables.pxToRem(48)};
-    }
-  }
+  font-family: ${variables.font.lato};
   & a {
     border-bottom: 1px solid ${variables.color.text};
     padding: 0 ${variables.pxToRem(14)} ${variables.pxToRem(5)} ${variables.pxToRem(8)};
@@ -45,8 +41,18 @@ const MoreButtonWrapper = styled.div`
     font-size: ${variables.pxToRem(20)};
     line-height: ${variables.pxToRem(40)};
 
-    & span {
+     & span {
       padding-left: ${variables.pxToRem(17)};
+    }
+  }
+  @media ${variables.device.tabletXL} {
+    & button {
+      margin-top: ${variables.pxToRem(16)};
+    }
+  }
+  @media ${variables.device.tablet} {
+    & button {
+      margin-top: ${variables.pxToRem(48)};
     }
   }
   @media ${variables.device.mobile} {
@@ -95,7 +101,7 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
       >
         {sectionTitle}
       </EbookSectionTitle>
-      <FlexWrapper tabletDirection='column' tabletGap='32px' desktopItems='center'>
+      <FlexWrapper tabletDirection='column' tabletGap='32px' desktopItems='center' desktopGap='16px'>
         <img alt={ebookAlt} src={ebookImage} />
         {!value.ebookResponse.ebook.url ? (
           <EbookDynamicForm
