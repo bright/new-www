@@ -39,6 +39,13 @@ margin: ${variables.pxToRem(48)} auto 0;
 		& span {
 			padding-left: ${variables.pxToRem(17)};
 		}
+
+		@media ${variables.device.mobile} {
+    		& svg {
+      			width: 16px;
+      			height: auto;
+    		}
+		}
 	}
 `
 
