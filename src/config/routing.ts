@@ -23,11 +23,13 @@ export const routeLinks = {
     }
     return `/our-areas/`
   },
+  jobOffer(slug: string){
+    return `/jobs/${slug}/`
+  },
   whatWeOffer: '/what-we-offer/',
   projects: '/projects/',
   career: '/career/',
   blog: '/blog/',
-  jobs: '/jobs/',
   startProject: '/start-project/',
   privacyPolicy: '/privacy-policy',
   webDevelopment: '/our-areas/web-development',

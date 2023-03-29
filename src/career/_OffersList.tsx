@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import { routeLinks } from '../config/routing'
-import { getJobPath } from '../helpers/pathHelpers'
+import { getJobSlug } from '../helpers/pathHelpers'
 import { JobModel } from '../models/gql'
 import variables from '../styles/variables'
 
@@ -285,7 +285,7 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
       <JobWrapper>
         {(jobs || []).map(job => (
           <Job >
-            <JobLink to={routeLinks.jobs + getJobPath(job.url)}>
+            <JobLink to={routeLinks.jobOffer(getJobSlug(job.url))}>
               <JobSubtitleWrapper>
                 <JobHourWrapper>
                   <span className='job'>{job.hours}</span>Gdańsk/remote
