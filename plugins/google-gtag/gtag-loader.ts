@@ -13,11 +13,11 @@ function isPartytownScript(s: HTMLScriptElement) {
 }
 
 export function gtagLoader(): Promise<Gtag.Gtag> {
-  return new Promise((resolve, reject) => {
-    if (isGtagDefined()) {
-      resolve(gtag)
-    }
+  if (isGtagDefined()) {
+    return Promise.resolve(gtag)
+  }
 
+  return new Promise((resolve, reject) => {
     document.addEventListener('DOMContentLoaded', async () => {
       if (isGtagDefined()) {
         resolve(gtag)

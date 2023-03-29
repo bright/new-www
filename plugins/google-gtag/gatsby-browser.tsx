@@ -1,7 +1,7 @@
 import { GatsbyBrowser } from 'gatsby'
-import { gtagOrFallback } from './gtag-or-fallback'
 import { GoogleGtagScript } from './google-gtag-script'
 import React from 'react'
+import { gtagLoader } from './gtag-loader'
 
 // TODO: this would be the same in pixel or hotjar
 // how do we unify that?
@@ -32,12 +32,13 @@ function pageViewDimensionsFromMeta() {
 
 export const onRouteUpdate: GatsbyBrowser['onRouteUpdate'] = args => {
   const location = args.location
-  // directly from gatsby-plugin-google-gtag
-  const sendPageView = function sendPageView() {
-    const pagePath = location ? location.pathname + location.search + location.hash : undefined
-    gtagOrFallback()('event', 'page_view', {
+  const sendPageView = async function sendPageView() {
+    const pagePath = location ? location.pathname + location.search + location.hash : undefined;
+    const viewDimensions = pageViewDimensionsFromMeta();
+    const gtag = await gtagLoader()
+    gtag('event', 'page_view', {
       page_path: pagePath,
-      ...pageViewDimensionsFromMeta(),
+      ...viewDimensions,
     })
   }
 
