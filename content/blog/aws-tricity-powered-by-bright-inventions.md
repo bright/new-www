@@ -71,4 +71,8 @@ More on his presentation:
 * Short Demo.
 * Q&A.
 
-### Maciej Makarewicz,DevOps Engineer @ LCloud, owner @ Makaron-IT
+### Maciej Makarewicz, DevOps Engineer @ LCloud, owner @ Makaron-IT
+
+Maciej provides computer service and consulting in cloud services and DevOps methodologies. In the IT industry for more than 10 years, a natural ability to expand his knowledge of computer science and electronics led him to complete an engineering degree in Bydgoszcz in Electronics and Telecommunications, followed by a master's degree in Computer Science at Gdansk University of Technology. 
+
+Professionally, he is involved in spreading DevOps knowledge and designing solutions in the AWS cloud and GCP. He strives to expand his knowledge of cloud services and share his knowledge with others. Privately passionate about sports, especially basketball, calisthenics, and swimming. In addition to sports, he is interested in shooting and growing plants.
