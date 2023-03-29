@@ -76,3 +76,22 @@ More on his presentation:
 Maciej provides computer service and consulting in cloud services and DevOps methodologies. In the IT industry for more than 10 years, a natural ability to expand his knowledge of computer science and electronics led him to complete an engineering degree in Bydgoszcz in Electronics and Telecommunications, followed by a master's degree in Computer Science at Gdansk University of Technology. 
 
 Professionally, he is involved in spreading DevOps knowledge and designing solutions in the AWS cloud and GCP. He strives to expand his knowledge of cloud services and share his knowledge with others. Privately passionate about sports, especially basketball, calisthenics, and swimming. In addition to sports, he is interested in shooting and growing plants.
+
+**More on his presentation:**
+
+Nie takie katastrofy w IT straszne, czyli słów kilka o AWS Disaster Recovery 
+(English: Disasters aren’t as scary as they seem. A few words about AWS Disaster Recovery)
+
+* The general context of disaster recovery.
+* Exploring disaster recovery options at AWS.
+* Disaster recovery testing.
+* Explaining AWS Disaster Recovery + case study.
+* Live presentation showing practical operations with DR.
+
+## Join Tricity AWS community
+
+If you are from Tricity (Poland), join or [AWS Tricity Facebook group](https://www.facebook.com/groups/679812723195646). Get AWS insights, info about meetups and free [AWS workshops](https://www.facebook.com/events/1303096523786948/?ref=newsfeed) that we regularly organize.
+
+AWS meetup is powered by Bright Inventions, a software development agency based in Gdańsk. Bright Inventions gathers DevOps enthusiasts to share knowledge about AWS. The company is on its way to becoming AWS Partner (fingers crossed). 🙂
+
+<div class='block-button'><h2>Register to AWS Tricity Meetup</h2><div>We've got a limited number of free tickets. Register for free now!</div><a href="https://www.meetup.com/aws-tricity/events/292549246/"><button>sign up for AWS Tricity</button></a></div>
