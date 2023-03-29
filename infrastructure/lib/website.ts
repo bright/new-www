@@ -4,8 +4,7 @@ import { Bucket, IBucket } from 'aws-cdk-lib/aws-s3'
 import cloudfront, {
   Behavior,
   CloudFrontAllowedMethods,
-  CloudFrontWebDistribution,
-  FunctionCode,
+  CloudFrontWebDistribution, FunctionCode,
   FunctionEventType,
   OriginAccessIdentity,
   OriginProtocolPolicy,
@@ -22,7 +21,6 @@ import { Rule, Schedule } from 'aws-cdk-lib/aws-events'
 import { LambdaFunction } from 'aws-cdk-lib/aws-events-targets'
 import { Construct } from 'constructs'
 import { ENV_SPECIFIC_BASE } from './deploy-env'
-import { hasUserDecidedOnAnalyticsConsentCookieName } from '../../src/analytics/has-user-decided-on-analytics-consent-cookie-name'
 import { EsbuildProvider } from '@mrgrain/cdk-esbuild'
 import * as fs from 'fs'
 import path from 'path'
@@ -128,18 +126,18 @@ export class Website extends cdk.Stack {
     }
 
     const preserveUriParametersOnRedirectPath = path.resolve(
-      path.join(process.cwd(), 'lib', 'preserve-uri-parameters-on-redirect.js')
+      path.join(process.cwd(), 'lib', 'preserve-uri-parameters-on-redirect.ts')
     )
     EsbuildProvider.defaultBuildProvider().buildSync({
-      entryPoints: [path.resolve(path.join(process.cwd(), 'lib', 'preserve-uri-parameters-on-redirect.ts'))],
+      entryPoints: [preserveUriParametersOnRedirectPath],
       bundle: true,
       sourcemap: false,
       minify: false,
       treeShaking: false,
-      outfile: preserveUriParametersOnRedirectPath,
+      outfile: pathWithExt(preserveUriParametersOnRedirectPath, '.js'),
       platform: 'node',
     })
-    const preserveUriParametersOnRedirectCompiled = fs.readFileSync(preserveUriParametersOnRedirectPath, 'utf-8')
+    const preserveUriParametersOnRedirectCompiled = fs.readFileSync(pathWithExt(preserveUriParametersOnRedirectPath, '.js'), 'utf-8')
 
     const staticContentBehavior: Behavior = {
       isDefaultBehavior: true,
@@ -147,7 +145,13 @@ export class Website extends cdk.Stack {
         queryString: false,
       },
       functionAssociations: [
-      ],
+        {
+          eventType: FunctionEventType.VIEWER_RESPONSE,
+          function: new CloudfrontFunction(this, 'preserve-uri-parameters-on-redirect', {
+            code: FunctionCode.fromInline(preserveUriParametersOnRedirectCompiled),
+          }),
+        }
+      ]
     }
 
     const productionWebDistribution = new CloudFrontWebDistribution(this, 'distribution', {
@@ -186,7 +190,9 @@ export class Website extends cdk.Stack {
             domainName: stagingBucket.bucketWebsiteDomainName,
             originProtocolPolicy: OriginProtocolPolicy.HTTP_ONLY,
           },
-          behaviors: [staticContentBehavior],
+          behaviors: [
+            staticContentBehavior,
+          ],
         },
       ],
       viewerCertificate: ViewerCertificate.fromAcmCertificate(certificate, {
@@ -275,4 +281,8 @@ export class Website extends cdk.Stack {
       value: stagingWebDistribution.distributionDomainName,
     })
   }
+}
+
+function pathWithExt(filePath: string, ext: string ) {
+  return path.format({ ...path.parse(filePath), base: '', ext })
 }
