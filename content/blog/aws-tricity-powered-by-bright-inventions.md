@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-03-29T11:09:50.089Z
 title: AWS Tricity Powered by Bright Inventions
 layout: post
 image: /images/aws_meetup_blog_post_cover.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
