@@ -18,6 +18,7 @@ faqs:
   - What does the Industrial Internet of Things (IIoT) mean?
   - Do you provide AWS IoT services?
   - Are you an IoT product design company?
+  - What are IoT security services and do you provide them?
 project:
   - vcare
   - card-reader
