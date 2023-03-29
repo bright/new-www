@@ -1,4 +1,4 @@
-import React, { ComponentProps, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { PluginOptions } from 'gatsby'
 import { Script } from 'gatsby-script'
 import { googleTagManagerUrl } from './google-tag-manager-url'
@@ -35,13 +35,8 @@ export const GoogleGtagScript = ({ options, location }: { options: PluginOptions
 
   if (Array.isArray(trackingIds) && trackingIds.length > 0) {
     const isConnectedToGtagDebugger = isConnectedToGoogleGtagAssistant(location)
-    const partytownEnabled = options.partytownEnabled as boolean && !isConnectedToGtagDebugger
-
-    if (!partytownEnabled) {
-      return <></>;
-    }
-
-    const scriptLoadStrategy = partytownEnabled ? 'off-main-thread' : 'post-hydrate'
+    const partytownEnabled = options.partytownEnabled && !isConnectedToGtagDebugger
+    const scriptLoadStrategy = partytownEnabled ? 'off-main-thread' : 'idle'
 
     useEffect(() => {
       setIsConnectedToGoogleGtagAssistant(isConnectedToGtagDebugger)

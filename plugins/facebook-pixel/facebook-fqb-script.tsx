@@ -6,7 +6,7 @@ import { partytownEnabled } from '../../src/partytown'
 export const FacebookFqbScript = ({ options }: { options: PluginOptions }) => {
   const pixelId = options.pixelId
   if (pixelId) {
-    const scriptLoadStrategy = partytownEnabled ? 'off-main-thread' : 'post-hydrate'
+    const scriptLoadStrategy = partytownEnabled ? 'off-main-thread' : 'idle'
     const partytownForwards = partytownEnabled ? ['fbq'] : []
     console.debug('fbq', { scriptLoadStrategy, partytownForwards })
     return (
