@@ -2,7 +2,7 @@
 layout: faqs
 faqs_id: What are IoT security services and do you provide them?
 name: iot development 10
-slug: what-are-iot-security-services-do-you provide-them
+slug: what-are-iot-security-services-do-you-provide-them
 question: What are IoT security services and do you provide them?
 answer: >-
   IoT (Internet of Things) security services are designed to **protect the
