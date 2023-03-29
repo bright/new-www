@@ -1,20 +1,22 @@
 import CookieConsent from 'react-cookie-consent'
 import { CookieConsentProps } from 'react-cookie-consent/dist/CookieConsent.props'
-import React, { createContext, useContext, useMemo } from 'react'
+import React, { createContext, useContext, useMemo, useState } from 'react'
 import { hasUserDecidedOnConsent } from './local-storage-constants'
 
-const CookieConsentContext = createContext({ visibleByDefault: false })
-const userDecidedOnConsent = hasUserDecidedOnConsent()
+const CookieConsentContext = createContext({
+  visibleByDefault: false,
+  setVisibleByDefault(visible: boolean) {},
+})
+
 export const CookieConsentContextWrapper: React.FC<{ visibleByDefault?: boolean }> = function ({
   children,
   visibleByDefault,
 }) {
+  const [visible, setVisible] = useState(() =>
+    typeof visibleByDefault == 'boolean' ? visibleByDefault : !hasUserDecidedOnConsent()
+  )
   return (
-    <CookieConsentContext.Provider
-      value={{
-        visibleByDefault: typeof visibleByDefault == 'boolean' ? visibleByDefault : !userDecidedOnConsent,
-      }}
-    >
+    <CookieConsentContext.Provider value={{ visibleByDefault: visible, setVisibleByDefault: setVisible }}>
       {children}
     </CookieConsentContext.Provider>
   )
@@ -30,12 +32,14 @@ class VisibleCookieConsent extends CookieConsent {
   }
 }
 
-export const ContextualCookieConsent: React.FC<Partial<CookieConsentProps>> = props => {
-  const configuration = useContext(CookieConsentContext)
+export function useCookieConsentContext() {
+  return useContext(CookieConsentContext)
+}
 
-  const Component = useMemo(() => {
-    return configuration.visibleByDefault ? VisibleCookieConsent : CookieConsent
-  }, [])
+export const ContextualCookieConsent: React.FC<Partial<CookieConsentProps>> = props => {
+  const configuration = useCookieConsentContext()
+
+  const Component = configuration.visibleByDefault ? VisibleCookieConsent : CookieConsent
 
   return <Component {...props} />
 }

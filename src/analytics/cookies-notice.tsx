@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { Link } from 'gatsby'
 import { routeLinks } from '../config/routing'
 import { TextRegular } from '../components/shared/index.styled'
@@ -7,7 +7,7 @@ import variables from '../styles/variables'
 import { ModalCookies } from './modal-cookies'
 import { onAllowAll } from './local-storage-constants'
 import { hasUserDecidedOnAnalyticsConsentCookieName } from './has-user-decided-on-analytics-consent-cookie-name'
-import { ContextualCookieConsent } from './contextual-cookie-consent'
+import { ContextualCookieConsent, useCookieConsentContext } from './contextual-cookie-consent'
 import { VISIBILITY_OPTIONS } from 'react-cookie-consent/src/models/constants/visibilityOptions'
 
 // using env variables here would invalidate webpack cache hashes it seems
@@ -153,6 +153,7 @@ type VisibilityOptions = typeof VISIBILITY_OPTIONS[keyof typeof VISIBILITY_OPTIO
 
 function CookiesNotice() {
   const [modalIsOpen, setIsOpen] = React.useState(false)
+  const {setVisibleByDefault} = useCookieConsentContext()
   const [cookieConsentVisible, setCookieConsentVisible] = useState<VisibilityOptions>(
     VISIBILITY_OPTIONS.BY_COOKIE_VALUE
   )
@@ -162,11 +163,13 @@ function CookiesNotice() {
   }
 
   function closeModal() {
+    setVisibleByDefault(false)
     setIsOpen(false)
     setCookieConsentVisible(VISIBILITY_OPTIONS.HIDDEN)
   }
 
   function onAccept(){
+    setVisibleByDefault(false)
     setCookieConsentVisible(VISIBILITY_OPTIONS.HIDDEN)
     onAllowAll()
   }
