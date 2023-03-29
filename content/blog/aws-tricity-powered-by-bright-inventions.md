@@ -45,11 +45,23 @@ April 13, 2023, Gdańsk Entrepreneurship Incubator STARTER
 
 ### Piotr Mionskowski, Partner and Team Leader @ Bright Inventions
 
+<div class="image"><img src="/images/aws_tricity_speaker_piotr.png" alt="Piotr Mionskowski AWS Tricity" title="Piotr Mionskowski AWS Tricity"  /> </div>
+
 Piotr is a senior fullstack developer and tech lead with over 12 years of professional experience in backend APIs, distributed systems, backend frameworks, and databases. He possesses an exceptional ability to learn almost every new technology that appears. Always up-to-date. Always focused.
 
 Piotr has mastered the art of writing SOLID code and finding the answers to the most unexpected problems. Keeping a client's product operational and running is always of huge importance. He sometimes called himself “A Man Dancing with the Code” because for him programming does not come down to writing code. It is something more – it is an art in which programmers are sculptors who always should ask the question “Why”. A great fan of TDD and pair programming.
 
+More o his presentation:
+
+**OpenTelemetry**
+
+OpenTelemetry enables new opportunities for monitoring production systems. With a set of standardized APIs, we can decouple our systems from monitoring products and have a common language to speak cross-platforms. I’m going to talk & demonstrate where Opentelemetry shines and where we should look for a different tool.
+
 ### [Paweł Piwosz](https://www.linkedin.com/in/pawelpiwosz), DevOps Institute Ambassador, AWS Community Builder & CD.Foundation Ambassador
+
+<div class="image"><img src="/images/aws_tricity_speaker_pawel.png" alt="Paweł Piwosz AWS Tricity" title="Paweł Piwosz AWS Tricity"  /> </div>
+
+DevOps, leader, mentor, trainer. His main focus in DevOps is CALMS as a framework. He tries to build a better understanding of DevOps as a company’s “driving force”.
 
 More on his presentation:
 
@@ -58,6 +70,8 @@ More on his presentation:
 The story is about whether migration to AWS (or any cloud in general) is a solution to all problems. What are the things we need to have under control, so we won’t be surprised by an extremely high invoice from AWS? Or what’s worst - by a “request” from a hacker for some bitcoins.
 
 ### [Somanath Dange](https://www.linkedin.com/in/somanath-dange/), DevOps Consultant @ Amazon Web Services
+
+<div class="image"><img src="/images/aws_tricity_speaker_somanath.png" alt="Somanath Dange AWS Tricity" title="Somanath Dange AWS Tricity"  /> </div>
 
 He has a total of 11.5 years of experience working in the IT industry as a DevOps Engineer. He has good experience working with AWS Cloud, solving complex problems. He has worked on many DevOps tools like terraform, GitLab, GitHub, Docker, Jenkins. His interest is in Cloud and he loves working on Cloud.
 
@@ -71,15 +85,17 @@ More on his presentation:
 * Short Demo.
 * Q&A.
 
-### Maciej Makarewicz, DevOps Engineer @ LCloud, owner @ Makaron-IT
+### [Maciej Makarewicz](https://www.linkedin.com/in/maciej-makarewicz-5889abb5/), DevOps Engineer @ LCloud, owner @ Makaron-IT
+
+<div class="image"><img src="/images/aws_tricity_speaker_maciej.png" alt="Maciej Makarewicz AWS Tricity" title="Maciej Makarewicz AWS Tricity"  /> </div>
 
 Maciej provides computer service and consulting in cloud services and DevOps methodologies. In the IT industry for more than 10 years, a natural ability to expand his knowledge of computer science and electronics led him to complete an engineering degree in Bydgoszcz in Electronics and Telecommunications, followed by a master's degree in Computer Science at Gdansk University of Technology. 
 
 Professionally, he is involved in spreading DevOps knowledge and designing solutions in the AWS cloud and GCP. He strives to expand his knowledge of cloud services and share his knowledge with others. Privately passionate about sports, especially basketball, calisthenics, and swimming. In addition to sports, he is interested in shooting and growing plants.
 
-**More on his presentation:**
+More on his presentation:
 
-Nie takie katastrofy w IT straszne, czyli słów kilka o AWS Disaster Recovery 
+**Nie takie katastrofy w IT straszne, czyli słów kilka o AWS Disaster Recovery** 
 (English: Disasters aren’t as scary as they seem. A few words about AWS Disaster Recovery)
 
 * The general context of disaster recovery.
