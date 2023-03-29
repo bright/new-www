@@ -38,3 +38,37 @@ April 13, 2023, Gdańsk Entrepreneurship Incubator STARTER
 **7.30 pm** Discussion Panel \[held in Polish]
 
 **8.10 pm** Hot pizza, cold beer & networking
+
+## Meet our speakers
+
+4 speakers will share AWS insights with attendees:
+
+### Piotr Mionskowski, Partner and Team Leader @ Bright Inventions
+
+Piotr is a senior fullstack developer and tech lead with over 12 years of professional experience in backend APIs, distributed systems, backend frameworks, and databases. He possesses an exceptional ability to learn almost every new technology that appears. Always up-to-date. Always focused.
+
+Piotr has mastered the art of writing SOLID code and finding the answers to the most unexpected problems. Keeping a client's product operational and running is always of huge importance. He sometimes called himself “A Man Dancing with the Code” because for him programming does not come down to writing code. It is something more – it is an art in which programmers are sculptors who always should ask the question “Why”. A great fan of TDD and pair programming.
+
+### [Paweł Piwosz](https://www.linkedin.com/in/pawelpiwosz), DevOps Institute Ambassador, AWS Community Builder & CD.Foundation Ambassador
+
+More on his presentation:
+
+**Start your journey with AWS - the good, the bad and the ugly**
+
+The story is about whether migration to AWS (or any cloud in general) is a solution to all problems. What are the things we need to have under control, so we won’t be surprised by an extremely high invoice from AWS? Or what’s worst - by a “request” from a hacker for some bitcoins.
+
+### [Somanath Dange](https://www.linkedin.com/in/somanath-dange/), DevOps Consultant @ Amazon Web Services
+
+He has a total of 11.5 years of experience working in the IT industry as a DevOps Engineer. He has good experience working with AWS Cloud, solving complex problems. He has worked on many DevOps tools like terraform, GitLab, GitHub, Docker, Jenkins. His interest is in Cloud and he loves working on Cloud.
+
+More on his presentation:
+
+**Introduction to Serverless Framework:**
+
+* What is serverless framework?
+* How to leverage serverless framework to deploy resources to AWS Cloud?
+* Code walkthrough.
+* Short Demo.
+* Q&A.
+
+### Maciej Makarewicz,DevOps Engineer @ LCloud, owner @ Makaron-IT
