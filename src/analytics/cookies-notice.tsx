@@ -166,6 +166,11 @@ function CookiesNotice() {
     setCookieConsentVisible(VISIBILITY_OPTIONS.HIDDEN)
   }
 
+  function onAccept(){
+    setCookieConsentVisible(VISIBILITY_OPTIONS.HIDDEN)
+    onAllowAll()
+  }
+
   return (
     <SectionNotice>
       <ContextualCookieConsent
@@ -180,7 +185,7 @@ function CookiesNotice() {
         overlayClasses='overlay'
         buttonWrapperClasses={'wrapper-button'}
         containerClasses={'cookies-wrapper'}
-        onAccept={onAllowAll}
+        onAccept={onAccept}
       >
         <div>
           <CookieHeading>allow cookies</CookieHeading>
