@@ -62,7 +62,7 @@ PageDescription> */}
         </HideTablet>
         <BlogFeed posts={createBlogPosts(data)} />
         <ScrollToTop />
-        <Paging pageContext={pageContext} baseURI={`${routeLinks.blog}/`} />
+        <Paging pageContext={pageContext} baseURI={routeLinks.blog} />
         <NewsletterWrapper />
       </CustomSection>
     </Page>

@@ -157,7 +157,7 @@ const AboutUSTemplate: React.FC<Props> = ({ data, pageContext, children }) => {
               <CustomSectionTitle ref={postsRef}>blog posts by {member.short_name}</CustomSectionTitle>
               <BlogFeed posts={createBlogPosts(posts)} />
 
-              <Paging pageContext={pageContext} baseURI={`${routeLinks.aboutUs({ authorId, slug })}`} />
+              <Paging pageContext={pageContext} baseURI={routeLinks.aboutUs({ authorId, slug })} />
             </>
           )}
           <AuthorBackButtonWrapper>

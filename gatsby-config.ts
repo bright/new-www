@@ -327,5 +327,6 @@ const gatsbyConfig: GatsbyConfig = {
     'Mdx.frontmatter.project': `Mdx.frontmatter.project_id`,
   },
   graphqlTypegen: true,
+  trailingSlash: 'always' // a default in Gatsby 5
 }
 export default gatsbyConfig

@@ -158,7 +158,7 @@ export const Paging: React.FC<PagingProps> = ({ pageContext, baseURI }) => {
 
   const prevHref = !tag && currentPage <= 2 ? baseURI : `${baseURI}${currentPage - 1}`
   const lastPage = paginationRange?.[paginationRange?.length - 1]
-  const nextHref = `${baseURI}${currentPage + 1}`
+  const nextHref = `${baseURI}${currentPage + 1}/`
 
   return (
     <PagingWrapper>
