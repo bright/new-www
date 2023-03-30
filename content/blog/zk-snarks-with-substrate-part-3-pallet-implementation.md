@@ -256,11 +256,7 @@ To upload them on the blockchain, by clicking on the `Submit Transaction` button
 
 When we press on `Submit Transaction`, our proof is going to be uploaded and the verification procedure will be run.
 
-<center>
-
-![alt zk-snark verification success!](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/img/verification_success.png "Verification Success")
-
-</center>
+<div class="image"><img src="/images/verification_success.png" alt="Verification Success" title="Verification Success"  /> </div>
 
 Now we can verify if we received a `VerificationSuccess` event. To do it, we need to switch to the `Explorer` panel.
 
