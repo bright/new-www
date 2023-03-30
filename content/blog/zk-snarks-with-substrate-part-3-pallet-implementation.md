@@ -4,8 +4,8 @@ tags:
   - Substrate
   - rust
   - ZK-Snarks
-date: 2023-03-30T11:38:23.071Z
-meaningfullyUpdatedAt: 2023-03-30T11:38:23.099Z
+date: 2023-03-30T11:57:00.666Z
+meaningfullyUpdatedAt: 2023-03-30T11:57:01.286Z
 title: Zk-SNARKs with Substrate (Part 3). Pallet Implementation
 layout: post
 image: /images/blogpost_zk-snarks_part3.png
