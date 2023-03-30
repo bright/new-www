@@ -36,29 +36,36 @@ In Substrate, the business logic of the blockchain is hidden in the runtime. We 
 We have already learned that zk-SNARKs can be used to prove knowledge of a solution for a problem, without revealing it. We just need to provide proof that can be later verified by someone else. Creation of such proof is done in a couple of stages, where we first convert our problem to R1CS (*Rank-1 Constraint System*) form, and then transform it to the QAP (*Quadratic Arithmetic Program*). For this process, we used Circom and SnarkJS. We used a Groth16 as a proving system for assurance of the encryption. Finally, we were able to implement a Rust library, which used artifacts from Circom and SnarkJS, to validate proof.
 
 In the previous post, we show how we can use Circom and SnarkJS in the verification process. Let's remind us what artifacts in the context of those tools we get:
+
 * **[input.json](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/data/input.json)** - this file contains public input, in our case, it is a `12` value from our equation.
 * **[verification_key.json](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/data/verification_key.json)** - file generated from SnarkJS, it contains a verification key, which "signs" our circuits (transformed equation).
 * **[proof.json](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/data/proof.json)** - file created by Alice using SnarkJS, which proves her knowledge of solving the equation. 
 
 As you probably remember, at this stage Bob could use a SnarkJS to verify, if the proof is valid, by running this command:
+
 ```
 snarkjs groth16 verify verification_key.json input.json proof.json
 ```
+
 He is using a *Groth16* as a proving system. The output is:
+
 ```
 [INFO]  snarkJS: OK!
 ```
+
 which means that proof passed the validation. Now we will try to do the same in the Substrate pallet, using our Groth16 code from the previous article.
 
-
 ## Substrate Pallet
+
 First, let's define what we expect from pallet to do. We definitely would like to have on-chain storage of the artifacts generated from Circom and SnarkJS, because they are going to be used in the verification process. We will need to provide functionality for other participants to send and verify their proofs. Finally, we would like to be informed when someone will send us valid proof.
 
 Based on what we said, we can define an interface for our pallet which is in Substrate called an extirices. We are going to define two methods:
+
 * **setup_verification** - this methods allows Bob to send a public inputs (*input.json*) and the verification key (*verification_key.json*).
 * **verify** - thanks to this method, Alice (and others) will be able to send their proofs (*proof.json*) and verify them. When the verification succeeds, it will emit an event that is going to be stored on the blockchain.
 
 ## Implementation
+
 The implementation we started from the [Substrate Node Template](https://github.com/substrate-developer-hub/substrate-node-template), which is a single-node blockchain that we could run locally in our development environment. We added there a zk-SNARK pallet which uses Groth16 in the verification process. The final result can be found on our [GitHub](https://github.com/bright/zk-snarks-with-substrate). We will now try to present the core components of this code.
 
 Implementation of the zk-SNARK pallet can be found in the [pallets/zk-snarks/src/lib.rs](https://github.com/bright/zk-snarks-with-substrate/blob/main/pallets/zk-snarks/src/lib.rs) file. All pallets in Substrate follow the same skeleton pattern based on the macros:
@@ -82,8 +89,10 @@ pub mod pallet {
 
 Now we are going to take a closer look at the following sections.
 
-### #[pallet::config]
+### \#\[pallet::config]
+
 All pallets in Substrate define a trait called `Config`, which needs to be defined under this macro. We can declare here some specific pallet requirements. In our case, for the zk-SNARK we are going to define some constant values:
+
 ```
 #[pallet::constant]
 type MaxPublicInputsLength: Get<u32>;
@@ -92,9 +101,11 @@ type MaxProofLength: Get<u32>;
 #[pallet::constant]
 type MaxVerificationKeyLength: Get<u32>;
 ```
+
 As you probably guess, we are going to use those constants for checking the maximum length of our input files.
 
-### #[pallet::event]
+### \#\[pallet::event]
+
 This section defines all events that can be emitted from our pallet. We have defined several events here that left information on the blockchain about the progress of the verification. 
 
 ```
@@ -107,10 +118,13 @@ pub enum Event<T: Config> {
     VerificationFailed,
 }
 ```
+
 What is worth mentioning, Rust language allows the definition of different types of enums fields. We take advantage of this feature when we have declared a `VerificationSuccess` event. The event will store an `AccountId`, which represents an account that belongs to the person who submits valid proof.
 
-### #[pallet::error]
+### \#\[pallet::error]
+
 Here we define all errors, which our pallet returns when something goes wrong.
+
 ```
 #[pallet::error]
 pub enum Error<T> {
@@ -131,8 +145,10 @@ pub enum Error<T> {
 }
 ```
 
-### #[pallet::storage]
+### \#\[pallet::storage]
+
 The storage section defines all information that can be stored on the blockchain. In the context of zk-SNARKs, we would like to store artifacts generated by Bob (public inputs, verification key) and Alice (proof).
+
 ```
 #[pallet::storage]
 pub type PublicInputStorage<T: Config> = StorageValue<_, PublicInputsDef<T>, ValueQuery>;
@@ -142,10 +158,12 @@ pub type ProofStorage<T: Config> = StorageValue<_, ProofDef<T>, ValueQuery>;
 pub type VerificationKeyStorage<T: Config> = StorageValue<_, VerificationKeyDef<T>, ValueQuery>;
 ```
 
-### #[pallet::call]
+### \#\[pallet::call]
+
 Final section declarations extrinsics, which is the interface for pallets. As we mentioned earlier, we defined two methods. Thanks to them, we will be able to interact with the zk-SNARK pallet.
 
 The first method is for the verification setup, which is going to be used by Bob to set up the contest. We are going to store public input and the verification key. We will emit a *VerificationSetupCompleted* event. If anything goes wrong, we will return an appropriate error.
+
 ```
 pub fn setup_verification(
         origin: OriginFor<T>,
@@ -185,11 +203,15 @@ pub fn verify(origin: OriginFor<T>, vec_proof: Vec<u8>) -> DispatchResult {
 ```
 
 ## Running
+
 We are ready to build and run our Substrate node. We are going to run it in the development mode, where the chain doesn't require any peer connections to finalize blocks. Our pallet will be run inside its runtime. 
+
 ```
 cargo run -- --dev
 ```
+
 If everything goes fine, we should get the output:
+
 ```
 2023-01-04 13:46:22 Substrate Node    
 2023-01-04 13:46:22 ✌️  version 4.0.0-dev-91c730faef3    
@@ -223,11 +245,11 @@ This app will allow us to interact with our zk-SNARK pallet, but first you will 
 
 <center>
     
-![alt zk-snark extrinsics!](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/img/extrinsicse_tab.png "Extrinsics tab")
+!\[alt zk-snark extrinsics!](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/img/extrinsicse_tab.png "Extrinsics tab")
     
 </center>
     
-In the field `submit the following extrinsic`, please select `zkSnarks`. This is the pallet, that we created during this tutorial. Now you should be able to see our two extrinsic. We are going to select `setupVerification(pubInput, vecVk)` and upload public inputs and the verification key. Normally this would be done by Bob, so we will switch to the his account. We are going to upload a file, so we need to select `file upload` for `pubInput` and `vecVk` as on. Now you can upload them appropriately. For `pubInput` select a file `input.json` and for the `vecVk` chose `verification_key.json`.
+In the field \`submit the following extrinsic\`, please select \`zkSnarks\`. This is the pallet, that we created during this tutorial. Now you should be able to see our two extrinsic. We are going to select \`setupVerification(pubInput, vecVk)\` and upload public inputs and the verification key. Normally this would be done by Bob, so we will switch to the his account. We are going to upload a file, so we need to select \`file upload\` for \`pubInput\` and \`vecVk\` as on. Now you can upload them appropriately. For \`pubInput\` select a file \`input.json\` and for the \`vecVk\` chose \`verification_key.json\`.
 
 <center>
 
@@ -251,7 +273,6 @@ When we press on `Submit Transaction`, our proof is going to be uploaded and the
 
 </center>
 
-
 Now we can verify if we received a `VerificationSuccess` event. To do it, we need to switch to the `Explorer` panel.
 
 <center>
@@ -263,5 +284,9 @@ Now we can verify if we received a `VerificationSuccess` event. To do it, we nee
 As you see, verification succeed, and the event was emitted from the Alice account.
 
 ## Summary
+
 Thanks to blockchain technology and zk-SNARKs, Alice proved that she knew the solution to the Bob puzzle without revealing it. Everything was stored on the blockchain, so the result of the contest was fully transparent for everyone.
 
+- - -
+
+This tutorial is supported by the [Web3 Foundation Grants Program](https://web3.foundation/grants/).
