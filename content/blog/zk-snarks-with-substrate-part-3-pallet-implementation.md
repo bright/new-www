@@ -252,11 +252,7 @@ In the field \\`submit the following extrinsic\\`, please select \\`zkSnarks\\`.
 
 To upload them on the blockchain, by clicking on the `Submit Transaction` button. We are finally able to help Alice with the proof verification. In the same panel, we need to choose our second extrinsic, which is `verify`. We will have to do the same, as we did with the previous files, but this time we will upload proof. Please remember to switch to the Alice account.
 
-<center>
-
-![alt zk-snark proof!](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/img/proof.png "Proof")
-
-</center>
+<div class="image"><img src="/images/proof.png" alt="Proof" title="Proof"  /> </div>
 
 When we press on `Submit Transaction`, our proof is going to be uploaded and the verification procedure will be run.
 
