@@ -260,11 +260,7 @@ When we press on `Submit Transaction`, our proof is going to be uploaded and the
 
 Now we can verify if we received a `VerificationSuccess` event. To do it, we need to switch to the `Explorer` panel.
 
-<center>
-
-![alt zk-snark verification event!](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/img/event.png "Verification Event")
-
-</center>
+<div class="image"><img src="/images/event.png" alt="Explorer panel" title="Explorer panel"  /> </div>
 
 As you see, verification succeed, and the event was emitted from the Alice account.
 
