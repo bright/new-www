@@ -248,11 +248,7 @@ This app will allow us to interact with our zk-SNARK pallet, but first you will 
 \    
 In the field \\`submit the following extrinsic\\`, please select \\`zkSnarks\\`. This is the pallet, that we created during this tutorial. Now you should be able to see our two extrinsic. We are going to select \\`setupVerification(pubInput, vecVk)\\` and upload public inputs and the verification key. Normally this would be done by Bob, so we will switch to the his account. We are going to upload a file, so we need to select \\`file upload\\` for \\`pubInput\\` and \\`vecVk\\` as on. Now you can upload them appropriately. For \\`pubInput\\` select a file \\`input.json\\` and for the \\`vecVk\\` chose \\`verification_key.json\\`.
 
-<center>
-
-![alt zk-snark setup verification key!](https://github.com/bright/zk-snarks-with-substrate/blob/main/blog/img/vk.png "Setup Verification")
-
-</center>
+<div class="image"><img src="/images/vk.png" alt="Verification" title="Verification"  /> </div>
 
 To upload them on the blockchain, by clicking on the `Submit Transaction` button. We are finally able to help Alice with the proof verification. In the same panel, we need to choose our second extrinsic, which is `verify`. We will have to do the same, as we did with the previous files, but this time we will upload proof. Please remember to switch to the Alice account.
 
