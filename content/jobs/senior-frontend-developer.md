@@ -32,8 +32,8 @@ image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our frontend team
 published: true
-hidden: false 
 show_recruiter_info: true
+hidden: false
 order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
@@ -44,7 +44,7 @@ description: We are looking for a Senior Frontend Developer with solid knowledge
 
 We do not just create software, we create software that really matters in today's world. Our headquarters is located in Gdańsk, but we have teammates distributed across Poland. We believe in a high level of autonomy as well as personal responsibility, so remote working arrangements are common and possible. We're happy to discuss all the details during the recruiting process.
 
-Now we are looking for **a skilled Senio Frontend Developer whose main goal will be building and enhancing an innovative security platform for one of our clients from Israel.** We appreciate a person who has experience with React, understands the business side of the project and is able to lead technical discussions with partners and customers. 
+Now we are looking for **a skilled Senior Frontend Developer whose main goal will be building and enhancing an innovative security platform for one of our clients from Israel.** We appreciate a person who has experience with React, understands the business side of the project and is able to lead technical discussions with partners and customers. 
 
 ## about the project 🚀🚀🚀
 
@@ -74,7 +74,7 @@ The application is **a new next generation passwordless authentication service t
 * experience with development in Node.js and PostgreSQL
 
 ## perks & benefits 🧡
- 
+
 * 26 paid days off + Polish bank holidays
 * flexible working hours (we start between 7-10 a.m.)
 * mentoring programme and 1:1 meetings
@@ -86,5 +86,4 @@ The application is **a new next generation passwordless authentication service t
 * internal bright initiatives: regular sport classes with a professional coach, board games evenings, weekly lunch roulette
 * team retreats once a quarter
 
-
-Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
+Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better.
