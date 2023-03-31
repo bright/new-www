@@ -23,7 +23,7 @@ $$ x^2+3=12 $$
 
 </center>
 
-lice was one of his friends who knew the solution. She was only afraid that revealing it loudly, could encourage others to first claim the vacancy. That's why she decided to use zk-SNARKs.
+Alice was one of his friends who knew the solution. She was only afraid that revealing it loudly, could encourage others to first claim the vacancy. That's why she decided to use zk-SNARKs.
 
 Until this moment, everything that we did assumed Bob and Alice are in the same place. Alice decided to create proof because she didn't want to reveal the solution to anyone. Bob verified it in front of her, so Alice was certain that she was the first who solved the puzzle. But what if they weren't in the same place? What guarantee will Alice have, that her solution was verified first? This problem can be easily solved if we could move it to the blockchain! Information about the winner will be known to everyone, and the verification process will be more transparent.
 
@@ -243,10 +243,8 @@ Now we are ready to test our pallet. We can do it, by using [polkadotjs](https:/
 
 This app will allow us to interact with our zk-SNARK pallet, but first you will need to navigate to `Extrinsics` panel (*Developer -> Extrinsics*).
 
-
-
-\    
-In the field \\`submit the following extrinsic\\`, please select \\`zkSnarks\\`. This is the pallet, that we created during this tutorial. Now you should be able to see our two extrinsic. We are going to select \\`setupVerification(pubInput, vecVk)\\` and upload public inputs and the verification key. Normally this would be done by Bob, so we will switch to the his account. We are going to upload a file, so we need to select \\`file upload\\` for \\`pubInput\\` and \\`vecVk\\` as on. Now you can upload them appropriately. For \\`pubInput\\` select a file \\`input.json\\` and for the \\`vecVk\\` chose \\`verification_key.json\\`.
+\\
+In the field \`submit the following extrinsic\\`, please select \`zkSnarks\\`. This is the pallet, that we created during this tutorial. Now you should be able to see our two extrinsic. We are going to select \`setupVerification(pubInput, vecVk)\\` and upload public inputs and the verification key. Normally this would be done by Bob, so we will switch to the his account. We are going to upload a file, so we need to select \`file upload\\` for \`pubInput\\` and \`vecVk\\` as on. Now you can upload them appropriately. For \`pubInput\\` select a file \`input.json\\` and for the \`vecVk\\` chose \`verification_key.json\\`.
 
 <div class="image"><img src="/images/vk.png" alt="Verification" title="Verification"  /> </div>
 
