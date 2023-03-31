@@ -7,6 +7,7 @@ tags:
   - career
   - bright story
 date: 2022-01-12T09:29:40.355Z
+meaningfullyUpdatedAt: 2023-03-31T07:27:28.513Z
 title: iOS Developer with over 8 Years of Experience. Meet Filip
 layout: post
 image: /images/brightstoryfilip.png
@@ -69,10 +70,12 @@ When it comes to iOS, I think **2022 will be the year when we finally see what A
 
 ## You are going to conduct iOS workshops for devs outside our Bright Team. What will they be about?
 
-I will conduct workshops about the offline mode in iOS mobile applications. During one hour workshops, every participant will learn how to write code allowing for viewing data from external services without accessing the internet. The workshops are designed for experienced juniors and fresh regulars. They will be conducted in spring (probably April) 2022. 
+I will conduct workshops about new iOS feature - Live Activity. The workshops are designed for experienced juniors and fresh regulars. They will be held in Polish. Feel free to join.
+
+<div class='block-button'><h2>Join FIlip's workshops about Live Activity</h2><div>Live Activity is available in iOS 16. Do you want to learn more about it? Join our free online workshops for iOS developers (juniors and mid).</div><a href="https://live-activity-ios-darmowe-warsztaty.getresponsepages.com/"><button>book your spot</button></a></div>
+
+
 
 ## Finally, what do you do after hours? 😎
 
 I enjoy playing board games with my wife. Also, I love to build Lego constructions with my son. Nothing complicated, we just build for fun. 😉 So I guess spending time with my family is a priority.
-
-<div class='block-button'><h2>We are looking for iOS Developers</h2><div>Join Filip and other Bright iOS developers. Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/jobs/senior-ios-developer"><button>Apply and join Filip</button></a></div>
