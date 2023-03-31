@@ -32,7 +32,7 @@ image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our frontend team
 published: true
-hidden: true
+hidden: false 
 show_recruiter_info: true
 order: 4
 recruting_image2_title: interview (technical part & non-technical part)
