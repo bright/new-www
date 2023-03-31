@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiter Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Frontend Developer "
-subtitle: OPENING SOON
+subtitle: ONGOING
 image-alt-job: Frontend Team Bright Inventions
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
@@ -31,30 +31,26 @@ image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our frontend team
-published: false
+published: true
 hidden: true
 show_recruiter_info: true
-order: 10
+order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Senior Frontend Developer with solid knowledge
   of JavaScript/TypeScript, Node.js and React. Join our team!
 ---
+## about the role 🧑🏻‍💻👩🏻‍💻
 
+We do not just create software, we create software that really matters in today's world. Our headquarters is located in Gdańsk, but we have teammates distributed across Poland. We believe in a high level of autonomy as well as personal responsibility, so remote working arrangements are common and possible. We're happy to discuss all the details during the recruiting process.
 
-![]()
+Now we are looking for **a skilled Senio Frontend Developer whose main goal will be building and enhancing an innovative security platform for one of our clients from Israel.** We appreciate a person who has experience with React, understands the business side of the project and is able to lead technical discussions with partners and customers. 
 
-At Bright Inventions you'll be an important part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that really matters in today’s world. 
+## about the project 🚀🚀🚀
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously. 
+The application is **a new next generation passwordless authentication service that is used by millions of users worldwide, on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch.  
 
-## what you will work on
-
-As a Senior Frontend Developer you will build the powerful frontend applications that will impact how [PRACTI by Just Eat (Pyszne.pl)](https://www.practi.co.uk/) shapes the retail world. The system integrates with online delivery platforms, manages website for the restaurants, take orders, process payments and manages everything else from the very own virtual Back Office. 
-
-As a growing team with business focus, we need strong engineers with diverse perspectives to help us shape solutions and scale the team.
-
-## this role will include
+## your job will include 🙌
 
 * creating high-quality frontend applications
 * providing leadership on cross-functional projects
@@ -63,7 +59,7 @@ As a growing team with business focus, we need strong engineers with diverse per
 * sharing knowledge with the rest of the team
 * improving internal web development processes
 
-## preferred skills & experience
+## preferred skills and qualifications ✅
 
 * at least 4-5 years of commercial programming experience
 * min. 3-4 years in frontend development experience 
@@ -76,20 +72,19 @@ As a growing team with business focus, we need strong engineers with diverse per
 
 * familiarity with AWS or other Cloud providers
 * experience with development in Node.js and PostgreSQL
-* familiarity with Docker
 
-## what you'll find in our Bright Team 🧡
+## perks & benefits 🧡
+ 
+* 26 paid days off + Polish bank holidays
+* flexible working hours (we start between 7-10 a.m.)
+* mentoring programme and 1:1 meetings
+* MacBook Pro and additional accessories
+* internal developers meetings
+* extra training budget
+* company library with books, e-books and courses 
+* MultiSport card and private medical package (PZU Zdrowie)
+* internal bright initiatives: regular sport classes with a professional coach, board games evenings, weekly lunch roulette
+* team retreats once a quarter
 
-* real impact on the company growth and implemented solutions
-* continuous feedback culture
-* 20-26 paid days off + Polish bank holidays in each contract type 
-* mentoring programme and regular 1:1 meetings
-* office library with professional books and individual training budget
-* MultiSport and private medical care package 
-* good equipment: MacBook and additional accessories
-* flexible working hours and remote work possibility
-* Bright Day once a month for non-project stuff
-* regular sport classes with a professional coach (running, swimming & biking)
-* free English classes in small groups 
-* Friday yoga and board games evenings 
-* team buildings parties once a quarter and weekly bright lunches initiative 
+
+Sound interesting? Send us your CV or share your LinkedIn profile and we will arrange a meeting to get to know each other better. 
