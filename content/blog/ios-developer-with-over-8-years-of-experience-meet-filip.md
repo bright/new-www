@@ -70,11 +70,9 @@ When it comes to iOS, I think **2022 will be the year when we finally see what A
 
 ## You are going to conduct iOS workshops for devs outside our Bright Team. What will they be about?
 
-I will conduct workshops about new iOS feature - Live Activity. The workshops are designed for experienced juniors and fresh regulars. They will be held in Polish. Feel free to join.
+I will conduct workshops about new iOS feature - Live Activity. The workshops are designed for experienced juniors and fresh regulars. They will be held in Polish. Feel free to join. 
 
-<div class='block-button'><h2>Join FIlip's workshops about Live Activity</h2><div>Live Activity is available in iOS 16. Do you want to learn more about it? Join our free online workshops for iOS developers (juniors and mid).</div><a href="https://live-activity-ios-darmowe-warsztaty.getresponsepages.com/"><button>book your spot</button></a></div>
-
-
+<div class='block-button'><h2>Join FIlip's workshops about Live Activity</h2><div>Live Activity is available in iOS 16. Do you want to learn more about it? Join our free online workshops for iOS developers (juniors and mid). **When: April 19, 2023 at 1 PM.** </div><a href="https://live-activity-ios-darmowe-warsztaty.getresponsepages.com/"><button>book your spot</button></a></div>
 
 ## Finally, what do you do after hours? 😎
 
