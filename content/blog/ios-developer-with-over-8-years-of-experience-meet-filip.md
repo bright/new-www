@@ -7,7 +7,7 @@ tags:
   - career
   - bright story
 date: 2022-01-12T09:29:40.355Z
-meaningfullyUpdatedAt: 2023-03-31T07:27:28.513Z
+meaningfullyUpdatedAt: 2023-03-31T07:39:06.919Z
 title: iOS Developer with over 8 Years of Experience. Meet Filip
 layout: post
 image: /images/brightstoryfilip.png
