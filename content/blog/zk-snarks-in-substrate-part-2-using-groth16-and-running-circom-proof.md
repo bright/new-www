@@ -92,8 +92,8 @@ $B_p = \beta + B(\tau) + s  *\delta$, where $B(\tau) = \sum w_i*  B_i(\tau)$ for
 
 <center>
     
-$C_p = Laux(\tau) / \delta + H(\tau) * Z(\tau) / \delta + s * A_p + r * B_p - r * s * \delta$, 
-    where $Laux(\tau)=\sum w_i * L_i(\tau)$ for $i$ in $l+1..m$
+$C_p = Laux(\tau) / \delta + H(\tau) \* Z(\tau) / \delta + s \* A_p + r \* B_p - r \* s \* \delta$, 
+    where $Laux(\tau)=\sum w_i \* L_i(\tau)$ for $i$ in $l+1..m$
     
 </center>
 
@@ -103,7 +103,7 @@ Now we move to the verifier. The goal for him is to check if the QAP holds when 
 
 <center>
     
-$$ A(\tau) \\* B(\tau) - C(\tau) = H(\tau) \\* Z(\tau) $$
+$$ A(\tau) \\\* B(\tau) - C(\tau) = H(\tau) \\\* Z(\tau) $$
 
 </center>
 
@@ -111,7 +111,7 @@ Unfortunately, the verifier doesn't have all pieces to make such a computation. 
 
 <center>
     
-$$ A_p * B_p=\alpha * \beta + (\sum w_i * L_i(\tau)/\gamma) * \gamma + C_p * \delta$$
+$$ A_p \* B_p=\alpha \* \beta + (\sum w_i \* L_i(\tau)/\gamma) \* \gamma + C_p * \delta$$
 
 </center>
 
@@ -121,7 +121,7 @@ How did this happen? If you replace the values of the above equation with the pr
 
 <center>
     
-$$ A(\tau) * B(\tau) + REM= C(\tau) + H(\tau) * Z(\tau) + REM$$
+$$ A(\tau) \* B(\tau) + REM= C(\tau) + H(\tau) \* Z(\tau) + REM$$
 
 </center>
 
@@ -224,7 +224,7 @@ When we defined our goals, we can focus now on the verification part. At the beg
 
 <center>
     
-$$ A_p * B_p = \alpha * \beta + (\sum w_i * L_i(\tau) / \gamma) * \gamma + C_p * \delta $$
+$$ A_p \* B_p = \alpha \* \beta + (\sum w_i \* L_i(\tau) / \gamma) \* \gamma + C_p * \delta $$
 
 </center>
 
@@ -259,7 +259,7 @@ Our result is a boolean type, true if the verification succeeds and false if it 
 
 <center>
     
-$$ A_p \\* B_p = \alpha \\* \beta + (\sum w_i \\* L_i(\tau) / \gamma) \\* \gamma + C_p * \delta $$
+$$ A_p \\\* B_p = \alpha \\\* \beta + (\sum w_i \\\* L_i(\tau) / \gamma) \\\* \gamma + C_p * \delta $$
 
 </center>
 
@@ -315,7 +315,7 @@ which means that verification succeeded.
 
 ## Ready for more?
 
-Thanks to Circom proof based on Groth16 Alice was able to prove to Bob that she knows how to solve the equation. For now, we assumed that both of them are in the same place. But what if they weren’t? Alice can present her case in blockchain! You’ll learn how to show the solution with Substrate in the third and final part of our Zk-Snarks blog post series!
+Thanks to Circom proof based on Groth16 Alice was able to prove to Bob that she knows how to solve the equation. For now, we assumed that both of them are in the same place. But what if they weren’t? Alice can present her case in blockchain! You’ll learn how to show the solution with Substrate in the [third and final part of our Zk-Snarks blog post series](/blog/zk-snarks-with-substrate-part-3-pallet-implementation)!
 
 - - -
 
