@@ -28,15 +28,19 @@ As our implementation will be delivered along with **a series of blog posts and 
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=groGv-JVvgg&t=12s' />
 
-**Read the first blog post:** 
+**Read blog posts:** 
 
 [Zk-SNARKs in Substrate (Part 1)](/blog/zk-snarks-in-substrate-part-1)
 
-More will be realeased soon! 
+[Zk-SNARKs in Substrate (Part 2). Using Groth16 and Running Circom Proof](/blog/zk-snarks-in-substrate-part-2-using-groth16-and-running-circom-proof)
+
+[Zk-SNARKs with Substrate (Part 3). Pallet Implementation](/blog/zk-snarks-with-substrate-part-3-pallet-implementation)
+
+## Milestones
 
 The scope of the proposal was delivered in 2 milestones, the first one is available in our [repository](https://github.com/bright/zk-snarks-with-substrate/):
 
-## Milestone 1
+### Milestone 1
 
 Creating a pallet which stores necessary data for a ZK-Snarks. 
 
@@ -51,7 +55,7 @@ Creating a pallet which stores necessary data for a ZK-Snarks. 
    * Describing the process of creating proof 
    * Creating a “circom” example
 
-## Milestone 2
+### Milestone 2
 
 Implementing the on-chain proof verification mechanism followed by a series of educational materials. 
 
