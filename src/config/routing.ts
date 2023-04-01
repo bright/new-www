@@ -28,6 +28,9 @@ export const routeLinks = {
   },
   whatWeOffer: '/what-we-offer/',
   projects: '/projects/',
+  project(params: { slug: string}){
+    return `/projects/${params.slug}/`
+  },
   career: '/career/',
   blog: '/blog/',
   startProject: '/start-project/',

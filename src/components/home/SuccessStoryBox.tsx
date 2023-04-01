@@ -101,7 +101,7 @@ export interface SuccessStoryBoxProps {
 const SuccessStoryBox: FC<SuccessStoryBoxProps> = ({ project, className }) => {
   return (
     <Container className={className}>
-      <Link to={routeLinks.projects + '/' + project.slug}>
+      <Link to={routeLinks.project(project)}>
         <Title>{project.title}</Title>
         <Image className='image'>
           <GatsbyImage
