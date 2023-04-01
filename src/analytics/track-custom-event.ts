@@ -3,7 +3,7 @@ import { isProduction } from '../helpers/deployEnv'
 
 interface CustomEventProps {
   category: string
-  action: string
+  eventName: string
   label?: string
   value?: number
   nonInteraction?: boolean
@@ -14,7 +14,7 @@ export function trackCustomEvent(eventProps: CustomEventProps) {
 
   const { label, category, ...rest } = eventProps
 
-  gtagFun('event', eventProps.action, {
+  gtagFun('event', eventProps.eventName, {
     event_label: eventProps.label,
     event_category: eventProps.category,
     ...rest,

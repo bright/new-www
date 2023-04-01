@@ -3,6 +3,7 @@ import { apiClient } from '../../../../api-client/client'
 import { EbookSignUp200Response, EbookSignUpOperationRequest, EbookSignUpRequest } from '../../../../api-client'
 import { useLocalStorageState } from '../use-local-storage-state'
 import { EbookSignUp200ResponseEbook } from './../../../../api-client/models/EbookSignUp200ResponseEbook'
+import { trackCustomEvent } from '../../../analytics/track-custom-event'
 
 export interface EbookFormValue {
   name: string
@@ -98,7 +99,15 @@ export function useEbookForm(ebookName: string) {
         ebookName: ebookName,
         ebookSignUpRequest: ebookSignUpRequest,
       }
+
       if (!isValidValue()) return
+
+      trackCustomEvent({
+        eventName: 'Click Submit Ebook Form',
+        category: 'Ebooks',
+        label: window.location.href,
+      })
+
       apiClient
         .ebookSignUp(param)
         .then(res => {

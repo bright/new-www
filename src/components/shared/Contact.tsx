@@ -139,7 +139,7 @@ export const Contact: FC<ContactProps> = ({
 
     trackCustomEvent({
       category: formButton,
-      action: actionFormButton,
+      eventName: actionFormButton,
       label: window.location.href,
     })
   }

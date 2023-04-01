@@ -8,7 +8,7 @@ export function registerGlobalMailtoClickHandler() {
       const linkText = a.innerText
       trackCustomEvent({
         category: 'Mailto Clicked',
-        action: email,
+        eventName: email,
         label: linkText
       })
     }

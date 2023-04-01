@@ -222,7 +222,7 @@ export const JobApplicationForm: React.FC<FormProps> = props => {
       handleSubmit(event, data)
       trackCustomEvent({
         category: 'Recruitment Contact Form Button',
-        action: 'Click Submit Recruitment Form',
+        eventName: 'Click Submit Recruitment Form',
         label: window.location.href,
       })
 
