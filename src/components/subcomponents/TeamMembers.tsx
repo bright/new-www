@@ -338,11 +338,11 @@ const TeamMembers = ({
     <>
       {isWhyUs && (
         <OffsetAnchorLink id='meet-bright-team'>
-          <Link to='#meet-bright-team' partiallyActive={true}>
+          <a href='#meet-bright-team'>
             <CustomSectionTitle margin='0' laptopMargin='0' tabletXLMargin='0' tabletMargin='0' mobileMargin='0'>
               meet <span>bright</span> team
             </CustomSectionTitle>
-          </Link>
+          </a>
         </OffsetAnchorLink>
       )}
       <TeamMembersSection isOurServiceTemplate={isOurServiceTemplate!} isWhyUs={isWhyUs!} ref={ref}>

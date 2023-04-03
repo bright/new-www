@@ -96,11 +96,11 @@ export default function Values() {
     <CustomSection paddingMobileProps='0 1.125rem' paddingTablet='0 2.25rem' paddingProps='0 2.25rem'>
       <Container>
         <OffsetAnchorLinkTitle id='core-values'>
-          <Link to='#core-values' partiallyActive={true}>
+          <a href='#core-values'>
             <CustomSectionTitle margin='0 0 0px' mobileMargin='0' tabletMargin='0' tabletXLMargin='0' laptopMargin='0'>
               teamwork, responsibility and positive mindset
             </CustomSectionTitle>
-          </Link>
+          </a>
         </OffsetAnchorLinkTitle>
         <CustomSectionInner>
           <TextRegular>
@@ -116,9 +116,9 @@ export default function Values() {
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <Link to='#responsibility' partiallyActive={true}>
+              <a href='#responsibility'>
                 <CustomTextTitle margin='0 0 36px'>Responsibility</CustomTextTitle>
-              </Link>
+              </a>
 
               <TextRegular>
                 We support and share responsibility with the members of our team. We also actively take responsibility
@@ -135,9 +135,9 @@ export default function Values() {
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <Link to='#flexibility' partiallyActive={true}>
+              <a href='#flexibility'>
                 <CustomTextTitle margin='0 0 36px'>Flexibility</CustomTextTitle>
-              </Link>
+              </a>
 
               <TextRegular>
                 We balance ambition with flexibility because what matters is the final result. We are nimble. We evolve
@@ -154,9 +154,9 @@ export default function Values() {
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <Link to='#teamwork' partiallyActive={true}>
+              <a href='#teamwork'>
                 <CustomTextTitle margin='0 0 36px'>Teamwork</CustomTextTitle>
-              </Link>
+              </a>
 
               <TextRegular>
                 It is only through teamwork that we achieve brightness. We are committed to helping our customers by
@@ -174,9 +174,9 @@ export default function Values() {
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <Link to='#positive-attitude' partiallyActive={true}>
+              <a href='#positive-attitude'>
                 <CustomTextTitle margin='0 0 36px'>Positive attitude</CustomTextTitle>
-              </Link>
+              </a>
 
               <TextRegular>
                 We love what we do and the people around us. In fact, we believe that happy people are more motivated,
@@ -193,9 +193,9 @@ export default function Values() {
           </figure>
           <CustomSectionInner>
             <DescriptionWrapper>
-              <Link to='#client-orientation' partiallyActive={true}>
+              <a href='#client-orientation'>
                 <CustomTextTitle margin='0 0 0'>Client orientation</CustomTextTitle>
-              </Link>
+              </a>
 
               <TextRegular>
                 We are only successful if our clients are - and that drives everything we do. Clients trust us to build

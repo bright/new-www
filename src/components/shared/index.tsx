@@ -33,15 +33,25 @@ export const MoreButton: React.FC<MoreButtonProps> = ({
       {text || children}
     </button>
   )
-  return (
-    <Styled.Button isBlack={isBlack} isPrimary={isPrimary} marginTop={marginTop} positionLeft={isPositionLeft}>
-      {href ? (
-        <Link to={href}>
+  const BtnLink = ({ hrefTarget }: { hrefTarget: string }) => {
+    if (hrefTarget.includes('#')) {
+      return (
+        <a href={hrefTarget}>
+          <Btn />
+        </a>
+      )
+    } else {
+      return (
+        <Link to={hrefTarget}>
           <Btn />
         </Link>
-      ) : (
-        <Btn />
-      )}
+      )
+    }
+  }
+
+  return (
+    <Styled.Button isBlack={isBlack} isPrimary={isPrimary} marginTop={marginTop} positionLeft={isPositionLeft}>
+      {href ? <BtnLink hrefTarget={href} /> : <Btn />}
     </Styled.Button>
   )
 }

@@ -318,7 +318,7 @@ const OffersList: React.FC<{ jobs?: JobModel[] }> = ({ jobs }) => {
       </JobWrapper>
       <JobSentence>
         <p>
-          Haven’t found the job offer for you? <Link to={'#contact'}>Contact us</Link> anyway.
+          Haven’t found the job offer for you? <a href={'#contact'}>Contact us</a> anyway.
         </p>
       </JobSentence>
     </>
