@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: damian
-ex: false
+ex: true
 slug: damian
 name: Damian Garstecki
 short_name: Damian
