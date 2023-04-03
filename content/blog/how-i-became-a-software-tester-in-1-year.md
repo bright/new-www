@@ -5,6 +5,7 @@ tags:
   - inspiration
   - development
 date: 2022-03-23T09:42:39.122Z
+meaningfullyUpdatedAt: 2023-04-03T10:03:07.490Z
 title: How I became a Software Tester in 1 Year
 layout: post
 image: /images/how_to_become_qa_martas_story2.png
@@ -171,4 +172,4 @@ I guess it is worth getting familiar with:
 
 Finally a guide for manual testers who are willing to start with automated tests: [How to Start Writing Automation Tests](/blog/how-to-start-writing-automation-tests)
 
-<div class='block-button'><h2>Let's create software that matters!</h2><div>Work with clients from industries such as FinTech, Blockchain, HealthTech, Retail, Logistics, and more.</div><a href="/career"><button>Check our career opportunities</button></a></div>
+<EbookDynamic sectionTitle='get free ebook about app security' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Delivering a secure app is key part of quality assurance. Do you agree? Download a free ebook about app software security.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
