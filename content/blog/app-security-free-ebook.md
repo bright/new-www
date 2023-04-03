@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-04-03T06:58:58.400Z
 title: 25 Tools & Extra Tactics For App Security [Free Ebook]
 layout: post
 image: /images/ebook_blog_security.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
