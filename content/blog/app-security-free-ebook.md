@@ -5,6 +5,7 @@ tags:
   - update
   - security
   - development
+  - QA
 date: 2023-04-03T06:58:57.824Z
 meaningfullyUpdatedAt: 2023-04-03T06:58:58.400Z
 title: 25 Tools & Extra Tactics For App Security [Free Ebook]
