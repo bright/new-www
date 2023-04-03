@@ -5,8 +5,8 @@ tags:
   - update
   - security
   - development
-date: 2023-04-03T06:47:35.080Z
-meaningfullyUpdatedAt: 2023-04-03T06:47:35.110Z
+date: 2023-04-03T06:58:57.824Z
+meaningfullyUpdatedAt: 2023-04-03T06:58:58.400Z
 title: 25 Tools & Extra Tactics For App Security [Free Ebook]
 layout: post
 image: /images/ebook_blog_security.png
