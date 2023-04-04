@@ -86,5 +86,3 @@ The graph created based on the exported result shows that over time, exceeding t
 
 Obviously, Postman has limitations but it’s impressive that you can go from nothing to an easy performance test in minutes. To customize the tests you can add more requests, randomize them, create new tests and pre-request scripts. Experiment with the iterations number and the delay between them to recreate conditions similar to the real environment. 
 I recommend always considering the easy, convenient solution before trying the cumbersome, time-consuming options. It may turn out to be exactly what you need!
-
-<EbookDynamic sectionTitle='get free ebook about app security' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Delivering a secure app is key part of quality assurance. Do you agree? Download a free ebook about app software security. Check if your products are secure!'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
