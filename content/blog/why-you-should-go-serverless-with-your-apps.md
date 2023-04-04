@@ -7,7 +7,7 @@ tags:
   - backend
 date: 2023-04-04T07:18:55.246Z
 meaningfullyUpdatedAt: 2023-04-04T07:18:55.272Z
-title: Why You Should Go Serverless With Your Apps
+title: Why You Should Go Serverless with Your Apps
 layout: post
 image: /images/serverless_blog.png
 hidden: false
