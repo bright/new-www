@@ -66,6 +66,8 @@ Serverless computing allows startups to quickly **experiment with new ideas and 
 
 Serverless computing offers several benefits for larger companies. Let’s go through them.
 
+<div class="image"><img src="/images/cloud-remote-devops.png" alt="serverless computing benefits" title="undefined"  /> </div>
+
 ### Reduced infrastructure costs
 
 With serverless computing, companies **only pay for the exact amount of computing resources they need**, rather than having to pay for and maintain their own servers. This can lead to significant cost savings, especially for larger companies with high computing needs.
