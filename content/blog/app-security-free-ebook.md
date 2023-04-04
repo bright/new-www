@@ -19,6 +19,8 @@ published: true
 
 <EbookDynamic sectionTitle='get free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Must have ebook for devs and app owners written by Rafał Hofman, a software developer and security expert. All tools listed in the e-book are open-source or offer free plans.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
 
+<EbookDynamic sectionTitle='get free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Must have ebook for devs and app owners written by Rafał Hofman, a software developer and security expert. All tools listed in the e-book are open-source or offer free plans.'  ebookUrl='undefined'  ebookImage='undefined' ebookAlt='undefined' />
+
 ## What’s inside the ebook?
 
 Check out the table of contents:
