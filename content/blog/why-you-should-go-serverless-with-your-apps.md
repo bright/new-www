@@ -3,6 +3,8 @@ author: michal k
 secondAuthor: izabela
 tags:
   - business perspective
+  - serverless
+  - backend
 date: 2023-04-04T07:18:55.246Z
 meaningfullyUpdatedAt: 2023-04-04T07:18:55.272Z
 title: Why You Should Go Serverless With Your Apps
