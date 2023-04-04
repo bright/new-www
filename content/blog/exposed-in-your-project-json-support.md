@@ -13,6 +13,7 @@ date: 2023-04-04T11:51:42.403Z
 meaningfullyUpdatedAt: 2023-04-04T11:51:42.417Z
 title: Exposed in Your Project - JSON support
 layout: post
+image: /images/exposed_blog.png
 hidden: false
 comments: true
 published: true
@@ -51,7 +52,7 @@ services:
 
 ```
 
-We are just using official `postgres` image, with defined password and exposed port.
+We are just using the official `postgres` image, with a defined password and exposed port.
 
 ### connection pooling
 
@@ -88,7 +89,7 @@ object Database {
 }
 ```
 
-Plus, configuration file:
+Plus, the configuration file:
 
 ```
 # src/main/resources/application.conf
@@ -105,7 +106,7 @@ Now, why connection pooling is important?
 
 > Using connection pools helps to both alleviate connection management overhead and decrease development tasks for data
 > access. Each time an application attempts to access a backend store (such as a database), it requires resources to
-> create, maintain, and release a connection to that datastore.
+> create, maintain, and release a connection to that data store.
 >
 > With PostgreSQL, each new connection can take up to
 > 1.3MB in memory. In a production environment where we expect to receive thousands or millions of concurrent
@@ -116,7 +117,7 @@ Now, why connection pooling is important?
 
 ## Add JsonColumnType
 
-First, let's create and register new column type - `JsonColumnType`:
+First, let's create and register a new column type - `JsonColumnType`:
 
 ```kotlin
 // JsonColumnType.kt
@@ -159,7 +160,7 @@ class JsonColumnType(
 }
 ```
 
-As the result of this implementation is that we have available `.json()` method on `Table` level - it means that we can
+The result of this implementation is that we have an available `.json()` method on `Table` level - which means that we can
 use our new columnType:
 
 ```kotlin
@@ -187,15 +188,15 @@ data class PersonDetails(
 )
 ```
 
-Because of our choice of `kotlinx` serialization, we need to declare context for serialization explicitly (casting for
-methods `Json.encodeToString` and `Json.decodeFromString`) - the easiest way was to declare it on column registering
+Because of our choice of `kotlinx` serialization, we need to declare the context for serialization explicitly (casting for
+methods `Json.encodeToString` and `Json.decodeFromString`) - the easiest way was to declare it on the column registering
 step.
 
 ## Add JsonValue
 
 Once we registered our new column, we can store serialized and read the object value. But what if we want to use our
 column in `WHERE` or `ORDER BY` clause?\
-We need to register `JsonValue` and new method:
+We need to register `JsonValue` and a new method:
 
 ```kotlin
 // JsonValue.kt
@@ -242,8 +243,8 @@ class PostgreSQLJsonValue<T>(
 
 ```
 
-We created `PostgreSQLJsonValue` which is representation of `(column->>jsonPath)::type` PostgreSQL' syntax. Plus, we can
-use `jsonValue` method in order to utilize json functionality inside the query, which will look like:
+We created `PostgreSQLJsonValue` which is a representation of `(column->>jsonPath)::type` PostgreSQL' syntax. Plus, we can
+use `jsonValue` method in order to utilize JSON functionality inside the query, which will look like this:
 
 ```kotlin
 fun findByNickname(nickname: String): FoundPersonWithAddressDto? = transaction {
@@ -269,9 +270,9 @@ which will respond with full Person DTO.
 In this article, we've learned:
 
 - how to add `json` column type to our JetBrains/Exposed application,
-- how to add `jsonValue` method which allows us to search/sort by the json specific property in the query.
+- how to add `jsonValue` method which allows us to search/sort by the JSON specific property in the query.
 
-As an extra points we did:
+As extra points we did:
 
 - exercise to create Docker container for our PostgreSQL database,
 - configured connection pooling, which is important to our production environment.
