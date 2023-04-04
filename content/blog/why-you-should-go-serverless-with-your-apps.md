@@ -88,4 +88,4 @@ Serverless computing providers typically offer high availability and fault toler
 
 Many serverless computing providers offer integrations with other cloud services, such as databases, storage, and messaging. This can make it easier for businesses to **build and deploy complex, multi-tier applications**.
 
-<div class='block-button'><h2>Time to go serverless with your app </h2><div>As cloud computing experts we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>
+<div class='block-button'><h2>Is it time to go serverless? </h2><div>As cloud computing experts we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>
