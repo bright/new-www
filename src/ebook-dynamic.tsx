@@ -7,7 +7,7 @@ import { EbookDynamicForm } from './ebook-dynamic-form'
 import { EbookThankYouPage } from './ebook-dynamic-thank-you-page'
 import { ErrorMessage } from './components/shared/contact/styles'
 import EbookArrow from '../src/assets/ebook_arrow.svg'
-import { clampBuilder } from './helpers/clampBuilder';
+import { clampBuilder } from './helpers/clampBuilder'
 
 const EbookSection = styled.section`
   margin: ${variables.pxToRem(48)} 0;
@@ -26,7 +26,8 @@ const EbookSection = styled.section`
   }
   & img {
     max-width: ${variables.pxToRem(412)};
-    height:auto ;
+    height: auto;
+    width: 100%;
   }
 `
 
@@ -41,7 +42,7 @@ const MoreButtonWrapper = styled.div`
     font-size: ${variables.pxToRem(20)};
     line-height: ${variables.pxToRem(40)};
 
-     & span {
+    & span {
       padding-left: ${variables.pxToRem(17)};
     }
   }
@@ -60,8 +61,6 @@ const MoreButtonWrapper = styled.div`
       padding: 0 ${variables.pxToRem(14)} ${variables.pxToRem(5)} ${variables.pxToRem(8)};
       font-size: ${clampBuilder(320, 580, 17, 20)};
       line-height: ${variables.pxToRem(40)};
-  
-     
     }
   }
 `
@@ -116,7 +115,6 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
         ) : (
           <EbookThankYouPage />
         )}
-
       </FlexWrapper>
       <MoreButtonWrapper>
         <ErrorMessage> {value.errorMsg && value.errorMsg}</ErrorMessage>
@@ -132,12 +130,12 @@ export const EbookDynamic: React.FC<EbookDynamicProps> = ({
           </MoreButton>
         ) : (
           <a href={value.ebookResponse.ebook.url} target='_blank'>
-              click to open the ebook<span>
+              click to open the ebook
+              <span>
                 <EbookArrow />
               </span>
           </a>
         )}
-
       </MoreButtonWrapper>
     </EbookSection>
   )
