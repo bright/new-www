@@ -14,6 +14,8 @@ published: true
 ---
 **Let’s explore the benefits of serverless computing and why it may be the best option for your business. Whether you represent a startup or a larger company, you’ll find benefits from serverless computing. Let’s dive in!**
 
+<div class="image"><img src="/images/serverless_blog.png" alt="Serverless - business perspective" title="undefined"  /> </div>
+
 ## What is serverless computing?
 
 Serverless computing is a cloud-based computing model that eliminates the need to manage its own server infrastructure. As a result, DevOps Engineers and developers from your company don’t have to maintain physical servers. Instead, the cloud provider manages the server infrastructure and ensures the application is available and scalable to meet demand.
@@ -85,3 +87,5 @@ Serverless computing providers typically offer high availability and fault toler
 ### Seamless integration with other services 
 
 Many serverless computing providers offer integrations with other cloud services, such as databases, storage, and messaging. This can make it easier for businesses to **build and deploy complex, multi-tier applications**.
+
+<div class='block-button'><h2>Time to go serverless with your app </h2><div>As cloud computing experts we can help you go smoothly and efficiently through that process. Check our experience and contact us to establish the details.</div><a href="/our-areas/cloud-services"><button>estimate your serverless app</button></a></div>
