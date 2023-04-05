@@ -6,6 +6,7 @@ tags:
   - kotlin
   - bright story
 date: 2022-08-03T08:20:22.853Z
+meaningfullyUpdatedAt: 2023-04-05T08:13:49.035Z
 title: Kotlin Pioneer. Meet Damian – an Android Developer with 16 Years of Experience
 layout: post
 image: /images/brightstorydamian.jpg
@@ -89,7 +90,7 @@ I’ve noticed that these meetings have helped some people to really speak up. T
 
 ## What do you think about the project you work on at Bright?
 
-I work on a team that builds a mobile solution for a building construction company based in Germany. We build an Android app for employees and contractors. The client already owns a web app and they needed our support to build a mobile one. **I enjoy the fact that we work closely with the client**. **They trust us and our expertise**. We are a partner helping to meet all their business objectives.
+I work on a team that builds a [mobile solution](/our-areas/mobile-app-development/) for a building construction company based in Germany. We build an Android app for employees and contractors. The client already owns a web app and they needed our support to build a mobile one. **I enjoy the fact that we work closely with the client**. **They trust us and our expertise**. We are a partner helping to meet all their business objectives.
 
 ![Quote on project](/images/damian_story_quote_client.png)
 
