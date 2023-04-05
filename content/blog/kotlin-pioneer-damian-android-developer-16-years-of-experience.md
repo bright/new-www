@@ -6,6 +6,7 @@ tags:
   - kotlin
   - bright story
 date: 2022-08-03T08:20:22.853Z
+meaningfullyUpdatedAt: ""
 title: Kotlin Pioneer. Meet Damian – an Android Developer with 16 Years of Experience
 layout: post
 image: /images/brightstorydamian.jpg
@@ -89,11 +90,11 @@ I’ve noticed that these meetings have helped some people to really speak up. T
 
 ## What do you think about the project you work on at Bright?
 
-I work on a team that builds a mobile solution for a building construction company based in Germany. We build an Android app for employees and contractors. The client already owns a web app and they needed our support to build a mobile one. **I enjoy the fact that we work closely with the client**. **They trust us and our expertise**. We are a partner helping to meet all their business objectives.
+I work on a team that builds a [mobile solution](/our-areas/mobile-app-development/) for a building construction company based in Germany. We build an Android app for employees and contractors. The client already owns a web app and they needed our support to build a mobile one. **I enjoy the fact that we work closely with the client**. **They trust us and our expertise**. We are a partner helping to meet all their business objectives.
 
 ![Quote on project](/images/damian_story_quote_client.png)
 
-Soon we will launch the MVP. The app’s core is an offline mode. Building offline mode was definitely a technical challenge for me. But these are typical challenges every programmer faces on daily basis.
+Soon we will launch the MVP. The app’s core is an [offline mode](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/). Building offline mode was definitely a technical challenge for me. But these are typical challenges every programmer faces on daily basis.
 
 **If my job was only writing code I would get bored so fast**. I am fulfilled when I get to design processes, life cycles, and the whole logic of the app. I am definitely a person on the team who creates most of the feature diagrams. **Figuring out how something should work is much more intriguing to me than writing lines of code. Code is just one thing, nothing unusual, everything that surrounds it determines if the project succeeds**. 
 
