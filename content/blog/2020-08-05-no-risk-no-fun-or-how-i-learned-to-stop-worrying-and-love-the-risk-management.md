@@ -7,6 +7,7 @@ tags:
   - ISO
   - ALARP
 date: 2020-08-05T12:34:37.084Z
+meaningfullyUpdatedAt: ""
 title: "No risk, no fun or: How I learned to stop worrying and love the risk
   management."
 layout: post
@@ -79,7 +80,7 @@ Another thing to consider is how these risks are introduced in the system. No on
 
 There’s little value to a list of hazards if you’ll never look at it again. Treat the risk items as a part of your backlog, just with different purposes than the regular tasks. Think about them when planning sprints, check the connected hazards before moving a development task to Done. Adding “Check connected hazards” as a step to the[ Definition of Done](/blog/definition-of-done/) is a good way to remind everyone about it and turn it into a habit.
 
-As I mentioned before, you can assign some development tasks to counteract the harm presented by the risk items. Sometimes you just need to add 2-Factor Authentication or handle an offline mode to stay confident. Sometimes though, you look at a hazard and can do only as much as to stretch your arms helplessly and say “Yes, this can happen indeed”.
+As I mentioned before, you can assign some development tasks to counteract the harm presented by the risk items. Sometimes you just need to add 2-Factor Authentication or handle an [offline mode](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) to stay confident. Sometimes though, you look at a hazard and can do only as much as to stretch your arms helplessly and say “Yes, this can happen indeed”.
 
 There is an approach to reducing the risk called ALARP - [As Low As Reasonably Practicable ](https://www.hse.gov.uk/risk/theory/alarpglance.htm). Sometimes it would be too costly to do anything about a particular threat, or there are few options left anyway. It’s like with leaving your house these days - you can hide in the bunker and order all your groceries online, washing every product with 70% alcohol, risking insanity (and getting drunk from the fumes) or go out, wear a mask, sanitise your hands and accept the residual risk.
 
