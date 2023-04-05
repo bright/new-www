@@ -20,7 +20,7 @@ One of the things that we do best at Bright Inventions is helping startups build
 
 ## 1. Closely located
 
-It really helps when seeing your IT partner in person doesn't take half day of travelling. Software development is one of those activities in which a lack of communication between parties can result in heavy costs further down the road. Most of the time Slack, Google Hangouts, JIRA, etc. work perfectly but there should be times that you can just all sit together in one room and make sure you're well aligned. Misunderstood or missed requirements are easy and cheap to fix in the early phases of the project but very expensive later on. Start project with a workshop and keep meeting on a regular schedule to validate work in progress and realign your expectations. 
+It really helps when seeing your IT partner in person doesn't take half day of travelling. Software development is one of those activities in which a lack of communication between parties can result in heavy costs further down the road. Most of the time Slack, Google Meet, JIRA, etc. work perfectly but there should be times that you can just all sit together in one room and make sure you're well aligned. Misunderstood or missed requirements are easy and cheap to fix in the early phases of the project but very expensive later on. Start project with a workshop and keep meeting on a regular schedule to validate work in progress and realign your expectations. 
 
 ## 2. Shared values
 
@@ -42,7 +42,7 @@ Read more on [software develoment pricing models](/blog/pros-and-cons-of-softwar
 
 ## 5. Argues with you
 
-It's all too easy to find a partner who would just blindly follow your requests. It's much harder to find one that would put your ideas to the test and challenge you. One that would truly care about your ultimate goal and would openly discuss their insight until your (or their) point is validated. Let's say that you want to add full offline support to the app you're building (which is usually a tall order but doesn't seem so). They can either sheepily follow or convince you that there are more pressing issues in the backlog that would benefit your users more. 
+It's all too easy to find a partner who would just blindly follow your requests. It's much harder to find one that would put your ideas to the test and challenge you. One that would truly care about your ultimate goal and would openly discuss their insight until your (or their) point is validated. Let's say that you want to add full [offline support to the app you're building](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) (which is usually a tall order but doesn't seem so). They can either sheepily follow or convince you that there are more pressing issues in the backlog that would benefit your users more. 
 
 Sometimes you come to them not with a problem but with a ready solution. It's better if they are not afraid to point you out misassumptions in your proposed solution and are openly against executing something that doesn't make sense. If you've chosen the right partner they will surely have more technical experience than you have and they will also have some business experience from the past projects.
 
