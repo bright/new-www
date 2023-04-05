@@ -8,6 +8,7 @@ tags:
   - Kotlin
   - bright story
 date: 2021-11-03T08:44:02.443Z
+meaningfullyUpdatedAt: ""
 title: A Man Dancing with Code. Meet Piotr
 layout: post
 image: /images/blogpost_www_brightstory_piotr_b2.png
@@ -55,7 +56,7 @@ I think when it comes to [Stackoverflow](https://stackoverflow.com/users/155213/
 
 The main trend that I see is that **programmers are becoming more and more responsible for managing backend infrastructure or even setting up cloud services on their own**. Cloud providers modify their products to make them more accessible for developers. DevOps are not as necessary as they used to be. They are still needed naturally, but we used to ask them to do the configuration for us and now we can do it by ourselves. 
 
-Another strong trend is **moving to higher and higher levels of abstraction in terms of developing backend systems in the runtime environment**. What I mean by that is using more and more serverless technologies. Tools and frameworks we use make us use more functional programming. We can see that especially in frameworks like React or Compositional AI.
+Another strong trend is **moving to higher and higher levels of abstraction in terms of developing backend systems in the runtime environment**. What I mean by that is using more and more [serverless technologies](/blog/why-you-should-go-serverless-with-your-apps/). Tools and frameworks we use make us use more functional programming. We can see that especially in frameworks like React or Compositional AI.
 
 ## Why do we work with AWS at Bright Inventions? When should we choose AWS or Azure?
 
