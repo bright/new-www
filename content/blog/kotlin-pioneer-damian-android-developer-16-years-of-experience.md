@@ -94,7 +94,7 @@ I work on a team that builds a [mobile solution](/our-areas/mobile-app-developme
 
 ![Quote on project](/images/damian_story_quote_client.png)
 
-Soon we will launch the MVP. The app’s core is an offline mode. Building offline mode was definitely a technical challenge for me. But these are typical challenges every programmer faces on daily basis.
+Soon we will launch the MVP. The app’s core is an [offline mode](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/). Building offline mode was definitely a technical challenge for me. But these are typical challenges every programmer faces on daily basis.
 
 **If my job was only writing code I would get bored so fast**. I am fulfilled when I get to design processes, life cycles, and the whole logic of the app. I am definitely a person on the team who creates most of the feature diagrams. **Figuring out how something should work is much more intriguing to me than writing lines of code. Code is just one thing, nothing unusual, everything that surrounds it determines if the project succeeds**. 
 
