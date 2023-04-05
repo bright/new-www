@@ -3,7 +3,7 @@ author: izabela
 tags:
   - business
 date: 2021-08-09T07:00:10.034Z
-meaningfullyUpdatedAt: ""
+meaningfullyUpdatedAt: 2023-04-05T07:50:44.356Z
 title: 5 things that distinguish health app development from others
 layout: post
 image: /images/blogpost_www_healthcareapp.png
@@ -21,7 +21,7 @@ Health apps are a part of digital healthcare transformation that affects the fut
 
 ## Healthcare and medical apps – understanding the difference
 
-Although this article focuses on healthcare apps, we should establish the main differences between healthcare and medical apps. Healthcare and medical software both support the well-being of the patient and the efficiency of medical workers. However, **medical apps have a bigger influence on patients’ state or life** in some cases. A great example may be medical apps that manage the heart pacemakers. Any problem with the software may directly affect the user’s/patient’s life. That is why, medical apps have to be certified and approved by the national authorities.
+Although this article focuses on healthcare apps, we should establish the main differences between healthcare and medical apps. Healthcare and medical software both support the well-being of the patient and the efficiency of medical workers. However, **medical apps have a bigger influence on patients’ state or life** in some cases. A great example may be medical apps that manage the heart pacemakers. Any problem with the software may directly affect the user’s / patient’s life. That is why, **medical apps have to be certified and approved by the national authorities**.
 
 ## 5 factors that make healthcare app development unique
 
@@ -29,13 +29,13 @@ Although – compared to medical software development – the pressure is lower,
 
 ### 1. App security
 
-‘Hold on! Security is important in every case’, some would say. And that’s true. However, the consequences of the data breach of a health app that stores medical information are often bigger. In terms of health apps, security bugs can result in leaking fragile information regarding the state of patients, their health history or taken medicine. The stake is simply higher than when it comes to, for example, developing apps that help you find the right restaurant.
+‘Hold on! Security is important in every case’, some would say. And that’s true. However, the consequences of the data breach of a health app that stores medical information are often bigger. In terms of health apps, **security bugs can result in leaking fragile information regarding the state of patients, their health history or taken medicine**. The stake is simply higher than when it comes to, for example, developing apps that help you find the right restaurant.
 
-Do you want to know more about security? Download a [free ebook about app security](l/blog/app-security-free-ebook/).
+**Do you want to know more about security? Download a [free ebook about app security](l/blog/app-security-free-ebook/).**
 
 ### 2. Offline mode
 
-If you think that offline mode is so not 2021, then you may be surprised. Health apps need to be treated a little bit differently. For example, when you plan to build an app for hospital doctors which shows the medical history of their patients, you need to make sure that they have access to the data at every time in every possible place around the whole hospital. Doctors cannot risk the patients’ safety using an app that wouldn’t operate without the internet. The data has to be synchronised as soon as users have an internet connection. 
+If you think that offline mode is so not 2023, then you may be surprised. Health apps need to be treated a little bit differently. For example, when you plan to build an app for hospital doctors which shows the medical history of their patients, you need to make sure that they have access to the data at every time in every possible place around the whole hospital. Doctors cannot risk the patients’ safety using an app that wouldn’t operate without the internet. The data has to be synchronised as soon as users have an internet connection. 
 
 Apps with offline mode are often referred as [offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) – click to read another blog pst about them.
 
@@ -50,5 +50,7 @@ Again, code reviewing is important for every app development. However, when it c
 ### 5. It’s not about beauty here
 
 Health apps should be simple for users. Although simplicity is definitely a trend in product design during health app development it should be taken even into the next level. When you create an app that is supposed to check a patient's blood pressure, your product should be simple. In contrast to entertaining or lifestyle apps you don’t need many fancy designs that attract users. An app for blood pressure checking has to eliminate every distraction even if it means that it is not very attractive for the human eye.
+
+Read our another blog post if want to explore the topic of [UX design for healthcare and medical apps](/blog/ux-design-healthcare-medical-apps-case-study/).
 
 <div class='block-button'><h2>Looking for a healthcare app development company?</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
