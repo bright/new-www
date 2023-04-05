@@ -7,7 +7,7 @@ tags:
   - inspiration
   - workshops
 date: 2021-12-22T08:41:51.006Z
-meaningfullyUpdatedAt: 2023-04-05T12:51:13.476Z
+meaningfullyUpdatedAt: ""
 title: Bright AWS Workshops for Dev Community
 layout: post
 image: /images/aws_workshops_by_piotr_blog.png
