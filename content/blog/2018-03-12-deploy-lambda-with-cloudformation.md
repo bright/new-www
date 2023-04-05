@@ -7,7 +7,7 @@ tags:
   - lambda
   - cloudform
 date: 2018-03-11T23:00:00.000Z
-meaningfullyUpdatedAt: 2023-04-05T12:55:20.828Z
+meaningfullyUpdatedAt: ""
 title: How to deploy Lambda function with CloudFormation?
 layout: post
 image: /images/lambda_blog_post.png
