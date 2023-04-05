@@ -35,22 +35,22 @@ Although – compared to medical software development – the pressure is lower,
 
 ### 2. Offline mode
 
-If you think that offline mode is so not 2023, then you may be surprised. Health apps need to be treated a little bit differently. For example, when you plan to build an app for hospital doctors which shows the medical history of their patients, you need to make sure that they have access to the data at every time in every possible place around the whole hospital. Doctors cannot risk the patients’ safety using an app that wouldn’t operate without the internet. The data has to be synchronised as soon as users have an internet connection. 
+If you think that offline mode is so not 2023, then you may be surprised. Health apps need to be treated a little bit differently. For example, when you plan to build an app for hospital doctors which shows the medical history of their patients, you need to make sure that they have access to the data at every time in every possible place around the whole hospital. **Doctors cannot risk the patients’ safety using an app that wouldn’t operate without the internet**. The data has to be synchronised as soon as users have an internet connection. 
 
-Apps with offline mode are often referred as [offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) – click to read another blog pst about them.
+**Apps with offline mode are often referred as [offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) – click to read another blog pst about them.**
 
 ### 3. Greater risk behind every update
 
-Every change in production is a challenge and comes with a risk of how it affects users. In terms of healthcare app development, it is again more complex. Any software update cannot negatively affect the app functionality because we are talking about the software that provides a medical history of patience. Doctors need to have access to this data all the time.
+Every change in production is a challenge and comes with a risk of how it affects users. In terms of healthcare app development, it is again more complex. **Any software update cannot negatively affect the app functionality because we are talking about the software that provides a medical history of patience**. Doctors need to have access to this data all the time.
 
 ### 4. More pressure on code review
 
-Again, code reviewing is important for every app development. However, when it comes to health solutions the stake is often higher. That is why the members of any [healthcare software development team](/blog/how-to-develop-a-healthcare-app-startup-owner-perspective) are usually experienced developers who know how to test their code and understand the importance of code reviewing. Also, the development team should include QA engineers.
+Again, code reviewing is important for every app development. However, when it comes to health solutions the stake is often higher. That is why **the members of any [healthcare software development team](/blog/how-to-develop-a-healthcare-app-startup-owner-perspective) are usually experienced developers** who know how to test their code and understand the importance of code reviewing. Also, the development team **should include QA engineers**.
 
 ### 5. It’s not about beauty here
 
-Health apps should be simple for users. Although simplicity is definitely a trend in product design during health app development it should be taken even into the next level. When you create an app that is supposed to check a patient's blood pressure, your product should be simple. In contrast to entertaining or lifestyle apps you don’t need many fancy designs that attract users. An app for blood pressure checking has to eliminate every distraction even if it means that it is not very attractive for the human eye.
+Health apps should be simple for users. Although simplicity is definitely a trend in product design during health app development it should be taken even into the next level. **When you create an app that is supposed to check a patient's blood pressure, your product should be simple**. In contrast to entertaining or lifestyle apps you don’t need many fancy designs that attract users. An app for blood pressure checking has to eliminate every distraction even if it means that it is not very attractive for the human eye.
 
-Read our another blog post if want to explore the topic of [UX design for healthcare and medical apps](/blog/ux-design-healthcare-medical-apps-case-study/).
+**Read our another blog post if want to explore the topic of [UX design for healthcare and medical apps](/blog/ux-design-healthcare-medical-apps-case-study/).**
 
 <div class='block-button'><h2>Looking for a healthcare app development company?</h2><div>Since 2012 we have developed eHealth products for clients from Germany, Norway, Israel, UK and more. Contact us to estimate your solution.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
