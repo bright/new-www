@@ -6,6 +6,7 @@ tags:
   - business
   - inspiration
 date: 2022-08-10T09:35:51.370Z
+meaningfullyUpdatedAt: 2023-04-05T07:39:20.853Z
 title: UX Design for Healthcare and Medical Apps Case Study
 layout: post
 image: /images/cover.png
@@ -81,7 +82,7 @@ To be fair, color coding could be found much easier, simply by walking in the st
 
 ## UX design for offline mode
 
-**Offline mode is often an essential feature in healthcare apps** and usually a huge challenge itself. When it comes to life-death situations you cannot rely on the internet connection. Following our case study example, the hospital staff has to have access to the app 24h a day even if there is an issue with the Wi-Fi connection. That’s not all though. The offline mode has to be followed by the right design. 
+Apps accessible offline are called [offline-first apps](/blog/ux-design-healthcare-medical-apps-case-study/). **Offline mode is often an essential feature in healthcare apps** and usually a huge challenge itself. When it comes to life-death situations you cannot rely on the internet connection. Following our case study example, the hospital staff has to have access to the app 24h a day even if there is an issue with the Wi-Fi connection. That’s not all though. The offline mode has to be followed by the right design. 
 
 ### UX design for the offline mode has to emphasize:
 
