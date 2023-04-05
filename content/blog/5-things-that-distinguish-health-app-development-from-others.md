@@ -3,6 +3,7 @@ author: izabela
 tags:
   - business
 date: 2021-08-09T07:00:10.034Z
+meaningfullyUpdatedAt: ""
 title: 5 things that distinguish health app development from others
 layout: post
 image: /images/blogpost_www_healthcareapp.png
@@ -32,7 +33,9 @@ Although – compared to medical software development – the pressure is lower,
 
 ### 2. Offline mode
 
-If you think that offline mode is so not 2021, then you may be surprised. Health apps need to be treated a little bit differently. For example, when you plan to build an app for hospital doctors which shows the medical history of their patients, you need to make sure that they have access to the data at every time in every possible place around the whole hospital. Doctors cannot risk the patients’ safety using an app that wouldn’t operate without the internet. The data has to be synchronised as soon as users have an internet connection.
+If you think that offline mode is so not 2021, then you may be surprised. Health apps need to be treated a little bit differently. For example, when you plan to build an app for hospital doctors which shows the medical history of their patients, you need to make sure that they have access to the data at every time in every possible place around the whole hospital. Doctors cannot risk the patients’ safety using an app that wouldn’t operate without the internet. The data has to be synchronised as soon as users have an internet connection. 
+
+Apps with offline mode are often referred as [offline-first applications](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) – click to read another blog pst about them.
 
 ### 3. Greater risk behind every update
 
