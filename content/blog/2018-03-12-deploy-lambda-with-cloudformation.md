@@ -7,6 +7,7 @@ tags:
   - lambda
   - cloudform
 date: 2018-03-11T23:00:00.000Z
+meaningfullyUpdatedAt: 2023-04-05T12:55:20.828Z
 title: How to deploy Lambda function with CloudFormation?
 layout: post
 image: /images/lambda_blog_post.png
@@ -72,7 +73,7 @@ The `--capabilities CAPABILITY_IAM` is required whenever the CloudFormation has 
 
 ![AWS Lambda Screen](/images/lambda/aws-console.png)
 
-It is possible to use the AWS Console editor to test and change the function. However, if we are to treat the serverless approach seriously we should not forget about the standard practices like versioning of our source code.
+It is possible to use the AWS Console editor to test and change the function. However, if we are to treat the [serverless approach](/blog/why-you-should-go-serverless-with-your-apps/) seriously we should not forget about the standard practices like versioning of our source code.
 
 ## Step 3: Update and version AWS Lambda function
 
