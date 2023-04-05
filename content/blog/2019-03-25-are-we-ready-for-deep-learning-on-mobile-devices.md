@@ -10,6 +10,7 @@ tags:
   - machine learning
   - ml kit
 date: 2019-03-24T23:00:00.000Z
+meaningfullyUpdatedAt: ""
 title: Are we ready for deep learning on mobile devices?
 layout: post
 image: /images/blog_post_cover_deep_learning.png
