@@ -7,6 +7,7 @@ tags:
   - inspiration
   - workshops
 date: 2021-12-22T08:41:51.006Z
+meaningfullyUpdatedAt: ""
 title: Bright AWS Workshops for Dev Community
 layout: post
 image: /images/aws_workshops_by_piotr_blog.png
@@ -22,7 +23,7 @@ Sharing is caring! Our team members are speakers at various meetups and conferen
 
 ## AWS ninja is in town
 
-The one and only [Piotr](https://brightinventions.pl/blog/piotr-team-leader-technology-evangelist/) conducted the AWS workshops. Piotr is our bright tech lead, AWS expert and mentor. He is eager to share his serverless experience based on delivering cloud computing services to our clients. Piotr strongly believes that administering a cloud will soon be a part of every backend developer’s job. That is why we chose AWS as a topic of our workshops.
+The one and only [Piotr](https://brightinventions.pl/blog/piotr-team-leader-technology-evangelist/) conducted the AWS workshops. Piotr is our bright tech lead, AWS expert and mentor. He is eager to share his [serverless](/blog/why-you-should-go-serverless-with-your-apps/) experience based on delivering cloud computing services to our clients. Piotr strongly believes that administering a cloud will soon be a part of every backend developer’s job. That is why we chose AWS as a topic of our workshops.
 
 ![Piotr Mionskowski Bright Inventions](/images/blogpost_www_brightstory_piotr_q2.png)
 
