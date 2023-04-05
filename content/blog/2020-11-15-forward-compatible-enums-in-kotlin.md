@@ -7,6 +7,7 @@ tags:
   - serialization
   - forward compatibility
 date: 2020-11-17T18:49:00.000Z
+meaningfullyUpdatedAt: ""
 title: Forward compatible enums in Kotlin
 layout: post
 image: /images/blog_post_forward_compatible.png
@@ -14,15 +15,14 @@ hidden: false
 comments: true
 published: true
 ---
-A few years ago Adam outlined
+**A few years ago Adam outlined
 [8 steps to keep your API sane](/blog/8-steps-to-keep-your-api-sane)
 in his blog post which I really recommend if you haven't seen it yet.
 The second step there, "be liberal in what the app accepts", is quite a
 specific one because it is applicable not only to the backend side of
-the API but also, if not the most, the clients of that API.
+the API but also, if not the most, the clients of that API.**
 
-I cannot stress enough the importance of that rule in the "offline
-first" apps. Let's take a look at some example.
+I cannot stress enough the importance of that rule in the [offline-first apps](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/). Let's take a look at some example.
 
 ## Example: 9GAG post tags
 
@@ -186,13 +186,11 @@ to the
       ART("ART", R.string.tag_art)
   }
   ```
-  
 * declare the serializer object
 
   ```kotlin
   object PostTagCodifiedSerializer : KSerializer<CodifiedEnum<PostTag, String>> by codifiedEnumSerializer()
   ```
-  
 * use the serializer wherever we want
 
   ```kotlin
@@ -214,7 +212,6 @@ property, we can:
       .mapNotNull { it.knownOrNull() }
       .map { context.getString(it.nameRes) }
   ```
-  
 * check if the particular enum value is known or not and handle all the
   possible cases
 
@@ -228,7 +225,6 @@ property, we can:
       is CodifiedEnum.Unknown -> TODO()
   }
   ```
-  
 * get the original string value: `tag.code()`
 
 We can easily create the enum wrapper for any known `PostTag`:
