@@ -4,6 +4,7 @@ tags:
   - DDD
   - Kotlin
 date: 2022-09-16T06:36:58.124Z
+meaningfullyUpdatedAt: 2023-04-06T12:42:04.235Z
 title: Domain Driven Design in Kotlin - Entities lifecycle management
 layout: post
 image: /images/blog_cover_ddd_kotlin.png
@@ -13,11 +14,11 @@ published: true
 ---
 ![](https://cdn-images-1.medium.com/max/1600/0*mnMkNG1ISY6aN1Mw)
 
-As devs, we often focus on the project’s tech aspects, such as frameworks, libraries, and their versions. Unfortunately, this moves us away from, most likely, the main thing we should focus on — solving customer problems.
+**As devs, we often focus on the project’s tech aspects, such as frameworks, libraries, and their versions. Unfortunately, this moves us away from, most likely, the main thing we should focus on — solving customer problems.**
 
 Unless we are experts in some specific technical concepts and were summoned to solve issues related to tooling, our main concern is bringing the business value. To do so, we should try to focus on the domain that our software is or will be, the customer’s needs, and avoid mixing those with internals unrelated to the client’s problem. By internals, I mean things like persistence of our data, transportation, notification, etc.
 
-That is where the **Domain Driven Design kicks in by separating technical aspects of our software from business logic** that should be represented in code as simple and clean as possible. The tactical part of DDD comes with building blocks based on which we can build domain in the code and loosely couple it with other more technical parts of code. This separation brings values such as better observability and testability. It can also help us better react to business changes and perform technical upgrades such as moving from one library to another.
+That is where the **[Domain Driven Design](/blog/domain-driven-design-explained-by-a-senior-backend-developer/) kicks in by separating technical aspects of our software from business logic** that should be represented in code as simple and clean as possible. The tactical part of DDD comes with building blocks based on which we can build domain in the code and loosely couple it with other more technical parts of code. This separation brings values such as better observability and testability. It can also help us better react to business changes and perform technical upgrades such as moving from one library to another.
 
 - - -
 
