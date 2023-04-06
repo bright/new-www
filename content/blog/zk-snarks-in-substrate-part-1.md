@@ -220,7 +220,7 @@ As you can see, the result is exactly the same as it were for our witness from t
 
 ## Quadratic Arithmetic Program
 
-The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials[^3](https://vitalik.ca/general/2021/01/26/snarks.html). We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $\[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. 
+The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials[^3](https://vitalik.ca/general/2021/01/26/snarks.html). We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. 
 
 Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
 
