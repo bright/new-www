@@ -81,4 +81,4 @@ I will go first with the most obvious choice which is **“Domain-Driven Design:
 
 I would start with some blog posts and presentations as an introduction to DDD to get the basics, then move to some implementation examples in Your favorite technology and finally go to the Bible.
 
-<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and create better code with DDD. Check out our offer.</div><a href="/blog/using-cognito-with-nest-js"><button>Apply and join our team</button></a></div>
+<div class='block-button'><h2>We are looking for backend developers (TS, Node.js)</h2><div>Join our team and create better code with DDD. Check out our offer.</div><a href="/jobs/senior-backend-developer-typescript/"><button>Apply and join our team</button></a></div>
