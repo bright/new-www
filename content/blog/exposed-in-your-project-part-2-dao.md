@@ -31,15 +31,17 @@ In this tutorial, we are going to learn how to modify our [previous code](https:
 ## Persistence layer refactoring
 
 First, a summary, then the details. We did:
-- group `PersonTable`&`AddressTable`, since `AddressTable` shouldn't be used without Person context
-- added `Entity` for both,
-- refactored the relations,
-- removed `PersonRepository` interface and renamed `PersonRepositoryImpl` to `PersonRepository` in order to simplify the example,
-- refactored `PersonRepository` in order to use Entities instead of Tables.
+
+* group `PersonTable`&`AddressTable`, since `AddressTable` shouldn't be used without Person context
+* added `Entity` for both,
+* refactored the relations,
+* removed `PersonRepository` interface and renamed `PersonRepositoryImpl` to `PersonRepository` in order to simplify the example,
+* refactored `PersonRepository` in order to use Entities instead of Tables.
 
 ### tables
 
 `PersonTable.kt`
+
 ```kotlin
 import org.jetbrains.exposed.dao.id.IntIdTable
 
@@ -64,6 +66,7 @@ There is nothing much - we just moved `AddressTable` from a separate file to the
 ### Entities
 
 `PersonEntity.kt`
+
 ```kotlin
 import org.jetbrains.exposed.dao.IntEntity
 import org.jetbrains.exposed.dao.IntEntityClass
@@ -100,6 +103,7 @@ additionally, as you can see, we added `PersonEntity.addresses` relation.
 ### PersonRepository refactoring
 
 PersonRepository.kt
+
 ```kotlin
 import org.jetbrains.exposed.dao.id.EntityID
 import org.jetbrains.exposed.dao.with
@@ -113,6 +117,7 @@ class PersonRepository {
 ```
 
 #### findAll
+
 ```kotlin
 fun findAll(): List<FoundPersonWithAddressDto> = transaction {
         PersonEntity
@@ -137,12 +142,14 @@ fun findAll(): List<FoundPersonWithAddressDto> = transaction {
 Based on `PersonEntity`, we have access to `find`, `all`, `findById` methods, and more. In this case, we are going to get `all()` of the records and map it, BUT!\
 
 Since `0.13.1` version (so for a quite long time), we can define eager loading in order to prevent **n+1** problem. By adding `with(PersonEntity::addresses)`, our query execution scenario looks like:
+
 ```sql
 10:51:51.958 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT PERSON.ID, PERSON."NAME", PERSON.SURNAME, PERSON.AGE FROM PERSON
 10:51:52.247 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT ADDRESS.ID, ADDRESS.PERSON_ID, ADDRESS.STREET, ADDRESS.HOUSE, ADDRESS.APARTMENT, ADDRESS.CITY, ADDRESS.POSTAL_CODE FROM ADDRESS WHERE ADDRESS.PERSON_ID IN (1, 2, 3)
 ```
 
 #### find
+
 Because I wanted to show eager loading for `findAll()`, `find` method looks similar to the previous one:
 
 ```kotlin
@@ -232,6 +239,8 @@ which will respond with full Person DTO.
 
 In this article, we've learned how to refactor DSL to DAO approach in JetBrains/Exposed dependent project. In the next episode, I'm going to tackle some more advanced topics. Stay tuned!
 
-** Did you like the article? Maybe you have some other way for DAO implementation? Leave a comment below and stay in touch! **
+**Did you like the article? Maybe you have some other way for DAO implementation? Leave a comment below and stay in touch!** 
 
 You can find the complete code [over GitHub.](https://github.com/bright/kotlin-exposed-dao-example)
+
+**In the next part of this tutorial you'll learn [how to implement JSON support in our JetBrains/Exposed app](/blog/exposed-in-your-project-json-support/).** Read it!
