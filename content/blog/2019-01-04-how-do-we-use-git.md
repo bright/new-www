@@ -1,5 +1,5 @@
 ---
-meaningfullyUpdatedAt: 2023-04-07T07:27:40.300Z
+meaningfullyUpdatedAt: ""
 excerpt: Even though at Bright Inventions we use a number of technologies and
   work on multiple software stacks, we have a few practices that are common and
   widely accepted across all projects and stacks. One of these things is how we
