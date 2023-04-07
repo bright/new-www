@@ -6,7 +6,6 @@ tags:
   - ORM
   - DBAL
   - database
-  - framework
   - dao
   - querydsl
 date: 2023-03-20T11:03:14.093Z
