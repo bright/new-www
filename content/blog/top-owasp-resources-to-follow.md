@@ -15,7 +15,7 @@ published: true
 ---
 **In the ocean of cybersecurity threats, dependencies and vulnerabilities there is, luckily, a lighthouse called OWASP. Check out which OWASP resources you should know to follow the best security standards.**
 
-<EbookDynamic sectionTitle='Dive much deeper into software security' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Looking for a comprehensive knowledge base about app security? Download the free ebook and get to know top tools, standards and security practices.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security free ebook' />
+<EbookDynamic sectionTitle='dve much deeper into software security' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Looking for a comprehensive knowledge base about app security? Download the free ebook and get to know top tools, standards and security practices.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security free ebook' />
 
 ## What is OWASP?
 
@@ -43,4 +43,4 @@ OWASP MASVS stands for Mobile Application Security Verification Standard. This i
 
 If you've read through the OWASP ASVS and OWASP MASVS and still need some guidance, the OWASP Cheat Sheet is a helpful resource. This document summarizes the top security standards and processes in a nutshell. It's developed by security experts, and everyone can contribute to it. All pull requests are verified by project leaders.
 
-<EbookDynamic sectionTitle='Discover more software security resources in our free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Looking for a comprehensive knowledge base about software security? Download the free ebook and get to know top tools, standards and security practices.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security free ebook' />
+<EbookDynamic sectionTitle='discover more software security resources in our free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Looking for a comprehensive knowledge base about software security? Download the free ebook and get to know top tools, standards and security practices.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security free ebook' />
