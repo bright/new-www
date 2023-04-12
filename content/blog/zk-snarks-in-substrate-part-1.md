@@ -14,7 +14,7 @@ hidden: false
 comments: true
 published: true
 ---
-**In this article I would like to introduce you with the zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge) concept. First we are going to briefly describe what are the zero-knowledge proofs, what are the stages of creating them, which tools can be useful for generating the zk-SNARKs. Also, we will touch a little math behind them. I encourage you to visit our GitHub, where you can find a [repository](https://github.com/bright/zk-snarks-with-substrate) for this article. Let’s start with the definition of the zero-knowledge proof and then we will move to the zk-SNARKs.**
+**In this article I would like to introduce you to the zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge) concept. First we are going to briefly describe what are the zero-knowledge proofs, what are the stages of creating them, which tools can be useful for generating the zk-SNARKs. Also, we will touch a little math behind them. I encourage you to visit our GitHub, where you can find a [repository](https://github.com/bright/zk-snarks-with-substrate) for this article. Let’s start with the definition of the zero-knowledge proof and then we will move to the zk-SNARKs.**
 
 <div class="image"><img src="/images/zk-snarks_tutorial_part1.png" alt="Zk-SNARKs in Substrate (Part 1)" title="Zk-SNARKs in Substrate (Part 1)"  /> </div>
 
@@ -220,7 +220,7 @@ As you can see, the result is exactly the same as it were for our witness from t
 
 ## Quadratic Arithmetic Program
 
-The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials[^3](https://vitalik.ca/general/2021/01/26/snarks.html). We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. 
+The last step is to convert a R1CS to QAP, which will allow us to transform R1CS vectors to the polynomials. The logic behind the equation will still be the same, but instead of using vectors with a dot product we will use polynomials[^3](https://vitalik.ca/general/2021/01/26/snarks.html). We can start with the declaration of the polynomials $A*{i}(x)$, $B*{i}(x)$ and $C*{i}(x)$ for $i$ in $\[1,N]$, where the $N$ is a number of variables for our constraints (in our case it will be 4). Than we can create a set of points for $A*{i}(n)=a*{n}(i)$ and similar for $B*{i}(n)$ and $C_{i}(n)$. 
 
 Based on those points, we can create polynomials by using a [Lagrange interpolation](https://en.wikipedia.org/wiki/Lagrange_polynomial). As a result we will get a set of polynomials which can be then written in the equation:
 
