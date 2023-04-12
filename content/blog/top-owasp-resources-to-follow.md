@@ -25,4 +25,22 @@ The organization shares knowledge through countless open-source projects, docume
 
 ## Top OWASP resources to know by developers, security newbies and tech startups
 
-OWASP gudelines and standars in one place:
+OWASP guidelines and standards in one place:
+
+### [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+This is a great place to start. This document outlines the ten most popular vulnerabilities to be discovered in web apps. By following the guidelines outlined in the OWASP Top 10, you can ensure that your app is secure from the most common attacks.
+
+### [OWASP ASVS](https://owasp.org/www-project-application-security-verification-standard/)
+
+OWASP ASVS stands for Application Security Verification Standards. This is a standard checklist developed by OWASP that touches on different aspects of web app software development. Check the list and find out if your app meets dozens of security standards.
+
+### [OWASP MASVS](https://mas.owasp.org/MASVS/)
+
+OWASP MASVS stands for Mobile Application Security Verification Standard. This is a standard checklist made exclusively for mobile application security. If you work with mobile apps, the OWASP MASVS is a document you should read.
+
+### [OWASP Cheat Sheet](https://cheatsheetseries.owasp.org/)
+
+If you've read through the OWASP ASVS and OWASP MASVS and still need some guidance, the OWASP Cheat Sheet is a helpful resource. This document summarizes the top security standards and processes in a nutshell. It's developed by security experts, and everyone can contribute to it. All pull requests are verified by project leaders.
+
+<EbookDynamic sectionTitle='Discover more software security resources in our free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Looking for a comprehensive knowledge base about software security? Download the free ebook and get to know top tools, standards and security practices.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security free ebook' />
