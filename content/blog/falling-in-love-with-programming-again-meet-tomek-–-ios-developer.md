@@ -61,3 +61,5 @@ A new job with great people. **The people you work with are key**. You know well
 There isn’t one simple answer to that question. **It depends on the product I would build. If it is a solution for a large group of users with a spectrum of Apple devices, then you can’t choose only Swift UI**. No matter how trendy it is right now. 
 
 Yet **if the product targets a smaller group of tech-savvy users I would base it on Swift UI**. Having in mind that it is still a young technology, **you cannot cross off good old UIKit completely**.
+
+<div class="image"><img src="/images/tomek_quote_libs.png" alt="Tomek's quote on iOS libraries" title="Tomek's quote on iOS libraries"  /> </div>
