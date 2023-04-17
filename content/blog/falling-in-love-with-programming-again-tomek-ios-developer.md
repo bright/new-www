@@ -9,14 +9,14 @@ date: 2023-04-17T06:36:31.384Z
 meaningfullyUpdatedAt: 2023-04-17T06:36:31.913Z
 title: Falling in Love with Programming Again. Meet Tomek – iOS Developer
 layout: post
-image: /images/brightstorytomekl.png
+image: /images/brightstorytomeklios.png
 hidden: false
 comments: true
 published: true
 ---
 **Tomek is a Senior iOS Developer with over 5 years of experience. His initial career, as a nuclear power engineer, guided him toward programming. Learn more about his approach to mobile development, and the iOS trends he observes. Also, find out how Tomek overcame job burnout that almost took away his passion for programming.**
 
-<div class="image"><img src="/images/brightstorytomeklcollage.png" alt="Tomek, iOS Developer" title="Tomek, iOS Developer"  /> </div>
+<div class="image"><img src="/images/brightstorytomeklcollageteam.png" alt="Tomek, iOS Developer" title="Tomek, iOS Developer"  /> </div>
 
 ## You studied Nuclear Power Engineering and Nuclear Physics. How did you end up becoming an iOS developer?
 
@@ -38,7 +38,9 @@ Finally, I decided to focus completely on programming. I moved to Northern Polan
 
 **People**. Maybe I am just lucky, but **I’ve always come across iOS developers who were true enthusiasts**. I don’t say that it is possible only after choosing iOS development. ;) I must admit, though, that I’ve met so many iOS devs that really seem to love their job as much as I do. It’s **great to have the possibility to share the same passion with others**.
 
-<div class="image"><img src="/images/tomek_quote_ios_devs.png" alt="Tomek's quote on iOS developers" title="Tomek's quote on iOS developers"  /> </div>
+
+
+<div class="image"><img src="/images/tomek_quote_ios_devs2.png" alt="Tomek's quote on iOS developers" title="Tomek's quote on iOS developers"  /> </div>
 
 I also enjoy the fact that when you write a mobile app, **you can quickly see the results of your work**. Quick gratification is really powerful in this case. I can instantly see the UI that was born from my code.
 
@@ -48,7 +50,7 @@ Last but not least, I love gadgets. 😉 **I enjoy writing apps for all devices 
 
 Right before joining Bright Inventions **I actually experienced a massive job burnout**. I was during a very challenging career moment, under lots of pressure, dealing with hours of overtime. **I was concerned that I had lost my passion for this job**. I even thought about a career change. Eventually, I left my current job to figure out my next move. 
 
-I decided to stick to programming. I started to go through job offers and found Bright Inventions’ offer. It reminded me that my friend Kamil worked there. So I asked him basically if the job description was true. **Not only did he confirm everything, but also painted an even more positive image of working at Bright Inventions**.
+I decided to stick to programming. I started to go through job offers and found Bright Inventions’ offer. It reminded me that my friend [Kamil](/about-us/kamil-b/) worked there. So I asked him basically if the job description was true. **Not only did he confirm everything, but also painted an even more positive image of working at Bright Inventions**.
 
 Then I reached out to Ula and after going through the recruitment process I joined the company. So it was a bumpy road to Bright Inventions. Yet with a happy ending. **I am glad to be here. This is the place where I got back my passion for software development**.
 
@@ -64,7 +66,7 @@ There isn’t one simple answer to that question. **It depends on the product I 
 
 Yet **if the product targets a smaller group of tech-savvy users I would base it on Swift UI**. Having in mind that it is still a young technology, **you cannot cross off good old UIKit completely**.
 
-<div class="image"><img src="/images/tomek_quote_libs.png" alt="Tomek's quote on iOS libraries" title="Tomek's quote on iOS libraries"  /> </div>
+<div class="image"><img src="/images/tomek_quote_libs2.png" alt="Tomek's quote on iOS libraries" title="Tomek's quote on iOS libraries"  /> </div>
 
 What I would try to do, no matter the type of product, is to **avoid external libraries to eliminate dependencies**. It’s better to have control of our code, as much as reasonably possible. I would first explore iOS system libraries and try to utilize them for our needs.
 
