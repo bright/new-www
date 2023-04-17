@@ -31,3 +31,9 @@ At my first full-time job, **I had a chance to build a power plant simulator**. 
 What’s more, my two friends were programming in iOS. So I started to learn with them. We even **developed an app for Warsaw University**. At that time the entry threshold to iOS development was high because you had to buy expensive Apple devices. So more people chose Android development because they already had a computer with Windows or Linux to work on. That’s why **we felt it might be easier to establish ourselves in iOS development because the competition would be lower**. 
 
 Finally, I decided to focus completely on programming. I moved to Northern Poland to work as an iOS developer in a local company.
+
+## What do you like the most about iOS development?
+
+**People**. Maybe I am just lucky, but **I’ve always come across iOS developers who were true enthusiasts**. I don’t say that it is possible only after choosing iOS development. ;) I must admit, though, that I’ve met so many iOS devs that really seem to love their job as much as I do. It’s **great to have the possibility to share the same passion with others**.
+
+<div class="image"><img src="/images/tomek_quote_ios_devs.png" alt="Tomek's quote on iOS developers" title="Tomek's quote on iOS developers"  /> </div>
