@@ -93,3 +93,5 @@ My wife planned a **surprise birthday trip** for me. We went to **Wrocław**. An
 Also, we’ve just come back from **Vietnam**. We spent three weeks there. It was a **totally new experience for me**. It’s a very wild and friendly country at the same time. 
 
 We will see what other adventures this year brings…
+
+<div class='block-button'><h2>Ready to join Tomek?</h2><div>Check out our openings. Build solutions for startup from Israel, USA or Germany.</div><a href="career/"><button>check career opportunities</button></a></div>
