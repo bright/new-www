@@ -85,3 +85,9 @@ Another project is a **customizable workflow management** **solution** that help
 ## I know you love to travel. Where have you been so far in 2023?
 
 <div class="image"><img src="/images/brightpassion_tomek.png" alt="Tomek's passion" title="Tomek's passion"  /> </div>
+
+My wife planned a **surprise birthday trip** for me. We went to **Wrocław**. Another gift for me was joining the barista workshop there. The art of making coffee is one of my passions.
+
+Also, we’ve just come back from **Vietnam**. We spent three weeks there. It was a **totally new experience for me**. It’s a very wild and friendly country at the same time. 
+
+We will see what other adventures this year brings…
