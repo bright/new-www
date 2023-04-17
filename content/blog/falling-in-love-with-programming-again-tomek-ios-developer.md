@@ -38,8 +38,6 @@ Finally, I decided to focus completely on programming. I moved to Northern Polan
 
 **People**. Maybe I am just lucky, but **I’ve always come across iOS developers who were true enthusiasts**. I don’t say that it is possible only after choosing iOS development. ;) I must admit, though, that I’ve met so many iOS devs that really seem to love their job as much as I do. It’s **great to have the possibility to share the same passion with others**.
 
-
-
 <div class="image"><img src="/images/tomek_quote_ios_devs2.png" alt="Tomek's quote on iOS developers" title="Tomek's quote on iOS developers"  /> </div>
 
 I also enjoy the fact that when you write a mobile app, **you can quickly see the results of your work**. Quick gratification is really powerful in this case. I can instantly see the UI that was born from my code.
@@ -96,4 +94,4 @@ Also, we’ve just come back from **Vietnam**. We spent three weeks there. It wa
 
 We will see what other adventures this year brings…
 
-<div class='block-button'><h2>Ready to join Tomek?</h2><div>Check out our openings. Build solutions for startup from Israel, USA or Germany.</div><a href="career/"><button>check career opportunities</button></a></div>
+<div class='block-button'><h2>Ready to join Tomek?</h2><div>Check out our openings. Build solutions for startup from Israel, USA or Germany.</div><a href="/career/"><button>check career opportunities</button></a></div>
