@@ -9,14 +9,14 @@ date: 2023-04-17T06:36:31.384Z
 meaningfullyUpdatedAt: 2023-04-17T06:36:31.913Z
 title: Falling in Love with Programming Again. Meet Tomek – iOS Developer
 layout: post
-image: /images/brightstorytomekl.png
+image: /images/brightstorytomeklios.png
 hidden: false
 comments: true
 published: true
 ---
 **Tomek is a Senior iOS Developer with over 5 years of experience. His initial career, as a nuclear power engineer, guided him toward programming. Learn more about his approach to mobile development, and the iOS trends he observes. Also, find out how Tomek overcame job burnout that almost took away his passion for programming.**
 
-<div class="image"><img src="/images/brightstorytomeklcollage.png" alt="Tomek, iOS Developer" title="Tomek, iOS Developer"  /> </div>
+<div class="image"><img src="/images/brightstorytomeklcollageteam.png" alt="Tomek, iOS Developer" title="Tomek, iOS Developer"  /> </div>
 
 ## You studied Nuclear Power Engineering and Nuclear Physics. How did you end up becoming an iOS developer?
 
@@ -38,7 +38,9 @@ Finally, I decided to focus completely on programming. I moved to Northern Polan
 
 **People**. Maybe I am just lucky, but **I’ve always come across iOS developers who were true enthusiasts**. I don’t say that it is possible only after choosing iOS development. ;) I must admit, though, that I’ve met so many iOS devs that really seem to love their job as much as I do. It’s **great to have the possibility to share the same passion with others**.
 
-<div class="image"><img src="/images/tomek_quote_ios_devs.png" alt="Tomek's quote on iOS developers" title="Tomek's quote on iOS developers"  /> </div>
+
+
+<div class="image"><img src="/images/tomek_quote_ios_devs2.png" alt="Tomek's quote on iOS developers" title="Tomek's quote on iOS developers"  /> </div>
 
 I also enjoy the fact that when you write a mobile app, **you can quickly see the results of your work**. Quick gratification is really powerful in this case. I can instantly see the UI that was born from my code.
 
