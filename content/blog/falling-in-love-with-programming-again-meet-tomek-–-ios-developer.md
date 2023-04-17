@@ -49,3 +49,9 @@ Right before joining Bright Inventions **I actually experienced a massive job bu
 I decided to stick to programming. I started to go through job offers and found Bright Inventions’ offer. It reminded me that my friend Kamil worked there. So I asked him basically if the job description was true. **Not only did he confirm everything, but also painted an even more positive image of working at Bright Inventions**.
 
 Then I reached out to Ula and after going through the recruitment process I joined the company. So it was a bumpy road to Bright Inventions. Yet with a happy ending. **I am glad to be here. This is the place where I got back my passion for software development**.
+
+## So it turned out that your way to overcome burnout was actually finding a new job?
+
+A new job with great people. **The people you work with are key**. You know well, how nice and friendly people are here. So it helped me get back on track.
+
+<div class="image"><img src="/images/brightteamtomekl.png" alt="Bright Inventions' team" title="Bright Inventions' team"  /> </div>
