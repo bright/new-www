@@ -40,4 +40,12 @@ Finally, I decided to focus completely on programming. I moved to Northern Polan
 
 I also enjoy the fact that when you write a mobile app, **you can quickly see the results of your work**. Quick gratification is really powerful in this case. I can instantly see the UI that was born from my code.
 
-Last but not least, I love gadgets. 😉 **I enjoy writing apps for all devices Apple has to offer**. Yes, I’ve been captivated by Apple’s world. That’s a side effect of my work that I quite appreciate.
+Last but not least, I love gadgets. 😉 **I enjoy writing apps for all devices Apple has to offer**. Yes, I’ve been captivated by Apple’s world. That’s a side effect of my work that I quite appreciate. 
+
+## How did you land in Bright Inventions?
+
+Right before joining Bright Inventions **I actually experienced a massive job burnout**. I was during a very challenging career moment, under lots of pressure, dealing with hours of overtime. **I was concerned that I had lost my passion for this job**. I even thought about a career change. Eventually, I left my current job to figure out my next move. 
+
+I decided to stick to programming. I started to go through job offers and found Bright Inventions’ offer. It reminded me that my friend Kamil worked there. So I asked him basically if the job description was true. **Not only did he confirm everything, but also painted an even more positive image of working at Bright Inventions**.
+
+Then I reached out to Ula and after going through the recruitment process I joined the company. So it was a bumpy road to Bright Inventions. Yet with a happy ending. **I am glad to be here. This is the place where I got back my passion for software development**.
