@@ -25,3 +25,9 @@ Tech gadgets have intrigued me since I was a child, especially phones & smartpho
 So I decided to study **Nuclear Power Engineering** at Warsaw University of Technology and **Nuclear Physics** at Warsaw University because I really enjoyed physics and math. **These studies actually led me into programming anyway**.
 
 ## How come?
+
+At my first full-time job, **I had a chance to build a power plant simulator**. I felt so limited because **I didn’t have access to the source code**. It was a constant struggle to work with logic blocks when you didn’t have access to the underlying algorithm. I tried to manage on my own, looking for reasons for problems. In the end, finding solutions felt super satisfying. I even **wrote my first commercial application to improve power plant simulations**. I was going deeper and deeper into programming.
+
+What’s more, my two friends were programming in iOS. So I started to learn with them. We even **developed an app for Warsaw University**. At that time the entry threshold to iOS development was high because you had to buy expensive Apple devices. So more people chose Android development because they already had a computer with Windows or Linux to work on. That’s why **we felt it might be easier to establish ourselves in iOS development because the competition would be lower**. 
+
+Finally, I decided to focus completely on programming. I moved to Northern Poland to work as an iOS developer in a local company.
