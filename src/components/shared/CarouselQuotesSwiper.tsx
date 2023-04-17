@@ -188,6 +188,14 @@ const SlideWrapper = styled.div`
 export const CarouselQuotesSwiper: React.FC = () => {
   const quotes = [
     {
+      avatar_hover: <StaticImage src='../../../static/images/tomasz_l_passion.png' alt='Tomasz' className='quote-img' />,
+      short_name: 'Tomasz',
+      bio: 'Senior iOS Developer',
+      slug: 'tomasz-l',
+      quote:
+        'This is the place where I got back my passion for software development.',
+    },
+    {
       avatar_hover: <StaticImage src='../../../static/images/agnieszka_passion.png' alt='Agnieszka' className='quote-img' />,
       short_name: 'Agnieszka',
       bio: 'Senior Fullstack Developer',
