@@ -67,3 +67,11 @@ Yet **if the product targets a smaller group of tech-savvy users I would base it
 What I would try to do, no matter the type of product, is to **avoid external libraries to eliminate dependencies**. It’s better to have control of our code, as much as reasonably possible. I would first explore iOS system libraries and try to utilize them for our needs.
 
 It’s also important to **choose frameworks wisely**. For example, don’t choose RxSwift or Combine when your development team is not familiar with reactive programming.
+
+## What trends do you observe in iOS development?
+
+Great new technologies are here to discover such as **Swift UI and generally high-level frameworks**. They largely **simplify our work** and let us do advanced operations at a lower cost. On the one hand, it makes it easier to get into iOS development but at the same time, I feel that there is more stuff to comprehend. **When I was starting my iOS adventure there weren’t so many things to learn**.
+
+Another trend is **multiplatform apps**. You can write code once and it will work (with a few alterations) on iPhones as well as iPads and Macs. You can even write an application for iPad on iPad.
+
+<div class="image"><img src="/images/brightpassion_tomek2.png" alt="Tomek's photo" title="Tomek's photo"  /> </div>
