@@ -5,8 +5,8 @@ tags:
   - bright story
   - ios
   - inspiration
-date: 2023-04-17T05:52:20.776Z
-meaningfullyUpdatedAt: 2023-04-17T05:52:20.815Z
+date: 2023-04-17T06:36:31.384Z
+meaningfullyUpdatedAt: 2023-04-17T06:36:31.913Z
 title: Falling in Love with Programming Again. Meet Tomek – iOS Developer
 layout: post
 image: /images/brightstorytomekl.png
