@@ -75,3 +75,13 @@ Great new technologies are here to discover such as **Swift UI and generally hig
 Another trend is **multiplatform apps**. You can write code once and it will work (with a few alterations) on iPhones as well as iPads and Macs. You can even write an application for iPad on iPad.
 
 <div class="image"><img src="/images/brightpassion_tomek2.png" alt="Tomek's photo" title="Tomek's photo"  /> </div>
+
+## Tell us more about projects you work on.
+
+One of the projects is a **food delivery application operating in Israel**. This is not a typical food delivery app, it’s also a **popular employee benefit**. Companies use it to subsidize employees' lunches. It’s also a well-suited product for Israeli users due to this country's highly developed lunch culture.
+
+Another project is a **customizable workflow management** **solution** that helps to work efficiently in international teams. It’s well-adjustable for various business groups: lawyers, hairdressers, banks, and many more. **The product we help to build consists of many tools such as a calendar, reservations management, payments, chats, video calls**, and other platforms useful for daily business operations.
+
+## I know you love to travel. Where have you been so far in 2023?
+
+<div class="image"><img src="/images/brightpassion_tomek.png" alt="Tomek's passion" title="Tomek's passion"  /> </div>
