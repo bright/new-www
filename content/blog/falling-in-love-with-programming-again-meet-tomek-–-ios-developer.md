@@ -63,3 +63,7 @@ There isn’t one simple answer to that question. **It depends on the product I 
 Yet **if the product targets a smaller group of tech-savvy users I would base it on Swift UI**. Having in mind that it is still a young technology, **you cannot cross off good old UIKit completely**.
 
 <div class="image"><img src="/images/tomek_quote_libs.png" alt="Tomek's quote on iOS libraries" title="Tomek's quote on iOS libraries"  /> </div>
+
+What I would try to do, no matter the type of product, is to **avoid external libraries to eliminate dependencies**. It’s better to have control of our code, as much as reasonably possible. I would first explore iOS system libraries and try to utilize them for our needs.
+
+It’s also important to **choose frameworks wisely**. For example, don’t choose RxSwift or Combine when your development team is not familiar with reactive programming.
