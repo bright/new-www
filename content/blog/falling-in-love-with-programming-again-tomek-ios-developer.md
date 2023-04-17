@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-04-17T06:36:31.913Z
 title: Falling in Love with Programming Again. Meet Tomek – iOS Developer
 layout: post
 image: /images/brightstorytomekl.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
