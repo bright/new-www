@@ -195,7 +195,7 @@ export const CarouselQuotesSwiper: React.FC = () => {
       bio: 'Senior iOS Developer',
       slug: 'tomasz-l',
       quote:
-        'This is the place where I got back my passion for software development.',
+        'This is the place where I got back my passion for software development. It’s great to share the same passion with others at Bright Inventions.',
     },
     {
       avatar_hover: <StaticImage src='../../../static/images/agnieszka_passion.png' alt='Agnieszka' className='quote-img' />,
