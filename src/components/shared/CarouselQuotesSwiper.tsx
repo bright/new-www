@@ -26,8 +26,10 @@ const SwiperlWrapper = styled.section`
     }
     & .swiper-pagination {
       display: flex;
-      gap: 14px;
-      justify-content: center;
+      @media ${variables.deviceWidthMin.tablet} {
+        gap: 14px;
+      }
+        justify-content: center;
       bottom: 0;
       height: 30px;
       & .swiper-pagination-bullet {
@@ -336,8 +338,8 @@ export const CarouselQuotesSwiper: React.FC = () => {
           {quotes.map(item => {
             const { avatar_hover, short_name, bio, slug, quote } = item
             return (
-              <SwiperSlide>
-                <div key={item.short_name}>
+              <SwiperSlide key={item.short_name}>
+                <div>
                   <Link to={`/about-us/${slug}`}>
                     <FlexWrapper
                       desktopItems='center'

@@ -65,6 +65,14 @@ export default {
     desktop: `screen and (max-width: ${deviceSize.desktop + 1}px)`,
   },
 
+  deviceWidthMin: {
+    mobile: `screen and (min-width: ${deviceSize.mobile}px)`,
+    tablet: `screen and (min-width: ${deviceSize.tablet}px)`,
+    tabletXL: `screen and (min-width: ${deviceSize.tabletXL}px)`,
+    laptop: `screen and (min-width: ${deviceSize.laptop}px)`,
+    desktop: `screen and (min-width: ${deviceSize.desktop}px)`,
+  },
+
   color: {
     primary: '#f7931e', //brightOrange
     text: '#0A0A0A',
