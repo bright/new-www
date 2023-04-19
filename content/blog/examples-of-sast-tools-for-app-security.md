@@ -47,4 +47,4 @@ Here are 3 examples of SAST tools that are worth consideration. They offer free 
 * Configuring the server can be more cumbersome than Snyk, but there is no limit to the number of scans.
 * Can be configured for your team and used for managing issues together.
 
-
+For security purposes, it is suggested to use Snyk for local development, Semgrep for CI/CD if your team is small, and SonarQube for CI/CD scans as a self-hosted Community Edition if your team is bigger.
