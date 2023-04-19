@@ -33,4 +33,18 @@ Here are 3 examples of SAST tools that are worth consideration. They offer free 
 * Also scans dependencies and gives an advisor score for the package.
 * The easy onboarding process, with the ability to scan your CI/CD and add new team members to your project.
 
+[Semgrep](https://semgrep.dev)
+
+* Another paid SAST tool that is available as SaaS for free for teams of up to 20 persons.
+* Onboarding is easy and has the option to use the scanner with CI/CD pipeline and use the Web dashboard.
+* Semgrep can also be used as an Open Source tool without limits and has a built-in GitLab Security Scanner.
+
+[SonarQube](https://www.sonarsource.com/products/sonarqube/)
+
+* It is available as a free and paid version, with Sonarlint being the free IDE extension for analyzing projects.
+* The rules set is quite limited without a local SonarQube server or SonarQube cloud.
+* To enjoy free linting with extended rules set, download the SonarQube Community Edition and run a server locally.
+* Configuring the server can be more cumbersome than Snyk, but there is no limit to the number of scans.
+* Can be configured for your team and used for managing issues together.
+
 
