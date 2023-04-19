@@ -4,8 +4,8 @@ tags:
   - development
   - QA
   - security
-date: 2023-04-19T12:28:37.480Z
-meaningfullyUpdatedAt: 2023-04-19T12:28:37.515Z
+date: 2023-04-19T12:37:38.487Z
+meaningfullyUpdatedAt: 2023-04-19T12:37:39.231Z
 title: Examples of SAST Tools for App Security
 layout: post
 image: /images/sast_tools_cover.png
