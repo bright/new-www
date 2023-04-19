@@ -48,3 +48,5 @@ Here are 3 examples of SAST tools that are worth consideration. They offer free 
 * Can be configured for your team and used for managing issues together.
 
 For security purposes, it is suggested to use Snyk for local development, Semgrep for CI/CD if your team is small, and SonarQube for CI/CD scans as a self-hosted Community Edition if your team is bigger.
+
+<EbookDynamic sectionTitle='Read more about software security tools in a free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Looking for a comprehensive knowledge base about app security? Download the free ebook and get to know top tools, standards and security practices.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security free ebook' />
