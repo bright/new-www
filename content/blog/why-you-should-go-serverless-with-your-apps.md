@@ -28,7 +28,7 @@ We listed the benefits of serverless separately for startups and larger companie
 
 ## Benefits of serverless computing for startups
 
-Here are some of the benefits of serverless computing for startups:
+Here are some of the benefits of [serverless computing](/our-areas/cloud-services/) for startups:
 
 ### Reduced Costs
 
