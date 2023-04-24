@@ -6,9 +6,9 @@ tags:
   - development
   - business
   - design
-date: 2021-05-19T10:00:56.280Z
-meaningfullyUpdatedAt: 2021-05-19T10:00:00.000Z
-title: What are the stages of app development?
+date: 2023-04-24T07:30:02.507Z
+meaningfullyUpdatedAt: 2023-04-24T07:30:03.047Z
+title: What Are the Stages of App Development?
 layout: post
 image: /images/blogpost_stagesofappdevelopment.png
 hidden: false
@@ -30,10 +30,12 @@ Check out all the steps on the road to a successful app launch and maintenance.
 * Even the most unique idea doesn’t guarantee success. This is only the beginning.
 * **This phase helps quickly verify if the idea has some business potential.** For example, creating another weather app may not be a profitable option.
 * Also, during this stage, you can start looking for a suitable software development company.
-* Software development companies often conduct workshops with the client to discuss the idea and its potential.
-* This stage helps to answer another big question – how much would my app cost? If the idea is too expensive to develop, you can modify it or even just give up on it.
+* Software development companies often conduct [product workshops](/our-areas/product-workshops/) with the client to discuss the idea and its potential.
+* This stage **helps to answer another big question – how much would my app cost**? If the idea is too expensive to develop, you can modify it or even just give up on it.
+* This is a great moment to **establish first goals** that will help you to measure in the future if your app is a success. However, these goals might change. While you are getting to know the industry, you might better understand what you need to succeed.
 * Ideation is a significant time for product designers. During workshops with the client, designers can better understand the whole solution. This brings us to the Prototyping phase.
-* This is a great moment to establish first goals that will help you to measure in the future if you app is a success. However, these goals might change. While you are getting to know the industry, you might better understand what you need to succeed.
+
+<div class='block-button'><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
 
 ## App Prototyping
 
