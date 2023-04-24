@@ -2,7 +2,7 @@
 layout: faqs
 faqs_id: mvp development 7
 name: mvp development 7
-slug: why-launch-mvp-rather-than-fully-fledged-produc
+slug: why-launch-mvp-rather-than-fully-fledged-product
 question: Why should you launch MVP rather than a fully-fledged product?
 answer: >-
   There are many benefits of a MVP:
