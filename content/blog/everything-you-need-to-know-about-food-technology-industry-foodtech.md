@@ -33,7 +33,7 @@ According to [Growth Market Reports](https://growthmarketreports.com/report/food
 
 <div class="image"><img src="/images/rakuteninsight.png" alt="Rakuten Insight" title="Rakuten Insight"  /> </div>
 
-<center>Source: [Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
+<center>Source: \[Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
 
 ## How is a technology used in the food industry?
 
@@ -87,4 +87,4 @@ Then it’s time to **validate your idea** to ensure that it has a chance to sta
 
 If you validate your idea positively, **you can start to work on [MVP](/our-areas/mvp-development/)**. You don’t need a big budget to work on that. The idea behind MVP is to launch the product with key features to quickly attract the first users and then develop the product based on their needs. Having MVP can also help to attract investors. 
 
-<div class='block-button'><h2>Hire experienced FoodTech developers to build MVP.</h2><div>We launched and scaled FoodTech products for startups and larger organizations. Contact us to estimate your solution.</div><a href="/start-project/"><button>estimate your solution now</button></a></div>
+<div class='block-button'><h2>Hire experienced FoodTech developers to build MVP</h2><div>We launched and scaled FoodTech products for startups and larger organizations. Contact us to estimate your solution.</div><a href="/start-project/"><button>estimate your solution now</button></a></div>
