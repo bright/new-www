@@ -15,6 +15,7 @@ faqs:
   - mvp development 5
   - mvp development 6
   - mvp development 3
+  - mvp development 7
 project:
   - solution-parkinson
   - pregnancy-app
