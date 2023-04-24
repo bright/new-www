@@ -78,3 +78,5 @@ Using advanced processing technologies to improve the nutritional content, taste
 **FoodTech companies specialize in delivering innovations in the food area**. These companies can range from startups to established organizations. They often use cutting-edge technologies like artificial intelligence, the Internet of Things, machine learning, robotics, and blockchain to improve efficiency, sustainability, and food quality. 
 
 The most popular representations of food tech might be global food delivery providers like JustEat, Uber Eats, etc. These are examples of food-related apps that are the most likely to be found on our smartphones.
+
+## How to start your own food tech solution?
