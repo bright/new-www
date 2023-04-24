@@ -80,3 +80,9 @@ Using advanced processing technologies to improve the nutritional content, taste
 The most popular representations of food tech might be global food delivery providers like JustEat, Uber Eats, etc. These are examples of food-related apps that are the most likely to be found on our smartphones.
 
 ## How to start your own food tech solution?
+
+You might think that having an idea for FoodTech is all you need. In fact, that’s just the beginning. There’s no doubt that you should try to **find an idea for a business that would solve the true need of your consumers**. 
+
+Then it’s time to **validate your idea** to ensure that it has a chance to stand on the market. An effective way to validate your idea is by organizing dedicated **[product workshops](/our-areas/product-workshops/)** with software developers and designers who have launched some similar products in FoodTech. They have market insights and data regarding users.
+
+If you validate your idea positively, **you can start to work on [MVP](/our-areas/mvp-development/)**. You don’t need a big budget to work on that. The idea behind MVP is to launch the product with key features to quickly attract the first users and then develop the product based on their needs. Having MVP can also help to attract investors.
