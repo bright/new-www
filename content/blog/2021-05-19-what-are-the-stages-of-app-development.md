@@ -33,6 +33,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 * Software development companies often conduct workshops with the client to discuss the idea and its potential.
 * This stage helps to answer another big question – how much would my app cost? If the idea is too expensive to develop, you can modify it or even just give up on it.
 * Ideation is a significant time for product designers. During workshops with the client, designers can better understand the whole solution. This brings us to the Prototyping phase.
+* This is a great moment to establish first goals that will help you to measure in the future if you app is a success. However, these goals might change. While you are getting to know the industry, you might better understand what you need to succeed.
 
 ## App Prototyping
 
