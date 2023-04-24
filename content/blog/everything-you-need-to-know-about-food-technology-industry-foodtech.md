@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2023-04-24T09:53:10.533Z
 title: Everything You Need to Know about Food Technology Industry [FoodTech]
 layout: post
 image: /images/food_tech_industry.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
