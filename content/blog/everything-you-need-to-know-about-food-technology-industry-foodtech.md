@@ -48,3 +48,11 @@ An actual example of smart packaging solution:
 <div class="image"><img src="/images/relevo_fb_preview.png" alt="Relevo as a FoodTech example" title="Relevo as a FoodTech example"  /> </div>
 
 Check Relevo, a smart, deposit-free reusable system that we have helped to develop. This smart FoodTech solution enables restaurant clients to loan reusable packages with food to go. A package is returned by a customer during the next visit to a restaurant.
+
+### Food Delivery
+
+Using delivery platforms and logistics technology to improve the efficiency of food delivery and reduce carbon emissions.
+
+Check the actual food delivery case study: an app built by our team for JustEat.
+
+<div class="image"><img src="/images/restaurant_system_preview.png" alt="Just Eat POS as a FoodTech example" title="Just Eat POS as a FoodTech example"  /> </div>
