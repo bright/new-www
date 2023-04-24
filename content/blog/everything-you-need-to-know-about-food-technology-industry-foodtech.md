@@ -3,8 +3,8 @@ author: izabela
 tags:
   - business
   - inspiration
-date: 2023-04-24T09:30:26.999Z
-meaningfullyUpdatedAt: 2023-04-24T09:30:27.023Z
+date: 2023-04-24T09:53:09.854Z
+meaningfullyUpdatedAt: 2023-04-24T09:53:10.533Z
 title: Everything You Need to Know about Food Technology Industry [FoodTech]
 layout: post
 image: /images/food_tech_industry.png
