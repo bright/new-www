@@ -15,7 +15,7 @@ hidden: false
 comments: true
 published: true
 ---
-**From an idea to a successful launch… There are 4 main stages of building an app. Learn more about all of them.**
+**From an idea to a successful launch… There are 4 main stages of building an app. Learn more about all of softwrae development steps.**
 
 <div class="image"><img src="/images/blogpost_stagesofappdevelopment.png" alt="stages of app development" title="undefined"  /> </div>
 
