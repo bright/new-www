@@ -29,4 +29,8 @@ According to [Growth Market Reports](https://growthmarketreports.com/report/food
 * The rapid growth of online food delivery services.
 * The rise of e-commerce food services.
 * Greater awareness regarding food quality sources and their health benefits. Consumers pay more and more attention to the product they buy which gives a chance to food tech to deliver healthier product alternatives.
-* The increasing popularity of veganism and plant-based products. Google Searches for “Vegan Food Near Me” Spike by More than 5,000 Percent in 2021. A global survey conducted in 2021 by Rakuten found consumers are more and more open to trying vegan alternatives. Especially to milk. Over 80% of consumers tried plant-based milk in 2021.
+* The increasing popularity of veganism and plant-based products. A global survey conducted in 2021 by [Rakuten](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/) found consumers are more and more open to trying vegan alternatives. Especially to milk. Over 80% of consumers tried plant-based milk in 2021.
+
+<div class="image"><img src="/images/rakuteninsight.png" alt="Rakuten Insight" title="Rakuten Insight"  /> </div>
+
+<center>Source: [Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
