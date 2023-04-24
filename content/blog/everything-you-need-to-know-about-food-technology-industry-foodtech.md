@@ -34,3 +34,17 @@ According to [Growth Market Reports](https://growthmarketreports.com/report/food
 <div class="image"><img src="/images/rakuteninsight.png" alt="Rakuten Insight" title="Rakuten Insight"  /> </div>
 
 <center>Source: [Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
+
+## How is a technology used in the food industry?
+
+Let us show you key areas of food tech innovation:
+
+### Smart Packaging
+
+Developing packaging that can monitor the freshness and safety of food products, and reduce food waste. Also, developing reusable packaging to limit plastic waste for delivery and takeouts.
+
+An actual example of smart packaging solution:
+
+<div class="image"><img src="/images/relevo_fb_preview.png" alt="Relevo as a FoodTech example" title="Relevo as a FoodTech example"  /> </div>
+
+Check Relevo, a smart, deposit-free reusable system that we have helped to develop. This smart FoodTech solution enables restaurant clients to loan reusable packages with food to go. A package is returned by a customer during the next visit to a restaurant.
