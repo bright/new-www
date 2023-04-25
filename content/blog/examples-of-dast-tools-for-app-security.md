@@ -4,8 +4,8 @@ tags:
   - development
   - QA
   - security
-date: 2023-04-25T11:44:50.375Z
-meaningfullyUpdatedAt: 2023-04-25T11:44:50.417Z
+date: 2023-04-25T12:01:23.242Z
+meaningfullyUpdatedAt: 2023-04-25T12:01:23.988Z
 title: Examples of DAST Tools for App Security
 layout: post
 image: /images/dast_tools_cover.png
