@@ -23,7 +23,7 @@ published: true
 
 ## DAST tools to consider for software security
 
-Here are two DAST tools that are worth consideration. These tools offer free trials, so you can easily verify their potential.
+Here are two DAST tools that are worth consideration.
 
 **[OWASP Zap](https://owasp.org/www-project-zap/)**
 
