@@ -40,3 +40,6 @@ Here are two DAST tools that are worth consideration. These tools offer free tri
 * Like ZAP, Burp Suite allows you to build a site map by navigating the page manually or using the Burp Spider tool and keeps a history of requests.
 * In the Community Edition of Burp Suite, you also have the option to inject various payloads (Intruder), check token randomness (Sequencer), decode the data (Decoder), or compare it (Comparer).
 
+DAST tools play a crucial role in application security testing. Play a little bit with OWASP ZAP and Burp Suite and choose one that suits your needs best.
+
+<EbookDynamic sectionTitle='Discover more software security tools in a free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Expand your security toolkit by downloading our free ebook today.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
