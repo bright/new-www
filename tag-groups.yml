@@ -16,6 +16,8 @@ groups:
           - database
           - sql
           - mysql
+          - opentelemetry
+          - observability
       - name: frontend
         # /blog/topics/development/Frontend
         tags:
