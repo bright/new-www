@@ -189,7 +189,6 @@ Create grafana configuration file in `{your-project}/grafana-agent/agent.yml`:
 server:
  log_level: info
 
-
 logs:
  configs:
    - name: default
@@ -235,19 +234,15 @@ and add loki transport to winston configuration in logger.ts:
 import * as winston from "winston";
 import LokiTransport from "winston-loki";
 
-
 let winstonTransports = []
 
-
 winstonTransports.push(new winston.transports.Console())
-
 
 let httpTransport = new LokiTransport({
    host: `http://${process.env.LOGS_HTTP_HOST}:${process.env.LOGS_HTTP_PORT}`,
    json: true
 })
 winstonTransports.push(httpTransport)
-
 
 export const logger = winston.createLogger({
    transports: winstonTransports
@@ -280,16 +275,13 @@ import {NodeSDK} from '@opentelemetry/sdk-node';
 import {getNodeAutoInstrumentations} from '@opentelemetry/auto-instrumentations-node';
 import {OTLPTraceExporter} from "@opentelemetry/exporter-trace-otlp-grpc";
 
-
 let traceExporter = new OTLPTraceExporter()
-
 
 const sdk = new NodeSDK({
    traceExporter: traceExporter,
    instrumentations: [getNodeAutoInstrumentations()],
    serviceName: "my-example-service",
 });
-
 
 sdk.start()
    .then(() => {
@@ -298,8 +290,7 @@ sdk.start()
    .catch((error) => console.log('Error initializing tracing', error));
 ```
 
-
-By default, [OTLPTraceExporter sends grpc traces to "http://localhost:4317"]( https://opentelemetry.io/docs/concepts/sdk-configuration/otlp-exporter-configuration/), so let’s configure our grafana-agent, to listen on that port, by adding traces configuration to agent.yaml file:
+By default, [OTLPTraceExporter sends grpc traces to "http://localhost:4317"](https://opentelemetry.io/docs/concepts/sdk-configuration/otlp-exporter-configuration/), so let’s configure our grafana-agent, to listen on that port, by adding traces configuration to agent.yaml file:
 
 ```yaml
 traces:
@@ -316,11 +307,8 @@ traces:
            password: ${TEMPO_PASSWORD}
 ```
 
-
-
-
-
 and missing envs in .env:
+
 ```properties
 TEMPO_ENDPOINT={your-endpoint}
 TEMPO_USERNAME={your-username}
