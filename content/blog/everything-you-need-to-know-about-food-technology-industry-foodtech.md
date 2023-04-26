@@ -33,7 +33,7 @@ According to [Growth Market Reports](https://growthmarketreports.com/report/food
 
 <div class="image"><img src="/images/rakuteninsight.png" alt="Rakuten Insight" title="Rakuten Insight"  /> </div>
 
-<center>Source: \\\[Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
+Source: [Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)
 
 ## How is a technology used in the food industry?
 
