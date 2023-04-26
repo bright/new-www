@@ -16,11 +16,11 @@ published: true
 
 <div class="image"><img src="/images/food_tech_industry.png" alt="FoodTech" title="undefined"  /> </div>
 
-## What is the food tech industry?
+## What is the FoodTech industry?
 
 Food tech refers to **using technology to improve various aspects of the food industry**, including food production, processing, distribution, and consumption. It encompasses a wide range of applications, from precision agriculture to food safety, and **aims to improve the efficiency, sustainability, and safety of the food system**.
 
-## The global food tech market size
+## The global FoodTech market size
 
 According to [Growth Market Reports](https://growthmarketreports.com/report/foodtech-market-global-industry-analysis#:~:text=Report%20Description,forecast%20period%2C%202022%E2%80%932030.), the global food tech market size was valued at USD 233.6 Billion in 2021. In [2019](https://www.statista.com/statistics/1238860/food-tech-market-size-worldwide/) the value was USD 220 Billion. It’s expected to surpass USD 385.7 Billion by 2030. 
 
@@ -33,7 +33,7 @@ According to [Growth Market Reports](https://growthmarketreports.com/report/food
 
 <div class="image"><img src="/images/rakuteninsight.png" alt="Rakuten Insight" title="Rakuten Insight"  /> </div>
 
-<center>Source: \[Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
+<center>Source: \\\[Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
 
 ## How is a technology used in the food industry?
 
@@ -47,15 +47,17 @@ An actual example of smart packaging solution:
 
 <div class="image"><img src="/images/relevo_fb_preview.png" alt="Relevo as a FoodTech example" title="Relevo as a FoodTech example"  /> </div>
 
-Check Relevo, a smart, deposit-free reusable system that we have helped to develop. This smart FoodTech solution enables restaurant clients to loan reusable packages with food to go. A package is returned by a customer during the next visit to a restaurant.
+Check [Relevo](/projects/eco-friendly-app/), a smart, deposit-free reusable system that we have helped to develop. This smart FoodTech solution enables restaurant clients to loan reusable packages with food to go. A package is returned by a customer during the next visit to a restaurant.
 
 ### Food Delivery
 
 Using delivery platforms and logistics technology to improve the efficiency of food delivery and reduce carbon emissions.
 
-Check the actual food delivery case study: an app built by our team for JustEat.
+Check the food tech case study: an app built by our team for JustEat. 
 
 <div class="image"><img src="/images/restaurant_system_preview.png" alt="Just Eat POS as a FoodTech example" title="Just Eat POS as a FoodTech example"  /> </div>
+
+[Just Eat POS](/projects/system-for-restaurants/) system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home.
 
 ### Precision Agriculture
 
@@ -79,7 +81,7 @@ Using advanced processing technologies to improve the nutritional content, taste
 
 The most popular representations of food tech might be global food delivery providers like JustEat, Uber Eats, etc. These are examples of food-related apps that are the most likely to be found on our smartphones.
 
-## How to start your own food tech solution?
+## How to start your own FoodTech solution?
 
 You might think that having an idea for FoodTech is all you need. In fact, that’s just the beginning. There’s no doubt that you should try to **find an idea for a business that would solve the true need of your consumers**. 
 
