@@ -99,7 +99,7 @@ app.listen(8080, () => {
 
 And now after accessing our endpoint we receive log in json format:
 
-```
+```json
 {"level":"info","message":"Hello World log!"}
 ```
 
