@@ -115,6 +115,8 @@ groups:
       - android
       - OpenSource
       - security
+      - opentelemetry
+      - observability
   - name: Business
     tags:
       - business
