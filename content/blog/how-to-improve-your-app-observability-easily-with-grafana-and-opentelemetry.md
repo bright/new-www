@@ -9,12 +9,11 @@ date: 2023-04-26T10:29:16.236Z
 meaningfullyUpdatedAt: 2023-04-26T10:29:16.265Z
 title: How to Improve Your App Observability (Easily) with Grafana and OpenTelemetry
 layout: post
-image: /images/app_observability_blog_cover.png
 hidden: false
 comments: true
 published: true
 ---
-Have you heard about the Pareto Principle (aka the 80/20 rule)? Briefly, it states that 80% of all outcomes are derived from 20% of causes. In other words, a small amount of work can cause a great effect. I want to show you how to greatly improve observability with just a small amount of effort with Grafana and OpenTelemetry.
+Have you heard about the [Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle)(aka the 80/20 rule)? Briefly, it states that 80% of all outcomes are derived from 20% of causes. In other words, a small amount of work can cause a great effect. I want to show you how to greatly improve observability with just a small amount of effort with Grafana and OpenTelemetry.
 
 # What is observability and why is it important?
 
