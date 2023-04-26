@@ -33,7 +33,7 @@ According to [Growth Market Reports](https://growthmarketreports.com/report/food
 
 <div class="image"><img src="/images/rakuteninsight.png" alt="Rakuten Insight" title="Rakuten Insight"  /> </div>
 
-<center>Source: \[Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
+<center>Source: \\[Rakuten Insight](https://insight.rakuten.com/infographic-plant-based-food-alternatives-future-or-present/)</center>
 
 ## How is a technology used in the food industry?
 
@@ -53,7 +53,7 @@ Check Relevo, a smart, deposit-free reusable system that we have helped to devel
 
 Using delivery platforms and logistics technology to improve the efficiency of food delivery and reduce carbon emissions.
 
-Check the actual food delivery case study: an app built by our team for JustEat.
+Check the food tech case study: an app built by our team for JustEat.
 
 <div class="image"><img src="/images/restaurant_system_preview.png" alt="Just Eat POS as a FoodTech example" title="Just Eat POS as a FoodTech example"  /> </div>
 
