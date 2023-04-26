@@ -48,11 +48,8 @@ import express from "express";
 const app = express();
 
 app.get('/hello', (req, res) => {
-
    res.send('Hello World!');
-
    console.log("Hello World log!")
-
 });
 
 app.listen(8080, () => {
@@ -75,16 +72,10 @@ We need to add logger configuration:
 ```typescript
 import * as winston from "winston";
 
-
-
 export const logger = winston.createLogger({
-
    transports: [
-
        new winston.transports.Console()
-
    ],
-
 })
 ```
 
@@ -134,7 +125,6 @@ const sdk = new NodeSDK({
    traceExporter: new ConsoleSpanExporter(),
    instrumentations: \[getNodeAutoInstrumentations()]
 });
-
 
 sdk.start()
    .then(() => {
