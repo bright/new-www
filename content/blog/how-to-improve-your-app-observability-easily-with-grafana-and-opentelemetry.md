@@ -268,7 +268,7 @@ Now, when we restart our app, logs should be transported to `grafana-agent`(whic
 
 ## Configure Trace Exporter
 
-Now we can apply a similar configuration for tracing. First, install [open telemetry trace exporter](https://www.npmjs.com/package/@opentelemetry/exporter-trace-otlp-grpc):
+Now we can apply a similar configuration for tracing. First, install [opentelemetry trace exporter](https://www.npmjs.com/package/@opentelemetry/exporter-trace-otlp-grpc):
 
 ```typescript
 import {NodeSDK} from '@opentelemetry/sdk-node';
@@ -290,7 +290,7 @@ sdk.start()
    .catch((error) => console.log('Error initializing tracing', error));
 ```
 
-By default, [OTLPTraceExporter sends grpc traces to "http://localhost:4317"](https://opentelemetry.io/docs/concepts/sdk-configuration/otlp-exporter-configuration/), so let’s configure our grafana-agent, to listen on that port, by adding traces configuration to agent.yaml file:
+By [default](https://opentelemetry.io/docs/concepts/sdk-configuration/otlp-exporter-configuration/), OTLPTraceExporter sends grpc traces to `http://localhost:4317`, so let’s configure our grafana-agent, to listen on that port, by adding traces configuration to agent.yaml file:
 
 ```yaml
 traces:
