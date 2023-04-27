@@ -9,7 +9,7 @@ date: 2023-04-26T10:29:16.236Z
 meaningfullyUpdatedAt: 2023-04-26T10:29:16.265Z
 title: How to Improve Your App Observability (Easily) with Grafana and OpenTelemetry
 layout: post
-image: /images/app_observability_blog_cover.png
+image: /images/app_observability2.png
 hidden: false
 comments: true
 published: true
