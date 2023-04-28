@@ -28,11 +28,11 @@ links_more_about_us: >-
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: Do you have any questions? Ask Paulina from our Bright team!
-name_recruiter: Paulina
-image_recruiter_info: /images/paulina_recruiter.png
-image_alt_recruiter_info: Paulina Trender - a Recruiter at Bright Inventions
-button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+name_recruiter: Agata
+image_recruiter_info:  /images/agata_recruiter.png
+image_alt_recruiter_info: Agata Mietlińska - a Junior Recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our backend team
 published: true
 show_recruiter_info: true
