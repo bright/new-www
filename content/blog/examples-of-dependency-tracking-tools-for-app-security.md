@@ -21,7 +21,7 @@ published: true
 
 These are 3 tools that you should at least try if you are serious abour software security of your product.
 
-**[Dependabot](https://docs.github.com/en/code-security/dependabot)**
+### [Dependabot](https://docs.github.com/en/code-security/dependabot)
 
 * A popular tool built into GitHub.
 * Alerts you when your repository uses a vulnerable dependency or malware.
@@ -32,7 +32,7 @@ These are 3 tools that you should at least try if you are serious abour software
 * Must-have for GitHub repositories.
 * Possible to use with other providers but requires more work to integrate.
 
-**[OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)**
+### [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
 
 * Open-source and free software.
 * More platform agnostic than Dependabot.
@@ -42,7 +42,7 @@ These are 3 tools that you should at least try if you are serious abour software
 * Requires correct configuration to avoid time-consuming work.
 * It can be run on a local development machine.
 
-**[Retire.js](https://retirejs.github.io/retire.js/)**
+### [Retire.js](https://retirejs.github.io/retire.js/)
 
 * Dependency check tool for client-side JavaScript code.
 * Provides a Chrome extension to analyze the code of visited websites.
