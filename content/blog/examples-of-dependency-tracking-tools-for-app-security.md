@@ -19,7 +19,7 @@ published: true
 
 ## Dependency tracking tools to consider
 
-These are 3 tools that you should at least try if you are serious abour software security of your product.
+These are 3 tools that you should at least try if you are serious about the software security of your product.
 
 ### [Dependabot](https://docs.github.com/en/code-security/dependabot)
 
