@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: OPENING SOON
+subtitle: ONGOING 
 image-alt-job: backend development team
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
@@ -34,10 +34,10 @@ image_recruiter_info: /images/paulina_recruiter.png
 image_alt_recruiter_info: Paulina Trender - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/paulina-trendel-666281175/
 button: join our backend team
-published: false
+published: true
 show_recruiter_info: true
-hidden: true
-order: 11
+hidden: false
+order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for an experienced Backend Developer who understands
@@ -50,52 +50,44 @@ At Bright Inventions you'll be an important part of [a group of talented, ambiti
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
 
-## about the role
+## **about the role**
 
 We are looking for **an experienced Backend Developer** who understands Java/Kotlin & Spring really well and who would like to **work with AWS on daily basis**. 
 
-And what would you do? Develop and enhance innovative and robust backend application for one of our main clients. The application is an intelligent point-of-sale widely used in Israel and since 2016 successfully entering European market. We are responsible here for providing: backend server, web application, a set of mobile applications including the main POS app, customer facing application and the self-checkout application. In addition to development we are taking care of the management, testing and the maintenance of the system.
+And what would you do? Develop a backend application for an intelligent ePOS system that will be widely used in Israel. We are responsible here for providing backend server and a mobile Flutter POS app that will be integrated with several devices such as printers and payment terminals. 
 
-Sounds exciting? We hope it does. 🧡 
+## **what you will do**
 
-## what you will do
-
-* create high-quality backend applications
+* create high-quality backend application in Kotlin 
 * participate in software code reviews
-* provide leadership on cross-functional projects
 * have a direct contact with clients and advise in their decision making process
-* share knowledge with the rest of the team
 * improve internal web development processes
+* share knowledge with the rest of the team
 
-## what we'd like to see
+## **preferred skills and qualifications**
 
 * at least 4-5 years of commercial programming experience (including min. 3 years in backend development)
 * excellent problem solving and analytical thinking skills
-* very good working knowledge and deep understanding of Java/Kotlin  
+* very good working knowledge and deep understanding of Kotlin  
 * experience with Spring framework 
-* experience with databases, in particular MySQL/PostgreSQL/Redshift 
 * familiarity with AWS or other Cloud providers
 * advanced communications kills in English (both written and spoken))
 
-## we would also appreciate if you have
+## **we would also appreciate if you have**
 
-* experience with development in Node.js and PostgreSQL
-* familiarity with Docker
-* familiarity with Agile and Lean methodologies
+* experience with databases, in particular MySQL/PostgreSQL/Redshift 
+* familiarity with agile methodologies
 
-## why join our Bright Inventions Team
+## **what you will find in our Bright Team 🧡**
 
-* opportunity to work on the international ePOS project in cooperation with one of the world’s top food ordering companies
-* flat structure and a real impact on the company growth 
-* mentoring programme and regular 1:1 meetings 
-* best practices such as Code Review, Pair programming or Continuous integration
-* 20-26 paid days off + extra days for Polish bank holidays regardless of the contract type 
-* office library with an extra budget for professional books 
-* MultiSport and private medical package 
-* good equipment: MacBook and additional accessories
-* flexible schedule and remote work possibility 
-* good localisation: Gdańsk Wrzeszcz with a parking space nearby 
-* Bright Day once a month for non-project stuff
-* team retreats once a quarter 
-* weekly sport classes and Friday in-house yoga time 
-* board games evenings and weekly lunch roulette initiative 
+* continuous feedback culture and 1:1 meetings 
+* clear career path wich includes skills you need to obtain a particular goal 
+* flexible working hours and remote work possibility
+* 26 paid days off + Polish bank holidays
+* MultiSport card and private medical package (PZU Zdrowie)
+* good equipment: we provide you with MacBook and additional accessories
+* internal workshops and dev's meetings 
+* extra budget for training and library with professional books
+* one extra day for non-project stuff each month
+* regular sports classes (running, biking, swimming) and yoga Fridays
+* board games evenings, weekly lunch initiative, team retreats once a quarter
