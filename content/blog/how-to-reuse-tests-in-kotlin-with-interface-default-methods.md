@@ -69,6 +69,8 @@ class SlowStringCalculatorTests : SecondExamplesUsingString, FirstExamplesUsingS
 ```
 
 ✅  string uppercase is correct()
+
+
 ✅  string length is correct()
 
 ## But after some time we added a new(faster) implementation of our StringCalculator
@@ -103,7 +105,11 @@ class FastStringCalculatorTests : SecondExamplesUsingString, FirstExamplesUsingS
 ```
 
 ✅  another test for fast calculator()
+
+
 ✅  string uppercase is correct()
+
+
 ✅  string length is correct()
 
 **Check out the [repository](https://github.com/bright/dev-tips/blob/main/kotlin/ReuseTestsWithInterfaceDefaultMethods.kt). Have you enjoyed this bright dev tip? More to come!**
