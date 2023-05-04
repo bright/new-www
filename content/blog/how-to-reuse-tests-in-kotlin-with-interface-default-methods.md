@@ -38,7 +38,24 @@ class SlowStringCalculator : StringCalculator {
         return string.toUpperCase()
     }
 }
-
 ```
 
 ## We added test interfaces with default methods to test our implementation
+
+```kotlin
+interface FirstExamplesUsingString : HasTestCalculator {
+
+    @Test
+    fun `string length is correct`() {
+        assertEquals(stringCalculator.lengthOf("ab"), 2)
+    }
+}
+
+interface SecondExamplesUsingString : HasTestCalculator {
+
+    @Test
+    fun `string uppercase is correct`() {
+        assertEquals(stringCalculator.upperCaseOf("abc"), "ABC")
+    }
+}
+```
