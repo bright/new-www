@@ -3,8 +3,8 @@ author: maciej-n
 tags:
   - Kotlin
   - QA
-date: 2023-05-04T08:07:43.313Z
-meaningfullyUpdatedAt: 2023-05-04T08:07:43.345Z
+date: 2023-05-04T08:19:27.670Z
+meaningfullyUpdatedAt: 2023-05-04T08:19:29.371Z
 title: How to Reuse Tests in Kotlin with Interface Default Methods
 layout: post
 image: /images/kotlin_resuse_tests_blog.png
