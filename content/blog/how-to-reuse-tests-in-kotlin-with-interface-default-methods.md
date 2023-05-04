@@ -85,3 +85,23 @@ class FastStringCalculator : StringCalculator {
     }
 }
 ```
+
+## And now we can reuse our test to apply them to our new implementation (and add more)
+
+```kotlin
+class FastStringCalculatorTests : SecondExamplesUsingString, FirstExamplesUsingString {
+    override val stringCalculator = FastStringCalculator()
+
+    @Test
+    fun `another test for fast calculator`() {
+        val startTime = currentTimeMillis()
+        stringCalculator.upperCaseOf("abc")
+        val endTime = currentTimeMillis()
+        assertTrue(endTime - startTime < 100)
+    }
+}
+```
+
+✅  another test for fast calculator()
+✅  string uppercase is correct()
+✅  string length is correct()
