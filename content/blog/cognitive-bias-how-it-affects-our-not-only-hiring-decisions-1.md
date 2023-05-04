@@ -8,7 +8,7 @@ date: 2023-05-04T18:58:16.832Z
 meaningfullyUpdatedAt: 2023-05-04T18:58:18.567Z
 title: "Cognitive Bias & How It Affects Our (Not Only Hiring) Decisions "
 layout: post
-image: /images/cognitive-bias-blog-post.png
+image: /images/man-g235da9b82_1920.jpg
 hidden: false
 comments: true
 published: true
