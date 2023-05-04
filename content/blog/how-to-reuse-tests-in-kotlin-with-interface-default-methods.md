@@ -59,3 +59,11 @@ interface SecondExamplesUsingString : HasTestCalculator {
     }
 }
 ```
+
+## Now we can compose a class from our interfaces and their default methods
+
+```kotlin
+class SlowStringCalculatorTests : SecondExamplesUsingString, FirstExamplesUsingString {
+    override val stringCalculator = SlowStringCalculator()
+}
+```
