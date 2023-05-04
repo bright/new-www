@@ -89,15 +89,15 @@ The same regards people we meet in our life, and candidates in the hiring proces
 
 A tendency to make a decision or make future predictions based on the recent and the most available context or experience. In this way **the pieces of information that come to our mind quickly are considered incorrectly as the most significant.** The more frequent events are more easily recalled by us than less frequent events which may lead to inaccurate judgements - very often to either the overestimation or underestimation of someone/something. 
 
-It may be also an hiring issue while choosing the best talents for recruiters who experience a high cognitive load. **We may be interviewing a candidate from the company X and readily recall the fact that the last person from the same company was missing many values that our organisation shares. As a result, we may also get concerned that the current candidate will be the same**. The memorable interactions with the prior candidates with a certain prominent trait or behaviour may affect the recruiter’s assessment of other interviewees. There might be also the opposite case when recruiters may be favouring of some candidates who are reviewed in the last round of interviews as their responses are easier to remember.  
-
 <GiphyEmbed url='https://giphy.com/gifs/cbs-young-sheldon-youngsheldon-i-dont-remember-Ie7eBXgYrYL4Vm9uzm' />
+
+It may be also an hiring issue while choosing the best talents for recruiters who experience a high cognitive load. **We may be interviewing a candidate from the company X and readily recall the fact that the last person from the same company was missing many values that our organisation shares. As a result, we may also get concerned that the current candidate will be the same**. There might be also the opposite case when recruiters may be favouring of some candidates who are reviewed in the last round of interviews as their responses are easier to remember.  
 
 ## **Is there any remedy?**
 
 The above mentioned cognitive biases are just some of the examples of mental shortcuts used by all of us (including me) in judgment-making scenarios. How can we avoid them? 
 
-**The very first step is to recognise them. The goal should be identifying our own patterns of thinking and at the same time our role in causing them.** There are also some approaches you can use to minimalize the bias impact on your decisions.
+**The very first step is to recognise them. The goal should be identifying our own patterns of thinking and at the same time our role in causing them.** There are also some approaches you can use to minimalise the bias impact on your decisions.
 
 * Ask for hints or opinions of others in your team, especially the ones who frequently have a different perspective than yours. 
 * Try to look for ideas that will disapprove your own point of view. Think about all the ways you might be wrong about instead of focusing on the things you are sure about. 
