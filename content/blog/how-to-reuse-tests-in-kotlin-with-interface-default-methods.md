@@ -67,3 +67,21 @@ class SlowStringCalculatorTests : SecondExamplesUsingString, FirstExamplesUsingS
     override val stringCalculator = SlowStringCalculator()
 }
 ```
+
+✅  string uppercase is correct()
+✅  string length is correct()
+
+## But after some time we added a new(faster) implementation of our StringCalculator
+
+```kotlin
+class FastStringCalculator : StringCalculator {
+
+    override fun lengthOf(string: String): Int {
+        return string.length
+    }
+
+    override fun upperCaseOf(string: String): String {
+        return string.toUpperCase()
+    }
+}
+```
