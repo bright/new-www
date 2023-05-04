@@ -92,3 +92,33 @@ A tendency to make a decision or make future predictions based on the recent and
 It may be also an hiring issue while choosing the best talents for recruiters who experience a high cognitive load. **We may be interviewing a candidate from the company X and readily recall the fact that the last person from the same company was missing many values that our organisation shares. As a result, we may also get concerned that the current candidate will be the same**. The memorable interactions with the prior candidates with a certain prominent trait or behaviour may affect the recruiter’s assessment of other interviewees. There might be also the opposite case when recruiters may be favouring of some candidates who are reviewed in the last round of interviews as their responses are easier to remember.  
 
 <GiphyEmbed url='https://giphy.com/gifs/cbs-young-sheldon-youngsheldon-i-dont-remember-Ie7eBXgYrYL4Vm9uzm' />
+
+## **Is there any remedy?**
+
+The above mentioned cognitive biases are just some of the examples of mental shortcuts used by all of us (including me) in judgment-making scenarios. How can we avoid them? 
+
+**The very first step is to recognise them. The goal should be identifying our own patterns of thinking and at the same time our role in causing them.** There are also some approaches you can use to minimalize the bias impact on your decisions.
+
+* Ask for hints or opinions of others in your team, especially the ones who frequently have a different perspective than yours. 
+* Try to look for ideas that will disapprove your own point of view. Think about all the ways you might be wrong about instead of focusing on the things you are sure about. 
+* Look at the alternative point of view and try to understand the belief of the other side. It might be a good beginning to recognise your own confirmation bias. 
+* Use different types of data and collect more information. Focus on facts. Recognise whether your thoughts about someone are based on information or assumptions..
+* Sometimes it might be also good to delay your decision, step back and try to evaluate the situation one more time. 
+* Give enough consideration to all of the available information and all of the possible options. Make sure your decision is not influenced by the anchoring point. 
+* Consider all relevant data when making judgments under uncertainty, not just that which comes readily to mind.
+
+## **And now the special package for recruiters 💙**
+
+<GiphyEmbed url='https://giphy.com/gifs/Sendcloud-catch-recruitment-sendcloud-y6wjIPKGVZMnfbdMeE' />
+
+* Make sure you focus on the real job requirements not on candidate’s personal attributes. Give a great importance to candidate’s experience and skillset. 
+* Involve in your recruitment process a task/work sample that will show how the candidate may think or perform in a real life professional situation. Test candidates’ skills to avoid perception bias. 
+* Create a structured interview by asking all the candidate the same questions in the same order. 
+* Introduce scoring criteria.
+* Take into account all the information available about a candidate rather than focus on what has recently happened. 
+* To check if you do not miss any important points consult other professionals who take a broad approach to create some conclusions.
+* Think what kind of information you are trying to avoid or is hard to be accepted by you. Make sure if you do not ignore some pieces of information. Try to include negative information in your critical thinking process. 
+* Fix comparison standards based upon accessibility and applicability of information. 
+* To avoid framing bias compare your perspective on a candidate with other recruiters. A different perspective allows for the possibility to arrive at the conclusion without being swayed by how the information was originally presented. 
+
+**And how about you? Do you have any strategies for dealing with bias in your professional or private life? And if you are a recruiter, how do you avoid cognitive bias in the hiring processes in your organisation? I would love to hear from you in the comments below!**
