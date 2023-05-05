@@ -85,7 +85,7 @@ A cognitive bias in which we make a decision about information based on how it i
 
 The same regards people we meet in our life, and candidates in the hiring process. Equally skilled candidates can be more or less attractive to a recruiter depending on what features are highlighted e.g. in the candidate’s experience history it is seen that he/she was changing their job every few months. And now - if the candidate uses some positive words and context to describe the reason for this change, the recruiter will be more likely to react positively compared to the candidates who would start complaining about their previous managers, co-workers and workplace (even though it might be true). **To understand better how it works I advise you to read some details about [the psychological theory of choice](https://www.simplypsychology.org/prospect-theory.html) developed by by Amos Tversky and Daniel Kahneman in 1979.**
 
-## 13. **Availability bias** (knows also as availability heuristics)
+## 13. **Availability bias** (known also as availability heuristics)
 
 A tendency to make a decision or make future predictions based on the recent and the most available context or experience. In this way **the pieces of information that come to our mind quickly are considered incorrectly as the most significant.** The more frequent events are more easily recalled by us than less frequent events which may lead to inaccurate judgements - very often to either the overestimation or underestimation of someone/something. 
 
