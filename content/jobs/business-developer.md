@@ -5,9 +5,9 @@ subtitle: ONGOING
 imagejob: /images/qa_brightteam.png
 image-alt-job: "Business Development "
 hours: "full-time "
-salary: 12 000 - 15 000 PLN + VAT (B2B) or 10 000 - 12 500 PLN gross (UoP)
-salary_min: 10000
-salary_max: 14000
+salary: 12 000 - 16 000 PLN  (B2B net) or 10 000 - 13 200 PLN (grossUoP)  + BONUSES
+salary_min: 12000
+salary_max: 15997
 working time: full time
 technology:
   - iOS
