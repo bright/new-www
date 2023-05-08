@@ -1,7 +1,7 @@
 ---
 layout: job
 title: "React Native Developer "
-subtitle: "ONGOING "
+subtitle: "OPENING SOON"
 imagejob: /images/brightteam_devops_job_offer.png
 image-alt-job: "Mobile Team Bright Inventions "
 hours: full-time
@@ -32,7 +32,7 @@ button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our mobile team
 published: true
 show_recruiter_info: true
-order: 2
+order: 7
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 ---
