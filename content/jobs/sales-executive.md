@@ -65,7 +65,7 @@ We are looking for a highly motivated individual with an interest in sales and b
 * working knowledge of HubSpot, LinkedIn, Salesforce or other CRM systems
 * proficiency in German or Swedish/Norwegian 
 
-## our values
+## get to know our values
 
 * **responsibility** - we share responsibility within the team and actively take responsibility for our own self-development. Thoughtfulness, integrity and a sense of urgency is a crucial part of our succes
 * **flexibility** - we balance business needs with technical perfection because what matters is the final result. We are nimble. We evolve and adapt. We are not afraid of making mistakes as long as we learn from them
