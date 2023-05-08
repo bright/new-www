@@ -14,6 +14,7 @@ technology:
   - Excellent communication skills
   - Growth mindset
   - CRM
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
   [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
@@ -23,7 +24,7 @@ links_more_about_us: >-
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+title_recruiter_info: Do you have any questions? Ask Ula from our Bright team!
 name_recruiter: "Ula "
 image_recruiter_info: /images/ula_recruiter_hr.png
 image_alt_recruiter_info: "ula recruiter "
