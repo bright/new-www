@@ -69,10 +69,8 @@ title_faqs: IoT development FAQs
 image_alt_our_service_desktop: IoT company
 intro: We develop IoT software for startups and larger organisations.
 image_alt_our_service_mobile: IoT company
-title_contact: let’s talk about your IoT solution
-description_contact: It doesn’t matter if your project is just an idea or you
-  have already been developing an existing system. We will help you in any phase
-  of your IoT development. Fill out the form below.
+title_contact: book free consultation in 48 hours
+description_contact: Fill out the form below and we'll get back to you in 48 hours. Let's talk!
 description_mdx: We are Bright Inventions – a software development company
   specializing in the Internet of Things solutions. We build IoT software for
   restaurants, retail, eHealth and fintech industries. Since 2012 we have
