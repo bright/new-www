@@ -79,3 +79,7 @@ Learn more about successful products that offer smart packaging:
 [Relevo](/projects/eco-friendly-app/) – a smart packaging solution that helps to limit food containers' plastic waste.
 
 <InstagramEmbed url='https://www.instagram.com/p/CrQkFALId1E/?igshid=YmMyMTA2M2Y%3D' />
+
+[Securikeitt](https://www.securikett.com/en/our-solution/securitylabels-and-seals/) – security labels and seals securing products from tampering, counterfeiting and grey trade.
+
+<YouTubeEmbed url='https://youtu.be/up2ptPxyU80' />
