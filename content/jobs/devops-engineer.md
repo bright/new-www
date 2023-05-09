@@ -45,44 +45,42 @@ description: We are looking for a DevOps Engineer who has good knowledge of AWS
 
 We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and client orientation are crucial parts of our culture. 
 
-## about the role
+## about the role and project **🧑🏻‍💻👩🏻‍💻**
 
-The role is dedicated to an experienced DevOps Engineer who would like to build software delivery pipelines, deploy and monitor services, and learn from incidents. If you have already had experience with AWS, you might be a good fit here. **Apart from technical skills what counts are your positive mindset, solution-oriented attitude as well as communication skills.** 
+The role is dedicated to an experienced DevOps Engineer who would like to build software delivery pipelines, deploy and monitor services, and learn from incidents. **Apart from technical skills what counts are your positive mindset, solution-oriented attitude as well as communication skills.**\
+At the beginning of our cooperation you might be engaged in the project described below, however, depending on your availability and business priorities, they may also alter. Please use it only as a starting point of reference. We focus on a long-term cooperation and you have to keep in mind that the projects you are involved in will be changing in the future.\
+\
+Project: **The new next generation passwordless authentication system that is used by millions of users worldwide on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch.  
 
-In the beginning of our cooperation you might be engaged in the projects described below, however, depending on your availability and business priorities, they may also alter. Please use them only as a starting point of reference. We focus on a long-term cooperation and you have to keep in mind that the projects you are involved in will be changing in the future. 
+## what you will do **🚀🚀🚀**
 
-1. [The web therapy application](https://circlesup.com/) **the goal of which is to make support accessible and affordable to everyone.** People can sign up and join particular groups of support led by professional therapists. Sharing and listening to others with the same pain, issue, or challenge, is extremely therapeutic. Currently the team is working on a redesign of the facilitating panel and data transfer optimisation. 
-2.  **The new next generation passwordless authentication system that is used by millions of users worldwide on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch.  
-
-## what you will do
-
-* manage processes related to continuous delivery pipeline
+* creating, maintaining and improving pipelines in Jenkins and Github Actions
+* process automation and automation of creating new environments
 * help with the system scalability and reliability improvement
 * keep systems secure and up-to-date
-* take care of the cloud platform security
-* share knowledge with the rest of an an engineering team
+* share knowledge with the rest of an engineering team
 
-## what we'd like to see
+## **preferred skills and qualifications  ✅**
 
-* good knowledge and experience with AWS cloud services
+* good knowledge and experience with CI/CD
 * experience with reliable multi-region architectures
-* experience with managing Docker/Kubernetes in production
+* experience with managing Docker in production
 * experience in building continuous delivery pipelines
 * good scripting skills
 * the ability to work independently as well as in a team
-* very good communication skills in English (both written and spoken)
+* very good communication skills in English and Polish(both written and spoken)
 
 ## nice-to-haves
 
 * knowledge of TypeScript or Java/Kotlin
-* experience with Terraform or AWS CDK
+* experience with Kubernetes, Terraform or AWS 
 
 ## what you will find in our Bright Team 🧡
 
 * real impact on the implemented solutions and project growth
 * continuous **feedback culture**
 * **mentoring programme** and regular 1:1 meetings
-* **flexible working hours** (we start betwee 7.00 -10.00 a.m.) 
+* **flexible working hours** (we start between 7.00 -10.00 a.m.) 
 * **20-26 paid days off** + extra days for Polish public holidays 
 * **individual training budget** and office library 
 * **MultiSport** card and **private medical** package
