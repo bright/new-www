@@ -88,12 +88,7 @@ Learn more about successful products that offer smart packaging:
 
 [Eupry](https://eupry.com/temperature-mapping/temperature-mapping-kit/) – temperature mapping kit contains wireless data loggers and specialized mapping software.
 
-<center> 
-
-<iframe src="https://player.vimeo.com/video/268556940?h=56316186d3" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/268556940">Introduction to Eupry</a> from <a href="https://vimeo.com/eupry">Eupry</a> on <a href="https://vimeo.com">Vimeo</a>.</p> 
-
-</center>
+<YouTubeEmbed url='https://www.youtube.com/watch?v=Ka4oFjGQ3l4' />
 
 ## MVP development stages for a smart packaging solution
 
@@ -135,27 +130,27 @@ These codes are printed on the packaging and can be scanned by smartphones to pr
 
 This technology uses radio frequency identification (RFID) to transmit data wirelessly between a tag embedded in the packaging and a reader. This allows for more extensive information about the product, including temperature and humidity data, to be transmitted.
 
-### Time-Temperature Indicators (TTIs) 
+### Time-Temperature Indicators (TTIs)
 
 These are small devices that are attached to packaging to monitor the temperature of perishable goods during transport and storage. They can provide an indication of whether the product has been subjected to temperature abuse and can help to prevent food waste.
 
-### Intelligent Packaging 
+### Intelligent Packaging
 
 This refers to packaging that is embedded with sensors and can communicate with other devices. For example, intelligent packaging could include a sensor that detects when a product has been opened and communicates with a smartphone app to provide recipes or serving suggestions.
 
-### Active Packaging 
+### Active Packaging
 
 This type of packaging contains substances that can extend the shelf life of the product. For example, oxygen scavengers can be added to packaging to prevent spoilage.
 
-### Anti-counterfeiting Technologies 
+### Anti-counterfeiting Technologies
 
 Smart packaging can include technologies such as holograms, QR codes, and RFID tags to help prevent counterfeit products from entering the supply chain.
 
-### Augmented Reality 
+### Augmented Reality
 
 This technology uses the camera on a smartphone or tablet to overlay digital information onto the packaging, providing additional information or interactive experiences for consumers.
 
-### Printed Electronics 
+### Printed Electronics
 
 This technology involves printing electronic components onto packaging materials, allowing for more advanced features such as temperature monitoring and product authentication.
 
@@ -182,6 +177,4 @@ Whether you decide to build native or hybrid applications (one app for both Goog
 
 **Product design**: Figma, Adobe, Miro
 
-
-
-<div class='block-button'><h2>Ready to take your packaging to the next level?</h2><div>Schedule a **free consultation** with our team. We'll provide expert insights **within 48 hours**.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>
+<div class='block-button'><h2>Ready to take your packaging to the next level?</h2><div>Schedule a \*\*free consultation\*\* with our team. We'll provide expert insights \*\*within 48 hours\*\*.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>
