@@ -92,3 +92,19 @@ Learn more about successful products that offer smart packaging:
 <p><a href="https://vimeo.com/268556940">Introduction to Eupry</a> from <a href="https://vimeo.com/eupry">Eupry</a> on <a href="https://vimeo.com">Vimeo</a>.</p> 
 
 </center>
+
+## MVP development stages for a smart packaging solution
+
+Here are the typical MVP development stages. The final flow may vary depending on the project.
+
+### Idea for MVP
+
+The idea doesn’t guarantee success. It’s only the first step. ;) It’s essential to verify whether the idea has business potential and a chance to stand in the market. It's also the perfect opportunity to set first goals that will help measure the app's success in the future. 
+
+During this stage, you can try to consult your idea with a suitable MVP development company. Finally, it’s time to decide if you plan to get your own team to build the MVP or hire an MVP agency to take care of that.
+
+### MVP Prototyping (1-4 weeks)
+
+Validating the ideas' potential is followed by prototyping. The prototyping phase is when a product designer creates the first visual representation of the idea. The phase usually contains three stages: wireframes, mockups, and prototypes. The effect of close cooperation with a product design team is prototypes. They are basic clickable mockups or wireframes without any backend. This stage helps to eliminate first mistakes and understand how the solution might work.
+
+### Building and launching the MVP (Minimum Viable Product) **(4-20 weeks)**
