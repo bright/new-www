@@ -108,3 +108,51 @@ During this stage, you can try to consult your idea with a suitable MVP developm
 Validating the ideas' potential is followed by prototyping. The prototyping phase is when a product designer creates the first visual representation of the idea. The phase usually contains three stages: wireframes, mockups, and prototypes. The effect of close cooperation with a product design team is prototypes. They are basic clickable mockups or wireframes without any backend. This stage helps to eliminate first mistakes and understand how the solution might work.
 
 ### Building and launching the MVP (Minimum Viable Product) **(4-20 weeks)**
+
+According to the feedback received during the prototyping stage, the software development agency gathers the final requirements from the client and builds the minimal viable product. 
+
+As you can see, you can launch an MVP in weeks and with marketing experts quickly start to gather users. Launched MVP is also a great conversation starter with investors. ;)
+
+MVP is a cornerstone of your product. Based on it you keep developing it according to your users' feedback. 
+
+### Product Development & Maintenance based on MVP (Infinity – hopefully)
+
+The final stage is app development and maintenance. At this stage, a software development company or internal dev team regularly deploys new features to production. Every change in the product will affect your users. Thus, the priority for developers is to maintain the app's stability. All development updates should be tested in a staging environment. It’s a constant challenge of developing the product to give more and more satisfaction to the users.
+
+The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
+
+## Examples of technologies to implement in a smart packaging product
+
+MVP is all about launching a product with key features. So you shouldn’t implement too many time-consuming and expensive (to build) features at the beginning. However, we’d like to show you what innovations you might consider while building smart packaging solutions.
+
+### QR Codes
+
+These codes are printed on the packaging and can be scanned by smartphones to provide information about the product, such as ingredients, nutritional information, and product origin.
+
+### Near Field Communication (NFC)
+
+This technology uses radio frequency identification (RFID) to transmit data wirelessly between a tag embedded in the packaging and a reader. This allows for more extensive information about the product, including temperature and humidity data, to be transmitted.
+
+### Time-Temperature Indicators (TTIs) 
+
+These are small devices that are attached to packaging to monitor the temperature of perishable goods during transport and storage. They can provide an indication of whether the product has been subjected to temperature abuse and can help to prevent food waste.
+
+### Intelligent Packaging 
+
+This refers to packaging that is embedded with sensors and can communicate with other devices. For example, intelligent packaging could include a sensor that detects when a product has been opened and communicates with a smartphone app to provide recipes or serving suggestions.
+
+### Active Packaging 
+
+This type of packaging contains substances that can extend the shelf life of the product. For example, oxygen scavengers can be added to packaging to prevent spoilage.
+
+### Anti-counterfeiting Technologies 
+
+Smart packaging can include technologies such as holograms, QR codes, and RFID tags to help prevent counterfeit products from entering the supply chain.
+
+### Augmented Reality 
+
+This technology uses the camera on a smartphone or tablet to overlay digital information onto the packaging, providing additional information or interactive experiences for consumers.
+
+### Printed Electronics 
+
+This technology involves printing electronic components onto packaging materials, allowing for more advanced features such as temperature monitoring and product authentication.
