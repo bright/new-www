@@ -156,3 +156,22 @@ This technology uses the camera on a smartphone or tablet to overlay digital inf
 ### Printed Electronics 
 
 This technology involves printing electronic components onto packaging materials, allowing for more advanced features such as temperature monitoring and product authentication.
+
+## What stack to use for smart packaging solution in 2023?
+
+Based on our experience in developing software since 2012 we listed the stack your software team should work with in 2023. 
+
+### Web development:
+
+**Frontend**: TypeScript, React
+**Backend**: Node.js, PostgreSQL/Redis, NestJS, AWS
+
+### Mobile development:
+
+Whether you decide to build native or hybrid applications (one app for both Google Play and AppStore), we will show you what stack you should consider. Remember that you don’t need to build apps for both systems (Android, iOS). You can start with one app and launch it as MVP and then work on another. A hybrid approach is only recommended when you want to build a very simple solution. 
+
+**Android development**: Jetpack Compose, Kotlin, Apollo GraphQL, WorkManager, Room, Hilt.
+
+**iOS development**: SwiftUI + UIKit, Swiftgen, Apollo GraphQL, CoreData, SwiftLint, SwiftFormat, Sourcery, Bitrise.
+
+**Hybrid app development**: React Native, TypeScript, mobx-state-tree
