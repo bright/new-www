@@ -5,8 +5,8 @@ tags:
   - business perspective
   - development
   - startup
-date: 2023-05-09T09:28:42.665Z
-meaningfullyUpdatedAt: 2023-05-09T09:28:42.699Z
+date: 2023-05-09T10:33:41.568Z
+meaningfullyUpdatedAt: 2023-05-09T10:33:42.214Z
 title: How to Build MVP for Smart Packaging Solution in 2023
 layout: post
 image: /images/smart_packaging_blog_cover.png
