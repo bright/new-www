@@ -12,7 +12,7 @@ salary_min: 16600
 salary_max: 25000
 working time: full time
 technology:
-  - AWS
+  - Jenkins
   - Kubernetes
   - Terraform
   - PostgreSQL
