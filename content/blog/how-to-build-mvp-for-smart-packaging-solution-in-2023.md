@@ -36,6 +36,8 @@ When building an innovation you can never be sure if it adopts in the market. Th
 
 An MVP, short for a Minimum Viable Product, is a software product that includes only the essential features necessary for launching and obtaining initial feedback from early adopters. It serves as a starting point for further development based on the insights gained from early users.
 
+<div class="image"><img src="/images/smart_packaging_ui_blog.png" alt="smart packaging mockup" title="undefined"  /> </div>
+
 ## Top benefits of building an MVP for a smart packaging startup
 
 These are the benefits you should consider:
