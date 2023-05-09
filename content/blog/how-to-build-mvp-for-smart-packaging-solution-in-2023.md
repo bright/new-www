@@ -71,3 +71,11 @@ Smart packaging can help reduce waste by extending the shelf life of perishable 
 ### Lack of traceability and security
 
 Smart packaging can also improve product traceability and security by providing a tamper-evident seal and tracking information throughout the supply chain. By building an MVP, you can demonstrate the value of your product to potential partners and investors, helping to drive adoption and create a more secure supply chain.
+
+## Examples of smart packaging solutions on the market
+
+Learn more about successful products that offer smart packaging:
+
+[Relevo](/projects/eco-friendly-app/) – a smart packaging solution that helps to limit food containers' plastic waste.
+
+<InstagramEmbed url='https://www.instagram.com/p/CrQkFALId1E/?igshid=YmMyMTA2M2Y%3D' />
