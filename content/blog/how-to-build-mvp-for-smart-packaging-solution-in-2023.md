@@ -83,3 +83,12 @@ Learn more about successful products that offer smart packaging:
 [Securikeitt](https://www.securikett.com/en/our-solution/securitylabels-and-seals/) – security labels and seals securing products from tampering, counterfeiting and grey trade.
 
 <YouTubeEmbed url='https://youtu.be/up2ptPxyU80' />
+
+[Eupry](https://eupry.com/temperature-mapping/temperature-mapping-kit/) – temperature mapping kit contains wireless data loggers and specialized mapping software.
+
+<center> 
+
+<iframe src="https://player.vimeo.com/video/268556940?h=56316186d3" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/268556940">Introduction to Eupry</a> from <a href="https://vimeo.com/eupry">Eupry</a> on <a href="https://vimeo.com">Vimeo</a>.</p> 
+
+</center>
