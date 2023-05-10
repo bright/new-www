@@ -62,15 +62,15 @@ Examples of problems smart packaging innovations can address:
 
 ### Supply chain inefficiency
 
-Smart packaging has the potential to revolutionize the supply chain by providing real-time information about products' location, condition, and integrity. By building an MVP, you can quickly demonstrate the value of your product to potential partners and investors in the logistics industry, helping to drive adoption and create a more efficient supply chain.
+Smart packaging has the potential to **revolutionize the supply chain by providing real-time information about products' location, condition, and integrity**. By building an MVP, you can quickly demonstrate the value of your product to potential partners and investors in the logistics industry, helping to drive adoption and create a more efficient supply chain.
 
 ### Food and packaging waste
 
-Smart packaging can help reduce waste by extending the shelf life of perishable goods and preventing product spoilage. It also helps to reduce plastic waste. Single-use plastic containers, wrappings, etc. create unimaginable waste. By building an MVP, you can demonstrate the impact of your product on waste reduction, helping to position your startup as a leader in sustainability.
+Smart packaging can help **reduce waste by extending the shelf life of perishable goods and preventing product spoilage**. It also **helps to reduce plastic waste**. Single-use plastic containers, wrappings, etc. create unimaginable waste. By building an MVP, you can demonstrate the impact of your product on waste reduction, helping to position your startup as a leader in sustainability.
 
 ### Lack of traceability and security
 
-Smart packaging can also improve product traceability and security by providing a tamper-evident seal and tracking information throughout the supply chain. By building an MVP, you can demonstrate the value of your product to potential partners and investors, helping to drive adoption and create a more secure supply chain.
+Smart packaging can also **improve product traceability and security by providing a tamper-evident seal and tracking information throughout the supply chain**. By building an MVP, you can demonstrate the value of your product to potential partners and investors, helping to drive adoption and create a more secure supply chain.
 
 ## Examples of smart packaging solutions on the market
 
