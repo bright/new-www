@@ -56,8 +56,6 @@ When building an innovation you can never be sure if it adopts in the market. Th
 
 <div class="important-info"><div>An MVP, short for a Minimum Viable Product, is a software product that includes only the essential features necessary for launching and obtaining initial feedback from early adopters. It serves as a starting point for further development based on the insights gained from early users.</div></div>
 
-<div class="image"><img src="/images/smart_packaging_ui_blog.png" alt="smart packaging mockup" title="undefined"  /> </div>
-
 ## Top benefits of building an MVP for a smart packaging startup
 
 These are the benefits you should consider:
@@ -154,7 +152,7 @@ The final stage is app development and maintenance. At this stage, a software de
 
 The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
 
-<div class="image"><img src="/images/4_app\_development\_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
+<div class="image"><img src="/images/4_app\\_development\\_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
 
 ## Examples of technologies to implement in a smart packaging product
 
