@@ -20,7 +20,7 @@ published: true
 
 - - -
 
-**Table of contents**
+## Table of contents
 
 [Smart packaging definition and market size](/blog/how-to-build-mvp-for-smart-packaging-solution/#smart-packaging-definition-and-market-size)
 
@@ -152,7 +152,7 @@ The final stage is app development and maintenance. At this stage, a software de
 
 The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
 
-<div class="image"><img src="/images/4_app\\_development\\_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
+<div class="image"><img src="/images/4_app_development_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
 
 ## Examples of technologies to implement in a smart packaging product
 
