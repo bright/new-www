@@ -36,19 +36,9 @@ short_description: We will organise Agile workshops for you and your team and
 order: 7
 title: build a strong team with Agile workshops
 highlighted_word: Agile workshops
-intro: We have used Agile to build over 50 projects.
-image_our_service: /images/agile_workshops_small.png
-image_alt_our_service: agile workshops
 image_our_service_desktop: /images/agile_workshops_desktop.png
-image_alt_our_service_desktop: agile workshops
 image_our_service_mobile: /images/agile_workshops_mobile.png
-image_alt_our_service_mobile: agile workshops
-description_mdx: We live and breathe Agile. For almost a decade we have used
-  Agile methodology to develop software projects for clients from various
-  industries. We provide hands-on consulting, coaching, and Agile training for
-  businesses. We work directly with your software developers and we have the
-  experience to help you solve your project management and process problems. We
-  offer face to face meetings (across Europe) and online workshops as well.
+image_alt_our_service: agile workshops
 bullet_points:
   - online or in-person workshops
   - conducted by Agile experts with 10+ experience
@@ -70,10 +60,20 @@ show_technology_stack: true
 title_team: "meet our Agile team "
 title_case_study: projects we delivered with Agile
 title_faqs: agile workshops FAQs
+image_alt_our_service_desktop: agile workshops
+intro: We have used Agile to build over 50 projects.
+image_alt_our_service_mobile: agile workshops
 title_contact: let’s talk about your workshops
-description_contact: Every workshop is adjusted to clients needs. Just let us
+description_contact: Every workshop is adjusted to clients' needs. Just let us
   know what you expect and we will find the best solution for you! Fill out the
-  form below.
+  form below. **We'll get back to you** **in 48 hours**.
+description_mdx: We live and breathe Agile. For almost a decade we have used
+  Agile methodology to develop software projects for clients from various
+  industries. We provide hands-on consulting, coaching, and Agile training for
+  businesses. We work directly with your software developers and we have the
+  experience to help you solve your project management and process problems. We
+  offer face to face meetings (across Europe) and online workshops as well.
+image_our_service: /images/agile_workshops_small.png
 ---
 
 ## who will benefit from an Agile workshop?
