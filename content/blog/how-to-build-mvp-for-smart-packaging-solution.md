@@ -108,9 +108,13 @@ The idea doesn’t guarantee success. It’s only the first step. ;) It’s esse
 
 During this stage, you can try to consult your idea with a suitable MVP development company. Finally, it’s time to decide if you plan to get your own team to build the MVP or hire an MVP agency to take care of that.
 
+<div class="image"><img src="/images/1_idea.png" alt="Idea for MVP" title="Idea for MVP"  /> </div>
+
 ### MVP Prototyping (1-4 weeks)
 
-Validating the ideas' potential is followed by prototyping. The prototyping phase is when a product designer creates the first visual representation of the idea. The phase usually contains three stages: wireframes, mockups, and prototypes. The effect of close cooperation with a product design team is prototypes. They are basic clickable mockups or wireframes without any backend. This stage helps to eliminate first mistakes and understand how the solution might work.
+Validating the ideas' potential is followed by prototyping. The prototyping phase is when a product designer creates the first visual representation of the idea. The effect of close cooperation with a [product design team](/our-areas/product-design/) is prototypes. They are basic clickable mockups or wireframes without any backend. This stage helps to eliminate first mistakes and understand how the solution might work.
+
+<div class="image"><img src="/images/2_app_prototyping.png" alt="MVP Prototyping" title="MVP Prototyping"  /> </div>
 
 ### Building and launching the MVP (Minimum Viable Product) **(4-20 weeks)**
 
