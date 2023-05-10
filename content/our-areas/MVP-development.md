@@ -68,8 +68,9 @@ title_faqs: MVP development FAQs
 image_alt_our_service_desktop: MVP development company
 intro: We are an experienced MVP partner ready to assist you.
 image_alt_our_service_mobile: MVP development company
-title_contact: let’s talk about your MVP
-description_contact: Tell us more about your project or idea for an app. Fill out the form below.
+title_contact: book free consultation in 48 hours
+description_contact: Fill out the form below and we'll get back to you in 48
+  hours. Let’s talk about your MVP!
 description_mdx: Do you want to build an MVP? You came to the right place. We
   have developed MVPs for startups, NGOs and consulting agencies from the USA,
   UK, Germany, Norway and more. Let’s work on your MVP.
