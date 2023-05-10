@@ -183,7 +183,7 @@ Based on our experience in developing software since 2012 we listed the stack yo
 
 ### Mobile development:
 
-Whether you decide to build native or hybrid applications (one app for both Google Play and AppStore), we will show you what stack you should consider. Remember that you don’t need to build apps for both systems (Android, iOS). You can start with one app and launch it as MVP and then work on another. A hybrid approach is only recommended when you want to build a very simple solution. 
+Whether you decide to build native or hybrid applications (one app for both Google Play and AppStore), we will show you what stack you should consider. Remember that **you don’t need to build MVP for both systems (Android, iOS**). You can start with one app and launch it as MVP and then work on another. A hybrid approach is only recommended when you want to build a very simple solution. 
 
 **Android development**: Jetpack Compose, Kotlin, Apollo GraphQL, WorkManager, Room, Hilt.
 
