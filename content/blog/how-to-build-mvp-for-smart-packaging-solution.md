@@ -18,7 +18,7 @@ published: true
 
 <div class="image"><img src="/images/smart_packaging_blog_cover.png" alt="smart packaging MVP" title="undefined"  /> </div>
 
----
+- - -
 
 **Table of contents**
 
@@ -37,6 +37,7 @@ published: true
 [Examples of technologies to implement in a smart packaging product](/blog/how-to-build-mvp-for-smart-packaging-solution/#examples-of-technologies-to-implement-in-a-smart-packaging-product)
 
 [What stack to use for smart packaging solution in 2023?](/blog/how-to-build-mvp-for-smart-packaging-solution/#what-stack-to-use-for-smart-packaging-solution-in-2023)
+
 ---
 
 ## Smart packaging definition and market size
@@ -153,7 +154,7 @@ The final stage is app development and maintenance. At this stage, a software de
 
 The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
 
-<div class="image"><img src="/images/4_app\_development\_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
+<div class="image"><img src="/images/4_app\\_development\\_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
 
 ## Examples of technologies to implement in a smart packaging product
 
