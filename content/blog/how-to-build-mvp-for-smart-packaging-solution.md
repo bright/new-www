@@ -120,15 +120,19 @@ Validating the ideas' potential is followed by prototyping. The prototyping phas
 
 According to the feedback received during the prototyping stage, the software development agency gathers the final requirements from the client and builds the minimal viable product. 
 
-As you can see, you can launch an MVP in weeks and with marketing experts quickly start to gather users. Launched MVP is also a great conversation starter with investors. ;)
+As you can see, you can launch an MVP in weeks and with marketing experts quickly start to gather users. Launched MVP is also a great conversation starter with investors. 😉
 
 MVP is a cornerstone of your product. Based on it you keep developing it according to your users' feedback. 
+
+<div class="image"><img src="/images/3_mvp.png" alt="Building and launching the MVP" title="Building and launching the MVP"  /> </div>
 
 ### Product Development & Maintenance based on MVP (Infinity – hopefully)
 
 The final stage is app development and maintenance. At this stage, a software development company or internal dev team regularly deploys new features to production. Every change in the product will affect your users. Thus, the priority for developers is to maintain the app's stability. All development updates should be tested in a staging environment. It’s a constant challenge of developing the product to give more and more satisfaction to the users.
 
 The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
+
+<div class="image"><img src="/images/4_app_development_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
 
 ## Examples of technologies to implement in a smart packaging product
 
@@ -165,6 +169,8 @@ This technology uses the camera on a smartphone or tablet to overlay digital inf
 ### Printed Electronics
 
 This technology involves printing electronic components onto packaging materials, allowing for more advanced features such as temperature monitoring and product authentication.
+
+<div class="image"><img src="/images/printer.png" alt="Thermal printer" title="Thermal printer"  /> </div>
 
 ## What stack to use for smart packaging solution in 2023?
 
