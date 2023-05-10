@@ -154,7 +154,7 @@ The final stage is app development and maintenance. At this stage, a software de
 
 The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
 
-<div class="image"><img src="/images/4_app_development_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
+<div class="image"><img src="/images/4_app\_development\_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
 
 ## Examples of technologies to implement in a smart packaging product
 
@@ -191,8 +191,6 @@ This technology uses the camera on a smartphone or tablet to overlay digital inf
 ### Printed Electronics
 
 This technology involves printing electronic components onto packaging materials, allowing for more advanced features such as temperature monitoring and product authentication.
-
-<div class="image"><img src="/images/printer.png" alt="Thermal printer" title="Thermal printer"  /> </div>
 
 ## What stack to use for smart packaging solution in 2023?
 
