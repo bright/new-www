@@ -36,20 +36,9 @@ short_description: We offer native mobile app development for iOS and Android.
 order: 1
 title: build native apps with mobile development team
 highlighted_word: mobile
-intro: Our team has broad experience in building applications for iOS and Android.
-image_our_service: /images/mobile_app_development.png
-image_alt_our_service: mobile app development company
 image_our_service_desktop: /images/mockup_web.png
-image_alt_our_service_desktop: Mobile development company
 image_our_service_mobile: /images/mockup_mobile.png
-image_alt_our_service_mobile: Mobile development company
-description_mdx: >-
-  At Bright Inventions, we live and breathe **native mobile app development for
-  iOS and Android**. Our app development team has broad experience in building
-  applications in **Swift** and **Kotlin**.
-
-
-  Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
+image_alt_our_service: mobile app development company
 bullet_points:
   - assessment of your idea in 7 days
   - from idea to launch in up to 6 months
@@ -72,11 +61,22 @@ show_technology_stack: true
 title_team: meet our mobile app development team
 title_case_study: mobile applications that we delivered
 title_faqs: mobile app development FAQs
+image_alt_our_service_desktop: Mobile development company
+intro: Our team has broad experience in building applications for iOS and Android.
 show technology stack: true
-title_contact: let’s talk about your mobile app project
+image_alt_our_service_mobile: Mobile development company
+title_contact: book a free consultation in 48 hours
 show case study: true
 description_contact: Tell us more about your mobile project or idea for an app.
-  Fill out the form below.
+  Fill out the form below and we'll get back to you in 48 hours.
+description_mdx: >-
+  At Bright Inventions, we live and breathe **native mobile app development for
+  iOS and Android**. Our app development team has broad experience in building
+  applications in **Swift** and **Kotlin**.
+
+
+  Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
+image_our_service: /images/mobile_app_development.png
 ---
 ## mobile app development services
 
