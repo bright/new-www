@@ -18,6 +18,26 @@ published: true
 
 <div class="image"><img src="/images/smart_packaging_blog_cover.png" alt="smart packaging MVP" title="undefined"  /> </div>
 
+
+
+**Table of contents**
+
+[Smart packaging definition and market size](https://brightinventions.pl/blog/how-to-build-mvp-for-smart-packaging-solution/#smart-packaging-definition-and-market-size)
+
+[Why you should build MVP for Smart Packaging](/blog/how-to-build-mvp-for-smart-packaging-solution/#why-you-should-build-mvp-for-smart-packaging)
+
+[Top benefits of building an MVP for a smart packaging startup](https://brightinventions.pl/blog/how-to-build-mvp-for-smart-packaging-solution/#top-benefits-of-building-an-mvp-for-a-smart-packaging-startup)
+
+[Problems that smart packaging MVP can offer solutions for](https://brightinventions.pl/blog/how-to-build-mvp-for-smart-packaging-solution/#problems-that-smart-packaging-mvp-can-offer-solutions-for)
+
+[Examples of smart packaging solutions on the market](https://brightinventions.pl/blog/how-to-build-mvp-for-smart-packaging-solution/#examples-of-smart-packaging-solutions-on-the-market)
+
+[MVP development stages for a smart packaging solution](https://brightinventions.pl/blog/how-to-build-mvp-for-smart-packaging-solution/#mvp-development-stages-for-a-smart-packaging-solution)
+
+[Examples of technologies to implement in a smart packaging product](https://brightinventions.pl/blog/how-to-build-mvp-for-smart-packaging-solution/#examples-of-technologies-to-implement-in-a-smart-packaging-product)
+
+[What stack to use for smart packaging solution in 2023?](/blog/how-to-build-mvp-for-smart-packaging-solution/#what-stack-to-use-for-smart-packaging-solution-in-2023)
+
 ## Smart packaging definition and market size
 
 **Smart packaging refers to packaging that is designed with advanced technologies** to provide additional features such as information, monitoring, and security. 
@@ -132,7 +152,7 @@ The final stage is app development and maintenance. At this stage, a software de
 
 The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
 
-<div class="image"><img src="/images/4_app_development_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
+<div class="image"><img src="/images/4_app\_development\_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
 
 ## Examples of technologies to implement in a smart packaging product
 
