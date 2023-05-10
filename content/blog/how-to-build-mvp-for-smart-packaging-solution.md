@@ -56,6 +56,8 @@ The smart packaging industry is rapidly evolving, and **building an MVP can help
 
 By building an MVP, **you can continually test and improve your product**, allowing you to adapt to changing market conditions and customer needs. This iterative development process can help you create a more robust and successful product in the long run.
 
+<div class='block-button'><h2>Book a free consultation about your product in 48 hours </h2><div>Contact us to book a free consultation. We will get back to you in 48 hours! Let’s talk about your product and estimate your solution!</div><a href="/start-project/"><button>Estimate your solution</button></a></div>
+
 ## Problems that smart packaging MVP can offer solutions for
 
 Examples of problems smart packaging innovations can address:
@@ -183,4 +185,4 @@ Whether you decide to build native or hybrid applications (one app for both Goog
 
 **Product design**: Figma, Adobe, Miro
 
-<div class='block-button'><h2>Ready to take your packaging to the next level?</h2><div>Schedule a \\\\\*\\\\\*free consultation\\\\\*\\\\\* with our team. We'll provide expert insights \\\\\*\\\\\*within 48 hours\\\\\*\\\\\*.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>
+<div class='block-button'><h2>Ready to take your packaging to the next level?</h2><div>Schedule a free consultation with our team. We'll provide expert insights within 48 hours.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>
