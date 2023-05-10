@@ -108,23 +108,31 @@ The idea doesn’t guarantee success. It’s only the first step. ;) It’s esse
 
 During this stage, you can try to consult your idea with a suitable MVP development company. Finally, it’s time to decide if you plan to get your own team to build the MVP or hire an MVP agency to take care of that.
 
+<div class="image"><img src="/images/1_idea.png" alt="Idea for MVP" title="Idea for MVP"  /> </div>
+
 ### MVP Prototyping (1-4 weeks)
 
-Validating the ideas' potential is followed by prototyping. The prototyping phase is when a product designer creates the first visual representation of the idea. The phase usually contains three stages: wireframes, mockups, and prototypes. The effect of close cooperation with a product design team is prototypes. They are basic clickable mockups or wireframes without any backend. This stage helps to eliminate first mistakes and understand how the solution might work.
+Validating the ideas' potential is followed by prototyping. The prototyping phase is when a product designer creates the first visual representation of the idea. The effect of close cooperation with a [product design team](/our-areas/product-design/) is prototypes. They are basic clickable mockups or wireframes without any backend. This stage helps to eliminate first mistakes and understand how the solution might work.
+
+<div class="image"><img src="/images/2_app_prototyping.png" alt="MVP Prototyping" title="MVP Prototyping"  /> </div>
 
 ### Building and launching the MVP (Minimum Viable Product) **(4-20 weeks)**
 
 According to the feedback received during the prototyping stage, the software development agency gathers the final requirements from the client and builds the minimal viable product. 
 
-As you can see, you can launch an MVP in weeks and with marketing experts quickly start to gather users. Launched MVP is also a great conversation starter with investors. ;)
+As you can see, you can launch an MVP in weeks and with marketing experts quickly start to gather users. Launched MVP is also a great conversation starter with investors. 😉
 
 MVP is a cornerstone of your product. Based on it you keep developing it according to your users' feedback. 
+
+<div class="image"><img src="/images/3_mvp.png" alt="Building and launching the MVP" title="Building and launching the MVP"  /> </div>
 
 ### Product Development & Maintenance based on MVP (Infinity – hopefully)
 
 The final stage is app development and maintenance. At this stage, a software development company or internal dev team regularly deploys new features to production. Every change in the product will affect your users. Thus, the priority for developers is to maintain the app's stability. All development updates should be tested in a staging environment. It’s a constant challenge of developing the product to give more and more satisfaction to the users.
 
 The crucial part of development, yet often neglected is analytics. You should monitor app performance, user behavior, and install and retention rates in the post-MVP phase to get to know your users as much it is possible.
+
+<div class="image"><img src="/images/4_app_development_-_maintenance.png" alt="App development and maintenance" title="App development and maintenance"  /> </div>
 
 ## Examples of technologies to implement in a smart packaging product
 
@@ -162,6 +170,8 @@ This technology uses the camera on a smartphone or tablet to overlay digital inf
 
 This technology involves printing electronic components onto packaging materials, allowing for more advanced features such as temperature monitoring and product authentication.
 
+<div class="image"><img src="/images/printer.png" alt="Thermal printer" title="Thermal printer"  /> </div>
+
 ## What stack to use for smart packaging solution in 2023?
 
 Based on our experience in developing software since 2012 we listed the stack your software team should work with in 2023. 
@@ -173,7 +183,7 @@ Based on our experience in developing software since 2012 we listed the stack yo
 
 ### Mobile development:
 
-Whether you decide to build native or hybrid applications (one app for both Google Play and AppStore), we will show you what stack you should consider. Remember that you don’t need to build apps for both systems (Android, iOS). You can start with one app and launch it as MVP and then work on another. A hybrid approach is only recommended when you want to build a very simple solution. 
+Whether you decide to build native or hybrid applications (one app for both Google Play and AppStore), we will show you what stack you should consider. Remember that **you don’t need to build MVP for both systems (Android, iOS**). You can start with one app and launch it as MVP and then work on another. A hybrid approach is only recommended when you want to build a very simple solution. 
 
 **Android development**: Jetpack Compose, Kotlin, Apollo GraphQL, WorkManager, Room, Hilt.
 
