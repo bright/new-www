@@ -67,9 +67,9 @@ image_alt_our_service_desktop: web development company
 intro: If you are looking for a web development company, you’ve come to the
   right place!
 image_alt_our_service_mobile: web development company
-title_contact: let’s talk about your web project
+title_contact: book a free consultation in 48 hours
 description_contact: Tell us more about your web project or idea for an app.
-  Fill out the form below.
+  Fill out the form below and we'll get back to you in 48 hours.
 description_mdx: We provide a wide range of **custom full-stack web development
   services** for small, medium, and large businesses. Since 2012 we’ve gained
   experience in developing web apps, web services, and websites that are
