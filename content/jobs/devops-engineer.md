@@ -50,7 +50,7 @@ We support and share responsibility with the members of our team. We also active
 The role is dedicated to an experienced DevOps Engineer who would like to build software delivery pipelines, deploy and monitor services, and learn from incidents. **Apart from technical skills what counts are your positive mindset, solution-oriented attitude as well as communication skills.**\
 At the beginning of our cooperation you might be engaged in the project described below, however, depending on your availability and business priorities, they may also alter. Please use it only as a starting point of reference. We focus on a long-term cooperation and you have to keep in mind that the projects you are involved in will be changing in the future.\
 \
-Project: **The new next generation passwordless authentication system that is used by millions of users worldwide on a daily basis.** It is working on identity protection by using the latest trends in biometric technology, thanks to that users can gain access to accounts with just one touch.  
+**Project:** We are working on a system that combines many technologies (frontend in React, Android & iOS, and backend in Scala, ) which is used to design the security layer for the client's application while using a graphical interface with blocks. We design individual steps such as logging in, checking the correctness of data, sending inquiries to the external services. The application is both on-premises and cloud based (AWS and GCP). Currently, we are responsible mostly for technical challenges regarding the on-premises part of the system.
 
 ## what you will do **🚀🚀🚀**
 
