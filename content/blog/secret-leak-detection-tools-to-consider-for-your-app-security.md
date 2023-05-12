@@ -19,23 +19,23 @@ published: true
 
 ## [Gitleaks](https://gitleaks.io/)
 
-* More sophisticated than GitLab Secret Leaks Scanner
-* Gives the user more options to customize output/view the leak
-* Possibility to verify with an e.g. AWS provider that those are indeed correct secrets leaked from their site
-* Can scan .git and .env leaked files
+* more sophisticated than GitLab Secret Leaks Scanner,
+* gives the user more options to customize output/view the leak,
+* possibility to verify with an e.g. AWS provider that those are indeed correct secrets leaked from their site,
+* can scan .git and .env leaked files.
 
 ## [TruffleHog](https://trufflesecurity.com/trufflehog/)
 
-* A tool that can detect secrets leaked in various ways
-* Has a TruffleHog Chrome Extension that shows secret leaks on websites
-* Can scan .git and .env leaked files
+* a tool that can detect secrets leaked in various ways,
+* has a TruffleHog Chrome Extension that shows secret leaks on websites,
+* can scan .git and .env leaked files,
 * Ability to verify AWS secrets.
 
 ## [GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning)
 
-* Alerts run automatically to notify users about secret leaks
-* Recently available for all repositories
-* Ensure the feature is enabled if using GitHub.
+* alerts run automatically to notify users about secret leaks,
+* recently available for all repositories,
+* ensure the feature is enabled if using GitHub.
 
 In conclusion, secret leak detection tools are essential for your product or organization to ensure its data security. By using these tools, you can detect and prevent secret leaks and protect sensitive information. You can choose any of the tools mentioned above depending on their specific requirements and security needs.
 
