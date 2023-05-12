@@ -13,7 +13,7 @@ hidden: false
 comments: true
 published: true
 ---
-**Secret leaks can pose a significant security threat to organizations. To mitigate this risk, there are several secret leak detection tools available that organizations can consider using. In this article, we will discuss three such tools – GitLab Secret Leaks Scanner, Gitleaks, and TruffleHog – and how they can help detect secret leaks.**
+**Secret leaks can pose a significant security threat to organizations. To mitigate this risk, there are several secret leak detection tools available that organizations can consider using. In this article, we will discuss three such tools – Gitleaks, TruffleHog and GitHub Secret Scanning – and how they can help detect secret leaks.**
 
 <EbookDynamic sectionTitle='Get this ebook now' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Discover much more security tools in our free ebook.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security ebook cover' />
 
