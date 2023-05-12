@@ -17,28 +17,21 @@ published: true
 
 <EbookDynamic sectionTitle='Get this ebook now' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Discover much more security tools in our free ebook.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security ebook cover' />
 
-## Gitlab Secret Leaks Scanner
-
-* Free tool available in all GitLab plans
-* Can be installed locally or on a CI/CD server
-* Can be configured as a pre-commit hook
-* Scans for secret leaks and alerts the user if any are found
-
-## Gitleaks
+## [Gitleaks](https://gitleaks.io/)
 
 * More sophisticated than GitLab Secret Leaks Scanner
 * Gives the user more options to customize output/view the leak
 * Possibility to verify with an e.g. AWS provider that those are indeed correct secrets leaked from their site
 * Can scan .git and .env leaked files
 
-## TruffleHog
+## [TruffleHog](https://trufflesecurity.com/trufflehog/)
 
 * A tool that can detect secrets leaked in various ways
 * Has a TruffleHog Chrome Extension that shows secret leaks on websites
 * Can scan .git and .env leaked files
 * Ability to verify AWS secrets.
 
-## GitHub Secret Scanning
+## [GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning/about-secret-scanning)
 
 * Alerts run automatically to notify users about secret leaks
 * Recently available for all repositories
