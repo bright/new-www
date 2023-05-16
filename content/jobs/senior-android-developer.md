@@ -49,7 +49,7 @@ What we can promise is that at Bright Inventions you will be an important part o
 
 ## your responsibilities 🧑🏻‍💻👩🏻‍💻
 
-* working on one of Android mobile application **(1. transport & management app 2. app for construction company 3. POS application)**
+* working on one of Android mobile application 
 * participate in software code reviews
 * have a direct contact with clients and advise in their decision making process
 * take part in knowledge sharing with the rest of a team
