@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2023-05-17T13:01:57.898Z
 title: Organizing a Large Number of Scripts in Package.json
 layout: post
 image: /images/blogpost_tip_packagejson.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
@@ -18,7 +18,7 @@ published: true
 
 Using separators in your scripts object helps create clear sections and group related scripts together. Let’s do it in a few simple steps:
 
-“Scripts” object with no separators:
+## “Scripts” object with no separators:
 
 ```javascript
 "scripts": {
@@ -44,7 +44,7 @@ Scripts available in dev-tips@1.0.0 via `npm run-script`:
     serve ./site/
 ```
 
-But when separators are used like so:
+## But when separators are used like so:
 
 ```javascript
 "scripts": {
@@ -57,7 +57,7 @@ But when separators are used like so:
   },
 ```
 
-The available commands are printed in a much more readable form:
+## The available commands are printed in a much more readable form:
 
 Scripts available in dev-tips@1.0.0 via `npm run-script`:
 
