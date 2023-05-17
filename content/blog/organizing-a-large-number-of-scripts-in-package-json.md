@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2023-05-17T13:01:57.898Z
 title: Organizing a Large Number of Scripts in Package.json
 layout: post
 image: /images/blogpost_tip_packagejson.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
