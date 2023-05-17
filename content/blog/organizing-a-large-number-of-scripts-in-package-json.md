@@ -27,5 +27,58 @@ Using separators in your scripts object helps create clear sections and group re
     "tscwatch": "tsc --watch",
     "serve": "serve ./site/"
   },
+```
+
+Prints the available commands with `npm run` as:
+
+Scripts available in dev-tips@1.0.0 via `npm run-script`:
+
+```javascript
+  help
+    scripts-help -w 40
+  tsc
+    tsc
+  tscwatch
+    tsc --watch
+  serve
+    serve ./site/
+```
+
+But when separators are used like so:
+
+```javascript
+"scripts": {
+    "help": "scripts-help -w 40",
+    "\n========== Building ==========": "",
+    "tsc": "tsc",
+    "tscwatch": "tsc --watch",
+    "\n========== Serving ==========": "",
+    "serve": "serve ./site/"
+  },
+```
+
+The available commands are printed in a much more readable form:
+
+Scripts available in dev-tips@1.0.0 via `npm run-script`:
+
+```javascript
+  help
+    scripts-help -w 40
+  
+========== Building ==========
+    
+  tsc
+    tsc
+  tscwatch
+    tsc --watch
+  
+========== Serving ==========
+    
+  serve
+    serve ./site/
 
 ```
+
+Check out [Github repository](https://github.com/bright/dev-tips/blob/main/javascript/grouped-commands-in-package.json).
+
+More bright dev tips are coming soon!
