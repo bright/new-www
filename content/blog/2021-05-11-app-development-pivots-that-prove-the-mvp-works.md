@@ -37,7 +37,7 @@ At the beginning of its existence **YouTube** was nothing like the platform we k
 
 ### Long for simplicity
 
-Developing all the features that you have imagined for your app may not only be costly but also confusing for your users. That is something that **Instagram** learned at the very beginning when it was known as Burbnb. It was supposed to be a photo&note sharing solution and loyalty app. The number of features made the prototype too complex so the owners decided to focus on photo-sharing. This is the 1.01 MVP approach – focusing on the key feature first. **Creating Instagram as MVP was a cornerstone of its success.**
+Developing all the features that you have imagined for your app may not only be costly but also confusing for your users. That is something that **Instagram** learned at the very beginning when it was known as Burbn. It was supposed to be a photo&note sharing solution and loyalty app. The number of features made the prototype too complex so the owners decided to focus on photo-sharing. This is the 1.01 MVP approach – focusing on the key feature first. **Creating Instagram as MVP was a cornerstone of its success.**
 
 ### Adapting to market trends
 
