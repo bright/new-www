@@ -49,6 +49,8 @@ An actual example of smart packaging solution:
 
 Check [Relevo](/projects/eco-friendly-app/), a smart, deposit-free reusable system that we have helped to develop. This smart FoodTech solution enables restaurant clients to loan reusable packages with food to go. A package is returned by a customer during the next visit to a restaurant.
 
+**Read more about building [MVP for the smart packaging](/blog/how-to-build-mvp-for-smart-packaging-solution/) industry.**
+
 ### Food Delivery
 
 Using delivery platforms and logistics technology to improve the efficiency of food delivery and reduce carbon emissions.
