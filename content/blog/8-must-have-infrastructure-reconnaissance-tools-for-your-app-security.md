@@ -8,6 +8,7 @@ date: 2023-05-19T07:39:31.215Z
 meaningfullyUpdatedAt: 2023-05-19T07:39:31.262Z
 title: 8 Must-Have Infrastructure Reconnaissance Tools for Your App Security
 layout: post
+image: /images/infra_tools_cover.png
 hidden: false
 comments: true
 published: true
