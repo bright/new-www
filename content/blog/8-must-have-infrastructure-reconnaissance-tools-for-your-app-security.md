@@ -45,4 +45,23 @@ Check out the infrastructure reconnaissance tools that we use and recommend to k
 ## SSL Labs
 
 * analyzes SSL certificates and provides valuable insights into the security of your server certificate,
+
 * checks if your server certificate is trusted, what TLS protocols are supported, and any potential security issues.
+
+## Security Headers
+
+* checks if web apps have the correct security headers configured,
+
+* scans your page to learn more about each header and understand how to configure them correctly.
+
+## Report URI
+
+* analyzes the CSP header, which specifies the security policy that the client should follow when loading scripts, styles, images, etc.,
+
+* generates a policy based on existing data.
+
+## Mozilla Observatory
+
+* aggregates several websites and provides an option to check headers, do TLS scans and see third-party analysis,
+
+* provides businesses with a comprehensive infrastructure reconnaissance solution.
