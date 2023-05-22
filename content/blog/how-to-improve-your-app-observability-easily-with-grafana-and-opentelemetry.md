@@ -4,7 +4,7 @@ tags:
   - grafana
   - opentelemetry
   - observability
-  - tracing
+  - backend
 date: 2023-04-26T10:29:16.236Z
 meaningfullyUpdatedAt: 2023-04-26T10:29:16.265Z
 title: How to Improve Your App Observability (Easily) with Grafana and OpenTelemetry
