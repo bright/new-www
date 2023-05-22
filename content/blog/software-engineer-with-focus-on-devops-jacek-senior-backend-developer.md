@@ -43,6 +43,8 @@ First of all, you shouldn’t be scared of the number of tools available on the 
 
 If you want to try AWS as your provider, you can start by using their web console, and then try to do the same using the AWS CDK tool. After that, you can just put the AWS CDK code and commands in some pipelines. Most of the tools have great documentation that will help you start.
 
+<div class='block-button'><h2>Join Jacek!</h2><div>Are you a backend developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on a daily basis? We want you on our team!</div><a href="/jobs/senior-backend-developer/"><button>apply and work with Jacek</button></a></div>
+
 ## You also work with Kubernetes. What are the pros and cons of it?
 
 Kubernetes is a powerful tool to run whole systems. However, not every project needs it. If you operate on a small scale, it’s not something essential. Also, **Kubernetes has a high entry threshold. It’s not something to tackle while starting your DevOps adventure**.
