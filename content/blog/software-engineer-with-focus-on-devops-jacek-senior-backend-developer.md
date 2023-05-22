@@ -5,13 +5,13 @@ tags:
   - bright story
   - backend
   - inspiration
-date: 2023-05-22T07:49:29.242Z
-meaningfullyUpdatedAt: 2023-05-22T07:49:29.965Z
+date: 2023-05-22T08:44:23.054Z
+meaningfullyUpdatedAt: 2023-05-22T08:44:23.882Z
 title: Software Engineer with a Focus on DevOps. Meet Jacek – a Senior Backend
   Developer
 layout: post
 image: /images/brightstoryjacek.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -42,6 +42,8 @@ Yes, I believe that’s our duty. Nowadays automatization and CI/CD are necessit
 First of all, you shouldn’t be scared of the number of tools available on the market. You should focus on one tool or just try to automate your project. **Choose one flow that you do manually and step by step turn it into a pipeline**. 
 
 If you want to try AWS as your provider, you can start by using their web console, and then try to do the same using the AWS CDK tool. After that, you can just put the AWS CDK code and commands in some pipelines. Most of the tools have great documentation that will help you start.
+
+<div class='block-button'><h2>Join Jacek!</h2><div>Are you a backend developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on a daily basis? We want you on our team!</div><a href="/jobs/senior-backend-developer/"><button>apply and work with Jacek</button></a></div>
 
 ## You also work with Kubernetes. What are the pros and cons of it?
 
@@ -83,7 +85,7 @@ I made an experimental wine from elderberry lately. Unfortunately, it wasn't dri
 
 For my wedding, I made two three-liter bottles of red wine. Also, every guest got a small bottle as a gift. We even named it “Le Chaple” (as a reference to our surname).
 
-<div class="image"><img src="/images/jacek_wedding_wine.png" alt="Jacek's homemade wine" title="Le Chaple wine as a gift for our wedding guests."  /> </div>
+<div class="image"><img src="/images/jacek_wedding_wine.png" alt="Jacek's homemade wine" title="Le Chaple wine as a gift for our wedding guests"  /> </div>
 
 <sub> Le Chaple wine as a gift for our wedding guests. </sub>
 
@@ -95,7 +97,7 @@ To make the process easier, **I’ve recently started working on a Flutter mobil
 
 I love to travel. My biggest adventure was **visiting New Zealand**. My wife and I lived there in a camper which was our home for 3 weeks. This year we plan to go to Portugal. Apart from that I like spending time at a lake and fishing, although I don’t have many achievements in this area.
 
-<div class="image"><img src="/images/jacek_new-zealand.png" alt="Jacek in Hobbiton - New Zealand" title="Jacek in Hobbiton - New Zealand."  /> </div>
+<div class="image"><img src="/images/jacek_new-zealand.png" alt="Jacek in Hobbiton - New Zealand" title="Jacek in Hobbiton - New Zealand"  /> </div>
 
 <sub> Jacek in Hobbiton - New Zealand. </sub>
 
