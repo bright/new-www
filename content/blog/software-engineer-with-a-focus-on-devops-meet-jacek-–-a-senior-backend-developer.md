@@ -52,3 +52,11 @@ Kubernetes is a powerful tool to run whole systems. However, not every project n
 However, in the long term, **this investment is worth it**. After proper configuration, **Kubernetes simplifies app releases, helps to manage instances or achieve high availability and zero downtown deployments**. It is a great tool to ensure that our apps will run just as we want them to.
 
 <div class="image"><img src="/images/jacek_quote_kubernetes.png" alt="Quote on Kubernetes" title="Quote on Kubernetes"  /> </div>
+
+## How do you find yourself at Bright Inventions?
+
+I enjoy working here. **Since I joined the company I felt like I was among old friends – it was really a warm welcome**. After time this feeling only strengthened. **People are great, as well as the technologies we use**. We aren’t afraid of implementing new solutions. We also focus on knowledge sharing. We have regular internal meetings where we exclusively share knowledge. Also, we do it outside of the company by organizing workshops, webinars, and publishing blog posts.
+
+It's mind-blowing for me that people just want to write blog posts. No one feels obliged to do it, yet they still publish them. **I love this spirit of knowledge-sharing that I’ve experienced since joining Bright Inventions**.
+
+<div class="image"><img src="/images/team_jacek.png" alt="Bright Inventions Team" title="Bright Inventions Team"  /> </div>
