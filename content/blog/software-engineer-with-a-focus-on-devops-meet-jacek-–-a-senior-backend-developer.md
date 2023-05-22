@@ -36,3 +36,17 @@ I studied **Automatic Control and Robotics** at Gdańsk University of Technology
 Yes, I believe that’s our duty. Nowadays automatization and CI/CD are necessities. **I can't imagine a modern, effective company without CI/CD**. Besides that, **as a developer, you should know how to deploy and deliver your application to clients** – this gives a whole new perspective on your work.
 
 <div class="image"><img src="/images/jacek_quote_ci_cd.png" alt="Quote on CI/CD" title="Quote on CI/CD"  /> </div>
+
+## How to start learning CI/CD? What’s your advice?
+
+First of all, you shouldn’t be scared of the number of tools available on the market. You should focus on one tool or just try to automate your project. **Choose one flow that you do manually and step by step turn it into a pipeline**. 
+
+If you want to try AWS as your provider, you can start by using their web console, and then try to do the same using the AWS CDK tool. After that, you can just put the AWS CDK code and commands in some pipelines. Most of the tools have great documentation that will help you start.
+
+## You also work with Kubernetes. What are the pros and cons of it?
+
+Kubernetes is a powerful tool to run whole systems. However, not every project needs it. If you operate on a small scale, it’s not something essential. Also, **Kubernetes has a high entry threshold. It’s not something to tackle while starting your DevOps adventure**.
+
+**Kubernetes also requires time for maintenance**. You have to manage it, do updates, and monitor flows. You cannot just set it up and then get back to it after a month. You have to spend some time a week to ensure that everything works properly.
+
+However, in the long term, **this investment is worth it**. After proper configuration, **Kubernetes simplifies app releases, helps to manage instances or achieve high availability and zero downtown deployments**. It is a great tool to ensure that our apps will run just as we want them to.
