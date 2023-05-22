@@ -98,3 +98,5 @@ I love to travel. My biggest adventure was **visiting New Zealand**. My wife and
 <div class="image"><img src="/images/jacek_new-zealand.png" alt="Jacek in Hobbiton - New Zealand" title="Jacek in Hobbiton - New Zealand."  /> </div>
 
 <sub> Jacek in Hobbiton - New Zealand. </sub>
+
+<div class='block-button'><h2>Experienced backend developers wanted. Apply today!</h2><div>We're on the lookout for senior backend developers who understands Java/Kotlin & Spring really well and who would like to work with AWS on a daily basis.</div><a href="/jobs/senior-backend-developer/"><button>join our backend team</button></a></div>
