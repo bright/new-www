@@ -30,3 +30,9 @@ I studied **Automatic Control and Robotics** at Gdańsk University of Technology
 **Python is a great language to start** your programming career. It’s greatly utilized in data science and artificial intelligence. However, **Java and Kotlin are much more friendly to use** **in web development**. For me, **Kotlin is a golden mean between Java and Python**. You get to use all the awesome libraries, tools and practices from Java, but the syntax is really clean and pleasant like in Python. That's why I like working with it. 
 
 <div class="image"><img src="/images/jacek_quote_kotlin.png" alt="Quote on Kotlin" title="Quote on Kotlin"  /> </div>
+
+## Part of your work is DevOps. Do you think that every backend developer should possess DevOps skills?
+
+Yes, I believe that’s our duty. Nowadays automatization and CI/CD are necessities. **I can't imagine a modern, effective company without CI/CD**. Besides that, **as a developer, you should know how to deploy and deliver your application to clients** – this gives a whole new perspective on your work.
+
+<div class="image"><img src="/images/jacek_quote_ci_cd.png" alt="Quote on CI/CD" title="Quote on CI/CD"  /> </div>
