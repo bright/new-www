@@ -213,4 +213,4 @@ Whether you decide to build native or hybrid applications (one app for both Goog
 
 **Product design**: Figma, Adobe, Miro
 
-<div class='block-button'><h2>Ready to take your packaging to the next level?</h2><div>Schedule a free consultation with our team. We'll provide expert insights within 48 hours.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>
+<div class='block-button'><h2>Ready to take your solution to the next level?</h2><div>Schedule a free consultation with our team. We'll provide expert insights within 48 hours.</div><a href="https://brightinventions.pl/start-project/"><button>let's talk about your product</button></a></div>
