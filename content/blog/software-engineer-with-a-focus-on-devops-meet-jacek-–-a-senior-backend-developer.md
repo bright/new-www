@@ -50,3 +50,5 @@ Kubernetes is a powerful tool to run whole systems. However, not every project n
 **Kubernetes also requires time for maintenance**. You have to manage it, do updates, and monitor flows. You cannot just set it up and then get back to it after a month. You have to spend some time a week to ensure that everything works properly.
 
 However, in the long term, **this investment is worth it**. After proper configuration, **Kubernetes simplifies app releases, helps to manage instances or achieve high availability and zero downtown deployments**. It is a great tool to ensure that our apps will run just as we want them to.
+
+<div class="image"><img src="/images/jacek_quote_kubernetes.png" alt="Quote on Kubernetes" title="Quote on Kubernetes"  /> </div>
