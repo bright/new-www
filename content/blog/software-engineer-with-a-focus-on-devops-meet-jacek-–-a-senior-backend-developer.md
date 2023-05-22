@@ -72,3 +72,7 @@ Once a month at Bright Inventions **we can spend some time (typically a day) wor
 Thanks to this project **I learned a lot about working with an ESP32 microcontroller**. I also found interesting libraries that helped me to work with a sound signal.
 
 I’ve also conducted a webinar for our team to share my experience and technical challenges while building the device. I plan to share more about it on our blog soon.
+
+<div class="image"><img src="/images/team_retreat_jacek.png" alt="Team retreat" title="Jacek and other bright people at the team retreat."  /> </div>
+
+<sub> Jacek and other bright people at the team retreat. </sub>
