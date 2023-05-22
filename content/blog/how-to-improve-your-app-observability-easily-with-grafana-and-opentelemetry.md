@@ -328,7 +328,7 @@ ports:
 
 Now when we restart grafana-agent and example application, our application started to send traces: 
 
-<div class="image"><img src="/images/grafana_traces.png" alt="Grafana Agent" title="Grafana Agent"  /> </div>
+<div class="image"><img src="/images/grafana_traces.png" alt="Grafana-Agent" title="Grafana-Agent"  /> </div>
 
 ## Summary
 
