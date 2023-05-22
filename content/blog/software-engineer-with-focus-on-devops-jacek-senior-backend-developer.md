@@ -81,7 +81,7 @@ I’ve also conducted a webinar for our team to share my experience and technica
 
 ## You are a home winemaker. What wine have you made recently?
 
-I made an experimental wine from elderberry lately. Unfortunately, it wasn't drinkable at all. My bad. I left it to ferment for too long. ļ. 
+I made an experimental wine from elderberry lately. Unfortunately, it wasn't drinkable at all. My bad. I left it to ferment for too long.
 
 For my wedding, I made two three-liter bottles of red wine. Also, every guest got a small bottle as a gift. We even named it “Le Chaple” (as a reference to our surname).
 
