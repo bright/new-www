@@ -59,4 +59,6 @@ I enjoy working here. **Since I joined the company I felt like I was among old f
 
 It's mind-blowing for me that people just want to write blog posts. No one feels obliged to do it, yet they still publish them. **I love this spirit of knowledge-sharing that I’ve experienced since joining Bright Inventions**.
 
-<div class="image"><img src="/images/team_jacek.png" alt="Bright Inventions Team" title="Bright Inventions Team"  /> </div>
+<div class="image"><img src="/images/team_jacek.png" alt="Bright Inventions Team" title="During Bright Inventions team trip to Stockholm."  /> </div>
+
+<sub> During Bright Inventions team trip to Stockholm. </sub>
