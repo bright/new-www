@@ -83,7 +83,7 @@ I made an experimental wine from elderberry lately. Unfortunately, it wasn't dri
 
 For my wedding, I made two three-liter bottles of red wine. Also, every guest got a small bottle as a gift. We even named it “Le Chaple” (as a reference to our surname).
 
-<div class="image"><img src="/images/jacek_wedding_wine.png" alt="Jacek's homemade wine" title="Le Chaple wine as a gift for our wedding guests."  /> </div>
+<div class="image"><img src="/images/jacek_wedding_wine.png" alt="Jacek's homemade wine" title="Le Chaple wine as a gift for our wedding guests"  /> </div>
 
 <sub> Le Chaple wine as a gift for our wedding guests. </sub>
 
@@ -95,7 +95,7 @@ To make the process easier, **I’ve recently started working on a Flutter mobil
 
 I love to travel. My biggest adventure was **visiting New Zealand**. My wife and I lived there in a camper which was our home for 3 weeks. This year we plan to go to Portugal. Apart from that I like spending time at a lake and fishing, although I don’t have many achievements in this area.
 
-<div class="image"><img src="/images/jacek_new-zealand.png" alt="Jacek in Hobbiton - New Zealand" title="Jacek in Hobbiton - New Zealand."  /> </div>
+<div class="image"><img src="/images/jacek_new-zealand.png" alt="Jacek in Hobbiton - New Zealand" title="Jacek in Hobbiton - New Zealand"  /> </div>
 
 <sub> Jacek in Hobbiton - New Zealand. </sub>
 
