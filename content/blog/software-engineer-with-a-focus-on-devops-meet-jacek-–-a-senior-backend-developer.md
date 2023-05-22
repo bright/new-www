@@ -62,3 +62,13 @@ It's mind-blowing for me that people just want to write blog posts. No one feels
 <div class="image"><img src="/images/team_jacek.png" alt="Bright Inventions Team" title="During Bright Inventions team trip to Stockholm."  /> </div>
 
 <sub> During Bright Inventions team trip to Stockholm. </sub>
+
+## You recently took Bright Development Time. Can you explain what that is and what did you do then?
+
+Once a month at Bright Inventions **we can spend some time (typically a day) working on non-project staff**. For instance, **we can attend a conference, create an open library, test new tools**, and so on. The goal is to develop our skills. 
+
+**I decided to take Bright Development Time to build a device similar to a baby monitor**. It's a microcontroller with a microphone and Bluetooth speaker. Now my wife and I use it to monitor our baby daughter while she sleeps.
+
+Thanks to this project **I learned a lot about working with an ESP32 microcontroller**. I also found interesting libraries that helped me to work with a sound signal.
+
+I’ve also conducted a webinar for our team to share my experience and technical challenges while building the device. I plan to share more about it on our blog soon.
