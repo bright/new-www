@@ -27,7 +27,7 @@ I studied **Automatic Control and Robotics** at Gdańsk University of Technology
 
 ## From Python to Kotlin. That’s an interesting journey.
 
-**Python is a great language to start** your programming career. It’s greatly utilized in data science and artificial intelligence. However, **Java and Kotlin are much more friendly to use** **in web development**. For me, **Kotlin is a golden mean between Java and Python**. You get to use all the awesome libraries, tools and practices from Java, but the syntax is really clean and pleasant like in Python. That's why I like working with it. 
+**Python is a great language to start** your programming career. It’s greatly utilized in data science and artificial intelligence. However, **Java and Kotlin are much more friendly to use** **in [web development](/our-areas/web-development/)**. For me, **Kotlin is a golden mean between Java and Python**. You get to use all the awesome libraries, tools and practices from Java, but the syntax is really clean and pleasant like in Python. That's why I like working with it. 
 
 <div class="image"><img src="/images/jacek_quote_kotlin.png" alt="Quote on Kotlin" title="Quote on Kotlin"  /> </div>
 
