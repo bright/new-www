@@ -49,7 +49,6 @@ services:
       POSTGRES_PASSWORD: foo
     ports:
       - "55432:5432"
-
 ```
 
 We are just using the official `postgres` image, with a defined password and exposed port.
@@ -240,7 +239,6 @@ class PostgreSQLJsonValue<T>(
         append("${jsonPath.joinToString { it }})::${columnType.sqlType()}")
     }
 }
-
 ```
 
 We created `PostgreSQLJsonValue` which is a representation of `(column->>jsonPath)::type` PostgreSQL' syntax. Plus, we can
@@ -269,15 +267,17 @@ which will respond with full Person DTO.
 
 In this article, we've learned:
 
-- how to add `json` column type to our JetBrains/Exposed application,
-- how to add `jsonValue` method which allows us to search/sort by the JSON specific property in the query.
+* how to add `json` column type to our JetBrains/Exposed application,
+* how to add `jsonValue` method which allows us to search/sort by the JSON specific property in the query.
 
 As extra points we did:
 
-- exercise to create Docker container for our PostgreSQL database,
-- configured connection pooling, which is important to our production environment.
+* exercise to create Docker container for our PostgreSQL database,
+* configured connection pooling, which is important to our production environment.
 
 **Did you like the article? Maybe you have some other way for DAO implementation? Leave a comment below and stay in
 touch!**
 
 You can find the complete code [over GitHub.](https://github.com/bright/kotlin-exposed-json-example)
+
+<div class='block-button'><h2>Are you experienced backend dev? Join us!</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on a daily basis.</div><a href="/jobs/senior-backend-developer/"><button>apply now</button></a></div>
