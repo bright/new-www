@@ -337,3 +337,5 @@ That's it! Now you know how to configure remote logging and tracing for your Typ
 You can find all steps in [example repository](https://gitlab.com/maciej.nawrocki.bright/observability-example/-/merge_requests).
 
 Good luck!
+
+<div class='block-button'><h2>Passionate senior backend developers needed. Apply today!</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.</div><a href="/jobs/senior-backend-developer/"><button>join our team</button></a></div>
