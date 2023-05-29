@@ -19,13 +19,13 @@ published: false
 ---
 ![Pregnancy App](/images/preganncy_app_2_screens2.png)
 
-## Main tech elements
+## Wichtigste technische Elemente
 
-* Apple and Android in app purchases
-* Video content available to premium customers
-* Deep integration with system calendar, reminders, push notifications
-* In-depth user behaviour analytics
-* A/B testing
+* Apple- und Android-In-App-Käufe
+* Videoinhalte für Premium-Kunden verfügbar
+* Tiefe Integration mit Systemkalender, Erinnerungen, Push-Benachrichtigungen
+* Detaillierte Analysen des Benutzerverhaltens
+* A/B-Tests
 
 ## Intro
 
