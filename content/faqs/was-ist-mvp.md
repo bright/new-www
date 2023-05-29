@@ -1,7 +1,7 @@
 ---
 layout: faqs
-faqs_id: Was ist MVP? 1
-name: Was ist MVP? 1
+faqs_id: Was ist MVP?
+name: Was ist MVP?
 slug: was-ist-mvp
 question: Was ist MVP?
 answer: MVP steht für ein minimal funktionsfähiges Produkt. Es ist eine Version
