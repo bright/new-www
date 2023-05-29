@@ -22,15 +22,16 @@ published: false
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Main features developed by Bright Inventions:
+## Von Bright Inventions entwickelte Hauptfunktionen:
 
-* Tracking physical response to standard and experimental therapy
-* Medication reminder
-* Accessibility – an easy way of adding medical information by patients with movement disorders
-* Advances statistics and reports for physicians
-* Gamification of the app
+* Verfolgung der körperlichen Reaktion auf Standard- und experimentelle Therapien
+Medikamentenerinnerung
+* Zugänglichkeit – eine einfache Möglichkeit, medizinische Informationen für Patienten mit Bewegungsstörungen hinzuzufügen
+* Erweiterte Statistiken und Berichte für Ärzte
+* Gamifizierung der App
 
-## Skills:
+
+## Fähigkeiten:
 
 iOS: Swift, RxSwift, Alamofire
 
@@ -38,44 +39,42 @@ Android: Kotlin, RxKotlin, Dagger, Retrofit
 
 Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
-## About the app for Parkinson's Patients
+## Über die App für Parkinson-Patienten
 
-Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
+Das Leben mit einer chronischen Krankheit wie Parkinson erfordert dem Patienten viele Veränderungen im Lebensstil auf. Für diejenigen, die gegen die Krankheit kämpfen, ist es von entscheidender Bedeutung, dass sie eine Möglichkeit haben, ihre allgemeinen Vitalwerte, die Einnahme von Medikamenten oder alle Symptome, auf die sie ihren Arzt aufmerksam machen müssen, leicht zu verfolgen.
 
-## Goal
+## Ziel
 
-Our long-time customer (a product design agency and early-stage project incubator), reached out to us with a ready-to-implement idea their customers had for an app. The goal of the project was to develop a mobile app that simplifies the day-to-day lives of patients suffering from Parkinson’s disease.
+Unser langjähriger Kunde (eine Produktdesignagentur und Projektinkubator in der Frühphase) wandte sich mit einer umsetzungsfertigen Idee seiner Kunden für eine App an uns. Ziel des Projekts war die Entwicklung einer mobilen App, die den Alltag von Parkinson-Patienten vereinfachen wird.
 
-Before reaching out to us, our clients had already designed a high-fidelity wireframe of the user interface. Now, they needed a technological partner to take ownership of the software development process.
+Bevor sie sich an uns wandten, hatten unsere Kunden bereits ein High-Fidelity-Wireframe der Benutzeroberfläche entworfen. Jetzt brauchten sie einen Technologiepartner, der den Softwareentwicklungsprozess übernimmt.
 
-And so, Bright Inventions was entrusted with the implementation of the entire system – the development of two apps (iOS and Android), as well as the entire backend.
+Und so wurde Bright Inventions mit der Umsetzung des gesamten Systems betraut – der Entwicklung zweier Apps (iOS und Android) sowie des gesamten Backends.
 
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients3.png)
 
-*It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+*Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Process of app development
-
-There were several challenges that we needed to address. Firstly, the app had to be inclusive of patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the interface needed to be legible, highly-intuitive, and minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
+## Ablauf der App-Entwicklung
+Es gab mehrere Herausforderungen, die wir angehen mussten. Erstens musste die App für Patienten mit Tremor oder anderen Bewegungsstörungen geeignet sein. Da ältere Menschen die Mehrheit der an Parkinson erkrankten Patienten ausmachen, musste die Benutzeroberfläche gut lesbar und äußerst intuitiv sein um die Wahrscheinlichkeit von Fehlern zu minimieren. Sollte es jedoch zu einer versehentlichen Eingabe kommen, muss die Schnittstelle auch die Möglichkeit bieten, die Aktion rückgängig zu machen.
 
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients1.png)
 
-*It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+*Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-During software development, our team noticed many features in the GUI which were too complex for such a user group. We then proposed a simpler solution for each, which was met with a positive response and was given a green light by the client.
+Während der Softwareentwicklung sind unserem Team viele Funktionen in der GUI aufgefallen, die für eine solche Benutzergruppe zu komplex waren. Wir haben dann jeweils eine einfachere Lösung vorgeschlagen, die positiv aufgenommen wurde und der Auftraggeber hat das grüne Licht gegeben.
 
-The single biggest challenge, however, was to fulfil the highest security and privacy standards to protect users. Given its medical nature, the app stored very sensitive data on patients’ health (namely, apart from information on pain or tremors, it also allowed users to note their sexual drive levels or gambling propensity).
+Die größte Herausforderung bestand jedoch darin, die höchsten Sicherheits- und Datenschutzstandards zum Schutz der Benutzer zu erfüllen. Aufgrund ihrer medizinischen Natur speicherte die App sehr empfindliche Daten über die Gesundheit der Patienten (neben Informationen zu Schmerzen oder Zittern ermöglichte sie den Benutzern auch, ihren sexuellen Antrieb oder ihre Spielneigung zu notieren).
 
-For this reason, Bright Inventions decided to break down the database into two – each stored in a different AWS services’ physical location.
+Aus diesem Grund hat sich Bright Inventions entschieden, die Datenbank in zwei Teile aufzuteilen, die jeweils an einem anderen physischen Standort der AWS-Dienste gespeichert sind.
 
-The first database stored basic user data, such as name or email address. The second database kept sensitive information, including medication intake or physical symptoms and sensations. Through this decision, we made sure that – in case of a data breach – the attacking party wouldn’t be able to access all the information. This way, there were virtually zero chances of matching symptoms or medication intake to specific patients’ names.
+Die erste Datenbank hat die grundlegende Benutzerdaten wie Name oder E-Mail-Adresse gespeichert. Die zweite Datenbank hat empfindliche Informationen enthalten, einschließlich der Einnahme von Medikamenten oder körperlichen Symptomen und Empfindungen. Durch diese Entscheidung haben wir sichergestellt, dass die angreifende Seite nicht in der Lage wäre, auf alle Informationen zuzugreifen. Auf diese Weise gab es praktisch keine Chance, Symptome oder Medikamenteneinnahme bestimmten Patientennamen zuzuordnen.
 
-## Result of cooperation
+## Ergebnis der Zusammenarbeit
+Insgesamt hat unsere Projektarbeit 5 Monate gedauert und bestand aus zwei Etappen. Die erste Phase endete mit dem Launch des MVP (Entwicklung dauerte 3 Monate). Die zweite Phase unserer Zusammenarbeit, die zu mehreren Iterationen des Systems geführt hat, erstreckte sich über einen Zeitraum von weiteren 2 Monaten.
 
-Altogether, our on the project work lasted for 5 months and was divided into two stages. The first phase ended with the launch of the MVP (development took place for 3 months). The second phase of our cooperation, which resulted in several iterations of the system, took place over a span of another 2 months.
-
-Upon the decision of the party that owned the app (so, our client’s client), the project was put on hold. At the moment, the next steps aren’t known, and the app isn’t available for download publicly.
+Nach der Entscheidung der Partei, der die App gehörte (also des Kunden unseres Kunden), wurde das Projekt auf Eis gelegt. Im Moment sind die nächsten Schritte nicht bekannt und die App steht nicht öffentlich zum Download bereit.
 
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients4.png)
 
-*It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+*Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
