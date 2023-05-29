@@ -27,23 +27,22 @@ published: false
 * Detaillierte Analysen des Benutzerverhaltens
 * A/B-Tests
 
-## Intro
+## Einleitung
 
-The mobile app supports mothers-to-be by offering them ways to stay fit and eat healthy during their nine-month journey. The curated content is personalised based on the user interests. Each week brings a new set of exercises, recipes and tips.
+Die mobile App unterstützt werdende Mütter, indem sie ihnen Möglichkeiten bietet, während ihrer neunmonatigen Reise fit zu bleiben und sich gesund zu ernähren. Die kuratierten Inhalte werden basierend auf den Nutzerinteressen personalisiert. Jede Woche bringt eine neue Reihe von Übungen, Rezepten und Tipps.
 
-## Process
+## Verfahren
+Die Agentur hinter der Schwangerschafts-App hatte in der Vergangenheit bereits bei mehreren Produkten mit Bright Inventions zusammengearbeitet. Wie zuvor hatte der Kunde Interviews mit den potenziellen Benutzern (werdenden Müttern) geführt, ihre Bedürfnisse analysiert und einen rudimentären webbasierten Proof of Concept eingerichtet, um ihre Entdeckungen zu verifizieren
 
-The agency behind the pregnancy app had worked with Bright Inventions in the past on several products already. As before the client had conducted interviews with the potential users (mothers-to-be), analysed their needs and set up a rudimentary web-based proof of concept in order to verify their discoveries.
+Sobald der Bedarf für das Produkt bestätigt war, engagierte sich Bright Inventions. Wir begannen mit einem Workshop in Berlin, um die Erwartungen und die erforderlichen technischen Ressourcen zu verstehen, die geschaffen werden mussten. Glücklicherweise waren zwei Personen, die von Bright Inventions an dem Produkt beteiligt waren, zu dieser Zeit werdende Väter, die ihre Partner intensiv unterstützt haben und die Notwendigkeit eines solchen Produkts gesehen haben.
 
-Once the need for the product was confirmed Bright Inventions got engaged. We kicked things off with a workshop in Berlin to understand the expectations and the required technical assets needed to be created. Luckily, two of the people engaged in the product from Bright Inventions side, were at the time fathers-to-be, closely supporting their partners and seeing the need for a product like that firsthand.
+Der Entwicklungsprozess war geprägt von Empathie. Der Aufbau eines solchen Produkts erfordert ein immenses Verständnis der Benutzeranforderungen. Kein Element der Benutzeroberfläche darf verwirrend, unklar oder schwer zu bedienen sein. Eine Anwendung für werdende Mütter muss die Dinge einfach, offensichtlich und unterhaltsam machen. Es muss auch Vertrauen aufbauen.
 
-The development process was all about empathy. Building a product like this requires an immense amount of understanding of the user needs. No user interface element can be confusing, unclear or hard to use. An application for mothers-to-be needs to make things easy, obvious and fun. It also needs to build trust.
+Da Bright Inventions auf der technischen Seite (Backend-System, iOS- und Android-Apps) arbeitete, hat die Agenturseite die Erstellung der Videos und Rezepte übernommen, die in der App für die zahlenden Kunden verfügbar gemacht werden sollten.
 
-As Bright Inventions worked on the technical side of things (backend system, iOS and Android apps) the agency side handled the creation of the videos and recipes that were to be made available in the app for the paying customers.
+Ein großer Teil der Arbeit bestand darin, eine Lösung zu bauen, die die Inhalte an die Benutzer anpasst. Durch die Beobachtung der Interaktionen der Benutzer mit den bereitgestellten Rezepten und Workouts (d. h. was sie als Favoriten markiert haben, was sie gekocht haben usw.) passt das System das Material an, um das Erlebnis zu personalisieren.
 
-A large part of the work was around building a solution that adapts the content to the users. By observing users' interactions with the provided recipes and workouts (i.e. what they marked as favourite, what they cooked, etc.) the system adjusts the material to personalise the experience.
-
-Technical challenges lied primarily in ensuring the parity of features across platforms and deep integration with the system calendar. Events had to be automatically added to the calendar, synchronised across user devices and scheduled push notification had to be triggered at the appropriate times.
+Technische Herausforderungen bestanden in erster Linie darin, die Parität der Funktionen auf allen Plattformen und die tiefe Integration mit dem Systemkalender sicherzustellen. Ereignisse mussten automatisch zum Kalender hinzugefügt, auf allen Benutzergeräten synchronisiert und geplante Push-Benachrichtigungen zu den entsprechenden Zeiten ausgelöst werden.
 
 ![Pregnancy App](/images/pregnancy_app1.png)
 
