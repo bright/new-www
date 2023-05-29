@@ -66,7 +66,7 @@ image_alt_our_service_mobile: agile workshops
 title_contact: let’s talk about your workshops
 description_contact: Every workshop is adjusted to clients' needs. Just let us
   know what you expect and we will find the best solution for you! Fill out the
-  form below. **We'll get back to you** **in 48 hours**.
+  form below. We'll get back to you in 48 hours.
 description_mdx: We live and breathe Agile. For almost a decade we have used
   Agile methodology to develop software projects for clients from various
   industries. We provide hands-on consulting, coaching, and Agile training for
