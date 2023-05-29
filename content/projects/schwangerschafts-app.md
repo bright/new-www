@@ -32,6 +32,7 @@ published: false
 Die mobile App unterstützt werdende Mütter, indem sie ihnen Möglichkeiten bietet, während ihrer neunmonatigen Reise fit zu bleiben und sich gesund zu ernähren. Die kuratierten Inhalte werden basierend auf den Nutzerinteressen personalisiert. Jede Woche bringt eine neue Reihe von Übungen, Rezepten und Tipps.
 
 ## Verfahren
+
 Die Agentur hinter der Schwangerschafts-App hatte in der Vergangenheit bereits bei mehreren Produkten mit Bright Inventions zusammengearbeitet. Wie zuvor hatte der Kunde Interviews mit den potenziellen Benutzern (werdenden Müttern) geführt, ihre Bedürfnisse analysiert und einen rudimentären webbasierten Proof of Concept eingerichtet, um ihre Entdeckungen zu verifizieren
 
 Sobald der Bedarf für das Produkt bestätigt war, engagierte sich Bright Inventions. Wir begannen mit einem Workshop in Berlin, um die Erwartungen und die erforderlichen technischen Ressourcen zu verstehen, die geschaffen werden mussten. Glücklicherweise waren zwei Personen, die von Bright Inventions an dem Produkt beteiligt waren, zu dieser Zeit werdende Väter, die ihre Partner intensiv unterstützt haben und die Notwendigkeit eines solchen Produkts gesehen haben.
