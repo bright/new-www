@@ -46,8 +46,8 @@ Technische Herausforderungen bestanden in erster Linie darin, die Parität der F
 
 ![Pregnancy App](/images/pregnancy_app1.png)
 
-## Launch
+## Start
 
-The application was launched for iOS and Android at the same time to the positive reviews of the first users. With the help of the agency’s marketing team a solid user-base has been achieved in a relatively short amount of time.
+Die Anwendung wurde aufgrund der positiven Bewertungen der ersten Benutzer gleichzeitig für iOS und Android gestartet. Mit Hilfe des Marketingteams der Agentur wurde in relativ kurzer Zeit eine solide Nutzerbasis erreicht.
 
-The app has spun out as a separate company and started to build their own internal development team. Bright Inventions supported in all of those efforts, helping to pick the right engineers and with all of the knowledge transfer.
+Die App hat sich als separates Unternehmen ausgegliedert und mit dem Aufbau eines eigenen internen Entwicklungsteams begonnen. Bright Inventions hat all diese Bemühungen unterstützt, half bei der Auswahl der richtigen Ingenieure und beim gesamten Wissenstransfer.
