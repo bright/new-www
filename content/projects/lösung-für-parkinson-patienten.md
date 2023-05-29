@@ -3,7 +3,7 @@ layout: project
 project_id: solution-parkinson-german
 title: Lösung für Parkinson-Patienten
 image: /images/app_for_parkinson_patients1.png
-social_media_previev: /images/parkinson_s_fb_preview.png
+social_media_previev: /images/fb_preview_case_study_parkinson_app_de.png
 social_media_previev_alt: Lösung für Parkinson-Patienten
 description: Ein persönliches digitales Tagebuch für Parkinson-Patienten. Mit
   der App können Benutzer ihre Symptome aufzeichnen und die Einnahme
