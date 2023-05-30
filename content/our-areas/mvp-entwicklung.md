@@ -50,7 +50,7 @@ bar_stack:
   - NestJS
 button: reden wir über MVP
 button2: reden wir über MVP
-published: true
+published: false
 show_case_study: true
 show_technology_stack: true
 title_team: lernen Sie unser MVP-Entwicklungsteam kennen
