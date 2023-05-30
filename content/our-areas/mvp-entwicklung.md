@@ -16,6 +16,7 @@ faqs:
   - Wie lange dauert die Entwicklung von MVP?
 project:
   - solution-parkinson-german
+  - Pregnancy App German
 layout: our-service
 meta_title: MVP-Entwicklung Agentur
 meta_description: Seit 2012 entwickeln wir MVPs für Startups, Unternehmen und
