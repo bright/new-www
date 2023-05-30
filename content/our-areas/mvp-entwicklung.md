@@ -35,6 +35,10 @@ highlighted_word: MVP
 image_our_service_desktop: /images/mvp_development_company_desktop_big.png
 image_our_service_mobile: /images/mvp_development_company_mobile_big.png
 image_alt_our_service: MVP-Entwicklung Agentur
+bullet_points:
+  - bewertung Ihrer Idee in 7 Tagen
+  - MVP in 3 bis 6 Monaten starten
+  - skalierung Ihres Unternehmens von MVP zu einer globalen Lösung
 bar_stack:
   - iOS
   - Android
