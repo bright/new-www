@@ -60,22 +60,23 @@ title_contact: in 48 Stunden eine kostenlose Beratung buchen
 description_contact: Erzählen Sie uns mehr über Ihr Projekt oder Ihre Idee für
   eine App. Füllen Sie das Formular aus.
 ---
-## Is MVP right for your business?
+## ist MVP das Richtige für Ihr Unternehmen?
 
-MVP stands for minimum viable product. It is the first version of your product containing only key features. MVP development is a perfect solution for you if:
+MVP steht für Minimum Viable Product, was so viel wie "minimal funktionsfähiges Produkt" bedeutet. Es ist die erste Version Ihres Produkts, die nur die wichtigsten Funktionen enthält. Die MVP-Entwicklung ist eine perfekte Lösung für Sie, wenn:
 
-### you represent startup
+### sie vertreten die Interessen der Startups
 
-Are you a startup with the idea for a software product? Building MVP is a low-cost solution to launch the first version of your product that may help you find first clients and investors. Additionally, **MVP development helps quickly validate your business idea** thanks to actual users feedback.
+Sind Sie ein Startup mit der Idee für ein Softwareprodukt? Die MVP ist eine kostengünstige Lösung, um die erste Version Ihres Produkts auf den Markt zu bringen, die Ihnen helfen kann, erste Kunden und Investoren zu finden. Darüber hinaus hilft die MVP-Entwicklung dank des Feedbacks der tatsächlichen Benutzer, Ihre Geschäftsidee schnell zu beurteilen.
 
-### you represent a corporation
+### sie vertreten ein Unternehmen
 
-MVPs aren’t reserved only for startups. They can be the right solution for greater organisations as well. Developing MVPs for corporations speed things up. It helps to effortlessly **build a product with crucial features that may be presented to the stakeholders**. 
+MVPs sind nicht nur Startups vorbehalten. Sie können auch für größere Organisationen die richtige Lösung sein. Die Entwicklung von MVP für Unternehmen beschleunigt die Arbeit. Es hilft, mühelos ein Produkt mit entscheidenden Merkmalen zu erstellen, das den Stakeholdern präsentiert werden kann.
 
-### you represent a consultancy agency
+### sie vertreten eine Beratungsagentur
 
-Do you want to develop MVPs to distribute them to your clients? We are happy to assist you. We bring to the table years of experience in software development. Our custom software development approach based on Agile methodologies will result in developing high-quality MVPs.
+Haben Sie vielleicht eine Interesse um MVP an Ihre Kunden bekannt zu machen? Wir helfen Ihnen gerne weiter. Wir bringen jahrelange Erfahrung in der Softwareentwicklung mit. Unser kundenspezifischer Softwareentwicklungsansatz, der auf agilen Methoden basiert, führt zur Entwicklung hochwertiger MVP.
 
-### you have an idea for a solution and want to verify its potential
+### sie haben eine Idee für eine Lösung und möchten deren Potenzial prüfen
 
-An idea is only the beginning of the software development process. Building an MVP app means a short time to market. Thanks to nimble development you can **develop your product before your competition**. We can also organise **product workshops** for your team to jointly evaluate the business potential of your idea. We will help you on every step of the development path.
+Sie haben eine Idee für eine Lösung und möchten deren Potenzial prüfen
+Eine Idee ist nur der Anfang des Softwareentwicklungsprozesses. Das Erstellen einer MVP-App bedeutet eine kurze Markteinführungszeit. Dank flinker Entwicklung können Sie Ihr Produkt vor Ihrer Konkurrenz entwickeln. Wir können auch Produktworkshops für Ihr Team organisieren, um gemeinsam das Geschäftspotenzial Ihrer Idee zu beurteilen. Wir begleiten Sie auf jedem Schritt des Entwicklungsweges.
