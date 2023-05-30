@@ -14,7 +14,6 @@ faqs:
   - Wie viel kostet es, eine MVP-App zu erstellen?
   - Was ist MVP in der agilen Entwicklung?
   - Was sind MVP Software-Entwicklungsbeispiele?
-  - Wie lange dauert die Entwicklung von MVP?
 project:
   - solution-parkinson-german
   - ""
