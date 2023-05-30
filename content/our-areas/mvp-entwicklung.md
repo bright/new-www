@@ -16,7 +16,6 @@ faqs:
   - Was sind MVP Software-Entwicklungsbeispiele?
 project:
   - solution-parkinson-german
-  - ""
 layout: our-service
 meta_title: MVP-Entwicklung Agentur
 meta_description: Seit 2012 entwickeln wir MVPs für Startups, Unternehmen und
