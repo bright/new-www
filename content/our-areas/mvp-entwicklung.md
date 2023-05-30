@@ -13,7 +13,7 @@ faqs:
   - Was macht ein MVP-Entwicklungsunternehmen?
   - Wie viel kostet es, eine MVP-App zu erstellen?
   - Was ist MVP in der agilen Entwicklung?
-  - Was sind MVP Software-Entwicklungsbeispiele?
+  - Wie lange dauert die Entwicklung von MVP?
 project:
   - solution-parkinson-german
 layout: our-service
@@ -29,7 +29,7 @@ short_description: Erstellen Sie ein MVP, um die Markteinführungszeit zu
   entwickelt. Lassen Sie uns an Ihrem MVP arbeiten.
 order: 99
 title: Starten Sie Ihre Idee mit der MVP- Entwicklungsagentur
-highlighted_word: MVP
+highlighted_word: MVP- Entwicklungsagentur
 image_our_service_desktop: /images/mvp_development_company_desktop_big.png
 image_our_service_mobile: /images/mvp_development_company_mobile_big.png
 image_alt_our_service: MVP-Entwicklung Agentur
