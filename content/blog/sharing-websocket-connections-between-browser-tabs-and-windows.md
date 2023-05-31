@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-05-31T09:45:39.811Z
 title: Sharing WebSocket Connections between Browser Tabs and Windows
 layout: post
 image: /images/websocket_blog_cover-1-.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -31,7 +31,7 @@ To implement WebSocket connection sharing between browser tabs and windows, we'l
 
 ### Create a shared worker
 
-Start by creating a shared worker using the Shared Worker API. This worker will act as the central entity responsible for managing the WebSocket connection. Add a message handler to receive data from the worker.
+Start by creating a shared worker using the Shared Worker API. This worker will act as the central entity responsible for managing the WebSocket connection. Add a message handler to receive data from the worker and do whatever you please with it. 
 
 ```typescript
 // No bundler
@@ -48,9 +48,9 @@ worker.port.start();
 
 ### Establish the WebSocket connection
 
-Inside the shared worker, create a WebSocket object and establish a connection with the server. This connection will be shared among all browser tabs and windows. Add a connection handler and store ports in an array.
+Inside the shared worker, create a WebSocket object and establish a connection with the server. This connection will be shared among all browser tabs and windows. Add a connection handler and store ports in an array. It's also crucial to forward each received message to all MessagePort objects.
 
-```
+```typescript
 const ports: MessagePort[] = [];
 const ws = new WebSocket('wss://some-url.com');
 
@@ -65,6 +65,8 @@ ws.addEventListener('message', (event: MessageEvent): void => {
   });
 });
 ```
+
+That's it. You will now be able to share the connection and receive messages simultaneously in all tabs and windows.
 
 ## Challenges and solutions: memory management
 
@@ -120,7 +122,7 @@ if (port.isAlive()) {
 
 **Another solution is to send a special control message in the body of the `onbeforeunload` event handler**. Keep in mind this method isn't reliable and browser may choose to ignore the message and don't pass it to the worker at all.
 
-```
+```typescript
 // Browser
 window.addEventListener('onbeforeunload', (): void => {
   worker.port.sendMessage('UNLOAD');
