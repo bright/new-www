@@ -50,7 +50,7 @@ worker.port.start();
 
 Inside the shared worker, create a WebSocket object and establish a connection with the server. This connection will be shared among all browser tabs and windows. Add a connection handler and store ports in an array.
 
-```
+```typescript
 const ports: MessagePort[] = [];
 const ws = new WebSocket('wss://some-url.com');
 
@@ -120,7 +120,7 @@ if (port.isAlive()) {
 
 **Another solution is to send a special control message in the body of the `onbeforeunload` event handler**. Keep in mind this method isn't reliable and browser may choose to ignore the message and don't pass it to the worker at all.
 
-```
+```typescript
 // Browser
 window.addEventListener('onbeforeunload', (): void => {
   worker.port.sendMessage('UNLOAD');
