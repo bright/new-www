@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-05-31T09:45:39.811Z
 title: Sharing WebSocket Connections between Browser Tabs and Windows
 layout: post
 image: /images/websocket_blog_cover-1-.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
