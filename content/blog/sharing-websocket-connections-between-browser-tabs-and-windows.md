@@ -17,20 +17,19 @@ WebSocket connections are like special communication channels that allow web bro
 
 But don't worry! In this blog post, we'll explore a solution that lets you optimize WebSocket usage when your users open your application in different tabs or windows. By sharing WebSocket connections between those tabs and windows, we can make your web application work more efficiently and smoothly. So, let's dive in and discover some helpful strategies for achieving seamless WebSocket connection sharing between browser tabs and windows.
 
+<div class="image"><img src="/images/websocket_blog_cover-1-.png" alt="WebSocket Connections" title="WebSocket Connections"  /> </div>
 
-# Introducing Shared Workers
+## Introducing Shared Workers
 
 In order to achieve WebSocket connection sharing between browser tabs and windows, we can leverage the power of web workers. Web workers are essentially separate threads, totally independent of other scripts with no access to the DOM. They can execute tasks in the background, what makes them particularly useful for performing complex computations and preventing the web page from freezing or becoming unresponsive.
 
 A shared worker is a special type of web worker that can be shared between multiple browser tabs or windows. Unlike regular web workers, which are dedicated to a single web page, shared workers exist independently of any specific web page or user interface. They allow multiple browser contexts, such as tabs or windows, to communicate and share resources. By utilizing shared workers, we can create a persistent entity that manages WebSocket connections and facilitates their sharing across different browser contexts. Also, we don’t have to worry about closing the connection. Shared workers will stop to exist if there are no tabs or windows referencing them anymore, so the connection will be automatically closed.
 
-
-# Implementing WebSocket connection sharing with Shared Workers
+## Implementing WebSocket connection sharing with Shared Workers
 
 To implement WebSocket connection sharing between browser tabs and windows, we'll follow these steps:
 
 Create a shared worker: Start by creating a shared worker using the Shared Worker API. This worker will act as the central entity responsible for managing the WebSocket connection. Add a message handler to receive data from the worker.
-
 
 ```typescript
 // No bundler
@@ -63,7 +62,7 @@ ws.addEventListener('message', (event: MessageEvent): void => {
 });
 ```
 
-# Challenges and solutions: memory management
+## Challenges and solutions: memory management
 
 While shared workers provide an efficient solution, there is one challenge to address: memory management. Since there is no built-in mechanism to determine if a Message Port is still active or not, references may accumulate over time, potentially leading to memory leaks. To mitigate this issue, we can leverage WeakRefs. By using WeakRefs, we can check if a Message Port has been garbage collected, ensuring efficient resource utilization.
 
@@ -138,7 +137,7 @@ addEventListener('connect', (event: MessageEvent): void => {
 });
 ```
 
-# Conclusion
+## Conclusion
 
 In this blog post, we've explored the concept of sharing WebSocket connections between browser tabs and windows. By leveraging shared workers, we can optimize resource usage and enhance the performance of web applications in multi-tab or multi-window scenarios.
 
