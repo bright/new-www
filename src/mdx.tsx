@@ -5,6 +5,12 @@ import { BrightInstagramEmbed } from './instagram-embed'
 import { GiphyEmbed } from './giphy-embed'
 import { BrightTwitterEmbed } from './twitter-embed'
 import { EbookDynamic } from './ebook-dynamic'
+import { TitleWithIcon } from './title-with-icon'
+import { Gallery } from './gallery-icons'
+import { SliderText } from './slider-text'
+import { AppStore } from './app-store'
+import { AnchorLink } from './button-anchor'
+
 
 export const mdxComponents = {
   YouTubeEmbed: BrightYouTubeEmbed,
@@ -12,6 +18,13 @@ export const mdxComponents = {
   TwitterEmbed: BrightTwitterEmbed,
   GiphyEmbed: GiphyEmbed,
   EbookDynamic: EbookDynamic,
+  TitleWithIcon: TitleWithIcon,
+  Gallery: Gallery,
+  SliderText: SliderText,
+  AppStore: AppStore,
+  AnchorLink: AnchorLink
+
+
 }
 
 export const MDXComponentsWrapper = ({ children }: PropsWithChildren<any>) => (

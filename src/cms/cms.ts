@@ -21,6 +21,11 @@ import { GiphyEmbedCmsEditorComponent } from '../giphy-embed.cms'
 import { InstagramEmbedCmsEditorComponent } from '../instagram-embed.cms'
 import { TwitterEmbedCmsEditorComponent } from '../twitter-embed.cms'
 import { EbookCmsEditorComponent } from '../ebook.cms'
+import { TitleWithIconCmsEditorComponent } from '../title-with-icon.cms'
+import { GalleryCmsEditorComponent } from '../gallery.cms'
+import { SliderCmsEditorComponent } from '../slider.cms'
+import { AppStoreCmsEditorComponent } from '../app-store.cms'
+import { AnchorLinkCmsEditorComponent } from '../button.cms'
 
 applyFixForJumpingCursorIssue()
 
@@ -37,3 +42,8 @@ CMS.registerEditorComponent(GiphyEmbedCmsEditorComponent)
 CMS.registerEditorComponent(InstagramEmbedCmsEditorComponent)
 CMS.registerEditorComponent(TwitterEmbedCmsEditorComponent)
 CMS.registerEditorComponent(EbookCmsEditorComponent)
+CMS.registerEditorComponent(TitleWithIconCmsEditorComponent)
+CMS.registerEditorComponent(GalleryCmsEditorComponent)
+CMS.registerEditorComponent(SliderCmsEditorComponent)
+CMS.registerEditorComponent(AppStoreCmsEditorComponent)
+CMS.registerEditorComponent(AnchorLinkCmsEditorComponent)
