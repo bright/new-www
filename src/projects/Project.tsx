@@ -1,95 +1,96 @@
 import React from 'react'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
-import styled from 'styled-components'
 import { Page } from '../layout/Page'
-import BackButton from '../components/subcomponents/BackButton'
-import variables from '../styles/variables'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
+import { CustomSection, CustomSectionTitle, FlexWrapper } from '../components/shared'
+import { useWindowSize } from '../components/utils/use-windowsize'
+import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
+import TeamMembers from '../components/subcomponents/TeamMembers'
+import { Container, ProjectArticle, ProjectLink, ProjectTextRegular, SectionContact, Title, TopProjectArticle } from './Project.styled'
+import AchievementsProject from '../components/shared/AchievementsProject'
+import { Projects } from '../components/home/Projects'
+import { routeLinks } from '../config/routing'
+import { Contact } from '../components/shared/Contact'
 
-const Container = styled.div`
-  max-width: 960px;
 
-  && .content {
-    font-size: ${variables.pxToRem(20)};
-    font-weight: 400;
-    @media ${variables.device.mobile} {
-      font-size: ${variables.pxToRem(16)};
-    }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    li,
-    .title,
-    .subtitle,
-    strong {
-      color: ${variables.color.heading};
-    }
-    h2 {
-      font-size: ${variables.pxToRem(40)};
-      @media ${variables.device.laptop} {
-        font-size: ${variables.pxToRem(34)};
-      }
-      @media ${variables.device.mobile} {
-        font-size: ${variables.pxToRem(22)};
-      }
-    }
-    h3 {
-      font-size: ${variables.pxToRem(28)};
-      @media ${variables.device.laptop} {
-        font-size: ${variables.pxToRem(25)};
-      }
-      @media ${variables.device.mobile} {
-        font-size: ${variables.pxToRem(18)};
-      }
-    }
-    p,
-    li {
-      font-size: ${variables.pxToRem(20)};
-      font-weight: 400;
 
-      @media ${variables.device.mobile} {
-        font-size: ${variables.pxToRem(16)};
-      }
-    }
-  }
-`
 
-const Title = styled.h1`
-  font-size: ${variables.pxToRem(54)};
-  color: ${variables.color.heading};
-  font-weight: 900;
-  @media ${variables.device.laptop} {
-    font-size: ${variables.pxToRem(44)};
-  }
-  @media ${variables.device.tabletXL} {
-    font-size: ${variables.pxToRem(38)};
-  }
-  @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(32)};
-    font-weight: 700;
-  }
-`
 
 const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter } = mdx
-  const { title, description, social_media_previev_alt: alt, social_media_previev: image } = frontmatter
+  const { title,
+    description,
+    social_media_previev_alt: alt,
+    social_media_previev: image,
+    team_members,
+    title_team,
+    bar_achievements,
+    hero_image,
+    hero_image_alt,
+    our_service,
+    title_case_study,
+    title_contact,
+    description_contact,
+    show_case_study,
+    show_team } = frontmatter
+  const { width } = useWindowSize()
+  const breakpointTablet = 992
+  const heroImage = getImage(hero_image)
 
   return (
     <Page>
       <HelmetMetaData title={title} description={description} type='product' image={image} alt={alt} />
-      <Container className='container' id='project'>
-        <article className='section'>
+      <Container id='project'>
+        <TopProjectArticle >
+          <CustomSection paddingProps='0 0 35px' paddingLaptop='0 0 35px' paddingTabletXL='0 0 35px' paddingMobileProps='0 0 63px'>
+            <FlexWrapper desktopGap='10px' desktopContent='flex-end' desktopItems='flex-end' tabletDirection='column'>
+              {our_service && our_service.map(({ frontmatter: { name, slug } }: { frontmatter: { name: string; slug: string } }, index: number) => (
+                <ProjectLink key={index} to={routeLinks.ourAreas({ service: slug })}>
+                  {name}
+                </ProjectLink>
+              ))}
+            </FlexWrapper>
+          </CustomSection>
           <Title>{title}</Title>
-          <div className='content'>{description}</div>
-          <div className='content'>{children}</div>
-          <BackButton url='/projects' label='Projects' arrowColor={''} className={''} />
-        </article>
+          <ProjectTextRegular >{description}</ProjectTextRegular>
+        </TopProjectArticle>
+        <GatsbyImage image={heroImage} alt={hero_image_alt} />
+
       </Container>
+      <AchievementsProject achievements={bar_achievements} />
+      <Container id='project'>
+        <ProjectArticle >
+          <div className='content'>{children}</div>
+        </ProjectArticle>
+
+      </Container>
+      {show_team && <CustomSection paddingProps='11.25rem 0 2rem' paddingLaptop='124px 96px 0' paddingMobileProps='0 1.125rem 0rem'>
+        <CustomSectionTitle mobileMargin='3rem 0 2.25rem' margin='0rem 0 6.5625rem ' laptopMargin='0 0 5.1875rem'>
+          {title_team}
+        </CustomSectionTitle>
+        <div>{width < breakpointTablet && <TeamMemebersSwiper authorIdsArray={team_members} />}</div>
+        <div>
+          {width >= breakpointTablet && <TeamMembers authorIdsArray={team_members} isOurServiceTemplate={true} />}
+        </div>
+      </CustomSection>}
+      {show_case_study && <div>
+        <CustomSectionTitle mobileMargin='64px 0 30px' >{title_case_study}</CustomSectionTitle>
+        <Projects
+          isSelectedTag={false}
+
+        />
+      </div>}
+      <SectionContact>
+        <Contact
+          title={title_contact}
+          subtitle={description_contact}
+          isOurServiceTemplate={true}
+          formButton='Business Contact Form Button'
+          actionFormButton='Click Submit Business Form'
+        />
+      </SectionContact>
     </Page>
   )
 }
@@ -97,14 +98,38 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
 export const pageQuery = graphql`
   query($id: String!) {
     mdx(id: { eq: $id }) {
+
       frontmatter {
         slug
         title
         description
+        hero_image_alt
         social_media_previev_alt
+        title_case_study
+        title_contact
+        description_contact
+        show_team
+        show_case_study
         social_media_previev {
           childImageSharp {
             gatsbyImageData
+          }
+        }
+        hero_image {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
+        team_members
+        title_team
+        bar_achievements {
+          label
+          number
+        }
+        our_service {
+          frontmatter {
+            name
+            slug
           }
         }
       }
