@@ -10,6 +10,7 @@ import ScrollToTop from '../subcomponents/ScrollToTop'
 import { CustomTextRegular } from './../shared/index.styled'
 import { BehanceIcon } from '../icons/Behance.icon'
 import { DribbleIcon } from './../icons/Dribble.icon'
+import { useLocation } from '@reach/router';
 
 export const ProjectCustomSection = styled(CustomSection)`
   & .success-story-wrapper {
@@ -291,6 +292,7 @@ interface ProjectsProps {
   projectsArray?: Array<ProjectModel>
   isTagsEmpty?: boolean
   isSelectedTag?: boolean
+
 }
 
 export const Projects: React.FC<ProjectsProps> = ({
@@ -298,6 +300,7 @@ export const Projects: React.FC<ProjectsProps> = ({
   projectsArray = [],
   isTagsEmpty,
   isSelectedTag = true,
+
 }) => {
   let projects: Array<ProjectModel> = []
 
@@ -310,10 +313,12 @@ export const Projects: React.FC<ProjectsProps> = ({
   } else {
     projects = projectsArray!
   }
+  const { pathname } = useLocation()
+  const isHomePage = pathname == '/'
 
   return (
     <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem'>
-      {isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
+      {isHomePage && isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
           <span>visit our online portfolio:</span>
