@@ -207,15 +207,49 @@ collections:
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     identifier_field: name
     fields: # The fields for each document, usually in front matter
+
+      - {
+          label: 'TeamMembers',
+          name: 'team_members',
+          widget: 'relation',
+          collection: 'members',
+          searchFields: ['name'],
+          valueField: 'author_id',
+          displayFields: ['name', 'author_id'],
+          multiple: true,
+        }
+      - {
+          label: 'Our Service',
+          name: 'our_service',
+          widget: 'relation',
+          collection: 'our-areas',
+          searchFields: ['name'],
+          valueField: 'our_service_id',
+          displayFields: ['name', 'our_service_id'],
+          multiple: true,
+        }
+
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'project' }
       - { label: 'Project-id', name: 'project_id', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Hero Image', name: 'hero_image', widget: 'image' }
+      - { label: 'Hero Image Alt', name: 'Hero Image_alt', widget: string }
       - { label: 'Social Media Previev', name: 'social_media_previev', widget: 'image' }
       - { label: 'Social Media Previev Alt', name: 'social_media_previev_alt', widget: string }
-      - { label: 'Description', name: 'description', widget: 'text' }
+      - label: 'Achievements' 
+        name: 'bar_achievements' 
+        widget: 'list'
+        fields: 
+          - { label: 'Number', name: 'number', widget: 'number' }
+          - { label: 'Label', name: 'label', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
+      - { label: 'Title Team', name: 'title_team', widget: 'string' }
+      - { label: 'Title Case Study', name: 'title_case_study', widget: 'string' }
+      - { label: 'Title Contact', name: 'title_contact', widget: 'string' }
+      - { label: 'Description Contact', name: 'description_contact', widget: 'markdown' }
       - {
           label: 'Order',
           name: 'order',
@@ -228,6 +262,8 @@ collections:
         }
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
+      - { label: 'Show team', name: 'show_team', widget: 'boolean', default: true }
+      - { label: 'Show Case Study', name: 'show_case_study', widget: 'boolean', default: true }
       - { label: 'Show on homepage', name: 'show on homepage', widget: 'boolean', default: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
 
@@ -269,7 +305,7 @@ collections:
           multiple: true,
         }
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'our-service' }
-
+      - { label: 'Our Service Id', name: 'our_service_id', widget: 'string' }
       - {
           label: 'Meta title',
           name: 'meta_title',
