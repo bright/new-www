@@ -252,7 +252,7 @@ export default function Template({
 
       {show_case_study && (
         <div>
-          <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem'>{title_case_study}</CustomSectionTitle>
+          <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem' laptopMargin='64px 0'>{title_case_study}</CustomSectionTitle>
           <Projects
             isFetchProject={false}
             projectsArray={projects.map((el: { frontmatter: ProjectModel }) => el.frontmatter)}
