@@ -12,24 +12,24 @@ export const DevelopmentAreasWrapper = styled.div({
 })
 
 export const DevelopmentAreasContainer = styled.div`
-  display: flex;
-  justify-content: space-around,
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: ${variables.pxToRem(65)};
-  @media ${variables.device.laptop} {
-    gap: ${variables.pxToRem(56)}
-  }
-  @media ${variables.device.tabletXL} {
-    gap: ${variables.pxToRem(45)}
-  }
-  @media ${variables.device.tablet} {
-    gap: ${variables.pxToRem(42)}
-  }
-  @media ${variables.device.mobile} {
-    gap: ${variables.pxToRem(32)}
-  }
-`
+         display: flex;
+         justify-content: space-around;
+         flex-direction: row;
+         flex-wrap: wrap;
+         gap: ${variables.pxToRem(65)};
+         @media ${variables.device.laptop} {
+           gap: ${variables.pxToRem(56)};
+         }
+         @media ${variables.device.tabletXL} {
+           gap: ${variables.pxToRem(45)};
+         }
+         @media ${variables.device.tablet} {
+           gap: ${variables.pxToRem(42)};
+         }
+         @media ${variables.device.mobile} {
+           gap: ${variables.pxToRem(32)};
+         }
+       `
 
 export const SectionText = styled(TextRegular)({
   marginTop: '60px',

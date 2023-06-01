@@ -394,23 +394,22 @@ export const CustomPageDescription = styled(PageDescription)<{ fontSize?: string
 `
 
 export const BlackButton = styled(Button)`
-  box-sizing: border-box;
-  padding: 1rem 4rem;
-  background: #000000;
-  font: normal normal 700 18px/22px ${font.montserrat};
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  transition: all 0.25s;
-  text-align: center;
-  width: fit-content;
+         box-sizing: border-box;
+         padding: 1rem 4rem;
+         background: #000000;
+         font: normal normal 700 18px/22px ${font.montserrat};
+         color: #fff;
+         cursor: pointer;
+         border: none;
+         transition: all 0.25s;
+         text-align: center;
+         width: fit-content;
 
-  &:hover {
-    background: ${variables.color.primary};
-    color: #fff;
-    justify-content: ;
-  }
-`
+         &:hover {
+           background: ${variables.color.primary};
+           color: #fff;
+         }
+       `
 export const FlexWrapper = styled.div<{
   desktopDirection?: string
   desktopContent?: string
