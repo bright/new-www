@@ -20,8 +20,7 @@ project:
 layout: our-service
 meta_title: MVP-Entwicklung Agentur
 meta_description: Seit 2012 entwickeln wir MVPs für Startups, Unternehmen und
-  Agenturen in Großbritannien, Deutschland, Israel und weltweit. Kontaktieren
-  Sie uns jetzt!
+  Agenturen in Deutschland, Großbritannien, Israel. Kontaktieren Sie uns jetzt!
 our_services_icon: /images/mvp_development.png
 name: MVP-Entwicklung
 slug: mvp-entwicklung-agentur
