@@ -25,6 +25,7 @@ project:
   - relevo
   - circles
 layout: our-service
+our_service_id: cloud services
 meta_title: Cloud Computing Services
 meta_description: We are a software development agency from Poland offering
   cloud services based on AWS. We assist clients with cloud migration and

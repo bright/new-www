@@ -25,6 +25,7 @@ project:
   - xpomaker
   - bright-treasury
 layout: our-service
+our_service_id: MVP development
 meta_title: MVP Development Agency
 meta_description: Since 2012 we have developed MVPs for clients from the UK,
   Germany, Israel and more. We build MVPs for startups, corporations and digital

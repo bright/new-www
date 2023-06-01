@@ -23,6 +23,7 @@ project:
   - digitized-questionnaires
   - xpomaker
 layout: our-service
+our_service_id: agile workshops
 meta_title: Agile Workshops for Teams
 meta_description: Since 2012 we have developed over 50 software solutions with
   Agile methodology. We provide Agile training for businesses. Schedule an

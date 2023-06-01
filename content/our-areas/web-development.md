@@ -24,6 +24,7 @@ project:
   - relevo
   - smarthelp
 layout: our-service
+our_service_id: web development
 meta_title: Web Development Company
 meta_description: We are a web development company from Poland. We have built
   web apps, web services and websites for clients from USA, UK, Israel and more.

@@ -23,6 +23,7 @@ project:
   - vcare
   - Practi JET POS Mobile
 layout: our-service
+our_service_id: mobile app development
 meta_title: Mobile App Development
 meta_description: We are a mobile app development company from Poland. We
   specialise in building native apps for iOS and Android. Looking for app

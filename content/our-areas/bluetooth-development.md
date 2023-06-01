@@ -22,6 +22,7 @@ project:
   - Practi JET POS
   - Practi JET POS Mobile
 layout: our-service
+our_service_id: bluetooth development
 meta_title: Bluetooth Development
 meta_description: We are a Bluetooth app development company based in Poland.
   Our Android & iOS development teams specialize in Bluetooth Low Energy and
