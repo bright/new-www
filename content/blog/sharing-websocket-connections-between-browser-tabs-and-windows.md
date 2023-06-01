@@ -8,7 +8,7 @@ date: 2023-05-31T09:45:39.301Z
 meaningfullyUpdatedAt: 2023-05-31T09:45:39.811Z
 title: Sharing WebSocket Connections between Browser Tabs and Windows
 layout: post
-image: /images/websocket_blog_cover-1-.png
+image: /images/sharing_websocket_blog_cover.png
 hidden: false
 comments: true
 published: true
@@ -120,7 +120,7 @@ if (port.isAlive()) {
 }
 ```
 
-**Another solution is to send a special control message in the body of the `onbeforeunload` event handler**. Keep in mind this method isn't reliable and browser may choose to ignore the message and don't pass it to the worker at all.
+**Another solution is to send a special control message in the body of the `onbeforeunload` event handler**. Keep in mind this method isn't reliable and browser may choose to ignore the message and not pass it to the worker at all.
 
 ```typescript
 // Browser
