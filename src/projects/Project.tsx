@@ -56,7 +56,7 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
           <Title>{title}</Title>
           <ProjectTextRegular >{description}</ProjectTextRegular>
         </TopProjectArticle>
-        <GatsbyImage image={heroImage} alt={hero_image_alt} />
+        <GatsbyImage image={heroImage!} alt={hero_image_alt} />
 
       </Container>
       <AchievementsProject achievements={bar_achievements} />
