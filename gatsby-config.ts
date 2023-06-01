@@ -325,8 +325,9 @@ const gatsbyConfig: GatsbyConfig = {
   mapping: {
     'Mdx.frontmatter.faqs': `Mdx.frontmatter.faqs_id`,
     'Mdx.frontmatter.project': `Mdx.frontmatter.project_id`,
+    'Mdx.frontmatter.our_service': `Mdx.frontmatter.our_service_id`,
   },
   graphqlTypegen: true,
-  trailingSlash: 'always' // a default in Gatsby 5
+  trailingSlash: 'always', // a default in Gatsby 5
 }
 export default gatsbyConfig
