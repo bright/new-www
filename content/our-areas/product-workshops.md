@@ -19,6 +19,7 @@ faqs:
 project:
   - bright-treasury
 layout: our-service
+our_service_id: product workshops
 meta_title: Product workshops for business
 meta_description: Since 2012 we have built software for over 40 businesses. At
   product workshops we will establish a product development plan to meet your

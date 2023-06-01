@@ -27,6 +27,7 @@ project:
   - Practi JET POS
   - digitized-questionnaires
 layout: our-service
+our_service_id: IoT development
 meta_title: IoT Development Company
 meta_description: We are an IoT software company from Poland. We have developed
   IoT solutions for clients from Israel, the UK and the USA. Looking for IoT
