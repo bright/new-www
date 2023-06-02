@@ -19,17 +19,18 @@ published: false
 ---
 ![Healthcare app development](/images/therapy_app_mockup.png)
 
-*It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+*Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Main features:
+## Haupteigenschaften:
 
-* Therapist module (user panel)
-* Patient module (user panel)
-* Data tracking system
-* Custom animations
-* Background connection between patient's and therapist's devices
+* Therapeutenmodul(Benutzerpanel)
+* Patientenmodul(Benutzerpanel)
+* Datenverfolgungssystem
+* Benutzerdefinierte Animationen
+* Hintergrundverbindung zwischen den Geräten des Patienten und des Therapeuten
 
-## Skills:
+
+## Fähigkeiten:
 
 **iOS:** Swift, RxSwift, Alamofire
 
@@ -41,37 +42,38 @@ published: false
 
 ## Intro
 
-At some point in our lives, either we ourselves or our loved ones will require physiotherapy to get back on our feet. However, there are many factors that influence whether this will be a stress-free and effective process.\
-With this in mind, our client created an app that supports therapists and patients on their way to a fast (and lasting!) recovery.
+Irgendwann in unserem Leben benötigen entweder wir selbst oder unsere Lieben eine Physiotherapie, um wieder auf die Beine zu kommen. Es gibt jedoch viele Faktoren, die Einfluss darauf haben, ob dies ein stressfreier und effektiver Prozess sein wird.
+
+Vor diesem Hintergrund hat unser Kunde eine App entwickelt, die Therapeuten und Patienten auf dem Weg zu einer schnellen (und nachhaltigen!) Genesung unterstützt.
 
 ![Mobile Therapy App](/images/mobile_therapy_app2.jpg)
 
-*It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+*Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde*
 
-## Goal
+## Ziel
 
-Our client, a product design agency and an early-stage project incubator, has turned to us with a ready-to-implement idea for an app. Before reaching out to Bright Inventions, they had already spent months validating their concept by observing physiotherapy sessions. This resulted in a comprehensive plan for an app that would solve the biggest challenges patients and therapists face.
+Unser Kunde, eine Produktdesignagentur und Inkubator für Projekte in der Frühphase, hat sich mit einer umsetzungsreifen Idee für eine App an uns gewandt. Bevor sie sich an Bright Inventions wandten, hatten sie bereits Monate damit verbracht, ihr Konzept festzustellen, indem sie Physiotherapiesitzungen beobachteten. Daraus entstand ein umfassender Plan für eine App, die die größten Herausforderungen von Patienten und Therapeuten lösen sollte.
 
-**These include**
+**Diese beinhalten**
 
-* Limited time therapists have for each patient
-* Patients tending to forget how to perform their exercises properly
-* Patients not exercising regularly enough
-* Exercises recommended by therapists are often repetitive among patients.
+* Begrenzte Zeit, die Therapeuten für jeden Patienten haben
+* Patienten neigen dazu, zu vergessen, wie sie ihre Übungen richtig ausführen
+* Patienten, die sich nicht regelmäßig genug bewegen
+* Übungen, die von Therapeuten empfohlen werden, wiederholen sich oft bei Patienten.
 
-Our client also had a high-fidelity wireframe of the app, and entrusted us with the implementation of the entire system, comprised of:
+Unser Kunde hatte auch ein High-Fidelity-Wireframe der App und beauftragte uns mit der Implementierung des gesamten Systems, bestehend aus:
 
-\- iOS and Android apps
+* iOS und Android apps,
 
-\- Backend
+* Backend,
 
-\- Content Management System (used, for instance, for storing step-by-step video tutorials for patients)
+* Content Management System (verwendet zum Beispiel zum Speichern von Schritt-für-Schritt-Video-Tutorials für Patienten),
 
-\- An admin panel for therapists.
+* Ein Admin-Panel für Therapeuten.
 
 ![Mobile Therapy App](/images/mobile_therapy_app3.jpg)
 
-*It is not a real implemented design. It is a mockup example created for the purpose of case study.*
+*Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
 ## Process
 
