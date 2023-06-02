@@ -75,18 +75,18 @@ Unser Kunde hatte auch ein High-Fidelity-Wireframe der App und beauftragte uns m
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Process
+## Verfahren
 
-One of the key challenges for the system was making sure that it matched the way physical therapy looks like in real life. As visits tend to be very short, it was crucial that the therapist and patients would be able to link their accounts in the app quickly. Naturally, not all patients already had the app when they came in, nor did everyone feel comfortable with using new technologies. Low levels of tech-savviness meant it was difficult for them to download the app, register an account, and – most importantly – link their profiles with those of therapists.
+Eine der größten Herausforderungen für das System bestand darin, sicherzustellen, dass es der Art und Weise entspricht, wie Physiotherapie im wirklichen Leben aussieht. Da die Besuche in der Regel sehr kurz sind, war es entscheidend, dass Therapeut und Patient ihre Konten in der App schnell verknüpfen können. Natürlich hatten nicht alle Patienten die App bei ihrem Eintritt bereits und haben sich auch nicht wohl im Umgang mit neuen Technologien gefühlt. Aufgrund ihrer geringen Technikkenntnisse war es für sie schwierig, die App herunterzuladen, ein Konto zu registrieren und – was am wichtigsten ist – ihre Profile mit denen von Therapeuten zu verknüpfen.
 
-We decided to solve the latter problem by automating the linking of patient-therapist profiles through a previously generated and printed code. This enables patients to link their accounts after the physiotherapy session is over, from the comfort of their homes. By inserting the code in the app, they’re now able to download their prescribed exercise plan.
+Wir haben uns entschieden, das letztere Problem zu lösen, indem wir die Verknüpfung von Patienten-Therapeuten-Profilen durch einen zuvor generierten und gedruckten Code automatisieren. Auf diese Weise können Patienten ihre Konten nach Beendigung der Physiotherapiesitzung bequem von zu Hause aus verknüpfen. Durch Einfügen des Codes in die App können sie nun ihren vorgeschriebenen Trainingsplan herunterladen.
 
-We also needed to create separate modules for patients and therapists.
+Wir mussten auch separate Module für Patienten und Therapeuten erstellen.
 
-On the patient profile, one could download the therapy plan, as well as use the app on a daily basis for exercise and progress tracking. The patient’s app also features reminders and motivates the patient to continue on his/her path to recovery by displaying therapy statistics.
+Auf dem Patientenprofil konnte man den Therapieplan herunterladen sowie die App täglich zur Übungs- und Fortschrittsverfolgung nutzen. Auch die Patienten-App erinnert und motiviert den Patienten durch die Anzeige von Therapiestatistiken, seinen Weg der Genesung fortzusetzen.
 
-The therapist panel was much more sophisticated. Firstly, it needed to allow therapists to customize plans for each patient. They also needed to plan out exercise sessions on a calendar and include information on the number of circuits per each exercise. Additionally, they needed an option to store photos and videos recorded during the patient’s therapeutic session. Alternatively, they were also to choose from a library of tutorial videos stored in the CMS.
+Das Therapeutenpanel war viel anspruchsvoller. Erstens musste es den Therapeuten ermöglicht werden, Pläne für jeden Patienten individuell anzupassen. Außerdem mussten sie die Trainingseinheiten in einem Kalender planen und Informationen über die Anzahl der Zirkel pro Übung eintragen. Außerdem brauchten sie eine Option zum Speichern von Fotos und Videos, die während der therapeutischen Sitzung des Patienten aufgenommen wurden. Alternativ sollten sie auch aus einer im CMS gespeicherten Bibliothek von Tutorial-Videos auswählen
 
-## Result
+## Ergebnis
 
-Our work with the client lasted until the MVP was built and refined. The entire cooperation took place for half a year. Six months later, our clients put up the app for sale. Quickly, an interested party decided to order an audit of the software before making an offer. Upon a positive review of the service, the company decided to finalize their purchase and are now developing the app with an in-house development team.
+Unsere Arbeit mit dem Kunden dauerte, bis das MVP gebaut und verbessert wurde. Die gesamte Zusammenarbeit hat ein halbes Jahr gedauert. Sechs Monate später haben unsere Kunden die App zum Verkauf angeboten. Schnell hat sich ein Interessent entschieden, vor Abgabe eines Angebots ein Audit der Software zu beauftragen. Nach einer positiven Bewertung hat sich das Unternehmen entschieden, den Kauf abzuschließen und entwickelt die App nun mit einem internen Entwick
