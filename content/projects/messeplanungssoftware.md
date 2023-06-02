@@ -14,7 +14,7 @@ tags:
   - MVP
   - customized software
 order: 99
-slug: softwarefurmesseplanung
+slug: software-fur-messeplanung
 show on homepage: false
 published: false
 ---
