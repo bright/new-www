@@ -39,7 +39,7 @@ export const TitleWithIcon: React.FC<TitleWithIconProps> = ({
         <TitleWithIconSection paddingProps='186px 0 105px' paddingLaptop='89px 0 105px' paddingTabletXL='116px 0 64px' paddingTablet='82px 0 56px' paddingMobileProps='66px 0 30px'>
             <TitleWithIconFlexWrapper desktopItems='center' desktopContent='center' desktopGap='33px' mobileDirection='column' mobileGap='24px'>
                 <ImageWrapper>
-                    <img alt={titleIconAlt} src={titleIcon} loading='lazy' decoding='async' width={77} height={28} />
+                    <img alt={titleIconAlt} src={titleIcon} loading='lazy' width={77} height={28} />
                 </ImageWrapper>
                 <TitleWithIconCustomSectionTitle>{sectionTitle}</TitleWithIconCustomSectionTitle>
 

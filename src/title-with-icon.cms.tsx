@@ -17,7 +17,7 @@ export const TitleWithIconCmsEditorComponent = {
             widget: 'image',
             hint: 'width:height',
             options: {
-                metadata: ['width', 'height', 'loading', 'decoding'],
+                metadata: ['width', 'height', 'loading'],
             },
         },
     ],
