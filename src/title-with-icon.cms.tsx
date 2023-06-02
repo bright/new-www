@@ -1,6 +1,4 @@
-import { EditorComponentOptions } from 'netlify-cms-core'
-
-export const TitleWithIconCmsEditorComponent: EditorComponentOptions = {
+export const TitleWithIconCmsEditorComponent = {
     id: 'TitleWithIcon',
     fields: [
         {
@@ -17,6 +15,10 @@ export const TitleWithIconCmsEditorComponent: EditorComponentOptions = {
             name: 'titleIcon',
             label: 'Title Icon',
             widget: 'image',
+            hint: 'width:height',
+            options: {
+                metadata: ['width', 'height', 'loading', 'decoding'],
+            },
         },
     ],
     label: 'Title',
