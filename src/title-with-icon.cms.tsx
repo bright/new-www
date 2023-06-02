@@ -15,10 +15,6 @@ export const TitleWithIconCmsEditorComponent = {
             name: 'titleIcon',
             label: 'Title Icon',
             widget: 'image',
-            hint: 'width:height',
-            options: {
-                metadata: ['width', 'height', 'loading'],
-            },
         },
     ],
     label: 'Title',
