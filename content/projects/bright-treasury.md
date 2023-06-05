@@ -1,13 +1,30 @@
 ---
+team_members:
+  - agata
+our_service:
+  - MVP development
+  - web development
+  - product design
 layout: project
 project_id: bright-treasury
 title: BrightTreasury
 image: /images/treasuryapp_www.png
-social_media_previev: /images/brighttreasury_fb_preview.png
-social_media_previev_alt: BrightTreasury case study
 description: "Bright Inventions’s original solution. A web app supporting
   Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for
   Treasury grants."
+hero_image: /images/brighttreasury_mockup_casestudy_app.png
+Hero Image_alt: BrightTreasury
+social_media_previev: /images/brighttreasury_fb_preview.png
+social_media_previev_alt: BrightTreasury case study
+bar_achievements:
+  - number: 5
+    label: bright people on the project
+  - number: 2
+    label: "Communities: Polkadot & Kusama"
+  - number: 4
+    label: Treasury mechanisms
+  - number: 1
+    label: web app
 tags:
   - web app
   - product design
@@ -15,8 +32,15 @@ tags:
   - blockchain
   - fintech
   - customized software
+title_team: team
+title_case_study: case study
+title_contact: let's talk about your product
+description_contact: Tell us more about your mobile project or idea for an app.
+  Fill out the form below and we'll get back to you in 48 hours.
 order: 6
 slug: bright-treasury
+show_team: false
+show_case_study: false
 show on homepage: true
 published: true
 ---
