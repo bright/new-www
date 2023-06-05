@@ -1,32 +1,49 @@
 ---
+team_members:
+  - kasia g
+  - piotr_r
+our_service:
+  - MVP development
+  - mobile app development
 layout: project
 project_id: HS-Baumappe
 title: HS Baumappe – Document Management Apps for Construction
 image: /images/case_study-cover_hs_baumappe.png
-social_media_previev: /images/fb_preview-case-study.png
-social_media_previev_alt: HS Baumappe – Document Management Apps for Construction
 description: Now construction site personnel can create documents and share them
   with coworkers and clients. Even offline, then sync them later. All they need
   is a smartphone.
+hero_image: /images/baumappe_app.png
+Hero Image_alt: Document Management Apps for Construction
+social_media_previev: /images/fb_preview-case-study.png
+social_media_previev_alt: HS Baumappe – Document Management Apps for Construction
+bar_achievements:
+  - number: 2
+    label: 2 mobile apps
+  - number: 5
+    label: team members
+  - number: 1
+    label: MVP
+  - number: 27
+    label: sprints
 tags:
   - mobile app
   - customized software
   - MVP
+title_team: meet the team
+title_case_study: check other case studies
+title_contact: let's talk about your product
+description_contact: Tell us more about your mobile project or idea for an app.
+  Fill out the form below and we'll get back to you in 48 hours.
 order: 2
 slug: document-management-apps-construction
+show_team: false
+show_case_study: false
 show on homepage: true
 published: true
 ---
 <div class="image"><img src="/images/app_baumappe_mockups.png" alt="Mockup examples designed by Heinrich Schmid's Product Design Team." title="Mockup examples designed by Heinrich Schmid's Product Design Team."  /> </div>
 
 <sub>*Mockup example designed by Heinrich Schmid's Product Design Team.*</sub>
-
-## Numbers:
-
-* 2 mobile apps
-* 5 team members
-* 1 MVP
-* 30 sprints
 
 ## Skills
 
