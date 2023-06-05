@@ -16,14 +16,14 @@ hero_image_alt: Relevo case study
 social_media_previev: /images/relevo_fb_preview.png
 social_media_previev_alt: Relevo case study
 bar_achievements:
-  - number: 12
-    label: Sprints
-  - number: 3
-    label: Projects in one
-  - number: 12
-    label: People worked
-  - number: 4509
-    label: Users
+  - number: 50 000
+    label: Downloads on Google Play
+  - number: 2
+    label: Mobile apps
+  - number: 2
+    label: Years of cooperation
+  - number: 5
+    label: Bright people
 description: Around 1 million plastic food containers are used in Germany per
   hour! Relevo is a smart reusable system that fights plastic waste and starts
   the real change.
