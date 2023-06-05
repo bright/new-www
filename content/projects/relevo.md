@@ -16,7 +16,7 @@ hero_image_alt: Relevo case study
 social_media_previev: /images/relevo_fb_preview.png
 social_media_previev_alt: Relevo case study
 bar_achievements:
-  - number: 50 000
+  - number: 50000
     label: Downloads on Google Play
   - number: 2
     label: Mobile apps
