@@ -16,6 +16,15 @@ hero_image: /images/tms_app.png
 Hero Image_alt: Transportation Management System
 social_media_previev: /images/tms_social_preview.png
 social_media_previev_alt: Transportation Management System case study
+bar_achievements:
+  - number: 10
+    label: team members
+  - number: 42
+    label: countries where the system will speed up operations
+  - number: 1
+    label: MVP
+  - number: 5
+    label: key featuers in MVP
 tags:
   - web app
   - mobile app
