@@ -1,21 +1,35 @@
 ---
+team_members:
+  - agnieszka_h
+our_service:
+  - MVP development
+  - product design
+  - web development
 layout: project
 project_id: tms
 title: Transportation Management System (TMS)
 image: /images/tms_cover_2x.png
-social_media_previev: /images/tms_social_preview.png
-social_media_previev_alt: Transportation Management System case study
 description: TMS supports freight forwarders to manage transportation faster.
   Finding suitable listings and matching them with the carriers has never been
   faster.
+hero_image: /images/tms_app.png
+Hero Image_alt: Transportation Management System
+social_media_previev: /images/tms_social_preview.png
+social_media_previev_alt: Transportation Management System case study
 tags:
   - web app
   - mobile app
   - customized software
   - MVP
   - product design
+title_team: team
+title_case_study: success stories
+title_contact: Let's talk about your solution
+description_contact: Book a free consultation in 48 hours
 order: 3
 slug: transportation-management-system
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
