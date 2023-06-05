@@ -45,8 +45,6 @@ show_case_study: false
 show on homepage: false
 published: true
 ---
-![vcare healthcare app](/images/vcare-_mockup-1.png)
-
 ### Main features developed by Bright Inventions
 
 * Managing list of care home patients 
