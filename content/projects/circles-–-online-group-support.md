@@ -1,26 +1,43 @@
 ---
+team_members:
+  - dominik-d
+  - slawek
+  - rafal h
+our_service:
+  - web development
+  - custom software development
 layout: project
 project_id: circles
 title: Circles – Online Group Support
 image: /images/circles_case_study_cover.png
-social_media_previev: /images/circles_fb_preview.png
-social_media_previev_alt: Circles case study
 description: Circles is a leading emotional support platform that connects
   people with others facing similar challenges in online groups led by
   professionals.
+hero_image: /images/mental_health_app.png
+Hero Image_alt: Circles - mental health app
+social_media_previev: /images/circles_fb_preview.png
+social_media_previev_alt: Circles case study
+bar_achievements:
+  - number: 10000
+    label: Downloads on Google Play
+  - number: 3
+    label: bright team members
 tags:
   - web app
   - eHealth
   - customized software
+title_team: meet the team
+title_case_study: other success stories
+title_contact: let's talk about your product
+description_contact: Tell us more about your mobile project or idea for an app.
+  Fill out the form below and we'll get back to you in 48 hours.
 order: 1
 slug: online-group-support
+show_team: false
+show_case_study: false
 show on homepage: true
 published: true
 ---
-![Circles and Bright Inventions cooperation](/images/circles_1.png)
-
-<sub>*It is not a real implemented design. It is a design created for the purpose of case study.*</sub> 
-
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
 ## Main features developed by Bright Inventions:
