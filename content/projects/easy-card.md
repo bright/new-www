@@ -1,17 +1,40 @@
 ---
+team_members:
+  - agnieszka_h
+our_service:
+  - mobile app development
+  - custom software development
 layout: project
 project_id: card-reader
 title: Card Reader
 image: /images/card_reader_mockup.png
-social_media_previev: /images/cardreader_fb_preview.png
-social_media_previev_alt: Card Reader case study
 description: A fintech iOS and Android application that allows businesses to
   charge credit cards without a payment terminal.
+hero_image: /images/card_reader_case_study_app.svg
+Hero Image_alt: Card reader
+social_media_previev: /images/cardreader_fb_preview.png
+social_media_previev_alt: Card Reader case study
+bar_achievements:
+  - number: 2
+    label: mobile apps
+  - number: 6
+    label: key features
+  - number: 2
+    label: "systems: iOS, Android"
+  - number: 1
+    label: trully cashless solution
 tags:
   - mobile app
   - customized software
   - fintech
+title_team: team
+title_case_study: case study
+title_contact: Let's talk about your product
+description_contact: Tell us more about your mobile project or idea for an app.
+  Fill out the form below and we'll get back to you in 48 hours.
 slug: credit-card-reader
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
