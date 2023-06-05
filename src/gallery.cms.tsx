@@ -12,7 +12,7 @@ export const GalleryCmsEditorComponent = {
                     label: 'Source',
                     name: 'src',
                     widget: 'images',
-                    choose_url: false,
+
                 },
                 {
                     label: 'Alt Text',
