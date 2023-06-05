@@ -1,20 +1,43 @@
 ---
+team_members:
+  - agnieszka
+our_service:
+  - web development
+  - MVP development
 layout: project
 project_id: cryptoAtlas
 title: CryptoAtlas
 image: /images/cryptoportal2.png
-social_media_previev: /images/cryptoatlas_fb_preview.png
-social_media_previev_alt: CryptoAtlas case study
 description: CryptoAtlas is a social platform connecting people passionate about
   cryptocurrency. The first and only place where you can find crypto news,
   communities and leaders.
+hero_image: /images/crypto_social_app.png
+Hero Image_alt: CryptoAtlas
+social_media_previev: /images/cryptoatlas_fb_preview.png
+social_media_previev_alt: CryptoAtlas case study
+bar_achievements:
+  - number: 1
+    label: MVP
+  - number: 5
+    label: MVP key features
+  - number: 15000
+    label: followers on Twitter
+  - number: 50
+    label: news categories
 tags:
   - web app
   - MVP
   - customized software
   - blockchain
+title_team: team
+title_case_study: case studies
+title_contact: Let's talk about your product
+description_contact: Tell us more about your mobile project or idea for an app.
+  Fill out the form below and we'll get back to you in 48 hours.
 order: 4
 slug: cryptocurrency-platfrom
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
