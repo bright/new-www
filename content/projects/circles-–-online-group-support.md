@@ -22,6 +22,10 @@ bar_achievements:
     label: Downloads on Google Play
   - number: 3
     label: bright team members
+  - number: 2
+    label: years of cooperation
+  - number: 60
+    label: minutes of video session
 tags:
   - web app
   - eHealth
