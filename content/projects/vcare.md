@@ -1,13 +1,30 @@
 ---
+team_members:
+  - agnieszka_h
+our_service:
+  - mobile app development
+  - web development
+  - product design
 layout: project
 project_id: vcare
 title: vCare
 image: /images/vcare-_mockup-3_700.jpg
-social_media_previev: /images/vcare_fb_preview.png
-social_media_previev_alt: vCare case study
 description: A healthcare software solution that helps care homes all over the
   United Kingdom monitor their residents’ health and register medicine
   administration.
+hero_image: /images/healthcare_case_study_app.png
+Hero Image_alt: A healthcare software solution
+social_media_previev: /images/vcare_fb_preview.png
+social_media_previev_alt: vCare case study
+bar_achievements:
+  - number: 2
+    label: mobile apps
+  - number: 1000
+    label: Health & Care Organisation Customers
+  - number: 7
+    label: key features
+  - number: 4
+    label: years till the mobile apps launch
 tags:
   - mobile app
   - web app
@@ -16,8 +33,15 @@ tags:
   - customized software
   - eHealth
   - bluetooth
+title_team: team
+title_case_study: case studies
+title_contact: Let's talk about your product
+description_contact: Tell us more about your mobile project or idea for an app.
+  Fill out the form below and we'll get back to you in 48 hours.
 order: 6
 slug: vCare
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
@@ -66,6 +90,7 @@ When we entrust our loved ones to a care home or assisted living facility, we wa
 ### Goal
 
 When we first spoke to the [vCare](https://www.vcaresystems.co.uk) team, there was already a working Android app present on the market. However, the Founders were looking to take the software to a new level by improving the design and code, and by exponentially growing the app’s reach to new target groups.
+
 Firstly, vCare wanted to make their healthcare solution available to facilities using iOS-based devices. This meant that an iOS app that would work on both mobile and tablet devices needed to be developed from scratch.
 
 Secondly, the vCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
