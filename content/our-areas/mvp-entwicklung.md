@@ -18,6 +18,7 @@ project:
   - solution-parkinson-german
   - Pregnancy App German
 layout: our-service
+our_service_id: MVP-Entwicklung Agentur
 meta_title: MVP-Entwicklung Agentur
 meta_description: Seit 2012 entwickeln wir MVPs für Startups, Unternehmen und
   Agenturen in Deutschland, Großbritannien, Israel. Kontaktieren Sie uns jetzt!
