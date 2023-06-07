@@ -1,9 +1,9 @@
 ---
 team_members:
-  - kasia
+  - aleksandra-z
+  - pawel-o
+  - krzysiek-s
   - mateusz
-  - kasia g
-  - michal k
 our_service:
   - web development
   - product design
