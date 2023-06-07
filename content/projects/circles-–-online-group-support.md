@@ -5,7 +5,6 @@ team_members:
   - rafal h
 our_service:
   - web development
-  - custom software development
 layout: project
 project_id: circles
 title: Circles – Online Group Support
@@ -13,7 +12,7 @@ image: /images/circles_case_study_cover.png
 description: Circles is a leading emotional support platform that connects
   people with others facing similar challenges in online groups led by
   professionals.
-hero_image: /images/mental_health_app.png
+hero_image: /images/mental_health_app_bigger.png
 Hero Image_alt: Circles - mental health app
 social_media_previev: /images/circles_fb_preview.png
 social_media_previev_alt: Circles case study
@@ -42,6 +41,8 @@ show_case_study: false
 show on homepage: true
 published: true
 ---
+<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
+
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
 ## Main features developed by Bright Inventions:
