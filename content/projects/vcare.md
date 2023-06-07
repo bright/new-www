@@ -45,6 +45,8 @@ show_case_study: false
 show on homepage: false
 published: true
 ---
+<div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
+
 ### Main features developed by Bright Inventions
 
 * Managing list of care home patients 
