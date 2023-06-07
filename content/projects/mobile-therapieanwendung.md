@@ -2,7 +2,7 @@
 team_members:
   - agnieszka_h
 our_service:
-  - MVP development
+  - MVP-Entwicklung Agentur
 layout: project
 project_id: Mobile Therapieanwendung
 title: Mobile Therapieanwendung
