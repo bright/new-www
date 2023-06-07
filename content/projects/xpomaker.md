@@ -21,6 +21,8 @@ bar_achievements:
     label: MVP
   - number: 7
     label: Key features
+  - number: 7
+    label: People on team
 tags:
   - web app
   - product design
