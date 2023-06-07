@@ -41,10 +41,6 @@ show_case_study: false
 show on homepage: true
 published: true
 ---
-<div class="image"><img src="/images/app_baumappe_mockups.png" alt="Mockup examples designed by Heinrich Schmid's Product Design Team." title="Mockup examples designed by Heinrich Schmid's Product Design Team."  /> </div>
-
-<sub>*Mockup example designed by Heinrich Schmid's Product Design Team.*</sub>
-
 ## Skills
 
 **iOS development**: SwiftUI + UIKit, Swiftgen, Apollo GraphQL, CoreData, SwiftLint, SwiftFormat, Sourcery, Bitrise.
