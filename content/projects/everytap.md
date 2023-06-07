@@ -2,7 +2,7 @@
 team_members:
   - agata-m
 our_service:
-  - MVP development
+  - mobile app development
 layout: project
 project_id: finebite
 title: "Finebite (Everytap) "
@@ -13,6 +13,15 @@ hero_image: /images/food_tech_case_study_app.png
 Hero Image_alt: "Finebite (Everytap) "
 social_media_previev: /images/finebite_fb_preview.png
 social_media_previev_alt: Finebite (Everytap) case study
+bar_achievements:
+  - number: 1
+    label: awesome pivot
+  - number: 100000
+    label: Downloads on Google Play
+  - number: 500
+    label: Restaurants
+  - number: 350000
+    label: Active users
 tags:
   - mobile app
   - customized software
