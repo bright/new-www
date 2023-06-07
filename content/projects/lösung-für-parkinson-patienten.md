@@ -1,20 +1,42 @@
 ---
+team_members:
+  - agnieszka_h
+our_service:
+  - MVP development
 layout: project
 project_id: solution-parkinson-german
 title: Lösung für Parkinson-Patienten
 image: /images/app_for_parkinson_patients1.png
-social_media_previev: /images/fb_preview_case_study_parkinson_app_de.png
-social_media_previev_alt: Lösung für Parkinson-Patienten
 description: Ein persönliches digitales Tagebuch für Parkinson-Patienten. Mit
   der App können Benutzer Ihre Symptome aufzeichnen und die Einnahme
   verschriebener Medikamente verfolgen.
+hero_image: /images/parkinson_app_case_study.png
+Hero Image_alt: Lösung für Parkinson-Patienten
+social_media_previev: /images/fb_preview_case_study_parkinson_app_de.png
+social_media_previev_alt: Lösung für Parkinson-Patienten
+bar_achievements:
+  - number: 2
+    label: iOS uns Android Apps
+  - number: 1
+    label: MVP
+  - number: 5
+    label: Hauptfunktionen
+  - number: 3
+    label: Monate bis zur MVP-Einführung
 tags:
   - mobile app
   - MVP
   - customized software
   - eHealth
+title_team: team
+title_case_study: case study
+title_contact: in 48 Stunden eine kostenlose Beratung buchen
+description_contact: Erzählen Sie uns mehr über Ihr Projekt oder Ihre Idee für
+  eine App. Füllen Sie das Formular aus.
 order: 99
 slug: losung-fur-parkinson-patienten
+show_team: false
+show_case_study: false
 show on homepage: false
 published: false
 ---
