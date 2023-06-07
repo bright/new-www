@@ -1,13 +1,29 @@
 ---
+team_members:
+  - albert
+our_service:
+  - mobile app development
+  - MVP development
 layout: project
 project_id: smarthelp
 title: SmartHelp
 image: /images/smarthelp_main.png
-social_media_previev: /images/smarthelp_fb_preview.png
-social_media_previev_alt: SmartHelp case study
 description: An emergency service app that allows users to easily call for help
   and provide authorities with personal information, exact location, and
   incident details.
+hero_image: /images/emergency_case_study_app.png
+Hero Image_alt: Emergency app
+social_media_previev: /images/smarthelp_fb_preview.png
+social_media_previev_alt: SmartHelp case study
+bar_achievements:
+  - number: 1
+    label: MVP
+  - number: 2
+    label: iOS and Android apps
+  - number: 2014
+    label: year of the launch
+  - number: 7
+    label: Key features
 tags:
   - mobile app
   - web app
@@ -17,11 +33,18 @@ tags:
   - customized software
   - eHealth
   - bluetooth
+title_team: team
+title_case_study: case study
+title_contact: Let's talk about your solution
+description_contact: Tell us more about your mobile project or idea for an app.
+  Fill out the form below and we'll get back to you in 48 hours.
 order: 99
 slug: smarthelp
 redirect_from:
   - /smarthelp
   - /smarthelp/
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
