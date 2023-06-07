@@ -12,7 +12,7 @@ image: /images/vcare-_mockup-3_700.jpg
 description: A healthcare software solution that helps care homes all over the
   United Kingdom monitor their residents’ health and register medicine
   administration.
-hero_image: /images/healthcare_case_study_app.png
+hero_image: /images/healthcare_case_study_app_big.png
 Hero Image_alt: A healthcare software solution
 social_media_previev: /images/vcare_fb_preview.png
 social_media_previev_alt: vCare case study
@@ -45,6 +45,8 @@ show_case_study: false
 show on homepage: false
 published: true
 ---
+<div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
+
 ### Main features developed by Bright Inventions
 
 * Managing list of care home patients 
