@@ -35,9 +35,9 @@ CREATE TABLE `orders`
 );
 ```
 
-In this example, the table "orders" has columns for id, data, and `order_number`. The `order_number` column is defined as a stored column using the GENERATED ALWAYS AS syntax, with the expression (data ->> '$.number') to extract the value of the "number" key from the JSON data.
+In this example, the table `orders` has columns for `id`, `data`, and `order_number`. The `order_number` column is defined as a stored column using the `GENERATED ALWAYS AS` syntax, with the expression `(data ->> '$.number')` to extract the value of the `number` key from the `JSON data`.
 
-By creating an index on the order_number column using INDEX, MySQL optimizes the query performance when searching and filtering based on order numbers.
+By creating an index on the `order_number` column using `INDEX`, MySQL optimizes the query performance when searching and filtering based on order numbers.
 
 With the table and index set up, you can execute queries like:
 
