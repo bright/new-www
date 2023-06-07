@@ -1,19 +1,38 @@
 ---
+team_members:
+  - agnieszka_h
+our_service:
+  - MVP development
+  - web development
+  - product design
 layout: project
 project_id: xpomaker
 title: xpomaker
 image: /images/xpomaker_dashboard.png
-social_media_previev: /images/xpomaker_fb_preview.png
-social_media_previev_alt: xpomaker case study
 description: >
   A trade fair planning software that revolutionizes the way companies prepare
   and organize all assets needed for industry events.
+hero_image: /images/event_management_app_case_study.png
+Hero Image_alt: event manegement app
+social_media_previev: /images/xpomaker_fb_preview.png
+social_media_previev_alt: xpomaker case study
+bar_achievements:
+  - number: 1
+    label: MVP
+  - number: 7
+    label: Key features
 tags:
   - web app
   - product design
   - MVP
   - customized software
+title_team: team
+title_case_study: casse study
+title_contact: Let's talk about your app
+description_contact: Contact us to discuss your product. Book a free consultation in 48 hours!
 slug: xpomaker
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
