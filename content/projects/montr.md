@@ -1,13 +1,29 @@
 ---
+team_members:
+  - agnieszka_h
+our_service:
+  - web development
+  - MVP development
 layout: project
 project_id: digitized-questionnaires
 title: Digitized Questionnaires
 image: /images/digitizing_mobile_reporting_main2.png
-social_media_previev: /images/questionnaire_fb_preview.png
-social_media_previev_alt: Digitized Questionnaires case study
 description: A web application that enables digitizing mobile reporting. It
   helps you to build, with no code, the digitized surveys for end-users. A great
   tool for audits.
+hero_image: /images/digitized_questionnaire_case_study_app.png
+Hero Image_alt: Digitized Questionnaires
+social_media_previev: /images/questionnaire_fb_preview.png
+social_media_previev_alt: Digitized Questionnaires case study
+bar_achievements:
+  - number: 1
+    label: web MVP
+  - number: 11
+    label: Key features
+  - number: 4
+    label: Bright team members
+  - number: 5
+    label: Years of cooperation
 tags:
   - web app
   - product design
@@ -15,8 +31,14 @@ tags:
   - IoT
   - customized software
   - fintech
+title_team: team
+title_case_study: case study
+title_contact: let's talk about your solution
+description_contact: Contact us and book a free consultation in 48 hours!
 order: 99
 slug: app-digitized-surveys
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
