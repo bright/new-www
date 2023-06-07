@@ -1,10 +1,16 @@
 ---
 team_members:
-  - agnieszka_h
+  - bartosz
+  - michal k
+  - jedrzej-s
+  - malgorzata-z
+  - maciej-n
+  - karol r
+  - piotr
+  - radek-l
 our_service:
   - MVP development
   - web development
-  - custom software development
 layout: project
 project_id: Practi JET POS
 title: Just Eat POS – System for Restaurants
@@ -29,7 +35,7 @@ tags:
   - customized software
   - mobile app
   - retail & restaurant
-title_team: team
+title_team: Meet team behind the project
 title_case_study: case studies
 title_contact: Let's talk about your product
 description_contact: Tell us more about your mobile project. Fill out the form
