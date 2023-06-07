@@ -20,7 +20,7 @@ Hero Image_alt: BrightTreasury
 social_media_previev: /images/brighttreasury_fb_preview.png
 social_media_previev_alt: BrightTreasury case study
 bar_achievements:
-  - number: 5
+  - number: 4
     label: bright people on the project
   - number: 2
     label: "Communities: Polkadot & Kusama"
