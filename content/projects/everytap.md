@@ -15,7 +15,7 @@ social_media_previev: /images/finebite_fb_preview.png
 social_media_previev_alt: Finebite (Everytap) case study
 bar_achievements:
   - number: 1
-    label: awesome pivot
+    label: Awesome pivot
   - number: 100000
     label: Downloads on Google Play
   - number: 500
