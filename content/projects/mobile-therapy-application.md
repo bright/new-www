@@ -1,19 +1,41 @@
 ---
+team_members:
+  - agnieszka
+our_service:
+  - mobile app development
+  - MVP development
 layout: project
 project_id: mobile-therapy-application
 title: Mobile Therapy Application
 image: /images/mobile_therapy_app1.jpg
-social_media_previev: /images/therapy_fb_preview.png
-social_media_previev_alt: Mobile Therapy App case study
 description: A healthcare mobile application that supports patients going
   through physiotherapy. It offers therapists an easy way to customize plans for
   each patient.
+hero_image: /images/therapy_app_case_study.png
+Hero Image_alt: Therapy app
+social_media_previev: /images/therapy_fb_preview.png
+social_media_previev_alt: Mobile Therapy App case study
+bar_achievements:
+  - number: 2
+    label: iOS and Android apps
+  - number: 1
+    label: MVP
+  - number: 5
+    label: Key MVP featuers
+  - number: 6
+    label: months to MVP launch
 tags:
   - mobile app
   - customized software
   - eHealth
+title_team: team
+title_case_study: case studies
+title_contact: let’s talk about your product
+description_contact: Contact us and we'll get back in 48 hours.
 order: 99
 slug: mobile-therapy-application
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
