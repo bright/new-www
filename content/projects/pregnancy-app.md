@@ -19,6 +19,8 @@ bar_achievements:
     label: iOS and Android apps
   - number: 5
     label: Key features
+  - number: 9
+    label: "month journey ;) "
 tags:
   - mobile app
   - customized software
