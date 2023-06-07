@@ -17,6 +17,8 @@ faqs:
 project:
   - solution-parkinson-german
   - Pregnancy App German
+  - Messe-planung-software
+  - Mobile Therapieanwendung
 layout: our-service
 our_service_id: MVP-Entwicklung Agentur
 meta_title: MVP-Entwicklung Agentur
