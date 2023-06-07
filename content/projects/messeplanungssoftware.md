@@ -1,20 +1,40 @@
 ---
+team_members:
+  - albert
+our_service:
+  - MVP-Entwicklung Agentur
 layout: project
 project_id: Messe-planung-software
 title: Messeplanungssoftware
 image: /images/xpomaker_dashboard2.png
-social_media_previev: /images/fb_preview_case_study_mobile_messe_planung_de.png
-social_media_previev_alt: Eine Messeplanungssoftware
 description: Eine Messeplanungssoftware, die Art und Weise revolutioniert, wie
   Unternehmen alle für Branchenveranstaltungen erforderlichen Assets vorbereiten
   und organisieren.
+hero_image: /images/event_management_app_case_study.png
+Hero Image_alt: Messeplanungssoftware
+social_media_previev: /images/fb_preview_case_study_mobile_messe_planung_de.png
+social_media_previev_alt: Eine Messeplanungssoftware
+bar_achievements:
+  - number: 1
+    label: MVP
+  - number: 5
+    label: Personen im Team
+  - number: 7
+    label: Haupteigenschaften
 tags:
   - web app
   - product design
   - MVP
   - customized software
+title_team: team
+title_case_study: case study
+title_contact: Kontaktieren Sie uns
+description_contact: Erzählen Sie uns mehr über Ihr Projekt oder Ihre Idee für
+  eine App. Füllen Sie das Formular aus.
 order: 99
 slug: software-fur-messeplanung
+show_team: false
+show_case_study: false
 show on homepage: false
 published: false
 ---
