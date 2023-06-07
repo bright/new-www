@@ -1,24 +1,39 @@
 ---
+team_members:
+  - agata
+our_service:
+  - mobile app development
 layout: project
 project_id: pregnancy-app
 title: Pregnancy App
 image: /images/pregnancy_app1.png
-social_media_previev: /images/pregnancyapp_fb_preview.png
-social_media_previev_alt: Pregnancy App case study
 description: A healthcare mobile app that supports pregnant women at every stage
   of their pregnancy and birth experience providing them with exercises, recipes
   and tips.
+hero_image: /images/pregnancy_app.png
+Hero Image_alt: Pregnancy mobile app
+social_media_previev: /images/pregnancyapp_fb_preview.png
+social_media_previev_alt: Pregnancy App case study
+bar_achievements:
+  - number: 2
+    label: iOS and Android apps
+  - number: 5
+    label: Key features
 tags:
   - mobile app
   - customized software
   - eHealth
+title_team: team
+title_case_study: case study
+title_contact: Let's talk about your app
+description_contact: Contact us and we'll get back to you in 48 hours!
 order: 99
 slug: pregnancy-app
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
-![Pregnancy App](/images/preganncy_app_2_screens2.png)
-
 ## Main tech elements
 
 * Apple and Android in app purchases
