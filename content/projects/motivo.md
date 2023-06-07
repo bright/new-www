@@ -1,19 +1,32 @@
 ---
+team_members:
+  - alisa
+our_service:
+  - mobile app development
+  - bluetooth development
 layout: project
 project_id: motivo
 title: Motivo
 image: /images/motivo_main.png
-social_media_previev: /images/motivo_fb_preview.png
-social_media_previev_alt: Motivo case study
 description: Turbo Training and Indoor Cycling Workouts. The app is your own
   personal cycling coach. It offers Interactive training plans and workouts for
   indoor cycling.
+hero_image: /images/cycling_app_case_study.png
+Hero Image_alt: Cycling app
+social_media_previev: /images/motivo_fb_preview.png
+social_media_previev_alt: Motivo case study
 tags:
   - mobile app
   - customized software
   - bluetooth
+title_team: team
+title_case_study: case study
+title_contact: Let's talk about your app
+description_contact: Contact us and we'll get back to you within 48 hours!
 order: 99
 slug: motivo
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
