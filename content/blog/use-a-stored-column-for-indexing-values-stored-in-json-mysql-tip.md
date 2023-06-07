@@ -51,4 +51,4 @@ Using a stored column for indexing JSON values can significantly improve query p
 
 In conclusion, leveraging a stored column for indexing JSON values in MySQL can enhance query performance and provide the flexibility of working with JSON data within your database schema.
 
-Hope you have enjoyed this short bright dev tip! [Check our repositorium](https://github.com/bright/dev-tips/commit/d3b69042b0671b3e2e025f159967d5b5bb195c0e).
+Hope you have enjoyed this short bright dev tip! [Check our repository](https://github.com/bright/dev-tips/commit/d3b69042b0671b3e2e025f159967d5b5bb195c0e).
