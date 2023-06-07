@@ -54,9 +54,6 @@ Relevo is free, eco-friendly, and smart. We all see how plastic tableware took o
 ![relevo app development](/images/ecofriendly_app_main3.png)
 <AppStore googleApp='https://play.google.com/store/apps/details?id=com.relevoapp' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://apps.apple.com/us/app/relevo/id1501683637' srcAppStore='/images/app_store.png' altAppStoreImage='app store'/>
 
-<TitleWithIcon sectionTitle='main features' titleIcon='/images/three_stars.svg' titleIconAlt='bright' />
-<SliderText sliderElements='[{"title":"Panel for restaurants","description":"An emergency service app that allows users to easily call for help and provide relevant authorities with personal information, exact location, and incident details."},{"title":"panel for restaurants","description":"An emergency service app that allows users to easily call for help and provide relevant authorities with personal information, exact location, and incident details."}]' />
-
 <TitleWithIcon sectionTitle='goals' titleIcon='/images/flag.svg' titleIconAlt='bright' />
 Relevo and Bright Inventions’ priority has been to increase the scalability & reliability of the backend system. The challenge is to ensure the system stability during peak hours. The rapid growth of users for an app like Relevo happens during lunchtime when people use the app in restaurants. At the same time we were also developing and launching new features to provide the users with new capabilities continuously. 
 
