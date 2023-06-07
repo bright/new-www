@@ -1,6 +1,9 @@
 ---
 team_members:
-  - agata
+  - kasia
+  - robert
+  - lukasz-k
+  - joanna-c
 our_service:
   - MVP development
   - web development
@@ -12,12 +15,12 @@ image: /images/treasuryapp_www.png
 description: "Bright Inventions’s original solution. A web app supporting
   Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for
   Treasury grants."
-hero_image: /images/brighttreasury_mockup_casestudy_app.png
+hero_image: /images/brighttreasury_mockup_casestudy_big.png
 Hero Image_alt: BrightTreasury
 social_media_previev: /images/brighttreasury_fb_preview.png
 social_media_previev_alt: BrightTreasury case study
 bar_achievements:
-  - number: 5
+  - number: 4
     label: bright people on the project
   - number: 2
     label: "Communities: Polkadot & Kusama"
@@ -39,7 +42,7 @@ description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 6
 slug: bright-treasury
-show_team: false
+show_team: true
 show_case_study: false
 show on homepage: true
 published: true
