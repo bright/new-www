@@ -1,18 +1,35 @@
 ---
+team_members:
+  - agata-m
+our_service:
+  - mobile app development
 layout: project
 project_id: easytapp
 title: EasyTapp
 image: /images/easytap_1_mockup1.png
-social_media_previev: /images/easytapp_fb_preview.png
-social_media_previev_alt: EasyTapp
 description: An app that allowed users to receive real estate and car sales’
   offers based on their real-time location.
+hero_image: /images/easy_tapp_app_case_study.png
+Hero Image_alt: Real estate app
+social_media_previev: /images/easytapp_fb_preview.png
+social_media_previev_alt: EasyTapp
+bar_achievements:
+  - number: 2
+    label: iOS and Android apps
+  - number: 3
+    label: Key features
 tags:
   - mobile app
   - customized software
   - bluetooth
+title_team: team
+title_case_study: case study
+title_contact: Let's talk about your app
+description_contact: Book a free consulation in 48 hours!
 order: 99
 slug: easytapp
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
