@@ -74,5 +74,3 @@ We are in the process of rewriting the whole backend using technologies such as 
 <TitleWithIcon sectionTitle='development process' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
 
 Although our team was hired to take care mainly of the backend side, we are about to take over the whole [mobile app development](/our-areas/mobile-app-development) as well. Our mobile developers will be working on both Android and iOS versions. We are extremely happy that the client trusted us to develop the whole system now. Our cooperation with Relevo started at the end of 2020 and in a couple of months this adventure quickly moved to another level.
-
-<AnchorLink text='#contactForm' href='let’s talk about your project' />
