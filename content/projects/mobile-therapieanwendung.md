@@ -1,19 +1,41 @@
 ---
+team_members:
+  - agnieszka_h
+our_service:
+  - MVP development
 layout: project
 project_id: Mobile Therapieanwendung
 title: Mobile Therapieanwendung
 image: /images/mobile_therapy_app1.jpg
-social_media_previev: /images/fb_preview_case_study_mobile-therapy_app_german.png
-social_media_previev_alt: Mobile Therapieanwendung
 description: Eine mobile Anwendung für das Gesundheitswesen, die Patienten bei
   der Physiotherapie unterstützt. Es bietet Therapeuten eine einfache
   Möglichkeit, Pläne für jeden Patienten individuell anpassen zu können.
+hero_image: /images/therapy_app_case_study.png
+Hero Image_alt: Mobile Therapieanwendung
+social_media_previev: /images/fb_preview_case_study_mobile-therapy_app_german.png
+social_media_previev_alt: Mobile Therapieanwendung
+bar_achievements:
+  - number: 2
+    label: iOS und Androids Apps
+  - number: 1
+    label: MVP
+  - number: 5
+    label: Haupteigenschaften
+  - number: 6
+    label: 6 Monate bis zur MVP-Einführung
 tags:
   - mobile app
   - customized software
   - eHealth
+title_team: team
+title_case_study: case study
+title_contact: Kontaktieren Sie uns
+description_contact: Erzählen Sie uns mehr über Ihr Projekt oder Ihre Idee für
+  eine App. Füllen Sie das Formular aus.
 order: 99
 slug: mobile-therapieanwendung
+show_team: false
+show_case_study: false
 show on homepage: false
 published: false
 ---
