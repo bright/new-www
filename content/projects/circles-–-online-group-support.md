@@ -5,7 +5,6 @@ team_members:
   - rafal h
 our_service:
   - web development
-  - custom software development
 layout: project
 project_id: circles
 title: Circles – Online Group Support
