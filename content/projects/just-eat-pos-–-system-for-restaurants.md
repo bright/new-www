@@ -4,7 +4,6 @@ team_members:
 our_service:
   - MVP development
   - web development
-  - custom software development
 layout: project
 project_id: Practi JET POS
 title: Just Eat POS – System for Restaurants
