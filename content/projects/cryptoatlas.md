@@ -11,7 +11,7 @@ image: /images/cryptoportal2.png
 description: CryptoAtlas is a social platform connecting people passionate about
   cryptocurrency. The first and only place where you can find crypto news,
   communities and leaders.
-hero_image: /images/crypto_social_app.png
+hero_image: /images/crypto_social_app-_big.png
 Hero Image_alt: CryptoAtlas
 social_media_previev: /images/cryptoatlas_fb_preview.png
 social_media_previev_alt: CryptoAtlas case study
