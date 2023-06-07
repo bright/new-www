@@ -20,7 +20,7 @@ bar_achievements:
   - number: 5
     label: Key features
   - number: 9
-    label: "month journey ;) "
+    label: month journey
 tags:
   - mobile app
   - customized software
