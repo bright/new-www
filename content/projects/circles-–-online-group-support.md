@@ -41,6 +41,8 @@ show_case_study: false
 show on homepage: true
 published: true
 ---
+<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
+
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
 ## Main features developed by Bright Inventions:
