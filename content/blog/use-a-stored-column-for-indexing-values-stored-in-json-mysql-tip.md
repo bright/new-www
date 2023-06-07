@@ -7,7 +7,7 @@ tags:
   - mysql
 date: 2023-06-07T07:22:41.754Z
 meaningfullyUpdatedAt: 2023-06-07T07:22:41.799Z
-title: Use a Stored Column for Indexing Values Stored in JSON [MySQL tip]
+title: Use a Stored Column for Indexing Values Stored in JSON [MySQL Tip]
 layout: post
 image: /images/blogpost_tip_mysql.png
 hidden: false
