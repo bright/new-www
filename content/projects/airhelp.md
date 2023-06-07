@@ -1,19 +1,39 @@
 ---
+team_members:
+  - agnieszka
+our_service:
+  - mobile app development
+  - MVP development
 layout: project
 project_id: airhelp
 title: AirHelp
 image: /images/flight_compensation_app_mockup5.png
-social_media_previev: /images/airhelp_fb_preview.png
-social_media_previev_alt: AirHelp case study
 description: AirHelp iOS mobile application lets you check if your flight is
   eligible for compensation and guides you through the whole process of
   complaints.
+hero_image: /images/flight_compensation_app_case_study.png
+Hero Image_alt: AirHelp case study
+social_media_previev: /images/airhelp_fb_preview.png
+social_media_previev_alt: AirHelp case study
+bar_achievements:
+  - number: 1
+    label: MVP
+  - number: 1
+    label: iOS App
+  - number: 4
+    label: Key MVP features
 tags:
   - mobile app
   - MVP
   - customized software
+title_team: team
+title_case_study: case study
+title_contact: Let's talk about your product
+description_contact: Book a free consultation in 48 hours!
 order: 9
 slug: airhelp
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
