@@ -34,6 +34,8 @@ show_case_study: false
 show on homepage: false
 published: true
 ---
+<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
+
 ## Main tech elements
 
 * Apple and Android in app purchases
