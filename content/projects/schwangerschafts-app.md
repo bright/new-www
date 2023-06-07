@@ -1,19 +1,39 @@
 ---
+team_members:
+  - olo
+our_service:
+  - MVP-Entwicklung Agentur
 layout: project
 project_id: Pregnancy App German
 title: Schwangerschafts-App
 image: /images/pregnancy_app1.png
-social_media_previev: /images/fb_preview_case_study_pregnancy_app_de.png
-social_media_previev_alt: Schwangerschafts-App
 description: Eine mobile App für das Gesundheitswesen, die schwangere Frauen in
   jeder Phase ihrer Schwangerschaft und Geburt unterstützt und ihnen Übungen,
   Rezepte und Tipps zur Verfügung stellt.
+hero_image: /images/pregnancy_app.png
+Hero Image_alt: Schwangerschafts-App
+social_media_previev: /images/fb_preview_case_study_pregnancy_app_de.png
+social_media_previev_alt: Schwangerschafts-App
+bar_achievements:
+  - number: 2
+    label: iOS und Android apps
+  - label: Haupteigenschaften
+    number: 5
+  - number: 9
+    label: monatigen Reise
 tags:
   - mobile app
   - customized software
   - eHealth
+title_team: team
+title_case_study: case study
+title_contact: Kontaktieren Sie uns
+description_contact: Erzählen Sie uns mehr über Ihr Projekt oder Ihre Idee für
+  eine App. Füllen Sie das Formular aus.
 order: 99
 slug: schwangerschafts-app
+show_team: false
+show_case_study: false
 show on homepage: false
 published: false
 ---
