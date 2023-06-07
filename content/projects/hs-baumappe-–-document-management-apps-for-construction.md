@@ -41,6 +41,8 @@ show_case_study: false
 show on homepage: true
 published: true
 ---
+<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
+
 ## Skills
 
 **iOS development**: SwiftUI + UIKit, Swiftgen, Apollo GraphQL, CoreData, SwiftLint, SwiftFormat, Sourcery, Bitrise.
