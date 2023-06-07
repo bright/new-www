@@ -1,18 +1,39 @@
 ---
+team_members:
+  - agata-m
+our_service:
+  - mobile app development
 layout: project
 project_id: finebite
 title: "Finebite (Everytap) "
 image: /images/foodapp_ingredients.png
-social_media_previev: /images/finebite_fb_preview.png
-social_media_previev_alt: Finebite (Everytap) case study
 description: Finebite app helps to discover the best restaurants in the biggest
   Polish cities. Finebite originated from a very popular loyalty app – Everytap.
+hero_image: /images/food_tech_case_study_app.png
+Hero Image_alt: "Finebite (Everytap) "
+social_media_previev: /images/finebite_fb_preview.png
+social_media_previev_alt: Finebite (Everytap) case study
+bar_achievements:
+  - number: 2
+    label: iOS and Android apps
+  - number: 100000
+    label: Downloads on Google Play
+  - number: 500
+    label: Restaurants
+  - number: 350000
+    label: Active users
 tags:
   - mobile app
   - customized software
   - retail & restaurant
+title_team: team
+title_case_study: case studies
+title_contact: Let's talk about your app
+description_contact: Contact us and we'll get back to you within 48 hours!
 order: 99
 slug: everytap
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
