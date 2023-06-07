@@ -41,7 +41,9 @@ show_case_study: false
 show on homepage: true
 published: true
 ---
-<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/app_baumappe_mockups.png" alt="app baumappe mockup" title="Mockup example designed by Heinrich Schmid's Product Design Team."  /> </div>
+
+*Mockup example designed by Heinrich Schmid's Product Design Team.*
 
 ## Skills
 
