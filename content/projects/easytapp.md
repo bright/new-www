@@ -25,7 +25,7 @@ tags:
 title_team: team
 title_case_study: case study
 title_contact: Let's talk about your app
-description_contact: Book a free consulation in 48 hours!
+description_contact: Book a free consultation in 48 hours!
 order: 99
 slug: easytapp
 show_team: false
