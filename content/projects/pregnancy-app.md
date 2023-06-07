@@ -19,6 +19,8 @@ bar_achievements:
     label: iOS and Android apps
   - number: 5
     label: Key features
+  - number: 9
+    label: month journey
 tags:
   - mobile app
   - customized software
@@ -34,7 +36,7 @@ show_case_study: false
 show on homepage: false
 published: true
 ---
-<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/brightstory_pregnancy_app.png" alt="pregnancy health tech app" title="Pregnancy app"  /> </div>
 
 ## Main tech elements
 
