@@ -338,7 +338,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   postsResult.forEach(post => {
     const postNode = post.node
     const nodeFileAbsolutePath: string = postNode.internal.contentFilePath
-    const currentPostTags: string[] = postNode.frontmatter.tags
+    const currentPostTags: string[] = postNode.frontmatter.tags ?? []
 
     const flatteredYmlTags = ymlDocTags.groups.reduce((previousValue: string[], currentValue: TagGroup) => {
       if (currentValue.groups) {
