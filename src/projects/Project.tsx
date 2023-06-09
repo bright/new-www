@@ -7,7 +7,7 @@ import { CustomSection, CustomSectionTitle, FlexWrapper } from '../components/sh
 import { useWindowSize } from '../components/utils/use-windowsize'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 import TeamMembers from '../components/subcomponents/TeamMembers'
-import { Container, ProjectArticle, ProjectLink, ProjectTextRegular, SectionContact, Title, TopProjectArticle } from './Project.styled'
+import { Container, ArticleContent, ProjectLink, ProjectTextRegular, SectionContact, Title, TopProjectArticle } from './Project.styled'
 import AchievementsProject from '../components/shared/AchievementsProject'
 import { Projects } from '../components/home/Projects'
 import { routeLinks } from '../config/routing'
@@ -56,14 +56,19 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
           <Title>{title}</Title>
           <ProjectTextRegular >{description}</ProjectTextRegular>
         </TopProjectArticle>
-        <GatsbyImage image={heroImage!} alt={hero_image_alt} />
+
+        <ArticleContent >
+          <GatsbyImage image={heroImage!} alt={hero_image_alt} />
+        </ArticleContent>
 
       </Container>
+
       <AchievementsProject achievements={bar_achievements} />
+
       <Container id='project'>
-        <ProjectArticle >
+        <ArticleContent >
           <div className='content'>{children}</div>
-        </ProjectArticle>
+        </ArticleContent>
 
       </Container>
       {show_team && <CustomSection paddingProps='11.25rem 0 2rem' paddingLaptop='124px 96px 0' paddingMobileProps='0 1.125rem 0rem'>

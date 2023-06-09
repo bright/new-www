@@ -1,6 +1,5 @@
 import { Link } from 'gatsby'
 import image from '../../static/images/bullet_point.svg'
-import { TextRegular } from '../components/shared'
 import variables from '../styles/variables'
 import styled from 'styled-components'
 
@@ -82,7 +81,9 @@ export const Container = styled.div`
     }
   }
 `
-export const ProjectArticle = styled.article`
+
+
+export const ArticleContent = styled.article`
   padding: 0 ${variables.pxToRem(113)};
   @media ${variables.device.tablet} {
     padding: 0 ${variables.pxToRem(36)};
