@@ -40,7 +40,7 @@ export type PostTemplateProps = PropsWithChildren<{
         author: string
         secondAuthor: string
         thirdAuthor: string
-        tags: string[]
+        tags?: string[]
         date: string
         meaningfullyUpdatedAt: string
         excerpt: string
@@ -111,7 +111,7 @@ export const PostTemplate = function PostTemplate(props: PostTemplateProps) {
     <Page>
       <HelmetMetaData title={title} description={mdx.excerpt} type='article' image={image} canonicalUrl={canonicalUrl}>
         <meta property='article:published_time' content={mdx.frontmatter.date} />
-        <meta property='article:tag' content={mdx.frontmatter.tags.join(', ')} />
+        <meta property='article:tag' content={mdx.frontmatter.tags?.join(', ') ?? ''} />
       </HelmetMetaData>
       <ConstrainedWidthContainer id='blog'>
         <SocialMediaShare blackIcons slug={pathname} title={title} />
