@@ -11,7 +11,7 @@ export const GalleryCmsEditorComponent = {
                 {
                     label: 'Source',
                     name: 'src',
-                    widget: 'images',
+                    widget: 'image',
 
                 },
                 {
@@ -24,6 +24,11 @@ export const GalleryCmsEditorComponent = {
     ],
     pattern: /^<Gallery\s+images=['"](.*?)['"]\s*\/>$/,
     fromBlock(match: RegExpMatchArray) {
+        if (!match[1]) {
+            // Log some error or handle this case as needed
+            console.error('No match found for Gallery');
+            return { images: [] };
+        }
         const imagesData = JSON.parse(match[1]);
         return { images: imagesData };
     },
