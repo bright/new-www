@@ -73,7 +73,7 @@ export const pageQuery = graphql`
   query MyQuery($skip: Int!, $limit: Int!) {
     allMdx(
       filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
-      sort: { fields: fields___modifiedAt, order: DESC }
+      sort: { fields: { modifiedAt: DESC } }
       skip: $skip
       limit: $limit
     ) {

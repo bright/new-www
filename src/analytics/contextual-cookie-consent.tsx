@@ -1,6 +1,6 @@
 import CookieConsent from 'react-cookie-consent'
 import { CookieConsentProps } from 'react-cookie-consent/dist/CookieConsent.props'
-import React, { createContext, useContext, useMemo, useState } from 'react'
+import React, { createContext, PropsWithChildren, useContext, useMemo, useState } from 'react'
 import { hasUserDecidedOnConsent } from './local-storage-constants'
 
 const CookieConsentContext = createContext({
@@ -8,7 +8,7 @@ const CookieConsentContext = createContext({
   setVisibleByDefault(visible: boolean) {},
 })
 
-export const CookieConsentContextWrapper: React.FC<{ visibleByDefault?: boolean }> = function ({
+export const CookieConsentContextWrapper: React.FC<PropsWithChildren<{ visibleByDefault?: boolean }>> = function ({
   children,
   visibleByDefault,
 }) {
@@ -23,8 +23,8 @@ export const CookieConsentContextWrapper: React.FC<{ visibleByDefault?: boolean 
 }
 
 class VisibleCookieConsent extends CookieConsent {
-  constructor(props: CookieConsentProps, context: any) {
-    super(props, context)
+  constructor(props: CookieConsentProps) {
+    super(props)
     this.state = {
       ...this.state,
       visible: true,

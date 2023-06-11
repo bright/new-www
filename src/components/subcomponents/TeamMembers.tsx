@@ -321,7 +321,7 @@ const TeamMembers = ({
   const whyUsTeamMembers = width <= 992 ? 8 : 12
   const [numberOfMembers, setNumberOfMembers] = useState<number>()
 
-  const ref: any = useRef<HTMLDivElement>()
+  const ref = useRef<HTMLDivElement>(null)
   const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
 
   useEffect(() => {

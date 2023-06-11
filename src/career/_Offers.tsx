@@ -50,7 +50,7 @@ const jobsQuery = graphql`
     allMdx(
       filter: { frontmatter: { layout: { eq: "job" }, published: { eq: true } } }
 
-      sort: { fields: [frontmatter___order] }
+      sort: { frontmatter: { order: ASC } }
     ) {
       edges {
         node {

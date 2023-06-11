@@ -59,7 +59,7 @@ const GQL = graphql`
   {
     allMdx(
       filter: { frontmatter: { layout: { eq: "our-service" }, published: { eq: true } } }
-      sort: { order: ASC, fields: frontmatter___order }
+      sort: { frontmatter: { order: ASC } }
     ) {
       edges {
         node {

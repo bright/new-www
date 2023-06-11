@@ -193,7 +193,7 @@ export const pageQuery = graphql`
           tags: { in: $relatedTags }
         }
       }
-      sort: { fields: fields___modifiedAt, order: DESC }
+      sort: { fields: { modifiedAt: DESC } }
       limit: 5
     ) {
       edges {

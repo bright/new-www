@@ -28,13 +28,13 @@ export interface AppStoreProps {
     srcAppStore: string;
     altAppStoreImage: string;
 }
-export const AppStore: React.FC<AppStoreProps> = ({
+export const AppStore = ({
     googleApp,
     srcGoogle,
     altGoogleImage,
     appStore,
     srcAppStore,
-    altAppStoreImage }) => {
+    altAppStoreImage }: AppStoreProps) => {
     return (
         <AppSection>
             <FlexWrapper desktopGap='64px' desktopItems='center' desktopContent='center' laptopGap='48px' mobileGap='32px'>

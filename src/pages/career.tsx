@@ -1,17 +1,10 @@
-// ---
-// layout: default
-// title: Career
-// class: career
-// ---
-
 import React from 'react'
 
 import { Page } from '../layout/Page'
-import loadable from '@loadable/component'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { PageTitle, Section } from '../components/shared'
 import WhatWePractice from '../career/_WhatWePractice'
-const HeaderImages = loadable(() => import('../career/_HeaderImages'))
+const HeaderImages = React.lazy(() => import('../career/_HeaderImages'))
 import Description from '../career/_Description'
 import Offers from '../career/_Offers'
 import OurWork from '../career/_OurWork'

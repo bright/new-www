@@ -123,7 +123,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   {
     author: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${member.author_id}"}}}
-      sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
+      sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
     ) {
       edges {
         node {
@@ -149,7 +149,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }
     secondAuthor: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, secondAuthor: {eq: "${member.author_id}"}}}
-      sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
+      sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
     ) {
       edges {
         node {
@@ -174,7 +174,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     }
     thirdAuthor: allMdx(
       filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${member.author_id}"}}}
-      sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
+      sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
     ) {
       edges {
         node {
@@ -306,7 +306,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       {
         allMdx(
           filter: { frontmatter: { layout: { eq: "post" } } }
-          sort: { fields: [frontmatter___meaningfullyUpdatedAt, frontmatter___date], order: [ASC, DESC] }
+          sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
           limit: 1000
         ) {
           edges {

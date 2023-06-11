@@ -10,9 +10,10 @@ import { Gallery } from './gallery-icons'
 import { SliderText } from './slider-text'
 import { AppStore } from './app-store'
 import { AnchorLink } from './button-anchor'
+import { MDXComponents } from 'mdx/types'
 
 
-export const mdxComponents = {
+export const mdxComponents: MDXComponents = {
   YouTubeEmbed: BrightYouTubeEmbed,
   InstagramEmbed: BrightInstagramEmbed,
   TwitterEmbed: BrightTwitterEmbed,
@@ -23,8 +24,6 @@ export const mdxComponents = {
   SliderText: SliderText,
   AppStore: AppStore,
   AnchorLink: AnchorLink
-
-
 }
 
 export const MDXComponentsWrapper = ({ children }: PropsWithChildren<any>) => (

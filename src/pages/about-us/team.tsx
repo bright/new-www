@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import loadable from '@loadable/component'
 
-const TeamMembers = loadable(() => import('../../components/subcomponents/TeamMembers'))
+const TeamMembers = React.lazy(() => import('../../components/subcomponents/TeamMembers'))
 // const TeamMembers = React.lazy(() => import('../../components/subcomponents/TeamMembers'))
 import { FormComponent } from '../../components/about-us/form-section/form'
 import { CustomPageTitle, CustomSection, CustomSectionInner, TextRegular } from '../../components/shared'

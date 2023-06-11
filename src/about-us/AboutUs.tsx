@@ -1,4 +1,4 @@
-import React, { CSSProperties, useRef, useEffect } from 'react'
+import React, { CSSProperties, useRef, useEffect, PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import { PageContext, Paging } from '../blog/Paging'
@@ -100,7 +100,7 @@ interface Props {
   pageContext: PageContext & { posts: Edge[]; id: string } // TODO: add use proper blog post type
 }
 
-const AboutUSTemplate: React.FC<Props> = ({ data, pageContext, children }) => {
+const AboutUSTemplate: React.FC<PropsWithChildren<Props>> = ({ data, pageContext, children }) => {
   const { members: member } = data // data.mdx holds your post data
   if (!member) {
     throw new Error(`data.member required but not found for id: ${pageContext.id}`)

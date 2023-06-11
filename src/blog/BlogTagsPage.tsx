@@ -84,7 +84,7 @@ PageDescription> import { useEffect, useState } from 'react';
 }
 
 export const pageQuery = graphql`
-  query MyQueryy($groupTags: [String!]!, $skip: Int!, $limit: Int!) {
+  query MyQuery($groupTags: [String!]!, $skip: Int!, $limit: Int!) {
     allMdx(
       filter: {
         frontmatter: {
@@ -94,7 +94,7 @@ export const pageQuery = graphql`
           tags: { in: $groupTags }
         }
       }
-      sort: { fields: fields___modifiedAt, order: DESC }
+      sort: { fields: { modifiedAt: DESC } }
       skip: $skip
       limit: $limit
     ) {

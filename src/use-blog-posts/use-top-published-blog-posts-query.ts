@@ -8,7 +8,7 @@ export const useTopPublishedBlogPostsQuery: () => BlogPostsFrontmatterQueryResul
     query {
       allMdx(
         filter: { frontmatter: { layout: { eq: "post" }, published: { ne: false }, hidden: { ne: true } } }
-        sort: {fields: fields___modifiedAt, order: DESC}
+        sort: { fields: { modifiedAt: DESC }  }
         limit: 4
       ) {
         posts: nodes {

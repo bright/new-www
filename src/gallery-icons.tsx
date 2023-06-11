@@ -38,7 +38,7 @@ export interface GalleryIconsProps {
     images: Image[];
 }
 
-export const Gallery: React.FC<GalleryIconsProps> = ({ images }) => {
+export const Gallery = ({ images }: GalleryIconsProps) => {
     let parsedImages: Image[];
 
     if (typeof images === 'string') {

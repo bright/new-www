@@ -1,4 +1,4 @@
-import { FormEvent, useCallback, useState } from 'react'
+import { ChangeEvent, FormEvent, useCallback, useState } from 'react'
 import { FormType, JobFormData, sendMail } from '../../../helpers/mail'
 
 export function useApplicationForm() {
@@ -11,12 +11,12 @@ export function useApplicationForm() {
     isSubmitted: false,
     isSending: false,
     linkedinlink: '',
-    attachments: [] as File[]
+    attachments: [] as File[],
   })
   const handleSubmit = (event: FormEvent, data: JobFormData) => {
     setValue(state => ({
       ...state,
-      isSending: true
+      isSending: true,
     }))
     event.preventDefault()
     sendMail(data, FormType.job)
@@ -24,7 +24,7 @@ export function useApplicationForm() {
         setValue(state => ({
           ...state,
           isSubmitted: true,
-          isSending: false
+          isSending: false,
         }))
       })
       .catch(err => {
@@ -32,7 +32,7 @@ export function useApplicationForm() {
         setValue(state => ({
           ...state,
           isError: true,
-          isSending: false
+          isSending: false,
         }))
       })
   }
@@ -40,29 +40,29 @@ export function useApplicationForm() {
   const setIsSubmitedToFalse = () => {
     setValue(state => ({
       ...state,
-      isSubmitted: false
+      isSubmitted: false,
     }))
   }
 
-  const handleChange = useCallback(event => {
+  const handleChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
     event.persist()
     const value =
       event.target.type === 'checkbox'
         ? event.target.checked
         : event.target.type === 'file'
-          ? event.target.files
-          : event.target.value
+        ? event.target.files
+        : event.target.value
 
     if (event.target.name == 'clearCv') {
       setValue(state => ({
         ...state,
-        cv: null
+        cv: null,
       }))
     } else {
       setValue(state => {
         return {
           ...state,
-          [event.target.name]: value
+          [event.target.name]: value,
         }
       })
     }
@@ -71,28 +71,28 @@ export function useApplicationForm() {
   function setAttachments(files: File[]) {
     setValue({
       ...value,
-      attachments: files
+      attachments: files,
     })
   }
 
   function setEmail(email: string) {
     setValue({
       ...value,
-      email
+      email,
     })
   }
 
   function setName(name: string) {
     setValue({
       ...value,
-      name
+      name,
     })
   }
 
   function setLinkedinUrl(url: string) {
     setValue({
       ...value,
-      message: url
+      message: url,
     })
   }
 
@@ -100,7 +100,7 @@ export function useApplicationForm() {
     if (indexToRemove < value.attachments.length) {
       setValue({
         ...value,
-        attachments: value.attachments.filter((_, ix) => ix !== indexToRemove)
+        attachments: value.attachments.filter((_, ix) => ix !== indexToRemove),
       })
     }
   }
@@ -114,6 +114,6 @@ export function useApplicationForm() {
     setEmail,
     setName,
     setLinkedinUrl,
-    removeAttachmentAtIndex
+    removeAttachmentAtIndex,
   }
 }
