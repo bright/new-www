@@ -1,26 +1,8 @@
-diff --git a/node_modules/gatsby/dist/utils/api-runner-node.js b/node_modules/gatsby/dist/utils/api-runner-node.js
-index 0de401e..07388c2 100644
---- a/node_modules/gatsby/dist/utils/api-runner-node.js
-+++ b/node_modules/gatsby/dist/utils/api-runner-node.js
-@@ -344,6 +344,7 @@ const availableActionsCache = new Map();
- let publicPath;
- 
- const runAPI = async (plugin, api, args, activity) => {
-+  // console.log('runAPI', {plugin, api, args, activity})
-   const gatsbyNode = requireGatsbyPlugin(plugin, `gatsby-node`);
- 
-   if (gatsbyNode[api]) {
 diff --git a/node_modules/gatsby/dist/utils/parcel/compile-gatsby-files.js b/node_modules/gatsby/dist/utils/parcel/compile-gatsby-files.js
-index c737a3a..09e5e15 100644
+index 5c05339..72ec50e 100644
 --- a/node_modules/gatsby/dist/utils/parcel/compile-gatsby-files.js
 +++ b/node_modules/gatsby/dist/utils/parcel/compile-gatsby-files.js
-@@ -54,12 +54,347 @@ function constructParcel(siteRoot, cache) {
-   return new _core.Parcel({
-     entries: [`${siteRoot}/${gatsbyFileRegex}`, `${siteRoot}/plugins/**/${gatsbyFileRegex}`],
-     defaultConfig: require.resolve(`gatsby-parcel-config`),
--    mode: `production`,
-+    mode: `development`,
-     cache,
+@@ -46,7 +46,342 @@ function constructParcel(siteRoot, cache) {
      targets: {
        root: {
          outputFormat: `commonjs`,
@@ -363,4 +345,4 @@ index c737a3a..09e5e15 100644
 +        ])),
          sourceMap: process.env.NODE_ENV === `development`,
          engines: {
-           node: "4" === `5` ? `>= 18.0.0` : `>= 14.15.0`
+           node: "5" === `5` ? `>= 18.0.0` : `>= 14.15.0`
