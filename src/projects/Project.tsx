@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropsWithChildren } from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
 import { Page } from '../layout/Page'
@@ -17,7 +17,7 @@ import { Contact } from '../components/shared/Contact'
 
 
 
-const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
+const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, children }) => {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter } = mdx
   const { title,

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropsWithChildren } from 'react'
 import { Link } from 'gatsby'
 import * as Styled from './index.styled'
 
@@ -15,7 +15,7 @@ interface MoreButtonProps {
   isPositionLeft?: boolean
 }
 
-export const MoreButton: React.FC<MoreButtonProps> = ({
+export const MoreButton: React.FC<PropsWithChildren<MoreButtonProps>> = ({
   onClick,
   href,
   text,

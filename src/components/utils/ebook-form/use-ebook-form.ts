@@ -2,7 +2,7 @@ import React, { useCallback, useState, useEffect } from 'react'
 import { apiClient } from '../../../../api-client/client'
 import { EbookSignUp200Response, EbookSignUpOperationRequest, EbookSignUpRequest } from '../../../../api-client'
 import { useLocalStorageState } from '../use-local-storage-state'
-import { EbookSignUp200ResponseEbook } from './../../../../api-client/models/EbookSignUp200ResponseEbook'
+import { EbookSignUp200ResponseEbook } from '../../../../api-client'
 import { trackCustomEvent } from '../../../analytics/track-custom-event'
 
 export interface EbookFormValue {
@@ -84,7 +84,7 @@ export function useEbookForm(ebookName: string) {
   }
 
   const handleSubmit = useCallback(
-    event => {
+    (event: React.FormEvent) => {
       setValue(state => ({
         ...state,
         isSending: true,

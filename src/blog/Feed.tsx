@@ -20,7 +20,7 @@ const ImageWrapper = styled.div`
 `
 interface Props {
   posts: BlogPostModel[]
-  numToSliced?: Number
+  numToSliced?: number
 }
 
 export const BlogFeed = ({ posts, numToSliced }: Props) => {
