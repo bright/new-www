@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from "react"
+import React, { ChangeEvent, PropsWithChildren, useState } from 'react'
 import { TickIcon } from "../../icons/Tick.icon"
 import { CheckboxFieldContainer } from "./fields.styled"
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
   checked?: boolean
   onChange?(event: ChangeEvent): void
 }
-export const CheckboxField: React.FC<Props> = function CheckboxField({
+export const CheckboxField: React.FC<PropsWithChildren<Props>> = function CheckboxField({
   children,
   name,
   ...props

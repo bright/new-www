@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from 'react'
+import React, { ChangeEvent, PropsWithChildren, useState } from 'react'
 
 import { CheckboxSwitchContainer } from './fields.styled'
 interface Props {
@@ -8,7 +8,7 @@ interface Props {
   checked?: boolean
   onChange?(event: ChangeEvent): void
 }
-export const CheckboxSwitch: React.FC<Props> = function CheckboxSwitch({ children, name, ...props }) {
+export const CheckboxSwitch: React.FC<PropsWithChildren<Props>> = function CheckboxSwitch({ children, name, ...props }) {
   return (
     <CheckboxSwitchContainer>
       <input type='checkbox' id={name || 'checkbox'} name={name || 'checkbox'} {...props} />
