@@ -105,7 +105,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "NODE_OPTIONS=${NODE_OPTIONS:---max-old-space-size=4096} gatsby build --prefix-paths --log-pages",
+    "build": "NODE_OPTIONS=${NODE_OPTIONS:---max-old-space-size=5128} gatsby build --prefix-paths --log-pages",
     "build:debug": "node --inspect-brk $(which gatsby) build --prefix-paths --log-pages",
     "clean": "gatsby clean",
     "tsc": "tsc",
