@@ -15,11 +15,11 @@ Hero Image_alt: Pregnancy mobile app
 social_media_previev: /images/pregnancyapp_fb_preview.png
 social_media_previev_alt: Pregnancy App case study
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: iOS and Android apps
-  - number: 5
+  - number: '5'
     label: Key features
-  - number: 9
+  - number: '9'
     label: month journey
 tags:
   - mobile app

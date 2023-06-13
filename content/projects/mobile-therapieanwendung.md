@@ -15,11 +15,11 @@ Hero Image_alt: Mobile Therapieanwendung
 social_media_previev: /images/fb_preview_case_study_mobile-therapy_app_german.png
 social_media_previev_alt: Mobile Therapieanwendung
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: iOS und Androids Apps
-  - number: 5
+  - number: '5'
     label: Haupteigenschaften
-  - number: 6
+  - number: '6'
     label: Monate bis zur MVP-Einführung
 tags:
   - mobile app

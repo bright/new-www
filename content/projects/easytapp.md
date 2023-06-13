@@ -14,9 +14,9 @@ Hero Image_alt: Real estate app
 social_media_previev: /images/easytapp_fb_preview.png
 social_media_previev_alt: EasyTapp
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: iOS and Android apps
-  - number: 3
+  - number: '3'
     label: Key features
 tags:
   - mobile app

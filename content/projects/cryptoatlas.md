@@ -16,13 +16,13 @@ Hero Image_alt: CryptoAtlas
 social_media_previev: /images/cryptoatlas_fb_preview.png
 social_media_previev_alt: CryptoAtlas case study
 bar_achievements:
-  - number: 1
+  - number: '1'
     label: MVP
-  - number: 5
+  - number: '5'
     label: MVP key features
-  - number: 15000
+  - number: '15000'
     label: followers on Twitter
-  - number: 50
+  - number: '50'
     label: news categories
 tags:
   - web app

@@ -16,13 +16,13 @@ Hero Image_alt: Therapy app
 social_media_previev: /images/therapy_fb_preview.png
 social_media_previev_alt: Mobile Therapy App case study
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: iOS and Android apps
-  - number: 1
+  - number: '1'
     label: MVP
-  - number: 5
+  - number: '5'
     label: Key MVP featuers
-  - number: 6
+  - number: '6'
     label: months to MVP launch
 tags:
   - mobile app

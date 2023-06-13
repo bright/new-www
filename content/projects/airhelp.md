@@ -16,11 +16,11 @@ Hero Image_alt: AirHelp case study
 social_media_previev: /images/airhelp_fb_preview.png
 social_media_previev_alt: AirHelp case study
 bar_achievements:
-  - number: 1
+  - number: '1'
     label: MVP
-  - number: 1
+  - number: '1'
     label: iOS App
-  - number: 4
+  - number: '4'
     label: Key MVP features
 tags:
   - mobile app

@@ -15,11 +15,11 @@ Hero Image_alt: Schwangerschafts-App
 social_media_previev: /images/fb_preview_case_study_pregnancy_app_de.png
 social_media_previev_alt: Schwangerschafts-App
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: iOS und Android apps
   - label: Haupteigenschaften
-    number: 5
-  - number: 9
+    number: '5'
+  - number: '9'
     label: monatige Reise
 tags:
   - mobile app

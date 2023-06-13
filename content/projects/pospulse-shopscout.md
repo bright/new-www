@@ -17,9 +17,9 @@ Hero Image_alt: A solution for FMCG companies
 social_media_previev: /images/pos_fb_preview.png
 social_media_previev_alt: POSPulse & ShopScout case study
 bar_achievements:
-  - number: 800000
+  - number: '800000'
     label: active users
-  - number: 2
+  - number: '2'
     label: iOS and Android apps
 tags:
   - mobile app

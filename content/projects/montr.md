@@ -16,13 +16,13 @@ Hero Image_alt: Digitized Questionnaires
 social_media_previev: /images/questionnaire_fb_preview.png
 social_media_previev_alt: Digitized Questionnaires case study
 bar_achievements:
-  - number: 1
+  - number: '1'
     label: web MVP
-  - number: 11
+  - number: '11'
     label: Key features
-  - number: 4
+  - number: '4'
     label: Bright team members
-  - number: 5
+  - number: '5'
     label: Years of cooperation
 tags:
   - web app

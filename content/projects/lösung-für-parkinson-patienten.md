@@ -15,13 +15,13 @@ Hero Image_alt: Lösung für Parkinson-Patienten
 social_media_previev: /images/fb_preview_case_study_parkinson_app_de.png
 social_media_previev_alt: Lösung für Parkinson-Patienten
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: iOS uns Android Apps
-  - number: 1
+  - number: '1'
     label: MVP
-  - number: 5
+  - number: '5'
     label: Hauptfunktionen
-  - number: 3
+  - number: '3'
     label: Monate bis zur MVP-Einführung
 tags:
   - mobile app

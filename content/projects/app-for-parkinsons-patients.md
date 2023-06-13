@@ -16,13 +16,13 @@ Hero Image_alt: App for patients suffering from Parkinson’s disease
 social_media_previev: /images/parkinson_s_fb_preview.png
 social_media_previev_alt: App for Parkinson's patients case study
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: iOS and Android apps
-  - number: 1
+  - number: '1'
     label: MVP
-  - number: 5
+  - number: '5'
     label: Key features
-  - number: 3
+  - number: '3'
     label: months to MVP launch
 tags:
   - mobile app

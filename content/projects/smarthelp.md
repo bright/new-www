@@ -16,13 +16,13 @@ Hero Image_alt: Emergency app
 social_media_previev: /images/smarthelp_fb_preview.png
 social_media_previev_alt: SmartHelp case study
 bar_achievements:
-  - number: 1
+  - number: '1'
     label: MVP
-  - number: 2
+  - number: '2'
     label: iOS and Android apps
-  - number: 2014
+  - number: '2014'
     label: year of the launch
-  - number: 7
+  - number: '7'
     label: Key features
 tags:
   - mobile app

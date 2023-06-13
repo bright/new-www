@@ -14,13 +14,13 @@ Hero Image_alt: "Finebite (Everytap) "
 social_media_previev: /images/finebite_fb_preview.png
 social_media_previev_alt: Finebite (Everytap) case study
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: iOS and Android apps
-  - number: 100000
+  - number: '100000'
     label: Downloads on Google Play
-  - number: 500
+  - number: '500'
     label: Restaurants
-  - number: 350000
+  - number: '350000'
     label: Active users
 tags:
   - mobile app

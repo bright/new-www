@@ -15,11 +15,11 @@ Hero Image_alt: Card reader
 social_media_previev: /images/cardreader_fb_preview.png
 social_media_previev_alt: Card Reader case study
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: mobile apps
-  - number: 6
+  - number: '6'
     label: key features
-  - number: 2
+  - number: '2'
     label: iOS and Android apps
 tags:
   - mobile app

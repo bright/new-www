@@ -22,13 +22,13 @@ Hero Image_alt: Just Eat POS
 social_media_previev: /images/restaurant_system_preview.png
 social_media_previev_alt: Just Eat POS
 bar_achievements:
-  - number: 9
+  - number: '9'
     label: Years of cooperation
-  - number: 8
+  - number: '8'
     label: Teams from Bright Inventions
-  - number: 10
+  - number: '10'
     label: Apps in the system
-  - number: 100
+  - number: '100'
     label: features built
 tags:
   - web app

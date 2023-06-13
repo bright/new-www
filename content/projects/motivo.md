@@ -16,11 +16,11 @@ Hero Image_alt: Cycling app
 social_media_previev: /images/motivo_fb_preview.png
 social_media_previev_alt: Motivo case study
 bar_achievements:
-  - number: 2013
+  - number: '2013'
     label: Release date
-  - number: 1
+  - number: '1'
     label: iOS app
-  - number: 5
+  - number: '5'
     label: Key features
 tags:
   - mobile app

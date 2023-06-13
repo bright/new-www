@@ -22,7 +22,7 @@ social_media_previev_alt: Relevo case study
 bar_achievements:
   - number: 50k
     label: Downloads on Google Play
-  - number: 2
+  - number: '2'
     label: Mobile apps
   - number: 2+
     label: Years of cooperation

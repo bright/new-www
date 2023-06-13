@@ -17,13 +17,13 @@ Hero Image_alt: Document Management Apps for Construction
 social_media_previev: /images/fb_preview-case-study.png
 social_media_previev_alt: HS Baumappe – Document Management Apps for Construction
 bar_achievements:
-  - number: 2
+  - number: '2'
     label: 2 mobile apps
-  - number: 5
+  - number: '5'
     label: team members
-  - number: 1
+  - number: '1'
     label: MVP
-  - number: 27
+  - number: '27'
     label: sprints
 tags:
   - mobile app
