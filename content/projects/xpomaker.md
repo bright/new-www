@@ -12,7 +12,7 @@ image: /images/xpomaker_dashboard.png
 description: >
   A trade fair planning software that revolutionizes the way companies prepare
   and organize all assets needed for industry events.
-hero_image: /images/event_management_app_case_study.png
+hero_image: /images/event_management_app_case_study_big_new.png
 Hero Image_alt: event manegement app
 social_media_previev: /images/xpomaker_fb_preview.png
 social_media_previev_alt: xpomaker case study
