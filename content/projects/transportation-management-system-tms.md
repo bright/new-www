@@ -1,6 +1,13 @@
 ---
 team_members:
-  - agnieszka_h
+  - agnieszka
+  - kasia
+  - joanna-c
+  - radek
+  - wojciech
+  - maciej-s
+  - szymon-ch
+  - katarzyna-b
 our_service:
   - MVP development
   - product design
@@ -12,7 +19,7 @@ image: /images/tms_cover_2x.png
 description: TMS supports freight forwarders to manage transportation faster.
   Finding suitable listings and matching them with the carriers has never been
   faster.
-hero_image: /images/tms_app.png
+hero_image: /images/tms_app_big.png
 Hero Image_alt: Transportation Management System
 social_media_previev: /images/tms_social_preview.png
 social_media_previev_alt: Transportation Management System case study
@@ -37,12 +44,12 @@ title_contact: Let's talk about your solution
 description_contact: Book a free consultation in 48 hours
 order: 3
 slug: transportation-management-system
-show_team: false
-show_case_study: false
+show_team: true
+show_case_study: true
 show on homepage: false
 published: true
 ---
-<div class="image"><img src="/images/tms_market_ui.png" alt="transport management system UI case study" title="undefined"  /> </div>
+<div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
 
 ## About TMS project
 
@@ -85,7 +92,7 @@ What’s more, our team had to design an **algorithm that would automatically fi
 
 In terms of product design, the right **architectural information** was the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen so they could scan all the info fast.
 
-<div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
+<div class="image"><img src="/images/tms_market_ui.png" alt="transport management system UI case study" title="undefined"  /> </div>
 
 ## TMS Development Process
 
