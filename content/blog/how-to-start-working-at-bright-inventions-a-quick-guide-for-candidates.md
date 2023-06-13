@@ -38,11 +38,11 @@ The interview lasts 2,5 hour and it usually takes the full length of the allocat
 
 <div class="image"><img src="/images/interview-sections.png" alt="interview sections " title="undefined"  /> </div>
 
-**Introduction is just a short 10-15 minutes section to get you current professional status and check if anything changes since our last phone conversation. W**e will ask you a few question about the present project, methodologies you use and recent tasks. \
+**1️⃣ Introduction is just a short 10-15 minutes section to get you current professional status and check if anything changes since our last phone conversation. W**e will ask you a few question about the present project, methodologies you use and recent tasks. \
 \
-**Next will be technical part which is not to get the perfect answers (remember that!)**. The goal of technical interview is to explore various approaches and discuss workable solutions. It is ok to make mistakes and have different ideas to share. Your answers to our questions give us some idea of your coding skills, problem-solving attitude or even teamwork abilities. After the technical part you will get some first-impression feedback on the spot. 
+**2️⃣ Next will be technical part which is not to get the perfect answers (remember that!)**. The goal of technical interview is to explore various approaches and discuss workable solutions. It is ok to make mistakes and have different ideas to share. Your answers to our questions give us some idea of your coding skills, problem-solving attitude or even teamwork abilities. After the technical part you will get some first-impression feedback on the spot. 
 
-**The culture fit section’s purpose is to make sure your values blend well with our current team members.** We ask you about work preferences, values you follow at work or what motivates you.
+**3️⃣ The culture fit section’s purpose is to make sure your values blend well with our current team members.** We ask you about work preferences, values you follow at work or what motivates you.
 
 We encourage you to ask any questions or doubts you may have. 🧡 We are trying to organise an interview in a discussion friendly mode. It is also an opportunity for you to meet some team members you may work alongside in the future.
 
