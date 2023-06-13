@@ -22,7 +22,7 @@ bar_achievements:
   - number: 5
     label: Haupteigenschaften
   - number: 6
-    label: 6 Monate bis zur MVP-Einführung
+    label: Monate bis zur MVP-Einführung
 tags:
   - mobile app
   - customized software
