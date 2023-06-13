@@ -4,7 +4,7 @@ tags:
   - update
 date: 2023-06-13T09:49:28.935Z
 meaningfullyUpdatedAt: 2023-06-13T09:49:28.969Z
-title: Exploring DDD Principles with Jacek Pilimon. Join our Meetup in Gdańsk
+title: Exploring DDD Principles with Jakub Pilimon. Join our Meetup in Gdańsk
 layout: post
 image: /images/ddd_blog_post.png
 hidden: false
