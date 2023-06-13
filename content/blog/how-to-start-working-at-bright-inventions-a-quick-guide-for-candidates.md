@@ -36,7 +36,7 @@ The interview lasts 2,5 hour and it usually takes the full length of the allocat
 2. technical part,
 3. culture fit section.  
 
-<div class="image"><img src="/images/interview-sections.png" alt="interview process bright inventions " title="undefined"  /> </div>
+<div class="image"><img src="/images/interview-sections.png" alt="interview sections " title="undefined"  /> </div>
 
 **Introduction is just a short 10-15 minutes section to get you current professional status and check if anything changes since our last phone conversation. W**e will ask you a few question about the present project, methodologies you use and recent tasks. \
 \
