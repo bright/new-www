@@ -20,14 +20,12 @@ Hero Image_alt: Relevo
 social_media_previev: /images/relevo_fb_preview.png
 social_media_previev_alt: Relevo case study
 bar_achievements:
-  - number: 50000
+  - number: 50k
     label: Downloads on Google Play
   - number: 2
     label: Mobile apps
-  - number: 2
+  - number: 2+
     label: Years of cooperation
-  - number: 5
-    label: Bright people
 tags:
   - mobile app
   - web app
@@ -36,7 +34,7 @@ tags:
   - retail & restaurant
 title_team: team behind the project
 title_case_study: more success stories
-title_contact: let’s talk about your product idea
+title_contact: let’s talk about your solution
 description_contact: Book a free consultation in 48 hours. Contact us!
 order: 3
 slug: eco-friendly-app
