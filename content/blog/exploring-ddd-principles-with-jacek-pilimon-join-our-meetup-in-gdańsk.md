@@ -13,7 +13,7 @@ published: true
 ---
 **Mark your calendars for a Domain-Driven Design session with Jakub Pilimon. We hope to see you in Gdańsk on June 15 at 6 PM.**
 
-<div class='block-button'><h2>No spots left but there is still a chance to join</h2><div>Register for the event and join waitlist!</div><a href="https://www.meetup.com/ddd-gda/events/294013722/"><button>join waitlist</button></a></div>
+<div class='block-button'><h2>No spots left but there is still a chance to join...</h2><div>The tickets have been claimed at a remarkable pace, but you can join waitlist!</div><a href="https://www.meetup.com/ddd-gda/events/294013722/"><button>join waitlist</button></a></div>
 
 ## Join the DDD-GDA meet-up and dive into the DDD world
 
