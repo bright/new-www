@@ -10,7 +10,7 @@ image: /images/xpomaker_dashboard2.png
 description: Eine Messeplanungssoftware, die Art und Weise revolutioniert, wie
   Unternehmen alle für Branchenveranstaltungen erforderlichen Assets vorbereiten
   und organisieren.
-hero_image: /images/event_management_app_case_study.png
+hero_image: /images/event_management_app_case_study_big_new.png
 Hero Image_alt: Messeplanungssoftware
 social_media_previev: /images/fb_preview_case_study_mobile_messe_planung_de.png
 social_media_previev_alt: Eine Messeplanungssoftware
