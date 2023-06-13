@@ -40,7 +40,7 @@ tags:
   - product design
 title_team: meet the team behind the solution
 title_case_study: our other success stories
-title_contact: Let's talk about your solution
+title_contact: let's talk about your solution
 description_contact: Book a free consultation in 48 hours.
 order: 3
 slug: transportation-management-system
