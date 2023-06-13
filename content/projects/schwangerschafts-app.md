@@ -20,7 +20,7 @@ bar_achievements:
   - label: Haupteigenschaften
     number: 5
   - number: 9
-    label: monatigen Reise
+    label: monatige Reise
 tags:
   - mobile app
   - customized software
