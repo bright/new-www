@@ -10,7 +10,7 @@ title: Card Reader
 image: /images/card_reader_mockup.png
 description: A fintech iOS and Android application that allows businesses to
   charge credit cards without a payment terminal.
-hero_image: /images/card_reader_case_study_app.svg
+hero_image: /images/card_reader_case_study_app-1-.png
 Hero Image_alt: Card reader
 social_media_previev: /images/cardreader_fb_preview.png
 social_media_previev_alt: Card Reader case study
@@ -20,9 +20,7 @@ bar_achievements:
   - number: 6
     label: key features
   - number: 2
-    label: "systems: iOS, Android"
-  - number: 1
-    label: trully cashless solution
+    label: iOS and Android apps
 tags:
   - mobile app
   - customized software
@@ -38,7 +36,7 @@ show_case_study: false
 show on homepage: false
 published: true
 ---
-![cashless transactions app](/images/card_reader_mockups.png)
+![cashless transactions app](/images/card_reader_mobile.png)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -62,10 +60,6 @@ Our client, a company that operates on the Israeli market, reached out to us wit
 When we first started our cooperation, the clients already had an up-and-running backend for the service, as well as a design for the intended interface. All they needed was to bring the mobile app to the market.
 
 The goal was to allow the end-user to attach a separate device to their phone via a mini-jack or lightening/USB-C, that would allow reading the data stored on the card’s magnetic stripe.  This required the right technical approach towards decoding the information stored on the card.
-
-![cashless transactions app](/images/card_reader_mobile.png)
-
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 ## Process
 
