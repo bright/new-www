@@ -20,14 +20,12 @@ Hero Image_alt: Relevo
 social_media_previev: /images/relevo_fb_preview.png
 social_media_previev_alt: Relevo case study
 bar_achievements:
-  - number: 50000
+  - number: 50k
     label: Downloads on Google Play
   - number: 2
     label: Mobile apps
-  - number: 2
+  - number: 2+
     label: Years of cooperation
-  - number: 5
-    label: Bright people
 tags:
   - mobile app
   - web app
