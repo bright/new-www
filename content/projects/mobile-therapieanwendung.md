@@ -17,12 +17,10 @@ social_media_previev_alt: Mobile Therapieanwendung
 bar_achievements:
   - number: 2
     label: iOS und Androids Apps
-  - number: 1
-    label: MVP
   - number: 5
     label: Haupteigenschaften
   - number: 6
-    label: 6 Monate bis zur MVP-Einführung
+    label: Monate bis zur MVP-Einführung
 tags:
   - mobile app
   - customized software
