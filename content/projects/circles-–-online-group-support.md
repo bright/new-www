@@ -17,14 +17,12 @@ Hero Image_alt: Circles - mental health app
 social_media_previev: /images/circles_fb_preview.png
 social_media_previev_alt: Circles case study
 bar_achievements:
-  - number: 10000
+  - number: 10k+
     label: Downloads on Google Play
   - number: 3
-    label: bright team members
-  - number: 2
-    label: years of cooperation
-  - number: 60
-    label: minutes of video session
+    label: Bright team members
+  - number: 2+
+    label: Years of cooperation
 tags:
   - web app
   - eHealth
