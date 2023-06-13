@@ -38,10 +38,10 @@ tags:
   - customized software
   - MVP
   - product design
-title_team: team
-title_case_study: success stories
+title_team: meet the team behind the solution
+title_case_study: our other success stories
 title_contact: Let's talk about your solution
-description_contact: Book a free consultation in 48 hours
+description_contact: Book a free consultation in 48 hours.
 order: 3
 slug: transportation-management-system
 show_team: true
