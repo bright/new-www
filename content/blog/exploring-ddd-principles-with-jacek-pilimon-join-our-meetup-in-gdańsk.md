@@ -15,15 +15,15 @@ published: true
 
 <div class='block-button'><h2>No spots left but there is still a chance to join</h2><div>Register for the event and join waitlist!</div><a href="https://www.meetup.com/ddd-gda/events/294013722/"><button>join waitlist</button></a></div>
 
-## Join the DDD-Gda meet-up and dive into the DDD world
+## Join the DDD-GDA meet-up and dive into the DDD world
 
 During the meeting, we will dive into the world of Domain-Driven Design (DDD), exploring its foundations and practical applications. Jakub will guide us through a range of topics, including an introduction to DDD, abstract thinking, fighting cognitive bias and stereotypes, overcoming the fear of having many small classes, explaining cohesion to less experienced developers, and more.
 
 ## Meet our speaker – the one and only Jakub Pilimon
 
-Jakub Pilimon needs no introduction, but let us provide you with a brief bio nonetheless. 😉
+[Jakub Pilimon](https://www.linkedin.com/in/jakub-pilimon-449b7984/) is an experienced programmer, architect, and trainer. Currently serving as the Principal Technologist at VMware, he also works as a trainer and consultant at Bottega IT Minds. With a focus on engineering, Jakub is a passionate advocate of Domain-Driven Design and an evolutionary approach to software architecture. Outside of work, he enjoys reading popular science literature, engaging in kitesurfing, and going on motorcycle rides.
 
-Jakub Pilimon is an experienced programmer, architect, and trainer. Currently serving as the Principal Technologist at VMware, he also works as a trainer and consultant at Bottega IT Minds. With a focus on engineering, Jakub is a passionate advocate of Domain-Driven Design and an evolutionary approach to software architecture. Outside of work, he enjoys reading popular science literature, engaging in kitesurfing, and going on motorcycle rides.
+<div class="image"><img src="/images/ddd_blog_post.png" alt="Domain-Driven Design meetup Jakub Pilimon" title="Domain-Driven Design meetup Jakub Pilimon"  /> </div>
 
 ## See you at the DDD meetup!
 
@@ -33,4 +33,4 @@ Don't miss this opportunity to expand your knowledge and network with fellow ent
 **Where**: Gdańsk, Sztuka Wyboru
 **Join waitlist**: https://www.meetup.com/ddd-gda/events/294013722/
 
-DDD-GDA meetup is powered by Bright Inventions.
+**DDD-GDA meetup is powered by Bright Inventions.**
