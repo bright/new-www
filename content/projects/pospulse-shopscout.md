@@ -1,22 +1,41 @@
 ---
+team_members:
+  - albert
+our_service:
+  - mobile app development
+  - web development
+  - MVP development
 layout: project
 project_id: pospulse-shopscout
 title: POSPulse & ShopScout
 image: /images/pos_mockup.png
-social_media_previev: /images/pos_fb_preview.png
-social_media_previev_alt: POSPulse & ShopScout case study
 description: A solution for FMCG companies and retail chains for verifying if
   products are properly displayed on shelves by asking consumers to perform paid
   quality checks.
+hero_image: /images/pospulse_case_study.png
+Hero Image_alt: A solution for FMCG companies
+social_media_previev: /images/pos_fb_preview.png
+social_media_previev_alt: POSPulse & ShopScout case study
+bar_achievements:
+  - number: 800000
+    label: active users
+  - number: 2
+    label: iOS and Android apps
 tags:
   - mobile app
   - customized software
   - retail & restaurant
+title_team: team
+title_case_study: case study
+title_contact: Let's talk about your solution
+description_contact: Contact us and we will book a free consultation in 48 hours.
 slug: pospulse-shopscout
+show_team: false
+show_case_study: false
 show on homepage: false
 published: true
 ---
-![FMCG app development](/images/pos_mockups.png)
+![app for FMCG](/images/pos_2_mockup.png)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
@@ -41,10 +60,6 @@ Contracts between FMCG brands and chain stores often specify strict product pres
 Traditionally, stores needed to engage staff in such quality monitoring checks.
 
 POSPulse relieves them of this burden by engaging consumers who use the ShopScount app. Namely, companies can set specific tasks (such as, for instance, asking clients to take a photo of shampoo at a specific chain store). They can also be asked to fill in a user survey. To confirm that an assignment has been completed properly, the user needs to submit a product photo that includes localization data. For each finalized assignment, the user receives a financial reward.
-
-![app for FMCG](/images/pos_2_mockup.png)
-
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 ## Goal
 
