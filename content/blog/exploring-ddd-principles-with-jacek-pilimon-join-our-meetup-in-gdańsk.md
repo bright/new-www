@@ -30,7 +30,11 @@ During the meeting, we will dive into the world of Domain-Driven Design (DDD), e
 Don't miss this opportunity to expand your knowledge and network with fellow enthusiasts in the Tricity DDD community. Join us for an enlightening afternoon filled with valuable insights and thought-provoking discussions. We look forward to seeing you there!
 
 **Date**: June 15 2023, 6 PM
+
+
 **Where**: Gdańsk, Sztuka Wyboru
+
+
 **Join waitlist**: https://www.meetup.com/ddd-gda/events/294013722/
 
 **DDD-GDA meetup is powered by Bright Inventions.**
