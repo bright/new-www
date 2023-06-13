@@ -41,7 +41,9 @@ show_case_study: false
 show on homepage: true
 published: true
 ---
-<div class="image"><img src="undefined" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/circles_mockup.png" alt="Circles mockup" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team. "  /> </div>
+
+<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
