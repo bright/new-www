@@ -17,7 +17,7 @@ published: true
 
 ## Join the DDD-GDA meet-up and dive into the DDD world
 
-During the meeting, we will dive into the world of Domain-Driven Design (DDD), exploring its foundations and practical applications. Jakub will guide us through a range of topics, including an introduction to DDD, abstract thinking, fighting cognitive bias and stereotypes, overcoming the fear of having many small classes, explaining cohesion to less experienced developers, and more.
+During the meeting, we will dive into the world of [Domain-Driven Design (DDD)](/blog/domain-driven-design-explained-by-a-senior-backend-developer/), exploring its foundations and practical applications. Jakub will guide us through a range of topics, including an introduction to DDD, abstract thinking, fighting cognitive bias and stereotypes, overcoming the fear of having many small classes, explaining cohesion to less experienced developers, and more.
 
 ## Meet our speaker – the one and only Jakub Pilimon
 
