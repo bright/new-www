@@ -6,8 +6,8 @@ team_members:
   - radek
   - wojciech
   - maciej-s
-  - szymon-ch
   - katarzyna-b
+  - wojciech-k
 our_service:
   - MVP development
   - product design
