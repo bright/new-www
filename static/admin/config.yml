@@ -242,7 +242,7 @@ collections:
         name: 'bar_achievements' 
         widget: 'list'
         fields: 
-          - { label: 'Number', name: 'number', widget: 'number' }
+          - { label: 'Number', name: 'number', widget: 'string' }
           - { label: 'Label', name: 'label', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }
