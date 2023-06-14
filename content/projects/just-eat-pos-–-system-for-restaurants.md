@@ -26,10 +26,8 @@ bar_achievements:
     label: Years of cooperation
   - number: "8"
     label: Teams from Bright Inventions
-  - number: "10"
-    label: Apps in the system
-  - number: "100"
-    label: features built
+  - number: 100+
+    label: Features built
 tags:
   - web app
   - customized software
