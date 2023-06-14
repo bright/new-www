@@ -36,7 +36,7 @@ title_contact: let's talk about your solution
 description_contact: Book a free consultation i 48 hours.
 order: 4
 slug: system-for-restaurants-mobile
-show_team: false
+show_team: true
 show_case_study: true
 show on homepage: false
 published: true
