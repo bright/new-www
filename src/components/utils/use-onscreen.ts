@@ -1,6 +1,6 @@
 import { useState, useEffect, MutableRefObject } from 'react'
 
-export default function useOnScreen<T extends Element>(ref: MutableRefObject<T>, rootMargin: string = '0px'): boolean {
+export default function useOnScreen<T extends Element>(ref: MutableRefObject<T | undefined | null>, rootMargin: string = '0px'): boolean {
   // State and setter for storing whether element is visible
   const [isIntersecting, setIntersecting] = useState<boolean>(false)
 
@@ -16,11 +16,14 @@ export default function useOnScreen<T extends Element>(ref: MutableRefObject<T>,
         rootMargin,
       }
     )
-    if (ref.current) {
-      observer.observe(ref.current)
+    const current = ref.current
+    if (current) {
+      observer.observe(current)
     }
     return () => {
-      observer.unobserve(ref.current)
+      if(current) {
+        observer.unobserve(current)
+      }
     }
   }, []) // Empty array ensures that effect is only run on mount and unmount
   return isIntersecting

@@ -553,7 +553,7 @@ export default function Template({
   const image = getImage(page.imagejob)!
   const recruiterImage = getImage(page.image_recruiter_info)!
 
-  const ref: any = React.useRef<HTMLDivElement>(null)
+  const ref = React.useRef<HTMLDivElement>(null)
   const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '0px')
 
   const linksMoreAboutUsHtml = page.links_more_about_us?.html
