@@ -25,7 +25,7 @@ bar_achievements:
   - number: "1000"
     label: Health & Care Organisation Customers
   - number: "7"
-    label: key features
+    label: Key features
 tags:
   - mobile app
   - web app
@@ -34,15 +34,15 @@ tags:
   - customized software
   - eHealth
   - bluetooth
-title_team: team
-title_case_study: case studies
-title_contact: Let's talk about your product
+title_team: team behind the project
+title_case_study: more success stories
+title_contact: let's talk about your product
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 6
 slug: vCare
-show_team: false
-show_case_study: false
+show_team: true
+show_case_study: true
 show on homepage: false
 published: true
 ---
