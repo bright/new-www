@@ -20,13 +20,11 @@ Hero Image_alt: BrightTreasury
 social_media_previev: /images/brighttreasury_fb_preview.png
 social_media_previev_alt: BrightTreasury case study
 bar_achievements:
-  - number: '4'
-    label: bright people on the project
-  - number: '2'
+  - number: "4"
+    label: Bright people on the project
+  - number: "2"
     label: "Communities: Polkadot & Kusama"
-  - number: '4'
-    label: Treasury mechanisms
-  - number: '1'
+  - number: "1"
     label: web app
 tags:
   - web app
@@ -35,15 +33,15 @@ tags:
   - blockchain
   - fintech
   - customized software
-title_team: team
-title_case_study: case study
+title_team: team behind the project
+title_case_study: more case studies
 title_contact: let's talk about your product
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 6
 slug: bright-treasury
 show_team: true
-show_case_study: false
+show_case_study: true
 show on homepage: true
 published: true
 ---
