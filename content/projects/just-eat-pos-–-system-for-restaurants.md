@@ -22,28 +22,28 @@ Hero Image_alt: Just Eat POS
 social_media_previev: /images/restaurant_system_preview.png
 social_media_previev_alt: Just Eat POS
 bar_achievements:
-  - number: '9'
+  - number: "9"
     label: Years of cooperation
-  - number: '8'
+  - number: "8"
     label: Teams from Bright Inventions
-  - number: '10'
+  - number: "10"
     label: Apps in the system
-  - number: '100'
+  - number: "100"
     label: features built
 tags:
   - web app
   - customized software
   - mobile app
   - retail & restaurant
-title_team: Meet team behind the project
-title_case_study: case studies
-title_contact: Let's talk about your product
+title_team: team behind the project
+title_case_study: more success stories
+title_contact: let's talk about your product
 description_contact: Tell us more about your mobile project. Fill out the form
   below and we'll get back to you in 48 hours.
 order: 3
 slug: system-for-restaurants
-show_team: false
-show_case_study: false
+show_team: true
+show_case_study: true
 show on homepage: false
 published: true
 ---
