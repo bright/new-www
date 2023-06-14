@@ -1,6 +1,8 @@
 ---
 team_members:
-  - agata-m
+  - arturs
+  - mateusz
+  - kasia
 our_service:
   - mobile app development
 layout: project
@@ -30,7 +32,7 @@ title_contact: let's talk about your app
 description_contact: Contact us and we'll get back to you within 48 hours!
 order: 99
 slug: everytap
-show_team: false
+show_team: true
 show_case_study: true
 show on homepage: false
 published: true
