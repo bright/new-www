@@ -2,6 +2,7 @@ import { Link } from 'gatsby'
 import image from '../../static/images/bullet_point.svg'
 import variables from '../styles/variables'
 import styled from 'styled-components'
+import { clampBuilder } from '../helpers/clampBuilder'
 
 export const Container = styled.div`
   max-width: 1026px;
@@ -82,7 +83,6 @@ export const Container = styled.div`
   }
 `
 
-
 export const ArticleContent = styled.article`
   padding: 0 ${variables.pxToRem(113)};
   @media ${variables.device.tablet} {
@@ -93,12 +93,12 @@ export const ArticleContent = styled.article`
   }
 `
 export const TopProjectArticle = styled.article`
-  padding: ${variables.pxToRem(152)} ${variables.pxToRem(113)} 0;
+  padding: ${variables.pxToRem(48)} ${variables.pxToRem(113)} 0;
   @media ${variables.device.tablet} {
     padding: ${variables.pxToRem(152)} ${variables.pxToRem(36)} 0;
   }
   @media ${variables.device.mobile} {
-    padding: ${variables.pxToRem(91)} ${variables.pxToRem(18)} 0;
+    padding: ${variables.pxToRem(48)} ${variables.pxToRem(18)} 0;
   }
 `
 export const Title = styled.h1`
@@ -114,7 +114,7 @@ export const Title = styled.h1`
     font-size: ${variables.pxToRem(38)};
   }
   @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(48)};
+    font-size: ${clampBuilder(320, 412, 37, 48)};
     line-height: ${variables.pxToRem(54)};
     margin: 0 0 ${variables.pxToRem(48)};
     font-weight: 700;
@@ -141,6 +141,12 @@ export const ProjectLink = styled(Link)`
   &:hover {
     border-bottom: 2px solid ${variables.color.text2};
     font-size: ${variables.pxToRem(22)};
+  }
+  @media ${variables.device.mobile} {
+    font-size: ${clampBuilder(320, 581, 17, 20)};
+    &:hover {
+      font-size: ${clampBuilder(360, 581, 17, 20)};
+    }
   }
 `
 export const SectionContact = styled.div`

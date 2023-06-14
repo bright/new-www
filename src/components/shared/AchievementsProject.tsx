@@ -44,8 +44,9 @@ const AchievementsWrapper = styled.div`
   @media ${variables.device.tablet} {
     max-width: 600px;
     flex-wrap: wrap;
+    row-gap: 7.32rem;
     & > div {
-      padding-bottom: 7.32rem;
+     
       flex: 1 1 50%;
       &:nth-of-type(even) {
         & > div {
@@ -55,10 +56,6 @@ const AchievementsWrapper = styled.div`
       & > div {
         align-self: center;
       }
-
-      &:nth-of-type(n + 3) {
-        padding-bottom: 0;
-      }
     }
   }
 
@@ -66,11 +63,7 @@ const AchievementsWrapper = styled.div`
     max-width: 360px;
     flex-wrap: wrap;
     & > div {
-      padding-bottom: 7.32rem;
-      flex: 1 1 50%;
-      &:nth-of-type(n + 3) {
-        padding-bottom: 0;
-      }
+      flex: 1 1 100%;
     }
   }
 `
