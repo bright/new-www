@@ -3,6 +3,7 @@ team_members:
   - arturs
   - mateusz
   - kasia
+  - michal
 our_service:
   - mobile app development
 layout: project
@@ -26,7 +27,7 @@ tags:
   - mobile app
   - customized software
   - retail & restaurant
-title_team: team
+title_team: team behind the solution
 title_case_study: our other success stories
 title_contact: let's talk about your app
 description_contact: Contact us and we'll get back to you within 48 hours!
