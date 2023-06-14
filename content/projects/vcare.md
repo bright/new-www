@@ -1,6 +1,9 @@
 ---
 team_members:
-  - agnieszka_h
+  - kasia
+  - piotr_r
+  - krzysiek-s
+  - michal
 our_service:
   - mobile app development
   - web development
@@ -17,11 +20,11 @@ Hero Image_alt: A healthcare software solution
 social_media_previev: /images/vcare_fb_preview.png
 social_media_previev_alt: vCare case study
 bar_achievements:
-  - number: '2'
+  - number: "2"
     label: mobile apps
-  - number: '1000'
+  - number: "1000"
     label: Health & Care Organisation Customers
-  - number: '7'
+  - number: "7"
     label: key features
 tags:
   - mobile app
