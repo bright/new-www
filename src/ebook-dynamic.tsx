@@ -79,7 +79,7 @@ export interface EbookDynamicProps {
   ebookDescription: string
 }
 
-export const EbookDynamic: React.FC<EbookDynamicProps> = ({
+export const EbookDynamic: (props: EbookDynamicProps) => React.JSX.Element = ({
   sectionTitle,
   ebookName,
   ebookImage,

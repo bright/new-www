@@ -162,7 +162,7 @@ export interface SliderTextProps {
   sliderElements: Slider[];
 }
 
-export const SliderText: React.FC<SliderTextProps> = ({ sliderElements }) => {
+export const SliderText = ({ sliderElements }: SliderTextProps) => {
   let parsedsliderElements: Slider[];
 
   if (typeof sliderElements === 'string') {

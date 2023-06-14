@@ -19,7 +19,7 @@ export interface AnchorLinkProps {
     href: string,
 }
 
-export const AnchorLink: React.FC<AnchorLinkProps> = ({ text, href }) => {
+export const AnchorLink = ({ text, href }: AnchorLinkProps) => {
     return (
         <MoreButtonWrapper>
             <MoreButton href={href} text={text} isBlack marginTop='0' />
