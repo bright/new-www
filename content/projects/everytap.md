@@ -3,6 +3,7 @@ team_members:
   - arturs
   - mateusz
   - kasia
+  - michal
 our_service:
   - mobile app development
 layout: project
