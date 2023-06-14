@@ -32,14 +32,14 @@ tags:
   - IoT
   - customized software
   - fintech
-title_team: team
-title_case_study: case study
+title_team: team behind the project
+title_case_study: more case studies
 title_contact: let's talk about your solution
 description_contact: Contact us and book a free consultation in 48 hours!
 order: 99
 slug: app-digitized-surveys
-show_team: false
-show_case_study: false
+show_team: true
+show_case_study: true
 show on homepage: false
 published: true
 ---
