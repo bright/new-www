@@ -24,13 +24,13 @@ export const GalleryCmsEditorComponent = {
     ],
     pattern: /^<Gallery\s+images=['"](.*?)['"]\s*\/>$/,
     fromBlock(match: RegExpMatchArray) {
-        if (!match[1]) {
-            // Log some error or handle this case as needed
-            console.error('No match found for Gallery');
+        if (match[1] !== 'undefined') {
+            const imagesData = JSON.parse(match[1]);
+            return { images: imagesData };
+        } else {
+            console.error("No match or match[1] found");
             return { images: [] };
         }
-        const imagesData = JSON.parse(match[1]);
-        return { images: imagesData };
     },
     toBlock({ images }: { images: { src: string; alt: string }[] }) {
         const imagesString = JSON.stringify(images);
