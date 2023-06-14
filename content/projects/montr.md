@@ -1,6 +1,9 @@
 ---
 team_members:
-  - agnieszka_h
+  - kasia
+  - wojciech
+  - rafal h
+  - klaudiusz
 our_service:
   - web development
   - MVP development
@@ -16,13 +19,11 @@ Hero Image_alt: Digitized Questionnaires
 social_media_previev: /images/questionnaire_fb_preview.png
 social_media_previev_alt: Digitized Questionnaires case study
 bar_achievements:
-  - number: '1'
+  - number: "1"
     label: web MVP
-  - number: '11'
-    label: Key features
-  - number: '4'
+  - number: "4"
     label: Bright team members
-  - number: '5'
+  - number: "5"
     label: Years of cooperation
 tags:
   - web app
@@ -31,14 +32,14 @@ tags:
   - IoT
   - customized software
   - fintech
-title_team: team
-title_case_study: case study
+title_team: team behind the project
+title_case_study: more case studies
 title_contact: let's talk about your solution
 description_contact: Contact us and book a free consultation in 48 hours!
 order: 99
 slug: app-digitized-surveys
-show_team: false
-show_case_study: false
+show_team: true
+show_case_study: true
 show on homepage: false
 published: true
 ---
