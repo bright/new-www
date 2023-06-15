@@ -408,7 +408,7 @@ const GQL = graphql`
     allMdx(
       filter: { frontmatter: { layout: { eq: "project" }, published: { ne: false } } }
       limit: 6
-      sort: { order: ASC, fields: frontmatter___order }
+      sort: { frontmatter: { order: ASC } }
     ) {
       edges {
         node {

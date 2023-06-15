@@ -13,7 +13,7 @@ export async function queryPostsSlug({ graphql, tags }: Pick<CreatePagesArgs, 'g
                   ${tagsFilter}
                 } 
               }
-              sort: {fields: fields___modifiedAt, order: DESC}
+              sort: [{ frontmatter:  { modified: DESC } }]
               limit: 1000
           ) {
               edges {

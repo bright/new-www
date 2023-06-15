@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, PropsWithChildren } from 'react'
 import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
-import loadable from '@loadable/component'
+
 import { Contact } from '../components/shared/Contact'
 // import TechnologyTags from '../components/shared/TechnologyTags'
 import { Page } from '../layout/Page'
@@ -36,11 +36,9 @@ import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 
 import { MoreButton } from '../components/shared'
 
-const TechnologyTags = loadable(() => import('../components/shared/TechnologyTags'), {
-  fallback: <div>Loading...</div>,
-})
-const TeamMembers = loadable(() => import('../components/subcomponents/TeamMembers'))
-// const TeamMemebersSwiper = loadable(() => import('../components/subcomponents/TeamMembersSwiper'))
+const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
+const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
+// const TeamMemebersSwiper = React.lazy(() => import('../components/subcomponents/TeamMembersSwiper'))
 
 export default function Template({
   data,
