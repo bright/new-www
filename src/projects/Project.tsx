@@ -84,7 +84,7 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
         <CustomSectionTitle mobileMargin='64px 0 30px' >{title_case_study}</CustomSectionTitle>
         <Projects
           isSelectedTag={false}
-
+          currentProjectfileAbsolutPath={mdx.frontmatter.slug}
         />
       </div>}
       <SectionContact>
@@ -103,7 +103,6 @@ const Template: React.FC<PropsWithChildren<{ data: { mdx: any } }>> = ({ data, c
 export const pageQuery = graphql`
   query($id: String!) {
     mdx(id: { eq: $id }) {
-
       frontmatter {
         slug
         title
