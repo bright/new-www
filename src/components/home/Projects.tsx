@@ -1,5 +1,5 @@
 import { graphql, Link, useStaticQuery } from 'gatsby'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { CustomSection, CustomSectionTitle } from '../shared'
 import SuccessStoryBox from './SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
@@ -292,6 +292,7 @@ interface ProjectsProps {
   projectsArray?: Array<ProjectModel>
   isTagsEmpty?: boolean
   isSelectedTag?: boolean
+  currentProjectfileAbsolutPath?: string
 
 }
 
@@ -300,21 +301,36 @@ export const Projects: React.FC<ProjectsProps> = ({
   projectsArray = [],
   isTagsEmpty,
   isSelectedTag = true,
-
+  currentProjectfileAbsolutPath
 }) => {
-  let projects: Array<ProjectModel> = []
-
-  if (isFetchProject) {
-    const {
-      allMdx: { edges },
-    } = useStaticQuery(GQL)
-
-    projects = edges.map((v: any) => v.node.frontmatter)
-  } else {
-    projects = projectsArray!
-  }
   const { pathname } = useLocation()
   const isHomePage = pathname == '/'
+  const [projects, setProjects] = useState<Array<ProjectModel>>([])
+  const data = useStaticQuery(GQL);
+
+  const filterProject = (edges: any, currentProjectfileAbsolutPath: string | undefined) => {
+    const indexOfCurrentProjectInProjects = edges.findIndex(
+      ({ node }: { node: { frontmatter: { slug: string } } }) => node.frontmatter.slug === currentProjectfileAbsolutPath
+    )
+    let newEdges = [...edges]
+    if (indexOfCurrentProjectInProjects !== -1) {
+      newEdges.splice(indexOfCurrentProjectInProjects, 1)
+    }
+    return newEdges
+  }
+  useEffect(() => {
+    if (isFetchProject) {
+      const { allMdx: { edges } } = data;
+      if (isHomePage) {
+        setProjects(edges.map((v: any) => v.node.frontmatter));
+      } else {
+        const filteredProjects = filterProject(edges, currentProjectfileAbsolutPath).map((v: any) => v.node.frontmatter);
+        setProjects(filteredProjects);
+      }
+    } else {
+      setProjects(projectsArray);
+    }
+  }, [])
 
   return (
     <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem'>
