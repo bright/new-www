@@ -23,9 +23,15 @@ export const SliderCmsEditorComponent = {
         },
     ],
     pattern: /^<SliderText\s+sliderElements=['"](.*?)['"]\s*\/>$/,
+
     fromBlock(match: RegExpMatchArray) {
-        const sliderElementsData = JSON.parse(match[1]);
+        if (match[1] !== 'undefined') {
+            const sliderElementsData = JSON.parse(match[1]);
         return { sliderElements: sliderElementsData };
+        } else {
+            console.error("No match or match[1] found");
+            return { sliderElements: [] };
+        }
     },
     toBlock({ sliderElements }: { sliderElements: { title: string; description: string }[] }) {
         const sliderElementsString = JSON.stringify(sliderElements);
