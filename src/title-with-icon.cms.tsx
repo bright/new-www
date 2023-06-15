@@ -41,6 +41,6 @@ export const TitleWithIconCmsEditorComponent: EditorComponentOptions = {
     titleIcon: string
     titleIconAlt: string
   }) {
-    return TitleWithIconCmsEditorComponent.toBlock(props)
+    return this.toBlock(props)
   },
 }
