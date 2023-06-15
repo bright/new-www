@@ -76,6 +76,8 @@ Apart from an online reservation feature, Finebite also currently offers a truly
 
 Now, if that doesn’t make you feel a sudden urge for dining out, we don’t know what does!
 
+<AppStore googleApp='https://play.google.com/store/apps/details?id=com.everytap' srcGoogle='/images/google_play.png' altGoogleImage='Finebite Google Play' appStore='https://apps.apple.com/app/id894593031' srcAppStore='/images/app_store.png' altAppStoreImage='Finebite App Store' />
+
 ## Goal
 
 Bright Inventions has been a partner of Everytap and Finebite from the company’s early days. Throughout the years, we helped ideate, develop, and rebuild the app from scratch and turn its first version, Everytap, into a whole new service – Finebite.
