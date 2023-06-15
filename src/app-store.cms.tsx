@@ -11,7 +11,7 @@ export const AppStoreCmsEditorComponent: EditorComponentOptions = {
         {
             label: 'Image Google Play ',
             name: 'srcGoogle',
-            widget: 'images',
+            widget: 'image',
 
         },
         {
@@ -27,7 +27,7 @@ export const AppStoreCmsEditorComponent: EditorComponentOptions = {
         {
             label: 'Image App Store ',
             name: 'srcAppStore',
-            widget: 'images',
+            widget: 'image',
 
         },
         {
