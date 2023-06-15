@@ -1,5 +1,5 @@
-
-export const AppStoreCmsEditorComponent = {
+import { EditorComponentOptions } from 'netlify-cms-core'
+export const AppStoreCmsEditorComponent: EditorComponentOptions = {
     id: 'AppStore',
     label: 'App Store',
     fields: [
@@ -12,7 +12,7 @@ export const AppStoreCmsEditorComponent = {
             label: 'Image Google Play ',
             name: 'srcGoogle',
             widget: 'images',
-            choose_url: false,
+
         },
         {
             label: 'Alt Text',
@@ -28,7 +28,7 @@ export const AppStoreCmsEditorComponent = {
             label: 'Image App Store ',
             name: 'srcAppStore',
             widget: 'images',
-            choose_url: false,
+
         },
         {
             label: 'Alt Text',
@@ -65,7 +65,16 @@ export const AppStoreCmsEditorComponent = {
         appStore: string;
         srcAppStore: string;
         altAppStoreImage: string;
-    }) {
-        return this.toBlock(props)
+    }): string {
+        return `
+        <div>
+          <a href="${props.googleApp}">
+            <img src="${props.srcGoogle}" alt="${props.altGoogleImage}" />
+          </a>
+          <a href="${props.appStore}">
+            <img src="${props.srcAppStore}" alt="${props.altAppStoreImage}" />
+          </a>
+        </div>
+      `
     },
 }
