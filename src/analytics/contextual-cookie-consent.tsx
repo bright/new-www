@@ -24,7 +24,7 @@ export const CookieConsentContextWrapper: React.FC<PropsWithChildren<{ visibleBy
 
 class VisibleCookieConsent extends CookieConsent {
   constructor(props: CookieConsentProps) {
-    super(props, context)
+    super(props)
     this.state = {
       ...this.state,
       visible: true,
