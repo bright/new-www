@@ -30,6 +30,6 @@ export const AnchorLinkCmsEditorComponent = {
         text: string;
         href: string;
     }) {
-        return this.toBlock(props);
+        return `<a href="${props.href}">${props.text}</a>`;
     },
 };
