@@ -41,6 +41,8 @@ export const TitleWithIconCmsEditorComponent: EditorComponentOptions = {
     titleIcon: string
     titleIconAlt: string
   }) {
-    return this.toBlock(props)
+    return ` <div>
+    <h2><img src="${props.titleIcon}" alt="${props.titleIconAlt}" /> ${props.sectionTitle}</h2>
+  </div>`
   },
 }
