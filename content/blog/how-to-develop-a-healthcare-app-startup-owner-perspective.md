@@ -3,14 +3,15 @@ author: izabela
 tags:
   - business
 date: 2021-07-30T07:48:44.080Z
-title: How to develop a healthcare app (startup owner perspective)
+meaningfullyUpdatedAt: ""
+title: How to Develop a Healthcare App [Startup Founder Perspective]
 layout: post
 image: /images/blogpost_www_healthcare_2.png
 hidden: false
 comments: true
 published: true
 ---
-**Are you planning to develop healthcare software? Or maybe you have an idea for a healthcare app and don’t know what to do next? This is a guide for startups and entrepreneurs that want to be a part of the health tech movement.**
+**Are you planning to develop healthcare software? Or maybe you have an idea for a healthcare app and don’t know what to do next? This is a guide for startup founders and generally entrepreneurs that want to be a part of the health tech movement.**
 
 ![healthcare app development](/images/healthcare_in_post2.png)
 
