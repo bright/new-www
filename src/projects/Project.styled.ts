@@ -132,23 +132,23 @@ export const ProjectTextRegular = styled.div`
   }
 `
 export const ProjectLink = styled(Link)`
-  color: ${variables.color.text2};
-  padding: ${variables.pxToRem(3)} ${variables.pxToRem(6)};
-  border-bottom: 2px solid ${variables.color.primary};
-  font-size: ${variables.pxToRem(20)};
-  line-height: ${variables.pxToRem(40)};
-  font-weight: 600;
-  &:hover {
-    border-bottom: 2px solid ${variables.color.text2};
-    font-size: ${variables.pxToRem(22)};
-  }
-  @media ${variables.device.mobile} {
-    font-size: ${clampBuilder(320, 581, 17, 20)};
-    &:hover {
-      font-size: ${clampBuilder(360, 581, 17, 20)};
-    }
-  }
-`
+         color: ${variables.color.text2};
+         padding: ${variables.pxToRem(8)} ${variables.pxToRem(16)};
+         border-bottom: 2px solid ${variables.color.primary};
+         font-size: ${variables.pxToRem(20)};
+         line-height: ${variables.pxToRem(40)};
+         font-weight: 600;
+         background-color: #ffffff;
+         transition: 0.3 easy-in-out all;
+
+         &:hover {
+           border-bottom: 2px solid ${variables.color.text2};
+           background-color: #f5f5f5;
+         }
+         @media ${variables.device.mobile} {
+           font-size: ${clampBuilder(320, 581, 17, 20)};
+         }
+       `
 export const SectionContact = styled.div`
   @media ${variables.device.tablet} {
     padding: 0 ${variables.pxToRem(18)};
