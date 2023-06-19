@@ -102,16 +102,24 @@ export const Contact: FC<ContactProps> = ({
   const [message, setMessage] = useState<string>('')
 
   const [checkedRules, setCheckedRules] = useState(false)
-
   const [success, setSuccess] = useState(false)
   const [isSending, setIsSending] = useState<boolean>(false)
-  const [valid, setValid] = useState<boolean>()
   const [error, setError] = useState(false)
+
+  const checkValid = (): boolean => {
+    return checkedRules && name && email ? true : false
+  }
 
   const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     setIsSending(true)
 
     e.preventDefault()
+
+    if (!checkValid()) {
+      return
+    }
+
+    setIsSending(true)
 
     sendMail(
       {
@@ -148,10 +156,6 @@ export const Contact: FC<ContactProps> = ({
     setSuccess(false)
   }
 
-  const checkValid = () => {
-    const isValid: boolean = checkedRules && name && email ? true : false
-    setValid(isValid)
-  }
 
   return (
     <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
@@ -240,7 +244,7 @@ export const Contact: FC<ContactProps> = ({
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
-            <MoreButton isSubmit onClick={checkValid} isBlack>
+              <MoreButton isSubmit isBlack>
               let’s talk
             </MoreButton>
           )}
@@ -270,7 +274,7 @@ export const Contact: FC<ContactProps> = ({
           </ErrorMessage>
         )}
         {/* {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>} */}
-        {valid === false && <ErrorMessage>Please, complete missing information</ErrorMessage>}
+        {/* {validationError && <ErrorMessage>Please, complete missing information</ErrorMessage>} */}
         {/* {error && <ErrorMessage>Oops! Something went wrong while submitting the form.</ErrorMessage>} */}
       </Container>
     </ContainerWrapper>
