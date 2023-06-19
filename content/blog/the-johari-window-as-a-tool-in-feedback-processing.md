@@ -8,7 +8,7 @@ date: 2023-06-19T19:00:45.941Z
 meaningfullyUpdatedAt: 2023-06-19T19:00:45.966Z
 title: "The Johari Window As a Tool in Feedback Processing "
 layout: post
-image: /images/johari-window-by-ula.png
+image: /images/screenshot-2023-06-19-at-21.46.56.png
 hidden: false
 comments: true
 published: true
@@ -17,7 +17,7 @@ The [Johari Window](https://kevan.org/johari) is a communication model developed
 
 **The Johari Window is 4-box matrix. The first quadrant is the open area (also known as the arena), then we have the blind spot, the third one is the hidden area (also known as the facade) and the fourth one is the unknown**. **Each quadrant offers us a different approach to self-development and contains information about our self-awareness and how others see us.** The information can be transferred from one area to another through mutual trust. Let us now take a deeper look at each of them. 
 
-<div class="image"><img src="/images/screenshot-2023-06-19-at-21.18.55.png" alt="johari window matrix" title="undefined"  /> </div>
+<div class="image"><img src="/images/johari-window-by-ula.png" alt="johari window ula " title="undefined"  /> </div>
 
 ## **\#1 OPEN AREA** 
 
