@@ -10,16 +10,16 @@ image: /images/pregnancy_app1.png
 description: A healthcare mobile app that supports pregnant women at every stage
   of their pregnancy and birth experience providing them with exercises, recipes
   and tips.
-hero_image: /images/pregnancy_app.png
+hero_image: /images/case_study_app_pregnant_women.png
 Hero Image_alt: Pregnancy mobile app
 social_media_previev: /images/pregnancyapp_fb_preview.png
 social_media_previev_alt: Pregnancy App case study
 bar_achievements:
-  - number: '2'
+  - number: "2"
     label: iOS and Android apps
-  - number: '5'
+  - number: "5"
     label: Key features
-  - number: '9'
+  - number: "9"
     label: month journey
 tags:
   - mobile app
