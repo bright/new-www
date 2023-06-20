@@ -44,3 +44,17 @@ This is an **international security system**. The backend is in **Scala**. I hav
 The project is a great opportunity to get to know another major language from the JVM world. After working with all of them, I still prefer Kotlin. **Kotlin is the most friendly and efficient to learn and use daily**.
 
 <div class="image"><img src="/images/bartek_quote_kotlin.png" alt="Quote on Kotlin" title="Quote on Kotlin"  /> </div>
+
+## What were your biggest professional challenges so far?
+
+I guess **getting to Bright Inventions**. **The interview with Piotr was definitely a challenge**. The atmosphere was really nice and positive. Yet whatever I said, Piotr responded, "What more can you say about it?" 🙂 **I thought I did poorly, but at the end of the interview, Piotr said I did well**. I was quite surprised.
+
+**For me, mistakes are challenges because you operate under stress**. At Bright Inventions, I haven’t experienced that because we have well-organized processes. It was never necessary to wake up in the middle of the night to fix something urgent. 
+
+However, while working at a previous company, which operates in the medical care industry, there were many stressful situations, especially during COVID-19. We had to develop a COVID-19 testing system very quickly, taking care of all important and private patient data. Your mistakes could wrongly assign a patient’s name to a sample, so we had to be extremely careful. That was a stressful time.
+
+## On your first day of work, you brought tens of donuts to the office. This is legendary now. 😉 Is it your first day at work strategy?
+
+I thought that's what people do when they join the company. In my previous work, everyone was bringing some sweets for their first day at work. Yet when I came to Bright Inventions with donuts, people were surprised. I guess not everyone does it. :D 
+
+That didn't discourage me from surprising you again. **I mostly work remotely, but when I visit the office, I sometimes bring some treats with me**.
