@@ -46,14 +46,22 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
 
   const [success, setSuccess] = useState(false)
   const [isSending, setIsSending] = useState<boolean>(false)
-  const [valid, setValid] = useState<boolean>()
+
   const [error, setError] = useState(false)
 
+  const checkValid = (): boolean => {
+    return checkedRules && name && email ? true : false
+  }
+
   const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    setIsSending(true)
+
 
     e.preventDefault()
 
+    if (!checkValid()) {
+      return
+    }
+    setIsSending(true)
     sendMail(
       {
         name: name,
@@ -89,11 +97,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
     setSuccess(false)
   }
 
-  const checkValid = () => {
-    const isValid: boolean = checkedRules && name && email ? true : false
 
-    setValid(isValid)
-  }
 
   return (
     <ContainerWrapper>
@@ -165,7 +169,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
-            <MoreButton isSubmit onClick={checkValid} isBlack marginTop='32px'>
+              <MoreButton isSubmit isBlack marginTop='32px'>
               let’s talk
             </MoreButton>
           )}
@@ -196,7 +200,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
         )}
 
         {/* {success && <SuccessMessage>Thank you! Your submission has been received!</SuccessMessage>} */}
-        {valid === false && <ErrorMessage>Please, complete missing information</ErrorMessage>}
+        {/* {valid === false && <ErrorMessage>Please, complete missing information</ErrorMessage>} */}
         {/* {error && <ErrorMessage>Oops! Something went wrong while submitting the form.</ErrorMessage>} */}
       </Container>
     </ContainerWrapper>
