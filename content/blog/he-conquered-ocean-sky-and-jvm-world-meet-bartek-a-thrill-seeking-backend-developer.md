@@ -38,3 +38,9 @@ Our paths crossed again a few years later. Back then, I was working at a company
 What's **unique about Bright Inventions is the mature process of software development**. The team is highly skilled and experienced. **We focus 100% on quality**.
 
 ## Tell us more about the project you are currently working on at Bright Inventions.
+
+This is an **international security system**. The backend is in **Scala**. I haven't worked with Scala much before. However, it's part of the JVM world, so it’s not something totally strange to me. It’s not like visiting a new world which would be switching to Go or C. For example, I still can choose the libraries I used while working with Java. 
+
+The project is a great opportunity to get to know another major language from the JVM world. After working with all of them, I still prefer Kotlin. **Kotlin is the most friendly and efficient to learn and use daily**.
+
+<div class="image"><img src="/images/bartek_quote_kotlin.png" alt="Quote on Kotlin" title="Quote on Kotlin"  /> </div>
