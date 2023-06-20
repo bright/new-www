@@ -11,18 +11,18 @@ image: /images/smarthelp_main.png
 description: An emergency service app that allows users to easily call for help
   and provide authorities with personal information, exact location, and
   incident details.
-hero_image: /images/emergency_case_study_app.png
+hero_image: /images/case_study_emergency_app.png
 Hero Image_alt: Emergency app
 social_media_previev: /images/smarthelp_fb_preview.png
 social_media_previev_alt: SmartHelp case study
 bar_achievements:
-  - number: '1'
+  - number: "1"
     label: MVP
-  - number: '2'
+  - number: "2"
     label: iOS and Android apps
-  - number: '2014'
+  - number: "2014"
     label: year of the launch
-  - number: '7'
+  - number: "7"
     label: Key features
 tags:
   - mobile app
