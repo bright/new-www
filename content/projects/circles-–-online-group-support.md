@@ -12,14 +12,14 @@ image: /images/circles_case_study_cover.png
 description: Circles is a leading emotional support platform that connects
   people with others facing similar challenges in online groups led by
   professionals.
-hero_image: /images/circles_1.png
+hero_image: /images/case_study_circles_ehealth.png
 Hero Image_alt: Circles - mental health app
 social_media_previev: /images/circles_fb_preview.png
 social_media_previev_alt: Circles case study
 bar_achievements:
   - number: 10k+
     label: Downloads on Google Play
-  - number: '3'
+  - number: "3"
     label: Bright team members
   - number: 2+
     label: Years of cooperation
