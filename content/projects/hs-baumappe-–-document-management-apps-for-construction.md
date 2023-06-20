@@ -12,18 +12,18 @@ image: /images/case_study-cover_hs_baumappe.png
 description: Now construction site personnel can create documents and share them
   with coworkers and clients. Even offline, then sync them later. All they need
   is a smartphone.
-hero_image: /images/baumappe_app_hero.png
+hero_image: /images/baumappe_case_study_construction.png
 Hero Image_alt: Document Management Apps for Construction
 social_media_previev: /images/fb_preview-case-study.png
 social_media_previev_alt: HS Baumappe – Document Management Apps for Construction
 bar_achievements:
-  - number: '2'
+  - number: "2"
     label: 2 mobile apps
-  - number: '5'
+  - number: "5"
     label: team members
-  - number: '1'
+  - number: "1"
     label: MVP
-  - number: '27'
+  - number: "27"
     label: sprints
 tags:
   - mobile app
