@@ -58,3 +58,11 @@ However, while working at a previous company, which operates in the medical care
 I thought that's what people do when they join the company. In my previous work, everyone was bringing some sweets for their first day at work. Yet when I came to Bright Inventions with donuts, people were surprised. I guess not everyone does it. :D 
 
 That didn't discourage me from surprising you again. **I mostly work remotely, but when I visit the office, I sometimes bring some treats with me**.
+
+## I know your passion is sailing. What were your recent sea adventures?
+
+Last year **I sailed across the Atlantic Ocean, from the Canary Islands to the Caribbean**. We sailed for 23 days and 17 hours. :D 
+
+However now I’m focusing more on my other passions, so sailing has gone into the background for now. Although it still has a place in my heart and I would always enjoy going through the seas.
+
+<div class="image"><img src="/images/bartek_passion_sailing.png" alt="Bartek's passion - sailing" title="Bartek's passion - sailing"  /> </div>
