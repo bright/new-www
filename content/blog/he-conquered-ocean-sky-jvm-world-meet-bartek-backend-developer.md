@@ -11,7 +11,7 @@ title: He Conquered Ocean, Sky and JVM World. Meet Bartek, a Thrill-Seeking
   Backend Developer
 layout: post
 image: /images/brightstorybartek_backend.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -84,3 +84,5 @@ Not at all. Now I like the air even more and **I decided not only to jump out of
 ## From sailing to flying an airplane. How did that happen?
 
 There are people who inspired me to do this. As with many other things – people are a great inspiration. When it comes to flying, I met some pilots who are great people and I felt like this is something worth trying. 🙂
+
+<div class='block-button'><h2>Join our team</h2><div>Seeking passionate individuals to help us build a bright future. Apply today!</div><a href="/career"><button>check our job offers</button></a></div>
