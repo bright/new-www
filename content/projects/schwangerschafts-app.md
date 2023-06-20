@@ -10,7 +10,7 @@ image: /images/pregnancy_app1.png
 description: Eine mobile App für das Gesundheitswesen, die schwangere Frauen in
   jeder Phase ihrer Schwangerschaft und Geburt unterstützt und ihnen Übungen,
   Rezepte und Tipps zur Verfügung stellt.
-hero_image: /images/case_study_app_pregnant_women.png
+hero_image: /images/case_study_app_pregnancyapp.png
 Hero Image_alt: Schwangerschafts-App
 social_media_previev: /images/fb_preview_case_study_pregnancy_app_de.png
 social_media_previev_alt: Schwangerschafts-App
