@@ -11,7 +11,7 @@ title: He Conquered Ocean, Sky and JVM World. Meet Bartek, a Thrill-Seeking
   Backend Developer
 layout: post
 image: /images/brightstorybartek_backend.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
@@ -26,6 +26,8 @@ While I was studying Computer Science **I had this vision that I would start my 
 I was pursuing that dream and got an internship to build a mobile app. When I joined the company it turned out the mobile app was basically done. Yet they needed help with the backend. So **I started to work with Spring Boot and quite enjoyed that**. 
 
 Now **I am glad I pursued the backend path instead of mobile**. Maintaining backward compatibility in mobile isn’t appealing to me. The backend is more simple in that way. So I’ve never regretted how things turned out. I sometimes build mobile apps, but only for personal use.
+
+<div class='block-button'><h2>Work with Bartek</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.</div><a href="/career/"><button>check our job offers</button></a></div>
 
 ## How did you land in Bright Inventions?
 
@@ -73,6 +75,8 @@ I started a skydiving course last year. However, I couldn't finish it because it
 
 The other thing is that skydiving zones are mostly open on weekends, so you have to match your free weekend with the availability of instructors… Even with that, it’s not always a recipe for success because the actual weather can differ from the forecast. 😀 **Skydiving is fun, but it requires huge amounts of patience**.
 
+<div class="image"><img src="/images/bartek_passion_skydiving.png" alt="Bartek's passion - skydiving" title="Bartek's passion - skydiving"  /> </div>
+
 ## But that didn’t put you off?
 
 Not at all. Now I like the air even more and **I decided not only to jump out of planes but also to steer them**. 😀 Now I am at the beginning of my journey to **get a Private Pilot License** (PPL). I even moved closer to the airport where I train. I have to finish the theoretical and practical part of my training and then pass the Civil Aviation Authority exams.
@@ -80,3 +84,5 @@ Not at all. Now I like the air even more and **I decided not only to jump out of
 ## From sailing to flying an airplane. How did that happen?
 
 There are people who inspired me to do this. As with many other things – people are a great inspiration. When it comes to flying, I met some pilots who are great people and I felt like this is something worth trying. 🙂
+
+<div class='block-button'><h2>Join our team</h2><div>Seeking passionate individuals to help us build a bright future. Apply today!</div><a href="/career"><button>check our job offers</button></a></div>
