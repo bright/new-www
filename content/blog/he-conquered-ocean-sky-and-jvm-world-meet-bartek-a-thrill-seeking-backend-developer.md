@@ -34,3 +34,7 @@ I’ve known the company since college. **I met [Piotr](/about-us/piotr/) from B
 Our paths crossed again a few years later. Back then, I was working at a company where I learned Java and Kotlin. **Kotlin was life-changing to me**. I loved it. Unfortunately, I started to get projects in Python. I felt I needed to find a place where I could continue my work with Kotlin. So, I finally joined Bright Inventions. I was eager to work with Piotr on the huge international ePOS project with Kotlin and AWS.
 
 <div class="image"><img src="/images/bartek_team_cooking.png" alt="Team retreats" title="Team retreats"  /> </div>
+
+What's **unique about Bright Inventions is the mature process of software development**. The team is highly skilled and experienced. **We focus 100% on quality**.
+
+## Tell us more about the project you are currently working on at Bright Inventions.
