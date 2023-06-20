@@ -139,7 +139,7 @@ export const ProjectLink = styled(Link)`
          line-height: ${variables.pxToRem(40)};
          font-weight: 600;
          background-color: #ffffff;
-         transition: 0.3 easy-in-out all;
+         transition: all ease-in-out 0.3s;
 
          &:hover {
            border-bottom: 2px solid ${variables.color.text2};
