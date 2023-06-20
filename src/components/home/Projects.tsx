@@ -1,5 +1,5 @@
 import { graphql, Link, useStaticQuery } from 'gatsby'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { CustomSection, CustomSectionTitle } from '../shared'
 import SuccessStoryBox from './SuccessStoryBox'
 import { routeLinks } from '../../config/routing'
@@ -10,7 +10,7 @@ import ScrollToTop from '../subcomponents/ScrollToTop'
 import { CustomTextRegular } from './../shared/index.styled'
 import { BehanceIcon } from '../icons/Behance.icon'
 import { DribbleIcon } from './../icons/Dribble.icon'
-import { useLocation } from '@reach/router';
+
 
 export const ProjectCustomSection = styled(CustomSection)`
   & .success-story-wrapper {
@@ -292,8 +292,8 @@ interface ProjectsProps {
   projectsArray?: Array<ProjectModel>
   isTagsEmpty?: boolean
   isSelectedTag?: boolean
-  currentProjectfileAbsolutPath?: string
-
+  currentSlug?: string
+  isDefaultTitle?: boolean
 }
 
 export const Projects: React.FC<ProjectsProps> = ({
@@ -301,40 +301,32 @@ export const Projects: React.FC<ProjectsProps> = ({
   projectsArray = [],
   isTagsEmpty,
   isSelectedTag = true,
-  currentProjectfileAbsolutPath
+  currentSlug,
+  isDefaultTitle = true
 }) => {
-  const { pathname } = useLocation()
-  const isHomePage = pathname == '/'
-  const [projects, setProjects] = useState<Array<ProjectModel>>([])
-  const data = useStaticQuery(GQL);
+  let projects: Array<ProjectModel> = []
 
-  const filterProject = (edges: any, currentProjectfileAbsolutPath: string | undefined) => {
-    const indexOfCurrentProjectInProjects = edges.findIndex(
-      ({ node }: { node: { frontmatter: { slug: string } } }) => node.frontmatter.slug === currentProjectfileAbsolutPath
-    )
-    let newEdges = [...edges]
-    if (indexOfCurrentProjectInProjects !== -1) {
-      newEdges.splice(indexOfCurrentProjectInProjects, 1)
-    }
-    return newEdges
+  if (isFetchProject) {
+    const {
+      allMdx: { edges },
+    } = useStaticQuery(GQL)
+
+    projects = edges.map((v: any) => v.node.frontmatter)
+  } else {
+    projects = projectsArray!
   }
-  useEffect(() => {
-    if (isFetchProject) {
-      const { allMdx: { edges } } = data;
-      if (isHomePage) {
-        setProjects(edges.map((v: any) => v.node.frontmatter));
-      } else {
-        const filteredProjects = filterProject(edges, currentProjectfileAbsolutPath).map((v: any) => v.node.frontmatter);
-        setProjects(filteredProjects);
-      }
-    } else {
-      setProjects(projectsArray);
-    }
-  }, [])
+
+  const getFilteredProjectWithoutCurrent = (projects: ProjectModel[]) => {
+    const filteredProjects = projects.filter(({ slug }) => slug !== currentSlug)
+
+    return filteredProjects
+  }
+
+  const filteredProjectsLength = getFilteredProjectWithoutCurrent(projects).length;
 
   return (
     <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem'>
-      {isHomePage && isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
+      {isDefaultTitle && isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
           <span>visit our online portfolio:</span>
@@ -348,7 +340,7 @@ export const Projects: React.FC<ProjectsProps> = ({
           </a>
         </BlockSmall>
 
-        {projects.map((project, ix) => {
+        {getFilteredProjectWithoutCurrent(projects).map((project, ix) => {
           const { title, image, slug, layout, published } = project
           const currentProject: ProjectModel = { title, image, slug, layout, published: published ? 'true' : 'false' }
 
@@ -389,7 +381,7 @@ export const Projects: React.FC<ProjectsProps> = ({
           <ProjectsLink href={routeLinks.projects}>
             <BlockSmall
               className={
-                isSelectedTag
+                  isSelectedTag || filteredProjectsLength < 6 
                   ? `${(projects.length + 1) % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`
                   : `${projects.length % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`
               }

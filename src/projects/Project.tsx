@@ -84,7 +84,9 @@ const Template: React.FC<{ data: { mdx: any } }> = ({ data, children }) => {
         <CustomSectionTitle mobileMargin='64px 0 30px' >{title_case_study}</CustomSectionTitle>
         <Projects
           isSelectedTag={false}
-          currentProjectfileAbsolutPath={mdx.frontmatter.slug}
+          currentSlug={mdx.frontmatter.slug}
+          isDefaultTitle={false}
+
         />
       </div>}
       <SectionContact>
