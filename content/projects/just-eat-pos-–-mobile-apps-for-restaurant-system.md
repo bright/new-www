@@ -14,7 +14,7 @@ image: /images/mobile_retail_app_cover.png
 description: Just Eat POS was a retail system available on iOS and Android used
   by restaurants in Israel and the UK. We scaled this project from the startup
   phase to a fully developed global solution.
-hero_image: /images/epos_mobile_app.png
+hero_image: /images/case_study_mobile_retail_epos.png
 Hero Image_alt: Mobile Apps for Restaurant System
 social_media_previev: /images/restaurant_apps_mobile_preview.png
 social_media_previev_alt: Just Eat POS Mobile
