@@ -66,3 +66,17 @@ Last year **I sailed across the Atlantic Ocean, from the Canary Islands to the C
 However now I’m focusing more on my other passions, so sailing has gone into the background for now. Although it still has a place in my heart and I would always enjoy going through the seas.
 
 <div class="image"><img src="/images/bartek_passion_sailing.png" alt="Bartek's passion - sailing" title="Bartek's passion - sailing"  /> </div>
+
+## So what do you do apart from sailing?
+
+I started a skydiving course last year. However, I couldn't finish it because it requires many factors to be met which wasn’t so obvious for me when I started. The weather has to be perfect, especially for skydiving students, so they can have safe landings. 
+
+The other thing is that skydiving zones are mostly open on weekends, so you have to match your free weekend with the availability of instructors… Even with that, it’s not always a recipe for success because the actual weather can differ from the forecast. 😀 **Skydiving is fun, but it requires huge amounts of patience**.
+
+## But that didn’t put you off?
+
+Not at all. Now I like the air even more and **I decided not only to jump out of planes but also to steer them**. 😀 Now I am at the beginning of my journey to **get a Private Pilot License** (PPL). I even moved closer to the airport where I train. I have to finish the theoretical and practical part of my training and then pass the Civil Aviation Authority exams.
+
+## From sailing to flying an airplane. How did that happen?
+
+There are people who inspired me to do this. As with many other things – people are a great inspiration. When it comes to flying, I met some pilots who are great people and I felt like this is something worth trying. 🙂
