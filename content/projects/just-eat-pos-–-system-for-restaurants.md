@@ -17,7 +17,7 @@ title: Just Eat POS – System for Restaurants
 image: /images/restaurant_system_cover.png
 description: Just Eat POS was a retail system used by restaurants in Israel and
   the UK. We worked on this project for almost a decade.
-hero_image: /images/epos_retail_app.png
+hero_image: /images/case_study_pos_solution.png
 Hero Image_alt: Just Eat POS
 social_media_previev: /images/restaurant_system_preview.png
 social_media_previev_alt: Just Eat POS
