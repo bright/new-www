@@ -5,8 +5,8 @@ tags:
   - bright story
   - backend
   - inspiration
-date: 2023-06-20T06:13:44.767Z
-meaningfullyUpdatedAt: 2023-06-20T06:13:44.793Z
+date: 2023-06-20T06:30:10.772Z
+meaningfullyUpdatedAt: 2023-06-20T06:30:11.380Z
 title: He Conquered Ocean, Sky and JVM World. Meet Bartek, a Thrill-Seeking
   Backend Developer
 layout: post
