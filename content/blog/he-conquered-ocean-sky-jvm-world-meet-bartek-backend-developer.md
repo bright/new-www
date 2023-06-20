@@ -27,6 +27,8 @@ I was pursuing that dream and got an internship to build a mobile app. When I jo
 
 Now **I am glad I pursued the backend path instead of mobile**. Maintaining backward compatibility in mobile isn’t appealing to me. The backend is more simple in that way. So I’ve never regretted how things turned out. I sometimes build mobile apps, but only for personal use.
 
+<div class='block-button'><h2>Work with Bartek</h2><div>We are looking for an experienced Backend Developer who understands Java/Kotlin & Spring really well and who would like to work with AWS on daily basis.</div><a href="/career/"><button>check our job offers</button></a></div>
+
 ## How did you land in Bright Inventions?
 
 I’ve known the company since college. **I met [Piotr](/about-us/piotr/) from Bright Inventions at a job fair** at the Gdańsk University of Technology. Back then I was writing my master's thesis on serverless so I **decided to visit every company’s stand to ask if they worked with serverless**. **Bright Inventions was the only one that did**. Then I had a great conversation about it with Piotr and I could immediately see how knowledgeable and experienced he was.
@@ -72,6 +74,8 @@ However now I’m focusing more on my other passions, so sailing has gone into t
 I started a skydiving course last year. However, I couldn't finish it because it requires many factors to be met which wasn’t so obvious for me when I started. The weather has to be perfect, especially for skydiving students, so they can have safe landings. 
 
 The other thing is that skydiving zones are mostly open on weekends, so you have to match your free weekend with the availability of instructors… Even with that, it’s not always a recipe for success because the actual weather can differ from the forecast. 😀 **Skydiving is fun, but it requires huge amounts of patience**.
+
+<div class="image"><img src="/images/bartek_passion_skydiving.png" alt="Bartek's passion - skydiving" title="Bartek's passion - skydiving"  /> </div>
 
 ## But that didn’t put you off?
 
