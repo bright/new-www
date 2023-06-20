@@ -19,7 +19,7 @@ image: /images/tms_cover_2x.png
 description: TMS supports freight forwarders to manage transportation faster.
   Finding suitable listings and matching them with the carriers has never been
   faster.
-hero_image: /images/tms_app_big.png
+hero_image: /images/case_study_tms_app.png
 Hero Image_alt: Transportation Management System
 social_media_previev: /images/tms_social_preview.png
 social_media_previev_alt: Transportation Management System case study
