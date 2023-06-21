@@ -1,6 +1,6 @@
 ---
 team_members:
-  - agnieszka_h
+  - michal
 our_service:
   - MVP-Entwicklung Agentur
 layout: project
@@ -10,16 +10,16 @@ image: /images/mobile_therapy_app1.jpg
 description: Eine mobile Anwendung für das Gesundheitswesen, die Patienten bei
   der Physiotherapie unterstützt. Es bietet Therapeuten eine einfache
   Möglichkeit, Pläne für jeden Patienten individuell anpassen zu können.
-hero_image: /images/therapy_app_case_study.png
+hero_image: /images/case_study_ehealth_mobile_app.png
 Hero Image_alt: Mobile Therapieanwendung
 social_media_previev: /images/fb_preview_case_study_mobile-therapy_app_german.png
 social_media_previev_alt: Mobile Therapieanwendung
 bar_achievements:
-  - number: '2'
+  - number: "2"
     label: iOS und Androids Apps
-  - number: '5'
+  - number: "5"
     label: Haupteigenschaften
-  - number: '6'
+  - number: "6"
     label: Monate bis zur MVP-Einführung
 tags:
   - mobile app
