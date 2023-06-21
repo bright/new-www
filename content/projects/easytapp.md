@@ -1,6 +1,6 @@
 ---
 team_members:
-  - agata-m
+  - michal
 our_service:
   - mobile app development
 layout: project
