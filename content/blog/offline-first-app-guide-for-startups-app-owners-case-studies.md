@@ -4,7 +4,7 @@ secondAuthor: izabela
 tags:
   - business perspective
 date: 2023-03-09T14:30:26.285Z
-meaningfullyUpdatedAt: 2023-03-09T14:30:27.126Z
+meaningfullyUpdatedAt: 2023-06-21T06:59:33.489Z
 title: Offline-First App Guide for Startups and App Owners (Case Studies Included)
 layout: post
 image: /images/offline-mode-app-cover-blog.png
@@ -69,6 +69,16 @@ Imagine an app that enables you to fill out forms or questionnaires wherever you
 **Check out actual case studies of a [digitalized workflow app](/projects/app-digitized-surveys) with an offline mode that we built.**
 
 <div class="image"><img src="/images/questionnaire_fb_preview.png" alt="Digitalized workflow app" title="Digitalized workflow app"  /> </div>
+
+### Offline-first app for construction
+
+Construction sites are places where access to the internet might be limited. That’s why building software for that industry, should include offline mode too. Especially when end users of the app are going to be construction site staff.
+
+As an example let’s think of an app that enables storing pictures from the construction site and sharing them with clients, contractors, and coworkers. **A user can take pictures, store them offline, and then the app will synchronize files**. It means sharing the pictures with other app users when the internet connection is restored.
+
+**Check out an actual case study – an offline-first [application for construction company](/projects/document-management-apps-construction/) that we build for our client from Germany.**
+
+<div class="image"><img src="/images/fb_preview-case-study.png" alt="app for construction company" title="app for construction company"  /> </div>
 
 ### Offline-first app for road transportation
 
