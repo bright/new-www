@@ -70,6 +70,16 @@ Imagine an app that enables you to fill out forms or questionnaires wherever you
 
 <div class="image"><img src="/images/questionnaire_fb_preview.png" alt="Digitalized workflow app" title="Digitalized workflow app"  /> </div>
 
+### Offline-first app for construction
+
+Construction sites are places where access to the internet might be limited. That’s why building software for that industry, should include offline mode too. Especially when end users of the app are going to be construction site staff.
+
+As an example let’s think of an app that enables storing pictures from the construction site and sharing them with clients, contractors, and coworkers. **A user can take pictures, store them offline, and then the app will synchronize files**. It means sharing the pictures with other app users when the internet connection is restored.
+
+Check out an actual case study – an offline-first [application for construction company](/projects/document-management-apps-construction/) that we build for our client from Germany.
+
+<div class="image"><img src="/images/fb_preview-case-study.png" alt="app for construction company" title="app for construction company"  /> </div>
+
 ### Offline-first app for road transportation
 
 Applications enabling communication between forwarders and drivers should give access to crucial features even offline. **Drivers cannot focus on accessing a strong internet connection, so apps have to meet their needs**. Transportation apps with offline mode still can, for example, share a vehicle localization offline.
