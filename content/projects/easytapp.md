@@ -9,14 +9,14 @@ title: EasyTapp
 image: /images/easytap_1_mockup1.png
 description: An app that allowed users to receive real estate and car sales’
   offers based on their real-time location.
-hero_image: /images/easy_tapp_app_case_study.png
+hero_image: /images/case_study_real_estate_app.png
 Hero Image_alt: Real estate app
 social_media_previev: /images/easytapp_fb_preview.png
 social_media_previev_alt: EasyTapp
 bar_achievements:
-  - number: '2'
+  - number: "2"
     label: iOS and Android apps
-  - number: '3'
+  - number: "3"
     label: Key features
 tags:
   - mobile app
