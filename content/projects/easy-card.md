@@ -32,7 +32,7 @@ description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 slug: credit-card-reader
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: false
 published: true
 ---
