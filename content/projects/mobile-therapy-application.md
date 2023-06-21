@@ -1,6 +1,6 @@
 ---
 team_members:
-  - agnieszka
+  - michal
 our_service:
   - mobile app development
   - MVP development
@@ -11,18 +11,18 @@ image: /images/mobile_therapy_app1.jpg
 description: A healthcare mobile application that supports patients going
   through physiotherapy. It offers therapists an easy way to customize plans for
   each patient.
-hero_image: /images/therapy_app_case_study.png
+hero_image: /images/case_study_ehealth_mobile_app.png
 Hero Image_alt: Therapy app
 social_media_previev: /images/therapy_fb_preview.png
 social_media_previev_alt: Mobile Therapy App case study
 bar_achievements:
-  - number: '2'
+  - number: "2"
     label: iOS and Android apps
-  - number: '1'
+  - number: "1"
     label: MVP
-  - number: '5'
+  - number: "5"
     label: Key MVP featuers
-  - number: '6'
+  - number: "6"
     label: months to MVP launch
 tags:
   - mobile app
