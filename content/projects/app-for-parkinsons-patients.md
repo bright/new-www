@@ -1,6 +1,6 @@
 ---
 team_members:
-  - albert
+  - michal
 our_service:
   - MVP development
   - mobile app development
@@ -11,18 +11,16 @@ image: /images/app_for_parkinson_patients1.png
 description: A personal digital diary for patients suffering from Parkinson’s
   disease. The app lets users record their symptoms and track the intake of
   prescribed drugs.
-hero_image: /images/parkinson_app_case_study.png
+hero_image: /images/case_study_app_parkinson_patients_app.png
 Hero Image_alt: App for patients suffering from Parkinson’s disease
 social_media_previev: /images/parkinson_s_fb_preview.png
 social_media_previev_alt: App for Parkinson's patients case study
 bar_achievements:
-  - number: '2'
+  - number: "2"
     label: iOS and Android apps
-  - number: '1'
-    label: MVP
-  - number: '5'
+  - number: "5"
     label: Key features
-  - number: '3'
+  - number: "3"
     label: months to MVP launch
 tags:
   - mobile app
