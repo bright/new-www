@@ -1,6 +1,6 @@
 ---
 team_members:
-  - agnieszka_h
+  - mateusz
 our_service:
   - mobile app development
   - custom software development
