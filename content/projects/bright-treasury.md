@@ -15,7 +15,7 @@ image: /images/treasuryapp_www.png
 description: "Bright Inventions’s original solution. A web app supporting
   Substrate Blockchain networks: Polkadot and Kusama in uploading proposals for
   Treasury grants."
-hero_image: /images/brighttreasury_mockup_casestudy_big.png
+hero_image: /images/case_study_web_app_brighttreasury.png
 Hero Image_alt: BrightTreasury
 social_media_previev: /images/brighttreasury_fb_preview.png
 social_media_previev_alt: BrightTreasury case study
