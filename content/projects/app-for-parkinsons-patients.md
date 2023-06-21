@@ -28,13 +28,13 @@ tags:
   - customized software
   - eHealth
 title_team: team
-title_case_study: case study
+title_case_study: more success stories
 title_contact: let's talk about your product
 description_contact: Fill out the form below and we'll get back to you in 48 hours.
 order: 99
 slug: solution-for-parkinsons-patients
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: false
 published: true
 ---
