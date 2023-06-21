@@ -1,6 +1,6 @@
 ---
 team_members:
-  - agnieszka_h
+  - michal
 our_service:
   - MVP-Entwicklung Agentur
 layout: project
@@ -10,19 +10,17 @@ image: /images/app_for_parkinson_patients1.png
 description: Ein persönliches digitales Tagebuch für Parkinson-Patienten. Mit
   der App können Benutzer Ihre Symptome aufzeichnen und die Einnahme
   verschriebener Medikamente verfolgen.
-hero_image: /images/parkinson_app_case_study.png
+hero_image: /images/case_study_app_parkinson_patients_app.png
 Hero Image_alt: Lösung für Parkinson-Patienten
 social_media_previev: /images/fb_preview_case_study_parkinson_app_de.png
 social_media_previev_alt: Lösung für Parkinson-Patienten
 bar_achievements:
-  - number: '2'
+  - number: "2"
     label: iOS uns Android Apps
-  - number: '1'
-    label: MVP
-  - number: '5'
-    label: Hauptfunktionen
-  - number: '3'
+  - number: "3"
     label: Monate bis zur MVP-Einführung
+  - number: "5"
+    label: Hauptfunktionen
 tags:
   - mobile app
   - MVP
