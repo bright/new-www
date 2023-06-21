@@ -1,6 +1,6 @@
 ---
 team_members:
-  - albert
+  - kasia
 our_service:
   - MVP-Entwicklung Agentur
 layout: project
