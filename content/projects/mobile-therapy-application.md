@@ -18,12 +18,10 @@ social_media_previev_alt: Mobile Therapy App case study
 bar_achievements:
   - number: "2"
     label: iOS and Android apps
-  - number: "1"
-    label: MVP
+  - number: "6"
+    label: Months to MVP launch
   - number: "5"
     label: Key MVP featuers
-  - number: "6"
-    label: months to MVP launch
 tags:
   - mobile app
   - customized software
