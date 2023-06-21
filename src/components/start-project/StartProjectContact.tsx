@@ -54,7 +54,7 @@ const StartProjectContact: FC<StartProjectContactProps> = ({ formButton, actionF
   }
 
   const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-
+    setIsSending(true)
 
     e.preventDefault()
 
