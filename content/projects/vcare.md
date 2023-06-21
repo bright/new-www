@@ -15,7 +15,7 @@ image: /images/vcare-_mockup-3_700.jpg
 description: A healthcare software solution that helps care homes all over the
   United Kingdom monitor their residents’ health and register medicine
   administration.
-hero_image: /images/healthcare_case_study_app_new.png
+hero_image: /images/case_study_healthtech_mobile_web.png
 Hero Image_alt: A healthcare software solution
 social_media_previev: /images/vcare_fb_preview.png
 social_media_previev_alt: vCare case study
