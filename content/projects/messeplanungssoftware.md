@@ -1,6 +1,6 @@
 ---
 team_members:
-  - albert
+  - kasia
 our_service:
   - MVP-Entwicklung Agentur
 layout: project
@@ -10,7 +10,7 @@ image: /images/xpomaker_dashboard2.png
 description: Eine Messeplanungssoftware, die Art und Weise revolutioniert, wie
   Unternehmen alle für Branchenveranstaltungen erforderlichen Assets vorbereiten
   und organisieren.
-hero_image: /images/case_study_event_management.png
+hero_image: /images/case_study_event_management_fair_app.png
 Hero Image_alt: Messeplanungssoftware
 social_media_previev: /images/fb_preview_case_study_mobile_messe_planung_de.png
 social_media_previev_alt: Eine Messeplanungssoftware
