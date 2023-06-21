@@ -6,13 +6,14 @@ team_members:
   - michal
 our_service:
   - mobile app development
+  - custom software development
 layout: project
 project_id: finebite
 title: "Finebite (Everytap) "
 image: /images/foodapp_ingredients.png
 description: Finebite app helps to discover the best restaurants in the biggest
   Polish cities. Finebite originated from a very popular loyalty app – Everytap.
-hero_image: /images/foodapp_trio2.png
+hero_image: /images/case_study_dining_booking_app.png
 Hero Image_alt: "Finebite (Everytap) "
 social_media_previev: /images/finebite_fb_preview.png
 social_media_previev_alt: Finebite (Everytap) case study
