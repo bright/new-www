@@ -23,13 +23,13 @@ tags:
   - customized software
   - bluetooth
 title_team: team
-title_case_study: case study
-title_contact: Let's talk about your app
+title_case_study: more success stories
+title_contact: let's talk about your app
 description_contact: Book a free consultation in 48 hours!
 order: 99
 slug: easytapp
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: false
 published: true
 ---
