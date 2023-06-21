@@ -7,6 +7,7 @@ team_members:
 our_service:
   - web development
   - MVP development
+  - product design
 layout: project
 project_id: digitized-questionnaires
 title: Digitized Questionnaires
@@ -14,7 +15,7 @@ image: /images/digitizing_mobile_reporting_main2.png
 description: A web application that enables digitizing mobile reporting. It
   helps you to build, with no code, the digitized surveys for end-users. A great
   tool for audits.
-hero_image: /images/digitized_questionnaire_case_study_app.png
+hero_image: /images/case_study_digitized_workflow_web.png
 Hero Image_alt: Digitized Questionnaires
 social_media_previev: /images/questionnaire_fb_preview.png
 social_media_previev_alt: Digitized Questionnaires case study
