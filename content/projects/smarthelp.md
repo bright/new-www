@@ -1,7 +1,9 @@
 ---
 team_members:
-  - michal
   - kasia
+  - lukasz
+  - azabost
+  - piotr
 our_service:
   - mobile app development
   - MVP development
@@ -33,7 +35,7 @@ tags:
   - customized software
   - eHealth
   - bluetooth
-title_team: team
+title_team: team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your solution
 description_contact: Tell us more about your mobile project or idea for an app.
@@ -43,7 +45,7 @@ slug: smarthelp
 redirect_from:
   - /smarthelp
   - /smarthelp/
-show_team: false
+show_team: true
 show_case_study: true
 show on homepage: false
 published: true
