@@ -190,6 +190,14 @@ const SlideWrapper = styled.div`
 export const CarouselQuotesSwiper: React.FC = () => {
   const quotes = [
     {
+      avatar_hover: <StaticImage src='../../../static/images/bartek_k_passion.png' alt='Bartek' className='quote-img' />,
+      short_name: 'Bartek',
+      bio: 'Backend Developer',
+      slug: 'bartek-k',
+      quote:
+        'What's unique about Bright Inventions is the mature process of software development. The team is highly skilled and experienced. We focus 100% on quality.',
+    },
+    {
       avatar_hover: <StaticImage src='../../../static/images/jacek_passion.png' alt='Jacek' className='quote-img' />,
       short_name: 'Jacek',
       bio: 'Senior Backend Developer',
