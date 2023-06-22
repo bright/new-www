@@ -96,7 +96,9 @@ For the iOS native application, our developers used Objective-C/Swift, ReactiveC
 
 It was critical that the SmartHelp platform represents a 'Privacy by Design' approach. And so, the software was built with a fully end-to-end encrypted channel for exchanging situational awareness information between parties. Its ingenious cryptographic architecture allowed SmartHelp to be certified for medical information processing under Norwegian data privacy laws, comprising of some of the most stringent requirements in the world.
 
-<TitleWithIcon sectionTitle='Result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='Result' />
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='Result' />
 
 SmartHelp has been in operational use since December 2014. To date, it is the only app that makes the user visible on the map to call center staff right at the moment of the call.
 
