@@ -6,8 +6,8 @@ slug: maciej-n
 name: "Maciej Nawrocki "
 short_name: Maciej
 email: maciej.nawrocki@brightinventions.pl
-bio: Backend Developer
-description: Backend Developer
+bio: Senior Backend Developer
+description: Senior Backend Developer
 avatar: /images/maciej_n_2_team.png
 avatar_hover: /images/maciejn_2passion.png
 published: true
