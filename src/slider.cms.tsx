@@ -35,7 +35,7 @@ export const SliderCmsEditorComponent = {
     },
     toBlock({ sliderElements }: { sliderElements: { title: string; description: string }[] }) {
         if (!sliderElements) {
-            console.error("Images is undefined");
+            console.error("SliderElements is undefined");
             return `<SliderText sliderElements='[]' />`;
         }
         const sliderElementsString = JSON.stringify(sliderElements);
