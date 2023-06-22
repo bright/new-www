@@ -69,7 +69,6 @@ The client has used various freight management solutions available on the market
 
 <TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
 
-
 **Frontend**: TypeScript, React, Redux, React Query
 
 **Backend**: Nest.js, TypeScript, AWS, PostgreSQL, Prisma
