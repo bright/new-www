@@ -195,7 +195,7 @@ export const CarouselQuotesSwiper: React.FC = () => {
       bio: 'Backend Developer',
       slug: 'bartek-k',
       quote:
-        'What's unique about Bright Inventions is the mature process of software development. The team is highly skilled and experienced. We focus 100% on quality.',
+        'What’s unique about Bright Inventions is the mature process of software development. The team is highly skilled and experienced. We focus 100% on quality.',
     },
     {
       avatar_hover: <StaticImage src='../../../static/images/jacek_passion.png' alt='Jacek' className='quote-img' />,
