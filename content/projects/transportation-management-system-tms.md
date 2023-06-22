@@ -55,6 +55,8 @@ Our client – [MAKO TSL](https://makotsl.com/) hired Bright Inventions to **bui
 
 The client has used various freight management solutions available on the market. Yet none of them met all their needs. So they hired us to build a **customized transport management system to be used by the client’s employees**.
 
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
 ## Main features developed by Bright Inventions
 
 * **Importing freight listings** from popular transport marketplaces.
@@ -68,7 +70,6 @@ The client has used various freight management solutions available on the market
 <TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
 
 
-
 **Frontend**: TypeScript, React, Redux, React Query
 
 **Backend**: Nest.js, TypeScript, AWS, PostgreSQL, Prisma
@@ -76,7 +77,7 @@ Android development: Kotlin, Coroutines, Flows, ViewModel, Firebase, Hilt, and o
 
 **Product design**: Figma, Adobe Illustrator
 
-## Goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/flag.svg' titleIconAlt='bright' />
 
 Our primary goal was to **design MVP which could verify the potential of the system to be developed on a bigger scale**.
 
@@ -84,7 +85,7 @@ The solution is supposed to **transform forwarders’ work into a less repetitiv
 
 Also, another long-term goal is to **support daily communication with road hauliers**.
 
-## The challenge of building a transport management system
+<TitleWithIcon sectionTitle='the challenge of building a transport management system' titleIcon='/images/two_flags.svg' titleIconAlt='bright' />
 
 The main challenge was to **build a fast solution**. Time is the key to the shipping industry. The app had to aggregate the listings fast and assign them to the right carriers. Every millisecond counts.
 
@@ -92,9 +93,11 @@ What’s more, our team had to design an **algorithm that would automatically fi
 
 In terms of product design, the right **architectural information** was the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen so they could scan all the info fast.
 
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
 <div class="image"><img src="/images/tms_market_ui.png" alt="transport management system UI case study" title="undefined"  /> </div>
 
-## TMS Development Process
+<TitleWithIcon sectionTitle='TMS development process' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
 
 **Bright Inventions were responsible for every aspect of MVP development** from listing requirements, product design, to web development, QA, cloud management, launch, and finally maintenance. The MVP was launched in October 2022 and received **positive feedback** from the client’s employees.
 
