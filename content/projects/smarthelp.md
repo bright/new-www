@@ -1,9 +1,11 @@
 ---
 team_members:
-  - albert
+  - michal
+  - kasia
 our_service:
   - mobile app development
   - MVP development
+  - product design
 layout: project
 project_id: smarthelp
 title: SmartHelp
@@ -16,12 +18,10 @@ Hero Image_alt: Emergency app
 social_media_previev: /images/smarthelp_fb_preview.png
 social_media_previev_alt: SmartHelp case study
 bar_achievements:
-  - number: "1"
-    label: MVP
   - number: "2"
     label: iOS and Android apps
   - number: "2014"
-    label: year of the launch
+    label: Year of the launch
   - number: "7"
     label: Key features
 tags:
@@ -34,8 +34,8 @@ tags:
   - eHealth
   - bluetooth
 title_team: team
-title_case_study: case study
-title_contact: Let's talk about your solution
+title_case_study: more success stories
+title_contact: let's talk about your solution
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 99
@@ -44,13 +44,11 @@ redirect_from:
   - /smarthelp
   - /smarthelp/
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: false
 published: true
 ---
-
-
-![An emergency service app ](/images/smarthelp.png)
+<Gallery images='undefined' />
 
 ## Main features
 
@@ -62,9 +60,11 @@ published: true
 * Geolocation
 * Reverse geocoding
 
-## About
+<TitleWithIcon sectionTitle='about the project' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
 
 SmartHelp is a holistic solution offering emergency services to anyone who’s found themselves in need of critical help. The app operates in Norway, and makes it nearly effortless for users to answer the three questions emergency centers ask before they send a rescue team – ‘where’, ‘what’, and ‘who’.
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 The first step (“where are you?”) is done by streamlining the user’s location to a map-centric emergency call center. Secondly, the user answers the “what is it?” question by clicking on the symbol that depicts the type of emergency (fire, police, or medical assistance). Next, he/she is connected to the rescue center via call or chat. The third question (“who are you?”) is automatically answered with pre-defined personal information such as name, address, and existing medical conditions. All this allows the emergency call handler to share the user’s details with the rescue team.
 
@@ -78,11 +78,11 @@ Importantly, once the SmartButton is pressed, all of the notified sides keep rec
 
 This feature can also be leveraged by institutional clients (for ex. Health & Safety professionals), who need to make sure their employees are always safe and taken care of in case of any work-related emergency.
 
-## Goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/flag.svg' titleIconAlt='bright' />
 
 The goal was to create a system that consists of three elements: two native mobile apps – for iPhone and Android, an Emergency Services web panel allowing to locate and communicate with users (both those with the app and without it), and the backend.
 
-## Process
+<TitleWithIcon sectionTitle='development process' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
 
 Bright Inventions has been a part of the project from the very beginning – from the ideation phase to the project’s full-stack implementation, deployment, and maintenance.
 
@@ -94,7 +94,7 @@ For the iOS native application, our developers used Objective-C/Swift, ReactiveC
 
 It was critical that the SmartHelp platform represents a 'Privacy by Design' approach. And so, the software was built with a fully end-to-end encrypted channel for exchanging situational awareness information between parties. Its ingenious cryptographic architecture allowed SmartHelp to be certified for medical information processing under Norwegian data privacy laws, comprising of some of the most stringent requirements in the world.
 
-## Result
+<TitleWithIcon sectionTitle='Result' titleIcon='/images/results_whats_next_title_icon.png' titleIconAlt='Result' />
 
 SmartHelp has been in operational use since December 2014. To date, it is the only app that makes the user visible on the map to call center staff right at the moment of the call.
 
