@@ -33,6 +33,10 @@ export const GalleryCmsEditorComponent = {
         }
     },
     toBlock({ images }: { images: { src: string; alt: string }[] }) {
+        if (!images) {
+            console.error("Images is undefined");
+            return `<Gallery images='[]' />`;
+        }
         const imagesString = JSON.stringify(images);
         return `<Gallery images='${imagesString}' />`;
     },
