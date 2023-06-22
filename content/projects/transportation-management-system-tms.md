@@ -47,8 +47,6 @@ show_case_study: true
 show on homepage: false
 published: true
 ---
-<div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
-
 <TitleWithIcon sectionTitle='about TMS project' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
 
 Our client – [MAKO TSL](https://makotsl.com/) hired Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. 
@@ -84,6 +82,8 @@ The solution is supposed to **transform forwarders’ work into a less repetitiv
 
 Also, another long-term goal is to **support daily communication with road hauliers**.
 
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
 <TitleWithIcon sectionTitle='the challenge of building a transport management system' titleIcon='/images/two_flags.svg' titleIconAlt='bright' />
 
 The main challenge was to **build a fast solution**. Time is the key to the shipping industry. The app had to aggregate the listings fast and assign them to the right carriers. Every millisecond counts.
@@ -91,8 +91,6 @@ The main challenge was to **build a fast solution**. Time is the key to the ship
 What’s more, our team had to design an **algorithm that would automatically filter out transport listings to display only the ones that match the client's expectations**.
 
 In terms of product design, the right **architectural information** was the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen so they could scan all the info fast.
-
-<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <div class="image"><img src="/images/tms_market_ui.png" alt="transport management system UI case study" title="undefined"  /> </div>
 
@@ -111,6 +109,8 @@ As a result, it takes up to **0.5 seconds to filter out the right transport list
 ### Product design
 
 Before our team presented the MVP mockups we took a couple of crucial steps which helped us design the product. Typically, it all started with **desk research**, followed by **benchmarking**. We also had a great opportunity to conduct **field studies** and **user shadowing** combined with **adaptive interviews**. Thanks to our client who enabled us to visit the forwarders who in fact were going to be the MVP end users. Based on that research our product designer created the final MVP designs.
+
+<div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
 
 ## What’s next for Mako TSL and Bright Inventions?
 
