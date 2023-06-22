@@ -48,8 +48,6 @@ show_case_study: true
 show on homepage: false
 published: true
 ---
-<Gallery images='undefined' />
-
 ## Main features
 
 * Websocket communication
