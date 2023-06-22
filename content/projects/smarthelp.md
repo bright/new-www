@@ -48,6 +48,8 @@ show_case_study: true
 show on homepage: false
 published: true
 ---
+<div class="image"><img src="/images/smarthelp.png" alt="Emergency app" title="Emergency app"  /> </div>
+
 ## Main features
 
 * Websocket communication
@@ -62,11 +64,11 @@ published: true
 
 SmartHelp is a holistic solution offering emergency services to anyone who’s found themselves in need of critical help. The app operates in Norway, and makes it nearly effortless for users to answer the three questions emergency centers ask before they send a rescue team – ‘where’, ‘what’, and ‘who’.
 
-<AnchorLink href='#contactForm' text='let’s talk about your project'/>
-
 The first step (“where are you?”) is done by streamlining the user’s location to a map-centric emergency call center. Secondly, the user answers the “what is it?” question by clicking on the symbol that depicts the type of emergency (fire, police, or medical assistance). Next, he/she is connected to the rescue center via call or chat. The third question (“who are you?”) is automatically answered with pre-defined personal information such as name, address, and existing medical conditions. All this allows the emergency call handler to share the user’s details with the rescue team.
 
 The app also covers situations, when the user is in no condition to communicate with the emergency center back and forth. This is done with the use of one of the app’s flag features – **SmartButton**.
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 ![An emergency service app ](/images/smarthelp_screens1and2.png)
 
@@ -92,7 +94,7 @@ For the iOS native application, our developers used Objective-C/Swift, ReactiveC
 
 It was critical that the SmartHelp platform represents a 'Privacy by Design' approach. And so, the software was built with a fully end-to-end encrypted channel for exchanging situational awareness information between parties. Its ingenious cryptographic architecture allowed SmartHelp to be certified for medical information processing under Norwegian data privacy laws, comprising of some of the most stringent requirements in the world.
 
-<TitleWithIcon sectionTitle='Result' titleIcon='/images/results_whats_next_title_icon.png' titleIconAlt='Result' />
+<TitleWithIcon sectionTitle='Result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='Result' />
 
 SmartHelp has been in operational use since December 2014. To date, it is the only app that makes the user visible on the map to call center staff right at the moment of the call.
 
