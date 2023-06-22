@@ -49,7 +49,7 @@ published: true
 ---
 <div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
 
-## About TMS project
+<TitleWithIcon sectionTitle='about TMS project' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
 
 Our client – [MAKO TSL](https://makotsl.com/) hired Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. 
 
@@ -65,7 +65,9 @@ The client has used various freight management solutions available on the market
 
 <div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
 
-## Stack:
+<TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+
+
 
 **Frontend**: TypeScript, React, Redux, React Query
 
