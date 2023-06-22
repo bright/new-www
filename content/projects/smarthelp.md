@@ -1,6 +1,6 @@
 ---
 team_members:
-  - albert
+  - michal
 our_service:
   - mobile app development
   - MVP development
@@ -16,12 +16,10 @@ Hero Image_alt: Emergency app
 social_media_previev: /images/smarthelp_fb_preview.png
 social_media_previev_alt: SmartHelp case study
 bar_achievements:
-  - number: "1"
-    label: MVP
   - number: "2"
     label: iOS and Android apps
   - number: "2014"
-    label: year of the launch
+    label: Year of the launch
   - number: "7"
     label: Key features
 tags:
