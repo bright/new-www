@@ -7,7 +7,7 @@ tags:
   - app
 date: 2021-06-22T08:09:07.016Z
 meaningfullyUpdatedAt: ""
-title: Top app security practices to expect from developers
+title: App Security Practices a Startup Founder or CTO Should Expect from Developers
 layout: post
 image: /images/security-apps.jpg
 hidden: false
@@ -24,11 +24,11 @@ published: true
 
 ## Ensure that developers use security automation
 
-Of course, **every [app development](/our-areas/web-development/) process should include a code review**. Nevertheless, it is **wise to use automation security as well**. Ensure that the developer team who works on your software, uses tools to double-check the security of your product. One of the most popular security tools is **Sonar Cube**. Also, it is recommended to use **Dependabot** built into GitHub.
+Of course, **every [app development](/our-areas/web-development/) process should include a code review**. Nevertheless, it is **wise to use automation security as well**. Ensure that the developer team who works on your software, uses tools to double-check the security of your product. One of the most popular security tools is **SonarQube**. Also, it is recommended to use **Dependabot** built into GitHub.
 
 Also, your development team should know how to **manage secrets**. They should follow common security practises. First of all, using tools like **GPG Suite** to safely share secrets. Second of all, using solutions like **Bitwarden** to make sure that secrets are stored and are accessible by each team member. Other important practices are: encrypting the disks, using proper password retention policy and Multi-Factor Authentication (MFA). Last but not least, VPN is a must!
 
-<div class='block-button'><h2>Looking for developers who follow best security practices?</h2><div>We have been developing mobile and web apps since 2012. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<div class='block-button'><h2>Looking for software security experts?</h2><div>We have been developing mobile and web apps since 2012. Contact us to discuss how to make your solution secure.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
 
 ## Don’t hesitate to use tools given by cloud providers
 
