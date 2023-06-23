@@ -67,7 +67,8 @@ The client has used various freight management solutions available on the market
 
 <TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
 
-<Gallery images='[{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/nest.png","alt":"Nest"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/figma_logo.png"}]' />
+<Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},
+{"src":"/images/react.png","alt":"React"},{"src":"/images/nest.png","alt":"Nest"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"}]' />
 
 **Frontend**: TypeScript, React, Redux, React Query
 
