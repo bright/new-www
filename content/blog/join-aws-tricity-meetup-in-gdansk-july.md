@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-06-23T06:34:27.136Z
 title: Join AWS Tricity Meetup in Gdańsk. Choose What Our Speaker Will Say
 layout: post
 image: /images/aws_meetup_blog_july.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
