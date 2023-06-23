@@ -47,8 +47,6 @@ Just Eat POS system took care of the whole process of managing restaurant orders
 
 Also, read another [Just Eat POS case study](/projects/system-for-restaurants) about other products built for this enormous system.
 
-
-
 <TitleWithIcon sectionTitle='Main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Transactions processing
@@ -60,7 +58,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * Supply ordering
 * Offline mode during transactions
 
-<TitleWithIcon sectionTitle='Mobile apps that were a part of the restaurant & retail systems:' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
+<TitleWithIcon sectionTitle='Mobile apps integrated with restaurant & retail systems' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
@@ -71,7 +69,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 <TitleWithIcon sectionTitle='Bright Inventions’ mobile stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='features' />
 
-<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"}]' />
+<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"}]' />
 
 **Android**: Kotlin, Coroutines, Android Architecture Components (LiveData, ViewModel, Room, Navigation, Paging), Firebase, Google Maps, Dagger 2, Robolectric and other Google APIs
 
