@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-06-23T06:34:27.136Z
 title: Join AWS Tricity Meetup in Gdańsk. Choose What Our Speaker Will Say
 layout: post
 image: /images/aws_meetup_blog_july.png
-hidden: false
+hidden: true
 comments: true
 published: true
 ---
@@ -43,15 +43,15 @@ Join our speakers: **Paweł** Piwosz and **Maciej Nawrocki** to dive into AWS CD
 
 ## Meet our speakers
 
-### Paweł Piwosz, Lead Systems Engineer, Epam Systems
+### [Paweł Piwosz](https://www.linkedin.com/in/pawelpiwosz/), Lead Systems Engineer, Epam Systems
 
 DevOps, leader, mentor, trainer. His main focus in DevOps is CALMS as a framework. He tries to build a better understanding of DevOps as a company’s “driving force”.
 
-### Maciej Nawrocki, Senior Backend Developer, Bright Inventions
+### [Maciej Nawrocki](https://www.linkedin.com/in/maciej-nawrocki/), Senior Backend Developer, Bright Inventions
 
 A backend developer with over 6 years of experience. Right now his focus is on DevOps and Monitoring. A big fan of Observability and tools like OpenTelemetry. However, deep down he will always be a backend developer first and foremost.
 
----
+- - -
 
 **Date**: July 10, 2023, 5 PM
 
