@@ -52,13 +52,13 @@ published: true
 <SliderText sliderElements='[{"title":"intuitive treasury submissions","description":"An intuitive, two-step flow for submitting proposals (Idea -> Proposal)."},{"description":"In-app module for more detailed proposal descriptions (like adding milestones) connected with the proposal related discussion and reporting progress on approved proposals.","title":"In-app module"},{"title":"proposals overview","description":"Clear overview of the submitted proposals matched with derived motions and their results"},{"description":"Historical overview of the past spending periods’ proposals that were submitted using the app.","title":"historical overview "},{"title":"bounties mechanism","description":"The first app with dedicated bounties implementation."},{"title":"in-app login","description":"Login with Web3 account or email."}]' />
 
 
-
 <TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+
+
 
 **Frontend:** React, TypeScript
 
 **Backend:** Node.js, NestJS, TypeScript, PostgreSQL, AWS Services
-
 
 
 <TitleWithIcon sectionTitle='about BrightTreasury' titleIcon='/images/three_flags.svg' titleIconAlt='about BrightTreasury' />
@@ -69,11 +69,15 @@ The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocur
 
 <center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">PSA to the DotSama community 💻🤩🎉<a href="https://twitter.com/BrightDevs?ref_src=twsrc%5Etfw">@BrightDevs</a> developed something awesome to ease the treasury proposal submission process on <a href="https://twitter.com/kusamanetwork?ref_src=twsrc%5Etfw">@kusamanetwork</a> and <a href="https://twitter.com/Polkadot?ref_src=twsrc%5Etfw">@Polkadot</a>: <br /><br />BrightTreasury: <a href="https://t.co/NQy8r7vIbi">https://t.co/NQy8r7vIbi</a> <br/><br/>(1/6) <a href="https://t.co/HRi3ESluxW">pic.twitter.com/HRi3ESluxW</a></p>&mdash; R.I.Rtti (@nachortti) <a href="https://twitter.com/nachortti/status/1471109810322030596?ref_src=twsrc%5Etfw">December 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
 <TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright) application help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that BrightTreasury app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
 
 ![Bright Treasury Substrate](/images/treasuryapp_www.png)
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle='process of developing BrightTreasury' titleIcon='/images/gearwheel.svg' titleIconAlt='process of developing BrightTreasury' />
 
