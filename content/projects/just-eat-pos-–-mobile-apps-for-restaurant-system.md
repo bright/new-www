@@ -107,7 +107,7 @@ The app let you manage food orders made at restaurant, by phone or the website.
 * **Printing receipt** – the app enabled to print payment receipts as well as receipts printed in the kitchen with details about the order.
 * **Integration with CallerID** – when a client called, the application assigns the caller number with the order.
 
-<TitleWithIcon sectionTitle='delivering customized applications for Bluetooth devices' titleIcon='/images/gearwheel.svg' titleIconAlt='delivering customized applications for Bluetooth devices' />
+<TitleWithIcon sectionTitle='customized applications for Bluetooth devices' titleIcon='/images/gearwheel.svg' titleIconAlt='delivering customized applications for Bluetooth devices' />
 
 <div class="image"><img src="/images/blog_post_cover_epos.png" alt="ePOS applications" title="undefined"  /> </div>
 
