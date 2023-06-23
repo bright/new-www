@@ -19,7 +19,7 @@ social_media_previev_alt: Circles case study
 bar_achievements:
   - number: 10k+
     label: Downloads on Google Play
-  - number: "3"
+  - number: "5"
     label: Bright team members
   - number: 2+
     label: Years of cooperation
