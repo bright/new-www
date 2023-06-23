@@ -7,7 +7,6 @@ team_members:
 our_service:
   - MVP development
   - mobile app development
-  - bluetooth development
 layout: project
 project_id: Practi JET POS Mobile
 title: Just Eat POS – Mobile Apps for Restaurant System
