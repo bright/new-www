@@ -29,7 +29,7 @@ Join our speakers: **Paweł** **Piwosz** and **Maciej Nawrocki** to dive into AW
 
 **5.45** **PM** Refreshment Break ☕️
 
-**6.00-7.00 PM** Presentation by **Paweł Piwosz** 😎, Lead Systems Engineer at Epam Systems
+**6.00-7.00 PM** Presentation by **Paweł Piwosz** 😎, Developer Advocate at Spacelift
 
 **Option 1: Modern and Controlled Delivery of Infrastructure as Code to Target Environments Using Terraform, Spacelift, and AWS.**
 
@@ -41,7 +41,7 @@ Join our speakers: **Paweł** **Piwosz** and **Maciej Nawrocki** to dive into AW
 
 ## Meet our speakers
 
-### [Paweł Piwosz](https://www.linkedin.com/in/pawelpiwosz/), Lead Systems Engineer, Epam Systems
+### [Paweł Piwosz](https://www.linkedin.com/in/pawelpiwosz/), Developer Advocate at Spacelift
 
 DevOps, leader, mentor, trainer. His main focus in DevOps is CALMS as a framework. He tries to build a better understanding of DevOps as a company’s “driving force”.
 
