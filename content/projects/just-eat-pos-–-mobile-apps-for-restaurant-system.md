@@ -125,6 +125,6 @@ A great part of working with Just Eat POS was **building iOS and Android applica
 
 Our applications had been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle='what's next for Just Eat Takeaway & Bright Inventions' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Although the retail system is no longer developed, **Bright Inventions Android and iOS developers still work with Just Eat Takeaway on other solutions**.
