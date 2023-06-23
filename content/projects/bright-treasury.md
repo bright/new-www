@@ -47,7 +47,7 @@ published: true
 ---
 ![Bright Treasury](/images/treasuryappwww.png)
 
-## Main features of BrightTreasury:
+<TitleWithIcon sectionTitle='main features of BrightTreasury:' titleIcon='/images/main_features_icon.png' titleIconAlt='Main features of BrightTreasury:' />
 
 <SliderText sliderElements='[{"title":"intuitive treasury submissions","description":"An intuitive, two-step flow for submitting proposals (Idea -> Proposal)."},{"description":"In-app module for more detailed proposal descriptions (like adding milestones) connected with the proposal related discussion and reporting progress on approved proposals.","title":"In-app module"},{"title":"proposals overview","description":"Clear overview of the submitted proposals matched with derived motions and their results"},{"description":"Historical overview of the past spending periods’ proposals that were submitted using the app.","title":"historical overview "},{"title":"bounties mechanism","description":"The first app with dedicated bounties implementation."},{"title":"in-app login","description":"Login with Web3 account or email."}]' />
 
