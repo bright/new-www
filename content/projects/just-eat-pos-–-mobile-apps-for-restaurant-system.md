@@ -7,6 +7,7 @@ team_members:
 our_service:
   - MVP development
   - mobile app development
+  - bluetooth development
 layout: project
 project_id: Practi JET POS Mobile
 title: Just Eat POS – Mobile Apps for Restaurant System
@@ -41,17 +42,15 @@ show_case_study: true
 show on homepage: false
 published: true
 ---
-<div class="image"><img src="/images/mobile_retail_app.png" alt="Mobile apps restaurant and retail" title="It is not a real implemented design. It is a mockup example created for the purpose of a case study."  /> </div>
 
-*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
-## Just Eat POS restaurant system
+<TitleWithIcon sectionTitle='Just Eat POS restaurant system' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home. A huge part of the system was a couple of Android and iOS applications.
 
 Also, read another [Just Eat POS case study](/projects/system-for-restaurants) about other products built for this enormous system.
 
-## Main features developed by Bright Inventions:
+<TitleWithIcon sectionTitle='Main features developed by Bright Inventions:' titleIcon='/images/skills.svg' titleIconAlt='features' />
 
 * Transactions processing
 * Integration with payment service providers
@@ -62,10 +61,14 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * Supply ordering
 * Offline mode during transactions
 
-## **Mobile apps that were a part of the restaurant & retail systems:**
+<TitleWithIcon sectionTitle='Mobile apps that were a part of the restaurant & retail systems:' titleIcon='/images/skills.svg' titleIconAlt='features' />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
+
+<div class="image"><img src="/images/mobile_retail_app.png" alt="Mobile apps restaurant and retail" title="It is not a real implemented design. It is a mockup example created for the purpose of a case study."  /> </div>
+
+*It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
 ## **Bright Inventions’ mobile stack and skills:**
 
