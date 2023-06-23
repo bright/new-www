@@ -42,15 +42,15 @@ show_case_study: true
 show on homepage: false
 published: true
 ---
-
-
 <TitleWithIcon sectionTitle='Just Eat POS restaurant system' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home. A huge part of the system was a couple of Android and iOS applications.
 
 Also, read another [Just Eat POS case study](/projects/system-for-restaurants) about other products built for this enormous system.
 
-<TitleWithIcon sectionTitle='Main features developed by Bright Inventions:' titleIcon='/images/skills.svg' titleIconAlt='features' />
+
+
+<TitleWithIcon sectionTitle='Main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Transactions processing
 * Integration with payment service providers
@@ -61,7 +61,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * Supply ordering
 * Offline mode during transactions
 
-<TitleWithIcon sectionTitle='Mobile apps that were a part of the restaurant & retail systems:' titleIcon='/images/skills.svg' titleIconAlt='features' />
+<TitleWithIcon sectionTitle='Mobile apps that were a part of the restaurant & retail systems:' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
@@ -70,7 +70,9 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
-## **Bright Inventions’ mobile stack and skills:**
+<TitleWithIcon sectionTitle='Bright Inventions’ mobile stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='features' />
+
+
 
 **Android**: Kotlin, Coroutines, Android Architecture Components (LiveData, ViewModel, Room, Navigation, Paging), Firebase, Google Maps, Dagger 2, Robolectric and other Google APIs
 
