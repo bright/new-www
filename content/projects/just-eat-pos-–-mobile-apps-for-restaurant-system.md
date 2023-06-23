@@ -67,7 +67,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
-<TitleWithIcon sectionTitle='Bright Inventions’ mobile stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='features' />
+<TitleWithIcon sectionTitle='stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='features' />
 
 <Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
