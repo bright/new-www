@@ -55,7 +55,7 @@ published: true
 
 
 
-<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/aws.png","alt":"AWS"}]' />
+<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
 **Frontend:** React, TypeScript
 
