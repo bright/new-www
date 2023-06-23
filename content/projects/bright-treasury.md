@@ -51,15 +51,15 @@ published: true
 
 <SliderText sliderElements='[{"title":"intuitive treasury submissions","description":"An intuitive, two-step flow for submitting proposals (Idea -> Proposal)."},{"description":"In-app module for more detailed proposal descriptions (like adding milestones) connected with the proposal related discussion and reporting progress on approved proposals.","title":"In-app module"},{"title":"proposals overview","description":"Clear overview of the submitted proposals matched with derived motions and their results"},{"description":"Historical overview of the past spending periods’ proposals that were submitted using the app.","title":"historical overview "},{"title":"bounties mechanism","description":"The first app with dedicated bounties implementation."},{"title":"in-app login","description":"Login with Web3 account or email."}]' />
 
-
 <TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
 
 
 
+<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/aws.png","alt":"AWS"}]' />
+
 **Frontend:** React, TypeScript
 
 **Backend:** Node.js, NestJS, TypeScript, PostgreSQL, AWS Services
-
 
 <TitleWithIcon sectionTitle='about BrightTreasury' titleIcon='/images/three_flags.svg' titleIconAlt='about BrightTreasury' />
 
