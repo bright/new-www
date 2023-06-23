@@ -49,12 +49,7 @@ published: true
 
 ## Main features of BrightTreasury:
 
-* An intuitive, two-step flow for submitting proposals (Idea -> Proposal)
-* In-app module for more detailed proposal descriptions (like adding milestones) connected with the proposal related discussion and reporting progress on approved proposals
-* Clear overview of the submitted proposals matched with derived motions and their results
-* Historical overview of the past spending periods’ proposals that were submitted using the app 
-* The first app with dedicated bounties implementation
-* In-app login
+<SliderText sliderElements='[{"title":"intuitive treasury submissions","description":"An intuitive, two-step flow for submitting proposals (Idea -> Proposal)."},{"description":"In-app module for more detailed proposal descriptions (like adding milestones) connected with the proposal related discussion and reporting progress on approved proposals.","title":"In-app module"},{"title":"proposals overview","description":"Clear overview of the submitted proposals matched with derived motions and their results"},{"description":"Historical overview of the past spending periods’ proposals that were submitted using the app.","title":"historical overview "},{"title":"bounties mechanism","description":"The first app with dedicated bounties implementation."},{"title":"in-app login","description":"Login with Web3 account or email."}]' />
 
 ## Skills
 
