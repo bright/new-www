@@ -7,7 +7,6 @@ team_members:
 our_service:
   - MVP development
   - mobile app development
-  - bluetooth development
 layout: project
 project_id: Practi JET POS Mobile
 title: Just Eat POS – Mobile Apps for Restaurant System
@@ -48,8 +47,6 @@ Just Eat POS system took care of the whole process of managing restaurant orders
 
 Also, read another [Just Eat POS case study](/projects/system-for-restaurants) about other products built for this enormous system.
 
-
-
 <TitleWithIcon sectionTitle='Main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Transactions processing
@@ -61,7 +58,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * Supply ordering
 * Offline mode during transactions
 
-<TitleWithIcon sectionTitle='Mobile apps that were a part of the restaurant & retail systems:' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
+<TitleWithIcon sectionTitle='Mobile apps integrated with restaurant & retail systems' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
@@ -72,7 +69,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 <TitleWithIcon sectionTitle='Bright Inventions’ mobile stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='features' />
 
-<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"}]' />
+<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"}]' />
 
 **Android**: Kotlin, Coroutines, Android Architecture Components (LiveData, ViewModel, Room, Navigation, Paging), Firebase, Google Maps, Dagger 2, Robolectric and other Google APIs
 
@@ -110,7 +107,7 @@ The app let you manage food orders made at restaurant, by phone or the website.
 * **Printing receipt** – the app enabled to print payment receipts as well as receipts printed in the kitchen with details about the order.
 * **Integration with CallerID** – when a client called, the application assigns the caller number with the order.
 
-<TitleWithIcon sectionTitle='delivering customized applications for Bluetooth devices' titleIcon='/images/gearwheel.svg' titleIconAlt='delivering customized applications for Bluetooth devices' />
+<TitleWithIcon sectionTitle='customized applications for Bluetooth devices' titleIcon='/images/gearwheel.svg' titleIconAlt='delivering customized applications for Bluetooth devices' />
 
 <div class="image"><img src="/images/blog_post_cover_epos.png" alt="ePOS applications" title="undefined"  /> </div>
 
@@ -128,6 +125,6 @@ A great part of working with Just Eat POS was **building iOS and Android applica
 
 Our applications had been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle='what's next for Just Eat Takeaway & Bright Inventions' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Although the retail system is no longer developed, **Bright Inventions Android and iOS developers still work with Just Eat Takeaway on other solutions**.
