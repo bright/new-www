@@ -57,7 +57,9 @@ published: true
 
 **Backend:** Node.js, NestJS, TypeScript, PostgreSQL, AWS Services
 
-## About BrightTreasury
+
+
+<TitleWithIcon sectionTitle='about BrightTreasury' titleIcon='/images/three_flags.svg' titleIconAlt='about BrightTreasury' />
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=AKe5HynDQnU' />
 
