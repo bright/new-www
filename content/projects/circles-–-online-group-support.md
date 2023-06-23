@@ -19,7 +19,7 @@ social_media_previev_alt: Circles case study
 bar_achievements:
   - number: 10k+
     label: Downloads on Google Play
-  - number: "3"
+  - number: "5"
     label: Bright team members
   - number: 2+
     label: Years of cooperation
@@ -28,14 +28,14 @@ tags:
   - eHealth
   - customized software
 title_team: meet the team
-title_case_study: other success stories
+title_case_study: more success stories
 title_contact: let's talk about your product
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 1
 slug: online-group-support
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: true
 published: true
 ---
