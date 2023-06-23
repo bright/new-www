@@ -9,17 +9,15 @@ meaningfullyUpdatedAt: 2023-06-23T06:34:27.136Z
 title: Join AWS Tricity Meetup in Gdańsk. Choose What Our Speaker Will Say
 layout: post
 image: /images/aws_meetup_blog_july.png
-hidden: true
+hidden: false
 comments: true
 published: true
 ---
-**Time to meet again to discuss all AWS has to offer (and much more). Mark your calendars for July 10th at 5:00 PM, as we invite you to join us at the Gdańsk Entrepreneurship Incubator STARTER.**
-
-<div class="image"><img src="/images/aws_meetup_blog_july.png" alt="AWS Tricity Meeting by Bright Inventions" title="AWS Tricity Meeting by Bright Inventions"  /> </div>
-
-Join our speakers: **Paweł** Piwosz and **Maciej Nawrocki** to dive into AWS CDK, Terraform, and… we will see! 😀During the event, **you’ll get to choose the presentation topic Paweł will uncover**. 
+**Time to meet again to discuss all AWS has to offer (and much more). Mark your calendars for July 10th at 5.00 PM, as we invite you to join us at the Gdańsk Entrepreneurship Incubator STARTER.**
 
 <div class='block-button'><h2>Join AWS Meeting in Gdańsk</h2><div>Sign up via Meetup. It's free!</div><a href="https://www.meetup.com/aws-tricity/events/294224874"><button>claim your spot now</button></a></div>
+
+Join our speakers: **Paweł** **Piwosz** and **Maciej Nawrocki** to dive into AWS CDK, Terraform, and… we will see! 😀 During the event, **you’ll get to choose the presentation topic Paweł will uncover**. **Presentation will be held in Polish**.
 
 ## AWS Tricity Meetup agenda
 
