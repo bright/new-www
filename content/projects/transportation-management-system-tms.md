@@ -69,8 +69,6 @@ The client has used various freight management solutions available on the market
 
 <Gallery images='[{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/nest.png","alt":"Nest"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/figma_logo.png"}]' />
 
-
-
 **Frontend**: TypeScript, React, Redux, React Query
 
 **Backend**: Nest.js, TypeScript, AWS, PostgreSQL, Prisma
@@ -78,7 +76,7 @@ Android development: Kotlin, Coroutines, Flows, ViewModel, Firebase, Hilt, and o
 
 **Product design**: Figma, Adobe Illustrator
 
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/flag.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 Our primary goal was to **design MVP which could verify the potential of the system to be developed on a bigger scale**.
 
