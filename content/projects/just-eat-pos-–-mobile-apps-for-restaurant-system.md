@@ -75,6 +75,8 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 
 **iOS**: Realm, ReactiveSwift, PureLayout, MixPanel, Alamofire, Fastlane, Firebase
 
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
 <TitleWithIcon sectionTitle='iOS development' titleIcon='/images/gearwheel.svg' titleIconAlt='iOS development' />
 
 iOS products developed by our team were used in restaurants in Israel. Practi iOS solution was one of the top ePOS solutions used by restaurants in Israel. There were **three main retail products developed by bright iOS developers**.
@@ -106,6 +108,8 @@ The app let you manage food orders made at restaurant, by phone or the website.
 * **Reports** – the app displayed various data and statistics that showed your company revenue, number of orders and sold items, details about the inventory and more.
 * **Printing receipt** – the app enabled to print payment receipts as well as receipts printed in the kitchen with details about the order.
 * **Integration with CallerID** – when a client called, the application assigns the caller number with the order.
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle='customized applications for Bluetooth devices' titleIcon='/images/gearwheel.svg' titleIconAlt='delivering customized applications for Bluetooth devices' />
 
