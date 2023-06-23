@@ -58,7 +58,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * Supply ordering
 * Offline mode during transactions
 
-<TitleWithIcon sectionTitle='Mobile apps integrated with restaurant & retail systems' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
+<TitleWithIcon sectionTitle='Mobile apps integrated with restaurant and retail systems' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
