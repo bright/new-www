@@ -9,7 +9,7 @@ our_service:
   - mobile app development
 layout: project
 project_id: Practi JET POS Mobile
-title: Just Eat POS – Mobile Apps for Restaurant System
+title: "Just Eat POS – Mobile Apps for Restaurant System:"
 image: /images/mobile_retail_app_cover.png
 description: Just Eat POS was a retail system available on iOS and Android used
   by restaurants in Israel and the UK. We scaled this project from the startup
@@ -58,7 +58,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * Supply ordering
 * Offline mode during transactions
 
-<TitleWithIcon sectionTitle='Mobile apps integrated with restaurant & retail systems' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
+<TitleWithIcon sectionTitle='Mobile apps integrated with restaurant and retail systems' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
