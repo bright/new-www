@@ -31,7 +31,7 @@ const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   padding: 0 18px;
   @media screen and (max-width: 768px) {
     padding: ${({ isOurServiceTemplate }) =>
-      isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
+    isOurServiceTemplate ? `0 ${variables.pxToRem(18)}` : `0 ${variables.pxToRem(36)}`};
   }
 `
 
@@ -246,7 +246,7 @@ export const Contact: FC<ContactProps> = ({
             <Loader className='loader'></Loader>
           ) : (
             <MoreButton isSubmit isBlack>
-                {t('let’s talk', { ns: 'button' })}
+              {t('let’s talk', { ns: 'button' })}
             </MoreButton>
           )}
           <div>
