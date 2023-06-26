@@ -9,7 +9,7 @@ our_service:
   - mobile app development
 layout: project
 project_id: Practi JET POS Mobile
-title: Just Eat POS – Mobile Apps for Restaurant System
+title: "Just Eat POS – Mobile Apps for Restaurant System:"
 image: /images/mobile_retail_app_cover.png
 description: Just Eat POS was a retail system available on iOS and Android used
   by restaurants in Israel and the UK. We scaled this project from the startup
@@ -68,6 +68,8 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
 <TitleWithIcon sectionTitle='stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='features' />
+
+<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
 **Android**: Kotlin, Coroutines, Android Architecture Components (LiveData, ViewModel, Room, Navigation, Paging), Firebase, Google Maps, Dagger 2, Robolectric and other Google APIs
 
