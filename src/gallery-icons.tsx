@@ -1,8 +1,8 @@
 import React from 'react';
-import { CustomSection, FlexWrapper } from './components/shared';
+import { FlexWrapper } from './components/shared';
 import styled from 'styled-components';
 import variables from './styles/variables';
-import { clampBuilder } from './helpers/clampBuilder';
+
 
 
 const GallerySection = styled.div`
@@ -14,7 +14,7 @@ const GallerySection = styled.div`
         margin: 0 0 ${variables.pxToRem(64)};
     }
     @media ${variables.device.mobile} {
-        margin: 0 0 ${variables.pxToRem(30)} 2em;
+        margin: 0 0 2em;
     }
 `
 const ImageWrapper = styled.div<{ length: number }>`
@@ -27,7 +27,7 @@ flex-basis: ${({ length }) => length && `calc(100%/${length} - (90px - 90px/${le
         flex-basis:${({ length }) => length && `calc(100% / (${length}/2) - (90px - 90px / 4))`};
     }
     @media ${variables.device.mobile} {
-        flex-basis:${({ length }) => length && `calc(100% / (${length}/4) - (90px - 90px / 2))`};
+        flex-basis:${({ length }) => length && `calc(100% / 2 - (74px - 74px / 2))`};
     }
 `
 interface Image {
@@ -54,9 +54,9 @@ export const Gallery: React.FC<GalleryIconsProps> = ({ images }) => {
         <GallerySection >
             <FlexWrapper desktopItems='flex-end' desktopGap='90px' tabletXLWrap='wrap' mobileGap='74px'>
                 {parsedImages.map((image: { src: string | undefined; alt: string | undefined; }, index: React.Key | null | undefined) => {
+
                     return (
                         < ImageWrapper key={index} length={parsedImages.length}>
-
                             <img src={image.src} alt={image.alt} />
                         </ImageWrapper>
                     )
