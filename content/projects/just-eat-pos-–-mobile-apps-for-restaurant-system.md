@@ -33,7 +33,7 @@ tags:
 title_team: team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your solution
-description_contact: Book a free consultation i 48 hours.
+description_contact: Book a free consultation in 48 hours.
 order: 4
 slug: system-for-restaurants-mobile
 show_team: true
@@ -68,6 +68,8 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
 <TitleWithIcon sectionTitle='stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='features' />
+
+<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
 **Android**: Kotlin, Coroutines, Android Architecture Components (LiveData, ViewModel, Room, Navigation, Paging), Firebase, Google Maps, Dagger 2, Robolectric and other Google APIs
 
