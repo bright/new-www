@@ -37,6 +37,7 @@ show_team: false
 show_case_study: false
 show on homepage: false
 published: false
+language: de
 ---
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
 

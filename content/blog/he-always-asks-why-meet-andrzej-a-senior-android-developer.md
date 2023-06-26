@@ -13,6 +13,7 @@ image: /images/brightstoryandrzej.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Andrzej is one of the most experienced mobile devs at Bright Inventions. He is a master of digression. So conducting this interview was a challenge. 😉  However, he goes straight to the point when it comes to advising clients on the best solutions to reach their business and tech goals. He always offers honest and valuable feedback. Because his job isn't just about writing code. It is much more than that. Find out what that is.**
 

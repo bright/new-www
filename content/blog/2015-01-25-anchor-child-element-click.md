@@ -9,6 +9,7 @@ tags:
 comments: true
 author: piotr
 published: true
+language: en
 ---
 
 I had to solve a seemingly trivial bug in an angularjs based application that turned out to be more interesting than usual.

@@ -13,6 +13,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 
 As a DIY fan I love to browse internet in search of ideas and inspirations. So I've found a pretty nice project, called [ESPBASIC](https://www.esp8266basic.com/). I heard about BASIC, but I had  never had a chance neither to learn it nor to use it, so I thought it was 's time to meet BASIC (although it's just an interpreter). I have few ESP-12F chips in my drawer, few cables and LEDs scattered around and a free breadboard, and that will be enough for the first encounter with BASIC. My idea is simple and typical for electronics - I have decided to make `hello world` of DIY world - blinking LED.

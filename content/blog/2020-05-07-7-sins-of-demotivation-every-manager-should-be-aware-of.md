@@ -13,6 +13,7 @@ image: /images/ula_7sinsdemotivation.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Being a team manager is quite a challenge nowadays as your team is usually a bunch of people with different personality traits, different life experience, different needs, priorities and often a different attitude to life. And what is more important, being a manager means being cautious enough to make these people work effectively together, and being careful enough not to omit the moment of potential crisis that would not be able to be undone anymore.
 

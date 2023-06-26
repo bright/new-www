@@ -8,14 +8,14 @@
 import React from 'react'
 import type { GatsbySSR } from 'gatsby'
 import * as fs from 'fs'
-
 import { GlobalStyle } from './src/styles/global'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
 import { thirdPartyProxyPath } from 'gatsby/dist/internal-plugins/partytown/proxy'
 import { partytownAllowedHosts, partytownEnabled } from './src/partytown'
+import { i18nForPageContext, withI18next } from './src/i18n'
 
-export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
-  return (
+export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element, props: { pageContext } }) => {
+  return withI18next(i18nForPageContext(pageContext))(
     <>
       <GlobalStyle />
       {element}

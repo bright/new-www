@@ -8,4 +8,5 @@ answer: We take care of the whole IoT development process including product
   design. If you need a design for your IoT solution, [contact
   us](/start-project) to establish the details.
 published: true
+language: en
 ---

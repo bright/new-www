@@ -15,6 +15,7 @@ redirect_from:
   - /agnieszka-o/
 published: true
 title: Meet Agnieszka
+language: en
 ---
 She strongly believes that experience is gained by learning and perseverance regardless of your title. She used to think that backend with data modelling is her only love. Now exploring new challenges in web frontend and mobile apps. Privately, a mum of lovely daughters and a climbing lover.
 

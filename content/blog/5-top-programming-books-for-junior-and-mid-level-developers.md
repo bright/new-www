@@ -11,6 +11,7 @@ image: /images/books_for_developers_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 I encourage everyone to read books. There are so many titles worth
 reading [that entire lists have been created](https://github.com/EbookFoundation/free-programming-books). Depending on the stage of your career you'll need books covering various topics. Here is a list I

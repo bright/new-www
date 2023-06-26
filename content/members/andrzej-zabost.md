@@ -21,6 +21,7 @@ redirect_from:
   - /andrzej/
 published: true
 title: Meet Andrzej
+language: en
 ---
 After a few years of experimenting in Java discovered his passion for Kotlin and Android development. Always seeking optimal solutions. Obsessed with networking and administration stuff. In his free time, he crushes his enemies in video games.
 

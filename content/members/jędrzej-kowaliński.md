@@ -11,6 +11,7 @@ description: Junior Fullstack Developer
 avatar: /images/jedrzej_k_team.png
 avatar_hover: /images/jedrzej_k_passion_team.png
 published: true
+language: en
 ---
 At day Node.js Full stack developer with Python background, at night board game player and enthusiast of Russian culture. Love to learn modern solutions to make better software.
 

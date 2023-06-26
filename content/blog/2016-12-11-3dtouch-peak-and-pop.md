@@ -10,6 +10,7 @@ layout: post
 image: /images/iphone.jpeg
 comments: true
 published: true
+language: en
 ---
 
 In my previous post I wrote about adopting UIApplicationShortcutItems in your app. Now it's time to implement Peak&Pop - a feature provided by 3d Touch.

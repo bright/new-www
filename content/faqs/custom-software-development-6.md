@@ -13,4 +13,5 @@ answer: Building a custom healthcare app is all about understanding the needs of
   healthcare](/blog/how-to-develop-a-healthcare-app-startup-owner-perspective/)
   on our blog.
 published: true
+language: en
 ---

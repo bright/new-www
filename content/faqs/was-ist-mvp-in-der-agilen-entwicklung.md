@@ -13,4 +13,5 @@ answer: >-
 
   Das agile Vorgehen ist ein entgegengesetzter Ansatz zum Wasserfall-Modell, bei dem das Ziel darin besteht, fortschrittlichere Produkte auf den Markt zu bringen. Der Wasserfall ist ein linearer Prozess und bei agilem Modell dreht sich alles um Iterationen, die schrittweise Entwicklung von Funktionen in Zyklen. Bei Bright Inventions folgen wir der Agile-Methode, weil wir glauben, dass der flinke Ansatz hilft, ein besseres Produkt zu entwickeln, das die Bedürfnisse der Benutzer erfüllt. Außerdem sind agile Teams flexibler und reagieren leichter auf Änderungen, die in der Softwareentwicklung praktisch jeden Tag passieren.
 published: true
+language: en
 ---

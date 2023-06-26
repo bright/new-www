@@ -46,6 +46,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 <TitleWithIcon sectionTitle='about TMS project' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
 

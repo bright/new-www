@@ -12,6 +12,7 @@ image: /images/KASIA_How we use Jira at Bright_1 copy.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 It is a truth universally acknowledged, that a well organised company which runs multiple projects, must be in want of an issue tracking solution. At Bright Inventions we value effective solutions so a choice of the issue tracking tool was an important one. We had a vision of the process we’d like to follow, we just needed a tool that would allow us to reflect it in an easy to use form which , that would not hinder the developers’ work but would support it. That’s how we decided to use [Jira](https://www.atlassian.com/software/jira). 
 

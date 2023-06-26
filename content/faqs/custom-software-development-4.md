@@ -10,4 +10,5 @@ answer: The software development pricing depends on lots of factors. Before your
   develop the software? These are only examples of questions that could come up
   during software development estimation.
 published: true
+language: en
 ---

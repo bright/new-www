@@ -13,6 +13,7 @@ image: /images/blog_post_cover-iot_examples.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Are you curious about the use cases for IoT technology? Check out examples of IoT for industries such as retail, restaurants, healthcare, sports, and emergency services. Actual case studies included!**
 

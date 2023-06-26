@@ -11,6 +11,7 @@ layout: post
 image: /images/team_work.png
 hidden: false
 published: true
+language: en
 ---
 
 Have you ever heard about Groupthink?  It occurs when a group of people make faulty decisions due to mutual pressure. According to Irving Janis who coined this term for the first time in 1972, the group pressure leads to a deterioration of mental efficiency, moral judgement as well as reality verification. Groups affected by the groupthink phenomenon frequently ignore alternatives while looking for a solution. People who are vulnerable to groupthink mostly have a similar background, work in organisations with a lack of established decision making process and do not meet any outside opinions.

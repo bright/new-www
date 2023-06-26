@@ -16,6 +16,7 @@ hidden: false
 comments: true
 published: true
 canonicalUrl: https://miensol.pl/spring-mvc-request-timeout/
+language: en
 ---
 As you can see in another blog post, we only have limited options to [configure maximum time a request processing can take in Spring MVC](/blog/spring-mvc-thread-pool-timeouts/). In this post I will show how to enforce such timeout through a custom  [Servlet Filter](https://docs.oracle.com/cd/B14099_19/web.1012/b14017/filters.htm).
 

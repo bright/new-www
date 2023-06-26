@@ -11,6 +11,7 @@ image: /images/offline-mode-app-cover-blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Are you planning to release an app that has to work without an internet connection? You’ve come to the right place. Read about offline-first applications. Go through business advantages, different industries' perspectives, and design best practices. Also, look into the actual case studies!**
 

@@ -11,6 +11,7 @@ image: /images/recruiter_to_be.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 I have in myself a constant desire to develop. I want to learn new things - I think this is the right time. :) In my opinion, working as a recruiter gives motivation and an opportunity to act, to discover new fields, and to be deep into them. **A recruiter has to get to know the industry and the position first to be able to match the right person with it later on.** Sometimes we do not even realise that a given environment can be so interesting and have so many unknowns.
 

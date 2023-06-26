@@ -10,4 +10,5 @@ answer: IoT applications enable the communication and the exchange of
   data about a patient’s temperature then passes it on to the doctor’s devices,
   for example, tablets or computers.
 published: true
+language: en
 ---

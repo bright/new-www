@@ -49,6 +49,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 <div class="image"><img src="/images/smarthelp.png" alt="Emergency app" title="Emergency app"  /> </div>
 

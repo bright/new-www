@@ -32,6 +32,7 @@ Now it's time to present contacts, after creating our `CNContactPickerViewContro
 ![Contact list](/images/CNContactStorePost/selecting_contact.png)
 
 Get a phone number
+language: en
 ---
 After we choose a phone number from a contact list, we want to receive it in our app. We will do it by catching `CNContactProperty` with `CNContactPickerViewController's` delegate method. You can find many other things when you dig into `CNContactProperty` like name, familyName etc.
 

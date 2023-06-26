@@ -13,6 +13,7 @@ image: /images/brightstoryjedrzejs.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Jędrzej is a senior frontend developer who started his career before the frameworks era. Can you imagine that? 😉 What advice does he have for people who want to become frontend devs? Why did he decide to be a sauna master? Read the interview.**
 

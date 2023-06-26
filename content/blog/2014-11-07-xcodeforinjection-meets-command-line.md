@@ -17,6 +17,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 I find [InjectionForXcode](http://injectionforxcode.com/) to be an indispensable tool in my daily iOS development. It works brilliantly but generates a lot of noise that I just couldn’t cope with.
 

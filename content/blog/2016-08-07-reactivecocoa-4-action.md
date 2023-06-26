@@ -144,6 +144,7 @@ Output: "`Error: Next Error Domain=1 Code=1 "(null)"`" and "`Error: COMPLETED`"
 Errors' signal is of type `Signal<Error, NoError>` so you can focus on observing errors that occur during `Action's` execution. Keep in mind, that you don't use `observeFailed` method to observe errors, as they come with `NEXT` events. After `Action's` execution is finished, signal will receive `COMPLETED` event.
 
 Action's events
+language: en
 ---
 ```swift
 let action = Action<Int, String, NSError>({ (number) -> SignalProducer<String, NSError> in

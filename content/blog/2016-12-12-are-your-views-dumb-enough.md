@@ -83,6 +83,7 @@ Reusable code between different platforms
 Cleaner code which is easier to understand in parts
 
 Conclusion
+language: en
 ---
 
 I believe that this way of structuring your code can benefit you a lot and will result in much cleaner code and tests that will not require that much time to run. The approach to running tests without simulator is a kind of “proof of concept” for me that I wanted to share with you. I’m willing to try it out more on the battlefield and see how it holds. 

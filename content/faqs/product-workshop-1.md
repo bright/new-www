@@ -14,4 +14,5 @@ answer: Product workshop (also called product design workshop) is a way to move
   solution. Product workshops help to establish target groups. They evaluate the
   software idea and sometimes even help to pivot it.
 published: true
+language: en
 ---

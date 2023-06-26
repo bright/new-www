@@ -8,6 +8,7 @@ author: michal
 date: '2015-10-18T22:00:00.000Z'
 image: /images/more_productivity.jpeg
 published: true
+language: en
 ---
 
 I was struggling again with desymbolicating of iOS app crash logs and thought that it would be nice

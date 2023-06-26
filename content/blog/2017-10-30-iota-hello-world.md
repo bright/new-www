@@ -12,6 +12,7 @@ layout: post
 image: /images/iota/attach-tangle.jpg
 comments: true
 published: true
+language: en
 ---
 Previously in the IOTA series we've looked into [the assumptions of this promising cryptocurrency system](/blog/iota-new-kid-in-cryptocurrency-town/) and we've [connected to the network with our own node](/blog/getting-started-with-iota/). It's high time to interact with IOTA programatically.
 

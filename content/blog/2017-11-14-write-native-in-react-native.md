@@ -11,6 +11,7 @@ layout: post
 image: /images/putting-native-in-rn/toymodel.JPG
 comments: true
 published: true
+language: en
 ---
 Using custom native components in React Native is a common thing, so sooner or later you may have to write some functionality in a native language and use it in your application. Let me show you a simple example how to do that.
 

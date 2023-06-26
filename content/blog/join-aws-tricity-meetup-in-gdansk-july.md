@@ -12,6 +12,7 @@ image: /images/aws_meetup_blog_july.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Time to meet again to discuss all AWS has to offer (and much more). Mark your calendars for July 10th at 5.00 PM, as we invite you to join us at the Gdańsk Entrepreneurship Incubator STARTER.**
 

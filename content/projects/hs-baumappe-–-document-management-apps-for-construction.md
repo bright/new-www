@@ -40,6 +40,7 @@ show_team: false
 show_case_study: false
 show on homepage: true
 published: true
+language: en
 ---
 <div class="image"><img src="/images/app_baumappe_mockups.png" alt="app baumappe mockup" title="Mockup example designed by Heinrich Schmid's Product Design Team."  /> </div>
 

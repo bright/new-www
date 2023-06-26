@@ -18,4 +18,5 @@ answer: >-
 
   * **Security**: decentralisation, encrypted data, P2P just make a blockchain more secure (difficult to hack).
 published: true
+language: en
 ---

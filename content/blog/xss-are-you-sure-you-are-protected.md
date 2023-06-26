@@ -12,6 +12,7 @@ image: /images/blog_post_xss.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 As a developer, you probably have heard what [XSS](https://owasp.org/www-community/attacks/xss/) is and how to defend against it by escaping user input. You also probably might have heard that modern frontend frameworks like React or Angular are XSS safe (due to escaping). Still, though there are some XSS caveats worth remembering: 
 

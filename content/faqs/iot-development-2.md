@@ -9,4 +9,5 @@ answer: These are devices that, thanks to Bluetooth or Internet connection, can
   be a smart home where dozens of devices cooperate with each other thanks to
   the software and Internet connection.
 published: true
+language: en
 ---

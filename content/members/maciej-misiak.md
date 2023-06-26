@@ -11,6 +11,7 @@ description: Fullstack Developer
 avatar: /images/maciej_m_team2.png
 avatar_hover: /images/maciej_m_passion.png
 published: true
+language: en
 ---
 Fullstack Developer with 3+ years of mostly frontend experience, currently exploring the world of node.js. Boxing, Historical European Martial Arts and western horse riding practitioner. He spends his free time playing tabletop RPGs, reading and doing many other nerdy activities.
 

@@ -13,6 +13,7 @@ image: /images/blog_post_cover_epos2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Are you planning to build a Point of Sale system for retail and restaurant? This is the world where software constantly meets hardware. Before you start to develop your retail solution, learn about the types of equipment used in Points of Sale.**
 

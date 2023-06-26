@@ -11,4 +11,5 @@ answer: Devices can communicate with each other via Bluetooth or through the
   cloud service from an IoT platform provider like AWS IoT, Azure IoT or Google
   Cloud IoT Core.
 published: true
+language: en
 ---

@@ -13,6 +13,7 @@ image: /images/blog_post_covariance.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ## Introduction
 

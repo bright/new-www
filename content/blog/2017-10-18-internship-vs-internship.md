@@ -51,6 +51,7 @@ Firstly, understand the nature of the project. Secondly, talk to your interns. I
 
 
 Summary
+language: en
 ---
 I’ve just finished my internship at Bright Inventions. Comparing it with the previous one opened my eyes how working environment influences your attitude to work and your motivation. You can start a new job, motivated to work, with batteries fully charged, but what happens next...
 

@@ -9,4 +9,5 @@ answer: Custom web app development means building the app specifically adjusted
   stakeholders, investors and more. The final custom web product should meet all
   of the different requirements.
 published: true
+language: en
 ---

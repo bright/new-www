@@ -34,6 +34,7 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 ![app for FMCG](/images/pos_2_mockup.png)
 

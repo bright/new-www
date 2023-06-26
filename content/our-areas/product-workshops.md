@@ -70,6 +70,7 @@ title_contact: let's talk about product workshops for your team
 description_contact: Every product workshop is adjusted to clients needs. Just
   let us know what you expect and we will find the best solution for you! Fill
   out the form below.
+language: en
 ---
 ## When product workshops will be a good fit for you?
 

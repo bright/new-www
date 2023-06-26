@@ -16,6 +16,7 @@ author: eliasz
 image: /images/react-native-a-better-workflow/happy.jpeg
 date: '2017-10-19T22:00:00.000Z'
 published: true
+language: en
 ---
 
 ![Header](/images/react-native-a-better-workflow/happy.jpeg)

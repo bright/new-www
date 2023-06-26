@@ -11,6 +11,7 @@ image: /images/graduate_pool.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 There is often a slight pause after you reach your goal. Especially if it’s something you worked on for a long time. You feel the joy of the accomplishment but after a moment it’s accompanied by a puzzled reflection. You did what you wanted to do, you reached the goal - now what? Where do you go from here? 
 

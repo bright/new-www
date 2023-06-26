@@ -38,6 +38,7 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 
 

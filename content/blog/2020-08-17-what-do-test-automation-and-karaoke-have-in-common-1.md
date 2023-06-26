@@ -11,6 +11,7 @@ image: /images/blog_post_cover_karoke.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 A well-known strategy for explaining the unexplainable and adding context and meaning to something complex and obscured is using a metaphor. Engineers usually find automation testing hard to describe in detail, especially to a less-technical person. It is a process rather than an action or idea and there are so many different properties of it and variables in it that it can be tough to wrap one’s head around it. That is why I came up with a quirky comparison that hopefully will make things clearer - with the karaoke, something common in many cultures and most importantly, fun.
 

@@ -14,6 +14,7 @@ layout: post
 image: /images/internet-ios.jpg
 comments: true
 published: true
+language: en
 ---
 Recently I had a need to show the simple rating control in one of our iOS apps - the typical row of stars, few leftmost highlighted, the more highlighted, the better the rating is - something as obvious as this:
 

@@ -19,6 +19,7 @@ image: /images/blog_post_cover-mateusz_startup.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **If you’ve ever worked at an early-stage startup, then I’m sure you know the feeling. Your mobile app, a concept you’ve been working intensely on for many months, is finally entering the development phase. Things are starting to feel very real business-wise, aren’t they?**
 

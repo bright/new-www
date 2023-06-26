@@ -11,4 +11,5 @@ answer: Web development helps businesses in many ways. First of all, by building
   businesses are usually software that helps to automate internal processes in
   departments like customer service or human resources.
 published: true
+language: en
 ---

@@ -12,6 +12,7 @@ image: /images/zk-snarks-tutorial-part2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **As you might remember from the first blog post of our “Zk-snarks with Substrate” series we learned about zk-SNARKs. Also, we explained how we can use tools like Circom and SnarkJS in creating zk-SNARKs. If you haven't checked that article, you should do that.**
 

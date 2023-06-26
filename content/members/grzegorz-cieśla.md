@@ -14,6 +14,7 @@ layout: member
 published: false
 ex: true
 hobby: Running enthusiast
+language: en
 ---
 
 drinks mate all day and cannot sit in one place. Student of Computer Science at Gdańsk University of Technology and backend lover. His primary interests are TypeScript and Java. In spare time he plays strategic games or explores the woods.

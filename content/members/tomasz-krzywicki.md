@@ -11,6 +11,7 @@ description: Senior Backend Developer
 avatar: /images/team_member_tomek_website.png
 avatar_hover: /images/team_member_tomek_website.png
 published: true
+language: en
 ---
 Software Developer with (too) many years of experience. Worked previously in ERP space at Sun Microsystems, Oracle and Linde. In long relationship with experts systems, Python, Java and recently Typescript. Fan of DDD with “It depends” approach.
 

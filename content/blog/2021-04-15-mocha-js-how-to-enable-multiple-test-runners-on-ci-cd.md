@@ -17,6 +17,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 One of our projects is running automated tests on CI/CD AzurePipelines. 
 

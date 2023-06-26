@@ -12,6 +12,7 @@ layout: post
 image: /images/laptop_work.jpg
 comments: true
 published: true
+language: en
 ---
 This is the third part of the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/). The [first part was about the controls](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/), the [second about its positioning](/blog/ios-layouts-for-web-developers-2-control-positioning/). Now I’m going to tackle how to approach managing the controls appearance - something that we have CSS for in the web.
 

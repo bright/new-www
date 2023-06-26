@@ -21,6 +21,7 @@ import { TextRegular, CustomSectionTitle, MoreButton } from './index'
 import { CustomTextRegular } from './index.styled'
 import { trackConversion, trackCustomEvent } from '../../analytics/track-custom-event'
 import { TickIcon } from '../icons/Tick.icon'
+import { useTranslation } from 'react-i18next'
 
 const ContainerWrapper = styled.div<{ isOurServiceTemplate: boolean }>`
   display: flex;
@@ -96,6 +97,8 @@ export const Contact: FC<ContactProps> = ({
   formButton,
   actionFormButton,
 }) => {
+  const { t } = useTranslation('contact')
+
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
@@ -156,7 +159,6 @@ export const Contact: FC<ContactProps> = ({
     setSuccess(false)
   }
 
-
   return (
     <ContainerWrapper isOurServiceTemplate={isOurServiceTemplate!} id='contactForm'>
       <Container>
@@ -204,7 +206,7 @@ export const Contact: FC<ContactProps> = ({
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
-          <Label>Your Idea</Label>
+          <Label>{t('Your Idea')}</Label>
           <IdeaTextArea
             name='message'
             value={message}
@@ -244,7 +246,7 @@ export const Contact: FC<ContactProps> = ({
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
-              <MoreButton isSubmit isBlack>
+            <MoreButton isSubmit isBlack>
               let’s talk
             </MoreButton>
           )}

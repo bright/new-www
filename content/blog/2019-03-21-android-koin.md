@@ -14,6 +14,7 @@ image: /images/android.jpeg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 In Android injecting parameters, managing component's lifecycle and creating various scopes is difficult and crucial, but fortunately, we've got [DI (Dependency Injection)](https://en.wikipedia.org/wiki/Dependency_injection) technique for the rescue.
 

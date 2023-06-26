@@ -9,6 +9,7 @@ layout: post
 image: /images/robot_android_blog.png
 comments: true
 published: true
+language: en
 ---
 **As I mentioned in my previous post having meaningful log entries comes handy during development. When an app reaches beta testers as well as goes live it's equally or even more important to be able to figure out why the app you've carefully coded isn't behaving as it should. Testing the app on all android flavours is literally impossible that's why getting an insight into what caused a crash is vital.**
 

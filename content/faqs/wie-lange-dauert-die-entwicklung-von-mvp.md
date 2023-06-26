@@ -10,4 +10,5 @@ answer: Der Zeitplan für den MVP-App-Erstellungsprozess hängt von der Phase
   MVP-Prototyps auf der Grundlage der Idee von 1 bis 4 Wochen. Dann dauert das
   Erstellen einer MVP-App von 4 bis 20 Wochen.
 published: true
+language: en
 ---

@@ -16,4 +16,5 @@ answer: >-
 
   Also, cloud migration can change the types of costs for a business, therefore, making it more affordable. For example, you don’t pay for infrastructure and experts to maintain it, you just pay for the service which includes maintaining your infrastructure. In simple terms, you can outsource it and save some money.
 published: true
+language: en
 ---

@@ -72,6 +72,7 @@ title_contact: let’s talk about your Bluetooth solution
 description_contact: Whether your project is just an idea or an existing system
   Bright Inventions, as a Bluetooth development company, can help you in any
   phase of your software development. Fill out the form below.
+language: en
 ---
 ## what is Bluetooth and why you might need it?
 

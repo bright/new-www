@@ -17,6 +17,7 @@ layout: post
 image: /images/reasons_working_at_bright_inventions.png
 hidden: false
 published: true
+language: en
 ---
 Back at my desk I am looking at a challenging, but at the same time rewarding and amazing 2018.  A new office, the team tripled in size, being among [Top App Developers in Poland on Clutch](/blog/Bright-Inventions-Remains-A-Top-Developer-In-Poland/) and among [Top 20 App Development Companies in Poland according to AppFutura](https://www.appfutura.com/blog/top-20-mobile-app-development-companies-in-poland-november-2018/), [international networking](/blog/bright-networking-time/), more industry leading partnership agreements and our entry into new Blockchain and AI world. What a year.
 

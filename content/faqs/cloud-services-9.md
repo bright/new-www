@@ -10,4 +10,5 @@ answer: It is building an app that uses services offered by cloud providers such
   developers and DevOps Engineers experienced with managing cloud tools from
   providers like Azure, Google Cloud, or AWS.
 published: true
+language: en
 ---

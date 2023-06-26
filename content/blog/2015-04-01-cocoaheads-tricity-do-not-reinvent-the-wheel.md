@@ -10,6 +10,7 @@ author: mateusz
 date: '2015-03-31T22:00:00.000Z'
 image: /images/wooden-wheel.png
 published: true
+language: en
 ---
 
 On Tuesday 31th March 2015 I gave a presentation about most popular Cocoa libraries and [CocoaPods] (http://cocoapods.org) at the local [Cocoaheads Tricity](https://www.facebook.com/CocoaHeadsTricity) group meeting, which we are now co-organizing. 

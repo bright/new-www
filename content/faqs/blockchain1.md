@@ -17,4 +17,5 @@ answer: >-
 
   Blockchain is known mostly as a technology that enables building cryptocurrency. However, it offers a wide range of functionalities. Blockchain supports fintech, healthcare, real estate and other industries. It is no longer only about creating various cryptocurrencies.
 published: true
+language: en
 ---

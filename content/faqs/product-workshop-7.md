@@ -12,4 +12,5 @@ answer: A product workshop is perfect for businesses that know how their idea
   create mockups of your product that ensure you that all your requirements are
   met.
 published: true
+language: en
 ---

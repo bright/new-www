@@ -10,6 +10,7 @@ image: /images/contribute_to_web3.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Are you excited about the Web3 idea? Check out how you can be a part of it. Contribute to Kusama and Polkadot networks to build the internet of the future. You don’t have to be a blockchain developer. Here are the alternative ways to be a part of Web3.**
 

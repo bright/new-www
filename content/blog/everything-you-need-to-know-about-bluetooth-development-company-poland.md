@@ -12,6 +12,7 @@ image: /images/bluetooth_development_poland_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **What can you expect from Polish Bluetooth developers? Why should you consider hiring a Bluetooth Development Company from Poland? Get all the answers.**
 

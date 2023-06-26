@@ -8,4 +8,5 @@ question: All I have is an idea for a software product? Are product workshops
 answer: Yes! In that case a perfect solution for you will be a product discovery
   workshop. We will establish a path of your software development.
 published: true
+language: en
 ---

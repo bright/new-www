@@ -8,6 +8,7 @@ layout: post
 image: /images/bright_team-compressor.jpg
 comments: true
 published: true
+language: en
 ---
 Today's short post will cover queueing audio files using Swift. In order to do this we will be using AVQueuePlayer.
 

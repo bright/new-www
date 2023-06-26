@@ -16,6 +16,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Everybody seems to be doing Agile these days. Start-ups do it, big organisations do it, all the cool companies do it. That’s even how autonomous cars are being developed - the agile way. Even though it’s been agreed that [‘there’s no silver bullet’](https://en.wikipedia.org/wiki/No_Silver_Bullet) in software development, well, apparently there must be and it’s Agile. Right?
 	

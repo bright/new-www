@@ -14,6 +14,7 @@ image: /images/ebook_blog_security.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Download the pdf about web and mobile app security. This ebook is a security deep dive for software developers as well as app owners, startups, and larger companies. Discover tools, resources, and guides that, step by step, will verify if your app is secure.**
 

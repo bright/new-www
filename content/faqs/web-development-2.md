@@ -10,4 +10,5 @@ answer: A web development company specifies in building web applications and
   example of a web development company from Poland working with international
   clients.
 published: true
+language: en
 ---

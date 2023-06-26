@@ -66,6 +66,7 @@ observer.sendCompleted()
 In this case, the output will be - `observer-1 value: 4, observer-2 value: 4, completed, interrupted-2, interrupted-3`. You can see here that we don't receive events before we start observing signal - we miss values `1` and `2`. Then, after terminating event is received (`completed`), we stop receiving any further events and sending values to observer doesn't take effect. However, if we start observing for `interrupted` event after signal was terminated, we will receive it immediately.
 
 Signal producers and events
+language: en
 ---
 There are two ways of creating a signal producer that will provide us with a different overall result. You can either create a producer with a closure that will be invoked for each invocation of start(), this is a good method to receive events from tasks (eg. network request).
 

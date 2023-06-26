@@ -12,6 +12,7 @@ image: /images/blog_post_communication.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 We’ve all been there - you said something wrong, now you long for yesterday. There was an awkward silence and it felt like a scene from [The Office](https://www.imdb.com/title/tt0386676/).
 

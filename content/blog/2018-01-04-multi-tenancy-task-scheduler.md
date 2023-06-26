@@ -16,6 +16,7 @@ hidden: false
 comments: true
 published: true
 canonicalUrl: https://miensol.pl/multi-tenancy-task-scheduler/
+language: en
 ---
 Last time I showed [how to extend Spring default request handler adapter](/blog/spring-mvc-multi-tenacy/) so that we are able to schedule or reject incoming requests. The goal of the `TenantTaskCoordinator` is to:
 

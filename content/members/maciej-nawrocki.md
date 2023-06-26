@@ -11,6 +11,7 @@ description: Senior Backend Developer
 avatar: /images/maciej_n_2_team.png
 avatar_hover: /images/maciejn_2passion.png
 published: true
+language: en
 ---
 A backend developer with over 6 years of experience. Right now his focus is on DevOps and Monitoring. A big fan of Observability and tools like OpenTelemetry. However, deep down he will always be a backend developer first and foremost.
 

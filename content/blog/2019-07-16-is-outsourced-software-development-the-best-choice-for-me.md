@@ -18,6 +18,7 @@ tags:
   - software house
 date: '2019-07-15T22:00:00.000Z'
 published: true
+language: en
 ---
 
 If you’re reading this article, then it’s likely that you’re just about to make one of the most detrimental decisions in the history of your company – choosing the right team to work on your software project.

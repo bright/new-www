@@ -12,6 +12,7 @@ comments: true
 image: /images/radek/tuning.jpg
 date: '2018-03-04T23:00:00.000Z'
 published: true
+language: en
 ---
 
 In the [previous post](/blog/charts-on-android-1/) I did show you how to make a basic setup of Android linear chart using [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) library. Now I'll show you some features I found useful.

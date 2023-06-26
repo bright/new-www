@@ -8,6 +8,7 @@ layout: post
 image: /images/laptop_coding.jpg
 comments: true
 published: true
+language: en
 ---
 Today, let's take a look at basic aspect of ReactiveCocoa - Signal.
 

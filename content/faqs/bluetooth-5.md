@@ -9,4 +9,5 @@ answer: |-
 
   **Android**: Nearby Connections API, Bluetooth Low Energy
 published: true
+language: en
 ---

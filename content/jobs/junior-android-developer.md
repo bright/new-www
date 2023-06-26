@@ -21,6 +21,7 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Junior Android Developer to join our team. We
   want to offer you an opportunity to work with modern frameworks and tools.
+language: en
 ---
 
 

@@ -35,6 +35,7 @@ show_recruiter_info: true
 order: 3
 recruting_image2_title: "interview (business & communication part "
 recruting_image3_title: final meeting with your leader/CEO
+language: en
 ---
 We believe that bright ideas and bright products come out of bright minds. The success of projects we do is completely sustained by our team and values we are committed to. We work together making the most of experience and expertise we have.
 

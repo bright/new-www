@@ -11,6 +11,7 @@ description: QA Specialist
 avatar: /images/marta_b_team.png
 avatar_hover: /images/marta_b_passion_team.png
 published: true
+language: en
 ---
 QA Specialist with experience in manual testing and business analysis. Studied Material Engineering and worked for 3 years as a Product Engineer. While working with developers on improving the Enterprise Resource Planning (ERP) system she realised what she wanted to do and decided to change her career path. 
 

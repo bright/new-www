@@ -10,6 +10,7 @@ image: /images/blogpost_www_healthcare_2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Are you planning to develop healthcare software? Or maybe you have an idea for a healthcare app and don’t know what to do next? This is a guide for startup founders and generally entrepreneurs that want to be a part of the health tech movement.**
 

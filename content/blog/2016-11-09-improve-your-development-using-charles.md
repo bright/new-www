@@ -11,6 +11,7 @@ layout: post
 image: /images/head.jpeg
 comments: true
 published: true
+language: en
 ---
 ![code](https://github.com/kamwysoc/kamwysoc.github.io/blob/master/assets/posts/charles/head.jpeg?raw=true)
 

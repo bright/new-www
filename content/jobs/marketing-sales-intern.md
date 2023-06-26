@@ -21,6 +21,7 @@ recruting_image2_title: interview
 recruting_image3_title: task
 description: We are looking for a highly motivated individual with an interest
   in sales and marketing.
+language: en
 ---
 
 **Bright Inventions** is a dynamic software development consulting studio from Gdańsk, Poland. We specialise in **mobile and web applications, Blockchain** and **IoT devices**. We support a wide variety of clients coming from different sectors such as FinTech, Health, Automotive, Commerce/Shopping and others.

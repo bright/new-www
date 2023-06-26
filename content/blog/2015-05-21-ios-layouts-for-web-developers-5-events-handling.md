@@ -121,6 +121,7 @@ For the sake of completeness, I’d mention few more event types that are someho
 > set of proposed solutions for [sensors and hardware integration](http://www.w3.org/Mobile/mobile-web-app-state/#Sensors_and_hardware_integration), not yet implemented \<—\> [remote control events on `UIResponder`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIResponder_Class/#//apple_ref/occ/instm/UIResponder/remoteControlReceivedWithEvent:)
 
 Who handles the event?
+language: en
 ----
 
 Not only the types of events should be of our interest, but also which element/control is responsible for handling the event. We have some differences in that matter between the web and iOS.

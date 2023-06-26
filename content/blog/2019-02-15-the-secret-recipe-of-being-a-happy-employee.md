@@ -19,6 +19,7 @@ tags:
   - distractions
 date: '2019-02-14T23:00:00.000Z'
 published: true
+language: en
 ---
 
 It happens quite often that we go with the flow and let our day be controlled by such things like notifications, emails, distractions from colleagues or countless meetings. But we often do not realise to what extent they all may affect our work and life, in general. 

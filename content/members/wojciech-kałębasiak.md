@@ -11,6 +11,7 @@ description: Fullstack Developer
 avatar: /images/wojciech_team2022.png
 avatar_hover: /images/wojciech_passion2022.png
 published: true
+language: en
 ---
 Fullstack Developer keens on DevOps and automating things. After hours, he is interested in deck-building games, scuba-diving and NBA.
 

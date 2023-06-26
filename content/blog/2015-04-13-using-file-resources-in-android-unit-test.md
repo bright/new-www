@@ -14,6 +14,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Since version 1.1 of Android Gradle Plugin we can run unit test on a local JVM on our development machine. It's still [experimental](http://tools.android.com/tech-docs/unit-testing-support) feature but I've found it's fully usable.<br/>
 Finally Android developers have lighweight build-in tool for unit testing :)<br />

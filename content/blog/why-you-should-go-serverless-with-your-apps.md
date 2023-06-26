@@ -13,6 +13,7 @@ image: /images/serverless_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Let’s explore the benefits of serverless computing and why it may be the best option for your business. Whether you represent a startup or a larger company, you’ll find benefits from serverless computing. Let’s dive in!**
 

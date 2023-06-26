@@ -11,4 +11,5 @@ answer: Cloud services give you all the possible tools and other resources like
   correctly. Technology is helpful, but the rest is still up to developers and
   DevOps.
 published: true
+language: en
 ---

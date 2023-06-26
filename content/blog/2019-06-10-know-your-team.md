@@ -20,6 +20,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 The core of business is to build and maintain a great environment so everyone can do their best.  Without a comfortable environment where employees feel they can do their job, you will find that the turnover may claim its victims. But, have you ever wondered if there is a key to create a perfect workplace? I dare to say it may reach far deeper than corporate benefits and cool offices, and focus more on relationships. The relationships are frequently why some workers love their job and hate to leave, and why job applicants have a desire to work at your place.
 

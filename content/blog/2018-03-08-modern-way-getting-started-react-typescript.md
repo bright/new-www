@@ -16,6 +16,7 @@ image: /images/welcome_to_react.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 
 One of the prerequisites for a healthy and sustainable tech stack that reduces the risk of our project quickly getting obsolete is a tooling and automation around the mundane chores. Few months back the JavaScript world suffered from the tools fatigue when the brand new solutions to the build and configuration automation problem popped up daily, each with its own learning curve.

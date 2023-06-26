@@ -13,6 +13,7 @@ image: /images/zk-snarks_tutorial_part1.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **In this article I would like to introduce you to the zk-SNARKs (zero-knowledge succinct non-interactive argument of knowledge) concept. First we are going to briefly describe what are the zero-knowledge proofs, what are the stages of creating them, which tools can be useful for generating the zk-SNARKs. Also, we will touch a little math behind them. I encourage you to visit our GitHub, where you can find a [repository](https://github.com/bright/zk-snarks-with-substrate) for this article. Let’s start with the definition of the zero-knowledge proof and then we will move to the zk-SNARKs.**
 

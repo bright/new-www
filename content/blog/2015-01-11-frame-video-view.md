@@ -15,6 +15,7 @@ image: /images/people-office-group-team.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 VideoView is the most straightforward way to show video content in layout. <br />
 It took a few lines of code to setup and show for example mp4 file. <br />

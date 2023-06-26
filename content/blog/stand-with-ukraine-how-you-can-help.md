@@ -11,6 +11,7 @@ image: /images/stand_with_ukraine_blog_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 We want to show our support to the Ukrainian people - their spirit and the bravery they are showing - amidst this horrifying attack. According to United Nations refugee agency has reported [over 1.7 million people](https://data2.unhcr.org/en/situations/ukraine/location?secret=unhcrrestricted) from Ukraine have become refugees. As with any crisis, women, children, poor communities will be those most affected. When watching the war scenes it is easy to feel feeble and weak, but we believe that together we can help Ukraine in any way we can. 
 

@@ -12,6 +12,7 @@ image: /images/sast_tools_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Looking for the best SAST tools for your software product? We’ve listed 3 SAST tools worth consideration. Check them out!**
 

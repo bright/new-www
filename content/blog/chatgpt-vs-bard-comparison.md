@@ -11,6 +11,7 @@ image: /images/chat_ai_comparision.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **ChatGPT-4 or Bard AI? What is better? After Google released a beta version of Bard we finally have more data to compare. The article is regularly updated. Feel free to bookmark/pocket it for later.**
 

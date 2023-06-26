@@ -13,6 +13,7 @@ image: /images/ltscreatefintech3.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 On 3-4 Dec we will be attending FinTech Connect, the UK's leading fintech conference and exhibition that gathers the companies, entrepreneurs, start-ups, investors, and tech fans from all over the world. We will share best practices, showcase new solutions and shape financial services of the future. 
 

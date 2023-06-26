@@ -12,6 +12,7 @@ image: /images/dependency_tracking_tools_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **As software developers, one of our top priorities is to ensure that our projects are secure and free of vulnerabilities. One way to achieve this is to use dependency tracking tools that help us identify outdated or vulnerable dependencies in our code. In this article, we'll introduce you to some of the most popular dependency-tracking tools you can use in your projects.**
 

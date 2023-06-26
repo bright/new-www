@@ -34,4 +34,5 @@ answer: >-
 
   You have many options for organizing your work. You can create a typical data center, have virtual servers or completely move your services to an external provider. You can take care of hosting on your own or do it via tools like AWS. Cloud offers lots of ways. It is up to you which one you will follow.
 published: true
+language: en
 ---

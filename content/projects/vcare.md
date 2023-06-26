@@ -45,6 +45,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 <div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
 

@@ -13,6 +13,7 @@ tags:
   - mvvm
 date: '2017-12-10T23:00:00.000Z'
 published: true
+language: en
 ---
 
 In the following post I'm going to show a simple (almost boilerplate-free) yet powerful implementation of the view models dependency injection on Android using Dagger.

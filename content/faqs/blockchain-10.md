@@ -13,4 +13,5 @@ answer: First of all, **blockchain is transparent** because data are
   influence the hash which is called the 51% rule.** This situation is
   practically impossible.
 published: true
+language: en
 ---

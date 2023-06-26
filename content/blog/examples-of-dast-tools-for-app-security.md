@@ -12,6 +12,7 @@ image: /images/dast_tools_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **DAST tools are essential for testing the security of applications from the outside, simulating an attacker's perspective and identifying vulnerabilities that could be exploited. Check DAST tools that we use and recommend!**
 

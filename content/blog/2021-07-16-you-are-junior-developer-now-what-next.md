@@ -11,6 +11,7 @@ image: /images/blog_post_cover_love_to_learn.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 You have worked hard and get your first job in an IT company as a junior developer? First of all congratulation from the bottom of my heart 💓, you deserve it!
 

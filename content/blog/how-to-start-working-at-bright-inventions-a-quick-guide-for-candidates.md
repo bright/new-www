@@ -12,6 +12,7 @@ image: /images/feedback-hiring-process-all.jpeg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Our recruitment process is not a secret and we are always trying to be as transparent as we can. **The hiring process at Bright Inventions consists of three steps: phone screening, an interview and a programming assignment.** The successful completion depends on the correctness of each stage. Below we are describing each step with more details. We hope these insights will be useful and helpful to you if you are currently considering applying for a role in our organisation.
 

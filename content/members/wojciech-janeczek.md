@@ -11,6 +11,7 @@ description: Frontend Developer
 avatar: /images/wojtek_team.png
 avatar_hover: /images/wojciech_j_passion_team.png
 published: true
+language: en
 ---
 Wojciech has been associated with the IT industry for several years. Always open to new challenges and technologies, currently in love with creating web & android applications. Privately, he loves tabletop games and active leisure. In the break between programming he relaxes while learning new tricks on Kendama or experimenting with new dishes in the kitchen.
 

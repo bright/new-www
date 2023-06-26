@@ -11,6 +11,7 @@ description: Junior Fullstack Developer
 avatar: /images/lukasz2022.png
 avatar_hover: /images/lukaszk_passion_team.png
 published: true
+language: en
 ---
 Mechatronics engineer who fell in love with programming. He has always been interested in a holistic approach to programming problems, which is why after working as a frontend, he is now fulfilled as a fullstack. In his free time, he likes to do DIY. He tries to be up-to-date with news about electronic gadgets, technology and space. 
 

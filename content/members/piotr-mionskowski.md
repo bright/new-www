@@ -22,6 +22,7 @@ redirect_from:
   - /piotr/
 published: true
 title: Piotr
+language: en
 ---
 TDD fan eager to learn new things. A Man Dancing with the Code. Piotr is a real full stack developer with over 12 years of professional experience. Backend APIs, distributed systems, infrastructure, databases are only some among his main fields of interest. Always up-to-date. Always focused. Always asking "Why?".
 

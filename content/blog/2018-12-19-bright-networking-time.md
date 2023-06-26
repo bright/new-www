@@ -21,6 +21,7 @@ image: /images/london.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Networking is an extremely important part in business as it allows us to build relationships with people we know or have met for the first time. It allows us to understand the market opportunities, improve our communication skills, make great friends and build business opportunities and investment in the long term. During my first months at Bright Inventions, I have spent a lot of time attending educational and inspiring conferences and trade shows in London. Which are worth visiting? Let us take a look.
 

@@ -21,6 +21,7 @@ show_recruiter_info: false
 order: 5
 recruting_image2_title: interview
 recruting_image3_title: task
+language: en
 ---
 ## who we are
 

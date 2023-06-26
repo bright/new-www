@@ -80,6 +80,7 @@ description_mdx: We are a software development company that **specialises in
   far beyond cryptocurrency services. Tell us more about your blockchain project
   and we will let you know how we can help you.
 image_our_service: /images/blockchain_development_small.png
+language: en
 ---
 ## what is blockchain and why you might need it?
 

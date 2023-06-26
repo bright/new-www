@@ -14,6 +14,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![design patterns](/images/quick-look-on-a-strategy-pattern-using-swift/strategy.jpg)
 

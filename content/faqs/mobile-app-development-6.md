@@ -11,4 +11,5 @@ answer: "**Native app development stands for building the app directly in the
   that native app development (Swift, Kotlin) is the only reliable way to
   deliver the premium app quality and the best user experience."
 published: true
+language: en
 ---

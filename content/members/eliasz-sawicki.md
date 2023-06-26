@@ -12,5 +12,6 @@ avatar: /images/members/eliasz.png
 github: eluss
 ex: true
 layout: member
+language: en
 ---
 

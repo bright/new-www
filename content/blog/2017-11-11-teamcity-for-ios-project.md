@@ -15,6 +15,7 @@ image: /images/teamcity-for-ios-project/title_image.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Hi! Today's topic will be about [TeamCity](https://www.jetbrains.com/teamcity/) and how to provide continuous integration in your iOS project.
 

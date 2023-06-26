@@ -14,6 +14,9 @@ import { loadConsentDecision } from './src/analytics/local-storage-constants'
 import { setupGtagTrackingConsent } from './plugins/google-gtag/tracking-consent'
 import { setupTrackingConsentInHotjar } from './plugins/hotjar/tracking-consent'
 import { CookieConsentContextWrapper } from './src/analytics/contextual-cookie-consent'
+import i18n from 'i18next'
+import { useSSR } from 'react-i18next'
+import { i18nForPageContext, i18nResources, withI18next } from './src/i18n'
 
 let nextRoute = ''
 
@@ -29,17 +32,17 @@ window.addEventListener('unhandledrejection', event => {
   }
 })
 
-export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element }) => (
-  <>
-    <GlobalStyle />
-    {element}
-  </>
-)
+export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element, props: { pageContext } }) => {
+  return withI18next(i18nForPageContext(pageContext))(
+    <>
+      <GlobalStyle />
+      {element}
+    </>
+  )
+}
 
 export const wrapRootElement: GatsbyBrowser['wrapRootElement'] = ({ element }) => (
-  <CookieConsentContextWrapper>
-    {element}
-  </CookieConsentContextWrapper>
+  <CookieConsentContextWrapper>{element}</CookieConsentContextWrapper>
 )
 
 export const onInitialClientRender: GatsbyBrowser['onInitialClientRender'] = () => {

@@ -13,6 +13,7 @@ image: /images/brightstoryrafal_fullstack.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Rafał was a maritime officer who decided to settle on a software development land. He learned how to code aboard the ship, having very limited access to the internet. Can you imagine doing that without Stack Overflow? He can! 😉 Check out his road from a navigator to a full-stack developer who specializes in Ethereum blockchain.**
 

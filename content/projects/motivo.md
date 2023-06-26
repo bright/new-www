@@ -36,6 +36,7 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 ![Cycling Workouts Mobile App Development](/images/motivo_mockup.png)
 

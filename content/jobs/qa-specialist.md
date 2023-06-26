@@ -26,6 +26,7 @@ recruting_image3_title: QA task
 description: We are seeking a QA Specialist with knowledge of DB testing,
   performance testing and API testing. Maintain a high quality of iOS, Android
   and web applications.
+language: en
 ---
 
 ![]()

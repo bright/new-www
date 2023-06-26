@@ -11,4 +11,5 @@ answer: The final software development timeline depends on the project and its
   in 4 to 20 weeks**. The final step – **developing and maintenance of the
   launched product** is the job that once the app succeeds **is never over**.
 published: true
+language: en
 ---

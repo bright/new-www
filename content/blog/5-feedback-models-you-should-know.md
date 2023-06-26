@@ -12,6 +12,7 @@ image: /images/feedback-models_blog_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 The main goal of feedback is helping people to grow, to develop their skills and make them feel better in the long term. Sad to say when it comes to giving feedback, we often do not know how to do it. We tend to use feedback thoughtlessly and in result it irritates or demoralises people instead of pushing them forward. **If you are not sure how to introduce feedback into your team’s routine or you just do not feel sure about giving and getting feedback, you may take advantage of the models and examples below.** These are feedback methods that work well in many organisations and they help to take immediate action without causing too much of an ‘ouch’ factor. Let us take a look.
 

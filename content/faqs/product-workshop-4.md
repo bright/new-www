@@ -10,4 +10,5 @@ answer: No [product design](/our-areas/product-design) experience is needed. Our
   specialists, business associates from your team are welcome as much as
   developers or designers.
 published: true
+language: en
 ---

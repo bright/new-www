@@ -13,6 +13,7 @@ image: /images/blogpost_www_izabela_bus.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Do you know what a bus factor is? Should it be a nightmare for startups that build in-house teams or hire a software development agency? Check out the best practices to protect the development projects from the bus factor risk.**
 

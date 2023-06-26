@@ -43,6 +43,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 ![web app development](/images/digitizing_mobile_reporting.png)
 

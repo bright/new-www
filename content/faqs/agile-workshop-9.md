@@ -8,4 +8,5 @@ answer: Yes! We don’t do Agile 1.01 with leaders. We work to provide our
   experienced participants with new tools, ideas and solutions that help them
   grow as leaders and in the end ensure the growth of their software team.
 published: true
+language: en
 ---

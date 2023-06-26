@@ -12,4 +12,5 @@ answer: Product design can be described as **turning an idea for a software (or
   developers](/blog/6-things-you-should-know-about-backend-developers-from-poland),
   and Agile coaches representing a product design agency.
 published: true
+language: en
 ---

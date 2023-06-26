@@ -8,6 +8,7 @@ author: eliasz
 date: '2015-10-01T22:00:00.000Z'
 image: /images/iphone-6-apple-ios-iphone-50603.jpeg
 published: true
+language: en
 ---
 
 Today's post will cover basic data transfer between your iPhone app and Apple Watch app.

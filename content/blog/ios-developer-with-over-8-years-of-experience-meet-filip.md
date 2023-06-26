@@ -14,6 +14,7 @@ image: /images/brightstoryfilip.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **His smile is one of the biggest in the office. As well as his mobile development experience. Meet Filip – a Senior iOS Developer whose career started from a painful fail which made him a better programmer. Check out his story.**
 

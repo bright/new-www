@@ -115,6 +115,7 @@ When you use `[weak self]`, you tell your closure, that it is possible that `sel
 On the other hand, we have `[unowned self]` that doesn't tell us that `self` could be `nil` at some point. It's on our side to take care of that and make sure that this block will not be called if `self` is deinitialized. If you properly take care of `disposables`, most often `[unowned self]` is a safe bet, as those closures will not be executed after deinitialization of `self`.
 
 A note to first example
+language: en
 ---
 
 Let's get back to the code from first example. You can see, that I used a `[weak self]` for the `SignalProducer` and `[unowned self]` for the observer. Why did I do that?!

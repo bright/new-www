@@ -9,4 +9,5 @@ answer: Yes, we have developed and maintained multiple IoT projects. We have
   devices to communicate. If you want to create an IoT network with AWS,
   [contact us](/start-project) to establish the details.
 published: true
+language: en
 ---

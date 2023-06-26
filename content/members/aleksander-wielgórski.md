@@ -11,5 +11,6 @@ avatar: /images/members/aleksander_wielgorski.jpeg
 github: olo2552
 ex: true
 layout: member
+language: en
 ---
 

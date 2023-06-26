@@ -12,6 +12,7 @@ image: /images/blog_feedback_culture.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 What I value in life are **honesty and transparency.**** I really encourage people I work with to voice their opinions, ideas or disappointments and to ask a lot of questions. When someone does not ask, I assume everything is clear. Guessing and overinterpreting are not my things. And I think that rumours, gossiping or internal tittle-tattles are not the way strong, responsible and supporting teams are built. If a company really wants to grow, employees should be open to tell the truth and hear the truth about themselves. It doesn’t matter if we talk with our boss, manager or colleague, being honest is an important step towards integrity. 
 

@@ -12,6 +12,7 @@ layout: post
 image: /images/make_it_bright.JPG
 hidden: false
 published: true
+language: en
 ---
 Bright Inventions is evolving and growing, and we seek energetic positive people who would like to join our developer’s team. Have you ever thought about working in a place where you can develop your skills, have a real impact on the projects you realise and stack you use, and what is more, be among people who might not only be your colleagues, but also friends in a private life? Find out more about how we work and who we are, and apply.  We would love to get in touch with you.
 

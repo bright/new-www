@@ -15,6 +15,7 @@ redirect_from:
   - /artur/
 published: true
 title: Meet Artur
+language: en
 ---
 Swift and Apple lover. Interested in Blockchain. A great fan of Elon Musk. Always positive. In his spare time fond of exploring Scandinavian countries and watching his favorite football team from Manchester (the red one 🙂).
 

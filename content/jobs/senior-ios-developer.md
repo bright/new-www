@@ -41,6 +41,7 @@ recruting_image3_title: programming task
 description: We are looking for an experienced Senior iOS Developer who
   understands Swift & iOS SDK and who would like to develop innovative iOS ePOS
   application.
+language: en
 ---
 
 ## job description

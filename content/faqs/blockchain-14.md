@@ -10,4 +10,5 @@ answer: It is the situation when **the identity of a person or organisation
   behind that chain is well known in the chain, they can adjust blockchain to
   their needs. Algorithm Aura is an implementation of Proof of Authority.
 published: true
+language: en
 ---

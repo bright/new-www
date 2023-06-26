@@ -15,6 +15,7 @@ redirect_from:
   - /ivan/
 published: true
 title: Meet Ivan
+language: en
 ---
 
 Open source fan and zero-waste true believer. At Bright Inventions responsible for full stack projects. He has a many hobbies like drawing, woodworking, DIY things and gardening. 

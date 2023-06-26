@@ -14,5 +14,6 @@ redirect_from:
   - /bartek/
 published: true
 title: Meet Bartek
+language: en
 ---
 He believes that there are no things we can't learn. Before starting his adventure with programming he had spent a few years on the North Sea as an electric engineer. Then he met his true love - Swift. After work enjoys biking and mountain trekking.

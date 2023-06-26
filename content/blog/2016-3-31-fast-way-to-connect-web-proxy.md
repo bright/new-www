@@ -8,6 +8,7 @@ author: mateuszklimek
 date: '2016-03-30T22:00:00.000Z'
 image: /images/android.jpeg
 published: true
+language: en
 ---
 
 Configuring Android device to connect to the web proxy running on development build machine is tedious.

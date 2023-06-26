@@ -9,4 +9,5 @@ answer: The cost of mobile app development depends on lots of factors. It is
   the project, operating systems, or timeline. [Contact us](/start-project) and
   we will prepare a proposal based on your expectations.
 published: true
+language: en
 ---

@@ -209,6 +209,7 @@ func animate() {
 ```
 
 Conclusion
+language: en
 ---
 
 Looking at those examples, you can decide which style of UI you prefer. Personally, I must admit that I really like the way that SnapKit works. I won't be rewriting my existing PureLayout to SnapKit codebase, but I'll surely take SnapKit into consideration, when starting a new project.

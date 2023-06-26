@@ -17,6 +17,7 @@ image: /images/human_side2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![image](/images/human_side2.png)
 

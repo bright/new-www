@@ -37,6 +37,7 @@ Feeling productive
 Coming from iOS project that was not that small, I was used to long build times and the fact, that sometimes even switching to test target required me to rebuild my project. React/React-Native projects that I took part in were not that big, but still… The fact that you can see changes instantly due to hot reloading and probably the only thing that you wait for is your Typescript transpiler is a huge improvement in productivity.
 
 Summary
+language: en
 ---
 ![Summary](/images/3-reasons-for-my-affair-with-react-native/tools.jpg)
 I really like the way that React/React-Native fit my work style. These are great tools that will surely help you get things done. I must say that I’m not that much hyped about the fact that RN allows you to reuse a big portion of the code between the platforms. This is a great thing of course and I would surely not give up on this, but the thing that I really like about RN is the pleasure that I get from building things with it and the way that tools that come with RN are created with developers in mind.

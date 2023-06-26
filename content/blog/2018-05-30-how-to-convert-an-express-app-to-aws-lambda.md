@@ -14,6 +14,7 @@ image: /images/laptop-programming.jpg
 date: '2018-05-29T22:00:00.000Z'
 published: true
 canonicalUrl: 'https://miensol.pl/how-to-convert-an-express-app-to-aws-lambda/'
+language: en
 ---
 
 In this post we will see how to convert an existing [express](https://expressjs.com/)  application to AWS Lambda. This can help reduce AWS bill even by an order of magnitude. We will also use [cloudform](https://github.com/bright/cloudform) to describe the [CloudFormation](https://aws.amazon.com/cloudformation/) stack.

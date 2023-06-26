@@ -11,6 +11,7 @@ bio: Blockchain developer
 redirect_from: ["/tomek", "/tomek/"]
 ex: true
 layout: member
+language: en
 ---
 
 Fullstack deveeloper with passion for blockchain.

@@ -25,4 +25,5 @@ answer: >-
 
   Overall, IoT security services are critical to ensuring the safety and reliability of connected devices and networks, as well as protecting the data that they generate and transmit.
 published: true
+language: en
 ---

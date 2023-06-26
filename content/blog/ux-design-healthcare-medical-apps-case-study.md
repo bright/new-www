@@ -13,6 +13,7 @@ image: /images/cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Heavy data, simplicity, clarity. Can we include all of these in healthcare app designs? Are you planning to hire a software development company to design and build your healthcare or medical solution? Check out the UX design challenges that you might face developing eHealth applications. Eventually, find out how to design medical data in a UX-friendly way.**
 

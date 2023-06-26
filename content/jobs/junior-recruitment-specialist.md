@@ -36,6 +36,7 @@ show_recruiter_info: true
 order: 3
 recruting_image2_title: recruitment task
 recruting_image3_title: interview
+language: en
 ---
 
 At Bright Inventions you'll be part of a group of talented, ambitious and positive developers, designers, managers and marketers who love to solve real problems and build software that matters in today’s world. 

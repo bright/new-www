@@ -12,6 +12,7 @@ image: /images/plants_leadership_cover_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 This story will be short. A few years ago when I bought a flat I also bought several plants. The gardener’s way I have gone so far taught me a lot not only about plants themselves, but also about people. My gardener's way was not always easy and maybe that is the point. So, what plants can tech us about leadership? A lot.
 

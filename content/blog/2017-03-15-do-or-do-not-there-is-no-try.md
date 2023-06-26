@@ -10,6 +10,7 @@ layout: post
 image: /images/do-or-do-not-there-is-no-try/photo1.jpg
 comments: true
 published: true
+language: en
 ---
 LUKE:  Master, moving stones around is one thing. This is totally different!\
 YODA: (irritated) No! No different! Only different in your mind. You must unlearn what you have learned.\

@@ -16,6 +16,7 @@ redirect_from:
   - /daniel-makurat/
 published: true
 title: Meet Daniel
+language: en
 ---
 Co-founder and Managing Partner of Bright Inventions. Experienced developer with a broad skill-set. Backend specialist. He likes to run interesting discussions and suggest non-standard solutions. Family guy, books lover and coffee addict.
 

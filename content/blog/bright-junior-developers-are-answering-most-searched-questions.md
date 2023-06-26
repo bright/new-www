@@ -13,6 +13,7 @@ image: /images/junior_software_developers.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Do you want to find a job as a junior software developer? Check out how to start a career in the software development industry. Get some insights from junior devs who are a part of our Bright Inventions team.**
 

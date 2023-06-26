@@ -25,6 +25,7 @@ recruting_image3_title: programming task
 description: We are looking now for a Full Stack Developer who has already had
   experience with web development and knows how to build Cloud Platform
   projects.
+language: en
 ---
 ## who we are
 

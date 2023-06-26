@@ -8,6 +8,10 @@ site_url: https://brightinventions.pl/
 logo_url: https://brightinventions.pl/images/logo.png
 media_folder: '/static/images'
 public_folder: '/images'
+
+language_widget: &language_widget
+  { label: 'Language', name: 'language', widget: 'select', default: 'en', options: ['en', 'de'] }
+
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Blog' # Used in the UI
@@ -59,6 +63,7 @@ collections:
       - { label: 'Hidden', name: 'hidden', widget: 'boolean', default: false }
       - { label: 'Comments', name: 'comments', widget: 'boolean', default: true }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+      - *language_widget
   - name: 'members' # Used in routes, e.g., /admin/collections/blog
     label: 'Members' # Used in the UI
     folder: 'content/members' # The path to the folder where the documents are stored
@@ -84,6 +89,7 @@ collections:
       - { label: 'Full description', name: 'body', widget: 'markdown' }
       - { label: 'Redirect from', name: 'redirect_from', widget: 'list', allow_add: true, required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+      - *language_widget
   - name: 'jobs' # Used in routes, e.g., /admin/collections/blog
     label: 'Jobs' # Used in the UI
     folder: 'content/jobs' # The path to the folder where the documents are stored
@@ -199,7 +205,7 @@ collections:
         }
       - { label: 'Recruting Process Image2 Title', name: 'recruting_image2_title', widget: 'string' }
       - { label: 'Recruting Process Image3 Title', name: 'recruting_image3_title', widget: 'string' }
-
+      - *language_widget
   - name: 'projects' # Used in routes, e.g., /admin/collections/blog
     label: 'Projects' # Used in the UI
     folder: 'content/projects' # The path to the folder where the documents are stored
@@ -238,10 +244,10 @@ collections:
       - { label: 'Hero Image Alt', name: 'Hero Image_alt', widget: string }
       - { label: 'Social Media Previev', name: 'social_media_previev', widget: 'image' }
       - { label: 'Social Media Previev Alt', name: 'social_media_previev_alt', widget: string }
-      - label: 'Achievements' 
-        name: 'bar_achievements' 
+      - label: 'Achievements'
+        name: 'bar_achievements'
         widget: 'list'
-        fields: 
+        fields:
           - { label: 'Number', name: 'number', widget: 'string' }
           - { label: 'Label', name: 'label', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -266,6 +272,7 @@ collections:
       - { label: 'Show Case Study', name: 'show_case_study', widget: 'boolean', default: true }
       - { label: 'Show on homepage', name: 'show on homepage', widget: 'boolean', default: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+      - *language_widget
 
   - name: 'our-areas' # Used in routes, e.g., /admin/collections/blog
     label: 'Our Service' # Used in the UI
@@ -356,6 +363,7 @@ collections:
       - { label: 'Title FAQs', name: 'title_faqs', widget: 'string' }
       - { label: 'Title Contact', name: 'title_contact', widget: 'string' }
       - { label: 'Description Contact', name: 'description_contact', widget: 'markdown' }
+      - *language_widget
 
   - name: 'faqs' # Used in routes, e.g., /admin/collections/blog
     label: 'FAQs' # Used in the UI
@@ -371,3 +379,4 @@ collections:
       - { label: 'Question', name: 'question', widget: 'markdown' }
       - { label: 'Answer', name: 'answer', widget: 'markdown' }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+      - *language_widget

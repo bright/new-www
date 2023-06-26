@@ -8,4 +8,5 @@ answer: Every application that is hosted in a cloud can be called a cloud app.
   Simply, a cloud application is an app that uses cloud solutions. Examples of
   cloud applications are Google Drive, Dropbox, Reddit, etc.
 published: true
+language: en
 ---

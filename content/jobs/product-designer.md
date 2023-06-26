@@ -41,6 +41,7 @@ recruting_image2_title: " interview (technical & non-technical part)"
 recruting_image3_title: "product design task "
 description: We are seeking a talented and creative Product designer who will
   focus on ensuring a first-class user experience across products we do. Apply!
+language: en
 ---
 ![]()
 

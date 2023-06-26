@@ -13,6 +13,7 @@ image: /images/uncle_bob_post.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 The first book I read after joining Bright Inventions team was ***The Clean Coder: A Code of Conduct for Professional Programmers* by Robert C. Martin.** It was the book that showed me what kind of developers we would like to hire and why -  engineers who care deeply about the practice of creating software and about their own self-development. True professionals. 
 

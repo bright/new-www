@@ -18,6 +18,7 @@ author: adam
 date: '2014-10-29T23:00:00.000Z'
 image: /images/laptop_work.jpg
 published: true
+language: en
 ---
 
 I’m experimenting with [ShareJS](http://sharejs.org/) library, which is intended to allow live concurrent editing like in Google Docs. The demo on their website seems incredibly easy, even though later on the page they are so cruel: “*ShareJS is mostly working, but it’s still a bit shit.*”. I wouldn’t be so harsh as I was able to have it up and running in less than few hours. But the fact is it wasn’t as easy as it seemed.

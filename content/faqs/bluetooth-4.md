@@ -10,4 +10,5 @@ answer: iBeacon is a Bluetooth-based technology developed by Apple. Apple
   result, iBeacon tech enables localization of lost Apple devices like iPhones,
   Apple watches, etc. iBeacon is, in fact, based on Bluetooth Low Energy.
 published: true
+language: en
 ---

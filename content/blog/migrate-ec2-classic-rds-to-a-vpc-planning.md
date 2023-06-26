@@ -12,6 +12,7 @@ hidden: false
 comments: true
 published: true
 canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-plan/
+language: en
 ---
 By end of August [AWS will shut down EC2-Classic networking](https://aws.amazon.com/blogs/aws/ec2-classic-is-retiring-heres-how-to-prepare/).
 All resources using EC2-Classic networking will stop working. Yes, this includes RDS databases.

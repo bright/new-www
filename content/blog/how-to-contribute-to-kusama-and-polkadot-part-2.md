@@ -11,6 +11,7 @@ image: /images/blog_post_contribute_to_web3_part2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Following [part 1 of our guide on how to support Web3](/blog/how-to-contribute-to-kusama-and-polkadot-part-1) if you are not a software developer, we are coming to you with other ideas. Check them out, find ones that suit you well, and be a part of the Web3 revolution.** 😉
 

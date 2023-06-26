@@ -16,6 +16,7 @@ stackoverflow: 142827/notherdev
 redirect_from:
   - /adam
   - /adam/
+language: en
 ---
 
 A fan of order and structure. He started his career with some simple PHP websites. Later on he touched on .NET, Ruby, Java and Objective-C, but he has always come back to the Web which is his true love. Enjoys maps & mapping, and exploring the world with his family.

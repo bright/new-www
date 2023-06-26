@@ -7,6 +7,9 @@ import { PartialWebpackConfig } from './src/partial-webpack-config'
 import readingTime from 'reading-time'
 import { toDate } from './src/to-date'
 import { kebabCase } from 'lodash'
+import { isDefined } from './src/is-defined'
+import { querySlugAuthorIdAndIdFromMembers } from './src/query-members'
+import Query = Queries.Query
 
 const path = require('path')
 
@@ -15,14 +18,14 @@ const { queryPostsSlug } = require('./src/query-posts')
 export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql, reporter }) => {
   const { createPage, createRedirect } = actions
 
-  const result = await queryPostsSlug({ graphql })
+  const postSlugs = await queryPostsSlug({ graphql })
 
-  if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
+  if (postSlugs.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`, postSlugs.errors)
     return
   }
 
-  const posts = result.data.allMdx.edges
+  const posts = postSlugs.data.allMdx.edges
   const postsPerPage = 10
   const numPages = Math.ceil(posts.length / postsPerPage)
 
@@ -93,112 +96,96 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     })
   )
 
-  const memberResult = await graphql<Queries.AboutUsMembersListingQuery>(`
-    query AboutUsMembersListing {
-      allMembers {
-        nodes {
-          id
-          internal {
-            contentFilePath
-          }
-          slug
-          author_id
-        }
-      }
-    }
-  `)
-  if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
-    return
-  }
+  const memberResult = await querySlugAuthorIdAndIdFromMembers(graphql)
+
   const members = memberResult.data!.allMembers.nodes
 
   await Promise.all(
-    members.map(async (member) => {
+    members.map(async member => {
       const result = await graphql<{
         author: allMdxData
         secondAuthor?: allMdxData
         thirdAuthor?: allMdxData
       }>(`
-  {
-    author: allMdx(
-      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${member.author_id}"}}}
-      sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
-    ) {
-      edges {
-        node {
-          id
-          internal {  contentFilePath  }
-          frontmatter {
-            image {
-              childImageSharp {
-                gatsbyImageData
+        query AuthorsOfBlogPosts {
+          author: allMdx(
+            filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, author: {eq: "${member.author_id}"}}}
+            sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
+          ) {
+            edges {
+              node {
+                id
+                internal {  contentFilePath  }
+                frontmatter {
+                  image {
+                    childImageSharp {
+                      gatsbyImageData
+                    }
+                  }
+                  title
+                  tags
+                  date
+                  meaningfullyUpdatedAt
+                  author_id
+                }
+                fields {
+                  slug
+                }
               }
             }
-            title
-            tags
-            date
-            meaningfullyUpdatedAt
-            author_id
           }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-    secondAuthor: allMdx(
-      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, secondAuthor: {eq: "${member.author_id}"}}}
-      sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
-    ) {
-      edges {
-        node {
-          id
-          internal {  contentFilePath  }
-          frontmatter {
-            image {
-              childImageSharp {
-                gatsbyImageData
+          secondAuthor: allMdx(
+            filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, secondAuthor: {eq: "${member.author_id}"}}}
+            sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
+          ) {
+            edges {
+              node {
+                id
+                internal {  contentFilePath  }
+                frontmatter {
+                  image {
+                    childImageSharp {
+                      gatsbyImageData
+                    }
+                  }
+                  title
+                  tags
+                  date
+                  meaningfullyUpdatedAt
+                }
+                fields {
+                  slug
+                }
               }
             }
-            title
-            tags
-            date
-            meaningfullyUpdatedAt
           }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-    thirdAuthor: allMdx(
-      filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${member.author_id}"}}}
-      sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
-    ) {
-      edges {
-        node {
-          id
-          internal {  contentFilePath  }
-          frontmatter {
-            image {
-              childImageSharp {
-                gatsbyImageData
+          thirdAuthor: allMdx(
+            filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${member.author_id}"}}}
+            sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
+          ) {
+            edges {
+              node {
+                id
+                internal {  contentFilePath  }
+                frontmatter {
+                  image {
+                    childImageSharp {
+                      gatsbyImageData
+                    }
+                  }
+                  title
+                  tags
+                  date
+                  meaningfullyUpdatedAt
+                }
+                fields {
+                  slug
+                }
               }
             }
-            title
-            tags
-            date
-            meaningfullyUpdatedAt
-          }
-          fields {
-            slug
           }
         }
-      }
-    }
-  }
-  `)
+      `)
 
       const { author, secondAuthor, thirdAuthor } = result.data!
       const allAuthors = [...author?.edges, ...(secondAuthor?.edges ?? []), ...(thirdAuthor?.edges ?? [])]
@@ -219,9 +206,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       if (posts.length === 0) {
         createPage({
           path: `/about-us/${kebabCase(member.slug)}`,
-          component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${
-            member.internal.contentFilePath
-          }`,
+          component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${member.internal.contentFilePath}`,
           context: {
             id: member.id,
           },
@@ -230,9 +215,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         Array.from({ length: numPages }).forEach((item, i) => {
           createPage({
             path: i == 0 ? `/about-us/${kebabCase(member.slug)}` : `/about-us/${kebabCase(member.slug)}/${i + 1}`,
-            component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${
-              member.internal.contentFilePath
-            }`,
+            component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${member.internal.contentFilePath}`,
             context: {
               id: member.id,
               limit: postsPerPage,
@@ -259,6 +242,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                 frontmatter {
                   question
                   slug
+                  language
                 }
               }
             }
@@ -280,25 +264,25 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       }`,
       context: {
         id: service.node.id,
-        slug: service.node.frontmatter.slug,
+        slug: service.node.frontmatter!!.slug,
+        language: service.node.frontmatter!!.language
       },
     })
 
     const faqs = service.node.frontmatter.faqs
-    faqs.forEach((faq: { frontmatter: { question: string; slug: string } }) => {
+    faqs.forEach((faq: { frontmatter: { question: string; slug: string; language: string } }) => {
       createPage({
         path: 'our-areas/' + service.node.frontmatter.slug + '/' + faq.frontmatter.slug,
-        component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${
-          service.node.internal.contentFilePath
-        }`,
+        component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
         context: {
           id: service.node.id,
           slug: service.node.frontmatter.slug,
           faqTitle: faq.frontmatter.question,
           faqSlug: faq.frontmatter.slug,
+          language: faq.frontmatter.language
         },
       })
-    })
+    });
   })
 
   const postResult = await graphql<GQLData>(
@@ -306,7 +290,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       {
         allMdx(
           filter: { frontmatter: { layout: { eq: "post" } } }
-          sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
+          sort: [{ frontmatter: { meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC } }]
           limit: 1000
         ) {
           edges {
@@ -328,8 +312,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       }
     `
   )
+
   if (postResult.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`, result.errors)
+    reporter.panicOnBuild(`Error while running GraphQL query.`, postResult.errors)
     return
   }
 
@@ -383,7 +368,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   })
 
   const preparePage = async (layout: string, path: string, template: string) => {
-    const result = await graphql<GQLData>(`
+    const result = await graphql<Pick<Query, 'allMdx'>>(`
       {
         allMdx(
           filter: {
@@ -396,6 +381,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
               id
               frontmatter {
                 slug
+                language
               }
               internal {
                 contentFilePath
@@ -416,9 +402,9 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       if (!node.internal.contentFilePath) {
         console.log('no contentFilePath in', node)
       }
-      const name = node.internal.contentFilePath
+      const name = node.internal.contentFilePath!!
         .split('/')
-        .pop()
+        .pop()!!
         .replace('.md', '')
         .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, '')
       // console.log({
@@ -431,12 +417,13 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       // })
 
       createPage({
-        path: path + '/' + (node.frontmatter.slug || name),
+        path: path + '/' + (node.frontmatter?.slug || name),
         component: `${template}?__contentFilePath=${node.internal.contentFilePath}`,
         context: {
           id: node.id,
           // additional data can be passed via context
-          slug: node.frontmatter.slug,
+          slug: node.frontmatter?.slug,
+          language: node.frontmatter?.language
         },
       })
     })

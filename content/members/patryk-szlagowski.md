@@ -11,6 +11,7 @@ description: Senior Backend Developer
 avatar: /images/members/patryk_szlagowski.jpg
 avatar_hover: /images/patryksz_passion.png
 published: true
+language: en
 ---
 Software developer, geek, problem solver. He started his developer's life in primary school with a huge help of his first IT teacher. After hours petrolhead, tattoo addict and music lover. 
 

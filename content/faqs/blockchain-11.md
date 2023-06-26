@@ -7,4 +7,5 @@ question: What is Blockchain consensus?
 answer: Blockchain consensus determines who and when can add a new block to the
   chain. Therefore data is secured inside.
 published: true
+language: en
 ---

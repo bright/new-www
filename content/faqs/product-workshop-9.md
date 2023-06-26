@@ -6,4 +6,5 @@ slug: product-workshop-online
 question: Is it possible to have a product workshop online?
 answer: Yes! We conduct online product workshops.
 published: true
+language: en
 ---

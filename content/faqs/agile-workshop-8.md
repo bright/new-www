@@ -7,4 +7,5 @@ question: Is it possible to have an Agile workshop online?
 answer: Yes, we conduct online Agile workshops as well, especially during the
   coronavirus pandemic.
 published: true
+language: en
 ---

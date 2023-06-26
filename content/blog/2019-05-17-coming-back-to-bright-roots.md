@@ -17,6 +17,7 @@ layout: post
 image: /images/blog_post_cover.png
 hidden: false
 published: true
+language: en
 ---
 Probably you have noticed that we gave our brand a face lift. We are excited to finally unveil our new look, and we want to tell you all about it.
 

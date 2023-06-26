@@ -69,6 +69,7 @@ City Hall (Store)
 After your letter is ready, you have to send it to the city hall. There are many people working there, who take care of various things. Some handle your address information, some take care of your car registration etc... After they update archives with data from your letter, they will inform you about it, so that you can for example, update your todo list and cross "Change address" out... Or update your facebook status. The same goes with reducers inside an app. If new state is created, then all places interested in this update will be notified.
 
 City Hall worker (Reducers)
+language: en
 ---
 
 ![Header](/images/redux/officer.png)

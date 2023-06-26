@@ -38,6 +38,7 @@ show_team: false
 show_case_study: true
 show on homepage: true
 published: true
+language: en
 ---
 <div class="image"><img src="/images/circles_mockup.png" alt="Circles mockup" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team. "  /> </div>
 

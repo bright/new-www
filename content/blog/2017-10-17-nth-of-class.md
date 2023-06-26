@@ -9,6 +9,7 @@ image: /images/blog_post_cover_css_selector.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 My experience with frontend web development is not long yet, nevertheless, I have already got stuck a few times and spend like a few hours trying to find one perfect solution. I reckon that some of them are worth describing. 
 

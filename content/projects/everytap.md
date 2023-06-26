@@ -38,6 +38,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 <TitleWithIcon sectionTitle='main Finebite tech elements:' titleIcon='/images/main_features_icon.png' titleIconAlt='Main features of BrightTreasury:' />
 

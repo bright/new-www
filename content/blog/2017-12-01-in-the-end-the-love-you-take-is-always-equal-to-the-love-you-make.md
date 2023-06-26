@@ -20,6 +20,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Elon Musk once said that leadership does not depend nowadays on the number of patents companies have, but on the ability to hire talented people who know how to make the most of the knowledge and skills they have. Knowledge and patents themselves should be open source. 
 

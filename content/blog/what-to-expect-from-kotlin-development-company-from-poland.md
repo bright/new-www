@@ -10,6 +10,7 @@ image: /images/android_development_company.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Everything you should know about working with Kotlin development software house from Poland.**
 

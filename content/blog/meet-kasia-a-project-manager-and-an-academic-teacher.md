@@ -15,6 +15,7 @@ image: /images/brightstory_kasia_main.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Emerging from the academic world she successfully mixes theoretical knowledge with business reality. During her over 10 years of academic career she has taught thousands of programmers that soft skills are not an option but simply a must. Let us talk with Kasia – Senior Project Manager at Bright Inventions.**
 

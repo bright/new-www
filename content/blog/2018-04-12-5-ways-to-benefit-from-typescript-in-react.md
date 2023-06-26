@@ -14,6 +14,7 @@ layout: post
 image: /images/blog_redux_ts.png
 comments: true
 published: true
+language: en
 ---
 
 In the [recent post](/blog/modern-way-getting-started-react-typescript/) we discussed how we can start a new React project with TypeScript to benefit from all the goodies of type checks and eliminate the whole class of errors and typos from our codebase. Now let’s see how we can apply TypeScript-based type definitions into our React project to get most of it.

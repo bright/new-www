@@ -11,6 +11,7 @@ image: /images/blog_post_lamp_development.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![mounting lamp](/images/blog_post_lamp_development.png)
 

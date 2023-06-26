@@ -18,6 +18,7 @@ layout: post
 image: /images/do_it_now.jpg
 hidden: false
 published: true
+language: en
 ---
 Josh Billings, or if you prefer - Henry Wheeler Shaw, said once that "the greatest thief this world has ever produced is procrastination, and he is still at large". I am rather a well-organised person and I try not to delay anything. To be honest, there are rarely moments that I put off things that I have to do. Sometimes I just prioritise and do other things first. I just do not like the feeling when there are some open ideas floating around in my mind. I have to clear it as soon as possible. But many of us do not posses this inner drive. Procrastination can often make our lives miserable. It  steals our time, money, and first of all satisfaction. 
 

@@ -15,6 +15,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 
 Chrome Extensions can make your life easier whenever you want to add a script to the Chrome Browser. Working with extensions is quite easy. It’s just the good old JavaScript code and not much more. There are, however, a few things worth taking into consideration while working with the extensions.

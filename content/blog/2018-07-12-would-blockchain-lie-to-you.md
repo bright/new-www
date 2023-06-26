@@ -17,6 +17,7 @@ image: /images/Blockchain_workshops.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Some people are sitting on a beach in summer, and some are learning Blockchain. Can you do both at the same time? The answer is YES. :)
 

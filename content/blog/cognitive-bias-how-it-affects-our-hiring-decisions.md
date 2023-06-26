@@ -12,6 +12,7 @@ image: /images/man-g235da9b82_1920.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Cognitive bias very often creeps into our daily communication and hiring process subconsciously and unexpectedly. It may occur when we “trust our gut” or just “follow our intuition” ignoring significant insights and not using critical thinking. What might be scary is that unconscious bias is really hard to identify and it does much harm to our daily life. **If it comes to the recruitment area, the consequence might be hiring someone who is not as engaged as we expected, choosing a candidate with not appropriate skillset for the role or not giving a chance to a real talent.** 
 

@@ -75,6 +75,7 @@ title_faqs: product design FAQs
 title_contact: let’s design your product
 description_contact: Tell us more about your project or idea for an app. We will
   take care of the rest. Fill out the form below.
+language: en
 ---
 ## Product design services that we offer
 

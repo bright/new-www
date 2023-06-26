@@ -11,6 +11,7 @@ image: /images/blogpost_eko_apps.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **The climate change outcomes make many of us wonder what we can do to lead a more sustainable life. As always
 technology provides us with various possibilities. Check out 5 apps that in different ways can help to make eco-friendly

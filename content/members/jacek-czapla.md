@@ -11,6 +11,7 @@ description: Senior Backend Developer
 avatar: /images/jacek_team.png
 avatar_hover: /images/jacek_passion.png
 published: true
+language: en
 ---
 Backend Developer with 5 years of commercial experience. After completing his double MSc diploma studies in Signal Processing at the Gdańsk University of Technology in Poland and Blekinge Institute of Technology in Sweden he started working as an R&D engineer. There he quickly discovered that what really gives him joy is programming. He then transitioned to full time software development, first in Python and then in Java. 
 

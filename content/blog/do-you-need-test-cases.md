@@ -10,6 +10,7 @@ image: /images/blogpost_test_case_preview.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 There is a trend to write test cases. If you are a tester, write test cases. The more the better… But is it really always a good idea?
 

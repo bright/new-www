@@ -12,4 +12,5 @@ answer: A smart contract is a code that is initiated in the blockchain. It
   build its own cryptocurrencies. A well-known example of ERC20 implementation
   is **Dodge Coin**.
 published: true
+language: en
 ---

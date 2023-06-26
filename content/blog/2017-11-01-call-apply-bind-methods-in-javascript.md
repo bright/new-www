@@ -12,6 +12,7 @@ image: /images/javascript.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Working with JavaScript 'this' keyword can be tricky. Not knowing the background rules may end up with the famous “it doesn’t work and I don’t know why”. It’s good to know the theory before putting things into practice. ['call()'](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call),  ['apply()'](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)  and ['bind()'](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind) methods can come in handy while setting the 'this' value.
 

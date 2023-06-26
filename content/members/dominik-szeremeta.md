@@ -10,5 +10,6 @@ bio: Fullstack Developer
 description: Fullstack Developer
 avatar: /images/dominik2.png
 published: true
+language: en
 ---
 A professional basketball player-to-be who devoted himself to his other hobby – programming. Always willing to travel and, above all to eat extraordinary unknown dishes.

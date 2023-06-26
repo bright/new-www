@@ -11,4 +11,5 @@ answer: Yes! Although we have been using Agile for software development, we
   adaptability to your needs. We can show you how to implement Agile project
   management in your team.
 published: true
+language: en
 ---

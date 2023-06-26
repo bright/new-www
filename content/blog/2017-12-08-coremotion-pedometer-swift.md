@@ -17,6 +17,7 @@ image: /images/coremotion-pedometer-swift/footsteps.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![footsteps image](/images/coremotion-pedometer-swift/footsteps.jpg)
 

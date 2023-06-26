@@ -10,5 +10,6 @@ description: Sales Manager @ Bright Inventions
 avatar: /images/members/agnieszka_h.jpg
 ex: true
 layout: member
+language: en
 ---
 

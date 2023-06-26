@@ -11,6 +11,7 @@ image: /images/food_tech_industry.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Food and tech – these two are nowadays closer than you might think. Check out what FoodTech means. Get to know critical areas of food innovations and examples of real FoodTech solutions.**
 

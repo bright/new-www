@@ -8,4 +8,5 @@ answer: Die Kosten der MVP-Entwicklung können erst abgeschätzt werden, nachdem
   Einzelheiten über das Projekt bekannt sind. Setzen Sie sich mit uns in Kontakt
   und wir erstellen Ihnen einen Preisangebot.
 published: true
+language: en
 ---

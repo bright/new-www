@@ -13,6 +13,7 @@ image: /images/brightstorykasia.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Just days before the important MVP launch Kasia found some time to share her thoughts on her professional role and challenges. Check out how strongly Kasia goes by Scrum. Also, read her recipe for successful communication with developers and clients. Here comes the story of Kasia, the Project Manager at Bright Inventions.**
 

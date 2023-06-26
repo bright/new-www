@@ -11,6 +11,7 @@ image: /images/blog_hooked_on_react.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 React has introduced a new feature which allows you to use state and other React feature without writing class, upcoming [Hooks](https://reactjs.org/docs/hooks-overview.html), a new proposal in React 16.8.0, which are going to blow your socks off and enable our stateless function component does more than even before!
 

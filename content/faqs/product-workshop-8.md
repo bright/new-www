@@ -12,4 +12,5 @@ answer: This type of product workshop is great for businesses that have
   strengths. We will advise the most efficient technology tools and frameworks
   to use. Also, we will embrace the strengths of your product.
 published: true
+language: en
 ---

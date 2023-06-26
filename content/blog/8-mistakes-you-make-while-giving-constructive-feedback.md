@@ -12,6 +12,7 @@ image: /images/feedback_mistake_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Wouldn’t you like to know that you can change something before it becomes a serious problem? **Feedback is a gift.** Given with a good intention of taking care of someone it will lead to a further development and a strong collaboration. Unluckily, it happens that feedback is given incorrectly and it does more harm than good and in consequence leads to decreased productivity or engagement. 
 

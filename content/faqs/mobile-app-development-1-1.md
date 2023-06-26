@@ -13,4 +13,5 @@ answer: A typical mobile development process contains a few steps, however, the
   MVP is ready, there is time for **app development & maintenance** which is the
   final step of the app development process.
 published: true
+language: en
 ---

@@ -13,6 +13,7 @@ image: /images/recruitment_team_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Recruiting success is not necessarily a measure of the volume of candidates obtained. Successful recruiting teams are able to quickly identify the candidates that are most likely to make a positive impact on an organization. It requires much more than looking beyond a candidate’s credentials. 
 

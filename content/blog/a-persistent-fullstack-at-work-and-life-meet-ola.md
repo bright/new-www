@@ -13,6 +13,7 @@ image: /images/brightstoryolaz2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Ola has been a programmer for over 4 years, starting her career with Java. She sets goals and always reaches them. She has practiced swimming and played the transverse flute most of her life. Do you want to know how she does it? Read the interview.**
 

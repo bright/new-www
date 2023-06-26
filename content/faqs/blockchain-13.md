@@ -9,4 +9,5 @@ answer: Another blockchain consensus used in Ethereum. It works kind of like a
   which price is building a block.** Of course, building the block is related to
   payment in Ether.
 published: true
+language: en
 ---

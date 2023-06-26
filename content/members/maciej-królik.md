@@ -11,6 +11,7 @@ description: Android Developer
 avatar: /images/maciej_k2_team.png
 avatar_hover: /images/maciej_2passion.png
 published: true
+language: en
 ---
 Focused on Android Development in Kotlin but eager to experiment with other interesting technologies too (not only mobile!). Tries to create something cool with every device which falls into his hands. After hours finds true freedom on his bike. Especially in the forest.
 

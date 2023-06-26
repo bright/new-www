@@ -13,6 +13,7 @@ image: /images/feedback_1400_554_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 According to **[Gallup research](https://www.gallup.com/workplace/357764/fast-feedback-fuels-performance.aspx) people who get regular meaningful feedback at work are four times more likely than other employees to be engaged and enthusiastic about their workplace and 3.6 times more motivated to do outstanding work**. Feedback seems to be a simple way to a professional success and a better team's performance, but in fact the whole process is not always as simple as we wish. Why? 
 

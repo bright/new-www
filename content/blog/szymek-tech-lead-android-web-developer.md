@@ -13,6 +13,7 @@ image: /images/brightstoryszymek.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Android, iOS, web – Szymek tried it all and still wants to learn more. One day he was a team member and on another a leader of that team. Was it a difficult transition? Why Android development is so satisfying to him? What is the best way to convince a Java dev to switch to Kotlin? Find answers to all these questions. This is the story of Szymek – a Tech Lead of the Android Team at Bright Inventions.**
 

@@ -18,6 +18,7 @@ redirect_from:
   - /michal-lukasiewicz/
 published: true
 title: Meet Michał
+language: en
 ---
 Co-founder and Managing Partner of Bright Inventions. An idea guy and a software engineer with more than 15 years of experience. Appreciates clever technical solutions and simplicity. Triathlon enthusiast and books lover. 
 

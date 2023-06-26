@@ -10,6 +10,7 @@ layout: post
 image: /images/iphone-6-apple-ios-iphone-50603.jpeg
 comments: true
 published: true
+language: en
 ---
 ## The first Cocoapod created
 

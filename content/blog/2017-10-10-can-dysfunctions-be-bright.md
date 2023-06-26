@@ -13,6 +13,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![teambuilding](/images/can-disfunctions-be-bright/team.png)
 

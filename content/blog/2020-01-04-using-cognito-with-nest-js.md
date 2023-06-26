@@ -15,6 +15,7 @@ image: /images/aws_cognito_nest_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **AWS Cognito simplified the authentication, authorization and user management for you. In this post I will try to present how we can use this authentication service with your mobile app, website, and manage users.**
 

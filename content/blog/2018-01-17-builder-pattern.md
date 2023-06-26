@@ -11,6 +11,7 @@ tags:
 hidden: true
 comments: true
 published: true
+language: en
 ---
 Builder pattern might be used in regular code, but I personally find it the most useful in tests. This is where you need to create objects which on one hand need to meet certain circumstances and on the other hand  you do not want to be bothered with other parameters. The builder pattern is the answer.
 

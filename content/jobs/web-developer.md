@@ -25,6 +25,7 @@ date: 2019-01-30
 recruting_image3_title: programming task
 description: We are looking for a Web Developer who would like to work with our
   experienced and ambitious development team.
+language: en
 ---
 
 Hi! We are really happy that you are here and that you want to join our team.  

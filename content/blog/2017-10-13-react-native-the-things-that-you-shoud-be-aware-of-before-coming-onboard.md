@@ -10,6 +10,7 @@ layout: post
 image: /images/react_native_header.jpeg
 comments: true
 published: true
+language: en
 ---
 ![Header](/images/react-native-the-things-that-you-shoud-be-aware-of-before-coming-onboard/header.jpeg)
 

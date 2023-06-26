@@ -14,6 +14,7 @@ image: /images/brightstorycezary.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **For most of his life, Cezary was passionate about gymnastics. He even became an acrobatic instructor for kids. Then he got a professional acrobatic role in a musical play! Eventually, he decided to self-learn programming and said goodbye to the gymnastics world. Why? Check out the amazing story of Cezary. Also, meet his lovely dog Tola.**
 

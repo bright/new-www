@@ -17,4 +17,5 @@ answer: >-
 
   Blockchain is used in the **banking sector to transparently store and present public documents**. Thanks to blockchain clients can see the actual version of the documents such as: terms and conditions for an account or the fee information for a credit card. Clients can see the actual version of the document and even quickly verify if the document is authentic. Blockchain ensures that presented data will be authentic because there is no chance to temper with them.
 published: true
+language: en
 ---

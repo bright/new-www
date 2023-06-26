@@ -13,6 +13,7 @@ layout: post
 image: /images/software_dev.jpg
 comments: true
 published: true
+language: en
 ---
 In the [first part](/blog/ios-layouts-for-web-developers-1-basic-building-blocks/) of the [**iOS layouts for web developers** series](/blog/ios-layouts-for-web-developers/) I’ve discussed controls as the basic building blocks that comprises the layout in iOS world and how that compares to HTML. I haven’t tackled anything about how and where these controls are drawn on the screen. The matter is complex enough so that here is the separate post only about it.
 

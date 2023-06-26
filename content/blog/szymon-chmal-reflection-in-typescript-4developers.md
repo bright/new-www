@@ -13,6 +13,7 @@ image: /images/blogpost_szymon_4developers.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Szymon Chmal, Senior Frontend Developer at Bright Inventions, is among the speakers at the 2023 edition of 4Developers. The event takes place on the 18th of April in Warsaw. Szymon will speak about the Reflection mechanism in Typescript.**
 

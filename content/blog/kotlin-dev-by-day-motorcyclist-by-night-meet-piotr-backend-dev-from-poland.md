@@ -12,6 +12,7 @@ image: /images/brightstory_piotr_backend4.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Kotlin developer. Motorbike lover. Got his first IT job because he was the only one in the room who solved a Java puzzle. Say hi to Piotrek – a Backend Developer at Bright Inventions.**
 

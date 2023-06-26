@@ -67,6 +67,7 @@ type Blog implements Node {
   id: ID!
   image: File
   internal: Internal!
+  language: String
   layout: String!
   meaningfullyUpdatedAt: Date
   modified(
@@ -115,6 +116,7 @@ type BlogFrontmatter {
   extract: String
   hidden: Boolean!
   image: File
+  language: String
   layout: String!
   meaningfullyUpdatedAt: Date
   modified(
@@ -289,6 +291,7 @@ type Faqs implements Node {
   frontmatter: FaqsFrontmatter!
   id: ID!
   internal: Internal!
+  language: String
   layout: String!
   name: String!
   parent: Node
@@ -318,6 +321,7 @@ type FaqsEdge {
 type FaqsFrontmatter {
   answer: String!
   faqs_id: String!
+  language: String
   layout: String!
   name: String!
   published: Boolean!
@@ -718,6 +722,7 @@ type Jobs implements Node {
   image_recruiter_info: File
   imagejob: File
   internal: Internal!
+  language: String
   layout: String!
   links_more_about_us: String
   name_recruiter: String
@@ -781,6 +786,7 @@ type JobsFrontmatter {
   image_alt_recruiter_info: String
   image_recruiter_info: File
   imagejob: File
+  language: String
   layout: String!
   links_more_about_us: String
   name_recruiter: String
@@ -951,6 +957,7 @@ type MdxFrontmatter {
   image_recruiter_info: File
   imagejob: File
   intro: String
+  language: String
   layout: String
   links_more_about_us: SimpleMdx
   meaningfullyUpdatedAt(
@@ -1057,6 +1064,7 @@ type Members implements Node {
   hobby: String
   id: ID!
   internal: Internal!
+  language: String
   layout: String!
   name: String!
   parent: Node
@@ -1101,6 +1109,7 @@ type MembersFrontmatter {
   ex: Boolean!
   github: String
   hobby: String
+  language: String
   layout: String!
   name: String!
   published: Boolean!
@@ -1148,6 +1157,7 @@ type OurAreas implements Node {
   image_our_service_mobile: File
   internal: Internal!
   intro: String
+  language: String
   layout: String!
   meta_description: String!
   meta_title: String!
@@ -1204,6 +1214,7 @@ type OurAreasFrontmatter {
   image_our_service_desktop: File
   image_our_service_mobile: File
   intro: String
+  language: String
   layout: String!
   meta_description: String!
   meta_title: String!
@@ -1262,6 +1273,7 @@ type Projects implements Node {
   id: ID!
   image: File
   internal: Internal!
+  language: String!
   layout: String!
   order: Float
   our_service: [OurAreas]!
@@ -1309,6 +1321,7 @@ type ProjectsFrontmatter {
   hero_image: File
   hero_image_alt: String
   image: File
+  language: String!
   layout: String!
   order: Float
   our_service: [OurAreas]!
@@ -1359,23 +1372,21 @@ type Query {
   allSiteFunction(filter: SiteFunctionFilterInput, limit: Int, skip: Int, sort: [SiteFunctionSortInput]): SiteFunctionConnection!
   allSitePage(filter: SitePageFilterInput, limit: Int, skip: Int, sort: [SitePageSortInput]): SitePageConnection!
   allSitePlugin(filter: SitePluginFilterInput, limit: Int, skip: Int, sort: [SitePluginSortInput]): SitePluginConnection!
-  allStaticImage(filter: StaticImageFilterInput, limit: Int, skip: Int, sort: [StaticImageSortInput]): StaticImageConnection!
-  blog(author: MembersFilterInput, body: StringQueryOperatorInput, canonicalUrl: StringQueryOperatorInput, categories: StringQueryOperatorInput, children: NodeFilterListInput, comments: BooleanQueryOperatorInput, date: DateQueryOperatorInput, excerpt: StringQueryOperatorInput, extract: StringQueryOperatorInput, frontmatter: BlogFrontmatterFilterInput, hidden: BooleanQueryOperatorInput, id: StringQueryOperatorInput, image: FileFilterInput, internal: InternalFilterInput, layout: StringQueryOperatorInput, meaningfullyUpdatedAt: DateQueryOperatorInput, modified: DateQueryOperatorInput, parent: NodeFilterInput, published: BooleanQueryOperatorInput, secondAuthor: MembersFilterInput, tags: StringQueryOperatorInput, thirdAuthor: MembersFilterInput, title: StringQueryOperatorInput): Blog
+  blog(author: MembersFilterInput, body: StringQueryOperatorInput, canonicalUrl: StringQueryOperatorInput, categories: StringQueryOperatorInput, children: NodeFilterListInput, comments: BooleanQueryOperatorInput, date: DateQueryOperatorInput, excerpt: StringQueryOperatorInput, extract: StringQueryOperatorInput, frontmatter: BlogFrontmatterFilterInput, hidden: BooleanQueryOperatorInput, id: StringQueryOperatorInput, image: FileFilterInput, internal: InternalFilterInput, language: StringQueryOperatorInput, layout: StringQueryOperatorInput, meaningfullyUpdatedAt: DateQueryOperatorInput, modified: DateQueryOperatorInput, parent: NodeFilterInput, published: BooleanQueryOperatorInput, secondAuthor: MembersFilterInput, tags: StringQueryOperatorInput, thirdAuthor: MembersFilterInput, title: StringQueryOperatorInput): Blog
   directory(absolutePath: StringQueryOperatorInput, accessTime: DateQueryOperatorInput, atime: DateQueryOperatorInput, atimeMs: FloatQueryOperatorInput, base: StringQueryOperatorInput, birthTime: DateQueryOperatorInput, birthtime: DateQueryOperatorInput, birthtimeMs: FloatQueryOperatorInput, changeTime: DateQueryOperatorInput, children: NodeFilterListInput, ctime: DateQueryOperatorInput, ctimeMs: FloatQueryOperatorInput, dev: IntQueryOperatorInput, dir: StringQueryOperatorInput, ext: StringQueryOperatorInput, extension: StringQueryOperatorInput, gid: IntQueryOperatorInput, id: StringQueryOperatorInput, ino: FloatQueryOperatorInput, internal: InternalFilterInput, mode: IntQueryOperatorInput, modifiedTime: DateQueryOperatorInput, mtime: DateQueryOperatorInput, mtimeMs: FloatQueryOperatorInput, name: StringQueryOperatorInput, nlink: IntQueryOperatorInput, parent: NodeFilterInput, prettySize: StringQueryOperatorInput, rdev: IntQueryOperatorInput, relativeDirectory: StringQueryOperatorInput, relativePath: StringQueryOperatorInput, root: StringQueryOperatorInput, size: IntQueryOperatorInput, sourceInstanceName: StringQueryOperatorInput, uid: IntQueryOperatorInput): Directory
-  faqs(answer: StringQueryOperatorInput, body: StringQueryOperatorInput, children: NodeFilterListInput, faqs_id: StringQueryOperatorInput, frontmatter: FaqsFrontmatterFilterInput, id: StringQueryOperatorInput, internal: InternalFilterInput, layout: StringQueryOperatorInput, name: StringQueryOperatorInput, parent: NodeFilterInput, published: BooleanQueryOperatorInput, question: StringQueryOperatorInput, slug: StringQueryOperatorInput): Faqs
+  faqs(answer: StringQueryOperatorInput, body: StringQueryOperatorInput, children: NodeFilterListInput, faqs_id: StringQueryOperatorInput, frontmatter: FaqsFrontmatterFilterInput, id: StringQueryOperatorInput, internal: InternalFilterInput, language: StringQueryOperatorInput, layout: StringQueryOperatorInput, name: StringQueryOperatorInput, parent: NodeFilterInput, published: BooleanQueryOperatorInput, question: StringQueryOperatorInput, slug: StringQueryOperatorInput): Faqs
   file(absolutePath: StringQueryOperatorInput, accessTime: DateQueryOperatorInput, atime: DateQueryOperatorInput, atimeMs: FloatQueryOperatorInput, base: StringQueryOperatorInput, birthTime: DateQueryOperatorInput, birthtime: DateQueryOperatorInput, birthtimeMs: FloatQueryOperatorInput, blksize: IntQueryOperatorInput, blocks: IntQueryOperatorInput, changeTime: DateQueryOperatorInput, childImageSharp: ImageSharpFilterInput, childMdx: MdxFilterInput, children: NodeFilterListInput, childrenImageSharp: ImageSharpFilterListInput, childrenMdx: MdxFilterListInput, ctime: DateQueryOperatorInput, ctimeMs: FloatQueryOperatorInput, dev: IntQueryOperatorInput, dir: StringQueryOperatorInput, ext: StringQueryOperatorInput, extension: StringQueryOperatorInput, gid: IntQueryOperatorInput, id: StringQueryOperatorInput, ino: FloatQueryOperatorInput, internal: InternalFilterInput, mode: IntQueryOperatorInput, modifiedTime: DateQueryOperatorInput, mtime: DateQueryOperatorInput, mtimeMs: FloatQueryOperatorInput, name: StringQueryOperatorInput, nlink: IntQueryOperatorInput, parent: NodeFilterInput, prettySize: StringQueryOperatorInput, publicURL: StringQueryOperatorInput, rdev: IntQueryOperatorInput, relativeDirectory: StringQueryOperatorInput, relativePath: StringQueryOperatorInput, root: StringQueryOperatorInput, size: IntQueryOperatorInput, sourceInstanceName: StringQueryOperatorInput, uid: IntQueryOperatorInput): File
   imageSharp(children: NodeFilterListInput, fixed: ImageSharpFixedFilterInput, fluid: ImageSharpFluidFilterInput, gatsbyImageData: GatsbyImageDataQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, original: ImageSharpOriginalFilterInput, parent: NodeFilterInput, resize: ImageSharpResizeFilterInput): ImageSharp
-  jobs(Show_recruiter_info: BooleanQueryOperatorInput, body: StringQueryOperatorInput, button: StringQueryOperatorInput, button_instagram: StringQueryOperatorInput, button_linkedin: StringQueryOperatorInput, children: NodeFilterListInput, date: DateQueryOperatorInput, description: StringQueryOperatorInput, frontmatter: JobsFrontmatterFilterInput, hidden: BooleanQueryOperatorInput, hours: StringQueryOperatorInput, id: StringQueryOperatorInput, image_alt_job: StringQueryOperatorInput, image_alt_recruiter_info: StringQueryOperatorInput, image_recruiter_info: FileFilterInput, imagejob: FileFilterInput, internal: InternalFilterInput, layout: StringQueryOperatorInput, links_more_about_us: StringQueryOperatorInput, name_recruiter: StringQueryOperatorInput, order: FloatQueryOperatorInput, parent: NodeFilterInput, published: BooleanQueryOperatorInput, recruting_image2_title: StringQueryOperatorInput, recruting_image3_title: StringQueryOperatorInput, redirect_from: StringQueryOperatorInput, salary: StringQueryOperatorInput, salary_max: FloatQueryOperatorInput, salary_min: FloatQueryOperatorInput, show_new_title_more_about_us: BooleanQueryOperatorInput, show_recruiter_info: BooleanQueryOperatorInput, subtitle: StringQueryOperatorInput, technology: StringQueryOperatorInput, title: StringQueryOperatorInput, title_more_about_us: StringQueryOperatorInput, title_recruiter_info: StringQueryOperatorInput, working_time: StringQueryOperatorInput, workplace_recruiter: StringQueryOperatorInput): Jobs
+  jobs(Show_recruiter_info: BooleanQueryOperatorInput, body: StringQueryOperatorInput, button: StringQueryOperatorInput, button_instagram: StringQueryOperatorInput, button_linkedin: StringQueryOperatorInput, children: NodeFilterListInput, date: DateQueryOperatorInput, description: StringQueryOperatorInput, frontmatter: JobsFrontmatterFilterInput, hidden: BooleanQueryOperatorInput, hours: StringQueryOperatorInput, id: StringQueryOperatorInput, image_alt_job: StringQueryOperatorInput, image_alt_recruiter_info: StringQueryOperatorInput, image_recruiter_info: FileFilterInput, imagejob: FileFilterInput, internal: InternalFilterInput, language: StringQueryOperatorInput, layout: StringQueryOperatorInput, links_more_about_us: StringQueryOperatorInput, name_recruiter: StringQueryOperatorInput, order: FloatQueryOperatorInput, parent: NodeFilterInput, published: BooleanQueryOperatorInput, recruting_image2_title: StringQueryOperatorInput, recruting_image3_title: StringQueryOperatorInput, redirect_from: StringQueryOperatorInput, salary: StringQueryOperatorInput, salary_max: FloatQueryOperatorInput, salary_min: FloatQueryOperatorInput, show_new_title_more_about_us: BooleanQueryOperatorInput, show_recruiter_info: BooleanQueryOperatorInput, subtitle: StringQueryOperatorInput, technology: StringQueryOperatorInput, title: StringQueryOperatorInput, title_more_about_us: StringQueryOperatorInput, title_recruiter_info: StringQueryOperatorInput, working_time: StringQueryOperatorInput, workplace_recruiter: StringQueryOperatorInput): Jobs
   mdx(body: StringQueryOperatorInput, childBlog: BlogFilterInput, childFaqs: FaqsFilterInput, childJobs: JobsFilterInput, childMembers: MembersFilterInput, childOurAreas: OurAreasFilterInput, childProjects: ProjectsFilterInput, children: NodeFilterListInput, childrenBlog: BlogFilterListInput, childrenFaqs: FaqsFilterListInput, childrenJobs: JobsFilterListInput, childrenMembers: MembersFilterListInput, childrenOurAreas: OurAreasFilterListInput, childrenProjects: ProjectsFilterListInput, excerpt: StringQueryOperatorInput, fields: MdxFieldsFilterInput, frontmatter: MdxFrontmatterFilterInput, id: StringQueryOperatorInput, internal: InternalFilterInput, parent: NodeFilterInput, tableOfContents: JSONQueryOperatorInput): Mdx
-  members(author_id: StringQueryOperatorInput, avatar: FileFilterInput, avatar_hover: FileFilterInput, bio: StringQueryOperatorInput, body: StringQueryOperatorInput, children: NodeFilterListInput, crosspost: StringQueryOperatorInput, description: StringQueryOperatorInput, descrption: StringQueryOperatorInput, email: StringQueryOperatorInput, ex: BooleanQueryOperatorInput, frontmatter: MembersFrontmatterFilterInput, github: StringQueryOperatorInput, hobby: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, layout: StringQueryOperatorInput, name: StringQueryOperatorInput, parent: NodeFilterInput, posts: BlogFilterListInput, published: BooleanQueryOperatorInput, redirect_from: StringQueryOperatorInput, short_name: StringQueryOperatorInput, slug: StringQueryOperatorInput, stackoverflow: StringQueryOperatorInput, title: StringQueryOperatorInput, twitter: StringQueryOperatorInput, web: StringQueryOperatorInput): Members
-  ourAreas(bar_stack: StringQueryOperatorInput, body: StringQueryOperatorInput, bullet_points: StringQueryOperatorInput, button: StringQueryOperatorInput, button2: StringQueryOperatorInput, children: NodeFilterListInput, description_contact: StringQueryOperatorInput, description_mdx: StringQueryOperatorInput, faqs: FaqsFilterListInput, frontmatter: OurAreasFrontmatterFilterInput, highlighted_word: StringQueryOperatorInput, id: StringQueryOperatorInput, image_alt_our_service: StringQueryOperatorInput, image_alt_our_service_desktop: StringQueryOperatorInput, image_alt_our_service_mobile: StringQueryOperatorInput, image_our_service: FileFilterInput, image_our_service_desktop: FileFilterInput, image_our_service_mobile: FileFilterInput, internal: InternalFilterInput, intro: StringQueryOperatorInput, layout: StringQueryOperatorInput, meta_description: StringQueryOperatorInput, meta_title: StringQueryOperatorInput, name: StringQueryOperatorInput, order: FloatQueryOperatorInput, our_service_id: StringQueryOperatorInput, our_services_icon: FileFilterInput, parent: NodeFilterInput, project: ProjectsFilterListInput, published: BooleanQueryOperatorInput, short_description: StringQueryOperatorInput, show_case_study: BooleanQueryOperatorInput, show_technology_stack: BooleanQueryOperatorInput, slug: StringQueryOperatorInput, team_members: MembersFilterListInput, title: StringQueryOperatorInput, title_case_study: StringQueryOperatorInput, title_contact: StringQueryOperatorInput, title_faqs: StringQueryOperatorInput, title_team: StringQueryOperatorInput): OurAreas
-  projects(Hero_Image_alt: StringQueryOperatorInput, bar_achievements: StringQueryOperatorInput, body: StringQueryOperatorInput, children: NodeFilterListInput, description: StringQueryOperatorInput, description_contact: StringQueryOperatorInput, frontmatter: ProjectsFrontmatterFilterInput, hero_image: FileFilterInput, hero_image_alt: StringQueryOperatorInput, id: StringQueryOperatorInput, image: FileFilterInput, internal: InternalFilterInput, layout: StringQueryOperatorInput, order: FloatQueryOperatorInput, our_service: OurAreasFilterListInput, parent: NodeFilterInput, project_id: StringQueryOperatorInput, published: BooleanQueryOperatorInput, redirect_from: StringQueryOperatorInput, show_case_study: BooleanQueryOperatorInput, show_on_homepage: BooleanQueryOperatorInput, show_team: BooleanQueryOperatorInput, slug: StringQueryOperatorInput, social_media_previev: FileFilterInput, social_media_previev_alt: StringQueryOperatorInput, tags: StringQueryOperatorInput, team_members: MembersFilterListInput, title: StringQueryOperatorInput, title_case_study: StringQueryOperatorInput, title_contact: StringQueryOperatorInput, title_team: StringQueryOperatorInput): Projects
+  members(author_id: StringQueryOperatorInput, avatar: FileFilterInput, avatar_hover: FileFilterInput, bio: StringQueryOperatorInput, body: StringQueryOperatorInput, children: NodeFilterListInput, crosspost: StringQueryOperatorInput, description: StringQueryOperatorInput, descrption: StringQueryOperatorInput, email: StringQueryOperatorInput, ex: BooleanQueryOperatorInput, frontmatter: MembersFrontmatterFilterInput, github: StringQueryOperatorInput, hobby: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, language: StringQueryOperatorInput, layout: StringQueryOperatorInput, name: StringQueryOperatorInput, parent: NodeFilterInput, posts: BlogFilterListInput, published: BooleanQueryOperatorInput, redirect_from: StringQueryOperatorInput, short_name: StringQueryOperatorInput, slug: StringQueryOperatorInput, stackoverflow: StringQueryOperatorInput, title: StringQueryOperatorInput, twitter: StringQueryOperatorInput, web: StringQueryOperatorInput): Members
+  ourAreas(bar_stack: StringQueryOperatorInput, body: StringQueryOperatorInput, bullet_points: StringQueryOperatorInput, button: StringQueryOperatorInput, button2: StringQueryOperatorInput, children: NodeFilterListInput, description_contact: StringQueryOperatorInput, description_mdx: StringQueryOperatorInput, faqs: FaqsFilterListInput, frontmatter: OurAreasFrontmatterFilterInput, highlighted_word: StringQueryOperatorInput, id: StringQueryOperatorInput, image_alt_our_service: StringQueryOperatorInput, image_alt_our_service_desktop: StringQueryOperatorInput, image_alt_our_service_mobile: StringQueryOperatorInput, image_our_service: FileFilterInput, image_our_service_desktop: FileFilterInput, image_our_service_mobile: FileFilterInput, internal: InternalFilterInput, intro: StringQueryOperatorInput, language: StringQueryOperatorInput, layout: StringQueryOperatorInput, meta_description: StringQueryOperatorInput, meta_title: StringQueryOperatorInput, name: StringQueryOperatorInput, order: FloatQueryOperatorInput, our_service_id: StringQueryOperatorInput, our_services_icon: FileFilterInput, parent: NodeFilterInput, project: ProjectsFilterListInput, published: BooleanQueryOperatorInput, short_description: StringQueryOperatorInput, show_case_study: BooleanQueryOperatorInput, show_technology_stack: BooleanQueryOperatorInput, slug: StringQueryOperatorInput, team_members: MembersFilterListInput, title: StringQueryOperatorInput, title_case_study: StringQueryOperatorInput, title_contact: StringQueryOperatorInput, title_faqs: StringQueryOperatorInput, title_team: StringQueryOperatorInput): OurAreas
+  projects(Hero_Image_alt: StringQueryOperatorInput, bar_achievements: StringQueryOperatorInput, body: StringQueryOperatorInput, children: NodeFilterListInput, description: StringQueryOperatorInput, description_contact: StringQueryOperatorInput, frontmatter: ProjectsFrontmatterFilterInput, hero_image: FileFilterInput, hero_image_alt: StringQueryOperatorInput, id: StringQueryOperatorInput, image: FileFilterInput, internal: InternalFilterInput, language: StringQueryOperatorInput, layout: StringQueryOperatorInput, order: FloatQueryOperatorInput, our_service: OurAreasFilterListInput, parent: NodeFilterInput, project_id: StringQueryOperatorInput, published: BooleanQueryOperatorInput, redirect_from: StringQueryOperatorInput, show_case_study: BooleanQueryOperatorInput, show_on_homepage: BooleanQueryOperatorInput, show_team: BooleanQueryOperatorInput, slug: StringQueryOperatorInput, social_media_previev: FileFilterInput, social_media_previev_alt: StringQueryOperatorInput, tags: StringQueryOperatorInput, team_members: MembersFilterListInput, title: StringQueryOperatorInput, title_case_study: StringQueryOperatorInput, title_contact: StringQueryOperatorInput, title_team: StringQueryOperatorInput): Projects
   site(buildTime: DateQueryOperatorInput, children: NodeFilterListInput, graphqlTypegen: SiteGraphqlTypegenFilterInput, host: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, jsxRuntime: StringQueryOperatorInput, mapping: SiteMappingFilterInput, parent: NodeFilterInput, pathPrefix: StringQueryOperatorInput, polyfill: BooleanQueryOperatorInput, port: IntQueryOperatorInput, siteMetadata: SiteSiteMetadataFilterInput, trailingSlash: StringQueryOperatorInput): Site
   siteBuildMetadata(buildTime: DateQueryOperatorInput, children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, parent: NodeFilterInput): SiteBuildMetadata
   siteFunction(absoluteCompiledFilePath: StringQueryOperatorInput, children: NodeFilterListInput, functionRoute: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, matchPath: StringQueryOperatorInput, originalAbsoluteFilePath: StringQueryOperatorInput, originalRelativeFilePath: StringQueryOperatorInput, parent: NodeFilterInput, pluginName: StringQueryOperatorInput, relativeCompiledFilePath: StringQueryOperatorInput): SiteFunction
   sitePage(children: NodeFilterListInput, component: StringQueryOperatorInput, componentChunkName: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, internalComponentName: StringQueryOperatorInput, matchPath: StringQueryOperatorInput, pageContext: JSONQueryOperatorInput, parent: NodeFilterInput, path: StringQueryOperatorInput, pluginCreator: SitePluginFilterInput): SitePage
   sitePlugin(browserAPIs: StringQueryOperatorInput, children: NodeFilterListInput, id: StringQueryOperatorInput, internal: InternalFilterInput, name: StringQueryOperatorInput, nodeAPIs: StringQueryOperatorInput, packageJson: JSONQueryOperatorInput, parent: NodeFilterInput, pluginFilepath: StringQueryOperatorInput, pluginOptions: JSONQueryOperatorInput, resolve: StringQueryOperatorInput, ssrAPIs: StringQueryOperatorInput, version: StringQueryOperatorInput): SitePlugin
-  staticImage(absolutePath: StringQueryOperatorInput, accessTime: DateQueryOperatorInput, atime: DateQueryOperatorInput, atimeMs: FloatQueryOperatorInput, base: StringQueryOperatorInput, birthTime: DateQueryOperatorInput, birthtime: DateQueryOperatorInput, birthtimeMs: FloatQueryOperatorInput, blksize: IntQueryOperatorInput, blocks: IntQueryOperatorInput, changeTime: DateQueryOperatorInput, children: NodeFilterListInput, ctime: DateQueryOperatorInput, ctimeMs: FloatQueryOperatorInput, dev: IntQueryOperatorInput, dir: StringQueryOperatorInput, ext: StringQueryOperatorInput, extension: StringQueryOperatorInput, id: StringQueryOperatorInput, ino: IntQueryOperatorInput, internal: InternalFilterInput, mode: IntQueryOperatorInput, modifiedTime: DateQueryOperatorInput, mtime: DateQueryOperatorInput, mtimeMs: FloatQueryOperatorInput, name: StringQueryOperatorInput, nlink: IntQueryOperatorInput, parent: NodeFilterInput, prettySize: StringQueryOperatorInput, rdev: IntQueryOperatorInput, relativeDirectory: StringQueryOperatorInput, relativePath: StringQueryOperatorInput, root: StringQueryOperatorInput, size: IntQueryOperatorInput, sourceInstanceName: StringQueryOperatorInput, uid: IntQueryOperatorInput): StaticImage
 }
 
 type SimpleMdx {
@@ -1649,149 +1660,6 @@ type SiteSiteMetadata {
   title: String
 }
 
-type StaticImage implements Node {
-  absolutePath: String
-  accessTime(
-    "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-    difference: String,
-    "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-    formatString: String,
-    "Returns a string generated with Moment.js' `fromNow` function"
-    fromNow: Boolean,
-    "Configures the locale Moment.js will use to format the date."
-    locale: String
-  ): Date
-  atime(
-    "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-    difference: String,
-    "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-    formatString: String,
-    "Returns a string generated with Moment.js' `fromNow` function"
-    fromNow: Boolean,
-    "Configures the locale Moment.js will use to format the date."
-    locale: String
-  ): Date
-  atimeMs: Float
-  base: String
-  birthTime(
-    "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-    difference: String,
-    "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-    formatString: String,
-    "Returns a string generated with Moment.js' `fromNow` function"
-    fromNow: Boolean,
-    "Configures the locale Moment.js will use to format the date."
-    locale: String
-  ): Date
-  birthtime(
-    "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-    difference: String,
-    "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-    formatString: String,
-    "Returns a string generated with Moment.js' `fromNow` function"
-    fromNow: Boolean,
-    "Configures the locale Moment.js will use to format the date."
-    locale: String
-  ): Date
-  birthtimeMs: Float
-  blksize: Int
-  blocks: Int
-  changeTime(
-    "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-    difference: String,
-    "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-    formatString: String,
-    "Returns a string generated with Moment.js' `fromNow` function"
-    fromNow: Boolean,
-    "Configures the locale Moment.js will use to format the date."
-    locale: String
-  ): Date
-  children: [Node!]!
-  ctime(
-    "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-    difference: String,
-    "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-    formatString: String,
-    "Returns a string generated with Moment.js' `fromNow` function"
-    fromNow: Boolean,
-    "Configures the locale Moment.js will use to format the date."
-    locale: String
-  ): Date
-  ctimeMs: Float
-  dev: Int
-  dir: String
-  ext: String
-  extension: String
-  id: ID!
-  ino: Int
-  internal: Internal!
-  mode: Int
-  modifiedTime(
-    "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-    difference: String,
-    "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-    formatString: String,
-    "Returns a string generated with Moment.js' `fromNow` function"
-    fromNow: Boolean,
-    "Configures the locale Moment.js will use to format the date."
-    locale: String
-  ): Date
-  mtime(
-    "Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\"."
-    difference: String,
-    "Format the date using Moment.js' date tokens, e.g. `date(formatString: \"YYYY MMMM DD\")`. See https://momentjs.com/docs/#/displaying/format/ for documentation for different tokens."
-    formatString: String,
-    "Returns a string generated with Moment.js' `fromNow` function"
-    fromNow: Boolean,
-    "Configures the locale Moment.js will use to format the date."
-    locale: String
-  ): Date
-  mtimeMs: Float
-  name: String
-  nlink: Int
-  parent: Node
-  prettySize: String
-  rdev: Int
-  relativeDirectory: String
-  relativePath: String
-  root: String
-  size: Int
-  sourceInstanceName: String
-  uid: Int
-}
-
-type StaticImageConnection {
-  distinct(field: StaticImageFieldSelector!): [String!]!
-  edges: [StaticImageEdge!]!
-  group(field: StaticImageFieldSelector!, limit: Int, skip: Int): [StaticImageGroupConnection!]!
-  max(field: StaticImageFieldSelector!): Float
-  min(field: StaticImageFieldSelector!): Float
-  nodes: [StaticImage!]!
-  pageInfo: PageInfo!
-  sum(field: StaticImageFieldSelector!): Float
-  totalCount: Int!
-}
-
-type StaticImageEdge {
-  next: StaticImage
-  node: StaticImage!
-  previous: StaticImage
-}
-
-type StaticImageGroupConnection {
-  distinct(field: StaticImageFieldSelector!): [String!]!
-  edges: [StaticImageEdge!]!
-  field: String!
-  fieldValue: String
-  group(field: StaticImageFieldSelector!, limit: Int, skip: Int): [StaticImageGroupConnection!]!
-  max(field: StaticImageFieldSelector!): Float
-  min(field: StaticImageFieldSelector!): Float
-  nodes: [StaticImage!]!
-  pageInfo: PageInfo!
-  sum(field: StaticImageFieldSelector!): Float
-  totalCount: Int!
-}
-
 enum FieldSelectorEnum {
   SELECT
 }
@@ -1905,6 +1773,7 @@ input BlogFieldSelector {
   id: FieldSelectorEnum
   image: FileFieldSelector
   internal: InternalFieldSelector
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   meaningfullyUpdatedAt: FieldSelectorEnum
   modified: FieldSelectorEnum
@@ -1931,6 +1800,7 @@ input BlogFilterInput {
   id: StringQueryOperatorInput
   image: FileFilterInput
   internal: InternalFilterInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   meaningfullyUpdatedAt: DateQueryOperatorInput
   modified: DateQueryOperatorInput
@@ -1956,6 +1826,7 @@ input BlogFrontmatterFieldSelector {
   extract: FieldSelectorEnum
   hidden: FieldSelectorEnum
   image: FileFieldSelector
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   meaningfullyUpdatedAt: FieldSelectorEnum
   modified: FieldSelectorEnum
@@ -1976,6 +1847,7 @@ input BlogFrontmatterFilterInput {
   extract: StringQueryOperatorInput
   hidden: BooleanQueryOperatorInput
   image: FileFilterInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   meaningfullyUpdatedAt: DateQueryOperatorInput
   modified: DateQueryOperatorInput
@@ -1996,6 +1868,7 @@ input BlogFrontmatterSortInput {
   extract: SortOrderEnum
   hidden: SortOrderEnum
   image: FileSortInput
+  language: SortOrderEnum
   layout: SortOrderEnum
   meaningfullyUpdatedAt: SortOrderEnum
   modified: SortOrderEnum
@@ -2021,6 +1894,7 @@ input BlogSortInput {
   id: SortOrderEnum
   image: FileSortInput
   internal: InternalSortInput
+  language: SortOrderEnum
   layout: SortOrderEnum
   meaningfullyUpdatedAt: SortOrderEnum
   modified: SortOrderEnum
@@ -2185,6 +2059,7 @@ input FaqsFieldSelector {
   frontmatter: FaqsFrontmatterFieldSelector
   id: FieldSelectorEnum
   internal: InternalFieldSelector
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   name: FieldSelectorEnum
   parent: NodeFieldSelector
@@ -2201,6 +2076,7 @@ input FaqsFilterInput {
   frontmatter: FaqsFrontmatterFilterInput
   id: StringQueryOperatorInput
   internal: InternalFilterInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   name: StringQueryOperatorInput
   parent: NodeFilterInput
@@ -2216,6 +2092,7 @@ input FaqsFilterListInput {
 input FaqsFrontmatterFieldSelector {
   answer: FieldSelectorEnum
   faqs_id: FieldSelectorEnum
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   name: FieldSelectorEnum
   published: FieldSelectorEnum
@@ -2226,6 +2103,7 @@ input FaqsFrontmatterFieldSelector {
 input FaqsFrontmatterFilterInput {
   answer: StringQueryOperatorInput
   faqs_id: StringQueryOperatorInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   name: StringQueryOperatorInput
   published: BooleanQueryOperatorInput
@@ -2236,6 +2114,7 @@ input FaqsFrontmatterFilterInput {
 input FaqsFrontmatterSortInput {
   answer: SortOrderEnum
   faqs_id: SortOrderEnum
+  language: SortOrderEnum
   layout: SortOrderEnum
   name: SortOrderEnum
   published: SortOrderEnum
@@ -2251,6 +2130,7 @@ input FaqsSortInput {
   frontmatter: FaqsFrontmatterSortInput
   id: SortOrderEnum
   internal: InternalSortInput
+  language: SortOrderEnum
   layout: SortOrderEnum
   name: SortOrderEnum
   parent: NodeSortInput
@@ -2660,6 +2540,7 @@ input JobsFieldSelector {
   image_recruiter_info: FileFieldSelector
   imagejob: FileFieldSelector
   internal: InternalFieldSelector
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   links_more_about_us: FieldSelectorEnum
   name_recruiter: FieldSelectorEnum
@@ -2701,6 +2582,7 @@ input JobsFilterInput {
   image_recruiter_info: FileFilterInput
   imagejob: FileFilterInput
   internal: InternalFilterInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   links_more_about_us: StringQueryOperatorInput
   name_recruiter: StringQueryOperatorInput
@@ -2741,6 +2623,7 @@ input JobsFrontmatterFieldSelector {
   image_alt_recruiter_info: FieldSelectorEnum
   image_recruiter_info: FileFieldSelector
   imagejob: FileFieldSelector
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   links_more_about_us: FieldSelectorEnum
   name_recruiter: FieldSelectorEnum
@@ -2776,6 +2659,7 @@ input JobsFrontmatterFilterInput {
   image_alt_recruiter_info: StringQueryOperatorInput
   image_recruiter_info: FileFilterInput
   imagejob: FileFilterInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   links_more_about_us: StringQueryOperatorInput
   name_recruiter: StringQueryOperatorInput
@@ -2811,6 +2695,7 @@ input JobsFrontmatterSortInput {
   image_alt_recruiter_info: SortOrderEnum
   image_recruiter_info: FileSortInput
   imagejob: FileSortInput
+  language: SortOrderEnum
   layout: SortOrderEnum
   links_more_about_us: SortOrderEnum
   name_recruiter: SortOrderEnum
@@ -2851,6 +2736,7 @@ input JobsSortInput {
   image_recruiter_info: FileSortInput
   imagejob: FileSortInput
   internal: InternalSortInput
+  language: SortOrderEnum
   layout: SortOrderEnum
   links_more_about_us: SortOrderEnum
   name_recruiter: SortOrderEnum
@@ -3033,6 +2919,7 @@ input MdxFrontmatterFieldSelector {
   image_recruiter_info: FileFieldSelector
   imagejob: FileFieldSelector
   intro: FieldSelectorEnum
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   links_more_about_us: SimpleMdxFieldSelector
   meaningfullyUpdatedAt: FieldSelectorEnum
@@ -3134,6 +3021,7 @@ input MdxFrontmatterFilterInput {
   image_recruiter_info: FileFilterInput
   imagejob: FileFilterInput
   intro: StringQueryOperatorInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   links_more_about_us: SimpleMdxFilterInput
   meaningfullyUpdatedAt: DateQueryOperatorInput
@@ -3235,6 +3123,7 @@ input MdxFrontmatterSortInput {
   image_recruiter_info: FileSortInput
   imagejob: FileSortInput
   intro: SortOrderEnum
+  language: SortOrderEnum
   layout: SortOrderEnum
   links_more_about_us: SimpleMdxSortInput
   meaningfullyUpdatedAt: SortOrderEnum
@@ -3328,6 +3217,7 @@ input MembersFieldSelector {
   hobby: FieldSelectorEnum
   id: FieldSelectorEnum
   internal: InternalFieldSelector
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   name: FieldSelectorEnum
   parent: NodeFieldSelector
@@ -3359,6 +3249,7 @@ input MembersFilterInput {
   hobby: StringQueryOperatorInput
   id: StringQueryOperatorInput
   internal: InternalFilterInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   name: StringQueryOperatorInput
   parent: NodeFilterInput
@@ -3389,6 +3280,7 @@ input MembersFrontmatterFieldSelector {
   ex: FieldSelectorEnum
   github: FieldSelectorEnum
   hobby: FieldSelectorEnum
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   name: FieldSelectorEnum
   published: FieldSelectorEnum
@@ -3413,6 +3305,7 @@ input MembersFrontmatterFilterInput {
   ex: BooleanQueryOperatorInput
   github: StringQueryOperatorInput
   hobby: StringQueryOperatorInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   name: StringQueryOperatorInput
   published: BooleanQueryOperatorInput
@@ -3437,6 +3330,7 @@ input MembersFrontmatterSortInput {
   ex: SortOrderEnum
   github: SortOrderEnum
   hobby: SortOrderEnum
+  language: SortOrderEnum
   layout: SortOrderEnum
   name: SortOrderEnum
   published: SortOrderEnum
@@ -3466,6 +3360,7 @@ input MembersSortInput {
   hobby: SortOrderEnum
   id: SortOrderEnum
   internal: InternalSortInput
+  language: SortOrderEnum
   layout: SortOrderEnum
   name: SortOrderEnum
   parent: NodeSortInput
@@ -3526,6 +3421,7 @@ input OurAreasFieldSelector {
   image_our_service_mobile: FileFieldSelector
   internal: InternalFieldSelector
   intro: FieldSelectorEnum
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   meta_description: FieldSelectorEnum
   meta_title: FieldSelectorEnum
@@ -3569,6 +3465,7 @@ input OurAreasFilterInput {
   image_our_service_mobile: FileFilterInput
   internal: InternalFilterInput
   intro: StringQueryOperatorInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   meta_description: StringQueryOperatorInput
   meta_title: StringQueryOperatorInput
@@ -3611,6 +3508,7 @@ input OurAreasFrontmatterFieldSelector {
   image_our_service_desktop: FileFieldSelector
   image_our_service_mobile: FileFieldSelector
   intro: FieldSelectorEnum
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   meta_description: FieldSelectorEnum
   meta_title: FieldSelectorEnum
@@ -3648,6 +3546,7 @@ input OurAreasFrontmatterFilterInput {
   image_our_service_desktop: FileFilterInput
   image_our_service_mobile: FileFilterInput
   intro: StringQueryOperatorInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   meta_description: StringQueryOperatorInput
   meta_title: StringQueryOperatorInput
@@ -3685,6 +3584,7 @@ input OurAreasFrontmatterSortInput {
   image_our_service_desktop: FileSortInput
   image_our_service_mobile: FileSortInput
   intro: SortOrderEnum
+  language: SortOrderEnum
   layout: SortOrderEnum
   meta_description: SortOrderEnum
   meta_title: SortOrderEnum
@@ -3727,6 +3627,7 @@ input OurAreasSortInput {
   image_our_service_mobile: FileSortInput
   internal: InternalSortInput
   intro: SortOrderEnum
+  language: SortOrderEnum
   layout: SortOrderEnum
   meta_description: SortOrderEnum
   meta_title: SortOrderEnum
@@ -3779,6 +3680,7 @@ input ProjectsFieldSelector {
   id: FieldSelectorEnum
   image: FileFieldSelector
   internal: InternalFieldSelector
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   order: FieldSelectorEnum
   our_service: OurAreasFieldSelector
@@ -3813,6 +3715,7 @@ input ProjectsFilterInput {
   id: StringQueryOperatorInput
   image: FileFilterInput
   internal: InternalFilterInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   order: FloatQueryOperatorInput
   our_service: OurAreasFilterListInput
@@ -3846,6 +3749,7 @@ input ProjectsFrontmatterFieldSelector {
   hero_image: FileFieldSelector
   hero_image_alt: FieldSelectorEnum
   image: FileFieldSelector
+  language: FieldSelectorEnum
   layout: FieldSelectorEnum
   order: FieldSelectorEnum
   our_service: OurAreasFieldSelector
@@ -3874,6 +3778,7 @@ input ProjectsFrontmatterFilterInput {
   hero_image: FileFilterInput
   hero_image_alt: StringQueryOperatorInput
   image: FileFilterInput
+  language: StringQueryOperatorInput
   layout: StringQueryOperatorInput
   order: FloatQueryOperatorInput
   our_service: OurAreasFilterListInput
@@ -3902,6 +3807,7 @@ input ProjectsFrontmatterSortInput {
   hero_image: FileSortInput
   hero_image_alt: SortOrderEnum
   image: FileSortInput
+  language: SortOrderEnum
   layout: SortOrderEnum
   order: SortOrderEnum
   our_service: OurAreasSortInput
@@ -3935,6 +3841,7 @@ input ProjectsSortInput {
   id: SortOrderEnum
   image: FileSortInput
   internal: InternalSortInput
+  language: SortOrderEnum
   layout: SortOrderEnum
   order: SortOrderEnum
   our_service: OurAreasSortInput
@@ -4233,123 +4140,6 @@ input SiteSortInput {
   port: SortOrderEnum
   siteMetadata: SiteSiteMetadataSortInput
   trailingSlash: SortOrderEnum
-}
-
-input StaticImageFieldSelector {
-  absolutePath: FieldSelectorEnum
-  accessTime: FieldSelectorEnum
-  atime: FieldSelectorEnum
-  atimeMs: FieldSelectorEnum
-  base: FieldSelectorEnum
-  birthTime: FieldSelectorEnum
-  birthtime: FieldSelectorEnum
-  birthtimeMs: FieldSelectorEnum
-  blksize: FieldSelectorEnum
-  blocks: FieldSelectorEnum
-  changeTime: FieldSelectorEnum
-  children: NodeFieldSelector
-  ctime: FieldSelectorEnum
-  ctimeMs: FieldSelectorEnum
-  dev: FieldSelectorEnum
-  dir: FieldSelectorEnum
-  ext: FieldSelectorEnum
-  extension: FieldSelectorEnum
-  id: FieldSelectorEnum
-  ino: FieldSelectorEnum
-  internal: InternalFieldSelector
-  mode: FieldSelectorEnum
-  modifiedTime: FieldSelectorEnum
-  mtime: FieldSelectorEnum
-  mtimeMs: FieldSelectorEnum
-  name: FieldSelectorEnum
-  nlink: FieldSelectorEnum
-  parent: NodeFieldSelector
-  prettySize: FieldSelectorEnum
-  rdev: FieldSelectorEnum
-  relativeDirectory: FieldSelectorEnum
-  relativePath: FieldSelectorEnum
-  root: FieldSelectorEnum
-  size: FieldSelectorEnum
-  sourceInstanceName: FieldSelectorEnum
-  uid: FieldSelectorEnum
-}
-
-input StaticImageFilterInput {
-  absolutePath: StringQueryOperatorInput
-  accessTime: DateQueryOperatorInput
-  atime: DateQueryOperatorInput
-  atimeMs: FloatQueryOperatorInput
-  base: StringQueryOperatorInput
-  birthTime: DateQueryOperatorInput
-  birthtime: DateQueryOperatorInput
-  birthtimeMs: FloatQueryOperatorInput
-  blksize: IntQueryOperatorInput
-  blocks: IntQueryOperatorInput
-  changeTime: DateQueryOperatorInput
-  children: NodeFilterListInput
-  ctime: DateQueryOperatorInput
-  ctimeMs: FloatQueryOperatorInput
-  dev: IntQueryOperatorInput
-  dir: StringQueryOperatorInput
-  ext: StringQueryOperatorInput
-  extension: StringQueryOperatorInput
-  id: StringQueryOperatorInput
-  ino: IntQueryOperatorInput
-  internal: InternalFilterInput
-  mode: IntQueryOperatorInput
-  modifiedTime: DateQueryOperatorInput
-  mtime: DateQueryOperatorInput
-  mtimeMs: FloatQueryOperatorInput
-  name: StringQueryOperatorInput
-  nlink: IntQueryOperatorInput
-  parent: NodeFilterInput
-  prettySize: StringQueryOperatorInput
-  rdev: IntQueryOperatorInput
-  relativeDirectory: StringQueryOperatorInput
-  relativePath: StringQueryOperatorInput
-  root: StringQueryOperatorInput
-  size: IntQueryOperatorInput
-  sourceInstanceName: StringQueryOperatorInput
-  uid: IntQueryOperatorInput
-}
-
-input StaticImageSortInput {
-  absolutePath: SortOrderEnum
-  accessTime: SortOrderEnum
-  atime: SortOrderEnum
-  atimeMs: SortOrderEnum
-  base: SortOrderEnum
-  birthTime: SortOrderEnum
-  birthtime: SortOrderEnum
-  birthtimeMs: SortOrderEnum
-  blksize: SortOrderEnum
-  blocks: SortOrderEnum
-  changeTime: SortOrderEnum
-  children: NodeSortInput
-  ctime: SortOrderEnum
-  ctimeMs: SortOrderEnum
-  dev: SortOrderEnum
-  dir: SortOrderEnum
-  ext: SortOrderEnum
-  extension: SortOrderEnum
-  id: SortOrderEnum
-  ino: SortOrderEnum
-  internal: InternalSortInput
-  mode: SortOrderEnum
-  modifiedTime: SortOrderEnum
-  mtime: SortOrderEnum
-  mtimeMs: SortOrderEnum
-  name: SortOrderEnum
-  nlink: SortOrderEnum
-  parent: NodeSortInput
-  prettySize: SortOrderEnum
-  rdev: SortOrderEnum
-  relativeDirectory: SortOrderEnum
-  relativePath: SortOrderEnum
-  root: SortOrderEnum
-  size: SortOrderEnum
-  sourceInstanceName: SortOrderEnum
-  uid: SortOrderEnum
 }
 
 input StringQueryOperatorInput {

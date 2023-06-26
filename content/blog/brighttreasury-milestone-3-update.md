@@ -13,6 +13,7 @@ image: /images/bright_tereasury_app_milestones.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 We are proud and excited to announce that the [Web3 Foundation](https://web3.foundation/grants/) grant we received to build [BrightTreasury](https://treasury.bright.dev) has been successfully completed and the whole set of the planned features is now available live on production. 
 

@@ -14,6 +14,7 @@ description: Android developer passionate about deep learning. Recently fascinat
 redirect_from: ["/radek-s", "/radek-s/"]
 ex: true
 layout: member
+language: en
 ---
 
 Android developer passionate about deep learning. Recently fascinated by Spring Boot. Radek believes not only in clean coding, but also in clean eating. Privately keen on healthy diet and gym. Loves learning new things and solving problems.

@@ -13,6 +13,7 @@ image: /images/brightstorytomeklios.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Tomek is a Senior iOS Developer with over 5 years of experience. His initial career, as a nuclear power engineer, guided him toward programming. Learn more about his approach to [mobile development](/our-areas/mobile-app-development/), and the iOS trends he observes. Also, find out how Tomek overcame job burnout that almost took away his passion for programming.**
 

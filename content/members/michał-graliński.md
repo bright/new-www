@@ -11,5 +11,6 @@ description: Rust Developer
 avatar: /images/team_member_michal_g_website.png
 avatar_hover: /images/team_member_michal_g_website.png
 published: true
+language: en
 ---
 Rust Developer, for over 12 years has been working as a C++ developer. In his career he participated in various projects, starting from the embedded devices, automotive, mobile games and ending on the financial systems. Right now he is focused on the blockchain technology.

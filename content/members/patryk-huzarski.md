@@ -17,5 +17,6 @@ redirect_from:
   - /patryk/
 published: true
 title: Meet Patryk
+language: en
 ---
 Started his programming adventure at the age of 12 and since then he has been experimenting with different technologies. After some affair with PHP, HTML and CSS he devoted himself to JavaScript and React. Self-development and challenging projects are two things that he values the most in his daily work. Privately a great fan of Italian food, rock and gym.

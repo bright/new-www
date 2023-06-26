@@ -8,4 +8,5 @@ answer: The cost of MVP development is possible to estimate after knowing
   details about the project. [Contact us](/start-project) and we will prepare an
   estimation for you.
 published: true
+language: en
 ---

@@ -14,6 +14,7 @@ image: /images/blogpost_stagesofappdevelopment.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **From an idea to a successful launch… There are 4 main stages of building an app. Learn more about all of software development steps.**
 

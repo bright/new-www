@@ -13,6 +13,7 @@ image: /images/mario_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 CI/CD process is the backbone of every good performing team. It facilitates the development, testing, and deploying of an app.
 

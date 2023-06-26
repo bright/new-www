@@ -9,4 +9,5 @@ answer: Bluetooth Low Energy (BLE) is used for example in healthcare. Bluetooth
   spirometers. Bluetooth Low Energy is also well-known in the fitness industry.
   Every sports smartwatch uses Bluetooth LE technology.
 published: true
+language: en
 ---

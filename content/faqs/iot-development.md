@@ -9,4 +9,5 @@ answer: IoT can be used practically in every industry. IoT is successfully
   Apart from commercial use, it is crucial to implement IoT in healthcare where
   devices are becoming a life-changing part of telemedicine.
 published: true
+language: en
 ---

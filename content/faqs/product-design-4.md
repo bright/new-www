@@ -9,4 +9,5 @@ answer: "There is a wide range of design software on the market. At Bright
   Adobe Illustrator, Adobe Photoshop, and Adobe After Effects. However, other
   useful apps for designers are Sketch and Figma."
 published: true
+language: en
 ---

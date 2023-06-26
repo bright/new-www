@@ -10,6 +10,7 @@ layout: post
 image: /images/blog_post_cover_mockup_dev.png
 comments: true
 published: true
+language: en
 ---
 
 Many times as a mobile developer I have to work on apps without the API ready that was crucial for the feature I was implementing. Either the backend was developed by another team that was not entirely in sync with us or our backend team had no chance to implement those endpoints earlier. For this reason, I was not able to satisfy the [Definition of Done](/blog/definition-of-done) but it does not mean that I have implemented the UI only.

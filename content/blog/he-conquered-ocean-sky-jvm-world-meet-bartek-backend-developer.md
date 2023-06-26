@@ -14,6 +14,7 @@ image: /images/brightstorybartek_backend.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Sailing the Atlantic, skydiving, steering a plane… He has done it all. Apart from that he’s a Kotlin enthusiast open for some coding in Scala as well. Meet Bartek, the most adventurous bright team member!**
 

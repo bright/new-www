@@ -36,6 +36,7 @@ show_team: false
 show_case_study: false
 show on homepage: false
 published: false
+language: en
 ---
 ![Pregnancy App](/images/preganncy_app_2_screens2.png)
 

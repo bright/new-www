@@ -12,4 +12,5 @@ answer: IoT stands for the Internet of Things. IoT can be described as a network
   care provider which enables managing patients’ conditions remotely. It all
   happens thanks to the dedicated apps that work with the devices.
 published: true
+language: en
 ---

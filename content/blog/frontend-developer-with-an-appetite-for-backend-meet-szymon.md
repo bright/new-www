@@ -13,6 +13,7 @@ image: /images/brightstoryszymon.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Szymon built his first website in middle school. He’s a frontend developer with over 5 years of commercial experience. He’s never been afraid to dig into the backend though. Discover Szymon’s love for React, holistic approach to software development, and dark beer.**
 

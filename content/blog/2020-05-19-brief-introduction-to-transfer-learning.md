@@ -12,6 +12,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 In this item, I want to share with you the core idea behind transfer learning. We will solve a simple classification problem where we will try to correctly classify surfing, windsurfing and kitesurfing images but you can easily solve different problems relying on described steps
 

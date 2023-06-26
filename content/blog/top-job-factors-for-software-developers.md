@@ -13,6 +13,7 @@ image: /images/developers_top_factors_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Are you a programmer? What has attracted you to join the particular place of work? Read some insights from software developers on their decision-making process whilst looking for a new job.**
 

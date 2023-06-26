@@ -10,4 +10,5 @@ answer: We are fans of communities, not certificates. 🙂  As our Agile course
   can also prepare more official documents such as certificates of attendance if
   needed.
 published: true
+language: en
 ---

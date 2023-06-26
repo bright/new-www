@@ -11,6 +11,7 @@ tags:
   - cooperation
 date: '2018-01-18T23:00:00.000Z'
 published: true
+language: en
 ---
 
 Not everyone is an extrovert, and for sure not every programmer is, but companies are created by teams, and it is the team that takes the greatest responsibility for running the company effectively. If team members do not collaborate, there is very little chance your business will succeed. 

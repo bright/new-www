@@ -11,6 +11,7 @@ description: quality assurance specialist
 avatar: /images/members/maciej_seleman.jpg
 published: true
 title: Meet Maciej
+language: en
 ---
 
 Graduate of Biomedical Engineering, in love with breaking web and mobile apps down, a great fan of automation - both in testing and everyday life. Enjoys cooking, football and getting playfully bitten by his dog. 

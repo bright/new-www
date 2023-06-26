@@ -10,6 +10,7 @@ image: /images/blogpost_www_healthcareapp.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **What makes healthcare app development special? Find out 5 unique factors of healthcare application development.**
 

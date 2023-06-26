@@ -10,4 +10,5 @@ answer: Product design is an integral part of every software development
   simply turns an idea into a fully functioning product helping in advance to
   eliminate costly mistakes and bumps on the road.
 published: true
+language: en
 ---

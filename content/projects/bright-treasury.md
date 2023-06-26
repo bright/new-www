@@ -44,6 +44,7 @@ show_team: true
 show_case_study: true
 show on homepage: true
 published: true
+language: en
 ---
 ![Bright Treasury](/images/treasuryappwww.png)
 

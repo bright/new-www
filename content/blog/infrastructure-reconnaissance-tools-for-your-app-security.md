@@ -12,6 +12,7 @@ image: /images/infra_tools_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Infrastructure reconnaissance tools are essential for any organization that wants to ensure the security of its digital assets. These tools allow businesses to scan their infrastructure for vulnerabilities, including outdated software versions, open ports, and misconfigured security headers.**
 

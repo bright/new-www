@@ -9,4 +9,5 @@ answer: Yes! In that case, we recommend a product reset (evaluation) workshop.
   We will analyze weak points of your product and come up with ideas on how to
   embrace its strengths.
 published: true
+language: en
 ---

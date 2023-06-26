@@ -13,5 +13,6 @@ description: Ask him anything from mobile to backend through Blockchain and Big 
 redirect_from: ["/piotr", "/piotr/"]
 ex: true
 layout: member
+language: en
 ---
 

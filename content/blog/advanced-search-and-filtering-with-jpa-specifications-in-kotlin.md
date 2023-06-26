@@ -12,6 +12,7 @@ image: /images/blogpost_search-1-.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Creating an advanced api search can become a challenge. If we want to filter based on a lot of properties, using the standard JPA Repository approach can turn out to be hard to maintain and not too flexible. In this blog post I will demonstrate how we can make use of JPA Specifications for that purpose.
 

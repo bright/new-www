@@ -22,6 +22,7 @@ image: /images/slack-fastlane/puzzle.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![Image with puzzle](/images/slack-fastlane/puzzle.jpg)
 

@@ -13,6 +13,7 @@ image: /images/blog_post_java.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![](https://cdn-images-1.medium.com/max/1600/1*TdFqWJeP3LYOc-n6j6IGTQ.jpeg)
 

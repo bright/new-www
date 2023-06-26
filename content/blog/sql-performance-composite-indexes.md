@@ -13,6 +13,7 @@ image: /images/composite-indexes_sql.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Recently I have been reading [SQL Performance Explained by Markus Winand](https://www.goodreads.com/book/show/17225810-sql-performance-explained) and I wanted to share with you what I have learned about the composite index. 
 

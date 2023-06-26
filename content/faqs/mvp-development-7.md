@@ -18,4 +18,5 @@ answer: >-
 
   * Also, your MVP might be a base for a pivot. It’s easier to change MVP into a different product rather than a fully-fledged, complex solution.
 published: true
+language: en
 ---

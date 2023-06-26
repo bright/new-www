@@ -13,6 +13,7 @@ image: /images/blog_post_cover_failtoget.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 “What’s it like being a startup owner?”
 

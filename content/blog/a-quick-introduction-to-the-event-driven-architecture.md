@@ -12,6 +12,7 @@ image: /images/event-driven-architecture_explained.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Publishing events can be a really good replacement for direct calls and in many cases, they are a better solution. With the use of events, we can invert the direction of dependency and  express better our intention.\
 I think examples explain things more clearly, so without further ado let us jump into it.

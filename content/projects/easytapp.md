@@ -32,6 +32,7 @@ show_team: false
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 ![easytapp mobile app development](/images/easytap_quartet1_copy.png)
 

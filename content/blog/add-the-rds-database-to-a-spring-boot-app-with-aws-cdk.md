@@ -14,6 +14,7 @@ image: /images/blogcover_aws_cdk_rds.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Are you tired of manually setting up and maintaining your own databases? Fear not, because the AWS CDK is here to save the day!**
 

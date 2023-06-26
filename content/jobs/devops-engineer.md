@@ -40,6 +40,7 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: DevOps task
 description: We are looking for a DevOps Engineer who has good knowledge of AWS
   cloud services and experience with managing Kubernetes in production. Apply!
+language: en
 ---
 ## who we are
 

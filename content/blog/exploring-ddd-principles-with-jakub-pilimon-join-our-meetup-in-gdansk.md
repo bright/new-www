@@ -10,6 +10,7 @@ image: /images/ddd_blog_post.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Mark your calendars for a Domain-Driven Design session with Jakub Pilimon. We hope to see you in Gdańsk on June 15 at 6 PM.**
 

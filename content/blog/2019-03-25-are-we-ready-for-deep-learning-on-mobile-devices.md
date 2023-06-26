@@ -14,6 +14,7 @@ image: /images/blog_post_cover_deep_learning.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Due to the rapid growth of deep learning possibilities, lots of smart people do their best to create more and more sophisticated algorithms that beat human’s performance in many areas. Luckily, a great chunk of their [work](https://arxiv.org/list/cs.LG/recent "repository with lots of papers") is throw open and waits for you to harness it in some fancy way. 
 

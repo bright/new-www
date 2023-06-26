@@ -11,6 +11,7 @@ description: Fullstack Developer
 avatar: /images/ola_team.png
 avatar_hover: /images/ola_passion_team.png
 published: true
+language: en
 ---
 Her programming career started with Java. Then she decided to explore frontend to feed up her artistic soul. Eventually, she became a fullstack developer. 
 

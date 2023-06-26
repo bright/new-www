@@ -12,4 +12,5 @@ answer: It is not a typical scrum master certification course. Our workshops
   for scrum masters is about sharing teachable experiences that we have from
   developing various software products with different teams.
 published: true
+language: en
 ---

@@ -11,4 +11,5 @@ answer: It is a modern version of Bluetooth technology. It was introduced in
   Bluetooth-based applications that consume less device operation power and
   guarantee the same quality of transmission.
 published: true
+language: en
 ---

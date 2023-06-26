@@ -8,6 +8,7 @@ layout: post
 image: /images/blog_post_self_code_review.png
 hidden: false
 published: true
+language: en
 ---
 Once I was a child my parents were convincing me that it was worth double checking both my homework as well as tests before handing them in, to catch errors and fix them. It soon became a habit for me. The habit that once evaluated into a self code review process :)
 

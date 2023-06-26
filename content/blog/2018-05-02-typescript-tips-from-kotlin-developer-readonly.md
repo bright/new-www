@@ -12,6 +12,7 @@ layout: post
 image: /images/blog_post_readonly.png
 comments: true
 published: true
+language: en
 ---
 Last time I wrote about using [`const` in TypeScript](/blog/typescript-tips-from-kotlin-developer-const/). This time I will focus on another TypeScript keyword that aids immutability: `readonly`. 
 

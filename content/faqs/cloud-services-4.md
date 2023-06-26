@@ -11,4 +11,5 @@ answer: Cloud services is a general term. Practically every site and service
   pictures and it is stored in a cloud. Does it mean that it is cloud computing?
   Not really.
 published: true
+language: en
 ---

@@ -12,6 +12,7 @@ image: /images/screenshot-2023-06-19-at-21.46.56.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 The [Johari Window](https://kevan.org/johari) is a communication model developed in 1950s by two American psychologists, Joseph Luft and Harry Ingham. The name ‘Johari’ came from joining their first two names. The model has different  practical applications in today’s world. It can be used to better understand own self, improve communication, enhance interpersonal relations with others or discover oneself’s strengths. **It is also indicated as feedback/disclosure model of self-awareness.**
 

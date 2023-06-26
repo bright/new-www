@@ -10,4 +10,5 @@ answer: Thanks to the unique character of product design development the service
   easiest way to know the cost of design services is to [contact a product
   design company](/start-project) like Bright Inventions.
 published: true
+language: en
 ---

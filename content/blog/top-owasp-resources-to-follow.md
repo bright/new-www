@@ -12,6 +12,7 @@ image: /images/owasp_security_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **In the ocean of cybersecurity threats, dependencies and vulnerabilities there is, luckily, a lighthouse called OWASP. Check out which OWASP resources you should know to follow the best security standards.**
 

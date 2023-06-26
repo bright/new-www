@@ -18,6 +18,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 
 Sorting data is one of the most important tasks that computers have been doing since they were invented. Over those years developers have found many ways of doing it. Some of these ways are quite fast, others involve  interesting methods and finally there are some which are practically useless, but still it is better to know more than to know less, so it’s better to learn them  in free time.

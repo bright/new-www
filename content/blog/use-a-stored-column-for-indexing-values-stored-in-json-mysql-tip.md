@@ -13,6 +13,7 @@ image: /images/blogpost_tip_mysql.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Managing and querying JSON data in MySQL databases has become common in modern web applications. To improve performance when querying JSON values, you can create a stored column that extracts specific values and indexes them.**
 

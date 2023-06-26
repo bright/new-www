@@ -8,4 +8,5 @@ answer: The stack might vary for every web development team. However, the modern
   web development stack could be based on technologies like JavaScript, CSS,
   HTML, Java, Typescript, React, Node.js, AWS, MySQL, PostgreSQL and more.
 published: true
+language: en
 ---

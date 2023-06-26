@@ -11,4 +11,5 @@ answer: There are lots of famous software solutions that were launched as
   to MVP development founders of Facebook or Uber could launch products fast and
   at little cost and then develop the product following users feedback.
 published: true
+language: en
 ---

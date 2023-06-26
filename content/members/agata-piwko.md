@@ -11,6 +11,7 @@ description: Social Media Specialist
 avatar: /images/agata_small.png
 avatar_hover: /images/agata_passion_small.png
 published: true
+language: en
 ---
 She started her social media & marketing path by promoting her own businesses. Then she realised that this is what she really enjoys and wants to connect her future career with.
 

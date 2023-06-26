@@ -10,6 +10,7 @@ layout: post
 image: /images/laptop-software-developer.jpg
 comments: true
 published: true
+language: en
 ---
 I wrote simple helper which allow loading specific certificate to [SSLContext](https://docs.oracle.com/javase/7/docs/api/javax/net/ssl/SSLContext.html).<br/>
 You can use it to support *HTTPS* connections which rely on a untrusted certificate. <br/>

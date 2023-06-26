@@ -35,6 +35,7 @@ show_team: false
 show_case_study: false
 show on homepage: false
 published: true
+language: en
 ---
 <div class="image"><img src="/images/brightstory_pregnancy_app.png" alt="pregnancy health tech app" title="Pregnancy app"  /> </div>
 

@@ -12,6 +12,7 @@ tags:
 image: /images/Developers_Poland_2018.png
 date: '2018-07-30T22:00:00.000Z'
 published: true
+language: en
 ---
 As a digital business development agency, Bright Inventions specializes in the development of mobile applications. By providing our clients with smart web and backend solutions, along with mobile app construction services, we hope to equip our clients with the resources they need to come out on top in their respective industries. 
 

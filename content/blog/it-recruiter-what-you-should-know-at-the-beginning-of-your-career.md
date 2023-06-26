@@ -11,6 +11,7 @@ image: /images/blog_post_agata.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **I have had the pleasure of working in IT recruitment for more than a year. I say pleasure because I really like my job and I enjoy it! 🙂 This is undoubtedly thanks to the people with whom I have the opportunity to work every day, but also daily tasks are something I like to do. If you are thinking of becoming an IT recruiter, find out some lessons I’ve learned along the way.**
 

@@ -12,6 +12,7 @@ image: /images/blogpost_zk-snarks_part3.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **This is the last part of a series of articles about zk-SNARKs. If you haven't read the previous ones ([Part 1](/blog/zk-snarks-in-substrate-part-1), [Part 2](/blog/zk-snarks-in-substrate-part-2-using-groth16-and-running-circom-proof)), I encourage you to do so now.**
 

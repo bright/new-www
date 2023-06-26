@@ -10,4 +10,5 @@ answer: The Industrial Internet of Things (IIoT) refers to the use of Internet
   sensors, software, and data analytics to optimize industrial processes and
   enable new levels of automation, efficiency, and productivity.
 published: true
+language: en
 ---

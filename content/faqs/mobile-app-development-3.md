@@ -7,4 +7,5 @@ question: What mobile development technologies do you use?
 answer: We build applications in **Swift** and
   **[Kotlin](/blog/what-to-expect-from-kotlin-development-company-from-poland/)**.
 published: true
+language: en
 ---

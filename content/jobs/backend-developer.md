@@ -43,6 +43,7 @@ recruting_image3_title: programming task
 description: We are looking for an experienced Backend Developer who understands
   Java/Kotlin & Spring really well and who would like to work with AWS on daily
   basis.
+language: en
 ---
 
 ![]()

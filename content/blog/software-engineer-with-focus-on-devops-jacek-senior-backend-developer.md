@@ -14,6 +14,7 @@ image: /images/brightstoryjacek.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **From R&D engineer to backend developer. Read Jacek’s career story. Find out why he can’t imagine a company without CI/CD. Uncover his tips on how to start pipeline automatization in your project. Also, find out what device he built for his family recently.**
 

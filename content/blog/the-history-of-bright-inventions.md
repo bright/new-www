@@ -11,6 +11,7 @@ image: /images/blog_post_cover_10thanniversary.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Bright Inventions turns 10 in March 2022! That has been quite a ride. Let us show you milestones of the past decade that made us who we are: bright, client-oriented and always with a positive attitude.**
 

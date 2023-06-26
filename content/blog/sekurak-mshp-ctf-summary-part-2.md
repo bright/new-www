@@ -14,6 +14,7 @@ image: /images/hacker-gbf1a12ebb_1280.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Some time ago (15.10-16.10) I took part in the Sekurak Mega Hacking Party CTF contest. I have already created the [first post](https://brightinventions.pl/blog/sekurak-mshp-ctf-summary-part-1) about challenges that I had managed to solve. This post will describe another challenges which I was pretty close to solve. 😉
 

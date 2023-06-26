@@ -13,6 +13,7 @@ author: michal
 date: '2015-05-31T22:00:00.000Z'
 image: /images/4_app_development_-_maintenance.png
 published: true
+language: en
 ---
 
 Here come the slides from a talk I gave at the last [Cocoaheads Tricity](https://www.facebook.com/CocoaHeadsTricity) meeting. It's titled "Automate your iOS deployment a bit"

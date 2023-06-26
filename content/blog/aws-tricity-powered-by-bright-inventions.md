@@ -13,6 +13,7 @@ image: /images/aws_meetup_blog_post_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Smart migration to AWS, introduction to Serverless Framework, Disaster recovery & OpenTelemetry. These are the topic of the AWS Tricity meetup which will take place onsite in Gdańsk Entrepreneurship Incubator STARTER on April 13 at 5 PM. The event is free. Sign up and join!**
 

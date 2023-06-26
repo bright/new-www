@@ -36,6 +36,7 @@ show_team: false
 show_case_study: false
 show on homepage: false
 published: false
+language: en
 ---
 ![Healthcare app development](/images/therapy_app_mockup.png)
 

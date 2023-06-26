@@ -14,6 +14,7 @@ image: /images/brightstorymateuszk1.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Mateusz is one of the first-ever bright team members. He started his bright career as an iOS Developer transforming over the years into Tech Leader. Mateusz loves working with startups that deal with scalability. The status quo is not for him. So what do work for him? Read the interview to find out!**
 

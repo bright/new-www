@@ -29,6 +29,7 @@ Applying Approach
 Despite some bad practices and rush at the end of the project, I've decided to open source an app that I've written some time ago - "Gdansk Numerek". App presents current state of queues in Gdansk's city halls. Why the whole app? I've started playing with some new things (It's a miracle I've finished the project). When you start doing something new, it's pretty hard to come back to some old code in a free time. Why playing with old, while you've got so many cool things to explore, eh? I know I'll have trouble maintaining the app, so if anyone comes from "Code for Poland" or "Code for all" community and decides to play with my code... That would be great!
 
 Summary
+language: en
 ---
 Of course sharing the whole app is a very, very rare case, but you can always share some components or solutions that you create anyway when you build it. I think that changing my mindset on how I treat my side projects' will have great outcome. More modular code of better quality.
 

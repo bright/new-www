@@ -19,6 +19,7 @@ show_recruiter_info: false
 order: 11
 recruting_image2_title: interview
 recruting_image3_title: task
+language: en
 ---
 
 

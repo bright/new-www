@@ -11,6 +11,7 @@ image: /images/brightstorymichalcover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Michał wanted to be a soldier but became a programmer. He regrets nothing. As senior backend developer and tech lead at Bright Inventions, he focuses on solving clients’ problems. Scala, Java, or Kotlin… He has worked with all of them and is open to learning almost any other language. Code is just a tool helping him to solve challenges. Read Michał's story.**
 

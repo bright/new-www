@@ -12,6 +12,7 @@ image: /images/blog_bounty_brighttreasury.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Since the bounties were introduced by the Substrate-based community, there was a need to build an intuitive app that would make it easier to manage bounties from creating a reward to completing the bounty. That is one of the reasons why the [BrightTreasury](https://treasury.bright.dev/?utm_source=brightinventions_blog&utm_medium=link_article&utm_campaign=bounty&utm_id=content_marketing) app was built. The first stage of development was funded by Web3 Foundation and now the app is 100% supported by Polkadot and Kusama Treasuries. Check out how to easily propose a bounty and contribute to the Kusama and Polkadot networks.**
 

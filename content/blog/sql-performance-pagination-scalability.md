@@ -13,6 +13,7 @@ image: /images/sql_performance_pagination_scalability.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Recently I have been reading [SQL Performance Explained by Markus Winand](https://www.goodreads.com/book/show/17225810-sql-performance-explained) and I wanted to share with you what I have learned regarding SQL pagination scalability. 
 

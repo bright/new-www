@@ -15,6 +15,7 @@ image: /images/laptop-2.jpg
 hidden: false
 comments: true
 published: true
+language: en
 ---
 The goal of that blog post is to provide you with the exact steps how to start creating your first unit tested smart contract. 
 

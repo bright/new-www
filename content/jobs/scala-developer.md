@@ -40,6 +40,7 @@ show_recruiter_info: true
 order: 5
 recruting_image2_title: interview (technical & non-technical part)
 recruting_image3_title: programming task
+language: en
 ---
 ## about the role 🧑🏻‍💻👩🏻‍💻
 

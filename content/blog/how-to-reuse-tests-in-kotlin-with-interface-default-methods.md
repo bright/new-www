@@ -11,6 +11,7 @@ image: /images/kotlin_resuse_tests_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Writing test code can be tedious and time-consuming, especially when we need to test multiple implementations of the same interface. Fortunately, Kotlin provides a powerful feature called "interface default methods" that can help us to reuse our test code for multiple implementations.**
 

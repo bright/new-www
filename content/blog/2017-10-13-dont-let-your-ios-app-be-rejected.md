@@ -14,6 +14,7 @@ image: /images/blog_ios_no.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 While implementing in-app purchases, especially **auto-renewable subscriptions**, there is a good chance your app will be rejected during a review process if you don’t follow the guidelines exactly. How can you avoid unnecessary trouble?
 

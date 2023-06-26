@@ -12,6 +12,7 @@ image: /images/recruiter-dev-romance2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 The definition of [a recruiter](https://dictionary.cambridge.org/dictionary/english/persuade) in Cambridge Dictionary is *a person who persuades people to work for a company or become new members of an organization, especially the army*. My definition of a recruiter **is a friend-to-be who helps people find their dream job, prepare them for their future career, assist with  recruitment tasks, manage the best salary negotiation, advise on employment issues and stay up to date with the industry knowledge**. Am I a recruiter? Damn, sure I am. I have quite a multidisciplinary role, but my mission is to create a place where people can develop, learn and come to every day because they want to not because they are made to, where we are a team and we feel mutual responsibility for each other. 
 

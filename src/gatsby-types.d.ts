@@ -22093,6 +22093,7 @@ type MdxFrontmatter = {
   readonly web: Maybe<Scalars['String']>;
   readonly working_time: Maybe<Scalars['String']>;
   readonly workplace_recruiter: Maybe<Scalars['String']>;
+  readonly language: Maybe<Scalars['String']>;
 };
 
 

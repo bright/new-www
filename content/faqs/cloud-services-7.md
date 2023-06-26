@@ -14,4 +14,5 @@ answer: >-
 
   If you represent a **larger organization** then the cloud gives you options to optimize your service. Firstly, you can optimize the speed of your applications. You can optimize your service in a way that people from different places in the world would have a similar user experience. Also, you can have your data replicated between different localisations so you no longer worry about what will happen when one from offline localisations is down. Also, you can outsource some of your workloads to the cloud and you don’t have to worry about maintenance.
 published: true
+language: en
 ---

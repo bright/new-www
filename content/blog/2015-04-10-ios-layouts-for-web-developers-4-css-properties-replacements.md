@@ -123,6 +123,7 @@ As we discussed in [the first post](/ios-layouts-for-web-developers-1-basic-buil
 > `word-wrap` CSS property \<—\> `UILabel`’s [`lineBreakMode`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UILabel_Class/#//apple_ref/occ/instp/UILabel/lineBreakMode)
 
 Fancy effects
+language: en
 ----
 
 Some of the “fancy” text effects like text shadows or strokes are available through `NSAttributedString` we’ve just gone through. There are few more available, though. I think “fancy effects" is not a perfect heading, anyway, but I needed a place to describe few more properties that are available in iOS and are well-known in CSS but I couldn’t fit it anywhere else. So here we go:

@@ -16,6 +16,7 @@ redirect_from:
   - /kasia/
 published: true
 title: Meet Kasia
+language: en
 ---
 An Agile romantic with a scientific mind and a zeal for learning. She divides her time between university teaching and enhancing project management processes. Believes in people-centered processes and the power of retrospective. Loves music and good food. Privately, a mum of two wild boys.
 

@@ -11,5 +11,6 @@ description: Fullstack Developer
 avatar: /images/dawid_website.png
 avatar_hover: /images/dawid_website.png
 published: true
+language: en
 ---
 Fullstack Developer who started his path as a Frontend to pack his belt with many various tools up until now. Exotic animal breeder and tattoo artist wannabe.

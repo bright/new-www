@@ -12,6 +12,7 @@ image: /images/android-manifest-placeholders/placeholder.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 # What are they?
 

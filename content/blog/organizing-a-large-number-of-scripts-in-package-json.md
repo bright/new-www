@@ -11,6 +11,7 @@ image: /images/blogpost_tip_packagejson.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **When it comes to managing a large number of scripts in your project's package.json file, it can quickly become challenging to navigate. However, there are simple steps you can take to make your scripts more organized and easier to read. In this short tutorial, we'll explore how adding separators can improve the readability of your package.json.**
 

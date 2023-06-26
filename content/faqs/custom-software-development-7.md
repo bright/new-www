@@ -17,4 +17,5 @@ answer: >-
 
   General and custom solutions both have sense, yet still in different circumstances. For example, it might seem pointless to develop an internal calculating solution for your company when you can easily use well-known Microsoft Excel that probably will meet your expectations. On the contrary, when you want to build a product dedicated to a very specific target group – let’s say, for asthmatics, then it would be challenging to find a generic solution that will fit in the daily life of patients suffering from this chronic disease.
 published: true
+language: en
 ---

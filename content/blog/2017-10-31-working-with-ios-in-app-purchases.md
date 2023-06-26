@@ -13,6 +13,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 
 There are more pleasant things to do in iOS development than setting up and testing in-app purchases. The process is laborious and requires thorough testing, especially that in-app purchases are crucial from a business perspective.

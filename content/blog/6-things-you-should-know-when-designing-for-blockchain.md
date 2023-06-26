@@ -10,6 +10,7 @@ image: /images/blogpost_design_for_blockchain.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **No doubt blockchain is conquering the tech world. It is known as a present-day technology, which is on everyone's lips. Now blockchain is used in many areas not only in the tech or financial domains. If blockchain is such an advanced technology, what should we bring our attention to while designing for blockchain?**
 

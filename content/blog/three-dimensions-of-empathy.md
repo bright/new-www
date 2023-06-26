@@ -12,6 +12,7 @@ image: /images/blog_cover_empathy.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 As we all live in the world limited by our perceptions and we all have different variations of the same reality it is not always simple to comprehend why people feel or think in a certain way. But there is something like empathy which helps us build social connections and feel values we care for. Empathy is essential in both our private and professional life to understand the needs, emotions and opinions of others. Thanks to empathy we can put ourselves in someone’s situation and improve our capacity to communicate our ideas in a way that makes sense to others. **Empathy is not the same as sympathy where we are moved by someone’s feelings but we stil keep an emotional distance - watch an animation by Dr. Brene Brown’s to understand this difference better.**   
 

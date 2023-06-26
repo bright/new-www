@@ -13,4 +13,5 @@ answer: >-
 
   MVP developers should not only be technical partners but also bring a business-oriented perspective. MVP development agency should analyse the product’s business potential, target groups, strengths and weaknesses. In terms of building MVP, technical knowledge is not everything. A business-oriented approach is the key. MVP development agency should help you to find the best ways to turn your idea into a successful launch.
 published: true
+language: en
 ---

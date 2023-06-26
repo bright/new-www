@@ -119,6 +119,7 @@ In case we need to draw something dynamically or just put some shape on the scre
 > `<canvas>` \<—\> Core Graphics functions
 
 Inline elements equivalents
+language: en
 ----
 
 There is no view markup in iOS, so naturally there is no such thing as “free” textual content we know from HTML. All the text we want to display needs to be placed within some control, most likely within [`UILabel`](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UILabel_Class/). From the web developer standpoint, it behaves like a block element - it has its intrinsic size and needs to be positioned, so it’s more like `<p>` with `display: block`. It also enables us to manipulate a lot of formatting aspects of the text block, standing in place of some text-formatting aspects of CSS and inline text elements like `<em>`, `<strong>` etc.

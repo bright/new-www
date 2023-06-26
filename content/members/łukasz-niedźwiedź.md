@@ -11,6 +11,7 @@ description: iOS Developer
 avatar: /images/lukasz_n_team.png
 avatar_hover: /images/lukasz_n_passion.png
 published: true
+language: en
 ---
 I wrote my first lines of code at the age of 12 (it was a website for my school). As I failed to be a successful break dancer and musician I decided to be a programmer as it allows me to create things. Therefore I finished Computer Science at the Warsaw University of Technology. I first saw Swift language at the university and I fell in love with it and decided to start a career as an iOS Developer.
 

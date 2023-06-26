@@ -12,6 +12,7 @@ tags:
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Agile stands for building relationships- within the team, with the client. It even advocates working in one room, cooperating closely. But what if our beloved team member decides to move to Sri Lanka? Or the client found the perfect team for the project, just it happens to be situated three time-zones away? Should we give up? Should we just do something that doesn’t care about closeness, like [the waterfall](https://en.wikipedia.org/wiki/Waterfall_model) then (please don’t)?
 

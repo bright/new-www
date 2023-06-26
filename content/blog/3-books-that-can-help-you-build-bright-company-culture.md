@@ -11,6 +11,7 @@ image: /images/books_company_culture_blog.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 I have come across many books in my life that helped me grow, both personally and professionally. I believe that books are a great source of knowledge and truth, and they have a unique ability to change people’s view completely. The more we read the more aware we become how much wisdom we are still lacking in our experience. At least that is how it works in my case. 
 

@@ -8,4 +8,5 @@ answer: MVP stands for a **minimum viable product**. It is a version of a
   software product that contains only the crucial features which enable the
   launching of a product and receive first feedback from early adopters.
 published: true
+language: en
 ---

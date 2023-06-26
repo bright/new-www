@@ -41,6 +41,7 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Fullstack Developer (Node.js + React) who
   would like to work with our experienced and ambitious development team.
+language: en
 ---
 ## who we are
 

@@ -12,6 +12,7 @@ image: /images/dog_blog_post.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![](https://cdn-images-1.medium.com/max/1600/1*nodfoEWdCEbbDI4B10kUDA.jpeg)
 

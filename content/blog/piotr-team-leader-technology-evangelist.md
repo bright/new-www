@@ -15,6 +15,7 @@ image: /images/blogpost_www_brightstory_piotr_b2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Piotr is a bright team leader. Some would say that he is our tech dad, always ready to assist you. He asks and asks questions to test your approach and as a result brings the best possible solution out of you! The clients' dream is to clone him but probably he is the only one who could figure that out. Meet Piotr, a programmer with over 12 years of experience who always remembers that behind every line of code there's a human.**
 

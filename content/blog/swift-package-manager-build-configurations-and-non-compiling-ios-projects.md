@@ -11,6 +11,7 @@ image: /images/blogpost_spm_tomasz.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Swift Package Manager in Xcode is the newest way of managing third party dependencies of Swift projects. It is very neatly integrated and allows for clean and easy dependency management. At least sometimes.
 

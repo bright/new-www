@@ -41,4 +41,5 @@ answer: >-
 
   The number of days dedicated to the product workshop also depends on the time the client has. We can divide our process into several smaller sessions, or we can have a full day or a couple of days dedicated to the workshop.
 published: true
+language: en
 ---

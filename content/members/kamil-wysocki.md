@@ -14,5 +14,6 @@ twitter: kamwysoc
 stackoverflow: 5433235/k8mil
 ex: true
 layout: member
+language: en
 ---
 

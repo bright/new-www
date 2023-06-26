@@ -12,6 +12,7 @@ image: /images/agata_bright_story.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **For Agata, sport is a way to relax. Jogging, snowboarding, kitesurfing, pole dancing – there is an endless list of activities she enjoys. Her entrepreneurial path brought her to Bright Inventions. As a social media specialist, she shows the true spirit of our bright team. Armed with a notepad and pen she always catches every new technical phrase that she hears in our office and fiercely investigates its meanings. All of that to show you what we do at Bright Inventions. Read about Agata’s incredible path that brought her to our team.**
 

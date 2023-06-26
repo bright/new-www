@@ -11,6 +11,7 @@ description: Digital Marketing Specialist
 avatar: /images/izabela2.png
 avatar_hover: /images/iza_passion2.png
 published: false
+language: en
 ---
 Data-driven marketing specialist. Easy-going and eager to learn new things. Loves to explain complex issues with simple words. Privately, she enjoys escape rooms, cooperative board games and Premier League.
 

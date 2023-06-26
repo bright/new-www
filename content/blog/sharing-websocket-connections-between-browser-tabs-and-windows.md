@@ -12,6 +12,7 @@ image: /images/sharing_websocket_blog_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **WebSocket connections are like special communication channels that allow web browsers and servers to talk to each other in real-time. However, when you have multiple tabs or windows open in your browser, each one establishes its own WebSocket connection. This can be wasteful and affect the performance of your web application.**
 

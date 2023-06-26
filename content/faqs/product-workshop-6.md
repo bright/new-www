@@ -12,4 +12,5 @@ answer: It is a crucial step of the development process of your product (also
   mix all participants' experiences, perspectives and views to establish a
   specific path on how to successfully develop and launch your software product.
 published: true
+language: en
 ---

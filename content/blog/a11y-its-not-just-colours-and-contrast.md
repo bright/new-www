@@ -11,6 +11,7 @@ image: /images/blogpost-cover-a11y_accessibility.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 What does accessibility mean in 2023? Is accessibility just another trend? Is a11y just another buzzword? A11y stands for accessibility (there are 11 letters between the first one and the last one, hence a11y). It is essential for developers and designers, who want to create high quality digital products. This means providing an equal chance of getting the same user experience, no matter who the user is and what their capabilities are. How to achieve this? Let me share with you some do’s and don’ts.
 

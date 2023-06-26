@@ -13,6 +13,7 @@ image: /images/smart_packaging_blog_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Do you plan to enter the smart packaging industry with your solution? With such a fast-developing industry time-to-market is the key. The best way is to build and launch MVP (Minimum Viable Product) and start gathering first users' feedback. What problems could smart packaging solve? What are MVP development stages? What tech should you implement in your MVP? Dive in!**
 

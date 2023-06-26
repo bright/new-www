@@ -14,6 +14,7 @@ image: /images/artboard-–-9final-–-15.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 We just got some exciting news here at Bright inventions! Our team just received a message from Clutch analyst Jeff Dixon informing us that our hard work has led us to be one of the top developers in all of Poland for 2020 by Clutch! We’re a software development company with a strong focus on app development and IoT development– [more important than ever for small businesses in 2020!](https://www.techtimes.com/brandspin/242588/20190504/why-mobile-apps-are-important-for-your-business.htm)
 

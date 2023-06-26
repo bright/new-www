@@ -9,4 +9,5 @@ answer: MVP steht für ein minimal funktionsfähiges Produkt. Es ist eine Versio
   Markteinführung eines Produkts ermöglichen und erste Rückmeldungen von Early
   Adopter erhalten.
 published: true
+language: en
 ---

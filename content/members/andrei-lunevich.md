@@ -11,5 +11,6 @@ description: iOS Developer
 avatar: /images/andrei.png
 avatar_hover: /images/andrei_passion.png
 published: true
+language: en
 ---
 iOS Developer

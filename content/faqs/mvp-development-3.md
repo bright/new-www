@@ -9,4 +9,5 @@ answer: The timeline of MVP app building process depends on the stage of your
   have a prototype? Usually, **creating the MVP prototype based on the idea
   takes 1-4 weeks**. Then **building an MVP app takes 4-20 weeks**.
 published: true
+language: en
 ---

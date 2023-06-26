@@ -13,4 +13,5 @@ answer: It is a popular blockchain consensus in Ethereum. **Building a block is
   power from many GPU processors. In case of Ethereum, building a block results
   in a reward for a miner in Ether.
 published: true
+language: en
 ---

@@ -11,6 +11,7 @@ description: Junior Recruiting Specialist
 avatar: /images/agatam_team_small.png
 avatar_hover: /images/agatam_passion_small.png
 published: true
+language: en
 ---
 HR & Recruitment enthusiast. Conscientious and open to new challenges. 
 

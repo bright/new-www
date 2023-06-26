@@ -8,4 +8,5 @@ answer: The number of participants depends on your needs. We recommend 1 to 6
   participants during workshops conducted face-to-face. In terms of online
   product workshops the number of participants should be up to 10 people.
 published: true
+language: en
 ---

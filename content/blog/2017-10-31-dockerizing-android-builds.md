@@ -45,6 +45,7 @@ You should also visit your `build.gradle` files to find out the SDK dependencies
 Downloading some of the SDK packages may require to accept a separate license(s) first. While Android Studio shows a dialog with accept buttons, the command line `sdkmanager` displays a prompt like this:
 
 ```text
+language: en
 ---------------------------------------
 Accept? (y/N):
 ```

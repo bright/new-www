@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import { Helmet } from 'react-helmet'
+import { Helmet, HelmetProps } from 'react-helmet'
 import { siteTitle } from './site-title'
 import { descriptionOrDefault } from './meta-description'
 import { getSrc, ImageDataLike } from 'gatsby-plugin-image'
@@ -16,9 +16,8 @@ interface HelmetMetaDataProps {
   canonicalUrl?: string
   twitterType?: string
   alt?: string
+  language?: string
 }
-
-const htmlAttributes = { lang: 'en' }
 
 export const HelmetMetaData: React.FC<PropsWithChildren<HelmetMetaDataProps>> = ({
   title,
@@ -29,12 +28,20 @@ export const HelmetMetaData: React.FC<PropsWithChildren<HelmetMetaDataProps>> = 
   alt,
   canonicalUrl,
   twitterType,
+  language,
   children: additionalMeta,
 }) => {
+  // we don't want an empty language reset previously configured value
+  // ideally we'd only have one Helmet invocation per page
+  // but at the moment we don't ;/
+  const otherProps: HelmetProps = {
+    ...(language ? { htmlAttributes: { lang: language } } : {}),
+  }
+
   return (
     // please note that Helmet does not support nesting higher order components like so
     // <Helmet><MetaTitle title={whatever}></Helmet>
-    <Helmet defaultTitle={siteTitle} htmlAttributes={htmlAttributes}>
+    <Helmet defaultTitle={siteTitle} {...otherProps}>
       <title>{title} | Bright Inventions</title>
       {title && <meta property='og:title' content={title} />}
       <meta name='description' content={descriptionOrDefault(description)} />

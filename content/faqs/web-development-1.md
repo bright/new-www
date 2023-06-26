@@ -9,4 +9,5 @@ answer: Web development is all about creating Internet websites and web
   From simple static pages to interactive web platforms. In the website
   development process the crucial part is also web design and SEO optimization.
 published: true
+language: en
 ---

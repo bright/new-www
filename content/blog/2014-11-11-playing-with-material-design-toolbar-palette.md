@@ -17,6 +17,7 @@ layout: post
 image: /images/software_development.jpg
 comments: true
 published: true
+language: en
 ---
 Since Android L(ollipop) was presented in June at [Google I/O](https://www.youtube.com/watch?v=wtLJPvx7-ys), only two devices on market can run it officially. Nexus 6 and Nexus 9 were released a week ago, and these two guys are ready to go with most recent system from Google, but what about other devices? My Nexus 5 still tryin update everyday, but still no effects :)
 Hopefully, we can use some part of Material Design with devices running **Android 2.1 and higher**, because most of implementation was placed in android-support-v7.

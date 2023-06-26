@@ -18,6 +18,7 @@ redirect_from:
   - /mateusz/
 published: true
 title: Meet Mateusz
+language: en
 ---
 Passionate about agile software craftsmanship. At work focused not only on writing clean code but also on teamwork and soft skills development. iOS lover keen on Android development and project management. Privately, a great fan of fantasy books and geek humour.
 

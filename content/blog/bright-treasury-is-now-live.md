@@ -14,6 +14,7 @@ image: /images/Treasury_www_LargeSize.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **We are excited to announce that BrightTreasury is now live!**
 

@@ -19,4 +19,5 @@ answer: >-
 
   * **container solutions** – packages filled with software that enables websites and applications to run. You will find in containers code, libraries, system settings etc. They offer an extra level of security. You can deploy changes without worries that they will affect your product.
 published: true
+language: en
 ---

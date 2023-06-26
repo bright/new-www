@@ -5,6 +5,7 @@ image: /images/practi-main.png
 layout: project
 published: false
 tags: []
+language: en
 ---
 
 ## Main features:

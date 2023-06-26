@@ -59,6 +59,7 @@ In essence, I hope all of you want to write a safe and clean code. You'll get a 
 
 
 Small Update
+language: en
 ---
 Previously swift did not support optional initializers for UIImage and above lines of code looked like this
 

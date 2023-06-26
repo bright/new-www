@@ -16,4 +16,5 @@ answer: >-
 
   Blockchain developers use usually 2 clients for Ethereum: Geth and former Parity (open Ethereum client). Geth is written in Go and Parity in Rust.
 published: true
+language: en
 ---

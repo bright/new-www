@@ -12,6 +12,7 @@ author: agnieszka
 image: /images/do-not-overuse-important/important.jpg
 date: '2017-11-12T23:00:00.000Z'
 published: true
+language: en
 ---
 
 You have created your CSS rule and found out that it didn’t take a desired effect. You checked the CSS selector and HTML

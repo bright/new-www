@@ -12,4 +12,5 @@ answer: Es gibt viele berühmte Softwarelösungen, die als Minimum Viable Produc
   schnell und kostengünstig auf den Markt bringen und das Produkt dann anhand
   des Feedbacks der Benutzer weiterentwickeln.
 published: true
+language: en
 ---

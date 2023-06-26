@@ -10,6 +10,7 @@ image: /images/hybrid_work_model.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Since the beginning of the pandemic we have established a unique hybrid work model at Bright Inventions. What does it mean? Basically, we are free to choose if we work from home, from the office or combine both. After over a year of hybrid work we want to share with you some tips on how to make it work and maintain consistency in delivering valuable software solutions to our clients.**
 

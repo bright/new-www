@@ -12,5 +12,6 @@ stackoverflow: 870674/mklimek
 description: iOS lover keen on Android development and project management
 ex: true
 layout: member
+language: en
 ---
 

@@ -17,6 +17,7 @@ tags:
   - priorities
 date: '2017-10-26T22:00:00.000Z'
 published: true
+language: en
 ---
 Day has 24 hours. You can spend it doing whatever you want. 
 

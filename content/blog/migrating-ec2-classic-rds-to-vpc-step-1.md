@@ -14,6 +14,7 @@ hidden: false
 comments: true
 published: true
 canonicalUrl: https://miensol.pl/migrating-ec2-classic-rds-to-vpc-step-1/
+language: en
 ---
 In [the last blog post](/blog/migrate-ec2-classic-rds-to-a-vpc-planning) I sketched a plan to migrate an
 EC2-Classic RDS database to a VPC. It is time to dive into the details of setting up replication. There

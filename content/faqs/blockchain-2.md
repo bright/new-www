@@ -11,4 +11,5 @@ answer: Blockchain app development means supporting blockchain technology that
   popular technology is **Node.js** as this is first-class technology when it
   comes to blockchain integration libraries etc.
 published: true
+language: en
 ---

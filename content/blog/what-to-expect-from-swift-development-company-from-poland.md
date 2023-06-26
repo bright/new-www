@@ -10,6 +10,7 @@ image: /images/ios_development.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Everything you should know about working with Swift development agency from Poland.**
 

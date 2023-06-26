@@ -44,6 +44,7 @@ show_team: true
 show_case_study: true
 show on homepage: false
 published: true
+language: en
 ---
 <div class="image"><img src="/images/retail_system_mockups.png" alt="system for restaurants mockups" title="It is not a real implemented design. It is a mockup example created for the purpose of case study."  /> </div>
 

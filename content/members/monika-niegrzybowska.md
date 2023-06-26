@@ -10,5 +10,6 @@ description: Software Developer @ Bright Inventions
 avatar: /images/members/monika.jpg
 ex: true
 layout: member
+language: en
 ---
 

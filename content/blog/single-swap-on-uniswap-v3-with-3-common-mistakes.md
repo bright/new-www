@@ -11,6 +11,7 @@ image: /images/blog_cover_uniswap.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 Since you've probably come across this post looking for a working example of a simple swap
 on a Uniswap and you are not interested in anything besides the code, I'll provide it right away.

@@ -13,6 +13,7 @@ image: /images/blog_substrate_blockchain.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Substrate is an SDK that enables you to build your blockchain from previously built components. Do you want to be a blockchain developer? Thanks to Substrate, joining the blockchain development community has never been easier. Find out why!**
 

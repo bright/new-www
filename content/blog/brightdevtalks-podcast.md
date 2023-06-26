@@ -12,6 +12,7 @@ image: /images/blog_cover-_podcast.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 ![podcast Bright Inventions](/images/blog_cover-_podcast.png)
 

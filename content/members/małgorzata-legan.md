@@ -11,6 +11,7 @@ description: Recruiting Specialist
 avatar: /images/gosia2.png
 avatar_hover: /images/gosia2_passion.png
 published: true
+language: en
 ---
 Colorful soul (from the inside and the outside). Seaside girl and a mountain lover who cannot decide to which part of Poland she feels more attached to. 
 

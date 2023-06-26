@@ -12,6 +12,7 @@ image: /images/ddd_blog_cover.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Are you looking for an introduction to Domain-Driven Design (DDD)? [Michał](/blog/beyond-code-meet-michal-senior-backend-developer/), a Senior Backend Dev with over 8 years of experience, gives you answers to the most popular Google searches about DDD. If you are a Domain-Driven Design newbie – keep on reading. 😉**
 

@@ -11,6 +11,7 @@ description: Backend Developer
 avatar: /images/adam2022.png
 avatar_hover: /images/adam_w_passion_small.png
 published: true
+language: en
 ---
 Backend Developer with a love for clean code, Kotlin, and functional programming. Always willing to try new things. After hours fan of sports activity: inline skates, football, volleyball, yoga, and recently squash. Amateur of chess and computer games.
 

@@ -13,6 +13,7 @@ image: /images/app_observability2.png
 hidden: false
 comments: true
 published: true
+language: en
 ---
 **Have you heard about the [Pareto Principle ](https://en.wikipedia.org/wiki/Pareto_principle)(aka the 80/20 rule)? Briefly, it states that 80% of all outcomes are derived from 20% of causes. In other words, a small amount of work can cause a great effect. I want to show you how to greatly improve observability with just a small amount of effort using Grafana and OpenTelemetry.**
 
