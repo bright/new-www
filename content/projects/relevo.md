@@ -59,10 +59,10 @@ Relevo and Bright Inventions’ priority has been to increase the scalability & 
 
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
-* Panel for restaurants
-* QR code scanning
-* Integration with online food delivery services
-* Payment system
+* Panel for restaurants,
+* QR code scanning,
+* Integration with online food delivery services,
+* Payment system.
 
 <TitleWithIcon sectionTitle='skills / stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
 
