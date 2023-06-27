@@ -22,7 +22,7 @@ social_media_previev_alt: Relevo case study
 bar_achievements:
   - number: 50k
     label: Downloads on Google Play
-  - number: '2'
+  - number: "2"
     label: Mobile apps
   - number: 2+
     label: Years of cooperation
@@ -46,7 +46,6 @@ language: en
 ---
 <TitleWithIcon sectionTitle='about the project' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
 
-
 [Relevo](https://www.gorelevo.de) is a German startup founded in 2020. It offers Android and iOS applications. Relevo works with restaurants (mainly in Munich and Berlin) that are eager to offer reusable packages for takeout. Thanks to the app users can scan a QR code on the reusable package and take their food in an eco-friendly tableware. We just have to remember to give back the packaging to the partner restaurant within 2 weeks. And then the next person can use it again.
 
 Relevo is free, eco-friendly, and smart. We all see how plastic tableware took over our lives, especially during the pandemic. Now it might be more possible than ever to change that. We are proud to be a part of this change!
@@ -57,6 +56,13 @@ Relevo is free, eco-friendly, and smart. We all see how plastic tableware took o
 
 <TitleWithIcon sectionTitle='goals' titleIcon='/images/flag.svg' titleIconAlt='bright' />
 Relevo and Bright Inventions’ priority has been to increase the scalability & reliability of the backend system. The challenge is to ensure the system stability during peak hours. The rapid growth of users for an app like Relevo happens during lunchtime when people use the app in restaurants. At the same time we were also developing and launching new features to provide the users with new capabilities continuously. 
+
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
+
+* Panel for restaurants
+* QR code scanning
+* Integration with online food delivery services
+* Payment system
 
 <TitleWithIcon sectionTitle='skills / stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
 
