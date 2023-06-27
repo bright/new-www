@@ -66,20 +66,6 @@ language: en
 
 <SliderText sliderElements='[{"title":"Food ordering management","description":"Taking care of the whole process from ordering the meal to delivering the order."},{"title":"Transactions processing","description":"Including implementing offline mode, integration with payment service providers and receipt printing."},{"title":"Integrations with external systems and providers","description":"Integration with payment service providers as well as online food delivery services."},{"title":"Integration with online food delivery services","description":"Easy management of orders from different platforms in one device. "},{"title":"Team management and tracking","description":"Employees time tracking, managing team roles e.g. cashier, manager etc. Delivery tracking."},{"title":"Supply management","description":"Inventory management and supply ordering."},{"title":"Analytics","description":"Business analytics platform reporting sales and financial information."}]' />
 
-## Main features developed by Bright Inventions:
-
-* Food ordering management,
-* Transactions processing,
-* Integration with payment service providers,
-* Receipt printing,
-* Delivery tracking,
-* Employees time tracking,
-* Inventory management,
-* Supply ordering,
-* Integration with online food delivery services,
-* Offline mode during transactions,
-* Business analytics platform reporting sales and financial information.
-
 <div class="image"><img src="/images/retail_system_case_study.png" alt="retail system case study" title="It is not a real implemented design. It is a mockup example created for the purpose of case study."  /> </div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
