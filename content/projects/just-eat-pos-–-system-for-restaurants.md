@@ -64,7 +64,7 @@ language: en
 
 <TitleWithIcon sectionTitle='Main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
-<SliderText sliderElements='[{"title":"Food ordering management","description":"Taking care of the whole process from ordering the meal to delivering the order."},{}]' />
+<SliderText sliderElements='[{"title":"Food ordering management","description":"Taking care of the whole process from ordering the meal to delivering the order."},{"title":"Transactions processing","description":"Including implementing offline mode, integration with payment service providers and receipt printing."},{"title":"Integrations with external systems and providers","description":"Integration with payment service providers as well as online food delivery services."},{"title":"Integration with online food delivery services","description":"Easy management of orders from different platforms in one device. "},{"title":"Team management and tracking","description":"Employees time tracking, managing team roles e.g. cashier, manager etc. Delivery tracking."},{"title":"Supply management","description":"Inventory management and supply ordering."},{"title":"Analytics","description":"Business analytics platform reporting sales and financial information."}]' />
 
 ## Main features developed by Bright Inventions:
 
