@@ -84,6 +84,8 @@ language: en
 
 **Data Analysis**: Redshift, Tabaloo
 
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
 <TitleWithIcon sectionTitle='About Just Eat POS and Bright Inventions cooperation' titleIcon='/images/three_flags.svg' titleIconAlt='about BrightTreasury' />
 
 The client reached out to us in **2013**. At that time it was an early-stage Israeli startup “Practi” that offered web application solutions to users. Since 2013 **the company has transformed from a promising startup to an international ePOS applications provider**.
@@ -105,6 +107,8 @@ The increasing number of users also meant that **Bright Inventions’s team had 
 <div class="image"><img src="/images/retail_restaurant_system_case_study.png" alt="retail system case study" title="It is not a real implemented design. It is a mockup example created for the purpose of case study."  /> </div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle='process of building Just Eat POS retail system' titleIcon='/images/gearwheel.svg' titleIconAlt='process of developing BrightTreasury' />
 
@@ -151,6 +155,8 @@ Data we stored provided our client with significant insight into the behaviour o
 This team **took care of integrations with food delivery platforms and menu platforms**. Thanks to their work restaurants using Just Eat POS solution could change the menu in only one place and it would be automatically updated on every possible platform the restaurant used to display its menu.
 
 Another responsibility of this team was i**ntegrations with online food order and delivery providers like Just Eat or Takeaway.** The goal of backend integrations team was to enable management of orders from different platforms in one device. So restaurant employees didn't have to use different apps and devices to take care of orders from other platforms.
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
