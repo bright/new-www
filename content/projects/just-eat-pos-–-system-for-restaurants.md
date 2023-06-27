@@ -50,11 +50,11 @@ language: en
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
-## Main products developed for Just Eat POS:
+<TitleWithIcon sectionTitle='Main products developed for Just Eat POS:' titleIcon='/images/main_features_icon.png' titleIconAlt='applications' />
 
 **Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home**. It also supported daily running of the restaurant by managing employees time, creating menus or providing tools to build their own restaurant website.
 
-## The system was built around these products:
+<TitleWithIcon sectionTitle='The system was built around these products:' titleIcon='/images/main_features_icon.png' titleIconAlt='applications' />
 
 * **[ePOS iOS and Android applications](/projects/system-for-restaurants-mobile)** used by restaurant staff to take orders and manage payments.
 * **White label application for restaurants** to take orders via their own, dedicated website.
