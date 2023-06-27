@@ -2,6 +2,7 @@
 author: piotr
 tags:
   - development
+  - git
 date: 2023-06-27T06:38:31.534Z
 meaningfullyUpdatedAt: 2023-06-27T06:38:31.559Z
 title: How to have multiple branches checked out at the same time?
