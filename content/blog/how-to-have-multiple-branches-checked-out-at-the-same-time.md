@@ -1,5 +1,7 @@
 ---
 author: piotr
+tags:
+  - development
 date: 2023-06-27T06:38:31.534Z
 meaningfullyUpdatedAt: 2023-06-27T06:38:31.559Z
 title: How to have multiple branches checked out at the same time?
@@ -15,7 +17,9 @@ published: true
 
 ## What is a Git worktree?
 
-A Git `worktree` is a linked copy of your Git repository, allowing you to have multiple branches checked out at a time. A `worktree` has a separate path from your main working copy, but it can be in a different state and on a different branch.
+A `git` `worktree` is a linked copy of your Git repository, allowing you to have multiple branches checked out at a time. A `worktree` has a separate path from your main working copy, but it can be in a different state and on a different branch.
+
+`Git worktree `is an alternative to `git stash`. Both of these mechanisms help you to manage multiple streams of work at once. The basic approach is to git-stash your changes and checkout the other branch.
 
 ## Why you should use worktree to simultaneously check your branches?
 
@@ -23,7 +27,7 @@ The specifics of `worktree` approach is that it operates within a single `worktr
 
 It is a great way to switch to a different branch for a brief moment but is unsuitable in more complex situations.
 
-As opposed to git-stash, Git `worktree` parallelizes your work by creating dedicated work trees and placing them in separate folders. 
+As opposed to `git stash`, `git` `worktree` parallelizes your work by creating dedicated work trees and placing them in separate folders. 
 
 Each tree/folder is separately managed by a dedicated IDE window.
 
