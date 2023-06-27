@@ -5,7 +5,7 @@ tags:
   - git
 date: 2023-06-27T06:51:31.468Z
 meaningfullyUpdatedAt: 2023-06-27T06:51:32.191Z
-title: How to have multiple branches checked out at the same time?
+title: How to Have Multiple Branches Checked Out at the Same Time?
 layout: post
 image: /images/blogpost_tip_git-worktree.png
 hidden: false
