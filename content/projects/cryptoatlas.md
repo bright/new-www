@@ -40,8 +40,6 @@ show on homepage: false
 published: true
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle='main features' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Homepage feed aggregating news from other social media platforms, followed communities and influencers
@@ -51,6 +49,8 @@ language: en
 * AMA sessions with influencers
 
 <TitleWithIcon sectionTitle='stack:' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+
+<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/nest.png","alt":"NestJS"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{}]' />
 
 * FrontEnd: React + TypeScript
 * Backend: NestJS, TypeORM, PostgreSQL
