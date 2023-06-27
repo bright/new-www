@@ -20,7 +20,7 @@ published: true
 
 A `git` `worktree` is a linked copy of your Git repository, allowing you to have multiple branches checked out at a time. A `worktree` has a separate path from your main working copy, but it can be in a different state and on a different branch.
 
-`Git worktree `is an alternative to `git stash`. Both of these mechanisms help you to manage multiple streams of work at once. The basic approach is to git-stash your changes and checkout the other branch.
+`Git worktree `is an alternative to `git stash`. Both of these mechanisms help you to manage multiple streams of work at once. The basic approach is to git-stash your changes and check out the other branch.
 
 ## Why you should use worktree to simultaneously check your branches?
 
