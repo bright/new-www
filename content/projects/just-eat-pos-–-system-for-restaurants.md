@@ -72,9 +72,9 @@ language: en
 
 <TitleWithIcon sectionTitle='Bright Inventions’ technology stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='stack' />
 
+<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/firebase_logo_stack.png","alt":"Firebase"},{"src":"/images/realm_stack_logo.png","alt":"Realm"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
-
-**Frontend**: React, TypeScript, React Query, Formik, Storybook, Nx, React Testing Library, Styled Components, Styled System, Mock Service Worker (MSW), Zustand
+**Frontend**: React, TypeScript, React Query, Formik, Storybook, Nx, React Testing Library, Styled Components, Styled System, Mock Service Worker (MSW), Zustand.
 
 **Backend**: Kotlin, Spring Boot, AWS Aurora (MySQL), Redis, hosted on AWS ECS.
 
