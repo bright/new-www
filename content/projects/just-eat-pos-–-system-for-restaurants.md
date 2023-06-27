@@ -70,7 +70,9 @@ language: en
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
-## Bright Inventions’ technology stack and skills:
+<TitleWithIcon sectionTitle='Bright Inventions’ technology stack and skills:' titleIcon='/images/skills.svg' titleIconAlt='stack' />
+
+
 
 **Frontend**: React, TypeScript, React Query, Formik, Storybook, Nx, React Testing Library, Styled Components, Styled System, Mock Service Worker (MSW), Zustand
 
