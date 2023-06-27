@@ -62,6 +62,10 @@ language: en
 * A **website that enabled to display restaurant’s menu** and offered integrations with online delivery providers like JET or Wolt.
 * **Backoffice solutions** including managing integrations and API connections.
 
+<TitleWithIcon sectionTitle='Main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
+
+<SliderText sliderElements='[{"title":"Food ordering management","description":"Taking care of the whole process from ordering the meal to delivering the order."},{}]' />
+
 ## Main features developed by Bright Inventions:
 
 * Food ordering management,
