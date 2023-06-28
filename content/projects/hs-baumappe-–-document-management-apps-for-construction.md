@@ -54,7 +54,7 @@ language: en
 
 **Project management & documentation**: Jira, Figma, Github, Notion, Miro, GitHub Actions. 
 
-## About HS Baumappe
+<TitleWithIcon sectionTitle='about HS Baumappe' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
 
 HS Baumappe are **offline-first iOS and Android native applications** built for German company **Heinrich Schmid**, representing the construction sector. 
 
