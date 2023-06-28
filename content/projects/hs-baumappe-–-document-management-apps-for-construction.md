@@ -48,6 +48,8 @@ language: en
 
 <TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
+<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"},{"src":"/images/github_stack_logo.png","alt":"Github"}]' />
+
 **iOS development**: SwiftUI + UIKit, Swiftgen, Apollo GraphQL, CoreData, SwiftLint, SwiftFormat, Sourcery, Bitrise.
 
 **Android development**: Jetpack Compose, Kotlin Flows, Apollo GraphQL, WorkManager, Room, Hilt.
