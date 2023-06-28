@@ -164,18 +164,18 @@ export const story: readonly Story[] = [
     ],
     heading: '2022',
     subheading: '',
-    content: `We celebrated 10th birthday! Also, we joined the Nordic Group Mirovia.`,
+    content: `We celebrated 10th birthday! Also, we joined the Nordic Group Lyvia (prev. Mirovia).`,
   },  
   {
     images: [],
     logos: [
       {
-        src: '/images/why-us/timeline/timeline_mirovia.png',
+        src: '/images/why-us/timeline/lyvia_timeline.png',
         alt: 'Mirovia',
       },
     ],
     heading: '2023',
     subheading: '',
-    content: `We are focused on enhancing our cooperation with Mirovia.`,
+    content: `We are focused on enhancing our cooperation with Lyvia Group (prev. Mirovia).`,
   },  
 ] as const
