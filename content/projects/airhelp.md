@@ -65,6 +65,6 @@ The main goal was to create a mobile-friendly tool for users that want to file a
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-<TitleWithIcon sectionTitle='result of cooperation between AirHelp and Bright Inventions' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 We developed an MVP version of an iOS app. After that AirHelp in-house development team could continue the project. Nowadays, AirHelps successfully completed the transformation from a startup to the top global air passengers’ rights advocate. We are happy that we could assist them at the beginning of their incredible journey.
