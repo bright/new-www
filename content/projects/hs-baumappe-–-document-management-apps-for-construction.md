@@ -78,7 +78,7 @@ Developing **offline mode** is always an interesting technological challenge. Ho
 
 <sub>*Mockup example designed by Heinrich Schmid's Product Design Team.*</sub>
 
-## HS Baumappe development process
+<TitleWithIcon sectionTitle='HS Baumappe development process' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
 
 **Heinrich Schmid reached out to us in 2021 with a strong vision of the mobile apps** based on the web solution they had already been using in their organization. The client knew exactly what features they needed to continue a digital transformation of the construction site doc workflow. Heinrich Schmid provided us with designs reviewed by their internal testing group representing end users.
 
