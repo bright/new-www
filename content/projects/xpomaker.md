@@ -42,7 +42,7 @@ language: en
 ---
 ![A trade fair planning software](/images/xpomaker_dashboard2.png)
 
-## Main features
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
 * Creation of new fair projects
 * Inviting users to projects as team members
@@ -52,13 +52,15 @@ language: en
 * Calendar view of tasks and events planned for the fair
 * Budget and expense management planner
 
-## Skills
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
-* Deployment: Docker + Docker-Compose, AWS - CloudFormation, ECS, EC2, S3, LoadBalancer, RDS, TeamCity
-* FrontEnd: ReactJS + TypeScript, Redux, Sass
+<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/nest.png","alt":"NestJS"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/docker_stack_logo.png","alt":"Docker"},{"src":"/images/teamcity_stack_logo.png","alt":"Teamcity"},{"src":"/images/aws.png","alt":"AWS"}]' />
+
+* Frontend: ReactJS + TypeScript, Redux, Sass
 * Backend: NestJS, TypeORM, PostgreSQL, Swagger, Stripe
+* Deployment: Docker + Docker-Compose, AWS - CloudFormation, ECS, EC2, S3, LoadBalancer, RDS, TeamCity
 
-## About
+<TitleWithIcon sectionTitle='about' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
 
 For many industries, participating in fairs lies at the heart of business, and is a key element of sales, lead generation, and building B2B partnerships. However, being responsible for exhibiting at industry events can feel overwhelming given the number of tasks involved. In most cases, your fair presence must be carefully planned months in advance, and requires you to simultaneously coordinate multiple processes. A single delay from a contractor or a minor omission on your side, and – like a game of dominoes – the whole plan can collapse.
 
@@ -66,11 +68,11 @@ So, how do you stay on top of all this without worrying about organizational cha
 
 ![A trade fair planning software](/images/xpomaker_dashboard.png)
 
-## Goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 The Founders of xpomaker were looking for an experienced product design team who would translate the general vision for the software into a user-friendly, visually-appealing product. When our paths first crossed, they had already been cooperating with a consulting company that helped determine the necessary UX features and user expectations. While our cooperation initially started off with an interface design project, we were quickly asked to rebrand and redesign the entire app – including taking care of frontend and backend adjustments.
 
-## Process
+<TitleWithIcon sectionTitle='development process' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
 
 We first worked on delivering high-fidelity wireframes of the proposed user interface. To make sure that the designs incorporated all necessary features, our team cooperated with the consulting company’s product owner.
 
@@ -84,7 +86,7 @@ After our work on the interface design had finished, xpomaker engaged us in a re
 
 After the rebranding phase of our cooperation when the name and the visual identity of the company had changed, our team redesigned the entire app and refine the software accordingly.
 
-## Result
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 xpomaker is now present on the German market and offers three subscription plans. The software lets users coordinate as many exhibition projects as needed.
 
