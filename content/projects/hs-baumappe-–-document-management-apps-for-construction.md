@@ -2,6 +2,9 @@
 team_members:
   - kasia g
   - piotr_r
+  - krzysiek-s
+  - lukasz-n
+  - michal-was
 our_service:
   - MVP development
   - mobile app development
