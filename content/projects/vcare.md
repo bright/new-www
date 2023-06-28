@@ -59,7 +59,7 @@ language: en
 
 <TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='stack' />
 
-<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/teamcity_stack_logo.png","alt":"Teamcity"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
+<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/teamcity_stack_logo.png","alt":"Teamcity"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"},{"src":"/images/adobexdstack_logo.png","alt":"Adobe XD"}]' />
 
 **Android:** Kotlin, Navigation Library
 
@@ -78,6 +78,8 @@ Dependency injection: CocoaPods
 Deployment: Teamcity, Fastlane
 
 Tests: Nimble, Quick
+
+**Product design**: Adobe XD
 
 <TitleWithIcon sectionTitle='about Comascope (prev. VCare)' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
