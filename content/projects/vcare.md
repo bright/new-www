@@ -47,9 +47,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
-
-### Main features developed by Bright Inventions
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
 * Managing list of care home patients 
 * Registering medicine administration
@@ -59,7 +57,9 @@ language: en
 * Requiring the supervisor’s approval for actions that might put the patient at risk
 * Setting reminders for subsequent medication administration
 
-### Skills
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='stack' />
+
+<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/teamcity_stack_logo.png","alt":"Teamcity"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
 **Android:** Kotlin, Navigation Library
 
@@ -96,6 +96,8 @@ When we first spoke to the [vCare](https://www.vcaresystems.co.uk) team, there w
 Firstly, vCare wanted to make their healthcare solution available to facilities using iOS-based devices. This meant that an iOS app that would work on both mobile and tablet devices needed to be developed from scratch.
 
 Secondly, the vCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
+
+<div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
 
 ### Process of developing vCare application
 
