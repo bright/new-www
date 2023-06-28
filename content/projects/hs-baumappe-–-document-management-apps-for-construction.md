@@ -78,7 +78,7 @@ Developing **offline mode** is always an interesting technological challenge. Ho
 
 <sub>*Mockup example designed by Heinrich Schmid's Product Design Team.*</sub>
 
-<TitleWithIcon sectionTitle='HS Baumappe development process' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle='HS Baumappe development process' titleIcon='/images/gearwheel.svg' titleIconAlt='HS Baumappe development process' />
 
 **Heinrich Schmid reached out to us in 2021 with a strong vision of the mobile apps** based on the web solution they had already been using in their organization. The client knew exactly what features they needed to continue a digital transformation of the construction site doc workflow. Heinrich Schmid provided us with designs reviewed by their internal testing group representing end users.
 
@@ -94,7 +94,7 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 
 **HS Baumappe was released in December 2022 as an MVP**. Now the focus group is testing the solution and is gathering extended feedback regarding the UX and features.
 
-## Client’s Perspective
+<TitleWithIcon sectionTitle='client's perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='client's perspective' />
 
 *The collaboration with Bright Inventions started off very promising. Based on our business needs, **they gave great architectural advice, important technical information, and overall good guidance**, which allowed an ambitious start into the project.*
 
@@ -106,6 +106,6 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 
 **Leon Seiz, Product Owner at Heinrich Schmid**
 
-## What’s next for Heinrich Schmid and Bright Inventions?
+<TitleWithIcon sectionTitle=' what’s next for Heinrich Schmid and Bright Inventions?' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 Our team is **working on other features such as time tracking and performance recording**. We plan to release another app version dedicated to a bigger group of end users. **The ultimate goal is to deliver mobile apps that all Heinrich Schmid construction crews will use**.
