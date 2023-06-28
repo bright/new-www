@@ -10,7 +10,7 @@ our_service:
   - product design
 layout: project
 project_id: vcare
-title: vCare
+title: Camascope (prev. VCare Systems)
 image: /images/vcare-_mockup-3_700.jpg
 description: A healthcare software solution that helps care homes all over the
   United Kingdom monitor their residents’ health and register medicine
@@ -47,9 +47,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
-
-### Main features developed by Bright Inventions
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
 * Managing list of care home patients 
 * Registering medicine administration
@@ -59,7 +57,9 @@ language: en
 * Requiring the supervisor’s approval for actions that might put the patient at risk
 * Setting reminders for subsequent medication administration
 
-### Skills
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='stack' />
+
+<Gallery images='[{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/teamcity_stack_logo.png","alt":"Teamcity"},{"src":"/images/fastlane_logo_stack.png","alt":"Fastlane"}]' />
 
 **Android:** Kotlin, Navigation Library
 
@@ -79,9 +79,9 @@ Deployment: Teamcity, Fastlane
 
 Tests: Nimble, Quick
 
-### About
+<TitleWithIcon sectionTitle='about Comascope (prev. VCare)' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
-When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
+When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. VCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
 <center>
 
@@ -89,15 +89,17 @@ When we entrust our loved ones to a care home or assisted living facility, we wa
 
 </center>
 
-### Goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
-When we first spoke to the [vCare](https://www.vcaresystems.co.uk) team, there was already a working Android app present on the market. However, the Founders were looking to take the software to a new level by improving the design and code, and by exponentially growing the app’s reach to new target groups.
+When we first spoke to the [VCare](https://www.vcaresystems.co.uk) team, there was already a working Android app present on the market. However, the Founders were looking to take the software to a new level by improving the design and code, and by exponentially growing the app’s reach to new target groups.
 
-Firstly, vCare wanted to make their healthcare solution available to facilities using iOS-based devices. This meant that an iOS app that would work on both mobile and tablet devices needed to be developed from scratch.
+Firstly, VCare wanted to make their healthcare solution available to facilities using iOS-based devices. This meant that an iOS app that would work on both mobile and tablet devices needed to be developed from scratch.
 
-Secondly, the vCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
+Secondly, the VCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
 
-### Process of developing vCare application
+<div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
+
+<TitleWithIcon sectionTitle='process of developing vCare application' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
 
 Our design team’s goal was to create intuitive, reliable mobile apps that would make it easy to register medicine administration and view historical records for each patient. It was absolutely crucial that anyone using the app knew whether a given resident had already taken his/her medication, and had the option to add a note on the patient’s profile.
 
@@ -109,6 +111,6 @@ For updating the Android app, our developers worked in Kotlin, and applied Room 
 
 For iOS, we chose to work in Swift, and – among others – applied Cocoa Pods for dependency injection, Nimble and Quick for running tests, and Teamcity and Fastlane for deployment.
 
-### Result
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 The iOS and updated Android apps have been available on the market since 2019. We are currently approaching the end of the maintenance period, and are already in the talks on a whole round of new features for both applications.
