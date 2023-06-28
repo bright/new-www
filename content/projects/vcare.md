@@ -10,7 +10,7 @@ our_service:
   - product design
 layout: project
 project_id: vcare
-title: vCare
+title: Camascope (prev. VCare Systems)
 image: /images/vcare-_mockup-3_700.jpg
 description: A healthcare software solution that helps care homes all over the
   United Kingdom monitor their residents’ health and register medicine
@@ -79,7 +79,7 @@ Deployment: Teamcity, Fastlane
 
 Tests: Nimble, Quick
 
-<TitleWithIcon sectionTitle='about vCare' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle='about Comascope' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
