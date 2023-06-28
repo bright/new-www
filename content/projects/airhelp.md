@@ -11,7 +11,7 @@ image: /images/flight_compensation_app_mockup5.png
 description: AirHelp iOS mobile application lets you check if your flight is
   eligible for compensation and guides you through the whole process of
   complaints.
-hero_image: /images/flight_compensation_app_case_study.png
+hero_image: /images/case_study_flight_compensation_app.png
 Hero Image_alt: AirHelp case study
 social_media_previev: /images/airhelp_fb_preview.png
 social_media_previev_alt: AirHelp case study
