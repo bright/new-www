@@ -16,24 +16,24 @@ Hero Image_alt: AirHelp case study
 social_media_previev: /images/airhelp_fb_preview.png
 social_media_previev_alt: AirHelp case study
 bar_achievements:
-  - number: '1'
+  - number: "1"
     label: MVP
-  - number: '1'
+  - number: "1"
     label: iOS App
-  - number: '4'
+  - number: "4"
     label: Key MVP features
 tags:
   - mobile app
   - MVP
   - customized software
 title_team: team
-title_case_study: case study
-title_contact: Let's talk about your product
+title_case_study: more success stories
+title_contact: let's talk about your product
 description_contact: Book a free consultation in 48 hours!
 order: 9
 slug: airhelp
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: false
 published: true
 language: en
@@ -42,14 +42,14 @@ language: en
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Main features developed by Bright Inventions:
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
 * Dynamic and UX friendly survey
 * Push notifications
 * Facebook and Google integration
 * File uploading
 
-## About AirHelp iOS app
+<TitleWithIcon sectionTitle='about AirHelp iOS app' titleIcon='/images/three_flags.svg' titleIconAlt='about AirHelp' />
 
 In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup with a mission to educate passengers about their rights. AirHelp came to us with a basic version of their iOS app and expected us to rewrite it. We developed an MVP version of the app taking care of the backend. We helped AirHelp to launch a new version of the app in the AppStore. In the meantime, the client had time to build an in-house development team that could pursue the project in the future.
 
@@ -57,7 +57,7 @@ In 2015 [AirHelp](https://www.airhelp.com/en-gb/) was a fast-growing startup wit
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Our goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 The main goal was to create a mobile-friendly tool for users that want to file a complaint about a delayed or canceled flight. The app had to be really simple and minimalistic so that users are able to quickly go with the flow even if they have to provide much detailed information about the flight.
 
@@ -65,6 +65,6 @@ The main goal was to create a mobile-friendly tool for users that want to file a
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Result of cooperation between AirHelp and Bright Inventions
+<TitleWithIcon sectionTitle='result of cooperation between AirHelp and Bright Inventions' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 We developed an MVP version of an iOS app. After that AirHelp in-house development team could continue the project. Nowadays, AirHelps successfully completed the transformation from a startup to the top global air passengers’ rights advocate. We are happy that we could assist them at the beginning of their incredible journey.
