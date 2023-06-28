@@ -99,7 +99,7 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 
 **HS Baumappe was released in December 2022 as an MVP**. Now the focus group is testing the solution and is gathering extended feedback regarding the UX and features.
 
-<TitleWithIcon sectionTitle='client's perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='client's perspective' />
+<TitleWithIcon sectionTitle='client’s perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='client’s perspective' />
 
 *The collaboration with Bright Inventions started off very promising. Based on our business needs, **they gave great architectural advice, important technical information, and overall good guidance**, which allowed an ambitious start into the project.*
 
@@ -111,6 +111,6 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 
 **Leon Seiz, Product Owner at Heinrich Schmid**
 
-<TitleWithIcon sectionTitle=' what’s next for Heinrich Schmid and Bright Inventions?' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle='what’s next for Heinrich Schmid and Bright Inventions?' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 Our team is **working on other features such as time tracking and performance recording**. We plan to release another app version dedicated to a bigger group of end users. **The ultimate goal is to deliver mobile apps that all Heinrich Schmid construction crews will use**.
