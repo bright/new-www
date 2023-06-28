@@ -79,7 +79,7 @@ Deployment: Teamcity, Fastlane
 
 Tests: Nimble, Quick
 
-### About
+<TitleWithIcon sectionTitle='about vCare' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
@@ -89,7 +89,7 @@ When we entrust our loved ones to a care home or assisted living facility, we wa
 
 </center>
 
-### Goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 When we first spoke to the [vCare](https://www.vcaresystems.co.uk) team, there was already a working Android app present on the market. However, the Founders were looking to take the software to a new level by improving the design and code, and by exponentially growing the app’s reach to new target groups.
 
@@ -99,7 +99,7 @@ Secondly, the vCare team was looking for major design and code refinements for t
 
 <div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
 
-### Process of developing vCare application
+<TitleWithIcon sectionTitle='process of developing vCare application' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
 
 Our design team’s goal was to create intuitive, reliable mobile apps that would make it easy to register medicine administration and view historical records for each patient. It was absolutely crucial that anyone using the app knew whether a given resident had already taken his/her medication, and had the option to add a note on the patient’s profile.
 
@@ -111,6 +111,6 @@ For updating the Android app, our developers worked in Kotlin, and applied Room 
 
 For iOS, we chose to work in Swift, and – among others – applied Cocoa Pods for dependency injection, Nimble and Quick for running tests, and Teamcity and Fastlane for deployment.
 
-### Result
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 The iOS and updated Android apps have been available on the market since 2019. We are currently approaching the end of the maintenance period, and are already in the talks on a whole round of new features for both applications.
