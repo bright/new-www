@@ -79,9 +79,9 @@ Deployment: Teamcity, Fastlane
 
 Tests: Nimble, Quick
 
-<TitleWithIcon sectionTitle='about Comascope' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle='about Comascope (prev. VCare)' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
-When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. vCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
+When we entrust our loved ones to a care home or assisted living facility, we want to be absolutely sure that their health and safety are a top priority. VCare is a software that helps care homes offer the highest level of care by making it easy to administer the right medication and dosage to residents, at the exact right time of day.
 
 <center>
 
@@ -91,11 +91,11 @@ When we entrust our loved ones to a care home or assisted living facility, we wa
 
 <TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
-When we first spoke to the [vCare](https://www.vcaresystems.co.uk) team, there was already a working Android app present on the market. However, the Founders were looking to take the software to a new level by improving the design and code, and by exponentially growing the app’s reach to new target groups.
+When we first spoke to the [VCare](https://www.vcaresystems.co.uk) team, there was already a working Android app present on the market. However, the Founders were looking to take the software to a new level by improving the design and code, and by exponentially growing the app’s reach to new target groups.
 
-Firstly, vCare wanted to make their healthcare solution available to facilities using iOS-based devices. This meant that an iOS app that would work on both mobile and tablet devices needed to be developed from scratch.
+Firstly, VCare wanted to make their healthcare solution available to facilities using iOS-based devices. This meant that an iOS app that would work on both mobile and tablet devices needed to be developed from scratch.
 
-Secondly, the vCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
+Secondly, the VCare team was looking for major design and code refinements for the existing Android app and software. They have also decided to develop several new features to further ensure patients’ security and facilitate caregivers’ daily work.
 
 <div class="image"><img src="/images/vcare.png" alt="vCare" title="vCare"  /> </div>
 
