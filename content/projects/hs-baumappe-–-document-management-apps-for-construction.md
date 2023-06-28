@@ -46,7 +46,7 @@ language: en
 
 *Mockup example designed by Heinrich Schmid's Product Design Team.*
 
-## Skills
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
 **iOS development**: SwiftUI + UIKit, Swiftgen, Apollo GraphQL, CoreData, SwiftLint, SwiftFormat, Sourcery, Bitrise.
 
