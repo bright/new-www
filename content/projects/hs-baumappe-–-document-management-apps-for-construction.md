@@ -60,7 +60,7 @@ HS Baumappe are **offline-first iOS and Android native applications** built for 
 
 Mobile applications have been developed for clients’ employees who work on construction sites. The apps enable the creation and sharing of documents among the construction crew with clients and external contractors.
 
-## The goal of the solution
+<TitleWithIcon sectionTitle='the goal of the solution' titleIcon='/images/goal_title_section.png' titleIconAlt='the goal of the solution' />
 
 The ultimate goal of the solution is to **manage the whole construction documentation via smartphone or tablet and eliminate paper documentation**.
 
@@ -68,7 +68,7 @@ The ultimate goal of the solution is to **manage the whole construction document
 
 <sub>*Mockup examples designed by Heinrich Schmid's Product Design Team.*</sub>
 
-## The challenge of building the document management app for construction
+<TitleWithIcon sectionTitle='the challenge of building the document management app for construction' titleIcon='/images/two_flags.svg' titleIconAlt='challenge ' />
 
 Construction sites are places where **the internet connection is weak or simply doesn’t exist**. Therefore from the beginning, the priority was to build the **offline-first application**. It needed plenty of preparations during the requirement phase to determine when and how the apps should operate depending on the quality of the internet connection.
 
