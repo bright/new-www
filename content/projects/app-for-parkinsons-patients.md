@@ -39,8 +39,6 @@ show on homepage: false
 published: true
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
 * Tracking physical response to standard and experimental therapy
@@ -59,7 +57,7 @@ Android: Kotlin, RxKotlin, Dagger, Retrofit
 
 Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
-## About the app for Parkinson's Patients
+<TitleWithIcon sectionTitle='about the app for Parkinson's Patients' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
 
@@ -75,7 +73,7 @@ And so, Bright Inventions was entrusted with the implementation of the entire sy
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Process of app development
+<TitleWithIcon sectionTitle='app development process' titleIcon='/images/gearwheel.svg' titleIconAlt='app development process' />
 
 There were several challenges that we needed to address. Firstly, the app had to be inclusive of patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the interface needed to be legible, highly-intuitive, and minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
 
@@ -95,7 +93,7 @@ The first database stored basic user data, such as name or email address. The se
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Result of cooperation
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 Altogether, our on the project work lasted for 5 months and was divided into two stages. The first phase ended with the launch of the MVP (development took place for 3 months). The second phase of our cooperation, which resulted in several iterations of the system, took place over a span of another 2 months.
 
