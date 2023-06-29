@@ -115,7 +115,7 @@ Before our team presented the MVP mockups we took a couple of crucial steps whic
 
 <div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
 
-## What’s next for Mako TSL and Bright Inventions?
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 **MVP launch ensured the client that the system has the potential to change the daily work** on their team. We’re delighted to say that the **client decided to continue our cooperation**. Now we focus on i**mplementing other features** in the system for example the **electronic circulation of documents**.
 
