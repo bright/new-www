@@ -83,7 +83,7 @@ There were several challenges that we needed to address. Firstly, the app had to
 
 During software development, our team noticed many features in the GUI which were too complex for such a user group. We then proposed a simpler solution for each, which was met with a positive response and was given a green light by the client.
 
-The single biggest challenge, however, was to fulfil the highest security and privacy standards to protect users. Given its medical nature, the app stored very sensitive data on patients’ health (namely, apart from information on pain or tremors, it also allowed users to note their sexual drive levels or gambling propensity).
+The single biggest challenge, however, was to fullfil the highest security and privacy standards to protect users. Given its medical nature, the app stored very sensitive data on patients’ health (namely, apart from information on pain or tremors, it also allowed users to note their sexual drive levels or gambling propensity).
 
 For this reason, Bright Inventions decided to break down the database into two – each stored in a different AWS services’ physical location.
 
