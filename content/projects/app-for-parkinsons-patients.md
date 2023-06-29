@@ -39,11 +39,9 @@ show on homepage: false
 published: true
 language: en
 ---
-![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
 
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Main features developed by Bright Inventions:
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
 * Tracking physical response to standard and experimental therapy
 * Medication reminder
@@ -51,7 +49,9 @@ language: en
 * Advances statistics and reports for physicians
 * Gamification of the app
 
-## Skills:
+<TitleWithIcon sectionTitle='skills / stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+
+<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
 iOS: Swift, RxSwift, Alamofire
 
@@ -90,6 +90,10 @@ The single biggest challenge, however, was to fulfil the highest security and pr
 For this reason, Bright Inventions decided to break down the database into two – each stored in a different AWS services’ physical location.
 
 The first database stored basic user data, such as name or email address. The second database kept sensitive information, including medication intake or physical symptoms and sensations. Through this decision, we made sure that – in case of a data breach – the attacking party wouldn’t be able to access all the information. This way, there were virtually zero chances of matching symptoms or medication intake to specific patients’ names.
+
+![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
 ## Result of cooperation
 
