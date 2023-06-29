@@ -47,7 +47,7 @@ language: en
 * Advances statistics and reports for physicians
 * Gamification of the app
 
-<TitleWithIcon sectionTitle='skills / stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='bright' />
 
 <Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
@@ -57,11 +57,11 @@ Android: Kotlin, RxKotlin, Dagger, Retrofit
 
 Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
-<TitleWithIcon sectionTitle='about the app for Parkinson's Patients' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle='about the app for Parkinson’s Patients' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
 
-## Goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 Our long-time customer (a product design agency and early-stage project incubator), reached out to us with a ready-to-implement idea their customers had for an app. The goal of the project was to develop a mobile app that simplifies the day-to-day lives of patients suffering from Parkinson’s disease.
 
