@@ -39,11 +39,7 @@ show on homepage: false
 published: true
 language: en
 ---
-![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
-
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
-
-## Main features developed by Bright Inventions:
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
 * Tracking physical response to standard and experimental therapy
 * Medication reminder
@@ -51,7 +47,9 @@ language: en
 * Advances statistics and reports for physicians
 * Gamification of the app
 
-## Skills:
+<TitleWithIcon sectionTitle='skills / stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+
+<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
 iOS: Swift, RxSwift, Alamofire
 
@@ -59,7 +57,7 @@ Android: Kotlin, RxKotlin, Dagger, Retrofit
 
 Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
-## About the app for Parkinson's Patients
+<TitleWithIcon sectionTitle='about the app for Parkinson's Patients' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 Living with a chronic illness like Parkinson’s imposes many lifestyle changes on the patient. For those battling the disease, it is crucial that they have a way to easily track their overall vitals, medicine intake, or note any symptoms that need to be brought to their doctors’ attention.
 
@@ -75,7 +73,7 @@ And so, Bright Inventions was entrusted with the implementation of the entire sy
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Process of app development
+<TitleWithIcon sectionTitle='app development process' titleIcon='/images/gearwheel.svg' titleIconAlt='app development process' />
 
 There were several challenges that we needed to address. Firstly, the app had to be inclusive of patients suffering from tremors or other movement disorders. Also, as the elderly constitute the majority of patients suffering from Parkinson’s, the interface needed to be legible, highly-intuitive, and minimize the chances of mistakes. If an accidental input were to take place, though, the interface also needed to allow the option to undo the action.
 
@@ -85,13 +83,17 @@ There were several challenges that we needed to address. Firstly, the app had to
 
 During software development, our team noticed many features in the GUI which were too complex for such a user group. We then proposed a simpler solution for each, which was met with a positive response and was given a green light by the client.
 
-The single biggest challenge, however, was to fulfil the highest security and privacy standards to protect users. Given its medical nature, the app stored very sensitive data on patients’ health (namely, apart from information on pain or tremors, it also allowed users to note their sexual drive levels or gambling propensity).
+The single biggest challenge, however, was to fullfil the highest security and privacy standards to protect users. Given its medical nature, the app stored very sensitive data on patients’ health (namely, apart from information on pain or tremors, it also allowed users to note their sexual drive levels or gambling propensity).
 
 For this reason, Bright Inventions decided to break down the database into two – each stored in a different AWS services’ physical location.
 
 The first database stored basic user data, such as name or email address. The second database kept sensitive information, including medication intake or physical symptoms and sensations. Through this decision, we made sure that – in case of a data breach – the attacking party wouldn’t be able to access all the information. This way, there were virtually zero chances of matching symptoms or medication intake to specific patients’ names.
 
-## Result of cooperation
+![App for Parkinson's Patients](/images/app_for_parkinson_patients2.png)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 Altogether, our on the project work lasted for 5 months and was divided into two stages. The first phase ended with the launch of the MVP (development took place for 3 months). The second phase of our cooperation, which resulted in several iterations of the system, took place over a span of another 2 months.
 
