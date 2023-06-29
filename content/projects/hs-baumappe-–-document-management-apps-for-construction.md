@@ -45,9 +45,7 @@ show on homepage: true
 published: true
 language: en
 ---
-<div class="image"><img src="/images/app_baumappe_mockups.png" alt="app baumappe mockup" title="Mockup example designed by Heinrich Schmid's Product Design Team."  /> </div>
 
-*Mockup example designed by Heinrich Schmid's Product Design Team.*
 
 <TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
@@ -92,6 +90,10 @@ Bright Inventions team consists of **4 experienced mobile developers and a proje
 The first step was to **release the MVP** and present it to the client’s employees to gather feedback.
 
 The client trusted us to choose the best solutions for native application development. Therefore we use top tools such as **SwiftUI** or **Jetpack Compose**. It’s worth mentioning that the Android application’s UI is built from the scratch with Jetpack Compose and Jetpack Compose Navigation.
+
+<div class="image"><img src="/images/app_baumappe_mockups.png" alt="app baumappe mockup" title="Mockup example designed by Heinrich Schmid's Product Design Team."  /> </div>
+
+*Mockup example designed by Heinrich Schmid's Product Design Team.*
 
 We also made an important decision regarding the app architecture. We decided to build **HS Baumappe as a multi-module application**. Instead of building an app as a huge monolith, we **separated the code into single responsibility modules**. As a result, it improved developers’ productivity because of the **shorter build time, clarity and interoperability**. Developing multi-module apps is not something visible to users but takes a huge part in fastening the development process and, in the end, helps to **save costs**.
 
