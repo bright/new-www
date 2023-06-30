@@ -238,6 +238,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             id
             frontmatter {
               slug
+              language
               faqs {
                 frontmatter {
                   question
@@ -259,15 +260,14 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   services.forEach(service => {
     createPage({
       path: 'our-areas/' + service.node.frontmatter.slug,
-      component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${
-        service.node.internal.contentFilePath
-      }`,
+      component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
       context: {
         id: service.node.id,
         slug: service.node.frontmatter!!.slug,
-        language: service.node.frontmatter!!.language
+        language: service.node.frontmatter!!.language,
       },
     })
+    console.log(service.node.frontmatter.language)
 
     const faqs = service.node.frontmatter.faqs
     faqs.forEach((faq: { frontmatter: { question: string; slug: string; language: string } }) => {
@@ -279,10 +279,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
           slug: service.node.frontmatter.slug,
           faqTitle: faq.frontmatter.question,
           faqSlug: faq.frontmatter.slug,
-          language: faq.frontmatter.language
+          language: faq.frontmatter.language,
         },
       })
-    });
+    })
   })
 
   const postResult = await graphql<GQLData>(
@@ -402,8 +402,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       if (!node.internal.contentFilePath) {
         console.log('no contentFilePath in', node)
       }
-      const name = node.internal.contentFilePath!!
-        .split('/')
+      const name = node.internal
+        .contentFilePath!!.split('/')
         .pop()!!
         .replace('.md', '')
         .replace(/([0-9]{4})-([0-9]{2})-([0-9]{2})-/, '')
@@ -423,7 +423,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
           id: node.id,
           // additional data can be passed via context
           slug: node.frontmatter?.slug,
-          language: node.frontmatter?.language
+          language: node.frontmatter?.language,
         },
       })
     })
@@ -495,8 +495,17 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
 
 export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({ actions, schema }) => {
   actions.createTypes(
-    `type Members implements Node {
+    `type CustomDate {
+       month: Int
+       day: Int
+       year: Int
+     }
+
+     type Members implements Node @dontInfer  {
       posts: [Blog] @link(by: "author.author_id", from: "author_id") 
+      title: String!
+      avatar:File
+      avatar_hover:File!
     }`
   )
 }
