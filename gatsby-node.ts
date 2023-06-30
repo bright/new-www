@@ -496,17 +496,8 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
 
 export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({ actions, schema }) => {
   actions.createTypes(
-    `type CustomDate {
-       month: Int
-       day: Int
-       year: Int
-     }
-
-     type Members implements Node @dontInfer  {
+    `type Members implements Node {
       posts: [Blog] @link(by: "author.author_id", from: "author_id") 
-      title: String!
-      avatar:File
-      avatar_hover:File!
     }`
   )
 }
