@@ -9,6 +9,7 @@ import { useWindowSize } from '../utils/use-windowsize'
 import { CustomSectionTitle, MoreButton } from '../shared'
 import useOnScreen from '../utils/use-onscreen'
 import { clampBuilder } from '../../helpers/clampBuilder'
+import { useTranslation } from 'react-i18next'
 
 const TeamMember = styled.article<{ isOurServiceTemplate: boolean; isWhyUs: boolean; isTeam: boolean }>`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -323,6 +324,7 @@ const TeamMembers = ({
 
   const ref = useRef<HTMLDivElement>(null)
   const onScreen: boolean = useOnScreen<HTMLDivElement>(ref, '2000px 0px')
+  const { t } = useTranslation('button')
 
   useEffect(() => {
     if (isOurServiceTemplate) {
@@ -392,7 +394,7 @@ const TeamMembers = ({
 
           {isOurServiceTemplate && initNumber && (
             <OurServiceLink isWhyUs={isWhyUs} to={routeLinks.aboutUs({ page: 'team' })}>
-              see all team members
+              {t('see all team members')}
             </OurServiceLink>
           )}
           {isWhyUs && whyUsTeamMembers && (

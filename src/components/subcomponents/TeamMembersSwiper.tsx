@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
@@ -8,7 +8,8 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { clampBuilder } from '../../helpers/clampBuilder'
-import useOnScreen from '../utils/use-onscreen'
+import { useTranslation } from 'react-i18next'
+
 
 const TeamMember = styled.article`
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -145,6 +146,7 @@ interface Props {
 
 const TeamMemebersSwiper: React.FC<Props> = ({ authorIdsArray }) => {
   const members = useAuthors({ authorIdsArray })
+  const { t } = useTranslation('button')
   return (
     <>
       <Swiper
@@ -190,7 +192,7 @@ const TeamMemebersSwiper: React.FC<Props> = ({ authorIdsArray }) => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <OurServiceLink to={routeLinks.aboutUs({ page: 'team' })}>see all team members</OurServiceLink>
+      <OurServiceLink to={routeLinks.aboutUs({ page: 'team' })}>{t("see all team members")}</OurServiceLink>
     </>
   )
 }
