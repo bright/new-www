@@ -86,7 +86,8 @@ const TechnologyTags = ({ tags }: TechnologyTagsProps) => {
         mobileMargin='0 0 32px'
         style={{ color: `${variables.color.white}` }}
       >
-        {t('we work with')}
+        {t("we work with")}
+
       </CustomSectionTitle>
 
       <CustomContainer>
