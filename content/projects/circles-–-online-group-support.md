@@ -46,7 +46,7 @@ language: en
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
-## Main features developed by Bright Inventions:
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Onboarding which helps users quickly find the support group suitable for their needs.
 * New features for video conferences such as group chat or screen sharing by a group facilitator.
@@ -55,7 +55,7 @@ Be in grief over the loss of a special someone, the pain of divorce or separatio
 * Redesign of the group space where group members can interact with each other.
 * Customized business tool for processing user experience, traffic and acquisition data.
 
-## Skills
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
 Frontend: TypeScript, React
 
