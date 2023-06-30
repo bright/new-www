@@ -241,6 +241,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         language: service.node.frontmatter!!.language,
       },
     })
+    console.log(service.node.frontmatter.language)
 
     const faqs = service.node.frontmatter.faqs
     faqs.forEach((faq: { frontmatter: { question: string; slug: string; language: string } }) => {
@@ -468,8 +469,17 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ sta
 
 export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = async ({ actions, schema }) => {
   actions.createTypes(
-    `type Members implements Node {
+    `type CustomDate {
+       month: Int
+       day: Int
+       year: Int
+     }
+
+     type Members implements Node @dontInfer  {
       posts: [Blog] @link(by: "author.author_id", from: "author_id") 
+      title: String!
+      avatar:File
+      avatar_hover:File!
     }`
   )
 }
