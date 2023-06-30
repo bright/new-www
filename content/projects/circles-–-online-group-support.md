@@ -69,7 +69,7 @@ Circles groups meet live for 60-minute video meetings and also have the ability 
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=3SRelp9NtAA' />
 
-## Circles Development Process
+<TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='## Circles Development Process' />
 
 Circles is a support-groups platform developed by an Israeli startup. The client came to us thanks to the referral from our long-term client. We have started our cooperation in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. We are responsible for the web version of the app by delivering full stack solutions.
 
@@ -85,7 +85,7 @@ On top of that, we deliver solutions that enable analyzing data. For example, ou
 
 Bright Inventions works closely with the client, joining meetings with various teams to understand perspectives of every side including marketing and sales departments. Working with the Circles team means not only working on tech but also exploring the business nature of the project. 
 
-## Circles’ Perspective
+<TitleWithIcon sectionTitle='Circles’ perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='Circles’ perspective' />
 
 Eyal Cafri – VP R&D at Circles:
 
