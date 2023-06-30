@@ -61,7 +61,7 @@ Frontend: TypeScript, React
 
 Backend: Node.js, PostgreSQL/Redis, NestJS, AWS
 
-## About Circles
+<TitleWithIcon sectionTitle='about Circles' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 Circles is a leading emotional support platform that connects people experiencing similar challenges in small online groups led by mental health experts. **Awarded as the Best Platform for Group Therapy 2021, Circles app has already supported thousands of people** while coping with grief, navigating divorce and separation, going through complex relationships or other life challenges.
 
