@@ -1,3 +1,18 @@
 Yes: Ja
 contact:
+  Name *: Name *
+  Email *: E-mail *
   Your Idea: Deine Idee
+placeholders:
+  Enter name / company here: Geben Sie Ihren Namen / Ihre Firma ein
+  name@company.com: name@firma.com
+  Describe your project: Beschreiben Sie Ihr Projekt
+button:
+  let’s talk: lass uns reden
+other copy:
+  I accept the: Ich akzeptiere die
+  Privacy Policy: Datenschutzbestimmungen
+  "*fields required": "*Pflichtfelder"
+  or drop us a line via: Oder schreiben Sie uns eine Nachricht an
+
+

@@ -97,7 +97,7 @@ export const Contact: FC<ContactProps> = ({
   formButton,
   actionFormButton,
 }) => {
-  const { t } = useTranslation('contact')
+  const { t } = useTranslation(['contact', 'placeholder', 'button', 'other copy'])
 
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
@@ -180,39 +180,39 @@ export const Contact: FC<ContactProps> = ({
         <Form data-form-type='contact' action='#' onSubmit={onFormSubmit}>
           <DoubleInputsRow>
             <DoubleInputsRowEntry leftSide>
-              <Label>Name *</Label>
+              <Label>{t('contact:Name *')}</Label>
               <HeroTextInput
                 type='text'
                 maxLength={256}
                 name='name'
                 value={name}
                 onChange={e => setName(e.target.value)}
-                placeholder='Enter name / company here'
+                placeholder={t('placeholders:Enter name / company here')}
                 required
               />
             </DoubleInputsRowEntry>
 
             <DoubleInputsRowEntry>
-              <Label>Email *</Label>
+              <Label>{t('contact:Email *')}</Label>
               <HeroTextInput
                 type='email'
                 maxLength={256}
                 name='email'
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                placeholder='name@company.com'
+                placeholder={t('placeholder:name@company.com')}
                 required
               />
             </DoubleInputsRowEntry>
           </DoubleInputsRow>
 
-          <Label>{t('Your Idea')}</Label>
+          <Label>{t('contact:Your Idea')}</Label>
           <IdeaTextArea
             name='message'
             value={message}
             onChange={e => setMessage(e.target.value)}
             maxLength={5000}
-            placeholder='Describe your project'
+            placeholder={t('placeholder:Describe your project')}
             className={message ? 'isSelected' : ''}
           />
 
@@ -230,29 +230,29 @@ export const Contact: FC<ContactProps> = ({
               <label>
                 <TickIcon />
               </label>
-              &nbsp;I accept the&nbsp;
+              &nbsp;{t('other copy:I accept the')}&nbsp;
             </CheckboxFieldContainer>
             {/* &nbsp;I accept the&nbsp; */}
             <a href={routeLinks.privacyPolicy} target='_blank' className='has-text-black'>
               <b>
-                <u>Privacy Policy</u>
+                <u>{t('other copy:Privacy Policy')}</u>
               </b>
             </a>{' '}
             *
           </PrivacyPolicyCheckboxContainer>
 
-          <RequiredMessage>*fields required</RequiredMessage>
+          <RequiredMessage>{t('other copy:*fields required')}</RequiredMessage>
 
           {isSending ? (
             <Loader className='loader'></Loader>
           ) : (
             <MoreButton isSubmit isBlack>
-              let’s talk
+                {t('button:let’s talk')}
             </MoreButton>
           )}
           <div>
             <ContactTextRegular style={{ marginTop: '32px' }}>
-              or drop us a line via{' '}
+              {t('other copy:or drop us a line via')}{' '}
               <a href='mailto:info@brightinventions.pl?subject=bright%20mail'>info@brightinventions.pl</a>
             </ContactTextRegular>
           </div>
