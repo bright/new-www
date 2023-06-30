@@ -400,7 +400,7 @@ const TeamMembers = ({
           {isWhyUs && whyUsTeamMembers && (
             <MoreButtonTeamMembersWrapper>
               <MoreButton href={routeLinks.aboutUs({ page: 'team' })} marginTop='0'>
-                see all team members
+                {t('see all team members')}
               </MoreButton>
             </MoreButtonTeamMembersWrapper>
           )}
