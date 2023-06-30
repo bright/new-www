@@ -10,6 +10,7 @@ import ScrollToTop from '../subcomponents/ScrollToTop'
 import { CustomTextRegular } from './../shared/index.styled'
 import { BehanceIcon } from '../icons/Behance.icon'
 import { DribbleIcon } from './../icons/Dribble.icon'
+import { useTranslation } from 'react-i18next'
 
 
 export const ProjectCustomSection = styled(CustomSection)`
@@ -323,13 +324,14 @@ export const Projects: React.FC<ProjectsProps> = ({
   }
 
   const filteredProjectsLength = getFilteredProjectWithoutCurrent(projects).length;
+  const { t } = useTranslation('other copy')
 
   return (
     <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem'>
       {isDefaultTitle && isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
-          <span>visit our online portfolio:</span>
+          <span>{t('visit our online portfolio:')}</span>
           <a target='_blank' href='https://www.behance.net/BrightInventions/' aria-label='Behance'>
             Behance
             <BehanceIcon />
@@ -386,7 +388,7 @@ export const Projects: React.FC<ProjectsProps> = ({
                   : `${projects.length % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`
               }
             >
-              see all case studies
+                {t('see all case studies')}
             </BlockSmall>
           </ProjectsLink>
         )}
