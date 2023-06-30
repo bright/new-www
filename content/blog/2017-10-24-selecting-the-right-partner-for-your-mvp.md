@@ -29,6 +29,8 @@ Since you're going to be working together very closely it's vital that you both 
 
 Vet your potential partner before any agreement is signed. Make sure you can keep up with them on a personal level. You don't have to be best friends but there needs to be solid grounds for mutual appreciation, trust and understanding.
 
+<EbookDynamic sectionTitle='Read the ultimate MVP guide' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Download the free ebook about Minimum Viable Product (MVP) development.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='free MVP ebook' />
+
 ## 3. Extension of your team
 
 You run a startup and therefore things change rapidly. Each day brings new ideas, things to check out, more requests from the clients. You should be able to share it all with the developers working on your product without having to go through any soft of legal layer. If adding even the smallest change to the feature set requires signing an annex with them - it's not worth it. If there are things that you would have no problem asking your in-house developer but for some reason are prevented from asking the same from developer working for your partner company then it's not worth it neither.
