@@ -173,4 +173,4 @@ I guess it is worth getting familiar with:
 
 Finally a guide for manual testers who are willing to start with automated tests: [How to Start Writing Automation Tests](/blog/how-to-start-writing-automation-tests)
 
-<EbookDynamic sectionTitle='get free ebook about app security' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Delivering a secure app is key part of quality assurance. Do you agree? Download a free ebook about app software security.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='get free ebook about app security' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Delivering a secure app is key part of quality assurance. Do you agree? Download a free ebook about app software security.'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />

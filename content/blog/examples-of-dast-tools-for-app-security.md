@@ -20,7 +20,7 @@ language: en
 
 **DAST stands for Dynamic Application Security Testing**. DAST tools often provide the ability to proxy requests, record them, tamper with them, replay them, inject parameters, build a site map by crawling, and more.
 
-<EbookDynamic sectionTitle='Read more about software security tools in a free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Looking for more ways to secure your digital product? Our free ebook is packed with additional tools and resources. Download it now!'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='Read more about software security tools in a free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Looking for more ways to secure your digital product? Our free ebook is packed with additional tools and resources. Download it now!'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
 
 ## DAST tools to consider for software security
 
@@ -43,4 +43,4 @@ Here are two DAST tools that are worth consideration.
 
 DAST tools play a crucial role in application security testing. Play a little bit with OWASP ZAP and Burp Suite and choose one that suits your needs best.
 
-<EbookDynamic sectionTitle='Discover more software security tools in a free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Expand your security toolkit by downloading our free ebook today.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='Discover more software security tools in a free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Expand your security toolkit by downloading our free ebook today.'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />

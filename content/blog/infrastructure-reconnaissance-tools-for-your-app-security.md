@@ -16,7 +16,7 @@ language: en
 ---
 **Infrastructure reconnaissance tools are essential for any organization that wants to ensure the security of its digital assets. These tools allow businesses to scan their infrastructure for vulnerabilities, including outdated software versions, open ports, and misconfigured security headers.**
 
-<EbookDynamic sectionTitle='Eager to discover (even) more security tools? ' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Get our free ebook now and discover what else you can use to protect your digital products.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='Eager to discover (even) more security tools? ' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Get our free ebook now and discover what else you can use to protect your digital products.'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
 
 Check out the infrastructure reconnaissance tools that we use and recommend to keep software secure.
 
@@ -60,4 +60,4 @@ Check out the infrastructure reconnaissance tools that we use and recommend to k
 * aggregates several websites and provides an option to check headers, do TLS scans and see third-party analysis,
 * provides businesses with a comprehensive infrastructure reconnaissance solution.
 
-<EbookDynamic sectionTitle='That’s not all!' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Expand your security toolkit by downloading our free ebook today. You will find plenty of useful tools to keep your data safe.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='That’s not all!' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Expand your security toolkit by downloading our free ebook today. You will find plenty of useful tools to keep your data safe.'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />

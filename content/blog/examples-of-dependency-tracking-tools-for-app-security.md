@@ -16,7 +16,7 @@ language: en
 ---
 **As software developers, one of our top priorities is to ensure that our projects are secure and free of vulnerabilities. One way to achieve this is to use dependency tracking tools that help us identify outdated or vulnerable dependencies in our code. In this article, we'll introduce you to some of the most popular dependency-tracking tools you can use in your projects.**
 
-<EbookDynamic sectionTitle='Are you concerned about the security of your software? You need this free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Your software is the backbone of your business. Do not leave its security to chance!'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='Are you concerned about the security of your software? You need this free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Your software is the backbone of your business. Do not leave its security to chance!'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
 
 ## Dependency tracking tools to consider
 
@@ -55,4 +55,4 @@ These are 3 tools that you should at least try if you are serious about the soft
 
 Dependency-tracking tools are essential for any software project. Whether you're using GitHub, client-side JavaScript, or a package manager, there's a tool that can help you keep your dependencies up-to-date and secure. Just choose something for your product! 🙂
 
-<EbookDynamic sectionTitle='Ready to take your app security to the next level?' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Discover the tools and tactics you need to keep your app secure with our free ebook, "25 Tools & Extra Tactics For App Security." '  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='Ready to take your app security to the next level?' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Discover the tools and tactics you need to keep your app secure with our free ebook, "25 Tools & Extra Tactics For App Security." '  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />

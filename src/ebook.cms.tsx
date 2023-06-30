@@ -20,11 +20,6 @@ export const EbookCmsEditorComponent = {
       widget: 'string',
     },
     {
-      name: 'ebookUrl',
-      label: 'Ebook Url',
-      widget: 'string',
-    },
-    {
       name: 'ebookAlt',
       label: 'Ebook Image Alt',
       widget: 'string',
@@ -37,33 +32,30 @@ export const EbookCmsEditorComponent = {
   ],
   label: 'Ebook',
 
-  pattern: /^\s*<EbookDynamic\s+sectionTitle=['"](.*?)['"]\s+ebookName=['"](.*?)['"]\s+ebookDescription=['"](.*?)['"]\s+ebookImage=['"](.*?)['"]\s+ebookAlt=['"](.*?)['"]\s+ebookUrl=['"](.*?)['"]\s*\/>\s*$/,
+  pattern: /^\s*<EbookDynamic\s+sectionTitle=['"](.*?)['"]\s+ebookName=['"](.*?)['"]\s+ebookDescription=['"](.*?)['"]\s+ebookImage=['"](.*?)['"]\s+ebookAlt=['"](.*?)['"]\s*\/>\s*$/,
 
   fromBlock(match: RegExpMatchArray) {
     return {
       sectionTitle: match[1],
       ebookName: match[2],
       ebookDescription: match[3],
-      ebookUrl: match[4],
-      ebookImage: match[5],
-      ebookAlt: match[6],
+      ebookImage: match[4],
+      ebookAlt: match[5],
     }
   },
   toBlock(props: {
     sectionTitle: string
     ebookName: string
     ebookDescription: string
-    ebookUrl: string
     ebookImage: string
     ebookAlt: string
   }) {
-    return `<EbookDynamic sectionTitle='${props.sectionTitle}' ebookName='${props.ebookName}' ebookDescription='${props.ebookDescription}'  ebookUrl='${props.ebookUrl}'  ebookImage='${props.ebookImage}' ebookAlt='${props.ebookAlt}' />`
+    return `<EbookDynamic sectionTitle='${props.sectionTitle}' ebookName='${props.ebookName}' ebookDescription='${props.ebookDescription}' ebookImage='${props.ebookImage}' ebookAlt='${props.ebookAlt}' />`
   },
   toPreview(props: {
     sectionTitle: string
     ebookName: string
     ebookDescription: string
-    ebookUrl: string
     ebookImage: string
     ebookAlt: string
   }) {
