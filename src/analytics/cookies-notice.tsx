@@ -175,7 +175,7 @@ function CookiesNotice() {
   }
 
   return (
-    <SectionNotice>
+    <SectionNotice suppressHydrationWarning={true}>
       <ContextualCookieConsent
         location='bottom'
         buttonText='allow cookies'
