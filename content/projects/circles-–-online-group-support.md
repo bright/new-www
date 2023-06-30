@@ -5,6 +5,8 @@ team_members:
   - rafal h
 our_service:
   - web development
+  - mobile app development
+  - cloud services
 layout: project
 project_id: circles
 title: Circles – Online Group Support
