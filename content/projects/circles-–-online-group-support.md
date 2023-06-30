@@ -93,7 +93,7 @@ Eyal Cafri – VP R&D at Circles:
 
 *Bright Inventions were above our expectations, and we are very happy from both the great quality of people we fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.*
 
-## What’s next for Circles and Bright Inventions?
+<TitleWithIcon sectionTitle='what is next' titleIcon='/images/results_icon_title_small.png' titleIconAlt='what is next' />
 
 As always we will support our client and deliver the best possible solutions to satisfy the growing number of Circles users. Having in mind that we help to develop a unique product that enables people to go through life-changing events and offers them essential support. We are proud and grateful to be able to assist Circles in building such a unique healthcare application.
 
