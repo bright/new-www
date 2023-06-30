@@ -5,6 +5,8 @@ team_members:
   - rafal h
 our_service:
   - web development
+  - mobile app development
+  - cloud services
 layout: project
 project_id: circles
 title: Circles – Online Group Support
@@ -46,7 +48,7 @@ language: en
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
-## Main features developed by Bright Inventions:
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Onboarding which helps users quickly find the support group suitable for their needs.
 * New features for video conferences such as group chat or screen sharing by a group facilitator.
@@ -55,13 +57,13 @@ Be in grief over the loss of a special someone, the pain of divorce or separatio
 * Redesign of the group space where group members can interact with each other.
 * Customized business tool for processing user experience, traffic and acquisition data.
 
-## Skills
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
 Frontend: TypeScript, React
 
 Backend: Node.js, PostgreSQL/Redis, NestJS, AWS
 
-## About Circles
+<TitleWithIcon sectionTitle='about Circles' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 Circles is a leading emotional support platform that connects people experiencing similar challenges in small online groups led by mental health experts. **Awarded as the Best Platform for Group Therapy 2021, Circles app has already supported thousands of people** while coping with grief, navigating divorce and separation, going through complex relationships or other life challenges.
 
@@ -69,7 +71,7 @@ Circles groups meet live for 60-minute video meetings and also have the ability 
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=3SRelp9NtAA' />
 
-## Circles Development Process
+<TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='## Circles Development Process' />
 
 Circles is a support-groups platform developed by an Israeli startup. The client came to us thanks to the referral from our long-term client. We have started our cooperation in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. We are responsible for the web version of the app by delivering full stack solutions.
 
@@ -85,7 +87,7 @@ On top of that, we deliver solutions that enable analyzing data. For example, ou
 
 Bright Inventions works closely with the client, joining meetings with various teams to understand perspectives of every side including marketing and sales departments. Working with the Circles team means not only working on tech but also exploring the business nature of the project. 
 
-## Circles’ Perspective
+<TitleWithIcon sectionTitle='Circles’ perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='Circles’ perspective' />
 
 Eyal Cafri – VP R&D at Circles:
 
@@ -93,7 +95,7 @@ Eyal Cafri – VP R&D at Circles:
 
 *Bright Inventions were above our expectations, and we are very happy from both the great quality of people we fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.*
 
-## What’s next for Circles and Bright Inventions?
+<TitleWithIcon sectionTitle='what is next' titleIcon='/images/results_icon_title_small.png' titleIconAlt='what is next' />
 
 As always we will support our client and deliver the best possible solutions to satisfy the growing number of Circles users. Having in mind that we help to develop a unique product that enables people to go through life-changing events and offers them essential support. We are proud and grateful to be able to assist Circles in building such a unique healthcare application.
 
