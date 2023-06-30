@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { SectionBlack } from './index'
 import { CustomContainer, CustomSectionTitle, SectionTitle } from './index.styled'
+import { useTranslation } from 'react-i18next'
 
 const SectionBlackContainer = styled(SectionBlack)`
   padding: ${variables.pxToRem(64)} 15rem;
@@ -74,6 +75,7 @@ interface TechnologyTagsProps {
 }
 
 const TechnologyTags = ({ tags }: TechnologyTagsProps) => {
+  const { t } = useTranslation('title')
   return (
     <SectionBlackContainer>
       <CustomSectionTitle
@@ -84,7 +86,7 @@ const TechnologyTags = ({ tags }: TechnologyTagsProps) => {
         mobileMargin='0 0 32px'
         style={{ color: `${variables.color.white}` }}
       >
-        we work with
+        {t('we work with')}
       </CustomSectionTitle>
 
       <CustomContainer>
