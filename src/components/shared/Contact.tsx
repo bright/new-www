@@ -98,7 +98,6 @@ export const Contact: FC<ContactProps> = ({
   actionFormButton,
 }) => {
   const { t } = useTranslation(['contact', 'placeholder', 'button', 'other copy'])
-  console.log(t('name@company.com', { ns: 'placeholders' }))
   const [name, setName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
 
