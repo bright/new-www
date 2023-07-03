@@ -40,7 +40,7 @@ language: en
 * Defining search parameters for items and locations
 * Adding real estate and automotive listings to users’ ‘Favourites’ lists
 
-## Intro
+<TitleWithIcon sectionTitle='intro' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 EasyTapp was an iOS and Android app that allowed users to browse through real estate and automotive listings. The app triggered push notifications on users’ phones in real time, as they were passing by a residential property or car that were up for sale.
 
