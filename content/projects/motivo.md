@@ -28,7 +28,7 @@ tags:
   - bluetooth
 title_team: team
 title_case_study: more success stories
-title_contact: Let's talk about your app
+title_contact: l et's talk about your app
 description_contact: Contact us and we'll get back to you within 48 hours!
 order: 99
 slug: motivo
