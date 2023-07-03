@@ -52,9 +52,7 @@ language: en
 
 <TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='stack/skills' />
 
-
-
-
+<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/react.png","alt":"React"}]' />
 
 **iOS:** Swift, RxSwift, Alamofire
 
