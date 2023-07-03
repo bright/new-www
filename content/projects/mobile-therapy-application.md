@@ -64,6 +64,8 @@ language: en
 
 ## Intro
 
+<TitleWithIcon sectionTitle='intro' titleIcon='/images/three_flags.svg' titleIconAlt='intro' />
+
 At some point in our lives, either we ourselves or our loved ones will require physiotherapy to get back on our feet. However, there are many factors that influence whether this will be a stress-free and effective process.\
 With this in mind, our client created an app that supports therapists and patients on their way to a fast (and lasting!) recovery.
 
@@ -71,7 +73,7 @@ With this in mind, our client created an app that supports therapists and patien
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 Our client, a product design agency and an early-stage project incubator, has turned to us with a ready-to-implement idea for an app. Before reaching out to Bright Inventions, they had already spent months validating their concept by observing physiotherapy sessions. This resulted in a comprehensive plan for an app that would solve the biggest challenges patients and therapists face.
 
@@ -96,7 +98,7 @@ Our client also had a high-fidelity wireframe of the app, and entrusted us with 
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Process
+<TitleWithIcon sectionTitle='development process' titleIcon='/images/gearwheel.svg' titleIconAlt='process' />
 
 One of the key challenges for the system was making sure that it matched the way physical therapy looks like in real life. As visits tend to be very short, it was crucial that the therapist and patients would be able to link their accounts in the app quickly. Naturally, not all patients already had the app when they came in, nor did everyone feel comfortable with using new technologies. Low levels of tech-savviness meant it was difficult for them to download the app, register an account, and – most importantly – link their profiles with those of therapists.
 
@@ -108,6 +110,6 @@ On the patient profile, one could download the therapy plan, as well as use the 
 
 The therapist panel was much more sophisticated. Firstly, it needed to allow therapists to customize plans for each patient. They also needed to plan out exercise sessions on a calendar and include information on the number of circuits per each exercise. Additionally, they needed an option to store photos and videos recorded during the patient’s therapeutic session. Alternatively, they were also to choose from a library of tutorial videos stored in the CMS.
 
-## Result
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
 Our work with the client lasted until the MVP was built and refined. The entire cooperation took place for half a year. Six months later, our clients put up the app for sale. Quickly, an interested party decided to order an audit of the software before making an offer. Upon a positive review of the service, the company decided to finalize their purchase and are now developing the app with an in-house development team.
