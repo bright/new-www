@@ -28,7 +28,7 @@ tags:
   - bluetooth
 title_team: team
 title_case_study: more success stories
-title_contact: l et's talk about your app
+title_contact: let's talk about your app
 description_contact: Contact us and we'll get back to you within 48 hours!
 order: 99
 slug: motivo
@@ -52,7 +52,7 @@ When you’re a cyclist winter months is when your next season performance is de
 
 ![Cycling Workouts Mobile App](/images/motivo-2.png)
 
-## Goal
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 Daniel Bachini and Alain Ritchie, two London based cycling professionals, approached Bright Inventions in the late Summer of 2014 with the idea for a mobile training platform that would help cyclists like themselves in staying fit during the off season months.
 
@@ -66,7 +66,7 @@ Bright Inventions was engaged in the ideation process and took full responsibili
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-## Process
+<TitleWithIcon sectionTitle='process' titleIcon='/images/gearwheel.svg' titleIconAlt='process' />
 
 A very ambitious timeline called for a highly optimised approach to the development. From the day zero a dedicated small team has been assigned to work on the Wahoo Fitness integration aspects. In parallel, two workshops with the customer representatives (held in Gdansk and London) led to the identification of the features supporting key business needs and the creation of prioritised requirements spec. It was clear from the beginning that some of the lower priority features wouldn’t make it to the first version of the product.
 
