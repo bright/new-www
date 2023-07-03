@@ -42,7 +42,7 @@ language: en
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Main features:
+<TitleWithIcon sectionTitle='main features' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Therapist module (user panel)
 * Patient module (user panel)
@@ -50,7 +50,11 @@ language: en
 * Custom animations
 * Background connection between patient's and therapist's devices
 
-## Skills:
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='stack/skills' />
+
+
+
+
 
 **iOS:** Swift, RxSwift, Alamofire
 
