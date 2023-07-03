@@ -38,9 +38,7 @@ show on homepage: false
 published: true
 language: en
 ---
-![Cycling Workouts Mobile App Development](/images/motivo_mockup.png)
-
-## Main features:
+<TitleWithIcon sectionTitle='main features' titleIcon='/images/main_features_icon.png' titleIconAlt='Main features' />
 
 * Wahoo Fitness Integration
 * Apple In app purchases
@@ -60,9 +58,13 @@ Daniel Bachini and Alain Ritchie, two London based cycling professionals, approa
 
 The goal was to launch a fully fledged system before the upcoming winter season after having tested the alpha and beta versions with the internal Motivo Cycling Team.
 
+![Cycling Workouts Mobile App Development](/images/motivo_mockup.png)
+
 A major challenge during the development phase was to ensure seamless integration with a set of Wahoo Fitness devices ranging from the heart rate sensors, speed & power sensors to power trainers (such as Wahoo’s flagship KICKR model).
 
 Bright Inventions was engaged in the ideation process and took full responsibility for the software part.
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 ## Process
 
@@ -74,7 +76,9 @@ A highly iterative approach was taken with regards to user interface. Two most i
 
 ![Cycling Workouts Mobile App](/images/motivo-1.png)
 
-## Launch
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
+<TitleWithIcon sectionTitle='launch' titleIcon='/images/results_icon_title_small.png' titleIconAlt='launch' />
 
 The AppStore launch in January 2015 was supported by an advertising campaign that included ads in the UK sport press. A number of free subscription packages were given away as a way of enticing prospective users.
 
