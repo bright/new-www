@@ -34,11 +34,7 @@ show on homepage: false
 published: true
 language: en
 ---
-![easytapp mobile app development](/images/easytap_quartet1_copy.png)
-
-<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
-
-## Main features
+<TitleWithIcon sectionTitle='main features' titleIcon='/images/main_features_icon.png' titleIconAlt='Main features' />
 
 * Browsing through residential and car listings (with photos)
 * Defining search parameters for items and locations
@@ -48,9 +44,15 @@ language: en
 
 EasyTapp was an iOS and Android app that allowed users to browse through real estate and automotive listings. The app triggered push notifications on users’ phones in real time, as they were passing by a residential property or car that were up for sale.
 
-## Goal
+![easytapp mobile app development](/images/easytap_quartet1_copy.png)
+
+<sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
 
 When Bright Inventions first started working on the project, the company already had an operational backend and ready-to-implement designs for the user interface. They now needed a reliable mobile development partner to bring their iOS and Android apps to life. 
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 Firstly, the goal was to allow users to browse through, filter, and save car and real estate listings to their ‘Favourites’ lists. Secondly, EasyTapp founders wanted to help sellers bring attention to their offers by leveraging user location data. Namely, they wanted the app to trigger push notifications on users’ screens, informing them that they were in the vicinity of a car or real estate that were up for sale on the EasyTapp platform.
 
@@ -58,10 +60,12 @@ Firstly, the goal was to allow users to browse through, filter, and save car and
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-## Process
+<TitleWithIcon sectionTitle='process' titleIcon='/images/gearwheel.svg' titleIconAlt='process' />
 
 The key challenge Bright Invention developers had to face was finding a technological solution that would allow the app to synchronize effortlessly in the background without draining the device’s battery (as it’s often the case if location data is enabled in the background). For this reason, our experts decided to bet on iBeacon technology. If a seller purchased an iBeacon device, they would have been able to trigger automatic notifications on potential buyers’ screens, as they passed by the car or property. Such an approach was  much more efficient and battery-friendly compared to the GPS-based alternative.
 
-## Results
+<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 The application was successfully finalized and launched in Google Play and the iOS App Store. As of late-2020, the app was no longer being maintained and has been withdrawn from both app stores.
