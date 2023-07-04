@@ -42,7 +42,7 @@ language: de
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Haupteigenschaften:
+<TitleWithIcon sectionTitle='haupteigenschaften' titleIcon='/images/main_features_icon.png' titleIconAlt='haupteigenschaften' />
 
 * Therapeutenmodul(Benutzerpanel)
 * Patientenmodul(Benutzerpanel)
@@ -50,8 +50,9 @@ language: de
 * Benutzerdefinierte Animationen
 * Hintergrundverbindung zwischen den Geräten des Patienten und des Therapeuten
 
+<TitleWithIcon sectionTitle='fähigkeiten' titleIcon='/images/skills.svg' titleIconAlt='fähigkeiten' />
 
-## Fähigkeiten:
+<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/react.png","alt":"React"}]' />
 
 **iOS:** Swift, RxSwift, Alamofire
 
@@ -60,6 +61,8 @@ language: de
 **Backend:** Node.js, Typescript, PostgreSQL, AWS Services
 
 **Frontend:** React, Typescript
+
+<TitleWithIcon sectionTitle='intro' titleIcon='/images/three_flags.svg' titleIconAlt='intro' />
 
 ## Intro
 
@@ -85,11 +88,8 @@ Unser Kunde, eine Produktdesignagentur und Inkubator für Projekte in der Frühp
 Unser Kunde hatte auch ein High-Fidelity-Wireframe der App und beauftragte uns mit der Implementierung des gesamten Systems, bestehend aus:
 
 * iOS und Android apps,
-
 * Backend,
-
 * Content Management System (verwendet zum Beispiel zum Speichern von Schritt-für-Schritt-Video-Tutorials für Patienten),
-
 * Ein Admin-Panel für Therapeuten.
 
 ![Mobile Therapy App](/images/mobile_therapy_app3.jpg)
