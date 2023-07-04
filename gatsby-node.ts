@@ -149,6 +149,32 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
                     }
                   }
                   title
+                  tags
+                  date
+                  meaningfullyUpdatedAt
+                }
+                fields {
+                  slug
+                }
+              }
+            }
+          }
+          thirdAuthor: allMdx(
+            filter: {frontmatter: {layout: {eq: "post"}, published: {ne: false}, hidden: {ne: true}, thirdAuthor: {eq: "${member.author_id}"}}}
+            sort: [{ frontmatter: {meaningfullyUpdatedAt: ASC } }, { frontmatter: { meaningfullyUpdatedAt: DESC }}],
+          ) {
+            edges {
+              node {
+                id
+                internal {  contentFilePath  }
+                frontmatter {
+                  image {
+                    childImageSharp {
+                      gatsbyImageData
+                    }
+                  }
+                  title
+                  tags
                   date
                   meaningfullyUpdatedAt
                 }
