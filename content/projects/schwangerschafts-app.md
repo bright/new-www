@@ -1,6 +1,6 @@
 ---
 team_members:
-  - olo
+  - michal
 our_service:
   - MVP-Entwicklung Agentur
 layout: project
