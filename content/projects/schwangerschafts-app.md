@@ -1,6 +1,6 @@
 ---
 team_members:
-  - olo
+  - michal
 our_service:
   - MVP-Entwicklung Agentur
 layout: project
@@ -26,17 +26,17 @@ tags:
   - customized software
   - eHealth
 title_team: team
-title_case_study: case study
-title_contact: Kontaktieren Sie uns
+title_case_study: weitere von uns entwickelte Anwendungen
+title_contact: kontaktieren Sie uns
 description_contact: Erzählen Sie uns mehr über Ihr Projekt oder Ihre Idee für
   eine App. Füllen Sie das Formular aus.
 order: 99
 slug: schwangerschafts-app
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: false
 published: false
-language: en
+language: de
 ---
 ![Pregnancy App](/images/preganncy_app_2_screens2.png)
 
