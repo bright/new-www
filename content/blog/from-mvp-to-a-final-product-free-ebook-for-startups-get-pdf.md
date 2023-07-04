@@ -18,6 +18,8 @@ language: en
 ---
 **Download the free ebook about Minimum Viable Product (MVP) development. This is the ultimate guide for startup founders, CTOs and product owners who are considering launching the product. Why should your start with MVP? What mistakes should you avoid? What factors determine the cost of MVP? Get your copy now!**
 
+<EbookDynamic sectionTitle='get free MVP guide now' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription=' Calling all founders, CTOs and product owners! Dive into the world of MVP development with our comprehensive ebook. Don’t wait, grab your copy here!' ebookImage='/images/mvp_ebook_cover.svg' ebookAlt='MVP free ebook for startups' />
+
 ## What’s inside the MVP ebook?
 
 Check out the table of contents:
@@ -38,6 +40,6 @@ Do you have an idea for an app but you don’t know what to do next? You are not
 
 ## Authors
 
-<div class="image"><img src="/images/ebook_authors.png" alt="ebook MVP pdf" title="ebook MVP pdf"  /> </div>
+<div class="image"><img src="/images/ebook_mvp_authors_blog.png" alt="ebook MVP authors" title="ebook MVP authors"  /> </div>
 
 At Bright Inventions we have been developing MVPs for over a decade. This ebook is based on our team's experience in launching MVPs for startups based in Israel, Norway, Germany, the USA, and more. Feel free to get your copy!
