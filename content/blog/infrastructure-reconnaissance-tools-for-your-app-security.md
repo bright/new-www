@@ -60,4 +60,4 @@ Check out the infrastructure reconnaissance tools that we use and recommend to k
 * aggregates several websites and provides an option to check headers, do TLS scans and see third-party analysis,
 * provides businesses with a comprehensive infrastructure reconnaissance solution.
 
-<EbookDynamic sectionTitle='That’s not all!' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Expand your security toolkit by downloading our free ebook today. You will find plenty of useful tools to keep your data safe.'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+<EbookDynamic sectionTitle='That’s not all!' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Expand your security toolkit by downloading our free ebook today. You will find plenty of useful tools to keep your data safe.'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />

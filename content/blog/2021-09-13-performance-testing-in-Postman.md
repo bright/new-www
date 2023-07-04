@@ -89,4 +89,4 @@ Obviously, Postman has limitations but it’s impressive that you can go from no
 
 I recommend always considering the easy, convenient solution before trying the cumbersome, time-consuming options. It may turn out to be exactly what you need!
 
- <EbookDynamic sectionTitle='get free ebook about app security' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Delivering a secure app is key part of quality assurance. Do you agree? Download a free ebook about app software security. Check if your products are secure!'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+ <EbookDynamic sectionTitle='get free ebook about app security' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Delivering a secure app is key part of quality assurance. Do you agree? Download a free ebook about app software security. Check if your products are secure!'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />

@@ -40,4 +40,4 @@ language: en
 
 In conclusion, secret leak detection tools are essential for your product or organization to ensure its data security. By using these tools, you can detect and prevent secret leaks and protect sensitive information. You can choose any of the tools mentioned above depending on their specific requirements and security needs.
 
-<EbookDynamic sectionTitle='More tools to dicover in free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Download our free ebook to discover additional security tools. Claim your copy today!'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security ebook cover' />
+<EbookDynamic sectionTitle='More tools to dicover in free ebook' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Download our free ebook to discover additional security tools. Claim your copy today!'  ebookUrl='undefined'  ebookImage='/images/cover_ebook_security.png' ebookAlt='security ebook cover' />
