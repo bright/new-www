@@ -41,7 +41,7 @@ language: de
 ---
 ![A trade fair planning software](/images/xpomaker_dashboard2.png)
 
-## Haupteigenschaften
+<TitleWithIcon sectionTitle='haupteigenschaften' titleIcon='/images/main_features_icon.png' titleIconAlt='haupteigenschaften' />
 
 * Schaffung neuer Messeprojekte
 * Einladen von Benutzern als Teammitglieder zu Projekten
@@ -51,7 +51,9 @@ language: de
 * Kalenderansicht der für die Messe geplanten Aufgaben und Veranstaltungen
 * Planer für das Budget- und Ausgabenmanagement
 
-## Fähigkeiten
+<TitleWithIcon sectionTitle='fähigkeiten' titleIcon='/images/skills.svg' titleIconAlt='fähigkeiten' />
+
+<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/nest.png","alt":"NestJS"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/docker_stack_logo.png","alt":"Docker"},{"src":"/images/teamcity_stack_logo.png","alt":"Teamcity"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
 * Deployment: Docker + Docker-Compose, AWS - CloudFormation, ECS, EC2, S3, LoadBalancer, RDS, TeamCity
 * FrontEnd: ReactJS + TypeScript, Redux, Sass
