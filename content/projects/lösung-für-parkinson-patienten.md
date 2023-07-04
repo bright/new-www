@@ -53,17 +53,19 @@ language: de
 
 <TitleWithIcon sectionTitle='fähigkeiten' titleIcon='/images/skills.svg' titleIconAlt='fähigkeiten' />
 
+<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
+
 iOS: Swift, RxSwift, Alamofire
 
 Android: Kotlin, RxKotlin, Dagger, Retrofit
 
 Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
-## Über die App für Parkinson-Patienten
+<TitleWithIcon sectionTitle='über die App für Parkinson-Patienten' titleIcon='/images/three_flags.svg' titleIconAlt='über die App für Parkinson-Patienten' />
 
 Das Leben mit einer chronischen Krankheit wie Parkinson erfordert dem Patienten viele Veränderungen im Lebensstil auf. Für diejenigen, die gegen die Krankheit kämpfen, ist es von entscheidender Bedeutung, dass sie eine Möglichkeit haben, ihre allgemeinen Vitalwerte, die Einnahme von Medikamenten oder alle Symptome, auf die sie ihren Arzt aufmerksam machen müssen, leicht zu verfolgen.
 
-## Ziel
+<TitleWithIcon sectionTitle='ziel' titleIcon='/images/goal_title_section.png' titleIconAlt='ziel' />
 
 Unser langjähriger Kunde (eine Produktdesignagentur und Projektinkubator in der Frühphase) wandte sich mit einer umsetzungsfertigen Idee seiner Kunden für eine App an uns. Ziel des Projekts war die Entwicklung einer mobilen App, die den Alltag von Parkinson-Patienten vereinfachen wird.
 
@@ -75,7 +77,7 @@ Und so wurde Bright Inventions mit der Umsetzung des gesamten Systems betraut �
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Ablauf der App-Entwicklung
+<TitleWithIcon sectionTitle='ablauf der App-Entwicklung' titleIcon='/images/gearwheel.svg' titleIconAlt='ablauf der App-Entwicklung' />
 
 Es gab mehrere Herausforderungen, die wir angehen mussten. Erstens musste die App für Patienten mit Tremor oder anderen Bewegungsstörungen geeignet sein. Da ältere Menschen die Mehrheit der an Parkinson erkrankten Patienten ausmachen, musste die Benutzeroberfläche gut lesbar und äußerst intuitiv sein um die Wahrscheinlichkeit von Fehlern zu minimieren. Sollte es jedoch zu einer versehentlichen Eingabe kommen, muss die Schnittstelle auch die Möglichkeit bieten, die Aktion rückgängig zu machen.
 
@@ -91,7 +93,7 @@ Aus diesem Grund hat sich Bright Inventions entschieden, die Datenbank in zwei T
 
 Die erste Datenbank hat die grundlegende Benutzerdaten wie Name oder E-Mail-Adresse gespeichert. Die zweite Datenbank hat empfindliche Informationen enthalten, einschließlich der Einnahme von Medikamenten oder körperlichen Symptomen und Empfindungen. Durch diese Entscheidung haben wir sichergestellt, dass die angreifende Seite nicht in der Lage wäre, auf alle Informationen zuzugreifen. Auf diese Weise gab es praktisch keine Chance, Symptome oder Medikamenteneinnahme bestimmten Patientennamen zuzuordnen.
 
-## Ergebnis der Zusammenarbeit
+<TitleWithIcon sectionTitle='ergebnis der Zusammenarbeit' titleIcon='/images/results_icon_title_small.png' titleIconAlt='ergebnis der Zusammenarbeit' />
 
 Insgesamt hat unsere Projektarbeit 5 Monate gedauert und bestand aus zwei Etappen. Die erste Phase endete mit dem Launch des MVP (Entwicklung dauerte 3 Monate). Die zweite Phase unserer Zusammenarbeit, die zu mehreren Iterationen des Systems geführt hat, erstreckte sich über einen Zeitraum von weiteren 2 Monaten.
 
