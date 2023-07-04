@@ -53,6 +53,8 @@ language: de
 
 <TitleWithIcon sectionTitle='fähigkeiten' titleIcon='/images/skills.svg' titleIconAlt='fähigkeiten' />
 
+<Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
+
 iOS: Swift, RxSwift, Alamofire
 
 Android: Kotlin, RxKotlin, Dagger, Retrofit
@@ -75,7 +77,7 @@ Und so wurde Bright Inventions mit der Umsetzung des gesamten Systems betraut �
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Ablauf der App-Entwicklung
+<TitleWithIcon sectionTitle='ablauf der App-Entwicklung' titleIcon='/images/gearwheel.svg' titleIconAlt='ablauf der App-Entwicklung' />
 
 Es gab mehrere Herausforderungen, die wir angehen mussten. Erstens musste die App für Patienten mit Tremor oder anderen Bewegungsstörungen geeignet sein. Da ältere Menschen die Mehrheit der an Parkinson erkrankten Patienten ausmachen, musste die Benutzeroberfläche gut lesbar und äußerst intuitiv sein um die Wahrscheinlichkeit von Fehlern zu minimieren. Sollte es jedoch zu einer versehentlichen Eingabe kommen, muss die Schnittstelle auch die Möglichkeit bieten, die Aktion rückgängig zu machen.
 
