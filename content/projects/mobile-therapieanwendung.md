@@ -64,8 +64,6 @@ language: de
 
 <TitleWithIcon sectionTitle='intro' titleIcon='/images/three_flags.svg' titleIconAlt='intro' />
 
-## Intro
-
 Irgendwann in unserem Leben benötigen entweder wir selbst oder unsere Lieben eine Physiotherapie, um wieder auf die Beine zu kommen. Es gibt jedoch viele Faktoren, die Einfluss darauf haben, ob dies ein stressfreier und effektiver Prozess sein wird.
 
 Vor diesem Hintergrund hat unser Kunde eine App entwickelt, die Therapeuten und Patienten auf dem Weg zu einer schnellen (und nachhaltigen!) Genesung unterstützt.
@@ -74,7 +72,7 @@ Vor diesem Hintergrund hat unser Kunde eine App entwickelt, die Therapeuten und 
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde*
 
-## Ziel
+<TitleWithIcon sectionTitle='ziel' titleIcon='/images/goal_title_section.png' titleIconAlt='ziel' />
 
 Unser Kunde, eine Produktdesignagentur und Inkubator für Projekte in der Frühphase, hat sich mit einer umsetzungsreifen Idee für eine App an uns gewandt. Bevor sie sich an Bright Inventions wandten, hatten sie bereits Monate damit verbracht, ihr Konzept festzustellen, indem sie Physiotherapiesitzungen beobachteten. Daraus entstand ein umfassender Plan für eine App, die die größten Herausforderungen von Patienten und Therapeuten lösen sollte.
 
@@ -96,7 +94,7 @@ Unser Kunde hatte auch ein High-Fidelity-Wireframe der App und beauftragte uns m
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Verfahren
+<TitleWithIcon sectionTitle='verfahren' titleIcon='/images/gearwheel.svg' titleIconAlt='verfahren' />
 
 Eine der größten Herausforderungen für das System bestand darin, sicherzustellen, dass es der Art und Weise entspricht, wie Physiotherapie im wirklichen Leben aussieht. Da die Besuche in der Regel sehr kurz sind, war es entscheidend, dass Therapeut und Patient ihre Konten in der App schnell verknüpfen können. Natürlich hatten nicht alle Patienten die App bei ihrem Eintritt bereits und haben sich auch nicht wohl im Umgang mit neuen Technologien gefühlt. Aufgrund ihrer geringen Technikkenntnisse war es für sie schwierig, die App herunterzuladen, ein Konto zu registrieren und – was am wichtigsten ist – ihre Profile mit denen von Therapeuten zu verknüpfen.
 
@@ -108,6 +106,6 @@ Auf dem Patientenprofil konnte man den Therapieplan herunterladen sowie die App 
 
 Das Therapeutenpanel war viel anspruchsvoller. Erstens musste es den Therapeuten ermöglicht werden, Pläne für jeden Patienten individuell anzupassen. Außerdem mussten sie die Trainingseinheiten in einem Kalender planen und Informationen über die Anzahl der Zirkel pro Übung eintragen. Außerdem brauchten sie eine Option zum Speichern von Fotos und Videos, die während der therapeutischen Sitzung des Patienten aufgenommen wurden. Alternativ sollten sie auch aus einer im CMS gespeicherten Bibliothek von Tutorial-Videos auswählen
 
-## Ergebnis
+<TitleWithIcon sectionTitle='ergebnis' titleIcon='/images/results_icon_title_small.png' titleIconAlt='ergebnis' />
 
 Unsere Arbeit mit dem Kunden dauerte, bis das MVP gebaut und verbessert wurde. Die gesamte Zusammenarbeit hat ein halbes Jahr gedauert. Sechs Monate später haben unsere Kunden die App zum Verkauf angeboten. Schnell hat sich ein Interessent entschieden, vor Abgabe eines Angebots ein Audit der Software zu beauftragen. Nach einer positiven Bewertung hat sich das Unternehmen entschieden, den Kauf abzuschließen und entwickelt die App nun mit einem internen Entwick
