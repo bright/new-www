@@ -6,12 +6,12 @@ tags:
   - update
   - startups
   - MVP
-date: 2023-07-04T07:05:11.065Z
-meaningfullyUpdatedAt: 2023-07-04T07:05:11.098Z
+date: 2023-07-04T07:38:32.701Z
+meaningfullyUpdatedAt: 2023-07-04T07:38:33.285Z
 title: From MVP to a Final Product. Free Ebook for Startups [Get PDF]
 layout: post
 image: /images/ebook_blog_cover_mvp.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
