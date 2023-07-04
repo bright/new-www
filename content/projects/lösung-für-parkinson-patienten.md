@@ -27,14 +27,14 @@ tags:
   - customized software
   - eHealth
 title_team: team
-title_case_study: case study
+title_case_study: weitere von uns entwickelte Anwendungen
 title_contact: in 48 Stunden eine kostenlose Beratung buchen
 description_contact: Erzählen Sie uns mehr über Ihr Projekt oder Ihre Idee für
   eine App. Füllen Sie das Formular aus.
 order: 99
 slug: losung-fur-parkinson-patienten
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: false
 published: false
 language: de
