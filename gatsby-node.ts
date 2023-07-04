@@ -232,33 +232,31 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const services = serviceResult.data!.allMdx.edges
 
   services.forEach(service => {
-                                createPage({
-                                  path: 'our-areas/' + service.node.frontmatter.slug,
-                                  component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
-                                  context: {
-                                    id: service.node.id,
-                                    slug: service.node.frontmatter!!.slug,
-                                    language: service.node.frontmatter!!.language,
-                                  },
-                                })
+    createPage({
+      path: 'our-areas/' + service.node.frontmatter.slug,
+      component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
+      context: {
+        id: service.node.id,
+        slug: service.node.frontmatter!!.slug,
+        language: service.node.frontmatter!!.language,
+      },
+    })
 
-                                const faqs = service.node.frontmatter.faqs
-                                faqs.forEach(
-                                  (faq: { frontmatter: { question: string; slug: string; language: string } }) => {
-                                    createPage({
-                                      path: 'our-areas/' + service.node.frontmatter.slug + '/' + faq.frontmatter.slug,
-                                      component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
-                                      context: {
-                                        id: service.node.id,
-                                        slug: service.node.frontmatter.slug,
-                                        faqTitle: faq.frontmatter.question,
-                                        faqSlug: faq.frontmatter.slug,
-                                        language: faq.frontmatter.language,
-                                      },
-                                    })
-                                  }
-                                )
-                              })
+    const faqs = service.node.frontmatter.faqs
+    faqs.forEach((faq: { frontmatter: { question: string; slug: string; language: string } }) => {
+      createPage({
+        path: 'our-areas/' + service.node.frontmatter.slug + '/' + faq.frontmatter.slug,
+        component: `${__dirname}/src/our-services/Service.tsx?__contentFilePath=${service.node.internal.contentFilePath}`,
+        context: {
+          id: service.node.id,
+          slug: service.node.frontmatter.slug,
+          faqTitle: faq.frontmatter.question,
+          faqSlug: faq.frontmatter.slug,
+          language: faq.frontmatter.language,
+        },
+      })
+    })
+  })
 
   const postResult = await graphql<GQLData>(
     `
