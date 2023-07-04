@@ -59,7 +59,7 @@ language: de
 * FrontEnd: ReactJS + TypeScript, Redux, Sass
 * Backend: NestJS, TypeORM, PostgreSQL, Swagger, Stripe
 
-## Darüber
+<TitleWithIcon sectionTitle='darüber' titleIcon='/images/three_flags.svg' titleIconAlt='darüber' />
 
 Für viele Branchen ist die Teilnahme an Messen das Herzstück des Geschäfts und ein Schlüsselelement für den Verkauf, die Leadgenerierung und den Aufbau von B2B-Partnerschaften. Die Verantwortung für die Ausstellung auf Branchenveranstaltungen kann sich jedoch angesichts der Anzahl der damit verbundenen Aufgaben überwältigend anfühlen. In den meisten Fällen muss Ihr Messeauftritt Monate im Voraus sorgfältig geplant werden und erfordert von Ihnen die gleichzeitige Koordination mehrerer Prozesse. Eine einzige Verzögerung eines Auftragnehmers oder ein kleines Versäumnis auf Ihrer Seite, und – wie bei einem Dominospiel – kann der gesamte Plan zusammenbrechen.
 
@@ -67,11 +67,11 @@ Wie behält man also den Überblick, ohne sich Gedanken über organisatorisches 
 
 ![A trade fair planning software](/images/xpomaker_dashboard.png)
 
-## Ziel
+<TitleWithIcon sectionTitle='ziel' titleIcon='/images/goal_title_section.png' titleIconAlt='ziel' />
 
 Die Gründer von xpomaker haben nach einem erfahrenen Produktdesignteam gesucht, das die allgemeine Vision für die Software in ein benutzerfreundliches, optisch ansprechendes Produkt übersetzen würde. Als sich unsere Wege zum ersten Mal gekreuzt haben, hatten sie bereits mit einem Beratungsunternehmen zusammengearbeitet, das dabei geholfen hat, die erforderlichen UX-Funktionen und Benutzererwartungen zu ermitteln. Während unsere Zusammenarbeit zunächst mit einem Interface-Design-Projekt begonnen hat, wurden wir schnell gebeten, die gesamte App zu rebranden und neu zu gestalten – einschließlich der Betreuung von Frontend- und Backend-Anpassungen.
 
-## Verfahren
+<TitleWithIcon sectionTitle='verfahren' titleIcon='/images/gearwheel.svg' titleIconAlt='verfahren' />
 
 Wir haben zunächst an der Bereitstellung von High-Fidelity-Wireframe der vorgeschlagenen Benutzeroberfläche gearbeitet. Um sicherzustellen, dass die Designs alle erforderlichen Funktionen enthalten, hat unser Team mit dem Produkteigentümer des Beratungsunternehmens zusammengearbeitet.
 
@@ -85,7 +85,7 @@ Nachdem unsere Arbeit am Interface-Design abgeschlossen war, engagierte uns xpom
 
 Nach der Rebranding-Phase unserer Zusammenarbeit, in der sich der Name und die visuelle Identität des Unternehmens geändert hatten, hat unser Team die gesamte App neu gestaltet und die Software entsprechend weiterentwickelt.
 
-## Ergebnis
+<TitleWithIcon sectionTitle='ergebnis' titleIcon='/images/results_icon_title_small.png' titleIconAlt='ergebnis' />
 
 xpomaker ist jetzt auf dem deutschen Markt präsent und bietet drei Abonnements an. Mit der Software können Benutzer beliebig viele Ausstellungsprojekte koordinieren.
 Unser Team ist derzeit für die App-Wartung zuständig.
