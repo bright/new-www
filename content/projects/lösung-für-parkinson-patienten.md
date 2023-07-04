@@ -93,7 +93,7 @@ Aus diesem Grund hat sich Bright Inventions entschieden, die Datenbank in zwei T
 
 Die erste Datenbank hat die grundlegende Benutzerdaten wie Name oder E-Mail-Adresse gespeichert. Die zweite Datenbank hat empfindliche Informationen enthalten, einschließlich der Einnahme von Medikamenten oder körperlichen Symptomen und Empfindungen. Durch diese Entscheidung haben wir sichergestellt, dass die angreifende Seite nicht in der Lage wäre, auf alle Informationen zuzugreifen. Auf diese Weise gab es praktisch keine Chance, Symptome oder Medikamenteneinnahme bestimmten Patientennamen zuzuordnen.
 
-## Ergebnis der Zusammenarbeit
+<TitleWithIcon sectionTitle='ergebnis der Zusammenarbeit' titleIcon='/images/results_icon_title_small.png' titleIconAlt='ergebnis der Zusammenarbeit' />
 
 Insgesamt hat unsere Projektarbeit 5 Monate gedauert und bestand aus zwei Etappen. Die erste Phase endete mit dem Launch des MVP (Entwicklung dauerte 3 Monate). Die zweite Phase unserer Zusammenarbeit, die zu mehreren Iterationen des Systems geführt hat, erstreckte sich über einen Zeitraum von weiteren 2 Monaten.
 
