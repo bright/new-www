@@ -43,16 +43,15 @@ language: de
 
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
-## Von Bright Inventions entwickelte Hauptfunktionen:
+<TitleWithIcon sectionTitle='von Bright Inventions entwickelte Hauptfunktionen:' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
 
 * Verfolgung der körperlichen Reaktion auf Standard- und experimentelle Therapien
-Medikamentenerinnerung
+  Medikamentenerinnerung
 * Zugänglichkeit – eine einfache Möglichkeit, medizinische Informationen für Patienten mit Bewegungsstörungen hinzuzufügen
 * Erweiterte Statistiken und Berichte für Ärzte
 * Gamifizierung der App
 
-
-## Fähigkeiten:
+<TitleWithIcon sectionTitle='fähigkeiten:' titleIcon='/images/skills.svg' titleIconAlt='fähigkeiten:' />
 
 iOS: Swift, RxSwift, Alamofire
 
@@ -77,6 +76,7 @@ Und so wurde Bright Inventions mit der Umsetzung des gesamten Systems betraut �
 *Es ist kein wirklich implementiertes Design. Es handelt sich um ein Mockup-Beispiel, das zum Zweck der Fallstudie erstellt wurde.*
 
 ## Ablauf der App-Entwicklung
+
 Es gab mehrere Herausforderungen, die wir angehen mussten. Erstens musste die App für Patienten mit Tremor oder anderen Bewegungsstörungen geeignet sein. Da ältere Menschen die Mehrheit der an Parkinson erkrankten Patienten ausmachen, musste die Benutzeroberfläche gut lesbar und äußerst intuitiv sein um die Wahrscheinlichkeit von Fehlern zu minimieren. Sollte es jedoch zu einer versehentlichen Eingabe kommen, muss die Schnittstelle auch die Möglichkeit bieten, die Aktion rückgängig zu machen.
 
 ![App for Parkinson's Patients](/images/app_for_parkinson_patients1.png)
@@ -92,6 +92,7 @@ Aus diesem Grund hat sich Bright Inventions entschieden, die Datenbank in zwei T
 Die erste Datenbank hat die grundlegende Benutzerdaten wie Name oder E-Mail-Adresse gespeichert. Die zweite Datenbank hat empfindliche Informationen enthalten, einschließlich der Einnahme von Medikamenten oder körperlichen Symptomen und Empfindungen. Durch diese Entscheidung haben wir sichergestellt, dass die angreifende Seite nicht in der Lage wäre, auf alle Informationen zuzugreifen. Auf diese Weise gab es praktisch keine Chance, Symptome oder Medikamenteneinnahme bestimmten Patientennamen zuzuordnen.
 
 ## Ergebnis der Zusammenarbeit
+
 Insgesamt hat unsere Projektarbeit 5 Monate gedauert und bestand aus zwei Etappen. Die erste Phase endete mit dem Launch des MVP (Entwicklung dauerte 3 Monate). Die zweite Phase unserer Zusammenarbeit, die zu mehreren Iterationen des Systems geführt hat, erstreckte sich über einen Zeitraum von weiteren 2 Monaten.
 
 Nach der Entscheidung der Partei, der die App gehörte (also des Kunden unseres Kunden), wurde das Projekt auf Eis gelegt. Im Moment sind die nächsten Schritte nicht bekannt und die App steht nicht öffentlich zum Download bereit.
