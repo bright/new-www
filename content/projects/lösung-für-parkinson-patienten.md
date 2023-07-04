@@ -59,11 +59,11 @@ Android: Kotlin, RxKotlin, Dagger, Retrofit
 
 Backend: Node.js, Typescript, PostgreSQL, AWS Services
 
-## Über die App für Parkinson-Patienten
+<TitleWithIcon sectionTitle='über die App für Parkinson-Patienten' titleIcon='/images/three_flags.svg' titleIconAlt='über die App für Parkinson-Patienten' />
 
 Das Leben mit einer chronischen Krankheit wie Parkinson erfordert dem Patienten viele Veränderungen im Lebensstil auf. Für diejenigen, die gegen die Krankheit kämpfen, ist es von entscheidender Bedeutung, dass sie eine Möglichkeit haben, ihre allgemeinen Vitalwerte, die Einnahme von Medikamenten oder alle Symptome, auf die sie ihren Arzt aufmerksam machen müssen, leicht zu verfolgen.
 
-## Ziel
+<TitleWithIcon sectionTitle='ziel' titleIcon='/images/goal_title_section.png' titleIconAlt='ziel' />
 
 Unser langjähriger Kunde (eine Produktdesignagentur und Projektinkubator in der Frühphase) wandte sich mit einer umsetzungsfertigen Idee seiner Kunden für eine App an uns. Ziel des Projekts war die Entwicklung einer mobilen App, die den Alltag von Parkinson-Patienten vereinfachen wird.
 
