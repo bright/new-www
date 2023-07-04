@@ -19,3 +19,23 @@ language: en
 **Download the free ebook about Minimum Viable Product (MVP) development. This is the ultimate guide for startup founders, CTOs and product owners who are considering launching the product. Why should your start with MVP? What mistakes should you avoid? What factors determine the cost of MVP? Get your copy now!**
 
 ## What’s inside the MVP ebook?
+
+Check out the table of contents:
+
+1. Why you should start from MVP.
+2. How to choose the right MVP partner?
+3. Software development pricing models.
+4. Factors that determine the MVP cost. 
+5. Native vs hybrid app – find your perfect fit.\
+6. Software development stages (with a time range).
+7. Ease your pivot using MVP.
+8. How to avoid common startup mistakes while developing products.
+9. Estimate your MVP.
+
+## Who should read our guide?
+
+Do you have an idea for an app but you don’t know what to do next? You are not sure if it's going to be successful. Do you have a limited budget to verify your solution? The answer to all your problems might be MVP. Download our free guide to find out why!
+
+## Authors
+
+<div class="image"><img src="/images/ebook_authors.png" alt="ebook MVP pdf" title="ebook MVP pdf"  /> </div>
