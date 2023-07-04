@@ -28,7 +28,7 @@ Check out the table of contents:
 2. How to choose the right MVP partner?
 3. Software development pricing models.
 4. Factors that determine the MVP cost. 
-5. Native vs hybrid app – find your perfect fit.\
+5. Native vs hybrid app – find your perfect fit.
 6. Software development stages (with a time range).
 7. Ease your pivot using MVP.
 8. How to avoid common startup mistakes while developing products.
