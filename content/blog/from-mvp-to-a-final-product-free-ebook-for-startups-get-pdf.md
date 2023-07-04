@@ -11,7 +11,7 @@ meaningfullyUpdatedAt: 2023-07-04T07:05:11.098Z
 title: From MVP to a Final Product. Free Ebook for Startups [Get PDF]
 layout: post
 image: /images/ebook_blog_cover_mvp.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
@@ -39,3 +39,5 @@ Do you have an idea for an app but you don’t know what to do next? You are not
 ## Authors
 
 <div class="image"><img src="/images/ebook_authors.png" alt="ebook MVP pdf" title="ebook MVP pdf"  /> </div>
+
+At Bright Inventions we have been developing MVPs for over a decade. This ebook is based on our team's experience in launching MVPs for startups based in Israel, Norway, Germany, the USA, and more. Feel free to get your copy!
