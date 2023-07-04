@@ -51,7 +51,7 @@ language: de
 * Erweiterte Statistiken und Berichte für Ärzte
 * Gamifizierung der App
 
-<TitleWithIcon sectionTitle='fähigkeiten:' titleIcon='/images/skills.svg' titleIconAlt='fähigkeiten:' />
+<TitleWithIcon sectionTitle='fähigkeiten' titleIcon='/images/skills.svg' titleIconAlt='fähigkeiten' />
 
 iOS: Swift, RxSwift, Alamofire
 
