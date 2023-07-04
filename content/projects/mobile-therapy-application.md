@@ -62,8 +62,6 @@ language: en
 
 **Frontend:** React, Typescript
 
-## Intro
-
 <TitleWithIcon sectionTitle='intro' titleIcon='/images/three_flags.svg' titleIconAlt='intro' />
 
 At some point in our lives, either we ourselves or our loved ones will require physiotherapy to get back on our feet. However, there are many factors that influence whether this will be a stress-free and effective process.\
