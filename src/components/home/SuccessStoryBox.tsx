@@ -13,6 +13,7 @@ const Container = styled.div`
   margin: 2rem 2rem;
   display: flex;
   flex-direction: column;
+  min-height: 748px ;
   cursor: pointer;
   &:nth-child(odd) {
     margin-right: 0rem;
@@ -30,12 +31,13 @@ const Container = styled.div`
   @media ${variables.device.laptop} {
     width: calc(50% - 1.75rem);
     margin: 1.75rem;
+    min-height: ${variables.pxToRem(634)};
   }
 
   @media ${variables.device.tabletXL} {
     width: calc(50% - 1.41rem);
     margin: 1.41rem;
-    height: ${variables.pxToRem(520)};
+    min-height: ${variables.pxToRem(550)};
   }
 
   @media ${variables.device.tablet} {

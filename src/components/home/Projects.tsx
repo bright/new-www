@@ -13,7 +13,7 @@ import { DribbleIcon } from './../icons/Dribble.icon'
 import { useTranslation } from 'react-i18next'
 
 
-export const ProjectCustomSection = styled(CustomSection)`
+export const ProjectCustomSection = styled(CustomSection) <{ isFiltered?: boolean }>`
   & .success-story-wrapper {
     & .confidential {
       border: 1px solid #d3d3d3;
@@ -36,7 +36,7 @@ export const ProjectCustomSection = styled(CustomSection)`
       margin-left: 0;
     }
     & div.full-height {
-      height: ${variables.pxToRem(507)};
+      height: ${variables.pxToRem(540)};
       margin-right: 0;
       margin-left: 2rem;
     }
@@ -49,7 +49,7 @@ export const ProjectCustomSection = styled(CustomSection)`
         height: 601px;
       }
       & div.full-height {
-        height: ${variables.pxToRem(407)};
+        height: ${variables.pxToRem(433)};
         margin-right: 0;
         margin-left: 1.75rem;
       }
@@ -63,7 +63,7 @@ export const ProjectCustomSection = styled(CustomSection)`
         height: 32.5rem;
       }
       & div.full-height {
-        height: ${variables.pxToRem(330.88)};
+        height: ${variables.pxToRem(359)};
         margin-right: 0;
         margin-left: 1.41rem;
       }
@@ -325,10 +325,10 @@ export const Projects: React.FC<ProjectsProps> = ({
 
   const filteredProjectsLength = getFilteredProjectWithoutCurrent(projects).length;
   const { t } = useTranslation('other copy')
-
+  const isFiltered = ((filteredProjectsLength % 2) == 1) && (filteredProjectsLength < projects.length)
 
   return (
-    <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem'>
+    <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem' isFiltered={isFiltered} >
       {isDefaultTitle && isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
       <div className='is-clearfix success-story-wrapper'>
         <BlockSmall className='is-pulled-right'>
@@ -384,7 +384,7 @@ export const Projects: React.FC<ProjectsProps> = ({
           <ProjectsLink href={routeLinks.projects}>
             <BlockSmall
               className={
-                  isSelectedTag || ((filteredProjectsLength % 2) == 1) && (filteredProjectsLength < 6)
+                  isSelectedTag || isFiltered
                   ? `${(projects.length + 1) % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`
                   : `${projects.length % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`
               }
