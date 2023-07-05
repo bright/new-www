@@ -309,42 +309,42 @@ export const OurServiceHideTablet = styled(HideTablet)`
   }
 `
 export const OurServicePageTitle = styled(CustomPageTitle)`
-  display: flex;
-  flex-wrap: wrap;
+         display: flex;
+         flex-wrap: wrap;
 
-  font-size: ${clampBuilder(1542, 1920, 54, 64)};
-  line-height: ${clampBuilder(1542, 1920, 65, 78)};
-  font-weight: 800;
-  text-align: left;
-  letter-spacing: -0.04em;
-  & .highlighted-word {
-    font-style: normal;
-    font-weight: 300;
-  }
-  & span {
-    color: ${variables.color.text2};
-    padding-right: ${variables.pxToRem(10)};
-    &:last-child {
-      padding-right: 0;
-    }
-  }
-  @media ${variables.device.laptop} {
-    font-size: ${clampBuilder(1281, 1542, 45, 57)};
-    line-height: ${clampBuilder(1281, 1542, 54.86, 69.48)};
-  }
-  @media ${variables.device.tabletXL} {
-    font-size: ${clampBuilder(992, 1280, 44, 45)};
-    line-height: ${clampBuilder(992, 1280, 53, 54.86)};
-  }
-  @media ${variables.device.tablet} {
-    font-size: ${variables.pxToRem(68)};
-    line-height: ${variables.pxToRem(82.89)};
-  }
-  @media ${variables.device.mobile} {
-    font-size: ${clampBuilder(200, 581, 40, 45)};
-    line-height: ${variables.pxToRem(47.25)};
-  }
-`
+         font-size: ${clampBuilder(1542, 1920, 54, 64)};
+         line-height: ${clampBuilder(1542, 1920, 65, 78)};
+         font-weight: 800;
+         text-align: left;
+         letter-spacing: -0.04em;
+         & .highlighted-word {
+           font-style: normal;
+           font-weight: 300;
+         }
+         & span {
+           color: ${variables.color.text2};
+           padding-right: ${variables.pxToRem(10)};
+           &:last-child {
+             padding-right: 0;
+           }
+         }
+         @media ${variables.device.laptop} {
+           font-size: ${clampBuilder(1281, 1542, 45, 57)};
+           line-height: ${clampBuilder(1281, 1542, 54.86, 69.48)};
+         }
+         @media ${variables.device.tabletXL} {
+           font-size: ${clampBuilder(992, 1280, 44, 45)};
+           line-height: ${clampBuilder(992, 1280, 53, 54.86)};
+         }
+         @media ${variables.device.tablet} {
+           font-size: ${variables.pxToRem(68)};
+           line-height: ${variables.pxToRem(82.89)};
+         }
+         @media ${variables.device.mobile} {
+           font-size: ${clampBuilder(360, 581, 33, 45)};
+           line-height: ${variables.pxToRem(47.25)};
+         }
+       `
 export const BulletList = styled.li`
   position: relative;
   font-family: ${font.lato};
