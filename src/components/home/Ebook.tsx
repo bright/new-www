@@ -4,7 +4,7 @@ import { ContactEbook } from './ebook/ContactEbook'
 
 import { useEbookForm } from '../utils/ebook-form/use-ebook-form'
 import { HomeEbookThankYouPage } from './ebook/HomeEbookThankYouPage'
-import EbookCover from '../../assets/ebook_cover2.svg'
+import EbookCover from '../../assets/MVP_ebook_cover.svg'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { ebookNames } from '../../ebook-names'
@@ -19,7 +19,7 @@ const EbbokSection = styled(CustomSection)`
 `
 
 const Ebook = () => {
-  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[0])
+  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[1])
 
   return (
     <EbbokSection
@@ -42,12 +42,12 @@ const Ebook = () => {
               tabletMargin='0 0 48px'
               style={{ textAlign: 'left' }}
             >
-              25 tools & extra tactics for app security
+              From MVP to a Final Product
             </CustomTextTitle>
             <TextRegular>
-              Best practices and tools to ensure your web and mobile app is secure. All listed tools are open-source or
-              offer free plans. Must have ebook for devs and app owners written by Rafał Hofman, a software developer
-              and security expert at bright inventions. Get it for free!
+              Unsure about the next steps for your app idea? Want to save time and money while developing your product?<br/>
+              Based on our 12 years of experience in MVP development we prepared an ultimate guide to MVP.<br/>
+              Download it for free now!<br/>
             </TextRegular>
 
             <ContactEbook
