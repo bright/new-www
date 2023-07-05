@@ -36,6 +36,7 @@ import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 
 import { MoreButton } from '../components/shared'
 
+
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
 // const TeamMemebersSwiper = React.lazy(() => import('../components/subcomponents/TeamMembersSwiper'))
@@ -44,7 +45,8 @@ export default function Template({
   data,
   pageContext,
   children,
-}: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string; faqSlug: string; } }>) {
+}: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string; faqSlug: string; language: string } }>) {
+  console.log(pageContext)
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
   const { width } = useWindowSize()
@@ -52,7 +54,8 @@ export default function Template({
   const mobileImage = getImage(page.image_our_service_mobile)
   const desktopImage = getImage(page.image_our_service_desktop)
   const myRef = useRef<HTMLDivElement>(null)
-  const { faqSlug } = pageContext
+  const { faqSlug, language } = pageContext
+  const de = language === 'de'
 
   useEffect(() => {
     if (faqSlug) {
@@ -156,7 +159,7 @@ export default function Template({
                 paddingTablet='0 0 16px'
                 paddingMobileProps='0 0 32px'
               >
-                <OurServicePageTitle>{newTitle}</OurServicePageTitle>
+                <OurServicePageTitle language={de}>{newTitle}</OurServicePageTitle >
               </CustomSection>
               <BulletsList>
                 {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}
@@ -353,6 +356,7 @@ export const pageQuery = graphql`
         title_contact
         description_contact
         name
+        language
         image_our_service_mobile {
           childImageSharp {
             gatsbyImageData(quality: 100, backgroundColor: "white", placeholder: NONE, webpOptions: { quality: 100 })
