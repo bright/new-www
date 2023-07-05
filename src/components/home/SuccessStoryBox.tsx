@@ -43,7 +43,7 @@ const Container = styled.div`
   @media ${variables.device.tablet} {
     margin: 0.5625rem 0;
     width: 100%;
-    height: auto;
+    min-height: auto;
 
     &:nth-child(2) {
       margin-top: 0.5625rem;
