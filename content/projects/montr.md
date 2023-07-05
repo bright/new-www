@@ -47,7 +47,7 @@ language: en
 ---
 ![web app development](/images/digitizing_mobile_reporting.png)
 
-## Main features:
+<TitleWithIcon sectionTitle='main features' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Planning investigations
 * Conducting a specific investigation
@@ -61,7 +61,9 @@ language: en
 * Colours and logo customisation on a company level
 * Third party integrations (API’s etc)
 
-## Skills:
+<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+
+<Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"}]' />
 
 **Frontend:** React
 
