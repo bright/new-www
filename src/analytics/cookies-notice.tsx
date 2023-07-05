@@ -49,7 +49,7 @@ const SectionNotice = styled.section`
   & #confirm-button {
     margin-left: 160px;
     font-family: ${variables.font.customtext.monserat};
-    font-size: ${variables.pxToRem(20)};
+    font-size: ${variables.pxToRem(16)};
     line-height: ${variables.pxToRem(24)};
     font-weight: bold;
     cursor: pointer;
@@ -96,20 +96,6 @@ const SectionNotice = styled.section`
     }
   }
 `
-const CookieHeading = styled.p`
-  font-size: ${variables.pxToRem(40)};
-  line-height: ${variables.pxToRem(60)};
-  font-weight: 800;
-  line-height: ${variables.pxToRem(24)};
-  color: ${variables.color.white};
-  padding-bottom: ${variables.pxToRem(32)};
-  @media ${variables.device.laptop} {
-    font-size: ${variables.pxToRem(34)};
-  }
-  @media ${variables.device.mobile} {
-    font-size: ${variables.pxToRem(32)};
-  }
-`
 
 const CookieText = styled(TextRegular)`
   line-height: ${variables.pxToRem(24)};
@@ -127,7 +113,7 @@ const CookieText = styled(TextRegular)`
 `
 const CustomizeButton = styled.button`
   font-family: ${variables.font.customtext.monserat};
-  font-size: ${variables.pxToRem(19)};
+  font-size: ${variables.pxToRem(16)};
   text-decoration: underline;
   cursor: pointer;
   border: none;
@@ -191,11 +177,9 @@ function CookiesNotice() {
         onAccept={onAccept}
       >
         <div>
-          <CookieHeading>allow cookies</CookieHeading>
           <CookieText>
-            We use cookies or other technologies to ensure that we give you the best experience on our website. By
-            accepting all cookies you allow us to take care of your comfort while exploring our page. You can manage
-            your cookie preferences at any time by clicking “customize”. If you want to learn more, read the{' '}
+            We use cookies or other technologies to give you the best experience. You can change
+            your cookie preferences by clicking “customize”. If you want to learn more, read the{' '}
             <Link to={routeLinks.privacyPolicy} style={{ color: '#fff', textDecoration: 'underline' }}>
               Privacy Policy
             </Link>{' '}
