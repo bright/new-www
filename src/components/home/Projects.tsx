@@ -326,6 +326,7 @@ export const Projects: React.FC<ProjectsProps> = ({
   const filteredProjectsLength = getFilteredProjectWithoutCurrent(projects).length;
   const { t } = useTranslation('other copy')
 
+
   return (
     <ProjectCustomSection paddingProps=' 0rem 15rem 4rem 15rem'>
       {isDefaultTitle && isFetchProject && <CustomSectionTitle>success stories</CustomSectionTitle>}
@@ -383,7 +384,7 @@ export const Projects: React.FC<ProjectsProps> = ({
           <ProjectsLink href={routeLinks.projects}>
             <BlockSmall
               className={
-                  isSelectedTag || filteredProjectsLength < 6 
+                  isSelectedTag || ((filteredProjectsLength % 2) == 1) && (filteredProjectsLength < 6)
                   ? `${(projects.length + 1) % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`
                   : `${projects.length % 2 ? 'down is-pulled-right full-height' : ' is-pulled-left  down '}`
               }
