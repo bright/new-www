@@ -224,12 +224,14 @@ export const SelectWrapper = styled.div`
 `
 
 export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
+         display: 'flex',
+         flexDirection: 'row',
+         alignItems: 'center',
+         flexWrap: 'wrap',
+         justifyContent: 'flex-start',
 
-  color: variables.color.text,
-})
+         color: variables.color.text,
+       })
 
 export const PrivacyPolicyCheckbox = styled.input({
   height: '30px',

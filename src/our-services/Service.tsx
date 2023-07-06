@@ -46,7 +46,7 @@ export default function Template({
   pageContext,
   children,
 }: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string; faqSlug: string; language: string } }>) {
-  console.log(pageContext)
+
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
   const { width } = useWindowSize()
