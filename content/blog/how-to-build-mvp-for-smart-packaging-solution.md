@@ -77,7 +77,7 @@ The smart packaging industry is rapidly evolving, and **building an MVP can help
 
 By building an MVP, **you can continually test and improve your product**, allowing you to adapt to changing market conditions and customer needs. This iterative development process can help you create a more robust and successful product in the long run.
 
-<div class='block-button'><h2>Book a free consultation about your product in 48 hours </h2><div>Contact us to book a free consultation. We will get back to you in 48 hours! Let’s talk about your product and estimate your solution!</div><a href="/start-project/"><button>Estimate your solution</button></a></div>
+<EbookDynamic sectionTitle='70 pages about MVP development just for you' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Dive into MVP development. Get the free guide and ensure that MVP is a great option for your business.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP guide ebook cover' />
 
 ## Problems that smart packaging MVP can offer solutions for
 
