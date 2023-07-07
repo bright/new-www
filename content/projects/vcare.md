@@ -115,4 +115,4 @@ For iOS, we chose to work in Swift, and – among others – applied Cocoa Pods 
 
 <TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
-The iOS and updated Android apps have been available on the market since 2019. We are currently approaching the end of the maintenance period, and are already in the talks on a whole round of new features for both applications.
+The iOS and updated Android apps were released in 2019. For three years after the launch, we actively supported the client in maintenance and delivered new features. We are happy to see how the product is growing. We are also grateful for the opportunity to support the client during the crucial period after the launch.
