@@ -6,8 +6,8 @@ tags:
   - software development
   - agile
 date: 2019-09-02T11:35:50.918Z
-meaningfullyUpdatedAt: 2019-09-02T11:35:00.000Z
-title: 4 things we love about building MVPs
+meaningfullyUpdatedAt: 2023-07-07T08:33:28.662Z
+title: 4 Things We Love About Building MVPs
 layout: post
 image: /images/agile_board_planning.jpeg
 hidden: false
@@ -15,9 +15,11 @@ comments: true
 published: true
 language: en
 ---
-Nothing is more rewarding from a software development agency’s perspective than seeing our clients’ apps and businesses blossom on the market. After all, in today’s bustling startup scene, turning an idea into a working product people love and use is no easy feat! In fact, getting to this point in startup growth can be an arduous road full of challenges and potential mistakes lurking just around the corner. It certainly doesn’t have to, though!
+**Nothing is more rewarding from a software development agency’s perspective than seeing our clients’ apps and businesses blossom on the market. After all, in today’s bustling startup scene, turning an idea into a working product people love and use is no easy feat! In fact, getting to this point in startup growth can be an arduous road full of challenges and potential mistakes lurking just around the corner. It certainly doesn’t have to, though!**
 
 At Bright Inventions, we love building [MVPs for startups](/our-areas/mvp-development) for a reason – it’s the most time-effective way to validate an idea on the market before our clients decide to go “all-in”. Below, we’ve opened up a little on the reasons why we enjoy building MVPs as much as we do.
+
+<EbookDynamic sectionTitle='Dive into MVP development' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Based on over 12 years of experience in MVP development we offer you an ultimate guide to MVP. Grab it for free!' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
 
 ## **1.  We love helping our customers turn good ideas into great software**
 
