@@ -9,7 +9,7 @@ date: 2019-09-02T11:35:50.918Z
 meaningfullyUpdatedAt: 2023-07-07T08:33:28.662Z
 title: 4 Things We Love About Building MVPs
 layout: post
-image: /images/agile_board_planning.jpeg
+image: /images/mvp_agile_blog_cover.png
 hidden: false
 comments: true
 published: true
