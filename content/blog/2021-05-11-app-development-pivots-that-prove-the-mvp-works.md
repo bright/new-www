@@ -4,7 +4,7 @@ tags:
   - MVP
   - app pivot
   - app development
-date: 2023-07-10T08:43:59.987Z
+date: 2021-05-11T08:43:00.000Z
 meaningfullyUpdatedAt: 2023-07-10T08:44:00.796Z
 title: App Development Pivots That Prove the MVP Works
 layout: post
