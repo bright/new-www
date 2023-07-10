@@ -18,7 +18,7 @@ language: en
 
 They are versatile React components that can adapt their appearance and behavior based on the context in which they are used. Unlike traditional components, which are rigidly defined by their structure and styling, polymorphic components allow you to customize their rendering based on the specific requirements of each instance.
 
-Why should you care about polymorphic components? Well, picture this: you're building a web app with various user interface elements, such as buttons, links, or even cards. Instead of creating separate components for each variant of these elements, polymorphic components empower you to build a single, flexible component that can effortlessly transform its appearance and functionality as needed.
+<div class="important-info"><h2>Why should you care about polymorphic components?</h2><div>Well, picture this: you're building a web app with various user interface elements, such as buttons, links, or even cards. Instead of creating separate components for each variant of these elements, polymorphic components empower you to build a single, flexible component that can effortlessly transform its appearance and functionality as needed.</div></div>
 
 ## The Magic Behind Polymorphic Components
 
@@ -31,15 +31,18 @@ This dynamic rendering capability opens up a whole new world of possibilities. N
 Now that we have a solid understanding of how polymorphic components work, let's explore some real-world use cases where these dynamic powerhouses truly shine.
 
 ### Button Variants
-Imagine you're working on an e-commerce website, and you need to create different types of buttons for various actions like "Add to Cart," "Buy Now," or "Read More." Instead of creating separate button components for each variant, you can leverage the flexibility of polymorphic components. With a single polymorphic button component, you can easily customize its appearance and behavior by passing different values to the `as` prop. This way, you can have anchor tags, button tags, or even custom button components rendered on the fly, all while maintaining consistent functionality and styling.
+
+Imagine you're working on an e-commerce website, and you need to create different types of buttons for various actions like "Add to Cart," "Buy Now," or "Read More." **Instead of creating separate button components for each variant, you can leverage the flexibility of polymorphic components**. With a single polymorphic button component, you can easily customize its appearance and behavior by passing different values to the `as` prop. This way, you can have anchor tags, button tags, or even custom button components rendered on the fly, all while maintaining consistent functionality and styling.
 
 ### Navigation Menus
-Polymorphic components can be a game-changer when it comes to building navigation menus. Let's say you have a horizontal menu that needs to render as an unordered list (`<ul>`) with list items (`<li>`). However, in certain cases, you may need the menu to be a vertical sidebar rendered as a `<nav>` element. By utilizing the power of polymorphic components, you can effortlessly switch between these different rendering styles based on the context. Simply pass the desired tag or component as the `as` prop, and voila! Your navigation menu adapts to any layout requirements you throw at it.
+
+**Polymorphic components can be a game-changer when it comes to building navigation menus**. Let's say you have a horizontal menu that needs to render as an unordered list (`<ul>`) with list items (`<li>`). However, in certain cases, you may need the menu to be a vertical sidebar rendered as a `<nav>` element. By utilizing the power of polymorphic components, you can effortlessly switch between these different rendering styles based on the context. Simply pass the desired tag or component as the `as` prop, and voila! Your navigation menu adapts to any layout requirements you throw at it.
 
 ### Typography component
+
 With polymorphic capabilities, the Typography component can adapt its rendering to various text elements, such as `<h1>`, `<p>`, `<span>`, and more. This flexibility allows developers to maintain consistent typography styles while seamlessly adjusting the underlying HTML tag based on the desired semantic structure and design requirements.
 
-These are just a few examples to get your creative gears turning. The beauty of polymorphic components lies in their versatility and adaptability. You're no longer constrained by rigid component structures or forced to create numerous variations of similar components. With polymorphic components, you can build a robust library of reusable UI elements that effortlessly transform to meet the unique requirements of your applications.
+These are just a few examples to get your creative gears turning. The beauty of polymorphic components lies in their versatility and adaptability. You're no longer constrained by rigid component structures or forced to create numerous variations of similar components. **With polymorphic components, you can build a robust library of reusable UI elements that effortlessly transform to meet the unique requirements of your applications**.
 
 In the next section, we'll dive into the implementation details and walk through a practical example to solidify your understanding.
 
