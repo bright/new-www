@@ -6,7 +6,7 @@ tags:
   - app development
 date: 2023-07-10T08:43:59.987Z
 meaningfullyUpdatedAt: 2023-07-10T08:44:00.796Z
-title: App development pivots that prove the MVP works
+title: App Development Pivots That Prove the MVP Works
 layout: post
 image: /images/blogpost_appdevpivot_main_picture.png
 hidden: false
