@@ -88,9 +88,9 @@ It's worth mentioning that the addition of TypeScript type checking does not int
 
 ### Exploring Slot Component by Radix UI
 
-In our exploration of polymorphic components, we've discovered a game-changing solution: the `<Slot>` component from Radix UI. This powerful component enables us to conditionally merge its props onto its immediate child component, providing a seamless way to share styling, functionality, and type checking across different use cases. Let's dive into how the `<Slot>` component empowers us to create dynamic and versatile components in practice.
+In our exploration of polymorphic components, we've discovered a game-changing solution: the Slot component from Radix UI. This powerful component enables us to conditionally merge its props onto its immediate child component, providing a seamless way to share styling, functionality, and type checking across different use cases. Let's dive into how the Slot component empowers us to create dynamic and versatile components in practice.
 
-Consider the example of a Button component using the <Slot> component:
+Consider the example of a Button component using the Slot component:
 
 ```typescript
 import { forwardRef, ComponentPropsWithoutRef } from 'react';
@@ -117,7 +117,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, forward
 
 In this example, the Button component accepts the props of a button element, as well as a `variantColor` prop and an optional `asChild` prop. By conditionally assigning the Component variable to either the Slot component or the string 'button', we achieve dynamic rendering based on the `asChild` prop value.
 
-When the `asChild` prop is set to true, the `<Slot>` component is used, enabling us to render the Button component as a child of an anchor tag, like this:
+When the `asChild` prop is set to true, the Slot component is used, enabling us to render the Button component as a child of an anchor tag, like this:
 
 ```typescript
 <Button asChild>
@@ -133,9 +133,9 @@ On the other hand, when the `asChild` prop is not provided or set to false, the 
 <Button variantColor="primary" onClick={submitHandler}>Submit</Button>
 ```
 
-By leveraging the <Slot> component, we achieve code reusability, reduced duplication of properties, and the ability to seamlessly switch between different rendering scenarios while maintaining a unified codebase.
+By leveraging the Slot component, we achieve code reusability, reduced duplication of properties, and the ability to seamlessly switch between different rendering scenarios while maintaining a unified codebase.
 Embrace the Power of Polymorphic Components in Your React Journey
-In our fascinating journey exploring polymorphic components in React, we've witnessed the transformative power of flexibility and reusability. By seamlessly switching between different HTML tags or custom component types, we've unlocked a world of dynamic and customizable UI elements. Whether leveraging libraries like Radix UI's <Slot> component or integrating TypeScript, we've successfully merged the realms of dynamic composition and type safety.
+In our fascinating journey exploring polymorphic components in React, we've witnessed the transformative power of flexibility and reusability. By seamlessly switching between different HTML tags or custom component types, we've unlocked a world of dynamic and customizable UI elements. Whether leveraging libraries like Radix UI's Slot component or integrating TypeScript, we've successfully merged the realms of dynamic composition and type safety.
 
 Polymorphic components have proven to be invaluable in streamlining typography management, ensuring consistency, and eliminating code duplication. With their ability to effortlessly adapt to different scenarios, they provide a maintainable and scalable codebase that developers can enjoy working with. The fusion of flexibility and type safety, facilitated by TypeScript integration, empowers us to build robust and error-free applications.
 
