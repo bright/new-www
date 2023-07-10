@@ -49,7 +49,7 @@ In the next section, we'll dive into the implementation details and walk through
 
 ## Implementing Polymorphic Components
 
-One practical example of harnessing the power of polymorphic components is the implementation of a Typography component. By leveraging polymorphism, this component allows you to create reusable and customizable text elements while maintaining type safety through TypeScript.
+One practical **example of harnessing the power of polymorphic components is the implementation of a Typography component**. By leveraging polymorphism, this component allows you to create reusable and customizable text elements while maintaining type safety through TypeScript.
 
 ```typescript
 import React, { ComponentPropsWithoutRef, ElementType } from "react";
@@ -92,7 +92,7 @@ It's worth mentioning that the addition of TypeScript type checking does not int
 
 ### Exploring Slot Component by Radix UI
 
-In our exploration of polymorphic components, we've discovered a game-changing solution: the Slot component from Radix UI. This powerful component enables us to conditionally merge its props onto its immediate child component, providing a seamless way to share styling, functionality, and type checking across different use cases. Let's dive into how the Slot component empowers us to create dynamic and versatile components in practice.
+In our exploration of polymorphic components, we've discovered a game-changing solution: **the Slot component from Radix UI**. **This powerful component enables us to conditionally merge its props onto its immediate child component, providing a seamless way to share styling, functionality, and type checking across different use cases**. Let's dive into how the Slot component empowers us to create dynamic and versatile components in practice.
 
 Consider the example of a Button component using the Slot component:
 
@@ -137,11 +137,13 @@ On the other hand, when the `asChild` prop is not provided or set to false, the 
 <Button variantColor="primary" onClick={submitHandler}>Submit</Button>
 ```
 
-By leveraging the Slot component, we achieve code reusability, reduced duplication of properties, and the ability to seamlessly switch between different rendering scenarios while maintaining a unified codebase.
-Embrace the Power of Polymorphic Components in Your React Journey
+**By leveraging the Slot component, we achieve code reusability, reduced duplication of properties, and the ability to seamlessly switch between different rendering scenarios while maintaining a unified codebase**.
+
+## Embrace the Power of Polymorphic Components in Your React Journey
+
 In our fascinating journey exploring polymorphic components in React, we've witnessed the transformative power of flexibility and reusability. By seamlessly switching between different HTML tags or custom component types, we've unlocked a world of dynamic and customizable UI elements. Whether leveraging libraries like Radix UI's Slot component or integrating TypeScript, we've successfully merged the realms of dynamic composition and type safety.
 
-Polymorphic components have proven to be invaluable in streamlining typography management, ensuring consistency, and eliminating code duplication. With their ability to effortlessly adapt to different scenarios, they provide a maintainable and scalable codebase that developers can enjoy working with. The fusion of flexibility and type safety, facilitated by TypeScript integration, empowers us to build robust and error-free applications.
+Polymorphic components have proven to be invaluable in streamlining typography management, **ensuring consistency, and eliminating code duplication**. With their ability to effortlessly adapt to different scenarios, they **provide a maintainable and scalable codebase** that developers can enjoy working with. The fusion of flexibility and type safety, facilitated by TypeScript integration, empowers us to build robust and error-free applications.
 
 By embracing the art of polymorphism in React, we open the doors to endless possibilities. Experimenting with different variants, pushing the boundaries of component design, and crafting exceptional user interfaces that effortlessly respond to evolving user needs become our new norm. With polymorphic components as our trusty tools, we embark on a coding adventure filled with innovation and creativity.
 
