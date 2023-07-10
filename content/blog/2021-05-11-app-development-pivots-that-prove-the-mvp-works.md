@@ -4,8 +4,8 @@ tags:
   - MVP
   - app pivot
   - app development
-date: 2021-05-11T06:56:43.419Z
-meaningfullyUpdatedAt: 2021-05-11T06:56:00.000Z
+date: 2023-07-10T08:43:59.987Z
+meaningfullyUpdatedAt: 2023-07-10T08:44:00.796Z
 title: App development pivots that prove the MVP works
 layout: post
 image: /images/blogpost_appdevpivot_main_picture.png
@@ -22,7 +22,11 @@ When you take first steps on the road of app development, you have to make a ver
 
 At Bright Inventions [we often recommend the second option called MVP](/blog/4-things-we-love-about-building-mvps) (Minimum Viable Product). 
 
-<div class="important-info"><h2>What is MVP?</h2><div>MVPs are low-cost products that you can show to early adopters and receive first feedback. Thanks to that investors don’t risk too much and can quickly check if the MVP has business potential. Why is that important? Because sometimes MVP shows that your product should pivot. Although app pivoting feels scary, it isn’t such a unique thing. It was done by the greatest ones.</div></div>
+## What is MVP?
+
+MVPs are low-cost products that you can show to early adopters and receive first feedback. Thanks to that investors don’t risk too much and can quickly check if the MVP has business potential. Why is that important? Because sometimes MVP shows that your product should pivot. Although app pivoting feels scary, it isn’t such a unique thing. It was done by the greatest ones.
+
+<EbookDynamic sectionTitle='Dive into MVP development now' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Discover how an MVP can help you validate your app idea without breaking the bank. Ease your pivot using MVP.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP guide cover' />
 
 ## What are the top reasons to pivot?
 
