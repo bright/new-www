@@ -14,7 +14,7 @@ technology:
   - Docker
   - Terraform
   - Kubernetes
-  - Grafana 
+  - Grafana
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -49,7 +49,7 @@ We support and share responsibility with the members of our team. We also active
 
 **Project:** As part of this project we have been building an SDK for iOS and Android platforms for over 5 years that communicates with Bluetooth trackers while the app is running in the background. The basic functionality is to report the location of devices in the vicinity of the tracker. The operation is similar to the AirTag locator (location is encrypted, device identification data changes regularly), but the applications of the technology will be much different. The application can be used in industry, logistics or, for example, to open doors remotely.
 
-## what you will do **🚀🚀🚀**
+## what you will do 🚀🚀🚀
 
 * run infrastructure with Terraform, CI/CD and Kubernetes 
 * handle production incidents
@@ -59,7 +59,7 @@ We support and share responsibility with the members of our team. We also active
 * have direct contact with clients and advise in their decision-making process
 * share knowledge with the rest of the team
 
-## **preferred skills and qualifications  ✅**
+## preferred skills and qualifications  ✅
 
 * good knowledge and experience with CI/CD
 * experience with Kubernetes, Terraform and Docker in production
