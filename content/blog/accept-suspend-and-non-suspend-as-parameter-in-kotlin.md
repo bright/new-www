@@ -3,8 +3,8 @@ author: lukasz
 tags:
   - Kotlin
   - development
-date: 2023-07-11T07:11:35.600Z
-meaningfullyUpdatedAt: 2023-07-11T07:11:35.629Z
+date: 2023-07-11T07:17:46.598Z
+meaningfullyUpdatedAt: 2023-07-11T07:17:47.078Z
 title: Accept Suspend and Non-Suspend as Parameter in Kotlin
 layout: post
 image: /images/blogpost_tip_kotlin.png
