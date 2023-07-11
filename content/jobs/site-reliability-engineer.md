@@ -61,17 +61,19 @@ We support and share responsibility with the members of our team. We also active
 
 ## preferred skills and qualifications  ✅
 
-* good knowledge and experience with CI/CD
+* at least 4-5 years of commercial experience in the field of software engineering 
+* good practical knowledge of CI/CD
 * experience with Kubernetes, Terraform and Docker in production
 * experience in Cloud infrastructure - preferably AWS
+* knowledge of at least one programming language e.g. TypeScriptc/Java/Koltin/other 
 * the ability to work independently as well as in a team
 * empathy, open mind and positive approach to new challenges
 * very good communication skills in English and Polish (both written and spoken)
 
 ## nice-to-haves
 
-* experience with reliable multi-region architectures
-* knowledge of TypeScript or Java/Kotlin
+* experience in working in a security-focused role
+* an industry-recognised certification in security
 
 ## what you will find in our Bright Team 🧡
 
