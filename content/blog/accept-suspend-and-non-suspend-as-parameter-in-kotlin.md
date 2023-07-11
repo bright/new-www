@@ -21,7 +21,7 @@ Instead of creating two analogous functions just to be able to provide both susp
 
 ```kotlin
 fun doSomethingBeforeAndAfter(
-nonSuspendAction: () -> Unit
+ nonSuspendAction: () -> Unit
 ) {
   somethingBeforeAction()
   nonSuspendAction()
