@@ -65,7 +65,7 @@ We support and share responsibility with the members of our team. We also active
 * good practical knowledge of CI/CD
 * experience with Kubernetes, Terraform and Docker in production
 * experience in Cloud infrastructure - preferably AWS
-* knowledge of at least one programming language e.g. TypeScriptc/Java/Koltin/other 
+* knowledge of at least one programming language e.g. TypeScript/Java/Kotlin/other 
 * the ability to work independently as well as in a team
 * empathy, open mind and positive approach to new challenges
 * very good communication skills in English and Polish (both written and spoken)
