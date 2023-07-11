@@ -24,6 +24,8 @@ When we see the bigger picture, it helps us put feedback in its proper perspecti
 
   If you decide to watch the movie below, please do that with deep understanding. This TEDTalk is not about becoming ignorant to other people’s negative feedback and taking the approach “I shouldn’t care”. It is about comprehending why this negative/corrective touches us so much and what we can do with it.
 
+<YouTubeEmbed url='https://www.youtube.com/watch?v=LnJwH_PZXnM' />
+
 ## **When emotions walk in through the door, logic flies out**  
 
 You have to learn how to manage your emotions to avoid saying things that may do harm to yourself or people around you. **Don’t act impulsively just because someone said something you don’t like. Don’t rush to react.** 
@@ -50,7 +52,7 @@ The so called S.T.A.R method can help you react in a calm and peaceful way to th
 
 Believe me or not, **the best response to some critical feedback is to admit our flaws — first to ourselves, and then to others.** We should understand and set the expectations for how we are likely to behave. Focus on changing the things you can change. Remember that people around you can very often see much more about your behaviour than you see yourself (if you haven’t heard about[ the Johari Window matrix](https://brightinventions.pl/blog/the-johari-window-as-a-tool-in-feedback-processing/), it is high time to take a look). 
 
-<GiphyEmbed url='https://giphy.com/gifs/heyarnold-hey-arnold-nick-splat-xUNda7NlTLmCGj6bU4?utm_source=media-link&utm_medium=landing&utm_campaign=Media%20Links&utm_term=' />
+<GiphyEmbed url='https://giphy.com/gifs/heyarnold-hey-arnold-nick-splat-xUNda7NlTLmCGj6bU4' />
 
 Give yourself time, space and empathy to work on the area that is unknown to you. Accept the fact that you are not always right. Or even accept the fact that you are barely ever right. **The corrective feedback is not about aiming at perfection,** it is about asking questions and looking for the answers.As Alexander Pope wrote in his poem *An Essay on Criticism* "To err is human, to forgive is divine.” We err all the time. We learn best from the mistakes we make. **We learn most while confronted with the views completely different to ours.** 
 
