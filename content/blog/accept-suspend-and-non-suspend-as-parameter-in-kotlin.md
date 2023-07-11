@@ -23,17 +23,17 @@ Instead of creating two analogous functions just to be able to provide both susp
 fun doSomethingBeforeAndAfter(
 nonSuspendAction: () -> Unit
 ) {
-somethingBeforeAction()
-nonSuspendAction()
-somethingAfterAction()
+  somethingBeforeAction()
+  nonSuspendAction()
+  somethingAfterAction()
 }
 
 suspend fun doSomethingBeforeAndAfterForSuspendableActions(
-suspendAction: suspend () -> Unit
+ suspendAction: suspend () -> Unit
 ) {
-somethingBeforeAction()
-suspendAction()
-somethingAfterAction()
+  somethingBeforeAction()
+  suspendAction()
+  somethingAfterAction()
 }
 ```
 
@@ -41,11 +41,11 @@ If you can define your function as ‘inline’, it will also make it accept bot
 
 ```kotlin
 inline fun doSomethingBeforeAndAfter(
-action: () -> Unit
+ action: () -> Unit
 ) {
-somethingBeforeAction()
-action()
-somethingAfterAction()
+  somethingBeforeAction()
+  action()
+  somethingAfterAction()
 }
 ```
 
