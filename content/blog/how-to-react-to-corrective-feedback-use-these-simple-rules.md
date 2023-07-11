@@ -24,6 +24,8 @@ When we see the bigger picture, it helps us put feedback in its proper perspecti
 
   If you decide to watch the movie below, please do that with deep understanding. This TEDTalk is not about becoming ignorant to other people’s negative feedback and taking the approach “I shouldn’t care”. It is about comprehending why this negative/corrective touches us so much and what we can do with it.
 
+<YouTubeEmbed url='https://www.youtube.com/watch?v=LnJwH_PZXnM' />
+
 ## When emotions walk in through the door, logic flies out  
 
 You have to learn how to manage your emotions to avoid saying things that may do harm to yourself or people around you. **Don’t act impulsively just because someone said something you don’t like. Don’t rush to react.** 
