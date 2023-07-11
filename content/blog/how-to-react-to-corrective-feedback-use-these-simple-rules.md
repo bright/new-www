@@ -8,6 +8,7 @@ date: 2023-07-11T18:20:51.892Z
 meaningfullyUpdatedAt: 2023-07-11T18:20:51.923Z
 title: How to React to Corrective Feedback? Use These Simple Rules
 layout: post
+image: /images/smile-feedback.jpg
 hidden: false
 comments: true
 published: true
@@ -22,8 +23,6 @@ Our ego doesn’t want to be criticised. It wants to be acknowledged and praised
 When we see the bigger picture, it helps us put feedback in its proper perspective. Then and only then should we decide how to respond. **Remember you are not the idea or behaviour the other person is referring to. This feedback is not about you.** Don’t overanalyse and see some meaning where there isn’t any. Look at the the other person’s intention and try to see positive motives of the person who is giving you feedback. **Don’t waste your energy on taking things personally.** 
 
   If you decide to watch the movie below, please do that with deep understanding. This TEDTalk is not about becoming ignorant to other people’s negative feedback and taking the approach “I shouldn’t care”. It is about comprehending why this negative/corrective touches us so much and what we can do with it.
-
-
 
 ## When emotions walk in through the door, logic flies out  
 
@@ -40,7 +39,7 @@ The so called S.T.A.R method can help you react in a calm and peaceful way to th
 
 ## Don’t become an offended recluse
 
-[The research](https://hbr.org/2016/09/research-we-drop-people-who-give-us-critical-feedback) by Francesca Gino, Paul Green, and Brad Staats shows that we tend to avoid people after they give us negative feedback. And while it can certainly feel easier to see ourselves as a martyr - **avoiding people who tell us (usually) the truth is a big mistake. In fact, we should see it as opportunity to reset one’s relationships. With the proper approach, our biggest “critics” can become our greatest supporters.** Remember that it is really simple to say you like someone’s idea, take a high five and live happily ever after. Much harder it is to find the courage to tell someone you see some things to improve in their behaviour. Appreciate the fact that you have among your colleagues or friends people who would tell you bluntly when you fuc* something up. :)  \
+[The research](https://hbr.org/2016/09/research-we-drop-people-who-give-us-critical-feedback) by Francesca Gino, Paul Green, and Brad Staats shows that we tend to avoid people after they give us negative feedback. And while it can certainly feel easier to see ourselves as a martyr - **avoiding people who tell us (usually) the truth is a big mistake. In fact, we should see it as opportunity to reset one’s relationships. With the proper approach, our biggest “critics” can become our greatest supporters.** Remember that it is really simple to say you like someone’s idea, take a high five and live happily ever after. Much harder it is to find the courage to tell someone you see some things to improve in their behaviour. Appreciate the fact that you have among your colleagues or friends people who would tell you bluntly when you fuc* something up. 😉
 
 **The critical feedback can be an excellent moment to make new friends. Really.** 
 
@@ -54,8 +53,10 @@ Remember that negative feedback might be much more valuable to your self-develop
 
 <GiphyEmbed url='https://media.giphy.com/media/xUNda7NlTLmCGj6bU4/giphy.gif' />
 
-## And what are your techniques 
+## And what are your techniques
 
 And how about you? How do you react when you get corrective feedback from someone? Is it easy for you to accept you might be wrong? Do you take things personally? Do you feel offended? Do you overreact? Do you see only negative intentions behind? 
 
 If you have never asked yourself these questions, I really encourage you to do so. **Check if you have enough courage inside yourself to admit you might be wrong.**
+
+And coming back to our original questions - how to react to corrective feedback? With a smile, gratitude, empathy and openness. 🧡
