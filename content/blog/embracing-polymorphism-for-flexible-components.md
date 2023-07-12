@@ -5,8 +5,8 @@ tags:
   - React
   - Polymorphism
   - design patterns
-date: 2023-07-08T13:50:12.327Z
-meaningfullyUpdatedAt: 2023-07-08T13:50:12.349Z
+date: 2023-07-12T06:35:52.591Z
+meaningfullyUpdatedAt: 2023-07-12T06:35:53.134Z
 title: Embracing Polymorphism for Flexible Components
 layout: post
 image: /images/polymorphic_components_blog.png
