@@ -1,7 +1,7 @@
 
 export const SliderCmsEditorComponent = {
     id: 'TextSlider',
-    label: 'Slider',
+    label: 'Case study features',
     fields: [
         {
             label: 'Slider Elements',
