@@ -6,14 +6,13 @@ tags:
   - software development
   - project management
 date: 2021-07-15T07:31:54.979Z
-meaningfullyUpdatedAt: ""
-title: How to protect software development projects from bus factor problem
+meaningfullyUpdatedAt: 2023-07-12T10:22:44.794Z
+title: How to Protect Software Development Projects from Bus Factor Problem
 layout: post
 image: /images/blogpost_www_izabela_bus.png
 hidden: false
 comments: true
 published: true
-language: en
 ---
 **Do you know what a bus factor is? Should it be a nightmare for startups that build in-house teams or hire a software development agency? Check out the best practices to protect the development projects from the bus factor risk.**
 
@@ -45,6 +44,8 @@ In the beginning, automation may seem to be time-consuming but in the end it is 
 
 Imagine a situation when a person “hit by a bus” is the only one that has passwords to the software product and infrastructure. There is an easy way to minimize that risk. **Thanks to secret management tools you can safely store and share passwords**, keys and API within the team and make sure that all that information isn’t accessible only by one member of the team. 
 
+<EbookDynamic sectionTitle='Check out other security best practices you should implement' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Find out what you should expect from your security team to ensure your product and company is secure. Download the free guide!' ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+
 ## Don't rely on individuals 
 
 When you have less and more experienced developers within the team, they should handle issues together. Only then less experienced developers can learn from others. **Handling difficult tasks only by seniors could significantly increase the risk of the bus factor.**
@@ -65,4 +66,4 @@ If you decide to hire a [software development agency](/), then **you should get 
 
 When you hire a software team you have to always have in mind the bus factor issue. Fortunately, when your team knows how to share knowledge and communicate effectively, the bus factor shouldn’t be so much of a concern. Just stay calm and… follow the practices that we’ve presented. 😉
 
-<div class='block-button'><h2>Are you looking for a software development company?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
+<div class='block-button'><h2>Ready to take your tech solution to the next level?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Norway, Israel and more. Let's talk!</div><a href="/start-project"><button>book a free consultation</button></a></div>
