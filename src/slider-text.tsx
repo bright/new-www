@@ -154,6 +154,9 @@ const SlideWrapper = styled.div`
     }
 
 `
+const SliderTextRegular = styled(TextRegular)`
+  text-align: center;
+`
 interface Slider {
   title: string;
   description: string;
@@ -198,8 +201,8 @@ export const SliderText = ({ sliderElements }: SliderTextProps) => {
             < SwiperSlide key={index} >
               <SlideWrapper>
 
-                <TitleProject>{index + 1}. <span>{newTitle}</span></TitleProject>
-                <TextRegular>{sliderElement.description}</TextRegular>
+                <TitleProject> <span>{newTitle}</span></TitleProject>
+                <SliderTextRegular>{sliderElement.description}</SliderTextRegular>
               </SlideWrapper>
             </SwiperSlide>
           )
