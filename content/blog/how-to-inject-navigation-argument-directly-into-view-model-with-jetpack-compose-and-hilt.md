@@ -39,7 +39,7 @@ class UserViewModel(
 With this approach we don’t add a lot of code to the view model in order to retrieve the desired navigation argument. Yet there might be two issues to consider:
 
 * With more arguments we keep putting more code to the view model class
-* If we want to write tests for our view model we need to mock the `SavedStateHandle` and any repository we’re using, like `UserInfoRepository` in the example above,
+* If we want to write tests for our view model we need to mock the `SavedStateHandle` and any repository we’re using, like `UserInfoRepository` in the example above
 
 # Hilt to the rescue
 
