@@ -17,7 +17,7 @@ comments: true
 published: false
 language: en
 ---
-When using the Jetpack Compose navigation you may sooner or later come across the problem of passing arguments between the screens. The solution is fairly well described in the official android documentation that you can find here: https://developer.android.com/jetpack/compose/navigation
+When using the Jetpack Compose navigation you may sooner or later come across the problem of passing arguments between the screens. The solution is fairly well described in the official Android documentation that you can find here: https://developer.android.com/jetpack/compose/navigation
 
 # The problem
 
@@ -43,7 +43,7 @@ With this approach we don’t add a lot of code to the view model in order to re
 
 # Hilt to the rescue
 
-Using hilt we can add an in-the-middle module that could resolve `SavedStateHandle` and pass the actual navigation argument directly to the view model.
+Using Hilt we can add an in-the-middle module that could resolve `SavedStateHandle` and pass the actual navigation argument directly to the view model.
 
 ```kotlin
 @Module
