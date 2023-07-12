@@ -18,7 +18,7 @@ language: en
 ---
 **When using the Jetpack Compose navigation you may sooner or later come across the problem of passing arguments between the screens. The solution is fairly well described in the official [Android documentation](https://developer.android.com/jetpack/compose/navigation).**
 
-# The problem
+## The problem
 
 Following the official documentation we’re ending up with a `NavHost` setup, defined routes and the following view model setup:
 
@@ -40,7 +40,7 @@ With this approach we don’t add a lot of code to the view model in order to re
 * With more arguments we keep putting more code to the view model class
 * If we want to write tests for our view model we need to mock the `SavedStateHandle` and any repository we’re using, like `UserInfoRepository` in the example above
 
-# Hilt to the rescue
+## Hilt to the rescue
 
 <GiphyEmbed url='https://giphy.com/gifs/baywatch-hasselhoff-the-hoff-yI73Iv1vLqJCo' />
 
@@ -77,13 +77,13 @@ Just two remarks:
 * Install the module in the `ViewModelComponent` class
 * Narrow the scope using the `@ViewModelScoped` annotation
 
-# Links
+## Links
 
 If you need to test this solution on a working example I’ve prepared one.
 
 Sample app: https://github.com/radek-bright/demo-navigation-arguments
 
-# Side Note: Motivation
+## Side Note: Motivation
 
 For a background reference: In the not-so-distant past, when using Dagger2 and Fragments, we could have skipped injecting `Bundle` objects into view models and take advantage of a custom per-fragment navigation argument module that we could include with `@ContributesAndroidInjector`. I’m not going to go through the process, but just for the reference the core looked like this:
 
