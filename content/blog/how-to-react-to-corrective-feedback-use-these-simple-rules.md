@@ -8,7 +8,7 @@ date: 2023-07-11T18:20:51.892Z
 meaningfullyUpdatedAt: 2023-07-11T18:20:51.923Z
 title: How to React to Corrective Feedback? Use These Simple Rules
 layout: post
-image: /images/feedback-smile-blog.png
+image: /images/feedback_reaction_smile.png
 hidden: false
 comments: true
 published: true
