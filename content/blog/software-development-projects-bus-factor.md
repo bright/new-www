@@ -44,6 +44,8 @@ In the beginning, automation may seem to be time-consuming but in the end it is 
 
 Imagine a situation when a person “hit by a bus” is the only one that has passwords to the software product and infrastructure. There is an easy way to minimize that risk. **Thanks to secret management tools you can safely store and share passwords**, keys and API within the team and make sure that all that information isn’t accessible only by one member of the team. 
 
+<EbookDynamic sectionTitle='Check out other security best practices you should implement' ebookName='25-Tools-And-Extra-Tactics-For-App-Security-Ebook.pdf' ebookDescription='Find out what you should expect from your security team to ensure your product and company is secure. Download the free guide!' ebookImage='/images/cover_ebook_security.png' ebookAlt='ebook security cover' />
+
 ## Don't rely on individuals 
 
 When you have less and more experienced developers within the team, they should handle issues together. Only then less experienced developers can learn from others. **Handling difficult tasks only by seniors could significantly increase the risk of the bus factor.**
