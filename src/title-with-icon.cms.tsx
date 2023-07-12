@@ -1,4 +1,5 @@
 import { EditorComponentOptions } from 'netlify-cms-core'
+import { encodeSpecialCharacters } from './encode-special-characters'
 export const TitleWithIconCmsEditorComponent: EditorComponentOptions = {
   id: 'TitleWithIcon',
   fields: [
@@ -34,7 +35,7 @@ export const TitleWithIconCmsEditorComponent: EditorComponentOptions = {
     titleIcon: string
     titleIconAlt: string  
   }) {
-    return `<TitleWithIcon sectionTitle='${props.sectionTitle}' titleIcon='${props.titleIcon}' titleIconAlt='${props.titleIconAlt}' />`
+    return `<TitleWithIcon sectionTitle='${encodeSpecialCharacters(props.sectionTitle)}' titleIcon='${props.titleIcon}' titleIconAlt='${props.titleIconAlt}' />`
   },
   toPreview(props: {
     sectionTitle: string
