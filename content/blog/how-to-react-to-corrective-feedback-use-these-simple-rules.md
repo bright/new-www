@@ -22,7 +22,7 @@ Our ego doesn’t want to be criticised. It wants to be acknowledged and praised
 
 When we see the bigger picture, it helps us put feedback in its proper perspective. Then and only then should we decide how to respond. **Remember you are not the idea or behaviour the other person is referring to. This feedback is not about you.** Don’t overanalyse and see some meaning where there isn’t any. Look at the the other person’s intention and try to see positive motives of the person who is giving you feedback. **Don’t waste your energy on taking things personally.** 
 
-  If you decide to watch the movie below, please do that with deep understanding. This TEDTalk is not about becoming ignorant to other people’s negative feedback and taking the approach “I shouldn’t care”. It is about comprehending why this negative/corrective touches us so much and what we can do with it.
+  If you decide to watch the movie below, please do that with deep understanding. This TEDTalk is not about becoming ignorant to other people’s negative feedback and taking the approach “I shouldn’t care”. It is about comprehending why this negative/corrective feedback touches us so much and what we can do with it.
 
 <YouTubeEmbed url='https://www.youtube.com/watch?v=LnJwH_PZXnM' />
 
