@@ -1,6 +1,6 @@
 export const AnchorLinkCmsEditorComponent = {
     id: 'AnchorLink',
-    label: 'Anchor Link',
+    label: 'Case study contact link',
     fields: [
         {
             label: 'Text',

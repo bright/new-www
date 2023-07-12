@@ -1,7 +1,7 @@
 
 export const GalleryCmsEditorComponent = {
     id: 'Gallery',
-    label: 'Gallery',
+    label: 'Stack logos',
     fields: [
         {
             label: 'Images',
