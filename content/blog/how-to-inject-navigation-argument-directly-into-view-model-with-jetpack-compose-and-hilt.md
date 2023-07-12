@@ -85,7 +85,7 @@ Sample app: https://github.com/radek-bright/demo-navigation-arguments
 
 ## Side Note: Motivation
 
-For a background reference: In the not-so-distant past, when using Dagger2 and Fragments, we could have skipped injecting `Bundle` objects into view models and take advantage of a custom per-fragment navigation argument module that we could include with `@ContributesAndroidInjector`. I’m not going to go through the process, but just for the reference the core looked like this:
+P.S. for a background reference. In the not-so-distant past, when using Dagger2 and Fragments, we could have skipped injecting `Bundle` objects into view models and take advantage of a custom per-fragment navigation argument module that we could include with `@ContributesAndroidInjector`. I’m not going to go through the process, but just for the reference the core looked like this:
 
 ```kotlin
 @Module
