@@ -8,7 +8,7 @@ date: 2023-06-19T19:00:45.941Z
 meaningfullyUpdatedAt: 2023-06-19T19:00:45.966Z
 title: "The Johari Window As a Tool in Feedback Processing "
 layout: post
-image: /images/screenshot-2023-06-19-at-21.46.56.png
+image: /images/johari_window_cover.png
 hidden: false
 comments: true
 published: true
