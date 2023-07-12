@@ -19,7 +19,7 @@ export const TitleWithIconCmsEditorComponent: EditorComponentOptions = {
       widget: 'image',
     },
   ],
-  label: 'Title',
+  label: 'Case study title',
 
   pattern: /^\s*<TitleWithIcon\s+sectionTitle=['"](.*?)['"]\s+titleIcon=['"](.*?)['"]\s+titleIconAlt=['"](.*?)['"]\s*\/>\s*$/,
 
