@@ -16,7 +16,7 @@ comments: true
 published: false
 language: en
 ---
-**When using the Jetpack Compose navigation you may sooner or later come across the problem of passing arguments between the screens. The solution is fairly well described in the official [Android documentation](https://developer.android.com/jetpack/compose/navigation).**
+**When using the Jetpack Compose navigation you may sooner or later come across the problem of passing arguments between the screens. The solution is fairly well described in the official [Android documentation](https://developer.android.com/jetpack/compose/navigation). Let's follow the documentation and go over a few issues that you might encounter on the way.**
 
 ## The problem
 
@@ -37,8 +37,8 @@ class UserViewModel(
 
 With this approach we don’t add a lot of code to the view model in order to retrieve the desired navigation argument. Yet there might be two issues to consider:
 
-* With more arguments we keep putting more code to the view model class
-* If we want to write tests for our view model we need to mock the `SavedStateHandle` and any repository we’re using, like `UserInfoRepository` in the example above
+* With more arguments we keep putting more code to the view model class,
+* If we want to write tests for our view model we need to mock the `SavedStateHandle` and any repository we’re using, like `UserInfoRepository` in the example above.
 
 ## Hilt to the rescue
 
