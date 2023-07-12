@@ -38,8 +38,8 @@ export const AppStore = ({
     return (
         <AppSection>
             <FlexWrapper desktopGap='64px' desktopItems='center' desktopContent='center' laptopGap='48px' mobileGap='32px'>
-                <a href={googleApp}><GoogleAppImg src={srcGoogle} alt={altGoogleImage} />Google Play</a>
-                <a href={appStore}><AppStoreImg src={srcAppStore} alt={altAppStoreImage} />App Store</a>
+                <a target='_blank' rel='noreferrer noopener' href={googleApp}><GoogleAppImg src={srcGoogle} alt={altGoogleImage} />Google Play</a>
+                <a target='_blank' rel='noreferrer noopener' href={appStore}><AppStoreImg src={srcAppStore} alt={altAppStoreImage} />App Store</a>
             </FlexWrapper>
         </AppSection>
 
