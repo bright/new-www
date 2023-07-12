@@ -12,6 +12,7 @@ meaningfullyUpdatedAt: 2023-07-11T17:00:43.678Z
 title: How to inject navigation argument directly into view model with Jetpack
   Compose and Hilt?
 layout: post
+image: /images/android_hilt_blog_post.png
 hidden: true
 comments: true
 published: false
