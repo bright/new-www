@@ -63,6 +63,7 @@ object UserScreenNavigationArgModule {
 ```
 
 ```kotlin
+@HiltViewModel
 class UserViewModel(
     private val userInfo: UserInfo
 ) : ViewModel() {
@@ -102,5 +103,4 @@ class ArgsModule {
 class MyFragmentViewModel @Inject constructor(
     private val myArgument: MyArgument,
 )
-
 ```
