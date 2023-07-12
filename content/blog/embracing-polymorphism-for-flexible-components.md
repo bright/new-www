@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-07-12T06:35:53.134Z
 title: Embracing Polymorphism for Flexible Components
 layout: post
 image: /images/polymorphic_components_blog.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
