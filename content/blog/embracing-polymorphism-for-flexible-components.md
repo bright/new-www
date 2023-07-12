@@ -101,7 +101,7 @@ In our exploration of polymorphic components, we've discovered a game-changing s
 Consider the example of a Button component using the Slot component:
 
 ```typescript
-import { forwardRef, ComponentPropsWithoutRef } from 'react';
+import { ComponentPropsWithoutRef } from 'react';
 import { Slot } from '@radix-ui/react-slot';
 
 type ButtonProps = ComponentPropsWithoutRef<'button'> & {
@@ -109,18 +109,19 @@ type ButtonProps = ComponentPropsWithoutRef<'button'> & {
   asChild?: boolean;
 };
 
-export const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, forwardedRef) => {
-  const { variantColor, asChild, ...buttonProps } = props;
+export const Button = (props: ButtonProps): JSX.Element => {
+  const { variantColor, asChild, ...other } = props;
 
-  const Component = (asChild ? Slot : 'button') as 'button';
+  const Component = asChild ? Slot : 'button';
+  const variantClass = ''; // Conditional className for each variant
 
   return (
     <Component
-      {...buttonProps}
-      ref={forwardedRef}
+      className={variantClass}
+      {...other}
     />
   );
-});
+};
 ```
 
 In this example, the Button component accepts the props of a button element, as well as a `variantColor` prop and an optional `asChild` prop. By conditionally assigning the Component variable to either the Slot component or the string 'button', we achieve dynamic rendering based on the `asChild` prop value.
@@ -141,7 +142,9 @@ On the other hand, when the `asChild` prop is not provided or set to false, the 
 <Button variantColor="primary" onClick={submitHandler}>Submit</Button>
 ```
 
-**By leveraging the Slot component, we achieve code reusability, reduced duplication of properties, and the ability to seamlessly switch between different rendering scenarios while maintaining a unified codebase**.
+**By leveraging the Slot component, we achieve code reusability, reduced duplication of properties, and the ability to seamlessly switch between different rendering scenarios while maintaining a unified codebase**. 
+
+However, this approach has a noticeable drawback. If your polymorphic component accepts props of a button, then it will pass all of them to the Slot beneath it. It means you can end up with an anchor with `type` or `disabled` attributes, which are not supported. You may consider filtering them out first to now allow that.
 
 ## Embrace the Power of Polymorphic Components in Your React Journey
 
