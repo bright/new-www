@@ -43,6 +43,8 @@ With this approach we don’t add a lot of code to the view model in order to re
 
 # Hilt to the rescue
 
+<GiphyEmbed url='https://giphy.com/gifs/baywatch-hasselhoff-the-hoff-yI73Iv1vLqJCo' />
+
 Using Hilt we can add an in-the-middle module that could resolve `SavedStateHandle` and pass the actual navigation argument directly to the view model.
 
 ```kotlin
@@ -104,3 +106,5 @@ class MyFragmentViewModel @Inject constructor(
     private val myArgument: MyArgument,
 )
 ```
+
+<GiphyEmbed url='https://giphy.com/gifs/fallontonight-jimmy-fallon-tonight-show-tonightshow-PPOLUsngQy68nx8tfp' />
