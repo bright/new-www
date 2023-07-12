@@ -107,4 +107,4 @@ class MyFragmentViewModel @Inject constructor(
 )
 ```
 
-<GiphyEmbed url='https://giphy.com/gifs/fallontonight-jimmy-fallon-tonight-show-tonightshow-PPOLUsngQy68nx8tfp' />
+<GiphyEmbed url='https://giphy.com/gifs/TheDemocrats-dnc-democrats-dncigf-DXC8bM9ZM4Wn3PDvK7' />
