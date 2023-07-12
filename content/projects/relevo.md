@@ -72,7 +72,7 @@ Relevo and Bright Inventions’ priority has been to increase the scalability & 
 * **Mobile**: Swift, Kotlin
 * **Deployment**: AWS, CI/CD
 
-<TitleWithIcon sectionTitle='challenge' titleIcon='/images/two_flags.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle='challenge %' titleIcon='/images/two_flags.svg' titleIconAlt='bright' />
 
 The founders of Relevo were looking for an experienced [software development company](/) that could take over the backend development. Bright Inventions was recommended by our long-term client – [EY etventure](https://www.etventure.com). The product was already launched and gained a steady number of users. However, the backend system needed to be quickly adjusted to the rapid growth of users looking to access the app. 
 
