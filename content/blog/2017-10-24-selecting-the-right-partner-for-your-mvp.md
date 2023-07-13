@@ -21,13 +21,13 @@ language: en
 
 ## 1. Closely located
 
-It really helps when seeing your MVP development company in person doesn't take half day of travelling. **Software development is one of those activities in which a lack of communication between parties can result in heavy costs further down the road**. Most of the time Slack, Google Meet, JIRA, etc. work perfectly but there should be times that you can just all sit together in one room and make sure you're well aligned. Misunderstood or missed requirements are easy and cheap to fix in the early phases of the project but very expensive later on. Start project with a [product workshop](/our-areas/product-workshops/) and keep meeting on a regular schedule to validate work in progress and realign your expectations. 
+It really helps when seeing your MVP development company in person doesn't take half day of travelling. **Software development is one of those activities in which a lack of communication between parties can result in heavy costs further down the road**. Most of the time Slack, Google Meet, JIRA, etc. work perfectly but there should be times that you can just all sit together in one room and make sure you're well aligned. Misunderstood or missed requirements are easy and cheap to fix in the early phases of the project but very expensive later on. **Start project with a [product workshops](/our-areas/product-workshops/) and keep meeting on a regular schedule to validate work in progress and realign your expectations**. 
 
 ## 2. Shared values
 
-Since you're going to be working together very closely it's vital that you both share the same values and that their working culture is close to yours. Do you hate when somebody is late for a meeting? Are you obsessed about keeping discussion to the point? What is your definition of "done"? 
+Since you're going to be working together very closely **it's vital that you both share the same values and that their working culture is close to yours**. Do you hate when somebody is late for a meeting? Are you obsessed about keeping discussion to the point? What is your definition of "done"? 
 
-Vet your potential partner before any agreement is signed. Make sure you can keep up with them on a personal level. You don't have to be best friends but there needs to be solid grounds for mutual appreciation, trust and understanding.
+**Vet your potential partner before any agreement is signed**. Make sure you can keep up with them on a personal level. You don't have to be best friends but there needs to be solid grounds for mutual appreciation, trust and understanding.
 
 ## 3. Extension of your team
 
