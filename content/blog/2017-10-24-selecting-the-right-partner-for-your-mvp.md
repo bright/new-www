@@ -4,7 +4,6 @@ tags:
   - mvp
   - startup
   - outsourcing
-  - software
 date: 2017-10-23T22:00:00.000Z
 meaningfullyUpdatedAt: 2023-07-13T10:40:51.137Z
 title: Selecting the Right Partner to Build Your MVP
