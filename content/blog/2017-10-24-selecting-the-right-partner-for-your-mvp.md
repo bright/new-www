@@ -45,17 +45,21 @@ Read more on [software development pricing models](/blog/pros-and-cons-of-softwa
 
 ## 5. Argues with you
 
-It's all too easy to find a partner who would just blindly follow your requests. It's much harder to find one that would put your ideas to the test and challenge you. One that would truly care about your ultimate goal and would openly discuss their insight until your (or their) point is validated. Let's say that you want to add full [offline support to the app you're building](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) (which is usually a tall order but doesn't seem so). They can either sheepily follow or convince you that there are more pressing issues in the backlog that would benefit your users more. 
+It's all too easy to find a partner who would just blindly follow your requests. I**t's much harder to find one that would put your ideas to the test and challenge you**. One that would truly care about your ultimate goal and would openly discuss their insight until your (or their) point is validated. 
+
+Let's say that you want to add full [offline support to the app you're building](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/) (which is usually a tall order but doesn't seem so). They can either sheepily follow or convince you that there are more pressing issues in the backlog that would benefit your users more. 
 
 Sometimes you come to them not with a problem but with a ready solution. It's better if they are not afraid to point you out misassumptions in your proposed solution and are openly against executing something that doesn't make sense. If you've chosen the right partner they will surely have more technical experience than you have and they will also have some business experience from the past projects.
 
 ## 6. Stable team
 
-Before you start relying on a development partner you absolutely need to make sure that it's a company that maintains a stable team of high-quality programmers. You don't want them to restaff your project team every few weeks. You need to have a sense of stability and be sure that the people who work on your project won't get reassigned willy-nilly to another gig. Also, if there's any way you can get more familiar with the individual developers who will work on your project (their personal blogs, conference talks, etc.), it's a great plus.
+Before you start relying on a development partner you absolutely need to **make sure that it's a company that maintains a stable team of high-quality programmers**. You don't want them to restaff your project team every few weeks. You need to have a sense of stability and be sure that the people who work on your project won't get reassigned willy-nilly to another gig. Also, if there's any way you can get more familiar with the individual developers who will work on your project (their personal blogs, conference talks, etc.), it's a great plus.
 
 ## 7. Estimates
 
-People who will work on your project will have to come up with different sorts of the estimates. It starts with a high-level estimate before the kickoff, i.e. how many sprints might we need to accomplish a given feature set. Then there are estimations made during sprint planning and estimates made on the go when you check with developer how much time they need to complete a given task. It's very hard to check but you'll be much better of if you can trust the estimates coming from them. If you realize after the first couple of sprints that their estimates are way off, you have to openly discuss it and expect them to be more realistic. You make business decisions based on the estimates you get from them. Obviously, you always have to plan for some buffer but you can't accept things taking twice the time they estimated. An estimate is not a promise and it's not a commitment but it should mean something.
+People who will work on your project will have to come up with different sorts of the estimates. It starts with a high-level estimate before the kickoff, i.e. how many sprints might we need to accomplish a given feature set. Then there are estimations made during sprint planning and estimates made on the go when you check with developer how much time they need to complete a given task. It's very hard to check but you'll be much better of if you can trust the estimates coming from them. 
+
+**If you realize after the first couple of sprints that their estimates are way off, you have to openly discuss it and expect them to be more realistic**. You make business decisions based on the estimates you get from them. Obviously, you always have to plan for some buffer but you can't accept things taking twice the time they estimated. **An estimate is not a promise and it's not a commitment but it should mean something**.
 
 ## 8. Progress
 
