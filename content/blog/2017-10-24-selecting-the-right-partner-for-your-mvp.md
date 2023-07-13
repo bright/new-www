@@ -6,8 +6,8 @@ tags:
   - outsourcing
   - software
 date: 2017-10-23T22:00:00.000Z
-meaningfullyUpdatedAt: 2017-10-23T22:00:00.000Z
-title: Selecting the right partner to build your MVP
+meaningfullyUpdatedAt: 2023-07-13T10:40:51.137Z
+title: Selecting the Right Partner to Build Your MVP
 layout: post
 image: /images/bright_team.JPG
 hidden: false
@@ -15,9 +15,11 @@ comments: true
 published: true
 language: en
 ---
-One of the things that we do best at Bright Inventions is helping startups build their first MVP. It's pretty common that founders select us as their technology partner and rely on us to turn their vision into reality. We enjoy this kind of challenges and over the years have started to understand quite well why - simply said - startups like to work with us. However, this note is purely intended as a set of generic things to look for in a technology partner.
+**One of the things that we do best at Bright Inventions is helping startups build their first MVP. It's pretty common that founders select us as their technology partner and rely on us to turn their vision into reality. We enjoy this kind of challenges and over the years have started to understand quite well why** – **simply said** – **startups like to work with us. However, this note is purely intended as a set of generic things to look for in a technology partner.**
 
 <div class="image"><img src="/images/bright_team.JPG" alt="Bright Inventions team" title="undefined"  /> </div>
+
+<EbookDynamic sectionTitle='70 pages about MVP development' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Download the free MVP guide and get ready to build a successful products starting from MVP. Get your copy now!' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='ebook MVP cover' />
 
 ## 1. Closely located
 
