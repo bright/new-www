@@ -31,7 +31,7 @@ Since you're going to be working together very closely **it's vital that you bot
 
 ## 3. Extension of your team
 
-You run a startup and therefore things change rapidly. Each day brings new ideas, things to check out, more requests from the clients. You should be able to share it all with the developers working on your product without having to go through any soft of legal layer. If adding even the smallest change to the feature set requires signing an annex with them - it's not worth it. If there are things that you would have no problem asking your in-house developer but for some reason are prevented from asking the same from developer working for your partner company then it's not worth it neither.
+You run a startup and therefore things change rapidly. Each day brings new ideas, things to check out, more requests from the clients. **You should be able to share it all with the developers working on your product without having to go through any soft of legal layer. If adding even the smallest change to the feature set requires signing an annex with them - it's not worth it**. If there are things that you would have no problem asking your in-house developer but for some reason are prevented from asking the same from developer working for your partner company then it's not worth it neither.
 
 You should be able to work with them as if they were part of your team. Effectively they should feel that they are a part of your team. There's a catch: you also need to treat them as a part of your team.
 
@@ -39,9 +39,9 @@ You should be able to work with them as if they were part of your team. Effectiv
 
 ## 4. Work out a good payment model
 
-In order to make the above possible it's good to work out a simple to understand payment model. You might like the benefits of a fixed-price approach but in reality that would quickly limit the scope of changes that you can reasonably request from them. A sensible approach might be to work in sprints and have them charge you a fixed amount after each sprint. It lets you refocus after each short iteration and nobody will make any fuss over requirements changing from sprint to sprint. Your vision will evolve and your partner should adapt. 
+In order to make the above possible it's good to **work out a simple to understand payment model**. You might like the benefits of a fixed-price approach but in reality that would quickly limit the scope of changes that you can reasonably request from them. A sensible approach might be to work in sprints and have them charge you a fixed amount after each sprint. It lets you refocus after each short iteration and nobody will make any fuss over requirements changing from sprint to sprint. Your vision will evolve and your partner should adapt. 
 
-Read more on [software develoment pricing models](/blog/pros-and-cons-of-software-development-pricing-models).
+Read more on [software development pricing models](/blog/pros-and-cons-of-software-development-pricing-models).
 
 ## 5. Argues with you
 
