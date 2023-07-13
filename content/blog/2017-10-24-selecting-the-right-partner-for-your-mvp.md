@@ -21,7 +21,7 @@ language: en
 
 ## 1. Closely located
 
-It really helps when seeing your IT partner in person doesn't take half day of travelling. Software development is one of those activities in which a lack of communication between parties can result in heavy costs further down the road. Most of the time Slack, Google Meet, JIRA, etc. work perfectly but there should be times that you can just all sit together in one room and make sure you're well aligned. Misunderstood or missed requirements are easy and cheap to fix in the early phases of the project but very expensive later on. Start project with a workshop and keep meeting on a regular schedule to validate work in progress and realign your expectations. 
+It really helps when seeing your MVP development company in person doesn't take half day of travelling. **Software development is one of those activities in which a lack of communication between parties can result in heavy costs further down the road**. Most of the time Slack, Google Meet, JIRA, etc. work perfectly but there should be times that you can just all sit together in one room and make sure you're well aligned. Misunderstood or missed requirements are easy and cheap to fix in the early phases of the project but very expensive later on. Start project with a [product workshop](/our-areas/product-workshops/) and keep meeting on a regular schedule to validate work in progress and realign your expectations. 
 
 ## 2. Shared values
 
