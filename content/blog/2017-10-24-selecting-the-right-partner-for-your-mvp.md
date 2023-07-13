@@ -8,7 +8,7 @@ date: 2017-10-23T22:00:00.000Z
 meaningfullyUpdatedAt: 2023-07-13T10:40:51.137Z
 title: Selecting the Right Partner to Build Your MVP
 layout: post
-image: /images/bright_team.JPG
+image: /images/mvp_partner_blog.png
 hidden: false
 comments: true
 published: true
