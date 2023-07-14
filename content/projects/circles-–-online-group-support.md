@@ -44,12 +44,6 @@ show on homepage: true
 published: true
 language: en
 ---
-<div class="image"><img src="/images/circles_mockup_phone.png" alt="Healthcare app mobile mockup" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team."  /> </div>
-
-<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
-
-Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
-
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
 * Live audio rooms with up to 50 participants on iOS and Android apps.
@@ -66,15 +60,17 @@ Be in grief over the loss of a special someone, the pain of divorce or separatio
 
 <Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
 
-Frontend: TypeScript, React
+**Frontend**: TypeScript, React
 
-Backend: Node.js (Express.js), PostgreSQL/Redis, AWS
+**Backend**: Node.js (Express.js), PostgreSQL/Redis, AWS
 
-Mobile: React Native, mobx-state-tree
+**Mobile**: React Native, mobx-state-tree
 
-DevOps/Deploy: AWS, Docker, Jenkins
+**DevOps/Deploy**: AWS, Docker, Jenkins
 
 <TitleWithIcon sectionTitle='about Circles' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+
+Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
 Circles is a leading emotional support platform that connects people experiencing similar challenges in small online groups led by mental health experts. **Awarded as the Best Platform for Group Therapy 2021, Circles app has already supported thousands of people** while coping with grief, navigating divorce and separation, going through complex relationships or other life challenges.
 
@@ -82,7 +78,7 @@ Circles users attend live video and audio meetings. They also have the ability t
 
 <YouTubeEmbed url='https://youtu.be/gxwapWmv-zo' />
 
-<TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='## Circles Development Process' />
+<TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='Circles Development Process' />
 
 Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
