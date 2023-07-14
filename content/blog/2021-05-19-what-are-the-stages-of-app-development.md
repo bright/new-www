@@ -6,8 +6,8 @@ tags:
   - development
   - business
   - design
-date: 2023-04-24T07:30:02.507Z
-meaningfullyUpdatedAt: 2023-04-24T07:30:03.047Z
+date: 2021-05-19T07:30:02.507Z
+meaningfullyUpdatedAt: 2023-07-14T08:35:20.017Z
 title: What Are the Stages of App Development?
 layout: post
 image: /images/blogpost_stagesofappdevelopment.png
