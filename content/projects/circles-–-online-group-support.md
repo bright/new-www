@@ -92,20 +92,33 @@ Since we came on board, we helped to develop a group chat adding new features su
 
 <div class="image"><img src="/images/circles_mockup.png" alt="onboarding mockup web" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team."  /> </div>
 
-
 <sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
 
-On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
+### Mobile development
+
+After a successful collaboration in the web development area, **our client decided to engage our team in mobile development as well**. Since the beginning of 2022 mobile developers from Bright Inventions have **built cross-platform applications for Android and iOS with ReactNative**.
+
+Mobile apps have become the core of Circles' solution. Thanks to the new audio meetings feature, delivered with the support of our mobile team, Circles attract new groups of users.
+
+Audio drop-in and drop-out of conversations give users easy access to mental support and also offer them a sense of belonging. In order to develop a live audio meeting feature we implemented the Twilio library. 
+
+Besides that, we still needed to develop custom solutions to adjust the audio room to specific clients' needs. As a result, we developed custom features such as reactions, callers queuing, call moderator panel and in-built chat. The implementation of the chat feature involved the usage of the GetStream library.
+
+### Cloud computing
+
+Circles is in the face of steady growth, acquiring more and more users, especially mobile ones. As the user base of the app expands, every DevOps team has to address scalability challenges. At Bright Inventions our primary focus is not just on adapting to these changes, but rather on proactively preparing the infrastructure beforehand.
+
+That’s why our current cloud computing goal is horizontal scaling which is a technique used to increase the capacity and performance of a system by adding more instances of the same component. By horizontally scaling, Circles will achieve higher availability, better load balancing, and the capability to handle larger user loads seamlessly, ensuring the best possible app experience for users.
+
+### Analytics
+
+On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users' activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
 
 ![Circles application](/images/circles_mockup_phone.png)
 
 <TitleWithIcon sectionTitle='Circles’ perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='Circles’ perspective' />
 
-Eyal Cafri – VP R&D at Circles:
-
-*We have found Bright Inventions to be professional group of people, that we feel we can trust, as an integral part of our company, not only to deliver in the right quality, but be proactive, contribute from their experience to help us shape the company’s R&D and product.*
-
-*Bright Inventions were above our expectations, and we are very happy from both the great quality of people we fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.*
+<blockquote><h2>Bright Inventions is above our expectations</h2><div>We have found Bright Inventions to be a professional group of people that we feel we can trust, as an integral part of our company, not only to deliver in the right quality, but be proactive, contributing from their experience to help us shape the company’s R&D and product. Their ability to source experts has been exceptional.   Bright Inventions is above our expectations, and we are very happy from both the great quality of people we are fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.</div><footer>Kobi Avriel – VP R&D at Circles</footer></blockquote>
 
 <TitleWithIcon sectionTitle='what is next' titleIcon='/images/results_icon_title_small.png' titleIconAlt='what is next' />
 
