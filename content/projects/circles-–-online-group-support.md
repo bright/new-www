@@ -3,6 +3,7 @@ team_members:
   - dominik-d
   - slawek
   - rafal h
+  - adam-k
 our_service:
   - web development
   - mobile app development
@@ -30,19 +31,23 @@ tags:
   - eHealth
   - customized software
   - mobile app
-title_team: meet the team behind the project
+title_team: team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your product
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 order: 1
 slug: online-group-support
-show_team: false
+show_team: true
 show_case_study: true
 show on homepage: true
 published: true
 language: en
 ---
+<div class="image"><img src="/images/circles_mockup_phone.png" alt="Healthcare app mobile mockup" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team."  /> </div>
+
+<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
+
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
@@ -81,6 +86,8 @@ Circles users attend live video and audio meetings. They also have the ability t
 
 Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
+<div class="image"><img src="/images/case_study_circles_client_quote.png" alt="Client's review" title="undefined"  /> </div>
+
 ### Agile approach
 
 Circles is a startup focused on building innovative mental health products. We provide support to our clients like Circles and proudly help them create products that have a significant impact on users. We are flexible and quickly adapt to the ever-changing nature of the startup environment. We understand that nothing remains constant in the pursuit of innovation. That's why we prioritize swift adjustments and offer tailored technical recommendations based on business needs.
@@ -115,11 +122,13 @@ That’s why our current cloud computing goal is horizontal scaling which is a t
 
 On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users' activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
 
-![Circles application](/images/circles_mockup_phone.png)
-
 <TitleWithIcon sectionTitle='Circles’ perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='Circles’ perspective' />
 
-<blockquote><h2>Bright Inventions is above our expectations</h2><div>We have found Bright Inventions to be a professional group of people that we feel we can trust, as an integral part of our company, not only to deliver in the right quality, but be proactive, contributing from their experience to help us shape the company’s R&D and product. Their ability to source experts has been exceptional.   Bright Inventions is above our expectations, and we are very happy from both the great quality of people we are fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.</div><footer>Kobi Avriel – VP R&D at Circles</footer></blockquote>
+**Kobi Avriel – VP R&D at Circles**
+
+*We have found Bright Inventions to be a professional group of people that we feel we can trust, as an integral part of our company, not only to deliver in the right quality, but be proactive, contributing from their experience to help us shape the company’s R&D and product. Their ability to source experts has been exceptional.*   
+
+*Bright Inventions is above our expectations, and we are very happy from both the great quality of people we are fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.*
 
 <TitleWithIcon sectionTitle='what is next' titleIcon='/images/results_icon_title_small.png' titleIconAlt='what is next' />
 
