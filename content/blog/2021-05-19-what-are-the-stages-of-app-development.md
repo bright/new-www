@@ -68,6 +68,8 @@ Check out all the steps on the road to a successful app launch and maintenance.
 * MVP is also an opportunity to meet first technical challenges that could have been missed during prototyping phase such as: accessing geo location in the background or handling [bluetooth](/our-areas/bluetooth-development) communication with other devices.
 * Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
 
+<EbookDynamic sectionTitle='Download the ultimate guide to MVP for free' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Discover the power of Minimum Viable Product (MVP) development in our free ebook. Do not miss out, download it here.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
+
 ## App Development & Maintenance
 
 (Infinity – usually)
