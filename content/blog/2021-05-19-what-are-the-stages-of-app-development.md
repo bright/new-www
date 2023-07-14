@@ -40,7 +40,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 <div class='block-button'><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
 
-## App Prototyping
+## App Prototyping & Product design
 
 (1-4 weeks)
 
@@ -72,7 +72,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 <EbookDynamic sectionTitle='Download the ultimate guide to MVP for free' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Discover the power of Minimum Viable Product (MVP) development in our free ebook. Do not miss out, download it here.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
 
-## App Development & Maintenance
+## App Development, QA & Maintenance
 
 (Infinity – usually)
 
@@ -80,6 +80,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 * Congrats, you’ve made it! 🙂
 * At this stage, a software development company regularly deploys some new features to production.
+* QA team makes sure that your software is secure, up-and-running and offers the best possible performance.
 * **Every change in the product will affect your users.** Thus at this stage the priority for developers is to maintain the app stability. All development updates should be tested in a staging environment.
 * The crucial part is to analyze users’ behavior to see how they respond to new features.
 * Also, at this stage mobile app developers have to regularly update the apps to cope with the Android and iOS changes.
