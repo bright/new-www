@@ -29,6 +29,7 @@ tags:
   - web app
   - eHealth
   - customized software
+  - mobile app
 title_team: meet the team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your product
