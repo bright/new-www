@@ -70,9 +70,9 @@ DevOps/Deploy: AWS, Docker, Jenkins
 
 Circles is a leading emotional support platform that connects people experiencing similar challenges in small online groups led by mental health experts. **Awarded as the Best Platform for Group Therapy 2021, Circles app has already supported thousands of people** while coping with grief, navigating divorce and separation, going through complex relationships or other life challenges.
 
-Circles groups meet live for 60-minute video meetings and also have the ability to message via online chat at any time, access personalized content, including self-help exercises, blogs and webinars, all available through the Circles app.
+Circles users attend live video and audio meetings. They also have the ability to message via online chat at any time and access personalized content, including self-help exercises, blogs, webinars.
 
-<YouTubeEmbed url='https://www.youtube.com/watch?v=3SRelp9NtAA' />
+<YouTubeEmbed url='https://youtu.be/gxwapWmv-zo' />
 
 <TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='## Circles Development Process' />
 
