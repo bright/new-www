@@ -24,7 +24,7 @@ bar_achievements:
   - number: "6"
     label: Bright team members
   - number: 2+
-    label: Years of cooperation
+    label: Years of collaboration
 tags:
   - web app
   - eHealth
@@ -42,10 +42,6 @@ show on homepage: true
 published: true
 language: en
 ---
-<div class="image"><img src="/images/circles_mockup.png" alt="Circles mockup" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team. "  /> </div>
-
-<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
-
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
