@@ -44,37 +44,27 @@ show on homepage: true
 published: true
 language: en
 ---
-<div class="image"><img src="/images/circles_mockup_phone.png" alt="Healthcare app mobile mockup" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team."  /> </div>
-
-<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
-
-Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
-
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
-* Live audio rooms with up to 50 participants on iOS and Android apps.
-* The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature.
-* Mobile app payments with different pricing tiers and plans.
-* Onboarding which helps users quickly find the support group suitable for their needs.
-* Features for video conferences such as group chat or screen sharing by a group facilitator.
-* Direct messaging for group members.
-* Admin panel dedicated to therapists conducting group meetings.
-* Redesign of the group space where group members can interact with each other.
-* Customized business tool for processing user experience, traffic and acquisition data.
+<SliderText sliderElements='[{"title":"Audio rooms","description":"Live audio rooms with up to 50 participants on iOS and Android apps."},{"title":"Multifunctional audio room","description":"The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature."},{"title":"App payments","description":"Mobile app payments with different pricing tiers and plans."},{"title":"Web and mobile onboarding","description":"Onboarding which helps users quickly find the support group suitable for their needs."},{"description":"Features for video conferences such as group chat or screen sharing by a group facilitator.","title":"Video conferences"},{"title":"Direct messaging","description":"Direct messaging for group members."},{"title":"Panel for therapists","description":"Admin panel dedicated to therapists conducting group meetings."},{"description":"Redesign of the group space where group members can interact with each other.","title":"Group space redesign "},{"title":"Business and analytics tools","description":"Customized business tool for processing user experience, traffic and acquisition data."}]' />
 
 <TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
 <Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
 
-Frontend: TypeScript, React
+**Frontend**: TypeScript, React
 
-Backend: Node.js (Express.js), PostgreSQL/Redis, AWS
+**Backend**: Node.js (Express.js), PostgreSQL/Redis, AWS
 
-Mobile: React Native, mobx-state-tree
+**Mobile**: React Native, mobx-state-tree
 
-DevOps/Deploy: AWS, Docker, Jenkins
+**DevOps/Deploy**: AWS, Docker, Jenkins
 
 <TitleWithIcon sectionTitle='about Circles' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+
+Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
+
+<AppStore googleApp='https://circlesup-support.onelink.me/Zfmp/jvvug6g9' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://circlesup-support.onelink.me/Zfmp/vn9898b2' srcAppStore='/images/app_store.png' altAppStoreImage='app store'/>
 
 Circles is a leading emotional support platform that connects people experiencing similar challenges in small online groups led by mental health experts. **Awarded as the Best Platform for Group Therapy 2021, Circles app has already supported thousands of people** while coping with grief, navigating divorce and separation, going through complex relationships or other life challenges.
 
@@ -82,7 +72,7 @@ Circles users attend live video and audio meetings. They also have the ability t
 
 <YouTubeEmbed url='https://youtu.be/gxwapWmv-zo' />
 
-<TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='## Circles Development Process' />
+<TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='Circles Development Process' />
 
 Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
@@ -121,6 +111,8 @@ That’s why our current cloud computing goal is horizontal scaling which is a t
 ### Analytics
 
 On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users' activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle='Circles’ perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='Circles’ perspective' />
 
