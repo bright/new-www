@@ -86,6 +86,8 @@ Circles users attend live video and audio meetings. They also have the ability t
 
 Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
+<div class="image"><img src="/images/case_study_circles_client_quote.png" alt="Client's review" title="undefined"  /> </div>
+
 ### Agile approach
 
 Circles is a startup focused on building innovative mental health products. We provide support to our clients like Circles and proudly help them create products that have a significant impact on users. We are flexible and quickly adapt to the ever-changing nature of the startup environment. We understand that nothing remains constant in the pursuit of innovation. That's why we prioritize swift adjustments and offer tailored technical recommendations based on business needs.
