@@ -46,16 +46,6 @@ language: en
 ---
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
-* Live audio rooms with up to 50 participants on iOS and Android apps.
-* The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature.
-* Mobile app payments with different pricing tiers and plans.
-* Onboarding which helps users quickly find the support group suitable for their needs.
-* Features for video conferences such as group chat or screen sharing by a group facilitator.
-* Direct messaging for group members.
-* Admin panel dedicated to therapists conducting group meetings.
-* Redesign of the group space where group members can interact with each other.
-* Customized business tool for processing user experience, traffic and acquisition data.
-
 <SliderText sliderElements='[{"title":"Audio rooms","description":"Live audio rooms with up to 50 participants on iOS and Android apps."},{"title":"Multifunctional audio room","description":"The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature."},{"title":"App payments","description":"Mobile app payments with different pricing tiers and plans."},{"title":"Web and mobile onboarding","description":"Onboarding which helps users quickly find the support group suitable for their needs."},{"description":"Features for video conferences such as group chat or screen sharing by a group facilitator.","title":"Video conferences"},{"title":"Direct messaging","description":"Direct messaging for group members."},{"title":"Panel for therapists","description":"Admin panel dedicated to therapists conducting group meetings."},{"description":"Redesign of the group space where group members can interact with each other.","title":"Group space redesign "},{"title":"Business and analytics tools","description":"Customized business tool for processing user experience, traffic and acquisition data."}]' />
 
 
