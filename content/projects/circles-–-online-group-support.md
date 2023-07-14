@@ -24,12 +24,13 @@ bar_achievements:
   - number: "6"
     label: Bright team members
   - number: 2+
-    label: Years of cooperation
+    label: Years of collaboration
 tags:
   - web app
   - eHealth
   - customized software
-title_team: meet the team
+  - mobile app
+title_team: meet the team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your product
 description_contact: Tell us more about your mobile project or idea for an app.
@@ -42,58 +43,83 @@ show on homepage: true
 published: true
 language: en
 ---
-<div class="image"><img src="/images/circles_mockup.png" alt="Circles mockup" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team. "  /> </div>
-
-<sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
-
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
+* Live audio rooms with up to 50 participants on iOS and Android apps.
+* The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature.
+* Mobile app payments with different pricing tiers and plans.
 * Onboarding which helps users quickly find the support group suitable for their needs.
-* New features for video conferences such as group chat or screen sharing by a group facilitator.
-* Chat for group members.
-* Control panel dedicated to therapists conducting group meetings.
+* Features for video conferences such as group chat or screen sharing by a group facilitator.
+* Direct messaging for group members.
+* Admin panel dedicated to therapists conducting group meetings.
 * Redesign of the group space where group members can interact with each other.
 * Customized business tool for processing user experience, traffic and acquisition data.
 
 <TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
+<Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
+
 Frontend: TypeScript, React
 
-Backend: Node.js, PostgreSQL/Redis, NestJS, AWS
+Backend: Node.js (Express.js), PostgreSQL/Redis, AWS
+
+Mobile: React Native, mobx-state-tree
+
+DevOps/Deploy: AWS, Docker, Jenkins
 
 <TitleWithIcon sectionTitle='about Circles' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
 Circles is a leading emotional support platform that connects people experiencing similar challenges in small online groups led by mental health experts. **Awarded as the Best Platform for Group Therapy 2021, Circles app has already supported thousands of people** while coping with grief, navigating divorce and separation, going through complex relationships or other life challenges.
 
-Circles groups meet live for 60-minute video meetings and also have the ability to message via online chat at any time, access personalized content, including self-help exercises, blogs and webinars, all available through the Circles app.
+Circles users attend live video and audio meetings. They also have the ability to message via online chat at any time and access personalized content, including self-help exercises, blogs, webinars.
 
-<YouTubeEmbed url='https://www.youtube.com/watch?v=3SRelp9NtAA' />
+<YouTubeEmbed url='https://youtu.be/gxwapWmv-zo' />
 
 <TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='## Circles Development Process' />
 
-Circles is a support-groups platform developed by an Israeli startup. The client came to us thanks to the referral from our long-term client. We have started our cooperation in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. We are responsible for the web version of the app by delivering full stack solutions.
+Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
-![Circles's review of Bright Inventions](/images/circles_case_study_quote.png)
+### Agile approach
 
-Since we came on board, we helped to develop a group chat adding new features such as: deleting the messages, attaching pictures or tagging people. What is more, we implemented a user-friendly [Circles group discovery section](https://circlesup.com/group-discovery/) which is a part of the onboarding process. It helps users to find the right support group to join. Naturally, we are also responsible for app maintenance and cloud services.
+Circles is a startup focused on building innovative mental health products. We provide support to our clients like Circles and proudly help them create products that have a significant impact on users. We are flexible and quickly adapt to the ever-changing nature of the startup environment. We understand that nothing remains constant in the pursuit of innovation. That's why we prioritize swift adjustments and offer tailored technical recommendations based on business needs.
 
-![Circles application](/images/circles_mockup_phone.png)
+Bright Inventions works closely with the client, joining daily and weekly meetings with various teams to understand the perspectives of every side including marketing and sales departments. Working with the Circles team means not only working on tech but also exploring the business nature of the project. 
+
+### Web development
+
+Since we came on board, we helped to develop a group chat adding new features such as user engagement via chat and other tools. What is more, we implemented a user-friendly [Circles group discovery section](https://circlesup.com/group-discovery/) which was a part of the web onboarding process. It helped users to find the right support group to join. Naturally, we are also responsible for app maintenance.
+
+<div class="image"><img src="/images/circles_mockup.png" alt="onboarding mockup web" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team."  /> </div>
 
 <sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
 
-On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
+### Mobile development
 
-Bright Inventions works closely with the client, joining meetings with various teams to understand perspectives of every side including marketing and sales departments. Working with the Circles team means not only working on tech but also exploring the business nature of the project. 
+After a successful collaboration in the web development area, **our client decided to engage our team in mobile development as well**. Since the beginning of 2022 mobile developers from Bright Inventions have **built cross-platform applications for Android and iOS with ReactNative**.
+
+Mobile apps have become the core of Circles' solution. Thanks to the new audio meetings feature, delivered with the support of our mobile team, Circles attract new groups of users.
+
+Audio drop-in and drop-out of conversations give users easy access to mental support and also offer them a sense of belonging. In order to develop a live audio meeting feature we implemented the Twilio library. 
+
+Besides that, we still needed to develop custom solutions to adjust the audio room to specific clients' needs. As a result, we developed custom features such as reactions, callers queuing, call moderator panel and in-built chat. The implementation of the chat feature involved the usage of the GetStream library.
+
+### Cloud computing
+
+Circles is in the face of steady growth, acquiring more and more users, especially mobile ones. As the user base of the app expands, every DevOps team has to address scalability challenges. At Bright Inventions our primary focus is not just on adapting to these changes, but rather on proactively preparing the infrastructure beforehand.
+
+That’s why our current cloud computing goal is horizontal scaling which is a technique used to increase the capacity and performance of a system by adding more instances of the same component. By horizontally scaling, Circles will achieve higher availability, better load balancing, and the capability to handle larger user loads seamlessly, ensuring the best possible app experience for users.
+
+### Analytics
+
+On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users' activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
+
+![Circles application](/images/circles_mockup_phone.png)
 
 <TitleWithIcon sectionTitle='Circles’ perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='Circles’ perspective' />
 
-Eyal Cafri – VP R&D at Circles:
-
-*We have found Bright Inventions to be professional group of people, that we feel we can trust, as an integral part of our company, not only to deliver in the right quality, but be proactive, contribute from their experience to help us shape the company’s R&D and product.*
-
-*Bright Inventions were above our expectations, and we are very happy from both the great quality of people we fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.*
+<blockquote><h2>Bright Inventions is above our expectations</h2><div>We have found Bright Inventions to be a professional group of people that we feel we can trust, as an integral part of our company, not only to deliver in the right quality, but be proactive, contributing from their experience to help us shape the company’s R&D and product. Their ability to source experts has been exceptional.   Bright Inventions is above our expectations, and we are very happy from both the great quality of people we are fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.</div><footer>Kobi Avriel – VP R&D at Circles</footer></blockquote>
 
 <TitleWithIcon sectionTitle='what is next' titleIcon='/images/results_icon_title_small.png' titleIconAlt='what is next' />
 
