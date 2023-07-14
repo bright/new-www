@@ -6,8 +6,8 @@ tags:
   - development
   - business
   - design
-date: 2023-04-24T07:30:02.507Z
-meaningfullyUpdatedAt: 2023-04-24T07:30:03.047Z
+date: 2021-05-19T07:30:02.507Z
+meaningfullyUpdatedAt: 2023-07-14T08:35:20.017Z
 title: What Are the Stages of App Development?
 layout: post
 image: /images/blogpost_stagesofappdevelopment.png
@@ -18,7 +18,9 @@ language: en
 ---
 **From an idea to a successful launch… There are 4 main stages of building an app. Learn more about all of software development steps.**
 
-<div class="image"><img src="/images/blogpost_stagesofappdevelopment.png" alt="stages of app development" title="undefined"  /> </div>
+<div class="image"><img src="/images/timeline_app_development_stages.png" alt="Software development stages and timeline" title="Timeline template by Yuhki Yamashita (licence CC BY 4.0)."  /> </div>
+
+<sub> [Timeline template by Yuhki Yamashita](https://www.figma.com/community/file/767777586184800315) (licence CC BY 4.0). </sub>
 
 ## Web or mobile app development steps and timelines
 
@@ -38,7 +40,7 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 <div class='block-button'><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
 
-## App Prototyping
+## App Prototyping & Product design
 
 (1-4 weeks)
 
@@ -68,7 +70,9 @@ Check out all the steps on the road to a successful app launch and maintenance.
 * MVP is also an opportunity to meet first technical challenges that could have been missed during prototyping phase such as: accessing geo location in the background or handling [bluetooth](/our-areas/bluetooth-development) communication with other devices.
 * Even though MVP is a basic version of the product, it should be treated as **a solid base for what’s next**. Well done MVP will benefit in the near future during another development stage. MVP gives a chance to create a well-thought software solution, based on <del>our perception of users’ needs</del> **actual users’ needs and market trends**.
 
-## App Development & Maintenance
+<EbookDynamic sectionTitle='Download the ultimate guide to MVP for free' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Discover the power of Minimum Viable Product (MVP) development in our free ebook. Do not miss out, download it here.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
+
+## App Development, QA & Maintenance
 
 (Infinity – usually)
 
@@ -76,11 +80,12 @@ Check out all the steps on the road to a successful app launch and maintenance.
 
 * Congrats, you’ve made it! 🙂
 * At this stage, a software development company regularly deploys some new features to production.
+* QA team makes sure that your software is secure, up-and-running and offers the best possible performance.
 * **Every change in the product will affect your users.** Thus at this stage the priority for developers is to maintain the app stability. All development updates should be tested in a staging environment.
 * The crucial part is to analyze users’ behavior to see how they respond to new features.
 * Also, at this stage mobile app developers have to regularly update the apps to cope with the Android and iOS changes.
 * It’s a constant challenge of developing our product to give more and more satisfaction to the users. :)
 
-Now you know more about the most important app development stages. Remember that the final flow always depends on the project. Not every step is required. Nothing is set in stone in the app development world.
+Now you know more about the most important app development stages. **Remember that the final flow always depends on the project**. Not every step is required. Nothing is set in stone in the app development world.
 
 <div class='block-button'><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
