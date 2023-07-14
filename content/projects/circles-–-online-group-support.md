@@ -78,19 +78,26 @@ Circles users attend live video and audio meetings. They also have the ability t
 
 <TitleWithIcon sectionTitle='Circles development process' titleIcon='/images/gearwheel.svg' titleIconAlt='## Circles Development Process' />
 
-Circles is a support-groups platform developed by an Israeli startup. The client came to us thanks to the referral from our long-term client. We have started our cooperation in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. We are responsible for the web version of the app by delivering full stack solutions.
+Circles is a product developed by a startup in Israel. The client came to us thanks to a referral from our long-term client. We started our collaboration in June 2021. The product was already launched. Our team of experienced bright Fullstack Developers joined to support product development. **We are responsible for the web and mobile versions of the app by delivering full-stack and cloud computing solutions**.
 
-![Circles's review of Bright Inventions](/images/circles_case_study_quote.png)
+### Agile approach
 
-Since we came on board, we helped to develop a group chat adding new features such as: deleting the messages, attaching pictures or tagging people. What is more, we implemented a user-friendly [Circles group discovery section](https://circlesup.com/group-discovery/) which is a part of the onboarding process. It helps users to find the right support group to join. Naturally, we are also responsible for app maintenance and cloud services.
+Circles is a startup focused on building innovative mental health products. We provide support to our clients like Circles and proudly help them create products that have a significant impact on users. We are flexible and quickly adapt to the ever-changing nature of the startup environment. We understand that nothing remains constant in the pursuit of innovation. That's why we prioritize swift adjustments and offer tailored technical recommendations based on business needs.
 
-![Circles application](/images/circles_mockup_phone.png)
+Bright Inventions works closely with the client, joining daily and weekly meetings with various teams to understand the perspectives of every side including marketing and sales departments. Working with the Circles team means not only working on tech but also exploring the business nature of the project. 
+
+### Web development
+
+Since we came on board, we helped to develop a group chat adding new features such as user engagement via chat and other tools. What is more, we implemented a user-friendly [Circles group discovery section](https://circlesup.com/group-discovery/) which was a part of the web onboarding process. It helped users to find the right support group to join. Naturally, we are also responsible for app maintenance.
+
+<div class="image"><img src="/images/circles_mockup.png" alt="onboarding mockup web" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team."  /> </div>
+
 
 <sub> *It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team*. </sub>
 
 On top of that, we deliver solutions that enable analyzing data. For example, our team worked on a customized data tracking and processing solution that provides Circles specialists with automated reports widely covering users activity, experience or traffic sources. All this information enables planning new features and making strategic business decisions for further growth.
 
-Bright Inventions works closely with the client, joining meetings with various teams to understand perspectives of every side including marketing and sales departments. Working with the Circles team means not only working on tech but also exploring the business nature of the project. 
+![Circles application](/images/circles_mockup_phone.png)
 
 <TitleWithIcon sectionTitle='Circles’ perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='Circles’ perspective' />
 
