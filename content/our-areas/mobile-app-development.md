@@ -16,12 +16,12 @@ faqs:
   - mobile app development 5
   - mobile app development 6
 project:
+  - relevo
+  - Practi JET POS Mobile
+  - circles
+  - finebite
   - solution-parkinson
   - smarthelp
-  - finebite
-  - relevo
-  - vcare
-  - Practi JET POS Mobile
 layout: our-service
 our_service_id: mobile app development
 meta_title: Mobile App Development
@@ -44,6 +44,20 @@ bullet_points:
   - assessment of your idea in 7 days
   - from idea to launch in up to 6 months
   - managing every aspect of the development process
+button: let's talk about mobile
+button2: let's talk about mobile
+published: true
+show_technology_stack: true
+title_team: meet our mobile app development team
+title_case_study: mobile applications that we delivered
+title_faqs: mobile app development FAQs
+image_alt_our_service_desktop: Mobile development company
+intro: Our team has broad experience in building applications for iOS and Android.
+show technology stack: true
+language: en
+image_alt_our_service_mobile: Mobile development company
+title_contact: book a free consultation in 48 hours
+show case study: true
 bar_stack:
   - iOS
   - Android
@@ -54,20 +68,7 @@ bar_stack:
   - GitHub
   - Firebase
   - Fastlane
-button: let's talk about mobile
-button2: let's talk about mobile
-published: true
 show_case_study: true
-show_technology_stack: true
-title_team: meet our mobile app development team
-title_case_study: mobile applications that we delivered
-title_faqs: mobile app development FAQs
-image_alt_our_service_desktop: Mobile development company
-intro: Our team has broad experience in building applications for iOS and Android.
-show technology stack: true
-image_alt_our_service_mobile: Mobile development company
-title_contact: book a free consultation in 48 hours
-show case study: true
 description_contact: Tell us more about your mobile project or idea for an app.
   Fill out the form below and we'll get back to you in 48 hours.
 description_mdx: >-
@@ -78,7 +79,6 @@ description_mdx: >-
 
   Not sure which technology to build your app in? No need to worry, as we’ll help you evaluate your project and choose the most suitable solution. All so you can achieve the best app performance and a robust user experience on all mobile devices!
 image_our_service: /images/mobile_app_development.png
-language: en
 ---
 ## mobile app development services
 
