@@ -86,6 +86,6 @@ Check out all the steps on the road to a successful app launch and maintenance.
 * Also, at this stage mobile app developers have to regularly update the apps to cope with the Android and iOS changes.
 * It’s a constant challenge of developing our product to give more and more satisfaction to the users. :)
 
-Now you know more about the most important app development stages. Remember that the final flow always depends on the project. Not every step is required. Nothing is set in stone in the app development world.
+Now you know more about the most important app development stages. **Remember that the final flow always depends on the project**. Not every step is required. Nothing is set in stone in the app development world.
 
 <div class='block-button'><h2>Do you want to kick off your app development process?</h2><div>We have been developing mobile and web apps since 2012 for clients from the UK, Germany, Israel and more. Contact us to estimate your product.</div><a href="/start-project"><button>Let's talk about your solution</button></a></div>
