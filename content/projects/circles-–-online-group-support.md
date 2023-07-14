@@ -64,7 +64,7 @@ language: en
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
-<AppStore googleApp='https://circlesup-support.onelink.me/Zfmp/jvvug6g9' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://circlesup-support.onelink.me/Zfmp/vn9898b2' srcAppStore='/images/app_store.png' altAppStoreImage='app store'/>
+<AppStore googleApp='https://circlesup-support.onelink.me/Zfmp/jvvug6g9' srcGoogle='/images/google_play.png' altGoogleImage='google play' appStore='https://circlesup-support.onelink.me/Zfmp/vn9898b2' srcAppStore='/images/app_store.png' altAppStoreImage='app store' />
 
 Circles is a leading emotional support platform that connects people experiencing similar challenges in small online groups led by mental health experts. **Awarded as the Best Platform for Group Therapy 2021, Circles app has already supported thousands of people** while coping with grief, navigating divorce and separation, going through complex relationships or other life challenges.
 
@@ -86,7 +86,7 @@ Bright Inventions works closely with the client, joining daily and weekly meetin
 
 ### Web development
 
-Since we came on board, we helped to develop a group chat adding new features such as user engagement via chat and other tools. What is more, we implemented a user-friendly [Circles group discovery section](https://circlesup.com/group-discovery/) which was a part of the web onboarding process. It helped users to find the right support group to join. Naturally, we are also responsible for app maintenance.
+Since we came on board, we helped to develop a group chat adding new features such as user engagement via chat and other tools. What is more, we implemented a user-friendly Circles group discovery section which was a part of the web onboarding process. It helped users to find the right support group to join. Naturally, we are also responsible for app maintenance.
 
 <div class="image"><img src="/images/circles_mockup.png" alt="onboarding mockup web" title="It is a mockup example created for the purpose of case study. It is based on the design made by Circles Product Design Team."  /> </div>
 
