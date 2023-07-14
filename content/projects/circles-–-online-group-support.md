@@ -46,10 +46,13 @@ Be in grief over the loss of a special someone, the pain of divorce or separatio
 
 <TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
 
+* Live audio rooms with up to 50 participants on iOS and Android apps.
+* The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature.
+* Mobile app payments with different pricing tiers and plans.
 * Onboarding which helps users quickly find the support group suitable for their needs.
-* New features for video conferences such as group chat or screen sharing by a group facilitator.
-* Chat for group members.
-* Control panel dedicated to therapists conducting group meetings.
+* Features for video conferences such as group chat or screen sharing by a group facilitator.
+* Direct messaging for group members.
+* Admin panel dedicated to therapists conducting group meetings.
 * Redesign of the group space where group members can interact with each other.
 * Customized business tool for processing user experience, traffic and acquisition data.
 
@@ -57,7 +60,11 @@ Be in grief over the loss of a special someone, the pain of divorce or separatio
 
 Frontend: TypeScript, React
 
-Backend: Node.js, PostgreSQL/Redis, NestJS, AWS
+Backend: Node.js (Express.js), PostgreSQL/Redis, AWS
+
+Mobile: React Native, mobx-state-tree
+
+DevOps/Deploy: AWS, Docker, Jenkins
 
 <TitleWithIcon sectionTitle='about Circles' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
 
