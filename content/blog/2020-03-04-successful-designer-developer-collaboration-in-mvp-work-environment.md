@@ -42,7 +42,7 @@ On the contrary, in some cases it might not be possible to simplify and cut down
 
 Positive atmosphere enhances productivity. Usually building MVP requires a high paced working process which might ricochet at team with stress and feeling pressure especially before meeting the deadlines. What can be worse than confusion and misconception while trying to work fast? Any misunderstanding increases tension in working relations and slows down the process. 
 
-Therefore, it is significant to ensure that the designer and developer teams are  working in a friendly environment, are positive and respectful towards each other and are comfortable with asking questions, which discards misunderstandings and results in delivering product faster and with less stress.
+Therefore, it is significant to **ensure that the designer and developer teams are working in a friendly environment, are positive and respectful towards each other and are comfortable with asking questions**, which discards misunderstandings and results in delivering product faster and with less stress.
 
 Asking questions might not be that easy for everyone. Some people hesitate to acknowledge that they do not understand something in order not to be perceived as someone who slows down the working process with their questions. Nevertheless, asking the right question at the right moment might expose the problem from a different perspective and show that the initial concept was not right and the change is needed. 
 
@@ -54,7 +54,7 @@ That is why it is important to maintain positive working relations in which ther
 
 Building MVP means to be constantly ready for a change. Successful MVPs use a **User-Centered Design** approach which follows user needs on all stages of the project. That includes some frequent user testing sessions that help understand if the features we design and build are really needed and if user appreciates them. After such user testing, most often, the product requires some adjustments. 
 
-At times these changes do not only result in making buttons more eminent, but even in giving up one feature in favour of another, or so much as rethinking the whole concept. So, designer-developer tandem should be ready as for small modifications, as well as for bigger conceptual alterations of the product. 
+At times these changes do not only result in making buttons more eminent, but even in giving up one feature in favour of another, or so much as rethinking the whole concept. So, **designer-developer tandem should be ready as for small modifications, as well as for bigger conceptual alterations of the product**. 
 
 <EbookDynamic sectionTitle='Dive into MVP development with our guide' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Based on over a decade of experience in MVP development we offer you an ultimate guide to MVP. Grab it for free!' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
 
@@ -62,7 +62,7 @@ At times these changes do not only result in making buttons more eminent, but ev
 
 Undoubtedly, as designer-developer being a part of MVP process is an amazing experience as you get to see the birth of a product and provide the ideas which can change it. You also can learn volumes from the user feedback, make small adjustments, or rethink the whole concept of an output. 
 
-However, the success of MVP also depends on the designer-developer ability to cooperate with each other. Remember not only to listen to the other party but also hear what that party has to say. Don’t be afraid of asking questions, and don’t be reluctant to answer the same questions again and again. 
+However, **the success of MVP also depends on the designer-developer ability to cooperate with each other**. Remember not only to listen to the other party but also hear what that party has to say. Don’t be afraid of asking questions, and don’t be reluctant to answer the same questions again and again. 
 
 And particularly, do not get attached to already created solutions, be prepared to frequent changes, modifications and alterations. Trying to follow these tips may bring you and your team to a positive, friendly MVP working environment.
 
