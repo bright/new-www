@@ -7,7 +7,7 @@ tags:
   - UI
   - cooperation
 date: 2020-03-03T15:21:07.486Z
-meaningfullyUpdatedAt: 2020-03-03T15:21:00.000Z
+meaningfullyUpdatedAt: 2023-07-17T11:19:10.696Z
 title: Successful designer-developer collaboration in MVP work environment
 layout: post
 image: /images/blog_designer_developer.png
@@ -30,7 +30,7 @@ Hence, the work environment of MVP should be highly lean and flexible, the colla
 
 Stephen R. Covey in his book, [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change](https://www.goodreads.com/work/quotes/6277-the-7-habits-of-highly-effective-people) has stated that most of us do not really listen in order to understand, as when our interlocutor explains their idea we do not listen till the end of their sentence, at the very moment we are preparing our reply and we are thinking of what we want to tell our interlocutor. This way we are focusing on what we want to say, not hearing the other party.
 
-*Most people do not listen with the intent to understand; they listen with the intent to reply.*
+<blockquote><div>Most people do not listen with the intent to understand; they listen with the intent to reply.</div><footer>Stephen R. Covey</footer></blockquote>
 
 Whether you are a designer or a developer, make sure you always listen to the other party and what they have to communicate. While building MVP some adjustments and modifications are inevitable. Developers will most likely ask for a few changes in the designs to make a project easier and faster to implement. Certainly, in the real MVP environment designs might be altered, oftentimes projects will not be even done pixel perfect. A few components can look a little different, as for the faster development ready-made solutions might be taken into consideration as long as they do not disrupt the usability. On the contrary, in some cases it might not be possible to simplify and cut down on a number of things while these changes might hurt user experience or the design system of the product. So, listen in order to hear these arguments from both sides because MVP may not be pixel-perfect, but it should be pleasant and easy to use. 
 
