@@ -3,8 +3,6 @@ author: alisa
 tags:
   - MVP
   - design
-  - UX
-  - UI
   - cooperation
 date: 2020-03-03T15:21:07.486Z
 meaningfullyUpdatedAt: 2023-07-17T11:19:10.696Z
