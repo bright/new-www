@@ -4,6 +4,7 @@ secondAuthor: ula
 tags:
   - software development company
   - inspiration
+  - update
 date: 2022-03-15T11:37:30.979Z
 title: And they lived bright ever after… The story of Bright Inventions
 layout: post
