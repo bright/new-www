@@ -16,7 +16,7 @@ comments: true
 published: true
 language: en
 ---
-Undertaking a brand new idea and turning it into a successful product is always thrilling but also risky. In order to create a successful and meaningful project it is essential first to build **[Minimum Viable Product (MVP)](/our-areas/mvp-development)** to see if we are on the right track and if our strategy is going in the right direction. That is why, building MVP gives us an advantage, as it helps define all possible pitfalls, eliminates gaps in a wholesome product in future, or even helps to understand if our approach should be changed completely already on the early stage of the project. 
+**Undertaking a brand new idea and turning it into a successful product is always thrilling but also risky. In order to create a successful and meaningful project it is essential first to build [Minimum Viable Product (MVP)](/our-areas/mvp-development) to see if we are on the right track and if our strategy is going in the right direction. That is why, building MVP gives us an advantage, as it helps define all possible pitfalls, eliminates gaps in a wholesome product in future, or even helps to understand if our approach should be changed completely already on the early stage of the project.** 
 
 ![](/images/alisa_desdevcollaboration-copy.png)
 
@@ -47,6 +47,8 @@ Asking questions might not be that easy for everyone. Some people hesitate to ac
 ### MVP is about adopting to a change
 
 Building MVP means to be constantly ready for a change. Successful MVPs use a **User-Centered Design** approach which follows user needs on all stages of the project. That includes some frequent user testing sessions that help understand if the features we design and build are really needed and if user appreciates them. After such user testing, most often, the product requires some adjustments. At times these changes do not only result in making buttons more eminent, but even in giving up one feature in favour of another, or so much as rethinking the whole concept. So, designer-developer tandem should be ready as for small modifications, as well as for bigger conceptual alterations of the product. 
+
+<EbookDynamic sectionTitle='Dive into MVP development with our guide' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Based on over a decade of experience in MVP development we offer you an ultimate guide to MVP. Grab it for free!' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
 
 ## In conclusion
 
