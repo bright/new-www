@@ -8,7 +8,7 @@ tags:
   - cooperation
 date: 2020-03-03T15:21:07.486Z
 meaningfullyUpdatedAt: 2023-07-17T11:19:10.696Z
-title: Successful designer-developer collaboration in MVP work environment
+title: Successful Designer-Developer Collaboration in MVP Work Environment
 layout: post
 image: /images/blog_designer_developer.png
 hidden: false
