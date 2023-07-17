@@ -2,7 +2,7 @@
 layout: job
 title: "Site Reliability Engineer "
 subtitle: "ONGOING "
-imagejob: /images/backendteam.png
+imagejob: /images/qa_brightteam.png
 image-alt-job: backend team
 hours: full-time
 salary: 20 000 - 25 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
