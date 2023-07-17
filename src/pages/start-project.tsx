@@ -103,11 +103,11 @@ const StartProjectPage: React.FC = () => {
               What our clients say
             </CustomSectionTitle>
             <QuoteTextRegular>
-              We have found Bright Inventions to be <span>professional group of people, that we feel we can trust</span>
+              We have found Bright Inventions to be <span>a professional group of people, that we feel we can trust</span>
               , as an integral part of our company, not only to deliver in the right quality, but be proactive,
               contribute from their to help us shape the company’s R&D and product.
             </QuoteTextRegular>
-            <SignatureQuote>Eyal Cafri - VP R&D at Circles</SignatureQuote>
+            <SignatureQuote>Kobi Avriel - VP R&D at Circles</SignatureQuote>
           </FlexWrapper>
           <StartProjectContact
             formButton='Business Contact Form Button'
