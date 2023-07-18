@@ -54,8 +54,6 @@ language: en
 
 <TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
 
-
-
 <Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/typescript_logo.png","alt":"TypeScript"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/nest.png"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
 **Frontend:** React, TypeScript
@@ -72,7 +70,7 @@ The [Treasury](https://wiki.polkadot.network/docs/learn-treasury) is a cryptocur
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
+<TitleWithIcon sectionTitle='goal' titleIcon='/images/icon_title_goal.svg' titleIconAlt='goal' />
 
 Our focus is to attract more professionals who could contribute to the community with their ideas and skills but at the same time may not be as fluent in blockchain customs and terminology. [BrightTreasury](https://treasury.bright.dev?utm_source=referral&utm_medium=bright_website&utm_campaign=case_study_bright) application help them apply their proposals even if they aren’t blockchain experts. The funds are available for software agencies as well as companies that want to share knowledge about Substrate such as marketing agencies or video production studios. We believe that BrightTreasury app offers a chance to increase the number of fund proposals. Eventually, it will make the Substrate Blockchain a more accessible technology.
 
