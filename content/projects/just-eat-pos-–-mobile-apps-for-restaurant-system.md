@@ -42,13 +42,13 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle='Just Eat POS restaurant system' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle='Just Eat POS restaurant system' titleIcon='/images/icon_title_about.svg' titleIconAlt='about' />
 
 Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home. A huge part of the system was a couple of Android and iOS applications.
 
 Also, read another [Just Eat POS case study](/projects/system-for-restaurants) about other products built for this enormous system.
 
-<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/icons_features_svg.svg' titleIconAlt='main features' />
 
 * Transactions processing
 * Integration with payment service providers
@@ -59,7 +59,7 @@ Also, read another [Just Eat POS case study](/projects/system-for-restaurants) a
 * Supply ordering
 * Offline mode during transactions
 
-<TitleWithIcon sectionTitle='mobile apps integrated with restaurant and retail systems' titleIcon='/images/main_features_icon.png' titleIconAlt='Apps' />
+<TitleWithIcon sectionTitle='mobile apps integrated with restaurant and retail systems' titleIcon='/images/icon_title_products.svg' titleIconAlt='Apps' />
 
 * ePOS iOS and Android **applications used by restaurant staff** to take orders and manage payments.
 * iOS and Android **driver application** which assists drivers in delivering orders.
@@ -130,6 +130,6 @@ A great part of working with Just Eat POS was **building iOS and Android applica
 
 Our applications had been integrated mostly with **Sunmi Technology** – one of the top global hardware providers.
 
-<TitleWithIcon sectionTitle='what is next for Just Eat Takeaway and Bright Inventions' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle='what is next for Just Eat Takeaway and Bright Inventions' titleIcon='/images/icon_result_svg.svg' titleIconAlt='result' />
 
 Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Although the retail system is no longer developed, **Bright Inventions Android and iOS developers still work with Just Eat Takeaway on other solutions**.
