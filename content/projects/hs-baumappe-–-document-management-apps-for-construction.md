@@ -45,8 +45,6 @@ show on homepage: true
 published: true
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='skills' />
 
 <Gallery images='[{"src":"/images/swift.png","alt":"Swift"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"},{"src":"/images/github_stack_logo.png","alt":"Github"}]' />
@@ -57,13 +55,13 @@ language: en
 
 **Project management & documentation**: Jira, Figma, Github, Notion, Miro, GitHub Actions. 
 
-<TitleWithIcon sectionTitle='about HS Baumappe' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle='about HS Baumappe' titleIcon='/images/icon_title_about.svg' titleIconAlt='bright' />
 
 HS Baumappe are **offline-first iOS and Android native applications** built for German company **Heinrich Schmid**, representing the construction sector. 
 
 Mobile applications have been developed for clients’ employees who work on construction sites. The apps enable the creation and sharing of documents among the construction crew with clients and external contractors.
 
-<TitleWithIcon sectionTitle='the goal of the solution' titleIcon='/images/goal_title_section.png' titleIconAlt='the goal of the solution' />
+<TitleWithIcon sectionTitle='the goal of the solution' titleIcon='/images/icon_title_goal.svg' titleIconAlt='the goal of the solution' />
 
 The ultimate goal of the solution is to **manage the whole construction documentation via smartphone or tablet and eliminate paper documentation**.
 
@@ -113,6 +111,6 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 
 **Leon Seiz, Product Owner at Heinrich Schmid**
 
-<TitleWithIcon sectionTitle='what’s next for Heinrich Schmid and Bright Inventions?' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle='what’s next for Heinrich Schmid and Bright Inventions?' titleIcon='/images/icon_result_svg.svg' titleIconAlt='result' />
 
 Our team is **working on other features such as time tracking and performance recording**. We plan to release another app version dedicated to a bigger group of end users. **The ultimate goal is to deliver mobile apps that all Heinrich Schmid construction crews will use**.
