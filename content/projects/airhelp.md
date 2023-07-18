@@ -1,6 +1,6 @@
 ---
 team_members:
-  - agnieszka
+  - mateusz
 our_service:
   - mobile app development
   - MVP development
