@@ -54,7 +54,7 @@ language: en
 
 **Just Eat POS system took care of the whole process of managing restaurant orders: from ordering the meal, providing kitchen staff with details to delivering the order to the client’s table or home**. It also supported daily running of the restaurant by managing employees time, creating menus or providing tools to build their own restaurant website.
 
-<TitleWithIcon sectionTitle='the system was built around these products:' titleIcon='/images/main_features_icon.png' titleIconAlt='applications' />
+<TitleWithIcon sectionTitle='the system was built around these products:' titleIcon='/images/icon_title_products.svg' titleIconAlt='applications' />
 
 * **[ePOS iOS and Android applications](/projects/system-for-restaurants-mobile)** used by restaurant staff to take orders and manage payments.
 * **White label application for restaurants** to take orders via their own, dedicated website.
@@ -62,7 +62,7 @@ language: en
 * A **website that enabled to display restaurant’s menu** and offered integrations with online delivery providers like JET or Wolt.
 * **Backoffice solutions** including managing integrations and API connections.
 
-<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='features' />
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/icons_features_svg.svg' titleIconAlt='features' />
 
 <SliderText sliderElements='[{"title":"Food ordering management","description":"Taking care of the whole process from ordering the meal to delivering the order."},{"title":"Transactions processing","description":"Including implementing offline mode, integration with payment service providers and receipt printing."},{"title":"Integrations with external systems and providers","description":"Integration with payment service providers as well as online food delivery services."},{"title":"Integration with online food delivery services","description":"Easy management of orders from different platforms in one device. "},{"title":"Team management and tracking","description":"Employees time tracking, managing team roles e.g. cashier, manager etc. Delivery tracking."},{"title":"Supply management","description":"Inventory management and supply ordering."},{"title":"Analytics","description":"Business analytics platform reporting sales and financial information."}]' />
 
@@ -86,7 +86,7 @@ language: en
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='about Just Eat POS and Bright Inventions cooperation' titleIcon='/images/three_flags.svg' titleIconAlt='about BrightTreasury' />
+<TitleWithIcon sectionTitle='about Just Eat POS and Bright Inventions cooperation' titleIcon='/images/icon_title_about.svg' titleIconAlt='about BrightTreasury' />
 
 The client reached out to us in **2013**. At that time it was an early-stage Israeli startup “Practi” that offered web application solutions to users. Since 2013 **the company has transformed from a promising startup to an international ePOS applications provider**.
 
@@ -96,7 +96,7 @@ In 2019 Practi was **acquired by Just Eat Takeaway**. **Bright Inventions had a 
 
 The client expected us to actively take part in creating the whole system. We were not only “code suppliers”, **we were technical partners offering years of software development experience**. Our mobile and web knowledge, and the fact that we hadve been working on this system since 2013 enabled us to evaluate technical and business decisions. As a result, when needed, we gladly offered alternative solutions that would benefit the client and end-users.
 
-<TitleWithIcon sectionTitle='challenges and goals' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
+<TitleWithIcon sectionTitle='challenges and goals' titleIcon='/images/icon_title_goal.svg' titleIconAlt='goal' />
 
 Just Eat POS system (prev. Practi) was a product with over 10 years of history. It was built as a startup solution for a small group of clients with specific needs. The system became a part of the Just Eat Takeaway's family. 
 
@@ -158,7 +158,7 @@ Another responsibility of this team was i**ntegrations with online food order an
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle='result' titleIcon='/images/icon_result_svg.svg' titleIconAlt='result' />
 
 Just Eat POS (prev. Practi) and Bright Inventions have established a long-term business relationship. Practi was one of our first clients. **During almost a decade of our cooperation the client transformed from a startup to a global Point-Of-Sale system provider used by businesses in Israel and the UK**. 
 
