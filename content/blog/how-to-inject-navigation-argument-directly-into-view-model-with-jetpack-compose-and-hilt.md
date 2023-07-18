@@ -5,15 +5,15 @@ tags:
   - JetpackCompose
   - Hilt
   - navigation
-date: 2023-07-11T17:00:43.641Z
-meaningfullyUpdatedAt: 2023-07-11T17:00:43.678Z
+date: 2023-07-18T07:14:04.171Z
+meaningfullyUpdatedAt: 2023-07-18T07:14:04.710Z
 title: How to Inject Navigation Argument Directly into View Model with Jetpack
   Compose and Hilt
 layout: post
 image: /images/android_hilt_blog_post.png
-hidden: true
+hidden: false
 comments: true
-published: false
+published: true
 language: en
 ---
 **When using the Jetpack Compose navigation you may sooner or later come across the problem of passing arguments between the screens. The solution is fairly well described in the official [Android documentation](https://developer.android.com/jetpack/compose/navigation). Let's follow the documentation and go over a few issues that you might encounter on the way.**
