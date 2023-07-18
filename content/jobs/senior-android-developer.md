@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: Senior Android Developer
-subtitle: ONGOING
+subtitle: OPENING SOON 
 image-alt-job: Android Team Bright Inventions
 hours: full-time
 salary: 20 000 - 28 000 PLN + VAT (B2B) or 16 600 - 23 250 PLN gross (UoP)
@@ -35,7 +35,7 @@ redirect_from:
   - /android-developer/
 published: true
 show_recruiter_info: true
-order: 2
+order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for a Senior Android Developer who would like to
