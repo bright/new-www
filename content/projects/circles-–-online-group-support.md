@@ -44,7 +44,7 @@ show on homepage: true
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
+<TitleWithIcon sectionTitle='main features developed by Bright Inventions:' titleIcon='/images/icons_features_svg.svg' titleIconAlt='main features' />
 
 <SliderText sliderElements='[{"title":"Audio rooms","description":"Live audio rooms with up to 50 participants on iOS and Android apps."},{"title":"Various audio room functions","description":"The audio room includes various functions such as reactions, caller queuing, a moderator panel for calls, and an integrated chat feature."},{"title":"App payments","description":"Mobile app payments with different pricing tiers and plans."},{"title":"Web and mobile onboarding","description":"Onboarding which helps users quickly find the support group suitable for their needs."},{"description":"Features for video conferences such as group chat or screen sharing by a group facilitator.","title":"Video conferences"},{"title":"Direct messaging","description":"Direct messaging for group members."},{"title":"Panel for therapists","description":"Admin panel dedicated to therapists conducting group meetings."},{"description":"Redesign of the group space where group members can interact with each other.","title":"Group space redesign "},{"title":"Business and analytics tools","description":"Customized business tool for processing user experience, traffic and acquisition data."}]' />
 
@@ -60,7 +60,7 @@ language: en
 
 **DevOps/Deploy**: AWS, Docker, Jenkins
 
-<TitleWithIcon sectionTitle='about Circles' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle='about Circles' titleIcon='/images/icon_title_about.svg' titleIconAlt='about' />
 
 Be in grief over the loss of a special someone, the pain of divorce or separation, complex relationships or other challenges – [Circles](https://circlesup.com) offers theme-based online support circles facilitated by professionals.
 
@@ -122,7 +122,7 @@ On top of that, we deliver solutions that enable analyzing data. For example, ou
 
 *Bright Inventions is above our expectations, and we are very happy from both the great quality of people we are fortunate to work with, and the professionalism that seems to be in Bright Inventions DNA.*
 
-<TitleWithIcon sectionTitle='what is next' titleIcon='/images/results_icon_title_small.png' titleIconAlt='what is next' />
+<TitleWithIcon sectionTitle='what is next' titleIcon='/images/icon_result_svg.svg' titleIconAlt='what is next' />
 
 As always we will support our client and deliver the best possible solutions to satisfy the growing number of Circles users. Having in mind that we help to develop a unique product that enables people to go through life-changing events and offers them essential support. We are proud and grateful to be able to assist Circles in building such a unique healthcare application.
 
