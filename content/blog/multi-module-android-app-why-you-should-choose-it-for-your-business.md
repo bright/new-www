@@ -40,7 +40,7 @@ Small chunks of code are **easier to understand and eventually work with**. Divi
 
 ### Interoperability & scalability
 
-Multi-module apps are a **great base for future interoperabilities and integrations** with, for example, IoT, printers, payment terminals, or external software integrations. **You are more flexible to add other features**. Even if you don’t plan that at this point, you leave yourself an option to take care of that, perhaps after the MVP launch.
+Multi-module apps are a **great base for future interoperabilities and integrations** with, for example, IoT, printers, payment terminals, or external software integrations. **You are more flexible to add other features**. Even if you don’t plan that at this point, you leave yourself an option to take care of that, perhaps after the [MVP](/our-areas/mvp-development/) launch.
 
 ### Better customization
 
