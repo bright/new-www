@@ -119,6 +119,10 @@ Before our team presented the MVP mockups we took a couple of crucial steps whic
 
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
+*Their flexible and professional approach to business was impressive. The difficulties encountered in the creation process were never a problem, only a challenge. All the set goals were met on time.*
+
+**Grzegorz Gajewski, Development & Training Manager @ MAKO TSL**
+
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 **MVP launch ensured the client that the system has the potential to change the daily work** on their team. We’re delighted to say that the **client decided to continue our cooperation**. Now we focus on i**mplementing other features** in the system for example the **electronic circulation of documents**.
