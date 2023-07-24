@@ -48,7 +48,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle='about TMS project' titleIcon='/images/three_flags.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="about TMS project" titleIcon="/images/three_flags.svg" titleIconAlt="bright" />
 
 Our client – [MAKO TSL](https://makotsl.com/) hired Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. 
 
@@ -66,7 +66,7 @@ The client has used various freight management solutions available on the market
 
 <div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
 
-<TitleWithIcon sectionTitle='stack' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
 <Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/nest.png","alt":"Nest"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"}]' />
 
@@ -77,7 +77,7 @@ Android development: Kotlin, Coroutines, Flows, ViewModel, Firebase, Hilt, and o
 
 **Product design**: Figma, Adobe Illustrator
 
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
+<TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
 Our primary goal was to **design MVP which could verify the potential of the system to be developed on a bigger scale**.
 
@@ -87,7 +87,7 @@ Also, another long-term goal is to **support daily communication with road hauli
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='the challenge of building a transport management system' titleIcon='/images/two_flags.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="the challenge of building a transport management system" titleIcon="/images/two_flags.svg" titleIconAlt="bright" />
 
 The main challenge was to **build a fast solution**. Time is the key to the shipping industry. The app had to aggregate the listings fast and assign them to the right carriers. Every millisecond counts.
 
@@ -97,9 +97,11 @@ In terms of product design, the right **architectural information** was the key.
 
 <div class="image"><img src="/images/tms_market_ui.png" alt="transport management system UI case study" title="undefined"  /> </div>
 
-<TitleWithIcon sectionTitle='TMS development process' titleIcon='/images/gearwheel.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="TMS development process" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
 
 **Bright Inventions were responsible for every aspect of MVP development** from listing requirements, product design, to web development, QA, cloud management, launch, and finally maintenance. The MVP was launched in October 2022 and received **positive feedback** from the client’s employees.
+
+<div class="image"><img src="/images/case_study_tms_client_quote.png" alt="client's review" title="client's review"  /> </div>
 
 ### Web development and maintenance
 
@@ -115,7 +117,13 @@ Before our team presented the MVP mockups we took a couple of crucial steps whic
 
 <div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
+
+*Their flexible and professional approach to business was impressive. The difficulties encountered in the creation process were never a problem, only a challenge. All the set goals were met on time.*
+
+**Grzegorz Gajewski, Development & Training Manager @ MAKO TSL**
+
+<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 **MVP launch ensured the client that the system has the potential to change the daily work** on their team. We’re delighted to say that the **client decided to continue our cooperation**. Now we focus on i**mplementing other features** in the system for example the **electronic circulation of documents**.
 
