@@ -40,7 +40,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle='main Finebite tech elements:' titleIcon='/images/main_features_icon.png' titleIconAlt='Main features of BrightTreasury:' />
+<TitleWithIcon sectionTitle="main Finebite tech elements:" titleIcon="/images/main_features_icon.png" titleIconAlt="Main features of BrightTreasury:" />
 
 * Highly polished user interface
 * Integration with restaurants management systems
@@ -48,7 +48,7 @@ language: en
 * In-depth user behaviour analytics
 * A/B testing
 
-<TitleWithIcon sectionTitle='about Finebite' titleIcon='/images/three_flags.svg' titleIconAlt='about Finebitey' />
+<TitleWithIcon sectionTitle="about Finebite" titleIcon="/images/three_flags.svg" titleIconAlt="about Finebitey" />
 
 Let’s be honest – halfway through the working day, we all have the same recurring thoughts on our minds: “time for lunch!”.
 
@@ -74,7 +74,7 @@ Now, if that doesn’t make you feel a sudden urge for dining out, we don’t kn
 
 <AppStore googleApp='https://play.google.com/store/apps/details?id=com.everytap' srcGoogle='/images/google_play.png' altGoogleImage='Finebite Google Play' appStore='https://apps.apple.com/app/id894593031' srcAppStore='/images/app_store.png' altAppStoreImage='Finebite App Store' />
 
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
+<TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
 Bright Inventions has been a partner of Everytap and Finebite from the company’s early days. Throughout the years, we helped ideate, develop, and rebuild the app from scratch and turn its first version, Everytap, into a whole new service – Finebite.
 
@@ -88,7 +88,7 @@ With this idea in mind, the founders have asked for our assistance in verifying 
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='process of Finebite development' titleIcon='/images/gearwheel.svg' titleIconAlt='process of developing Finebite' />
+<TitleWithIcon sectionTitle="process of Finebite development" titleIcon="/images/gearwheel.svg" titleIconAlt="process of developing Finebite" />
 
 We worked with the Everytap team to establish how their potential customers’ needs and benefits – both those of restaurant-goers and restaurant owners – could be best addressed.
 
@@ -102,7 +102,7 @@ For backend, our developers chose Ruby-on-Rails – specifically, they worked wi
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle='launch' titleIcon='/images/gearwheel.svg' titleIconAlt='launch' />
+<TitleWithIcon sectionTitle="launch" titleIcon="/images/gearwheel.svg" titleIconAlt="launch" />
 
 The app first launched in the Apple Store and Google Play stores in 2014 and gained significant popularity across Poland. The Everytap team was, however, well aware that they could not rest on their laurels if they wanted to remain competitive to its users for years to come.
 
@@ -128,13 +128,13 @@ From a user’s perspective, the app is now much more intuitive, features a cohe
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-<TitleWithIcon sectionTitle="client&amp;#39;s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client's perspective" />
+<TitleWithIcon sectionTitle="client&#39;s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client's perspective" />
 
 *They kept us in the loop at all times and provided updates and progress reports on a weekly basis. They were also very accessible, and interactions between our designers and their developers were productive. They made us feel like we were one cohesive team, even going so far as to build a workstation at their office for our lead backend developer.*
 
 **Adam Pachucki, Head of Product at Finebite**
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 During the past 5 years, the app has evolved from a loyalty program service to a sophisticated reservation and customer review platform. Finebite has been steadily growing and expanding to new markets.
 
