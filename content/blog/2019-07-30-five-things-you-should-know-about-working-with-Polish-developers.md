@@ -28,7 +28,7 @@ We have created a list of five things you may have always wanted to know about P
 
 ## 1. Poland is a leader among countries in CEE
 
-Poland has been recognized as one of the leading countries in Central and Eastern Europe (CEE) for software development. It has gained prominence in the tech industry due to several factors. 
+Poland has been recognized as one of the leading countries in Central and Eastern Europe (CEE) for software development. The Future of IT report gives a regional overview of the IT sector in the region, available talent, costs as well as room for potential growth. Polish developers have gained prominence in the tech industry due to several factors. 
 
 <div class="image"><img src="/images/poland-leader-.jpeg" alt="Poland Leader CEE" title="undefined"  /> </div>
 
