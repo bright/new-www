@@ -78,7 +78,7 @@ Now, if that doesn’t make you feel a sudden urge for dining out, we don’t kn
 
 Bright Inventions has been a partner of Everytap and Finebite from the company’s early days. Throughout the years, we helped ideate, develop, and rebuild the app from scratch and turn its first version, Everytap, into a whole new service – Finebite.
 
-<div class="image"><img src="/images/case_study_finebite_client_quote.png" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/case_study_finebite_client_quote.png" alt="Review from Finebite" title="review from our client"  /> </div>
 
 Back in 2014, the founders have entrusted us with developing an app that would revolutionize the way restaurant visitors participate in loyalty programs, and encourage them to dine out more frequently. Initially known as Everytap, the service was to substitute physical discount cards with a more visually-appealing, interactive alternative that would let them collect points/stamps in the app.
 
