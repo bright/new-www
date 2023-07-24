@@ -15,4 +15,6 @@ language: en
 ---
 Software developer addicted to good quality coffee. Experience in Node.js (mostly NestJS), React and DevOps things. When he had 13 years old, he built his first computer and his passion began. For several years he was building portfolio websites for small companies and building his own online servers in games.\
 \
-After hours, he spends most of the time on trainings (especially table tennis), brewing coffee with different techniques.
+After hours, he spends most of the time on trainings (especially table tennis), brewing coffee with different techniques.\
+\
+Join Sara! [Check our career opportunities](/career).
