@@ -17,4 +17,4 @@ Software developer addicted to good quality coffee. Experience in Node.js (mostl
 \
 After hours, he spends most of the time on trainings (especially table tennis), brewing coffee with different techniques.\
 \
-Join Sara! [Check our career opportunities](/career).
+Join Rafał! [Check our career opportunities](/career).
