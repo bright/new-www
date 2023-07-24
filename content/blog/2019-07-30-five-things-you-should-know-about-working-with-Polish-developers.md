@@ -14,15 +14,15 @@ tags:
   - software house
 date: 2019-07-29T22:00:00.000Z
 meaningfullyUpdatedAt: 2023-07-24T11:41:37.605Z
-title: 5 things you should know about working with Polish developers
+title: 5 Things You Should Know about Working with Polish Developers
 layout: post
-image: /images/office.jpg
+image: /images/polish_developers_blog.png
 hidden: false
 comments: true
 published: true
 language: en
 ---
-Let us be honest: outsourcing your software development to a different company or – even more so – country, is always a huge step. So, it is natural that you want to look into every possible option. Now, given that you have come across this post,  we are assuming you are at least a little intrigued with what it is like to work with Polish developers. Are they really as good as they say? How easy is it to communicate with them in English? What about their work ethics? Wonder no more!
+**Let us be honest: outsourcing your software development to a different company or – even more so – country, is always a huge step. So, it is natural that you want to look into every possible option. Now, given that you have come across this post,  we are assuming you are at least a little intrigued with what it is like to work with Polish developers. Are they really as good as they say? How easy is it to communicate with them in English? What about their work ethics? Wonder no more!**
 
 We have created a list of five things you may have always wanted to know about Polish developers, but were too afraid to ask. Let us take a look. 
 
@@ -44,7 +44,7 @@ Also, here’s a much more tangible representation of their skillset – this [C
 
 ## 2. Polish people speak English very well
 
-I am sure you have read some dreadful stories about how outsourcing to a foreign country can be a real nightmare, as you might end up working with a team that barely speaks any English. This won’t be your worry if you choose to work with [a software house from Poland](/). English is by far the most widely spoken foreign language in the country (a huge factor being that you can only graduate from high school if you pass a foreign language exam).
+I am sure you have read some dreadful stories about how outsourcing to a foreign country can be a real nightmare, as you might end up working with a team that barely speaks any English. This won’t be your worry if you choose to work with [a software agency from Poland](/). English is by far the most widely spoken foreign language in the country (a huge factor being that you can only graduate from high school if you pass a foreign language exam).
 
 Take a look at Poland’s [English Proficiency Index](https://www.ef.pl/epi/compare/regions/pl/cn/)), as compared to Russia and China (so, the other two countries on the HackerRank podium):
 
