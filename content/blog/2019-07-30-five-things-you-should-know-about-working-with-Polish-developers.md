@@ -13,7 +13,7 @@ tags:
   - outsourcing
   - software house
 date: 2019-07-29T22:00:00.000Z
-meaningfullyUpdatedAt: 2023-07-24T11:31:14.543Z
+meaningfullyUpdatedAt: 2023-07-24T11:41:37.605Z
 title: 5 things you should know about working with Polish developers
 layout: post
 image: /images/office.jpg
