@@ -128,7 +128,7 @@ From a user’s perspective, the app is now much more intuitive, features a cohe
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
 
-<TitleWithIcon sectionTitle="client's perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client's perspective" />
+<TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
 *They kept us in the loop at all times and provided updates and progress reports on a weekly basis. They were also very accessible, and interactions between our designers and their developers were productive. They made us feel like we were one cohesive team, even going so far as to build a workstation at their office for our lead backend developer.*
 
