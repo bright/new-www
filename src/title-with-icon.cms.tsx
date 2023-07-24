@@ -27,15 +27,15 @@ export const TitleWithIconCmsEditorComponent: EditorComponentOptions = {
     return {
       sectionTitle: match[1],
       titleIcon: match[2],
-      titleIconAlt: match[3],  
+      titleIconAlt: match[3],
     }
   },
   toBlock(props: {
     sectionTitle: string
     titleIcon: string
-    titleIconAlt: string  
+    titleIconAlt: string
   }) {
-    return `<TitleWithIcon sectionTitle='${encodeSpecialCharacters(props.sectionTitle)}' titleIcon='${props.titleIcon}' titleIconAlt='${props.titleIconAlt}' />`
+    return `<TitleWithIcon sectionTitle="${encodeSpecialCharacters(props.sectionTitle)}" titleIcon="${props.titleIcon}" titleIconAlt="${props.titleIconAlt}" />`
   },
   toPreview(props: {
     sectionTitle: string
