@@ -203,29 +203,31 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       const postsPerPage = 10
       const numPages = Math.ceil(uniqueAuthors.length / postsPerPage)
 
-      if (posts.length === 0) {
-        createPage({
-          path: `/about-us/${kebabCase(member.slug)}`,
-          component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${member.internal.contentFilePath}`,
-          context: {
-            id: member.id,
-          },
-        })
-      } else {
-        Array.from({ length: numPages }).forEach((item, i) => {
+      if (!member.ex) {
+        if (posts.length === 0) {
           createPage({
-            path: i == 0 ? `/about-us/${kebabCase(member.slug)}` : `/about-us/${kebabCase(member.slug)}/${i + 1}`,
+            path: `/about-us/${kebabCase(member.slug)}`,
             component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${member.internal.contentFilePath}`,
             context: {
               id: member.id,
-              limit: postsPerPage,
-              skip: i * postsPerPage,
-              numPages,
-              posts: i == 0 ? posts.slice(i, postsPerPage) : posts.slice(i * postsPerPage, (i + 1) * postsPerPage),
-              currentPage: i + 1,
             },
           })
-        })
+        } else {
+          Array.from({ length: numPages }).forEach((item, i) => {
+            createPage({
+              path: i == 0 ? `/about-us/${kebabCase(member.slug)}` : `/about-us/${kebabCase(member.slug)}/${i + 1}`,
+              component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${member.internal.contentFilePath}`,
+              context: {
+                id: member.id,
+                limit: postsPerPage,
+                skip: i * postsPerPage,
+                numPages,
+                posts: i == 0 ? posts.slice(i, postsPerPage) : posts.slice(i * postsPerPage, (i + 1) * postsPerPage),
+                currentPage: i + 1,
+              },
+            })
+          })
+        }
       }
     })
   )

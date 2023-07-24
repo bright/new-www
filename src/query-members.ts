@@ -17,6 +17,7 @@ export async function querySlugAuthorIdAndIdFromMembers<TData, TVariables>(
           }
           slug
           author_id
+          ex
         }
       }
     }

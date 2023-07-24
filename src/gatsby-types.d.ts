@@ -39451,7 +39451,7 @@ type MyQueryyQuery = { readonly allMdx: { readonly edges: ReadonlyArray<{ readon
 type AboutUsMembersListingQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-type AboutUsMembersListingQuery = { readonly allMembers: { readonly nodes: ReadonlyArray<{ readonly id: string, readonly slug: string, readonly author_id: string, readonly internal: { readonly contentFilePath: string | null } }> } };
+type AboutUsMembersListingQuery = { readonly allMembers: { readonly nodes: ReadonlyArray<{ readonly id: string, readonly ex: boolean | null, readonly slug: string, readonly author_id: string, readonly internal: { readonly contentFilePath: string | null } }> } };
 
 type Unnamed_1_QueryVariables = Exact<{ [key: string]: never; }>;
 
