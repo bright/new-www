@@ -14,15 +14,15 @@ tags:
   - software house
 date: 2019-07-29T22:00:00.000Z
 meaningfullyUpdatedAt: 2023-07-24T11:41:37.605Z
-title: 5 things you should know about working with Polish developers
+title: 5 Things You Should Know about Working with Polish Developers
 layout: post
-image: /images/office.jpg
+image: /images/polish_developers_blog.png
 hidden: false
 comments: true
 published: true
 language: en
 ---
-Let us be honest: outsourcing your software development to a different company or – even more so – country, is always a huge step. So, it is natural that you want to look into every possible option. Now, given that you have come across this post,  we are assuming you are at least a little intrigued with what it is like to work with Polish developers. Are they really as good as they say? How easy is it to communicate with them in English? What about their work ethics? Wonder no more!
+**Let us be honest: outsourcing your software development to a different company or – even more so – country, is always a huge step. So, it is natural that you want to look into every possible option. Now, given that you have come across this post,  we are assuming you are at least a little intrigued with what it is like to work with Polish developers. Are they really as good as they say? How easy is it to communicate with them in English? What about their work ethics? Wonder no more!**
 
 We have created a list of five things you may have always wanted to know about Polish developers, but were too afraid to ask. Let us take a look. 
 
