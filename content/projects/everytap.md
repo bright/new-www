@@ -120,12 +120,19 @@ Given Everytap’s technology debt, we agreed that the second option was the bes
 
 And so, our teams have once again joined forces to bring Finebite to the market.
 
-From a technological standpoint, the key difference between both apps was that we chose not to reuse the same technologies. And so, for Finebite we decided to drop Java in favor of Kotlin (Android) and substituted Objective-C with Swift (iOS).\
+From a technological standpoint, the key difference between both apps was that we chose not to reuse the same technologies. And so, for Finebite we decided to drop Java in favor of Kotlin (Android) and substituted Objective-C with Swift (iOS).
+
 From a user’s perspective, the app is now much more intuitive, features a cohesive design, and offers top-notch performance.
 
 ![food app development](/images/foodapp_pumpkin.png)
 
 <sub>*It is not a real implemented design. It is a mockup example created for the purpose of case study.*</sub>
+
+<TitleWithIcon sectionTitle='client&amp;#39;s perspective' titleIcon='/images/clients_perspective_icon.svg' titleIconAlt='client's perspective' />
+
+*They kept us in the loop at all times and provided updates and progress reports on a weekly basis. They were also very accessible, and interactions between our designers and their developers were productive. They made us feel like we were one cohesive team, even going so far as to build a workstation at their office for our lead backend developer.*
+
+**Adam Pachucki, Head of Product at Finebite**
 
 <TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
 
