@@ -32,7 +32,7 @@ Poland has been recognized as one of the leading countries in Central and Easter
 
 <div class="image"><img src="/images/poland-leader-.jpeg" alt="Poland Leader CEE" title="undefined"  /> </div>
 
-###### Source: https://emerging-europe.com/future-of-it/\
+###### Source: https://emerging-europe.com/future-of-it
 
 You also might have heard of a site called [HackerRank.](https://www.hackerrank.com/) It’s where hundreds of thousands of developers from all around the world test their skills by completing various coding challenges. The results of HackerRank’s [Programming Olympics](https://blog.hackerrank.com/which-country-would-win-in-the-programming-olympics/) say it all: Polish developers took third place (an average score from across all types of tech challenges in areas such as algorithms, Java, data structures, and many others).
 
