@@ -44,7 +44,7 @@ Poles were only two points short from the top two countries on the list, China a
 
 I am sure you have read some dreadful stories about how outsourcing to a foreign country can be a real nightmare, as you might end up working with a team that barely speaks any English. This won’t be your worry if you choose to work with [a software agency from Poland](/). English is by far the most widely spoken foreign language in the country (a huge factor being that you can only graduate from high school if you pass a foreign language exam).
 
-Take a look at Poland’s [English Proficiency Index](https://www.ef.com/wwen/epi/regions/europe/poland/)) with the position in Europe 11 of 35 and with a high proficiency as compared to Russia and China (so, the other two countries on the HackerRank podium):
+Take a look at Poland’s [English Proficiency Index](https://www.ef.com/wwen/epi/regions/europe/poland/) with the position in Europe 11 of 35, 13 out of 111 countries in the world today, and with the high proficiency as compared to Russia and China (so, the other two countries on the HackerRank podium):
 
 <div class="image"><img src="/images/english-proficiency-index.png" alt="english proficiency index " title="undefined"  /> </div>
 
