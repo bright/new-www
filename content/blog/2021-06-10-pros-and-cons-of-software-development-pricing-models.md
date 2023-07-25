@@ -4,8 +4,6 @@ secondAuthor: mateusz
 tags:
   - software development
   - pricing model
-  - fixed pricing
-  - T&M pricing model
 date: 2021-06-10T07:49:01.293Z
 meaningfullyUpdatedAt: 2023-07-25T13:50:54.422Z
 title: Pros and Cons of Software Development Pricing Models
