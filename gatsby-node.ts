@@ -6,10 +6,9 @@ import { IgnorePlugin } from 'webpack'
 import { PartialWebpackConfig } from './src/partial-webpack-config'
 import readingTime from 'reading-time'
 import { toDate } from './src/to-date'
-import { kebabCase } from 'lodash'
-import { isDefined } from './src/is-defined'
 import { querySlugAuthorIdAndIdFromMembers } from './src/query-members'
 import Query = Queries.Query
+import { routeLinks } from './src/config/routing'
 
 const path = require('path')
 
@@ -203,10 +202,11 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       const postsPerPage = 10
       const numPages = Math.ceil(uniqueAuthors.length / postsPerPage)
 
+      const memberBasePage = routeLinks.aboutUs({authorId: member.id, slug: member.slug})
       if (!member.ex) {
         if (posts.length === 0) {
           createPage({
-            path: `/about-us/${kebabCase(member.slug)}`,
+            path: memberBasePage,
             component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${member.internal.contentFilePath}`,
             context: {
               id: member.id,
@@ -215,7 +215,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
         } else {
           Array.from({ length: numPages }).forEach((item, i) => {
             createPage({
-              path: i == 0 ? `/about-us/${kebabCase(member.slug)}` : `/about-us/${kebabCase(member.slug)}/${i + 1}`,
+              path: i == 0 ? memberBasePage : `${memberBasePage}${i + 1}`,
               component: `${__dirname}/src/about-us/AboutUs.tsx?__contentFilePath=${member.internal.contentFilePath}`,
               context: {
                 id: member.id,
@@ -228,6 +228,8 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
             })
           })
         }
+      } else {
+        createRedirect({ fromPath: memberBasePage, toPath: '/about-us/' })
       }
     })
   )
@@ -436,10 +438,10 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
   const jobTemplate = `${__dirname}/src/career/Job.tsx`
   await preparePage('job', 'jobs', jobTemplate)
 
-  createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career' })
-  createRedirect({ fromPath: '/about-us/values', toPath: '/about-us' })
-  createRedirect({ fromPath: '/about-us/story', toPath: '/about-us' })
-  createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer' })
+  createRedirect({ fromPath: '/jobs/senior-NET-developer', toPath: '/career/' })
+  createRedirect({ fromPath: '/about-us/values', toPath: '/about-us/' })
+  createRedirect({ fromPath: '/about-us/story', toPath: '/about-us/' })
+  createRedirect({ fromPath: '/jobs/rust-developer-1', toPath: '/jobs/rust-developer/' })
 }
 
 export const onCreateNode: GatsbyNode['onCreateNode'] = async ({ node, actions: { createNodeField } }) => {
