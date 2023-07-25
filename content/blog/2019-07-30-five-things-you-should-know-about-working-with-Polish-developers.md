@@ -28,7 +28,7 @@ We have created a list of five things you may have always wanted to know about P
 
 ## 1. Poland is a leader among countries in CEE
 
-Poland has been recognized as one of the leading countries in Central and Eastern Europe (CEE) for software development. The Future of IT report gives a regional overview of the IT sector in the region, available talent, costs as well as room for potential growth. Polish developers have gained prominence in the tech industry due to several factors. 
+Poland has been recognized as one of the leading countries in Central and Eastern Europe (CEE) for software development. The Future of IT report 2023 gives a regional overview of the IT sector in the region, available talent, costs as well as room for potential growth. Polish developers have gained prominence in the tech industry due to several factors. 
 
 <div class="image"><img src="/images/poland-leader-.jpeg" alt="Poland Leader CEE" title="undefined"  /> </div>
 
@@ -40,19 +40,17 @@ You also might have heard of a site called [HackerRank.](https://www.hackerrank.
 
 Poles were only two points short from the top two countries on the list, China and Russia. So, who knows what the next round of the Olympics might bring?
 
-Also, here’s a much more tangible representation of their skillset – this [Cyberpunk 2077 trailer](https://www.youtube.com/watch?v=qIcTM8WXFjk&has_verified=1) by Polish game developer CD Projekt Red shows you just how insanely good Polish tech people are.
-
 ## 2. Polish people speak English very well
 
 I am sure you have read some dreadful stories about how outsourcing to a foreign country can be a real nightmare, as you might end up working with a team that barely speaks any English. This won’t be your worry if you choose to work with [a software agency from Poland](/). English is by far the most widely spoken foreign language in the country (a huge factor being that you can only graduate from high school if you pass a foreign language exam).
 
-Take a look at Poland’s [English Proficiency Index](https://www.ef.pl/epi/compare/regions/pl/cn/)), as compared to Russia and China (so, the other two countries on the HackerRank podium):
+Take a look at Poland’s [English Proficiency Index](https://www.ef.com/wwen/epi/regions/europe/poland/)) with the position in Europe 11 of 35 and with a high proficiency as compared to Russia and China (so, the other two countries on the HackerRank podium):
 
-![Polish software developers](/images/English_proficiency_Index_Poland_China.png)
+<div class="image"><img src="/images/english-proficiency-index.png" alt="english proficiency index " title="undefined"  /> </div>
 
-![Polish software developers](/images/English_Proficiency_Index_Poland_Russia.png)
+###### **Source:** https://www.ef.com/wwen/epi/regions/europe/poland
 
- Bear in mind that these statistics show Poland as a whole – not just the IT crowd. Looks encouraging, doesn’t it?
+Bear in mind that these statistics show Poland as a whole – not just the IT crowd. Looks encouraging, doesn’t it?
 
 ## 3. Polish developers are known for strong work ethics
 
