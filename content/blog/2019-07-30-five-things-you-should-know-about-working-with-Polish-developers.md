@@ -30,7 +30,7 @@ We have created a list of five things you may have always wanted to know about P
 
 Poland has been recognized as one of the leading countries in Central and Eastern Europe (CEE) for software development. The Future of IT report 2023 gives a regional overview of the IT sector in the region, available talent, costs as well as room for potential growth. Polish developers have gained prominence in the tech industry due to several factors. 
 
-<div class="image"><img src="/images/poland-leader-.jpeg" alt="Poland Leader CEE" title="undefined"  /> </div>
+<div class="image"><img src="/images/poland-leader-emerging-europe.png" alt="poland leader emerging europe" title="undefined"  /> </div>
 
 ###### Source: https://emerging-europe.com/future-of-it
 
