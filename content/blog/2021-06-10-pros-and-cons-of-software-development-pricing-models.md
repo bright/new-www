@@ -30,6 +30,8 @@ A fixed price model is a situation when you (as a client) agree with a software 
 
 You **pay only for the real time spent on the project and the resources** (materials) needed to complete the job.
 
+<EbookDynamic sectionTitle='Read a free guide about MVP development' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Want to save time and money while developing your product? Our free ebook reveals how an MVP can be your secret weapon. Download it now!' ebookImage='undefined' ebookAlt='undefined' />
+
 ## Fixed price pros:
 
 * It gives you (a client) a sense of security.
