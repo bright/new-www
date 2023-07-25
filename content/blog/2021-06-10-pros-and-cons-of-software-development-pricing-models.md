@@ -7,7 +7,8 @@ tags:
   - fixed pricing
   - T&M pricing model
 date: 2021-06-10T07:49:01.293Z
-title: Pros and cons of software development pricing models
+meaningfullyUpdatedAt: 2023-07-25T13:50:54.422Z
+title: Pros and Cons of Software Development Pricing Models
 layout: post
 image: /images/blogpost_www_iza_pricingmodels.png
 hidden: false
@@ -69,4 +70,4 @@ You **pay only for the real time spent on the project and the resources** (mater
 
 What is the best pricing model for you? Let us know in the comments!
 
-Click, if you are looking for a [software development studio](/start-project).
+<div class='block-button'><h2>Looking for a software development company?</h2><div>Let's make your solution bright! Book a free consultation to discuss your product or idea. Contact us and we will get back to you within 48 hours.</div><a href="/start-project/"><button>book a free consultation</button></a></div>
