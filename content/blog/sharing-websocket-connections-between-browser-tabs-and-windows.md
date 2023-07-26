@@ -148,12 +148,12 @@ addEventListener('connect', (event: MessageEvent): void => {
 
 It turns out that there is another way to detect when an object gets garbage collected. There is the FinalizationRegistry available, which is capable of observing the process and keeping a record of any reclaimed object. You can use it in a similar way to the IntersectionObserver.
 
-```
+```typescript
 const registry = new FinalizationRegistry((heldValue) => {
   console.log(`Object ${heldValue} reclaimed!`);
 });
 
-const targret = new WeakRef([]);
+const target = new WeakRef([]);
 registry.register(target.deref(), "some_identifier");
 
 Array.from({ length: 50000 }, () => () => {});
