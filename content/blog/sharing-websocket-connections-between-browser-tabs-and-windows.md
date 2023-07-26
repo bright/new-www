@@ -5,7 +5,7 @@ tags:
   - web development
   - TypeScript
 date: 2023-05-31T09:45:39.301Z
-meaningfullyUpdatedAt: 2023-05-31T09:45:39.811Z
+meaningfullyUpdatedAt: 2023-07-26T11:00:39.811Z
 title: Sharing WebSocket Connections between Browser Tabs and Windows
 layout: post
 image: /images/sharing_websocket_blog_cover.png
@@ -143,6 +143,27 @@ addEventListener('connect', (event: MessageEvent): void => {
   });
 });
 ```
+
+## Unexpected alternative solution for memory problems
+
+It turns out that there is another way to detect when an object gets garbage collected. There is the FinalizationRegistry available, which is capable of observing the process and keeping a record of any reclaimed object. You can use it in a similar way to the IntersectionObserver.
+
+```typescript
+const registry = new FinalizationRegistry((heldValue) => {
+  console.log(`Object ${heldValue} reclaimed!`);
+});
+
+const target = new WeakRef([]);
+registry.register(target.deref(), "some_identifier");
+
+Array.from({ length: 50000 }, () => () => {});
+
+// You will see: "Object some_identifier reclaimed!" in your console
+```
+
+Remember not to hold references to MessagePort instances. In other words, make sure to use WeakRefs to store them.
+
+This alternative seems to be a better solution for use-cases where you expect a huge number of ports to be opened at the same time. Instead of iterating over them repeatedly, you will be able to simply exclude them when needed.
 
 ## Conclusion
 
