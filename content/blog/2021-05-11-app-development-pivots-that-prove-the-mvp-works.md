@@ -8,7 +8,7 @@ date: 2021-05-11T08:43:00.000Z
 meaningfullyUpdatedAt: 2023-07-10T08:44:00.796Z
 title: App Development Pivots That Prove the MVP Works
 layout: post
-image: /images/blogpost_appdevpivot_main_picture.png
+image: /images/mvp_pivot_blog.png
 hidden: false
 comments: true
 published: true
@@ -16,7 +16,7 @@ language: en
 ---
 **You have an idea for an app and are determined to develop it? Congratulations! But what if your idea had to be modified and your solution would need to pivot? Check out why many popular apps and web solutions had to change to make a success.** <br/>
 
-![App pivots MVP](/images/blogpost_www_iza_appdevpivot.png)
+<div class="image"><img src="/images/app_pivot_blog.png" alt="MVP pivot" title="MVP pivot"  /> </div>
 
 When you take first steps on the road of app development, you have to make a very important choice. You can develop every feature that you have imagined for your web or mobile app or you can just develop the necessary features to know the user's feedback and decide what’s next. 
 
