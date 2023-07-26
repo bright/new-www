@@ -40,7 +40,7 @@ Let's say we are currently working only on the context where a user doesn't have
                 }
             }
             
-            context("User doesn't have available funds to transfer") {
+            fcontext("User doesn't have available funds to transfer") {
                 beforeEach {
                     ...
                 }
