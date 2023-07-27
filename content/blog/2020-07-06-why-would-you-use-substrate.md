@@ -5,9 +5,10 @@ tags:
   - parity
   - blockchain
 date: 2020-07-05T22:00:00.000Z
+meaningfullyUpdatedAt: 2020-07-05T22:00:00.000Z
 title: Why would you use Substrate?
 layout: post
-image: /images/why-would-you-use-substrate/top.png
+image: /images/blog_why_substrate.png
 hidden: false
 comments: true
 published: true
@@ -40,6 +41,7 @@ If you make a little change in the block’s data, its identifier will change. T
 ## Structure
 
 Blockchain is **decentralized**. There are many nodes connected on a peer-to-peer network. There is **no central authority**. Each node is running a “blockchain program” and keeps its copy of the chain. When a set of transactions is collected, a node can try to produce a new block and connect it to its chain. Then all the nodes have to accept the new block, therefore creating the canonical chain. There are multiple ways to prove that a produced block is not malicious. This is what is called a consensus function. The most common one is a Proof of Work. In short, a node has to solve a complicated mathematical problem which takes much computational power. These problems are not real, no one is actually using the solutions. The only goal of solving it is to spend resources (computational power, energy and so). It is designed so that any profit from a malicious block would not balance what you have to spend on proofing it.
+
 There are also other algorithms to find the consensus like Proof of Stake or Proof of Authority. As we have said, in PoW your guarantee is the work you have done, in PoS you guarantee is the money itself and in PoA it is your reputation. The last one is often used in private chains.
 
 ## Substrate
