@@ -16,6 +16,8 @@ language: en
 ---
 **How much does building MVP cost? There is no easy answer to that question. It’s like buying a car. You can buy an operating car for less than 10 000 dollars. Yet you can also buy a Ferrari for over 1 million dollars. It depends on how advanced the product you have in mind. Check out the main factors that affect the cost of developing MVP.**
 
+<div class="image"><img src="/images/blog_mvp_cost_cover.png" alt="MVP cost" title="MVP cost"  /> </div>
+
 ## How advanced your app should be
 
 Well-advanced apps like Uber or Google Maps may cost hundreds of thousands of dollars. Fortunately, **startups usually don’t have to begin with that budget**. The smart way to start app development is to create a prototype and then the MVP. MVP stands for Minimum Viable Product. It’s the very first version of your solution containing crucial features only. Then you can release MVP to a small group of users and see how they respond to it. According to the valuable feedback, you can develop your app eliminating crucial mistakes at the very beginning. 
