@@ -11,6 +11,7 @@ tags:
   - software development
   - Poland
   - outsourcing
+  - business
 date: 2019-07-29T22:00:00.000Z
 meaningfullyUpdatedAt: 2023-07-24T11:41:37.605Z
 title: 5 Things You Should Know about Working with Polish Developers
