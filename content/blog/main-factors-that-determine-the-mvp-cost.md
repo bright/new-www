@@ -6,7 +6,7 @@ tags:
   - mvp
 date: 2023-07-27T07:11:45.262Z
 meaningfullyUpdatedAt: 2023-07-27T07:11:46.020Z
-title: Main factors that Determine the MVP Cost
+title: Main Factors that Determine the MVP Cost
 layout: post
 image: /images/blog_mvp_cost_cover.png
 hidden: false
@@ -17,6 +17,8 @@ language: en
 **How much does building MVP cost? There is no easy answer to that question. It’s like buying a car. You can buy an operating car for less than 10 000 dollars. Yet you can also buy a Ferrari for over 1 million dollars. It depends on how advanced the product you have in mind. Check out the main factors that affect the cost of developing MVP.**
 
 <div class="image"><img src="/images/blog_mvp_cost_cover.png" alt="MVP cost" title="MVP cost"  /> </div>
+
+<div class="image"><img src="/images/mobile_app_screens.png" alt="mobile app mockups" title="mobile app mockups"  /> </div>
 
 ## How advanced your app should be
 
