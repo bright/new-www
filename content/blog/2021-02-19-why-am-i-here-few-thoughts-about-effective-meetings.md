@@ -6,19 +6,20 @@ tags:
   - meetings
   - teamwork
 date: 2021-02-19T13:27:31.798Z
-title: Why am I here? A few thoughts about effective meetings
+meaningfullyUpdatedAt: 2021-02-19T13:27:00.000Z
+title: Why Am I Here? A Few Thoughts about Effective Meetings
 layout: post
-image: /images/blog_post_cover_meetings.png
+image: /images/blog_meeting.png
 hidden: false
 comments: true
 published: true
 language: en
 ---
-The meeting starts. After 5 minutes of participating you start to wonder what it is about. It feels like a total waste of your valuable time. You lose your focus and listen with only half an ear. Probably in the meantime you start to do some of your other tasks for today. Then, if someone asks you, you don’t even know what the question was about.
+**The meeting starts. After 5 minutes of participating you start to wonder what it is about. It feels like a total waste of your valuable time. You lose your focus and listen with only half an ear. Probably in the meantime you start to do some of your other tasks for today. Then, if someone asks you, you don’t even know what the question was about.**
 
 Sounds familiar? Depending on the organisation, its size and culture, you have probably already experienced that several times. Good news is: you can do something about it! I have gathered some tips for the organisers which should help with omitting those situations and result in more effective meetings. If you are usually a participant (rather than the organiser) - feel welcome to read it too! It’s good to know what you should expect. And don’t be afraid to share those 🙂
 
-![meeting](/images/blog_post_cover_meetings.png)
+<div class="image"><img src="/images/blog_meeting.png" alt="meeting" title="meeting"  /> </div>
 
 ## Is this a topic for a meeting?
 
