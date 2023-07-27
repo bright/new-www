@@ -6,7 +6,7 @@ tags:
   - mvp
 date: 2023-07-27T07:11:45.262Z
 meaningfullyUpdatedAt: 2023-07-27T07:11:46.020Z
-title: Main factors that Determine the MVP Cost
+title: Main Factors that Determine the MVP Cost
 layout: post
 image: /images/blog_mvp_cost_cover.png
 hidden: false
