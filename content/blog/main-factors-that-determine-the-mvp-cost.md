@@ -26,6 +26,8 @@ Well-advanced apps like Uber or Google Maps may cost hundreds of thousands of do
 
 It’s a bit like buying a cheaper car just to see if driving to work is fine by you. Let's assume that you just passed your driving test and want to check if driving to work will be better for you than riding a bus. If you’re not sure what you want, the smart way is to buy a cheap car. Eventually, if you rather commute using buses there is a chance to sell your car without a feeling of a bad investment. However, if driving a car turns out to be a perfect solution for you – you can start to save money for a better vehicle.
 
+<EbookDynamic sectionTitle='Limited budget? Get our free ebook and start building smarter' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Discover how an MVP can help you validate your app idea without breaking the bank.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
+
 ## The cost of app infrastructure
 
 When startups try to estimate the project, they sometimes overleap the fact that the budget should include not only the app itself but also the whole infrastructure behind it. **Software needs to coexist with outside systems that generate extra costs**. The most important is the server infrastructure needed to exchange data. It is impossible to predict the cost of server infrastructure without going into detail. **The price depends on what server provider you would choose and how big the infrastructure needs to be**. It’s like the budget for gasoline. Every car has a different fuel burn efficiency.
