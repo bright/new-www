@@ -5,9 +5,10 @@ tags:
   - parity
   - blockchain
 date: 2020-07-05T22:00:00.000Z
+meaningfullyUpdatedAt: 2020-07-05T22:00:00.000Z
 title: Why would you use Substrate?
 layout: post
-image: /images/why-would-you-use-substrate/top.png
+image: /images/blog_why_substrate.png
 hidden: false
 comments: true
 published: true
