@@ -25,3 +25,13 @@ It’s a bit like buying a cheaper car just to see if driving to work is fine by
 ## The cost of app infrastructure
 
 When startups try to estimate the project, they sometimes overleap the fact that the budget should include not only the app itself but also the whole infrastructure behind it. **Software needs to coexist with outside systems that generate extra costs**. The most important is the server infrastructure needed to exchange data. It is impossible to predict the cost of server infrastructure without going into detail. **The price depends on what server provider you would choose and how big the infrastructure needs to be**. It’s like the budget for gasoline. Every car has a different fuel burn efficiency.
+
+## The cost of app maintenance
+
+Guess what? It’s like owning a car. 🙂 Buying a vehicle is probably the biggest but only the first payment of the new owner. Every car needs regular services and sometimes repairs. It relates to the software development world. **Launching MVP doesn't mean the work is over. Even if you wait with adding new features, you still have to take care of the app's maintenance**. 
+
+Both Google and Apple regularly upgrade their systems. On top of it, new mobile devices are launched every year. Every app needs to be adjusted to these changes. That brings extra costs such as developing and testing the new versions of the app.
+
+What is more, Google and Apple provide changes on their app stores that often affect every app owner. As an example, Google demanded from app owners information about the age range of their app users. It might not be time-consuming to meet these types of requests. Still it is crucial to keep an eye on them otherwise your app may be even banned from the store.
+
+## Developing an app for iOS and Android doubles the price
