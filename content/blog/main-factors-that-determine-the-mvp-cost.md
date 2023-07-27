@@ -35,3 +35,7 @@ Both Google and Apple regularly upgrade their systems. On top of it, new mobile 
 What is more, Google and Apple provide changes on their app stores that often affect every app owner. As an example, Google demanded from app owners information about the age range of their app users. It might not be time-consuming to meet these types of requests. Still it is crucial to keep an eye on them otherwise your app may be even banned from the store.
 
 ## Developing an app for iOS and Android doubles the price
+
+It sometimes **comes as a surprise to startups that developing an app for Google Play and App Store comes with 2 separate development processes which double the budget**. When you plan to eventually develop an advanced product it isn't advisable to do [cross-platform software for both stores](/blog/native-app-development-vs-cross-platform/). Apple and Google have their different requirements, processes, and tools. Thus, you need two teams with different coding skills to create products for both top app stores. However, **building two products for iOS and Android isn’t a must**!
+
+That is why our team at Bright Inventions loves to build MVPs to analyze not only the app market potential but also to check if it is necessary to create both versions for iOS and Android. Developing only one of them is not such a rare case. For example Instagram was first available on AppStore only.
