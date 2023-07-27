@@ -18,8 +18,6 @@ language: en
 
 <div class="image"><img src="/images/blog_mvp_cost_cover.png" alt="MVP cost" title="MVP cost"  /> </div>
 
-<div class="image"><img src="/images/mobile_app_screens.png" alt="mobile app mockups" title="mobile app mockups"  /> </div>
-
 ## How advanced your app should be
 
 Well-advanced apps like Uber or Google Maps may cost hundreds of thousands of dollars. Fortunately, **startups usually don’t have to begin with that budget**. The smart way to start app development is to create a prototype and then the MVP. MVP stands for Minimum Viable Product. It’s the very first version of your solution containing crucial features only. Then you can release MVP to a small group of users and see how they respond to it. According to the valuable feedback, you can develop your app eliminating crucial mistakes at the very beginning. 
