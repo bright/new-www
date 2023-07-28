@@ -10,7 +10,7 @@ date: 2021-05-19T07:30:02.507Z
 meaningfullyUpdatedAt: 2023-07-14T08:35:20.017Z
 title: What Are the Stages of App Development?
 layout: post
-image: /images/blogpost_stagesofappdevelopment.png
+image: /images/blog_app_stages.png
 hidden: false
 comments: true
 published: true
