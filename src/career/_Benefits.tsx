@@ -185,7 +185,7 @@ const Benefits: React.FC = () => {
         title: 'Swimming workouts with pro triathlete',
         alt: 'Swimming workouts',
       },
-      { image: '/images/career/benefits/image3.png', title: 'Friday yoga', alt: 'Friday yoga' },
+      { image: '/images/career/benefits/benefits_yoga.png', title: 'Friday yoga', alt: 'Friday yoga' },
       { image: '/images/career/benefits/image4.png', title: 'Bright lunches & donuts', alt: 'Lunches and donuts' },
       { image: '/images/career/benefits/image5.png', title: 'English classes', alt: 'English classes' },
       { image: '/images/career/benefits/image6.png', title: 'Great library', alt: 'Library' },
