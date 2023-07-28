@@ -12,10 +12,10 @@ tags:
   - Android
   - MVP
 date: 2019-04-23T22:00:00.000Z
-meaningfullyUpdatedAt: 2019-04-23T22:00:00.000Z
-title: Mistakes startups make when developing their mobile product
+meaningfullyUpdatedAt: 2023-07-28T06:23:18.264Z
+title: Mistakes Startups Make When Developing their Mobile Product
 layout: post
-image: /images/blog_post_cover-mateusz_startup.png
+image: /images/blog_startup_mobile_mistakes.png
 hidden: false
 comments: true
 published: true
@@ -23,7 +23,7 @@ language: en
 ---
 **If you’ve ever worked at an early-stage startup, then I’m sure you know the feeling. Your mobile app, a concept you’ve been working intensely on for many months, is finally entering the development phase. Things are starting to feel very real business-wise, aren’t they?**
 
-![software development](/images/mistakes_startups_make_when_developing_their_mobile_product.jpg)
+<div class="image"><img src="/images/mistakes_startups_make_when_developing_their_mobile_product_small.jpg" alt="mobile development mistakes" title="mobile development mistakes"  /> </div>
 
 On the one hand, you’re pumped from all the excitement. On the other, you might also be feeling intimidated by the extent of the project. Especially, if you’re new to the mobile app development game.
 
