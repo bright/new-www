@@ -188,7 +188,7 @@ const Benefits: React.FC = () => {
       { image: '/images/career/benefits/benefits_yoga.png', title: 'Friday yoga', alt: 'Friday yoga' },
       { image: '/images/career/benefits/pets_friendly_office.png', title: 'Pet-friendly office', alt: 'Pet-friendly office' },
       { image: '/images/career/benefits/image5.png', title: 'English classes', alt: 'English classes' },
-      { image: '/images/career/benefits/knowledge_sharing.png', title: 'Knowledge sharing initiatives, alt: 'Knowledge sharing initiatives' },
+      { image: '/images/career/benefits/knowledge_sharing.png', title: 'Knowledge sharing initiatives', alt: 'Knowledge sharing initiatives' },
       ...(expanded
         ? [
             { image: '/images/career/benefits/image11.png', title: 'Team retreats', alt: 'Team retreats' },
