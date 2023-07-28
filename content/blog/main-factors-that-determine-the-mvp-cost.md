@@ -1,6 +1,6 @@
 ---
 author: michal
-secondAuthor: izabela
+secondAuthor: ""
 tags:
   - startup
   - mvp
