@@ -13,7 +13,7 @@ tags:
   - MVP
 date: 2019-04-23T22:00:00.000Z
 meaningfullyUpdatedAt: 2023-07-28T06:23:18.264Z
-title: Mistakes Startups Make When Developing their Mobile Product
+title: Mistakes Startups Make When Developing Their Mobile Product
 layout: post
 image: /images/blog_startup_mobile_mistakes.png
 hidden: false
