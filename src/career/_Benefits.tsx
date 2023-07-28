@@ -186,15 +186,15 @@ const Benefits: React.FC = () => {
         alt: 'Swimming workouts',
       },
       { image: '/images/career/benefits/benefits_yoga.png', title: 'Friday yoga', alt: 'Friday yoga' },
-      { image: '/images/career/benefits/image4.png', title: 'Bright lunches & donuts', alt: 'Lunches and donuts' },
+      { image: '/images/career/benefits/pets_friendly_office.png', title: 'Pet-friendly office', alt: 'Pet-friendly office' },
       { image: '/images/career/benefits/image5.png', title: 'English classes', alt: 'English classes' },
-      { image: '/images/career/benefits/image6.png', title: 'Great library', alt: 'Library' },
+      { image: '/images/career/benefits/knowledge_sharing.png', title: 'Knowledge sharing initiatives, alt: 'Knowledge sharing initiatives' },
       ...(expanded
         ? [
             { image: '/images/career/benefits/image11.png', title: 'Team retreats', alt: 'Team retreats' },
             { image: '/images/career/benefits/image8.png', title: 'Internal workshops', alt: 'Internal workshops' },
             { image: '/images/career/benefits/image9.png', title: 'Mentoring', alt: 'Mentoring' },
-            { image: '/images/career/benefits/image12.png', title: 'Board game fridays', alt: 'Board game fridays' },
+            { image: '/images/career/benefits/image12.png', title: 'Board game Fridays', alt: 'Board game Fridays' },
           ]
         : []),
     ],
