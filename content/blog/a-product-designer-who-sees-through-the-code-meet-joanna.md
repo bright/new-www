@@ -105,3 +105,9 @@ Many times, when I faced some challenges, it turned out that another team had ex
 I also feel grateful because **from the first day at Bright Inventions I was treated with respect even though it was my first product designer job**. I was surprised that from the beginning **people asked me about my opinion and expected my expertise**. I was also happy that I could instantly implement all the new techniques and best practices that I learned at college.
 
 ## So what are the key factors of successful cooperation between designers and developers/PMs?
+
+The primary aspect is **context**. When communicating with a team member (and vice-versa), it's important not to simply state a request like "I need you to do it quickly because I say so". You need to **provide the reasons behind your request and explain why you need their help**. 
+
+Additionally, **open communication** plays a significant role in effective collaboration. Simply **say what you mean, don’t make others assume your intentions** because that will lead to miscommunications.
+
+Another crucial factor in communication is [empathy](/blog/three-dimensions-of-empathy/). It is essential to **always try to understand the other person's perspective and take it into consideration**.
