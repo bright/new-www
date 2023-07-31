@@ -69,3 +69,7 @@ In terms of product development, I haven't seen any major issues. Obviously, **I
 **I have a strong sentiment toward [Roc Grotesk](https://fonts.adobe.com/fonts/roc-grotesk)** because I used it to design products with my friends, and it became our brand's cool font. I also appreciate [Inter](https://fonts.google.com/specimen/Inter) which is Figma’s default font. On my top list, I would include [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) (although it is a little technical) and [Acumin Pro](https://fonts.adobe.com/fonts/acumin).
 
 ## What has been the most challenging for you in your product design career?
+
+The fact that I mostly design products for users who are in a hurry. Therefore, **I have to find a way to display as much information on a screen as possible** in the best way. Information layout is definitely a challenge in this regard.
+
+I would say that **being assertive is also a personal challenge for me sometimes**. I am still learning how to find the balance between meeting clients' and developers' expectations and adhering to design standards. I don't want to simply say “no” to the client's ideas or developers' needs. Yet at the same time, I feel that it is my duty to ensure we deliver a high-quality designed product.
