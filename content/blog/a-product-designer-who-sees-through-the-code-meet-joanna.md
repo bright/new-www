@@ -91,3 +91,7 @@ After the research, I do **sketches**. Based on them I create [low-fidelity or h
 Before starting the job, I had the impression that I would create the design, and then developers would implement it. However, while working in an Agile methodology, I discovered that **sometimes during the same sprint, I need to do the design while developers simultaneously build features**. 
 
 This presents another challenge because in order to achieve a successful implementation I have to communicate effectively with developers. There is no time for misunderstandings.
+
+<div class="image"><img src="/images/joanna_bright_team.png" alt="Joanna during a team retreat in Stockholm." title="Joanna during a team retreat in Stockholm."  /> </div>
+
+<center>*Joanna during a team retreat in Stockholm.*</center>
