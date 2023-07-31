@@ -56,7 +56,7 @@ You know how it goes – as soon as you follow some profiles, your feed is quick
 
 ## Figma or Adobe XD… Which one is your favorite and why?
 
-It's **Figma**, for sure! In my view, Adobe has stopped developing as a product. **Figma has surpassed its competitors because they truly focus on implementing user feedback**. Also, Figma has a great community that enriches this product.
+It's **Figma**, for sure! In my view, Adobe has slightly stopped developing as a product. **Figma has surpassed its competitors because they truly focus on implementing user feedback**. Also, Figma has a great community that enriches this product.
 
 I think as well that **Figma makes it easier to collaborate with developers**. However, in my opinion, Figma is more oriented toward UI design and product design. Adobe Apps are in fact better for graphic designers, who make animations and more artistic stuff. So everyone can find something for themselves.
 
