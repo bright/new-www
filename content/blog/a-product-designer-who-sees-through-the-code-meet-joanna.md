@@ -117,3 +117,17 @@ Another crucial factor in communication is [empathy](/blog/three-dimensions-of-e
 They showed me that the **key is to look at the design through the lens of the system we want to build**. As a designer, I may start with an artistic and chaotic sketch. Yet thanks to developers and PMs I understand that it needs to pivot quickly into something organized. 
 
 <div class="image"><img src="/images/joanna_quote_design_system.png" alt="Quote on look at the design through the lens of the system" title="Quote on look at the design through the lens of the system"  /> </div>
+
+Nowadays, **the gap between code and design is getting smaller, but it is still there**. As a product designer, I create a design that needs to be well-interpreted by developers, so order is crucial.
+
+**I have to also look through the code**. The fact that I studied Informatics and Econometrics helps me a lot. **I grasp that fonts and colors need to be presented as tokens**. **These, however, are part of the components that need to be reusable**.
+
+I also understand that sometimes a seemingly simple idea, like moving a button, may not be as easy as one might think and can even affect the backend.
+
+## Is there a dream app you would love to design?
+
+I’d love to have a chance to design something that would let me express myself artistically. 
+
+In terms of industries, I would love to design something related to fashion. I don’t mean ecommerce though. I am thinking about a **website for a fashion house**. I wouldn’t say no to designing **websites or apps for music festivals like Open'er Festival**. That would give me a chance to create animations and implement some design tricks that wouldn’t be suitable for many other industries.
+
+## What do you do after hours?
