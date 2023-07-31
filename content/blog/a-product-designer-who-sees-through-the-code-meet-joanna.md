@@ -36,3 +36,20 @@ Great! Although I was shocked, when I was informed, before the interview, that i
 Don't give up. **You will probably receive lots of rejections**. It will be frustrating, but you have to get through that phase. **You have to keep pushing, keep developing your portfolio, and redesign the apps you think could work better**. Naturally, you have to stay updated with trends by attending design conferences, workshops, webinars, and so on.
 
 <div class="image"><img src="/images/joanna_quote_juniors.png" alt="Advice for aspiring junior developers" title="Advice for aspiring junior developers"  /> </div>
+
+## So what are your sources of product design knowledge?
+
+I follow top designers on LinkedIn and Instagram e.g. [Zander Whitehurst](https://www.instagram.com/zanderwhitehurst/), [Katy](https://www.instagram.com/katy.ba), [Aga Naplocha](https://www.instagram.com/theawwwesomes), as well as the profile of [Nielsen Norman Group](https://www.instagram.com/nngux). 
+
+You know how it goes – as soon as you follow some profiles, your feed is quickly full of news, trends, and inspirations in that regard. I also sign up for various UX courses and try to regularly obtain certificates. 
+
+**Books can't be overrated as well. I can recommend books such as:**
+
+* *The Design of Everyday Things* by Donald Arthur Norman
+* *[Don't Make Me Think](/blog/5-web-development-rules-from-dont-make-me-think-book/)* by Steve Krug
+* *User Experience Team of One* by Leah Buley
+* *100 Things Every Designer Needs to Know about People* by Susan Weinschenk
+* *Grid Systems in Graphic Design* by Josef Müller-Brockmann
+* *GIVING A DAMN ABOUT ACCESSIBILITY*, Sheri BYRNE-Haber
+* *Build Better Products: A Modern Approach to Building Successful User-Centered Products* by Laura Klein
+* Polish: *Badania jako podstawa projektowania user experienc*e by Iga Mościchowska, Barbara Rogoś-Turek
