@@ -95,3 +95,13 @@ This presents another challenge because in order to achieve a successful impleme
 <div class="image"><img src="/images/joanna_bright_team.png" alt="Joanna during a team retreat in Stockholm." title="Joanna during a team retreat in Stockholm."  /> </div>
 
 <center>*Joanna during a team retreat in Stockholm.*</center>
+
+## Do you enjoy your daily cooperation with developers and project managers?
+
+It's been going pretty great because we **quickly give each other feedback, and communicate fast, and openly**. I also appreciate the fact that even though we have different teams working for various clients at Bright Inventions, there is communication between the teams. 
+
+Many times, when I faced some challenges, it turned out that another team had experienced similar struggles. They have helped me resolve those issues based on their experience. I really enjoy **the culture of knowledge sharing at Bright Inventions**.
+
+I also feel grateful because **from the first day at Bright Inventions I was treated with respect even though it was my first product designer job**. I was surprised that from the beginning **people asked me about my opinion and expected my expertise**. I was also happy that I could instantly implement all the new techniques and best practices that I learned at college.
+
+## So what are the key factors of successful cooperation between designers and developers/PMs?
