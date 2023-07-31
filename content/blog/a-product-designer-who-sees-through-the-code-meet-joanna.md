@@ -65,3 +65,7 @@ I think as well that **Figma makes it easier to collaborate with developers**. H
 In terms of product development, I haven't seen any major issues. Obviously, **I can see the commercialization and rising prices of Figma**. However, every business wants to earn money. I guess that sooner or later Figma had to transform into a more expensive tool.
 
 ## What is your favorite font?
+
+**I have a strong sentiment toward [Roc Grotesk](https://fonts.adobe.com/fonts/roc-grotesk)** because I used it to design products with my friends, and it became our brand's cool font. I also appreciate [Inter](https://fonts.google.com/specimen/Inter) which is Figma’s default font. On my top list, I would include [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) (although it is a little technical) and [Acumin Pro](https://fonts.adobe.com/fonts/acumin).
+
+## What has been the most challenging for you in your product design career?
