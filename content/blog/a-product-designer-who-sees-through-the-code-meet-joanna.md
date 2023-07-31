@@ -73,3 +73,11 @@ In terms of product development, I haven't seen any major issues. Obviously, **I
 The fact that I mostly design products for users who are in a hurry. Therefore, **I have to find a way to display as much information on a screen as possible** in the best way. Information layout is definitely a challenge in this regard.
 
 I would say that **being assertive is also a personal challenge for me sometimes**. I am still learning how to find the balance between meeting clients' and developers' expectations and adhering to design standards. I don't want to simply say “no” to the client's ideas or developers' needs. Yet at the same time, I feel that it is my duty to ensure we deliver a high-quality designed product.
+
+## What does your work on prototypes for clients look like? Can you guide us through your typical prototype design process?
+
+Everything starts with research. This includes **user research, business domain research, benchmarking**, and so on. With the help of a project manager, we also establish all of the client's requirements.
+
+After the research, I do **sketches**. Based on them I create [low-fidelity or high-fidelity wireframes](/blog/what-are-the-stages-of-app-development/#app-prototyping--product-design), depending on the time constraints we have. Let's face it, working at a software development agency means time is often working against us. 🙂 Finally, **mockups originate from wireframes**.
+
+<div class="image"><img src="/images/joanna_quote_mockups.png" alt="Quote on mockups" title="Quote on mockups"  /> </div>
