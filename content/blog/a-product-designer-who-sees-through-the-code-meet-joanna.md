@@ -111,3 +111,9 @@ The primary aspect is **context**. When communicating with a team member (and vi
 Additionally, **open communication** plays a significant role in effective collaboration. Simply **say what you mean, don’t make others assume your intentions** because that will lead to miscommunications.
 
 Another crucial factor in communication is [empathy](/blog/three-dimensions-of-empathy/). It is essential to **always try to understand the other person's perspective and take it into consideration**.
+
+## Have developers and PMs taught you something about product design?
+
+They showed me that the **key is to look at the design through the lens of the system we want to build**. As a designer, I may start with an artistic and chaotic sketch. Yet thanks to developers and PMs I understand that it needs to pivot quickly into something organized. 
+
+<div class="image"><img src="/images/joanna_quote_design_system.png" alt="Quote on look at the design through the lens of the system" title="Quote on look at the design through the lens of the system"  /> </div>
