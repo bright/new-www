@@ -53,3 +53,15 @@ You know how it goes – as soon as you follow some profiles, your feed is quick
 * *GIVING A DAMN ABOUT ACCESSIBILITY*, Sheri BYRNE-Haber
 * *Build Better Products: A Modern Approach to Building Successful User-Centered Products* by Laura Klein
 * Polish: *Badania jako podstawa projektowania user experienc*e by Iga Mościchowska, Barbara Rogoś-Turek
+
+## Figma or Adobe XD… Which one is your favorite and why?
+
+It's **Figma**, for sure! In my view, Adobe has stopped developing as a product. **Figma has surpassed its competitors because they truly focus on implementing user feedback**. Also, Figma has a great community that enriches this product.
+
+I think as well that **Figma makes it easier to collaborate with developers**. However, in my opinion, Figma is more oriented toward UI design and product design. Adobe Apps are in fact better for graphic designers, who make animations and more artistic stuff. So everyone can find something for themselves.
+
+## Do you see the negative impacts of Adobe taking over Figma?
+
+In terms of product development, I haven't seen any major issues. Obviously, **I can see the commercialization and rising prices of Figma**. However, every business wants to earn money. I guess that sooner or later Figma had to transform into a more expensive tool.
+
+## What is your favorite font?
