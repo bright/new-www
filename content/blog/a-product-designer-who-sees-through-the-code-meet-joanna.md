@@ -30,3 +30,9 @@ Then I went to post-graduation studies in UX Design/Product Design. At that time
 ## How do you recall the job interview at Bright Inventions?
 
 Great! Although I was shocked, when I was informed, before the interview, that it would take 2 hours. I thought, "What could we discuss for such a long time?". In the end, it went well because **it was just a friendly, open conversation. It wasn't a typical round of questions**.
+
+## What is your advice to people aspiring to become junior product designers?
+
+Don't give up. **You will probably receive lots of rejections**. It will be frustrating, but you have to get through that phase. **You have to keep pushing, keep developing your portfolio, and redesign the apps you think could work better**. Naturally, you have to stay updated with trends by attending design conferences, workshops, webinars, and so on.
+
+<div class="image"><img src="/images/joanna_quote_juniors.png" alt="Advice for aspiring junior developers" title="Advice for aspiring junior developers"  /> </div>
