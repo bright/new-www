@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-07-31T07:01:25.638Z
 title: A Product Designer Who Sees Through the Code. Meet Joanna
 layout: post
 image: /images/brightstoryjoanna.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
