@@ -131,3 +131,13 @@ I’d love to have a chance to design something that would let me express myself
 In terms of industries, I would love to design something related to fashion. I don’t mean ecommerce though. I am thinking about a **website for a fashion house**. I wouldn’t say no to designing **websites or apps for music festivals like Open'er Festival**. That would give me a chance to create animations and implement some design tricks that wouldn’t be suitable for many other industries.
 
 ## What do you do after hours?
+
+**I’ve just finished a couple of product design courses and now I need to relax for some time**. I do yoga, stretching, and travel a lot. Recently **I visited Barcelona and New York**. I like to create graphic designs. A graphics tablet helps me with digital illustrations. 
+
+<div class="image"><img src="/images/joanna_ny.png" alt="Joanna in New York" title="Joanna in New York"  /> </div>
+
+<center>*Joanna in New York.*</center>
+
+You can check out my doodles on my Instagram @csznsk.
+
+<InstagramEmbed url='https://www.instagram.com/p/Cjx5nWYIu7I/' />
