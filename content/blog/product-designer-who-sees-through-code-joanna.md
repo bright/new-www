@@ -5,12 +5,12 @@ tags:
   - bright story
   - design
   - inspiration
-date: 2023-07-31T07:28:51.246Z
-meaningfullyUpdatedAt: 2023-07-31T07:28:51.909Z
+date: 2023-07-31T09:32:37.518Z
+meaningfullyUpdatedAt: 2023-07-31T09:32:37.988Z
 title: A Product Designer Who Sees Through the Code. Meet Joanna
 layout: post
 image: /images/brightstoryjoanna.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -25,7 +25,7 @@ While I was at college studying Informatics and Econometrics I realized that pro
 
 Then I went to post-graduation studies in UX Design/Product Design. At that time I worked as an Information Security Administration Specialist dreaming of a career in product design. **Eventually, I got my first product designer job at Bright Inventions**.
 
-*Joanna described her incredible career journey from IT Administrator to Junior Developer in another blog post. [Read her career transformation story](/blog/how-to-get-first-product-designer-job/)!*
+*Joanna described her incredible career journey from IT Administrator to Junior Product Designer in another blog post. [Read her career transformation story](/blog/how-to-get-first-product-designer-job/)!*
 
 ## How do you recall the job interview at Bright Inventions?
 
@@ -50,9 +50,9 @@ You know how it goes – as soon as you follow some profiles, your feed is quick
 * *User Experience Team of One* by Leah Buley
 * *100 Things Every Designer Needs to Know about People* by Susan Weinschenk
 * *Grid Systems in Graphic Design* by Josef Müller-Brockmann
-* *GIVING A DAMN ABOUT ACCESSIBILITY*, Sheri BYRNE-Haber
+* *GIVING A DAMN ABOUT ACCESSIBILITY by* Sheri BYRNE-Haber
 * *Build Better Products: A Modern Approach to Building Successful User-Centered Products* by Laura Klein
-* Polish: *Badania jako podstawa projektowania user experienc*e by Iga Mościchowska, Barbara Rogoś-Turek
+* Polish: *Badania jako podstawa projektowania user experience* by Iga Mościchowska, Barbara Rogoś-Turek
 
 ## Figma or Adobe XD… Which one is your favorite and why?
 
@@ -94,7 +94,7 @@ This presents another challenge because in order to achieve a successful impleme
 
 <div class="image"><img src="/images/joanna_bright_team.png" alt="Joanna during a team retreat in Stockholm." title="Joanna during a team retreat in Stockholm."  /> </div>
 
-<center>*Joanna during a team retreat in Stockholm.*</center>
+<center>Joanna during a team retreat in Stockholm.</center>
 
 ## Do you enjoy your daily cooperation with developers and project managers?
 
@@ -136,11 +136,11 @@ In terms of industries, I would love to design something related to fashion. I d
 
 <div class="image"><img src="/images/joanna_ny.png" alt="Joanna in New York" title="Joanna in New York"  /> </div>
 
-<center>*Joanna in New York.*</center>
+<center>Joanna in New York.</center>
 
 You can check out my doodles on my Instagram @csznsk.
 
-<InstagramEmbed url='https://www.instagram.com/p/Cjx5nWYIu7I/' />
+<InstagramEmbed url='https://www.instagram.com/p/CnIiCuOIQxM/' />
 
 Apart from that, I enjoy attending exhibition openings, or just exhibitions in general. I like music and going to concerts or music festivals. Just recently, I went to Beyonce concert and Harry Styles' concert. Both were unforgettable experiences.
 
