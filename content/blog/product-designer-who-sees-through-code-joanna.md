@@ -5,8 +5,8 @@ tags:
   - bright story
   - design
   - inspiration
-date: 2023-07-31T07:28:51.246Z
-meaningfullyUpdatedAt: 2023-07-31T07:28:51.909Z
+date: 2023-07-31T09:32:37.518Z
+meaningfullyUpdatedAt: 2023-07-31T09:32:37.988Z
 title: A Product Designer Who Sees Through the Code. Meet Joanna
 layout: post
 image: /images/brightstoryjoanna.png
