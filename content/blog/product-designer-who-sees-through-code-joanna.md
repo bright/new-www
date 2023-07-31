@@ -140,7 +140,7 @@ In terms of industries, I would love to design something related to fashion. I d
 
 You can check out my doodles on my Instagram @csznsk.
 
-<InstagramEmbed url='https://www.instagram.com/p/Cjx5nWYIu7I/' />
+<InstagramEmbed url='https://www.instagram.com/p/CnIiCuOIQxM/' />
 
 Apart from that, I enjoy attending exhibition openings, or just exhibitions in general. I like music and going to concerts or music festivals. Just recently, I went to Beyonce concert and Harry Styles' concert. Both were unforgettable experiences.
 
