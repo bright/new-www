@@ -94,7 +94,7 @@ This presents another challenge because in order to achieve a successful impleme
 
 <div class="image"><img src="/images/joanna_bright_team.png" alt="Joanna during a team retreat in Stockholm." title="Joanna during a team retreat in Stockholm."  /> </div>
 
-<center>\*Joanna during a team retreat in Stockholm.\*</center>
+<center>\\*Joanna during a team retreat in Stockholm.\\*</center>
 
 ## Do you enjoy your daily cooperation with developers and project managers?
 
@@ -136,7 +136,7 @@ In terms of industries, I would love to design something related to fashion. I d
 
 <div class="image"><img src="/images/joanna_ny.png" alt="Joanna in New York" title="Joanna in New York"  /> </div>
 
-<center>\*Joanna in New York.\*</center>
+<center>\\*Joanna in New York.\\*</center>
 
 You can check out my doodles on my Instagram @csznsk.
 
