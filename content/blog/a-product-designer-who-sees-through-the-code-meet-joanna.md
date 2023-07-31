@@ -81,3 +81,13 @@ Everything starts with research. This includes **user research, business domain 
 After the research, I do **sketches**. Based on them I create [low-fidelity or high-fidelity wireframes](/blog/what-are-the-stages-of-app-development/#app-prototyping--product-design), depending on the time constraints we have. Let's face it, working at a software development agency means time is often working against us. 🙂 Finally, **mockups originate from wireframes**.
 
 <div class="image"><img src="/images/joanna_quote_mockups.png" alt="Quote on mockups" title="Quote on mockups"  /> </div>
+
+**The moment when I have the mockups ready is pivotal in designer-client communication**. Before this, we might have thought that we were on the same page through discussions, but the mockups finally reveal my intentions as a designer and whether they match the client's expectations. 
+
+**When everyone is on the same page, I design prototypes with all the screens for every flow**. I have to design and describe them well enough so that developers can understand the design of the entire system and start to implement it.
+
+## What are the biggest differences between your perception of this career and the daily reality of it?
+
+Before starting the job, I had the impression that I would create the design, and then developers would implement it. However, while working in an Agile methodology, I discovered that **sometimes during the same sprint, I need to do the design while developers simultaneously build features**. 
+
+This presents another challenge because in order to achieve a successful implementation I have to communicate effectively with developers. There is no time for misunderstandings.
