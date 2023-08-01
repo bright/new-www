@@ -30,7 +30,7 @@ Eventually, **I became an acrobatic instructor for kids**. I also auditioned for
 
 <div class="image"><img src="/images/photo_theatre.png" alt="Notre Dame de Paris" title="Photo by Piotr Manasterski"  /> </div>
 
-<center>Photo by Piotr Manasterski. Source: [Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)</center>
+<center>Photo by Piotr Manasterski. Source: \[Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)</center>
 
 However, I felt that my body had enough of the intensive training routine. I couldn’t do it forever. I felt I needed to move on and then I decided to become a programmer.
 
@@ -102,7 +102,7 @@ As an example let me show you and play a musical instrument I have built. This i
 
 ## When you come to the office, you bring a lovely companion with you. Can you tell us more about her? 😉
 
-I guess you mean my dog Tola. :) She’s a rescue. My fiancée and I adopted her from Aurea Foundation whose mission is to help Golden Retrievers. Actually, I’ve always wanted to have a German Shepard and my fiancée had a desire for a Golden Retriever. So we reached a compromise and went for a Golden Retriever. 😉
+I guess you mean my dog Tola. 🙂 She’s a rescue. My fiancée and I adopted her from Aurea Foundation whose mission is to help Golden Retrievers. Actually, I’ve always wanted to have a German Shepard and my fiancée had a desire for a Golden Retriever. So we reached a compromise and went for a Golden Retriever. 😉
 
 <div class="image"><img src="/images/tola_dog.png" alt="The office dog" title="Tola at the Bright Inventions’ office in Gdańsk"  /> </div>
 
