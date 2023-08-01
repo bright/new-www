@@ -94,3 +94,29 @@ Develop the Minimum Viable Product and start gathering users.
 Continuously deploy new features, prioritize stability, and analyze user behavior for improvements.
 
 If you want to dive deeper into [software development stages](/blog/what-are-the-stages-of-app-development/), read our other blog post.
+
+## Logistics industry MVP stack for 2023
+
+Every project is different and may require another stack approach. At Bright Inventions we always adapt technologies to the budget and time requirements our clients have. 
+
+The stack listed below is a typical group of tools and programming languages we recommend (but as mentioned, recommendations may change!).
+
+**Frontend**: TypeScript, React.
+
+**Backend**: Node.js, PostgreSQL, NestJS, AWS.
+
+**Android development**: Kotlin.
+
+**iOS development**: Swift.
+
+**Project management & documentation**: Jira, Github.
+
+**Product design**: Figma, Miro.
+
+**Analytics**: MixPanel, Google Analytics 4.
+
+## How much does it cost to hire a software agency to build MVP for logistics?
+
+There is no simple answer to this question. There are many aspects [MVP development agency](/our-areas/mvp-development/) has to consider before giving you a quote. The best way is to book a consultation and discuss your idea for a product, then you will receive the estimation.
+
+<div class='block-button'><h2>Book a free consultation in 48 hours</h2><div>Do you want to estimate a digital solution for your company? Contact us and we’ll get back to you in 48 hours. Let’s talk!</div><a href="/our-areas/mvp-development/"><button>contact us now</button></a></div>
