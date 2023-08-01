@@ -32,3 +32,11 @@ For some companies, off-the-shelf software will be perfectly fine. In some cases
 * When you are a large organization that requires a multifunctional platform to meet the diverse needs of various departments and stakeholders.
 * When you have tested other solutions and identified missing features that are crucial for your operations.
 * When you have the financial resources, and development capabilities (internal or outsourced) to build something completely suited for your company’s needs.
+
+## Example of digital transformation in logistics (case study)
+
+<div class="image"><img src="/images/tms_social_preview.png" alt="Transportation Management System" title="Transportation Management System"  /> </div>
+
+Read the case study a [customized solution for forwarding company in the light road transport sector](/projects/transportation-management-system/) (up to 3.5 tons of the permissible total weight).
+
+## Examples of challenges in the logistics industry that tech can solve
