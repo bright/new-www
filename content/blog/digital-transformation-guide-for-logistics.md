@@ -115,6 +115,8 @@ Continuously deploy new features, prioritize stability, and analyze user behavio
 
 If you want to dive deeper into [software development stages](/blog/what-are-the-stages-of-app-development/), read our other blog post.
 
+<EbookDynamic sectionTitle='Want to grasp the ins and outs of MVP?' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Read the free ebook about MVP development. Check out how you can start to digitize your company’s operations fast and with a lower budget.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='ebook mvp cover' />
+
 ## Logistics MVP stack for 2023
 
 Every project is different and may require another stack approach. At Bright Inventions we always adapt technologies to the budget and time requirements our clients have. 
