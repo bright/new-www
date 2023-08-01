@@ -30,7 +30,7 @@ Eventually, **I became an acrobatic instructor for kids**. I also auditioned for
 
 <div class="image"><img src="/images/photo_theatre.png" alt="Notre Dame de Paris" title="Photo by Piotr Manasterski"  /> </div>
 
-*Photo by Piotr Manasterski. Source: [Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)*
+<center>Photo by Piotr Manasterski. Source: [Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)</center>
 
 However, I felt that my body had enough of the intensive training routine. I couldn’t do it forever. I felt I needed to move on and then I decided to become a programmer.
 
@@ -42,7 +42,7 @@ When I decided to learn programming, my girlfriend was the only person who knew 
 
 <div class="image"><img src="/images/notes_programming.png" alt="Learning how to code" title="undefined"  /> </div>
 
-*Some notes made by Cezary while learning.*
+<center>Some notes made by Cezary while learning.</center>
 
 I started my learning process by doing **a free CS50 course made by Harvard**. I started literally from **Scratch, then touched some C, Python, and Java**. I liked Java the most. Then I found the **Google Developer Scholarship on Udacity**. The first 3 months of the course were free. Then you had to do the test and the top 1000 people around the world were invited to continue the program for free. Gladly I was one of those people. 🙂 During that extended course I learned Java exclusively for building mobile with Android. That is how I became an Android Developer.
 
@@ -106,7 +106,7 @@ I guess you mean my dog Tola. :) She’s a rescue. My fiancée and I adopted her
 
 <div class="image"><img src="/images/tola_dog.png" alt="The office dog" title="Tola at the Bright Inventions’ office in Gdańsk"  /> </div>
 
-*Tola at the Bright Inventions’ office in Gdańsk*
+<center>Tola at the Bright Inventions’ office in Gdańsk</center>
 
 Tola had a hernia and needed surgery and probably that is why someone abandoned her. Fortunately, Tola is healthy now. She joins me when I come to the office to attend our yoga classes every Friday. She makes quite an entrance. 🙂
 
