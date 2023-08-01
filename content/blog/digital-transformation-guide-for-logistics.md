@@ -40,3 +40,55 @@ For some companies, off-the-shelf software will be perfectly fine. In some cases
 Read the case study a [customized solution for forwarding company in the light road transport sector](/projects/transportation-management-system/) (up to 3.5 tons of the permissible total weight).
 
 ## Examples of challenges in the logistics industry that tech can solve
+
+### A weak internet connection
+
+Internet connection is often not sufficient for daily operations in the logistics industry. Especially for drivers. It shouldn’t stop others to collaborate with drivers, e.g. freight forwarders. That's why an app built for the logistics industry often should have an offline mode. 
+
+For example, an app used for drivers-freight forwarders communication should enable to share of vehicle localization even offline. Apps that are built around offline functionality are called [offline-first apps](/blog/offline-first-app-guide-for-startups-app-owners-case-studies/). 
+
+### Paperwork and docs sharing
+
+Permits, reports, photos, sheets – there is lots of paperwork associated with logistics operations. Technology enables a full digitalization of all documentation. 
+
+Not only can you store documents in the cloud, but you can also share them with your colleagues, supervisors, and clients. Thanks to the offline mode, mentioned earlier, you can even store data offline. Then they will be synchronized when the internet connection is restored.
+
+### Route Optimization
+
+Everyone in the road transportation industry desires to lower the number of empty vehicles on the road. In 2021 [1 in 5 road freight journeys in the EU were performed by empty vehicles](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Road_freight_transport_by_journey_characteristics#Empty_runnings). 
+
+Algorithms based on AI can optimize the route to find loads for empty vehicles more effectively. For example, dedicated software matches an empty vehicle with the load nearby enabling the driver to quickly pick up the load on the road and minimize the length of the journey with an empty vehicle.
+
+### Lack of cargo security
+
+[Foods products are one of the cargo groups with the highest share in tonne-kilometers](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Road_freight_transport_by_type_of_goods) transported by road in the EU in 2021. Technologies like GPS, IoT sensors, blockchain, or tamper-evident seals give an opportunity to secure food products (and others), reduce the risk of theft or tampering, and ensure the safe delivery of goods to their intended destinations. 
+
+If you want to go deeper into [smart packaging](https://brightinventions.pl/blog/how-to-build-mvp-for-smart-packaging-solution/), which also takes care of cargo security, read our other blog post.
+
+### A large scope of the possible end users
+
+Logistics companies hire employees with different backgrounds, expectations, and technological expertise. Customized development gives a better option to design a solution that answers all employees’ needs. In this case, end users are represented by various groups with different expertise such as drivers, warehouse workers, freight forwarders, supply chain analysts, dispatchers, packaging specialists, and many more.
+
+## The road from the idea to the launch (including MVP)
+
+The typical app development flow estimates that MVP will be launched within a few months. It’s crucial because we should validate the MVP as soon as possible to minimize the costs. However every product is different, so the software development stages should depend on the particular solution.
+
+### App Development Stages (including MVP phase):
+
+#### The idea for a product
+
+Verify the idea's business potential and define the target group. Choose key features to include in MVP.
+
+#### MVP Prototyping (1-4 weeks)
+
+Create visual representations and mockups of the solution.
+
+#### Building and launching the MVP (4-20 weeks)
+
+Develop the Minimum Viable Product and start gathering users.
+
+#### Product Development, QA & Maintenance based on MVP
+
+Continuously deploy new features, prioritize stability, and analyze user behavior for improvements.
+
+If you want to dive deeper into [software development stages](/blog/what-are-the-stages-of-app-development/), read our other blog post.
