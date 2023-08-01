@@ -30,7 +30,7 @@ Eventually, **I became an acrobatic instructor for kids**. I also auditioned for
 
 <div class="image"><img src="/images/photo_theatre.png" alt="Notre Dame de Paris" title="Photo by Piotr Manasterski"  /> </div>
 
-<center>Photo by Piotr Manasterski. Source: \[Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)</center>
+*Photo by Piotr Manasterski. Source: [Facebook](https://www.facebook.com/Piotr.Manasterski.fotograf/photos/a.376316558378/10153908473538379/?type=3)*
 
 However, I felt that my body had enough of the intensive training routine. I couldn’t do it forever. I felt I needed to move on and then I decided to become a programmer.
 
