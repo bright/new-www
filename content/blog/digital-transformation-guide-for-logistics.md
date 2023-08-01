@@ -37,7 +37,7 @@ For some companies, off-the-shelf software will be perfectly fine. In some cases
 
 <div class="image"><img src="/images/tms_social_preview.png" alt="Transportation Management System" title="Transportation Management System"  /> </div>
 
-Read the case study a [customized solution for forwarding company in the light road transport sector](/projects/transportation-management-system/) (up to 3.5 tons of the permissible total weight).
+Read the case study of a [customized solution for forwarding company in the light road transport sector](/projects/transportation-management-system/) (up to 3.5 tons of the permissible total weight).
 
 ## Examples of challenges in the logistics industry that tech can solve
 
