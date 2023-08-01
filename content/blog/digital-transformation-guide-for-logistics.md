@@ -28,13 +28,11 @@ language: en
 
 [Examples of challenges in the logistics industry that tech can solve](/blog/digital-transformation-guide-for-logistics/#examples-of-challenges-in-the-logistics-industry-that-tech-can-solve)
 
+[The road from the idea to the launch (including MVP)](/blog/digital-transformation-guide-for-logistics/#the-road-from-the-idea-to-the-launch-including-mvp)
 
+[Logistics MVP stack for 2023](/blog/digital-transformation-guide-for-logistics/#logistics-industry-mvp-stack-for-2023)
 
-
-
-
-
-
+[How much does it cost to hire a software agency to build MVP for logistics?](/blog/digital-transformation-guide-for-logistics/#how-much-does-it-cost-to-hire-a-software-agency-to-build-mvp-for-logistics)
 
 - - -
 
@@ -117,7 +115,7 @@ Continuously deploy new features, prioritize stability, and analyze user behavio
 
 If you want to dive deeper into [software development stages](/blog/what-are-the-stages-of-app-development/), read our other blog post.
 
-## Logistics industry MVP stack for 2023
+## Logistics MVP stack for 2023
 
 Every project is different and may require another stack approach. At Bright Inventions we always adapt technologies to the budget and time requirements our clients have. 
 
