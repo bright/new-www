@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - business
-date: 2023-08-01T06:31:09.497Z
-meaningfullyUpdatedAt: 2023-08-01T06:31:09.535Z
+date: 2023-08-01T06:48:18.466Z
+meaningfullyUpdatedAt: 2023-08-01T06:48:19.044Z
 title: Digital Transformation Guide for Logistics
 layout: post
 image: /images/logistics_photo_blog.png
