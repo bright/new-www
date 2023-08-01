@@ -75,6 +75,8 @@ The typical app development flow estimates that MVP will be launched within a fe
 
 ### App Development Stages (including MVP phase):
 
+<div class="image"><img src="/images/timeline_app_development_stages.png" alt="Software development stages" title="undefined"  /> </div>
+
 #### The idea for a product
 
 Verify the idea's business potential and define the target group. Choose key features to include in MVP.
