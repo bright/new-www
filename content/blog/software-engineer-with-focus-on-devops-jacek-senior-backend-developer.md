@@ -64,7 +64,7 @@ It's mind-blowing for me that people just want to write blog posts. No one feels
 
 <div class="image"><img src="/images/team_jacek.png" alt="Bright Inventions Team" title="During Bright Inventions team trip to Stockholm."  /> </div>
 
-<sub> During Bright Inventions team trip to Stockholm. </sub>
+<center>During Bright Inventions team trip to Stockholm.</center>
 
 ## You recently took Bright Development Time. Can you explain what that is and what did you do then?
 
@@ -78,7 +78,7 @@ I’ve also conducted a webinar for our team to share my experience and technica
 
 <div class="image"><img src="/images/team_retreat_jacek.png" alt="Team retreat" title="Jacek and other bright people at the team retreat."  /> </div>
 
-<sub> Jacek and other bright people at the team retreat. </sub>
+<center> Jacek and other bright people at the team retreat. </center>
 
 ## You are a home winemaker. What wine have you made recently?
 
@@ -88,7 +88,7 @@ For my wedding, I made two three-liter bottles of red wine. Also, every guest go
 
 <div class="image"><img src="/images/jacek_wedding_wine.png" alt="Jacek's homemade wine" title="Le Chaple wine as a gift for our wedding guests"  /> </div>
 
-<sub> Le Chaple wine as a gift for our wedding guests. </sub>
+<center> Le Chaple wine as a gift for our wedding guests. </center>
 
 When I started reading books about winemaking, I discovered that it is a lot about chemistry and ingredients calculations. To achieve predictable results, you cannot use universal wine recipes because all fruits are different. 
 
@@ -100,6 +100,6 @@ I love to travel. My biggest adventure was **visiting New Zealand**. My wife and
 
 <div class="image"><img src="/images/jacek_new-zealand.png" alt="Jacek in Hobbiton - New Zealand" title="Jacek in Hobbiton - New Zealand"  /> </div>
 
-<sub> Jacek in Hobbiton - New Zealand. </sub>
+<center> Jacek in Hobbiton – New Zealand. </center>
 
 <div class='block-button'><h2>Experienced backend developers wanted. Apply today!</h2><div>We're on the lookout for senior backend developers who understands Java/Kotlin & Spring really well and who would like to work with AWS on a daily basis.</div><a href="/jobs/senior-backend-developer/"><button>join our backend team</button></a></div>
