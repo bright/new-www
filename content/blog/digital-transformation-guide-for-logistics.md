@@ -16,6 +16,28 @@ language: en
 
 <div class="image"><img src="/images/logistics_photo_blog.png" alt="logistics" title="logistics"  /> </div>
 
+- - -
+
+## Table of contents
+
+[Digital transformation for the logistics industry](/blog/digital-transformation-guide-for-logistics/#digital-transformation-for-the-logistics-industry)
+
+[When you should build your own customized solution for logistics](/blog/digital-transformation-guide-for-logistics/#when-you-should-build-your-own-customized-solution-for-logistics)
+
+[Example of digital transformation in logistics (case study)](/blog/digital-transformation-guide-for-logistics/#example-of-digital-transformation-in-logistics-case-study)
+
+[Examples of challenges in the logistics industry that tech can solve](/blog/digital-transformation-guide-for-logistics/#examples-of-challenges-in-the-logistics-industry-that-tech-can-solve)
+
+
+
+
+
+
+
+
+
+- - -
+
 ## Digital transformation for the logistics industry
 
 Digital transformation refers to the implementation of technology to improve various aspects of an organization's operations, business processes, products, services, and customer experiences. Moving into digital with your company documents, processes and data can help to speed up daily operations, secure fragile information and analyze the data to make more business-oriented decisions.
