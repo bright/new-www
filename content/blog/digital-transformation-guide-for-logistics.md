@@ -16,6 +16,26 @@ language: en
 
 <div class="image"><img src="/images/logistics_photo_blog.png" alt="logistics" title="logistics"  /> </div>
 
+- - -
+
+## Table of contents
+
+[Digital transformation for the logistics industry](/blog/digital-transformation-guide-for-logistics/#digital-transformation-for-the-logistics-industry)
+
+[When you should build your own customized solution for logistics](/blog/digital-transformation-guide-for-logistics/#when-you-should-build-your-own-customized-solution-for-logistics)
+
+[Example of digital transformation in logistics (case study)](/blog/digital-transformation-guide-for-logistics/#example-of-digital-transformation-in-logistics-case-study)
+
+[Examples of challenges in the logistics industry that tech can solve](/blog/digital-transformation-guide-for-logistics/#examples-of-challenges-in-the-logistics-industry-that-tech-can-solve)
+
+[The road from the idea to the launch (including MVP)](/blog/digital-transformation-guide-for-logistics/#the-road-from-the-idea-to-the-launch-including-mvp)
+
+[Logistics MVP stack for 2023](/blog/digital-transformation-guide-for-logistics/#logistics-industry-mvp-stack-for-2023)
+
+[How much does it cost to hire a software agency to build MVP for logistics?](/blog/digital-transformation-guide-for-logistics/#how-much-does-it-cost-to-hire-a-software-agency-to-build-mvp-for-logistics)
+
+- - -
+
 ## Digital transformation for the logistics industry
 
 Digital transformation refers to the implementation of technology to improve various aspects of an organization's operations, business processes, products, services, and customer experiences. Moving into digital with your company documents, processes and data can help to speed up daily operations, secure fragile information and analyze the data to make more business-oriented decisions.
@@ -95,7 +115,7 @@ Continuously deploy new features, prioritize stability, and analyze user behavio
 
 If you want to dive deeper into [software development stages](/blog/what-are-the-stages-of-app-development/), read our other blog post.
 
-## Logistics industry MVP stack for 2023
+## Logistics MVP stack for 2023
 
 Every project is different and may require another stack approach. At Bright Inventions we always adapt technologies to the budget and time requirements our clients have. 
 
