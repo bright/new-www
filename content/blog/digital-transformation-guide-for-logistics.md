@@ -24,3 +24,11 @@ Digital transformation refers to the implementation of technology to improve var
 
 * You can look for available on the market digital software tools (off-the-shelf software).
 * Or hire a software agency to build a customized solution just for you.
+
+## When you should build your own customized solution for logistics
+
+For some companies, off-the-shelf software will be perfectly fine. In some cases, it won’t be enough though. So, when should you consider building something unique for your company?
+
+* When you are a large organization that requires a multifunctional platform to meet the diverse needs of various departments and stakeholders.
+* When you have tested other solutions and identified missing features that are crucial for your operations.
+* When you have the financial resources, and development capabilities (internal or outsourced) to build something completely suited for your company’s needs.
