@@ -6,10 +6,10 @@ tags:
   - recruitment
 date: 2023-08-02T07:01:50.463Z
 meaningfullyUpdatedAt: 2023-08-02T07:01:51.851Z
-title: 7 Qualities of a Software Developer that We Look for in Candidates
+title: 7 Qualities of a Software Developer We Look for in Candidates
 layout: post
 image: /images/blog_candidate_qualities.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
