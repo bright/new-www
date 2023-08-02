@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-08-02T10:28:51.397Z
 title: 7 Qualities of a Software Developer that We Look for in Candidates
 layout: post
 image: /images/blog_candidate_qualities.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
