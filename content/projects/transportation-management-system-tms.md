@@ -73,7 +73,8 @@ The client has used various freight management solutions available on the market
 **Frontend**: TypeScript, React, Redux, React Query
 
 **Backend**: Nest.js, TypeScript, AWS, PostgreSQL, Prisma
-Android development: Kotlin, Coroutines, Flows, ViewModel, Firebase, Hilt, and other Google APIs
+
+**Android development**: Kotlin, Coroutines, Flows, ViewModel, Firebase, Hilt, and other Google APIs
 
 **Product design**: Figma, Adobe Illustrator
 
@@ -117,6 +118,10 @@ Before our team presented the MVP mockups we took a couple of crucial steps whic
 
 <div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
 
+### Mobile development
+
+After a successful web MVP launch, our **client decided to engage us in mobile development too**. We have been developing a native mobile application for Android. MVP was released recently. The mobile app supports communication between freight forwarders and drivers. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
+
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
 *Their flexible and professional approach to business was impressive. The difficulties encountered in the creation process were never a problem, only a challenge. All the set goals were met on time.*
@@ -126,7 +131,5 @@ Before our team presented the MVP mockups we took a couple of crucial steps whic
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 **MVP launch ensured the client that the system has the potential to change the daily work** on their team. We’re delighted to say that the **client decided to continue our cooperation**. Now we focus on i**mplementing other features** in the system for example the **electronic circulation of documents**.
-
-Also, **we started to work on a mobile app for drivers**. It will be launched as an MVP as well. The mobile app for Android will play a crucial role in terms of **communication between forwarders and drivers**. For example, it will allow **sharing of carriers' localization with the forwarders**. The app will perform crucial actions even in **offline mode**.
 
 It’s definitely a busy time for our TMS team. We will keep you updated on the project.
