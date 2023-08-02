@@ -4,8 +4,8 @@ tags:
   - inspiration
   - development
   - recruitment
-date: 2023-08-02T10:28:51.373Z
-meaningfullyUpdatedAt: 2023-08-02T10:28:51.397Z
+date: 2023-08-02T07:01:50.463Z
+meaningfullyUpdatedAt: 2023-08-02T07:01:51.851Z
 title: 7 Qualities of a Software Developer that We Look for in Candidates
 layout: post
 image: /images/blog_candidate_qualities.png
