@@ -76,4 +76,8 @@ The official [news portal of Gdansk](https://www.gdansk.pl/wiadomosci/Armia-18-t
 
 Gdansk citizens are one of the happiest in Poland according to studies conducted between 2021-2022 by [Otodom and ThinkCo](https://www.thefirstnews.com/article/gdynia-happiest-place-in-poland-says-new-report-revealing-countrys-most-and-least-satisfied-cities-32304). Only a nearby city Gdynia had the highest level of citizen’s happiness.
 
-<div class="image"><img src="/images/blog_post_gdansk_happiness.png" alt="The level of happiness" title="The level of happiness"  /> </div>
+<div class="image"><img src="/images/blog_post_gdansk_happiness.png" alt="The level of happiness by Otodom and ThinkCo" title="The level of happiness"  /> </div>
+
+<center> The level of happiness by Otodom and ThinkCo </center>
+
+One of the reasons might be the fact that **Gdansk offers opportunities to grow professionally as well as to pursue other passions**. Gdańsk, situated next to Baltic See, gives a chance for water activities like kite surfing, sup, sailing, and more. With hundreds of kilometers of bike routes and lots of green spaces, the city lets you truly rest after work. As a result, it helps to establish a work-life balance among employees [crucial for maintaining happiness](https://www.researchgate.net/publication/299741273_The_Relationship_Between_Work-Life_Balance_and_Happiness_From_the_Perspectives_of_Generation_X_and_Y).
