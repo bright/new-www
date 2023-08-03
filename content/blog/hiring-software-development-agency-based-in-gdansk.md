@@ -73,7 +73,7 @@ The official [news portal of Gdansk](https://www.gdansk.pl/wiadomosci/Armia-18-t
 
 <center> Pictures from infoShare 2023 </center>
 
-## Studies show that people who live in Gdańsk are one of the happiest in Poland ☺️
+## Studies show that people who live in Gdansk are one of the happiest in Poland ☺️
 
 Gdansk citizens are one of the happiest in Poland according to studies conducted between 2021-2022 by [Otodom and ThinkCo](https://www.thefirstnews.com/article/gdynia-happiest-place-in-poland-says-new-report-revealing-countrys-most-and-least-satisfied-cities-32304). Only a nearby city Gdynia had the highest level of citizen’s happiness.
 
@@ -81,7 +81,7 @@ Gdansk citizens are one of the happiest in Poland according to studies conducted
 
 <center> The level of happiness by Otodom and ThinkCo </center>
 
-One of the reasons might be the fact that **Gdansk offers opportunities to grow professionally as well as to pursue other passions**. Gdańsk, situated next to Baltic See, gives a chance for water activities like kite surfing, sup, sailing, and more. With hundreds of kilometers of bike routes and lots of green spaces, the city lets you truly rest after work. As a result, it helps to establish a work-life balance among employees [crucial for maintaining happiness](https://www.researchgate.net/publication/299741273_The_Relationship_Between_Work-Life_Balance_and_Happiness_From_the_Perspectives_of_Generation_X_and_Y).
+One of the reasons might be the fact that **Gdansk offers opportunities to grow professionally as well as to pursue other passions**. Gdansk, situated next to Baltic See, gives a chance for water activities like kite surfing, sup, sailing, and more. With hundreds of kilometers of bike routes and lots of green spaces, the city lets you truly rest after work. As a result, it helps to establish a work-life balance among employees [crucial for maintaining happiness](https://www.researchgate.net/publication/299741273_The_Relationship_Between_Work-Life_Balance_and_Happiness_From_the_Perspectives_of_Generation_X_and_Y).
 
 ## See you in Gdansk? 😉
 
