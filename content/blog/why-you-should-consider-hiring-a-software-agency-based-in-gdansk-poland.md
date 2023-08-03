@@ -55,3 +55,19 @@ Lots of Bright Inventions team members graduated from Gdansk University of Techn
 <div class="image"><img src="/images/blog_post_gdansk_tech_university.png" alt="Gdansk University of Technology" title="Gdansk University of Technology"  /> </div>
 
 <center> Source: Gdansk University of Technology's [website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
+
+It’s worth mentioning that graduates of the Gdansk University of Technology created [text-to-speech Ivona](https://pg.edu.pl/aktualnosci/2021-04/chcemy-dac-polakom-milion-dodatkowych-lat-zycia-w-zdrowiu-rozmowa-z-lukaszem). Their solution eventually helped to build the famous Alexa.
+
+## Gdansk is full of programming talents
+
+Over 500 people graduated in [2022](https://cdn.files.pg.edu.pl/main/Dzia%C5%82%20Kszta%C5%82cenia/Statystyki/Liczba%20absolwent%C3%B3w%20stan%20na%20dzie%C5%84%2031.12.2022.pdf) from the Faculty of Electronics, Telecommunications, and Informatics of Gdansk University of Technology. Naturally, that is not the only college in Gdansk offering informatics studies.
+
+The official [news portal of Gdansk](https://www.gdansk.pl/wiadomosci/Armia-18-tysiecy-programistow-Czy-Gdansk-jest-zaglebiem-branzy-IT-w-Polsce-Invest-in-Pomerania-Marcin-Grzegory-BSS-biurowce,a,224885) says that **in Gdansk works around 18 000 programmers**. That’s why Gdansk is a place where true tech giants choose to operate including Amazon, Intel, and IBM.
+
+## Gdansk hosts infoShare – the biggest tech and startup event in CEE
+
+[infoShare](https://infoshare.pl/conference/) brings over 6 thousand attendees, 150 speakers, and over 500 startups. The first edition of the event was organized in 2007. infoShare brings to Gdansk speakers representing companies like IBM, Linux, Oracle, Intel and more.
+
+<div class="image"><img src="/images/blog_post_infoshare.png" alt="infoShare 2023" title="Pictures from infoShare 2023"  /> </div>
+
+<center> Pictures from infoShare 2023 </center>
