@@ -45,3 +45,9 @@ Examples of time differences:
 🇵🇱 Poland – 🇺🇸 New York: 6-hours time difference
 
 At Bright Inventions we successfully collaborate with clients from the listed countries.
+
+## One of the top Polish technology universities is in Gdansk
+
+Based on the 2023 Perspektywy Report *[Universities of Technology 2023](https://2023.ranking.perspektywy.org/ranking/university-ranking/ranking-by-university-type/universities-of-technology)* **Gdansk University of Technology was ranked third among universities of technologies in Poland** (following universities in Warsaw and Krakow).
+
+Lots of Bright Inventions team members graduated from Gdansk University of Technology including our co-founders [Daniel Makurat](/about-us/daniel/) and [Michał Łukasiewicz](/about-us/michal/). Our project manager [Kasia Łukasiewicz](/about-us/kasia/) is also a lecturer at the Gdansk University of Technology’s Informatics department.
