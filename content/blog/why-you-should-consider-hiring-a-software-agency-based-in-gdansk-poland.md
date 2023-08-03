@@ -51,3 +51,7 @@ At Bright Inventions we successfully collaborate with clients from the listed co
 Based on the 2023 Perspektywy Report *[Universities of Technology 2023](https://2023.ranking.perspektywy.org/ranking/university-ranking/ranking-by-university-type/universities-of-technology)* **Gdansk University of Technology was ranked third among universities of technologies in Poland** (following universities in Warsaw and Krakow).
 
 Lots of Bright Inventions team members graduated from Gdansk University of Technology including our co-founders [Daniel Makurat](/about-us/daniel/) and [Michał Łukasiewicz](/about-us/michal/). Our project manager [Kasia Łukasiewicz](/about-us/kasia/) is also a lecturer at the Gdansk University of Technology’s Informatics department.
+
+<div class="image"><img src="/images/blog_post_gdansk_tech_university.png" alt="Gdansk University of Technology" title="Gdansk University of Technology"  /> </div>
+
+<center> Source: Gdansk University of Technology's [website](https://pg.edu.pl/dzial-promocji/marka-pg/galeria-zdjec) </center>
