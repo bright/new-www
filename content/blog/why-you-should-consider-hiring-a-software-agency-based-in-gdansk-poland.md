@@ -29,3 +29,19 @@ The Gdansk Airport is located about 20 minutes from the center of the city by ca
 <center>Source: [Gdansk Airport website](https://www.airport.gdansk.pl/flight-information/where-we-fly-p3.html) </center>
 
 ## Collaboration-friendly time zone
+
+Poland is in **Central European Time (CET)** which makes it possible to organize **daily online meetings** with client representatives from **European countries**, as well as **Israel** or even the **USA**.
+
+Examples of time differences:
+
+🇵🇱 Poland – 🇩🇪 Germany: no time difference
+
+🇵🇱 Poland – 🇳🇴 Norway: no time difference
+
+🇵🇱 Poland – 🇬🇧 the UK: 1-hour time difference
+
+🇵🇱 Poland – 🇮🇱 Israel: 1-hour time difference
+
+🇵🇱 Poland – 🇺🇸 New York: 6-hours time difference
+
+At Bright Inventions we successfully collaborate with clients from the listed countries.
