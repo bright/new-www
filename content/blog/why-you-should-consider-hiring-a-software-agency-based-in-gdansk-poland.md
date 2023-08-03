@@ -74,4 +74,6 @@ The official [news portal of Gdansk](https://www.gdansk.pl/wiadomosci/Armia-18-t
 
 ## Studies show that people who live in Gdańsk are one of the happiest in Poland ☺️
 
-[Gdansk citizens are one of the happiest in Poland](https://www.thefirstnews.com/article/gdynia-happiest-place-in-poland-says-new-report-revealing-countrys-most-and-least-satisfied-cities-32304) according to studies conducted between 2021-2022. Only a nearby city Gdynia had the highest level of citizen’s happiness.
+Gdansk citizens are one of the happiest in Poland according to studies conducted between 2021-2022 by [Otodom and ThinkCo](https://www.thefirstnews.com/article/gdynia-happiest-place-in-poland-says-new-report-revealing-countrys-most-and-least-satisfied-cities-32304). Only a nearby city Gdynia had the highest level of citizen’s happiness.
+
+<div class="image"><img src="/images/blog_post_gdansk_happiness.png" alt="The level of happiness" title="The level of happiness"  /> </div>
