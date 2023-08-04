@@ -12,11 +12,13 @@ comments: true
 published: true
 language: en
 ---
-In this blog post, you will learn what screening is, why it is used in recruitment, and what questions you can expect from the recruiter.
+**In this blog post, you will learn what screening is, why it is used in recruitment, and what questions you can expect from the recruiter.**
 
 Screening in recruitment is typically a short, fifteen to thirty-minute phone or video conversation after the recruiter has reviewed the candidate's CV.
 
 The purpose of screening is to verify candidates for a specific job position and present initial preferences, and requirements of the employer. Through screening, the recruiter has a chance to identify the most suitable candidates for the next stage of recruitment, while the candidate gets an opportunity to learn more details about the role they are applying for and about the company.
+
+<div class="image"><img src="/images/blogpost_screening.png" alt="candidate screening" title="candidate screening"  /> </div>
 
 # **HOW DOES SCREENING LOOK LIKE? WHAT CAN RECRUITERS ASK?**
 
