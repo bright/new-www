@@ -4,7 +4,7 @@ tags:
   - recruitment
 date: 2023-08-07T09:15:09.567Z
 meaningfullyUpdatedAt: 2023-08-07T09:15:00.000Z
-title: Recruitment screening - what is it for?
+title: Recruitment Screening – What Is It For?
 layout: post
 image: /images/blogpost_screening.png
 hidden: false
