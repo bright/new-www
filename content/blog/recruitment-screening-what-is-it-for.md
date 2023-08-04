@@ -3,7 +3,7 @@ author: agata-m
 tags:
   - recruitment
 date: 2023-08-07T09:15:09.567Z
-meaningfullyUpdatedAt: 2023-08-04T09:15:09.612Z
+meaningfullyUpdatedAt: 2023-08-07T09:15:00.000Z
 title: Recruitment screening - what is it for?
 layout: post
 image: /images/blogpost_screening.png
