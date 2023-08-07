@@ -4,7 +4,7 @@ workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: OPENING SOON  
+subtitle: ONGOING 
 image-alt-job: backend development team
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
@@ -14,10 +14,9 @@ working time: 26 paid days off + Polish bank holidays
 technology:
   - Java
   - Kotlin
-  - Spring
-  - AWS
-  - PostgreSQL
-  - MySQL
+  - Spring Boot
+  - Google Cloud 
+  - NoSQL
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -53,36 +52,39 @@ We support and share responsibility with the members of our team. We also active
 
 ## **about the role**
 
-We are looking for **an experienced Backend Developer** who understands Java/Kotlin & Spring really well and who would like to **work with AWS on daily basis**. 
+We are looking for **an experienced Backend Developer who understands Java & Spring really well and who would like to take accountability for the code he/she writes and the impact it has on users, organizations, and society as a whole.** It involves adhering to ethical principles, best practices, and professional standards throughout the software development lifecycle.
 
-And what would you do? Develop a backend application for an intelligent ePOS system that will be widely used in Israel. We are responsible here for providing backend server and a mobile Flutter POS app that will be integrated with several devices such as printers and payment terminals. 
+The person who will join our team should possess **the ability to adapt and adjust to various situations, requirements, and technologies throughout the software development process.** We would also appreciate your capability of working in different environments, such as startups, large corporations, or remote teams. Each setting may have different processes and requirements, and adaptability is key.
 
 ## **what you will do**
 
-* create high-quality backend application in Kotlin 
-* participate in software code reviews
-* have a direct contact with clients and advise in their decision making process
+* enhance an existing backend application in Java
+* work on the payment module development 
+* have a direct contact with business side and advise in their decision making process
 * improve internal web development processes
+* participate in software code reviews
 * share knowledge with the rest of the team
 
 ## **preferred skills and qualifications**
 
-* at least 4-5 years of commercial programming experience (including min. 3 years in backend development)
+* at least 5 years of commercial programming experience (including min. 3 years in backend development)
 * excellent problem solving and analytical thinking skills
-* very good working knowledge and deep understanding of Kotlin  
-* experience with Spring framework 
-* familiarity with AWS or other Cloud providers
+* very good working knowledge and deep understanding of Java/Kotlin
+* experience with Spring Boot framework 
+* experience with SQL databases 
+* familiarity with Google Cloud or other Cloud providers e.g. AWS/Azure
 * advanced communications kills in English (both written and spoken))
 
 ## **we would also appreciate if you have**
 
-* experience with databases, in particular MySQL/PostgreSQL/Redshift 
-* familiarity with agile methodologies
+* experience with working on **enterprise solutions**
+* collaboration exeprience in the international teams 
+
 
 ## **what you will find in our Bright Team 🧡**
 
 * continuous feedback culture and 1:1 meetings 
-* clear career path wich includes skills you need to obtain a particular goal 
+* clear career path with 
 * flexible working hours and remote work possibility
 * 26 paid days off + Polish bank holidays
 * MultiSport card and private medical package (PZU Zdrowie)
