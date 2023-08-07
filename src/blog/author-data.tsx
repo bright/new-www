@@ -122,6 +122,7 @@ export function AuthorsView({
   avatar,
   isSingleAuthor,
   bio,
+  ex
 }: {
   authorId: string | undefined
   slug: string | undefined
@@ -129,10 +130,11 @@ export function AuthorsView({
   isSingleAuthor?: boolean
   avatar: IGatsbyImageData
   bio: string
+  ex: boolean
 }) {
   const LinkComponent = authorId
     ? (props: { children?: ReactNode }) => (
-        <Link to={routeLinks.aboutUs({ authorId, slug })} style={{ color: 'inherit' }}>
+        <Link to={routeLinks.aboutUs({ authorId, slug, ex })} style={{ color: 'inherit' }}>
           {props.children}
         </Link>
       )
@@ -184,7 +186,7 @@ export function AuthorsView({
 }
 
 export const AuthorData: React.FC<AuthorDataProps> = ({ authorId, isSingleAuthor }) => {
-  const [{ avatar, name, bio, slug }] = authorId ? useAuthors({ authorId, avatarSize: { width: 120 } }) : []
+  const [{ avatar, name, bio, slug, ex }] = authorId ? useAuthors({ authorId, avatarSize: { width: 120 } }) : []
   return AuthorsView({
     authorId: authorId,
     slug: slug,
@@ -192,5 +194,6 @@ export const AuthorData: React.FC<AuthorDataProps> = ({ authorId, isSingleAuthor
     avatar: avatar,
     bio: bio,
     isSingleAuthor: isSingleAuthor,
+    ex
   })
 }

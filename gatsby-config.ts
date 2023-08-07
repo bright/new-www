@@ -26,6 +26,10 @@ const googleTrackingIdsForEnv = googleTrackingIds(gatsbyActiveEnv)
 const enableWebpackBundleAnalyser = process.env.WEBPACK_BUNDLE_ANALYSER_ENABLE == 'true'
 
 const gatsbyConfig: GatsbyConfig = {
+  flags: {
+    DEV_SSR: true,
+    // FAST_DEV: true
+  },
   siteMetadata,
   partytownProxiedURLs: partytownEnabled
     ? [

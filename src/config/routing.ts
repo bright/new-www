@@ -1,6 +1,9 @@
 export const routeLinks = {
-  aboutUs(params?: { authorId: string; slug: string | undefined } | { page: 'team' }) {
+  aboutUs(params?: { authorId: string; slug: string | undefined, ex?: boolean } | { page: 'team' }) {
     if (!params) {
+      return `/about-us/`
+    }
+    if('ex' in params && params.ex){
       return `/about-us/`
     }
     if ('authorId' in params) {
