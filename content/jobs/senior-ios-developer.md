@@ -5,7 +5,7 @@ subtitle: ONGOING
 imagejob: /images/iosteam_job_offer.png
 image-alt-job: iOS Development Team Bright Inventions
 hours: full-time
-salary: 20 000 - 28 000 PLN + VAT (B2B) or 16 600 - 23 250 PLN gross (UoP)
+salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 21 600 PLN gross (UoP)
 salary_min: 20000
 salary_max: 26000
 working time: full time
@@ -33,9 +33,9 @@ image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Mietlińska - a recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our iOS team
-published: false
+published: true 
 show_recruiter_info: true
-order: 3
+order: 2
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking for an experienced Senior iOS Developer who
