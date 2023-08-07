@@ -122,7 +122,7 @@ Before our team presented the MVP mockups we took a couple of crucial steps whic
 
 After a successful web MVP launch, our **client decided to engage us in mobile development too**. We have been developing a native mobile application for Android. MVP was released recently. The mobile app supports communication between freight forwarders and drivers. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
 
-<div class="image"><img src="/images/in_text_tms_mobile_case_study.png" alt="mobile development mockups" title="mobile development mockups"  /> </div>
+<div class="image"><img src="/images/in_text_tms_mobile_mockups.png" alt="shipping mobile app mockups" title="shipping mobile app mockups"  /> </div>
 
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
