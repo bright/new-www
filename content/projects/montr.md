@@ -45,7 +45,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle='main features' titleIcon='/images/main_features_icon.png' titleIconAlt='main features' />
+<TitleWithIcon sectionTitle="main features" titleIcon="/images/main_features_icon.png" titleIconAlt="main features" />
 
 * Planning investigations
 * Conducting a specific investigation
@@ -59,7 +59,7 @@ language: en
 * Colours and logo customisation on a company level
 * Third party integrations (API’s etc)
 
-<TitleWithIcon sectionTitle='skills' titleIcon='/images/skills.svg' titleIconAlt='bright' />
+<TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
 <Gallery images='[{"src":"/images/react.png","alt":"React"},{"src":"/images/node.png","alt":"Node"},{"src":"/images/postgresql_logo_stack.png","alt":"PostgreSQL"},{"src":"/images/azure_stack_logo.png","alt":"Azure"},{"src":"/images/docker_stack_logo.png","alt":"Docker"}]' />
 
@@ -69,19 +69,17 @@ language: en
 
 **Database:** PostgreSQL + Azure and Docker containers
 
-<TitleWithIcon sectionTitle='about' titleIcon='/images/three_flags.svg' titleIconAlt='about' />
+<TitleWithIcon sectionTitle="about" titleIcon="/images/three_flags.svg" titleIconAlt="about" />
 
 This is a web solution that helps to digitize the company work. The app can be easily customised according to the user's business needs. It helps to create and share digital questionnaires, reports and surveys. It is a perfect tool for companies that provide inspections and audits. Also, this is the first dedicated app for the social care team.
 
 ![web app development](/images/digitizing_mobile_reporting_app.png)
 
-<TitleWithIcon sectionTitle='goal' titleIcon='/images/goal_title_section.png' titleIconAlt='goal' />
+<TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
 The goal of the software development process was to build a solution that would be flexible, easy to adjust and available offline mode for users. Our aim was to develop a UX friendly no-code workflow that helped to create digital questionnaires or surveys by users to end-users in a convenient and quick way. For example, a real-estate agency could create a questionnaire for a client to establish what property they would like to buy.
 
-<YouTubeEmbed url='https://www.youtube.com/watch?v=AKe5HynDQnU' />
-
-<TitleWithIcon sectionTitle='process' titleIcon='/images/gearwheel.svg' titleIconAlt='process' />
+<TitleWithIcon sectionTitle="process" titleIcon="/images/gearwheel.svg" titleIconAlt="process" />
 
 We have already worked with this client on a mobile version of the app with similar functionality. This time the client wanted us to create a web app with an independent backend from scratch. The app needed to be simple to use and able to work offline as well.
 
@@ -94,6 +92,6 @@ What is more, the web app needed to be responsive and work well both on desktop 
 
 ![web app development](/images/digitizing_mobile_reporting.png)
 
-<TitleWithIcon sectionTitle='result' titleIcon='/images/results_icon_title_small.png' titleIconAlt='result' />
+<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
 Currently, the app is used by end-users to perform various types of questionnaire-based investigations. The end-users are highly satisfied with the ease of use. We take care of the maintenance and bug fixes, with some new features being introduced every now and then.
