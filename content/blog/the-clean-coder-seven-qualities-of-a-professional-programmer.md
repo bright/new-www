@@ -7,6 +7,7 @@ tags:
   - recruitment
   - self-development
 date: 2022-05-09T16:18:15.784Z
+meaningfullyUpdatedAt: 2023-08-07T10:39:48.318Z
 title: 7 Qualities of Professional Programmer
 layout: post
 image: /images/uncle_bob_post.png
@@ -78,3 +79,7 @@ A true craftsman knows the secrets of their craft - the same can be said about a
 ![](/images/uncle_bob_post_ula.png)
 
 *The Clean Coder* is the book about how a professional programmer conducts him or herself. For sure one may disagree with some ideas Uncle Bob expresses, but still there are some unique thoughts worth our attention if we want to rise to a higher level of professionalism in our job. Have a good read!
+
+- - -
+
+Check out another perspective in the article of other Bright recruiter Sara: [7 Qualities of a Software Developer We Look for in Candidates](/blog/qualities-of-software-developer-we-look-for-in-candidates/)
