@@ -19,13 +19,23 @@ technology:
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
-  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+  [How to Start Working at Bright Inventions - A Quick Guide for Candidates
+  ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)\
 
+  \
 
-  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+  [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)\
 
+  \
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)\
+
+  \
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+
+
+  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 name_recruiter: Agata
 workplace_recruiter: Junior Recruiting Specialist
@@ -33,15 +43,15 @@ image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Mietlińska - a recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our iOS team
-published: true 
+published: true
 show_recruiter_info: true
 order: 2
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for an experienced Senior iOS Developer who
   understands Swift & iOS SDK and who would like to develop innovative iOS ePOS
   application.
-language: en
 ---
 
 ## job description
