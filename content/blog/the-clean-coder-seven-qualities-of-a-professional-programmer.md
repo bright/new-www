@@ -82,4 +82,4 @@ A true craftsman knows the secrets of their craft - the same can be said about a
 
 - - -
 
-Check out another perspective in the article by other Bright recruiter Sara: [7 Qualities of a Software Developer We Look for in Candidates](/blog/qualities-of-software-developer-we-look-for-in-candidates/)
+Check out also another Bright recruiter's article: [7 Qualities of a Software Developer We Look for in Candidates](/blog/qualities-of-software-developer-we-look-for-in-candidates/)
