@@ -7,6 +7,7 @@ export function AuthorsPreview(props: AuthorDataProps) {
       slug={props.authorId}
       name={props.authorId ?? 'Name'}
       avatar={null as any}
+      ex={false}
       bio={'Bio'}
     />
   )
