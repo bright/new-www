@@ -2,8 +2,8 @@
 author: agata-m
 tags:
   - recruitment
-date: 2023-08-07T09:15:09.567Z
-meaningfullyUpdatedAt: 2023-08-07T09:15:00.000Z
+date: 2023-08-07T07:39:57.882Z
+meaningfullyUpdatedAt: 2023-08-07T07:39:58.525Z
 title: Recruitment Screening – What Is It for?
 layout: post
 image: /images/blogpost_screening.png
