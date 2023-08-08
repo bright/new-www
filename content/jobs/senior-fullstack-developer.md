@@ -42,15 +42,13 @@ description: We are looking now for a Full Stack Developer who has already had
   projects.
 language: en
 ---
-## who we are
-
-We are a team of talented senior developers who value and apply the best programming practices. We focus on cutting-edge technologies and innovations, and try to find simple structure in complex things. 
+## bright culture 🧡
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
+We place a strong emphasis on accountability, and we value team members **who take ownership of their work and are willing to make improvements based on regular and open feedback.** Positive attitude, flexibility and teamwork are elemental parts of our success. Inseatd of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous growth. 
 
-## job description 🧑🏻‍💻🧑🏻‍💻
+## about the role 🧑🏻‍💻🧑🏻‍💻
 
 We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects ranging from web applications to database design. 
 
@@ -80,7 +78,7 @@ As a Fullstack Developer, you will collaborate with cross-functional teams to de
 * experience with working on startup projects 
 
 
-## what you will find in our Bright Team 🧡
+## what you will find in our Bright Team 🚀
 
 * culture of responsibility, flexibility, teamwork and positivity
 * business value over technical perfection 
