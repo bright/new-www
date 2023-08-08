@@ -4,7 +4,7 @@ workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: Senior Android Developer
-subtitle: OPENING SOON 
+subtitle: OPENING SOON
 image-alt-job: Android Team Bright Inventions
 hours: full-time
 salary: 20 000 - 28 000 PLN + VAT (B2B) or 16 600 - 23 250 PLN gross (UoP)
@@ -17,18 +17,24 @@ technology:
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
-  [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
+  [How to Start Working at Bright Inventions - A Quick Guide for
+  Candidates](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
+  \
+
+  \
+
+  [Bright Screening - How to Get Prepared](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/) 
 
 
   [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
 
 
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
-title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-name_recruiter: Agata
-image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska
-button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
+title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
+name_recruiter: "Sara "
+image_recruiter_info: /images/sara-bright-recruiter.png
+image_alt_recruiter_info: "Sara Łęcka "
+button_linkedin: https://www.linkedin.com/in/saralecka81680085/
 button: join our Android team
 redirect_from:
   - /android-developer
@@ -38,9 +44,9 @@ show_recruiter_info: true
 order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for a Senior Android Developer who would like to
   work with our experienced and ambitious development team.
-language: en
 ---
 ## about the role
 
