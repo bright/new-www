@@ -39,13 +39,17 @@ recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: "SRE task "
 language: en
 ---
-## who we are
+## bright culture 
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and client orientation are crucial parts of our culture. 
+Our company fosters a **collaborative environment** where team members from diverse backgrounds come together to share ideas, solve challenges, and contribute their unique strengths to drive projects forward. We place a strong emphasis on accountability, and **we value team members who take ownership of their work**, follow through on commitments, and consistently deliver high-quality results.
+
+We believe in open communication and encourage team members to share their insights, questions, and ideas freely in supportive atmosphere. We are **flexible in understanding different perspectives and approaches**, and **willing to make improvements based on feedback** that is crucial for growth as a developer. 
+
+Our culture encourages **a proactive solution-oriented approach**. Inseatd of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous improvements. 
 
 ## about the role and project **🧑🏻‍💻👩🏻‍💻**
 
-**As a Site Reliability Engineer (SRE), you will play a key role in ensuring the scalability, efficiency and reliability of production systems.** You will design, build and automate processes using various scripting languages to improve monitoring, deployments and overall system performance. 
+**As a Site Reliability Engineer (SRE), you will play a key role in ensuring the scalability, efficiency and reliability of production systems.** You will design, build and automate processes using various scripting languages to improve monitoring, deployments and overall system performance. As a part of our team you'll have the opportunity to work closely with cross-functional teams, including developers, designers, and product managers, ensuring a holistic approach to problem-solving and project execution.
 
 **Project:** As part of this project we have been building an SDK for iOS and Android platforms for over 5 years that communicates with Bluetooth trackers while the app is running in the background. The basic functionality is to report the location of devices in the vicinity of the tracker. The operation is similar to the AirTag locator (location is encrypted, device identification data changes regularly), but the applications of the technology will be much different. The application can be used in industry, logistics or, for example, to open doors remotely.
 
