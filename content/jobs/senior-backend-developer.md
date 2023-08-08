@@ -1,10 +1,10 @@
 ---
 imagejob: /images/backendteam.png
-workplace_recruiter: Recruiting Specialist
+workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: ONGOING 
+subtitle: ONGOING
 image-alt-job: backend development team
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
@@ -15,7 +15,7 @@ technology:
   - Java
   - Kotlin
   - Spring Boot
-  - Google Cloud 
+  - Google Cloud
   - NoSQL
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
@@ -29,7 +29,7 @@ links_more_about_us: >-
   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 name_recruiter: Agata
-image_recruiter_info:  /images/agata_recruiter.png
+image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Mietlińska - a Junior Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our backend team
@@ -39,10 +39,10 @@ hidden: false
 order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
+language: en
 description: We are looking for an experienced Backend Developer who understands
   Java/Kotlin & Spring really well and who would like to work with AWS on daily
   basis.
-language: en
 ---
 ![]()
 
