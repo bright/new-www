@@ -36,13 +36,13 @@ links_more_about_us: >-
 
 
   [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
-title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-name_recruiter: Agata
+title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
+name_recruiter: Sara
 workplace_recruiter: Junior Recruiting Specialist
-image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - a recruiter at Bright Inventions
-button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-button: join our iOS team
+image_recruiter_info: /images/sara-bright-recruiter.png
+image_alt_recruiter_info: Sara Łęcka - a recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/saralecka81680085/
+button: join our bright iOS team
 published: true
 show_recruiter_info: true
 order: 2
@@ -53,7 +53,6 @@ description: We are looking for an experienced Senior iOS Developer who
   understands Swift & iOS SDK and who would like to develop innovative iOS ePOS
   application.
 ---
-
 ## job description
 
 We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world. The application is a delivery platform in which users can take orders, process secure payments and enjoy millions of special offers. 
@@ -62,7 +61,7 @@ As a growing team with business focus, we need strong engineers with diverse per
 
 ## what you will do 👩🏻‍💻🧑🏻‍💻
 
-* enhance an existing (one-year-old) iOS application
+* enhance an existing iOS application
 * work with the latest Apple frameworks such as Combine and SwiftUI
 * participate in software code reviews
 * work closely with project managers and product owners (in English)
@@ -81,7 +80,6 @@ As a growing team with business focus, we need strong engineers with diverse per
 * advanced level of communication in English
 * familiarity with Agile methodologies
 
-
 ## perks and benfits 🙌
 
 * 20-26 paid days off + Polish bank holidays
@@ -95,4 +93,4 @@ As a growing team with business focus, we need strong engineers with diverse per
 * internal bright initiatives: regular sport classes with a professional coach, board games evenings, weekly lunch roulette
 * team retreats once a quarter
 
-Sounds like a perfect job? Don't hesitate and apply! 
+Sounds like a perfect job? Don't hesitate and apply!
