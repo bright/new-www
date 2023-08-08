@@ -53,11 +53,17 @@ description: We are looking for an experienced Senior iOS Developer who
   understands Swift & iOS SDK and who would like to develop innovative iOS ePOS
   application.
 ---
+## bright culture 🧡
+
+We place a strong emphasis on **accountability, and we value team members who take ownership of their work**, follow through on commitments, and consistently deliver high-quality results. Our culture encourages **a proactive solution-oriented approach**. Inseatd of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous improvements. 
+
+We believe in open communication and encourage team members to share their insights, questions, and ideas freely in supportive atmosphere. We are **flexible in understanding different perspectives and approaches**, and **willing to make improvements based on regular feedback.**
+
 ## job description
 
-We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world. The application is a delivery platform in which users can take orders, process secure payments and enjoy millions of special offers. 
+We are looking for **an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.** The application is a delivery platform in which users can take orders, process secure payments and enjoy millions of special offers. 
 
-As a growing team with business focus, we need strong engineers with diverse perspectives to help us enhance  the app and introduce the deployment automation (CI/CD). The team you will work in consists of six experienced and talented iOS developers as well as two dedicated QA engineers.
+As a growing team with business focus, **we need strong engineers with diverse perspectives to help us enhance the app and introduce the deployment automation (CI/CD).** The team you will work in consists of six experienced and talented iOS developers as well as two dedicated QA engineers.
 
 ## what you will do 👩🏻‍💻🧑🏻‍💻
 
