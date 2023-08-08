@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { Section } from '../components/shared'
 import variables from '../styles/variables'
 
- export const ImagesBase = styled.div`
+export const ImagesBase = styled.div`
   & {
     display: flex;
     --gap: 3.5rem;
