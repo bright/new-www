@@ -48,11 +48,17 @@ language: en
 description: We are looking for a Senior Android Developer who would like to
   work with our experienced and ambitious development team.
 ---
+## bright culture 🧡
+
+We place a strong emphasis on **accountability, and we value team members who take ownership of their work**, follow through on commitments, and consistently deliver high-quality results. Our culture encourages **a proactive solution-oriented approach**. Inseatd of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous improvements. 
+
+We believe in open communication and encourage team members to share their insights, questions, and ideas freely in supportive atmosphere. We are **flexible in understanding different perspectives and approaches**, and **willing to make improvements based on regular feedback.**
+
 ## about the role
 
-We are looking for an experienced **Senior Android Developer who is open and not afraid of sharing views and ideas openly with the team and clients.** We would appreciate your experience with mobile development and ability to look at the project from a business perspective. \
-\
-What we can promise is that at Bright Inventions you will be an important part of [a community of talented, ambitious and positive developers, designers, managers and marketers ](https://brightinventions.pl/about-us/team/)who love to solve real problems and actively take responsibility for their own self-development. Positive attitude, client orientation and teamwork are central parts of our daily work.  [](https://brightinventions.pl/jobs/flutter-developer#your-job-will-include)
+We are looking for an experienced **Senior Android Developer who is open and not afraid of sharing views and ideas openly with the team and clients.** We would appreciate your experience with mobile development and ability to look at the project from a business perspective. 
+
+As a part of our team you'll have the opportunity to work closely with cross-functional teams, including developers, designers, and product managers, ensuring a holistic approach to problem-solving and project execution.
 
 ## your responsibilities 🧑🏻‍💻👩🏻‍💻
 
