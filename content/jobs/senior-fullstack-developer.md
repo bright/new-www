@@ -18,10 +18,10 @@ title_more_about_us: if you want to know a bit more about us, take a look below 
 show_new_title_more_about_us: true
 links_more_about_us: >-
  [How to Start Working at Bright Inventions - A Quick Guide for Candidates
-  ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)\
+  ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
 
 
-  [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)\
+  [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
 
 
   [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
