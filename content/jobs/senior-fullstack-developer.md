@@ -52,7 +52,9 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description 🧑🏻‍💻🧑🏻‍💻
 
-We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects ranging from web applications to database design. As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openess to feedback.** 
+We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects ranging from web applications to database design. 
+
+As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openess to feedback.** 
 
 ## what you will do 🤝
 
