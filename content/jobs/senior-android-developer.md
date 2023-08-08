@@ -19,9 +19,7 @@ show_new_title_more_about_us: true
 links_more_about_us: >-
   [How to Start Working at Bright Inventions - A Quick Guide for
   Candidates](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
-  \
 
-  \
 
   [Bright Screening - How to Get Prepared](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/) 
 
