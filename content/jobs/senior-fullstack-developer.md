@@ -5,9 +5,9 @@ subtitle: ONGOING
 imagejob: /images/fullstackteam_job_offer.png
 image-alt-job: Fullstack Team Bright Inventions
 hours: Full-time
-salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
+salary: 20 000 - 24 000 PLN + VAT (B2B) or 16 600 - 19 900 PLN gross (UoP)
 salary_min: 16000
-salary_max: 22000
+salary_max: 24000
 working time: 26 paid days off + Polish bank holidays
 technology:
   - TypeScript
@@ -30,11 +30,11 @@ workplace_recruiter: Junior Recruiting Specialist
 image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Mietlińska - A Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-button: join our TypeScript team
-published: false
+button: join our bright team
+published: true
 hidden: true
 show_recruiter_info: true
-order: 7
+order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 description: We are looking now for a Full Stack Developer who has already had
@@ -52,30 +52,40 @@ We support and share responsibility with the members of our team. We also active
 
 ## job description 🧑🏻‍💻🧑🏻‍💻
 
-We are looking now for a  **Senior Fullstack Developer** who has already had experience with web development, knows how to build Cloud Platform projects and is not afraid of touching new technologies. What counts are your general analytical, programming and communication skills. 
+We are seeking an experienced Fullstack Developer to join our bright team. The ideal candidate will have **a strong understanding of both frontend and backend development**, along with the ability to work on a variety of projects ranging from web applications to database design. As a Fullstack Developer, you will collaborate with cross-functional teams to design, develop, and maintain software solutions that meet our clients' needs.  **You will feel great in our team if you are a team player who approach challenges and complexities with a problem-solving mindset and openess to feedback.** 
+
+## what you will do 🤝
+
+* collaborate with the product manager/owner to understand project requirements and translate them into technical specifications
+* develop responsive and user-friendly frontend applications using modern web technologies
+* design and implement server-side logic, APIs, and database structures for backend applications
+* participate in code reviews to maintain code quality and ensure best practices
+* provide constructive feedback to team members as well as to the clients
+* share knowlege with the rest of the team (outside and inside the organisation) 
 
 ## what we would like to see ✅
 
-* at least 3-4 years of commercial programming experience (including min. 2 years in backend development) 
-* very good knowledge of TypeScript/JavaScript
-* deep working experience with Node.js 
-* strong problem solving attitude and open mind
-* positive approach to work and new challenges  
+* at least 4 years of commercial programming experience as a fullstack develoepr or ina  similar role 
+* solid understanding of TypeScript/JavaScript
+* deep working experience with Node.js and React
+* a solution-oriented mindset 
+* positive approach and flexibility to work on new challenges  
 * advanced level of English (written and spoken)
 
 ## we would also appreciate if you have 🙌
 
-* familiarity with AWS or other Cloud providers
-* experience with development in React 
+* familiarity cloud platforms and deployment processes 
+* experience with working on startup projects 
 
 
 ## what you will find in our Bright Team 🧡
 
-* international projects for such organisation as United Nations or Parity 
+* culture of responsibility, flexibility, teamwork and positivity
+* business value over technical perfection 
 * flat structure and a great impact on the key project decisions 
 * flexible schedule and remote work possibility 
 * mentoring program and regular 1:1 meetings 
-* continuous feedback culture and open communication
+* continuous feedback and open communication
 * MultiSport and private medical package 
 * company library with an extra budget for professional books 
 * good equipment: MacBook and additional accessories
