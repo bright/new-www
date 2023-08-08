@@ -36,13 +36,13 @@ links_more_about_us: >-
 
 
   [7 reasons to work at Bright Inventions](/blog/reasons-to-join-bright)
-title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-name_recruiter: Agata
+title_recruiter_info: Do you have any questions? Ask Sara from our Bright team!
+name_recruiter: Sara
 workplace_recruiter: Junior Recruiting Specialist
-image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - a recruiter at Bright Inventions
-button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-button: join our iOS team
+image_recruiter_info: /images/sara-bright-recruiter.png
+image_alt_recruiter_info: Sara Łęcka - a recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/saralecka81680085/
+button: join our bright iOS team
 published: true
 show_recruiter_info: true
 order: 2
