@@ -50,7 +50,7 @@ description: We are looking for an experienced Backend Developer who understands
 ---
 ## bright culture 🧡
 
-We place a strong emphasis on **accountability, and we value team members who take ownership of their work**, follow through on commitments, and consistently deliver high-quality results. Our culture encourages **a proactive solution-oriented approach**. Inseatd of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous improvements. 
+We place a strong emphasis on **accountability, and we value team members who take ownership of their work**, follow through on commitments, and consistently deliver high-quality results. Our culture encourages **a proactive solution-oriented approach**. Instead of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous improvements. 
 
 We believe in open communication and encourage team members to share their insights, questions, and ideas freely in supportive atmosphere. We are **flexible in understanding different perspectives and approaches**, and **willing to make improvements based on regular feedback.**
 
