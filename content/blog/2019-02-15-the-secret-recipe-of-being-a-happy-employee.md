@@ -21,15 +21,15 @@ hidden: false
 published: true
 language: en
 ---
-It happens quite often that we go with the flow and let our day be controlled by such things like notifications, emails, distractions from colleagues or countless meetings. But we often do not realise to what extent they all may affect our work and life, in general. 
+**It happens quite often that we go with the flow and let our day be controlled by such things like notifications, emails, distractions from colleagues or countless meetings. But we often do not realise to what extent they all may affect our work and life, in general.** 
 
 <div class="image"><img src="/images/happy_employees_blog.png" alt="happy employees" title="happy employees"  /> </div>
 
-<div class="important-info"><div>Our job satisfaction depends not only on whether we like what we do or not. It depends greatly on our daily habits outside the workplace environment. It is not only determined by our knowledge, skills or competences, but also by our time and energy management, proper planning, prioritising and by our physical and mental capabilities. In fact, our job happiness depends substantially on the habit of mind we cultivate and everyday habits we are building all the time.</div></div>
+**Our job satisfaction depends not only on whether we like what we do or not. It depends greatly on our daily habits outside the workplace environment**. It is not only determined by our knowledge, skills or competences, but also by our time and energy management, proper planning, prioritising and by our physical and mental capabilities. In fact, our job happiness depends substantially on the habit of mind we cultivate and everyday habits we are building all the time.
 
-But we are not left alone in our battle for job satisfaction. If you want to enjoy what you do and stay focused at work, it is enough sometimes to apply a few simple rules. Because we all are capable of doing great things, aren't we? 
+But we are not left alone in our battle for job satisfaction. **If you want to enjoy what you do and stay focused at work, it is enough sometimes to apply a few simple rules**. Because we all are capable of doing great things, aren't we? 
 
-## 💤 Sleep
+## 💤 Sleep at least 7 hours
 
 Maybe it would be a cliché, but sleep is really important. Try to sleep at least 7 hours a day not to feel irritated, impatient or depressed at work. Sleeping longer might be also a boost for your creativity. When you are sleep-deprived, you might have more trouble refocusing on the task at hand after a disruption, compared with someone who is well rested. Getting enough sleep is also the key for memorising what we have learnt during the day.
 
