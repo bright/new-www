@@ -68,4 +68,8 @@ We all struggle to maintain focus in our workplace. But we can also train our br
 
 Sure, sleeping six hours one day is better than sleeping five hours. Doing three tasks at once is better than doing six tasks at once. Complaining twice a week is better than complaining every day. Planning one day of your week is better than not planning at all. But the point is to make it daily.  
 
-We often create our own limits of being happy, the limits we are often not aware of. That is why, cultivating positive mindset and practising fresh behaviours is so important to change our destructive routine. Train on maintaining focus, time management, adaptability, etc. It will help you stay productive in any disruptive and changing work environment. Acknowledge the real challenges and face them. And last but not least, ask for support if you need it. Remember that there is a direct connection between staying focused and productive and being an engaged employee. And when we are engaged, we feel also more motivated, confident and happy.
+<div class="image"><img src="/images/team_jacek.png" alt="Bright Inventions team" title="Bright Inventions team"  /> </div>
+
+**We often create our own limits of being happy**, the limits we are often not aware of. That is why, cultivating positive mindset and practising fresh behaviours is so important to change our destructive routine. Train on maintaining focus, time management, adaptability, etc. It will help you stay productive in any disruptive and changing work environment. Acknowledge the real challenges and face them. 
+
+And last but not least, **ask for support if you need it**. Remember that there is a direct connection between staying focused and productive and being an engaged employee. And when we are engaged, we feel also more motivated, confident and happy.
