@@ -10,8 +10,7 @@ author: ula
 tags:
   - productivity
   - job
-  - satisfaction
-  - distractions
+  - inspiration
 date: 2019-02-14T23:00:00.000Z
 meaningfullyUpdatedAt: 2019-02-14T23:00:00.000Z
 title: The Secret Recipe of Being a Happy Employee
