@@ -1,30 +1,31 @@
 ---
-layout: post
-title: The secret recipe of being a happy employee
-extract: >-
-  Our job satisfaction depends not only on whether we like what we do or not. It
-  depends greatly on our daily habits outside the workplace environment. It is
-  not only determined by our knowledge, skills or competences, but also by our
-  time and energy management, proper planning, prioritising and by our physical
-  and mental capabilities. In fact, our job happiness depends substantially on
-  the habit of mind we cultivate and everyday habits we are building all the
-  time.
+extract: Our job satisfaction depends not only on whether we like what we do or
+  not. It depends greatly on our daily habits outside the workplace environment.
+  It is not only determined by our knowledge, skills or competences, but also by
+  our time and energy management, proper planning, prioritising and by our
+  physical and mental capabilities. In fact, our job happiness depends
+  substantially on the habit of mind we cultivate and everyday habits we are
+  building all the time.
 author: ula
-image: /images/happy_employee.png
-hidden: false
 tags:
   - productivity
   - job
   - satisfaction
   - distractions
-date: '2019-02-14T23:00:00.000Z'
+date: 2019-02-14T23:00:00.000Z
+meaningfullyUpdatedAt: 2019-02-14T23:00:00.000Z
+title: The Secret Recipe of Being a Happy Employee
+layout: post
+image: /images/happy_employee.png
+hidden: false
 published: true
 language: en
 ---
-
 It happens quite often that we go with the flow and let our day be controlled by such things like notifications, emails, distractions from colleagues or countless meetings. But we often do not realise to what extent they all may affect our work and life, in general. 
 
-Our job satisfaction depends not only on whether we like what we do or not. It depends greatly on our daily habits outside the workplace environment. It is not only determined by our knowledge, skills or competences, but also by our time and energy management, proper planning, prioritising and by our physical and mental capabilities. In fact, our job happiness depends substantially on the habit of mind we cultivate and everyday habits we are building all the time. 
+<div class="image"><img src="/images/happy_employees.png" alt="happy employees" title="undefined"  /> </div>
+
+<div class="important-info"><div>Our job satisfaction depends not only on whether we like what we do or not. It depends greatly on our daily habits outside the workplace environment. It is not only determined by our knowledge, skills or competences, but also by our time and energy management, proper planning, prioritising and by our physical and mental capabilities. In fact, our job happiness depends substantially on the habit of mind we cultivate and everyday habits we are building all the time.</div></div>
 
 But we are not left alone in our battle for job satisfaction. If you want to enjoy what you do and stay focused at work, it is enough sometimes to apply a few simple rules. Because we all are capable of doing great things, aren't we? 
 
@@ -41,7 +42,7 @@ But we are not left alone in our battle for job satisfaction. If you want to enj
 📝  Plan your priorities and tasks every day. Sounds pointless? In the beginning it may sound like that, but with passing of time you will see that this daily routine will help you plan your day more effectively and successfully. You will get to know what time is best for you to do the most urgent tasks, what time might be good for meetings and calls, what time is good to have a break. [Make the most of your time](/blog/make-the-most-of-it/). 
 
  💜 Take care of positive vibes around you. Smiling gives your brain a real boost and increases its activity. [Do you know that when you are happy, you can be also 12% more productive?](https://www.fastcompany.com/3048751/happy-employees-are-12-more-productive-at-work) Some researches even show that the increase of productivity may reach 30%. And you can be also three times more creative. Positive thinking on regular basis is directly connected with being successful. It broadens our scope of attention and in consequence enhances our problem solving skills. Happy people have more energy and have also more things done. So, make an effort to smile as often as you can. 
- 
+
 👁  Train your focus. We all struggle to maintain focus in our workplace. But we can also train our brain to induce a focused state in ourselves. Focusing is a skill and it needs practice to develop. Nobody is totally the same. To help yourself focus when you need to, it is important to pinpoint your own distractions triggers and get rid of them for blocks of time. [Think about both internal and external distractions, and try to eliminate them](https://www.ciphr.com/advice/workplace-distractions/). It is all about self-control. 
 
 🦄  Avoid multitasking. [Constant switching from one task to another may decrease your efficiency by 40%](https://www.wrike.com/blog/high-cost-of-multitasking-for-productivity/), and at the same time it also increases time you need to accomplish them. Even if you might be feeling like you are accomplishing a lot, you are actually not allowing your brain to organise your thoughts. Multitasking is beneficial while walking, deleting emails or putting away documents, yet apart from that it may cause more harm than good. Once you get to know how to avoid it and become better at working on one task at a time, you will probably be surprised how much your productivity levels increase.
@@ -51,4 +52,3 @@ But we are not left alone in our battle for job satisfaction. If you want to enj
 We often create our own limits of being happy, the limits we are often not aware of. That is why, cultivating positive mindset and practising fresh behaviours is so important to change our destructive routine. Train on maintaining focus, time management, adaptability, etc. It will help you stay productive in any disruptive and changing work environment. Acknowledge the real challenges and face them. And last but not least, ask for support if you need it. Remember that there is a direct connection between staying focused and productive and being an engaged employee. And when we are engaged, we feel also more motivated, confident and happy. 
 
 ![Happy Employee](/images/happy_employee.png)
-
