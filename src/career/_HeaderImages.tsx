@@ -139,14 +139,14 @@ const HeaderImages: React.FC = () => {
         <ImagesVertical>
           <StaticImage
             objectFit={'cover'}
-            src='../../static/images/career/header/andrzej_college_career.png'
+            src='../../static/images/career/header/leszek_career.png'
             alt={'Career at Bright Inventions'}
             className='image-veritical'
             imgClassName='image'
           />
           <StaticImage
             objectFit={'cover'}
-            src='../../static/images/career/header/magda_college_career.png'
+            src='../../static/images/career/header/kasia_career.png'
             alt={'Software developer career Poland'}
             className='image-veritical'
             imgClassName='image'
@@ -154,7 +154,7 @@ const HeaderImages: React.FC = () => {
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
-          src='../../static/images/career/header/BartekSz_Career_Collage.png'
+          src='../../static/images/career/header/bartek_career.png'
           alt={'Software developer career Poland'}
           quality={100}
           height={820}
@@ -179,7 +179,7 @@ const HeaderImages: React.FC = () => {
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
-          src='../../static/images/career/header/agata_m_college_career.png'
+          src='../../static/images/career/header/sara_career.png'
           alt={'Career at Bright Inventions'}
           className='big-image'
           imgClassName='image'
@@ -194,7 +194,7 @@ const HeaderImages: React.FC = () => {
           />
           <StaticImage
             objectFit={'cover'}
-            src='../../static/images/career/header/kasia_l_college_career.png'
+            src='../../static/images/career/header/ola_career.png'
             alt={'Software developer career Poland'}
             className='image-veritical'
             imgClassName='image'
