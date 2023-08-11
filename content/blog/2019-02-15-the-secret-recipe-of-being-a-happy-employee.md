@@ -17,6 +17,7 @@ title: The Secret Recipe of Being a Happy Employee
 layout: post
 image: /images/blogpost_happy_people_bright.png
 hidden: false
+comments: true
 published: true
 language: en
 ---
