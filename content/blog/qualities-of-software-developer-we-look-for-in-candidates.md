@@ -2,7 +2,6 @@
 author: sara-l
 tags:
   - inspiration
-  - development
   - recruitment
 date: 2023-08-02T07:01:50.463Z
 meaningfullyUpdatedAt: 2023-08-02T07:01:51.851Z
