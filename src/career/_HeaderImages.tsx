@@ -154,7 +154,7 @@ const HeaderImages: React.FC = () => {
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
-          src='../../static/images/career/header/bartek_career.png'
+          src='../../static/images/career/header/Bartek_career_update.png'
           alt={'Software developer career Poland'}
           quality={100}
           height={820}
@@ -179,7 +179,7 @@ const HeaderImages: React.FC = () => {
         </ImagesVertical>
         <StaticImage
           objectFit={'cover'}
-          src='../../static/images/career/header/sara_career.png'
+          src='../../static/images/career/header/Sara_career_update.png'
           alt={'Career at Bright Inventions'}
           className='big-image'
           imgClassName='image'
