@@ -15,14 +15,14 @@ date: 2019-02-14T23:00:00.000Z
 meaningfullyUpdatedAt: 2019-02-14T23:00:00.000Z
 title: The Secret Recipe of Being a Happy Employee
 layout: post
-image: /images/happy_employees_blog.png
+image: /images/blogpost_happy_people_bright.png
 hidden: false
 published: true
 language: en
 ---
 **It happens quite often that we go with the flow and let our day be controlled by such things like notifications, emails, distractions from colleagues or countless meetings. But we often do not realise to what extent they all may affect our work and life, in general.** 
 
-<div class="image"><img src="/images/happy_employees_blog.png" alt="happy employees" title="happy employees"  /> </div>
+<div class="image"><img src="/images/blogpost_happy_people_bright.png" alt="happy employees" title="Happy employees"  /> </div>
 
 **Our job satisfaction depends not only on whether we like what we do or not. It depends greatly on our daily habits outside the workplace environment**. It is not only determined by our knowledge, skills or competences, but also by our time and energy management, proper planning, prioritising and by our physical and mental capabilities. In fact, our job happiness depends substantially on the habit of mind we cultivate and everyday habits we are building all the time.
 
