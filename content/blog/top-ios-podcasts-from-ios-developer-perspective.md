@@ -4,7 +4,7 @@ tags:
   - inspiration
   - iOS
 date: 2022-05-05T11:39:04.015Z
-meaningfullyUpdatedAt: 2023-08-12T11:11:26.324Z
+meaningfullyUpdatedAt: 2023-08-12T12:06:57.135Z
 title: Top Podcasts for 2023 from iOS Developer's Perspective
 layout: post
 image: /images/top-podcast-for-2022-from-ios-developer-perspective-cover.png
