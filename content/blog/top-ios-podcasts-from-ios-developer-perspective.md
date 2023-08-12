@@ -27,7 +27,7 @@ Let me start with iOS focused ones. Those are high quality podcasts that vary in
   If you really love this podcast like me, you could support ATP by becoming a [member](https://atp.fm/join).\
     *ATP* is released weekly, there is also members only content released irregularly.
 * [Under the Radar](https://podcasts.apple.com/pl/podcast/under-the-radar/id1055685246) 
-  Podcast hosted by two indie developers: Marco Arment and David Smith. It is \~never\~ usually not longer than 30 minutes and in this period a variety of topics connected to independent dev life are covered. You can hear about challenges during bigger refactors, supporting large numbers of customers, marketing your own products and many more. If you ever thought about going indie and starting your own project or are just curious then this is a must have!\
+  Podcast hosted by two indie developers: Marco Arment and David Smith. It is ~never~ usually not longer than 30 minutes and in this period a variety of topics connected to independent dev life are covered. You can hear about challenges during bigger refactors, supporting large numbers of customers, marketing your own products and many more. If you ever thought about going indie and starting your own project or are just curious then this is a must have!\
     *Under the radar* is released bi-weekly.
 * [Stacktrace](https://podcasts.apple.com/pl/podcast/stacktrace/id1359435443) 
   Hosted by John Sundell and Gui Rambo it is an informal podcast about life and technology from their perspective. It is rather a casual podcast but loose personal topics are intertwined with deeper insights into apple development.\
