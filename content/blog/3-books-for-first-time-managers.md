@@ -8,7 +8,7 @@ date: 2023-08-13T18:10:38.322Z
 meaningfullyUpdatedAt: 2023-08-13T18:10:38.336Z
 title: "3 Books for First Time Managers "
 layout: post
-image: /images/start-manager.jpg
+image: /images/start-manager_blog.png
 hidden: false
 comments: true
 published: true
