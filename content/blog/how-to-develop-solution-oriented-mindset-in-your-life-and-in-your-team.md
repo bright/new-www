@@ -77,4 +77,6 @@ While describing SFT I did not mention one important question that is used in th
 
 <div class="image"><img src="/images/pinciples-solution-oriented-.png" alt="guiding principles in solution oriented approach " title="undefined"  /> </div>
 
+###### Source: [https://slideplayer.com/slide/14741507](https://slideplayer.com/slide/14741507/)
+
 By highlighting strengths, exceptions, and potential solutions we can be empowered to make positive changes and achieve desired outcomes. Henry Ford said that “most people spend more time and energy going around problems than in trying to solve them” - I believe the emphasis should be always placed on identifying and building solutions to problems, rather than getting stuck in a cycle of dwelling on the problems themselves. There are three guiding principles you can use every time you start creating problems:
