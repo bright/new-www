@@ -9,7 +9,7 @@ date: 2023-08-25T06:06:30.124Z
 meaningfullyUpdatedAt: 2023-08-25T06:06:30.142Z
 title: How to Develop Solution-Oriented Mindset in Your Life and in Your Team?
 layout: post
-image: /images/possible-solution-orientation.png
+image: /images/impossible-solution-orientation.png
 hidden: false
 comments: true
 published: true
