@@ -3,9 +3,10 @@ author: ula
 tags:
   - communication
   - inspiration
+  - business
 date: 2023-09-06T16:19:31.444Z
 meaningfullyUpdatedAt: 2023-09-06T16:19:31.451Z
-title: 4 Interpersonal Skills Every Software Developer Should Possess
+title: "4 Interpersonal Skills That Can Save Your Software Team Time & Money "
 layout: post
 image: /images/soft-skills.jpeg
 hidden: false
