@@ -14,7 +14,14 @@ function addDtsToCssLoader(use: RuleSetRule['use']): RuleSetRule['use'] {
   return Array.isArray(use)
     ? use
         .map(useItem => {
-          if (typeof useItem === 'undefined' || typeof useItem === 'function' || typeof useItem === 'string') {
+          if (
+            typeof useItem === 'undefined' ||
+            typeof useItem === 'function' ||
+            typeof useItem === 'string' ||
+            useItem == null ||
+            typeof useItem == 'number' ||
+            useItem == false
+          ) {
             return useItem
           }
           if (!isCssLoaderPath(useItem.loader)) {
@@ -46,7 +53,7 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({
 
   const config: PartialWebpackConfig = getConfig()
   const mappedRules = config.module?.rules?.map(rule => {
-    if (typeof rule === 'string') {
+    if (typeof rule === 'string' || rule == false || typeof rule == 'number' || !rule) {
       return rule
     }
 
@@ -54,6 +61,9 @@ export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({
       return {
         ...rule,
         oneOf: rule.oneOf.map(set => {
+          if(!set){
+            return set;
+          }
           return {
             ...set,
             use: addDtsToCssLoader(set.use),
