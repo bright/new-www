@@ -29,13 +29,13 @@ description: We are seeking a QA Specialist with knowledge of DB testing,
 language: en
 ---
 
-![]()
+## bright culture 🧡
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
 
-We support and share responsibility with the members of our team. We also actively take responsibility for our own self-development. Positive attitude, flexibility and teamwork are elemental parts of our success. Clients trust us to build things that work and we take that seriously.
+**We place a strong emphasis on accountability, and we value team members who take ownership of their work and are willing to make improvements based on regular and open feedback.** Positive attitude, flexibility and teamwork are elemental parts of our success. Instead of focusing on problems we empower our team members to identify issues, propose solutions, and contribute to continuous growth.
 
-## about the role
+## about the role 🧑🏻‍💻🧑🏻‍💻
 
 As a member of our QA team, you will maintain a high quality of our iOS, Android apps as well as web applications. You will own major features and work closely with one or more of our agile teams. This position supports mainly manual testing activities including collaborating with the product owners and engineers to define testing needs and priorities, creating test plans, scripts and strategies for new product initiatives as well as improving user experience while optimising our software development life cycle. The drive to introduce automated test is more than welcome.
 
