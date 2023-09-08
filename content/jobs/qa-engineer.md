@@ -1,26 +1,53 @@
 ---
 layout: job
-title: "QA Specialist "
+title: "QA Engineer "
 subtitle: OPENING SOON
 imagejob: /images/qa_brightteam.png
 image-alt-job: QA Team Bright Inventions
 hours: full-time
-salary: 7000 - 12 000 PLN + VAT (B2B) or 5900 - 10 000 PLN gross (UoP)
+salary: 10 000 - 14 000 PLN + VAT (B2B) or 8300 - 11 600 PLN gross (UoP)
 salary_min: 5900
 salary_max: 12 000
 working time: full time
 show_new_title_more_about_us: false
 button: join our QA team
-published: false
-show_recruiter_info: false
-hidden: true
 technology:
   - Appium/Espresso
   - DB testing
   - API Testing
   - ISTQB
   - CI/CD
-order: 3
+title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
+show_new_title_more_about_us: true
+links_more_about_us: >-
+ [How to Start Working at Bright Inventions - A Quick Guide for Candidates
+  ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
+
+
+  [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
+
+
+  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+
+
+  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
+name_recruiter: Agata
+image_recruiter_info: /images/agata_recruiter.png
+image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
+button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
+button: join our backend team
+published: true
+show_recruiter_info: true
+hidden: false
+order: 4
+recruting_image2_title: interview (technical part & non-technical part)
+recruting_image3_title: programming task
+language: en
+description: We are looking for an experienced Backend Developer who understands
+  Java/Kotlin & Spring really well and who would like to work with AWS on daily
+  basis.
+order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: QA task
 description: We are seeking a QA Specialist with knowledge of DB testing,
@@ -88,8 +115,9 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 
 ✅ interview (technical & non-technical part) 
 
+✅ QA task 
+
 ✅ skills evaluation and feedback 
 
-✅ congrats! you are a part of our Bright Team!
 
 In case you have any questions, drop us a line at jobs@brightinventions.pl. We will be happy to get back to you!
