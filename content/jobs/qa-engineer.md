@@ -35,24 +35,16 @@ name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
 image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-button: join our backend team
+button: join our QA team
 published: true
 show_recruiter_info: true
 hidden: false
-order: 4
-recruting_image2_title: interview (technical part & non-technical part)
-recruting_image3_title: programming task
-language: en
-description: We are looking for an experienced Backend Developer who understands
-  Java/Kotlin & Spring really well and who would like to work with AWS on daily
-  basis.
 order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: QA task
 description: We are seeking a QA Specialist with knowledge of DB testing,
   performance testing and API testing. Maintain a high quality of iOS, Android
   and web applications.
-language: en
 ---
 
 ## bright culture 🧡
