@@ -9,7 +9,6 @@ salary: 10 000 - 14 000 PLN + VAT (B2B) or 8300 - 11 600 PLN gross (UoP)
 salary_min: 5900
 salary_max: 12 000
 working time: full time
-button: join our QA team
 technology:
   - Appium/Espresso
   - DB testing
