@@ -1,13 +1,13 @@
 ---
 team_members:
   - piotr
-  - michal k
   - michal-l
   - bartek k
   - maciej-n
   - jacek
   - adam-w
   - wojciech-k
+  - klaudiusz
 faqs:
   - What benefits do cloud services offer?
   - What are cloud services and how do they work?
@@ -38,18 +38,9 @@ short_description: We are experts in AWS cloud development. We build cloud
 order: 10
 title: join the future with cloud computing services
 highlighted_word: cloud computing
-intro: Improve security with cloud computing company.
-image_our_service: /images/cloudservices1.png
-image_alt_our_service: cloud computing services
 image_our_service_desktop: /images/cloud_services_desktop_big.png
-image_alt_our_service_desktop: cloud computing services
 image_our_service_mobile: /images/cloud_services_mobile_big.png
-image_alt_our_service_mobile: cloud computing services
-description_mdx: Join the serverless movement. Improve security and reduce costs
-  with cloud computing services. Migrate your solution to the cloud or develop a
-  cloud application from the scratch. As an AWS cloud services provider, we will
-  assist you every step of the way. Since 2012 we have developed applications in
-  the cloud for startups and mid-sized organisations.
+image_alt_our_service: cloud computing services
 bullet_points:
   - improve security and reduce costs
   - cloud app built up to 6 months
@@ -70,9 +61,18 @@ show_technology_stack: true
 title_team: meet our cloud computing team
 title_case_study: cloud services projects we have worked on
 title_faqs: cloud services FAQs
+image_alt_our_service_desktop: cloud computing services
+intro: Improve security with cloud computing company.
+language: en
+image_alt_our_service_mobile: cloud computing services
 title_contact: let’s talk about your cloud solution
 description_contact: Are you looking for a cloud computing company? Fill out the form below.
-language: en
+description_mdx: Join the serverless movement. Improve security and reduce costs
+  with cloud computing services. Migrate your solution to the cloud or develop a
+  cloud application from the scratch. As an AWS cloud services provider, we will
+  assist you every step of the way. Since 2012 we have developed applications in
+  the cloud for startups and mid-sized organisations.
+image_our_service: /images/cloudservices1.png
 ---
 ## AWS cloud services
 
