@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: michal k
-ex: false
+ex: true
 slug: michal-k
 name: Michał Koszałka
 short_name: Michał
