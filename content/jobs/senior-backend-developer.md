@@ -1,5 +1,5 @@
 ---
-imagejob: /images/backendteam.png
+imagejob: /images/backend_team_job_offer.png
 workplace_recruiter: Junior Recruiting Specialist
 Show_recruiter_info: true
 layout: job
@@ -20,17 +20,17 @@ technology:
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
- [How to Start Working at Bright Inventions - A Quick Guide for Candidates
-  ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
+  [How to Start Working at Bright Inventions - A Quick Guide for Candidates
+   ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
 
 
-  [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
+   [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
 
 
-  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+   [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
 
 
-  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
