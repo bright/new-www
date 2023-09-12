@@ -1,13 +1,13 @@
 ---
 team_members:
   - bartosz
-  - michal k
   - jedrzej-s
   - malgorzata-z
   - maciej-n
   - karol r
   - piotr
   - radek-l
+  - bartek k
 our_service:
   - MVP development
   - web development
