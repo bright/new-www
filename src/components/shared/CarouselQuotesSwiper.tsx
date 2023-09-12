@@ -230,14 +230,6 @@ export const CarouselQuotesSwiper: React.FC = () => {
         'Bright people treat each other with respect and you can feel that they do work that really gives them satisfaction. If I struggle with some technical or communication challenge, I always have somebody I can talk to about it and I know we will solve it.',
     },
     {
-      avatar_hover: <StaticImage src='../../../static/images/michal_k_passion.png' alt='Michal' className='quote-img' />,
-      short_name: 'Michał',
-      bio: 'Senior Backend Developer',
-      slug: 'michal-k',
-      quote:
-        'When I applied for a job for the first time, I wasn’t hired then. However, they provided me with such great feedback that I was even more eager to work here. Eventually, I joined the team.',
-    },
-    {
       avatar_hover: <StaticImage src='../../../static/images/brightdev_passion_jedrzej2022.png' alt='Jędrzej' className='quote-img' />,
       short_name: 'Jędrzej',
       bio: 'Senior Frontend Developer',
