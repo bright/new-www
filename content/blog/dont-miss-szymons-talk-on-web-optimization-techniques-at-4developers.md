@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-09-13T06:51:31.833Z
 title: Don't Miss Szymon's Talk on Web Optimization Techniques at 4Developers
 layout: post
 image: /images/blog_szymon_spekaer.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -20,7 +20,7 @@ language: en
 
 Szymon is a senior frontend developer with a holistic view of software. In love with React, but open to new technologies regarding both frontend and backend areas. Technology is for him just a tool used to provide business value to software products he is working on.
 
-Do you want to know more about Szymon? [Read this interview](https://brightinventions.pl/blog/frontend-developer-with-an-appetite-for-backend-meet-szymon/).
+Do you want to know more about Szymon? [Read this interview](/blog/frontend-developer-with-an-appetite-for-backend-meet-szymon/).
 
 ## An image worth a thousand words... and seconds of loading
 
