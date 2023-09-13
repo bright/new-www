@@ -14,8 +14,8 @@ comments: true
 published: true
 language: en
 ---
-Harold M. Messmer, Executive Chairman at Robert Half International Inc., said once that **\*your career success in the
-workplace of today - independent of technical expertise - depends on the quality of your people skills**.* Interpersonal
+Harold M. Messmer, Executive Chairman at Robert Half International Inc., said once that **your career success in the
+workplace of today - independent of technical expertise - depends on the quality of your people skills**. Interpersonal
 skills (also known as soft skills or people skills) are essential for effective communication, collaboration, and
 building meaningful relationships with others. These skills are crucial in both personal and professional contexts and
 play a significant role in shaping the quality of our interactions with individuals and groups. 
@@ -38,7 +38,7 @@ understanding and reducing the chances of misunderstandings with other team memb
 Broken ](https://www.agilitypr.com/pr-news/public-relations/bad-connection-study-finds-poor-communication-costs-businesses-1-2-trillion-annually)shows that up to a $1.2 trillion annual loss among businesses is due to ineffective communication.** 
 
 Leaders estimate teams lose the equivalent of nearly an entire workday (7.47 hours) each week to poor communication—or approximately $12,506 per
-employee every year.* These numbers are pretty scary and I suppose many companies do note even realise how much poor
+employee every year. These numbers are pretty scary and I suppose many companies do note even realise how much poor
 communication costs them year by year. Apart from increased costs poor communication impacts profoundly productivity,
 morale, and growth, and sometimes leads to reputational erosion.
 
@@ -50,6 +50,8 @@ process. Conflict resolution is an integral part of the software development pro
 development projects often involve teams with diverse perspectives, backgrounds, and roles. Conflicts can arise due to
 differences in opinions, goals, priorities, and approaches to
 problem-solving.<div class="image"><img src="/images/healthyconflict.png" alt="conflict resolution" title="undefined"  /> </div>
+
+Source: https://www.fosslien.com/images
 
 Addressing conflicts effectively is essential for fostering collaboration and ensuring project success. Regular design
 reviews and brainstorming sessions can provide a platform to identify and resolve potential conflicts early in the
@@ -72,7 +74,7 @@ vision. High emotional intelligence contributes to better decision-making and be
 and why they need it.** As a software developer you solve real problems and you work with real people - don’t forget
 about that.<div class="image"><img src="/images/empathy-it-vs-healthcare.png" alt="empathy" title="undefined"  /> </div>
 
-######  Source: https://info.businessolver.com/empathy-industry-spectrum
+Source: https://info.businessolver.com/empathy-industry-spectrum
 
 **Remember that empathy allows developers not only to put themselves in the shoes of clients, but also the end-users,
 and it allows to understand their preferences.** This understanding helps in creating software that truly addresses user
@@ -96,12 +98,12 @@ overall success of the team.
 
 <div class="image"><img src="/images/benefits-of-employee-feedback.jpeg" alt="benefits feedback" title="undefined"  /> </div>
 
-###### Source: https://www.zippia.com/advice/employee-feedback-statistics
+Source: https://www.zippia.com/advice/employee-feedback-statistics
 
 ## **What mattes are people** 
 
 Overall strong interpersonal skills are crucial for successful teamwork and collaboration. Software developers (and
-people in general)who can communicate openly, listen actively, and understand others' perspectives are more likely to
+people in general) who can communicate openly, listen actively, and understand others' perspectives are more likely to
 work harmoniously in groups and achieve common goals. Good interpersonal skills help in building positive and healthy
 relationships with friends, family, colleagues, and even strangers.
 
