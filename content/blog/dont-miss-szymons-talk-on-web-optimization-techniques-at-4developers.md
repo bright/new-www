@@ -4,8 +4,8 @@ secondAuthor: izabela
 tags:
   - update
   - frontend
-date: 2023-09-13T06:42:50.253Z
-meaningfullyUpdatedAt: 2023-09-13T06:42:50.287Z
+date: 2023-09-13T06:51:31.107Z
+meaningfullyUpdatedAt: 2023-09-13T06:51:31.833Z
 title: Don't Miss Szymon's Talk on Web Optimization Techniques at 4Developers
 layout: post
 image: /images/blog_szymon_spekaer.png
@@ -15,6 +15,8 @@ published: true
 language: en
 ---
 **Szymon Chmal, Senior Frontend Developer at Bright Inventions, is featured as one of the speakers at the 4Developers conference. The event takes place on the 26th of September in Gdansk. Szymon will speak about the web optimization guide for 2023.**
+
+<div class="image"><img src="/images/blog_szymon_spekaer.png" alt="Szymon" title="Szymon"  /> </div>
 
 Szymon is a senior frontend developer with a holistic view of software. In love with React, but open to new technologies regarding both frontend and backend areas. Technology is for him just a tool used to provide business value to software products he is working on.
 
