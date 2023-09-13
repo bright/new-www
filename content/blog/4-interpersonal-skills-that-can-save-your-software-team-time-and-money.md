@@ -8,7 +8,7 @@ date: 2023-09-06T16:19:31.444Z
 meaningfullyUpdatedAt: 2023-09-06T16:19:31.451Z
 title: "4 Interpersonal Skills That Can Save Your Software Team Time & Money "
 layout: post
-image: /images/interpersonal-skills-image.png
+image: /images/interpersonal-skills-blog.png
 hidden: false
 comments: true
 published: true
