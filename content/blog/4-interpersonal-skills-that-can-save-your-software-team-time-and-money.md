@@ -34,12 +34,11 @@ understanding and reducing the chances of misunderstandings with other team memb
 
 <div class="image"><img src="/images/miscommunication-cost.png" alt="miscommunication" title="undefined"  /> </div>
 
-**The report *[State of Business Communication: The Backbone of Business Is
-Broken](https://www.agilitypr.com/pr-news/public-relations/bad-connection-study-finds-poor-communication-costs-businesses-1-2-trillion-annually)*
-shows that
-up to a $1.2 trillion annual loss among businesses is due to ineffective communication. Leaders estimate teams lose the
-equivalent of nearly an entire workday (7.47 hours) each week to poor communication—or approximately $12,506 per
-employee every year.** These numbers are pretty scary and I suppose many companies do note even realise how much poor
+**The report [State of Business Communication: The Backbone of Business Is
+Broken ](https://www.agilitypr.com/pr-news/public-relations/bad-connection-study-finds-poor-communication-costs-businesses-1-2-trillion-annually)shows that up to a $1.2 trillion annual loss among businesses is due to ineffective communication.** 
+
+Leaders estimate teams lose the equivalent of nearly an entire workday (7.47 hours) each week to poor communication—or approximately $12,506 per
+employee every year.* These numbers are pretty scary and I suppose many companies do note even realise how much poor
 communication costs them year by year. Apart from increased costs poor communication impacts profoundly productivity,
 morale, and growth, and sometimes leads to reputational erosion.
 
