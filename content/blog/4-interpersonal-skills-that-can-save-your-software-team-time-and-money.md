@@ -14,18 +14,19 @@ comments: true
 published: true
 language: en
 ---
-
 Harold M. Messmer, Executive Chairman at Robert Half International Inc., said once that **\*your career success in the
 workplace of today - independent of technical expertise - depends on the quality of your people skills**.* Interpersonal
 skills (also known as soft skills or people skills) are essential for effective communication, collaboration, and
 building meaningful relationships with others. These skills are crucial in both personal and professional contexts and
-play a significant role in shaping the quality of our interactions with individuals and groups. However, while looking
+play a significant role in shaping the quality of our interactions with individuals and groups. 
+
+However, while looking
 at some industries including IT I still can see that interpersonal skills are often undermined and presented as less
 important than technical knowledge. I am on the other side of this and believe that software development teams really
 need interpersonal skills in many workalike situations and they sometimes need them even more than pure technical
 knowledge.<div class="image"><img src="/images/adam-grant-soft-skills.png" alt="adam grant interpersonal skills " title="undefined"  /> </div>
 
-## **1. communication is the key**
+## **1. Communication is the key**
 
 Strong interpersonal skills enable individuals to communicate clearly and efficiently. Software engineers who have
 well-developed interpersonal skills can convey their thoughts, ideas, and emotions effectively, leading to better
@@ -33,16 +34,16 @@ understanding and reducing the chances of misunderstandings with other team memb
 
 <div class="image"><img src="/images/miscommunication-cost.png" alt="miscommunication" title="undefined"  /> </div>
 
-**The report [*State of Business Communication: The Backbone of Business Is
-Broken*](https://www.agilitypr.com/pr-news/public-relations/bad-connection-study-finds-poor-communication-costs-businesses-1-2-trillion-annually)
+**The report *[State of Business Communication: The Backbone of Business Is
+Broken](https://www.agilitypr.com/pr-news/public-relations/bad-connection-study-finds-poor-communication-costs-businesses-1-2-trillion-annually)*
 shows that
-up to a \$1.2 trillion annual loss among businesses is due to ineffective communication. Leaders estimate teams lose the
+up to a $1.2 trillion annual loss among businesses is due to ineffective communication. Leaders estimate teams lose the
 equivalent of nearly an entire workday (7.47 hours) each week to poor communication—or approximately $12,506 per
 employee every year.** These numbers are pretty scary and I suppose many companies do note even realise how much poor
 communication costs them year by year. Apart from increased costs poor communication impacts profoundly productivity,
 morale, and growth, and sometimes leads to reputational erosion.
 
-## **2. conflict resolution ability**
+## **2. Conflict resolution ability**
 
 Inevitably, conflicts arise in various settings and interpersonal skills help in resolving them constructively and
 finding solutions that satisfy all parties involved. Some disagreements can as well arise during the development
@@ -59,7 +60,7 @@ performance, or security. **Actively listening to all perspectives to understand
 as ensuring that all team members understand project goals, roles, and expectations can really minimize
 misunderstandings.**
 
-## **3. empathy in client-dev relationship**
+## **3. Empathy in client-dev relationship**
 
 We all know that interpersonal skills are closely tied to emotional intelligence, which involves understanding and
 managing one's emotions and those of others. High levels of empathy in turn contributes to better decision-making,
@@ -78,7 +79,7 @@ about that.<div class="image"><img src="/images/empathy-it-vs-healthcare.png" al
 and it allows to understand their preferences.** This understanding helps in creating software that truly addresses user
 requirements and delivers a better user experience.
 
-## **4. feedback in leader’s roles** 
+## **4. Feedback in leader’s roles** 
 
 Effective [team leaders must possess excellent interpersonal skills](https://www.forbes.com/sites/baldwin/2023/07/30/inflation-insurance-for-retirees-what-does-it-cost/?)
 to inspire and motivate their team members. **Interpersonal skills enable leaders to act as coaches, providing guidance
@@ -98,7 +99,7 @@ overall success of the team.
 
 ###### Source: https://www.zippia.com/advice/employee-feedback-statistics
 
-## **what mattes are people** 
+## **What mattes are people** 
 
 Overall strong interpersonal skills are crucial for successful teamwork and collaboration. Software developers (and
 people in general)who can communicate openly, listen actively, and understand others' perspectives are more likely to
