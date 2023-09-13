@@ -1,6 +1,6 @@
 ---
-author: izabela
-secondAuthor: szymon-ch
+author: szymon-ch
+secondAuthor: izabela
 tags:
   - update
   - frontend
@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-09-13T06:42:50.287Z
 title: Don't Miss Szymon's Talk on Web Optimization Techniques at 4Developers
 layout: post
 image: /images/blog_szymon_spekaer.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
