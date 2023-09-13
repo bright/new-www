@@ -103,7 +103,7 @@ Source: https://www.zippia.com/advice/employee-feedback-statistics
 ## **What mattes are people** 
 
 Overall strong interpersonal skills are crucial for successful teamwork and collaboration. Software developers (and
-people in general)who can communicate openly, listen actively, and understand others' perspectives are more likely to
+people in general) who can communicate openly, listen actively, and understand others' perspectives are more likely to
 work harmoniously in groups and achieve common goals. Good interpersonal skills help in building positive and healthy
 relationships with friends, family, colleagues, and even strangers.
 
