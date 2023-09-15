@@ -86,4 +86,4 @@ I’d say it is going to be 3-1 for Manchester United. At least I hope so. :D We
 
 <div class="image"><img src="/images/artur_football.png" alt="Artur during Manchester United stadium tour" title="Artur during Manchester United stadium tour"  /> </div>
 
-<center>Artur during Manchester United stadium tour</center>
+<center>Artur during Manchester United stadium tour.</center>
