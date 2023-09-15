@@ -48,4 +48,10 @@ Our team also includes skilled software testers. Although we, as developers, do 
 
 [Just Eat POS](/projects/system-for-restaurants-mobile/) (prev. Practi) was one of the projects close to my heart as well. It was **a retail platform, very popular, especially in the Israeli market**. We delivered solutions for restaurant owners and their employees. Our users and their businesses relied on our work daily. So, it was a huge responsibility. Yet, it's an advantage of building real solutions, rather than creating applications that will never see the light of day.
 
-<div class="image"><img src="/images/artur_quote_real_products.png" alt="Artur's quote" title="Artur's quote"  /> </div>
+<div class="image"><img src="/images/artur_quote_real_products.png" alt="Artur's quote on projects" title="Artur's quote on projects"  /> </div>
+
+## What’s your recipe for spending over 5 years at one company? It’s rather unique nowadays. 😀
+
+The key ingredient is changing the projects you work on. I've worked for various clients, with different people. Sometimes it almost felt like changing a company. **It’s great to change teams to share knowledge with others. There was never a case when I would land on a team without somebody I could learn something from**. 
+
+<div class="image"><img src="/images/artur_quote_learning.png" alt="Artur's quote on learning" title="Artur's quote on learning"  /> </div>
