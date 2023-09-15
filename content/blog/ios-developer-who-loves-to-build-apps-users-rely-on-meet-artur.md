@@ -23,3 +23,17 @@ language: en
 I saw a job listing for a blockchain developer position and applied. However, before I had my interview, the position got filled. Yet, **[Michał](/about-us/michal/) decided to still interview me and eventually offered me the position of iOS developer**.
 
 I didn't have any experience with iOS back then. I had maybe 2 classes about it in college. However, I always liked Apple products, so I thought I could go for it. That’s how I became an iOS developer. **Maybe it was a coincidence rather than a conscious decision, but I really enjoy iOS development**.
+
+## How would you compare your challenges at the beginning of your career to now?
+
+Back then, the team was much smaller. There were only 2 other iOS developers at Bright Inventions. Although they were very supportive, I needed to quickly learn a lot on my own. It required a lot of self-organization to find the answers online. **Then, my challenges were related to the learning process, using the programming languages, and how to structure my code**.
+
+Now, I work in a bigger team, and the daily challenges are different. Currently, **we focus on enhancing our communication and creating processes that will help us cooperate effectively**. I work in a team that consists of 6 people. Some would say it’s still a small group, but we really need to communicate well to move the development process forward
+
+So, my first challenge was to effectively manage work on my own. Nowadays, it is all about working effectively as a team.
+
+## And how do you enjoy working with your current team?
+
+I am a part of an experienced and very competent team. It consists of only senior iOS developers who are highly engaged in what they do. We work on a food delivery app available on the Israeli market. I enjoy the fact that our client trusts us; therefore, we can choose the tech stack we use. 
+
+Our team also includes skilled software testers. Although we, as developers, do some tests on our own during the code review, it’s great to share the responsibility. I still feel responsible for my code, but it’s great to feel the reassurance that there are people who will test it as well.
