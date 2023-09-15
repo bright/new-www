@@ -14,4 +14,6 @@ comments: true
 published: true
 language: en
 ---
-He became an iOS developer by chance, but couldn’t love it more. Find out how Artur’s career has evolved over 5 years from a junior to a senior iOS developer. Check out the apps he has worked on. Discover his favorite travel destinations too. Let’s dive in!
+**He became an iOS developer by chance, but couldn’t love it more. Find out how Artur’s career has evolved over 5 years from a junior to a senior iOS developer. Check out the apps he has worked on. Discover his favorite travel destinations too. Let’s dive in!**
+
+<div class="image"><img src="/images/brightstoryarturphotos.png" alt="undefined" title="undefined"  /> </div>
