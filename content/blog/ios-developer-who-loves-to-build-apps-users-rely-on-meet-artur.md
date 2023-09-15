@@ -73,3 +73,15 @@ I visit these places regularly to hike in nature. I had a chance to experience p
 <div class="image"><img src="/images/artur_passion_travel.png" alt="Hiking in Northern Norway (nearby Tromso)." title="Hiking in Northern Norway (nearby Tromso)."  /> </div>
 
 <center>Hiking in Northern Norway (nearby Tromso).</center>
+
+I would actually love to try living on a polar day. I'd like to experience living in a place where you can organize your life cycle whenever you want, and you are not dependent on the time of day or night.
+
+It’s not that easy to experience the northern lights, though. You have to be lucky. The sky has to be clear. It’s worth noting that the temperature was really low. When I was there, it was -27 degrees Celsius.
+
+## I know you are going to the Manchester United vs. Liverpool game in April 2024. What is the score going to be? 😉
+
+I’d say it is going to be 3-1 for Manchester United. At least I hope so. :D We’re about to find out. 😉
+
+<div class="image"><img src="/images/artur_football.png" alt="Artur during Manchester United stadium tour" title="Artur during Manchester United stadium tour"  /> </div>
+
+<center>Artur during Manchester United stadium tour</center>
