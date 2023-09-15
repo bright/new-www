@@ -37,3 +37,7 @@ So, my first challenge was to effectively manage work on my own. Nowadays, it is
 I am a part of an experienced and very competent team. It consists of only senior iOS developers who are highly engaged in what they do. We work on a food delivery app available on the Israeli market. I enjoy the fact that our client trusts us; therefore, we can choose the tech stack we use. 
 
 Our team also includes skilled software testers. Although we, as developers, do some tests on our own during the code review, it’s great to share the responsibility. I still feel responsible for my code, but it’s great to feel the reassurance that there are people who will test it as well.
+
+<div class="image"><img src="/images/brightstory_team_szymek.png" alt="Artur during a team retreat." title="Artur during a team retreat."  /> </div>
+
+<center>Artur during a team retreat.</center>
