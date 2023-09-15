@@ -41,3 +41,9 @@ Our team also includes skilled software testers. Although we, as developers, do 
 <div class="image"><img src="/images/brightstory_team_szymek.png" alt="Artur during a team retreat." title="Artur during a team retreat."  /> </div>
 
 <center>Artur during a team retreat.</center>
+
+## What projects, that you worked on, are particularly memorable to you?
+
+[Finebite](/projects/everytap/) for sure. **That’s a very popular app in Poland, and it was great to be a part of its development process from the beginning to the launch**. When people find out I am a mobile developer, they often ask me if I've worked on any apps they know. I always mention Finebite, and people recognize it. That’s cool. :)
+
+[Just Eat POS](/projects/system-for-restaurants-mobile/) (prev. Practi) was one of the projects close to my heart as well. It was **a retail platform, very popular, especially in the Israeli market**. We delivered solutions for restaurant owners and their employees. Our users and their businesses relied on our work daily. So, it was a huge responsibility. Yet, it's an advantage of building real solutions, rather than creating applications that will never see the light of day.
