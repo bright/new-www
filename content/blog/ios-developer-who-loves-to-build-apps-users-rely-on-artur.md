@@ -82,7 +82,7 @@ It’s not that easy to experience the northern lights, though. You have to be l
 
 ## I know you are going to the Manchester United vs. Liverpool game in April 2024. What is the score going to be? 😉
 
-I’d say it is going to be 3-1 for Manchester United. At least I hope so. :D We’re about to find out. 😉
+I’d say it is going to be 3-1 for Manchester United. At least I hope so. 😀 We’re about to find out. 😉
 
 <div class="image"><img src="/images/artur_football.png" alt="Artur during Manchester United stadium tour" title="Artur during Manchester United stadium tour"  /> </div>
 
