@@ -65,3 +65,11 @@ I even traveled to London to see with my own eyes how the end users used the app
 As probably every iOS developer, I always check all the news announced during The Apple Worldwide Developers Conference. Besides that, **I have OKRs dedicated to my personal growth, monitored by my mentor – [Kamil](/about-us/kamil-b/)**. We both choose topics that I can improve on or decide on what new solutions and tools I should test. 
 
 Thanks to the fact that our client lets us choose the tech stack we work on, we can quickly implement new technologies in our project. **So we get to work with SwiftUI, async/await to utilize those for the benefit of our client staying up-to-date with Apple products**.
+
+## I know you love to travel. Some of your favorite travel destinations are Scandinavia and Iceland. Why?
+
+I visit these places regularly to hike in nature. I had a chance to experience polar day and to see the Northern lights too. I don’t know which one is better. I recommend everyone to see both.
+
+<div class="image"><img src="/images/artur_passion_travel.png" alt="Hiking in Northern Norway (nearby Tromso)." title="Hiking in Northern Norway (nearby Tromso)."  /> </div>
+
+<center>Hiking in Northern Norway (nearby Tromso).</center>
