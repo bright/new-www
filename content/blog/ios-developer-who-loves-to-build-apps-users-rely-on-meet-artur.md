@@ -64,4 +64,4 @@ I even traveled to London to see with my own eyes how the end users used the app
 
 As probably every iOS developer, I always check all the news announced during The Apple Worldwide Developers Conference. Besides that, **I have OKRs dedicated to my personal growth, monitored by my mentor – [Kamil](/about-us/kamil-b/)**. We both choose topics that I can improve on or decide on what new solutions and tools I should test. 
 
-Thanks to the fact that our client lets us choose the tech stack we work on, we can quickly implement new technologies in our project. So we get to work with SwiftUI, async/await to utilize those for the benefit of our client staying up-to-date with Apple products.
+Thanks to the fact that our client lets us choose the tech stack we work on, we can quickly implement new technologies in our project. **So we get to work with SwiftUI, async/await to utilize those for the benefit of our client staying up-to-date with Apple products**.
