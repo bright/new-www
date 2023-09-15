@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-09-15T06:44:21.849Z
 title: iOS Developer Who Loves to Build Apps Users Rely On. Meet Artur
 layout: post
 image: /images/brightstoryartur.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
