@@ -55,3 +55,9 @@ Our team also includes skilled software testers. Although we, as developers, do 
 The key ingredient is changing the projects you work on. I've worked for various clients, with different people. Sometimes it almost felt like changing a company. **It’s great to change teams to share knowledge with others. There was never a case when I would land on a team without somebody I could learn something from**. 
 
 <div class="image"><img src="/images/artur_quote_learning.png" alt="Artur's quote on learning" title="Artur's quote on learning"  /> </div>
+
+Although **I have been in one company for over 5 years, Bright Inventions gave me an opportunity to work on many different solutions and touch on various technologies**. What's also important **I have built products that are really used and appreciated by users**.
+
+I even traveled to London to see with my own eyes how the end users used the application I had built. It’s such a great feeling to see that your work gives value to someone.
+
+## How do you catch up with news and trends in the iOS world?
