@@ -16,6 +16,24 @@ language: en
 
 <EbookDynamic sectionTitle='more free MVP insights just for you' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Download our free ebook about MVP development. Get your copy now!' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
 
+---
+
+## Table of contents
+
+[Choose only standardized software & tools](/blog/mvp-tech-stack-what-startup-founder-should-know/#choose-only-standardized-software--tools)
+
+[Choose a stack that your development team/MVP agency knows](/blog/mvp-tech-stack-what-startup-founder-should-know/#choose-a-stack-that-your-development-teammvp-agency-knows)
+
+[Hybrid or native mobile app? That is the question…](/blog/mvp-tech-stack-what-startup-founder-should-know/#hybrid-or-native-mobile-app-that-is-the-question)
+
+[Last but not least – mobile or Progressive Web App (PWA)?](/blog/mvp-tech-stack-what-startup-founder-should-know/#last-but-not-least--mobile-or-progressive-web-app-pwa)
+
+[MVP development stack 2023](/blog/mvp-tech-stack-what-startup-founder-should-know/#mvp-development-stack-2023)
+
+[Choose MVP stack wisely](/blog/mvp-tech-stack-what-startup-founder-should-know/#choose-mvp-stack-wisely)
+
+---
+
 ## Choose only standardized software & tools
 
 Think twice before you agree to develop your MVP using a niche framework or unpopular programming languages and libraries. It may be a sign of a couple of potential issues in the future. 
@@ -97,4 +115,4 @@ These are the top 3 cloud providers in the cloud market right now. Choose the on
 
 Selecting a programming tech stack is one of the most important decisions at the beginning of your tech startup journey. So do it wisely, with strong collaboration with your development team, whether it is an in-house team or a hired MVP development agency.
 
-<div class='block-button'><h2>Do you want to discuss your MVP stack with our team?</h2><div>**Book a free consultation to discuss your MVP**. We’ll get back to you within 48 hours! Since 2012 we have delivered MVPs for startups based in Germany, Israel, the USA, Norway, and more.</div><a href="/start-project/"><button>let's talk about my MVP</button></a></div>
+<div class='block-button'><h2>Do you want to discuss your MVP stack with our team?</h2><div>\*\*Book a free consultation to discuss your MVP\*\*. We’ll get back to you within 48 hours! Since 2012 we have delivered MVPs for startups based in Germany, Israel, the USA, Norway, and more.</div><a href="/start-project/"><button>let's talk about my MVP</button></a></div>
