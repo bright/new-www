@@ -32,7 +32,7 @@ language: en
 
 [MVP development stack 2023](/blog/mvp-tech-stack-what-startup-founder-should-know/#mvp-development-stack-2023)
 
-[Choose MVP stack wisely](/blog/mvp-tech-stack-what-startup-founder-should-know/#choose-mvp-stack-wisely)
+[Choose MVP stack wisely – book a free consultation](/blog/mvp-tech-stack-what-startup-founder-should-know/#choose-mvp-stack-wisely)
 
 ---
 
