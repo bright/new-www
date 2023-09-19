@@ -89,7 +89,7 @@ These are the top 3 cloud providers in the cloud market right now. Choose the on
 
 **Node.js, NestJS**
 
-**Node.js** is a backend technology that enables for example to build APi that communicates with mobile or web. **Nest.js** is a framework for Node.js.
+**Node.js** is a backend technology that enables for example to build API that communicates with mobile or web. **Nest.js** is a framework for Node.js.
 
 ## Choose MVP stack wisely
 
