@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-09-19T09:24:54.260Z
 title: Choosing MVP Tech Stack in 2023. What a Startup Founder Should Know
 layout: post
 image: /images/blogpost_stack_mvp.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
