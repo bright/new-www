@@ -71,3 +71,14 @@ We took into account many factors influencing decision-making. Now it’s time t
 Nowadays, JavaScript is your first-to-go language. If your development team or agency uses **TypeScript**, that’s even better because it optimizes the coding process. However, JS and TS will be nothing without the framework.
 
 There are a few frameworks to consider: **React, Angular, or Vue.js**. In our opinion, React is the number one option. According to the StackOverflow 2023 Survey React is the most popular framework by professional developers. [Over 40% of professional developers use React at work](https://survey.stackoverflow.co/2023).
+
+### Mobile development stack for MVP
+
+* Native app development: Swift (iOS), Kotlin (Android)
+* Hybrid app development: React Native / Flutter
+
+If you go with native app development, then you should use languages recommended by Apple or Android. **Swift** is used for iOS app development and **Kotlin** for Android.
+
+If you opt for hybrid development, then you should decide between **React Native or Flutter**. The smartest way might be to choose the one that is more familiar to your development team or MVP agency.
+
+### Cloud development
