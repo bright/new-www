@@ -39,3 +39,5 @@ When you build an MVP from scratch, there is a **huge temptation to use new tren
 So remember to adjust trendy tools to your product and target group.
 
 ## Hybrid or native mobile app? That is the question…
+
+<div class="image"><img src="/images/food_tech_case_study_app.png" alt="Mockups" title="Mockups"  /> </div>
