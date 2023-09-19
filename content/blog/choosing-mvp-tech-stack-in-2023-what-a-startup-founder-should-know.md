@@ -59,3 +59,7 @@ Maybe you don’t need to start with a mobile app. **There is a chance that at t
 Although **some features will be limited compared to mobile apps** (e.g. Bluetooth, less accurate GSP, and no running in the background), PWA might be an option to consider. Especially for startup founders who want to build a simple solution accessible on many devices to quickly verify the idea’s potential.
 
 ## MVP development stack 2023
+
+We took into account many factors influencing decision-making. Now it’s time to list the most typical MVP stack in 2023.
+
+<div class="image"><img src="/images/blog_post_tech_stack_mvp.png" alt="MVP tech stack in 2023" title="MVP tech stack in 2023"  /> </div>
