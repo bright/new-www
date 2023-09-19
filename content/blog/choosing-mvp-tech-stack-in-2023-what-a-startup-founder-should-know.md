@@ -95,4 +95,4 @@ These are the top 3 cloud providers in the cloud market right now. Choose the on
 
 Selecting a programming tech stack is one of the most important decisions at the beginning of your tech startup journey. So do it wisely, with strong collaboration with your development team, whether it is an in-house team or a hired MVP development agency.
 
-<div class='block-button'><h2>Do you want to discuss your MVP stack with our team?</h2><div>Since 2012 we have delivered MVPs for startups based in Germany, Israel, the USA, Norway, and more. **Book a free consultation to discuss your MVP**. We’ll get back to you within 48 hours!</div><a href="/start-project/"><button>Let's talk about my MVP</button></a></div>
+<div class='block-button'><h2>Do you want to discuss your MVP stack with our team?</h2><div>Since 2012 we have delivered MVPs for startups based in Germany, Israel, the USA, Norway, and more. **Book a free consultation to discuss your MVP**. We’ll get back to you within 48 hours!</div><a href="/start-project/"><button>let's talk about my MVP</button></a></div>
