@@ -1,7 +1,7 @@
 ---
 author: mateusz
-date: 2023-09-19T08:54:55.115Z
-meaningfullyUpdatedAt: 2023-09-19T08:54:55.149Z
+date: 2023-09-19T09:24:53.652Z
+meaningfullyUpdatedAt: 2023-09-19T09:24:54.260Z
 title: Choosing MVP Tech Stack in 2023. What a Startup Founder Should Know
 layout: post
 image: /images/blogpost_stack_mvp.png
