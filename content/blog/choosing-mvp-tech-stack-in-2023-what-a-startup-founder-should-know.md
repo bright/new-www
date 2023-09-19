@@ -74,11 +74,25 @@ There are a few frameworks to consider: **React, Angular, or Vue.js**. In our op
 
 ### Mobile development stack for MVP
 
-* Native app development: Swift (iOS), Kotlin (Android)
-* Hybrid app development: React Native / Flutter
+* **Native app development: Swift (iOS), Kotlin (Android)**
+* **Hybrid app development: React Native / Flutter**
 
 If you go with native app development, then you should use languages recommended by Apple or Android. **Swift** is used for iOS app development and **Kotlin** for Android.
 
 If you opt for hybrid development, then you should decide between **React Native or Flutter**. The smartest way might be to choose the one that is more familiar to your development team or MVP agency.
 
 ### Cloud development
+
+**Amazon Web Services (AWS) / Microsoft Azure / Google Cloud**
+
+These are the top 3 cloud providers in the cloud market right now. Choose the one that is best known by your development team or the MVP agency plan to hire. That’s probably going to be AWS because it is the most popular provider based on the StackOverflow Survey. [Over 50% of professional developers use AWS](https://survey.stackoverflow.co/2023/?utm_source=so-owned&utm_medium=blog&utm_campaign=dev-survey-results-2023&utm_content=survey-results#section-most-popular-technologies-cloud-platforms).
+
+**Node.js, NestJS**
+
+**Node.js** is a backend technology that enables for example to build APi that communicates with mobile or web. **Nest.js** is a framework for Node.js.
+
+## Choose MVP stack wisely
+
+Selecting a programming tech stack is one of the most important decisions at the beginning of your tech startup journey. So do it wisely, with strong collaboration with your development team, whether it is an in-house team or a hired MVP development agency.
+
+<div class='block-button'><h2>Do you want to discuss your MVP stack with our team?</h2><div>Since 2012 we have delivered MVPs for startups based in Germany, Israel, the USA, Norway, and more. **Book a free consultation to discuss your MVP**. We’ll get back to you within 48 hours!</div><a href="/start-project/"><button>Let's talk about my MVP</button></a></div>
