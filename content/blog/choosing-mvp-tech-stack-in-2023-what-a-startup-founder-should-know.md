@@ -41,3 +41,21 @@ So remember to adjust trendy tools to your product and target group.
 ## Hybrid or native mobile app? That is the question…
 
 <div class="image"><img src="/images/food_tech_case_study_app.png" alt="Mockups" title="Mockups"  /> </div>
+
+In terms of mobile development, you must first decide whether to **build two separate native apps for iOS and Android or go for a cross-platform product**. The latter means one mobile app dedicated to both app stores. 
+
+Hybrid apps are usually easier and faster to build and launch as MVPs. They might be the answer for startups with limited budgets. **It can be a reasonable option if you want to launch the MVP and validate your idea quickly**.
+
+However, **building a hybrid app means you add another layer to your code**. Having also in mind that **your app will never perform as well as the native one** because you have to make compromises to meet "the expectations of both systems".
+
+If you treat your MVP as a cornerstone of your solution, as we recommend, then in the long term, it might bring more problems than solutions to the table. However, as we said, **every MVP is different, so [native vs. hybrid app](/blog/native-app-development-vs-cross-platform/) is a discussion every startup founder or CTO has to conduct**. The outcome should come from a deep analysis of both sites.
+
+It’s worth adding that you can always start with one app for one store. **You don’t have to launch apps for iOS and Android at the same time**. That is what Instagram or Clubhouse did. They launched their app first on AppStore.
+
+## Last but not least – mobile or Progressive Web App (PWA)?
+
+Maybe you don’t need to start with a mobile app. **There is a chance that at the beginning, you will only need a website that resembles a mobile application called Progressive Web App**. PWA can run on any device with a web browser. 
+
+Although **some features will be limited compared to mobile apps** (e.g. Bluetooth, less accurate GSP, and no running in the background), PWA might be an option to consider. Especially for startup founders who want to build a simple solution accessible on many devices to quickly verify the idea’s potential.
+
+## MVP development stack 2023
