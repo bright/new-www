@@ -2,8 +2,7 @@
 author: mateusz
 date: 2023-09-19T08:51:41.825Z
 meaningfullyUpdatedAt: 2023-09-19T08:51:41.877Z
-title: What a Startup Founder Should Know Before Deciding on the MVP Tech Stack
-  in 2023
+title: What a Startup Founder Should Know Before Choosing the MVP Tech Stack in 2023
 layout: post
 image: /images/blogpost_stack_mvp.png
 hidden: false
