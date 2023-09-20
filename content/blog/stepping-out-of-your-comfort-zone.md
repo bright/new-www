@@ -13,10 +13,6 @@ comments: true
 published: true
 language: en
 ---
-
-
-
-
 Do you enjoy leaving your comfort zone? If your answer is a reluctant "probably not," you're not alone. The comfort zone is that cozy space where everything feels familiar and easy – like an MTB rider in the woods or a Netflix enthusiast on their favorite couch. 😎
 
 ## \
@@ -29,14 +25,11 @@ When you step out of your comfort zone, your brain forges fresh neural pathways.
 <div class="image"><img src="/images/frame-43.png" alt="magic happens" title="undefined"  /> </div>
 
 ## \
-\
-\
 **👧 My Personal Journey**
 
 I used to feel apprehensive about new people and unfamiliar situations, but life repeatedly pushed me out of my comfort zone. One significant moment occurred when COVID-19 struck, necessitating a reevaluation and adaptation of my two tourism-related businesses. I found myself transitioning to a different role, working for someone else (hello, Bright Inventions team 👋), in the tech industry (I'm 'not exactly' a technical person 😇). This shift was entirely outside my comfort zone. However, this experience transformed my perspective, teaching me that change is an opportunity for growth and learning.
 
 ## \
-\
 **🌚 Identifying your Needs**
 
 I believe it's common for people to sometimes be uncertain about their needs, direction in life, and what's truly good for them.
