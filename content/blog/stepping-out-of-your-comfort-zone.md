@@ -55,4 +55,4 @@ So, don't shy away from discomfort. Embrace it. Life's greatest adventures and p
 
  And I (and dopamine 💥) guarantee that you will feel great about yourself with every step!
 
-<GiphyEmbed url='https://media.giphy.com/media/jMr74AT81aG5SHPVQz/giphy.gif' />
+<GiphyEmbed url='https://giphy.com/gifs/MenInKiltsSTARZ-starz-106-men-in-kilts-jMr74AT81aG5SHPVQz' />
