@@ -13,7 +13,11 @@ comments: true
 published: true
 language: en
 ---
-Do you enjoy leaving your comfort zone? If your answer is a reluctant "probably not," you're not alone. The comfort zone is that cozy space where everything feels familiar and easy – like an MTB rider in the woods or a Netflix enthusiast on their favorite couch. 😎
+
+
+
+
+jkhkjhDo you enjoy leaving your comfort zone? If your answer is a reluctant "probably not," you're not alone. The comfort zone is that cozy space where everything feels familiar and easy – like an MTB rider in the woods or a Netflix enthusiast on their favorite couch. 😎
 
 \
 **What is Leaving Your Comfort Zone?**
@@ -68,3 +72,7 @@ So, don't shy away from discomfort. Embrace it. Life's greatest adventures and p
  And I (and dopamine 💥) guarantee that you will feel great about yourself with every step!
 
 <GiphyEmbed url='https://giphy.com/gifs/MenInKiltsSTARZ-starz-106-men-in-kilts-jMr74AT81aG5SHPVQz' />
+
+source: \
+<https://mind.help/topic/dopamine/>\
+<https://news.cornell.edu/stories/2022/03/leaving-your-comfort-zone-inspires-motivation-growth>
