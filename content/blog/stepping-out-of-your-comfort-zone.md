@@ -7,7 +7,7 @@ date: 2023-09-21T08:10:01.030Z
 meaningfullyUpdatedAt: 2023-09-21T08:10:01.954Z
 title: "Stepping Out of Your Comfort Zone: Is It Worth It? "
 layout: post
-image: /images/comfort_zone_blogpost.png
+image: /images/comfort_zone_blogpost-1-.png
 hidden: false
 comments: true
 published: true
@@ -61,4 +61,6 @@ So, don't shy away from discomfort. Embrace it. Life's greatest adventures and p
 
 source: \
 [https://mind.help/topic/dopamine/](<https://mind.help/topic/dopamine/ https://news.cornell.edu/stories/2022/03/leaving-your-comfort-zone-inspires-motivation-growth>)\
-[https://news.cornell.edu/stories/2022/03/](https://news.cornell.edu/stories/2022/03/leaving-your-comfort-zone-inspires-motivation-growth)
+[https://news.cornell.edu/stories/2022/03/](https://news.cornell.edu/stories/2022/03/leaving-your-comfort-zone-inspires-motivation-growth)\
+cover image source: \
+[https://www.memesmonkey.com/topic/comfort+zone/](https://www.memesmonkey.com/topic/comfort+zone)
