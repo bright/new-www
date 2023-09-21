@@ -41,19 +41,16 @@ When we embark on unfamiliar journeys or learn new skills, our brains release do
 
 <div class="image"><img src="/images/function-of-dopamine.jpg" alt="dopamine functions" title="undefined"  /> </div>
 
-\
 **🗣️ Speaking the Uncomfortable Truth**
 
 Leaving your comfort zone also involves speaking uncomfortable truths, which can lead to a change in the situation among the same people, rather than changing the people themselves. Otherwise, you'll continue to encounter the same challenging situations with different individuals.
 
 **👟 Take Small Steps** 
 
-\
 Leaving your comfort zone is best done in small steps and increments. Sometimes, taking a small step beyond the zone is better than leaping far beyond it.
 
 <div class="image"><img src="/images/screenshot-2023-09-20-at-14.32.01.png" alt="get out of your comfort zone fish" title="undefined"  /> </div>
 
-\
 Life has a way of pushing us out of our comfort zones precisely when we need it most. It challenges us to adapt, learn, and grow, making us better versions of ourselves.
 
 So, don't shy away from discomfort. Embrace it. Life's greatest adventures and profound discoveries often (or may I say - always) lie just beyond your comfort zone. 
