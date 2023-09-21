@@ -15,8 +15,9 @@ language: en
 ---
 **Do you enjoy leaving your comfort zone? If your answer is a reluctant "probably not," you're not alone. The comfort zone is that cozy space where everything feels familiar and easy – like an MTB rider in the woods or a Netflix enthusiast on their favorite couch.** 😎
 
-<div class="image"><img src="/images/brain.jpeg" alt="brain in comfort zone" title="undefined"  /> </div>
+<div class="image"><img src="/images/brain2.jpeg" alt="brain mode" title=""  /> </div>
 
+\
 **🧐 What is Leaving Your Comfort Zone?**
 
 Leaving your comfort zone means venturing into new territory, doing things you might not naturally gravitate toward. It's like swapping a Netflix binge for an engaging book (or a blog-post 😉) about self development. But why should you willingly go into discomfort? The answer lies in personal progress and growth.
