@@ -3,7 +3,7 @@ layout: member
 author_id: agata-m
 ex: false
 slug: agata-m
-name: Agata Mietlińska
+name: Agata Dankowska
 short_name: Agata
 email: agata.mietlinska@brightinventions.pl
 bio: Recruiting Specialist
