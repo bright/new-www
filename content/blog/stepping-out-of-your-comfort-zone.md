@@ -7,7 +7,7 @@ date: 2023-09-21T08:10:01.030Z
 meaningfullyUpdatedAt: 2023-09-21T08:10:01.954Z
 title: "Stepping Out of Your Comfort Zone: Is It Worth It? "
 layout: post
-image: /images/comfort_zone_blogpost-1-.png
+image: /images/comfort_zone_blogpost-3-.png
 hidden: false
 comments: true
 published: true
