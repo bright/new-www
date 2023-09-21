@@ -15,7 +15,7 @@ language: en
 ---
 **Do you enjoy leaving your comfort zone? If your answer is a reluctant "probably not," you're not alone. The comfort zone is that cozy space where everything feels familiar and easy – like an MTB rider in the woods or a Netflix enthusiast on their favorite couch.** 😎
 
-<div class="image"><img src="/images/brain2.jpeg" alt="undefined" title="brain mode"  /> </div>
+<div class="image"><img src="/images/brain2.jpeg" alt="brain mode" title=""  /> </div>
 
 \
 **🧐 What is Leaving Your Comfort Zone?**
