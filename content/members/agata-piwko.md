@@ -3,9 +3,9 @@ layout: member
 author_id: agata
 ex: false
 slug: agata
-name: Agata Piwko
+name: Agata Bielówka
 short_name: Agata
-email: agata.piwko@brightinventions.pl
+email: agata.bielowka@brightinventions.pl
 bio: Social Media Specialist
 description: Social Media Specialist
 avatar: /images/agata_small.png
