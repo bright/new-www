@@ -3,8 +3,8 @@ author: agata
 tags:
   - inspiration
   - motivation
-date: 2023-09-20T12:33:27.552Z
-meaningfullyUpdatedAt: 2023-09-20T12:33:27.578Z
+date: 2023-09-21T08:10:01.030Z
+meaningfullyUpdatedAt: 2023-09-21T08:10:01.954Z
 title: "Stepping Out of Your Comfort Zone: Is It Worth It? "
 layout: post
 image: /images/comfort_zone_blogpost.png
