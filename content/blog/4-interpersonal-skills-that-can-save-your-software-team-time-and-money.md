@@ -46,7 +46,7 @@ morale, and growth, and sometimes leads to reputational erosion.
 
 Inevitably, conflicts arise in various settings and interpersonal skills help in resolving them constructively and
 finding solutions that satisfy all parties involved. Some disagreements can as well arise during the development
-process. Conflict resolution is an integral part of the software development process, primarily because software
+process. Conflict resolution is an integral part of the [software development process](/blog/what-are-the-stages-of-app-development/), primarily because software
 development projects often involve teams with diverse perspectives, backgrounds, and roles. Conflicts can arise due to
 differences in opinions, goals, priorities, and approaches to
 problem-solving.<div class="image"><img src="/images/healthyconflict.png" alt="conflict resolution" title="undefined"  /> </div>
