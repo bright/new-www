@@ -23,7 +23,7 @@ language: en
 
 I saw a job listing for a blockchain developer position and applied. However, before I had my interview, the position got filled. Yet, **[Michał](/about-us/michal/) decided to still interview me and eventually offered me the position of iOS developer**.
 
-I didn't have any experience with iOS back then. I had maybe 2 classes about it in college. However, I always liked Apple products, so I thought I could go for it. That’s how I became an iOS developer. **Maybe it was a coincidence rather than a conscious decision, but I really enjoy iOS development**.
+I didn't have any experience with iOS back then. I had maybe 2 classes about it in college. However, I always liked Apple products, so I thought I could go for it. That’s how I became an iOS developer. **Maybe it was a coincidence rather than a conscious decision, but I really enjoy [iOS development](/our-areas/mobile-app-development/)**.
 
 ## How would you compare your challenges at the beginning of your career to now?
 
