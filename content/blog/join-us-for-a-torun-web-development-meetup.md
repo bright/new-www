@@ -67,7 +67,11 @@ Are you ready to join us? [Get your free ticket now](https://www.meetup.com/toru
 ## Event Details
 
 Date: October 19, 2023
+
 Time: 6:00-8.30 PM
+
 Location: Business Link Toruń Toruński Inkubator Technologiczny
+
 Hosted by: Bright Inventions
+
 Event Link: [meetup.com](https://www.meetup.com/toru%C5%84-web-development/events/295971160/)
