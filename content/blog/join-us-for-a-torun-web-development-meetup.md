@@ -16,7 +16,7 @@ language: en
 
 <div class="image"><img src="/images/blog_torun_meetup.png" alt="Torun Web Development Meetup" title="Torun Web Development Meetup"  /> </div>
 
-<div class='block-button'><h2>Join our Meetup Group and claim your spot now!</h2><div>Join our group on meetu and you won't mis the first meeting.</div><a href="https://www.meetup.com/toru%C5%84-web-development/events/295971160/"><button>Claim your spot</button></a></div>
+<div class='block-button'><h2>Join our Meetup Group and claim your spot now!</h2><div>Won't miss the first meeting.</div><a href="https://www.meetup.com/toru%C5%84-web-development/events/295971160/"><button>Claim your spot</button></a></div>
 
 ## What to Expect at Torun Web Development Meetup #1 \[Agenda]
 
@@ -50,15 +50,15 @@ Following the official part of the meeting, we invite you for snacks and further
 
 <div class="image"><img src="/images/torun_speaker_wojciech.png" alt="Wojciech Trawiński" title="Wojciech Trawiński"  /> </div>
 
-**Wojciech Trawiński**
+**[Wojciech Trawiński](http://www.linkedin.com/in/wojciech-trawi%C5%84ski)**
 
-A Senior Software Engineer who specializes in creating web applications. He is an enthusiast of the Angular framework and reactive programming, always seeking challenges both in and outside of work. He is also the author of the blog "JavaScript Everyday". In his free time, he enjoys watching Formula 1 and... building Lego. He is addicted to coffee, chocolate, and cycling.
+A Senior Software Engineer who specializes in creating web applications. He is an enthusiast of the Angular framework and reactive programming, always seeking challenges both in and outside of work. He is also the author of the blog "[JavaScript Everyday](https://medium.com/javascript-everyday)". In his free time, he enjoys watching Formula 1 and... building Lego. He is addicted to coffee, chocolate, and cycling.
 
 <div class="image"><img src="/images/torun_speaker_olaf.png" alt="Olaf Sulich" title="Olaf Sulich"  /> </div>
 
-**Olaf Sulich**
+**[Olaf Sulich](https://www.linkedin.com/in/olaf-sulich/)**
 
-A Senior Frontend Developer who isn't afraid of any challenges. The creator of the Frontlive.pl blog and a community for ambitious programmers on Discord. Currently, he is working on developing one of the largest and most dynamic marketplaces in Poland – Allegro Lokalnie.
+A Senior Frontend Developer who isn't afraid of any challenges. The creator of the [Frontlive.pl](https://frontlive.pl/) blog and a community for ambitious programmers on Discord. Currently, he is working on developing one of the largest and most dynamic marketplaces in Poland – Allegro Lokalnie.
 
 ## Let’s meet in Toruń
 
