@@ -2,8 +2,8 @@
 author: izabela
 tags:
   - update
-date: 2023-09-25T06:53:21.794Z
-meaningfullyUpdatedAt: 2023-09-25T06:53:21.833Z
+date: 2023-09-25T07:03:57.665Z
+meaningfullyUpdatedAt: 2023-09-25T07:03:58.221Z
 title: Join Us for a Torun Web Development Meetup
 layout: post
 image: /images/blog_torun_meetup.png
