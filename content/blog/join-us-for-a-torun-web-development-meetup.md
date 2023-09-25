@@ -24,7 +24,7 @@ language: en
 
 We'll start with some casual networking, giving you the opportunity to meet other web enthusiasts and share your experiences.
 
-### 🚀 Web Components – The Illusion of Encapsulation Wojciech Trawiński | 6.15 PM – 6.50 PM
+### 🚀 Web Components – The Illusion of Encapsulation | Wojciech Trawiński | 6.15 PM – 6.50 PM
 
 Encapsulation, independence, and reusability are the buzzwords that technology Web Components are described, much like a Hollywood story. But is it really justified?
 
@@ -34,7 +34,7 @@ During my presentation, you will get to know the darker side of Web Components a
 
 Grab that coffee and get ready for what’s next.
 
-### 🚀 Frontend in Production. Olaf Sulich | 7.00 PM – 7.35 PM
+### 🚀 Frontend in Production | Olaf Sulich | 7.00 PM – 7.35 PM
 
 Frontend beyond the realm of Udemy courses. Discover how to create modern and secure user interfaces for millions of users.
 
