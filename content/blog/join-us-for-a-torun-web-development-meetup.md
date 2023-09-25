@@ -57,3 +57,17 @@ A Senior Software Engineer who specializes in creating web applications. He is a
 <div class="image"><img src="/images/torun_speaker_olaf.png" alt="Olaf Sulich" title="Olaf Sulich"  /> </div>
 
 **Olaf Sulich**
+
+A Senior Frontend Developer who isn't afraid of any challenges. The creator of the Frontlive.pl blog and a community for ambitious programmers on Discord. Currently, he is working on developing one of the largest and most dynamic marketplaces in Poland – Allegro Lokalnie.
+
+## Let’s meet in Toruń
+
+Are you ready to join us? [Get your free ticket now](https://www.meetup.com/toru%C5%84-web-development/events/295971160/)!
+
+## Event Details
+
+Date: October 19, 2023
+Time: 6:00-8.30 PM
+Location: Business Link Toruń Toruński Inkubator Technologiczny
+Hosted by: Bright Inventions
+Event Link: [meetup.com](https://www.meetup.com/toru%C5%84-web-development/events/295971160/)
