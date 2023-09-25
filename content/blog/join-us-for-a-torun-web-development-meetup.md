@@ -45,3 +45,15 @@ After the presentations, we will have time for questions and discussions.
 ### 🍕 Snacks and Networking | 8.00 PM – 8.30 PM
 
 Following the official part of the meeting, we invite you for snacks and further networking. It's a great opportunity to continue conversations and establish new connections.
+
+## Meet our speakers
+
+<div class="image"><img src="/images/torun_speaker_wojciech.png" alt="Wojciech Trawiński" title="Wojciech Trawiński"  /> </div>
+
+**Wojciech Trawiński**
+
+A Senior Software Engineer who specializes in creating web applications. He is an enthusiast of the Angular framework and reactive programming, always seeking challenges both in and outside of work. He is also the author of the blog "JavaScript Everyday". In his free time, he enjoys watching Formula 1 and... building Lego. He is addicted to coffee, chocolate, and cycling.
+
+<div class="image"><img src="/images/torun_speaker_olaf.png" alt="Olaf Sulich" title="Olaf Sulich"  /> </div>
+
+**Olaf Sulich**
