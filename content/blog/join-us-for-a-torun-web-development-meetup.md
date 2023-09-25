@@ -17,3 +17,5 @@ language: en
 <div class="image"><img src="/images/blog_torun_meetup.png" alt="Torun Web Development Meetup" title="Torun Web Development Meetup"  /> </div>
 
 <div class='block-button'><h2>Join our Meetup Group and claim your spot now!</h2><div>Join our group on meetu and you won't mis the first meeting.</div><a href="https://www.meetup.com/toru%C5%84-web-development/events/295971160/"><button>Claim your spot</button></a></div>
+
+## What to Expect at Torun Web Development Meetup #1 \[Agenda]
