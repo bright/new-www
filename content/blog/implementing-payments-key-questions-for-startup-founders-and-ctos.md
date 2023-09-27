@@ -49,5 +49,14 @@ There is no ideal option for everyone, so you need to analyze the pros and cons 
 ### Disadvantages of smaller payment providers:
 
 * Less stability: their product is often in the early stages of development and updates might affect your payments.
-
 * Less amount of resources and docs for software engineers.
+
+## 3. Who is responsible for any technical issues with payments? You or your payment provider?
+
+You need to determine who will be responsible for any payment malfunctions – you or your payment provider. For example, if you offer a mentioned POS system, your client will contact you about unavailable payment features even if you aren't directly responsible for them. You need to ensure that your payment provider will take responsibility for issues with payments.
+
+## 4. Will your provider offer you an account manager?
+
+It's smart to choose a provider that will offer an account manager. This is a person who will not only be a first responder to your problems or needs. **The account manager should also inform you about any payment anomalies and give you a heads-up when security certificates are about to expire**. It's good to have that support from your payment provider's side.
+
+## 5. What is the payment culture of your target group?
