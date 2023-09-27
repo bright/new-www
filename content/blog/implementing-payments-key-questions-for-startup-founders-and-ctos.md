@@ -32,7 +32,11 @@ There is no ideal option for everyone, so you need to analyze the pros and cons 
 ### Advantages of large payment providers:
 
 * Stable and mature payment solution.
-
 * Technical support.
-
 * Lots of helpful resources and docs for software engineers.
+
+### Disadvantages of large payment providers:
+
+* Possible slow response time from support (if you're small, you’re not a key client).
+
+* Less attractive price models (the smallest volume, the bigger price).
