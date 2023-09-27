@@ -14,3 +14,5 @@ published: true
 language: en
 ---
 **Payment is one of the most important features of digital products. In case any problems arise, both you and your users could potentially experience financial losses. So based on our over 10 years of experience in building digital products, we gathered some recommendations for payment implementation for startup founders, CTOs, and tech leaders.**
+
+<div class="image"><img src="/images/payments.png" alt="Payments" title="Payments"  /> </div>
