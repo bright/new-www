@@ -64,3 +64,9 @@ It's smart to choose a provider that will offer an account manager. This is a pe
 Choosing the payment method is a decision that should depend on your users' habits. These might vary [depending on the country](https://pay-lobby.com/en/country). For example, in the USA and the UK, online payment with debit/credit cards and e-wallets are the most popular. On the contrary, there are countries where bank transfers are one of the most common payment methods (e.g. Netherlands, Poland).
 
 [Over 40% of eCommerce users](https://www.ppro.com/news/retailers-risk-losing-customers/) in the USA stop a purchase if their favorite payment method isn’t available. So **don’t try to change your users' habits, embrace them**.
+
+## 6. What information should be included in the payment statement?
+
+In some cases, users are extremely protective of their anonymity. For example, if you build a web therapy platform, your users may not be willing to share the information that they struggle with some mental issues. So they don't want the payment to visibly state that they use a web therapy platform. Especially when another family member has access to, for example, the credit card statement. That's why you need to decide what's the proper name for the payment statement for your solution.
+
+<div class='block-button'><h2>Book a free consultation in 48 hours</h2><div>Do you struggle with payment implementation? Contact us and book a free consultation with our software development team.</div><a href="/start-project/"><button>let's talk about your solution</button></a></div>
