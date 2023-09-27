@@ -3,8 +3,8 @@ author: fjablonski
 secondAuthor: izabela
 tags:
   - business
-date: 2023-09-27T07:53:58.115Z
-meaningfullyUpdatedAt: 2023-09-27T07:53:58.155Z
+date: 2023-09-27T08:18:29.798Z
+meaningfullyUpdatedAt: 2023-09-27T08:18:30.349Z
 title: "Implementing Payments: Key Questions for Startup Founders and CTOs"
 layout: post
 image: /images/payments.png
@@ -54,6 +54,8 @@ There is no ideal option for everyone, so you need to analyze the pros and cons 
 ## 3. Who is responsible for any technical issues with payments? You or your payment provider?
 
 You need to determine who will be responsible for any payment malfunctions – you or your payment provider. For example, if you offer a mentioned POS system, your client will contact you about unavailable payment features even if you aren't directly responsible for them. You need to ensure that your payment provider will take responsibility for issues with payments.
+
+<div class="image"><img src="/images/card_reader_mockup.png" alt="Card payment" title="Card payment"  /> </div>
 
 ## 4. Will your provider offer you an account manager?
 
