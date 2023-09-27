@@ -38,5 +38,16 @@ There is no ideal option for everyone, so you need to analyze the pros and cons 
 ### Disadvantages of large payment providers:
 
 * Possible slow response time from support (if you're small, you’re not a key client).
-
 * Less attractive price models (the smallest volume, the bigger price).
+
+### Advantages of smaller payment providers:
+
+* Chance for lower prices.
+* A possible better response time from support (they often try to offer better customer support to stand out from bigger providers).
+* Flexibility and startup culture (it might be a plus for small companies).
+
+### Disadvantages of smaller payment providers:
+
+* Less stability: their product is often in the early stages of development and updates might affect your payments.
+
+* Less amount of resources and docs for software engineers.
