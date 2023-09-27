@@ -55,7 +55,7 @@ There is no ideal option for everyone, so you need to analyze the pros and cons 
 
 You need to determine who will be responsible for any payment malfunctions – you or your payment provider. For example, if you offer a mentioned POS system, your client will contact you about unavailable payment features even if you aren't directly responsible for them. You need to ensure that your payment provider will take responsibility for issues with payments.
 
-<div class="image"><img src="/images/card_reader_mockup.png" alt="Card payment" title="Card payment"  /> </div>
+<div class="image"><img src="/images/card_reader_case_study_app.png" alt="Card payment" title="Card payment"  /> </div>
 
 ## 4. Will your provider offer you an account manager?
 
