@@ -60,3 +60,7 @@ You need to determine who will be responsible for any payment malfunctions – y
 It's smart to choose a provider that will offer an account manager. This is a person who will not only be a first responder to your problems or needs. **The account manager should also inform you about any payment anomalies and give you a heads-up when security certificates are about to expire**. It's good to have that support from your payment provider's side.
 
 ## 5. What is the payment culture of your target group?
+
+Choosing the payment method is a decision that should depend on your users' habits. These might vary [depending on the country](https://pay-lobby.com/en/country). For example, in the USA and the UK, online payment with debit/credit cards and e-wallets are the most popular. On the contrary, there are countries where bank transfers are one of the most common payment methods (e.g. Netherlands, Poland).
+
+[Over 40% of eCommerce users](https://www.ppro.com/news/retailers-risk-losing-customers/) in the USA stop a purchase if their favorite payment method isn’t available. So **don’t try to change your users' habits, embrace them**.
