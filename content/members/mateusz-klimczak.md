@@ -6,7 +6,7 @@ slug: mateusz
 name: Mateusz Klimczak
 short_name: Mateusz
 email: mateusz.klimczak@brightinventions.pl
-bio: Partner, Technical Leader & Project Manager
+bio: Partner & Head of Delivery
 description: iOS lover keen on Android development and project management
 avatar: /images/members/mateusz_klimczak.jpg
 avatar_hover: /images/mateuszk_passion.png
