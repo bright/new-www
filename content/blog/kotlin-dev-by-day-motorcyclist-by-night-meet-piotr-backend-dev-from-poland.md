@@ -6,10 +6,11 @@ tags:
   - inspiration
   - bright story
 date: 2021-09-29T07:31:00.108Z
+meaningfullyUpdatedAt: 2021-09-29T07:31:00.000Z
 title: Kotlin Dev by Day, Motorcyclist by Night. Meet Piotr, Backend Dev from Poland
 layout: post
 image: /images/brightstory_piotr_backend4.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
