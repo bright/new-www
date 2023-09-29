@@ -30,8 +30,6 @@ I was supposed to **build apps for now forgotten Windows Phone**. Fortunately, a
 
 After that, I worked on another project developing a **solution for a startup whose aim was to utilize Bluetooth beacons to analyze traffic**. Our stack was based on **Scala**. We worked on a solution that would use beacons in the cars to communicate between them and analyze traffic jams and other situations on the road. In order to verify such a solution, we were creating traffic simulations and predictions of when and where the jam would occur. That was interesting because it was also related to my Engineering Thesis.
 
-<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>Apply and join Michał</button></a></div>
-
 ## After all these years in the business do you think it is possible to be a backend dev without knowing platforms like AWS, Azure or Google Clouds, etc?
 
 Over the course of my career, I had opportunities to build many cloud solutions so this area is close to my heart. Based on my experience I think it all depends on the organization you are a part of.
@@ -107,5 +105,3 @@ I really like the interview flow we have at Bright. We just talk with the candid
 <div class="image"><img src="/images/brightpassion_michal.png" alt="Michał's passions" title="undefined"  /> </div>
 
 I mostly spend time with my family. I am passionate about CrossFit as well. I had a break from that but have plans to go back to CrossFit with my wife soon. I love to travel. But I also love to plan my voyages. It gives me pleasure to organize the whole trip for my family. I often travel with friends too and they like me to take care of the whole trip as well. It’s a win-win for everyone. 🙂
-
-<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>Apply and join Michał</button></a></div>
