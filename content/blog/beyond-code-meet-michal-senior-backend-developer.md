@@ -5,10 +5,11 @@ tags:
   - bright story
   - backend
 date: 2022-09-02T10:17:38.064Z
+meaningfullyUpdatedAt: 2022-09-02T10:17:00.000Z
 title: Always Looking Beyond the Code. Meet Michał – Senior Backend Developer
 layout: post
 image: /images/brightstorymichalcover.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
@@ -28,8 +29,6 @@ I guess it all happened quite ordinary. I went to the Polish-Japanese Academy of
 I was supposed to **build apps for now forgotten Windows Phone**. Fortunately, as soon as I joined the company they opened a new project for backend devs and I joined that team. Then **my adventure with Java began**. 
 
 After that, I worked on another project developing a **solution for a startup whose aim was to utilize Bluetooth beacons to analyze traffic**. Our stack was based on **Scala**. We worked on a solution that would use beacons in the cars to communicate between them and analyze traffic jams and other situations on the road. In order to verify such a solution, we were creating traffic simulations and predictions of when and where the jam would occur. That was interesting because it was also related to my Engineering Thesis.
-
-<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>Apply and join Michał</button></a></div>
 
 ## After all these years in the business do you think it is possible to be a backend dev without knowing platforms like AWS, Azure or Google Clouds, etc?
 
@@ -106,5 +105,3 @@ I really like the interview flow we have at Bright. We just talk with the candid
 <div class="image"><img src="/images/brightpassion_michal.png" alt="Michał's passions" title="undefined"  /> </div>
 
 I mostly spend time with my family. I am passionate about CrossFit as well. I had a break from that but have plans to go back to CrossFit with my wife soon. I love to travel. But I also love to plan my voyages. It gives me pleasure to organize the whole trip for my family. I often travel with friends too and they like me to take care of the whole trip as well. It’s a win-win for everyone. 🙂
-
-<div class='block-button'><h2>We are looking for Scala developers</h2><div>Join Michał and develop a security platform with biometric authentication. Work with the client from Israel.</div><a href="/jobs/scala-developer/"><button>Apply and join Michał</button></a></div>
