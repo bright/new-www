@@ -5,10 +5,11 @@ tags:
   - bright story
   - backend
 date: 2022-09-02T10:17:38.064Z
+meaningfullyUpdatedAt: 2023-09-29T06:41:20.991Z
 title: Always Looking Beyond the Code. Meet Michał – Senior Backend Developer
 layout: post
 image: /images/brightstorymichalcover.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
