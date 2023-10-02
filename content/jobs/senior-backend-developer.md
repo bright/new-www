@@ -1,10 +1,10 @@
 ---
 imagejob: /images/backend_team_job_offer.png
-workplace_recruiter: Junior Recruiting Specialist
+workplace_recruiter: Recruiting Specialist
 Show_recruiter_info: true
 layout: job
 title: "Senior Backend Developer "
-subtitle: ONGOING
+subtitle: OPENING SOON 
 image-alt-job: backend development team
 hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
@@ -34,13 +34,13 @@ links_more_about_us: >-
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
 name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - a Junior Recruiter at Bright Inventions
+image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
 button: join our backend team
 published: true
 show_recruiter_info: true
 hidden: false
-order: 4
+order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
