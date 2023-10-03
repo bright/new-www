@@ -21,13 +21,12 @@ const SectionNotice = styled.section`
 
   & .overlay {
     background: rgba(10, 10, 10, 0.43);
-
     position: fixed;
     left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
-    z-index: 999;
+    z-index: -1;
   }
 
   & .cookies-wrapper {
@@ -169,14 +168,13 @@ function CookiesNotice() {
         visible={cookieConsentVisible}
         disableStyles={true}
         disableButtonStyles={true}
-        overlay
         buttonId='confirm-button'
-        overlayClasses='overlay'
         buttonWrapperClasses={'wrapper-button'}
         containerClasses={'cookies-wrapper'}
         onAccept={onAccept}
       >
         <div>
+          <div className='overlay'></div>
           <CookieText>
             We use cookies or other technologies to give you the best experience. You can change
             your cookie preferences by clicking “customize”. If you want to learn more, read the{' '}
