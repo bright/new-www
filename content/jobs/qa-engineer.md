@@ -18,34 +18,34 @@ technology:
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
- [How to Start Working at Bright Inventions - A Quick Guide for Candidates
-  ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
+  [How to Start Working at Bright Inventions - A Quick Guide for Candidates
+   ](https://brightinventions.pl/blog/how-to-start-working-at-bright-inventions-a-quick-guide-for-candidates/)
 
 
-  [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
+   [Screening - How to Get Prepared ](https://brightinventions.pl/blog/recruitment-screening-what-is-it-for/)
 
 
-  [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
+   [No Time for Bullsh\*\*. Feedback Culture](/blog/no-time-for-bullshit-feedback-culture/)
 
 
-  [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
+   [Bright Onboarding - What Is Waiting for You](/blog/how-to-make-your-onboarding-bright)
 title_recruiter_info: Do you have any questions? Ask Agata from our Bright team!
-name_recruiter: Agata
 image_recruiter_info: /images/agata_recruiter.png
-image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
 button_linkedin: https://www.linkedin.com/in/agatamietli%C5%84ska/
-button: join our QA team
 published: true
 show_recruiter_info: true
 hidden: false
+name_recruiter: Agata
+image_alt_recruiter_info: Agata Mietlińska - a Recruiter at Bright Inventions
+button: join our QA team
 order: 4
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: QA task
+language: en
 description: We are seeking a QA Specialist with knowledge of DB testing,
   performance testing and API testing. Maintain a high quality of iOS, Android
   and web applications.
 ---
-
 ## bright culture 🧡
 
 At Bright Inventions you'll be an important part of [a group of talented, ambitious and positive developers, designers, managers and marketers](https://brightinventions.pl/about-us/team/) who love to solve real problems and build software that really matters in today’s world.
@@ -77,6 +77,7 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 * strong problem solving and analytical skills
 * ability to work independently as well as in a team
 * very good level of English (both written and spoken)
+* very good level of Polish 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
 
 ## we would also appreciate if you have 
 
@@ -108,6 +109,5 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 ✅ QA task 
 
 ✅ skills evaluation and feedback 
-
 
 In case you have any questions, drop us a line at jobs@brightinventions.pl. We will be happy to get back to you!
