@@ -76,7 +76,8 @@ As a part of our team you'll have the opportunity to work closely with cross-fun
 * **familiarity with Continuous Integration** and other process automation tools
 * strong problem solving and analytical thinking skills
 * positive attitude
-* very good communication skills both in **English and Polish** 
+* very good communication skills in **English** 
+* very good level of **Polish** 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
 
 ## we would also appreciate 🙌
 
