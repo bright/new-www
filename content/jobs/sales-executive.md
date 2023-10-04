@@ -1,9 +1,9 @@
 ---
 layout: job
-title: "Sales Executive"
+title: Sales Executive
 subtitle: ONGOING
 imagejob: /images/qa_brightteam.png
-image-alt-job: "sales executive"
+image-alt-job: sales executive
 hours: "full-time "
 salary: 12 000 - 16 000 PLN + VAT (B2B) or 10 000 - 13 300 PLN gross (UoP)
 salary_min: 12000
@@ -60,6 +60,7 @@ We are looking for a highly motivated individual with an interest in sales and b
 * practical knowledge in identifying cross selling and upselling opportunities
 * experience in business partnership with start-ups as well as bigger enterprises
 * excellent command of English (both oral and written)
+* very good level of Polish 🇵🇱 (we work in an international environment, but within the company, we communicate in Polish)
 * the ability to travel occasionally to EU locations
 
 ## we would also appreciate of you have  🙌
