@@ -176,10 +176,9 @@ function CookiesNotice() {
         <div>
           <div className='overlay'></div>
           <CookieText>
-            We use cookies or other technologies to give you the best experience. You can change
-            your cookie preferences by clicking “customize”. If you want to learn more, read the{' '}
+            We use cookies or other technologies. Change settings via “customize”. {' '}
             <Link to={routeLinks.privacyPolicy} style={{ color: '#fff', textDecoration: 'underline' }}>
-              Privacy Policy
+              Read Privacy Policy
             </Link>{' '}
             .
           </CookieText>
