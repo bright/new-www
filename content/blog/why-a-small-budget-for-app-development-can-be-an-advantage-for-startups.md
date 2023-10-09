@@ -14,7 +14,7 @@ language: en
 ---
 **A smaller budget at the beginning of your startup story may help you build the project with bigger chances of succeeding. How come? Check out why a smaller budget can enhance creativity, simplicity, and data-driven development.**
 
-<div class="image"><img src="/images/blogpost_mvp_budget.png" alt="small budget" title="small budget"  /> </div>
+<EbookDynamic sectionTitle='Learn even more about MVP development' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Get our ebook for free. This pdf is based on our over decade of experience in building of MVPs for startups around the world.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='undefined' />
 
 ## A low budget helps to make rational decisions while building MVP
 
