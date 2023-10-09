@@ -45,3 +45,9 @@ A smaller budget pushes you to look for simple but still high-quality solutions.
 I asked my colleagues how they find more creative and often low-cost ways to meet client’s goals. Here’s an example:
 
 <blockquote><h2>Implementing a low-cost and more user-friendly solution</h2><div>The client wanted to implement quite complex functionality, which was designed as a set of 5 separate screens. After analyzing the client's requirements, we proposed a more straightforward solution that included all the necessary features on a single screen. Following a consultation with the designer, the client chose our proposal, which turned out to be easier to implement and more user-friendly.</div><footer>Michał Waśniewski, Senior iOS Developer at Bright Inventions</footer></blockquote>
+
+## A low budget helps to create an app that users need and want
+
+A smaller budget makes you go deeper into analytics, and that's great! Analytics is often neglected. After the MVP launch, **startup founders often focus too much on app reviews rather than actually going deeper into users' activity**. Thanks to analytics tools like Firebase and Mixpanel, you can **check what features your users really use, what screens engage them, and what features you can simply give up on**.
+
+Not many startups can afford to keep developing the product of their dream, rather than the product their users desire… We recommend you follow the user-oriented path. 🙂
