@@ -2,8 +2,8 @@
 author: mateusz
 tags:
   - business
-date: 2023-10-09T06:42:31.650Z
-meaningfullyUpdatedAt: 2023-10-09T06:42:31.684Z
+date: 2023-10-09T06:59:50.782Z
+meaningfullyUpdatedAt: 2023-10-09T06:59:51.664Z
 title: Why a Small Budget for App Development Can Be an Advantage for Startups
 layout: post
 image: /images/blogpost_mvp_budget.png
