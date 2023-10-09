@@ -109,6 +109,8 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 
 <div class="image"><img src="/images/case_study_client_quote.png" alt="A quote from the client" title="Client's perspective"  /> </div>
 
+<br>
+
 *With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the **MVP release is a great success** so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
 
 **Leon Seiz, Product Owner at Heinrich Schmid**
