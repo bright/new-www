@@ -93,6 +93,8 @@ The client trusted us to choose the best solutions for native application develo
 
 <center>Mockup example designed by Heinrich Schmid's Product Design Team.</center>
 
+<br>
+
 We also made an important decision regarding the app architecture. We decided to build **HS Baumappe as a multi-module application**. Instead of building an app as a huge monolith, we **separated the code into single responsibility modules**. As a result, it improved developers’ productivity because of the **shorter build time, clarity and interoperability**. Developing multi-module apps is not something visible to users but takes a huge part in fastening the development process and, in the end, helps to **save costs**.
 
 Bright Inventions’ team takes care **exclusively of mobile development**. The backend is developed by another software company. It requires close cooperation between various development teams to sync apps with the backend properly.
