@@ -93,6 +93,8 @@ The client trusted us to choose the best solutions for native application develo
 
 <center>Mockup example designed by Heinrich Schmid's Product Design Team.</center>
 
+<br>
+
 We also made an important decision regarding the app architecture. We decided to build **HS Baumappe as a multi-module application**. Instead of building an app as a huge monolith, we **separated the code into single responsibility modules**. As a result, it improved developers’ productivity because of the **shorter build time, clarity and interoperability**. Developing multi-module apps is not something visible to users but takes a huge part in fastening the development process and, in the end, helps to **save costs**.
 
 Bright Inventions’ team takes care **exclusively of mobile development**. The backend is developed by another software company. It requires close cooperation between various development teams to sync apps with the backend properly.
@@ -106,6 +108,8 @@ Bright Inventions’ team takes care **exclusively of mobile development**. The 
 *After months of smooth development and satisfying output, we were challenged with some very critical technical barriers, which collided with our business vision of the app. Due to great proactive efforts on Bright Inventions side, the Heinrich Schmid IT team, and the good communication towards our third-party backend developer team, we overcame this hurdle and managed to get the app behavior as envisioned and desired.* 
 
 <div class="image"><img src="/images/case_study_client_quote.png" alt="A quote from the client" title="Client's perspective"  /> </div>
+
+<br>
 
 *With the currently ongoing MVP release, the only point of criticism our users raised is the following: “We want more features!”. Therefore, the **MVP release is a great success** so far and we envision a lot more features to come in the app, together with our partner Bright Inventions.*
 
