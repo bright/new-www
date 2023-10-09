@@ -12,7 +12,7 @@ comments: true
 published: true
 language: en
 ---
-**A smaller budget at the beginning of your startup story may help you build the project with bigger chances of succeeding. How come? Check out why a smaller budget can enhance creativity, simplicity, and data-driven development.**
+**A smaller budget at the beginning of your startup story may help you build the project with bigger chances of succeeding. How come? Check out why a limited budget can enhance creativity, simplicity, and data-driven development.**
 
 <EbookDynamic sectionTitle='Learn even more about MVP development' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Get our ebook for free. This pdf is based on our over decade of experience in building of MVPs for startups around the world.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='undefined' />
 
@@ -46,7 +46,7 @@ I asked my colleagues how they find more creative and often low-cost ways to mee
 
 <blockquote><h2>Implementing a low-cost and more user-friendly solution</h2><div>The client wanted to implement quite complex functionality, which was designed as a set of 5 separate screens. After analyzing the client's requirements, we proposed a more straightforward solution that included all the necessary features on a single screen. Following a consultation with the designer, the client chose our proposal, which turned out to be easier to implement and more user-friendly.</div><footer>Michał Waśniewski, Senior iOS Developer at Bright Inventions</footer></blockquote>
 
-## A limited amount of money helps to create an app that users need and want
+## A small budget helps to create an app that users need and want
 
 A smaller budget makes you go deeper into analytics, and that's great! Analytics is often neglected. After the MVP launch, **startup founders often focus too much on app reviews rather than actually going deeper into users' activity**. Thanks to analytics tools like Firebase and Mixpanel, you can **check what features your users really use, what screens engage them, and what features you can simply give up on**.
 
