@@ -1,13 +1,15 @@
 ---
 author: mateusz
+secondAuthor: michal-was
+thirdAuthor: izabela
 tags:
   - business
-date: 2023-10-09T06:59:50.782Z
-meaningfullyUpdatedAt: 2023-10-09T06:59:51.664Z
+date: 2023-10-09T07:34:48.568Z
+meaningfullyUpdatedAt: 2023-10-09T07:34:49.312Z
 title: Why a Small Budget for App Development Can Be an Advantage for Startups
 layout: post
 image: /images/blogpost_mvp_budget.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -42,7 +44,7 @@ If not, you can always try to pivot, just as other giants did. Check out T[witte
 
 A smaller budget pushes you to look for simple but still high-quality solutions. It's great when you have a team or MVP partner who is flexible in looking for creative ways when they are more beneficial.
 
-I asked my colleagues how they find more creative and often low-cost ways to meet client’s goals. Here’s an example:
+We asked our colleagues how they find more creative and often low-cost ways to meet client’s goals. Here’s an example:
 
 <blockquote><h2>Implementing a low-cost and more user-friendly solution</h2><div>The client wanted to implement quite complex functionality, which was designed as a set of 5 separate screens. After analyzing the client's requirements, we proposed a more straightforward solution that included all the necessary features on a single screen. Following a consultation with the designer, the client chose our proposal, which turned out to be easier to implement and more user-friendly.</div><footer>Michał Waśniewski, Senior iOS Developer at Bright Inventions</footer></blockquote>
 
