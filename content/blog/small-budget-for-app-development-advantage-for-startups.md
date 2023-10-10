@@ -38,7 +38,7 @@ Or consider **going for hybrid app development**. With tools like Flutter or Rea
 
 As we stated earlier, not every MVP will be successful. Actually, [most startups fail](https://www.embroker.com/blog/startup-statistics/). So a **smaller budget enables you to save costs and minimize financial risk**. Even if you verify your idea before the development process starts, the proper validation comes after the MVP launch. Then you will know if your solution is attractive to users and can get you clients.
 
-If not, you can always try to pivot, just as other giants did. Check out T[witter, Instagram, or YouTube pivot stories](/blog/app-development-pivots-that-prove-the-mvp-works/).
+If not, you can always try to pivot, just as other giants did. Check out [Twitter, Instagram, or YouTube pivot stories](/blog/app-development-pivots-that-prove-the-mvp-works/).
 
 ## A tight budget helps to be creative and keep it simple and UX-friendly at the same time
 
