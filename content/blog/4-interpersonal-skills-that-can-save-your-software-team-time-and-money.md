@@ -100,7 +100,7 @@ overall success of the team.
 
 Source: https://www.zippia.com/advice/employee-feedback-statistics
 
-## **What mattes are people** 
+## **What matters are people** 
 
 Overall strong interpersonal skills are crucial for successful teamwork and collaboration. Software developers (and
 people in general) who can communicate openly, listen actively, and understand others' perspectives are more likely to
