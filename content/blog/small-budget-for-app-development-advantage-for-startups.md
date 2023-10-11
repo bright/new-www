@@ -1,7 +1,7 @@
 ---
 author: mateusz
-secondAuthor: michal-was
-thirdAuthor: izabela
+secondAuthor: ""
+thirdAuthor: ""
 tags:
   - business
 date: 2023-10-09T07:34:48.568Z
@@ -44,7 +44,7 @@ If not, you can always try to pivot, just as other giants did. Check out [Twitte
 
 A smaller budget pushes you to look for simple but still high-quality solutions. It's great when you have a team or MVP partner who is flexible in looking for creative ways when they are more beneficial.
 
-We asked our colleagues how they find more creative and often low-cost ways to meet client’s goals. Here’s an example:
+I asked our colleagues how they find more creative and often low-cost ways to meet client’s goals. Here’s an example:
 
 <blockquote><h2>Implementing a low-cost and more user-friendly solution</h2><div>The client wanted to implement quite complex functionality, which was designed as a set of 5 separate screens. After analyzing the client's requirements, we proposed a more straightforward solution that included all the necessary features on a single screen. Following a consultation with the designer, the client chose our proposal, which turned out to be easier to implement and more user-friendly.</div><footer>Michał Waśniewski, Senior iOS Developer at Bright Inventions</footer></blockquote>
 
