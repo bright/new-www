@@ -5,7 +5,7 @@ our_service:
   - MVP-Entwicklung Agentur
 layout: project
 project_id: Messe-planung-software
-title: Messeplanungssoftware
+title: Software für Messeplanung
 image: /images/xpomaker_dashboard2.png
 description: Eine Messeplanungssoftware, die Art und Weise revolutioniert, wie
   Unternehmen alle für Branchenveranstaltungen erforderlichen Assets vorbereiten
