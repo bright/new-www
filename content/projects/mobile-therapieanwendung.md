@@ -5,7 +5,7 @@ our_service:
   - MVP-Entwicklung Agentur
 layout: project
 project_id: Mobile Therapieanwendung
-title: Mobile Therapieanwendung
+title: App für Physiotherapie
 image: /images/mobile_therapy_app1.jpg
 description: Eine mobile Anwendung für das Gesundheitswesen, die Patienten bei
   der Physiotherapie unterstützt. Es bietet Therapeuten eine einfache
