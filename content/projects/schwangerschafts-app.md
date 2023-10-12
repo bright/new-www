@@ -5,7 +5,7 @@ our_service:
   - MVP-Entwicklung Agentur
 layout: project
 project_id: Pregnancy App German
-title: App für das Gesundheitswesen
+title: App für Schwangere
 image: /images/pregnancy_app1.png
 description: Eine mobile App für das Gesundheitswesen, die schwangere Frauen in
   jeder Phase ihrer Schwangerschaft und Geburt unterstützt und ihnen Übungen,
