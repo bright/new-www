@@ -10,5 +10,6 @@ answer: Nope. 😉  Our job is to adjust the workshops to the experience and
   Also, we’d love to cooperate with teams that have implemented Agile
   methodologies and have a feeling that it is not efficient enough.
 published: true
+show_on_career: true
 language: en
 ---

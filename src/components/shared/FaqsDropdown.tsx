@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import variables, { font } from '../../styles/variables';
 import questionArrow from '../../../static/images/arrowFaqs.svg'
 import { CustomTextRegular } from './index.styled';
+import { MoreButton } from '.';
 
 
 const FaqWrapper = styled.div`
@@ -119,6 +120,17 @@ interface FaqItem {
         answer: string;
     };
 }
+const CareerMoreButtonWrapper = styled.div`
+& .see-more {
+  border: none;
+  font-size: ${variables.pxToRem(22)};
+    &:hover {
+      color: ${variables.color.primary};
+      background: ${variables.color.white};
+      border: none;
+    }
+}
+`
 
 
 interface FaqsDropdownProps {
@@ -126,12 +138,16 @@ interface FaqsDropdownProps {
     faqSlug?: string;
     slug?: string;
     ref: React.RefObject<HTMLDivElement>;
-    generateLink: (args: { basePath: string; faqSlug?: string | undefined }) => string
+  generateLink: (args: { basePath: string; faqSlug?: string | undefined }) => string;
     offset?: number;
+  shortList?: boolean;
 
 }
 
-const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs, faqSlug, slug, generateLink, offset }, ref) => {
+const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs, faqSlug, slug, generateLink, offset, shortList = false }, ref) => {
+  const [show, setShow] = useState<any>({})
+  const [showAll, setShowAll] = useState(false);
+
     useEffect(() => {
         if (faqSlug) {
             const index = faqs.map(({ frontmatter: faq }: { frontmatter: { slug: string } }) => faq.slug).indexOf(faqSlug)
@@ -153,8 +169,6 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
             }
         }
     }, [])
-
-    const [show, setShow] = useState<any>({})
 
     const handleShow = (i: number) => {
         const currentFaqSlug = faqs[i]?.frontmatter?.slug;
@@ -190,12 +204,14 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
         }))
     }
 
+  const faqsToRender = (!shortList || showAll) ? faqs : faqs.slice(0, 6);
+
     return (
 
 
         <>
             {faqs &&
-                faqs.map(({ frontmatter: faq }: { frontmatter: Pick<Queries.FaqsFrontmatter, 'question' | 'answer' | 'slug'> }, i: number) => {
+          faqsToRender.map(({ frontmatter: faq }: { frontmatter: Pick<Queries.FaqsFrontmatter, 'question' | 'answer' | 'slug'> }, i: number) => {
 
                     const { question, answer, slug } = faq
                     const answerAsHtml = (answer as unknown as Queries.SimpleMdx).html!
@@ -216,6 +232,11 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
                         </FaqWrapper>
                     )
                 })}
+        {shortList && !showAll && faqs.length > 6 && (
+          <CareerMoreButtonWrapper>
+            <MoreButton onClick={() => setShowAll(true)} className='see-more'>see more</MoreButton>
+          </CareerMoreButtonWrapper>
+        )}
         </>
     )
 })
