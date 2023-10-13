@@ -8,5 +8,6 @@ answer: The number of participants of the Agile workshop is usually up to 10
   people. If you have a bigger team, we can create a couple of workshops for
   smaller groups (from 1 to 10 participants each).
 published: true
+show_on_career: true
 language: en
 ---
