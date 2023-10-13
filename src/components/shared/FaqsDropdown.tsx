@@ -232,9 +232,12 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
                         </FaqWrapper>
                     )
                 })}
-        {shortList && !showAll && faqs.length > 6 && (
+        {shortList && faqs.length > 6 && (
           <CareerMoreButtonWrapper>
-            <MoreButton onClick={() => setShowAll(true)} className='see-more'>see more</MoreButton>
+            {showAll ? (
+              <MoreButton onClick={() => setShowAll(false)} className='see-more'>see less</MoreButton>
+            ) : (<MoreButton onClick={() => setShowAll(true)} className='see-more'>see more</MoreButton>)}
+
           </CareerMoreButtonWrapper>
         )}
         </>
