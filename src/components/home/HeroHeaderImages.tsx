@@ -238,7 +238,7 @@ const HeroHeaderImages: React.FC = () => {
           </ImagesHorizontal>
         </Link>
         <MoreButtonWrapper>
-          <MoreButton href={routeLinks.career} className='hero-header-button' isBlack>
+          <MoreButton href={routeLinks.career()} className='hero-header-button' isBlack>
             join our team
           </MoreButton>
         </MoreButtonWrapper>
