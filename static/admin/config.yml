@@ -379,4 +379,5 @@ collections:
       - { label: 'Question', name: 'question', widget: 'markdown' }
       - { label: 'Answer', name: 'answer', widget: 'markdown' }
       - { label: 'Published', name: 'published', widget: 'boolean', default: true }
+      - { label: 'Show on Career', name: 'show_on_career', widget: 'boolean', default: false }
       - *language_widget

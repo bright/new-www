@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Page } from '../layout/Page'
 import { HelmetMetaData } from '../meta/HelmetMetaData'
 import { PageTitle, Section } from '../components/shared'
@@ -13,6 +12,10 @@ import Traits from '../career/_Traits'
 import Form from '../career/_Form'
 import styled from 'styled-components'
 import variables from '../styles/variables'
+import CareerFaqs from '../career/CareerFaqs'
+import { graphql, useStaticQuery } from 'gatsby'
+import { FaqStructuredData } from '../FaqStructuredData'
+
 
 export const SectionCareerTitle = styled(Section)`
   padding: 3rem 2rem 3rem 2rem;
@@ -37,8 +40,17 @@ const PageTitleCareer = styled(PageTitle)`
     font-weight: 900;
   }
 `
+interface CareerPageProps {
 
-const CareerPage: React.FC = () => {
+  pageContext: {
+    language: string
+    slug: string
+  }
+}
+
+const CareerPage: React.FC<CareerPageProps> = ({ pageContext }) => {
+  const data = useStaticQuery(faqsQuery)
+  const faqs = data.allMdx.edges.map((edge: any) => edge.node)
   return (
     <Page className='page-career'>
       <HelmetMetaData
@@ -64,10 +76,29 @@ const CareerPage: React.FC = () => {
 
       <Traits />
       <Benefits />
-
+      <CareerFaqs faqSlug={pageContext.slug} faqs={faqs} />
       <Form />
+      <FaqStructuredData faqs={faqs} />
     </Page>
   )
 }
-
+const faqsQuery = graphql`
+  query {
+    allMdx(
+      filter: {frontmatter: {show_on_career: {in: true}, layout: {eq: "faqs"}, published: {ne: false}}}
+    ) {
+      edges {
+        node {
+          frontmatter {
+            question
+            slug
+            answer {
+              html
+            }
+          }
+        }
+      }
+    }
+  }
+`
 export default CareerPage

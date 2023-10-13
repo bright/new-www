@@ -11,5 +11,6 @@ answer: It is a great opportunity to look at project management with a deep
   Agile methodology can work at your organisation. We will provide you with
   Agile knowledge, tools and best practices suited to your team.
 published: true
+show_on_career: true
 language: en
 ---

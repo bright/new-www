@@ -688,7 +688,7 @@ export default function Template({
         </CustomSection>
       </JobSection>
       <WrapperJobBackButton>
-        <JobBackButton label='back to career' url={`${routeLinks.career}`} arrowColor='orange' />
+        <JobBackButton label='back to career' url={`${routeLinks.career()}`} arrowColor='orange' />
       </WrapperJobBackButton>
 
       {/* <script type="application/ld+json">

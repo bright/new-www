@@ -18,7 +18,7 @@ const TopMenu: MenuElement[] = [
   { link: routeLinks.aboutUs(), title: 'why us' },
   { link: routeLinks.whatWeOffer, title: 'what we do' },
   { link: routeLinks.projects, title: 'case studies' },
-  { link: routeLinks.career, title: 'career' },
+  { link: routeLinks.career(), title: 'career' },
   { link: routeLinks.blog, title: 'blog' },
   { link: routeLinks.startProject, title: 'estimate project', className: 'is-primary' },
 ]

@@ -32,7 +32,7 @@ export const FormComponent: React.FC<Props> = props => {
     title = (
       <>
         want to be part of a bright a story? drop us a line or check{' '}
-        <Link to={routeLinks.career}>
+        <Link to={routeLinks.career()}>
           <span>open positions</span>
         </Link>
       </>

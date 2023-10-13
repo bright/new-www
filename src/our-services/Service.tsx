@@ -35,6 +35,7 @@ import { FlexWrapper } from '../components/shared'
 import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 
 import { MoreButton } from '../components/shared'
+import FaqsDropdown from '../components/shared/FaqsDropdown'
 
 
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
@@ -57,23 +58,23 @@ export default function Template({
   const { faqSlug, language } = pageContext
   const de = language === 'de'
 
-  useEffect(() => {
-    if (faqSlug) {
-      const index = faqs.map(({ frontmatter: faq }: { frontmatter: { slug: string }}) => faq.slug).indexOf(faqSlug)
+  // useEffect(() => {
+  //   if (faqSlug) {
+  //     const index = faqs.map(({ frontmatter: faq }: { frontmatter: { slug: string }}) => faq.slug).indexOf(faqSlug)
 
-      if (index >= 0 && myRef.current) {
-        handleShow(index)
-        const yOffset = 400
-        const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
+  //     if (index >= 0 && myRef.current) {
+  //       handleShow(index)
+  //       const yOffset = 400
+  //       const y = myRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset
 
-        setTimeout(() => {
-          window.scrollTo({
-            top: y,
-          })
-        }, 100)
-      }
-    }
-  }, [])
+  //       setTimeout(() => {
+  //         window.scrollTo({
+  //           top: y,
+  //         })
+  //       }, 100)
+  //     }
+  //   }
+  // }, [])
 
   const [show, setShow] = useState<any>({})
 
@@ -99,35 +100,6 @@ export default function Template({
     project: projects,
     slug,
   } = page
-
-  const handleShow = (i: number) => {
-    if (!show[i]) {
-      const ourAreasFaqLink = routeLinks.ourAreas({
-        service: slug,
-        faqSlug: faqs[i].frontmatter.slug,
-      })
-      window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
-    } else {
-      const showArray = Object.keys(show).map(function (k) {
-        return { value: show[k], index: k }
-      })
-      const nearestOpenedFaq = showArray.find(item => item.value && item.index != i.toString())
-
-      const openedFaqSlug = nearestOpenedFaq ? faqs[nearestOpenedFaq.index].frontmatter.faqSlug : undefined
-
-      const ourAreasFaqLink = routeLinks.ourAreas({
-        service: slug,
-        faqSlug: openedFaqSlug,
-      })
-      window.history.pushState({ path: ourAreasFaqLink }, '', ourAreasFaqLink)
-    }
-
-    setShow((prevshow: any) => ({
-      ...prevshow,
-      [i]: !prevshow[i],
-    }))
-  }
-
   const titleArr = title.split(' ')
   const newTitle = titleArr.map((ta: string) => {
     const highlightedWordArr = highlighted_word?.split(' ')
@@ -278,26 +250,8 @@ export default function Template({
             </CustomSectionTitle>
           )}
 
-          {faqs &&
-            faqs.map(({ frontmatter: faq }: { frontmatter: Pick<Queries.FaqsFrontmatter, 'question' | 'answer' | 'slug'> }, i: number) => {
-              const { question, answer, slug } = faq
-              const answerAsHtml = (answer as unknown as Queries.SimpleMdx).html!
-              return (
-                <FaqWrapper ref={slug == faqSlug ? myRef : null} key={slug}>
-                  {answer ? (
-                    <Question onClick={() => handleShow(i)} shown={show[i]}>
-                      {question}
+          {faqs && <FaqsDropdown faqs={faqs} faqSlug={faqSlug} generateLink={(args) => routeLinks.ourAreas({ service: args.basePath, faqSlug: args.faqSlug })} ref={myRef} slug={slug} offset={400} />}
 
-                      <span></span>
-                    </Question>
-                  ) : null}
-
-                  {show[i] && answer ? (
-                    <FaqsTextRegural className='content' dangerouslySetInnerHTML={{ __html: answerAsHtml }} />
-                  ) : null}
-                </FaqWrapper>
-              )
-            })}
         </CustomSectionInner>
       </CustomSection>
       <Contact
