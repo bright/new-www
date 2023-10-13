@@ -90,7 +90,7 @@ export const Footer = () => {
               <Link to={routeLinks.projects}>projects</Link>
             </p>
             <p className='content'>
-              <Link to={routeLinks.career}>career</Link>
+              <Link to={routeLinks.career()}>career</Link>
             </p>
             <p className='content'>
               <Link to={routeLinks.blog}>blog</Link>

@@ -202,7 +202,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       const postsPerPage = 10
       const numPages = Math.ceil(uniqueAuthors.length / postsPerPage)
 
-      const memberBasePage = routeLinks.aboutUs({authorId: member.id, slug: member.slug})
+      const memberBasePage = routeLinks.aboutUs({ authorId: member.id, slug: member.slug })
       if (!member.ex) {
         if (posts.length === 0) {
           createPage({
@@ -287,6 +287,48 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
       })
     })
   })
+
+  const faqsCareerResult = await graphql<GQLData>(
+    `
+      {
+        allMdx(
+          filter: { frontmatter: { show_on_career: { in: true }, layout: { eq: "faqs" }, published: { ne: false } } }
+        ) {
+          edges {
+            node {
+              id
+              frontmatter {
+                slug
+              }
+              internal {
+                contentFilePath
+              }
+            }
+          }
+        }
+      }
+    `
+  )
+  const faqsCareer = faqsCareerResult.data!.allMdx.edges
+  faqsCareer.forEach(
+    (faq: {
+      node: {
+        id: string
+        frontmatter: { question: string; slug: string; language: string }
+        internal: { contentFilePath: string }
+      }
+    }) => {
+      createPage({
+        path: 'career/' + faq.node.frontmatter.slug,
+        component: `${__dirname}/src/pages/career.tsx?__contentFilePath=${faq.node.internal.contentFilePath}`,
+        context: {
+          id: faq.node.id,
+          slug: faq.node.frontmatter.slug,
+          language: faq.node.frontmatter.language,
+        },
+      })
+    }
+  )
 
   const postResult = await graphql<GQLData>(
     `
@@ -500,6 +542,7 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
   actions.createTypes(
     `type Members implements Node {
       posts: [Blog] @link(by: "author.author_id", from: "author_id") 
+      
     }`
   )
 }
