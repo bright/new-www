@@ -7,7 +7,7 @@ date: 2023-10-12T15:21:50.260Z
 meaningfullyUpdatedAt: 2023-10-12T15:21:50.284Z
 title: "Strong Women in IT 2023 - find your own role model "
 layout: post
-image: /images/img_20230911_133913.jpg
+image: /images/johannes-andersson-bmgzbds4hey-unsplash.jpg
 hidden: false
 comments: true
 published: true
