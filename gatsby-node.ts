@@ -299,6 +299,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
               id
               frontmatter {
                 slug
+                language
               }
               internal {
                 contentFilePath
@@ -314,7 +315,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ actions, graphql,
     (faq: {
       node: {
         id: string
-        frontmatter: { question: string; slug: string; language: string }
+        frontmatter: { slug: string; language: string }
         internal: { contentFilePath: string }
       }
     }) => {
@@ -542,7 +543,7 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
   actions.createTypes(
     `type Members implements Node {
       posts: [Blog] @link(by: "author.author_id", from: "author_id") 
-      
+    
     }`
   )
 }
