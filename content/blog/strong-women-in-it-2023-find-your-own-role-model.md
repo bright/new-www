@@ -7,7 +7,7 @@ date: 2023-10-12T15:21:50.260Z
 meaningfullyUpdatedAt: 2023-10-12T15:21:50.284Z
 title: "Strong Women in IT 2023 - Find Your Own Role Model "
 layout: post
-image: /images/screenshot-2023-10-13-at-07.53.39.png
+image: /images/blog_post_cover_women_hiking.png
 hidden: false
 comments: true
 published: true
