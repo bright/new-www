@@ -17,7 +17,7 @@ const CareerFaqs = ({ faqSlug, faqs }: { faqSlug: string, faqs: [] }) => {
           most common questions
         </CustomSectionTitle>
 
-        <FaqsDropdown faqs={faqs} faqSlug={faqSlug} slug={routeLinks.career()} generateLink={(args) => routeLinks.career({ faqSlug: args.faqSlug })} ref={myRef} offset={400} shortList={true} />
+        <FaqsDropdown faqs={faqs} faqSlug={faqSlug} slug={routeLinks.career()} generateLink={(args) => routeLinks.career({ faqSlug: args.faqSlug })} ref={myRef} offset={-400} shortList={true} />
       </CustomSectionInner>
     </CustomSection>
   )
