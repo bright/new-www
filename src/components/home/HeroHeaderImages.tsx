@@ -158,7 +158,7 @@ const HeroHeaderImages: React.FC = () => {
     <HeroSectionWrapper>
       <CustomContainer>
         <HeroSectionTitle>
-          meet <span>bright</span> team
+          meet the<span>bright</span> team
         </HeroSectionTitle>
 
         <Link to={routeLinks.aboutUs({ page: 'team' })}>
