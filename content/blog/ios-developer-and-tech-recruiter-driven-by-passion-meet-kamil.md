@@ -70,3 +70,5 @@ We work on a **food delivery app for the Israeli market** that focuses on both p
 **We have proved our expertise more than once, so they really listen to our recommendations**. It enables us to implement new solutions from Apple naturally while business knows it will be beneficial to them. It also allows us to be truly part of the process, aligning it to people, and not squeeze people inside some narrow box straight from the Scrum guide.
 
 <div class="image"><img src="/images/kamil_team.png" alt="Bright Inventions’ team retreat in Stockholm." title="Bright Inventions’ team retreat in Stockholm."  /> </div>
+
+## You are a tech recruiter at Bright Inventions. What is a perfect match in your opinion?
