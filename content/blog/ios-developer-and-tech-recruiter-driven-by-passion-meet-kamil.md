@@ -56,3 +56,11 @@ However, during student internships, I could see that **it might be tricky for m
 <div class="image"><img src="/images/kamil_travel_rome.png" alt="When the storm comes – there are no crowds in Rome!" title="When the storm comes – there are no crowds in Rome!"  /> </div>
 
 ## Finally! And how did you become an iOS developer?
+
+**I enjoy seeing the effects of my work. It's what I loved about automation**. Pumps, valves, actuators, motors – everything moves and is physically present, not virtual. You see the whole organism working. **The closest thing in IT I could think of that you can “touch” and interact with are mobile phones**. So I decided that mobile development is the way to go.
+
+I actually started with Android and entered the null-pointer exception Java world. I think KitKat 4.0 was my first operating system. Back then, I worked at a software company in Wrocław, and they asked me if I wanted to try to migrate one of their in-house products to iOS. I was happy to learn something new. Fortunately, it was the end of Objective-C, and I was already learning to code in Swift 2.0.
+
+That was also the time when Kotlin started to be in the spotlight. I remember attending a local Android meetup and seeing a presentation where **Kotlin was described as “the next big thing”. At the same time, I was looking at Swift – it was not “the next thing”. It was already there**. Production ready, fully supported, people jumping to it from Obj-c like crazy. So I decided to stick with it.
+
+## Tell us more about your actual project at Bright Inventions
