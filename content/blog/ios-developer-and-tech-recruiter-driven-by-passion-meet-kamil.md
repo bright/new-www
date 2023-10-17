@@ -5,12 +5,12 @@ tags:
   - bright story
   - iOS
   - inspiration
-date: 2023-10-17T10:55:39.754Z
-meaningfullyUpdatedAt: 2023-10-17T10:55:39.785Z
+date: 2023-10-17T11:27:42.085Z
+meaningfullyUpdatedAt: 2023-10-17T11:27:43.101Z
 title: iOS Developer and Tech Recruiter Driven by Passion. Meet Kamil
 layout: post
 image: /images/brightstorykamil.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
@@ -101,4 +101,6 @@ I would only add to that – stay curious.
 
 Yes, of course! **I recently made my own prawn tagliatelle**. It takes some time to do it properly. Recently I started thinking if it's worth it. I even bought the same type of durum pasta from the store to make sure there was a difference. There was. A LOT. 
 
-My passion for homemade pasta started from the cooking classes I took with my girlfriend. We were looking for new hobbies and we decided to try it. It inspired us to try to prepare some food from around the world. We enjoy not only the better taste but the whole experience. It's a great way to spend time preparing meals together.
+My passion for homemade pasta started from the cooking classes I took with my girlfriend. We were looking for new hobbies and we decided to try it. It inspired us to try to prepare some food from around the world. We enjoy not only the better taste but the whole experience. It's a great way to spend time preparing meals together. 
+
+<div class='block-button'><h2>Join Kamil</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="https://brightinventions.pl/jobs/senior-ios-developer/"><button>apply now</button></a></div>
