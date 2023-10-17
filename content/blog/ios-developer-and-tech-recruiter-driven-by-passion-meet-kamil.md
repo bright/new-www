@@ -33,6 +33,8 @@ Not yet, but I have to admit **I am tempted**. I still have an iPhone 13. I was 
 
 In general I think I agree with what [MKBHD](https://www.youtube.com/user/marquesbrownlee) recently said in one of his videos. **New iPhones are like porsche, each generation is an improvement, but not a revolution**. Over longer periods of time – you can really appreciate what changed. Are two years sufficient? I think that's a question that everyone needs to answer themselves.
 
+<div class='block-button'><h2>Do you want to work with Kamil?</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="https://brightinventions.pl/jobs/senior-ios-developer/"><button>apply now</button></a></div>
+
 ## Is it true that you have been programming for half of your life?
 
 It certainly feels like it. 😀 Honestly, **I think it’s even longer than that**. I have a brother who is 9 years older than me. He was always interested in IT and was studying Computer Science. I followed his steps. Every pocket money we had we invested in hardware and we split expenses. For example, my brother bought a processor, and I bought RAM. Obviously when we were fighting, I was taking my RAM away. Sometimes we disassembled the computer a few times a week. 😀
