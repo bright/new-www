@@ -52,3 +52,5 @@ In the second grade of the technical school we started to program PLC. I found o
 However, during student internships, I could see that **it might be tricky for me to freely develop advanced skills in that area.** From my observations during that time **it was very rare to be an “author” of automations systems and software**. In Poland most people work as a person who just assembles ready-made projects or services them. To be something more you are fully dependent on the company you land in. Whether it supports your growth, paying for your courses and very expensive certifications. 
 
 **In programming, you don’t need pricey courses. The only true limitation is You**. If you are determined, consistent, curious and open minded – you can excel in your area (no pun intended). Also, **who am I kidding – I love programming**, so eventually I chose Computer Studies as my Master’s.
+
+<div class="image"><img src="/images/kamil_travel_rome.png" alt="When the storm comes – there are no crowds in Rome!" title="When the storm comes – there are no crowds in Rome!"  /> </div>
