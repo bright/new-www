@@ -112,14 +112,6 @@ const FaqsTextRegural = styled(CustomTextRegular)`
     }
   }
 `
-
-interface FaqItem {
-    frontmatter: {
-        slug: string;
-        question: string;
-        answer: string;
-    };
-}
 const CareerMoreButtonWrapper = styled.div`
 & .see-more {
   border: none;
@@ -131,8 +123,13 @@ const CareerMoreButtonWrapper = styled.div`
     }
 }
 `
-
-
+interface FaqItem {
+  frontmatter: {
+    slug: string;
+    question: string;
+    answer: string;
+  };
+}
 interface FaqsDropdownProps {
     faqs: FaqItem[];
     faqSlug?: string;
@@ -155,24 +152,34 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
     }
   }, [])
 
+
+
+
+
   useEffect(() => {
     if (faqSlug && faqs) {
       const index = faqs.findIndex((faq) => faq.frontmatter.slug === faqSlug);
+      if (index >= 0 && typeof ref !== "function" && ref?.current) {
+        handleShow(index)
+        let yOffset = 0
+        if (offset !== undefined) {
+          yOffset = offset
+        }
+        const targetElement = ref?.current;
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
-            if (index >= 0 && typeof ref !== "function" && ref?.current) {
-                handleShow(index)
-                let yOffset = 0
-                if (offset !== undefined) {
-                    yOffset = offset
-                }
-              const y = ref?.current?.getBoundingClientRect().top + window.scrollY + yOffset
+        if (isSafari) {
+          targetElement.scrollIntoView({ block: 'start' });
+        } else {
+          const y = targetElement.getBoundingClientRect().top + window.scrollY + yOffset
+          setTimeout(() => {
+            window.scrollTo({
+              top: y,
+            })
+          }, 100)
+        }
 
-                setTimeout(() => {
-                    window.scrollTo({
-                        top: y,
-                    })
-                }, 100)
-            }
+      }
         }
   }, [showAll])
 
@@ -210,6 +217,7 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
             ...prevshow,
             [i]: !prevshow[i],
         }))
+
     }
 
   const faqsToRender = (!shortList || showAll) ? faqs : faqs.slice(0, 6);
