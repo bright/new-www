@@ -155,8 +155,11 @@ const BlockSmall = styled(Block)`
     }
   }
 `
+interface BenefitsProps {
+  faqSlug?: string
+}
 
-const Benefits: React.FC = () => {
+const Benefits: React.FC<BenefitsProps> = ({ faqSlug }) => {
   const [expanded, setExpanded] = useState(false)
   const [isScrolledDown, setIsScrolledDown] = useState(false)
 
@@ -200,6 +203,16 @@ const Benefits: React.FC = () => {
     ],
     [expanded]
   )
+  console.log('isScrolledDown', isScrolledDown)
+  console.log('faqSlug', faqSlug)
+  const mappedBlocks = blocks.map((block, index) => (
+    <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
+      <figure className='image is-inline-block'>
+        <img src={block.image} alt={block.alt} />
+      </figure>
+      <p>{block.title}</p>
+    </Block>
+  ));
 
   return (
     <CustomContainer>
@@ -220,15 +233,8 @@ const Benefits: React.FC = () => {
             <InstagramIconBlack />
           </a>
         </BlockSmall>
-        {isScrolledDown &&
-          blocks.map((block, index) => (
-            <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
-              <figure className='image is-inline-block'>
-                <img src={block.image} alt={block.alt} />
-              </figure>
-              <p>{block.title}</p>
-            </Block>
-          ))}
+
+        {faqSlug ? mappedBlocks : (isScrolledDown && mappedBlocks)}
 
         <BlockSmall className='is-pulled-left'>
           <span onClick={() => setExpanded(!expanded)} className='more'>
