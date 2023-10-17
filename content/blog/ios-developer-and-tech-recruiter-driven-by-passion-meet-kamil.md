@@ -90,3 +90,9 @@ Yes, **I would admire them even more. I mean people who want to catch up in thei
 **iOS developers at Bright Inventions are passionate about their work. I know it sounds super cliche, but it’s true**. When looking at tedious tasks – our first thought is how we can automate it. Second one is – how we can improve it. We follow every news, update, attend iOS conferences etc. 
 
 <div class="image"><img src="/images/kamil_quote_thoughts.png" alt="Quote on automation" title="Quote on automation"  /> </div>
+
+Steve Jobs once said:
+
+<blockquote><div>Stay hungry. Stay foolish. Never let go of your appetite to go after new ideas, new experiences, and new adventures.</div><footer>Steve Jobs</footer></blockquote>
+
+I would only add to that – stay curious.
