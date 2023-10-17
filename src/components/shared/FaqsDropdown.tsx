@@ -148,9 +148,16 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
   const [show, setShow] = useState<any>({})
   const [showAll, setShowAll] = useState(false);
 
-    useEffect(() => {
-        if (faqSlug) {
-            const index = faqs.map(({ frontmatter: faq }: { frontmatter: { slug: string } }) => faq.slug).indexOf(faqSlug)
+  useEffect(() => {
+    const index = faqs.findIndex((faq) => faq.frontmatter.slug === faqSlug);
+    if (index > 5 && faqSlug) {
+      setShowAll(true)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (faqSlug && faqs) {
+      const index = faqs.findIndex((faq) => faq.frontmatter.slug === faqSlug);
 
             if (index >= 0 && typeof ref !== "function" && ref?.current) {
                 handleShow(index)
@@ -158,8 +165,7 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
                 if (offset !== undefined) {
                     yOffset = offset
                 }
-                const y = ref?.current?.getBoundingClientRect().top + window.pageYOffset + yOffset
-
+              const y = ref?.current?.getBoundingClientRect().top + window.scrollY + yOffset
 
                 setTimeout(() => {
                     window.scrollTo({
@@ -168,11 +174,13 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
                 }, 100)
             }
         }
-    }, [])
+  }, [showAll])
 
     const handleShow = (i: number) => {
+
         const currentFaqSlug = faqs[i]?.frontmatter?.slug;
         if (!currentFaqSlug) return;
+
         if (!show[i]) {
             const OurFaqLink = generateLink({
                 basePath: slug || "default-value",
