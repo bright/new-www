@@ -203,8 +203,7 @@ const Benefits: React.FC<BenefitsProps> = ({ faqSlug }) => {
     ],
     [expanded]
   )
-  console.log('isScrolledDown', isScrolledDown)
-  console.log('faqSlug', faqSlug)
+
   const mappedBlocks = blocks.map((block, index) => (
     <Block key={block.title} className={`is-pulled-${index % 2 ? 'right' : 'left'}`}>
       <figure className='image is-inline-block'>
