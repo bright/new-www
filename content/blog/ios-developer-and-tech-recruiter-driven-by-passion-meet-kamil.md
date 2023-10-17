@@ -72,3 +72,11 @@ We work on a **food delivery app for the Israeli market** that focuses on both p
 <div class="image"><img src="/images/kamil_team.png" alt="Bright Inventions’ team retreat in Stockholm." title="Bright Inventions’ team retreat in Stockholm."  /> </div>
 
 ## You are a tech recruiter at Bright Inventions. What is a perfect match in your opinion?
+
+For me the **perfect Bright Inventions & candidate match is someone who sees the problem and first asks "why"**. A person **who tries to understand the context of the issue**. Look at it in a holistic way. Not just someone who wants to fix it without understanding what is really broken. 
+
+What if a solution that everyone agreed upon only tackled symptoms not cause? Or some questions were never asked, because it was assumed that they were already answered? **During the interview, we try to determine if someone truly wants to grasp the root causes of the problem**.
+
+Another important thing is **whether you keep on growing as an iOS developer**. It might sound harsh – but if you don't move forward with technology, then you are not only left behind, you move backward. This is especially evident in iOS. You can be an iOS developer who never wrote a single code in SwiftUI. Who doesn't know about Combine and is oblivious to Tasks, and Actors. Maybe never heard of Macros and SwiftData. You can continue doing your work like that for years, and suddenly your client asks you if they should switch to SwiftUI, and you have no idea what to say. 
+
+<div class="image"><img src="/images/kamil_quote_ios.png" alt="Quote on carer growth" title="Quote on carer growth"  /> </div>
