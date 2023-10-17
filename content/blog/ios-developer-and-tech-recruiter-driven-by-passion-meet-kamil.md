@@ -64,3 +64,9 @@ I actually started with Android and entered the null-pointer exception Java worl
 That was also the time when Kotlin started to be in the spotlight. I remember attending a local Android meetup and seeing a presentation where **Kotlin was described as “the next big thing”. At the same time, I was looking at Swift – it was not “the next thing”. It was already there**. Production ready, fully supported, people jumping to it from Obj-c like crazy. So I decided to stick with it.
 
 ## Tell us more about your actual project at Bright Inventions
+
+We work on a **food delivery app for the Israeli market** that focuses on both private and enterprise clients. The best thing about this project is the trust we have managed to build in the client-Bright Inventions relationship. 
+
+**We have proved our expertise more than once, so they really listen to our recommendations**. It enables us to implement new solutions from Apple naturally while business knows it will be beneficial to them. It also allows us to be truly part of the process, aligning it to people, and not squeeze people inside some narrow box straight from the Scrum guide.
+
+<div class="image"><img src="/images/kamil_team.png" alt="Bright Inventions’ team retreat in Stockholm." title="Bright Inventions’ team retreat in Stockholm."  /> </div>
