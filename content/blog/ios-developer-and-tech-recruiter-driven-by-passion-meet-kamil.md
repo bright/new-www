@@ -32,3 +32,13 @@ Wine, Spain and iOS? Couldn't be better! I went there with Filip from the team, 
 Not yet, but I have to admit **I am tempted**. I still have an iPhone 13. I was considering a pro model and looking for any great app that would "sell" LIDAR to me – but such an app still needs to be created I suppose. Maybe I will buy a new one this year, as dynamic island and USB-C (Finally, thanks EU!) makes my pocket shiver. 
 
 In general I think I agree with what [MKBHD](https://www.youtube.com/user/marquesbrownlee) recently said in one of his videos. **New iPhones are like porsche, each generation is an improvement, but not a revolution**. Over longer periods of time – you can really appreciate what changed. Are two years sufficient? I think that's a question that everyone needs to answer themselves.
+
+## Is it true that you have been programming for half of your life?
+
+It certainly feels like it. 😀 Honestly, **I think it’s even longer than that**. I have a brother who is 9 years older than me. He was always interested in IT and was studying Computer Science. I followed his steps. Every pocket money we had we invested in hardware and we split expenses. For example, my brother bought a processor, and I bought RAM. Obviously when we were fighting, I was taking my RAM away. Sometimes we disassembled the computer a few times a week. 😀
+
+I think **the first code I wrote was when I was around 11-12 years old**. I was playing one of the first MMORPGs back then – Eternal Lands. I joined one of the in-game guilds and decided that I would try to create a website for our team.
+
+The way I learned was by copying other websites' code and deleting some parts to see what would be missing from the page. By playing online I already knew a bit of English – so I had this advantage. That's how I understood the concept of head, body, etc. I didn't know PHP (oh what a lucky and unaware sunshine I was), so my learning process was limited. 
+
+## I assume you wanted to be a programmer when you grew up?
