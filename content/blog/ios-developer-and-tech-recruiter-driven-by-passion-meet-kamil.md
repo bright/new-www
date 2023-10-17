@@ -33,6 +33,8 @@ Not yet, but I have to admit **I am tempted**. I still have an iPhone 13. I was 
 
 In general I think I agree with what [MKBHD](https://www.youtube.com/user/marquesbrownlee) recently said in one of his videos. **New iPhones are like porsche, each generation is an improvement, but not a revolution**. Over longer periods of time – you can really appreciate what changed. Are two years sufficient? I think that's a question that everyone needs to answer themselves.
 
+<div class='block-button'><h2>Do you want to work with Kamil?</h2><div>We are looking for an experienced iOS Developer whose main goal will be supporting us in building the powerful high profile iOS application that will impact how Just Eat shapes the retail world.</div><a href="https://brightinventions.pl/jobs/senior-ios-developer/"><button>apply now</button></a></div>
+
 ## Is it true that you have been programming for half of your life?
 
 It certainly feels like it. 😀 Honestly, **I think it’s even longer than that**. I have a brother who is 9 years older than me. He was always interested in IT and was studying Computer Science. I followed his steps. Every pocket money we had we invested in hardware and we split expenses. For example, my brother bought a processor, and I bought RAM. Obviously when we were fighting, I was taking my RAM away. Sometimes we disassembled the computer a few times a week. 😀
@@ -54,6 +56,8 @@ However, during student internships, I could see that **it might be tricky for m
 **In programming, you don’t need pricey courses. The only true limitation is You**. If you are determined, consistent, curious and open minded – you can excel in your area (no pun intended). Also, **who am I kidding – I love programming**, so eventually I chose Computer Studies as my Master’s.
 
 <div class="image"><img src="/images/kamil_travel_rome.png" alt="When the storm comes – there are no crowds in Rome!" title="When the storm comes – there are no crowds in Rome!"  /> </div>
+
+<center>When the storm comes – there are no crowds in Rome!</center>
 
 ## Finally! And how did you become an iOS developer?
 
@@ -87,9 +91,9 @@ Another important thing is **whether you keep on growing as an iOS developer**. 
 
 Yes, **I would admire them even more. I mean people who want to catch up in their free time because they are genuinely passionate about it**. You have to love iOS development, stay up-to-date, test new features and versions, etc., regardless of what you do at work. **When someone does it only because they’re forced by their job, that’s not our perfect match**. 
 
-**iOS developers at Bright Inventions are passionate about their work. I know it sounds super cliche, but it’s true**. When looking at tedious tasks – our first thought is how we can automate it. Second one is – how we can improve it. We follow every news, update, attend iOS conferences etc. 
-
 <div class="image"><img src="/images/kamil_quote_thoughts.png" alt="Quote on automation" title="Quote on automation"  /> </div>
+
+**iOS developers at Bright Inventions are passionate about their work. I know it sounds super cliche, but it’s true**. When looking at tedious tasks – our first thought is how we can automate it. Second one is – how we can improve it. We follow every news, update, attend iOS conferences etc. 
 
 Steve Jobs once said:
 
