@@ -42,3 +42,13 @@ I think **the first code I wrote was when I was around 11-12 years old**. I was 
 The way I learned was by copying other websites' code and deleting some parts to see what would be missing from the page. By playing online I already knew a bit of English – so I had this advantage. That's how I understood the concept of head, body, etc. I didn't know PHP (oh what a lucky and unaware sunshine I was), so my learning process was limited. 
 
 ## I assume you wanted to be a programmer when you grew up?
+
+Not really. 😀 I wanted to be a lawyer. My plan was to finish the most promising technical school in the area, leave my home town, get a good paying job and be able to finance my part-time studies. So I went to mechatronics technical school.
+
+## So how did you end up as a programmer? 😀
+
+In the second grade of the technical school we started to program PLC. I found out that I was pretty good at it!. I even won some contests. So I went full Leeroy Jenkins and decided to study Automation and Robotics. 
+
+However, during student internships, I could see that **it might be tricky for me to freely develop advanced skills in that area.** From my observations during that time **it was very rare to be an “author” of automations systems and software**. In Poland most people work as a person who just assembles ready-made projects or services them. To be something more you are fully dependent on the company you land in. Whether it supports your growth, paying for your courses and very expensive certifications. 
+
+**In programming, you don’t need pricey courses. The only true limitation is You**. If you are determined, consistent, curious and open minded – you can excel in your area (no pun intended). Also, **who am I kidding – I love programming**, so eventually I chose Computer Studies as my Master’s.
