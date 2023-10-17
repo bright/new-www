@@ -124,8 +124,7 @@ const PrivacyPolicy = () => {
                   Google Analytics 4;
                 </li>
                 <li>
-                  run marketing and business communication and distribute marketing content including sending email
-                  newsletter and conducting workshops, events &#x2013; based on contact data provided to Us, on the
+                  run marketing and business communication: distribute marketing content e.g. newsletters, ebooks, conduct offline and online events, and distribute recordings from these events on Bright Inventions' social media channels &#x2013; based on contact data provided to Us, on the
                   grounds of Our legitimate interests;
                 </li>
                 <li>
