@@ -89,9 +89,9 @@ Another important thing is **whether you keep on growing as an iOS developer**. 
 
 Yes, **I would admire them even more. I mean people who want to catch up in their free time because they are genuinely passionate about it**. You have to love iOS development, stay up-to-date, test new features and versions, etc., regardless of what you do at work. **When someone does it only because they’re forced by their job, that’s not our perfect match**. 
 
-**iOS developers at Bright Inventions are passionate about their work. I know it sounds super cliche, but it’s true**. When looking at tedious tasks – our first thought is how we can automate it. Second one is – how we can improve it. We follow every news, update, attend iOS conferences etc. 
-
 <div class="image"><img src="/images/kamil_quote_thoughts.png" alt="Quote on automation" title="Quote on automation"  /> </div>
+
+**iOS developers at Bright Inventions are passionate about their work. I know it sounds super cliche, but it’s true**. When looking at tedious tasks – our first thought is how we can automate it. Second one is – how we can improve it. We follow every news, update, attend iOS conferences etc. 
 
 Steve Jobs once said:
 
