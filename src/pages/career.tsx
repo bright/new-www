@@ -75,7 +75,7 @@ const CareerPage: React.FC<CareerPageProps> = ({ pageContext }) => {
       <OurWork />
 
       <Traits />
-      <Benefits />
+      <Benefits faqSlug={pageContext.slug} />
       <CareerFaqs faqSlug={pageContext.slug} faqs={faqs} />
       <Form />
       <FaqStructuredData faqs={faqs} />
