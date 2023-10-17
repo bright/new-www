@@ -54,3 +54,5 @@ However, during student internships, I could see that **it might be tricky for m
 **In programming, you don’t need pricey courses. The only true limitation is You**. If you are determined, consistent, curious and open minded – you can excel in your area (no pun intended). Also, **who am I kidding – I love programming**, so eventually I chose Computer Studies as my Master’s.
 
 <div class="image"><img src="/images/kamil_travel_rome.png" alt="When the storm comes – there are no crowds in Rome!" title="When the storm comes – there are no crowds in Rome!"  /> </div>
+
+## Finally! And how did you become an iOS developer?
