@@ -96,3 +96,9 @@ Steve Jobs once said:
 <blockquote><div>Stay hungry. Stay foolish. Never let go of your appetite to go after new ideas, new experiences, and new adventures.</div><footer>Steve Jobs</footer></blockquote>
 
 I would only add to that – stay curious.
+
+## I know you like making homemade pasta. Do you still do it?
+
+Yes, of course! **I recently made my own prawn tagliatelle**. It takes some time to do it properly. Recently I started thinking if it's worth it. I even bought the same type of durum pasta from the store to make sure there was a difference. There was. A LOT. 
+
+My passion for homemade pasta started from the cooking classes I took with my girlfriend. We were looking for new hobbies and we decided to try it. It inspired us to try to prepare some food from around the world. We enjoy not only the better taste but the whole experience. It's a great way to spend time preparing meals together.
