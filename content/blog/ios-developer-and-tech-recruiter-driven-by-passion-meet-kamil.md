@@ -16,3 +16,5 @@ published: true
 language: en
 ---
 **Although he was programming from the age of 11, he wanted to become a lawyer. Eventually, he listened to his true calling and followed a software engineering path. Check Kamil’s iOS development career story with some unusual Android stops on the way. Also, find out what he is seeking from candidates during interviews.**
+
+<div class="image"><img src="/images/brightstorykamilcollage.png" alt="iOS developer career story" title="iOS developer career story"  /> </div>
