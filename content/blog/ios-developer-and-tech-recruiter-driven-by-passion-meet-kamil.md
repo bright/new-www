@@ -55,6 +55,8 @@ However, during student internships, I could see that **it might be tricky for m
 
 <div class="image"><img src="/images/kamil_travel_rome.png" alt="When the storm comes – there are no crowds in Rome!" title="When the storm comes – there are no crowds in Rome!"  /> </div>
 
+<center>When the storm comes – there are no crowds in Rome!</center>
+
 ## Finally! And how did you become an iOS developer?
 
 **I enjoy seeing the effects of my work. It's what I loved about automation**. Pumps, valves, actuators, motors – everything moves and is physically present, not virtual. You see the whole organism working. **The closest thing in IT I could think of that you can “touch” and interact with are mobile phones**. So I decided that mobile development is the way to go.
