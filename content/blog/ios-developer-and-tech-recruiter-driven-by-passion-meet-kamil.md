@@ -26,3 +26,9 @@ Wine, Spain and iOS? Couldn't be better! I went there with Filip from the team, 
 <div class="image"><img src="/images/kamil_nsspain_travel.png" alt="Kamil and FIlip at NSSpain" title="Kamil and FIlip at NSSpain"  /> </div>
 
 <center>Kamil and FIlip at NSSpain</center>
+
+## Have you already bought a new iPhone? 😉
+
+Not yet, but I have to admit **I am tempted**. I still have an iPhone 13. I was considering a pro model and looking for any great app that would "sell" LIDAR to me – but such an app still needs to be created I suppose. Maybe I will buy a new one this year, as dynamic island and USB-C (Finally, thanks EU!) makes my pocket shiver. 
+
+In general I think I agree with what [MKBHD](https://www.youtube.com/user/marquesbrownlee) recently said in one of his videos. **New iPhones are like porsche, each generation is an improvement, but not a revolution**. Over longer periods of time – you can really appreciate what changed. Are two years sufficient? I think that's a question that everyone needs to answer themselves.
