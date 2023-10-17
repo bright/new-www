@@ -75,6 +75,8 @@ We work on a **food delivery app for the Israeli market** that focuses on both p
 
 <div class="image"><img src="/images/kamil_team.png" alt="Bright Inventions’ team retreat in Stockholm." title="Bright Inventions’ team retreat in Stockholm."  /> </div>
 
+<center> Bright Inventions’ team retreat in Stockholm. </center>
+
 ## You are a tech recruiter at Bright Inventions. What is a perfect match in your opinion?
 
 For me the **perfect Bright Inventions & candidate match is someone who sees the problem and first asks "why"**. A person **who tries to understand the context of the issue**. Look at it in a holistic way. Not just someone who wants to fix it without understanding what is really broken. 
