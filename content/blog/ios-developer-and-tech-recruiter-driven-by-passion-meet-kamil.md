@@ -82,3 +82,5 @@ Another important thing is **whether you keep on growing as an iOS developer**. 
 <div class="image"><img src="/images/kamil_quote_ios.png" alt="Quote on carer growth" title="Quote on carer growth"  /> </div>
 
 **It’s really hard to argue over the benefits of new technologies if one doesn't know them**. And then it's almost impossible to push the product forward. Also without knowledge it’s tricky to distinguish good ideas from miss-used ones. When someone finds a hammer – suddenly everything around looks like a nail. You can end up in RxSwift hell where no one knows what’s going on, or with legacy code that no one wants to work with.
+
+## What about people who can't use SwiftUI at work? If they catch up after hours but don't work with it commercially, would you welcome them to our team?
