@@ -188,13 +188,9 @@ const FaqsDropdown = React.forwardRef<HTMLDivElement, FaqsDropdownProps>(({ faqs
       const showArray = Object.keys(show).map(function (k) {
         return { value: show[k], index: k }
       })
-      const nearestOpenedFaq = showArray.findIndex(item => item.value && item.index != i.toString())
+      const nearestOpenedFaq = showArray.find(item => item.value && item.index != i.toString())
+      const openedFaqSlug = nearestOpenedFaq ? faqs[+nearestOpenedFaq.index].frontmatter.slug : undefined
 
-      const openedFaqSlug =
-        nearestOpenedFaq !== -1
-          && faqs[nearestOpenedFaq]?.frontmatter?.slug
-          ? faqs[nearestOpenedFaq].frontmatter.slug
-          : '';
 
       const ourFaqLink = generateLink({
         basePath: slug || "default-value",
