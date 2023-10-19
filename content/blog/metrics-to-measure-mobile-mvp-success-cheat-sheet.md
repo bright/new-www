@@ -3,12 +3,12 @@ author: izabela
 tags:
   - business
   - mobile development
-date: 2023-10-19T11:37:35.188Z
-meaningfullyUpdatedAt: 2023-10-19T11:37:36.022Z
+date: 2023-10-19T13:09:15.185Z
+meaningfullyUpdatedAt: 2023-10-19T13:09:15.727Z
 title: Use These 7 Metrics to Measure Your Mobile MVP Success [Cheat Sheet Included]
 layout: post
 image: /images/blogpost_mvp_success.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -16,6 +16,8 @@ language: en
 **You have an idea, design, and maybe even a software development team to build your mobile application. Still haven't you forgotten about something? What about establishing key targets that you want to achieve? Only then you can verify if your product is successful. Check out how to do that!**
 
 <div class="image"><img src="/images/blogpost_mvp_success.png" alt="MVP success metrics" title="MVP success metrics"  /> </div>
+
+- - -
 
 ## Table of contents
 
@@ -26,6 +28,16 @@ language: en
 [Metric #3: Churn Rate](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-3-churn-rate)
 
 [Metric #4: User Engagement](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-4-user-engagement)
+
+[Metric #5: Actions and Conversion Rate](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-5-actions-and-conversion-rate)
+
+[Metric #6: Customer Acquisition Cost (CAC)](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-6-customer-acquisition-cost-cac)
+
+[Metric #7: Customer Lifetime Value (CLV)](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-7-customer-lifetime-value-clv)
+
+[MVP success metrics – cheat sheet](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#mvp-success-metrics--cheat-sheet)
+
+- - -
 
 Let’s assume that you chose an Agile way and decided to build [MVP (Minimum Viable Product)](/our-areas/mvp-development/), so you can quickly release your solution and verify it with users. While working on the MVP, **at the very beginning, you should establish your goals and ways to measure them**. Naturally, they can change as the product evolves and you gain a better understanding of the market.
 
@@ -57,7 +69,7 @@ It measures what **percentage of users continue to use your app after a given pe
 
 To calculate the user retention rate, you can use the following formula:
 
-<div class="important-info"><div>User Retention Rate (%) = \\\\\\\[(E - N) / S] x 100 </div></div>
+<div class="important-info"><div>User Retention Rate (%) = \\\\\\\\\\\[(E - N) / S] x 100 </div></div>
 
 Where:
 
@@ -119,7 +131,9 @@ The formula for calculating the conversion/action rate is as follows:
 
 Tools like **Firebase, Google Analytics, Kissmetrics, or Optimizely** can help you track and optimize your conversion rates.
 
-## Metric #6: Customer Acquisition Cost (CAC)
+<EbookDynamic sectionTitle='Delve deeper into MVP development with this ebook' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Download the free ebook and find out how to quickly validate your idea with MVP.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
+
+### Metric #6: Customer Acquisition Cost (CAC)
 
 This metric **measures the cost of acquiring a single customer**. It is calculated by dividing the total cost of sales and marketing efforts by the number of new customers acquired during the same period. You can compare the budget spent for different acquisition channels and eventually make a decision on which activities are the best option for your solution.
 
