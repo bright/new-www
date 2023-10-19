@@ -27,10 +27,6 @@ language: en
 
 [Metric #4: User Engagement](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-4-user-engagement)
 
-[Metric #5: Actions and Conversion Rate](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-5-actions-and-conversion-rate)
-
-
-
 Let’s assume that you chose an Agile way and decided to build [MVP (Minimum Viable Product)](/our-areas/mvp-development/), so you can quickly release your solution and verify it with users. While working on the MVP, **at the very beginning, you should establish your goals and ways to measure them**. Naturally, they can change as the product evolves and you gain a better understanding of the market.
 
 ## Examples of MVP success metrics
@@ -61,7 +57,7 @@ It measures what **percentage of users continue to use your app after a given pe
 
 To calculate the user retention rate, you can use the following formula:
 
-<div class="important-info"><div>User Retention Rate (%) = \\\\\\[(E - N) / S] x 100 </div></div>
+<div class="important-info"><div>User Retention Rate (%) = \\\\\\\[(E - N) / S] x 100 </div></div>
 
 Where:
 
