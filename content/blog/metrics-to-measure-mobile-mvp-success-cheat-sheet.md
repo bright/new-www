@@ -17,6 +17,8 @@ language: en
 
 <div class="image"><img src="/images/blogpost_mvp_success.png" alt="MVP success metrics" title="MVP success metrics"  /> </div>
 
+- - -
+
 ## Table of contents
 
 [Metric #1: App Download Rate](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-1-app-download-rate)
@@ -26,6 +28,16 @@ language: en
 [Metric #3: Churn Rate](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-3-churn-rate)
 
 [Metric #4: User Engagement](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-4-user-engagement)
+
+[Metric #5: Actions and Conversion Rate](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-5-actions-and-conversion-rate)
+
+[Metric #6: Customer Acquisition Cost (CAC)](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-6-customer-acquisition-cost-cac)
+
+[Metric #7: Customer Lifetime Value (CLV)](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#metric-7-customer-lifetime-value-clv)
+
+[MVP success metrics – cheat sheet](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/#mvp-success-metrics--cheat-sheet)
+
+- - -
 
 Let’s assume that you chose an Agile way and decided to build [MVP (Minimum Viable Product)](/our-areas/mvp-development/), so you can quickly release your solution and verify it with users. While working on the MVP, **at the very beginning, you should establish your goals and ways to measure them**. Naturally, they can change as the product evolves and you gain a better understanding of the market.
 
@@ -57,7 +69,7 @@ It measures what **percentage of users continue to use your app after a given pe
 
 To calculate the user retention rate, you can use the following formula:
 
-<div class="important-info"><div>User Retention Rate (%) = \\\\\\\[(E - N) / S] x 100 </div></div>
+<div class="important-info"><div>User Retention Rate (%) = \\\\\\\\\[(E - N) / S] x 100 </div></div>
 
 Where:
 
@@ -119,7 +131,7 @@ The formula for calculating the conversion/action rate is as follows:
 
 Tools like **Firebase, Google Analytics, Kissmetrics, or Optimizely** can help you track and optimize your conversion rates.
 
-## Metric #6: Customer Acquisition Cost (CAC)
+### Metric #6: Customer Acquisition Cost (CAC)
 
 This metric **measures the cost of acquiring a single customer**. It is calculated by dividing the total cost of sales and marketing efforts by the number of new customers acquired during the same period. You can compare the budget spent for different acquisition channels and eventually make a decision on which activities are the best option for your solution.
 
