@@ -69,7 +69,7 @@ It measures what **percentage of users continue to use your app after a given pe
 
 To calculate the user retention rate, you can use the following formula:
 
-<div class="important-info"><div>User Retention Rate (%) = \\\\\\\\\[(E - N) / S] x 100 </div></div>
+<div class="important-info"><div>User Retention Rate (%) = \\\\\\\\\\\[(E - N) / S] x 100 </div></div>
 
 Where:
 
@@ -130,6 +130,8 @@ The formula for calculating the conversion/action rate is as follows:
 **Tools to measure conversion rate**
 
 Tools like **Firebase, Google Analytics, Kissmetrics, or Optimizely** can help you track and optimize your conversion rates.
+
+<EbookDynamic sectionTitle='Delve deeper into MVP development with this ebook' ebookName='From-MVP-to-a-Final-Product.pdf' ebookDescription='Download the free ebook and find out how to quickly validate your idea with MVP.' ebookImage='/images/mvp_ebook_cover.png' ebookAlt='MVP ebook cover' />
 
 ### Metric #6: Customer Acquisition Cost (CAC)
 
