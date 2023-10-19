@@ -12,6 +12,6 @@ answer: We usually respond **within a week**. However, keep in mind that **we
   Polish**. The requirements are listed in every one of our job offers. We want
   to respect your time as well as our recruiters' time.
 published: true
-show_on_career: false
+show_on_career: true
 language: en
 ---
