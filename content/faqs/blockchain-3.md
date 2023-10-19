@@ -11,6 +11,5 @@ answer: The cost to develop a blockchain depends on the project that the
   built for. [Contact us](/start-project) and we will prepare the estimation
   according to your needs.
 published: true
-show_on_career: true
 language: en
 ---

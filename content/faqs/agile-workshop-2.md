@@ -7,6 +7,5 @@ question: How long will the Agile workshop last?
 answer: We usually conduct workshops that last from 1 to 3 days. It depends on
   clients needs and their team time resources.
 published: true
-show_on_career: true
 language: en
 ---
