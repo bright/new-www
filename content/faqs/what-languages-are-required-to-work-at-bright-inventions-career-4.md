@@ -14,5 +14,6 @@ answer: >-
   Most of our clients are outside of Poland, so we also expect candidates to be fluent in English to be able to communicate with clients.
 published: true
 show_on_career: true
+order: 4
 language: en
 ---
