@@ -5,7 +5,7 @@ name: What does the recruitment interview look like? Career 10
 slug: what-does-the-recruitment-interview-look-like
 question: What does the recruitment interview look like?
 answer: >-
-  At the interview, you will meet with a recruiter and a software developer. 
+  At the interview, you will meet with recruiters and a software developer. 
 
 
   Naturally, if you apply for a non-developer position, then you will meet with another bright representative according to your job profession e.g. a product designer or a project manager.
