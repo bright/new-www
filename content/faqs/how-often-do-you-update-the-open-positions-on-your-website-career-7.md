@@ -12,6 +12,6 @@ answer: >-
 
   We also publish offers with an “opening soon” status which means that we will be looking for new team members for that position in the next few weeks. All job offer statuses are displayed on the [Career](/career) page.
 published: true
-show_on_career: false
+show_on_career: true
 language: en
 ---
