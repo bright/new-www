@@ -47,7 +47,7 @@ It measures what **percentage of users continue to use your app after a given pe
 
 To calculate the user retention rate, you can use the following formula:
 
-<div class="important-info"><div>User Retention Rate (%) = \\\[(E - N) / S] x 100 </div></div>
+<div class="important-info"><div>User Retention Rate (%) = \\\\[(E - N) / S] x 100 </div></div>
 
 Where:
 
@@ -56,3 +56,27 @@ E: The number of users at the end of a specific period (typically, this is the n
 N: The number of new users acquired during that period.
 
 S: The number of users at the start of the period.
+
+**Tools to track user retention rate:** 
+
+**Mixpanel, Firebase + Google Analytics** and **Amplitude** will be of help in measuring user retention rate.
+
+### Metric #3: Churn rate
+
+This metric **measures the percentage of users who uninstall or stop using your product** over a given period. It helps identify potential issues with your app that might be causing users to churn. 
+
+To calculate the churn rate, you can use the following formula:
+
+<div class="important-info"><div>Churn Rate (%) = (Customers at the Start of the Period - Customers at the End of the Period) / Customers at the Start of the Period </div></div>
+
+There are many possible reasons why your users might delete your app or simply stop using it. The most common are:
+
+* **Wrongly targeted or misleading ad campaigns** – users download the app only to realize that it’s not useful to them or it doesn’t offer what was promised.
+* **UX issues** – your app is too difficult to navigate or not enough visually appealing.
+* **Tech issues** – your app has performance issues, it frequently crashes, etc.
+* **Too many notifications** – we all know that notifications are a powerful feature for mobile apps but be careful. With that power comes responsibility.
+* **Too many ads** – what can we add here? Make your app worthy for users, then reasonably monetize. 😉
+
+**Tools to measure churn rate**
+
+Tools like **Mixpanel, Amplitude, or Kissmetrics** offer features to monitor and analyze churn rates.
