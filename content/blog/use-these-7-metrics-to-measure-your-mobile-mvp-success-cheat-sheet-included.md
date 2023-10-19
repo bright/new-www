@@ -41,7 +41,7 @@ Tools to track app download rate:
 
 You can track app downloads using tools provided by well-known mobile app stores: **Google Play Console** for Android apps, and **App Store Connect** for iOS apps.
 
-### Metric #2: User retention rate
+### Metric #2: User Retention Rate
 
 It measures what **percentage of users continue to use your app after a given period** such as 30 days after app installation. User retention rate might be a crucial measurement to see if your product has loyal and engaged customers.
 
@@ -61,7 +61,7 @@ S: The number of users at the start of the period.
 
 **Mixpanel, Firebase + Google Analytics** and **Amplitude** will be of help in measuring user retention rate.
 
-### Metric #3: Churn rate
+### Metric #3: Churn Rate
 
 This metric **measures the percentage of users who uninstall or stop using your product** over a given period. It helps identify potential issues with your app that might be causing users to churn. 
 
@@ -81,7 +81,7 @@ There are many possible reasons why your users might delete your app or simply s
 
 Tools like **Mixpanel, Amplitude, or Kissmetrics** offer features to monitor and analyze churn rates.
 
-### Metric #4: User engagement
+### Metric #4: User Engagement
 
 This metric **measures how engaged are users who interact with your mobile MVP**. You can track actions such as making a purchase, time spent on the app, and viewing certain screens.
 
@@ -94,3 +94,5 @@ The definition of "engaged users" can vary depending on your business. You shoul
 **Tools to measure user engagement**
 
 Tools like **Firebase, Mixpanel, and Amplitude** offer features to measure user engagement and provide insights.
+
+### Metric #5: Actions and Conversion Rate
