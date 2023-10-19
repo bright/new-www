@@ -3,8 +3,8 @@ author: izabela
 tags:
   - business
   - mobile development
-date: 2023-10-19T10:34:37.100Z
-meaningfullyUpdatedAt: 2023-10-19T10:34:37.133Z
+date: 2023-10-19T11:37:35.188Z
+meaningfullyUpdatedAt: 2023-10-19T11:37:36.022Z
 title: Use These 7 Metrics to Measure Your Mobile MVP Success [Cheat Sheet Included]
 layout: post
 image: /images/blogpost_mvp_success.png
