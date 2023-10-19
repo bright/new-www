@@ -32,3 +32,27 @@ To calculate the download rate, use the following formula:
 <div class="important-info"><div>App Download Rate (%) = (D / C) x 100</div></div>
 
 This formula measures the percentage of users who completed the download after clicking on the promotion.
+
+Remember that downloading isn’t everything, though. [50% of Android apps are uninstalled within 30 days after the download](https://www.businessofapps.com/news/half-of-android-apps-are-uninstalled-within-30-days-after-download/). If your download rates are satisfactory but the number of active users is extremely low you might deal with a **high uninstalled rate**. 
+
+That’s why the app download rate cannot be measured without the retention rate (keep on reading to discover that).
+
+Tools to track app download rate: 
+
+You can track app downloads using tools provided by well-known mobile app stores: **Google Play Console** for Android apps, and **App Store Connect** for iOS apps.
+
+### Metric #2: User retention rate
+
+It measures what **percentage of users continue to use your app after a given period** such as 30 days after app installation. User retention rate might be a crucial measurement to see if your product has loyal and engaged customers.
+
+To calculate the user retention rate, you can use the following formula:
+
+<div class="important-info"><div>User Retention Rate (%) = \\\[(E - N) / S] x 100 </div></div>
+
+Where:
+
+E: The number of users at the end of a specific period (typically, this is the number of users who were active at the beginning of the period).
+
+N: The number of new users acquired during that period.
+
+S: The number of users at the start of the period.
