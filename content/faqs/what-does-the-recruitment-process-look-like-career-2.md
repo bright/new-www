@@ -22,5 +22,6 @@ answer: >-
   Read more [insights on our recruitment process](/blog/the-importance-of-feedback-in-bright-recruitment-process/) from one of our recruiters.
 published: true
 show_on_career: true
+order: 2
 language: en
 ---
