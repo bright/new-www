@@ -96,3 +96,19 @@ The definition of "engaged users" can vary depending on your business. You shoul
 Tools like **Firebase, Mixpanel, and Amplitude** offer features to measure user engagement and provide insights.
 
 ### Metric #5: Actions and Conversion Rate
+
+This metric **measures the cost of acquiring a single customer**. It is calculated by dividing the total cost of sales and marketing efforts by the number of new customers acquired during the same period. You can compare the budget spent for different acquisition channels and eventually make a decision on which activities are the best option for your solution.
+
+Based on your company's marketing budget you should establish a maximum cost per customer acquisition that you can spend to get clients. It’s a key metric to establish at the beginning, so your financial books are well-balanced. 
+
+It’s wise to benchmark your CAC. Every industry has to consider different costs. You might consult your marketing budget with marketing freelancers or agencies that specialize in targeting campaigns in your industry. You can also discuss your estimated bids on digital marketing specialist groups on Facebook or LinkedIn, however, remember to verify the answers.
+
+To calculate CAC, you can use the following formula:
+
+<div class="important-info"><div>Customer Acquisition Cost (CAC) = Total Sales and Marketing Expenses / Number of New Customers Acquired </div></div>
+
+**Tools to measure Customer Acquisition Cost**
+
+Tools like **HubSpot, Salesforce, Adjust, Google Analytics (connected with Firebase), and Google Keyword Planner** can assist in estimating, tracking, and analyzing customer acquisition costs.
+
+### Metric #7: Customer Lifetime Value (CLV)
