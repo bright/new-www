@@ -86,6 +86,7 @@ const faqsQuery = graphql`
   query {
     allMdx(
       filter: {frontmatter: {show_on_career: {in: true}, layout: {eq: "faqs"}, published: {ne: false}}}
+      sort: { frontmatter: { order: ASC } }
     ) {
       edges {
         node {
