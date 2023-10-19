@@ -18,5 +18,6 @@ answer: >-
   [Feedback](/blog/no-time-for-bullshit-feedback-culture/) is a very powerful tool that we use every day at Bright Inventions. That is why **every candidate receives feedback from us at the end of the recruitment process**. We indicate all strong and weak spots detected during the recruitment process. Also, we include recommendations on how to improve a candidate’s performance.
 published: true
 show_on_career: true
+order: 6
 language: en
 ---
