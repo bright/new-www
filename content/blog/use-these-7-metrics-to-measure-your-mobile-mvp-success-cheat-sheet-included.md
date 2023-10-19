@@ -82,3 +82,15 @@ There are many possible reasons why your users might delete your app or simply s
 Tools like **Mixpanel, Amplitude, or Kissmetrics** offer features to monitor and analyze churn rates.
 
 ### Metric #4: User engagement
+
+This metric **measures how engaged are users who interact with your mobile MVP**. You can track actions such as making a purchase, time spent on the app, and viewing certain screens.
+
+Here's one of the ways to calculate user engagement:
+
+<div class="important-info"><div>User Engagement Rate (%) = (Number of Engaged Users / Total Users) x 100 </div></div>
+
+The definition of "engaged users" can vary depending on your business. You should choose the activities that will define your active user and track them with the preferred tool.
+
+**Tools to measure user engagement**
+
+Tools like **Firebase, Mixpanel, and Amplitude** offer features to measure user engagement and provide insights.
