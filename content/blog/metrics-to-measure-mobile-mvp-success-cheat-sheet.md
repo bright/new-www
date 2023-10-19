@@ -8,7 +8,7 @@ meaningfullyUpdatedAt: 2023-10-19T13:09:15.727Z
 title: Use These 7 Metrics to Measure Your Mobile MVP Success [Cheat Sheet Included]
 layout: post
 image: /images/blogpost_mvp_success.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
