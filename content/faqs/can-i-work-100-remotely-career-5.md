@@ -14,6 +14,6 @@ answer: >-
 
   We hire people all over Poland. Feel free to apply, even if you do not come from Gdańsk. We have team members from other places, especially Toruń, Poznań and Warsaw.
 published: true
-show_on_career: false
+show_on_career: true
 language: en
 ---
