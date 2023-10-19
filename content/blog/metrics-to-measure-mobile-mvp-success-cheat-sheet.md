@@ -69,7 +69,7 @@ It measures what **percentage of users continue to use your app after a given pe
 
 To calculate the user retention rate, you can use the following formula:
 
-<div class="important-info"><div>User Retention Rate (%) = \\\\\\\\\\\[(E - N) / S] x 100 </div></div>
+<div class="important-info"><div>User Retention Rate (%) = \[(E - N) / S] x 100 </div></div>
 
 Where:
 
