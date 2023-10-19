@@ -13,7 +13,7 @@ comments: true
 published: true
 language: en
 ---
-**You have an idea, design, and maybe even a software development team to build your mobile application. Still haven't you forgotten about something? What about establishing key targets that you want to achieve? Only then you can verify if your product is successful. Check out how to do that!**
+**You have an idea, design, and maybe even a software development team to build your mobile application. Still haven't you forgotten about something? What about establishing key targets that you want to achieve? Only then can you verify if your product is successful. Check out how to do that!**
 
 <div class="image"><img src="/images/blogpost_mvp_success.png" alt="MVP success metrics" title="MVP success metrics"  /> </div>
 
@@ -69,7 +69,7 @@ It measures what **percentage of users continue to use your app after a given pe
 
 To calculate the user retention rate, you can use the following formula:
 
-<div class="important-info"><div>User Retention Rate (%) = \[(E - N) / S] x 100 </div></div>
+<div class="important-info"><div>User Retention Rate (%) = \\[(E - N) / S] x 100 </div></div>
 
 Where:
 
