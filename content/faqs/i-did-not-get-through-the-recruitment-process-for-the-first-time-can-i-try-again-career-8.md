@@ -12,5 +12,6 @@ answer: Of course, we love to stay in touch with every candidate whether they
   (or some of them), simply drop us a line.
 published: true
 show_on_career: true
+order: 8
 language: en
 ---
