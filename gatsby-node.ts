@@ -543,7 +543,11 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
   actions.createTypes(
     `type Members implements Node {
       posts: [Blog] @link(by: "author.author_id", from: "author_id") 
-    
+      
+    }
+    type MdxFrontmatter {
+      show_on_career: Boolean
+     
     }`
   )
 }
