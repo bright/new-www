@@ -31,7 +31,7 @@ const SectionNotice = styled.section`
 
   & .cookies-wrapper {
     background: ${variables.color.text2};
-    padding: ${variables.pxToRem(61)} ${variables.pxToRem(80)};
+    padding: ${variables.pxToRem(16)} ${variables.pxToRem(80)};
     bottom: 0px;
     align-items: baseline;
 
@@ -69,7 +69,7 @@ const SectionNotice = styled.section`
 
   @media ${variables.device.laptop} {
     & .cookies-wrapper {
-      padding: ${variables.pxToRem(49)} ${variables.pxToRem(80)};
+      padding: ${variables.pxToRem(32)} ${variables.pxToRem(80)};
     }
   }
   @media ${variables.device.tabletXL} {
@@ -79,7 +79,7 @@ const SectionNotice = styled.section`
   }
   @media ${variables.device.tablet} {
     & .cookies-wrapper {
-      padding: ${variables.pxToRem(40)} ${variables.pxToRem(36)} ${variables.pxToRem(103)};
+      padding: ${variables.pxToRem(40)} ${variables.pxToRem(36)} ${variables.pxToRem(40)};
     }
 
     & #confirm-button {
@@ -87,27 +87,29 @@ const SectionNotice = styled.section`
       width: 100%;
       padding: ${variables.pxToRem(17)} 0;
     }
+    & .wrapper-button {
+      width:50%;
+    }
   }
 
   @media ${variables.device.mobile} {
     & .cookies-wrapper {
-      padding: ${variables.pxToRem(18)} ${variables.pxToRem(18)} ${variables.pxToRem(103)};
+      padding: ${variables.pxToRem(18)} ${variables.pxToRem(18)} ${variables.pxToRem(18)};
     }
+    
   }
 `
 
 const CookieText = styled(TextRegular)`
   line-height: ${variables.pxToRem(24)};
   color: ${variables.color.white};
-  padding-bottom: ${variables.pxToRem(32)};
+  padding-bottom: ${variables.pxToRem(0)};
   @media ${variables.device.tabletXL} {
-    padding-bottom: ${variables.pxToRem(39)};
+    padding-bottom: ${variables.pxToRem(0)};
   }
+ 
   @media ${variables.device.tablet} {
-    padding-bottom: ${variables.pxToRem(56)};
-  }
-  @media ${variables.device.tablet} {
-    padding-bottom: ${variables.pxToRem(40)};
+    padding-bottom: ${variables.pxToRem(18)};
   }
 `
 const CustomizeButton = styled.button`
@@ -129,8 +131,13 @@ const CustomizeButton = styled.button`
     bottom: 40px;
     text-decoration: none;
   }
+  @media ${variables.device.tablet} {
+    bottom: 61px;
+    right: 25%;
+  }
   @media ${variables.device.mobile} {
-    bottom: 48px;
+    bottom: 38px;
+    
   }
 `
 
@@ -174,7 +181,6 @@ function CookiesNotice() {
         onAccept={onAccept}
       >
         <div>
-          <div className='overlay'></div>
           <CookieText>
             We use cookies or other technologies. Change settings via “customize”. {' '}
             <Link to={routeLinks.privacyPolicy} style={{ color: '#fff', textDecoration: 'underline' }}>
