@@ -80,3 +80,5 @@ There are many possible reasons why your users might delete your app or simply s
 **Tools to measure churn rate**
 
 Tools like **Mixpanel, Amplitude, or Kissmetrics** offer features to monitor and analyze churn rates.
+
+### Metric #4: User engagement
