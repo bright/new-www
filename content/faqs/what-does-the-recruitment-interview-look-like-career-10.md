@@ -24,5 +24,6 @@ answer: >-
   * At the end, there is a non-technical part which helps to know better candidates’ experience and soft skills. It is also helpful to establish a cultural fit. Moreover, it is an opportunity to talk in English to verify foreign language knowledge.
 published: true
 show_on_career: true
+order: 10
 language: en
 ---
