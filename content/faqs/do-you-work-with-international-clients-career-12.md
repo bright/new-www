@@ -14,6 +14,6 @@ answer: >-
 
   Here you will find our [software development portfolio](/projects).
 published: true
-show_on_career: false
+show_on_career: true
 language: en
 ---
