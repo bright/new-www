@@ -7,5 +7,6 @@ question: How many people work at Bright Inventions?
 answer: We have over 80 people on board.
 published: true
 show_on_career: true
+order: 11
 language: en
 ---
