@@ -50,6 +50,8 @@ I asked our colleagues how they find more creative and often low-cost ways to me
 
 ## A small budget helps to create an app that users need and want
 
-A smaller budget makes you go deeper into analytics, and that's great! Analytics is often neglected. After the MVP launch, **startup founders often focus too much on app reviews rather than actually going deeper into users' activity**. Thanks to analytics tools like Firebase and Mixpanel, you can **check what features your users really use, what screens engage them, and what features you can simply give up on**.
+A smaller budget makes you go deeper into analytics, and that's great! Analytics is often neglected. After the MVP launch, **startup founders often focus too much on app reviews rather than actually going deeper into users' activity**. 
+
+Thanks to analytics tools like Firebase and Mixpanel, you can **check what features your users really use, what screens engage them, and what features you can simply give up on**. Read more about [mobile MVP success metrics](/blog/metrics-to-measure-mobile-mvp-success-cheat-sheet/) to know what to measure if you build a mobile solution.
 
 Not many startups can afford to keep developing the product of their dream, rather than the product their users desire… We recommend you follow the user-oriented path. 🙂
