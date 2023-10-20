@@ -190,6 +190,14 @@ const SlideWrapper = styled.div`
 export const CarouselQuotesSwiper: React.FC = () => {
   const quotes = [
     {
+      avatar_hover: <StaticImage src='../../../static/images/kamil_passion_2022.png' alt='Kamil' className='quote-img' />,
+      short_name: 'Kamil',
+      bio: 'Senior iOS Developer',
+      slug: 'kamil-b',
+      quote:
+        'People here are passionate about their work. I know it sounds cliche, but it’s true. When looking at tedious tasks – our first thought is how we can automate it. The second one is – how we can improve it.',
+    },
+    {
       avatar_hover: <StaticImage src='../../../static/images/arturs_passion.png' alt='Artur' className='quote-img' />,
       short_name: 'Artur',
       bio: 'Senior iOS Developer',
