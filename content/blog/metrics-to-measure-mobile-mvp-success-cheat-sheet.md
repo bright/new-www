@@ -1,5 +1,6 @@
 ---
 author: izabela
+secondAuthor: fjablonski
 tags:
   - business
   - mobile development
