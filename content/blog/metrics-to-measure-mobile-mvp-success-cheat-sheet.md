@@ -53,7 +53,11 @@ To calculate the download rate, use the following formula:
 
 <div class="important-info"><div>App Download Rate (%) = (D / C) x 100</div></div>
 
-This formula measures the percentage of users who completed the download after clicking on the promotion.
+Where:
+
+D: The number of users who download the app.
+
+C: The number of users who click promotional content.
 
 Remember that downloading isn’t everything, though. [50% of Android apps are uninstalled within 30 days after the download](https://www.businessofapps.com/news/half-of-android-apps-are-uninstalled-within-30-days-after-download/). If your download rates are satisfactory but the number of active users is extremely low you might deal with a **high uninstalled rate**. 
 
@@ -69,11 +73,11 @@ It measures what **percentage of users continue to use your app after a given pe
 
 To calculate the user retention rate, you can use the following formula:
 
-<div class="important-info"><div>User Retention Rate (%) = \\[(E - N) / S] x 100 </div></div>
+<div class="important-info"><div>User Retention Rate (%) = \[(E - N) / S] x 100 </div></div>
 
 Where:
 
-E: The number of users at the end of a specific period (typically, this is the number of users who were active at the beginning of the period).
+E: The number of users at the end of a specific period.
 
 N: The number of new users acquired during that period.
 
@@ -89,7 +93,13 @@ This metric **measures the percentage of users who uninstall or stop using your 
 
 To calculate the churn rate, you can use the following formula:
 
-<div class="important-info"><div>Churn Rate (%) = (Customers at the Start of the Period - Customers at the End of the Period) / Customers at the Start of the Period </div></div>
+<div class="important-info"><div>Churn Rate (%) = \[(S - E) / S] x 100 </div></div>
+
+Where:
+
+S: Customers at the Start of the Period
+
+E: Customers at the End of the Period
 
 There are many possible reasons why your users might delete your app or simply stop using it. The most common are:
 
