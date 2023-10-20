@@ -54,7 +54,7 @@ To calculate the download rate, use the following formula:
 
 <div class="important-info"><div>App Download Rate (%) = (The number of users who download the app / The number of users who click promotional content) x 100</div></div>
 
-Remember that downloading isn’t everything, though. [50% of Android apps are uninstalled within 30 days after the download](https://www.businessofapps.com/news/half-of-android-apps-are-uninstalled-within-30-days-after-download/). If your download rates are satisfactory but the number of active users is extremely low you might deal with a **high uninstalled rate**. 
+Remember that downloading isn’t everything, though. [50% of Android apps are uninstalled within 30 days after the download](https://www.businessofapps.com/news/half-of-android-apps-are-uninstalled-within-30-days-after-download/). If your download rates are satisfactory but the number of active users is extremely low you might be dealing with a **high uninstall rate**. 
 
 That’s why the app download rate cannot be measured without the retention rate (keep on reading to discover that).
 
