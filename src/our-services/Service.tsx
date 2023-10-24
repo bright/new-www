@@ -238,18 +238,19 @@ export default function Template({
       )}
 
       <CustomSection paddingProps='0rem 15rem 2rem 15rem' paddingMobileProps='0 1.125rem 0'>
-        <CustomSectionInner id='faqs'>
-          <a href='#faqs'>
+        <CustomSectionInner>
+          <a href='#faqs' style={{display: 'block'}}>
             {show_case_study ? (
               <CustomSectionTitle
                 margin='0rem 0 6.5625rem '
                 mobileMargin='5.125rem 0 2.75rem '
                 laptopMargin='0 0 5.185rem'
+                id='faqs'
               >
                 {title_faqs}
               </CustomSectionTitle>
             ) : (
-              <CustomSectionTitle margin='11.625rem 0 6.5625rem' mobileMargin='5.125rem 0 2.75rem'>
+              <CustomSectionTitle margin='11.625rem 0 6.5625rem' mobileMargin='5.125rem 0 2.75rem' id='faqs'>
                 {title_faqs}
               </CustomSectionTitle>
             )}
