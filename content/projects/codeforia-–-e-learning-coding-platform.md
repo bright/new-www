@@ -20,7 +20,7 @@ bar_achievements:
   - number: "1"
     label: Bright developer on the project
   - number: "200"
-    label: coding tasks on the platform
+    label: Coding tasks on the platform
 tags:
   - web app
   - customized software
