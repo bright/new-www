@@ -41,3 +41,9 @@ language: en
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
 
 <SliderText sliderElements='[{"title":"Panel displaying the offering","description":"Panel offering a variety of online programming courses with a buy option."},{"title":"Users panel","description":"Users panel with available courses and lessons progress."},{"title":"Customized and UX-friendly forms","description":"Logging and registration form."},{"title":"Lesson panel with coding tasks","description":"Code editor with black and dark mode options and change history. A debugger that shows the errors."},{"title":"Code running and testing options","description":"In the latter case, the code is tested with the pre-designed test cases. A debugger that shows the errors."},{"title":"Gamification festures","description":"Animations showing the code solution, tasks progress bar and more."}]' />
+
+
+
+<TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
+
+<Gallery images='[{}]' />
