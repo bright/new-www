@@ -72,4 +72,8 @@ Codeforia helps students start their journey to become software developers. It a
 
 We started the collaboration in the Autumn of 2022 taking care of the frontend development while backend was developed by the client’s internal team. We worked in the Scrum methodology, conducting weekly meetings with the client, as well as sprint demos, retrospectives and planning.
 
-Although we were responsible for the frontend we didn’t just implement the clients' design mockups. We proactively offered our guidance and shared best UX practices to enhance the end result. **On our recommendation, the client implemented various gamification features** including tracking learning progress, information about skills you already mastered and the ones yet to be discovered. **All in a bid to ensure better user engagement and a higher online course completion rate**.
+Although we were responsible for the frontend we didn’t just implement the clients' design mockups. We proactively offered our guidance and shared best UX practices to enhance the end result. **On our recommendation, the client implemented various gamification features** including tracking learning progress, information about skills you already mastered and the ones yet to be discovered. **All in a bid to ensure better user engagement and a higher online course completion rate**. 
+
+<div class="image"><img src="/images/codeforia_mockup_laptop.png" alt="Mockups edutech" title="It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team."  /> </div>
+
+*It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
