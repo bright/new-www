@@ -6,7 +6,7 @@ our_service:
   - custom software development
 layout: project
 project_id: codeforia
-title: Codeforia – e-learning coding platform
+title: Codeforia – Learning Coding Platform
 image: /images/codeforia_cover.png
 description: Codeforia is a platform offering online programming courses for
   developers-to-be, schools, and educational organizations.
