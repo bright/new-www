@@ -29,11 +29,7 @@ export const Page: React.FC<PropsWithChildren<{ className?: string }>> = ({ chil
         description='Top custom software development company in Poland specialising in mobile & web apps, Blockchain, Bluetooth and IoT.'
         url={pathname}
         twitterType='summary_large_image'
-      >
-        {' '}
-        {/* Ideally simply adding import("https://widget.clutch.co/static/js/widget.js") would work */}
-        {/* <script type='text/javascript' src={'https://widget.clutch.co/static/js/widget.js'} defer={true} /> */}
-      </HelmetMetaData>
+      />
 
       <TopNavigation path={pathname} toggled={setMobileMenuOpened} />
       <MDXComponentsWrapper>{children}</MDXComponentsWrapper>
