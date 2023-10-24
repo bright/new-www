@@ -61,3 +61,11 @@ At Codeforia.com you will find over 200 programming challenges. The platform als
 <div class="image"><img src="/images/codeforia_mockup_tasks.png" alt="Codeforia" title="It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team."  /> </div>
 
 *It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
+
+<TitleWithIcon sectionTitle="goal" titleIcon="/images/icon_title_goal.svg" titleIconAlt="goal" />
+
+Our client’s goal was to quickly build an e-learning platform that would enrich their educational offering and enable them to acquire clients within the education sector such as schools and universities. 
+
+Codeforia helps students start their journey to become software developers. It allows course participants to deepen their theoretical knowledge. Each topic is enriched with lists of programming tasks that can be solved directly within the application. Solved tasks are automatically evaluated thanks to automated test cases. This solution enables students to solidify their knowledge at their own pace. Furthermore, the platform allows group supervisors to closely monitor the progress of their students.
+
+<TitleWithIcon sectionTitle="Codeforia development process" titleIcon="/images/gearwheel.svg" titleIconAlt="Codeforia Development Process" />
