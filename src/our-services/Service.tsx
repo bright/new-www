@@ -37,7 +37,6 @@ import TeamMemebersSwiper from '../components/subcomponents/TeamMembersSwiper'
 import { MoreButton } from '../components/shared'
 import FaqsDropdown from '../components/shared/FaqsDropdown'
 
-
 const TechnologyTags = React.lazy(() => import('../components/shared/TechnologyTags'))
 const TeamMembers = React.lazy(() => import('../components/subcomponents/TeamMembers'))
 // const TeamMemebersSwiper = React.lazy(() => import('../components/subcomponents/TeamMembersSwiper'))
@@ -46,8 +45,10 @@ export default function Template({
   data,
   pageContext,
   children,
-}: PropsWithChildren<{ data: { mdx: any }; pageContext: { faqTitle: string; faqSlug: string; language: string } }>) {
-
+}: PropsWithChildren<{
+  data: { mdx: any }
+  pageContext: { faqTitle: string; faqSlug: string; language: string }
+}>) {
   const { mdx } = data // data.mdx holds your post data
   const { frontmatter: page } = mdx
   const { width } = useWindowSize()
@@ -131,7 +132,7 @@ export default function Template({
                 paddingTablet='0 0 16px'
                 paddingMobileProps='0 0 32px'
               >
-                <OurServicePageTitle language={de}>{newTitle}</OurServicePageTitle >
+                <OurServicePageTitle language={de}>{newTitle}</OurServicePageTitle>
               </CustomSection>
               <BulletsList>
                 {bullet_points && bullet_points.map((point: string) => <BulletList key={point}>{point}</BulletList>)}
@@ -225,7 +226,9 @@ export default function Template({
 
       {show_case_study && (
         <div>
-          <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem' laptopMargin='64px 0'>{title_case_study}</CustomSectionTitle>
+          <CustomSectionTitle mobileMargin='5.125rem 0 2.75rem' laptopMargin='64px 0'>
+            {title_case_study}
+          </CustomSectionTitle>
           <Projects
             isFetchProject={false}
             projectsArray={projects.map((el: { frontmatter: ProjectModel }) => el.frontmatter)}
@@ -235,24 +238,38 @@ export default function Template({
       )}
 
       <CustomSection paddingProps='0rem 15rem 2rem 15rem' paddingMobileProps='0 1.125rem 0'>
-        <CustomSectionInner>
-          {show_case_study ? (
-            <CustomSectionTitle
-              margin='0rem 0 6.5625rem '
-              mobileMargin='5.125rem 0 2.75rem '
-              laptopMargin='0 0 5.185rem'
-              id="faqs"
-            >
-              <a href="#faqs">{title_faqs}</a>
-            </CustomSectionTitle>
-          ) : (
-            <CustomSectionTitle margin='11.625rem 0 6.5625rem' mobileMargin='5.125rem 0 2.75rem' id="faqs">
-              <a href="#faqs">{title_faqs}</a>
-            </CustomSectionTitle>
+        <CustomSectionInner id='faqs'>
+          <a href='#faqs'>
+            {show_case_study ? (
+              <CustomSectionTitle
+                margin='0rem 0 6.5625rem '
+                mobileMargin='5.125rem 0 2.75rem '
+                laptopMargin='0 0 5.185rem'
+              >
+                {title_faqs}
+              </CustomSectionTitle>
+            ) : (
+              <CustomSectionTitle margin='11.625rem 0 6.5625rem' mobileMargin='5.125rem 0 2.75rem'>
+                {title_faqs}
+              </CustomSectionTitle>
+            )}
+          </a>
+
+          {faqs && (
+            <FaqsDropdown
+              faqs={faqs}
+              faqSlug={faqSlug}
+              generateLink={args =>
+                routeLinks.ourAreas({
+                  service: args.basePath,
+                  faqSlug: args.faqSlug,
+                })
+              }
+              ref={myRef}
+              slug={slug}
+              offset={400}
+            />
           )}
-
-          {faqs && <FaqsDropdown faqs={faqs} faqSlug={faqSlug} generateLink={(args) => routeLinks.ourAreas({ service: args.basePath, faqSlug: args.faqSlug })} ref={myRef} slug={slug} offset={400} />}
-
         </CustomSectionInner>
       </CustomSection>
       <Contact
