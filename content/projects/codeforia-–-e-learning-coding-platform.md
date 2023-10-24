@@ -69,3 +69,7 @@ Our client’s goal was to quickly build an e-learning platform that would enric
 Codeforia helps students start their journey to become software developers. It allows course participants to deepen their theoretical knowledge. Each topic is enriched with lists of programming tasks that can be solved directly within the application. Solved tasks are automatically evaluated thanks to automated test cases. This solution enables students to solidify their knowledge at their own pace. Furthermore, the platform allows group supervisors to closely monitor the progress of their students.
 
 <TitleWithIcon sectionTitle="Codeforia development process" titleIcon="/images/gearwheel.svg" titleIconAlt="Codeforia Development Process" />
+
+We started the collaboration in the Autumn of 2022 taking care of the frontend development while backend was developed by the client’s internal team. We worked in the Scrum methodology, conducting weekly meetings with the client, as well as sprint demos, retrospectives and planning.
+
+Although we were responsible for the frontend we didn’t just implement the clients' design mockups. We proactively offered our guidance and shared best UX practices to enhance the end result. **On our recommendation, the client implemented various gamification features** including tracking learning progress, information about skills you already mastered and the ones yet to be discovered. **All in a bid to ensure better user engagement and a higher online course completion rate**.
