@@ -3,6 +3,7 @@ team_members:
   - krystian
 our_service:
   - web development
+  - custom software development
 layout: project
 project_id: codeforia
 title: Codeforia – e-learning coding platform
@@ -33,7 +34,7 @@ slug: e-learning-coding-platform
 show_team: false
 show_case_study: true
 show on homepage: false
-published: true
+published: false
 language: en
 ---
 
@@ -77,3 +78,9 @@ Although we were responsible for the frontend we didn’t just implement the cli
 <div class="image"><img src="/images/codeforia_mockup_laptop.png" alt="Mockups edutech" title="It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team."  /> </div>
 
 *It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
+
+<TitleWithIcon sectionTitle="outcome" titleIcon="/images/icon_result_svg.svg" titleIconAlt="outcome" />
+
+The beta version of the platform was launched in January 2023. We remained in the development cycle during the first crucial months after launch. Finally, the project was fully handed over to the client’s internal team, in April 2023, following on from a successful launch.
+
+We were thrilled to be involved in the development process and launch of the platform. We hope that many young people will discover their passion for programming with Codeforia!
