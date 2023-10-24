@@ -83,13 +83,11 @@ const SectionNotice = styled.section`
     }
 
     & #confirm-button {
-      margin-left: 0;
-      width: 100%;
+      margin-left: 50%;
+      width: 50%;
       padding: ${variables.pxToRem(17)} 0;
     }
-    & .wrapper-button {
-      width:50%;
-    }
+   
   }
 
   @media ${variables.device.mobile} {
@@ -101,15 +99,17 @@ const SectionNotice = styled.section`
 `
 
 const CookieText = styled(TextRegular)`
+font-size:${variables.pxToRem(18)} ;
   line-height: ${variables.pxToRem(24)};
   color: ${variables.color.white};
   padding-bottom: ${variables.pxToRem(0)};
   @media ${variables.device.tabletXL} {
     padding-bottom: ${variables.pxToRem(0)};
+    font-size:${variables.pxToRem(16)} ;
   }
  
   @media ${variables.device.tablet} {
-    padding-bottom: ${variables.pxToRem(18)};
+    padding-bottom: ${variables.pxToRem(0)};
   }
 `
 const CustomizeButton = styled.button`
@@ -123,7 +123,7 @@ const CustomizeButton = styled.button`
   transform: translateY(42px);
   padding: 0;
   margin: 0;
-  @media ${variables.device.tablet} {
+  /* @media ${variables.device.tablet} {
     position: absolute;
     right: 50%;
     left: auto;
@@ -134,7 +134,7 @@ const CustomizeButton = styled.button`
   @media ${variables.device.tablet} {
     bottom: 61px;
     right: 25%;
-  }
+  } */
   @media ${variables.device.mobile} {
     bottom: 38px;
     
@@ -182,9 +182,9 @@ function CookiesNotice() {
       >
         <div>
           <CookieText>
-            We use cookies or other technologies. Change settings via “customize”. {' '}
+            We use cookies for analytics and marketing purposes – more info in our {' '}
             <Link to={routeLinks.privacyPolicy} style={{ color: '#fff', textDecoration: 'underline' }}>
-              Read Privacy Policy
+              Privacy Policy
             </Link>{' '}
             .
           </CookieText>
