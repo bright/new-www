@@ -6,7 +6,7 @@ our_service:
   - custom software development
 layout: project
 project_id: codeforia
-title: Codeforia – e-learning coding platform
+title: Codeforia – Learning Coding Platform
 image: /images/codeforia_cover.png
 description: Codeforia is a platform offering online programming courses for
   developers-to-be, schools, and educational organizations.
@@ -20,7 +20,7 @@ bar_achievements:
   - number: "1"
     label: Bright developer on the project
   - number: "200"
-    label: coding tasks on the platform
+    label: Coding tasks on the platform
 tags:
   - web app
   - customized software
@@ -37,21 +37,13 @@ show on homepage: false
 published: false
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
 
-<SliderText sliderElements='[{"title":"Panel displaying the offering","description":"Panel offering a variety of online programming courses with a buy option."},{"title":"Users panel","description":"Users panel with available courses and lessons progress."},{"title":"Customized and UX-friendly forms","description":"Logging and registration form."},{"title":"Lesson panel with coding tasks","description":"Code editor with black and dark mode options and change history. A debugger that shows the errors."},{"title":"Code running and testing options","description":"In the latter case, the code is tested with the pre-designed test cases. A debugger that shows the errors."},{"title":"Gamification festures","description":"Animations showing the code solution, tasks progress bar and more."}]' />
-
-
+<SliderText sliderElements='[{"title":"Panel displaying the offering","description":"Panel offering a variety of online programming courses with a buy option."},{"title":"Users panel","description":"Users panel with available courses and lessons progress."},{"title":"Customized and UX-friendly forms","description":"Logging and registration form."},{"title":"Lesson panel with coding tasks","description":"Code editor with black and dark mode options and change history. A debugger that shows the errors."},{"title":"Code running and testing options","description":"The code is tested with the pre-designed test cases."},{"title":"Gamification festures","description":"Animations showing the code solution, tasks progress bar and more."}]' />
 
 <TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
 
-<Gallery images='[{"src":"/images/nestjs_stack_logo.svg","alt":"Next.js"},{"src":"/images/react_stack_logo.svg","alt":"React"}]' />
-
 **Frontend development:** Next.js, React
-
-
 
 <TitleWithIcon sectionTitle="about Codeforia" titleIcon="/images/icon_title_about.svg" titleIconAlt="about" />
 
