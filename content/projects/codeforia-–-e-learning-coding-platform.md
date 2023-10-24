@@ -47,3 +47,17 @@ language: en
 <TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
 
 <Gallery images='[{"src":"/images/nestjs_stack_logo.svg","alt":"Next.js"},{"src":"/images/react_stack_logo.svg","alt":"React"}]' />
+
+**Frontend development:** Next.js, React
+
+
+
+<TitleWithIcon sectionTitle="about Codeforia" titleIcon="/images/icon_title_about.svg" titleIconAlt="about" />
+
+[Codeforia](https://www.codeforia.com/) is a platform launched by a [programming school](https://www.jacektomasiewicz.pl/) established in 2015. Based on their experience in conducting effective programming courses, they decided to launch a customized web platform to offer a variety of paid online programming courses.
+
+At Codeforia.com you will find over 200 programming challenges. The platform also enables you to automatically check your code and run it through test cases.
+
+<div class="image"><img src="/images/codeforia_mockup_tasks.png" alt="Codeforia" title="It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team."  /> </div>
+
+*It is a mockup example created for the purpose of the case study. It is based on the design made by Codeforia Team.*
