@@ -241,12 +241,13 @@ export default function Template({
               margin='0rem 0 6.5625rem '
               mobileMargin='5.125rem 0 2.75rem '
               laptopMargin='0 0 5.185rem'
+              id="faqs"
             >
-              {title_faqs}
+              <a href="#faqs">{title_faqs}</a>
             </CustomSectionTitle>
           ) : (
-            <CustomSectionTitle margin='11.625rem 0 6.5625rem ' mobileMargin='5.125rem 0 2.75rem '>
-              {title_faqs}
+            <CustomSectionTitle margin='11.625rem 0 6.5625rem' mobileMargin='5.125rem 0 2.75rem' id="faqs">
+              <a href="#faqs">{title_faqs}</a>
             </CustomSectionTitle>
           )}
 
