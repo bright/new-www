@@ -43,8 +43,6 @@ language: en
 
 <TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
 
-<Gallery images='[{"src":"/images/nestjs_stack_logo.svg","alt":"Next.js"},{"src":"/images/react_stack_logo.svg","alt":"React"}]' />
-
 **Frontend development:** Next.js, React
 
 <TitleWithIcon sectionTitle="about Codeforia" titleIcon="/images/icon_title_about.svg" titleIconAlt="about" />
