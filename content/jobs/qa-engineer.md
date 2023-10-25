@@ -90,7 +90,7 @@ As a member of our QA team, you will maintain a high quality of our iOS, Android
 * international projects for organisations from such industries as FinTech, Retail, Health/Fitness 
 * a great impact on the key project decisions
 * flexible working hours and remote work possibility
-* both permanent contract and B2B include 20-26 paid days off + Polish public holidays
+* 20-26 paid days off + Polish public holidays
 * mentoring program and regular 1:1 meetings
 * continuous feedback culture and open communication
 * MultiSport and private medical package
