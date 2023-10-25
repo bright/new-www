@@ -14,6 +14,7 @@ working time: full time
 technology:
   - Kotlin
   - Android
+  - Kotlin coroutines
 title_more_about_us: if you want to know a bit more about us, take a look below 🙋🏻‍♀️🙋🏻‍♂️
 show_new_title_more_about_us: true
 links_more_about_us: >-
@@ -86,7 +87,8 @@ As a part of our team you'll have the opportunity to work closely with cross-fun
 
 ## perks & benefits 🚀🚀🚀
 
-* flexible schedule and remote work option 
+* flexible schedule and remote work option
+* 20-26 paid days off + Polish public holidays
 * **mentoring program and 1:1 meetings**
 * **Bright Day (8 hours) each month for non-project stuff** + 2 hours each week for blogging 
 * MultiSport and private PZU Zdrowie medical package
