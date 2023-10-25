@@ -10,7 +10,7 @@ hours: full-time
 salary: 20 000 - 26 000 PLN + VAT (B2B) or 16 600 - 20 750 PLN gross (UoP)
 salary_min: 20000
 salary_max: 26000
-working time: 26 paid days off + Polish bank holidays
+working time: 20-26 paid days off + Polish bank holidays
 technology:
   - Java
   - Kotlin
@@ -90,7 +90,7 @@ The person who will join our team should possess **the ability to adapt and adju
 * continuous feedback culture and 1:1 meetings 
 * clear career path with 
 * flexible working hours and remote work possibility
-* 26 paid days off + Polish bank holidays
+* 20-26 paid days off + Polish bank holidays
 * MultiSport card and private medical package (PZU Zdrowie)
 * good equipment: we provide you with MacBook and additional accessories
 * internal workshops and dev's meetings 
