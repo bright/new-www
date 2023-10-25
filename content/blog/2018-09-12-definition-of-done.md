@@ -88,5 +88,3 @@ Bear in mind that feature stages may depend on many factors like peer review pro
 ![Happy image](/images/definition-of-done/happy.jpg)
 
 Clear workflow and unequivocal Definition of Done are necessary for the smooth work of the team. When the project manager is well informed about the progress and possible delays, he can communicate it well to stakeholders. In case of any obstacles, he can respond quickly and facilitate the development process. On the other hand, developers do not have the stressful feeling of prolonged work over the feature because it is divided into clear phases. The Definition of done ensures that you are delivering features that are truly done at the appropriate level of quality.
-
-<EbookDynamic sectionTitle='ebook' ebookName='Optimise-Sign-In-Experience.pdf' ebookDescription='ebook' ebookImage='/images/cover-sign-in-ebook.png' ebookAlt='ebook' />
