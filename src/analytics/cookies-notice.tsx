@@ -123,18 +123,6 @@ const CustomizeButton = styled.button`
   transform: translateY(42px);
   padding: 0;
   margin: 0;
-  /* @media ${variables.device.tablet} {
-    position: absolute;
-    right: 50%;
-    left: auto;
-    transform: translate(50%, 0);
-    bottom: 40px;
-    text-decoration: none;
-  }
-  @media ${variables.device.tablet} {
-    bottom: 61px;
-    right: 25%;
-  } */
   @media ${variables.device.mobile} {
     bottom: 38px;
     
@@ -185,7 +173,7 @@ function CookiesNotice() {
             We use cookies for analytics and marketing purposes – more info in our {' '}
             <Link to={routeLinks.privacyPolicy} style={{ color: '#fff', textDecoration: 'underline' }}>
               Privacy Policy
-            </Link>{' '}
+            </Link>
             .
           </CookieText>
           <CustomizeButton onClick={openModal}>customize</CustomizeButton>
