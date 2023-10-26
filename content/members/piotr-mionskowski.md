@@ -9,8 +9,8 @@ slug: piotr
 name: Piotr Mionskowski
 short_name: Piotr
 email: piotr.mionskowski@brightinventions.pl
-bio: Partner, Team Leader, Technology Evangelist
-description: Partner, Team Leader, Technology Evangelist
+bio: Head of Technology & Partner
+description: Head of Technology & Partner
 web: https://miensol.pl
 avatar: /images/piotrm2022.png
 avatar_hover: /images/piotrm_passion.png
