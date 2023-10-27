@@ -28,7 +28,7 @@ In the fast-paced world, effective communication is key. Hesitating to hear or v
 
 It's a crucial aspect that could have steered my - and probably yours - journey differently.
 
-<div class="image"><img src="/images/7e0c1ff5-a2b1-42e1-babd-d119cb313565.webp" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/7e0c1ff5-a2b1-42e1-babd-d119cb313565.webp" alt="client feedback" title="feedback"  /> </div>
 
 ## **Unblocking Stagnation in Business Development**
 
@@ -51,7 +51,7 @@ Instead of changing individuals, address uncomfortable truths to bring sustainab
 \
 This fosters a deeper team understanding and paves the way for collaborative problem-solving.
 
-<div class="image"><img src="/images/teamwork-quotes-abraham-lincoln.png" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/teamwork-quotes-abraham-lincoln.png" alt="lincoln's quote" title="lincoln's quote"  /> </div>
 
 ## **Conclusion: The Power of Uncomfortable Truths**
 
@@ -63,4 +63,7 @@ Reflecting on my own journey, I've come to realize that the ability to speak unc
 
 Remember, that embracing discomfort might be the key to unlocking your team's full potential
 
-<div class="image"><img src="/images/73v1na.jpg" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/73v1na.jpg" alt="undefined" title="undefined"  /> </div>\
+\
+source: \
+https://www.extension.iastate.edu/agdm/wholefarm/html/c6-56.html
