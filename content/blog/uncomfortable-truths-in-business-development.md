@@ -63,7 +63,7 @@ It's the gateway to innovation, growth, and resilient team dynamics. 
 
 Reflecting on my own journey, I've come to realize that the ability to speak uncomfortable truths and identify unmet needs is not just a personal development tool but a crucial element in the success of any business project.
 
-Remember, that embracing discomfort might be the key to unlocking your team's full potential
+Remember, that embracing discomfort might be the key to unlocking your team's full potential.
 
 <div class="image"><img src="/images/73v1na.jpg" alt="undefined" title="undefined"  /> </div>\
 \
