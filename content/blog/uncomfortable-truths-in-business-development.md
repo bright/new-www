@@ -24,7 +24,7 @@ Reflecting on missed opportunities in business and product development often unv
 **🧐 What was one thing that you regret not doing that could have helped you where you at today in your business project?**
 
 For me it was not telling the uncomfortable truth and not identifying my clients needs. \
-Remember, that you made your project not for yourself, but for your clients and the only way to make it billable, is to met your client needs. You have to ask for feedback and hear (probably) some unpleasant words.
+Remember, that you made your project not for yourself, but for your clients and the only way to make it billable, is to meet your client needs. You have to ask for feedback and hear (probably) some unpleasant words.
 
 In the fast-paced world, effective communication is key. Hesitating to hear or voice concerns or share uncomfortable truths can slow down progress and innovation. 
 
