@@ -58,7 +58,7 @@ const SliderButton = styled.div`
 `
 
 const PreviousSliderButton = styled(SliderButton)`
-  margin-right: ${variables.pxToRem(90)};
+  margin-right: ${variables.pxToRem(0)};
   position: absolute;
   top: 50%;
   left: 0;
@@ -66,7 +66,7 @@ const PreviousSliderButton = styled(SliderButton)`
   width: 50px;
   height: 50px;
   @media ${variables.device.tabletXL} {
-    margin-right: ${variables.pxToRem(58)};
+    margin-right: ${variables.pxToRem(0)};
   }
 
   @media ${variables.device.tablet} {
@@ -87,7 +87,7 @@ const PreviousSliderButton = styled(SliderButton)`
   }
 `
 const NextSliderButton = styled(SliderButton)`
-  margin-left: ${variables.pxToRem(90)};
+  margin-left: ${variables.pxToRem(0)};
   position: absolute;
   top: 50%;
   right: 0;
@@ -96,7 +96,7 @@ const NextSliderButton = styled(SliderButton)`
   height: 50px;
   z-index: 5;
   @media ${variables.device.tabletXL} {
-    margin-left: ${variables.pxToRem(58)};
+    margin-left: ${variables.pxToRem(0)};
   }
   @media ${variables.device.tablet} {
     display: flex;
