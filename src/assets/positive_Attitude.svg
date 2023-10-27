@@ -34,7 +34,7 @@
       </g>
     </g>
     <g id="Group_2379" data-name="Group 2379" transform="translate(-8373 -15496)">
-      <g id="Group_2378" data-name="Group 2378" clip-path="url(#clip-path)">
+      
         <path id="Path_36349" data-name="Path 36349" d="M10.195,103.319H5.843V98.967a.5.5,0,1,0-.995,0v4.352H.5a.5.5,0,0,0,0,.995H4.849v4.352a.5.5,0,1,0,.995,0v-4.352h4.352a.5.5,0,0,0,0-.995" transform="translate(0 -59.516)" fill="#f7931e" stroke="#f7931e" stroke-width="1"/>
         <path id="Path_36350" data-name="Path 36350" d="M63.355,85.068H59.744V81.457a.413.413,0,1,0-.825,0v3.611H55.308a.413.413,0,1,0,0,.825h3.611V89.5a.413.413,0,0,0,.825,0V85.893h3.611a.413.413,0,1,0,0-.825" transform="translate(-33.179 -48.984)" fill="#f7931e" stroke="#f7931e" stroke-width="1"/>
         <path id="Path_36351" data-name="Path 36351" d="M326,25.022h4.352V20.67a.5.5,0,1,1,.995,0v4.352h4.352a.5.5,0,0,1,0,.995h-4.352v4.352a.5.5,0,1,1-.995,0V26.016H326a.5.5,0,0,1,0-.995" transform="translate(-196.735 -12.193)" fill="#f7931e" stroke="#f7931e" stroke-width="1"/>
@@ -44,7 +44,7 @@
         <path id="Path_36355" data-name="Path 36355" d="M143.187,15.878h-7.763V8.116a.887.887,0,1,0-1.774,0v7.762h-7.762a.887.887,0,0,0,0,1.774h7.762v7.763a.887.887,0,1,0,1.774,0V17.652h7.763a.887.887,0,0,0,0-1.774" transform="translate(-75.551 -4.369)" fill="#f7931e" stroke="#f7931e" stroke-width="1"/>
         <path id="Path_36356" data-name="Path 36356" d="M216.553,4.024h3.611V.413a.413.413,0,1,1,.825,0V4.024H224.6a.413.413,0,0,1,0,.825h-3.611V8.46a.413.413,0,1,1-.825,0V4.849h-3.611a.413.413,0,0,1,0-.825" transform="translate(-130.637 0)" fill="#f7931e" stroke="#f7931e" stroke-width="1"/>
         <path id="Path_36357" data-name="Path 36357" d="M62.706,9.519h3.611V5.908a.413.413,0,1,1,.825,0V9.519h3.611a.413.413,0,0,1,0,.825H67.142v3.611a.413.413,0,1,1-.825,0V10.344H62.706a.413.413,0,0,1,0-.825" transform="translate(-37.65 -3.321)" fill="#f7931e" stroke="#f7931e" stroke-width="1"/>
-      </g>
+     
     </g>
   </g>
 </svg>
