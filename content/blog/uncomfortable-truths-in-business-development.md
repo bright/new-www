@@ -15,10 +15,6 @@ language: en
 ---
 My previous blogpost explored leaving the comfort zone. Inspired by my team colleague [Ula](https://brightinventions.pl/about-us/ula/) and her recent [blogposts](https://brightinventions.pl/blog/4-interpersonal-skills-that-can-save-your-software-team-time-and-money/), as a former business owner I will share some thoughts on comfort zones in business. 
 
-
-
-
-
 ## **The Regret of Silence**
 
 Reflecting on missed opportunities in business and product development often unveils pivotal lessons. 
@@ -34,8 +30,6 @@ It's a crucial aspect that could have steered my - and probably yours - journey 
 
 <div class="image"><img src="/images/7e0c1ff5-a2b1-42e1-babd-d119cb313565.webp" alt="undefined" title="undefined"  /> </div>
 
-
-
 ## **Unblocking Stagnation in Business Development**
 
 In business development, encountering team roadblocks is common, often causing delays in product delivery and subsequently leading to increased costs. Who wants that? Nobody. So, where's the remedy?
@@ -43,10 +37,6 @@ In business development, encountering team roadblocks is common, often causing d
 Instead of removing a team member in the face of challenges, consider that the issue may not lie with the individual. 
 
 Removing someone doesn't always resolve underlying problems; sometimes, discomfort stems from comfort zone, meaning unspoken truths and unmet needs within the team.
-
-
-
-
 
 ## **Leaving the Comfort Zone. Again**
 
@@ -56,7 +46,7 @@ Instead of changing individuals, address uncomfortable truths to bring sustainab
 
 This fosters a deeper team understanding and paves the way for collaborative problem-solving.
 
-
+<div class="image"><img src="/images/teamwork-quotes-abraham-lincoln.png" alt="undefined" title="undefined"  /> </div>
 
 ## **Conclusion: The Power of Uncomfortable Truths**
 
