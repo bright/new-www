@@ -13,7 +13,9 @@ comments: true
 published: true
 language: en
 ---
-My previous blogpost explored leaving the comfort zone. Inspired by my team colleague [Ula](https://brightinventions.pl/about-us/ula/) and her recent [blogposts](https://brightinventions.pl/blog/4-interpersonal-skills-that-can-save-your-software-team-time-and-money/), as a former business owner I will share some thoughts on comfort zones in business. 
+My previous blogpost explored [leaving the comfort zone](/blog/stepping-out-of-your-comfort-zone/). Inspired by my team colleague [Ula](https://brightinventions.pl/about-us/ula/) and her recent [blogposts](https://brightinventions.pl/blog/4-interpersonal-skills-that-can-save-your-software-team-time-and-money/), as a former business owner I will share some thoughts on comfort zones in business. 
+
+<div class="image"><img src="/images/comfort_zone_blogpost-4-.png" alt="business truths" title="business truths"  /> </div>
 
 ## **The Regret of Silence**
 
