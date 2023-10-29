@@ -68,8 +68,8 @@ const RecruitingProcessMobile: React.FC<Props> = ({ recruting_image2_title, recr
         }
 
         return (
-          <SwiperSlide>
-            <SlideWrapper key={title}>
+          <SwiperSlide key={title}>
+            <SlideWrapper >
               <RecruitingFigure>
                 <img src={block.image} alt={title} />
               </RecruitingFigure>
