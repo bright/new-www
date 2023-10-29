@@ -129,7 +129,7 @@ const QuoteWrapper = styled.p`
   }
 `
 const WrapperImage = styled.div`
-  flex-basis: 30%;
+  flex-basis: 42%;
   & .quote-img {
     max-height: ${variables.pxToRem(521)};
     width: auto;
@@ -139,7 +139,7 @@ const WrapperImage = styled.div`
     }
   }
   @media ${variables.device.tabletXL} {
-    flex-basis: 30%;
+    flex-basis: 42%;
     & .quote-img {
       max-height: ${variables.pxToRem(345)};
       width: auto;
