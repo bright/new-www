@@ -18,7 +18,7 @@ Living in a [VUCA (Volatile, Uncertain, Complex, and Ambiguous)](https://en.wiki
 
 The VUCA world demands constant acquisition of new knowledge and skills to remain relevant and competitive. However, there are still traits that remain constant. These are core values that we follow in private and professional life. **Core values are not just words that you put on your office walls, they are the backbone of any organisation culture.** They create the sense of identity and purpose that make people work together towards coming golas. They drive employees to promote ethical behaviours and build strong relationships. 
 
-**At Bright Inventions we foster [the culture of responsibility, flexibility, teamwork, positive attitude and client orientation.](https://brightinventions.pl/about-us/#core-values) Our core values serve as guiding principles, kind of unifying force that helps us make sure employees are aligned with the company's mission and vision.** They foster a sense of belonging and a common understanding of the organization's goals. That is why, I have also decided to used them as one the main tools in our recruitment process. 
+**At Bright Inventions we foster [the culture of responsibility, flexibility, teamwork, positive attitude and client orientation.](https://brightinventions.pl/about-us/#core-values) Our core values serve as guiding principles, kind of unifying force that helps us make sure employees are aligned with the company's mission and vision.** They foster a sense of belonging and a common understanding of the organization's goals. That is why, I have also decided to used them as one of the main tools in our recruitment process. 
 
 ## **Competence based recruitment - start here**
 
