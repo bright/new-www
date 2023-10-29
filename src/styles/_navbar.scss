@@ -8,7 +8,7 @@ $navbar-item-img-max-height: 67px;
   width: $baseWidth;
 
   @include mobile {
-    width: $baseWidth / 2;
+    width: $baseWidth * 0.5;
   }
 }
 
