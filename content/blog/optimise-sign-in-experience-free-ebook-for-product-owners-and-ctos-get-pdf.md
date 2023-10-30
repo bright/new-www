@@ -4,12 +4,12 @@ tags:
   - business
   - inspiration
   - development
-date: 2023-10-30T07:23:05.432Z
-meaningfullyUpdatedAt: 2023-10-30T07:23:05.466Z
+date: 2023-10-30T07:47:12.409Z
+meaningfullyUpdatedAt: 2023-10-30T07:47:13.229Z
 title: Optimise Sign-In Experience. Free Ebook for Product Owners and CTOs [Get PDF]
 layout: post
 image: /images/ebook_blog_post_cover_sign_in.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
@@ -44,3 +44,5 @@ Discover the table of contents:
 ## Ebook author
 
 Piotr Mionskowski is a Head of Technology and Partner at Bright Inventions with over 12 years of professional experience in software development. He is an expert in backend APIs, distributed systems, backend frameworks, and databases. He possesses an exceptional ability to learn almost every new technology that appears.
+
+<div class="image"><img src="/images/piotr_ebook_author.png" alt="Piotr Mionskowski" title="Piotr Mionskowski"  /> </div>
