@@ -22,7 +22,7 @@ The VUCA world demands constant acquisition of new knowledge and skills to remai
 
 ## **Competence based recruitment - start here**
 
-If you do not feel sure about building the vakeu based recruitment process from scratch, competence based recruitment (CBR) might a good starting point for you. It is a hiring approach in which recruiter’s or hiring manager's goal is to assess candidates' specific skills, knowledge, abilities, and behaviours relevant to the particular job. **Instead of solely relying on qualifications and experience, CBR aims to match candidates' competencies with the specific requirements of the position.** 
+If you do not feel sure about building the value based recruitment process from scratch, competence based recruitment (CBR) might a good starting point for you. It is a hiring approach in which recruiter’s or hiring manager's goal is to assess candidates' specific skills, knowledge, abilities, and behaviours relevant to the particular job. **Instead of solely relying on qualifications and experience, CBR aims to match candidates' competencies with the specific requirements of the position.** 
 
 <div class="image"><img src="/images/hire-for-attitude.jpg" alt="hire for attitude" title="undefined"  /> </div>
 
