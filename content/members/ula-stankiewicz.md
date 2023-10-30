@@ -6,8 +6,8 @@ slug: ula
 name: Ula Stankiewicz
 short_name: Ula
 email: ula.stankiewicz@brightinventions.pl
-bio: Head of People & Communication
-description: Head of People & Communication
+bio: Head of People & Communications
+description: Head of People & Communications
 avatar: /images/ula2_team.png
 avatar_hover: /images/ula2_passion.png
 redirect_from:
