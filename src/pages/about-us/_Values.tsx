@@ -35,8 +35,9 @@ const Value = styled.div`
   padding-top: ${variables.pxToRem(80)};
 
   && figure {
+    max-width:${variables.pxToRem(142)}
     & svg {
-      width: 142px;
+      width: ${variables.pxToRem(142)};
       margin-top: ${variables.pxToRem(43)};
     }
   }
@@ -50,9 +51,11 @@ const Value = styled.div`
     align-items: center;
     padding-top: ${variables.pxToRem(83)};
     && figure {
+      max-width:${variables.pxToRem(142)}
       & svg {
-        width: 142px;
+        width: ${variables.pxToRem(142)};
         margin-top: 0;
+        max-width:${variables.pxToRem(142)};
       }
     }
   }
@@ -60,10 +63,12 @@ const Value = styled.div`
     gap: ${variables.pxToRem(18)};
 
     && figure {
+      width: ${variables.pxToRem(100)};
       & svg {
         width: ${variables.pxToRem(100)};
         height: auto;
         margin-top: 0;
+        max-width:${variables.pxToRem(100)}
       }
     }
   }
