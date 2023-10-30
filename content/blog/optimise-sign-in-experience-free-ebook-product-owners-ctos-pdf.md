@@ -1,5 +1,6 @@
 ---
 author: piotr
+secondAuthor: izabela
 tags:
   - business
   - inspiration
