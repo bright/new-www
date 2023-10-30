@@ -69,6 +69,7 @@ const TextRegularTraits = styled(TextRegular)`
   }
 `
 const TraitsFigure = styled.figure`
+max-width: ${variables.pxToRem(142)};
   & svg {
     width: 142px;
     margin-top: ${variables.pxToRem(48)};
@@ -76,8 +77,9 @@ const TraitsFigure = styled.figure`
 
   @media ${variables.device.tablet} {
     margin: 0 auto;
+    max-width: ${variables.pxToRem(100)};
     & svg {
-      width: 100%;
+      width: ${variables.pxToRem(100)};
       height: auto;
       margin-top: ${variables.pxToRem(0)};
     }
