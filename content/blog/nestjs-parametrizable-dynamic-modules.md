@@ -4,7 +4,7 @@ tags:
   - nestjs
 date: 2023-10-30T08:48:27.918Z
 meaningfullyUpdatedAt: 2023-10-30T08:48:27.965Z
-title: NestJS Parametrizable Dynamic modules
+title: NestJS Parametrizable Dynamic Modules
 layout: post
 hidden: true
 comments: true
