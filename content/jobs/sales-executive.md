@@ -32,7 +32,7 @@ button_linkedin: https://www.linkedin.com/in/urszula-stankiewicz-rusek/
 button: "join our bright team "
 published: true
 show_recruiter_info: true
-order: 4
+order: 1
 recruting_image2_title: "interview (business & communication part "
 recruting_image3_title: final meeting with your leader/CEO
 language: en
