@@ -83,3 +83,11 @@ Technology must become a handful tool for organizations aiming to help. **The Ca
 Our client, **one of the leading global humanitarian agencies, approached us looking to create a system that would improve their payment instrument distribution process**. As part of the agency's ongoing effort to support people in need in some of our planet's poorest regions, **the agency distributes payment instruments (prepaid cards, SIM cards, vouchers, etc.) to local communities around the globe**. This, in turn, **allows beneficiaries to acquire essential items** like food, hygiene products, and other necessities for their families.
 
 <div class="image"><img src="/images/qr_code_distrubution.png" alt="QR code" title="QR code"  /> </div>
+
+The client required a **system that would follow the payment instruments at every stage** – all the way from the point of order to distributing them to the beneficiaries and beyond. The system was required to show the cards' status to ensure they fulfilled their purpose: giving resources to families living below the poverty line. Any fraudulent activity was to be tracked by the system and dealt with accordingly by the staff on the ground.
+
+The system didn't monitor the payment transactions the card was used in. Still, it tracks the handing over of cards between different departments and organizations within the humanitarian agency. Thanks to that, **the client can quickly check how many cards are ready to be distributed and how many have already been passed on to end users**.
+
+The system was developed on two platforms. **The web application acts as the back office application, mainly displaying events logs and the issued cards' status**. Meanwhile, the **Android mobile application enables scanning of the cards**, sending data between the on-the-ground staff and the offices, and recording when they are distributed to the end users. In this project, **Bright Inventions handled every aspect of the project**, from product design work all the way to backend and frontend development to deployment and maintenance.
+
+<TitleWithIcon sectionTitle="Goal: Easy adjustment to local laws and regulations" titleIcon="/images/icon_title_goal.svg" titleIconAlt="Goal: Easy adjustment to local laws and regulations" />
