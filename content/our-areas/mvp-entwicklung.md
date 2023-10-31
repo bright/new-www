@@ -21,7 +21,7 @@ project:
   - Mobile Therapieanwendung
 layout: our-service
 our_service_id: MVP-Entwicklung Agentur
-meta_title: MVP-Entwicklungsagentur
+meta_title: MVP Entwicklung
 meta_description: Seit 2012 entwickeln wir MVPs für Startups, Unternehmen und
   Agenturen in Deutschland, Großbritannien, Israel. Kontaktieren Sie uns jetzt!
 our_services_icon: /images/mvp_development.png
@@ -31,8 +31,8 @@ short_description: Erstellen Sie ein MVP, um die Markteinführungszeit zu
   verkürzen. Wir haben MVPs für Startups, NGOs und Beratungsagenturen
   entwickelt. Lassen Sie uns an Ihrem MVP arbeiten.
 order: 99
-title: Starten Sie Ihre Idee mit der MVP- Entwicklungsagentur
-highlighted_word: MVP- Entwicklungsagentur
+title: MVP Entwicklung
+highlighted_word: MVP
 image_our_service_desktop: /images/mvp_development_company_desktop_big.png
 image_our_service_mobile: /images/mvp_development_company_mobile_big.png
 image_alt_our_service: MVP-Entwicklung Agentur
