@@ -6,8 +6,8 @@ slug: michal-bu
 name: Michał Buńkowski
 short_name: Michał
 email: michal.bunkowski@brightinventions.pl
-bio: Senior Frontend Developer
-description: Senior Frontend Developer
+bio: Frontend Developer
+description: Frontend Developer
 avatar: /images/bunkowski.png
 avatar_hover: /images/brightdev_passion_4-bunkowski.png
 published: true
