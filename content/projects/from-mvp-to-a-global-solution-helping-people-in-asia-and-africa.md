@@ -52,3 +52,11 @@ language: en
 
 
 <SliderText sliderElements='[{"title":"Payment instruments monitoring","description":"Monitoring the “life cycle” of payment instruments."},{"description":"Receiving data about cards from banks.","title":"Data processing from banks"},{"title":"Card scanning","description":"Scanning cards in order to track their status and location (details of payment transactions aren’t gathered)."},{"title":"Distribution mechanism","description":"A mechanism for distributing cards and PINs to local communities in need."},{"title":"Offline-first app","description":"Offline mode for a mobile app allowing for distributing cards in the terrain."},{"title":"Dashboard with reports and analytics","description":"Web application providing reports about card statuses and distribution."}]' />
+
+
+
+<TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
+
+
+
+<Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/aws.png","alt":"AWS"}]' />
