@@ -45,4 +45,10 @@ show on homepage: false
 published: true
 language: en
 ---
-In the world affected by military conflicts, social inequalities and the rising number of refugees the aid provided by NGOs and humanitarian organizations must undergo digitalization to effectively address global challenges.
+
+
+<TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
+
+
+
+<SliderText sliderElements='[{"title":"Payment instruments monitoring","description":"Monitoring the “life cycle” of payment instruments."},{"description":"Receiving data about cards from banks.","title":"Data processing from banks"},{"title":"Card scanning","description":"Scanning cards in order to track their status and location (details of payment transactions aren’t gathered)."},{"title":"Distribution mechanism","description":"A mechanism for distributing cards and PINs to local communities in need."},{"title":"Offline-first app","description":"Implementing offline mode for a mobile app allowing for distributing cards in the terrain."},{"title":"Dashboard with reports and analytics","description":"Web application providing reports about card statuses and distribution."}]' />
