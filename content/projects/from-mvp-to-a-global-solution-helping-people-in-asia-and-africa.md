@@ -60,3 +60,8 @@ language: en
 
 
 <Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/aws.png","alt":"AWS"}]' />
+
+**Web Frontend:** React.js + Redux, MaterialUI + styled-components
+**Backend:** Node.js, NestJS
+**Android:** Kotlin
+**Deployment**: AWS – CloudFormation, TeamCity
