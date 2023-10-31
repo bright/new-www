@@ -65,3 +65,15 @@ language: en
 **Backend:** Node.js, NestJS
 **Android:** Kotlin
 **Deployment**: AWS – CloudFormation, TeamCity
+
+<TitleWithIcon sectionTitle="Harnessing the power of technology to aid" titleIcon="/images/icon_title_about.svg" titleIconAlt="Harnessing the power of technology to aid" />
+
+In the world affected by military conflicts, social inequalities and the rising number of refugees the aid provided by **NGOs and humanitarian organizations must undergo digitalization to effectively address global challenges**.
+
+While media coverage often focuses on refugees making long journeys to Europe or the USA, the reality is that **the majority of refugees reside in Asian countries**. According to resque.com Jordan hosts the second-highest number of refugees per capita in the world.
+
+In regions such as Africa and Asia, far removed from the global media spotlight and influencer attention, the battle for an improved quality of life is ongoing. **Humanitarian organizations strive to aid not only refugees but also those hailing from the poorest regions and those who have lost their means of livelihood** and shelter due to natural disasters.
+
+Technology must become a handful tool for organizations aiming to help. **The Card Tracker System is one of the humanitarian projects harnessing the power of technology for aid**.
+
+<div class="image"><img src="/images/natural_disaster.png" alt="Natural disaster" title="Natural disaster"  /> </div>
