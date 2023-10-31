@@ -77,3 +77,9 @@ In regions such as Africa and Asia, far removed from the global media spotlight 
 Technology must become a handful tool for organizations aiming to help. **The Card Tracker System is one of the humanitarian projects harnessing the power of technology for aid**.
 
 <div class="image"><img src="/images/natural_disaster.png" alt="Natural disaster" title="Natural disaster"  /> </div>
+
+<TitleWithIcon sectionTitle="The story behind Card Tracking System" titleIcon="/images/icon_title_products.svg" titleIconAlt="The story behind Card Tracking System" />
+
+Our client, **one of the leading global humanitarian agencies, approached us looking to create a system that would improve their payment instrument distribution process**. As part of the agency's ongoing effort to support people in need in some of our planet's poorest regions, **the agency distributes payment instruments (prepaid cards, SIM cards, vouchers, etc.) to local communities around the globe**. This, in turn, **allows beneficiaries to acquire essential items** like food, hygiene products, and other necessities for their families.
+
+<div class="image"><img src="/images/qr_code_distrubution.png" alt="QR code" title="QR code"  /> </div>
