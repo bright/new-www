@@ -91,3 +91,7 @@ The system didn't monitor the payment transactions the card was used in. Still, 
 The system was developed on two platforms. **The web application acts as the back office application, mainly displaying events logs and the issued cards' status**. Meanwhile, the **Android mobile application enables scanning of the cards**, sending data between the on-the-ground staff and the offices, and recording when they are distributed to the end users. In this project, **Bright Inventions handled every aspect of the project**, from product design work all the way to backend and frontend development to deployment and maintenance.
 
 <TitleWithIcon sectionTitle="Goal: Easy adjustment to local laws and regulations" titleIcon="/images/icon_title_goal.svg" titleIconAlt="Goal: Easy adjustment to local laws and regulations" />
+
+The project goal was to **create an automated, transparent, and uniform system allowing the delivery of payment instruments to people in need**. The system has to work globally; therefore, it has to be easily adjustable to local law and the specific situations of different communities in Africa and Asia. The system also requires to **support card distribution in poor internet coverage areas**, making an offline mode a must.
+
+<TitleWithIcon sectionTitle="How did Bright Inventions help to make this system unique and live? " titleIcon="/images/gearwheel.svg" titleIconAlt="How did Bright Inventions help to make this system unique and live? " />
