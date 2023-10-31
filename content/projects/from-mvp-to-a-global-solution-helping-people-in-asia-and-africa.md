@@ -42,7 +42,7 @@ slug: card-tracking-system
 show_team: false
 show_case_study: false
 show on homepage: false
-published: true
+published: false
 language: en
 ---
 
