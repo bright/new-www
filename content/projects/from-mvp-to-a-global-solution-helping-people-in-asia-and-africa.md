@@ -20,6 +20,13 @@ hero_image: /images/case_study_card_tracker.png
 Hero Image_alt: Card Tracking System
 social_media_previev: /images/some_preview_card_tracker.png
 social_media_previev_alt: Card Tracking System
+bar_achievements:
+  - number: 4+
+    label: Years of collaboration
+  - number: "10"
+    label: Experts from Bright Inventions
+  - number: "2"
+    label: Continents where the system operates
 tags:
   - web app
   - mobile app
