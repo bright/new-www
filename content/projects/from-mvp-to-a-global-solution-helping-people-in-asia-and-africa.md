@@ -95,3 +95,9 @@ The system was developed on two platforms. **The web application acts as the bac
 The project goal was to **create an automated, transparent, and uniform system allowing the delivery of payment instruments to people in need**. The system has to work globally; therefore, it has to be easily adjustable to local law and the specific situations of different communities in Africa and Asia. The system also requires to **support card distribution in poor internet coverage areas**, making an offline mode a must.
 
 <TitleWithIcon sectionTitle="How did Bright Inventions help to make this system unique and live? " titleIcon="/images/gearwheel.svg" titleIconAlt="How did Bright Inventions help to make this system unique and live? " />
+
+We had the privilege of **starting the whole development process from scratch**, starting with the product design side of the proceedings. The development process required us to **turn the manual card distribution process into a digital flow**.
+
+The Card Tracking System was **developed as an MVP**. The goal was to build crucial features, release the product, and quickly verify if it meets the clients and their users' expectations. As the **feedback for the initial MVP was positive**, we started further work on delivering the full version of the app.
+
+<div class="image"><img src="/images/payment_sim.png" alt="Payment with phone" title="Payment with phone"  /> </div>
