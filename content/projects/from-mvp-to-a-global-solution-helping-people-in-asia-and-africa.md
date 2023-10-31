@@ -71,13 +71,13 @@ In regions such as Africa and Asia, far removed from the global media spotlight 
 
 Technology must become a handful tool for organizations aiming to help. **The Card Tracker System is one of the humanitarian projects harnessing the power of technology for aid**.
 
-<div class="image"><img src="/images/natural_disaster.png" alt="Natural disaster" title="Natural disaster"  /> </div>
+<div class="image"><img src="/images/natural_disaster-girl.png" alt="Natural disaster" title="Natural disaster"  /> </div>
 
 <TitleWithIcon sectionTitle="The story behind Card Tracking System" titleIcon="/images/icon_title_products.svg" titleIconAlt="The story behind Card Tracking System" />
 
 Our client, **one of the leading global humanitarian agencies, approached us looking to create a system that would improve their payment instrument distribution process**. As part of the agency's ongoing effort to support people in need in some of our planet's poorest regions, **the agency distributes payment instruments (prepaid cards, SIM cards, vouchers, etc.) to local communities around the globe**. This, in turn, **allows beneficiaries to acquire essential items** like food, hygiene products, and other necessities for their families.
 
-<div class="image"><img src="/images/qr_code_distrubution.png" alt="QR code" title="QR code"  /> </div>
+<div class="image"><img src="/images/qr_code.png" alt="QR code" title="QR code"  /> </div>
 
 The client required a **system that would follow the payment instruments at every stage** – all the way from the point of order to distributing them to the beneficiaries and beyond. The system was required to show the cards' status to ensure they fulfilled their purpose: giving resources to families living below the poverty line. Any fraudulent activity was to be tracked by the system and dealt with accordingly by the staff on the ground.
 
@@ -95,7 +95,9 @@ We had the privilege of **starting the whole development process from scratch**,
 
 The Card Tracking System was **developed as an MVP**. The goal was to build crucial features, release the product, and quickly verify if it meets the clients and their users' expectations. As the **feedback for the initial MVP was positive**, we started further work on delivering the full version of the app.
 
-<div class="image"><img src="/images/payment_sim.png" alt="Payment with phone" title="Payment with phone"  /> </div>
+
+
+<div class="image"><img src="/images/payment_phone.png" alt="Payment with phone" title="Payment with phone"  /> </div>
 
 <TitleWithIcon sectionTitle="Responding to unique challenges refugees have to encounter" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Responding to unique challenges refugees have to encounter" />
 
