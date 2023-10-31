@@ -42,7 +42,7 @@ button_linkedin: https://www.linkedin.com/in/saralecka81680085/
 button: join our bright iOS team
 published: true
 show_recruiter_info: true
-order: 6
+order: 5
 recruting_image2_title: interview (technical part & non-technical part)
 recruting_image3_title: programming task
 language: en
