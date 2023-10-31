@@ -45,25 +45,20 @@ show on homepage: false
 published: false
 language: en
 ---
-
-
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
-
-
 
 <SliderText sliderElements='[{"title":"Payment instruments monitoring","description":"Monitoring the “life cycle” of payment instruments."},{"description":"Receiving data about cards from banks.","title":"Data processing from banks"},{"title":"Card scanning","description":"Scanning cards in order to track their status and location (details of payment transactions aren’t gathered)."},{"title":"Distribution mechanism","description":"A mechanism for distributing cards and PINs to local communities in need."},{"title":"Offline-first app","description":"Offline mode for a mobile app allowing for distributing cards in the terrain."},{"title":"Dashboard with reports and analytics","description":"Web application providing reports about card statuses and distribution."}]' />
 
-
-
 <TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
-
-
 
 <Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/node.png","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/aws.png","alt":"AWS"}]' />
 
 **Web Frontend:** React.js + Redux, MaterialUI + styled-components
+
 **Backend:** Node.js, NestJS
+
 **Android:** Kotlin
+
 **Deployment**: AWS – CloudFormation, TeamCity
 
 <TitleWithIcon sectionTitle="Harnessing the power of technology to aid" titleIcon="/images/icon_title_about.svg" titleIconAlt="Harnessing the power of technology to aid" />
@@ -101,8 +96,6 @@ We had the privilege of **starting the whole development process from scratch**,
 The Card Tracking System was **developed as an MVP**. The goal was to build crucial features, release the product, and quickly verify if it meets the clients and their users' expectations. As the **feedback for the initial MVP was positive**, we started further work on delivering the full version of the app.
 
 <div class="image"><img src="/images/payment_sim.png" alt="Payment with phone" title="Payment with phone"  /> </div>
-
-
 
 <TitleWithIcon sectionTitle="Responding to unique challenges refugees have to encounter" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Responding to unique challenges refugees have to encounter" />
 
