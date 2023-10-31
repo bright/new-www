@@ -1,8 +1,8 @@
 ---
 layout: member
-author_id: michal
+author_id: michal-mi
 ex: false
-slug: michal
+slug: michal-mi
 name: Michał Minikowski
 short_name: Michał
 email: michal.minikowski@brightinventions.pl
