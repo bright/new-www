@@ -1,8 +1,8 @@
 ---
 layout: member
-author_id: michal
+author_id: michal-bu
 ex: false
-slug: michal
+slug: michal-bu
 name: Michał Buńkowski
 short_name: Michał
 email: michal.bunkowski@brightinventions.pl
