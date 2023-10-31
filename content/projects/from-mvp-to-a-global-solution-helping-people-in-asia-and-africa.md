@@ -111,7 +111,9 @@ We also had to **account for people without the proper ID required by the local 
 
 At Bright Inventions, **we are honored that we could develop a card tracking system that supports the daily jobs of humanitarian agency employees** helping them to organize aid during missions in areas affected by natural disasters, climate change, or wars. The local people can use the cards distributed to meet their most basic needs. **Our client's efforts not only result in helping people in the crises of poverty but also help to stimulate the local economies**.
 
-<div class="image"><img src="/images/shop_girl_women.png" alt="Shopping" title="Shopping"  /> </div>
+
+
+<div class="image"><img src="/images/shopping_girl_women.png" alt="Shopping" title="Shopping"  /> </div>
 
 **A pilot of the system was launched in 2020** in one of the Middle Eastern countries where the agency operates. The reception has been positive, and **the system was rolled out across other countries in the Middle East and Africa**. 
 
