@@ -1,8 +1,8 @@
 ---
 layout: member
-author_id: michal
+author_id: michal-be
 ex: false
-slug: michal
+slug: michal-be
 name: Michał Bednarz
 short_name: Michał
 email: michal.bednarz@brightinventions.pl
