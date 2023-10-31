@@ -112,4 +112,12 @@ We also had to **account for people without the proper ID required by the local 
 
 **Close cooperation with the agency employees was vital during the prototyping and discovery phase**. These people work on the ground and understand the local processes and circumstances the refugees face. The information they shared through a series of interviews was crucial in understanding the solution needed. These interviews allowed us to customize the final product to the needs of the staff working across the humanitarian agency.
 
-<TitleWithIcon sectionTitle="Result of collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="Result of collaboration" />
+<TitleWithIcon sectionTitle="Result of collaboration: a system with implementations" titleIcon="/images/icon_result_svg.svg" titleIconAlt="Result of collaboration" />
+
+At Bright Inventions, **we are honored that we could develop a card tracking system that supports the daily jobs of humanitarian agency employees** helping them to organize aid during missions in areas affected by natural disasters, climate change, or wars. The local people can use the cards distributed to meet their most basic needs. **Our client's efforts not only result in helping people in the crises of poverty but also help to stimulate the local economies**.
+
+<div class="image"><img src="/images/shop_girl_women.png" alt="Shopping" title="Shopping"  /> </div>
+
+**A pilot of the system was launched in 2020** in one of the Middle Eastern countries where the agency operates. The reception has been positive, and **the system was rolled out across other countries in the Middle East and Africa**. 
+
+We are still working on the system, constantly developing new features, offering maintenance and assistance in launching the application in the new markets. The social impact certainly makes this a gratifying experience for our team, and we are thrilled to develop it with the client.
