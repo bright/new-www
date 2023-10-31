@@ -101,3 +101,15 @@ We had the privilege of **starting the whole development process from scratch**,
 The Card Tracking System was **developed as an MVP**. The goal was to build crucial features, release the product, and quickly verify if it meets the clients and their users' expectations. As the **feedback for the initial MVP was positive**, we started further work on delivering the full version of the app.
 
 <div class="image"><img src="/images/payment_sim.png" alt="Payment with phone" title="Payment with phone"  /> </div>
+
+
+
+<TitleWithIcon sectionTitle="Responding to unique challenges refugees have to encounter" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Responding to unique challenges refugees have to encounter" />
+
+The social impact this solution would make meant the discovery and prototyping phase was crucial in establishing an understanding of the various aspects of the project. For example, during the process, we found that the **eligibility criteria for an individual to receive the cards varies from country to country** and is sometimes linked to the specific life circumstances of the beneficiaries.
+
+We also had to **account for people without the proper ID required by the local authorities**. Some of the refugees in question left their homes so quickly that they did not have any documents at all. Each of these instances affected the flow of the app, creating more work for the product design team.
+
+**Close cooperation with the agency employees was vital during the prototyping and discovery phase**. These people work on the ground and understand the local processes and circumstances the refugees face. The information they shared through a series of interviews was crucial in understanding the solution needed. These interviews allowed us to customize the final product to the needs of the staff working across the humanitarian agency.
+
+<TitleWithIcon sectionTitle="Result of collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="Result of collaboration" />
