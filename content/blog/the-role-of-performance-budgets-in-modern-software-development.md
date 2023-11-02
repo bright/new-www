@@ -33,7 +33,7 @@ In order to keep the user experience at an acceptable level, it may be better to
 
 ### Rule-based metrics
 
-These metrics use performance scores calculated by tools like Lighthouse, which you can use as guidelines. What's even better, such tools provide hints on how to make your application perform better.
+**These metrics use performance scores calculated by tools like Lightho**use, which you can use as guidelines. What's even better, such tools provide hints on how to make your application perform better.
 
 ## Defining a budget
 
@@ -42,7 +42,7 @@ There is no way to provide a universal set of rules that will make sense for eve
 * Under 5 seconds Time to Interactive
 * Under 170 KB of critical-path resources
 
-The best thing you can do is to analyze your competition and see how they perform. Then in the worst-case scenario, you will match them and provide a similar experience to your users. On the other hand, you may enforce lower limits and outperform them - it's up to you and your team.
+**The best thing you can do is to analyze your competition and see how they perform**. Then in the worst-case scenario, you will match them and provide a similar experience to your users. On the other hand, you may enforce lower limits and outperform them - it's up to you and your team.
 
 It's worth mentioning budgets should be unambiguous. There is no use in a rule saying: "our home page must load and get interactive in less than 5 seconds on a slow device." What's a slow device? Three-year high-end device or maybe a $100 smartphone released 5 years ago? I recommend doing a short research and using an exact model instead.
 
