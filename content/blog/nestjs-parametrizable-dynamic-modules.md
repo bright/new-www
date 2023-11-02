@@ -7,7 +7,7 @@ meaningfullyUpdatedAt: 2023-11-02T07:38:50.725Z
 title: NestJS Parametrizable Dynamic Modules
 layout: post
 image: /images/blog_notifications.png
-hidden: true
+hidden: false
 comments: true
 published: false
 language: en
