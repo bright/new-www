@@ -9,7 +9,7 @@ layout: post
 image: /images/blog_notifications.png
 hidden: false
 comments: true
-published: false
+published: true
 language: en
 ---
 ## Intro
