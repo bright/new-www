@@ -125,7 +125,7 @@ export class EmailNotificationExecutor implements NotificationExecutor {
 })
 export class EmailNotificationModule {}
 
-export class NaiveuserNotificationService {
+export class NaiveUserNotificationService {
     constructor(@Inject("NotificationExecutor") private readonly notificationExecutor: NotificationExecutor) {
     }
 
@@ -146,16 +146,16 @@ export class NaiveuserNotificationService {
 }
 
 @Module({
-    providers: [ NaiveuserNotificationService ],
-    exports: [ NaiveuserNotificationService ]
+    providers: [ NaiveUserNotificationService ],
+    exports: [ NaiveUserNotificationService ]
 })
 export class NaiveUserNotificationModule {
     static register(notificationExecutor: Type<any>): DynamicModule {
         return {
             module: NaiveUserNotificationModule,
             imports: [notificationExecutor],
-            providers: [NaiveuserNotificationService],
-            exports: [NaiveuserNotificationService]
+            providers: [NaiveUserNotificationService],
+            exports: [NaiveUserNotificationService]
         }
     }
 }
