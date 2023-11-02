@@ -95,8 +95,6 @@ We had the privilege of **starting the whole development process from scratch**,
 
 The Card Tracking System was **developed as an MVP**. The goal was to build crucial features, release the product, and quickly verify if it meets the clients and their users' expectations. As the **feedback for the initial MVP was positive**, we started further work on delivering the full version of the app.
 
-
-
 <div class="image"><img src="/images/payment_phone.png" alt="Payment with phone" title="Payment with phone"  /> </div>
 
 <TitleWithIcon sectionTitle="Responding to unique challenges refugees have to encounter" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Responding to unique challenges refugees have to encounter" />
@@ -107,11 +105,9 @@ We also had to **account for people without the proper ID required by the local 
 
 **Close cooperation with the agency employees was vital during the prototyping and discovery phase**. These people work on the ground and understand the local processes and circumstances the refugees face. The information they shared through a series of interviews was crucial in understanding the solution needed. These interviews allowed us to customize the final product to the needs of the staff working across the humanitarian agency.
 
-<TitleWithIcon sectionTitle="Result of collaboration: a system with implementations" titleIcon="/images/icon_result_svg.svg" titleIconAlt="Result of collaboration" />
+<TitleWithIcon sectionTitle="Result of collaboration: a system with dozen implementations" titleIcon="/images/icon_result_svg.svg" titleIconAlt="Result of collaboration" />
 
 At Bright Inventions, **we are honored that we could develop a card tracking system that supports the daily jobs of humanitarian agency employees** helping them to organize aid during missions in areas affected by natural disasters, climate change, or wars. The local people can use the cards distributed to meet their most basic needs. **Our client's efforts not only result in helping people in the crises of poverty but also help to stimulate the local economies**.
-
-
 
 <div class="image"><img src="/images/shopping_girl_women.png" alt="Shopping" title="Shopping"  /> </div>
 
