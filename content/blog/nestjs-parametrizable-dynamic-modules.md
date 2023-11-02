@@ -74,7 +74,7 @@ export class NaiveUserNotificationService {
 export class ConsumerModule {}
 ```
 
-``
+
 
 #### **What’s wrong with this example:**
 
