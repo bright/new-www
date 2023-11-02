@@ -114,7 +114,7 @@ const Traits: React.FC = () => {
                 <ResponsibilityIcon />
               </TraitsFigure>
               <div>
-                <a id='responsibility' href='src/career#responsibility'>
+                <a id='responsibility' href='#responsibility'>
                   <TextTitle>Responsibility</TextTitle>
                   <TextRegularTraits>
                     We support and share responsibility with the members of our team. We also actively take
@@ -131,7 +131,7 @@ const Traits: React.FC = () => {
                 <FlexibilityIcon />
               </TraitsFigure>
               <div>
-                <a id='flexibility' href='src/career#flexibility'>
+                <a id='flexibility' href='#flexibility'>
                   <TextTitle>Flexibility</TextTitle>
                 </a>
                 <TextRegularTraits>
@@ -148,7 +148,7 @@ const Traits: React.FC = () => {
                 <TeamworkIcon />
               </TraitsFigure>
               <div>
-                <a id='teamwork' href='src/career#teamwork'>
+                <a id='teamwork' href='#teamwork'>
                   <TextTitle>Teamwork</TextTitle>
                 </a>
                 <TextRegularTraits>
@@ -165,7 +165,7 @@ const Traits: React.FC = () => {
                 <PositiveAttitudeIcon />
               </TraitsFigure>
               <div>
-                <a id='positive-attitude' href='src/career#positive-attitude'>
+                <a id='positive-attitude' href='#positive-attitude'>
                   <TextTitle>Positive attitude</TextTitle>
                 </a>
                 <TextRegularTraits>
@@ -181,7 +181,7 @@ const Traits: React.FC = () => {
                 <ClientOrientationIcon />
               </TraitsFigure>
               <div>
-                <a id='client-orientation' href='src/career#client-orientation'>
+                <a id='client-orientation' href='#client-orientation'>
                   <TextTitle>Client orientation</TextTitle>
                 </a>
                 <TextRegularTraits>
