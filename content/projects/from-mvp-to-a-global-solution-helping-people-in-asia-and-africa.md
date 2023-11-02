@@ -42,7 +42,7 @@ slug: card-tracking-system
 show_team: false
 show_case_study: false
 show on homepage: false
-published: false
+published: true
 language: en
 ---
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
@@ -61,7 +61,7 @@ language: en
 
 **Deployment**: AWS – CloudFormation, TeamCity
 
-<TitleWithIcon sectionTitle="Harnessing the power of technology to aid" titleIcon="/images/icon_title_about.svg" titleIconAlt="Harnessing the power of technology to aid" />
+<TitleWithIcon sectionTitle="harnessing the power of technology to aid" titleIcon="/images/icon_title_about.svg" titleIconAlt="Harnessing the power of technology to aid" />
 
 In the world affected by military conflicts, social inequalities and the rising number of refugees the aid provided by **NGOs and humanitarian organizations must undergo digitalization to effectively address global challenges**.
 
@@ -73,7 +73,7 @@ Technology must become a handful tool for organizations aiming to help. **The Ca
 
 <div class="image"><img src="/images/natural_disaster-girl.png" alt="Natural disaster" title="Natural disaster"  /> </div>
 
-<TitleWithIcon sectionTitle="The story behind Card Tracking System" titleIcon="/images/icon_title_products.svg" titleIconAlt="The story behind Card Tracking System" />
+<TitleWithIcon sectionTitle="the story behind Card Tracking System" titleIcon="/images/icon_title_products.svg" titleIconAlt="The story behind Card Tracking System" />
 
 Our client, **one of the leading global humanitarian agencies, approached us looking to create a system that would improve their payment instrument distribution process**. As part of the agency's ongoing effort to support people in need in some of our planet's poorest regions, **the agency distributes payment instruments (prepaid cards, SIM cards, vouchers, etc.) to local communities around the globe**. This, in turn, **allows beneficiaries to acquire essential items** like food, hygiene products, and other necessities for their families.
 
@@ -85,11 +85,11 @@ The system didn't monitor the payment transactions the card was used in. Still, 
 
 The system was developed on two platforms. **The web application acts as the back office application, mainly displaying events logs and the issued cards' status**. Meanwhile, the **Android mobile application enables scanning of the cards**, sending data between the on-the-ground staff and the offices, and recording when they are distributed to the end users. In this project, **Bright Inventions handled every aspect of the project**, from product design work all the way to backend and frontend development to deployment and maintenance.
 
-<TitleWithIcon sectionTitle="Goal: Easy adjustment to local laws and regulations" titleIcon="/images/icon_title_goal.svg" titleIconAlt="Goal: Easy adjustment to local laws and regulations" />
+<TitleWithIcon sectionTitle="goal: Easy adjustment to local laws and regulations" titleIcon="/images/icon_title_goal.svg" titleIconAlt="Goal: Easy adjustment to local laws and regulations" />
 
 The project goal was to **create an automated, transparent, and uniform system allowing the delivery of payment instruments to people in need**. The system has to work globally; therefore, it has to be easily adjustable to local law and the specific situations of different communities in Africa and Asia. The system also requires to **support card distribution in poor internet coverage areas**, making an offline mode a must.
 
-<TitleWithIcon sectionTitle="How did Bright Inventions help to make this system unique and live? " titleIcon="/images/gearwheel.svg" titleIconAlt="How did Bright Inventions help to make this system unique and live? " />
+<TitleWithIcon sectionTitle="how did Bright Inventions help to make this system unique and live? " titleIcon="/images/gearwheel.svg" titleIconAlt="How did Bright Inventions help to make this system unique and live? " />
 
 We had the privilege of **starting the whole development process from scratch**, starting with the product design side of the proceedings. The development process required us to **turn the manual card distribution process into a digital flow**.
 
@@ -97,7 +97,7 @@ The Card Tracking System was **developed as an MVP**. The goal was to build cruc
 
 <div class="image"><img src="/images/payment_phone.png" alt="Payment with phone" title="Payment with phone"  /> </div>
 
-<TitleWithIcon sectionTitle="Responding to unique challenges refugees have to encounter" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Responding to unique challenges refugees have to encounter" />
+<TitleWithIcon sectionTitle="responding to unique challenges refugees have to encounter" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="Responding to unique challenges refugees have to encounter" />
 
 The social impact this solution would make meant the discovery and prototyping phase was crucial in establishing an understanding of the various aspects of the project. For example, during the process, we found that the **eligibility criteria for an individual to receive the cards varies from country to country** and is sometimes linked to the specific life circumstances of the beneficiaries.
 
@@ -105,7 +105,7 @@ We also had to **account for people without the proper ID required by the local 
 
 **Close cooperation with the agency employees was vital during the prototyping and discovery phase**. These people work on the ground and understand the local processes and circumstances the refugees face. The information they shared through a series of interviews was crucial in understanding the solution needed. These interviews allowed us to customize the final product to the needs of the staff working across the humanitarian agency.
 
-<TitleWithIcon sectionTitle="Result of collaboration: a system with dozen implementations" titleIcon="/images/icon_result_svg.svg" titleIconAlt="Result of collaboration" />
+<TitleWithIcon sectionTitle="result of collaboration: a system with dozen implementations" titleIcon="/images/icon_result_svg.svg" titleIconAlt="Result of collaboration" />
 
 At Bright Inventions, **we are honored that we could develop a card tracking system that supports the daily jobs of humanitarian agency employees** helping them to organize aid during missions in areas affected by natural disasters, climate change, or wars. The local people can use the cards distributed to meet their most basic needs. **Our client's efforts not only result in helping people in the crises of poverty but also help to stimulate the local economies**.
 
