@@ -14,7 +14,7 @@ description: Introducing the Card Tracking System, a digital marvel that is not
   distributes essential payment instruments, bringing hope and support where it
   is needed most. We could not be prouder to play a part in this incredible
   project. Together, we're making a real impact in the world.
-hero_image: /images/case_study_card_tracker.png
+hero_image: /images/case_study_card_distribution.png
 Hero Image_alt: Card Tracking System
 social_media_previev: /images/some_preview_card_tracker.png
 social_media_previev_alt: Card Tracking System
