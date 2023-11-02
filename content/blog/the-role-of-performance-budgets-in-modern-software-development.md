@@ -25,11 +25,11 @@ Having budgets defined for your application may spark a discussion about perform
 
 ### Quantity-based metrics
 
-Rules based on this type of metrics are the easiest to establish and enforce. They are based on raw values like the weight of JavaScript files, the number of HTTP requests, fonts, or images. However, they may not reflect the user experience correctly.
+Rules based on this type of metrics are the easiest to establish and enforce. They are **based on raw values like the weight of JavaScript files, the number of HTTP requests, fonts, or images**. However, they may not reflect the user experience correctly.
 
 ### Milestone timings
 
-In order to keep the user experience at an acceptable level, it may be better to focus on time-based metrics like Time to Interactive (TTI) or First Contentful Paint (FCP). You can also define your metrics depending on what is the most important action from the perspective of your users. It's also possible to combine multiple milestones together to even better describe the path of a user in the application.
+In order to keep the user experience at an acceptable level, it may be better to **focus on time-based metrics like Time to Interactive (TTI) or First Contentful Paint (FCP)**. You can also define your metrics depending on what is the most important action from the perspective of your users. It's also possible to combine multiple milestones together to even better describe the path of a user in the application.
 
 ### Rule-based metrics
 
