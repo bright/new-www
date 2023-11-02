@@ -35,7 +35,7 @@ NestJS allows to easily encapsulate code not only with Static modules, but also 
 
 ### Minimalistic, incorrect and faulty implementation:
 
-```
+```typescript
 import {DynamicModule, Inject, Injectable, Module} from '@nestjs/common';
 import {Type} from "@nestjs/common/interfaces/type.interface";
 
