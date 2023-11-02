@@ -38,7 +38,7 @@ description_contact: Tell us more about your mobile project or idea for an app.
 order: 1
 slug: card-tracking-system
 show_team: false
-show_case_study: false
+show_case_study: true
 show on homepage: false
 published: true
 language: en
