@@ -13,7 +13,7 @@ language: en
 ---
 ## Intro
 
-NestJS allows to easily encapsulate code with not only with Static modules, but also Dynamic Modules. Dynamic modules allow us to modify the module's configuration, dependencies or behaviour at bootstrap time. This gives a massive advantage in terms of code deduplication and reusability. Let's give it a go and implement Notifications by means of Dynamic Modules
+NestJS allows to easily encapsulate code not only with Static modules, but also Dynamic Modules. Dynamic modules allow us to modify the module's configuration, dependencies or behaviour at bootstrap time. This gives a massive advantage in terms of code deduplication and reusability. Let's give it a go and implement Notifications by means of Dynamic Modules
 
 ## Objective
 
@@ -74,8 +74,6 @@ export class NaiveUserNotificationService {
 export class ConsumerModule {}
 ```
 
-
-
 #### **What’s wrong with this example:**
 
 The goal `Library allows to define custom ways of of delivery` is not fulfilled in multiple aspects
@@ -108,8 +106,6 @@ export class SmsNotificationExecutor implements NotificationExecutor {
 export class SmsNotificationModule {}
 ```
 
-
-
 *EmailNotificationModule*
 
 ```
@@ -125,10 +121,7 @@ export class EmailNotificationExecutor implements NotificationExecutor {
     exports: ["NotificationExecutor"]
 })
 export class EmailNotificationModule {}
-
 ```
-
-
 
 *NaiveUserNotificationModule*
 
@@ -174,15 +167,11 @@ export class NaiveUserNotificationModule {
         }
     }
 }
-
 ```
-
-
 
 *Consumer modules*
 
 ```
-
 @Module({
     imports: [
         NaiveUserNotificationModule.register(
@@ -219,10 +208,6 @@ Next steps would be:
   * `NaiveUserNotificationModule` would also import concrete Executors’ modules
 * Create an `EmailToUserNotificationBridgeModule` and `SMSToUserNotificationBridgeModule` to decouple the pure Email and SMS senders from the specifics of `NaiveUserNotificationModule`. The ‘specific’ part is the fact that `SmsNotificationExecutor` module has to export the service by a token which is specific to another module. Reusable components should have no knowledge about their consumers. The Bridge between can allow to mitigate that, keeping Email and SMS Modules unaware of consumers. The Brigde would now carry that awareness but that’s it’s fundamental purpose.
 
+## Summary
 
-
-
-
-# Summary
-
-By the approach I just showed you we achieved a clean dependency structure, no circular dependencies, No SOLID rules broken, full extensibility and configurability. Dynamic Modules are a great tool but there is much more in NestJS arsenal related to Dependency Inversion Principle: obtaining modules by ModuleRef class, lazy loaded modules are there to be used so check them out!
+By the approach I just showed you we achieved a clean dependency structure, no circular dependencies, no SOLID rules broken, full extensibility and configurability. Dynamic Modules are a great tool but there is much more in NestJS arsenal related to Dependency Inversion Principle: obtaining modules by ModuleRef class, lazy loaded modules are there to be used so check them out!
