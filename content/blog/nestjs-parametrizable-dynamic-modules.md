@@ -6,15 +6,15 @@ date: 2023-11-02T07:38:50.060Z
 meaningfullyUpdatedAt: 2023-11-02T07:38:50.725Z
 title: NestJS Parametrizable Dynamic Modules
 layout: post
-image: /images/blog_notifications.png
+image: /images/blog_modularization.png
 hidden: false
 comments: true
 published: true
 language: en
 ---
-## Intro
-
 NestJS allows to easily encapsulate code not only with Static modules, but also Dynamic Modules. Dynamic modules allow us to modify the module's configuration, dependencies or behaviour at bootstrap time. This gives a massive advantage in terms of code deduplication and reusability. Let's give it a go and implement Notifications by means of Dynamic Modules
+
+<div class="image"><img src="/images/blog_modularization.png" alt="Modularization" title="Modularization"  /> </div>
 
 ## Objective
 
