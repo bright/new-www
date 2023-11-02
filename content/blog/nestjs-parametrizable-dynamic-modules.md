@@ -2,6 +2,7 @@
 author: radek-l
 tags:
   - nestjs
+  - backend
 date: 2023-11-02T07:38:50.060Z
 meaningfullyUpdatedAt: 2023-11-02T07:38:50.725Z
 title: NestJS Parametrizable Dynamic Modules
