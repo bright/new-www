@@ -93,7 +93,7 @@ Let’s abstract the act of sending the notification from the act of delivering 
 
 *SmsNotificationModule*
 
-```
+```typescript
 @Injectable()
 export class SmsNotificationExecutor implements NotificationExecutor {
     async notify(user: string, message: string): Promise<void> {
@@ -110,7 +110,7 @@ export class SmsNotificationModule {}
 
 *EmailNotificationModule*
 
-```
+```typescript
 @Injectable()
 export class EmailNotificationExecutor implements NotificationExecutor {
     async notify(user: string, message: string): Promise<void> {
@@ -127,7 +127,7 @@ export class EmailNotificationModule {}
 
 *NaiveUserNotificationModule*
 
-```
+```typescript
 import {DynamicModule, Inject, Injectable, Module} from '@nestjs/common';
 import {Type} from "@nestjs/common/interfaces/type.interface";
 
@@ -173,7 +173,7 @@ export class NaiveUserNotificationModule {
 
 *Consumer modules*
 
-```
+```typescript
 @Module({
     imports: [
         NaiveUserNotificationModule.register(
