@@ -17,7 +17,7 @@ language: en
 
 ## Budgets to rescue
 
-A performance budget is a limit that all developers agree not to exceed in any circumstances. Basically, you can treat it like a monthly financial budget. If you want to make something stand out, then you will probably have to let something else go. It's fluid - depending on the business requirements for this month, you can decide to adjust it and, for example, reduce the number of images in exchange for additional JavaScript being shipped. Budgeting is not only about the size of images, scripts, and other resources. This principle may also be applied to metrics like FCP, TTI, or scores reported by tools like Lighthouse.
+**A performance budget is a limit that all developers agree not to exceed in any circumstances**. Basically, you can treat it like a monthly financial budget. If you want to make something stand out, then you will probably have to let something else go. It's fluid - depending on the business requirements for this month, you can decide to adjust it and, for example, reduce the number of images in exchange for additional JavaScript being shipped. **Budgeting is not only about the size of images, scripts, and other resources. This principle may also be applied to metrics like FCP, TTI, or scores reported by tools like Lighthouse**.
 
 Having budgets defined for your application may spark a discussion about performance and get everyone on your team on the same page. They make designers limit high-resolution images and fonts until they are absolutely necessary. On the other hand, software engineers may easily evaluate the performance of different libraries and frameworks and compare them based on their influence on budgets.
 
