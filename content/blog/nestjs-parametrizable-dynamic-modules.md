@@ -91,14 +91,9 @@ The goal `Library allows to define custom ways of of delivery` is not fulfilled 
 
 Let’s abstract the act of sending the notification from the act of delivering it by exposing a `NotificationExecutor` interface. Also, we’ll put Email and Sms sending logic into dedicated `NotificationExecutors` and place them into respective, independent NestJS Modules. We’ll also transform a static module: `NaiveUserNotificationModule` to a Dynamic one, to allow to inject `NotificationExecutor` at bootstrap time.
 
+*SmsNotificationModule*
+
 ```
-import {DynamicModule, Inject, Injectable, Module} from '@nestjs/common';
-import {Type} from "@nestjs/common/interfaces/type.interface";
-
-export interface NotificationExecutor {
-    notify(user: string, message: string): Promise<void>
-}
-
 @Injectable()
 export class SmsNotificationExecutor implements NotificationExecutor {
     async notify(user: string, message: string): Promise<void> {
@@ -111,7 +106,13 @@ export class SmsNotificationExecutor implements NotificationExecutor {
     exports: ["NotificationExecutor"]
 })
 export class SmsNotificationModule {}
+```
 
+
+
+*EmailNotificationModule*
+
+```
 @Injectable()
 export class EmailNotificationExecutor implements NotificationExecutor {
     async notify(user: string, message: string): Promise<void> {
@@ -124,6 +125,20 @@ export class EmailNotificationExecutor implements NotificationExecutor {
     exports: ["NotificationExecutor"]
 })
 export class EmailNotificationModule {}
+
+```
+
+
+
+*NaiveUserNotificationModule*
+
+```
+import {DynamicModule, Inject, Injectable, Module} from '@nestjs/common';
+import {Type} from "@nestjs/common/interfaces/type.interface";
+
+export interface NotificationExecutor {
+    notify(user: string, message: string): Promise<void>
+}
 
 export class NaiveUserNotificationService {
     constructor(@Inject("NotificationExecutor") private readonly notificationExecutor: NotificationExecutor) {
@@ -141,7 +156,7 @@ export class NaiveUserNotificationService {
     }
 
     private persistAttempt(user: string, message: string) {
-        console.log(`User ${user} notification ${message} persisted}`)
+        console.log(`User ${user} notification ${message} persisted`)
     }
 }
 
@@ -159,6 +174,14 @@ export class NaiveUserNotificationModule {
         }
     }
 }
+
+```
+
+
+
+*Consumer modules*
+
+```
 
 @Module({
     imports: [
