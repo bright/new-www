@@ -8,12 +8,15 @@ date: 2023-10-31T10:12:14.072Z
 meaningfullyUpdatedAt: 2023-10-31T10:12:14.095Z
 title: The Role of Performance Budgets in Modern Software Development
 layout: post
+image: /images/blog_performance_budget.png
 hidden: false
 comments: true
 published: true
 language: en
 ---
 **Performance is a vital component of a good user experience, and we have learned it affects business metrics. In other words, an application that doesn't perform well will cost you greatly. How can one make sure that performance will stay at acceptable levels? In order to achieve a goal, you have to define it first. That's when performance budgets come into play.**
+
+<div class="image"><img src="/images/blog_performance_budget.png" alt="Performance budget" title="Performance budget"  /> </div>
 
 ## Budgets to rescue
 
@@ -65,6 +68,8 @@ We all have been here. You are working hard to ensure your application loads and
 It's a fact that there is a constant struggle going on between stakeholders and engineers. We often tend to disagree or even don't understand each other. **It's likely common that non-engineering members of your team are not aware of the performance consequences of their decisions. That's not their job. It's up to us to explain and present it to them in the clearest way possible.**
 
 With budgets in place, you can say that bringing this additional carousel of images will make us miss the 5-second deadline for page load. That's something easily understandable for everyone. Moreover, having those limits in place allows you to move the discussion back in time to the design stage. This will save you a lot of time, which you will be able to spend on something else.
+
+<div class="image"><img src="/images/discussion_photo_blog.png" alt="Discussion" title="Discussion"  /> </div>
 
 ## We have to go over the budget!
 
