@@ -7,7 +7,7 @@ tags:
   - WorkManager
 date: 2023-11-03T11:52:35.005Z
 meaningfullyUpdatedAt: 2023-11-03T11:52:36.020Z
-title: Make WorkManager safe
+title: Use WorkManager safely and mindfully
 layout: post
 hidden: false
 comments: false
@@ -18,7 +18,7 @@ language: en
 
 **<br/>**
 
-#### **Custom WorkerFactory and @AssistedInject**
+## **Custom WorkerFactory and @AssistedInject**
 
 Let's face it, nowadays injecting dependencies into a Worker class is common and nearly inevitable. Our background work often requires sending a request using e.g. Retrofit service or saving something in the database using *Dao.* It would be great if we could inject these dependencies directly into the Worker. Without injecting dependencies, Workers would not be so powerful. 
 
@@ -34,6 +34,10 @@ Let's face it, nowadays injecting dependencies into a Worker class is common and
 
 // show how Hilt overcomes this issue
 
-#### **Any other dangers?**
+<br/>
 
-// show that we should be mindful when editing and removing Workers
+## **Any other dangers?**
+
+// show that we should be mindful when editing and removing Workers and why
+
+## **Summary**
