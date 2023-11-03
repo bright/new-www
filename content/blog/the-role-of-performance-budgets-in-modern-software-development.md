@@ -58,7 +58,7 @@ The most basic one is [bundlesize](https://github.com/siddharthkp/bundlesize), w
 
 If you want to make sure that your builds stay green in the Lighthouse audits, then you should familiarize yourself with [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci). It makes it possible to run audits in your CI pipeline and define rules that should never be broken. To name one, you can say that your application is meant to score over 90 points in every audit, and then your CI will fail when any score drops below the threshold.
 
-## Talking about budgets with decision-makers
+## Discussing budgets with decision-makers
 
 We all have been here. You are working hard to ensure your application loads and can be used quickly, but then there comes this one meeting, and you see you will have to completely redesign the home page and put tons of images and other visual elements on it. You are aware that it will have a huge impact on the load time, and so you try to minimize losses, but they don't want to listen to you.
 
