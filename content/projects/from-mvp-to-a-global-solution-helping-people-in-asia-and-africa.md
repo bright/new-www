@@ -40,7 +40,7 @@ slug: card-tracking-system
 show_team: false
 show_case_study: true
 show on homepage: false
-published: true
+published: false
 language: en
 ---
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
