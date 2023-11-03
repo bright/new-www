@@ -8,7 +8,7 @@ our_service:
 layout: project
 project_id: Card Tracking System
 title: From MVP to a Solution Helping People in Asia and Africa
-image: /images/case_study_cover_cards_tracking.png
+image: /images/case_study_cover_card_tracking_new.png
 description: Introducing the Card Tracking System, a digital marvel that is not
   just code but a life-changing force across Asia and Africa. This system
   distributes essential payment instruments, bringing hope and support where it
@@ -40,12 +40,17 @@ slug: card-tracking-system
 show_team: false
 show_case_study: true
 show on homepage: false
-published: false
+published: true
 language: en
 ---
 <TitleWithIcon sectionTitle="main features developed by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features" />
 
-<SliderText sliderElements='[{"title":"Payment instruments monitoring","description":"Monitoring the “life cycle” of payment instruments."},{"description":"Receiving data about cards from banks.","title":"Data processing from banks"},{"title":"Card scanning","description":"Scanning cards in order to track their status and location (details of payment transactions aren’t gathered)."},{"title":"Distribution mechanism","description":"A mechanism for distributing cards and PINs to local communities in need."},{"title":"Offline-first app","description":"Offline mode for a mobile app allowing for distributing cards in the terrain."},{"title":"Dashboard with reports and analytics","description":"Web application providing reports about card statuses and distribution."}]' />
+* Monitoring the “life cycle” of payment instruments.
+* Receiving data about cards from banks.
+* Scanning cards in order to track their status and location (details of payment transactions aren’t gathered).
+* A mechanism for distributing cards and PINs to local communities in need
+* Offline mode for a mobile app allowing for distributing cards in the terrain.
+* Web application providing reports about card statuses and distribution.
 
 <TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
 
