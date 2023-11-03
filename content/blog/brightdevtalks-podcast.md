@@ -1,7 +1,7 @@
 ---
 author: izabela
-secondAuthor: patryk sz
-thirdAuthor: ula
+secondAuthor: ula
+thirdAuthor: patryk sz
 tags:
   - update
   - development
