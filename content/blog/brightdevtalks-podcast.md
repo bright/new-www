@@ -1,12 +1,14 @@
 ---
 author: izabela
-secondAuthor: patryk sz
+secondAuthor: ula
+thirdAuthor: patryk sz
 tags:
   - update
   - development
   - inspiration
 date: 2022-05-24T08:59:17.508Z
-title: Bright Podcast is Here! Listen to brightdevtalks by Patryk Szlagowski
+meaningfullyUpdatedAt: 2023-11-03T13:04:26.106Z
+title: Bright Podcast is Here! Listen to BrightDevTalks
 layout: post
 image: /images/blog_cover-_podcast.png
 hidden: false
@@ -14,20 +16,22 @@ comments: true
 published: true
 language: en
 ---
-![podcast Bright Inventions](/images/blog_cover-_podcast.png)
+<div class="image"><img src="/images/cover_podcast.png" alt="BrightDevTalks" title="BrightDevTalks"  /> </div>
 
-[Patryk](/about-us/patryk-sz/) is a Bright Senior Backend Developer with over 10 years of experience. He decided that it was high time to share his knowledge with others. And we couldn’t agree more.
-
-**So here we are with a brand new brightdevtalks podcast which is available on Spotify and Apple Podcasts.** You find it on [Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9xbUJPUXYybQ%3D%3D) as well. The podcast is done in Polish.
+Our team at Bright Inventions loves to share their knowledge. What’s a better way to discuss hot software development topics than by starting a podcast? BrightDevTalks is a platform to address the business, tech, and communication challenges that all members of the software development world have to face. Our hosts, first [Patryk Szlagowski](/about-us/patryk-sz/) and now [Ula Stankiewicz](/about-us/ula/), invite a variety of guests. Hop on this train and listen to BrightDevTalks. The podcast is done in Polish.
 
 ## Follow on Spotify
 
 <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/show/1xrG8BF4Niv5uIzHvIn79q?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-## Follow on Apple Podcasts
+## Listen on Apple Podcasts
 
 <center>
 
-<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", background: "transparent"}}></iframe>
+<iframe src="https://embed.podcasts.apple.com/us/podcast/brightdevtalks/id1625829267?itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark" height="450px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay \\*; encrypted-media \\*; clipboard-write" style={{width: "100%", maxWidth: "660px", overflow: "hidden", borderRadius: "10px", background: "transparent"}}></iframe>
 
 </center>
+
+## Subscribe on YouTube
+
+<YouTubeEmbed url='https://www.youtube.com/watch?v=HWdczeJEgRg&list=PLXQKLMVoAz1SvqLYMEtcWKMFwt6N6gqwT&ab_channel=BrightDevs' />
