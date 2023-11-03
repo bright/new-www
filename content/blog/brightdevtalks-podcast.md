@@ -7,7 +7,7 @@ tags:
   - development
   - inspiration
 date: 2022-05-24T08:59:17.508Z
-meaningfullyUpdatedAt: 2023-11-03T12:51:21.032Z
+meaningfullyUpdatedAt: 2023-11-03T13:04:26.106Z
 title: Bright Podcast is Here! Listen to BrightDevTalks
 layout: post
 image: /images/blog_cover-_podcast.png
