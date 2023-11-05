@@ -20,11 +20,34 @@ language: en
 
 ## **Custom WorkerFactory and @AssistedInject**
 
-Let's face it, nowadays injecting dependencies into a Worker class is common and nearly inevitable. Our background work often requires sending a request using e.g. Retrofit service or saving something in the database using *Dao.* It would be great if we could inject these dependencies directly into the Worker. Without injecting dependencies, Workers would not be so powerful. 
+Let's face it, nowadays injecting dependencies into a [Worker](https://developer.android.com/reference/androidx/work/Worker) class is common and nearly inevitable. Our background work often requires sending a request using e.g. Retrofit service, saving something in the database using *Dao* or simply separating logic from Worker. It would be great if we could inject these dependencies directly into the Worker. Without injecting dependencies, Workers would not be so powerful. WorkManager creates Workers on its own by default. It expects the Worker to have a constructor with two parameters (Context and [WorkerParameters](https://developer.android.com/reference/androidx/work/WorkerParameters)). So how do we provide our dependencies there?
 
 ##### How to inject dependencies using Dagger 2
 
- // show sample usage of assisted inject and custom worker factory etc.
+One of the most common practice is to create a custom [WorkerFactory](https://developer.android.com/reference/androidx/work/WorkerFactory) and [@AssistedInject.](https://dagger.dev/dev-guide/assisted-injection.html)  Once we prepare our Assisted factories, we can create workers on our own using WorkerFactory. Here is a sample:
+
+```kotlin
+class CustomWorkerFactory @Inject constructor(
+    private val workerFactories: Map<Class<out ListenableWorker>, @JvmSuppressWildcards Provider<MyWorkerAssistedFactory>>
+) : WorkerFactory() {
+
+    override fun createWorker(
+        appContext: Context,
+        workerClassName: String,
+        workerParameters: WorkerParameters
+    ): ListenableWorker? {
+        val foundEntry = workerFactories.entries.find {
+            Class.forName(workerClassName).isAssignableFrom(it.key)
+        }
+        return foundEntry
+            ?.value
+            ?.get()
+            ?.create(appContext, workerParameters)
+    }
+}
+```
+
+It assumes that we are able to inject our custom-assisted factories, which will help us create Workers using only Context and WorkerParamteres. For providing such factories, [please see Assisted Injection documentation](https://dagger.dev/dev-guide/assisted-injection.html).
 
 // show issue with common worker factory and ClassNotFoundException crashes
 
