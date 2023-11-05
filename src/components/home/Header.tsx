@@ -111,7 +111,7 @@ export const Header = () => {
           paddingTablet='5.375rem 0 3.125rem'
           paddingMobileProps='3.3125rem 0 3.125rem'
         >
-          <StandWithUkraine />
+
         </CustomSection>
 
         <HeroWrapper>
