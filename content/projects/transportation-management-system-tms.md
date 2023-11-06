@@ -137,14 +137,23 @@ It is essential to highlight the significance of product design in the context o
 
 **The app makes it a breeze to upload transport order documents**. Our design is all about being clear and user-friendly, with big, eye-catching buttons that set it apart from the ordinary business apps you come across every day.
 
+<TitleWithIcon sectionTitle="the outcome of Bright Inventions and MAKO TSL collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="client’s perspective" />
+
+\
+**MVP launch ensured the client that the system has the potential to change the daily work** on their team.
+
+**Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **it takes up to 0.5 seconds to filter out the right transport orders and display them to users**. **Over 1,000 transport listings are analyzed in 1 minute** and the system displays only the ones that meet all the requirements. **Before that, the filtering process had to be done manually**.
+
+
+
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
 *Their flexible and professional approach to business was impressive. The difficulties encountered in the creation process were never a problem, only a challenge. All the set goals were met on time.*
 
 **Grzegorz Gajewski, Development & Training Manager @ MAKO TSL**
 
-<TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="what is next for Mako TSL and Bright Inventions?" titleIcon="/images/icon_title_products.svg" titleIconAlt="result" />
 
-**MVP launch ensured the client that the system has the potential to change the daily work** on their team.
+We’re delighted that t**he client decided to continue our cooperation after a successful MVP launch – both web and mobile versions**. Now we focus on scaling the product in the post-MVP phase. Our team implements new features such as the electronic circulation of documents.
 
-**Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **it takes up to 0.5 seconds to filter out the right transport orders and display them to users**. **Over 1,000 transport listings are analyzed in 1 minute** and the system displays only the ones that meet all the requirements. **Before that, the filtering process had to be done manually**.
+We still work closely with end users, quickly responding to their feedback. Open communications, flexibility, and adaptability are the key factors of this successful digitalization at MAKO TSL.
