@@ -79,23 +79,23 @@ Like many logistics companies, MAKO TSL struggled with endless paperwork, and to
 
 **Product design**: Figma, Adobe Illustrator
 
-<TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
+<TitleWithIcon sectionTitle="first things first – time to validate the idea with MVP " titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
-Our primary goal was to **design MVP which could verify the potential of the system to be developed on a bigger scale**.
+Our client's main goal? To **see if their software management system idea could handle their daily operations and potentially grow into something bigger**. Our solution? **Start small and smart with an MVP** (Minimum Viable Product) – the quickest path to validating your game-changing ideas.
 
-The solution is supposed to **transform forwarders’ work into a less repetitive, faster, and more automatic job**. The aim is to **limit both**: the **time** between finding and matching load with the right transport provider and the **number of kilometers** done by empty vehicles. Fast and **effective utilization of vehicles' spare capacity is essential for the industry**. 
+The solution was supposed to **transform forwarders’ work into a less repetitive, faster, and more automatic job**. The aim was to limit both: the time between finding and matching load with the right transport provider and the number of kilometers done by empty vehicles. Fast and effective utilization of vehicles' spare capacity is essential for the industry. 
 
-Also, another long-term goal is to **support daily communication with road hauliers**.
+Also, another long-term goal is to **support daily communication with road hauliers with a customized Android application** dedicated to drivers.
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle="the challenge of building a transport management system" titleIcon="/images/two_flags.svg" titleIconAlt="bright" />
 
-The main challenge was to **build a fast solution**. Time is the key to the shipping industry. The app had to aggregate the listings fast and assign them to the right carriers. Every millisecond counts.
+The main challenge was to **build a fast solution**. Time is the key to the shipping industry. The app has to aggregate the listings quickly and assign them to the right carriers. Every millisecond counts.
 
-What’s more, our team had to design an **algorithm that would automatically filter out transport listings to display only the ones that match the client's expectations**.
+Our team designed an **algorithm that would automatically filter out transport listings to display only the ones that match the client's expectations**.
 
-In terms of product design, the right **architectural information** was the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen so they could scan all the info fast.
+In terms of product design, the right **architectural information** is the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen, so they could scan all the information fast.
 
 <div class="image"><img src="/images/tms_market_ui.png" alt="transport management system UI case study" title="undefined"  /> </div>
 
