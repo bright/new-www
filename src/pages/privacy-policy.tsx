@@ -256,12 +256,7 @@ const PrivacyPolicy = () => {
                     to establish and maintain contact with a business representative using a contact form on Bright Inventions’ website,
                   </li>
                   <li>
-                    to provide the business representative with marketing information about Bright Inventions via email marketing.                  </li>
-                  <li>
-                    to manage and resolve the recruitment process including all the necessary actions at the request of
-                    the data subject before concluding the contract - in the scope of data indicated in Article 22(1) §1
-                    of the Labor Code and on the basis of the Candidate's consent, i.e. Article 6(1)(a) of the GDPR and
-                    in the scope of data beyond the catalog indicated in Article 22(1) §1 of the Labor Code,
+                    to provide a business representative with marketing information about Bright Inventions via email marketing.                  
                   </li>
                 </ul>
               </p>
