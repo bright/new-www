@@ -133,6 +133,8 @@ We addressed this challenge by implementing best UX practices such as: **represe
 
 **The mobile app supports communication between forwarders and drivers**. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
 
+<div class="image"><img src="/images/driver_app.png" alt="Mobile app for drivers" title="Mobile app for drivers"  /> </div>
+
 It is essential to highlight the significance of product design in the context of a mobile application. **The mobile application is specifically designed for haulers, where the display of only essential information, such as loading specifics and route details, is paramount**. Distractions with extraneous information are minimized. The user interface prioritizes simplicity, enabling couriers to promptly update loading statuses, such as “delivered” or “delayed”. 
 
 **The app makes it a breeze to upload transport order documents**. Our design is all about being clear and user-friendly, with big, eye-catching buttons that set it apart from the ordinary business apps you come across every day.
@@ -145,6 +147,6 @@ It is essential to highlight the significance of product design in the context o
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
-**MVP launch ensured the client that the system has the potential to change the daily work** on their team. We’re delighted to say that the **client decided to continue our cooperation**. Now we focus on i**mplementing other features** in the system for example the **electronic circulation of documents**.
+**MVP launch ensured the client that the system has the potential to change the daily work** on their team.
 
-It’s definitely a busy time for our TMS team. We will keep you updated on the project.
+**Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **it takes up to 0.5 seconds to filter out the right transport orders and display them to users**. **Over 1,000 transport listings are analyzed in 1 minute** and the system displays only the ones that meet all the requirements. **Before that, the filtering process had to be done manually**.
