@@ -14,22 +14,26 @@ our_service:
   - web development
 layout: project
 project_id: tms
-title: Transportation Management System (TMS)
+title: "Revolutionizing Logistics: See How We Transformed a Transport Management
+  System"
 image: /images/tms_cover_2x.png
-description: TMS supports freight forwarders to manage transportation faster.
-  Finding suitable listings and matching them with the carriers has never been
-  faster.
+description: The Transport Management System at MAKO TSL filters the perfect
+  listings in just 0.5 seconds, providing unparalleled speed and efficiency in
+  the logistics sector. With the ever-increasing demands of the logistics
+  industry, having the right tools in place is essential for smooth operations.
+  Our client's system is tailored to address their needs, ensuring optimal
+  performance and customer satisfaction.
 hero_image: /images/case_study_tms_app.png
 Hero Image_alt: Transportation Management System
 social_media_previev: /images/tms_social_preview.png
 social_media_previev_alt: Transportation Management System case study
 bar_achievements:
-  - number: "10"
-    label: team members
   - number: "42"
-    label: markets
+    label: countries where the system speeds up operations
   - number: "1"
-    label: MVP
+    label: minute to analyze over 1,000 transport listings
+  - number: "0.5"
+    label: seconds needed to filter out and display the right listing
 tags:
   - web app
   - mobile app
