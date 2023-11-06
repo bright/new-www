@@ -22,7 +22,7 @@ description: The Transport Management System at MAKO TSL filters the perfect
   industry, having the right tools in place is essential for smooth operations.
   Our client's system is tailored to address their needs, ensuring optimal
   performance and customer satisfaction.
-hero_image: /images/case_study_tms_app.png
+hero_image: /images/case_study_road_transportation.png
 Hero Image_alt: Transportation Management System
 social_media_previev: /images/tms_social_preview.png
 social_media_previev_alt: Transportation Management System case study
@@ -124,8 +124,6 @@ The challenge confronting the product design team was the **development of a use
 <div class="image"><img src="/images/in_text_tms_mobile_mockups.png" alt="shipping mobile app mockups" title="shipping mobile app mockups"  /> </div>
 
 We addressed this challenge by implementing best UX practices such as: **representing a mental model** of end users, designing a **navigation flow based on familiar user patterns**, and incorporating an **information hierarchy** to include as much data as possible on a screen without overwhelming users.
-
-<div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
 
 ### Mobile development for effective communication between freight forwarders and drivers
 
