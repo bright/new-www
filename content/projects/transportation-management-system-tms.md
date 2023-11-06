@@ -14,8 +14,7 @@ our_service:
   - web development
 layout: project
 project_id: tms
-title: "Revolutionizing Logistics: See How We Transformed a Transport Management
-  System"
+title: "Revolutionizing Logistics: How We Transformed a Transport Management System"
 image: /images/tms_cover_2x.png
 description: The Transport Management System at MAKO TSL filters the perfect
   listings in just 0.5 seconds, providing unparalleled speed and efficiency in
