@@ -14,22 +14,25 @@ our_service:
   - web development
 layout: project
 project_id: tms
-title: Transportation Management System (TMS)
+title: "Revolutionizing Logistics: How We Transformed a Transport Management System"
 image: /images/tms_cover_2x.png
-description: TMS supports freight forwarders to manage transportation faster.
-  Finding suitable listings and matching them with the carriers has never been
-  faster.
+description: The Transport Management System at MAKO TSL filters the perfect
+  listings in just 0.5 seconds, providing unparalleled speed and efficiency in
+  the logistics sector. With the ever-increasing demands of the logistics
+  industry, having the right tools in place is essential for smooth operations.
+  Our client's system is tailored to address their needs, ensuring optimal
+  performance and customer satisfaction.
 hero_image: /images/case_study_tms_app.png
 Hero Image_alt: Transportation Management System
 social_media_previev: /images/tms_social_preview.png
 social_media_previev_alt: Transportation Management System case study
 bar_achievements:
-  - number: "10"
-    label: team members
   - number: "42"
-    label: markets
+    label: countries where the system speeds up operations
   - number: "1"
-    label: MVP
+    label: minute to analyze over 1,000 transport listings
+  - number: "0.5"
+    label: seconds needed to filter out and display the right listing
 tags:
   - web app
   - mobile app
@@ -50,9 +53,9 @@ language: en
 ---
 <TitleWithIcon sectionTitle="about TMS project" titleIcon="/images/three_flags.svg" titleIconAlt="bright" />
 
-Our client – [MAKO TSL](https://makotsl.com/) hired Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. 
+[MAKO TSL](https://makotsl.com/) started a collaboration with Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. In 2022 they executed over 180,000 shipping orders.
 
-The client has used various freight management solutions available on the market. Yet none of them met all their needs. So they hired us to build a **customized transport management system to be used by the client’s employees**.
+Like many logistics companies, MAKO TSL struggled with endless paperwork, and tons of Excel sheets, which defined the inefficient core of their transport management system. They aimed for a change, hoping for a successful digitalization of their daily work. But, **finding an off-the-shelf solution that truly fit their unique needs was a challenge**. **That's when they partnered with Bright Inventions to craft a tailor-made Transport Management System.** 
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
@@ -63,8 +66,6 @@ The client has used various freight management solutions available on the market
 * **Preliminary matching** of the listings with the right vehicle and driver. Then it can be verified by the forwarder.
 * **Managing the route** from arrival to the destination point. Adding extra points on the carriers’ map.
 * Receiving **notifications from the drivers** about delays or other disturbances on the road.
-
-<div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
 
 <TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
@@ -78,51 +79,65 @@ The client has used various freight management solutions available on the market
 
 **Product design**: Figma, Adobe Illustrator
 
-<TitleWithIcon sectionTitle="goal" titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
+<TitleWithIcon sectionTitle="first things first – time to validate the idea with MVP " titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
-Our primary goal was to **design MVP which could verify the potential of the system to be developed on a bigger scale**.
+Our client's main goal? To **see if their software management system idea could handle their daily operations and potentially grow into something bigger**. Our solution? **Start small and smart with an MVP** (Minimum Viable Product) – the quickest path to validating your game-changing ideas.
 
-The solution is supposed to **transform forwarders’ work into a less repetitive, faster, and more automatic job**. The aim is to **limit both**: the **time** between finding and matching load with the right transport provider and the **number of kilometers** done by empty vehicles. Fast and **effective utilization of vehicles' spare capacity is essential for the industry**. 
+The solution was supposed to **transform forwarders’ work into a less repetitive, faster, and more automatic job**. The aim was to limit both: the time between finding and matching load with the right transport provider and the number of kilometers done by empty vehicles. Fast and effective utilization of vehicles' spare capacity is essential for the industry. 
 
-Also, another long-term goal is to **support daily communication with road hauliers**.
+Also, another long-term goal is to **support daily communication with road hauliers with a customized Android application** dedicated to drivers.
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle="the challenge of building a transport management system" titleIcon="/images/two_flags.svg" titleIconAlt="bright" />
 
-The main challenge was to **build a fast solution**. Time is the key to the shipping industry. The app had to aggregate the listings fast and assign them to the right carriers. Every millisecond counts.
+The main challenge was to **build a fast solution**. Time is the key to the shipping industry. The app has to aggregate the listings quickly and assign them to the right carriers. Every millisecond counts.
 
-What’s more, our team had to design an **algorithm that would automatically filter out transport listings to display only the ones that match the client's expectations**.
+Our team designed an **algorithm that would automatically filter out transport listings to display only the ones that match the client's expectations**.
 
-In terms of product design, the right **architectural information** was the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen so they could scan all the info fast.
+In terms of product design, the right **architectural information** is the key. **Forwarders work at a high pace and they expect any work tool to make their job even faster**. The client required us to include as much information as possible on one screen, so they could scan all the information fast.
 
 <div class="image"><img src="/images/tms_market_ui.png" alt="transport management system UI case study" title="undefined"  /> </div>
 
 <TitleWithIcon sectionTitle="TMS development process" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
 
-**Bright Inventions were responsible for every aspect of MVP development** from listing requirements, product design, to web development, QA, cloud management, launch, and finally maintenance. The MVP was launched in October 2022 and received **positive feedback** from the client’s employees.
+**At Bright Inventions, we took charge of every stage in creating the MVP** – from defining requirements and product design, through web development, rigorous quality testing, and efficient cloud management, to a successful launch. Naturally, our work didn't stop there. We are here for ongoing maintenance, too. The MVP took off in October 2022, and the client's team loved what they saw.
 
 <div class="image"><img src="/images/case_study_tms_client_quote.png" alt="client's review" title="client's review"  /> </div>
 
-### Web development and maintenance
+### Web development based on the latest technologies
 
-**From the beginning, we were entrusted to choose the right stack and had the pleasure to work with the top tools available at the moment**. The client expected to build the fastest possible transport listing filtering system.
+From the beginning, **we were entrusted to choose the right stack** and had the pleasure of implementing the top tools available at the moment.
 
-To make it possible we implemented the best solutions **JavaScript** and **AWS** have to offer with **Lambda** and **SNS** on top of them.
+While we were venturing into the realm of MVP implementation, our commitment to forward-thinking was unwavering. **The technical stack we selected had to be future-proof, and capable of facilitating seamless long-term system integration**. This choice prioritized rapid implementation, uninterrupted performance, and the agility to effortlessly incorporate new features.
 
-As a result, it takes up to **0.5 seconds to filter out the right transport listings and display** them to users. In 1 minute we analyze over a thousand job listings to display only the ones that meet all the requirements.
-
-### Product design
-
-Before our team presented the MVP mockups we took a couple of crucial steps which helped us design the product. Typically, it all started with **desk research**, followed by **benchmarking**. We also had a great opportunity to conduct **field studies** and **user shadowing** combined with **adaptive interviews**. Thanks to our client who enabled us to visit the forwarders who in fact were going to be the MVP end users. Based on that research our product designer created the final MVP designs.
+Our objective extended beyond ensuring a frictionless user experience. We also aimed to streamline the software development process, optimizing time and effort allocation for our team in the foreseeable future. To make it possible **we implemented the best solutions JavaScript and AWS have to offer with Lambda and SNS on top of them**.
 
 <div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
 
-### Mobile development
+### Product design: the key success factor to a smooth digital transformation
 
-After a successful web MVP launch, our **client decided to engage us in mobile development too**. We have been developing a native mobile application for Android. MVP was released recently. The mobile app supports communication between freight forwarders and drivers. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
+Before our team presented the MVP mockups we took the necessary steps that helped us design the product. Our process commenced with comprehensive **desk research**, seamlessly transitioning into rigorous **benchmarking**. Furthermore, we leveraged the valuable opportunity to engage in **field studies** and **user shadowing**, complemented by adaptive interviews.
+
+The challenge confronting the product design team was the **development of a user-friendly, yet data-intensive system. Our primary objective was to ensure a seamless transition for users who have long relied on existing tools**. Users had to swiftly recognize the advantages offered by the new solution. 
 
 <div class="image"><img src="/images/in_text_tms_mobile_mockups.png" alt="shipping mobile app mockups" title="shipping mobile app mockups"  /> </div>
+
+We addressed this challenge by implementing best UX practices such as: **representing a mental model** of end users, designing a **navigation flow based on familiar user patterns**, and incorporating an **information hierarchy** to include as much data as possible on a screen without overwhelming users.
+
+<div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
+
+### Mobile development for effective communication between freight forwarders and drivers
+
+**Following the triumphant MVP launch of a web application, our client chose to partner with us for mobile app development**. We have been hard at work crafting a **native Android mobile app**, and the MVP has just hit the market. Exciting times ahead!
+
+**The mobile app supports communication between forwarders and drivers**. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
+
+<div class="image"><img src="/images/driver_app.png" alt="Mobile app for drivers" title="Mobile app for drivers"  /> </div>
+
+It is essential to highlight the significance of product design in the context of a mobile application. **The mobile application is specifically designed for haulers, where the display of only essential information, such as loading specifics and route details, is paramount**. Distractions with extraneous information are minimized. The user interface prioritizes simplicity, enabling couriers to promptly update loading statuses, such as “delivered” or “delayed”. 
+
+**The app makes it a breeze to upload transport order documents**. Our design is all about being clear and user-friendly, with big, eye-catching buttons that set it apart from the ordinary business apps you come across every day.
 
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
@@ -132,6 +147,6 @@ After a successful web MVP launch, our **client decided to engage us in mobile d
 
 <TitleWithIcon sectionTitle="result" titleIcon="/images/results_icon_title_small.png" titleIconAlt="result" />
 
-**MVP launch ensured the client that the system has the potential to change the daily work** on their team. We’re delighted to say that the **client decided to continue our cooperation**. Now we focus on i**mplementing other features** in the system for example the **electronic circulation of documents**.
+**MVP launch ensured the client that the system has the potential to change the daily work** on their team.
 
-It’s definitely a busy time for our TMS team. We will keep you updated on the project.
+**Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **it takes up to 0.5 seconds to filter out the right transport orders and display them to users**. **Over 1,000 transport listings are analyzed in 1 minute** and the system displays only the ones that meet all the requirements. **Before that, the filtering process had to be done manually**.
