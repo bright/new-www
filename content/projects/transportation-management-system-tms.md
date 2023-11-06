@@ -101,29 +101,39 @@ In terms of product design, the right **architectural information** is the key. 
 
 <TitleWithIcon sectionTitle="TMS development process" titleIcon="/images/gearwheel.svg" titleIconAlt="bright" />
 
-**Bright Inventions were responsible for every aspect of MVP development** from listing requirements, product design, to web development, QA, cloud management, launch, and finally maintenance. The MVP was launched in October 2022 and received **positive feedback** from the client’s employees.
+**At Bright Inventions, we took charge of every stage in creating the MVP** – from defining requirements and product design, through web development, rigorous quality testing, and efficient cloud management, to a successful launch. Naturally, our work didn't stop there. We are here for ongoing maintenance, too. The MVP took off in October 2022, and the client's team loved what they saw.
 
 <div class="image"><img src="/images/case_study_tms_client_quote.png" alt="client's review" title="client's review"  /> </div>
 
-### Web development and maintenance
+### Web development based on the latest technologies
 
-**From the beginning, we were entrusted to choose the right stack and had the pleasure to work with the top tools available at the moment**. The client expected to build the fastest possible transport listing filtering system.
+From the beginning, **we were entrusted to choose the right stack** and had the pleasure of implementing the top tools available at the moment.
 
-To make it possible we implemented the best solutions **JavaScript** and **AWS** have to offer with **Lambda** and **SNS** on top of them.
+While we were venturing into the realm of MVP implementation, our commitment to forward-thinking was unwavering. **The technical stack we selected had to be future-proof, and capable of facilitating seamless long-term system integration**. This choice prioritized rapid implementation, uninterrupted performance, and the agility to effortlessly incorporate new features.
 
-As a result, it takes up to **0.5 seconds to filter out the right transport listings and display** them to users. In 1 minute we analyze over a thousand job listings to display only the ones that meet all the requirements.
+Our objective extended beyond ensuring a frictionless user experience. We also aimed to streamline the software development process, optimizing time and effort allocation for our team in the foreseeable future. To make it possible **we implemented the best solutions JavaScript and AWS have to offer with Lambda and SNS on top of them**.
 
 <div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
 
-### Product design
+### Product design: the key success factor to a smooth digital transformation
 
-Before our team presented the MVP mockups we took a couple of crucial steps which helped us design the product. Typically, it all started with **desk research**, followed by **benchmarking**. We also had a great opportunity to conduct **field studies** and **user shadowing** combined with **adaptive interviews**. Thanks to our client who enabled us to visit the forwarders who in fact were going to be the MVP end users. Based on that research our product designer created the final MVP designs.
+Before our team presented the MVP mockups we took the necessary steps that helped us design the product. Our process commenced with comprehensive **desk research**, seamlessly transitioning into rigorous **benchmarking**. Furthermore, we leveraged the valuable opportunity to engage in **field studies** and **user shadowing**, complemented by adaptive interviews.
+
+The challenge confronting the product design team was the **development of a user-friendly, yet data-intensive system. Our primary objective was to ensure a seamless transition for users who have long relied on existing tools**. Users had to swiftly recognize the advantages offered by the new solution. 
+
+We addressed this challenge by implementing best UX practices such as: **representing a mental model** of end users, designing a **navigation flow based on familiar user patterns**, and incorporating an **information hierarchy** to include as much data as possible on a screen without overwhelming users.
 
 <div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
 
-### Mobile development
+### Mobile development for effective communication between freight forwarders and drivers
 
-After a successful web MVP launch, our **client decided to engage us in mobile development too**. We have been developing a native mobile application for Android. MVP was released recently. The mobile app supports communication between freight forwarders and drivers. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
+**Following the triumphant MVP launch of a web application, our client chose to partner with us for mobile app development**. We have been hard at work crafting a native Android mobile app, and the MVP has just hit the market. Exciting times ahead!
+
+The mobile app supports communication between forwarders and drivers. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
+
+It is essential to highlight the significance of product design in the context of a mobile application. The mobile application is specifically designed for haulers, where the display of only essential information, such as loading specifics and route details, is paramount. Distractions with extraneous information are minimized. The user interface prioritizes simplicity, enabling couriers to promptly update loading statuses, such as “delivered” or “delayed”. 
+
+The app makes it a breeze to upload transport order documents. Our design is all about being clear and user-friendly, with big, eye-catching buttons that set it apart from the ordinary business apps you come across every day.
 
 <div class="image"><img src="/images/in_text_tms_mobile_mockups.png" alt="shipping mobile app mockups" title="shipping mobile app mockups"  /> </div>
 
