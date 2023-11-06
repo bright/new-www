@@ -5,9 +5,11 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { FlexWrapper } from '../shared'
 import { CustomSection } from '../shared/index.styled'
+import { StaticImage } from 'gatsby-plugin-image'
+
 
 const Image100 = styled.figure`
-  width: 80px;
+  width: 120px;
   height: auto;
   overflow: hidden;
   svg {
@@ -46,7 +48,7 @@ const LyviaAndClutchIcons = () => {
                 target='_blank'
                 rel='noopener noreferrer nofollow'
             >
-            clutch <Image100><ClutchIcon /> </Image100>
+            clutch <Image100><StaticImage src='../../../static/images/TopDevelopers_badge.png' alt='clutch' /> <ClutchIcon /> </Image100>
           </IconLink>
         </FlexWrapper>
         </CustomSection>
