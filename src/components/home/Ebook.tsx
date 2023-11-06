@@ -42,12 +42,12 @@ const Ebook = () => {
               tabletMargin='0 0 48px'
               style={{ textAlign: 'left' }}
             >
-              From MVP to a Final Product
+              Optimise Sign-In Experience
             </CustomTextTitle>
             <TextRegular>
-              Unsure about the next steps for your app idea? Want to save time and money while developing your product?<br/>
-              Based on our 12 years of experience in MVP development we prepared an ultimate guide to MVP.<br/>
-              Download it for free now!<br/>
+              Explore top authentication methods and choose the best ones for your solution with this ebook. <br/>
+              If you are a product owner, head of product or CTOs this might be a must-have read for you. <br/>
+              Download the free ebook now!
             </TextRegular>
 
             <ContactEbook
