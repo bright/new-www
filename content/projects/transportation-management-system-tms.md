@@ -67,8 +67,6 @@ The client has used various freight management solutions available on the market
 * **Managing the route** from arrival to the destination point. Adding extra points on the carriers’ map.
 * Receiving **notifications from the drivers** about delays or other disturbances on the road.
 
-<div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
-
 <TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
 <Gallery images='[{"src":"/images/new_typescript_logo_stack.png","alt":"TypeScript"},{"src":"/images/react.png","alt":"React"},{"src":"/images/nest.png","alt":"Nest"},{"src":"/images/aws.png","alt":"AWS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/new_logo_figma_stack.png","alt":"Figma"}]' />
@@ -115,11 +113,13 @@ To make it possible we implemented the best solutions **JavaScript** and **AWS**
 
 As a result, it takes up to **0.5 seconds to filter out the right transport listings and display** them to users. In 1 minute we analyze over a thousand job listings to display only the ones that meet all the requirements.
 
+<div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
+
 ### Product design
 
 Before our team presented the MVP mockups we took a couple of crucial steps which helped us design the product. Typically, it all started with **desk research**, followed by **benchmarking**. We also had a great opportunity to conduct **field studies** and **user shadowing** combined with **adaptive interviews**. Thanks to our client who enabled us to visit the forwarders who in fact were going to be the MVP end users. Based on that research our product designer created the final MVP designs.
 
-<div class="image"><img src="/images/tms_case_study_screen_map.png" alt="transport management app case study UI UX" title="undefined"  /> </div>
+<div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
 
 ### Mobile development
 
