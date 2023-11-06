@@ -4,7 +4,7 @@ import { ContactEbook } from './ebook/ContactEbook'
 
 import { useEbookForm } from '../utils/ebook-form/use-ebook-form'
 import { HomeEbookThankYouPage } from './ebook/HomeEbookThankYouPage'
-import EbookCover from '../../assets/MVP_ebook_cover.svg'
+import EbookCover from '../../assets/ebook-sign-in-cover.svg'
 import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { ebookNames } from '../../ebook-names'
@@ -19,7 +19,7 @@ const EbbokSection = styled(CustomSection)`
 `
 
 const Ebook = () => {
-  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[1])
+  const { value, setPolicy, handleSubmit, setEmail, setName } = useEbookForm(ebookNames[2])
 
   return (
     <EbbokSection
