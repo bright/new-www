@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: lukasz-k
-ex: false
+ex: true
 slug: lukasz-k
 name: Łukasz Kuderewski
 short_name: Łukasz
