@@ -28,11 +28,11 @@ social_media_previev: /images/tms_social_preview.png
 social_media_previev_alt: Transportation Management System case study
 bar_achievements:
   - number: "42"
-    label: countries where the system speeds up operations
+    label: countries
   - number: "1"
-    label: minute to analyze over 1,000 transport listings
+    label: minute to analyze over 1,000 listings
   - number: "0.5"
-    label: seconds needed to filter out and display the right listing
+    label: second to filter out and display the right listing
 tags:
   - web app
   - mobile app
