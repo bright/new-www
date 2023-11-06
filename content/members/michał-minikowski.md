@@ -1,7 +1,7 @@
 ---
 layout: member
 author_id: michal-mi
-ex: false
+ex: true
 slug: michal-mi
 name: Michał Minikowski
 short_name: Michał
