@@ -18,6 +18,8 @@ import { StringParameter } from 'aws-cdk-lib/aws-ssm'
 import { getresponseApiKeyParamName } from './getresponse-api-key-param-name'
 import { thirdPartyProxyPath } from 'gatsby/dist/internal-plugins/partytown/proxy'
 import { Runtime } from 'aws-cdk-lib/aws-lambda'
+import { productionDomainNames, stagingDomainNames } from './domain-names'
+import { CorsHttpMethod } from '@aws-cdk/aws-apigatewayv2-alpha/lib/http/api'
 
 interface ApiProps {
   visitorsTable: Table
@@ -31,7 +33,15 @@ export class Api extends Stack {
   constructor(scope: Construct, id: string, props: ApiProps) {
     super(scope, id)
 
-    this.httpApi = new HttpApi(this, 'api', {})
+    const productionOrigins = productionDomainNames.map(n => `https://${n}`)
+    const stagingOrigins = stagingDomainNames.map(n => `https://${n}`)
+    this.httpApi = new HttpApi(this, 'api', {
+      corsPreflight: {
+        allowHeaders: ['content-type', 'referer'],
+        allowMethods: [CorsHttpMethod.ANY],
+        allowOrigins: ['http://0.0.0.0:8000', ...productionOrigins, ...stagingOrigins]
+      }
+    })
 
     this.ebooksOriginAccessIdentity = new OriginAccessIdentity(this, 'cf oai', {
       comment: 'EBooks S3 access is restricted',
@@ -45,6 +55,7 @@ export class Api extends Stack {
 
     const ebookSignUp = new NodejsFunction(this, 'ebooks-signup', {
       entry: './lib/ebooks-signup.ts',
+      memorySize: 1024, // speed up the invocation
       environment: {
         DEPLOY_ENV: deployEnv(),
       },
