@@ -121,21 +121,21 @@ Before our team presented the MVP mockups we took the necessary steps that helpe
 
 The challenge confronting the product design team was the **development of a user-friendly, yet data-intensive system. Our primary objective was to ensure a seamless transition for users who have long relied on existing tools**. Users had to swiftly recognize the advantages offered by the new solution. 
 
+<div class="image"><img src="/images/in_text_tms_mobile_mockups.png" alt="shipping mobile app mockups" title="shipping mobile app mockups"  /> </div>
+
 We addressed this challenge by implementing best UX practices such as: **representing a mental model** of end users, designing a **navigation flow based on familiar user patterns**, and incorporating an **information hierarchy** to include as much data as possible on a screen without overwhelming users.
 
 <div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="transport management app ux" title="undefined"  /> </div>
 
 ### Mobile development for effective communication between freight forwarders and drivers
 
-**Following the triumphant MVP launch of a web application, our client chose to partner with us for mobile app development**. We have been hard at work crafting a native Android mobile app, and the MVP has just hit the market. Exciting times ahead!
+**Following the triumphant MVP launch of a web application, our client chose to partner with us for mobile app development**. We have been hard at work crafting a **native Android mobile app**, and the MVP has just hit the market. Exciting times ahead!
 
-The mobile app supports communication between forwarders and drivers. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
+**The mobile app supports communication between forwarders and drivers**. For example, it allows sharing of carriers' localization with the forwarders and sending scans of documents. After the MVP launch, the app is now being tested by the first users.
 
-It is essential to highlight the significance of product design in the context of a mobile application. The mobile application is specifically designed for haulers, where the display of only essential information, such as loading specifics and route details, is paramount. Distractions with extraneous information are minimized. The user interface prioritizes simplicity, enabling couriers to promptly update loading statuses, such as “delivered” or “delayed”. 
+It is essential to highlight the significance of product design in the context of a mobile application. **The mobile application is specifically designed for haulers, where the display of only essential information, such as loading specifics and route details, is paramount**. Distractions with extraneous information are minimized. The user interface prioritizes simplicity, enabling couriers to promptly update loading statuses, such as “delivered” or “delayed”. 
 
-The app makes it a breeze to upload transport order documents. Our design is all about being clear and user-friendly, with big, eye-catching buttons that set it apart from the ordinary business apps you come across every day.
-
-<div class="image"><img src="/images/in_text_tms_mobile_mockups.png" alt="shipping mobile app mockups" title="shipping mobile app mockups"  /> </div>
+**The app makes it a breeze to upload transport order documents**. Our design is all about being clear and user-friendly, with big, eye-catching buttons that set it apart from the ordinary business apps you come across every day.
 
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
