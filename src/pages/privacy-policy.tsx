@@ -276,7 +276,6 @@ const PrivacyPolicy = () => {
                   </li>
                 </ul>
               </p>
-              <p>
               <p>7. &#xA0;Transfer of personal data</p>
               <p>
                 Your personal data may be transferred only to our data processors that we cooperate with on the basis of
