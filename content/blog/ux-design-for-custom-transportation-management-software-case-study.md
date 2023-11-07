@@ -4,8 +4,8 @@ secondAuthor: izabela
 tags:
   - design
   - inspiration
-date: 2023-11-07T08:33:47.720Z
-meaningfullyUpdatedAt: 2023-11-07T08:33:47.772Z
+date: 2023-11-07T09:18:19.774Z
+meaningfullyUpdatedAt: 2023-11-07T09:18:20.304Z
 title: UX Design for Custom Transportation Management Software [Case Study]
 layout: post
 image: /images/cover_blog_post_ux_logistics.png
