@@ -54,3 +54,8 @@ language: en
 * Sharing patient’s results with a physician.
 * Triggering an alarm if the patient’s medical condition reaches a life-threatening state.
 * Video consultations.
+
+<TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
+
+**Android development:** Dagger, Kotlin Coroutines, Jetpack Libraries
+**Product design**: Adobe XD
