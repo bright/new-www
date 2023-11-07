@@ -4,17 +4,18 @@ secondAuthor: izabela
 tags:
   - design
   - inspiration
+  - business
 date: 2023-11-07T09:18:19.774Z
 meaningfullyUpdatedAt: 2023-11-07T09:18:20.304Z
-title: UX Design for Custom Transportation Management Software [Case Study]
+title: UX Design for Custom Transport Management Software [Case Study]
 layout: post
 image: /images/cover_blog_post_ux_logistics.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
 ---
-**How to design transport management software? What are the challenges and best practices to follow? Let us answer all the questions with a case study!**
+**How to design transportation management software? What are the challenges and best practices to follow? Let us answer all the questions with a case study!**
 
 <div class="image"><img src="/images/cover_blog_post_ux_logistics.png" alt="UX Transport Management System" title="undefined"  /> </div>
 
