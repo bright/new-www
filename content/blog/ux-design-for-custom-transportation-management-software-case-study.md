@@ -70,3 +70,35 @@ In this case, end users are freight forwarders who expect fast, precise and simp
 * time pressure.
 
 ## Understanding the business domain – freight forwarding and road transportation
+
+While designing prototypes for the transport management solution our design team used numerous product design techniques:
+
+### Desk research
+
+The process of gathering information and data by reviewing existing literature, documents, reports, and other available resources regarding the shipping industry.
+
+### Benchmarking
+
+It is a process of comparing an organization's products against those of its competitors or industry leaders. It involves identifying best practices, evaluating performance metrics, and using the insights gained to improve and set goals for the organization.
+
+### Field studying
+
+It is a research method that involves directly observing and collecting data in real-world settings or natural environments. From the very beginning of the development process, we had access to end-user representatives who were willing to give us a unique insight into their work life.
+
+### User shadowing
+
+It is an observational research technique used to understand how people interact with products, services, or systems in their natural environment. Bright Inventions’ team visited the client’s office to watch freight forwarders at their work, specifically to see how they interact with various software tools on a daily basis.
+
+### Adaptive interviews
+
+It is a research technique that involves conducting interviews. It allows for a deeper understanding of the interviewee's experiences, opinions, and perspectives.
+
+Our team conducted many interviews during the MVP development process. However, after the MVP launch interviews still remained a powerful tool. After every crucial feature release and design update, we conduct interviews with users and improve the product according to their feedback. 
+
+## Best UX design practices for transportation management software
+
+Creating a visual representation of this app required a data-heavy design approach. It is the process of creating interfaces or systems that effectively handle and display large amounts of complex data. It involves organizing, visualizing, and optimizing the interaction with data to facilitate understanding and decision-making.
+
+**Check out the data-heavy design practices we implemented for our client:**
+
+<div class="image"><img src="/images/ux_practices_cover_tms.png" alt="UX design practices for transport management system" title="UX design practices for transport management system"  /> </div>
