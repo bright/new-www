@@ -126,3 +126,13 @@ A mental model is a person's understanding of how something works or should be u
 Our team incorporated users' mental model into this design:
 
 <div class="image"><img src="/images/tms_ux_mental_model.png" alt="User' mental model" title="User' mental model"  /> </div>
+
+This is the routing design. The green square means loading and the orange circle means unloading which is based on the users' mental model. However these color associations and shapes don’t have to be universal to anyone, this is a specific mental model of users representing the shipping industry.
+
+### Navigation design based on patterns familiar to users
+
+The app’s navigation should be accessible and similar to other well-known tools users use at work. Custom software should “ring a bell” and be a natural extension of everyday work, not something completely new users have to comprehend. No one will sacrifice work time to learn new tools and new navigation, especially freight forwarders who simply don’t have time to spare.
+
+### Button hierarchy
+
+The right UX shows you exactly what action is expected from you with one simple look. Although this screen shows lots of data the buttons are standing out thanks to the dedicated color and the right size. Also, the Call to Action (CTA) is short but clear and informative – users know what to expect when they click the button.
