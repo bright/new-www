@@ -74,6 +74,8 @@ In parallel, a surge in patients grappling with chronic illnesses and mental hea
 
 **The RPM system is centered around an Android application, complemented by a couple of Bluetooth health-monitoring devices expertly integrated by the Bright Inventions team**. These devices empower medical professionals to efficiently manage more patients without the need for individual, time-consuming examinations. They continuously monitor patients' conditions, with the application seamlessly handling data analysis. In the end, the physician can initiate treatment based on the insights provided by the algorithm that drives this healthcare application.
 
-
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle="the challenge of integrating multiple Bluetooth devices into a single system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
+
+Our team faced the formidable challenge of integrating various devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. Additionally, the team developed an algorithm capable of swiftly detecting whether a patient's vital signs indicate an immediate need for assistance. The data is transmitted to the doctor, and an alert is generated, suggesting that the patient considers calling an ambulance.
