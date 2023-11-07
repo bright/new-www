@@ -192,3 +192,7 @@ Map design can be challenging because maps typically come with predetermined col
 Last but not least, color contrast has to align with Web Content Accessibility Guidelines ([WCAG](https://wcag.com/)) guidelines for accessibility.
 
 <div class="image"><img src="/images/tms_case_study_screen_map.png" alt="Map" title="Map"  /> </div>
+
+## Are you planning to design and develop your solution for the logistics industry?
+
+We are happy to discuss your product with you. We assist clients at every stage of the development process: from design to development and maintenance. Contact us and we’ll get back to you within 48 hours. [Book a free consultation now](/start-project/)!
