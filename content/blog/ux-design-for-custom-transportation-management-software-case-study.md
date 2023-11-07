@@ -148,3 +148,5 @@ The button’s design should emphasize the hierarchy of the actions users should
 Our client operates in over 40 countries, so most of their routes are international. Introducing flags next to shipping addresses is a simple but powerful touch. With one look users can quickly scan the route info before going into details (actual address). It speeds up the scanning action which is very crucial for end users.
 
 Also, postal codes are important information for the end users, so they are easily accessible next to the flags. Flags are also a useful way to design language setting dropdowns.
+
+<div class="image"><img src="/images/tms_ux_flags.png" alt="UX Flags" title="UX Flags"  /> </div>
