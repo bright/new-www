@@ -136,3 +136,5 @@ The app’s navigation should be accessible and similar to other well-known tool
 ### Button hierarchy
 
 The right UX shows you exactly what action is expected from you with one simple look. Although this screen shows lots of data the buttons are standing out thanks to the dedicated color and the right size. Also, the Call to Action (CTA) is short but clear and informative – users know what to expect when they click the button.
+
+<div class="image"><img src="/images/tms_ux_buttons.png" alt="UX buttons" title="UX buttons"  /> </div>
