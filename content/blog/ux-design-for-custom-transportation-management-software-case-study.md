@@ -64,4 +64,9 @@ In this case, end users are freight forwarders who expect fast, precise and simp
 * streamlines dispatching processes to improve efficiency and reduce errors,
 * stays up-to-date with industry trends and technologies.
 
+**What he feels:**
 
+* stress,
+* time pressure.
+
+## Understanding the business domain – freight forwarding and road transportation
