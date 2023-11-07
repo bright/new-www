@@ -99,6 +99,16 @@ Our team conducted many interviews during the MVP development process. However, 
 
 Creating a visual representation of this app required a data-heavy design approach. It is the process of creating interfaces or systems that effectively handle and display large amounts of complex data. It involves organizing, visualizing, and optimizing the interaction with data to facilitate understanding and decision-making.
 
+<div class="image"><img src="/images/ux_practices_cover_tms.png" alt="UX design practices for transport management system" title="UX design practices for transport management system"  /> </div>
+
 **Check out the data-heavy design practices we implemented for our client:**
 
-<div class="image"><img src="/images/ux_practices_cover_tms.png" alt="UX design practices for transport management system" title="UX design practices for transport management system"  /> </div>
+### Clear information architecture
+
+The goal of the system is to match the transport job with the matching car and driver to find the most efficient way to transport goods internationally.
+
+So end users' requirement was to show listing next to matching cars – as many as possible on one screen. 
+
+You can see that transport orders are displayed on the left and vehicles on the right. Although there are many of them on screen, they stand out thanks to the white background.
+
+<div class="image"><img src="/images/tms_information_architecture.png" alt="Clear information architecture" title="Clear information architecture"  /> </div>
