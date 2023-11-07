@@ -41,3 +41,7 @@ Deep understanding of the domain
 * Also, it might turn out that your design instincts go opposite to end users' needs.
 
 ## UX persona of the transport management solutions
+
+In this case, end users are freight forwarders who expect fast, precise and simple solutions that will speed up their work. They don’t want beautiful design, images, and animations which might result in slowing the app’s performance. They can’t deal with any distractions as well. They expect the tools that will assist them in matching transport jobs with the right cars and couriers.
+
+<div class="image"><img src="/images/tms_persona.png" alt="UX persona transport system management" title="UX persona transport system management"  /> </div>
