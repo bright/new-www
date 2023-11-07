@@ -17,3 +17,7 @@ language: en
 **How to design transport management software? What are the challenges and best practices to follow? Let us answer all the questions with a case study!**
 
 <div class="image"><img src="/images/cover_blog_post_ux_logistics.png" alt="UX Transport Management System" title="undefined"  /> </div>
+
+MAKO TSL has reached out to us to build [customized software for freight forwarders](https://brightinventions.pl/projects/transportation-management-system/) to speed up and eventually automate the process of finding suitable transport orders and matching them with the right drivers.
+
+<div class="image"><img src="/images/tms_social_preview.png" alt="Transport Management System" title="Transport Management System"  /> </div>
