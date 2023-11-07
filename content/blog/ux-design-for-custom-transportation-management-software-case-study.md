@@ -170,3 +170,11 @@ Every product design requires iconography. Although icons have to be unique, the
 Here are examples of icons showing users’ actions available on the app:
 
 <div class="image"><img src="/images/tms_ux_icons.png" alt="Icons" title="Icons"  /> </div>
+
+Icons are recognizable. By looking at them it’s easy to guess their meaning. Naturally, icons should also be explained in the app because product designers shouldn’t assume that users understand all their intentions. Nevertheless, these icons are approachable, easy to comprehend and remember what they mean. That’s the goal. 🙂
+
+### Bolding
+
+Bolding is a simple but powerful way to prioritize information. As an example take a look at the popup below. 
+
+<div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="Popup" title="Popup"  /> </div>
