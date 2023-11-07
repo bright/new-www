@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import variables from '../../styles/variables'
 import { FlexWrapper } from '../shared'
 import { CustomSection } from '../shared/index.styled'
-import { StaticImage } from 'gatsby-plugin-image'
+
 
 
 const Image100 = styled.figure`
@@ -36,7 +36,7 @@ height: 100%;
 const LyviaAndClutchIcons = () => {
     return (
       <CustomSection paddingProps='35px 0 0 12px ' paddingLaptop='35px 0 0 12px' paddingTabletXL='35px 0 0 12px' paddingTablet='30px 0 0 12px' paddingMobileProps='30px 0 0 12px' >
-        <FlexWrapper desktopGap='30px'>
+        <FlexWrapper desktopGap='30px' desktopDirection='column' tabletDirection='row'>
           <IconLink href='https://www.lyviagroup.com'
             target='_blank'
             rel='noopener noreferrer nofollow'>
@@ -48,7 +48,7 @@ const LyviaAndClutchIcons = () => {
                 target='_blank'
                 rel='noopener noreferrer nofollow'
             >
-            clutch <Image100><StaticImage src='../../../static/images/TopDevelopers_badge.png' alt='clutch' /> <ClutchIcon /> </Image100>
+            clutch <Image100> <ClutchIcon /> </Image100>
           </IconLink>
         </FlexWrapper>
         </CustomSection>
