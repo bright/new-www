@@ -158,3 +158,15 @@ The mockup below shows the universal power of colors. In this case, colors are u
 These aren’t the actual statutes used in the app but we just show you the examples of associations that we quickly have while looking at these colors. 🙂
 
 <div class="image"><img src="/images/tms_color_coding.png" alt="Color coding" title="Color coding"  /> </div>
+
+You may also notice, that a vehicle in a blue color has a different shape. This icon means that the car is on the go.
+
+<div class="image"><img src="/images/tms_vehicle_icons.png" alt="Vehicle icons" title="Vehicle icons"  /> </div>
+
+### Iconography
+
+Every product design requires iconography. Although icons have to be unique, they still cannot be out of the box. No one wants to reinvent the wheel, so icons should be comprehensible. They must evoke the right associations, even if they are designed specifically for this app.
+
+Here are examples of icons showing users’ actions available on the app:
+
+<div class="image"><img src="/images/tms_ux_icons.png" alt="Icons" title="Icons"  /> </div>
