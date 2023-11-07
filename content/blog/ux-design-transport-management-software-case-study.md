@@ -23,27 +23,27 @@ MAKO TSL has reached out to us to build [customized software for freight forward
 
 <div class="image"><img src="/images/tms_social_preview.png" alt="Transport Management System" title="Transport Management System"  /> </div>
 
-As a result of our work, it takes up to 0.5 seconds to filter out the right transport listings and display them to users. In 1 minute the system analyzes over a thousand orders to display only the ones that meet all the requirements.
+**As a result of our work, it takes up to 0.5 seconds to filter out the right transport listings and display them to users**. In 1 minute the system analyzes over a thousand orders to display only the ones that meet all the requirements.
 
-However, that’s just the one challenge of that job. Another was a product design which aim was to support users and help them navigate smoothly through the app.
+However, **that’s just the one challenge of that job. Another was a product design** which aim was to support users and help them navigate smoothly through the app.
 
 Drawing from our experience in product design for this project, we want to share our insights on creating products tailored to the shipping industry.
 
 ## Challenges for transportation management system design
 
-Information Architecture
+### Information Architecture
 
-* Designing a data-heavy solution in the most possible accessible and readable way.
-* Designing how to display as much data as possible on one screen without overwhelming users.
+* **Designing a data-heavy** solution in the most possible accessible and readable way.
+* Designing **how to display as much data as possible** on one screen without overwhelming users.
 
-Deep understanding of the domain
+### Deep understanding of the domain
 
-* Building work management software requires a true understanding of a particular industry.
-* Also, it might turn out that your design instincts go opposite to end users' needs.
+* Building work management software requires **a true understanding of a particular industry**.
+* Also, it might turn out that **your design instincts go opposite to end users' needs**.
 
 ## UX persona of the transport management solutions
 
-In this case, end users are freight forwarders who expect fast, precise and simple solutions that will speed up their work. They don’t want beautiful design, images, and animations which might result in slowing the app’s performance. They can’t deal with any distractions as well. They expect the tools that will assist them in matching transport jobs with the right cars and couriers.
+In this case, **end users are freight forwarders who expect fast, precise and simple solutions that will speed up their work**. They don’t want beautiful design, images, and animations which might result in slowing the app’s performance. They can’t deal with any distractions as well. They expect the tools that will assist them in matching transport jobs with the right cars and couriers.
 
 <div class="image"><img src="/images/tms_persona.png" alt="UX persona transport system management" title="UX persona transport system management"  /> </div>
 
@@ -98,7 +98,7 @@ Our team conducted many interviews during the MVP development process. However, 
 
 ## Best UX design practices for transportation management software
 
-Creating a visual representation of this app required a data-heavy design approach. It is the process of creating interfaces or systems that effectively handle and display large amounts of complex data. It involves organizing, visualizing, and optimizing the interaction with data to facilitate understanding and decision-making.
+Creating a visual representation of this app required **a data-heavy design approach**. It is the process of creating interfaces or systems that effectively handle and display large amounts of complex data. It involves organizing, visualizing, and optimizing the interaction with data to facilitate understanding and decision-making.
 
 <div class="image"><img src="/images/ux_practices_cover_tms.png" alt="UX design practices for transport management system" title="UX design practices for transport management system"  /> </div>
 
@@ -110,19 +110,19 @@ The goal of the system is to match the transport job with the matching car and d
 
 So end users' requirement was to show listing next to matching cars – as many as possible on one screen. 
 
-You can see that transport orders are displayed on the left and vehicles on the right. Although there are many of them on screen, they stand out thanks to the white background.
+You **can see that transport orders are displayed on the left and vehicles on the right. Although there are many of them on screen, they stand out thanks to the white background.**
 
 <div class="image"><img src="/images/tms_information_architecture.png" alt="Clear information architecture" title="Clear information architecture"  /> </div>
 
 ### Designing cluster information
 
-Another product design challenge was to design clustered information. For example, one transport order could be associated with 10 vehicles which have to be accessible all in one place. Our solution was to create scrolling bubbles. Obviously, every scrolling has to have an indicator that shows that data should be scrolled. It might seem obvious, but these are the small details that might be sometimes missed while developing advanced systems.
+Another product design challenge was to design clustered information. For example, one transport order could be associated with 10 vehicles which have to be accessible all in one place. **Our solution was to create scrolling bubbles**. Obviously, every scrolling has to have an indicator that shows that data should be scrolled. It might seem obvious, but these are the small details that might be sometimes missed while developing advanced systems.
 
 <div class="image"><img src="/images/tms_ux_scrolling.png" alt="Designing cluster information" title="Designing cluster information"  /> </div>
 
 ### Taking into account users' mental model
 
-A mental model is a person's understanding of how something works or should be used. It shapes user expectations and interactions with a product. Designers aim to align their designs with users' mental models to create intuitive and user-friendly experiences. By incorporating these mental models into the design process, designers reduce cognitive load and enhance usability, bridging the gap between intentions and user needs.
+**A mental model is a person's understanding of how something works or should be used**. It shapes user expectations and interactions with a product. Designers aim to align their designs with users' mental models to create intuitive and user-friendly experiences. B**y incorporating these mental models into the design process, designers reduce cognitive load and enhance usability**, bridging the gap between intentions and user needs.
 
 Our team incorporated users' mental model into this design:
 
@@ -132,21 +132,21 @@ This is the routing design. The green square means loading and the orange circle
 
 ### Navigation design based on patterns familiar to users
 
-The app’s navigation should be accessible and similar to other well-known tools users use at work. Custom software should “ring a bell” and be a natural extension of everyday work, not something completely new users have to comprehend. No one will sacrifice work time to learn new tools and new navigation, especially freight forwarders who simply don’t have time to spare.
+The app’s navigation should be accessible and similar to other well-known tools users use at work. **Custom software should “ring a bell” and be a natural extension of everyday work, not something completely new users have to comprehend**. No one will sacrifice work time to learn new tools and new navigation, especially freight forwarders who simply don’t have time to spare.
 
 ### Button hierarchy
 
-The right UX shows you exactly what action is expected from you with one simple look. Although this screen shows lots of data the buttons are standing out thanks to the dedicated color and the right size. Also, the Call to Action (CTA) is short but clear and informative – users know what to expect when they click the button.
+**The right UX shows you exactly what action is expected from you with one simple look**. Although this screen shows lots of data the buttons are standing out thanks to the dedicated color and the right size. Also, the Call to Action (CTA) is short but clear and informative – users know what to expect when they click the button.
 
 <div class="image"><img src="/images/tms_ux_buttons.png" alt="UX buttons" title="UX buttons"  /> </div>
 
-The button’s design should emphasize the hierarchy of the actions users should take. Product designers should help users and point them in the right direction. Yet still giving them an alternative option (secondary button). Below you’ll find an example of the button hierarchy:
+The button’s design should emphasize the hierarchy of the actions users should take. **Product designers should help users and point them in the right direction**. Yet still giving them an alternative option (secondary button). Below you’ll find an example of the button hierarchy:
 
 <div class="image"><img src="/images/tms_ux_buttons_hierarchy.png" alt="UX button hierarchy" title="UX button hierarchy"  /> </div>
 
 ### Flags UX
 
-Our client operates in over 40 countries, so most of their routes are international. Introducing flags next to shipping addresses is a simple but powerful touch. With one look users can quickly scan the route info before going into details (actual address). It speeds up the scanning action which is very crucial for end users.
+Our client operates in over 40 countries, so most of their routes are international. Introducing flags next to shipping addresses is a simple but powerful touch. **With one look users can quickly scan the route info before going into details (actual address)**. It speeds up the scanning action which is very crucial for end users.
 
 Also, postal codes are important information for the end users, so they are easily accessible next to the flags. Flags are also a useful way to design language setting dropdowns.
 
@@ -154,7 +154,7 @@ Also, postal codes are important information for the end users, so they are easi
 
 ### Color coding
 
-The mockup below shows the universal power of colors. In this case, colors are used to show shipping statuses. Even without knowing the app’s domain, we can assume that red color means something negative (for example car malfunction), yellow might mean delay, and blue is neutral.
+The mockup below shows **the universal power of colors**. In this case, colors are used to show shipping statuses. Even without knowing the app’s domain, we can assume that red color means something negative (for example car malfunction), yellow might mean delay, and blue is neutral.
 
 These aren’t the actual statutes used in the app but we just show you the examples of associations that we quickly have while looking at these colors. 🙂
 
@@ -166,7 +166,7 @@ You may also notice, that a vehicle in a blue color has a different shape. This 
 
 ### Iconography
 
-Every product design requires iconography. Although icons have to be unique, they still cannot be out of the box. No one wants to reinvent the wheel, so icons should be comprehensible. They must evoke the right associations, even if they are designed specifically for this app.
+Every product design requires iconography. **Although icons have to be unique, they still cannot be out of the box**. No one wants to reinvent the wheel, so icons should be comprehensible. They must evoke the right associations, even if they are designed specifically for this app.
 
 Here are examples of icons showing users’ actions available on the app:
 
@@ -180,17 +180,17 @@ Bolding is a simple but powerful way to prioritize information. As an example ta
 
 <div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="Popup" title="Popup"  /> </div>
 
-Bolding emphasizes the crucial information in the copy, helping to scan the text. According to [Nielsen Norman Group research](https://www.nngroup.com/articles/how-users-read-on-the-web/) conducted in 1997! 79% od people only scann information on the website, 16% read word-by-word. It is probable that the data today shows an even greater preference for scanning.
+**Bolding emphasizes the crucial information in the copy, helping to scan the text**. According to [Nielsen Norman Group research](https://www.nngroup.com/articles/how-users-read-on-the-web/) conducted in 1997! 79% od people only scann information on the website, 16% read word-by-word. It is probable that the data today shows an even greater preference for scanning.
 
 Bolding definitely helps users quickly see the crucial information on this popup - the fact that the order they want to delete will be gone permanently. 
 
-Also, take a look at the Calls to Action (CTAs). They clearly state the actions thanks to informative copy, *Yes, delete it*, and *No, keep it*. We should avoid using CTAs such as Yes, or No which give no context. Again, users quickly scan the apps. Make sure they understand the consequences of their actions. 
+Also, take a look at the Calls to Action (CTAs). They clearly state the actions thanks to informative copy, *Yes, delete it*, and *No, keep it*. **We should avoid using CTAs such as Yes, or No which give no context**. Again, users quickly scan the apps. Make sure they understand the consequences of their actions. 
 
 ### Designing a map in the application
 
-Map design can be challenging because maps typically come with predetermined color schemes. If the colors are meant to signify specific information, such as distinguishing between the actual route and the car's navigation from point A to point B, additional effort is necessary. A viable solution would involve not solely relying on colors but also incorporating various shapes, such as dashed lines, and utilizing borders to enhance the map's clarity and visual communication.
+Map design can be challenging because maps typically come with predetermined color schemes. If the colors are meant to signify specific information, such as distinguishing between the actual route and the car's navigation from point A to point B, additional effort is necessary. **A viable solution would involve not solely relying on colors but also incorporating various shapes**, such as dashed lines, and utilizing borders to enhance the map's clarity and visual communication.
 
-Last but not least, color contrast has to align with Web Content Accessibility Guidelines ([WCAG](https://wcag.com/)) guidelines for accessibility.
+Last but not least, **color contrast has to align with Web Content Accessibility Guidelines** ([WCAG](https://wcag.com/)) guidelines for accessibility.
 
 <div class="image"><img src="/images/tms_case_study_screen_map.png" alt="Map" title="Map"  /> </div>
 
