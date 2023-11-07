@@ -51,14 +51,6 @@ show on homepage: false
 published: true
 language: en
 ---
-<TitleWithIcon sectionTitle="about TMS project" titleIcon="/images/three_flags.svg" titleIconAlt="bright" />
-
-[MAKO TSL](https://makotsl.com/) started a collaboration with Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. In 2022 they executed over 180,000 shipping orders.
-
-Like many logistics companies, MAKO TSL struggled with endless paperwork, and tons of Excel sheets, which defined the inefficient core of their transport management system. They aimed for a change, hoping for a successful digitalization of their daily work. But, **finding an off-the-shelf solution that truly fit their unique needs was a challenge**. **That's when they partnered with Bright Inventions to craft a tailor-made Transport Management System.** 
-
-<AnchorLink href='#contactForm' text='let’s talk about your project'/>
-
 ## Main features developed by Bright Inventions
 
 * **Importing freight listings** from popular transport marketplaces.
@@ -78,6 +70,14 @@ Like many logistics companies, MAKO TSL struggled with endless paperwork, and to
 **Android development**: Kotlin, Coroutines, Flows, ViewModel, Firebase, Hilt, and other Google APIs
 
 **Product design**: Figma, Adobe Illustrator
+
+<TitleWithIcon sectionTitle="about TMS project" titleIcon="/images/three_flags.svg" titleIconAlt="bright" />
+
+[MAKO TSL](https://makotsl.com/) started a collaboration with Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. In 2022 they executed over 180,000 shipping orders.
+
+Like many logistics companies, MAKO TSL struggled with endless paperwork, and tons of Excel sheets, which defined the inefficient core of their transport management system. They aimed for a change, hoping for a successful digitalization of their daily work. But, **finding an off-the-shelf solution that truly fit their unique needs was a challenge**. **That's when they partnered with Bright Inventions to craft a tailor-made Transport Management System.** 
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle="first things first – time to validate the idea with MVP " titleIcon="/images/goal_title_section.png" titleIconAlt="goal" />
 
@@ -143,8 +143,6 @@ It is essential to highlight the significance of product design in the context o
 **MVP launch ensured the client that the system has the potential to change the daily work** on their team.
 
 **Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **it takes up to 0.5 seconds to filter out the right transport orders and display them to users**. **Over 1,000 transport listings are analyzed in 1 minute** and the system displays only the ones that meet all the requirements. **Before that, the filtering process had to be done manually**.
-
-
 
 <TitleWithIcon sectionTitle="client’s perspective" titleIcon="/images/clients_perspective_icon.svg" titleIconAlt="client’s perspective" />
 
