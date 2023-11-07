@@ -118,3 +118,11 @@ You can see that transport orders are displayed on the left and vehicles on the 
 Another product design challenge was to design clustered information. For example, one transport order could be associated with 10 vehicles which have to be accessible all in one place. Our solution was to create scrolling bubbles. Obviously, every scrolling has to have an indicator that shows that data should be scrolled. It might seem obvious, but these are the small details that might be sometimes missed while developing advanced systems.
 
 <div class="image"><img src="/images/tms_ux_scrolling.png" alt="Designing cluster information" title="Designing cluster information"  /> </div>
+
+### Taking into account users' mental model
+
+A mental model is a person's understanding of how something works or should be used. It shapes user expectations and interactions with a product. Designers aim to align their designs with users' mental models to create intuitive and user-friendly experiences. By incorporating these mental models into the design process, designers reduce cognitive load and enhance usability, bridging the gap between intentions and user needs.
+
+Our team incorporated users' mental model into this design:
+
+<div class="image"><img src="/images/tms_ux_mental_model.png" alt="User' mental model" title="User' mental model"  /> </div>
