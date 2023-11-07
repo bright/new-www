@@ -59,3 +59,5 @@ language: en
 
 **Android development:** Dagger, Kotlin Coroutines, Jetpack Libraries
 **Product design**: Adobe XD
+
+<TitleWithIcon sectionTitle="unlocking digital health: addressing staff shortages &amp; rising health challenge" titleIcon="/images/icon_title_goal.svg" titleIconAlt="unlocking digital health: addressing staff shortages & rising health challenge" />
