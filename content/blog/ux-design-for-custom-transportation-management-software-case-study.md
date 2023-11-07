@@ -142,3 +142,9 @@ The right UX shows you exactly what action is expected from you with one simple 
 The button’s design should emphasize the hierarchy of the actions users should take. Product designers should help users and point them in the right direction. Yet still giving them an alternative option (secondary button). Below you’ll find an example of the button hierarchy:
 
 <div class="image"><img src="/images/tms_ux_buttons_hierarchy.png" alt="UX button hierarchy" title="UX button hierarchy"  /> </div>
+
+### Flags UX
+
+Our client operates in over 40 countries, so most of their routes are international. Introducing flags next to shipping addresses is a simple but powerful touch. With one look users can quickly scan the route info before going into details (actual address). It speeds up the scanning action which is very crucial for end users.
+
+Also, postal codes are important information for the end users, so they are easily accessible next to the flags. Flags are also a useful way to design language setting dropdowns.
