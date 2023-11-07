@@ -21,3 +21,11 @@ language: en
 MAKO TSL has reached out to us to build [customized software for freight forwarders](https://brightinventions.pl/projects/transportation-management-system/) to speed up and eventually automate the process of finding suitable transport orders and matching them with the right drivers.
 
 <div class="image"><img src="/images/tms_social_preview.png" alt="Transport Management System" title="Transport Management System"  /> </div>
+
+As a result of our work, it takes up to 0.5 seconds to filter out the right transport listings and display them to users. In 1 minute the system analyzes over a thousand orders to display only the ones that meet all the requirements.
+
+However, that’s just the one challenge of that job. Another was a product design which aim was to support users and help them navigate smoothly through the app.
+
+Drawing from our experience in product design for this project, we want to share our insights on creating products tailored to the shipping industry.
+
+## Challenges for transportation management system design:
