@@ -60,4 +60,10 @@ language: en
 **Android development:** Dagger, Kotlin Coroutines, Jetpack Libraries
 **Product design**: Adobe XD
 
-<TitleWithIcon sectionTitle="unlocking digital health: addressing staff shortages &amp; rising health challenge" titleIcon="/images/icon_title_goal.svg" titleIconAlt="unlocking digital health: addressing staff shortages & rising health challenge" />
+<TitleWithIcon sectionTitle="unlocking digital health: addressing staff shortages &amp; rising health challenge" titleIcon="/images/icon_title_about.svg" titleIconAlt="unlocking digital health: addressing staff shortages & rising health challenge" />
+
+Healthcare systems worldwide face unprecedented challenges, highlighted by the strains of the COVID-19 pandemic. Notably, the United Kingdom has grappled with staffing shortages, with [NHS workforce data](https://lordslibrary.parliament.uk/staff-shortages-in-the-nhs-and-social-care-sectors/#heading-1) revealing an increase in overall and nursing vacancies despite a slight increase in medical positions.
+
+In parallel, a surge in patients grappling with chronic illnesses and mental health concerns poses a pressing concern. The WHO reports that depression affects [264 million people globally,](https://www.who.int/news-room/fact-sheets/detail/mental-disorders) while [6 out of 10 U.S. adults suffer from chronic conditions](https://www.cdc.gov/chronicdisease/about/index.htm). Conventional healthcare services struggle to meet this growing demand, emphasizing the pivotal role of digitalization in offering effective solutions.
+
+<TitleWithIcon sectionTitle="empowering healthcare transformation: Camascope&#39;s RPM &amp; telemedicine revolution" titleIcon="undefined" titleIconAlt="empowering healthcare transformation: Camascope's RPM & telemedicine revolution" />
