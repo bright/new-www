@@ -28,4 +28,16 @@ However, that’s just the one challenge of that job. Another was a product desi
 
 Drawing from our experience in product design for this project, we want to share our insights on creating products tailored to the shipping industry.
 
-## Challenges for transportation management system design:
+## Challenges for transportation management system design
+
+Information Architecture
+
+* Designing a data-heavy solution in the most possible accessible and readable way.
+* Designing how to display as much data as possible on one screen without overwhelming users.
+
+Deep understanding of the domain
+
+* Building work management software requires a true understanding of a particular industry.
+* Also, it might turn out that your design instincts go opposite to end users' needs.
+
+## UX persona of the transport management solutions
