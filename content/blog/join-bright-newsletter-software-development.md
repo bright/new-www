@@ -5,6 +5,7 @@ tags:
   - development
   - inspiration
 date: 2022-04-27T10:15:47.359Z
+meaningfullyUpdatedAt: 2022-04-27T10:15:00.000Z
 title: Join our Bright Newsletter and Never Miss a Thing
 layout: post
 image: /images/blog_newsletter_bright_inventions.png
@@ -15,7 +16,7 @@ language: en
 ---
 Oh yes! It is high time to start a bright newsletter. Once a month we will share our blog posts and info about our free workshops and webinars.
 
-<div class='block-button'><h2>Sign up for the Bright Inventions Newsletter</h2><div>Join our newsletter to receive emails. Simple as that!</div><a href="https://app.getresponse.com/site2/5d4d6f8b6908199482efeb84d0edf9a5/?u=QX16N&webforms_id=hKPfh"><button>I wanna sign up</button></a></div>
+<div class='block-button'><h2>Sign up for the Bright Inventions Newsletter</h2><div>Join our newsletter to receive emails. Simple as that!</div><a href="https://bright-dev-newsletter.getresponsepages.com/"><button>I wanna sign up</button></a></div>
 
 No worries. SPAM shall not pass. 
 
