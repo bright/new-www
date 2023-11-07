@@ -112,3 +112,9 @@ So end users' requirement was to show listing next to matching cars – as many 
 You can see that transport orders are displayed on the left and vehicles on the right. Although there are many of them on screen, they stand out thanks to the white background.
 
 <div class="image"><img src="/images/tms_information_architecture.png" alt="Clear information architecture" title="Clear information architecture"  /> </div>
+
+### Designing cluster information
+
+Another product design challenge was to design clustered information. For example, one transport order could be associated with 10 vehicles which have to be accessible all in one place. Our solution was to create scrolling bubbles. Obviously, every scrolling has to have an indicator that shows that data should be scrolled. It might seem obvious, but these are the small details that might be sometimes missed while developing advanced systems.
+
+<div class="image"><img src="/images/tms_ux_scrolling.png" alt="Designing cluster information" title="Designing cluster information"  /> </div>
