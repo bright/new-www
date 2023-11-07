@@ -45,3 +45,23 @@ Deep understanding of the domain
 In this case, end users are freight forwarders who expect fast, precise and simple solutions that will speed up their work. They don’t want beautiful design, images, and animations which might result in slowing the app’s performance. They can’t deal with any distractions as well. They expect the tools that will assist them in matching transport jobs with the right cars and couriers.
 
 <div class="image"><img src="/images/tms_persona.png" alt="UX persona transport system management" title="UX persona transport system management"  /> </div>
+
+**What he says**
+
+"I wonder if a driver has enough time to unload, so I could add another load for him?"
+
+**What he thinks**
+
+“It’s not affordable to take this offer.”
+
+“Weak offer, but I have to make mileage."
+
+**What he does:**
+
+* takes orders from clients and plans the entire route for the driver, 
+* ensures that all shipments are delivered on time and in good condition,
+* maintains strong relationships with drivers and customers, 
+* streamlines dispatching processes to improve efficiency and reduce errors,
+* stays up-to-date with industry trends and technologies.
+
+
