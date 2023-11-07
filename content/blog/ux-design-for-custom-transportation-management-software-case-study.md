@@ -150,3 +150,11 @@ Our client operates in over 40 countries, so most of their routes are internatio
 Also, postal codes are important information for the end users, so they are easily accessible next to the flags. Flags are also a useful way to design language setting dropdowns.
 
 <div class="image"><img src="/images/tms_ux_flags.png" alt="UX Flags" title="UX Flags"  /> </div>
+
+### Color coding
+
+The mockup below shows the universal power of colors. In this case, colors are used to show shipping statuses. Even without knowing the app’s domain, we can assume that red color means something negative (for example car malfunction), yellow might mean delay, and blue is neutral.
+
+These aren’t the actual statutes used in the app but we just show you the examples of associations that we quickly have while looking at these colors. 🙂
+
+<div class="image"><img src="/images/tms_color_coding.png" alt="Color coding" title="Color coding"  /> </div>
