@@ -178,3 +178,9 @@ Icons are recognizable. By looking at them it’s easy to guess their meaning. N
 Bolding is a simple but powerful way to prioritize information. As an example take a look at the popup below. 
 
 <div class="image"><img src="/images/case_study_picture_tms_screen.png" alt="Popup" title="Popup"  /> </div>
+
+Bolding emphasizes the crucial information in the copy, helping to scan the text. According to [Nielsen Norman Group research](https://www.nngroup.com/articles/how-users-read-on-the-web/) conducted in 1997! 79% od people only scann information on the website, 16% read word-by-word. It is probable that the data today shows an even greater preference for scanning.
+
+Bolding definitely helps users quickly see the crucial information on this popup - the fact that the order they want to delete will be gone permanently. 
+
+Also, take a look at the Calls to Action (CTAs). They clearly state the actions thanks to informative copy, *Yes, delete it*, and *No, keep it*. We should avoid using CTAs such as Yes, or No which give no context. Again, users quickly scan the apps. Make sure they understand the consequences of their actions.
