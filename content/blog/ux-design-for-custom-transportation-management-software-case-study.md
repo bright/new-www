@@ -183,4 +183,10 @@ Bolding emphasizes the crucial information in the copy, helping to scan the text
 
 Bolding definitely helps users quickly see the crucial information on this popup - the fact that the order they want to delete will be gone permanently. 
 
-Also, take a look at the Calls to Action (CTAs). They clearly state the actions thanks to informative copy, *Yes, delete it*, and *No, keep it*. We should avoid using CTAs such as Yes, or No which give no context. Again, users quickly scan the apps. Make sure they understand the consequences of their actions.
+Also, take a look at the Calls to Action (CTAs). They clearly state the actions thanks to informative copy, *Yes, delete it*, and *No, keep it*. We should avoid using CTAs such as Yes, or No which give no context. Again, users quickly scan the apps. Make sure they understand the consequences of their actions. 
+
+### Designing a map in the application
+
+Map design can be challenging because maps typically come with predetermined color schemes. If the colors are meant to signify specific information, such as distinguishing between the actual route and the car's navigation from point A to point B, additional effort is necessary. A viable solution would involve not solely relying on colors but also incorporating various shapes, such as dashed lines, and utilizing borders to enhance the map's clarity and visual communication.
+
+Last but not least, color contrast has to align with Web Content Accessibility Guidelines ([WCAG](https://wcag.com/)) guidelines for accessibility.
