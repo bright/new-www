@@ -190,3 +190,5 @@ Also, take a look at the Calls to Action (CTAs). They clearly state the actions 
 Map design can be challenging because maps typically come with predetermined color schemes. If the colors are meant to signify specific information, such as distinguishing between the actual route and the car's navigation from point A to point B, additional effort is necessary. A viable solution would involve not solely relying on colors but also incorporating various shapes, such as dashed lines, and utilizing borders to enhance the map's clarity and visual communication.
 
 Last but not least, color contrast has to align with Web Content Accessibility Guidelines ([WCAG](https://wcag.com/)) guidelines for accessibility.
+
+<div class="image"><img src="/images/tms_case_study_screen_map.png" alt="Map" title="Map"  /> </div>
