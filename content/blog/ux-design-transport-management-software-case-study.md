@@ -5,8 +5,8 @@ tags:
   - design
   - inspiration
   - business
-date: 2023-11-07T09:18:19.774Z
-meaningfullyUpdatedAt: 2023-11-07T09:18:20.304Z
+date: 2023-11-07T10:47:03.864Z
+meaningfullyUpdatedAt: 2023-11-07T10:47:04.488Z
 title: UX Design for Custom Transport Management Software [Case Study]
 layout: post
 image: /images/cover_blog_post_ux_logistics.png
