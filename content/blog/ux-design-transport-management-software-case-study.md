@@ -9,7 +9,7 @@ date: 2023-11-07T10:47:03.864Z
 meaningfullyUpdatedAt: 2023-11-07T10:47:04.488Z
 title: UX Design for Custom Transport Management Software [Case Study]
 layout: post
-image: /images/cover_blog_post_ux_logistics.png
+image: /images/tms_ux_cover.png
 hidden: false
 comments: true
 published: true
@@ -17,17 +17,17 @@ language: en
 ---
 **How to design transportation management software? What are the challenges and best practices to follow? Let us answer all the questions with a case study!**
 
-<div class="image"><img src="/images/cover_blog_post_ux_logistics.png" alt="UX Transport Management System" title="undefined"  /> </div>
+<div class="image"><img src="/images/tms_ux_cover.png" alt="UX Transport Management System" title="UX Transport Management System"  /> </div>
 
 MAKO TSL has reached out to us to build [customized software for freight forwarders](https://brightinventions.pl/projects/transportation-management-system/) to speed up and eventually automate the process of finding suitable transport orders and matching them with the right drivers.
-
-<div class="image"><img src="/images/tms_social_preview.png" alt="Transport Management System" title="Transport Management System"  /> </div>
 
 **As a result of our work, it takes up to 0.5 seconds to filter out the right transport listings and display them to users**. In 1 minute the system analyzes over a thousand orders to display only the ones that meet all the requirements.
 
 However, **that’s just the one challenge of that job. Another was a product design** which aim was to support users and help them navigate smoothly through the app.
 
 Drawing from our experience in product design for this project, we want to share our insights on creating products tailored to the shipping industry.
+
+<div class="image"><img src="/images/tms_social_preview.png" alt="Transport Management System" title="Transport Management System"  /> </div>
 
 ## Challenges for transportation management system design
 
