@@ -42,7 +42,7 @@ slug: remote-patient-monitoring
 show_team: true
 show_case_study: true
 show on homepage: false
-published: false
+published: true
 language: en
 ---
 <TitleWithIcon sectionTitle="key features built by Bright Inventions:" titleIcon="/images/icons_features_svg.svg" titleIconAlt="features" />
