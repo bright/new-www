@@ -17,7 +17,7 @@ description: The future of healthcare lies in remote medical care. With the
   vital signs become alarming, the algorithm will trigger an alert, recommending
   the initiation of emergency procedures.
 hero_image: /images/ehealth_remote_case_study.png
-Hero Image_alt: Revolutionizing Healthcare with NHS-Certified Bluetooth Devices
+Hero Image_alt: Transforming Healthcare with NHS-Certified Bluetooth Devices
 social_media_previev: /images/fb_preview_patient_remote_control.png
 social_media_previev_alt: Remote Patient Monitoring
 bar_achievements:
