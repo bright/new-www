@@ -94,3 +94,5 @@ Our team faced the formidable challenge of integrating various devices with dist
 * **Spirometer**: a device that measures the volume of air inhaled and exhaled by a human’s lungs.
 * **Stethoscope**: known as the primary doctor’s tool, can now be used remotely by other caregivers at care homes and nursing homes.
 * **Wearable continuous monitoring devices**: a device worn for example on a patient’s arm that monitors the vital signs in real-time, 24 hours a day.
+
+<div class="image"><img src="/images/pulse_oximeter.png" alt="Pulse oximeter" title="Pulse oximeter"  /> </div>
