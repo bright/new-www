@@ -31,7 +31,6 @@ tags:
   - customized software
   - mobile app
   - eHealth
-  - web app
 title_team: the team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your product
@@ -98,7 +97,7 @@ Our team faced the formidable challenge of integrating various devices with dist
 
 <div class="image"><img src="/images/pulse_oximeter.png" alt="Pulse oximeter" title="Pulse oximeter"  /> </div>
 
-<TitleWithIcon sectionTitle="revolutionizing healthcare access with telemedicine: video consultations via Android app" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with telemedicine: video consultations via Android app" />
+<TitleWithIcon sectionTitle="revolutionizing healthcare access with video consultations" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with video consultations" />
 
 We have answered the call from Camascope, providing a seamless video consultation feature within their Android app. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
@@ -106,7 +105,7 @@ Telemedicine saves patients' and doctors' time, allowing physicians to monitor m
 
 <div class="image"><img src="/images/telemedicine.png" alt="Telemedicine" title="Telemedicine"  /> </div>
 
-<TitleWithIcon sectionTitle="supporting the client in setting healthcare security standards: NHS &amp;amp;amp; ISO 27001" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting healthcare security standards: NHS & ISO 27001" />
+<TitleWithIcon sectionTitle="supporting the client in setting ISO healthcare standards" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting ISO healthcare standards" />
 
 Camascope has become an official NHS supplier, and they are also an ISO 27001 accredited company. Bright Inventions, as a company developing systems for healthcare clients, was required to follow a variety of security protocols. 
 
