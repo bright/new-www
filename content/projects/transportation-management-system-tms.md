@@ -151,6 +151,6 @@ MVP launch ensured the client that the system has the potential to change the da
 
 <TitleWithIcon sectionTitle="what is next for Mako TSL and Bright Inventions?" titleIcon="/images/icon_title_products.svg" titleIconAlt="result" />
 
-We’re delighted that t**he client decided to continue our cooperation after a successful MVP launch – both web and mobile versions**. Now we focus on scaling the product in the post-MVP phase. Our team implements new features such as the electronic circulation of documents.
+We’re delighted that **the client decided to continue our cooperation after a successful MVP launch – both web and mobile versions**. Now we focus on scaling the product in the post-MVP phase. Our team implements new features such as the electronic circulation of documents.
 
 We still work closely with end users, quickly responding to their feedback. Open communications, flexibility, and adaptability are the key factors of this successful digitalization at MAKO TSL.
