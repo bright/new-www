@@ -98,3 +98,9 @@ Our team faced the formidable challenge of integrating various devices with dist
 <div class="image"><img src="/images/pulse_oximeter.png" alt="Pulse oximeter" title="Pulse oximeter"  /> </div>
 
 <TitleWithIcon sectionTitle="revolutionizing healthcare access with telemedicine: video consultations via Android app" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with telemedicine: video consultations via Android app" />
+
+We have answered the call from Camascope, providing a seamless video consultation feature within their Android app. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
+
+Telemedicine saves patients' and doctors' time, allowing physicians to monitor more patients at the same time. Telemedicine opened a new, safer way to consult a doctor, especially during a pandemic, so we are extremely proud that we got a chance to implement that feature for our client.
+
+<div class="image"><img src="/images/telemedicine.png" alt="Telemedicine" title="Telemedicine"  /> </div>
