@@ -37,7 +37,7 @@ title_case_study: more success stories
 title_contact: let's talk about your product
 description_contact: Do you want to discuss your eHealth solution? Fill out the
   form below and we'll get back to you in 48 hours.
-order: 99
+order: 4
 slug: remote-patient-monitoring
 show_team: true
 show_case_study: true
@@ -57,7 +57,7 @@ language: en
 
 <TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_stack_logo.svg","alt":"Kotlin"},{"src":"/images/adobexdstack_logo.svg"}]' />
+<Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_stack_logo.svg","alt":"Kotlin"},{"src":"/images/jetpackcompose.svg","alt":"Jetpack Libraries"}]' />
 
 **Android development:** Dagger, Kotlin Coroutines, Jetpack Libraries
 
