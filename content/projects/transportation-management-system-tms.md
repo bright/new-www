@@ -125,6 +125,8 @@ The challenge confronting the product design team was the **development of a use
 
 We addressed this challenge by implementing best UX practices such as: **representing a mental model** of end users, designing a **navigation flow based on familiar user patterns**, and incorporating an **information hierarchy** to include as much data as possible on a screen without overwhelming users.
 
+Read our blog post to find more recommendations for [UX design for the transport management software](/blog/ux-design-transport-management-software-case-study/).
+
 ### Mobile development for effective communication between freight forwarders and drivers
 
 **Following the triumphant MVP launch of a web application, our client chose to partner with us for mobile app development**. We have been hard at work crafting a **native Android mobile app**, and the MVP has just hit the market. Exciting times ahead!
