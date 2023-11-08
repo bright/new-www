@@ -17,7 +17,7 @@ description: The future of healthcare lies in remote medical care. With the
   vital signs become alarming, the algorithm will trigger an alert, recommending
   the initiation of emergency procedures.
 hero_image: /images/ehealth_remote_case_study.png
-Hero Image_alt: Revolutionizing Healthcare with NHS-Certified Bluetooth Devices
+Hero Image_alt: Transforming Healthcare with NHS-Certified Bluetooth Devices
 social_media_previev: /images/fb_preview_patient_remote_control.png
 social_media_previev_alt: Remote Patient Monitoring
 bar_achievements:
@@ -31,7 +31,7 @@ tags:
   - customized software
   - mobile app
   - eHealth
-  - web app
+  - product design
 title_team: the team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your product
@@ -60,17 +60,18 @@ language: en
 <Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_stack_logo.svg","alt":"Kotlin"},{"src":"/images/adobexdstack_logo.svg"}]' />
 
 **Android development:** Dagger, Kotlin Coroutines, Jetpack Libraries
+
 **Product design**: Adobe XD
 
-<TitleWithIcon sectionTitle="unlocking digital health: addressing staff shortages &amp;amp;amp; rising health challenge" titleIcon="/images/icon_title_about.svg" titleIconAlt="unlocking digital health: addressing staff shortages & rising health challenge" />
+<TitleWithIcon sectionTitle="addressing staff shortages and rising health challenges" titleIcon="/images/icon_title_about.svg" titleIconAlt="addressing staff shortages & rising health challenge" />
 
 Healthcare systems worldwide face unprecedented challenges, highlighted by the strains of the COVID-19 pandemic. Notably, the United Kingdom has grappled with staffing shortages, with [NHS workforce data](https://lordslibrary.parliament.uk/staff-shortages-in-the-nhs-and-social-care-sectors/#heading-1) revealing an increase in overall and nursing vacancies despite a slight increase in medical positions.
 
 In parallel, a surge in patients grappling with chronic illnesses and mental health concerns poses a pressing concern. The WHO reports that depression affects [264 million people globally,](https://www.who.int/news-room/fact-sheets/detail/mental-disorders) while [6 out of 10 U.S. adults suffer from chronic conditions](https://www.cdc.gov/chronicdisease/about/index.htm). Conventional healthcare services struggle to meet this growing demand, emphasizing the pivotal role of digitalization in offering effective solutions.
 
-<TitleWithIcon sectionTitle="empowering healthcare transformation: Camascope&amp;amp;#39;s RPM &amp;amp;amp; telemedicine revolution" titleIcon="/images/icon_title_goal.svg" titleIconAlt="empowering healthcare transformation: Camascope's RPM & telemedicine revolution" />
+<TitleWithIcon sectionTitle="empowering healthcare transformation: RPM and telemedicine" titleIcon="/images/icon_title_goal.svg" titleIconAlt="empowering healthcare transformation: RPM and telemedicine" />
 
-**[Camascope](https://www.camascope.com/), formerly known as VCare, is a pioneering British health tech company** that has fully embraced the potential of Remote Patient Monitoring (RPM) and telemedicine. **Their collaboration with Bright Inventions has already yielded a robust Medicine Administration Record (eMAR) system**, available on both Android and iOS platforms. This eMAR system effectively connects pharmacies with care homes, facilitating the secure, efficient, and compliant distribution of medication.
+**[Camascope](https://www.camascope.com/), formerly known as VCare, is a pioneering British health tech company** that has fully embraced the potential of **Remote Patient Monitoring (RPM) and telemedicine**. **Their collaboration with Bright Inventions has already yielded a robust Medicine Administration Record (eMAR) system**, available on both Android and iOS platforms. This eMAR system effectively connects pharmacies with care homes, facilitating the secure, efficient, and compliant distribution of medication.
 
 **Camascope has set us a new challenge: the development of a pilot RPM system for the Android platform**. This groundbreaking system allows for the remote monitoring of patients' vital signs, enabling physicians to oversee their patients' health remotely. This innovation not only revolutionizes post-discharge care, allowing patients to leave the hospital earlier while still receiving continuous medical attention but also optimizes daily care in numerous care homes throughout the United Kingdom.
 
@@ -78,7 +79,7 @@ In parallel, a surge in patients grappling with chronic illnesses and mental hea
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle="the challenge of integrating multiple Bluetooth devices into a single system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
+<TitleWithIcon sectionTitle="the challenge of integrating Bluetooth devices into a system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
 
 Our team faced the formidable challenge of integrating various devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. Additionally, the team developed an algorithm capable of swiftly detecting whether a patient's vital signs indicate an immediate need for assistance. The data is transmitted to the doctor, and an alert is generated, suggesting that the patient considers calling an ambulance.
 
@@ -97,7 +98,7 @@ Our team faced the formidable challenge of integrating various devices with dist
 
 <div class="image"><img src="/images/pulse_oximeter.png" alt="Pulse oximeter" title="Pulse oximeter"  /> </div>
 
-<TitleWithIcon sectionTitle="revolutionizing healthcare access with telemedicine: video consultations via Android app" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with telemedicine: video consultations via Android app" />
+<TitleWithIcon sectionTitle="revolutionizing healthcare access with video consultations" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with video consultations" />
 
 We have answered the call from Camascope, providing a seamless video consultation feature within their Android app. Patients have a scheduled consultation in the app; all they need to do is join the meeting, enabling the camera and microphone. 
 
@@ -105,7 +106,7 @@ Telemedicine saves patients' and doctors' time, allowing physicians to monitor m
 
 <div class="image"><img src="/images/telemedicine.png" alt="Telemedicine" title="Telemedicine"  /> </div>
 
-<TitleWithIcon sectionTitle="supporting the client in setting healthcare security standards: NHS &amp; ISO 27001" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting healthcare security standards: NHS & ISO 27001" />
+<TitleWithIcon sectionTitle="supporting the client in setting ISO healthcare standards" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting ISO healthcare standards" />
 
 Camascope has become an official NHS supplier, and they are also an ISO 27001 accredited company. Bright Inventions, as a company developing systems for healthcare clients, was required to follow a variety of security protocols. 
 
