@@ -104,3 +104,11 @@ We have answered the call from Camascope, providing a seamless video consultatio
 Telemedicine saves patients' and doctors' time, allowing physicians to monitor more patients at the same time. Telemedicine opened a new, safer way to consult a doctor, especially during a pandemic, so we are extremely proud that we got a chance to implement that feature for our client.
 
 <div class="image"><img src="/images/telemedicine.png" alt="Telemedicine" title="Telemedicine"  /> </div>
+
+<TitleWithIcon sectionTitle="supporting the client in setting healthcare security standards: NHS &amp; ISO 27001" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting healthcare security standards: NHS & ISO 27001" />
+
+Camascope has become an official NHS supplier, and they are also an ISO 27001 accredited company. Bright Inventions, as a company developing systems for healthcare clients, was required to follow a variety of security protocols. 
+
+Being a company strongly focused on security, we adhere to necessary restrictions, such as obtaining an information security policy updated every 6 months. We have security-related job responsibilities and accountabilities. We conduct regular inventories of important information assets, and employees who need to be granted access are first screened regarding their legal status according to Polish and EU standards.
+
+<TitleWithIcon sectionTitle="the outcome of Camascope and Bright Inventions collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="the outcome of Camascope and Bright Inventions collaboration" />
