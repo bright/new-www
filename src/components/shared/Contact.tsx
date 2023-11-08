@@ -229,15 +229,15 @@ export const Contact: FC<ContactProps> = ({
               <label>
                 <TickIcon />
               </label>
-              &nbsp;{t('I accept the', { ns: 'other copy' })}&nbsp;
+
             </CheckboxFieldContainer>
-            {/* &nbsp;I accept the&nbsp; */}
+            <span>{t('I accept the', { ns: 'other copy' })}{' '}
             <a href={routeLinks.privacyPolicy} target='_blank' className='has-text-black'>
               <b>
                 <u>{t('Privacy Policy', { ns: 'other copy' })}</u>
               </b>
             </a>{' '}
-            *
+              {t('and agree to receive communications from Bright Inventions.', { ns: 'other copy' })}*</span>
           </PrivacyPolicyCheckboxContainer>
 
           <RequiredMessage>{t('*fields required', { ns: 'other copy' })}</RequiredMessage>
