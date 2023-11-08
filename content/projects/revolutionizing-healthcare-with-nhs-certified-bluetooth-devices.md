@@ -57,7 +57,7 @@ language: en
 
 <TitleWithIcon sectionTitle="stack" titleIcon="/images/skills.svg" titleIconAlt="bright" />
 
-<Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_stack_logo.svg","alt":"Kotlin"},{"src":"/images/jetpackcompose.svg","alt":"Jetpack Libraries"},{"src":"/images/adobexdstack_logo.svg","alt":"AdobeXD"}]' />
+<Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/bluetooth_stack_logo.svg","alt":"Bluetooth"},{"src":"/images/adobexdstack_logo.svg","alt":"AdobeXD"}]' />
 
 **Android development:** Dagger, Kotlin Coroutines, Jetpack Libraries
 
