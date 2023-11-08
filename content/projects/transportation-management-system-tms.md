@@ -139,8 +139,7 @@ It is essential to highlight the significance of product design in the context o
 
 <TitleWithIcon sectionTitle="the outcome of Bright Inventions and MAKO TSL collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="client’s perspective" />
 
-\
-**MVP launch ensured the client that the system has the potential to change the daily work** on their team.
+MVP launch ensured the client that the system has the potential to change the daily work on their team. **MAKO TSL is on the verge of a complete digital transformation**. At this moment **90% of daily transport management operations are done with the new system**.
 
 **Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **it takes up to 0.5 seconds to filter out the right transport orders and display them to users**. **Over 1,000 transport listings are analyzed in 1 minute** and the system displays only the ones that meet all the requirements. **Before that, the filtering process had to be done manually**.
 
