@@ -79,7 +79,7 @@ In parallel, a surge in patients grappling with chronic illnesses and mental hea
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
-<TitleWithIcon sectionTitle="the challenge of integrating multiple Bluetooth devices into a single system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
+<TitleWithIcon sectionTitle="the challenge of integrating Bluetooth devices into a system" titleIcon="/images/two_flags.svg" titleIconAlt="the challenge" />
 
 Our team faced the formidable challenge of integrating various devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. Additionally, the team developed an algorithm capable of swiftly detecting whether a patient's vital signs indicate an immediate need for assistance. The data is transmitted to the doctor, and an alert is generated, suggesting that the patient considers calling an ambulance.
 
