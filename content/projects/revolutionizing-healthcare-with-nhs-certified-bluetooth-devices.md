@@ -60,15 +60,16 @@ language: en
 <Gallery images='[{"src":"/images/android_stack_logo.svg","alt":"Android"},{"src":"/images/kotlin_stack_logo.svg","alt":"Kotlin"},{"src":"/images/adobexdstack_logo.svg"}]' />
 
 **Android development:** Dagger, Kotlin Coroutines, Jetpack Libraries
+
 **Product design**: Adobe XD
 
-<TitleWithIcon sectionTitle="unlocking digital health: addressing staff shortages &amp;amp;amp; rising health challenge" titleIcon="/images/icon_title_about.svg" titleIconAlt="unlocking digital health: addressing staff shortages & rising health challenge" />
+<TitleWithIcon sectionTitle="unlocking digital health: addressing staff shortages &amp;amp;amp;amp; rising health challenge" titleIcon="/images/icon_title_about.svg" titleIconAlt="unlocking digital health: addressing staff shortages & rising health challenge" />
 
 Healthcare systems worldwide face unprecedented challenges, highlighted by the strains of the COVID-19 pandemic. Notably, the United Kingdom has grappled with staffing shortages, with [NHS workforce data](https://lordslibrary.parliament.uk/staff-shortages-in-the-nhs-and-social-care-sectors/#heading-1) revealing an increase in overall and nursing vacancies despite a slight increase in medical positions.
 
 In parallel, a surge in patients grappling with chronic illnesses and mental health concerns poses a pressing concern. The WHO reports that depression affects [264 million people globally,](https://www.who.int/news-room/fact-sheets/detail/mental-disorders) while [6 out of 10 U.S. adults suffer from chronic conditions](https://www.cdc.gov/chronicdisease/about/index.htm). Conventional healthcare services struggle to meet this growing demand, emphasizing the pivotal role of digitalization in offering effective solutions.
 
-<TitleWithIcon sectionTitle="empowering healthcare transformation: Camascope&amp;amp;#39;s RPM &amp;amp;amp; telemedicine revolution" titleIcon="/images/icon_title_goal.svg" titleIconAlt="empowering healthcare transformation: Camascope's RPM & telemedicine revolution" />
+<TitleWithIcon sectionTitle="empowering healthcare transformation: Camascope&amp;amp;amp;#39;s RPM &amp;amp;amp;amp; telemedicine revolution" titleIcon="/images/icon_title_goal.svg" titleIconAlt="empowering healthcare transformation: Camascope's RPM & telemedicine revolution" />
 
 **[Camascope](https://www.camascope.com/), formerly known as VCare, is a pioneering British health tech company** that has fully embraced the potential of Remote Patient Monitoring (RPM) and telemedicine. **Their collaboration with Bright Inventions has already yielded a robust Medicine Administration Record (eMAR) system**, available on both Android and iOS platforms. This eMAR system effectively connects pharmacies with care homes, facilitating the secure, efficient, and compliant distribution of medication.
 
@@ -105,7 +106,7 @@ Telemedicine saves patients' and doctors' time, allowing physicians to monitor m
 
 <div class="image"><img src="/images/telemedicine.png" alt="Telemedicine" title="Telemedicine"  /> </div>
 
-<TitleWithIcon sectionTitle="supporting the client in setting healthcare security standards: NHS &amp; ISO 27001" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting healthcare security standards: NHS & ISO 27001" />
+<TitleWithIcon sectionTitle="supporting the client in setting healthcare security standards: NHS &amp;amp; ISO 27001" titleIcon="/images/three_flags.svg" titleIconAlt="supporting the client in setting healthcare security standards: NHS & ISO 27001" />
 
 Camascope has become an official NHS supplier, and they are also an ISO 27001 accredited company. Bright Inventions, as a company developing systems for healthcare clients, was required to follow a variety of security protocols. 
 
