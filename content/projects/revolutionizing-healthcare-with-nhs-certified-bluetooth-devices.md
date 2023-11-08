@@ -96,3 +96,5 @@ Our team faced the formidable challenge of integrating various devices with dist
 * **Wearable continuous monitoring devices**: a device worn for example on a patient’s arm that monitors the vital signs in real-time, 24 hours a day.
 
 <div class="image"><img src="/images/pulse_oximeter.png" alt="Pulse oximeter" title="Pulse oximeter"  /> </div>
+
+<TitleWithIcon sectionTitle="revolutionizing healthcare access with telemedicine: video consultations via Android app" titleIcon="/images/icon_title_products.svg" titleIconAlt="revolutionizing healthcare access with telemedicine: video consultations via Android app" />
