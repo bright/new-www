@@ -9,7 +9,7 @@ our_service:
   - product design
 layout: project
 project_id: Remote Patient Monitoring
-title: Revolutionizing Healthcare with NHS-Certified Bluetooth Devices
+title: Transforming Healthcare with NHS-Certified Bluetooth Devices
 image: /images/case-study_cover_remote_monitoring.png
 description: The future of healthcare lies in remote medical care. With the
   system we had the privilege to develop for Camascope, that future is already a
