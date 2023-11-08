@@ -51,7 +51,7 @@ show on homepage: false
 published: true
 language: en
 ---
-## Main features developed by Bright Inventions
+<TitleWithIcon sectionTitle="main features developed by Bright Inventions" titleIcon="/images/icons_features_svg.svg" titleIconAlt="main features developed by Bright Inventions" />
 
 * **Importing freight listings** from popular transport marketplaces.
 * **Filtering out listings** that don’t match the basic criteria (weight and size of the load, route details, etc.).
