@@ -69,7 +69,7 @@ Healthcare systems worldwide face unprecedented challenges, highlighted by the s
 
 In parallel, a surge in patients grappling with chronic illnesses and mental health concerns poses a pressing concern. The WHO reports that depression affects [264 million people globally,](https://www.who.int/news-room/fact-sheets/detail/mental-disorders) while [6 out of 10 U.S. adults suffer from chronic conditions](https://www.cdc.gov/chronicdisease/about/index.htm). Conventional healthcare services struggle to meet this growing demand, emphasizing the pivotal role of digitalization in offering effective solutions.
 
-<TitleWithIcon sectionTitle="empowering healthcare transformation: Camascope&amp;amp;amp;amp;#39;s RPM &amp;amp;amp;amp;amp; telemedicine revolution" titleIcon="/images/icon_title_goal.svg" titleIconAlt="empowering healthcare transformation: Camascope's RPM & telemedicine revolution" />
+<TitleWithIcon sectionTitle="empowering healthcare transformation: RPM and telemedicine" titleIcon="/images/icon_title_goal.svg" titleIconAlt="empowering healthcare transformation: RPM and telemedicine" />
 
 **[Camascope](https://www.camascope.com/), formerly known as VCare, is a pioneering British health tech company** that has fully embraced the potential of Remote Patient Monitoring (RPM) and telemedicine. **Their collaboration with Bright Inventions has already yielded a robust Medicine Administration Record (eMAR) system**, available on both Android and iOS platforms. This eMAR system effectively connects pharmacies with care homes, facilitating the secure, efficient, and compliant distribution of medication.
 
