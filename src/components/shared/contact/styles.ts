@@ -227,7 +227,7 @@ export const PrivacyPolicyCheckboxContainer = styled(TextRegular)({
          display: 'flex',
          flexDirection: 'row',
          alignItems: 'center',
-         flexWrap: 'wrap',
+         flexWrap: 'nowrap',
          justifyContent: 'flex-start',
 
          color: variables.color.text,
