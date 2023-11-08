@@ -36,7 +36,7 @@ height: 100%;
 const LyviaAndClutchIcons = () => {
     return (
       <CustomSection paddingProps='35px 0 0 12px ' paddingLaptop='35px 0 0 12px' paddingTabletXL='35px 0 0 12px' paddingTablet='30px 0 0 12px' paddingMobileProps='30px 0 0 12px' >
-        <FlexWrapper desktopGap='30px' desktopDirection='column' tabletDirection='row'>
+        <FlexWrapper desktopGap='30px' desktopDirection='column' >
           <IconLink href='https://www.lyviagroup.com'
             target='_blank'
             rel='noopener noreferrer nofollow'>
