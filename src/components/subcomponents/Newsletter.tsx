@@ -59,41 +59,43 @@ const FormWrapper = styled.div`
 `
 
 export default function Newsletter() {
-  const status: string = useScript('https://app.getresponse.com/view_webform_v2.js?u=QX16N&webforms_id=hiz1B')
   const { width } = useWindowSize()
   const breakpoint = 992
 
   return (
     <>
-      {status === 'ready' && (
-        <NewsletterWrapper>
-          {width > breakpoint && (
-            <StaticImage
-              src='../../../static/images/newsletter.png'
-              alt='Newsletter'
-              className='newsimage'
-              quality={100}
-            />
-          )}
-          {width <= breakpoint && (
-            <StaticImage
-              src='../../../static/images/newsletter_mobile.png'
-              alt='Newsletter'
-              className='newsimage'
-              quality={100}
-            />
-          )}
+      Dupa
+      <script type="text/javascript" src="../../../src/getresponse.js" data-webform-id="hiz1B"></script>
+      Blada
+      {/*{status === 'ready' && (*/}
+      {/*  <NewsletterWrapper>*/}
+      {/*    {width > breakpoint && (*/}
+      {/*      <StaticImage*/}
+      {/*        src='../../../static/images/newsletter.png'*/}
+      {/*        alt='Newsletter'*/}
+      {/*        className='newsimage'*/}
+      {/*        quality={100}*/}
+      {/*      />*/}
+      {/*    )}*/}
+      {/*    {width <= breakpoint && (*/}
+      {/*      <StaticImage*/}
+      {/*        src='../../../static/images/newsletter_mobile.png'*/}
+      {/*        alt='Newsletter'*/}
+      {/*        className='newsimage'*/}
+      {/*        quality={100}*/}
+      {/*      />*/}
+      {/*    )}*/}
 
-          <FormWrapper>
-            <div className='iframe-wrapper'>
-              <iframe
-                className='responsive-iframe'
-                src='https://app.getresponse.com/site2/5d4d6f8b6908199482efeb84d0edf9a5/?u=QX16N&webforms_id=hiz1B'
-              ></iframe>
-            </div>
-          </FormWrapper>
-        </NewsletterWrapper>
-      )}
+      {/*    <FormWrapper>*/}
+      {/*      <div className='iframe-wrapper'>*/}
+      {/*        <iframe*/}
+      {/*          className='responsive-iframe'*/}
+      {/*          src='https://app.getresponse.com/site2/5d4d6f8b6908199482efeb84d0edf9a5/?u=QX16N&webforms_id=hiz1B'*/}
+      {/*        ></iframe>*/}
+      {/*      </div>*/}
+      {/*    </FormWrapper>*/}
+      {/*  </NewsletterWrapper>*/}
+      {/*)}*/}
     </>
   )
 }
