@@ -59,7 +59,6 @@ export default function Newsletter() {
     <NewsletterWrapper>
       {image}
       <Script>{`
-        console.log('GrTracking');
         window['__GetResponseAnalyticsObject'] = 'GrTracking'
         window['GrTracking'] = window['GrTracking'] || function() {
         (window['GrTracking'].q = window['GrTracking'].q || []).push(arguments)
