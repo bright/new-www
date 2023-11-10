@@ -49,7 +49,7 @@ There is no way to provide a universal set of rules that will make sense for eve
 
 It's worth mentioning **budgets should be unambiguous**. There is no use in a rule saying: "our home page must load and get interactive in less than 5 seconds on a slow device." What's a slow device? Three-year high-end device or maybe a $100 smartphone released 5 years ago? I recommend doing a short research and using an exact model instead.
 
-There may be a different set of budgets enforced for different kinds of pages in your application. It's usually crucial for your home page to load as quickly as possible, but users may wait a little more for other screens.
+There may be **a different set of budgets enforced for different kinds of pages** in your application. It's usually crucial for your home page to load as quickly as possible, but users may wait a little more for other screens.
 
 It's not the easiest task to define a reasonable budget. Check out [performancebudget.io](https://performancebudget.io/), which will serve as a visual aid with presets for different network speeds.
 
@@ -75,13 +75,13 @@ With budgets in place, you can say that bringing this additional carousel of ima
 
 ## We have to go over the budget!
 
-Congratulations - you have enforced a strict budget in your application, and it has already prevented several changes that would degrade performance by accident. However, as products tend to grow over time, you have been adding more and more features to yours, and now you cannot do it anymore because your budget is exhausted. What should you do?
+Congratulations - you have enforced a strict budget in your application, and it has already prevented several changes that would degrade performance by accident. However, as products tend to grow over time, you have been adding more and more features to yours, and now **you cannot do it anymore because your budget is exhausted**. What should you do?
 
-You have to compromise. You can either:
+**You have to compromise. You can either:**
 
-* get back to previously added features and optimize them
-* decide to remove some feature to make place for a new one (or postpone interactivity with it)
-* completely abandon your idea and don't ship another feature
+* get back to previously added features and optimize them,
+* decide to remove some feature to make place for a new one (or postpone interactivity with it),
+* completely abandon your idea and don't ship another feature.
 
 As with a financial budget, when you go over the limit, then you have to reduce spending on leisure and move funds to bills instead. The same principle applies here. That's why **it's so important to have both engineers, designers, and stakeholders on the same page**. We all have to cooperate to answer the question and provide the best possible experience.
 
