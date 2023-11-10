@@ -9,7 +9,7 @@ meaningfullyUpdatedAt: 2023-11-10T12:04:00.823Z
 title: The Role of Performance Budgets in Modern Frontend Development
 layout: post
 image: /images/blog_performance_budget.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
