@@ -4,9 +4,9 @@ tags:
   - frontend
   - layered architecture
   - performance
-date: 2023-10-31T10:12:14.072Z
-meaningfullyUpdatedAt: 2023-10-31T10:12:14.095Z
-title: The Role of Performance Budgets in Modern Software Development
+date: 2023-11-10T06:51:08.407Z
+meaningfullyUpdatedAt: 2023-11-10T06:51:14.956Z
+title: The Role of Performance Budgets in Modern Frontend Development
 layout: post
 image: /images/blog_performance_budget.png
 hidden: false
@@ -14,13 +14,13 @@ comments: true
 published: true
 language: en
 ---
-**Performance is a vital component of a good user experience, and we have learned it affects business metrics. In other words, an application that doesn't perform well will cost you greatly. How can one make sure that performance will stay at acceptable levels? In order to achieve a goal, you have to define it first. That's when performance budgets come into play.**
+**Performance is a vital component of a good user experience, and we have learned it affects business metrics. In other words, an application that doesn't perform well will cost you greatly. How can one ensure that performance will remain at acceptable levels? To achieve a goal, you must first define it. That's when performance budgets come into play.**
 
 <div class="image"><img src="/images/blog_performance_budget.png" alt="Performance budget" title="Performance budget"  /> </div>
 
 ## Budgets to rescue
 
-**A performance budget is a limit that all developers agree not to exceed in any circumstances**. Basically, you can treat it like a monthly financial budget. If you want to make something stand out, then you will probably have to let something else go. It's fluid - depending on the business requirements for this month, you can decide to adjust it and, for example, reduce the number of images in exchange for additional JavaScript being shipped. **Budgeting is not only about the size of images, scripts, and other resources. This principle may also be applied to metrics like FCP, TTI, or scores reported by tools like Lighthouse**.
+**A performance budget is a limit that all developers agree not to exceed in any circumstances**. Basically, you can treat it like a monthly financial budget. If you want to make something stand out, then you will probably have to let something else go. It's fluid - depending on the business requirements for this month, you can decide to adjust it. For example, you can reduce the number of images in exchange for additional JavaScript being shipped. **Budgeting is not only about the size of images, scripts, and other resources. This principle may also be applied to metrics like FCP (First Contentful Paint), TTI (Time To Interactive), or scores reported by tools like Lighthouse**.
 
 Having budgets defined for your application may spark a discussion about performance and get everyone on your team on the same page. They make designers limit high-resolution images and fonts until they are absolutely necessary. On the other hand, software engineers may easily evaluate the performance of different libraries and frameworks and compare them based on their influence on budgets.
 
@@ -32,11 +32,11 @@ Rules based on this type of metrics are the easiest to establish and enforce. Th
 
 ### Milestone timings
 
-In order to keep the user experience at an acceptable level, it may be better to **focus on time-based metrics like Time to Interactive (TTI) or First Contentful Paint (FCP)**. You can also define your metrics depending on what is the most important action from the perspective of your users. It's also possible to combine multiple milestones together to even better describe the path of a user in the application.
+In order to keep the user experience at an acceptable level, it may be better to **focus on time-based metrics like Time to Interactive or First Contentful Paint**. You can also define your metrics depending on what is the most important action from the perspective of your users. It's also possible to combine multiple milestones together to even better describe the path of a user in the application.
 
 ### Rule-based metrics
 
-**These metrics use performance scores calculated by tools like Lightho**use, which you can use as guidelines. What's even better, such tools provide hints on how to make your application perform better.
+**These metrics use performance scores calculated by tools like Lighthouse**, which you can use as guidelines. What's even better, such tools provide hints on how to make your application perform better.
 
 ## Defining a budget
 
