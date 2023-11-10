@@ -36,4 +36,4 @@ Our team at Bright Inventions loves to share their knowledge. What’s a better 
 
 ## Subscribe on YouTube
 
-<YouTubeEmbed url='https://www.youtube.com/watch?v=HWdczeJEgRg&list=PLXQKLMVoAz1SvqLYMEtcWKMFwt6N6gqwT&ab_channel=BrightDevs' height="360px" youTubeProps={{style: {maxWidth: "600px", display: "block", margin: "auto" }}}  />
+<YouTubeEmbed url='https://www.youtube.com/watch?v=HWdczeJEgRg&list=PLXQKLMVoAz1SvqLYMEtcWKMFwt6N6gqwT&ab_channel=BrightDevs'   />
