@@ -83,7 +83,7 @@ In parallel, a surge in patients grappling with chronic illnesses and mental hea
 
 Our team faced the formidable challenge of integrating various devices with distinct Software Development Kits (SDKs) into a cohesive system. With our Android team's expertise, we successfully harmonized these disparate SDKs into a unified system. Additionally, the team developed an algorithm capable of swiftly detecting whether a patient's vital signs indicate an immediate need for assistance. The data is transmitted to the doctor, and an alert is generated, suggesting that the patient considers calling an ambulance.
 
-<div class="image"><img src="/images/patient_parameters_app_new.png" alt="undefined" title="undefined"  /> </div>
+<div class="image"><img src="/images/patient_parameters_app_new.png" alt="App mockup" title="It is not a real implemented design. It is a mockup example created for the purpose of a case study."  /> </div>
 
 *It is not a real implemented design. It is a mockup example created for the purpose of a case study.*
 
