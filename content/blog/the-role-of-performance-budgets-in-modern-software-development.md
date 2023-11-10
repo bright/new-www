@@ -4,12 +4,12 @@ tags:
   - frontend
   - layered architecture
   - performance
-date: 2023-11-10T06:51:08.407Z
-meaningfullyUpdatedAt: 2023-11-10T06:51:14.956Z
+date: 2023-11-10T12:04:00.124Z
+meaningfullyUpdatedAt: 2023-11-10T12:04:00.823Z
 title: The Role of Performance Budgets in Modern Frontend Development
 layout: post
 image: /images/blog_performance_budget.png
-hidden: false
+hidden: true
 comments: true
 published: true
 language: en
