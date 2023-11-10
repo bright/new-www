@@ -35,7 +35,7 @@ title_team: team behind the project
 title_case_study: more success stories
 title_contact: let's talk about your solution
 description_contact: Book a free consultation in 48 hours.
-order: 4
+order: 7
 slug: system-for-restaurants-mobile
 show_team: true
 show_case_study: true
