@@ -47,7 +47,7 @@ There is no way to provide a universal set of rules that will make sense for eve
 
 **The best thing you can do is to analyze your competition and see how they perform**. Then in the worst-case scenario, you will match them and provide a similar experience to your users. On the other hand, you may enforce lower limits and outperform them - it's up to you and your team.
 
-It's worth mentioning budgets should be unambiguous. There is no use in a rule saying: "our home page must load and get interactive in less than 5 seconds on a slow device." What's a slow device? Three-year high-end device or maybe a $100 smartphone released 5 years ago? I recommend doing a short research and using an exact model instead.
+It's worth mentioning **budgets should be unambiguous**. There is no use in a rule saying: "our home page must load and get interactive in less than 5 seconds on a slow device." What's a slow device? Three-year high-end device or maybe a $100 smartphone released 5 years ago? I recommend doing a short research and using an exact model instead.
 
 There may be a different set of budgets enforced for different kinds of pages in your application. It's usually crucial for your home page to load as quickly as possible, but users may wait a little more for other screens.
 
