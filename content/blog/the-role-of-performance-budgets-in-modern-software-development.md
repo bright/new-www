@@ -22,7 +22,7 @@ language: en
 
 **A performance budget is a limit that all developers agree not to exceed in any circumstances**. Basically, you can treat it like a monthly financial budget. If you want to make something stand out, then you will probably have to let something else go. It's fluid - depending on the business requirements for this month, you can decide to adjust it. For example, you can reduce the number of images in exchange for additional JavaScript being shipped. **Budgeting is not only about the size of images, scripts, and other resources. This principle may also be applied to metrics like FCP (First Contentful Paint), TTI (Time To Interactive), or scores reported by tools like Lighthouse**.
 
-Having budgets defined for your application may spark a discussion about performance and get everyone on your team on the same page. They make designers limit high-resolution images and fonts until they are absolutely necessary. On the other hand, software engineers may easily evaluate the performance of different libraries and frameworks and compare them based on their influence on budgets.
+Having budgets defined for your application may spark a discussion about performance and get everyone on your team on the same page. They make designers limit high-resolution images and fonts until they are absolutely necessary. On the other hand, **software engineers may easily evaluate the performance of different libraries and frameworks and compare them based on their influence on budgets**.
 
 ## Choosing metrics
 
@@ -40,10 +40,10 @@ In order to keep the user experience at an acceptable level, it may be better to
 
 ## Defining a budget
 
-There is no way to provide a universal set of rules that will make sense for every application. However, there are some good defaults to start with:
+There is no way to provide a universal set of rules that will make sense for every application. However, **there are some good defaults to start with**:
 
-* Under 5 seconds Time to Interactive
-* Under 170 KB of critical-path resources
+* under 5 seconds Time to Interactive,
+* under 170 KB of critical-path resources.
 
 **The best thing you can do is to analyze your competition and see how they perform**. Then in the worst-case scenario, you will match them and provide a similar experience to your users. On the other hand, you may enforce lower limits and outperform them - it's up to you and your team.
 
