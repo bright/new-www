@@ -59,7 +59,9 @@ There are many tools to choose from when it comes to enforcing budgeting in your
 
 The most basic one is **[bundlesize](https://github.com/siddharthkp/bundlesize), which will check if your bundle stays within reasonable boundaries**. This way, engineers in your team won't be able to merge any pull requests that contain additional imports of expensive libraries.
 
-If you want to make sure that your builds stay green in the Lighthouse audits, then **you should familiarize yourself with [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci)**. It makes it possible to **run audits in your CI pipeline and define rules that should never be broken**. To name one, you can say that your application is meant to score over 90 points in every audit, and then your CI will fail when any score drops below the threshold.
+If you want to make sure that your builds stay green in the Lighthouse audits, then **you should familiarize yourself with [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci)**. It makes it possible to **run audits in your CI pipeline and define rules that should never be broken**. To name one, you can say that your application is meant to score over 90 points in every audit, and then your CI will fail when any score drops below the threshold. What's even better is that it's possible to limit asset size or make assertions on your custom metrics. It's a versatile tool, a must-have for every web developer.
+
+It's worth mentioning that [Webpack](https://webpack.js.org/) is also capable of enforcing asset size limits. In its default configuration, this bundler will display a warning in the console if some scripts or images are too large. However, you can reconfigure it to throw an error instead. Consult [its documentation](https://webpack.js.org/configuration/performance/) to learn how to enable this feature.
 
 ## Discussing budgets with decision-makers
 
