@@ -67,6 +67,7 @@ export default function Newsletter() {
       <Script
         async
         crossOrigin={'use-credentials'}
+        strategy="idle"
         src='https://ga.getresponse.com/script/483051bf-18f4-4900-9a14-5aa75f9cf66e/ga.js'
       />
       <div dangerouslySetInnerHTML={getResponseFormHtml}></div>
