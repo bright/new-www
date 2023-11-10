@@ -54,7 +54,7 @@ language: en
 
 <TitleWithIcon sectionTitle="skills" titleIcon="/images/skills.svg" titleIconAlt="skills" />
 
-<Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/node_stack_logosvg.svg","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin.png","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
+<Gallery images='[{"src":"/images/react_stack_logo.svg","alt":"React"},{"src":"/images/node_stack_logosvg.svg","alt":"Node.js"},{"src":"/images/nestjs_stack_logo.svg","alt":"NestJS"},{"src":"/images/kotlin_new_stack_logo.svg","alt":"Kotlin"},{"src":"/images/aws_stack_logo.svg","alt":"AWS"}]' />
 
 **Web Frontend:** React.js + Redux, MaterialUI + styled-components
 
