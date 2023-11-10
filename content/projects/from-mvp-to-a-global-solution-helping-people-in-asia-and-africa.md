@@ -88,6 +88,8 @@ The system didn't monitor the payment transactions the card was used in. Still, 
 
 The system was developed on two platforms. **The web application acts as the back office application, mainly displaying events logs and the issued cards' status**. Meanwhile, the **Android mobile application enables scanning of the cards**, sending data between the on-the-ground staff and the offices, and recording when they are distributed to the end users. In this project, **Bright Inventions handled every aspect of the project**, from product design work all the way to backend and frontend development to deployment and maintenance.
 
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
+
 <TitleWithIcon sectionTitle="goal: easy adjustment to local laws and regulations" titleIcon="/images/icon_title_goal.svg" titleIconAlt="Goal: easy adjustment to local laws and regulations" />
 
 The project goal was to **create an automated, transparent, and uniform system allowing the delivery of payment instruments to people in need**. The system has to work globally; therefore, it has to be easily adjustable to local law and the specific situations of different communities in Africa and Asia. The system also requires to **support card distribution in poor internet coverage areas**, making an offline mode a must.
@@ -107,6 +109,8 @@ The social impact this solution would make meant the discovery and prototyping p
 We also had to **account for people without the proper ID required by the local authorities**. Some of the refugees in question left their homes so quickly that they did not have any documents at all. Each of these instances affected the flow of the app, creating more work for the product design team.
 
 **Close cooperation with the agency employees was vital during the prototyping and discovery phase**. These people work on the ground and understand the local processes and circumstances the refugees face. The information they shared through a series of interviews was crucial in understanding the solution needed. These interviews allowed us to customize the final product to the needs of the staff working across the humanitarian agency.
+
+<AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
 <TitleWithIcon sectionTitle="result of collaboration: a system with dozen implementations" titleIcon="/images/icon_result_svg.svg" titleIconAlt="Result of collaboration" />
 
