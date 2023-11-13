@@ -75,7 +75,7 @@ language: en
 
 [MAKO TSL](https://makotsl.com/) started a collaboration with Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. In 2022 they executed over 180,000 shipping orders.
 
-Like many logistics companies, MAKO TSL struggled with endless paperwork, and tons of Excel sheets, which defined the inefficient core of their transport management system. They aimed for a change, hoping for a successful digitalization of their daily work. But, **finding an off-the-shelf solution that truly fit their unique needs was a challenge**. **That's when they partnered with Bright Inventions to craft a tailor-made Transport Management System.** 
+Like many logistics companies our client struggled with endless paperwork, and tons of Excel sheets, which defined the inefficient core of their transport management system. They aimed for a change, hoping for a successful digitalization of their daily work. But, **finding an off-the-shelf solution that truly fit their unique needs was a challenge**. **That's when they partnered with Bright Inventions to craft a tailor-made Transport Management System.** 
 
 <AnchorLink href='#contactForm' text='let’s talk about your project'/>
 
