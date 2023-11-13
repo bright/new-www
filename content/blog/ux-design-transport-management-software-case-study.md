@@ -19,7 +19,7 @@ language: en
 
 <div class="image"><img src="/images/tms_ux_cover.png" alt="UX Transport Management System" title="UX Transport Management System"  /> </div>
 
-MAKO TSL has reached out to us to build [customized software for freight forwarders](https://brightinventions.pl/projects/transportation-management-system/) to speed up and eventually automate the process of finding suitable transport orders and matching them with the right drivers.
+The client has reached out to us to build [customized software for freight forwarders](https://brightinventions.pl/projects/transportation-management-system/) to speed up and eventually automate the process of finding suitable transport orders and matching them with the right drivers.
 
 **As a result of our work, it takes up to 0.5 seconds to filter out the right transport listings and display them to users**. In 1 minute the system analyzes over a thousand orders to display only the ones that meet all the requirements.
 
