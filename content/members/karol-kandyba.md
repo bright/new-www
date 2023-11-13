@@ -6,8 +6,8 @@ slug: karol-ka
 name: Karol Kandyba
 short_name: Karol
 email: karol.kandyba@brightinventions.pl
-bio: Android Developer
-description: Android Developer
+bio: Senior Android Developer
+description: Senior Android Developer
 avatar: /images/brightdev_business_2.png
 avatar_hover: /images/brightdev_passion_2.png
 published: true
