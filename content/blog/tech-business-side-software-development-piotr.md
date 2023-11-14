@@ -31,6 +31,10 @@ Answering that question isn't straightforward. To begin, I should mention that *
 
 Later, I took several courses on Android development. Eventually, my company received an order to build an Android app for a bank, providing me with the opportunity to work on a commercial project.
 
+<div class="image"><img src="/images/piotr_bright_passion-2-.png" alt="Bright dev after hours" title="Bright dev after hours"  /> </div>
+
+<center>Bright dev after hours</center>
+
 ## How did you land in Bright Inventions?
 
 I sold my business and chose to freelance for a while and work on my own apps. In the end, freelancing wasn't the perfect solution for me, as I love to work in a team, so I began searching for a full-time job. 
