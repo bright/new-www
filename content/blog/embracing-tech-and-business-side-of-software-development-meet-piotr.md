@@ -48,3 +48,18 @@ Another challenge was quite satisfying too. **My colleagues and I had the opport
 **We spent several months establishing the right architecture, but it was worth it**. Sometimes, when you opt for the newest technologies, you may face challenges due to their immaturity. In this case, we tackled the challenge smartly, making decisions that now contribute to the project's smooth functionality. Adding new features to this app is a pleasure, not only from my experience but also from the experiences of other developers who were part of this project.
 
 ## Having owned a business, does it help you with daily interactions with our clients?
+
+Absolutely! Having been an entrepreneur for over 10 years has provided me with a great deal of empathy for our clients. I have a deeper understanding of certain business processes, and **I particularly enjoy projects with challenges because they not only pique my interest but also drive me**. The longer the journey, the more satisfying it is to reach the destination, don’t you think? I always try to embrace the process and understand both sides.
+
+## I'm aware that sports have become a crucial part of your life. Tell us what you train and why.
+
+It all began when the pandemic struck in 2020. **Bright Inventions' founders, [Daniel](/about-us/daniel/) and [Michał](/about-us/michal/), offered us a new work benefit – free workouts led by a professional triathlete, [Bartosz Banach](https://bartoszbanach.pl/)**. It was a life-changing moment for me, especially during the pandemic when we were forced to stay home, and being active definitely helped me get through it. We could choose from running, mountain biking (MTB), and swimming workouts. I started to attend MTB and running workouts. 
+
+Biking has certainly become an integral part of my life. Before 2020, I cycled like most people – occasionally. Now, I ride 200 to 400 kilometers a month. In addition to cycling, I run, do yoga, take long walks, and go to the gym.
+
+**Let me share my Garmin stats for October 2023:**
+
+* 351 kilometers of cycling,
+* 108 kilometers of active strolling,
+* 96 kilometers of running,
+* 3 hours of yoga.
