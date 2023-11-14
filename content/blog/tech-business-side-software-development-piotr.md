@@ -5,8 +5,8 @@ tags:
   - Android
   - update
   - inspiration
-date: 2023-11-14T13:09:37.580Z
-meaningfullyUpdatedAt: 2023-11-14T13:09:38.338Z
+date: 2023-11-14T14:12:35.089Z
+meaningfullyUpdatedAt: 2023-11-14T14:12:35.605Z
 title: Embracing Tech and Business Side of Software Development. Meet Piotr
 layout: post
 image: /images/brightstorypiotrr.png
