@@ -14,3 +14,5 @@ language: en
 **Piotr is an experienced entrepreneur and Android Developer who always brings much more than lines of code. His broad perspective helps to truly create the software that matters. Explore how his passion for music led him to Android development. Also, find out how sports activities transformed his life and work.**
 
 <div class="image"><img src="/images/brightstorypiotrcollage.png" alt="Android developer career story" title="Android developer career story"  /> </div>
+
+## Before you joined Bright Inventions you were an entrepreneur. Tell us more about your business.
