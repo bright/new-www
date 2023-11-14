@@ -29,10 +29,10 @@ social_media_previev_alt: Transportation Management System case study
 bar_achievements:
   - number: "42"
     label: countries
-  - number: "1"
-    label: minute to analyze over 1,000 listings
-  - number: "0.5"
-    label: second to filter out and display the right listing
+  - number: 1 min
+    label: to analyze 1,000 listings
+  - number: 0.5 sec
+    label: to filter out and display the listing
 tags:
   - web app
   - mobile app
