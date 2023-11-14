@@ -74,6 +74,8 @@ Biking has certainly become an integral part of my life. Before 2020, I cycled l
 
 <div class="image"><img src="/images/yoga_bright_inventions.png" alt="Yoga at Bright Inventions" title="Yoga at Bright Inventions"  /> </div>
 
+<center>Friday yoga at Bright Inventions’ office</center>
+
 ## What have sports brought to your life?
 
 Discipline, without a doubt. Regardless of the weather, I have to stick to my training routine. It has certainly changed me.
@@ -83,6 +85,8 @@ Discipline, without a doubt. Regardless of the weather, I have to stick to my tr
 ## Why is Spain your regular vacation spot?
 
 <div class="image"><img src="/images/piotr_passion_spain.png" alt="Spain" title="Exploring Spain on the bike"  /> </div>
+
+<center>Exploring Spain on the bike</center>
 
 **I’ve always been in awe of Spanish culture, language, and cuisine**. The fact that the Spanish language is relatively easy to learn fascinated me. I started learning it in college, and having a roommate from Spain for a while helped me a lot.
 
