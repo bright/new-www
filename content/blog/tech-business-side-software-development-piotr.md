@@ -10,7 +10,7 @@ meaningfullyUpdatedAt: 2023-11-14T13:09:38.338Z
 title: Embracing Tech and Business Side of Software Development. Meet Piotr
 layout: post
 image: /images/brightstorypiotrr.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
