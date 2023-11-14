@@ -82,6 +82,8 @@ Discipline, without a doubt. Regardless of the weather, I have to stick to my tr
 
 ## Why is Spain your regular vacation spot?
 
+<div class="image"><img src="/images/piotr_passion_spain.png" alt="Spain" title="Exploring Spain on the bike"  /> </div>
+
 **I’ve always been in awe of Spanish culture, language, and cuisine**. The fact that the Spanish language is relatively easy to learn fascinated me. I started learning it in college, and having a roommate from Spain for a while helped me a lot.
 
 Spain is a **perfect destination for MTB enthusiasts**. The country offers breathtaking views, and its mountainous terrain ensures you'll face some challenges along the way. Mountain biking entails hard work, and I love it. Combining it with stunning scenery, delicious food, and the company of friends, it’s the ideal holiday for me.
