@@ -1,6 +1,10 @@
 ---
 author: piotr_r
 secondAuthor: izabela
+tags:
+  - Android
+  - update
+  - inspiration
 date: 2023-11-14T12:12:34.839Z
 meaningfullyUpdatedAt: 2023-11-14T12:12:35.123Z
 title: Embracing Tech and Business Side of Software Development. Meet Piotr
@@ -63,3 +67,15 @@ Biking has certainly become an integral part of my life. Before 2020, I cycled l
 * 108 kilometers of active strolling,
 * 96 kilometers of running,
 * 3 hours of yoga.
+
+## What have sports brought to your life?
+
+Discipline, without a doubt. Regardless of the weather, I have to stick to my training routine. It has certainly changed me.
+
+**Sports also help clear the mind**. This is something I've heard from many people at Bright Inventions. When I'm struggling with a task, what do I do? I shut off my computer and go for a walk or a workout. When I return, I often have new ideas for solving my challenges.
+
+## Why is Spain your regular vacation spot?
+
+**I’ve always been in awe of Spanish culture, language, and cuisine**. The fact that the Spanish language is relatively easy to learn fascinated me. I started learning it in college, and having a roommate from Spain for a while helped me a lot.
+
+Spain is a **perfect destination for MTB enthusiasts**. The country offers breathtaking views, and its mountainous terrain ensures you'll face some challenges along the way. Mountain biking entails hard work, and I love it. Combining it with stunning scenery, delicious food, and the company of friends, it’s the ideal holiday for me.
