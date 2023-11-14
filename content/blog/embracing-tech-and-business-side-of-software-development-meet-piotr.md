@@ -31,4 +31,20 @@ Later, I took several courses on Android development. Eventually, my company rec
 
 I sold my business and chose to freelance for a while and work on my own apps. In the end, freelancing wasn't the perfect solution for me, as I love to work in a team, so I began searching for a full-time job. 
 
-I recall coming across a job offer from Bright Inventions on a job board, but I didn't apply at that time. Soon after that, I heard wonderful things about Bright Inventions (and [Ula](/about-us/ula/) in particular) from a friend, so I decided to submit my application. This happened over four years ago. 🙂 Now I cannot imagine another career path for me.
+I recall coming across a job offer from Bright Inventions on a job board, but I didn't apply at that time. Soon after that, **I heard wonderful things about Bright Inventions (and [Ula](/about-us/ula/) in particular)** from a friend, so I decided to submit my application. This happened over four years ago. 🙂 Now I cannot imagine another career path for me.
+
+## How would you sum up these 4 years at Bright Inventions?
+
+I can say that it has been a period of rapid and profound learning. I don't just mean technical knowledge, but I've also deeply dived into the business aspects of software development. 
+
+**It's remarkable how quickly I gained a substantial amount of trust**. During my second month here, I already experienced a sense of freedom combined with responsibility. I have always been a person who ensures meeting all deadlines and who self-imposes a goal-oriented working model. It's wonderful that the team at Bright Inventions quickly recognized that and almost immediately placed their trust in me.
+
+## What are the biggest challenges you faced during these last 4 years?
+
+One of them occurred shortly after I joined Bright Inventions. I became a part of a highly rewarding project that aimed to **build a solution for humanitarian aid**. It felt amazing to build software that impacts and improves people’s lives. However, it wasn't easy. I had to learn a lot of new things quickly. **It was the first time I worked on integrating peripheral devices and implemented biometric authentication methods**.
+
+Another challenge was quite satisfying too. **My colleagues and I had the opportunity to build the entire architecture from scratch for a new Android app** we were supposed to create for our client. We were trusted to choose the right technologies. We aimed to implement everything new that Android had to offer, including Jetpack Compose and multi-module architecture.
+
+**We spent several months establishing the right architecture, but it was worth it**. Sometimes, when you opt for the newest technologies, you may face challenges due to their immaturity. In this case, we tackled the challenge smartly, making decisions that now contribute to the project's smooth functionality. Adding new features to this app is a pleasure, not only from my experience but also from the experiences of other developers who were part of this project.
+
+## Having owned a business, does it help you with daily interactions with our clients?
