@@ -45,6 +45,8 @@ I can say that it has been a period of rapid and profound learning. I don't just
 
 **It's remarkable how quickly I gained a substantial amount of trust**. During my second month here, I already experienced a sense of freedom combined with responsibility. I have always been a person who ensures meeting all deadlines and who self-imposes a goal-oriented working model. It's wonderful that the team at Bright Inventions quickly recognized that and almost immediately placed their trust in me.
 
+<div class="image"><img src="/images/piotr_quote_responsibility_bright.png" alt="Piotr's quote" title="Piotr's quote"  /> </div>
+
 ## What are the biggest challenges you faced during these last 4 years?
 
 One of them occurred shortly after I joined Bright Inventions. I became a part of a highly rewarding project that aimed to **build a solution for humanitarian aid**. It felt amazing to build software that impacts and improves people’s lives. However, it wasn't easy. I had to learn a lot of new things quickly. **It was the first time I worked on integrating peripheral devices and implemented biometric authentication methods**.
