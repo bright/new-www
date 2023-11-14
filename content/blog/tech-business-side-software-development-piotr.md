@@ -5,12 +5,12 @@ tags:
   - Android
   - update
   - inspiration
-date: 2023-11-14T13:09:37.580Z
-meaningfullyUpdatedAt: 2023-11-14T13:09:38.338Z
+date: 2023-11-14T14:12:35.089Z
+meaningfullyUpdatedAt: 2023-11-14T14:12:35.605Z
 title: Embracing Tech and Business Side of Software Development. Meet Piotr
 layout: post
 image: /images/brightstorypiotrr.png
-hidden: true
+hidden: false
 comments: true
 published: true
 language: en
@@ -36,6 +36,8 @@ Later, I took several courses on Android development. Eventually, my company rec
 I sold my business and chose to freelance for a while and work on my own apps. In the end, freelancing wasn't the perfect solution for me, as I love to work in a team, so I began searching for a full-time job. 
 
 I recall coming across a job offer from Bright Inventions on a job board, but I didn't apply at that time. Soon after that, **I heard wonderful things about Bright Inventions (and [Ula](/about-us/ula/) in particular)** from a friend, so I decided to submit my application. This happened over four years ago. 🙂 Now I cannot imagine another career path for me.
+
+<div class='block-button'><h2>Join Piotr!</h2><div>We are looking for an experienced Senior Android Developer who is open and not afraid of sharing views and ideas openly with the team and clients.</div><a href="/jobs/senior-android-developer/"><button>apply now</button></a></div>
 
 ## How would you sum up these 4 years at Bright Inventions?
 
@@ -74,6 +76,8 @@ Biking has certainly become an integral part of my life. Before 2020, I cycled l
 
 <div class="image"><img src="/images/yoga_bright_inventions.png" alt="Yoga at Bright Inventions" title="Yoga at Bright Inventions"  /> </div>
 
+<center>Friday yoga at Bright Inventions’ office</center>
+
 ## What have sports brought to your life?
 
 Discipline, without a doubt. Regardless of the weather, I have to stick to my training routine. It has certainly changed me.
@@ -83,6 +87,8 @@ Discipline, without a doubt. Regardless of the weather, I have to stick to my tr
 ## Why is Spain your regular vacation spot?
 
 <div class="image"><img src="/images/piotr_passion_spain.png" alt="Spain" title="Exploring Spain on the bike"  /> </div>
+
+<center>Exploring Spain on the bike</center>
 
 **I’ve always been in awe of Spanish culture, language, and cuisine**. The fact that the Spanish language is relatively easy to learn fascinated me. I started learning it in college, and having a roommate from Spain for a while helped me a lot.
 
