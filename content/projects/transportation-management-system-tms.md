@@ -73,7 +73,7 @@ language: en
 
 <TitleWithIcon sectionTitle="about TMS project" titleIcon="/images/three_flags.svg" titleIconAlt="bright" />
 
-[MAKO TSL](https://makotsl.com/) started a collaboration with Bright Inventions to **build a customized tool for their internal transport management department**. MAKO TSL offers fast and safe forwarding and transport services to companies all over Europe. In 2022 they executed over 180,000 shipping orders.
+The client started a collaboration with Bright Inventions to **build a customized tool for their internal transport management department**. It offers one of the fastest and safest forwarding and transport services to companies all over Europe. In 2022 they executed over 180,000 shipping orders.
 
 Like many logistics companies our client struggled with endless paperwork, and tons of Excel sheets, which defined the inefficient core of their transport management system. They aimed for a change, hoping for a successful digitalization of their daily work. But, **finding an off-the-shelf solution that truly fit their unique needs was a challenge**. **That's when they partnered with Bright Inventions to craft a tailor-made Transport Management System.** 
 
@@ -139,9 +139,9 @@ It is essential to highlight the significance of product design in the context o
 
 **The app makes it a breeze to upload transport order documents**. Our design is all about being clear and user-friendly, with big, eye-catching buttons that set it apart from the ordinary business apps you come across every day.
 
-<TitleWithIcon sectionTitle="the outcome of Bright Inventions and MAKO TSL collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="client’s perspective" />
+<TitleWithIcon sectionTitle="the outcome of collaboration" titleIcon="/images/icon_result_svg.svg" titleIconAlt="client’s perspective" />
 
-MVP launch ensured the client that the system has the potential to change the daily work on their team. **MAKO TSL is on the verge of a complete digital transformation**. At this moment **90% of daily transport management operations are done with the new system**.
+MVP launch ensured the client that the system has the potential to change the daily work on their team. **The company is on the verge of a complete digital transformation**. At this moment **90% of daily transport management operations are done with the new system**.
 
 **Our team managed to meet the crucial client’s requirement** – delivering a fast transport listings filtering system. As a result, **it takes up to 0.5 seconds to filter out the right transport orders and display them to users**. **Over 1,000 transport listings are analyzed in 1 minute** and the system displays only the ones that meet all the requirements. **Before that, the filtering process had to be done manually**.
 
@@ -151,8 +151,8 @@ MVP launch ensured the client that the system has the potential to change the da
 
 **Grzegorz Gajewski, Development & Training Manager @ MAKO TSL**
 
-<TitleWithIcon sectionTitle="what is next for Mako TSL and Bright Inventions?" titleIcon="/images/icon_title_products.svg" titleIconAlt="result" />
+<TitleWithIcon sectionTitle="what lies ahead for our collaboration with a leading logistics company?" titleIcon="/images/icon_title_products.svg" titleIconAlt="result" />
 
 We’re delighted that **the client decided to continue our cooperation after a successful MVP launch – both web and mobile versions**. Now we focus on scaling the product in the post-MVP phase. Our team implements new features such as the electronic circulation of documents.
 
-We still work closely with end users, quickly responding to their feedback. Open communications, flexibility, and adaptability are the key factors of this successful digitalization at MAKO TSL.
+We still work closely with end users, quickly responding to their feedback. Open communications, flexibility, and adaptability are the key factors of this successful digitalization. 
