@@ -37,7 +37,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<div class="image"><img src="/images/brightstory_pregnancy_app.png" alt="pregnancy health tech app" title="Pregnancy app"  /> </div>
+<div class="image">![pregnancy health tech app](../../static/images/brightstory_pregnancy_app.png "Pregnancy app")</div>
 
 ## Main tech elements
 

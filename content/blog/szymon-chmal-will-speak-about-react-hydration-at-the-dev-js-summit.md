@@ -16,7 +16,7 @@ language: en
 ---
 **Are you planning to attend the dev.js Summit (online) Autumn Edition? Don’t miss a talk by Szymon Chmal, Senior Frontend Developer at Bright Inventions. Join the online event comfortably from your office or home on 12 October 2023. Tickets are free!**
 
-<div class="image"><img src="/images/szymon_devjs.png" alt="Szymon Chmal dev.js speaker" title="Szymon Chmal dev.js speaker"  /> </div>
+<div class="image">![Szymon Chmal dev.js speaker](../../static/images/szymon_devjs.png "Szymon Chmal dev.js speaker")</div>
 
 ## Szymon’s talk – The New Face of Hydration
 

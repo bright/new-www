@@ -15,7 +15,7 @@ language: en
 ---
 **My previous blogpost explored [leaving the comfort zone](/blog/stepping-out-of-your-comfort-zone/). Inspired by my team colleague [Ula](https://brightinventions.pl/about-us/ula/) and her recent [blogposts](/blog/4-interpersonal-skills-that-can-save-your-software-team-time-and-money/), as a former business owner I will share some thoughts on comfort zones in business.** 
 
-<div class="image"><img src="/images/comfort_zone_blogpost-4-.png" alt="truths in business" title="truths in business"  /> </div>
+<div class="image">![truths in business](../../static/images/comfort_zone_blogpost-4-.png "truths in business")</div>
 
 ## **The Regret of Silence**
 
@@ -30,7 +30,7 @@ In the fast-paced world, effective communication is key. Hesitating to hear or v
 
 It's a crucial aspect that could have steered my - and probably yours - journey differently.
 
-<div class="image"><img src="/images/7e0c1ff5-a2b1-42e1-babd-d119cb313565.webp" alt="client feedback" title="feedback"  /> </div>
+<div class="image">![client feedback](../../static/images/7e0c1ff5-a2b1-42e1-babd-d119cb313565.webp "feedback")</div>
 
 ## **Unblocking Stagnation in Business Development**
 
@@ -53,7 +53,7 @@ Instead of changing individuals, address uncomfortable truths to bring sustainab
 \
 This fosters a deeper team understanding and paves the way for collaborative problem-solving.
 
-<div class="image"><img src="/images/teamwork-quotes-abraham-lincoln.png" alt="lincoln's quote" title="lincoln's quote"  /> </div>
+<div class="image">![lincoln's quote](../../static/images/teamwork-quotes-abraham-lincoln.png "lincoln's quote")</div>
 
 ## **Conclusion: The Power of Uncomfortable Truths**
 
@@ -65,7 +65,7 @@ Reflecting on my own journey, I've come to realize that the ability to speak unc
 
 Remember, that embracing discomfort might be the key to unlocking your team's full potential.
 
-<div class="image"><img src="/images/73v1na.jpg" alt="undefined" title="undefined"  /> </div>\
+<div class="image">![undefined](../../static/images/73v1na.jpg "undefined")</div>\
 \
 source: \
 https://www.extension.iastate.edu/agdm/wholefarm/html/c6-56.html

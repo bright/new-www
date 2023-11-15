@@ -24,7 +24,7 @@ During the meeting, we will dive into the world of [Domain-Driven Design (DDD)](
 
 [Jakub Pilimon](https://www.linkedin.com/in/jakub-pilimon-449b7984/) is an experienced programmer, architect, and trainer. Currently serving as the Principal Technologist at VMware, he also works as a trainer and consultant at Bottega IT Minds. With a focus on engineering, Jakub is a passionate advocate of Domain-Driven Design and an evolutionary approach to software architecture. Outside of work, he enjoys reading popular science literature, engaging in kitesurfing, and going on motorcycle rides.
 
-<div class="image"><img src="/images/ddd_blog_post.png" alt="Domain-Driven Design meetup Jakub Pilimon" title="Domain-Driven Design meetup Jakub Pilimon"  /> </div>
+<div class="image">![Domain-Driven Design meetup Jakub Pilimon](../../static/images/ddd_blog_post.png "Domain-Driven Design meetup Jakub Pilimon")</div>
 
 ## See you at the DDD meetup!
 

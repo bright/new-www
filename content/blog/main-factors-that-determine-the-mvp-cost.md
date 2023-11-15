@@ -16,7 +16,7 @@ language: en
 ---
 **How much does building MVP cost? There is no easy answer to that question. It’s like buying a car. You can buy an operating car for less than 10 000 dollars. Yet you can also buy a Ferrari for over 1 million dollars. It depends on how advanced the product you have in mind. Check out the main factors that affect the cost of developing MVP.**
 
-<div class="image"><img src="/images/blog_mvp_cost_cover.png" alt="MVP cost" title="MVP cost"  /> </div>
+<div class="image">![MVP cost](../../static/images/blog_mvp_cost_cover.png "MVP cost")</div>
 
 ## How advanced your app should be
 

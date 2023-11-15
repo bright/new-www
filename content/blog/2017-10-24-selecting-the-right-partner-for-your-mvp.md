@@ -34,7 +34,7 @@ You run a startup and therefore things change rapidly. Each day brings new ideas
 
 You should be able to work with them as if they were part of your team. Effectively they should feel that they are a part of your team. There's a catch: you also need to treat them as a part of your team.
 
-<div class="image"><img src="/images/bright_team.JPG" alt="Bright Inventions team" title="undefined"  /> </div>
+<div class="image">![Bright Inventions team](../../static/images/bright_team.JPG "undefined")</div>
 
 ## 4. Work out a good payment model
 

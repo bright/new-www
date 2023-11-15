@@ -47,7 +47,7 @@ April 13, 2023, Gdańsk Entrepreneurship Incubator STARTER
 
 ### [Piotr Mionskowski](https://www.linkedin.com/in/piotr-mionskowski-b2858516/), Partner and Team Leader @ Bright Inventions
 
-<div class="image"><img src="/images/aws_tricity_speaker_piotr.png" alt="Piotr Mionskowski AWS Tricity" title="Piotr Mionskowski AWS Tricity"  /> </div>
+<div class="image">![Piotr Mionskowski AWS Tricity](../../static/images/aws_tricity_speaker_piotr.png "Piotr Mionskowski AWS Tricity")</div>
 
 Piotr is a senior fullstack developer and tech lead with over 12 years of professional experience in backend APIs, distributed systems, backend frameworks, and databases. He possesses an exceptional ability to learn almost every new technology that appears. Always up-to-date. Always focused.
 
@@ -61,7 +61,7 @@ OpenTelemetry enables new opportunities for monitoring production systems. With 
 
 ### [Paweł Piwosz](https://www.linkedin.com/in/pawelpiwosz), DevOps Institute Ambassador, AWS Community Builder & CD.Foundation Ambassador
 
-<div class="image"><img src="/images/aws_tricity_speaker_pawel.png" alt="Paweł Piwosz AWS Tricity" title="Paweł Piwosz AWS Tricity"  /> </div>
+<div class="image">![Paweł Piwosz AWS Tricity](../../static/images/aws_tricity_speaker_pawel.png "Paweł Piwosz AWS Tricity")</div>
 
 DevOps, leader, mentor, trainer. His main focus in DevOps is CALMS as a framework. He tries to build a better understanding of DevOps as a company’s “driving force”.
 
@@ -73,7 +73,7 @@ The story is about whether migration to AWS (or any cloud in general) is a solut
 
 ### [Somanath Dange](https://www.linkedin.com/in/somanath-dange/), DevOps Consultant @ Amazon Web Services
 
-<div class="image"><img src="/images/aws_tricity_speaker_somanath.png" alt="Somanath Dange AWS Tricity" title="Somanath Dange AWS Tricity"  /> </div>
+<div class="image">![Somanath Dange AWS Tricity](../../static/images/aws_tricity_speaker_somanath.png "Somanath Dange AWS Tricity")</div>
 
 He has a total of 11.5 years of experience working in the IT industry as a DevOps Engineer. He has good experience working with AWS Cloud, solving complex problems. He has worked on many DevOps tools like terraform, GitLab, GitHub, Docker, Jenkins. His interest is in Cloud and he loves working on Cloud.
 
@@ -89,7 +89,7 @@ More on his presentation:
 
 ### [Maciej Makarewicz](https://www.linkedin.com/in/maciej-makarewicz-5889abb5/), DevOps Engineer @ LCloud, owner @ Makaron-IT
 
-<div class="image"><img src="/images/aws_tricity_speaker_maciej.png" alt="Maciej Makarewicz AWS Tricity" title="Maciej Makarewicz AWS Tricity"  /> </div>
+<div class="image">![Maciej Makarewicz AWS Tricity](../../static/images/aws_tricity_speaker_maciej.png "Maciej Makarewicz AWS Tricity")</div>
 
 Maciej provides computer service and consulting in cloud services and DevOps methodologies. In the IT industry for more than 10 years, a natural ability to expand his knowledge of computer science and electronics led him to complete an engineering degree in Bydgoszcz in Electronics and Telecommunications, followed by a master's degree in Computer Science at Gdansk University of Technology. 
 

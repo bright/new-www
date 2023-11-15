@@ -17,7 +17,7 @@ language: en
 ---
 CI/CD process is the backbone of every good performing team. It facilitates the development, testing, and deploying of an app.
 
-<div class="image"><img src="/images/mario_blog.png" alt="pipeline" title="undefined"  /> </div>
+<div class="image">![pipeline](../../static/images/mario_blog.png "undefined")</div>
 
 Let’s define behaviour of our CI/CD pipeline:
 

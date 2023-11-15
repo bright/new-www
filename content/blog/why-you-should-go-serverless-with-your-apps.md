@@ -17,7 +17,7 @@ language: en
 ---
 **Let’s explore the benefits of serverless computing and why it may be the best option for your business. Whether you represent a startup or a larger company, you’ll find benefits from serverless computing. Let’s dive in!**
 
-<div class="image"><img src="/images/serverless_blog.png" alt="Serverless - business perspective" title="undefined"  /> </div>
+<div class="image">![Serverless - business perspective](../../static/images/serverless_blog.png "undefined")</div>
 
 ## What is serverless computing?
 
@@ -67,7 +67,7 @@ Serverless computing allows startups to quickly **experiment with new ideas and 
 
 Serverless computing offers several benefits for larger companies. Let’s go through them.
 
-<div class="image"><img src="/images/cloud-remote-devops.png" alt="benefits of serverless computing" title="benefits of serverless computing"  /> </div>
+<div class="image">![benefits of serverless computing](../../static/images/cloud-remote-devops.png "benefits of serverless computing")</div>
 
 ### Reduced infrastructure costs
 

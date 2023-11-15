@@ -30,7 +30,7 @@ We have created a list of five things you may have always wanted to know about P
 
 Poland has been recognized as one of the leading countries in Central and Eastern Europe (CEE) for software development. The Future of IT report 2023 gives a regional overview of the IT sector in the region, available talent, costs as well as room for potential growth. Polish developers have gained prominence in the tech industry due to several factors. 
 
-<div class="image"><img src="/images/poland-leader-emerging-europe.png" alt="poland leader emerging europe" title="undefined"  /> </div>
+<div class="image">![poland leader emerging europe](../../static/images/poland-leader-emerging-europe.png "undefined")</div>
 
 ###### Source: https://emerging-europe.com/future-of-it
 
@@ -46,7 +46,7 @@ I am sure you have read some dreadful stories about how outsourcing to a foreign
 
 Take a look at Poland’s [English Proficiency Index](https://www.ef.com/wwen/epi/regions/europe/poland/) with the position in Europe 11 of 35, 13 out of 111 countries in the world today, and with the high proficiency as compared to Russia and China (so, the other two countries on the HackerRank podium):
 
-<div class="image"><img src="/images/english-proficiency-index.png" alt="english proficiency index " title="undefined"  /> </div>
+<div class="image">![english proficiency index ](../../static/images/english-proficiency-index.png "undefined")</div>
 
 ###### **Source:** https://www.ef.com/wwen/epi/regions/europe/poland
 

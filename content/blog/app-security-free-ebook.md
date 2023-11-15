@@ -41,7 +41,7 @@ We listed every mentioned tool so you can easily go through them and start testi
 
 ## Learn more about the author
 
-<div class="image"><img src="/images/rafal_story.png" alt="Rafał Hofman" title="Rafał Hofman"  /> </div>
+<div class="image">![Rafał Hofman](../../static/images/rafal_story.png "Rafał Hofman")</div>
 
 The ebook “25 Tools & Extra Tactics For App Security” was written by Rafał Hofman, Fullstack Developer at Bright Inventions. Rafał is a software developer with over 5 years of experience. He focuses on web security and specializes in Ethereum blockchain development.
 

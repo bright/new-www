@@ -221,7 +221,7 @@ This time there are two visitors defined. The UpdateParamNameVisitor is used by 
 
 The so-called 'next generation compilers' have been gaining more and more momentum recently. The revolution started with the Go language powering [ESBuild](https://esbuild.github.io/) and now it's mainly focused on Rust and tools like [SWC](https://swc.rs/). What's the point?  - one may ask. Well, back in the past, JavaScript was used to build small or medium-sized web pages. However, this changed years ago and **there are huge applications composed of hundreds of views and thousands of files** available on the market.
 
-<div class="image"><img src="/images/role-of-transpilers-benchmark.png" alt="A chart showing a major improvement in compilation time thanks to ESBuild and SWC when compared to TypeScript and Babel." title="undefined"  /> </div>
+<div class="image">![A chart showing a major improvement in compilation time thanks to ESBuild and SWC when compared to TypeScript and Babel.](../../static/images/role-of-transpilers-benchmark.png "undefined")</div>
 
 Source: [DataStation - Benchmarking esbuild, swc, tsc, and babel for React/JSX projects](https://datastation.multiprocess.io/blog/2021-11-13-benchmarking-esbuild-swc-typescript-babel.html)
 

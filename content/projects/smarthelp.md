@@ -51,7 +51,7 @@ show on homepage: false
 published: true
 language: en
 ---
-<div class="image"><img src="/images/smarthelp.png" alt="Emergency app" title="Emergency app"  /> </div>
+<div class="image">![Emergency app](../../static/images/smarthelp.png "Emergency app")</div>
 
 ## Main features
 

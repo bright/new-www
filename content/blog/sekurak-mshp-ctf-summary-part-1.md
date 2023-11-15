@@ -31,7 +31,7 @@ Instead of deobfuscation which might be too cumbersome, I had formatted the code
 
 After investigation, it looked like this function here could be executed (and this was also indicated in a hint to the task).
 
-<div class="image"><img src="/images/screenshot-2022-10-17-at-14.28.51.png" alt="deobf formatted" title="deobf code formatted"  /> </div>
+<div class="image">![deobf formatted](../../static/images/screenshot-2022-10-17-at-14.28.51.png "deobf code formatted")</div>
 
 I﻿ followed to Chrome dev tools and executed code in the console calling a function. Results? 
 
@@ -43,17 +43,17 @@ I﻿ have the flag!
 
 S﻿o in next task, we got page like this:
 
-<div class="image"><img src="/images/screencapture-172-105-146-185-1337-2022-10-17-14_52_21.png" alt="traversal page" title="traversal page"  /> </div>
+<div class="image">![traversal page](../../static/images/screencapture-172-105-146-185-1337-2022-10-17-14_52_21.png "traversal page")</div>
 
 A﻿s you can see, this is web app written in .NET. After clicking on one of the files, I got following view: 
 
-<div class="image"><img src="/images/screenshot-2022-10-17-at-14.52.39.png" alt="cv file" title="cv file"   /> </div>
+<div class="image">![cv file](../../static/images/screenshot-2022-10-17-at-14.52.39.png "cv file")</div>
 
 So it looks like files were referenced by the filename query param.
 
 After looking in the code, it looks like `..` path would throw Bad Request error. I guess this was protection of reusing know payloads for path traversal vulnerability by other contestants :D. Simple change from CV file to flag file given the expected result:
 
-<div class="image"><img src="/images/screenshot-2022-10-17-at-14.52.56.png" alt="traversal-flag" title="traversal-flag"  /> </div>
+<div class="image">![traversal-flag](../../static/images/screenshot-2022-10-17-at-14.52.56.png "traversal-flag")</div>
 
 B﻿ingo! 
 

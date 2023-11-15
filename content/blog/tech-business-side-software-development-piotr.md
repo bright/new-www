@@ -17,7 +17,7 @@ language: en
 ---
 **Piotr is an experienced entrepreneur and Android Developer who always brings much more than lines of code. His broad perspective helps to truly create the software that matters. Explore how his passion for music led him to Android development. Also, find out how sports activities transformed his life and work.**
 
-<div class="image"><img src="/images/brightstorypiotrcollage.png" alt="Android developer career story" title="Android developer career story"  /> </div>
+<div class="image">![Android developer career story](../../static/images/brightstorypiotrcollage.png "Android developer career story")</div>
 
 ## Before you joined Bright Inventions you were an entrepreneur. Tell us more about your business.
 
@@ -31,7 +31,7 @@ Answering that question isn't straightforward. To begin, I should mention that *
 
 Later, I took several courses on Android development. Eventually, my company received an order to build an Android app for a bank, providing me with the opportunity to work on a commercial project.
 
-<div class="image"><img src="/images/piotr_bright_passion-2-.png" alt="Bright dev after hours" title="Bright dev after hours"  /> </div>
+<div class="image">![Bright dev after hours](../../static/images/piotr_bright_passion-2-.png "Bright dev after hours")</div>
 
 <center>Bright dev after hours</center>
 
@@ -49,7 +49,7 @@ I can say that it has been a period of rapid and profound learning. I don't just
 
 **It's remarkable how quickly I gained a substantial amount of trust**. During my second month here, I already experienced a sense of freedom combined with responsibility. I have always been a person who ensures meeting all deadlines and who self-imposes a goal-oriented working model. It's wonderful that the team at Bright Inventions quickly recognized that and almost immediately placed their trust in me.
 
-<div class="image"><img src="/images/piotr_quote_responsibility_bright.png" alt="Piotr's quote" title="Piotr's quote"  /> </div>
+<div class="image">![Piotr's quote](../../static/images/piotr_quote_responsibility_bright.png "Piotr's quote")</div>
 
 ## What are the biggest challenges you faced during these last 4 years?
 
@@ -63,7 +63,7 @@ Another challenge was quite satisfying too. **My colleagues and I had the opport
 
 Absolutely! Having been an entrepreneur for over 10 years has provided me with a great deal of empathy for our clients. I have a deeper understanding of certain business processes, and **I particularly enjoy projects with challenges because they not only pique my interest but also drive me**. The longer the journey, the more satisfying it is to reach the destination, don’t you think? I always try to embrace the process and understand both sides.
 
-<div class="image"><img src="/images/piotr_quote_client.png" alt="Piotr's quote" title="Piotr's quote"  /> </div>
+<div class="image">![Piotr's quote](../../static/images/piotr_quote_client.png "Piotr's quote")</div>
 
 ## I'm aware that sports have become a crucial part of your life. Tell us what you train and why.
 
@@ -78,7 +78,7 @@ Biking has certainly become an integral part of my life. Before 2020, I cycled l
 * 96 kilometers of running,
 * 3 hours of yoga.
 
-<div class="image"><img src="/images/yoga_bright_inventions.png" alt="Yoga at Bright Inventions" title="Yoga at Bright Inventions"  /> </div>
+<div class="image">![Yoga at Bright Inventions](../../static/images/yoga_bright_inventions.png "Yoga at Bright Inventions")</div>
 
 <center>Friday yoga at Bright Inventions’ office</center>
 
@@ -90,7 +90,7 @@ Discipline, without a doubt. Regardless of the weather, I have to stick to my tr
 
 ## Why is Spain your regular vacation spot?
 
-<div class="image"><img src="/images/piotr_passion_spain.png" alt="Spain" title="Exploring Spain on the bike"  /> </div>
+<div class="image">![Spain](../../static/images/piotr_passion_spain.png "Exploring Spain on the bike")</div>
 
 <center>Exploring Spain on the bike</center>
 

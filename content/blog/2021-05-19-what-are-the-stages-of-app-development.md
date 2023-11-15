@@ -18,7 +18,7 @@ language: en
 ---
 **From an idea to a successful launch… There are 4 main stages of building an app. Learn more about all of software development steps.**
 
-<div class="image"><img src="/images/timeline_app_development_stages.png" alt="Software development stages and timeline" title="Timeline template by Yuhki Yamashita (licence CC BY 4.0)."  /> </div>
+<div class="image">![Software development stages and timeline](../../static/images/timeline_app_development_stages.png "Timeline template by Yuhki Yamashita (licence CC BY 4.0).")</div>
 
 <sub> [Timeline template by Yuhki Yamashita](https://www.figma.com/community/file/767777586184800315) (licence CC BY 4.0). </sub>
 

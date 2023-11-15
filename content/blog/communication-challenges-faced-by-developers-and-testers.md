@@ -16,7 +16,7 @@ language: en
 ---
 **There are many misunderstandings between testers and developers in their daily work. We’ve gathered our experiences to show you some common triggering situations that can be easily solved. It takes a bit of work from both sides but the friendly atmosphere at work is worth it.**
 
-<div class="image"><img src="/images/blog_post_cover_dev_tester.png" alt="Developer Tester Communication" title="undefined"  /> </div>
+<div class="image">![Developer Tester Communication](../../static/images/blog_post_cover_dev_tester.png "undefined")</div>
 
 ## How to report a bug?
 

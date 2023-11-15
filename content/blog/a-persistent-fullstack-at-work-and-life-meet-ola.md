@@ -17,7 +17,7 @@ language: en
 ---
 **Ola has been a programmer for over 4 years, starting her career with Java. She sets goals and always reaches them. She has practiced swimming and played the transverse flute most of her life. Do you want to know how she does it? Read the interview.**
 
-<div class="image"><img src="/images/brightstoryolazcollage.png" alt="A story of a fullstack developer" title="A story of a fullstack developer"  /> </div>
+<div class="image">![A story of a fullstack developer](../../static/images/brightstoryolazcollage.png "A story of a fullstack developer")</div>
 
 ## You’re a Civil Engineer by profession. Why did you change your career to software development?
 
@@ -37,7 +37,7 @@ Never. I believe that the path I made to become a software developer was the way
 
 I started my career as a **backend developer**. I first worked with **Java**. Then I got a chance at work to develop as a frontend dev as well. So I learned **TypeScript and Angular**. I realized that **I prefer to look at software holistically**. I like to know what happens on both sides.
 
-<div class="image"><img src="/images/ola_quote_fullstack.png" alt="Ola's quote" title="Ola's quote"  /> </div>
+<div class="image">![Ola's quote](../../static/images/ola_quote_fullstack.png "Ola's quote")</div>
 
 ## How did you get at Bright Inventions?
 
@@ -57,7 +57,7 @@ Even if I didn’t know the answer to a question or hadn’t worked with some to
 
 Not at all. When I log in to work every morning, I join our Slack community. We’ve got various Slack channels and a lot is going on there. I can feel the friendly atmosphere even through the internet. **I don’t need to be at the office to feel like at the office**.
 
-<div class="image"><img src="/images/ola_passion.png" alt="Ola's passions" title="Ola's passions"  /> </div>
+<div class="image">![Ola's passions](../../static/images/ola_passion.png "Ola's passions")</div>
 
 Naturally, it's nice to visit our office from time to time. Sometimes I miss kitchen conversations, spending offline time with colleagues, etc. However, **I don’t feel any distance between me and the office on a daily basis**.
 
@@ -79,7 +79,7 @@ One day at a school assembly, probably at the beginning of the school year, my t
 
 Music is still an important part of my life. I used to play a lot of sonatas and etudes. **Nowadays, I play mostly movie scores and top songs** in a duo with my husband who is a guitarist. Guitar and transverse flute aren’t a typical match, but it works out well for us. 😊
 
-<div class="image"><img src="/images/ola_passion2.png" alt="Ola's passions" title="Ola's passions"  /> </div>
+<div class="image">![Ola's passions](../../static/images/ola_passion2.png "Ola's passions")</div>
 
 ## You are a swimmer, having competed for years. Does being an athlete influence your work?
 
@@ -87,7 +87,7 @@ Definitely. When you train for swimming, you have two workouts a day. The first 
 
 Also, you have to be engaged and persistent to go on like that. **I stay focused on my goals and relentlessly try to reach them**. That’s really helpful at my work. **When I have a tech problem, I will work on it till I figure it out.** It‘s tough to discourage me. 
 
-<div class="image"><img src="/images/ola_quote_problem.png" alt="Ola's quote" title="Ola's quote"  /> </div>
+<div class="image">![Ola's quote](../../static/images/ola_quote_problem.png "Ola's quote")</div>
 
 ## Do you have some work goals for 2023? Is there anything you want to learn?
 

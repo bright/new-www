@@ -18,7 +18,7 @@ language: en
 
 But don't worry! In this blog post, **we'll explore a solution that lets you optimize WebSocket usage when your users open your application in different tabs or windows**. By sharing WebSocket connections between those tabs and windows, we can make your web application work more efficiently and smoothly. So, let's dive in and discover some helpful strategies for achieving seamless WebSocket connection sharing between browser tabs and windows.
 
-<div class="image"><img src="/images/websocket_blog_cover-1-.png" alt="WebSocket Connections" title="WebSocket Connections"  /> </div>
+<div class="image">![WebSocket Connections](../../static/images/websocket_blog_cover-1-.png "WebSocket Connections")</div>
 
 ## Introducing Shared Workers
 

@@ -1,4 +1,33 @@
-export const hiddenImageConfig = {
+import { EditorComponentField, EditorComponentOptions, PreviewTemplateComponentProps } from 'netlify-cms-core'
+import React from 'react'
+import { List, Map } from 'immutable'
+
+function srcFromSourceMarkdownToRelative(src: string | undefined) {
+  return (src?.startsWith('/') ? src : src?.replace('../../static', '')) ?? ''
+}
+
+function srcFromPreviewToRelativeInMarkdown(src: string | undefined) {
+  return (src?.startsWith('/') ? `../../static${src}` : src) ?? ''
+}
+
+interface ImageFieldData {
+  src: string
+  alt: string
+  title?: string
+  hideOnMobile?: boolean
+}
+
+type EditorComponentFieldOf<T> = EditorComponentField & {
+  name: keyof T
+}
+
+type EditorComponentOptionsOf<T> = Omit<EditorComponentOptions, 'fields' | 'toBlock' | 'toPreview'> & {
+  fields: EditorComponentFieldOf<T>[]
+  toBlock(data: T): string
+  toPreview(data: T, getAsset: PreviewTemplateComponentProps['getAsset'], fields: List<Map<string, any>>): React.ReactNode
+}
+
+export const hiddenImageConfig: EditorComponentOptionsOf<ImageFieldData> = {
   // Internal id of the component
   id: 'image',
   // Visible label
@@ -9,8 +38,6 @@ export const hiddenImageConfig = {
       name: 'src',
       label: 'Image',
       widget: 'image',
-      allow_multiple: false,
-      choose_url: false,
     },
     {
       name: 'alt',
@@ -37,18 +64,19 @@ export const hiddenImageConfig = {
   //
   // Additionally, it's recommended that you use non-greedy capturing groups (e.g.
   // `(.*?)` vs `(.*)`), especially if matching against newline characters.
-  pattern: /^<div class="(.*?)"><img src="(.*?)" alt="(.*?)" title="(.*?)" \/><\/div>$/s,
+  pattern: /^<div\s+class="(.*?)">\s*!\[(.*?)]\((.*?)\s*("(.*?)")?\)<\/div>$/s,
   // Given a RegExp Match object
   // (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match#return_value),
   // return an object with one property for each field defined in `fields`.
   //
   // This is used to populate the custom widget in the markdown editor in the CMS.
   fromBlock: function (match: any[]) {
+    const src: string = match[3]
     return {
-      src: match[1],
+      src: srcFromSourceMarkdownToRelative(src),
       alt: match[2],
-      title: match[3],
-      hideOnMobile: match[4],
+      title: match[5],
+      hideOnMobile: match[1],
     }
   },
   // Given an object with one property for each field defined in `fields`,
@@ -56,16 +84,22 @@ export const hiddenImageConfig = {
   //
   // This is used to serialize the data from the custom widget to the
   // markdown document
-  toBlock: function (data: { src: any; alt: string; hideOnMobile: boolean; title: string }) {
-    return `<div class="${data.hideOnMobile ? 'hide-on-mobile' : 'image'}"><img src="${data.src}" alt="${
-      data.alt
-    }" title="${data.title}"  /> </div>`
+  toBlock(data: ImageFieldData) {
+    const className = data.hideOnMobile ? 'hide-on-mobile' : 'image'
+    return `<div class="${className}">![${
+      data.alt ?? ''
+    }](${srcFromPreviewToRelativeInMarkdown(data.src)} "${data.title ?? ''}")</div>`
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
-  toPreview: function (data: { src: any; alt: string; hideOnMobile: boolean; title: string }) {
-    return `<div class="${data.hideOnMobile ? 'hide-on-mobile' : 'image'}"><img src="${data.src}" alt="${
-      data.alt
-    }" title="${data.title}"  /> </div>`
+  toPreview(data: ImageFieldData, getAsset, fields) {
+    const className = data.hideOnMobile ? 'hide-on-mobile' : 'image'
+    // const imageField = fields?.find(f => f?.get('widget') === 'image');
+    const src = getAsset(data.src);
+    return (
+      <div className={className}>
+        <img src={src.toString()} alt={data.alt} title={data.title} />
+      </div>
+    ) as unknown as string
   },
 }

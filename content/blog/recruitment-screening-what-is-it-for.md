@@ -19,7 +19,7 @@ language: en
 
 The purpose of screening is to verify candidates for a specific job position and present initial preferences, and requirements of the employer. Through screening, the recruiter has a chance to identify the most suitable candidates for the next stage of recruitment, while the candidate gets an opportunity to learn more details about the role they are applying for and about the company.
 
-<div class="image"><img src="/images/blogpost_screening.png" alt="candidate screening" title="candidate screening"  /> </div>
+<div class="image">![candidate screening](../../static/images/blogpost_screening.png "candidate screening")</div>
 
 # **HOW DOES SCREENING LOOK LIKE? WHAT CAN RECRUITERS ASK?**
 

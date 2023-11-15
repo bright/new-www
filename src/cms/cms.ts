@@ -26,6 +26,7 @@ import { GalleryCmsEditorComponent } from '../gallery.cms'
 import { SliderCmsEditorComponent } from '../slider.cms'
 import { AppStoreCmsEditorComponent } from '../app-store.cms'
 import { AnchorLinkCmsEditorComponent } from '../button.cms'
+import { EditorComponentOptions } from 'netlify-cms-core'
 
 applyFixForJumpingCursorIssue()
 
@@ -34,10 +35,10 @@ CMS.registerWidget('tags', TagsControl, TagsPreview)
 CMS.registerWidget('mdx', MarkdownWidget.controlComponent, MdxPreview)
 
 CMS.registerPreviewTemplate('blog', withPreviewFrameProvider(withStyledInjectedIntoPreviewFrame(BlogPostPreview)))
-CMS.registerEditorComponent({ ...buttonBlockConfig })
-CMS.registerEditorComponent({ ...hiddenImageConfig })
-CMS.registerEditorComponent({ ...importantInfoConfig })
-CMS.registerEditorComponent({ ...quoteConfig })
+CMS.registerEditorComponent(buttonBlockConfig)
+CMS.registerEditorComponent(hiddenImageConfig as EditorComponentOptions)
+CMS.registerEditorComponent(importantInfoConfig)
+CMS.registerEditorComponent(quoteConfig)
 CMS.registerEditorComponent(GiphyEmbedCmsEditorComponent)
 CMS.registerEditorComponent(InstagramEmbedCmsEditorComponent)
 CMS.registerEditorComponent(TwitterEmbedCmsEditorComponent)

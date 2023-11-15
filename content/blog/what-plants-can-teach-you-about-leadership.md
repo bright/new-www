@@ -32,7 +32,7 @@ All plants at our homes or in our gardens need some care and protection to grow.
 
 As we already know every plant has to be taken care of to grow. **But the point is to pay attention to individual needs of each and every.** A plant requiring “full sun” needs all the sunlight it can get, at least 6 to 8 hours of direct sun exposure per day. But there are plants which need only 3-4 hours of direct sunlight per day. There are also some that do not sun exposure almost at all. Other factors that make plants life easier are for instance proper temperature, moisture, air and nutrients. **The same works with people - people in a team need different things to grow.**
 
-<div class="image"><img src="/images/leader-expectations.jpeg" alt="undefined" title="liz and mollie leader qualities"  /> </div>
+<div class="image">![undefined](../../static/images/leader-expectations.jpeg "liz and mollie leader qualities")</div>
 
 **Some people need a bit of motivation and “push” to leave their comfort zone and then they thrive. For some it is enough when you check up their progress every now and then and water their leaves with doze of appreciation.** Others will need your support all the time as they are demanding, but they can blossom one day taking your breath away. As leaders we have to learn what works best for people we work with. 
 

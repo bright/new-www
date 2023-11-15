@@ -16,7 +16,7 @@ language: en
 ---
 **You have an idea for an app and are determined to develop it? Congratulations! But what if your idea had to be modified and your solution would need to pivot? Check out why many popular apps and web solutions had to change to make a success.** <br/>
 
-<div class="image"><img src="/images/mvp_pivot_blog.png" alt="App pivot MVP" title="MVP pivot"  /> </div>
+<div class="image">![App pivot MVP](../../static/images/mvp_pivot_blog.png "MVP pivot")</div>
 
 When you take first steps on the road of app development, you have to make a very important choice. You can develop every feature that you have imagined for your web or mobile app or you can just develop the necessary features to know the user's feedback and decide what’s next. 
 

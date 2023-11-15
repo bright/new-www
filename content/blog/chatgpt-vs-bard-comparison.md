@@ -15,7 +15,7 @@ language: en
 ---
 **ChatGPT-4 or Bard AI? What is better? After Google released a beta version of Bard we finally have more data to compare. The article is regularly updated. Feel free to bookmark/pocket it for later.**
 
-<div class="image"><img src="/images/chat_ai_comparision.png" alt="undefined" title="undefined"  /> </div>
+<div class="image">![undefined](../../static/images/chat_ai_comparision.png "undefined")</div>
 
 ## AI chat got into mainstream
 
@@ -48,7 +48,7 @@ GPT-4 👉 Don’t provide real-time data. **Its knowledge doesn’t go beyond S
 
 Will implementing ChatGPT with Bing be a first step to becoming a real competition against Google? Many have tried, but no one succeeded (yet?).
 
-<img src="/images/global-overview.png" alt="Digital 2023 Global Overview Report" title="undefined"  /> 
+<img src="/images/global-overview.png" alt="Digital 2023 Global Overview Report" title=""  /> 
 
 Source: [Digital 2023 Global Overview Report](https://datareportal.com/reports/digital-2023-global-overview-report)
 
@@ -84,7 +84,7 @@ ChatGPT-4 is available in the Plus subscribers plan which costs $20 a month. Whe
 
 Let’s start with ChatGPT which is widely used across the globe. Let us show you one example of ChatGPT's problematic response:
 
-<div class="image"><img src="/images/chatgpt_lincoln.png" alt="ChatGPT answer" title="undefined"  /> </div>
+<div class="image">![ChatGPT answer](../../static/images/chatgpt_lincoln.png "undefined")</div>
 
 Source: [https://theconversation.com/](https://theconversation.com/chatgpt-is-great-youre-just-using-it-wrong-198848)
 

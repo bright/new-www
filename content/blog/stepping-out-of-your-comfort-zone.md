@@ -23,7 +23,7 @@ Leaving your comfort zone means venturing into new territory, doing things you m
 
 When you step out of your comfort zone, your brain forges fresh neural pathways. Over time, these experiences become habits, leading to new skills and an expanded comfort zone. It's not just about trying new things; it's about connecting with people you might never have encountered and embracing previously unthinkable possibilities.
 
-<div class="image"><img src="/images/frame-43.png" alt="magic happens" title="undefined"  /> </div>
+<div class="image">![magic happens](../../static/images/frame-43.png "undefined")</div>
 
 ## 👧 My Personal Journey
 
@@ -39,7 +39,7 @@ Stepping out of your comfort zone is like widening its boundaries. We go beyond 
 
 When we embark on unfamiliar journeys or learn new skills, our brains release dopamine, responsible for that exhilarating feeling when you achieve something new. It's your shortcut to feeling good!
 
-<div class="image"><img src="/images/function-of-dopamine.jpg" alt="dopamine functions" title="undefined"  /> </div>
+<div class="image">![dopamine functions](../../static/images/function-of-dopamine.jpg "undefined")</div>
 
 ## 🗣️ Speaking the Uncomfortable Truth
 
@@ -49,7 +49,7 @@ Leaving your comfort zone also involves speaking uncomfortable truths, which can
 
 Leaving your comfort zone is best done in small steps and increments. Sometimes, taking a small step beyond the zone is better than leaping far beyond it.
 
-<div class="image"><img src="/images/screenshot-2023-09-20-at-14.32.01.png" alt="get out of your comfort zone fish" title="undefined"  /> </div>
+<div class="image">![get out of your comfort zone fish](../../static/images/screenshot-2023-09-20-at-14.32.01.png "undefined")</div>
 
 Life has a way of pushing us out of our comfort zones precisely when we need it most. It challenges us to adapt, learn, and grow, making us better versions of ourselves.
 

@@ -14,7 +14,7 @@ language: en
 ---
 **Do you feel that it's time to digitize your company’s operations? Should you have a dedicated app developed or maybe it’s better to use existing solutions on the market? Check how to make that decision. Find out how long it takes to build a customized solution for logistics and why it’s smart to start from MVP (Minimal Viable Product).**
 
-<div class="image"><img src="/images/logistics_photo_blog.png" alt="logistics" title="logistics"  /> </div>
+<div class="image">![logistics](../../static/images/logistics_photo_blog.png "logistics")</div>
 
 - - -
 
@@ -55,7 +55,7 @@ For some companies, off-the-shelf software will be perfectly fine. In some cases
 
 ## Example of digital transformation in logistics (case study)
 
-<div class="image"><img src="/images/tms_social_preview.png" alt="Transportation Management System" title="Transportation Management System"  /> </div>
+<div class="image">![Transportation Management System](../../static/images/tms_social_preview.png "Transportation Management System")</div>
 
 Read the case study of a [customized solution for forwarding company in the light road transport sector](/projects/transportation-management-system/) (up to 3.5 tons of the permissible total weight).
 
@@ -95,7 +95,7 @@ The typical app development flow estimates that MVP will be launched within a fe
 
 ### App Development Stages (including MVP phase):
 
-<div class="image"><img src="/images/timeline_app_development_stages.png" alt="Software development stages" title="undefined"  /> </div>
+<div class="image">![Software development stages](../../static/images/timeline_app_development_stages.png "undefined")</div>
 
 #### The idea for a product
 
