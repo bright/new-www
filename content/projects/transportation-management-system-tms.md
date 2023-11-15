@@ -16,12 +16,12 @@ layout: project
 project_id: tms
 title: "Revolutionizing Logistics: How We Transformed a Transport Management System"
 image: /images/tms_cover_2x.png
-description: The Transport Management System filters the perfect
-  listings in just 0.5 seconds, providing unparalleled speed and efficiency in
-  the logistics sector. With the ever-increasing demands of the logistics
-  industry, having the right tools in place is essential for smooth operations.
-  Our client's system is tailored to address their needs, ensuring optimal
-  performance and customer satisfaction.
+description: The Transport Management System filters the perfect listings in
+  just 0.5 seconds, providing unparalleled speed and efficiency in the logistics
+  sector. With the ever-increasing demands of the logistics industry, having the
+  right tools in place is essential for smooth operations. Our client's system
+  is tailored to address their needs, ensuring optimal performance and customer
+  satisfaction.
 hero_image: /images/case_study_road_transportation.png
 Hero Image_alt: Transportation Management System
 social_media_previev: /images/tms_social_preview.png
@@ -103,7 +103,7 @@ In terms of product design, the right **architectural information** is the key. 
 
 **At Bright Inventions, we took charge of every stage in creating the MVP** – from defining requirements and product design, through web development, rigorous quality testing, and efficient cloud management, to a successful launch. Naturally, our work didn't stop there. We are here for ongoing maintenance, too. The MVP took off in October 2022, and the client's team loved what they saw.
 
-<div class="image"><img src="/images/case_study_tms_client_quote.png" alt="client's review" title="client's review"  /> </div>
+<div class="image"><img src="/images/case_study_tms_client_quote_update.png" alt="Testimonial" title="Testimonial"  /> </div>
 
 ### Web development based on the latest technologies
 
@@ -155,4 +155,4 @@ MVP launch ensured the client that the system has the potential to change the da
 
 We’re delighted that **the client decided to continue our cooperation after a successful MVP launch – both web and mobile versions**. Now we focus on scaling the product in the post-MVP phase. Our team implements new features such as the electronic circulation of documents.
 
-We still work closely with end users, quickly responding to their feedback. Open communications, flexibility, and adaptability are the key factors of this successful digitalization. 
+We still work closely with end users, quickly responding to their feedback. Open communications, flexibility, and adaptability are the key factors of this successful digitalization.
