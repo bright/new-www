@@ -5,8 +5,15 @@ import { gatsbyMdxOptions } from './gatsby-mdx-options'
 import { RunnerOptions } from '@mdx-js/mdx/lib/util/resolve-evaluate-options'
 import { PromiseType } from './promise-type'
 
+
+let logged = false;
 export async function compileMDXToReactComponent({ MDXSource }: { MDXSource: string }) {
+  if(!logged){
+    logged = true;
+    console.log('compileMDXToReactComponent.runtime', runtime)
+  }
   const compile = await evaluate(MDXSource, {
+    development: false,
     ...(runtime as Pick<RunnerOptions, 'jsx' | 'Fragment' | 'jsxs'>),
     ...provider,
     ...gatsbyMdxOptions.mdxOptions,
