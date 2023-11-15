@@ -16,7 +16,7 @@ layout: project
 project_id: tms
 title: "Revolutionizing Logistics: How We Transformed a Transport Management System"
 image: /images/tms_cover_2x.png
-description: The Transport Management System at MAKO TSL filters the perfect
+description: The Transport Management System filters the perfect
   listings in just 0.5 seconds, providing unparalleled speed and efficiency in
   the logistics sector. With the ever-increasing demands of the logistics
   industry, having the right tools in place is essential for smooth operations.
@@ -149,7 +149,7 @@ MVP launch ensured the client that the system has the potential to change the da
 
 *Their flexible and professional approach to business was impressive. The difficulties encountered in the creation process were never a problem, only a challenge. All the set goals were met on time.*
 
-**Grzegorz Gajewski, Development & Training Manager @ MAKO TSL**
+**Grzegorz Gajewski, Development & Training Manager**
 
 <TitleWithIcon sectionTitle="what lies ahead for our collaboration with a leading logistics company?" titleIcon="/images/icon_title_products.svg" titleIconAlt="result" />
 
