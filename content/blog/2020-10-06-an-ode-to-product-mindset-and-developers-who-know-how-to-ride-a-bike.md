@@ -60,7 +60,7 @@ If you're still unsure about the whole product mindset thing or you'd like to di
 * A comprehensive overview of the organisations transformation from project mindset to the more product focused one in "Project to Product" by Mik Kersten (or start with one of his public speeches, like this [one](https://youtu.be/hrjvbTlirnk?si=bK8dVy26E3-G5eWH) 
 * Fascinating insight into users’ perspective and motivations in "User Friendly" by Cliff Kuang & Robert Fabricant or in "The Design of Everyday Things" by Don Norman 
 * An interesting concept of product engineers - developers with a great product thinking in [a video](https://youtu.be/OCP_HEhvIqM?si=rUZ3MQ-zRmhUNZ_E) by Sherif Mansour
-* For exploring mechanisms behind successful product management I'd recommend "Product Leadership" by Richard Banfield, Martin Eriksson & Nate Walkingshaw
+* For exploring mechanisms behind successful product management - "Product Leadership" by Richard Banfield, Martin Eriksson & Nate Walkingshaw
 * Bonus source - [Kent Beck’s newsletter](https://tidyfirst.substack.com/) with lots of code related ideas, but his main goal now is to “Help Geeks Feel Safe In The World” so plenty of soft skills and product related content as well.
 
-It's all just Agile attitude, in the end :)
+It's all just Agile, in the end :)
