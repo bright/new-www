@@ -1,14 +1,15 @@
 ---
-layout: post
-title: An ode to product mindset and developers who know how to ride a bike
-date: 2020-10-06T08:38:06.609Z
-image: /images/cycling-1533270_640.jpg
 author: kasia
 tags:
   - product mindset
   - product thinking
   - agile
   - agile mindset
+date: 2020-10-06T08:38:06.609Z
+meaningfullyUpdatedAt: 2023-11-16T18:31:26.379Z
+title: An ode to product mindset and developers who know how to ride a bike
+layout: post
+image: /images/cycling-1533270_640.jpg
 hidden: false
 comments: true
 published: true
@@ -38,4 +39,28 @@ When a client approaches us, she or him rarely asks us to deliver *a project*. W
 
 ## Bring the spark back
 
-Last but not least, let me bring up one thing. **The actual pleasure and excitement that comes from creating something**. Not just a button or an endpoint, but a whole solution, as a team. You don’t need to carve in wood or stone to be considered a creator - you create systems. I think it’s easy to forget between one git push and another that **writing software is really an art of creation**. There was nothing, emptiness of dev/null and then, line by line, something appears and works, is used by actual people who potentially find it helpful or fun. Moving tasks to Done, ticking them one by one is as satisfying as any To Do list but seeing the bigger picture and how the button you added actually works for people - that can be really fulfilling. **You just need to lift your eyes from the handlebar**, as soon as you’re ready. Look mum, no hands!
+Let me bring up one more thing to the table. **The actual pleasure and excitement that comes from creating something**. Not just a button or an endpoint, but a whole solution, as a team. You don’t need to carve in wood or stone to be considered a creator - you create systems. I think it’s easy to forget between one git push and another that **writing software is really an art of creation**. There was nothing, emptiness of dev/null and then, line by line, something appears and works, is used by actual people who potentially find it helpful or fun. Moving tasks to Done, ticking them one by one is as satisfying as any To Do list but seeing the bigger picture and how the button you added actually works for people - that can be really fulfilling. **You just need to lift your eyes from the handlebar**, as soon as you’re ready. Look mum, no hands!
+
+## Before you set off for the adventure
+
+As much as with biking the progress from unsteady pedalling to smooth journeys happens pretty fast and is easily noticeable, it can be more tricky when it comes to software development. It may take years and be more gradual. **So how do you know whether you’re really lifting your head from the code?** You may ask yourself a few simple questions
+
+1. Do I know the actual use case for the piece of code I’m working on right now? What’s the main business value to the client here?
+2. Do I know what my team mates are currently working on?
+3. How do I react when a pivot in a newly introduced feature is needed? Can I embrace the change coming after client's feedback? 
+4. What would I do if I felt that the acceptance criteria in my task are lacking or not aligned with other parts of the system? Would I notice this? Would I propose a solution to deliver the feature or follow acceptance criteria to be done with my task?
+
+Every project is different and of course the business perspective is not always accessible to the developers (or in fact project managers as well). However, **your mindset is your own personal power and asset**. Building a product focused attitude is a great value that will stay with you longer than your current project. 
+
+## Where to go next
+
+If you're still unsure about the whole product mindset thing or you'd like to dig deeper into the subject, I prepared a small and subjective list of some interesting and fun sources:
+
+* A straightforward summary of the topic in [this Your Daily Scrum podcast episode](https://www.scrum.org/resources/blog/yds-difference-between-project-and-product-mindset) 
+* A comprehensive overview of the organisations transformation from project mindset to the more product focused one in "Project to Product" by Mik Kersten (or start with one of his public speeches, like this [one](https://youtu.be/hrjvbTlirnk?si=bK8dVy26E3-G5eWH) 
+* Fascinating insight into users’ perspective and motivations in "User Friendly" by Cliff Kuang & Robert Fabricant or in "The Design of Everyday Things" by Don Norman 
+* An interesting concept of product engineers - developers with a great product thinking in [a video](https://youtu.be/OCP_HEhvIqM?si=rUZ3MQ-zRmhUNZ_E) by Sherif Mansour
+* For exploring mechanisms behind successful product management - "Product Leadership" by Richard Banfield, Martin Eriksson & Nate Walkingshaw
+* Bonus source - [Kent Beck’s newsletter](https://tidyfirst.substack.com/) with lots of code related ideas, but his main goal now is to “Help Geeks Feel Safe In The World” so plenty of soft skills and product related content as well.
+
+It's all just Agile in the end :)
