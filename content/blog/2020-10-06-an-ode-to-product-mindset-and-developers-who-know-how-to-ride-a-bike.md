@@ -50,7 +50,7 @@ As much as with biking the progress from unsteady pedalling to smooth journeys h
 3. How do I react when a pivot in a newly introduced feature is needed? Can I embrace the change coming after client's feedback? 
 4. What would I do if I felt that the acceptance criteria in my task are lacking or not aligned with other parts of the system? Would I notice this? Would I propose a solution to deliver the feature or follow acceptance criteria to be done with my task?
 
-Every project is different and of course the business perspective is not always accessible to the developers (or in fact project managers as well). However, **your mindset is your own personal power and asset**. Building a positive attitude is a great value that will stay with you longer than your current project. 
+Every project is different and of course the business perspective is not always accessible to the developers (or in fact project managers as well). However, **your mindset is your own personal power and asset**. Building a product focused attitude is a great value that will stay with you longer than your current project. 
 
 ## Where to go next
 
@@ -63,4 +63,4 @@ If you're still unsure about the whole product mindset thing or you'd like to di
 * For exploring mechanisms behind successful product management - "Product Leadership" by Richard Banfield, Martin Eriksson & Nate Walkingshaw
 * Bonus source - [Kent Beck’s newsletter](https://tidyfirst.substack.com/) with lots of code related ideas, but his main goal now is to “Help Geeks Feel Safe In The World” so plenty of soft skills and product related content as well.
 
-It's all just Agile, in the end :)
+It's all just Agile in the end :)
