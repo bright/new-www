@@ -27,7 +27,7 @@ I already [expressed my (complicated) love for Jira before](/blog/how-we-use-jir
 
 The focus on small steps is totally fine at the beginning of your career. It’s the same as learning how to ride a bike. You focus on small elements first, which pedal to push now or how to turn with the handlebar. Then you concentrate on the fact of riding itself and not falling down (too often). But after a while, you are able to choose a road and destination, focus on where you are getting to and maybe also enjoy the views. That’s what happens when you lift your head from the code and try to see what’s around you, what is the reason behind writing this specific piece of code. If you do that, you might actually have a say about where you are going to and which road to choose. Agile approach expects you to do it more often, one time analysis at the beginning of the project will not be enough. Check the road you’re on frequently and adjust it if necessary. **Without a perspective and context, it’s hard to have a sense of direction**. If you try making agile-like changes with a waterfall mindset you can end up in a state of child-like confusion. It’s a trap both for developers and managing figures - a whirlwind of acceptance criteria, statuses and looming deadlines can suck in everyone equally.
 
-<center>!\\[](/images/cycling-1533270_640.jpg)</center>
+<div class="image">![Cycling](../../static/images/bike_photo_blog.png "Cycling")</div>
 
 ## What a user wants, what a user needs
 
