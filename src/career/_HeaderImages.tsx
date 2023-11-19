@@ -194,7 +194,7 @@ const HeaderImages: React.FC = () => {
           />
           <StaticImage
             objectFit={'cover'}
-            src='../../static/images/career/header/ola_career.png'
+            src='../../static/images/career/header/ola_career_v2.png'
             alt={'Software developer career Poland'}
             className='image-veritical'
             imgClassName='image'
