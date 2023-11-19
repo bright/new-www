@@ -36,7 +36,7 @@ somewhere in the cloud. In this case JVM is just an unnecessary overhead, that w
 With [GraalVM](https://www.graalvm.org/) AOT (ahead-of-time) compilation we can achieve just that. And since it comes freely with Spring Boot 3.0
 it has never been a better time to start running your app on directly on the bare metal... or on the cloud's virtualized compute service.
 
-<div class="important-info">All the tests were made on MacBook Pro with Intel I7-9750H and 16GB of RAM. Benchmark app was running on GraalVM CE 22.3.0. 
+<div className="important-info">All the tests were made on MacBook Pro with Intel I7-9750H and 16GB of RAM. Benchmark app was running on GraalVM CE 22.3.0. 
 Numbers are an average from 10 consecutive runs.</div>
 
 ## Clean start

@@ -23,7 +23,7 @@ language: en
 
 Point of Sale (POS) is the checkout for customers who purchase goods or services. It's the place to execute the payment.
 
-<div class="important-info"><h2>Electronic Point of Sale</h2><div>Modern ePOS (electronic Point of Sale) is a combination of hardware and software that enable transactions.</div></div>
+<div className="important-info"><h2>Electronic Point of Sale</h2><div>Modern ePOS (electronic Point of Sale) is a combination of hardware and software that enable transactions.</div></div>
 
 In this article, we focus on hardware solutions that are a part of modern ePOS for retail and restaurants.
 

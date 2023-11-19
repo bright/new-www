@@ -37,7 +37,7 @@ Next, we need to create an app client. The app client is the client that our Nes
 
 We leave  `Generate client secret` unchecked as it is required for library we will use. Per `amazon-cognito-identity-js` documentation:
 
-<div class="important-info"><div>When creating the App, the generate client secret box must be unchecked because the JavaScript SDK doesn't support apps that have a client secret.</div></div>
+<div className="important-info"><div>When creating the App, the generate client secret box must be unchecked because the JavaScript SDK doesn't support apps that have a client secret.</div></div>
 
 After successfully creating Pool and Client, copy `Pool Id` and `App Client Id` as we will need it for configuration.
 

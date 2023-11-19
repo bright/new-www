@@ -17,7 +17,7 @@ language: en
 ---
 Companies mostly work “in projects” these days. It’s basically a shortcut for a team of people focused on a shared goal for some specific time. We are used to terms like “project success” or “project management”. No wonder people care about their projects and everything that comes with it - success or failure, deadlines and tasks. This is what the days consist of - *projects*. Ideally, from time to time, we take a deep breath and go through the whole system, thinking how our current task fits in the context. Thinking about *the product*. Sometimes though, we might lose ourselves in the day to day work, focusing on delivering a project and forgetting why exactly we have this whole thing going on. And it would be just such a shame - **developers are much more than just highly skilled workers, they are creators**. We just sometimes forget about it.
 
-<div class="hide-on-mobile">![Cycling](../../static/images/blogpost_bike.png "Cycling")</div>
+<div className="hide-on-mobile">![Cycling](../../static/images/blogpost_bike.png "Cycling")</div>
 
 ## The Jira trap
 

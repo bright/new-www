@@ -90,7 +90,7 @@ The community for juniors and more experienced female software developers who ar
 
 Global female tech community that came to life in Poland over 10 years ago. Since then Geek Girls Carrots have been organizing meetups, workshops, and mentoring for women in tech. They became a global movement, hosting meetings around the world.
 
-<div class="important-info"><h2>Geek Girls Carrots Update</h2><div>Geek Girls Carrots announced in February 2023 that they suspend their activities. Yet, we won't delete them from this list because we hope and truly believe that this organization will be back.</div></div>
+<div className="important-info"><h2>Geek Girls Carrots Update</h2><div>Geek Girls Carrots announced in February 2023 that they suspend their activities. Yet, we won't delete them from this list because we hope and truly believe that this organization will be back.</div></div>
 
 
 

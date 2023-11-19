@@ -69,7 +69,7 @@ For sure, a very important part of these messages is coloring. 🙂
 
 In UX design color, like iconography, has a special role. 
 
-<div class="important-info"><div>Color coding is simply a way to display information using different colors and shades. Color coding is ubiquitous and takes a huge part in our daily communication.</div></div>
+<div className="important-info"><div>Color coding is simply a way to display information using different colors and shades. Color coding is ubiquitous and takes a huge part in our daily communication.</div></div>
 
 As it is common in the digital world it originated from the past. 😉 It has been used in industries like electricity or hydraulics. 
 

@@ -22,7 +22,7 @@ language: en
 
 Let’s start with the basics. What multi-module-apps are and how they are different from single-module solutions?
 
-<div class="important-info"><h2>What is a multi-module approach?</h2><div>It is a modern way to design Android applications’ architecture. Instead of a single-module app, the codebase in multi-module apps isn’t one large monolith. It’s the opposite, it contains separated modules with code.</div></div>
+<div className="important-info"><h2>What is a multi-module approach?</h2><div>It is a modern way to design Android applications’ architecture. Instead of a single-module app, the codebase in multi-module apps isn’t one large monolith. It’s the opposite, it contains separated modules with code.</div></div>
 
 If you plan to build an Android mobile app, you should consider that option with your development team. Why? **Based on our experience in building multi-module apps we listed the advantages of this solution.**
 

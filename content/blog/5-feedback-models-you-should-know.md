@@ -50,7 +50,7 @@ That is the model in which you can find both substantive and behavioural element
 
 ![:pushpin:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4cc@2x.png)**What to remember?** Remember it is not about criticising, but about meeting the organisation’s and team’s standards. Recognise and avoid [the most common common mistakes during your feedback meetings](https://brightinventions.pl/blog/8-mistakes-you-make-while-giving-constructive-feedback). 
 
-<div class="important-info"><h2>Corrective feedback does not equal criticising </h2><div>The purpose is to improve performance and results. This can be through praise of good work, or constructive feedback when there is an issue that needs to be resolved.</div></div>
+<div className="important-info"><h2>Corrective feedback does not equal criticising </h2><div>The purpose is to improve performance and results. This can be through praise of good work, or constructive feedback when there is an issue that needs to be resolved.</div></div>
 
 ## **3. SBI-DB-II Model**  
 

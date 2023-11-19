@@ -55,7 +55,7 @@ According to [Acumen Research and Consulting](https://www.globenewswire.com/en/n
 
 When building an innovation you can never be sure if it adopts in the market. That’s why it is better to build a low-cost and fast MVP to minimize the risk of an unsuccessful investment.
 
-<div class="important-info"><div>An MVP, short for a Minimum Viable Product, is a software product that includes only the essential features necessary for launching and obtaining initial feedback from early adopters. It serves as a starting point for further development based on the insights gained from early users.</div></div>
+<div className="important-info"><div>An MVP, short for a Minimum Viable Product, is a software product that includes only the essential features necessary for launching and obtaining initial feedback from early adopters. It serves as a starting point for further development based on the insights gained from early users.</div></div>
 
 ## Top benefits of building an MVP for a smart packaging startup
 

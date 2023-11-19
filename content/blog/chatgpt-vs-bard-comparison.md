@@ -68,7 +68,7 @@ According to the promotional material provided by Google, we can assume that Bar
 
 It might make it even harder to organically build your website traffic. And what about advertisers? Where will be their place in this new equation?
 
-<div class="important-info"><h2>The challenge behind Bard</h2><div>Figuring a way that will satisfy advertisers, publishers and generally content creators might be more challenging than building the Bard itself.</div></div>
+<div className="important-info"><h2>The challenge behind Bard</h2><div>Figuring a way that will satisfy advertisers, publishers and generally content creators might be more challenging than building the Bard itself.</div></div>
 
 ## Which one is better for programmers?
 

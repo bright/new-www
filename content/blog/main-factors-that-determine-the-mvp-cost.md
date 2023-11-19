@@ -22,7 +22,7 @@ language: en
 
 Well-advanced apps like Uber or Google Maps may cost hundreds of thousands of dollars. Fortunately, **startups usually don’t have to begin with that budget**. The smart way to start app development is to create a prototype and then the MVP. MVP stands for Minimum Viable Product. It’s the very first version of your solution containing crucial features only. Then you can release MVP to a small group of users and see how they respond to it. According to the valuable feedback, you can develop your app eliminating crucial mistakes at the very beginning. 
 
-<div class="important-info"><div>MVP helps you invest less money to check if your idea has market potential. You start something small and develop it according to your users' needs.</div></div>
+<div className="important-info"><div>MVP helps you invest less money to check if your idea has market potential. You start something small and develop it according to your users' needs.</div></div>
 
 It’s a bit like buying a cheaper car just to see if driving to work is fine by you. Let's assume that you just passed your driving test and want to check if driving to work will be better for you than riding a bus. If you’re not sure what you want, the smart way is to buy a cheap car. Eventually, if you rather commute using buses there is a chance to sell your car without a feeling of a bad investment. However, if driving a car turns out to be a perfect solution for you – you can start to save money for a better vehicle.
 

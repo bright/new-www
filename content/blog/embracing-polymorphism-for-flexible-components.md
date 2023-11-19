@@ -23,7 +23,7 @@ language: en
 
 **They are versatile React components that can adapt their appearance and behavior based on the context in which they are used**. Unlike traditional components, which are rigidly defined by their structure and styling, polymorphic components allow you to customize their rendering based on the specific requirements of each instance.
 
-<div class="important-info"><h2>Why should you care about polymorphic components?</h2><div>Well, picture this: you're building a web app with various user interface elements, such as buttons, links, or even cards. Instead of creating separate components for each variant of these elements, polymorphic components empower you to build a single, flexible component that can effortlessly transform its appearance and functionality as needed.</div></div>
+<div className="important-info"><h2>Why should you care about polymorphic components?</h2><div>Well, picture this: you're building a web app with various user interface elements, such as buttons, links, or even cards. Instead of creating separate components for each variant of these elements, polymorphic components empower you to build a single, flexible component that can effortlessly transform its appearance and functionality as needed.</div></div>
 
 ## The Magic Behind Polymorphic Components
 

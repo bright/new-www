@@ -47,7 +47,7 @@ You will find here the work atmosphere that definitely stimulates personal growt
 
 Either you are a morning bird or a night owl, you will find a good time to work with us. You can start work from 6.00 to 10.00 a.m. **The time you work should comply to your efficiency curve.** If you prefer to work at home, we also do not see any problem with that, but remember that after all we want you to be an integral part of a team, not a remote stranger. Oh, and we are flexible also if it comes about the type of agreement you prefer. We really do not mind whether your choice is B2B, a permanent agreement or temporary one. You can choose the best one for you.
 
-<div class="important-info"><h2>We value responsibility and freedom </h2><div>The time you work should comply to your efficiency curve. If you prefer to work at home, we also do not see any problem with that, but remember that after all we want you to be an integral part of a team, not a remote stranger.</div></div>
+<div className="important-info"><h2>We value responsibility and freedom </h2><div>The time you work should comply to your efficiency curve. If you prefer to work at home, we also do not see any problem with that, but remember that after all we want you to be an integral part of a team, not a remote stranger.</div></div>
 
 ### 4. Because of knowledge sharing
 
