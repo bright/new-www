@@ -7,6 +7,7 @@ import {
 } from '../compile-mdx-to-react-component'
 import styled from 'styled-components'
 import { ErrorBoundary } from './error-boundary'
+import { mdxOptionsForPreviewOnly } from '../gatsby-mdx-options'
 
 interface MdxPreviewProps {
   value: string // actual mdx
@@ -20,7 +21,7 @@ export const MdxPreview = ({ value }: MdxPreviewProps) => {
   const [compiledResult, setCompiledResult] = useState<MDXCompiledContentOrError | null>(null)
 
   useEffect(() => {
-    compileMDXToReactComponentSafely(value).then(setCompiledResult)
+    compileMDXToReactComponentSafely(value, mdxOptionsForPreviewOnly).then(setCompiledResult)
   }, [value])
 
   const error = compiledResult?.error

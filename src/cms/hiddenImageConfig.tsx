@@ -3,7 +3,9 @@ import React from 'react'
 import { List, Map } from 'immutable'
 
 function srcFromSourceMarkdownToRelative(src: string | undefined) {
-  return (src?.startsWith('/') ? src : src?.replace('../../static', '')) ?? ''
+  const updated = (src?.startsWith('/') ? src : src?.replace('../../static', '')) ?? ''
+  console.log('srcFromSourceMarkdownToRelative', src , '->', updated)
+  return updated;
 }
 
 function srcFromPreviewToRelativeInMarkdown(src: string | undefined) {
@@ -96,6 +98,7 @@ export const hiddenImageConfig: EditorComponentOptionsOf<ImageFieldData> = {
     const className = data.hideOnMobile ? 'hide-on-mobile' : 'image'
     // const imageField = fields?.find(f => f?.get('widget') === 'image');
     const src = getAsset(data.src);
+    console.log('toPreview', {data, src})
     return (
       <div className={className}>
         <img src={src.toString()} alt={data.alt} title={data.title} />

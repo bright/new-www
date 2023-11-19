@@ -1,13 +1,13 @@
 import { evaluate } from '@mdx-js/mdx'
 import * as runtime from 'react/jsx-runtime'
 import * as provider from '@mdx-js/react'
-import { gatsbyMdxOptions } from './gatsby-mdx-options'
+import { gatsbyMdxOptions, mdxOptions as mdxOptionsDefault, MdxOptions } from './gatsby-mdx-options'
 import { RunnerOptions } from '@mdx-js/mdx/lib/util/resolve-evaluate-options'
 import { PromiseType } from './promise-type'
 
 
 let logged = false;
-export async function compileMDXToReactComponent({ MDXSource }: { MDXSource: string }) {
+export async function compileMDXToReactComponent({ MDXSource, mdxOptions = mdxOptionsDefault }: { MDXSource: string, mdxOptions?: MdxOptions }) {
   if(!logged){
     logged = true;
     console.log('compileMDXToReactComponent.runtime', runtime)
@@ -16,7 +16,7 @@ export async function compileMDXToReactComponent({ MDXSource }: { MDXSource: str
     development: false,
     ...(runtime as Pick<RunnerOptions, 'jsx' | 'Fragment' | 'jsxs'>),
     ...provider,
-    ...gatsbyMdxOptions.mdxOptions,
+    ...mdxOptions,
   })
   return {
     Component: compile.default,
@@ -35,10 +35,11 @@ export interface MdxCompilerError extends Error {
 }
 
 export async function compileMDXToReactComponentSafely(
-  value: string
+  value: string,
+  mdxOptions = mdxOptionsDefault
 ): Promise<{ error: MdxCompilerError; Component: null } | { Component: MDXCompiledContent; error: null }> {
   try {
-    const { Component } = await compileMDXToReactComponent({ MDXSource: value })
+    const { Component } = await compileMDXToReactComponent({ MDXSource: value, mdxOptions })
     return { Component, error: null }
   } catch (e) {
     console.error('Failed to compile mdx', { MDXSource: value, error: e })
